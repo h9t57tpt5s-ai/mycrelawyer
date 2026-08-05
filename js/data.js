@@ -595,6 +595,26 @@ const RELAW_DATA = {
         "The case is a live test of capital-stack priority on a stalled vertical construction project: a senior mortgage foreclosure trying to leapfrog both a perfected mechanics' lien and buyer deposit claims, running in parallel with a bankruptcy sale of an affiliated asset. How the court treats escrowed versus already-disbursed buyer deposits, and how it resolves the lien-priority fight, will be closely watched by lenders, contractors, and preconstruction condo buyers on other stalled towers."
       ],
       tags: ["foreclosure", "mechanics lien", "condo deposits", "construction lending", "chapter 11"]
+    },
+    {
+      id: "live-008",
+      title: "CommunityAmerica Federal Credit Union v. Metropoint 300/400 Owners (St. Louis Park Office Foreclosure)",
+      category: "lending-foreclosure",
+      status: "filed",
+      date: "2026-07-23",
+      jurisdiction: "Hennepin County District Court, Minnesota",
+      state: "MN",
+      amount: "$46M combined loan balance (two foreclosure suits)",
+      source: "live",
+      sourceUrl: "https://www.connectcre.com/stories/return-to-lender-week-of-july-23-2026/",
+      summary: "CommunityAmerica Federal Credit Union filed two foreclosure lawsuits in Hennepin County District Court against the owners of the Metropoint 300 and Metropoint 400 office buildings in St. Louis Park, Minnesota, seeking to recover roughly $46M after the 918,000-square-foot campus lost anchor tenant Wells Fargo, which had occupied more than half the complex. Both buildings are now scheduled for a foreclosure auction in September 2026.",
+      significance: "One of several office foreclosure actions filed nationally this summer (alongside a $417.7M foreclosure on Boca Raton's Mandarin Oriental Residences and a court-ordered receivership over San Francisco's Central Tower) signaling lenders are moving from forbearance to litigation more quickly as anchor-tenant departures and depressed appraisals erode office collateral value. Owners with looming lease rollovers near loan maturity should treat these filings as an early-warning benchmark for lender posture.",
+      body: [
+        "CommunityAmerica Federal Credit Union filed two separate foreclosure suits in Hennepin County District Court against the ownership of Metropoint 300 and Metropoint 400, a combined 918,000-square-foot office campus in St. Louis Park, Minnesota, seeking to recover roughly $46M across the two loans.",
+        "The filings follow the departure of Wells Fargo, which had occupied more than half the campus as its anchor tenant. With that space vacated, the properties' income and appraised value fell enough to push the loans into default, and both buildings are now scheduled for a foreclosure auction in September 2026.",
+        "The case lands alongside a wave of other office foreclosure actions filed nationally this summer, including a $417.7M foreclosure on Boca Raton's Mandarin Oriental Residences and a court-ordered receivership over San Francisco's Central Tower — a pattern suggesting lenders are moving from forbearance to litigation more quickly as anchor-tenant departures and depressed appraisals continue to erode office collateral value. Owners with lease rollovers approaching loan maturity should read these filings as an early signal of where lender patience is running out."
+      ],
+      tags: ["foreclosure", "office", "anchor tenant", "credit union", "minnesota"]
     }
   ]
 };
