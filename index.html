@@ -1,0 +1,307 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>MyCRELawyer — Commercial Real Estate Litigation Intelligence</title>
+<meta name="description" content="MyCRELawyer tracks significant litigation and legal developments affecting commercial real estate owners, managers, developers, and REITs." />
+<link rel="icon" href="img/favicon.svg" type="image/svg+xml" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+<div class="nav-scrim"></div>
+<nav class="nav">
+  <div class="container">
+    <a href="index.html" class="brand">
+      <svg class="brand-mark" viewBox="0 0 32 32" fill="none"><path d="M6 26h20M8 26V14M12 26V14M16 26V14M20 26V14M24 26V14M4 14l12-8 12 8" stroke="var(--accent)" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/></svg>
+      <span>My<span class="brand-accent">CRE</span>Lawyer<small>CRE LITIGATION INTELLIGENCE</small></span>
+    </a>
+    <ul class="nav-links">
+      <li><a href="index.html" class="active">Home</a></li>
+      <li><a href="litigation.html">Litigation Tracker</a></li>
+      <li><a href="updates.html">Updates</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <div class="nav-cta">
+      <a href="litigation.html" class="btn btn-primary btn-sm">
+        Explore Tracker
+        <svg viewBox="0 0 24 24" fill="none"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </a>
+      <button class="nav-toggle" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</nav>
+
+<!-- ================= HERO ================= -->
+<header class="hero">
+  <div class="hero-glow"></div>
+  <div class="container hero-grid">
+    <div>
+      <div class="eyebrow reveal in-view">Built for owners, managers, developers &amp; REITs</div>
+      <h1 class="reveal in-view">Where commercial real estate meets the courtroom.</h1>
+      <p class="lede mt-24 reveal in-view">MyCRELawyer tracks the litigation, regulatory actions, and legal disputes reshaping ownership, lending, leasing, and development across the CRE industry — organized so your team can see what matters, fast.</p>
+      <div class="hero-actions reveal in-view">
+        <a href="litigation.html" class="btn btn-primary">
+          Open the Litigation Tracker
+          <svg viewBox="0 0 24 24" fill="none"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </a>
+        <a href="about.html" class="btn btn-ghost">How we cover it</a>
+      </div>
+      <div class="hero-stats reveal in-view">
+        <div class="hero-stat">
+          <div class="num"><span id="stat-matters" data-count="0">0</span></div>
+          <div class="label">Tracked Matters</div>
+        </div>
+        <div class="hero-stat">
+          <div class="num"><span data-count="8">0</span></div>
+          <div class="label">Practice Areas</div>
+        </div>
+        <div class="hero-stat">
+          <div class="num"><span data-count="5">0</span></div>
+          <div class="label">Case Statuses</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="skyline-wrap reveal in-view">
+      <svg viewBox="0 0 640 520" fill="none" aria-hidden="true">
+        <defs>
+          <linearGradient id="fadeMask" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0" stop-color="white" stop-opacity="0"/>
+            <stop offset="0.18" stop-color="white" stop-opacity="1"/>
+            <stop offset="1" stop-color="white" stop-opacity="1"/>
+          </linearGradient>
+          <mask id="skylineMask"><rect x="0" y="0" width="640" height="520" fill="url(#fadeMask)"/></mask>
+        </defs>
+
+        <!-- accent grid: back layer, minimal parallax -->
+        <g class="parallax-layer" data-depth="4" opacity="0.5">
+          <line x1="0" y1="480" x2="640" y2="480" stroke="var(--border)" stroke-width="1"/>
+          <line x1="160" y1="60" x2="160" y2="480" stroke="var(--border)" stroke-width="1" stroke-dasharray="2 6"/>
+          <line x1="480" y1="60" x2="480" y2="480" stroke="var(--border)" stroke-width="1" stroke-dasharray="2 6"/>
+        </g>
+
+        <g mask="url(#skylineMask)">
+          <!-- mid layer: surrounding buildings -->
+          <g class="parallax-layer" data-depth="8">
+            <rect x="20"  y="300" width="50" height="180" rx="2" fill="var(--surface)" stroke="var(--border)"/>
+            <rect x="75"  y="220" width="35" height="260" rx="2" fill="var(--surface)" stroke="var(--border)"/>
+            <rect x="115" y="140" width="60" height="340" rx="2" fill="var(--bg-elevated)" stroke="var(--border)"/>
+            <rect x="180" y="260" width="40" height="220" rx="2" fill="var(--surface)" stroke="var(--border)"/>
+            <rect x="225" y="180" width="55" height="300" rx="2" fill="var(--bg-elevated)" stroke="var(--border)"/>
+            <rect x="285" y="320" width="30" height="160" rx="2" fill="var(--surface)" stroke="var(--border)"/>
+            <rect x="395" y="240" width="45" height="240" rx="2" fill="var(--surface)" stroke="var(--border)"/>
+            <rect x="445" y="170" width="60" height="310" rx="2" fill="var(--bg-elevated)" stroke="var(--border)"/>
+            <rect x="510" y="280" width="35" height="200" rx="2" fill="var(--surface)" stroke="var(--border)"/>
+            <rect x="550" y="220" width="50" height="260" rx="2" fill="var(--surface)" stroke="var(--border)"/>
+            <rect x="605" y="330" width="25" height="150" rx="2" fill="var(--surface)" stroke="var(--border)"/>
+          </g>
+
+          <g class="parallax-layer" data-depth="10" fill="var(--accent)" opacity="0.35">
+            <rect x="130" y="160" width="8" height="10"/>
+            <rect x="146" y="160" width="8" height="10"/>
+            <rect x="130" y="182" width="8" height="10"/>
+            <rect x="146" y="182" width="8" height="10"/>
+            <rect x="130" y="204" width="8" height="10"/>
+            <rect x="146" y="204" width="8" height="10"/>
+            <rect x="460" y="190" width="8" height="10"/>
+            <rect x="478" y="190" width="8" height="10"/>
+            <rect x="460" y="212" width="8" height="10"/>
+            <rect x="478" y="212" width="8" height="10"/>
+          </g>
+
+          <!-- front layer: hero tower, most parallax -->
+          <g class="parallax-layer" data-depth="18">
+            <rect x="320" y="100" width="70" height="380" rx="2" fill="var(--bg-elevated)" stroke="var(--accent-deep)"/>
+
+            <line x1="355" y1="100" x2="355" y2="66" stroke="var(--accent-deep)" stroke-width="2"/>
+            <circle cx="355" cy="62" r="4" fill="var(--accent-bright)">
+              <animate attributeName="opacity" values="1;0.25;1" dur="2.4s" repeatCount="indefinite"/>
+            </circle>
+
+            <g fill="var(--accent)">
+              <rect x="332" y="118" width="8" height="10" opacity="0.15"/>
+              <rect x="348" y="118" width="8" height="10" opacity="0.7"/>
+              <rect x="364" y="118" width="8" height="10" opacity="0.15"/>
+              <rect x="380" y="118" width="8" height="10" opacity="0.15"/>
+              <rect x="332" y="140" width="8" height="10" opacity="0.7"/>
+              <rect x="348" y="140" width="8" height="10" opacity="0.15"/>
+              <rect x="364" y="140" width="8" height="10" opacity="0.7"/>
+              <rect x="380" y="140" width="8" height="10" opacity="0.15"/>
+              <rect x="332" y="162" width="8" height="10" opacity="0.15"/>
+              <rect x="348" y="162" width="8" height="10" opacity="0.15"/>
+              <rect x="364" y="162" width="8" height="10" opacity="0.7"/>
+              <rect x="380" y="162" width="8" height="10" opacity="0.15"/>
+              <rect x="332" y="184" width="8" height="10" opacity="0.7"/>
+              <rect x="348" y="184" width="8" height="10" opacity="0.7"/>
+              <rect x="364" y="184" width="8" height="10" opacity="0.15"/>
+              <rect x="380" y="184" width="8" height="10" opacity="0.15"/>
+            </g>
+          </g>
+        </g>
+
+        <!-- floating markers = "active matters", frontmost layer -->
+        <g class="parallax-layer" data-depth="26">
+          <circle cx="150" cy="150" r="4" fill="var(--status-pending)">
+            <animate attributeName="r" values="4;6;4" dur="3s" repeatCount="indefinite"/>
+          </circle>
+          <circle cx="470" cy="185" r="4" fill="var(--status-ruling)">
+            <animate attributeName="r" values="4;6;4" dur="3.6s" repeatCount="indefinite"/>
+          </circle>
+          <circle cx="240" cy="200" r="3.5" fill="var(--status-filed)">
+            <animate attributeName="r" values="3.5;5.5;3.5" dur="2.8s" repeatCount="indefinite"/>
+          </circle>
+        </g>
+      </svg>
+    </div>
+  </div>
+</header>
+
+<!-- ================= TICKER ================= -->
+<div class="ticker">
+  <div class="ticker-track" id="ticker-track"></div>
+</div>
+
+<!-- ================= FEATURED CASES ================= -->
+<section class="section">
+  <div class="container">
+    <div class="section-head reveal">
+      <div>
+        <div class="eyebrow">Recently Tracked</div>
+        <h2>Matters our editors are watching</h2>
+      </div>
+      <a href="updates.html" class="btn btn-ghost btn-sm">View all updates
+        <svg viewBox="0 0 24 24" fill="none"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </a>
+    </div>
+    <div class="grid-3 reveal-stagger" id="featured-grid"></div>
+  </div>
+</section>
+
+<!-- ================= CATEGORIES ================= -->
+<section class="section section-tight" style="background:var(--bg-elevated); border-top:1px solid var(--border-soft); border-bottom:1px solid var(--border-soft);">
+  <div class="container">
+    <div class="section-head reveal">
+      <div>
+        <div class="eyebrow">Coverage Areas</div>
+        <h2>Eight practice areas, one dashboard</h2>
+      </div>
+      <p class="lede">From zoning fights to REIT securities claims, we organize legal developments the way CRE teams actually think about risk.</p>
+    </div>
+    <div class="grid-4 reveal-stagger" id="category-grid"></div>
+  </div>
+</section>
+
+<!-- ================= VALUE PROP ================= -->
+<section class="section">
+  <div class="container">
+    <div class="section-head reveal">
+      <div>
+        <div class="eyebrow">Why MyCRELawyer</div>
+        <h2>Built for people who own, manage, and finance real property — not just lawyers.</h2>
+      </div>
+    </div>
+    <div class="grid-3 reveal-stagger">
+      <div class="card">
+        <h3>Industry-first framing</h3>
+        <p class="text-secondary mt-16">Every matter is written for portfolio, asset management, and investment teams — what happened, why it matters, and what it signals for underwriting and operations.</p>
+      </div>
+      <div class="card">
+        <h3>Structured, filterable data</h3>
+        <p class="text-secondary mt-16">Filter by practice area, status, and jurisdiction to isolate exposure relevant to your asset classes — office, industrial, retail, multifamily, and hospitality.</p>
+      </div>
+      <div class="card">
+        <h3>Built to extend</h3>
+        <p class="text-secondary mt-16">The tracker is designed to connect to real case-management feeds, RSS, or a CMS — this build ships with clearly labeled sample data so the interface can be evaluated end-to-end.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= CTA ================= -->
+<section class="section-tight">
+  <div class="container">
+    <div class="card reveal" style="padding:56px; display:flex; align-items:center; justify-content:space-between; gap:32px; flex-wrap:wrap; background:linear-gradient(135deg, var(--surface), var(--bg-elevated));">
+      <div>
+        <h2 style="font-size:clamp(1.6rem,2.6vw,2.2rem);">See the full litigation landscape.</h2>
+        <p class="text-secondary mt-16" style="max-width:520px;">Open the tracker to search, filter, and explore every matter on an interactive timeline.</p>
+      </div>
+      <a href="litigation.html" class="btn btn-primary">
+        Open the Litigation Tracker
+        <svg viewBox="0 0 24 24" fill="none"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </a>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="disclosure reveal" style="margin-bottom:48px;">
+      <svg viewBox="0 0 24 24" fill="none"><path d="M12 9v4M12 17h.01M10.29 3.86l-8.18 14.18A2 2 0 004 21h16a2 2 0 001.89-2.96L13.71 3.86a2 2 0 00-3.42 0z" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      <span><strong>Mixed content notice:</strong> most matters shown are fictional, illustrative entries built to demonstrate this interface — not real litigation. Entries marked <strong>Verified Update</strong> are real, sourced developments. See <a href="about.html" class="text-accent" style="display:inline;">About</a> for details.</span>
+    </div>
+    <div class="footer-grid">
+      <div class="footer-col">
+        <a href="index.html" class="brand" style="margin-bottom:14px;">
+          <svg class="brand-mark" viewBox="0 0 32 32" fill="none"><path d="M6 26h20M8 26V14M12 26V14M16 26V14M20 26V14M24 26V14M4 14l12-8 12 8" stroke="var(--accent)" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/></svg>
+          <span>My<span class="brand-accent">CRE</span>Lawyer</span>
+        </a>
+        <p style="max-width:280px;">Litigation intelligence for commercial real estate owners, managers, developers, and REITs.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Navigate</h4>
+        <a href="index.html">Home</a>
+        <a href="litigation.html">Litigation Tracker</a>
+        <a href="updates.html">Updates</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <div class="footer-col">
+        <h4>Practice Areas</h4>
+        <a href="litigation.html?category=landlord-tenant">Landlord–Tenant</a>
+        <a href="litigation.html?category=reit-securities">REIT &amp; Securities</a>
+        <a href="litigation.html?category=zoning-land-use">Zoning &amp; Land Use</a>
+        <a href="litigation.html?category=construction-defect">Construction Defect</a>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <a href="mailto:hello@mycrelawyer.com">hello@mycrelawyer.com</a>
+        <a href="contact.html">Contact form</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span data-year></span> MyCRELawyer. Demonstration site — sample data throughout.</span>
+      <span>Not legal advice. For informational purposes only.</span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/data.js"></script>
+<script>document.getElementById("stat-matters").setAttribute("data-count", RELAW_DATA.cases.length);</script>
+<script src="js/main.js"></script>
+<script src="js/motion.js"></script>
+<script src="js/timeline.js"></script>
+<script>
+  (function () {
+    const featured = [...RELAW_DATA.cases].sort((a,b) => new Date(b.date) - new Date(a.date)).slice(0, 3);
+    document.getElementById("featured-grid").innerHTML = featured.map(window.RELAW_UTILS.caseCardHtml).join("");
+    document.querySelectorAll("#featured-grid .reveal").forEach(el => el.classList.add("in-view"));
+
+    const catGrid = document.getElementById("category-grid");
+    catGrid.innerHTML = RELAW_DATA.categories.map(cat => {
+      const count = RELAW_DATA.cases.filter(c => c.category === cat.id).length;
+      return `<a href="litigation.html?category=${cat.id}" class="card" style="display:block;">
+        <span class="badge-dot" style="display:inline-block;background:${cat.color}; width:10px; height:10px; border-radius:50%; margin-bottom:16px;"></span>
+        <h3 style="font-size:1.05rem;">${cat.label}</h3>
+        <p class="text-muted mono" style="font-size:12.5px; margin-top:10px;">${count} tracked matter${count === 1 ? '' : 's'}</p>
+      </a>`;
+    }).join("");
+  })();
+</script>
+</body>
+</html>

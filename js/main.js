@@ -1,0 +1,250 @@
+/* =========================================================
+   MyCRELawyer — Shared site behavior
+   Nav state, mobile menu, scroll reveals, count-up stats, ticker
+   ========================================================= */
+
+(function () {
+  "use strict";
+
+  /* ---------- Nav scroll state ---------- */
+  const nav = document.querySelector(".nav");
+  if (nav) {
+    const onScroll = () => {
+      nav.classList.toggle("is-scrolled", window.scrollY > 12);
+    };
+    onScroll();
+    window.addEventListener("scroll", onScroll, { passive: true });
+  }
+
+  /* ---------- Mobile nav toggle ---------- */
+  const navToggle = document.querySelector(".nav-toggle");
+  const navLinks = document.querySelector(".nav-links");
+  const navScrim = document.querySelector(".nav-scrim");
+  if (navToggle && navLinks) {
+    const closeMenu = () => {
+      navToggle.classList.remove("open");
+      navLinks.classList.remove("open");
+      if (navScrim) navScrim.classList.remove("open");
+      document.body.style.overflow = "";
+    };
+    const openMenu = () => {
+      navToggle.classList.add("open");
+      navLinks.classList.add("open");
+      if (navScrim) navScrim.classList.add("open");
+      document.body.style.overflow = "hidden";
+    };
+    navToggle.addEventListener("click", () => {
+      navToggle.classList.contains("open") ? closeMenu() : openMenu();
+    });
+    if (navScrim) navScrim.addEventListener("click", closeMenu);
+    navLinks.querySelectorAll("a").forEach((a) => a.addEventListener("click", closeMenu));
+  }
+
+  /* ---------- Scroll reveal ---------- */
+  const revealEls = document.querySelectorAll(".reveal, .reveal-stagger");
+  if (revealEls.length && "IntersectionObserver" in window) {
+    const io = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add("in-view");
+            io.unobserve(entry.target);
+          }
+        });
+      },
+      { threshold: 0.14, rootMargin: "0px 0px -40px 0px" }
+    );
+    revealEls.forEach((el) => io.observe(el));
+  } else {
+    revealEls.forEach((el) => el.classList.add("in-view"));
+  }
+
+  /* ---------- Count-up stats ---------- */
+  function animateCount(el) {
+    const target = parseFloat(el.getAttribute("data-count"));
+    const suffix = el.getAttribute("data-suffix") || "";
+    const duration = 1400;
+    const start = performance.now();
+    const isInt = Number.isInteger(target);
+
+    function tick(now) {
+      const p = Math.min((now - start) / duration, 1);
+      const eased = 1 - Math.pow(1 - p, 3);
+      const val = target * eased;
+      el.textContent = (isInt ? Math.round(val) : val.toFixed(1)) + suffix;
+      if (p < 1) requestAnimationFrame(tick);
+    }
+    requestAnimationFrame(tick);
+  }
+
+  const countEls = document.querySelectorAll("[data-count]");
+  if (countEls.length && "IntersectionObserver" in window) {
+    const countIo = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            animateCount(entry.target);
+            countIo.unobserve(entry.target);
+          }
+        });
+      },
+      { threshold: 0.6 }
+    );
+    countEls.forEach((el) => countIo.observe(el));
+  }
+
+  /* ---------- Footer year ---------- */
+  document.querySelectorAll("[data-year]").forEach((el) => {
+    el.textContent = new Date().getFullYear();
+  });
+
+  /* ---------- Ticker (built from sample data) ---------- */
+  const tickerTrack = document.getElementById("ticker-track");
+  if (tickerTrack && typeof RELAW_DATA !== "undefined") {
+    const catMap = Object.fromEntries(RELAW_DATA.categories.map((c) => [c.id, c]));
+    const recent = [...RELAW_DATA.cases]
+      .sort((a, b) => new Date(b.date) - new Date(a.date))
+      .slice(0, 10);
+
+    const itemHtml = (c) => {
+      const cat = catMap[c.category];
+      return `<span class="ticker-item"><span class="ticker-dot" style="background:${cat.color}"></span>${formatDate(c.date)} — ${c.title}</span>`;
+    };
+
+    const html = recent.map(itemHtml).join("") + recent.map(itemHtml).join("");
+    tickerTrack.innerHTML = html;
+  }
+
+  function formatDate(iso) {
+    const d = new Date(iso + "T00:00:00");
+    return d.toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric" });
+  }
+
+  /* ---------- Shared render helpers ---------- */
+  function categoryById(id) {
+    return RELAW_DATA.categories.find((c) => c.id === id);
+  }
+  function statusById(id) {
+    return RELAW_DATA.statuses.find((s) => s.id === id);
+  }
+
+  function caseCardHtml(c) {
+    const cat = categoryById(c.category);
+    const status = statusById(c.status);
+    const isLive = c.source === "live";
+    return `
+      <article class="card case-card reveal" data-case-id="${c.id}">
+        <div class="case-card-top">
+          <span class="badge" style="background:color-mix(in srgb, ${cat.color} 16%, transparent); color:${cat.color}; border:1px solid color-mix(in srgb, ${cat.color} 35%, transparent);">
+            <span class="badge-dot" style="background:${cat.color}"></span>${cat.label}
+          </span>
+          ${isLive ? `<span class="badge badge-live">Verified Update</span>` : ""}
+          <span class="status-pill" style="color:${status.color}">
+            <span class="dot" style="background:${status.color}"></span>${status.label}
+          </span>
+        </div>
+        <h3>${c.title}</h3>
+        <p class="summary">${c.summary}</p>
+        <div class="case-card-meta">
+          <span>${formatDate(c.date)}</span>
+          <span>${c.jurisdiction}</span>
+        </div>
+      </article>`;
+  }
+
+  window.RELAW_UTILS = window.RELAW_UTILS || {};
+  window.RELAW_UTILS.formatDate = formatDate;
+  window.RELAW_UTILS.categoryById = typeof RELAW_DATA !== "undefined" ? categoryById : null;
+  window.RELAW_UTILS.statusById = typeof RELAW_DATA !== "undefined" ? statusById : null;
+  window.RELAW_UTILS.caseCardHtml = typeof RELAW_DATA !== "undefined" ? caseCardHtml : null;
+
+  /* ---------- Detail panel (shared across pages) ---------- */
+  function buildDetailPanel() {
+    if (document.getElementById("detail-panel")) return;
+    const overlay = document.createElement("div");
+    overlay.className = "overlay";
+    overlay.id = "detail-overlay";
+    const panel = document.createElement("div");
+    panel.className = "detail-panel";
+    panel.id = "detail-panel";
+    document.body.appendChild(overlay);
+    document.body.appendChild(panel);
+
+    function close() {
+      overlay.classList.remove("open");
+      panel.classList.remove("open");
+      document.body.style.overflow = "";
+    }
+    overlay.addEventListener("click", close);
+    document.addEventListener("keydown", (e) => {
+      if (e.key === "Escape") close();
+    });
+
+    window.RELAW_UTILS.openCaseDetail = function (caseId) {
+      const c = RELAW_DATA.cases.find((x) => x.id === caseId);
+      if (!c) return;
+      const cat = categoryById(c.category);
+      const status = statusById(c.status);
+      const isLive = c.source === "live";
+      const stateName = (c.state && RELAW_DATA.states[c.state]) || c.state || "—";
+
+      let articleHtml;
+      if (c.body && c.body.length) {
+        articleHtml = c.body.map((p) => `<p class="body-text">${p}</p>`).join("");
+        if (isLive && c.sourceUrl) {
+          articleHtml += `<p class="body-text"><a href="${c.sourceUrl}" target="_blank" rel="noopener">Original source ↗</a></p>`;
+        }
+      } else if (isLive) {
+        articleHtml = `
+          <div class="article-pending">
+            <p class="body-text" style="margin-bottom:14px;">The full digest write-up for this update hasn't synced from the research feed yet — only the summary above is available right now.</p>
+            ${c.sourceUrl ? `<a href="${c.sourceUrl}" target="_blank" rel="noopener" class="btn btn-ghost btn-sm">Read the original reporting ↗</a>` : ""}
+          </div>`;
+      } else {
+        articleHtml = `<p class="body-text">Full write-up not available for this entry.</p>`;
+      }
+
+      panel.innerHTML = `
+        <div class="top-row">
+          ${isLive
+            ? `<span class="badge badge-live">Verified Update</span>`
+            : `<span class="badge badge-sample">Sample Entry</span>`}
+          <button class="detail-close" aria-label="Close" id="detail-close-btn">
+            <svg viewBox="0 0 24 24" fill="none" width="16" height="16"><path d="M6 6l12 12M18 6L6 18" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+          </button>
+        </div>
+        <span class="badge" style="background:color-mix(in srgb, ${cat.color} 16%, transparent); color:${cat.color}; border:1px solid color-mix(in srgb, ${cat.color} 35%, transparent);">
+          <span class="badge-dot" style="background:${cat.color}"></span>${cat.label}
+        </span>
+        <h2>${c.title}</h2>
+        <span class="status-pill" style="color:${status.color}"><span class="dot" style="background:${status.color}"></span>${status.label}</span>
+        <div class="detail-meta-grid">
+          <div><div class="label">Date</div><div class="value">${formatDate(c.date)}</div></div>
+          <div><div class="label">State</div><div class="value">${stateName}</div></div>
+          <div style="grid-column:1 / -1;"><div class="label">Jurisdiction</div><div class="value">${c.jurisdiction}</div></div>
+          <div><div class="label">Amount / Scale</div><div class="value">${c.amount}</div></div>
+          <div><div class="label">Status</div><div class="value">${status.label}</div></div>
+        </div>
+        <p class="body-text">${c.summary}</p>
+        <h3 style="margin-bottom:10px;">Why it matters</h3>
+        <p class="body-text">${c.significance}</p>
+        <div class="rule mt-24" style="margin-bottom:24px;"></div>
+        <h3 style="margin-bottom:14px;">Full Article</h3>
+        ${articleHtml}
+        <div class="tag-row">${c.tags.map((t) => `<span class="detail-tag">${t}</span>`).join("")}</div>
+      `;
+      document.getElementById("detail-close-btn").addEventListener("click", close);
+      overlay.classList.add("open");
+      panel.classList.add("open");
+      document.body.style.overflow = "hidden";
+    };
+  }
+
+  if (typeof RELAW_DATA !== "undefined") {
+    buildDetailPanel();
+    document.addEventListener("click", (e) => {
+      const cardEl = e.target.closest("[data-case-id]");
+      if (cardEl) window.RELAW_UTILS.openCaseDetail(cardEl.getAttribute("data-case-id"));
+    });
+  }
+})();

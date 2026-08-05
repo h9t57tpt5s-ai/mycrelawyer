@@ -1,0 +1,27 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm create *)",
+      "Bash(command -v brew)",
+      "Read(//opt/homebrew/**)",
+      "Bash(grep -E '^node$|^npm$')",
+      "Read(//usr/local/**)",
+      "Bash(command -v python3)",
+      "Bash(grep -noE \"#[0-9a-fA-F]{3,8}|rgba?\\\\\\([^\\)]+\\\\\\)\" css/styles.css)",
+      "Bash(lsof -i :4173 -sTCP:LISTEN)",
+      "Bash(curl -s http://localhost:4173/js/timeline.js)",
+      "Bash(curl -s http://localhost:4173/js/main.js)",
+      "Bash(curl -s http://localhost:4173/litigation.html)",
+      "Bash(lsof -i :4173 -sTCP:LISTEN -t)",
+      "Bash(xargs -r kill)",
+      "Bash(curl -sI http://localhost:4173/js/data.js)",
+      "Bash(curl -sIL https://raw.githubusercontent.com/dwtkns/svg-us-map/master/us-states.svg)",
+      "Bash(curl -s \"https://api.github.com/repos/robflaherty/us-map-raphael/contents/\")",
+      "Bash(python3 -c \"import json,sys; [print\\(f['name']\\) for f in json.load\\(sys.stdin\\)]\")",
+      "Bash(curl -s https://raw.githubusercontent.com/robflaherty/us-map-raphael/master/readme.md)",
+      "Bash(curl -s https://raw.githubusercontent.com/robflaherty/us-map-raphael/master/us-map-svg.js -o /tmp/us-map-svg.js)",
+      "Read(//tmp/**)",
+      "Bash(python3 -c ' *)"
+    ]
+  }
+}

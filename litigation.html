@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Litigation Tracker — MyCRELawyer</title>
+<meta name="description" content="Search and filter significant commercial real estate litigation and legal developments across practice areas, jurisdictions, and status." />
+<link rel="icon" href="img/favicon.svg" type="image/svg+xml" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+<div class="nav-scrim"></div>
+<nav class="nav">
+  <div class="container">
+    <a href="index.html" class="brand">
+      <svg class="brand-mark" viewBox="0 0 32 32" fill="none"><path d="M6 26h20M8 26V14M12 26V14M16 26V14M20 26V14M24 26V14M4 14l12-8 12 8" stroke="var(--accent)" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/></svg>
+      <span>My<span class="brand-accent">CRE</span>Lawyer<small>CRE LITIGATION INTELLIGENCE</small></span>
+    </a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="litigation.html" class="active">Litigation Tracker</a></li>
+      <li><a href="updates.html">Updates</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <div class="nav-cta">
+      <a href="contact.html" class="btn btn-primary btn-sm">
+        Talk to us
+        <svg viewBox="0 0 24 24" fill="none"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </a>
+      <button class="nav-toggle" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</nav>
+
+<header class="page-header">
+  <div class="container">
+    <div class="eyebrow reveal in-view">Litigation Tracker</div>
+    <h1 class="reveal in-view" style="font-size:clamp(2.2rem,4vw,3.4rem);">Every matter, mapped and searchable.</h1>
+    <p class="lede mt-16 reveal in-view">Filter by practice area, status, and jurisdiction, or scan the interactive timeline below to see how matters cluster over time.</p>
+    <div class="disclosure mt-24 reveal in-view">
+      <svg viewBox="0 0 24 24" fill="none"><path d="M12 9v4M12 17h.01M10.29 3.86l-8.18 14.18A2 2 0 004 21h16a2 2 0 001.89-2.96L13.71 3.86a2 2 0 00-3.42 0z" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      <span><strong>Mixed content:</strong> most matters below are fictional, illustrative entries used to demonstrate this interface. Entries marked <strong>Verified Update</strong> are real, sourced developments pulled from our daily litigation news research and link to their original source.</span>
+    </div>
+  </div>
+</header>
+
+<section class="section-tight timeline-section">
+  <div class="container">
+    <div class="section-head reveal">
+      <div>
+        <div class="eyebrow">Visual Overview</div>
+        <h2 style="font-size:clamp(1.6rem,2.6vw,2.2rem);">Timeline by practice area</h2>
+      </div>
+      <p class="text-muted" style="max-width:360px; font-size:13.5px;">Scroll horizontally to explore. Click any point to open full matter details.</p>
+    </div>
+    <div class="card reveal" style="padding:28px 12px;">
+      <div class="timeline-scroll">
+        <div class="timeline-svg-wrap" id="timeline-host"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section-tight" style="background:var(--bg-elevated); border-top:1px solid var(--border-soft); border-bottom:1px solid var(--border-soft);">
+  <div class="container">
+    <div class="section-head reveal">
+      <div>
+        <div class="eyebrow">By Jurisdiction</div>
+        <h2 style="font-size:clamp(1.6rem,2.6vw,2.2rem);">Explore matters by state</h2>
+      </div>
+      <p class="text-muted" style="max-width:360px; font-size:13.5px;">Click a state to jump to every matter tracked in that jurisdiction.</p>
+    </div>
+    <div class="card reveal" style="padding:32px;">
+      <div class="usmap-wrap" id="usmap-host"></div>
+      <div class="state-pill-list" id="state-pills"></div>
+    </div>
+  </div>
+</section>
+
+<section class="section-tight" id="filters-anchor">
+  <div class="container">
+    <div class="filter-bar reveal in-view">
+      <div class="filter-row">
+        <div class="search-input-wrap">
+          <svg viewBox="0 0 24 24" fill="none"><path d="M11 19a8 8 0 100-16 8 8 0 000 16zM21 21l-4.35-4.35" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+          <input type="text" id="search-input" class="search-input" placeholder="Search by title, jurisdiction, or tag…" />
+        </div>
+        <div class="select-wrap">
+          <select id="status-select" class="select-input">
+            <option value="all">All statuses</option>
+          </select>
+        </div>
+        <div class="select-wrap">
+          <select id="state-select" class="select-input">
+            <option value="all">All jurisdictions</option>
+          </select>
+        </div>
+        <div class="select-wrap">
+          <select id="sort-select" class="select-input">
+            <option value="newest">Newest first</option>
+            <option value="oldest">Oldest first</option>
+          </select>
+        </div>
+        <button class="btn btn-ghost btn-sm" id="clear-filters">Clear</button>
+      </div>
+      <div class="chip-row" id="category-chips"></div>
+      <div class="results-count" id="results-count"></div>
+    </div>
+
+    <div class="grid-3" id="case-grid"></div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-col">
+        <a href="index.html" class="brand" style="margin-bottom:14px;">
+          <svg class="brand-mark" viewBox="0 0 32 32" fill="none"><path d="M6 26h20M8 26V14M12 26V14M16 26V14M20 26V14M24 26V14M4 14l12-8 12 8" stroke="var(--accent)" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/></svg>
+          <span>My<span class="brand-accent">CRE</span>Lawyer</span>
+        </a>
+        <p style="max-width:280px;">Litigation intelligence for commercial real estate owners, managers, developers, and REITs.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Navigate</h4>
+        <a href="index.html">Home</a>
+        <a href="litigation.html">Litigation Tracker</a>
+        <a href="updates.html">Updates</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <div class="footer-col">
+        <h4>Practice Areas</h4>
+        <a href="litigation.html?category=landlord-tenant">Landlord–Tenant</a>
+        <a href="litigation.html?category=reit-securities">REIT &amp; Securities</a>
+        <a href="litigation.html?category=zoning-land-use">Zoning &amp; Land Use</a>
+        <a href="litigation.html?category=construction-defect">Construction Defect</a>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <a href="mailto:hello@mycrelawyer.com">hello@mycrelawyer.com</a>
+        <a href="contact.html">Contact form</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span data-year></span> MyCRELawyer. Demonstration site — sample data throughout.</span>
+      <span>Not legal advice. For informational purposes only.</span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/data.js"></script>
+<script src="js/main.js"></script>
+<script src="js/motion.js"></script>
+<script src="js/timeline.js"></script>
+<script src="js/us-state-paths.js"></script>
+<script src="js/usmap.js"></script>
+<script src="js/litigation.js"></script>
+</body>
+</html>

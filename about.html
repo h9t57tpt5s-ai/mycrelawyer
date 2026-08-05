@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>About — MyCRELawyer</title>
+<meta name="description" content="What MyCRELawyer is, who it's for, and how the litigation tracker is built." />
+<link rel="icon" href="img/favicon.svg" type="image/svg+xml" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+<div class="nav-scrim"></div>
+<nav class="nav">
+  <div class="container">
+    <a href="index.html" class="brand">
+      <svg class="brand-mark" viewBox="0 0 32 32" fill="none"><path d="M6 26h20M8 26V14M12 26V14M16 26V14M20 26V14M24 26V14M4 14l12-8 12 8" stroke="var(--accent)" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/></svg>
+      <span>My<span class="brand-accent">CRE</span>Lawyer<small>CRE LITIGATION INTELLIGENCE</small></span>
+    </a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="litigation.html">Litigation Tracker</a></li>
+      <li><a href="updates.html">Updates</a></li>
+      <li><a href="about.html" class="active">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <div class="nav-cta">
+      <a href="litigation.html" class="btn btn-primary btn-sm">
+        Explore Tracker
+        <svg viewBox="0 0 24 24" fill="none"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </a>
+      <button class="nav-toggle" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</nav>
+
+<header class="page-header">
+  <div class="container">
+    <div class="eyebrow reveal in-view">About MyCRELawyer</div>
+    <h1 class="reveal in-view" style="font-size:clamp(2.2rem,4vw,3.4rem);">Legal risk, translated for the CRE industry.</h1>
+    <p class="lede mt-16 reveal in-view">MyCRELawyer exists to give owners, asset managers, developers, and REIT teams a fast, structured read on the litigation and legal issues shaping their industry — without wading through court dockets.</p>
+  </div>
+</header>
+
+<section class="section-tight">
+  <div class="container">
+    <div class="rule reveal in-view"></div>
+    <div class="value-row mt-40">
+      <div class="value-item reveal">
+        <span class="num">01</span>
+        <h3>Who it's for</h3>
+        <p class="text-secondary mt-16">Portfolio and asset managers, general counsel and in-house legal teams, developers navigating entitlements, and REIT investor-relations and compliance functions who need to spot legal trends before they become balance-sheet problems.</p>
+      </div>
+      <div class="value-item reveal">
+        <span class="num">02</span>
+        <h3>How matters are organized</h3>
+        <p class="text-secondary mt-16">Every matter is tagged by practice area — landlord-tenant, zoning, REIT &amp; securities, construction defect, lending &amp; foreclosure, environmental, eminent domain, and lease disputes — plus status, jurisdiction, and financial scale, so you can filter to what's relevant to your asset classes.</p>
+      </div>
+      <div class="value-item reveal">
+        <span class="num">03</span>
+        <h3>Why it's framed this way</h3>
+        <p class="text-secondary mt-16">Each entry includes a plain-English "why it matters" note aimed at operators and investors, not just lawyers — connecting a ruling or filing back to underwriting, leasing, or portfolio strategy implications.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section-tight" style="background:var(--bg-elevated); border-top:1px solid var(--border-soft); border-bottom:1px solid var(--border-soft);">
+  <div class="container">
+    <div class="section-head reveal">
+      <div>
+        <div class="eyebrow">Important</div>
+        <h2 style="font-size:clamp(1.6rem,2.6vw,2.2rem);">A note on the content in this build</h2>
+      </div>
+    </div>
+    <div class="grid-3 reveal-stagger">
+      <div class="card">
+        <h3 style="font-size:1.05rem;">This is a working interface</h3>
+        <p class="text-secondary mt-16" style="font-size:14px;">This site was built to demonstrate the MyCRELawyer product experience — the design, the filtering, the timeline, and the detail views — end to end.</p>
+      </div>
+      <div class="card">
+        <h3 style="font-size:1.05rem;">Most matters are sample data</h3>
+        <p class="text-secondary mt-16" style="font-size:14px;">Most case, party name, court, and outcome entries in the tracker are fictional and illustrative and do not refer to real litigation, real companies, or real people. Entries marked <strong>Verified Update</strong> are the exception — real, sourced developments with a citation to the original reporting.</p>
+      </div>
+      <div class="card">
+        <h3 style="font-size:1.05rem;">Fed by a live research task</h3>
+        <p class="text-secondary mt-16" style="font-size:14px;">The data layer (<code class="mono">js/data.js</code>) now also receives real entries from a twice-daily automated research task that searches for CRE litigation news and appends sourced matters (<code class="mono">source: "live"</code>) alongside the sample content.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="card reveal" style="padding:56px; display:flex; align-items:center; justify-content:space-between; gap:32px; flex-wrap:wrap; background:linear-gradient(135deg, var(--surface), var(--bg-elevated));">
+      <div>
+        <h2 style="font-size:clamp(1.6rem,2.6vw,2.2rem);">Questions about the tracker?</h2>
+        <p class="text-secondary mt-16" style="max-width:480px;">Reach out and we'll walk through how the practice areas, filters, and timeline are built.</p>
+      </div>
+      <a href="contact.html" class="btn btn-primary">
+        Contact us
+        <svg viewBox="0 0 24 24" fill="none"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </a>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-col">
+        <a href="index.html" class="brand" style="margin-bottom:14px;">
+          <svg class="brand-mark" viewBox="0 0 32 32" fill="none"><path d="M6 26h20M8 26V14M12 26V14M16 26V14M20 26V14M24 26V14M4 14l12-8 12 8" stroke="var(--accent)" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/></svg>
+          <span>My<span class="brand-accent">CRE</span>Lawyer</span>
+        </a>
+        <p style="max-width:280px;">Litigation intelligence for commercial real estate owners, managers, developers, and REITs.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Navigate</h4>
+        <a href="index.html">Home</a>
+        <a href="litigation.html">Litigation Tracker</a>
+        <a href="updates.html">Updates</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <div class="footer-col">
+        <h4>Practice Areas</h4>
+        <a href="litigation.html?category=landlord-tenant">Landlord–Tenant</a>
+        <a href="litigation.html?category=reit-securities">REIT &amp; Securities</a>
+        <a href="litigation.html?category=zoning-land-use">Zoning &amp; Land Use</a>
+        <a href="litigation.html?category=construction-defect">Construction Defect</a>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <a href="mailto:hello@mycrelawyer.com">hello@mycrelawyer.com</a>
+        <a href="contact.html">Contact form</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span data-year></span> MyCRELawyer. Demonstration site — sample data throughout.</span>
+      <span>Not legal advice. For informational purposes only.</span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/data.js"></script>
+<script src="js/main.js"></script>
+<script src="js/motion.js"></script>
+</body>
+</html>

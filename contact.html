@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Contact — MyCRELawyer</title>
+<meta name="description" content="Get in touch with the MyCRELawyer team." />
+<link rel="icon" href="img/favicon.svg" type="image/svg+xml" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+<div class="nav-scrim"></div>
+<nav class="nav">
+  <div class="container">
+    <a href="index.html" class="brand">
+      <svg class="brand-mark" viewBox="0 0 32 32" fill="none"><path d="M6 26h20M8 26V14M12 26V14M16 26V14M20 26V14M24 26V14M4 14l12-8 12 8" stroke="var(--accent)" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/></svg>
+      <span>My<span class="brand-accent">CRE</span>Lawyer<small>CRE LITIGATION INTELLIGENCE</small></span>
+    </a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="litigation.html">Litigation Tracker</a></li>
+      <li><a href="updates.html">Updates</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html" class="active">Contact</a></li>
+    </ul>
+    <div class="nav-cta">
+      <a href="litigation.html" class="btn btn-primary btn-sm">
+        Explore Tracker
+        <svg viewBox="0 0 24 24" fill="none"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </a>
+      <button class="nav-toggle" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</nav>
+
+<header class="page-header">
+  <div class="container">
+    <div class="eyebrow reveal in-view">Get in touch</div>
+    <h1 class="reveal in-view" style="font-size:clamp(2.2rem,4vw,3.4rem);">Let's talk about your coverage needs.</h1>
+    <p class="lede mt-16 reveal in-view">Whether you're evaluating the tracker for your team or want to flag a matter we should be watching, send us a note.</p>
+  </div>
+</header>
+
+<section class="section-tight">
+  <div class="container">
+    <div class="contact-grid">
+      <div class="reveal">
+        <form id="contact-form">
+          <div class="form-field">
+            <label for="name">Full name</label>
+            <input type="text" id="name" name="name" required placeholder="Jane Whitfield" />
+          </div>
+          <div class="form-field">
+            <label for="email">Work email</label>
+            <input type="email" id="email" name="email" required placeholder="jane@yourfirm.com" />
+          </div>
+          <div class="form-field">
+            <label for="org">Organization</label>
+            <input type="text" id="org" name="org" placeholder="Whitfield Capital Partners" />
+          </div>
+          <div class="form-field">
+            <label for="role">I am a…</label>
+            <select id="role" name="role">
+              <option>Owner / Investor</option>
+              <option>Asset or Property Manager</option>
+              <option>Developer</option>
+              <option>REIT / Investor Relations</option>
+              <option>In-house Counsel</option>
+              <option>Other</option>
+            </select>
+          </div>
+          <div class="form-field">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required placeholder="Tell us what you're looking for…"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">
+            Send message
+            <svg viewBox="0 0 24 24" fill="none"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </button>
+          <p class="text-muted mt-16" style="font-size:12.5px; line-height:1.6;" id="form-note">This form opens your email client with the message pre-filled — it isn't wired to a backend yet. Connect a service like Formspree or Netlify Forms to collect submissions automatically.</p>
+        </form>
+      </div>
+
+      <div class="reveal">
+        <h3>Other ways to reach us</h3>
+        <div class="contact-info-item">
+          <div class="icon"><svg viewBox="0 0 24 24" fill="none"><path d="M4 4h16v16H4V4zm0 0l8 8 8-8" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+          <div>
+            <div style="font-weight:600; font-size:14.5px;">Email</div>
+            <a href="mailto:hello@mycrelawyer.com" class="text-secondary" style="margin:0;">hello@mycrelawyer.com</a>
+          </div>
+        </div>
+        <div class="contact-info-item">
+          <div class="icon"><svg viewBox="0 0 24 24" fill="none"><path d="M21 10c0 6-9 12-9 12s-9-6-9-12a9 9 0 1118 0z" stroke="currentColor" stroke-width="1.6"/><circle cx="12" cy="10" r="3" stroke="currentColor" stroke-width="1.6"/></svg></div>
+          <div>
+            <div style="font-weight:600; font-size:14.5px;">Coverage focus</div>
+            <p class="text-secondary" style="margin:0;">Office, industrial, retail, multifamily &amp; hospitality assets, nationwide.</p>
+          </div>
+        </div>
+        <div class="contact-info-item">
+          <div class="icon"><svg viewBox="0 0 24 24" fill="none"><path d="M12 8v4l3 3M12 21a9 9 0 100-18 9 9 0 000 18z" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg></div>
+          <div>
+            <div style="font-weight:600; font-size:14.5px;">Response time</div>
+            <p class="text-secondary" style="margin:0;">Typically within two business days.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-col">
+        <a href="index.html" class="brand" style="margin-bottom:14px;">
+          <svg class="brand-mark" viewBox="0 0 32 32" fill="none"><path d="M6 26h20M8 26V14M12 26V14M16 26V14M20 26V14M24 26V14M4 14l12-8 12 8" stroke="var(--accent)" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/></svg>
+          <span>My<span class="brand-accent">CRE</span>Lawyer</span>
+        </a>
+        <p style="max-width:280px;">Litigation intelligence for commercial real estate owners, managers, developers, and REITs.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Navigate</h4>
+        <a href="index.html">Home</a>
+        <a href="litigation.html">Litigation Tracker</a>
+        <a href="updates.html">Updates</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <div class="footer-col">
+        <h4>Practice Areas</h4>
+        <a href="litigation.html?category=landlord-tenant">Landlord–Tenant</a>
+        <a href="litigation.html?category=reit-securities">REIT &amp; Securities</a>
+        <a href="litigation.html?category=zoning-land-use">Zoning &amp; Land Use</a>
+        <a href="litigation.html?category=construction-defect">Construction Defect</a>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <a href="mailto:hello@mycrelawyer.com">hello@mycrelawyer.com</a>
+        <a href="contact.html">Contact form</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span data-year></span> MyCRELawyer. Demonstration site — sample data throughout.</span>
+      <span>Not legal advice. For informational purposes only.</span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/data.js"></script>
+<script src="js/main.js"></script>
+<script src="js/motion.js"></script>
+<script>
+  document.getElementById("contact-form").addEventListener("submit", function (e) {
+    e.preventDefault();
+    const name = document.getElementById("name").value;
+    const email = document.getElementById("email").value;
+    const org = document.getElementById("org").value;
+    const role = document.getElementById("role").value;
+    const message = document.getElementById("message").value;
+    const body = `Name: ${name}\nEmail: ${email}\nOrganization: ${org}\nRole: ${role}\n\n${message}`;
+    window.location.href = `mailto:hello@mycrelawyer.com?subject=${encodeURIComponent("MyCRELawyer inquiry from " + name)}&body=${encodeURIComponent(body)}`;
+  });
+</script>
+</body>
+</html>
