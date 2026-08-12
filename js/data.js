@@ -446,6 +446,19 @@ const RELAW_DATA = {
       summary: "The Real Deal's monthly Texas distress tracker found $1.15 billion in commercial real estate loans flagged for foreclosure auction in August 2026, up from just under $1 billion in July, with Tarrant County leading at 11 of the 47 flagged loans. At least six multifamily syndication firms — including S2 Capital, Nitya Capital, GVA Management, and Lurin Capital — face losing control of apartment properties this month, together accounting for just under $600M, more than half the flagged total. S2 Capital told investors on July 1 it is dissolving its $400M first fund with 'no returns of capital' and separately faces foreclosure on six more properties tied to $320M in loans; Nitya Capital's Palace and Interlace Apartments (Dallas–Fort Worth) are exposed on $28.2M and $31.4M loans from One William Street Capital Management; Lurin Capital faces foreclosure on the 734-unit Latitude 2976 in Houston after an alleged default on a $77.2M Fannie Mae loan.",
       significance: "Syndicators that raised capital from passive retail investors to buy older apartment stock with floating-rate, value-add debt before rates spiked are now the epicenter of Texas CRE distress, and 17 of the 47 flagged loans have already cycled through the auction docket once before — a signal that lender forbearance is running out faster than workouts are closing. Lenders, mezzanine investors, and LPs in syndicated multifamily funds should treat repeat-flagged loans and fund-dissolution notices as leading indicators of contested foreclosures and potential fraud or mismanagement claims from wiped-out investors, which have followed similar syndicator collapses elsewhere.",
       tags: ["multifamily", "foreclosure", "syndication", "texas", "distress"]
+    },
+    {
+      id: "trend-002",
+      title: "CMBS Delinquency Rate Jumps to 7.86% as Refinancing Failures Replace Property Distress as the Driver",
+      category: "lending-foreclosure",
+      date: "2026-08-06",
+      scope: "National CMBS market",
+      metric: "7.86% delinquency rate, up 51 bps in one month",
+      source: "live",
+      sourceUrl: "https://www.connectcre.com/stories/cmbs-delinquency-rate-adds-51-basis-points-in-july-2026/",
+      summary: "Trepp's July 2026 CMBS Delinquency Report shows the overall rate rising 51 basis points to 7.86%, the sharpest single-month increase in over a year, with five large loans accounting for $2.6B of the $6.0B in newly delinquent balances. Those loans include a showroom/exhibition-space portfolio split between North Carolina and Nevada, two Times Square properties in New York, a Chicago office tower anchored by the Aon Center, and a Seattle office portfolio. Non-performing matured balloon loans made up 66% of the newly delinquent balance, with most transfers tied to refinancing failures rather than weak property performance. Multifamily posted the largest sector increase, up 46 bps to 7.69%, on a cluster of newly delinquent loans in Ohio, Texas, and New York.",
+      significance: "A maturity-default wave driven by refinancing failure rather than operating distress produces a different dispute mix than a typical downturn: extension and modification fights, guarantor liability under recourse carve-outs, appraisal disputes with special servicers, and cash-management sweep or lockbox disagreements. Because the trigger is loan structure and vintage rather than asset performance, sponsors with 2015-2016-vintage loans hitting 10-year maturities into a tighter lending market should expect portfolio-wide exposure rather than isolated, property-by-property risk.",
+      tags: ["cmbs", "delinquency", "refinancing", "maturity default", "guarantor liability"]
     }
   ],
 
