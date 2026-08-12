@@ -427,6 +427,28 @@ const RELAW_DATA = {
     }
   ],
 
+  /* Trends in CRE — market-wide, data-driven developments (loan distress
+     roundups, foreclosure-volume reports, capital-markets shifts, and similar
+     patterns) that carry legal risk signal but aren't tied to a single case
+     or ruling. Populated by the "re-cre-trends-digest" scheduled research
+     task, separate from the case-by-case litigation digest. Each entry cites
+     its source(s) directly. */
+  trends: [
+    {
+      id: "trend-001",
+      title: "Texas Multifamily Syndicators Lose Ground as CRE Foreclosure Volume Tops $1.15B",
+      category: "lending-foreclosure",
+      date: "2026-08-03",
+      scope: "Texas Triangle (Dallas–Fort Worth, Houston, Austin, San Antonio)",
+      metric: "$1.15B in loans flagged for August foreclosure auctions",
+      source: "live",
+      sourceUrl: "https://therealdeal.com/texas/2026/08/03/texas-biggest-loans-head-to-foreclosure-auctions-in-august/",
+      summary: "The Real Deal's monthly Texas distress tracker found $1.15 billion in commercial real estate loans flagged for foreclosure auction in August 2026, up from just under $1 billion in July, with Tarrant County leading at 11 of the 47 flagged loans. At least six multifamily syndication firms — including S2 Capital, Nitya Capital, GVA Management, and Lurin Capital — face losing control of apartment properties this month, together accounting for just under $600M, more than half the flagged total. S2 Capital told investors on July 1 it is dissolving its $400M first fund with 'no returns of capital' and separately faces foreclosure on six more properties tied to $320M in loans; Nitya Capital's Palace and Interlace Apartments (Dallas–Fort Worth) are exposed on $28.2M and $31.4M loans from One William Street Capital Management; Lurin Capital faces foreclosure on the 734-unit Latitude 2976 in Houston after an alleged default on a $77.2M Fannie Mae loan.",
+      significance: "Syndicators that raised capital from passive retail investors to buy older apartment stock with floating-rate, value-add debt before rates spiked are now the epicenter of Texas CRE distress, and 17 of the 47 flagged loans have already cycled through the auction docket once before — a signal that lender forbearance is running out faster than workouts are closing. Lenders, mezzanine investors, and LPs in syndicated multifamily funds should treat repeat-flagged loans and fund-dissolution notices as leading indicators of contested foreclosures and potential fraud or mismanagement claims from wiped-out investors, which have followed similar syndicator collapses elsewhere.",
+      tags: ["multifamily", "foreclosure", "syndication", "texas", "distress"]
+    }
+  ],
+
   /* Regulatory & zoning tracker — new ordinances, statutes, and agency actions
      shaping CRE. Seeded from regulatory context already established in the
      litigation entries above (each links back to the matter that cites it),

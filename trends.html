@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Privacy Policy — CREdocket</title>
-<meta name="description" content="How CREdocket collects, uses, and protects information from visitors and contacts." />
+<title>Market Signals — CREdocket</title>
+<meta name="description" content="Market-wide, data-driven developments in commercial real estate — loan distress, foreclosure volume, and capital-markets shifts — tracked for the legal risk signal they carry." />
 <link rel="icon" href="img/favicon.svg" type="image/svg+xml" />
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -31,7 +31,7 @@
           <a href="litigation.html">All Matters</a>
           <a href="updates.html">Latest Updates</a>
           <a href="regulatory.html">Regulatory Issues</a>
-          <a href="trends.html">Market Signals</a>
+          <a href="trends.html" class="active">Market Signals</a>
           <a href="judges.html">Judges &amp; Courts</a>
         </div>
       </li>
@@ -45,47 +45,42 @@
 </nav>
 
 <header class="page-header">
+    <div class="page-header-photo"><img src="img/photos/dallas.jpg" alt="Dallas skyline" loading="eager" /></div>
+    <svg class="page-header-graphic" viewBox="0 0 640 400" fill="none" aria-hidden="true" preserveAspectRatio="xMaxYMid slice">
+      <defs>
+        <radialGradient id="phGlow" cx="70%" cy="30%" r="60%">
+          <stop offset="0" stop-color="var(--accent)" stop-opacity="0.16"/>
+          <stop offset="1" stop-color="var(--accent)" stop-opacity="0"/>
+        </radialGradient>
+      </defs>
+      <rect x="0" y="0" width="640" height="400" fill="url(#phGlow)"/>
+      <circle cx="420" cy="120" r="3.5" fill="var(--status-pending)" opacity="0.8">
+        <animate attributeName="r" values="3.5;5.5;3.5" dur="3s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="230" cy="160" r="3" fill="var(--status-filed)" opacity="0.8">
+        <animate attributeName="r" values="3;5;3" dur="2.6s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="330" cy="200" r="3" fill="var(--accent-bright)" opacity="0.8">
+        <animate attributeName="r" values="3;5;3" dur="3.4s" repeatCount="indefinite"/>
+      </circle>
+    </svg>
   <div class="container">
-    <div class="eyebrow reveal in-view">Legal</div>
-    <h1 class="reveal in-view" style="font-size:clamp(2.2rem,4vw,3.4rem);">Privacy Policy</h1>
-    <p class="lede mt-16 reveal in-view">Last updated August 10, 2026.</p>
+    <div class="eyebrow reveal in-view">Market Signals</div>
+    <h1 class="reveal in-view" style="font-size:clamp(2.2rem,4vw,3.4rem);">The signal in the data.</h1>
+    <p class="lede mt-16 reveal in-view">Market-wide, data-driven developments — loan distress, foreclosure volume, capital-markets shifts — tracked for the legal risk they signal, not just the numbers themselves.</p>
   </div>
 </header>
 
 <section class="section-tight">
-  <div class="container" style="max-width:760px;">
-    <div class="legal-doc reveal">
-
-      <h2>Overview</h2>
-      <p>CREdocket ("CREdocket," "we," "us") publishes litigation intelligence content for the commercial real estate industry at credocket.com. This policy explains what information we collect from visitors and contacts, how we use it, and the choices available to you. CREdocket is operated in connection with the legal practice of Jeff Novel.</p>
-
-      <h2>Information We Collect</h2>
-      <p><strong>Contact form.</strong> If you use the form on our <a href="contact.html">Contact</a> page, the fields you fill in (name, email address, organization, role, and message) are sent directly to us via your own email client — this information is not transmitted to or stored on a CREdocket server or database.</p>
-      <p><strong>Newsletter.</strong> If CREdocket offers an email newsletter and you subscribe, we (or our email delivery provider) will retain your email address in order to send it, until you unsubscribe.</p>
-      <p><strong>Automatic data.</strong> CREdocket does not currently use cookies, analytics trackers, or advertising pixels. Standard web server logs (such as IP address and browser type) may be recorded by our hosting provider for security and reliability purposes.</p>
-
-      <h2>Third-Party Services</h2>
-      <p>Typefaces on this site are loaded from Google Fonts; loading a page may send your browser's IP address and user-agent to Google's servers as part of that request. Photography is sourced from Pexels and hosted directly on our site — no request is made to Pexels when you view a page.</p>
-
-      <h2>How We Use Information</h2>
-      <p>We use the information you provide to respond to inquiries, evaluate potential legal matters you raise with us, and — if you've subscribed — deliver our newsletter. We do not sell or rent your information to third parties.</p>
-
-      <h2>Data Retention &amp; Security</h2>
-      <p>We retain contact and newsletter information only as long as reasonably necessary for the purposes above, or as required by law or professional-responsibility record-keeping obligations. We take reasonable measures to protect information in our possession, but no method of transmission or storage is completely secure.</p>
-
-      <h2>Your Choices</h2>
-      <p>You may unsubscribe from any newsletter at any time using the link in each email. To request that we delete information you've previously sent us, email <a href="mailto:jnovel@krcl.com">jnovel@krcl.com</a>.</p>
-
-      <h2>Not Legal Advice; No Attorney-Client Relationship</h2>
-      <p>Nothing on this site, and no information you submit through it, creates an attorney-client relationship. See our <a href="terms.html">Terms of Service</a> for details.</p>
-
-      <h2>Changes to This Policy</h2>
-      <p>We may update this policy from time to time. Material changes will be reflected by an updated "last updated" date above.</p>
-
-      <h2>Contact</h2>
-      <p>Questions about this policy can be sent to <a href="mailto:jnovel@krcl.com">jnovel@krcl.com</a>.</p>
-
+  <div class="container">
+    <div class="section-head reveal">
+      <div>
+        <div class="eyebrow">Now Tracking</div>
+        <h2 style="font-size:clamp(1.6rem,2.6vw,2.2rem);"><span id="trend-count">0</span> trend reports</h2>
+      </div>
+      <p class="text-muted" style="max-width:420px; font-size:13.5px;">Distinct from the litigation tracker: these are patterns across many matters — foreclosure volume, syndicator distress, capital flows — rather than a single case or ruling.</p>
     </div>
+    <div class="grid-3 reveal-stagger" id="trends-grid"></div>
   </div>
 </section>
 
@@ -95,7 +90,7 @@
       <div class="newsletter-card-text">
         <div class="eyebrow" style="margin-bottom:10px;">Stay Ahead</div>
         <h2 style="font-size:clamp(1.4rem,2.2vw,1.9rem);">Get the litigation digest in your inbox</h2>
-        <p class="text-secondary mt-16">New matters, rulings, and regulatory actions — delivered as they're tracked.</p>
+        <p class="text-secondary mt-16">New matters, rulings, regulatory actions, and market trends — delivered as they're tracked.</p>
       </div>
       <div class="newsletter-embed">
         <script async src="https://subscribe-forms.beehiiv.com/v3/loader.js" data-beehiiv-form="6fe66572-cbbf-4d3d-9c0e-1aafbf2857ca"></script>
@@ -146,5 +141,6 @@
 <script src="js/main.js"></script>
 <script src="js/search.js"></script>
 <script src="js/motion.js"></script>
+<script src="js/trends.js"></script>
 </body>
 </html>
