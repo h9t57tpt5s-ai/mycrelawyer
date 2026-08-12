@@ -1,5 +1,5 @@
 /* =========================================================
-   MyCRELawyer — Shared site behavior
+   CREdocket — Shared site behavior
    Nav state, mobile menu, scroll reveals, count-up stats, ticker
    ========================================================= */
 
@@ -39,6 +39,33 @@
     if (navScrim) navScrim.addEventListener("click", closeMenu);
     navLinks.querySelectorAll("a").forEach((a) => a.addEventListener("click", closeMenu));
   }
+
+  /* ---------- Nav dropdown ---------- */
+  function closeAllDropdowns(except) {
+    document.querySelectorAll(".nav-item.has-dropdown.open").forEach((item) => {
+      if (item === except) return;
+      item.classList.remove("open");
+      const btn = item.querySelector(".nav-caret-btn");
+      if (btn) btn.setAttribute("aria-expanded", "false");
+    });
+  }
+  document.querySelectorAll(".nav-item.has-dropdown").forEach((item) => {
+    const btn = item.querySelector(".nav-caret-btn");
+    if (!btn) return;
+    btn.addEventListener("click", (e) => {
+      e.preventDefault();
+      e.stopPropagation();
+      const isOpen = item.classList.toggle("open");
+      btn.setAttribute("aria-expanded", isOpen ? "true" : "false");
+      closeAllDropdowns(item);
+    });
+  });
+  document.addEventListener("click", (e) => {
+    if (!e.target.closest(".nav-item.has-dropdown")) closeAllDropdowns();
+  });
+  document.addEventListener("keydown", (e) => {
+    if (e.key === "Escape") closeAllDropdowns();
+  });
 
   /* ---------- Scroll reveal ---------- */
   const revealEls = document.querySelectorAll(".reveal, .reveal-stagger");
@@ -98,7 +125,7 @@
     el.textContent = new Date().getFullYear();
   });
 
-  /* ---------- Ticker (built from sample data) ---------- */
+  /* ---------- Ticker (built from tracked matters) ---------- */
   const tickerTrack = document.getElementById("ticker-track");
   if (tickerTrack && typeof RELAW_DATA !== "undefined") {
     const catMap = Object.fromEntries(RELAW_DATA.categories.map((c) => [c.id, c]));
@@ -188,12 +215,20 @@
       const isLive = c.source === "live";
       const stateName = (c.state && RELAW_DATA.states[c.state]) || c.state || "—";
 
+      const primarySourceHtml = c.documentUrl
+        ? `<div class="primary-source-link">
+            <svg viewBox="0 0 24 24" fill="none" width="15" height="15"><path d="M14 3v5h5M6 3h8l5 5v13H6V3z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg>
+            <a href="${c.documentUrl}" target="_blank" rel="noopener">${c.documentLabel || "Read the primary document"} ↗</a>
+          </div>`
+        : "";
+
       let articleHtml;
       if (c.body && c.body.length) {
         articleHtml = c.body.map((p) => `<p class="body-text">${p}</p>`).join("");
         if (isLive && c.sourceUrl) {
           articleHtml += `<p class="body-text"><a href="${c.sourceUrl}" target="_blank" rel="noopener">Original source ↗</a></p>`;
         }
+        articleHtml = primarySourceHtml + articleHtml;
       } else if (isLive) {
         articleHtml = `
           <div class="article-pending">
@@ -206,9 +241,7 @@
 
       panel.innerHTML = `
         <div class="top-row">
-          ${isLive
-            ? `<span class="badge badge-live">Verified Update</span>`
-            : `<span class="badge badge-sample">Sample Entry</span>`}
+          ${isLive ? `<span class="badge badge-live">Verified Update</span>` : ""}
           <button class="detail-close" aria-label="Close" id="detail-close-btn">
             <svg viewBox="0 0 24 24" fill="none" width="16" height="16"><path d="M6 6l12 12M18 6L6 18" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
           </button>
@@ -222,6 +255,7 @@
           <div><div class="label">Date</div><div class="value">${formatDate(c.date)}</div></div>
           <div><div class="label">State</div><div class="value">${stateName}</div></div>
           <div style="grid-column:1 / -1;"><div class="label">Jurisdiction</div><div class="value">${c.jurisdiction}</div></div>
+          ${c.judge ? `<div style="grid-column:1 / -1;"><div class="label">Presiding Judge</div><div class="value">${c.judge}</div></div>` : ""}
           <div><div class="label">Amount / Scale</div><div class="value">${c.amount}</div></div>
           <div><div class="label">Status</div><div class="value">${status.label}</div></div>
         </div>
@@ -229,9 +263,32 @@
         <h3 style="margin-bottom:10px;">Why it matters</h3>
         <p class="body-text">${c.significance}</p>
         <div class="rule mt-24" style="margin-bottom:24px;"></div>
+        ${c.timeline && c.timeline.length ? `
+        <h3 style="margin-bottom:14px;">Case Timeline</h3>
+        <div class="case-timeline">
+          ${c.timeline.map((ev) => `
+            <div class="timeline-event${ev.current ? " is-current" : ""}${ev.upcoming ? " is-upcoming" : ""}">
+              <div class="timeline-event-dot"></div>
+              <div class="timeline-event-body">
+                <div class="timeline-event-when">${ev.when}${ev.upcoming ? '<span class="timeline-upcoming-tag">Scheduled</span>' : ""}</div>
+                <div class="timeline-event-label">${ev.label}</div>
+              </div>
+            </div>`).join("")}
+        </div>
+        <div class="rule mt-24" style="margin-bottom:24px;"></div>` : ""}
         <h3 style="margin-bottom:14px;">Full Article</h3>
         ${articleHtml}
         <div class="tag-row">${c.tags.map((t) => `<span class="detail-tag">${t}</span>`).join("")}</div>
+        <div class="detail-cta">
+          <div class="detail-cta-text">
+            <strong>Facing something similar?</strong>
+            <span>Discuss this matter, or one like it in your portfolio, with counsel.</span>
+          </div>
+          <a href="contact.html?matter=${encodeURIComponent(c.title)}&jurisdiction=${encodeURIComponent(c.jurisdiction)}" class="btn btn-primary btn-sm">
+            Discuss This Matter
+            <svg viewBox="0 0 24 24" fill="none"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </a>
+        </div>
       `;
       document.getElementById("detail-close-btn").addEventListener("click", close);
       overlay.classList.add("open");

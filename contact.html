@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Contact — MyCRELawyer</title>
-<meta name="description" content="Get in touch with the MyCRELawyer team." />
+<title>Contact — CREdocket</title>
+<meta name="description" content="Get in touch with the CREdocket team." />
 <link rel="icon" href="img/favicon.svg" type="image/svg+xml" />
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,30 +18,59 @@
   <div class="container">
     <a href="index.html" class="brand">
       <svg class="brand-mark" viewBox="0 0 32 32" fill="none"><path d="M6 26h20M8 26V14M12 26V14M16 26V14M20 26V14M24 26V14M4 14l12-8 12 8" stroke="var(--accent)" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/></svg>
-      <span>My<span class="brand-accent">CRE</span>Lawyer<small>CRE LITIGATION INTELLIGENCE</small></span>
+      <span><span class="brand-accent">CRE</span>docket<small>CRE LITIGATION INTELLIGENCE</small></span>
     </a>
     <ul class="nav-links">
       <li><a href="index.html">Home</a></li>
-      <li><a href="litigation.html">Litigation Tracker</a></li>
-      <li><a href="updates.html">Updates</a></li>
+      <li class="nav-item has-dropdown">
+        <a href="litigation.html">Litigation Tracker</a>
+        <button class="nav-caret-btn" aria-label="Toggle Litigation Tracker submenu" aria-expanded="false">
+          <svg class="nav-caret" viewBox="0 0 24 24" fill="none" width="14" height="14"><path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </button>
+        <div class="nav-dropdown">
+          <a href="litigation.html">All Matters</a>
+          <a href="updates.html">Latest Updates</a>
+          <a href="regulatory.html">Regulatory Issues</a>
+          <a href="judges.html">Judges &amp; Courts</a>
+        </div>
+      </li>
       <li><a href="about.html">About</a></li>
       <li><a href="contact.html" class="active">Contact</a></li>
     </ul>
     <div class="nav-cta">
-      <a href="litigation.html" class="btn btn-primary btn-sm">
-        Explore Tracker
-        <svg viewBox="0 0 24 24" fill="none"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
-      </a>
       <button class="nav-toggle" aria-label="Toggle menu"><span></span><span></span><span></span></button>
     </div>
   </div>
 </nav>
 
 <header class="page-header">
+    <div class="page-header-photo"><img src="img/photos/san-diego.jpg" alt="San Diego skyline" loading="eager" /></div>
+    <svg class="page-header-graphic" viewBox="0 0 640 400" fill="none" aria-hidden="true" preserveAspectRatio="xMaxYMid slice">
+      <defs>
+        <radialGradient id="phGlow" cx="70%" cy="30%" r="60%">
+          <stop offset="0" stop-color="var(--accent)" stop-opacity="0.16"/>
+          <stop offset="1" stop-color="var(--accent)" stop-opacity="0"/>
+        </radialGradient>
+      </defs>
+      <rect x="0" y="0" width="640" height="400" fill="url(#phGlow)"/>
+      <circle cx="420" cy="120" r="3.5" fill="var(--status-pending)" opacity="0.8">
+        <animate attributeName="r" values="3.5;5.5;3.5" dur="3s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="230" cy="160" r="3" fill="var(--status-filed)" opacity="0.8">
+        <animate attributeName="r" values="3;5;3" dur="2.6s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="330" cy="200" r="3" fill="var(--accent-bright)" opacity="0.8">
+        <animate attributeName="r" values="3;5;3" dur="3.4s" repeatCount="indefinite"/>
+      </circle>
+    </svg>
   <div class="container">
     <div class="eyebrow reveal in-view">Get in touch</div>
     <h1 class="reveal in-view" style="font-size:clamp(2.2rem,4vw,3.4rem);">Let's talk about your coverage needs.</h1>
     <p class="lede mt-16 reveal in-view">Whether you're evaluating the tracker for your team or want to flag a matter we should be watching, send us a note.</p>
+    <div class="disclosure mt-24" id="matter-context-banner" style="display:none;">
+      <svg viewBox="0 0 24 24" fill="none"><path d="M9 12h6M9 16h6M9 8h6M5 4h14a1 1 0 011 1v14l-4-3H5a1 1 0 01-1-1V5a1 1 0 011-1z" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      <span>Re: <strong id="matter-context-title"></strong></span>
+    </div>
   </div>
 </header>
 
@@ -91,7 +120,7 @@
           <div class="icon"><svg viewBox="0 0 24 24" fill="none"><path d="M4 4h16v16H4V4zm0 0l8 8 8-8" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
           <div>
             <div style="font-weight:600; font-size:14.5px;">Email</div>
-            <a href="mailto:hello@mycrelawyer.com" class="text-secondary" style="margin:0;">hello@mycrelawyer.com</a>
+            <a href="mailto:jnovel@krcl.com" class="text-secondary" style="margin:0;">jnovel@krcl.com</a>
           </div>
         </div>
         <div class="contact-info-item">
@@ -119,7 +148,7 @@
       <div class="footer-col">
         <a href="index.html" class="brand" style="margin-bottom:14px;">
           <svg class="brand-mark" viewBox="0 0 32 32" fill="none"><path d="M6 26h20M8 26V14M12 26V14M16 26V14M20 26V14M24 26V14M4 14l12-8 12 8" stroke="var(--accent)" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/></svg>
-          <span>My<span class="brand-accent">CRE</span>Lawyer</span>
+          <span><span class="brand-accent">CRE</span>docket</span>
         </a>
         <p style="max-width:280px;">Litigation intelligence for commercial real estate owners, managers, developers, and REITs.</p>
       </div>
@@ -127,6 +156,7 @@
         <h4>Navigate</h4>
         <a href="index.html">Home</a>
         <a href="litigation.html">Litigation Tracker</a>
+        <a href="regulatory.html">Regulatory</a>
         <a href="updates.html">Updates</a>
         <a href="about.html">About</a>
         <a href="contact.html">Contact</a>
@@ -139,13 +169,18 @@
         <a href="litigation.html?category=construction-defect">Construction Defect</a>
       </div>
       <div class="footer-col">
+        <h4>Legal</h4>
+        <a href="privacy.html">Privacy Policy</a>
+        <a href="terms.html">Terms of Service</a>
+      </div>
+      <div class="footer-col">
         <h4>Contact</h4>
-        <a href="mailto:hello@mycrelawyer.com">hello@mycrelawyer.com</a>
+        <a href="mailto:jnovel@krcl.com">jnovel@krcl.com</a>
         <a href="contact.html">Contact form</a>
       </div>
     </div>
     <div class="footer-bottom">
-      <span>© <span data-year></span> MyCRELawyer. Demonstration site — sample data throughout.</span>
+      <span>© <span data-year></span> CREdocket. Litigation intelligence sourced from ongoing legal research.</span>
       <span>Not legal advice. For informational purposes only.</span>
     </div>
   </div>
@@ -153,8 +188,25 @@
 
 <script src="js/data.js"></script>
 <script src="js/main.js"></script>
+<script src="js/search.js"></script>
 <script src="js/motion.js"></script>
 <script>
+  (function () {
+    const params = new URLSearchParams(window.location.search);
+    const matter = params.get("matter");
+    const jurisdiction = params.get("jurisdiction");
+    if (matter) {
+      const banner = document.getElementById("matter-context-banner");
+      const titleEl = document.getElementById("matter-context-title");
+      titleEl.textContent = matter;
+      banner.style.display = "flex";
+      const messageEl = document.getElementById("message");
+      messageEl.value = `I'd like to discuss "${matter}"${jurisdiction ? ` (${jurisdiction})` : ""} and a related situation in our portfolio.\n\n`;
+      const roleSelect = document.getElementById("role");
+      if (roleSelect) roleSelect.value = "In-house Counsel";
+    }
+  })();
+
   document.getElementById("contact-form").addEventListener("submit", function (e) {
     e.preventDefault();
     const name = document.getElementById("name").value;
@@ -162,8 +214,11 @@
     const org = document.getElementById("org").value;
     const role = document.getElementById("role").value;
     const message = document.getElementById("message").value;
+    const params = new URLSearchParams(window.location.search);
+    const matter = params.get("matter");
     const body = `Name: ${name}\nEmail: ${email}\nOrganization: ${org}\nRole: ${role}\n\n${message}`;
-    window.location.href = `mailto:hello@mycrelawyer.com?subject=${encodeURIComponent("MyCRELawyer inquiry from " + name)}&body=${encodeURIComponent(body)}`;
+    const subject = matter ? `CREdocket inquiry re: ${matter}` : "CREdocket inquiry from " + name;
+    window.location.href = `mailto:jnovel@krcl.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
   });
 </script>
 </body>

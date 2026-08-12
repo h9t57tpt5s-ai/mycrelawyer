@@ -1,5 +1,5 @@
 /* =========================================================
-   MyCRELawyer — Litigation index page: filter, search, sort, render
+   CREdocket — Litigation index page: filter, search, sort, render
    ========================================================= */
 
 (function () {
@@ -83,7 +83,11 @@
       if (state.query) {
         const q = state.query.toLowerCase();
         const stateName = c.state ? RELAW_DATA.states[c.state] || "" : "";
-        const hay = (c.title + " " + c.summary + " " + c.tags.join(" ") + " " + c.jurisdiction + " " + stateName).toLowerCase();
+        const bodyText = c.body ? c.body.join(" ") : "";
+        const hay = (
+          c.title + " " + c.summary + " " + c.significance + " " + bodyText + " " +
+          c.tags.join(" ") + " " + c.jurisdiction + " " + stateName
+        ).toLowerCase();
         if (!hay.includes(q)) return false;
       }
       return true;
@@ -116,10 +120,27 @@
     }
   }
 
+  const spotlight = document.getElementById("city-spotlight");
+  const spotlightCount = document.getElementById("city-spotlight-count");
+
   function selectState(code, opts) {
     state.stateFilter = code;
     if (stateSelect) stateSelect.value = code;
     render();
+
+    if (spotlight) {
+      if (code !== "all" && window.RELAW_UTILS.renderCityscape) {
+        window.RELAW_UTILS.renderCityscape("city-spotlight-svg", code);
+        if (spotlightCount) {
+          const n = stateCounts[code] || 0;
+          spotlightCount.textContent = `${n} tracked matter${n === 1 ? "" : "s"} in ${RELAW_DATA.states[code]}`;
+        }
+        spotlight.classList.add("open");
+      } else {
+        spotlight.classList.remove("open");
+      }
+    }
+
     if (!opts || opts.scroll !== false) {
       const target = document.getElementById("filters-anchor") || grid;
       target.scrollIntoView({ behavior: "smooth", block: "start" });
@@ -180,6 +201,11 @@
   if (stateParam && RELAW_DATA.states[stateParam]) {
     state.stateFilter = stateParam;
     if (stateSelect) stateSelect.value = stateParam;
+  }
+  const qParam = params.get("q");
+  if (qParam) {
+    state.query = qParam;
+    searchInput.value = qParam;
   }
 
   render();

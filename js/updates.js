@@ -1,5 +1,5 @@
 /* =========================================================
-   MyCRELawyer — Updates page: chronological feed
+   CREdocket — Updates page: chronological feed
    ========================================================= */
 
 (function () {

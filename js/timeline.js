@@ -1,5 +1,5 @@
 /* =========================================================
-   MyCRELawyer — Animated litigation timeline (pure SVG, no deps)
+   CREdocket — Animated litigation timeline (pure SVG, no deps)
    ========================================================= */
 
 (function () {

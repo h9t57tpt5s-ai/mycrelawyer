@@ -1,5 +1,5 @@
 /* =========================================================
-   MyCRELawyer — Motion layer
+   CREdocket — Motion layer
    Hero cursor-parallax, scroll parallax, card spotlight,
    magnetic buttons. Skipped entirely under prefers-reduced-motion.
    ========================================================= */

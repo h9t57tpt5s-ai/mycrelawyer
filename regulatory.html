@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Litigation Tracker — CREdocket</title>
-<meta name="description" content="Search and filter significant commercial real estate litigation and legal developments across practice areas, jurisdictions, and status." />
+<title>Regulatory &amp; Zoning Tracker — CREdocket</title>
+<meta name="description" content="New ordinances, statutes, and agency actions shaping commercial real estate, tracked alongside the litigation they inform." />
 <link rel="icon" href="img/favicon.svg" type="image/svg+xml" />
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -23,14 +23,14 @@
     <ul class="nav-links">
       <li><a href="index.html">Home</a></li>
       <li class="nav-item has-dropdown">
-        <a href="litigation.html" class="active">Litigation Tracker</a>
+        <a href="litigation.html">Litigation Tracker</a>
         <button class="nav-caret-btn" aria-label="Toggle Litigation Tracker submenu" aria-expanded="false">
           <svg class="nav-caret" viewBox="0 0 24 24" fill="none" width="14" height="14"><path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
         </button>
         <div class="nav-dropdown">
           <a href="litigation.html">All Matters</a>
           <a href="updates.html">Latest Updates</a>
-          <a href="regulatory.html">Regulatory Issues</a>
+          <a href="regulatory.html" class="active">Regulatory Issues</a>
           <a href="judges.html">Judges &amp; Courts</a>
         </div>
       </li>
@@ -38,17 +38,13 @@
       <li><a href="contact.html">Contact</a></li>
     </ul>
     <div class="nav-cta">
-      <a href="contact.html" class="btn btn-primary btn-sm">
-        Talk to us
-        <svg viewBox="0 0 24 24" fill="none"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
-      </a>
       <button class="nav-toggle" aria-label="Toggle menu"><span></span><span></span><span></span></button>
     </div>
   </div>
 </nav>
 
 <header class="page-header">
-    <div class="page-header-photo"><img src="img/photos/chicago.jpg" alt="Chicago skyline" loading="eager" /></div>
+    <div class="page-header-photo"><img src="img/photos/houston.jpg" alt="Houston skyline" loading="eager" /></div>
     <svg class="page-header-graphic" viewBox="0 0 640 400" fill="none" aria-hidden="true" preserveAspectRatio="xMaxYMid slice">
       <defs>
         <radialGradient id="phGlow" cx="70%" cy="30%" r="60%">
@@ -68,86 +64,22 @@
       </circle>
     </svg>
   <div class="container">
-    <div class="eyebrow reveal in-view">Litigation Tracker</div>
-    <h1 class="reveal in-view" style="font-size:clamp(2.2rem,4vw,3.4rem);">Every matter, mapped and searchable.</h1>
-    <p class="lede mt-16 reveal in-view">Filter by practice area, status, and jurisdiction, or scan the interactive timeline below to see how matters cluster over time.</p>
+    <div class="eyebrow reveal in-view">Regulatory &amp; Zoning</div>
+    <h1 class="reveal in-view" style="font-size:clamp(2.2rem,4vw,3.4rem);">Beyond the courtroom.</h1>
+    <p class="lede mt-16 reveal in-view">New ordinances, statutes, and agency actions shaping commercial real estate — tracked alongside the litigation they inform.</p>
   </div>
 </header>
 
-<section class="section-tight timeline-section">
+<section class="section-tight">
   <div class="container">
     <div class="section-head reveal">
       <div>
-        <div class="eyebrow">Visual Overview</div>
-        <h2 style="font-size:clamp(1.6rem,2.6vw,2.2rem);">Timeline by practice area</h2>
+        <div class="eyebrow">Now Tracking</div>
+        <h2 style="font-size:clamp(1.6rem,2.6vw,2.2rem);"><span id="reg-count">0</span> regulatory actions</h2>
       </div>
-      <p class="text-muted" style="max-width:360px; font-size:13.5px;">Scroll horizontally to explore. Click any point to open full matter details.</p>
+      <p class="text-muted" style="max-width:420px; font-size:13.5px;">This tracker is new and grows alongside the litigation tracker — each entry links to the matter that put it in play.</p>
     </div>
-    <div class="card reveal" style="padding:28px 12px;">
-      <div class="timeline-scroll">
-        <div class="timeline-svg-wrap" id="timeline-host"></div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="section-tight" style="background:var(--bg-elevated); border-top:1px solid var(--border-soft); border-bottom:1px solid var(--border-soft);">
-  <div class="container">
-    <div class="section-head reveal">
-      <div>
-        <div class="eyebrow">By Jurisdiction</div>
-        <h2 style="font-size:clamp(1.6rem,2.6vw,2.2rem);">Explore matters by state</h2>
-      </div>
-      <p class="text-muted" style="max-width:360px; font-size:13.5px;">Click a state to jump to every matter tracked in that jurisdiction. See also: <a href="judges.html" class="text-accent" style="display:inline;">judges &amp; courts on the docket ↗</a></p>
-    </div>
-    <div class="card reveal" style="padding:32px;">
-      <div class="usmap-wrap" id="usmap-host"></div>
-      <div class="state-pill-list" id="state-pills"></div>
-      <div class="city-spotlight" id="city-spotlight">
-        <div class="city-spotlight-inner">
-          <div class="city-spotlight-svg" id="city-spotlight-svg"></div>
-          <div class="city-spotlight-info">
-            <div class="eyebrow" style="margin-bottom:8px;">Now viewing</div>
-            <div class="cityscape-caption"></div>
-            <div class="city-spotlight-count" id="city-spotlight-count"></div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="section-tight" id="filters-anchor">
-  <div class="container">
-    <div class="filter-bar reveal in-view">
-      <div class="filter-row">
-        <div class="search-input-wrap">
-          <svg viewBox="0 0 24 24" fill="none"><path d="M11 19a8 8 0 100-16 8 8 0 000 16zM21 21l-4.35-4.35" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
-          <input type="text" id="search-input" class="search-input" placeholder="Search by title, jurisdiction, or tag…" />
-        </div>
-        <div class="select-wrap">
-          <select id="status-select" class="select-input">
-            <option value="all">All statuses</option>
-          </select>
-        </div>
-        <div class="select-wrap">
-          <select id="state-select" class="select-input">
-            <option value="all">All jurisdictions</option>
-          </select>
-        </div>
-        <div class="select-wrap">
-          <select id="sort-select" class="select-input">
-            <option value="newest">Newest first</option>
-            <option value="oldest">Oldest first</option>
-          </select>
-        </div>
-        <button class="btn btn-ghost btn-sm" id="clear-filters">Clear</button>
-      </div>
-      <div class="chip-row" id="category-chips"></div>
-      <div class="results-count" id="results-count"></div>
-    </div>
-
-    <div class="grid-3" id="case-grid"></div>
+    <div class="grid-3 reveal-stagger" id="regulatory-grid"></div>
   </div>
 </section>
 
@@ -171,13 +103,6 @@
         <a href="contact.html">Contact</a>
       </div>
       <div class="footer-col">
-        <h4>Practice Areas</h4>
-        <a href="litigation.html?category=landlord-tenant">Landlord–Tenant</a>
-        <a href="litigation.html?category=reit-securities">REIT &amp; Securities</a>
-        <a href="litigation.html?category=zoning-land-use">Zoning &amp; Land Use</a>
-        <a href="litigation.html?category=construction-defect">Construction Defect</a>
-      </div>
-      <div class="footer-col">
         <h4>Legal</h4>
         <a href="privacy.html">Privacy Policy</a>
         <a href="terms.html">Terms of Service</a>
@@ -199,10 +124,26 @@
 <script src="js/main.js"></script>
 <script src="js/search.js"></script>
 <script src="js/motion.js"></script>
-<script src="js/timeline.js"></script>
-<script src="js/us-state-paths.js"></script>
-<script src="js/usmap.js"></script>
-<script src="js/cityscape.js"></script>
-<script src="js/litigation.js"></script>
+<script>
+  (function () {
+    const items = RELAW_DATA.regulatory || [];
+    document.getElementById("reg-count").textContent = items.length;
+    const grid = document.getElementById("regulatory-grid");
+    grid.innerHTML = items.map((r) => {
+      const related = (r.relatedCases || []).map((id) => {
+        const c = RELAW_DATA.cases.find((x) => x.id === id);
+        return c ? `<span data-case-id="${c.id}" class="text-accent" style="display:inline; font-size:12.5px; cursor:pointer;">${c.title.length > 46 ? c.title.slice(0, 46) + "…" : c.title} ↗</span>` : "";
+      }).join("");
+      return `<div class="card reveal">
+        <span class="badge" style="background:var(--surface); border:1px solid var(--border); margin-bottom:14px;">${r.type}</span>
+        <h3 style="font-size:1.05rem; line-height:1.35;">${r.title}</h3>
+        <p class="text-muted mono" style="font-size:12px; margin:10px 0;">${r.jurisdiction} &middot; ${r.enacted}</p>
+        <p class="text-secondary" style="font-size:13.5px; line-height:1.65;">${r.summary}</p>
+        ${related ? `<div class="rule mt-16" style="margin-bottom:12px;"></div><div style="display:flex; flex-direction:column; gap:6px;">${related}</div>` : ""}
+      </div>`;
+    }).join("");
+    document.querySelectorAll("#regulatory-grid .reveal").forEach((el) => el.classList.add("in-view"));
+  })();
+</script>
 </body>
 </html>

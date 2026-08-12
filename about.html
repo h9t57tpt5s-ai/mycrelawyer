@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>About — MyCRELawyer</title>
-<meta name="description" content="What MyCRELawyer is, who it's for, and how the litigation tracker is built." />
+<title>About — CREdocket</title>
+<meta name="description" content="What CREdocket is, who it's for, and how the litigation tracker is built." />
 <link rel="icon" href="img/favicon.svg" type="image/svg+xml" />
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,30 +18,55 @@
   <div class="container">
     <a href="index.html" class="brand">
       <svg class="brand-mark" viewBox="0 0 32 32" fill="none"><path d="M6 26h20M8 26V14M12 26V14M16 26V14M20 26V14M24 26V14M4 14l12-8 12 8" stroke="var(--accent)" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/></svg>
-      <span>My<span class="brand-accent">CRE</span>Lawyer<small>CRE LITIGATION INTELLIGENCE</small></span>
+      <span><span class="brand-accent">CRE</span>docket<small>CRE LITIGATION INTELLIGENCE</small></span>
     </a>
     <ul class="nav-links">
       <li><a href="index.html">Home</a></li>
-      <li><a href="litigation.html">Litigation Tracker</a></li>
-      <li><a href="updates.html">Updates</a></li>
+      <li class="nav-item has-dropdown">
+        <a href="litigation.html">Litigation Tracker</a>
+        <button class="nav-caret-btn" aria-label="Toggle Litigation Tracker submenu" aria-expanded="false">
+          <svg class="nav-caret" viewBox="0 0 24 24" fill="none" width="14" height="14"><path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </button>
+        <div class="nav-dropdown">
+          <a href="litigation.html">All Matters</a>
+          <a href="updates.html">Latest Updates</a>
+          <a href="regulatory.html">Regulatory Issues</a>
+          <a href="judges.html">Judges &amp; Courts</a>
+        </div>
+      </li>
       <li><a href="about.html" class="active">About</a></li>
       <li><a href="contact.html">Contact</a></li>
     </ul>
     <div class="nav-cta">
-      <a href="litigation.html" class="btn btn-primary btn-sm">
-        Explore Tracker
-        <svg viewBox="0 0 24 24" fill="none"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
-      </a>
       <button class="nav-toggle" aria-label="Toggle menu"><span></span><span></span><span></span></button>
     </div>
   </div>
 </nav>
 
 <header class="page-header">
+    <div class="page-header-photo"><img src="img/photos/philadelphia.jpg" alt="Philadelphia skyline" loading="eager" /></div>
+    <svg class="page-header-graphic" viewBox="0 0 640 400" fill="none" aria-hidden="true" preserveAspectRatio="xMaxYMid slice">
+      <defs>
+        <radialGradient id="phGlow" cx="70%" cy="30%" r="60%">
+          <stop offset="0" stop-color="var(--accent)" stop-opacity="0.16"/>
+          <stop offset="1" stop-color="var(--accent)" stop-opacity="0"/>
+        </radialGradient>
+      </defs>
+      <rect x="0" y="0" width="640" height="400" fill="url(#phGlow)"/>
+      <circle cx="420" cy="120" r="3.5" fill="var(--status-pending)" opacity="0.8">
+        <animate attributeName="r" values="3.5;5.5;3.5" dur="3s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="230" cy="160" r="3" fill="var(--status-filed)" opacity="0.8">
+        <animate attributeName="r" values="3;5;3" dur="2.6s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="330" cy="200" r="3" fill="var(--accent-bright)" opacity="0.8">
+        <animate attributeName="r" values="3;5;3" dur="3.4s" repeatCount="indefinite"/>
+      </circle>
+    </svg>
   <div class="container">
-    <div class="eyebrow reveal in-view">About MyCRELawyer</div>
+    <div class="eyebrow reveal in-view">About CREdocket</div>
     <h1 class="reveal in-view" style="font-size:clamp(2.2rem,4vw,3.4rem);">Legal risk, translated for the CRE industry.</h1>
-    <p class="lede mt-16 reveal in-view">MyCRELawyer exists to give owners, asset managers, developers, and REIT teams a fast, structured read on the litigation and legal issues shaping their industry — without wading through court dockets.</p>
+    <p class="lede mt-16 reveal in-view">CREdocket exists to give owners, asset managers, developers, and REIT teams a fast, structured read on the litigation and legal issues shaping their industry — without wading through court dockets.</p>
   </div>
 </header>
 
@@ -79,15 +104,15 @@
     <div class="grid-3 reveal-stagger">
       <div class="card">
         <h3 style="font-size:1.05rem;">This is a working interface</h3>
-        <p class="text-secondary mt-16" style="font-size:14px;">This site was built to demonstrate the MyCRELawyer product experience — the design, the filtering, the timeline, and the detail views — end to end.</p>
+        <p class="text-secondary mt-16" style="font-size:14px;">This site was built to demonstrate the CREdocket product experience — the design, the filtering, the timeline, and the detail views — end to end.</p>
       </div>
       <div class="card">
-        <h3 style="font-size:1.05rem;">Most matters are sample data</h3>
-        <p class="text-secondary mt-16" style="font-size:14px;">Most case, party name, court, and outcome entries in the tracker are fictional and illustrative and do not refer to real litigation, real companies, or real people. Entries marked <strong>Verified Update</strong> are the exception — real, sourced developments with a citation to the original reporting.</p>
+        <h3 style="font-size:1.05rem;">Every matter is real and sourced</h3>
+        <p class="text-secondary mt-16" style="font-size:14px;">Each entry is a real, sourced development pulled in from litigation-news research, with a citation linking to the original reporting.</p>
       </div>
       <div class="card">
         <h3 style="font-size:1.05rem;">Fed by a live research task</h3>
-        <p class="text-secondary mt-16" style="font-size:14px;">The data layer (<code class="mono">js/data.js</code>) now also receives real entries from a twice-daily automated research task that searches for CRE litigation news and appends sourced matters (<code class="mono">source: "live"</code>) alongside the sample content.</p>
+        <p class="text-secondary mt-16" style="font-size:14px;">The data layer (<code class="mono">js/data.js</code>) is continuously updated by a twice-daily automated research task that searches for CRE litigation news and appends new sourced matters as they're published.</p>
       </div>
     </div>
   </div>
@@ -95,7 +120,8 @@
 
 <section class="section">
   <div class="container">
-    <div class="card reveal" style="padding:56px; display:flex; align-items:center; justify-content:space-between; gap:32px; flex-wrap:wrap; background:linear-gradient(135deg, var(--surface), var(--bg-elevated));">
+    <div class="card cta-photo-card reveal" style="padding:56px; display:flex; align-items:center; justify-content:space-between; gap:32px; flex-wrap:wrap;">
+      <div class="cta-photo-bg"><img src="img/photos/new-york.jpg" alt="" aria-hidden="true" loading="lazy" /></div>
       <div>
         <h2 style="font-size:clamp(1.6rem,2.6vw,2.2rem);">Questions about the tracker?</h2>
         <p class="text-secondary mt-16" style="max-width:480px;">Reach out and we'll walk through how the practice areas, filters, and timeline are built.</p>
@@ -114,7 +140,7 @@
       <div class="footer-col">
         <a href="index.html" class="brand" style="margin-bottom:14px;">
           <svg class="brand-mark" viewBox="0 0 32 32" fill="none"><path d="M6 26h20M8 26V14M12 26V14M16 26V14M20 26V14M24 26V14M4 14l12-8 12 8" stroke="var(--accent)" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/></svg>
-          <span>My<span class="brand-accent">CRE</span>Lawyer</span>
+          <span><span class="brand-accent">CRE</span>docket</span>
         </a>
         <p style="max-width:280px;">Litigation intelligence for commercial real estate owners, managers, developers, and REITs.</p>
       </div>
@@ -122,6 +148,7 @@
         <h4>Navigate</h4>
         <a href="index.html">Home</a>
         <a href="litigation.html">Litigation Tracker</a>
+        <a href="regulatory.html">Regulatory</a>
         <a href="updates.html">Updates</a>
         <a href="about.html">About</a>
         <a href="contact.html">Contact</a>
@@ -134,13 +161,18 @@
         <a href="litigation.html?category=construction-defect">Construction Defect</a>
       </div>
       <div class="footer-col">
+        <h4>Legal</h4>
+        <a href="privacy.html">Privacy Policy</a>
+        <a href="terms.html">Terms of Service</a>
+      </div>
+      <div class="footer-col">
         <h4>Contact</h4>
-        <a href="mailto:hello@mycrelawyer.com">hello@mycrelawyer.com</a>
+        <a href="mailto:hello@credocket.com">hello@credocket.com</a>
         <a href="contact.html">Contact form</a>
       </div>
     </div>
     <div class="footer-bottom">
-      <span>© <span data-year></span> MyCRELawyer. Demonstration site — sample data throughout.</span>
+      <span>© <span data-year></span> CREdocket. Litigation intelligence sourced from ongoing legal research.</span>
       <span>Not legal advice. For informational purposes only.</span>
     </div>
   </div>
@@ -148,6 +180,7 @@
 
 <script src="js/data.js"></script>
 <script src="js/main.js"></script>
+<script src="js/search.js"></script>
 <script src="js/motion.js"></script>
 </body>
 </html>

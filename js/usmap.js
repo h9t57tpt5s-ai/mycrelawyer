@@ -1,5 +1,5 @@
 /* =========================================================
-   MyCRELawyer — US jurisdiction map
+   CREdocket — US jurisdiction map
    -----------------------------------------------------------
    Renders real state border paths (see js/us-state-paths.js)
    with states that have tracked matters shown active/clickable/
