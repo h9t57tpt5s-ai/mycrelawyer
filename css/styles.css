@@ -441,6 +441,14 @@ h3, .h3 {
 }
 .newsletter-card-text { max-width: 460px; }
 .newsletter-embed { flex: 0 0 auto; min-width: 320px; min-height: 48px; display: flex; align-items: center; }
+/* beehiiv's own resize handshake (which is supposed to expand its wrapper
+   from height:0 once the iframe reports its real content height) doesn't
+   reliably fire in every context. Force a sensible fixed height instead of
+   depending on it — !important is required to beat the inline styles
+   beehiiv's script writes directly onto these elements. */
+.newsletter-embed > div { width: 100%; }
+.newsletter-embed > div > div { height: auto !important; overflow: visible !important; }
+.newsletter-embed iframe { height: 420px !important; min-height: 420px !important; }
 
 /* ---------- Footer ---------- */
 .footer { border-top: 1px solid var(--border-soft); padding: 72px 0 36px; position: relative; z-index: 1; background: var(--bg-elevated); }
