@@ -744,8 +744,22 @@ h3, .h3 {
 .detail-meta-grid .label { font-size: 11px; text-transform: uppercase; letter-spacing: 0.06em; color: var(--text-muted); font-family: var(--font-mono); margin-bottom: 5px; }
 .detail-meta-grid .value { font-size: 14px; color: var(--text-primary); font-weight: 500; }
 .detail-panel .body-text { font-size: 15px; color: var(--text-secondary); line-height: 1.75; margin-bottom: 20px; }
-.detail-panel .tag-row { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 24px; }
-.detail-tag { font-size: 11.5px; padding: 5px 12px; border-radius: var(--radius-full); background: var(--surface); border: 1px solid var(--border); color: var(--text-secondary); font-family: var(--font-mono); }
+.detail-panel .tag-row, .tag-row { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 24px; }
+.detail-tag { font-size: 11.5px; padding: 5px 12px; border-radius: var(--radius-full); background: var(--surface); border: 1px solid var(--border); color: var(--text-secondary); font-family: var(--font-mono); transition: border-color 0.2s ease, color 0.2s ease; }
+.detail-tag:hover { border-color: var(--accent); color: var(--accent); }
+
+/* ---------- Glossary ---------- */
+.glossary-jump { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 40px; }
+.glossary-jump a {
+  width: 32px; height: 32px; display: flex; align-items: center; justify-content: center;
+  border-radius: var(--radius-full); border: 1px solid var(--border); background: var(--surface);
+  font-family: var(--font-mono); font-size: 12.5px; color: var(--text-secondary); transition: all 0.2s ease;
+}
+.glossary-jump a:hover { border-color: var(--accent); color: var(--accent); transform: translateY(-2px); }
+.glossary-list { display: flex; flex-direction: column; gap: 0; }
+.glossary-entry { padding: 26px 0; border-top: 1px solid var(--border-soft); scroll-margin-top: 100px; }
+.glossary-entry:last-child { border-bottom: 1px solid var(--border-soft); }
+.glossary-entry h3 { font-size: 1.15rem; }
 
 .primary-source-link {
   display: flex; align-items: center; gap: 8px; margin-bottom: 18px; padding: 10px 14px;

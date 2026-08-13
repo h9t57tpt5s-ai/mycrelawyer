@@ -644,5 +644,149 @@ const RELAW_DATA = {
       summary: "The Federal Reserve, FDIC, and OCC re-proposed bank capital rules that reverse course from the original 2023 Basel III Endgame proposal, using loan-to-value-based risk weights to reduce punitive capital treatment of commercial real estate loans and cut minimum capital requirements for banks under $100B in assets by roughly 7.8%. A more favorable capital regime could ease the refinancing crunch behind the current wave of CMBS maturity defaults, though the rule remains in the comment period and is not yet final.",
       relatedCases: []
     }
+  ],
+
+  /* Glossary — plain-English definitions of terms that actually appear in
+     tracked matters, trends, and regulatory entries above. Each term links
+     back to the specific entries that illustrate it, rather than standing
+     alone as generic legal-dictionary content. */
+  glossary: [
+    {
+      id: "algorithmic-rent-pricing",
+      term: "Algorithmic Rent-Pricing",
+      definition: "Software that recommends rents or occupancy targets to landlords using pooled, often non-public, competitor data. RealPage-style suits allege that sharing this data functions as unlawful price coordination among competing landlords.",
+      relatedCases: ["live-001"],
+      relatedRegulatory: ["reg-001", "reg-002", "reg-003"]
+    },
+    {
+      id: "article-78-proceeding",
+      term: "Article 78 Proceeding",
+      definition: "A special New York state-court proceeding used to challenge a government agency or board's decision as arbitrary, capricious, or beyond its authority — commonly used to fight rent-board and zoning-board rulings.",
+      relatedCases: ["live-011"]
+    },
+    {
+      id: "brownfield",
+      term: "Brownfield",
+      definition: "A property where redevelopment or reuse is complicated by the presence, or potential presence, of a hazardous substance or contaminant, typically left behind by prior industrial or commercial use.",
+      relatedCases: ["live-017", "live-019"]
+    },
+    {
+      id: "cercla",
+      term: "CERCLA (Superfund)",
+      definition: "The federal Comprehensive Environmental Response, Compensation, and Liability Act — imposes strict, retroactive, joint-and-several cleanup liability on current and past owners of contaminated property, regardless of fault.",
+      relatedCases: ["live-017", "live-019"],
+      relatedRegulatory: ["reg-007"]
+    },
+    {
+      id: "chapter-11-reorganization",
+      term: "Chapter 11 Reorganization",
+      definition: "A form of bankruptcy that lets a financially distressed company — including a REIT — continue operating while it restructures its debts under court supervision, rather than liquidating outright.",
+      relatedCases: ["live-006"]
+    },
+    {
+      id: "cmbs",
+      term: "CMBS (Commercial Mortgage-Backed Securities)",
+      definition: "Bonds backed by a pool of commercial real estate loans. Monthly delinquency and special-servicing data on CMBS pools is one of the most closely watched signals of broad CRE distress.",
+      relatedCases: ["live-003"],
+      relatedTrends: ["trend-002"]
+    },
+    {
+      id: "consent-decree",
+      term: "Consent Decree",
+      definition: "A court-approved settlement in which a defendant agrees to specific remedial obligations — often environmental cleanup — without admitting liability, enforceable afterward as a court order.",
+      relatedCases: ["live-019"]
+    },
+    {
+      id: "contempt-of-court",
+      term: "Contempt of Court",
+      definition: "A finding that a party violated a court order. In eminent-domain and zoning disputes, contempt motions are often used to enforce an injunction against a government body that keeps acting despite a prior ruling.",
+      relatedCases: ["live-009"]
+    },
+    {
+      id: "declaratory-judgment-action",
+      term: "Declaratory Judgment Action",
+      definition: "A lawsuit asking a court to define the parties' legal rights or obligations — for example, whether an insurance policy covers a claim — without necessarily awarding damages.",
+      relatedCases: ["live-017"]
+    },
+    {
+      id: "eminent-domain",
+      term: "Eminent Domain / Condemnation",
+      definition: "The government's power to take private property for public use in exchange for just compensation. Disputes typically center on whether the taking is genuinely for public use and whether the compensation offered is adequate.",
+      relatedCases: ["live-009"]
+    },
+    {
+      id: "fiduciary-duty",
+      term: "Fiduciary Duty",
+      definition: "A legal obligation to act in another party's best interest. In REIT litigation, breach-of-fiduciary-duty claims typically allege that directors or sponsors put their own financial interests ahead of shareholders'.",
+      relatedCases: ["live-013"]
+    },
+    {
+      id: "guarantor-liability",
+      term: "Guarantor Liability / Recourse Carve-Out",
+      definition: "Provisions in an otherwise non-recourse commercial loan — sometimes called a \"bad boy\" guaranty — that make a guarantor personally liable if specific triggering events occur, such as fraud or unauthorized additional debt.",
+      relatedTrends: ["trend-002"]
+    },
+    {
+      id: "inherently-beneficial-use",
+      term: "Inherently Beneficial Use",
+      definition: "A New Jersey zoning-law category — hospitals, schools, senior housing, and similar uses — historically given a near-automatic path past local zoning objections in a use-variance application.",
+      relatedCases: ["live-015"]
+    },
+    {
+      id: "milestone-inspection",
+      term: "Milestone Inspection",
+      definition: "A structural inspection now mandated for older condo and co-op buildings in states like Florida, timed to a building's age, aimed at catching structural deterioration before it becomes catastrophic.",
+      relatedCases: ["live-016"],
+      relatedRegulatory: ["reg-005"]
+    },
+    {
+      id: "non-performing-matured-balloon-loan",
+      term: "Non-Performing Matured Balloon Loan",
+      definition: "A commercial mortgage that reached its scheduled maturity date without being paid off or refinanced, and is now in default status even if the borrower never missed a monthly payment.",
+      relatedTrends: ["trend-002"]
+    },
+    {
+      id: "phase-i-ii-environmental-assessment",
+      term: "Phase I / Phase II Environmental Site Assessment",
+      definition: "Standard pre-purchase due-diligence reports: a Phase I identifies potential contamination risk from a property's historical use, and a Phase II involves actual soil and groundwater testing if the Phase I flags a concern.",
+      relatedCases: ["live-017"],
+      relatedRegulatory: ["reg-007"]
+    },
+    {
+      id: "pollution-exclusion",
+      term: "Pollution Exclusion",
+      definition: "A standard clause in general liability and property insurance policies that bars coverage for claims arising from the release of pollutants — frequently the subject of environmental-contamination coverage disputes.",
+      relatedCases: ["live-017"]
+    },
+    {
+      id: "regulatory-taking",
+      term: "Regulatory Taking",
+      definition: "A land-use restriction so severe that, even without physically seizing the property, courts treat it as a taking requiring just compensation under the Fifth Amendment.",
+      relatedCases: ["live-012"]
+    },
+    {
+      id: "special-servicer",
+      term: "Special Servicer",
+      definition: "The entity that takes over management of a securitized (CMBS) loan once it becomes distressed or defaults, with different incentives and legal options than the original lender — including foreclosure, note sale, or restructuring.",
+      relatedTrends: ["trend-002"]
+    },
+    {
+      id: "ucc-foreclosure",
+      term: "UCC Foreclosure",
+      definition: "A faster, non-judicial foreclosure process under Article 9 of the Uniform Commercial Code, used to seize the pledged equity interests — rather than the real property itself — in mezzanine-loan structures.",
+      relatedCases: ["live-003"]
+    },
+    {
+      id: "use-variance",
+      term: "Use Variance",
+      definition: "Permission from a local zoning board to use a property in a way the underlying zoning ordinance would otherwise prohibit, typically requiring the applicant to show hardship and that the variance won't harm the surrounding zone plan.",
+      relatedCases: ["live-015"]
+    },
+    {
+      id: "void-ab-initio",
+      term: "Void Ab Initio",
+      definition: "A legal finding that an action — such as a government's attempted condemnation — was invalid from the very moment it occurred, as if it never legally happened, rather than merely voidable going forward.",
+      relatedCases: ["live-009"]
+    }
   ]
 };
