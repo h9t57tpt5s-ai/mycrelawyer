@@ -424,6 +424,105 @@ const RELAW_DATA = {
       documentUrl: "https://www.njcourts.gov/system/files/court-opinions/2026/a_70_24.pdf",
       documentLabel: "Read the official opinion",
       tags: ["zoning", "use variance", "inherently beneficial use", "senior housing", "land use"]
+    },
+    {
+      id: "live-016",
+      title: "300 Biscayne Boulevard Way Condo Assn. v. Riverwalk East Developments (Aston Martin Residences Construction Defect Suit)",
+      category: "construction-defect",
+      status: "filed",
+      date: "2026-04-15",
+      jurisdiction: "Miami-Dade County Circuit Court",
+      state: "FL",
+      amount: "$750,000+ sought; $1B, 341-unit project",
+      source: "live",
+      sourceUrl: "https://www.bisnow.com/news/south-florida/multifamily/association-of-1b-aston-martin-tower-sue-for-construction-defects-134233",
+      summary: "The condominium association for the 341-unit, $1 billion Aston Martin Residences tower at 300 Biscayne Boulevard Way sued developer Riverwalk East Developments, architect Revuelta Architecture International, general contractor Coastal Construction South Florida, structural engineer DeSimone Consulting Engineering, and roughly a dozen subcontractors, alleging pervasive construction defects discovered in the roughly two years since the 66-story tower's 2024 completion. The complaint cites spalling concrete with exposed rebar, pool and spa leaks that have corroded reinforcing steel, cracked balcony slabs, seawall cracking, elevator defects, and leaking fire-suppression systems, and seeks a minimum of $750,000 in damages plus compulsory repairs the association estimates will run into the millions.",
+      significance: "Filed less than two years after a marquee luxury tower reached 99% presale and delivered, the suit underscores that Florida's post-Surfside statutory reforms (mandatory milestone inspections, reserve funding) address ongoing maintenance but do nothing to shift the underlying construction-quality risk that still falls on developers and their design/build teams. Developers, GCs, and design professionals on large-scale coastal high-rise projects should expect condo boards to move faster and more aggressively post-turnover, and should confirm builder's-risk and completed-operations coverage — plus contractual risk allocation among the dozen-plus subcontractors named here — well before a project breaks ground.",
+      body: [
+        "300 Biscayne Boulevard Way Condominium Association, representing owners of the 341-unit Aston Martin Residences tower in downtown Miami, filed suit against developer Riverwalk East Developments LLC and roughly fifteen design and construction firms involved in the $1 billion project, alleging the 66-story building suffers from pervasive structural and waterproofing defects discovered in the roughly two years since its 2024 completion.",
+        "The complaint names architect Revuelta Architecture International, general contractor Coastal Construction South Florida, and structural engineer DeSimone Consulting Engineering Corp. alongside more than a dozen subcontractors, and details spalling concrete with exposed rebar, corrosion-damaged reinforcing steel around leaking pools and spas, cracked balcony slabs presenting fall hazards, seawall cracking, elevator system defects, and leaking fire-suppression systems throughout the tower.",
+        "The association is seeking a minimum of $750,000 in damages, though it estimates the cost of compulsory repairs will run into the millions once a full forensic assessment is complete — a process that typically extends litigation in high-rise defect cases by years as each named party cross-claims against subcontractors and design professionals down the chain."
+      ],
+      timeline: [
+        { when: "2024", label: "Aston Martin Residences tower reaches substantial completion; 99% presold at ~$1B project value" },
+        { when: "April 15, 2026", label: "300 Biscayne Boulevard Way Condominium Association sues the developer and design/construction team", current: true }
+      ],
+      tags: ["construction defect", "condominium", "florida", "developer liability", "high-rise"]
+    },
+    {
+      id: "live-017",
+      title: "Travelers Property Casualty Co. v. Washington Shoppes LP (Dry-Cleaner PCE Contamination Coverage Dispute)",
+      category: "environmental",
+      status: "filed",
+      date: "2025-11-26",
+      jurisdiction: "Marion Superior Court, Indiana",
+      state: "IN",
+      amount: "Pollution-exclusion coverage dispute; remediation costs undisclosed",
+      source: "live",
+      sourceUrl: "https://www.theindianalawyer.com/articles/insurance-companies-sue-indy-shopping-center-in-dispute-over-environmental-site-cleanup-costs",
+      summary: "Travelers Property Casualty Company of America and St. Paul Fire and Marine Insurance Company sued Washington Shoppes LP and property owner The Broadbent Company in Indiana state court, seeking a declaration that pollution-exclusion clauses in their policies bar coverage for remediation costs at an Indianapolis shopping center contaminated by a former dry-cleaning tenant. Sunrise Dry Cleaners operated at the site from 1987 to 1996, and subsequent testing found tetrachloroethylene (PCE) and its degradation byproducts in soil and groundwater beneath the property.",
+      significance: "Legacy dry-cleaner contamination is one of the most common environmental liabilities lurking in older strip-mall and shopping-center portfolios, and this case shows insurers moving proactively to disclaim coverage rather than waiting to be sued for it — shifting remediation-cost risk back onto the property owner even where the contamination predates their ownership. Owners and buyers of retail centers with any pre-1990s dry-cleaning, auto-service, or similar tenant history should confirm Phase I/II environmental assessments are current and should not assume a general liability or pollution policy will actually respond before a claim is filed.",
+      body: [
+        "Travelers Property Casualty Company of America and St. Paul Fire and Marine Insurance Company filed a declaratory judgment action in Marion Superior Court against Washington Shoppes LP and The Broadbent Company, Inc., seeking a ruling that they owe no coverage for environmental remediation at an Indianapolis shopping center.",
+        "The contamination traces to Sunrise Dry Cleaners, which operated at the site from 1987 to 1996. Environmental testing identified tetrachloroethylene (PCE) — a solvent long used in commercial dry-cleaning — along with its breakdown products in the site's soil and groundwater. Travelers contends its pollution-exclusion clauses bar coverage outright, and separately disputes whether Washington Shoppes even qualifies as an insured party and whether the contamination pre-dated the relevant policy periods without disclosure.",
+        "The case is a coverage dispute rather than a remediation-cost claim itself, filed under case number 49D01-2511-CE-056363, and turns on policy-interpretation questions that recur across the many older retail centers that once hosted dry-cleaning tenants nationwide."
+      ],
+      timeline: [
+        { when: "1987–1996", label: "Sunrise Dry Cleaners operates at the shopping center site" },
+        { when: "November 26, 2025", label: "Travelers and St. Paul Fire and Marine file a declaratory judgment action seeking to disclaim coverage", current: true }
+      ],
+      tags: ["environmental", "PCE contamination", "insurance coverage", "dry cleaner", "shopping center"]
+    },
+    {
+      id: "live-018",
+      title: "Board of Managers of the 443 Greenwich St. Condominium v. Berman/Metro Loft (Tribeca Factory-Conversion Defect Suit, $376M Claim)",
+      category: "construction-defect",
+      status: "pending",
+      date: "2024-03-11",
+      jurisdiction: "Supreme Court of the State of New York, New York County",
+      state: "NY",
+      amount: "$376M sought; independent estimates closer to ~$100M",
+      source: "live",
+      sourceUrl: "https://therealdeal.com/new-york/2024/03/11/condo-board-of-443-greenwich-suing-developer-for-376m/",
+      summary: "The condo board for 443 Greenwich Street — a 53-unit luxury conversion of a former Tribeca bookbindery whose residents have included Jennifer Lawrence, Harry Styles, and Justin Timberlake — amended its long-running suit against developer Nathan Berman's Metro Loft and architect CetraRuddy to seek $376 million, alleging pervasive structural and water-intrusion defects, including leaking roofs that flooded multimillion-dollar penthouses and courtyard brickwork so deteriorated that decorative bricks could reportedly be pulled out by hand. An independent inspector retained in the case characterized some of the violations as life-threatening; outside attorneys reviewing the complaint have suggested actual exposure is closer to $100 million once overlapping claims are accounted for.",
+      significance: "Filed originally in December 2021 and still actively litigated more than four years later, the case illustrates how factory-to-luxury-residential conversions — a conversion play increasingly pitched as an office-to-residential solution — carry construction-defect risk that can take years to surface and even longer to resolve, with damages escalating substantially as litigation proceeds and forensic inspection deepens. Developers and design teams pursuing adaptive-reuse conversions should budget for extended post-closing exposure on original building-envelope and structural work, not just the new residential build-out, and buyers of conversion units should weigh independent structural inspection beyond standard due diligence.",
+      body: [
+        "Board of Managers of the 443 Greenwich St. Condominium first sued developer Nathan Berman's Metro Loft, related principals, and architect CetraRuddy (John A. Cetra) in New York State Supreme Court in December 2021 over construction defects at the 53-unit luxury condo conversion, a former Tribeca bookbindery whose units have housed Jennifer Lawrence, Harry Styles, Blake Lively and Ryan Reynolds, Justin Timberlake and Jessica Biel, and Formula 1 driver Lewis Hamilton.",
+        "By March 2024, the board's amended complaint raised its damages demand to $376 million, citing breach-of-contract and negligence claims tied to leaking roofs that allowed water into multimillion-dollar penthouses and structural decay severe enough that, per the board's filings, decorative courtyard bricks could be pulled out by hand due to inadequate drainage. An independent inspector's findings referenced in the litigation characterized some of the alleged violations as life-threatening. The developer and architect have denied the allegations.",
+        "Outside attorneys reviewing the amended complaint told reporters the true exposure is likely closer to $100 million once duplicate and overlapping claims are resolved. The litigation remains active; a September 2025 court order granted summary judgment against the sponsor defendants on a related third-party claim and dismissed that portion of the case, one of several procedural rulings issued as the underlying defect claims continue toward resolution."
+      ],
+      timeline: [
+        { when: "December 2021", label: "Condo board sues developer Metro Loft and architect CetraRuddy over construction defects" },
+        { when: "March 2024", label: "Amended complaint raises the damages demand to $376 million" },
+        { when: "September 4, 2025", label: "Court grants summary judgment dismissing a related third-party claim", current: true }
+      ],
+      documentUrl: "https://www.nycourts.gov/reporter/3dseries/2024/2024_00450.htm",
+      documentLabel: "Read the appellate decision",
+      tags: ["construction defect", "condominium", "new york", "office-to-residential conversion", "developer liability"]
+    },
+    {
+      id: "live-019",
+      title: "United States v. Columbia Falls Aluminum Co. (CFAC Superfund Consent Decree, $57.6M Cleanup)",
+      category: "environmental",
+      status: "pending",
+      date: "2026-07-09",
+      jurisdiction: "U.S. District Court for the District of Montana",
+      state: "MT",
+      amount: "$57.6M cleanup consent decree",
+      source: "live",
+      sourceUrl: "https://www.epa.gov/newsreleases/columbia-falls-aluminum-corporation-llc-agrees-57-million-cleanup-former-smelter-site",
+      summary: "The EPA and Columbia Falls Aluminum Company, LLC (CFAC) lodged a consent decree in the U.S. District Court for the District of Montana under which CFAC will pay $57.6 million to clean up its former aluminum smelter site in Columbia Falls, addressing arsenic, cyanide, fluoride, and polyaromatic hydrocarbon contamination in soil and groundwater. The 647-page agreement, open for public comment through August 6, 2026, requires low-permeability landfill caps and a groundwater slurry wall to stop contaminant migration toward the Flathead River.",
+      significance: "Superfund liability attaches to the site, not just the operating business — CFAC ceased smelting operations years before this settlement, yet remains on the hook for tens of millions in remediation because it remained the property's owner of record. Owners of industrial and formerly-industrial CRE parcels, especially older manufacturing sites being eyed for adaptive reuse or redevelopment, should treat legacy contamination as a live balance-sheet liability rather than a closed chapter, and should confirm acquisition due diligence accounts for the multi-decade tail these consent decrees typically carry.",
+      body: [
+        "The EPA and Columbia Falls Aluminum Company, LLC (CFAC) lodged a 647-page consent decree in the U.S. District Court for the District of Montana in Missoula, resolving CERCLA and Montana state Superfund claims tied to the company's former aluminum reduction plant in Columbia Falls, Montana.",
+        "Under the agreement, CFAC will pay $57.6 million toward cleanup of arsenic, cyanide, fluoride, and polyaromatic hydrocarbon (PAH) contamination in soil and groundwater at the shuttered smelter site, including construction of a groundwater slurry wall around the main contaminant source area to halt migration toward the Flathead River and low-permeability caps over onsite landfills.",
+        "The consent decree remains subject to a 30-day public comment period running from July 7 to August 6, 2026, and further review by the U.S. District Court in Missoula before formal entry. EPA and the Montana Department of Environmental Quality will jointly oversee design and implementation of the remedial work, which the agency estimates could take two to three years to complete once a final remediation design is set."
+      ],
+      timeline: [
+        { when: "July 9, 2026", label: "EPA announces the $57.6M consent decree agreement with CFAC for Superfund site cleanup" },
+        { when: "Through August 6, 2026", label: "Public comment period open before the U.S. District Court formally enters the consent decree", current: true }
+      ],
+      tags: ["environmental", "CERCLA", "superfund", "industrial site", "montana"]
     }
   ],
 
