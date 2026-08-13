@@ -346,9 +346,11 @@ h3, .h3 {
   position: relative;
   z-index: 1;
 }
-.ticker-track { display: flex; gap: 56px; white-space: nowrap; animation: scroll-left 42s linear infinite; width: max-content; }
-.ticker-item { display: inline-flex; align-items: center; gap: 10px; font-family: var(--font-mono); font-size: 13px; color: var(--text-secondary); }
-.ticker-dot { width: 6px; height: 6px; border-radius: 50%; }
+.ticker-track { display: flex; gap: 56px; white-space: nowrap; animation: scroll-left 110s linear infinite; width: max-content; }
+.ticker:hover .ticker-track, .ticker-track:focus-within { animation-play-state: paused; }
+.ticker-item { display: inline-flex; align-items: center; gap: 10px; font-family: var(--font-mono); font-size: 13px; color: var(--text-secondary); cursor: pointer; border-radius: var(--radius-full); padding: 3px 10px; margin: -3px -10px; transition: background 0.2s ease, color 0.2s ease; }
+.ticker-item:hover { background: var(--accent-wash); color: var(--accent-deep); }
+.ticker-dot { width: 6px; height: 6px; border-radius: 50%; flex-shrink: 0; }
 @keyframes scroll-left { from { transform: translateX(0); } to { transform: translateX(-50%); } }
 
 /* ---------- Cards ---------- */

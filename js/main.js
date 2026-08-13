@@ -135,7 +135,7 @@
 
     const itemHtml = (c) => {
       const cat = catMap[c.category];
-      return `<span class="ticker-item"><span class="ticker-dot" style="background:${cat.color}"></span>${formatDate(c.date)} — ${c.title}</span>`;
+      return `<span class="ticker-item" data-case-id="${c.id}" title="Read ${c.title}"><span class="ticker-dot" style="background:${cat.color}"></span>${formatDate(c.date)} — ${c.title}</span>`;
     };
 
     const html = recent.map(itemHtml).join("") + recent.map(itemHtml).join("");
