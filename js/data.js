@@ -605,6 +605,44 @@ const RELAW_DATA = {
       enacted: "In effect statewide",
       summary: "Allows qualifying two-lot residential subdivisions to be approved ministerially rather than through discretionary review. A live test over whether cities can condition SB 9 approvals on formula-based impact fees is now testing the limits of that ministerial status.",
       relatedCases: ["live-012"]
+    },
+    {
+      id: "reg-005",
+      title: "Florida SB 4-D — Condo Milestone Inspections & Structural Integrity Reserve Studies",
+      type: "State Law",
+      jurisdiction: "Florida",
+      state: "FL",
+      enacted: "Enacted May 26, 2022; SIRS deadline December 31, 2025",
+      summary: "Enacted after the Surfside collapse, requires condo and co-op buildings three stories or taller to undergo milestone structural inspections (at 25 years for coastal buildings, 30 inland) and a Structural Integrity Reserve Study every 10 years covering nine structural components, with reserve-funding waivers now prohibited. Addresses ongoing building maintenance and disclosure, but does not shift underlying construction-quality risk away from developers and design/build teams.",
+      relatedCases: ["live-016"]
+    },
+    {
+      id: "reg-006",
+      title: "NYC 467-m — Office-to-Residential Conversion Tax Incentive",
+      type: "Municipal Tax Incentive",
+      jurisdiction: "New York, NY",
+      state: "NY",
+      enacted: "2024, aligned with the City of Yes rezoning package",
+      summary: "Offers up to 35 years of property tax abatement for qualifying office-to-residential conversions, provided at least 25% of the resulting units are affordable — paired with the City of Yes zoning text amendment to reduce barriers like parking mandates. Aimed at accelerating the same category of factory- and office-conversion projects already generating years-long construction-defect litigation once units are sold and occupied.",
+      relatedCases: ["live-018"]
+    },
+    {
+      id: "reg-007",
+      title: "EPA CERCLA Hazardous Substance Designation — PFOA and PFOS (PFAS)",
+      type: "Federal Rule",
+      jurisdiction: "Federal (nationwide)",
+      enacted: "Effective July 8, 2024",
+      summary: "Designates two PFAS compounds — PFOA and PFOS — as CERCLA hazardous substances, meaning Phase I environmental site assessments must now consider them and current or past owners can face strict, retroactive cleanup liability regardless of fault. Industry groups including the U.S. Chamber of Commerce and the Associated General Contractors of America have filed a legal challenge to the designation, which significantly expands the universe of contamination that can trigger Superfund-style liability for commercial property owners.",
+      relatedCases: ["live-017", "live-019"]
+    },
+    {
+      id: "reg-008",
+      title: "Basel III Endgame Re-Proposal — Bank Capital Treatment of CRE Loans",
+      type: "Federal Rule (Proposed)",
+      jurisdiction: "Federal (nationwide)",
+      enacted: "Re-proposed March 19, 2026; comments due June 18, 2026",
+      summary: "The Federal Reserve, FDIC, and OCC re-proposed bank capital rules that reverse course from the original 2023 Basel III Endgame proposal, using loan-to-value-based risk weights to reduce punitive capital treatment of commercial real estate loans and cut minimum capital requirements for banks under $100B in assets by roughly 7.8%. A more favorable capital regime could ease the refinancing crunch behind the current wave of CMBS maturity defaults, though the rule remains in the comment period and is not yet final.",
+      relatedCases: []
     }
   ]
 };
