@@ -14,6 +14,7 @@
   if (!sb) return;
 
   const PENDING_CASE_KEY = "credocket_pending_case";
+  const PENDING_CASE_MAX_AGE_MS = 30 * 60 * 1000; // 30 minutes — magic links can be clicked from a different tab/device
   let currentSession = null;
 
   /* ---------- Session bootstrap ---------- */
@@ -29,12 +30,24 @@
     resumePendingCaseIfAny();
   });
 
+  function setPendingCase(caseId) {
+    // localStorage (not sessionStorage) because the magic-link email is
+    // almost always opened in a new tab, sometimes even a new window —
+    // sessionStorage wouldn't survive that jump.
+    localStorage.setItem(PENDING_CASE_KEY, JSON.stringify({ caseId, savedAt: Date.now() }));
+  }
+
   function resumePendingCaseIfAny() {
     if (!currentSession) return;
-    const pending = sessionStorage.getItem(PENDING_CASE_KEY);
-    if (pending && window.RELAW_UTILS && window.RELAW_UTILS.openCaseDetail) {
-      sessionStorage.removeItem(PENDING_CASE_KEY);
-      window.RELAW_UTILS.openCaseDetail(pending);
+    const raw = localStorage.getItem(PENDING_CASE_KEY);
+    if (!raw) return;
+    localStorage.removeItem(PENDING_CASE_KEY);
+    let parsed;
+    try { parsed = JSON.parse(raw); } catch (e) { return; }
+    if (!parsed || !parsed.caseId) return;
+    if (Date.now() - parsed.savedAt > PENDING_CASE_MAX_AGE_MS) return;
+    if (window.RELAW_UTILS && window.RELAW_UTILS.openCaseDetail) {
+      window.RELAW_UTILS.openCaseDetail(parsed.caseId);
     }
   }
 
@@ -105,7 +118,7 @@
   }
 
   function openSignInModal(pendingCaseId) {
-    if (pendingCaseId) sessionStorage.setItem(PENDING_CASE_KEY, pendingCaseId);
+    if (pendingCaseId) setPendingCase(pendingCaseId);
     const m = buildModal();
     m.classList.add("open");
     document.body.style.overflow = "hidden";
