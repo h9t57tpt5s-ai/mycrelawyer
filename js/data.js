@@ -588,6 +588,19 @@ const RELAW_DATA = {
       summary: "Trepp's July 2026 CMBS Delinquency Report shows the overall rate rising 51 basis points to 7.86%, the sharpest single-month increase in over a year, with five large loans accounting for $2.6B of the $6.0B in newly delinquent balances. Those loans include a showroom/exhibition-space portfolio split between North Carolina and Nevada, two Times Square properties in New York, a Chicago office tower anchored by the Aon Center, and a Seattle office portfolio. Non-performing matured balloon loans made up 66% of the newly delinquent balance, with most transfers tied to refinancing failures rather than weak property performance. Multifamily posted the largest sector increase, up 46 bps to 7.69%, on a cluster of newly delinquent loans in Ohio, Texas, and New York.",
       significance: "A maturity-default wave driven by refinancing failure rather than operating distress produces a different dispute mix than a typical downturn: extension and modification fights, guarantor liability under recourse carve-outs, appraisal disputes with special servicers, and cash-management sweep or lockbox disagreements. Because the trigger is loan structure and vintage rather than asset performance, sponsors with 2015-2016-vintage loans hitting 10-year maturities into a tighter lending market should expect portfolio-wide exposure rather than isolated, property-by-property risk.",
       tags: ["cmbs", "delinquency", "refinancing", "maturity default", "guarantor liability"]
+    },
+    {
+      id: "trend-003",
+      title: "CRE's $65B Year-End Maturity Wall Leaves $37B in 'Hard' Maturities With No Extensions Left",
+      category: "lending-foreclosure",
+      date: "2026-08-11",
+      scope: "National CMBS market",
+      metric: "$65B in CMBS loans maturing by year-end; $37B are hard maturities with no extension room",
+      source: "live",
+      sourceUrl: "https://www.credaily.com/newsletters/national/issue/cres-65b-maturity-wall-is-finally-hitting/",
+      summary: "Trepp data reported by CRE Daily on August 11 shows roughly $65 billion in CMBS loans maturing by year-end 2026, including $37 billion of 'hard' maturities that have already exhausted their extension options; Trepp estimates more than half of those properties will need fresh borrower equity to refinance at current rates. Office debt bears a disproportionate share of the distress, with an 11.91% distress rate versus 7.6% market-wide serious delinquency, and all five nonperforming CMBS loans maturing in August are office loans totaling $1.8B. Examples cited include Rithm Capital injecting $73M of fresh equity to refinance a $500M maturity at 31 W. 52nd St. in Manhattan, and a San Francisco office CMBS investment that returned bondholders just $101M of an original $240M investment.",
+      significance: "A maturity-default wave driven by loan structure and vintage rather than property performance tends to produce fights over extension and modification terms, guarantor liability claims under recourse carve-outs once a maturity default triggers personal exposure, appraisal disputes between borrowers and special servicers ahead of forced sales, and bondholder claims against special servicers over resolution timing and pricing when losses are as steep as the San Francisco example. Sponsors with 2015-2016-vintage 10-year loans or 2021-2022-vintage interest-only loans maturing into a tighter lending market should treat this as portfolio-wide exposure rather than an isolated, property-by-property risk.",
+      tags: ["cmbs", "maturity wall", "office", "special servicing", "guarantor liability"]
     }
   ],
 
