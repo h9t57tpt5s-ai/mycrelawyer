@@ -222,21 +222,63 @@
           </div>`
         : "";
 
-      let articleHtml;
-      if (c.body && c.body.length) {
-        articleHtml = c.body.map((p) => `<p class="body-text">${p}</p>`).join("");
-        if (isLive && c.sourceUrl) {
-          articleHtml += `<p class="body-text"><a href="${c.sourceUrl}" target="_blank" rel="noopener">Original source ↗</a></p>`;
+      const hasGatedContent = !!((c.body && c.body.length) || (c.timeline && c.timeline.length));
+
+      function fullArticleInnerHtml() {
+        let articleHtml;
+        if (c.body && c.body.length) {
+          articleHtml = c.body.map((p) => `<p class="body-text">${p}</p>`).join("");
+          if (isLive && c.sourceUrl) {
+            articleHtml += `<p class="body-text"><a href="${c.sourceUrl}" target="_blank" rel="noopener">Original source ↗</a></p>`;
+          }
+          articleHtml = primarySourceHtml + articleHtml;
+        } else if (isLive) {
+          articleHtml = `
+            <div class="article-pending">
+              <p class="body-text" style="margin-bottom:14px;">The full digest write-up for this update hasn't synced from the research feed yet — only the summary above is available right now.</p>
+              ${c.sourceUrl ? `<a href="${c.sourceUrl}" target="_blank" rel="noopener" class="btn btn-ghost btn-sm">Read the original reporting ↗</a>` : ""}
+            </div>`;
+        } else {
+          articleHtml = `<p class="body-text">Full write-up not available for this entry.</p>`;
         }
-        articleHtml = primarySourceHtml + articleHtml;
-      } else if (isLive) {
-        articleHtml = `
-          <div class="article-pending">
-            <p class="body-text" style="margin-bottom:14px;">The full digest write-up for this update hasn't synced from the research feed yet — only the summary above is available right now.</p>
-            ${c.sourceUrl ? `<a href="${c.sourceUrl}" target="_blank" rel="noopener" class="btn btn-ghost btn-sm">Read the original reporting ↗</a>` : ""}
+        return `
+          ${c.timeline && c.timeline.length ? `
+          <h3 style="margin-bottom:14px;">Case Timeline</h3>
+          <div class="case-timeline">
+            ${c.timeline.map((ev) => `
+              <div class="timeline-event${ev.current ? " is-current" : ""}${ev.upcoming ? " is-upcoming" : ""}">
+                <div class="timeline-event-dot"></div>
+                <div class="timeline-event-body">
+                  <div class="timeline-event-when">${ev.when}${ev.upcoming ? '<span class="timeline-upcoming-tag">Scheduled</span>' : ""}</div>
+                  <div class="timeline-event-label">${ev.label}</div>
+                </div>
+              </div>`).join("")}
+          </div>
+          <div class="rule mt-24" style="margin-bottom:24px;"></div>` : ""}
+          <h3 style="margin-bottom:14px;">Full Article</h3>
+          ${articleHtml}`;
+      }
+
+      function gateStateHtml(state) {
+        if (state.status === "not-logged-in") {
+          return `<div class="gate-card">
+            <div class="eyebrow" style="margin-bottom:8px;">Free account required</div>
+            <h3 style="margin-bottom:8px;">Sign in to read the full write-up</h3>
+            <p class="text-secondary" style="font-size:13.5px; line-height:1.6; margin-bottom:16px;">Case Timeline and the full article are free with an account — no card required. First ${window.RELAW_AUTH.MONTHLY_LIMIT} matters each month are on us.</p>
+            <button type="button" class="btn btn-primary btn-sm" id="gate-signin-btn">Sign in to continue</button>
           </div>`;
-      } else {
-        articleHtml = `<p class="body-text">Full write-up not available for this entry.</p>`;
+        }
+        if (state.status === "limit-reached") {
+          return `<div class="gate-card">
+            <div class="eyebrow" style="margin-bottom:8px;">Monthly limit reached</div>
+            <h3 style="margin-bottom:8px;">You've read your ${state.limit} free full write-ups this month</h3>
+            <p class="text-secondary" style="font-size:13.5px; line-height:1.6; margin-bottom:16px;">Your free reads reset on ${state.resetLabel}. Need access to this matter sooner? <a href="contact.html?matter=${encodeURIComponent(c.title)}">Reach out</a> and we'll help.</p>
+          </div>`;
+        }
+        return `<div class="gate-card">
+          <div class="eyebrow" style="margin-bottom:8px;">Something went wrong</div>
+          <p class="text-secondary" style="font-size:13.5px;">${state.message || "Couldn't check access — try reopening this matter."}</p>
+        </div>`;
       }
 
       panel.innerHTML = `
@@ -263,21 +305,7 @@
         <h3 style="margin-bottom:10px;">Why it matters</h3>
         <p class="body-text">${c.significance}</p>
         <div class="rule mt-24" style="margin-bottom:24px;"></div>
-        ${c.timeline && c.timeline.length ? `
-        <h3 style="margin-bottom:14px;">Case Timeline</h3>
-        <div class="case-timeline">
-          ${c.timeline.map((ev) => `
-            <div class="timeline-event${ev.current ? " is-current" : ""}${ev.upcoming ? " is-upcoming" : ""}">
-              <div class="timeline-event-dot"></div>
-              <div class="timeline-event-body">
-                <div class="timeline-event-when">${ev.when}${ev.upcoming ? '<span class="timeline-upcoming-tag">Scheduled</span>' : ""}</div>
-                <div class="timeline-event-label">${ev.label}</div>
-              </div>
-            </div>`).join("")}
-        </div>
-        <div class="rule mt-24" style="margin-bottom:24px;"></div>` : ""}
-        <h3 style="margin-bottom:14px;">Full Article</h3>
-        ${articleHtml}
+        <div id="detail-gated-content"></div>
         <div class="tag-row">${c.tags.map((t) => `<span class="detail-tag">${t}</span>`).join("")}</div>
         <div class="detail-cta">
           <div class="detail-cta-text">
@@ -294,6 +322,27 @@
       overlay.classList.add("open");
       panel.classList.add("open");
       document.body.style.overflow = "hidden";
+
+      const gatedSlot = document.getElementById("detail-gated-content");
+      if (!hasGatedContent) {
+        gatedSlot.innerHTML = fullArticleInnerHtml();
+      } else if (!window.RELAW_AUTH) {
+        // Auth system didn't load — fail open rather than block content.
+        gatedSlot.innerHTML = fullArticleInnerHtml();
+      } else {
+        gatedSlot.innerHTML = `<div class="gate-card is-loading">Checking access…</div>`;
+        window.RELAW_AUTH.checkGate(c.id).then((state) => {
+          // Panel may have moved on to a different case by the time this resolves.
+          if (!panel.classList.contains("open") || document.getElementById("detail-gated-content") !== gatedSlot) return;
+          if (state.status === "ok") {
+            gatedSlot.innerHTML = fullArticleInnerHtml();
+          } else {
+            gatedSlot.innerHTML = gateStateHtml(state);
+            const signInBtn = document.getElementById("gate-signin-btn");
+            if (signInBtn) signInBtn.addEventListener("click", () => window.RELAW_AUTH.openSignInModal(c.id));
+          }
+        });
+      }
     };
   }
 

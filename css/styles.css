@@ -763,6 +763,58 @@ h3, .h3 {
 .glossary-entry:last-child { border-bottom: 1px solid var(--border-soft); }
 .glossary-entry h3 { font-size: 1.15rem; }
 
+/* ---------- Auth: nav widget ---------- */
+.auth-nav-slot { display: flex; align-items: center; }
+.auth-nav-signin {
+  font-family: var(--font-body); font-size: 13.5px; font-weight: 600; color: var(--text-primary);
+  background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius-full);
+  padding: 8px 16px; cursor: pointer; transition: border-color 0.2s ease, color 0.2s ease;
+}
+.auth-nav-signin:hover { border-color: var(--accent); color: var(--accent); }
+.auth-nav-account { display: flex; align-items: center; gap: 10px; }
+.auth-nav-email { font-family: var(--font-mono); font-size: 12px; color: var(--text-muted); max-width: 160px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.auth-nav-signout {
+  font-family: var(--font-body); font-size: 12.5px; color: var(--text-secondary);
+  background: transparent; border: 1px solid var(--border); border-radius: var(--radius-full);
+  padding: 6px 12px; cursor: pointer; transition: border-color 0.2s ease, color 0.2s ease;
+}
+.auth-nav-signout:hover { border-color: var(--accent); color: var(--accent); }
+
+/* ---------- Auth: sign-in modal ---------- */
+.auth-modal-overlay {
+  position: fixed; inset: 0; z-index: 300; background: rgba(11,13,18,0.5);
+  display: flex; align-items: center; justify-content: center;
+  opacity: 0; pointer-events: none; transition: opacity 0.25s ease; padding: 20px;
+}
+.auth-modal-overlay.open { opacity: 1; pointer-events: auto; }
+.auth-modal {
+  position: relative; width: 100%; max-width: 400px; background: var(--bg-elevated);
+  border: 1px solid var(--border); border-radius: var(--radius-lg); box-shadow: var(--shadow-md);
+  padding: 32px; transform: translateY(8px); transition: transform 0.25s ease;
+}
+.auth-modal-overlay.open .auth-modal { transform: translateY(0); }
+.auth-modal-close {
+  position: absolute; top: 16px; right: 16px; width: 30px; height: 30px; border-radius: 50%;
+  border: 1px solid var(--border); background: var(--surface); display: flex; align-items: center;
+  justify-content: center; color: var(--text-secondary); cursor: pointer;
+}
+.auth-modal-close:hover { border-color: var(--accent); color: var(--accent); }
+.auth-modal #auth-modal-email {
+  width: 100%; padding: 11px 14px; border-radius: var(--radius-md); border: 1px solid var(--border);
+  background: var(--surface); color: var(--text-primary); font-size: 14px; font-family: var(--font-body);
+}
+.auth-modal #auth-modal-email:focus { outline: none; border-color: var(--accent); }
+.auth-modal-status { margin-top: 12px; font-size: 13px; line-height: 1.5; color: var(--text-muted); min-height: 1em; }
+.auth-modal-status.is-success { color: var(--status-settled, #1a8a5f); }
+.auth-modal-status.is-error { color: var(--status-appeal, #d94949); }
+
+/* ---------- Paywall gate card ---------- */
+.gate-card {
+  padding: 24px; border-radius: var(--radius-md); background: var(--surface);
+  border: 1px dashed var(--border); margin-bottom: 24px;
+}
+.gate-card.is-loading { color: var(--text-muted); font-size: 13.5px; text-align: center; padding: 32px 24px; }
+
 .primary-source-link {
   display: flex; align-items: center; gap: 8px; margin-bottom: 18px; padding: 10px 14px;
   background: var(--accent-wash); border: 1px solid rgba(51,85,255,0.25); border-radius: var(--radius-md);
