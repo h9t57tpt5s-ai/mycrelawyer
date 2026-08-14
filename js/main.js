@@ -264,7 +264,7 @@
           return `<div class="gate-card">
             <div class="eyebrow" style="margin-bottom:8px;">Free account required</div>
             <h3 style="margin-bottom:8px;">Sign in to read the full write-up</h3>
-            <p class="text-secondary" style="font-size:13.5px; line-height:1.6; margin-bottom:16px;">Case Timeline and the full article are free with an account — no card required. First ${window.RELAW_AUTH.MONTHLY_LIMIT} matters each month are on us.</p>
+            <p class="text-secondary" style="font-size:13.5px; line-height:1.6; margin-bottom:16px;">Case Timeline and the full article are free with an account — no card required.${window.RELAW_AUTH.ENFORCE_MONTHLY_LIMIT ? ` First ${window.RELAW_AUTH.MONTHLY_LIMIT} matters each month are on us.` : ""}</p>
             <button type="button" class="btn btn-primary btn-sm" id="gate-signin-btn">Sign in to continue</button>
           </div>`;
         }

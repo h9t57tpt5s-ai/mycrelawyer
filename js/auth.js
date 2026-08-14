@@ -119,6 +119,11 @@
 
   /* ---------- Paywall gate ---------- */
   const MONTHLY_LIMIT = 3;
+  // Temporarily off: signed-in users get unlimited reads while we're still
+  // getting the account flow dialed in. View records still get written below
+  // (untouched), so flipping this back to true re-enables the real limit
+  // retroactively against whatever history has already accumulated.
+  const ENFORCE_MONTHLY_LIMIT = false;
 
   function startOfMonthIso() {
     const d = new Date();
@@ -157,7 +162,7 @@
         .gte("viewed_at", startOfMonthIso());
       if (countErr) throw countErr;
 
-      if ((count || 0) >= MONTHLY_LIMIT) {
+      if (ENFORCE_MONTHLY_LIMIT && (count || 0) >= MONTHLY_LIMIT) {
         return { status: "limit-reached", resetLabel: nextResetLabel(), limit: MONTHLY_LIMIT };
       }
 
@@ -176,6 +181,7 @@
     getSession: () => currentSession,
     openSignInModal,
     checkGate,
-    MONTHLY_LIMIT
+    MONTHLY_LIMIT,
+    ENFORCE_MONTHLY_LIMIT
   };
 })();
