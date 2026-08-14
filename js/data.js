@@ -538,6 +538,21 @@ const RELAW_DATA = {
       summary: "UWM Holdings Corp. and UWM Acquisitions 1 LLC sued NYSE-listed mortgage REIT Two Harbors Investment Corp. on August 10, alleging Two Harbors' board and management willfully breached and committed fraud in connection with their December 2025 stock-for-stock merger agreement by sabotaging the March 16, 2026 shareholder vote and steering the company toward a competing all-cash offer from CrossCountry Mortgage. UWM alleges Two Harbors misrepresented its retail shareholder base, delayed producing a beneficial-owner list needed for solicitation, and violated the deal's nonsolicitation provision, while executives stood to receive cash payouts under the rival bid rather than stock. Two Harbors has called the suit frivolous.",
       significance: "Tests whether a target REIT's conduct during proxy solicitation — not just its ultimate decision to accept a rival bid — can be recast as willful breach or fraud that escapes a negotiated termination-fee cap, a theory with direct application to any public real estate entity's stock-for-stock merger agreement. REIT boards and general counsel should treat proxy-outreach mechanics and documented good-faith engagement with rival bidders as independent litigation risk, not administrative detail, in any contested M&A process.",
       tags: ["REIT", "merger litigation", "fraud", "breach of contract", "proxy solicitation"]
+    },
+    {
+      id: "live-021",
+      title: "City of Oakland v. Mosser Companies (First Elevator-Ordinance Enforcement Suit)",
+      category: "landlord-tenant",
+      status: "filed",
+      date: "2026-08-11",
+      jurisdiction: "Alameda County Superior Court, California",
+      state: "CA",
+      amount: "Rent repayment and injunctive compliance order sought; no specified damages figure",
+      source: "live",
+      sourceUrl: "https://patch.com/california/alameda/east-bay-city-sues-landlord-over-52-day-elevator-outage",
+      summary: "The Oakland City Attorney's Office sued landlord Mosser Companies on August 11, alleging neglect left both elevators at its 98-unit La Peralta building out of service for 52 consecutive days last summer, forcing elderly and disabled tenants to use the stairs or remain confined to their units; the Oakland Fire Department rescued trapped tenants 14 times between 2024 and 2025. It is the first suit brought under Oakland's 2024 ordinance requiring landlords to notify tenants and provide accommodations during extended elevator outages, and separately cites unaddressed pest infestation, fire damage, leaks, and security lapses at the property. A parallel private suit by seven La Peralta tenants over the same conditions is also pending.",
+      significance: "Shows a city government converting a habitability complaint into a direct enforcement action with its own remedies (rent repayment, injunctive compliance) rather than leaving redress solely to tenant litigation, compounding exposure for large multifamily owners since the municipal and private tenant claims can proceed in parallel from the same facts. Owners in Oakland and comparable jurisdictions should treat elevator and life-safety equipment outages as triggering affirmative notice and accommodation obligations distinct from ordinary repair duties, not just a maintenance and capex issue.",
+      tags: ["landlord-tenant", "habitability", "elevator ordinance", "accessibility", "municipal enforcement"]
     }
   ],
 
