@@ -210,6 +210,7 @@
     window.RELAW_UTILS.openCaseDetail = function (caseId) {
       const c = RELAW_DATA.cases.find((x) => x.id === caseId);
       if (!c) return;
+      if (window.RELAW_UTILS.recordCaseClick) window.RELAW_UTILS.recordCaseClick(caseId);
       const cat = categoryById(c.category);
       const status = statusById(c.status);
       const isLive = c.source === "live";

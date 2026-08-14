@@ -409,6 +409,12 @@ h3, .h3 {
   border: 1px solid color-mix(in srgb, var(--status-ruling) 40%, transparent);
 }
 
+.badge-trending {
+  background: color-mix(in srgb, var(--status-pending) 14%, transparent);
+  color: #b45309;
+  border: 1px solid color-mix(in srgb, var(--status-pending) 45%, transparent);
+}
+
 .status-pill { display: inline-flex; align-items: center; gap: 6px; font-size: 11.5px; font-family: var(--font-mono); text-transform: uppercase; letter-spacing: 0.04em; }
 .status-pill .dot { width: 7px; height: 7px; border-radius: 50%; }
 
