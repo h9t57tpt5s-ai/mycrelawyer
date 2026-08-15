@@ -873,6 +873,7 @@ const RELAW_DATA = {
   judges: [
     {
       name: "Melissa R. DuBose",
+      slug: "melissa-r-dubose",
       title: "U.S. District Judge",
       court: "U.S. District Court, District of Rhode Island",
       background: "Confirmed to the federal bench in March 2024 after serving as an associate judge on the Rhode Island District Court and as senior legal counsel at Schneider Electric. The first person of color and first openly LGBTQ judge to serve on the U.S. District Court for the District of Rhode Island.",
@@ -880,6 +881,7 @@ const RELAW_DATA = {
     },
     {
       name: "Michael A. Shipp",
+      slug: "michael-a-shipp",
       title: "U.S. District Judge",
       court: "U.S. District Court, District of New Jersey",
       background: "Appointed by President Obama in 2012 after serving as a U.S. Magistrate Judge for the District of New Jersey since 2007. Previously an assistant attorney general for New Jersey.",
@@ -887,6 +889,7 @@ const RELAW_DATA = {
     },
     {
       name: "Stuart Rabner",
+      slug: "stuart-rabner",
       title: "Chief Justice — authored the Court's unanimous opinion",
       court: "Supreme Court of New Jersey",
       background: "Chief Justice of the New Jersey Supreme Court since 2007, nominated by Gov. Jon Corzine. Previously served as New Jersey Attorney General and as an Assistant U.S. Attorney in Newark.",
@@ -894,6 +897,7 @@ const RELAW_DATA = {
     },
     {
       name: "Anne M. Patterson",
+      slug: "anne-m-patterson",
       title: "Associate Justice — authored the Court's opinion",
       court: "Supreme Court of New Jersey",
       background: "Associate Justice since 2011, nominated by Gov. Chris Christie and later granted tenure under Gov. Phil Murphy. Previously a partner at Riker, Danzig, Scherer, Hyland & Perretti focused on commercial litigation.",
@@ -901,6 +905,7 @@ const RELAW_DATA = {
     },
     {
       name: "Rowan D. Wilson",
+      slug: "rowan-d-wilson",
       title: "Chief Judge — authored the majority opinion (Judge Cannataro dissenting)",
       court: "New York Court of Appeals",
       background: "Chief Judge of the State of New York since 2023, after serving as an Associate Judge from 2017. Previously a partner at Cravath, Swaine & Moore for over two decades. The first African-American to serve as Chief Judge of the New York Court of Appeals.",
@@ -908,6 +913,7 @@ const RELAW_DATA = {
     },
     {
       name: "Joel M. Cohen",
+      slug: "joel-m-cohen",
       title: "Justice, Commercial Division",
       court: "Supreme Court of the State of New York, New York County",
       background: "Assigned to the Commercial Division, New York County since 2019 after appointment to the Court of Claims by Gov. Andrew Cuomo. Previously a litigation partner at Davis Polk & Wardwell.",
@@ -915,6 +921,7 @@ const RELAW_DATA = {
     },
     {
       name: "Mark X. Mullin",
+      slug: "mark-x-mullin",
       title: "U.S. Bankruptcy Judge",
       court: "U.S. Bankruptcy Court, Northern District of Texas",
       background: "Appointed to the bankruptcy bench in the Fort Worth division in 2015. Previously a member of Haynes and Boone LLP's Bankruptcy and Business Restructuring practice group, and a licensed CPA before attending law school.",
