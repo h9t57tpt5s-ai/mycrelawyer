@@ -87,7 +87,7 @@
   <div class="container">
     <div class="eyebrow reveal in-view">Judges &amp; Courts</div>
     <h1 class="reveal in-view" style="font-size:clamp(2.2rem,4vw,3.4rem);">Who's deciding these matters.</h1>
-    <p class="lede mt-16 reveal in-view">A running index of the judges and courts presiding over the matters we track. This view deepens as coverage grows and named judges accumulate multiple matters.</p>
+    <p class="lede mt-16 reveal in-view">A running index of the judges and courts presiding over the matters we track — official biography and court links included where available. This view deepens as coverage grows and named judges accumulate multiple matters.</p>
   </div>
 </header>
 
@@ -98,7 +98,7 @@
         <div class="eyebrow">Named Judges</div>
         <h2 style="font-size:clamp(1.6rem,2.6vw,2.2rem);">Judges on the docket</h2>
       </div>
-      <p class="text-muted" style="max-width:420px; font-size:13.5px;">Only judges explicitly named in our sourced reporting are listed — we don't infer or guess who's presiding.</p>
+      <p class="text-muted" style="max-width:420px; font-size:13.5px;">Only judges explicitly named in our sourced reporting are listed — we don't infer or guess who's presiding. Background and biography links come from official court sources.</p>
     </div>
     <div class="grid-3 reveal-stagger" id="judges-grid"></div>
   </div>
@@ -186,6 +186,16 @@
 <script>
   (function () {
     const cases = RELAW_DATA.cases;
+    const courtsRef = RELAW_DATA.courts || [];
+    const judgesRef = RELAW_DATA.judges || [];
+    const courtByJurisdiction = Object.fromEntries(courtsRef.map((c) => [c.jurisdiction, c]));
+    const judgeByName = Object.fromEntries(judgesRef.map((j) => [j.name, j]));
+
+    function courtLinkHtml(jurisdiction) {
+      const court = courtByJurisdiction[jurisdiction];
+      if (!court) return jurisdiction;
+      return `<a href="${court.url}" target="_blank" rel="noopener" class="text-accent" style="text-decoration:none; border-bottom:1px dotted currentColor;">${jurisdiction}</a>`;
+    }
 
     // Named judges, grouped
     const byJudge = {};
@@ -198,10 +208,16 @@
     if (judgeNames.length) {
       judgesGrid.innerHTML = judgeNames.map((name) => {
         const matters = byJudge[name];
+        const ref = judgeByName[name];
+        const court = ref ? ref.court : matters[0].jurisdiction;
         return `<div class="card">
           <h3 style="font-size:1.05rem;">${name}</h3>
-          <p class="text-muted mono" style="font-size:12px; margin:8px 0 14px;">${matters[0].jurisdiction}</p>
-          <div style="display:flex; flex-direction:column; gap:8px;">
+          <p class="text-muted" style="font-size:12.5px; margin:6px 0 2px; font-weight:600;">${ref ? ref.title : ""}</p>
+          <p class="text-muted mono" style="font-size:12px; margin:0 0 12px;">${courtLinkHtml(court)}</p>
+          ${ref && ref.background ? `<p class="text-secondary" style="font-size:12.5px; line-height:1.6; margin-bottom:14px;">${ref.background}</p>` : ""}
+          ${ref && ref.bioUrl ? `<a href="${ref.bioUrl}" target="_blank" rel="noopener" class="text-accent" style="display:inline-flex; align-items:center; gap:4px; font-size:12.5px; font-weight:600; text-decoration:none; margin-bottom:16px;">Official biography ↗</a>` : ""}
+          <div style="display:flex; flex-direction:column; gap:8px; padding-top:${ref ? "12px" : "0"}; border-top:${ref ? "1px solid var(--border-soft)" : "none"};">
+            <p class="text-muted" style="font-size:11px; text-transform:uppercase; letter-spacing:0.04em; margin:0 0 2px;">${matters.length === 1 ? "Matter" : `${matters.length} Matters`} on CREdocket</p>
             ${matters.map((c) => `<span data-case-id="${c.id}" class="text-accent" style="display:block; font-size:13px; cursor:pointer;">${c.title} ↗</span>`).join("")}
           </div>
         </div>`;
@@ -217,7 +233,7 @@
     list.innerHTML = sorted.map((c) => `
       <div style="display:flex; align-items:center; justify-content:space-between; gap:16px; padding:14px 24px; border-bottom:1px solid var(--border-soft);">
         <div style="min-width:0;">
-          <div style="font-size:14px; font-weight:600; color:var(--text-primary);">${c.jurisdiction}</div>
+          <div style="font-size:14px; font-weight:600; color:var(--text-primary);">${courtLinkHtml(c.jurisdiction)}</div>
           <span data-case-id="${c.id}" class="text-secondary" style="font-size:12.5px; cursor:pointer; display:block; margin-top:2px;">${c.title}${c.judge ? ` &middot; Judge ${c.judge}` : ""}</span>
         </div>
         <div class="text-muted mono" style="font-size:11.5px; white-space:nowrap;">${new Date(c.date + "T00:00:00").toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric" })}</div>

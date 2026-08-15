@@ -75,6 +75,7 @@ const RELAW_DATA = {
       status: "ruling",
       date: "2026-07-21",
       jurisdiction: "Supreme Court of New Jersey",
+      judge: "Stuart Rabner",
       state: "NJ",
       amount: "N/A — condemnation ordinances voided",
       source: "live",
@@ -172,6 +173,7 @@ const RELAW_DATA = {
       status: "filed",
       date: "2026-05-28",
       jurisdiction: "U.S. Bankruptcy Court, Northern District of Texas",
+      judge: "Mark X. Mullin",
       state: "TX",
       amount: "$100M assets vs. $75M liabilities; $65M+ in defaulted loans",
       source: "live",
@@ -275,6 +277,7 @@ const RELAW_DATA = {
       status: "ruling",
       date: "2026-05-28",
       jurisdiction: "New York Court of Appeals",
+      judge: "Rowan D. Wilson",
       state: "NY",
       amount: "$65M equity investment; $25M junior mezzanine loan; ~$600M underlying equity value alleged",
       source: "live",
@@ -405,6 +408,7 @@ const RELAW_DATA = {
       status: "ruling",
       date: "2026-07-13",
       jurisdiction: "Supreme Court of New Jersey",
+      judge: "Anne M. Patterson",
       state: "NJ",
       amount: "165-unit senior living facility; ~8-acre site",
       source: "live",
@@ -480,6 +484,7 @@ const RELAW_DATA = {
       status: "pending",
       date: "2024-03-11",
       jurisdiction: "Supreme Court of the State of New York, New York County",
+      judge: "Joel M. Cohen",
       state: "NY",
       amount: "$376M sought; independent estimates closer to ~$100M",
       source: "live",
@@ -830,6 +835,90 @@ const RELAW_DATA = {
       term: "Void Ab Initio",
       definition: "A legal finding that an action — such as a government's attempted condemnation — was invalid from the very moment it occurred, as if it never legally happened, rather than merely voidable going forward.",
       relatedCases: ["live-009"]
+    }
+  ],
+
+  /* Courts — official website for every court/jurisdiction referenced in
+     `cases` above, keyed by the exact `jurisdiction` string. Links go to the
+     court's own site (docket search, judge assignments, local rules), not
+     third-party case-law aggregators. */
+  courts: [
+    { jurisdiction: "Philadelphia County Court of Common Pleas", url: "https://www.pacourts.us/courts/courts-of-common-pleas/individual-county-courts/philadelphia-courts" },
+    { jurisdiction: "Supreme Court of New Jersey", url: "https://www.njcourts.gov/courts/supreme" },
+    { jurisdiction: "U.S. District Court, Southern District of New York", url: "https://www.nysd.uscourts.gov/" },
+    { jurisdiction: "U.S. District Court, Northern District of Illinois", url: "https://www.ilnd.uscourts.gov/" },
+    { jurisdiction: "U.S. District Court, Middle District of Florida", url: "https://www.flmd.uscourts.gov/" },
+    { jurisdiction: "U.S. Bankruptcy Court, Northern District of Texas", url: "https://www.txnb.uscourts.gov/" },
+    { jurisdiction: "Fifteenth Judicial Circuit Court, Palm Beach County, Florida", url: "https://www.15thcircuit.com/" },
+    { jurisdiction: "Hennepin County District Court, Minnesota", url: "https://mncourts.gov/find-courts/hennepin" },
+    { jurisdiction: "U.S. District Court, District of Rhode Island", url: "https://www.rid.uscourts.gov/" },
+    { jurisdiction: "New York Court of Appeals", url: "https://www.nycourts.gov/ctapps/" },
+    { jurisdiction: "Supreme Court of the State of New York", url: "https://www.nycourts.gov/courts/index.shtml" },
+    { jurisdiction: "San Mateo County Superior Court, California", url: "https://sanmateo.courts.ca.gov/" },
+    { jurisdiction: "U.S. District Court, District of New Jersey", url: "https://www.njd.uscourts.gov/" },
+    { jurisdiction: "U.S. District Court, Southern District of California", url: "https://www.casd.uscourts.gov/" },
+    { jurisdiction: "Miami-Dade County Circuit Court", url: "https://www.jud11.flcourts.org/" },
+    { jurisdiction: "Marion Superior Court, Indiana", url: "https://www.indycourts.org/" },
+    { jurisdiction: "Supreme Court of the State of New York, New York County", url: "https://ww2.nycourts.gov/courts/1jd/supctmanh/index.shtml" },
+    { jurisdiction: "U.S. District Court for the District of Montana", url: "https://www.mtd.uscourts.gov/" },
+    { jurisdiction: "U.S. District Court, District of Maryland (Northern Division)", url: "https://www.mdd.uscourts.gov/" },
+    { jurisdiction: "Alameda County Superior Court, California", url: "https://www.alameda.courts.ca.gov/" }
+  ],
+
+  /* Judges — background on every judge named in our sourced reporting (never
+     inferred). `name` must match the `judge` field on the case(s) they're
+     tied to exactly. `bioUrl` always points to an official source: the
+     court's own biography page, or for federal Article III judges, the
+     Federal Judicial Center's Biographical Directory. */
+  judges: [
+    {
+      name: "Melissa R. DuBose",
+      title: "U.S. District Judge",
+      court: "U.S. District Court, District of Rhode Island",
+      background: "Confirmed to the federal bench in March 2024 after serving as an associate judge on the Rhode Island District Court and as senior legal counsel at Schneider Electric. The first person of color and first openly LGBTQ judge to serve on the U.S. District Court for the District of Rhode Island.",
+      bioUrl: "https://www.fjc.gov/history/judges/dubose-melissa-raye"
+    },
+    {
+      name: "Michael A. Shipp",
+      title: "U.S. District Judge",
+      court: "U.S. District Court, District of New Jersey",
+      background: "Appointed by President Obama in 2012 after serving as a U.S. Magistrate Judge for the District of New Jersey since 2007. Previously an assistant attorney general for New Jersey.",
+      bioUrl: "https://www.fjc.gov/history/judges/shipp-michael-andre"
+    },
+    {
+      name: "Stuart Rabner",
+      title: "Chief Justice — authored the Court's unanimous opinion",
+      court: "Supreme Court of New Jersey",
+      background: "Chief Justice of the New Jersey Supreme Court since 2007, nominated by Gov. Jon Corzine. Previously served as New Jersey Attorney General and as an Assistant U.S. Attorney in Newark.",
+      bioUrl: "https://www.njcourts.gov/public/museum/meet-the-justices/chief-justice-stuart-rabner"
+    },
+    {
+      name: "Anne M. Patterson",
+      title: "Associate Justice — authored the Court's opinion",
+      court: "Supreme Court of New Jersey",
+      background: "Associate Justice since 2011, nominated by Gov. Chris Christie and later granted tenure under Gov. Phil Murphy. Previously a partner at Riker, Danzig, Scherer, Hyland & Perretti focused on commercial litigation.",
+      bioUrl: "https://www.njcourts.gov/public/museum/meet-the-justices/associate-justice-anne-m-patterson"
+    },
+    {
+      name: "Rowan D. Wilson",
+      title: "Chief Judge — authored the majority opinion (Judge Cannataro dissenting)",
+      court: "New York Court of Appeals",
+      background: "Chief Judge of the State of New York since 2023, after serving as an Associate Judge from 2017. Previously a partner at Cravath, Swaine & Moore for over two decades. The first African-American to serve as Chief Judge of the New York Court of Appeals.",
+      bioUrl: "https://www.nycourts.gov/ctapps/jwilson.htm"
+    },
+    {
+      name: "Joel M. Cohen",
+      title: "Justice, Commercial Division",
+      court: "Supreme Court of the State of New York, New York County",
+      background: "Assigned to the Commercial Division, New York County since 2019 after appointment to the Court of Claims by Gov. Andrew Cuomo. Previously a litigation partner at Davis Polk & Wardwell.",
+      bioUrl: "https://www.nycourts.gov/commercial-division-new-york-county-manhattan/biography-justice-joel-m-cohen"
+    },
+    {
+      name: "Mark X. Mullin",
+      title: "U.S. Bankruptcy Judge",
+      court: "U.S. Bankruptcy Court, Northern District of Texas",
+      background: "Appointed to the bankruptcy bench in the Fort Worth division in 2015. Previously a member of Haynes and Boone LLP's Bankruptcy and Business Restructuring practice group, and a licensed CPA before attending law school.",
+      bioUrl: "https://www.txnb.uscourts.gov/content/judge-mark-x-mullin"
     }
   ]
 };
