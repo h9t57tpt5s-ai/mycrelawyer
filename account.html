@@ -3,19 +3,19 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Landlord–Tenant Litigation in Pennsylvania — CREdocket</title>
-<meta name="description" content="Landlord–Tenant litigation tracked in Pennsylvania: Liu v. Willow Bridge Property Co. (RealPage Algorithmic Pricing Suits)." />
+<title>Your Account — CREdocket</title>
+<meta name="description" content="Manage your CREdocket watchlists — track specific states, practice areas, or named parties across every tracked matter." />
 <meta property="og:type" content="website" />
 <meta property="og:site_name" content="CREdocket" />
-<meta property="og:title" content="Landlord–Tenant Litigation in Pennsylvania — CREdocket" />
-<meta property="og:description" content="Landlord–Tenant litigation tracked in Pennsylvania: Liu v. Willow Bridge Property Co. (RealPage Algorithmic Pricing Suits)." />
-<meta property="og:url" content="https://credocket.com/pennsylvania-landlord-tenant.html" />
+<meta property="og:title" content="Your Account — CREdocket" />
+<meta property="og:description" content="Manage your CREdocket watchlists — track specific states, practice areas, or named parties across every tracked matter." />
+<meta property="og:url" content="https://credocket.com/account.html" />
 <meta property="og:image" content="https://credocket.com/img/og-image.png" />
 <meta property="og:image:width" content="1200" />
 <meta property="og:image:height" content="630" />
 <meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:title" content="Landlord–Tenant Litigation in Pennsylvania — CREdocket" />
-<meta name="twitter:description" content="Landlord–Tenant litigation tracked in Pennsylvania: Liu v. Willow Bridge Property Co. (RealPage Algorithmic Pricing Suits)." />
+<meta name="twitter:title" content="Your Account — CREdocket" />
+<meta name="twitter:description" content="Manage your CREdocket watchlists — track specific states, practice areas, or named parties across every tracked matter." />
 <meta name="twitter:image" content="https://credocket.com/img/og-image.png" />
 <link rel="icon" href="img/favicon.svg" type="image/svg+xml" />
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -47,7 +47,6 @@
           <a href="judges.html">Judges &amp; Courts</a>
           <a href="glossary.html">Glossary</a>
           <a href="quarterly.html">Quarterly Report</a>
-          <a href="account.html">Watchlists</a>
         </div>
       </li>
       <li><a href="about.html">About</a></li>
@@ -61,6 +60,7 @@
 </nav>
 
 <header class="page-header">
+    <div class="page-header-photo"><img src="img/photos/san-francisco.jpg" alt="San Francisco skyline" loading="eager" /></div>
     <svg class="page-header-graphic" viewBox="0 0 640 400" fill="none" aria-hidden="true" preserveAspectRatio="xMaxYMid slice">
       <defs>
         <radialGradient id="phGlow" cx="70%" cy="30%" r="60%">
@@ -75,33 +75,65 @@
       <circle cx="230" cy="160" r="3" fill="var(--status-filed)" opacity="0.8">
         <animate attributeName="r" values="3;5;3" dur="2.6s" repeatCount="indefinite"/>
       </circle>
+      <circle cx="330" cy="200" r="3" fill="var(--accent-bright)" opacity="0.8">
+        <animate attributeName="r" values="3;5;3" dur="3.4s" repeatCount="indefinite"/>
+      </circle>
     </svg>
   <div class="container">
-    <div class="eyebrow reveal in-view">Pennsylvania &middot; Landlord–Tenant</div>
-    <h1 class="reveal in-view" style="font-size:clamp(2.2rem,4vw,3.4rem);">Landlord–Tenant litigation in Pennsylvania</h1>
-    <p class="lede mt-16 reveal in-view">1 matter currently tracked in Pennsylvania courts. Updated as new developments are sourced.</p>
+    <div class="eyebrow reveal in-view">Your Account</div>
+    <h1 class="reveal in-view" style="font-size:clamp(2.2rem,4vw,3.4rem);">Watchlists.</h1>
+    <p class="lede mt-16 reveal in-view">Track specific states, practice areas, or a named party — a landlord, developer, REIT, or opposing firm — across every matter CREdocket tracks. New matches trigger a same-day email.</p>
   </div>
 </header>
 
 <section class="section-tight">
-  <div class="container">
-    <div class="grid-3 reveal-stagger" id="case-grid"></div>
-    <div class="card cta-photo-card reveal mt-40" style="padding:40px; display:flex; align-items:center; justify-content:space-between; gap:24px; flex-wrap:wrap;">
-      <div class="cta-photo-bg"><img src="img/photos/office-building.jpg" alt="" aria-hidden="true" loading="lazy" /></div>
-      <div>
-        <h2 style="font-size:clamp(1.4rem,2.2vw,1.8rem);">Facing a similar issue in Pennsylvania?</h2>
-        <p class="text-secondary mt-16" style="max-width:440px;">If your portfolio has exposure to landlord–tenant matters in Pennsylvania, it's worth a conversation before it becomes a bigger problem.</p>
-      </div>
-      <a href="contact.html?matter=Landlord%E2%80%93Tenant%20matter%20in%20Pennsylvania&jurisdiction=Pennsylvania" class="btn btn-primary">
-        Discuss This
-        <svg viewBox="0 0 24 24" fill="none"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
-      </a>
+  <div class="container" style="max-width:820px;">
+
+    <div id="account-signed-out" class="card" style="display:none; padding:40px; text-align:center;">
+      <div class="eyebrow" style="margin-bottom:10px; justify-content:center;">Free account required</div>
+      <h3 style="margin-bottom:10px;">Sign in to create watchlists</h3>
+      <p class="text-secondary" style="margin-bottom:20px;">No password needed — free accounts get watchlists, alerts, and full write-ups at no cost right now.</p>
+      <button type="button" class="btn btn-primary btn-sm" id="account-signin-btn" style="margin:0 auto;">Sign in</button>
     </div>
-    <p class="text-muted mt-24" style="font-size:13px;">
-      <a href="litigation.html?category=landlord-tenant" class="text-accent" style="display:inline;">View all Landlord–Tenant matters nationwide &rarr;</a>
-      &nbsp;&middot;&nbsp;
-      <a href="litigation.html?state=PA" class="text-accent" style="display:inline;">View all matters in Pennsylvania &rarr;</a>
-    </p>
+
+    <div id="account-signed-in" style="display:none;">
+      <div class="section-head reveal">
+        <div>
+          <div class="eyebrow">New Watchlist</div>
+          <h2 style="font-size:clamp(1.4rem,2.2vw,1.9rem);">Add a filter</h2>
+        </div>
+      </div>
+
+      <form id="watchlist-form" class="card" style="padding:28px; margin-bottom:40px;">
+        <div class="form-field">
+          <label for="wl-name">Name this watchlist</label>
+          <input type="text" id="wl-name" placeholder="e.g. Texas Lending Disputes, or Blackstone" required />
+        </div>
+        <div class="form-field mt-16">
+          <label for="wl-states">States (optional — hold Cmd/Ctrl to select multiple)</label>
+          <select id="wl-states" multiple size="6"></select>
+        </div>
+        <div class="form-field mt-16">
+          <label for="wl-categories">Practice areas (optional)</label>
+          <select id="wl-categories" multiple size="6"></select>
+        </div>
+        <div class="form-field mt-16">
+          <label for="wl-keyword">Party, company, or keyword (optional)</label>
+          <input type="text" id="wl-keyword" placeholder="e.g. Lightstone, RealPage, a specific landlord or REIT name" />
+        </div>
+        <button type="submit" class="btn btn-primary btn-sm mt-16">Create watchlist</button>
+        <div id="watchlist-form-status" class="auth-modal-status"></div>
+      </form>
+
+      <div class="section-head reveal">
+        <div>
+          <div class="eyebrow">Tracking</div>
+          <h2 style="font-size:clamp(1.4rem,2.2vw,1.9rem);"><span id="watchlist-count">0</span> watchlists</h2>
+        </div>
+      </div>
+      <div id="watchlists-list"></div>
+    </div>
+
   </div>
 </section>
 
@@ -139,7 +171,6 @@
         <a href="updates.html">Updates</a>
         <a href="glossary.html">Glossary</a>
         <a href="quarterly.html">Quarterly Report</a>
-        <a href="account.html">Watchlists</a>
         <a href="about.html">About</a>
         <a href="contact.html">Contact</a>
       </div>
@@ -155,7 +186,7 @@
       </div>
     </div>
     <div class="footer-bottom">
-      <span>&copy; <span data-year></span> CREdocket. Litigation intelligence sourced from ongoing legal research.</span>
+      <span>© <span data-year></span> CREdocket. Litigation intelligence sourced from ongoing legal research.</span>
       <span>Not legal advice. For informational purposes only.</span>
     </div>
   </div>
@@ -167,15 +198,8 @@
 <script src="js/supabase-client.js"></script>
 <script src="js/auth.js"></script>
 <script src="js/trending.js"></script>
+<script src="js/watchlists.js"></script>
 <script src="js/search.js"></script>
 <script src="js/motion.js"></script>
-<script>
-  (function () {
-    const matches = RELAW_DATA.cases.filter((c) => c.state === "PA" && c.category === "landlord-tenant")
-      .sort((a, b) => new Date(b.date) - new Date(a.date));
-    document.getElementById("case-grid").innerHTML = matches.map(window.RELAW_UTILS.caseCardHtml).join("");
-    document.querySelectorAll("#case-grid .reveal").forEach((el) => el.classList.add("in-view"));
-  })();
-</script>
 </body>
 </html>
