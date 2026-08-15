@@ -558,6 +558,27 @@ const RELAW_DATA = {
       summary: "The Oakland City Attorney's Office sued landlord Mosser Companies on August 11, alleging neglect left both elevators at its 98-unit La Peralta building out of service for 52 consecutive days last summer, forcing elderly and disabled tenants to use the stairs or remain confined to their units; the Oakland Fire Department rescued trapped tenants 14 times between 2024 and 2025. It is the first suit brought under Oakland's 2024 ordinance requiring landlords to notify tenants and provide accommodations during extended elevator outages, and separately cites unaddressed pest infestation, fire damage, leaks, and security lapses at the property. A parallel private suit by seven La Peralta tenants over the same conditions is also pending.",
       significance: "Shows a city government converting a habitability complaint into a direct enforcement action with its own remedies (rent repayment, injunctive compliance) rather than leaving redress solely to tenant litigation, compounding exposure for large multifamily owners since the municipal and private tenant claims can proceed in parallel from the same facts. Owners in Oakland and comparable jurisdictions should treat elevator and life-safety equipment outages as triggering affirmative notice and accommodation obligations distinct from ordinary repair duties, not just a maintenance and capex issue.",
       tags: ["landlord-tenant", "habitability", "elevator ordinance", "accessibility", "municipal enforcement"]
+    },
+    {
+      id: "live-022",
+      title: "RealPage, Inc. v. James (First Amendment Challenge to NY Algorithmic Rent-Pricing Law)",
+      category: "landlord-tenant",
+      status: "pending",
+      date: "2026-08-14",
+      jurisdiction: "U.S. District Court, S.D.N.Y.",
+      state: "NY",
+      amount: "Preliminary injunction sought; no damages claimed",
+      source: "live",
+      sourceUrl: "https://www.law360.com/real-estate-authority/articles/2513580/ny-ag-says-2nd-circ-ruling-doesn-t-back-pricing-law-case",
+      summary: "RealPage told the S.D.N.Y. court weighing its First Amendment challenge to New York's algorithmic rent-pricing ban that an August 5 Second Circuit ruling striking down a NYC food-delivery data-sharing law as unconstitutional compelled speech supports its own case. The New York Attorney General's office pushed back within days, arguing the food-delivery ruling addressed forced disclosure of customer data and has no bearing on a statute that regulates how landlords may set rents rather than compelling any disclosure. The presiding judge has not yet ruled on RealPage's pending preliminary-injunction motion or the state's motion to dismiss.",
+      significance: "The dispute over how far the Second Circuit's compelled-speech reasoning extends sits at the center of nearly every pending challenge to algorithmic-pricing bans nationwide, including the tenant suits against RealPage's landlord customers already tracked here in Philadelphia and San Diego. A ruling accepting RealPage's framing would hand software vendors and landlords a strong new constitutional defense against similar restrictions; a ruling siding with the Attorney General would leave New York's ban, and the broader legislative trend behind it, on firmer footing.",
+      tags: ["algorithmic pricing", "realpage", "first amendment", "landlord-tenant", "new york"],
+      timeline: [
+        { when: "November 2025", label: "RealPage sues NY Attorney General Letitia James, seeking to enjoin the state's algorithmic rent-pricing ban on First Amendment grounds" },
+        { when: "December 15, 2025", label: "New York's algorithmic-pricing statute (Gen. Bus. Law § 340-b) takes effect; enforcement against RealPage and its customers stayed pending the injunction ruling" },
+        { when: "August 5, 2026", label: "Second Circuit rules a NYC food-delivery data-sharing law unconstitutional as compelled speech" },
+        { when: "August 2026", label: "RealPage cites the Second Circuit ruling as supplemental authority; NY Attorney General's office disputes its relevance", current: true }
+      ]
     }
   ],
 
