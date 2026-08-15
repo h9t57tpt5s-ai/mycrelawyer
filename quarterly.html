@@ -84,6 +84,10 @@
     <div class="eyebrow reveal in-view">Quarterly Report · Q3 2026</div>
     <h1 class="reveal in-view" style="font-size:clamp(2.2rem,4vw,3.4rem);">The state of CRE litigation.</h1>
     <p class="lede mt-16 reveal in-view">A synthesis of what CREdocket tracked across litigation, regulation, and market signals this quarter — current as of August 12, 2026, with Q3 still in progress.</p>
+    <button type="button" class="btn btn-ghost btn-sm no-print mt-16" id="download-briefing-btn">
+      Download this briefing (PDF)
+      <svg viewBox="0 0 24 24" fill="none"><path d="M12 3v13m0 0l-4-4m4 4l4-4M5 21h14" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </button>
   </div>
 </header>
 
@@ -260,6 +264,8 @@
     const grid = document.getElementById("quarterly-grid");
     grid.innerHTML = q3Cases.map(window.RELAW_UTILS.caseCardHtml).join("");
     grid.querySelectorAll(".reveal").forEach((el) => el.classList.add("in-view"));
+
+    document.getElementById("download-briefing-btn")?.addEventListener("click", () => window.print());
   })();
 </script>
 </body>

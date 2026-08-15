@@ -1029,3 +1029,16 @@ h3, .h3 {
 .mt-24 { margin-top: 24px; }
 .mt-40 { margin-top: 40px; }
 .hidden { display: none !important; }
+
+/* ---------- Print (downloadable briefing, item 17) ---------- */
+@media print {
+  .nav, .nav-scrim, .newsletter-band, .footer, .no-print,
+  .page-header-graphic, .auth-modal-overlay, #detail-panel, .overlay,
+  .ticker, .search-overlay { display: none !important; }
+  body { background: #fff; }
+  .page-header { padding-top: 20px; }
+  .page-header-photo { display: none; }
+  .card, .gate-card, .legal-doc { box-shadow: none !important; border: 1px solid #ccc !important; }
+  a { text-decoration: underline; color: #000 !important; }
+  .container { max-width: 100% !important; }
+}
