@@ -927,5 +927,34 @@ const RELAW_DATA = {
       background: "Appointed to the bankruptcy bench in the Fort Worth division in 2015. Previously a member of Haynes and Boone LLP's Bankruptcy and Business Restructuring practice group, and a licensed CPA before attending law school.",
       bioUrl: "https://www.txnb.uscourts.gov/content/judge-mark-x-mullin"
     }
+  ],
+
+  /* Tracked companies/parties — a curated list of real estate companies,
+     REITs, developers, lenders, and vendors that recur or are otherwise
+     significant across tracked matters. Matching against `cases` is done
+     by plain-text search of `title`, `summary`, `tags`, and `jurisdiction`
+     only — deliberately excluding `significance`/`body`, which often
+     discuss OTHER companies for comparison ("modeled on the RealPage
+     litigation") without them being a party to that matter. `matchTerm`
+     is a shorter, still-distinctive substring used for the actual search
+     (falls back to `name` if omitted) so phrasing like "Apollo-affiliated"
+     still matches "Apollo Global Management" — never inferred, still a
+     real verbatim textual match, just a looser one than the full legal
+     name. `website` is only set where confidently known. */
+  trackedParties: [
+    { name: "RealPage", slug: "realpage", description: "Multifamily revenue-management software vendor named across a wave of algorithmic rent-pricing litigation nationwide.", website: "https://www.realpage.com" },
+    { name: "Apollo Global Management", matchTerm: "Apollo", slug: "apollo-global-management", description: "Alternative asset manager active in CRE mezzanine lending and distressed-debt acquisitions.", website: "https://www.apollo.com" },
+    { name: "CoStar Group", matchTerm: "CoStar", slug: "costar-group", description: "Commercial real estate data and lease-comparables platform.", website: "https://www.costargroup.com" },
+    { name: "UDR, Inc.", matchTerm: "UDR", slug: "udr-inc", description: "NYSE-listed multifamily REIT.", website: "https://www.udr.com" },
+    { name: "Lightstone Group", matchTerm: "Lightstone", slug: "lightstone-group", description: "Sponsor of the Lightstone Value Plus non-traded REIT family.", website: "https://www.lightstonegroup.com" },
+    { name: "Silver Star Properties REIT", matchTerm: "Silver Star Properties", slug: "silver-star-properties-reit", description: "Houston-based non-traded REIT, repositioning from office to self-storage." },
+    { name: "RAD Diversified REIT", matchTerm: "RAD Diversified", slug: "rad-diversified-reit", description: "Tampa-based non-traded REIT." },
+    { name: "Mosser Companies", matchTerm: "Mosser", slug: "mosser-companies", description: "San Francisco Bay Area multifamily landlord and property manager.", website: "https://www.mosserco.com" },
+    { name: "Metro Loft", slug: "metro-loft", description: "New York City office-to-residential conversion developer led by Nathan Berman." },
+    { name: "UWM Holdings Corp.", matchTerm: "UWM Holdings", slug: "uwm-holdings", description: "Parent company of United Wholesale Mortgage, the nation's largest wholesale mortgage lender.", website: "https://www.uwm.com" },
+    { name: "Two Harbors Investment Corp.", matchTerm: "Two Harbors", slug: "two-harbors-investment", description: "NYSE-listed mortgage REIT.", website: "https://www.twoharborsinvestment.com" },
+    { name: "Willow Bridge Property Company", matchTerm: "Willow Bridge", slug: "willow-bridge-property", description: "National multifamily property management and development company.", website: "https://www.willowbridgepc.com" },
+    { name: "Travelers", slug: "travelers", description: "Commercial property and casualty insurance carrier.", website: "https://www.travelers.com" },
+    { name: "Columbia Falls Aluminum Company", matchTerm: "Columbia Falls Aluminum", slug: "columbia-falls-aluminum", description: "Former Montana aluminum smelter operator, now managing legacy Superfund cleanup liability at the site." }
   ]
 };
