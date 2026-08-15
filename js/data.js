@@ -553,6 +553,21 @@ const RELAW_DATA = {
       summary: "The Oakland City Attorney's Office sued landlord Mosser Companies on August 11, alleging neglect left both elevators at its 98-unit La Peralta building out of service for 52 consecutive days last summer, forcing elderly and disabled tenants to use the stairs or remain confined to their units; the Oakland Fire Department rescued trapped tenants 14 times between 2024 and 2025. It is the first suit brought under Oakland's 2024 ordinance requiring landlords to notify tenants and provide accommodations during extended elevator outages, and separately cites unaddressed pest infestation, fire damage, leaks, and security lapses at the property. A parallel private suit by seven La Peralta tenants over the same conditions is also pending.",
       significance: "Shows a city government converting a habitability complaint into a direct enforcement action with its own remedies (rent repayment, injunctive compliance) rather than leaving redress solely to tenant litigation, compounding exposure for large multifamily owners since the municipal and private tenant claims can proceed in parallel from the same facts. Owners in Oakland and comparable jurisdictions should treat elevator and life-safety equipment outages as triggering affirmative notice and accommodation obligations distinct from ordinary repair duties, not just a maintenance and capex issue.",
       tags: ["landlord-tenant", "habitability", "elevator ordinance", "accessibility", "municipal enforcement"]
+    },
+    {
+      id: "live-022",
+      title: "Ayer v. Lightstone Value Plus REIT I, Inc. (Non-Traded REIT Proxy Disclosure Suit)",
+      category: "reit-securities",
+      status: "ruling",
+      date: "2026-08-07",
+      jurisdiction: "U.S. District Court, District of New Jersey",
+      state: "NJ",
+      amount: "$59.8M+ conflicted equity interest at issue; class-wide rescission and compensatory damages sought",
+      source: "live",
+      sourceUrl: "https://www.law360.com/real-estate-authority/articles/2510712/reits-must-face-shareholders-suit-over-delayed-liquidation",
+      summary: "Judge Michael A. Shipp denied defendants' motion to dismiss an amended class complaint brought by shareholders of three affiliated non-traded REITs — Lightstone Value Plus REIT I, II, and III — over 2022 charter amendments that eliminated deadlines requiring the funds to pursue a stock-exchange listing or liquidate. Plaintiffs allege the proxy statements disclosed that sponsor David Lichtenstein held subordinated equity interests in the REITs but omitted that those interests, potentially worth more than $59.8 million, would have been worthless had the REITs liquidated on the original schedule, giving Lichtenstein an undisclosed financial incentive to seek the extension. The court found the omission could have materially changed what a reasonable shareholder understood about the vote, defeating defendants' ratification defense.",
+      significance: "The ruling revives claims that had been pared back on an earlier motion to dismiss and signals real litigation exposure for sponsors of non-traded REITs when a proxy solicitation touching liquidity timelines coincides with an undisclosed sponsor-side financial stake in the vote's outcome. Sponsors, external advisers, and independent directors of non-traded REITs should treat charter-amendment proxies affecting duration or listing deadlines as requiring explicit disclosure of how the sponsor's own economic interests are affected by the vote, not merely that those interests exist.",
+      tags: ["REIT", "proxy disclosure", "securities litigation", "fiduciary duty", "non-traded reit"]
     }
   ],
 
