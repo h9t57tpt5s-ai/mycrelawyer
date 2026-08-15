@@ -1,0 +1,94 @@
+name: Sync pending cases to Supabase
+
+# The digest automation (cloud or local) can't reach Supabase directly —
+# its network egress is allowlisted and Supabase isn't on it. So instead
+# of calling Supabase itself, it drops a small JSON file per new case into
+# .sync/*.json and pushes it alongside the js/data.js update. This workflow
+# runs on a normal GitHub-hosted runner (open internet access) and does the
+# actual Supabase REST upsert + watchlist-alert call on its behalf.
+#
+# Idempotency: once a file is processed, it's renamed <id>.json -> <id>.json.done
+# in the same commit. That rename touches .sync/*.json (a delete), which
+# re-triggers this workflow — the next run just finds no .json files left
+# and exits as a fast no-op. Harmless, and avoids ever double-sending an
+# alert email for the same case.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - ".sync/*.json"
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Sync each pending case to Supabase
+        id: sync
+        env:
+          SUPABASE_ANON_KEY: sb_publishable_77xSJub0DOpnTSM4nzhVaQ_aztB5p3f
+          AUTOMATION_SECRET: ${{ secrets.AUTOMATION_SECRET }}
+        run: |
+          set -e
+          shopt -s nullglob
+          files=(.sync/*.json)
+          if [ ${#files[@]} -eq 0 ]; then
+            echo "No pending sync files. Nothing to do."
+            exit 0
+          fi
+
+          for f in "${files[@]}"; do
+            echo "=== Processing $f ==="
+            id=$(jq -r '.id' "$f")
+            if [ -z "$id" ] || [ "$id" = "null" ]; then
+              echo "::error::$f has no .id field, skipping"
+              continue
+            fi
+
+            echo "-- Upserting $id into case_data --"
+            upsert_status=$(curl -sS -o /tmp/upsert_resp.json -w "%{http_code}" \
+              -X POST 'https://ribmcdyoydhmafnyfhpp.supabase.co/rest/v1/case_data' \
+              -H "apikey: $SUPABASE_ANON_KEY" \
+              -H "Authorization: Bearer $SUPABASE_ANON_KEY" \
+              -H "Content-Type: application/json" \
+              -H "Prefer: resolution=merge-duplicates" \
+              --data-binary "@$f")
+            echo "case_data upsert HTTP $upsert_status"
+            cat /tmp/upsert_resp.json || true
+
+            echo "-- Triggering watchlist alert check for $id --"
+            alert_payload=$(jq '{id, title, category, state, summary, significance, jurisdiction, date}' "$f")
+            alert_status=$(curl -sS -o /tmp/alert_resp.json -w "%{http_code}" \
+              -X POST 'https://ribmcdyoydhmafnyfhpp.supabase.co/functions/v1/check-and-send-watchlist-alerts' \
+              -H "Authorization: Bearer $SUPABASE_ANON_KEY" \
+              -H "x-automation-secret: $AUTOMATION_SECRET" \
+              -H "Content-Type: application/json" \
+              --data-binary "$alert_payload")
+            echo "watchlist-alerts HTTP $alert_status"
+            cat /tmp/alert_resp.json || true
+
+            if [[ "$upsert_status" =~ ^2 ]]; then
+              git mv "$f" "$f.done"
+              echo "Marked $f as done."
+            else
+              echo "::warning::case_data upsert for $id failed (HTTP $upsert_status) — leaving $f pending for the next run."
+            fi
+          done
+
+      - name: Commit processed markers
+        run: |
+          if ! git diff --cached --quiet; then
+            git config user.name "credocket-sync-bot"
+            git config user.email "actions@users.noreply.github.com"
+            git commit -m "Sync bot: mark processed .sync files as done"
+            git push
+          else
+            echo "Nothing to commit."
+          fi
