@@ -579,6 +579,26 @@ const RELAW_DATA = {
         { when: "August 5, 2026", label: "Second Circuit rules a NYC food-delivery data-sharing law unconstitutional as compelled speech" },
         { when: "August 2026", label: "RealPage cites the Second Circuit ruling as supplemental authority; NY Attorney General's office disputes its relevance", current: true }
       ]
+    },
+    {
+      id: "live-023",
+      title: "U.S. Bank National Association v. Brookfield Republic Plaza LLC (Denver's Tallest Tower Receivership Suit)",
+      category: "lending-foreclosure",
+      status: "filed",
+      date: "2026-08-10",
+      jurisdiction: "Denver District Court, Colorado",
+      state: "CO",
+      amount: "~$130M defaulted loan; Trepp lists total CMBS debt at $230.1M",
+      source: "live",
+      sourceUrl: "https://www.denvergazette.com/2026/08/14/downtown-denvers-tallest-building-faces-receivership-after-loan-default/",
+      summary: "U.S. Bank National Association, acting on behalf of the CMBS trust holding the loan, sued Brookfield Republic Plaza LLC in Denver District Court on August 10, seeking appointment of a receiver over Republic Plaza — Denver's 56-story tallest office tower — after owners Brookfield Properties and MetLife Investment Management failed to pay off the loan at its March 15, 2026 maturity. It is the second default on the loan in three years; an earlier default was resolved through a July 2023 modification that extended the maturity to this March. The complaint, quoting the loan documents, states that the borrower, 'being a sophisticated commercial borrower, has failed to make payments as required,' and asks the court to install a receiver to protect and manage the tower while the debt goes unpaid.",
+      significance: "The filing shows post-pandemic office distress reaching even institutionally owned, marquee downtown assets: Republic Plaza pairs a top-tier global asset manager with an insurance-company balance sheet, yet neither prevented a second maturity default in three years as tenants shrink footprints. Colorado receivership is an equitable remedy a lender can pursue separately from, and well before, a completed foreclosure sale, letting it seize operational and cash-flow control of a distressed asset while litigation is still pending. Owners and asset managers with loans maturing into the current environment should treat a receivership filing as an earlier and faster-moving risk than a foreclosure complaint, since it can strip day-to-day control of a property long before any sale.",
+      tags: ["receivership", "cmbs", "office", "loan default", "denver"],
+      timeline: [
+        { when: "July 2023", label: "Brookfield and its lender modify the loan after an earlier default, extending the maturity to March 15, 2026" },
+        { when: "March 15, 2026", label: "The loan matures unpaid, triggering a second default and transfer to special servicing" },
+        { when: "August 10, 2026", label: "U.S. Bank National Association sues in Denver District Court seeking appointment of a receiver", current: true }
+      ]
     }
   ],
 
