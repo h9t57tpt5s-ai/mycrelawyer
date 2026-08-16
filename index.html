@@ -105,6 +105,9 @@
   <div class="hero-glow"></div>
   <div class="container hero-grid">
     <div>
+      <a href="updates.html" id="new-today-pill" class="badge badge-live reveal in-view" style="display:none; width:fit-content; margin-bottom:14px; font-size:12.5px; padding:6px 14px;">
+        <span class="badge-dot" style="background:currentColor;"></span>New Today — see what's new &rarr;
+      </a>
       <div class="eyebrow reveal in-view">Built for owners, managers, developers &amp; REITs</div>
       <h1 class="reveal in-view">Where commercial real estate meets the courtroom.</h1>
       <p class="lede mt-24 reveal in-view">CREdocket tracks the litigation, regulatory actions, and legal disputes reshaping ownership, lending, leasing, and development across the CRE industry — organized so your team can see what matters, fast.</p>
@@ -241,56 +244,56 @@
       <p class="lede" style="max-width:360px;">Ranked by population — click any state on the tracker to jump straight to what's happening there.</p>
     </div>
     <div class="market-strip reveal">
-      <div class="market-card">
+      <a href="litigation.html?state=NY" class="market-card" aria-label="View tracked matters in New York">
         <div class="market-card-tag">Largest Office Market</div>
         <img src="img/photos/new-york.jpg" alt="New York City skyline" loading="lazy" />
         <div class="market-card-label"><span class="city">New York</span><span class="meta">NY · 8.3M residents</span></div>
-      </div>
-      <div class="market-card">
+      </a>
+      <a href="litigation.html?state=CA" class="market-card" aria-label="View tracked matters in California">
         <div class="market-card-tag">Gateway Market</div>
         <img src="img/photos/los-angeles.jpg" alt="Los Angeles skyline at sunset" loading="lazy" />
         <div class="market-card-label"><span class="city">Los Angeles</span><span class="meta">CA · 3.8M residents</span></div>
-      </div>
-      <div class="market-card">
+      </a>
+      <a href="litigation.html?state=IL" class="market-card" aria-label="View tracked matters in Illinois">
         <div class="market-card-tag">Gateway Market</div>
         <img src="img/photos/chicago.jpg" alt="Chicago skyline along Lake Michigan" loading="lazy" />
         <div class="market-card-label"><span class="city">Chicago</span><span class="meta">IL · 2.7M residents</span></div>
-      </div>
-      <div class="market-card">
+      </a>
+      <a href="litigation.html?state=TX" class="market-card" aria-label="View tracked matters in Texas">
         <div class="market-card-tag">Energy &amp; Industrial Hub</div>
         <img src="img/photos/houston.jpg" alt="Houston skyline along Buffalo Bayou" loading="lazy" />
         <div class="market-card-label"><span class="city">Houston</span><span class="meta">TX · 2.4M residents</span></div>
-      </div>
-      <div class="market-card">
+      </a>
+      <a href="litigation.html?state=TX" class="market-card" aria-label="View tracked matters in Texas">
         <div class="market-card-tag">Corporate Relocation Hub</div>
         <img src="img/photos/dallas.jpg" alt="Dallas skyline at sunset" loading="lazy" />
         <div class="market-card-label"><span class="city">Dallas–Fort Worth</span><span class="meta">TX · 2.3M residents</span></div>
-      </div>
-      <div class="market-card">
+      </a>
+      <a href="litigation.html?state=AZ" class="market-card" aria-label="View tracked matters in Arizona">
         <div class="market-card-tag">Sun Belt Growth Market</div>
         <img src="img/photos/phoenix.jpg" alt="Downtown Phoenix skyscrapers at sunset" loading="lazy" />
         <div class="market-card-label"><span class="city">Phoenix</span><span class="meta">AZ · 1.6M residents</span></div>
-      </div>
-      <div class="market-card">
+      </a>
+      <a href="litigation.html?state=PA" class="market-card" aria-label="View tracked matters in Pennsylvania">
         <div class="market-card-tag">Established East Coast Market</div>
         <img src="img/photos/philadelphia.jpg" alt="Philadelphia skyline with Ben Franklin Bridge at sunset" loading="lazy" />
         <div class="market-card-label"><span class="city">Philadelphia</span><span class="meta">PA · 1.6M residents</span></div>
-      </div>
-      <div class="market-card">
+      </a>
+      <a href="litigation.html?state=TX" class="market-card" aria-label="View tracked matters in Texas">
         <div class="market-card-tag">Growing Texas Market</div>
         <img src="img/photos/san-antonio.jpg" alt="San Antonio skyline at dusk" loading="lazy" />
         <div class="market-card-label"><span class="city">San Antonio</span><span class="meta">TX · 1.5M residents</span></div>
-      </div>
-      <div class="market-card">
+      </a>
+      <a href="litigation.html?state=CA" class="market-card" aria-label="View tracked matters in California">
         <div class="market-card-tag">Life Sciences Hub</div>
         <img src="img/photos/san-diego.jpg" alt="San Diego marina skyline at dusk" loading="lazy" />
         <div class="market-card-label"><span class="city">San Diego</span><span class="meta">CA · 1.4M residents</span></div>
-      </div>
-      <div class="market-card">
+      </a>
+      <a href="litigation.html?state=FL" class="market-card" aria-label="View tracked matters in Florida">
         <div class="market-card-tag">Emerging Market</div>
         <img src="img/photos/jacksonville.jpg" alt="Jacksonville skyline along the St. Johns River" loading="lazy" />
         <div class="market-card-label"><span class="city">Jacksonville</span><span class="meta">FL · 1.0M residents</span></div>
-      </div>
+      </a>
     </div>
     <p class="text-muted mono" style="font-size:11px; margin-top:14px;">Photography via Pexels, used under the Pexels License. Population figures approximate, city proper; Dallas–Fort Worth reflects both cities combined. Market tags are general characterizations, not precise inventory figures.</p>
   </div>
@@ -436,7 +439,20 @@
 </footer>
 
 <script src="js/data.js"></script>
-<script>document.getElementById("stat-matters").setAttribute("data-count", RELAW_DATA.cases.length);</script>
+<script>
+  document.getElementById("stat-matters").setAttribute("data-count", RELAW_DATA.cases.length);
+  // "New Today" pill: only shown when the digest actually published something
+  // today (visitor's local calendar date) — RELAW_DATA.lastUpdatedDate is set
+  // by the digest automation, never guessed client-side.
+  (function () {
+    const todayLocal = new Date();
+    const todayStr = todayLocal.getFullYear() + "-" + String(todayLocal.getMonth() + 1).padStart(2, "0") + "-" + String(todayLocal.getDate()).padStart(2, "0");
+    if (RELAW_DATA.lastUpdatedDate === todayStr) {
+      const pill = document.getElementById("new-today-pill");
+      if (pill) pill.style.display = "flex";
+    }
+  })();
+</script>
 <script src="js/main.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script>
 <script src="js/supabase-client.js"></script>

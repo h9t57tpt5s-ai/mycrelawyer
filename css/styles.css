@@ -590,9 +590,9 @@ h3, .h3 {
 .market-strip::-webkit-scrollbar { height: 6px; }
 .market-strip::-webkit-scrollbar-thumb { background: var(--border); border-radius: 4px; }
 .market-card {
-  position: relative; flex: 0 0 auto; width: 240px; height: 300px; border-radius: var(--radius-lg);
+  display: block; position: relative; flex: 0 0 auto; width: 240px; height: 300px; border-radius: var(--radius-lg);
   overflow: hidden; scroll-snap-align: start; border: 1px solid var(--border);
-  transition: transform 0.35s var(--ease), box-shadow 0.35s var(--ease);
+  transition: transform 0.35s var(--ease), box-shadow 0.35s var(--ease); cursor: pointer;
 }
 .market-card:hover { transform: translateY(-6px); box-shadow: var(--shadow-lg); }
 .market-card img {

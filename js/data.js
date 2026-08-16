@@ -9,6 +9,14 @@
    ========================================================= */
 
 const RELAW_DATA = {
+  /* Date (UTC, YYYY-MM-DD) of the most recent digest run that actually
+     added a new matter to `cases` below — NOT the same as any individual
+     case's own `date` field, which is the underlying legal event's date
+     and is usually days/weeks in the past by the time it's reported here.
+     Drives the homepage's "New Today" pill: it only shows when this
+     equals the visitor's local today. Updated by the digest automation
+     each time Step 4 successfully adds a case — never touched otherwise. */
+  lastUpdatedDate: "2026-08-16",
   categories: [
     { id: "landlord-tenant", label: "Landlord–Tenant", color: "var(--cat-landlord)" },
     { id: "zoning-land-use", label: "Zoning & Land Use", color: "var(--cat-zoning)" },
