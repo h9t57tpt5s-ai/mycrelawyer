@@ -43,7 +43,25 @@
 
   function render() {
     const sorted = [...RELAW_DATA.cases].sort((a, b) => new Date(b.date) - new Date(a.date));
-    feed.innerHTML = sorted.map(rowHtml).join("");
+
+    // Optional ?recent=N — used by the homepage's "New Today" pill so it
+    // points at just the latest handful of updates rather than the entire
+    // tracker history. Absent (or invalid), the full feed renders as usual.
+    const recentParam = parseInt(new URLSearchParams(window.location.search).get("recent"), 10);
+    const limited = Number.isInteger(recentParam) && recentParam > 0;
+    const list = limited ? sorted.slice(0, recentParam) : sorted;
+
+    const note = document.getElementById("updates-recent-note");
+    if (note) {
+      if (limited) {
+        note.style.display = "block";
+        note.innerHTML = `Showing the ${list.length} most recent update${list.length === 1 ? "" : "s"}. <a href="updates.html" class="text-accent" style="display:inline;">View the full history &rarr;</a>`;
+      } else {
+        note.style.display = "none";
+      }
+    }
+
+    feed.innerHTML = list.map(rowHtml).join("");
   }
 
   render();
