@@ -607,6 +607,27 @@ const RELAW_DATA = {
         { when: "March 15, 2026", label: "The loan matures unpaid, triggering a second default and transfer to special servicing" },
         { when: "August 10, 2026", label: "U.S. Bank National Association sues in Denver District Court seeking appointment of a receiver", current: true }
       ]
+    },
+    {
+      id: "live-024",
+      title: "U.S. Bank v. Brightline Investment Holdings, LLC (MiamiCentral Station Retail Foreclosure)",
+      category: "lending-foreclosure",
+      status: "filed",
+      date: "2026-07-30",
+      jurisdiction: "Miami-Dade County Circuit Court",
+      state: "FL",
+      amount: "$65M senior foreclosure claim (of $128.5M total 2022 financing)",
+      source: "live",
+      sourceUrl: "https://therealdeal.com/miami/2026/08/05/brightlines-miami-retail-hit-with-65-million-foreclosure/",
+      summary: "U.S. Bank, acting as administrative agent for a senior lender group led by Bracebridge Capital affiliate XYQ Cayman Ltd., sued on July 30 to foreclose on the 124,000-square-foot retail component of Brightline's MiamiCentral Station after owner Brightline Investment Holdings and subsidiary DTS DT Retail LLC missed a $16M principal payment due December 26, 2025, a further $6M payment due March 15, 2026, and quarterly interest payments dating to December 2025. The complaint, filed against Brightline Investment Holdings, DTS DT Retail, and property manager FECI Realty, seeks foreclosure, enforcement of Brightline Investment Holdings' guaranty, and appointment of a receiver over the property.",
+      significance: "The filing shows a lender enforcing against a transit-oriented retail asset independently of the sponsor's core operating business, since the suit reaches only the senior tranche of a bifurcated 2022 loan and does not touch Brightline's passenger-rail operations, which continue unaffected. It arrives alongside Brightline's own well-documented rail-financing debt strain, giving lenders and retail tenants at other transit-adjacent developments an early signal of how quickly a senior lender can seek receivership over an underperforming retail component, separate from the parent enterprise's overall solvency.",
+      tags: ["foreclosure", "receivership", "transit-oriented development", "retail", "bifurcated loan"],
+      timeline: [
+        { when: "2022", label: "Brightline Investment Holdings closes a $128.5M loan on the MiamiCentral Station retail component, split into a $65M senior tranche (XYQ Cayman Ltd./Bracebridge Capital) and a junior tranche" },
+        { when: "December 26, 2025", label: "Borrower misses a required $16M principal paydown" },
+        { when: "March 15, 2026", label: "Borrower misses an additional $6M principal paydown; quarterly interest payments have also lapsed since December 2025" },
+        { when: "July 30, 2026", label: "U.S. Bank sues on behalf of the senior lender group to foreclose and seeks appointment of a receiver", current: true }
+      ]
     }
   ],
 
