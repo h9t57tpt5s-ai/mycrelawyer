@@ -92,7 +92,11 @@
       }
       return true;
     });
-    list.sort((a, b) => (state.sort === "newest" ? new Date(b.date) - new Date(a.date) : new Date(a.date) - new Date(b.date)));
+    // Sort by when a matter was published to the tracker (addedDate), not
+    // the underlying legal event's own date — a matter added today should
+    // read as "newest" even if the event itself happened weeks ago.
+    const sortDate = (c) => new Date(c.addedDate || c.date);
+    list.sort((a, b) => (state.sort === "newest" ? sortDate(b) - sortDate(a) : sortDate(a) - sortDate(b)));
     return list;
   }
 

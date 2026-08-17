@@ -130,7 +130,7 @@
   if (tickerTrack && typeof RELAW_DATA !== "undefined") {
     const catMap = Object.fromEntries(RELAW_DATA.categories.map((c) => [c.id, c]));
     const recent = [...RELAW_DATA.cases]
-      .sort((a, b) => new Date(b.date) - new Date(a.date))
+      .sort((a, b) => new Date(b.addedDate || b.date) - new Date(a.addedDate || a.date))
       .slice(0, 10);
 
     const itemHtml = (c) => {

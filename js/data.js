@@ -16,7 +16,7 @@ const RELAW_DATA = {
      Drives the homepage's "New Today" pill: it only shows when this
      equals the visitor's local today. Updated by the digest automation
      each time Step 4 successfully adds a case — never touched otherwise. */
-  lastUpdatedDate: "2026-08-16",
+  lastUpdatedDate: "2026-08-17",
   categories: [
     { id: "landlord-tenant", label: "Landlord–Tenant", color: "var(--cat-landlord)" },
     { id: "zoning-land-use", label: "Zoning & Land Use", color: "var(--cat-zoning)" },
@@ -54,6 +54,7 @@ const RELAW_DATA = {
   cases: [
     {
       id: "live-001",
+      addedDate: "2026-08-04",
       title: "Liu v. Willow Bridge Property Co. (RealPage Algorithmic Pricing Suits)",
       category: "landlord-tenant",
       status: "filed",
@@ -78,6 +79,7 @@ const RELAW_DATA = {
     },
     {
       id: "live-002",
+      addedDate: "2026-08-04",
       title: "Township of Jackson v. Getzel Bee, LLC",
       category: "eminent-domain",
       status: "ruling",
@@ -104,6 +106,7 @@ const RELAW_DATA = {
     },
     {
       id: "live-003",
+      addedDate: "2026-08-04",
       title: "Wilmington Savings Fund Society, FSB v. Milton 90 Pleasant Valley Street LLC (Benchmark 2026-B43 CMBS Foreclosure)",
       category: "lending-foreclosure",
       status: "filed",
@@ -127,6 +130,7 @@ const RELAW_DATA = {
     },
     {
       id: "live-004",
+      addedDate: "2026-08-04",
       title: "FitFactariDC LLC v. CoStar Group, Inc. (CRE Lease-Data Hub-and-Spoke Antitrust Suit)",
       category: "lease-disputes",
       status: "filed",
@@ -151,6 +155,7 @@ const RELAW_DATA = {
     },
     {
       id: "live-005",
+      addedDate: "2026-08-04",
       title: "SEC v. RAD Diversified REIT, Inc.",
       category: "reit-securities",
       status: "filed",
@@ -176,6 +181,7 @@ const RELAW_DATA = {
     },
     {
       id: "live-006",
+      addedDate: "2026-08-04",
       title: "In re Silver Star Properties REIT (Second Chapter 11 Filing)",
       category: "lending-foreclosure",
       status: "filed",
@@ -202,6 +208,7 @@ const RELAW_DATA = {
     },
     {
       id: "live-007",
+      addedDate: "2026-08-04",
       title: "Via Mizner Lender 1 LLC v. Via Mizner Owner III, LLC (Mandarin Oriental Residences, Boca Raton Foreclosure)",
       category: "lending-foreclosure",
       status: "filed",
@@ -229,6 +236,7 @@ const RELAW_DATA = {
     },
     {
       id: "live-008",
+      addedDate: "2026-08-05",
       title: "CommunityAmerica Federal Credit Union v. Metropoint 300/400 Owners (St. Louis Park Office Foreclosure)",
       category: "lending-foreclosure",
       status: "filed",
@@ -253,6 +261,7 @@ const RELAW_DATA = {
     },
     {
       id: "live-009",
+      addedDate: "2026-08-11",
       title: "SCLS Realty, LLC v. Town of Johnston (Eminent Domain Contempt Proceedings)",
       category: "eminent-domain",
       status: "pending",
@@ -280,6 +289,7 @@ const RELAW_DATA = {
     },
     {
       id: "live-010",
+      addedDate: "2026-08-11",
       title: "111 West 57th Investment LLC v. 111 W57 Mezz Investor LLC (Steinway Tower \"Sole Discretion\" Ruling)",
       category: "lending-foreclosure",
       status: "ruling",
@@ -308,6 +318,7 @@ const RELAW_DATA = {
     },
     {
       id: "live-011",
+      addedDate: "2026-08-11",
       title: "Kenilworth Holdings v. New York City Rent Guidelines Board (Rent Freeze Article 78 Challenge)",
       category: "landlord-tenant",
       status: "filed",
@@ -334,6 +345,7 @@ const RELAW_DATA = {
     },
     {
       id: "live-012",
+      addedDate: "2026-08-11",
       title: "Voskerician v. City of Menlo Park (SB 9 Park Fee Takings Challenge)",
       category: "zoning-land-use",
       status: "filed",
@@ -360,6 +372,7 @@ const RELAW_DATA = {
     },
     {
       id: "live-013",
+      addedDate: "2026-08-11",
       title: "Ayer v. Lightstone Value Plus REIT (Undisclosed $59.8M Chairman Conflict in Liquidation-Delay Proxy)",
       category: "reit-securities",
       status: "ruling",
@@ -385,6 +398,7 @@ const RELAW_DATA = {
     },
     {
       id: "live-014",
+      addedDate: "2026-08-11",
       title: "Keller v. UDR, Inc. (San Diego Algorithmic Rent-Pricing Class Action)",
       category: "landlord-tenant",
       status: "filed",
@@ -411,6 +425,7 @@ const RELAW_DATA = {
     },
     {
       id: "live-015",
+      addedDate: "2026-08-11",
       title: "Monarch Communities, LLC v. Township of Montville (Inherently Beneficial Use-Variance Standard Revised)",
       category: "zoning-land-use",
       status: "ruling",
@@ -439,6 +454,7 @@ const RELAW_DATA = {
     },
     {
       id: "live-016",
+      addedDate: "2026-08-12",
       title: "300 Biscayne Boulevard Way Condo Assn. v. Riverwalk East Developments (Aston Martin Residences Construction Defect Suit)",
       category: "construction-defect",
       status: "filed",
@@ -463,6 +479,7 @@ const RELAW_DATA = {
     },
     {
       id: "live-017",
+      addedDate: "2026-08-12",
       title: "Travelers Property Casualty Co. v. Washington Shoppes LP (Dry-Cleaner PCE Contamination Coverage Dispute)",
       category: "environmental",
       status: "filed",
@@ -487,6 +504,7 @@ const RELAW_DATA = {
     },
     {
       id: "live-018",
+      addedDate: "2026-08-12",
       title: "Board of Managers of the 443 Greenwich St. Condominium v. Berman/Metro Loft (Tribeca Factory-Conversion Defect Suit, $376M Claim)",
       category: "construction-defect",
       status: "pending",
@@ -515,6 +533,7 @@ const RELAW_DATA = {
     },
     {
       id: "live-019",
+      addedDate: "2026-08-12",
       title: "United States v. Columbia Falls Aluminum Co. (CFAC Superfund Consent Decree, $57.6M Cleanup)",
       category: "environmental",
       status: "pending",
@@ -539,6 +558,7 @@ const RELAW_DATA = {
     },
     {
       id: "live-020",
+      addedDate: "2026-08-13",
       title: "UWM Holdings Corp. v. Two Harbors Investment Corp. (Failed $1.3B Merger Fraud & Breach Suit)",
       category: "reit-securities",
       status: "filed",
@@ -554,6 +574,7 @@ const RELAW_DATA = {
     },
     {
       id: "live-021",
+      addedDate: "2026-08-14",
       title: "City of Oakland v. Mosser Companies (First Elevator-Ordinance Enforcement Suit)",
       category: "landlord-tenant",
       status: "filed",
@@ -569,6 +590,7 @@ const RELAW_DATA = {
     },
     {
       id: "live-022",
+      addedDate: "2026-08-15",
       title: "RealPage, Inc. v. James (First Amendment Challenge to NY Algorithmic Rent-Pricing Law)",
       category: "landlord-tenant",
       status: "pending",
@@ -590,6 +612,7 @@ const RELAW_DATA = {
     },
     {
       id: "live-023",
+      addedDate: "2026-08-15",
       title: "U.S. Bank National Association v. Brookfield Republic Plaza LLC (Denver's Tallest Tower Receivership Suit)",
       category: "lending-foreclosure",
       status: "filed",
@@ -610,6 +633,7 @@ const RELAW_DATA = {
     },
     {
       id: "live-024",
+      addedDate: "2026-08-16",
       title: "U.S. Bank v. Brightline Investment Holdings, LLC (MiamiCentral Station Retail Foreclosure)",
       category: "lending-foreclosure",
       status: "filed",
@@ -627,6 +651,26 @@ const RELAW_DATA = {
         { when: "December 26, 2025", label: "Borrower misses a required $16M principal paydown" },
         { when: "March 15, 2026", label: "Borrower misses an additional $6M principal paydown; quarterly interest payments have also lapsed since December 2025" },
         { when: "July 30, 2026", label: "U.S. Bank sues on behalf of the senior lender group to foreclose and seeks appointment of a receiver", current: true }
+      ]
+    },
+    {
+      id: "live-025",
+      addedDate: "2026-08-17",
+      title: "Bank Midwest, N.A. v. The Integritty Group (Qdoba Restaurant Portfolio Loan Default)",
+      category: "lending-foreclosure",
+      status: "filed",
+      date: "2026-08-06",
+      jurisdiction: "U.S. District Court, Eastern District of Pennsylvania",
+      state: "PA",
+      amount: "$20M loan; ~$18.25M sought (principal, interest, and fees)",
+      source: "live",
+      sourceUrl: "https://sbj.net/stories/kc-bank-sues-philadelphia-qdoba-operator,105343",
+      summary: "Kansas City-based Bank Midwest, a division of National Bank Holdings Corporation, sued The Integritty Group ('TIG'), the Langhorne, Pennsylvania-based operator of 41 Qdoba Mexican Eats restaurants, on August 6 in the U.S. District Court for the Eastern District of Pennsylvania. The complaint alleges TIG defaulted on a $20M loan executed in April 2025, concealed a 'serious liquidity problem' from the bank, and struck a deal to terminate its Qdoba franchise agreement and sell its restaurants without notifying the lender, jeopardizing the collateral securing the loan. Bank Midwest seeks roughly $18.25M in principal, interest, and fees, plus appointment of a receiver over TIG's restaurant operations.",
+      significance: "Loan covenants tied to a multi-unit franchise operator reach well past missed payments: a franchisee's move to unwind its brand relationship and sell its operating restaurants can itself constitute a covenant breach and collateral-impairment event, since a restaurant's real estate and equipment carry comparatively little standalone value once separated from an operating franchise. Lenders financing franchise-backed retail and restaurant real estate portfolios, and net-lease landlords exposed to multi-unit operators, should treat this receivership push as an illustration of how quickly a lender can move to seize operational control of a going-concern business once liquidity problems surface.",
+      tags: ["franchise lending", "loan default", "receivership", "restaurant real estate", "net lease"],
+      timeline: [
+        { when: "April 2025", label: "Bank Midwest and The Integritty Group execute a $20M loan agreement secured by TIG's 41 Qdoba restaurants" },
+        { when: "August 6, 2026", label: "Bank Midwest sues in the Eastern District of Pennsylvania alleging concealed liquidity distress and a covert franchise exit, seeking a receiver", current: true }
       ]
     }
   ],

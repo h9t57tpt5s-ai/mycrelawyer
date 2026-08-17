@@ -463,7 +463,7 @@
 <script src="js/timeline.js"></script>
 <script>
   (function () {
-    const featured = [...RELAW_DATA.cases].sort((a,b) => new Date(b.date) - new Date(a.date)).slice(0, 3);
+    const featured = [...RELAW_DATA.cases].sort((a,b) => new Date(b.addedDate || b.date) - new Date(a.addedDate || a.date)).slice(0, 3);
     document.getElementById("featured-grid").innerHTML = featured.map(window.RELAW_UTILS.caseCardHtml).join("");
     document.querySelectorAll("#featured-grid .reveal").forEach(el => el.classList.add("in-view"));
 
