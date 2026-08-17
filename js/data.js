@@ -16,7 +16,7 @@ const RELAW_DATA = {
      Drives the homepage's "New Today" pill: it only shows when this
      equals the visitor's local today. Updated by the digest automation
      each time Step 4 successfully adds a case — never touched otherwise. */
-  lastUpdatedDate: "2026-08-16",
+  lastUpdatedDate: "2026-08-17",
   categories: [
     { id: "landlord-tenant", label: "Landlord–Tenant", color: "var(--cat-landlord)" },
     { id: "zoning-land-use", label: "Zoning & Land Use", color: "var(--cat-zoning)" },
@@ -627,6 +627,25 @@ const RELAW_DATA = {
         { when: "December 26, 2025", label: "Borrower misses a required $16M principal paydown" },
         { when: "March 15, 2026", label: "Borrower misses an additional $6M principal paydown; quarterly interest payments have also lapsed since December 2025" },
         { when: "July 30, 2026", label: "U.S. Bank sues on behalf of the senior lender group to foreclose and seeks appointment of a receiver", current: true }
+      ]
+    },
+    {
+      id: "live-025",
+      title: "Bank Midwest, N.A. v. The Integritty Group (Qdoba Restaurant Portfolio Loan Default)",
+      category: "lending-foreclosure",
+      status: "filed",
+      date: "2026-08-06",
+      jurisdiction: "U.S. District Court, Eastern District of Pennsylvania",
+      state: "PA",
+      amount: "$20M loan; ~$18.25M sought (principal, interest, and fees)",
+      source: "live",
+      sourceUrl: "https://sbj.net/stories/kc-bank-sues-philadelphia-qdoba-operator,105343",
+      summary: "Kansas City-based Bank Midwest, a division of National Bank Holdings Corporation, sued The Integritty Group ('TIG'), the Langhorne, Pennsylvania-based operator of 41 Qdoba Mexican Eats restaurants, on August 6 in the U.S. District Court for the Eastern District of Pennsylvania. The complaint alleges TIG defaulted on a $20M loan executed in April 2025, concealed a 'serious liquidity problem' from the bank, and struck a deal to terminate its Qdoba franchise agreement and sell its restaurants without notifying the lender, jeopardizing the collateral securing the loan. Bank Midwest seeks roughly $18.25M in principal, interest, and fees, plus appointment of a receiver over TIG's restaurant operations.",
+      significance: "Loan covenants tied to a multi-unit franchise operator reach well past missed payments: a franchisee's move to unwind its brand relationship and sell its operating restaurants can itself constitute a covenant breach and collateral-impairment event, since a restaurant's real estate and equipment carry comparatively little standalone value once separated from an operating franchise. Lenders financing franchise-backed retail and restaurant real estate portfolios, and net-lease landlords exposed to multi-unit operators, should treat this receivership push as an illustration of how quickly a lender can move to seize operational control of a going-concern business once liquidity problems surface.",
+      tags: ["franchise lending", "loan default", "receivership", "restaurant real estate", "net lease"],
+      timeline: [
+        { when: "April 2025", label: "Bank Midwest and The Integritty Group execute a $20M loan agreement secured by TIG's 41 Qdoba restaurants" },
+        { when: "August 6, 2026", label: "Bank Midwest sues in the Eastern District of Pennsylvania alleging concealed liquidity distress and a covert franchise exit, seeking a receiver", current: true }
       ]
     }
   ],
