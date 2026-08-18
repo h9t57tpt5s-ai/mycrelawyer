@@ -16,7 +16,7 @@ const RELAW_DATA = {
      Drives the homepage's "New Today" pill: it only shows when this
      equals the visitor's local today. Updated by the digest automation
      each time Step 4 successfully adds a case — never touched otherwise. */
-  lastUpdatedDate: "2026-08-17",
+  lastUpdatedDate: "2026-08-18",
   categories: [
     { id: "landlord-tenant", label: "Landlord–Tenant", color: "var(--cat-landlord)" },
     { id: "zoning-land-use", label: "Zoning & Land Use", color: "var(--cat-zoning)" },
@@ -692,6 +692,26 @@ const RELAW_DATA = {
         { when: "Early 2021", label: "Acres Capital affiliate originates $32.5M in construction loans for Auden Buffalo" },
         { when: "January 2024", label: "Auden Buffalo and Air Buffalo loans both mature with full principal unpaid" },
         { when: "August 2026", label: "Acres Loan Origination LLC files a foreclosure complaint against the Auden Buffalo sponsor, days after a Deutsche Bank-represented lender group sued to foreclose on the sponsor's nearby Air Buffalo property", current: true }
+      ]
+    },
+    {
+      id: "live-027",
+      addedDate: "2026-08-18",
+      title: "260 Park Avenue South Condominium v. Tessler Developments (Flatiron Common-Charge Lien Foreclosure)",
+      category: "lending-foreclosure",
+      status: "filed",
+      date: "2026-08-17",
+      jurisdiction: "Supreme Court of the State of New York, New York County",
+      state: "NY",
+      amount: "~$675,000 common-charge lien foreclosure; separate ~$225,000+ tax-lien suit pending",
+      source: "live",
+      sourceUrl: "https://therealdeal.com/new-york/2026/08/17/yitzchak-tessler-facing-foreclosure-of-flatiron-retail-spots/",
+      summary: "The condominium board at 260 Park Avenue South in Manhattan's Flatiron District sued to foreclose its condominium lien against six ground-floor retail units owned by developer Yitzchak Tessler's Tessler Developments, alleging the sponsor has gone years without paying common charges, now totaling roughly $675,000. The units house four operating retail tenants — a Morton Williams wine store, a Nemo Tile showroom, Spa Fore, and a FedEx branch. A separate tax lien exceeding $225,000, purchased by BNY after the city placed it on the property, is the subject of an independent, still-pending collection suit against Tessler.",
+      significance: "Shows how a condominium board's statutory common-charge lien foreclosure can move independently of, and faster than, a mortgage lender's foreclosure process, since it isn't bound by loan-document notice-and-cure timelines. It also lands amid a broader pattern of creditor litigation against Tessler-affiliated entities, including an $88M mortgage foreclosure at 172 Madison Avenue and a $101M bankruptcy filing at another Tessler condo tower — a reminder that sponsors retaining commercial condo units after a residential conversion carry ongoing common-charge exposure that accrues regardless of broader portfolio distress.",
+      tags: ["foreclosure", "condominium", "common charges", "flatiron", "developer distress"],
+      timeline: [
+        { when: "2025", label: "City places a lien on Tessler for over $225,000 in unpaid property taxes; BNY later buys the lien and sues separately for the outstanding balance" },
+        { when: "August 17, 2026", label: "260 Park Avenue South Condominium board sues to foreclose on Tessler-owned retail units over roughly $675,000 in unpaid common charges", current: true }
       ]
     }
   ],
