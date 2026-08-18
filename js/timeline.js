@@ -40,7 +40,27 @@
     const topPad = 26;
     const laneHeight = 62;
     const bottomAxis = 46;
-    const width = Math.max(1100, cases.length * 46 + leftPad + rightPad);
+
+    /* Adaptive month-axis tick interval: a label every single month reads
+       fine over a few months but overlaps into an unreadable smear once the
+       tracked range stretches past a year or two. Pick the smallest step
+       (in months) from a fixed set of "round" intervals that keeps the
+       total number of rendered labels within a comfortable range, then size
+       the SVG so each rendered label — not each raw month — gets enough
+       breathing room. The container scrolls horizontally, so it's safe to
+       grow wider rather than cram labels together. */
+    const monthSpan = Math.max(1, Math.round((maxDate - minDate) / (1000 * 60 * 60 * 24 * 30.44)));
+    const TICK_STEPS = [1, 2, 3, 6, 12, 24, 36];
+    const MAX_LABELS = 11;
+    const tickStepMonths = TICK_STEPS.find((step) => monthSpan / step <= MAX_LABELS) || TICK_STEPS[TICK_STEPS.length - 1];
+    const tickCount = Math.ceil(monthSpan / tickStepMonths) + 1;
+    const MIN_TICK_SPACING = 78;
+
+    const width = Math.max(
+      1100,
+      cases.length * 46 + leftPad + rightPad,
+      tickCount * MIN_TICK_SPACING + leftPad + rightPad
+    );
     const height = topPad + categories.length * laneHeight + bottomAxis;
 
     const scaleX = (t) => leftPad + ((t - minDate) / (maxDate - minDate)) * (width - leftPad - rightPad);
@@ -78,7 +98,10 @@
     });
     svg.appendChild(laneGroup);
 
-    /* Month axis */
+    /* Month axis — advances by the adaptive tick step computed above, not
+       unconditionally by 1 month, so long date ranges get fewer, readable
+       labels (e.g. "Jan '25", "Jul '25", "Jan '26") instead of one for
+       every single month. */
     const axisY = topPad + categories.length * laneHeight + 20;
     const axisGroup = el("g", { class: "timeline-axis" });
     const cursor = new Date(minDate);
@@ -88,10 +111,12 @@
       if (x >= leftPad && x <= width - rightPad) {
         axisGroup.appendChild(el("line", { x1: x, y1: topPad - 10, x2: x, y2: axisY - 14, stroke: "var(--border-soft)", "stroke-width": 1, "stroke-dasharray": "2 4" }));
         const t = el("text", { x, y: axisY, fill: "var(--text-muted)", "font-size": 11.5, "font-family": "var(--font-mono)", "text-anchor": "middle" });
-        t.textContent = cursor.toLocaleDateString("en-US", { month: "short", year: "2-digit" });
+        t.textContent = tickStepMonths >= 12
+          ? cursor.toLocaleDateString("en-US", { year: "numeric" })
+          : cursor.toLocaleDateString("en-US", { month: "short", year: "2-digit" });
         axisGroup.appendChild(t);
       }
-      cursor.setMonth(cursor.getMonth() + 1);
+      cursor.setMonth(cursor.getMonth() + tickStepMonths);
     }
     svg.appendChild(axisGroup);
 

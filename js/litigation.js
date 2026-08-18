@@ -111,7 +111,7 @@
           <p>No matters match these filters. Try widening your search.</p>
         </div>`;
     } else {
-      grid.innerHTML = filtered.map((c) => window.RELAW_UTILS.caseCardHtml(c)).join("");
+      grid.innerHTML = filtered.map((c) => window.RELAW_UTILS.caseCardHtml(c, { dateField: "added" })).join("");
       grid.querySelectorAll(".reveal").forEach((el) => el.classList.add("in-view"));
     }
 

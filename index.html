@@ -70,7 +70,7 @@
         </button>
         <div class="nav-dropdown">
           <a href="litigation.html">All Matters</a>
-          <a href="updates.html">Latest Updates</a>
+          <a href="updates.html?recent=5">Latest Updates</a>
           <a href="calendar.html">Litigation Calendar</a>
           <a href="regulatory.html">Regulatory Issues</a>
           <a href="trends.html">Market Signals</a>
@@ -464,7 +464,7 @@
 <script>
   (function () {
     const featured = [...RELAW_DATA.cases].sort((a,b) => new Date(b.addedDate || b.date) - new Date(a.addedDate || a.date)).slice(0, 3);
-    document.getElementById("featured-grid").innerHTML = featured.map(window.RELAW_UTILS.caseCardHtml).join("");
+    document.getElementById("featured-grid").innerHTML = featured.map((c) => window.RELAW_UTILS.caseCardHtml(c, { dateField: "added" })).join("");
     document.querySelectorAll("#featured-grid .reveal").forEach(el => el.classList.add("in-view"));
 
     const catGrid = document.getElementById("category-grid");

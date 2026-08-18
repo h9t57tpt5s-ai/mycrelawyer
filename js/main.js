@@ -155,10 +155,21 @@
     return RELAW_DATA.statuses.find((s) => s.id === id);
   }
 
-  function caseCardHtml(c) {
+  function caseCardHtml(c, opts) {
     const cat = categoryById(c.category);
     const status = statusById(c.status);
     const isLive = c.source === "live";
+    // By default the card shows the underlying legal event's own date. Pages
+    // that sort their grid by publish date (dateField: "added") — the
+    // Litigation Tracker and homepage featured cases — show that same date
+    // here instead, so the visible order matches the visible dates. Judge/
+    // company profile pages, SEO landing pages, and quarterly.html still
+    // sort and display by event date, which is correct in those contexts.
+    const useAdded = opts && opts.dateField === "added";
+    const displayDate = useAdded ? (c.addedDate || c.date) : c.date;
+    const dateTitleAttr = useAdded && c.addedDate && c.addedDate !== c.date
+      ? ` title="Event date: ${formatDate(c.date)}"`
+      : "";
     return `
       <article class="card case-card reveal" data-case-id="${c.id}">
         <div class="case-card-top">
@@ -173,7 +184,7 @@
         <h3>${c.title}</h3>
         <p class="summary">${c.summary}</p>
         <div class="case-card-meta">
-          <span>${formatDate(c.date)}</span>
+          <span${dateTitleAttr}>${formatDate(displayDate)}</span>
           <span>${c.jurisdiction}</span>
         </div>
       </article>`;
