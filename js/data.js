@@ -713,6 +713,27 @@ const RELAW_DATA = {
         { when: "2025", label: "City places a lien on Tessler for over $225,000 in unpaid property taxes; BNY later buys the lien and sues separately for the outstanding balance" },
         { when: "August 17, 2026", label: "260 Park Avenue South Condominium board sues to foreclose on Tessler-owned retail units over roughly $675,000 in unpaid common charges", current: true }
       ]
+    },
+    {
+      id: "live-028",
+      addedDate: "2026-08-18",
+      title: "PSEG Renewable Transmission LLC v. Arentz Family, LP (Piedmont Line Pre-Condemnation Survey Entry)",
+      category: "eminent-domain",
+      status: "ruling",
+      date: "2026-08-06",
+      jurisdiction: "U.S. Court of Appeals for the Fourth Circuit",
+      state: "MD",
+      amount: "117 landowner-appellants; 67-mile transmission project",
+      source: "live",
+      sourceUrl: "https://marylandmatters.org/2026/08/06/piedmont-power-line-surveys-4th-circuit/",
+      summary: "The Fourth Circuit, in a published opinion, affirmed a preliminary injunction letting PSEG Renewable Transmission LLC enter the properties of 117 landowners along the proposed 67-mile Maryland Piedmont Reliability Project transmission line to conduct court-ordered environmental and engineering surveys, over the owners' objections. The panel held that PSEG qualifies as a 'body politic or corporate having the power of eminent domain' under Md. Code Ann., Real Property § 12-111 even though the Maryland Public Service Commission has not yet issued the certificate of public convenience and necessity the project ultimately needs, rejecting the landowners' argument that condemnation authority must already exist before pre-certification survey entry can be ordered.",
+      significance: "Confirms that utilities and infrastructure developers relying on state 'right of entry to survey' statutes can force pre-condemnation access to private land based on preliminary regulatory designation (here, PJM's selection and FERC's acceptance of the project) rather than a completed certification process — a sequencing question that numerous states' similarly worded statutes have rarely tested at the appellate level. For commercial and agricultural landowners along any proposed transmission, pipeline, or similar corridor, the ruling narrows the window to resist survey access to disputes over the scope of a bona fide notice or the type of study proposed, rather than the developer's eminent domain status itself.",
+      tags: ["eminent domain", "utility easement", "right of entry", "transmission line", "takings"],
+      timeline: [
+        { when: "April 15, 2025", label: "PSEG sues 117 landowners in the District of Maryland after repeated refusals of survey access" },
+        { when: "June 20, 2025", label: "District Judge Adam B. Abelson grants PSEG a preliminary injunction authorizing entry" },
+        { when: "August 6, 2026", label: "Fourth Circuit affirms in a published opinion, holding PSEG has the power of eminent domain for purposes of the survey-entry statute", current: true }
+      ]
     }
   ],
 
