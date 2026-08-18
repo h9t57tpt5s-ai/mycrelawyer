@@ -672,6 +672,27 @@ const RELAW_DATA = {
         { when: "April 2025", label: "Bank Midwest and The Integritty Group execute a $20M loan agreement secured by TIG's 41 Qdoba restaurants" },
         { when: "August 6, 2026", label: "Bank Midwest sues in the Eastern District of Pennsylvania alleging concealed liquidity distress and a covert franchise exit, seeking a receiver", current: true }
       ]
+    },
+    {
+      id: "live-026",
+      addedDate: "2026-08-17",
+      title: "Acres Loan Origination LLC v. DMG Investments Affiliate (Auden Buffalo Student Housing Foreclosure)",
+      category: "lending-foreclosure",
+      status: "filed",
+      date: "2026-08-13",
+      jurisdiction: "Erie County Supreme Court, New York",
+      state: "NY",
+      amount: "$32.5M construction loan (Auden Buffalo); ~$18M loan at issue in the related Air Buffalo foreclosure",
+      source: "live",
+      sourceUrl: "https://www.connectcre.com/stories/return-to-lender-week-of-august-13-2026/",
+      summary: "Acres Loan Origination LLC, an affiliate of commercial mortgage lender Acres Capital, filed a foreclosure complaint in New York state Supreme Court against the Auden Buffalo student housing community at 2915-2949 N. Forest Road in Amherst, alleging that two construction loans totaling $32.5 million made in early 2021 to an affiliate of developer DMG Investments matured in January 2024 with the entire principal still unpaid. The filing came within days of a separate foreclosure action against another DMG affiliate, Air Buffalo, a 154-unit luxury apartment building roughly a mile away on Sweet Home Road, brought by a lender group represented by Deutsche Bank National Trust Co. over an approximately $18 million loan that likewise matured unpaid in January 2024.",
+      significance: "Two unrelated lender groups moving against the same New York City-based sponsor's Buffalo-area portfolio within days of each other signals that a single developer's post-maturity refinancing gap can cascade across multiple, separately financed assets rather than staying contained to one property. For construction and bridge lenders on purpose-built student and multifamily housing near university markets, the matters underscore the value of monitoring a sponsor's full regional loan book — not just the collateral securing any one loan — once a maturity default surfaces on a related asset.",
+      tags: ["foreclosure", "construction loan", "student housing", "multifamily", "loan maturity default"],
+      timeline: [
+        { when: "Early 2021", label: "Acres Capital affiliate originates $32.5M in construction loans for Auden Buffalo" },
+        { when: "January 2024", label: "Auden Buffalo and Air Buffalo loans both mature with full principal unpaid" },
+        { when: "August 2026", label: "Acres Loan Origination LLC files a foreclosure complaint against the Auden Buffalo sponsor, days after a Deutsche Bank-represented lender group sued to foreclose on the sponsor's nearby Air Buffalo property", current: true }
+      ]
     }
   ],
 
