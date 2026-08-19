@@ -816,6 +816,36 @@ const RELAW_DATA = {
         { when: "August 17, 2026", label: "Developer sues lenders for $500M+ in New York, alleging manufactured default; Justice Borrok grants a TRO blocking the UCC auction", current: true },
         { when: "October 1, 2026", label: "Hearing on preliminary relief scheduled in the New York Commercial Division", upcoming: true }
       ]
+    },
+    {
+      id: "live-030",
+      addedDate: "2026-08-19",
+      title: "Hedley v. City of New York (Pied-à-Terre Tax Notice Due-Process Challenge)",
+      category: "zoning-land-use",
+      status: "appeal",
+      date: "2026-08-13",
+      jurisdiction: "Supreme Court of the State of New York, Appellate Division, Second Department",
+      judge: "Phillip Hom",
+      state: "NY",
+      amount: "$500M/year projected tax revenue; ~17,000 owners flagged by notice",
+      source: "live",
+      sourceUrl: "https://www.amny.com/new-york/appeals-court-yes-pied-a-terre/",
+      summary: "Three homeowners sued New York City in Staten Island Supreme Court alleging the Department of Finance implemented the state's new pied-à-terre tax backwards, sending notices to roughly 17,000 owners without first making the residency determination state law requires. Justice Wayne Ozzi granted a TRO on August 10 ordering the city's public property roll taken down and barring enforcement of the notices; the city appealed, and on August 13 Appellate Division Justice Phillip Hom stayed that order, letting the rollout resume while a full panel reviews the case.",
+      significance: "Tests how much process a city must give property owners before flagging them under a new, broadly applicable real estate tax, with a trial court finding a facially valid statute can still be enjoined over defective implementation. Owners of non-primary-residence homes and condos above the tax's $5M/$1M thresholds, and counsel advising them, face renewed enforcement while the underlying suit proceeds, and the case is an early template for challenging the rollout mechanics of similar levies elsewhere.",
+      body: [
+        "New York City's rollout of the state's first pied-à-terre tax, a surcharge on high-value homes and co-ops that are not their owners' primary residence, was thrown into legal limbo for three days this month before an appellate stay put it back on track. The dispute, unfolding in the Supreme Court, Richmond County, and now before the Appellate Division, Second Department, turns on a narrow but consequential administrative-law question: whether the city's Department of Finance followed the sequence the statute requires before mailing tax notices to thousands of property owners. For high-value residential owners, developers, and the tax and real estate counsel who advise them, the case is an early test of how aggressively New York's new luxury-property tax regime can be enforced, and how much process owners are due before the city acts.",
+        "The tax itself, enacted as part of the state budget and signed by Governor Kathy Hochul on May 28, 2026 after passing the legislature the day before, imposes an annual surcharge of 0.8% to 1.3% on one-to-three-family homes valued above $5 million, and 4% to 6.5% on condominium and cooperative units valued above $1 million, where the unit is not occupied as a primary residence by the owner, an immediate family member, or a tenant. It took effect July 1, 2026, is projected to raise roughly $500 million a year for the city, and sunsets on June 30, 2031 absent renewal. To implement it, the Department of Finance published a supplemental property tax roll online in early August covering close to a million residential properties citywide and sent notices to approximately 17,000 owners it had flagged as potentially subject to the surcharge, directing them to submit proof of primary-residence status or face the tax.",
+        "Three homeowners, Simon Hedley, Rachel O'Brien, and Carmine Morano, sued the city in Staten Island, represented by Randy Mastro, the former First Deputy Mayor under Mayor Eric Adams. Their central claim is not that the tax is unconstitutional or improperly enacted, but that the city implemented it backwards. The statute, they argued, requires the Department of Finance to first make its own determination, using information already available to the agency, that a property is not a primary residence, and only then to notify the owner and invite exemption evidence. Instead, the plaintiffs alleged, the city sent blanket notices to a broad swath of owners, including some whose homes indisputably were primary residences, without making that threshold determination first, and published a public roll naming all of them regardless.",
+        "On August 10, Justice Wayne Ozzi of the Supreme Court, Richmond County, agreed, granting a temporary restraining order that directed the city to take the public roll offline and barred the Department of Finance from acting on the outstanding notices until it completed the residency determination the statute requires. Ozzi found the notices themselves inflicted irreparable harm, since recipients were given no explanation of why their property had been selected and were warned that failing to respond would result in the surcharge being imposed by default. In a wrinkle widely noted in local coverage, Ozzi's own home was later reported to appear on the disputed property roll, a detail that has not affected the litigation's course but has fueled commentary about how sweeping the city's initial flagging process was.",
+        "The city appealed immediately, and on August 13, Associate Justice Phillip Hom of the Appellate Division, Second Department, signed an order staying Ozzi's TRO and allowing the Department of Finance to resume the rollout, including republishing the property roll and continuing to process notices, while a full four-justice panel considers the city's appeal. That stay is itself interim relief, not a ruling on the merits of either side's position, and the underlying case is set to be heard back in Staten Island on August 31.",
+        "For owners of high-value non-primary residences, and for the accountants, estate planners, and real estate counsel advising them, the practical exposure has not gone away, since the tax roll is public again, notices are being enforced again, and the exemption-filing clock is running for owners who believe they were flagged in error. Counsel should treat the appellate stay as interim only and get documentation of primary-residence status in promptly rather than wait for the merits ruling, and should watch the August 31 hearing closely since it, not the stay, will determine whether the city's notice-and-roll process needs to be redesigned. More broadly, the case is a reminder that novel real estate tax measures often generate their most immediate litigation exposure not over the underlying policy but over the administrative mechanics of rollout, where a facially valid levy can still be vulnerable to a procedural challenge if the implementing agency skips a step the statute specifies, a pattern any city or state considering a similar tax on a large, ungrouped class of owners would do well to plan around."
+      ],
+      tags: ["pied-a-terre tax", "due process", "property tax", "NYC", "administrative law"],
+      timeline: [
+        { when: "August 10, 2026", label: "Justice Wayne Ozzi grants a TRO barring the Dept. of Finance from acting on notices sent to roughly 17,000 owners" },
+        { when: "August 13, 2026", label: "Appellate Division Justice Phillip Hom stays the TRO, letting the city resume the rollout pending full-panel review", current: true },
+        { when: "August 31, 2026", label: "Case set to be heard in Staten Island Supreme Court", upcoming: true }
+      ]
     }
   ],
 
@@ -1120,7 +1150,8 @@ const RELAW_DATA = {
     { jurisdiction: "Supreme Court of the State of New York, New York County", url: "https://ww2.nycourts.gov/courts/1jd/supctmanh/index.shtml" },
     { jurisdiction: "U.S. District Court for the District of Montana", url: "https://www.mtd.uscourts.gov/" },
     { jurisdiction: "U.S. District Court, District of Maryland (Northern Division)", url: "https://www.mdd.uscourts.gov/" },
-    { jurisdiction: "Alameda County Superior Court, California", url: "https://www.alameda.courts.ca.gov/" }
+    { jurisdiction: "Alameda County Superior Court, California", url: "https://www.alameda.courts.ca.gov/" },
+    { jurisdiction: "Supreme Court of the State of New York, Appellate Division, Second Department", url: "https://www.nycourts.gov/courts/ad2/" }
   ],
 
   /* Judges — background on every judge named in our sourced reporting (never
@@ -1192,6 +1223,14 @@ const RELAW_DATA = {
       court: "Supreme Court of the State of New York, New York County",
       background: "Elected to the New York State Supreme Court in 2017 after serving on the New York City Civil Court beginning in 2014. Assigned to the Commercial Division, New York County effective January 1, 2019, where he is designated to preside over all New York County cases alleging violations of the Securities Act of 1933.",
       bioUrl: "https://www.nycourts.gov/commercial-division-new-york-county-manhattan/biography-justice-andrew-borrok"
+    },
+    {
+      name: "Phillip Hom",
+      slug: "phillip-hom",
+      title: "Associate Justice",
+      court: "Supreme Court of the State of New York, Appellate Division, Second Department",
+      background: "Elected to the Queens Civil Court in 2017 and to the New York State Supreme Court in 2019, then designated to the Appellate Term, Second Department, where he was the first Asian American to serve on that court. Nominated by Governor Kathy Hochul to the Appellate Division, Second Department, and assumed office August 16, 2024.",
+      bioUrl: "https://ww2.nycourts.gov/courts/1jd/supctmanh/bio_Hom.shtml"
     }
   ],
 
