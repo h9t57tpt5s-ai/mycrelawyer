@@ -16,7 +16,7 @@ const RELAW_DATA = {
      Drives the homepage's "New Today" pill: it only shows when this
      equals the visitor's local today. Updated by the digest automation
      each time Step 4 successfully adds a case — never touched otherwise. */
-  lastUpdatedDate: "2026-08-18",
+  lastUpdatedDate: "2026-08-19",
   categories: [
     { id: "landlord-tenant", label: "Landlord–Tenant", color: "var(--cat-landlord)" },
     { id: "zoning-land-use", label: "Zoning & Land Use", color: "var(--cat-zoning)" },
@@ -785,6 +785,37 @@ const RELAW_DATA = {
         { when: "June 20, 2025", label: "District Judge Adam B. Abelson grants PSEG a preliminary injunction authorizing entry" },
         { when: "August 6, 2026", label: "Fourth Circuit affirms in a published opinion, holding PSEG has the power of eminent domain for purposes of the survey-entry statute", current: true }
       ]
+    },
+    {
+      id: "live-029",
+      addedDate: "2026-08-19",
+      title: "Via Mizner Owner III LLC v. Via Mizner Lender 1 LLC (Mandarin Oriental Boca Raton Lender-Liability Suit)",
+      category: "lending-foreclosure",
+      status: "filed",
+      date: "2026-08-17",
+      jurisdiction: "Supreme Court of the State of New York, New York County",
+      judge: "Andrew Borrok",
+      state: "NY",
+      amount: "$500M+ damages sought",
+      source: "live",
+      sourceUrl: "https://therealdeal.com/miami/2026/08/17/mandarin-oriental-boca-raton-developer-sues-lender-madison/",
+      summary: "Penn-Florida Companies affiliates Via Mizner Owner III LLC and Via Mizner Pledgor III LLC sued their construction lenders, Via Mizner Lender 1 LLC and Via Mizner Lender 2 LLC, in the Commercial Division of the Supreme Court of the State of New York, seeking more than $500 million and alleging the lenders manufactured the defaults they are now citing to justify foreclosing on the stalled Residences at Mandarin Oriental in Boca Raton. Justice Andrew Borrok signed a temporary restraining order blocking a UCC Article 9 sale of the pledged ownership interests in the project entities and set a hearing on preliminary relief for October 1, 2026. The suit is a direct response to the same lender group's own $417.7 million judicial foreclosure complaint, filed in Florida in July.",
+      significance: "The case tests a lender-liability theory against a UCC Article 9 equity-pledge foreclosure — a faster, non-judicial remedy lenders increasingly favor over judicial mortgage foreclosure — and shows how an aggressive borrower complaint can pause that faster track even without seriously disputing the underlying nonpayment. CRE lenders and workout counsel structuring loans with layered mortgage-plus-equity-pledge collateral should watch how the New York court weighs the lender-liability claim against the parallel Florida foreclosure action, since the outcome will bear on how quickly secured lenders can actually convert a UCC pledge into asset control once a borrower fights back.",
+      body: [
+        "The developer behind Boca Raton's long-delayed Residences at Mandarin Oriental has escalated its fight with its construction lenders from a defensive posture to an offensive one, filing a $500 million lender-liability lawsuit in New York state court and securing a temporary order blocking a foreclosure auction of its ownership interests in the project. The filing, reported August 17, 2026, marks a significant turn in a dispute that until now had been driven entirely by the lender's own foreclosure claims, and it puts a novel theory squarely before the court: that the lender manufactured the very defaults it is now relying on to seize the asset.",
+        "Via Mizner Owner III LLC and Via Mizner Pledgor III LLC, entities controlled by Penn-Florida Companies and led by president and CEO Mark Gensheimer, sued Via Mizner Lender 1 LLC and Via Mizner Lender 2 LLC in the Commercial Division of the Supreme Court of the State of New York, New York County. The complaint seeks more than $500 million in damages and alleges that the lending group, whose capital traces to Madison Realty Capital as loan originator and Apollo Global Management-affiliated entities including Athene Annuity and Life Company, effectively engineered the borrower's default rather than simply responding to it. Justice Andrew Borrok signed a temporary restraining order halting a UCC Article 9 foreclosure sale of the pledged ownership interests in the project entities and set a hearing on preliminary relief for October 1, 2026.",
+        "The countersuit follows directly from the lender group's own $417.7 million foreclosure complaint, filed July 17, 2026 in the Fifteenth Judicial Circuit Court in Palm Beach County, Florida, which alleged that Via Mizner Owner III stopped paying interest in June 2024, missed a February 2025 completion deadline, and failed to repay the loan at its September 2025 maturity. That Florida action seeks a judicial mortgage foreclosure and also aims to subordinate a $24.1 million mechanics'-lien claim from the project's construction manager along with the claims of condo unit buyers awaiting delivery. The new New York suit runs on a parallel but distinct track: rather than contesting the mortgage foreclosure itself, it targets the lenders' separate, faster remedy, a non-judicial UCC sale of the membership interests in the borrower entities that were pledged as additional collateral, a mechanism lenders often favor precisely because it can move to auction far more quickly than a judicial foreclosure.",
+        "The legal significance lies in the lender-liability theory itself. Rather than disputing that payments were missed, the developer's complaint reframes the narrative, alleging the lenders' own conduct, including funding decisions and their role in the termination of the project's hotel management agreement, precipitated the very defaults now cited as grounds for seizure. Lender-liability claims are notoriously difficult to win, since courts are generally reluctant to second-guess a secured lender's contractual remedies once a payment default is undisputed. But the claim's real force here is procedural: by winning a temporary restraining order, Penn-Florida bought itself roughly six weeks before the UCC auction question is revisited, preserving optionality, whether additional capital, a settlement, or a competing sale process, that would have evaporated had the non-judicial sale proceeded on the lenders' original timeline.",
+        "For commercial real estate lenders, developers, and workout counsel, the case illustrates how leverage shifts once a distressed borrower stops playing defense. UCC Article 9 sales are attractive to secured lenders specifically because they bypass many of the procedural protections of judicial foreclosure, but that speed advantage can be neutralized, at least temporarily, by an aggressive borrower complaint paired with a request for injunctive relief, particularly where the borrower can point to lender conduct arguably contributing to the default. The dispute also underscores the risks of layered collateral structures: because the lenders here took both a mortgage on the real property and a separate pledge of equity interests, the borrower now has two fronts, Florida and New York, on which to contest the lenders' remedies, potentially multiplying litigation cost and timeline uncertainty for the mechanics'-lien claimant and condo buyers whose recoveries depend on how the capital stack ultimately resolves.",
+        "The practical upshot for practitioners is straightforward. Borrowers facing a UCC Article 9 foreclosure of pledged equity should move quickly to evaluate whether lender conduct, such as funding delays or interference with project-level agreements, supports a colorable claim that the lender contributed to the default, since that theory can support emergency injunctive relief even where the underlying nonpayment isn't seriously disputed. Lenders structuring distressed-debt or construction-loan workouts should expect that a UCC sale chosen for its speed can still be delayed by a well-pleaded borrower complaint filed in a different jurisdiction than the primary mortgage foreclosure, which argues for coordinating strategy across every forum where collateral is being pursued. Subordinate claimants, including mechanics'-lien holders and condo purchasers on a stalled project, should watch these parallel proceedings closely, since a lender-liability countersuit that slows or reshapes the foreclosure timeline directly affects when, and how much, they ultimately recover; and any party on either side of a maturing, underperforming construction loan should be documenting funding and administrative decisions carefully in real time, because those same records become the evidentiary battleground once a lender-liability theory is pleaded."
+      ],
+      tags: ["lender liability", "UCC foreclosure", "construction loan", "equity pledge", "condo default"],
+      timeline: [
+        { when: "June 2024", label: "Borrower Via Mizner Owner III stops paying interest on the underlying construction loan" },
+        { when: "July 17, 2026", label: "Lender group sues to foreclose in Florida, seeking $417.7M and to subordinate mechanics'-lien and buyer claims" },
+        { when: "August 17, 2026", label: "Developer sues lenders for $500M+ in New York, alleging manufactured default; Justice Borrok grants a TRO blocking the UCC auction", current: true },
+        { when: "October 1, 2026", label: "Hearing on preliminary relief scheduled in the New York Commercial Division", upcoming: true }
+      ]
     }
   ],
 
@@ -1153,6 +1184,14 @@ const RELAW_DATA = {
       court: "U.S. Bankruptcy Court, Northern District of Texas",
       background: "Appointed to the bankruptcy bench in the Fort Worth division in 2015. Previously a member of Haynes and Boone LLP's Bankruptcy and Business Restructuring practice group, and a licensed CPA before attending law school.",
       bioUrl: "https://www.txnb.uscourts.gov/content/judge-mark-x-mullin"
+    },
+    {
+      name: "Andrew Borrok",
+      slug: "andrew-borrok",
+      title: "Justice, Commercial Division",
+      court: "Supreme Court of the State of New York, New York County",
+      background: "Elected to the New York State Supreme Court in 2017 after serving on the New York City Civil Court beginning in 2014. Assigned to the Commercial Division, New York County effective January 1, 2019, where he is designated to preside over all New York County cases alleging violations of the Securities Act of 1933.",
+      bioUrl: "https://www.nycourts.gov/commercial-division-new-york-county-manhattan/biography-justice-andrew-borrok"
     }
   ],
 
@@ -1182,6 +1221,7 @@ const RELAW_DATA = {
     { name: "Two Harbors Investment Corp.", matchTerm: "Two Harbors", slug: "two-harbors-investment", description: "NYSE-listed mortgage REIT.", website: "https://www.twoharborsinvestment.com" },
     { name: "Willow Bridge Property Company", matchTerm: "Willow Bridge", slug: "willow-bridge-property", description: "National multifamily property management and development company.", website: "https://www.willowbridgepc.com" },
     { name: "Travelers", slug: "travelers", description: "Commercial property and casualty insurance carrier.", website: "https://www.travelers.com" },
-    { name: "Columbia Falls Aluminum Company", matchTerm: "Columbia Falls Aluminum", slug: "columbia-falls-aluminum", description: "Former Montana aluminum smelter operator, now managing legacy Superfund cleanup liability at the site." }
+    { name: "Columbia Falls Aluminum Company", matchTerm: "Columbia Falls Aluminum", slug: "columbia-falls-aluminum", description: "Former Montana aluminum smelter operator, now managing legacy Superfund cleanup liability at the site." },
+    { name: "Penn-Florida Companies", matchTerm: "Penn-Florida", slug: "penn-florida-companies", description: "Boca Raton-based luxury real estate developer active in mixed-use, residential, and hospitality projects across South Florida.", website: "https://pennflorida.com" }
   ]
 };
