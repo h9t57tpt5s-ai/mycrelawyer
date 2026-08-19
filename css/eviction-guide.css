@@ -1,0 +1,52 @@
+/* =========================================================
+   CREdocket — Commercial Eviction Handbook page
+   Reuses .card, .badge, .overlay, .detail-panel, .gate-card from
+   styles.css for visual consistency; only new/specific rules here.
+   ========================================================= */
+
+.eg-classification-badge { font-family: var(--font-mono); font-size: 11.5px; }
+
+.eg-legend { display: flex; gap: 20px; flex-wrap: wrap; margin-bottom: 24px; font-size: 12.5px; color: var(--text-secondary); font-family: var(--font-mono); }
+.eg-legend span { display: inline-flex; align-items: center; gap: 6px; }
+.eg-dot { width: 8px; height: 8px; border-radius: 50%; display: inline-block; }
+
+.eg-state-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 14px;
+}
+
+.eg-state-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 16px 18px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius, 10px);
+  background: var(--bg-elevated);
+  cursor: pointer;
+  transition: border-color 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
+}
+.eg-state-card:hover { border-color: var(--accent-deep); transform: translateY(-2px); box-shadow: var(--shadow-md); }
+.eg-state-card:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+.eg-state-card-name { font-weight: 600; font-size: 14.5px; color: var(--text-primary); }
+.eg-state-card-meta { display: flex; align-items: center; gap: 8px; margin-top: 4px; }
+.eg-state-card-class { font-family: var(--font-mono); font-size: 11px; color: var(--text-muted); }
+
+.eg-lock-icon { flex-shrink: 0; color: var(--text-muted); opacity: 0.7; }
+.eg-state-card.is-unlocked .eg-lock-icon { color: var(--status-ruling); opacity: 1; }
+
+.eg-chapter-section { margin-bottom: 26px; }
+.eg-chapter-section:last-child { margin-bottom: 0; }
+.eg-chapter-section h3 { font-size: 15px; margin-bottom: 8px; color: var(--text-primary); }
+.eg-chapter-section p { font-size: 14px; line-height: 1.75; color: var(--text-secondary); white-space: pre-line; }
+.eg-chapter-section.is-drafting ul { padding-left: 18px; margin: 0; }
+.eg-chapter-section.is-drafting li { font-size: 14px; line-height: 1.7; color: var(--text-secondary); margin-bottom: 6px; }
+.eg-chapter-section.is-source p { font-size: 12.5px; color: var(--text-muted); font-style: italic; }
+.eg-chapter-blurb { font-size: 14.5px; line-height: 1.7; color: var(--text-secondary); margin-bottom: 24px; padding-bottom: 20px; border-bottom: 1px solid var(--border-soft); }
+
+.eg-purchase-card { text-align: center; padding: 32px 24px; }
+.eg-purchase-price { font-family: var(--font-display); font-size: 2.2rem; font-weight: 600; color: var(--text-primary); margin: 6px 0 18px; }
+.eg-purchase-price small { font-size: 0.9rem; font-weight: 500; color: var(--text-muted); font-family: var(--font-mono); }
