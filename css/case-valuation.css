@@ -1,0 +1,127 @@
+/* =========================================================
+   CREdocket — Case Value Estimator
+   Wizard + results styling, built on the site's existing design tokens.
+   ========================================================= */
+
+.cv-disclaimer {
+  max-width: 820px;
+  padding: 24px 28px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  background: var(--surface);
+}
+.cv-disclaimer p { font-size: 13.5px; line-height: 1.7; color: var(--text-secondary); }
+
+.cv-loading { padding: 60px 0; text-align: center; color: var(--text-muted); font-family: var(--font-mono); font-size: 13px; }
+
+.cv-app { max-width: 860px; }
+
+/* ---- Progress ---- */
+.cv-progress {
+  display: flex; align-items: center; gap: 6px;
+  margin-bottom: 32px;
+}
+.cv-progress-step {
+  flex: 1; height: 4px; border-radius: var(--radius-full);
+  background: var(--border-soft);
+  transition: background 0.3s ease;
+}
+.cv-progress-step.is-done, .cv-progress-step.is-active { background: var(--accent); }
+.cv-progress-label {
+  font-family: var(--font-mono); font-size: 11.5px; letter-spacing: 0.04em;
+  text-transform: uppercase; color: var(--text-muted); margin-bottom: 10px;
+}
+
+/* ---- Card / step container ---- */
+.cv-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 36px;
+  box-shadow: var(--shadow-sm);
+}
+.cv-step-title { font-family: var(--font-display); font-size: 1.5rem; font-weight: 600; margin-bottom: 6px; }
+.cv-step-sub { color: var(--text-secondary); font-size: 14px; margin-bottom: 28px; }
+
+/* ---- Fields ---- */
+.cv-field { margin-bottom: 22px; }
+.cv-field-label { display: block; font-weight: 600; font-size: 14px; margin-bottom: 8px; }
+.cv-field-hint { font-size: 12.5px; color: var(--text-muted); margin-top: 6px; }
+
+.cv-input, .cv-select {
+  width: 100%; padding: 12px 14px; font-size: 15px; font-family: var(--font-body);
+  border: 1px solid var(--border); border-radius: var(--radius-md);
+  background: var(--bg-elevated); color: var(--text-primary);
+  transition: border-color 0.2s ease;
+}
+.cv-input:focus, .cv-select:focus { outline: none; border-color: var(--accent); }
+
+.cv-money-wrap { position: relative; }
+.cv-money-wrap::before {
+  content: "$"; position: absolute; left: 14px; top: 50%; transform: translateY(-50%);
+  color: var(--text-muted); font-size: 15px; pointer-events: none;
+}
+.cv-money-wrap .cv-input { padding-left: 28px; }
+
+.cv-choice-row { display: flex; gap: 10px; flex-wrap: wrap; }
+.cv-choice-btn {
+  flex: 1; min-width: 110px; padding: 12px 16px; text-align: center;
+  border: 1px solid var(--border); border-radius: var(--radius-md);
+  background: var(--bg-elevated); color: var(--text-primary);
+  font-size: 14px; font-weight: 500; cursor: pointer;
+  transition: all 0.15s ease;
+}
+.cv-choice-btn:hover { border-color: var(--accent); }
+.cv-choice-btn.is-selected {
+  background: var(--accent-wash); border-color: var(--accent); color: var(--accent-deep);
+  font-weight: 700;
+}
+
+/* ---- Nav buttons ---- */
+.cv-step-nav { display: flex; justify-content: space-between; align-items: center; margin-top: 32px; }
+.cv-btn-back { background: none; border: none; color: var(--text-muted); font-size: 14px; cursor: pointer; padding: 10px 4px; }
+.cv-btn-back:hover { color: var(--text-primary); }
+
+/* ---- Results ---- */
+.cv-results-hero {
+  text-align: center; padding: 40px 32px;
+  background: linear-gradient(180deg, var(--accent-wash), transparent);
+  border-radius: var(--radius-lg); border: 1px solid var(--border);
+  margin-bottom: 28px;
+}
+.cv-results-range { font-family: var(--font-display); font-size: clamp(2rem, 4vw, 2.8rem); font-weight: 700; color: var(--accent-deep); }
+.cv-results-caption { color: var(--text-secondary); font-size: 14px; margin-top: 8px; }
+
+.cv-claim-list { display: flex; flex-direction: column; gap: 14px; margin-bottom: 28px; }
+.cv-claim-card {
+  border: 1px solid var(--border); border-radius: var(--radius-md);
+  padding: 18px 20px; background: var(--bg-elevated);
+}
+.cv-claim-head { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; flex-wrap: wrap; }
+.cv-claim-name { font-weight: 700; font-size: 15px; }
+.cv-claim-side { font-family: var(--font-mono); font-size: 10.5px; text-transform: uppercase; letter-spacing: 0.04em; padding: 3px 8px; border-radius: var(--radius-full); }
+.cv-claim-side.landlord { background: color-mix(in srgb, var(--cat-landlord) 14%, transparent); color: var(--cat-landlord); }
+.cv-claim-side.tenant { background: color-mix(in srgb, var(--cat-reit) 14%, transparent); color: var(--cat-reit); }
+.cv-claim-value { font-weight: 700; color: var(--accent-deep); }
+.cv-claim-prob { font-size: 12.5px; color: var(--text-muted); margin-top: 4px; }
+.cv-claim-why { font-size: 13px; color: var(--text-secondary); margin-top: 10px; line-height: 1.6; }
+.cv-claim-cites { margin-top: 10px; font-size: 12px; color: var(--text-muted); }
+.cv-claim-cites a { color: var(--accent); }
+
+.cv-locked-note {
+  border: 1px dashed var(--border); border-radius: var(--radius-md);
+  padding: 16px 18px; font-size: 13px; color: var(--text-muted); text-align: center;
+}
+
+.cv-report-cta {
+  display: flex; align-items: center; justify-content: space-between; gap: 20px; flex-wrap: wrap;
+  padding: 28px 32px; border-radius: var(--radius-lg);
+  background: var(--surface); border: 1px solid var(--border);
+  margin-top: 8px;
+}
+
+@media (max-width: 640px) {
+  .cv-card { padding: 24px; }
+  .cv-choice-row { flex-direction: column; }
+  .cv-report-cta { flex-direction: column; align-items: stretch; text-align: center; }
+}
