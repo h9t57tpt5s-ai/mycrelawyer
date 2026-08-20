@@ -16,7 +16,7 @@ const RELAW_DATA = {
      Drives the homepage's "New Today" pill: it only shows when this
      equals the visitor's local today. Updated by the digest automation
      each time Step 4 successfully adds a case — never touched otherwise. */
-  lastUpdatedDate: "2026-08-19",
+  lastUpdatedDate: "2026-08-20",
   categories: [
     { id: "landlord-tenant", label: "Landlord–Tenant", color: "var(--cat-landlord)" },
     { id: "zoning-land-use", label: "Zoning & Land Use", color: "var(--cat-zoning)" },
@@ -846,6 +846,33 @@ const RELAW_DATA = {
         { when: "August 13, 2026", label: "Appellate Division Justice Phillip Hom stays the TRO, letting the city resume the rollout pending full-panel review", current: true },
         { when: "August 31, 2026", label: "Case set to be heard in Staten Island Supreme Court", upcoming: true }
       ]
+    },
+    {
+      id: "live-031",
+      addedDate: "2026-08-20",
+      title: "U.S. Bank National Association v. Lenox Drive Office Park LLC (Princeton Pike Corporate Center Foreclosure)",
+      category: "lending-foreclosure",
+      status: "filed",
+      date: "2026-08-12",
+      jurisdiction: "U.S. District Court, District of New Jersey",
+      state: "NJ",
+      amount: "$130M loan balance; matured unpaid January 1, 2026",
+      source: "live",
+      sourceUrl: "https://www.mpamag.com/us/specialty/commercial/cmbs-trust-moves-to-foreclose-on-office-park-over-130-million-loan/586071",
+      summary: "U.S. Bank National Association, as trustee for a 2016 Morgan Stanley Bank of America Merrill Lynch commercial mortgage trust, sued Lenox Drive Office Park LLC on August 12 to foreclose on an office complex within the Princeton Pike Corporate Center in Lawrence Township, Mercer County, New Jersey, after a $130M loan originated in December 2015 matured unpaid on January 1, 2026. The complaint seeks a judicial foreclosure and sale of the property, plus immediate appointment of a receiver to operate the complex while the case proceeds.",
+      significance: "A clean maturity-default case, not a covenant or performance dispute, illustrating how 2015-2016-vintage CMBS office loans are colliding with a refinancing market that no longer supports their original terms. The trust's request for a receiver ahead of any foreclosure sale shows special servicers moving to seize operational control of underperforming office collateral faster than a contested foreclosure alone would allow, a pattern owners of similar-vintage suburban office loans should read as an early-warning template.",
+      body: [
+        "U.S. Bank National Association, acting as trustee for the registered holders of a 2016 Morgan Stanley Bank of America Merrill Lynch commercial mortgage trust, filed suit on August 12, 2026 in the U.S. District Court for the District of New Jersey against Lenox Drive Office Park LLC, the Delaware entity that owns an office complex on Lenox Drive within the Princeton Pike Corporate Center in Lawrence Township, Mercer County. The complaint alleges that a $130 million loan Morgan Stanley Bank, N.A. originated in December 2015, later securitized into the 2016-C28 trust, matured on January 1, 2026 and was never paid off.",
+        "Eight months after that missed maturity payment, the trustee is asking the court for both a judicial foreclosure and sale of the property and, more urgently, the immediate appointment of a receiver to run the complex while the litigation proceeds. The filing is notable for what it does not allege: there is no claim of tenant fraud, mismanagement, or a buried covenant breach. This is a straightforward maturity default, the kind increasingly produced by a decade-old loan basis colliding with a refinancing market that no longer supports comparable terms for suburban office collateral.",
+        "The receivership request is the more immediate concern for ownership. New Jersey courts treat receivership as an equitable remedy available once a lender shows a defaulting borrower cannot be trusted to preserve collateral value, and special servicers are increasingly reaching for it before, or instead of, waiting out a contested foreclosure sale. If granted, a receiver would take over rent collection, leasing decisions, and day-to-day management immediately, shifting operational control away from Lenox Drive Office Park LLC well before any forced sale.",
+        "The case fits a broader pattern this year: 2015-2016-vintage, ten-year CMBS office loans are reaching maturity into a lending environment far tighter than the one in which they were underwritten, and special servicers facing a hard maturity with no extension room left have limited incentive to extend forbearance indefinitely once continued interest accrual and softening property performance start working against bondholders."
+      ],
+      timeline: [
+        { when: "December 2015", label: "Morgan Stanley Bank, N.A. originates the $130M loan, later securitized into the 2016-C28 trust" },
+        { when: "January 1, 2026", label: "Loan reaches maturity and is not paid off" },
+        { when: "August 12, 2026", label: "U.S. Bank National Association sues to foreclose and seeks appointment of a receiver", current: true }
+      ],
+      tags: ["cmbs", "foreclosure", "receivership", "office", "maturity default"]
     }
   ],
 
@@ -1261,6 +1288,7 @@ const RELAW_DATA = {
     { name: "Willow Bridge Property Company", matchTerm: "Willow Bridge", slug: "willow-bridge-property", description: "National multifamily property management and development company.", website: "https://www.willowbridgepc.com" },
     { name: "Travelers", slug: "travelers", description: "Commercial property and casualty insurance carrier.", website: "https://www.travelers.com" },
     { name: "Columbia Falls Aluminum Company", matchTerm: "Columbia Falls Aluminum", slug: "columbia-falls-aluminum", description: "Former Montana aluminum smelter operator, now managing legacy Superfund cleanup liability at the site." },
-    { name: "Penn-Florida Companies", matchTerm: "Penn-Florida", slug: "penn-florida-companies", description: "Boca Raton-based luxury real estate developer active in mixed-use, residential, and hospitality projects across South Florida.", website: "https://pennflorida.com" }
+    { name: "Penn-Florida Companies", matchTerm: "Penn-Florida", slug: "penn-florida-companies", description: "Boca Raton-based luxury real estate developer active in mixed-use, residential, and hospitality projects across South Florida.", website: "https://pennflorida.com" },
+    { name: "U.S. Bank National Association", matchTerm: "U.S. Bank", slug: "us-bank-national-association", description: "National bank that frequently serves as trustee or administrative agent for CMBS trusts and lender groups in commercial foreclosure and receivership litigation.", website: "https://www.usbank.com" }
   ]
 };
