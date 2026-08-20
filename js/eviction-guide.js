@@ -17,8 +17,8 @@
   //    and paste its URL here (Stripe Dashboard → Payment Links).
   //    Ask buyers to check out with the SAME email as their CREdocket
   //    account, since purchases are matched by account, not email alone.
-  const STRIPE_PAYMENT_LINK_URL = ""; // e.g. "https://buy.stripe.com/xxxxxxxx"
-  const PRICE_DISPLAY = "$149"; // suggested price — update to match the Payment Link
+  const STRIPE_PAYMENT_LINK_URL = "https://buy.stripe.com/aFacMX20u8GKeLJetz1B600";
+  const PRICE_DISPLAY = "$195";
   // ---------------------------------------------------------------------
 
   const sb = window.RELAW_SUPABASE;
