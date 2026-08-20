@@ -873,6 +873,33 @@ const RELAW_DATA = {
         { when: "August 12, 2026", label: "U.S. Bank National Association sues to foreclose and seeks appointment of a receiver", current: true }
       ],
       tags: ["cmbs", "foreclosure", "receivership", "office", "maturity default"]
+    },
+    {
+      id: "live-032",
+      addedDate: "2026-08-20",
+      title: "Corcoran Group v. Circle F Capital (1 Park Row Broker Commission Suit)",
+      category: "lease-disputes",
+      status: "filed",
+      date: "2026-08-18",
+      jurisdiction: "Supreme Court of the State of New York, New York County",
+      state: "NY",
+      amount: "$3.2M sought; $450K of a $1.45M agreed commission allegedly withheld on a ~$94M recapitalization",
+      source: "live",
+      sourceUrl: "https://therealdeal.com/new-york/2026/08/18/1-park-row-developer-failed-to-pay-commissions-lawsuit/",
+      summary: "Corcoran, its new-development affiliate Corcoran Sunshine Marketing Group, and Brown Harris Stevens sued developer Circle F Capital in Supreme Court, New York County, alleging Circle F withheld $450,000 of a $1.45 million agreed commission tied to a roughly $94 million December 2025 recapitalization of 1 Park Row, a 23-story mixed-use condo tower in Manhattan's Financial District. The brokers say they had already agreed to reduce their fee to accommodate Circle F's 'purported cash problems' before the developer allegedly failed to pay even the discounted amount in full. They are seeking $3.2 million in damages plus interest and costs.",
+      significance: "Illustrates that a broker or vendor's fee concession made to accommodate a distressed sponsor's cash position does not extinguish the underlying payment obligation — it simply resets it, and a subsequent shortfall on the reduced, already-agreed amount remains independently actionable. Developers negotiating fee relief from brokers, contractors, or consultants during a workout should treat any concession as a binding modification, not a renegotiation opportunity once liquidity pressure eases.",
+      body: [
+        "Three of New York's most prominent residential brokerages — Corcoran, its new-development affiliate Corcoran Sunshine Marketing Group, and Brown Harris Stevens — have sued developer Circle F Capital in Supreme Court, New York County, alleging the firm failed to pay the full commission owed on a December 2025 recapitalization of 1 Park Row, the 23-story mixed-use condominium tower rising in Manhattan's Financial District. The complaint, reported August 18, says Circle F stiffed the brokers on $450,000 of a $1.45 million agreed commission tied to a roughly $94 million sale-and-restructuring transaction, despite the brokers having already agreed to cut their fee to help the developer through what the complaint describes as its purported cash problems.",
+        "The underlying transaction is not, on its face, unusual for a project of 1 Park Row's scale and history. Circle F Capital recapitalized the tower in December 2025, bringing on Grand Rapids, Michigan-based investor Eenhoorn as a new equity partner and securing a $77 million refinancing loan arranged by Walker & Dunlop and PCCP. That kind of capital-stack restructuring has become commonplace across New York's condo development sector as construction loans from the 2021-2022 vintage come due into a tighter lending market. What makes the current dispute notable is not the restructuring itself, but what the brokers allege happened to their compensation once it closed.",
+        "According to the complaint, the brokers had marketed and sold units at 1 Park Row under a commission arrangement tied to the project's sales and, later, to the recapitalization transaction itself. When Circle F represented that it was facing cash-flow strain, the brokers agreed to reduce the commission they were owed — a concession brokerages extend fairly routinely to preserve a client relationship and keep a deal moving. The complaint alleges that even after accepting that discount, Circle F failed to pay the reduced, already-agreed amount in full, withholding $450,000 of the negotiated $1.45 million fee. The brokers' $3.2 million demand reflects the shortfall itself plus interest, statutory add-ons, and litigation costs that accumulate once a commission dispute proceeds to a filed lawsuit rather than a negotiated resolution.",
+        "The dispute lands amid a broader pattern of litigation activity around 1 Park Row specifically: a separate $6 million lawsuit tied to the project was dismissed by a Michigan judge earlier this month, and the entity behind Eenhoorn's investment in the tower was separately accused of fraud in an unrelated April filing. None of those matters appears to involve the same parties or claims as the brokers' commission suit, but together they show how a single distressed or recapitalized project can generate multiple, legally distinct fronts of litigation as different counterparties press their own claims once a deal shows signs of financial strain.",
+        "For sponsors and their counsel, the practical lesson is that a fee concession accepted in good faith during a period of financial distress does not extinguish the underlying obligation — it resets it. A developer that fails to pay even a discounted, already-agreed sum can face the same breach-of-contract exposure it would have faced had no concession been offered at all, and vendors extending such concessions would do well to memorialize the revised terms in writing, with a clear remedy for any subsequent default on the discounted amount."
+      ],
+      timeline: [
+        { when: "December 2025", label: "Circle F Capital recapitalizes 1 Park Row, adding Eenhoorn as equity partner and securing a $77M refinancing" },
+        { when: "August 18, 2026", label: "Corcoran, Corcoran Sunshine, and Brown Harris Stevens sue over unpaid commissions", current: true }
+      ],
+      tags: ["broker commission", "condo development", "contract dispute", "recapitalization", "new york"]
     }
   ],
 
