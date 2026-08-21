@@ -230,9 +230,28 @@
       <div class="cv-summary card">
         <div class="eyebrow" style="margin-bottom:8px;">Net Position — ${side === "sideA" ? roles.sideA : roles.sideB} view</div>
         <div class="cv-net">${V.fmtRange(net[0], net[1])}</div>
-        <p class="text-muted" style="font-size:12.5px;">Sum of applicable claims' expected values, from the ${side === "sideA" ? roles.sideA : roles.sideB}'s perspective. This is a probability-informed estimate, not a prediction of any specific outcome — see the per-claim breakdown and cited cases below.</p>
+        <p class="text-muted" style="font-size:12.5px; margin-bottom:16px;">Sum of applicable claims' expected values, from the ${side === "sideA" ? roles.sideA : roles.sideB}'s perspective. This is a probability-informed estimate, not a prediction of any specific outcome — see the per-claim breakdown and cited cases below.</p>
+        <button type="button" class="btn btn-ghost btn-sm" id="cv-download-report">
+          Download PDF Report
+          <svg viewBox="0 0 24 24" fill="none" width="16" height="16"><path d="M12 3v12m0 0l-4-4m4 4l4-4M5 21h14" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </button>
       </div>
       <div class="cv-claims">${evalResult.claims.map(claimResultHtml).join("")}</div>
     `;
+
+    const downloadBtn = document.getElementById("cv-download-report");
+    if (downloadBtn) {
+      downloadBtn.addEventListener("click", () => {
+        if (window.CV_REPORT) {
+          window.CV_REPORT.requestFullReport(evalResult, {
+            categoryLabel: evalResult.categoryLabel,
+            roles,
+            side,
+            net,
+            catSpec: SPEC[slug]
+          });
+        }
+      });
+    }
   });
 })();
