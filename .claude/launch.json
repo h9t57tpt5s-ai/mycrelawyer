@@ -4,7 +4,7 @@
     {
       "name": "relaw-static",
       "runtimeExecutable": "python3",
-      "runtimeArgs": [".claude/nocache-server.py", "4173"],
+      "runtimeArgs": ["-m", "http.server", "4173"],
       "port": 4173
     }
   ]
