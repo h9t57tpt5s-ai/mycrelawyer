@@ -16,7 +16,7 @@ const RELAW_DATA = {
      Drives the homepage's "New Today" pill: it only shows when this
      equals the visitor's local today. Updated by the digest automation
      each time Step 4 successfully adds a case — never touched otherwise. */
-  lastUpdatedDate: "2026-08-20",
+  lastUpdatedDate: "2026-08-21",
   categories: [
     { id: "landlord-tenant", label: "Landlord–Tenant", color: "var(--cat-landlord)" },
     { id: "zoning-land-use", label: "Zoning & Land Use", color: "var(--cat-zoning)" },
@@ -900,6 +900,39 @@ const RELAW_DATA = {
         { when: "August 18, 2026", label: "Corcoran, Corcoran Sunshine, and Brown Harris Stevens sue over unpaid commissions", current: true }
       ],
       tags: ["broker commission", "condo development", "contract dispute", "recapitalization", "new york"]
+    },
+    {
+      id: "live-033",
+      addedDate: "2026-08-21",
+      title: "In re FREElizabeth Rent Cap Referendum (Landlords' Takings Challenge)",
+      category: "landlord-tenant",
+      status: "appeal",
+      date: "2026-08-05",
+      jurisdiction: "Superior Court of New Jersey, Union County",
+      judge: "John M. Deitch",
+      state: "NJ",
+      amount: "Rent-increase cap of $20/yr or 3%, whichever is less, on Elizabeth's rent-controlled units",
+      source: "live",
+      sourceUrl: "https://jerseyvindicator.org/2026/07/29/elizabeth-voters-will-decide-20-rent-cap-after-judge-rejects-landlords-lawsuit/",
+      summary: "A Union County Superior Court judge dismissed a coalition of 13 Elizabeth, NJ landlords' constitutional challenge to a citizen-initiated ballot measure restoring the city's decades-old $20-or-3% annual rent-increase cap, which the City Council had eliminated (leaving only the 3% cap) in 2023. The landlords appealed and sought a stay to keep the measure off the ballot; the Appellate Division denied the stay on August 5, so the referendum proceeds to a November 3 vote while the appeal remains pending.",
+      significance: "Confirms that a rent-control rollback achieved through a city council vote is not necessarily durable where local law allows citizen initiatives to reverse it, and that New Jersey's 'just and reasonable return' standard — not a categorical bar on tightening rent formulas — governs takings-style challenges to ballot-driven caps. Owners and REITs with regulated multifamily assets in referendum-eligible municipalities should model exposure under both the current and the stricter pre-deregulation rent formula, since courts have shown little willingness to let litigation delay a scheduled vote.",
+      body: [
+        "A citizen-driven effort to restore Elizabeth, New Jersey's longstanding $20 annual rent-increase cap will go to voters on November 3 after a Union County Superior Court judge rejected a takings challenge brought by a coalition of local landlords, and the Appellate Division separately declined to stay the referendum while the landlords' appeal moves forward. The dispute, arising from a citizen petition rather than a private lawsuit against any single owner, tests how far courts will let municipalities and voters go in re-tightening rent regulation after a period of landlord-favorable deregulation, and confirms that even successfully weakened rent controls can be clawed back through the ballot box rather than only through the city council chamber.",
+        "The underlying regulation dates back more than three decades: Elizabeth's rent control ordinance capped annual increases at the lesser of $20 or 3% for covered units. In 2023, the City Council eliminated the $20 cap at landlords' urging, leaving only the 3% ceiling in place, a change owners argued was necessary to keep pace with rising operating costs. Tenant organizers responded by using New Jersey's citizen-initiative process to place a measure back on the ballot restoring the original formula, and after collecting and certifying signatures in mid-2025, a group of 13 Elizabeth landlords sued to keep the question off the ballot altogether, arguing that reinstating the lower cap would restrict their ability to earn a reasonable return so severely that it would amount to an uncompensated taking under the Fifth Amendment and the New Jersey Constitution.",
+        "Judge John M. Deitch rejected that argument on July 27, 2026, ruling that the landlords had failed to show the proposed cap would deprive them of the just and reasonable return New Jersey law requires rent control schemes to preserve. That standard, drawn from New Jersey's own rent-control case law rather than federal takings doctrine alone, asks whether a regulation leaves an owner with a fair return on investment, not whether it caps rent increases at a level owners would prefer. Because the landlords' complaint rested on speculative harm rather than a demonstrated inability to operate profitably under the restored cap, the court found it fell short of stating a viable constitutional claim at the pre-election stage. Fifteen New Jersey-based housing justice organizations, represented by the Rutgers Law School Housing Justice & Tenant Solidarity Clinic and Make the Road New Jersey, appeared as amici in support of letting the referendum proceed.",
+        "The landlords appealed on August 3 and immediately sought a stay to keep the measure off the November ballot while that appeal is litigated. The Appellate Division denied the stay on August 5, meaning Elizabeth voters will decide the referendum's fate on Election Day regardless of how the underlying appeal is eventually resolved. That sequencing matters substantively, not just procedurally: if voters approve the tighter cap in November and the Appellate Division later sides with the landlords, the city could face a contentious rollback of a rent formula tenants have already voted into effect, a scenario carrying its own litigation risk given how retroactively unwinding a voter-approved regulation tends to invite separate challenges from tenant advocates.",
+        "For owners of rent-regulated multifamily property, the case is a reminder that a lawyer representing a distressed or motivated landlord group should treat any legislative deregulation win as provisional wherever a citizen-initiative process exists, since a later ballot measure can restore a tighter cap regardless of the earlier council vote, and that a takings challenge needs concrete, property-specific evidence of lost return rather than general objections to a lower ceiling. New Jersey courts have also shown they will let contested measures reach the ballot while appeals are pending, so owners should not assume filing suit before an election will functionally delay a vote, and should plan compliance timelines around the referendum outcome itself rather than the litigation calendar."
+      ],
+      timeline: [
+        { when: "For over three decades prior to 2023", label: "Elizabeth's rent control ordinance caps annual increases at the lesser of $20 or 3%" },
+        { when: "2023", label: "City Council eliminates the $20 cap, leaving only the 3% ceiling" },
+        { when: "Mid-2025", label: "Citizen petition to restore the $20 cap is certified for the November ballot; landlords sue to block the referendum" },
+        { when: "July 27, 2026", label: "Judge Deitch dismisses the landlords' takings challenge" },
+        { when: "August 3, 2026", label: "Landlords appeal and move for a stay of the referendum" },
+        { when: "August 5, 2026", label: "Appellate Division denies the stay motion", current: true },
+        { when: "November 3, 2026", label: "Referendum goes to Elizabeth voters", upcoming: true }
+      ],
+      tags: ["rent control", "ballot initiative", "takings clause", "referendum", "new jersey"]
     }
   ],
 
@@ -1205,7 +1238,8 @@ const RELAW_DATA = {
     { jurisdiction: "U.S. District Court for the District of Montana", url: "https://www.mtd.uscourts.gov/" },
     { jurisdiction: "U.S. District Court, District of Maryland (Northern Division)", url: "https://www.mdd.uscourts.gov/" },
     { jurisdiction: "Alameda County Superior Court, California", url: "https://www.alameda.courts.ca.gov/" },
-    { jurisdiction: "Supreme Court of the State of New York, Appellate Division, Second Department", url: "https://www.nycourts.gov/courts/ad2/" }
+    { jurisdiction: "Supreme Court of the State of New York, Appellate Division, Second Department", url: "https://www.nycourts.gov/courts/ad2/" },
+    { jurisdiction: "Superior Court of New Jersey, Union County", url: "https://www.njcourts.gov/courts/vicinages/union" }
   ],
 
   /* Judges — background on every judge named in our sourced reporting (never
