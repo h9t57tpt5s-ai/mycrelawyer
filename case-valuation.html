@@ -3,25 +3,26 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Lightstone Group — CREdocket</title>
-<meta name="description" content="Commercial real estate litigation matters tracked involving Lightstone Group on CREdocket." />
+<title>Litigation Value Estimator — CREdocket</title>
+<meta name="description" content="A probability-informed estimate of litigation exposure across 8 commercial real estate litigation categories, grounded in real cited settlements and judgments — not a prediction, not legal advice." />
 <meta property="og:type" content="website" />
 <meta property="og:site_name" content="CREdocket" />
-<meta property="og:title" content="Lightstone Group — CREdocket" />
-<meta property="og:description" content="Commercial real estate litigation matters tracked involving Lightstone Group on CREdocket." />
-<meta property="og:url" content="https://credocket.com/company-lightstone-group.html" />
+<meta property="og:title" content="Litigation Value Estimator — CREdocket" />
+<meta property="og:description" content="A probability-informed estimate of litigation exposure across 8 commercial real estate litigation categories, grounded in real cited settlements and judgments." />
+<meta property="og:url" content="https://credocket.com/case-valuation.html" />
 <meta property="og:image" content="https://credocket.com/img/og-image.png" />
 <meta property="og:image:width" content="1200" />
 <meta property="og:image:height" content="630" />
 <meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:title" content="Lightstone Group — CREdocket" />
-<meta name="twitter:description" content="Commercial real estate litigation matters tracked involving Lightstone Group on CREdocket." />
+<meta name="twitter:title" content="Litigation Value Estimator — CREdocket" />
+<meta name="twitter:description" content="A probability-informed estimate of litigation exposure across 8 commercial real estate litigation categories, grounded in real cited settlements and judgments." />
 <meta name="twitter:image" content="https://credocket.com/img/og-image.png" />
 <link rel="icon" href="img/favicon.svg" type="image/svg+xml" />
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/styles.css" />
+<link rel="stylesheet" href="css/case-valuation.css" />
     <script>
       window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
     </script>
@@ -71,7 +72,7 @@
         </button>
         <div class="nav-dropdown">
           <a href="eviction-guide.html">Commercial Eviction Handbook</a>
-          <a href="case-valuation.html">Litigation Value Estimator</a>
+          <a href="case-valuation.html" class="active">Litigation Value Estimator</a>
         </div>
       </li>
       <li><a href="about.html">About</a></li>
@@ -85,6 +86,7 @@
 </nav>
 
 <header class="page-header">
+    <div class="page-header-photo"><img src="img/photos/chicago.jpg" alt="Chicago skyline" loading="eager" /></div>
     <svg class="page-header-graphic" viewBox="0 0 640 400" fill="none" aria-hidden="true" preserveAspectRatio="xMaxYMid slice">
       <defs>
         <radialGradient id="phGlow" cx="70%" cy="30%" r="60%">
@@ -99,42 +101,53 @@
       <circle cx="230" cy="160" r="3" fill="var(--status-filed)" opacity="0.8">
         <animate attributeName="r" values="3;5;3" dur="2.6s" repeatCount="indefinite"/>
       </circle>
+      <circle cx="330" cy="200" r="3" fill="var(--accent-bright)" opacity="0.8">
+        <animate attributeName="r" values="3;5;3" dur="3.4s" repeatCount="indefinite"/>
+      </circle>
     </svg>
   <div class="container">
-    <div class="eyebrow reveal in-view">Company Profile</div>
-    <h1 class="reveal in-view" style="font-size:clamp(2.2rem,4vw,3.4rem);">Lightstone Group</h1>
-    <p class="lede mt-16 reveal in-view">Sponsor of the Lightstone Value Plus non-traded REIT family.</p>
+    <div class="eyebrow reveal in-view">Litigation Tools</div>
+    <h1 class="reveal in-view" style="font-size:clamp(2.2rem,4vw,3.4rem);">Litigation Value Estimator</h1>
+    <p class="lede mt-16 reveal in-view">A structured, rules-based estimate of litigation exposure across 8 commercial real estate categories — probability range × damages range, never a single number, and every result traces to a specific rule or a real cited case below it.</p>
   </div>
 </header>
 
 <section class="section-tight">
-  <div class="container">
-    <div class="card reveal" style="padding:24px; margin-bottom:32px;"><a href="https://www.lightstonegroup.com" target="_blank" rel="noopener" class="btn btn-ghost btn-sm">Company website &#8599;</a></div>
-    <div class="grid-3 reveal-stagger mb-32" id="cp-stats"></div>
+  <div class="container" style="max-width:820px;">
+    <div class="card reveal" style="padding:24px;">
+      <div class="eyebrow" style="margin-bottom:10px;">How This Works</div>
+      <p class="text-secondary" style="font-size:13.5px; line-height:1.7; margin-bottom:14px;">This is a transparent, explainable framework calibrated against real, cited case outcomes and (where relevant) state law — not a black-box statistical prediction, and not a substitute for judicial or arbitral resolution of an actual dispute. Every probability and damages range shown is grounded in either a specific legal rule or a comparable case cited in the results.</p>
+      <p class="text-secondary" style="font-size:13.5px; line-height:1.7;">This tool does not provide legal advice and does not predict the outcome of any specific matter. Litigation outcomes depend on facts, evidence, jurisdiction, and counsel that a short questionnaire cannot capture. <a href="contact.html" class="text-accent" style="display:inline;">Discuss an actual matter with counsel &rarr;</a></p>
+    </div>
+  </div>
+</section>
 
+<section class="section-tight">
+  <div class="container">
     <div class="section-head reveal">
       <div>
-        <div class="eyebrow">Matters Involving Lightstone Group</div>
-        <h2 style="font-size:clamp(1.6rem,2.6vw,2.2rem);">Tracked on CREdocket</h2>
+        <div class="eyebrow">Estimate a Matter</div>
+        <h2 style="font-size:clamp(1.4rem,2.2vw,1.9rem);">Pick a category and answer what you know</h2>
       </div>
-      <p class="text-muted" style="max-width:420px; font-size:13.5px;">Matched by plain-text search of our sourced reporting — never inferred from partial name matches or guessed affiliations.</p>
     </div>
-    <div class="grid-3 reveal-stagger" id="cp-case-grid"></div>
-
-    <div class="card cta-photo-card reveal mt-40" style="padding:40px; display:flex; align-items:center; justify-content:space-between; gap:24px; flex-wrap:wrap;">
-      <div class="cta-photo-bg"><img src="img/photos/office-building.jpg" alt="" aria-hidden="true" loading="lazy" /></div>
-      <div>
-        <h2 style="font-size:clamp(1.4rem,2.2vw,1.8rem);">Tracking litigation exposure involving Lightstone Group?</h2>
-        <p class="text-secondary mt-16" style="max-width:440px;">Whether it's your own company or a counterparty, it's worth a conversation before it becomes a bigger problem.</p>
+    <form id="cv-form" class="card reveal" style="padding:28px;">
+      <div class="cv-controls">
+        <div>
+          <label for="cv-category-select">Litigation category</label>
+          <select id="cv-category-select"><option value="">Select a category…</option></select>
+        </div>
+        <div>
+          <label for="cv-side-select">Your side</label>
+          <select id="cv-side-select"><option value="sideA">—</option></select>
+        </div>
       </div>
-      <a href="contact.html?matter=Matter%20involving%20Lightstone%20Group" class="btn btn-primary">
-        Discuss This
+      <div id="cv-form-host"></div>
+      <button type="submit" class="btn btn-primary btn-sm">
+        Estimate
         <svg viewBox="0 0 24 24" fill="none"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
-      </a>
-    </div>
-    <p class="text-muted mt-24" style="font-size:13px;">
-      <a href="companies.html" class="text-accent" style="display:inline;">View all companies &amp; parties &rarr;</a>
-    </p>
+      </button>
+    </form>
+    <div id="cv-results-host" style="margin-top:28px;"></div>
   </div>
 </section>
 
@@ -176,6 +189,7 @@
         <a href="glossary.html">Glossary</a>
         <a href="quarterly.html">Quarterly Report</a>
         <a href="eviction-guide.html">Commercial Eviction Handbook</a>
+        <a href="case-valuation.html">Litigation Value Estimator</a>
         <a href="account.html">Watchlists</a>
         <a href="about.html">About</a>
         <a href="contact.html">Contact</a>
@@ -192,66 +206,20 @@
       </div>
     </div>
     <div class="footer-bottom">
-      <span>&copy; <span data-year></span> CREdocket. Litigation intelligence sourced from ongoing legal research.</span>
+      <span>© <span data-year></span> CREdocket. Litigation intelligence sourced from ongoing legal research.</span>
       <span>Not legal advice. For informational purposes only.</span>
     </div>
   </div>
 </footer>
 
 <script src="js/data.js"></script>
+<script src="js/case-valuation-data.js"></script>
+<script src="js/case-valuation-engine.js"></script>
 <script src="js/main.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script>
 <script src="js/supabase-client.js"></script>
 <script src="js/auth.js"></script>
-<script src="js/trending.js"></script>
-<script src="js/search.js"></script>
 <script src="js/motion.js"></script>
-<script>
-  (function () {
-    const COMPANY_NAME = "Lightstone Group";
-    const MATCH_TERM = "Lightstone";
-
-    function fieldsOf(c) {
-      // Deliberately excludes `significance` and `body` — those sections often
-      // discuss OTHER companies for comparison/context (e.g. "modeled on the
-      // RealPage litigation") without that company being a party to the matter.
-      // title/summary/tags describe what actually happened and who's involved.
-      return [c.title, c.summary, (c.tags || []).join(" "), c.jurisdiction].join(" ").toLowerCase();
-    }
-
-    const q = (MATCH_TERM || COMPANY_NAME).toLowerCase();
-    const matches = RELAW_DATA.cases.filter((c) => fieldsOf(c).includes(q))
-      .sort((a, b) => new Date(b.date) - new Date(a.date));
-
-    // Stats row
-    const catMap = Object.fromEntries(RELAW_DATA.categories.map((c) => [c.id, c]));
-    const cats = [...new Set(matches.map((c) => c.category))];
-    const states = [...new Set(matches.map((c) => c.state).filter(Boolean))];
-    const dates = matches.map((c) => c.date).sort();
-    const statsGrid = document.getElementById("cp-stats");
-    statsGrid.innerHTML = `
-      <div class="card reveal" style="text-align:center; padding:24px;">
-        <div class="mono" style="font-size:2rem; font-weight:600; color:var(--accent);">${matches.length}</div>
-        <div class="text-muted" style="font-size:12px; text-transform:uppercase; letter-spacing:0.04em; margin-top:6px;">Matter${matches.length === 1 ? "" : "s"} Tracked</div>
-      </div>
-      <div class="card reveal" style="padding:24px;">
-        <div class="text-muted" style="font-size:12px; text-transform:uppercase; letter-spacing:0.04em; margin-bottom:10px;">Practice Areas</div>
-        <div style="display:flex; flex-wrap:wrap; gap:6px;">
-          ${cats.length ? cats.map((id) => { const cat = catMap[id]; return `<span class="badge" style="background:color-mix(in srgb, ${cat.color} 16%, transparent); color:${cat.color}; border:1px solid color-mix(in srgb, ${cat.color} 35%, transparent);"><span class="badge-dot" style="background:${cat.color}"></span>${cat.label}</span>`; }).join("") : `<span class="text-muted" style="font-size:13px;">&mdash;</span>`}
-        </div>
-      </div>
-      <div class="card reveal" style="padding:24px;">
-        <div class="text-muted" style="font-size:12px; text-transform:uppercase; letter-spacing:0.04em; margin-bottom:6px;">Coverage Window</div>
-        <div style="font-size:14px; font-weight:600;">${dates.length ? `${new Date(dates[0] + "T00:00:00").toLocaleDateString("en-US", {month:"short",year:"numeric"})} &ndash; ${new Date(dates[dates.length-1] + "T00:00:00").toLocaleDateString("en-US", {month:"short",year:"numeric"})}` : "&mdash;"}</div>
-        <div class="text-muted mono" style="font-size:11.5px; margin-top:6px;">${states.length ? states.join(", ") : ""}</div>
-      </div>`;
-
-    const grid = document.getElementById("cp-case-grid");
-    grid.innerHTML = matches.length
-      ? matches.map(window.RELAW_UTILS.caseCardHtml).join("")
-      : `<p class="text-secondary">No matters currently tracked for ${COMPANY_NAME} — check back as coverage grows.</p>`;
-    document.querySelectorAll(".reveal, .card").forEach((el) => el.classList.add("in-view"));
-  })();
-</script>
+<script src="js/case-valuation.js"></script>
 </body>
 </html>
