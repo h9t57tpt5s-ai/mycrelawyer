@@ -146,6 +146,33 @@
         </div>
       </div>
       <div id="cv-form-host"></div>
+
+      <div class="cv-cost-section">
+        <div class="eyebrow" style="margin-bottom:10px;">Cost to Litigate &amp; Settlement Comparison</div>
+        <p class="text-muted" style="font-size:12px; line-height:1.6; margin-bottom:16px;">These cost/timeline figures are general commercial-litigation industry norms, not individually cited to a specific real case the way the estimate above is — enter your own numbers below if you have them.</p>
+        <div id="cv-cost-form-host">
+          <div class="cv-field">
+            <label for="cv-q-expectToTrial">Do you expect this to go to trial, or resolve via settlement/motion first?</label>
+            <select id="cv-q-expectToTrial" data-cost-key="expectToTrial" data-type="boolean">
+              <option value="false" selected>Settlement or motion practice</option>
+              <option value="true">Full trial</option>
+            </select>
+          </div>
+          <div class="cv-field">
+            <label for="cv-q-customCostLow">Your own estimated attorney fees — low end ($, optional)</label>
+            <input id="cv-q-customCostLow" type="number" step="any" data-cost-key="customCostLow" data-type="number" />
+          </div>
+          <div class="cv-field">
+            <label for="cv-q-customCostHigh">Your own estimated attorney fees — high end ($, optional)</label>
+            <input id="cv-q-customCostHigh" type="number" step="any" data-cost-key="customCostHigh" data-type="number" />
+          </div>
+          <div class="cv-field">
+            <label for="cv-q-settlementOnTable">Settlement amount currently on the table, if any ($, optional)</label>
+            <input id="cv-q-settlementOnTable" type="number" step="any" data-cost-key="settlementOnTable" data-type="number" />
+          </div>
+        </div>
+      </div>
+
       <button type="submit" class="btn btn-primary btn-sm">
         Estimate
         <svg viewBox="0 0 24 24" fill="none"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
@@ -219,6 +246,7 @@
 <script src="js/data.js"></script>
 <script src="js/case-valuation-data.js"></script>
 <script src="js/case-valuation-engine.js"></script>
+<script src="js/case-valuation-costs.js"></script>
 <script src="js/main.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script>
 <script src="js/supabase-client.js"></script>

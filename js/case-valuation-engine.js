@@ -13,7 +13,7 @@
 
   const SPEC = CASE_VALUATION_DATA.spec.categories;
   const CITATIONS = CASE_VALUATION_DATA.citations;
-  const fmt = (n) => "$" + Math.round(n).toLocaleString("en-US");
+  const fmt = (n) => (n < 0 ? "-$" + Math.round(-n).toLocaleString("en-US") : "$" + Math.round(n).toLocaleString("en-US"));
   const fmtRange = (lo, hi) => (Math.round(lo) === Math.round(hi) ? fmt(lo) : `${fmt(lo)} – ${fmt(hi)}`);
   const clamp01 = (n) => Math.max(0, Math.min(1, n));
   const pct = (r) => `${Math.round(r[0] * 100)}–${Math.round(r[1] * 100)}%`;

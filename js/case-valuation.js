@@ -209,6 +209,46 @@
       </div>`;
   }
 
+  function collectCostFacts() {
+    const out = {};
+    document.querySelectorAll("[data-cost-key]").forEach((el) => {
+      const key = el.getAttribute("data-cost-key");
+      const type = el.getAttribute("data-type");
+      const raw = el.value;
+      if (raw === "") return;
+      if (type === "boolean") out[key] = raw === "true";
+      else out[key] = parseFloat(raw);
+    });
+    return out;
+  }
+
+  function costCardHtml(costEstimate, netAfterCosts, comparison) {
+    let verdictHtml = "";
+    if (comparison) {
+      let verdictClass = "cv-verdict-mixed", verdictText;
+      if (comparison.clearlyFavorsLitigating) {
+        verdictClass = "cv-verdict-litigate";
+        verdictText = `Litigating clears the ${V.fmt(comparison.settlementOnTable)} settlement on the table even in the worst-case scenario.`;
+      } else if (comparison.clearlyFavorsSettling) {
+        verdictClass = "cv-verdict-settle";
+        verdictText = `The ${V.fmt(comparison.settlementOnTable)} settlement on the table beats litigating even in the best-case scenario.`;
+      } else {
+        verdictText = `Depends on where the actual outcome lands within the range — litigating could net more or less than the ${V.fmt(comparison.settlementOnTable)} settlement on the table.`;
+      }
+      verdictHtml = `<div class="cv-verdict ${verdictClass}">${verdictText}</div>`;
+    }
+    return `
+      <div class="cv-summary card" style="margin-top:16px;">
+        <div class="eyebrow" style="margin-bottom:8px;">Cost to Litigate</div>
+        <p class="text-secondary" style="font-size:13px; margin-bottom:4px;">Estimated attorney fees (${costEstimate.pathLabel}): <strong>${V.fmtRange(costEstimate.costRange[0], costEstimate.costRange[1])}</strong></p>
+        <p class="text-secondary" style="font-size:13px; margin-bottom:16px;">Estimated time to resolution: <strong>${costEstimate.monthsRange[0]}–${costEstimate.monthsRange[1]} months</strong></p>
+        <div class="eyebrow" style="margin-bottom:8px;">Net Position After Litigation Costs</div>
+        <div class="cv-net">${V.fmtRange(netAfterCosts[0], netAfterCosts[1])}</div>
+        <p class="text-muted" style="font-size:12px; margin-bottom:${verdictHtml ? "12" : "0"}px;">${costEstimate.isCustom ? "Using your own attorney-fee estimate." : "Using general industry cost norms for this category — not individually cited to a real case."} This does not include expert-witness costs, court costs, or the value of management time diverted to the matter.</p>
+        ${verdictHtml}
+      </div>`;
+  }
+
   form.addEventListener("submit", (e) => {
     e.preventDefault();
     const slug = catSelect.value;
@@ -226,6 +266,16 @@
       return;
     }
 
+    let costHtml = "";
+    let costData = null;
+    if (window.RELAW_VALUATION_COSTS) {
+      const costFacts = collectCostFacts();
+      const costEstimate = window.RELAW_VALUATION_COSTS.estimateCost(slug, costFacts);
+      const { netAfterCosts, comparison } = window.RELAW_VALUATION_COSTS.compareToSettlement(net, costEstimate, costFacts.settlementOnTable);
+      costHtml = costCardHtml(costEstimate, netAfterCosts, comparison);
+      costData = { costEstimate, netAfterCosts, comparison };
+    }
+
     resultsHost.innerHTML = `
       <div class="cv-summary card">
         <div class="eyebrow" style="margin-bottom:8px;">Net Position — ${side === "sideA" ? roles.sideA : roles.sideB} view</div>
@@ -236,7 +286,8 @@
           <svg viewBox="0 0 24 24" fill="none" width="16" height="16"><path d="M12 3v12m0 0l-4-4m4 4l4-4M5 21h14" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
         </button>
       </div>
-      <div class="cv-claims">${evalResult.claims.map(claimResultHtml).join("")}</div>
+      ${costHtml}
+      <div class="cv-claims" style="margin-top:16px;">${evalResult.claims.map(claimResultHtml).join("")}</div>
     `;
 
     const downloadBtn = document.getElementById("cv-download-report");
@@ -248,7 +299,8 @@
             roles,
             side,
             net,
-            catSpec: SPEC[slug]
+            catSpec: SPEC[slug],
+            costData
           });
         }
       });

@@ -9,7 +9,7 @@
 window.CV_REPORT = (function () {
   "use strict";
 
-  function fmtMoney(n) { return "$" + Math.round(n).toLocaleString("en-US"); }
+  function fmtMoney(n) { return n < 0 ? "-$" + Math.round(-n).toLocaleString("en-US") : "$" + Math.round(n).toLocaleString("en-US"); }
   function fmtMoneyRange(range) {
     if (!range) return "—";
     return Math.round(range[0]) === Math.round(range[1]) ? fmtMoney(range[0]) : fmtMoney(range[0]) + " – " + fmtMoney(range[1]);
@@ -101,6 +101,23 @@ window.CV_REPORT = (function () {
     body(`Your side: ${roleLabel}`, { bold: true, gap: 4 });
     body(`Total estimated net position: ${fmtMoneyRange(ctx.net)}`, { bold: true, size: 12, gap: 16 });
     rule();
+
+    if (ctx.costData) {
+      const { costEstimate, netAfterCosts, comparison } = ctx.costData;
+      heading("Cost to Litigate & Settlement Comparison", 13);
+      body(`Estimated attorney fees (${costEstimate.pathLabel}): ${fmtMoneyRange(costEstimate.costRange)}`, { gap: 4 });
+      body(`Estimated time to resolution: ${costEstimate.monthsRange[0]}–${costEstimate.monthsRange[1]} months`, { gap: 4 });
+      body(`Net position after litigation costs: ${fmtMoneyRange(netAfterCosts)}`, { bold: true, size: 11.5, gap: 8 });
+      body(costEstimate.isCustom ? "Uses your own attorney-fee estimate." : "Uses general commercial-litigation industry cost norms for this category — not individually cited to a real case the way the claim analysis above is.", { size: 8.5, color: MUTED, gap: 8 });
+      if (comparison) {
+        let verdict;
+        if (comparison.clearlyFavorsLitigating) verdict = `Litigating clears the ${fmtMoney(comparison.settlementOnTable)} settlement on the table even in the worst-case scenario.`;
+        else if (comparison.clearlyFavorsSettling) verdict = `The ${fmtMoney(comparison.settlementOnTable)} settlement on the table beats litigating even in the best-case scenario.`;
+        else verdict = `Result depends on where the actual outcome lands within the range — litigating could net more or less than the ${fmtMoney(comparison.settlementOnTable)} settlement on the table.`;
+        body(verdict, { bold: true, size: 10, color: NAVY, gap: 12 });
+      }
+      rule();
+    }
 
     heading("Claim-by-Claim Analysis", 14);
     evalResult.claims.forEach((c) => {
