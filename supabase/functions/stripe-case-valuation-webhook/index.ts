@@ -4,11 +4,18 @@
 // Same pattern as stripe-handbook-webhook, retargeted at a different
 // product/table. Listens for Stripe's `checkout.session.completed`
 // event on the estimator's Payment Link, matches the buyer's checkout
-// email to an existing CREdocket account, and writes a row to
-// public.case_valuation_purchases -- which the client checks before
-// showing the full claim-by-claim breakdown, cost/settlement
-// comparison, and PDF export (the free tier shows the net-position
-// headline only).
+// email to an existing CREdocket account, and grants ONE_TIME_CREDITS
+// runs by writing a row to public.case_valuation_purchases -- which
+// the client and the analysis Edge Function both check (remaining
+// credits = sum(credits_granted) - count of analyses used, all-time,
+// since one-time credits don't expire or reset). This is a CREDIT
+// GRANT, not "unlocked forever" -- each purchase adds ONE_TIME_CREDITS
+// more runs to the buyer's balance.
+//
+// A future monthly subscription would grant credits that reset each
+// billing period instead of accumulating -- not wired up yet. When
+// that's built, branch on plan_type ('one_time_credits' vs
+// 'monthly_subscription') rather than changing this table's shape.
 //
 // Note: this gates the UI presentation, not the underlying data --
 // the estimator computes entirely client-side (there's no per-state
@@ -41,6 +48,12 @@
 
 import Stripe from "npm:stripe@17";
 import { createClient } from "npm:@supabase/supabase-js@2";
+
+// How many analysis runs one Payment Link purchase grants. Change this
+// if you change the credit count on the Stripe product -- these two
+// need to stay in sync manually since Stripe doesn't pass line-item
+// metadata through checkout.session.completed by default.
+const ONE_TIME_CREDITS = 10;
 
 const STRIPE_WEBHOOK_SECRET = Deno.env.get("STRIPE_WEBHOOK_SECRET") ?? "";
 
@@ -121,13 +134,15 @@ Deno.serve(async (req) => {
           stripe_checkout_session_id: session.id,
           stripe_customer_email: email,
           amount_total: session.amount_total ?? null,
+          plan_type: "one_time_credits",
+          credits_granted: ONE_TIME_CREDITS,
         },
         { onConflict: "stripe_checkout_session_id", ignoreDuplicates: true },
       );
 
     if (insertError) throw insertError;
 
-    return new Response(JSON.stringify({ received: true, unlocked: true, userId }), { status: 200 });
+    return new Response(JSON.stringify({ received: true, unlocked: true, userId, creditsGranted: ONE_TIME_CREDITS }), { status: 200 });
   } catch (err) {
     console.error("Failed to record case-valuation purchase:", err);
     return new Response(JSON.stringify({ received: false, error: String(err) }), { status: 500 });

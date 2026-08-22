@@ -9,17 +9,24 @@
 //
 // COST-PROTECTION DESIGN -- read before changing the order of checks:
 // 1. Verify the caller's identity from their Supabase auth token.
-// 2. Verify they have a paid entitlement (case_valuation_purchases).
-//    No row -> reject with 402, no Claude call is ever made.
-// 3. Verify they're under the per-user monthly analysis cap
-//    (case_valuation_analyses, last 30 days). Over the cap -> reject
-//    with 429, no Claude call is ever made.
+// 2. Compute their remaining credit balance: sum(credits_granted)
+//    across every case_valuation_purchases row for this user, minus
+//    all-time usage from case_valuation_analyses. Zero purchased ->
+//    402 payment_required. Balance exhausted -> 402
+//    no_credits_remaining. Either way, no Claude call is ever made.
+//    (One-time credits are cumulative and never expire; a future
+//    monthly-subscription plan_type would check usage within the
+//    current billing period instead -- not wired up yet.)
+// 3. Separately, a small daily burst cap (not tied to credits) guards
+//    against a compromised account or scripting bug hammering this
+//    endpoint faster than any real user would, even with real credits
+//    remaining. Over the cap -> 429, no Claude call is ever made.
 // 4. Only after BOTH checks pass does this function log the attempt
-//    and call Claude. The log write happens before the Claude call
-//    (reserving the slot), not after -- a failed analysis still
-//    counts toward the monthly cap. That's a deliberate choice: it's
-//    safer to slightly under-serve a legitimate user on a bad day
-//    than to leave a retry loop able to bypass the rate limit.
+//    (consuming one credit) and call Claude. The log write happens
+//    before the Claude call (reserving the slot), not after -- a
+//    failed analysis still consumes a credit. That's a deliberate
+//    choice: it's safer to slightly under-serve a legitimate user on
+//    a bad day than to leave a retry loop able to mint free credits.
 //
 // Deploy: Supabase Dashboard -> Edge Functions -> New function
 //   name: case-valuation-analyze
@@ -34,14 +41,14 @@
 //                              silently doing nothing.
 // SUPABASE_URL and SUPABASE_SERVICE_ROLE_KEY are injected automatically.
 //
-// MONTHLY_ANALYSIS_CAP below is the per-user safety-net limit --
-// adjust once real usage patterns are visible.
+// DAILY_BURST_CAP below is a burst-abuse governor, separate from the
+// actual credit balance -- adjust once real usage patterns are visible.
 // =========================================================
 
 import { createClient } from "npm:@supabase/supabase-js@2";
 
 const ANTHROPIC_API_KEY = Deno.env.get("ANTHROPIC_API_KEY") ?? "";
-const MONTHLY_ANALYSIS_CAP = 20;
+const DAILY_BURST_CAP = 15;
 
 const supabaseAdmin = createClient(
   Deno.env.get("SUPABASE_URL") ?? "",
@@ -73,38 +80,61 @@ Deno.serve(async (req) => {
   }
   const userId = userData.user.id;
 
-  // ---- Step 2: verify a paid entitlement exists (NO Claude call yet) --
-  const { data: purchase, error: purchaseError } = await supabaseAdmin
+  // ---- Step 2: compute remaining credits (NO Claude call yet) --------
+  // Credit-based, not "ever purchased = unlimited": sum every purchase's
+  // credits_granted (one-time credits are cumulative and never expire),
+  // then subtract all-time usage. A future monthly-subscription plan
+  // type would instead check usage within the current billing period --
+  // not wired up yet, see the header comment.
+  const { data: purchases, error: purchaseError } = await supabaseAdmin
     .from("case_valuation_purchases")
-    .select("id")
-    .eq("user_id", userId)
-    .limit(1)
-    .maybeSingle();
+    .select("credits_granted")
+    .eq("user_id", userId);
 
   if (purchaseError) {
     return jsonResponse({ error: "Could not verify access — try again" }, 500);
   }
-  if (!purchase) {
+  const totalCredits = (purchases ?? []).reduce((sum, p) => sum + (p.credits_granted ?? 0), 0);
+  if (totalCredits === 0) {
     return jsonResponse({
-      error: "This feature requires full access to the Litigation Value Estimator.",
+      error: "This feature requires purchasing analysis credits for the Litigation Value Estimator.",
       code: "payment_required",
     }, 402);
   }
 
-  // ---- Step 3: verify the caller is under the monthly cap ------------
-  const thirtyDaysAgo = new Date(Date.now() - 30 * 24 * 60 * 60 * 1000).toISOString();
-  const { count, error: countError } = await supabaseAdmin
+  const { count: usedCount, error: usedError } = await supabaseAdmin
+    .from("case_valuation_analyses")
+    .select("id", { count: "exact", head: true })
+    .eq("user_id", userId);
+
+  if (usedError) {
+    return jsonResponse({ error: "Could not verify usage — try again" }, 500);
+  }
+  const remainingCredits = totalCredits - (usedCount ?? 0);
+  if (remainingCredits <= 0) {
+    return jsonResponse({
+      error: "You've used all your purchased analysis credits. Purchase more to continue.",
+      code: "no_credits_remaining",
+    }, 402);
+  }
+
+  // ---- Step 3: burst-abuse governor, separate from the credit balance -
+  // Protects against a compromised account or a scripting bug hammering
+  // this endpoint faster than any real user would, even with credits
+  // legitimately remaining -- not the main gate, a sanity backstop.
+  const oneDayAgo = new Date(Date.now() - 24 * 60 * 60 * 1000).toISOString();
+  const { count: todayCount, error: todayError } = await supabaseAdmin
     .from("case_valuation_analyses")
     .select("id", { count: "exact", head: true })
     .eq("user_id", userId)
-    .gte("created_at", thirtyDaysAgo);
+    .gte("created_at", oneDayAgo);
 
-  if (countError) {
+  if (todayError) {
     return jsonResponse({ error: "Could not verify usage — try again" }, 500);
   }
-  if ((count ?? 0) >= MONTHLY_ANALYSIS_CAP) {
+  if ((todayCount ?? 0) >= DAILY_BURST_CAP) {
     return jsonResponse({
-      error: `You've used all ${MONTHLY_ANALYSIS_CAP} analyses included this month. Contact us if you need more.`,
+      error: `You've hit the ${DAILY_BURST_CAP}-per-day request limit. Try again tomorrow.`,
       code: "rate_limited",
     }, 429);
   }
