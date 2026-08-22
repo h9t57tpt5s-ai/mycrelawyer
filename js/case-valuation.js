@@ -10,6 +10,57 @@
   const STATE_MODS = CASE_VALUATION_DATA.stateLawModifiers;
   const STATES = Object.keys(STATE_MODS).sort();
 
+  // ---- CONFIG: fill in once the Payment Link exists ----------------------
+  // Create a Stripe Payment Link for the Litigation Value Estimator's full
+  // tier (one-time or subscription — either works, the webhook doesn't care)
+  // and paste its URL here. Same pattern as js/eviction-guide.js.
+  const STRIPE_PAYMENT_LINK_URL = ""; // e.g. "https://buy.stripe.com/xxxxxxxx"
+  const PRICE_DISPLAY = "$49/mo"; // suggested — update to match the Payment Link
+  // --------------------------------------------------------------------------
+
+  const sb = window.RELAW_SUPABASE;
+
+  async function checkEntitlement() {
+    if (!window.RELAW_AUTH || !sb) return false;
+    const session = window.RELAW_AUTH.getSession();
+    if (!session) return false;
+    try {
+      const { data, error } = await sb
+        .from("case_valuation_purchases")
+        .select("id")
+        .limit(1)
+        .maybeSingle();
+      if (error) return false;
+      return !!data;
+    } catch (e) {
+      return false;
+    }
+  }
+
+  function upsellHtml() {
+    const session = window.RELAW_AUTH && window.RELAW_AUTH.getSession();
+    if (!session) {
+      return `
+        <div class="gate-card">
+          <div class="eyebrow" style="margin-bottom:8px;">Free account required</div>
+          <h3 style="margin-bottom:8px;">Sign in to see the full breakdown</h3>
+          <p class="text-secondary" style="font-size:13.5px; line-height:1.6; margin-bottom:16px;">The net position above is free for everyone. The claim-by-claim analysis with citations, the cost-to-litigate comparison, and the PDF report require a free account and the full-access plan.</p>
+          <button type="button" class="btn btn-primary btn-sm" id="cv-signin-btn">Sign in to continue</button>
+        </div>`;
+    }
+    const buyBtn = STRIPE_PAYMENT_LINK_URL
+      ? `<a href="${STRIPE_PAYMENT_LINK_URL}" target="_blank" rel="noopener" class="btn btn-primary btn-sm">Unlock Full Access</a>`
+      : `<a href="contact.html?matter=${encodeURIComponent("Litigation Value Estimator — full access")}" class="btn btn-primary btn-sm">Contact Us to Purchase</a>`;
+    return `
+      <div class="gate-card eg-purchase-card">
+        <div class="eyebrow" style="margin-bottom:8px;">Full Access Required</div>
+        <h3 style="margin-bottom:4px;">See the full claim-by-claim analysis</h3>
+        <div class="eg-purchase-price">${PRICE_DISPLAY}</div>
+        <p class="text-secondary" style="font-size:13.5px; line-height:1.6; margin-bottom:18px;">Unlocks the claim-by-claim breakdown with real case citations, the cost-to-litigate and settlement comparison, and PDF report export — for every category, every matter.</p>
+        ${buyBtn}
+      </div>`;
+  }
+
   const CATEGORIES = [
     { slug: "lease-disputes", label: "Landlord-Tenant / Lease Disputes" },
     { slug: "lending-foreclosure", label: "Lending & Foreclosure" },
@@ -249,7 +300,7 @@
       </div>`;
   }
 
-  form.addEventListener("submit", (e) => {
+  form.addEventListener("submit", async (e) => {
     e.preventDefault();
     const slug = catSelect.value;
     if (!slug) return;
@@ -266,6 +317,25 @@
       return;
     }
 
+    resultsHost.innerHTML = `
+      <div class="cv-summary card">
+        <div class="eyebrow" style="margin-bottom:8px;">Net Position — ${side === "sideA" ? roles.sideA : roles.sideB} view</div>
+        <div class="cv-net">${V.fmtRange(net[0], net[1])}</div>
+        <p class="text-muted" style="font-size:12.5px;">Sum of applicable claims' expected values, from the ${side === "sideA" ? roles.sideA : roles.sideB}'s perspective. This is a probability-informed estimate, not a prediction of any specific outcome.</p>
+      </div>
+      <div id="cv-gated-content" style="margin-top:16px;"><div class="gate-card is-loading">Checking access…</div></div>
+    `;
+
+    const gatedSlot = document.getElementById("cv-gated-content");
+    const entitled = await checkEntitlement();
+
+    if (!entitled) {
+      gatedSlot.innerHTML = upsellHtml();
+      const signInBtn = document.getElementById("cv-signin-btn");
+      if (signInBtn && window.RELAW_AUTH) signInBtn.addEventListener("click", () => window.RELAW_AUTH.openSignInModal());
+      return;
+    }
+
     let costHtml = "";
     let costData = null;
     if (window.RELAW_VALUATION_COSTS) {
@@ -276,11 +346,8 @@
       costData = { costEstimate, netAfterCosts, comparison };
     }
 
-    resultsHost.innerHTML = `
-      <div class="cv-summary card">
-        <div class="eyebrow" style="margin-bottom:8px;">Net Position — ${side === "sideA" ? roles.sideA : roles.sideB} view</div>
-        <div class="cv-net">${V.fmtRange(net[0], net[1])}</div>
-        <p class="text-muted" style="font-size:12.5px; margin-bottom:16px;">Sum of applicable claims' expected values, from the ${side === "sideA" ? roles.sideA : roles.sideB}'s perspective. This is a probability-informed estimate, not a prediction of any specific outcome — see the per-claim breakdown and cited cases below.</p>
+    gatedSlot.innerHTML = `
+      <div class="card" style="padding:20px;">
         <button type="button" class="btn btn-ghost btn-sm" id="cv-download-report">
           Download PDF Report
           <svg viewBox="0 0 24 24" fill="none" width="16" height="16"><path d="M12 3v12m0 0l-4-4m4 4l4-4M5 21h14" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
