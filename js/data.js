@@ -989,6 +989,37 @@ const RELAW_DATA = {
         { when: "August 21, 2026", label: "Bhatnagar and 9 New York Ave LLC file fraud suit against JLL in Cook County Circuit Court",  current: true }
       ],
       tags: ["broker fraud", "NOI projections", "debt yield", "construction lending", "multifamily"]
+    },
+    {
+      id: "live-036",
+      addedDate: "2026-08-22",
+      title: "Wilmington Trust National Association v. Rubenstein Partners (312 Elm Street Office Tower Foreclosure)",
+      category: "lending-foreclosure",
+      status: "pending",
+      date: "2026-08-12",
+      jurisdiction: "Hamilton County Court of Common Pleas, Ohio",
+      state: "OH",
+      amount: "$39.6M sought on 312 Elm St.; companion suit seeks $16M+ on 312 Plum St.'s $18.4M loan",
+      source: "live",
+      sourceUrl: "https://www.colliers.com/en/news/cincinnati/receiver-appointed-for-prominent-downtown-office-building-facing-foreclosure",
+      summary: "Philadelphia-based Rubenstein Partners admitted in an August 12, 2026 answer that it defaulted on the $46.1M mortgage securing 312 Elm Street, a 26-story downtown Cincinnati office tower, after lender Wilmington Trust National Association sued to foreclose on June 7 seeking $39.6M. A court-appointed receiver, Paul Plattner of Colliers Real Estate Management Services, took over the property last month — the third downtown Cincinnati office building to enter receivership this cycle. The same lender sued the same sponsor over a second tower it acquired in the identical 2015 transaction, 312 Plum Street, in December 2024.",
+      significance: "Two related foreclosures against the same sponsor by the same lender, both admitted or well advanced, signal structural rather than asset-specific distress and typically move faster to judgment and sheriff's sale than a single isolated default. Owners, lenders, and receivers tracking CBD office distress should treat concentrated multi-loan defaults by one sponsor, and receivership appointments generally, as leading indicators of which buildings are headed for a lender-driven sale rather than a workout.",
+      body: [
+        "Philadelphia-based real estate investment firm Rubenstein Partners has admitted, in an August 12, 2026 answer filed in the Hamilton County Court of Common Pleas, that it defaulted on the $46.1 million mortgage loan secured by 312 Elm Street, a 26-story, 378,000-square-foot office tower in downtown Cincinnati. The admission comes just over two months after lender Wilmington Trust National Association, a Delaware-based affiliate of M&T Bank Corp., filed suit on June 7, 2026 seeking to foreclose and recover $39.6 million in outstanding principal, interest, late charges, and fees. It is the second time in under two years that the same lender has sued the same sponsor over a Cincinnati office tower acquired in the same 2015 transaction, deepening a foreclosure wave that has now touched five downtown high-rises.",
+        "The 312 Elm Street tower, completed in 1992 and ranked as downtown Cincinnati's 15th-largest office building, is roughly 45.7% occupied. A court-appointed receiver, Paul Plattner of Colliers Real Estate Management Services, took over day-to-day management of the property last month, making 312 Elm the third downtown Cincinnati office building to pass into receivership this cycle, joining the historic Netherland Plaza Hotel and the tower at 600 Vine Street.",
+        "The Elm Street case does not stand alone. Wilmington Trust, holding a separate note originated the same year, sued Rubenstein Partners in the same Hamilton County court on December 30, 2024 over 312 Plum Street, a smaller, 12-story tower a block away that the Cincinnati Enquirer occupied as its headquarters until relocating to Plum Street itself in February 2023. That suit alleges Rubenstein owes more than $16 million on an original $18.4 million loan and separately claims the ownership entity fell delinquent on payments to vendors servicing the property. Rubenstein acquired both buildings in a single 2015 transaction, financed the purchases with loans that ultimately landed in the same lender's hands, and now faces materially identical default allegations on both.",
+        "Litigating two related foreclosures against the same sponsor in the same courthouse offers a lender procedural efficiencies, but it also signals something more significant to the market: a single sponsor relationship generating cascading defaults across a concentrated local portfolio, often a leading indicator that the borrower's distress is structural rather than tied to any one building's performance. Rubenstein's unqualified admission in its Elm Street answer, acknowledging every allegation including the default itself, forecloses factual disputes and narrows the litigation to remedy, positioning the case for a comparatively fast path to judgment and eventual sheriff's sale — a trajectory the Plum Street matter, filed a year and a half earlier, is already further along.",
+        "The Cincinnati towers are not an isolated episode. Local commercial real estate reporting has tallied 312 Elm as the fifth downtown high-rise office building to face a foreclosure action in the current cycle, part of a broader pattern of special servicers and institutional lenders moving from forbearance to litigation more quickly as anchor-tenant departures, elevated debt costs, and depressed appraisals continue to erode office collateral values.",
+        "Owners and lenders should treat parallel defaults by a single sponsor across multiple, otherwise-unrelated loans as a structural distress signal warranting portfolio-level diligence rather than asset-by-asset triage. Sponsors weighing whether to contest or concede a foreclosure complaint should recognize that an unqualified admission, as Rubenstein filed here, accelerates the case toward judgment and receivership and forecloses later factual defenses, so the decision merits the same scrutiny as a settlement — and market participants tracking CBD office distress would do well to watch receivership appointments as an early, increasingly reliable signal of which buildings are headed for a lender-driven sale rather than a negotiated workout."
+      ],
+      timeline: [
+        { when: "2015", label: "Rubenstein Partners acquires both 312 Elm St. and 312 Plum St. in a single transaction, financed with separate mortgage loans" },
+        { when: "December 30, 2024", label: "Wilmington Trust sues Rubenstein Partners to foreclose on 312 Plum St. over $16M+ in alleged debt" },
+        { when: "June 7, 2026", label: "Wilmington Trust sues to foreclose on 312 Elm St., seeking $39.6M" },
+        { when: "July 2026", label: "Court appoints Paul Plattner of Colliers as receiver for 312 Elm St." },
+        { when: "August 12, 2026", label: "Rubenstein Partners files an answer admitting every allegation, including the default", current: true }
+      ],
+      tags: ["foreclosure", "office", "receivership", "loan default", "distress"]
     }
   ],
 
