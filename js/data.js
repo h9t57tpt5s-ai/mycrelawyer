@@ -16,7 +16,7 @@ const RELAW_DATA = {
      Drives the homepage's "New Today" pill: it only shows when this
      equals the visitor's local today. Updated by the digest automation
      each time Step 4 successfully adds a case — never touched otherwise. */
-  lastUpdatedDate: "2026-08-21",
+  lastUpdatedDate: "2026-08-22",
   categories: [
     { id: "landlord-tenant", label: "Landlord–Tenant", color: "var(--cat-landlord)" },
     { id: "zoning-land-use", label: "Zoning & Land Use", color: "var(--cat-zoning)" },
@@ -961,6 +961,34 @@ const RELAW_DATA = {
         { when: "July 31, 2026", label: "D.C. Superior Court enters a $118.7M judgment, trebled to roughly $356.1M under the CPPA, plus attorneys' fees to be determined", current: true }
       ],
       tags: ["construction defect", "REIT", "condominium litigation", "consumer protection", "treble damages"]
+    },
+    {
+      id: "live-035",
+      addedDate: "2026-08-22",
+      title: "Bhatnagar v. Jones Lang LaSalle Americas, Inc. (D.C. Apartment Tower NOI Fraud Suit)",
+      category: "lending-foreclosure",
+      status: "filed",
+      date: "2026-08-21",
+      jurisdiction: "Circuit Court of Cook County, Illinois",
+      state: "IL",
+      amount: "$12M+ sought; alleged ~$20M shortfall between JLL's implied valuation and the property's April 2026 sale price",
+      source: "live",
+      sourceUrl: "https://www.law360.com/real-estate-authority/residential/articles/2515929/jll-hit-with-developer-s-12m-fraud-suit-over-dc-project",
+      summary: "Developer Rishi Bhatnagar and property owner 9 New York Ave LLC sued Jones Lang LaSalle Americas, Inc. in the Circuit Court of Cook County on August 21, alleging JLL fraudulently inflated its stabilized net operating income projection for a 14-story apartment tower at 9 New York Avenue NW in Washington, D.C. specifically to help the deal clear a construction lender's minimum debt-yield covenant. The complaint alleges JLL's $2,036,354 NOI figure implied a $50,997,681 valuation, but the property sold in April 2026 for only about $30.5 million, close to the developer's own original 2020 estimate, and seeks more than $12 million in damages. JLL points to a separate letter agreement it says limits any claims to a brokerage-fee dispute, which the plaintiffs contest.",
+      significance: "Tests whether a brokerage's borrower-side income projections, prepared to help a deal clear a lender's underwriting threshold, can expose the firm to fraud liability beyond an ordinary negligent-underwriting claim. Because construction and bridge lenders routinely rely on the sponsor's own broker to generate the NOI figures used to size a loan, the dispute is a cautionary marker for developers, lenders, and brokerages about projections that conveniently clear a covenant threshold and then substantially miss in practice.",
+      body: [
+        "A Chicago-based developer and the entity that owned a Washington, D.C. apartment project have sued Jones Lang LaSalle Americas, Inc. for more than $12 million, alleging the brokerage giant fraudulently inflated the property's projected net operating income specifically to help the deal clear a construction lender's minimum debt-yield requirement. The complaint, filed by developer Rishi Bhatnagar and property owner 9 New York Ave LLC in the Circuit Court of Cook County, Illinois on August 21, 2026, centers on a 14-story luxury multifamily tower at 9 New York Avenue NW in Washington. It is a pointed test of how far a brokerage's advisory role in underwriting a deal can expose it to fraud liability when a lender-driven number turns out to have been aspirational rather than analytical.",
+        "According to the complaint, the plaintiffs originally acquired the land beneath the project for $4.6 million and, relying on financial projections JLL prepared in its capacity as the project's underwriting and advisory broker, went on to pour more than $13 million into the development. The suit's central allegation is not simply that JLL's numbers were wrong, but that they were revised upward on a schedule that tracked the lender's needs rather than the market: plaintiffs allege JLL repeatedly increased its projected stabilized NOI figure, ultimately settling on $2,036,354, specifically because a lower, more defensible number would not have cleared the construction lender's minimum debt-yield covenant. A building whose honestly underwritten income cannot clear a lender's debt-yield floor either has to be financed with less leverage or cannot be financed on the proposed terms at all, and the complaint frames JLL's repeated upward revisions as a workaround engineered to avoid that outcome rather than an honest reassessment of the asset's prospects.",
+        "The gap between projection and reality, as pled, is stark. The complaint alleges the building's actual stabilized operating performance fell far short of JLL's $2,036,354 NOI projection and landed close to the developer's own, far more conservative 2020 estimate. The property was ultimately sold in April 2026 for approximately $30.5 million, a price that came within roughly 2% of the developer's original 2020 valuation but landed nearly $20 million below the $50,997,681 valuation JLL's inflated NOI figure had implied. That shortfall is the rough basis for the more-than-$12-million damages figure the plaintiffs are now seeking.",
+        "JLL has signaled it intends to contest both the underlying fraud theory and the case's scope. Court filings indicate the brokerage has pointed to a separate letter agreement between JLL and Bhatnagar individually, not signed by 9 New York Ave LLC, the property-owning entity, that JLL contends governs the parties' relationship and limits any claims to a dispute over brokerage fees. The plaintiffs dispute that characterization, arguing the letter agreement's scope is confined to fee arrangements and does not reach, let alone release, the fraud and misrepresentation claims now before the court. That threshold argument, if JLL presses it as a motion to dismiss or for summary judgment, could resolve the case on contractual-scope grounds well before any fact-finder reaches the merits of the NOI allegations.",
+        "For commercial real estate lenders, developers, and the brokerages that sit between them, the case is a reminder that a project's financial narrative typically has more than one author. Construction and bridge lenders routinely condition proceeds on income projections that a borrower's own broker prepares or blesses, which puts that broker in an unusually consequential position: the same firm advising the sponsor on lease-up and disposition strategy is often also the source of the number a lender relies on to size its loan. When a project's real-world performance diverges sharply from a projection that happened to land just above a covenant threshold, as alleged here, that convergence of timing and magnitude is exactly the kind of circumstantial pattern that can support a fraud claim rather than a garden-variety negligent-underwriting dispute, which is typically far harder to plead and litigate.",
+        "Developers and property owners who rely on a broker's financial projections to secure construction or bridge financing would be well served to independently stress-test those numbers, ideally against a second, unaffiliated source, before they become the basis for a loan-sizing decision, and to preserve the drafting history of any projection that shifts materially over the course of underwriting. Sponsors negotiating engagement or fee letters with brokerage advisers should scrutinize how narrowly those agreements define the broker's role and any liability waivers, since a counterparty may later argue such a letter caps exposure to fee disputes alone. And lenders that condition loan proceeds on broker-prepared NOI projections should consider requiring underwriting certifications or independent verification where the broker has an ongoing commercial relationship with the borrower, particularly when a projection sits just above a debt-yield or DSCR covenant threshold."
+      ],
+      timeline: [
+        { when: "April 2026", label: "Property sells for approximately $30.5 million, nearly $20 million below JLL's implied valuation" },
+        { when: "August 21, 2026", label: "Bhatnagar and 9 New York Ave LLC file fraud suit against JLL in Cook County Circuit Court",  current: true }
+      ],
+      tags: ["broker fraud", "NOI projections", "debt yield", "construction lending", "multifamily"]
     }
   ],
 
@@ -1267,7 +1295,8 @@ const RELAW_DATA = {
     { jurisdiction: "U.S. District Court, District of Maryland (Northern Division)", url: "https://www.mdd.uscourts.gov/" },
     { jurisdiction: "Alameda County Superior Court, California", url: "https://www.alameda.courts.ca.gov/" },
     { jurisdiction: "Supreme Court of the State of New York, Appellate Division, Second Department", url: "https://www.nycourts.gov/courts/ad2/" },
-    { jurisdiction: "Superior Court of New Jersey, Union County", url: "https://www.njcourts.gov/courts/vicinages/union" }
+    { jurisdiction: "Superior Court of New Jersey, Union County", url: "https://www.njcourts.gov/courts/vicinages/union" },
+    { jurisdiction: "Circuit Court of Cook County, Illinois", url: "https://www.cookcountycourt.org/" }
   ],
 
   /* Judges — background on every judge named in our sourced reporting (never
@@ -1378,6 +1407,7 @@ const RELAW_DATA = {
     { name: "Travelers", slug: "travelers", description: "Commercial property and casualty insurance carrier.", website: "https://www.travelers.com" },
     { name: "Columbia Falls Aluminum Company", matchTerm: "Columbia Falls Aluminum", slug: "columbia-falls-aluminum", description: "Former Montana aluminum smelter operator, now managing legacy Superfund cleanup liability at the site." },
     { name: "Penn-Florida Companies", matchTerm: "Penn-Florida", slug: "penn-florida-companies", description: "Boca Raton-based luxury real estate developer active in mixed-use, residential, and hospitality projects across South Florida.", website: "https://pennflorida.com" },
-    { name: "U.S. Bank National Association", matchTerm: "U.S. Bank", slug: "us-bank-national-association", description: "National bank that frequently serves as trustee or administrative agent for CMBS trusts and lender groups in commercial foreclosure and receivership litigation.", website: "https://www.usbank.com" }
+    { name: "U.S. Bank National Association", matchTerm: "U.S. Bank", slug: "us-bank-national-association", description: "National bank that frequently serves as trustee or administrative agent for CMBS trusts and lender groups in commercial foreclosure and receivership litigation.", website: "https://www.usbank.com" },
+    { name: "Jones Lang LaSalle Incorporated", matchTerm: "JLL", slug: "jll", description: "NYSE-listed global commercial real estate brokerage and investment management firm.", website: "https://www.jll.com" }
   ]
 };
