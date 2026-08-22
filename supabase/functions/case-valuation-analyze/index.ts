@@ -179,7 +179,25 @@ Deno.serve(async (req) => {
   //      bottom-line call on likely outcome and damages. Framed
   //      explicitly as a probability-weighted prediction, per the
   //      earlier framing discussion -- not styled as an adjudication.
-  //   3. Return { extractedFacts, analysis } to the client.
+  //   3. Return 200 with a body shaped exactly like this -- the front
+  //      end (js/case-valuation-ai.js -> renderAnalysisResult) already
+  //      expects this contract, so no client change should be needed
+  //      once this is filled in:
+  //        {
+  //          extractedFacts: { ...same keys the manual-entry engine's
+  //                             QUESTIONS[category] uses, e.g.
+  //                             monthlyRent, unpaidRentAmount, etc... },
+  //          analysis: {
+  //            narrative: string,          // the reasoned writeup
+  //            likelyOutcome: string,       // short bottom-line summary
+  //            damagesRange: [number, number],
+  //            probability: number,         // 0-1
+  //            citedCases: [{ caseName, sourceUrl, year, dollarAmount }]
+  //          }
+  //        }
+  //      On failure, keep using jsonResponse({ error, code }, status) --
+  //      the client already handles 402/429/501 distinctly and falls
+  //      back to a generic error message for anything else.
 
   return jsonResponse({ error: "Not yet implemented" }, 501);
 });

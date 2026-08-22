@@ -183,6 +183,24 @@
   </div>
 </section>
 
+<section class="section-tight">
+  <div class="container">
+    <div class="section-head reveal">
+      <div>
+        <div class="eyebrow">AI Document Analysis</div>
+        <h2 style="font-size:clamp(1.4rem,2.2vw,1.9rem);">Upload your pleadings, get an AI-generated analysis</h2>
+      </div>
+      <span class="badge" style="background:color-mix(in srgb, var(--status-pending) 16%, transparent); color:var(--status-pending); border:1px solid color-mix(in srgb, var(--status-pending) 40%, transparent);">
+        <span class="badge-dot" style="background:var(--status-pending)"></span>Beta — requires analysis credits
+      </span>
+    </div>
+    <div class="card reveal" style="padding:28px;">
+      <p class="text-secondary" style="font-size:13.5px; line-height:1.7; margin-bottom:20px;">Upload a pleading (complaint, answer, motion) or paste its text, and it's analyzed against the same cited-case framework as the tool above — a probability-weighted prediction of likely outcome and damages, not a legal opinion or a substitute for counsel. Nothing you upload is stored — only the extracted text is sent for analysis.</p>
+      <div id="cv-ai-gate-host"><div class="gate-card is-loading">Loading…</div></div>
+    </div>
+  </div>
+</section>
+
 <section class="newsletter-band">
   <div class="container">
     <div class="newsletter-card">
@@ -257,5 +275,8 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
 <script src="js/case-valuation-report.js"></script>
 <script src="js/case-valuation.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mammoth/1.6.0/mammoth.browser.min.js"></script>
+<script src="js/case-valuation-ai.js"></script>
 </body>
 </html>
