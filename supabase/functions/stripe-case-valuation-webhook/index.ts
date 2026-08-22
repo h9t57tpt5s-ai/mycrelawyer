@@ -27,18 +27,20 @@
 //   name: stripe-case-valuation-webhook
 //   paste this file's contents, deploy.
 //
-// Secrets needed (Dashboard -> Edge Functions -> stripe-case-valuation-webhook
-//   -> Secrets):
-//   STRIPE_WEBHOOK_SECRET   -- from a NEW Stripe webhook endpoint (Stripe
-//                              Dashboard -> Developers -> Webhooks -> Add
-//                              endpoint -> URL below -> select event
-//                              "checkout.session.completed" -> copy the
-//                              "Signing secret", starts with whsec_).
-//                              This must be a SEPARATE webhook endpoint
-//                              from the handbook's -- each Payment Link's
-//                              checkout.session.completed event needs to
-//                              land at the function that knows what table
-//                              to write to.
+// Secrets needed (Dashboard -> Edge Functions -> Secrets, project-wide):
+//   STRIPE_CASE_VALUATION_WEBHOOK_SECRET   -- from a NEW Stripe webhook
+//                              endpoint (Stripe Dashboard -> Developers ->
+//                              Webhooks -> Add destination -> URL below ->
+//                              select event "checkout.session.completed"
+//                              -> copy the "Signing secret", starts with
+//                              whsec_).
+//                              NOTE: Supabase Edge Function secrets are
+//                              shared across the WHOLE PROJECT, not scoped
+//                              per function -- the handbook webhook already
+//                              uses the plain name STRIPE_WEBHOOK_SECRET,
+//                              so this one MUST use a different name or it
+//                              will silently overwrite the handbook's and
+//                              break that payment flow.
 // SUPABASE_URL and SUPABASE_SERVICE_ROLE_KEY are injected automatically
 // by Supabase for every Edge Function -- do not set those yourself.
 //
@@ -55,7 +57,9 @@ import { createClient } from "npm:@supabase/supabase-js@2";
 // metadata through checkout.session.completed by default.
 const ONE_TIME_CREDITS = 10;
 
-const STRIPE_WEBHOOK_SECRET = Deno.env.get("STRIPE_WEBHOOK_SECRET") ?? "";
+// Deliberately NOT named STRIPE_WEBHOOK_SECRET -- that name is already
+// taken project-wide by the handbook webhook's secret. See header comment.
+const STRIPE_WEBHOOK_SECRET = Deno.env.get("STRIPE_CASE_VALUATION_WEBHOOK_SECRET") ?? "";
 
 const supabaseAdmin = createClient(
   Deno.env.get("SUPABASE_URL") ?? "",

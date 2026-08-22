@@ -14,8 +14,8 @@
   // Create a Stripe Payment Link for the Litigation Value Estimator's full
   // tier (one-time or subscription — either works, the webhook doesn't care)
   // and paste its URL here. Same pattern as js/eviction-guide.js.
-  const STRIPE_PAYMENT_LINK_URL = ""; // e.g. "https://buy.stripe.com/xxxxxxxx"
-  const PRICE_DISPLAY = "$49/mo"; // suggested — update to match the Payment Link
+  const STRIPE_PAYMENT_LINK_URL = "https://buy.stripe.com/dRm9AL34yaOSeLJetz1B601";
+  const PRICE_DISPLAY = "$49 one-time — 10 analysis credits";
   // --------------------------------------------------------------------------
 
   const sb = window.RELAW_SUPABASE;
