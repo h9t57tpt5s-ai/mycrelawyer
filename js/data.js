@@ -16,7 +16,7 @@ const RELAW_DATA = {
      Drives the homepage's "New Today" pill: it only shows when this
      equals the visitor's local today. Updated by the digest automation
      each time Step 4 successfully adds a case — never touched otherwise. */
-  lastUpdatedDate: "2026-08-22",
+  lastUpdatedDate: "2026-08-23",
   categories: [
     { id: "landlord-tenant", label: "Landlord–Tenant", color: "var(--cat-landlord)" },
     { id: "zoning-land-use", label: "Zoning & Land Use", color: "var(--cat-zoning)" },
@@ -1020,6 +1020,36 @@ const RELAW_DATA = {
         { when: "August 12, 2026", label: "Rubenstein Partners files an answer admitting every allegation, including the default", current: true }
       ],
       tags: ["foreclosure", "office", "receivership", "loan default", "distress"]
+    },
+    {
+      id: "live-037",
+      addedDate: "2026-08-23",
+      title: "Wilmington Trust, N.A. v. Caerus Group Affiliate (10 East 34th Street CMBS Foreclosure)",
+      category: "lending-foreclosure",
+      status: "filed",
+      date: "2026-08-18",
+      jurisdiction: "U.S. District Court for the Southern District of New York",
+      state: "NY",
+      amount: "$37.5M mortgage; lender also seeks immediate appointment of a receiver",
+      source: "live",
+      sourceUrl: "https://therealdeal.com/new-york/2026/08/18/lender-sues-to-foreclose-on-midtown-office-building/",
+      summary: "Wilmington Trust, National Association, as trustee for the BANK 2018-BNK13 CMBS trust, sued to foreclose on 10 East 34th Street, a 55,000-square-foot Midtown Manhattan office building owned by an affiliate of Leo Tsimmer's Caerus Group, after the borrower stopped making payments on its $37.5 million mortgage on April 1, 2026. Loan servicer Trimont had sent a default letter on May 6 demanding over $500,000 to cure the missed payments, which went unpaid. The complaint, filed in the Southern District of New York, also seeks immediate appointment of a receiver to take over the building's management and leasing.",
+      significance: "Illustrates how quickly a CMBS special servicer can move from a monetary default to a foreclosure complaint bundled with a receivership request, leaving little runway for an informal workout once a major tenant's non-payment cascades into a loan default. Owners of similarly leveraged, late-2010s-vintage Manhattan office assets should treat a large tenant's rent delinquency as an urgent threat to loan compliance rather than a manageable cash-flow gap.",
+      body: [
+        "A commercial mortgage-backed securities trustee has sued to foreclose on a 10-story office building steps from the Empire State Building, after its ownership group stopped making payments on a $37.5 million loan amid a sharp, multi-year slide in occupancy. The case, filed in the U.S. District Court for the Southern District of New York, shows how a leasing downturn at a single Midtown asset can move from missed rent to missed debt service to a courtroom foreclosure complaint in a matter of months.",
+        "The building, 10 East 34th Street, sits between Fifth and Madison Avenues in a corridor once anchored by garment-industry tenants and now competing for a shrinking pool of small and mid-sized office users. Leo Tsimmer's Caerus Group acquired the roughly 55,000-square-foot property for $51.7 million in 2016, financing the purchase two years later with a 10-year, $37.5 million mortgage originated by Morgan Stanley. That loan was securitized into the BANK 2018-BNK13 commercial mortgage trust, for which Wilmington Trust, National Association now serves as trustee on behalf of the trust's bondholders.",
+        "According to the lender's complaint, the ownership entity stopped making its monthly debt-service payments on April 1, 2026. The loan's servicer, Trimont, sent a default letter on May 6 demanding more than $500,000 to cure the missed April and May installments, an amount the borrower did not pay. The trustee's suit asks the court not only to foreclose on the mortgage but to immediately appoint a receiver to take over management and leasing of the property while the litigation proceeds, reflecting how little confidence the lender has that the existing ownership can stabilize the asset on its own.",
+        "The underlying driver of the default, as the lender frames it, is occupancy. The building's tenancy has reportedly deteriorated sharply over the past two years, and its largest remaining tenant is alleged to have stopped paying rent for several months before the mortgage default began, a cascading failure in which a single anchor tenant's non-payment can be enough to tip a modestly leveraged, older office asset into loan default. For CMBS-structured loans specifically, the mechanics of a workout are also more constrained than with a balance-sheet lender, since a special servicer acting on behalf of dispersed bondholders has less flexibility to grant an informal forbearance and often moves toward litigation and receivership more quickly once a monetary default matures past a short cure period, exactly the sequence on display here, where roughly three and a half months separated the initial missed payment from a receivership request in federal court.",
+        "Owners of comparably sized, comparably leveraged Manhattan office assets financed in the late-2010s vintage should treat a major tenant's rent delinquency as an urgent, not a manageable, problem, since the gap between a tenant's stopped payments and a lender's own acceleration and foreclosure timeline has compressed considerably as special servicers grow less patient with drawn-out workouts. Sponsors facing a maturing or underperforming CMBS loan should also assume that any request for forbearance will be evaluated against the servicer's own receivership option, meaning a credible, well-documented re-leasing or capital plan, not simply a promise to catch up on payments, is typically what determines whether informal relief is on the table at all, and because receivership requests are now frequently bundled directly into the initial foreclosure complaint rather than sought later in the litigation, ownership groups should expect operational control of a distressed asset to be at risk from the earliest stage of a lender's court filing, not just after a final foreclosure judgment."
+      ],
+      timeline: [
+        { when: "2016", label: "Caerus Group acquires 10 East 34th Street for $51.7M" },
+        { when: "2018", label: "Morgan Stanley originates the $37.5M mortgage, later securitized into the BANK 2018-BNK13 CMBS trust" },
+        { when: "April 1, 2026", label: "Borrower stops making monthly debt-service payments" },
+        { when: "May 6, 2026", label: "Servicer Trimont sends default letter demanding over $500,000 to cure missed payments" },
+        { when: "August 18, 2026", label: "Wilmington Trust sues to foreclose and seeks appointment of a receiver", current: true }
+      ],
+      tags: ["foreclosure", "CMBS", "office", "receivership", "loan default"]
     }
   ],
 
@@ -1439,6 +1469,7 @@ const RELAW_DATA = {
     { name: "Columbia Falls Aluminum Company", matchTerm: "Columbia Falls Aluminum", slug: "columbia-falls-aluminum", description: "Former Montana aluminum smelter operator, now managing legacy Superfund cleanup liability at the site." },
     { name: "Penn-Florida Companies", matchTerm: "Penn-Florida", slug: "penn-florida-companies", description: "Boca Raton-based luxury real estate developer active in mixed-use, residential, and hospitality projects across South Florida.", website: "https://pennflorida.com" },
     { name: "U.S. Bank National Association", matchTerm: "U.S. Bank", slug: "us-bank-national-association", description: "National bank that frequently serves as trustee or administrative agent for CMBS trusts and lender groups in commercial foreclosure and receivership litigation.", website: "https://www.usbank.com" },
-    { name: "Jones Lang LaSalle Incorporated", matchTerm: "JLL", slug: "jll", description: "NYSE-listed global commercial real estate brokerage and investment management firm.", website: "https://www.jll.com" }
+    { name: "Jones Lang LaSalle Incorporated", matchTerm: "JLL", slug: "jll", description: "NYSE-listed global commercial real estate brokerage and investment management firm.", website: "https://www.jll.com" },
+    { name: "Wilmington Trust National Association", matchTerm: "Wilmington Trust", slug: "wilmington-trust-national-association", description: "National bank and trust company that frequently serves as trustee for CMBS trusts and bondholders in commercial mortgage foreclosure litigation.", website: "https://www.wilmingtontrust.com" }
   ]
 };
