@@ -16,7 +16,7 @@ const RELAW_DATA = {
      Drives the homepage's "New Today" pill: it only shows when this
      equals the visitor's local today. Updated by the digest automation
      each time Step 4 successfully adds a case — never touched otherwise. */
-  lastUpdatedDate: "2026-08-23",
+  lastUpdatedDate: "2026-08-24",
   categories: [
     { id: "landlord-tenant", label: "Landlord–Tenant", color: "var(--cat-landlord)" },
     { id: "zoning-land-use", label: "Zoning & Land Use", color: "var(--cat-zoning)" },
@@ -1079,6 +1079,37 @@ const RELAW_DATA = {
         { when: "July 13, 2026", label: "UMB Bank files leasehold foreclosure and receivership complaint in Palm Beach County Circuit Court", current: true }
       ],
       tags: ["lending-foreclosure", "conduit bonds", "healthcare real estate", "receivership", "municipal finance"]
+    },
+    {
+      id: "live-039",
+      addedDate: "2026-08-24",
+      title: "148 State Street Owner v. City of Boston (Commercial Assessment \"Add-Back Policy\" Retaliation Class Action)",
+      category: "zoning-land-use",
+      status: "ruling",
+      date: "2026-08-18",
+      jurisdiction: "Massachusetts Superior Court, Suffolk County (Business Litigation Session)",
+      judge: "Peter B. Krupp",
+      state: "MA",
+      amount: "~$19M in disputed additional taxes across 150 properties (182 instances)",
+      source: "live",
+      sourceUrl: "https://bankerandtradesman.com/boston-increased-assessments-on-150-properties-after-appeals/",
+      summary: "Discovery produced by Boston's Assessing Department confirms that assessments rose on 150 commercial properties, in 182 separate instances, after their owners appealed to the state Appellate Tax Board between fiscal years 2023 and 2025 — the first documentary confirmation of the 'Add-Back Policy' alleged in a class action filed by the owner of 148 State Street. Business Litigation Session Judge Peter B. Krupp denied the city's motion to dismiss in May, finding the policy 'plausibly chills all commercial property owners from exercising their right to seek an abatement,' and the city's longtime Assessing Commissioner departed shortly after.",
+      significance: "Establishes that a municipality's post-appeal re-assessment practice can be independently actionable under First Amendment retaliation and state uniform-taxation theories, not merely relevant evidence in the underlying abatement proceeding — a template exportable to any jurisdiction facing valuation-appeal waves tied to softening office values. Commercial owners and REITs across the roughly 150 identified Boston properties, and counsel advising owners appealing assessments elsewhere, should watch the discovery and class-certification process closely.",
+      body: [
+        "A class action accusing the City of Boston of punishing commercial property owners for appealing their tax bills has moved from allegation to documentation. Discovery produced this month by the city's own Assessing Department confirms that assessments increased on 150 commercial properties, in 182 separate instances, after their owners filed appeals with the state Appellate Tax Board between fiscal years 2023 and 2025 — totaling roughly $19 million in additional disputed taxes, the first hard confirmation of a pattern the plaintiffs first alleged in a Suffolk Superior Court complaint filed last December.",
+        "The case, brought by the owner of 148 State Street, an 11-story office building in the Financial District, with backing from the Pioneer New England Legal Foundation and counsel from Sullivan & Worcester, targets what the complaint calls the city's Add-Back Policy. The suit alleges the Assessing Department systematically overrode its own CAMS valuation software for properties with an open Appellate Tax Board appeal, manually reinserting the higher prior-year assessed value through a discretionary-adjustment override rather than accepting the lower value the software otherwise generated, penalizing owners financially in the same fiscal year they exercised their statutory right to challenge a valuation.",
+        "The complaint asserts four claims: failure to determine fair cash value under Massachusetts General Laws Chapter 59, Section 2A(a); First Amendment retaliation for petitioning a government tribunal; denial of free access to the courts under Articles XI and XVI of the Massachusetts Declaration of Rights; and violation of the state constitution's requirement that property within a class be taxed proportionally and equally. It seeks a declaration that the policy is unlawful, an injunction against its continued use, and repayment of excess taxes collected in fiscal years 2024 and 2025.",
+        "The city moved to dismiss on exhaustion-of-administrative-remedies grounds. Judge Peter B. Krupp rejected that argument in a ruling issued in May, allowing the case to proceed to limited discovery on the existence and extent of the alleged policy, and finding that the mere existence of an Add-Back Policy plausibly chills all commercial property owners from exercising their right to seek an abatement — treating the deterrent effect on the broader ownership class, not just the named plaintiff, as legally cognizable harm. Weeks later, Nicholas Ariniello, the city's Commissioner of Assessing for seven years and a 20-year department veteran, announced his departure from City Hall amid the litigation.",
+        "The case is significant because it has cleared the pleading stage on constitutional theories that could migrate well beyond Massachusetts. Many jurisdictions are facing waves of commercial valuation appeals driven by post-pandemic office vacancy and softening values, and a judicially sanctioned theory that punitive re-assessment following an appeal is independently actionable gives owners a second front, distinct from the abatement proceeding itself, in jurisdictions with comparable constitutional protections. The Pioneer New England Legal Foundation has separately pressed the state Department of Revenue to investigate Boston's valuation practices; the Commissioner of Revenue has so far declined, saying his office could not substantiate the claims, leaving the Superior Court litigation as the primary vehicle for scrutiny.",
+        "For owners navigating similar disputes, the practical upshot is that aggregated, discoverable data showing a citywide pattern — not any single owner's anecdote — is what carried this case past dismissal, so commercial owners appealing valuations should preserve records tying any post-appeal assessment change to the timing of their own filings. Assessing departments and their counsel elsewhere would do well to audit whether informal override fields in valuation software could support an inference of retaliatory intent even where individual adjustments were made in good faith, while owners across the identified Boston properties, and any similarly situated owner in a jurisdiction with an open appeal, should watch the discovery period — typically eight months to a year in a Business Litigation Session matter — and any subsequent class-certification ruling, since those next milestones will determine whether real recovery follows the finding that the policy is actionable."
+      ],
+      timeline: [
+        { when: "December 17, 2025", label: "148 State Street's owner files class action against the City of Boston in Suffolk Superior Court" },
+        { when: "May 2026", label: "Judge Peter B. Krupp denies the city's motion to dismiss, allowing limited discovery into the Add-Back Policy" },
+        { when: "May 22, 2026", label: "Assessing Commissioner Nicholas Ariniello announces his departure amid the litigation" },
+        { when: "August 18, 2026", label: "City-produced discovery data confirms 150 properties and 182 instances of post-appeal assessment increases totaling ~$19M", current: true }
+      ],
+      tags: ["property tax", "assessment retaliation", "first amendment", "class action", "commercial office"]
     }
   ],
 
