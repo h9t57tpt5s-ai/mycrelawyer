@@ -120,6 +120,16 @@
       </div>`;
   }
 
+  function categoryRoles(slug) {
+    try {
+      // CASE_VALUATION_DATA is a top-level `const` in js/case-valuation-data.js
+      // -- a classic-script global lexical binding, not a window property.
+      return (typeof CASE_VALUATION_DATA !== "undefined") ? CASE_VALUATION_DATA.spec.categories[slug].roles : null;
+    } catch (e) {
+      return null;
+    }
+  }
+
   function uploadFormHtml(bal) {
     const catOptions = CATEGORIES.map((c) => `<option value="${c.slug}">${c.label}</option>`).join("");
     return `
@@ -127,27 +137,35 @@
         <span class="badge badge-live">${bal.remaining} of ${bal.total} credits remaining</span>
       </div>
       <form id="cv-ai-form">
-        <div class="cv-field">
-          <label for="cv-ai-category">Litigation category</label>
-          <select id="cv-ai-category" required>
-            <option value="">Select a category…</option>
-            ${catOptions}
-          </select>
+        <div class="cv-controls">
+          <div class="cv-field">
+            <label for="cv-ai-category">Litigation category</label>
+            <select id="cv-ai-category" required>
+              <option value="">Select a category…</option>
+              ${catOptions}
+            </select>
+          </div>
+          <div class="cv-field">
+            <label for="cv-ai-side">Which side do you represent?</label>
+            <select id="cv-ai-side">
+              <option value="">Let the AI determine from the documents</option>
+            </select>
+          </div>
         </div>
 
         <div class="cv-ai-dropzone" id="cv-ai-dropzone">
-          <input type="file" id="cv-ai-file" accept=".pdf,.docx,.txt" style="display:none;" />
+          <input type="file" id="cv-ai-file" accept=".pdf,.docx,.txt" multiple style="display:none;" />
           <div class="cv-ai-dropzone-inner">
             <svg viewBox="0 0 24 24" fill="none" width="26" height="26"><path d="M12 3v12m0 0l-4-4m4 4l4-4M5 21h14" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
-            <p><strong>Drop a pleading here</strong> or <button type="button" class="text-accent" id="cv-ai-browse-btn" style="background:none; border:none; padding:0; font:inherit; cursor:pointer; text-decoration:underline;">browse a file</button></p>
-            <p class="text-muted" style="font-size:12px;">PDF, .docx, or .txt — nothing is uploaded until you click Analyze, and the raw file is never stored.</p>
+            <p><strong>Drop pleadings here</strong> or <button type="button" class="text-accent" id="cv-ai-browse-btn" style="background:none; border:none; padding:0; font:inherit; cursor:pointer; text-decoration:underline;">browse files</button></p>
+            <p class="text-muted" style="font-size:12px;">PDF, .docx, or .txt — add as many as you have (the original petition, an answer, a counterclaim). Nothing is uploaded until you click Analyze, and no raw file is stored.</p>
           </div>
-          <p class="cv-ai-filename" id="cv-ai-filename"></p>
+          <div class="cv-ai-filelist" id="cv-ai-filelist"></div>
         </div>
 
         <div class="cv-field">
-          <label for="cv-ai-pastetext">Or paste the text directly</label>
-          <textarea id="cv-ai-pastetext" rows="6" placeholder="Paste the pleading's text here instead of uploading a file…"></textarea>
+          <label for="cv-ai-pastetext">Additional context or text (optional)</label>
+          <textarea id="cv-ai-pastetext" rows="4" placeholder="Paste any extra text here — it's added alongside the files above, or can be used on its own instead of uploading anything."></textarea>
         </div>
 
         <div class="cv-controls">
@@ -165,7 +183,7 @@
         </div>
 
         <button type="submit" class="btn btn-primary btn-sm" id="cv-ai-submit-btn">
-          Analyze Document
+          Analyze Documents
           <svg viewBox="0 0 24 24" fill="none"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
         </button>
       </form>
@@ -174,24 +192,39 @@
     `;
   }
 
+  function renderFileList(filenameEl, files) {
+    if (!files.length) { filenameEl.innerHTML = ""; return; }
+    filenameEl.innerHTML = files.map((f, i) => `
+      <span class="cv-ai-file-chip">${f.name}<button type="button" class="cv-ai-file-remove" data-idx="${i}" aria-label="Remove ${f.name}">&times;</button></span>
+    `).join("");
+  }
+
   function wireUploadForm(bal) {
     const form = document.getElementById("cv-ai-form");
     const fileInput = document.getElementById("cv-ai-file");
     const dropzone = document.getElementById("cv-ai-dropzone");
     const browseBtn = document.getElementById("cv-ai-browse-btn");
-    const filenameEl = document.getElementById("cv-ai-filename");
+    const filenameEl = document.getElementById("cv-ai-filelist");
     const pasteEl = document.getElementById("cv-ai-pastetext");
     const statusEl = document.getElementById("cv-ai-status");
     const resultsEl = document.getElementById("cv-ai-results");
     const submitBtn = document.getElementById("cv-ai-submit-btn");
+    const categorySelect = document.getElementById("cv-ai-category");
+    const sideSelect = document.getElementById("cv-ai-side");
 
-    let chosenFile = null;
+    let chosenFiles = [];
+
+    categorySelect.addEventListener("change", () => {
+      const roles = categoryRoles(categorySelect.value);
+      sideSelect.innerHTML = `<option value="">Let the AI determine from the documents</option>` +
+        (roles ? `<option value="sideA">${roles.sideA}</option><option value="sideB">${roles.sideB}</option>` : "");
+    });
 
     browseBtn.addEventListener("click", () => fileInput.click());
     fileInput.addEventListener("change", () => {
-      chosenFile = fileInput.files[0] || null;
-      filenameEl.textContent = chosenFile ? `Selected: ${chosenFile.name}` : "";
-      if (chosenFile) pasteEl.value = "";
+      chosenFiles = chosenFiles.concat(Array.from(fileInput.files || []));
+      fileInput.value = "";
+      renderFileList(filenameEl, chosenFiles);
     });
     ["dragover", "dragenter"].forEach((evt) =>
       dropzone.addEventListener(evt, (e) => { e.preventDefault(); dropzone.classList.add("is-dragover"); })
@@ -200,39 +233,45 @@
       dropzone.addEventListener(evt, (e) => { e.preventDefault(); dropzone.classList.remove("is-dragover"); })
     );
     dropzone.addEventListener("drop", (e) => {
-      const f = e.dataTransfer.files && e.dataTransfer.files[0];
-      if (f) {
-        chosenFile = f;
-        fileInput.files = e.dataTransfer.files;
-        filenameEl.textContent = `Selected: ${f.name}`;
-        pasteEl.value = "";
+      const dropped = Array.from((e.dataTransfer && e.dataTransfer.files) || []);
+      if (dropped.length) {
+        chosenFiles = chosenFiles.concat(dropped);
+        renderFileList(filenameEl, chosenFiles);
       }
     });
-    pasteEl.addEventListener("input", () => {
-      if (pasteEl.value.trim()) { chosenFile = null; fileInput.value = ""; filenameEl.textContent = ""; }
+    filenameEl.addEventListener("click", (e) => {
+      const btn = e.target.closest(".cv-ai-file-remove");
+      if (!btn) return;
+      chosenFiles.splice(parseInt(btn.getAttribute("data-idx"), 10), 1);
+      renderFileList(filenameEl, chosenFiles);
     });
 
     form.addEventListener("submit", async (e) => {
       e.preventDefault();
       resultsEl.innerHTML = "";
-      const category = document.getElementById("cv-ai-category").value;
+      const category = categorySelect.value;
       if (!category) { statusEl.textContent = "Select a litigation category first."; statusEl.className = "cv-ai-status is-error"; return; }
-      if (!chosenFile && !pasteEl.value.trim()) { statusEl.textContent = "Upload a file or paste the document text first."; statusEl.className = "cv-ai-status is-error"; return; }
+      if (!chosenFiles.length && !pasteEl.value.trim()) { statusEl.textContent = "Upload at least one file or paste the document text first."; statusEl.className = "cv-ai-status is-error"; return; }
 
       submitBtn.disabled = true;
       let documentText = "";
       try {
-        if (chosenFile) {
-          statusEl.textContent = "Extracting text from the document…";
+        const sections = [];
+        for (let i = 0; i < chosenFiles.length; i++) {
+          const f = chosenFiles[i];
+          statusEl.textContent = `Extracting text (${i + 1} of ${chosenFiles.length}: ${f.name})…`;
           statusEl.className = "cv-ai-status";
-          documentText = await extractText(chosenFile);
-        } else {
-          documentText = pasteEl.value.trim();
+          const text = await extractText(f);
+          if (text) sections.push(`=== Document ${i + 1}: ${f.name} ===\n${text}`);
         }
-        if (!documentText) throw new Error("No text could be extracted from that file — try pasting the text directly instead.");
+        if (pasteEl.value.trim()) {
+          sections.push(chosenFiles.length ? `=== Additional context ===\n${pasteEl.value.trim()}` : pasteEl.value.trim());
+        }
+        documentText = sections.join("\n\n");
+        if (!documentText) throw new Error("No text could be extracted — try pasting the text directly instead.");
         if (documentText.length > MAX_CHARS) {
           documentText = documentText.slice(0, MAX_CHARS);
-          statusEl.textContent = `Document truncated to the first ${MAX_CHARS.toLocaleString()} characters for analysis…`;
+          statusEl.textContent = `Combined document text truncated to the first ${MAX_CHARS.toLocaleString()} characters for analysis…`;
         } else {
           statusEl.textContent = "Analyzing…";
         }
@@ -250,6 +289,7 @@
           body: JSON.stringify({
             documentText,
             category,
+            userSide: sideSelect.value || null,
             expectToTrial: document.getElementById("cv-ai-expecttotrial").value === "true",
             settlementOnTable: parseFloat(document.getElementById("cv-ai-settlement").value) || null
           })

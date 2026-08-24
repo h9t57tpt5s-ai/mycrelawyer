@@ -612,7 +612,7 @@ Deno.serve(async (req) => {
   }
 
   // ---- Step 4: reserve the slot, THEN (and only then) call Claude ----
-  let requestBody: { documentText?: string; category?: string; expectToTrial?: boolean; settlementOnTable?: number | null };
+  let requestBody: { documentText?: string; category?: string; userSide?: "sideA" | "sideB" | null; expectToTrial?: boolean; settlementOnTable?: number | null };
   try {
     requestBody = await req.json();
   } catch {
@@ -649,13 +649,21 @@ Deno.serve(async (req) => {
     if (!catSpec) throw new Error("Category not found in case data");
 
     // ---- 4a. Extraction pass (Haiku 4.5, structured JSON, no thinking) ----
+    // documentText may contain more than one filing (e.g. the original
+    // petition AND an answer/counterclaim), concatenated client-side with
+    // "=== Document N: filename ===" section headers -- read across all
+    // of them and synthesize one consistent set of facts, since a fact
+    // like "does the tenant dispute the debt" typically only shows up in
+    // the answer, not the petition.
     const extraction = await anthropic.messages.create({
       model: EXTRACTION_MODEL,
       max_tokens: 2048,
       system:
-        `You extract structured facts from a commercial real estate litigation document for the "${catSpec.label}" category. ` +
-        `Only extract facts explicitly stated or very clearly implied in the document — output null for anything you can't determine, never guess. ` +
-        `Also determine "filingParty": whether the document was filed by/represents the "${catSpec.roles.sideA}" side or the "${catSpec.roles.sideB}" side (e.g. captions like "Plaintiff [name], as Landlord, alleges..." indicate sideA here is the ${catSpec.roles.sideA}).`,
+        `You extract structured facts from commercial real estate litigation document(s) for the "${catSpec.label}" category. ` +
+        `The user message may contain multiple filings from the same matter (e.g. an original petition and a later answer or counterclaim), separated by "=== Document N: ... ===" headers -- read all of them together as one case record and synthesize a single consistent set of facts; a later filing can add or update facts the earlier one didn't cover. ` +
+        `Only extract facts explicitly stated or very clearly implied in the document(s) — output null for anything you can't determine, never guess. ` +
+        `Also determine "filingParty": whether the ORIGINAL/first document represents the "${catSpec.roles.sideA}" side or the "${catSpec.roles.sideB}" side (e.g. captions like "Plaintiff [name], as Landlord, alleges..." indicate sideA here is the ${catSpec.roles.sideA}). If the user has told you separately which side they represent, that takes precedence over your own read of the caption.` +
+        (requestBody.userSide ? ` The user has stated they represent the "${requestBody.userSide === "sideA" ? catSpec.roles.sideA : catSpec.roles.sideB}" side — set filingParty to "${requestBody.userSide}" accordingly.` : ""),
       messages: [{ role: "user", content: documentText }],
       output_config: { format: { type: "json_schema", schema: buildExtractionSchema(category) } },
     });
@@ -676,7 +684,11 @@ Deno.serve(async (req) => {
 
     // ---- 4b. Deterministic engine — identical math to the manual tool ----
     const evalResult = evaluate(category, extractedFacts, data);
-    const filingParty = extractedFacts.filingParty === "sideB" ? "sideB" : "sideA";
+    // An explicit userSide from the form always wins over the AI's read of
+    // the document captions -- defense in depth beyond the prompt instruction above.
+    const filingParty = requestBody.userSide === "sideB" || requestBody.userSide === "sideA"
+      ? requestBody.userSide
+      : (extractedFacts.filingParty === "sideB" ? "sideB" : "sideA");
     const mySide = filingParty === "sideA" ? evalResult.sideATotal : evalResult.sideBTotal;
     const otherSide = filingParty === "sideA" ? evalResult.sideBTotal : evalResult.sideATotal;
     const netPosition: [number, number] = [mySide[0] - otherSide[1], mySide[1] - otherSide[0]];
