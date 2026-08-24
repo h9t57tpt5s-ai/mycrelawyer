@@ -270,7 +270,7 @@ h3, .h3 {
     padding-top: 0; width: 100%; flex-basis: 100%;
     max-height: 0; overflow: hidden; transition: max-height 0.35s ease;
   }
-  .nav-item.has-dropdown.open .nav-dropdown { max-height: 280px; }
+  .nav-item.has-dropdown.open .nav-dropdown { max-height: 400px; }
   .nav-dropdown > a {
     background: none; border: none; box-shadow: none; padding: 9px 4px 9px 18px;
     font-size: 15.5px; white-space: normal;
@@ -292,6 +292,24 @@ h3, .h3 {
   .nav-toggle.open span:nth-child(3) { transform: translateY(-6.5px) rotate(-45deg); }
   .nav-scrim { position: fixed; inset: 0; background: rgba(0,0,0,0.5); opacity: 0; pointer-events: none; transition: opacity 0.4s ease; z-index: 98; }
   .nav-scrim.open { opacity: 1; pointer-events: auto; }
+
+  /* The brand subtitle and full-size gaps eat into the little width left for
+     search/sign-in/hamburger once the brand wordmark is accounted for --
+     without this, .auth-nav-signin has no room to stay on one line and
+     wraps into "Sign" / "in", and the subtitle wrapping to two lines adds
+     unwanted header height. Tightened here rather than shrinking the brand
+     itself, which stays the most important thing in that row. */
+  .brand small { display: none; }
+  .nav-cta { gap: 12px; }
+  .auth-nav-signin, .auth-nav-signout { white-space: nowrap; flex-shrink: 0; }
+  .auth-nav-account { flex-shrink: 0; }
+}
+
+@media (max-width: 400px) {
+  /* Below ~400px even the tightened row above gets snug -- drop the email
+     preview width a bit further and shave the sign-in pill's padding. */
+  .auth-nav-email { max-width: 90px; }
+  .auth-nav-signin { padding: 8px 12px; }
 }
 
 /* ---------- Hero ---------- */
