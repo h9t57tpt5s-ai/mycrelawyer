@@ -71,8 +71,47 @@
     }
   }
 
-  /* ---------- Sign-in modal (magic link) ---------- */
+  /* ---------- Sign-in modal (password, with email-link as a fallback) ----
+     Sessions persist across visits by default (see js/supabase-client.js)
+     -- signing in once keeps a visitor signed in on return visits until
+     they explicitly sign out, regardless of which method they use here. */
   let modalEl = null;
+  let passwordMode = "signin"; // "signin" | "signup"
+
+  function setPasswordMode(mode) {
+    passwordMode = mode;
+    const submitBtn = modalEl.querySelector("#auth-password-submit");
+    const modeLabel = modalEl.querySelector("#auth-password-mode-label");
+    const modeToggle = modalEl.querySelector("#auth-password-mode-toggle");
+    const passwordInput = modalEl.querySelector("#auth-password-password");
+    const forgotRow = modalEl.querySelector("#auth-forgot-row");
+    if (mode === "signup") {
+      submitBtn.textContent = "Create account";
+      modeLabel.textContent = "Already have a password?";
+      modeToggle.textContent = "Sign in instead";
+      passwordInput.setAttribute("autocomplete", "new-password");
+      passwordInput.setAttribute("minlength", "8");
+      forgotRow.style.display = "none";
+    } else {
+      submitBtn.textContent = "Sign in";
+      modeLabel.textContent = "Don't have a password yet?";
+      modeToggle.textContent = "Create one";
+      passwordInput.setAttribute("autocomplete", "current-password");
+      passwordInput.removeAttribute("minlength");
+      forgotRow.style.display = "";
+    }
+    modalEl.querySelector("#auth-password-status").textContent = "";
+  }
+
+  function setActiveTab(tab) {
+    modalEl.querySelectorAll(".auth-modal-tab").forEach((btn) => {
+      btn.classList.toggle("active", btn.getAttribute("data-tab") === tab);
+    });
+    modalEl.querySelectorAll(".auth-modal-panel").forEach((panel) => {
+      panel.style.display = panel.getAttribute("data-panel") === tab ? "" : "none";
+    });
+  }
+
   function buildModal() {
     if (modalEl) return modalEl;
     modalEl = document.createElement("div");
@@ -84,20 +123,113 @@
         </button>
         <div class="eyebrow" style="margin-bottom:10px;">Free account</div>
         <h3 style="margin-bottom:8px;">Sign in to keep reading</h3>
-        <p class="text-secondary" style="font-size:13.5px; line-height:1.6; margin-bottom:20px;">No password needed — we'll email you a one-time sign-in link. Free accounts get 3 full write-ups a month, no card required.</p>
-        <form id="auth-modal-form">
-          <input type="email" id="auth-modal-email" placeholder="you@yourfirm.com" required autocomplete="email" />
-          <button type="submit" class="btn btn-primary btn-sm" style="width:100%; justify-content:center; margin-top:12px;">Send sign-in link</button>
-        </form>
-        <div id="auth-modal-status" class="auth-modal-status"></div>
+        <div class="auth-modal-tabs">
+          <button type="button" class="auth-modal-tab active" data-tab="password">Email &amp; password</button>
+          <button type="button" class="auth-modal-tab" data-tab="link">Email link</button>
+        </div>
+
+        <div class="auth-modal-panel" data-panel="password">
+          <p class="text-secondary" style="font-size:13.5px; line-height:1.6; margin: 14px 0 18px;">You'll stay signed in on this device — no need to log in again next time you visit.</p>
+          <form id="auth-password-form">
+            <input type="email" id="auth-password-email" class="auth-modal-input" placeholder="you@yourfirm.com" required autocomplete="email" />
+            <input type="password" id="auth-password-password" class="auth-modal-input" placeholder="Password" required autocomplete="current-password" style="margin-top:10px;" />
+            <button type="submit" class="btn btn-primary btn-sm" id="auth-password-submit" style="width:100%; justify-content:center; margin-top:12px;">Sign in</button>
+          </form>
+          <p class="auth-modal-switch"><span id="auth-password-mode-label">Don't have a password yet?</span> <button type="button" id="auth-password-mode-toggle" class="auth-modal-link">Create one</button></p>
+          <p class="auth-modal-switch" id="auth-forgot-row"><button type="button" id="auth-forgot-btn" class="auth-modal-link">Forgot password?</button></p>
+          <div id="auth-password-status" class="auth-modal-status"></div>
+        </div>
+
+        <div class="auth-modal-panel" data-panel="link" style="display:none;">
+          <p class="text-secondary" style="font-size:13.5px; line-height:1.6; margin: 14px 0 18px;">No password needed — we'll email you a one-time sign-in link instead.</p>
+          <form id="auth-modal-form">
+            <input type="email" id="auth-modal-email" class="auth-modal-input" placeholder="you@yourfirm.com" required autocomplete="email" />
+            <button type="submit" class="btn btn-primary btn-sm" style="width:100%; justify-content:center; margin-top:12px;">Send sign-in link</button>
+          </form>
+          <div id="auth-modal-status" class="auth-modal-status"></div>
+        </div>
       </div>`;
     document.body.appendChild(modalEl);
     modalEl.addEventListener("click", (e) => { if (e.target === modalEl) closeSignInModal(); });
     modalEl.querySelector(".auth-modal-close").addEventListener("click", closeSignInModal);
+
+    modalEl.querySelectorAll(".auth-modal-tab").forEach((btn) => {
+      btn.addEventListener("click", () => setActiveTab(btn.getAttribute("data-tab")));
+    });
+
+    modalEl.querySelector("#auth-password-mode-toggle").addEventListener("click", () => {
+      setPasswordMode(passwordMode === "signin" ? "signup" : "signin");
+    });
+
+    modalEl.querySelector("#auth-password-form").addEventListener("submit", async (e) => {
+      e.preventDefault();
+      const email = modalEl.querySelector("#auth-password-email").value.trim();
+      const password = modalEl.querySelector("#auth-password-password").value;
+      const statusEl = modalEl.querySelector("#auth-password-status");
+      if (!email || !password) return;
+      if (passwordMode === "signup" && password.length < 8) {
+        statusEl.textContent = "Password must be at least 8 characters.";
+        statusEl.className = "auth-modal-status is-error";
+        return;
+      }
+      statusEl.textContent = passwordMode === "signup" ? "Creating your account…" : "Signing in…";
+      statusEl.className = "auth-modal-status";
+
+      if (passwordMode === "signup") {
+        const { data, error } = await sb.auth.signUp({
+          email, password,
+          options: { emailRedirectTo: window.location.href }
+        });
+        if (error) {
+          statusEl.textContent = error.message || "Something went wrong — try again.";
+          statusEl.className = "auth-modal-status is-error";
+        } else if (data.session) {
+          statusEl.textContent = "Account created — you're signed in.";
+          statusEl.className = "auth-modal-status is-success";
+          setTimeout(closeSignInModal, 700);
+        } else {
+          statusEl.textContent = `Check ${email} to confirm your account, then come back and sign in.`;
+          statusEl.className = "auth-modal-status is-success";
+        }
+      } else {
+        const { error } = await sb.auth.signInWithPassword({ email, password });
+        if (error) {
+          statusEl.textContent = error.message || "Incorrect email or password.";
+          statusEl.className = "auth-modal-status is-error";
+        } else {
+          statusEl.textContent = "Signed in.";
+          statusEl.className = "auth-modal-status is-success";
+          setTimeout(closeSignInModal, 500);
+        }
+      }
+    });
+
+    modalEl.querySelector("#auth-forgot-btn").addEventListener("click", async () => {
+      const email = modalEl.querySelector("#auth-password-email").value.trim();
+      const statusEl = modalEl.querySelector("#auth-password-status");
+      if (!email) {
+        statusEl.textContent = "Enter your email above first, then click Forgot password?";
+        statusEl.className = "auth-modal-status is-error";
+        return;
+      }
+      statusEl.textContent = "Sending a reset link…";
+      statusEl.className = "auth-modal-status";
+      const { error } = await sb.auth.resetPasswordForEmail(email, {
+        redirectTo: window.location.origin + "/reset-password.html"
+      });
+      if (error) {
+        statusEl.textContent = error.message || "Something went wrong — try again.";
+        statusEl.className = "auth-modal-status is-error";
+      } else {
+        statusEl.textContent = `Check ${email} for a password reset link.`;
+        statusEl.className = "auth-modal-status is-success";
+      }
+    });
+
     modalEl.querySelector("#auth-modal-form").addEventListener("submit", async (e) => {
       e.preventDefault();
       const emailInput = modalEl.querySelector("#auth-modal-email");
-      const statusEl = modalEl.querySelector("#auth-modal-status");
+      const statusEl = modalEl.querySelector(".auth-modal-panel[data-panel='link'] .auth-modal-status");
       const email = emailInput.value.trim();
       if (!email) return;
       statusEl.textContent = "Sending…";
@@ -114,15 +246,21 @@
         statusEl.className = "auth-modal-status is-success";
       }
     });
+
     return modalEl;
   }
 
   function openSignInModal(pendingCaseId) {
     if (pendingCaseId) setPendingCase(pendingCaseId);
     const m = buildModal();
+    setActiveTab("password");
+    setPasswordMode("signin");
+    m.querySelector("#auth-password-password").value = "";
+    m.querySelector("#auth-password-status").textContent = "";
+    m.querySelectorAll(".auth-modal-panel[data-panel='link'] .auth-modal-status").forEach((el) => (el.textContent = ""));
     m.classList.add("open");
     document.body.style.overflow = "hidden";
-    setTimeout(() => m.querySelector("#auth-modal-email").focus(), 50);
+    setTimeout(() => m.querySelector("#auth-password-email").focus(), 50);
   }
   function closeSignInModal() {
     if (!modalEl) return;

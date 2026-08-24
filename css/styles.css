@@ -805,14 +805,27 @@ h3, .h3 {
   justify-content: center; color: var(--text-secondary); cursor: pointer;
 }
 .auth-modal-close:hover { border-color: var(--accent); color: var(--accent); }
-.auth-modal #auth-modal-email {
+.auth-modal .auth-modal-input {
   width: 100%; padding: 11px 14px; border-radius: var(--radius-md); border: 1px solid var(--border);
   background: var(--surface); color: var(--text-primary); font-size: 14px; font-family: var(--font-body);
 }
-.auth-modal #auth-modal-email:focus { outline: none; border-color: var(--accent); }
+.auth-modal .auth-modal-input:focus { outline: none; border-color: var(--accent); }
 .auth-modal-status { margin-top: 12px; font-size: 13px; line-height: 1.5; color: var(--text-muted); min-height: 1em; }
 .auth-modal-status.is-success { color: var(--status-settled, #1a8a5f); }
 .auth-modal-status.is-error { color: var(--status-appeal, #d94949); }
+
+.auth-modal-tabs { display: flex; gap: 4px; background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius-full); padding: 3px; margin-bottom: 4px; }
+.auth-modal-tab {
+  flex: 1; font-family: var(--font-body); font-size: 12.5px; font-weight: 600; color: var(--text-muted);
+  background: transparent; border: none; border-radius: var(--radius-full); padding: 7px 10px; cursor: pointer;
+  transition: background 0.15s ease, color 0.15s ease;
+}
+.auth-modal-tab.active { background: var(--bg-elevated); color: var(--text-primary); box-shadow: var(--shadow-sm, 0 1px 2px rgba(0,0,0,0.06)); }
+.auth-modal-switch { font-size: 12.5px; color: var(--text-muted); margin-top: 10px; }
+.auth-modal-link {
+  background: none; border: none; padding: 0; font: inherit; font-weight: 600; color: var(--accent);
+  cursor: pointer; text-decoration: underline;
+}
 
 /* ---------- Paywall gate card ---------- */
 .gate-card {
