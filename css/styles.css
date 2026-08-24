@@ -211,9 +211,9 @@ h3, .h3 {
 .brand-mark { width: 30px; height: 30px; flex-shrink: 0; }
 .brand small { font-family: var(--font-mono); font-size: 10px; letter-spacing: 0.12em; color: var(--text-muted); font-weight: 500; display: block; margin-top: 1px; }
 
-.nav-links { display: flex; align-items: center; gap: 40px; }
+.nav-links { display: flex; align-items: center; gap: 28px; }
 .nav-links a {
-  font-size: 14px; font-weight: 500; color: var(--text-secondary);
+  font-size: 14px; font-weight: 500; color: var(--text-secondary); white-space: nowrap;
   position: relative; padding: 4px 0; transition: color 0.25s ease;
 }
 .nav-links a::after {
@@ -262,7 +262,7 @@ h3, .h3 {
 .nav-dropdown > a:hover { background: var(--surface); color: var(--text-primary); }
 .nav-dropdown > a.active { color: var(--accent-deep); }
 
-@media (max-width: 860px) {
+@media (max-width: 1180px) {
   .nav-item.has-dropdown { display: flex; flex-wrap: wrap; align-items: center; width: 100%; justify-content: space-between; }
   .nav-item.has-dropdown > a { flex: 1 1 auto; }
   .nav-dropdown {
@@ -278,7 +278,7 @@ h3, .h3 {
   .nav-item.has-dropdown .nav-caret-btn { width: 36px; height: 36px; }
 }
 
-@media (max-width: 860px) {
+@media (max-width: 1180px) {
   .nav-links { position: fixed; top: 0; right: 0; height: 100vh; width: min(320px, 80vw);
     background: var(--bg-elevated); border-left: 1px solid var(--border); flex-direction: column;
     justify-content: center; align-items: flex-start; gap: 28px; padding: 40px; transform: translateX(100%);
@@ -293,16 +293,16 @@ h3, .h3 {
   .nav-scrim { position: fixed; inset: 0; background: rgba(0,0,0,0.5); opacity: 0; pointer-events: none; transition: opacity 0.4s ease; z-index: 98; }
   .nav-scrim.open { opacity: 1; pointer-events: auto; }
 
-  /* The brand subtitle and full-size gaps eat into the little width left for
-     search/sign-in/hamburger once the brand wordmark is accounted for --
-     without this, .auth-nav-signin has no room to stay on one line and
-     wraps into "Sign" / "in", and the subtitle wrapping to two lines adds
-     unwanted header height. Tightened here rather than shrinking the brand
-     itself, which stays the most important thing in that row. */
+  /* The brand subtitle eats into the little width left for search/auth/
+     hamburger once the wordmark is accounted for at the narrower end of
+     this range -- drop it here rather than shrinking the brand itself,
+     which stays the most important thing in that row. nowrap/flex-shrink
+     protection for the auth widget and nav links themselves is a base
+     rule now (applies at every width, not just here) since the crowding
+     that caused "Sign in"/"Sign out" to wrap wasn't mobile-only -- it hit
+     mid-width laptop windows above this breakpoint too. */
   .brand small { display: none; }
   .nav-cta { gap: 12px; }
-  .auth-nav-signin, .auth-nav-signout { white-space: nowrap; flex-shrink: 0; }
-  .auth-nav-account { flex-shrink: 0; }
 }
 
 @media (max-width: 400px) {
@@ -788,19 +788,21 @@ h3, .h3 {
 .glossary-entry h3 { font-size: 1.15rem; }
 
 /* ---------- Auth: nav widget ---------- */
-.auth-nav-slot { display: flex; align-items: center; }
+.auth-nav-slot { display: flex; align-items: center; flex-shrink: 0; }
 .auth-nav-signin {
   font-family: var(--font-body); font-size: 13.5px; font-weight: 600; color: var(--text-primary);
   background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius-full);
   padding: 8px 16px; cursor: pointer; transition: border-color 0.2s ease, color 0.2s ease;
+  white-space: nowrap; flex-shrink: 0;
 }
 .auth-nav-signin:hover { border-color: var(--accent); color: var(--accent); }
-.auth-nav-account { display: flex; align-items: center; gap: 10px; }
+.auth-nav-account { display: flex; align-items: center; gap: 10px; flex-shrink: 0; }
 .auth-nav-email { font-family: var(--font-mono); font-size: 12px; color: var(--text-muted); max-width: 160px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 .auth-nav-signout {
   font-family: var(--font-body); font-size: 12.5px; color: var(--text-secondary);
   background: transparent; border: 1px solid var(--border); border-radius: var(--radius-full);
   padding: 6px 12px; cursor: pointer; transition: border-color 0.2s ease, color 0.2s ease;
+  white-space: nowrap; flex-shrink: 0;
 }
 .auth-nav-signout:hover { border-color: var(--accent); color: var(--accent); }
 
