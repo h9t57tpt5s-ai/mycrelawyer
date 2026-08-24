@@ -1110,6 +1110,38 @@ const RELAW_DATA = {
         { when: "August 18, 2026", label: "City-produced discovery data confirms 150 properties and 182 instances of post-appeal assessment increases totaling ~$19M", current: true }
       ],
       tags: ["property tax", "assessment retaliation", "first amendment", "class action", "commercial office"]
+    },
+    {
+      id: "live-040",
+      addedDate: "2026-08-24",
+      title: "Borough of Seaside Park v. Shree Jyoti, LLC (Eminent Domain Ordinance Public-Use Disclosure Ruling)",
+      category: "eminent-domain",
+      status: "ruling",
+      date: "2026-08-10",
+      jurisdiction: "Supreme Court of New Jersey",
+      judge: "Michael Noriega",
+      state: "NJ",
+      amount: "Condemnation of a single derelict commercial motel property; no damages at issue",
+      source: "live",
+      sourceUrl: "https://newjerseymonitor.com/2026/08/10/nj-supreme-court-seaside-park-eminent-domain/",
+      summary: "In a 6-1 decision, the New Jersey Supreme Court held that neither the state's Eminent Domain Act nor its Local Lands and Buildings Law requires a municipality to state its intended public use inside the condemnation ordinance itself, resolving a four-year fight over Seaside Park's 2022 taking of the blighted Desert Palm Inn. Justice Michael Noriega wrote for the majority; Justice John Jay Hoffman dissented, invoking the state's 'square corners' doctrine because the Borough allegedly knew its reuse plans before condemning the property but declined to disclose them to the owner.",
+      significance: "Forecloses a facial vagueness challenge to boilerplate 'health, safety, and welfare' language in New Jersey condemnation ordinances, a drafting practice used by municipalities statewide. Commercial owners facing eminent domain now have a narrower path — documenting a municipality's pre-ordinance planning and any refusal to disclose it — to mount a square-corners challenge instead, per Justice Hoffman's dissent, while municipalities gain confirmation they need not lock in a specific end use before condemning blighted or code-violating commercial property.",
+      body: [
+        "The New Jersey Supreme Court has ruled that a municipality exercising eminent domain does not have to state, in the condemnation ordinance itself, what it actually intends to do with the property it is taking. The August 10 decision in Borough of Seaside Park v. Shree Jyoti, LLC closes out a four-year fight over the Desert Palm Inn, a derelict oceanfront motel the Borough moved to acquire in 2022, and sets a precedent with direct consequences for any commercial property owner facing condemnation anywhere in the state.",
+        "Writing for a 6-1 majority, Associate Justice Michael Noriega held that neither New Jersey's Eminent Domain Act nor its Local Lands and Buildings Law requires a taking municipality to articulate the intended public use inside the ordinance authorizing the acquisition. Seaside Park's April 2022 ordinance stated only that acquiring the Desert Palm Inn would promote and protect the health, safety, and welfare of residents and serve an unspecified public use and purpose, language the property owner, Shree Jyoti, LLC, argued was too vague to satisfy the statutory scheme. The Court disagreed, finding the statutes' text imposes no such specificity requirement, whatever practical benefits a more detailed ordinance might offer property owners contesting a taking.",
+        "The underlying property had a well-documented history of blight and criminal activity: an engineering study identified major health and safety code violations, and Seaside Park police made hundreds of visits to the site between 2017 and 2021, responding to incidents that included a man pushed from a balcony, narcotics arrests, a counterfeit-currency operation, and contacts involving registered sex offenders. The Borough Council authorized an appraisal and eminent domain proceedings in November 2021 and passed the acquisition ordinance the following April. Seaside Park took title through condemnation in early 2023 and ordered an environmental assessment of the site, but demolition stalled when the former owner pressed an appeal that ultimately reached the state's highest court.",
+        "The case turned on timing and disclosure as much as substance. In later litigation filings, Borough officials indicated the property would become a public parking area, and subsequently suggested a municipal well, explanations that emerged only after the ordinance was already in place. That sequence drove the lone dissent from Associate Justice John Jay Hoffman, who invoked New Jersey's long-standing square corners doctrine, which requires government bodies to deal with citizens honestly and transparently. Hoffman wrote that the record showed Seaside Park had settled on its plans for the property at least a month before moving to condemn it, yet declined to disclose that purpose when the owner asked, and that he could not join an opinion allowing that conduct to pass without consequence, writing that the majority degrades the square corners doctrine that asks public leaders to operate with a baseline level of honesty and integrity.",
+        "For commercial property owners, developers, and their counsel, the ruling narrows one of the few textual footholds available to challenge a condemnation ordinance before the taking occurs. Owners who might have argued that a vague or boilerplate public-use recital renders an ordinance procedurally defective now face a state Supreme Court precedent squarely against that theory. What remains open, per Hoffman's dissent, is whether a sufficiently documented pattern of pre-ordinance planning paired with a refusal to disclose it to the owner could support a separate square-corners challenge, a fact-intensive argument distinct from, and now more important than, any facial challenge to the ordinance's text.",
+        "Owners served with a condemnation ordinance in New Jersey should not expect a facial vagueness challenge to the ordinance's stated purpose to succeed on its own; any surviving challenge will more likely need to rest on evidence that the municipality knew and concealed its actual plans. Counsel representing owners facing eminent domain would do well to build a documentary record early, including written requests to the municipality for its intended use and its responses or non-responses, since that record is what could support a square-corners argument later, even though it would not block the taking itself. Municipalities and redevelopment counsel gain a measure of drafting certainty from the ruling, but it does not immunize the broader condemnation process from good-faith and transparency scrutiny, particularly where officials have already settled on a specific reuse plan before acting, and owners of blighted or code-violating commercial property should expect a documented history of safety and police-response issues, as existed here, to weigh heavily against them throughout condemnation litigation, not just at the initial ordinance stage."
+      ],
+      timeline: [
+        { when: "November 15, 2021", label: "Seaside Park Borough Council authorizes appraisal and eminent domain proceedings against the Desert Palm Inn" },
+        { when: "April 14, 2022", label: "Borough Council passes ordinance authorizing acquisition, citing only general health, safety, and welfare purposes" },
+        { when: "Early 2023", label: "Seaside Park acquires the property through condemnation and orders an environmental study" },
+        { when: "2024", label: "Demolition stalls as the former owner petitions the New Jersey Supreme Court" },
+        { when: "August 10, 2026", label: "New Jersey Supreme Court rules 6-1 that municipalities need not state intended public use in a condemnation ordinance", current: true }
+      ],
+      tags: ["eminent domain", "condemnation", "new jersey", "local government", "square corners doctrine"]
     }
   ],
 
@@ -1497,6 +1529,14 @@ const RELAW_DATA = {
       court: "Supreme Court of the State of New York, Appellate Division, Second Department",
       background: "Elected to the Queens Civil Court in 2017 and to the New York State Supreme Court in 2019, then designated to the Appellate Term, Second Department, where he was the first Asian American to serve on that court. Nominated by Governor Kathy Hochul to the Appellate Division, Second Department, and assumed office August 16, 2024.",
       bioUrl: "https://ww2.nycourts.gov/courts/1jd/supctmanh/bio_Hom.shtml"
+    },
+    {
+      name: "Michael Noriega",
+      slug: "michael-noriega",
+      title: "Associate Justice — authored the Court's majority opinion (Justice Hoffman dissenting)",
+      court: "Supreme Court of New Jersey",
+      background: "Nominated by Gov. Phil Murphy and sworn in as an Associate Justice on July 6, 2023, becoming the first former public defender to serve on the New Jersey Supreme Court. Previously an assistant public defender in Essex County and, at the time of his appointment, a partner at Bramnick, Rodriguez, Grabas, Arnold, and Mangan focused on immigration and criminal law.",
+      bioUrl: "https://www.njcourts.gov/public/museum/meet-the-justices/associate-justice-michael-noriega"
     }
   ],
 
