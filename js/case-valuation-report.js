@@ -77,7 +77,7 @@ window.CV_REPORT = (function () {
     doc.text(ctx.categoryLabel, marginX, y);
     y += 24;
     doc.setFont("helvetica", "bold"); doc.setFontSize(10); doc.setTextColor("#B45309");
-    doc.text("PROTOTYPE — MODELING IN ACTIVE DEVELOPMENT", marginX, y);
+    doc.text("BETA — MODELING IN ACTIVE DEVELOPMENT", marginX, y);
     y += 18;
     doc.setFont("helvetica", "normal"); doc.setFontSize(10); doc.setTextColor(MUTED);
     doc.text(`Prepared ${new Date().toLocaleDateString("en-US", { year: "numeric", month: "long", day: "numeric" })} — CREdocket Litigation Value Estimator`, marginX, y);
@@ -93,7 +93,7 @@ window.CV_REPORT = (function () {
     doc.addPage(); y = 64;
 
     heading("Disclaimer", 13);
-    body("This is a prototype tool. The underlying probability and damages modeling is still being actively developed and refined as more real case data is incorporated — the ranges in this report should be treated as an early, evolving estimate, not a finished or stable model.", { size: 9, color: "#B45309", bold: true, gap: 10 });
+    body("This is a beta tool. The underlying probability and damages modeling is still being actively developed and refined as more real case data is incorporated — the ranges in this report should be treated as an early, evolving estimate, not a finished or stable model.", { size: 9, color: "#B45309", bold: true, gap: 10 });
     body("This report is an informational estimate for negotiation and planning purposes only. It is not legal advice, does not predict the outcome of any specific case, and does not create an attorney-client relationship. Every probability and damages range is anchored to a specific legal rule and/or cited comparable case outcomes — but real outcomes depend on facts, evidence, judge, venue, and arguments an automated tool cannot fully weigh. Consult qualified local counsel before making any decision based on this estimate.", { size: 9, color: MUTED, gap: 16 });
 
     heading("Summary", 13);
