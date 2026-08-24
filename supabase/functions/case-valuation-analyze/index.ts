@@ -100,7 +100,7 @@ function jsonResponse(body: Record<string, unknown>, status: number) {
 // =========================================================
 type CaseData = {
   spec: { categories: Record<string, { label: string; roles: { sideA: string; sideB: string }; claimTypes: Record<string, { side: string }> }> };
-  citations: Record<string, { caseName: string; sourceUrl: string; year?: number; dollarAmount?: number }[]>;
+  citations: Record<string, { caseName: string; url: string; year?: number; dollarAmount?: number }[]>;
   stateLawModifiers: Record<string, { mitigationDuty?: string; holdoverStatutoryPenalty?: boolean; selfHelpAvailable?: string }>;
 };
 
@@ -130,7 +130,7 @@ type Claim = {
   expectedValueRange: [number, number] | null;
   note: string;
   isBenchmark: boolean;
-  citations: { caseName: string; sourceUrl: string; year?: number; dollarAmount?: number }[];
+  citations: { caseName: string; url: string; year?: number; dollarAmount?: number }[];
 };
 
 function num(f: Facts, k: string): number {
@@ -694,7 +694,7 @@ Deno.serve(async (req) => {
     const netPosition: [number, number] = [mySide[0] - otherSide[1], mySide[1] - otherSide[0]];
     const roleLabel = evalResult.roles ? (filingParty === "sideA" ? evalResult.roles.sideA : evalResult.roles.sideB) : filingParty;
 
-    const citedCasesMap = new Map<string, { caseName: string; sourceUrl: string; year?: number; dollarAmount?: number }>();
+    const citedCasesMap = new Map<string, { caseName: string; url: string; year?: number; dollarAmount?: number }>();
     for (const c of evalResult.claims) for (const cit of c.citations) citedCasesMap.set(cit.caseName, cit);
     const citedCases = [...citedCasesMap.values()];
 

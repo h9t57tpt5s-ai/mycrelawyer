@@ -336,7 +336,7 @@
   //       categoryLabel: string,
   //       claims: [{ claimKey, label, probability, damagesRange,
   //                  expectedValueRange, note, isBenchmark, citations }],
-  //       citedCases: [{ caseName, sourceUrl, year, dollarAmount }]
+  //       citedCases: [{ caseName, url, year, dollarAmount }]
   //     }
   //   }
   // The dollar/probability numbers and case citations are all computed by
@@ -358,7 +358,7 @@
         ${c.note ? `<p class="cv-note">${c.note}</p>` : ""}
         ${(c.citations || []).length ? `<div class="cv-citations"><div class="cv-citations-label">Grounded in real cases:</div>${c.citations.map((cit) => `
           <div class="cv-citation">
-            <a href="${cit.sourceUrl}" target="_blank" rel="noopener">${cit.caseName}</a>
+            <a href="${cit.url}" target="_blank" rel="noopener">${cit.caseName}</a>
             ${cit.year ? ` (${cit.year})` : ""}
             ${cit.dollarAmount ? ` — ${fmtMoney(cit.dollarAmount)}` : ""}
           </div>`).join("")}</div>` : ""}
