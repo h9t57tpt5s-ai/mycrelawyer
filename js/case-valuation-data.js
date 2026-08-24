@@ -65,22 +65,24 @@ const CASE_VALUATION_DATA = {
               "note": "No confirmed acceleration clause"
             },
             "damages": {
-              "formula": "remainingMonths * monthlyRent",
-              "mitigationOffset": {
-                "Yes": [
-                  0.3,
-                  0.5
-                ],
-                "No": [
-                  0.0,
-                  0.05
-                ],
-                "Unclear": [
-                  0.15,
-                  0.35
-                ]
-              },
-              "reletOverride": "if landlord has re-let, offset by actual overlapping new rent instead of default"
+              "formula": "presentValueOfLevelStream(netFutureRent, remainingMonths, discountRate)",
+              "netFutureRent": "grossFutureRent (remainingMonths * monthlyRent), net of actual/anticipated replacement-tenant rent if re-let, else a modest mitigation-uncertainty haircut keyed to state mitigationDuty",
+              "discountRate": [0.05, 0.09],
+              "note": "Discounted to present value using a 5-9% annual rate range, not a flat percentage-of-gross haircut -- required under case law (e.g. HealthSouth Rehabilitation Corp. v. Falcon Management Co., 799 So.2d 177, 185 (Ala. 2001)) and matches real accelerated-rent damages methodology -- see The Village at Brocks Gap, LLC v. Singleton Ventures, LLC citation below, which used a 6.0% rate.",
+              "reletOverride": "if landlord has re-let, net future rent = grossFutureRent - actual/anticipated overlapping new rent, BEFORE present-value discounting"
+            }
+          },
+          "releasing_mitigation_costs": {
+            "side": "sideA",
+            "label": "Re-Leasing / Mitigation Costs",
+            "appliesIf": "releaseWorkCosts > 0",
+            "baseProbability": [
+              0.6,
+              0.85
+            ],
+            "damages": {
+              "formula": "releaseWorkCosts * [0.85, 1.0]",
+              "note": "Landlord's work, tenant-improvement allowances, and leasing commissions incurred to re-lease the space after tenant default -- recoverable as detriment proximately caused by the breach under a typical commercial lease default clause. Usually actual, invoiced, documented costs, so damages run close to the amount claimed rather than a discounted estimate. See The Village at Brocks Gap, LLC v. Singleton Ventures, LLC citation, where these costs totaled ~17% of total damages sought."
             }
           },
           "holdover_damages": {
@@ -103,11 +105,8 @@ const CASE_VALUATION_DATA = {
             "baseProbability": "weighted average of probabilities of the other pursued claims",
             "damages": {
               "formula": "principalDamages * feeRatio",
-              "feeRatio": [
-                0.15,
-                0.4
-              ],
-              "note": "ratio to be refined from comparable-case research, not asserted as fixed"
+              "feeRatio": "tiered by principal size, not a flat ratio -- under $100k: [0.20, 0.40]; $100k-$1M: [0.08, 0.20]; over $1M: [0.01, 0.06]",
+              "note": "Attorney fees scale sub-linearly with claim size -- litigating a small claim still costs a similar baseline in hours, while a large claim's fees don't grow proportionally with the dollars at stake. See The Village at Brocks Gap, LLC v. Singleton Ventures, LLC citation, where fees + costs totaled ~1.3% of a ~$4.19M accelerated-rent recovery -- far below a flat 15-40% assumption."
             }
           },
           "property_damage": {
@@ -824,6 +823,30 @@ const CASE_VALUATION_DATA = {
         "url": "https://caselaw.findlaw.com/court/tx-supreme-court/1013257.html",
         "confidence": "medium",
         "notes": "Leading Texas precedent establishing the commercial landlord's duty to mitigate future/accelerated rent damages; frequently cited as limiting the practical value of acceleration clauses unless mitigation is contractually waived. Underlying jury verdict facts drawn from Justia's summary of the 1995 Texas Court of Appeals decision, 938 S.W.2d 469."
+      },
+      {
+        "caseName": "The Village at Brocks Gap, LLC v. Singleton Ventures, LLC",
+        "citation": "Case No. CV-2020-900604 (Cir. Ct. Jefferson Cnty., Ala., Bessemer Div.) (Pl.'s Mot. Summ. J., filed Feb. 17, 2022)",
+        "jurisdiction": "AL",
+        "year": 2022,
+        "outcome": "Landlord sought summary judgment on breach of a 20.5-year grocery-store shopping-center lease after the tenant defaulted and abandoned the premises. The damages methodology in the motion and supporting affidavit computed gross unpaid past rent ($677,726.58) plus gross future accelerated rent ($8,814,297.71), net of specific dollar credits for three actual/anticipated replacement tenants (down to $6,061,315.06), then discounted that net future-rent figure to present value using a 6.0% annual rate reflecting a replacement tenant's anticipated creditworthiness -- yielding $3,511,451.08 and total rental damages of $4,189,177.66. This is the requested relief as of the February 2022 filing; no order or judgment on the motion was reviewed, so this illustrates the damages methodology, not a confirmed award.",
+        "dollarAmount": 4189177,
+        "url": null,
+        "confidence": "high",
+        "notes": "Primary source: full motion, brief, and supporting affidavit read directly. The best available real-world illustration in this dataset of the standard commercial-lease accelerated-rent methodology -- present-value discounting of NET future rent (required under, e.g., HealthSouth Rehabilitation Corp. v. Falcon Management Co., 799 So.2d 177, 185 (Ala. 2001)), itemized dollar-for-dollar credit for specific replacement tenants rather than a flat mitigation percentage, and a distinct re-leasing/mitigation-costs damages category (see releasing_mitigation_costs citations). No public URL available for this record -- verify via the case number and court above."
+      }
+    ],
+    "releasing_mitigation_costs": [
+      {
+        "caseName": "The Village at Brocks Gap, LLC v. Singleton Ventures, LLC",
+        "citation": "Case No. CV-2020-900604 (Cir. Ct. Jefferson Cnty., Ala., Bessemer Div.) (Pl.'s Mot. Summ. J., filed Feb. 17, 2022)",
+        "jurisdiction": "AL",
+        "year": 2022,
+        "outcome": "In addition to past and accelerated future rent, the landlord's motion sought $714,926.86 in costs incurred/anticipated to re-lease the premises to three replacement tenants -- itemized as landlord's work (buildout), tenant-improvement allowances, and leasing commissions for each replacement lease -- as damages proximately caused by the tenant's breach and abandonment under the lease's default-remedies clause. These costs represented roughly 17% of the total damages sought ($714,926.86 of $4,904,104.52 combined rental and re-leasing damages).",
+        "dollarAmount": 714926,
+        "url": null,
+        "confidence": "high",
+        "notes": "Primary source: full motion, brief, and supporting affidavit read directly. Same filing as the accelerated_rent citation above -- illustrates that re-leasing/mitigation costs are a distinct, separately itemized, and potentially large damages category, not folded into the rent-acceleration figure. No public URL available for this record -- verify via the case number and court above."
       }
     ],
     "holdover_damages": [
@@ -916,6 +939,17 @@ const CASE_VALUATION_DATA = {
         "url": "https://www.poolehuffman.com/blog/commercial-leases-attorneys-fees-provisions-and-breach-of-lease-cases-in-georgia/",
         "confidence": "medium",
         "notes": "Foundational Kansas authority on enforceability of commercial-lease fee-shifting clauses; dollar figures for the fee award were not available in sources reviewed."
+      },
+      {
+        "caseName": "The Village at Brocks Gap, LLC v. Singleton Ventures, LLC",
+        "citation": "Case No. CV-2020-900604 (Cir. Ct. Jefferson Cnty., Ala., Bessemer Div.) (Pl.'s Mot. Summ. J., filed Feb. 17, 2022)",
+        "jurisdiction": "AL",
+        "year": 2022,
+        "outcome": "The landlord's motion sought attorneys' fees of $52,905.00 plus $3,526.06 in costs -- together representing only about 1.3% of the $4,189,177.66 in rental damages sought in the same filing, a useful real-world data point that attorney-fee awards do not scale linearly with the size of a commercial lease claim.",
+        "dollarAmount": 52905,
+        "url": null,
+        "confidence": "high",
+        "notes": "Same filing as the accelerated_rent and releasing_mitigation_costs citations for this category. Illustrates the low end of the fee-to-damages ratio for a large accelerated-rent claim; contrast with the smaller claims in this array, where fees run a much higher percentage of the principal. No public URL available for this record -- verify via the case number and court above."
       }
     ],
     "property_damage": [],

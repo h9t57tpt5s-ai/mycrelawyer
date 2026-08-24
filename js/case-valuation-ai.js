@@ -358,7 +358,7 @@
         ${c.note ? `<p class="cv-note">${c.note}</p>` : ""}
         ${(c.citations || []).length ? `<div class="cv-citations"><div class="cv-citations-label">Grounded in real cases:</div>${c.citations.map((cit) => `
           <div class="cv-citation">
-            <a href="${cit.url}" target="_blank" rel="noopener">${cit.caseName}</a>
+            ${cit.url ? `<a href="${cit.url}" target="_blank" rel="noopener">${cit.caseName}</a>` : cit.caseName}
             ${cit.year ? ` (${cit.year})` : ""}
             ${cit.dollarAmount ? ` — ${fmtMoney(cit.dollarAmount)}` : ""}
           </div>`).join("")}</div>` : ""}

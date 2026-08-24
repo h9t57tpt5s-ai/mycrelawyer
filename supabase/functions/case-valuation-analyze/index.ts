@@ -145,6 +145,19 @@ function str(f: Facts, k: string): string | undefined {
   return typeof v === "string" ? v : undefined;
 }
 
+// Present value of a level (non-escalating) monthly payment stream --
+// standard ordinary-annuity PV formula. `totalUndiscounted` is the sum of
+// all payments over `months`; converted to an implied level monthly
+// payment internally. Required once future rent is accelerated (see the
+// cited case in accelerated_rent's citations).
+function pvOfLevelStream(totalUndiscounted: number, months: number, annualRate: number): number {
+  if (!months || totalUndiscounted <= 0) return 0;
+  const monthlyAmt = totalUndiscounted / months;
+  const r = annualRate / 12;
+  if (r === 0) return totalUndiscounted;
+  return monthlyAmt * (1 - Math.pow(1 + r, -months)) / r;
+}
+
 function makeResult(
   citations: CaseData["citations"],
   claimKey: string, label: string, probRange: [number, number],
@@ -172,15 +185,31 @@ function evalLeaseDisputes(f: Facts, cit: CaseData["citations"]): Claim[] {
   }
   if (bool(f, "leaseTerminated") && num(f, "remainingMonths") > 0 && num(f, "monthlyRent") > 0) {
     const p: [number, number] = str(f, "hasAccelerationClause") === "yes" ? [0.65, 0.90] : [0.15, 0.30];
-    const base = num(f, "remainingMonths") * num(f, "monthlyRent");
-    let lowOffset = 0.05, highOffset = 0.50;
-    if (str(f, "mitigationDuty") === "No") { lowOffset = 0; highOffset = 0.05; }
-    else if (str(f, "mitigationDuty") === "Unclear") { lowOffset = 0.15; highOffset = 0.35; }
-    let low = base * (1 - highOffset), high = base * (1 - lowOffset);
+    const grossFutureRent = num(f, "remainingMonths") * num(f, "monthlyRent");
+    // Net of actual/anticipated replacement-tenant rent (dollar-for-dollar,
+    // BEFORE discounting) if re-let; otherwise a modest haircut reflecting
+    // mitigation-duty uncertainty, not a guess at the eventual relet amount.
+    let netLow = grossFutureRent, netHigh = grossFutureRent;
     if (bool(f, "hasRelet") && num(f, "reletRentAmount") >= 0) {
-      low = high = base - num(f, "reletRentAmount");
+      netLow = netHigh = Math.max(0, grossFutureRent - num(f, "reletRentAmount"));
+    } else if (str(f, "mitigationDuty") === "Yes") {
+      netLow = grossFutureRent * 0.80; netHigh = grossFutureRent * 0.98;
+    } else if (str(f, "mitigationDuty") === "Unclear") {
+      netLow = grossFutureRent * 0.88; netHigh = grossFutureRent;
     }
-    out.push(R("accelerated_rent", "Accelerated / Future Rent", p, Math.max(0, low), Math.max(0, high)));
+    // Present-value discount (5%-9% annual) -- required once future rent is
+    // accelerated; see the cited case, which used a 6.0% rate reflecting the
+    // anticipated creditworthiness of a replacement tenant.
+    const low = pvOfLevelStream(netLow, num(f, "remainingMonths"), 0.09);
+    const high = pvOfLevelStream(netHigh, num(f, "remainingMonths"), 0.05);
+    out.push(R("accelerated_rent", "Accelerated / Future Rent", p, Math.max(0, low), Math.max(0, high),
+      "Discounted to present value using a 5%-9% annual rate range (industry/court practice, not a flat percentage haircut)." +
+      (bool(f, "hasRelet") ? " Net of actual/anticipated replacement-tenant rent." : "")));
+  }
+  if (num(f, "releaseWorkCosts") > 0) {
+    out.push(R("releasing_mitigation_costs", "Re-Leasing / Mitigation Costs", [0.60, 0.85],
+      num(f, "releaseWorkCosts") * 0.85, num(f, "releaseWorkCosts"),
+      "Landlord's work, tenant-improvement allowances, and leasing commissions incurred to re-lease the space -- usually actual, invoiced costs, so recovery tends to run close to the amount claimed."));
   }
   if (bool(f, "heldOverAfterTerm") && bool(f, "holdoverStatutoryPenalty") && num(f, "monthlyRent") > 0 && num(f, "holdoverMonths") > 0) {
     out.push(R("holdover_damages", "Statutory Holdover Damages", [0.80, 0.95],
@@ -222,8 +251,18 @@ function evalLeaseDisputes(f: Facts, cit: CaseData["citations"]): Claim[] {
     const avgP = out.reduce((s, c) => s + (c.probability[0] + c.probability[1]) / 2, 0) / out.length;
     const principalLow = out.reduce((s, c) => s + (c.damagesRange ? c.damagesRange[0] : 0), 0);
     const principalHigh = out.reduce((s, c) => s + (c.damagesRange ? c.damagesRange[1] : 0), 0);
+    // Fees scale sub-linearly with claim size -- a flat 15-40% badly
+    // overstates fees on large commercial claims (a real ~$4.19M
+    // accelerated-rent claim saw fees+costs run only ~1.3% of damages --
+    // see cited case).
+    const avgPrincipal = (principalLow + principalHigh) / 2;
+    let feeLowPct: number, feeHighPct: number;
+    if (avgPrincipal < 100000) { feeLowPct = 0.20; feeHighPct = 0.40; }
+    else if (avgPrincipal < 1000000) { feeLowPct = 0.08; feeHighPct = 0.20; }
+    else { feeLowPct = 0.01; feeHighPct = 0.06; }
     out.push(R("attorney_fees", "Attorney's Fees", [avgP * 0.9, Math.min(0.97, avgP * 1.05)],
-      principalLow * 0.15, principalHigh * 0.40, "Ratio-of-principal heuristic (15-40% of the other claims' damages) -- refine against comparable-case fee awards."));
+      principalLow * feeLowPct, principalHigh * feeHighPct,
+      `Ratio-of-principal heuristic (${Math.round(feeLowPct * 100)}-${Math.round(feeHighPct * 100)}% of the other claims' damages for this claim-size tier -- large claims see a much smaller fee percentage than small ones) -- refine against comparable-case fee awards.`));
   }
   return out;
 }
@@ -465,6 +504,7 @@ const CATEGORY_FIELDS: Record<string, FieldDef[]> = {
     { key: "depositAmount", type: "number", label: "Security deposit amount ($)" },
     { key: "depositDisputed", type: "boolean", label: "Is the deposit withheld/disputed?" },
     { key: "landlordProvidedItemization", type: "boolean", label: "Did the landlord provide an itemization of deductions?" },
+    { key: "releaseWorkCosts", type: "number", label: "Costs incurred/anticipated to re-lease the space -- landlord's work, tenant-improvement allowance, leasing commissions ($)" },
     { key: "hasFeeShiftingClause", type: "boolean", label: "Does the lease have an attorney's-fees (fee-shifting) clause?" },
   ],
   "lending-foreclosure": [

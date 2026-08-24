@@ -18,6 +18,20 @@
   const clamp01 = (n) => Math.max(0, Math.min(1, n));
   const pct = (r) => `${Math.round(r[0] * 100)}–${Math.round(r[1] * 100)}%`;
 
+  // Present value of a level (non-escalating) monthly payment stream --
+  // standard ordinary-annuity PV formula. `totalUndiscounted` is the sum of
+  // all payments over `months`; converted to an implied level monthly
+  // payment internally. Used for accelerated-rent damages, which must be
+  // discounted to present value under case law once future rent is
+  // accelerated (see the cited case).
+  function pvOfLevelStream(totalUndiscounted, months, annualRate) {
+    if (!months || totalUndiscounted <= 0) return 0;
+    const monthlyAmt = totalUndiscounted / months;
+    const r = annualRate / 12;
+    if (r === 0) return totalUndiscounted;
+    return monthlyAmt * (1 - Math.pow(1 + r, -months)) / r;
+  }
+
   function result(claimKey, label, probRange, damagesLow, damagesHigh, note, isBenchmark) {
     return {
       claimKey,
@@ -42,15 +56,34 @@
     }
     if (facts.leaseTerminated && facts.remainingMonths > 0 && facts.monthlyRent > 0) {
       let p = facts.hasAccelerationClause === "yes" ? [0.65, 0.90] : [0.15, 0.30];
-      const base = facts.remainingMonths * facts.monthlyRent;
-      let lowOffset = 0.05, highOffset = 0.50;
-      if (facts.mitigationDuty === "No") { lowOffset = 0; highOffset = 0.05; }
-      else if (facts.mitigationDuty === "Unclear") { lowOffset = 0.15; highOffset = 0.35; }
-      let low = base * (1 - highOffset), high = base * (1 - lowOffset);
+      const grossFutureRent = facts.remainingMonths * facts.monthlyRent;
+      // Net of actual/anticipated replacement-tenant rent (dollar-for-dollar,
+      // BEFORE discounting -- this is the order real accelerated-rent damages
+      // methodology uses) if re-let; otherwise a modest haircut reflecting the
+      // uncertainty of a still-unfulfilled mitigation duty, not a guess at the
+      // eventual relet amount itself.
+      let netLow = grossFutureRent, netHigh = grossFutureRent;
       if (facts.hasRelet && facts.reletRentAmount >= 0) {
-        low = high = base - facts.reletRentAmount;
+        netLow = netHigh = Math.max(0, grossFutureRent - facts.reletRentAmount);
+      } else if (facts.mitigationDuty === "Yes") {
+        netLow = grossFutureRent * 0.80; netHigh = grossFutureRent * 0.98;
+      } else if (facts.mitigationDuty === "Unclear") {
+        netLow = grossFutureRent * 0.88; netHigh = grossFutureRent;
       }
-      out.push(result("accelerated_rent", "Accelerated / Future Rent", p, Math.max(0, low), Math.max(0, high)));
+      // Present-value discount (5%-9% annual, not a flat percentage-of-gross
+      // haircut) -- required by case law once future rent is accelerated;
+      // see the cited case, which used a 6.0% rate reflecting the anticipated
+      // creditworthiness of a replacement tenant.
+      const low = pvOfLevelStream(netLow, facts.remainingMonths, 0.09);
+      const high = pvOfLevelStream(netHigh, facts.remainingMonths, 0.05);
+      out.push(result("accelerated_rent", "Accelerated / Future Rent", p, Math.max(0, low), Math.max(0, high),
+        "Discounted to present value using a 5%–9% annual rate range (industry/court practice, not a flat percentage haircut)." +
+        (facts.hasRelet ? " Net of actual/anticipated replacement-tenant rent." : "")));
+    }
+    if (facts.releaseWorkCosts > 0) {
+      out.push(result("releasing_mitigation_costs", "Re-Leasing / Mitigation Costs", [0.60, 0.85],
+        facts.releaseWorkCosts * 0.85, facts.releaseWorkCosts,
+        "Landlord's work, tenant-improvement allowances, and leasing commissions incurred to re-lease the space — usually actual, invoiced costs, so recovery tends to run close to the amount claimed."));
     }
     if (facts.heldOverAfterTerm && facts.holdoverStatutoryPenalty && facts.monthlyRent > 0 && facts.holdoverMonths > 0) {
       out.push(result("holdover_damages", "Statutory Holdover Damages", [0.80, 0.95],
@@ -94,8 +127,20 @@
       const avgP = out.reduce((s, c) => s + (c.probability[0] + c.probability[1]) / 2, 0) / out.length;
       const principalLow = out.reduce((s, c) => s + (c.damagesRange ? c.damagesRange[0] : 0), 0);
       const principalHigh = out.reduce((s, c) => s + (c.damagesRange ? c.damagesRange[1] : 0), 0);
+      // Fees scale sub-linearly with claim size: litigating a small claim
+      // still costs a similar baseline in hours, while a large claim's fees
+      // don't grow proportionally with the dollars at stake -- a flat 15–40%
+      // badly overstates fees on large commercial claims (a real ~$4.19M
+      // accelerated-rent claim saw fees+costs run only ~1.3% of damages —
+      // see cited case).
+      const avgPrincipal = (principalLow + principalHigh) / 2;
+      let feeLowPct, feeHighPct;
+      if (avgPrincipal < 100000) { feeLowPct = 0.20; feeHighPct = 0.40; }
+      else if (avgPrincipal < 1000000) { feeLowPct = 0.08; feeHighPct = 0.20; }
+      else { feeLowPct = 0.01; feeHighPct = 0.06; }
       out.push(result("attorney_fees", "Attorney's Fees", [avgP * 0.9, Math.min(0.97, avgP * 1.05)],
-        principalLow * 0.15, principalHigh * 0.40, "Ratio-of-principal heuristic (15–40% of the other claims' damages) — refine against comparable-case fee awards."));
+        principalLow * feeLowPct, principalHigh * feeHighPct,
+        `Ratio-of-principal heuristic (${Math.round(feeLowPct * 100)}–${Math.round(feeHighPct * 100)}% of the other claims' damages for this claim-size tier — large claims see a much smaller fee percentage than small ones) — refine against comparable-case fee awards.`));
     }
     return out;
   }
