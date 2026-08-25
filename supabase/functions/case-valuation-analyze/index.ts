@@ -1021,7 +1021,17 @@ Deno.serve(async (req) => {
       additionalProperties: false,
     };
 
-    const analysis = await anthropic.messages.create({
+    // Streamed rather than a plain create() call: max_tokens:8192 with
+    // adaptive thinking at xhigh effort, on up to ~50K characters of
+    // document text plus a full citation pool, is exactly the "long
+    // input, long output, high max_tokens" shape that risks a platform
+    // request timeout on a non-streamed call (this Edge Function's own
+    // wall-clock budget, or the SDK's default timeout, either of which
+    // would previously have surfaced to the user as a request that just
+    // hangs with no error at all -- worse than any of the 400s this
+    // endpoint has already returned and been fixed for, since a client
+    // that never gets a response can't show anything went wrong).
+    const analysisStream = anthropic.messages.stream({
       model: NARRATIVE_MODEL,
       max_tokens: 8192,
       thinking: { type: "adaptive" },
@@ -1044,6 +1054,7 @@ Deno.serve(async (req) => {
           `\n=== The document(s) to analyze ===\n${documentText}`,
       }],
     });
+    const analysis = await analysisStream.finalMessage();
     const analysisText = analysis.content.find((b): b is Anthropic.TextBlock => b.type === "text")?.text;
     if (!analysisText) throw new Error("Analysis pass returned no output");
     const analysisParsed = JSON.parse(analysisText);

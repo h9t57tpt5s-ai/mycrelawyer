@@ -715,32 +715,55 @@
           );
         }
         const emptyNote = emptyFiles.length ? ` (no text found in ${emptyFiles.join(", ")}, likely scanned/image-only — continuing with the rest)` : "";
-        if (documentText.length > MAX_DOC_CHARS) {
-          documentText = documentText.slice(0, MAX_DOC_CHARS);
-          statusEl.textContent = `Combined document text truncated to the first ${MAX_DOC_CHARS.toLocaleString()} characters for analysis…${emptyNote}`;
-        } else {
-          statusEl.textContent = `Analyzing…${emptyNote}`;
-        }
+        const truncNote = documentText.length > MAX_DOC_CHARS
+          ? `Combined document text truncated to the first ${MAX_DOC_CHARS.toLocaleString()} characters for analysis.${emptyNote}`
+          : emptyNote ? `Analyzing.${emptyNote}` : "";
+        if (documentText.length > MAX_DOC_CHARS) documentText = documentText.slice(0, MAX_DOC_CHARS);
 
         const { data: { session } } = await sb.auth.getSession();
         if (!session) throw new Error("Your session expired — sign in again and retry.");
 
         const costFacts = collectCostFacts();
-        const resp = await fetch(ANALYZE_FN_URL, {
-          method: "POST",
-          headers: {
-            "Content-Type": "application/json",
-            "Authorization": `Bearer ${session.access_token}`,
-            "apikey": SUPABASE_PUBLISHABLE_KEY
-          },
-          body: JSON.stringify({
-            documentText,
-            category: slug,
-            userSide: sideSelect.dataset.userChosen ? sideSelect.value : null,
-            expectToTrial: !!costFacts.expectToTrial,
-            settlementOnTable: costFacts.settlementOnTable || null
-          })
-        });
+        // The comprehensive-analysis pass runs Opus at max ("xhigh")
+        // reasoning effort over the full document -- a real, working
+        // request commonly takes 30-90+ seconds, not the few seconds
+        // "Analyzing…" alone implies. Without a progress update this
+        // reads as stuck/broken well before it actually is. Keeps
+        // whatever truncation/empty-file note was just set (that context
+        // matters and shouldn't disappear the moment the request starts)
+        // by prefixing it to each rotating message instead of overwriting it.
+        const notePrefix = truncNote ? truncNote + " " : "";
+        const waitMessages = [
+          notePrefix + "Analyzing… (reading the full document)",
+          notePrefix + "Still analyzing — reasoning through the claims and defenses can take a minute or more…",
+          notePrefix + "Still working — a thorough analysis of a long document can take a couple of minutes…",
+        ];
+        let waitStep = 0;
+        statusEl.textContent = waitMessages[0];
+        const waitTimer = setInterval(() => {
+          waitStep = Math.min(waitStep + 1, waitMessages.length - 1);
+          statusEl.textContent = waitMessages[waitStep];
+        }, 25000);
+        let resp;
+        try {
+          resp = await fetch(ANALYZE_FN_URL, {
+            method: "POST",
+            headers: {
+              "Content-Type": "application/json",
+              "Authorization": `Bearer ${session.access_token}`,
+              "apikey": SUPABASE_PUBLISHABLE_KEY
+            },
+            body: JSON.stringify({
+              documentText,
+              category: slug,
+              userSide: sideSelect.dataset.userChosen ? sideSelect.value : null,
+              expectToTrial: !!costFacts.expectToTrial,
+              settlementOnTable: costFacts.settlementOnTable || null
+            })
+          });
+        } finally {
+          clearInterval(waitTimer);
+        }
         const json = await resp.json().catch(() => ({}));
 
         if (resp.ok) {
