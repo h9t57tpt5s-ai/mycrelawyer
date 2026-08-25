@@ -957,15 +957,38 @@ Deno.serve(async (req) => {
         }))
       : "none -- the fixed-formula model found no matching claims from the extracted checkbox-style facts, but the actual document may still contain real claims or issues outside that fixed field set. Analyze the document itself, not just this baseline.";
 
+    // A [low, high] pair as a JSON Schema array (minItems/maxItems: 2) is
+    // rejected outright -- Anthropic's structured-output validator only
+    // accepts minItems/maxItems of 0 or 1 ("'minItems' values other than 0
+    // or 1 are not supported"), confirmed against the actual API error
+    // text. Expressed as a {low, high} object instead, which sidesteps
+    // array-size constraints entirely using the same object shape
+    // (properties/required/additionalProperties:false) already confirmed
+    // to work elsewhere in this file. Parsed back into a [low, high] tuple
+    // right after the API call returns (see rangeToTuple below), so
+    // nothing downstream of that -- including the client -- sees this
+    // object shape; it exists only in what gets sent TO Claude.
+    const rangeSchema = (description: string) => ({
+      type: "object",
+      properties: { low: { type: "number" }, high: { type: "number" } },
+      required: ["low", "high"],
+      additionalProperties: false,
+      description,
+    });
+    const nullableRangeSchema = (description: string) => ({
+      anyOf: [
+        { type: "object", properties: { low: { type: "number" }, high: { type: "number" } }, required: ["low", "high"], additionalProperties: false },
+        { type: "null" },
+      ],
+      description,
+    });
+
     const analysisSchema = {
       type: "object",
       properties: {
         narrative: { type: "string", description: "A comprehensive, detailed reasoned analysis of the actual document(s): the key facts, every claim/defense/issue you identify (not limited to the baseline model's fixed categories), how the cited precedent applies, evidentiary or procedural weaknesses on either side, and how it all nets out for the filing party. Write like a sharp litigator's case assessment memo -- direct, specific, thorough." },
         likelyOutcome: { type: "string", description: "A short (2-3 sentence) bottom-line summary of the likely outcome and why." },
-        damagesRange: {
-          type: "array", items: { type: "number" }, minItems: 2, maxItems: 2,
-          description: "YOUR OWN independent probability-weighted net exposure/recovery range for the filing party, in dollars [low, high] -- informed by the baseline but not bound by it. Never a single point estimate.",
-        },
+        damagesRange: rangeSchema("YOUR OWN independent probability-weighted net exposure/recovery range for the filing party, in dollars (low/high) -- informed by the baseline but not bound by it. Never a single point estimate."),
         issues: {
           type: "array",
           description: "Every distinct claim, defense, or issue you identified in the actual document(s) -- may include ones the fixed baseline model doesn't capture at all (e.g. a specific factual dispute, an evidentiary weakness, a procedural defect, a defense actually raised in an answer). Order by significance.",
@@ -974,8 +997,8 @@ Deno.serve(async (req) => {
             properties: {
               label: { type: "string", description: "Short name for this claim/issue." },
               analysis: { type: "string", description: "Your reasoning on this specific issue: the facts supporting it, how cited precedent applies (if any), and its strength." },
-              probabilityRangePct: { type: ["array", "null"], items: { type: "number" }, minItems: 2, maxItems: 2, description: "[low, high] percent likelihood this issue is resolved in the filing party's favor, if quantifiable." },
-              damagesRange: { type: ["array", "null"], items: { type: "number" }, minItems: 2, maxItems: 2, description: "[low, high] dollar range for this specific issue, if it has an independent dollar value." },
+              probabilityRangePct: nullableRangeSchema("Low/high percent likelihood this issue is resolved in the filing party's favor, if quantifiable."),
+              damagesRange: nullableRangeSchema("Low/high dollar range for this specific issue, if it has an independent dollar value."),
               citedCaseNames: { type: "array", items: { type: "string" }, description: "Exact case name(s) from the reference list below that support this issue -- ONLY names copied exactly from that list, or an empty array if none apply." },
             },
             // Structured-output schemas require every property in
@@ -1032,23 +1055,34 @@ Deno.serve(async (req) => {
       return out;
     };
 
-    const issues = Array.isArray(analysisParsed.issues) ? analysisParsed.issues.map((iss: Record<string, unknown>) => ({
-      label: typeof iss.label === "string" ? iss.label : "Issue",
-      analysis: typeof iss.analysis === "string" ? iss.analysis : "",
-      probabilityRange: Array.isArray(iss.probabilityRangePct) && iss.probabilityRangePct.length === 2
-        ? [Number(iss.probabilityRangePct[0]) / 100, Number(iss.probabilityRangePct[1]) / 100] : null,
-      damagesRange: Array.isArray(iss.damagesRange) && iss.damagesRange.length === 2
-        ? [Number(iss.damagesRange[0]), Number(iss.damagesRange[1])] : null,
-      citations: resolveCitations(iss.citedCaseNames),
-    })) : [];
+    // Claude returns {low, high} objects (see rangeSchema/nullableRangeSchema
+    // above) -- convert back to the [low, high] tuple shape every other
+    // part of this app (and the client) already expects, right here at the
+    // boundary, so nothing downstream needs to know the wire format to
+    // Claude ever differed from the wire format to the browser.
+    const rangeToTuple = (r: unknown): [number, number] | null => {
+      if (!r || typeof r !== "object") return null;
+      const { low, high } = r as { low?: unknown; high?: unknown };
+      if (typeof low !== "number" || typeof high !== "number") return null;
+      return [low, high];
+    };
+
+    const issues = Array.isArray(analysisParsed.issues) ? analysisParsed.issues.map((iss: Record<string, unknown>) => {
+      const probTuple = rangeToTuple(iss.probabilityRangePct);
+      return {
+        label: typeof iss.label === "string" ? iss.label : "Issue",
+        analysis: typeof iss.analysis === "string" ? iss.analysis : "",
+        probabilityRange: probTuple ? [probTuple[0] / 100, probTuple[1] / 100] : null,
+        damagesRange: rangeToTuple(iss.damagesRange),
+        citations: resolveCitations(iss.citedCaseNames),
+      };
+    }) : [];
 
     const allCitedMap = new Map<string, { caseName: string; url: string; year?: number; dollarAmount?: number }>();
     for (const iss of issues) for (const cit of iss.citations) allCitedMap.set(cit.caseName, cit);
     for (const cit of baselineCitedCasesMap.values()) allCitedMap.set(cit.caseName, cit);
 
-    const aiDamagesRange: [number, number] = Array.isArray(analysisParsed.damagesRange) && analysisParsed.damagesRange.length === 2
-      ? [Number(analysisParsed.damagesRange[0]), Number(analysisParsed.damagesRange[1])]
-      : netPosition;
+    const aiDamagesRange: [number, number] = rangeToTuple(analysisParsed.damagesRange) ?? netPosition;
 
     return jsonResponse({
       extractedFacts,
