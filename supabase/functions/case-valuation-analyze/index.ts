@@ -821,7 +821,20 @@ Deno.serve(async (req) => {
     }, 429);
   }
 
-  // ---- Step 4: reserve the slot, THEN (and only then) call Claude ----
+  // ---- Step 4: validate the request, THEN (and only then) call Claude ----
+  // A credit is logged/consumed only once an analysis actually completes
+  // and a real result is about to be returned (see the success path at
+  // the bottom of the try block below) -- NOT here, before Claude is even
+  // called. This used to reserve the slot up front on the theory that
+  // "safer to slightly under-serve a user on a bad day than let a retry
+  // loop mint free credits" -- but the daily burst cap above already
+  // guards against abusive retries independently of the credit balance,
+  // and charging a credit for a request that was always going to fail
+  // (a malformed schema, a missing API key, a network/CORS problem that
+  // never even reached this function) isn't "serving a user on a bad
+  // day," it's charging them for a bug. Confirmed this was happening in
+  // practice: several consecutive schema-validation failures during
+  // debugging each still logged a row here and burned a real credit.
   let requestBody: { documentText?: string; category?: string; userSide?: "sideA" | "sideB" | null; expectToTrial?: boolean; settlementOnTable?: number | null };
   try {
     requestBody = await req.json();
@@ -836,13 +849,6 @@ Deno.serve(async (req) => {
     return jsonResponse({ error: "Unrecognized litigation category" }, 400);
   }
   const documentText = requestBody.documentText.slice(0, MAX_DOC_CHARS);
-
-  const { error: logError } = await supabaseAdmin
-    .from("case_valuation_analyses")
-    .insert({ user_id: userId, category });
-  if (logError) {
-    return jsonResponse({ error: "Could not log this analysis — try again" }, 500);
-  }
 
   if (!ANTHROPIC_API_KEY || !anthropic) {
     // Safe failure mode: the gate above is fully live and correct even
@@ -1083,6 +1089,20 @@ Deno.serve(async (req) => {
     for (const cit of baselineCitedCasesMap.values()) allCitedMap.set(cit.caseName, cit);
 
     const aiDamagesRange: [number, number] = rangeToTuple(analysisParsed.damagesRange) ?? netPosition;
+
+    // Only NOW, with a real completed analysis about to go back to the
+    // user, does this consume a credit -- see the note at Step 4 above.
+    // Deliberately not awaited-and-checked as fatally as the other
+    // Supabase calls in this function: the analysis itself already
+    // succeeded and cost real Claude API spend, so a logging hiccup here
+    // shouldn't throw away a good result the user is about to receive.
+    // It does mean a user could in rare cases get one extra free analysis
+    // if this specific insert fails -- an acceptable trade given the
+    // alternative (silently eating a successful, paid-for result) is worse.
+    const { error: logError } = await supabaseAdmin
+      .from("case_valuation_analyses")
+      .insert({ user_id: userId, category });
+    if (logError) console.error("Failed to log completed analysis (credit not deducted):", logError);
 
     return jsonResponse({
       extractedFacts,
