@@ -213,4 +213,14 @@
   }
 
   render();
+
+  // The filter bar (#filters-anchor) sits below content this script renders
+  // asynchronously (timeline, city spotlight, case grid), so the browser's
+  // native on-load anchor scroll fires before the page has its final height
+  // and lands short. Re-run the scroll once render() above has settled.
+  if (window.location.hash === "#filters-anchor") {
+    requestAnimationFrame(() => {
+      document.getElementById("filters-anchor")?.scrollIntoView({ block: "start" });
+    });
+  }
 })();
