@@ -1033,7 +1033,15 @@ Deno.serve(async (req) => {
     // that never gets a response can't show anything went wrong).
     const analysisStream = anthropic.messages.stream({
       model: NARRATIVE_MODEL,
-      max_tokens: 8192,
+      // Was 8192 -- too tight a budget for adaptive thinking at xhigh
+      // effort on a full document: thinking can legitimately consume
+      // most or all of a small max_tokens budget on a hard problem,
+      // leaving nothing left for the actual JSON answer (content comes
+      // back with a thinking block but no text block at all). 32000
+      // gives real headroom for both without going as far as the skill's
+      // ~64000 streaming default, which costs more than this feature
+      // needs for a single-document analysis.
+      max_tokens: 32000,
       thinking: { type: "adaptive" },
       output_config: { effort: "xhigh", format: { type: "json_schema", schema: analysisSchema } },
       system:
@@ -1056,7 +1064,16 @@ Deno.serve(async (req) => {
     });
     const analysis = await analysisStream.finalMessage();
     const analysisText = analysis.content.find((b): b is Anthropic.TextBlock => b.type === "text")?.text;
-    if (!analysisText) throw new Error("Analysis pass returned no output");
+    if (!analysisText) {
+      // TEMPORARY (same debug-scaffolding pattern as the outer catch
+      // block): include stop_reason and the actual content block types
+      // returned, so if raising max_tokens above doesn't fully fix this,
+      // the next report says exactly why instead of needing another
+      // guess-and-redeploy round.
+      throw new Error(
+        `Analysis pass returned no output (stop_reason: ${analysis.stop_reason}, content block types: [${analysis.content.map((b) => b.type).join(", ")}])`
+      );
+    }
     const analysisParsed = JSON.parse(analysisText);
 
     // Validate every cited case name against the real pool -- drop anything
