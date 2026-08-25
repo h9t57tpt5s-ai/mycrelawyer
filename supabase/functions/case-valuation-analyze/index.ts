@@ -705,7 +705,15 @@ function buildExtractionSchema(categorySlug: string) {
     else if (f.type === "select") properties[f.key] = { type: ["string", "null"], enum: [...(f.options || []), null], description: f.label };
     else if (f.type === "state") properties[f.key] = { type: ["string", "null"], enum: [...STATE_CODES, null], description: f.label };
   }
-  return { type: "object", properties, required: ["filingParty"] };
+  // Anthropic's structured-output json_schema format requires
+  // additionalProperties:false on every object AND every key in
+  // `properties` to also appear in `required` (nullable types, via the
+  // `[type, "null"]` unions above, are how an individual field is allowed
+  // to come back empty -- "required" here means "present in the output,
+  // possibly as null", not "the model must find a value"). This schema
+  // previously only listed "filingParty" in required with everything else
+  // left out entirely, which the API rejects outright.
+  return { type: "object", properties, required: Object.keys(properties), additionalProperties: false };
 }
 
 Deno.serve(async (req) => {
@@ -924,11 +932,18 @@ Deno.serve(async (req) => {
               damagesRange: { type: ["array", "null"], items: { type: "number" }, minItems: 2, maxItems: 2, description: "[low, high] dollar range for this specific issue, if it has an independent dollar value." },
               citedCaseNames: { type: "array", items: { type: "string" }, description: "Exact case name(s) from the reference list below that support this issue -- ONLY names copied exactly from that list, or an empty array if none apply." },
             },
-            required: ["label", "analysis", "citedCaseNames"],
+            // Structured-output schemas require every property in
+            // `required` (nullable types carry the real "optional"
+            // semantics) plus additionalProperties:false on every object,
+            // same as the top-level schema below -- both were missing
+            // here, which the API rejects.
+            required: ["label", "analysis", "probabilityRangePct", "damagesRange", "citedCaseNames"],
+            additionalProperties: false,
           },
         },
       },
       required: ["narrative", "likelyOutcome", "damagesRange", "issues"],
+      additionalProperties: false,
     };
 
     const analysis = await anthropic.messages.create({
