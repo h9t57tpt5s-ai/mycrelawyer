@@ -132,13 +132,17 @@
       { key: "selfHelpUsed", label: "Did the landlord use self-help (change locks, etc.)?", type: "boolean" },
       { key: "selfHelpProcessFollowed", label: "If self-help was used, was the state's required process followed?", type: "select", options: ["yes", "no", "unclear"] },
       { key: "wrongfulLockoutDamages", label: "If wrongful lockout: tenant's actual damages claimed (relocation, lost inventory/profits) ($)", type: "number" },
+      { key: "daysLockedOut", label: "If wrongful lockout: number of days the tenant was locked out (for per-day statutory penalty states)", type: "number" },
+      { key: "selfHelpDisruptedThirdPartyContracts", label: "Did the lockout disrupt the tenant's contracts with its own customers/suppliers/employees (not just occupancy)?", type: "boolean" },
+      { key: "lostProfitsFromInterference", label: "If so: tenant's lost profits claimed from that third-party contract disruption ($)", type: "number" },
       { key: "repairFailureOrInterferenceClaimed", label: "Is the tenant alleging failure to repair / interference with use?", type: "boolean" },
       { key: "gaveCureNoticeLandlordFailedToAct", label: "Did the tenant give notice and the landlord fail to act?", type: "boolean" },
       { key: "depositAmount", label: "Security deposit amount ($)", type: "number" },
       { key: "depositDisputed", label: "Is the deposit withheld/disputed?", type: "boolean" },
       { key: "landlordProvidedItemization", label: "Did the landlord provide an itemization of deductions?", type: "boolean" },
       { key: "releaseWorkCosts", label: "Costs incurred/anticipated to re-lease the space — landlord's work, tenant-improvement allowance, leasing commissions ($)", type: "number" },
-      { key: "hasFeeShiftingClause", label: "Does the lease have an attorney's-fees (fee-shifting) clause?", type: "boolean" }
+      { key: "hasFeeShiftingClause", label: "Does the lease have an attorney's-fees (fee-shifting) clause?", type: "boolean" },
+      { key: "litigationPosture", label: "Litigation posture (for attorney's-fees estimate)", type: "select", options: ["default", "answered-passive", "contested-msj", "trial"] }
     ],
     "lending-foreclosure": [
       { key: "loanBalance", label: "Outstanding loan balance ($)", type: "number" },
@@ -149,7 +153,12 @@
       { key: "receivershipMotionFiled", label: "Has a receivership motion been filed?", type: "boolean" },
       { key: "guarantyTriggerAlleged", label: "Is a guaranty carve-out trigger event alleged (fraud, waste, unauthorized transfer, etc.)?", type: "boolean" },
       { key: "guaranteedBalance", label: "Guaranteed loan balance ($)", type: "number" },
-      { key: "lenderMisconductAlleged", label: "Does the borrower allege lender misconduct (bad faith, wrongful acceleration)?", type: "boolean" }
+      { key: "guarantorAssertsCounterclaimOrOffset", label: "Does the guarantor assert a counterclaim or offset against the guaranty?", type: "boolean" },
+      { key: "lenderMisconductAlleged", label: "Does the borrower allege lender misconduct (bad faith, wrongful acceleration)?", type: "boolean" },
+      { key: "egregiousConductAlleged", label: "If lender misconduct alleged: is it egregious / clear bad faith (opens exemplary damages)?", type: "boolean" },
+      { key: "lenderLiabilityDamagesClaimed", label: "If lender misconduct alleged: borrower's claimed damages (contract, lost profits, out-of-pocket) ($)", type: "number" },
+      { key: "hasFeeShiftingClause", label: "Does the loan/guaranty documentation have an attorney's-fees (fee-shifting) clause?", type: "boolean" },
+      { key: "litigationPosture", label: "Litigation posture (for attorney's-fees estimate)", type: "select", options: ["default", "answered-passive", "contested-msj", "trial"] }
     ],
     "reit-securities": [
       { key: "stockDropAlleged", label: "Is a stock-price drop tied to a misrepresentation/omission alleged?", type: "boolean" },
@@ -281,6 +290,9 @@
       facts.mitigationDuty = m.mitigationDuty;
       facts.holdoverStatutoryPenalty = m.holdoverStatutoryPenalty;
       facts.selfHelpAvailable = m.selfHelpAvailable;
+      facts.wrongfulLockoutRemedyType = m.wrongfulLockoutRemedyType;
+      facts.wrongfulLockoutRemedyValue = m.wrongfulLockoutRemedyValue;
+      facts.wrongfulLockoutCitation = m.wrongfulLockoutCitation;
     }
     return facts;
   }

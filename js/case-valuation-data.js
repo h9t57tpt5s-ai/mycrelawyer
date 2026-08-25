@@ -67,7 +67,10 @@ const CASE_VALUATION_DATA = {
             "damages": {
               "formula": "presentValueOfLevelStream(netFutureRent, remainingMonths, discountRate)",
               "netFutureRent": "grossFutureRent (remainingMonths * monthlyRent), net of actual/anticipated replacement-tenant rent if re-let, else a modest mitigation-uncertainty haircut keyed to state mitigationDuty",
-              "discountRate": [0.05, 0.09],
+              "discountRate": [
+                0.05,
+                0.09
+              ],
               "note": "Discounted to present value using a 5-9% annual rate range, not a flat percentage-of-gross haircut -- required under case law (e.g. HealthSouth Rehabilitation Corp. v. Falcon Management Co., 799 So.2d 177, 185 (Ala. 2001)) and matches real accelerated-rent damages methodology -- see The Village at Brocks Gap, LLC v. Singleton Ventures, LLC citation below, which used a 6.0% rate.",
               "reletOverride": "if landlord has re-let, net future rent = grossFutureRent - actual/anticipated overlapping new rent, BEFORE present-value discounting"
             }
@@ -94,8 +97,8 @@ const CASE_VALUATION_DATA = {
               0.95
             ],
             "damages": {
-              "formula": "monthlyRent * holdoverMultiplier * holdoverMonths",
-              "note": "holdoverMultiplier pulled from the specific state's chapter text, not assumed"
+              "formula": "monthlyRent * 1.5 * holdoverMonths (low) to monthlyRent * 2 * holdoverMonths (high)",
+              "note": "Per counsel-of-record review: highly fact/lease specific, but a flat 3x multiplier is uncommon in practice and overstated the typical case; 1.5x-2x is more realistic, and a holdover fact pattern itself is a relatively rare subtype of lease dispute (most lease disputes are nonpayment or abandonment, not holdover)."
             }
           },
           "attorney_fees": {
@@ -104,9 +107,9 @@ const CASE_VALUATION_DATA = {
             "appliesIf": "hasFeeShiftingClause",
             "baseProbability": "weighted average of probabilities of the other pursued claims",
             "damages": {
-              "formula": "principalDamages * feeRatio",
-              "feeRatio": "tiered by BOTH principal size AND contestedness (disputed debt and/or tenant-side defense claims present) -- uncontested: under $100k [0.20, 0.35], $100k-$1M [0.08, 0.15], over $1M [0.01, 0.04]; contested: under $100k [0.30, 0.50], $100k-$1M [0.15, 0.30], over $1M [0.04, 0.12]",
-              "note": "Attorney fees scale sub-linearly with claim size, but contestedness matters just as much -- an uncontested/default-like matter can resolve on a rocket-docket summary judgment for a fraction of what a genuinely contested matter (real discovery, motion practice, possible trial) costs. See The Village at Brocks Gap, LLC v. Singleton Ventures, LLC citation, where fees + costs totaled ~1.3% of a ~$4.19M accelerated-rent recovery -- but that matter was essentially UNCONTESTED (the tenant/guarantor did not meaningfully oppose summary judgment), so that ratio anchors the uncontested tier only, not contested matters."
+              "formula": "feesByPosture(facts, isContested) -- a posture-tiered FLAT DOLLAR estimate, NOT a percentage of principal damages",
+              "feeTiers": "default (no answer filed) $5,000-$10,000; answered-passive (answer filed, not actively litigated) $15,000-$25,000; contested-msj (actively contested, resolved on summary judgment) $20,000-$45,000; trial $50,000-$200,000",
+              "note": "SUPERSEDES the earlier percentage-of-principal model. Per counsel-of-record review, fees are driven overwhelmingly by procedural effort/posture, not claim size -- a $50k claim litigated to trial and a $5M claim litigated to trial cost roughly the same in fees. isContested is derived from tenantDisputesDebt or the presence of a wrongful_lockout/quiet_enjoyment_breach claim. See The Village at Brocks Gap, LLC v. Singleton Ventures, LLC citation for a real UNCONTESTED data point (fees + costs ~1.3% of a ~$4.19M recovery, consistent with the low end of the default/answered-passive tiers for a claim of that size) -- that matter does not calibrate the contested tiers."
             }
           },
           "property_damage": {
@@ -148,8 +151,21 @@ const CASE_VALUATION_DATA = {
               ]
             },
             "damages": {
-              "formula": "actualDamages + (statutoryPenaltyMultiplier ? actualDamages * (statutoryPenaltyMultiplier - 1) : 0)",
-              "note": "actualDamages = relocation + lost inventory + provable lost profits, minus any lease consequential-damages waiver; statutoryPenaltyMultiplier pulled per-state from handbook chapter, not assumed to exist"
+              "formula": "computeWrongfulLockoutDamages(facts) -- branches on the specific state's statutory remedy MECHANISM, not just a flat multiplier: 'multiplier' states (e.g. NY, NJ treble damages) multiply actualDamages; 'per-day' states (e.g. CA $100/day) add a per-diem penalty on top of actualDamages; 'floor' states (e.g. TX greater-of-one-month's-rent-or-$500) add a statutory floor amount; 'actual-only' states (no confirmed enhancement researched, or none exists) return actualDamages only. Per-state mechanism/value/citation live in stateLawModifiers[state].wrongfulLockoutRemedyType/Value/Citation.",
+              "note": "actualDamages = relocation + lost inventory + provable lost profits, minus any lease consequential-damages waiver. Researched for 8 states so far (TX, CA, NY, NJ, FL, IL, GA, PA); all others default to actual-only with an explicit 'not yet researched' flag rather than assuming a multiplier exists."
+            }
+          },
+          "tortious_interference_lost_profits": {
+            "side": "sideB",
+            "label": "Tortious Interference with Contract (Lost Profits)",
+            "appliesIf": "selfHelpUsed && selfHelpDisruptedThirdPartyContracts && lostProfitsFromInterference > 0",
+            "baseProbability": [
+              0.25,
+              0.55
+            ],
+            "damages": {
+              "formula": "lostProfitsFromInterference * [0.4, 0.9]",
+              "note": "A separate theory from the wrongful-lockout claim: if the lockout disrupted the tenant's contracts with its own customers, suppliers, or employees (not just its occupancy), that can independently support tortious interference with contract and open a distinct lost-profits exposure to the landlord. Requires proving intent/improper means and a specific disrupted business expectancy -- fact-intensive; flagged per counsel-of-record review as a real potential landlord liability where self-help is threatened or used, not yet grounded to a specific case citation."
             }
           },
           "quiet_enjoyment_breach": {
@@ -224,8 +240,9 @@ const CASE_VALUATION_DATA = {
               }
             ],
             "damages": {
-              "formula": "outstandingLoanBalance + accruedInterestAndFees + lenderProtectiveAdvances - foreclosureSaleProceeds",
-              "researchNote": "19-case sample: undisputed defaults produce stipulated judgments tracking loan balance closely (AFF IV 200 Miami v. Stonerock: $65.7M judgment on $41.1M principal). Recovery-against-judgment varies enormously by asset quality — severely impaired assets can see near-zero sale recovery (750 Lexington Ave: $155.9M judgment, property reverted for $1,000 after zero-bid auction) up to ~45% (KeyBank Tower Columbus: $5.1M sale vs $9.3M claim). Lender protective advances (taxes, insurance) can meaningfully inflate the judgment beyond original principal (Hillsboro Beach Resort: $26M loan + ~$2.9M advances = $40M judgment). Deficiency-judgment AVAILABILITY itself varies by state/foreclosure method — needs a state-law modifier, not yet built."
+              "formula": "max(0, outstandingLoanBalance + lenderProtectiveAdvances - foreclosureSaleProceeds), single deterministic figure (low == high)",
+              "researchNote": "19-case sample: undisputed defaults produce stipulated judgments tracking loan balance closely (AFF IV 200 Miami v. Stonerock: $65.7M judgment on $41.1M principal). Lender protective advances (taxes, insurance) can meaningfully inflate the judgment beyond original principal (Hillsboro Beach Resort: $26M loan + ~$2.9M advances = $40M judgment). Deficiency-judgment AVAILABILITY itself varies by state/foreclosure method \u2014 needs a state-law modifier, not yet built.",
+              "note": "SCOPE CHANGE per counsel-of-record review: this figure is the legal deficiency a court would enter judgment for -- it is NOT a post-judgment collectability forecast. An earlier version of this model applied a 0.5x haircut to the high end to approximate collection risk; that was removed. Collectability depends on the borrower/guarantor's asset picture at judgment, which is explicitly out of scope for this estimator -- the tool answers 'what is this case worth,' not 'what will actually be collected.'"
             }
           },
           "receivership_dispute": {
@@ -236,7 +253,7 @@ const CASE_VALUATION_DATA = {
               0.65,
               0.85
             ],
-            "note": "Refined from a 6-case sample: 5 of 6 resulted in a receiver appointed (the lone initial denial, Independent Bank v. Adelaide Pointe, was later granted on renewed motion once factual disputes were developed). Typical fact pattern is occupancy/income decline colliding with an unrefinanceable maturity — not borrower fraud/misconduct — and involves institutionally sophisticated owners as often as not. Sample is small and recency-skewed (2024-2026 office-distress cycle); treat this range as directional, not final.",
+            "note": "Refined from a 6-case sample: 5 of 6 resulted in a receiver appointed (the lone initial denial, Independent Bank v. Adelaide Pointe, was later granted on renewed motion once factual disputes were developed). Typical fact pattern is occupancy/income decline colliding with an unrefinanceable maturity \u2014 not borrower fraud/misconduct \u2014 and involves institutionally sophisticated owners as often as not. Sample is small and recency-skewed (2024-2026 office-distress cycle); treat this range as directional, not final.",
             "damages": {
               "formula": "not a damages claim -- operational-control relief, not a dollar figure",
               "isRange": false
@@ -250,11 +267,25 @@ const CASE_VALUATION_DATA = {
               0.7,
               0.92
             ],
-            "note": "Revised UP from the original preliminary estimate: all 3 sampled guaranty-enforcement cases (Cherryland Mall, Princeton Park, Gratiot Avenue) resulted in FULL personal liability for the guarantor once a carve-out trigger was found — even for purely technical/springing breaches (insolvency, unauthorized subordinate debt later cured) with no fraud or intentional waste. This probability applies once a trigger event is credibly alleged; separately and NOT modeled with a probability here, PROVING the trigger event in the first place is the genuinely contested, fact-specific question.",
+            "note": "Revised UP from the original preliminary estimate: all 3 sampled guaranty-enforcement cases (Cherryland Mall, Princeton Park, Gratiot Avenue) resulted in FULL personal liability for the guarantor once a carve-out trigger was found \u2014 even for purely technical/springing breaches (insolvency, unauthorized subordinate debt later cured) with no fraud or intentional waste. This probability applies once a trigger event is credibly alleged; separately and NOT modeled with a probability here, PROVING the trigger event in the first place is the genuinely contested, fact-specific question.",
+            "modifiers": [
+              {
+                "if": "guarantorAssertsCounterclaimOrOffset",
+                "probability": [0.45, 0.70],
+                "damagesFraction": [0.50, 0.85],
+                "note": "Per counsel-of-record review: recovery totally depends on whether a clear, undisputed carve-out breach exists. Once a counterclaim or offset is pled against the guaranty, it becomes a genuinely contested fact question and both probability and expected dollar recovery drop meaningfully."
+              },
+              {
+                "if": "!guarantorAssertsCounterclaimOrOffset",
+                "probability": [0.80, 0.97],
+                "damagesFraction": [0.95, 1.0],
+                "note": "Clean, undisputed carve-out breach -- case value should approach the full measure of the guaranteed balance."
+              }
+            ],
             "damages": {
-              "formula": "guaranteedLoanBalance (full recourse) or triggerSpecificLossAmount (springing/partial carve-out)",
+              "formula": "guaranteedLoanBalance * damagesFraction (see modifiers -- branches on whether a counterclaim/offset is pled)",
               "isRange": false,
-              "researchNote": "Sample dollar figures ($2.1M, $5.2M, $12.2M) scale with underlying loan size, not triggering-conduct severity — a $400K unauthorized loan repaid 7 months later produced the same full-recourse outcome as outright insolvency."
+              "researchNote": "Sample dollar figures ($2.1M, $5.2M, $12.2M) scale with underlying loan size, not triggering-conduct severity \u2014 a $400K unauthorized loan repaid 7 months later produced the same full-recourse outcome as outright insolvency."
             }
           },
           "lender_liability_claim": {
@@ -265,10 +296,27 @@ const CASE_VALUATION_DATA = {
               0.15,
               0.35
             ],
-            "note": "Confirmed low (kept at 0.15–0.35): 19-case sample shows 1980s-era cases succeeded with large verdicts (K.M.C. v. Irving Trust, Barrett v. Bank of America, $6.6–$7.5M) under now-dated, more borrower-friendly doctrine. Recent CRE lender-liability suits (Steinway Tower/111 W57, Via Mizner/Mandarin Oriental) are trending toward procedural wins (reinstated claims, remands, a 6-week TRO) rather than dollar outcomes, and take years to resolve even when they eventually succeed.",
+            "modifiers": [
+              {
+                "if": "egregiousConductAlleged",
+                "probability": [0.20, 0.40],
+                "note": "Egregious conduct (clear bad faith) shifts the odds up somewhat, and per counsel-of-record review opens exemplary/punitive damages as a real component alongside contract damages, lost profits, and out-of-pocket costs."
+              }
+            ],
+            "note": "Confirmed low (kept at 0.15\u20130.35 absent egregious conduct): 19-case sample shows 1980s-era cases succeeded with large verdicts (K.M.C. v. Irving Trust, Barrett v. Bank of America, $6.6\u2013$7.5M) under now-dated, more borrower-friendly doctrine. Recent CRE lender-liability suits (Steinway Tower/111 W57, Via Mizner/Mandarin Oriental) are trending toward procedural wins (reinstated claims, remands, a 6-week TRO) rather than dollar outcomes, and take years to resolve even when they eventually succeed. Per counsel-of-record review, a borrower win has a real damages component: typically contract damages, lost profits, out-of-pocket costs, and potentially exemplary damages in egregious cases.",
             "damages": {
-              "formula": "comparable-case-informed range; consequential/lost-profit damages often limited by loan-agreement waiver clauses",
+              "formula": "lenderLiabilityDamagesClaimed * [0.20, 0.55] (non-egregious) or lenderLiabilityDamagesClaimed * [0.35, 1.5] (egregious, reflecting exemplary-damages exposure)",
               "isRange": true
+            }
+          },
+          "attorney_fees": {
+            "side": "sideA",
+            "label": "Attorney's Fees",
+            "appliesIf": "hasFeeShiftingClause",
+            "baseProbability": "weighted average of probabilities of the other pursued claims",
+            "damages": {
+              "formula": "feesByPosture(facts, isContested) -- same posture-tiered flat-dollar model used for lease-disputes",
+              "note": "Per counsel-of-record review (Q8): same treatment as lease-disputes attorney's fees. isContested = borrowerDisputesDefault OR guarantorAssertsCounterclaimOrOffset -- i.e., either the borrower disputes the debt/default, or the guarantor disputes the debt via a counterclaim or offset."
             }
           }
         }
@@ -288,7 +336,7 @@ const CASE_VALUATION_DATA = {
               0.35,
               0.55
             ],
-            "note": "Stanford Securities Class Action Clearinghouse (the designated primary source) was inaccessible for this research pass (site under construction, expected back Winter 2026) — rerun once it's back online, since it would likely surface more, smaller mortgage-REIT and non-traded-REIT settlements this pass couldn't find via general web search.",
+            "note": "Stanford Securities Class Action Clearinghouse (the designated primary source) was inaccessible for this research pass (site under construction, expected back Winter 2026) \u2014 rerun once it's back online, since it would likely surface more, smaller mortgage-REIT and non-traded-REIT settlements this pass couldn't find via general web search.",
             "damages": {
               "formula": "settlementPercentOfEstimatedInvestorLosses",
               "percentRange": [
@@ -309,7 +357,7 @@ const CASE_VALUATION_DATA = {
                     0.1,
                     0.25
                   ],
-                  "note": "the presence of any of these tends to push the settlement an order of magnitude higher — ARCP/VEREIT ($1.025B total) combined a criminally-convicted CFO, a co-liable auditor (Grant Thornton, $49M), and a co-liable external manager (~$225-286.5M)"
+                  "note": "the presence of any of these tends to push the settlement an order of magnitude higher \u2014 ARCP/VEREIT ($1.025B total) combined a criminally-convicted CFO, a co-liable auditor (Grant Thornton, $49M), and a co-liable external manager (~$225-286.5M)"
                 }
               }
             }
@@ -334,7 +382,7 @@ const CASE_VALUATION_DATA = {
                   0.55,
                   0.8
                 ],
-                "note": "an internalization at an inflated price, a merger timed/structured to enrich the founder, a related-party fee arrangement — Quinn v. Knight $32M, Inland Western ~$90M forfeited stock, Hospitality Investors Trust $15.2M"
+                "note": "an internalization at an inflated price, a merger timed/structured to enrich the founder, a related-party fee arrangement \u2014 Quinn v. Knight $32M, Inland Western ~$90M forfeited stock, Hospitality Investors Trust $15.2M"
               },
               {
                 "if": "genericGovernanceComplaintOnly",
@@ -342,7 +390,7 @@ const CASE_VALUATION_DATA = {
                   0.05,
                   0.15
                 ],
-                "note": "piggybacking on an already-successful activist proxy fight, or a self-dealing allegation resolved via a voting/cooperation agreement instead of litigation — these tend to settle for governance changes plus a nominal fee reimbursement, with NO disclosed cash recovery to the company (CommonWealth REIT $200K; Blackwells v. GNL, no disclosed cash despite an $838M excess-fee allegation)"
+                "note": "piggybacking on an already-successful activist proxy fight, or a self-dealing allegation resolved via a voting/cooperation agreement instead of litigation \u2014 these tend to settle for governance changes plus a nominal fee reimbursement, with NO disclosed cash recovery to the company (CommonWealth REIT $200K; Blackwells v. GNL, no disclosed cash despite an $838M excess-fee allegation)"
               }
             ]
           },
@@ -373,7 +421,7 @@ const CASE_VALUATION_DATA = {
                   0.1,
                   0.25
                 ],
-                "note": "courts are much more willing to dismiss for failure to plead materiality — St. Clair-Hibbard v. American Finance Trust (2d Cir. 2020): boilerplate conflict-of-interest/trading-discount warnings defeated the claim even without quantifying the risk"
+                "note": "courts are much more willing to dismiss for failure to plead materiality \u2014 St. Clair-Hibbard v. American Finance Trust (2d Cir. 2020): boilerplate conflict-of-interest/trading-discount warnings defeated the claim even without quantifying the risk"
               }
             ]
           },
@@ -385,7 +433,7 @@ const CASE_VALUATION_DATA = {
               0.1,
               0.25
             ],
-            "note": "Confirmed low real-recovery probability (kept at 0.10–0.25): the classic 'disclosure-only settlement' pattern — supplemental proxy disclosures get added, suits get mooted, and post-Trulia courts have grown skeptical of paying a 'mootness fee' for it at all. Where a mootness fee IS paid, it goes to plaintiff's counsel (typically $75K–$500K), not to shareholders as a per-share recovery — model this claim type as high-frequency, low-dollar-value litigation risk, and make the counsel-fee-vs-shareholder-recovery distinction explicit in the UI.",
+            "note": "Confirmed low real-recovery probability (kept at 0.10\u20130.25): the classic 'disclosure-only settlement' pattern \u2014 supplemental proxy disclosures get added, suits get mooted, and post-Trulia courts have grown skeptical of paying a 'mootness fee' for it at all. Where a mootness fee IS paid, it goes to plaintiff's counsel (typically $75K\u2013$500K), not to shareholders as a per-share recovery \u2014 model this claim type as high-frequency, low-dollar-value litigation risk, and make the counsel-fee-vs-shareholder-recovery distinction explicit in the UI.",
             "damages": {
               "formula": "usually a mootness fee to counsel (modest, often $75K-$500K) rather than a per-share shareholder recovery; flag this distinction explicitly in the UI"
             }
@@ -415,10 +463,10 @@ const CASE_VALUATION_DATA = {
               ],
               "tiers": {
                 "catastrophicLifeSafetyFailure": {
-                  "note": "structural collapse, or a defect too severe to safely complete construction — the outlier top of the range: Champlain Towers South ($997M), Harmon Hotel ($195M, ended in demolition), Tropicana garage collapse ($101M), Milwaukee garage panel collapse ($39M). These anchor the top of a valuation range, not the median."
+                  "note": "structural collapse, or a defect too severe to safely complete construction \u2014 the outlier top of the range: Champlain Towers South ($997M), Harmon Hotel ($195M, ended in demolition), Tropicana garage collapse ($101M), Milwaukee garage panel collapse ($39M). These anchor the top of a valuation range, not the median."
                 },
                 "postOccupancyLatentDefect": {
-                  "note": "water intrusion, facade/envelope failure, HVAC/MEP — roughly $10M-$56M in this sample regardless of unit count. Defect PERVASIVENESS across every unit is a stronger driver of settlement size than raw unit count or building height (Park Hill: only 10 units but ~$2.65M/unit, the highest per-unit figure in the sample, because the defect was pervasive)."
+                  "note": "water intrusion, facade/envelope failure, HVAC/MEP \u2014 roughly $10M-$56M in this sample regardless of unit count. Defect PERVASIVENESS across every unit is a stronger driver of settlement size than raw unit count or building height (Park Hill: only 10 units but ~$2.65M/unit, the highest per-unit figure in the sample, because the defect was pervasive)."
                 }
               }
             }
@@ -431,7 +479,7 @@ const CASE_VALUATION_DATA = {
               0.35,
               0.6
             ],
-            "note": "Sample too thin to refine (both sampled cases — Princeton/TWBTA, Clark Construction/Perkins Eastman — have undisclosed final outcomes, only amounts sought). Base rate kept at the original preliminary estimate.",
+            "note": "Sample too thin to refine (both sampled cases \u2014 Princeton/TWBTA, Clark Construction/Perkins Eastman \u2014 have undisclosed final outcomes, only amounts sought). Base rate kept at the original preliminary estimate.",
             "damages": {
               "formula": "repairAndRedesignCostEstimate"
             }
@@ -447,7 +495,7 @@ const CASE_VALUATION_DATA = {
             "note": "PRELIMINARY -- outcome heavily contract-language-dependent (broad-form vs. comparative-fault indemnity clauses, which many states restrict or void by statute)",
             "damages": {
               "formula": "allocatedShareOfUnderlyingDefectDamages",
-              "researchNote": "Where a defect traces to a specific subcontractor's workmanship, fault allocation strongly favors that subcontractor (Milwaukee garage: 88% sub / 10% GC / 2% owner — the clearest allocation data point found). Where a design professional is a co-defendant alongside developer/GC, their share is consistently smaller than the builder's on the same facts (Grandview: architect took ~10% of the total, $1M of $10M) — professional E&O coverage limits are typically much smaller than a GC's CGL policy."
+              "researchNote": "Where a defect traces to a specific subcontractor's workmanship, fault allocation strongly favors that subcontractor (Milwaukee garage: 88% sub / 10% GC / 2% owner \u2014 the clearest allocation data point found). Where a design professional is a co-defendant alongside developer/GC, their share is consistently smaller than the builder's on the same facts (Grandview: architect took ~10% of the total, $1M of $10M) \u2014 professional E&O coverage limits are typically much smaller than a GC's CGL policy."
             }
           },
           "insurance_coverage_defect_dispute": {
@@ -458,7 +506,7 @@ const CASE_VALUATION_DATA = {
               0.45,
               0.65
             ],
-            "note": "Coverage litigation resolves the LEGAL question (duty to defend/indemnify, exclusion scope) in a published opinion while the dollar consequences flow through confidential settlements downstream — only 1 of 3 sampled cases disclosed even a damages floor for the underlying claim. Base rate kept at the original preliminary estimate; treat any output for this claim type as a coverage-yes/no signal more than a dollar estimate.",
+            "note": "Coverage litigation resolves the LEGAL question (duty to defend/indemnify, exclusion scope) in a published opinion while the dollar consequences flow through confidential settlements downstream \u2014 only 1 of 3 sampled cases disclosed even a damages floor for the underlying claim. Base rate kept at the original preliminary estimate; treat any output for this claim type as a coverage-yes/no signal more than a dollar estimate.",
             "damages": {
               "formula": "coveredPortionOfUnderlyingDefectDamages"
             }
@@ -480,31 +528,31 @@ const CASE_VALUATION_DATA = {
               0.65,
               0.85
             ],
-            "note": "Almost every disclosed CERCLA cost-recovery outcome in the research sample is a NEGOTIATED settlement, not an adversarial verdict — liability is strict/joint/several once PRP status attaches, so litigation is mostly about allocation share, not a binary win/loss. Treat the probability range as 'likelihood of obtaining a meaningful allocation,' not 'likelihood of prevailing at trial.'",
+            "note": "Almost every disclosed CERCLA cost-recovery outcome in the research sample is a NEGOTIATED settlement, not an adversarial verdict \u2014 liability is strict/joint/several once PRP status attaches, so litigation is mostly about allocation share, not a binary win/loss. Treat the probability range as 'likelihood of obtaining a meaningful allocation,' not 'likelihood of prevailing at trial.'",
             "damages": {
               "formula": "totalCleanupCost * allocationShare",
-              "note": "PRELIMINARY -- allocationShare is fact-specific (equitable factors under CERCLA §113(f)); refine typical allocation patterns from research",
+              "note": "PRELIMINARY -- allocationShare is fact-specific (equitable factors under CERCLA \u00a7113(f)); refine typical allocation patterns from research",
               "benchmarkTiers": {
                 "waterwayOrMultiDecadeLegacyIndustrialCorridor": {
                   "range": [
                     130000000,
                     670000000
                   ],
-                  "note": "contamination migrated into sediment/groundwater/surface water over decades, affecting a wide area beyond the original parcel — Lower Duwamish Waterway $668M, Solvay PFAS $393M, Raritan Bay Slag $151.1M, Anaconda Smelter $131.3M"
+                  "note": "contamination migrated into sediment/groundwater/surface water over decades, affecting a wide area beyond the original parcel \u2014 Lower Duwamish Waterway $668M, Solvay PFAS $393M, Raritan Bay Slag $151.1M, Anaconda Smelter $131.3M"
                 },
                 "singleParcelSoilOnly": {
                   "range": [
                     3000000,
                     19000000
                   ],
-                  "note": "contamination confined to one parcel, no significant off-site migration — Ringwood Mines final phase $3.4M, Riverside Industrial Park ~$18.8M"
+                  "note": "contamination confined to one parcel, no significant off-site migration \u2014 Ringwood Mines final phase $3.4M, Riverside Industrial Park ~$18.8M"
                 },
                 "smallCommercialStateEnforcementPenalty": {
                   "range": [
                     85000,
                     120000
                   ],
-                  "note": "single gas station or strip-mall dry cleaner state AG enforcement — civil penalty only, separate from and much smaller than the underlying remediation cost (often undisclosed)"
+                  "note": "single gas station or strip-mall dry cleaner state AG enforcement \u2014 civil penalty only, separate from and much smaller than the underlying remediation cost (often undisclosed)"
                 }
               }
             }
@@ -519,7 +567,7 @@ const CASE_VALUATION_DATA = {
             ],
             "damages": {
               "formula": "totalCleanupCost * (coDefendantEquitableShare)",
-              "researchNote": "Courts apply equitable 'Gore factor' adjustments that REDUCE a mechanically-calculated proportional share (Trinity Industries: raw calculation gave 83% to one party, equitable factors reduced it to 62%). A recurring, important limit: the 'orphan share' — costs attributable to defunct, judgment-proof, or unidentifiable historical operators — is often unrecoverable and falls back onto the contribution plaintiff itself (Barclay Lofts: one historical operator's 20% share was assigned as an orphan share the plaintiff must absorb)."
+              "researchNote": "Courts apply equitable 'Gore factor' adjustments that REDUCE a mechanically-calculated proportional share (Trinity Industries: raw calculation gave 83% to one party, equitable factors reduced it to 62%). A recurring, important limit: the 'orphan share' \u2014 costs attributable to defunct, judgment-proof, or unidentifiable historical operators \u2014 is often unrecoverable and falls back onto the contribution plaintiff itself (Barclay Lofts: one historical operator's 20% share was assigned as an orphan share the plaintiff must absorb)."
             }
           },
           "state_cleanup_consent_decree": {
@@ -540,7 +588,7 @@ const CASE_VALUATION_DATA = {
               0.25,
               0.45
             ],
-            "note": "Revised DOWN slightly from the original preliminary estimate: the small sample skewed toward insurers winning on pollution-exclusion/site-development-exclusion grounds (Regency Centers v. Indian Harbor: no coverage owed for legacy dry-cleaner contamination). None of the 3 sampled cases disclosed the underlying remediation-cost dollar figure — the disclosed 'outcome' in this claim type is frequently binary (coverage owed / not owed) rather than a dollar figure.",
+            "note": "Revised DOWN slightly from the original preliminary estimate: the small sample skewed toward insurers winning on pollution-exclusion/site-development-exclusion grounds (Regency Centers v. Indian Harbor: no coverage owed for legacy dry-cleaner contamination). None of the 3 sampled cases disclosed the underlying remediation-cost dollar figure \u2014 the disclosed 'outcome' in this claim type is frequently binary (coverage owed / not owed) rather than a dollar figure.",
             "damages": {
               "formula": "coveredPortionOfCleanupCosts"
             }
@@ -574,10 +622,10 @@ const CASE_VALUATION_DATA = {
                     2.0,
                     5.0
                   ],
-                  "note": "Severance damages, access/business-value loss, or specialized-use improvements (billboards, medical buildings) with no single accepted valuation methodology. VDOT Fairfax retailer case: ~49x; Gleannloch Commercial: 292% (~3.9x); Inglewood VFW Post: 5.2x. Wide, unpredictable spread — use the low end absent a clear severance/business-value component."
+                  "note": "Severance damages, access/business-value loss, or specialized-use improvements (billboards, medical buildings) with no single accepted valuation methodology. VDOT Fairfax retailer case: ~49x; Gleannloch Commercial: 292% (~3.9x); Inglewood VFW Post: 5.2x. Wide, unpredictable spread \u2014 use the low end absent a clear severance/business-value component."
                 }
               },
-              "fullDefenseRisk": "A right-to-take or blight-designation challenge can VOID an already-adjudicated compensation award entirely rather than raise or lower it — PKO Ventures v. Norfolk RHA (VA 2013) voided a ~$3.4-3.75M jury award when the underlying blight designation was found invalid. Flag this as a distinct binary risk in the UI, separate from the valuation-uplift math above."
+              "fullDefenseRisk": "A right-to-take or blight-designation challenge can VOID an already-adjudicated compensation award entirely rather than raise or lower it \u2014 PKO Ventures v. Norfolk RHA (VA 2013) voided a ~$3.4-3.75M jury award when the underlying blight designation was found invalid. Flag this as a distinct binary risk in the UI, separate from the valuation-uplift math above."
             }
           },
           "quick_take_challenge": {
@@ -588,7 +636,7 @@ const CASE_VALUATION_DATA = {
               0.05,
               0.15
             ],
-            "note": "Confirmed low (kept at 0.05–0.15): courts are highly deferential to public-use/necessity determinations post-Kelo. Note the separate, longer-running track: withdrawing a quick-take deposit does NOT waive a right-to-take challenge (LA MTA v. Alameda Produce Market), so an owner isn't forced to choose between needed cash now and continuing to fight the taking's legality.",
+            "note": "Confirmed low (kept at 0.05\u20130.15): courts are highly deferential to public-use/necessity determinations post-Kelo. Note the separate, longer-running track: withdrawing a quick-take deposit does NOT waive a right-to-take challenge (LA MTA v. Alameda Produce Market), so an owner isn't forced to choose between needed cash now and continuing to fight the taking's legality.",
             "damages": {
               "formula": "not a damages claim -- injunctive relief blocking/delaying the taking",
               "isRange": false
@@ -602,7 +650,7 @@ const CASE_VALUATION_DATA = {
               0.05,
               0.2
             ],
-            "note": "Narrowed down from the original preliminary range: courts in this sample consistently sided with the entity seeking access once it showed a plausible path to eminent-domain authority (PSEG v. Arentz Family; Summit Carbon Solutions v. Malloy) — this essentially never carries a compensation figure since that's not what's being litigated. A separate, live track (challenging the underlying eminent-domain authority itself, as in Texas Rice Land Partners v. Denbury) can still defeat the taking down the line, but that's a different claim, not this one.",
+            "note": "Narrowed down from the original preliminary range: courts in this sample consistently sided with the entity seeking access once it showed a plausible path to eminent-domain authority (PSEG v. Arentz Family; Summit Carbon Solutions v. Malloy) \u2014 this essentially never carries a compensation figure since that's not what's being litigated. A separate, live track (challenging the underlying eminent-domain authority itself, as in Texas Rice Land Partners v. Denbury) can still defeat the taking down the line, but that's a different claim, not this one.",
             "damages": {
               "formula": "not typically a damages claim pre-taking",
               "isRange": false
@@ -639,7 +687,7 @@ const CASE_VALUATION_DATA = {
               0.25,
               0.45
             ],
-            "note": "Small 4-case sample roughly consistent with the original estimate (2 reversed, 1 affirmed, 1 undisclosed-on-remand) — kept unchanged pending a larger sample.",
+            "note": "Small 4-case sample roughly consistent with the original estimate (2 reversed, 1 affirmed, 1 undisclosed-on-remand) \u2014 kept unchanged pending a larger sample.",
             "damages": {
               "formula": "not typically a damages claim -- injunctive relief (permit ordered granted) or remand",
               "isRange": false
@@ -657,7 +705,7 @@ const CASE_VALUATION_DATA = {
               "formula": "not typically a damages claim -- declaratory relief invalidating the zoning change",
               "isRange": false
             },
-            "note": "Revised UP from the original preliminary estimate: all 3 sampled challenges succeeded in invalidating the rezoning (Allen Distribution, Lathan, Chaffier). Treat this cautiously — successful challenges are more likely to get published/cited as precedent than unsuccessful ones, so this small sample may be outcome-selection-biased upward. Remedy is categorically injunctive/declaratory (invalidating the ordinance), never damages."
+            "note": "Revised UP from the original preliminary estimate: all 3 sampled challenges succeeded in invalidating the rezoning (Allen Distribution, Lathan, Chaffier). Treat this cautiously \u2014 successful challenges are more likely to get published/cited as precedent than unsuccessful ones, so this small sample may be outcome-selection-biased upward. Remedy is categorically injunctive/declaratory (invalidating the ordinance), never damages."
           },
           "section_1983_zoning_claim": {
             "side": "sideA",
@@ -667,7 +715,7 @@ const CASE_VALUATION_DATA = {
               0.1,
               0.2
             ],
-            "note": "Base rate narrowed down (only 2 of 8 sampled cases produced a disclosed plaintiff recovery) — ordinary administrative error or an arguably wrong denial is NOT enough on its own, even one that costs a developer millions (Rubicon Real Estate Holdings v. City of Pontiac). The modifiers above are the actual determinants; apply the base rate only when none of them are present. When a claim DOES succeed with a disclosed figure, awards run large (Del Monte Dunes $1.45M, Orangetown v. Magee $5.14M+fees) because the injury is a whole project's lost value, not a rent stream — and mandatory fee-shifting under 42 U.S.C. § 1988 stacks on top of the merits recovery for a prevailing plaintiff, though it's irrelevant in the large majority of cases where the municipality prevails.",
+            "note": "Base rate narrowed down (only 2 of 8 sampled cases produced a disclosed plaintiff recovery) \u2014 ordinary administrative error or an arguably wrong denial is NOT enough on its own, even one that costs a developer millions (Rubicon Real Estate Holdings v. City of Pontiac). The modifiers above are the actual determinants; apply the base rate only when none of them are present. When a claim DOES succeed with a disclosed figure, awards run large (Del Monte Dunes $1.45M, Orangetown v. Magee $5.14M+fees) because the injury is a whole project's lost value, not a rent stream \u2014 and mandatory fee-shifting under 42 U.S.C. \u00a7 1988 stacks on top of the merits recovery for a prevailing plaintiff, though it's irrelevant in the large majority of cases where the municipality prevails.",
             "damages": {
               "formula": "compensatoryDamages (lost value/profits) + attorneyFees (mandatory fee-shifting if prevailing)",
               "isRange": true
@@ -718,7 +766,7 @@ const CASE_VALUATION_DATA = {
             "damages": {
               "formula": "comparable-case-informed range (lost development profit, cost overruns, or reliance damages depending on posture)"
             },
-            "note": "Sample (2 cases, Mammoth Lakes $30M+fees and Cle Elum $22M arbitration award) is both small and success-skewed — no losing case was found with comparable documentation. Base rate kept at the original preliminary estimate pending a more balanced sample; treat the high end of the damages range with real confidence (both anchor cases are well-documented) but the probability range as still largely a placeholder."
+            "note": "Sample (2 cases, Mammoth Lakes $30M+fees and Cle Elum $22M arbitration award) is both small and success-skewed \u2014 no losing case was found with comparable documentation. Base rate kept at the original preliminary estimate pending a more balanced sample; treat the high end of the damages range with real confidence (both anchor cases are well-documented) but the probability range as still largely a placeholder."
           }
         }
       }
@@ -870,7 +918,7 @@ const CASE_VALUATION_DATA = {
         "dollarAmount": null,
         "url": "https://www.leagle.com/decision/incaco20250210002",
         "confidence": "high",
-        "notes": "Useful as a 'holdover claim denied' precedent — illustrates the risk to landlords of accepting rent after a termination notice."
+        "notes": "Useful as a 'holdover claim denied' precedent \u2014 illustrates the risk to landlords of accepting rent after a termination notice."
       },
       {
         "caseName": "ESRT 501 Seventh Ave., LLC v. Regine, Ltd.",
@@ -912,7 +960,7 @@ const CASE_VALUATION_DATA = {
         "citation": "358 Ga. App. 311, 855 S.E.2d 55 (Ga. Ct. App. 2021) (Case Nos. A20A2042 & A20A2043)",
         "jurisdiction": "GA",
         "year": 2021,
-        "outcome": "The trial court granted the landlord's fee motion in part but denied the tenant's competing fee motion, rejecting the tenant's argument that it was the 'prevailing party' merely because the landlord had separately failed on a bad-faith fee claim under O.C.G.A. § 13-6-11; the Court of Appeals affirmed both rulings in companion appeals.",
+        "outcome": "The trial court granted the landlord's fee motion in part but denied the tenant's competing fee motion, rejecting the tenant's argument that it was the 'prevailing party' merely because the landlord had separately failed on a bad-faith fee claim under O.C.G.A. \u00a7 13-6-11; the Court of Appeals affirmed both rulings in companion appeals.",
         "dollarAmount": 45667,
         "url": "https://law.justia.com/cases/georgia/court-of-appeals/2021/a20a2043.html",
         "confidence": "medium",
@@ -923,7 +971,7 @@ const CASE_VALUATION_DATA = {
         "citation": "282 Ga. 841, 653 S.E.2d 680 (Ga. 2007) (answering a certified question from the U.S. Court of Appeals for the Eleventh Circuit)",
         "jurisdiction": "GA",
         "year": 2007,
-        "outcome": "The Georgia Supreme Court held that O.C.G.A. § 13-1-11 — a statute historically applied to promissory notes — also applies to commercial leases, capping recoverable attorney's fees at the statutory formula (15% of the first $500 collected plus 10% of the remainder) rather than the actual contractual fee amount, cutting the landlord's fee recovery to roughly $17,000–$17,288 instead of the ~$280,000 sought.",
+        "outcome": "The Georgia Supreme Court held that O.C.G.A. \u00a7 13-1-11 \u2014 a statute historically applied to promissory notes \u2014 also applies to commercial leases, capping recoverable attorney's fees at the statutory formula (15% of the first $500 collected plus 10% of the remainder) rather than the actual contractual fee amount, cutting the landlord's fee recovery to roughly $17,000\u2013$17,288 instead of the ~$280,000 sought.",
         "dollarAmount": 280000,
         "url": "https://www.deflaw.com/insights/georgia-supreme-court-affirms-application-of-attorney-fees-cap-commercial-leases/",
         "confidence": "medium",
@@ -1020,7 +1068,7 @@ const CASE_VALUATION_DATA = {
         "dollarAmount": 2212,
         "url": "https://www.leagle.com/decision/1969678460p2d2181677",
         "confidence": "high",
-        "notes": "Foundational Colorado constructive-eviction definition, arising from a landlord's active construction interference rather than mere disrepair — useful as an 'interference by landlord conduct' fact pattern."
+        "notes": "Foundational Colorado constructive-eviction definition, arising from a landlord's active construction interference rather than mere disrepair \u2014 useful as an 'interference by landlord conduct' fact pattern."
       },
       {
         "caseName": "Reste Realty Corp. v. Cooper",
@@ -1051,22 +1099,22 @@ const CASE_VALUATION_DATA = {
         "citation": "131 Cal. App. 4th 703, 32 Cal. Rptr. 3d 296 (Cal. Ct. App., 1st Dist., 2005)",
         "jurisdiction": "CA",
         "year": 2005,
-        "outcome": "The Court of Appeal held Civil Code § 1950.7 unambiguously limits a commercial security deposit to covering unpaid rent and damages accrued as of the date the deposit is statutorily due back, and requires the landlord to calculate and return any 'excess.' The landlord's retention of the full deposit against speculative future-rent damages violated the statute.",
+        "outcome": "The Court of Appeal held Civil Code \u00a7 1950.7 unambiguously limits a commercial security deposit to covering unpaid rent and damages accrued as of the date the deposit is statutorily due back, and requires the landlord to calculate and return any 'excess.' The landlord's retention of the full deposit against speculative future-rent damages violated the statute.",
         "dollarAmount": null,
         "url": "https://www.courtlistener.com/opinion/2281319/250-llc-v-photopoint-corpusa/",
         "confidence": "high",
-        "notes": "Frequently cited California authority for the proposition that a commercial security deposit cannot be applied to future/anticipated rent damages absent an express lease waiver of Civil Code § 1950.7."
+        "notes": "Frequently cited California authority for the proposition that a commercial security deposit cannot be applied to future/anticipated rent damages absent an express lease waiver of Civil Code \u00a7 1950.7."
       },
       {
         "caseName": "Aljabban v. Fontana Indoor Swap Meet, Inc.",
         "citation": "54 Cal. App. 5th 482 (Cal. Ct. App., 4th Dist., Div. 1, 2020) (unpublished; nonciteable under Cal. R. Ct. 8.1115)",
         "jurisdiction": "CA",
         "year": 2020,
-        "outcome": "The Court of Appeal held that, under Civil Code § 1950.7(c), a commercial landlord may apply a security deposit to repair costs only if the lease expressly authorizes that use; because this lease contained no such authorization, FISM's withholding of the $680 was improper.",
+        "outcome": "The Court of Appeal held that, under Civil Code \u00a7 1950.7(c), a commercial landlord may apply a security deposit to repair costs only if the lease expressly authorizes that use; because this lease contained no such authorization, FISM's withholding of the $680 was improper.",
         "dollarAmount": 680,
         "url": "https://www4.courts.ca.gov/opinions/nonpub/D076214.PDF",
         "confidence": "medium",
-        "notes": "This is an unpublished California opinion; under Cal. R. Ct. 8.1115 it may not be cited as precedent in California courts. Included here only as an illustrative, real, verifiable fact pattern — not as binding authority. Flag this limitation to any user of the valuation tool."
+        "notes": "This is an unpublished California opinion; under Cal. R. Ct. 8.1115 it may not be cited as precedent in California courts. Included here only as an illustrative, real, verifiable fact pattern \u2014 not as binding authority. Flag this limitation to any user of the valuation tool."
       },
       {
         "caseName": "Oak Forest Properties LLC v. RER Financial, Inc.",
@@ -1077,14 +1125,14 @@ const CASE_VALUATION_DATA = {
         "dollarAmount": 3404,
         "url": "https://caselaw.findlaw.com/court/apl-crt-ill-fir-dis-fir-div/1955186.html",
         "confidence": "medium",
-        "notes": "Illinois Rule 23 order — unpublished and of limited precedential value under Illinois court rules, but the facts and dollar figures are independently verifiable from the opinion text. Useful for showing that a small deposit-return win can be swamped by, and irrelevant to, the outcome of much larger contract claims in the same suit."
+        "notes": "Illinois Rule 23 order \u2014 unpublished and of limited precedential value under Illinois court rules, but the facts and dollar figures are independently verifiable from the opinion text. Useful for showing that a small deposit-return win can be swamped by, and irrelevant to, the outcome of much larger contract claims in the same suit."
       },
       {
         "caseName": "Urban Soccer Inc. v. Royal Wine Corp.",
         "citation": "2016 N.Y. Slip Op. 26250 (Sup. Ct., N.Y. Cnty., Commercial Div. 2016)",
         "jurisdiction": "NY",
         "year": 2016,
-        "outcome": "The court found Royal Wine Corp. technically violated GOL § 7-103(2) by holding the deposit outside New York, but held this was a 'technical statutory violation' without fiduciary implications; because there was no commingling and Urban Soccer suffered no actual damages, the statute provided no remedy and the tenant was not entitled to relief.",
+        "outcome": "The court found Royal Wine Corp. technically violated GOL \u00a7 7-103(2) by holding the deposit outside New York, but held this was a 'technical statutory violation' without fiduciary implications; because there was no commingling and Urban Soccer suffered no actual damages, the statute provided no remedy and the tenant was not entitled to relief.",
         "dollarAmount": null,
         "url": "https://www.schlamstone.com/blogs/commercial/2016-08-10-not-maintaining-security-deposit-in-new-york-bank-branch-violates-gol-7-103-no-damages",
         "confidence": "medium",
@@ -1096,7 +1144,7 @@ const CASE_VALUATION_DATA = {
         "caseName": "The Ardent Companies (Ardent Cos.) v. Baruch Broad Street LLC / Zamir Equities",
         "citation": "Franklin County Court of Common Pleas, Ohio (case no. not independently verified)",
         "year": 2026,
-        "outcome": "Ardent's complaint sought a money judgment of $9,320,807 against the borrower/guarantor in addition to foreclosure. After more than a year under receivership, the property was sold at a April 2026 foreclosure auction for $5.1M — less than half its 2022 purchase price of roughly $12M and well short of the ~$9.3M owed, leaving a substantial unrecovered deficiency.",
+        "outcome": "Ardent's complaint sought a money judgment of $9,320,807 against the borrower/guarantor in addition to foreclosure. After more than a year under receivership, the property was sold at a April 2026 foreclosure auction for $5.1M \u2014 less than half its 2022 purchase price of roughly $12M and well short of the ~$9.3M owed, leaving a substantial unrecovered deficiency.",
         "dollarAmount": 9320807,
         "sourceUrl": "https://www.aol.com/news/downtown-columbus-keybank-building-sold-194109422.html",
         "confidence": "high"
@@ -1105,7 +1153,7 @@ const CASE_VALUATION_DATA = {
         "caseName": "AFF IV 200 Miami LLC v. SRCTD 44-200 LLC and FS Equity Investments II LLC",
         "citation": "Miami-Dade County Circuit Court (Fla.), stipulated foreclosure judgment entered June 11, 2026",
         "year": 2026,
-        "outcome": "Miami-Dade Circuit Judge Joseph Perkins granted a stipulated final foreclosure judgment in favor of the lender (through affiliate AFF IV 200 Miami LLC) for $65.7M — $41.1M principal plus accrued interest and fees — clearing the way for both buildings to be sold at online auction.",
+        "outcome": "Miami-Dade Circuit Judge Joseph Perkins granted a stipulated final foreclosure judgment in favor of the lender (through affiliate AFF IV 200 Miami LLC) for $65.7M \u2014 $41.1M principal plus accrued interest and fees \u2014 clearing the way for both buildings to be sold at online auction.",
         "dollarAmount": 65700000,
         "sourceUrl": "https://therealdeal.com/miami/2026/06/23/stonerock-capital-loses-downtown-miami-office-foreclosure/",
         "confidence": "high"
@@ -1123,7 +1171,7 @@ const CASE_VALUATION_DATA = {
         "caseName": "LNR Partners (special servicer) v. Cohen Brothers Realty Corp. (750 Lexington Avenue)",
         "citation": "Supreme Court of the State of New York, New York County (foreclosure judgment ~$155.9M, entered 2025)",
         "year": 2026,
-        "outcome": "The property's appraised value had collapsed to roughly $41M (down 86% from a pre-pandemic value of about $300M). At the January 21, 2026 foreclosure auction, with an upset price of $161,854,848.66, no bidder appeared — the property reverted to lender U.S. Bank for a nominal $1,000, leaving the loan's full ~$155.9M-plus balance effectively unrecovered from the collateral.",
+        "outcome": "The property's appraised value had collapsed to roughly $41M (down 86% from a pre-pandemic value of about $300M). At the January 21, 2026 foreclosure auction, with an upset price of $161,854,848.66, no bidder appeared \u2014 the property reverted to lender U.S. Bank for a nominal $1,000, leaving the loan's full ~$155.9M-plus balance effectively unrecovered from the collateral.",
         "dollarAmount": 155900000,
         "sourceUrl": "https://www.crainsnewyork.com/real-estate/750-lexington-ave-fetches-nominal-sum-foreclosure-auction/",
         "confidence": "high"
@@ -1313,7 +1361,7 @@ const CASE_VALUATION_DATA = {
         "caseName": "Katz v. CommonWealth REIT; Central Laborers' Pension Fund v. CommonWealth REIT (Equity Commonwealth Trustee Litigation)",
         "citation": "Circuit Court for Baltimore City, Maryland (Katz Action, filed March 2013; Central Laborers Action, filed April 2013)",
         "year": 2015,
-        "outcome": "Equity Commonwealth (the REIT's new name/management following the 2014 board overhaul) entered into a Settlement and Release Agreement on July 31, 2015 resolving both actions. The settlement was overwhelmingly non-monetary — largely mooted by the 2014 change in control and governance reforms already implemented — with the company agreeing to pay $200,000 toward plaintiffs' counsel's costs and expenses.",
+        "outcome": "Equity Commonwealth (the REIT's new name/management following the 2014 board overhaul) entered into a Settlement and Release Agreement on July 31, 2015 resolving both actions. The settlement was overwhelmingly non-monetary \u2014 largely mooted by the 2014 change in control and governance reforms already implemented \u2014 with the company agreeing to pay $200,000 toward plaintiffs' counsel's costs and expenses.",
         "dollarAmount": 200000,
         "sourceUrl": "https://www.sec.gov/Archives/edgar/data/0000803649/000141057815000405/a15-16477_18k.htm",
         "confidence": "medium"
@@ -1362,7 +1410,7 @@ const CASE_VALUATION_DATA = {
         "caseName": "In re Government Properties Income Trust / Select Income REIT Merger Litigation (Chen v. Select Income REIT; Schwartz v. Select Income REIT; Sinkula v. Select Income REIT; Scarantino v. Fraiche)",
         "citation": "Four parallel actions: S.D.N.Y. (filed Nov. 9 & 19, 2018), D. Mass. (filed Nov. 15, 2018), and Circuit Court for Baltimore City, MD (filed Nov. 16, 2018)",
         "year": 2018,
-        "outcome": "The merger closed; the parallel disclosure suits followed the common 'disclosure-only' resolution pattern for merger-objection suits — the companies filed supplemental proxy disclosures addressing the alleged omissions (visible in the SEC Form S-4/A amendments filed shortly before the shareholder vote), after which the suits were mooted/withdrawn. No separate cash settlement fund to shareholders was disclosed.",
+        "outcome": "The merger closed; the parallel disclosure suits followed the common 'disclosure-only' resolution pattern for merger-objection suits \u2014 the companies filed supplemental proxy disclosures addressing the alleged omissions (visible in the SEC Form S-4/A amendments filed shortly before the shareholder vote), after which the suits were mooted/withdrawn. No separate cash settlement fund to shareholders was disclosed.",
         "dollarAmount": null,
         "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1456772/000104746918007257/a2237140zex-99_1.htm",
         "confidence": "medium"
@@ -1612,16 +1660,16 @@ const CASE_VALUATION_DATA = {
       },
       {
         "caseName": "State v. Gleannloch Commercial Development, LP",
-        "citation": "585 S.W.3d 509 (Tex. App.—Houston [1st Dist.] 2019)",
+        "citation": "585 S.W.3d 509 (Tex. App.\u2014Houston [1st Dist.] 2019)",
         "year": 2019,
-        "outcome": "Jury awarded $19.4 million in combined just compensation for the two parcels — 292% above the State's combined initial offer, representing 100% of the compensation the landowner sought at trial. Judgment affirmed on appeal.",
+        "outcome": "Jury awarded $19.4 million in combined just compensation for the two parcels \u2014 292% above the State's combined initial offer, representing 100% of the compensation the landowner sought at trial. Judgment affirmed on appeal.",
         "dollarAmount": 19400000,
         "sourceUrl": "https://www.velaw.com/practices/houston-i-45-highway-expansion-project/",
         "confidence": "high"
       },
       {
         "caseName": "State v. Moore Outdoor Properties, LP / Arrington Outdoor of Fort Worth, L.P.",
-        "citation": "No. 08-12-00034-CV (Tex. App.—El Paso, Nov. 13, 2013) (transferred from Fort Worth)",
+        "citation": "No. 08-12-00034-CV (Tex. App.\u2014El Paso, Nov. 13, 2013) (transferred from Fort Worth)",
         "year": 2013,
         "outcome": "After a jury trial, Arrington was awarded $969,243 for its leasehold and billboard-structure interest (affirmed on appeal); Moore Outdoor Properties separately settled for $480,000.",
         "dollarAmount": 969243,
@@ -1643,7 +1691,7 @@ const CASE_VALUATION_DATA = {
         "caseName": "Medical Acquisition Company, Inc. v. Superior Court (Tri-City Healthcare District)",
         "citation": "20 Cal. App. 5th 34, D072509 (Cal. Ct. App., 4th Dist., Div. 1, Jan. 11, 2018)",
         "year": 2018,
-        "outcome": "The jury found the property's fair market value to be $16.83 million — nearly 3.6x the quick-take deposit — and separately awarded MAC $2,933,700 for the district's breach of the implied covenant of good faith and fair dealing. The court ordered the district to increase its deposit by about $12.2 million to match the verdict, and the Court of Appeal addressed the novel procedural question of what security/bonding the owner could be required to post to withdraw the increased post-judgment deposit.",
+        "outcome": "The jury found the property's fair market value to be $16.83 million \u2014 nearly 3.6x the quick-take deposit \u2014 and separately awarded MAC $2,933,700 for the district's breach of the implied covenant of good faith and fair dealing. The court ordered the district to increase its deposit by about $12.2 million to match the verdict, and the Court of Appeal addressed the novel procedural question of what security/bonding the owner could be required to post to withdraw the increased post-judgment deposit.",
         "dollarAmount": 16830000,
         "sourceUrl": "https://www4.courts.ca.gov/opinions/documents/D072509.PDF",
         "confidence": "high"
@@ -1661,7 +1709,7 @@ const CASE_VALUATION_DATA = {
         "caseName": "PKO Ventures, LLC v. Norfolk Redevelopment & Housing Authority (Norva Properties)",
         "citation": "747 S.E.2d 826 (Va. 2013)",
         "year": 2013,
-        "outcome": "The Virginia Supreme Court unanimously held NRHA had no right to take the property because it was not validly part of a blighted redevelopment area, voiding the condemnation and ordering the property returned to the owner — mooting the earlier jury compensation verdict since no taking occurred.",
+        "outcome": "The Virginia Supreme Court unanimously held NRHA had no right to take the property because it was not validly part of a blighted redevelopment area, voiding the condemnation and ordering the property returned to the owner \u2014 mooting the earlier jury compensation verdict since no taking occurred.",
         "dollarAmount": null,
         "sourceUrl": "https://www.courtlistener.com/opinion/8686764/norfolk-redevelopment-housing-authority-v-norva-properties-lc/",
         "confidence": "medium"
@@ -1885,7 +1933,10 @@ const CASE_VALUATION_DATA = {
       "possessionDamagesCombined": "May Combine (cap applies)",
       "mitigationDuty": "No",
       "holdoverStatutoryPenalty": true,
-      "accelerationClauseNote": "Generally enforceable if expressly stated"
+      "accelerationClauseNote": "Generally enforceable if expressly stated",
+      "wrongfulLockoutRemedyType": "actual-only",
+      "wrongfulLockoutRemedyValue": null,
+      "wrongfulLockoutCitation": "Not yet researched for this state -- defaulting to actual damages only (no statutory multiplier assumed). Verify the specific state statute before relying on an enhanced figure."
     },
     "Alaska": {
       "classification": "Neutral",
@@ -1893,7 +1944,10 @@ const CASE_VALUATION_DATA = {
       "possessionDamagesCombined": "May Combine",
       "mitigationDuty": "Unclear",
       "holdoverStatutoryPenalty": false,
-      "accelerationClauseNote": "Generally enforceable if expressly stated"
+      "accelerationClauseNote": "Generally enforceable if expressly stated",
+      "wrongfulLockoutRemedyType": "actual-only",
+      "wrongfulLockoutRemedyValue": null,
+      "wrongfulLockoutCitation": "Not yet researched for this state -- defaulting to actual damages only (no statutory multiplier assumed). Verify the specific state statute before relying on an enhanced figure."
     },
     "Arizona": {
       "classification": "Landlord-Friendly",
@@ -1901,7 +1955,10 @@ const CASE_VALUATION_DATA = {
       "possessionDamagesCombined": "May Combine",
       "mitigationDuty": "No",
       "holdoverStatutoryPenalty": false,
-      "accelerationClauseNote": "Generally enforceable if expressly stated"
+      "accelerationClauseNote": "Generally enforceable if expressly stated",
+      "wrongfulLockoutRemedyType": "actual-only",
+      "wrongfulLockoutRemedyValue": null,
+      "wrongfulLockoutCitation": "Not yet researched for this state -- defaulting to actual damages only (no statutory multiplier assumed). Verify the specific state statute before relying on an enhanced figure."
     },
     "Arkansas": {
       "classification": "Landlord-Friendly",
@@ -1909,7 +1966,10 @@ const CASE_VALUATION_DATA = {
       "possessionDamagesCombined": "May Combine",
       "mitigationDuty": "Yes",
       "holdoverStatutoryPenalty": true,
-      "accelerationClauseNote": "See chapter"
+      "accelerationClauseNote": "See chapter",
+      "wrongfulLockoutRemedyType": "actual-only",
+      "wrongfulLockoutRemedyValue": null,
+      "wrongfulLockoutCitation": "Not yet researched for this state -- defaulting to actual damages only (no statutory multiplier assumed). Verify the specific state statute before relying on an enhanced figure."
     },
     "California": {
       "classification": "Neutral",
@@ -1917,7 +1977,10 @@ const CASE_VALUATION_DATA = {
       "possessionDamagesCombined": "Often Separate",
       "mitigationDuty": "Yes",
       "holdoverStatutoryPenalty": false,
-      "accelerationClauseNote": "See chapter"
+      "accelerationClauseNote": "See chapter",
+      "wrongfulLockoutRemedyType": "per-day",
+      "wrongfulLockoutRemedyValue": 100,
+      "wrongfulLockoutCitation": "Cal. Civ. Code Sec. 789.3 -- $100/day minimum statutory penalty plus actual damages and attorney's fees."
     },
     "Colorado": {
       "classification": "Neutral",
@@ -1925,7 +1988,10 @@ const CASE_VALUATION_DATA = {
       "possessionDamagesCombined": "Often Separate",
       "mitigationDuty": "Yes",
       "holdoverStatutoryPenalty": false,
-      "accelerationClauseNote": "See chapter"
+      "accelerationClauseNote": "See chapter",
+      "wrongfulLockoutRemedyType": "actual-only",
+      "wrongfulLockoutRemedyValue": null,
+      "wrongfulLockoutCitation": "Not yet researched for this state -- defaulting to actual damages only (no statutory multiplier assumed). Verify the specific state statute before relying on an enhanced figure."
     },
     "Connecticut": {
       "classification": "Neutral",
@@ -1933,7 +1999,10 @@ const CASE_VALUATION_DATA = {
       "possessionDamagesCombined": "Varies",
       "mitigationDuty": "No",
       "holdoverStatutoryPenalty": false,
-      "accelerationClauseNote": "See chapter"
+      "accelerationClauseNote": "See chapter",
+      "wrongfulLockoutRemedyType": "actual-only",
+      "wrongfulLockoutRemedyValue": null,
+      "wrongfulLockoutCitation": "Not yet researched for this state -- defaulting to actual damages only (no statutory multiplier assumed). Verify the specific state statute before relying on an enhanced figure."
     },
     "Delaware": {
       "classification": "Neutral",
@@ -1941,7 +2010,10 @@ const CASE_VALUATION_DATA = {
       "possessionDamagesCombined": "Varies",
       "mitigationDuty": "Yes",
       "holdoverStatutoryPenalty": false,
-      "accelerationClauseNote": "Generally enforceable if expressly stated"
+      "accelerationClauseNote": "Generally enforceable if expressly stated",
+      "wrongfulLockoutRemedyType": "actual-only",
+      "wrongfulLockoutRemedyValue": null,
+      "wrongfulLockoutCitation": "Not yet researched for this state -- defaulting to actual damages only (no statutory multiplier assumed). Verify the specific state statute before relying on an enhanced figure."
     },
     "District of Columbia": {
       "classification": "Tenant-Friendly",
@@ -1949,7 +2021,10 @@ const CASE_VALUATION_DATA = {
       "possessionDamagesCombined": "May Combine",
       "mitigationDuty": "Unclear",
       "holdoverStatutoryPenalty": false,
-      "accelerationClauseNote": "See chapter"
+      "accelerationClauseNote": "See chapter",
+      "wrongfulLockoutRemedyType": "actual-only",
+      "wrongfulLockoutRemedyValue": null,
+      "wrongfulLockoutCitation": "Not yet researched for this state -- defaulting to actual damages only (no statutory multiplier assumed). Verify the specific state statute before relying on an enhanced figure."
     },
     "Florida": {
       "classification": "Neutral",
@@ -1957,7 +2032,10 @@ const CASE_VALUATION_DATA = {
       "possessionDamagesCombined": "May Combine",
       "mitigationDuty": "Yes",
       "holdoverStatutoryPenalty": true,
-      "accelerationClauseNote": "Generally enforceable if expressly stated"
+      "accelerationClauseNote": "Generally enforceable if expressly stated",
+      "wrongfulLockoutRemedyType": "actual-only",
+      "wrongfulLockoutRemedyValue": null,
+      "wrongfulLockoutCitation": "Fla. Stat. Sec. 83.67 prohibits self-help; no confirmed commercial-specific statutory multiplier found -- actual damages, costs, and attorney's fees. Verify further before relying on a multiplier."
     },
     "Georgia": {
       "classification": "Landlord-Friendly",
@@ -1965,7 +2043,10 @@ const CASE_VALUATION_DATA = {
       "possessionDamagesCombined": "May Combine",
       "mitigationDuty": "Yes",
       "holdoverStatutoryPenalty": false,
-      "accelerationClauseNote": "Generally enforceable if expressly stated"
+      "accelerationClauseNote": "Generally enforceable if expressly stated",
+      "wrongfulLockoutRemedyType": "actual-only",
+      "wrongfulLockoutRemedyValue": null,
+      "wrongfulLockoutCitation": "O.C.G.A. Sec. 44-7-49/50/55 (dispossessory procedure) -- landlord liable for foreseeable damages caused by wrongful conduct; no confirmed statutory multiplier for commercial tenants."
     },
     "Hawaii": {
       "classification": "Landlord-Friendly",
@@ -1973,7 +2054,10 @@ const CASE_VALUATION_DATA = {
       "possessionDamagesCombined": "May Combine",
       "mitigationDuty": "Yes",
       "holdoverStatutoryPenalty": false,
-      "accelerationClauseNote": "Generally enforceable if expressly stated"
+      "accelerationClauseNote": "Generally enforceable if expressly stated",
+      "wrongfulLockoutRemedyType": "actual-only",
+      "wrongfulLockoutRemedyValue": null,
+      "wrongfulLockoutCitation": "Not yet researched for this state -- defaulting to actual damages only (no statutory multiplier assumed). Verify the specific state statute before relying on an enhanced figure."
     },
     "Idaho": {
       "classification": "Neutral",
@@ -1981,7 +2065,10 @@ const CASE_VALUATION_DATA = {
       "possessionDamagesCombined": "May Combine",
       "mitigationDuty": "Yes",
       "holdoverStatutoryPenalty": false,
-      "accelerationClauseNote": "See chapter"
+      "accelerationClauseNote": "See chapter",
+      "wrongfulLockoutRemedyType": "actual-only",
+      "wrongfulLockoutRemedyValue": null,
+      "wrongfulLockoutCitation": "Not yet researched for this state -- defaulting to actual damages only (no statutory multiplier assumed). Verify the specific state statute before relying on an enhanced figure."
     },
     "Illinois": {
       "classification": "Tenant-Friendly",
@@ -1989,7 +2076,10 @@ const CASE_VALUATION_DATA = {
       "possessionDamagesCombined": "May Combine",
       "mitigationDuty": "Yes",
       "holdoverStatutoryPenalty": false,
-      "accelerationClauseNote": "See chapter"
+      "accelerationClauseNote": "See chapter",
+      "wrongfulLockoutRemedyType": "actual-only",
+      "wrongfulLockoutRemedyValue": null,
+      "wrongfulLockoutCitation": "735 ILCS 5/9 (Forcible Entry and Detainer Act) is the exclusive repossession procedure; no confirmed statutory multiplier for commercial wrongful lockout -- actual/common-law damages."
     },
     "Indiana": {
       "classification": "Tenant-Friendly",
@@ -1997,7 +2087,10 @@ const CASE_VALUATION_DATA = {
       "possessionDamagesCombined": "Often Separate",
       "mitigationDuty": "Yes",
       "holdoverStatutoryPenalty": false,
-      "accelerationClauseNote": "Generally enforceable if expressly stated"
+      "accelerationClauseNote": "Generally enforceable if expressly stated",
+      "wrongfulLockoutRemedyType": "actual-only",
+      "wrongfulLockoutRemedyValue": null,
+      "wrongfulLockoutCitation": "Not yet researched for this state -- defaulting to actual damages only (no statutory multiplier assumed). Verify the specific state statute before relying on an enhanced figure."
     },
     "Iowa": {
       "classification": "Landlord-Friendly",
@@ -2005,7 +2098,10 @@ const CASE_VALUATION_DATA = {
       "possessionDamagesCombined": "Often Separate",
       "mitigationDuty": "Yes",
       "holdoverStatutoryPenalty": false,
-      "accelerationClauseNote": "Generally enforceable if expressly stated"
+      "accelerationClauseNote": "Generally enforceable if expressly stated",
+      "wrongfulLockoutRemedyType": "actual-only",
+      "wrongfulLockoutRemedyValue": null,
+      "wrongfulLockoutCitation": "Not yet researched for this state -- defaulting to actual damages only (no statutory multiplier assumed). Verify the specific state statute before relying on an enhanced figure."
     },
     "Kansas": {
       "classification": "Neutral",
@@ -2013,7 +2109,10 @@ const CASE_VALUATION_DATA = {
       "possessionDamagesCombined": "May Combine",
       "mitigationDuty": "Unclear",
       "holdoverStatutoryPenalty": false,
-      "accelerationClauseNote": "Generally enforceable if expressly stated"
+      "accelerationClauseNote": "Generally enforceable if expressly stated",
+      "wrongfulLockoutRemedyType": "actual-only",
+      "wrongfulLockoutRemedyValue": null,
+      "wrongfulLockoutCitation": "Not yet researched for this state -- defaulting to actual damages only (no statutory multiplier assumed). Verify the specific state statute before relying on an enhanced figure."
     },
     "Kentucky": {
       "classification": "Landlord-Friendly",
@@ -2021,7 +2120,10 @@ const CASE_VALUATION_DATA = {
       "possessionDamagesCombined": "Often Separate",
       "mitigationDuty": "Unclear",
       "holdoverStatutoryPenalty": false,
-      "accelerationClauseNote": "Generally enforceable if expressly stated"
+      "accelerationClauseNote": "Generally enforceable if expressly stated",
+      "wrongfulLockoutRemedyType": "actual-only",
+      "wrongfulLockoutRemedyValue": null,
+      "wrongfulLockoutCitation": "Not yet researched for this state -- defaulting to actual damages only (no statutory multiplier assumed). Verify the specific state statute before relying on an enhanced figure."
     },
     "Louisiana": {
       "classification": "Neutral",
@@ -2029,7 +2131,10 @@ const CASE_VALUATION_DATA = {
       "possessionDamagesCombined": "Often Separate",
       "mitigationDuty": "Unclear",
       "holdoverStatutoryPenalty": false,
-      "accelerationClauseNote": "Generally enforceable if expressly stated"
+      "accelerationClauseNote": "Generally enforceable if expressly stated",
+      "wrongfulLockoutRemedyType": "actual-only",
+      "wrongfulLockoutRemedyValue": null,
+      "wrongfulLockoutCitation": "Not yet researched for this state -- defaulting to actual damages only (no statutory multiplier assumed). Verify the specific state statute before relying on an enhanced figure."
     },
     "Maine": {
       "classification": "Landlord-Friendly",
@@ -2037,7 +2142,10 @@ const CASE_VALUATION_DATA = {
       "possessionDamagesCombined": "May Combine",
       "mitigationDuty": "No",
       "holdoverStatutoryPenalty": false,
-      "accelerationClauseNote": "See chapter"
+      "accelerationClauseNote": "See chapter",
+      "wrongfulLockoutRemedyType": "actual-only",
+      "wrongfulLockoutRemedyValue": null,
+      "wrongfulLockoutCitation": "Not yet researched for this state -- defaulting to actual damages only (no statutory multiplier assumed). Verify the specific state statute before relying on an enhanced figure."
     },
     "Maryland": {
       "classification": "Neutral",
@@ -2045,7 +2153,10 @@ const CASE_VALUATION_DATA = {
       "possessionDamagesCombined": "May Combine",
       "mitigationDuty": "Yes",
       "holdoverStatutoryPenalty": false,
-      "accelerationClauseNote": "Generally enforceable if expressly stated"
+      "accelerationClauseNote": "Generally enforceable if expressly stated",
+      "wrongfulLockoutRemedyType": "actual-only",
+      "wrongfulLockoutRemedyValue": null,
+      "wrongfulLockoutCitation": "Not yet researched for this state -- defaulting to actual damages only (no statutory multiplier assumed). Verify the specific state statute before relying on an enhanced figure."
     },
     "Massachusetts": {
       "classification": "Landlord-Friendly",
@@ -2053,7 +2164,10 @@ const CASE_VALUATION_DATA = {
       "possessionDamagesCombined": "Often Separate",
       "mitigationDuty": "No",
       "holdoverStatutoryPenalty": false,
-      "accelerationClauseNote": "Generally enforceable if expressly stated"
+      "accelerationClauseNote": "Generally enforceable if expressly stated",
+      "wrongfulLockoutRemedyType": "actual-only",
+      "wrongfulLockoutRemedyValue": null,
+      "wrongfulLockoutCitation": "Not yet researched for this state -- defaulting to actual damages only (no statutory multiplier assumed). Verify the specific state statute before relying on an enhanced figure."
     },
     "Michigan": {
       "classification": "Neutral",
@@ -2061,7 +2175,10 @@ const CASE_VALUATION_DATA = {
       "possessionDamagesCombined": "May Combine",
       "mitigationDuty": "Yes",
       "holdoverStatutoryPenalty": true,
-      "accelerationClauseNote": "Generally enforceable if expressly stated"
+      "accelerationClauseNote": "Generally enforceable if expressly stated",
+      "wrongfulLockoutRemedyType": "actual-only",
+      "wrongfulLockoutRemedyValue": null,
+      "wrongfulLockoutCitation": "Not yet researched for this state -- defaulting to actual damages only (no statutory multiplier assumed). Verify the specific state statute before relying on an enhanced figure."
     },
     "Minnesota": {
       "classification": "Neutral",
@@ -2069,7 +2186,10 @@ const CASE_VALUATION_DATA = {
       "possessionDamagesCombined": "May Combine",
       "mitigationDuty": "No",
       "holdoverStatutoryPenalty": false,
-      "accelerationClauseNote": "Generally enforceable if expressly stated"
+      "accelerationClauseNote": "Generally enforceable if expressly stated",
+      "wrongfulLockoutRemedyType": "actual-only",
+      "wrongfulLockoutRemedyValue": null,
+      "wrongfulLockoutCitation": "Not yet researched for this state -- defaulting to actual damages only (no statutory multiplier assumed). Verify the specific state statute before relying on an enhanced figure."
     },
     "Mississippi": {
       "classification": "Landlord-Friendly",
@@ -2077,7 +2197,10 @@ const CASE_VALUATION_DATA = {
       "possessionDamagesCombined": "May Combine",
       "mitigationDuty": "Unclear",
       "holdoverStatutoryPenalty": true,
-      "accelerationClauseNote": "Generally enforceable if expressly stated"
+      "accelerationClauseNote": "Generally enforceable if expressly stated",
+      "wrongfulLockoutRemedyType": "actual-only",
+      "wrongfulLockoutRemedyValue": null,
+      "wrongfulLockoutCitation": "Not yet researched for this state -- defaulting to actual damages only (no statutory multiplier assumed). Verify the specific state statute before relying on an enhanced figure."
     },
     "Missouri": {
       "classification": "Tenant-Friendly",
@@ -2085,7 +2208,10 @@ const CASE_VALUATION_DATA = {
       "possessionDamagesCombined": "May Combine",
       "mitigationDuty": "Yes",
       "holdoverStatutoryPenalty": false,
-      "accelerationClauseNote": "Generally enforceable if expressly stated"
+      "accelerationClauseNote": "Generally enforceable if expressly stated",
+      "wrongfulLockoutRemedyType": "actual-only",
+      "wrongfulLockoutRemedyValue": null,
+      "wrongfulLockoutCitation": "Not yet researched for this state -- defaulting to actual damages only (no statutory multiplier assumed). Verify the specific state statute before relying on an enhanced figure."
     },
     "Montana": {
       "classification": "Landlord-Friendly",
@@ -2093,7 +2219,10 @@ const CASE_VALUATION_DATA = {
       "possessionDamagesCombined": "May Combine",
       "mitigationDuty": "Yes",
       "holdoverStatutoryPenalty": true,
-      "accelerationClauseNote": "Generally enforceable if expressly stated"
+      "accelerationClauseNote": "Generally enforceable if expressly stated",
+      "wrongfulLockoutRemedyType": "actual-only",
+      "wrongfulLockoutRemedyValue": null,
+      "wrongfulLockoutCitation": "Not yet researched for this state -- defaulting to actual damages only (no statutory multiplier assumed). Verify the specific state statute before relying on an enhanced figure."
     },
     "Nebraska": {
       "classification": "Landlord-Friendly",
@@ -2101,7 +2230,10 @@ const CASE_VALUATION_DATA = {
       "possessionDamagesCombined": "May Combine",
       "mitigationDuty": "Yes",
       "holdoverStatutoryPenalty": false,
-      "accelerationClauseNote": "Generally enforceable if expressly stated"
+      "accelerationClauseNote": "Generally enforceable if expressly stated",
+      "wrongfulLockoutRemedyType": "actual-only",
+      "wrongfulLockoutRemedyValue": null,
+      "wrongfulLockoutCitation": "Not yet researched for this state -- defaulting to actual damages only (no statutory multiplier assumed). Verify the specific state statute before relying on an enhanced figure."
     },
     "Nevada": {
       "classification": "Landlord-Friendly",
@@ -2109,7 +2241,10 @@ const CASE_VALUATION_DATA = {
       "possessionDamagesCombined": "Varies",
       "mitigationDuty": "Yes",
       "holdoverStatutoryPenalty": true,
-      "accelerationClauseNote": "Generally enforceable if expressly stated"
+      "accelerationClauseNote": "Generally enforceable if expressly stated",
+      "wrongfulLockoutRemedyType": "actual-only",
+      "wrongfulLockoutRemedyValue": null,
+      "wrongfulLockoutCitation": "Not yet researched for this state -- defaulting to actual damages only (no statutory multiplier assumed). Verify the specific state statute before relying on an enhanced figure."
     },
     "New Hampshire": {
       "classification": "Landlord-Friendly",
@@ -2117,7 +2252,10 @@ const CASE_VALUATION_DATA = {
       "possessionDamagesCombined": "Often Separate",
       "mitigationDuty": "Yes",
       "holdoverStatutoryPenalty": false,
-      "accelerationClauseNote": "See chapter"
+      "accelerationClauseNote": "See chapter",
+      "wrongfulLockoutRemedyType": "actual-only",
+      "wrongfulLockoutRemedyValue": null,
+      "wrongfulLockoutCitation": "Not yet researched for this state -- defaulting to actual damages only (no statutory multiplier assumed). Verify the specific state statute before relying on an enhanced figure."
     },
     "New Jersey": {
       "classification": "Landlord-Friendly",
@@ -2125,7 +2263,10 @@ const CASE_VALUATION_DATA = {
       "possessionDamagesCombined": "Often Separate",
       "mitigationDuty": "Yes",
       "holdoverStatutoryPenalty": false,
-      "accelerationClauseNote": "Generally enforceable if expressly stated"
+      "accelerationClauseNote": "Generally enforceable if expressly stated",
+      "wrongfulLockoutRemedyType": "multiplier",
+      "wrongfulLockoutRemedyValue": 3,
+      "wrongfulLockoutCitation": "N.J. Forcible Entry & Detainer framework -- treble damages / civil penalty up to 3x monthly rent plus proximately caused damages and attorney's fees."
     },
     "New Mexico": {
       "classification": "Landlord-Friendly",
@@ -2133,7 +2274,10 @@ const CASE_VALUATION_DATA = {
       "possessionDamagesCombined": "May Combine",
       "mitigationDuty": "Yes",
       "holdoverStatutoryPenalty": true,
-      "accelerationClauseNote": "Generally enforceable if expressly stated"
+      "accelerationClauseNote": "Generally enforceable if expressly stated",
+      "wrongfulLockoutRemedyType": "actual-only",
+      "wrongfulLockoutRemedyValue": null,
+      "wrongfulLockoutCitation": "Not yet researched for this state -- defaulting to actual damages only (no statutory multiplier assumed). Verify the specific state statute before relying on an enhanced figure."
     },
     "New York": {
       "classification": "Neutral",
@@ -2141,7 +2285,10 @@ const CASE_VALUATION_DATA = {
       "possessionDamagesCombined": "May Combine",
       "mitigationDuty": "Yes",
       "holdoverStatutoryPenalty": false,
-      "accelerationClauseNote": "Generally enforceable if expressly stated"
+      "accelerationClauseNote": "Generally enforceable if expressly stated",
+      "wrongfulLockoutRemedyType": "multiplier",
+      "wrongfulLockoutRemedyValue": 3,
+      "wrongfulLockoutCitation": "N.Y. RPAPL Sec. 853 -- treble damages for eviction 'by force or unlawful means,' which does not require physical force."
     },
     "North Carolina": {
       "classification": "Landlord-Friendly",
@@ -2149,7 +2296,10 @@ const CASE_VALUATION_DATA = {
       "possessionDamagesCombined": "May Combine",
       "mitigationDuty": "Yes",
       "holdoverStatutoryPenalty": false,
-      "accelerationClauseNote": "Generally enforceable if expressly stated"
+      "accelerationClauseNote": "Generally enforceable if expressly stated",
+      "wrongfulLockoutRemedyType": "actual-only",
+      "wrongfulLockoutRemedyValue": null,
+      "wrongfulLockoutCitation": "Not yet researched for this state -- defaulting to actual damages only (no statutory multiplier assumed). Verify the specific state statute before relying on an enhanced figure."
     },
     "North Dakota": {
       "classification": "Neutral",
@@ -2157,7 +2307,10 @@ const CASE_VALUATION_DATA = {
       "possessionDamagesCombined": "May Combine",
       "mitigationDuty": "Yes",
       "holdoverStatutoryPenalty": false,
-      "accelerationClauseNote": "See chapter"
+      "accelerationClauseNote": "See chapter",
+      "wrongfulLockoutRemedyType": "actual-only",
+      "wrongfulLockoutRemedyValue": null,
+      "wrongfulLockoutCitation": "Not yet researched for this state -- defaulting to actual damages only (no statutory multiplier assumed). Verify the specific state statute before relying on an enhanced figure."
     },
     "Ohio": {
       "classification": "Neutral",
@@ -2165,7 +2318,10 @@ const CASE_VALUATION_DATA = {
       "possessionDamagesCombined": "May Combine",
       "mitigationDuty": "Yes",
       "holdoverStatutoryPenalty": false,
-      "accelerationClauseNote": "Generally enforceable if expressly stated"
+      "accelerationClauseNote": "Generally enforceable if expressly stated",
+      "wrongfulLockoutRemedyType": "actual-only",
+      "wrongfulLockoutRemedyValue": null,
+      "wrongfulLockoutCitation": "Not yet researched for this state -- defaulting to actual damages only (no statutory multiplier assumed). Verify the specific state statute before relying on an enhanced figure."
     },
     "Oklahoma": {
       "classification": "Landlord-Friendly",
@@ -2173,7 +2329,10 @@ const CASE_VALUATION_DATA = {
       "possessionDamagesCombined": "May Combine",
       "mitigationDuty": "Unclear",
       "holdoverStatutoryPenalty": false,
-      "accelerationClauseNote": "See chapter"
+      "accelerationClauseNote": "See chapter",
+      "wrongfulLockoutRemedyType": "actual-only",
+      "wrongfulLockoutRemedyValue": null,
+      "wrongfulLockoutCitation": "Not yet researched for this state -- defaulting to actual damages only (no statutory multiplier assumed). Verify the specific state statute before relying on an enhanced figure."
     },
     "Oregon": {
       "classification": "Landlord-Friendly",
@@ -2181,7 +2340,10 @@ const CASE_VALUATION_DATA = {
       "possessionDamagesCombined": "Often Separate",
       "mitigationDuty": "Yes",
       "holdoverStatutoryPenalty": false,
-      "accelerationClauseNote": "Generally enforceable if expressly stated"
+      "accelerationClauseNote": "Generally enforceable if expressly stated",
+      "wrongfulLockoutRemedyType": "actual-only",
+      "wrongfulLockoutRemedyValue": null,
+      "wrongfulLockoutCitation": "Not yet researched for this state -- defaulting to actual damages only (no statutory multiplier assumed). Verify the specific state statute before relying on an enhanced figure."
     },
     "Pennsylvania": {
       "classification": "Neutral",
@@ -2189,7 +2351,10 @@ const CASE_VALUATION_DATA = {
       "possessionDamagesCombined": "May Combine",
       "mitigationDuty": "Unclear",
       "holdoverStatutoryPenalty": false,
-      "accelerationClauseNote": "See chapter"
+      "accelerationClauseNote": "See chapter",
+      "wrongfulLockoutRemedyType": "actual-only",
+      "wrongfulLockoutRemedyValue": null,
+      "wrongfulLockoutCitation": "No confirmed statewide statutory multiplier for commercial wrongful lockout -- actual damages. Note local variation exists (e.g., Philadelphia ordinance allows up to $2,000 punitive per lockout attempt)."
     },
     "Rhode Island": {
       "classification": "Landlord-Friendly",
@@ -2197,7 +2362,10 @@ const CASE_VALUATION_DATA = {
       "possessionDamagesCombined": "May Combine",
       "mitigationDuty": "Yes",
       "holdoverStatutoryPenalty": false,
-      "accelerationClauseNote": "Generally enforceable if expressly stated"
+      "accelerationClauseNote": "Generally enforceable if expressly stated",
+      "wrongfulLockoutRemedyType": "actual-only",
+      "wrongfulLockoutRemedyValue": null,
+      "wrongfulLockoutCitation": "Not yet researched for this state -- defaulting to actual damages only (no statutory multiplier assumed). Verify the specific state statute before relying on an enhanced figure."
     },
     "South Carolina": {
       "classification": "Neutral",
@@ -2205,7 +2373,10 @@ const CASE_VALUATION_DATA = {
       "possessionDamagesCombined": "May Combine",
       "mitigationDuty": "Yes",
       "holdoverStatutoryPenalty": true,
-      "accelerationClauseNote": "Generally enforceable if expressly stated"
+      "accelerationClauseNote": "Generally enforceable if expressly stated",
+      "wrongfulLockoutRemedyType": "actual-only",
+      "wrongfulLockoutRemedyValue": null,
+      "wrongfulLockoutCitation": "Not yet researched for this state -- defaulting to actual damages only (no statutory multiplier assumed). Verify the specific state statute before relying on an enhanced figure."
     },
     "South Dakota": {
       "classification": "Landlord-Friendly",
@@ -2213,7 +2384,10 @@ const CASE_VALUATION_DATA = {
       "possessionDamagesCombined": "May Combine",
       "mitigationDuty": "Yes",
       "holdoverStatutoryPenalty": true,
-      "accelerationClauseNote": "See chapter"
+      "accelerationClauseNote": "See chapter",
+      "wrongfulLockoutRemedyType": "actual-only",
+      "wrongfulLockoutRemedyValue": null,
+      "wrongfulLockoutCitation": "Not yet researched for this state -- defaulting to actual damages only (no statutory multiplier assumed). Verify the specific state statute before relying on an enhanced figure."
     },
     "Tennessee": {
       "classification": "Landlord-Friendly",
@@ -2221,7 +2395,10 @@ const CASE_VALUATION_DATA = {
       "possessionDamagesCombined": "May Combine",
       "mitigationDuty": "Yes",
       "holdoverStatutoryPenalty": false,
-      "accelerationClauseNote": "Generally enforceable if expressly stated"
+      "accelerationClauseNote": "Generally enforceable if expressly stated",
+      "wrongfulLockoutRemedyType": "actual-only",
+      "wrongfulLockoutRemedyValue": null,
+      "wrongfulLockoutCitation": "Not yet researched for this state -- defaulting to actual damages only (no statutory multiplier assumed). Verify the specific state statute before relying on an enhanced figure."
     },
     "Texas": {
       "classification": "Landlord-Friendly",
@@ -2229,7 +2406,10 @@ const CASE_VALUATION_DATA = {
       "possessionDamagesCombined": "May Combine",
       "mitigationDuty": "Yes",
       "holdoverStatutoryPenalty": false,
-      "accelerationClauseNote": "See chapter"
+      "accelerationClauseNote": "See chapter",
+      "wrongfulLockoutRemedyType": "floor",
+      "wrongfulLockoutRemedyValue": 500,
+      "wrongfulLockoutCitation": "Tex. Prop. Code Sec. 93.002/93.003 -- actual damages + greater of one month's rent or $500, plus reasonable attorney's fees and costs."
     },
     "Utah": {
       "classification": "Landlord-Friendly",
@@ -2237,7 +2417,10 @@ const CASE_VALUATION_DATA = {
       "possessionDamagesCombined": "May Combine",
       "mitigationDuty": "Unclear",
       "holdoverStatutoryPenalty": true,
-      "accelerationClauseNote": "See chapter"
+      "accelerationClauseNote": "See chapter",
+      "wrongfulLockoutRemedyType": "actual-only",
+      "wrongfulLockoutRemedyValue": null,
+      "wrongfulLockoutCitation": "Not yet researched for this state -- defaulting to actual damages only (no statutory multiplier assumed). Verify the specific state statute before relying on an enhanced figure."
     },
     "Vermont": {
       "classification": "Neutral",
@@ -2245,7 +2428,10 @@ const CASE_VALUATION_DATA = {
       "possessionDamagesCombined": "Varies",
       "mitigationDuty": "Yes",
       "holdoverStatutoryPenalty": false,
-      "accelerationClauseNote": "See chapter"
+      "accelerationClauseNote": "See chapter",
+      "wrongfulLockoutRemedyType": "actual-only",
+      "wrongfulLockoutRemedyValue": null,
+      "wrongfulLockoutCitation": "Not yet researched for this state -- defaulting to actual damages only (no statutory multiplier assumed). Verify the specific state statute before relying on an enhanced figure."
     },
     "Virginia": {
       "classification": "Landlord-Friendly",
@@ -2253,7 +2439,10 @@ const CASE_VALUATION_DATA = {
       "possessionDamagesCombined": "May Combine",
       "mitigationDuty": "Unclear",
       "holdoverStatutoryPenalty": false,
-      "accelerationClauseNote": "Generally enforceable if expressly stated"
+      "accelerationClauseNote": "Generally enforceable if expressly stated",
+      "wrongfulLockoutRemedyType": "actual-only",
+      "wrongfulLockoutRemedyValue": null,
+      "wrongfulLockoutCitation": "Not yet researched for this state -- defaulting to actual damages only (no statutory multiplier assumed). Verify the specific state statute before relying on an enhanced figure."
     },
     "Washington": {
       "classification": "Neutral",
@@ -2261,7 +2450,10 @@ const CASE_VALUATION_DATA = {
       "possessionDamagesCombined": "May Combine",
       "mitigationDuty": "Yes",
       "holdoverStatutoryPenalty": false,
-      "accelerationClauseNote": "Generally enforceable if expressly stated"
+      "accelerationClauseNote": "Generally enforceable if expressly stated",
+      "wrongfulLockoutRemedyType": "actual-only",
+      "wrongfulLockoutRemedyValue": null,
+      "wrongfulLockoutCitation": "Not yet researched for this state -- defaulting to actual damages only (no statutory multiplier assumed). Verify the specific state statute before relying on an enhanced figure."
     },
     "West Virginia": {
       "classification": "Neutral",
@@ -2269,7 +2461,10 @@ const CASE_VALUATION_DATA = {
       "possessionDamagesCombined": "May Combine",
       "mitigationDuty": "Unclear",
       "holdoverStatutoryPenalty": false,
-      "accelerationClauseNote": "See chapter"
+      "accelerationClauseNote": "See chapter",
+      "wrongfulLockoutRemedyType": "actual-only",
+      "wrongfulLockoutRemedyValue": null,
+      "wrongfulLockoutCitation": "Not yet researched for this state -- defaulting to actual damages only (no statutory multiplier assumed). Verify the specific state statute before relying on an enhanced figure."
     },
     "Wisconsin": {
       "classification": "Tenant-Friendly",
@@ -2277,7 +2472,10 @@ const CASE_VALUATION_DATA = {
       "possessionDamagesCombined": "May Combine",
       "mitigationDuty": "Unclear",
       "holdoverStatutoryPenalty": true,
-      "accelerationClauseNote": "See chapter"
+      "accelerationClauseNote": "See chapter",
+      "wrongfulLockoutRemedyType": "actual-only",
+      "wrongfulLockoutRemedyValue": null,
+      "wrongfulLockoutCitation": "Not yet researched for this state -- defaulting to actual damages only (no statutory multiplier assumed). Verify the specific state statute before relying on an enhanced figure."
     },
     "Wyoming": {
       "classification": "Neutral",
@@ -2285,7 +2483,10 @@ const CASE_VALUATION_DATA = {
       "possessionDamagesCombined": "May Combine (cap applies)",
       "mitigationDuty": "Yes",
       "holdoverStatutoryPenalty": false,
-      "accelerationClauseNote": "Generally enforceable if expressly stated"
+      "accelerationClauseNote": "Generally enforceable if expressly stated",
+      "wrongfulLockoutRemedyType": "actual-only",
+      "wrongfulLockoutRemedyValue": null,
+      "wrongfulLockoutCitation": "Not yet researched for this state -- defaulting to actual damages only (no statutory multiplier assumed). Verify the specific state statute before relying on an enhanced figure."
     }
   }
 };

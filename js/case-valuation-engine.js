@@ -32,6 +32,63 @@
     return monthlyAmt * (1 - Math.pow(1 + r, -months)) / r;
   }
 
+  // Wrongful-lockout damages enhancement, keyed to the ACTUAL statutory
+  // remedy mechanism for the property's state (see stateLawModifiers ->
+  // wrongfulLockoutRemedyType/Value, merged into facts in collectFacts()).
+  // Different states use fundamentally different mechanisms, not just
+  // different numbers -- a flat multiplier guess was wrong for most states.
+  function computeWrongfulLockoutDamages(facts) {
+    const actual = facts.wrongfulLockoutDamages || 0;
+    const type = facts.wrongfulLockoutRemedyType;
+    const value = facts.wrongfulLockoutRemedyValue;
+    const citation = facts.wrongfulLockoutCitation ? ` (${facts.wrongfulLockoutCitation})` : "";
+    if (type === "multiplier" && value) {
+      // Binary in practice -- either the multiplier is awarded or it isn't --
+      // so the range spans actual-only (low) to the full multiplier (high),
+      // not a blended partial value.
+      return { low: actual, high: actual * value, note: `State statute allows up to a ${value}x multiplier on these damages${citation}.` };
+    }
+    if (type === "per-day" && value) {
+      if (!(facts.daysLockedOut > 0)) {
+        return { low: actual, high: actual * 1.15, note: `This state has a $${value}/day statutory penalty${citation} -- enter days locked out to include it; showing actual damages only for now.` };
+      }
+      const penalty = value * facts.daysLockedOut;
+      return { low: actual + penalty, high: actual * 1.25 + penalty, note: `Adds a $${value}/day statutory penalty over ${facts.daysLockedOut} day(s)${citation}.` };
+    }
+    if (type === "floor" && value) {
+      const floorAmt = Math.max(facts.monthlyRent || 0, value);
+      return { low: actual + floorAmt, high: actual + floorAmt, note: `Adds the statutory floor -- the greater of one month's rent or $${value}${citation}.` };
+    }
+    return { low: actual, high: actual * 1.15, note: `No confirmed state statutory enhancement — actual damages only (conservative default)${citation}.` };
+  }
+
+  // Posture-tiered attorney's-fee dollar ranges -- replaces an earlier
+  // percentage-of-principal heuristic. Real practitioner figures for a
+  // typical commercial lease/lending dispute, independent of claim size
+  // within that "typical" range (fees are driven by procedural effort,
+  // not case size):
+  //   no response / default judgment:              $5,000 - $10,000
+  //   answer filed, but not really contested:       $15,000 - $25,000
+  //   contested, resolved on summary judgment:      $20,000 - $45,000
+  //   goes to trial:                                $50,000 - $200,000
+  // `litigationPosture` is the explicit fact field ("default" |
+  // "answered-passive" | "contested-msj" | "trial"); if not provided,
+  // falls back to the `isContested` signal computed by the caller,
+  // defaulting to the middle "answered-passive" (uncontested) or
+  // "contested-msj" (contested) tier rather than guessing a trial.
+  function feesByPosture(facts, isContested) {
+    let posture = facts.litigationPosture;
+    if (!posture) posture = isContested ? "contested-msj" : "answered-passive";
+    const tiers = {
+      "default": [5000, 10000, "no response filed -- default judgment"],
+      "answered-passive": [15000, 25000, "an answer was filed but the matter wasn't actively contested"],
+      "contested-msj": [20000, 45000, "actively contested, resolved on summary judgment"],
+      "trial": [50000, 200000, "went to trial"],
+    };
+    const [low, high, label] = tiers[posture] || tiers["contested-msj"];
+    return [low, high, `Posture-tiered flat-dollar estimate (${label}) -- fees are driven by procedural effort, not claim size, for a typical matter in this range; a large or unusually complex matter can run higher.`];
+  }
+
   function result(claimKey, label, probRange, damagesLow, damagesHigh, note, isBenchmark) {
     return {
       claimKey,
@@ -87,8 +144,8 @@
     }
     if (facts.heldOverAfterTerm && facts.holdoverStatutoryPenalty && facts.monthlyRent > 0 && facts.holdoverMonths > 0) {
       out.push(result("holdover_damages", "Statutory Holdover Damages", [0.80, 0.95],
-        facts.monthlyRent * 2 * facts.holdoverMonths, facts.monthlyRent * 3 * facts.holdoverMonths,
-        "Uses a 2x–3x statutory multiplier range as a placeholder — the exact multiplier is state-specific and should be confirmed against that state's chapter."));
+        facts.monthlyRent * 1.5 * facts.holdoverMonths, facts.monthlyRent * 2 * facts.holdoverMonths,
+        "Uses a 1.5x–2x statutory multiplier range — 3x is uncommon in practice per practitioner review; holdover itself is also a comparatively rare fact pattern next to unpaid rent and abandonment. Exact multiplier is still state-specific and should be confirmed against that state's chapter."));
     }
     if (facts.propertyDamageAmount > 0) {
       out.push(result("property_damage", "Property Damage / Repairs", [0.70, 0.90],
@@ -103,12 +160,24 @@
       else if (sh === "Conditional" && facts.selfHelpProcessFollowed === "no") p = [0.60, 0.80];
       else p = [0.30, 0.60];
       if (facts.wrongfulLockoutDamages > 0) {
+        const enhanced = computeWrongfulLockoutDamages(facts);
         out.push(result("wrongful_lockout", "Wrongful Eviction / Unlawful Lockout", p,
-          facts.wrongfulLockoutDamages, facts.wrongfulLockoutDamages * (facts.holdoverStatutoryPenalty ? 2 : 1.3),
-          "High end assumes a state statutory penalty multiplier applies — confirm against that state's chapter."));
+          enhanced.low, enhanced.high, enhanced.note));
       } else {
         out.push(result("wrongful_lockout", "Wrongful Eviction / Unlawful Lockout", p, null, null,
           "No damages amount entered — probability shown reflects state self-help law and whether statutory process was followed."));
+      }
+      // Improper self-help that disrupts the tenant's OWN contracts with its
+      // customers, suppliers, or employees (not just the landlord-tenant
+      // relationship itself) can separately support a tortious interference
+      // with contract claim -- opening lost-profits exposure beyond whatever
+      // the wrongful-lockout statute alone provides. Distinct claim, distinct
+      // theory -- per practitioner review, worth flagging as its own line
+      // item rather than folding into "actual damages" above.
+      if (facts.selfHelpDisruptedThirdPartyContracts && facts.lostProfitsFromInterference > 0) {
+        out.push(result("tortious_interference_lost_profits", "Tortious Interference with Contract (Lost Profits)", [0.25, 0.55],
+          facts.lostProfitsFromInterference * 0.4, facts.lostProfitsFromInterference * 0.9,
+          "A separate theory from the wrongful-lockout claim above: if the lockout disrupted the tenant's contracts with its own customers, suppliers, or employees (not just its occupancy), that can independently support tortious interference with contract, opening lost-profits exposure. Requires proving intent/improper means and a specific disrupted business expectancy -- fact-intensive, no case citation grounded here yet."));
       }
     }
     if (facts.repairFailureOrInterferenceClaimed) {
@@ -125,38 +194,11 @@
     }
     if (facts.hasFeeShiftingClause && out.length) {
       const avgP = out.reduce((s, c) => s + (c.probability[0] + c.probability[1]) / 2, 0) / out.length;
-      const principalLow = out.reduce((s, c) => s + (c.damagesRange ? c.damagesRange[0] : 0), 0);
-      const principalHigh = out.reduce((s, c) => s + (c.damagesRange ? c.damagesRange[1] : 0), 0);
-      const avgPrincipal = (principalLow + principalHigh) / 2;
-      // Fees scale sub-linearly with claim size (litigating a small claim
-      // still costs a similar baseline in hours; a large claim's fees don't
-      // grow proportionally with the dollars at stake) -- BUT that's only
-      // half the picture. Contestedness matters just as much: an
-      // uncontested/default-like matter (no disputed debt, no real
-      // tenant-side defenses) can resolve on a rocket-docket summary
-      // judgment with minimal fees; a genuinely contested matter (disputed
-      // debt, and/or tenant-side claims signaling real defenses or a
-      // counterclaim posture) means discovery, motion practice, and
-      // possibly trial -- fees run several times higher for the same size
-      // claim. The cited case (Village at Brocks Gap v. Singleton Ventures)
-      // was essentially UNCONTESTED -- the tenant/guarantor did not
-      // meaningfully oppose summary judgment -- so its ~1.3%-of-damages fee
-      // ratio anchors the uncontested tier only, not contested matters.
       const isContested = !!facts.tenantDisputesDebt ||
         out.some((c) => c.claimKey === "wrongful_lockout" || c.claimKey === "quiet_enjoyment_breach");
-      let feeLowPct, feeHighPct;
-      if (isContested) {
-        if (avgPrincipal < 100000) { feeLowPct = 0.30; feeHighPct = 0.50; }
-        else if (avgPrincipal < 1000000) { feeLowPct = 0.15; feeHighPct = 0.30; }
-        else { feeLowPct = 0.04; feeHighPct = 0.12; }
-      } else {
-        if (avgPrincipal < 100000) { feeLowPct = 0.20; feeHighPct = 0.35; }
-        else if (avgPrincipal < 1000000) { feeLowPct = 0.08; feeHighPct = 0.15; }
-        else { feeLowPct = 0.01; feeHighPct = 0.04; }
-      }
+      const [feeLow, feeHigh, postureNote] = feesByPosture(facts, isContested);
       out.push(result("attorney_fees", "Attorney's Fees", [avgP * 0.9, Math.min(0.97, avgP * 1.05)],
-        principalLow * feeLowPct, principalHigh * feeHighPct,
-        `Ratio-of-principal heuristic (${Math.round(feeLowPct * 100)}–${Math.round(feeHighPct * 100)}% of the other claims' damages) for a ${isContested ? "contested" : "largely uncontested/default-like"} matter at this claim-size tier — ${isContested ? "reflects real discovery, motion practice, and possible trial costs, not a rocket-docket resolution" : "the cited case was resolved on an essentially unopposed summary judgment, which keeps fees far lower than a genuinely contested matter would see"}; refine against comparable-case fee awards.`));
+        feeLow, feeHigh, postureNote));
     }
     return out;
   }
@@ -164,27 +206,49 @@
   /* ---------- lending-foreclosure ---------- */
   function evalLendingForeclosure(facts) {
     const out = [];
+    const guarantorDisputes = facts.guarantorAssertsCounterclaimOrOffset;
+    const isContested = !!facts.borrowerDisputesDefault || !!guarantorDisputes;
     if (facts.loanBalance > 0 && facts.foreclosureFiled) {
       let p = facts.borrowerDisputesDefault ? [0.60, 0.80] : [0.85, 0.97];
       const advances = facts.lenderAdvances || 0;
       const proceeds = facts.saleProceeds || 0;
       const gross = facts.loanBalance + advances;
+      const deficiency = Math.max(0, gross - proceeds);
       out.push(result("foreclosure_deficiency_judgment", "Foreclosure / Deficiency Judgment", p,
-        Math.max(0, gross - proceeds), Math.max(0, gross - proceeds * 0.5),
-        "Recovery against the judgment varies enormously by asset quality — real sample ranged from ~0% to ~100% of claimed debt."));
+        deficiency, deficiency,
+        "This is the legal deficiency the court would enter judgment for, not a prediction of what will actually be collected. Whether a judgment is ultimately collectable depends heavily on the borrower/guarantor's post-judgment asset picture and is outside the scope of this estimator — treat this figure as case value, not a collection forecast."));
     }
     if (facts.receivershipMotionFiled) {
       out.push(result("receivership_dispute", "Receivership Grant/Denial", [0.65, 0.85], null, null,
         "Not a dollar claim — operational-control relief. 5 of 6 sampled real matters resulted in a receiver appointed."));
     }
     if (facts.guarantyTriggerAlleged && facts.guaranteedBalance > 0) {
-      out.push(result("guaranty_enforcement", "Guaranty Enforcement", [0.70, 0.92],
-        facts.guaranteedBalance * 0.85, facts.guaranteedBalance,
-        "Once a carve-out trigger is credibly found, sampled real cases show guarantors held fully liable even for technical/non-fraud breaches. The harder question — proving the trigger occurred — isn't modeled as a separate probability here."));
+      if (guarantorDisputes) {
+        out.push(result("guaranty_enforcement", "Guaranty Enforcement", [0.45, 0.70],
+          facts.guaranteedBalance * 0.50, facts.guaranteedBalance * 0.85,
+          "A counterclaim or offset has been pled against the guaranty, which meaningfully reduces both the odds of full recovery and the likely dollar outcome — this becomes a genuinely contested fact question rather than a clean carve-out breach."));
+      } else {
+        out.push(result("guaranty_enforcement", "Guaranty Enforcement", [0.80, 0.97],
+          facts.guaranteedBalance * 0.95, facts.guaranteedBalance,
+          "Once a carve-out (\"bad boy\") trigger is credibly found and undisputed — no counterclaim or offset pled — sampled real cases show guarantors held liable for close to the full guaranteed balance, even for technical/non-fraud breaches. The harder question — proving the trigger occurred in the first place — isn't modeled as a separate probability here."));
+      }
     }
     if (facts.lenderMisconductAlleged) {
-      out.push(result("lender_liability_claim", "Lender Liability (borrower-asserted)", [0.15, 0.35], null, null,
-        "Historically borrower-unfriendly absent clear bad faith; recent real cases trend toward procedural wins rather than dollar outcomes."));
+      const claimed = facts.lenderLiabilityDamagesClaimed || 0;
+      const egregious = facts.egregiousConductAlleged;
+      const p = egregious ? [0.20, 0.40] : [0.10, 0.25];
+      const low = claimed > 0 ? claimed * (egregious ? 0.35 : 0.20) : null;
+      const high = claimed > 0 ? claimed * (egregious ? 1.5 : 0.55) : null;
+      out.push(result("lender_liability_claim", "Lender Liability (borrower-asserted)", p, low, high,
+        egregious
+          ? "Historically borrower-unfriendly absent clear bad faith, but egregious conduct changes the calculus — damages here can include contract damages, lost profits, out-of-pocket costs, and potentially exemplary/punitive damages, which is reflected in the wider high end."
+          : "Historically borrower-unfriendly absent clear bad faith; recent real cases trend toward procedural wins rather than dollar outcomes. Damages, if any, are typically limited to contract damages and out-of-pocket costs."));
+    }
+    if (facts.hasFeeShiftingClause && out.length) {
+      const avgP = out.reduce((s, c) => s + (c.probability[0] + c.probability[1]) / 2, 0) / out.length;
+      const [feeLow, feeHigh, postureNote] = feesByPosture(facts, isContested);
+      out.push(result("attorney_fees", "Attorney's Fees", [avgP * 0.9, Math.min(0.97, avgP * 1.05)],
+        feeLow, feeHigh, postureNote));
     }
     return out;
   }

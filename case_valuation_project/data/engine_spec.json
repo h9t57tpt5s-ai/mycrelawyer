@@ -61,7 +61,7 @@
               0.05,
               0.09
             ],
-            "note": "Discounted to present value using a 5-9% annual rate range, not a flat percentage-of-gross haircut -- required under case law (e.g. HealthSouth Rehabilitation Corp. v. Falcon Management Co., 799 So.2d 177, 185 (Ala. 2001)) and matches real accelerated-rent damages methodology -- see The Village at Brocks Gap, LLC v. Singleton Ventures, LLC citation, which used a 6.0% rate.",
+            "note": "Discounted to present value using a 5-9% annual rate range, not a flat percentage-of-gross haircut -- required under case law (e.g. HealthSouth Rehabilitation Corp. v. Falcon Management Co., 799 So.2d 177, 185 (Ala. 2001)) and matches real accelerated-rent damages methodology -- see The Village at Brocks Gap, LLC v. Singleton Ventures, LLC citation below, which used a 6.0% rate.",
             "reletOverride": "if landlord has re-let, net future rent = grossFutureRent - actual/anticipated overlapping new rent, BEFORE present-value discounting"
           }
         },
@@ -87,8 +87,8 @@
             0.95
           ],
           "damages": {
-            "formula": "monthlyRent * holdoverMultiplier * holdoverMonths",
-            "note": "holdoverMultiplier pulled from the specific state's chapter text, not assumed"
+            "formula": "monthlyRent * 1.5 * holdoverMonths (low) to monthlyRent * 2 * holdoverMonths (high)",
+            "note": "Per counsel-of-record review: highly fact/lease specific, but a flat 3x multiplier is uncommon in practice and overstated the typical case; 1.5x-2x is more realistic, and a holdover fact pattern itself is a relatively rare subtype of lease dispute (most lease disputes are nonpayment or abandonment, not holdover)."
           }
         },
         "attorney_fees": {
@@ -97,9 +97,9 @@
           "appliesIf": "hasFeeShiftingClause",
           "baseProbability": "weighted average of probabilities of the other pursued claims",
           "damages": {
-            "formula": "principalDamages * feeRatio",
-            "feeRatio": "tiered by BOTH principal size AND contestedness (disputed debt and/or tenant-side defense claims present) -- uncontested: under $100k [0.20, 0.35], $100k-$1M [0.08, 0.15], over $1M [0.01, 0.04]; contested: under $100k [0.30, 0.50], $100k-$1M [0.15, 0.30], over $1M [0.04, 0.12]",
-            "note": "Attorney fees scale sub-linearly with claim size, but contestedness matters just as much -- an uncontested/default-like matter can resolve on a rocket-docket summary judgment for a fraction of what a genuinely contested matter (real discovery, motion practice, possible trial) costs. See The Village at Brocks Gap, LLC v. Singleton Ventures, LLC citation, where fees + costs totaled ~1.3% of a ~$4.19M accelerated-rent recovery -- but that matter was essentially UNCONTESTED (the tenant/guarantor did not meaningfully oppose summary judgment), so that ratio anchors the uncontested tier only, not contested matters."
+            "formula": "feesByPosture(facts, isContested) -- a posture-tiered FLAT DOLLAR estimate, NOT a percentage of principal damages",
+            "feeTiers": "default (no answer filed) $5,000-$10,000; answered-passive (answer filed, not actively litigated) $15,000-$25,000; contested-msj (actively contested, resolved on summary judgment) $20,000-$45,000; trial $50,000-$200,000",
+            "note": "SUPERSEDES the earlier percentage-of-principal model. Per counsel-of-record review, fees are driven overwhelmingly by procedural effort/posture, not claim size -- a $50k claim litigated to trial and a $5M claim litigated to trial cost roughly the same in fees. isContested is derived from tenantDisputesDebt or the presence of a wrongful_lockout/quiet_enjoyment_breach claim. See The Village at Brocks Gap, LLC v. Singleton Ventures, LLC citation for a real UNCONTESTED data point (fees + costs ~1.3% of a ~$4.19M recovery, consistent with the low end of the default/answered-passive tiers for a claim of that size) -- that matter does not calibrate the contested tiers."
           }
         },
         "property_damage": {
@@ -141,8 +141,21 @@
             ]
           },
           "damages": {
-            "formula": "actualDamages + (statutoryPenaltyMultiplier ? actualDamages * (statutoryPenaltyMultiplier - 1) : 0)",
-            "note": "actualDamages = relocation + lost inventory + provable lost profits, minus any lease consequential-damages waiver; statutoryPenaltyMultiplier pulled per-state from handbook chapter, not assumed to exist"
+            "formula": "computeWrongfulLockoutDamages(facts) -- branches on the specific state's statutory remedy MECHANISM, not just a flat multiplier: 'multiplier' states (e.g. NY, NJ treble damages) multiply actualDamages; 'per-day' states (e.g. CA $100/day) add a per-diem penalty on top of actualDamages; 'floor' states (e.g. TX greater-of-one-month's-rent-or-$500) add a statutory floor amount; 'actual-only' states (no confirmed enhancement researched, or none exists) return actualDamages only. Per-state mechanism/value/citation live in stateLawModifiers[state].wrongfulLockoutRemedyType/Value/Citation.",
+            "note": "actualDamages = relocation + lost inventory + provable lost profits, minus any lease consequential-damages waiver. Researched for 8 states so far (TX, CA, NY, NJ, FL, IL, GA, PA); all others default to actual-only with an explicit 'not yet researched' flag rather than assuming a multiplier exists."
+          }
+        },
+        "tortious_interference_lost_profits": {
+          "side": "sideB",
+          "label": "Tortious Interference with Contract (Lost Profits)",
+          "appliesIf": "selfHelpUsed && selfHelpDisruptedThirdPartyContracts && lostProfitsFromInterference > 0",
+          "baseProbability": [
+            0.25,
+            0.55
+          ],
+          "damages": {
+            "formula": "lostProfitsFromInterference * [0.4, 0.9]",
+            "note": "A separate theory from the wrongful-lockout claim: if the lockout disrupted the tenant's contracts with its own customers, suppliers, or employees (not just its occupancy), that can independently support tortious interference with contract and open a distinct lost-profits exposure to the landlord. Requires proving intent/improper means and a specific disrupted business expectancy -- fact-intensive; flagged per counsel-of-record review as a real potential landlord liability where self-help is threatened or used, not yet grounded to a specific case citation."
           }
         },
         "quiet_enjoyment_breach": {
@@ -217,8 +230,9 @@
             }
           ],
           "damages": {
-            "formula": "outstandingLoanBalance + accruedInterestAndFees + lenderProtectiveAdvances - foreclosureSaleProceeds",
-            "researchNote": "19-case sample: undisputed defaults produce stipulated judgments tracking loan balance closely (AFF IV 200 Miami v. Stonerock: $65.7M judgment on $41.1M principal). Recovery-against-judgment varies enormously by asset quality \u2014 severely impaired assets can see near-zero sale recovery (750 Lexington Ave: $155.9M judgment, property reverted for $1,000 after zero-bid auction) up to ~45% (KeyBank Tower Columbus: $5.1M sale vs $9.3M claim). Lender protective advances (taxes, insurance) can meaningfully inflate the judgment beyond original principal (Hillsboro Beach Resort: $26M loan + ~$2.9M advances = $40M judgment). Deficiency-judgment AVAILABILITY itself varies by state/foreclosure method \u2014 needs a state-law modifier, not yet built."
+            "formula": "max(0, outstandingLoanBalance + lenderProtectiveAdvances - foreclosureSaleProceeds), single deterministic figure (low == high)",
+            "researchNote": "19-case sample: undisputed defaults produce stipulated judgments tracking loan balance closely (AFF IV 200 Miami v. Stonerock: $65.7M judgment on $41.1M principal). Lender protective advances (taxes, insurance) can meaningfully inflate the judgment beyond original principal (Hillsboro Beach Resort: $26M loan + ~$2.9M advances = $40M judgment). Deficiency-judgment AVAILABILITY itself varies by state/foreclosure method — needs a state-law modifier, not yet built.",
+            "note": "SCOPE CHANGE per counsel-of-record review: this figure is the legal deficiency a court would enter judgment for -- it is NOT a post-judgment collectability forecast. An earlier version of this model applied a 0.5x haircut to the high end to approximate collection risk; that was removed. Collectability depends on the borrower/guarantor's asset picture at judgment, which is explicitly out of scope for this estimator -- the tool answers 'what is this case worth,' not 'what will actually be collected.'"
           }
         },
         "receivership_dispute": {
@@ -229,7 +243,7 @@
             0.65,
             0.85
           ],
-          "note": "Refined from a 6-case sample: 5 of 6 resulted in a receiver appointed (the lone initial denial, Independent Bank v. Adelaide Pointe, was later granted on renewed motion once factual disputes were developed). Typical fact pattern is occupancy/income decline colliding with an unrefinanceable maturity \u2014 not borrower fraud/misconduct \u2014 and involves institutionally sophisticated owners as often as not. Sample is small and recency-skewed (2024-2026 office-distress cycle); treat this range as directional, not final.",
+          "note": "Refined from a 6-case sample: 5 of 6 resulted in a receiver appointed (the lone initial denial, Independent Bank v. Adelaide Pointe, was later granted on renewed motion once factual disputes were developed). Typical fact pattern is occupancy/income decline colliding with an unrefinanceable maturity — not borrower fraud/misconduct — and involves institutionally sophisticated owners as often as not. Sample is small and recency-skewed (2024-2026 office-distress cycle); treat this range as directional, not final.",
           "damages": {
             "formula": "not a damages claim -- operational-control relief, not a dollar figure",
             "isRange": false
@@ -243,11 +257,37 @@
             0.7,
             0.92
           ],
-          "note": "Revised UP from the original preliminary estimate: all 3 sampled guaranty-enforcement cases (Cherryland Mall, Princeton Park, Gratiot Avenue) resulted in FULL personal liability for the guarantor once a carve-out trigger was found \u2014 even for purely technical/springing breaches (insolvency, unauthorized subordinate debt later cured) with no fraud or intentional waste. This probability applies once a trigger event is credibly alleged; separately and NOT modeled with a probability here, PROVING the trigger event in the first place is the genuinely contested, fact-specific question.",
+          "note": "Revised UP from the original preliminary estimate: all 3 sampled guaranty-enforcement cases (Cherryland Mall, Princeton Park, Gratiot Avenue) resulted in FULL personal liability for the guarantor once a carve-out trigger was found — even for purely technical/springing breaches (insolvency, unauthorized subordinate debt later cured) with no fraud or intentional waste. This probability applies once a trigger event is credibly alleged; separately and NOT modeled with a probability here, PROVING the trigger event in the first place is the genuinely contested, fact-specific question.",
+          "modifiers": [
+            {
+              "if": "guarantorAssertsCounterclaimOrOffset",
+              "probability": [
+                0.45,
+                0.7
+              ],
+              "damagesFraction": [
+                0.5,
+                0.85
+              ],
+              "note": "Per counsel-of-record review: recovery totally depends on whether a clear, undisputed carve-out breach exists. Once a counterclaim or offset is pled against the guaranty, it becomes a genuinely contested fact question and both probability and expected dollar recovery drop meaningfully."
+            },
+            {
+              "if": "!guarantorAssertsCounterclaimOrOffset",
+              "probability": [
+                0.8,
+                0.97
+              ],
+              "damagesFraction": [
+                0.95,
+                1.0
+              ],
+              "note": "Clean, undisputed carve-out breach -- case value should approach the full measure of the guaranteed balance."
+            }
+          ],
           "damages": {
-            "formula": "guaranteedLoanBalance (full recourse) or triggerSpecificLossAmount (springing/partial carve-out)",
+            "formula": "guaranteedLoanBalance * damagesFraction (see modifiers -- branches on whether a counterclaim/offset is pled)",
             "isRange": false,
-            "researchNote": "Sample dollar figures ($2.1M, $5.2M, $12.2M) scale with underlying loan size, not triggering-conduct severity \u2014 a $400K unauthorized loan repaid 7 months later produced the same full-recourse outcome as outright insolvency."
+            "researchNote": "Sample dollar figures ($2.1M, $5.2M, $12.2M) scale with underlying loan size, not triggering-conduct severity — a $400K unauthorized loan repaid 7 months later produced the same full-recourse outcome as outright insolvency."
           }
         },
         "lender_liability_claim": {
@@ -258,10 +298,30 @@
             0.15,
             0.35
           ],
-          "note": "Confirmed low (kept at 0.15\u20130.35): 19-case sample shows 1980s-era cases succeeded with large verdicts (K.M.C. v. Irving Trust, Barrett v. Bank of America, $6.6\u2013$7.5M) under now-dated, more borrower-friendly doctrine. Recent CRE lender-liability suits (Steinway Tower/111 W57, Via Mizner/Mandarin Oriental) are trending toward procedural wins (reinstated claims, remands, a 6-week TRO) rather than dollar outcomes, and take years to resolve even when they eventually succeed.",
+          "modifiers": [
+            {
+              "if": "egregiousConductAlleged",
+              "probability": [
+                0.2,
+                0.4
+              ],
+              "note": "Egregious conduct (clear bad faith) shifts the odds up somewhat, and per counsel-of-record review opens exemplary/punitive damages as a real component alongside contract damages, lost profits, and out-of-pocket costs."
+            }
+          ],
+          "note": "Confirmed low (kept at 0.15–0.35 absent egregious conduct): 19-case sample shows 1980s-era cases succeeded with large verdicts (K.M.C. v. Irving Trust, Barrett v. Bank of America, $6.6–$7.5M) under now-dated, more borrower-friendly doctrine. Recent CRE lender-liability suits (Steinway Tower/111 W57, Via Mizner/Mandarin Oriental) are trending toward procedural wins (reinstated claims, remands, a 6-week TRO) rather than dollar outcomes, and take years to resolve even when they eventually succeed. Per counsel-of-record review, a borrower win has a real damages component: typically contract damages, lost profits, out-of-pocket costs, and potentially exemplary damages in egregious cases.",
           "damages": {
-            "formula": "comparable-case-informed range; consequential/lost-profit damages often limited by loan-agreement waiver clauses",
+            "formula": "lenderLiabilityDamagesClaimed * [0.20, 0.55] (non-egregious) or lenderLiabilityDamagesClaimed * [0.35, 1.5] (egregious, reflecting exemplary-damages exposure)",
             "isRange": true
+          }
+        },
+        "attorney_fees": {
+          "side": "sideA",
+          "label": "Attorney's Fees",
+          "appliesIf": "hasFeeShiftingClause",
+          "baseProbability": "weighted average of probabilities of the other pursued claims",
+          "damages": {
+            "formula": "feesByPosture(facts, isContested) -- same posture-tiered flat-dollar model used for lease-disputes",
+            "note": "Per counsel-of-record review (Q8): same treatment as lease-disputes attorney's fees. isContested = borrowerDisputesDefault OR guarantorAssertsCounterclaimOrOffset -- i.e., either the borrower disputes the debt/default, or the guarantor disputes the debt via a counterclaim or offset."
           }
         }
       }
@@ -281,7 +341,7 @@
             0.35,
             0.55
           ],
-          "note": "Stanford Securities Class Action Clearinghouse (the designated primary source) was inaccessible for this research pass (site under construction, expected back Winter 2026) \u2014 rerun once it's back online, since it would likely surface more, smaller mortgage-REIT and non-traded-REIT settlements this pass couldn't find via general web search.",
+          "note": "Stanford Securities Class Action Clearinghouse (the designated primary source) was inaccessible for this research pass (site under construction, expected back Winter 2026) — rerun once it's back online, since it would likely surface more, smaller mortgage-REIT and non-traded-REIT settlements this pass couldn't find via general web search.",
           "damages": {
             "formula": "settlementPercentOfEstimatedInvestorLosses",
             "percentRange": [
@@ -302,7 +362,7 @@
                   0.1,
                   0.25
                 ],
-                "note": "the presence of any of these tends to push the settlement an order of magnitude higher \u2014 ARCP/VEREIT ($1.025B total) combined a criminally-convicted CFO, a co-liable auditor (Grant Thornton, $49M), and a co-liable external manager (~$225-286.5M)"
+                "note": "the presence of any of these tends to push the settlement an order of magnitude higher — ARCP/VEREIT ($1.025B total) combined a criminally-convicted CFO, a co-liable auditor (Grant Thornton, $49M), and a co-liable external manager (~$225-286.5M)"
               }
             }
           }
@@ -327,7 +387,7 @@
                 0.55,
                 0.8
               ],
-              "note": "an internalization at an inflated price, a merger timed/structured to enrich the founder, a related-party fee arrangement \u2014 Quinn v. Knight $32M, Inland Western ~$90M forfeited stock, Hospitality Investors Trust $15.2M"
+              "note": "an internalization at an inflated price, a merger timed/structured to enrich the founder, a related-party fee arrangement — Quinn v. Knight $32M, Inland Western ~$90M forfeited stock, Hospitality Investors Trust $15.2M"
             },
             {
               "if": "genericGovernanceComplaintOnly",
@@ -335,7 +395,7 @@
                 0.05,
                 0.15
               ],
-              "note": "piggybacking on an already-successful activist proxy fight, or a self-dealing allegation resolved via a voting/cooperation agreement instead of litigation \u2014 these tend to settle for governance changes plus a nominal fee reimbursement, with NO disclosed cash recovery to the company (CommonWealth REIT $200K; Blackwells v. GNL, no disclosed cash despite an $838M excess-fee allegation)"
+              "note": "piggybacking on an already-successful activist proxy fight, or a self-dealing allegation resolved via a voting/cooperation agreement instead of litigation — these tend to settle for governance changes plus a nominal fee reimbursement, with NO disclosed cash recovery to the company (CommonWealth REIT $200K; Blackwells v. GNL, no disclosed cash despite an $838M excess-fee allegation)"
             }
           ]
         },
@@ -366,7 +426,7 @@
                 0.1,
                 0.25
               ],
-              "note": "courts are much more willing to dismiss for failure to plead materiality \u2014 St. Clair-Hibbard v. American Finance Trust (2d Cir. 2020): boilerplate conflict-of-interest/trading-discount warnings defeated the claim even without quantifying the risk"
+              "note": "courts are much more willing to dismiss for failure to plead materiality — St. Clair-Hibbard v. American Finance Trust (2d Cir. 2020): boilerplate conflict-of-interest/trading-discount warnings defeated the claim even without quantifying the risk"
             }
           ]
         },
@@ -378,7 +438,7 @@
             0.1,
             0.25
           ],
-          "note": "Confirmed low real-recovery probability (kept at 0.10\u20130.25): the classic 'disclosure-only settlement' pattern \u2014 supplemental proxy disclosures get added, suits get mooted, and post-Trulia courts have grown skeptical of paying a 'mootness fee' for it at all. Where a mootness fee IS paid, it goes to plaintiff's counsel (typically $75K\u2013$500K), not to shareholders as a per-share recovery \u2014 model this claim type as high-frequency, low-dollar-value litigation risk, and make the counsel-fee-vs-shareholder-recovery distinction explicit in the UI.",
+          "note": "Confirmed low real-recovery probability (kept at 0.10–0.25): the classic 'disclosure-only settlement' pattern — supplemental proxy disclosures get added, suits get mooted, and post-Trulia courts have grown skeptical of paying a 'mootness fee' for it at all. Where a mootness fee IS paid, it goes to plaintiff's counsel (typically $75K–$500K), not to shareholders as a per-share recovery — model this claim type as high-frequency, low-dollar-value litigation risk, and make the counsel-fee-vs-shareholder-recovery distinction explicit in the UI.",
           "damages": {
             "formula": "usually a mootness fee to counsel (modest, often $75K-$500K) rather than a per-share shareholder recovery; flag this distinction explicitly in the UI"
           }
@@ -408,10 +468,10 @@
             ],
             "tiers": {
               "catastrophicLifeSafetyFailure": {
-                "note": "structural collapse, or a defect too severe to safely complete construction \u2014 the outlier top of the range: Champlain Towers South ($997M), Harmon Hotel ($195M, ended in demolition), Tropicana garage collapse ($101M), Milwaukee garage panel collapse ($39M). These anchor the top of a valuation range, not the median."
+                "note": "structural collapse, or a defect too severe to safely complete construction — the outlier top of the range: Champlain Towers South ($997M), Harmon Hotel ($195M, ended in demolition), Tropicana garage collapse ($101M), Milwaukee garage panel collapse ($39M). These anchor the top of a valuation range, not the median."
               },
               "postOccupancyLatentDefect": {
-                "note": "water intrusion, facade/envelope failure, HVAC/MEP \u2014 roughly $10M-$56M in this sample regardless of unit count. Defect PERVASIVENESS across every unit is a stronger driver of settlement size than raw unit count or building height (Park Hill: only 10 units but ~$2.65M/unit, the highest per-unit figure in the sample, because the defect was pervasive)."
+                "note": "water intrusion, facade/envelope failure, HVAC/MEP — roughly $10M-$56M in this sample regardless of unit count. Defect PERVASIVENESS across every unit is a stronger driver of settlement size than raw unit count or building height (Park Hill: only 10 units but ~$2.65M/unit, the highest per-unit figure in the sample, because the defect was pervasive)."
               }
             }
           }
@@ -424,7 +484,7 @@
             0.35,
             0.6
           ],
-          "note": "Sample too thin to refine (both sampled cases \u2014 Princeton/TWBTA, Clark Construction/Perkins Eastman \u2014 have undisclosed final outcomes, only amounts sought). Base rate kept at the original preliminary estimate.",
+          "note": "Sample too thin to refine (both sampled cases — Princeton/TWBTA, Clark Construction/Perkins Eastman — have undisclosed final outcomes, only amounts sought). Base rate kept at the original preliminary estimate.",
           "damages": {
             "formula": "repairAndRedesignCostEstimate"
           }
@@ -440,7 +500,7 @@
           "note": "PRELIMINARY -- outcome heavily contract-language-dependent (broad-form vs. comparative-fault indemnity clauses, which many states restrict or void by statute)",
           "damages": {
             "formula": "allocatedShareOfUnderlyingDefectDamages",
-            "researchNote": "Where a defect traces to a specific subcontractor's workmanship, fault allocation strongly favors that subcontractor (Milwaukee garage: 88% sub / 10% GC / 2% owner \u2014 the clearest allocation data point found). Where a design professional is a co-defendant alongside developer/GC, their share is consistently smaller than the builder's on the same facts (Grandview: architect took ~10% of the total, $1M of $10M) \u2014 professional E&O coverage limits are typically much smaller than a GC's CGL policy."
+            "researchNote": "Where a defect traces to a specific subcontractor's workmanship, fault allocation strongly favors that subcontractor (Milwaukee garage: 88% sub / 10% GC / 2% owner — the clearest allocation data point found). Where a design professional is a co-defendant alongside developer/GC, their share is consistently smaller than the builder's on the same facts (Grandview: architect took ~10% of the total, $1M of $10M) — professional E&O coverage limits are typically much smaller than a GC's CGL policy."
           }
         },
         "insurance_coverage_defect_dispute": {
@@ -451,7 +511,7 @@
             0.45,
             0.65
           ],
-          "note": "Coverage litigation resolves the LEGAL question (duty to defend/indemnify, exclusion scope) in a published opinion while the dollar consequences flow through confidential settlements downstream \u2014 only 1 of 3 sampled cases disclosed even a damages floor for the underlying claim. Base rate kept at the original preliminary estimate; treat any output for this claim type as a coverage-yes/no signal more than a dollar estimate.",
+          "note": "Coverage litigation resolves the LEGAL question (duty to defend/indemnify, exclusion scope) in a published opinion while the dollar consequences flow through confidential settlements downstream — only 1 of 3 sampled cases disclosed even a damages floor for the underlying claim. Base rate kept at the original preliminary estimate; treat any output for this claim type as a coverage-yes/no signal more than a dollar estimate.",
           "damages": {
             "formula": "coveredPortionOfUnderlyingDefectDamages"
           }
@@ -473,31 +533,31 @@
             0.65,
             0.85
           ],
-          "note": "Almost every disclosed CERCLA cost-recovery outcome in the research sample is a NEGOTIATED settlement, not an adversarial verdict \u2014 liability is strict/joint/several once PRP status attaches, so litigation is mostly about allocation share, not a binary win/loss. Treat the probability range as 'likelihood of obtaining a meaningful allocation,' not 'likelihood of prevailing at trial.'",
+          "note": "Almost every disclosed CERCLA cost-recovery outcome in the research sample is a NEGOTIATED settlement, not an adversarial verdict — liability is strict/joint/several once PRP status attaches, so litigation is mostly about allocation share, not a binary win/loss. Treat the probability range as 'likelihood of obtaining a meaningful allocation,' not 'likelihood of prevailing at trial.'",
           "damages": {
             "formula": "totalCleanupCost * allocationShare",
-            "note": "PRELIMINARY -- allocationShare is fact-specific (equitable factors under CERCLA \u00a7113(f)); refine typical allocation patterns from research",
+            "note": "PRELIMINARY -- allocationShare is fact-specific (equitable factors under CERCLA §113(f)); refine typical allocation patterns from research",
             "benchmarkTiers": {
               "waterwayOrMultiDecadeLegacyIndustrialCorridor": {
                 "range": [
                   130000000,
                   670000000
                 ],
-                "note": "contamination migrated into sediment/groundwater/surface water over decades, affecting a wide area beyond the original parcel \u2014 Lower Duwamish Waterway $668M, Solvay PFAS $393M, Raritan Bay Slag $151.1M, Anaconda Smelter $131.3M"
+                "note": "contamination migrated into sediment/groundwater/surface water over decades, affecting a wide area beyond the original parcel — Lower Duwamish Waterway $668M, Solvay PFAS $393M, Raritan Bay Slag $151.1M, Anaconda Smelter $131.3M"
               },
               "singleParcelSoilOnly": {
                 "range": [
                   3000000,
                   19000000
                 ],
-                "note": "contamination confined to one parcel, no significant off-site migration \u2014 Ringwood Mines final phase $3.4M, Riverside Industrial Park ~$18.8M"
+                "note": "contamination confined to one parcel, no significant off-site migration — Ringwood Mines final phase $3.4M, Riverside Industrial Park ~$18.8M"
               },
               "smallCommercialStateEnforcementPenalty": {
                 "range": [
                   85000,
                   120000
                 ],
-                "note": "single gas station or strip-mall dry cleaner state AG enforcement \u2014 civil penalty only, separate from and much smaller than the underlying remediation cost (often undisclosed)"
+                "note": "single gas station or strip-mall dry cleaner state AG enforcement — civil penalty only, separate from and much smaller than the underlying remediation cost (often undisclosed)"
               }
             }
           }
@@ -512,7 +572,7 @@
           ],
           "damages": {
             "formula": "totalCleanupCost * (coDefendantEquitableShare)",
-            "researchNote": "Courts apply equitable 'Gore factor' adjustments that REDUCE a mechanically-calculated proportional share (Trinity Industries: raw calculation gave 83% to one party, equitable factors reduced it to 62%). A recurring, important limit: the 'orphan share' \u2014 costs attributable to defunct, judgment-proof, or unidentifiable historical operators \u2014 is often unrecoverable and falls back onto the contribution plaintiff itself (Barclay Lofts: one historical operator's 20% share was assigned as an orphan share the plaintiff must absorb)."
+            "researchNote": "Courts apply equitable 'Gore factor' adjustments that REDUCE a mechanically-calculated proportional share (Trinity Industries: raw calculation gave 83% to one party, equitable factors reduced it to 62%). A recurring, important limit: the 'orphan share' — costs attributable to defunct, judgment-proof, or unidentifiable historical operators — is often unrecoverable and falls back onto the contribution plaintiff itself (Barclay Lofts: one historical operator's 20% share was assigned as an orphan share the plaintiff must absorb)."
           }
         },
         "state_cleanup_consent_decree": {
@@ -533,7 +593,7 @@
             0.25,
             0.45
           ],
-          "note": "Revised DOWN slightly from the original preliminary estimate: the small sample skewed toward insurers winning on pollution-exclusion/site-development-exclusion grounds (Regency Centers v. Indian Harbor: no coverage owed for legacy dry-cleaner contamination). None of the 3 sampled cases disclosed the underlying remediation-cost dollar figure \u2014 the disclosed 'outcome' in this claim type is frequently binary (coverage owed / not owed) rather than a dollar figure.",
+          "note": "Revised DOWN slightly from the original preliminary estimate: the small sample skewed toward insurers winning on pollution-exclusion/site-development-exclusion grounds (Regency Centers v. Indian Harbor: no coverage owed for legacy dry-cleaner contamination). None of the 3 sampled cases disclosed the underlying remediation-cost dollar figure — the disclosed 'outcome' in this claim type is frequently binary (coverage owed / not owed) rather than a dollar figure.",
           "damages": {
             "formula": "coveredPortionOfCleanupCosts"
           }
@@ -567,10 +627,10 @@
                   2.0,
                   5.0
                 ],
-                "note": "Severance damages, access/business-value loss, or specialized-use improvements (billboards, medical buildings) with no single accepted valuation methodology. VDOT Fairfax retailer case: ~49x; Gleannloch Commercial: 292% (~3.9x); Inglewood VFW Post: 5.2x. Wide, unpredictable spread \u2014 use the low end absent a clear severance/business-value component."
+                "note": "Severance damages, access/business-value loss, or specialized-use improvements (billboards, medical buildings) with no single accepted valuation methodology. VDOT Fairfax retailer case: ~49x; Gleannloch Commercial: 292% (~3.9x); Inglewood VFW Post: 5.2x. Wide, unpredictable spread — use the low end absent a clear severance/business-value component."
               }
             },
-            "fullDefenseRisk": "A right-to-take or blight-designation challenge can VOID an already-adjudicated compensation award entirely rather than raise or lower it \u2014 PKO Ventures v. Norfolk RHA (VA 2013) voided a ~$3.4-3.75M jury award when the underlying blight designation was found invalid. Flag this as a distinct binary risk in the UI, separate from the valuation-uplift math above."
+            "fullDefenseRisk": "A right-to-take or blight-designation challenge can VOID an already-adjudicated compensation award entirely rather than raise or lower it — PKO Ventures v. Norfolk RHA (VA 2013) voided a ~$3.4-3.75M jury award when the underlying blight designation was found invalid. Flag this as a distinct binary risk in the UI, separate from the valuation-uplift math above."
           }
         },
         "quick_take_challenge": {
@@ -581,7 +641,7 @@
             0.05,
             0.15
           ],
-          "note": "Confirmed low (kept at 0.05\u20130.15): courts are highly deferential to public-use/necessity determinations post-Kelo. Note the separate, longer-running track: withdrawing a quick-take deposit does NOT waive a right-to-take challenge (LA MTA v. Alameda Produce Market), so an owner isn't forced to choose between needed cash now and continuing to fight the taking's legality.",
+          "note": "Confirmed low (kept at 0.05–0.15): courts are highly deferential to public-use/necessity determinations post-Kelo. Note the separate, longer-running track: withdrawing a quick-take deposit does NOT waive a right-to-take challenge (LA MTA v. Alameda Produce Market), so an owner isn't forced to choose between needed cash now and continuing to fight the taking's legality.",
           "damages": {
             "formula": "not a damages claim -- injunctive relief blocking/delaying the taking",
             "isRange": false
@@ -595,7 +655,7 @@
             0.05,
             0.2
           ],
-          "note": "Narrowed down from the original preliminary range: courts in this sample consistently sided with the entity seeking access once it showed a plausible path to eminent-domain authority (PSEG v. Arentz Family; Summit Carbon Solutions v. Malloy) \u2014 this essentially never carries a compensation figure since that's not what's being litigated. A separate, live track (challenging the underlying eminent-domain authority itself, as in Texas Rice Land Partners v. Denbury) can still defeat the taking down the line, but that's a different claim, not this one.",
+          "note": "Narrowed down from the original preliminary range: courts in this sample consistently sided with the entity seeking access once it showed a plausible path to eminent-domain authority (PSEG v. Arentz Family; Summit Carbon Solutions v. Malloy) — this essentially never carries a compensation figure since that's not what's being litigated. A separate, live track (challenging the underlying eminent-domain authority itself, as in Texas Rice Land Partners v. Denbury) can still defeat the taking down the line, but that's a different claim, not this one.",
           "damages": {
             "formula": "not typically a damages claim pre-taking",
             "isRange": false
@@ -632,7 +692,7 @@
             0.25,
             0.45
           ],
-          "note": "Small 4-case sample roughly consistent with the original estimate (2 reversed, 1 affirmed, 1 undisclosed-on-remand) \u2014 kept unchanged pending a larger sample.",
+          "note": "Small 4-case sample roughly consistent with the original estimate (2 reversed, 1 affirmed, 1 undisclosed-on-remand) — kept unchanged pending a larger sample.",
           "damages": {
             "formula": "not typically a damages claim -- injunctive relief (permit ordered granted) or remand",
             "isRange": false
@@ -650,7 +710,7 @@
             "formula": "not typically a damages claim -- declaratory relief invalidating the zoning change",
             "isRange": false
           },
-          "note": "Revised UP from the original preliminary estimate: all 3 sampled challenges succeeded in invalidating the rezoning (Allen Distribution, Lathan, Chaffier). Treat this cautiously \u2014 successful challenges are more likely to get published/cited as precedent than unsuccessful ones, so this small sample may be outcome-selection-biased upward. Remedy is categorically injunctive/declaratory (invalidating the ordinance), never damages."
+          "note": "Revised UP from the original preliminary estimate: all 3 sampled challenges succeeded in invalidating the rezoning (Allen Distribution, Lathan, Chaffier). Treat this cautiously — successful challenges are more likely to get published/cited as precedent than unsuccessful ones, so this small sample may be outcome-selection-biased upward. Remedy is categorically injunctive/declaratory (invalidating the ordinance), never damages."
         },
         "section_1983_zoning_claim": {
           "side": "sideA",
@@ -660,7 +720,7 @@
             0.1,
             0.2
           ],
-          "note": "Base rate narrowed down (only 2 of 8 sampled cases produced a disclosed plaintiff recovery) \u2014 ordinary administrative error or an arguably wrong denial is NOT enough on its own, even one that costs a developer millions (Rubicon Real Estate Holdings v. City of Pontiac). The modifiers above are the actual determinants; apply the base rate only when none of them are present. When a claim DOES succeed with a disclosed figure, awards run large (Del Monte Dunes $1.45M, Orangetown v. Magee $5.14M+fees) because the injury is a whole project's lost value, not a rent stream \u2014 and mandatory fee-shifting under 42 U.S.C. \u00a7 1988 stacks on top of the merits recovery for a prevailing plaintiff, though it's irrelevant in the large majority of cases where the municipality prevails.",
+          "note": "Base rate narrowed down (only 2 of 8 sampled cases produced a disclosed plaintiff recovery) — ordinary administrative error or an arguably wrong denial is NOT enough on its own, even one that costs a developer millions (Rubicon Real Estate Holdings v. City of Pontiac). The modifiers above are the actual determinants; apply the base rate only when none of them are present. When a claim DOES succeed with a disclosed figure, awards run large (Del Monte Dunes $1.45M, Orangetown v. Magee $5.14M+fees) because the injury is a whole project's lost value, not a rent stream — and mandatory fee-shifting under 42 U.S.C. § 1988 stacks on top of the merits recovery for a prevailing plaintiff, though it's irrelevant in the large majority of cases where the municipality prevails.",
           "damages": {
             "formula": "compensatoryDamages (lost value/profits) + attorneyFees (mandatory fee-shifting if prevailing)",
             "isRange": true
@@ -711,7 +771,7 @@
           "damages": {
             "formula": "comparable-case-informed range (lost development profit, cost overruns, or reliance damages depending on posture)"
           },
-          "note": "Sample (2 cases, Mammoth Lakes $30M+fees and Cle Elum $22M arbitration award) is both small and success-skewed \u2014 no losing case was found with comparable documentation. Base rate kept at the original preliminary estimate pending a more balanced sample; treat the high end of the damages range with real confidence (both anchor cases are well-documented) but the probability range as still largely a placeholder."
+          "note": "Sample (2 cases, Mammoth Lakes $30M+fees and Cle Elum $22M arbitration award) is both small and success-skewed — no losing case was found with comparable documentation. Base rate kept at the original preliminary estimate pending a more balanced sample; treat the high end of the damages range with real confidence (both anchor cases are well-documented) but the probability range as still largely a placeholder."
         }
       }
     }
