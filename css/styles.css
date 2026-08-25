@@ -351,9 +351,49 @@ h3, .h3 {
 .hero-stat-browse .chip-row { gap: 8px; }
 .hero-stat-browse .chip { padding: 6px 13px; font-size: 12px; }
 
-.hero-actions { display: flex; gap: 16px; margin-top: 44px; flex-wrap: wrap; }
+.hero-actions { display: flex; gap: 16px; margin-top: 44px; flex-wrap: wrap; align-items: center; }
 
 .hero > .container { will-change: transform, opacity; }
+
+/* ---------- Hero pills: one shared shape/size for the primary CTA and the
+   "New Today" / "New: Handbook" callouts, so they read as one confident
+   row of actions instead of a big button with two washed-out afterthoughts. ---------- */
+.hero-pill {
+  display: inline-flex; align-items: center; gap: 10px;
+  padding: 14px 24px; border-radius: var(--radius-full);
+  font-size: 14px; font-weight: 600; letter-spacing: 0.01em;
+  border: 1px solid transparent; white-space: nowrap;
+  transition: transform 0.35s var(--ease), box-shadow 0.35s var(--ease), border-color 0.3s ease, background 0.3s ease;
+}
+.hero-pill svg { width: 15px; height: 15px; flex-shrink: 0; }
+.hero-pill:hover { transform: translateY(-2px); }
+.hero-pill-primary {
+  background: linear-gradient(135deg, var(--accent-bright), var(--accent));
+  color: #ffffff;
+}
+.hero-pill-primary:hover { box-shadow: var(--shadow-glow); }
+.hero-pill-live {
+  background: color-mix(in srgb, var(--status-ruling) 14%, var(--bg-elevated) 86%);
+  color: var(--status-ruling);
+  border-color: color-mix(in srgb, var(--status-ruling) 45%, transparent);
+}
+.hero-pill-live:hover { border-color: var(--status-ruling); box-shadow: 0 10px 28px color-mix(in srgb, var(--status-ruling) 22%, transparent); }
+.hero-pill-live .hero-pill-dot { width: 7px; height: 7px; border-radius: 50%; background: currentColor; animation: pill-pulse 1.8s ease-in-out infinite; flex-shrink: 0; }
+@keyframes pill-pulse { 0%, 100% { opacity: 1; transform: scale(1); } 50% { opacity: 0.45; transform: scale(0.7); } }
+.hero-pill-new {
+  background: var(--accent-wash);
+  color: var(--accent-deep);
+  border-color: color-mix(in srgb, var(--accent) 40%, transparent);
+}
+.hero-pill-new:hover { border-color: var(--accent); box-shadow: 0 10px 28px rgba(51,85,255,0.16); }
+.hero-pill-ghost {
+  background: transparent; border-color: var(--border); color: var(--text-primary);
+  padding: 14px 22px;
+}
+.hero-pill-ghost:hover { border-color: var(--accent); color: var(--accent); box-shadow: none; }
+@media (max-width: 560px) {
+  .hero-pill { padding: 12px 18px; font-size: 13.5px; }
+}
 
 .skyline-wrap { position: relative; }
 .skyline-wrap svg { width: 100%; height: auto; overflow: visible; }
@@ -402,6 +442,15 @@ h3, .h3 {
 }
 .card:hover::before { opacity: 1; }
 .card > * { position: relative; z-index: 1; }
+
+.card-icon {
+  display: inline-flex; align-items: center; justify-content: center;
+  width: 46px; height: 46px; border-radius: var(--radius-md);
+  background: var(--accent-wash); margin-bottom: 20px;
+  transition: transform 0.4s var(--ease), background 0.4s ease;
+}
+.card-icon svg { width: 22px; height: 22px; }
+.card:hover .card-icon { transform: scale(1.08) rotate(-4deg); background: color-mix(in srgb, var(--accent) 16%, transparent); }
 
 .case-card { display: flex; flex-direction: column; gap: 16px; cursor: pointer; height: 100%; }
 .case-card-top { display: flex; align-items: flex-start; justify-content: space-between; gap: 12px; }
@@ -613,11 +662,11 @@ h3, .h3 {
 .market-strip::-webkit-scrollbar { height: 6px; }
 .market-strip::-webkit-scrollbar-thumb { background: var(--border); border-radius: 4px; }
 .market-card {
-  display: block; position: relative; flex: 0 0 auto; width: 240px; height: 300px; border-radius: var(--radius-lg);
+  display: block; position: relative; flex: 0 0 auto; width: 264px; height: 330px; border-radius: var(--radius-lg);
   overflow: hidden; scroll-snap-align: start; border: 1px solid var(--border);
-  transition: transform 0.35s var(--ease), box-shadow 0.35s var(--ease); cursor: pointer;
+  transition: transform 0.4s var(--ease), box-shadow 0.4s var(--ease); cursor: pointer;
 }
-.market-card:hover { transform: translateY(-6px); box-shadow: var(--shadow-lg); }
+.market-card:hover { transform: translateY(-8px) scale(1.02); box-shadow: var(--shadow-lg); }
 .market-card img {
   width: 100%; height: 100%; object-fit: cover; display: block;
   animation: kenburns 22s ease-in-out infinite alternate;
@@ -685,14 +734,25 @@ h3, .h3 {
 
 /* ---------- Hero photo backdrop (homepage) ---------- */
 .hero { position: relative; overflow: hidden; }
-.hero-photo { position: absolute; inset: 0; z-index: 0; overflow: hidden; opacity: 0.16; }
+.hero-photo { position: absolute; inset: 0; z-index: 0; overflow: hidden; opacity: 0.62; }
 .hero-photo img {
-  width: 100%; height: 100%; object-fit: cover; filter: saturate(0.7) brightness(0.85);
+  width: 100%; height: 100%; object-fit: cover; object-position: center 38%;
+  filter: saturate(0.92) brightness(0.8) contrast(1.05);
   animation: kenburns 34s ease-in-out infinite alternate;
 }
+/* Brand-color wash for cohesion with the accent palette, on top of the photo's
+   own warm tones -- gives the hero a distinct, premium "signature" look rather
+   than a generic stock photo. */
+.hero-photo::before {
+  content: ""; position: absolute; inset: 0; z-index: 1;
+  background: linear-gradient(160deg, rgba(27,46,153,0.38) 0%, rgba(51,85,255,0.12) 45%, rgba(27,46,153,0.3) 100%);
+  mix-blend-mode: multiply;
+}
 .hero-photo::after {
-  content: ""; position: absolute; inset: 0;
-  background: linear-gradient(180deg, rgba(242,243,246,0) 40%, var(--bg) 100%);
+  content: ""; position: absolute; inset: 0; z-index: 1;
+  background:
+    linear-gradient(100deg, var(--bg) 0%, var(--bg) 26%, rgba(242,243,246,0.72) 42%, rgba(242,243,246,0.18) 62%, transparent 82%),
+    linear-gradient(180deg, transparent 55%, var(--bg) 100%);
 }
 .hero-grid { position: relative; z-index: 1; }
 
