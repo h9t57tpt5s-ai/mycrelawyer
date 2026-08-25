@@ -859,10 +859,48 @@ Deno.serve(async (req) => {
     }, 501);
   }
 
-  try {
-    const data = await loadCaseData();
-    const catSpec = data.spec.categories[category];
-    if (!catSpec) throw new Error("Category not found in case data");
+  // ---- Step 5: everything from here on can be genuinely slow (multiple
+  // sequential/parallel Claude calls, the last one at xhigh effort with a
+  // large token budget) -- potentially close to or past Supabase's ~150s
+  // *idle* timeout, which kills the connection if this function goes that
+  // long without sending ANY bytes back to the browser. Streaming the
+  // analysis call to Anthropic (an earlier fix) only avoids a timeout on
+  // the connection *to Anthropic* -- it does nothing for the connection
+  // *to the browser*, which was still a single wait-for-everything-then-
+  // respond-once call, and that's what was actually still timing out
+  // (confirmed: reintroduced the exact "NetworkError when attempting to
+  // fetch resource" symptom from the original CORS bug, this time from
+  // the platform killing an idle connection rather than blocking a
+  // preflight). Return a streamed Response immediately and write a
+  // heartbeat byte every ~15s while the real work runs, so Supabase's
+  // gateway sees continuous activity the whole time. JSON.parse (and
+  // Response.json()) both tolerate leading/trailing whitespace around the
+  // top-level value per spec, so a heartbeat byte followed later by the
+  // real JSON payload still parses correctly client-side with no changes
+  // there needed for THAT part -- but the HTTP status can't change after
+  // the stream has already started (fixed at 200 the instant this
+  // Response is returned), so success/failure has to be encoded in the
+  // JSON body from here on instead of the status code; the client checks
+  // `json.analysis` presence for this path rather than `resp.ok`.
+  const stream = new ReadableStream<Uint8Array>({
+    start(controller) {
+      const encoder = new TextEncoder();
+      const heartbeat = setInterval(() => {
+        try { controller.enqueue(encoder.encode(" ")); } catch { /* controller already closed */ }
+      }, 15000);
+      const finish = (payload: Record<string, unknown>) => {
+        clearInterval(heartbeat);
+        try {
+          controller.enqueue(encoder.encode(JSON.stringify(payload)));
+          controller.close();
+        } catch { /* controller already closed */ }
+      };
+
+      (async () => {
+      try {
+        const data = await loadCaseData();
+        const catSpec = data.spec.categories[category];
+        if (!catSpec) throw new Error("Category not found in case data");
 
     // ---- 4a. Extraction pass (Haiku 4.5, structured JSON, no thinking) ----
     // documentText may contain more than one filing (e.g. the original
@@ -1132,44 +1170,54 @@ Deno.serve(async (req) => {
       .insert({ user_id: userId, category });
     if (logError) console.error("Failed to log completed analysis (credit not deducted):", logError);
 
-    return jsonResponse({
-      extractedFacts,
-      analysis: {
-        narrative: analysisParsed.narrative,
-        likelyOutcome: analysisParsed.likelyOutcome,
-        damagesRange: aiDamagesRange,
-        roleLabel,
-        categoryLabel: evalResult.categoryLabel,
-        issues,
-        citedCases: [...allCitedMap.values()],
-        baseline: {
-          damagesRange: netPosition,
-          claims: evalResult.claims,
-        },
-      },
-    }, 200);
-  } catch (err) {
-    // TEMPORARY: surfacing the real upstream error text/status in the
-    // response body (not just server logs) while tracking down a 502 that
-    // two prior fixes (CORS, then schema additionalProperties) haven't
-    // resolved -- neither is independently confirmed since this
-    // environment has no way to call the Anthropic API or read Supabase
-    // function logs directly. Revert the `debug` fields once root-caused.
-    const debug = err instanceof Error
-      ? { message: err.message, name: err.name, status: (err as { status?: number }).status ?? null }
-      : { message: String(err) };
-    if (err instanceof Anthropic.AuthenticationError) {
-      console.error("Anthropic auth error — check ANTHROPIC_API_KEY:", err);
-      return jsonResponse({ error: "Analysis is temporarily unavailable — try again shortly.", code: "upstream_auth_error", debug }, 502);
-    }
-    if (err instanceof Anthropic.RateLimitError) {
-      return jsonResponse({ error: "The analysis service is busy — try again in a minute.", code: "upstream_rate_limited", debug }, 503);
-    }
-    if (err instanceof Anthropic.APIError) {
-      console.error("Anthropic API error:", err);
-      return jsonResponse({ error: "Analysis failed — try again.", code: "upstream_error", debug }, 502);
-    }
-    console.error("case-valuation-analyze error:", err);
-    return jsonResponse({ error: "Something went wrong analyzing this document — try again.", code: "internal_error", debug }, 500);
-  }
+        finish({
+          extractedFacts,
+          analysis: {
+            narrative: analysisParsed.narrative,
+            likelyOutcome: analysisParsed.likelyOutcome,
+            damagesRange: aiDamagesRange,
+            roleLabel,
+            categoryLabel: evalResult.categoryLabel,
+            issues,
+            citedCases: [...allCitedMap.values()],
+            baseline: {
+              damagesRange: netPosition,
+              claims: evalResult.claims,
+            },
+          },
+        });
+      } catch (err) {
+        // TEMPORARY: surfacing the real upstream error text/status in the
+        // response body (not just server logs) while tracking down a 502
+        // that several prior fixes (CORS, schema additionalProperties,
+        // the nullable-enum shape, the union-field cap, minItems, a too-
+        // small max_tokens) haven't fully resolved -- none independently
+        // confirmed since this environment has no way to call the
+        // Anthropic API or read Supabase function logs directly. Revert
+        // the `debug` fields once root-caused.
+        const debug = err instanceof Error
+          ? { message: err.message, name: err.name, status: (err as { status?: number }).status ?? null }
+          : { message: String(err) };
+        if (err instanceof Anthropic.AuthenticationError) {
+          console.error("Anthropic auth error — check ANTHROPIC_API_KEY:", err);
+          finish({ error: "Analysis is temporarily unavailable — try again shortly.", code: "upstream_auth_error", debug });
+          return;
+        }
+        if (err instanceof Anthropic.RateLimitError) {
+          finish({ error: "The analysis service is busy — try again in a minute.", code: "upstream_rate_limited", debug });
+          return;
+        }
+        if (err instanceof Anthropic.APIError) {
+          console.error("Anthropic API error:", err);
+          finish({ error: "Analysis failed — try again.", code: "upstream_error", debug });
+          return;
+        }
+        console.error("case-valuation-analyze error:", err);
+        finish({ error: "Something went wrong analyzing this document — try again.", code: "internal_error", debug });
+      }
+      })();
+    },
+  });
+
+  return new Response(stream, { status: 200, headers: { "Content-Type": "application/json", ...CORS_HEADERS } });
 });

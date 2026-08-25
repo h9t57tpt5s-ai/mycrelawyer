@@ -766,7 +766,16 @@
         }
         const json = await resp.json().catch(() => ({}));
 
-        if (resp.ok) {
+        // The slow analysis path now streams its HTTP response (heartbeat
+        // bytes while the Claude calls run, so the platform's idle
+        // timeout doesn't kill the connection) -- its status is always
+        // 200 whether the analysis actually succeeded or failed, since
+        // the status can't change after streaming has already started.
+        // Only the fast pre-analysis checks (credits, rate limit, auth,
+        // not-configured) still use a real distinct status code below, so
+        // success here has to be "resp.ok AND we actually got an
+        // analysis back," not resp.ok alone.
+        if (resp.ok && json && json.analysis) {
           statusEl.textContent = "";
           renderAiResult(json, slug, emptyFiles);
           resultsHost.scrollIntoView({ behavior: "smooth", block: "start" });
