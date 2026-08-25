@@ -692,18 +692,28 @@ const CATEGORY_FIELDS: Record<string, FieldDef[]> = {
 
 function buildExtractionSchema(categorySlug: string) {
   const fields = CATEGORY_FIELDS[categorySlug] || [];
+  // Anthropic's structured-output schema validator rejects the "array-form
+  // type + enum containing null" shorthand -- `{type: ["string","null"],
+  // enum: [...values, null]}` -- with a 400 ("Enum value '…' does not
+  // match declared type"), even though every enum member IS a member of
+  // one of the declared types. The correct, accepted way to express a
+  // nullable enum is `anyOf: [{type: "string", enum: [...values]}, {type:
+  // "null"}]` -- confirmed against the actual API error text, not just
+  // documentation.
+  function nullableEnum(values: (string | null)[]) {
+    return { anyOf: [{ type: "string", enum: values }, { type: "null" }] };
+  }
   const properties: Record<string, unknown> = {
     filingParty: {
-      type: ["string", "null"],
-      enum: ["sideA", "sideB", null],
+      ...nullableEnum(["sideA", "sideB"]),
       description: "Which side the uploaded document was filed by or represents the perspective of",
     },
   };
   for (const f of fields) {
     if (f.type === "boolean") properties[f.key] = { type: ["boolean", "null"], description: f.label };
     else if (f.type === "number") properties[f.key] = { type: ["number", "null"], description: f.label };
-    else if (f.type === "select") properties[f.key] = { type: ["string", "null"], enum: [...(f.options || []), null], description: f.label };
-    else if (f.type === "state") properties[f.key] = { type: ["string", "null"], enum: [...STATE_CODES, null], description: f.label };
+    else if (f.type === "select") properties[f.key] = { ...nullableEnum(f.options || []), description: f.label };
+    else if (f.type === "state") properties[f.key] = { ...nullableEnum(STATE_CODES), description: f.label };
   }
   // Anthropic's structured-output json_schema format requires
   // additionalProperties:false on every object AND every key in
