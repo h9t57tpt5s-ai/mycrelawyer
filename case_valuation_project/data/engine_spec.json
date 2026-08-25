@@ -98,8 +98,8 @@
           "baseProbability": "weighted average of probabilities of the other pursued claims",
           "damages": {
             "formula": "principalDamages * feeRatio",
-            "feeRatio": "tiered by principal size, not a flat ratio -- under $100k: [0.20, 0.40]; $100k-$1M: [0.08, 0.20]; over $1M: [0.01, 0.06]",
-            "note": "Attorney fees scale sub-linearly with claim size -- litigating a small claim still costs a similar baseline in hours, while a large claim's fees don't grow proportionally with the dollars at stake. See The Village at Brocks Gap, LLC v. Singleton Ventures, LLC citation, where fees + costs totaled ~1.3% of a ~$4.19M accelerated-rent recovery -- far below a flat 15-40% assumption."
+            "feeRatio": "tiered by BOTH principal size AND contestedness (disputed debt and/or tenant-side defense claims present) -- uncontested: under $100k [0.20, 0.35], $100k-$1M [0.08, 0.15], over $1M [0.01, 0.04]; contested: under $100k [0.30, 0.50], $100k-$1M [0.15, 0.30], over $1M [0.04, 0.12]",
+            "note": "Attorney fees scale sub-linearly with claim size, but contestedness matters just as much -- an uncontested/default-like matter can resolve on a rocket-docket summary judgment for a fraction of what a genuinely contested matter (real discovery, motion practice, possible trial) costs. See The Village at Brocks Gap, LLC v. Singleton Ventures, LLC citation, where fees + costs totaled ~1.3% of a ~$4.19M accelerated-rent recovery -- but that matter was essentially UNCONTESTED (the tenant/guarantor did not meaningfully oppose summary judgment), so that ratio anchors the uncontested tier only, not contested matters."
           }
         },
         "property_damage": {

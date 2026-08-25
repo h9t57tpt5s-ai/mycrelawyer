@@ -127,20 +127,36 @@
       const avgP = out.reduce((s, c) => s + (c.probability[0] + c.probability[1]) / 2, 0) / out.length;
       const principalLow = out.reduce((s, c) => s + (c.damagesRange ? c.damagesRange[0] : 0), 0);
       const principalHigh = out.reduce((s, c) => s + (c.damagesRange ? c.damagesRange[1] : 0), 0);
-      // Fees scale sub-linearly with claim size: litigating a small claim
-      // still costs a similar baseline in hours, while a large claim's fees
-      // don't grow proportionally with the dollars at stake -- a flat 15–40%
-      // badly overstates fees on large commercial claims (a real ~$4.19M
-      // accelerated-rent claim saw fees+costs run only ~1.3% of damages —
-      // see cited case).
       const avgPrincipal = (principalLow + principalHigh) / 2;
+      // Fees scale sub-linearly with claim size (litigating a small claim
+      // still costs a similar baseline in hours; a large claim's fees don't
+      // grow proportionally with the dollars at stake) -- BUT that's only
+      // half the picture. Contestedness matters just as much: an
+      // uncontested/default-like matter (no disputed debt, no real
+      // tenant-side defenses) can resolve on a rocket-docket summary
+      // judgment with minimal fees; a genuinely contested matter (disputed
+      // debt, and/or tenant-side claims signaling real defenses or a
+      // counterclaim posture) means discovery, motion practice, and
+      // possibly trial -- fees run several times higher for the same size
+      // claim. The cited case (Village at Brocks Gap v. Singleton Ventures)
+      // was essentially UNCONTESTED -- the tenant/guarantor did not
+      // meaningfully oppose summary judgment -- so its ~1.3%-of-damages fee
+      // ratio anchors the uncontested tier only, not contested matters.
+      const isContested = !!facts.tenantDisputesDebt ||
+        out.some((c) => c.claimKey === "wrongful_lockout" || c.claimKey === "quiet_enjoyment_breach");
       let feeLowPct, feeHighPct;
-      if (avgPrincipal < 100000) { feeLowPct = 0.20; feeHighPct = 0.40; }
-      else if (avgPrincipal < 1000000) { feeLowPct = 0.08; feeHighPct = 0.20; }
-      else { feeLowPct = 0.01; feeHighPct = 0.06; }
+      if (isContested) {
+        if (avgPrincipal < 100000) { feeLowPct = 0.30; feeHighPct = 0.50; }
+        else if (avgPrincipal < 1000000) { feeLowPct = 0.15; feeHighPct = 0.30; }
+        else { feeLowPct = 0.04; feeHighPct = 0.12; }
+      } else {
+        if (avgPrincipal < 100000) { feeLowPct = 0.20; feeHighPct = 0.35; }
+        else if (avgPrincipal < 1000000) { feeLowPct = 0.08; feeHighPct = 0.15; }
+        else { feeLowPct = 0.01; feeHighPct = 0.04; }
+      }
       out.push(result("attorney_fees", "Attorney's Fees", [avgP * 0.9, Math.min(0.97, avgP * 1.05)],
         principalLow * feeLowPct, principalHigh * feeHighPct,
-        `Ratio-of-principal heuristic (${Math.round(feeLowPct * 100)}–${Math.round(feeHighPct * 100)}% of the other claims' damages for this claim-size tier — large claims see a much smaller fee percentage than small ones) — refine against comparable-case fee awards.`));
+        `Ratio-of-principal heuristic (${Math.round(feeLowPct * 100)}–${Math.round(feeHighPct * 100)}% of the other claims' damages) for a ${isContested ? "contested" : "largely uncontested/default-like"} matter at this claim-size tier — ${isContested ? "reflects real discovery, motion practice, and possible trial costs, not a rocket-docket resolution" : "the cited case was resolved on an essentially unopposed summary judgment, which keeps fees far lower than a genuinely contested matter would see"}; refine against comparable-case fee awards.`));
     }
     return out;
   }

@@ -105,8 +105,8 @@ const CASE_VALUATION_DATA = {
             "baseProbability": "weighted average of probabilities of the other pursued claims",
             "damages": {
               "formula": "principalDamages * feeRatio",
-              "feeRatio": "tiered by principal size, not a flat ratio -- under $100k: [0.20, 0.40]; $100k-$1M: [0.08, 0.20]; over $1M: [0.01, 0.06]",
-              "note": "Attorney fees scale sub-linearly with claim size -- litigating a small claim still costs a similar baseline in hours, while a large claim's fees don't grow proportionally with the dollars at stake. See The Village at Brocks Gap, LLC v. Singleton Ventures, LLC citation, where fees + costs totaled ~1.3% of a ~$4.19M accelerated-rent recovery -- far below a flat 15-40% assumption."
+              "feeRatio": "tiered by BOTH principal size AND contestedness (disputed debt and/or tenant-side defense claims present) -- uncontested: under $100k [0.20, 0.35], $100k-$1M [0.08, 0.15], over $1M [0.01, 0.04]; contested: under $100k [0.30, 0.50], $100k-$1M [0.15, 0.30], over $1M [0.04, 0.12]",
+              "note": "Attorney fees scale sub-linearly with claim size, but contestedness matters just as much -- an uncontested/default-like matter can resolve on a rocket-docket summary judgment for a fraction of what a genuinely contested matter (real discovery, motion practice, possible trial) costs. See The Village at Brocks Gap, LLC v. Singleton Ventures, LLC citation, where fees + costs totaled ~1.3% of a ~$4.19M accelerated-rent recovery -- but that matter was essentially UNCONTESTED (the tenant/guarantor did not meaningfully oppose summary judgment), so that ratio anchors the uncontested tier only, not contested matters."
             }
           },
           "property_damage": {
@@ -945,11 +945,11 @@ const CASE_VALUATION_DATA = {
         "citation": "Case No. CV-2020-900604 (Cir. Ct. Jefferson Cnty., Ala., Bessemer Div.) (Pl.'s Mot. Summ. J., filed Feb. 17, 2022)",
         "jurisdiction": "AL",
         "year": 2022,
-        "outcome": "The landlord's motion sought attorneys' fees of $52,905.00 plus $3,526.06 in costs -- together representing only about 1.3% of the $4,189,177.66 in rental damages sought in the same filing, a useful real-world data point that attorney-fee awards do not scale linearly with the size of a commercial lease claim.",
+        "outcome": "The landlord's motion sought attorneys' fees of $52,905.00 plus $3,526.06 in costs -- together representing only about 1.3% of the $4,189,177.66 in rental damages sought in the same filing. IMPORTANT SCOPE NOTE (per counsel of record): this matter was essentially UNCONTESTED -- the tenant and guarantor did not meaningfully oppose summary judgment, and the court was asked to enter judgment for the exact amount sought. This low fee ratio reflects an unopposed rocket-docket resolution, not a genuinely contested matter with real discovery, motion practice, and possible trial -- a contested matter of the same size would see meaningfully higher fees, likely several times this ratio.",
         "dollarAmount": 52905,
         "url": null,
         "confidence": "high",
-        "notes": "Same filing as the accelerated_rent and releasing_mitigation_costs citations for this category. Illustrates the low end of the fee-to-damages ratio for a large accelerated-rent claim; contrast with the smaller claims in this array, where fees run a much higher percentage of the principal. No public URL available for this record -- verify via the case number and court above."
+        "notes": "Same filing as the accelerated_rent and releasing_mitigation_costs citations for this category. Anchors the LOW/uncontested end of the fee-to-damages ratio for a large accelerated-rent claim -- do not extrapolate this ratio to a contested matter; contrast with the smaller claims in this array, where fees run a much higher percentage of the principal. No public URL available for this record -- verify via the case number and court above."
       }
     ],
     "property_damage": [],
