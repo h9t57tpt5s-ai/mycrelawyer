@@ -690,39 +690,58 @@ const CATEGORY_FIELDS: Record<string, FieldDef[]> = {
   ],
 };
 
-function buildExtractionSchema(categorySlug: string) {
-  const fields = CATEGORY_FIELDS[categorySlug] || [];
-  // Anthropic's structured-output schema validator rejects the "array-form
-  // type + enum containing null" shorthand -- `{type: ["string","null"],
-  // enum: [...values, null]}` -- with a 400 ("Enum value '…' does not
-  // match declared type"), even though every enum member IS a member of
-  // one of the declared types. The correct, accepted way to express a
-  // nullable enum is `anyOf: [{type: "string", enum: [...values]}, {type:
-  // "null"}]` -- confirmed against the actual API error text, not just
-  // documentation.
-  function nullableEnum(values: (string | null)[]) {
-    return { anyOf: [{ type: "string", enum: values }, { type: "null" }] };
+// Anthropic's structured-output schema validator rejects the "array-form
+// type + enum containing null" shorthand -- `{type: ["string","null"],
+// enum: [...values, null]}` -- with a 400 ("Enum value '…' does not match
+// declared type"), even though every enum member IS a member of one of the
+// declared types. The correct, accepted way to express a nullable enum is
+// `anyOf: [{type: "string", enum: [...values]}, {type: "null"}]` --
+// confirmed against the actual API error text, not just documentation.
+function nullableEnum(values: (string | null)[]) {
+  return { anyOf: [{ type: "string", enum: values }, { type: "null" }] };
+}
+
+// Anthropic also caps a single schema at 16 union/nullable-typed
+// properties ("too many parameters with union types ... exponential
+// compilation cost") -- confirmed against the actual API error text.
+// Every field in these extraction schemas is nullable by design (the
+// model should say null for anything not found, never guess), so a
+// category with more than ~15 fields (lease-disputes has 27) genuinely
+// cannot fit in one schema/call. Split into chunks and run one extraction
+// call per chunk instead of narrowing what gets extracted.
+const MAX_UNION_FIELDS_PER_SCHEMA = 15; // leaves room for filingParty (1) in the first chunk, staying under the 16 cap
+
+function chunkFields(fields: FieldDef[]): FieldDef[][] {
+  const chunks: FieldDef[][] = [];
+  for (let i = 0; i < fields.length; i += MAX_UNION_FIELDS_PER_SCHEMA) {
+    chunks.push(fields.slice(i, i + MAX_UNION_FIELDS_PER_SCHEMA));
   }
-  const properties: Record<string, unknown> = {
-    filingParty: {
+  return chunks.length ? chunks : [[]];
+}
+
+// Builds one schema for a SUBSET of a category's fields (see chunking
+// above). `includeFilingParty` is only true for the first chunk, so it's
+// asked for -- and merged back in -- exactly once.
+function buildExtractionSchema(fields: FieldDef[], includeFilingParty: boolean) {
+  const properties: Record<string, unknown> = {};
+  if (includeFilingParty) {
+    properties.filingParty = {
       ...nullableEnum(["sideA", "sideB"]),
       description: "Which side the uploaded document was filed by or represents the perspective of",
-    },
-  };
+    };
+  }
   for (const f of fields) {
     if (f.type === "boolean") properties[f.key] = { type: ["boolean", "null"], description: f.label };
     else if (f.type === "number") properties[f.key] = { type: ["number", "null"], description: f.label };
     else if (f.type === "select") properties[f.key] = { ...nullableEnum(f.options || []), description: f.label };
     else if (f.type === "state") properties[f.key] = { ...nullableEnum(STATE_CODES), description: f.label };
   }
-  // Anthropic's structured-output json_schema format requires
+  // Anthropic's structured-output json_schema format also requires
   // additionalProperties:false on every object AND every key in
   // `properties` to also appear in `required` (nullable types, via the
-  // `[type, "null"]` unions above, are how an individual field is allowed
-  // to come back empty -- "required" here means "present in the output,
-  // possibly as null", not "the model must find a value"). This schema
-  // previously only listed "filingParty" in required with everything else
-  // left out entirely, which the API rejects outright.
+  // `[type, "null"]` unions/anyOf above, are how an individual field is
+  // allowed to come back empty -- "required" here means "present in the
+  // output, possibly as null", not "the model must find a value").
   return { type: "object", properties, required: Object.keys(properties), additionalProperties: false };
 }
 
@@ -846,21 +865,38 @@ Deno.serve(async (req) => {
     // of them and synthesize one consistent set of facts, since a fact
     // like "does the tenant dispute the debt" typically only shows up in
     // the answer, not the petition.
-    const extraction = await anthropic.messages.create({
-      model: EXTRACTION_MODEL,
-      max_tokens: 2048,
-      system:
-        `You extract structured facts from commercial real estate litigation document(s) for the "${catSpec.label}" category. ` +
-        `The user message may contain multiple filings from the same matter (e.g. an original petition and a later answer or counterclaim), separated by "=== Document N: ... ===" headers -- read all of them together as one case record and synthesize a single consistent set of facts; a later filing can add or update facts the earlier one didn't cover. ` +
-        `Only extract facts explicitly stated or very clearly implied in the document(s) — output null for anything you can't determine, never guess. ` +
-        `Also determine "filingParty": whether the ORIGINAL/first document represents the "${catSpec.roles.sideA}" side or the "${catSpec.roles.sideB}" side (e.g. captions like "Plaintiff [name], as Landlord, alleges..." indicate sideA here is the ${catSpec.roles.sideA}). If the user has told you separately which side they represent, that takes precedence over your own read of the caption.` +
-        (requestBody.userSide ? ` The user has stated they represent the "${requestBody.userSide === "sideA" ? catSpec.roles.sideA : catSpec.roles.sideB}" side — set filingParty to "${requestBody.userSide}" accordingly.` : ""),
-      messages: [{ role: "user", content: documentText }],
-      output_config: { format: { type: "json_schema", schema: buildExtractionSchema(category) } },
-    });
-    const extractionText = extraction.content.find((b): b is Anthropic.TextBlock => b.type === "text")?.text;
-    if (!extractionText) throw new Error("Extraction pass returned no output");
-    const extractedFacts: Facts = JSON.parse(extractionText);
+    //
+    // Every field is nullable by design (the model should say null for
+    // anything not found, never guess) -- but Anthropic caps a single
+    // schema at 16 union/nullable-typed properties, and several
+    // categories (lease-disputes has 27 fields) exceed that. Split into
+    // chunks of <=15 fields (plus filingParty in the first chunk only)
+    // and run one extraction call per chunk in parallel, then merge.
+    const fieldChunks = chunkFields(CATEGORY_FIELDS[category] || []);
+    const baseSystemPrompt =
+      `You extract structured facts from commercial real estate litigation document(s) for the "${catSpec.label}" category. ` +
+      `The user message may contain multiple filings from the same matter (e.g. an original petition and a later answer or counterclaim), separated by "=== Document N: ... ===" headers -- read all of them together as one case record and synthesize a single consistent set of facts; a later filing can add or update facts the earlier one didn't cover. ` +
+      `Only extract facts explicitly stated or very clearly implied in the document(s) — output null for anything you can't determine, never guess.`;
+    const filingPartyPrompt =
+      ` Also determine "filingParty": whether the ORIGINAL/first document represents the "${catSpec.roles.sideA}" side or the "${catSpec.roles.sideB}" side (e.g. captions like "Plaintiff [name], as Landlord, alleges..." indicate sideA here is the ${catSpec.roles.sideA}). If the user has told you separately which side they represent, that takes precedence over your own read of the caption.` +
+      (requestBody.userSide ? ` The user has stated they represent the "${requestBody.userSide === "sideA" ? catSpec.roles.sideA : catSpec.roles.sideB}" side — set filingParty to "${requestBody.userSide}" accordingly.` : "");
+
+    const extractionResults = await Promise.all(fieldChunks.map((chunk, i) => {
+      const includeFilingParty = i === 0;
+      return anthropic!.messages.create({
+        model: EXTRACTION_MODEL,
+        max_tokens: 2048,
+        system: baseSystemPrompt + (includeFilingParty ? filingPartyPrompt : ""),
+        messages: [{ role: "user", content: documentText }],
+        output_config: { format: { type: "json_schema", schema: buildExtractionSchema(chunk, includeFilingParty) } },
+      });
+    }));
+    const extractedFacts: Facts = {};
+    for (const extraction of extractionResults) {
+      const extractionText = extraction.content.find((b): b is Anthropic.TextBlock => b.type === "text")?.text;
+      if (!extractionText) throw new Error("Extraction pass returned no output");
+      Object.assign(extractedFacts, JSON.parse(extractionText));
+    }
 
     // Merge state-law modifiers for lease-disputes, same as the client does
     if (category === "lease-disputes") {
