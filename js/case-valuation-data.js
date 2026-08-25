@@ -152,7 +152,7 @@ const CASE_VALUATION_DATA = {
             },
             "damages": {
               "formula": "computeWrongfulLockoutDamages(facts) -- branches on the specific state's statutory remedy MECHANISM, not just a flat multiplier: 'multiplier' states (e.g. NY, NJ treble damages) multiply actualDamages; 'per-day' states (e.g. CA $100/day) add a per-diem penalty on top of actualDamages; 'floor' states (e.g. TX greater-of-one-month's-rent-or-$500) add a statutory floor amount; 'actual-only' states (no confirmed enhancement researched, or none exists) return actualDamages only. Per-state mechanism/value/citation live in stateLawModifiers[state].wrongfulLockoutRemedyType/Value/Citation.",
-              "note": "actualDamages = relocation + lost inventory + provable lost profits, minus any lease consequential-damages waiver. Researched for 8 states so far (TX, CA, NY, NJ, FL, IL, GA, PA); all others default to actual-only with an explicit 'not yet researched' flag rather than assuming a multiplier exists."
+              "note": "actualDamages = relocation + lost inventory + provable lost profits, minus any lease consequential-damages waiver. All 50 states + DC researched. Confirmed commercial-applicable enhanced remedies: Texas (floor, greater of $500 or one month's rent), California (per-day, $100/day), New York (multiplier, 3x), New Jersey (multiplier, 3x), Michigan (multiplier, 3x), New Hampshire (per-day, $1,000/day). All other 45 jurisdictions default to actual-only -- in most of those, a real enhanced-damages statute exists but is confirmed RESIDENTIAL-specific (Uniform Residential Landlord and Tenant Act derivatives) and does not extend to commercial tenancies, or the real mechanism is a non-additive 'greater of X or actual damages' replacement floor that doesn't fit this engine's additive floor/multiplier/per-day mechanics without risking overstatement -- see each state's wrongfulLockoutCitation for the specific reasoning and statute, since 'actual-only' here does not always mean 'unresearched.'"
             }
           },
           "tortious_interference_lost_profits": {
@@ -241,7 +241,7 @@ const CASE_VALUATION_DATA = {
             ],
             "damages": {
               "formula": "max(0, outstandingLoanBalance + lenderProtectiveAdvances - foreclosureSaleProceeds), single deterministic figure (low == high)",
-              "researchNote": "19-case sample: undisputed defaults produce stipulated judgments tracking loan balance closely (AFF IV 200 Miami v. Stonerock: $65.7M judgment on $41.1M principal). Lender protective advances (taxes, insurance) can meaningfully inflate the judgment beyond original principal (Hillsboro Beach Resort: $26M loan + ~$2.9M advances = $40M judgment). Deficiency-judgment AVAILABILITY itself varies by state/foreclosure method \u2014 needs a state-law modifier, not yet built.",
+              "researchNote": "19-case sample: undisputed defaults produce stipulated judgments tracking loan balance closely (AFF IV 200 Miami v. Stonerock: $65.7M judgment on $41.1M principal). Lender protective advances (taxes, insurance) can meaningfully inflate the judgment beyond original principal (Hillsboro Beach Resort: $26M loan + ~$2.9M advances = $40M judgment). Deficiency-judgment AVAILABILITY itself varies by state/foreclosure method — needs a state-law modifier, not yet built.",
               "note": "SCOPE CHANGE per counsel-of-record review: this figure is the legal deficiency a court would enter judgment for -- it is NOT a post-judgment collectability forecast. An earlier version of this model applied a 0.5x haircut to the high end to approximate collection risk; that was removed. Collectability depends on the borrower/guarantor's asset picture at judgment, which is explicitly out of scope for this estimator -- the tool answers 'what is this case worth,' not 'what will actually be collected.'"
             }
           },
@@ -253,7 +253,7 @@ const CASE_VALUATION_DATA = {
               0.65,
               0.85
             ],
-            "note": "Refined from a 6-case sample: 5 of 6 resulted in a receiver appointed (the lone initial denial, Independent Bank v. Adelaide Pointe, was later granted on renewed motion once factual disputes were developed). Typical fact pattern is occupancy/income decline colliding with an unrefinanceable maturity \u2014 not borrower fraud/misconduct \u2014 and involves institutionally sophisticated owners as often as not. Sample is small and recency-skewed (2024-2026 office-distress cycle); treat this range as directional, not final.",
+            "note": "Refined from a 6-case sample: 5 of 6 resulted in a receiver appointed (the lone initial denial, Independent Bank v. Adelaide Pointe, was later granted on renewed motion once factual disputes were developed). Typical fact pattern is occupancy/income decline colliding with an unrefinanceable maturity — not borrower fraud/misconduct — and involves institutionally sophisticated owners as often as not. Sample is small and recency-skewed (2024-2026 office-distress cycle); treat this range as directional, not final.",
             "damages": {
               "formula": "not a damages claim -- operational-control relief, not a dollar figure",
               "isRange": false
@@ -267,25 +267,37 @@ const CASE_VALUATION_DATA = {
               0.7,
               0.92
             ],
-            "note": "Revised UP from the original preliminary estimate: all 3 sampled guaranty-enforcement cases (Cherryland Mall, Princeton Park, Gratiot Avenue) resulted in FULL personal liability for the guarantor once a carve-out trigger was found \u2014 even for purely technical/springing breaches (insolvency, unauthorized subordinate debt later cured) with no fraud or intentional waste. This probability applies once a trigger event is credibly alleged; separately and NOT modeled with a probability here, PROVING the trigger event in the first place is the genuinely contested, fact-specific question.",
+            "note": "Revised UP from the original preliminary estimate: all 3 sampled guaranty-enforcement cases (Cherryland Mall, Princeton Park, Gratiot Avenue) resulted in FULL personal liability for the guarantor once a carve-out trigger was found — even for purely technical/springing breaches (insolvency, unauthorized subordinate debt later cured) with no fraud or intentional waste. This probability applies once a trigger event is credibly alleged; separately and NOT modeled with a probability here, PROVING the trigger event in the first place is the genuinely contested, fact-specific question.",
             "modifiers": [
               {
                 "if": "guarantorAssertsCounterclaimOrOffset",
-                "probability": [0.45, 0.70],
-                "damagesFraction": [0.50, 0.85],
+                "probability": [
+                  0.45,
+                  0.7
+                ],
+                "damagesFraction": [
+                  0.5,
+                  0.85
+                ],
                 "note": "Per counsel-of-record review: recovery totally depends on whether a clear, undisputed carve-out breach exists. Once a counterclaim or offset is pled against the guaranty, it becomes a genuinely contested fact question and both probability and expected dollar recovery drop meaningfully."
               },
               {
                 "if": "!guarantorAssertsCounterclaimOrOffset",
-                "probability": [0.80, 0.97],
-                "damagesFraction": [0.95, 1.0],
+                "probability": [
+                  0.8,
+                  0.97
+                ],
+                "damagesFraction": [
+                  0.95,
+                  1.0
+                ],
                 "note": "Clean, undisputed carve-out breach -- case value should approach the full measure of the guaranteed balance."
               }
             ],
             "damages": {
               "formula": "guaranteedLoanBalance * damagesFraction (see modifiers -- branches on whether a counterclaim/offset is pled)",
               "isRange": false,
-              "researchNote": "Sample dollar figures ($2.1M, $5.2M, $12.2M) scale with underlying loan size, not triggering-conduct severity \u2014 a $400K unauthorized loan repaid 7 months later produced the same full-recourse outcome as outright insolvency."
+              "researchNote": "Sample dollar figures ($2.1M, $5.2M, $12.2M) scale with underlying loan size, not triggering-conduct severity — a $400K unauthorized loan repaid 7 months later produced the same full-recourse outcome as outright insolvency."
             }
           },
           "lender_liability_claim": {
@@ -299,11 +311,14 @@ const CASE_VALUATION_DATA = {
             "modifiers": [
               {
                 "if": "egregiousConductAlleged",
-                "probability": [0.20, 0.40],
+                "probability": [
+                  0.2,
+                  0.4
+                ],
                 "note": "Egregious conduct (clear bad faith) shifts the odds up somewhat, and per counsel-of-record review opens exemplary/punitive damages as a real component alongside contract damages, lost profits, and out-of-pocket costs."
               }
             ],
-            "note": "Confirmed low (kept at 0.15\u20130.35 absent egregious conduct): 19-case sample shows 1980s-era cases succeeded with large verdicts (K.M.C. v. Irving Trust, Barrett v. Bank of America, $6.6\u2013$7.5M) under now-dated, more borrower-friendly doctrine. Recent CRE lender-liability suits (Steinway Tower/111 W57, Via Mizner/Mandarin Oriental) are trending toward procedural wins (reinstated claims, remands, a 6-week TRO) rather than dollar outcomes, and take years to resolve even when they eventually succeed. Per counsel-of-record review, a borrower win has a real damages component: typically contract damages, lost profits, out-of-pocket costs, and potentially exemplary damages in egregious cases.",
+            "note": "Confirmed low (kept at 0.15–0.35 absent egregious conduct): 19-case sample shows 1980s-era cases succeeded with large verdicts (K.M.C. v. Irving Trust, Barrett v. Bank of America, $6.6–$7.5M) under now-dated, more borrower-friendly doctrine. Recent CRE lender-liability suits (Steinway Tower/111 W57, Via Mizner/Mandarin Oriental) are trending toward procedural wins (reinstated claims, remands, a 6-week TRO) rather than dollar outcomes, and take years to resolve even when they eventually succeed. Per counsel-of-record review, a borrower win has a real damages component: typically contract damages, lost profits, out-of-pocket costs, and potentially exemplary damages in egregious cases.",
             "damages": {
               "formula": "lenderLiabilityDamagesClaimed * [0.20, 0.55] (non-egregious) or lenderLiabilityDamagesClaimed * [0.35, 1.5] (egregious, reflecting exemplary-damages exposure)",
               "isRange": true
@@ -336,7 +351,7 @@ const CASE_VALUATION_DATA = {
               0.35,
               0.55
             ],
-            "note": "Stanford Securities Class Action Clearinghouse (the designated primary source) was inaccessible for this research pass (site under construction, expected back Winter 2026) \u2014 rerun once it's back online, since it would likely surface more, smaller mortgage-REIT and non-traded-REIT settlements this pass couldn't find via general web search.",
+            "note": "Stanford Securities Class Action Clearinghouse (the designated primary source) was inaccessible for this research pass (site under construction, expected back Winter 2026) — rerun once it's back online, since it would likely surface more, smaller mortgage-REIT and non-traded-REIT settlements this pass couldn't find via general web search.",
             "damages": {
               "formula": "settlementPercentOfEstimatedInvestorLosses",
               "percentRange": [
@@ -357,7 +372,7 @@ const CASE_VALUATION_DATA = {
                     0.1,
                     0.25
                   ],
-                  "note": "the presence of any of these tends to push the settlement an order of magnitude higher \u2014 ARCP/VEREIT ($1.025B total) combined a criminally-convicted CFO, a co-liable auditor (Grant Thornton, $49M), and a co-liable external manager (~$225-286.5M)"
+                  "note": "the presence of any of these tends to push the settlement an order of magnitude higher — ARCP/VEREIT ($1.025B total) combined a criminally-convicted CFO, a co-liable auditor (Grant Thornton, $49M), and a co-liable external manager (~$225-286.5M)"
                 }
               }
             }
@@ -382,7 +397,7 @@ const CASE_VALUATION_DATA = {
                   0.55,
                   0.8
                 ],
-                "note": "an internalization at an inflated price, a merger timed/structured to enrich the founder, a related-party fee arrangement \u2014 Quinn v. Knight $32M, Inland Western ~$90M forfeited stock, Hospitality Investors Trust $15.2M"
+                "note": "an internalization at an inflated price, a merger timed/structured to enrich the founder, a related-party fee arrangement — Quinn v. Knight $32M, Inland Western ~$90M forfeited stock, Hospitality Investors Trust $15.2M"
               },
               {
                 "if": "genericGovernanceComplaintOnly",
@@ -390,7 +405,7 @@ const CASE_VALUATION_DATA = {
                   0.05,
                   0.15
                 ],
-                "note": "piggybacking on an already-successful activist proxy fight, or a self-dealing allegation resolved via a voting/cooperation agreement instead of litigation \u2014 these tend to settle for governance changes plus a nominal fee reimbursement, with NO disclosed cash recovery to the company (CommonWealth REIT $200K; Blackwells v. GNL, no disclosed cash despite an $838M excess-fee allegation)"
+                "note": "piggybacking on an already-successful activist proxy fight, or a self-dealing allegation resolved via a voting/cooperation agreement instead of litigation — these tend to settle for governance changes plus a nominal fee reimbursement, with NO disclosed cash recovery to the company (CommonWealth REIT $200K; Blackwells v. GNL, no disclosed cash despite an $838M excess-fee allegation)"
               }
             ]
           },
@@ -421,7 +436,7 @@ const CASE_VALUATION_DATA = {
                   0.1,
                   0.25
                 ],
-                "note": "courts are much more willing to dismiss for failure to plead materiality \u2014 St. Clair-Hibbard v. American Finance Trust (2d Cir. 2020): boilerplate conflict-of-interest/trading-discount warnings defeated the claim even without quantifying the risk"
+                "note": "courts are much more willing to dismiss for failure to plead materiality — St. Clair-Hibbard v. American Finance Trust (2d Cir. 2020): boilerplate conflict-of-interest/trading-discount warnings defeated the claim even without quantifying the risk"
               }
             ]
           },
@@ -433,7 +448,7 @@ const CASE_VALUATION_DATA = {
               0.1,
               0.25
             ],
-            "note": "Confirmed low real-recovery probability (kept at 0.10\u20130.25): the classic 'disclosure-only settlement' pattern \u2014 supplemental proxy disclosures get added, suits get mooted, and post-Trulia courts have grown skeptical of paying a 'mootness fee' for it at all. Where a mootness fee IS paid, it goes to plaintiff's counsel (typically $75K\u2013$500K), not to shareholders as a per-share recovery \u2014 model this claim type as high-frequency, low-dollar-value litigation risk, and make the counsel-fee-vs-shareholder-recovery distinction explicit in the UI.",
+            "note": "Confirmed low real-recovery probability (kept at 0.10–0.25): the classic 'disclosure-only settlement' pattern — supplemental proxy disclosures get added, suits get mooted, and post-Trulia courts have grown skeptical of paying a 'mootness fee' for it at all. Where a mootness fee IS paid, it goes to plaintiff's counsel (typically $75K–$500K), not to shareholders as a per-share recovery — model this claim type as high-frequency, low-dollar-value litigation risk, and make the counsel-fee-vs-shareholder-recovery distinction explicit in the UI.",
             "damages": {
               "formula": "usually a mootness fee to counsel (modest, often $75K-$500K) rather than a per-share shareholder recovery; flag this distinction explicitly in the UI"
             }
@@ -463,10 +478,10 @@ const CASE_VALUATION_DATA = {
               ],
               "tiers": {
                 "catastrophicLifeSafetyFailure": {
-                  "note": "structural collapse, or a defect too severe to safely complete construction \u2014 the outlier top of the range: Champlain Towers South ($997M), Harmon Hotel ($195M, ended in demolition), Tropicana garage collapse ($101M), Milwaukee garage panel collapse ($39M). These anchor the top of a valuation range, not the median."
+                  "note": "structural collapse, or a defect too severe to safely complete construction — the outlier top of the range: Champlain Towers South ($997M), Harmon Hotel ($195M, ended in demolition), Tropicana garage collapse ($101M), Milwaukee garage panel collapse ($39M). These anchor the top of a valuation range, not the median."
                 },
                 "postOccupancyLatentDefect": {
-                  "note": "water intrusion, facade/envelope failure, HVAC/MEP \u2014 roughly $10M-$56M in this sample regardless of unit count. Defect PERVASIVENESS across every unit is a stronger driver of settlement size than raw unit count or building height (Park Hill: only 10 units but ~$2.65M/unit, the highest per-unit figure in the sample, because the defect was pervasive)."
+                  "note": "water intrusion, facade/envelope failure, HVAC/MEP — roughly $10M-$56M in this sample regardless of unit count. Defect PERVASIVENESS across every unit is a stronger driver of settlement size than raw unit count or building height (Park Hill: only 10 units but ~$2.65M/unit, the highest per-unit figure in the sample, because the defect was pervasive)."
                 }
               }
             }
@@ -479,7 +494,7 @@ const CASE_VALUATION_DATA = {
               0.35,
               0.6
             ],
-            "note": "Sample too thin to refine (both sampled cases \u2014 Princeton/TWBTA, Clark Construction/Perkins Eastman \u2014 have undisclosed final outcomes, only amounts sought). Base rate kept at the original preliminary estimate.",
+            "note": "Sample too thin to refine (both sampled cases — Princeton/TWBTA, Clark Construction/Perkins Eastman — have undisclosed final outcomes, only amounts sought). Base rate kept at the original preliminary estimate.",
             "damages": {
               "formula": "repairAndRedesignCostEstimate"
             }
@@ -495,7 +510,7 @@ const CASE_VALUATION_DATA = {
             "note": "PRELIMINARY -- outcome heavily contract-language-dependent (broad-form vs. comparative-fault indemnity clauses, which many states restrict or void by statute)",
             "damages": {
               "formula": "allocatedShareOfUnderlyingDefectDamages",
-              "researchNote": "Where a defect traces to a specific subcontractor's workmanship, fault allocation strongly favors that subcontractor (Milwaukee garage: 88% sub / 10% GC / 2% owner \u2014 the clearest allocation data point found). Where a design professional is a co-defendant alongside developer/GC, their share is consistently smaller than the builder's on the same facts (Grandview: architect took ~10% of the total, $1M of $10M) \u2014 professional E&O coverage limits are typically much smaller than a GC's CGL policy."
+              "researchNote": "Where a defect traces to a specific subcontractor's workmanship, fault allocation strongly favors that subcontractor (Milwaukee garage: 88% sub / 10% GC / 2% owner — the clearest allocation data point found). Where a design professional is a co-defendant alongside developer/GC, their share is consistently smaller than the builder's on the same facts (Grandview: architect took ~10% of the total, $1M of $10M) — professional E&O coverage limits are typically much smaller than a GC's CGL policy."
             }
           },
           "insurance_coverage_defect_dispute": {
@@ -506,7 +521,7 @@ const CASE_VALUATION_DATA = {
               0.45,
               0.65
             ],
-            "note": "Coverage litigation resolves the LEGAL question (duty to defend/indemnify, exclusion scope) in a published opinion while the dollar consequences flow through confidential settlements downstream \u2014 only 1 of 3 sampled cases disclosed even a damages floor for the underlying claim. Base rate kept at the original preliminary estimate; treat any output for this claim type as a coverage-yes/no signal more than a dollar estimate.",
+            "note": "Coverage litigation resolves the LEGAL question (duty to defend/indemnify, exclusion scope) in a published opinion while the dollar consequences flow through confidential settlements downstream — only 1 of 3 sampled cases disclosed even a damages floor for the underlying claim. Base rate kept at the original preliminary estimate; treat any output for this claim type as a coverage-yes/no signal more than a dollar estimate.",
             "damages": {
               "formula": "coveredPortionOfUnderlyingDefectDamages"
             }
@@ -528,31 +543,31 @@ const CASE_VALUATION_DATA = {
               0.65,
               0.85
             ],
-            "note": "Almost every disclosed CERCLA cost-recovery outcome in the research sample is a NEGOTIATED settlement, not an adversarial verdict \u2014 liability is strict/joint/several once PRP status attaches, so litigation is mostly about allocation share, not a binary win/loss. Treat the probability range as 'likelihood of obtaining a meaningful allocation,' not 'likelihood of prevailing at trial.'",
+            "note": "Almost every disclosed CERCLA cost-recovery outcome in the research sample is a NEGOTIATED settlement, not an adversarial verdict — liability is strict/joint/several once PRP status attaches, so litigation is mostly about allocation share, not a binary win/loss. Treat the probability range as 'likelihood of obtaining a meaningful allocation,' not 'likelihood of prevailing at trial.'",
             "damages": {
               "formula": "totalCleanupCost * allocationShare",
-              "note": "PRELIMINARY -- allocationShare is fact-specific (equitable factors under CERCLA \u00a7113(f)); refine typical allocation patterns from research",
+              "note": "PRELIMINARY -- allocationShare is fact-specific (equitable factors under CERCLA §113(f)); refine typical allocation patterns from research",
               "benchmarkTiers": {
                 "waterwayOrMultiDecadeLegacyIndustrialCorridor": {
                   "range": [
                     130000000,
                     670000000
                   ],
-                  "note": "contamination migrated into sediment/groundwater/surface water over decades, affecting a wide area beyond the original parcel \u2014 Lower Duwamish Waterway $668M, Solvay PFAS $393M, Raritan Bay Slag $151.1M, Anaconda Smelter $131.3M"
+                  "note": "contamination migrated into sediment/groundwater/surface water over decades, affecting a wide area beyond the original parcel — Lower Duwamish Waterway $668M, Solvay PFAS $393M, Raritan Bay Slag $151.1M, Anaconda Smelter $131.3M"
                 },
                 "singleParcelSoilOnly": {
                   "range": [
                     3000000,
                     19000000
                   ],
-                  "note": "contamination confined to one parcel, no significant off-site migration \u2014 Ringwood Mines final phase $3.4M, Riverside Industrial Park ~$18.8M"
+                  "note": "contamination confined to one parcel, no significant off-site migration — Ringwood Mines final phase $3.4M, Riverside Industrial Park ~$18.8M"
                 },
                 "smallCommercialStateEnforcementPenalty": {
                   "range": [
                     85000,
                     120000
                   ],
-                  "note": "single gas station or strip-mall dry cleaner state AG enforcement \u2014 civil penalty only, separate from and much smaller than the underlying remediation cost (often undisclosed)"
+                  "note": "single gas station or strip-mall dry cleaner state AG enforcement — civil penalty only, separate from and much smaller than the underlying remediation cost (often undisclosed)"
                 }
               }
             }
@@ -567,7 +582,7 @@ const CASE_VALUATION_DATA = {
             ],
             "damages": {
               "formula": "totalCleanupCost * (coDefendantEquitableShare)",
-              "researchNote": "Courts apply equitable 'Gore factor' adjustments that REDUCE a mechanically-calculated proportional share (Trinity Industries: raw calculation gave 83% to one party, equitable factors reduced it to 62%). A recurring, important limit: the 'orphan share' \u2014 costs attributable to defunct, judgment-proof, or unidentifiable historical operators \u2014 is often unrecoverable and falls back onto the contribution plaintiff itself (Barclay Lofts: one historical operator's 20% share was assigned as an orphan share the plaintiff must absorb)."
+              "researchNote": "Courts apply equitable 'Gore factor' adjustments that REDUCE a mechanically-calculated proportional share (Trinity Industries: raw calculation gave 83% to one party, equitable factors reduced it to 62%). A recurring, important limit: the 'orphan share' — costs attributable to defunct, judgment-proof, or unidentifiable historical operators — is often unrecoverable and falls back onto the contribution plaintiff itself (Barclay Lofts: one historical operator's 20% share was assigned as an orphan share the plaintiff must absorb)."
             }
           },
           "state_cleanup_consent_decree": {
@@ -588,7 +603,7 @@ const CASE_VALUATION_DATA = {
               0.25,
               0.45
             ],
-            "note": "Revised DOWN slightly from the original preliminary estimate: the small sample skewed toward insurers winning on pollution-exclusion/site-development-exclusion grounds (Regency Centers v. Indian Harbor: no coverage owed for legacy dry-cleaner contamination). None of the 3 sampled cases disclosed the underlying remediation-cost dollar figure \u2014 the disclosed 'outcome' in this claim type is frequently binary (coverage owed / not owed) rather than a dollar figure.",
+            "note": "Revised DOWN slightly from the original preliminary estimate: the small sample skewed toward insurers winning on pollution-exclusion/site-development-exclusion grounds (Regency Centers v. Indian Harbor: no coverage owed for legacy dry-cleaner contamination). None of the 3 sampled cases disclosed the underlying remediation-cost dollar figure — the disclosed 'outcome' in this claim type is frequently binary (coverage owed / not owed) rather than a dollar figure.",
             "damages": {
               "formula": "coveredPortionOfCleanupCosts"
             }
@@ -622,10 +637,10 @@ const CASE_VALUATION_DATA = {
                     2.0,
                     5.0
                   ],
-                  "note": "Severance damages, access/business-value loss, or specialized-use improvements (billboards, medical buildings) with no single accepted valuation methodology. VDOT Fairfax retailer case: ~49x; Gleannloch Commercial: 292% (~3.9x); Inglewood VFW Post: 5.2x. Wide, unpredictable spread \u2014 use the low end absent a clear severance/business-value component."
+                  "note": "Severance damages, access/business-value loss, or specialized-use improvements (billboards, medical buildings) with no single accepted valuation methodology. VDOT Fairfax retailer case: ~49x; Gleannloch Commercial: 292% (~3.9x); Inglewood VFW Post: 5.2x. Wide, unpredictable spread — use the low end absent a clear severance/business-value component."
                 }
               },
-              "fullDefenseRisk": "A right-to-take or blight-designation challenge can VOID an already-adjudicated compensation award entirely rather than raise or lower it \u2014 PKO Ventures v. Norfolk RHA (VA 2013) voided a ~$3.4-3.75M jury award when the underlying blight designation was found invalid. Flag this as a distinct binary risk in the UI, separate from the valuation-uplift math above."
+              "fullDefenseRisk": "A right-to-take or blight-designation challenge can VOID an already-adjudicated compensation award entirely rather than raise or lower it — PKO Ventures v. Norfolk RHA (VA 2013) voided a ~$3.4-3.75M jury award when the underlying blight designation was found invalid. Flag this as a distinct binary risk in the UI, separate from the valuation-uplift math above."
             }
           },
           "quick_take_challenge": {
@@ -636,7 +651,7 @@ const CASE_VALUATION_DATA = {
               0.05,
               0.15
             ],
-            "note": "Confirmed low (kept at 0.05\u20130.15): courts are highly deferential to public-use/necessity determinations post-Kelo. Note the separate, longer-running track: withdrawing a quick-take deposit does NOT waive a right-to-take challenge (LA MTA v. Alameda Produce Market), so an owner isn't forced to choose between needed cash now and continuing to fight the taking's legality.",
+            "note": "Confirmed low (kept at 0.05–0.15): courts are highly deferential to public-use/necessity determinations post-Kelo. Note the separate, longer-running track: withdrawing a quick-take deposit does NOT waive a right-to-take challenge (LA MTA v. Alameda Produce Market), so an owner isn't forced to choose between needed cash now and continuing to fight the taking's legality.",
             "damages": {
               "formula": "not a damages claim -- injunctive relief blocking/delaying the taking",
               "isRange": false
@@ -650,7 +665,7 @@ const CASE_VALUATION_DATA = {
               0.05,
               0.2
             ],
-            "note": "Narrowed down from the original preliminary range: courts in this sample consistently sided with the entity seeking access once it showed a plausible path to eminent-domain authority (PSEG v. Arentz Family; Summit Carbon Solutions v. Malloy) \u2014 this essentially never carries a compensation figure since that's not what's being litigated. A separate, live track (challenging the underlying eminent-domain authority itself, as in Texas Rice Land Partners v. Denbury) can still defeat the taking down the line, but that's a different claim, not this one.",
+            "note": "Narrowed down from the original preliminary range: courts in this sample consistently sided with the entity seeking access once it showed a plausible path to eminent-domain authority (PSEG v. Arentz Family; Summit Carbon Solutions v. Malloy) — this essentially never carries a compensation figure since that's not what's being litigated. A separate, live track (challenging the underlying eminent-domain authority itself, as in Texas Rice Land Partners v. Denbury) can still defeat the taking down the line, but that's a different claim, not this one.",
             "damages": {
               "formula": "not typically a damages claim pre-taking",
               "isRange": false
@@ -687,7 +702,7 @@ const CASE_VALUATION_DATA = {
               0.25,
               0.45
             ],
-            "note": "Small 4-case sample roughly consistent with the original estimate (2 reversed, 1 affirmed, 1 undisclosed-on-remand) \u2014 kept unchanged pending a larger sample.",
+            "note": "Small 4-case sample roughly consistent with the original estimate (2 reversed, 1 affirmed, 1 undisclosed-on-remand) — kept unchanged pending a larger sample.",
             "damages": {
               "formula": "not typically a damages claim -- injunctive relief (permit ordered granted) or remand",
               "isRange": false
@@ -705,7 +720,7 @@ const CASE_VALUATION_DATA = {
               "formula": "not typically a damages claim -- declaratory relief invalidating the zoning change",
               "isRange": false
             },
-            "note": "Revised UP from the original preliminary estimate: all 3 sampled challenges succeeded in invalidating the rezoning (Allen Distribution, Lathan, Chaffier). Treat this cautiously \u2014 successful challenges are more likely to get published/cited as precedent than unsuccessful ones, so this small sample may be outcome-selection-biased upward. Remedy is categorically injunctive/declaratory (invalidating the ordinance), never damages."
+            "note": "Revised UP from the original preliminary estimate: all 3 sampled challenges succeeded in invalidating the rezoning (Allen Distribution, Lathan, Chaffier). Treat this cautiously — successful challenges are more likely to get published/cited as precedent than unsuccessful ones, so this small sample may be outcome-selection-biased upward. Remedy is categorically injunctive/declaratory (invalidating the ordinance), never damages."
           },
           "section_1983_zoning_claim": {
             "side": "sideA",
@@ -715,7 +730,7 @@ const CASE_VALUATION_DATA = {
               0.1,
               0.2
             ],
-            "note": "Base rate narrowed down (only 2 of 8 sampled cases produced a disclosed plaintiff recovery) \u2014 ordinary administrative error or an arguably wrong denial is NOT enough on its own, even one that costs a developer millions (Rubicon Real Estate Holdings v. City of Pontiac). The modifiers above are the actual determinants; apply the base rate only when none of them are present. When a claim DOES succeed with a disclosed figure, awards run large (Del Monte Dunes $1.45M, Orangetown v. Magee $5.14M+fees) because the injury is a whole project's lost value, not a rent stream \u2014 and mandatory fee-shifting under 42 U.S.C. \u00a7 1988 stacks on top of the merits recovery for a prevailing plaintiff, though it's irrelevant in the large majority of cases where the municipality prevails.",
+            "note": "Base rate narrowed down (only 2 of 8 sampled cases produced a disclosed plaintiff recovery) — ordinary administrative error or an arguably wrong denial is NOT enough on its own, even one that costs a developer millions (Rubicon Real Estate Holdings v. City of Pontiac). The modifiers above are the actual determinants; apply the base rate only when none of them are present. When a claim DOES succeed with a disclosed figure, awards run large (Del Monte Dunes $1.45M, Orangetown v. Magee $5.14M+fees) because the injury is a whole project's lost value, not a rent stream — and mandatory fee-shifting under 42 U.S.C. § 1988 stacks on top of the merits recovery for a prevailing plaintiff, though it's irrelevant in the large majority of cases where the municipality prevails.",
             "damages": {
               "formula": "compensatoryDamages (lost value/profits) + attorneyFees (mandatory fee-shifting if prevailing)",
               "isRange": true
@@ -766,7 +781,7 @@ const CASE_VALUATION_DATA = {
             "damages": {
               "formula": "comparable-case-informed range (lost development profit, cost overruns, or reliance damages depending on posture)"
             },
-            "note": "Sample (2 cases, Mammoth Lakes $30M+fees and Cle Elum $22M arbitration award) is both small and success-skewed \u2014 no losing case was found with comparable documentation. Base rate kept at the original preliminary estimate pending a more balanced sample; treat the high end of the damages range with real confidence (both anchor cases are well-documented) but the probability range as still largely a placeholder."
+            "note": "Sample (2 cases, Mammoth Lakes $30M+fees and Cle Elum $22M arbitration award) is both small and success-skewed — no losing case was found with comparable documentation. Base rate kept at the original preliminary estimate pending a more balanced sample; treat the high end of the damages range with real confidence (both anchor cases are well-documented) but the probability range as still largely a placeholder."
           }
         }
       }
@@ -918,7 +933,7 @@ const CASE_VALUATION_DATA = {
         "dollarAmount": null,
         "url": "https://www.leagle.com/decision/incaco20250210002",
         "confidence": "high",
-        "notes": "Useful as a 'holdover claim denied' precedent \u2014 illustrates the risk to landlords of accepting rent after a termination notice."
+        "notes": "Useful as a 'holdover claim denied' precedent — illustrates the risk to landlords of accepting rent after a termination notice."
       },
       {
         "caseName": "ESRT 501 Seventh Ave., LLC v. Regine, Ltd.",
@@ -960,7 +975,7 @@ const CASE_VALUATION_DATA = {
         "citation": "358 Ga. App. 311, 855 S.E.2d 55 (Ga. Ct. App. 2021) (Case Nos. A20A2042 & A20A2043)",
         "jurisdiction": "GA",
         "year": 2021,
-        "outcome": "The trial court granted the landlord's fee motion in part but denied the tenant's competing fee motion, rejecting the tenant's argument that it was the 'prevailing party' merely because the landlord had separately failed on a bad-faith fee claim under O.C.G.A. \u00a7 13-6-11; the Court of Appeals affirmed both rulings in companion appeals.",
+        "outcome": "The trial court granted the landlord's fee motion in part but denied the tenant's competing fee motion, rejecting the tenant's argument that it was the 'prevailing party' merely because the landlord had separately failed on a bad-faith fee claim under O.C.G.A. § 13-6-11; the Court of Appeals affirmed both rulings in companion appeals.",
         "dollarAmount": 45667,
         "url": "https://law.justia.com/cases/georgia/court-of-appeals/2021/a20a2043.html",
         "confidence": "medium",
@@ -971,7 +986,7 @@ const CASE_VALUATION_DATA = {
         "citation": "282 Ga. 841, 653 S.E.2d 680 (Ga. 2007) (answering a certified question from the U.S. Court of Appeals for the Eleventh Circuit)",
         "jurisdiction": "GA",
         "year": 2007,
-        "outcome": "The Georgia Supreme Court held that O.C.G.A. \u00a7 13-1-11 \u2014 a statute historically applied to promissory notes \u2014 also applies to commercial leases, capping recoverable attorney's fees at the statutory formula (15% of the first $500 collected plus 10% of the remainder) rather than the actual contractual fee amount, cutting the landlord's fee recovery to roughly $17,000\u2013$17,288 instead of the ~$280,000 sought.",
+        "outcome": "The Georgia Supreme Court held that O.C.G.A. § 13-1-11 — a statute historically applied to promissory notes — also applies to commercial leases, capping recoverable attorney's fees at the statutory formula (15% of the first $500 collected plus 10% of the remainder) rather than the actual contractual fee amount, cutting the landlord's fee recovery to roughly $17,000–$17,288 instead of the ~$280,000 sought.",
         "dollarAmount": 280000,
         "url": "https://www.deflaw.com/insights/georgia-supreme-court-affirms-application-of-attorney-fees-cap-commercial-leases/",
         "confidence": "medium",
@@ -1068,7 +1083,7 @@ const CASE_VALUATION_DATA = {
         "dollarAmount": 2212,
         "url": "https://www.leagle.com/decision/1969678460p2d2181677",
         "confidence": "high",
-        "notes": "Foundational Colorado constructive-eviction definition, arising from a landlord's active construction interference rather than mere disrepair \u2014 useful as an 'interference by landlord conduct' fact pattern."
+        "notes": "Foundational Colorado constructive-eviction definition, arising from a landlord's active construction interference rather than mere disrepair — useful as an 'interference by landlord conduct' fact pattern."
       },
       {
         "caseName": "Reste Realty Corp. v. Cooper",
@@ -1099,22 +1114,22 @@ const CASE_VALUATION_DATA = {
         "citation": "131 Cal. App. 4th 703, 32 Cal. Rptr. 3d 296 (Cal. Ct. App., 1st Dist., 2005)",
         "jurisdiction": "CA",
         "year": 2005,
-        "outcome": "The Court of Appeal held Civil Code \u00a7 1950.7 unambiguously limits a commercial security deposit to covering unpaid rent and damages accrued as of the date the deposit is statutorily due back, and requires the landlord to calculate and return any 'excess.' The landlord's retention of the full deposit against speculative future-rent damages violated the statute.",
+        "outcome": "The Court of Appeal held Civil Code § 1950.7 unambiguously limits a commercial security deposit to covering unpaid rent and damages accrued as of the date the deposit is statutorily due back, and requires the landlord to calculate and return any 'excess.' The landlord's retention of the full deposit against speculative future-rent damages violated the statute.",
         "dollarAmount": null,
         "url": "https://www.courtlistener.com/opinion/2281319/250-llc-v-photopoint-corpusa/",
         "confidence": "high",
-        "notes": "Frequently cited California authority for the proposition that a commercial security deposit cannot be applied to future/anticipated rent damages absent an express lease waiver of Civil Code \u00a7 1950.7."
+        "notes": "Frequently cited California authority for the proposition that a commercial security deposit cannot be applied to future/anticipated rent damages absent an express lease waiver of Civil Code § 1950.7."
       },
       {
         "caseName": "Aljabban v. Fontana Indoor Swap Meet, Inc.",
         "citation": "54 Cal. App. 5th 482 (Cal. Ct. App., 4th Dist., Div. 1, 2020) (unpublished; nonciteable under Cal. R. Ct. 8.1115)",
         "jurisdiction": "CA",
         "year": 2020,
-        "outcome": "The Court of Appeal held that, under Civil Code \u00a7 1950.7(c), a commercial landlord may apply a security deposit to repair costs only if the lease expressly authorizes that use; because this lease contained no such authorization, FISM's withholding of the $680 was improper.",
+        "outcome": "The Court of Appeal held that, under Civil Code § 1950.7(c), a commercial landlord may apply a security deposit to repair costs only if the lease expressly authorizes that use; because this lease contained no such authorization, FISM's withholding of the $680 was improper.",
         "dollarAmount": 680,
         "url": "https://www4.courts.ca.gov/opinions/nonpub/D076214.PDF",
         "confidence": "medium",
-        "notes": "This is an unpublished California opinion; under Cal. R. Ct. 8.1115 it may not be cited as precedent in California courts. Included here only as an illustrative, real, verifiable fact pattern \u2014 not as binding authority. Flag this limitation to any user of the valuation tool."
+        "notes": "This is an unpublished California opinion; under Cal. R. Ct. 8.1115 it may not be cited as precedent in California courts. Included here only as an illustrative, real, verifiable fact pattern — not as binding authority. Flag this limitation to any user of the valuation tool."
       },
       {
         "caseName": "Oak Forest Properties LLC v. RER Financial, Inc.",
@@ -1125,14 +1140,14 @@ const CASE_VALUATION_DATA = {
         "dollarAmount": 3404,
         "url": "https://caselaw.findlaw.com/court/apl-crt-ill-fir-dis-fir-div/1955186.html",
         "confidence": "medium",
-        "notes": "Illinois Rule 23 order \u2014 unpublished and of limited precedential value under Illinois court rules, but the facts and dollar figures are independently verifiable from the opinion text. Useful for showing that a small deposit-return win can be swamped by, and irrelevant to, the outcome of much larger contract claims in the same suit."
+        "notes": "Illinois Rule 23 order — unpublished and of limited precedential value under Illinois court rules, but the facts and dollar figures are independently verifiable from the opinion text. Useful for showing that a small deposit-return win can be swamped by, and irrelevant to, the outcome of much larger contract claims in the same suit."
       },
       {
         "caseName": "Urban Soccer Inc. v. Royal Wine Corp.",
         "citation": "2016 N.Y. Slip Op. 26250 (Sup. Ct., N.Y. Cnty., Commercial Div. 2016)",
         "jurisdiction": "NY",
         "year": 2016,
-        "outcome": "The court found Royal Wine Corp. technically violated GOL \u00a7 7-103(2) by holding the deposit outside New York, but held this was a 'technical statutory violation' without fiduciary implications; because there was no commingling and Urban Soccer suffered no actual damages, the statute provided no remedy and the tenant was not entitled to relief.",
+        "outcome": "The court found Royal Wine Corp. technically violated GOL § 7-103(2) by holding the deposit outside New York, but held this was a 'technical statutory violation' without fiduciary implications; because there was no commingling and Urban Soccer suffered no actual damages, the statute provided no remedy and the tenant was not entitled to relief.",
         "dollarAmount": null,
         "url": "https://www.schlamstone.com/blogs/commercial/2016-08-10-not-maintaining-security-deposit-in-new-york-bank-branch-violates-gol-7-103-no-damages",
         "confidence": "medium",
@@ -1144,7 +1159,7 @@ const CASE_VALUATION_DATA = {
         "caseName": "The Ardent Companies (Ardent Cos.) v. Baruch Broad Street LLC / Zamir Equities",
         "citation": "Franklin County Court of Common Pleas, Ohio (case no. not independently verified)",
         "year": 2026,
-        "outcome": "Ardent's complaint sought a money judgment of $9,320,807 against the borrower/guarantor in addition to foreclosure. After more than a year under receivership, the property was sold at a April 2026 foreclosure auction for $5.1M \u2014 less than half its 2022 purchase price of roughly $12M and well short of the ~$9.3M owed, leaving a substantial unrecovered deficiency.",
+        "outcome": "Ardent's complaint sought a money judgment of $9,320,807 against the borrower/guarantor in addition to foreclosure. After more than a year under receivership, the property was sold at a April 2026 foreclosure auction for $5.1M — less than half its 2022 purchase price of roughly $12M and well short of the ~$9.3M owed, leaving a substantial unrecovered deficiency.",
         "dollarAmount": 9320807,
         "sourceUrl": "https://www.aol.com/news/downtown-columbus-keybank-building-sold-194109422.html",
         "confidence": "high"
@@ -1153,7 +1168,7 @@ const CASE_VALUATION_DATA = {
         "caseName": "AFF IV 200 Miami LLC v. SRCTD 44-200 LLC and FS Equity Investments II LLC",
         "citation": "Miami-Dade County Circuit Court (Fla.), stipulated foreclosure judgment entered June 11, 2026",
         "year": 2026,
-        "outcome": "Miami-Dade Circuit Judge Joseph Perkins granted a stipulated final foreclosure judgment in favor of the lender (through affiliate AFF IV 200 Miami LLC) for $65.7M \u2014 $41.1M principal plus accrued interest and fees \u2014 clearing the way for both buildings to be sold at online auction.",
+        "outcome": "Miami-Dade Circuit Judge Joseph Perkins granted a stipulated final foreclosure judgment in favor of the lender (through affiliate AFF IV 200 Miami LLC) for $65.7M — $41.1M principal plus accrued interest and fees — clearing the way for both buildings to be sold at online auction.",
         "dollarAmount": 65700000,
         "sourceUrl": "https://therealdeal.com/miami/2026/06/23/stonerock-capital-loses-downtown-miami-office-foreclosure/",
         "confidence": "high"
@@ -1171,7 +1186,7 @@ const CASE_VALUATION_DATA = {
         "caseName": "LNR Partners (special servicer) v. Cohen Brothers Realty Corp. (750 Lexington Avenue)",
         "citation": "Supreme Court of the State of New York, New York County (foreclosure judgment ~$155.9M, entered 2025)",
         "year": 2026,
-        "outcome": "The property's appraised value had collapsed to roughly $41M (down 86% from a pre-pandemic value of about $300M). At the January 21, 2026 foreclosure auction, with an upset price of $161,854,848.66, no bidder appeared \u2014 the property reverted to lender U.S. Bank for a nominal $1,000, leaving the loan's full ~$155.9M-plus balance effectively unrecovered from the collateral.",
+        "outcome": "The property's appraised value had collapsed to roughly $41M (down 86% from a pre-pandemic value of about $300M). At the January 21, 2026 foreclosure auction, with an upset price of $161,854,848.66, no bidder appeared — the property reverted to lender U.S. Bank for a nominal $1,000, leaving the loan's full ~$155.9M-plus balance effectively unrecovered from the collateral.",
         "dollarAmount": 155900000,
         "sourceUrl": "https://www.crainsnewyork.com/real-estate/750-lexington-ave-fetches-nominal-sum-foreclosure-auction/",
         "confidence": "high"
@@ -1361,7 +1376,7 @@ const CASE_VALUATION_DATA = {
         "caseName": "Katz v. CommonWealth REIT; Central Laborers' Pension Fund v. CommonWealth REIT (Equity Commonwealth Trustee Litigation)",
         "citation": "Circuit Court for Baltimore City, Maryland (Katz Action, filed March 2013; Central Laborers Action, filed April 2013)",
         "year": 2015,
-        "outcome": "Equity Commonwealth (the REIT's new name/management following the 2014 board overhaul) entered into a Settlement and Release Agreement on July 31, 2015 resolving both actions. The settlement was overwhelmingly non-monetary \u2014 largely mooted by the 2014 change in control and governance reforms already implemented \u2014 with the company agreeing to pay $200,000 toward plaintiffs' counsel's costs and expenses.",
+        "outcome": "Equity Commonwealth (the REIT's new name/management following the 2014 board overhaul) entered into a Settlement and Release Agreement on July 31, 2015 resolving both actions. The settlement was overwhelmingly non-monetary — largely mooted by the 2014 change in control and governance reforms already implemented — with the company agreeing to pay $200,000 toward plaintiffs' counsel's costs and expenses.",
         "dollarAmount": 200000,
         "sourceUrl": "https://www.sec.gov/Archives/edgar/data/0000803649/000141057815000405/a15-16477_18k.htm",
         "confidence": "medium"
@@ -1410,7 +1425,7 @@ const CASE_VALUATION_DATA = {
         "caseName": "In re Government Properties Income Trust / Select Income REIT Merger Litigation (Chen v. Select Income REIT; Schwartz v. Select Income REIT; Sinkula v. Select Income REIT; Scarantino v. Fraiche)",
         "citation": "Four parallel actions: S.D.N.Y. (filed Nov. 9 & 19, 2018), D. Mass. (filed Nov. 15, 2018), and Circuit Court for Baltimore City, MD (filed Nov. 16, 2018)",
         "year": 2018,
-        "outcome": "The merger closed; the parallel disclosure suits followed the common 'disclosure-only' resolution pattern for merger-objection suits \u2014 the companies filed supplemental proxy disclosures addressing the alleged omissions (visible in the SEC Form S-4/A amendments filed shortly before the shareholder vote), after which the suits were mooted/withdrawn. No separate cash settlement fund to shareholders was disclosed.",
+        "outcome": "The merger closed; the parallel disclosure suits followed the common 'disclosure-only' resolution pattern for merger-objection suits — the companies filed supplemental proxy disclosures addressing the alleged omissions (visible in the SEC Form S-4/A amendments filed shortly before the shareholder vote), after which the suits were mooted/withdrawn. No separate cash settlement fund to shareholders was disclosed.",
         "dollarAmount": null,
         "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1456772/000104746918007257/a2237140zex-99_1.htm",
         "confidence": "medium"
@@ -1660,16 +1675,16 @@ const CASE_VALUATION_DATA = {
       },
       {
         "caseName": "State v. Gleannloch Commercial Development, LP",
-        "citation": "585 S.W.3d 509 (Tex. App.\u2014Houston [1st Dist.] 2019)",
+        "citation": "585 S.W.3d 509 (Tex. App.—Houston [1st Dist.] 2019)",
         "year": 2019,
-        "outcome": "Jury awarded $19.4 million in combined just compensation for the two parcels \u2014 292% above the State's combined initial offer, representing 100% of the compensation the landowner sought at trial. Judgment affirmed on appeal.",
+        "outcome": "Jury awarded $19.4 million in combined just compensation for the two parcels — 292% above the State's combined initial offer, representing 100% of the compensation the landowner sought at trial. Judgment affirmed on appeal.",
         "dollarAmount": 19400000,
         "sourceUrl": "https://www.velaw.com/practices/houston-i-45-highway-expansion-project/",
         "confidence": "high"
       },
       {
         "caseName": "State v. Moore Outdoor Properties, LP / Arrington Outdoor of Fort Worth, L.P.",
-        "citation": "No. 08-12-00034-CV (Tex. App.\u2014El Paso, Nov. 13, 2013) (transferred from Fort Worth)",
+        "citation": "No. 08-12-00034-CV (Tex. App.—El Paso, Nov. 13, 2013) (transferred from Fort Worth)",
         "year": 2013,
         "outcome": "After a jury trial, Arrington was awarded $969,243 for its leasehold and billboard-structure interest (affirmed on appeal); Moore Outdoor Properties separately settled for $480,000.",
         "dollarAmount": 969243,
@@ -1691,7 +1706,7 @@ const CASE_VALUATION_DATA = {
         "caseName": "Medical Acquisition Company, Inc. v. Superior Court (Tri-City Healthcare District)",
         "citation": "20 Cal. App. 5th 34, D072509 (Cal. Ct. App., 4th Dist., Div. 1, Jan. 11, 2018)",
         "year": 2018,
-        "outcome": "The jury found the property's fair market value to be $16.83 million \u2014 nearly 3.6x the quick-take deposit \u2014 and separately awarded MAC $2,933,700 for the district's breach of the implied covenant of good faith and fair dealing. The court ordered the district to increase its deposit by about $12.2 million to match the verdict, and the Court of Appeal addressed the novel procedural question of what security/bonding the owner could be required to post to withdraw the increased post-judgment deposit.",
+        "outcome": "The jury found the property's fair market value to be $16.83 million — nearly 3.6x the quick-take deposit — and separately awarded MAC $2,933,700 for the district's breach of the implied covenant of good faith and fair dealing. The court ordered the district to increase its deposit by about $12.2 million to match the verdict, and the Court of Appeal addressed the novel procedural question of what security/bonding the owner could be required to post to withdraw the increased post-judgment deposit.",
         "dollarAmount": 16830000,
         "sourceUrl": "https://www4.courts.ca.gov/opinions/documents/D072509.PDF",
         "confidence": "high"
@@ -1709,7 +1724,7 @@ const CASE_VALUATION_DATA = {
         "caseName": "PKO Ventures, LLC v. Norfolk Redevelopment & Housing Authority (Norva Properties)",
         "citation": "747 S.E.2d 826 (Va. 2013)",
         "year": 2013,
-        "outcome": "The Virginia Supreme Court unanimously held NRHA had no right to take the property because it was not validly part of a blighted redevelopment area, voiding the condemnation and ordering the property returned to the owner \u2014 mooting the earlier jury compensation verdict since no taking occurred.",
+        "outcome": "The Virginia Supreme Court unanimously held NRHA had no right to take the property because it was not validly part of a blighted redevelopment area, voiding the condemnation and ordering the property returned to the owner — mooting the earlier jury compensation verdict since no taking occurred.",
         "dollarAmount": null,
         "sourceUrl": "https://www.courtlistener.com/opinion/8686764/norfolk-redevelopment-housing-authority-v-norva-properties-lc/",
         "confidence": "medium"
@@ -1936,7 +1951,7 @@ const CASE_VALUATION_DATA = {
       "accelerationClauseNote": "Generally enforceable if expressly stated",
       "wrongfulLockoutRemedyType": "actual-only",
       "wrongfulLockoutRemedyValue": null,
-      "wrongfulLockoutCitation": "Not yet researched for this state -- defaulting to actual damages only (no statutory multiplier assumed). Verify the specific state statute before relying on an enhanced figure."
+      "wrongfulLockoutCitation": "Self-help re-entry is generally available to Alabama COMMERCIAL landlords at common law (peaceable, lease-authorized). The enhanced-damages statute for wrongful lockout (Ala. Code Sec. 35-9A-407, greater of actual damages or up to 3 months' rent) is part of the Alabama Uniform Residential Landlord and Tenant Act and does not extend to commercial tenancies. No confirmed commercial-specific statutory enhancement found; a commercial tenant's remedy for an improper lockout (e.g., breach of the peace, no lease authorization) is actual damages via common-law tort theories."
     },
     "Alaska": {
       "classification": "Neutral",
@@ -1947,7 +1962,7 @@ const CASE_VALUATION_DATA = {
       "accelerationClauseNote": "Generally enforceable if expressly stated",
       "wrongfulLockoutRemedyType": "actual-only",
       "wrongfulLockoutRemedyValue": null,
-      "wrongfulLockoutCitation": "Not yet researched for this state -- defaulting to actual damages only (no statutory multiplier assumed). Verify the specific state statute before relying on an enhanced figure."
+      "wrongfulLockoutCitation": "Self-help re-entry is generally available to Alaska COMMERCIAL landlords at common law. The enhanced-damages provision (AS 34.03.210, up to 1.5x actual damages) is part of the Alaska Uniform Residential Landlord and Tenant Act (Title 34.03) and does not extend to commercial tenancies. No confirmed commercial-specific statutory enhancement found."
     },
     "Arizona": {
       "classification": "Landlord-Friendly",
@@ -1958,7 +1973,7 @@ const CASE_VALUATION_DATA = {
       "accelerationClauseNote": "Generally enforceable if expressly stated",
       "wrongfulLockoutRemedyType": "actual-only",
       "wrongfulLockoutRemedyValue": null,
-      "wrongfulLockoutCitation": "Not yet researched for this state -- defaulting to actual damages only (no statutory multiplier assumed). Verify the specific state statute before relying on an enhanced figure."
+      "wrongfulLockoutCitation": "Arizona has a commercial-specific reentry statute (A.R.S. Sec. 33-361, outside the Residential Landlord and Tenant Act) permitting landlord reentry on default, but the landlord may not act while the tenant is physically present and must not breach the peace. No statutory multiplier/floor was found for a WRONGFUL commercial lockout -- the tenant's remedy is the actual damages sustained (which can include lost profits and business-interruption damages in a proper case)."
     },
     "Arkansas": {
       "classification": "Landlord-Friendly",
@@ -1969,7 +1984,7 @@ const CASE_VALUATION_DATA = {
       "accelerationClauseNote": "See chapter",
       "wrongfulLockoutRemedyType": "actual-only",
       "wrongfulLockoutRemedyValue": null,
-      "wrongfulLockoutCitation": "Not yet researched for this state -- defaulting to actual damages only (no statutory multiplier assumed). Verify the specific state statute before relying on an enhanced figure."
+      "wrongfulLockoutCitation": "Self-help is prohibited entirely for Arkansas commercial landlords (judicial process required). No commercial-specific wrongful-lockout penalty statute was confirmed. Note: Ark. Code Ann. Sec. 18-60-309's 'three times the rental value' liquidated-damages figure for commercial/mixed-use property runs the OTHER direction -- it compensates a LANDLORD against a holdover tenant in an unlawful-detainer action, not a tenant's claim against a landlord for wrongful lockout -- so it should not be applied here."
     },
     "California": {
       "classification": "Neutral",
@@ -1991,7 +2006,7 @@ const CASE_VALUATION_DATA = {
       "accelerationClauseNote": "See chapter",
       "wrongfulLockoutRemedyType": "actual-only",
       "wrongfulLockoutRemedyValue": null,
-      "wrongfulLockoutCitation": "Not yet researched for this state -- defaulting to actual damages only (no statutory multiplier assumed). Verify the specific state statute before relying on an enhanced figure."
+      "wrongfulLockoutCitation": "Colorado's enhanced wrongful-lockout remedy (C.R.S. Sec. 38-12-510, actual damages plus the greater of 3x monthly rent or $5,000, plus attorney's fees, added by SB 21-173) is expressly limited to a 'dwelling unit' and does not extend to commercial tenancies. No case law or statute addresses commercial landlord self-help directly, so the common-law remedy (and actual-damages-only exposure for wrongful use) likely still applies to commercial leases."
     },
     "Connecticut": {
       "classification": "Neutral",
@@ -2002,7 +2017,7 @@ const CASE_VALUATION_DATA = {
       "accelerationClauseNote": "See chapter",
       "wrongfulLockoutRemedyType": "actual-only",
       "wrongfulLockoutRemedyValue": null,
-      "wrongfulLockoutCitation": "Not yet researched for this state -- defaulting to actual damages only (no statutory multiplier assumed). Verify the specific state statute before relying on an enhanced figure."
+      "wrongfulLockoutCitation": "Self-help is prohibited entirely for Connecticut commercial landlords -- all repossession must go through Summary Process (Conn. Gen. Stat. Ch. 832), even where the lease purports to authorize self-help. No confirmed statutory damages multiplier for a wrongful commercial lockout; likely actual damages via breach of the covenant of quiet enjoyment / trespass."
     },
     "Delaware": {
       "classification": "Neutral",
@@ -2013,7 +2028,7 @@ const CASE_VALUATION_DATA = {
       "accelerationClauseNote": "Generally enforceable if expressly stated",
       "wrongfulLockoutRemedyType": "actual-only",
       "wrongfulLockoutRemedyValue": null,
-      "wrongfulLockoutCitation": "Not yet researched for this state -- defaulting to actual damages only (no statutory multiplier assumed). Verify the specific state statute before relying on an enhanced figure."
+      "wrongfulLockoutCitation": "Delaware's Landlord-Tenant Code (Title 25) prohibits self-help lockouts, but its detailed provisions and penalties are written for residential rental units. No confirmed commercial-specific wrongful-lockout penalty statute or multiplier was found; treat as actual damages only pending confirmation."
     },
     "District of Columbia": {
       "classification": "Tenant-Friendly",
@@ -2024,7 +2039,7 @@ const CASE_VALUATION_DATA = {
       "accelerationClauseNote": "See chapter",
       "wrongfulLockoutRemedyType": "actual-only",
       "wrongfulLockoutRemedyValue": null,
-      "wrongfulLockoutCitation": "Not yet researched for this state -- defaulting to actual damages only (no statutory multiplier assumed). Verify the specific state statute before relying on an enhanced figure."
+      "wrongfulLockoutCitation": "Self-help is unavailable to BOTH commercial and residential landlords in the District of Columbia as a matter of settled case law -- Simpson v. Lee, 499 A.2d 889 (D.C. 1985); Mendes v. Johnson, 389 A.2d 781 (D.C. 1978) (Congress's creation of a summary judicial-possession process abrogated the common-law self-help right). Damages for an unlawful eviction are discretionary/case-by-case (no fixed statutory multiplier) -- actual damages plus property damage, at the court's discretion."
     },
     "Florida": {
       "classification": "Neutral",
@@ -2057,7 +2072,7 @@ const CASE_VALUATION_DATA = {
       "accelerationClauseNote": "Generally enforceable if expressly stated",
       "wrongfulLockoutRemedyType": "actual-only",
       "wrongfulLockoutRemedyValue": null,
-      "wrongfulLockoutCitation": "Not yet researched for this state -- defaulting to actual damages only (no statutory multiplier assumed). Verify the specific state statute before relying on an enhanced figure."
+      "wrongfulLockoutCitation": "Hawaii commercial landlords are not precluded from self-help for nonpayment of rent specifically, but must otherwise use the summary possession judicial process (HRS Ch. 666). The enhanced remedy referenced in secondary sources (2 months' rent or free occupancy, HRS Sec. 521-63) is part of the Hawaii residential landlord-tenant code and does not extend to commercial tenancies. No confirmed commercial-specific statutory enhancement found."
     },
     "Idaho": {
       "classification": "Neutral",
@@ -2068,7 +2083,7 @@ const CASE_VALUATION_DATA = {
       "accelerationClauseNote": "See chapter",
       "wrongfulLockoutRemedyType": "actual-only",
       "wrongfulLockoutRemedyValue": null,
-      "wrongfulLockoutCitation": "Not yet researched for this state -- defaulting to actual damages only (no statutory multiplier assumed). Verify the specific state statute before relying on an enhanced figure."
+      "wrongfulLockoutCitation": "Idaho permits commercial landlord self-help only in abandonment (or similarly defined) circumstances -- a wrongful lockout outside that exception exposes the landlord to liability. A treble-damages figure appears in secondary sources but traces to Idaho's residential tenant-protection statute; its extension to nonresidential/commercial tenancies is not confirmed. Treat conservatively as actual damages only until independently verified."
     },
     "Illinois": {
       "classification": "Tenant-Friendly",
@@ -2079,7 +2094,7 @@ const CASE_VALUATION_DATA = {
       "accelerationClauseNote": "See chapter",
       "wrongfulLockoutRemedyType": "actual-only",
       "wrongfulLockoutRemedyValue": null,
-      "wrongfulLockoutCitation": "735 ILCS 5/9 (Forcible Entry and Detainer Act) is the exclusive repossession procedure; no confirmed statutory multiplier for commercial wrongful lockout -- actual/common-law damages."
+      "wrongfulLockoutCitation": "735 ILCS 5/9-101 et seq. (Forcible Entry and Detainer Act) requires judicial process for eviction; self-help is prohibited for Illinois commercial landlords. No confirmed statutory damages multiplier for a wrongful commercial lockout -- tenant's remedy is actual damages, which can include lost business revenue, emergency relocation costs, and property/inventory losses, plus attorney's fees and costs."
     },
     "Indiana": {
       "classification": "Tenant-Friendly",
@@ -2090,7 +2105,7 @@ const CASE_VALUATION_DATA = {
       "accelerationClauseNote": "Generally enforceable if expressly stated",
       "wrongfulLockoutRemedyType": "actual-only",
       "wrongfulLockoutRemedyValue": null,
-      "wrongfulLockoutCitation": "Not yet researched for this state -- defaulting to actual damages only (no statutory multiplier assumed). Verify the specific state statute before relying on an enhanced figure."
+      "wrongfulLockoutCitation": "Indiana has no confirmed statute or case law specifically addressing commercial-landlord self-help. A statutory damages range ($500-$2,500, Ind. Code Sec. 32-31-11) was found in secondary sources but appears designed for residential tenancies (Indiana's tenant-safety provisions); its application to commercial tenancies is not confirmed. No confirmed commercial-specific enhancement."
     },
     "Iowa": {
       "classification": "Landlord-Friendly",
@@ -2101,7 +2116,7 @@ const CASE_VALUATION_DATA = {
       "accelerationClauseNote": "Generally enforceable if expressly stated",
       "wrongfulLockoutRemedyType": "actual-only",
       "wrongfulLockoutRemedyValue": null,
-      "wrongfulLockoutCitation": "Not yet researched for this state -- defaulting to actual damages only (no statutory multiplier assumed). Verify the specific state statute before relying on an enhanced figure."
+      "wrongfulLockoutCitation": "Iowa's enhanced wrongful-lockout remedy (Iowa Code Sec. 562A.26 -- actual damages plus 2 months' rent or 2x actual damages, whichever greater, plus punitive damages up to 2x monthly rent) is part of the Iowa Uniform Residential Landlord and Tenant Act (Ch. 562A) and does not extend to commercial tenancies. No case law confirms whether commercial self-help is available or prohibited in Iowa; no commercial-specific enhancement found."
     },
     "Kansas": {
       "classification": "Neutral",
@@ -2112,7 +2127,7 @@ const CASE_VALUATION_DATA = {
       "accelerationClauseNote": "Generally enforceable if expressly stated",
       "wrongfulLockoutRemedyType": "actual-only",
       "wrongfulLockoutRemedyValue": null,
-      "wrongfulLockoutCitation": "Not yet researched for this state -- defaulting to actual damages only (no statutory multiplier assumed). Verify the specific state statute before relying on an enhanced figure."
+      "wrongfulLockoutCitation": "Kansas's enhanced wrongful-lockout remedy (roughly 1.5 months' rent or actual damages, whichever greater) is part of the Kansas Residential Landlord and Tenant Act and does not extend to commercial tenancies. No case law confirms whether commercial self-help is available or prohibited in Kansas; no commercial-specific enhancement found."
     },
     "Kentucky": {
       "classification": "Landlord-Friendly",
@@ -2123,7 +2138,7 @@ const CASE_VALUATION_DATA = {
       "accelerationClauseNote": "Generally enforceable if expressly stated",
       "wrongfulLockoutRemedyType": "actual-only",
       "wrongfulLockoutRemedyValue": null,
-      "wrongfulLockoutCitation": "Not yet researched for this state -- defaulting to actual damages only (no statutory multiplier assumed). Verify the specific state statute before relying on an enhanced figure."
+      "wrongfulLockoutCitation": "Kentucky's enhanced wrongful-lockout remedy (KRS Sec. 383.655 -- damages up to 3 months' rent plus attorney's fees) is part of the Uniform Residential Landlord and Tenant Act (KRS Ch. 383, applicable only in adopting counties/cities) and does not extend to commercial tenancies. No confirmed commercial-specific statutory enhancement found."
     },
     "Louisiana": {
       "classification": "Neutral",
@@ -2134,7 +2149,7 @@ const CASE_VALUATION_DATA = {
       "accelerationClauseNote": "Generally enforceable if expressly stated",
       "wrongfulLockoutRemedyType": "actual-only",
       "wrongfulLockoutRemedyValue": null,
-      "wrongfulLockoutCitation": "Not yet researched for this state -- defaulting to actual damages only (no statutory multiplier assumed). Verify the specific state statute before relying on an enhanced figure."
+      "wrongfulLockoutCitation": "Self-help is prohibited entirely for Louisiana commercial landlords; a wrongful lockout is treated as trespass and can support a bad-faith breach-of-obligation claim (exposing the landlord to foreseeable and unforeseeable damages) and potentially an unfair-trade-practices claim under La. R.S. 51:1401 et seq. A specific dollar penalty figure appears in general secondary sources but could not be confirmed against a Louisiana-specific statute citation with confidence -- verify before relying on any fixed multiplier."
     },
     "Maine": {
       "classification": "Landlord-Friendly",
@@ -2145,7 +2160,7 @@ const CASE_VALUATION_DATA = {
       "accelerationClauseNote": "See chapter",
       "wrongfulLockoutRemedyType": "actual-only",
       "wrongfulLockoutRemedyValue": null,
-      "wrongfulLockoutCitation": "Not yet researched for this state -- defaulting to actual damages only (no statutory multiplier assumed). Verify the specific state statute before relying on an enhanced figure."
+      "wrongfulLockoutCitation": "Maine's Forcible Entry and Detainer chapter (14 M.R.S. Ch. 709) requires judicial process for eviction, including from commercial premises (see the chapter's separate commercial-lease provision at 14 M.R.S. Sec. 6017). Sec. 6014 sets tenant recovery at the greater of actual damages or $250 (plus costs and attorney's fees) -- but this is a REPLACEMENT floor on the total recovery, not an additive one, so it is not modeled as an automatic enhancement here to avoid overstating damages; use $250 as a floor reference only if actual damages are confirmed to be lower."
     },
     "Maryland": {
       "classification": "Neutral",
@@ -2156,7 +2171,7 @@ const CASE_VALUATION_DATA = {
       "accelerationClauseNote": "Generally enforceable if expressly stated",
       "wrongfulLockoutRemedyType": "actual-only",
       "wrongfulLockoutRemedyValue": null,
-      "wrongfulLockoutCitation": "Not yet researched for this state -- defaulting to actual damages only (no statutory multiplier assumed). Verify the specific state statute before relying on an enhanced figure."
+      "wrongfulLockoutCitation": "Maryland retains the common-law rule allowing commercial-landlord self-help where the lease authorizes reentry, the tenant is in default beyond any cure period, and reentry is peaceful. No statutory penalty scheme applies to commercial self-help; a wrongful/improper lockout exposes the landlord to common-law damages (conversion, tortious interference with business relationships, the tenant's actual losses) rather than a statutory multiplier."
     },
     "Massachusetts": {
       "classification": "Landlord-Friendly",
@@ -2167,7 +2182,7 @@ const CASE_VALUATION_DATA = {
       "accelerationClauseNote": "Generally enforceable if expressly stated",
       "wrongfulLockoutRemedyType": "actual-only",
       "wrongfulLockoutRemedyValue": null,
-      "wrongfulLockoutCitation": "Not yet researched for this state -- defaulting to actual damages only (no statutory multiplier assumed). Verify the specific state statute before relying on an enhanced figure."
+      "wrongfulLockoutCitation": "Massachusetts's enhanced wrongful-lockout remedy (M.G.L. c. 186, Sec. 14 -- 3 months' rent or actual damages, whichever greater, plus attorney's fees) is expressly limited to premises 'occupied for dwelling purposes' and does not extend to commercial tenancies. Per counsel-of-record review, Massachusetts commercial self-help issues track ordinary landlord-tenant principles; no confirmed commercial-specific statutory enhancement found."
     },
     "Michigan": {
       "classification": "Neutral",
@@ -2176,9 +2191,9 @@ const CASE_VALUATION_DATA = {
       "mitigationDuty": "Yes",
       "holdoverStatutoryPenalty": true,
       "accelerationClauseNote": "Generally enforceable if expressly stated",
-      "wrongfulLockoutRemedyType": "actual-only",
-      "wrongfulLockoutRemedyValue": null,
-      "wrongfulLockoutCitation": "Not yet researched for this state -- defaulting to actual damages only (no statutory multiplier assumed). Verify the specific state statute before relying on an enhanced figure."
+      "wrongfulLockoutRemedyType": "multiplier",
+      "wrongfulLockoutRemedyValue": 3,
+      "wrongfulLockoutCitation": "Mich. Comp. Laws Sec. 600.2918 -- treble damages (or a $200 statutory minimum, whichever greater) for forcible or unlawful ouster from real property, plus recovery of possession. This is a general real-property statute (Michigan's Revised Judicature Act), not limited to residential dwellings, and Michigan case law has applied it to commercial tenancies."
     },
     "Minnesota": {
       "classification": "Neutral",
@@ -2189,7 +2204,7 @@ const CASE_VALUATION_DATA = {
       "accelerationClauseNote": "Generally enforceable if expressly stated",
       "wrongfulLockoutRemedyType": "actual-only",
       "wrongfulLockoutRemedyValue": null,
-      "wrongfulLockoutCitation": "Not yet researched for this state -- defaulting to actual damages only (no statutory multiplier assumed). Verify the specific state statute before relying on an enhanced figure."
+      "wrongfulLockoutCitation": "Minnesota's enhanced wrongful-lockout remedy (Minn. Stat. Sec. 504B.225/504B.231 -- 3x damages or $500, whichever greater, plus attorney's fees; criminal exposure under Sec. 609.606) is confirmed to apply to RESIDENTIAL tenancies only -- Minnesota Statutes Chapter 504B does not govern purely commercial leases. No confirmed commercial-specific statutory enhancement found."
     },
     "Mississippi": {
       "classification": "Landlord-Friendly",
@@ -2200,7 +2215,7 @@ const CASE_VALUATION_DATA = {
       "accelerationClauseNote": "Generally enforceable if expressly stated",
       "wrongfulLockoutRemedyType": "actual-only",
       "wrongfulLockoutRemedyValue": null,
-      "wrongfulLockoutCitation": "Not yet researched for this state -- defaulting to actual damages only (no statutory multiplier assumed). Verify the specific state statute before relying on an enhanced figure."
+      "wrongfulLockoutCitation": "Mississippi generally prohibits commercial self-help, with a narrow exception for peaceable reentry when the written lease expressly grants a right of reentry on default. No statutory penalty scheme was found for a wrongful commercial lockout; the tenant's remedy is actual damages (including business-interruption losses) via wrongful-eviction/trespass theories."
     },
     "Missouri": {
       "classification": "Tenant-Friendly",
@@ -2211,7 +2226,7 @@ const CASE_VALUATION_DATA = {
       "accelerationClauseNote": "Generally enforceable if expressly stated",
       "wrongfulLockoutRemedyType": "actual-only",
       "wrongfulLockoutRemedyValue": null,
-      "wrongfulLockoutCitation": "Not yet researched for this state -- defaulting to actual damages only (no statutory multiplier assumed). Verify the specific state statute before relying on an enhanced figure."
+      "wrongfulLockoutCitation": "Missouri permits commercial-landlord self-help only for abandonment (or similarly defined circumstances); a wrongful lockout outside that exception makes the landlord 'guilty of forcible entry and detainer' and subject to whatever penalty that violation carries. Secondary sources describe a 2-months'-rent-or-2x-actual-damages figure, but the precise statutory citation and its commercial applicability could not be confirmed with confidence -- treat as actual damages only pending verification."
     },
     "Montana": {
       "classification": "Landlord-Friendly",
@@ -2222,7 +2237,7 @@ const CASE_VALUATION_DATA = {
       "accelerationClauseNote": "Generally enforceable if expressly stated",
       "wrongfulLockoutRemedyType": "actual-only",
       "wrongfulLockoutRemedyValue": null,
-      "wrongfulLockoutCitation": "Not yet researched for this state -- defaulting to actual damages only (no statutory multiplier assumed). Verify the specific state statute before relying on an enhanced figure."
+      "wrongfulLockoutCitation": "Montana permits commercial-landlord self-help only for abandonment (or similarly defined circumstances). The enhanced wrongful-lockout remedy found (Mont. Code Ann. Sec. 70-24-411 -- 3 months' rent or 3x actual damages, whichever greater) is part of the Montana Residential Landlord and Tenant Act and its extension to commercial tenancies outside the abandonment exception is not confirmed."
     },
     "Nebraska": {
       "classification": "Landlord-Friendly",
@@ -2233,7 +2248,7 @@ const CASE_VALUATION_DATA = {
       "accelerationClauseNote": "Generally enforceable if expressly stated",
       "wrongfulLockoutRemedyType": "actual-only",
       "wrongfulLockoutRemedyValue": null,
-      "wrongfulLockoutCitation": "Not yet researched for this state -- defaulting to actual damages only (no statutory multiplier assumed). Verify the specific state statute before relying on an enhanced figure."
+      "wrongfulLockoutCitation": "Nebraska's enhanced wrongful-lockout remedy (3 months' periodic rent as liquidated damages, plus attorney's fees) is part of the Nebraska Uniform Residential Landlord and Tenant Act and does not extend to commercial tenancies. No confirmed commercial-specific statutory enhancement found."
     },
     "Nevada": {
       "classification": "Landlord-Friendly",
@@ -2244,7 +2259,7 @@ const CASE_VALUATION_DATA = {
       "accelerationClauseNote": "Generally enforceable if expressly stated",
       "wrongfulLockoutRemedyType": "actual-only",
       "wrongfulLockoutRemedyValue": null,
-      "wrongfulLockoutCitation": "Not yet researched for this state -- defaulting to actual damages only (no statutory multiplier assumed). Verify the specific state statute before relying on an enhanced figure."
+      "wrongfulLockoutCitation": "Nevada's enhanced wrongful-lockout remedy (NRS 118A.390 -- actual damages plus up to $2,500 in statutory damages) is confined to Nevada's residential Landlord and Tenant Act (NRS Ch. 118A, 'Dwellings') and does not extend to commercial tenancies. No case law confirms whether commercial self-help is available or prohibited in Nevada; no commercial-specific enhancement found."
     },
     "New Hampshire": {
       "classification": "Landlord-Friendly",
@@ -2253,9 +2268,9 @@ const CASE_VALUATION_DATA = {
       "mitigationDuty": "Yes",
       "holdoverStatutoryPenalty": false,
       "accelerationClauseNote": "See chapter",
-      "wrongfulLockoutRemedyType": "actual-only",
-      "wrongfulLockoutRemedyValue": null,
-      "wrongfulLockoutCitation": "Not yet researched for this state -- defaulting to actual damages only (no statutory multiplier assumed). Verify the specific state statute before relying on an enhanced figure."
+      "wrongfulLockoutRemedyType": "per-day",
+      "wrongfulLockoutRemedyValue": 1000,
+      "wrongfulLockoutCitation": "N.H. Rev. Stat. Ann. Sec. 540-A:4 -- actual damages plus a $1,000 statutory penalty per violation, with each day a violation continues treated as a separate violation (and a $3,000 statutory minimum if the landlord has already re-let the premises to a new tenant), plus attorney's fees. RSA 540/540-A's eviction and anti-self-help framework is confirmed to apply to both residential AND non-residential (commercial) properties."
     },
     "New Jersey": {
       "classification": "Landlord-Friendly",
@@ -2277,7 +2292,7 @@ const CASE_VALUATION_DATA = {
       "accelerationClauseNote": "Generally enforceable if expressly stated",
       "wrongfulLockoutRemedyType": "actual-only",
       "wrongfulLockoutRemedyValue": null,
-      "wrongfulLockoutCitation": "Not yet researched for this state -- defaulting to actual damages only (no statutory multiplier assumed). Verify the specific state statute before relying on an enhanced figure."
+      "wrongfulLockoutCitation": "Self-help is prohibited entirely for New Mexico commercial landlords (N.M. Stat. Sec. 47-8-36), with remedies confirmed to reach both residential and commercial tenants. Secondary sources describe a hybrid remedy (prorated daily rent, actual damages, and 2x monthly rent) that does not cleanly fit a single multiplier/per-day/floor mechanism -- not modeled as an automatic enhancement here to avoid overstating or understating the real formula; verify N.M. Stat. Sec. 47-8-36/37 directly before relying on a specific figure."
     },
     "New York": {
       "classification": "Neutral",
@@ -2299,7 +2314,7 @@ const CASE_VALUATION_DATA = {
       "accelerationClauseNote": "Generally enforceable if expressly stated",
       "wrongfulLockoutRemedyType": "actual-only",
       "wrongfulLockoutRemedyValue": null,
-      "wrongfulLockoutCitation": "Not yet researched for this state -- defaulting to actual damages only (no statutory multiplier assumed). Verify the specific state statute before relying on an enhanced figure."
+      "wrongfulLockoutCitation": "N.C. Gen. Stat. Sec. 42-25.9(a) entitles a wrongfully-locked-out tenant to actual damages (emergency lodging, relocation costs, property damage) -- not a fixed multiplier. Separately, egregious self-help conduct may support a Chapter 75 Unfair and Deceptive Trade Practices claim (treble damages plus attorney's fees, see Stanley v. Moore) as a distinct cause of action beyond the wrongful-lockout claim itself -- flag for counsel review in an egregious-conduct fact pattern, but not modeled as an automatic enhancement here."
     },
     "North Dakota": {
       "classification": "Neutral",
@@ -2310,7 +2325,7 @@ const CASE_VALUATION_DATA = {
       "accelerationClauseNote": "See chapter",
       "wrongfulLockoutRemedyType": "actual-only",
       "wrongfulLockoutRemedyValue": null,
-      "wrongfulLockoutCitation": "Not yet researched for this state -- defaulting to actual damages only (no statutory multiplier assumed). Verify the specific state statute before relying on an enhanced figure."
+      "wrongfulLockoutCitation": "North Dakota's enhanced wrongful-lockout remedy (N.D. Cent. Code Sec. 32-03-29 -- treble damages) is described in residential-tenancy sources, and North Dakota permits commercial-landlord self-help only for abandonment (or similarly defined circumstances); the statute's extension to a wrongful commercial lockout outside that exception is not confirmed."
     },
     "Ohio": {
       "classification": "Neutral",
@@ -2321,7 +2336,7 @@ const CASE_VALUATION_DATA = {
       "accelerationClauseNote": "Generally enforceable if expressly stated",
       "wrongfulLockoutRemedyType": "actual-only",
       "wrongfulLockoutRemedyValue": null,
-      "wrongfulLockoutCitation": "Not yet researched for this state -- defaulting to actual damages only (no statutory multiplier assumed). Verify the specific state statute before relying on an enhanced figure."
+      "wrongfulLockoutCitation": "Ohio's residential anti-self-help statute (Ohio Rev. Code Sec. 5321.15) does NOT apply to commercial tenants (Ohio Rev. Code Ch. 1923 also excludes commercial tenants from its residential eviction provisions). Commercial self-help remains available at common law if the lease authorizes reentry and no breach of the peace occurs, but a landlord who breaches the peace risks substantial common-law constructive-eviction damages -- no statutory multiplier applies to commercial tenancies."
     },
     "Oklahoma": {
       "classification": "Landlord-Friendly",
@@ -2332,7 +2347,7 @@ const CASE_VALUATION_DATA = {
       "accelerationClauseNote": "See chapter",
       "wrongfulLockoutRemedyType": "actual-only",
       "wrongfulLockoutRemedyValue": null,
-      "wrongfulLockoutCitation": "Not yet researched for this state -- defaulting to actual damages only (no statutory multiplier assumed). Verify the specific state statute before relying on an enhanced figure."
+      "wrongfulLockoutCitation": "Self-help is prohibited entirely for Oklahoma commercial landlords (judicial process required). The 2x-monthly-rent-or-actual-damages figure found (41 O.S. Sec. 123) traces to Oklahoma's residential landlord-tenant provisions (Title 41); its extension to commercial tenancies is not confirmed. No confirmed commercial-specific statutory enhancement found."
     },
     "Oregon": {
       "classification": "Landlord-Friendly",
@@ -2343,7 +2358,7 @@ const CASE_VALUATION_DATA = {
       "accelerationClauseNote": "Generally enforceable if expressly stated",
       "wrongfulLockoutRemedyType": "actual-only",
       "wrongfulLockoutRemedyValue": null,
-      "wrongfulLockoutCitation": "Not yet researched for this state -- defaulting to actual damages only (no statutory multiplier assumed). Verify the specific state statute before relying on an enhanced figure."
+      "wrongfulLockoutCitation": "Oregon's Forcible Entry and Detainer statutes (ORS 105.105-105.168) require judicial process and are not expressly limited to residential dwellings, but no confirmed statutory damages multiplier for a wrongful commercial lockout was found, and no case law addresses commercial-landlord self-help directly. Treat as actual damages only pending verification."
     },
     "Pennsylvania": {
       "classification": "Neutral",
@@ -2354,7 +2369,7 @@ const CASE_VALUATION_DATA = {
       "accelerationClauseNote": "See chapter",
       "wrongfulLockoutRemedyType": "actual-only",
       "wrongfulLockoutRemedyValue": null,
-      "wrongfulLockoutCitation": "No confirmed statewide statutory multiplier for commercial wrongful lockout -- actual damages. Note local variation exists (e.g., Philadelphia ordinance allows up to $2,000 punitive per lockout attempt)."
+      "wrongfulLockoutCitation": "Pennsylvania's Landlord and Tenant Act requires judicial process for eviction; self-help lockouts (changing locks, removing doors, shutting off utilities) are prohibited statewide, including for commercial tenancies. No confirmed statewide statutory damages multiplier -- tenant's remedy is actual damages plus attorney's fees and costs. Note local variation exists (e.g., Philadelphia's ordinance, Phila. Code Sec. 9-1603, allows punitive damages up to $2,000 per unlawful self-help eviction attempt within the city -- not modeled here since it is a municipal, not statewide, enhancement)."
     },
     "Rhode Island": {
       "classification": "Landlord-Friendly",
@@ -2365,7 +2380,7 @@ const CASE_VALUATION_DATA = {
       "accelerationClauseNote": "Generally enforceable if expressly stated",
       "wrongfulLockoutRemedyType": "actual-only",
       "wrongfulLockoutRemedyValue": null,
-      "wrongfulLockoutCitation": "Not yet researched for this state -- defaulting to actual damages only (no statutory multiplier assumed). Verify the specific state statute before relying on an enhanced figure."
+      "wrongfulLockoutCitation": "Rhode Island's anti-self-help prohibition (R.I. Gen. Laws Sec. Sec. 34-18-34, 34-18-44) is confirmed to apply to BOTH residential and commercial landlords, with recovery of 3 months' rent or actual damages. This is a REPLACEMENT floor on total recovery (not additive), so it is not modeled as an automatic enhancement here to avoid overstating damages; use 3 months' rent as a floor reference only if actual damages are confirmed to be lower."
     },
     "South Carolina": {
       "classification": "Neutral",
@@ -2376,7 +2391,7 @@ const CASE_VALUATION_DATA = {
       "accelerationClauseNote": "Generally enforceable if expressly stated",
       "wrongfulLockoutRemedyType": "actual-only",
       "wrongfulLockoutRemedyValue": null,
-      "wrongfulLockoutCitation": "Not yet researched for this state -- defaulting to actual damages only (no statutory multiplier assumed). Verify the specific state statute before relying on an enhanced figure."
+      "wrongfulLockoutCitation": "South Carolina's enhanced wrongful-lockout remedy (S.C. Code Sec. 27-40-660 -- 3 months' rent or 2x actual damages, whichever greater, plus attorney's fees) is part of the South Carolina Residential Landlord and Tenant Act and does not extend to commercial tenancies. No confirmed commercial-specific statutory enhancement found."
     },
     "South Dakota": {
       "classification": "Landlord-Friendly",
@@ -2387,7 +2402,7 @@ const CASE_VALUATION_DATA = {
       "accelerationClauseNote": "See chapter",
       "wrongfulLockoutRemedyType": "actual-only",
       "wrongfulLockoutRemedyValue": null,
-      "wrongfulLockoutCitation": "Not yet researched for this state -- defaulting to actual damages only (no statutory multiplier assumed). Verify the specific state statute before relying on an enhanced figure."
+      "wrongfulLockoutCitation": "South Dakota's enhanced wrongful-lockout remedy (S.D. Codified Laws Sec. 43-32-6 -- 2 months' free rent plus return of advance rent/deposit) is a REPLACEMENT-style remedy (not additive to actual damages) and its extension to commercial tenancies is not confirmed -- not modeled as an automatic enhancement here; treat as actual damages only pending verification."
     },
     "Tennessee": {
       "classification": "Landlord-Friendly",
@@ -2398,7 +2413,7 @@ const CASE_VALUATION_DATA = {
       "accelerationClauseNote": "Generally enforceable if expressly stated",
       "wrongfulLockoutRemedyType": "actual-only",
       "wrongfulLockoutRemedyValue": null,
-      "wrongfulLockoutCitation": "Not yet researched for this state -- defaulting to actual damages only (no statutory multiplier assumed). Verify the specific state statute before relying on an enhanced figure."
+      "wrongfulLockoutCitation": "Tennessee's wrongful-lockout remedy (Tenn. Code Ann. Sec. 66-28-504 -- actual damages, punitive damages where appropriate, and attorney's fees) is part of the Uniform Residential Landlord and Tenant Act (applicable only in adopting counties) and does not extend to commercial tenancies. Notably even the residential remedy carries no fixed statutory multiplier -- it is actual-damages-based, consistent with the conservative default used here."
     },
     "Texas": {
       "classification": "Landlord-Friendly",
@@ -2420,7 +2435,7 @@ const CASE_VALUATION_DATA = {
       "accelerationClauseNote": "See chapter",
       "wrongfulLockoutRemedyType": "actual-only",
       "wrongfulLockoutRemedyValue": null,
-      "wrongfulLockoutCitation": "Not yet researched for this state -- defaulting to actual damages only (no statutory multiplier assumed). Verify the specific state statute before relying on an enhanced figure."
+      "wrongfulLockoutCitation": "Utah commercial evictions follow the Unlawful Detainer framework (Utah Code Title 78B, Ch. 6, Pt. 8, including Sec. 78B-6-814's tenant remedies for illegal lockouts), but no confirmed statutory damages multiplier was found for a wrongful commercial lockout, and no case law confirms whether commercial self-help is otherwise available in Utah. Treat as actual damages only pending verification."
     },
     "Vermont": {
       "classification": "Neutral",
@@ -2431,7 +2446,7 @@ const CASE_VALUATION_DATA = {
       "accelerationClauseNote": "See chapter",
       "wrongfulLockoutRemedyType": "actual-only",
       "wrongfulLockoutRemedyValue": null,
-      "wrongfulLockoutCitation": "Not yet researched for this state -- defaulting to actual damages only (no statutory multiplier assumed). Verify the specific state statute before relying on an enhanced figure."
+      "wrongfulLockoutCitation": "Vermont's anti-self-help prohibition applies broadly (no landlord may deny a tenant access except through judicial process), but no confirmed statutory damages multiplier was found, and no case law addresses whether commercial-landlord self-help is available in Vermont. Tenant remedies are injunctive relief, damages, costs, and attorney's fees -- actual damages only, no confirmed enhancement."
     },
     "Virginia": {
       "classification": "Landlord-Friendly",
@@ -2442,7 +2457,7 @@ const CASE_VALUATION_DATA = {
       "accelerationClauseNote": "Generally enforceable if expressly stated",
       "wrongfulLockoutRemedyType": "actual-only",
       "wrongfulLockoutRemedyValue": null,
-      "wrongfulLockoutCitation": "Not yet researched for this state -- defaulting to actual damages only (no statutory multiplier assumed). Verify the specific state statute before relying on an enhanced figure."
+      "wrongfulLockoutCitation": "Virginia permits commercial-landlord self-help where the lease authorizes reentry and it is exercised properly. A wrongful or improper lockout (no basis for eviction, lease violation, or a tenant with a valid defense) exposes the landlord to common-law damages for property loss/damage and business interruption -- no statutory multiplier applies to commercial tenancies in Virginia."
     },
     "Washington": {
       "classification": "Neutral",
@@ -2453,7 +2468,7 @@ const CASE_VALUATION_DATA = {
       "accelerationClauseNote": "Generally enforceable if expressly stated",
       "wrongfulLockoutRemedyType": "actual-only",
       "wrongfulLockoutRemedyValue": null,
-      "wrongfulLockoutCitation": "Not yet researched for this state -- defaulting to actual damages only (no statutory multiplier assumed). Verify the specific state statute before relying on an enhanced figure."
+      "wrongfulLockoutCitation": "Washington's enhanced wrongful-lockout remedies ($100/day under RCW 59.18.290; greater of economic/noneconomic damages or 3x monthly rent under RCW 59.18.650(4)) are part of the Residential Landlord-Tenant Act (RCW 59.18) and do not extend to commercial tenancies. Self-help is understood to be unavailable to Washington commercial landlords as well, but no commercial-specific statutory enhancement was confirmed."
     },
     "West Virginia": {
       "classification": "Neutral",
@@ -2464,7 +2479,7 @@ const CASE_VALUATION_DATA = {
       "accelerationClauseNote": "See chapter",
       "wrongfulLockoutRemedyType": "actual-only",
       "wrongfulLockoutRemedyValue": null,
-      "wrongfulLockoutCitation": "Not yet researched for this state -- defaulting to actual damages only (no statutory multiplier assumed). Verify the specific state statute before relying on an enhanced figure."
+      "wrongfulLockoutCitation": "West Virginia permits commercial-landlord self-help only for abandonment (or similarly defined circumstances). No confirmed commercial-specific statutory damages multiplier was found for a wrongful lockout outside that exception; treat as actual damages plus attorney's fees."
     },
     "Wisconsin": {
       "classification": "Tenant-Friendly",
@@ -2475,7 +2490,7 @@ const CASE_VALUATION_DATA = {
       "accelerationClauseNote": "See chapter",
       "wrongfulLockoutRemedyType": "actual-only",
       "wrongfulLockoutRemedyValue": null,
-      "wrongfulLockoutCitation": "Not yet researched for this state -- defaulting to actual damages only (no statutory multiplier assumed). Verify the specific state statute before relying on an enhanced figure."
+      "wrongfulLockoutCitation": "Self-help re-entry is generally available to Wisconsin COMMERCIAL landlords at common law (peaceable, lease-authorized) -- Wisconsin's 2x-damages consumer-protection remedy (Wis. Stat. Sec. 100.20(5); Wis. Admin. Code ATCP 134) is part of the state's residential rental-practices framework and does not extend to commercial tenancies. No confirmed commercial-specific statutory enhancement found."
     },
     "Wyoming": {
       "classification": "Neutral",
@@ -2486,7 +2501,7 @@ const CASE_VALUATION_DATA = {
       "accelerationClauseNote": "Generally enforceable if expressly stated",
       "wrongfulLockoutRemedyType": "actual-only",
       "wrongfulLockoutRemedyValue": null,
-      "wrongfulLockoutCitation": "Not yet researched for this state -- defaulting to actual damages only (no statutory multiplier assumed). Verify the specific state statute before relying on an enhanced figure."
+      "wrongfulLockoutCitation": "Wyoming prohibits self-help eviction but, unlike many states, has no statutory damages multiplier (no double/treble damages) for a wrongful lockout at all -- confirmed actual damages plus costs and attorney's fees only. This is a genuine 'no enhancement exists' finding, not an unresearched gap."
     }
   }
 };

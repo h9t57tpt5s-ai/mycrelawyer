@@ -8,7 +8,7 @@
     "accelerationClauseNote": "Generally enforceable if expressly stated",
     "wrongfulLockoutRemedyType": "actual-only",
     "wrongfulLockoutRemedyValue": null,
-    "wrongfulLockoutCitation": "Not yet researched for this state -- defaulting to actual damages only (no statutory multiplier assumed). Verify the specific state statute before relying on an enhanced figure."
+    "wrongfulLockoutCitation": "Self-help re-entry is generally available to Alabama COMMERCIAL landlords at common law (peaceable, lease-authorized). The enhanced-damages statute for wrongful lockout (Ala. Code Sec. 35-9A-407, greater of actual damages or up to 3 months' rent) is part of the Alabama Uniform Residential Landlord and Tenant Act and does not extend to commercial tenancies. No confirmed commercial-specific statutory enhancement found; a commercial tenant's remedy for an improper lockout (e.g., breach of the peace, no lease authorization) is actual damages via common-law tort theories."
   },
   "Alaska": {
     "classification": "Neutral",
@@ -19,7 +19,7 @@
     "accelerationClauseNote": "Generally enforceable if expressly stated",
     "wrongfulLockoutRemedyType": "actual-only",
     "wrongfulLockoutRemedyValue": null,
-    "wrongfulLockoutCitation": "Not yet researched for this state -- defaulting to actual damages only (no statutory multiplier assumed). Verify the specific state statute before relying on an enhanced figure."
+    "wrongfulLockoutCitation": "Self-help re-entry is generally available to Alaska COMMERCIAL landlords at common law. The enhanced-damages provision (AS 34.03.210, up to 1.5x actual damages) is part of the Alaska Uniform Residential Landlord and Tenant Act (Title 34.03) and does not extend to commercial tenancies. No confirmed commercial-specific statutory enhancement found."
   },
   "Arizona": {
     "classification": "Landlord-Friendly",
@@ -30,7 +30,7 @@
     "accelerationClauseNote": "Generally enforceable if expressly stated",
     "wrongfulLockoutRemedyType": "actual-only",
     "wrongfulLockoutRemedyValue": null,
-    "wrongfulLockoutCitation": "Not yet researched for this state -- defaulting to actual damages only (no statutory multiplier assumed). Verify the specific state statute before relying on an enhanced figure."
+    "wrongfulLockoutCitation": "Arizona has a commercial-specific reentry statute (A.R.S. Sec. 33-361, outside the Residential Landlord and Tenant Act) permitting landlord reentry on default, but the landlord may not act while the tenant is physically present and must not breach the peace. No statutory multiplier/floor was found for a WRONGFUL commercial lockout -- the tenant's remedy is the actual damages sustained (which can include lost profits and business-interruption damages in a proper case)."
   },
   "Arkansas": {
     "classification": "Landlord-Friendly",
@@ -41,7 +41,7 @@
     "accelerationClauseNote": "See chapter",
     "wrongfulLockoutRemedyType": "actual-only",
     "wrongfulLockoutRemedyValue": null,
-    "wrongfulLockoutCitation": "Not yet researched for this state -- defaulting to actual damages only (no statutory multiplier assumed). Verify the specific state statute before relying on an enhanced figure."
+    "wrongfulLockoutCitation": "Self-help is prohibited entirely for Arkansas commercial landlords (judicial process required). No commercial-specific wrongful-lockout penalty statute was confirmed. Note: Ark. Code Ann. Sec. 18-60-309's 'three times the rental value' liquidated-damages figure for commercial/mixed-use property runs the OTHER direction -- it compensates a LANDLORD against a holdover tenant in an unlawful-detainer action, not a tenant's claim against a landlord for wrongful lockout -- so it should not be applied here."
   },
   "California": {
     "classification": "Neutral",
@@ -63,7 +63,7 @@
     "accelerationClauseNote": "See chapter",
     "wrongfulLockoutRemedyType": "actual-only",
     "wrongfulLockoutRemedyValue": null,
-    "wrongfulLockoutCitation": "Not yet researched for this state -- defaulting to actual damages only (no statutory multiplier assumed). Verify the specific state statute before relying on an enhanced figure."
+    "wrongfulLockoutCitation": "Colorado's enhanced wrongful-lockout remedy (C.R.S. Sec. 38-12-510, actual damages plus the greater of 3x monthly rent or $5,000, plus attorney's fees, added by SB 21-173) is expressly limited to a 'dwelling unit' and does not extend to commercial tenancies. No case law or statute addresses commercial landlord self-help directly, so the common-law remedy (and actual-damages-only exposure for wrongful use) likely still applies to commercial leases."
   },
   "Connecticut": {
     "classification": "Neutral",
@@ -74,7 +74,7 @@
     "accelerationClauseNote": "See chapter",
     "wrongfulLockoutRemedyType": "actual-only",
     "wrongfulLockoutRemedyValue": null,
-    "wrongfulLockoutCitation": "Not yet researched for this state -- defaulting to actual damages only (no statutory multiplier assumed). Verify the specific state statute before relying on an enhanced figure."
+    "wrongfulLockoutCitation": "Self-help is prohibited entirely for Connecticut commercial landlords -- all repossession must go through Summary Process (Conn. Gen. Stat. Ch. 832), even where the lease purports to authorize self-help. No confirmed statutory damages multiplier for a wrongful commercial lockout; likely actual damages via breach of the covenant of quiet enjoyment / trespass."
   },
   "Delaware": {
     "classification": "Neutral",
@@ -85,7 +85,7 @@
     "accelerationClauseNote": "Generally enforceable if expressly stated",
     "wrongfulLockoutRemedyType": "actual-only",
     "wrongfulLockoutRemedyValue": null,
-    "wrongfulLockoutCitation": "Not yet researched for this state -- defaulting to actual damages only (no statutory multiplier assumed). Verify the specific state statute before relying on an enhanced figure."
+    "wrongfulLockoutCitation": "Delaware's Landlord-Tenant Code (Title 25) prohibits self-help lockouts, but its detailed provisions and penalties are written for residential rental units. No confirmed commercial-specific wrongful-lockout penalty statute or multiplier was found; treat as actual damages only pending confirmation."
   },
   "District of Columbia": {
     "classification": "Tenant-Friendly",
@@ -96,7 +96,7 @@
     "accelerationClauseNote": "See chapter",
     "wrongfulLockoutRemedyType": "actual-only",
     "wrongfulLockoutRemedyValue": null,
-    "wrongfulLockoutCitation": "Not yet researched for this state -- defaulting to actual damages only (no statutory multiplier assumed). Verify the specific state statute before relying on an enhanced figure."
+    "wrongfulLockoutCitation": "Self-help is unavailable to BOTH commercial and residential landlords in the District of Columbia as a matter of settled case law -- Simpson v. Lee, 499 A.2d 889 (D.C. 1985); Mendes v. Johnson, 389 A.2d 781 (D.C. 1978) (Congress's creation of a summary judicial-possession process abrogated the common-law self-help right). Damages for an unlawful eviction are discretionary/case-by-case (no fixed statutory multiplier) -- actual damages plus property damage, at the court's discretion."
   },
   "Florida": {
     "classification": "Neutral",
@@ -129,7 +129,7 @@
     "accelerationClauseNote": "Generally enforceable if expressly stated",
     "wrongfulLockoutRemedyType": "actual-only",
     "wrongfulLockoutRemedyValue": null,
-    "wrongfulLockoutCitation": "Not yet researched for this state -- defaulting to actual damages only (no statutory multiplier assumed). Verify the specific state statute before relying on an enhanced figure."
+    "wrongfulLockoutCitation": "Hawaii commercial landlords are not precluded from self-help for nonpayment of rent specifically, but must otherwise use the summary possession judicial process (HRS Ch. 666). The enhanced remedy referenced in secondary sources (2 months' rent or free occupancy, HRS Sec. 521-63) is part of the Hawaii residential landlord-tenant code and does not extend to commercial tenancies. No confirmed commercial-specific statutory enhancement found."
   },
   "Idaho": {
     "classification": "Neutral",
@@ -140,7 +140,7 @@
     "accelerationClauseNote": "See chapter",
     "wrongfulLockoutRemedyType": "actual-only",
     "wrongfulLockoutRemedyValue": null,
-    "wrongfulLockoutCitation": "Not yet researched for this state -- defaulting to actual damages only (no statutory multiplier assumed). Verify the specific state statute before relying on an enhanced figure."
+    "wrongfulLockoutCitation": "Idaho permits commercial landlord self-help only in abandonment (or similarly defined) circumstances -- a wrongful lockout outside that exception exposes the landlord to liability. A treble-damages figure appears in secondary sources but traces to Idaho's residential tenant-protection statute; its extension to nonresidential/commercial tenancies is not confirmed. Treat conservatively as actual damages only until independently verified."
   },
   "Illinois": {
     "classification": "Tenant-Friendly",
@@ -151,7 +151,7 @@
     "accelerationClauseNote": "See chapter",
     "wrongfulLockoutRemedyType": "actual-only",
     "wrongfulLockoutRemedyValue": null,
-    "wrongfulLockoutCitation": "735 ILCS 5/9 (Forcible Entry and Detainer Act) is the exclusive repossession procedure; no confirmed statutory multiplier for commercial wrongful lockout -- actual/common-law damages."
+    "wrongfulLockoutCitation": "735 ILCS 5/9-101 et seq. (Forcible Entry and Detainer Act) requires judicial process for eviction; self-help is prohibited for Illinois commercial landlords. No confirmed statutory damages multiplier for a wrongful commercial lockout -- tenant's remedy is actual damages, which can include lost business revenue, emergency relocation costs, and property/inventory losses, plus attorney's fees and costs."
   },
   "Indiana": {
     "classification": "Tenant-Friendly",
@@ -162,7 +162,7 @@
     "accelerationClauseNote": "Generally enforceable if expressly stated",
     "wrongfulLockoutRemedyType": "actual-only",
     "wrongfulLockoutRemedyValue": null,
-    "wrongfulLockoutCitation": "Not yet researched for this state -- defaulting to actual damages only (no statutory multiplier assumed). Verify the specific state statute before relying on an enhanced figure."
+    "wrongfulLockoutCitation": "Indiana has no confirmed statute or case law specifically addressing commercial-landlord self-help. A statutory damages range ($500-$2,500, Ind. Code Sec. 32-31-11) was found in secondary sources but appears designed for residential tenancies (Indiana's tenant-safety provisions); its application to commercial tenancies is not confirmed. No confirmed commercial-specific enhancement."
   },
   "Iowa": {
     "classification": "Landlord-Friendly",
@@ -173,7 +173,7 @@
     "accelerationClauseNote": "Generally enforceable if expressly stated",
     "wrongfulLockoutRemedyType": "actual-only",
     "wrongfulLockoutRemedyValue": null,
-    "wrongfulLockoutCitation": "Not yet researched for this state -- defaulting to actual damages only (no statutory multiplier assumed). Verify the specific state statute before relying on an enhanced figure."
+    "wrongfulLockoutCitation": "Iowa's enhanced wrongful-lockout remedy (Iowa Code Sec. 562A.26 -- actual damages plus 2 months' rent or 2x actual damages, whichever greater, plus punitive damages up to 2x monthly rent) is part of the Iowa Uniform Residential Landlord and Tenant Act (Ch. 562A) and does not extend to commercial tenancies. No case law confirms whether commercial self-help is available or prohibited in Iowa; no commercial-specific enhancement found."
   },
   "Kansas": {
     "classification": "Neutral",
@@ -184,7 +184,7 @@
     "accelerationClauseNote": "Generally enforceable if expressly stated",
     "wrongfulLockoutRemedyType": "actual-only",
     "wrongfulLockoutRemedyValue": null,
-    "wrongfulLockoutCitation": "Not yet researched for this state -- defaulting to actual damages only (no statutory multiplier assumed). Verify the specific state statute before relying on an enhanced figure."
+    "wrongfulLockoutCitation": "Kansas's enhanced wrongful-lockout remedy (roughly 1.5 months' rent or actual damages, whichever greater) is part of the Kansas Residential Landlord and Tenant Act and does not extend to commercial tenancies. No case law confirms whether commercial self-help is available or prohibited in Kansas; no commercial-specific enhancement found."
   },
   "Kentucky": {
     "classification": "Landlord-Friendly",
@@ -195,7 +195,7 @@
     "accelerationClauseNote": "Generally enforceable if expressly stated",
     "wrongfulLockoutRemedyType": "actual-only",
     "wrongfulLockoutRemedyValue": null,
-    "wrongfulLockoutCitation": "Not yet researched for this state -- defaulting to actual damages only (no statutory multiplier assumed). Verify the specific state statute before relying on an enhanced figure."
+    "wrongfulLockoutCitation": "Kentucky's enhanced wrongful-lockout remedy (KRS Sec. 383.655 -- damages up to 3 months' rent plus attorney's fees) is part of the Uniform Residential Landlord and Tenant Act (KRS Ch. 383, applicable only in adopting counties/cities) and does not extend to commercial tenancies. No confirmed commercial-specific statutory enhancement found."
   },
   "Louisiana": {
     "classification": "Neutral",
@@ -206,7 +206,7 @@
     "accelerationClauseNote": "Generally enforceable if expressly stated",
     "wrongfulLockoutRemedyType": "actual-only",
     "wrongfulLockoutRemedyValue": null,
-    "wrongfulLockoutCitation": "Not yet researched for this state -- defaulting to actual damages only (no statutory multiplier assumed). Verify the specific state statute before relying on an enhanced figure."
+    "wrongfulLockoutCitation": "Self-help is prohibited entirely for Louisiana commercial landlords; a wrongful lockout is treated as trespass and can support a bad-faith breach-of-obligation claim (exposing the landlord to foreseeable and unforeseeable damages) and potentially an unfair-trade-practices claim under La. R.S. 51:1401 et seq. A specific dollar penalty figure appears in general secondary sources but could not be confirmed against a Louisiana-specific statute citation with confidence -- verify before relying on any fixed multiplier."
   },
   "Maine": {
     "classification": "Landlord-Friendly",
@@ -217,7 +217,7 @@
     "accelerationClauseNote": "See chapter",
     "wrongfulLockoutRemedyType": "actual-only",
     "wrongfulLockoutRemedyValue": null,
-    "wrongfulLockoutCitation": "Not yet researched for this state -- defaulting to actual damages only (no statutory multiplier assumed). Verify the specific state statute before relying on an enhanced figure."
+    "wrongfulLockoutCitation": "Maine's Forcible Entry and Detainer chapter (14 M.R.S. Ch. 709) requires judicial process for eviction, including from commercial premises (see the chapter's separate commercial-lease provision at 14 M.R.S. Sec. 6017). Sec. 6014 sets tenant recovery at the greater of actual damages or $250 (plus costs and attorney's fees) -- but this is a REPLACEMENT floor on the total recovery, not an additive one, so it is not modeled as an automatic enhancement here to avoid overstating damages; use $250 as a floor reference only if actual damages are confirmed to be lower."
   },
   "Maryland": {
     "classification": "Neutral",
@@ -228,7 +228,7 @@
     "accelerationClauseNote": "Generally enforceable if expressly stated",
     "wrongfulLockoutRemedyType": "actual-only",
     "wrongfulLockoutRemedyValue": null,
-    "wrongfulLockoutCitation": "Not yet researched for this state -- defaulting to actual damages only (no statutory multiplier assumed). Verify the specific state statute before relying on an enhanced figure."
+    "wrongfulLockoutCitation": "Maryland retains the common-law rule allowing commercial-landlord self-help where the lease authorizes reentry, the tenant is in default beyond any cure period, and reentry is peaceful. No statutory penalty scheme applies to commercial self-help; a wrongful/improper lockout exposes the landlord to common-law damages (conversion, tortious interference with business relationships, the tenant's actual losses) rather than a statutory multiplier."
   },
   "Massachusetts": {
     "classification": "Landlord-Friendly",
@@ -239,7 +239,7 @@
     "accelerationClauseNote": "Generally enforceable if expressly stated",
     "wrongfulLockoutRemedyType": "actual-only",
     "wrongfulLockoutRemedyValue": null,
-    "wrongfulLockoutCitation": "Not yet researched for this state -- defaulting to actual damages only (no statutory multiplier assumed). Verify the specific state statute before relying on an enhanced figure."
+    "wrongfulLockoutCitation": "Massachusetts's enhanced wrongful-lockout remedy (M.G.L. c. 186, Sec. 14 -- 3 months' rent or actual damages, whichever greater, plus attorney's fees) is expressly limited to premises 'occupied for dwelling purposes' and does not extend to commercial tenancies. Per counsel-of-record review, Massachusetts commercial self-help issues track ordinary landlord-tenant principles; no confirmed commercial-specific statutory enhancement found."
   },
   "Michigan": {
     "classification": "Neutral",
@@ -248,9 +248,9 @@
     "mitigationDuty": "Yes",
     "holdoverStatutoryPenalty": true,
     "accelerationClauseNote": "Generally enforceable if expressly stated",
-    "wrongfulLockoutRemedyType": "actual-only",
-    "wrongfulLockoutRemedyValue": null,
-    "wrongfulLockoutCitation": "Not yet researched for this state -- defaulting to actual damages only (no statutory multiplier assumed). Verify the specific state statute before relying on an enhanced figure."
+    "wrongfulLockoutRemedyType": "multiplier",
+    "wrongfulLockoutRemedyValue": 3,
+    "wrongfulLockoutCitation": "Mich. Comp. Laws Sec. 600.2918 -- treble damages (or a $200 statutory minimum, whichever greater) for forcible or unlawful ouster from real property, plus recovery of possession. This is a general real-property statute (Michigan's Revised Judicature Act), not limited to residential dwellings, and Michigan case law has applied it to commercial tenancies."
   },
   "Minnesota": {
     "classification": "Neutral",
@@ -261,7 +261,7 @@
     "accelerationClauseNote": "Generally enforceable if expressly stated",
     "wrongfulLockoutRemedyType": "actual-only",
     "wrongfulLockoutRemedyValue": null,
-    "wrongfulLockoutCitation": "Not yet researched for this state -- defaulting to actual damages only (no statutory multiplier assumed). Verify the specific state statute before relying on an enhanced figure."
+    "wrongfulLockoutCitation": "Minnesota's enhanced wrongful-lockout remedy (Minn. Stat. Sec. 504B.225/504B.231 -- 3x damages or $500, whichever greater, plus attorney's fees; criminal exposure under Sec. 609.606) is confirmed to apply to RESIDENTIAL tenancies only -- Minnesota Statutes Chapter 504B does not govern purely commercial leases. No confirmed commercial-specific statutory enhancement found."
   },
   "Mississippi": {
     "classification": "Landlord-Friendly",
@@ -272,7 +272,7 @@
     "accelerationClauseNote": "Generally enforceable if expressly stated",
     "wrongfulLockoutRemedyType": "actual-only",
     "wrongfulLockoutRemedyValue": null,
-    "wrongfulLockoutCitation": "Not yet researched for this state -- defaulting to actual damages only (no statutory multiplier assumed). Verify the specific state statute before relying on an enhanced figure."
+    "wrongfulLockoutCitation": "Mississippi generally prohibits commercial self-help, with a narrow exception for peaceable reentry when the written lease expressly grants a right of reentry on default. No statutory penalty scheme was found for a wrongful commercial lockout; the tenant's remedy is actual damages (including business-interruption losses) via wrongful-eviction/trespass theories."
   },
   "Missouri": {
     "classification": "Tenant-Friendly",
@@ -283,7 +283,7 @@
     "accelerationClauseNote": "Generally enforceable if expressly stated",
     "wrongfulLockoutRemedyType": "actual-only",
     "wrongfulLockoutRemedyValue": null,
-    "wrongfulLockoutCitation": "Not yet researched for this state -- defaulting to actual damages only (no statutory multiplier assumed). Verify the specific state statute before relying on an enhanced figure."
+    "wrongfulLockoutCitation": "Missouri permits commercial-landlord self-help only for abandonment (or similarly defined circumstances); a wrongful lockout outside that exception makes the landlord 'guilty of forcible entry and detainer' and subject to whatever penalty that violation carries. Secondary sources describe a 2-months'-rent-or-2x-actual-damages figure, but the precise statutory citation and its commercial applicability could not be confirmed with confidence -- treat as actual damages only pending verification."
   },
   "Montana": {
     "classification": "Landlord-Friendly",
@@ -294,7 +294,7 @@
     "accelerationClauseNote": "Generally enforceable if expressly stated",
     "wrongfulLockoutRemedyType": "actual-only",
     "wrongfulLockoutRemedyValue": null,
-    "wrongfulLockoutCitation": "Not yet researched for this state -- defaulting to actual damages only (no statutory multiplier assumed). Verify the specific state statute before relying on an enhanced figure."
+    "wrongfulLockoutCitation": "Montana permits commercial-landlord self-help only for abandonment (or similarly defined circumstances). The enhanced wrongful-lockout remedy found (Mont. Code Ann. Sec. 70-24-411 -- 3 months' rent or 3x actual damages, whichever greater) is part of the Montana Residential Landlord and Tenant Act and its extension to commercial tenancies outside the abandonment exception is not confirmed."
   },
   "Nebraska": {
     "classification": "Landlord-Friendly",
@@ -305,7 +305,7 @@
     "accelerationClauseNote": "Generally enforceable if expressly stated",
     "wrongfulLockoutRemedyType": "actual-only",
     "wrongfulLockoutRemedyValue": null,
-    "wrongfulLockoutCitation": "Not yet researched for this state -- defaulting to actual damages only (no statutory multiplier assumed). Verify the specific state statute before relying on an enhanced figure."
+    "wrongfulLockoutCitation": "Nebraska's enhanced wrongful-lockout remedy (3 months' periodic rent as liquidated damages, plus attorney's fees) is part of the Nebraska Uniform Residential Landlord and Tenant Act and does not extend to commercial tenancies. No confirmed commercial-specific statutory enhancement found."
   },
   "Nevada": {
     "classification": "Landlord-Friendly",
@@ -316,7 +316,7 @@
     "accelerationClauseNote": "Generally enforceable if expressly stated",
     "wrongfulLockoutRemedyType": "actual-only",
     "wrongfulLockoutRemedyValue": null,
-    "wrongfulLockoutCitation": "Not yet researched for this state -- defaulting to actual damages only (no statutory multiplier assumed). Verify the specific state statute before relying on an enhanced figure."
+    "wrongfulLockoutCitation": "Nevada's enhanced wrongful-lockout remedy (NRS 118A.390 -- actual damages plus up to $2,500 in statutory damages) is confined to Nevada's residential Landlord and Tenant Act (NRS Ch. 118A, 'Dwellings') and does not extend to commercial tenancies. No case law confirms whether commercial self-help is available or prohibited in Nevada; no commercial-specific enhancement found."
   },
   "New Hampshire": {
     "classification": "Landlord-Friendly",
@@ -325,9 +325,9 @@
     "mitigationDuty": "Yes",
     "holdoverStatutoryPenalty": false,
     "accelerationClauseNote": "See chapter",
-    "wrongfulLockoutRemedyType": "actual-only",
-    "wrongfulLockoutRemedyValue": null,
-    "wrongfulLockoutCitation": "Not yet researched for this state -- defaulting to actual damages only (no statutory multiplier assumed). Verify the specific state statute before relying on an enhanced figure."
+    "wrongfulLockoutRemedyType": "per-day",
+    "wrongfulLockoutRemedyValue": 1000,
+    "wrongfulLockoutCitation": "N.H. Rev. Stat. Ann. Sec. 540-A:4 -- actual damages plus a $1,000 statutory penalty per violation, with each day a violation continues treated as a separate violation (and a $3,000 statutory minimum if the landlord has already re-let the premises to a new tenant), plus attorney's fees. RSA 540/540-A's eviction and anti-self-help framework is confirmed to apply to both residential AND non-residential (commercial) properties."
   },
   "New Jersey": {
     "classification": "Landlord-Friendly",
@@ -349,7 +349,7 @@
     "accelerationClauseNote": "Generally enforceable if expressly stated",
     "wrongfulLockoutRemedyType": "actual-only",
     "wrongfulLockoutRemedyValue": null,
-    "wrongfulLockoutCitation": "Not yet researched for this state -- defaulting to actual damages only (no statutory multiplier assumed). Verify the specific state statute before relying on an enhanced figure."
+    "wrongfulLockoutCitation": "Self-help is prohibited entirely for New Mexico commercial landlords (N.M. Stat. Sec. 47-8-36), with remedies confirmed to reach both residential and commercial tenants. Secondary sources describe a hybrid remedy (prorated daily rent, actual damages, and 2x monthly rent) that does not cleanly fit a single multiplier/per-day/floor mechanism -- not modeled as an automatic enhancement here to avoid overstating or understating the real formula; verify N.M. Stat. Sec. 47-8-36/37 directly before relying on a specific figure."
   },
   "New York": {
     "classification": "Neutral",
@@ -371,7 +371,7 @@
     "accelerationClauseNote": "Generally enforceable if expressly stated",
     "wrongfulLockoutRemedyType": "actual-only",
     "wrongfulLockoutRemedyValue": null,
-    "wrongfulLockoutCitation": "Not yet researched for this state -- defaulting to actual damages only (no statutory multiplier assumed). Verify the specific state statute before relying on an enhanced figure."
+    "wrongfulLockoutCitation": "N.C. Gen. Stat. Sec. 42-25.9(a) entitles a wrongfully-locked-out tenant to actual damages (emergency lodging, relocation costs, property damage) -- not a fixed multiplier. Separately, egregious self-help conduct may support a Chapter 75 Unfair and Deceptive Trade Practices claim (treble damages plus attorney's fees, see Stanley v. Moore) as a distinct cause of action beyond the wrongful-lockout claim itself -- flag for counsel review in an egregious-conduct fact pattern, but not modeled as an automatic enhancement here."
   },
   "North Dakota": {
     "classification": "Neutral",
@@ -382,7 +382,7 @@
     "accelerationClauseNote": "See chapter",
     "wrongfulLockoutRemedyType": "actual-only",
     "wrongfulLockoutRemedyValue": null,
-    "wrongfulLockoutCitation": "Not yet researched for this state -- defaulting to actual damages only (no statutory multiplier assumed). Verify the specific state statute before relying on an enhanced figure."
+    "wrongfulLockoutCitation": "North Dakota's enhanced wrongful-lockout remedy (N.D. Cent. Code Sec. 32-03-29 -- treble damages) is described in residential-tenancy sources, and North Dakota permits commercial-landlord self-help only for abandonment (or similarly defined circumstances); the statute's extension to a wrongful commercial lockout outside that exception is not confirmed."
   },
   "Ohio": {
     "classification": "Neutral",
@@ -393,7 +393,7 @@
     "accelerationClauseNote": "Generally enforceable if expressly stated",
     "wrongfulLockoutRemedyType": "actual-only",
     "wrongfulLockoutRemedyValue": null,
-    "wrongfulLockoutCitation": "Not yet researched for this state -- defaulting to actual damages only (no statutory multiplier assumed). Verify the specific state statute before relying on an enhanced figure."
+    "wrongfulLockoutCitation": "Ohio's residential anti-self-help statute (Ohio Rev. Code Sec. 5321.15) does NOT apply to commercial tenants (Ohio Rev. Code Ch. 1923 also excludes commercial tenants from its residential eviction provisions). Commercial self-help remains available at common law if the lease authorizes reentry and no breach of the peace occurs, but a landlord who breaches the peace risks substantial common-law constructive-eviction damages -- no statutory multiplier applies to commercial tenancies."
   },
   "Oklahoma": {
     "classification": "Landlord-Friendly",
@@ -404,7 +404,7 @@
     "accelerationClauseNote": "See chapter",
     "wrongfulLockoutRemedyType": "actual-only",
     "wrongfulLockoutRemedyValue": null,
-    "wrongfulLockoutCitation": "Not yet researched for this state -- defaulting to actual damages only (no statutory multiplier assumed). Verify the specific state statute before relying on an enhanced figure."
+    "wrongfulLockoutCitation": "Self-help is prohibited entirely for Oklahoma commercial landlords (judicial process required). The 2x-monthly-rent-or-actual-damages figure found (41 O.S. Sec. 123) traces to Oklahoma's residential landlord-tenant provisions (Title 41); its extension to commercial tenancies is not confirmed. No confirmed commercial-specific statutory enhancement found."
   },
   "Oregon": {
     "classification": "Landlord-Friendly",
@@ -415,7 +415,7 @@
     "accelerationClauseNote": "Generally enforceable if expressly stated",
     "wrongfulLockoutRemedyType": "actual-only",
     "wrongfulLockoutRemedyValue": null,
-    "wrongfulLockoutCitation": "Not yet researched for this state -- defaulting to actual damages only (no statutory multiplier assumed). Verify the specific state statute before relying on an enhanced figure."
+    "wrongfulLockoutCitation": "Oregon's Forcible Entry and Detainer statutes (ORS 105.105-105.168) require judicial process and are not expressly limited to residential dwellings, but no confirmed statutory damages multiplier for a wrongful commercial lockout was found, and no case law addresses commercial-landlord self-help directly. Treat as actual damages only pending verification."
   },
   "Pennsylvania": {
     "classification": "Neutral",
@@ -426,7 +426,7 @@
     "accelerationClauseNote": "See chapter",
     "wrongfulLockoutRemedyType": "actual-only",
     "wrongfulLockoutRemedyValue": null,
-    "wrongfulLockoutCitation": "No confirmed statewide statutory multiplier for commercial wrongful lockout -- actual damages. Note local variation exists (e.g., Philadelphia ordinance allows up to $2,000 punitive per lockout attempt)."
+    "wrongfulLockoutCitation": "Pennsylvania's Landlord and Tenant Act requires judicial process for eviction; self-help lockouts (changing locks, removing doors, shutting off utilities) are prohibited statewide, including for commercial tenancies. No confirmed statewide statutory damages multiplier -- tenant's remedy is actual damages plus attorney's fees and costs. Note local variation exists (e.g., Philadelphia's ordinance, Phila. Code Sec. 9-1603, allows punitive damages up to $2,000 per unlawful self-help eviction attempt within the city -- not modeled here since it is a municipal, not statewide, enhancement)."
   },
   "Rhode Island": {
     "classification": "Landlord-Friendly",
@@ -437,7 +437,7 @@
     "accelerationClauseNote": "Generally enforceable if expressly stated",
     "wrongfulLockoutRemedyType": "actual-only",
     "wrongfulLockoutRemedyValue": null,
-    "wrongfulLockoutCitation": "Not yet researched for this state -- defaulting to actual damages only (no statutory multiplier assumed). Verify the specific state statute before relying on an enhanced figure."
+    "wrongfulLockoutCitation": "Rhode Island's anti-self-help prohibition (R.I. Gen. Laws Sec. Sec. 34-18-34, 34-18-44) is confirmed to apply to BOTH residential and commercial landlords, with recovery of 3 months' rent or actual damages. This is a REPLACEMENT floor on total recovery (not additive), so it is not modeled as an automatic enhancement here to avoid overstating damages; use 3 months' rent as a floor reference only if actual damages are confirmed to be lower."
   },
   "South Carolina": {
     "classification": "Neutral",
@@ -448,7 +448,7 @@
     "accelerationClauseNote": "Generally enforceable if expressly stated",
     "wrongfulLockoutRemedyType": "actual-only",
     "wrongfulLockoutRemedyValue": null,
-    "wrongfulLockoutCitation": "Not yet researched for this state -- defaulting to actual damages only (no statutory multiplier assumed). Verify the specific state statute before relying on an enhanced figure."
+    "wrongfulLockoutCitation": "South Carolina's enhanced wrongful-lockout remedy (S.C. Code Sec. 27-40-660 -- 3 months' rent or 2x actual damages, whichever greater, plus attorney's fees) is part of the South Carolina Residential Landlord and Tenant Act and does not extend to commercial tenancies. No confirmed commercial-specific statutory enhancement found."
   },
   "South Dakota": {
     "classification": "Landlord-Friendly",
@@ -459,7 +459,7 @@
     "accelerationClauseNote": "See chapter",
     "wrongfulLockoutRemedyType": "actual-only",
     "wrongfulLockoutRemedyValue": null,
-    "wrongfulLockoutCitation": "Not yet researched for this state -- defaulting to actual damages only (no statutory multiplier assumed). Verify the specific state statute before relying on an enhanced figure."
+    "wrongfulLockoutCitation": "South Dakota's enhanced wrongful-lockout remedy (S.D. Codified Laws Sec. 43-32-6 -- 2 months' free rent plus return of advance rent/deposit) is a REPLACEMENT-style remedy (not additive to actual damages) and its extension to commercial tenancies is not confirmed -- not modeled as an automatic enhancement here; treat as actual damages only pending verification."
   },
   "Tennessee": {
     "classification": "Landlord-Friendly",
@@ -470,7 +470,7 @@
     "accelerationClauseNote": "Generally enforceable if expressly stated",
     "wrongfulLockoutRemedyType": "actual-only",
     "wrongfulLockoutRemedyValue": null,
-    "wrongfulLockoutCitation": "Not yet researched for this state -- defaulting to actual damages only (no statutory multiplier assumed). Verify the specific state statute before relying on an enhanced figure."
+    "wrongfulLockoutCitation": "Tennessee's wrongful-lockout remedy (Tenn. Code Ann. Sec. 66-28-504 -- actual damages, punitive damages where appropriate, and attorney's fees) is part of the Uniform Residential Landlord and Tenant Act (applicable only in adopting counties) and does not extend to commercial tenancies. Notably even the residential remedy carries no fixed statutory multiplier -- it is actual-damages-based, consistent with the conservative default used here."
   },
   "Texas": {
     "classification": "Landlord-Friendly",
@@ -492,7 +492,7 @@
     "accelerationClauseNote": "See chapter",
     "wrongfulLockoutRemedyType": "actual-only",
     "wrongfulLockoutRemedyValue": null,
-    "wrongfulLockoutCitation": "Not yet researched for this state -- defaulting to actual damages only (no statutory multiplier assumed). Verify the specific state statute before relying on an enhanced figure."
+    "wrongfulLockoutCitation": "Utah commercial evictions follow the Unlawful Detainer framework (Utah Code Title 78B, Ch. 6, Pt. 8, including Sec. 78B-6-814's tenant remedies for illegal lockouts), but no confirmed statutory damages multiplier was found for a wrongful commercial lockout, and no case law confirms whether commercial self-help is otherwise available in Utah. Treat as actual damages only pending verification."
   },
   "Vermont": {
     "classification": "Neutral",
@@ -503,7 +503,7 @@
     "accelerationClauseNote": "See chapter",
     "wrongfulLockoutRemedyType": "actual-only",
     "wrongfulLockoutRemedyValue": null,
-    "wrongfulLockoutCitation": "Not yet researched for this state -- defaulting to actual damages only (no statutory multiplier assumed). Verify the specific state statute before relying on an enhanced figure."
+    "wrongfulLockoutCitation": "Vermont's anti-self-help prohibition applies broadly (no landlord may deny a tenant access except through judicial process), but no confirmed statutory damages multiplier was found, and no case law addresses whether commercial-landlord self-help is available in Vermont. Tenant remedies are injunctive relief, damages, costs, and attorney's fees -- actual damages only, no confirmed enhancement."
   },
   "Virginia": {
     "classification": "Landlord-Friendly",
@@ -514,7 +514,7 @@
     "accelerationClauseNote": "Generally enforceable if expressly stated",
     "wrongfulLockoutRemedyType": "actual-only",
     "wrongfulLockoutRemedyValue": null,
-    "wrongfulLockoutCitation": "Not yet researched for this state -- defaulting to actual damages only (no statutory multiplier assumed). Verify the specific state statute before relying on an enhanced figure."
+    "wrongfulLockoutCitation": "Virginia permits commercial-landlord self-help where the lease authorizes reentry and it is exercised properly. A wrongful or improper lockout (no basis for eviction, lease violation, or a tenant with a valid defense) exposes the landlord to common-law damages for property loss/damage and business interruption -- no statutory multiplier applies to commercial tenancies in Virginia."
   },
   "Washington": {
     "classification": "Neutral",
@@ -525,7 +525,7 @@
     "accelerationClauseNote": "Generally enforceable if expressly stated",
     "wrongfulLockoutRemedyType": "actual-only",
     "wrongfulLockoutRemedyValue": null,
-    "wrongfulLockoutCitation": "Not yet researched for this state -- defaulting to actual damages only (no statutory multiplier assumed). Verify the specific state statute before relying on an enhanced figure."
+    "wrongfulLockoutCitation": "Washington's enhanced wrongful-lockout remedies ($100/day under RCW 59.18.290; greater of economic/noneconomic damages or 3x monthly rent under RCW 59.18.650(4)) are part of the Residential Landlord-Tenant Act (RCW 59.18) and do not extend to commercial tenancies. Self-help is understood to be unavailable to Washington commercial landlords as well, but no commercial-specific statutory enhancement was confirmed."
   },
   "West Virginia": {
     "classification": "Neutral",
@@ -536,7 +536,7 @@
     "accelerationClauseNote": "See chapter",
     "wrongfulLockoutRemedyType": "actual-only",
     "wrongfulLockoutRemedyValue": null,
-    "wrongfulLockoutCitation": "Not yet researched for this state -- defaulting to actual damages only (no statutory multiplier assumed). Verify the specific state statute before relying on an enhanced figure."
+    "wrongfulLockoutCitation": "West Virginia permits commercial-landlord self-help only for abandonment (or similarly defined circumstances). No confirmed commercial-specific statutory damages multiplier was found for a wrongful lockout outside that exception; treat as actual damages plus attorney's fees."
   },
   "Wisconsin": {
     "classification": "Tenant-Friendly",
@@ -547,7 +547,7 @@
     "accelerationClauseNote": "See chapter",
     "wrongfulLockoutRemedyType": "actual-only",
     "wrongfulLockoutRemedyValue": null,
-    "wrongfulLockoutCitation": "Not yet researched for this state -- defaulting to actual damages only (no statutory multiplier assumed). Verify the specific state statute before relying on an enhanced figure."
+    "wrongfulLockoutCitation": "Self-help re-entry is generally available to Wisconsin COMMERCIAL landlords at common law (peaceable, lease-authorized) -- Wisconsin's 2x-damages consumer-protection remedy (Wis. Stat. Sec. 100.20(5); Wis. Admin. Code ATCP 134) is part of the state's residential rental-practices framework and does not extend to commercial tenancies. No confirmed commercial-specific statutory enhancement found."
   },
   "Wyoming": {
     "classification": "Neutral",
@@ -558,6 +558,6 @@
     "accelerationClauseNote": "Generally enforceable if expressly stated",
     "wrongfulLockoutRemedyType": "actual-only",
     "wrongfulLockoutRemedyValue": null,
-    "wrongfulLockoutCitation": "Not yet researched for this state -- defaulting to actual damages only (no statutory multiplier assumed). Verify the specific state statute before relying on an enhanced figure."
+    "wrongfulLockoutCitation": "Wyoming prohibits self-help eviction but, unlike many states, has no statutory damages multiplier (no double/treble damages) for a wrongful lockout at all -- confirmed actual damages plus costs and attorney's fees only. This is a genuine 'no enhancement exists' finding, not an unresearched gap."
   }
 }
