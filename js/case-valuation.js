@@ -568,10 +568,13 @@
       </div>`;
   }
 
-  function renderAiResult(json, slug) {
+  function renderAiResult(json, slug, emptyFiles) {
     const a = json.analysis || {};
     const facts = json.extractedFacts || {};
     const baseline = a.baseline || {};
+    const emptyFilesHtml = (emptyFiles && emptyFiles.length)
+      ? `<div class="gate-card is-error" style="margin-bottom:16px;"><div class="eyebrow" style="margin-bottom:6px;">Heads Up</div><p class="text-secondary" style="font-size:13px; line-height:1.6;">No text could be read from <strong>${emptyFiles.join(", ")}</strong> — this is almost always a scanned or image-only PDF with no selectable text layer, so it was skipped. The analysis below only reflects your other document(s). Try a text-based copy of ${emptyFiles.length === 1 ? "that file" : "those files"} if you have one, or paste its text directly.</p></div>`
+      : "";
 
     if (facts && Object.keys(facts).length) fillFormFromFacts(facts);
     if (facts && (facts.filingParty === "sideA" || facts.filingParty === "sideB") && !sideSelect.dataset.userChosen) {
@@ -590,6 +593,7 @@
       : `<p class="text-muted" style="font-size:12.5px;">The fixed-formula baseline model found no matching claims from the extracted checkbox-style facts — the AI's own analysis above reads the actual document, not just this baseline.</p>`;
 
     resultsHost.innerHTML = `
+      ${emptyFilesHtml}
       <div class="cv-summary card">
         <div class="eyebrow" style="margin-bottom:8px;">AI Analysis — Probability-Weighted Prediction${a.roleLabel ? ` — ${a.roleLabel} view` : ""}</div>
         ${a.damagesRange ? `<div class="cv-net">${V.fmtRange(a.damagesRange[0], a.damagesRange[1])}</div>` : ""}
@@ -683,23 +687,39 @@
       resultsHost.innerHTML = "";
       try {
         const sections = [];
+        const emptyFiles = [];
         for (let i = 0; i < chosenFiles.length; i++) {
           const f = chosenFiles[i];
           statusEl.textContent = `Extracting text (${i + 1} of ${chosenFiles.length}: ${f.name})…`;
           statusEl.className = "cv-ai-status";
           const text = await extractText(f);
           if (text) sections.push(`=== Document ${i + 1}: ${f.name} ===\n${text}`);
+          else emptyFiles.push(f.name);
         }
         if (pasteEl.value.trim()) {
           sections.push(chosenFiles.length ? `=== Additional context ===\n${pasteEl.value.trim()}` : pasteEl.value.trim());
         }
         let documentText = sections.join("\n\n");
-        if (!documentText) throw new Error("No text could be extracted — try pasting the text directly instead.");
+        if (!documentText) {
+          // Almost always means every uploaded file was a scanned/image-only
+          // PDF with no embedded text layer -- pdf.js can only read text
+          // that's actually encoded in the file, not pixels on a page. Say
+          // that plainly rather than a generic "no text" message, since the
+          // fix (re-scan with OCR, or a text-based copy) is different from
+          // a real extraction failure.
+          const which = emptyFiles.length ? ` (${emptyFiles.join(", ")})` : "";
+          throw new Error(
+            emptyFiles.length
+              ? `No text could be read from ${emptyFiles.length === 1 ? "this file" : "these files"}${which} — this usually means it's a scanned or image-only PDF with no selectable text, not a real error. Try a text-based/"born digital" copy if you have one, or paste the text directly below instead.`
+              : "No text could be extracted — try pasting the text directly instead."
+          );
+        }
+        const emptyNote = emptyFiles.length ? ` (no text found in ${emptyFiles.join(", ")}, likely scanned/image-only — continuing with the rest)` : "";
         if (documentText.length > MAX_DOC_CHARS) {
           documentText = documentText.slice(0, MAX_DOC_CHARS);
-          statusEl.textContent = `Combined document text truncated to the first ${MAX_DOC_CHARS.toLocaleString()} characters for analysis…`;
+          statusEl.textContent = `Combined document text truncated to the first ${MAX_DOC_CHARS.toLocaleString()} characters for analysis…${emptyNote}`;
         } else {
-          statusEl.textContent = "Analyzing…";
+          statusEl.textContent = `Analyzing…${emptyNote}`;
         }
 
         const { data: { session } } = await sb.auth.getSession();
@@ -725,7 +745,8 @@
 
         if (resp.ok) {
           statusEl.textContent = "";
-          renderAiResult(json, slug);
+          renderAiResult(json, slug, emptyFiles);
+          resultsHost.scrollIntoView({ behavior: "smooth", block: "start" });
           return;
         }
 
@@ -733,17 +754,19 @@
         if (resp.status === 402) {
           resultsHost.innerHTML = noCreditsCardHtml({ total: bal.total, used: bal.total });
         } else if (resp.status === 429) {
-          resultsHost.innerHTML = `<div class="gate-card"><p class="text-secondary" style="font-size:13.5px;">${json.error || "You've hit today's request limit — try again tomorrow."}</p></div>`;
+          resultsHost.innerHTML = `<div class="gate-card is-error"><div class="eyebrow" style="margin-bottom:8px;">Analysis Didn't Run</div><p class="text-secondary" style="font-size:13.5px;">${json.error || "You've hit today's request limit — try again tomorrow."}</p></div>`;
         } else if (resp.status === 501) {
-          resultsHost.innerHTML = `<div class="gate-card"><div class="eyebrow" style="margin-bottom:8px;">Coming Soon</div><p class="text-secondary" style="font-size:13.5px;">AI document analysis is being finalized on our end — the upload and access checks are fully live, but the analysis engine itself isn't switched on yet. Check back soon, and your credit was <strong>not</strong> used for this attempt.</p></div>`;
+          resultsHost.innerHTML = `<div class="gate-card is-error"><div class="eyebrow" style="margin-bottom:8px;">Analysis Not Available Yet</div><p class="text-secondary" style="font-size:13.5px;">AI document analysis is being finalized on our end — the upload and access checks are fully live, but the analysis engine itself isn't switched on yet. Check back soon, and your credit was <strong>not</strong> used for this attempt.</p></div>`;
         } else if (resp.status === 401) {
-          resultsHost.innerHTML = `<div class="gate-card"><p class="text-secondary" style="font-size:13.5px;">Your session expired — refresh the page and sign in again.</p></div>`;
+          resultsHost.innerHTML = `<div class="gate-card is-error"><div class="eyebrow" style="margin-bottom:8px;">Analysis Didn't Run</div><p class="text-secondary" style="font-size:13.5px;">Your session expired — refresh the page and sign in again.</p></div>`;
         } else {
-          resultsHost.innerHTML = `<div class="gate-card"><p class="text-secondary" style="font-size:13.5px;">${(json && json.error) || "Something went wrong — try again."}</p></div>`;
+          resultsHost.innerHTML = `<div class="gate-card is-error"><div class="eyebrow" style="margin-bottom:8px;">Analysis Didn't Run</div><p class="text-secondary" style="font-size:13.5px;">${(json && json.error) || "Something went wrong — try again."}</p></div>`;
         }
+        resultsHost.scrollIntoView({ behavior: "smooth", block: "start" });
       } catch (err) {
         statusEl.textContent = "";
-        resultsHost.innerHTML = `<div class="gate-card"><p class="text-secondary" style="font-size:13.5px;">${err.message || "Something went wrong — try again."}</p></div>`;
+        resultsHost.innerHTML = `<div class="gate-card is-error"><div class="eyebrow" style="margin-bottom:8px;">Analysis Didn't Run</div><p class="text-secondary" style="font-size:13.5px;">${err.message || "Something went wrong — try again."}</p></div>`;
+        resultsHost.scrollIntoView({ behavior: "smooth", block: "start" });
       } finally {
         analyzeBtn.disabled = false;
         renderUploadZone();
