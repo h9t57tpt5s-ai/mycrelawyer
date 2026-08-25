@@ -534,9 +534,32 @@
   // Renders the full AI-analysis result (net position, narrative, extracted
   // facts, claim-by-claim breakdown) into the shared results area, and
   // pre-fills the shared form fields so the user can review/tweak them.
+  // An AI-identified issue isn't the same shape as a baseline-engine claim
+  // (it has freeform analysis text and an optional, not-always-present
+  // probability/damages range, since not every issue reduces to a dollar
+  // figure) -- its own card, visually consistent with claimResultHtml.
+  function issueResultHtml(iss) {
+    return `
+      <div class="cv-claim-card">
+        <div class="cv-claim-top">
+          <h4>${iss.label}</h4>
+          ${iss.probabilityRange ? `<span class="cv-prob">${Math.round(iss.probabilityRange[0] * 100)}–${Math.round(iss.probabilityRange[1] * 100)}% likelihood</span>` : ""}
+        </div>
+        ${iss.damagesRange ? `<div class="cv-damages">Value range: ${V.fmtRange(iss.damagesRange[0], iss.damagesRange[1])}</div>` : ""}
+        ${iss.analysis ? `<p class="cv-note">${iss.analysis}</p>` : ""}
+        ${(iss.citations || []).length ? `<div class="cv-citations"><div class="cv-citations-label">Grounded in real cases:</div>${iss.citations.map((cit) => `
+          <div class="cv-citation">
+            ${cit.url ? `<a href="${cit.url}" target="_blank" rel="noopener">${cit.caseName}</a>` : cit.caseName}
+            ${cit.year ? ` (${cit.year})` : ""}
+            ${cit.dollarAmount ? ` — ${V.fmt(cit.dollarAmount)}` : ""}
+          </div>`).join("")}</div>` : ""}
+      </div>`;
+  }
+
   function renderAiResult(json, slug) {
     const a = json.analysis || {};
     const facts = json.extractedFacts || {};
+    const baseline = a.baseline || {};
 
     if (facts && Object.keys(facts).length) fillFormFromFacts(facts);
     if (facts && (facts.filingParty === "sideA" || facts.filingParty === "sideB") && !sideSelect.dataset.userChosen) {
@@ -547,9 +570,12 @@
     const factsHtml = factEntries.length
       ? `<div class="cv-ai-facts"><div class="cv-citations-label">Facts extracted from your documents (review above, then re-run Estimate anytime to test edits):</div>${factEntries.map(([k, v]) => `<span class="detail-tag">${k}: ${v}</span>`).join("")}</div>`
       : "";
-    const claimsHtml = (a.claims || []).length
-      ? `<div class="cv-claims" style="margin-top:16px;">${a.claims.map(claimResultHtml).join("")}</div>`
+    const issuesHtml = (a.issues || []).length
+      ? `<div class="cv-claims" style="margin-top:16px;">${a.issues.map(issueResultHtml).join("")}</div>`
       : "";
+    const baselineClaimsHtml = (baseline.claims || []).length
+      ? `<div class="cv-claims" style="margin-top:12px;">${baseline.claims.map(claimResultHtml).join("")}</div>`
+      : `<p class="text-muted" style="font-size:12.5px;">The fixed-formula baseline model found no matching claims from the extracted checkbox-style facts — the AI's own analysis above reads the actual document, not just this baseline.</p>`;
 
     resultsHost.innerHTML = `
       <div class="cv-summary card">
@@ -557,7 +583,7 @@
         ${a.damagesRange ? `<div class="cv-net">${V.fmtRange(a.damagesRange[0], a.damagesRange[1])}</div>` : ""}
         ${a.likelyOutcome ? `<p class="text-secondary" style="font-size:13.5px; margin-top:8px;">${a.likelyOutcome}</p>` : ""}
       </div>
-      ${a.narrative ? `<div class="card" style="padding:20px; margin-top:16px;"><div class="eyebrow" style="margin-bottom:8px;">Reasoning</div><p class="cv-note" style="font-size:13.5px; line-height:1.7;">${a.narrative}</p></div>` : ""}
+      ${a.narrative ? `<div class="card" style="padding:20px; margin-top:16px;"><div class="eyebrow" style="margin-bottom:8px;">Comprehensive Analysis</div><p class="cv-note" style="font-size:13.5px; line-height:1.7;">${a.narrative}</p></div>` : ""}
       <div id="cv-gated-content" style="margin-top:16px;">
         <div class="card" style="padding:20px;">
           <button type="button" class="btn btn-ghost btn-sm" id="cv-download-report">
@@ -566,14 +592,26 @@
           </button>
         </div>
         ${factsHtml}
-        ${claimsHtml}
+        ${issuesHtml}
+      </div>
+      <div class="card" style="padding:20px; margin-top:16px; border-style:dashed;">
+        <div class="eyebrow" style="margin-bottom:8px;">Baseline Model Estimate (reference only)</div>
+        <p class="text-muted" style="font-size:12px; line-height:1.6; margin-bottom:10px;">The same fixed-formula engine the manual form uses, run on the facts extracted from your documents — a mechanical cross-check, not the AI's conclusion. ${baseline.damagesRange ? `Baseline net position: <strong>${V.fmtRange(baseline.damagesRange[0], baseline.damagesRange[1])}</strong>.` : ""}</p>
+        ${baselineClaimsHtml}
       </div>
       <p class="text-muted" style="font-size:12px; margin-top:14px;">This is a probability-weighted prediction generated from the documents you provided, not a legal opinion, adjudication, or substitute for counsel.</p>`;
 
     const downloadBtn = document.getElementById("cv-download-report");
     if (downloadBtn && window.CV_REPORT) {
       downloadBtn.addEventListener("click", () => {
-        window.CV_REPORT.requestFullReport({ claims: a.claims || [] }, {
+        window.CV_REPORT.requestFullReport({ claims: (a.issues || []).map((iss) => ({
+          claimKey: iss.label, label: iss.label,
+          probability: iss.probabilityRange || [0, 0],
+          damagesRange: iss.damagesRange || null,
+          expectedValueRange: iss.damagesRange && iss.probabilityRange
+            ? [iss.damagesRange[0] * iss.probabilityRange[0], iss.damagesRange[1] * iss.probabilityRange[1]] : null,
+          note: iss.analysis, isBenchmark: false, citations: iss.citations || [],
+        })) }, {
           categoryLabel: a.categoryLabel,
           roles: SPEC[slug] ? SPEC[slug].roles : null,
           side: facts.filingParty || sideSelect.value,

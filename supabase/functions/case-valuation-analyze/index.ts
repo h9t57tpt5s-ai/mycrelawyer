@@ -22,37 +22,51 @@
 //    choice: it's safer to slightly under-serve a legitimate user on
 //    a bad day than to leave a retry loop able to mint free credits.
 //
-// ANALYSIS PIPELINE -- numbers are deterministic, only the writeup is AI:
+// ANALYSIS PIPELINE -- the AI does real, independent analysis; the
+// deterministic engine is a secondary reference point, not a cage:
 //   1. Extraction pass (Haiku 4.5, no thinking, structured JSON output)
 //      -- pulls the same category-specific facts out of the uploaded
 //      document that the manual-entry form on case-valuation.html asks
 //      for by hand (see CATEGORY_FIELDS below, kept in sync with
 //      QUESTIONS in js/case-valuation.js), plus which side the
-//      document was filed by/represents.
+//      document was filed by/represents. Cheap, used to (a) pre-fill
+//      the manual form fields for review and (b) feed the deterministic
+//      engine for a baseline figure.
 //   2. The SAME deterministic rules engine the manual-entry tool uses
-//      (ported below from js/case-valuation-engine.js -- do not let
-//      these drift apart) runs against the extracted facts. This is
-//      the load-bearing design choice: probabilities, damages ranges,
-//      and case citations are computed identically whether a user
-//      fills out the form by hand or uploads a document -- Claude
-//      never invents a number or a citation.
-//   3. Narrative pass (Opus 5, adaptive thinking, structured JSON
-//      output) -- given ONLY the already-computed claims/citations/net
-//      position, writes the reasoned, judgment-style explanation the
-//      user actually asked for: facts, reasoning tied to the cited
-//      precedent, a clear bottom-line call. Framed explicitly as a
-//      probability-weighted prediction, not styled as an adjudication
-//      (see the system prompt below) -- this is deliberate, not a
-//      hedge: it preserves the analytical depth the user wanted while
-//      staying clear of unauthorized-practice-of-law exposure.
+//      (ported below from js/case-valuation-engine.js) runs against the
+//      extracted facts, producing a "baseline" estimate -- identical
+//      math to the manual tool, useful as a mechanical cross-check, but
+//      it can ONLY see the fixed set of checkbox-style fields per
+//      category. It is passed to the next step as a reference data
+//      point, not the final answer.
+//   3. Comprehensive analysis pass (Opus 5, adaptive thinking, xhigh
+//      effort, structured JSON output) -- this is the real analysis,
+//      and the point of uploading a document instead of just filling
+//      out the form. Reads the FULL original document text directly
+//      (not the extracted checkbox facts) and reasons like a litigator
+//      reviewing the file: identifies every claim, defense, and issue
+//      actually present in the record -- not limited to what the fixed
+//      baseline model's field set can capture -- and reaches its OWN
+//      probability-weighted conclusion on exposure/recovery, which may
+//      agree with, refine, or depart from the baseline. Grounding
+//      requirement: it may cite ONLY real cases from that category's
+//      full citation pool (collectCategoryCitationPool), copied exactly
+//      by name -- never invents a citation. That's enforced twice: once
+//      in the prompt, and again in code afterward (resolveCitations),
+//      which drops any cited name that doesn't exactly match a real
+//      entry rather than trusting the model's compliance. Framed
+//      explicitly as a probability-weighted prediction, not styled as
+//      an adjudication (see the system prompt below) -- preserves the
+//      analytical depth while staying clear of unauthorized-practice-
+//      of-law exposure.
 //
 // Model choice / cost: Haiku 4.5 extraction (~$0.02/analysis) + Opus 5
-// narrative (~$0.03-0.06/analysis) comes to roughly $0.05-0.08 in
-// Claude API cost against a $4.90/credit price point ($49 / 10
-// credits) -- healthy margin even at Opus-tier quality for the
-// reasoning pass, which is the part users are actually paying to see.
-// Drop the narrative model to claude-sonnet-5 below if you want a
-// wider margin instead; extraction should stay on Haiku regardless.
+// comprehensive analysis at xhigh effort (larger prompt -- full document
+// text plus the category's full citation pool -- and more output) runs
+// roughly $0.15-0.40/analysis in Claude API cost, still healthy margin
+// against a $4.90/credit price point ($49 / 10 credits). Drop the
+// analysis model to claude-sonnet-5 below for a wider margin if needed;
+// extraction should stay on Haiku regardless.
 //
 // Deploy: Supabase Dashboard -> Edge Functions -> case-valuation-analyze
 //   -> Code tab -> select all, delete, paste this file's contents, deploy.
@@ -477,6 +491,26 @@ function evaluate(categorySlug: string, facts: Facts, data: CaseData) {
   return { claims, sideATotal, sideBTotal, roles: catSpec.roles, categoryLabel: catSpec.label };
 }
 
+// Every real citation known for a category, across ALL its claim types --
+// not just the ones the fixed-formula engine happened to trigger. This is
+// the comprehensive-analysis pass's reference library: it may cite ANY of
+// these (grounding requirement), but nothing outside this list -- validated
+// server-side after the call, not just prompted.
+function collectCategoryCitationPool(category: string, data: CaseData) {
+  const catSpec = data.spec.categories[category];
+  const pool: { caseName: string; url: string; year?: number; dollarAmount?: number }[] = [];
+  const seen = new Set<string>();
+  if (!catSpec) return pool;
+  for (const claimKey of Object.keys(catSpec.claimTypes)) {
+    for (const cit of data.citations[claimKey] || []) {
+      if (seen.has(cit.caseName)) continue;
+      seen.add(cit.caseName);
+      pool.push(cit);
+    }
+  }
+  return pool;
+}
+
 function fmtMoney(n: number): string {
   return n < 0 ? "-$" + Math.round(-n).toLocaleString("en-US") : "$" + Math.round(n).toLocaleString("en-US");
 }
@@ -748,74 +782,139 @@ Deno.serve(async (req) => {
     const netPosition: [number, number] = [mySide[0] - otherSide[1], mySide[1] - otherSide[0]];
     const roleLabel = evalResult.roles ? (filingParty === "sideA" ? evalResult.roles.sideA : evalResult.roles.sideB) : filingParty;
 
-    const citedCasesMap = new Map<string, { caseName: string; url: string; year?: number; dollarAmount?: number }>();
-    for (const c of evalResult.claims) for (const cit of c.citations) citedCasesMap.set(cit.caseName, cit);
-    const citedCases = [...citedCasesMap.values()];
+    const baselineCitedCasesMap = new Map<string, { caseName: string; url: string; year?: number; dollarAmount?: number }>();
+    for (const c of evalResult.claims) for (const cit of c.citations) baselineCitedCasesMap.set(cit.caseName, cit);
 
-    if (!evalResult.claims.length) {
-      return jsonResponse({
-        extractedFacts,
-        analysis: {
-          narrative: "No claims applied based on the facts extracted from this document. This can happen with a short or incomplete filing, or one that doesn't allege the kinds of facts this category's model looks for.",
-          likelyOutcome: "Not enough extracted facts to generate an estimate.",
-          damagesRange: [0, 0],
-          roleLabel, categoryLabel: evalResult.categoryLabel,
-          claims: [], citedCases: [],
+    // ---- 4c. Comprehensive analysis pass (Opus 5, adaptive thinking, xhigh
+    // effort, structured JSON) -- this is the real analysis. It reads the
+    // FULL document text directly (not just the extracted checkbox-style
+    // facts) and reasons like a litigator reviewing the file: identifies
+    // whatever claims, defenses, and issues are actually IN THE RECORD --
+    // not limited to the fixed set of fields the deterministic engine
+    // checks -- and reaches its OWN probability-weighted conclusion on
+    // exposure/recovery. The deterministic engine's output is passed in
+    // as ONE reference data point (a mechanical baseline), not a cage --
+    // the model's own reasoning drives the final assessment, and it is
+    // free to diverge from the baseline and say so.
+    //
+    // Grounding requirement (hallucination guardrail): the model may cite
+    // ONLY cases from citationPool below, by exact name -- never invent a
+    // case. This is enforced twice: once in the prompt, and again in code
+    // afterward (validateCitations), which drops anything that doesn't
+    // exactly match a real entry rather than trusting the model's compliance.
+    const citationPool = collectCategoryCitationPool(category, data);
+    const citationPoolText = citationPool
+      .map((c) => `- ${c.caseName}${c.year ? ` (${c.year})` : ""}${c.dollarAmount ? ` — ${fmtMoney(c.dollarAmount)}` : ""}`)
+      .join("\n");
+
+    const baselineSummary = evalResult.claims.length
+      ? evalResult.claims.map((c) => ({
+          label: c.label,
+          probabilityPct: `${Math.round(c.probability[0] * 100)}-${Math.round(c.probability[1] * 100)}%`,
+          damagesRange: c.damagesRange ? `${fmtMoney(c.damagesRange[0])} - ${fmtMoney(c.damagesRange[1])}` : null,
+        }))
+      : "none -- the fixed-formula model found no matching claims from the extracted checkbox-style facts, but the actual document may still contain real claims or issues outside that fixed field set. Analyze the document itself, not just this baseline.";
+
+    const analysisSchema = {
+      type: "object",
+      properties: {
+        narrative: { type: "string", description: "A comprehensive, detailed reasoned analysis of the actual document(s): the key facts, every claim/defense/issue you identify (not limited to the baseline model's fixed categories), how the cited precedent applies, evidentiary or procedural weaknesses on either side, and how it all nets out for the filing party. Write like a sharp litigator's case assessment memo -- direct, specific, thorough." },
+        likelyOutcome: { type: "string", description: "A short (2-3 sentence) bottom-line summary of the likely outcome and why." },
+        damagesRange: {
+          type: "array", items: { type: "number" }, minItems: 2, maxItems: 2,
+          description: "YOUR OWN independent probability-weighted net exposure/recovery range for the filing party, in dollars [low, high] -- informed by the baseline but not bound by it. Never a single point estimate.",
         },
-      }, 200);
-    }
+        issues: {
+          type: "array",
+          description: "Every distinct claim, defense, or issue you identified in the actual document(s) -- may include ones the fixed baseline model doesn't capture at all (e.g. a specific factual dispute, an evidentiary weakness, a procedural defect, a defense actually raised in an answer). Order by significance.",
+          items: {
+            type: "object",
+            properties: {
+              label: { type: "string", description: "Short name for this claim/issue." },
+              analysis: { type: "string", description: "Your reasoning on this specific issue: the facts supporting it, how cited precedent applies (if any), and its strength." },
+              probabilityRangePct: { type: ["array", "null"], items: { type: "number" }, minItems: 2, maxItems: 2, description: "[low, high] percent likelihood this issue is resolved in the filing party's favor, if quantifiable." },
+              damagesRange: { type: ["array", "null"], items: { type: "number" }, minItems: 2, maxItems: 2, description: "[low, high] dollar range for this specific issue, if it has an independent dollar value." },
+              citedCaseNames: { type: "array", items: { type: "string" }, description: "Exact case name(s) from the reference list below that support this issue -- ONLY names copied exactly from that list, or an empty array if none apply." },
+            },
+            required: ["label", "analysis", "citedCaseNames"],
+          },
+        },
+      },
+      required: ["narrative", "likelyOutcome", "damagesRange", "issues"],
+    };
 
-    // ---- 4c. Narrative pass (Opus 5, adaptive thinking, structured JSON) --
-    const claimsSummary = evalResult.claims.map((c) => ({
-      label: c.label,
-      probabilityPct: `${Math.round(c.probability[0] * 100)}-${Math.round(c.probability[1] * 100)}%`,
-      damagesRange: c.damagesRange ? `${fmtMoney(c.damagesRange[0])} - ${fmtMoney(c.damagesRange[1])}` : null,
-      note: c.note,
-      citations: c.citations.map((ci) => `${ci.caseName}${ci.year ? ` (${ci.year})` : ""}`),
-    }));
-
-    const narrative = await anthropic.messages.create({
+    const analysis = await anthropic.messages.create({
       model: NARRATIVE_MODEL,
-      max_tokens: 4096,
+      max_tokens: 8192,
       thinking: { type: "adaptive" },
-      output_config: { effort: "high", format: { type: "json_schema", schema: {
-        type: "object",
-        properties: {
-          narrative: { type: "string", description: "A detailed, reasoned writeup: the key facts, the reasoning behind each applicable claim tied to the cited precedent, and how they combine into the net position." },
-          likelyOutcome: { type: "string", description: "A short (1-2 sentence) bottom-line summary of the likely outcome and why." },
-        },
-        required: ["narrative", "likelyOutcome"],
-      } } },
+      output_config: { effort: "xhigh", format: { type: "json_schema", schema: analysisSchema } },
       system:
-        "You are writing a probability-weighted PREDICTION for a commercial real estate litigation matter — not a legal opinion, not an adjudication, and not legal advice. " +
-        "Every probability, damages figure, and case citation below has ALREADY been computed by a deterministic rules engine — use ONLY these numbers and citations; do not invent, alter, or add any new figure or case. " +
-        "Your job is the reasoning and the writing: explain how the facts map to each applicable claim, why the cited precedent supports the given range, and how it nets out for the filing party. " +
-        "Write like a detailed, reasoned analysis a sharp litigator would give a client deciding whether to settle or fight — direct, specific, grounded in the numbers given, never hedged into vagueness.",
+        "You are an experienced commercial real estate litigator producing a probability-weighted case assessment -- not a legal opinion, not an adjudication, and not legal advice. " +
+        `Read the actual document(s) provided and do a comprehensive analysis for the "${catSpec.label}" category: identify every claim, defense, and issue actually present in the record -- not just what a fixed checklist would catch. Weigh evidentiary strength, procedural posture, and any defenses or counterclaims raised. ` +
+        "GROUNDING REQUIREMENT: you may cite ONLY cases from the reference list below, copied EXACTLY by name -- never invent, alter, or guess at a case name, citation, or outcome. If no listed case supports a point, make the point without a citation rather than fabricating one. " +
+        "A fixed-formula baseline model's mechanical output is provided as ONE reference data point -- it is not the answer key. Use your own judgment from the actual document; you may agree with, refine, or depart from the baseline, and should say which and why. " +
+        "Every dollar range must be a range, never a single number. Write like a sharp litigator's internal case assessment memo for a client deciding whether to settle or fight -- direct and specific, not hedged into vagueness.",
       messages: [{
         role: "user",
         content:
-          `Category: ${evalResult.categoryLabel}\n` +
+          `Category: ${catSpec.label}\n` +
           `Filing party's role: ${roleLabel}\n` +
-          `Net position for the filing party: ${fmtMoney(netPosition[0])} to ${fmtMoney(netPosition[1])}\n` +
           `Expect trial: ${requestBody.expectToTrial ? "yes" : "no (settlement/motion practice expected)"}\n` +
           (requestBody.settlementOnTable ? `Settlement currently on the table: ${fmtMoney(requestBody.settlementOnTable)}\n` : "") +
-          `\nComputed claims:\n${JSON.stringify(claimsSummary, null, 2)}`,
+          `\nFixed-formula baseline model output (reference only, not authoritative):\n${JSON.stringify(baselineSummary, null, 2)}\n` +
+          `\nReal cited precedent you may draw on (cite ONLY from this list, by exact name):\n${citationPoolText}\n` +
+          `\n=== The document(s) to analyze ===\n${documentText}`,
       }],
     });
-    const narrativeText = narrative.content.find((b): b is Anthropic.TextBlock => b.type === "text")?.text;
-    if (!narrativeText) throw new Error("Narrative pass returned no output");
-    const narrativeParsed = JSON.parse(narrativeText);
+    const analysisText = analysis.content.find((b): b is Anthropic.TextBlock => b.type === "text")?.text;
+    if (!analysisText) throw new Error("Analysis pass returned no output");
+    const analysisParsed = JSON.parse(analysisText);
+
+    // Validate every cited case name against the real pool -- drop anything
+    // that isn't an exact match rather than trusting the prompt instruction.
+    const poolByName = new Map(citationPool.map((c) => [c.caseName, c]));
+    const resolveCitations = (names: unknown): { caseName: string; url: string; year?: number; dollarAmount?: number }[] => {
+      if (!Array.isArray(names)) return [];
+      const out: { caseName: string; url: string; year?: number; dollarAmount?: number }[] = [];
+      for (const n of names) {
+        const match = typeof n === "string" ? poolByName.get(n) : undefined;
+        if (match) out.push(match);
+      }
+      return out;
+    };
+
+    const issues = Array.isArray(analysisParsed.issues) ? analysisParsed.issues.map((iss: Record<string, unknown>) => ({
+      label: typeof iss.label === "string" ? iss.label : "Issue",
+      analysis: typeof iss.analysis === "string" ? iss.analysis : "",
+      probabilityRange: Array.isArray(iss.probabilityRangePct) && iss.probabilityRangePct.length === 2
+        ? [Number(iss.probabilityRangePct[0]) / 100, Number(iss.probabilityRangePct[1]) / 100] : null,
+      damagesRange: Array.isArray(iss.damagesRange) && iss.damagesRange.length === 2
+        ? [Number(iss.damagesRange[0]), Number(iss.damagesRange[1])] : null,
+      citations: resolveCitations(iss.citedCaseNames),
+    })) : [];
+
+    const allCitedMap = new Map<string, { caseName: string; url: string; year?: number; dollarAmount?: number }>();
+    for (const iss of issues) for (const cit of iss.citations) allCitedMap.set(cit.caseName, cit);
+    for (const cit of baselineCitedCasesMap.values()) allCitedMap.set(cit.caseName, cit);
+
+    const aiDamagesRange: [number, number] = Array.isArray(analysisParsed.damagesRange) && analysisParsed.damagesRange.length === 2
+      ? [Number(analysisParsed.damagesRange[0]), Number(analysisParsed.damagesRange[1])]
+      : netPosition;
 
     return jsonResponse({
       extractedFacts,
       analysis: {
-        narrative: narrativeParsed.narrative,
-        likelyOutcome: narrativeParsed.likelyOutcome,
-        damagesRange: netPosition,
+        narrative: analysisParsed.narrative,
+        likelyOutcome: analysisParsed.likelyOutcome,
+        damagesRange: aiDamagesRange,
         roleLabel,
         categoryLabel: evalResult.categoryLabel,
-        claims: evalResult.claims,
-        citedCases,
+        issues,
+        citedCases: [...allCitedMap.values()],
+        baseline: {
+          damagesRange: netPosition,
+          claims: evalResult.claims,
+        },
       },
     }, 200);
   } catch (err) {
