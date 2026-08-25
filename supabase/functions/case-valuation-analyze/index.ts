@@ -1081,7 +1081,22 @@ Deno.serve(async (req) => {
       // needs for a single-document analysis.
       max_tokens: 32000,
       thinking: { type: "adaptive" },
-      output_config: { effort: "xhigh", format: { type: "json_schema", schema: analysisSchema } },
+      // Was "xhigh" -- Supabase Edge Functions have a hard wall-clock
+      // execution ceiling (150s on the free tier, 400s on Pro) *separate*
+      // from the idle timeout the heartbeat fix addresses; heartbeats
+      // keep the connection from looking idle, but can't extend that
+      // absolute ceiling. xhigh-effort adaptive thinking on a full
+      // document was very likely taking long enough (confirmed: failed
+      // after "a minute or two" with the connection cut mid-stream, no
+      // debug payload -- consistent with the function being killed
+      // outright rather than returning a real error) to approach or
+      // exceed it. "high" is real headroom below that risk while still
+      // being, per Anthropic's own guidance, the effort level where
+      // quality and latency are best balanced for this kind of task --
+      // not a quality downgrade so much as the previous setting being
+      // more thinking budget than this feature could actually afford to
+      // spend against a hard platform deadline.
+      output_config: { effort: "high", format: { type: "json_schema", schema: analysisSchema } },
       system:
         "You are an experienced commercial real estate litigator producing a probability-weighted case assessment -- not a legal opinion, not an adjudication, and not legal advice. " +
         `Read the actual document(s) provided and do a comprehensive analysis for the "${catSpec.label}" category: identify every claim, defense, and issue actually present in the record -- not just what a fixed checklist would catch. Weigh evidentiary strength, procedural posture, and any defenses or counterclaims raised. ` +

@@ -647,6 +647,26 @@
     const pasteEl = document.getElementById("cv-ai-pastetext");
     const statusEl = document.getElementById("cv-ai-status");
     const analyzeBtn = document.getElementById("cv-ai-analyze-btn");
+    const SPINNER = `<span class="cv-spinner" aria-hidden="true"></span>`;
+
+    // Centralizes every status-line update so the spinner shows up
+    // consistently for every "still working" state instead of only some
+    // of them -- text alone that changes every 25s is too easy to miss;
+    // a visible, continuously-moving spinner is not. Some of these
+    // messages embed a user-supplied filename, so the text portion is
+    // set via textContent (a fresh element per call), never interpolated
+    // into innerHTML directly -- a filename containing "<" or "&" must
+    // not be treated as markup.
+    function setStatus(text, opts) {
+      opts = opts || {};
+      statusEl.className = "cv-ai-status" + (opts.error ? " is-error" : "");
+      statusEl.innerHTML = opts.spinner ? SPINNER : "";
+      if (text) {
+        const span = document.createElement("span");
+        span.textContent = text;
+        statusEl.appendChild(span);
+      }
+    }
 
     let chosenFiles = [];
 
@@ -680,18 +700,21 @@
 
     analyzeBtn.addEventListener("click", async () => {
       const slug = catSelect.value;
-      if (!slug) { statusEl.textContent = "Select a litigation category first."; statusEl.className = "cv-ai-status is-error"; return; }
-      if (!chosenFiles.length && !pasteEl.value.trim()) { statusEl.textContent = "Upload at least one file or paste the document text first."; statusEl.className = "cv-ai-status is-error"; return; }
+      if (!slug) { setStatus("Select a litigation category first.", { error: true }); return; }
+      if (!chosenFiles.length && !pasteEl.value.trim()) { setStatus("Upload at least one file or paste the document text first.", { error: true }); return; }
 
+      // renderUploadZone() in the finally block below fully re-renders
+      // this button from uploadZoneHtml() once the request settles, so
+      // swapping its content here needs no manual restore.
       analyzeBtn.disabled = true;
+      analyzeBtn.innerHTML = `${SPINNER}<span>Analyzing…</span>`;
       resultsHost.innerHTML = "";
       try {
         const sections = [];
         const emptyFiles = [];
         for (let i = 0; i < chosenFiles.length; i++) {
           const f = chosenFiles[i];
-          statusEl.textContent = `Extracting text (${i + 1} of ${chosenFiles.length}: ${f.name})…`;
-          statusEl.className = "cv-ai-status";
+          setStatus(`Extracting text (${i + 1} of ${chosenFiles.length}: ${f.name})…`, { spinner: true });
           const text = await extractText(f);
           if (text) sections.push(`=== Document ${i + 1}: ${f.name} ===\n${text}`);
           else emptyFiles.push(f.name);
@@ -739,10 +762,10 @@
           notePrefix + "Still working — a thorough analysis of a long document can take a couple of minutes…",
         ];
         let waitStep = 0;
-        statusEl.textContent = waitMessages[0];
+        setStatus(waitMessages[0], { spinner: true });
         const waitTimer = setInterval(() => {
           waitStep = Math.min(waitStep + 1, waitMessages.length - 1);
-          statusEl.textContent = waitMessages[waitStep];
+          setStatus(waitMessages[waitStep], { spinner: true });
         }, 25000);
         let resp;
         try {
@@ -776,13 +799,13 @@
         // success here has to be "resp.ok AND we actually got an
         // analysis back," not resp.ok alone.
         if (resp.ok && json && json.analysis) {
-          statusEl.textContent = "";
+          setStatus("");
           renderAiResult(json, slug, emptyFiles);
           resultsHost.scrollIntoView({ behavior: "smooth", block: "start" });
           return;
         }
 
-        statusEl.textContent = "";
+        setStatus("");
         if (resp.status === 402) {
           resultsHost.innerHTML = noCreditsCardHtml({ total: bal.total, used: bal.total });
         } else if (resp.status === 429) {
@@ -802,7 +825,7 @@
         }
         resultsHost.scrollIntoView({ behavior: "smooth", block: "start" });
       } catch (err) {
-        statusEl.textContent = "";
+        setStatus("");
         resultsHost.innerHTML = `<div class="gate-card is-error"><div class="eyebrow" style="margin-bottom:8px;">Analysis Didn't Run</div><p class="text-secondary" style="font-size:13.5px;">${err.message || "Something went wrong — try again."}</p></div>`;
         resultsHost.scrollIntoView({ behavior: "smooth", block: "start" });
       } finally {

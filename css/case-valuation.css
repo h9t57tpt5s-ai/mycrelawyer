@@ -57,8 +57,23 @@
 
 .cv-field textarea { width: 100%; padding: 9px 12px; border-radius: 8px; border: 1px solid var(--border); background: var(--bg-elevated); color: var(--text-primary); font-size: 13.5px; font-family: inherit; resize: vertical; }
 
-.cv-ai-status { font-size: 12.5px; color: var(--text-muted); margin-top: 10px; min-height: 16px; }
+.cv-ai-status { font-size: 12.5px; color: var(--text-muted); margin-top: 10px; min-height: 16px; display: flex; align-items: center; gap: 8px; }
 .cv-ai-status.is-error { color: var(--status-appeal, #d94949); font-weight: 600; }
+
+/* A real spinning indicator, not just text that changes every 25s -- a
+   long-running analysis needs something moving on screen the whole time,
+   or it reads as broken well before it actually is. currentColor-based so
+   it works both on the button (white on accent) and in the muted status
+   line (gray on transparent) without a separate color variant. */
+.cv-spinner {
+  display: inline-block; flex-shrink: 0;
+  width: 15px; height: 15px;
+  border: 2px solid color-mix(in srgb, currentColor 25%, transparent);
+  border-top-color: currentColor;
+  border-radius: 50%;
+  animation: cv-spin 0.75s linear infinite;
+}
+@keyframes cv-spin { to { transform: rotate(360deg); } }
 
 /* A result/gate card reporting an actual failure (extraction error, server
    error, expired session) needs to read as unmistakably different from the
