@@ -16,7 +16,7 @@ const RELAW_DATA = {
      Drives the homepage's "New Today" pill: it only shows when this
      equals the visitor's local today. Updated by the digest automation
      each time Step 4 successfully adds a case — never touched otherwise. */
-  lastUpdatedDate: "2026-08-24",
+  lastUpdatedDate: "2026-08-25",
   categories: [
     { id: "landlord-tenant", label: "Landlord–Tenant", color: "var(--cat-landlord)" },
     { id: "zoning-land-use", label: "Zoning & Land Use", color: "var(--cat-zoning)" },
@@ -1142,6 +1142,34 @@ const RELAW_DATA = {
         { when: "August 10, 2026", label: "New Jersey Supreme Court rules 6-1 that municipalities need not state intended public use in a condemnation ordinance", current: true }
       ],
       tags: ["eminent domain", "condemnation", "new jersey", "local government", "square corners doctrine"]
+    },
+    {
+      id: "live-041",
+      addedDate: "2026-08-25",
+      title: "Eng v. Chen's Food Enterprise, Inc. (Notice-Cure Claim Preclusion Ruling)",
+      category: "lease-disputes",
+      status: "ruling",
+      date: "2026-08-24",
+      jurisdiction: "Massachusetts Appeals Court",
+      judge: "Sookyoung Shin",
+      state: "MA",
+      amount: "$198,000 unpaid rent judgment",
+      source: "live",
+      sourceUrl: "https://www.mass.gov/doc/eng-v-chens-food-enterprise-inc-ac-s25p1222/download",
+      summary: "The Massachusetts Appeals Court reversed an Appellate Division ruling that had barred a commercial landlord from recovering a $198,000 unpaid-rent judgment after his first summary process action was dismissed for lack of a proper termination notice. Writing for a unanimous panel, Justice Sookyoung Shin held that G. L. c. 239, § 7 authorizes a landlord to refile once a curable notice defect is fixed, and that the initial dismissal was not an adjudication on the merits for claim-preclusion purposes.",
+      significance: "The ruling forecloses what had become, after the Appellate Division's decision, a serious trap for commercial landlords: a notice-to-quit technicality in an initial filing could otherwise have permanently barred recovery of rent a tenant plainly owed. It confirms that landlords who cure a procedural notice defect and refile retain a genuine second opportunity to litigate a nonpayment claim on the merits.",
+      body: [
+        "A commercial landlord's stumble on the first attempt to evict a nonpaying tenant did not cost him nearly $200,000 in back rent, the Massachusetts Appeals Court ruled on August 24, 2026, resolving a dispute that had turned into an unplanned tutorial on the interaction between summary process practice and claim-preclusion doctrine. The case began in the Roxbury Division of the Boston Municipal Court, where trustee Paul Eng filed a summary process action against tenant Chen's Food Enterprise, Inc. for nonpayment of rent. That first case was dismissed because Eng had not served the written notice to quit the lease required before litigation could begin, a common and generally fixable defect under Massachusetts practice. Eng served a corrected termination notice and filed a second summary process action.",
+        "Following a three-day bench trial before Judge Kenneth J. Fiandaca, the trial court rejected the tenant's argument that the first dismissal barred the second suit and entered judgment for Eng on both possession and $198,000 in unpaid rent. Chen's Food Enterprise appealed to the Appellate Division of the District Court and Boston Municipal Court departments and won a reversal: the Appellate Division held that the first case's dismissal operated as an adjudication on the merits for claim-preclusion purposes, meaning the second, corrected suit should never have gone forward at all.",
+        "Had that ruling stood, it would have handed commercial tenants a powerful and largely accidental tool — any landlord who missed a notice requirement in an initial filing could have been permanently barred from ever recovering rent through summary process, no matter how quickly or completely the defect was later cured. Writing for a unanimous panel that also included Justices Ditkoff and Tan, Justice Sookyoung Shin rejected that reading, holding that the Appellate Division's application of claim preclusion could not be reconciled with the plain language of G. L. c. 239, § 7, the statute governing summary process for nonpayment of rent. The court concluded the statute affirmatively authorizes a landlord to bring a second action once the underlying notice defect has been fixed, because a dismissal grounded purely in a failure to satisfy a notice precondition is not the kind of merits determination claim-preclusion doctrine is meant to protect — the unpaid-rent question had never actually been tried in the first case.",
+        "The decision restores what most Massachusetts landlord-tenant practitioners had long assumed was the governing rule: a procedural dismissal for a curable notice defect leaves the underlying rent claim intact so long as the landlord actually fixes the problem before refiling. Tenants' counsel lose a defense that functioned less like an argument on the merits and more like a windfall keyed to a landlord's paperwork error, but the ruling leaves fully intact their ability to contest notice compliance, lease termination, and the amount of rent owed in whatever action actually proceeds to trial, exactly as Chen's Food Enterprise did across three days before Judge Fiandaca.",
+        "For commercial landlords and their counsel, the practical lesson cuts in two directions. A dismissal for a defective or missing notice to quit should be treated as correctable rather than fatal, and a landlord who promptly serves a proper termination notice and refiles should not assume the underlying rent claim has been lost — though building in the time and cost of doing it twice, as Eng ultimately had to, is itself a reason to get lease notice provisions right before filing the first time. Property managers and in-house counsel would do well to audit notice-to-quit requirements against both the governing statute and the specific lease before any nonpayment summary process action goes out the door, since the defect here was entirely avoidable and added more than two years of delay before the landlord actually collected. Tenants' counsel, meanwhile, should not bank on an early notice-based dismissal as a permanent shield against a rent claim and should focus litigation strategy on the merits of the nonpayment dispute itself, since this decision is specific to notice-based dismissals under G. L. c. 239, § 7 and does not disturb ordinary claim-preclusion principles where a dismissal actually resolves a case's merits."
+      ],
+      timeline: [
+        { when: "February 26, 2024", label: "Original summary process complaint filed in the Roxbury Division of the Boston Municipal Court" },
+        { when: "August 24, 2026", label: "Massachusetts Appeals Court reverses the Appellate Division and reinstates the landlord's $198,000 judgment", current: true }
+      ],
+      tags: ["commercial lease", "summary process", "claim preclusion", "landlord-tenant", "massachusetts"]
     }
   ],
 
@@ -1449,7 +1477,8 @@ const RELAW_DATA = {
     { jurisdiction: "Alameda County Superior Court, California", url: "https://www.alameda.courts.ca.gov/" },
     { jurisdiction: "Supreme Court of the State of New York, Appellate Division, Second Department", url: "https://www.nycourts.gov/courts/ad2/" },
     { jurisdiction: "Superior Court of New Jersey, Union County", url: "https://www.njcourts.gov/courts/vicinages/union" },
-    { jurisdiction: "Circuit Court of Cook County, Illinois", url: "https://www.cookcountycourt.org/" }
+    { jurisdiction: "Circuit Court of Cook County, Illinois", url: "https://www.cookcountycourt.org/" },
+    { jurisdiction: "Massachusetts Appeals Court", url: "https://www.mass.gov/orgs/appeals-court" }
   ],
 
   /* Judges — background on every judge named in our sourced reporting (never
@@ -1537,6 +1566,14 @@ const RELAW_DATA = {
       court: "Supreme Court of New Jersey",
       background: "Nominated by Gov. Phil Murphy and sworn in as an Associate Justice on July 6, 2023, becoming the first former public defender to serve on the New Jersey Supreme Court. Previously an assistant public defender in Essex County and, at the time of his appointment, a partner at Bramnick, Rodriguez, Grabas, Arnold, and Mangan focused on immigration and criminal law.",
       bioUrl: "https://www.njcourts.gov/public/museum/meet-the-justices/associate-justice-michael-noriega"
+    },
+    {
+      name: "Sookyoung Shin",
+      slug: "sookyoung-shin",
+      title: "Associate Justice — authored the Court's unanimous opinion",
+      court: "Massachusetts Appeals Court",
+      background: "Appointed to the Massachusetts Appeals Court in July 2016 by Gov. Charlie Baker after serving since 2005 as an assistant attorney general in the Commonwealth's Administrative Law Division. Previously practiced patent litigation at Finnegan, Henderson, Farabow, Garrett & Dunner and general litigation at Kirkland & Ellis.",
+      bioUrl: "https://www.mass.gov/courts/court-info/appealscourt/appeals-court-justices/associate-justice-sookyoung-shin.html"
     }
   ],
 
