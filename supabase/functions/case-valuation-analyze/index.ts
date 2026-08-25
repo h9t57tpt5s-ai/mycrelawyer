@@ -1021,18 +1021,27 @@ Deno.serve(async (req) => {
       },
     }, 200);
   } catch (err) {
+    // TEMPORARY: surfacing the real upstream error text/status in the
+    // response body (not just server logs) while tracking down a 502 that
+    // two prior fixes (CORS, then schema additionalProperties) haven't
+    // resolved -- neither is independently confirmed since this
+    // environment has no way to call the Anthropic API or read Supabase
+    // function logs directly. Revert the `debug` fields once root-caused.
+    const debug = err instanceof Error
+      ? { message: err.message, name: err.name, status: (err as { status?: number }).status ?? null }
+      : { message: String(err) };
     if (err instanceof Anthropic.AuthenticationError) {
       console.error("Anthropic auth error — check ANTHROPIC_API_KEY:", err);
-      return jsonResponse({ error: "Analysis is temporarily unavailable — try again shortly.", code: "upstream_auth_error" }, 502);
+      return jsonResponse({ error: "Analysis is temporarily unavailable — try again shortly.", code: "upstream_auth_error", debug }, 502);
     }
     if (err instanceof Anthropic.RateLimitError) {
-      return jsonResponse({ error: "The analysis service is busy — try again in a minute.", code: "upstream_rate_limited" }, 503);
+      return jsonResponse({ error: "The analysis service is busy — try again in a minute.", code: "upstream_rate_limited", debug }, 503);
     }
     if (err instanceof Anthropic.APIError) {
       console.error("Anthropic API error:", err);
-      return jsonResponse({ error: "Analysis failed — try again.", code: "upstream_error" }, 502);
+      return jsonResponse({ error: "Analysis failed — try again.", code: "upstream_error", debug }, 502);
     }
     console.error("case-valuation-analyze error:", err);
-    return jsonResponse({ error: "Something went wrong analyzing this document — try again.", code: "internal_error" }, 500);
+    return jsonResponse({ error: "Something went wrong analyzing this document — try again.", code: "internal_error", debug }, 500);
   }
 });
