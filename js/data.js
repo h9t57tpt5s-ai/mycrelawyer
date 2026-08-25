@@ -1170,6 +1170,37 @@ const RELAW_DATA = {
         { when: "August 24, 2026", label: "Massachusetts Appeals Court reverses the Appellate Division and reinstates the landlord's $198,000 judgment", current: true }
       ],
       tags: ["commercial lease", "summary process", "claim preclusion", "landlord-tenant", "massachusetts"]
+    },
+    {
+      id: "live-042",
+      addedDate: "2026-08-25",
+      title: "FTC v. Zillow Group, Inc. (Rental-Listings Non-Compete Consent Order)",
+      category: "landlord-tenant",
+      status: "settled",
+      date: "2026-08-24",
+      jurisdiction: "U.S. District Court, Eastern District of Virginia",
+      judge: "Anthony J. Trenga",
+      state: "VA",
+      amount: "$100M payment central to the unwound agreement",
+      source: "live",
+      sourceUrl: "https://www.ftc.gov/news-events/news/press-releases/2026/08/ftc-secures-order-resolving-antitrust-concerns-zillow-redfin-agreement",
+      summary: "The FTC and five state attorneys general reached a stipulated settlement with Zillow Group, Inc. and Redfin Corporation on August 24, 2026, unwinding a February 2025 agreement under which Zillow paid Redfin $100M to exit the internet listing service market for apartment rentals, repost only Zillow's listings, and stay out of the market for up to nine years. The settlement came on the eve of trial in FTC v. Zillow Group, Inc., No. 1:25-cv-01638 (E.D. Va.), and requires U.S. District Judge Anthony J. Trenga's signature to become a binding order.",
+      significance: "The FTC alleged the arrangement raised the average cost of advertising a rental listing by roughly 14.5% and drove some landlords to stop buying online listings altogether, illustrating how antitrust enforcers now scrutinize the digital listing infrastructure landlords depend on, not just pricing coordination among owners themselves. Multifamily owners, REITs, and asset managers with exclusivity or data-sharing terms in vendor and platform agreements should expect continued regulatory attention to this category of arrangement.",
+      body: [
+        "The Federal Trade Commission, joined by five state attorneys general, has resolved its antitrust suit against Zillow Group, Inc. and Redfin Corporation, reaching a stipulated settlement on August 24, 2026 that unwinds a February 2025 agreement the government said eliminated Redfin as a competitor in the market for advertising rental listings, and in the process raised the cost of doing business for landlords and property managers who list apartments online. The settlement arrives just as FTC v. Zillow Group, Inc., No. 1:25-cv-01638 (E.D. Va.), was headed toward trial before U.S. District Judge Anthony J. Trenga, and it requires his signature to take effect as a binding order of the court.",
+        "The underlying agreement was, on its face, a routine commercial partnership. Under its terms, Zillow paid Redfin $100 million and other consideration in exchange for Redfin's agreement to shut down its own internet listing service for multifamily rental properties, exclusively repost Zillow's apartment listings on Redfin's platform, migrate its rental-advertising customers to Zillow, and stay out of the rental-listing advertising market for as long as nine years. The FTC's complaint, filed September 30, 2025, alleged that arrangement crossed from lawful cooperation into an unlawful agreement to divide a market, with attorneys general from New York, Arizona, Connecticut, Washington, and Virginia filing parallel suits that were later consolidated with the FTC's case in December 2025.",
+        "The commercial stakes were concrete and, according to the government, measurable. The FTC alleged that once the deal took effect, the average cost for a property manager or landlord to advertise a rental listing through Zillow's platform rose by roughly 14.5%, and that some landlords stopped purchasing online listing services altogether rather than absorb the increase. For an industry that has come to depend on internet listing services as the primary channel connecting available units with prospective tenants, removing Redfin as an independent, competing outlet for that advertising is exactly the kind of harm the Sherman Act and the FTC Act's unfair-methods-of-competition provisions are designed to prevent, a reduction in output and an increase in price that flows directly from an agreement between competitors rather than from ordinary market forces.",
+        "The case did not resolve quickly or predictably in the government's favor. Judge Trenga denied a joint motion by the FTC and the state plaintiffs for partial summary judgment in July 2026, declining to presume the Zillow-Redfin arrangement was per se unlawful and instead requiring the case to proceed toward a trial on the merits. That posture makes the eleventh-hour settlement notable: rather than risk a jury verdict, both companies agreed to structural relief that goes beyond a monetary payment. The stipulated order eliminates the exclusivity and non-compete provisions at the heart of the original deal, restores Redfin's right to sell its own rental advertising, display listings sourced from its own clients, and solicit new rental-advertising customers without being contractually required to share competitively sensitive business information with Zillow, and commits Redfin to relaunch its own internet listing service for apartment rentals within six months of the order becoming final.",
+        "For commercial real estate owners, developers, and asset managers, the significance extends beyond the two companies named as defendants. Antitrust enforcers have increasingly turned their attention to the digital infrastructure that mediates real estate transactions, including pricing software, listing platforms, and data-sharing arrangements among ostensible competitors, treating agreements that narrow the number of independent outlets or inputs available to property owners as a distinct category of competitive harm separate from more traditional theories of collusion among landlords themselves. Owners who rely on internet listing services to fill units should expect the competitive landscape among those platforms to shift again as Redfin re-enters the market, and larger portfolio owners and REITs with cross-market advertising contracts would be well served to revisit those agreements for exclusivity or data-sharing terms that could draw similar scrutiny, treating vendor and platform agreements as a live source of antitrust exposure going forward and watching for the FTC's follow-on compliance reporting and any parallel state-level scrutiny that may still be developing even after this settlement closes the federal docket."
+      ],
+      timeline: [
+        { when: "February 2025", label: "Zillow and Redfin enter the rental-listings agreement later challenged by the FTC" },
+        { when: "September 30, 2025", label: "FTC files its antitrust complaint in the Eastern District of Virginia" },
+        { when: "December 2025", label: "State attorneys general suits from New York, Arizona, Connecticut, Washington, and Virginia consolidated with the FTC's case" },
+        { when: "July 2026", label: "Judge Trenga denies partial summary judgment, sending the case toward trial" },
+        { when: "August 24, 2026", label: "FTC and five states file a stipulated settlement unwinding the agreement, pending Judge Trenga's signature", current: true }
+      ],
+      tags: ["antitrust", "FTC", "rental listings", "landlord-tenant", "multifamily"]
     }
   ],
 
@@ -1478,7 +1509,8 @@ const RELAW_DATA = {
     { jurisdiction: "Supreme Court of the State of New York, Appellate Division, Second Department", url: "https://www.nycourts.gov/courts/ad2/" },
     { jurisdiction: "Superior Court of New Jersey, Union County", url: "https://www.njcourts.gov/courts/vicinages/union" },
     { jurisdiction: "Circuit Court of Cook County, Illinois", url: "https://www.cookcountycourt.org/" },
-    { jurisdiction: "Massachusetts Appeals Court", url: "https://www.mass.gov/orgs/appeals-court" }
+    { jurisdiction: "Massachusetts Appeals Court", url: "https://www.mass.gov/orgs/appeals-court" },
+    { jurisdiction: "U.S. District Court, Eastern District of Virginia", url: "https://www.vaed.uscourts.gov/" }
   ],
 
   /* Judges — background on every judge named in our sourced reporting (never
@@ -1574,6 +1606,14 @@ const RELAW_DATA = {
       court: "Massachusetts Appeals Court",
       background: "Appointed to the Massachusetts Appeals Court in July 2016 by Gov. Charlie Baker after serving since 2005 as an assistant attorney general in the Commonwealth's Administrative Law Division. Previously practiced patent litigation at Finnegan, Henderson, Farabow, Garrett & Dunner and general litigation at Kirkland & Ellis.",
       bioUrl: "https://www.mass.gov/courts/court-info/appealscourt/appeals-court-justices/associate-justice-sookyoung-shin.html"
+    },
+    {
+      name: "Anthony J. Trenga",
+      slug: "anthony-j-trenga",
+      title: "U.S. District Judge",
+      court: "U.S. District Court, Eastern District of Virginia",
+      background: "Nominated by President George W. Bush and confirmed to the federal bench in September 2008, assuming senior status in June 2021. Previously chaired the litigation department at Miller & Chevalier in Washington, D.C.",
+      bioUrl: "https://www.fjc.gov/history/judges/trenga-anthony-john"
     }
   ],
 
