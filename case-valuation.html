@@ -112,7 +112,7 @@
     <span class="badge reveal in-view" style="margin-top:14px; background:color-mix(in srgb, var(--status-pending) 16%, transparent); color:var(--status-pending); border:1px solid color-mix(in srgb, var(--status-pending) 40%, transparent);">
       <span class="badge-dot" style="background:var(--status-pending)"></span>Beta — modeling in active development
     </span>
-    <p class="lede mt-16 reveal in-view">A structured, rules-based estimate of litigation exposure across 8 commercial real estate categories — probability range × damages range, never a single number, and every result traces to a specific rule or a real cited case below it.</p>
+    <p class="lede mt-16 reveal in-view">A structured, rules-based estimate of litigation exposure across 8 commercial real estate categories — probability range × damages range, never a single number, and every result traces to a specific rule or a real cited case below it. Answer what you know by hand, or — with Full Access — upload your pleadings and let AI fill in the facts and write up the reasoning for you.</p>
   </div>
 </header>
 
@@ -132,7 +132,7 @@
     <div class="section-head reveal">
       <div>
         <div class="eyebrow">Estimate a Matter</div>
-        <h2 style="font-size:clamp(1.4rem,2.2vw,1.9rem);">Pick a category and answer what you know</h2>
+        <h2 style="font-size:clamp(1.4rem,2.2vw,1.9rem);">Pick a category, then answer what you know or upload your documents</h2>
       </div>
     </div>
     <form id="cv-form" class="card reveal" style="padding:28px;">
@@ -146,6 +146,9 @@
           <select id="cv-side-select"><option value="sideA">—</option></select>
         </div>
       </div>
+
+      <div id="cv-upload-host"></div>
+
       <div id="cv-form-host"></div>
 
       <div class="cv-cost-section">
@@ -180,24 +183,6 @@
       </button>
     </form>
     <div id="cv-results-host" style="margin-top:28px;"></div>
-  </div>
-</section>
-
-<section class="section-tight">
-  <div class="container">
-    <div class="section-head reveal">
-      <div>
-        <div class="eyebrow">AI Document Analysis</div>
-        <h2 style="font-size:clamp(1.4rem,2.2vw,1.9rem);">Upload your pleadings, get an AI-generated analysis</h2>
-      </div>
-      <span class="badge" style="background:color-mix(in srgb, var(--status-pending) 16%, transparent); color:var(--status-pending); border:1px solid color-mix(in srgb, var(--status-pending) 40%, transparent);">
-        <span class="badge-dot" style="background:var(--status-pending)"></span>Beta — requires analysis credits
-      </span>
-    </div>
-    <div class="card reveal" style="padding:28px;">
-      <p class="text-secondary" style="font-size:13.5px; line-height:1.7; margin-bottom:20px;">Upload a pleading (complaint, answer, motion) or paste its text, and it's analyzed against the same cited-case framework as the tool above — a probability-weighted prediction of likely outcome and damages, not a legal opinion or a substitute for counsel. Nothing you upload is stored — only the extracted text is sent for analysis.</p>
-      <div id="cv-ai-gate-host"><div class="gate-card is-loading">Loading…</div></div>
-    </div>
   </div>
 </section>
 
@@ -274,9 +259,8 @@
 <script src="js/motion.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
 <script src="js/case-valuation-report.js"></script>
-<script src="js/case-valuation.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/mammoth/1.6.0/mammoth.browser.min.js"></script>
-<script src="js/case-valuation-ai.js"></script>
+<script src="js/case-valuation.js"></script>
 </body>
 </html>
