@@ -1167,23 +1167,23 @@ Deno.serve(async (req) => {
     // nullable-enum shape, the union-field cap, minItems, a too-small
     // max_tokens) haven't fully resolved -- none independently confirmed
     // since this environment has no way to call the Anthropic API or
-    // read Supabase function logs directly. Revert the `debug` fields
-    // once root-caused.
-    const debug = err instanceof Error
-      ? { message: err.message, name: err.name, status: (err as { status?: number }).status ?? null }
-      : { message: String(err) };
+    // read Supabase function logs directly. Root-caused (schema validity,
+    // then the effort/token/timing tuning) and confirmed working end to
+    // end -- debug field removed from the user-facing response now that
+    // it's done its job; console.error below still logs the real error
+    // server-side for anything unexpected going forward.
     if (err instanceof Anthropic.AuthenticationError) {
       console.error("Anthropic auth error — check ANTHROPIC_API_KEY:", err);
-      return jsonResponse({ error: "Analysis is temporarily unavailable — try again shortly.", code: "upstream_auth_error", debug }, 502);
+      return jsonResponse({ error: "Analysis is temporarily unavailable — try again shortly.", code: "upstream_auth_error" }, 502);
     }
     if (err instanceof Anthropic.RateLimitError) {
-      return jsonResponse({ error: "The analysis service is busy — try again in a minute.", code: "upstream_rate_limited", debug }, 503);
+      return jsonResponse({ error: "The analysis service is busy — try again in a minute.", code: "upstream_rate_limited" }, 503);
     }
     if (err instanceof Anthropic.APIError) {
       console.error("Anthropic API error:", err);
-      return jsonResponse({ error: "Analysis failed — try again.", code: "upstream_error", debug }, 502);
+      return jsonResponse({ error: "Analysis failed — try again.", code: "upstream_error" }, 502);
     }
     console.error("case-valuation-analyze error:", err);
-    return jsonResponse({ error: "Something went wrong analyzing this document — try again.", code: "internal_error", debug }, 500);
+    return jsonResponse({ error: "Something went wrong analyzing this document — try again.", code: "internal_error" }, 500);
   }
 });

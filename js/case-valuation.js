@@ -815,13 +815,7 @@
         } else if (resp.status === 401) {
           resultsHost.innerHTML = `<div class="gate-card is-error"><div class="eyebrow" style="margin-bottom:8px;">Analysis Didn't Run</div><p class="text-secondary" style="font-size:13.5px;">Your session expired — refresh the page and sign in again.</p></div>`;
         } else {
-          // TEMPORARY: show the debug field (real upstream error text) the
-          // server sends while root-causing the repeated 502 -- remove
-          // this block once fixed, along with the server-side `debug` field.
-          const debugHtml = json && json.debug
-            ? `<p class="text-muted mono" style="font-size:11px; margin-top:10px; word-break:break-word;">Debug: ${json.debug.name || ""} ${json.debug.status ? `(status ${json.debug.status})` : ""} — ${json.debug.message || ""}</p>`
-            : "";
-          resultsHost.innerHTML = `<div class="gate-card is-error"><div class="eyebrow" style="margin-bottom:8px;">Analysis Didn't Run</div><p class="text-secondary" style="font-size:13.5px;">${(json && json.error) || "Something went wrong — try again."}</p>${debugHtml}</div>`;
+          resultsHost.innerHTML = `<div class="gate-card is-error"><div class="eyebrow" style="margin-bottom:8px;">Analysis Didn't Run</div><p class="text-secondary" style="font-size:13.5px;">${(json && json.error) || "Something went wrong — try again."}</p></div>`;
         }
         resultsHost.scrollIntoView({ behavior: "smooth", block: "start" });
       } catch (err) {
