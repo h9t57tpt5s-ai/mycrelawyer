@@ -313,9 +313,11 @@
           <div><div class="label">Amount / Scale</div><div class="value">${c.amount}</div></div>
           <div><div class="label">Status</div><div class="value">${status.label}</div></div>
         </div>
-        <p class="body-text">${c.summary}</p>
-        <h3 style="margin-bottom:10px;">Why it matters</h3>
-        <p class="body-text">${c.significance}</p>
+        <div id="detail-summary-block">
+          <p class="body-text">${c.summary}</p>
+          <h3 style="margin-bottom:10px;">Why it matters</h3>
+          <p class="body-text">${c.significance}</p>
+        </div>
         <div class="rule mt-24" style="margin-bottom:24px;"></div>
         <div id="detail-gated-content"></div>
         <div class="tag-row">${c.tags.map((t) => `<span class="detail-tag">${t}</span>`).join("")}</div>
@@ -334,20 +336,25 @@
       overlay.classList.add("open");
       panel.classList.add("open");
       document.body.style.overflow = "hidden";
+      if (window.RELAW_UTILS.linkifyGlossaryTerms) window.RELAW_UTILS.linkifyGlossaryTerms(document.getElementById("detail-summary-block"));
 
       const gatedSlot = document.getElementById("detail-gated-content");
+      function renderGated(html) {
+        gatedSlot.innerHTML = html;
+        if (window.RELAW_UTILS.linkifyGlossaryTerms) window.RELAW_UTILS.linkifyGlossaryTerms(gatedSlot);
+      }
       if (!hasGatedContent) {
-        gatedSlot.innerHTML = fullArticleInnerHtml();
+        renderGated(fullArticleInnerHtml());
       } else if (!window.RELAW_AUTH) {
         // Auth system didn't load — fail open rather than block content.
-        gatedSlot.innerHTML = fullArticleInnerHtml();
+        renderGated(fullArticleInnerHtml());
       } else {
         gatedSlot.innerHTML = `<div class="gate-card is-loading">Checking access…</div>`;
         window.RELAW_AUTH.checkGate(c.id).then((state) => {
           // Panel may have moved on to a different case by the time this resolves.
           if (!panel.classList.contains("open") || document.getElementById("detail-gated-content") !== gatedSlot) return;
           if (state.status === "ok") {
-            gatedSlot.innerHTML = fullArticleInnerHtml();
+            renderGated(fullArticleInnerHtml());
           } else {
             gatedSlot.innerHTML = gateStateHtml(state);
             const signInBtn = document.getElementById("gate-signin-btn");

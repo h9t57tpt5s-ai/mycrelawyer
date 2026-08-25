@@ -76,7 +76,10 @@
     const tx = EVICTION_GUIDE_DATA.texasFull;
     const meta = EVICTION_GUIDE_DATA.states.find((s) => s.slug === EVICTION_GUIDE_DATA.freeStateSlug);
     if (el("#eg-texas-badge") && meta) el("#eg-texas-badge").outerHTML = badgeHtml(meta.classification);
-    if (el("#eg-texas-chapter")) el("#eg-texas-chapter").innerHTML = chapterContentHtml(tx.blurb, tx.sections);
+    if (el("#eg-texas-chapter")) {
+      el("#eg-texas-chapter").innerHTML = chapterContentHtml(tx.blurb, tx.sections);
+      if (window.RELAW_UTILS.linkifyGlossaryTerms) window.RELAW_UTILS.linkifyGlossaryTerms(el("#eg-texas-chapter"));
+    }
   }
 
   /* ---------- Locked state grid ---------- */
@@ -213,6 +216,7 @@
       if (error) throw error;
       if (data) {
         contentSlot.innerHTML = chapterContentHtml(data.blurb, data.sections);
+        if (window.RELAW_UTILS.linkifyGlossaryTerms) window.RELAW_UTILS.linkifyGlossaryTerms(contentSlot);
       } else {
         contentSlot.innerHTML = purchaseCardHtml(meta.name);
       }

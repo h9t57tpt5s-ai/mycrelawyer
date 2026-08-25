@@ -839,18 +839,34 @@ h3, .h3 {
 .detail-tag { font-size: 11.5px; padding: 5px 12px; border-radius: var(--radius-full); background: var(--surface); border: 1px solid var(--border); color: var(--text-secondary); font-family: var(--font-mono); transition: border-color 0.2s ease, color 0.2s ease; }
 .detail-tag:hover { border-color: var(--accent); color: var(--accent); }
 
-/* ---------- Glossary ---------- */
-.glossary-jump { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 40px; }
-.glossary-jump a {
-  width: 32px; height: 32px; display: flex; align-items: center; justify-content: center;
-  border-radius: var(--radius-full); border: 1px solid var(--border); background: var(--surface);
-  font-family: var(--font-mono); font-size: 12.5px; color: var(--text-secondary); transition: all 0.2s ease;
+/* ---------- Glossary term hover tooltips (in-article, replaces the old
+   standalone glossary page) ---------- */
+.glossary-term {
+  border-bottom: 1px dotted var(--text-muted);
+  cursor: help;
+  transition: border-color 0.2s ease, color 0.2s ease;
 }
-.glossary-jump a:hover { border-color: var(--accent); color: var(--accent); transform: translateY(-2px); }
-.glossary-list { display: flex; flex-direction: column; gap: 0; }
-.glossary-entry { padding: 26px 0; border-top: 1px solid var(--border-soft); scroll-margin-top: 100px; }
-.glossary-entry:last-child { border-bottom: 1px solid var(--border-soft); }
-.glossary-entry h3 { font-size: 1.15rem; }
+.glossary-term:hover, .glossary-term:focus-visible, .glossary-term.is-active {
+  border-bottom-color: var(--accent); color: var(--accent-deep); outline: none;
+}
+.glossary-tooltip-bubble {
+  position: fixed; z-index: 300; width: min(320px, calc(100vw - 32px));
+  background: var(--bg-elevated); border: 1px solid var(--border); border-radius: var(--radius-md);
+  box-shadow: var(--shadow-lg); padding: 16px 18px;
+  opacity: 0; transform: translateY(4px); pointer-events: none;
+  transition: opacity 0.16s ease, transform 0.16s ease;
+}
+.glossary-tooltip-bubble.open { opacity: 1; transform: translateY(0); pointer-events: auto; }
+.glossary-tooltip-bubble .term { font-family: var(--font-display); font-size: 1.02rem; font-weight: 600; color: var(--text-primary); margin-bottom: 6px; }
+.glossary-tooltip-bubble .definition { font-size: 13px; line-height: 1.6; color: var(--text-secondary); }
+.glossary-tooltip-bubble .close-btn {
+  display: none; position: absolute; top: 10px; right: 10px; width: 22px; height: 22px;
+  align-items: center; justify-content: center; border-radius: 50%; color: var(--text-muted);
+}
+@media (hover: none) {
+  .glossary-tooltip-bubble .close-btn { display: flex; }
+  .glossary-tooltip-bubble .term { padding-right: 20px; }
+}
 
 /* ---------- Auth: nav widget ---------- */
 .auth-nav-slot { display: flex; align-items: center; flex-shrink: 0; }

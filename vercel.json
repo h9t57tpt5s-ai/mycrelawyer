@@ -1,0 +1,6 @@
+{
+  "redirects": [
+    { "source": "/glossary.html", "destination": "/litigation.html", "permanent": true },
+    { "source": "/glossary", "destination": "/litigation.html", "permanent": true }
+  ]
+}
