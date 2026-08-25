@@ -98,10 +98,23 @@ const supabaseAdmin = createClient(
 
 const anthropic = ANTHROPIC_API_KEY ? new Anthropic({ apiKey: ANTHROPIC_API_KEY }) : null;
 
+// Browser CORS -- this function is called cross-origin, from
+// credocket.com's own JS, to a *.supabase.co URL. Without these headers
+// every call fails at the preflight OPTIONS request before this function's
+// own logic ever runs, surfacing to the browser as a bare "NetworkError
+// when attempting to fetch resource" / "Failed to fetch" -- no HTTP status,
+// no response body, nothing this function's own error handling can catch
+// or explain, because the browser never lets the real request through.
+const CORS_HEADERS: Record<string, string> = {
+  "Access-Control-Allow-Origin": "*",
+  "Access-Control-Allow-Headers": "authorization, x-client-info, apikey, content-type",
+  "Access-Control-Allow-Methods": "POST, OPTIONS",
+};
+
 function jsonResponse(body: Record<string, unknown>, status: number) {
   return new Response(JSON.stringify(body), {
     status,
-    headers: { "Content-Type": "application/json" },
+    headers: { "Content-Type": "application/json", ...CORS_HEADERS },
   });
 }
 
@@ -696,6 +709,13 @@ function buildExtractionSchema(categorySlug: string) {
 }
 
 Deno.serve(async (req) => {
+  // The browser sends this before the real POST whenever the request has
+  // custom headers (Authorization, apikey) -- must succeed with the CORS
+  // headers below, or the browser blocks the actual request and never
+  // even shows this function's own error responses.
+  if (req.method === "OPTIONS") {
+    return new Response(null, { status: 204, headers: CORS_HEADERS });
+  }
   if (req.method !== "POST") {
     return jsonResponse({ error: "Method not allowed" }, 405);
   }
