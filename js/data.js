@@ -16,7 +16,7 @@ const RELAW_DATA = {
      Drives the homepage's "New Today" pill: it only shows when this
      equals the visitor's local today. Updated by the digest automation
      each time Step 4 successfully adds a case — never touched otherwise. */
-  lastUpdatedDate: "2026-08-25",
+  lastUpdatedDate: "2026-08-26",
   categories: [
     { id: "landlord-tenant", label: "Landlord–Tenant", color: "var(--cat-landlord)" },
     { id: "zoning-land-use", label: "Zoning & Land Use", color: "var(--cat-zoning)" },
@@ -1201,6 +1201,36 @@ const RELAW_DATA = {
         { when: "August 24, 2026", label: "FTC and five states file a stipulated settlement unwinding the agreement, pending Judge Trenga's signature", current: true }
       ],
       tags: ["antitrust", "FTC", "rental listings", "landlord-tenant", "multifamily"]
+    },
+    {
+      id: "live-043",
+      addedDate: "2026-08-26",
+      title: "Town of Apple Valley v. Apple Valley Ranchos Water Co. (Eminent Domain Standard-of-Review Ruling)",
+      category: "eminent-domain",
+      status: "ruling",
+      date: "2026-08-24",
+      jurisdiction: "Supreme Court of California",
+      judge: "Leondra Kruger",
+      state: "CA",
+      amount: "$13.2M attorneys'-fee award below; case remanded before any final valuation",
+      source: "live",
+      sourceUrl: "https://courts.ca.gov/opinion/published/2026-08-24/s289391",
+      summary: "The California Supreme Court ruled unanimously on August 24, 2026 that a municipality's resolution of necessity does not conclusively establish the need to condemn a privately owned public utility already devoted to public use; under 1992 amendments to the Eminent Domain Law, the resolution is only a rebuttable presumption, and a trial court must independently weigh the evidence to decide whether the owner has disproved necessity. The Court reversed the Fourth District Court of Appeal, which had faulted the trial court for not deferring to the Town of Apple Valley's resolution, and remanded the decade-old case for further proceedings.",
+      significance: "The ruling restores an independent, full-evidentiary-trial standard of review for eminent domain actions targeting utilities and other property already devoted to public use, rejecting the deferential gross-abuse-of-discretion review that typically shields ordinary condemnations from close scrutiny. Owners of privately held utility, infrastructure, and other public-use assets facing municipalization gain meaningful leverage in necessity disputes, while municipalities and redevelopment agencies pursuing such acquisitions should expect longer, costlier litigation and a heavier evidentiary burden to sustain their resolutions.",
+      body: [
+        "On August 24, 2026, the Supreme Court of California issued a unanimous decision in Town of Apple Valley v. Apple Valley Ranchos Water Co., No. S289391, holding that when a government agency seeks to acquire a privately owned public utility through eminent domain, its own resolution declaring the taking necessary does not conclusively settle that question in court. Writing for the Court, Justice Leondra Kruger held that 1992 amendments to California's Eminent Domain Law demoted the resolution to a rebuttable presumption in this specific context, meaning a trial judge must independently weigh the evidence, rather than defer to the condemning agency unless it committed a gross abuse of discretion, to decide whether the utility owner has disproved necessity by a preponderance of the evidence. The Court reversed the Fourth District Court of Appeal and sent the case back for further proceedings.",
+        "The dispute traces back more than a decade. Apple Valley Ranchos Water Company serves roughly 65,000 residents of the high-desert Town of Apple Valley in San Bernardino County. After investment firm Carlyle Infrastructure Partners acquired the utility and pushed through a 19 percent rate increase in 2012, the Town Council began pursuing municipalization as a way to bring water rates and service under local control. The Town adopted resolutions of necessity in November 2015 and filed its eminent domain complaint in January 2016, just as Carlyle sold the utility to Liberty Utilities. What followed was a 67-day bench trial, an unusually long evidentiary proceeding for a condemnation case, after which the trial court concluded that Liberty had successfully rebutted the Town's necessity showing and awarded the utility roughly $13.2 million in attorneys' fees. The Court of Appeal reversed, holding the trial court had failed to extend the deference ordinarily owed to a public entity's resolution of necessity under the standard gross-abuse-of-discretion framework that governs most condemnation actions.",
+        "The Supreme Court's opinion turns on a statutory wrinkle most eminent domain practitioners rarely have occasion to litigate. Under California's general condemnation framework, a public entity's properly adopted resolution of necessity conclusively establishes the elements of public necessity unless the property owner shows the entity grossly abused its discretion, a famously difficult standard to meet. But the Legislature carved out a narrower rule in 1992 for a specific category of takings, where the property being condemned is already devoted to public use, as a functioning, regulated public utility plainly is. In that setting, the resolution creates only a rebuttable presumption, and the trial court sits as an independent trier of fact charged with deciding, on the full evidentiary record, whether the utility owner has disproved the necessity of the taking. The Town had argued that the deferential standard should still control; the Court rejected that position as irreconcilable with the statute's text, reasoning that the Legislature meant exactly what it wrote when it singled out utility takings for closer judicial scrutiny.",
+        "The practical stakes extend well beyond water systems. Municipalization campaigns targeting privately held utilities, water but increasingly also electric distribution assets, in an era of aggressive local decarbonization and reliability initiatives, have become a recurring flashpoint between local governments and the investment funds, infrastructure sponsors, and REIT-adjacent vehicles that own and operate regulated utility assets nationally. The ruling confirms that a government cannot simply adopt a resolution, declare the taking necessary, and expect a rubber stamp from the courts when the target is an operating public-use asset. It must instead be prepared to defend its necessity findings through a full evidentiary trial in which the burden ultimately rests on the owner to rebut a presumption, not on the condemnor to survive only a deferential abuse-of-discretion challenge.",
+        "For infrastructure owners and their counsel, the decision restores meaningful leverage in valuation and necessity disputes that many had assumed the Court of Appeal had foreclosed, while for municipalities and redevelopment agencies eyeing acquisition of privately owned utility or infrastructure assets, it raises the evidentiary bar, and the litigation cost and duration, of getting there. Owners of privately held utilities or other public-use infrastructure facing a government acquisition attempt in California should not assume a resolution of necessity is effectively unchallengeable, and should treat the ordinary-versus-public-use distinction the Court draws as a useful early diagnostic for both litigation strategy and realistic settlement value. Municipalities and public agencies contemplating similar acquisitions should budget for a full bench trial on necessity, much like the Town of Apple Valley's decade-long, 67-day-trial experience, and build a well-documented evidentiary record supporting necessity beyond the resolution itself. Because the Supreme Court remanded rather than resolved the underlying dispute, the case is not over, and infrastructure owners, municipal counsel, and institutional investors in regulated utility assets should watch how the Court of Appeal handles the Town's remaining arguments on remand for further guidance on how the rebuttable-presumption standard applies in practice."
+      ],
+      timeline: [
+        { when: "2012", label: "Carlyle Infrastructure Partners institutes a 19% rate increase on Apple Valley Ranchos Water customers, prompting the Town to pursue municipalization" },
+        { when: "November 2015", label: "Town Council adopts resolutions of necessity to acquire the water system by eminent domain" },
+        { when: "January 2016", label: "Town files its eminent domain complaint; Carlyle sells the utility to Liberty Utilities" },
+        { when: "August 24, 2026", label: "California Supreme Court reverses the Court of Appeal and remands, holding the resolution of necessity is only a rebuttable presumption for takings of property already devoted to public use", current: true }
+      ],
+      tags: ["eminent domain", "public utility", "california", "standard of review", "condemnation"]
     }
   ],
 
@@ -1510,7 +1540,8 @@ const RELAW_DATA = {
     { jurisdiction: "Superior Court of New Jersey, Union County", url: "https://www.njcourts.gov/courts/vicinages/union" },
     { jurisdiction: "Circuit Court of Cook County, Illinois", url: "https://www.cookcountycourt.org/" },
     { jurisdiction: "Massachusetts Appeals Court", url: "https://www.mass.gov/orgs/appeals-court" },
-    { jurisdiction: "U.S. District Court, Eastern District of Virginia", url: "https://www.vaed.uscourts.gov/" }
+    { jurisdiction: "U.S. District Court, Eastern District of Virginia", url: "https://www.vaed.uscourts.gov/" },
+    { jurisdiction: "Supreme Court of California", url: "https://supreme.courts.ca.gov/" }
   ],
 
   /* Judges — background on every judge named in our sourced reporting (never
@@ -1614,6 +1645,14 @@ const RELAW_DATA = {
       court: "U.S. District Court, Eastern District of Virginia",
       background: "Nominated by President George W. Bush and confirmed to the federal bench in September 2008, assuming senior status in June 2021. Previously chaired the litigation department at Miller & Chevalier in Washington, D.C.",
       bioUrl: "https://www.fjc.gov/history/judges/trenga-anthony-john"
+    },
+    {
+      name: "Leondra Kruger",
+      slug: "leondra-kruger",
+      title: "Associate Justice — authored the Court's unanimous opinion",
+      court: "Supreme Court of California",
+      background: "Nominated by Gov. Jerry Brown and sworn in as an Associate Justice on January 5, 2015. Previously served as Assistant to the Solicitor General and Acting Principal Deputy Solicitor General in the U.S. Department of Justice's Office of the Solicitor General, arguing 12 cases before the U.S. Supreme Court, and clerked for Justice John Paul Stevens on the U.S. Supreme Court.",
+      bioUrl: "https://supreme.courts.ca.gov/about-court/justices-court"
     }
   ],
 
