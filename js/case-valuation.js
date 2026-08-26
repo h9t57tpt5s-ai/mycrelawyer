@@ -33,7 +33,12 @@
   // client-side by design (Supabase governs access via RLS).
   const SUPABASE_PUBLISHABLE_KEY = "sb_publishable_77xSJub0DOpnTSM4nzhVaQ_aztB5p3f";
   const ANALYZE_FN_URL = SUPABASE_URL + "/functions/v1/case-valuation-analyze";
-  const MAX_DOC_CHARS = 50000; // keeps a real API call bounded/affordable
+  // 50,000 was confirmed (via Supabase's own function logs -- execution_time_ms
+  // 150325, sb_error_code WORKER_RESOURCE_LIMIT) to run past the free-tier
+  // 150s wall-clock ceiling on a real 3-document submission. Cut hard until
+  // the project is on a paid plan with real headroom (400s) -- this is a
+  // stopgap to keep testing usable, not a permanent size target.
+  const MAX_DOC_CHARS = 18000;
   // --------------------------------------------------------------------
 
   const sb = window.RELAW_SUPABASE;
