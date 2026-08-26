@@ -24,6 +24,8 @@
   const SPEC = CASE_VALUATION_DATA.spec.categories;
   const STATE_MODS = CASE_VALUATION_DATA.stateLawModifiers;
   const STATES = Object.keys(STATE_MODS).sort();
+  const EMINENT_DOMAIN_FEE_MODS = CASE_VALUATION_DATA.eminentDomainAttorneyFees;
+  const EMINENT_DOMAIN_GOODWILL = CASE_VALUATION_DATA.eminentDomainBusinessGoodwill;
 
   // ---- CONFIG ---------------------------------------------------------
   const STRIPE_PAYMENT_LINK_URL = "https://buy.stripe.com/dRm9AL34yaOSeLJetz1B601";
@@ -191,8 +193,10 @@
       { key: "insurerDeniedEnvCoverage", label: "Has an insurer denied environmental coverage?", type: "boolean" }
     ],
     "eminent-domain": [
+      { key: "state", label: "State (for attorney-fee-shifting and business-goodwill rules)", type: "state" },
       { key: "initialOffer", label: "Condemning authority's initial offer ($)", type: "number" },
-      { key: "severanceOrBusinessValueDispute", label: "Does the dispute involve severance damages, access loss, or business value (not just land value)?", type: "boolean" },
+      { key: "severanceDamagesClaimed", label: "Does the dispute involve severance/access damages to a remainder parcel?", type: "boolean" },
+      { key: "businessGoodwillLossClaimed", label: "Is a separate loss of business goodwill being claimed (distinct from land/severance value)?", type: "boolean" },
       { key: "challengingTheTaking", label: "Is the owner challenging the taking itself (not just the value)?", type: "boolean" },
       { key: "opposingSurveyAccess", label: "Is this a pre-condemnation survey/access dispute?", type: "boolean" },
       { key: "regulatoryTakingAlleged", label: "Is a regulatory taking alleged (no formal condemnation filed)?", type: "boolean" },
@@ -298,6 +302,24 @@
       facts.wrongfulLockoutRemedyType = m.wrongfulLockoutRemedyType;
       facts.wrongfulLockoutRemedyValue = m.wrongfulLockoutRemedyValue;
       facts.wrongfulLockoutCitation = m.wrongfulLockoutCitation;
+    }
+    // pull in attorney-fee-shifting + business-goodwill state law for eminent-domain
+    if (slug === "eminent-domain" && facts.state) {
+      const feeMod = EMINENT_DOMAIN_FEE_MODS[facts.state];
+      if (feeMod) {
+        facts.eminentDomainFeeThresholdPct = feeMod.thresholdPct;
+        facts.eminentDomainFeeMandatory = feeMod.mandatory;
+        facts.eminentDomainFeeCapNote = feeMod.capNote || null;
+        facts.eminentDomainFeeCitation = feeMod.citation;
+        facts.eminentDomainFeeNote = feeMod.note;
+      }
+      facts.eminentDomainGoodwillRecognized = EMINENT_DOMAIN_GOODWILL.recognizedStates.includes(facts.state);
+      facts.eminentDomainGoodwillCitation = facts.eminentDomainGoodwillRecognized
+        ? EMINENT_DOMAIN_GOODWILL.recognizedCitation
+        : null;
+      facts.eminentDomainGoodwillNote = facts.eminentDomainGoodwillRecognized
+        ? EMINENT_DOMAIN_GOODWILL.recognizedNote
+        : EMINENT_DOMAIN_GOODWILL.majorityRuleNote;
     }
     return facts;
   }

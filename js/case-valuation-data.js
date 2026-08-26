@@ -684,6 +684,15 @@ const CASE_VALUATION_DATA = {
               "formula": "fairMarketValueOfInterestTaken",
               "researchNote": "When a regulatory taking IS found compensable, damages tend toward the FULL pre-regulation value, not a negotiated figure (Lost Tree Village Corp.: $4.2M = full appraised value for a 99.4% economic wipeout). Resolution takes far longer than direct condemnation and often bounces between courts multiple times before any dollar figure is fixed (DeVillier v. Texas remanded on the threshold cause-of-action question alone; Arkansas Game & Fish Commission took a SCOTUS trip plus a Federal Circuit remand)."
             }
+          },
+          "eminent_domain_attorney_fees": {
+            "side": "sideA",
+            "label": "Attorney's Fees (Fee-Shifting)",
+            "appliesIf": "estimatedAwardExceedsOfferByStatutoryThresholdPct",
+            "note": "State-specific fee-shifting statute (see eminentDomainAttorneyFees, 51-jurisdiction research) -- only modeled as a dollar claim where the state's rule is a clean percentage-above-the-offer threshold; every other state's real, cited rule is still surfaced in the valuation note even when not mechanized into its own claim.",
+            "damages": {
+              "formula": "fraction of (estimatedAward - initialOffer), using the state's own statutory cap fraction where the research found one, else a general reasonable-fees proxy"
+            }
           }
         }
       },
@@ -2503,5 +2512,85 @@ const CASE_VALUATION_DATA = {
       "wrongfulLockoutRemedyValue": null,
       "wrongfulLockoutCitation": "Wyoming prohibits self-help eviction but, unlike many states, has no statutory damages multiplier (no double/treble damages) for a wrongful lockout at all -- confirmed actual damages plus costs and attorney's fees only. This is a genuine 'no enhancement exists' finding, not an unresearched gap."
     }
+  },
+
+  /* Eminent domain attorney-fee shifting, researched per state (51
+     jurisdictions incl. DC). `thresholdPct` is only set where the state's
+     rule is a clean percentage-above-the-offer trigger simple enough to
+     mechanize into an automatic claim; every other state still gets a
+     real citation and note even though it isn't mechanized, the same way
+     Wyoming's "no enhancement exists" is a confirmed finding elsewhere in
+     this file, not an unresearched gap. `capNote` flags a state that caps
+     the fee award itself (dollar cap or fraction-of-excess cap) rather
+     than the underlying threshold. Source: 50-state survey cross-checked
+     against individual state statute text, Aug 2026. */
+  "eminentDomainAttorneyFees": {
+    "Alabama": { "thresholdPct": null, "mandatory": false, "citation": "Ala. case law (no general fee-shifting statute)", "note": "Alabama does not award attorney's fees in condemnation actions even when the judgment substantially exceeds the offer. Narrow exception: litigation expenses if the action is wholly or partly dismissed." },
+    "Alaska": { "thresholdPct": 10, "mandatory": true, "citation": "Alaska R. Civ. P. 72(k)", "note": "Entitled to fees when the final award is at least 10% greater than the amount deposited by the condemnor, or the condemnor cannot take the property." },
+    "Arizona": { "thresholdPct": null, "mandatory": false, "citation": "Ariz. Rev. Stat. § 12-1130(D)", "note": "Court \"may\" award fees to residential property owners in direct condemnation; \"shall\" award if the taking is found unnecessary for public use -- not a clean percentage trigger." },
+    "Arkansas": { "thresholdPct": 20, "mandatory": true, "citation": "Ark. Code Ann. § 18-15-103(11)(A)", "note": "Entitled to fees when the final award exceeds the initial offer by at least 20%." },
+    "California": { "thresholdPct": null, "mandatory": false, "citation": "Cal. Civ. Proc. Code § 1250.410", "note": "Court may award fees when the condemnee's demand was reasonable and the condemnor's offer was unreasonable -- a reasonableness test, not a percentage threshold." },
+    "Colorado": { "thresholdPct": 30, "mandatory": true, "citation": "Colo. Rev. Stat. § 38-1-122", "note": "Available if the award exceeds the agency's offer by at least 30%, or the condemnor abandons or lacks authority." },
+    "Connecticut": { "thresholdPct": null, "mandatory": false, "citation": "Conn. Gen. Stat. §§ 48-17a, -17b", "note": "Fees only if the acquiring entity abandons the action or an inverse-condemnation claim succeeds -- not available on a simple valuation win." },
+    "Delaware": { "thresholdPct": null, "mandatory": false, "citation": "Del. Code Ann. tit. 10, § 6111(2)", "note": "Owner may apply for fees if the award is closer to the condemnee's demand than the condemnor's offer -- a relative-closeness test, not a clean percentage." },
+    "District of Columbia": { "thresholdPct": null, "mandatory": false, "citation": "Not confirmed", "note": "No general fee-shifting statute for direct condemnation was confirmed in this research -- treat as unresearched rather than a confirmed \"no,\" and verify locally before relying on this." },
+    "Florida": { "thresholdPct": null, "mandatory": true, "citation": "Fla. Stat. § 73.092(1)", "note": "Court \"shall\" award fees based on a statutory benefit-achieved formula tied to the difference between the judgment and the condemnor's last written offer -- not a simple percentage threshold." },
+    "Georgia": { "thresholdPct": null, "mandatory": false, "citation": "Ga. Code Ann. §§ 22-4-8, 22-1-12", "note": "No fees in direct takings generally; available only on abandonment or a successful inverse claim on federal-aid projects." },
+    "Hawaii": { "thresholdPct": null, "mandatory": false, "citation": "Haw. Rev. Stat. § 101-27", "note": "Generally not entitled to fees in direct condemnation; available if the action is abandoned or dismissed." },
+    "Idaho": { "thresholdPct": 10, "mandatory": false, "citation": "Idaho Code Ann. § 7-711A(8)", "note": "Trial court may award fees if the award exceeds the condemnor's last timely offer by at least 10%." },
+    "Illinois": { "thresholdPct": null, "mandatory": false, "citation": "735 Ill. Comp. Stat. § 30/10-5-110", "note": "Entitled only where a private entity controls the property and the award exceeds the condemnee's final written offer; otherwise available only for inverse claims or abandonment." },
+    "Indiana": { "thresholdPct": 0, "mandatory": true, "capNote": "Capped at the lesser of $25,000 or the property's fair market value.", "citation": "Ind. Code § 32-24-1-14", "note": "Condemnor responsible for fees whenever the final damages exceed the final settlement offer, capped at the lesser of $25,000 or fair market value." },
+    "Iowa": { "thresholdPct": 10, "mandatory": true, "citation": "Iowa Code § 6B.33", "note": "Agency \"shall\" pay fees if the award exceeds the final offer by at least 10%." },
+    "Kansas": { "thresholdPct": null, "mandatory": false, "citation": "Kan. Stat. Ann. § 26-509", "note": "Discretionary, and measured against the court-appointed appraisers' award rather than the condemnor's offer." },
+    "Kentucky": { "thresholdPct": null, "mandatory": false, "citation": "Ky. Rev. Stat. Ann. § 453.260(6)(c)", "note": "Generally not entitled to fees in direct condemnation." },
+    "Louisiana": { "thresholdPct": null, "mandatory": false, "citation": "La. Stat. Ann. §§ 19:8(A)(3), 19:109(A)", "note": "Discretionary if the final compensation exceeds the condemnor's highest offer -- no fixed percentage given." },
+    "Maine": { "thresholdPct": null, "mandatory": false, "citation": "Me. Rev. Stat. tit. 23, § 154", "note": "Entitled to fees only when the condemning entity abandons the action." },
+    "Maryland": { "thresholdPct": null, "mandatory": false, "citation": "Md. Code Ann., Real Prop. §§ 12-106(b)(5), 107(b), 109(e)", "note": "Not recoverable unless the entity abandons or judgment is entered against its right to condemn." },
+    "Massachusetts": { "thresholdPct": null, "mandatory": false, "citation": "Mass. Gen. Laws ch. 79, § 38", "note": "Not recoverable in direct condemnation." },
+    "Michigan": { "thresholdPct": 0, "mandatory": true, "capNote": "Fee itself is capped at 1/3 of the amount by which the award exceeds the offer -- so the fee estimate should use that fraction, not a full \"reasonable fees\" figure.", "citation": "Mich. Comp. Laws Ann. § 213.66(3)", "note": "Entitled to reasonable fees whenever the final award exceeds the good-faith offer, capped at 1/3 of the excess." },
+    "Minnesota": { "thresholdPct": 20, "mandatory": false, "citation": "Minn. Stat. Ann. § 117.031(a)", "note": "Court \"shall award\" fees if the judgment is 40%+ greater than the agency's last written offer; \"may\" award between 20-40% greater." },
+    "Mississippi": { "thresholdPct": null, "mandatory": false, "citation": "Maples v. Miss. Hwy. Comm'n, 617 So.2d 265, 271", "note": "Not entitled -- Mississippi courts have held \"just compensation is for the property and not to the owner,\" so fees are not shifted regardless of outcome." },
+    "Missouri": { "thresholdPct": null, "mandatory": false, "citation": "Mo. Rev. Stat. §§ 523.256, .259", "note": "Condemnor responsible for fees only if it fails good-faith negotiation or abandons the action." },
+    "Montana": { "thresholdPct": null, "mandatory": false, "citation": "Mont. Code Ann. §§ 70-30-305(2), 306(1)-(2)", "note": "Entitled if the award exceeds the final offer or the owner successfully challenges the taking -- no fixed percentage given." },
+    "Nebraska": { "thresholdPct": null, "mandatory": false, "citation": "Neb. Rev. Stat. § 76-720", "note": "Required in specific appeal-outcome scenarios with dual thresholds (roughly 15% or 85% depending on posture) or if the condemnor abandons or a challenge succeeds -- too fact-specific to mechanize as a single percentage." },
+    "Nevada": { "thresholdPct": null, "mandatory": false, "citation": "Nev. Rev. Stat. §§ 37.120, 37.180, 37.185", "note": "Not responsible in direct takings; required only for successful inverse claims or abandonment." },
+    "New Hampshire": { "thresholdPct": null, "mandatory": false, "citation": "N.H. Rev. Stat. § 498-A:26-b", "note": "Not required in direct cases; responsible only if a challenge to the taking succeeds." },
+    "New Jersey": { "thresholdPct": null, "mandatory": false, "citation": "N.J. Stat. § 20:3-26(b)-(c)", "note": "Not entitled in direct condemnation; available for inverse claims, successful challenges, or abandonment." },
+    "New Mexico": { "thresholdPct": null, "mandatory": false, "citation": "Primetime Hosp., Inc. v. City of Albuquerque, 142 N.M. 663, 675", "note": "Generally not entitled to fees in direct or inverse condemnation." },
+    "New York": { "thresholdPct": null, "mandatory": false, "citation": "N.Y. Em. Dom. Proc. Law § 701", "note": "Discretionary when the award is \"substantially in excess\" of the condemnor's proof -- not a fixed percentage." },
+    "North Carolina": { "thresholdPct": null, "mandatory": false, "citation": "N.C. Gen. Stat. § 40A-8(b)", "note": "Responsible for fees only if the condemnor abandons or a court rules it unauthorized to condemn." },
+    "North Dakota": { "thresholdPct": null, "mandatory": false, "citation": "N.D. Cent. Code § 32-15-32", "note": "Discretionary by statute, though courts in practice commonly order reasonable costs and fees regardless of a specific threshold." },
+    "Ohio": { "thresholdPct": 25, "mandatory": true, "capNote": "Fee itself is capped at 25% of the difference between the award and the offer.", "citation": "Ohio Rev. Code §§ 163.09(G), 163.21(A)(2), 163.21(C)", "note": "Entitled if the jury award exceeds 125% of the condemnor's last written offer (i.e., beats it by 25%+), capped at 25% of the difference; also available if a challenge succeeds or the entity abandons." },
+    "Oklahoma": { "thresholdPct": 10, "mandatory": true, "citation": "Okla. Stat. tit. 27, § 11(3)", "note": "Entitled if the jury award exceeds the commissioners' award by at least 10% (measured against the commissioners' award, not the condemnor's initial offer), or the condemnor abandons or is found unable to condemn." },
+    "Oregon": { "thresholdPct": 0, "mandatory": false, "citation": "Or. Rev. Stat. §§ 35.300, 35.346(7)", "note": "May recover fees whenever the jury award exceeds the condemnor's highest written offer, by any amount -- discretionary, not automatic." },
+    "Pennsylvania": { "thresholdPct": null, "mandatory": false, "capNote": "Flat $4,000 reimbursement, not a percentage-of-excess award.", "citation": "26 Pa. Cons. Stat. §§ 306(g)(1), 308(d), 709, 710", "note": "Entitled to a flat (capped) reimbursement, or full fees only on a successful inverse claim, a successful challenge, or abandonment." },
+    "Rhode Island": { "thresholdPct": null, "mandatory": false, "citation": "R.I. Gen. Laws § 45-29-24(c)", "note": "Statute expressly excludes attorney's fees from recoverable costs -- confirmed not available, not an unresearched gap." },
+    "South Carolina": { "thresholdPct": null, "mandatory": false, "citation": "S.C. Code Ann. § 28-2-510(B)", "note": "Entitled when the award is at least as close to the condemnee's highest valuation as it is to the condemnor's -- a relative-closeness test, not a clean percentage." },
+    "South Dakota": { "thresholdPct": 20, "mandatory": true, "capNote": "Award must also be at least $700.", "citation": "S.D. Codified Laws § 21-35-23", "note": "Entitled when the award is at least 20% higher than the condemnor's offer at commencement, and the award is at least $700." },
+    "Tennessee": { "thresholdPct": null, "mandatory": false, "citation": "Tenn. Code Ann. §§ 29-17-912(b), 29-16-123(b)", "note": "Entitled only if the condemnor cannot acquire the property or abandons, or the owner prevails on an inverse claim." },
+    "Texas": { "thresholdPct": null, "mandatory": false, "citation": "Tex. Prop. Code Ann. § 21.047", "note": "Owners are generally responsible for their own fees in Texas, even in inverse-condemnation cases -- confirmed no general fee-shifting, not an unresearched gap." },
+    "Utah": { "thresholdPct": 0, "mandatory": true, "capNote": "Capped at $50,000; conversely the condemnor can recover its own fees if the award is less than the condemnee's final offer.", "citation": "Utah Code Ann. § 78B-6-509(7)-(8)", "note": "Can recover fees (capped at $50,000) whenever the award exceeds the condemnee's rejected settlement offer." },
+    "Vermont": { "thresholdPct": null, "mandatory": false, "citation": "Vt. Stat. Ann. tit. 19, § 505(D)(1)", "note": "Entitled only when the entity lacks authority or abandons the proceeding." },
+    "Virginia": { "thresholdPct": null, "mandatory": false, "citation": "Va. Code §§ 25.1-245.1(c)(i), 25.1-249, 25.1-419, 25.1-420", "note": "Not entitled in direct condemnation; available if the entity abandons, lacks authority, or an inverse claim succeeds." },
+    "Washington": { "thresholdPct": 10, "mandatory": true, "citation": "Wash. Rev. Code § 8.25.070(1)(b)", "note": "Entitled if the judgment exceeds the condemnor's highest written offer by at least 10%." },
+    "West Virginia": { "thresholdPct": null, "mandatory": false, "citation": "Dep't of Transp. v. Newton, 238 W. Va. 615, 622", "note": "Generally not entitled to fees in a traditional condemnation action." },
+    "Wisconsin": { "thresholdPct": 15, "mandatory": true, "citation": "Wis. Stat. § 32.28(3)", "note": "Entitled if the award exceeds the highest offer by at least 15%, an inverse claim succeeds, the condemnor lacks the right to condemn, or it abandons." },
+    "Wyoming": { "thresholdPct": 15, "mandatory": true, "citation": "Wyo. Stat. Ann. §§ 1-26-509(j), 16-7-116, 16-7-117", "note": "Entitled if the award exceeds the condemnor's final offer by at least 15%, or the condemnor abandons or an inverse claim prevails." }
+  },
+
+  /* Business/goodwill-loss compensability: this narrower question was
+     researched to confirm California's clear statutory right, and to
+     confirm the general majority rule (most states treat business/
+     goodwill loss as non-compensable "consequential" damages under the
+     unity-of-use doctrine, absent a specific statute). It was NOT
+     individually verified state-by-state the way the fee-shifting table
+     above was -- a minority of other states may have their own narrower
+     goodwill statutes not captured here, so the non-CA note says exactly
+     that rather than implying a confirmed "no" for all 49 other states. */
+  "eminentDomainBusinessGoodwill": {
+    "recognizedStates": ["California"],
+    "recognizedNote": "California's Eminent Domain Law allows compensation for loss of business goodwill caused by the taking, if the owner proves the loss could not reasonably have been prevented by relocating the business or other mitigation.",
+    "recognizedCitation": "Cal. Code Civ. Proc. § 1263.510",
+    "majorityRuleNote": "The majority rule across most states treats business/goodwill loss as a non-compensable consequential loss, separate from the value of the real property itself, absent a specific state statute creating a right to it. A minority of other states may have their own narrower goodwill statutes not individually verified here -- confirm your state's specific rule before relying on this."
   }
 };

@@ -337,14 +337,75 @@
   /* ---------- eminent-domain ---------- */
   function evalEminentDomain(facts) {
     const out = [];
+    let estimatedAward = null; // [lo, hi], reused below for the attorney-fee threshold check
     if (facts.initialOffer > 0) {
-      const severance = facts.severanceOrBusinessValueDispute;
-      const [loMult, hiMult] = severance ? [2.0, 5.0] : [0.5, 1.0];
-      out.push(result("just_compensation_valuation", "Just Compensation Valuation", [1, 1],
-        facts.initialOffer * (1 + loMult), facts.initialOffer * (1 + hiMult),
-        severance
-          ? "Severance/access/business-value disputes ran 2x–5x+ above the initial offer in the research sample (one case ~49x)."
-          : "Routine comparable-sales-driven disputes ran ~50–100% above the initial offer in the research sample. Probability is shown as 100% because the property is being taken either way — the uncertainty here is in the VALUATION, not whether compensation is owed, so the full estimated award counts toward net position."));
+      const severance = facts.severanceDamagesClaimed;
+      const goodwill = facts.businessGoodwillLossClaimed;
+      const goodwillRecognized = facts.eminentDomainGoodwillRecognized;
+      // Severance/access damage to a remainder parcel is compensable in
+      // essentially every US jurisdiction as part of the Fifth Amendment
+      // "just compensation" requirement -- no real state-variance issue,
+      // so it always qualifies for the wide, case-researched uplift tier.
+      // Business/goodwill loss is different: most states treat it as
+      // non-compensable "consequential" damage absent a specific statute
+      // (majority rule) -- it only earns the wide tier where the state
+      // actually recognizes it (confirmed for California; see
+      // eminentDomainBusinessGoodwill in case-valuation-data.js for the
+      // caveat that a minority of other states may have their own
+      // narrower, not-individually-verified statutes).
+      const wideTierApplies = severance || (goodwill && goodwillRecognized);
+      const [loMult, hiMult] = wideTierApplies ? [2.0, 5.0] : [0.5, 1.0];
+      const lo = facts.initialOffer * (1 + loMult);
+      const hi = facts.initialOffer * (1 + hiMult);
+      estimatedAward = [lo, hi];
+      let note = wideTierApplies
+        ? "Severance/access/business-value disputes ran 2x–5x+ above the initial offer in the research sample (one case ~49x)."
+        : "Routine comparable-sales-driven disputes ran ~50–100% above the initial offer in the research sample. Probability is shown as 100% because the property is being taken either way — the uncertainty here is in the VALUATION, not whether compensation is owed, so the full estimated award counts toward net position.";
+      if (goodwill && goodwillRecognized) {
+        note += ` Business-goodwill loss included: ${facts.eminentDomainGoodwillNote} (${facts.eminentDomainGoodwillCitation})`;
+      } else if (goodwill && !goodwillRecognized) {
+        note += ` A separate business-goodwill claim was flagged but excluded from this estimate: ${facts.eminentDomainGoodwillNote}`;
+      }
+      out.push(result("just_compensation_valuation", "Just Compensation Valuation", [1, 1], lo, hi, note));
+
+      // Attorney-fee shifting is real and state-specific (51-jurisdiction
+      // research in eminentDomainAttorneyFees), but only mechanized into a
+      // dollar estimate where the state's rule is a clean percentage-
+      // above-the-offer threshold -- see the data file for every other
+      // state's real, cited rule even where it isn't mechanized here.
+      if (estimatedAward && typeof facts.eminentDomainFeeThresholdPct === "number") {
+        const thresholdMultiplier = 1 + facts.eminentDomainFeeThresholdPct / 100;
+        if (estimatedAward[0] >= facts.initialOffer * thresholdMultiplier) {
+          const excessLow = estimatedAward[0] - facts.initialOffer;
+          const excessHigh = estimatedAward[1] - facts.initialOffer;
+          // Fraction of the excess awarded as fees: use the state's own
+          // statutory cap fraction where the research found one (Michigan
+          // 1/3, Ohio 25%), otherwise a general reasonable-fees proxy --
+          // clearly a proxy, not itself a cited figure, since "reasonable
+          // fees" is fact-specific by design in every one of these statutes.
+          const capNote = facts.eminentDomainFeeCapNote || "";
+          let feeLoFrac = 0.20, feeHiFrac = 0.35;
+          if (/1\/3/.test(capNote)) { feeLoFrac = 0.28; feeHiFrac = 1 / 3; }
+          else if (/25%/.test(capNote)) { feeLoFrac = 0.18; feeHiFrac = 0.25; }
+          let feeLow = excessLow * feeLoFrac;
+          let feeHigh = excessHigh * feeHiFrac;
+          const dollarCapMatch = /\$([\d,]+)/.exec(capNote);
+          if (dollarCapMatch) {
+            const cap = parseInt(dollarCapMatch[1].replace(/,/g, ""), 10);
+            feeLow = Math.min(feeLow, cap);
+            feeHigh = Math.min(feeHigh, cap);
+          }
+          const p = facts.eminentDomainFeeMandatory ? [0.65, 0.85] : [0.35, 0.55];
+          out.push(result("eminent_domain_attorney_fees", "Attorney's Fees (Fee-Shifting)", p, feeLow, feeHigh,
+            `${facts.eminentDomainFeeNote} (${facts.eminentDomainFeeCitation})${capNote ? " " + capNote : ""}`));
+        }
+      } else if (facts.state && facts.eminentDomainFeeNote && facts.eminentDomainFeeThresholdPct === null) {
+        // Not a clean percentage threshold (discretionary, conditional on
+        // abandonment/inverse claims, or no fee-shifting at all) -- fold
+        // the real researched rule into the valuation note instead of
+        // fabricating a probability for a claim that isn't mechanizable.
+        out[out.length - 1].note += ` Attorney's fees: ${facts.eminentDomainFeeNote} (${facts.eminentDomainFeeCitation})`;
+      }
     }
     if (facts.challengingTheTaking) {
       out.push(result("quick_take_challenge", "Quick-Take / Public-Use Challenge", [0.05, 0.15], null, null,
