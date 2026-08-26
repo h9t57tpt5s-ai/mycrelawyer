@@ -550,6 +550,38 @@
   // (it has freeform analysis text and an optional, not-always-present
   // probability/damages range, since not every issue reduces to a dollar
   // figure) -- its own card, visually consistent with claimResultHtml.
+  // A scannable at-a-glance table -- issue, likelihood, damages if
+  // successful, expected value -- so someone can see the range of
+  // outcomes in one look instead of reading through prose cards for it.
+  // Mirrors the same EV formula used in the PDF download handler below
+  // (damages x probability, taken range-wise).
+  function summaryTableHtml(a) {
+    const issues = a.issues || [];
+    if (!issues.length) return "";
+    const rows = issues.map((iss) => {
+      const prob = iss.probabilityRange;
+      const dmg = iss.damagesRange;
+      const ev = dmg && prob ? [dmg[0] * prob[0], dmg[1] * prob[1]] : null;
+      return `
+        <tr>
+          <td class="cv-summary-table-issue">${iss.label}</td>
+          <td>${prob ? `${Math.round(prob[0] * 100)}–${Math.round(prob[1] * 100)}%` : "—"}</td>
+          <td>${dmg ? V.fmtRange(dmg[0], dmg[1]) : "—"}</td>
+          <td><strong>${ev ? V.fmtRange(ev[0], ev[1]) : "—"}</strong></td>
+        </tr>`;
+    }).join("");
+    const totalRow = a.damagesRange
+      ? `<tr class="cv-summary-table-total"><td>Net position</td><td></td><td></td><td><strong>${V.fmtRange(a.damagesRange[0], a.damagesRange[1])}</strong></td></tr>`
+      : "";
+    return `
+      <div class="cv-summary-table-wrap">
+        <table class="cv-summary-table">
+          <thead><tr><th>Claim</th><th>Likelihood</th><th>Damages if successful</th><th>Expected value</th></tr></thead>
+          <tbody>${rows}${totalRow}</tbody>
+        </table>
+      </div>`;
+  }
+
   function issueResultHtml(iss) {
     return `
       <div class="cv-claim-card">
@@ -586,7 +618,7 @@
       ? `<div class="cv-ai-facts"><div class="cv-citations-label">Facts extracted from your documents (review above, then re-run Estimate anytime to test edits):</div>${factEntries.map(([k, v]) => `<span class="detail-tag">${k}: ${v}</span>`).join("")}</div>`
       : "";
     const issuesHtml = (a.issues || []).length
-      ? `<div class="cv-claims" style="margin-top:16px;">${a.issues.map(issueResultHtml).join("")}</div>`
+      ? `<div class="eyebrow" style="margin:20px 0 8px;">Claim-by-Claim Detail</div><div class="cv-claims">${a.issues.map(issueResultHtml).join("")}</div>`
       : "";
     const baselineClaimsHtml = (baseline.claims || []).length
       ? `<div class="cv-claims" style="margin-top:12px;">${baseline.claims.map(claimResultHtml).join("")}</div>`
@@ -599,6 +631,7 @@
         ${a.damagesRange ? `<div class="cv-net">${V.fmtRange(a.damagesRange[0], a.damagesRange[1])}</div>` : ""}
         ${a.likelyOutcome ? `<p class="text-secondary" style="font-size:13.5px; margin-top:8px;">${a.likelyOutcome}</p>` : ""}
       </div>
+      ${summaryTableHtml(a)}
       ${a.narrative ? `<div class="card" style="padding:20px; margin-top:16px;"><div class="eyebrow" style="margin-bottom:8px;">Comprehensive Analysis</div><p class="cv-note" style="font-size:13.5px; line-height:1.7;">${a.narrative}</p></div>` : ""}
       <div id="cv-gated-content" style="margin-top:16px;">
         <div class="card" style="padding:20px;">

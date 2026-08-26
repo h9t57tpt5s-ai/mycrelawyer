@@ -87,3 +87,22 @@
 
 .cv-ai-facts { border-top: 1px solid var(--border-soft); padding-top: 10px; margin: 10px 0; }
 .cv-ai-facts .detail-tag { margin: 2px 4px 2px 0; }
+
+/* At-a-glance damages/probability table -- the primary "quick look" view
+   requested to sit above the prose narrative and per-claim cards, styled
+   like the rest of the PDF report's plain, no-nonsense number layout. */
+.cv-summary-table-wrap { margin-top: 16px; overflow-x: auto; border: 1px solid var(--border); border-radius: 10px; background: var(--bg-elevated); }
+.cv-summary-table { width: 100%; border-collapse: collapse; font-size: 13px; }
+.cv-summary-table th, .cv-summary-table td { padding: 11px 16px; text-align: right; white-space: nowrap; }
+.cv-summary-table th:first-child, .cv-summary-table td:first-child { text-align: left; white-space: normal; }
+.cv-summary-table thead th { font-family: var(--font-mono); font-size: 10.5px; text-transform: uppercase; letter-spacing: 0.04em; color: var(--text-muted); font-weight: 600; border-bottom: 1px solid var(--border); }
+.cv-summary-table tbody tr:not(:last-child) { border-bottom: 1px solid var(--border-soft); }
+.cv-summary-table-issue { color: var(--text-primary); font-weight: 500; }
+.cv-summary-table td { color: var(--text-secondary); }
+.cv-summary-table-total td { border-top: 1.5px solid var(--border); color: var(--text-primary); font-weight: 600; padding-top: 12px; }
+.cv-summary-table-total td:first-child { font-family: var(--font-mono); font-size: 11px; text-transform: uppercase; letter-spacing: 0.03em; }
+
+@media (max-width: 560px) {
+  .cv-summary-table { font-size: 12px; }
+  .cv-summary-table th, .cv-summary-table td { padding: 9px 10px; }
+}
