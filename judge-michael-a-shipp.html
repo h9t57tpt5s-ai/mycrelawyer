@@ -115,7 +115,7 @@
       <a href="https://www.fjc.gov/history/judges/shipp-michael-andre" target="_blank" rel="noopener" class="btn btn-ghost btn-sm">Official biography &#8599;</a>
     </div>
 
-    <div class="grid-3 reveal-stagger mb-32" id="jp-stats"></div>
+    <div class="grid-4 reveal-stagger mb-32" id="jp-stats"></div>
 
     <div class="section-head reveal">
       <div>
@@ -231,6 +231,16 @@
     const catMap = Object.fromEntries(RELAW_DATA.categories.map((c) => [c.id, c]));
     const cats = [...new Set(matches.map((c) => c.category))];
     const dates = matches.map((c) => c.date).sort();
+    // Lightweight judge analytics: a real grant-rate/time-to-ruling
+    // breakdown needs structured per-motion outcome data this dataset
+    // doesn't capture yet -- this status breakdown (filed/pending/ruling/
+    // settled/on appeal) is what's honestly derivable from tracked
+    // matters today, and lays the groundwork for the fuller version once
+    // that data exists.
+    const statusMap = Object.fromEntries(RELAW_DATA.statuses.map((s) => [s.id, s]));
+    const statusCounts = Object.entries(
+      matches.reduce((acc, c) => { acc[c.status] = (acc[c.status] || 0) + 1; return acc; }, {})
+    ).map(([id, count]) => [statusMap[id] || { label: id, color: "var(--text-muted)" }, count]);
     const statsGrid = document.getElementById("jp-stats");
     statsGrid.innerHTML = `
       <div class="card reveal" style="text-align:center; padding:24px;">
@@ -241,6 +251,12 @@
         <div class="text-muted" style="font-size:12px; text-transform:uppercase; letter-spacing:0.04em; margin-bottom:10px;">Practice Areas</div>
         <div style="display:flex; flex-wrap:wrap; gap:6px;">
           ${cats.map((id) => { const cat = catMap[id]; return `<span class="badge" style="background:color-mix(in srgb, ${cat.color} 16%, transparent); color:${cat.color}; border:1px solid color-mix(in srgb, ${cat.color} 35%, transparent);"><span class="badge-dot" style="background:${cat.color}"></span>${cat.label}</span>`; }).join("")}
+        </div>
+      </div>
+      <div class="card reveal" style="padding:24px;">
+        <div class="text-muted" style="font-size:12px; text-transform:uppercase; letter-spacing:0.04em; margin-bottom:10px;">Case Status</div>
+        <div style="display:flex; flex-wrap:wrap; gap:6px;">
+          ${statusCounts.map(([st, count]) => `<span class="badge" style="background:color-mix(in srgb, ${st.color} 16%, transparent); color:${st.color}; border:1px solid color-mix(in srgb, ${st.color} 35%, transparent);"><span class="badge-dot" style="background:${st.color}"></span>${count} ${st.label}</span>`).join("")}
         </div>
       </div>
       <div class="card reveal" style="padding:24px;">
