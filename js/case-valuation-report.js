@@ -64,6 +64,39 @@ window.CV_REPORT = (function () {
       doc.setDrawColor(216, 211, 196); doc.line(marginX, y, pageW - marginX, y);
       y += 16;
     }
+    // A real column-aligned table -- claim, likelihood, damages if
+    // successful, expected value -- so the reader can see how the case
+    // value range (and the best-guess figure on the title page) was
+    // actually reached in one look, the same way the on-screen summary
+    // table works. colWidths must sum to maxW.
+    function table(headers, rows, colWidths, opts) {
+      opts = opts || {};
+      addPageIfNeeded(24);
+      doc.setFont("helvetica", "bold"); doc.setFontSize(9); doc.setTextColor(NAVY);
+      let x = marginX;
+      headers.forEach((h, i) => { doc.text(h, x, y); x += colWidths[i]; });
+      y += 6;
+      doc.setDrawColor(156, 122, 50); doc.setLineWidth(1);
+      doc.line(marginX, y, marginX + colWidths.reduce((a, b) => a + b, 0), y);
+      y += 14;
+      rows.forEach((row, rowIdx) => {
+        const isTotal = opts.totalRowIndex === rowIdx;
+        doc.setFont("helvetica", isTotal ? "bold" : "normal");
+        doc.setFontSize(9);
+        doc.setTextColor(isTotal ? NAVY : INK);
+        const wrapped = row.map((cell, i) => doc.splitTextToSize(String(cell), colWidths[i] - 8));
+        const lineCount = Math.max(...wrapped.map((w) => w.length));
+        addPageIfNeeded(lineCount * 12 + 8);
+        if (isTotal) {
+          doc.setDrawColor(216, 211, 196);
+          doc.line(marginX, y - 6, marginX + colWidths.reduce((a, b) => a + b, 0), y - 6);
+        }
+        let cx = marginX;
+        wrapped.forEach((lines, i) => { doc.text(lines, cx, y); cx += colWidths[i]; });
+        y += lineCount * 12 + 6;
+      });
+      y += 8;
+    }
 
     const roleLabel = ctx.side === "sideA" ? ctx.roles.sideA : ctx.roles.sideB;
 
@@ -84,11 +117,22 @@ window.CV_REPORT = (function () {
     y += 40;
     doc.setDrawColor(156, 122, 50); doc.setLineWidth(1.2);
     doc.line(marginX, y, marginX + 200, y); y += 20;
-    doc.setFont("helvetica", "bold"); doc.setFontSize(20); doc.setTextColor(NAVY);
-    doc.text(fmtMoneyRange(ctx.net), marginX, y);
-    y += 18;
-    doc.setFont("helvetica", "normal"); doc.setFontSize(10); doc.setTextColor(MUTED);
-    doc.text(`Estimated net position — ${roleLabel} view`, marginX, y);
+    if (typeof ctx.bestGuessValue === "number") {
+      doc.setFont("helvetica", "bold"); doc.setFontSize(26); doc.setTextColor(NAVY);
+      doc.text(fmtMoney(ctx.bestGuessValue), marginX, y);
+      y += 16;
+      doc.setFont("helvetica", "normal"); doc.setFontSize(9.5); doc.setTextColor(MUTED);
+      doc.text(`Best-guess case value — ${roleLabel} view`, marginX, y);
+      y += 20;
+      doc.setFont("helvetica", "normal"); doc.setFontSize(10.5); doc.setTextColor(INK);
+      doc.text(`Full range: ${fmtMoneyRange(ctx.net)}`, marginX, y);
+    } else {
+      doc.setFont("helvetica", "bold"); doc.setFontSize(20); doc.setTextColor(NAVY);
+      doc.text(fmtMoneyRange(ctx.net), marginX, y);
+      y += 18;
+      doc.setFont("helvetica", "normal"); doc.setFontSize(10); doc.setTextColor(MUTED);
+      doc.text(`Estimated net position — ${roleLabel} view`, marginX, y);
+    }
 
     doc.addPage(); y = 64;
 
@@ -96,11 +140,36 @@ window.CV_REPORT = (function () {
     body("This is a beta tool. The underlying probability and damages modeling is still being actively developed and refined as more real case data is incorporated — the ranges in this report should be treated as an early, evolving estimate, not a finished or stable model.", { size: 9, color: "#B45309", bold: true, gap: 10 });
     body("This report is an informational estimate for negotiation and planning purposes only. It is not legal advice, does not predict the outcome of any specific case, and does not create an attorney-client relationship. Every probability and damages range is anchored to a specific legal rule and/or cited comparable case outcomes — but real outcomes depend on facts, evidence, judge, venue, and arguments an automated tool cannot fully weigh. Consult qualified local counsel before making any decision based on this estimate.", { size: 9, color: MUTED, gap: 16 });
 
+    if (ctx.likelyOutcome) {
+      heading("Executive Discovery", 13);
+      body(ctx.likelyOutcome, { size: 10.5, gap: 16 });
+      rule();
+    }
+
     heading("Summary", 13);
     body(`Category: ${ctx.categoryLabel}`, { bold: true, gap: 4 });
     body(`Your side: ${roleLabel}`, { bold: true, gap: 4 });
-    body(`Total estimated net position: ${fmtMoneyRange(ctx.net)}`, { bold: true, size: 12, gap: 16 });
+    if (typeof ctx.bestGuessValue === "number") {
+      body(`Best-guess case value: ${fmtMoney(ctx.bestGuessValue)}`, { bold: true, size: 12, gap: 4 });
+      body(`Full range: ${fmtMoneyRange(ctx.net)}`, { gap: 16 });
+    } else {
+      body(`Total estimated net position: ${fmtMoneyRange(ctx.net)}`, { bold: true, size: 12, gap: 16 });
+    }
     rule();
+
+    if (evalResult.claims && evalResult.claims.length) {
+      heading("Damage & Probability Modeling", 13);
+      body("How the case value range above was reached -- likelihood and damages for each claim, and the resulting expected value.", { size: 9, color: MUTED, gap: 10 });
+      const rows = evalResult.claims.map((c) => [
+        c.label,
+        c.probability ? pct(c.probability) : "—",
+        c.damagesRange ? fmtMoneyRange(c.damagesRange) : "—",
+        c.expectedValueRange && !c.isBenchmark ? fmtMoneyRange(c.expectedValueRange) : "—",
+      ]);
+      rows.push(["Net position", "", "", fmtMoneyRange(ctx.net)]);
+      table(["Claim", "Likelihood", "Damages if successful", "Expected value"], rows, [190, 75, 130, 105], { totalRowIndex: rows.length - 1 });
+      rule();
+    }
 
     if (ctx.costData) {
       const { costEstimate, netAfterCosts, comparison } = ctx.costData;
@@ -149,6 +218,12 @@ window.CV_REPORT = (function () {
       }
       rule();
     });
+
+    if (ctx.narrative) {
+      heading("Comprehensive Analysis", 14);
+      body(ctx.narrative, { size: 9.5, gap: 16 });
+      rule();
+    }
 
     heading("Methodology", 13);
     body("This is a structured, rules-based expected-value model (probability of success × damages, summed across applicable claims), not a statistical prediction from a licensed litigation-analytics platform. Probability ranges are calibrated against real, cited case outcomes and, where relevant, verified state law. Expected value = probability × damages for each claim; the total is the sum across all identified claims for your side, presented as a range rather than a single figure.", { size: 9.5, color: MUTED, gap: 16 });

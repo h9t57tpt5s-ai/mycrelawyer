@@ -1005,6 +1005,7 @@ Deno.serve(async (req) => {
         narrative: { type: "string", description: "A comprehensive, detailed reasoned analysis of the actual document(s): the key facts, every claim/defense/issue you identify (not limited to the baseline model's fixed categories), how the cited precedent applies, evidentiary or procedural weaknesses on either side, and how it all nets out for the filing party. Write like a sharp litigator's case assessment memo -- direct, specific, thorough." },
         likelyOutcome: { type: "string", description: "A short (2-3 sentence) bottom-line summary of the likely outcome and why." },
         damagesRange: rangeSchema("YOUR OWN independent probability-weighted net exposure/recovery range for the filing party, in dollars (low/high) -- informed by the baseline but not bound by it. Never a single point estimate."),
+        bestGuessValue: { type: "number", description: "A single best-guess point estimate of net case value in dollars, positioned inside damagesRange above. This is NOT simply the midpoint of the range -- weight it toward whichever end the actual balance of probabilities and damages evidence favors, the same way you'd give a client one number to plan around after already giving them the honest range. Reason from the same per-issue probability x damages assessment you use in `issues` below." },
         issues: {
           type: "array",
           description: "Every distinct claim, defense, or issue you identified in the actual document(s) -- may include ones the fixed baseline model doesn't capture at all (e.g. a specific factual dispute, an evidentiary weakness, a procedural defect, a defense actually raised in an answer). Order by significance.",
@@ -1027,7 +1028,7 @@ Deno.serve(async (req) => {
           },
         },
       },
-      required: ["narrative", "likelyOutcome", "damagesRange", "issues"],
+      required: ["narrative", "likelyOutcome", "damagesRange", "bestGuessValue", "issues"],
       additionalProperties: false,
     };
 
@@ -1061,7 +1062,7 @@ Deno.serve(async (req) => {
         `Read the actual document(s) provided and do a comprehensive analysis for the "${catSpec.label}" category: identify every claim, defense, and issue actually present in the record -- not just what a fixed checklist would catch. Weigh evidentiary strength, procedural posture, and any defenses or counterclaims raised. ` +
         "GROUNDING REQUIREMENT: you may cite ONLY cases from the reference list below, copied EXACTLY by name -- never invent, alter, or guess at a case name, citation, or outcome. If no listed case supports a point, make the point without a citation rather than fabricating one. " +
         "A fixed-formula baseline model's mechanical output is provided as ONE reference data point -- it is not the answer key. Use your own judgment from the actual document; you may agree with, refine, or depart from the baseline, and should say which and why. " +
-        "Every dollar range must be a range, never a single number. Write like a sharp litigator's internal case assessment memo for a client deciding whether to settle or fight -- direct and specific, not hedged into vagueness.",
+        "Every dollar range must be a range, never a single number -- EXCEPT bestGuessValue, which is deliberately the one point estimate in this whole analysis: after laying out the honest range, commit to the single number inside it you'd actually tell the client to plan around, reasoned from the same probability-weighting you used for the range and issues, not just its arithmetic midpoint. Write like a sharp litigator's internal case assessment memo for a client deciding whether to settle or fight -- direct and specific, not hedged into vagueness.",
       messages: [{
         role: "user",
         content:
@@ -1130,6 +1131,15 @@ Deno.serve(async (req) => {
 
     const aiDamagesRange: [number, number] = rangeToTuple(analysisParsed.damagesRange) ?? netPosition;
 
+    // Clamp rather than trust blindly -- a structured-output number field
+    // has no schema-level way to constrain it to fall inside another
+    // field's range, so enforce that here instead of shipping a "best
+    // guess" that could land outside the range it's supposed to pin down.
+    const rawBestGuess = typeof analysisParsed.bestGuessValue === "number" ? analysisParsed.bestGuessValue : null;
+    const bestGuessValue = rawBestGuess === null
+      ? (aiDamagesRange[0] + aiDamagesRange[1]) / 2
+      : Math.min(Math.max(rawBestGuess, aiDamagesRange[0]), aiDamagesRange[1]);
+
     // Only NOW, with a real completed analysis about to go back to the
     // user, does this consume a credit -- see the note at Step 4 above.
     // Deliberately not awaited-and-checked as fatally as the other
@@ -1150,6 +1160,7 @@ Deno.serve(async (req) => {
         narrative: analysisParsed.narrative,
         likelyOutcome: analysisParsed.likelyOutcome,
         damagesRange: aiDamagesRange,
+        bestGuessValue,
         roleLabel,
         categoryLabel: evalResult.categoryLabel,
         issues,

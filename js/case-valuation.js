@@ -548,18 +548,12 @@
     `).join("");
   }
 
-  // Renders the full AI-analysis result (net position, narrative, extracted
-  // facts, claim-by-claim breakdown) into the shared results area, and
-  // pre-fills the shared form fields so the user can review/tweak them.
-  // An AI-identified issue isn't the same shape as a baseline-engine claim
-  // (it has freeform analysis text and an optional, not-always-present
-  // probability/damages range, since not every issue reduces to a dollar
-  // figure) -- its own card, visually consistent with claimResultHtml.
   // A scannable at-a-glance table -- issue, likelihood, damages if
-  // successful, expected value -- so someone can see the range of
-  // outcomes in one look instead of reading through prose cards for it.
-  // Mirrors the same EV formula used in the PDF download handler below
-  // (damages x probability, taken range-wise).
+  // successful, expected value -- so someone can see how the case value
+  // range (and the best-guess figure above it) was actually reached,
+  // instead of reading through prose cards for it. Mirrors the same EV
+  // formula used in the PDF download handler below (damages x
+  // probability, taken range-wise).
   function summaryTableHtml(a) {
     const issues = a.issues || [];
     if (!issues.length) return "";
@@ -575,8 +569,9 @@
           <td><strong>${ev ? V.fmtRange(ev[0], ev[1]) : "—"}</strong></td>
         </tr>`;
     }).join("");
+    const bestGuessCell = typeof a.bestGuessValue === "number" ? ` <span class="text-muted">(best guess: ${V.fmt(a.bestGuessValue)})</span>` : "";
     const totalRow = a.damagesRange
-      ? `<tr class="cv-summary-table-total"><td>Net position</td><td></td><td></td><td><strong>${V.fmtRange(a.damagesRange[0], a.damagesRange[1])}</strong></td></tr>`
+      ? `<tr class="cv-summary-table-total"><td>Net position</td><td></td><td></td><td><strong>${V.fmtRange(a.damagesRange[0], a.damagesRange[1])}</strong>${bestGuessCell}</td></tr>`
       : "";
     return `
       <div class="cv-summary-table-wrap">
@@ -587,6 +582,13 @@
       </div>`;
   }
 
+  // Renders the full AI-analysis result (net position, narrative, extracted
+  // facts, claim-by-claim breakdown) into the shared results area, and
+  // pre-fills the shared form fields so the user can review/tweak them.
+  // An AI-identified issue isn't the same shape as a baseline-engine claim
+  // (it has freeform analysis text and an optional, not-always-present
+  // probability/damages range, since not every issue reduces to a dollar
+  // figure) -- its own card, visually consistent with claimResultHtml.
   function issueResultHtml(iss) {
     return `
       <div class="cv-claim-card">
@@ -633,9 +635,10 @@
       ${emptyFilesHtml}
       <div class="cv-summary card">
         <div class="eyebrow" style="margin-bottom:8px;">AI Analysis — Probability-Weighted Prediction${a.roleLabel ? ` — ${a.roleLabel} view` : ""}</div>
-        ${a.damagesRange ? `<div class="cv-net">${V.fmtRange(a.damagesRange[0], a.damagesRange[1])}</div>` : ""}
-        ${a.likelyOutcome ? `<p class="text-secondary" style="font-size:13.5px; margin-top:8px;">${a.likelyOutcome}</p>` : ""}
+        ${typeof a.bestGuessValue === "number" ? `<div class="cv-net">${V.fmt(a.bestGuessValue)}</div><p class="text-muted" style="font-size:12px; margin-top:2px;">Best-guess case value</p>` : (a.damagesRange ? `<div class="cv-net">${V.fmtRange(a.damagesRange[0], a.damagesRange[1])}</div>` : "")}
+        ${a.damagesRange && typeof a.bestGuessValue === "number" ? `<p class="text-secondary" style="font-size:13px; margin-top:10px;">Full range: <strong>${V.fmtRange(a.damagesRange[0], a.damagesRange[1])}</strong> — kept alongside the single figure above because the range itself is informative, not just noise around a guess.</p>` : ""}
       </div>
+      ${a.likelyOutcome ? `<div class="card" style="padding:20px; margin-top:16px;"><div class="eyebrow" style="margin-bottom:8px;">Executive Discovery</div><p class="text-secondary" style="font-size:14px; line-height:1.6;">${a.likelyOutcome}</p></div>` : ""}
       ${summaryTableHtml(a)}
       ${a.narrative ? `<div class="card" style="padding:20px; margin-top:16px;"><div class="eyebrow" style="margin-bottom:8px;">Comprehensive Analysis</div><p class="cv-note" style="font-size:13.5px; line-height:1.7;">${a.narrative}</p></div>` : ""}
       <div id="cv-gated-content" style="margin-top:16px;">
@@ -670,6 +673,9 @@
           roles: SPEC[slug] ? SPEC[slug].roles : null,
           side: facts.filingParty || sideSelect.value,
           net: a.damagesRange || [0, 0],
+          bestGuessValue: typeof a.bestGuessValue === "number" ? a.bestGuessValue : null,
+          likelyOutcome: a.likelyOutcome || null,
+          narrative: a.narrative || null,
           catSpec: SPEC[slug],
           costData: null
         });
