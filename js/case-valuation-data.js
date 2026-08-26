@@ -1,5 +1,5 @@
 /* =========================================================
-   CREdocket — Litigation Value Estimator: engine spec + citations
+   CREdocket — Case Value Calculator: engine spec + citations
    + per-state law modifiers (lease-disputes category only).
    Generated from case_valuation_project/data/*.json — every
    probability/damages range traces to either a state-law rule or a
@@ -242,7 +242,7 @@ const CASE_VALUATION_DATA = {
             "damages": {
               "formula": "max(0, outstandingLoanBalance + lenderProtectiveAdvances - foreclosureSaleProceeds), single deterministic figure (low == high)",
               "researchNote": "19-case sample: undisputed defaults produce stipulated judgments tracking loan balance closely (AFF IV 200 Miami v. Stonerock: $65.7M judgment on $41.1M principal). Lender protective advances (taxes, insurance) can meaningfully inflate the judgment beyond original principal (Hillsboro Beach Resort: $26M loan + ~$2.9M advances = $40M judgment). Deficiency-judgment AVAILABILITY itself varies by state/foreclosure method — needs a state-law modifier, not yet built.",
-              "note": "SCOPE CHANGE per counsel-of-record review: this figure is the legal deficiency a court would enter judgment for -- it is NOT a post-judgment collectability forecast. An earlier version of this model applied a 0.5x haircut to the high end to approximate collection risk; that was removed. Collectability depends on the borrower/guarantor's asset picture at judgment, which is explicitly out of scope for this estimator -- the tool answers 'what is this case worth,' not 'what will actually be collected.'"
+              "note": "SCOPE CHANGE per counsel-of-record review: this figure is the legal deficiency a court would enter judgment for -- it is NOT a post-judgment collectability forecast. An earlier version of this model applied a 0.5x haircut to the high end to approximate collection risk; that was removed. Collectability depends on the borrower/guarantor's asset picture at judgment, which is explicitly out of scope for this calculator -- the tool answers 'what is this case worth,' not 'what will actually be collected.'"
             }
           },
           "receivership_dispute": {

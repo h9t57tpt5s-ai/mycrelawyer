@@ -1,8 +1,8 @@
 /* =========================================================
    CREdocket — Settlement & Verdict Benchmark search
    -----------------------------------------------------------
-   Flattens the same citation database that backs the Litigation
-   Value Estimator (CASE_VALUATION_DATA.citations, keyed by claim
+   Flattens the same citation database that backs the Case Value
+   Calculator (CASE_VALUATION_DATA.citations, keyed by claim
    type) into one searchable, filterable list -- no new data, just a
    different lens on data that already exists and is already real
    and cited, unlike a generic AI query with nothing to ground it.

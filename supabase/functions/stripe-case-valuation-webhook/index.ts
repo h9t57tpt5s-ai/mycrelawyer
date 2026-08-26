@@ -1,9 +1,9 @@
 // =========================================================
-// CREdocket -- Stripe webhook: unlock the Litigation Value Estimator
+// CREdocket -- Stripe webhook: unlock the Case Value Calculator
 //
 // Same pattern as stripe-handbook-webhook, retargeted at a different
 // product/table. Listens for Stripe's `checkout.session.completed`
-// event on the estimator's Payment Link, matches the buyer's checkout
+// event on the calculator's Payment Link, matches the buyer's checkout
 // email to an existing CREdocket account, and grants ONE_TIME_CREDITS
 // runs by writing a row to public.case_valuation_purchases -- which
 // the client and the analysis Edge Function both check (remaining
@@ -18,7 +18,7 @@
 // 'monthly_subscription') rather than changing this table's shape.
 //
 // Note: this gates the UI presentation, not the underlying data --
-// the estimator computes entirely client-side (there's no per-state
+// the calculator computes entirely client-side (there's no per-state
 // gated content to protect via RLS the way the handbook's chapters
 // are), so this is the same tradeoff every client-side freemium
 // calculator makes. Worth knowing, not a bug.

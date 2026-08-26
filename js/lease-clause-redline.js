@@ -1,7 +1,7 @@
 /* =========================================================
    CREdocket — Lease Clause Redline Checker page logic
    -----------------------------------------------------------
-   Shares the Litigation Value Estimator's credit balance and
+   Shares the Case Value Calculator's credit balance and
    sign-in gating pattern by design (see the Edge Function's own
    header comment) -- the balance check below queries the exact
    same tables case-valuation.js does.
@@ -16,7 +16,7 @@
   const SUPABASE_URL = "https://ribmcdyoydhmafnyfhpp.supabase.co";
   const REDLINE_FN_URL = SUPABASE_URL + "/functions/v1/lease-clause-redline";
   const STRIPE_PAYMENT_LINK_URL = "https://buy.stripe.com/dRm9AL34yaOSeLJetz1B601";
-  const PRICE_DISPLAY = "$49 one-time — 10 analysis credits (shared with the Litigation Value Estimator)";
+  const PRICE_DISPLAY = "$49 one-time — 10 analysis credits (shared with the Case Value Calculator)";
 
   const clauseTypeSelect = document.getElementById("lr-clause-type");
   const representingSelect = document.getElementById("lr-representing");
@@ -78,7 +78,7 @@
     fileInput.value = "";
   });
 
-  // ---- Credit balance + gating (same tables as the Value Estimator) ----
+  // ---- Credit balance + gating (same tables as the Value Calculator) ----
   async function getCreditBalance() {
     const [{ data: purchases, error: pErr }, { count, error: cErr }] = await Promise.all([
       sb.from("case_valuation_purchases").select("credits_granted"),
@@ -95,7 +95,7 @@
       <div class="gate-card">
         <div class="eyebrow" style="margin-bottom:8px;">Free account required</div>
         <h3 style="margin-bottom:8px;">Sign in to run the redline checker</h3>
-        <p class="text-secondary" style="font-size:13.5px; line-height:1.6; margin-bottom:16px;">This runs on the same purchased analysis credits as the Litigation Value Estimator.</p>
+        <p class="text-secondary" style="font-size:13.5px; line-height:1.6; margin-bottom:16px;">This runs on the same purchased analysis credits as the Case Value Calculator.</p>
         <button type="button" class="btn btn-primary btn-sm" id="lr-signin-btn">Sign in to continue</button>
       </div>`;
   }
@@ -108,7 +108,7 @@
         <div class="eyebrow" style="margin-bottom:8px;">Analysis Credits Required</div>
         <h3 style="margin-bottom:4px;">Analyze a lease clause</h3>
         <div class="eg-purchase-price">${PRICE_DISPLAY}</div>
-        <p class="text-secondary" style="font-size:13.5px; line-height:1.6; margin-bottom:12px;">Each credit analyzes one clause and works across both the Redline Checker and the Litigation Value Estimator. Credits never expire and stack across purchases.</p>
+        <p class="text-secondary" style="font-size:13.5px; line-height:1.6; margin-bottom:12px;">Each credit analyzes one clause and works across both the Redline Checker and the Case Value Calculator. Credits never expire and stack across purchases.</p>
         ${usedNote}
         <a href="${STRIPE_PAYMENT_LINK_URL}" target="_blank" rel="noopener" class="btn btn-primary btn-sm">Purchase Credits</a>
       </div>`;

@@ -1,7 +1,7 @@
 /* =========================================================
    CREdocket — Litigation Tools click-through terms gate
    -----------------------------------------------------------
-   Blocks the Litigation Value Estimator and Commercial Eviction
+   Blocks the Case Value Calculator and Commercial Eviction
    Handbook until the visitor affirmatively accepts
    litigation-tools-terms.html -- an UNCHECKED checkbox plus a
    separate "I Agree" click, never a pre-checked box or a passive

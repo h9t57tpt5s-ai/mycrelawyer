@@ -1,5 +1,5 @@
 /* =========================================================
-   CREdocket — Litigation Value Estimator: full report generation
+   CREdocket — Case Value Calculator: full report generation
    Adapted from the original commercial-lease-dispute-only report
    (PR #3) to work across all 8 litigation categories — dynamic
    role labels (sideA/sideB per category, not just landlord/tenant),
@@ -104,7 +104,7 @@ window.CV_REPORT = (function () {
     doc.setFillColor(254, 253, 251); doc.rect(0, 0, pageW, doc.internal.pageSize.getHeight(), "F");
     y = 220;
     doc.setFont("helvetica", "bold"); doc.setFontSize(24); doc.setTextColor(NAVY);
-    doc.text("Litigation Value Estimate", marginX, y);
+    doc.text("Case Value Report", marginX, y);
     y += 30;
     doc.setFont("helvetica", "normal"); doc.setFontSize(13); doc.setTextColor(MUTED);
     doc.text(ctx.categoryLabel, marginX, y);
@@ -113,7 +113,7 @@ window.CV_REPORT = (function () {
     doc.text("BETA — MODELING IN ACTIVE DEVELOPMENT", marginX, y);
     y += 18;
     doc.setFont("helvetica", "normal"); doc.setFontSize(10); doc.setTextColor(MUTED);
-    doc.text(`Prepared ${new Date().toLocaleDateString("en-US", { year: "numeric", month: "long", day: "numeric" })} — CREdocket Litigation Value Estimator`, marginX, y);
+    doc.text(`Prepared ${new Date().toLocaleDateString("en-US", { year: "numeric", month: "long", day: "numeric" })} — CREdocket Case Value Calculator`, marginX, y);
     y += 40;
     doc.setDrawColor(156, 122, 50); doc.setLineWidth(1.2);
     doc.line(marginX, y, marginX + 200, y); y += 20;
@@ -231,7 +231,7 @@ window.CV_REPORT = (function () {
     heading("About CREdocket", 13);
     body("CREdocket tracks litigation, regulatory actions, and legal developments affecting commercial real estate owners, managers, developers, and REITs. Learn more at credocket.com.", { size: 9.5, color: MUTED });
 
-    const fname = `Litigation_Value_Estimate_${(ctx.categoryLabel || "estimate").replace(/[^a-zA-Z0-9]+/g, "_")}_${new Date().toISOString().slice(0, 10)}.pdf`;
+    const fname = `Case_Value_Report_${(ctx.categoryLabel || "report").replace(/[^a-zA-Z0-9]+/g, "_")}_${new Date().toISOString().slice(0, 10)}.pdf`;
     doc.save(fname);
   }
 

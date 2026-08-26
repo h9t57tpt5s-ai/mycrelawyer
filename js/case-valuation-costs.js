@@ -1,5 +1,5 @@
 /* =========================================================
-   CREdocket — Litigation Value Estimator: cost-to-litigate layer
+   CREdocket — Case Value Calculator: cost-to-litigate layer
    Turns "here's your exposure" into "does litigating actually beat
    settling, net of what it costs to get there." These cost/timeline
    ranges are general commercial-litigation industry norms (published

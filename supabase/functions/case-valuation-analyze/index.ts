@@ -1,5 +1,5 @@
 // =========================================================
-// CREdocket -- Litigation Value Estimator: AI document analysis
+// CREdocket -- Case Value Calculator: AI document analysis
 //
 // COST-PROTECTION DESIGN -- read before changing the order of checks:
 // 1. Verify the caller's identity from their Supabase auth token.
@@ -355,7 +355,7 @@ function evalLendingForeclosure(f: Facts, cit: CaseData["citations"]): Claim[] {
     const deficiency = Math.max(0, gross - proceeds);
     out.push(R("foreclosure_deficiency_judgment", "Foreclosure / Deficiency Judgment", p,
       deficiency, deficiency,
-      "This is the legal deficiency the court would enter judgment for, not a prediction of what will actually be collected. Whether a judgment is ultimately collectable depends heavily on the borrower/guarantor's post-judgment asset picture and is outside the scope of this estimator -- treat this figure as case value, not a collection forecast."));
+      "This is the legal deficiency the court would enter judgment for, not a prediction of what will actually be collected. Whether a judgment is ultimately collectable depends heavily on the borrower/guarantor's post-judgment asset picture and is outside the scope of this calculator -- treat this figure as case value, not a collection forecast."));
   }
   if (bool(f, "receivershipMotionFiled")) {
     out.push(R("receivership_dispute", "Receivership Grant/Denial", [0.65, 0.85], null, null,
@@ -782,7 +782,7 @@ Deno.serve(async (req) => {
   const totalCredits = (purchases ?? []).reduce((sum, p) => sum + (p.credits_granted ?? 0), 0);
   if (totalCredits === 0) {
     return jsonResponse({
-      error: "This feature requires purchasing analysis credits for the Litigation Value Estimator.",
+      error: "This feature requires purchasing analysis credits for the Case Value Calculator.",
       code: "payment_required",
     }, 402);
   }

@@ -1,7 +1,7 @@
 // =========================================================
 // CREdocket -- Lease Clause Redline Checker: AI clause analysis
 //
-// Shares the Litigation Value Estimator's credit pool by design (per
+// Shares the Case Value Calculator's credit pool by design (per
 // explicit product decision): reads/writes the SAME
 // case_valuation_purchases and case_valuation_analyses tables, so a
 // purchased credit balance and the daily burst cap both apply across
@@ -16,7 +16,7 @@
 // credit balance -> daily burst cap -> only then call Claude -> log
 // usage (consuming a credit) only on a real completed success.
 //
-// Unlike the Value Estimator, this is a single Claude call, not a
+// Unlike the Value Calculator, this is a single Claude call, not a
 // two-phase extraction+analysis pipeline -- one clause is a much
 // smaller unit of work than a whole case document, and there's no
 // deterministic baseline engine to feed here. The schema is built
@@ -28,7 +28,7 @@
 // drafting practice, not case law -- the model is explicitly
 // instructed NOT to cite specific court cases or statutes, since
 // there's no citation-pool enforcement mechanism here the way the
-// Value Estimator has (resolveCitations dropping any name that
+// Value Calculator has (resolveCitations dropping any name that
 // doesn't match a real entry). Forbidding citations entirely is the
 // safe choice over building that enforcement for this tool too.
 //
@@ -186,7 +186,7 @@ Deno.serve(async (req: Request) => {
   }
   const userId = userData.user.id;
 
-  // ---- Step 2: credit balance -- SHARED with the Value Estimator ------
+  // ---- Step 2: credit balance -- SHARED with the Value Calculator ------
   const { data: purchases, error: purchaseError } = await supabaseAdmin
     .from("case_valuation_purchases")
     .select("credits_granted")
@@ -196,7 +196,7 @@ Deno.serve(async (req: Request) => {
   }
   const totalCredits = (purchases ?? []).reduce((sum, p) => sum + (p.credits_granted ?? 0), 0);
   if (totalCredits === 0) {
-    return jsonResponse({ error: "This feature requires purchasing analysis credits (shared with the Litigation Value Estimator).", code: "payment_required" }, 402);
+    return jsonResponse({ error: "This feature requires purchasing analysis credits (shared with the Case Value Calculator).", code: "payment_required" }, 402);
   }
   const { count: usedCount, error: usedError } = await supabaseAdmin
     .from("case_valuation_analyses")
@@ -221,7 +221,7 @@ Deno.serve(async (req: Request) => {
     return jsonResponse({ error: "Could not verify usage — try again" }, 500);
   }
   if ((todayCount ?? 0) >= DAILY_BURST_CAP) {
-    return jsonResponse({ error: `You've hit the ${DAILY_BURST_CAP}-per-day request limit (shared with the Litigation Value Estimator). Try again tomorrow.`, code: "rate_limited" }, 429);
+    return jsonResponse({ error: `You've hit the ${DAILY_BURST_CAP}-per-day request limit (shared with the Case Value Calculator). Try again tomorrow.`, code: "rate_limited" }, 429);
   }
 
   // ---- Step 4: validate the request -----------------------------------

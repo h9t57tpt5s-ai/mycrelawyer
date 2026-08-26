@@ -1,5 +1,5 @@
 /* =========================================================
-   CREdocket — Litigation Value Estimator engine
+   CREdocket — Case Value Calculator engine
    A structured, rules-based expected-value model — probability
    range × damages range, never a single point estimate — calibrated
    against real cited case outcomes and (where relevant) state law.
@@ -216,7 +216,7 @@
       const deficiency = Math.max(0, gross - proceeds);
       out.push(result("foreclosure_deficiency_judgment", "Foreclosure / Deficiency Judgment", p,
         deficiency, deficiency,
-        "This is the legal deficiency the court would enter judgment for, not a prediction of what will actually be collected. Whether a judgment is ultimately collectable depends heavily on the borrower/guarantor's post-judgment asset picture and is outside the scope of this estimator — treat this figure as case value, not a collection forecast."));
+        "This is the legal deficiency the court would enter judgment for, not a prediction of what will actually be collected. Whether a judgment is ultimately collectable depends heavily on the borrower/guarantor's post-judgment asset picture and is outside the scope of this calculator — treat this figure as case value, not a collection forecast."));
     }
     if (facts.receivershipMotionFiled) {
       out.push(result("receivership_dispute", "Receivership Grant/Denial", [0.65, 0.85], null, null,

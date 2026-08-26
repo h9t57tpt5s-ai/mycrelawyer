@@ -1,5 +1,5 @@
 /* =========================================================
-   CREdocket — Litigation Value Estimator page logic
+   CREdocket — Case Value Calculator page logic
    -----------------------------------------------------------
    One combined interface: manual fact entry is free for everyone;
    document upload (which pre-fills those same fields via AI
@@ -100,7 +100,7 @@
     }
     const buyBtn = STRIPE_PAYMENT_LINK_URL
       ? `<a href="${STRIPE_PAYMENT_LINK_URL}" target="_blank" rel="noopener" class="btn btn-primary btn-sm">Unlock Full Access</a>`
-      : `<a href="contact.html?matter=${encodeURIComponent("Litigation Value Estimator — full access")}" class="btn btn-primary btn-sm">Contact Us to Purchase</a>`;
+      : `<a href="contact.html?matter=${encodeURIComponent("Case Value Calculator — full access")}" class="btn btn-primary btn-sm">Contact Us to Purchase</a>`;
     return `
       <div class="gate-card eg-purchase-card">
         <div class="eyebrow" style="margin-bottom:8px;">Full Access Required</div>
