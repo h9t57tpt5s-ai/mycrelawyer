@@ -3,26 +3,26 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Settlement &amp; Verdict Benchmarks — CREdocket</title>
-<meta name="description" content="Search real, cited commercial real estate settlement and verdict outcomes by claim type, jurisdiction, and dollar amount — the same citation database behind the Litigation Value Estimator." />
+<title>Mechanic's Lien Deadline Calculator — CREdocket</title>
+<meta name="description" content="Free calculator for preliminary notice, lien filing, and enforcement deadlines on commercial construction projects — all 51 U.S. jurisdictions." />
 <meta property="og:type" content="website" />
 <meta property="og:site_name" content="CREdocket" />
-<meta property="og:title" content="Settlement &amp; Verdict Benchmarks — CREdocket" />
-<meta property="og:description" content="Search real, cited commercial real estate settlement and verdict outcomes by claim type, jurisdiction, and dollar amount." />
-<meta property="og:url" content="https://credocket.com/settlement-benchmarks.html" />
+<meta property="og:title" content="Mechanic's Lien Deadline Calculator — CREdocket" />
+<meta property="og:description" content="Free calculator for preliminary notice, lien filing, and enforcement deadlines on commercial construction projects — all 51 U.S. jurisdictions." />
+<meta property="og:url" content="https://credocket.com/lien-deadline-calculator.html" />
 <meta property="og:image" content="https://credocket.com/img/og-image.png" />
 <meta property="og:image:width" content="1200" />
 <meta property="og:image:height" content="630" />
 <meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:title" content="Settlement &amp; Verdict Benchmarks — CREdocket" />
-<meta name="twitter:description" content="Search real, cited commercial real estate settlement and verdict outcomes by claim type, jurisdiction, and dollar amount." />
+<meta name="twitter:title" content="Mechanic's Lien Deadline Calculator — CREdocket" />
+<meta name="twitter:description" content="Free calculator for preliminary notice, lien filing, and enforcement deadlines on commercial construction projects — all 51 U.S. jurisdictions." />
 <meta name="twitter:image" content="https://credocket.com/img/og-image.png" />
 <link rel="icon" href="img/favicon.svg" type="image/svg+xml" />
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/styles.css" />
-<link rel="stylesheet" href="css/settlement-benchmarks.css" />
+<link rel="stylesheet" href="css/lien-deadline-calculator.css" />
     <script>
       window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
     </script>
@@ -89,44 +89,61 @@
 
 <header class="page-header">
   <div class="container">
-    <div class="eyebrow reveal in-view">Research</div>
-    <h1 class="reveal in-view" style="font-size:clamp(2.2rem,4vw,3.4rem);">Settlement &amp; Verdict Benchmarks</h1>
-    <p class="lede mt-16 reveal in-view">Real, cited commercial real estate settlement and verdict outcomes — the same citation database behind the <a href="case-valuation.html">Litigation Value Estimator</a>, searchable on its own. Every figure links to its source.</p>
+    <div class="eyebrow reveal in-view">Litigation Tools</div>
+    <h1 class="reveal in-view" style="font-size:clamp(2.2rem,4vw,3.4rem);">Mechanic's Lien Deadline Calculator</h1>
+    <p class="lede mt-16 reveal in-view">Preliminary notice, lien filing, and enforcement deadlines for commercial construction projects — all 51 U.S. jurisdictions, free. Missing one of these can permanently forfeit lien rights with no cure, so treat every date below as a starting point to verify, not a final answer.</p>
   </div>
 </header>
 
-<section class="section-tight" id="filters-anchor">
-  <div class="container">
-    <div class="filter-bar reveal in-view">
-      <div class="filter-row">
-        <div class="search-input-wrap">
-          <svg viewBox="0 0 24 24" fill="none"><path d="M11 19a8 8 0 100-16 8 8 0 000 16zM21 21l-4.35-4.35" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
-          <input type="text" id="sb-search" class="search-input" placeholder="Search case name or outcome…" />
-        </div>
-        <div class="select-wrap">
-          <select id="sb-category" class="select-input">
-            <option value="all">All categories</option>
+<section class="section-tight">
+  <div class="container" style="max-width:820px;">
+    <div class="card reveal" style="padding:24px;">
+      <div class="eyebrow" style="margin-bottom:10px;">Disclaimer</div>
+      <p class="text-secondary" id="ld-disclaimer" style="font-size:13px; line-height:1.7;"></p>
+    </div>
+  </div>
+</section>
+
+<section class="section-tight" style="padding-top:0;">
+  <div class="container" style="max-width:820px;">
+    <div class="card reveal" style="padding:28px;">
+      <div class="cv-controls" style="margin-bottom:20px;">
+        <div>
+          <label for="ld-state">State</label>
+          <select id="ld-state">
+            <option value="">— Select a state —</option>
           </select>
         </div>
-        <div class="select-wrap">
-          <select id="sb-jurisdiction" class="select-input">
-            <option value="all">All jurisdictions</option>
+        <div>
+          <label for="ld-role">Your role</label>
+          <select id="ld-role">
+            <option value="GC">General / Prime Contractor</option>
+            <option value="sub-supplier">Subcontractor / Supplier</option>
           </select>
         </div>
-        <div class="select-wrap">
-          <select id="sb-sort" class="select-input">
-            <option value="amount-desc">Highest $ first</option>
-            <option value="amount-asc">Lowest $ first</option>
-            <option value="year-desc">Newest first</option>
-            <option value="year-asc">Oldest first</option>
-          </select>
-        </div>
-        <button class="btn btn-ghost btn-sm" id="sb-clear">Clear</button>
       </div>
-      <div class="results-count" id="sb-results-count"></div>
+      <div class="cv-controls">
+        <div class="cv-field">
+          <label for="ld-first-furnished">Date you first furnished labor/materials</label>
+          <input type="date" id="ld-first-furnished" />
+        </div>
+        <div class="cv-field">
+          <label for="ld-last-furnished">Date you last furnished labor/materials</label>
+          <input type="date" id="ld-last-furnished" />
+        </div>
+        <div class="cv-field">
+          <label for="ld-completion">Project completion/termination date (if known)</label>
+          <input type="date" id="ld-completion" />
+        </div>
+        <div class="cv-field">
+          <label for="ld-filed">Date you filed (or plan to file) your lien — optional</label>
+          <input type="date" id="ld-filed" />
+        </div>
+      </div>
+      <button type="button" class="btn btn-primary" id="ld-calculate" style="margin-top:8px;">Calculate Deadlines</button>
     </div>
 
-    <div class="sb-list" id="sb-list"></div>
+    <div id="ld-results" style="margin-top:24px;"></div>
   </div>
 </section>
 
@@ -194,13 +211,13 @@
 </footer>
 
 <script src="js/data.js"></script>
-<script src="js/case-valuation-data.js"></script>
+<script src="js/lien-deadline-data.js"></script>
 <script src="js/main.js"></script>
 <script src="js/glossary-tooltip.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script>
 <script src="js/supabase-client.js"></script>
 <script src="js/auth.js"></script>
 <script src="js/motion.js"></script>
-<script src="js/settlement-benchmarks.js"></script>
+<script src="js/lien-deadline-calculator.js"></script>
 </body>
 </html>

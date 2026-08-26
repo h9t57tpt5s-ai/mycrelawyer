@@ -1,0 +1,11 @@
+/* =========================================================
+   CREdocket — Mechanic's Lien Deadline Calculator styles
+   ========================================================= */
+
+.ld-card { padding: 20px 22px; margin-bottom: 14px; }
+.ld-date { font-family: var(--font-display); font-size: 1.15rem; font-weight: 600; color: var(--accent-deep); }
+.ld-citation { font-family: var(--font-mono); font-size: 11px; color: var(--text-muted); margin-top: 12px; padding-top: 10px; border-top: 1px solid var(--border-soft); }
+
+@media (max-width: 640px) {
+  .ld-date { font-size: 1.05rem; }
+}
