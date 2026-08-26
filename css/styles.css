@@ -615,10 +615,29 @@ h3, .h3 {
 
 /* ---------- Timeline ---------- */
 .timeline-section { position: relative; z-index: 1; }
-.timeline-scroll { overflow-x: auto; padding-bottom: 24px; margin: 0 -32px; padding-left: 32px; padding-right: 32px; }
+/* Timeline now sits in a grid column, not the full container, so it no
+   longer bleeds edge-to-edge -- just scrolls within its own card. */
+.timeline-scroll { overflow-x: auto; padding-bottom: 24px; }
 .timeline-scroll::-webkit-scrollbar { height: 6px; }
 .timeline-scroll::-webkit-scrollbar-thumb { background: var(--border); border-radius: 3px; }
+/* Must stay >= the JS's own Math.max(1100, ...) floor (js/timeline.js) --
+   the SVG renders at width:100% of this wrapper and scales its content
+   via viewBox, so a smaller min-width here doesn't reduce how much
+   scrolling is needed, it just squishes every label illegibly. */
 .timeline-svg-wrap { min-width: 1100px; }
+
+/* Side-by-side timeline + jurisdiction map, so getting to the actual
+   case list below doesn't take two full stacked sections' worth of
+   scrolling. Stacks back to one column below 1100px, where each would
+   otherwise be too cramped to use. */
+.tracker-overview-grid { display: grid; grid-template-columns: 1.15fr 0.85fr; gap: 32px; align-items: start; }
+.tracker-overview-col { min-width: 0; }
+.tracker-overview-head { margin-bottom: 20px; }
+.tracker-overview-head h2 { font-size: clamp(1.25rem, 1.8vw, 1.6rem); margin: 6px 0 10px; }
+.tracker-overview-head p { font-size: 13px; }
+@media (max-width: 1100px) {
+  .tracker-overview-grid { grid-template-columns: 1fr; gap: 56px; }
+}
 
 .timeline-node { cursor: pointer; }
 .timeline-node circle.core { transition: r 0.25s ease, filter 0.25s ease; }

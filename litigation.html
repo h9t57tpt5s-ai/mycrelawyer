@@ -115,42 +115,44 @@
   </div>
 </header>
 
-<section class="section-tight timeline-section">
+<section class="section-tight timeline-section" style="padding-bottom:80px;">
   <div class="container">
-    <div class="section-head reveal">
-      <div>
-        <div class="eyebrow">Visual Overview</div>
-        <h2 style="font-size:clamp(1.6rem,2.6vw,2.2rem);">Timeline by practice area</h2>
+    <div class="tracker-overview-grid">
+      <div class="tracker-overview-col reveal">
+        <div class="tracker-overview-head">
+          <div>
+            <div class="eyebrow">Visual Overview</div>
+            <h2>Timeline by practice area</h2>
+          </div>
+          <p class="text-muted">Scroll horizontally to explore. Click any point to open full matter details.</p>
+        </div>
+        <div class="card" style="padding:28px 12px;">
+          <div class="timeline-scroll">
+            <div class="timeline-svg-wrap" id="timeline-host"></div>
+          </div>
+        </div>
       </div>
-      <p class="text-muted" style="max-width:360px; font-size:13.5px;">Scroll horizontally to explore. Click any point to open full matter details.</p>
-    </div>
-    <div class="card reveal" style="padding:28px 12px;">
-      <div class="timeline-scroll">
-        <div class="timeline-svg-wrap" id="timeline-host"></div>
-      </div>
-    </div>
-  </div>
-</section>
 
-<section class="section-tight" style="background:var(--bg-elevated); border-top:1px solid var(--border-soft); border-bottom:1px solid var(--border-soft);">
-  <div class="container">
-    <div class="section-head reveal">
-      <div>
-        <div class="eyebrow">By Jurisdiction</div>
-        <h2 style="font-size:clamp(1.6rem,2.6vw,2.2rem);">Explore matters by state</h2>
-      </div>
-      <p class="text-muted" style="max-width:360px; font-size:13.5px;">Click a state to jump to every matter tracked in that jurisdiction. See also: <a href="judges.html" class="text-accent" style="display:inline;">judges &amp; courts on the docket ↗</a></p>
-    </div>
-    <div class="card reveal" style="padding:32px;">
-      <div class="usmap-wrap" id="usmap-host"></div>
-      <div class="state-pill-list" id="state-pills"></div>
-      <div class="city-spotlight" id="city-spotlight">
-        <div class="city-spotlight-inner">
-          <div class="city-spotlight-svg" id="city-spotlight-svg"></div>
-          <div class="city-spotlight-info">
-            <div class="eyebrow" style="margin-bottom:8px;">Now viewing</div>
-            <div class="cityscape-caption"></div>
-            <div class="city-spotlight-count" id="city-spotlight-count"></div>
+      <div class="tracker-overview-col reveal">
+        <div class="tracker-overview-head">
+          <div>
+            <div class="eyebrow">By Jurisdiction</div>
+            <h2>Explore matters by state</h2>
+          </div>
+          <p class="text-muted">Click a state to jump to matters there. See also: <a href="judges.html" class="text-accent" style="display:inline;">judges &amp; courts ↗</a></p>
+        </div>
+        <div class="card" style="padding:24px;">
+          <div class="usmap-wrap" id="usmap-host"></div>
+          <div class="state-pill-list" id="state-pills"></div>
+          <div class="city-spotlight" id="city-spotlight">
+            <div class="city-spotlight-inner">
+              <div class="city-spotlight-svg" id="city-spotlight-svg"></div>
+              <div class="city-spotlight-info">
+                <div class="eyebrow" style="margin-bottom:8px;">Now viewing</div>
+                <div class="cityscape-caption"></div>
+                <div class="city-spotlight-count" id="city-spotlight-count"></div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
