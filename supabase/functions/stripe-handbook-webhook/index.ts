@@ -25,7 +25,15 @@
 //   https://ribmcdyoydhmafnyfhpp.supabase.co/functions/v1/stripe-handbook-webhook
 // =========================================================
 
-import Stripe from "npm:stripe@17";
+// Pinned to an exact patch version, not just "@17" -- npm:stripe's
+// bundled TypeScript types constrain `apiVersion` below to a single
+// literal string matching whatever API version that specific package
+// version was built against, and it tightens with every release. An
+// unpinned "@17" silently re-resolves to newer patches over time,
+// each of which can demand a different literal and break `deno check`
+// again the same way this one did (confirmed: 17.7.0 demands
+// "2025-02-24.acacia", not the "2024-06-20" this file had).
+import Stripe from "npm:stripe@17.7.0";
 import { createClient } from "npm:@supabase/supabase-js@2";
 
 const STRIPE_WEBHOOK_SECRET = Deno.env.get("STRIPE_WEBHOOK_SECRET") ?? "";
@@ -37,9 +45,15 @@ const supabaseAdmin = createClient(
 
 // Stripe's SDK needs *some* API key to construct, but this function only
 // ever calls stripe.webhooks.constructEventAsync (signature verification,
-// no network call to Stripe), so a placeholder is fine here.
+// no network call to Stripe), so a placeholder is fine here. Same reason
+// `apiVersion` below is inert for what this file actually does: it only
+// governs outbound API calls made THROUGH this client (there are none),
+// not the webhook payload Stripe sends -- that's controlled by the
+// endpoint's own configured API version in the Stripe Dashboard. Set to
+// match the exact pinned package version above so `deno check` passes;
+// changing it does not change any behavior here.
 const stripe = new Stripe("sk_placeholder_not_used_for_webhook_verification", {
-  apiVersion: "2024-06-20",
+  apiVersion: "2025-02-24.acacia",
 });
 
 async function findUserIdByEmail(email: string): Promise<string | null> {
