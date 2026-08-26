@@ -1,12 +1,22 @@
 /* =========================================================
    CREdocket — Mechanic's Lien Deadline Calculator logic
+   -----------------------------------------------------------
+   Two perspectives on the same underlying data:
+   - Claimant (contractor/sub/supplier): "what are MY deadlines?"
+   - Owner: "what's the LAST day anyone could still file a valid
+     lien against my property?" -- computed as the later of the GC
+     and subcontractor/supplier lien-filing deadlines, since either
+     could still be live and an owner needs the later of the two to
+     actually be in the clear.
    ========================================================= */
 
 (function () {
   "use strict";
   if (typeof LIEN_DEADLINE_DATA === "undefined") return;
 
+  const perspectiveSelect = document.getElementById("ld-perspective");
   const stateSelect = document.getElementById("ld-state");
+  const roleField = document.getElementById("ld-role-field");
   const roleSelect = document.getElementById("ld-role");
   const firstFurnishedInput = document.getElementById("ld-first-furnished");
   const lastFurnishedInput = document.getElementById("ld-last-furnished");
@@ -25,6 +35,10 @@
     stateSelect.appendChild(opt);
   });
 
+  perspectiveSelect.addEventListener("change", () => {
+    roleField.style.display = perspectiveSelect.value === "owner" ? "none" : "";
+  });
+
   function fmtDate(d) {
     return d.toLocaleDateString("en-US", { weekday: "long", year: "numeric", month: "long", day: "numeric" });
   }
@@ -35,11 +49,11 @@
     return d;
   }
 
-  // Does a `requiredFor` string (from the data file) cover the selected
-  // role? Values are free text ("sub-supplier (material suppliers only)",
-  // "GC and sub-supplier", etc.) rather than an enum, since the exact
-  // carve-out varies enough by state that collapsing it to a strict enum
-  // would lose real information -- matched by substring instead.
+  // Does a `requiredFor` string (from the data file) cover the given
+  // role? Values are free text ("sub-supplier (material suppliers
+  // only)", "GC and sub-supplier", etc.) rather than an enum, since the
+  // exact carve-out varies enough by state that collapsing it to a
+  // strict enum would lose real information -- matched by substring.
   function appliesToRole(requiredFor, role) {
     if (!requiredFor) return false;
     if (role === "GC") return /\bGC\b/.test(requiredFor);
@@ -54,45 +68,60 @@
     return null;
   }
 
-  function deadlineCardHtml(label, deadline) {
-    // deadline: { computedDate: Date|null, computedFromEstimate: bool,
-    // requiredText: string, note: string, citation: string }
+  // Computes { computedDate, computedFromEstimate, ruleText, missingDateNote }
+  // for one role's lien-filing deadline.
+  function computeFiling(filingRule, dates) {
+    if (typeof filingRule.days === "number") {
+      const trigDate = triggerDate(filingRule.trigger, dates);
+      if (!trigDate) {
+        const which = filingRule.trigger === "completion" ? "completion date (or last-furnished date)" : "last-furnished date";
+        return { missingDateNote: `Enter the ${which} above to calculate (due ${filingRule.days} days after).`, ruleNote: filingRule.note };
+      }
+      return { computedDate: addDays(trigDate, filingRule.days), ruleNote: filingRule.note };
+    }
+    return { ruleText: filingRule.note || "This deadline isn't a simple day-count from one trigger date — confirm with local counsel." };
+  }
+
+  function computeEnforcement(enforcementRule, dates, filingComputed) {
+    if (typeof enforcementRule.days === "number") {
+      let trigDate = triggerDate(enforcementRule.trigger, dates);
+      let estimate = false;
+      if (!trigDate && enforcementRule.trigger === "filing" && filingComputed && filingComputed.computedDate) {
+        trigDate = filingComputed.computedDate.toISOString().slice(0, 10);
+        estimate = true;
+      }
+      if (!trigDate) {
+        return { missingDateNote: `Enter ${enforcementRule.trigger === "filing" ? "a lien-filed date (or the dates needed to compute the filing deadline)" : "the last-furnished date"} above to calculate.` };
+      }
+      return { computedDate: addDays(trigDate, enforcementRule.days), computedFromEstimate: estimate };
+    }
+    return { ruleText: enforcementRule.note || "This deadline isn't a simple day-count — confirm with local counsel." };
+  }
+
+  function deadlineCardHtml(label, deadline, extraNote) {
     let body;
     if (deadline.notApplicable) {
       body = `<p class="text-muted" style="font-size:13px;">${deadline.notApplicable}</p>`;
     } else if (deadline.computedDate) {
       body = `
         <div class="ld-date">${fmtDate(deadline.computedDate)}</div>
-        ${deadline.computedFromEstimate ? `<p class="text-muted" style="font-size:12px; margin-top:4px;">Estimated from the lien-filing deadline above, since no actual/planned filing date was entered — file earlier and this date moves earlier too.</p>` : ""}
+        ${deadline.computedFromEstimate ? `<p class="text-muted" style="font-size:12px; margin-top:4px;">Estimated from the lien-filing deadline, since no actual/planned filing date was entered — an earlier filing moves this earlier too.</p>` : ""}
       `;
     } else if (deadline.missingDateNote) {
       body = `<p class="text-muted" style="font-size:13px;">${deadline.missingDateNote}</p>`;
     } else {
       body = `<p class="text-secondary" style="font-size:13px; line-height:1.6;">${deadline.ruleText}</p>`;
     }
+    const note = extraNote || deadline.ruleNote;
     return `
       <div class="ld-card card">
         <div class="eyebrow" style="margin-bottom:8px;">${label}</div>
         ${body}
-        ${deadline.citation ? `<div class="ld-citation">${deadline.citation}</div>` : ""}
+        ${note ? `<p class="text-muted" style="font-size:12px; margin-top:8px;">${note}</p>` : ""}
       </div>`;
   }
 
-  function calculate() {
-    const stateName = stateSelect.value;
-    if (!stateName) {
-      resultsHost.innerHTML = `<div class="gate-card is-error"><div class="eyebrow" style="margin-bottom:8px;">Select a State</div><p class="text-secondary" style="font-size:13.5px;">Choose a state to calculate deadlines.</p></div>`;
-      return;
-    }
-    const role = roleSelect.value;
-    const state = LIEN_DEADLINE_DATA.states[stateName];
-    const dates = {
-      firstFurnished: firstFurnishedInput.value || null,
-      lastFurnished: lastFurnishedInput.value || null,
-      completion: completionInput.value || null,
-      filed: filedInput.value || null,
-    };
-
+  function claimantResults(stateName, state, role, dates) {
     // ---- Preliminary notice ----
     let prelim;
     if (!appliesToRole(state.prelimNotice.requiredFor, role)) {
@@ -108,57 +137,74 @@
     } else {
       prelim = { ruleText: state.prelimNotice.note || `Required for ${state.prelimNotice.requiredFor} in ${stateName}, but the exact deadline isn't a simple day-count from one trigger date — confirm the specific rule with local counsel.` };
     }
-    prelim.citation = state.citation;
 
     // ---- Notice of intent to lien ----
     const intent = state.noticeOfIntent.required
       ? { ruleText: "A separate Notice of Intent to Lien is required in this jurisdiction, typically shortly before the lien itself is filed — timing and required content vary by state; confirm with local counsel." }
       : { notApplicable: `${stateName} does not require a separate Notice of Intent to Lien.` };
-    intent.citation = state.citation;
 
     // ---- Lien filing ----
-    let filing;
-    if (typeof state.lienFiling.days === "number") {
-      const trigDate = triggerDate(state.lienFiling.trigger, dates);
-      if (!trigDate) {
-        const which = state.lienFiling.trigger === "completion" ? "completion date (or last-furnished date)" : "last-furnished date";
-        filing = { missingDateNote: `Enter your ${which} above to calculate (due ${state.lienFiling.days} days after).` };
-      } else {
-        filing = { computedDate: addDays(trigDate, state.lienFiling.days) };
-      }
-    } else {
-      filing = { ruleText: state.lienFiling.note || "This state's lien-filing deadline isn't a simple day-count from one trigger date — see the citation and confirm with local counsel." };
-    }
-    filing.citation = state.citation;
-    if (state.lienFiling.note && typeof state.lienFiling.days === "number") {
-      filing.ruleText = state.lienFiling.note; // still show the caveat alongside a computed date, if any
-    }
+    const roleKey = role === "GC" ? "gc" : "subSupplier";
+    const filing = computeFiling(state.lienFiling[roleKey], dates);
 
     // ---- Enforcement ----
-    let enforcement;
-    if (typeof state.enforcement.days === "number") {
-      let trigDate = triggerDate(state.enforcement.trigger, dates);
-      let estimate = false;
-      if (!trigDate && state.enforcement.trigger === "filing" && filing.computedDate) {
-        trigDate = filing.computedDate.toISOString().slice(0, 10);
-        estimate = true;
-      }
-      if (!trigDate) {
-        enforcement = { missingDateNote: `Enter ${state.enforcement.trigger === "filing" ? "a lien-filed date (or the dates needed to compute your filing deadline)" : "your last-furnished date"} above to calculate.` };
-      } else {
-        enforcement = { computedDate: addDays(trigDate, state.enforcement.days), computedFromEstimate: estimate };
-      }
-    } else {
-      enforcement = { ruleText: state.enforcement.note || "This state's enforcement deadline isn't a simple day-count — confirm with local counsel." };
-    }
-    enforcement.citation = state.citation;
+    const enforcement = computeEnforcement(state.enforcement[roleKey], dates, filing);
 
-    resultsHost.innerHTML = [
-      deadlineCardHtml("Preliminary Notice", prelim),
-      deadlineCardHtml("Notice of Intent to Lien", intent),
-      deadlineCardHtml("Lien Filing / Recording Deadline", filing),
-      deadlineCardHtml("Lien Enforcement / Foreclosure Deadline", enforcement),
+    return [
+      deadlineCardHtml("Preliminary Notice", prelim, state.citation),
+      deadlineCardHtml("Notice of Intent to Lien", intent, state.citation),
+      deadlineCardHtml("Lien Filing / Recording Deadline", filing, filing.ruleNote ? `${filing.ruleNote} ${state.citation}` : state.citation),
+      deadlineCardHtml("Lien Enforcement / Foreclosure Deadline", enforcement, state.citation),
     ].join("");
+  }
+
+  function ownerResults(stateName, state, dates) {
+    const gcFiling = computeFiling(state.lienFiling.gc, dates);
+    const subFiling = computeFiling(state.lienFiling.subSupplier, dates);
+
+    let headline;
+    if (gcFiling.computedDate && subFiling.computedDate) {
+      const latest = gcFiling.computedDate > subFiling.computedDate ? gcFiling.computedDate : subFiling.computedDate;
+      headline = `
+        <div class="ld-card card ld-owner-headline">
+          <div class="eyebrow" style="margin-bottom:8px;">Last Day a Lien Could Still Be Filed</div>
+          <div class="ld-date ld-date-lg">${fmtDate(latest)}</div>
+          <p class="text-secondary" style="font-size:13px; margin-top:8px; line-height:1.6;">The later of the general/prime contractor and subcontractor/supplier lien-filing deadlines below — either could still be a live claimant, so the later date is when you're actually in the clear.</p>
+        </div>`;
+    } else {
+      const gap = !gcFiling.computedDate && !subFiling.computedDate
+        ? "Neither the GC nor the subcontractor/supplier lien-filing deadline reduces to a simple computed date in this state (see both below) — there is no single \"safe after\" date this calculator can give you here."
+        : "One of the two lien-filing deadlines below isn't a simple computed date in this state — do not treat the computed one alone as the date you're in the clear.";
+      headline = `
+        <div class="gate-card is-error">
+          <div class="eyebrow" style="margin-bottom:8px;">No Single Computed Date</div>
+          <p class="text-secondary" style="font-size:13.5px; line-height:1.6;">${gap}</p>
+        </div>`;
+    }
+
+    return headline + [
+      deadlineCardHtml("General/Prime Contractor — Lien Filing Deadline", gcFiling, gcFiling.ruleNote ? `${gcFiling.ruleNote} ${state.citation}` : state.citation),
+      deadlineCardHtml("Subcontractor/Supplier — Lien Filing Deadline", subFiling, subFiling.ruleNote ? `${subFiling.ruleNote} ${state.citation}` : state.citation),
+    ].join("");
+  }
+
+  function calculate() {
+    const stateName = stateSelect.value;
+    if (!stateName) {
+      resultsHost.innerHTML = `<div class="gate-card is-error"><div class="eyebrow" style="margin-bottom:8px;">Select a State</div><p class="text-secondary" style="font-size:13.5px;">Choose a state to calculate deadlines.</p></div>`;
+      return;
+    }
+    const state = LIEN_DEADLINE_DATA.states[stateName];
+    const dates = {
+      firstFurnished: firstFurnishedInput.value || null,
+      lastFurnished: lastFurnishedInput.value || null,
+      completion: completionInput.value || null,
+      filed: filedInput.value || null,
+    };
+
+    resultsHost.innerHTML = perspectiveSelect.value === "owner"
+      ? ownerResults(stateName, state, dates)
+      : claimantResults(stateName, state, roleSelect.value, dates);
     resultsHost.scrollIntoView({ behavior: "smooth", block: "start" });
   }
 

@@ -109,12 +109,19 @@
     <div class="card reveal" style="padding:28px;">
       <div class="cv-controls" style="margin-bottom:20px;">
         <div>
+          <label for="ld-perspective">I am a...</label>
+          <select id="ld-perspective">
+            <option value="claimant">Contractor / Subcontractor / Supplier, filing a lien</option>
+            <option value="owner">Property Owner, checking my lien exposure</option>
+          </select>
+        </div>
+        <div>
           <label for="ld-state">State</label>
           <select id="ld-state">
             <option value="">— Select a state —</option>
           </select>
         </div>
-        <div>
+        <div id="ld-role-field">
           <label for="ld-role">Your role</label>
           <select id="ld-role">
             <option value="GC">General / Prime Contractor</option>
@@ -124,11 +131,11 @@
       </div>
       <div class="cv-controls">
         <div class="cv-field">
-          <label for="ld-first-furnished">Date you first furnished labor/materials</label>
+          <label for="ld-first-furnished">Date labor/materials were first furnished</label>
           <input type="date" id="ld-first-furnished" />
         </div>
         <div class="cv-field">
-          <label for="ld-last-furnished">Date you last furnished labor/materials</label>
+          <label for="ld-last-furnished">Date labor/materials were last furnished</label>
           <input type="date" id="ld-last-furnished" />
         </div>
         <div class="cv-field">

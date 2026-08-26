@@ -4,8 +4,21 @@
 
 .ld-card { padding: 20px 22px; margin-bottom: 14px; }
 .ld-date { font-family: var(--font-display); font-size: 1.15rem; font-weight: 600; color: var(--accent-deep); }
+.ld-date-lg { font-size: 1.6rem; }
 .ld-citation { font-family: var(--font-mono); font-size: 11px; color: var(--text-muted); margin-top: 12px; padding-top: 10px; border-top: 1px solid var(--border-soft); }
+
+.ld-owner-headline { border-color: color-mix(in srgb, var(--accent) 35%, var(--border)); background: var(--accent-wash); }
+
+/* Three controls (perspective, state, role) instead of the usual two --
+   let this specific row use its own column count rather than inherit
+   .cv-controls' fixed 1fr 1fr everywhere. */
+#ld-role-field { display: block; }
+.cv-controls:has(#ld-role-field) { grid-template-columns: repeat(3, 1fr); }
+@media (max-width: 780px) {
+  .cv-controls:has(#ld-role-field) { grid-template-columns: 1fr; }
+}
 
 @media (max-width: 640px) {
   .ld-date { font-size: 1.05rem; }
+  .ld-date-lg { font-size: 1.3rem; }
 }
