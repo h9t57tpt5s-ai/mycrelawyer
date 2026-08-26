@@ -1231,6 +1231,35 @@ const RELAW_DATA = {
         { when: "August 24, 2026", label: "California Supreme Court reverses the Court of Appeal and remands, holding the resolution of necessity is only a rebuttable presumption for takings of property already devoted to public use", current: true }
       ],
       tags: ["eminent domain", "public utility", "california", "standard of review", "condemnation"]
+    },
+    {
+      id: "live-044",
+      addedDate: "2026-08-26",
+      title: "Forestar (USA) Real Estate Group, Inc. v. Greenville County (Owens Glen Vested-Rights Reversal)",
+      category: "zoning-land-use",
+      status: "pending",
+      date: "2026-07-09",
+      jurisdiction: "Greenville County Court of Common Pleas, South Carolina",
+      judge: "Jessica Salvini",
+      state: "SC",
+      amount: "$300,000+ in claimed sunk development costs, plus damages sought",
+      source: "live",
+      sourceUrl: "https://www.foxcarolina.com/2026/07/08/judge-hear-arguments-greenville-county-subdivision-dispute-that-could-reshape-development-approval-process/",
+      summary: "Forestar (USA) Real Estate Group, a D.R. Horton subsidiary, sued Greenville County, South Carolina after the county moved to reverse a vested-rights approval for its roughly 300-lot Owens Glen subdivision in rural Piedmont, well after the 30-day appeal window on that approval had closed. Circuit Judge Jessica Salvini heard oral argument on July 9, 2026 and took the matter under advisement; no ruling has issued.",
+      significance: "The case tests how much protection a vested-rights or other final land-use approval actually gives a developer once a local government faces political pressure to undo it. A ruling against the county would reinforce that approvals become genuinely final once a statutory appeal window closes; a ruling for the county would signal that local governments retain broader latitude to revisit development approvals under public pressure, a risk relevant to developers well beyond South Carolina.",
+      body: [
+        "A dispute unfolding in the Greenville County Court of Common Pleas has quietly become one of the more consequential land-use cases in the Southeast this year, and it should be on the radar of any commercial developer who has relied on a government approval and assumed the clock had run out on anyone's ability to take it back. Forestar (USA) Real Estate Group, Inc., a residential land development subsidiary of homebuilder D.R. Horton, sued Greenville County after county officials moved to reverse a vested-rights approval for its proposed Owens Glen subdivision, a roughly 300-lot project on about 118 acres in the rural Piedmont community, well after the 30-day window to appeal that approval had closed. Circuit Judge Jessica Salvini heard oral argument on the matter on July 9, 2026 and has taken it under advisement, with no ruling issued as of this writing.",
+        "The facts, as laid out in the parties' briefs and in Judge Salvini's own questioning from the bench, are straightforward even if the underlying land-use politics are not. Greenville County's planning process led to a vested-rights approval for Owens Glen, giving Forestar a defined window, running into August 2026, to begin work on the project. No one appealed that approval within the 30 days South Carolina land-use procedure allows. Forestar says it relied on that finality and spent more than $300,000 moving the project forward. Then, after sustained opposition from nearby residents and at least one county council member's public push to undo the project, the county's planning apparatus revisited the matter and moved to reverse the approval anyway.",
+        "Forestar's complaint does not mince words, calling the reversal a political charade and arguing it violates South Carolina's ethics laws governing how local governments may act on development applications once public pressure enters the picture. The developer is asking the court to reinstate its approvals and to award damages for its sunk costs and the resulting delay. Greenville County, for its part, is defending the reversal as within its regulatory authority, though several county officials have been candid, including in public council discussion, that they expect the county to lose and that the litigation could expose taxpayers to real financial liability on top of Forestar's claimed costs.",
+        "At the July hearing, Judge Salvini's own questions previewed the difficulty of the county's position. She pressed the county's counsel on how any developer could reasonably plan a project if a local government retains the power to revisit a vested-rights determination indefinitely, asking pointedly what a developer in Forestar's position was supposed to do, and noting that the county's own procedures set a 30-day appeal window that no one used. If that approval was not final at the close of that window, she asked, when would it ever become final enough for a developer to rely on it. That line of questioning captures the doctrinal stakes: vested-rights and finality doctrines exist precisely so developers can commit capital to a project without a standing risk that a later, differently constituted board or council can claw back an approval because the political winds shifted.",
+        "The Owens Glen dispute is a live illustration of a risk that rarely gets tested this cleanly in court, the gap between a final approval on paper and a local government's practical willingness to revisit it under public pressure. Most vested-rights statutes, including South Carolina's, exist to give developers a predictable window during which zoning and land-use rules cannot shift under them, and a ruling letting a county reopen a matter after the statutory appeal period has run would meaningfully weaken that protection nationwide, since Owens Glen's fact pattern, public opposition, a sympathetic elected official, and a subsequent reconsideration push, is common to development fights everywhere, not unique to South Carolina. Developers relying on a vested-rights or other final land-use approval should preserve a clear documentary record of the approval date, the applicable appeal deadline, and the absence of any timely challenge, since that record is exactly what a court will look to if the approval is later revisited; counsel on politically contested projects should treat a shift in public sentiment or an official's stated intent to undo an approval as an early warning sign worth addressing proactively, including through declaratory relief, rather than waiting for the government to act first; local governments should recognize that reopening a matter after a statutory appeal window has closed carries real litigation and damages exposure, particularly where officials have been candid on the record about the political motivation for revisiting the decision; and counsel for developers with projects in the pipeline anywhere should watch for Judge Salvini's ruling, since a decision either way is likely to be cited well outside South Carolina in future vested-rights disputes."
+      ],
+      timeline: [
+        { when: "2024", label: "Greenville County issues a vested-rights approval for the Owens Glen subdivision; the 30-day appeal window closes with no appeal filed" },
+        { when: "2025", label: "Amid resident opposition and a county council member's public push to undo the project, the county's planning process moves to reverse the approval" },
+        { when: "July 9, 2026", label: "Circuit Judge Jessica Salvini hears oral argument and takes the matter under advisement", current: true }
+      ],
+      tags: ["zoning", "vested rights", "subdivision approval", "south carolina", "land use"]
     }
   ],
 
@@ -1541,7 +1570,8 @@ const RELAW_DATA = {
     { jurisdiction: "Circuit Court of Cook County, Illinois", url: "https://www.cookcountycourt.org/" },
     { jurisdiction: "Massachusetts Appeals Court", url: "https://www.mass.gov/orgs/appeals-court" },
     { jurisdiction: "U.S. District Court, Eastern District of Virginia", url: "https://www.vaed.uscourts.gov/" },
-    { jurisdiction: "Supreme Court of California", url: "https://supreme.courts.ca.gov/" }
+    { jurisdiction: "Supreme Court of California", url: "https://supreme.courts.ca.gov/" },
+    { jurisdiction: "Greenville County Court of Common Pleas, South Carolina", url: "https://www.sccourts.org/courts/courthouse-search/greenville/" }
   ],
 
   /* Judges — background on every judge named in our sourced reporting (never
@@ -1653,6 +1683,14 @@ const RELAW_DATA = {
       court: "Supreme Court of California",
       background: "Nominated by Gov. Jerry Brown and sworn in as an Associate Justice on January 5, 2015. Previously served as Assistant to the Solicitor General and Acting Principal Deputy Solicitor General in the U.S. Department of Justice's Office of the Solicitor General, arguing 12 cases before the U.S. Supreme Court, and clerked for Justice John Paul Stevens on the U.S. Supreme Court.",
       bioUrl: "https://supreme.courts.ca.gov/about-court/justices-court"
+    },
+    {
+      name: "Jessica Salvini",
+      slug: "jessica-salvini",
+      title: "Circuit Court Judge",
+      court: "Greenville County Court of Common Pleas, South Carolina",
+      background: "Elected to the South Carolina Family Court bench in 2019 and to the Circuit Court bench in 2024, serving the Thirteenth Judicial Circuit (Greenville and Pickens Counties). Previously a senior partner at her own law firm in Greenville, South Carolina, practicing civil, family, and criminal litigation, after relocating from California in 2002.",
+      bioUrl: "https://www.sccourts.org/courts/trial-courts/circuit-court/judges/jessica-ann-salvini/"
     }
   ],
 
