@@ -1151,7 +1151,7 @@ Deno.serve(async (req) => {
     // alternative (silently eating a successful, paid-for result) is worse.
     const { error: logError } = await supabaseAdmin
       .from("case_valuation_analyses")
-      .insert({ user_id: userId, category });
+      .insert({ user_id: userId, category, tool: "case-valuation" });
     if (logError) console.error("Failed to log completed analysis (credit not deducted):", logError);
 
     return jsonResponse({

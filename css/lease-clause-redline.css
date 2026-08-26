@@ -1,0 +1,37 @@
+/* =========================================================
+   CREdocket — Lease Clause Redline Checker page styles
+   ========================================================= */
+
+/* Purchase-gate card (mirrors eviction-guide.css's .eg-purchase-card,
+   duplicated locally rather than pulling in that whole stylesheet). */
+.eg-purchase-card { text-align: center; padding: 32px 24px; }
+.eg-purchase-price { font-family: var(--font-display); font-size: 2.2rem; font-weight: 600; color: var(--text-primary); margin: 6px 0 18px; }
+
+.lr-risk-level { font-family: var(--font-display); font-size: 1.4rem; font-weight: 600; margin-top: 4px; }
+
+.lr-list { margin: 0; padding-left: 20px; font-size: 13.5px; line-height: 1.8; color: var(--text-secondary); }
+
+.lr-term-grid { display: grid; gap: 16px; }
+.lr-term-card { padding: 20px 22px; }
+.lr-term-top { display: flex; align-items: center; justify-content: space-between; gap: 12px; flex-wrap: wrap; margin-bottom: 10px; }
+.lr-term-top h4 { font-size: 15px; margin: 0; }
+.lr-term-says { font-size: 13.5px; line-height: 1.6; color: var(--text-primary); margin-bottom: 8px; }
+
+.lr-badge-neutral { color: var(--text-secondary); }
+.lr-badge-landlord { color: var(--status-filed); border-color: color-mix(in srgb, var(--status-filed) 40%, var(--border)); }
+.lr-badge-tenant { color: var(--status-ruling); border-color: color-mix(in srgb, var(--status-ruling) 40%, var(--border)); }
+.lr-badge-warn { color: var(--status-appeal, #d94949); border-color: color-mix(in srgb, var(--status-appeal, #d94949) 40%, var(--border)); }
+
+.lr-term-reference { border-top: 1px solid var(--border-soft); margin-top: 12px; padding-top: 12px; display: grid; gap: 8px; }
+.lr-term-reference-row { display: grid; grid-template-columns: 120px 1fr; gap: 10px; font-size: 12px; line-height: 1.6; }
+.lr-term-reference-label { font-family: var(--font-mono); text-transform: uppercase; letter-spacing: 0.03em; color: var(--text-muted); }
+.lr-term-reference-row span:last-child { color: var(--text-secondary); }
+
+.lr-revision { border-top: 1px solid var(--border-soft); padding: 12px 0; }
+.lr-revision:first-of-type { border-top: none; padding-top: 0; }
+.lr-revision-issue { font-size: 13.5px; font-weight: 600; margin-bottom: 4px; }
+.lr-revision-suggestion { font-size: 13px; color: var(--text-secondary); line-height: 1.6; }
+
+@media (max-width: 640px) {
+  .lr-term-reference-row { grid-template-columns: 1fr; gap: 2px; }
+}
