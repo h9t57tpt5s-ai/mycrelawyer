@@ -615,6 +615,7 @@ h3, .h3 {
 
 /* ---------- Timeline ---------- */
 .timeline-section { position: relative; z-index: 1; }
+.timeline-older-note { font-size: 11.5px; padding: 10px 20px 0; margin: 0; }
 /* Timeline now sits in a grid column, not the full container, so it no
    longer bleeds edge-to-edge -- just scrolls within its own card. */
 .timeline-scroll { overflow-x: auto; padding-bottom: 24px; }

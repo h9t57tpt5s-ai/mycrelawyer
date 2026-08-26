@@ -14,10 +14,22 @@
     return e;
   }
 
-  function renderTimeline(containerId, cases) {
+  // Real tracked-matter dates go back to 2024, but the overwhelming
+  // majority (39 of 45 as of Aug 2026) land in the last couple of
+  // months -- a handful of older outliers were dragging the axis back
+  // and compressing everything recent into an unreadable sliver. The
+  // timeline only plots matters from this date forward; the case list
+  // below is unaffected and still shows every matter regardless of date.
+  const TIMELINE_MIN_DATE = "2026-07-01";
+
+  function renderTimeline(containerId, allCases) {
     const host = document.getElementById(containerId);
     if (!host) return;
     host.innerHTML = "";
+
+    const cutoff = new Date(TIMELINE_MIN_DATE + "T00:00:00").getTime();
+    const cases = allCases.filter((c) => new Date(c.date + "T00:00:00").getTime() >= cutoff);
+    const olderCount = allCases.length - cases.length;
 
     if (!cases.length) {
       host.innerHTML = `<div class="empty-state"><p>No matters in the current filter to plot on the timeline.</p></div>`;
@@ -167,6 +179,13 @@
     svg.appendChild(nodesGroup);
 
     host.appendChild(svg);
+
+    if (olderCount > 0) {
+      const note = document.createElement("p");
+      note.className = "timeline-older-note text-muted";
+      note.textContent = `${olderCount} earlier matter${olderCount === 1 ? "" : "s"} from before ${new Date(TIMELINE_MIN_DATE + "T00:00:00").toLocaleDateString("en-US", { month: "long", year: "numeric" })} not shown on this chart -- see the full list below.`;
+      host.appendChild(note);
+    }
 
     requestAnimationFrame(() => {
       requestAnimationFrame(() => {
