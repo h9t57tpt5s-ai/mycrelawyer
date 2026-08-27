@@ -1288,6 +1288,35 @@ const RELAW_DATA = {
         { when: "August 2026", label: "Wells Fargo files a new foreclosure complaint in Hennepin County, Minnesota, with parallel actions reported in Florida and Pennsylvania", current: true }
       ],
       tags: ["CMBS", "foreclosure", "special servicing", "receivership", "office distress"]
+    },
+    {
+      id: "live-046",
+      addedDate: "2026-08-27",
+      title: "Lakes at Marshall Ridge HOA v. Town of Westlake (Circle T Data Center Notice-Defect TRO)",
+      category: "zoning-land-use",
+      status: "filed",
+      date: "2026-08-17",
+      jurisdiction: "342nd District Court, Tarrant County, Texas",
+      judge: "Kimberly Fitzpatrick",
+      state: "TX",
+      amount: "Not a damages claim; TRO blocking a development agreement for a 1.1M-SF data center campus",
+      source: "live",
+      sourceUrl: "https://www.keranews.org/news/2026-08-18/westlake-data-center-agreement-temporarily-blocked-by-tarrant-county-court",
+      summary: "Judge Kimberly Fitzpatrick of the 342nd District Court signed a temporary restraining order barring the Town of Westlake, Texas from voting on or implementing Resolution 26-25, a development agreement for the 1.1-million-square-foot Circle T Data Center, after the Lakes at Marshall Ridge Homeowners Association and residents Linda Bjorn and Sharon Sanden sued alleging the town failed to give legally required public notice of the zoning action. The complaint also alleges the site plan omits a setback and landscaped buffer required between the data center and adjacent homes. The TRO has been extended, with a temporary-injunction hearing set on or before September 8, 2026.",
+      significance: "Shows how a narrow procedural notice defect, not a challenge to the underlying commercial/industrial zoning itself, can freeze a large-scale development agreement even where the disputed use has been permitted on the site since 1998. Developers of data centers and other high-impact projects near residential neighborhoods should treat statutory notice and buffer/setback compliance as a hard precondition to a council vote, since neighboring property owners with standing have shown they will scrutinize that process and obtain emergency relief on a colorably pled gap in it.",
+      body: [
+        "A homeowners association and two individual residents have succeeded, at least for now, in halting the Town of Westlake's approval of a development agreement for a 1.1-million-square-foot data center campus planned along Denton Highway near the Texas towns of Westlake and Keller. On August 17, 2026, Judge Kimberly Fitzpatrick of the 342nd District Court in Tarrant County signed a temporary restraining order barring Westlake from voting on or implementing Resolution 26-25, the proposed development agreement covering the Circle T Data Center project, after the Lakes at Marshall Ridge Homeowners Association, Inc. and residents Linda Bjorn and Sharon Sanden sued the town alleging it failed to give the legally required public notice before taking zoning action affecting the project. The order has since been extended, with the case now set for a temporary-injunction hearing on or before September 8, 2026. For a project of this scale, backed by Ross Perot Jr.'s Hillwood through the entity Circle T Owner LP and slated to be developed in partnership with PowerHouse Data Centers, a procedural notice defect capable of pausing the town's own approval process is a reminder that zoning entitlement risk does not disappear once substantive land-use questions are resolved.",
+        "The Circle T Data Center is proposed as a four-building, roughly 1.1-million-square-foot campus on an 87.9-acre site that Westlake has long treated as zoned for commercial and industrial use, tracing that classification back to 1998. The plaintiffs are not principally attacking that underlying zoning designation; their complaint instead targets the process by which Westlake moved to approve a development agreement governing the project's specific terms. According to the pleadings, the town's site plan omits a setback and landscaped buffer between the data center and adjacent single-family homes that the plaintiffs contend the town's own zoning ordinance requires, and the notice given to affected property owners before the council's scheduled vote did not satisfy the statutory requirements that apply to zoning-related municipal action. That is a materially different, and often more potent, litigation theory than a straightforward wrong-zoning-classification claim, because a defective-notice argument can freeze a project regardless of whether the underlying use is ultimately permissible.",
+        "The case is also a useful illustration of how much practical leverage a temporary restraining order can generate before any court reaches the merits. By winning interim relief, the Lakes at Marshall Ridge HOA and the individual plaintiffs prevented the town council from taking a vote that would otherwise have locked in the development agreement's terms, buying time to develop the record on the notice and setback claims and to press the town toward concessions on buffering, noise mitigation, or water and power usage commitments before any final agreement is struck. For the developer, the TRO converts what might have been a routine approval into an open question with a hard deadline, since the case is calendared for further proceedings by September 8, 2026, and until then the development agreement cannot be finalized on the town's original timeline.",
+        "Neighborhood opposition to large-scale data center campuses has become one of the most active fronts in land-use litigation nationally, as communities from Illinois to Kansas to Pennsylvania have challenged data center approvals over noise, water consumption, grid strain, and diminished property values. What distinguishes the Westlake dispute is its procedural precision: rather than mounting a broad policy challenge to data centers as a use, the plaintiffs identified a specific, checkable defect, inadequate statutory notice paired with an unaddressed setback requirement, that a court can resolve on a comparatively narrow record. That approach has proven effective elsewhere in stalling large infrastructure approvals, and it appears to have worked here, at least through the interim-injunction stage.",
+        "The dispute is a pointed reminder that a development agreement or resolution tied to an already-permitted use can still be unwound, or at minimum delayed for weeks, by a procedural notice failure that has nothing to do with whether the use itself is appropriate for the site, and it carries practical lessons for both sides of a contested large-scale project. Developers assembling controversial projects, particularly data centers, warehouses, and other high-impact industrial uses sited near residential neighborhoods, should confirm that every notice, hearing, and buffer requirement in the applicable zoning ordinance has been satisfied to the letter before a council vote is scheduled, rather than assuming a decades-old commercial zoning designation forecloses challenge. Municipalities should treat statutory notice and setback compliance as a genuine precondition to final approval rather than a formality, since a court will readily grant emergency relief to preserve the status quo once a notice defect is colorably pled. And any party on either side of a contested development agreement should expect that even a technically sound zoning position offers no protection against a well-targeted procedural challenge capable of delaying, and potentially reshaping, a project's final terms."
+      ],
+      timeline: [
+        { when: "1998", label: "Westlake designates the Circle T site as commercial and industrial zoning" },
+        { when: "August 17, 2026", label: "Judge Kimberly Fitzpatrick signs a TRO blocking the town's vote on Resolution 26-25, the Circle T Data Center development agreement", current: true },
+        { when: "September 8, 2026", label: "Temporary-injunction hearing to be held on or before this date", upcoming: true }
+      ],
+      tags: ["data center", "zoning notice", "TRO", "HOA litigation", "development agreement"]
     }
   ],
 
@@ -1599,7 +1628,8 @@ const RELAW_DATA = {
     { jurisdiction: "Massachusetts Appeals Court", url: "https://www.mass.gov/orgs/appeals-court" },
     { jurisdiction: "U.S. District Court, Eastern District of Virginia", url: "https://www.vaed.uscourts.gov/" },
     { jurisdiction: "Supreme Court of California", url: "https://supreme.courts.ca.gov/" },
-    { jurisdiction: "Greenville County Court of Common Pleas, South Carolina", url: "https://www.sccourts.org/courts/courthouse-search/greenville/" }
+    { jurisdiction: "Greenville County Court of Common Pleas, South Carolina", url: "https://www.sccourts.org/courts/courthouse-search/greenville/" },
+    { jurisdiction: "342nd District Court, Tarrant County, Texas", url: "https://www.tarrantcountytx.gov/en/civil-courts/district-courts/342nd-district-court.html" }
   ],
 
   /* Judges — background on every judge named in our sourced reporting (never
@@ -1719,6 +1749,14 @@ const RELAW_DATA = {
       court: "Greenville County Court of Common Pleas, South Carolina",
       background: "Elected to the South Carolina Family Court bench in 2019 and to the Circuit Court bench in 2024, serving the Thirteenth Judicial Circuit (Greenville and Pickens Counties). Previously a senior partner at her own law firm in Greenville, South Carolina, practicing civil, family, and criminal litigation, after relocating from California in 2002.",
       bioUrl: "https://www.sccourts.org/courts/trial-courts/circuit-court/judges/jessica-ann-salvini/"
+    },
+    {
+      name: "Kimberly Fitzpatrick",
+      slug: "kimberly-fitzpatrick",
+      title: "District Judge",
+      court: "342nd District Court, Tarrant County, Texas",
+      background: "Appointed to the 342nd Judicial District Court by Governor Greg Abbott in 2018 and subsequently elected and re-elected to the seat, most recently in November 2024. Previously a partner at Harris Cook, L.L.P. in Fort Worth handling business, civil litigation, and real estate matters, and before that served as mayor of Dalworthington Gardens, Texas.",
+      bioUrl: "https://www.tarrantcountytx.gov/en/civil-courts/district-courts/342nd-district-court.html"
     }
   ],
 
