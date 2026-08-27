@@ -89,6 +89,43 @@
     return [low, high, `Posture-tiered flat-dollar estimate (${label}) -- fees are driven by procedural effort, not claim size, for a typical matter in this range; a large or unusually complex matter can run higher.`];
   }
 
+  // Adjusts a raw deficiency-judgment figure/probability using the
+  // researched foreclosureStateModifiers for `facts.state` (merged into
+  // facts by collectFacts() in case-valuation.js, along with
+  // facts.foreclosureMethod from the form). Un-researched states (not in
+  // the table) fall through untouched -- same behavior as before this
+  // modifier existed.
+  function computeDeficiencyStateAdjustment(facts, rawDeficiency, baseProb) {
+    let low = rawDeficiency, high = rawDeficiency, prob = baseProb, note = null;
+    const method = facts.foreclosureMethod;
+    const citation = facts.foreclosureStateCitation ? ` (${facts.foreclosureStateCitation})` : "";
+    if (method === "non-judicial" && facts.deficiencyBarredIfNonJudicial) {
+      low = 0; high = 0;
+      prob = [Math.min(baseProb[0], 0.03), Math.min(baseProb[1], 0.08)];
+      note = `Deficiency judgments are barred after a non-judicial foreclosure in ${facts.state}${citation}. ${facts.foreclosureStateNote || ""}`;
+    } else if (method === "non-judicial" && facts.deficiencyBarredForBorrowerButGuarantorAvailable) {
+      low = 0; high = 0;
+      prob = [Math.min(baseProb[0], 0.03), Math.min(baseProb[1], 0.08)];
+      note = `A deficiency claim against the borrower entity itself is generally barred after a non-judicial foreclosure in ${facts.state}${citation}. ${facts.foreclosureStateNote || ""} If a guaranty is in place, look to the separate Guaranty Enforcement claim instead -- that route typically remains open.`;
+    } else if (method === "non-judicial" && facts.deficiencyConditionalIfNonJudicial) {
+      prob = [baseProb[0] * 0.7, baseProb[1] * 0.85];
+      note = `${facts.state} requires the lender to complete a further step (timely court confirmation of the sale) to preserve deficiency rights after a non-judicial foreclosure${citation} -- probability reflects real confirmation risk, not just the underlying default dispute. ${facts.foreclosureStateNote || ""}`;
+    } else if (facts.fairValueOffsetApplies) {
+      // Fair-value offset states: the low end reflects a borrower/guarantor
+      // successfully proving the property was worth more than the credit
+      // bid, shrinking the deficiency toward zero. The high end keeps the
+      // formula's raw figure -- a well-supported credit bid stands.
+      low = rawDeficiency * 0.55;
+      note = `${facts.state} requires or permits a fair-market-value offset against the sale price in calculating any deficiency${citation} -- the low end of this range reflects a successful fair-value challenge. ${facts.foreclosureStateNote || ""}`;
+    } else if (facts.foreclosureStateNote) {
+      note = `${facts.foreclosureStateNote}${citation}`;
+    }
+    if (facts.foreclosureProcedureTrap) {
+      note = `${note ? note + " " : ""}Procedural note: ${facts.foreclosureProcedureTrap}`;
+    }
+    return { low, high, prob, note };
+  }
+
   function result(claimKey, label, probRange, damagesLow, damagesHigh, note, isBenchmark) {
     return {
       claimKey,
@@ -213,10 +250,12 @@
       const advances = facts.lenderAdvances || 0;
       const proceeds = facts.saleProceeds || 0;
       const gross = facts.loanBalance + advances;
-      const deficiency = Math.max(0, gross - proceeds);
-      out.push(result("foreclosure_deficiency_judgment", "Foreclosure / Deficiency Judgment", p,
-        deficiency, deficiency,
-        "This is the legal deficiency the court would enter judgment for, not a prediction of what will actually be collected. Whether a judgment is ultimately collectable depends heavily on the borrower/guarantor's post-judgment asset picture and is outside the scope of this calculator — treat this figure as case value, not a collection forecast."));
+      const rawDeficiency = Math.max(0, gross - proceeds);
+      const adj = computeDeficiencyStateAdjustment(facts, rawDeficiency, p);
+      const baseNote = "This is the legal deficiency the court would enter judgment for, not a prediction of what will actually be collected. Whether a judgment is ultimately collectable depends heavily on the borrower/guarantor's post-judgment asset picture and is outside the scope of this calculator — treat this figure as case value, not a collection forecast.";
+      out.push(result("foreclosure_deficiency_judgment", "Foreclosure / Deficiency Judgment", adj.prob,
+        adj.low, adj.high,
+        adj.note ? `${baseNote} ${adj.note}` : baseNote));
     }
     if (facts.receivershipMotionFiled) {
       out.push(result("receivership_dispute", "Receivership Grant/Denial", [0.65, 0.85], null, null,

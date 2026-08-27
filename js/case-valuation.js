@@ -26,6 +26,7 @@
   const STATES = Object.keys(STATE_MODS).sort();
   const EMINENT_DOMAIN_FEE_MODS = CASE_VALUATION_DATA.eminentDomainAttorneyFees;
   const EMINENT_DOMAIN_GOODWILL = CASE_VALUATION_DATA.eminentDomainBusinessGoodwill;
+  const FORECLOSURE_STATE_MODS = CASE_VALUATION_DATA.foreclosureStateModifiers;
 
   // ---- CONFIG ---------------------------------------------------------
   const STRIPE_PAYMENT_LINK_URL = "https://buy.stripe.com/dRm9AL34yaOSeLJetz1B601";
@@ -152,6 +153,8 @@
       { key: "litigationPosture", label: "Litigation posture (for attorney's-fees estimate)", type: "select", options: ["default", "answered-passive", "contested-msj", "trial"] }
     ],
     "lending-foreclosure": [
+      { key: "state", label: "Property state (for deficiency-judgment-availability rules)", type: "state" },
+      { key: "foreclosureMethod", label: "Foreclosure method used or planned", type: "select", options: ["judicial", "non-judicial", "unsure"] },
       { key: "loanBalance", label: "Outstanding loan balance ($)", type: "number" },
       { key: "foreclosureFiled", label: "Has a foreclosure action been filed?", type: "boolean" },
       { key: "borrowerDisputesDefault", label: "Does the borrower dispute the default itself?", type: "boolean" },
@@ -320,6 +323,20 @@
       facts.eminentDomainGoodwillNote = facts.eminentDomainGoodwillRecognized
         ? EMINENT_DOMAIN_GOODWILL.recognizedNote
         : EMINENT_DOMAIN_GOODWILL.majorityRuleNote;
+    }
+    // pull in deficiency-judgment-availability state law for lending-foreclosure
+    // (only 14 major CRE-lending states researched so far -- states not in the
+    // table simply get no facts merged here, and the engine's un-adjusted
+    // formula applies, same as before this modifier existed)
+    if (slug === "lending-foreclosure" && facts.state && FORECLOSURE_STATE_MODS[facts.state]) {
+      const m = FORECLOSURE_STATE_MODS[facts.state];
+      facts.deficiencyBarredIfNonJudicial = m.deficiencyBarredIfNonJudicial;
+      facts.deficiencyConditionalIfNonJudicial = m.deficiencyConditionalIfNonJudicial;
+      facts.deficiencyBarredForBorrowerButGuarantorAvailable = m.deficiencyBarredForBorrowerButGuarantorAvailable;
+      facts.fairValueOffsetApplies = m.fairValueOffsetApplies;
+      facts.foreclosureProcedureTrap = m.procedureTrap;
+      facts.foreclosureStateCitation = m.citation;
+      facts.foreclosureStateNote = m.note;
     }
     return facts;
   }
