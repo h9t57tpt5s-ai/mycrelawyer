@@ -52,16 +52,51 @@
   }
 
   /* ---------- Nav auth widget ---------- */
+  // Registered once at module load, not inside renderNavWidget() -- that
+  // function re-runs on every auth-state change (sign in, sign out, token
+  // refresh), and re-attaching a document-level listener each time would
+  // stack up duplicates for the life of the page. Queries the dropdown/
+  // button fresh on every click instead of closing over stale references
+  // from whichever render happened to be active when it was attached.
+  document.addEventListener("click", (e) => {
+    const slot = document.getElementById("auth-nav-slot");
+    const dropdown = document.getElementById("auth-nav-dropdown");
+    if (!slot || !dropdown || !dropdown.classList.contains("open")) return;
+    if (slot.contains(e.target)) return;
+    dropdown.classList.remove("open");
+    const btn = document.getElementById("auth-account-btn");
+    if (btn) btn.setAttribute("aria-expanded", "false");
+  });
+
   function renderNavWidget() {
     const slot = document.getElementById("auth-nav-slot");
     if (!slot) return;
     if (currentSession && currentSession.user) {
       const email = currentSession.user.email || "";
+      const initial = email.charAt(0) || "?";
+      // A compact avatar button + click-to-reveal dropdown, not the full
+      // raw email shown inline at all times -- that used to cost ~150-
+      // 200px of nav width on every page, which could genuinely overflow
+      // the viewport on a page with its own nav CTA (litigation.html's
+      // "Talk to us") in the narrow-desktop range just above the mobile
+      // breakpoint. See the CSS comment on .auth-nav-account for the
+      // measured overflow this replaced.
       slot.innerHTML = `
         <div class="auth-nav-account">
-          <span class="auth-nav-email" title="${email}">${email}</span>
-          <button type="button" class="auth-nav-signout" id="auth-signout-btn">Sign out</button>
+          <button type="button" class="auth-nav-avatar-btn" id="auth-account-btn" aria-haspopup="true" aria-expanded="false" title="${email}">${initial}</button>
+          <div class="auth-nav-dropdown" id="auth-nav-dropdown" role="menu">
+            <div class="auth-nav-dropdown-email">${email}</div>
+            <button type="button" class="auth-nav-signout" id="auth-signout-btn">Sign out</button>
+          </div>
         </div>`;
+      const accountBtn = document.getElementById("auth-account-btn");
+      const dropdown = document.getElementById("auth-nav-dropdown");
+      accountBtn.addEventListener("click", (e) => {
+        e.stopPropagation();
+        const willOpen = !dropdown.classList.contains("open");
+        dropdown.classList.toggle("open", willOpen);
+        accountBtn.setAttribute("aria-expanded", String(willOpen));
+      });
       document.getElementById("auth-signout-btn").addEventListener("click", () => {
         sb.auth.signOut();
       });

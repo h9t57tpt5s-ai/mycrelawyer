@@ -889,7 +889,7 @@ h3, .h3 {
 }
 
 /* ---------- Auth: nav widget ---------- */
-.auth-nav-slot { display: flex; align-items: center; flex-shrink: 0; }
+.auth-nav-slot { display: flex; align-items: center; flex-shrink: 0; position: relative; }
 .auth-nav-signin {
   font-family: var(--font-body); font-size: 13.5px; font-weight: 600; color: var(--text-primary);
   background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius-full);
@@ -897,13 +897,41 @@ h3, .h3 {
   white-space: nowrap; flex-shrink: 0;
 }
 .auth-nav-signin:hover { border-color: var(--accent); color: var(--accent); }
-.auth-nav-account { display: flex; align-items: center; gap: 10px; flex-shrink: 0; }
-.auth-nav-email { font-family: var(--font-mono); font-size: 12px; color: var(--text-muted); max-width: 160px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+
+/* Signed-in state used to show the full raw email address inline in the
+   nav at all times -- ~150-200px of extra width on every single page,
+   which combined with a page-specific CTA (litigation.html's "Talk to
+   us") could genuinely overflow the viewport in the ~1180-1260px window
+   between the mobile breakpoint and where that much content actually
+   fits. A small avatar button + click-to-reveal dropdown holds the
+   email/sign-out behind ~36px instead, the same pattern virtually every
+   SaaS nav uses for this exact reason. */
+.auth-nav-account { position: relative; flex-shrink: 0; }
+.auth-nav-avatar-btn {
+  display: flex; align-items: center; justify-content: center;
+  width: 34px; height: 34px; border-radius: 50%; flex-shrink: 0;
+  font-family: var(--font-mono); font-size: 13px; font-weight: 600; text-transform: uppercase;
+  color: var(--accent-deep); background: var(--accent-wash); border: 1px solid color-mix(in srgb, var(--accent) 30%, transparent);
+  cursor: pointer; transition: border-color 0.2s ease;
+}
+.auth-nav-avatar-btn:hover, .auth-nav-avatar-btn[aria-expanded="true"] { border-color: var(--accent); }
+.auth-nav-dropdown {
+  position: absolute; top: calc(100% + 10px); right: 0; z-index: 60;
+  min-width: 220px; background: var(--surface); border: 1px solid var(--border); border-radius: 12px;
+  box-shadow: 0 12px 32px rgba(0,0,0,0.14); padding: 14px;
+  opacity: 0; visibility: hidden; transform: translateY(-6px);
+  transition: opacity 0.15s ease, transform 0.15s ease, visibility 0.15s;
+}
+.auth-nav-dropdown.open { opacity: 1; visibility: visible; transform: translateY(0); }
+.auth-nav-dropdown-email {
+  font-family: var(--font-mono); font-size: 12px; color: var(--text-secondary);
+  overflow-wrap: break-word; margin-bottom: 12px; padding-bottom: 12px; border-bottom: 1px solid var(--border-soft);
+}
 .auth-nav-signout {
-  font-family: var(--font-body); font-size: 12.5px; color: var(--text-secondary);
+  width: 100%; font-family: var(--font-body); font-size: 12.5px; color: var(--text-secondary);
   background: transparent; border: 1px solid var(--border); border-radius: var(--radius-full);
   padding: 6px 12px; cursor: pointer; transition: border-color 0.2s ease, color 0.2s ease;
-  white-space: nowrap; flex-shrink: 0;
+  white-space: nowrap;
 }
 .auth-nav-signout:hover { border-color: var(--accent); color: var(--accent); }
 
