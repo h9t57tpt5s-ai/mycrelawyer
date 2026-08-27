@@ -241,7 +241,7 @@ const CASE_VALUATION_DATA = {
             ],
             "damages": {
               "formula": "max(0, outstandingLoanBalance + lenderProtectiveAdvances - foreclosureSaleProceeds), adjusted by foreclosureStateModifiers[state] for the selected foreclosureMethod (judicial vs. non-judicial) when that state has been researched -- see computeDeficiencyStateAdjustment() in the engine",
-              "researchNote": "19-case sample: undisputed defaults produce stipulated judgments tracking loan balance closely (AFF IV 200 Miami v. Stonerock: $65.7M judgment on $41.1M principal). Lender protective advances (taxes, insurance) can meaningfully inflate the judgment beyond original principal (Hillsboro Beach Resort: $26M loan + ~$2.9M advances = $40M judgment). Deficiency-judgment AVAILABILITY itself varies by state/foreclosure method -- state-law modifier now built for 14 major CRE markets (CA, TX, NY, FL, GA, AZ, WA, MN, NJ, PA, NV, CO, NC, IL; see foreclosureStateModifiers below), covering roughly the highest-volume CRE lending states. Remaining states default to the un-adjusted formula (no regression from prior behavior) until researched -- treat the deficiency figure for an un-researched state as a national-average estimate, not a state-verified one.",
+              "researchNote": "19-case sample: undisputed defaults produce stipulated judgments tracking loan balance closely (AFF IV 200 Miami v. Stonerock: $65.7M judgment on $41.1M principal). Lender protective advances (taxes, insurance) can meaningfully inflate the judgment beyond original principal (Hillsboro Beach Resort: $26M loan + ~$2.9M advances = $40M judgment). Deficiency-judgment AVAILABILITY itself varies by state/foreclosure method -- now a full 51-jurisdiction state-law modifier (50 states + DC; see foreclosureStateModifiers below), each individually verified against primary statute text. Five states (CA, MN, OR, MT, AK) bar deficiency outright after their dominant non-judicial method; five more (AR, NV, OK, UT, ID) cap it at the debtor-favorable LESSER of a fair-value or sale-price offset; Louisiana's real fork (appraisal election, not judicial/non-judicial) doesn't mechanize onto this tool's question and is flagged in its note instead. Rhode Island's fair-value question is explicitly marked unresolved rather than guessed either way.",
               "note": "SCOPE CHANGE per counsel-of-record review: this figure is the legal deficiency a court would enter judgment for -- it is NOT a post-judgment collectability forecast. An earlier version of this model applied a 0.5x haircut to the high end to approximate collection risk; that was removed. Collectability depends on the borrower/guarantor's asset picture at judgment, which is explicitly out of scope for this calculator -- the tool answers 'what is this case worth,' not 'what will actually be collected.'"
             }
           },
@@ -2553,15 +2553,22 @@ const CASE_VALUATION_DATA = {
   /* Deficiency-judgment availability by state and foreclosure method,
      lending-foreclosure category. This is the gap explicitly flagged in
      the original design doc ("needs a state-law modifier, not yet
-     built"). Unlike stateLawModifiers/eminentDomainAttorneyFees, this is
-     NOT yet a full 51-jurisdiction table -- it covers the 14 highest-CRE-
-     lending-volume states, individually verified against primary statute
-     text (not just secondary-source blog summaries, which turned out to
-     disagree with each other on categorical claims like "no non-judicial
-     state allows deficiency" -- false; TX and GA both do, with real
-     conditions attached). A state NOT in this table falls back to the
-     un-adjusted formula in the engine -- no regression, just not yet
-     state-verified. Fields:
+     built"). Now a full 51-jurisdiction table (50 states + DC), each
+     individually verified against primary statute text (not just
+     secondary-source blog summaries, which turned out to disagree with
+     each other on categorical claims like "no non-judicial state allows
+     deficiency" -- false; TX and GA both do, with real conditions
+     attached). Five states share the exact CA-style trade-speed-for-
+     deficiency-rights structure once fully researched: CA, MN, OR, MT,
+     AK all bar deficiency outright after their dominant non-judicial
+     method, preserving it only via judicial foreclosure. Five states
+     (AR, NV, OK, UT, ID) cap the deficiency at the LESSER of a fair-value
+     or sale-price offset (debtor-favorable direction) rather than the
+     more common GREATER-of rule most fair-value states use. Louisiana's
+     real fork doesn't map onto the judicial/non-judicial axis this tool
+     asks about at all -- it turns on whether the lender elected
+     executory process WITH or WITHOUT court-ordered appraisal -- so it's
+     flagged in its note rather than mechanized like the others. Fields:
        nonJudicialDominant -- true if a non-judicial (power-of-sale /
          trustee-sale / public-trustee) method is the common/fast route
          for CRE loans in this state (vs. judicial-only).
@@ -2726,6 +2733,376 @@ const CASE_VALUATION_DATA = {
       "procedureTrap": null,
       "citation": "735 ILCS 5/15-1508",
       "note": "Illinois foreclosure is judicial only. Unusually lender-favorable on this specific point compared to the other judicial-only states above: once the court confirms the sale, it has NO discretion to deny a deficiency judgment that was properly requested in the complaint and proven at confirmation -- there is no general fair-market-value offset defense comparable to NY/NJ/PA/CO/NC."
+    },
+    "Ohio": {
+      "nonJudicialDominant": false,
+      "deficiencyBarredIfNonJudicial": false,
+      "deficiencyConditionalIfNonJudicial": false,
+      "deficiencyBarredForBorrowerButGuarantorAvailable": false,
+      "fairValueOffsetApplies": true,
+      "procedureTrap": null,
+      "citation": "Ohio Rev. Code §§ 2329.17, 2329.20",
+      "note": "Ohio foreclosure is judicial only (sheriff's sale). No direct fair-market-value credit against the debt like NY/NJ/PA, but an indirect floor: property cannot legally be sold for less than two-thirds of its court-appraised value, which caps how low a credit bid -- and therefore how large a deficiency -- can go."
+    },
+    "Michigan": {
+      "nonJudicialDominant": true,
+      "deficiencyBarredIfNonJudicial": false,
+      "deficiencyConditionalIfNonJudicial": false,
+      "deficiencyBarredForBorrowerButGuarantorAvailable": false,
+      "fairValueOffsetApplies": true,
+      "procedureTrap": null,
+      "citation": "MCL 600.3280",
+      "note": "Michigan's dominant non-judicial 'foreclosure by advertisement' does NOT waive deficiency rights. Where the mortgagee itself becomes the purchaser at the sale (common in practice), the borrower may defend a deficiency action by showing the property was fairly worth the debt, or that the winning bid was substantially below true value -- reducing or defeating the deficiency."
+    },
+    "Wisconsin": {
+      "nonJudicialDominant": false,
+      "deficiencyBarredIfNonJudicial": false,
+      "deficiencyConditionalIfNonJudicial": false,
+      "deficiencyBarredForBorrowerButGuarantorAvailable": false,
+      "fairValueOffsetApplies": true,
+      "procedureTrap": null,
+      "citation": "Wis. Stat. § 846.16",
+      "note": "Wisconsin foreclosure is judicial only -- non-judicial power of sale is unenforceable under Wisconsin law. Unusually protective: the court will NOT presume the sale price equals fair value, and may not confirm the sale or enter a deficiency judgment until affirmatively satisfied fair value has been credited against the debt. Lenders have a real incentive to waive the deficiency instead -- doing so shortens the pre-sale redemption period from one year to as little as two months."
+    },
+    "Indiana": {
+      "nonJudicialDominant": false,
+      "deficiencyBarredIfNonJudicial": false,
+      "deficiencyConditionalIfNonJudicial": false,
+      "deficiencyBarredForBorrowerButGuarantorAvailable": false,
+      "fairValueOffsetApplies": true,
+      "procedureTrap": "If the borrower raises the fair-value defense, the lender must file a motion within 3 months of the sale asking the court to determine fair market value.",
+      "citation": "Ind. Code §§ 32-29-7, 32-30-10",
+      "note": "Indiana foreclosure is judicial only. If fair market value exceeds the sale price and the borrower raises the defense, the deficiency is calculated from fair market value instead of the actual sale price."
+    },
+    "Missouri": {
+      "nonJudicialDominant": true,
+      "deficiencyBarredIfNonJudicial": false,
+      "deficiencyConditionalIfNonJudicial": false,
+      "deficiencyBarredForBorrowerButGuarantorAvailable": false,
+      "fairValueOffsetApplies": false,
+      "procedureTrap": null,
+      "citation": "Mo. Rev. Stat. §§ 443.290–443.440",
+      "note": "Missouri's dominant non-judicial deed-of-trust foreclosure does not waive deficiency rights, but the deficiency judgment isn't part of that process -- the lender must bring a separate breach-of-contract action. Notably lender-favorable on valuation: Missouri has no fair-market-value offset -- the deficiency is the loan balance minus the actual sale price, even where the sale price is well below the property's real market value."
+    },
+    "South Carolina": {
+      "nonJudicialDominant": true,
+      "deficiencyBarredIfNonJudicial": false,
+      "deficiencyConditionalIfNonJudicial": false,
+      "deficiencyBarredForBorrowerButGuarantorAvailable": false,
+      "fairValueOffsetApplies": true,
+      "procedureTrap": "The lender must reserve its right to a deficiency in the foreclosure complaint -- waiving it there (or afterward) forfeits the claim entirely.",
+      "citation": "S.C. Code §§ 29-3-630–29-3-790 (fair-value panel: § 29-3-710)",
+      "note": "South Carolina's power-of-sale foreclosure runs through the Master-in-Equity court, which considers whether the sale price matched fair market value; the borrower has appraisal rights, and the greater of sale price or a three-appraiser panel's fair value figure controls the deficiency."
+    },
+    "Virginia": {
+      "nonJudicialDominant": true,
+      "deficiencyBarredIfNonJudicial": false,
+      "deficiencyConditionalIfNonJudicial": false,
+      "deficiencyBarredForBorrowerButGuarantorAvailable": false,
+      "fairValueOffsetApplies": false,
+      "procedureTrap": null,
+      "citation": "Va. Code §§ 55.1-320, 8.01-241",
+      "note": "Virginia has no anti-deficiency statute and no confirmed fair-market-value offset requirement for trustee-sale deficiencies -- among the more lender-favorable states in this table on valuation, though gross price inadequacy combined with other irregularities can still be challenged in equity."
+    },
+    "Massachusetts": {
+      "nonJudicialDominant": true,
+      "deficiencyBarredIfNonJudicial": false,
+      "deficiencyConditionalIfNonJudicial": false,
+      "deficiencyBarredForBorrowerButGuarantorAvailable": false,
+      "fairValueOffsetApplies": false,
+      "procedureTrap": "Lender must mail a 'Notice of Intent to Foreclose and of Deficiency' at least 21 days before the sale, file an executed affidavit of mailing within 30 days after, and bring the deficiency action within 2 years of the sale -- missing the pre-sale notice is a common, avoidable way to forfeit the claim.",
+      "citation": "Mass. Gen. Laws c. 244, § 17A",
+      "note": "Massachusetts's dominant non-judicial power-of-sale foreclosure does not waive deficiency rights, but recovery requires a separate Superior Court action and strict compliance with the notice sequence above -- no confirmed fair-value offset statute was found."
+    },
+    "Maryland": {
+      "nonJudicialDominant": true,
+      "deficiencyBarredIfNonJudicial": false,
+      "deficiencyConditionalIfNonJudicial": false,
+      "deficiencyBarredForBorrowerButGuarantorAvailable": false,
+      "fairValueOffsetApplies": true,
+      "procedureTrap": null,
+      "citation": "Md. Rule 14-216(b)",
+      "note": "Maryland's power-of-sale foreclosure requires court ratification; deficiency then goes through a post-sale audit-and-exceptions process where the borrower has an opportunity to challenge the sale price before the auditor's report is ratified -- functioning as Maryland's fair-value-adjacent check, distinct from a separate FMV hearing. Motion for deficiency must be filed within an unusually generous 3 years of ratification."
+    },
+    "Connecticut": {
+      "nonJudicialDominant": false,
+      "deficiencyBarredIfNonJudicial": false,
+      "deficiencyConditionalIfNonJudicial": false,
+      "deficiencyBarredForBorrowerButGuarantorAvailable": false,
+      "fairValueOffsetApplies": true,
+      "procedureTrap": "In a strict foreclosure, the lender must seek a deficiency judgment within 30 days after the redemption period expires -- missing it permanently forfeits the claim regardless of the actual shortfall.",
+      "citation": "Conn. Gen. Stat. §§ 49-14, 49-28",
+      "note": "Connecticut is judicial-only and distinctively uses 'strict foreclosure' as its default (title vests directly in the lender by court decree at a judicially-determined value -- no sale at all) alongside foreclosure by sale. In a strict foreclosure the deficiency is capped at debt minus the court-determined fair value; in a foreclosure by sale, if the property sells below its appraised value the lender must credit the borrower with HALF that shortfall -- a more lender-favorable formula than a full fair-value credit."
+    },
+    "Tennessee": {
+      "nonJudicialDominant": true,
+      "deficiencyBarredIfNonJudicial": false,
+      "deficiencyConditionalIfNonJudicial": false,
+      "deficiencyBarredForBorrowerButGuarantorAvailable": false,
+      "fairValueOffsetApplies": true,
+      "procedureTrap": "Deficiency action must be brought within 2 years of the trustee's or foreclosure sale.",
+      "citation": "Tenn. Code Ann. § 35-5-118",
+      "note": "Tennessee's dominant non-judicial power-of-sale foreclosure does not waive deficiency rights. The sale price is rebuttably presumed to equal fair market value; the borrower can overcome that presumption with evidence the property sold for materially less, shifting the deficiency calculation to the court-determined fair value."
+    },
+    "Oregon": {
+      "nonJudicialDominant": true,
+      "deficiencyBarredIfNonJudicial": true,
+      "deficiencyConditionalIfNonJudicial": false,
+      "deficiencyBarredForBorrowerButGuarantorAvailable": false,
+      "fairValueOffsetApplies": false,
+      "procedureTrap": null,
+      "citation": "ORS § 86.797 (formerly ORS 86.770)",
+      "note": "Oregon bars deficiency judgments after its dominant non-judicial trust-deed foreclosure for BOTH residential and commercial trust deeds -- unlike most bar states, the bar is not limited to residential. A commercial lender that wants to preserve deficiency rights must foreclose the trust deed judicially instead, the same trade-speed-for-deficiency-rights choice seen in California, Minnesota, Montana, and Alaska."
+    },
+    "Kentucky": {
+      "nonJudicialDominant": false,
+      "deficiencyBarredIfNonJudicial": false,
+      "deficiencyConditionalIfNonJudicial": false,
+      "deficiencyBarredForBorrowerButGuarantorAvailable": false,
+      "fairValueOffsetApplies": true,
+      "procedureTrap": null,
+      "citation": "KRS ch. 426 (§ 426.005 et seq.)",
+      "note": "Kentucky foreclosure is judicial only. The court holds a hearing at which the borrower may contest the deficiency amount, present its own appraisal, and argue for a fair-value figure below the lender's credit bid."
+    },
+    "Louisiana": {
+      "nonJudicialDominant": false,
+      "deficiencyBarredIfNonJudicial": false,
+      "deficiencyConditionalIfNonJudicial": false,
+      "deficiencyBarredForBorrowerButGuarantorAvailable": false,
+      "fairValueOffsetApplies": true,
+      "procedureTrap": null,
+      "citation": "La. Code Civ. Proc. arts. 2331 et seq. (executory process)",
+      "note": "IMPORTANT SCOPE NOTE: Louisiana's real fork does not map onto this tool's judicial/non-judicial question at all. Louisiana uses a distinctive expedited judicial procedure called 'executory process' for authentic-act mortgages (reaching sale in as little as 75-120 days), and the deficiency right turns entirely on whether the lender elected sale WITH court-ordered appraisal (two-thirds-of-appraised-value minimum bid, deficiency rights preserved) or WITHOUT appraisal (faster, no minimum bid, but deficiency rights are WAIVED entirely). Treat any deficiency figure for a Louisiana matter as provisional until you confirm which election the lender actually made."
+    },
+    "Alabama": {
+      "nonJudicialDominant": true,
+      "deficiencyBarredIfNonJudicial": false,
+      "deficiencyConditionalIfNonJudicial": false,
+      "deficiencyBarredForBorrowerButGuarantorAvailable": false,
+      "fairValueOffsetApplies": true,
+      "procedureTrap": null,
+      "citation": "Case law: Mt. Carmel Estates, Inc. v. Regions Bank, 853 So. 2d 160 (Ala. 2002); Collins v. W. Ala. Bank & Trust (Ala. 2025)",
+      "note": "No statutory fair-value offset, but Alabama courts impose a common-law duty of fairness and good faith on the lender's credit bid. Per the Alabama Supreme Court's 2025 Collins decision, a sale at 10% or less of fair market value is enough on its own to undo the sale; a sale at 30% or less is valid unless there is other evidence of unfairness, misconduct, fraud, or mismanagement."
+    },
+    "Arkansas": {
+      "nonJudicialDominant": true,
+      "deficiencyBarredIfNonJudicial": false,
+      "deficiencyConditionalIfNonJudicial": false,
+      "deficiencyBarredForBorrowerButGuarantorAvailable": false,
+      "fairValueOffsetApplies": true,
+      "procedureTrap": "Deficiency suit must be filed within 12 months of the foreclosure sale.",
+      "citation": "Ark. Code Ann. § 18-50-112",
+      "note": "The deficiency judgment is capped at the LESSER of (debt minus fair market value) or (debt minus sale price) -- a debtor-favorable rule, since the court always applies whichever offset produces the smaller deficiency."
+    },
+    "Mississippi": {
+      "nonJudicialDominant": true,
+      "deficiencyBarredIfNonJudicial": false,
+      "deficiencyConditionalIfNonJudicial": false,
+      "deficiencyBarredForBorrowerButGuarantorAvailable": false,
+      "fairValueOffsetApplies": true,
+      "procedureTrap": "Deficiency suit must be filed within 1 year of the sale.",
+      "citation": "Miss. Code Ann. § 15-1-23; case law requiring a bid of roughly 51%+ of fair value",
+      "note": "No hard statutory fair-value credit, but Mississippi Supreme Court decisions require the winning bid to be a reasonable fraction (roughly 51% or more) of the property's fair value to support a deficiency judgment -- a case-law-based fair-value-adjacent standard."
+    },
+    "Oklahoma": {
+      "nonJudicialDominant": false,
+      "deficiencyBarredIfNonJudicial": false,
+      "deficiencyConditionalIfNonJudicial": false,
+      "deficiencyBarredForBorrowerButGuarantorAvailable": false,
+      "fairValueOffsetApplies": true,
+      "procedureTrap": "Deficiency must be requested with the motion to confirm the sale, or within 90 days after (judicial); within 90 days after a non-judicial sale.",
+      "citation": "12 Okla. Stat. § 686",
+      "note": "The deficiency judgment is capped at the LESSER of (debt minus fair market value) or (debt minus sale price) -- the same debtor-favorable rule as Arkansas. A homestead written-election opt-out exists but is not relevant to CRE."
+    },
+    "Kansas": {
+      "nonJudicialDominant": false,
+      "deficiencyBarredIfNonJudicial": false,
+      "deficiencyConditionalIfNonJudicial": false,
+      "deficiencyBarredForBorrowerButGuarantorAvailable": false,
+      "fairValueOffsetApplies": true,
+      "procedureTrap": null,
+      "citation": "K.S.A. §§ 60-2414, 60-2415",
+      "note": "Kansas foreclosure is judicial only. The court can refuse to confirm a sale with a substantially inadequate bid (or set an upset price that must be met), and where it does confirm, it may award a deficiency based on the property's fair market value rather than the raw sale price."
+    },
+    "West Virginia": {
+      "nonJudicialDominant": true,
+      "deficiencyBarredIfNonJudicial": false,
+      "deficiencyConditionalIfNonJudicial": false,
+      "deficiencyBarredForBorrowerButGuarantorAvailable": false,
+      "fairValueOffsetApplies": false,
+      "procedureTrap": null,
+      "citation": "W. Va. Code § 38-1-7(b)",
+      "note": "Unusually explicit and lender-favorable: a 2015 amendment overturned a 2014 state supreme court decision (Sostaric v. Marshall) that had allowed a fair-value offset defense -- West Virginia law now expressly PROHIBITS a borrower from raising the property's fair market value as a defense to a deficiency judgment. Sale price alone controls."
+    },
+    "Iowa": {
+      "nonJudicialDominant": false,
+      "deficiencyBarredIfNonJudicial": false,
+      "deficiencyConditionalIfNonJudicial": false,
+      "deficiencyBarredForBorrowerButGuarantorAvailable": false,
+      "fairValueOffsetApplies": false,
+      "procedureTrap": null,
+      "citation": "Iowa Code ch. 654 (§ 654.26)",
+      "note": "Iowa foreclosure is judicial only. Iowa's notable deficiency bar (tied to an accelerated 'foreclosure without redemption' election) is limited to owner-occupied one- or two-family residential property -- it does not reach CRE. No general fair-market-value offset statute was found for commercial deficiencies."
+    },
+    "New Mexico": {
+      "nonJudicialDominant": true,
+      "deficiencyBarredIfNonJudicial": false,
+      "deficiencyConditionalIfNonJudicial": false,
+      "deficiencyBarredForBorrowerButGuarantorAvailable": false,
+      "fairValueOffsetApplies": false,
+      "procedureTrap": "Deficiency suit must be filed within 6 years of the sale.",
+      "citation": "N.M. Deed of Trust Act, NMSA 1978 § 48-10-17",
+      "note": "Distinctively CRE-relevant: New Mexico's non-judicial Deed of Trust Act route is available ONLY for commercial/business property valued over $500,000 -- smaller commercial and all residential loans must foreclose judicially. No confirmed fair-market-value offset statute for the deficiency calculation itself."
+    },
+    "Maine": {
+      "nonJudicialDominant": true,
+      "deficiencyBarredIfNonJudicial": false,
+      "deficiencyConditionalIfNonJudicial": false,
+      "deficiencyBarredForBorrowerButGuarantorAvailable": false,
+      "fairValueOffsetApplies": true,
+      "procedureTrap": "Deficiency action must be commenced within 2 years of the sale.",
+      "citation": "14 Me. Rev. Stat. § 6203-E",
+      "note": "Maine's fair-value limitation (added 2015) applies specifically when the mortgagee itself is the successful bidder at the sale (a common scenario) -- the deficiency is capped at debt minus an independently appraised fair market value rather than the lender's own credit bid."
+    },
+    "Rhode Island": {
+      "nonJudicialDominant": true,
+      "deficiencyBarredIfNonJudicial": false,
+      "deficiencyConditionalIfNonJudicial": false,
+      "deficiencyBarredForBorrowerButGuarantorAvailable": false,
+      "fairValueOffsetApplies": false,
+      "procedureTrap": null,
+      "citation": "R.I. Gen. Laws §§ 34-27-1 et seq., 34-25.2-1 et seq.",
+      "note": "Rhode Island's dominant non-judicial power-of-sale foreclosure does not waive deficiency rights, and deficiency is also available in judicial foreclosures. UNLIKE Wyoming's confirmed absence of a fair-value rule, this research pass did not turn up a definitive answer either way on a fair-value-offset statute for Rhode Island -- treat this state's fair-value question as unresolved, not confirmed-absent, pending further research."
+    },
+    "Utah": {
+      "nonJudicialDominant": true,
+      "deficiencyBarredIfNonJudicial": false,
+      "deficiencyConditionalIfNonJudicial": false,
+      "deficiencyBarredForBorrowerButGuarantorAvailable": false,
+      "fairValueOffsetApplies": true,
+      "procedureTrap": "Deficiency suit must be filed within 3 months of the sale.",
+      "citation": "Utah Code § 57-1-32",
+      "note": "The deficiency judgment is capped at the LESSER of (debt minus fair market value) or (debt minus sale price) -- the same debtor-favorable rule as Arkansas, Oklahoma, and Idaho."
+    },
+    "Montana": {
+      "nonJudicialDominant": true,
+      "deficiencyBarredIfNonJudicial": true,
+      "deficiencyConditionalIfNonJudicial": false,
+      "deficiencyBarredForBorrowerButGuarantorAvailable": false,
+      "fairValueOffsetApplies": false,
+      "procedureTrap": null,
+      "citation": "Mont. Code Ann. § 71-1-317 (Small Tract Financing Act)",
+      "note": "Montana's Small Tract Financing Act -- which covers trust indentures on property up to 40 acres, reaching most CRE parcels by land area even where improvement value is large -- bars ANY deficiency judgment following non-judicial foreclosure by advertisement. Judicial foreclosure preserves deficiency rights (except for owner-occupied single-family residential, not CRE-relevant), the same trade-off pattern as California, Minnesota, Oregon, and Alaska."
+    },
+    "North Dakota": {
+      "nonJudicialDominant": false,
+      "deficiencyBarredIfNonJudicial": false,
+      "deficiencyConditionalIfNonJudicial": false,
+      "deficiencyBarredForBorrowerButGuarantorAvailable": false,
+      "fairValueOffsetApplies": true,
+      "procedureTrap": null,
+      "citation": "N.D. Cent. Code § 32-19-06",
+      "note": "North Dakota foreclosure is judicial only. A jury determines the property's fair value (the sale price is not presumed to reflect it), and the deficiency judgment cannot exceed debt minus that fair-value figure. The state's residential deficiency bar (owner-occupied, 4-or-fewer units, up to 40 acres) does not reach CRE."
+    },
+    "Idaho": {
+      "nonJudicialDominant": true,
+      "deficiencyBarredIfNonJudicial": false,
+      "deficiencyConditionalIfNonJudicial": false,
+      "deficiencyBarredForBorrowerButGuarantorAvailable": false,
+      "fairValueOffsetApplies": true,
+      "procedureTrap": "Deficiency suit must be filed within 3 months of the sale.",
+      "citation": "Idaho Code § 45-1512",
+      "note": "The deficiency judgment is capped at the LESSER of (debt minus fair market value) or (debt minus sale price) -- the same debtor-favorable rule as Arkansas, Oklahoma, and Utah. The winning bid is explicitly not conclusive proof of fair market value."
+    },
+    "Hawaii": {
+      "nonJudicialDominant": true,
+      "deficiencyBarredIfNonJudicial": false,
+      "deficiencyConditionalIfNonJudicial": false,
+      "deficiencyBarredForBorrowerButGuarantorAvailable": false,
+      "fairValueOffsetApplies": true,
+      "procedureTrap": null,
+      "citation": "Haw. Rev. Stat. §§ 667-1.5, 667-22 to 667-27, 667-38",
+      "note": "Hawaii permits both judicial and non-judicial foreclosure; deficiency is calculated against fair market value rather than the raw sale price. Non-judicial foreclosure carries owner-occupied-residential-specific restrictions that don't reach CRE."
+    },
+    "Delaware": {
+      "nonJudicialDominant": false,
+      "deficiencyBarredIfNonJudicial": false,
+      "deficiencyConditionalIfNonJudicial": false,
+      "deficiencyBarredForBorrowerButGuarantorAvailable": false,
+      "fairValueOffsetApplies": false,
+      "procedureTrap": null,
+      "citation": "10 Del. C. § 5067 et seq. (scire facias sur mortgage)",
+      "note": "Delaware uses a distinctive judicial-only 'scire facias sur mortgage' action at law rather than a conventional equitable foreclosure suit. Deficiency is available if the lender sues on the note (either in the same action or a separate one); no confirmed fair-market-value offset statute was found."
+    },
+    "Nebraska": {
+      "nonJudicialDominant": true,
+      "deficiencyBarredIfNonJudicial": false,
+      "deficiencyConditionalIfNonJudicial": false,
+      "deficiencyBarredForBorrowerButGuarantorAvailable": false,
+      "fairValueOffsetApplies": true,
+      "procedureTrap": "Deficiency action must be brought within 3 months of the trustee's sale.",
+      "citation": "Neb. Rev. Stat. § 76-1013",
+      "note": "Deficiency is capped at debt minus the GREATER of sale price or court-determined fair market value. This statute applies specifically to non-judicial trustee sales -- a judicial foreclosure of a Nebraska trust deed falls outside this particular fair-value mechanism."
+    },
+    "Vermont": {
+      "nonJudicialDominant": false,
+      "deficiencyBarredIfNonJudicial": false,
+      "deficiencyConditionalIfNonJudicial": false,
+      "deficiencyBarredForBorrowerButGuarantorAvailable": false,
+      "fairValueOffsetApplies": true,
+      "procedureTrap": "Failing to timely request a deficiency judgment is deemed a waiver of it.",
+      "citation": "Vt. Stat. tit. 12, § 4941",
+      "note": "Vermont is judicial-only and defaults to 'strict foreclosure' (title vests directly in the lender, no sale) unless a party requests a judicial sale. Where the lender is the high bidder at a judicial sale, the deficiency is capped at debt minus fair market value."
+    },
+    "Alaska": {
+      "nonJudicialDominant": true,
+      "deficiencyBarredIfNonJudicial": true,
+      "deficiencyConditionalIfNonJudicial": false,
+      "deficiencyBarredForBorrowerButGuarantorAvailable": false,
+      "fairValueOffsetApplies": false,
+      "procedureTrap": null,
+      "citation": "Alaska Stat. § 34.20.100",
+      "note": "Alaska bars deficiency judgments entirely after its dominant non-judicial trust-deed sale -- no exceptions for commercial loans. A lender that wants deficiency rights must foreclose judicially instead, the same trade-off pattern as California, Minnesota, Oregon, and Montana."
+    },
+    "New Hampshire": {
+      "nonJudicialDominant": true,
+      "deficiencyBarredIfNonJudicial": false,
+      "deficiencyConditionalIfNonJudicial": false,
+      "deficiencyBarredForBorrowerButGuarantorAvailable": false,
+      "fairValueOffsetApplies": true,
+      "procedureTrap": null,
+      "citation": "N.H. Rev. Stat. Ann. ch. 479 (§ 479:25)",
+      "note": "Deficiency is available after either judicial or non-judicial foreclosure. No hard statutory fair-market-value formula, but the lender must make every reasonable effort to obtain a fair and reasonable sale price -- a case-law/equitable fairness duty rather than a numeric credit."
+    },
+    "South Dakota": {
+      "nonJudicialDominant": false,
+      "deficiencyBarredIfNonJudicial": false,
+      "deficiencyConditionalIfNonJudicial": false,
+      "deficiencyBarredForBorrowerButGuarantorAvailable": false,
+      "fairValueOffsetApplies": true,
+      "procedureTrap": null,
+      "citation": "S.D. Codified Laws § 21-47-16",
+      "note": "South Dakota foreclosure is judicial only. If the lender is unwilling to bid the full judgment amount, it must prove the property's fair and reasonable value at trial; the court can only authorize a lower credit bid at that proven fair value, and any further deficiency needs separate court application."
+    },
+    "Wyoming": {
+      "nonJudicialDominant": true,
+      "deficiencyBarredIfNonJudicial": false,
+      "deficiencyConditionalIfNonJudicial": false,
+      "deficiencyBarredForBorrowerButGuarantorAvailable": false,
+      "fairValueOffsetApplies": false,
+      "procedureTrap": null,
+      "citation": "Wyo. Stat. Ann. §§ 34-4-101 to 34-4-113",
+      "note": "Confirmed absence of a fair-value rule (not merely unresearched, the same 'no enhancement exists' finding already on record for Wyoming elsewhere in this file): Wyoming's power-of-sale statutes place no limit on the deficiency amount and no fair-market-value offset requirement -- sale price controls."
+    },
+    "District of Columbia": {
+      "nonJudicialDominant": true,
+      "deficiencyBarredIfNonJudicial": false,
+      "deficiencyConditionalIfNonJudicial": false,
+      "deficiencyBarredForBorrowerButGuarantorAvailable": false,
+      "fairValueOffsetApplies": false,
+      "procedureTrap": null,
+      "citation": "D.C. Code § 42-816",
+      "note": "D.C.'s dominant non-judicial deed-of-trust foreclosure does not waive deficiency rights; no confirmed fair-market-value offset statute was found."
     }
   },
 

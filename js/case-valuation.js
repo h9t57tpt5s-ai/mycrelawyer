@@ -325,9 +325,8 @@
         : EMINENT_DOMAIN_GOODWILL.majorityRuleNote;
     }
     // pull in deficiency-judgment-availability state law for lending-foreclosure
-    // (only 14 major CRE-lending states researched so far -- states not in the
-    // table simply get no facts merged here, and the engine's un-adjusted
-    // formula applies, same as before this modifier existed)
+    // (full 51-jurisdiction table -- see foreclosureStateModifiers in
+    // case-valuation-data.js)
     if (slug === "lending-foreclosure" && facts.state && FORECLOSURE_STATE_MODS[facts.state]) {
       const m = FORECLOSURE_STATE_MODS[facts.state];
       facts.deficiencyBarredIfNonJudicial = m.deficiencyBarredIfNonJudicial;
