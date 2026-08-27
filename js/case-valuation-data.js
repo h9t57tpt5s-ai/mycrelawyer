@@ -241,7 +241,7 @@ const CASE_VALUATION_DATA = {
             ],
             "damages": {
               "formula": "max(0, outstandingLoanBalance + lenderProtectiveAdvances - foreclosureSaleProceeds), adjusted by foreclosureStateModifiers[state] for the selected foreclosureMethod (judicial vs. non-judicial) when that state has been researched -- see computeDeficiencyStateAdjustment() in the engine",
-              "researchNote": "19-case sample: undisputed defaults produce stipulated judgments tracking loan balance closely (AFF IV 200 Miami v. Stonerock: $65.7M judgment on $41.1M principal). Lender protective advances (taxes, insurance) can meaningfully inflate the judgment beyond original principal (Hillsboro Beach Resort: $26M loan + ~$2.9M advances = $40M judgment). Deficiency-judgment AVAILABILITY itself varies by state/foreclosure method -- now a full 51-jurisdiction state-law modifier (50 states + DC; see foreclosureStateModifiers below), each individually verified against primary statute text. Five states (CA, MN, OR, MT, AK) bar deficiency outright after their dominant non-judicial method; five more (AR, NV, OK, UT, ID) cap it at the debtor-favorable LESSER of a fair-value or sale-price offset; Louisiana's real fork (appraisal election, not judicial/non-judicial) doesn't mechanize onto this tool's question and is flagged in its note instead. Rhode Island's fair-value question is explicitly marked unresolved rather than guessed either way.",
+              "researchNote": "19-case sample: undisputed defaults produce stipulated judgments tracking loan balance closely (AFF IV 200 Miami v. Stonerock: $65.7M judgment on $41.1M principal). Lender protective advances (taxes, insurance) can meaningfully inflate the judgment beyond original principal (Hillsboro Beach Resort: $26M loan + ~$2.9M advances = $40M judgment). Deficiency-judgment AVAILABILITY itself varies by state/foreclosure method -- now a full 51-jurisdiction state-law modifier (50 states + DC; see foreclosureStateModifiers below), each individually verified against primary statute text. Five states (CA, MN, OR, MT, AK) bar deficiency outright after their dominant non-judicial method; five more (AR, NV, OK, UT, ID) cap it at the debtor-favorable LESSER of a fair-value or sale-price offset; Louisiana's real fork (appraisal election, not judicial/non-judicial) doesn't mechanize onto this tool's question and is flagged in its note instead.",
               "note": "SCOPE CHANGE per counsel-of-record review: this figure is the legal deficiency a court would enter judgment for -- it is NOT a post-judgment collectability forecast. An earlier version of this model applied a 0.5x haircut to the high end to approximate collection risk; that was removed. Collectability depends on the borrower/guarantor's asset picture at judgment, which is explicitly out of scope for this calculator -- the tool answers 'what is this case worth,' not 'what will actually be collected.'"
             }
           },
@@ -2971,8 +2971,8 @@ const CASE_VALUATION_DATA = {
       "deficiencyBarredForBorrowerButGuarantorAvailable": false,
       "fairValueOffsetApplies": false,
       "procedureTrap": null,
-      "citation": "R.I. Gen. Laws §§ 34-27-1 et seq., 34-25.2-1 et seq.",
-      "note": "Rhode Island's dominant non-judicial power-of-sale foreclosure does not waive deficiency rights, and deficiency is also available in judicial foreclosures. UNLIKE Wyoming's confirmed absence of a fair-value rule, this research pass did not turn up a definitive answer either way on a fair-value-offset statute for Rhode Island -- treat this state's fair-value question as unresolved, not confirmed-absent, pending further research."
+      "citation": "R.I. Gen. Laws §§ 34-27-1 et seq., 34-25.2-1 et seq. (see § 34-27-2 specifically)",
+      "note": "RESOLVED (previously flagged unresolved -- now confirmed by reading Chapter 34-27's section index and § 34-27-2 directly): the chapter has no deficiency-judgment section at all, and its only 'fairly and in good faith' bidding language in § 34-27-2 is boilerplate removing the old common-law bar on a mortgagee bidding at its own sale -- it does not impose a fair-market-value duty or credit. Rhode Island's dominant non-judicial power-of-sale foreclosure does not waive deficiency rights (pursued as an ordinary action on the note, not part of Chapter 34-27 itself), but no fair-value-offset mechanism was found -- confirmed absent, like Wyoming, not merely unresearched."
     },
     "Utah": {
       "nonJudicialDominant": true,
@@ -3071,8 +3071,8 @@ const CASE_VALUATION_DATA = {
       "deficiencyBarredForBorrowerButGuarantorAvailable": false,
       "fairValueOffsetApplies": true,
       "procedureTrap": null,
-      "citation": "N.H. Rev. Stat. Ann. ch. 479 (§ 479:25)",
-      "note": "Deficiency is available after either judicial or non-judicial foreclosure. No hard statutory fair-market-value formula, but the lender must make every reasonable effort to obtain a fair and reasonable sale price -- a case-law/equitable fairness duty rather than a numeric credit."
+      "citation": "N.H. Rev. Stat. Ann. §§ 479:25, 508:6; Murphy v. Fin. Dev. Corp., 126 N.H. 536 (1985)",
+      "note": "Deficiency is available after either judicial or non-judicial foreclosure. No hard statutory fair-market-value formula, but Murphy v. Financial Development Corp. places an affirmative duty on the lender to show it made every reasonable effort to obtain a fair and reasonable sale price -- a real, citable case-law standard (confirmed via a second, more targeted research pass -- not the kind of boilerplate 'good faith bidding' language that turned out to be a red herring for Rhode Island's similar-sounding statute)."
     },
     "South Dakota": {
       "nonJudicialDominant": false,
