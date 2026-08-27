@@ -126,6 +126,50 @@
     return { low, high, prob, note };
   }
 
+  // Adjusts the indemnification/contribution damages ceiling using
+  // facts.indemnityForm (merged into facts by collectFacts() in
+  // case-valuation.js from constructionIndemnityStateModifiers[state]).
+  // The low end (0.10x, the real Milwaukee GC-share data point) never
+  // changes -- a party can always be held to at least its own
+  // proportionate fault under any state's rule. What changes is how high
+  // the contractual indemnity clause can legally push the ceiling above
+  // that proportionate share:
+  //   "limited"      -- both broad- and intermediate-form indemnity are
+  //                      void; ceiling stays at the existing 0.88x cap,
+  //                      which already reflects the real-world proportio-
+  //                      nate-allocation ceiling seen in the research
+  //                      sample -- no state pushes it higher than this.
+  //   "intermediate" -- sole-negligence (broad-form) indemnity is void,
+  //                      but full indemnity for CONCURRENT negligence is
+  //                      enforceable -- a party with even minor fault can
+  //                      contractually be on the hook for the whole
+  //                      repair cost, so the ceiling rises to 1.0x.
+  //   "broad" / "broad-capped" -- broad-form (even sole-negligence)
+  //                      indemnity can be enforced if the contract
+  //                      language is unequivocal -- ceiling at 1.0x, with
+  //                      a note on the "strictly construed" doctrine
+  //                      courts apply to broad-form language, and (for
+  //                      broad-capped, i.e. Florida) the statutory
+  //                      monetary-cap/bid-disclosure requirement.
+  function computeIndemnityStateAdjustment(facts, repairCostEstimate) {
+    const form = facts.indemnityForm;
+    if (!form) return { low: repairCostEstimate * 0.10, high: repairCostEstimate * 0.88, note: null };
+    const citation = facts.indemnityStateCitation ? ` (${facts.indemnityStateCitation})` : "";
+    const low = repairCostEstimate * 0.10;
+    let high = repairCostEstimate * 0.88;
+    let note = null;
+    if (form === "limited") {
+      note = `${facts.state} voids indemnity clauses beyond each party's own proportionate fault${citation} -- the ceiling stays at the real-world proportionate-allocation figure seen in the research sample. ${facts.indemnityStateNote || ""}`;
+    } else if (form === "intermediate") {
+      high = repairCostEstimate * 1.0;
+      note = `${facts.state} allows full contractual indemnity for concurrent negligence (only indemnifying the indemnitee's SOLE negligence is void)${citation} -- a party with even minor fault can be contractually on the hook for the entire repair cost, raising the ceiling to the full estimate. ${facts.indemnityStateNote || ""}`;
+    } else if (form === "broad" || form === "broad-capped") {
+      high = repairCostEstimate * 1.0;
+      note = `${facts.state} permits broad-form indemnity (covering even the indemnitee's sole negligence) if the contract language is unequivocal${citation} -- courts construe this language strictly against the party seeking indemnity, so enforceability still turns heavily on exact drafting. ${facts.indemnityStateNote || ""}`;
+    }
+    return { low, high, note };
+  }
+
   function result(claimKey, label, probRange, damagesLow, damagesHigh, note, isBenchmark) {
     return {
       claimKey,
@@ -337,9 +381,11 @@
         "Harder to prove than a workmanship defect — expert-testimony-dependent standard-of-care question."));
     }
     if (facts.multiplePartiesIndemnityExists && facts.repairCostEstimate > 0) {
+      const adj = computeIndemnityStateAdjustment(facts, facts.repairCostEstimate);
+      const baseNote = "Real allocation example: an 88%/10%/2% subcontractor/GC/owner split when the defect traced to specific subcontractor workmanship.";
       out.push(result("indemnification_contribution_claim", "Indemnification / Contribution", [0.40, 0.70],
-        facts.repairCostEstimate * 0.10, facts.repairCostEstimate * 0.88,
-        "Real allocation example: an 88%/10%/2% subcontractor/GC/owner split when the defect traced to specific subcontractor workmanship."));
+        adj.low, adj.high,
+        adj.note ? `${baseNote} ${adj.note}` : baseNote));
     }
     if (facts.insurerDeniedCoverage) {
       out.push(result("insurance_coverage_defect_dispute", "Insurance Coverage Dispute (CGL)", [0.45, 0.65], null, null,

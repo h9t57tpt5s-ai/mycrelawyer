@@ -27,6 +27,7 @@
   const EMINENT_DOMAIN_FEE_MODS = CASE_VALUATION_DATA.eminentDomainAttorneyFees;
   const EMINENT_DOMAIN_GOODWILL = CASE_VALUATION_DATA.eminentDomainBusinessGoodwill;
   const FORECLOSURE_STATE_MODS = CASE_VALUATION_DATA.foreclosureStateModifiers;
+  const INDEMNITY_STATE_MODS = CASE_VALUATION_DATA.constructionIndemnityStateModifiers;
 
   // ---- CONFIG ---------------------------------------------------------
   const STRIPE_PAYMENT_LINK_URL = "https://buy.stripe.com/dRm9AL34yaOSeLJetz1B601";
@@ -181,6 +182,7 @@
       { key: "mergerObjection", label: "Is this a merger/sale-terms objection suit?", type: "boolean" }
     ],
     "construction-defect": [
+      { key: "state", label: "Project state (for anti-indemnity-statute rules)", type: "state" },
       { key: "contractorDefectAlleged", label: "Is a defect alleged against the general contractor?", type: "boolean" },
       { key: "repairCostEstimate", label: "Estimated repair cost ($)", type: "number" },
       { key: "catastrophicOrLifeSafety", label: "Is this a catastrophic/structural/life-safety failure (vs. a latent post-occupancy defect)?", type: "boolean" },
@@ -336,6 +338,15 @@
       facts.foreclosureProcedureTrap = m.procedureTrap;
       facts.foreclosureStateCitation = m.citation;
       facts.foreclosureStateNote = m.note;
+    }
+    // pull in the anti-indemnity-statute state law for construction-defect
+    // (full 51-jurisdiction table -- see constructionIndemnityStateModifiers
+    // in case-valuation-data.js)
+    if (slug === "construction-defect" && facts.state && INDEMNITY_STATE_MODS[facts.state]) {
+      const m = INDEMNITY_STATE_MODS[facts.state];
+      facts.indemnityForm = m.indemnityForm;
+      facts.indemnityStateCitation = m.citation;
+      facts.indemnityStateNote = m.note;
     }
     return facts;
   }
