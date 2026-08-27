@@ -351,7 +351,7 @@ const CASE_VALUATION_DATA = {
               0.35,
               0.55
             ],
-            "note": "Stanford Securities Class Action Clearinghouse (the designated primary source) was inaccessible for this research pass (site under construction, expected back Winter 2026) — rerun once it's back online, since it would likely surface more, smaller mortgage-REIT and non-traded-REIT settlements this pass couldn't find via general web search.",
+            "note": "Stanford Securities Class Action Clearinghouse (the designated primary source) is STILL inaccessible as of this research pass (re-checked -- still 'under construction, expected back Winter 2026,' same status as before). Its successor project, Stanford Securities Litigation Analytics (sla.law.stanford.edu), has the underlying data but requires a data license/login for detailed filtering and settlement figures -- not usable for this kind of ad hoc research. Rerun once either is freely accessible; a general web search pass in the meantime did surface real additions elsewhere in this category (see breach_fiduciary_duty_derivative and merger_objection_suit) but still did not turn up more small mortgage-REIT/non-traded-REIT Rule 10b-5 settlements specifically.",
             "damages": {
               "formula": "settlementPercentOfEstimatedInvestorLosses",
               "percentRange": [
@@ -1425,6 +1425,24 @@ const CASE_VALUATION_DATA = {
         "dollarAmount": 200000,
         "sourceUrl": "https://www.sec.gov/Archives/edgar/data/0000803649/000141057815000405/a15-16477_18k.htm",
         "confidence": "medium"
+      },
+      {
+        "caseName": "Khoshaba v. Stilwell, et al. (Wheeler Real Estate Investment Trust Shareholder Litigation)",
+        "citation": "No. 2:24-cv-00237 (E.D. Va., Norfolk Div.), filed April 10, 2024",
+        "year": 2024,
+        "outcome": "Wheeler REIT's ousted former CEO, as a shareholder, alleged current and certain former directors breached their fiduciary duty to the company and common stockholders in connection with the board's handling of the company's Series D Preferred Stock following a 2021 rights offering, and that allied hedge funds aided and abetted the breach by diluting common stock. The court found the fiduciary-duty claim adequately alleged and let it proceed against the directors and (in part) the hedge funds; the parties reached a $7.125 million class settlement, approved by the court.",
+        "dollarAmount": 7125000,
+        "sourceUrl": "https://news.bloomberglaw.com/securities-law/wheeler-boards-7-1-million-investor-settlement-gets-court-nod",
+        "confidence": "high"
+      },
+      {
+        "caseName": "Meyer v. Weil, et al. (The Necessity Retail REIT, Inc. / AR Global Shareholder Litigation)",
+        "citation": "Case No. 24-C-23-003628, Circuit Court for Baltimore City, Maryland",
+        "year": 2025,
+        "outcome": "Stockholders alleged AR Global's CEO Michael Weil and other individual defendants, along with AR Global Investments, LLC, breached their fiduciary duties to RTL stockholders in connection with company governance and transactions. Reached a proposed $3,250,000 cash class settlement, with a settlement hearing set for September 16, 2025. Notably, a related but separate RTL shareholder action over the same AR Global/Global Net Lease merger controversy (alleging conflicts of interest in the merger process, inadequate price, and inadequate disclosure -- a claim closer to merger_objection_suit) was DISMISSED on the merits in July 2024 under Maryland's business judgment rule -- see the merger_objection_suit citation for that companion case. The two outcomes together illustrate how much result varies with the specific theory pled, even against the same defendants over the same underlying conduct.",
+        "dollarAmount": 3250000,
+        "sourceUrl": "https://www.globenewswire.com/news-release/2025/08/01/3125831/3080/en/Levi-Korsinsky-LLP-Announces-Pendency-of-Stockholder-Class-Action-and-Proposed-Settlement-Settlement-Hearing-and-Right-To-Appear-Involving-Owners-of-The-Necessity-Retail-Reit-Inc-C.html",
+        "confidence": "high"
       }
     ],
     "proxy_disclosure_claim": [
@@ -1474,6 +1492,15 @@ const CASE_VALUATION_DATA = {
         "dollarAmount": null,
         "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1456772/000104746918007257/a2237140zex-99_1.htm",
         "confidence": "medium"
+      },
+      {
+        "caseName": "The Necessity Retail REIT, Inc. Shareholder Litigation v. AR Global Investments, LLC and Michael Weil (Global Net Lease Merger)",
+        "citation": "Circuit Court for Baltimore City, Maryland, filed August 2023, dismissed July 2024",
+        "year": 2024,
+        "outcome": "RTL shareholders sued AR Global and CEO Michael Weil for aiding and abetting alleged breaches of fiduciary duty and unjust enrichment arising from the merger of Necessity Retail REIT and Global Net Lease -- alleging conflicts of interest in the merger process, an inadequate price, and inadequate disclosure of material information, and that defendants received $375 million (18% of the combined entity's value) through the internalization transaction bundled into the merger. Judge Audrey Carrion (Circuit Court for Baltimore City) dismissed the fiduciary-duty claim under Maryland's business-judgment-rule presumption, which in turn defeated the derivative aiding-and-abetting and unjust-enrichment claims. A confirmed, real DISMISSAL outcome (not merely mooted by supplemental disclosures) despite a large alleged self-dealing figure -- illustrates how much the business judgment rule can insulate a merger even against a substantial, specifically-quantified conflict-of-interest allegation. A separate, narrower breach-of-fiduciary-duty action against the same defendants over related RTL governance conduct (Meyer v. Weil) settled for $3.25M -- see the breach_fiduciary_duty_derivative citation for that companion case.",
+        "dollarAmount": null,
+        "sourceUrl": "https://www.paulweiss.com/practices/litigation/securities-litigation/news/ar-global-wins-dismissal-of-class-action-over-reit-merger?id=53363",
+        "confidence": "high"
       }
     ],
     "contractor_breach_negligence": [
