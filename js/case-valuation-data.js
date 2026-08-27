@@ -494,7 +494,7 @@ const CASE_VALUATION_DATA = {
               0.35,
               0.6
             ],
-            "note": "Sample too thin to refine (both sampled cases — Princeton/TWBTA, Clark Construction/Perkins Eastman — have undisclosed final outcomes, only amounts sought). Base rate kept at the original preliminary estimate.",
+            "note": "Sample expanded from 2 to 4 citations, but still too thin/mixed to refine the base rate with real confidence: two (Princeton/TWBTA, Clark Construction/Perkins Eastman) have undisclosed final outcomes; the two with confirmed outcomes are close to opposite poles -- Yakima School District/KDA is a confirmed $1.7M cash settlement, while MIT/Gehry (Stata Center) settled for confirmed $0 direct cash to the owner despite well-documented, expensive defects. That split is itself informative (design-malpractice claims against reputationally strong architects can resolve without a cash recovery even on strong facts) but isn't enough data points to justify moving the probability range -- kept at the original preliminary estimate.",
             "damages": {
               "formula": "repairAndRedesignCostEstimate"
             }
@@ -1532,6 +1532,33 @@ const CASE_VALUATION_DATA = {
         "dollarAmount": 5000000,
         "sourceUrl": "https://www.constructiondive.com/news/clark-settles-5m-the-wharf-dc-lawsuit-with-perkins-eastman-for-undisclosed/573619/",
         "confidence": "medium"
+      },
+      {
+        "caseName": "Yakima School District No. 7 v. KDA Architecture, PLLC (Eisenhower High School 'Blue Wall')",
+        "citation": "Yakima County Superior Court, Washington, settlement announced February 2024",
+        "year": 2024,
+        "outcome": "CONFIRMED FINAL settlement, not just an amount sought: KDA Architecture agreed to pay the school district $1.7 million within 30 days of settlement approval over a design defect in a ~750-foot decorative wall -- a water-resistant barrier melted after interior temperatures exceeded the manufacturer's 180-degree limit, causing 23 of 26 windows to leak and leading to mold. The contractor and subcontractors who built the wall separately settled for an additional $1.1 million.",
+        "dollarAmount": 1700000,
+        "sourceUrl": "https://www.yakimaherald.com/news/local/yakima-school-district-reaches-1-7-million-settlement-with-architects-over-ikes-blue-wall/article_4259a101-fb1f-5940-98cd-3f8533460518.html",
+        "confidence": "high"
+      },
+      {
+        "caseName": "Massachusetts Institute of Technology v. Frank O. Gehry, Gehry Partners, LLP, and Skanska USA Building Inc. (Stata Center)",
+        "citation": "Massachusetts Superior Court (Middlesex County), filed 2007; case reported settled Feb. 5, 2010, dismissed March 8, 2010",
+        "year": 2010,
+        "outcome": "Settled after roughly three years of litigation over persistent leaks, cracking masonry, mold, and drainage problems at the ~$300 million Stata Center. Per Gehry's own public statement, NO MONEY changed hands in the settlement -- terms instead centered on collaborative funding/responsibility for repairs. Included as a real data point that even a design-malpractice claim against a globally prominent architect over well-documented, expensive defects can resolve with a confirmed $0 direct cash recovery to the owner.",
+        "dollarAmount": 0,
+        "sourceUrl": "https://thetech.com/2010/03/19/statasuit-v130-n14",
+        "confidence": "high"
+      },
+      {
+        "caseName": "Cornell University v. Pei Cobb Freed & Partners Architects LLP (Herbert F. Johnson Museum of Art expansion)",
+        "citation": "N.Y. Sup. Ct., filed May 2015 (exact index number not independently confirmed)",
+        "year": 2015,
+        "outcome": "Cornell alleged 'architectural malpractice' -- inherently flawed, materially defective expansion designs causing structural deficiencies, roof cavities, and ceiling cracks -- and claimed at least $1.1 million in resulting damages. Multiple secondary sources describe the firm as having ultimately paid this amount, but a primary settlement agreement or final docket entry confirming that figure as an actual payment (rather than just the amount originally claimed) was not independently located.",
+        "dollarAmount": 1100000,
+        "sourceUrl": "https://www.artforum.com/news/cornell-university-sues-i-m-peis-firm-over-campus-museums-design-224103/",
+        "confidence": "medium"
       }
     ],
     "indemnification_contribution_claim": [
@@ -1572,6 +1599,15 @@ const CASE_VALUATION_DATA = {
         "dollarAmount": null,
         "sourceUrl": "https://law.justia.com/cases/federal/appellate-courts/ca7/23-1152/23-1152-2024-11-25.html",
         "confidence": "medium"
+      },
+      {
+        "caseName": "Twigg v. Admiral Insurance Co.",
+        "citation": "373 Or. 445 (Or. Apr. 17, 2025)",
+        "year": 2025,
+        "outcome": "Oregon Supreme Court reversed lower courts and held that CGL coverage for a construction-defect claim turns on the underlying FACTS (whether there is a basis for imposing tort liability, i.e., accidental property damage from negligent conduct), not on how the claim happens to be pleaded (contract vs. tort) -- rejecting the insurer's argument that a contract-only complaint automatically falls outside coverage. Remanded for further proceedings on whether policy exclusions still bar recovery. Underlying dispute involved a $150,000 arbitration award for defective concrete garage-floor overlay work (missing control joints, causing voids and cracking) -- smaller-dollar and residential-adjacent, but the coverage HOLDING is a significant, recent, directly-applicable precedent for CRE construction-defect CGL disputes generally.",
+        "dollarAmount": 150000,
+        "sourceUrl": "https://www.stoel.com/insights/publications/oregon-supreme-court-expands-cgl-coverage-for-construction-defects-twigg-v-admiral-insurance-company",
+        "confidence": "high"
       }
     ],
     "cercla_cost_recovery": [
