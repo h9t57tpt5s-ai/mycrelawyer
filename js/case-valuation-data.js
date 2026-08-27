@@ -1024,7 +1024,43 @@ const CASE_VALUATION_DATA = {
         "notes": "Same filing as the accelerated_rent and releasing_mitigation_costs citations for this category. Anchors the LOW/uncontested end of the fee-to-damages ratio for a large accelerated-rent claim -- do not extrapolate this ratio to a contested matter; contrast with the smaller claims in this array, where fees run a much higher percentage of the principal. No public URL available for this record -- verify via the case number and court above."
       }
     ],
-    "property_damage": [],
+    "property_damage": [
+      {
+        "caseName": "Apple Glen Investors, L.P. v. Express Scripts, Inc.",
+        "citation": "700 Fed. Appx. 935 (11th Cir. 2017)",
+        "jurisdiction": "Federal (11th Cir., applying GA law)",
+        "year": 2017,
+        "outcome": "Landlord awarded over $6.2 million for tenant's failure to return the premises in the 'first class condition' the lease required, based on 26 listed deficiencies identified by the landlord's expert. The Eleventh Circuit affirmed, rejecting the tenant's arguments that the expert testimony was unreliable and that the damages should have been split out defect-by-defect rather than assessed as a whole.",
+        "dollarAmount": 6200000,
+        "url": "https://law.justia.com/cases/federal/appellate-courts/ca11/16-17656/16-17656-2017-07-03.html",
+        "confidence": "high",
+        "notes": "Large, affirmed property-damage/surrender-condition award; useful as a high-end data point for claims tied to a lease's specific condition-on-return standard rather than ordinary wear and tear."
+      },
+      {
+        "caseName": "45 Broadway Owner LLC v. NYSA-ILA Pension Trust Fund",
+        "citation": "2013 NY Slip Op 04895 (App. Div., 1st Dep't, June 27, 2013)",
+        "jurisdiction": "NY",
+        "year": 2013,
+        "outcome": "Trial court had awarded the landlord $166,013.96 for HVAC/flood repair costs. The Appellate Division reversed and granted the tenant's cross-motion for summary judgment instead, holding a mutual waiver-of-subrogation/casualty-release clause in the lease (Sections 7.03/7.04) barred the landlord's claim entirely, regardless of the tenant's fault.",
+        "dollarAmount": 0,
+        "url": "https://www.courtlistener.com/opinion/2593554/45-broadway-owner-llc-v-nysa-ila-pension-trust-fund/",
+        "confidence": "high",
+        "notes": "Not a landlord-recovery data point -- included as a real, binding illustration that a mutual waiver-of-subrogation/casualty-release clause (common in commercial leases) can completely bar an otherwise well-evidenced property-damage claim. This claim's baseProbability range assumes no such clause; a lease containing one would take a property damage claim toward $0 regardless of the repair evidence. Flagged for a possible future model refinement (a lease-clause question) rather than folded into the current formula unilaterally."
+      }
+    ],
+    "tortious_interference_lost_profits": [
+      {
+        "caseName": "EXRP 14 Holdings LLC v. LS-14 Ave LLC",
+        "citation": "Index No. 652698/2022 (N.Y. Sup. Ct., Com. Div., Oct. 7, 2024) (Crane, J.)",
+        "jurisdiction": "NY",
+        "year": 2024,
+        "outcome": "Denied summary judgment dismissing a tortious interference claim, holding that a party who prevents the plaintiff from performing its own contract with a third party can be liable even where the third party exercised a lawful termination right rather than breaching -- the interference lies in disabling the plaintiff's performance, not in inducing a breach.",
+        "dollarAmount": null,
+        "url": "https://www.courtlistener.com/opinion/10460551/exrp-14-holdings-llc-v-ls-14-ave-llc/",
+        "confidence": "medium",
+        "notes": "IMPORTANT SCOPE NOTE: this is a construction-delay dispute between commercial parties, not a landlord self-help lockout case -- there is no directly on-point published decision found for a tenant suing its own landlord for tortious interference with the tenant's third-party contracts arising from a lockout, despite multiple search angles. Cited here only for the general doctrine this claim type relies on (interference by disabling a party's own performance is actionable even without inducing a third party's breach). The apparent rarity of a squarely on-point case suggests this theory is infrequently pursued as a stand-alone claim -- most wrongful-lockout plaintiffs recover through the direct lockout claim instead -- which is itself a reason to treat this claim's probability range as more speculative than the other lease-disputes claims until better authority surfaces."
+      }
+    ],
     "wrongful_lockout": [
       {
         "caseName": "Palm Beach Florida Hotel & Office Building Corp. v. Nantucket Enterprises, Inc.",
