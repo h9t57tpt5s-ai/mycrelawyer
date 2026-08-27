@@ -12,6 +12,30 @@
 
 #cv-form-host { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 4px 24px; margin-bottom: 20px; }
 
+/* Manual-entry fields tucked into a collapsible disclosure under the
+   upload zone, rather than sitting open as a wall of boxes by default.
+   Native <details>/<summary> -- no JS needed for the toggle itself, and
+   it stays keyboard/screen-reader accessible for free. */
+.cv-manual-entry { border: 1px solid var(--border); border-radius: 10px; background: var(--bg-elevated); margin-bottom: 20px; overflow: hidden; }
+/* Belt-and-suspenders marker suppression -- list-style:none alone is not
+   consistently honored on <summary> across engines, so this also kills
+   the WebKit-specific marker pseudo-element and the standard ::marker
+   box outright rather than just clearing its content. */
+.cv-manual-entry-summary { display: flex; align-items: flex-start; justify-content: space-between; gap: 12px; padding: 14px 18px; cursor: pointer; list-style: none; user-select: none; }
+.cv-manual-entry-summary::-webkit-details-marker { display: none; }
+.cv-manual-entry-summary::marker { display: none; content: ""; }
+.cv-manual-entry-summary:hover { background: color-mix(in srgb, var(--accent) 5%, transparent); }
+.cv-manual-entry-summary-text { font-size: 13.5px; color: var(--text-primary); line-height: 1.5; padding-top: 1px; }
+.cv-manual-entry-chevron { color: var(--text-muted); flex-shrink: 0; margin-top: 2px; transition: transform 0.15s ease; }
+.cv-manual-entry[open] .cv-manual-entry-chevron { transform: rotate(180deg); }
+.cv-manual-entry[open] .cv-manual-entry-summary { border-bottom: 1px solid var(--border-soft); }
+.cv-manual-entry-body { padding: 18px 18px 4px; }
+.cv-manual-entry-body #cv-form-host { margin-bottom: 4px; }
+
+@media (max-width: 640px) {
+  .cv-manual-entry-summary-text span.text-muted { display: block; margin-top: 2px; }
+}
+
 .cv-summary { padding: 24px; margin-bottom: 20px; text-align: center; }
 .cv-net { font-family: var(--font-display); font-size: 2rem; font-weight: 600; color: var(--accent-deep); margin: 6px 0; }
 

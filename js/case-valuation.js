@@ -223,6 +223,7 @@
   const catSelect = document.getElementById("cv-category-select");
   const sideSelect = document.getElementById("cv-side-select");
   const formHost = document.getElementById("cv-form-host");
+  const manualEntryDetails = document.getElementById("cv-manual-entry");
   const uploadHost = document.getElementById("cv-upload-host");
   const resultsHost = document.getElementById("cv-results-host");
   const form = document.getElementById("cv-form");
@@ -664,7 +665,12 @@
       ? `<div class="gate-card is-error" style="margin-bottom:16px;"><div class="eyebrow" style="margin-bottom:6px;">Heads Up</div><p class="text-secondary" style="font-size:13px; line-height:1.6;">No text could be read from <strong>${emptyFiles.join(", ")}</strong> — this is almost always a scanned or image-only PDF with no selectable text layer, so it was skipped. The analysis below only reflects your other document(s). Try a text-based copy of ${emptyFiles.length === 1 ? "that file" : "those files"} if you have one, or paste its text directly.</p></div>`
       : "";
 
-    if (facts && Object.keys(facts).length) fillFormFromFacts(facts);
+    if (facts && Object.keys(facts).length) {
+      fillFormFromFacts(facts);
+      // Extracted facts land in the (possibly-collapsed) manual-entry
+      // disclosure -- open it so the user actually sees what to review.
+      if (manualEntryDetails) manualEntryDetails.open = true;
+    }
     if (facts && (facts.filingParty === "sideA" || facts.filingParty === "sideB") && !sideSelect.dataset.userChosen) {
       sideSelect.value = facts.filingParty;
     }
