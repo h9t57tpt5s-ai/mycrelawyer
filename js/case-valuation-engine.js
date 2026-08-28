@@ -399,9 +399,34 @@
     const out = [];
     if (facts.cleanupCostsIncurred > 0) {
       const tier = facts.contaminationScale;
+      const innocent = facts.innocentLandownerStatus;
       let low = facts.cleanupCostsIncurred * 0.5, high = facts.cleanupCostsIncurred;
+      let innocentNote = "";
+      // A property owner who qualifies as a CERCLA Sec. 107(b) "innocent
+      // landowner" can pursue a full Sec. 107(a) cost-recovery action and
+      // recover the entire cost from the actually-liable PRP -- a PRP who
+      // does NOT qualify is instead limited to a Sec. 113(f)(1)
+      // contribution claim for only the other party's equitable share
+      // (Advanced Tech. Corp. v. Eliskim, Inc., No. 1:96CV755 (N.D. Ohio
+      // May 3, 2000), laying out the 5-factor innocent-landowner test and
+      // this exact doctrinal fork). A current owner who can't clear that
+      // bar is also exposed to being held liable for the FULL scope of
+      // response costs themselves, including costs incurred before they
+      // even owned the property (Pa. Dep't of Envtl. Prot. v. Trainer
+      // Custom Chem., LLC, 906 F.3d 85 (3d Cir. 2018)) -- so a
+      // non-innocent owner's own "recovery" claim functions more like a
+      // contribution claim in substance, even if styled as cost recovery.
+      if (innocent === "yes") {
+        low = facts.cleanupCostsIncurred * 0.85;
+        high = facts.cleanupCostsIncurred * 1.0;
+        innocentNote = " The owner qualifying as an innocent landowner supports a full Sec. 107(a) cost-recovery claim rather than a contribution claim -- pushing this range toward complete recovery.";
+      } else if (innocent === "no") {
+        low = facts.cleanupCostsIncurred * 0.20;
+        high = facts.cleanupCostsIncurred * 0.60;
+        innocentNote = " Without innocent-landowner status, this functions more like a contribution claim in substance (the owner is itself a PRP with some equitable share of responsibility) -- the range is scaled down accordingly, in line with the separate CERCLA Contribution claim's own range.";
+      }
       out.push(result("cercla_cost_recovery", "CERCLA Cost Recovery", [0.65, 0.85], low, high,
-        "Liability is strict/joint/several once PRP status attaches — allocation share is the real question, not whether liability exists at all. Real benchmark tiers: multi-decade waterway/legacy sites $130M–$670M; single-parcel soil-only $3M–$19M; small commercial state-penalty actions $85K–$120K."));
+        `Liability is strict/joint/several once PRP status attaches — allocation share is the real question, not whether liability exists at all. Real benchmark tiers: multi-decade waterway/legacy sites $130M–$670M; single-parcel soil-only $3M–$19M; small commercial state-penalty actions $85K–$120K.${innocentNote}`));
     }
     if (facts.multiplePRPs && facts.cleanupCostsIncurred > 0) {
       out.push(result("cercla_contribution_claim", "CERCLA Contribution (PRP vs. PRP)", [0.55, 0.80],

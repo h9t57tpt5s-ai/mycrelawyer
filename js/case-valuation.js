@@ -194,6 +194,7 @@
       { key: "cleanupCostsIncurred", label: "Cleanup/remediation costs incurred or estimated ($)", type: "number" },
       { key: "contaminationScale", label: "Contamination scale", type: "select", options: ["single-parcel", "multi-decade/waterway", "small-commercial-penalty"] },
       { key: "multiplePRPs", label: "Are there multiple potentially responsible parties (PRPs)?", type: "boolean" },
+      { key: "innocentLandownerStatus", label: "Does the property owner qualify as a CERCLA 'innocent landowner' (didn't cause the contamination, had no actual knowledge of it at acquisition, did appropriate due diligence beforehand, and has exercised due care since)?", type: "select", options: ["yes", "no", "unsure"] },
       { key: "stateConsentDecree", label: "Is this a state cleanup enforcement action / consent decree (not private litigation)?", type: "boolean" },
       { key: "insurerDeniedEnvCoverage", label: "Has an insurer denied environmental coverage?", type: "boolean" }
     ],

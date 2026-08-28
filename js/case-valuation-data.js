@@ -546,7 +546,7 @@ const CASE_VALUATION_DATA = {
             "note": "Almost every disclosed CERCLA cost-recovery outcome in the research sample is a NEGOTIATED settlement, not an adversarial verdict — liability is strict/joint/several once PRP status attaches, so litigation is mostly about allocation share, not a binary win/loss. Treat the probability range as 'likelihood of obtaining a meaningful allocation,' not 'likelihood of prevailing at trial.'",
             "damages": {
               "formula": "totalCleanupCost * allocationShare",
-              "note": "PRELIMINARY -- allocationShare is fact-specific (equitable factors under CERCLA §113(f)); refine typical allocation patterns from research",
+              "note": "allocationShare is now driven by a real, well-documented doctrinal fork rather than a flat guess: whether the plaintiff-owner qualifies as a CERCLA Sec. 107(b) 'innocent landowner' (see Advanced Tech. Corp. v. Eliskim, Inc., No. 1:96CV755 (N.D. Ohio 2000), laying out the 5-factor test) determines whether they can bring a full Sec. 107(a) cost-recovery claim (recovering the entire cost) or are functionally limited to a contribution-style claim (recovering only the other party's equitable share) -- computed directly in evalEnvironmental() in the engine based on the innocentLandownerStatus fact. This is federal doctrine, not state-varying, so no state-law modifier applies here the way it did for lending-foreclosure or construction-defect.",
               "benchmarkTiers": {
                 "waterwayOrMultiDecadeLegacyIndustrialCorridor": {
                   "range": [
@@ -603,7 +603,7 @@ const CASE_VALUATION_DATA = {
               0.25,
               0.45
             ],
-            "note": "Revised DOWN slightly from the original preliminary estimate: the small sample skewed toward insurers winning on pollution-exclusion/site-development-exclusion grounds (Regency Centers v. Indian Harbor: no coverage owed for legacy dry-cleaner contamination). None of the 3 sampled cases disclosed the underlying remediation-cost dollar figure — the disclosed 'outcome' in this claim type is frequently binary (coverage owed / not owed) rather than a dollar figure.",
+            "note": "Original preliminary sample (3 cases) skewed toward insurers winning on pollution-exclusion/site-development-exclusion grounds (Regency Centers v. Indian Harbor: no coverage owed for legacy dry-cleaner contamination). Sample since broadened to 5 cases with two real policyholder wins added (Town of Harrietstown v. Westchester Fire; County of San Bernardino v. Ins. Co. of the State of PA, both 2026) -- a more balanced 2-insurer-win/2-policyholder-win/1-pending picture, though still too small a sample to justify moving the probability range with real confidence. None of the sampled cases disclosed the underlying remediation-cost dollar figure — the disclosed 'outcome' in this claim type is frequently binary (coverage owed / not owed) rather than a dollar figure.",
             "damages": {
               "formula": "coveredPortionOfCleanupCosts"
             }
@@ -1673,6 +1673,24 @@ const CASE_VALUATION_DATA = {
         "dollarAmount": 668000000,
         "sourceUrl": "https://www.justice.gov/opa/pr/justice-department-reaches-668m-settlement-agreement-continued-cleanup-lower-duwamish",
         "confidence": "high"
+      },
+      {
+        "caseName": "Advanced Tech. Corp. v. Eliskim, Inc. (True Temper Site)",
+        "citation": "No. 1:96CV755, __ F. Supp. 2d __ (N.D. Ohio May 3, 2000)",
+        "year": 2000,
+        "outcome": "DOCTRINAL CITATION, not a dollar-amount data point: on reconsideration, the court laid out the exact fork this claim type turns on. A current owner is normally a PRP itself and generally limited to a Sec. 113(f)(1) contribution claim against another PRP (recovering only that party's equitable share) -- UNLESS the owner qualifies as an 'innocent landowner' under Sec. 107(b), in which case it may bring a full Sec. 107(a) cost-recovery action and recover the ENTIRE cost. The court set out five factors the owner (ATC) had to prove: (1) a party other than ATC was the sole cause of the release; (2) the defendant is a liable party; (3) ATC did not actually know of the contamination at acquisition; (4) ATC undertook appropriate inquiry before acquiring the property; and (5) ATC exercised due care once the contamination was discovered. The court found disputed fact issues on factors 4-5 and denied summary judgment to both sides on that question -- so this case establishes the doctrine clearly without itself resolving whether ATC ultimately qualified.",
+        "dollarAmount": null,
+        "sourceUrl": "https://www.honigman.com/media/site_files/244_imgimgWoolstrumA406314.pdf",
+        "confidence": "high"
+      },
+      {
+        "caseName": "Pennsylvania Dep't of Envtl. Prot. v. Trainer Custom Chem., LLC",
+        "citation": "906 F.3d 85 (3d Cir. 2018)",
+        "year": 2018,
+        "outcome": "Third Circuit held that a current owner is liable under CERCLA Sec. 107(a)(1) for ALL response costs at a site -- including costs incurred before that owner even acquired the property -- rejecting the owner's argument that it should only be liable for post-acquisition costs. The owner in this case did not establish innocent-landowner or bona fide prospective purchaser protection. Illustrates the downside of NOT qualifying as an innocent landowner: not just a reduced recovery in a cost-recovery action, but potentially full personal liability as a defendant in someone else's action, including for costs predating ownership entirely.",
+        "dollarAmount": null,
+        "sourceUrl": "https://www2.ca3.uscourts.gov/opinarch/183287p.pdf",
+        "confidence": "high"
       }
     ],
     "cercla_contribution_claim": [
@@ -1769,6 +1787,24 @@ const CASE_VALUATION_DATA = {
         "dollarAmount": null,
         "sourceUrl": "https://www.law360.com/insurance-authority/property/articles/2474868",
         "confidence": "medium"
+      },
+      {
+        "caseName": "Town of Harrietstown v. Westchester Fire Insurance Co.",
+        "citation": "No. 25-2253-cv (2d Cir. May 4, 2026) (applying New York law)",
+        "year": 2026,
+        "outcome": "POLICYHOLDER WIN, balancing the insurer-favorable skew in this claim type's earlier sample: the Second Circuit rejected the insurer's attempt to fragment a single PRP demand (arising partly from firefighting foam used in crash response) into multiple separate claims to limit coverage, holding 'a single claim cannot be a combined claim,' and found the insurers owed a duty to defend.",
+        "dollarAmount": null,
+        "sourceUrl": "https://uphelp.org/two-coasts-two-wins-for-policyholders-in-environmental-coverage-disputes/",
+        "confidence": "high"
+      },
+      {
+        "caseName": "County of San Bernardino v. Insurance Co. of the State of Pennsylvania",
+        "citation": "No. 24-6986 (9th Cir. Apr. 23, 2026) (applying California law)",
+        "year": 2026,
+        "outcome": "POLICYHOLDER WIN: the Ninth Circuit resolved an ambiguity over the umbrella policies' aggregate limits in the insured's favor, holding the policies 'do not specify an aggregate limit for property damage' -- meaning the disputed $9 million stated annual aggregate limit did not cap the insurer's exposure the way the insurer argued. No final dollar recovery figure was reported in available coverage of the ruling.",
+        "dollarAmount": null,
+        "sourceUrl": "https://uphelp.org/two-coasts-two-wins-for-policyholders-in-environmental-coverage-disputes/",
+        "confidence": "high"
       }
     ],
     "just_compensation_valuation": [
