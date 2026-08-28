@@ -729,7 +729,7 @@ const CASE_VALUATION_DATA = {
               "formula": "not typically a damages claim -- declaratory relief invalidating the zoning change",
               "isRange": false
             },
-            "note": "Revised UP from the original preliminary estimate: all 3 sampled challenges succeeded in invalidating the rezoning (Allen Distribution, Lathan, Chaffier). Treat this cautiously — successful challenges are more likely to get published/cited as precedent than unsuccessful ones, so this small sample may be outcome-selection-biased upward. Remedy is categorically injunctive/declaratory (invalidating the ordinance), never damages."
+            "note": "Revised UP from the original preliminary estimate based on an initial 3-case sample that was 3-for-3 successful (Allen Distribution, Lathan, Chaffier) — flagged at the time as possibly outcome-selection-biased, since successful challenges are more likely to get published/cited as precedent than unsuccessful ones. A 4th case (Burd v. Borough of Brentwood, 2023) has since been added and is a real, confirmed LOSS -- the rezoning was upheld, not invalidated. The sample is now 3-for-4 (75%), still small and still above the current 0.3-0.5 range, so the range is left unchanged rather than chased upward from 4 data points -- but the earlier pure-selection-bias concern is at least partly addressed by having a real counterexample in the sample now. Remedy is categorically injunctive/declaratory (invalidating the ordinance), never damages."
           },
           "section_1983_zoning_claim": {
             "side": "sideA",
@@ -790,7 +790,7 @@ const CASE_VALUATION_DATA = {
             "damages": {
               "formula": "comparable-case-informed range (lost development profit, cost overruns, or reliance damages depending on posture)"
             },
-            "note": "Sample (2 cases, Mammoth Lakes $30M+fees and Cle Elum $22M arbitration award) is both small and success-skewed — no losing case was found with comparable documentation. Base rate kept at the original preliminary estimate pending a more balanced sample; treat the high end of the damages range with real confidence (both anchor cases are well-documented) but the probability range as still largely a placeholder."
+            "note": "Sample expanded from 2 to 5 citations (added Township of Salem -- an actual loss for the developer, though on a different fact pattern (the government recovering FROM the developer for defective improvements, not the developer's own breach claim failing); 5th & Walnut Parking -- another clean win, $4.3M+, Iowa Supreme Court 2026; and PML v. Village of Hawthorn Woods -- a large final recovery for the developer, but only after a multi-year, multi-reversal saga, and net of a real, substantial offsetting counterclaim the Village won against the developer). Despite specifically searching for one, a clean FINAL loss on a developer's own affirmative breach-of-development-agreement claim was still not found -- worth noting as a real, if modest, pattern rather than assuming the search was simply incomplete: a documented breach claim against a municipality may be more likely to have real merit by the time it's litigated to a final, citable decision, or weaker claims may settle out earlier without leaving comparable public documentation. Base rate kept at the original preliminary estimate; treat the high end of the damages range with real confidence (all of the well-documented anchor cases involve real, large recoveries) but the probability range as still not fully calibrated."
           }
         }
       }
@@ -2015,6 +2015,15 @@ const CASE_VALUATION_DATA = {
         "dollarAmount": null,
         "sourceUrl": "https://www.law.com/thelegalintelligencer/2024/01/31/commonwealth-court-strikes-down-ordinance-due-to-illegal-spot-zoning/",
         "confidence": "medium"
+      },
+      {
+        "caseName": "Burd v. Borough of Brentwood Zoning Hearing Board",
+        "citation": "1049 C.D. 2021 (Pa. Commw. Ct. Apr. 18, 2023)",
+        "year": 2023,
+        "outcome": "UNSUCCESSFUL challenge -- balances the prior all-successful sample flagged as possibly outcome-selection-biased. Adjacent property owners challenged the Borough's rezoning of a parcel from residential to mixed-use (to permit a parking lot) as impermissible spot zoning, characterizing it as a 'peninsula' of commercial property surrounded by residential. The Commonwealth Court rejected that characterization, finding the parcel bordered residential zones on only two sides (not three) and was a 'natural extension' of existing adjacent mixed-use zoning that served the legitimate purpose of creating a buffer between commercial and residential uses. The rezoning was upheld.",
+        "dollarAmount": null,
+        "sourceUrl": "https://lawoftheland.wordpress.com/2023/11/15/pa-commonwealth-court-upholds-mixed-use-rezoning-ordinance-in-rejection-of-spot-zoning-argument/",
+        "confidence": "high"
       }
     ],
     "section_1983_zoning_claim": [
@@ -2082,6 +2091,24 @@ const CASE_VALUATION_DATA = {
         "dollarAmount": 25558,
         "sourceUrl": "https://caselaw.findlaw.com/court/pa-commonwealth-court/1736850.html",
         "confidence": "medium"
+      },
+      {
+        "caseName": "5th & Walnut Parking, LLC, et al. v. City of Des Moines",
+        "citation": "No. 24-1886 (Iowa June 12, 2026)",
+        "year": 2026,
+        "outcome": "The developers and the City entered a development agreement for a downtown multi-use project (parking garage, residential tower, theater). The project was repeatedly delayed by title issues, design changes, and COVID-19; the City issued default notices in mid-2020 for missed construction deadlines, which triggered the project lender's foreclosure, and the City then purchased the garage at that foreclosure sale -- extinguishing the developers' debt but also cutting off their ability to complete the project and realize the deal's contractual upside. The Iowa Supreme Court affirmed the district court's finding that the CITY, not the developers, breached the agreement, and affirmed a damages award of over $4.3 million for the developers' lost contractual benefits. The Court separately reversed a companion judgment against the City for tortious interference with contract, holding a breach of contract alone -- without additional improper conduct -- does not support that separate tort claim.",
+        "dollarAmount": 4300000,
+        "sourceUrl": "https://storage.courtlistener.com/pdf/2026/06/12/5th_and_walnut_parking_llc_5th_and_walnut_tower_llc_5th_and_court_llc.pdf",
+        "confidence": "high"
+      },
+      {
+        "caseName": "PML Development LLC v. Village of Hawthorn Woods",
+        "citation": "Trial: Cir. Ct. Lake County, No. 15-CH-848; PML I: 2022 IL App (2d) 200779; PML II (Ill. Supreme Court): 2023 IL 128770; final: 2025 IL App (2d) 240191-U (Mar. 26, 2025)",
+        "year": 2025,
+        "outcome": "COMPLEX, MULTI-LEVEL SAGA -- included for real downside-risk illustration, not a clean win/loss. PML agreed to grade and fill a 62-acre parcel and later convey it to the Village; performance broke down over permitting delays. Trial court (2020): found BOTH parties materially breached, but held the Village breached first (excusing PML's breach), and awarded PML ~$5.3M. Appellate court (2022): reversed -- held mutual material breach barred recovery for EITHER side. Illinois Supreme Court (2023): reversed again, adopting the 'partial-breach doctrine' (a party who continues performing after the other's material breach may still sue for damages, though it can be liable for its own breach too) -- remanded for both parties' damages to be determined and offset against each other. FINAL result (2025, on remand and second appeal): PML awarded $5,081,293 in damages -- but the Village was ALSO awarded $408,000 for two of PML's own breaches (failing to fund a draw-down account and failing to repair a road), netted against PML's recovery; PML was found the prevailing party overall and entitled to attorney fees for the entire litigation, including the earlier appeals. Real illustration that even a large, ultimately-successful developer claim against a municipality can face a substantial, legitimate offsetting counterclaim that meaningfully reduces net recovery -- not a clean win.",
+        "dollarAmount": 5081293,
+        "sourceUrl": "https://www.clausen.com/pml-development-v-village-of-hawthorn-woods-supreme-court-decision/",
+        "confidence": "high"
       }
     ]
   },
