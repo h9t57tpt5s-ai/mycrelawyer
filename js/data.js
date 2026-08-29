@@ -1401,6 +1401,37 @@ const RELAW_DATA = {
       ],
       judge: "Gabrielle R. Wolohojian",
       tags: ["standing", "charitable trust", "Article 97", "eminent domain", "public-private partnership"]
+    },
+    {
+      id: "live-050",
+      addedDate: "2026-08-29",
+      title: "Worldwide Plaza Foreclosure Receivership (825 Eighth Avenue, Manhattan)",
+      category: "lending-foreclosure",
+      status: "pending",
+      date: "2026-07-01",
+      jurisdiction: "Supreme Court of the State of New York, New York County",
+      state: "NY",
+      amount: "$940M senior loan (Goldman Sachs/Deutsche Bank, Series 2017-WWP); bondholders estimated to face losses up to $488M",
+      source: "live",
+      sourceUrl: "https://www.bisnow.com/news/new-york/office/worldwide-plaza-foreclosure-receivership-sl-green-rxr-extell-cmbs",
+      summary: "Under a court-approved transition effective July 1, Cushman & Wakefield replaced SL Green Realty Corp. as day-to-day manager of Worldwide Plaza, the 1.8-million-square-foot Manhattan office tower, ceding control to receiver Hilco Global while a $940 million CMBS foreclosure filed by Goldman Sachs, Deutsche Bank and the loan's trustee proceeds in New York County Supreme Court. A parallel fight over the property's mezzanine debt, in which Extell Development's Gary Barnett is pursuing a UCC Article 9 foreclosure sale, remains on appeal after Justice Andrea Masley denied SL Green and RXR's bid to enjoin the sale.",
+      significance: "Illustrates how quickly a sponsor can lose operational control of a trophy asset once senior lenders secure a receiver, even before any foreclosure sale occurs, and how competing senior and mezzanine creditors can pursue simultaneous, adversarial remedies against the same building on different timelines and legal standards. Owners and lenders across the distressed office sector should treat the case as a template for how receivership and UCC foreclosure tracks can fracture control of a single asset across parallel proceedings.",
+      body: [
+        "Worldwide Plaza, the 49-story, roughly 1.8-million-square-foot office tower at 825 Eighth Avenue in Manhattan, has effectively passed out of the hands of its owners while their foreclosure litigation plays out in the Commercial Division of the Supreme Court of the State of New York, New York County. Under a court-approved transition that took effect July 1, Cushman & Wakefield replaced SL Green Realty Corp. as the property's day-to-day manager, taking over leasing, tenant defaults, insurance and banking from Hilco Global, the temporary receiver a judge installed earlier this year at the senior lenders' request. The management handoff, reported in trade press on August 11, is the clearest sign yet that control of the tower has shifted from its sponsors to the court and the receiver overseeing it while the underlying $940 million foreclosure case proceeds.",
+        "The dispute traces back to a 10-year, fixed-rate $940 million loan that Goldman Sachs and Deutsche Bank originated in October 2017 against Worldwide Plaza and an adjacent roughly 250,000-square-foot mixed-use component that includes street retail, the New World Stages Off-Broadway theater complex and a parking garage. The debt was split into a $705 million pooled loan securitized into the CMBS trust for Series 2017-WWP and a $235 million companion loan. The building's fortunes turned in September 2024, when anchor tenant Cravath, Swaine & Moore vacated for new headquarters, dropping occupancy to roughly 63 percent and pushing the loan into special servicing. By December 2024, the ownership venture, led by SL Green and RXR with New York REIT Liquidating holding a passive minority stake, had missed a $2.9 million interest payment and paid only a fraction of a $21.6 million property tax bill. Goldman Sachs, Deutsche Bank and the CMBS trustee filed a foreclosure complaint on February 21, seeking both a judicially appointed receiver and authorization to sell the property.",
+        "A parallel fight over the property's mezzanine debt has made the case even more contentious. Extell Development founder Gary Barnett acquired the mezzanine loan secured by the ownership entities' equity interests and moved to force a UCC Article 9 foreclosure sale of that collateral, a faster, non-judicial mechanism that, if completed, would let Barnett seize control of the restructuring outside the primary foreclosure case. SL Green and RXR sued to block what they characterized as a sham auction engineered to strip them of the asset on the cheap. Justice Andrea Masley of the Commercial Division denied their motion for a preliminary injunction in late January, ruling that the sponsors had not carried their burden of showing the proposed sale would be commercially unreasonable under Article 9, the governing legal standard for challenging a secured party's disposition of collateral. That ruling cleared the way for Barnett's foreclosure auction to proceed, though SL Green and RXR have appealed, leaving the mezzanine fight unresolved even as the senior CMBS foreclosure and receivership move forward on a separate track.",
+        "For owners and lenders across the distressed office sector, the case is a live illustration of how quickly control of a trophy asset can slip away once a loan defaults, and of how two creditor classes, senior CMBS lenders and mezzanine debt holders, can pursue simultaneous, adversarial remedies against the same building. The senior lenders' receivership strategy has already succeeded in replacing the sponsor's own property manager before any foreclosure sale has even occurred, while the mezzanine holder's UCC sale route threatens a second, faster change of control through the ownership entity itself rather than the real property. Under the receivership, Hilco Global has been pursuing default and eviction proceedings against several of the tower's smaller retail tenants, including Body Factory, Bluedog Cookhouse and Bar and a barbershop, while reviewing a possible workout with another restaurant tenant, a preview of the granular, tenant-by-tenant asset management decisions that now rest with the court-appointed receiver rather than the original ownership group. Analysts covering the CMBS trust have estimated bondholders could face losses as high as $488 million depending on how the eventual sale or restructuring resolves.",
+        "The practical upshot for sponsors with maturing or defaulted CMBS debt is to treat loan and intercreditor documents as governing which creditor can move fastest, since Barnett's mezzanine position let him pursue a UCC sale on a materially faster timeline than the senior lenders' judicial foreclosure process, and a commercially-unreasonable challenge to such a sale is a high bar that courts will not presume in a sponsor's favor. Once a receiver is appointed, owners should expect a swift transition of management, banking, insurance and leasing authority away from their own personnel, with existing tenant relationships, down to small retail and restaurant leases, decided by the receiver rather than the original owner. Any sponsor sitting in a multi-tranche capital stack should also game out, well before default, how a senior foreclosure and a mezzanine UCC sale could run on parallel tracks with different timelines, fora and standards of review, since that structural mismatch is precisely what has allowed control of Worldwide Plaza to fracture across three separate proceedings at once."
+      ],
+      timeline: [
+        { when: "October 2017", label: "Goldman Sachs and Deutsche Bank originate the $940M loan against Worldwide Plaza, split into a $705M CMBS pooled loan (Series 2017-WWP) and a $235M companion loan" },
+        { when: "September 2024", label: "Anchor tenant Cravath, Swaine & Moore vacates, dropping occupancy to about 63% and pushing the loan into special servicing" },
+        { when: "Late January 2026", label: "Justice Andrea Masley denies SL Green and RXR's bid to enjoin Extell's UCC foreclosure sale of the mezzanine loan; owners appeal" },
+        { when: "February 21, 2026", label: "Goldman Sachs, Deutsche Bank and the CMBS trustee file a foreclosure and receivership complaint in New York County Supreme Court" },
+        { when: "July 1, 2026", label: "Court-approved transition installs Cushman & Wakefield as property manager in place of SL Green, under receiver Hilco Global", current: true }
+      ],
+      judge: "Andrea Masley",
+      tags: ["CMBS foreclosure", "receivership", "mezzanine debt", "UCC sale", "office"]
     }
   ],
 
@@ -1850,6 +1881,14 @@ const RELAW_DATA = {
       court: "Massachusetts Supreme Judicial Court",
       background: "Appointed to the Massachusetts Supreme Judicial Court by Governor Maura Healey and sworn in as an associate justice in April 2024. Previously served as an associate justice of the Massachusetts Appeals Court beginning in 2008 following her appointment by Governor Deval Patrick, and before that was a litigation partner at Hale and Dorr (now WilmerHale) in Boston.",
       bioUrl: "https://www.mass.gov/info-details/associate-justice-gabrielle-r-wolohojian"
+    },
+    {
+      name: "Andrea Masley",
+      slug: "andrea-masley",
+      title: "Justice, Commercial Division",
+      court: "Supreme Court of the State of New York, New York County",
+      background: "Elected to the New York State Supreme Court in 2016 and assigned to the Commercial Division, New York County in 2017. Previously elected to the New York City Civil Court in 2007 and served in Family Court from 2008 to 2010, and before that spent a decade as Principal Court Attorney to Commercial Division Justice Charles Edward Ramos.",
+      bioUrl: "https://www.nycourts.gov/commercial-division-new-york-county-manhattan/biography-justice-andrea-masley"
     }
   ],
 
@@ -1884,6 +1923,9 @@ const RELAW_DATA = {
     { name: "U.S. Bank National Association", matchTerm: "U.S. Bank", slug: "us-bank-national-association", description: "National bank that frequently serves as trustee or administrative agent for CMBS trusts and lender groups in commercial foreclosure and receivership litigation.", website: "https://www.usbank.com" },
     { name: "Jones Lang LaSalle Incorporated", matchTerm: "JLL", slug: "jll", description: "NYSE-listed global commercial real estate brokerage and investment management firm.", website: "https://www.jll.com" },
     { name: "Wilmington Trust National Association", matchTerm: "Wilmington Trust", slug: "wilmington-trust-national-association", description: "National bank and trust company that frequently serves as trustee for CMBS trusts and bondholders in commercial mortgage foreclosure litigation.", website: "https://www.wilmingtontrust.com" },
-    { name: "Wells Fargo Bank, National Association", matchTerm: "Wells Fargo", slug: "wells-fargo", description: "National bank that serves as trustee for CMBS trusts in commercial mortgage foreclosure and receivership litigation, and is also a major corporate office tenant nationally.", website: "https://www.wellsfargo.com" }
+    { name: "Wells Fargo Bank, National Association", matchTerm: "Wells Fargo", slug: "wells-fargo", description: "National bank that serves as trustee for CMBS trusts in commercial mortgage foreclosure and receivership litigation, and is also a major corporate office tenant nationally.", website: "https://www.wellsfargo.com" },
+    { name: "Goldman Sachs", slug: "goldman-sachs", description: "Global investment bank that originates and securitizes commercial mortgage loans, and frequently appears as a lender or plaintiff in CMBS foreclosure litigation.", website: "https://www.goldmansachs.com" },
+    { name: "Deutsche Bank", slug: "deutsche-bank", description: "Global investment bank that originates, services, and represents lender groups in commercial mortgage and CMBS foreclosure litigation.", website: "https://www.db.com" },
+    { name: "Cushman & Wakefield", slug: "cushman-wakefield", description: "Global commercial real estate services firm providing brokerage, leasing, and property and receivership management services.", website: "https://www.cushmanwakefield.com" }
   ]
 };
