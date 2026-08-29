@@ -16,7 +16,7 @@ const RELAW_DATA = {
      Drives the homepage's "New Today" pill: it only shows when this
      equals the visitor's local today. Updated by the digest automation
      each time Step 4 successfully adds a case — never touched otherwise. */
-  lastUpdatedDate: "2026-08-28",
+  lastUpdatedDate: "2026-08-29",
   categories: [
     { id: "landlord-tenant", label: "Landlord–Tenant", color: "var(--cat-landlord)" },
     { id: "zoning-land-use", label: "Zoning & Land Use", color: "var(--cat-zoning)" },
@@ -1369,6 +1369,38 @@ const RELAW_DATA = {
         { when: "August 2026", label: "Held Properties sues WealthStone and guarantor Andres Szita for roughly $1.1M in unpaid rent", current: true }
       ],
       tags: ["personal guaranty", "commercial lease", "rent default", "office", "century city"]
+    },
+    {
+      id: "live-049",
+      addedDate: "2026-08-29",
+      title: "Emerald Necklace Conservancy v. City of Boston (White Stadium $325M Redevelopment Standing Ruling)",
+      category: "zoning-land-use",
+      status: "ruling",
+      date: "2026-08-19",
+      jurisdiction: "Massachusetts Supreme Judicial Court",
+      state: "MA",
+      amount: "$325M public-private redevelopment ($135M city funding, $190M from Boston Legacy FC ownership group)",
+      source: "live",
+      sourceUrl: "https://www.wbur.org/news/2026/08/19/sjc-white-stadium-wu-boston",
+      summary: "The Massachusetts Supreme Judicial Court ruled unanimously on August 19 that the Emerald Necklace Conservancy and twenty individual neighborhood plaintiffs lacked standing to challenge Boston's $325 million redevelopment of White Stadium in Franklin Park for a National Women's Soccer League franchise, and separately held the stadium parcel is not protected parkland under Article 97 of the state constitution. The decision, authored by Justice Gabrielle R. Wolohojian, affirms a Superior Court judgment that had already found the city's stadium lease lawful and clears the last legal obstacle to the public-private project.",
+      significance: "Sets a demanding standing bar for advocacy and neighborhood groups seeking to enforce charitable-trust or protected-parkland terms against public-private redevelopment deals absent the Attorney General's own enforcement action, a holding that reaches well beyond stadium projects to any development sited on trust-held or formerly-condemned public land. Developers and municipalities structuring similar deals should treat a full chain-of-title and enabling-legislation review as essential diligence, since a decades-old statutory transfer out of parkland status proved dispositive here regardless of the site's present-day recreational use.",
+      body: [
+        "The Massachusetts Supreme Judicial Court on August 19 cleared the last legal obstacle to Boston's $325 million redevelopment of White Stadium in Franklin Park, ruling unanimously that a coalition of neighborhood plaintiffs lacked standing to challenge the project and that the stadium parcel is not protected parkland under Article 97 of the state constitution. The decision in Emerald Necklace Conservancy, Inc., and others v. City of Boston and others, SJC-13865, ends more than two years of litigation that had repeatedly delayed a public-private partnership between the city and Boston Unity Soccer Partners, the ownership group behind National Women's Soccer League franchise Boston Legacy FC, and offers a detailed roadmap for how far advocacy groups can go in enforcing century-old charitable trust terms against a municipal redevelopment deal.",
+        "The case reached the SJC on direct appellate review, with the court taking the matter directly rather than letting it proceed through the Appeals Court, after the Suffolk Superior Court ruled in April 2025 that the city's plan to lease White Stadium to a professional soccer team was lawful. The Emerald Necklace Conservancy, joined by twenty individual plaintiffs living near Franklin Park, argued that the stadium parcel remains protected parkland subject to Article 97's supermajority-legislative-approval requirement for converting protected open space to other uses, and separately that the redevelopment violates the terms of the George Robert White Fund, the charitable trust that has held the parcel since the mid-twentieth century.",
+        "Writing for a unanimous court, Justice Gabrielle R. Wolohojian rejected both theories. On the Article 97 claim, the opinion traces the parcel's unusual chain of title: the city originally acquired the Franklin Park land, including the stadium site, by eminent domain in 1883 for use as public parkland, but legislation enacted in 1947 and 1950 transferred the stadium parcel specifically to the George Robert White Fund and redesignated it as a school department athletic facility, removing it from parkland status roughly a quarter-century before Article 97 was even adopted in 1972. Because the parcel was not protected open space at the time Article 97 took effect, the court held, its subsequent redevelopment as a shared school and professional-soccer venue does not trigger the constitutional provision at all.",
+        "The standing ruling is likely to prove more consequential for developers than the Article 97 holding itself, because it applies well beyond stadium projects to any public-private redevelopment sited on land held by a charitable trust or similar public entity. The plaintiffs urged the court to relax its traditional special-interest standing test given that the Massachusetts Attorney General, the official normally charged with enforcing charitable trusts, had declined to bring its own enforcement action against the project. The court declined the invitation, holding squarely that membership in an organization whose mission is harmonious with a public trust's purposes does not, by itself, confer standing to enforce that trust's terms, and that recreational use of trust-owned land as a member of the general public is likewise insufficient. Absent the Attorney General's participation, the plaintiffs simply had no cognizable legal interest the court could adjudicate.",
+        "The decision confirms that Massachusetts courts will not readily open the door to citizen-suit-style enforcement of charitable trust terms merely because an advocacy group's mission happens to track the trust's stated purpose, and it reinforces that a chain-of-title analysis reaching back generations, not present-day recreational use, controls whether Article 97's protections apply to a given parcel. Even so, the litigation's two-year run illustrates the practical cost such challenges impose regardless of their ultimate merit: Boston Legacy FC has already been forced to relocate its 2027 NWSL season to Pawtucket, Rhode Island, with the city now projecting the rebuilt stadium will not open until fall 2027 at the earliest, a full season later than originally planned. For developers and municipal partners on similar deals, the practical upshot is to run a full chain-of-title and enabling-legislation review at the outset rather than assume current recreational use settles a parcel's protected status, to gauge early whether the Attorney General is likely to intervene on a charitable-trust theory before pricing litigation risk into financing or scheduling, and to build multi-year contingency into any project sited on trust-held or formerly-condemned public land even when the underlying legal position is ultimately vindicated in full."
+      ],
+      timeline: [
+        { when: "1883", label: "City of Boston acquires the Franklin Park land, including the stadium parcel, by eminent domain for use as public parkland" },
+        { when: "1947 and 1950", label: "State legislation transfers the stadium parcel to the George Robert White Fund charitable trust, removing it from parkland designation" },
+        { when: "April 2025", label: "Suffolk Superior Court rules the city's plan to lease White Stadium to a professional soccer team lawful" },
+        { when: "April 8, 2026", label: "SJC hears oral argument after docketing the case for direct appellate review" },
+        { when: "August 19, 2026", label: "SJC issues unanimous opinion authored by Justice Wolohojian, ruling for the city and clearing the way for the $325M redevelopment", current: true },
+        { when: "Fall 2027", label: "City projects the rebuilt White Stadium will reopen; Boston Legacy FC will play its 2027 NWSL season in Pawtucket, Rhode Island in the interim", upcoming: true }
+      ],
+      judge: "Gabrielle R. Wolohojian",
+      tags: ["standing", "charitable trust", "Article 97", "eminent domain", "public-private partnership"]
     }
   ],
 
@@ -1681,7 +1713,8 @@ const RELAW_DATA = {
     { jurisdiction: "U.S. District Court, Eastern District of Virginia", url: "https://www.vaed.uscourts.gov/" },
     { jurisdiction: "Supreme Court of California", url: "https://supreme.courts.ca.gov/" },
     { jurisdiction: "Greenville County Court of Common Pleas, South Carolina", url: "https://www.sccourts.org/courts/courthouse-search/greenville/" },
-    { jurisdiction: "342nd District Court, Tarrant County, Texas", url: "https://www.tarrantcountytx.gov/en/civil-courts/district-courts/342nd-district-court.html" }
+    { jurisdiction: "342nd District Court, Tarrant County, Texas", url: "https://www.tarrantcountytx.gov/en/civil-courts/district-courts/342nd-district-court.html" },
+    { jurisdiction: "Massachusetts Supreme Judicial Court", url: "https://www.mass.gov/orgs/massachusetts-supreme-judicial-court" }
   ],
 
   /* Judges — background on every judge named in our sourced reporting (never
@@ -1809,6 +1842,14 @@ const RELAW_DATA = {
       court: "342nd District Court, Tarrant County, Texas",
       background: "Appointed to the 342nd Judicial District Court by Governor Greg Abbott in 2018 and subsequently elected and re-elected to the seat, most recently in November 2024. Previously a partner at Harris Cook, L.L.P. in Fort Worth handling business, civil litigation, and real estate matters, and before that served as mayor of Dalworthington Gardens, Texas.",
       bioUrl: "https://www.tarrantcountytx.gov/en/civil-courts/district-courts/342nd-district-court.html"
+    },
+    {
+      name: "Gabrielle R. Wolohojian",
+      slug: "gabrielle-r-wolohojian",
+      title: "Associate Justice",
+      court: "Massachusetts Supreme Judicial Court",
+      background: "Appointed to the Massachusetts Supreme Judicial Court by Governor Maura Healey and sworn in as an associate justice in April 2024. Previously served as an associate justice of the Massachusetts Appeals Court beginning in 2008 following her appointment by Governor Deval Patrick, and before that was a litigation partner at Hale and Dorr (now WilmerHale) in Boston.",
+      bioUrl: "https://www.mass.gov/info-details/associate-justice-gabrielle-r-wolohojian"
     }
   ],
 
