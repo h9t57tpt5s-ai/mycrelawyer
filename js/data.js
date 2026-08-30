@@ -1466,6 +1466,35 @@ const RELAW_DATA = {
       ],
       judge: "Nitza I. Quiñones Alejandro",
       tags: ["CMBS foreclosure", "receivership", "distressed office", "office conversion", "federal court order"]
+    },
+    {
+      id: "live-052",
+      addedDate: "2026-08-30",
+      title: "Wilmington Trust v. Klor-Controlled SPNA Entities (137-Unit Chicago Condo-Deconversion Foreclosure)",
+      category: "lending-foreclosure",
+      status: "filed",
+      date: "2026-08-27",
+      jurisdiction: "Circuit Court of Cook County, Illinois, Chancery Division",
+      state: "IL",
+      amount: "~$51M sought in principal and accrued interest (excluding late charges, fees, costs) on $85M combined revolving credit lines",
+      source: "live",
+      sourceUrl: "https://therealdeal.com/chicago/2026/08/27/condo-buyout-specialist-yitzy-klor-hit-by-big-chicago-foreclosures/",
+      summary: "Wilmington Trust National Association, as trustee for a Redwood Trust subsidiary holding debt originated by CoreVest, filed suit in Cook County Circuit Court to foreclose on 137 condominium units across seven Chicago towers personally guaranteed by Yitzy Klor, principal of Strategic Properties of North America (SPNA). The suit seeks nearly $51 million on two revolving credit lines, extended in November 2021 and January 2023, that together total $85 million.",
+      significance: "Illustrates the collateral risk lenders take on when financing partial-ownership condo-deconversion assembly plays, where debt service depends on a future supermajority ownership vote the lender cannot control. With one of the seven towers, 200 North Dearborn Street, having failed three straight deconversion votes, the case is a warning for lenders underwriting bulk-buyout sponsors and for condo boards facing similar offers that a stalled deconversion can cascade into sponsor-side insolvency and litigation.",
+      body: [
+        "A portfolio of 137 condominium units spread across seven Chicago towers is now the subject of a foreclosure action seeking nearly $51 million in principal and accrued interest, according to filings in the Circuit Court of Cook County, Illinois. The lender, Wilmington Trust National Association, is suing in its capacity as trustee for a subsidiary of Redwood Trust Inc. that holds the debt, loans originally underwritten by CoreVest, Redwood's San Francisco-based commercial lending arm. The borrowing entities are controlled by Yitzy Klor, principal of Strategic Properties of North America, known as SPNA, who personally guaranteed the obligations.",
+        "The debt traces to two revolving credit facilities, extended in November 2021 and January 2023, that together total $85 million and were secured by individual condominium units SPNA had acquired as part of its long-running strategy of condo deconversion, meaning buying units in bulk, consolidating ownership under a single entity, and converting the building to a traditional rental tower. Illinois law allows a sponsor to force out even objecting owners once it secures a sufficient supermajority vote, which has made deconversion an aggressive but legally sanctioned tool for assembling rental portfolios out of existing condo stock. The foreclosure complaint now seeks to collect on those credit lines in full, plus late charges, attorneys' fees, and other costs not included in the roughly $51 million headline figure, and asks the court for judgments of foreclosure and sale against the 137 named units and their associated rental income.",
+        "One of the seven buildings at issue is 200 North Dearborn Street, a 309-unit Loop high-rise where the foreclosure complaint names 47 units, about 15 percent of the building. That property has been a particular flashpoint: SPNA has now failed three separate times to secure the ownership supermajority needed to complete a deconversion there, most recently when owners rejected a $98 million buyout offer in late July 2026. Without a completed deconversion, SPNA's Dearborn Street unit inventory generates far less income than the sponsor's underwriting for the CoreVest credit lines evidently assumed, and the mismatch between debt service and actual cash flow appears to be at the center of the default now being litigated.",
+        "The filing lands amid a broader pattern of distress at SPNA. The company was hit with a separate foreclosure action on a Skokie office building earlier this year, and Byline Bank has separately pursued SPNA over a defaulted promissory note. A related dispute involving the Cacciatore family accuses Klor and business partner Saul Kuperwasser of failing to honor a prior agreement, with roughly $51 million in debt again in the background. Taken together, the filings suggest a sponsor whose acquisition-and-conversion model, reliant on eventually consolidating full ownership to unlock rental income sufficient to service acquisition-stage debt, is increasingly exposed wherever a deconversion vote fails or stalls.",
+        "For lenders, the case is a pointed illustration of the risk embedded in financing partial-ownership condo assembly plays: the collateral's value, and the borrower's ability to service the debt, depends on a future event, a supermajority ownership vote, that the lender does not control and that unit owners have every incentive to resist. A revolving credit facility secured by scattered, individually owned units in a still-occupied condo building is a materially different credit than a loan against a stabilized rental asset, and underwriting that treats the two as interchangeable invites exactly the kind of shortfall now playing out in Cook County. Practically, condo boards and unit owners facing deconversion offers should treat a sponsor's inability to close a buyout as more than a stalled transaction, since it can cascade into the sponsor's own insolvency and litigation exposure with consequences that outlast any single failed vote; lenders and other bulk-acquisition sponsors financing similar strategies should stress-test credit facilities against realistic deconversion timelines and vote-failure scenarios rather than assume a supermajority will eventually materialize on the schedule original underwriting required."
+      ],
+      timeline: [
+        { when: "November 2021", label: "First revolving credit line, originated by CoreVest (a Redwood Trust subsidiary), extended to a Klor-controlled borrowing entity" },
+        { when: "January 2023", label: "Second revolving credit line extended, bringing the two combined facilities to $85M" },
+        { when: "July 28, 2026", label: "Condo owners at 200 North Dearborn Street reject SPNA's third bulk buyout offer, this one for $98M" },
+        { when: "August 27, 2026", label: "Wilmington Trust, as trustee for the Redwood Trust subsidiary holding the debt, sues to foreclose on 137 units across seven towers, seeking nearly $51M", current: true }
+      ],
+      tags: ["foreclosure", "condo deconversion", "personal guaranty", "revolving credit", "cook county"]
     }
   ],
 
