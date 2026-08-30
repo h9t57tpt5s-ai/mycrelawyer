@@ -16,7 +16,7 @@ const RELAW_DATA = {
      Drives the homepage's "New Today" pill: it only shows when this
      equals the visitor's local today. Updated by the digest automation
      each time Step 4 successfully adds a case — never touched otherwise. */
-  lastUpdatedDate: "2026-08-29",
+  lastUpdatedDate: "2026-08-30",
   categories: [
     { id: "landlord-tenant", label: "Landlord–Tenant", color: "var(--cat-landlord)" },
     { id: "zoning-land-use", label: "Zoning & Land Use", color: "var(--cat-zoning)" },
@@ -1432,6 +1432,40 @@ const RELAW_DATA = {
       ],
       judge: "Andrea Masley",
       tags: ["CMBS foreclosure", "receivership", "mezzanine debt", "UCC sale", "office"]
+    },
+    {
+      id: "live-051",
+      addedDate: "2026-08-30",
+      title: "Centre Square Receivership Sale Order (1500 Market Street, Philadelphia)",
+      category: "lending-foreclosure",
+      status: "ruling",
+      date: "2026-08-17",
+      jurisdiction: "U.S. District Court, Eastern District of Pennsylvania",
+      state: "PA",
+      amount: "$70M court-ordered sale (roughly 21% of the $328M Nightingale/InterVest paid in 2017); against $390M CMBS loan, appraised at $471M in 2019 and $223.5M by September 2024",
+      source: "live",
+      sourceUrl: "https://www.bisnow.com/news/philadelphia/office/centre-square-sale-court-ruling",
+      summary: "Judge Nitza I. Quiñones Alejandro ordered the $70 million sale of Centre Square, Philadelphia's largest office complex, to close by October 16, overriding both rival bidders' objections and the winning buyer's own attempt to walk away from its contract. The ruling caps nearly two years of receivership following Wells Fargo's January 2023 CMBS foreclosure filing against owners Nightingale Properties and InterVest Capital Partners.",
+      significance: "Shows that a federal court overseeing a CMBS receivership will use its equitable authority to compel a reluctant winning bidder to close, not just to bind a defaulting borrower or reject a disappointed runner-up. Lenders, receivers, and bidders on distressed office assets should treat a court-approved receivership sale contract, once a nonrefundable deposit is posted, as functionally enforceable against a change of heart on either side.",
+      body: [
+        "Nearly two years after Philadelphia's Centre Square slid into foreclosure, a federal judge has ordered its $70 million sale to close, over the objections of rival bidders and, more unusually, the reluctance of the buyer that agreed to the price in the first place. Judge Nitza I. Quiñones Alejandro of the U.S. District Court for the Eastern District of Pennsylvania ruled on August 17 that there was no reason to delay the transaction any further, directing the sale of the 1.76-million-square-foot twin-tower office complex at 1500 Market Street to affiliates of developer Dean Adler and PMC Property Group ahead of an October 16 closing deadline. The order effectively ends a bidding saga that had threatened to drag the property's receivership into a third year, and it offers commercial lenders, receivers, and courts around the country a template for how far a federal court sitting over a distressed-asset receivership can go to force a sale across the finish line.",
+        "Centre Square's troubles trace back to the pandemic-era collapse of Philadelphia's office market. Nightingale Properties and InterVest Capital Partners, the New York investment firm and its partner formerly known as Wafra Capital Partners, bought the twin towers as part of a $328 million portfolio acquisition in 2017 and refinanced them two years later with a $390 million loan securitized into a commercial mortgage-backed securities trust. As anchor tenants departed and occupancy sank into the mid-30-percent range, the ownership venture stopped making debt-service payments, and Wells Fargo Bank, acting as trustee for the CMBS certificateholders, filed a foreclosure complaint in January 2023. The court installed CBRE as receiver that April, and by the time CBRE listed the property for sale, Centre Square's value had been marked down repeatedly, from a pre-pandemic appraisal of $471 million in 2019 to just $223.5 million by September 2024, reflecting both the drop in occupancy and a broader repricing of aging Center City office stock.",
+        "CBRE eventually marketed the complex as a conversion play, and a bidding process in early 2026 produced a contract with Adler and PMC Property Group, who proposed converting part of the towers to apartments and a hotel while retaining an office component. The two put down a $5 million nonrefundable deposit in March. What followed, though, was not a straight path to closing. Two other prospective buyers, CSC Coliving and Universal Group Co., surfaced to challenge the sale, claiming they had submitted higher offers that the receiver had improperly passed over, a challenge CSC Coliving ultimately withdrew. Then, in a turn that is unusual even by distressed-office standards, Adler and PMC themselves moved to back out of their own winning bid in July, apparently willing to forfeit the $5 million deposit rather than complete the purchase as Center City office fundamentals continued to soften.",
+        "It was against that backdrop that Judge Quiñones Alejandro intervened. Sitting in the equitable oversight role a federal court occupies once it has appointed a receiver over a defaulted CMBS loan, she ordered the sale to proceed notwithstanding the buyer's own second thoughts, writing that no basis existed to delay the transaction further and making the order effective immediately for purposes of any appeal. The ruling is notable less for its legal novelty, since courts overseeing receiverships have long had broad equitable authority to enforce court-approved sale contracts, than for its willingness to use that authority against a reluctant winning bidder rather than merely against a defaulting borrower or a disappointed runner-up. The $70 million price represents roughly 21 percent of what Nightingale and InterVest paid for the property in 2017, a discount that captures just how far Center City's office values have fallen and how much execution risk still surrounds even a court-blessed sale of a marquee distressed asset.",
+        "The practical upshot for lenders, receivers, and bidders on distressed commercial real estate is that a signed receivership sale agreement is not merely a preliminary step subject to renegotiation if market conditions shift before closing: once a federal court has approved a sale and a buyer has committed capital in the form of a nonrefundable deposit, that court retains the power, and here showed the willingness, to compel performance rather than let the deal lapse and restart the marketing process yet again. Bidders on distressed CMBS-backed assets should treat their letters of intent and deposit agreements as functionally binding once a receiver's chosen bid clears any competing-bid challenge, should budget for the possibility that a court will hold them to a deal even if the market moves against them before closing, and should recognize that rival bidders face a correspondingly high bar to unwind an already-approved sale absent clear evidence the receiver's process was flawed. More broadly, the nearly three-year arc from foreclosure filing to court-ordered closing is a reminder that even a successfully court-supervised distressed-office workout can take years and multiple rounds of re-marketing before it finally resolves, a timeline owners, lenders, and investors underwriting similar CMBS-backed office assets should build into their own expectations."
+      ],
+      timeline: [
+        { when: "2017", label: "Nightingale Properties and InterVest Capital Partners acquire Centre Square as part of a $328M portfolio deal" },
+        { when: "2019", label: "Ownership refinances with a $390M CMBS loan; pre-pandemic appraisal values the property at $471M" },
+        { when: "January 2023", label: "Wells Fargo Bank, as CMBS trustee, files a foreclosure complaint after the ownership venture defaults" },
+        { when: "April 20, 2023", label: "Court installs CBRE as receiver over the property" },
+        { when: "March 2026", label: "Dean Adler and PMC Property Group go under contract to buy Centre Square for $70M, posting a $5M nonrefundable deposit; CSC Coliving and Universal Group Co. challenge the sale claiming higher bids" },
+        { when: "July 2026", label: "Adler and PMC themselves move to exit the purchase agreement rather than close" },
+        { when: "August 17, 2026", label: "Judge Nitza I. Quiñones Alejandro orders the $70M sale to proceed ahead of an October 16 closing deadline", current: true },
+        { when: "October 16, 2026", label: "Court-ordered deadline for the sale to close", upcoming: true }
+      ],
+      judge: "Nitza I. Quiñones Alejandro",
+      tags: ["CMBS foreclosure", "receivership", "distressed office", "office conversion", "federal court order"]
     }
   ],
 
@@ -1745,7 +1779,8 @@ const RELAW_DATA = {
     { jurisdiction: "Supreme Court of California", url: "https://supreme.courts.ca.gov/" },
     { jurisdiction: "Greenville County Court of Common Pleas, South Carolina", url: "https://www.sccourts.org/courts/courthouse-search/greenville/" },
     { jurisdiction: "342nd District Court, Tarrant County, Texas", url: "https://www.tarrantcountytx.gov/en/civil-courts/district-courts/342nd-district-court.html" },
-    { jurisdiction: "Massachusetts Supreme Judicial Court", url: "https://www.mass.gov/orgs/massachusetts-supreme-judicial-court" }
+    { jurisdiction: "Massachusetts Supreme Judicial Court", url: "https://www.mass.gov/orgs/massachusetts-supreme-judicial-court" },
+    { jurisdiction: "U.S. District Court, Eastern District of Pennsylvania", url: "https://www.paed.uscourts.gov/" }
   ],
 
   /* Judges — background on every judge named in our sourced reporting (never
@@ -1889,6 +1924,14 @@ const RELAW_DATA = {
       court: "Supreme Court of the State of New York, New York County",
       background: "Elected to the New York State Supreme Court in 2016 and assigned to the Commercial Division, New York County in 2017. Previously elected to the New York City Civil Court in 2007 and served in Family Court from 2008 to 2010, and before that spent a decade as Principal Court Attorney to Commercial Division Justice Charles Edward Ramos.",
       bioUrl: "https://www.nycourts.gov/commercial-division-new-york-county-manhattan/biography-justice-andrea-masley"
+    },
+    {
+      name: "Nitza I. Quiñones Alejandro",
+      slug: "nitza-i-quinones-alejandro",
+      title: "U.S. District Judge",
+      court: "U.S. District Court, Eastern District of Pennsylvania",
+      background: "Nominated by President Obama in November 2012 and confirmed to the federal bench in June 2013, after serving as a judge on the Philadelphia County Court of Common Pleas. The first lesbian Latina to serve as a federal judge.",
+      bioUrl: "https://www.fjc.gov/history/judges/qui%C3%B1ones-alejandro-nitza-ileana"
     }
   ],
 
@@ -1926,6 +1969,7 @@ const RELAW_DATA = {
     { name: "Wells Fargo Bank, National Association", matchTerm: "Wells Fargo", slug: "wells-fargo", description: "National bank that serves as trustee for CMBS trusts in commercial mortgage foreclosure and receivership litigation, and is also a major corporate office tenant nationally.", website: "https://www.wellsfargo.com" },
     { name: "Goldman Sachs", slug: "goldman-sachs", description: "Global investment bank that originates and securitizes commercial mortgage loans, and frequently appears as a lender or plaintiff in CMBS foreclosure litigation.", website: "https://www.goldmansachs.com" },
     { name: "Deutsche Bank", slug: "deutsche-bank", description: "Global investment bank that originates, services, and represents lender groups in commercial mortgage and CMBS foreclosure litigation.", website: "https://www.db.com" },
-    { name: "Cushman & Wakefield", slug: "cushman-wakefield", description: "Global commercial real estate services firm providing brokerage, leasing, and property and receivership management services.", website: "https://www.cushmanwakefield.com" }
+    { name: "Cushman & Wakefield", slug: "cushman-wakefield", description: "Global commercial real estate services firm providing brokerage, leasing, and property and receivership management services.", website: "https://www.cushmanwakefield.com" },
+    { name: "CBRE Group, Inc.", matchTerm: "CBRE", slug: "cbre-group", description: "NYSE-listed global commercial real estate services and investment management firm, frequently serving as broker, property manager, or court-appointed receiver in distressed CRE matters.", website: "https://www.cbre.com" }
   ]
 };
