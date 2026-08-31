@@ -16,7 +16,7 @@ const RELAW_DATA = {
      Drives the homepage's "New Today" pill: it only shows when this
      equals the visitor's local today. Updated by the digest automation
      each time Step 4 successfully adds a case — never touched otherwise. */
-  lastUpdatedDate: "2026-08-30",
+  lastUpdatedDate: "2026-08-31",
   categories: [
     { id: "landlord-tenant", label: "Landlord–Tenant", color: "var(--cat-landlord)" },
     { id: "zoning-land-use", label: "Zoning & Land Use", color: "var(--cat-zoning)" },
@@ -1495,6 +1495,34 @@ const RELAW_DATA = {
         { when: "August 27, 2026", label: "Wilmington Trust, as trustee for the Redwood Trust subsidiary holding the debt, sues to foreclose on 137 units across seven towers, seeking nearly $51M", current: true }
       ],
       tags: ["foreclosure", "condo deconversion", "personal guaranty", "revolving credit", "cook county"]
+    },
+    {
+      id: "live-053",
+      addedDate: "2026-08-31",
+      title: "Corebridge Financial Affiliate v. Chetrit-Moinian-Minskoff Venture (500-512 Seventh Avenue Foreclosure Judgment)",
+      category: "lending-foreclosure",
+      status: "ruling",
+      date: "2026-08-24",
+      jurisdiction: "Supreme Court of the State of New York, New York County",
+      state: "NY",
+      amount: "$356M foreclosure judgment on a $375M original loan; $163M+ in separate personal guaranty judgments",
+      source: "live",
+      sourceUrl: "https://therealdeal.com/new-york/2026/08/24/chetrit-moinian-minskoffs-midtown-tower-faces-foreclosure/",
+      summary: "A New York Supreme Court judge entered judgment of foreclosure and sale against the Garment District office towers at 500 and 512 Seventh Avenue, co-owned by Meyer Chetrit, Joseph Moinian, and Edward J. Minskoff, after the ownership venture defaulted on a $375M loan starting in February 2024. The lender, a Corebridge Financial subsidiary, alleged the venture engaged in self-dealing, including failing to collect rent from a Chetrit Group affiliate and letting electricity bills go unpaid until the lender covered them itself; the borrower agreed not to oppose the foreclosure motion.",
+      significance: "Because the loan carried standard non-recourse carve-outs, the self-dealing allegations are what convert an otherwise collateral-only default into more than $163M of personal guaranty exposure for the Chetrits, underscoring how operational shortcuts by a distressed sponsor can trigger full recourse liability. Lenders and co-guarantors in multi-sponsor ownership structures should treat the case as a template for both pursuing and anticipating bad-act recourse claims.",
+      body: [
+        "A Manhattan office tower co-owned by three of New York real estate's most recognizable names, Meyer Chetrit, Joseph Moinian, and Edward J. Minskoff, is headed to a foreclosure auction after a New York Supreme Court judge granted a lender's motion for judgment of foreclosure and sale, capping more than a year of litigation over a defaulted $375 million loan on 500 and 512 Seventh Avenue in the Garment District. The order, reported this week, is notable not only for its size but for the underlying theory: the lender, a subsidiary of Corebridge Financial, alleged the ownership partnership engaged in intentional self-dealing, including failing to collect rent from an affiliated tenant and allowing unpaid electricity bills to accumulate until the lender itself stepped in to cover them.",
+        "The partnership defaulted on the loan beginning in February 2024, and Corebridge's subsidiary filed a judicial foreclosure action in New York County Supreme Court in July 2025, later moving for appointment of a receiver over the properties while the case proceeded. According to court filings, the borrower ultimately agreed not to oppose the foreclosure motion, and the court entered judgment putting the unpaid debt, plus interest, fees, and costs, at approximately $356 million. Separately, Meyer and Joseph Chetrit are now facing more than $163 million in personal judgments tied to the same matter, a figure that points directly to the loan's non-recourse carve-out structure and the significance of the self-dealing allegations.",
+        "That structure is the legal crux of the case, and the reason general counsel and asset managers well beyond this particular tower should take note. Like most large commercial mortgages of its vintage, the 2018 refinancing on 500 and 512 Seventh Avenue was written as non-recourse debt: absent a triggering bad act, the lender's remedy is limited to the collateral itself, not the personal assets of the sponsors who signed the guaranty. Carve-out guaranties exist precisely to police against a narrow set of bad-faith conduct, fraud, waste, unauthorized transfers of rents or security deposits, and similar misappropriation, by converting an otherwise non-recourse loan into a fully recourse obligation against the guarantors personally the moment that conduct occurs. Corebridge's pleadings framed the alleged failure to remit rent collected from an affiliate of the Chetrit Group, and the alleged diversion of funds that should have covered the property's electricity costs, as exactly that kind of triggering conduct.",
+        "The allegations arrive amid broader, well-documented financial strain at the Chetrit Group. Meyer Chetrit testified in a deposition earlier this year that the firm was dissolving, citing an inability to pay employees, outside counsel, or other obligations. That context matters for how courts and future lenders are likely to read this case: a sponsor group under acute financial pressure is, unsurprisingly, the fact pattern in which carve-out triggers most often surface, because cash that should flow to debt service and property operations becomes, in practice, the last funds left for a distressed borrower to draw on. The 500-512 Seventh Avenue matter is not the only Chetrit-linked foreclosure working through the New York courts this year, but its size and its explicit self-dealing theory make it one of the clearest illustrations yet of how quickly a non-recourse loan can become a very personal problem for a guarantor once a lender can plausibly allege bad-faith diversion of property income.",
+        "The practical lesson cuts in several directions. Borrowers and sponsors operating under financial stress should treat rent collection, tenant billing, and utility payments as compliance-critical functions rather than discretionary cash-management choices, since lapses in exactly those areas are what most commonly convert non-recourse debt into personal recourse liability. Lenders, for their part, are well served by documenting any pattern of uncollected affiliate rent, diverted deposits, or unpaid operating expenses contemporaneously, since that record is what ultimately supports both a receivership motion and a later bad-act recourse claim. Multi-sponsor ownership vehicles like the Chetrit-Moinian-Minskoff venture should also build clear internal governance around building operations, because liability under a shared guaranty does not track which partner actually controlled the checkbook, and any general counsel overseeing legacy 2018-vintage non-recourse financing would do well to audit carve-out guaranty language now, before a maturity default forces a hurried read of exactly what conduct converts a loan to full recourse."
+      ],
+      timeline: [
+        { when: "February 2024", label: "Ownership venture defaults on the $375M loan" },
+        { when: "July 2025", label: "Corebridge Financial subsidiary files judicial foreclosure action in New York County Supreme Court" },
+        { when: "August 24, 2026", label: "Court enters judgment of foreclosure and sale, putting the debt at approximately $356M and personal guaranty exposure at $163M+", current: true }
+      ],
+      tags: ["foreclosure", "non-recourse carve-out", "personal guaranty", "self-dealing", "manhattan office"]
     }
   ],
 
