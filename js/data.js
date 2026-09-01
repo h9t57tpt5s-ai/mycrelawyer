@@ -16,7 +16,7 @@ const RELAW_DATA = {
      Drives the homepage's "New Today" pill: it only shows when this
      equals the visitor's local today. Updated by the digest automation
      each time Step 4 successfully adds a case — never touched otherwise. */
-  lastUpdatedDate: "2026-08-31",
+  lastUpdatedDate: "2026-09-01",
   categories: [
     { id: "landlord-tenant", label: "Landlord–Tenant", color: "var(--cat-landlord)" },
     { id: "zoning-land-use", label: "Zoning & Land Use", color: "var(--cat-zoning)" },
@@ -1679,6 +1679,92 @@ const RELAW_DATA = {
         { when: "August 2026", label: "Detroit fines a separate landlord, Munoz Realty, $460,000 in a related blight-enforcement pattern" }
       ],
       tags: ["nuisance abatement", "tenant harm", "fractional ownership", "blight", "code compliance"]
+    },
+    {
+      id: "live-060",
+      addedDate: "2026-09-01",
+      title: "Markham Contracting Co., Inc. v. Cahava Springs Phase I, Inc. (Unjust Enrichment Claim Against Infrastructure-District Landowners)",
+      category: "construction-defect",
+      status: "ruling",
+      date: "2026-06-17",
+      jurisdiction: "Supreme Court of Arizona",
+      state: "AZ",
+      amount: "$6.5M underlying arbitration award against the improvement district",
+      source: "live",
+      sourceUrl: "https://storage.courtlistener.com/pdf/2026/06/17/markham_v._cahava.pdf",
+      summary: "The Arizona Supreme Court unanimously held that contractor Markham Contracting Co. may pursue an unjust enrichment claim directly against the landowners of a Cave Creek planned community, even though Markham's actual contract ran only to the public improvement district that hired it to build roads and water lines. The district stopped paying Markham mid-project; Markham won a roughly $6.5 million arbitration award against the district but could not fully collect, and sued the landowners who benefited from the completed infrastructure instead.",
+      significance: "The ruling forecloses a 'no privity, no liability' defense that landowners in special-district financing structures — common well beyond Arizona for funding roads, utilities, and other infrastructure on planned developments — have used to avoid direct liability when the financing entity itself cannot pay. Developers and owners relying on improvement districts should treat a contractor's uncollectible award against the district as a live risk of direct unjust enrichment exposure to the landowners themselves.",
+      body: [
+        "The Arizona Supreme Court ruled unanimously on June 17, 2026 that a contractor may continue an unjust enrichment lawsuit against landowners who benefited from public infrastructure work, even without any direct contract between the contractor and those landowners. Chief Justice Ann A. Scott Timmer authored the opinion in Markham Contracting Co., Inc. v. Cahava Springs Phase I, Inc., et al., reversing lower courts that had dismissed the contractor's claims for lack of privity.",
+        "The dispute grew out of a planned community development in Cave Creek, Arizona, where Markham Contracting agreed with a public improvement district to build roads, water lines, and related infrastructure. The landowners behind the project had helped create the district and agreed that special assessments on their parcels would fund its payment obligations to Markham. Partway through construction, a dispute arose and the district stopped paying. Markham took its claims to arbitration and won an award of roughly $6.5 million, but the district's limited assessment revenue left Markham unable to collect the full amount.",
+        "Markham then sued the landowners directly for unjust enrichment, arguing they had authorized the district's creation, agreed to fund it, and received a tangible, uncompensated benefit in the form of completed infrastructure serving their land. The landowners moved to dismiss on the theory that their only legal relationship ran to the district, a separate entity, and that unjust enrichment could not substitute for a contract claim where no direct agreement existed between them and Markham. A trial court agreed and dismissed the claims, and the court of appeals affirmed in an unpublished decision.",
+        "The Supreme Court reversed, holding that an owner who requests, authorizes, or accepts improvements performed by a contractor or subcontractor can be liable for unjust enrichment when it fails to compensate the party that actually did the work, regardless of whether a formal contract connects the two. The absence of privity, the court explained, is not fatal to an equitable claim designed precisely for situations where no adequate remedy at law exists between the party that performed the work and the party that benefited from it.",
+        "The decision lands on a financing structure used well beyond Arizona: developers routinely fund infrastructure through special improvement districts, community facilities districts, or similar vehicles, with landowners agreeing to repay the district through assessments rather than carrying the debt directly. That approach is popular because it keeps infrastructure costs off the landowners' own balance sheets while still letting them control, through their role in creating and funding the district, how the work gets done. Markham confirms that structure will not fully insulate landowners if the district itself cannot pay, giving contractors and subcontractors left holding an uncollectible award added leverage to pursue the landowners who actually benefit from the finished work. Owners and developers using these structures should build reserves, guarantees, or completion bonds sufficient to cover potential assessment shortfalls, and counsel drafting district-formation and assessment documents should revisit indemnification provisions in light of the ruling, since Arizona courts have now made clear they will look past the financing structure to the party that received the benefit."
+      ],
+      timeline: [
+        { when: "2023", label: "Dispute arises during construction; the improvement district stops paying Markham Contracting" },
+        { when: "Prior to appeal", label: "Arbitration produces an award of approximately $6.5 million in Markham's favor against the district" },
+        { when: "June 17, 2026", label: "Arizona Supreme Court unanimously reverses dismissal, holding landowners may be liable for unjust enrichment", current: true }
+      ],
+      judge: "Ann A. Scott Timmer",
+      tags: ["unjust enrichment", "construction", "improvement district", "arizona", "contractor payment"]
+    },
+    {
+      id: "live-061",
+      addedDate: "2026-09-01",
+      title: "Arizona ex rel. Mayes v. Dasmen Residential, LLC (Tucson Apartment Habitability Enforcement Suit)",
+      category: "landlord-tenant",
+      status: "filed",
+      date: "2026-08-07",
+      jurisdiction: "Maricopa County Superior Court, Arizona",
+      state: "AZ",
+      amount: "1,000+ units; seeking restitution and civil penalties, plus a rental freeze pending compliance",
+      source: "live",
+      sourceUrl: "https://www.azag.gov/press-release/attorney-general-mayes-sues-out-state-landlords-leaving-tucson-tenants-without-ac",
+      summary: "Arizona Attorney General Kris Mayes sued the owners and managers of three Tucson apartment complexes — Sedona Springs, Sienna Ridge, and Summit Ridge — on August 7, 2026, alleging a pattern of neglect dating to 2023 that left more than 1,000 units without adequate air conditioning through record summer heat, along with plumbing, mold, and pest problems. The complaint, filed with an application for a temporary restraining order and preliminary injunction, names Dasmen Residential, Luxford Living, and several affiliated single-property ownership entities as defendants.",
+      significance: "Brought by the state rather than an individual tenant, the suit seeks remedies well beyond typical habitability litigation, including a bar on renting additional units until the properties meet legal standards. It signals that extreme indoor heat is increasingly being treated as an emergency habitability violation on par with structural or water-intrusion defects, and that multi-entity ownership layering will not shield every entity in the chain from being named.",
+      body: [
+        "Arizona Attorney General Kris Mayes filed suit on August 7, 2026 in Maricopa County Superior Court against the owners and managers of three Tucson apartment complexes, alleging a multi-year pattern of neglect that left more than 1,000 units without functioning air conditioning through some of the hottest months on record. The complaint, filed together with an application for a temporary restraining order and preliminary injunction, names Sedona Springs, Sienna Ridge, and Summit Ridge apartment complexes and a cluster of affiliated ownership and management entities, including Sedona Springs AZ, Sienna Ridge AZ, Summit Ridge AZ, DMR Sedona Springs AZ, DMR Tucson 1166, Tucson 1166 IG, Dasmen Residential, and Luxford Living.",
+        "The complaint alleges a pattern of neglect and deception dating back to at least 2023 across the three affiliated properties. According to the state's filing, tenants this summer struggled to cool their units to 80 degrees Fahrenheit or below, the maximum indoor temperature Pima County's habitability standards require, with indoor temperatures at times reportedly topping 90 degrees. Roughly half of Sedona Springs has allegedly gone without any central air conditioning since March. The state pairs the AC failures with a broader list of alleged defects, including chronic lack of hot water, derelict plumbing and frequent leaks, mold growth, and pest infestations, along with allegations the owners and managers misrepresented the properties' condition and their responsiveness to tenant complaints.",
+        "Because the plaintiff is the state itself, the remedies sought go beyond what a typical private habitability suit would pursue. In addition to the temporary restraining order and preliminary injunction filed alongside the complaint, Arizona is seeking permanent injunctive relief requiring the properties to complete necessary repairs, an order barring the defendants from renting to any additional tenants until the units meet legal habitability standards, and both restitution for affected tenants and civil penalties against the ownership and management entities.",
+        "The case arrives amid what Arizona officials describe as an emerging enforcement pattern treating extreme indoor heat as a housing-code emergency rather than a comfort issue, as record summer temperatures across the Southwest test aging HVAC infrastructure at multifamily properties. The state's characterization of the ownership as out-of-state landlords also tracks a broader trend of attorneys general scrutinizing institutional or absentee ownership of workforce housing more aggressively, and the complaint names every layer of the multi-entity ownership and management structure rather than confining the suit to a single title-holding entity.",
+        "For multifamily owners and managers, the case is a reminder that deferred HVAC maintenance across a portfolio of affiliated properties can invite exactly the kind of pattern-and-practice allegations the state is pressing here, and that layering ownership across separate single-property LLCs under common management will not prevent a state attorney general from naming every entity in the chain as a defendant. Owners in jurisdictions with maximum-indoor-temperature habitability standards should treat air conditioning capacity and repair budgets as compliance-critical rather than discretionary, and should audit recurring complaints across affiliated properties before a regulator does it for them, since the remedies available to a government plaintiff — including a freeze on new leasing — can impose serious operational and revenue consequences well before liability is established on the merits."
+      ],
+      timeline: [
+        { when: "2023", label: "Alleged pattern of neglect and deception begins at the three properties" },
+        { when: "March 2026", label: "Roughly half of Sedona Springs allegedly loses central air conditioning" },
+        { when: "August 7, 2026", label: "Arizona Attorney General sues, seeking a TRO, preliminary injunction, and civil penalties", current: true }
+      ],
+      tags: ["habitability", "air conditioning", "attorney general enforcement", "multifamily", "arizona"]
+    },
+    {
+      id: "live-062",
+      addedDate: "2026-09-01",
+      title: "United States, et al. v. LivCor, LLC (RealPage Algorithmic Pricing Antitrust Consent Judgment)",
+      category: "landlord-tenant",
+      status: "settled",
+      date: "2026-06-18",
+      jurisdiction: "U.S. District Court, Middle District of North Carolina",
+      state: "NC",
+      amount: "$7M multistate settlement; LivCor controls ~3,500 apartment units in North Carolina",
+      source: "live",
+      sourceUrl: "https://ncdoj.gov/attorney-general-jeff-jackson-reaches-7-million-settlement-with-largest-north-carolina-landlord-over-ai-rent-setting/",
+      summary: "U.S. District Judge William Lindsay Osteen Jr. entered a final consent judgment resolving DOJ and nine-state antitrust claims that Blackstone-backed landlord LivCor, LLC used RealPage's revenue-management software and shared competitor pricing data to coordinate apartment rents. LivCor will pay $7 million split among the participating states and is barred from using non-compliant algorithmic pricing tools, sharing competitively sensitive data with rival landlords, or attending RealPage-hosted landlord meetings.",
+      significance: "The settlement is a concrete template for how large landlord-defendants are resolving the sprawling RealPage antitrust litigation: a comparatively modest payment paired with detailed behavioral restrictions on data-sharing and algorithmic tools, rather than proceeding to trial. It also underscores that a federal antitrust settlement does not resolve separate exposure under municipal and state algorithmic-pricing bans, several of which carry independent statutory penalties.",
+      body: [
+        "A federal judge in North Carolina has approved a $7 million settlement between LivCor, LLC, a large multifamily landlord owned by Blackstone, and a coalition of the U.S. Department of Justice and nine state attorneys general, resolving claims that LivCor participated in a scheme to coordinate apartment rents using RealPage's revenue-management software and shared competitor data. U.S. District Judge William Lindsay Osteen Jr. of the Middle District of North Carolina entered the final consent judgment on June 18, 2026.",
+        "The underlying case traces to January 7, 2025, when the United States, joined by state co-plaintiffs, filed a complaint alleging LivCor and five other large landlords participated in a scheme to set rents using each other's competitively sensitive information, channeled through RealPage's common pricing algorithm. That complaint built on the DOJ's broader antitrust action against RealPage itself, which alleges the software vendor operated as the hub of a hub-and-spoke conspiracy among competing landlords who used its platform to align pricing rather than compete independently. LivCor, which controls approximately 3,500 apartment units in North Carolina as part of a much larger national portfolio, was among the largest individual landlord-defendants named.",
+        "The Justice Department's Antitrust Division filed a proposed consent decree resolving the claims against LivCor in December 2025. Because the settlement resolves federal antitrust claims brought by the government, it went through the Tunney Act's public notice-and-comment process, with the proposed decree and a competitive impact statement published in the Federal Register ahead of a 60-day comment period. That process concluded in June 2026, when Judge Osteen approved the settlement and entered it as a final consent judgment, a step that carries the weight of a judicial order enforceable through the court's contempt power.",
+        "The settlement's real weight lies in its behavioral restrictions rather than the payment amount. LivCor must stop using third-party pricing software or algorithms to set apartment rents unless the software satisfies conditions the decree spells out in detail, must stop sharing or receiving competitively sensitive pricing, occupancy, or discount data with or from other landlords, and must stop attending or otherwise participating in RealPage-hosted meetings involving competing landlords. The $7 million is being distributed among the nine participating states, led by North Carolina Attorney General Jeff Jackson alongside California, Colorado, Connecticut, Illinois, Massachusetts, Minnesota, Oregon, and Tennessee.",
+        "For multifamily owners nationally, the LivCor resolution is a fairly detailed template for how the RealPage-adjacent antitrust litigation is settling in practice: large landlord-defendants are increasingly resolving on individual tracks, following a similar cooperation agreement Greystar struck with the DOJ, accepting behavioral injunctions and comparatively modest payments rather than proceeding to trial. Owners using any third-party revenue-management tool should audit exactly what data flows into it, since the enforcement pattern draws a sharp line around non-public, competitor-sourced data rather than algorithmic pricing as a category, and owners facing parallel litigation should treat this outcome as a realistic settlement benchmark. It is also worth remembering that a DOJ settlement does not extinguish exposure under the separate municipal and state algorithmic-pricing bans now on the books in Philadelphia, San Diego, New Jersey, and New York, several of which authorize private rights of action independent of any proof of multi-landlord coordination."
+      ],
+      timeline: [
+        { when: "January 7, 2025", label: "DOJ and state co-plaintiffs file complaint against LivCor and five other landlords" },
+        { when: "December 2025", label: "DOJ Antitrust Division files proposed consent decree resolving claims against LivCor" },
+        { when: "June 18, 2026", label: "Judge William Lindsay Osteen Jr. enters final consent judgment approving the $7M settlement", current: true }
+      ],
+      judge: "William Lindsay Osteen Jr.",
+      tags: ["algorithmic pricing", "RealPage", "antitrust", "multistate settlement", "consent decree"]
     }
   ],
 
@@ -1993,7 +2079,10 @@ const RELAW_DATA = {
     { jurisdiction: "Greenville County Court of Common Pleas, South Carolina", url: "https://www.sccourts.org/courts/courthouse-search/greenville/" },
     { jurisdiction: "342nd District Court, Tarrant County, Texas", url: "https://www.tarrantcountytx.gov/en/civil-courts/district-courts/342nd-district-court.html" },
     { jurisdiction: "Massachusetts Supreme Judicial Court", url: "https://www.mass.gov/orgs/massachusetts-supreme-judicial-court" },
-    { jurisdiction: "U.S. District Court, Eastern District of Pennsylvania", url: "https://www.paed.uscourts.gov/" }
+    { jurisdiction: "U.S. District Court, Eastern District of Pennsylvania", url: "https://www.paed.uscourts.gov/" },
+    { jurisdiction: "Supreme Court of Arizona", url: "https://www.azcourts.gov/azsupremecourt" },
+    { jurisdiction: "Maricopa County Superior Court, Arizona", url: "https://superiorcourt.maricopa.gov/" },
+    { jurisdiction: "U.S. District Court, Middle District of North Carolina", url: "https://www.ncmd.uscourts.gov/" }
   ],
 
   /* Judges — background on every judge named in our sourced reporting (never
@@ -2145,6 +2234,22 @@ const RELAW_DATA = {
       court: "U.S. District Court, Eastern District of Pennsylvania",
       background: "Nominated by President Obama in November 2012 and confirmed to the federal bench in June 2013, after serving as a judge on the Philadelphia County Court of Common Pleas. The first lesbian Latina to serve as a federal judge.",
       bioUrl: "https://www.fjc.gov/history/judges/qui%C3%B1ones-alejandro-nitza-ileana"
+    },
+    {
+      name: "Ann A. Scott Timmer",
+      slug: "ann-a-scott-timmer",
+      title: "Chief Justice — authored the Court's unanimous opinion",
+      court: "Supreme Court of Arizona",
+      background: "Chief Justice of the Arizona Supreme Court since July 1, 2024, after serving as an Associate Justice from October 2012 following appointment by Gov. Jan Brewer. Previously served on the Arizona Court of Appeals, Division One, from 2000, including as Chief Judge from 2008 to 2011.",
+      bioUrl: "https://www.azcourts.gov/meetthejustices/Chief-Justice-Ann-A-Scott-Timmer"
+    },
+    {
+      name: "William Lindsay Osteen Jr.",
+      slug: "william-lindsay-osteen-jr",
+      title: "U.S. District Judge",
+      court: "U.S. District Court, Middle District of North Carolina",
+      background: "Nominated by President George W. Bush on January 9, 2007 and confirmed to the federal bench that September, filling the seat vacated by his father, Judge William L. Osteen Sr. Presides over the DOJ's multistate RealPage algorithmic-pricing antitrust litigation.",
+      bioUrl: "https://www.fjc.gov/history/judges/osteen-william-lindsay-jr"
     }
   ],
 
