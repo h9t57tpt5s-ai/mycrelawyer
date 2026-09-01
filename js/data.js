@@ -1765,6 +1765,63 @@ const RELAW_DATA = {
       ],
       judge: "William Lindsay Osteen Jr.",
       tags: ["algorithmic pricing", "RealPage", "antitrust", "multistate settlement", "consent decree"]
+    },
+    {
+      id: "live-063",
+      addedDate: "2026-09-01",
+      title: "J. Safra Real Estate v. Sugar Factory (Faneuil Hall Marketplace Unpaid Rent Suit)",
+      category: "lease-disputes",
+      status: "filed",
+      date: "2026-07-10",
+      jurisdiction: "Suffolk County Superior Court, Massachusetts",
+      state: "MA",
+      amount: "~$930K sought from Sugar Factory alone; ~$2M across seven related tenant suits",
+      source: "live",
+      sourceUrl: "https://www.bisnow.com/news/boston/retail/faneuil-hall-landlord-j-safra-group-sues-tenants-over-2m-in-unpaid-rent",
+      summary: "J. Safra Real Estate, which took over management of Boston's Faneuil Hall Marketplace at the start of 2024, sued candy and novelty retailer Sugar Factory on July 10, 2026 for more than $930,000 in unpaid rent, interest, and fees, the seventh in a series of Suffolk Superior Court lease-enforcement suits against marketplace tenants totaling roughly $2 million. Six other suits target Imagine Exhibitions, Boston Halal, Popular Properties Realty, Lovepop, and Ghirardelli Chocolate Co.; the Lovepop claim was dismissed in April 2026 and Popular Properties Realty disputes the allegations.",
+      significance: "The coordinated enforcement campaign shows how an incoming landlord can move aggressively to collect on leases and defaults inherited from a prior owner, and illustrates the acceleration and fee-shifting exposure commercial tenants face once a notice-and-cure period lapses. It also highlights the occupancy cost of aggressive collection at legacy retail destinations, where most named tenants have since vacated.",
+      body: [
+        "J. Safra Real Estate, which assumed management of Boston's historic Faneuil Hall Marketplace at the beginning of 2024, has spent the past year pursuing a coordinated rent-collection campaign against tenants it inherited from the property's prior owner, New York-based Ashkenazy Acquisition Corp. The latest and largest of seven related Suffolk County Superior Court suits, filed July 10, 2026, targets candy and novelty retailer Sugar Factory for more than $930,000 in unpaid rent, interest, and attorneys' fees.",
+        "According to the complaint, Sugar Factory's Boston location leased roughly 9,000 square feet in the marketplace's South Market Building under a 2021 lease signed with Ashkenazy. J. Safra alleges it notified the franchise's owner, Lloyd Sugarman, in January 2026 that the tenant owed approximately $913,000 in back rent, and warned that failure to pay the full balance within ten days would trigger a default under the lease. The landlord alleges Sugar Factory failed to cure within that window, triggering its right to accelerate the remaining rent obligation along with interest and collection costs.",
+        "The Sugar Factory suit follows six earlier actions filed against Imagine Exhibitions Inc., Boston Halal, Popular Properties Realty Inc., Lovepop, and Ghirardelli Chocolate Co., together seeking just under $1 million in additional unpaid rent. The cases have not all proceeded the same way: the claim against Lovepop was dismissed in April 2026, and Popular Properties Realty has disputed the landlord's allegations, telling the court it vacated its space because of unresolved property maintenance problems — a defense that, if credited, could complicate a straightforward nonpayment theory. Most of the named tenants have since closed their Faneuil Hall locations; Sugar Factory remains the only one still operating in the marketplace.",
+        "On their face, these are conventional lease-enforcement actions: a landlord alleging nonpayment, issuing a notice-and-cure demand under the lease's default provisions, and suing for the accelerated balance once the cure period lapses. What makes the cluster notable is less any single legal theory than its scale and coordination — seven suits against a historic marketplace's roster of small and mid-sized retail tenants, filed by an ownership group working systematically through defaults it inherited mid-lease-term when it took over the property.",
+        "For counsel advising landlords or tenants in similar multi-tenant retail properties, the litigation is a useful benchmark on several recurring points: buyers of leased commercial and retail properties should run rigorous lease and rent-roll diligence before closing, since incoming owners typically take assignment of existing leases — defaults and disputes included — without a clean slate; landlords enforcing notice-and-cure provisions should make sure default notices are unambiguous and properly served, since acceleration and fee-shifting claims usually hinge on strict compliance with the lease's own cure mechanics; and tenants should raise property-condition or landlord-performance grievances formally and early rather than holding them in reserve as an informal justification for withholding rent. The marketplace-wide vacancy trailing these suits is also a reminder that aggressive post-acquisition rent enforcement can accelerate tenant turnover, leaving an owner holding judgments against tenants who have already left rather than a stabilized, paying tenant base — a tradeoff worth weighing against the value of a fully occupied legacy retail destination."
+      ],
+      timeline: [
+        { when: "2021", label: "Sugar Factory signs lease for ~9,000 SF in Faneuil Hall's South Market Building with prior owner Ashkenazy Acquisition Corp." },
+        { when: "January 2026", label: "J. Safra Real Estate issues notice-and-cure demand alleging ~$913K in unpaid rent" },
+        { when: "July 10, 2026", label: "J. Safra sues Sugar Factory for over $930K, the seventh related Faneuil Hall tenant suit", current: true }
+      ],
+      tags: ["commercial lease", "unpaid rent", "retail", "faneuil hall", "lease default"]
+    },
+    {
+      id: "live-064",
+      addedDate: "2026-09-01",
+      title: "C.D. Smith Construction, Inc. v. The Edison SPE LLC (Milwaukee Mass-Timber Tower Construction-Lien Foreclosure)",
+      category: "lending-foreclosure",
+      status: "ruling",
+      date: "2026-06-29",
+      jurisdiction: "Milwaukee County Circuit Court",
+      state: "WI",
+      amount: "$11.3M default judgment on a $13.67M unpaid construction claim",
+      source: "live",
+      sourceUrl: "https://www.enr.com/articles/63313-contractor-wins-113m-judgment-in-milwaukee-timber-tower-lawsuit",
+      summary: "Milwaukee County Circuit Court Judge Glenn H. Yamahiro entered a default judgment of more than $11.3 million on June 29, 2026 in favor of general contractor C.D. Smith Construction against The Edison SPE LLC, a Neutral affiliate, clearing the way to foreclose on a construction lien against the stalled 31-story Edison mass-timber tower site in downtown Milwaukee. The default arose after Neutral CEO Nate Helbach filed a pro se mediation/arbitration request the court struck because a corporation cannot represent itself in litigation.",
+      significance: "The ruling gives C.D. Smith a direct path to force a sale of the Edison site via lien foreclosure rather than standing as an unsecured creditor, and is a reminder that developers must respond to litigation through licensed counsel or risk default judgment on the full amount claimed regardless of the underlying merits.",
+      body: [
+        "The Edison, a planned 31-story, 357-unit mass-timber apartment tower in downtown Milwaukee once billed as poised to become the tallest building of its kind in the country, has become a cautionary tale in construction-lending and lien litigation. On June 29, 2026, Milwaukee County Circuit Court Judge Glenn H. Yamahiro entered a default judgment of more than $11.3 million against The Edison SPE LLC, an affiliate of Madison-based developer Neutral, clearing the way for general contractor C.D. Smith Construction to move toward foreclosing on the project's construction lien and forcing a sale of the site.",
+        "C.D. Smith, a Fond du Lac-based contractor, filed suit and a related construction lien in Milwaukee County Circuit Court on March 6, 2026, after work on the Edison stalled the prior September when the developer said rising material tariffs and inflation had blown through the project's budget. According to the contractor's filings, C.D. Smith performed approximately $13.67 million worth of work on the tower before construction halted, but was paid only about $2.37 million, leaving a balance of roughly $11.3 million exclusive of interest and attorneys' fees. City officials have separately estimated the project — whose projected cost had grown to at least $230 million — was facing a funding gap of approximately $25 million when work stopped.",
+        "What turned a contested construction-payment dispute into an uncontested default judgment was a procedural detail as much as a substantive one. Neutral's chief executive, Nate Helbach, attempted to push the dispute into mediation or arbitration under the terms of the general contract by filing that request himself. Judge Yamahiro struck the filing because Helbach is not a licensed attorney — under longstanding Wisconsin law, as in most states, a corporate entity cannot represent itself in litigation and must appear through counsel. With no properly filed response from Neutral or its affiliate, the court entered default judgment in C.D. Smith's favor for the full amount claimed.",
+        "The case sits at the intersection of construction-lien law and basic civil procedure. Wisconsin, like most states, gives contractors and subcontractors who improve real property a statutory lien on that property securing payment for labor and materials furnished, enforceable through a foreclosure action functionally similar to a mortgage foreclosure — the lien claimant can force a judicial sale of the property to satisfy the debt if it goes unpaid. C.D. Smith's suit combined a straightforward breach-of-contract claim for the unpaid balance with a lien foreclosure claim seeking to enforce that statutory security interest against the Edison site itself, and the default judgment resolved the payment dispute without the court ever reaching the underlying factual questions, because Neutral's affiliate never mounted a proper defense.",
+        "For developers, the case is a blunt reminder that corporate entities cannot self-represent in civil litigation, no matter how sophisticated the executive attempting to do so; a missed or improperly filed response, even one attempting to invoke a legitimate contractual mediation or arbitration clause, can result in a default judgment for the full amount claimed with no opportunity to contest the underlying facts. For contractors and subcontractors owed money on stalled or capital-starved projects, the outcome illustrates the practical value of promptly filing and perfecting statutory lien rights, since a perfected lien creates a direct path to force a sale of the property rather than leaving the claimant as an unsecured creditor competing with construction lenders and other claimants if the developer becomes insolvent. The dispute also lands amid broader scrutiny of mass-timber construction economics, as developers nationally have cited tariff-driven lumber and steel-connector costs as a factor squeezing budgets on next-generation timber high-rises — owners and lenders on similar projects would do well to stress-test budgets against input-cost volatility before capital runs out mid-construction, and to make sure any contractual dispute-resolution rights are invoked through properly filed, counsel-signed motions well before a response deadline lapses."
+      ],
+      timeline: [
+        { when: "September 2025", label: "Construction halts on the Edison mass-timber tower after developer Neutral cites tariff and inflation cost overruns" },
+        { when: "March 6, 2026", label: "C.D. Smith Construction files suit and construction lien against The Edison SPE LLC" },
+        { when: "June 29, 2026", label: "Milwaukee County Circuit Court enters $11.3M default judgment for C.D. Smith after striking developer CEO's pro se filing", current: true }
+      ],
+      judge: "Glenn H. Yamahiro",
+      tags: ["construction lien", "foreclosure", "mass timber", "default judgment", "wisconsin"]
     }
   ],
 
@@ -2082,7 +2139,9 @@ const RELAW_DATA = {
     { jurisdiction: "U.S. District Court, Eastern District of Pennsylvania", url: "https://www.paed.uscourts.gov/" },
     { jurisdiction: "Supreme Court of Arizona", url: "https://www.azcourts.gov/azsupremecourt" },
     { jurisdiction: "Maricopa County Superior Court, Arizona", url: "https://superiorcourt.maricopa.gov/" },
-    { jurisdiction: "U.S. District Court, Middle District of North Carolina", url: "https://www.ncmd.uscourts.gov/" }
+    { jurisdiction: "U.S. District Court, Middle District of North Carolina", url: "https://www.ncmd.uscourts.gov/" },
+    { jurisdiction: "Suffolk County Superior Court, Massachusetts", url: "https://www.mass.gov/locations/suffolk-county-superior-court" },
+    { jurisdiction: "Milwaukee County Circuit Court", url: "https://county.milwaukee.gov/EN/Courts" }
   ],
 
   /* Judges — background on every judge named in our sourced reporting (never
