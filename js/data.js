@@ -1551,6 +1551,134 @@ const RELAW_DATA = {
         { when: "August 6, 2026", label: "Second Circuit affirms the $4.8M fine and summary judgment for the County, with one judge writing separately to question whether corporations may invoke the Excessive Fines Clause at all", current: true }
       ],
       tags: ["excessive fines clause", "property tax reporting", "shopping mall", "second circuit", "simon property group"]
+    },
+    {
+      id: "live-055",
+      addedDate: "2026-08-31",
+      title: "Atlanta City Council v. Azalea Gardens / Magnolia Park (Blighted Apartment Eminent Domain Resolution)",
+      category: "eminent-domain",
+      status: "pending",
+      date: "2025-08-19",
+      jurisdiction: "Atlanta City Council; anticipated Fulton County Superior Court condemnation proceeding",
+      state: "GA",
+      amount: "Pre-condemnation resolution covering a 92-unit and a 300-unit apartment complex; acquisition cost not yet set",
+      source: "live",
+      sourceUrl: "https://www.bisnow.com/atlanta/news/affordable-housing/atlanta-council-approves-eminent-domain-against-two-apartments-130626",
+      summary: "The Atlanta City Council unanimously approved a resolution directing staff to draft a formal eminent domain acquisition plan for two long-blighted apartment complexes, Azalea Gardens (92 units, owned by New Jersey-registered TYTA LLC) and Magnolia Park (300 units across 20 buildings, owned by Florida-tied John Eagan Homes I and II LP), with the goal of converting both to affordable housing through public-private redevelopment.",
+      significance: "A test of how far a city can lean on eminent domain against absentee owners of deteriorating, negative-cash-flow apartment properties rather than pursuing code enforcement alone. Out-of-state owners of distressed Georgia multifamily assets should treat sustained negative cash flow and unresolved blight citations as real condemnation exposure, not just a code-enforcement or tax-penalty risk.",
+      body: [
+        "Atlanta's City Council voted unanimously to move toward condemning two apartment complexes it has designated as blighted, directing staff to return within 60 days with a detailed acquisition plan covering timeline, financing, redevelopment approach, and tenant relocation. Azalea Gardens, a nine-building, 92-unit complex owned for fifteen years by TYTA LLC, a New Jersey-registered entity, has run a negative cash flow for at least five years according to the city's presentation. Magnolia Park, a considerably larger 300-unit, 20-building complex on a 22-acre site, is owned by John Eagan Homes I and II LP, entities tied to Florida addresses.",
+        "TYTA LLC's representative pushed back before the vote, telling the council the owner already intends to demolish Azalea Gardens for its own affordable-housing redevelopment and asking the city to hold off on condemnation. The council proceeded anyway, and the resolution folds into Atlanta's broader campaign against distressed, often absentee-owned multifamily properties, which already includes a 'blight tax' allowing the city to charge troubled properties a higher rate until remediated or redeveloped.",
+        "Because the council has only authorized staff to develop an acquisition plan rather than filed a condemnation petition, the matter remains a pre-litigation resolution for now — the real test of valuation, just compensation, and any public-use challenge from the owners will play out once (and if) a formal Fulton County Superior Court filing follows. For out-of-state ownership groups holding distressed Georgia multifamily assets, the more immediate signal is that a sustained negative-cash-flow property with open blight citations is now visibly on a major city's list of eminent domain candidates, not just a code-enforcement or tax-penalty target."
+      ],
+      timeline: [
+        { when: "August 19, 2025", label: "Atlanta City Council unanimously approves a resolution directing staff to draft an eminent domain acquisition plan for both properties", current: true }
+      ],
+      tags: ["eminent domain", "blight", "affordable housing", "apartment complex", "absentee owner"]
+    },
+    {
+      id: "live-056",
+      addedDate: "2026-08-31",
+      title: "Harbor Custom Development Chapter 11 — Pacific Ridge Apartments Credit Bid (Sound Capital NW)",
+      category: "lending-foreclosure",
+      status: "settled",
+      date: "2024-08-21",
+      jurisdiction: "U.S. Bankruptcy Court, Western District of Washington",
+      state: "WA",
+      amount: "$5M credit bid against a construction loan with an approximately $20.3M outstanding balance",
+      source: "live",
+      sourceUrl: "https://www.aol.com/bankrupt-tacoma-developer-apartment-property-120000775.html",
+      summary: "As part of Harbor Custom Development's Chapter 11 reorganization, lender Sound Capital NW Holdings LLC took title to Pacific Ridge Apartments, an 80-unit Tacoma complex completed in 2022, via a $5 million credit bid against a construction loan with an outstanding balance of roughly $20.3 million — well above the property's $17.5 million-plus assessed value.",
+      significance: "A concrete data point on construction-loan recovery economics in a distressed multifamily workout: even a completed, occupied 80-unit asset returned only about 25 cents on the dollar of the outstanding loan balance via credit bid, with the shortfall left to the Chapter 11 estate's other creditors. Construction lenders and mezzanine participants underwriting Pacific Northwest multifamily should treat assessed value as a soft floor, not a reliable recovery estimate, once a borrower is in reorganization.",
+      body: [
+        "Harbor Custom Development, a Gig Harpor-founded developer that filed for Chapter 11 protection in December 2023, transferred its 80-unit Pacific Ridge Apartments complex in Tacoma's Fern Hill neighborhood to lender Sound Capital NW Holdings LLC as part of the company's second amended reorganization plan, filed in late June 2024. Sound Capital, affiliated with Bellevue-based Sound Capital Loans, took the property via a $5 million credit bid.",
+        "The gap between that credit bid and the loan's actual exposure is the notable part of the transaction: court filings put the outstanding construction loan balance at approximately $20.3 million as of June 2024, while Pierce County assessed the completed property at more than $17.5 million. A $5 million credit bid against a $20.3 million claim leaves a substantial deficiency for the bankruptcy estate to sort out among Harbor Custom's other creditors, even though the underlying asset — an occupied, recently completed 80-unit complex — was neither vacant nor obviously distressed on a standalone basis.",
+        "For construction and mezzanine lenders financing Pacific Northwest multifamily development, the case is a reminder that a borrower's Chapter 11 filing can compress recovery well below either the loan balance or the county's own assessed value, particularly where a credit bid effectively sets the sale price with limited competing bidder interest. Harbor Custom's broader reorganization has involved multiple asset dispositions of this kind, making it a useful, real-numbers benchmark for how construction-loan recoveries have actually played out in this cycle rather than a theoretical worst case."
+      ],
+      timeline: [
+        { when: "December 2023", label: "Harbor Custom Development files for Chapter 11 bankruptcy protection" },
+        { when: "Late June 2024", label: "Harbor Custom files its second amended Chapter 11 plan, outlining the Pacific Ridge transfer" },
+        { when: "August 21, 2024", label: "Sound Capital NW Holdings LLC takes title to Pacific Ridge Apartments via a $5M credit bid", current: true }
+      ],
+      tags: ["Chapter 11", "credit bid", "construction loan", "multifamily", "bankruptcy"]
+    },
+    {
+      id: "live-057",
+      addedDate: "2026-08-31",
+      title: "Charlotte Hawkins LLC v. Bar One Lounge South End LLC (Linea Tower Ground-Floor Lease Default)",
+      category: "lease-disputes",
+      status: "filed",
+      date: "2025-04-01",
+      jurisdiction: "Mecklenburg County Superior Court, North Carolina",
+      state: "NC",
+      amount: "10-year, ~2,400-SF ground-floor lease; damages not specified in available reporting",
+      source: "live",
+      sourceUrl: "https://www.yahoo.com/news/south-end-landlord-sues-bar-132443957.html",
+      summary: "Charlotte Hawkins LLC, an entity affiliated with Atlanta-based Portman Holdings and tied to the Linea apartment tower in Charlotte's South End, sued Bar One Lounge South End LLC and its principals Steven Jensen and Kyle O'Brien, alleging default on a 10-year, roughly 2,400-square-foot ground-floor retail lease the bar operator never opened for business.",
+      significance: "A straightforward but instructive default case for landlords who pre-lease ground-floor retail/restaurant space to a single operator with an announced multi-location expansion plan: Bar One publicly touted a $10 million buildout across two markets in January 2023, then quietly shelved one location and left the other's status 'undetermined' before the landlord sued — underscoring the gap between a tenant's announced expansion capital and its actual, lease-enforceable buildout obligations.",
+      body: [
+        "Charlotte Hawkins LLC, the landlord entity behind the ground-floor retail space in the 24-story Linea apartment tower at 2161 Hawkins St. in Charlotte's South End, filed suit in Mecklenburg County Superior Court against Bar One Lounge South End LLC and its principals, Steven Jensen and Kyle O'Brien, alleging the parties defaulted on a 10-year lease for roughly 2,400 square feet of ground-floor space. Charlotte Hawkins is affiliated with Atlanta-based Portman Holdings, which owns the Linea tower.",
+        "Bar One had announced plans in January 2023 to invest $10 million building out locations in both South End and Mooresville, North Carolina. By March, Jensen confirmed the Mooresville location was no longer moving forward, and characterized the South End restaurant's future as undetermined — the space at Linea was never opened. The landlord's suit followed once the lease default became apparent rather than any operational track record at the site itself.",
+        "A related matter, NP Uptown Charlotte, LLC v. Bar One Lounge Uptown, LLC, involves a separate Bar One-affiliated lease dispute over space at 222 S. Church Street in Charlotte, suggesting the operator's financing or execution troubles were not confined to the South End location alone. For landlords pre-leasing new ground-floor space to a single restaurant/bar concept betting on a multi-site rollout, the case is a reminder to underwrite the operator's actual execution capacity separately from its announced capital commitment, since the two can diverge well before a default becomes visible on the ground."
+      ],
+      timeline: [
+        { when: "January 2023", label: "Bar One announces a $10M buildout plan across South End and Mooresville locations" },
+        { when: "March 2025", label: "Bar One's Jensen confirms the Mooresville location is cancelled; South End status called undetermined" },
+        { when: "April 2025", label: "Charlotte Hawkins LLC sues Bar One Lounge South End LLC and its principals for lease default", current: true }
+      ],
+      tags: ["lease default", "restaurant tenant", "ground-floor retail", "South End", "Charlotte"]
+    },
+    {
+      id: "live-058",
+      addedDate: "2026-08-31",
+      title: "Oakworth Capital Bank v. RC Nashville Development Partners (Ritz-Carlton Nashville Foreclosure)",
+      category: "lending-foreclosure",
+      status: "settled",
+      date: "2024-04-11",
+      jurisdiction: "U.S. District Court, Middle District of Tennessee (No. 3:23-cv-01145); foreclosure sale at Metro Nashville Courthouse",
+      state: "TN",
+      amount: "$10,470,772.90 sought in the underlying suit; property sold at foreclosure auction for $35M",
+      source: "live",
+      sourceUrl: "https://www.nashvillepost.com/business/development/ritz-carlton-project-faces-financing-snag-as-bank-sues-developer/article_d56330b6-7809-11ee-ad3a-67466a6e47ad.html",
+      summary: "Alabama-based Oakworth Capital Bank sued RC Nashville Development Partners LLC and developer Timothy J. Morris in October 2023 over a defaulted $10 million construction loan tied to a planned 46-story Ritz-Carlton hotel and condominium tower in Nashville's SoBro district; the 1.2-acre site was ultimately sold at a foreclosure auction for $35 million to R Squared Properties LLC of Washington in April 2024.",
+      significance: "A real-numbers illustration of how quickly a stalled trophy hospitality/condo development can move from loan default to a completed foreclosure sale — roughly six months from suit to auction here — and of how a single defaulting sponsor's exposure can span multiple markets: Morris separately faced a $5.3 million Oakworth suit over a Washington, D.C. project, plus additional suits from other creditors. Lenders and equity partners underwriting sponsors with multi-market pipelines should look past a single project's collateral value to the sponsor's aggregate, cross-market debt load.",
+      body: [
+        "Oakworth Capital Bank, an Alabama-based lender, sued RC Nashville Development Partners LLC and developer Timothy J. Morris in the Middle District of Tennessee in October 2023, alleging default on a $10 million construction loan that had matured and come due on August 9 of that year. The bank sought $10,470,772.90 including interest and late charges. The loan was tied to a planned 46-story tower at 401-417 Seventh Ave. S. intended to house a Ritz-Carlton hotel, luxury condominiums, and a rooftop restaurant, alongside a companion 32-story apartment structure — part of a roughly $585 million project announced in 2021 with an original late-2022 groundbreaking target that never happened.",
+        "Morris acknowledged the loan's difficulties publicly, citing high inflation and post-COVID supply chain disruption, and reportedly suggested Oakworth could take a deed in lieu of foreclosure rather than litigate. Instead, the underlying triangular 1.2-acre lot at 727 Korean Veterans Boulevard proceeded to a foreclosure auction at the Metro Nashville Courthouse on April 11, 2024, where R Squared Properties LLC of Washington bought the site for $35 million — matching the price RC Nashville had itself paid for the land back in March 2020. R Squared did not respond to press inquiries about whether it intends to continue the Ritz-Carlton plans.",
+        "Morris's exposure was not limited to this one Nashville site: Oakworth separately sued him and an affiliated entity, 6101 Sligo LLC, over a defaulted $5.3 million loan tied to a Washington, D.C. project, and other creditors including The Bradley Projects and Fifth+ Broadway also pursued claims against him over unpaid obligations around the same period. For a stalled trophy hospitality development, the roughly six-month path from a matured, unpaid construction loan to a completed foreclosure sale is a useful real-world benchmark — and the parallel D.C. litigation is a reminder that a single sponsor's distress on one high-profile project is frequently a symptom of broader, multi-market overextension rather than an isolated site-specific problem."
+      ],
+      timeline: [
+        { when: "2020", label: "RC Nashville Development Partners acquires the site for $35M" },
+        { when: "2021", label: "The ~$585M, 46-story Ritz-Carlton Nashville project is announced" },
+        { when: "October 2023", label: "Oakworth Capital Bank sues RC Nashville Development Partners and Timothy J. Morris over the defaulted $10M construction loan" },
+        { when: "April 11, 2024", label: "The site is sold to R Squared Properties LLC for $35M at a foreclosure auction", current: true }
+      ],
+      tags: ["Ritz-Carlton", "construction loan default", "foreclosure auction", "hospitality development", "Nashville"]
+    },
+    {
+      id: "live-059",
+      addedDate: "2026-08-31",
+      title: "City of Detroit v. RealT (RealToken) — Blight & Tenant-Harm Nuisance Abatement Suit",
+      category: "landlord-tenant",
+      status: "filed",
+      date: "2025-07-02",
+      jurisdiction: "3rd Circuit Court, Wayne County, Michigan",
+      state: "MI",
+      amount: "408 properties named in the suit; RealT has raised approximately $93M in Detroit via fractional ownership",
+      source: "live",
+      sourceUrl: "https://outliermedia.org/realt-lawsuit-detroit-sues-crypto-landlord/",
+      summary: "The City of Detroit, through Corporation Counsel Conrad Mallett, sued cryptocurrency-based real estate company RealT (operating through roughly 165 affiliated 'RealToken' LLCs) and its founders, brothers Remy and Jean-Marc Jacobson, calling it the largest nuisance abatement lawsuit the city has ever filed. The suit names 408 of RealT's 600-plus Detroit properties — all lacking certificates of compliance, more than 100 of them vacant — and seeks personal liability against the Jacobsons for bringing the properties up to code.",
+      significance: "The first major municipal test of a fractional-ownership, tokenized real estate model at scale: RealT sells fractional shares of individual Detroit houses to overseas investors, and the city's suit argues that structure has produced systemic maintenance failure rather than simply an unlucky landlord with a large portfolio. Institutional and retail capital drawn to tokenized/fractional real estate platforms should treat unresolved code violations and blight tickets across a platform's portfolio as a real, non-theoretical enforcement and personal-liability risk to the platform's principals, not just the underlying LLCs.",
+      body: [
+        "Detroit's Corporation Counsel, Conrad Mallett, filed suit against RealT and the Jacobson brothers on July 2, 2025, describing it as the largest nuisance abatement lawsuit the city has ever brought. RealT operates a cryptocurrency-based fractional real estate model, selling tokenized ownership shares of individual Detroit properties primarily to overseas investors through roughly 165 separate LLCs, most using some variation of the RealToken name. The company has raised approximately $93 million from investors buying into its Detroit portfolio, which spans more than 600 properties.",
+        "The city's complaint names 408 of those properties specifically, all lacking a certificate of compliance, with more than 100 sitting vacant, and alleges RealT owes millions in unpaid property taxes and blight tickets across the portfolio. Detroit is seeking a court order requiring RealT to bring every named property up to code, to correct violations at 53 properties the city calls 'unquestionably harmful' within 90 days or allow the city to make the repairs itself at RealT's expense, and to notify tenants of their right to place rent in escrow until repairs are completed. Notably, the suit also seeks to pierce through to the Jacobson brothers personally for the cost of compliance, rather than treating the roughly 165-LLC structure as a liability shield.",
+        "Subsequent city action suggests Detroit is applying a similar enforcement pattern more broadly to distressed, absentee-owned rental portfolios: reporting in August 2026 described the city fining a separate landlord, Munoz Realty, $460,000 over hundreds of poorly maintained rentals, in what local coverage characterized as a potential precedent-setting move. For any platform selling fractional or tokenized ownership in occupied rental property, the RealT suit is a concrete signal that a large, geographically concentrated portfolio with unresolved code violations is treated by municipal counsel as an enforcement target against the platform's operators personally, not merely against the individual title-holding entities."
+      ],
+      timeline: [
+        { when: "July 2, 2025", label: "City of Detroit sues RealT and founders Remy and Jean-Marc Jacobson over 408 non-compliant properties", current: true },
+        { when: "August 2026", label: "Detroit fines a separate landlord, Munoz Realty, $460,000 in a related blight-enforcement pattern" }
+      ],
+      tags: ["nuisance abatement", "tenant harm", "fractional ownership", "blight", "code compliance"]
     }
   ],
 
