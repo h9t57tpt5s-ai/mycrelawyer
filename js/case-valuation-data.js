@@ -1690,6 +1690,17 @@ const CASE_VALUATION_DATA = {
         "dollarAmount": 150000,
         "sourceUrl": "https://www.stoel.com/insights/publications/oregon-supreme-court-expands-cgl-coverage-for-construction-defects-twigg-v-admiral-insurance-company",
         "confidence": "high"
+      },
+      {
+        "caseName": "Bob Robison Commercial Flooring Inc. v. RLI Insurance Company",
+        "citation": "No. 23-3531 (8th Cir. Mar. 19, 2025)",
+        "jurisdiction": "Federal (8th Cir.)",
+        "year": 2025,
+        "outcome": "Insured was hired to install a vinyl gym floor with painted lines and subcontracted the painting; the painting work was faulty (crooked lines, incorrect markings, smudges), requiring the insured to remove and replace the entire floor at a cost of $181,415.39. Its builder's-risk insurer denied the claim under a workmanship-error exclusion. The Eighth Circuit affirmed, holding the policy's ensuing-loss provision did not restore coverage because the damage was caused solely by the excluded peril (defective workmanship) with no separate, independent covered peril in the causal chain.",
+        "dollarAmount": 0,
+        "sourceUrl": "https://law.justia.com/cases/federal/appellate-courts/ca8/23-3531/23-3531-2025-03-19.html",
+        "confidence": "high",
+        "notes": "A real, current, insurer-win outcome on a common builder's-risk coverage fight: an ensuing-loss clause does not resurrect coverage for defective-workmanship damage unless the insured can point to a genuinely separate covered peril that caused (or worsened) the loss, not just a different way of describing the same faulty work. dollarAmount reflects the $0 coverage recovered, not the $181,415.39 repair cost itself, which the insured bore."
       }
     ],
     "cercla_cost_recovery": [
@@ -1909,6 +1920,17 @@ const CASE_VALUATION_DATA = {
         "dollarAmount": null,
         "sourceUrl": "https://harpstbecker.com/2025/01/06/appellate-court-ruling-protects-commercial-property-owners-from-government-overreach-in-eminent-domain-cases/",
         "confidence": "high"
+      },
+      {
+        "caseName": "State of Arizona v. Foothills/Hanke",
+        "citation": "CV230292PR (Ariz. Jan. 31, 2025)",
+        "jurisdiction": "AZ",
+        "year": 2025,
+        "outcome": "The State condemned easements (not fee title) in two undeveloped common-area parcels appurtenant to homeowners' titles in a planned community, to build the Loop 202 South Mountain Freeway. The Arizona Supreme Court held homeowners could recover 'proximity damages' for the diminished value of their own homes caused by the freeway's proximity, even though only the easements -- not the homeowners' own land -- were condemned, because the condemned property was part of a larger parcel under Arizona's constitution. Compensation tripled from an initial $6 million (value of the easements alone) to $18 million ($6M plus $12M in proximity/severance damages).",
+        "dollarAmount": 18000000,
+        "sourceUrl": "https://www.ballardspahr.com/insights/alerts-and-articles/2025/01/arizona-supreme-court-expands-just-compensation-rights-in-eminent-domain-case",
+        "confidence": "high",
+        "notes": "A strong, current example for the severanceAccessOrBusinessValueDispute uplift tier (3x here) -- notable because the compensable harm wasn't to the condemned parcels themselves but to OTHER property the owners held that was merely appurtenant to them, a real expansion of what counts as 'part of a larger parcel' for severance-damages purposes."
       }
     ],
     "quick_take_challenge": [
@@ -2025,6 +2047,17 @@ const CASE_VALUATION_DATA = {
         "dollarAmount": 5700000,
         "sourceUrl": "https://en.wikipedia.org/wiki/Arkansas_Game_%26_Fish_Commission_v._United_States",
         "confidence": "medium"
+      },
+      {
+        "caseName": "Blakelick Properties LLC v. Village of Glen Ellyn",
+        "citation": "No. 25-cv-04569 (N.D. Ill., TRO granted May 8, 2025)",
+        "jurisdiction": "Federal (N.D. Ill., applying IL law)",
+        "year": 2025,
+        "outcome": "Owner had rented a five-bedroom home on short-term platforms since 2022; the village annexed the property in 2024 and then enacted an ordinance banning short-term rentals. The district court granted a temporary restraining order, finding the owner likely to succeed on the merits of a Penn Central regulatory-taking claim because the ban would prevent economically feasible use of the property and interfered with the owner's investment-backed expectations formed before annexation.",
+        "dollarAmount": null,
+        "sourceUrl": "https://www.thefreelibrary.com/Federal+judge+halts+Glen+Ellyn,C%5BR%5Ds+ban+on+short-term+home+rentals.-a0840698001",
+        "confidence": "medium",
+        "notes": "IMPORTANT: this is a preliminary TRO ruling on likelihood of success, not a final judgment on the regulatory-taking claim's merits -- include as a current, real illustration that a short-term-rental ban applied to a property with an established pre-ban rental use and history CAN support a Penn Central claim at the threshold stage, not as a confirmed final win. A meaningfully different fact pattern from most regulatory-taking cases in this sample (a use-restriction ordinance rather than a development-density or wetlands-type regulation), reflecting a growing and currently unsettled area of takings litigation nationally."
       }
     ],
     "variance_permit_denial_appeal": [
@@ -2112,6 +2145,17 @@ const CASE_VALUATION_DATA = {
         "dollarAmount": null,
         "sourceUrl": "https://lawoftheland.wordpress.com/2023/11/15/pa-commonwealth-court-upholds-mixed-use-rezoning-ordinance-in-rejection-of-spot-zoning-argument/",
         "confidence": "high"
+      },
+      {
+        "caseName": "Lewis Point Neighborhood Association, Inc. v. Town of Lenox",
+        "citation": "Index No. EF2019-2130 (N.Y. Sup. Ct., Madison Cnty., July 17, 2020)",
+        "jurisdiction": "NY",
+        "year": 2020,
+        "outcome": "The town rezoned a parcel specifically to permit 'campgrounds' in its Business-Recreational district, drafted after the town attorney suggested it as a 'solution' to the existing campground owner's site-plan application, which otherwise violated the pre-amendment zoning code. The court annulled the rezoning as illegal spot zoning, holding it was enacted to benefit one specific landowner and was inconsistent with any comprehensive plan -- the town board had mistakenly believed a comprehensive plan existed when none had ever been formally adopted. The court also invalidated the accompanying environmental (SEQRA) review for failing to assess impacts on parcels other than the campground owner's own.",
+        "dollarAmount": null,
+        "sourceUrl": "https://nyenvlaw.com/blog/state-supreme-court-annuls-towns-spot-zoning/",
+        "confidence": "high",
+        "notes": "A clean textbook spot-zoning annulment with two independently sufficient grounds (single-beneficiary drafting history plus no genuine comprehensive-plan consistency), pairing well with the PA Commonwealth Court citation above where a similar-looking targeted rezoning was upheld because it WAS shown consistent with an actual comprehensive plan -- the comprehensive-plan-consistency question is the real hinge in most of these cases, more than the rezoning's narrowness alone."
       }
     ],
     "section_1983_zoning_claim": [
