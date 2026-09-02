@@ -1246,6 +1246,17 @@ const CASE_VALUATION_DATA = {
         "dollarAmount": 155900000,
         "sourceUrl": "https://www.crainsnewyork.com/real-estate/750-lexington-ave-fetches-nominal-sum-foreclosure-auction/",
         "confidence": "high"
+      },
+      {
+        "caseName": "Wells Fargo Bank, N.A. v. 9 Schindler Court",
+        "citation": "Docket No. F-6328-25 (N.J. Super. Ct., Ch. Div., Morris Cnty., Jan. 2026)",
+        "jurisdiction": "NJ",
+        "year": 2026,
+        "outcome": "Wells Fargo held both a first and second mortgage on the property, both in default, but chose to foreclose only on the second mortgage. Roughly two years later, it filed a separate new foreclosure action on the still-defaulted first mortgage. The Chancery judge dismissed the second foreclosure action with prejudice, holding it violated New Jersey's Entire Controversy Doctrine and res judicata by splitting claims that should have been brought together, and ordered the first mortgage discharged.",
+        "dollarAmount": 0,
+        "sourceUrl": "https://njlawconnect.com/commercial-tenant-rights-foreclosure-nj/",
+        "confidence": "medium",
+        "notes": "A real, current lender-loss outcome illustrating a procedural trap distinct from the substantive deficiency-judgment/anti-deficiency issues the other citations in this claim type address: a lender holding multiple defaulted liens on the same property who forecloses on them sequentially rather than together risks losing the later lien entirely to claim-preclusion doctrines, regardless of the underlying default being real and undisputed. Worth flagging to a lienholder client with more than one defaulted instrument on the same collateral."
       }
     ],
     "receivership_dispute": [
@@ -1284,6 +1295,17 @@ const CASE_VALUATION_DATA = {
         "dollarAmount": null,
         "sourceUrl": "https://therealdeal.com/chicago/2026/04/23/cwcapital-hits-suburban-chicago-office-with-foreclosure/",
         "confidence": "high"
+      },
+      {
+        "caseName": "ICON PSG 1 FL, LLC v. Jenkins Court Realty Co., L.P.",
+        "citation": "No. 25-2598 (3d Cir. July 16, 2026)",
+        "jurisdiction": "Federal (3d Cir., applying PA law)",
+        "year": 2026,
+        "outcome": "Commercial mortgage foreclosure on a $20.5 million loan secured by a Jenkintown, Pennsylvania property. After the borrower defaulted and failed to timely answer, the district court entered default and later default judgment, then appointed a receiver. The Third Circuit affirmed on all three fronts: (1) the borrower could not set aside the default/default judgment on its asserted grounds; (2) the court-appointed receiver had authority to modify an affiliate-friendly lease term (a 1,000-day cure period for a related-party tenant) despite an attornment clause, because it was a self-dealing term inserted after default; and (3) the district court did not abuse its discretion holding the borrower and its principal in civil contempt for failing to provide the accounting and records the receivership orders required.",
+        "dollarAmount": 20500000,
+        "sourceUrl": "https://law.justia.com/cases/federal/appellate-courts/ca3/25-2598/25-2598-2026-07-16.html",
+        "confidence": "high",
+        "notes": "A rich, current appellate-level confirmation of real receiver powers in a distressed-loan context: modifying a self-dealing, affiliate-favorable lease term put in place after default, and the availability of civil contempt as a real enforcement tool against a borrower/principal who stonewalls a receivership's accounting demands. dollarAmount reflects the underlying loan amount, not a separate damages figure -- this citation is about receiver authority and enforcement, not a compensatory award."
       }
     ],
     "guaranty_enforcement": [
@@ -1916,6 +1938,17 @@ const CASE_VALUATION_DATA = {
         "dollarAmount": null,
         "sourceUrl": "https://www.courtlistener.com/opinion/8686764/norfolk-redevelopment-housing-authority-v-norva-properties-lc/",
         "confidence": "medium"
+      },
+      {
+        "caseName": "Matter of Bowers Development, LLC v. Oneida County Industrial Development Agency",
+        "citation": "2024 NY Slip Op 00523 (App. Div., 4th Dep't, Feb. 2, 2024); cert. denied, U.S. Sup. Ct. (Mar. 24, 2025)",
+        "jurisdiction": "NY",
+        "year": 2024,
+        "outcome": "A business competitor of the property owner asked the county industrial development agency to condemn the owner's under-contract parcel so the agency could instead build a parking lot serving the competitor's adjacent medical office building. The Appellate Division had first annulled the taking, but the Court of Appeals reversed and remanded; on remand the Appellate Division dismissed the owner's petition, holding the parking-lot project served a valid public purpose (mitigating parking and traffic congestion) regardless of the competitor's role in initiating it. The U.S. Supreme Court denied certiorari.",
+        "dollarAmount": null,
+        "sourceUrl": "https://www.romesentinel.com/news/bowers-development-411-columbia-st-oneida-county-supreme-court/article_52f43350-be3f-11ef-8304-0fe1f1968cca.html",
+        "confidence": "high",
+        "notes": "A stark, multi-level-litigated illustration of just how deferential post-Kelo public-use review is: the condemnation was requested by, and directly benefited, the owner's own business competitor, yet the taking was still upheld as serving a valid public purpose once framed as traffic/parking mitigation. Directly supports keeping this claim's baseProbability at the low end of its 0.05-0.15 range even where the challenger has a sympathetic 'this taking exists only to help my competitor' narrative."
       }
     ],
     "pre_condemnation_access_dispute": [
