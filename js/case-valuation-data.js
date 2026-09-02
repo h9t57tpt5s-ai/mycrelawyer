@@ -919,6 +919,17 @@ const CASE_VALUATION_DATA = {
         "url": null,
         "confidence": "high",
         "notes": "Primary source: full motion, brief, and supporting affidavit read directly. Same filing as the accelerated_rent citation above -- illustrates that re-leasing/mitigation costs are a distinct, separately itemized, and potentially large damages category, not folded into the rent-acceleration figure. No public URL available for this record -- verify via the case number and court above."
+      },
+      {
+        "caseName": "Brixmor GA Seacoast Shopping Center LLC v. NH1 Motorplex LLC",
+        "citation": "No. 2025-0067 (N.H. Sup. Ct.)",
+        "jurisdiction": "NH",
+        "year": 2026,
+        "outcome": "Trial court awarded the landlord damages for breach of a commercial lease agreement including 'landlord work' and 'tenant allowance' costs -- the tenant argued on appeal that the landlord was not entitled to recover these categories. The New Hampshire Supreme Court affirmed the trial court's award.",
+        "dollarAmount": null,
+        "url": "https://www.courts.nh.gov/sites/g/files/ehbemt471/files/documents/2026-03/20250067.pdf",
+        "confidence": "medium",
+        "notes": "This is a Rule 3 summary-disposition-style appellate order; the specific dollar figures for the landlord-work and tenant-allowance line items were not independently confirmed from secondary reporting, only that the trial court's recovery theory itself was affirmed on appeal. Useful as current (2026), state-supreme-court-level confirmation that landlord-work and tenant-allowance costs are a recognized, recoverable damages category after tenant breach -- corroborating the Village at Brocks Gap citation above with a second, independent jurisdiction."
       }
     ],
     "holdover_damages": [
@@ -1311,6 +1322,17 @@ const CASE_VALUATION_DATA = {
         "dollarAmount": null,
         "sourceUrl": "https://sbj.net/stories/kc-bank-sues-philadelphia-qdoba-operator,105343",
         "confidence": "high"
+      },
+      {
+        "caseName": "Extech Building Materials, Inc. v. E&N Construction, Inc.",
+        "citation": "A-28-24 (N.J. Dec. 2, 2025)",
+        "jurisdiction": "NJ",
+        "year": 2025,
+        "outcome": "Supplier sued a construction-materials buyer and its two principals personally on a guaranty clause within a two-page supply agreement, seeking $1,016,627.65 allegedly owed. The two individuals had signed the guaranty paragraph with their signatures labeled only '(No Title)', without a separate signature line clarifying they signed in their individual capacity. The New Jersey Supreme Court held the personal guaranty unenforceable against them, adopting a rule that a guarantor must clearly and unambiguously express intent to be personally bound through one of three methods: a separate guaranty agreement, a dual signature (once as company representative, once individually), or a single signature on an agreement that expressly states it binds both the company and the individual.",
+        "dollarAmount": 0,
+        "sourceUrl": "https://www.newjerseylawyersblog.com/new-jersey-supreme-court-explains-requirements-of-enforceable-personal-guarantees/",
+        "confidence": "high",
+        "notes": "A significant, current state-supreme-court-level limiting citation: over $1M sought under a guaranty clause was entirely unenforceable against the individual signatories due to a signature-formality defect, despite clear substantive guaranty language in the contract. Directly relevant to calibrating guaranty_enforcement's probability downward where the guaranty was signed without a clearly dual/individual-capacity signature block -- a common drafting gap in short-form supply and vendor agreements, not just loan guaranties."
       }
     ],
     "lender_liability_claim": [
@@ -1597,6 +1619,17 @@ const CASE_VALUATION_DATA = {
         "dollarAmount": 39000000,
         "sourceUrl": "https://frenkelfirm.com/blog/39-million-awarded-in-parking-garage-collapse-lawsuit/",
         "confidence": "high"
+      },
+      {
+        "caseName": "Engineering & Construction Innovations, Inc. v. Bradshaw Construction Corp.",
+        "citation": "No. 20-CV-808 (ECT/SGE), 2025 WL 1790679 (D. Minn. June 30, 2025)",
+        "jurisdiction": "Federal (D. Minn.)",
+        "year": 2025,
+        "outcome": "Subcontract required the subcontractor to indemnify the general contractor for liquidated damages the owner assessed against the GC due to the subcontractor's schedule failure. The GC then moved to also recover nearly $3.3 million in its own attorney's fees and costs incurred proving the indemnification claim itself; the court denied that fee-recovery motion, holding that indemnity language covering claims 'arising or in any way resulting from' the indemnified liability does not, without more explicit language, extend to fees incurred enforcing the indemnity provision against the indemnitor.",
+        "dollarAmount": 0,
+        "sourceUrl": "https://www.fwhtlaw.com/blog/2025/08/15/recovery-of-attorneys-fees-under-indemnity-provisions-the-devil-is-in-the-details/",
+        "confidence": "medium",
+        "notes": "The underlying liquidated-damages indemnification obligation itself was not in dispute in this ruling -- what was denied was the GC's attempt to also shift its OWN enforcement-litigation fees onto the subcontractor under the same clause. Useful as a real, current limiting citation: broad indemnity language does not automatically include fee-shifting for the indemnitee's cost of proving the claim, absent explicit contract language to that effect. dollarAmount reflects the $0 result of the fee-recovery motion specifically, not the separately-owed liquidated damages."
       }
     ],
     "insurance_coverage_defect_dispute": [
@@ -1720,6 +1753,17 @@ const CASE_VALUATION_DATA = {
         "dollarAmount": 1947000,
         "sourceUrl": "https://law.justia.com/cases/federal/appellate-courts/ca9/21-16555/21-16555-2023-05-17.html",
         "confidence": "medium"
+      },
+      {
+        "caseName": "Barclay Lofts LLC v. PPG Industries, Inc.",
+        "citation": "No. 20-CV-1694 (E.D. Wis. Sept. 18, 2024)",
+        "jurisdiction": "Federal (E.D. Wis.)",
+        "year": 2024,
+        "outcome": "Milwaukee industrial-to-residential redevelopment site contaminated with hexavalent chromium, arsenic, mercury, lead, and TCE. The court allocated CERCLA liability for future response costs among the historical operators/current owner: PPG Industries 50%, Hydrite Chemical Co. 20%, Wayne Pigment Corporation 20% (its share reassigned to Barclay as an uncollectible 'orphan share'), and Barclay Lofts/Sherman Associates (the current owner/redeveloper) 10%; Wayne Chemical Corp. and Lumimove Inc. were allocated 0%. Of Barclay's claimed $1.43 million in past/pre-remediation costs, the court found $1.17 million necessary and recoverable. Future cleanup cost estimates from the parties' experts ranged from $6.7 million to over $28 million; codefendant Hydrite separately settled for a $3 million escrow allocation plus $550,000 toward past costs.",
+        "dollarAmount": 1170000,
+        "sourceUrl": "https://www.mgkflitigationblog.com/Barclay_Lofts_PPG_Allocation_CERCLA_Superfund",
+        "confidence": "high",
+        "notes": "A detailed, multi-party equitable allocation ruling -- useful both for the recoverable-past-costs figure ($1.17M of $1.43M claimed) and as a real illustration of how courts split CERCLA liability among multiple historical operators plus the current owner, including assigning an insolvent party's 'orphan share' to the plaintiff rather than leaving it unallocated. dollarAmount reflects only the confirmed recoverable past costs; future costs remained a wide, unresolved range at the time of this decision."
       }
     ],
     "state_cleanup_consent_decree": [
@@ -1986,6 +2030,17 @@ const CASE_VALUATION_DATA = {
         "dollarAmount": null,
         "sourceUrl": "https://www.startribune.com/albert-lea-cannabis-business-appeals-court-overturn-rejection-smoking-tree/601847996",
         "confidence": "medium"
+      },
+      {
+        "caseName": "Monarch Communities, LLC v. Township of Montville",
+        "citation": "A-70-24 (090407) (N.J. July 13, 2026)",
+        "jurisdiction": "NJ",
+        "year": 2026,
+        "outcome": "The New Jersey Supreme Court modified the long-standing Sica v. Board of Adjustment of Wall, 127 N.J. 152 (1992), test for inherently-beneficial-use variances. Under the revised standard, before the traditional balancing of positive and negative criteria, the applicant must now separately and affirmatively show the variance 'will not substantially impair the intent and purpose of the zoning plan and zoning ordinance' -- an independent showing beyond simply proving public benefit and no substantial detriment.",
+        "dollarAmount": null,
+        "sourceUrl": "https://www.njcourts.gov/system/files/court-opinions/2026/a_70_24.pdf",
+        "confidence": "high",
+        "notes": "A landmark, state-supreme-court-level doctrinal shift that raises the bar for a specific, common category of variance application (inherently beneficial uses, e.g. affordable housing, schools, hospitals, houses of worship) in New Jersey -- applicants can no longer rely on public-benefit showings alone. This should push variance_permit_denial_appeal's baseProbability toward the lower end of its range for New Jersey inherently-beneficial-use applications specifically, until the applicant's own facts clearly satisfy the new independent zoning-plan-consistency requirement."
       }
     ],
     "spot_zoning_challenge": [
