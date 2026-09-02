@@ -1751,6 +1751,17 @@ const CASE_VALUATION_DATA = {
         "sourceUrl": "https://www.fwhtlaw.com/blog/2025/08/15/recovery-of-attorneys-fees-under-indemnity-provisions-the-devil-is-in-the-details/",
         "confidence": "medium",
         "notes": "The underlying liquidated-damages indemnification obligation itself was not in dispute in this ruling -- what was denied was the GC's attempt to also shift its OWN enforcement-litigation fees onto the subcontractor under the same clause. Useful as a real, current limiting citation: broad indemnity language does not automatically include fee-shifting for the indemnitee's cost of proving the claim, absent explicit contract language to that effect. dollarAmount reflects the $0 result of the fee-recovery motion specifically, not the separately-owed liquidated damages."
+      },
+      {
+        "caseName": "Amberwood Development, Inc. v. Swann's Grading, Inc.",
+        "citation": "No. 1 CA-CV 15-0786, 2017 Ariz. App. Unpub. LEXIS 207 (Ariz. Ct. App. Feb. 23, 2017) (unpublished)",
+        "jurisdiction": "AZ",
+        "year": 2017,
+        "outcome": "General contractor sought indemnification from its grading subcontractor for a $1.75 million arbitration award to homeowners and $723,900 in separate litigation settlements, all arising from defects in a housing development. The subcontract required the subcontractor to indemnify for claims 'arising out of or in connection with' its work. The trial court, affirmed on appeal, held the subcontractor did not need to be shown negligent or at fault -- the broad 'arising out of or in connection with' language tied the indemnity obligation to the work itself, not to proof of fault -- and apportioned the subcontractor responsible for 72% of the arbitration award (~$1.26M) and 70.6% of the settlements (~$511,073), roughly $1.77 million combined.",
+        "dollarAmount": 1770000,
+        "sourceUrl": "https://arizonaconstructionandthelaw.com/amberwood-development-inc-et-al-v-swanns-grading-inc-persuasive-authority-on-the-scope-of-indemnification-provisions/",
+        "confidence": "medium",
+        "notes": "Unpublished (no binding precedential effect in Arizona) but factually rich and directly on point: confirms that broad 'arising out of or in connection with' indemnity language reaches a subcontractor's defective work WITHOUT the indemnitee having to separately prove negligence or causation -- a meaningfully lower bar for the general contractor than a narrower indemnity clause would impose, and the percentage-apportionment approach (72%/70.6% rather than 100%) is itself a useful data point for how courts split indemnification exposure among multiple responsible parties on the same underlying award."
       }
     ],
     "insurance_coverage_defect_dispute": [
