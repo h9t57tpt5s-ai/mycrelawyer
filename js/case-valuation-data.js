@@ -1784,6 +1784,17 @@ const CASE_VALUATION_DATA = {
         "dollarAmount": 1100000,
         "sourceUrl": "https://www.artforum.com/news/cornell-university-sues-i-m-peis-firm-over-campus-museums-design-224103/",
         "confidence": "medium"
+      },
+      {
+        "caseName": "Orange County Performing Arts Center v. Cesar Pelli (Pelli Clarke Pelli) and Fluor Corp.",
+        "citation": "Orange County Superior Court, CA, filed Aug. 17, 2006",
+        "jurisdiction": "CA",
+        "year": 2006,
+        "outcome": "The Center sued architect Cesar Pelli's firm and design-builder Fluor Corp. over the Renee and Henry Segerstrom Concert Hall, alleging design and construction errors including obstructed sightlines to the stage and inadequately designed seating, plus a roughly $40 million budget overrun (from an original ~$200M budget to ~$240M). Most defects were remedied at a cost of millions of dollars; some were reported as irreversible. Secondary sources report the Center ultimately prevailed, though the specific settlement terms or judgment amount were not independently confirmed.",
+        "dollarAmount": null,
+        "sourceUrl": "https://playbill.com/article/orange-county-pac-sues-architect-cesar-pelli-fluor-corp",
+        "confidence": "medium",
+        "notes": "Real, well-documented filed suit against a nationally prominent architecture firm and design-builder, with specific and credible defect allegations (sightlines, seating design, budget overrun), but the final resolution amount is not independently confirmed beyond a general 'Center won' characterization in secondary compilation sources -- treat the outcome direction as more reliable than any specific dollar figure, since none is included here. A useful addition to this claim type's sample regardless, since it involves a design-builder (Fluor) as co-defendant alongside the architect, a structure not otherwise represented in this claim type's citations."
       }
     ],
     "indemnification_contribution_claim": [
