@@ -51,6 +51,18 @@ const RELAW_DATA = {
     DC: "District of Columbia"
   },
 
+  /* The single author attributed on every case write-up's byline and
+     structured-data markup (js/main.js renders this from here rather than
+     per-case, so it applies uniformly to every existing and future entry —
+     including ones added by the automated digest — with one edit point). */
+  author: {
+    name: "Jeff Novel",
+    title: "Contributing Author",
+    initials: "JN",
+    bioUrl: "author-jeff-novel.html",
+    linkedin: "https://www.linkedin.com/in/jeffnovel"
+  },
+
   cases: [
     {
       id: "live-001",

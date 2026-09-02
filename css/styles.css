@@ -851,6 +851,11 @@ h3, .h3 {
 .detail-close:hover { border-color: var(--accent); transform: rotate(90deg); }
 .detail-panel .top-row { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 28px; }
 .detail-panel h2 { font-size: 1.7rem; margin: 18px 0 10px; }
+.byline-row { display: flex; align-items: center; gap: 10px; margin: 0 0 18px; }
+.byline-avatar { width: 26px; height: 26px; border-radius: 50%; background: var(--accent-deep); color: #fff; font-family: var(--font-mono); font-size: 11px; font-weight: 600; flex: none; display: flex; align-items: center; justify-content: center; }
+.byline-text { font-size: 13px; color: var(--text-secondary); line-height: 1.4; }
+.byline-text a { color: var(--accent-deep); font-weight: 600; text-decoration: none; border-bottom: 1px solid color-mix(in srgb, var(--accent-deep) 35%, transparent); }
+.byline-text a:hover { border-bottom-color: var(--accent-deep); }
 .detail-meta-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; margin: 28px 0; padding: 22px 0; border-top: 1px solid var(--border-soft); border-bottom: 1px solid var(--border-soft); }
 .detail-meta-grid .label { font-size: 11px; text-transform: uppercase; letter-spacing: 0.06em; color: var(--text-muted); font-family: var(--font-mono); margin-bottom: 5px; }
 .detail-meta-grid .value { font-size: 14px; color: var(--text-primary); font-weight: 500; }

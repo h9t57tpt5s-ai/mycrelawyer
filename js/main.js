@@ -196,6 +196,56 @@
   window.RELAW_UTILS.statusById = typeof RELAW_DATA !== "undefined" ? statusById : null;
   window.RELAW_UTILS.caseCardHtml = typeof RELAW_DATA !== "undefined" ? caseCardHtml : null;
 
+  /* Renders the byline row shown under every case's headline in the detail
+     panel. Single source of truth is RELAW_DATA.author (js/data.js) — this
+     applies uniformly to every case, past and future, including ones added
+     by the automated digest, without touching individual case records. */
+  function bylineHtml() {
+    if (typeof RELAW_DATA === "undefined" || !RELAW_DATA.author) return "";
+    const a = RELAW_DATA.author;
+    return `<div class="byline-row">
+      <div class="byline-avatar">${a.initials}</div>
+      <div class="byline-text">By <a href="${a.bioUrl}">${a.name}</a>, ${a.title}</div>
+    </div>`;
+  }
+  window.RELAW_UTILS.bylineHtml = typeof RELAW_DATA !== "undefined" ? bylineHtml : null;
+
+  /* Injects/updates a single JSON-LD block describing the currently open
+     case's authorship, mirroring the visible byline above so the two never
+     drift out of sync. Removed on close since it only describes whichever
+     case is currently open. */
+  function setCaseAuthorshipSchema(c) {
+    if (typeof RELAW_DATA === "undefined" || !RELAW_DATA.author) return;
+    const a = RELAW_DATA.author;
+    let tag = document.getElementById("case-authorship-schema");
+    if (!tag) {
+      tag = document.createElement("script");
+      tag.type = "application/ld+json";
+      tag.id = "case-authorship-schema";
+      document.head.appendChild(tag);
+    }
+    tag.textContent = JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "LegalUpdate",
+      headline: c.title,
+      datePublished: c.addedDate || c.date,
+      about: c.tags || [],
+      author: {
+        // No `url` yet — it would point to author-jeff-novel.html, which
+        // isn't deployed. Add it back once that page goes live.
+        "@type": "Person",
+        name: a.name,
+        jobTitle: a.title,
+        sameAs: [a.linkedin]
+      },
+      publisher: { "@type": "Organization", name: "CREdocket" }
+    });
+  }
+  function clearCaseAuthorshipSchema() {
+    const tag = document.getElementById("case-authorship-schema");
+    if (tag) tag.remove();
+  }
+
   /* ---------- Detail panel (shared across pages) ---------- */
   function buildDetailPanel() {
     if (document.getElementById("detail-panel")) return;
@@ -212,6 +262,7 @@
       overlay.classList.remove("open");
       panel.classList.remove("open");
       document.body.style.overflow = "";
+      clearCaseAuthorshipSchema();
     }
     overlay.addEventListener("click", close);
     document.addEventListener("keydown", (e) => {
@@ -222,6 +273,7 @@
       const c = RELAW_DATA.cases.find((x) => x.id === caseId);
       if (!c) return;
       if (window.RELAW_UTILS.recordCaseClick) window.RELAW_UTILS.recordCaseClick(caseId);
+      setCaseAuthorshipSchema(c);
       const cat = categoryById(c.category);
       const status = statusById(c.status);
       const isLive = c.source === "live";
@@ -304,6 +356,9 @@
           <span class="badge-dot" style="background:${cat.color}"></span>${cat.label}
         </span>
         <h2>${c.title}</h2>
+        <!-- Visible byline intentionally not rendered yet — the invisible
+             JSON-LD authorship schema below ships first; bylineHtml() stays
+             defined in RELAW_UTILS, ready to wire in here later. -->
         <span class="status-pill" style="color:${status.color}"><span class="dot" style="background:${status.color}"></span>${status.label}</span>
         <div class="detail-meta-grid">
           <div><div class="label">Date</div><div class="value">${formatDate(c.date)}</div></div>

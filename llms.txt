@@ -1,0 +1,28 @@
+# CREdocket
+
+> Commercial real estate litigation intelligence: sourced, verified case tracking and analysis for property owners, developers, asset managers, REITs, and in-house real estate teams. Case write-ups are researched and edited by Jeff Novel, Contributing Author (https://www.linkedin.com/in/jeffnovel/), covering landlord-tenant, commercial lease disputes, construction defect, lending & foreclosure, REIT & securities, environmental, zoning & land use, and eminent domain litigation nationwide.
+
+## Core resources
+
+- [Litigation Tracker](https://credocket.com/litigation.html): Searchable database of tracked commercial real estate litigation matters, filterable by practice area, status, and jurisdiction.
+- [Updates](https://credocket.com/updates.html): Most recently added matters.
+- [Quarterly Report](https://credocket.com/quarterly.html): Narrative synthesis of the quarter's tracked litigation.
+- [Judges & Courts](https://credocket.com/judges.html): Profiles of judges presiding over tracked matters.
+- [Companies & Parties](https://credocket.com/companies.html): Profiles of companies and other named parties recurring across tracked matters.
+- [Market Signals](https://credocket.com/trends.html): Aggregate trends across tracked litigation.
+- [Property Type Insights](https://credocket.com/property-types.html)
+- [Settlement & Verdict Benchmarks](https://credocket.com/settlement-benchmarks.html)
+
+## Tools
+
+- [Case Value Calculator](https://credocket.com/case-valuation.html): Estimates potential case value across commercial real estate claim types, using verified citations and state-law modifiers.
+- [Commercial Eviction Handbook](https://credocket.com/eviction-guide.html): State-by-state commercial eviction procedure guide.
+- [Mechanic's Lien Deadline Calculator](https://credocket.com/lien-deadline-calculator.html)
+- [ADA Title III Risk Flagging](https://credocket.com/ada-risk-flagging.html)
+
+## About
+
+- [About CREdocket](https://credocket.com/about.html)
+- [Contact](https://credocket.com/contact.html)
+
+Not legal advice. Informational purposes only.
