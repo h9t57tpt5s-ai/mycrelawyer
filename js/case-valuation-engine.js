@@ -170,6 +170,35 @@
     return { low, high, note };
   }
 
+  // Adjusts spot-zoning / variance-appeal probability using
+  // facts.zoningPlanConsistencyRequirement (merged into facts by
+  // collectFacts() in case-valuation.js from
+  // zoningComprehensivePlanModifiers[state]). A state where zoning must
+  // legally CONFORM to the comprehensive plan gives a spot-zoning
+  // challenger a real, independently enforceable legal theory when the
+  // rezoning conflicts with the plan -- not just an argument about
+  // legislative wisdom. A state where the plan is merely advisory means
+  // even a demonstrated inconsistency doesn't, on its own, invalidate the
+  // zoning. "Conditional" states (mandatory only once/if a plan is
+  // adopted, e.g. NY/PA/WI) get the same boost AS Mandatory, since the
+  // model assumes the fact pattern already involves an adopted plan.
+  function computeZoningStateAdjustment(facts, baseProb) {
+    const req = facts.zoningPlanConsistencyRequirement;
+    if (!req) return { prob: baseProb, note: null };
+    const citation = facts.zoningPlanConsistencyCitation ? ` (${facts.zoningPlanConsistencyCitation})` : "";
+    let prob = baseProb, note = null;
+    if (req === "Mandatory" || req === "Conditional") {
+      prob = [Math.min(baseProb[0] * 1.25, 0.95), Math.min(baseProb[1] * 1.2, 0.95)];
+      note = `${facts.state} requires zoning to actually conform to the comprehensive plan${citation} -- a demonstrated inconsistency is an independently enforceable legal theory, not just an argument about legislative wisdom. ${facts.zoningPlanConsistencyNote || ""}`;
+    } else if (req === "Advisory") {
+      prob = [baseProb[0] * 0.65, baseProb[1] * 0.8];
+      note = `${facts.state} treats the comprehensive plan as advisory only${citation} -- even a real, demonstrated inconsistency with the plan does not by itself invalidate the zoning decision, so this theory carries less independent weight here than in a mandatory-consistency state. ${facts.zoningPlanConsistencyNote || ""}`;
+    } else if (req === "Split/Unclear") {
+      note = `${facts.state}'s courts have reached different conclusions on whether zoning must conform to the comprehensive plan${citation} -- outcome here depends heavily on which line of authority the local court follows. ${facts.zoningPlanConsistencyNote || ""}`;
+    }
+    return { prob, note };
+  }
+
   function result(claimKey, label, probRange, damagesLow, damagesHigh, note, isBenchmark) {
     return {
       claimKey,
@@ -538,12 +567,18 @@
   function evalZoningLandUse(facts) {
     const out = [];
     if (facts.varianceOrPermitDenied) {
-      out.push(result("variance_permit_denial_appeal", "Variance / Permit Denial Appeal", [0.25, 0.45], null, null,
-        "Zoning boards get significant judicial deference; reversal requires a clear legal or procedural error."));
+      const base = [0.25, 0.45];
+      const adj = computeZoningStateAdjustment(facts, base);
+      const baseNote = "Zoning boards get significant judicial deference; reversal requires a clear legal or procedural error.";
+      out.push(result("variance_permit_denial_appeal", "Variance / Permit Denial Appeal", adj.prob, null, null,
+        adj.note ? `${baseNote} ${adj.note}` : baseNote));
     }
     if (facts.spotZoningAlleged) {
-      out.push(result("spot_zoning_challenge", "Spot Zoning Challenge", [0.30, 0.50], null, null,
-        "Small research sample skewed favorably (3 of 3 succeeded) — treat cautiously as possibly outcome-selection-biased."));
+      const base = [0.30, 0.50];
+      const adj = computeZoningStateAdjustment(facts, base);
+      const baseNote = "4-case sample (3 successful, 1 confirmed loss) — treat cautiously as still a small sample.";
+      out.push(result("spot_zoning_challenge", "Spot Zoning Challenge", adj.prob, null, null,
+        adj.note ? `${baseNote} ${adj.note}` : baseNote));
     }
     if (facts.arbitraryOrDiscriminatoryDenialAlleged) {
       let p = [0.10, 0.20];

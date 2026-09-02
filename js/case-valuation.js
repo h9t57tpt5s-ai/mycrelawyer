@@ -28,6 +28,7 @@
   const EMINENT_DOMAIN_GOODWILL = CASE_VALUATION_DATA.eminentDomainBusinessGoodwill;
   const FORECLOSURE_STATE_MODS = CASE_VALUATION_DATA.foreclosureStateModifiers;
   const INDEMNITY_STATE_MODS = CASE_VALUATION_DATA.constructionIndemnityStateModifiers;
+  const ZONING_STATE_MODS = CASE_VALUATION_DATA.zoningComprehensivePlanModifiers;
 
   // ---- CONFIG ---------------------------------------------------------
   const STRIPE_PAYMENT_LINK_URL = "https://buy.stripe.com/dRm9AL34yaOSeLJetz1B601";
@@ -209,6 +210,7 @@
       { key: "propertyFairMarketValue", label: "Property's fair market value, if a regulatory taking is alleged ($)", type: "number" }
     ],
     "zoning-land-use": [
+      { key: "state", label: "Municipality's state (for comprehensive-plan-consistency rules)", type: "state" },
       { key: "varianceOrPermitDenied", label: "Was a variance or permit denied and appealed?", type: "boolean" },
       { key: "spotZoningAlleged", label: "Is a rezoning being challenged as improper spot zoning?", type: "boolean" },
       { key: "arbitraryOrDiscriminatoryDenialAlleged", label: "Is an arbitrary or discriminatory zoning denial alleged (Section 1983)?", type: "boolean" },
@@ -349,6 +351,16 @@
       facts.indemnityForm = m.indemnityForm;
       facts.indemnityStateCitation = m.citation;
       facts.indemnityStateNote = m.note;
+    }
+    // pull in the comprehensive-plan-consistency state law for
+    // zoning-land-use (first tranche, 35 of 51 jurisdictions -- see
+    // zoningComprehensivePlanModifiers in case-valuation-data.js; states
+    // not yet researched have requirement: null and are left unadjusted)
+    if (slug === "zoning-land-use" && facts.state && ZONING_STATE_MODS[facts.state]) {
+      const m = ZONING_STATE_MODS[facts.state];
+      facts.zoningPlanConsistencyRequirement = m.requirement;
+      facts.zoningPlanConsistencyCitation = m.citation;
+      facts.zoningPlanConsistencyNote = m.note;
     }
     return facts;
   }
