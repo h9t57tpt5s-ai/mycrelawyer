@@ -1858,6 +1858,38 @@ const RELAW_DATA = {
         "Taken together, the filing is a practical warning for anyone tracking secondary-market office debt: owners and asset managers holding loans nearing maturity in markets like Colorado Springs should treat trophy status and long-tenured anchor tenants as no longer sufficient on their own to guarantee refinancing success, and should engage lenders on workout or extension terms well before a maturity date arrives rather than after. Borrowers facing default in non-judicial foreclosure states should treat the recording of a notice of election and demand as a hard deadline requiring immediate counsel engagement rather than an opening bid in a negotiation, and lenders or buyers evaluating distressed mixed-use complexes should confirm precisely which parcels and entities are cross-collateralized or cross-defaulted under the governing loan documents before assuming a physically adjacent property, like the Antlers hotel here, shares in the same exposure."
       ],
       tags: ["foreclosure", "office", "public trustee", "colorado springs", "loan default"]
+    },
+    {
+      id: "live-066",
+      addedDate: "2026-09-02",
+      title: "SITC Inc. v. Sarasota County (Live Local Act Zoning-Preemption Dispute)",
+      category: "zoning-land-use",
+      status: "pending",
+      date: "2026-08-25",
+      jurisdiction: "Twelfth Judicial Circuit Court, Sarasota County, Florida",
+      state: "FL",
+      amount: "~500-unit lead project; more than 4,000 rental units across four pending Live Local Act suits countywide",
+      source: "live",
+      sourceUrl: "https://www.businessobserverfl.com/news/2026/sep/02/sarasota-county-live-local-lawsuits/",
+      summary: "Sarasota County is defending four separate lawsuits — brought by developer SITC Inc. (controlled by Halfacre Construction's Jack Cox), D.R. Horton Inc., and others — after commissioners voted in April 2026 that the state's Live Local Act does not apply to the county's Open Use and Residential Estate-1 zoning districts, blocking six of seven pending affordable-housing applications. Twelfth Judicial Circuit Judge Hunter W. Carroll heard argument on the county's motion to dismiss the second complaint on August 25, and a non-jury trial in the lead SITC case is set for March 29, 2027. SITC's suit also asks the court to hold individual commissioners personally liable and alleges the policy shift violated Florida's open-meetings law.",
+      significance: "The case tests how much room a local government retains to narrow a state affordability-preemption mandate through zoning-code interpretation rather than an outright, publicly noticed policy change — a playbook other Florida counties are watching closely as Live Local Act litigation multiplies statewide. A ruling for the county would hand municipalities a template for limiting Live Local exposure through zoning classification; a ruling for the developers would signal courts will read the Act's zoning triggers broadly and scrutinize last-minute reclassifications.",
+      body: [
+        "Sarasota County is now defending against four separate lawsuits brought by developers and a church over its refusal to process multifamily housing applications under Florida's Live Local Act, with more than 4,000 proposed rental units caught in the dispute. The litigation, filed as separate actions in the Twelfth Judicial Circuit Court, centers on a narrow but consequential question of statutory interpretation: whether the Live Local Act's mandate that local governments administratively approve qualifying affordable housing developments on commercial, industrial, or mixed-use land also reaches Sarasota County's Open Use and Residential Estate-1 zoning districts. For developers, REITs, and municipal counsel across Florida, and in the growing number of states experimenting with their own zoning-preemption statutes, the outcome will help define how much room local governments retain to narrow a state affordability mandate through zoning-code interpretation rather than outright refusal.",
+        "Florida's Live Local Act, first enacted in 2023 and expanded in 2024, requires municipalities and counties to approve, without a rezoning or comprehensive-plan amendment, multifamily or mixed-income residential developments proposed on land zoned commercial, industrial, or mixed use, so long as at least 40 percent of the units are reserved as affordable for households earning up to 120 percent of area median income for a minimum of 30 years. Qualifying projects receive administrative approval along with favorable height and density treatment tied to the tallest and densest development otherwise allowed within a mile of the site. The law was designed to remove local elected boards' discretion to reject workforce-housing projects outright, and it has become one of the most heavily litigated pieces of land-use legislation in the state since its passage.",
+        "The Sarasota dispute traces to an April 7, 2026 commission meeting, at which commissioners determined that the Live Local Act's list of qualifying zoning categories does not encompass the county's Open Use and Residential Estate-1 districts, an interpretation that, left standing, would block six of seven Live Local applications then pending before the county. Developers responded with a wave of litigation. SITC Inc., a corporation controlled by Jack Cox, president of Lakewood Ranch-based Halfacre Construction, sued the county and each individual commissioner over the rejection of a roughly 500-unit apartment proposal spanning multiple 65-foot towers, arguing the commission's zoning interpretation is legally wrong and that the meeting at which it was adopted violated Florida's open-meetings requirements by failing to give adequate public notice that a policy change of that magnitude was under consideration. D.R. Horton Inc., together with the Cindy L. Smith Revocable Living Trust and individual trustees, is pursuing a related claim tied to a long-contested parcel near the Celery Fields bird sanctuary, a fight that began as a single-family subdivision dispute and evolved, after Horton walked away from a separate arbitration track, into a Live Local Act claim covering several hundred apartment units on the same land. A church with its own affordable-housing proposal rounds out the plaintiff group.",
+        "The county has moved to dismiss each complaint, including an effort to have individual commissioners dismissed from suits naming them in their personal capacities, a defensive posture that matters because SITC's complaint specifically asks the court to hold commissioners personally liable for the zoning determination, a request that, if it survives, would expose sitting elected officials to individual financial exposure for a land-use vote taken in their official capacity. On August 25, 2026, Judge Hunter W. Carroll heard argument on the county's motion to dismiss the second complaint filed against it, and a non-jury civil trial in the lead SITC matter has been set for March 29, 2027, giving both sides more than half a year to develop the record on the zoning-classification question before it reaches a fact-finder.",
+        "What makes the case worth watching beyond Sarasota County's borders is that it is not a challenge to the Live Local Act's validity, since no party disputes that the statute preempts local discretion for qualifying zoning categories, but a fight over how a local government can narrow that mandate through the technical mechanics of its own zoning code. If Sarasota's interpretation holds, other Florida counties and cities gain a clear playbook for constraining Live Local Act exposure by defining local zoning categories narrowly enough that a project's site never triggers the state mandate in the first place, without amending or repealing a zoning ordinance in a way that would itself draw preemption scrutiny. If the developers prevail, the ruling will instead signal that courts will read the Act's commercial, industrial, or mixed-use trigger broadly and will police reclassification efforts skeptically, particularly where, as SITC alleges here, the shift arrived through a meeting-agenda determination rather than a publicly noticed ordinance change.",
+        "For developers pursuing Live Local Act projects, the practical lesson is to document, at the time of application, exactly how the underlying parcel has historically been zoned and treated by the local government, since a reinterpretation adopted after an application is already on file is far more vulnerable to challenge than a classification baked into the zoning code from the outset. Local governments and their counsel should treat any policy-level reinterpretation of which zoning districts trigger a state land-use preemption statute as functionally equivalent to a zoning-code amendment for open-meetings and public-notice purposes, given how readily plaintiffs are now pairing statutory-interpretation claims with Sunshine Law causes of action, and commissioners voting on Live Local Act applications should recognize that plaintiffs are increasingly willing to name officials in their personal capacity, making contemporaneous documentation of the legal basis for a zoning determination, not just its policy rationale, an increasingly important part of the record."
+      ],
+      timeline: [
+        { when: "December 4, 2025", label: "SITC Inc. submits application for a roughly 500-unit apartment project under the Live Local Act" },
+        { when: "April 7, 2026", label: "Sarasota County commissioners determine the Live Local Act does not apply to the county's Open Use and Residential Estate-1 zoning districts" },
+        { when: "May 20, 2026", label: "SITC Inc. files suit against Sarasota County and individual commissioners in the Twelfth Judicial Circuit Court" },
+        { when: "August 25, 2026", label: "Judge Hunter W. Carroll hears argument on the county's motion to dismiss the second complaint", current: true },
+        { when: "March 29, 2027", label: "Non-jury civil trial scheduled in the lead SITC case", upcoming: true }
+      ],
+      judge: "Hunter W. Carroll",
+      tags: ["zoning", "live local act", "affordable housing", "land use", "florida"]
     }
   ],
 
@@ -2177,7 +2209,8 @@ const RELAW_DATA = {
     { jurisdiction: "Maricopa County Superior Court, Arizona", url: "https://superiorcourt.maricopa.gov/" },
     { jurisdiction: "U.S. District Court, Middle District of North Carolina", url: "https://www.ncmd.uscourts.gov/" },
     { jurisdiction: "Suffolk County Superior Court, Massachusetts", url: "https://www.mass.gov/locations/suffolk-county-superior-court" },
-    { jurisdiction: "Milwaukee County Circuit Court", url: "https://county.milwaukee.gov/EN/Courts" }
+    { jurisdiction: "Milwaukee County Circuit Court", url: "https://county.milwaukee.gov/EN/Courts" },
+    { jurisdiction: "Twelfth Judicial Circuit Court, Sarasota County, Florida", url: "https://www.jud12.flcourts.org/" }
   ],
 
   /* Judges — background on every judge named in our sourced reporting (never
@@ -2345,6 +2378,14 @@ const RELAW_DATA = {
       court: "U.S. District Court, Middle District of North Carolina",
       background: "Nominated by President George W. Bush on January 9, 2007 and confirmed to the federal bench that September, filling the seat vacated by his father, Judge William L. Osteen Sr. Presides over the DOJ's multistate RealPage algorithmic-pricing antitrust litigation.",
       bioUrl: "https://www.fjc.gov/history/judges/osteen-william-lindsay-jr"
+    },
+    {
+      name: "Hunter W. Carroll",
+      slug: "hunter-w-carroll",
+      title: "Circuit Judge",
+      court: "Twelfth Judicial Circuit Court, Sarasota County, Florida",
+      background: "Appointed to the Twelfth Judicial Circuit bench by Governor Rick Scott in 2015 and subsequently elected twice. Previously practiced law in Sarasota, including as senior staff attorney for the Chief Justice of the Florida Supreme Court, and now serves as administrative judge for Sarasota County and for the circuit's civil division.",
+      bioUrl: "https://www.jud12.flcourts.org/About/Judges/Biography/judge/hunter-carroll"
     }
   ],
 
@@ -2383,6 +2424,7 @@ const RELAW_DATA = {
     { name: "Goldman Sachs", slug: "goldman-sachs", description: "Global investment bank that originates and securitizes commercial mortgage loans, and frequently appears as a lender or plaintiff in CMBS foreclosure litigation.", website: "https://www.goldmansachs.com" },
     { name: "Deutsche Bank", slug: "deutsche-bank", description: "Global investment bank that originates, services, and represents lender groups in commercial mortgage and CMBS foreclosure litigation.", website: "https://www.db.com" },
     { name: "Cushman & Wakefield", slug: "cushman-wakefield", description: "Global commercial real estate services firm providing brokerage, leasing, and property and receivership management services.", website: "https://www.cushmanwakefield.com" },
-    { name: "CBRE Group, Inc.", matchTerm: "CBRE", slug: "cbre-group", description: "NYSE-listed global commercial real estate services and investment management firm, frequently serving as broker, property manager, or court-appointed receiver in distressed CRE matters.", website: "https://www.cbre.com" }
+    { name: "CBRE Group, Inc.", matchTerm: "CBRE", slug: "cbre-group", description: "NYSE-listed global commercial real estate services and investment management firm, frequently serving as broker, property manager, or court-appointed receiver in distressed CRE matters.", website: "https://www.cbre.com" },
+    { name: "D.R. Horton, Inc.", matchTerm: "D.R. Horton", slug: "dr-horton", description: "NYSE-listed national homebuilder and land developer, active in single-family and multifamily residential land entitlement and development nationally.", website: "https://www.drhorton.com" }
   ]
 };
