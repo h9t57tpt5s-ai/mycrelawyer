@@ -906,6 +906,28 @@ const CASE_VALUATION_DATA = {
         "url": null,
         "confidence": "high",
         "notes": "Primary source: full motion, brief, and supporting affidavit read directly. The best available real-world illustration in this dataset of the standard commercial-lease accelerated-rent methodology -- present-value discounting of NET future rent (required under, e.g., HealthSouth Rehabilitation Corp. v. Falcon Management Co., 799 So.2d 177, 185 (Ala. 2001)), itemized dollar-for-dollar credit for specific replacement tenants rather than a flat mitigation percentage, and a distinct re-leasing/mitigation-costs damages category (see releasing_mitigation_costs citations). No public URL available for this record -- verify via the case number and court above."
+      },
+      {
+        "caseName": "Cummings Properties, LLC v. Hines",
+        "citation": "101 Mass. App. Ct. 1108 (2022) (unpublished)",
+        "jurisdiction": "MA",
+        "year": 2022,
+        "outcome": "Lease's acceleration clause let the landlord retake possession, re-let the premises, collect the new tenant's rent, AND recover the full remaining rent owed by the defaulting tenant for the balance of the original term -- with no requirement to credit or account for the rent actually collected from the replacement tenant. The Appeals Court held this 'double-dip' structure was an unenforceable penalty rather than valid liquidated damages.",
+        "dollarAmount": 0,
+        "sourceUrl": "https://caselaw.findlaw.com/court/ma-court-of-appeals/2067888.html/",
+        "confidence": "high",
+        "notes": "Directly validates this claim's reletOverride mechanic: an acceleration clause that does NOT net out actual replacement rent before calculating the accelerated-rent claim is a real, live penalty risk, not a theoretical one -- this is the same landlord (Cummings Properties) that WON on a similarly large accelerated-rent claim in the companion 2007 citation below, where the clause's structure avoided this double-dip problem. The contrast between the two Cummings cases is itself instructive: it's the accounting-for-re-let-rent mechanic that determines enforceability, not the size of the claim or the landlord's identity."
+      },
+      {
+        "caseName": "Cummings Properties, LLC v. National Communications Corp.",
+        "citation": "449 Mass. 490, 869 N.E.2d 617 (2007)",
+        "jurisdiction": "MA",
+        "year": 2007,
+        "outcome": "The Massachusetts Supreme Judicial Court held a liquidated damages clause entitling the landlord to nearly five years of remaining rent payments after tenant default was enforceable as valid liquidated damages, not a penalty, even though the landlord had re-let the premises.",
+        "dollarAmount": null,
+        "sourceUrl": "https://www.richmaylaw.com/case-alert-a-massachusetts-appeals-court-strikes-down-a-commercial-landlords-right-to-collect-acceleration-of-rent-on-tenant-default/",
+        "confidence": "high",
+        "notes": "The landlord's 2007 win here (large accelerated-rent recovery upheld despite re-letting) versus its 2022 loss in the companion Hines citation above turns on exactly the distinction this claim's damages formula is built around -- properly accounting for re-let income versus impermissibly double-dipping."
       }
     ],
     "releasing_mitigation_costs": [
@@ -976,6 +998,17 @@ const CASE_VALUATION_DATA = {
         "url": "https://case-law.vlex.com/vid/lincoln-oldsmobile-inc-v-886790420",
         "confidence": "medium",
         "notes": "Illustrates an important limitation on double-rent recovery: it is not automatic and does not reach back before the landlord's demand."
+      },
+      {
+        "caseName": "Spatz v. 2263 North Lincoln Corp.",
+        "citation": "2013 IL App (1st) 122076",
+        "jurisdiction": "IL",
+        "year": 2013,
+        "outcome": "Successor property owner sued a commercial tenant for eviction and back rent after the lease expired; the tenant claimed it had validly exercised a purchase option before the lease expired and therefore had a right to remain in possession. The Illinois Appellate Court affirmed denial of the landlord's request for statutory double rent, holding a holdover tenant who stays for 'colorably justifiable reasons' -- a reasonable, good-faith claim of a right to occupy -- is not subject to the double-rent penalty even though it did, in fact, hold over.",
+        "dollarAmount": null,
+        "sourceUrl": "https://paulporvaznik.com/commercial-landlord-not-entitled-to-double-rent-under-holdover-statute-where-tenant-had-legitimate-belief-it-had-right-to-possess-space-il-1st-dist/9591",
+        "confidence": "high",
+        "notes": "A second, independent limitation on double-rent recovery distinct from the Lincoln Oldsmobile demand-precondition above -- here it's a good-faith colorable claim of right to possess, not any procedural failure by the landlord, that defeats the statutory penalty. Both citations point the same direction: courts read holdover-penalty statutes narrowly against automatic doubling."
       }
     ],
     "attorney_fees": [
@@ -1116,6 +1149,17 @@ const CASE_VALUATION_DATA = {
         "url": "https://www.casemine.com/judgement/us/59149050add7b04934574675",
         "confidence": "high",
         "notes": "One of the larger punitive-damages awards found for a commercial lockout/conversion claim; illustrates that egregious conduct during a lockout (not just the exclusion itself) can support outsized punitive damages even in a state that otherwise recognizes some rights of self-help."
+      },
+      {
+        "caseName": "Donegal Associates, LLC v. Christie-Scott, LLC",
+        "citation": "Md. Ct. Spec. App. (2020)",
+        "jurisdiction": "MD",
+        "year": 2020,
+        "outcome": "Landlord used self-help to re-enter a hair salon tenant's leased premises, evict the tenant, and take possession of its personal property after default. The circuit court initially awarded the tenant $139,938.87 in compensatory damages for conversion; the Court of Special Appeals reversed and directed entry of judgment for the LANDLORD instead, for $43,304.91 in unpaid rent, holding the self-help reentry was lawful because the landlord was legally entitled to possession and reentry was accomplished peaceably.",
+        "dollarAmount": 0,
+        "sourceUrl": "https://www.gfrlaw.com/what-we-do/insights/commercial-landlord-has-right-self-help",
+        "confidence": "high",
+        "notes": "A landlord-WIN counter-example, appellate-level and fully reversed on the merits -- important balance against this claim type's other citations, most of which involve a landlord losing. Confirms the two-part peaceable-and-entitled test for lawful self-help is a real, live defense that can completely defeat a wrongful-lockout claim on appeal even after a plaintiff wins at the trial-court level. dollarAmount reflects the $0 the tenant ultimately recovered on its own claim, not the unpaid-rent judgment entered against it."
       }
     ],
     "quiet_enjoyment_breach": [
@@ -1605,6 +1649,17 @@ const CASE_VALUATION_DATA = {
         "dollarAmount": 10000000,
         "sourceUrl": "https://beckerlawyers.com/hudson-county-jury-awards-10m-in-consumer-fraud-case-against-builder/",
         "confidence": "high"
+      },
+      {
+        "caseName": "JVP Drywall & Finish, Inc. v. 2377 Collins Resort, L.P.",
+        "citation": "No. 3D17-2413 (Fla. 3d DCA Nov. 7, 2018)",
+        "jurisdiction": "FL",
+        "year": 2018,
+        "outcome": "Subcontractor installed drywall and wallboard at what became 1 Hotel South Beach (Miami Beach); the property's later owners claimed the work used noncode-compliant materials and was incorrectly installed in bathrooms, causing water leaks and millions in damage. After the subcontractor filed a mechanic's-lien lis pendens, the case went to trial; the Miami-Dade Circuit Court entered final judgment for the property owners, awarded them attorney's fees and costs, and ordered return of the roughly $617,183 bond the owners had posted against the lien. The Third District Court of Appeal affirmed, denying the subcontractor's motion for judgment notwithstanding the verdict or a new trial.",
+        "dollarAmount": 3100000,
+        "sourceUrl": "https://law.justia.com/cases/florida/third-district-court-of-appeal/2018/3d17-2413.html",
+        "confidence": "high",
+        "notes": "A full-cycle, appellate-affirmed defense win for a commercial property owner against a subcontractor's defective-installation work, including recovery of a substantial mechanic's-lien bond -- reported trial verdict was $3.1 million plus roughly $644,000 in prejudgment interest, though this citation's dollarAmount reflects only the $3.1M verdict figure since the interest award wasn't independently confirmed from the appellate opinion itself."
       }
     ],
     "design_professional_malpractice": [
@@ -1779,6 +1834,28 @@ const CASE_VALUATION_DATA = {
         "dollarAmount": null,
         "sourceUrl": "https://www2.ca3.uscourts.gov/opinarch/183287p.pdf",
         "confidence": "high"
+      },
+      {
+        "caseName": "MPM Silicones, LLC v. Union Carbide Corp.",
+        "citation": "966 F.3d 200 (2d Cir. July 23, 2020)",
+        "jurisdiction": "Federal (2d Cir., applying NY law)",
+        "year": 2020,
+        "outcome": "Current owner/operator sued to recover $374,540.25 in past PCB-cleanup costs and for a declaratory judgment on liability for future removal costs at a site Union Carbide had contaminated decades earlier. After a bench trial, the district court allocated 95% of future removal costs to Union Carbide and 5% to the plaintiff-owner, reasoning Union Carbide was the party that introduced and benefited from the PCBs. The Second Circuit's opinion also resolved a significant statute-of-limitations question: a single site can have more than one CERCLA 'removal action' triggering its own limitations period, rather than one clock running from the first remediation activity ever performed there.",
+        "dollarAmount": 374540,
+        "sourceUrl": "https://www.hodgsonruss.com/newsroom/publications/Second-Circuit-Clarifies-CERCLA-Statute-of-Limitations-Rules-There-Can-be-More-Than-One-Remediation-on-a-Site",
+        "confidence": "high",
+        "notes": "A strongly plaintiff-favorable allocation (95%/5%) for a current owner who did not cause the contamination -- useful as a high-end data point alongside the innocent-landowner citations elsewhere in this claim type, and the statute-of-limitations holding is independently significant for any multi-phase, multi-decade remediation site."
+      },
+      {
+        "caseName": "Guam v. United States",
+        "citation": "593 U.S. 310 (2021)",
+        "jurisdiction": "Federal (U.S. Supreme Court)",
+        "year": 2021,
+        "outcome": "The Supreme Court unanimously held that a settlement resolving only Clean Water Act claims (not CERCLA claims specifically) can still trigger CERCLA's three-year contribution-claim statute of limitations, and clarified the line between a §107(a) cost-recovery action and a §113(f) contribution action -- allowing Guam to proceed with its cost-recovery claim against the United States for cleanup of the Ordot Dump rather than being time-barred as an untimely contribution claim.",
+        "dollarAmount": null,
+        "sourceUrl": "https://www.congress.gov/crs-product/LSB10609",
+        "confidence": "high",
+        "notes": "A significant, current U.S. Supreme Court clarification of when a party is limited to the narrower, time-barred §113(f) contribution remedy versus the broader §107(a) cost-recovery remedy this claim type models -- directly relevant to correctly classifying a fact pattern into cercla_cost_recovery versus cercla_contribution_claim before applying either claim's damages formula."
       }
     ],
     "cercla_contribution_claim": [
@@ -2216,6 +2293,17 @@ const CASE_VALUATION_DATA = {
         "dollarAmount": null,
         "sourceUrl": "https://caselaw.findlaw.com/court/us-6th-circuit/139569.html",
         "confidence": "high"
+      },
+      {
+        "caseName": "W.J.F. Realty Corp. v. Town of Southampton",
+        "citation": "261 A.D.2d 609, 690 N.Y.S.2d 725 (N.Y. App. Div., 2d Dep't, 1999)",
+        "jurisdiction": "NY",
+        "year": 1999,
+        "outcome": "Landowners challenged a series of official actions by the Town, including a development moratorium and the denial of their application for an exemption from it. After a nonjury trial, the court found the December 1993 denial of the plaintiffs' moratorium-exemption application denied them equal protection, and awarded damages plus 9% prejudgment interest and reasonable attorney's fees -- total exposure reported as potentially exceeding $13 million.",
+        "dollarAmount": 13000000,
+        "sourceUrl": "https://scholarship.law.stjohns.edu/cgi/viewcontent.cgi?article=1480&context=lawreview",
+        "confidence": "medium",
+        "notes": "A rare example of a landowner actually PREVAILING on an equal-protection theory against a municipality's discretionary land-use decision, with real, large damages plus fees and interest -- a useful counterweight to the Sixth Circuit citation above (developer lost on due process) in this same claim type, since equal protection and due process theories succeed at meaningfully different rates in zoning litigation. dollarAmount reflects the reported total exposure figure, which blends principal damages with interest and fees rather than isolating a single compensatory-damages number."
       }
     ],
     "development_agreement_breach": [
