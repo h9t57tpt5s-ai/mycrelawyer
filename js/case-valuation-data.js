@@ -1031,6 +1031,17 @@ const CASE_VALUATION_DATA = {
         "sourceUrl": "https://paulporvaznik.com/commercial-landlord-not-entitled-to-double-rent-under-holdover-statute-where-tenant-had-legitimate-belief-it-had-right-to-possess-space-il-1st-dist/9591",
         "confidence": "high",
         "notes": "A second, independent limitation on double-rent recovery distinct from the Lincoln Oldsmobile demand-precondition above -- here it's a good-faith colorable claim of right to possess, not any procedural failure by the landlord, that defeats the statutory penalty. Both citations point the same direction: courts read holdover-penalty statutes narrowly against automatic doubling."
+      },
+      {
+        "caseName": "Coinmach Corp. v. Aspenwood Apartment Corp.",
+        "citation": "417 S.W.3d 909 (Tex. 2013)",
+        "jurisdiction": "TX",
+        "year": 2013,
+        "outcome": "Coinmach leased space at an apartment complex to install and service coin-operated laundry machines under a 10-year contract; a 1994 foreclosure sale terminated the lease, but Coinmach refused to vacate for roughly six years, becoming a tenant at sufferance. The new owner, Aspenwood, sued for trespass, DTPA violations, and tortious interference -- specifically that Coinmach's continued refusal to leave blocked Aspenwood from contracting with a replacement laundry vendor. A jury awarded Aspenwood approximately $1.5 million (actual damages plus DTPA treble damages and exemplary damages). The Texas Supreme Court held that a tenant at sufferance is a trespasser who CAN be held liable in tort, including for tortious interference with the landlord's own prospective business relations, remanding for further review of whether the interference element was properly proven.",
+        "dollarAmount": 1500000,
+        "sourceUrl": "https://caselaw.findlaw.com/court/tx-supreme-court/1651463.html",
+        "confidence": "high",
+        "notes": "Directly relevant to what a landlord's damages can look like when a holdover tenant isn't just failing to pay double rent, but is actively blocking the landlord's ability to strike a NEW deal with a replacement tenant or vendor -- a real, substantial (~$1.5M jury-awarded, high-court-affirmed-in-part) tort theory beyond the statutory holdover penalty modeled elsewhere in this claim type's damages formula. Worth flagging as a distinct, additive damages theory when facts show the holdover specifically obstructed an identifiable replacement deal, not just ordinary continued occupancy."
       }
     ],
     "attorney_fees": [
@@ -1112,6 +1123,17 @@ const CASE_VALUATION_DATA = {
         "url": "https://www.courtlistener.com/opinion/2593554/45-broadway-owner-llc-v-nysa-ila-pension-trust-fund/",
         "confidence": "high",
         "notes": "Not a landlord-recovery data point -- included as a real, binding illustration that a mutual waiver-of-subrogation/casualty-release clause (common in commercial leases) can completely bar an otherwise well-evidenced property-damage claim. This claim's baseProbability range assumes no such clause; a lease containing one would take a property damage claim toward $0 regardless of the repair evidence. Flagged for a possible future model refinement (a lease-clause question) rather than folded into the current formula unilaterally."
+      },
+      {
+        "caseName": "Howe v. Professional Manivest, Inc.",
+        "citation": "829 P.2d 160, 164 (Utah Ct. App. 1992)",
+        "jurisdiction": "UT",
+        "year": 1992,
+        "outcome": "In a dispute centering on a ground lessee's material breach (unauthorized assignments/encumbrances of the leasehold plus persistent weed growth violating a city ordinance), the court articulated the governing standard for what a tenant is obligated to repair: damage the tenant must repair or pay for 'is not that which is caused by ordinary wear and tear, but by the tenant's willful conduct or negligence and which amounts to waste.'",
+        "dollarAmount": null,
+        "sourceUrl": "https://www.courtlistener.com/opinion/1423966/howe-v-professional-manivest-inc/",
+        "confidence": "medium",
+        "notes": "DOCTRINAL CITATION, not a dollar comparable -- the underlying case is a lease-forfeiture dispute (unauthorized assignment plus a municipal weed-ordinance violation), not a repair-cost recovery, and its own damages figures (liquidated damages for continued use, costs, attorney fees) don't map onto this claim's propertyDamageAmount formula. What it DOES supply is the actual legal standard the normalWearHaircut parameter is meant to operationalize: the wear-vs-waste line turns on the tenant's willful conduct or negligence, not just visible deterioration. Cited for that standard specifically, the way a claim's underlying legal test is cited even when the case supplying it isn't itself a clean damages comparable."
       }
     ],
     "tortious_interference_lost_profits": [
