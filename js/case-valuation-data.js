@@ -2269,6 +2269,26 @@ const CASE_VALUATION_DATA = {
         "notes": "IMPORTANT: this is a preliminary TRO ruling on likelihood of success, not a final judgment on the regulatory-taking claim's merits -- include as a current, real illustration that a short-term-rental ban applied to a property with an established pre-ban rental use and history CAN support a Penn Central claim at the threshold stage, not as a confirmed final win. A meaningfully different fact pattern from most regulatory-taking cases in this sample (a use-restriction ordinance rather than a development-density or wetlands-type regulation), reflecting a growing and currently unsettled area of takings litigation nationally."
       }
     ],
+
+    /* eminent_domain_attorney_fees is primarily modeled via the
+       eminentDomainAttorneyFees 51-jurisdiction statutory table (see
+       below), not this shared citations pattern -- but a real case
+       actually applying one state's fee-shifting statute is still
+       valuable to show the formula working in practice, not just as
+       researched statute text. */
+    "eminent_domain_attorney_fees": [
+      {
+        "caseName": "Joseph B. Doerr Trust v. Central Florida Expressway Authority",
+        "citation": "177 So. 3d 1209 (Fla. 2015)",
+        "jurisdiction": "FL",
+        "year": 2015,
+        "outcome": "Authority's presuit written offer to purchase 9.81 acres was $4,914,221; the owner rejected it and the case proceeded to a condemnation trial, where the jury awarded $5.7 million -- roughly $800,000 above the offer. Under Fla. Stat. Sec. 73.092, the trial court initially awarded the owner $816,000 in attorney's fees. On further proceedings, the trial court found the Authority itself had caused 'excessive litigation' and held the standard benefit-achieved fee formula unconstitutional as applied, because it would have denied the owner full compensation net of fees. The Florida Supreme Court remanded for an evidentiary hearing to set total fees accounting for both the statutory benefit-achieved formula AND the portion of legal work attributable to the Authority's excessive litigation conduct.",
+        "dollarAmount": 816000,
+        "sourceUrl": "https://law.justia.com/cases/florida/supreme-court/2015/sc14-1007.html",
+        "confidence": "high",
+        "notes": "A real, Florida Supreme Court-level application of the fee-shifting mechanism this claim's eminentDomainAttorneyFees table already documents for Florida (Fla. Stat. Sec. 73.092(1), benefit-achieved formula) -- and an important refinement beyond the bare statute: where the condemning authority's OWN litigation conduct unreasonably drove up the owner's fees, a rigid benefit-achieved cap can be held unconstitutional as applied, entitling the owner to a fuller fee recovery than the base formula alone would yield. dollarAmount reflects the initial $816,000 award; the final, remanded figure (accounting for the excessive-litigation add-on) was not independently confirmed."
+      }
+    ],
     "variance_permit_denial_appeal": [
       {
         "caseName": "Lockaway Storage v. County of Alameda",
@@ -2461,6 +2481,17 @@ const CASE_VALUATION_DATA = {
         "dollarAmount": 5081293,
         "sourceUrl": "https://www.clausen.com/pml-development-v-village-of-hawthorn-woods-supreme-court-decision/",
         "confidence": "high"
+      },
+      {
+        "caseName": "Village of Hoffman Estates v. Northern Illinois University Foundation",
+        "citation": "2025 IL App (1st) 231720-U (Apr. 17, 2025)",
+        "jurisdiction": "IL",
+        "year": 2025,
+        "outcome": "A 1999 annexation/development agreement required the Foundation to donate a parcel to the Village if an NIU branch campus wasn't built there within 10 years. A 2005 amendment exchanged parcels and stated the new agreement's terms governed all donations and fees going forward, not the 1999 agreement's. When NIU never built the campus, the Village demanded the Foundation donate the parcel anyway; the Foundation refused, arguing the 2005 amendment eliminated that obligation. The circuit court dismissed the Village's specific-performance and unjust-enrichment claims with prejudice, and the Appellate Court affirmed.",
+        "dollarAmount": null,
+        "sourceUrl": "https://www.dailyherald.com/20250418/news/hoffman-estates-loses-appeal-of-case-seeking-donation-of-20-acres-from-niu-foundation/",
+        "confidence": "high",
+        "notes": "REVERSE-DIRECTION citation: here the MUNICIPALITY is the one suing to enforce a development agreement, against a developer/foundation entity, and losing -- useful defensive precedent for a developer facing a municipality's enforcement claim, particularly where the parties later amended or superseded the original agreement's specific terms. Confirms that a later, more specific agreement provision governing the same subject matter can fully displace an earlier obligation, even one the municipality reasonably believed still applied."
       }
     ]
   },
