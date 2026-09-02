@@ -1162,6 +1162,17 @@ const CASE_VALUATION_DATA = {
         "url": "https://law.justia.com/cases/new-york/court-of-appeals/1970/26-n-y-2d-77-0.html",
         "confidence": "high",
         "notes": "Negative/defense-side outcome. Useful as a principle case: (1) constructive eviction requires abandonment, and (2) landlord conduct must breach an actual lease obligation, not merely a pre-lease representation negated by a merger clause."
+      },
+      {
+        "caseName": "Commercial tenant v. SW Delray Artist Alley, LLC",
+        "citation": "Palm Beach County, Florida (settled shortly before trial, following an appellate ruling in the tenant's favor)",
+        "jurisdiction": "FL",
+        "year": 2025,
+        "outcome": "Tenant leased a commercial unit in Delray Beach that proved uninhabitable due to toxic mold, asbestos, and volatile organic compounds; the landlord allegedly failed to remediate despite repeated complaints, forcing the tenant to vacate. After the tenant secured a favorable appellate ruling, the case settled for $435,000, covering relocation and restoration costs, shortly before trial.",
+        "dollarAmount": 435000,
+        "sourceUrl": "https://themold.lawyer/tenant-rights/toxic-commercial-lease-settlement-appeal-success/",
+        "confidence": "medium",
+        "notes": "Sourced from the plaintiff's own firm's case-results reporting rather than a published opinion or court filing directly reviewed -- the formal case caption and docket number were not independently confirmed, and the specific appellate holding that preceded the settlement is described only in general terms. Included because the underlying facts (toxic mold/asbestos/VOC contamination forcing vacatur, landlord's failure to remediate despite notice) and the settlement figure are specific and plausible, but treat the dollar amount with more caution than the primary-source-verified citations in this claim type."
       }
     ],
     "security_deposit": [
@@ -1393,6 +1404,17 @@ const CASE_VALUATION_DATA = {
         "dollarAmount": 6600000,
         "sourceUrl": "https://law.justia.com/cases/california/court-of-appeal/3d/183/1362.html",
         "confidence": "medium"
+      },
+      {
+        "caseName": "ROC Debt Strategies II Bond Investments LLC v. CWCapital Asset Management LLC",
+        "citation": "Supreme Court of the State of New York, filed Jan. 13, 2025",
+        "jurisdiction": "NY",
+        "year": 2026,
+        "outcome": "As directing certificateholder of the FREMF 2016-KS06 CMBS pool, ROC sued the special servicer CWCAM for breach of the pooling and servicing agreement and violation of the contractual servicing standard, alleging negligent handling of nine loans that entered special servicing starting in 2022, and sought a declaratory judgment that CWCAM was not entitled to indemnification or expense reimbursement from the trust. CWCAM moved to dismiss (fully briefed, hearing held Aug. 25, 2025); while that motion was pending, the parties reached a confidential business resolution and stipulated to dismissal with prejudice on Jan. 22, 2026.",
+        "dollarAmount": null,
+        "sourceUrl": "https://www.businesswire.com/news/home/20250723952228/en",
+        "confidence": "medium",
+        "notes": "A current, real example of a CMBS-specific lender-liability theory -- a certificateholder suing the special servicer itself for mishandling defaulted loans, rather than a borrower suing an originating lender. Settled confidentially before any ruling on the motion to dismiss, so no dollar figure or judicial holding on the merits is available; included primarily to document that this claim theory is being actively brought and resolved in the current CMBS distress cycle, consistent with market commentary describing distressed-debt/special-servicer disputes as a currently very active litigation area."
       }
     ],
     "securities_fraud_10b5": [
