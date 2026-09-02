@@ -199,6 +199,33 @@
     return { prob, note };
   }
 
+  // Adjusts environmental-insurance-coverage-dispute probability using
+  // facts.pollutionExclusionInterpretation (merged into facts by
+  // collectFacts() in case-valuation.js from
+  // environmentalPollutionExclusionModifiers[state]). A state whose
+  // leading case reads the CGL pollution exclusion BROADLY makes it
+  // harder for a policyholder to win coverage; a NARROW-reading state
+  // makes it easier. "Mixed" states (a real, documented split between
+  // an older governing case and a newer one, e.g. NC, WI) get a note
+  // but no probability shift, since which line of authority controls
+  // depends on facts this model doesn't capture (policy-form vintage).
+  function computeEnvironmentalStateAdjustment(facts, baseProb) {
+    const interp = facts.pollutionExclusionInterpretation;
+    if (!interp) return { prob: baseProb, note: null };
+    const citation = facts.pollutionExclusionCitation ? ` (${facts.pollutionExclusionCitation})` : "";
+    let prob = baseProb, note = null;
+    if (interp === "Narrow") {
+      prob = [Math.min(baseProb[0] * 1.4, 0.7), Math.min(baseProb[1] * 1.35, 0.75)];
+      note = `${facts.state}'s leading case reads the pollution exclusion narrowly, limited to traditional environmental pollution${citation} -- meaningfully better odds for the policyholder than the baseline sample, which skews toward insurer wins under broader-reading states. ${facts.pollutionExclusionNote || ""}`;
+    } else if (interp === "Broad") {
+      prob = [baseProb[0] * 0.6, baseProb[1] * 0.75];
+      note = `${facts.state}'s leading case reads the pollution exclusion broadly, per its plain, expansive terms${citation} -- meaningfully worse odds for the policyholder than a narrow-reading state. ${facts.pollutionExclusionNote || ""}`;
+    } else if (interp === "Mixed") {
+      note = `${facts.state}'s case law is genuinely split on this question, often turning on which generation of policy-form language is at issue${citation} -- probability left at baseline rather than guessing which line of authority a court would follow on these facts. ${facts.pollutionExclusionNote || ""}`;
+    }
+    return { prob, note };
+  }
+
   function result(claimKey, label, probRange, damagesLow, damagesHigh, note, isBenchmark) {
     return {
       claimKey,
@@ -467,8 +494,11 @@
         "Benchmark only, not an adversarial probability — nearly all consent decrees are negotiated. See real benchmark tiers above under CERCLA Cost Recovery.", true));
     }
     if (facts.insurerDeniedEnvCoverage) {
-      out.push(result("environmental_insurance_coverage_dispute", "Environmental Insurance Coverage Dispute", [0.25, 0.45], null, null,
-        "Sample skewed toward insurers winning on pollution-exclusion grounds. Outcome is usually binary (coverage owed / not owed), not a dollar figure."));
+      const base = [0.25, 0.45];
+      const adj = computeEnvironmentalStateAdjustment(facts, base);
+      const baseNote = "5-case sample, roughly balanced between insurer and policyholder wins. Outcome is usually binary (coverage owed / not owed), not a dollar figure.";
+      out.push(result("environmental_insurance_coverage_dispute", "Environmental Insurance Coverage Dispute", adj.prob, null, null,
+        adj.note ? `${baseNote} ${adj.note}` : baseNote));
     }
     return out;
   }

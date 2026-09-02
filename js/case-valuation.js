@@ -29,6 +29,7 @@
   const FORECLOSURE_STATE_MODS = CASE_VALUATION_DATA.foreclosureStateModifiers;
   const INDEMNITY_STATE_MODS = CASE_VALUATION_DATA.constructionIndemnityStateModifiers;
   const ZONING_STATE_MODS = CASE_VALUATION_DATA.zoningComprehensivePlanModifiers;
+  const ENV_POLLUTION_MODS = CASE_VALUATION_DATA.environmentalPollutionExclusionModifiers;
 
   // ---- CONFIG ---------------------------------------------------------
   const STRIPE_PAYMENT_LINK_URL = "https://buy.stripe.com/dRm9AL34yaOSeLJetz1B601";
@@ -192,6 +193,7 @@
       { key: "insurerDeniedCoverage", label: "Has a CGL insurer denied or disputed coverage?", type: "boolean" }
     ],
     "environmental": [
+      { key: "state", label: "State (for pollution-exclusion insurance-coverage rules)", type: "state" },
       { key: "cleanupCostsIncurred", label: "Cleanup/remediation costs incurred or estimated ($)", type: "number" },
       { key: "contaminationScale", label: "Contamination scale", type: "select", options: ["single-parcel", "multi-decade/waterway", "small-commercial-penalty"] },
       { key: "multiplePRPs", label: "Are there multiple potentially responsible parties (PRPs)?", type: "boolean" },
@@ -361,6 +363,17 @@
       facts.zoningPlanConsistencyRequirement = m.requirement;
       facts.zoningPlanConsistencyCitation = m.citation;
       facts.zoningPlanConsistencyNote = m.note;
+    }
+    // pull in the pollution-exclusion-interpretation state law for
+    // environmental (first tranche, 20 of 51 jurisdictions -- see
+    // environmentalPollutionExclusionModifiers in case-valuation-data.js;
+    // states not yet researched have interpretation: null and are left
+    // unadjusted)
+    if (slug === "environmental" && facts.state && ENV_POLLUTION_MODS[facts.state]) {
+      const m = ENV_POLLUTION_MODS[facts.state];
+      facts.pollutionExclusionInterpretation = m.interpretation;
+      facts.pollutionExclusionCitation = m.citation;
+      facts.pollutionExclusionNote = m.note;
     }
     return facts;
   }
