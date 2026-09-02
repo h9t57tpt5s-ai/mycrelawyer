@@ -849,6 +849,28 @@ const CASE_VALUATION_DATA = {
         "url": "https://caselaw.findlaw.com/court/nc-court-of-appeals/1431214.html",
         "confidence": "medium",
         "notes": "Good illustrative small-business/retail fact pattern with a modest dollar figure. Initial jury verdict was $13,110 (net of an improperly-applied mitigation offset); the correct, appellate-endorsed recovery figure is the full $35,511.70. Relied on a findlaw case-summary extraction rather than the full opinion text."
+      },
+      {
+        "caseName": "Sclafani Properties, LLC v. Sport-N-Life Distributing, LLC",
+        "citation": "198 Conn. App. 292 (2020)",
+        "jurisdiction": "CT",
+        "year": 2020,
+        "outcome": "Landlord sued a commercial lessee and its guarantor for unpaid amounts due under a lease of property at 482 Glenbrook Road, Stamford. The trial court (an attorney trial referee) awarded the landlord damages and $6,391.63 in attorney's fees; the landlord appealed, arguing the court erred by not including unpaid real estate taxes owed under the lease in the judgment and by awarding only that amount in fees.",
+        "dollarAmount": 6392,
+        "sourceUrl": "https://law.justia.com/cases/connecticut/court-of-appeals/2020/ac40066.html",
+        "confidence": "low",
+        "notes": "INCOMPLETE VERIFICATION: only the $6,391.63 attorney's-fee component and the general procedural posture (landlord appealing for a larger recovery, including real estate taxes) were confirmed from available secondary sources -- the full opinion text was not directly accessible, so the underlying base rent judgment amount and the Appellate Court's ultimate holding on the real-estate-tax and fee issues are NOT confirmed here. Included primarily because it's a real, citable, tenant-AND-guarantor unpaid-rent judgment distinct from the other citations in this claim type, but treat the dollarAmount and outcome with more caution than any other citation in this dataset -- verify directly against the full opinion before relying on it."
+      },
+      {
+        "caseName": "WEC 98C-3 LLC v. SFA Holdings Inc.",
+        "citation": "99 F.4th 961 (7th Cir. 2024)",
+        "jurisdiction": "Federal (7th Cir., applying IL law)",
+        "year": 2024,
+        "outcome": "Department store operator CPS leased anchor retail space in an Illinois mall from WEC 98C-3 LLC; Saks Inc. (CPS's corporate affiliate) guaranteed CPS's rent obligations. When CPS stopped paying rent, Saks made no payments under the guaranty either, contributing to the landlord's own mortgage default and the property's sale at foreclosure to a successor landlord. The successor sued Saks on the guaranty. The Seventh Circuit affirmed judgment holding Saks liable for CPS's unpaid rent from February 2018 through September 2022 -- more than four and a half years -- plus 9% interest under the lease's penalty provision, rejecting Saks's affirmative defenses because the guaranty's waiver-of-defenses clause expressly barred asserting any defense to liability.",
+        "dollarAmount": null,
+        "sourceUrl": "https://law.justia.com/cases/federal/appellate-courts/ca7/23-1489/23-1489-2024-04-24.html",
+        "confidence": "high",
+        "notes": "A strong, current, appellate-affirmed illustration of two compounding features this claim type should account for when a corporate guarantor is involved: (1) a multi-year unpaid-rent exposure period (4.5+ years here) plus statutory/contractual interest can dwarf the base monthly rent figure, and (2) a broadly-worded guaranty waiver-of-defenses clause can foreclose essentially every defense the guarantor might otherwise raise, including ones related to the landlord's own subsequent default and foreclosure. dollarAmount left null since the specific total judgment figure (rent x 55+ months x lease rate, plus compounding 9% interest) was not independently confirmed from available sources, though the multi-year exposure period itself is well documented."
       }
     ],
     "accelerated_rent": [
@@ -1633,6 +1655,17 @@ const CASE_VALUATION_DATA = {
         "dollarAmount": null,
         "sourceUrl": "https://www.paulweiss.com/practices/litigation/securities-litigation/news/ar-global-wins-dismissal-of-class-action-over-reit-merger?id=53363",
         "confidence": "high"
+      },
+      {
+        "caseName": "In re Inland Western Retail Real Estate Trust, Inc. Shareholder Litigation",
+        "citation": "Class action and derivative complaint; settlement approved Nov. 8, 2010",
+        "jurisdiction": "Federal",
+        "year": 2010,
+        "outcome": "Shareholders sued alleging federal securities-law violations and breach of fiduciary duty in connection with the REIT's internalization transaction -- its merger with its own external business manager/advisor and property managers -- claiming the deal terms improperly enriched the manager's owners at shareholders' expense. The case settled: the sellers who had received 37.5 million shares of company stock in the all-stock internalization deal agreed to give back 9 million of those shares to the company, diluting their own stake to partially compensate remaining shareholders, plus $10,000 in court-awarded plaintiffs'-counsel fees.",
+        "dollarAmount": null,
+        "sourceUrl": "https://www.chicagobusiness.com/article/20100723/CRED03/200038980/inland-western-settles-shareholder-lawsuit",
+        "confidence": "medium",
+        "notes": "A structurally different settlement currency than the cash settlements elsewhere in this claim type -- relief here was a share givebook (9 of 37.5 million shares returned to the company, diluting the internalization sellers rather than paying cash to class members directly). Useful for showing that merger-objection relief in an internalization-style REIT transaction can take the form of unwinding part of the equity consideration itself, not just a cash fund. dollarAmount left null since no cash settlement figure was reported; the real relief was the share transfer."
       }
     ],
     "contractor_breach_negligence": [
