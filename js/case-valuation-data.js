@@ -1582,6 +1582,28 @@ const CASE_VALUATION_DATA = {
         "dollarAmount": null,
         "sourceUrl": "https://altswire.com/lightstone-reit-directors-must-face-suit-over-59-8m-undisclosed-conflict/",
         "confidence": "high"
+      },
+      {
+        "caseName": "SEC v. AR Capital, LLC, Nicholas S. Schorsch, and Brian S. Block",
+        "citation": "S.D.N.Y., settled 2019",
+        "jurisdiction": "Federal (S.D.N.Y.)",
+        "year": 2019,
+        "outcome": "SEC enforcement action alleging AR Capital, its founder Schorsch, and former CFO Block inflated an incentive fee calculation in connection with two non-traded-REIT mergers into American Realty Capital Properties, Inc. (ARCP) -- the 2013 merger with American Realty Capital Trust III and the 2014 merger with American Realty Capital Trust IV -- improperly obtaining roughly 2.92 million additional ARCP operating-partnership units. Without admitting or denying the allegations, defendants agreed to a final judgment with permanent injunctions and cumulative disgorgement, prejudgment interest, and civil penalties exceeding $60 million.",
+        "dollarAmount": 60000000,
+        "sourceUrl": "https://www.sec.gov/newsroom/press-releases/2019-133",
+        "confidence": "high",
+        "notes": "One of the largest confirmed dollar outcomes in this claim type's sample -- an SEC enforcement action rather than private shareholder litigation, but arising from the same underlying conduct (merger-related proxy/disclosure misconduct around fee calculations) this claim type is meant to capture. Useful as a high-end benchmark for what regulatory exposure can look like when incentive-fee manipulation is proven, distinct from the private-litigation settlement figures elsewhere in this sample."
+      },
+      {
+        "caseName": "In re Piedmont Office Realty Trust, Inc. Securities Litigation (consolidating the 'Wells Action' and the 'Piedmont Action')",
+        "citation": "N.D. Ga., settlement hearing Apr. 18, 2013",
+        "jurisdiction": "Federal (N.D. Ga.)",
+        "year": 2013,
+        "outcome": "Two 2007-filed securities class actions -- one challenging disclosures around Piedmont's internalization transaction, the other challenging disclosures in a tender offer and charter amendment -- were consolidated and settled together for a combined $4.9 million cash payment by Piedmont and its insurers.",
+        "dollarAmount": 4900000,
+        "sourceUrl": "https://investor.piedmontreit.com/news-releases/news-release-details/piedmont-office-realty-trust-reaches-agreements-principle-settle",
+        "confidence": "medium",
+        "notes": "An older but well-documented REIT-specific proxy/disclosure settlement figure, useful alongside the more recent citations in this claim type for showing the range of outcomes across different eras of REIT disclosure litigation."
       }
     ],
     "merger_objection_suit": [
@@ -1981,6 +2003,17 @@ const CASE_VALUATION_DATA = {
         "dollarAmount": null,
         "sourceUrl": "https://uphelp.org/two-coasts-two-wins-for-policyholders-in-environmental-coverage-disputes/",
         "confidence": "high"
+      },
+      {
+        "caseName": "James River Insurance Co. v. Ground Down Engineering, Inc.",
+        "citation": "540 F.3d 1270 (11th Cir. 2008)",
+        "jurisdiction": "Federal (11th Cir., applying FL law)",
+        "year": 2008,
+        "outcome": "An environmental consulting firm incorrectly advised its client the client's property was free of pollutants; when that advice proved wrong, the consultant's insurer sought a declaratory judgment that it owed no duty to defend under the policy's pollution exclusion. The Eleventh Circuit's ruling applied the pollution exclusion to bar coverage for the consultant's core professional service of pollution testing and advice.",
+        "dollarAmount": 0,
+        "sourceUrl": "https://caselaw.findlaw.com/us-11th-circuit/1177959.html",
+        "confidence": "high",
+        "notes": "A landmark, frequently-cited illustration that an 'absolute' pollution exclusion in a general liability or E&O policy can eliminate coverage even for an environmental CONSULTANT's own negligent pollution-related advice -- not just for the underlying contamination itself. Directly relevant to any commercial party relying on an environmental consultant's clearance opinion: that consultant's own insurance may not cover a wrong call."
       }
     ],
     "just_compensation_valuation": [
@@ -2108,6 +2141,17 @@ const CASE_VALUATION_DATA = {
         "dollarAmount": null,
         "sourceUrl": "https://www.postandcourier.com/rising-waters/pipeline-company-sues-sc-landowners-for-survey-access-as-residents-fret-over-ace-basin-gas/article_876c8735-4f8b-4517-a568-e5925818382c.html",
         "confidence": "medium"
+      },
+      {
+        "caseName": "Property Reserve, Inc. v. Superior Court",
+        "citation": "1 Cal.5th 151 (2016)",
+        "jurisdiction": "CA",
+        "year": 2016,
+        "outcome": "The California Supreme Court reinforced the statutory right of an entity holding the power of eminent domain to enter private property before any condemnation filing to conduct precondemnation testing and investigatory work (soil borings, environmental testing, etc.) needed to assess a property's suitability for a public project, subject to procedural safeguards and compensation for any resulting damage, but without treating the entry itself as an independent 'taking' requiring a full condemnation proceeding.",
+        "dollarAmount": null,
+        "sourceUrl": "https://law.justia.com/cases/california/supreme-court/2016/s217738.html",
+        "confidence": "high",
+        "notes": "The leading, most-cited California authority on precondemnation entry rights -- confirms the general pattern this claim type's baseProbability already reflects (courts side with the entity seeking access once it shows a plausible eminent-domain purpose), while also establishing the procedural and compensation safeguards a landowner can still insist on even while losing the access fight itself."
       }
     ],
     "regulatory_taking": [
