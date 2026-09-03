@@ -1,0 +1,22 @@
+{
+  "id": "live-070",
+  "title": "District of Columbia v. Delta 2 Owner LLC (Ward 5 Housing Receivership Suit)",
+  "category": "landlord-tenant",
+  "status": "filed",
+  "date": "2026-09-01",
+  "jurisdiction": "Superior Court of the District of Columbia",
+  "state": "DC",
+  "amount": "Restitution and civil penalties sought; no fixed dollar figure alleged",
+  "source": "live",
+  "source_url": "https://oag.dc.gov/release/attorney-general-schwalb-sues-owner-and-manager",
+  "summary": "D.C. Attorney General Brian L. Schwalb sued Delta 2 Owner LLC, property manager DP Management LLC (d/b/a Faria Management), and developer Buwa Binitie over conditions at Delta Pearl, a 166-unit affordable apartment building in Ward 5, alleging nearly 200 unresolved housing code violations including dead elevators and no air conditioning since July, rodent and roach infestations, and unrepaired February 2026 fire damage. The suit invokes the District's Consumer Protection Procedures Act and Tenant Receivership Act, seeking emergency repairs, a preliminary injunction, restitution, and civil penalties.",
+  "significance": "Shows a regulator pairing a receivership request — which can strip an owner of operational control on short notice — with consumer-protection civil penalty exposure, raising the stakes for affordable-housing owners well above a routine code-enforcement action and signaling that vulnerable tenant populations are drawing faster, more aggressive government intervention.",
+  "judge": null,
+  "tags": [
+    "affordable housing",
+    "receivership",
+    "consumer protection",
+    "code violations",
+    "washington dc"
+  ]
+}
