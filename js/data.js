@@ -16,7 +16,7 @@ const RELAW_DATA = {
      Drives the homepage's "New Today" pill: it only shows when this
      equals the visitor's local today. Updated by the digest automation
      each time Step 4 successfully adds a case — never touched otherwise. */
-  lastUpdatedDate: "2026-09-02",
+  lastUpdatedDate: "2026-09-03",
   categories: [
     { id: "landlord-tenant", label: "Landlord–Tenant", color: "var(--cat-landlord)" },
     { id: "zoning-land-use", label: "Zoning & Land Use", color: "var(--cat-zoning)" },
@@ -1890,6 +1890,94 @@ const RELAW_DATA = {
       ],
       judge: "Hunter W. Carroll",
       tags: ["zoning", "live local act", "affordable housing", "land use", "florida"]
+    },
+    {
+      id: "live-067",
+      addedDate: "2026-09-03",
+      title: "Sudhoff v. Deiso Moss (Ritz-Carlton Houston Broker Exclusivity Dispute)",
+      category: "lease-disputes",
+      status: "pending",
+      date: "2026-08-07",
+      jurisdiction: "Harris County District Court, Texas",
+      state: "TX",
+      amount: "$1M+ sought",
+      source: "live",
+      sourceUrl: "https://therealdeal.com/texas/2026/08/07/jacob-sudhoff-sues-houston-ritz-developer/",
+      summary: "Jacob Sudhoff, former CEO of Douglas Elliman Texas, sued an entity affiliated with developer Deiso Moss and principals Andrew Deiso and Taylor Moss in Harris County District Court, alleging he was never fully compensated for work he says helped secure the $290 million Ritz-Carlton Residences, Houston project's headline $30 million penthouse buyer and a major equity investor. The court denied Sudhoff's bid for a temporary restraining order and injunction to pause construction on the 45-story tower, instead sending the dispute to arbitration. Deiso Moss says Sudhoff was engaged only to raise equity, not sell units, and that his engagement ended before the sales launch.",
+      significance: "Illustrates how an arbitration clause in a broker or consultant's engagement agreement can keep a compensation dispute from threatening an active construction timeline, and underscores the importance of precisely scoping exclusivity obligations between capital-raising and sales mandates on ground-up luxury projects.",
+      body: [
+        "Jacob Sudhoff, the former CEO of Douglas Elliman Texas, has sued the developer behind the Ritz-Carlton Residences, Houston, alleging he was never properly compensated for work he says helped secure the project's headline $30 million penthouse buyer and a significant equity investor. The suit, filed in Harris County District Court against an entity affiliated with developer Deiso Moss and its principals, Andrew Deiso and Taylor Moss, seeks damages Sudhoff says exceed $1 million.",
+        "According to the complaint, Sudhoff worked with Deiso Moss from October 2024 through August 2025 under what he characterizes as an exclusivity arrangement covering both capital-raising and sales activity on the roughly $290 million project. Sudhoff alleges the developer breached that exclusivity by terminating him and then working directly with clients and investors he had cultivated, including the buyer of the project's marquee penthouse unit. Deiso Moss disputes that framing: a spokesperson for the developer says Sudhoff was engaged only to raise equity capital, not to sell condominium units, that his engagement had already ended before the project's official sales launch, and that his termination reflected underperformance on the equity-raising mandate rather than any retaliatory move around his client relationships.",
+        "That factual dispute over the actual scope of Sudhoff's engagement is likely to be the central battleground once the case proceeds, but it will not proceed in open court. Sudhoff asked the Harris County court for a temporary restraining order and a temporary injunction to halt construction on the tower while the litigation was pending, a request the court denied on both fronts. The court instead directed the dispute into arbitration, an outcome that typically traces back to an arbitration clause in the parties' original engagement agreement — a common feature of development-stage consulting and brokerage contracts precisely because sponsors want fee disputes resolved quickly and privately rather than through public litigation that could unsettle lenders, equity partners, or buyers during active construction and sales.",
+        "The dispute illustrates how effectively a well-drafted arbitration clause can insulate an active construction project from the disruption of a compensation fight. Had the court granted Sudhoff's requested injunction, a project already carrying $290 million in cost and timeline exposure could have faced a construction freeze over a dispute concerning, at most, a few million dollars in disputed fees — a mismatch in stakes that courts are typically reluctant to enable and that arbitration clauses are specifically designed to prevent.",
+        "For developers and the brokers, consultants, and capital-raising advisers who work with them, the case is a reminder that the scope of an engagement, and any exclusivity carve-out tied to it, needs to be defined with precision at the outset rather than litigated after a falling-out. A consultant retained to raise equity capital and one retained to market finished units perform genuinely different functions, and a contract that blurs the line between the two invites exactly the kind of after-the-fact fight over credit and compensation now playing out between Sudhoff and Deiso Moss — and it means developers negotiating advisory engagements on ground-up luxury projects should put scope, exclusivity, and termination terms in unambiguous writing, keep contemporaneous records of why and when any advisor relationship ends, and confirm an arbitration clause is in place so a fee dispute cannot threaten the construction schedule itself."
+      ],
+      timeline: [
+        { when: "October 2024", label: "Sudhoff begins working with Deiso Moss on the Ritz-Carlton Residences, Houston project" },
+        { when: "August 2025", label: "Deiso Moss terminates Sudhoff's engagement" },
+        { when: "August 7, 2026", label: "Sudhoff sues Deiso Moss in Harris County District Court; court denies his TRO/injunction request and sends the dispute to arbitration", current: true }
+      ],
+      tags: ["broker dispute", "arbitration", "condo-hotel development", "exclusivity agreement", "texas"]
+    },
+    {
+      id: "live-068",
+      addedDate: "2026-09-03",
+      title: "RCA Trade Center, Inc. v. Hu (Hawaii Anti-SLAPP Dismissal of Developer's Zoning-Complaint Suit)",
+      category: "zoning-land-use",
+      status: "ruling",
+      date: "2026-06-23",
+      jurisdiction: "Hawaii Intermediate Court of Appeals",
+      state: "HI",
+      amount: "Attorney fees and costs awarded to defendants",
+      source: "live",
+      sourceUrl: "https://www.forbes.com/sites/jayadkisson/2026/07/23/hawaii-real-estate-developer-pounded-by-the-uniform-public-expression-protection-act-in-hu/",
+      summary: "The Hawaii Intermediate Court of Appeals affirmed dismissal of a suit developer RCA Trade Center, Inc. and affiliate MP Unit 21, LLC brought against neighboring landowners Wayne and Tara Hu over a letter opposing agricultural warehouses at the Marconi Point Condominiums near Kahuku, Oahu. The Hus successfully invoked Hawaii's Uniform Public Expression Protection Act (UPEPA), Hawaii's anti-SLAPP statute, arguing their letter to the developer's attorneys and government agencies was protected speech on a matter of public concern; the trial court and the appeals court agreed and upheld an award of attorney fees and costs against the developer.",
+      significance: "Signals that Hawaii developers who respond to neighbors' zoning or permitting complaints with litigation risk a fee-shifting anti-SLAPP dismissal, and illustrates how a letter to regulators — not any court filing — can be the actual source of a developer's practical exposure (here, a suspended USDA loan).",
+      body: [
+        "A Hawaii appeals court has affirmed the dismissal of a real estate developer's lawsuit against neighboring landowners who wrote a letter opposing the developer's agricultural warehouse project, reinforcing the reach of the state's anti-SLAPP statute and signaling that developers who respond to zoning or permitting criticism with litigation do so at real financial risk. In RCA Trade Center, Inc. v. Hu, 2026 WL 1802987 (Haw. App. June 23, 2026), the Intermediate Court of Appeals upheld a trial court's dismissal of claims brought by RCA Trade Center, Inc. and affiliated entity MP Unit 21, LLC against Wayne and Tara Hu, along with the trial court's award of attorney fees and costs against the developer.",
+        "The underlying dispute centers on a cluster of large agricultural warehouses built within the Marconi Point Condominiums, a roughly 100-acre agricultural condominium project on Oahu's North Shore near Kahuku, developed under the related names Makai Ranch, Marconi Farms, and RCA Trade Center. The Hus, who own a lot within the same agricultural condominium, sent a detailed letter to attorneys representing the project's developer, raising concerns that the warehouses violated agricultural zoning restrictions and permitting requirements and were being put to unauthorized commercial uses. The Hus copied the letter to city, state, and federal agencies. Notably, the letter's circulation to federal regulators coincided with the U.S. Department of Agriculture halting a roughly $7.8 million loan that had backed construction of the warehouses.",
+        "RCA Trade Center and MP Unit 21 sued the Hus in October 2025, and the Hus responded by invoking Hawaii's Uniform Public Expression Protection Act, a relatively new anti-SLAPP statute designed to allow defendants to obtain early dismissal of lawsuits that target speech on matters of public concern. Although the Hus' special motion to dismiss was filed after the statute's normal deadline, the trial court accepted it for good cause related to an insurance-coverage issue and proceeded to the merits. On May 21, 2026, the circuit court entered final judgment granting the motion, finding that the Hus' letter constituted protected speech on a matter of public concern and dismissing RCA's complaint in its entirety. The Intermediate Court of Appeals affirmed that judgment on June 23, 2026, agreeing the letter was protected activity under UPEPA and upholding the fee award against the developer.",
+        "For commercial developers, the case is a pointed illustration of how a state anti-SLAPP statute can reshape the calculus around responding to neighbor or community opposition. Zoning and permitting fights routinely generate pointed correspondence from neighboring property owners to regulators, and it is not unusual for a developer, frustrated by the practical consequences of that correspondence, to consider a defamation or tortious-interference claim against the author. UPEPA and the roughly three dozen similar state anti-SLAPP statutes now on the books are specifically designed to make that response costly: a defendant who successfully invokes the statute is typically entitled not just to dismissal but to an award of the attorney fees and costs incurred defending the suit.",
+        "The decision also underscores that the developer's real exposure here was regulatory, not litigious. It was the Hus' letter to the USDA and other agencies, not any court filing, that triggered the loan suspension that evidently prompted RCA's lawsuit. Suing the letter's authors did nothing to restore the financing and instead added a second, unsuccessful front of litigation and a fee award. Developers on the receiving end of a neighbor's letter to regulators should treat suing over that speech as a last resort rather than a first response, particularly in any anti-SLAPP jurisdiction, and should assess up front whether the complained-of speech addresses a genuine matter of public concern — zoning compliance and permitted land use squarely qualify in most states — since that characterization, far more than the truth or falsity of the underlying claims, tends to decide an anti-SLAPP motion; a regulatory setback like a suspended loan is generally best addressed directly with the agency rather than by pursuing the messenger."
+      ],
+      timeline: [
+        { when: "August 2025", label: "Wayne and Tara Hu send a letter opposing the warehouses to the developer's attorneys and government agencies; USDA halts RCA's construction loan" },
+        { when: "October 2025", label: "RCA Trade Center, Inc. and MP Unit 21, LLC sue the Hus" },
+        { when: "May 21, 2026", label: "Circuit court grants the Hus' special motion to dismiss under Hawaii's UPEPA and awards attorney fees" },
+        { when: "June 23, 2026", label: "Hawaii Intermediate Court of Appeals affirms dismissal and the fee award in RCA Trade Center, Inc. v. Hu", current: true }
+      ],
+      tags: ["anti-slapp", "upepa", "zoning", "agricultural land use", "hawaii"]
+    },
+    {
+      id: "live-069",
+      addedDate: "2026-09-03",
+      title: "In re RealPage, Inc. Rental Software Antitrust Litigation (Equity Residential's $56M Settlement)",
+      category: "landlord-tenant",
+      status: "settled",
+      date: "2026-04-13",
+      jurisdiction: "U.S. District Court, Middle District of Tennessee",
+      state: "TN",
+      amount: "$56M (Equity Residential); $359.925M combined across 37 settling defendants MDL-wide",
+      source: "live",
+      sourceUrl: "https://www.investing.com/news/sec-filings/equity-residential-to-pay-56-million-to-settle-class-action-antitrust-lawsuit-93CH-4616856",
+      summary: "Equity Residential agreed to pay $56 million to resolve its portion of In re: RealPage, Inc., Rental Software Antitrust Litigation (No. II), MDL No. 3071, pending before U.S. District Judge Waverly D. Crenshaw Jr. in the Middle District of Tennessee, disclosed in an April 13, 2026 SEC filing. The settlement is one of 37 reached to date, pushing the MDL's combined settlement value past $359.9 million, with Camden Property Trust and Mid-America Apartment Communities each settling for roughly $53 million. A final fairness hearing is scheduled for October 15, 2026.",
+      significance: "Extends a wave of nine-figure REIT settlements resolving hub-and-spoke antitrust claims over RealPage's algorithmic pricing software, giving other multifamily owners a rough settlement-value benchmark while leaving separate municipal and state algorithmic-pricing bans, which impose standalone statutory liability, unresolved.",
+      body: [
+        "Equity Residential, one of the nation's largest publicly traded multifamily REITs, has agreed to pay $56 million to resolve its portion of the multidistrict antitrust litigation accusing large apartment owners of using RealPage, Inc.'s revenue-management software to coordinate and inflate rents nationwide. The settlement, disclosed in an April 13, 2026 SEC filing, is one of 37 individual settlements reached to date in In re: RealPage, Inc., Rental Software Antitrust Litigation (No. II), MDL No. 3071, pending before U.S. District Judge Waverly D. Crenshaw Jr. in the Middle District of Tennessee, pushing the combined value of settlements in the case past $359.9 million, with a final fairness hearing now scheduled for October 15, 2026.",
+        "The underlying claims, first filed in late 2022 and 2023 and later consolidated into the Nashville MDL, allege that Equity Residential and dozens of other multifamily owners and operators violated Section 1 of the Sherman Act by delegating pricing decisions to RealPage's algorithmic revenue-management software, which the complaints say pooled competitors' non-public rent, occupancy, and lease-renewal data to recommend coordinated pricing across horizontally competing properties. Equity Residential's settlement follows a similar pattern to those reached by fellow REITs Camden Property Trust and Mid-America Apartment Communities, which each agreed to pay approximately $53 million, suggesting settlement values across the largest publicly traded multifamily defendants are converging in a similar general range even as portfolio sizes and market footprints vary.",
+        "In its SEC disclosure, Equity Residential framed the settlement as a business decision rather than an admission of liability, stating that it continues to believe it has numerous factual and legal defenses to the underlying allegations but concluded that resolving the case now avoids the cost, distraction, and legal uncertainty of continuing to litigate a complex antitrust matter through trial. That framing is now standard across the RealPage MDL's growing settlement roster: defendants are paying eight- or nine-figure sums to exit the litigation while explicitly preserving their position that the underlying conduct was lawful, leaving the core legal question of whether software-mediated pricing coordination constitutes an unlawful horizontal conspiracy formally undecided for any defendant that settles rather than litigates to judgment.",
+        "The settlement's mechanics track the structure the court has now approved twice, first for an initial batch of settlements in November 2025 and again for eleven additional agreements, including Equity Residential's, presented for preliminary approval in May 2026. Under that structure, class members — renters at properties owned by settling defendants during the relevant class period — will be eligible for cash payments scaled to how much rent they paid, funded from the aggregate settlement pool once the court grants final approval. That process reaches its critical juncture on October 15, 2026, when Judge Crenshaw will hold a fairness hearing in Nashville to determine whether to grant final approval; distribution to class members will not begin until after final approval is granted and any appeals are resolved.",
+        "For REITs and other institutional multifamily owners that have not yet resolved their own RealPage-related exposure, the growing settlement roster offers a rough valuation benchmark tied to portfolio size and market concentration rather than a uniform formula, and owners should treat it as directional guidance only. It is also worth remembering that a national antitrust settlement resolves conspiracy-based claims alone and does nothing to address the separate, and in some ways more durable, exposure created by city- and state-level algorithmic-pricing bans now in effect in jurisdictions including Philadelphia, San Diego, and New York, which impose standalone statutory liability regardless of any proof of a multi-landlord conspiracy — meaning owners should keep treating vendor-contract and data-sharing practices as a live compliance issue even after resolving MDL exposure, and should confirm whether their properties fall within the settlement class and calendar the October fairness hearing accordingly."
+      ],
+      timeline: [
+        { when: "Late 2022–2023", label: "Individual suits accusing multifamily owners of RealPage-enabled rent coordination are filed and later consolidated into MDL No. 3071" },
+        { when: "November 2025", label: "Court grants preliminary approval to an initial batch of RealPage MDL settlements" },
+        { when: "April 13, 2026", label: "Equity Residential discloses its $56M settlement in an SEC filing", current: true },
+        { when: "May 2026", label: "Court grants preliminary approval to eleven additional settlements, including Equity Residential's" },
+        { when: "October 15, 2026", label: "Final fairness hearing before Judge Waverly D. Crenshaw Jr. in Nashville", upcoming: true }
+      ],
+      judge: "Waverly D. Crenshaw Jr.",
+      tags: ["realpage", "algorithmic pricing", "antitrust", "reit", "mdl settlement"]
     }
   ],
 
@@ -2210,7 +2298,8 @@ const RELAW_DATA = {
     { jurisdiction: "U.S. District Court, Middle District of North Carolina", url: "https://www.ncmd.uscourts.gov/" },
     { jurisdiction: "Suffolk County Superior Court, Massachusetts", url: "https://www.mass.gov/locations/suffolk-county-superior-court" },
     { jurisdiction: "Milwaukee County Circuit Court", url: "https://county.milwaukee.gov/EN/Courts" },
-    { jurisdiction: "Twelfth Judicial Circuit Court, Sarasota County, Florida", url: "https://www.jud12.flcourts.org/" }
+    { jurisdiction: "Twelfth Judicial Circuit Court, Sarasota County, Florida", url: "https://www.jud12.flcourts.org/" },
+    { jurisdiction: "U.S. District Court, Middle District of Tennessee", url: "https://www.tnmd.uscourts.gov/" }
   ],
 
   /* Judges — background on every judge named in our sourced reporting (never
@@ -2386,6 +2475,14 @@ const RELAW_DATA = {
       court: "Twelfth Judicial Circuit Court, Sarasota County, Florida",
       background: "Appointed to the Twelfth Judicial Circuit bench by Governor Rick Scott in 2015 and subsequently elected twice. Previously practiced law in Sarasota, including as senior staff attorney for the Chief Justice of the Florida Supreme Court, and now serves as administrative judge for Sarasota County and for the circuit's civil division.",
       bioUrl: "https://www.jud12.flcourts.org/About/Judges/Biography/judge/hunter-carroll"
+    },
+    {
+      name: "Waverly D. Crenshaw Jr.",
+      slug: "waverly-d-crenshaw-jr",
+      title: "U.S. District Judge",
+      court: "U.S. District Court, Middle District of Tennessee",
+      background: "Nominated by President Obama in February 2015 and confirmed to the federal bench in April 2016, later serving as Chief Judge of the Middle District of Tennessee from 2017 to 2024. Previously practiced law in Nashville after clerking for judges of the Davidson County Chancery Court and the U.S. District Court for the Middle District of Tennessee.",
+      bioUrl: "https://www.fjc.gov/history/judges/crenshaw-waverly-david-jr"
     }
   ],
 
