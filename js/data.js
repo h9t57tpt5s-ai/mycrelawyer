@@ -2096,6 +2096,61 @@ const RELAW_DATA = {
       ],
       judge: "John T. Alexander",
       tags: ["zoning", "data center", "moratorium", "vested rights", "kentucky"]
+    },
+    {
+      id: "live-074",
+      addedDate: "2026-09-04",
+      title: "District of Columbia v. Razjooyan (Federal Civil RICO Suit Strips Landlords of Building Control)",
+      category: "landlord-tenant",
+      status: "ruling",
+      date: "2026-07-17",
+      jurisdiction: "U.S. District Court for the District of Columbia",
+      state: "DC",
+      amount: "$16M+ in allegedly fraudulently obtained housing subsidies across 70+ buildings",
+      source: "live",
+      sourceUrl: "https://oag.dc.gov/release/attorney-general-schwalb-issues-statement-court-0",
+      summary: "The U.S. District Court for the District of Columbia granted a preliminary injunction in District of Columbia v. Razjooyan (No. 1:26-cv-01210), ordering landlords Ali 'Sam' Razjooyan and Houri Razjooyan to install independent, licensed professional management at every building they still control and to fix nearly 200 outstanding housing code violations across five properties within 21 days. The order escalates a civil RICO, consumer-protection, and false-claims case D.C. Attorney General Brian L. Schwalb's office filed against the family over an alleged decade-long scheme spanning more than 70 mostly rent-controlled apartment buildings.",
+      significance: "Shows regulators pairing racketeering and false-claims theories, which carry personal liability for the individuals controlling ownership entities, with a receivership-style operational takeover that displaces an owner from day-to-day control before final judgment. Owners and lenders in subsidized or rent-controlled multifamily housing should treat habitability certifications made to housing agencies and lenders as carrying meaningful fraud exposure, not just program-compliance risk.",
+      body: [
+        "A federal judge's order stripping a Washington, D.C. landlord family of operational control over its remaining apartment buildings is emerging as one of the most consequential housing-enforcement actions in the District's recent history, and a template other jurisdictions are likely to study as they look for tools to move faster against owners who let distressed multifamily portfolios decay. On July 17, 2026, the U.S. District Court for the District of Columbia granted a preliminary injunction in District of Columbia v. Razjooyan, No. 1:26-cv-01210, ordering Ali 'Sam' Razjooyan and his mother, Houri Razjooyan, to install an independent, licensed property management company at every building they still control and to correct, within 21 days, nearly 200 outstanding violations of the District's Housing and Property Maintenance Code across five properties, including buildings on 48th Street NE, B Street SE, and Langston Place SE.",
+        "The injunction is the latest escalation in a case D.C. Attorney General Brian L. Schwalb's office first brought in February 2026, when it filed a sweeping civil complaint accusing Sam Razjooyan, his brother Eimon 'Ray' Razjooyan, and their mother of running a decade-long Ponzi-like real estate scheme across more than 70 apartment buildings, the large majority of them rent-controlled. The office subsequently pursued civil racketeering claims against the family in federal court, alleging violations of the Racketeer Influenced and Corrupt Organizations Act alongside the District's Consumer Protection Procedures Act and False Claims Act. According to the government's filings, the Razjooyans built their portfolio by acquiring distressed but habitable buildings, telling construction lenders they intended to renovate them, completing only nominal repairs, and then using the resulting loan proceeds, along with more than $16 million in housing-subsidy payments the office alleges were obtained through false certifications that the units were safe and habitable, to fund the acquisition of still more properties. City inspectors have documented roughly 4,000 housing code violations across the family's holdings, and tenants have described conditions including sustained heat outages during winter months, electrical fires traced to faulty wiring, and pervasive mold and pest infestations.",
+        "The July 17 order granting the preliminary injunction found that conditions at the five remaining properties under the Razjooyans' direct control had continued to deteriorate even after the litigation was filed, and that the family had shown an unwillingness or inability to manage the buildings safely on their own. Rather than simply ordering repairs on a compliance timeline, as many code-enforcement actions do, the court's remedy displaces the owners from day-to-day control entirely: an independent, licensed management company must now take over maintenance, tenant communications, and operations at each affected building while the underlying racketeering and fraud claims proceed toward trial.",
+        "The case illustrates a shift in how aggressively government enforcers are willing to move against multifamily owners whose portfolios pose an ongoing habitability risk, reaching for tools, civil RICO and false-claims liability, historically associated with financial fraud rather than routine landlord-tenant disputes. For institutional owners, lenders, and asset managers, the significance lies less in the extreme facts of this particular case than in the legal architecture the government used to get there: pairing a receivership-style operational takeover with racketeering claims against the individuals who controlled the ownership entities, rather than confining liability to the property-owning LLCs themselves. That combination increases both the speed at which a court can intervene and the personal exposure facing principals of thinly capitalized ownership structures.",
+        "The case also underscores the compounding risk that housing-subsidy programs create for owners who cut corners on maintenance. Because the government's fraud and false-claims theories rest substantially on the allegation that the Razjooyans certified their units as safe and habitable in order to keep subsidy payments flowing, any owner participating in project-based or tenant-based subsidy programs should treat inspection certifications and habitability representations to housing agencies as documents carrying meaningful legal exposure beyond simple program compliance. Lenders financing renovation or acquisition loans secured by distressed multifamily assets should take a similar lesson: the government's theory treats a lender's renovation-scope financing, obtained on the strength of representations about planned repairs that were never substantially completed, as part of the alleged fraud's funding mechanism. Taken together, owners of rent-controlled or subsidized portfolios should treat unresolved code violations as rapidly compounding legal exposure rather than routine administrative matters, verify that every habitability representation made to an agency or lender matches the property's actual condition, and recognize that courts are willing to order an operational takeover well before a case reaches final judgment, making early remediation and transparent recordkeeping the far more defensible course."
+      ],
+      timeline: [
+        { when: "February 2026", label: "D.C. Attorney General Brian L. Schwalb files a civil RICO and consumer-protection complaint against the Razjooyan family" },
+        { when: "July 17, 2026", label: "U.S. District Court for the District of Columbia grants a preliminary injunction ordering professional management and repairs", current: true }
+      ],
+      tags: ["rico", "housing code violations", "receivership", "consumer protection", "washington dc"]
+    },
+    {
+      id: "live-075",
+      addedDate: "2026-09-04",
+      title: "Kosel Equity, LLC v. MacGregor (Fair Rent Commission Intervention in Eviction Actions)",
+      category: "landlord-tenant",
+      status: "ruling",
+      date: "2026-06-09",
+      jurisdiction: "Connecticut Supreme Court",
+      state: "CT",
+      amount: "No monetary damages; procedural intervention and injunctive enforcement dispute",
+      source: "live",
+      sourceUrl: "https://www.law360.com/real-estate-authority/residential/articles/2493897/conn-justices-say-local-rent-board-can-enter-eviction-fight",
+      summary: "The Connecticut Supreme Court unanimously held in Kosel Equity, LLC v. MacGregor, decided alongside companion case TOV Realty, LLC v. Suarez, that a municipal fair rent commission may intervene as a party in a pending Superior Court eviction action to enforce its own cease-and-desist order after finding the landlord retaliated against a tenant's fair rent complaint. Justice Ecker authored the opinion, rejecting the landlord's argument that the commission had no cognizable interest in a private eviction proceeding.",
+      significance: "Closes a procedural gap landlords had used to press forward with eviction cases in Superior Court notwithstanding an adverse fair rent commission order, giving commissions statewide a direct vehicle to appear in eviction litigation and enforce retaliation findings rather than relying solely on a separate administrative track.",
+      body: [
+        "The Connecticut Supreme Court has resolved a procedural question that had quietly shaped landlord-tenant litigation strategy across the state for years: whether a municipal fair rent commission, after finding that a landlord retaliated against a tenant, has any standing to step into that landlord's separate eviction case in Superior Court to make sure its own order actually sticks. In a unanimous decision issued June 9, 2026 in Kosel Equity, LLC v. MacGregor, authored by Justice Ecker, the court held that a fair rent commission has a sufficient statutory interest to intervene as a party in a pending summary process action when the commission has already found retaliation and ordered the landlord to cease pursuing eviction. The ruling, decided alongside a companion case, TOV Realty, LLC v. Suarez, closes off a strategy some landlords had used to press forward with eviction proceedings in Superior Court even after a local rent board had ordered them to stop.",
+        "The case traces back to a dispute between landlord Kosel Equity, LLC and tenant Mark MacGregor. The lease set monthly rent at $1,500, but the parties separately agreed, through a concession addendum, that the tenant would pay $1,175 for the lease term. MacGregor filed a complaint with his municipality's fair rent commission, and on May 14, 2025, within six months of that filing, Kosel Equity served him with a notice to quit, citing nonpayment of rent as one basis for eviction and stating that any rent tendered after the notice would not be accepted. Connecticut law, at General Statutes section 47a-20, creates a presumption that an eviction notice served within six months of a tenant's fair rent complaint is retaliatory, and the commission ultimately found that presumption was not rebutted here. It ordered Kosel Equity to cease and desist from pursuing the eviction and to accept the lower, concession-addendum rent amount while the tenant's complaint remained pending.",
+        "The dispute that reached the Supreme Court was not about the merits of the retaliation finding itself, but about what happens next: when a landlord presses forward with a Superior Court eviction case notwithstanding a commission's cease-and-desist order, does the commission have any standing to intervene in that separate court proceeding to enforce its own order, or is it limited to whatever separate administrative appeal process exists? The trial court had permitted the commission to intervene as a party in the summary process action, and Kosel Equity appealed, arguing the commission had no cognizable legal interest in a private eviction case between a landlord and a tenant. The Supreme Court disagreed, holding that a fair rent commission has a clear and direct interest in seeing its own enforcement orders respected, and that permissive intervention was well within the trial court's discretion given that the same landlord, tenant, and premises were the subject of both the pending eviction action and the commission's administrative proceeding.",
+        "For landlords and property managers operating rental portfolios in Connecticut's more than 30 municipalities with active fair rent commissions, the ruling meaningfully changes the practical stakes of proceeding with an eviction after a rent board has issued an adverse order. Before this decision, a landlord in Kosel Equity's position could argue, with some plausibility, that a fair rent commission was a stranger to the separate judicial eviction proceeding and had no direct way to appear and object if the landlord simply pressed ahead in Superior Court. The Supreme Court's ruling forecloses that argument going forward, giving commissions a clear procedural vehicle to appear directly in a pending eviction case, raise the retaliation finding, and ask the court to enforce the commission's own cease-and-desist order rather than requiring the tenant alone to shoulder that burden. The decision is also notable for what it signals about how Connecticut courts intend to treat the interplay between local rent regulation and state eviction procedure more broadly: by deciding this case alongside a companion appeal involving a different landlord and commission, the court made clear it was resolving a general rule of civil procedure rather than a one-off dispute.",
+        "Landlords who receive an adverse fair rent commission ruling, particularly a cease-and-desist order tied to a retaliation finding, should now assume the commission can appear directly in any related Superior Court eviction action rather than being confined to a separate administrative track, and should factor that into whether to proceed with the eviction at all. Property owners and managers should review notice-to-quit timing against the six-month retaliation presumption in Connecticut General Statutes section 47a-20 before serving any notice on a tenant who has a pending or recently resolved fair rent complaint, since that timing alone can trigger a presumption the landlord must then rebut. Portfolio owners operating across multiple Connecticut municipalities should build a coordination protocol between eviction counsel and any pending fair rent proceedings on the same unit, so that a commission order is addressed head-on rather than risking a later intervention motion that reshapes the litigation mid-stream."
+      ],
+      timeline: [
+        { when: "May 14, 2025", label: "Kosel Equity serves a notice to quit within six months of the tenant's fair rent commission complaint" },
+        { when: "June 9, 2026", label: "Connecticut Supreme Court unanimously holds fair rent commissions may intervene in eviction actions", current: true }
+      ],
+      judge: "Steven D. Ecker",
+      tags: ["fair rent commission", "eviction", "retaliation", "landlord-tenant", "connecticut"]
     }
   ],
 
@@ -2417,7 +2472,8 @@ const RELAW_DATA = {
     { jurisdiction: "Suffolk County Superior Court, Massachusetts", url: "https://www.mass.gov/locations/suffolk-county-superior-court" },
     { jurisdiction: "Milwaukee County Circuit Court", url: "https://county.milwaukee.gov/EN/Courts" },
     { jurisdiction: "Twelfth Judicial Circuit Court, Sarasota County, Florida", url: "https://www.jud12.flcourts.org/" },
-    { jurisdiction: "U.S. District Court, Middle District of Tennessee", url: "https://www.tnmd.uscourts.gov/" }
+    { jurisdiction: "U.S. District Court, Middle District of Tennessee", url: "https://www.tnmd.uscourts.gov/" },
+    { jurisdiction: "Connecticut Supreme Court", url: "https://www.jud.ct.gov/external/supapp/" }
   ],
 
   /* Judges — background on every judge named in our sourced reporting (never
@@ -2601,6 +2657,14 @@ const RELAW_DATA = {
       court: "U.S. District Court, Middle District of Tennessee",
       background: "Nominated by President Obama in February 2015 and confirmed to the federal bench in April 2016, later serving as Chief Judge of the Middle District of Tennessee from 2017 to 2024. Previously practiced law in Nashville after clerking for judges of the Davidson County Chancery Court and the U.S. District Court for the Middle District of Tennessee.",
       bioUrl: "https://www.fjc.gov/history/judges/crenshaw-waverly-david-jr"
+    },
+    {
+      name: "Steven D. Ecker",
+      slug: "steven-d-ecker",
+      title: "Associate Justice, Connecticut Supreme Court",
+      court: "Connecticut Supreme Court",
+      background: "Nominated by Governor Dannel Malloy and confirmed as an Associate Justice of the Connecticut Supreme Court in 2018, after previously serving as a judge of the Connecticut Superior Court and in private practice as a litigator in Hartford.",
+      bioUrl: "https://www.jud.ct.gov/external/supapp/justiceEcker.html"
     }
   ],
 
