@@ -16,7 +16,7 @@ const RELAW_DATA = {
      Drives the homepage's "New Today" pill: it only shows when this
      equals the visitor's local today. Updated by the digest automation
      each time Step 4 successfully adds a case — never touched otherwise. */
-  lastUpdatedDate: "2026-09-03",
+  lastUpdatedDate: "2026-09-04",
   categories: [
     { id: "landlord-tenant", label: "Landlord–Tenant", color: "var(--cat-landlord)" },
     { id: "zoning-land-use", label: "Zoning & Land Use", color: "var(--cat-zoning)" },
@@ -2035,6 +2035,67 @@ const RELAW_DATA = {
         { when: "April 2026", label: "SitusAMC files a foreclosure suit and moves to appoint Hilco's Matthew Mason as receiver", current: true }
       ],
       tags: ["foreclosure", "receivership", "special servicer", "chicago office", "cmbs"]
+    },
+    {
+      id: "live-072",
+      addedDate: "2026-09-04",
+      title: "Coyote Springs Investment, LLC v. State of Nevada (Regulatory Takings Trial Over Groundwater Curtailment)",
+      category: "eminent-domain",
+      status: "pending",
+      date: "2026-07-08",
+      jurisdiction: "Eighth Judicial District Court, Clark County, Nevada (Business Court, Department XIII)",
+      state: "NV",
+      amount: "$1.5 billion+ sought, potentially exceeding $2 billion in phase-two damages",
+      source: "live",
+      sourceUrl: "https://www.reviewjournal.com/news/civil-courts/taxpayers-on-the-hook-developers-seek-billions-over-failed-southern-nevada-city-3849248/",
+      summary: "Coyote Springs Investment, LLC, controlled by California's Seeno family, is trying its regulatory-takings claim against the State of Nevada in a bench trial before Judge Mark R. Denton, alleging the State Engineer's curtailment of groundwater pumping rights destroyed the value of a planned 43,000-home master community roughly 50 miles north of Las Vegas. The first, judge-only phase of the trial began July 8, 2026 and is expected to last months, with a jury to decide damages in a second phase if the developer prevails.",
+      significance: "A ruling for the developer would validate takings liability for a state water regulator's ordinary curtailment authority whenever it forecloses a project's economic use, a precedent with sweeping implications for any Western jurisdiction managing over-appropriated groundwater basins amid drought and rising demand from housing and data centers alike.",
+      body: [
+        "A trial now underway in the Eighth Judicial District Court in Las Vegas may reset the boundaries of Nevada's authority to regulate groundwater across the state, with direct consequences for developers, lenders, and investors whose real estate underwriting depends on water availability. Coyote Springs Investment, LLC, the entity controlled by California's Seeno family, is seeking more than $1.5 billion, and potentially upward of $2 billion once damages are calculated, from the State of Nevada over the State Engineer's curtailment of groundwater pumping rights that the developer says destroyed the value of a planned 43,000-home city roughly 50 miles north of Las Vegas.",
+        "The case, which originated in 2020 and was later remanded from federal court to Clark County District Court, went to trial on July 8, 2026, before Judge Mark R. Denton, one of five judges assigned to the court's specialized Business Court docket. The trial's first phase is a bench trial, judge only, expected to run for months given the volume of expert hydrological and valuation testimony involved. If Judge Denton finds the state's actions amounted to an unlawful taking or breach of the developer's water rights, a second phase before a jury would then determine damages, a sum plaintiffs' counsel and independent analysts alike have suggested could run into the billions and fall on Nevada taxpayers.",
+        "Coyote Springs was conceived in the early 2000s as a self-contained master-planned community spanning roughly 43,000 acres of desert land straddling Clark and Lincoln counties, with plans for tens of thousands of homes, golf courses, and commercial development anchored by rights to pump groundwater from the Coyote Springs Valley and neighboring hydrographic basins. Over the following two decades, the Nevada State Engineer moved to limit and ultimately curtail pumping in the basin, citing evidence that withdrawals at the levels contemplated by Coyote Springs and other users would draw down the aquifer beyond sustainable yield and threaten senior water rights, including environmental flows protecting the endangered Moapa dace. Coyote Springs Investment contends the curtailment went well beyond routine water-law administration and instead amounted to a regulatory taking, destroying hundreds of millions of dollars the developer had invested in infrastructure, entitlements, and land acquisition without just compensation. Nevada's defense rests on the State Engineer's core statutory mandate to manage a scarce, over-appropriated resource for the long-term benefit of all basin water users.",
+        "Water availability is normally treated as a due-diligence checkbox in Southwestern land deals rather than a live litigation exposure, but this case argues otherwise. A ruling for the developer would validate a legal theory that a state water regulator's exercise of its ordinary curtailment authority can itself trigger takings liability when it forecloses a project's economic use, a precedent that would reverberate well beyond Nevada in every arid Western jurisdiction managing over-appropriated basins amid worsening drought and rising demand from residential growth, agriculture, and increasingly water-intensive data centers. A ruling for the state, conversely, would reaffirm that developers bear the risk of regulatory tightening on water rights much as they do zoning changes.",
+        "Lenders financing land-banking and master-planned community deals contingent on water certificates, title insurers pricing water-rights exceptions, and REITs or private equity sponsors underwriting large-scale Western land plays should treat this as a live exposure rather than a settled assumption. Developers and lenders underwriting land deals in water-scarce Western states should stress-test project valuations against the possibility of future regulatory tightening, since a ruling establishing that lawful curtailment can constitute a compensable taking would materially raise litigation and settlement leverage for developers facing similar setbacks in over-appropriated basins nationwide; because the bench-trial phase has no fixed end date, parties to comparable water-dependent transactions, and title insurers and diligence counsel drafting water-rights disclosures on Southwestern land deals, should watch its outcome closely before finalizing long-term underwriting assumptions."
+      ],
+      timeline: [
+        { when: "Early 2000s", label: "Coyote Springs master-planned community is conceived on ~43,000 acres north of Las Vegas" },
+        { when: "2020", label: "Coyote Springs Investment sues the State of Nevada over water-rights curtailment" },
+        { when: "July 8, 2026", label: "Bench trial begins in Clark County District Court before Judge Mark R. Denton", current: true },
+        { when: "TBD", label: "If the developer prevails in phase one, a jury trial on damages would follow", upcoming: true }
+      ],
+      judge: "Mark R. Denton",
+      tags: ["water rights", "regulatory takings", "eminent domain", "land development", "nevada"]
+    },
+    {
+      id: "live-073",
+      addedDate: "2026-09-04",
+      title: "Kentucky Industrial Alliance LLC v. City of Cave City (Data Center Moratorium and Annexation Challenge)",
+      category: "zoning-land-use",
+      status: "pending",
+      date: "2026-08-24",
+      jurisdiction: "Barren Circuit Court, Kentucky (43rd Judicial Circuit)",
+      state: "KY",
+      amount: "Declaratory and injunctive relief sought; underlying project spans 380-600+ acres (non-monetary claim)",
+      source: "live",
+      sourceUrl: "https://bgdailynews.com/2026/08/27/barren-data-center-suits-proceed/",
+      summary: "Kentucky Industrial Alliance LLC's two lawsuits challenging Cave City's 12-month moratorium on data-center development, enacted days after the company applied to build a large campus near Mammoth Cave, have been consolidated before Judge John T. Alexander. The court will first decide whether the developer's land was ever validly annexed into Cave City before reaching the underlying vested-rights dispute over whether the moratorium can lawfully apply to the project.",
+      significance: "Tests two litigation theories now recurring nationwide as municipalities respond to data-center development with emergency moratoria: whether a pre-moratorium application vests a developer's rights under prior zoning, and whether a project's annexation status can independently defeat a municipality's zoning authority regardless of the vested-rights merits.",
+      body: [
+        "A zoning dispute over a proposed gigawatt-scale data center campus near Mammoth Cave National Park has become one of the more closely watched test cases in the fast-growing wave of local moratoria aimed at data center development, and a procedural ruling handed down in August 2026 has reshaped how it will be decided. In Barren Circuit Court, Judge John T. Alexander agreed to consolidate two lawsuits filed by Kentucky Industrial Alliance LLC against the City of Cave City, its council, and the Cave City-Barren County Joint Planning Commission, and to resolve a threshold question, whether the developer's land was ever properly annexed into city limits, before reaching the merits of whether Cave City's 12-month data-center moratorium can lawfully block the project.",
+        "Kentucky Industrial Alliance LLC owns more than 600 acres in and around Cave City, a small tourism-dependent city in south-central Kentucky best known as a gateway to Mammoth Cave. On May 11, 2026, the company submitted an application to the Cave City-Barren County Joint Planning Commission proposing a large-scale data center project on roughly 380 acres along Doyle Avenue. Cave City's council responded by convening two special meetings, on May 18 and May 20, and enacting a 12-month moratorium on new data-center development within city limits, citing the need to study infrastructure, water, power, and land-use implications before permitting more such facilities.",
+        "Kentucky Industrial Alliance filed suit on June 8, arguing that its May 11 application predated the moratorium and should therefore be reviewed under the zoning regulations in effect at the time of filing, a vested-rights theory common in land-use litigation under which a landowner who submits a complete, compliant application before a new restriction takes effect is entitled to have that application judged under the old rules. The company asked the court to declare the moratorium unlawful as applied to its project. Cave City moved to dismiss, countering that the May 11 submission was only a two-page form lacking the development plan, engineering drawings, and other materials the planning ordinance requires for an application to be considered complete, meaning, in the city's view, no genuine application existed before the moratorium took effect. A second, related suit followed, and in August the parties agreed to consolidate both cases and litigate the annexation question first, since an invalid annexation would mean the moratorium ordinance never reached the property regardless of how the vested-rights dispute is resolved. Discovery on that threshold question is now underway, with a status conference set for November 2026.",
+        "Cave City is a small jurisdiction, but the legal mechanics being tested here are the same ones playing out in dozens of communities nationwide as data center developers race to lock up land and power capacity ahead of local moratoria and restrictive zoning ordinances. The vested-rights question, whether a project submitted before a moratorium is grandfathered under prior zoning, is emerging as a central battleground in this litigation wave, and how courts define a complete application before a cutoff date will materially affect how developers structure and time entitlement filings going forward. The annexation twist adds a largely independent layer of risk: a project's underlying jurisdictional status can determine the outcome of a zoning fight even before the vested-rights merits are reached, an issue diligence teams do not always scrutinize as closely as zoning classification itself.",
+        "For developers, lenders, and infrastructure investors pursuing large-footprint projects, data centers prominently among them but with the same dynamics applying to industrial and logistics campuses, the case underscores that developers filing ahead of anticipated moratoria should ensure their submission meets every element of a complete application, since incompleteness is the most common basis municipalities use to argue vested rights never attached. Diligence teams should independently confirm a property's annexation history and jurisdictional status rather than assuming municipal boundaries as depicted are legally sound, and because threshold procedural issues like annexation can resolve a case without ever reaching the substantive merits, parties to comparable disputes should weigh jurisdictional and procedural defenses early rather than concentrating litigation strategy solely on zoning arguments; more broadly, the nationwide rise of local data-center moratoria means developers in this sector should build entitlement-timeline litigation risk into project underwriting and financing milestones from the outset."
+      ],
+      timeline: [
+        { when: "May 11, 2026", label: "Kentucky Industrial Alliance applies to develop a data center campus on Doyle Avenue" },
+        { when: "May 18-20, 2026", label: "Cave City holds special meetings and enacts a 12-month data-center moratorium" },
+        { when: "June 8, 2026", label: "Kentucky Industrial Alliance sues, arguing its application vested rights under prior zoning" },
+        { when: "August 24, 2026", label: "The two suits are consolidated before Judge John T. Alexander, who will decide annexation first", current: true },
+        { when: "November 2026", label: "Status conference set to determine a briefing schedule on the annexation issue", upcoming: true }
+      ],
+      judge: "John T. Alexander",
+      tags: ["zoning", "data center", "moratorium", "vested rights", "kentucky"]
     }
   ],
 
