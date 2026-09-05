@@ -2208,6 +2208,63 @@ const RELAW_DATA = {
       ],
       judge: "Kenneth W. Salinger",
       tags: ["reit merger", "unregistered broker", "success fee", "securities exchange act", "massachusetts"]
+    },
+    {
+      id: "live-078",
+      addedDate: "2026-09-05",
+      title: "Stines v. PrimeBlock Operations, LLC (Data Center Noise Nuisance Remand Fight)",
+      category: "environmental",
+      status: "pending",
+      date: "2026-09-02",
+      jurisdiction: "U.S. District Court, Western District of North Carolina",
+      state: "NC",
+      amount: "Proposed class of ~1,000 property owners; damages pled below federal CAFA threshold",
+      source: "live",
+      sourceUrl: "https://www.law360.com/real-estate-authority/residential/articles/2520088",
+      summary: "Residents Judith Stines and William Huffman filed a proposed class action against PrimeBlock Operations, LLC and affiliates Exponential Digital LLC and Innotech Z Inc., alleging unabated noise from a cryptocurrency-mining and AI data center near Murphy, North Carolina has substantially interfered with the use and enjoyment of roughly 1,000 nearby properties since the facility began operating in September 2021. After the case was removed to federal court, the plaintiffs moved on September 2, 2026 to remand it to state court, arguing their damages fall short of the amount-in-controversy threshold required for federal jurisdiction.",
+      significance: "Data centers and crypto-mining facilities are being sited at a pace that increasingly collides with existing rural and residential land uses, and this case shows neighboring property owners turning to common-law nuisance theories rather than waiting on local noise ordinances alone. The forum fight also illustrates how a class action's damages framing can be calibrated specifically to keep — or remove — a case from federal court before the merits are ever reached.",
+      body: [
+        "A proposed class action over noise from a cryptocurrency-mining and artificial-intelligence data center in rural Cherokee County, North Carolina has turned into a fight over which court gets to hear it, in a dispute that will help define how commercial data-center operators and their neighbors litigate nuisance claims as the industry's physical footprint keeps expanding into residential and rural areas. Residents Judith Stines and William Huffman sued PrimeBlock Operations, LLC, a California-based bitcoin-mining company, along with affiliated entities Exponential Digital LLC and Innotech Z Inc., alleging the roughly three-acre facility near Harshaw Road outside Murphy has generated continuous, unabated noise from its servers, generators, and industrial cooling systems since it began operating in September 2021.",
+        "According to the complaint, sound-level readings near affected properties have ranged from 55 to 85 decibels depending on weather conditions, and neighbors describe the noise not primarily by its volume but by its constancy — one resident likened it to a small jet that never leaves. Stines and Huffman are seeking to represent a class of property owners and residents within a two-mile radius of the facility, a group the complaint estimates at nearly 1,000 people, on the theory that the defendants have declined to invest in basic noise-abatement measures despite years of documented complaints.",
+        "The case was removed from state court to the U.S. District Court for the Western District of North Carolina, and the plaintiffs have since moved to send it back, arguing on September 2, 2026 that the damages actually at stake fall short of the amount-in-controversy threshold required to keep a proposed class action in federal court under the Class Action Fairness Act. That threshold fight is not a technicality so much as a proxy battle over venue advantage: state courts in rural counties are often viewed as more receptive to local nuisance and property-value claims, while federal court offers a defendant more predictable procedural rules and, in a CAFA-eligible case, more rigorous scrutiny of aggregate class damages before certification. How a plaintiff frames its damages ask at the outset of a nuisance class action can therefore be less about maximizing recovery and more about controlling where the case gets decided.",
+        "The dispute also highlights a gap between regulatory compliance and common-law liability that matters well beyond this one facility. Murphy and other municipalities that have seen mining or data-center noise complaints have responded by adopting new local noise ordinances, but satisfying a decibel limit measured at a property line does not resolve whether an operation's ongoing noise substantially and unreasonably interferes with a neighbor's use and enjoyment of their own property under common-law nuisance doctrine. A facility can be fully compliant with an applicable ordinance and still face a viable nuisance claim, because the two legal standards ask different questions and are enforced through entirely different mechanisms — one through code enforcement, the other through private civil litigation.",
+        "For developers, operators, and lenders financing data centers, crypto-mining facilities, and similar high-density industrial infrastructure, the case is a reminder that community noise complaints sustained over several years can mature into class-scale civil exposure well before any regulator acts, and that removal to federal court is a strategic choice with real downside if a remand motion succeeds after months of litigation have already been spent contesting the forum rather than the merits. Site-selection and community-relations diligence for this asset class increasingly needs to account for nuisance litigation risk with the same rigor traditionally reserved for zoning and permitting review."
+      ],
+      timeline: [
+        { when: "September 2021", label: "PrimeBlock's cryptocurrency-mining and AI data center begins operating near Murphy, North Carolina" },
+        { when: "July 24, 2026", label: "Stines and Huffman file a proposed class action alleging unabated facility noise" },
+        { when: "September 2, 2026", label: "Plaintiffs move to remand the removed case back to North Carolina state court", current: true }
+      ],
+      tags: ["data center", "nuisance", "class action", "remand", "north carolina"]
+    },
+    {
+      id: "live-079",
+      addedDate: "2026-09-05",
+      title: "Mitchell v. McCormack Baron Salazar, Inc. (Mirasol Village Legacy Pesticide Contamination Suit)",
+      category: "environmental",
+      status: "pending",
+      date: "2025-04-01",
+      jurisdiction: "Sacramento County Superior Court, California",
+      state: "CA",
+      amount: "$9.5M sought; ~$1M initial business investment alleged destroyed",
+      source: "live",
+      sourceUrl: "https://natlawreview.com/press-releases/entrepreneurs-1-million-investment-destroyed-redevelopment-dust-95m-lawsuit",
+      summary: "Betty Mitchell, through her indoor cannabis cultivation company Liveade Wellness Inc., sued developer McCormack Baron Salazar, Inc. and contractors A. Teichert & Son, Inc. and Midstate Construction Corporation, alleging construction dust from the neighboring Mirasol Village redevelopment carried legacy chlordane pesticide contamination onto her property and destroyed her business. Sacramento County Superior Court Judge Richard K. Sueyoshi has issued rulings in recent weeks allowing Mitchell's negligence, fraud, and punitive-damages claims to proceed toward discovery.",
+      significance: "The case tests how far liability for legacy soil contamination on a redevelopment site can extend to neighboring businesses with no ownership stake or contractual relationship to the project, and the court's decision to let fraud and punitive-damages theories proceed — not just negligence — signals a fact pattern courts may view as more than ordinary construction carelessness. Developers and contractors on brownfield or formerly-contaminated sites should treat this as a warning about off-site migration exposure distinct from their on-site regulatory obligations.",
+      body: [
+        "A Sacramento County Superior Court judge has cleared the way for a neighboring business owner to pursue negligence, fraud, and punitive-damages claims against the developer and contractors behind the Mirasol Village redevelopment, in a case testing how far liability for legacy soil contamination can travel beyond a project's own boundaries. Betty Mitchell operated an indoor cannabis cultivation company, Liveade Wellness Inc., near the site of Mirasol Village, the master-planned redevelopment of the former Twin Rivers public housing project in Sacramento's River District. Mitchell alleges her cultivation operation tested positive for chlordane, a synthetic pesticide the federal government banned in 1988, despite the fact that she says the chemical was never used, stored, or introduced anywhere on her own property.",
+        "Mirasol Village is being developed by McCormack Baron Salazar, Inc., a national affordable-housing developer, together with general contractor A. Teichert & Son, Inc. and site contractor Midstate Construction Corporation. The contamination history at the site predates the current dispute: a March 4, 2020 letter from the California Department of Toxic Substances Control identified organochlorine pesticides, including chlordane, as chemicals of concern at the property and called for additional environmental investigation. Mitchell's complaint, filed in April 2025, alleges that dust generated during the redevelopment's construction activity carried that legacy contamination beyond the project boundary and into her nearby facility, ultimately rendering her cultivation operation's product unsellable and destroying a business she says she had invested nearly $1 million to build.",
+        "What distinguishes this case from a routine construction-dust complaint is which claims survived the defendants' effort to dismiss it. A negligence theory, alleging inadequate dust and soil containment during construction, is a familiar fact pattern in environmental liability litigation involving redevelopment sites. Judge Sueyoshi's rulings, however, also allowed Mitchell's fraud and punitive-damages claims to proceed, meaning the court found she had pled facts capable of supporting an inference of conduct beyond ordinary carelessness. Punitive damages against a development team require a considerably higher showing — something closer to conscious disregard of a known risk — and a court's willingness to let such a claim clear the pleading stage is itself a meaningful signal about how the underlying facts are being read at this early stage.",
+        "The case sits at the intersection of two problems increasingly common as cities redevelop aging public housing, industrial, and agricultural parcels: legacy contamination that predates current ownership by decades, and the reality that construction dust and disturbed soil do not respect parcel lines. Developers typically manage their own on-site environmental exposure through Phase I/II assessments, regulatory oversight agreements, and contractual risk allocation with their construction team. Managing liability to an unrelated, neighboring business with no contractual relationship to the project at all is a different and less familiar problem, and this case puts it squarely at issue.",
+        "The prior DTSC notice is likely to loom large as the case proceeds. Because regulators had already flagged organochlorine pesticides as a chemical of concern at the site years before construction began, Mitchell's claims are positioned to argue the defendants had specific, documented notice of the contamination risk rather than encountering it as a surprise during construction — a fact pattern that tends to strengthen a negligence claim and can support the kind of knowing-disregard theory a punitive-damages claim requires."
+      ],
+      timeline: [
+        { when: "March 4, 2020", label: "California DTSC letter identifies organochlorine pesticides, including chlordane, as chemicals of concern at the Mirasol Village site" },
+        { when: "April 2025", label: "Betty Mitchell, through Liveade Wellness Inc., files suit against McCormack Baron Salazar, A. Teichert & Son, and Midstate Construction" },
+        { when: "August 2026", label: "Judge Richard K. Sueyoshi issues rulings allowing Mitchell's negligence, fraud, and punitive-damages claims to proceed", current: true }
+      ],
+      judge: "Richard K. Sueyoshi",
+      tags: ["environmental contamination", "construction dust", "punitive damages", "redevelopment", "california"]
     }
   ],
 
@@ -2530,7 +2587,9 @@ const RELAW_DATA = {
     { jurisdiction: "Milwaukee County Circuit Court", url: "https://county.milwaukee.gov/EN/Courts" },
     { jurisdiction: "Twelfth Judicial Circuit Court, Sarasota County, Florida", url: "https://www.jud12.flcourts.org/" },
     { jurisdiction: "U.S. District Court, Middle District of Tennessee", url: "https://www.tnmd.uscourts.gov/" },
-    { jurisdiction: "Connecticut Supreme Court", url: "https://www.jud.ct.gov/external/supapp/" }
+    { jurisdiction: "Connecticut Supreme Court", url: "https://www.jud.ct.gov/external/supapp/" },
+    { jurisdiction: "U.S. District Court, Western District of North Carolina", url: "https://www.ncwd.uscourts.gov/" },
+    { jurisdiction: "Sacramento County Superior Court, California", url: "https://www.saccourt.ca.gov/" }
   ],
 
   /* Judges — background on every judge named in our sourced reporting (never
@@ -2722,6 +2781,14 @@ const RELAW_DATA = {
       court: "Connecticut Supreme Court",
       background: "Nominated by Governor Dannel Malloy and confirmed as an Associate Justice of the Connecticut Supreme Court in 2018, after previously serving as a judge of the Connecticut Superior Court and in private practice as a litigator in Hartford.",
       bioUrl: "https://www.jud.ct.gov/external/supapp/justiceEcker.html"
+    },
+    {
+      name: "Richard K. Sueyoshi",
+      slug: "richard-k-sueyoshi",
+      title: "Judge, Sacramento County Superior Court",
+      court: "Sacramento County Superior Court, California",
+      background: "Appointed to the Sacramento County Superior Court bench by Governor Arnold Schwarzenegger in September 2009. Previously a partner at Downey Brand LLP in Sacramento, practicing business and commercial litigation. Now serves as Supervising Judge of the court's Civil Division and presides over its Complex Civil Case Management department.",
+      bioUrl: "https://www.saccourt.ca.gov/civil/docs/cv-department-53.pdf"
     }
   ],
 
