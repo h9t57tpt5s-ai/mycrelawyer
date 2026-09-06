@@ -16,7 +16,7 @@ const RELAW_DATA = {
      Drives the homepage's "New Today" pill: it only shows when this
      equals the visitor's local today. Updated by the digest automation
      each time Step 4 successfully adds a case — never touched otherwise. */
-  lastUpdatedDate: "2026-09-05",
+  lastUpdatedDate: "2026-09-06",
   categories: [
     { id: "landlord-tenant", label: "Landlord–Tenant", color: "var(--cat-landlord)" },
     { id: "zoning-land-use", label: "Zoning & Land Use", color: "var(--cat-zoning)" },
@@ -2265,6 +2265,33 @@ const RELAW_DATA = {
       ],
       judge: "Richard K. Sueyoshi",
       tags: ["environmental contamination", "construction dust", "punitive damages", "redevelopment", "california"]
+    },
+    {
+      id: "live-080",
+      addedDate: "2026-09-06",
+      title: "Transportation Consultants, Inc. v. Certain Underwriters at Lloyd's, London (Louisiana Surplus Lines Arbitration Ruling)",
+      category: "environmental",
+      status: "ruling",
+      date: "2026-09-03",
+      jurisdiction: "U.S. Court of Appeals for the Fifth Circuit",
+      state: "LA",
+      amount: "Surplus lines commercial property coverage dispute; damages undisclosed",
+      source: "live",
+      sourceUrl: "https://law.justia.com/cases/federal/appellate-courts/ca5/25-30372/25-30372-2026-09-03.html",
+      summary: "The Fifth Circuit held that an arbitration clause in a surplus lines commercial property policy covering Hurricane Ida damage in Louisiana is unenforceable against the nine domestic insurers subscribing to the policy, even though the same clause remains enforceable against the two foreign Lloyd's of London underwriters on the identical contract. The court, following its own precedents in Town of Vinton v. Indian Harbor Insurance Co. and Crescent City Surgical Operating Co. v. Interstate Fire & Casualty Co., also rejected the domestic insurers' argument that equitable estoppel should let them ride along with their foreign co-subscribers' arbitration rights.",
+      significance: "Louisiana is one of the few states that flatly bars mandatory arbitration clauses in insurance contracts, and this ruling confirms that a policy blending domestic and foreign capacity splits into two separate dispute-resolution tracks the moment a coverage fight arises. Owners, asset managers, and lenders placing layered or syndicated property insurance with Louisiana exposure should expect to litigate the same coverage dispute simultaneously in court against domestic carriers and in arbitration against foreign carriers.",
+      body: [
+        "Commercial property owners who buy surplus lines coverage rarely stop to ask what happens if their policy is split across a dozen different insurers, some domestic and some overseas, and a hurricane forces a coverage fight. On September 3, 2026, the U.S. Court of Appeals for the Fifth Circuit answered that question for Louisiana, holding that an arbitration clause in a surplus lines commercial property policy is unenforceable against the domestic insurers on the policy even though the identical clause remains enforceable against the foreign insurers subscribing to the very same contract.",
+        "The underlying facts are unremarkable for coastal Louisiana. Transportation Consultants, Inc. owned commercial property insured under a surplus lines policy subscribed by nine domestic insurance companies and two foreign underwriters at Lloyd's of London. The policy contained a broad arbitration clause covering virtually any disagreement over the insurance, along with a contract allocation endorsement treating the policy as a series of separate bilateral contracts between the policyholder and each individual subscribing insurer rather than as one contract among many co-insurers. When Hurricane Ida damaged the insured property, a coverage dispute followed, and Transportation Consultants sued all eleven insurers together in Louisiana state court. The insurers removed the case to the U.S. District Court for the Eastern District of Louisiana, invoking the Convention on the Recognition and Enforcement of Foreign Arbitral Awards as the basis for federal jurisdiction given the Lloyd's syndicates' involvement.",
+        "The district court initially granted the insurers' motion to compel arbitration across the board and stayed the entire case, then reversed course on reconsideration as to the nine domestic insurers, holding that Louisiana Revised Statutes 22:868, which generally voids policy provisions depriving Louisiana courts of jurisdiction over suits against an insurer, barred enforcement of the arbitration clause against insurers domiciled in the United States. The court lifted the litigation stay for those nine defendants while leaving the arbitration order intact for the two Lloyd's underwriters, whose contracts fell within the Convention's separate, preemptive framework for international arbitration agreements.",
+        "On appeal, the Fifth Circuit affirmed that split result. Following its own recent precedents in Town of Vinton v. Indian Harbor Insurance Co. and Crescent City Surgical Operating Co. v. Interstate Fire & Casualty Co., the panel held that the Convention's preemptive reach over arbitration agreements extends only to the contracts between the policyholder and the foreign insurers, not to the parallel contracts, created by the same policy language and contract allocation endorsement, between the policyholder and the domestic insurers. Because those domestic contracts are governed by ordinary Louisiana law rather than the Convention, Section 22:868's anti-arbitration rule applies to them in full force. The court also rejected the domestic insurers' fallback argument that equitable estoppel should let them ride along with the enforceable arbitration obligations of their foreign co-subscribers simply because all eleven insurers signed the same policy form.",
+        "The practical significance for commercial real estate owners and their brokers is direct: any surplus lines program covering Louisiana property that mixes domestic and foreign capacity now creates two separate dispute-resolution tracks that diverge the moment a claim is contested, one heading to court against the domestic carriers and one heading to arbitration against the foreign carriers, even though the underlying coverage grant and facts are identical. Sophisticated insureds should press their brokers at the placement stage for clarity on which subscribing markets are domestic versus foreign, since that distinction can otherwise sit unnoticed as boilerplate until a storm turns it into a jurisdictional battleground, and should budget for the real cost of potentially prosecuting the same coverage theory in two forums at once rather than assuming a single track will resolve the whole dispute."
+      ],
+      timeline: [
+        { when: "August 2021", label: "Hurricane Ida damages Transportation Consultants' insured Louisiana property" },
+        { when: "September 3, 2026", label: "Fifth Circuit affirms that the arbitration clause is unenforceable against the domestic insurers", current: true }
+      ],
+      tags: ["insurance coverage", "arbitration", "surplus lines", "hurricane ida", "louisiana"]
     }
   ],
 
