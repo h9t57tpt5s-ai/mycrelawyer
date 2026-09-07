@@ -16,7 +16,7 @@ const RELAW_DATA = {
      Drives the homepage's "New Today" pill: it only shows when this
      equals the visitor's local today. Updated by the digest automation
      each time Step 4 successfully adds a case — never touched otherwise. */
-  lastUpdatedDate: "2026-09-06",
+  lastUpdatedDate: "2026-09-07",
   categories: [
     { id: "landlord-tenant", label: "Landlord–Tenant", color: "var(--cat-landlord)" },
     { id: "zoning-land-use", label: "Zoning & Land Use", color: "var(--cat-zoning)" },
@@ -2322,6 +2322,36 @@ const RELAW_DATA = {
       ],
       judge: "Joann Woltman",
       tags: ["investor fraud", "llc governance", "multifamily", "breach of fiduciary duty", "receivership"]
+    },
+    {
+      id: "live-082",
+      addedDate: "2026-09-07",
+      title: "Huston v. Willamette Valley Rentals, LLC (Familial-Status Housing Discrimination Summary Judgment)",
+      category: "landlord-tenant",
+      status: "ruling",
+      date: "2026-02-03",
+      jurisdiction: "U.S. District Court, District of Oregon",
+      judge: "Ann L. Aiken",
+      state: "OR",
+      amount: "Liability established on summary judgment; damages to be determined",
+      source: "live",
+      sourceUrl: "https://law.justia.com/cases/federal/district-courts/oregon/ordce/6:2024cv01725/182493/20/",
+      summary: "U.S. District Judge Ann L. Aiken granted partial summary judgment for Tami and Justin Huston, foster parents of three disabled children, finding property manager Willamette Valley Rentals, LLC liable under the federal Fair Housing Act and Oregon's state fair housing statute for discriminating against the family based on familial status when they sought to rent a house in Salem. The February 3, 2026 order resolves liability as a matter of law; only damages remain to be litigated.",
+      significance: "The ruling is a reminder that fair-housing familial-status protections extend to foster households, not just biological or adopted families, and that once liability is resolved on summary judgment a landlord loses its principal settlement leverage. Property owners, managers, and REITs with residential holdings should treat familial-status screening compliance with the same rigor given to disability and race, since informal or undocumented leasing practices are exactly what supported judgment here without a trial on liability.",
+      body: [
+        "A federal judge in Oregon has ruled that Willamette Valley Rentals, LLC, a Salem-area property management and leasing company, is liable under both the federal Fair Housing Act and Oregon's state fair housing statute for refusing to rent a house to a family of foster parents caring for children with disabilities. The decision, issued February 3, 2026 by U.S. District Judge Ann L. Aiken in Huston et al. v. Willamette Valley Rentals, LLC et al., grants the plaintiffs partial summary judgment: liability on the fair housing claims is now established as a matter of law, with only damages left for further proceedings.",
+        "According to the record before the court, Tami and Justin Huston are registered Oregon foster parents who, along with three biological children, were caring for three foster children with disabilities and employed direct support professionals to assist with their care. In February 2024, Mrs. Huston contacted Willamette Valley Rentals about a house on Hoover Avenue in Salem. The company told her the property was available and that no applications had yet been received. Those representations later drew scrutiny from a fair-housing advocate who suspected the family had been screened out because of the makeup of their household, prompting further inquiry into how the rental was actually being handled. The Hustons sued in October 2024, asserting that the company's conduct amounted to discrimination based on familial status, a protected category under both the federal Fair Housing Act and Oregon's parallel state law, which extends to households that include foster children just as it does to households with biological or adopted children.",
+        "The Fair Housing Act's familial-status protections are frequently misunderstood by landlords who associate discrimination claims primarily with race, national origin, or disability, and who may not realize that refusing an applicant, misrepresenting availability, or applying different screening standards because a household includes minor children, including foster children under a family's care, can independently violate the statute. Judge Aiken's order does not resolve every question in the case; damages remain to be determined, and the litigation will proceed to establish what compensation the Hustons are owed. But the summary judgment ruling itself is significant because it forecloses the company's ability to relitigate the core liability question before a jury: the court has already determined, as a matter of law based on the undisputed record, that the company's conduct violated both statutes.",
+        "That procedural posture matters more than it might first appear. Partial summary judgment on liability, with damages reserved for trial, is a common but underappreciated risk in fair-housing litigation because it removes a defendant's principal bargaining chip in settlement discussions: the argument that liability itself is genuinely disputed. Once liability is off the table, a defendant's exposure is a function of provable damages, emotional distress, and, in appropriate cases, punitive damages and attorneys' fees under fee-shifting provisions common to both federal and state fair housing statutes. For a small or mid-sized property management company, that combination can turn what began as a single contested rental application into a judgment with real financial consequences, quite apart from the reputational cost of an adverse published ruling.",
+        "The case also illustrates the evidentiary role that fair-housing testing organizations and advocates continue to play in enforcement, even in disputes that never involve a government agency as a party. Private litigants who suspect they were screened out because of a protected characteristic often rely on follow-up inquiries, comparative testing, or referrals to fair-housing councils to build the record that later supports a discrimination claim, exactly the kind of documentation that made summary judgment possible here rather than requiring a full trial on liability.",
+        "For commercial and residential property owners and their managers, the file is really about process, not this one house in Salem. Landlords that run rental applications informally, without written screening criteria applied the same way to every applicant and without a documented, verifiable reason for whatever they tell a prospective tenant about availability, create exactly the kind of record that let the Hustons win on summary judgment rather than have to fight it out at trial. Familial status deserves the same day-to-day compliance attention landlords already give disability and race screening, and that attention has to extend specifically to foster and kinship-care households, not just biological or adopted children, with leasing staff trained accordingly. The deeper lesson is about timing and leverage: once a plaintiff can show inconsistent or pretextual statements about a unit's availability, a court can resolve liability well before a jury is ever seated, and once liability is off the table a landlord's own negotiating position collapses to arguing over the size of the damages, fees, and any punitive award still on the table."
+      ],
+      timeline: [
+        { when: "February 26, 2024", label: "Tami Huston contacts Willamette Valley Rentals about a rental house in Salem, Oregon" },
+        { when: "October 11, 2024", label: "The Hustons file suit in the U.S. District Court for the District of Oregon" },
+        { when: "February 3, 2026", label: "Judge Ann L. Aiken grants partial summary judgment for the Hustons on liability", current: true }
+      ],
+      tags: ["fair housing", "familial status", "disability", "landlord discrimination", "oregon"]
     }
   ],
 
@@ -2646,7 +2676,8 @@ const RELAW_DATA = {
     { jurisdiction: "U.S. District Court, Middle District of Tennessee", url: "https://www.tnmd.uscourts.gov/" },
     { jurisdiction: "Connecticut Supreme Court", url: "https://www.jud.ct.gov/external/supapp/" },
     { jurisdiction: "U.S. District Court, Western District of North Carolina", url: "https://www.ncwd.uscourts.gov/" },
-    { jurisdiction: "Sacramento County Superior Court, California", url: "https://www.saccourt.ca.gov/" }
+    { jurisdiction: "Sacramento County Superior Court, California", url: "https://www.saccourt.ca.gov/" },
+    { jurisdiction: "U.S. District Court, District of Oregon", url: "https://www.ord.uscourts.gov/" }
   ],
 
   /* Judges — background on every judge named in our sourced reporting (never
@@ -2846,6 +2877,14 @@ const RELAW_DATA = {
       court: "Sacramento County Superior Court, California",
       background: "Appointed to the Sacramento County Superior Court bench by Governor Arnold Schwarzenegger in September 2009. Previously a partner at Downey Brand LLP in Sacramento, practicing business and commercial litigation. Now serves as Supervising Judge of the court's Civil Division and presides over its Complex Civil Case Management department.",
       bioUrl: "https://www.saccourt.ca.gov/civil/docs/cv-department-53.pdf"
+    },
+    {
+      name: "Ann L. Aiken",
+      slug: "ann-l-aiken",
+      title: "U.S. District Judge",
+      court: "U.S. District Court, District of Oregon",
+      background: "Nominated by President Bill Clinton in 1995 and confirmed to the federal bench in January 1998, after serving as a judge of the Oregon Circuit Court for Lane County from 1992 and, before that, the Oregon District Court for Lane County. Served as Chief Judge of the U.S. District Court for the District of Oregon from 2009 to 2016 and assumed senior status in December 2023.",
+      bioUrl: "https://www.fjc.gov/history/judges/aiken-ann-l"
     }
   ],
 
