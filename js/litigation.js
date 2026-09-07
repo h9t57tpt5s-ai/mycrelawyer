@@ -96,7 +96,17 @@
     // the underlying legal event's own date — a matter added today should
     // read as "newest" even if the event itself happened weeks ago.
     const sortDate = (c) => new Date(c.addedDate || c.date);
-    list.sort((a, b) => (state.sort === "newest" ? sortDate(b) - sortDate(a) : sortDate(a) - sortDate(b)));
+    if (state.sort === "category") {
+      // Group by category in the site's own deliberate category order
+      // (RELAW_DATA.categories), newest-first within each group.
+      const categoryIndex = Object.fromEntries(RELAW_DATA.categories.map((cat, i) => [cat.id, i]));
+      list.sort((a, b) => {
+        const catDiff = categoryIndex[a.category] - categoryIndex[b.category];
+        return catDiff !== 0 ? catDiff : sortDate(b) - sortDate(a);
+      });
+    } else {
+      list.sort((a, b) => (state.sort === "newest" ? sortDate(b) - sortDate(a) : sortDate(a) - sortDate(b)));
+    }
     return list;
   }
 
