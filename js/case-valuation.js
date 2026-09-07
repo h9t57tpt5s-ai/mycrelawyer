@@ -30,6 +30,7 @@
   const INDEMNITY_STATE_MODS = CASE_VALUATION_DATA.constructionIndemnityStateModifiers;
   const ZONING_STATE_MODS = CASE_VALUATION_DATA.zoningComprehensivePlanModifiers;
   const ENV_POLLUTION_MODS = CASE_VALUATION_DATA.environmentalPollutionExclusionModifiers;
+  const PREMISES_LIABILITY_STATE_MODS = CASE_VALUATION_DATA.premisesLiabilityStateModifiers;
 
   // ---- CONFIG ---------------------------------------------------------
   const STRIPE_PAYMENT_LINK_URL = "https://buy.stripe.com/dRm9AL34yaOSeLJetz1B601";
@@ -122,7 +123,8 @@
     { slug: "construction-defect", label: "Construction Defect" },
     { slug: "environmental", label: "Environmental" },
     { slug: "eminent-domain", label: "Eminent Domain" },
-    { slug: "zoning-land-use", label: "Zoning & Land Use" }
+    { slug: "zoning-land-use", label: "Zoning & Land Use" },
+    { slug: "premises-liability", label: "Premises Liability / Negligence" }
   ];
 
   const QUESTIONS = {
@@ -222,6 +224,21 @@
       { key: "discriminatoryIntentEvidence", label: "Is there direct evidence of discriminatory intent?", type: "boolean" },
       { key: "lostValueEstimate", label: "Estimated lost project/development value ($)", type: "number" },
       { key: "developmentAgreementBreached", label: "Is a development agreement alleged to have been breached?", type: "boolean" }
+    ],
+    "premises-liability": [
+      { key: "state", label: "State where the injury occurred (for comparative-fault and punitive-damages rules)", type: "state" },
+      { key: "medicalSpecialsIncurred", label: "Medical specials incurred/anticipated ($)", type: "number" },
+      { key: "lostWagesClaimed", label: "Lost wages claimed ($)", type: "number" },
+      { key: "injurySeverity", label: "Injury severity", type: "select", options: ["minor", "moderate", "severe", "catastrophic"] },
+      { key: "slipAndFallAlleged", label: "Is this a slip-and-fall / hazardous-condition claim?", type: "boolean" },
+      { key: "hazardNoticeProven", label: "If slip-and-fall: has actual or constructive notice of the hazard been proven?", type: "select", options: ["yes", "no", "unclear"] },
+      { key: "inadequateSecurityAlleged", label: "Is inadequate/negligent security (third-party criminal act) alleged?", type: "boolean" },
+      { key: "priorSimilarCrimeIncidents", label: "If so: were there prior similar criminal incidents on the property or in its immediate vicinity?", type: "boolean" },
+      { key: "structuralFailureAlleged", label: "Is negligent maintenance / structural failure alleged (railing, stairs, elevator, etc.)?", type: "boolean" },
+      { key: "failureToWarnAlleged", label: "Is failure to warn of a dangerous condition alleged?", type: "boolean" },
+      { key: "openAndObviousDefenseRaised", label: "If so: has the property owner raised an open-and-obvious defense?", type: "boolean" },
+      { key: "plaintiffComparativeFaultPercent", label: "Plaintiff's own alleged comparative-fault percentage (0-100)", type: "number" },
+      { key: "egregiousConductAllegedForPunitives", label: "Is the property owner's conduct alleged to be willful, wanton, or in reckless disregard of a known danger (punitive damages)?", type: "boolean" }
     ]
   };
 
@@ -374,6 +391,16 @@
       facts.pollutionExclusionInterpretation = m.interpretation;
       facts.pollutionExclusionCitation = m.citation;
       facts.pollutionExclusionNote = m.note;
+    }
+    // pull in the comparative/contributory-fault rule and punitive-damages
+    // standard/cap for premises-liability (full 51-jurisdiction table -- see
+    // premisesLiabilityStateModifiers in case-valuation-data.js)
+    if (slug === "premises-liability" && facts.state && PREMISES_LIABILITY_STATE_MODS[facts.state]) {
+      const m = PREMISES_LIABILITY_STATE_MODS[facts.state];
+      facts.premisesFaultRule = m.faultRule;
+      facts.premisesFaultRuleCitation = m.faultRuleCitation;
+      facts.premisesPunitiveDamagesStandard = m.punitiveDamagesStandard;
+      facts.premisesPunitiveDamagesCap = m.punitiveDamagesCap;
     }
     return facts;
   }

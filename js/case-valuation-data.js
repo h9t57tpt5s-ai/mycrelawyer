@@ -793,6 +793,75 @@ const CASE_VALUATION_DATA = {
             "note": "Sample expanded from 2 to 5 citations (added Township of Salem -- an actual loss for the developer, though on a different fact pattern (the government recovering FROM the developer for defective improvements, not the developer's own breach claim failing); 5th & Walnut Parking -- another clean win, $4.3M+, Iowa Supreme Court 2026; and PML v. Village of Hawthorn Woods -- a large final recovery for the developer, but only after a multi-year, multi-reversal saga, and net of a real, substantial offsetting counterclaim the Village won against the developer). Despite specifically searching for one, a clean FINAL loss on a developer's own affirmative breach-of-development-agreement claim was still not found -- worth noting as a real, if modest, pattern rather than assuming the search was simply incomplete: a documented breach claim against a municipality may be more likely to have real merit by the time it's litigated to a final, citable decision, or weaker claims may settle out earlier without leaving comparable public documentation. Base rate kept at the original preliminary estimate; treat the high end of the damages range with real confidence (all of the well-documented anchor cases involve real, large recoveries) but the probability range as still not fully calibrated."
           }
         }
+      },
+      "premises-liability": {
+        "label": "Premises Liability / Negligence",
+        "roles": {
+          "sideA": "Property Owner / Occupier",
+          "sideB": "Injured Party / Claimant"
+        },
+        "claimTypes": {
+          "slip_and_fall_hazardous_condition": {
+            "side": "sideB",
+            "label": "Slip-and-Fall / Hazardous Condition",
+            "appliesIf": "slipAndFallAlleged && medicalSpecialsIncurred > 0",
+            "baseProbability": [0.35, 0.55],
+            "modifiers": [
+              { "if": "hazardNoticeProven === 'yes'", "probability": [0.55, 0.75], "note": "Actual or constructive notice of the hazard has been proven" },
+              { "if": "hazardNoticeProven === 'no'", "probability": [0.12, 0.28], "note": "No notice evidence identified -- the single most common reason a slip-and-fall claim fails, per Albertsons, LLC v. Mohammadi" }
+            ],
+            "damages": {
+              "formula": "medicalSpecialsIncurred * severityMultiplier[injurySeverity] + lostWagesClaimed, then adjusted for the state's comparative/contributory fault rule",
+              "note": "Uses the general-damages 'multiplier method' common in personal-injury claims practice -- an industry rule-of-thumb, not itself drawn from a specific cited case."
+            }
+          },
+          "inadequate_security_third_party_crime": {
+            "side": "sideB",
+            "label": "Inadequate Security / Third-Party Criminal Act",
+            "appliesIf": "inadequateSecurityAlleged && medicalSpecialsIncurred > 0",
+            "baseProbability": [0.18, 0.32],
+            "modifiers": [
+              { "if": "priorSimilarCrimeIncidents", "probability": [0.45, 0.68], "note": "Prior similar incidents on the property (or in its immediate vicinity) are the single most important foreseeability fact in this claim type -- see Georgia CVS Pharmacy, LLC v. Carmichael" }
+            ],
+            "damages": {
+              "formula": "medicalSpecialsIncurred * severityMultiplier[injurySeverity] + lostWagesClaimed, then adjusted for the state's comparative/contributory fault rule",
+              "note": "Requires proving the criminal act was reasonably FORESEEABLE to the property owner -- a genuinely harder bar than an ordinary hazard claim."
+            }
+          },
+          "negligent_maintenance_structural_failure": {
+            "side": "sideB",
+            "label": "Negligent Maintenance / Structural Failure",
+            "appliesIf": "structuralFailureAlleged && medicalSpecialsIncurred > 0",
+            "baseProbability": [0.40, 0.60],
+            "damages": {
+              "formula": "medicalSpecialsIncurred * severityMultiplier[injurySeverity] + lostWagesClaimed, then adjusted for the state's comparative/contributory fault rule",
+              "note": "Durable structural defects (collapsed railings, failed stairs, defective elevators) are typically easier to prove than a transient hazard, since the defect itself can be established through inspection and expert testimony rather than relying on notice timing."
+            }
+          },
+          "dangerous_condition_failure_to_warn": {
+            "side": "sideB",
+            "label": "Dangerous Condition / Failure to Warn",
+            "appliesIf": "failureToWarnAlleged && medicalSpecialsIncurred > 0",
+            "baseProbability": [0.35, 0.55],
+            "modifiers": [
+              { "if": "openAndObviousDefenseRaised", "probability": [0.15, 0.30], "note": "The open-and-obvious doctrine is a real and often successful defense specifically against a pure warning theory" }
+            ],
+            "damages": {
+              "formula": "medicalSpecialsIncurred * severityMultiplier[injurySeverity] + lostWagesClaimed, then adjusted for the state's comparative/contributory fault rule",
+              "note": "Turns on whether the danger was hidden/non-obvious -- a genuinely open-and-obvious hazard defeats a pure failure-to-warn theory in most jurisdictions, though a growing number of courts still allow a separate failure-to-REMEDY theory even where the warning theory fails."
+            }
+          },
+          "premises_punitive_damages": {
+            "side": "sideB",
+            "label": "Punitive Damages",
+            "appliesIf": "egregiousConductAllegedForPunitives && at least one injury claim above applies",
+            "baseProbability": [0.08, 0.20],
+            "damages": {
+              "formula": "computePunitiveDamagesAvailability(facts, compensatoryLow, compensatoryHigh) -- state-specific evidentiary standard and cap; several states PROHIBIT punitive damages in an ordinary premises claim entirely, or require a specific enabling statute (STATUTE-ONLY) -- see premisesLiabilityStateModifiers",
+              "note": "Requires proof the property owner's conduct was willful, wanton, or in reckless disregard of a known danger -- ordinary negligence never supports punitive damages, no matter how severe the resulting injury."
+            }
+          }
+        }
       }
     },
     "aggregation": {
@@ -2504,6 +2573,126 @@ const CASE_VALUATION_DATA = {
         "confidence": "high",
         "notes": "REVERSE-DIRECTION citation: here the MUNICIPALITY is the one suing to enforce a development agreement, against a developer/foundation entity, and losing -- useful defensive precedent for a developer facing a municipality's enforcement claim, particularly where the parties later amended or superseded the original agreement's specific terms. Confirms that a later, more specific agreement provision governing the same subject matter can fully displace an earlier obligation, even one the municipality reasonably believed still applied."
       }
+    ],
+    "slip_and_fall_hazardous_condition": [
+      {
+        "caseName": "(Unnamed plaintiff) v. Kinkisharyo International, LLC",
+        "citation": "Los Angeles County Superior Court jury verdict, May 21, 2024 (docket number not independently confirmed)",
+        "jurisdiction": "CA",
+        "year": 2024,
+        "outcome": "An electrical technician working for an independent contractor was called to a Palmdale train-manufacturing facility at 2:00 a.m. and told the repair had to be finished by 5:00 a.m. He slipped on a patch of ice atop a train car and suffered a permanent, catastrophic spinal injury. The jury found the property owner/operator failed to take adequate steps to prevent ice buildup or otherwise ensure a safe work environment, and returned a $58,358,431 verdict -- reported as the largest slip-and-fall verdict in U.S. history.",
+        "dollarAmount": 58358431,
+        "sourceUrl": "https://www.prnewswire.com/news-releases/los-angeles-jury-awards-over-58-000-000-to-injured-palmdale-train-yard-worker-302152522.html",
+        "confidence": "medium",
+        "notes": "Relied on plaintiff-firm and wire-service reporting (PARRIS Law Firm, PR Newswire) rather than a directly retrieved court record -- a trial-court jury verdict, not an appellate opinion, so treat as illustrative of catastrophic-injury upside rather than a settled point of law. Real anchor for how far a slip-and-fall verdict can run once causation and a serious, permanent injury are both established."
+      },
+      {
+        "caseName": "Henry Walker v. Walmart Stores, Inc.",
+        "citation": "Russell County, Alabama (Phenix City) jury verdict, November 2017 (docket number not independently confirmed)",
+        "jurisdiction": "AL",
+        "year": 2017,
+        "outcome": "Plaintiff's foot became trapped in a display pallet while reaching for a watermelon; when he tried to turn, his foot caught and he fell, suffering a severe hip injury. Store security footage showed multiple OTHER shoppers had gotten their feet caught in the same pallet before the plaintiff's fall -- evidence the jury found sufficient to establish wantonness, not just ordinary negligence. Jury awarded $2.5 million in compensatory damages and $5 million in punitive damages ($7.5 million total).",
+        "dollarAmount": 7500000,
+        "sourceUrl": "https://www.cbsnews.com/news/walmart-shopper-hurt-while-buying-melon-wins-7-5m-verdict/",
+        "confidence": "medium",
+        "notes": "Also cited under 'Punitive Damages' below -- documented, camera-captured evidence of PRIOR similar incidents on the exact same hazard is what elevated this from an ordinary notice-based slip-and-fall claim into a wantonness (Alabama's willful/wanton punitive-damages standard) finding. Illustrates how directly the 'hazardNoticeProven' fact and the punitive-damages 'egregiousConductAlleged' fact can be linked in a real fact pattern -- the same prior-incident evidence proved both."
+      },
+      {
+        "caseName": "Albertsons, LLC v. Mohammadi",
+        "citation": "___ S.W.3d ___, No. 23-0041 (Tex. Apr. 5, 2024)",
+        "jurisdiction": "TX",
+        "year": 2024,
+        "outcome": "Plaintiff, a bank employee working inside a Randalls grocery store, slipped on a puddle of water that formed after another employee placed a leaking item in a shopping cart. She argued the store's knowledge of the leaking item was itself evidence of actual knowledge of the resulting puddle. The Texas Supreme Court disagreed, holding that actual knowledge of a dangerous condition requires specific evidence the condition ITSELF existed at the time of the accident -- knowledge of an upstream cause is not enough. Reversed the court of appeals in the store's favor.",
+        "dollarAmount": null,
+        "sourceUrl": "https://law.justia.com/cases/texas/supreme-court/2024/23-0041.html",
+        "confidence": "high",
+        "notes": "The clean, current, high-court illustration of why 'no notice evidence' is the single most common reason a slip-and-fall claim fails -- Texas requires proof the specific hazard existed long enough for the owner to have discovered it, not just evidence the owner knew about a related risk in the abstract. Also cited under 'Dangerous Condition / Failure to Warn' below, since the underlying theory pled was failure to warn of the puddle."
+      }
+    ],
+    "inadequate_security_third_party_crime": [
+      {
+        "caseName": "Georgia CVS Pharmacy, LLC v. Carmichael",
+        "citation": "316 Ga. 718, 890 S.E.2d 209 (2023)",
+        "jurisdiction": "GA",
+        "year": 2023,
+        "outcome": "Plaintiff was shot and seriously injured in a CVS parking lot in a high-crime area; CVS employees had repeatedly raised safety concerns, and another employee had been robbed at gunpoint just three weeks before the shooting. A jury apportioned 95% fault to CVS, 5% to the plaintiff, and 0% to the (non-party) shooter, awarding $42.75 million. The Georgia Supreme Court affirmed, holding that the reasonable foreseeability of a third-party criminal act is assessed under the totality of the circumstances as part of the proprietor's O.C.G.A. Sec. 51-3-1 duty to keep the premises safe.",
+        "dollarAmount": 42750000,
+        "sourceUrl": "https://law.justia.com/cases/georgia/supreme-court/2023/s22g0527.html",
+        "confidence": "high",
+        "notes": "A real, reported, high-court-affirmed illustration of the single most important fact in this claim type: documented PRIOR incidents/concerns at the exact location (here, employees' own repeated safety complaints and a very recent armed robbery) drove a finding of foreseeability strong enough to apportion effectively zero fault to the actual shooter."
+      },
+      {
+        "caseName": "Barrak v. Report Investment Corporation",
+        "citation": "Miami-Dade County Circuit Court jury verdict (docket number not independently confirmed)",
+        "jurisdiction": "FL",
+        "year": 2023,
+        "outcome": "Plaintiff was shot outside a nightclub tenant (Tootsie's Cabaret) at a shopping center, leaving him a ventilator-dependent quadriplegic. The jury found the shopping center's owner failed to provide adequate security given the foreseeable risk, and returned a $102.7 million verdict -- reported as the largest negligent-security verdict in U.S. history.",
+        "dollarAmount": 102700000,
+        "sourceUrl": "https://www.law.com/verdictsearch/verdict/shooting-victim-shopping-center-is-liable-for-injuries/",
+        "confidence": "medium",
+        "notes": "Relied on secondary/aggregator reporting rather than a directly retrieved court record -- a trial-court jury verdict, not an appellate opinion, so treat as illustrative of catastrophic-injury upside (a commercial LANDLORD held liable for a TENANT business's security failures on common areas) rather than a settled point of law."
+      }
+    ],
+    "negligent_maintenance_structural_failure": [
+      {
+        "caseName": "(Balcony collapse litigation re: 2003 Franklin Street)",
+        "citation": "San Francisco County Superior Court No. CGC-95-968644",
+        "jurisdiction": "CA",
+        "year": 1996,
+        "outcome": "A fourth-floor balcony at a Pacific Heights apartment building collapsed during a party, caused by extensive dry rot in the supporting joists that had been concealed rather than repaired; one guest died and another suffered a severe brain injury. The jury awarded $12,389,050 against the building's owner/landlord for negligent maintenance of the structure, and additionally ordered the landlord to live in his own building.",
+        "dollarAmount": 12389050,
+        "sourceUrl": "https://www.sfgate.com/news/article/Landlord-to-Pay-12-Million-in-Fatal-96-Deck-3009451.php",
+        "confidence": "medium",
+        "notes": "Older but well-documented illustration of the durable-defect dynamic this claim type is built on: the rot was concealed under building materials rather than genuinely repaired, and was established through post-collapse inspection rather than relying on a notice-timing argument the way a transient hazard claim would need to."
+      }
+    ],
+    "dangerous_condition_failure_to_warn": [
+      {
+        "caseName": "James Papp v. Hedgerow Properties, LLC",
+        "citation": "Connecticut Superior Court jury verdict re: incident of Nov. 4, 2021 (docket number not independently confirmed)",
+        "jurisdiction": "CT",
+        "year": 2023,
+        "outcome": "Plaintiff, a lawful invitee, tripped and fell down an exterior stairway at a Winsted, Connecticut property that violated the Connecticut State Building Code and carried no warning of the defect. Jury awarded $3.68 million against the property owner/manager for the dangerous, unwarned condition.",
+        "dollarAmount": 3680000,
+        "sourceUrl": "https://jurimatic.com/slip-and-fall-victory-3-7m-verdict-in-premises-liability-lawsuit",
+        "confidence": "low",
+        "notes": "Relied entirely on a litigation-marketing aggregator summary rather than a directly retrieved court record -- exact trial date/docket not independently confirmed. Included as a real, on-point plaintiff-favorable data point for a pure failure-to-warn theory (building-code violation + no posted warning), which is otherwise harder to find a clean win for than a slip-and-fall or negligent-security claim."
+      },
+      {
+        "caseName": "Albertsons, LLC v. Mohammadi",
+        "citation": "___ S.W.3d ___, No. 23-0041 (Tex. Apr. 5, 2024)",
+        "jurisdiction": "TX",
+        "year": 2024,
+        "outcome": "See full outcome under 'Slip-and-Fall / Hazardous Condition' above -- the underlying theory pled here was specifically failure to WARN of the puddle (not failure to remedy it), and the Texas Supreme Court held that knowledge of an upstream cause (a leaking item placed in a cart) is not evidence of knowledge of the specific hazard itself.",
+        "dollarAmount": null,
+        "sourceUrl": "https://law.justia.com/cases/texas/supreme-court/2024/23-0041.html",
+        "confidence": "high",
+        "notes": "The DEFENSE-favorable counterweight to the Papp v. Hedgerow citation above -- shows the same claim type can fail entirely where the specific-knowledge element isn't met, even though a hazard plainly existed and caused a real injury."
+      }
+    ],
+    "premises_punitive_damages": [
+      {
+        "caseName": "Henry Walker v. Walmart Stores, Inc.",
+        "citation": "Russell County, Alabama (Phenix City) jury verdict, November 2017 (docket number not independently confirmed)",
+        "jurisdiction": "AL",
+        "year": 2017,
+        "outcome": "See full outcome under 'Slip-and-Fall / Hazardous Condition' above. The $5 million punitive component (on top of $2.5 million compensatory) rested specifically on camera evidence that the SAME hazard had already caught multiple other customers' feet before the plaintiff's fall -- the jury found that record sufficient to establish wantonness (Alabama's willful/wanton standard) rather than mere ordinary negligence.",
+        "dollarAmount": 5000000,
+        "sourceUrl": "https://www.cbsnews.com/news/walmart-shopper-hurt-while-buying-melon-wins-7-5m-verdict/",
+        "confidence": "medium",
+        "notes": "A clean illustration of what actually elevates ordinary premises negligence into punitive-damages territory: not the severity of the resulting injury, but documented evidence the owner already knew (via the exact same hazard recurring on camera) and did nothing before this plaintiff was hurt."
+      },
+      {
+        "caseName": "Terhune v. Forum Medical (Moran Lake Road Nursing Home)",
+        "citation": "Floyd County, Georgia jury verdict, 2010 (docket number not independently confirmed)",
+        "jurisdiction": "GA",
+        "year": 2010,
+        "outcome": "A nursing-home resident was malnourished, dehydrated, and denied medical care for a broken hip, and died after what was supposed to be a temporary post-operative stay; evidence showed the facility owner diverted resident-care insurance payments to personal use rather than adequate staffing/supplies. Jury awarded $8.5 million in compensatory damages and $35 million in punitive damages -- reported as the largest judgment against a nursing home in Georgia history at the time.",
+        "dollarAmount": 35000000,
+        "sourceUrl": "https://www.aboutlawsuits.com/wrongful-death-lawsuit-nursing-home-owner-12905/",
+        "confidence": "low",
+        "notes": "A DIFFERENT premises sub-context (a licensed medical/care facility, not a typical commercial property) and relied on secondary reporting rather than a directly retrieved court record -- included because it's a real, large, well-documented illustration of the DEGREE of egregious, profit-motivated conduct that can drive a punitive award far above the compensatory figure (roughly 4x here), which a typical commercial slip-and-fall or negligent-security fact pattern rarely reaches. Do not treat the specific multiple as a benchmark for an ordinary commercial premises case."
+      }
     ]
   },
   "stateLawModifiers": {
@@ -3967,5 +4156,95 @@ const CASE_VALUATION_DATA = {
     "West Virginia": { "interpretation": null, "citation": "Not yet researched", "note": "Not independently verified against a leading case." },
     "Wisconsin": { "interpretation": "Mixed", "citation": "Just v. Land Reclamation, Ltd., 155 Wis.2d 480 (1990) (older policy language); a later Wisconsin Supreme Court decision applying the modern absolute exclusion to cow manure/septage", "note": "Just construed the OLDER 'sudden and accidental' exclusion narrowly (unexpected/unintended, not necessarily instantaneous) -- favorable to the insured. But Wisconsin's high court has since applied the modern ABSOLUTE-form exclusion broadly in a later decision involving agricultural waste. Like North Carolina, Wisconsin's rule genuinely depends on which policy-form generation is at issue; classify with real caution." },
     "Wyoming": { "interpretation": null, "citation": "Not yet researched", "note": "Not independently verified against a leading case." }
+  },
+
+  /* Two cross-cutting premises-liability/negligence variables, both
+     genuinely well-documented across all 51 jurisdictions (unlike the
+     other tables in this file, this is a body of law with mature,
+     widely-corroborated 50-state surveys already available):
+
+     faultRule -- how a plaintiff's own comparative fault affects
+     recovery. This is THE single most decisive variable in any
+     premises-liability case, since it applies to every case (not just
+     the subset involving egregious conduct the way punitive damages
+     do): "Pure Contributory" (any plaintiff fault at all bars recovery
+     entirely -- only 5 jurisdictions), "Modified Comparative (50%
+     Bar)" (recovery barred once plaintiff's fault reaches 50%),
+     "Modified Comparative (51% Bar)" (recovery barred only once
+     plaintiff's fault EXCEEDS 50%, i.e. reaches 51%+), "Pure
+     Comparative" (recovery reduced by the plaintiff's fault percentage
+     with no bar at all, even at 99% fault), or "Slight/Gross"
+     (South Dakota's unique hybrid: no percentage allocation at all --
+     recovery only if the plaintiff's own negligence was "slight" and
+     the defendant's was "gross," a binary and notoriously vague
+     comparison).
+
+     punitiveDamagesStandard / punitiveDamagesCap -- the burden of proof
+     for punitive damages and any statutory cap. The evidentiary
+     STANDARD is well-corroborated (clear-and-convincing evidence is
+     the default majority rule; a handful of well-documented outliers
+     are called out by name). The CAP figures are a genuinely harder
+     research problem than every other state-law table in this file:
+     multiple current "50-state survey" secondary sources were checked
+     against each other and disagree with real specificity on at least
+     six states (Indiana, Ohio's exact formula, West Virginia, Nevada,
+     North Dakota, Arkansas, and Missouri) -- consistent with this
+     session's established discipline, a specific dollar figure is only
+     included here where either (a) it was independently confirmed
+     against primary statutory text, or (b) multiple secondary sources
+     agreed without contradiction. Where sources conflicted, the cap
+     field says so explicitly rather than picking one arbitrarily. */
+  "premisesLiabilityStateModifiers": {
+    "Alabama": { "faultRule": "Pure Contributory", "faultRuleCitation": "Alabama common law (judicially retained)", "punitiveDamagesStandard": "Clear and Convincing Evidence", "punitiveDamagesCap": "Greater of $500,000 or 3x compensatory damages; enhanced to $1.5 million for cases involving physical injury -- Ala. Code § 6-11-21", "note": "One of only 5 pure contributory jurisdictions -- if the plaintiff bears ANY fault for their own injury (even 1%), recovery is barred entirely, regardless of how much greater the defendant's fault was. This is the single most owner-favorable fault rule in the country when applicable." },
+    "Alaska": { "faultRule": "Pure Comparative", "faultRuleCitation": "Alaska Stat. § 09.17.060", "punitiveDamagesStandard": "Clear and Convincing Evidence (statutory)", "punitiveDamagesCap": "Greater of $500,000 or 3x compensatory damages; up to 4x compensatory or $7 million if motivated by financial gain -- Alaska Stat. § 09.17.020", "note": "Recovery is reduced by the plaintiff's own fault percentage with no cutoff -- a plaintiff found 90% at fault can still recover the remaining 10%." },
+    "Arizona": { "faultRule": "Pure Comparative", "faultRuleCitation": "Ariz. Rev. Stat. § 12-2505", "punitiveDamagesStandard": "Clear and Convincing Evidence", "punitiveDamagesCap": "No statutory cap -- Arizona's constitution (Art. 2, § 31) has been read to prohibit the legislature from capping damages for death or personal injury, including punitive damages.", "note": "Pure comparative with no statutory punitive-damages cap, a combination that leaves real, uncapped exposure for egregious premises-liability conduct (e.g. Keggi-line pollution/contamination-adjacent claims, or a documented pattern of ignored hazard reports)." },
+    "Arkansas": { "faultRule": "Modified Comparative (50% Bar)", "faultRuleCitation": "Ark. Code § 16-64-122", "punitiveDamagesStandard": "Clear and Convincing Evidence", "punitiveDamagesCap": "NOT INDEPENDENTLY VERIFIED -- secondary sources disagree on whether Arkansas's statutory punitive-damages cap (nominally $250,000 or 3x compensatory under Ark. Code § 16-55-208) remains enforceable, given Arkansas's own constitutional damages-limitation provision (Ark. Const. art. 5, § 32) and related litigation history. Confirm current, binding law before relying on a specific figure.", "note": "Recovery barred once the plaintiff's fault equals or exceeds the defendant's (i.e., 50% or more)." },
+    "California": { "faultRule": "Pure Comparative", "faultRuleCitation": "Li v. Yellow Cab Co., 13 Cal.3d 804 (1975)", "punitiveDamagesStandard": "Clear and Convincing Evidence (Cal. Civ. Code § 3294 -- oppression, fraud, or malice)", "punitiveDamagesCap": "No statutory cap -- subject only to federal due-process limits (BMW v. Gore / State Farm v. Campbell).", "note": "California is also the origin state of the unified reasonable-care premises-liability duty (Rowland v. Christian, 1968), which abolished the invitee/licensee/trespasser distinction for duty purposes -- see the general premises-liability note above." },
+    "Colorado": { "faultRule": "Modified Comparative (50% Bar)", "faultRuleCitation": "Colo. Rev. Stat. § 13-21-111", "punitiveDamagesStandard": "BEYOND A REASONABLE DOUBT -- Colo. Rev. Stat. § 13-25-127", "punitiveDamagesCap": "Generally capped at an amount equal to compensatory damages (1:1), but the court may increase the award up to 3x compensatory damages if the defendant continued the behavior in a willful and wanton manner during the litigation -- Colo. Rev. Stat. § 13-21-102", "note": "GENUINE NATIONAL OUTLIER: Colorado is the only state requiring the criminal 'beyond a reasonable doubt' standard for punitive damages, rather than the clear-and-convincing standard used almost everywhere else -- a materially harder bar for a plaintiff to clear, even where the underlying premises-liability claim itself is otherwise strong." },
+    "Connecticut": { "faultRule": "Modified Comparative (51% Bar)", "faultRuleCitation": "Conn. Gen. Stat. § 52-572h", "punitiveDamagesStandard": "Preponderance of the Evidence (a real minority position -- most states require clear and convincing evidence)", "punitiveDamagesCap": "No statutory cap identified for ordinary tort/premises-liability claims; Connecticut's common-law rule also unusually LIMITS punitive damages to the plaintiff's litigation expenses (attorney's fees and costs) rather than an open-ended punishment award, a materially different and more modest structure than most states use.", "note": "Connecticut's lower evidentiary bar (preponderance rather than clear and convincing) is offset in practice by its litigation-expenses-only damages measure." },
+    "Delaware": { "faultRule": "Modified Comparative (51% Bar)", "faultRuleCitation": "Del. Code tit. 10, § 8132", "punitiveDamagesStandard": "Clear and Convincing Evidence", "punitiveDamagesCap": "No statutory cap identified for ordinary tort/premises-liability claims.", "note": "" },
+    "District of Columbia": { "faultRule": "Pure Contributory", "faultRuleCitation": "D.C. common law (judicially retained)", "punitiveDamagesStandard": "Clear and Convincing Evidence", "punitiveDamagesCap": "No statutory cap identified.", "note": "One of only 5 pure contributory jurisdictions." },
+    "Florida": { "faultRule": "Modified Comparative (51% Bar)", "faultRuleCitation": "Fla. Stat. § 768.81 (as amended 2023 -- Florida moved from pure comparative to a 51% bar)", "punitiveDamagesStandard": "Clear and Convincing Evidence -- Fla. Stat. § 768.725", "punitiveDamagesCap": "Greater of $500,000 or 3x compensatory damages; higher tiers (4x compensatory or $2 million) apply where the defendant acted with specific intent to harm and did so, or was motivated by unreasonable financial gain and knew the conduct was unreasonably dangerous -- Fla. Stat. § 768.73", "note": "Florida is a genuinely important recent change to track: it operated under PURE comparative negligence for decades before HB 837 (2023) moved it to a 51% modified bar, one of the largest tort-reform shifts of any state in years. Confirm which rule applies based on the date of the underlying incident." },
+    "Georgia": { "faultRule": "Modified Comparative (50% Bar)", "faultRuleCitation": "Ga. Code § 51-12-33", "punitiveDamagesStandard": "Clear and Convincing Evidence -- O.C.G.A. § 51-12-5.1(b)", "punitiveDamagesCap": "$250,000 flat cap in most tort cases -- O.C.G.A. § 51-12-5.1(g) -- with NO cap where the case involves product liability, or the defendant acted with specific intent to cause harm or while impaired by drugs/alcohol. Held constitutional by the Georgia Supreme Court in 2023.", "note": "PRIMARY-VERIFIED cap figure." },
+    "Hawaii": { "faultRule": "Modified Comparative (51% Bar)", "faultRuleCitation": "Haw. Rev. Stat. § 663-31", "punitiveDamagesStandard": "Clear and Convincing Evidence", "punitiveDamagesCap": "No statutory cap identified.", "note": "" },
+    "Idaho": { "faultRule": "Modified Comparative (50% Bar)", "faultRuleCitation": "Idaho Code § 6-801", "punitiveDamagesStandard": "Clear and Convincing Evidence -- Idaho Code § 6-1604", "punitiveDamagesCap": "Greater of $250,000 or 3x compensatory damages -- Idaho Code § 6-1604(3)", "note": "" },
+    "Illinois": { "faultRule": "Modified Comparative (51% Bar)", "faultRuleCitation": "735 ILCS 5/2-1116", "punitiveDamagesStandard": "Clear and Convincing Evidence", "punitiveDamagesCap": "No general statutory cap on punitive damages in ordinary tort/premises-liability cases (Illinois has, at times, had a split-recovery statute directing a portion of certain punitive awards to the state, but no cap on the total amount).", "note": "" },
+    "Indiana": { "faultRule": "Modified Comparative (51% Bar)", "faultRuleCitation": "Ind. Code § 34-51-2-6", "punitiveDamagesStandard": "Clear and Convincing Evidence", "punitiveDamagesCap": "NOT INDEPENDENTLY VERIFIED -- secondary sources disagree on the exact cap formula (a flat 3x compensatory versus a greater-of-$50,000-or-3x formula were both reported). Indiana Code § 34-51-3-4 also directs a significant statutory percentage of any punitive award to the state, which is well-corroborated and worth flagging regardless of the exact cap figure.", "note": "" },
+    "Iowa": { "faultRule": "Modified Comparative (51% Bar)", "faultRuleCitation": "Iowa Code § 668.3", "punitiveDamagesStandard": "Preponderance of Clear, Convincing Evidence (Iowa's own case law formulation is sometimes phrased distinctly -- verify exact jury-instruction language locally)", "punitiveDamagesCap": "No statutory cap identified for ordinary tort/premises-liability claims, though one secondary source described an unusually high multiplier (up to 5x) in extreme cases -- not independently confirmed.", "note": "" },
+    "Kansas": { "faultRule": "Modified Comparative (50% Bar)", "faultRuleCitation": "Kan. Stat. Ann. § 60-258a", "punitiveDamagesStandard": "Clear and Convincing Evidence -- Kan. Stat. Ann. § 60-3701(c)", "punitiveDamagesCap": "Lesser of the defendant's annual gross income or $5 million (higher tier available if the conduct was profit-motivated and the profit exceeded this cap) -- Kan. Stat. Ann. § 60-3701", "note": "Both secondary sources agreed on this figure without contradiction." },
+    "Kentucky": { "faultRule": "Pure Comparative", "faultRuleCitation": "Hilen v. Hays, 673 S.W.2d 713 (Ky. 1984)", "punitiveDamagesStandard": "Clear and Convincing Evidence -- Ky. Rev. Stat. § 411.184", "punitiveDamagesCap": "No statutory cap -- Kentucky's constitution (§ 54) has been read to prohibit the legislature from capping damages for death or personal injury.", "note": "" },
+    "Louisiana": { "faultRule": "Modified Comparative (51% Bar)", "faultRuleCitation": "La. Civ. Code art. 2323", "punitiveDamagesStandard": "STATUTE-ONLY -- punitive damages are generally UNAVAILABLE in Louisiana absent a specific enabling statute (e.g., certain drunk-driving or product-defect claims); an ordinary negligence-based premises-liability claim will typically not support punitive damages at all.", "punitiveDamagesCap": "Not generally applicable given the statute-only availability rule above.", "note": "Confirm at the outset of any Louisiana matter whether a punitive-damages theory is even viable before spending resources developing egregious-conduct evidence." },
+    "Maine": { "faultRule": "Modified Comparative (50% Bar)", "faultRuleCitation": "Me. Rev. Stat. tit. 14, § 156", "punitiveDamagesStandard": "Clear and Convincing Evidence -- Tuttle v. Raymond, 494 A.2d 1353 (Me. 1985)", "punitiveDamagesCap": "No statutory cap identified.", "note": "" },
+    "Maryland": { "faultRule": "Pure Contributory", "faultRuleCitation": "Maryland common law (judicially retained -- reaffirmed by the Court of Appeals in Coleman v. Soccer Ass'n of Columbia, 432 Md. 679 (2013))", "punitiveDamagesStandard": "Clear and Convincing Evidence -- Owens-Illinois, Inc. v. Zenobia, 325 Md. 420 (1992)", "punitiveDamagesCap": "No statutory cap identified for punitive damages specifically (Maryland does cap NON-ECONOMIC compensatory damages in personal injury cases generally, which is a different figure -- do not conflate the two).", "note": "One of only 5 pure contributory jurisdictions; Maryland's high court has expressly declined multiple invitations to abandon the rule." },
+    "Massachusetts": { "faultRule": "Modified Comparative (51% Bar)", "faultRuleCitation": "Mass. Gen. Laws ch. 231, § 85", "punitiveDamagesStandard": "STATUTE-ONLY -- Massachusetts common law does not generally recognize punitive damages in ordinary tort claims; they are available only where a specific statute authorizes them (e.g., wrongful death, consumer protection).", "punitiveDamagesCap": "Not generally applicable given the statute-only availability rule above.", "note": "Confirm at the outset whether any Massachusetts statute actually authorizes punitive damages on the specific claim theory pled." },
+    "Michigan": { "faultRule": "Modified Comparative (51% Bar)", "faultRuleCitation": "Mich. Comp. Laws § 600.2959", "punitiveDamagesStandard": "STATUTE-ONLY -- Michigan does not generally allow common-law punitive/exemplary damages in ordinary tort claims; Michigan's 'exemplary damages' doctrine instead compensates the plaintiff for mental anguish/humiliation caused by the defendant's conduct, a different and more limited concept than punishment-oriented punitive damages elsewhere.", "punitiveDamagesCap": "Not generally applicable given the statute-only/different-doctrine structure above.", "note": "Do not assume a 'typical' punitive-damages theory transfers to Michigan without adjustment -- the doctrinal structure itself is different, not just the cap." },
+    "Minnesota": { "faultRule": "Modified Comparative (51% Bar)", "faultRuleCitation": "Minn. Stat. § 604.01", "punitiveDamagesStandard": "Clear and Convincing Evidence -- Minn. Stat. § 549.20", "punitiveDamagesCap": "No statutory cap identified.", "note": "" },
+    "Mississippi": { "faultRule": "Pure Comparative", "faultRuleCitation": "Miss. Code § 11-7-15", "punitiveDamagesStandard": "Clear and Convincing Evidence -- Miss. Code § 11-1-65", "punitiveDamagesCap": "Tiered cap based on the defendant's net worth, ranging from $20 million down to $2 million as net worth decreases (small businesses/individuals below a statutory net-worth floor may face no cap at all in some formulations) -- Miss. Code § 11-1-65(3)(a)", "note": "Mississippi's net-worth-tiered structure is unusual and should be confirmed against the current statute for the specific defendant's financial profile rather than assumed from a single flat figure." },
+    "Missouri": { "faultRule": "Pure Comparative", "faultRuleCitation": "Gustafson v. Benda, 661 S.W.2d 11 (Mo. 1983)", "punitiveDamagesStandard": "Clear and Convincing Evidence -- Mo. Rev. Stat. § 510.263", "punitiveDamagesCap": "NOT INDEPENDENTLY VERIFIED -- one secondary source reported a specific cap (greater of $500,000 or 5x the net judgment) while another reported no cap at all; Missouri's punitive-damages cap statute has also had a genuinely complicated litigation history (a prior cap was held unconstitutional by the Missouri Supreme Court in Lewellen v. Franklin, 441 S.W.3d 136 (2014), as applied to common-law claims). Confirm current, binding law before relying on any specific figure.", "note": "" },
+    "Montana": { "faultRule": "Modified Comparative (51% Bar)", "faultRuleCitation": "Mont. Code Ann. § 27-1-702", "punitiveDamagesStandard": "Clear and Convincing Evidence -- Mont. Code Ann. § 27-1-221", "punitiveDamagesCap": "Lesser of $10 million or 3% of the defendant's net worth -- Mont. Code Ann. § 27-1-220", "note": "" },
+    "Nebraska": { "faultRule": "Modified Comparative (50% Bar)", "faultRuleCitation": "Neb. Rev. Stat. § 25-21,185.09", "punitiveDamagesStandard": "PROHIBITED -- Nebraska's constitution has been construed to bar punitive damages entirely (Miller v. Kingsley, 194 Neb. 123 (1975), and subsequent case law).", "punitiveDamagesCap": "Not applicable -- punitive damages are unavailable in Nebraska regardless of the conduct alleged.", "note": "GENUINE OUTLIER: do not plead or model any punitive-damages exposure for a Nebraska premises-liability matter, no matter how egregious the underlying facts." },
+    "Nevada": { "faultRule": "Modified Comparative (51% Bar)", "faultRuleCitation": "Nev. Rev. Stat. § 41.141", "punitiveDamagesStandard": "Clear and Convincing Evidence -- Nev. Rev. Stat. § 42.005", "punitiveDamagesCap": "NOT INDEPENDENTLY VERIFIED -- secondary sources disagree on whether Nevada caps punitive damages at all (one source reported no cap; another reported a $300,000-or-3x formula tied to the size of the compensatory award). Confirm current, binding statutory text (Nev. Rev. Stat. § 42.005) before relying on a specific figure.", "note": "" },
+    "New Hampshire": { "faultRule": "Modified Comparative (51% Bar)", "faultRuleCitation": "N.H. Rev. Stat. § 507:7-d", "punitiveDamagesStandard": "PROHIBITED -- N.H. Rev. Stat. § 507:16 bars punitive damages in civil actions generally, subject to narrow statutory exceptions elsewhere in the code.", "punitiveDamagesCap": "Not applicable -- punitive damages are unavailable in New Hampshire in an ordinary premises-liability action.", "note": "GENUINE OUTLIER, statutory rather than constitutional -- confirm no narrow statutory exception applies before ruling out a punitive theory entirely." },
+    "New Jersey": { "faultRule": "Modified Comparative (51% Bar)", "faultRuleCitation": "N.J. Stat. § 2A:15-5.1", "punitiveDamagesStandard": "Clear and Convincing Evidence -- N.J. Stat. § 2A:15-5.12", "punitiveDamagesCap": "Greater of $350,000 or 5x compensatory damages -- N.J. Stat. § 2A:15-5.14", "note": "" },
+    "New Mexico": { "faultRule": "Pure Comparative", "faultRuleCitation": "Scott v. Rizzo, 96 N.M. 682 (1981)", "punitiveDamagesStandard": "Clear and Convincing Evidence", "punitiveDamagesCap": "No statutory cap identified.", "note": "" },
+    "New York": { "faultRule": "Pure Comparative", "faultRuleCitation": "N.Y. C.P.L.R. § 1411", "punitiveDamagesStandard": "Clear and Convincing Evidence (a common-law standard, not a single codified statute)", "punitiveDamagesCap": "No statutory cap identified -- subject only to federal due-process limits.", "note": "" },
+    "North Carolina": { "faultRule": "Pure Contributory", "faultRuleCitation": "North Carolina common law (judicially retained -- expressly reaffirmed by the NC Supreme Court)", "punitiveDamagesStandard": "Clear and Convincing Evidence -- N.C. Gen. Stat. § 1D-15", "punitiveDamagesCap": "Greater of $250,000 or 3x compensatory damages (no cap for injuries caused by a driver impaired by alcohol/drugs) -- N.C. Gen. Stat. § 1D-25", "note": "One of only 5 pure contributory jurisdictions -- as a practical matter, because contributory negligence bars the underlying claim entirely, punitive damages rarely become relevant in an NC premises case unless the plaintiff can show they bore NO fault at all." },
+    "North Dakota": { "faultRule": "Modified Comparative (50% Bar)", "faultRuleCitation": "N.D. Cent. Code § 32-03.2-02", "punitiveDamagesStandard": "Clear and Convincing Evidence -- N.D. Cent. Code § 32-03.2-11", "punitiveDamagesCap": "NOT INDEPENDENTLY VERIFIED -- secondary sources disagree on whether North Dakota caps punitive damages (one reported no cap; another reported a $250,000-or-2x formula). Confirm current, binding statutory text before relying on a specific figure.", "note": "" },
+    "Ohio": { "faultRule": "Modified Comparative (51% Bar)", "faultRuleCitation": "Ohio Rev. Code § 2315.33", "punitiveDamagesStandard": "Clear and Convincing Evidence -- Ohio Rev. Code § 2315.21(D)(4)", "punitiveDamagesCap": "For an individual or 'small employer' defendant: the LESSER of 2x compensatory damages or 10% of the defendant's net worth at the time of the tort, capped at $350,000 -- Ohio Rev. Code § 2315.21(D)(2)(a). A separate, differently-structured limit applies to larger employers.", "note": "PRIMARY-VERIFIED cap figure and formula -- note this is the LESSER of the two figures, not the greater, which several secondary sources got backwards or oversimplified." },
+    "Oklahoma": { "faultRule": "Modified Comparative (51% Bar)", "faultRuleCitation": "Okla. Stat. tit. 23, § 13", "punitiveDamagesStandard": "Clear and Convincing Evidence, with an escalating tier structure tied to the degree of culpability found -- Okla. Stat. tit. 23, § 9.1", "punitiveDamagesCap": "Tiered by culpability finding (roughly $100,000-$500,000, or up to 2x compensatory damages at the higher tiers, with no cap where the jury finds the defendant acted intentionally and with malice) -- Okla. Stat. tit. 23, § 9.1. Secondary sources gave slightly different tier boundaries; confirm the current statute for the exact dollar thresholds.", "note": "" },
+    "Oregon": { "faultRule": "Modified Comparative (51% Bar)", "faultRuleCitation": "Or. Rev. Stat. § 31.600", "punitiveDamagesStandard": "Clear and Convincing Evidence -- Or. Rev. Stat. § 31.730", "punitiveDamagesCap": "No cap on the total award, but Oregon uniquely redirects 70% of any punitive-damages award to the state's Criminal Injuries Compensation Account rather than the plaintiff -- Or. Rev. Stat. § 31.735", "note": "The split-recovery structure materially changes the practical incentive to pursue a punitive theory in Oregon even without a hard cap." },
+    "Pennsylvania": { "faultRule": "Modified Comparative (51% Bar)", "faultRuleCitation": "42 Pa. Cons. Stat. § 7102", "punitiveDamagesStandard": "Clear and Convincing Evidence", "punitiveDamagesCap": "No statutory cap -- the Pennsylvania Supreme Court has held the state constitution's remedies clause forecloses a legislative cap on this kind of damages.", "note": "" },
+    "Rhode Island": { "faultRule": "Pure Comparative", "faultRuleCitation": "R.I. Gen. Laws § 9-20-4", "punitiveDamagesStandard": "Clear and Convincing Evidence", "punitiveDamagesCap": "No statutory cap identified.", "note": "" },
+    "South Carolina": { "faultRule": "Modified Comparative (51% Bar)", "faultRuleCitation": "Nelson v. Concrete Supply Co., 303 S.C. 243 (1991)", "punitiveDamagesStandard": "Clear and Convincing Evidence -- S.C. Code § 15-32-520", "punitiveDamagesCap": "Greater of $500,000 or 3x compensatory damages; up to 4x compensatory or $2 million where the defendant's conduct was particularly egregious (e.g., a documented pattern of similar prior conduct) -- S.C. Code § 15-32-530", "note": "" },
+    "South Dakota": { "faultRule": "Slight/Gross (unique -- see note)", "faultRuleCitation": "S.D. Codified Laws § 20-9-2", "punitiveDamagesStandard": "Clear and Convincing Evidence", "punitiveDamagesCap": "No formal statutory cap identified; South Dakota does require a bifurcated trial on liability for punitive damages before the amount is tried.", "note": "GENUINE, WELL-DOCUMENTED NATIONAL OUTLIER: South Dakota does not use a percentage-based comparative fault allocation at all. Instead, the court asks only whether the plaintiff's negligence was 'slight' AND the defendant's was 'gross' in comparison -- if the plaintiff's own fault is found to be more than slight (the SD Supreme Court has held as little as 30% qualifies), recovery is barred entirely, similar in effect to contributory negligence despite not being labeled that way. See Wood v. City of Crooks (S.D. 1997). Model this claim type's baseProbability conservatively in South Dakota given how easily a plaintiff's own fault can exceed the vague 'slight' threshold." },
+    "Tennessee": { "faultRule": "Modified Comparative (50% Bar)", "faultRuleCitation": "McIntyre v. Balentine, 833 S.W.2d 52 (Tenn. 1992)", "punitiveDamagesStandard": "Clear and Convincing Evidence -- Hodges v. S.C. Toof & Co., 833 S.W.2d 896 (Tenn. 1992)", "punitiveDamagesCap": "Greater of 2x compensatory damages or $500,000 -- Tenn. Code § 29-39-104", "note": "" },
+    "Texas": { "faultRule": "Modified Comparative (51% Bar)", "faultRuleCitation": "Tex. Civ. Prac. & Rem. Code § 33.001", "punitiveDamagesStandard": "Clear and Convincing Evidence -- Tex. Civ. Prac. & Rem. Code § 41.003", "punitiveDamagesCap": "Greater of $200,000, or 2x economic damages plus an amount equal to noneconomic damages up to $750,000 -- Tex. Civ. Prac. & Rem. Code § 41.008. Does not apply to certain felony-conduct-based claims.", "note": "PRIMARY-VERIFIED cap formula." },
+    "Utah": { "faultRule": "Modified Comparative (50% Bar)", "faultRuleCitation": "Utah Code § 78B-5-818", "punitiveDamagesStandard": "Clear and Convincing Evidence -- Utah Code § 78B-8-201", "punitiveDamagesCap": "No numeric statutory cap, but Utah uniquely redirects 50% of any punitive award above $50,000 to the state -- Utah Code § 78B-8-201(3)", "note": "Same split-recovery dynamic as Oregon -- materially changes practical incentives even without a hard dollar cap." },
+    "Vermont": { "faultRule": "Modified Comparative (51% Bar)", "faultRuleCitation": "Vt. Stat. tit. 12, § 1036", "punitiveDamagesStandard": "Clear and Convincing Evidence", "punitiveDamagesCap": "No statutory cap identified.", "note": "" },
+    "Virginia": { "faultRule": "Pure Contributory", "faultRuleCitation": "Virginia common law (judicially retained)", "punitiveDamagesStandard": "Clear and Convincing Evidence", "punitiveDamagesCap": "$350,000 total per matter, regardless of the number of plaintiffs or defendants -- Va. Code § 8.01-38.1", "note": "One of only 5 pure contributory jurisdictions; punitive damages capped at a flat, relatively low $350,000 regardless of the underlying compensatory figure, unusual among states with a specific dollar cap (most tie the cap to a multiple of compensatory damages, so a large compensatory verdict yields a large punitive ceiling too -- Virginia's flat cap does not scale that way)." },
+    "Washington": { "faultRule": "Pure Comparative", "faultRuleCitation": "Wash. Rev. Code § 4.22.005", "punitiveDamagesStandard": "PROHIBITED -- Washington does not recognize common-law punitive damages absent a specific enabling statute (a long-standing, frequently-litigated rule).", "punitiveDamagesCap": "Not applicable given the general prohibition above.", "note": "GENUINE OUTLIER -- do not model punitive exposure for an ordinary Washington premises-liability claim absent a specific statutory hook (e.g., certain consumer-protection-adjacent theories)." },
+    "West Virginia": { "faultRule": "Modified Comparative (51% Bar)", "faultRuleCitation": "Bradley v. Appalachian Power Co., 163 W.Va. 332 (1979)", "punitiveDamagesStandard": "Clear and Convincing Evidence -- W. Va. Code § 55-7-29", "punitiveDamagesCap": "NOT INDEPENDENTLY VERIFIED -- secondary sources disagree on the exact formula (a flat 4x compensatory versus a greater-of-$500,000-or-4x formula were both reported). Confirm current statutory text (W. Va. Code § 55-7-29) before relying on a specific figure.", "note": "" },
+    "Wisconsin": { "faultRule": "Modified Comparative (51% Bar)", "faultRuleCitation": "Wis. Stat. § 895.045", "punitiveDamagesStandard": "Clear and Convincing Evidence -- Wis. Stat. § 895.043(3)", "punitiveDamagesCap": "Greater of $200,000 or 2x compensatory damages -- Wis. Stat. § 895.043(6)", "note": "" },
+    "Wyoming": { "faultRule": "Modified Comparative (51% Bar)", "faultRuleCitation": "Wyo. Stat. § 1-1-109", "punitiveDamagesStandard": "Clear and Convincing Evidence", "punitiveDamagesCap": "No statutory cap -- Wyoming's constitution (art. 10, § 4) has been read to prohibit the legislature from capping damages for death or personal injury.", "note": "" }
   }
 };

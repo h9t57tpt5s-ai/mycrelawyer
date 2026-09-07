@@ -226,6 +226,94 @@
     return { prob, note };
   }
 
+  // Adjusts a premises-liability injury claim's probability and/or damages
+  // for the plaintiff's own alleged comparative-fault percentage, per the
+  // state's fault-allocation RULE (merged into facts by collectFacts() in
+  // case-valuation.js from premisesLiabilityStateModifiers[state].faultRule).
+  // Different rules produce fundamentally different outcomes at the same
+  // fault percentage -- a rule-based branch, not a single formula:
+  //   Pure Contributory              -- ANY plaintiff fault (>0%) bars
+  //                                      recovery entirely.
+  //   Modified Comparative (50% Bar) -- barred once fault reaches 50%.
+  //   Modified Comparative (51% Bar) -- barred only once fault EXCEEDS 50%
+  //                                      (51%+).
+  //   Pure Comparative               -- damages reduced by the fault
+  //                                      percentage, no bar, ever.
+  //   Slight/Gross (South Dakota)    -- no percentage math; modeled
+  //                                      conservatively as barred once
+  //                                      alleged fault reaches 30%, since SD
+  //                                      case law has found fault that high
+  //                                      too much to qualify as "slight."
+  function computePremisesLiabilityFaultAdjustment(facts, baseProb, damagesLow, damagesHigh) {
+    const faultPct = typeof facts.plaintiffComparativeFaultPercent === "number" ? facts.plaintiffComparativeFaultPercent : 0;
+    const rule = facts.premisesFaultRule;
+    let prob = baseProb, low = damagesLow, high = damagesHigh, note = null;
+    if (!rule || !(faultPct > 0)) return { prob, low, high, note };
+    const citation = facts.premisesFaultRuleCitation ? ` (${facts.premisesFaultRuleCitation})` : "";
+    if (rule === "Pure Contributory") {
+      prob = [Math.min(prob[0], 0.03), Math.min(prob[1], 0.08)];
+      note = `${facts.state} is a pure contributory negligence jurisdiction${citation} -- ANY plaintiff fault, even ${faultPct}%, bars recovery entirely as a matter of law. Probability shown reflects only the small chance a court finds the plaintiff free of fault despite the alleged percentage.`;
+    } else if (rule === "Modified Comparative (50% Bar)") {
+      if (faultPct >= 50) {
+        prob = [Math.min(prob[0], 0.05), Math.min(prob[1], 0.12)];
+        note = `${facts.state} bars recovery once the plaintiff's fault reaches 50%${citation} -- at ${faultPct}% alleged fault, recovery is barred outright unless that percentage is successfully contested down.`;
+      } else {
+        const factor = 1 - faultPct / 100;
+        low *= factor; high *= factor;
+        note = `${facts.state} reduces recovery by the plaintiff's own fault percentage, barring recovery only at 50% or more${citation} -- damages reduced ${faultPct}% for the alleged comparative fault.`;
+      }
+    } else if (rule === "Modified Comparative (51% Bar)") {
+      if (faultPct > 50) {
+        prob = [Math.min(prob[0], 0.05), Math.min(prob[1], 0.12)];
+        note = `${facts.state} bars recovery once the plaintiff's fault exceeds 50%${citation} -- at ${faultPct}% alleged fault, recovery is barred outright unless that percentage is successfully contested down.`;
+      } else {
+        const factor = 1 - faultPct / 100;
+        low *= factor; high *= factor;
+        note = `${facts.state} reduces recovery by the plaintiff's own fault percentage, barring recovery only once it exceeds 50%${citation} -- damages reduced ${faultPct}% for the alleged comparative fault.`;
+      }
+    } else if (rule === "Pure Comparative") {
+      const factor = 1 - faultPct / 100;
+      low *= factor; high *= factor;
+      note = `${facts.state} is a pure comparative negligence jurisdiction${citation} -- damages reduced ${faultPct}% for the plaintiff's own alleged fault, with no bar regardless of how high that percentage runs.`;
+    } else if (rule.indexOf("Slight/Gross") === 0) {
+      if (faultPct >= 30) {
+        prob = [Math.min(prob[0], 0.05), Math.min(prob[1], 0.12)];
+        note = `South Dakota uses a unique "slight/gross" comparison rather than a percentage allocation${citation} -- courts have found alleged fault as low as 30% too much to qualify as "slight," which bars recovery outright. At ${faultPct}% alleged fault, treat recovery as barred absent a strong argument the plaintiff's conduct was genuinely minor.`;
+      } else {
+        note = `South Dakota uses a unique "slight/gross" comparison rather than a percentage allocation${citation} -- at ${faultPct}% alleged fault, this may still qualify as "slight" if the defendant's negligence was comparatively "gross," but the standard is vague and fact-specific; no formulaic damages reduction applies the way it would in a percentage-based state.`;
+      }
+    }
+    return { prob, low, high, note };
+  }
+
+  // Determines whether/how a punitive-damages claim can be added on top of
+  // an underlying premises-liability injury claim, using the state's
+  // punitive-damages evidentiary STANDARD and any confirmed CAP (merged
+  // into facts by collectFacts() from premisesLiabilityStateModifiers
+  // [state]). Several states genuinely prohibit punitive damages in an
+  // ordinary tort claim, or require a specific enabling statute -- those
+  // return prob [0, 0] rather than a nonzero number, per the same
+  // never-fabricate-precision discipline used throughout this file.
+  function computePunitiveDamagesAvailability(facts, compensatoryLow, compensatoryHigh) {
+    const standard = facts.premisesPunitiveDamagesStandard || "";
+    const capNote = facts.premisesPunitiveDamagesCap || "";
+    if (/^PROHIBITED/.test(standard)) {
+      return { prob: [0, 0], low: 0, high: 0, note: `Punitive damages are unavailable in ${facts.state} for an ordinary premises-liability claim: ${standard.replace(/^PROHIBITED -- /, "")}` };
+    }
+    if (/^STATUTE-ONLY/.test(standard)) {
+      return { prob: [0, 0.05], low: 0, high: compensatoryHigh * 0.5, note: `${facts.state} generally does not allow punitive damages absent a specific enabling statute: ${standard.replace(/^STATUTE-ONLY -- /, "")} Confirm whether a specific statute applies to this fact pattern before assuming this theory is viable at all.` };
+    }
+    let prob = [0.08, 0.20];
+    if (/BEYOND A REASONABLE DOUBT/.test(standard)) {
+      prob = [0.03, 0.10];
+    } else if (/^Preponderance/.test(standard)) {
+      prob = [0.12, 0.28];
+    }
+    const low = compensatoryLow * 0.5;
+    const high = compensatoryHigh * 1.5;
+    return { prob, low, high, note: `Requires proof the property owner's conduct was willful, wanton, or in reckless disregard of a known danger -- ordinary negligence alone never supports punitive damages. Evidentiary standard in ${facts.state}: ${standard || "not researched"}.${capNote ? " Cap: " + capNote : ""}` };
+  }
+
   function result(claimKey, label, probRange, damagesLow, damagesHigh, note, isBenchmark) {
     return {
       claimKey,
@@ -629,6 +717,86 @@
     return out;
   }
 
+  /* ---------- premises-liability ---------- */
+  function evalPremisesLiability(facts) {
+    const out = [];
+    const specials = facts.medicalSpecialsIncurred || 0;
+    const wages = facts.lostWagesClaimed || 0;
+    // "Multiplier method" general-damages tiers -- an industry rule-of-thumb
+    // range used throughout personal-injury claims practice (medical
+    // specials x a severity-tiered multiplier, with lost wages added
+    // separately, undiscounted), NOT itself drawn from a specific cited
+    // case. Actual jury/settlement values in a given matter can fall well
+    // outside these ranges.
+    const severityMultipliers = {
+      "minor": [1.5, 2.5],
+      "moderate": [2, 4],
+      "severe": [3, 5],
+      "catastrophic": [4, 8]
+    };
+    const mult = severityMultipliers[facts.injurySeverity] || [2, 4];
+    const damageNote = "Uses the general-damages \"multiplier method\" common in personal-injury claims practice (medical specials x a severity-tiered multiplier, plus lost wages added separately) -- an industry rule-of-thumb range, not itself drawn from a specific cited case; actual jury/settlement values in a given matter can fall well outside it.";
+
+    function pushInjuryClaim(claimKey, label, baseProb, extraNote) {
+      if (!(specials > 0)) return;
+      const rawLow = specials * mult[0] + wages;
+      const rawHigh = specials * mult[1] + wages;
+      const adj = computePremisesLiabilityFaultAdjustment(facts, baseProb, rawLow, rawHigh);
+      const note = [extraNote, damageNote, adj.note].filter(Boolean).join(" ");
+      out.push(result(claimKey, label, adj.prob, adj.low, adj.high, note));
+    }
+
+    if (facts.slipAndFallAlleged) {
+      let p = [0.35, 0.55];
+      let extraNote = "Slip-and-fall claims turn overwhelmingly on whether the property owner had actual or constructive NOTICE of the hazardous condition long enough before the injury to have fixed or warned of it -- most claims that fail, fail on notice, not on whether a hazard existed at all.";
+      if (facts.hazardNoticeProven === "yes") {
+        p = [0.55, 0.75];
+        extraNote += " Notice has been proven here, which materially improves the odds above the baseline range.";
+      } else if (facts.hazardNoticeProven === "no") {
+        p = [0.12, 0.28];
+        extraNote += " No notice evidence has been identified here, which materially worsens the odds below the baseline range -- see Albertsons, LLC v. Mohammadi (Tex. 2024), where knowledge of an upstream cause was held not to be evidence of knowledge of the specific hazard itself.";
+      }
+      pushInjuryClaim("slip_and_fall_hazardous_condition", "Slip-and-Fall / Hazardous Condition", p, extraNote);
+    }
+
+    if (facts.inadequateSecurityAlleged) {
+      let p = [0.18, 0.32];
+      let extraNote = "Inadequate/negligent-security claims require proving the criminal act was FORESEEABLE to the property owner -- a genuinely harder bar than an ordinary hazard claim, usually won or lost on whether similar incidents had happened before on the property or in its immediate vicinity.";
+      if (facts.priorSimilarCrimeIncidents) {
+        p = [0.45, 0.68];
+        extraNote += " Prior similar incidents have been identified here -- typically the single most important fact in this claim type (see Georgia CVS Pharmacy, LLC v. Carmichael, 316 Ga. 718 (2023)) -- which materially improves the odds.";
+      } else {
+        extraNote += " No prior similar incidents have been identified here, which is a real obstacle to establishing foreseeability.";
+      }
+      pushInjuryClaim("inadequate_security_third_party_crime", "Inadequate Security / Third-Party Criminal Act", p, extraNote);
+    }
+
+    if (facts.structuralFailureAlleged) {
+      const p = [0.40, 0.60];
+      const extraNote = "Structural/maintenance failures (collapsed railings, failed stairs, defective elevators, etc.) are typically easier to prove than a transient hazard like a spill, since the defect itself is durable and can usually be established through inspection and expert testimony rather than relying on notice timing alone.";
+      pushInjuryClaim("negligent_maintenance_structural_failure", "Negligent Maintenance / Structural Failure", p, extraNote);
+    }
+
+    if (facts.failureToWarnAlleged) {
+      let p = [0.35, 0.55];
+      let extraNote = "A failure-to-warn theory turns on whether the danger was hidden/non-obvious -- a genuinely obvious hazard defeats a pure failure-to-warn claim in most jurisdictions (the \"open and obvious\" doctrine), though a growing number of courts still allow a claim that the owner should have REMEDIED the condition even if it was obvious, rather than merely warning of it.";
+      if (facts.openAndObviousDefenseRaised) {
+        p = [0.15, 0.30];
+        extraNote += " The open-and-obvious defense has been raised here, which is a real and often successful defense specifically against a warning theory -- though check whether a separate failure-to-remedy theory survives even if the warning theory doesn't.";
+      }
+      pushInjuryClaim("dangerous_condition_failure_to_warn", "Dangerous Condition / Failure to Warn", p, extraNote);
+    }
+
+    if (facts.egregiousConductAllegedForPunitives && out.length) {
+      const compLow = out.reduce((s, c) => s + (c.damagesRange ? c.damagesRange[0] : 0), 0);
+      const compHigh = out.reduce((s, c) => s + (c.damagesRange ? c.damagesRange[1] : 0), 0);
+      const pun = computePunitiveDamagesAvailability(facts, compLow, compHigh);
+      out.push(result("premises_punitive_damages", "Punitive Damages", pun.prob, pun.low, pun.high, pun.note));
+    }
+
+    return out;
+  }
+
   const EVALUATORS = {
     "lease-disputes": evalLeaseDisputes,
     "lending-foreclosure": evalLendingForeclosure,
@@ -636,7 +804,8 @@
     "construction-defect": evalConstructionDefect,
     "environmental": evalEnvironmental,
     "eminent-domain": evalEminentDomain,
-    "zoning-land-use": evalZoningLandUse
+    "zoning-land-use": evalZoningLandUse,
+    "premises-liability": evalPremisesLiability
   };
 
   function evaluate(categorySlug, facts) {
