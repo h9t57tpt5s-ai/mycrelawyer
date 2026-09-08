@@ -3,25 +3,48 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Goldman Sachs — CREdocket</title>
-<meta name="description" content="Commercial real estate litigation matters tracked involving Goldman Sachs on CREdocket." />
+<title>Contribute a Settlement — CREdocket</title>
+<meta name="description" content="Upload a petition/complaint and its non-confidential settlement agreement to earn free Case Value Calculator credits — and help build the litigation-outcomes database that grounds every estimate on the site." />
 <meta property="og:type" content="website" />
 <meta property="og:site_name" content="CREdocket" />
-<meta property="og:title" content="Goldman Sachs — CREdocket" />
-<meta property="og:description" content="Commercial real estate litigation matters tracked involving Goldman Sachs on CREdocket." />
-<meta property="og:url" content="https://credocket.com/company-goldman-sachs.html" />
+<meta property="og:title" content="Contribute a Settlement — CREdocket" />
+<meta property="og:description" content="Upload a petition/complaint and its non-confidential settlement agreement to earn free Case Value Calculator credits." />
+<meta property="og:url" content="https://credocket.com/contribute-settlement.html" />
 <meta property="og:image" content="https://credocket.com/img/og-image.png" />
 <meta property="og:image:width" content="1200" />
 <meta property="og:image:height" content="630" />
 <meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:title" content="Goldman Sachs — CREdocket" />
-<meta name="twitter:description" content="Commercial real estate litigation matters tracked involving Goldman Sachs on CREdocket." />
+<meta name="twitter:title" content="Contribute a Settlement — CREdocket" />
+<meta name="twitter:description" content="Upload a petition/complaint and its non-confidential settlement agreement to earn free Case Value Calculator credits." />
 <meta name="twitter:image" content="https://credocket.com/img/og-image.png" />
 <link rel="icon" href="img/favicon.svg" type="image/svg+xml" />
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/styles.css" />
+<link rel="stylesheet" href="css/case-valuation.css" />
+<link rel="stylesheet" href="css/terms-gate.css" />
+<style>
+  /* Page-specific additions -- the shared .cv-ai-* dropzone/status classes
+     from css/case-valuation.css cover the upload UI; these cover the
+     two-dropzone layout, the certification checkbox, and the benchmarks
+     table specific to this page. */
+  .cs-dropzone-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-bottom: 20px; }
+  @media (max-width: 760px) { .cs-dropzone-grid { grid-template-columns: 1fr; } }
+  .cs-dropzone-label { font-size: 13px; font-weight: 600; color: var(--text-primary); margin-bottom: 8px; display: block; }
+  .cs-cert-row { display: flex; align-items: flex-start; gap: 10px; margin: 18px 0; padding: 14px; background: var(--bg-elevated); border: 1px solid var(--border); border-radius: 8px; }
+  .cs-cert-row input[type="checkbox"] { margin-top: 3px; flex-shrink: 0; }
+  .cs-cert-row label { font-size: 12.5px; line-height: 1.6; color: var(--text-secondary); }
+  .cs-submissions-table, .cs-benchmarks-table { width: 100%; border-collapse: collapse; font-size: 12.5px; }
+  .cs-submissions-table th, .cs-submissions-table td,
+  .cs-benchmarks-table th, .cs-benchmarks-table td { text-align: left; padding: 8px 10px; border-bottom: 1px solid var(--border-soft); }
+  .cs-submissions-table th, .cs-benchmarks-table th { font-family: var(--font-mono); font-size: 11px; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.03em; }
+  .cs-status-pill { font-family: var(--font-mono); font-size: 10.5px; border-radius: 999px; padding: 2px 9px; white-space: nowrap; }
+  .cs-status-pending_review { color: #b45309; background: color-mix(in srgb, #b45309 14%, transparent); }
+  .cs-status-flagged { color: #b45309; background: color-mix(in srgb, #b45309 14%, transparent); }
+  .cs-status-approved { color: #16a34a; background: color-mix(in srgb, #16a34a 14%, transparent); }
+  .cs-status-rejected { color: var(--text-muted); background: var(--bg-elevated); border: 1px solid var(--border); }
+</style>
     <script>
       window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
     </script>
@@ -74,7 +97,7 @@
           <a href="eviction-guide.html">Commercial Eviction Handbook</a>
           <a href="premises-liability-guide.html">Premises Liability / Negligence Guide</a>
           <a href="case-valuation.html">Case Value Calculator (Beta)</a>
-          <a href="contribute-settlement.html">Contribute a Settlement (Earn Credits)</a>
+          <a href="contribute-settlement.html" class="active">Contribute a Settlement (Earn Credits)</a>
           <a href="lien-deadline-calculator.html">Mechanic's Lien Deadline Calculator</a>
           <a href="ada-risk-flagging.html">ADA Title III Risk Flagging</a>
         </div>
@@ -90,14 +113,15 @@
 </nav>
 
 <header class="page-header">
+    <div class="page-header-photo"><img src="img/photos/office-building.jpg" alt="Commercial office building" loading="eager" /></div>
     <svg class="page-header-graphic" viewBox="0 0 640 400" fill="none" aria-hidden="true" preserveAspectRatio="xMaxYMid slice">
       <defs>
-        <radialGradient id="phGlow" cx="70%" cy="30%" r="60%">
+        <radialGradient id="phGlow3" cx="70%" cy="30%" r="60%">
           <stop offset="0" stop-color="var(--accent)" stop-opacity="0.16"/>
           <stop offset="1" stop-color="var(--accent)" stop-opacity="0"/>
         </radialGradient>
       </defs>
-      <rect x="0" y="0" width="640" height="400" fill="url(#phGlow)"/>
+      <rect x="0" y="0" width="640" height="400" fill="url(#phGlow3)"/>
       <circle cx="420" cy="120" r="3.5" fill="var(--status-pending)" opacity="0.8">
         <animate attributeName="r" values="3.5;5.5;3.5" dur="3s" repeatCount="indefinite"/>
       </circle>
@@ -106,55 +130,57 @@
       </circle>
     </svg>
   <div class="container">
-    <div class="eyebrow reveal in-view">Company Profile</div>
-    <h1 class="reveal in-view" style="font-size:clamp(2.2rem,4vw,3.4rem);">Goldman Sachs</h1>
-    <p class="lede mt-16 reveal in-view">Global investment bank that originates and securitizes commercial mortgage loans, and frequently appears as a lender or plaintiff in CMBS foreclosure litigation.</p>
+    <div class="eyebrow reveal in-view">Data Exchange</div>
+    <h1 class="reveal in-view" style="font-size:clamp(2.2rem,4vw,3.4rem);">Contribute a Settlement, Earn Free Credits</h1>
+    <p class="lede mt-16 reveal in-view">Private settlements are how most CRE litigation actually resolves — and they're the hardest data to get. Share a non-confidential one and earn free Case Value Calculator credits.</p>
   </div>
 </header>
 
 <section class="section-tight">
-  <div class="container">
-    <div class="card reveal" style="padding:24px; margin-bottom:32px;"><a href="https://www.goldmansachs.com" target="_blank" rel="noopener" class="btn btn-ghost btn-sm">Company website &#8599;</a></div>
-    <div class="grid-3 reveal-stagger mb-32" id="cp-stats"></div>
-
-    <div class="section-head reveal">
-      <div>
-        <div class="eyebrow">Matters Involving Goldman Sachs</div>
-        <h2 style="font-size:clamp(1.6rem,2.6vw,2.2rem);">Tracked on CREdocket</h2>
-      </div>
-      <p class="text-muted" style="max-width:420px; font-size:13.5px;">Matched by plain-text search of our sourced reporting — never inferred from partial name matches or guessed affiliations.</p>
+  <div class="container" style="max-width:820px;">
+    <div class="card reveal" style="padding:24px;">
+      <div class="eyebrow" style="margin-bottom:10px;">How It Works</div>
+      <p class="text-secondary" style="font-size:13.5px; line-height:1.7; margin-bottom:14px;">Upload the original petition or complaint for a matter, plus the settlement agreement, final order, or judgment that resolved it — as long as that resolution is <strong>not</strong> subject to a confidentiality or non-disclosure provision. We extract the key facts (claim type, property type, jurisdiction, claimed vs. settled amount, what drove the outcome), and a real person reviews every submission before anything is published or any credit is granted.</p>
+      <p class="text-secondary" style="font-size:13.5px; line-height:1.7; margin-bottom:14px;">Once approved, you typically earn <strong>3 free analysis credits</strong> for the Case Value Calculator's document-upload tool (exact amount is at the reviewer's discretion for unusually valuable or thin submissions). Your contribution is folded into aggregate, de-identified benchmarks — party names, case captions, and docket numbers are <strong>never</strong> published; only ranges, medians, and counts, and only once at least 3 contributions exist for a given category/state/property-type combination.</p>
+      <p class="text-muted" style="font-size:12.5px; line-height:1.7;">Not every submission is approved — a duplicate, a matter that's actually still confidential, or documents we can't verify won't earn credits. This is general information, not legal advice, and submitting here doesn't create any attorney-client relationship with CREdocket or anyone at it.</p>
     </div>
-    <div class="grid-3 reveal-stagger" id="cp-case-grid"></div>
-
-    <div class="card cta-photo-card reveal mt-40" style="padding:40px; display:flex; align-items:center; justify-content:space-between; gap:24px; flex-wrap:wrap;">
-      <div class="cta-photo-bg"><img src="img/photos/office-building.jpg" alt="" aria-hidden="true" loading="lazy" /></div>
-      <div>
-        <h2 style="font-size:clamp(1.4rem,2.2vw,1.8rem);">Tracking litigation exposure involving Goldman Sachs?</h2>
-        <p class="text-secondary mt-16" style="max-width:440px;">Whether it's your own company or a counterparty, it's worth a conversation before it becomes a bigger problem.</p>
-      </div>
-      <a href="contact.html?matter=Matter%20involving%20Goldman%20Sachs" class="btn btn-primary">
-        Discuss This
-        <svg viewBox="0 0 24 24" fill="none"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
-      </a>
-    </div>
-    <p class="text-muted mt-24" style="font-size:13px;">
-      <a href="companies.html" class="text-accent" style="display:inline;">View all companies &amp; parties &rarr;</a>
-    </p>
   </div>
 </section>
 
-<section class="newsletter-band">
-  <div class="container">
-    <div class="newsletter-card">
-      <div class="newsletter-card-text">
-        <div class="eyebrow" style="margin-bottom:10px;">Stay Ahead</div>
-        <h2 style="font-size:clamp(1.4rem,2.2vw,1.9rem);">Get the litigation digest in your inbox</h2>
-        <p class="text-secondary mt-16">New matters, rulings, and regulatory actions — delivered as they're tracked.</p>
-      </div>
-      <div class="newsletter-embed">
-        <script async src="https://subscribe-forms.beehiiv.com/v3/loader.js" data-beehiiv-form="6fe66572-cbbf-4d3d-9c0e-1aafbf2857ca"></script>
+<section class="section-tight">
+  <div class="container" style="max-width:820px;">
+    <div class="section-head reveal">
+      <div>
+        <div class="eyebrow">Submit a Matter</div>
+        <h2 style="font-size:clamp(1.4rem,2.2vw,1.9rem);">Upload both documents</h2>
       </div>
     </div>
+    <div id="cs-host"><div class="gate-card is-loading">Loading…</div></div>
+  </div>
+</section>
+
+<section class="section-tight">
+  <div class="container" style="max-width:820px;">
+    <div class="section-head reveal">
+      <div>
+        <div class="eyebrow">Your Submissions</div>
+        <h2 style="font-size:clamp(1.2rem,2vw,1.6rem);">Status of what you've contributed</h2>
+      </div>
+    </div>
+    <div id="cs-submissions-host"><p class="text-muted" style="font-size:13px;">Sign in to see your submission history.</p></div>
+  </div>
+</section>
+
+<section class="section-tight">
+  <div class="container" style="max-width:900px;">
+    <div class="section-head reveal">
+      <div>
+        <div class="eyebrow">Contributed Benchmarks</div>
+        <h2 style="font-size:clamp(1.2rem,2vw,1.6rem);">Aggregate ranges from approved contributions</h2>
+      </div>
+    </div>
+    <p class="text-secondary reveal" style="max-width:680px; margin-bottom:16px; font-size:13px;">Free and public — no individual submission is ever shown here, only de-identified aggregates once at least 3 contributions exist for a given slice.</p>
+    <div id="cs-benchmarks-host"><div class="gate-card is-loading">Loading…</div></div>
   </div>
 </section>
 
@@ -183,6 +209,8 @@
         <a href="settlement-benchmarks.html">Settlement &amp; Verdict Benchmarks</a>
         <a href="eviction-guide.html">Commercial Eviction Handbook</a>
         <a href="premises-liability-guide.html">Premises Liability / Negligence Guide</a>
+        <a href="case-valuation.html">Case Value Calculator (Beta)</a>
+        <a href="contribute-settlement.html">Contribute a Settlement (Earn Credits)</a>
         <a href="lien-deadline-calculator.html">Mechanic's Lien Deadline Calculator</a>
         <a href="ada-risk-flagging.html">ADA Title III Risk Flagging</a>
         <a href="account.html">Watchlists</a>
@@ -201,7 +229,7 @@
       </div>
     </div>
     <div class="footer-bottom">
-      <span>&copy; <span data-year></span> CREdocket. Litigation intelligence sourced from ongoing legal research.</span>
+      <span>© <span data-year></span> CREdocket. Litigation intelligence sourced from ongoing legal research.</span>
       <span>Not legal advice. For informational purposes only.</span>
     </div>
   </div>
@@ -213,55 +241,15 @@
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script>
 <script src="js/supabase-client.js"></script>
 <script src="js/auth.js"></script>
-<script src="js/trending.js"></script>
-<script src="js/search.js"></script>
 <script src="js/motion.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mammoth/1.6.0/mammoth.browser.min.js"></script>
+<script src="js/contribute-settlement.js"></script>
+<script src="js/terms-gate.js"></script>
 <script>
-  (function () {
-    const COMPANY_NAME = "Goldman Sachs";
-    const MATCH_TERM = null;
-
-    function fieldsOf(c) {
-      // Deliberately excludes `significance` and `body` — those sections often
-      // discuss OTHER companies for comparison/context (e.g. "modeled on the
-      // RealPage litigation") without that company being a party to the matter.
-      // title/summary/tags describe what actually happened and who's involved.
-      return [c.title, c.summary, (c.tags || []).join(" "), c.jurisdiction].join(" ").toLowerCase();
-    }
-
-    const q = (MATCH_TERM || COMPANY_NAME).toLowerCase();
-    const matches = RELAW_DATA.cases.filter((c) => fieldsOf(c).includes(q))
-      .sort((a, b) => new Date(b.date) - new Date(a.date));
-
-    // Stats row
-    const catMap = Object.fromEntries(RELAW_DATA.categories.map((c) => [c.id, c]));
-    const cats = [...new Set(matches.map((c) => c.category))];
-    const states = [...new Set(matches.map((c) => c.state).filter(Boolean))];
-    const dates = matches.map((c) => c.date).sort();
-    const statsGrid = document.getElementById("cp-stats");
-    statsGrid.innerHTML = `
-      <div class="card reveal" style="text-align:center; padding:24px;">
-        <div class="mono" style="font-size:2rem; font-weight:600; color:var(--accent);">${matches.length}</div>
-        <div class="text-muted" style="font-size:12px; text-transform:uppercase; letter-spacing:0.04em; margin-top:6px;">Matter${matches.length === 1 ? "" : "s"} Tracked</div>
-      </div>
-      <div class="card reveal" style="padding:24px;">
-        <div class="text-muted" style="font-size:12px; text-transform:uppercase; letter-spacing:0.04em; margin-bottom:10px;">Practice Areas</div>
-        <div style="display:flex; flex-wrap:wrap; gap:6px;">
-          ${cats.length ? cats.map((id) => { const cat = catMap[id]; return `<span class="badge" style="background:color-mix(in srgb, ${cat.color} 16%, transparent); color:${cat.color}; border:1px solid color-mix(in srgb, ${cat.color} 35%, transparent);"><span class="badge-dot" style="background:${cat.color}"></span>${cat.label}</span>`; }).join("") : `<span class="text-muted" style="font-size:13px;">&mdash;</span>`}
-        </div>
-      </div>
-      <div class="card reveal" style="padding:24px;">
-        <div class="text-muted" style="font-size:12px; text-transform:uppercase; letter-spacing:0.04em; margin-bottom:6px;">Coverage Window</div>
-        <div style="font-size:14px; font-weight:600;">${dates.length ? `${new Date(dates[0] + "T00:00:00").toLocaleDateString("en-US", {month:"short",year:"numeric"})} &ndash; ${new Date(dates[dates.length-1] + "T00:00:00").toLocaleDateString("en-US", {month:"short",year:"numeric"})}` : "&mdash;"}</div>
-        <div class="text-muted mono" style="font-size:11.5px; margin-top:6px;">${states.length ? states.join(", ") : ""}</div>
-      </div>`;
-
-    const grid = document.getElementById("cp-case-grid");
-    grid.innerHTML = matches.length
-      ? matches.map(window.RELAW_UTILS.caseCardHtml).join("")
-      : `<p class="text-secondary">No matters currently tracked for ${COMPANY_NAME} — check back as coverage grows.</p>`;
-    document.querySelectorAll(".reveal, .card").forEach((el) => el.classList.add("in-view"));
-  })();
+  window.RELAW_TERMS_GATE.gate("contribute-settlement", {
+    summary: "Contributing a settlement is voluntary and for informational/benchmarking purposes only — not legal advice, and it does not create an attorney-client relationship with CREdocket. You are solely responsible for confirming the settlement you upload is not subject to any confidentiality or non-disclosure obligation. Please review and accept the terms below before continuing."
+  });
 </script>
 </body>
 </html>

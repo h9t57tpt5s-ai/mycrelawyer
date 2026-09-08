@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Settlement Contribution Review — CREdocket Admin</title>
+<meta name="robots" content="noindex, nofollow" />
+<link rel="icon" href="img/favicon.svg" type="image/svg+xml" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css" />
+<style>
+  body { background: var(--bg); }
+  .adm-wrap { max-width: 980px; margin: 0 auto; padding: 32px 20px 80px; }
+  .adm-header { display: flex; align-items: center; justify-content: space-between; margin-bottom: 24px; }
+  .adm-item { border: 1px solid var(--border); border-radius: 10px; padding: 20px; margin-bottom: 16px; background: var(--bg-elevated); }
+  .adm-item-top { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 8px; margin-bottom: 12px; }
+  .adm-tag-row { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 12px; }
+  .adm-doc { max-height: 260px; overflow-y: auto; background: var(--bg); border: 1px solid var(--border); border-radius: 6px; padding: 10px; font-family: var(--font-mono); font-size: 11.5px; line-height: 1.6; white-space: pre-wrap; color: var(--text-secondary); margin-bottom: 8px; }
+  .adm-doc-label { font-size: 11px; font-family: var(--font-mono); text-transform: uppercase; letter-spacing: 0.03em; color: var(--text-muted); margin: 10px 0 4px; }
+  .adm-actions { display: flex; gap: 10px; align-items: center; margin-top: 14px; }
+  .adm-flag-banner { font-size: 12.5px; color: #b45309; background: color-mix(in srgb, #b45309 12%, transparent); border: 1px solid color-mix(in srgb, #b45309 30%, transparent); border-radius: 6px; padding: 8px 12px; margin-bottom: 12px; }
+</style>
+</head>
+<body>
+<div class="adm-wrap">
+  <div class="adm-header">
+    <div>
+      <div class="eyebrow">Internal — Not Public</div>
+      <h1 style="font-size:1.6rem;">Settlement Contribution Review</h1>
+    </div>
+    <a href="index.html" class="btn btn-ghost btn-sm">Back to Site</a>
+  </div>
+  <div id="adm-host"><div class="gate-card is-loading">Checking access…</div></div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script>
+<script src="js/supabase-client.js"></script>
+<script src="js/auth.js"></script>
+<script src="js/admin-settlement-review.js"></script>
+</body>
+</html>
