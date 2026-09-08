@@ -93,11 +93,12 @@ const CASE_VALUATION_DATA = {
             "label": "Statutory Holdover Damages",
             "appliesIf": "heldOverAfterTerm && state.holdoverStatutoryPenalty === true",
             "baseProbability": [
-              0.8,
-              0.95
+              0.35,
+              0.55
             ],
+            "note": "REVISED DOWN from an original [0.80, 0.95] after a deeper citation pass found 5 of 7 real cases in the sample are landlord LOSSES on the enhanced multiplier specifically -- each on an independent ground (no willfulness where required, no timely demand, or a colorable good-faith claim of a continuing right to occupy). See Cheetah Properties 1, LLC v. Panther Pressure Testers, Inc., 2016 ND 102; Mel-Lo Enterprises, Inc. v. Belle Starr Saloon, Inc., 716 S.W.2d 828 (Mo. Ct. App. 1986); plus the file's existing Baca v. Kuang, Lincoln Oldsmobile v. Branch, and Spatz v. 2263 North Lincoln Corp. citations.",
             "damages": {
-              "formula": "monthlyRent * 1.5 * holdoverMonths (low) to monthlyRent * 2 * holdoverMonths (high)",
+              "formula": "monthlyRent * 1.5 * holdoverMonths (low) to monthlyRent * 2 * holdoverMonths (high), IF the multiplier applies at all",
               "note": "Per counsel-of-record review: highly fact/lease specific, but a flat 3x multiplier is uncommon in practice and overstated the typical case; 1.5x-2x is more realistic, and a holdover fact pattern itself is a relatively rare subtype of lease dispute (most lease disputes are nonpayment or abandonment, not holdover)."
             }
           },
@@ -708,10 +709,10 @@ const CASE_VALUATION_DATA = {
             "label": "Variance / Permit Denial Appeal",
             "appliesIf": "varianceOrPermitDenied && appealFiled",
             "baseProbability": [
-              0.25,
-              0.45
+              0.30,
+              0.50
             ],
-            "note": "Small 4-case sample roughly consistent with the original estimate (2 reversed, 1 affirmed, 1 undisclosed-on-remand) — kept unchanged pending a larger sample.",
+            "note": "Modest upward revision from [0.25, 0.45] after a deeper citation pass expanded the sample to 10 cases, of which roughly 6 of 8 decisive outcomes reversed/vacated/remanded the denial (Calista Enterprises v. Oxford Bd. of Zoning Appeals, 2025-Ohio-1692; Craft Custom Homes v. Zoning Hearing Bd. of Newtown Twp. (2024); D'Angelo v. Zoning Board, 229 A.D.2d 945 (1996); plus the file's existing Lockaway Storage, Sam Commercial Properties, and Smoking Tree citations), against Palmer v. Susquehanna Twp. ZHB and Franklin Sq. Realty as clear municipality wins. Kept the bump modest rather than moving to match the raw 6-of-8 rate, since courts publishing a reversal may still be somewhat more citable/notable than a routine affirmance -- the same outcome-selection-bias caveat this file applies elsewhere.",
             "damages": {
               "formula": "not typically a damages claim -- injunctive relief (permit ordered granted) or remand",
               "isRange": false
@@ -940,6 +941,39 @@ const CASE_VALUATION_DATA = {
         "sourceUrl": "https://law.justia.com/cases/federal/appellate-courts/ca7/23-1489/23-1489-2024-04-24.html",
         "confidence": "high",
         "notes": "A strong, current, appellate-affirmed illustration of two compounding features this claim type should account for when a corporate guarantor is involved: (1) a multi-year unpaid-rent exposure period (4.5+ years here) plus statutory/contractual interest can dwarf the base monthly rent figure, and (2) a broadly-worded guaranty waiver-of-defenses clause can foreclose essentially every defense the guarantor might otherwise raise, including ones related to the landlord's own subsequent default and foreclosure. dollarAmount left null since the specific total judgment figure (rent x 55+ months x lease rate, plus compounding 9% interest) was not independently confirmed from available sources, though the multi-year exposure period itself is well documented."
+      },
+      {
+        "caseName": "Delshah 60 Ninth, LLC v. Free People of PA LLC",
+        "citation": "Nos. 25-148 & 25-237 (2d Cir. May 5, 2026)",
+        "jurisdiction": "Federal (2d Cir., applying NY law)",
+        "year": 2026,
+        "outcome": "Landlord Delshah won summary judgment in the district court on its breach-of-contract claim for $6,707,916.84 in unpaid rent against retail tenant Free People, which had stopped paying rent when NYC's COVID-19 emergency orders shut down non-essential retail in March 2020. The Second Circuit REVERSED, holding the lease's takings/casualty provision excused rent because the government orders prevented Free People from operating its brick-and-mortar clothing store -- even though the tenant retained some minimal physical access to the space -- distinguishing 'inability to operate the business' from 'total loss of access.' The court granted summary judgment to the tenant instead on its own breach-of-contract counterclaim.",
+        "dollarAmount": 6707916,
+        "sourceUrl": "https://caselaw.findlaw.com/court/us-2nd-circuit/118329373.html",
+        "confidence": "high",
+        "notes": "A significant, CURRENT (2026) appellate-level tenant win directly contradicting the more landlord-friendly COVID-rent outcomes already in this dataset (e.g., SVAP III Poway Crossings). Confirms that lease-specific takings/casualty clause language -- not a generic force-majeure argument -- can still excuse rent for a pandemic-era closure period years after most COVID rent litigation resolved in landlords' favor; the outcome turns entirely on the particular clause's wording, which should be checked lease-by-lease. Also reported at law.justia.com/cases/federal/appellate-courts/ca2/25-148/25-148-2026-05-05.html."
+      },
+      {
+        "caseName": "Newark Shopping Ctr. Owner, L.L.C. v. Saudades Group, LLC",
+        "citation": "N23C-02-091 JRJ (Del. Super. Ct. Jan. 27, 2025)",
+        "jurisdiction": "DE",
+        "year": 2025,
+        "outcome": "After a one-day bench trial, the court found for the landlord on breach of a commercial lease and guaranty, holding the tenant (a restaurant operator) breached by never opening for business. However, the court held the lease's liquidated-damages provision was VOID as against public policy (an unenforceable penalty), and instead awarded the landlord only actual proven damages: $352,525.49 in unpaid rent plus $58,229.44 in attorney's fees and litigation costs.",
+        "dollarAmount": 352525,
+        "sourceUrl": "https://courts.delaware.gov/Opinions/Download.aspx?id=375990",
+        "confidence": "high",
+        "notes": "Useful real-world illustration that a landlord can win on liability yet still lose the liquidated-damages multiplier it drafted for, recovering only actual unpaid rent instead -- reinforcing that this claim type's damages formula (unpaidRentAmount, not a multiplier) is the right default absent a separately-vetted enforceable liquidated-damages clause. Case caption sometimes rendered 'Newark Shopping Center Owner, LLC v. Saudades Group, LLC, et al.'; individual guarantors Phillip and Pamela Piraino were co-defendants."
+      },
+      {
+        "caseName": "Kapneck 14-16, LLC v. Bkeezy's Speakeasy, LLC",
+        "citation": "No. 33, Sept. Term 2025, 2026 WL 1158049 (Md. Apr. 29, 2026)",
+        "jurisdiction": "MD",
+        "year": 2026,
+        "outcome": "Landlord leased retail space to a beer-and-wine store tenant that stayed current on base rent but fell behind on other lease charges (utilities, taxes, late fees) defined as 'Additional Rent.' The landlord filed a summary ejectment action based partly on charges the tenant only learned of after suit was filed. The Supreme Court of Maryland held (1) the residential pre-suit notice statute does not apply to nonresidential tenancies, but (2) a landlord may obtain possession in a summary ejectment action only for rent that was actually due and unpaid under the lease AS OF THE FILING -- a summary ejectment action cannot be predicated on charges the tenant first learns of after the case is filed.",
+        "dollarAmount": null,
+        "sourceUrl": "https://www.mdcourts.gov/data/opinions/coa/2026/33a25.pdf",
+        "confidence": "medium",
+        "notes": "DOCTRINAL CITATION, not a dollar comparable -- no damages figure was confirmed from available sources. Included because it's a current, high-court-level clarification of what counts as 'rent due and unpaid' for commercial nonpayment proceedings specifically (as opposed to residential), and of the notice a landlord must give the tenant before including ancillary charges (taxes, utilities, fees) in that rent figure -- directly relevant to whether a given unpaidRentAmount figure will actually support the pursued remedy."
       }
     ],
     "accelerated_rent": [
@@ -1019,6 +1053,39 @@ const CASE_VALUATION_DATA = {
         "sourceUrl": "https://www.richmaylaw.com/case-alert-a-massachusetts-appeals-court-strikes-down-a-commercial-landlords-right-to-collect-acceleration-of-rent-on-tenant-default/",
         "confidence": "high",
         "notes": "The landlord's 2007 win here (large accelerated-rent recovery upheld despite re-letting) versus its 2022 loss in the companion Hines citation above turns on exactly the distinction this claim's damages formula is built around -- properly accounting for re-let income versus impermissibly double-dipping."
+      },
+      {
+        "caseName": "Elk 33 E. 33rd LLC v. Sticky's Corporate LLC",
+        "citation": "228 A.D.3d 455, 2024 NY Slip Op 03132 (1st Dep't 2024)",
+        "jurisdiction": "NY",
+        "year": 2024,
+        "outcome": "Trial court granted the landlord summary judgment for $576,069.05 on its accelerated-rent cause of action against the tenant and its corporate and 'good guy' guarantors. On appeal, the landlord conceded it had relet the premises and begun collecting a new tenant's rent as of January 2023 -- yet still sought to keep the full accelerated-rent judgment. The First Department held the lease permitted the landlord to accelerate rent OR to relet and collect actual/anticipated rent, but NOT both simultaneously without netting one against the other.",
+        "dollarAmount": 576069,
+        "sourceUrl": "https://www.nycourts.gov/reporter/3dseries/2024/2024_03132.htm",
+        "confidence": "high",
+        "notes": "Directly reinforces this claim's reletOverride mechanic (net future rent = gross future rent minus actual/anticipated overlapping new rent, BEFORE PV discounting) with a current, real dollar figure -- a live, current-law illustration of the same double-dip problem the existing 2022 Cummings Properties v. Hines citation identifies. Related First Department authority on similar acceleration-clause limits: ALQ, LLC v. Kane, 197 A.D.3d 1029 (1st Dep't 2021) (no dual remedy); Chelsea 8th Ave. LLC v. Chelseamilk LLC, 220 A.D.3d 565 (1st Dep't 2023) (no acceleration while tenant remains in possession)."
+      },
+      {
+        "caseName": "Hourglass Entertainment, LLC v. NRG Investments, Inc.",
+        "citation": "50 Fla. L. Weekly D1538, No. 2D2024-1251 (Fla. 2d DCA 2025)",
+        "jurisdiction": "FL",
+        "year": 2025,
+        "outcome": "Landlord NRG sued tenant Hourglass over a parking-lot lease after Hourglass stopped paying rent in April 2021 while remaining contractually obligated through the lease's August 2024 expiration. The trial court's amended final judgment awarded $39,858 in damages, calculated using the full 40-month unpaid period through August 2024 -- but that period ran roughly four months PAST the date of the judgment itself. The Second District Court of Appeal held it was error to award rent for the four months between the judgment date and lease expiration because the lease contained NO express acceleration clause, and Florida law does not allow a landlord to recover future/unaccrued rent absent one.",
+        "dollarAmount": 39858,
+        "sourceUrl": "https://law.justia.com/cases/florida/second-district-court-of-appeal/2025/2d2024-1251.html",
+        "confidence": "high",
+        "notes": "A clean, current, small-dollar illustration of the gate condition already built into this claim's damages model ('No confirmed acceleration clause' drops probability to 0.15-0.3) -- confirms Florida courts will affirmatively strike out the unaccrued portion of a damages award, not just discount it, when no acceleration clause exists. Consistent with the existing Austin Hill Country Realty v. Palisades Plaza (Tex. 1997) mitigation-duty citation in spirit: both limit what a landlord can collect for the remaining term absent specific contractual authority."
+      },
+      {
+        "caseName": "Newman Development Group of Pottstown, LLC v. Genuardi's Family Market, Inc.",
+        "citation": "52 A.3d 1233, 617 Pa. 265 (Pa. 2012); on remand, 98 A.3d 645, 2014 Pa. Super. 173 (2014)",
+        "jurisdiction": "PA",
+        "year": 2012,
+        "outcome": "Landlord sued a supermarket tenant and its corporate successor for breach of a long-term ground/commercial lease. Following a bench trial in the Court of Common Pleas of Chester County, the case turned in part on how to calculate damages under the lease's Section 20.2.2 formula, including whether and how those damages should be reduced to present value -- a Pennsylvania Supreme Court justice specifically noted disagreement over 'the reduction to present value of the Section 20.2.2 damages.' The Supreme Court's principal holding addressed a procedural question (whether post-trial motions were required after a remand), sending the substantive damages dispute back for further proceedings culminating in the 2014 Superior Court decision.",
+        "dollarAmount": null,
+        "sourceUrl": "https://www.courtlistener.com/opinion/2249897/newman-dev-group-of-pottstown-llc-v-genuardis-family-mkt-inc/",
+        "confidence": "medium",
+        "notes": "INCOMPLETE VERIFICATION: the final dollar amount ultimately awarded was not independently confirmed from available sources -- only that present-value discounting of a contractual future-rent damages formula was a genuinely contested, appellately-significant issue in this case (parallel to the HealthSouth Rehabilitation Corp. v. Falcon Management Co. and Village at Brocks Gap present-value citations already in this dataset). Cited for that damages-methodology significance (62+ citing cases per CourtListener), not as a clean dollar comparable -- verify the final Superior Court damages figure directly before relying on any number from this matter."
       }
     ],
     "releasing_mitigation_costs": [
@@ -1043,6 +1110,28 @@ const CASE_VALUATION_DATA = {
         "url": "https://www.courts.nh.gov/sites/g/files/ehbemt471/files/documents/2026-03/20250067.pdf",
         "confidence": "medium",
         "notes": "This is a Rule 3 summary-disposition-style appellate order; the specific dollar figures for the landlord-work and tenant-allowance line items were not independently confirmed from secondary reporting, only that the trial court's recovery theory itself was affirmed on appeal. Useful as current (2026), state-supreme-court-level confirmation that landlord-work and tenant-allowance costs are a recognized, recoverable damages category after tenant breach -- corroborating the Village at Brocks Gap citation above with a second, independent jurisdiction."
+      },
+      {
+        "caseName": "NCO Financial Systems, Inc. v. Montgomery Park, LLC",
+        "citation": "918 F.3d 388 (4th Cir. 2019)",
+        "jurisdiction": "Federal (4th Cir., applying MD law)",
+        "year": 2019,
+        "outcome": "In a long-running dispute over a 12-year commercial office lease in Baltimore (this being the second of several appeals in the same litigation), the Fourth Circuit clarified the scope of a commercial landlord's obligation to mitigate damages after a tenant's early termination/breach: if a landlord fails to properly mitigate (e.g., by making reasonable efforts to re-let, which can include efforts that generate re-leasing costs), that failure only REDUCES the damages recoverable -- it does not categorically bar the landlord's damages claim altogether.",
+        "dollarAmount": null,
+        "sourceUrl": "https://www.courtlistener.com/opinion/4600526/nco-financial-systems-inc-v-montgomery-park-llc/",
+        "confidence": "medium",
+        "notes": "DOCTRINAL CITATION -- no dollar amount for re-leasing costs specifically was confirmed from available sources, and this litigation has multiple related opinions (842 F.3d 816 (4th Cir. 2016); a further 2025 appeal at 134 F.4th 265) addressing different sub-issues in the same underlying lease dispute; verify which opinion covers which issue before citing a specific holding. Useful for this claim type because it establishes the CEILING on the mitigation-failure risk: a landlord's re-leasing costs and effort are not all-or-nothing -- imperfect mitigation shrinks the recovery rather than zeroing it out, which supports this claim's damages formula using a modest haircut (0.85-1.0 of costs) rather than a steeper discount tied to mitigation-effort disputes."
+      },
+      {
+        "caseName": "Naiman Richmond Properties, Ltd. v. Brand Castle, L.L.C.",
+        "citation": "2024-Ohio-2910 (8th Dist. Ct. App., Cuyahoga Cnty., Aug. 15, 2024)",
+        "jurisdiction": "OH",
+        "year": 2024,
+        "outcome": "A prospective commercial tenant (Brand Castle) never took possession of leased space -- the landlord never provided keys and the tenant never occupied the premises -- and the parties' lease-related damages provision was triggered on that non-commencement/breach. The trial court awarded the landlord approximately $265,595.86, reported as the cost of renovations/improvements the landlord had performed as consideration for arranging a more lucrative replacement lease with a new tenant, rejecting the defaulting tenant's argument that the landlord failed to satisfy its duty to mitigate. The Eighth District affirmed.",
+        "dollarAmount": 265595,
+        "sourceUrl": "https://www.supremecourt.ohio.gov/rod/docs/pdf/8/2024/2024-Ohio-2910.pdf",
+        "confidence": "medium",
+        "notes": "PARTIAL VERIFICATION: the primary source (the opinion itself) confirms the breach, the mitigation-defense rejection, and that the lease's own damages formula governed -- but the precise $265,595.86 figure and its exact characterization as 'renovation cost' damages come from secondary reporting/search-derived summaries, not from a direct read of the full opinion text, so treat that specific number with more caution than the primary-source-confirmed citations in this dataset. If accurate, it is a good illustration that 'releasing/mitigation cost' damages can be measured by what the landlord spent to LAND a replacement deal, not only by out-of-pocket repair costs for the vacated space."
       }
     ],
     "holdover_damages": [
@@ -1111,6 +1200,28 @@ const CASE_VALUATION_DATA = {
         "sourceUrl": "https://caselaw.findlaw.com/court/tx-supreme-court/1651463.html",
         "confidence": "high",
         "notes": "Directly relevant to what a landlord's damages can look like when a holdover tenant isn't just failing to pay double rent, but is actively blocking the landlord's ability to strike a NEW deal with a replacement tenant or vendor -- a real, substantial (~$1.5M jury-awarded, high-court-affirmed-in-part) tort theory beyond the statutory holdover penalty modeled elsewhere in this claim type's damages formula. Worth flagging as a distinct, additive damages theory when facts show the holdover specifically obstructed an identifiable replacement deal, not just ordinary continued occupancy."
+      },
+      {
+        "caseName": "Cheetah Properties 1, LLC v. Panther Pressure Testers, Inc.",
+        "citation": "2016 ND 102, 879 N.W.2d 423",
+        "jurisdiction": "ND",
+        "year": 2016,
+        "outcome": "Landlord Cheetah Properties appealed a district court judgment finding that commercial tenant Panther Pressure Testers did NOT 'willfully' hold over after its lease ended, which defeated the landlord's claim for statutory double damages for the holdover period. The district court also denied the landlord's request for attorney's fees. The North Dakota Supreme Court affirmed, rejecting the landlord's holdover claim.",
+        "dollarAmount": null,
+        "sourceUrl": "https://www.courtlistener.com/opinion/?q=Cheetah+Properties+Panther+Pressure+Testers",
+        "confidence": "medium",
+        "notes": "DOLLAR AMOUNT NOT CONFIRMED. A landlord-LOSES counter-example on the 'willfulness' element some states require before a holdover multiplier applies -- joins Spatz v. 2263 North Lincoln Corp. (good-faith colorable claim of right) and Lincoln Oldsmobile v. Branch (no retroactive demand) already in this dataset as a third, independent way a holdover multiplier claim can fail even where the tenant did, in fact, remain in possession past term. Cited 12 times per CourtListener, suggesting real doctrinal weight in jurisdictions with a willfulness requirement."
+      },
+      {
+        "caseName": "Mel-Lo Enterprises, Inc. v. Belle Starr Saloon, Inc.",
+        "citation": "716 S.W.2d 828 (Mo. Ct. App. 1986)",
+        "jurisdiction": "MO",
+        "year": 1986,
+        "outcome": "Commercial landlord sued a saloon tenant seeking $34,200 in unpaid rent, interest, property-damage costs, AND double rent for a holdover period under the lease's holdover clause. The trial court awarded the landlord only $11,400 in unpaid rent and denied all other requested categories, including the double-rent holdover claim; the Missouri Court of Appeals affirmed this partial, reduced recovery.",
+        "dollarAmount": 11400,
+        "sourceUrl": "https://www.courtlistener.com/opinion/?q=Mel-Lo+Enterprises+Belle+Starr+Saloon",
+        "confidence": "medium",
+        "notes": "PARTIAL VERIFICATION -- confirmed via case-law search summary rather than a full read of the opinion; treat the precise reasoning for denying the double-rent claim with some caution pending direct verification. A good, older but clean illustration that a facially plausible holdover multiplier claim (properly pled, tied to an actual lease clause) can still be denied in whole by the trial court, with the landlord recovering only a fraction (about 33%) of what it originally sought across all categories combined."
       }
     ],
     "attorney_fees": [
@@ -1168,6 +1279,28 @@ const CASE_VALUATION_DATA = {
         "url": null,
         "confidence": "high",
         "notes": "Same filing as the accelerated_rent and releasing_mitigation_costs citations for this category. Anchors the LOW/uncontested end of the fee-to-damages ratio for a large accelerated-rent claim -- do not extrapolate this ratio to a contested matter; contrast with the smaller claims in this array, where fees run a much higher percentage of the principal. No public URL available for this record -- verify via the case number and court above."
+      },
+      {
+        "caseName": "Pryority Partnership v. AMT Properties, LLC",
+        "citation": "No. E2020-00511-COA-R3-CV (Tenn. Ct. App. Mar. 10, 2021)",
+        "jurisdiction": "TN",
+        "year": 2021,
+        "outcome": "Commercial tenant sued its landlord for breach of lease, negligent misrepresentation (about the condition of and the landlord's intent to repair the building's roof), and constructive eviction after the landlord failed to timely repair the building and keep it tenantable. The trial court found for the tenant on all theories, awarding $193,006.35 in compensatory damages plus $69,002.68 in attorney's fees under the lease's fee-shifting clause; the Court of Appeals affirmed in full, finding no reversible error.",
+        "dollarAmount": 69002,
+        "sourceUrl": "https://www.courtlistener.com/opinion/?q=Pryority+Partnership+AMT+Properties",
+        "confidence": "medium",
+        "notes": "Also directly useful for the quiet_enjoyment_breach claim type (see that citation set) -- the fee award here (~36% of the compensatory damages) is a real contested-litigation data point on the higher end, usefully bracketing against the Village at Brocks Gap uncontested ~1.3% ratio already in this dataset and illustrating this claim's SUPERSEDING posture-tiered flat-dollar model (a real trial/appeal here plausibly falls in the $50,000-$200,000 trial tier, and $69,002.68 sits comfortably within it)."
+      },
+      {
+        "caseName": "Simbo Properties, Inc. v. M8 Realty, L.L.C.",
+        "citation": "2019-Ohio-3091 (8th Dist. Ct. App., Cuyahoga Cnty., Aug. 1, 2019)",
+        "jurisdiction": "OH",
+        "year": 2019,
+        "outcome": "In a commercial lease dispute where the landlord's own property-damage claim failed at directed verdict for lack of causation evidence, the tenant was nonetheless found to be the 'prevailing party' under the lease's fee-shifting clause on the 'main issue' of the case, even though the landlord had won on some minor sub-issues (a flagpole item and real estate tax charges). The Eighth District affirmed the tenant's entitlement to reasonable attorney's fees and expenses, applying a 'main issue' prevailing-party test for sophisticated, counseled commercial parties and holding the tenant did not need to prove it had already paid its attorneys before judgment.",
+        "dollarAmount": null,
+        "sourceUrl": "https://www.courtlistener.com/opinion/?q=Simbo+Properties+M8+Realty",
+        "confidence": "medium",
+        "notes": "DOLLAR AMOUNT NOT CONFIRMED for the fee award itself. Valuable for the 'main issue' prevailing-party doctrine it applies -- directly comparable to, and reinforcing, the existing Wells & McElwee v. Tiffany & Tomato (Ga. 2021) citation's point that prevailing-party status turns on overall/main-issue success, not any single sub-issue. Also independently useful for the property_damage claim type (see that citation set) since the landlord's own property-damage claim is what failed here for lack of proof."
       }
     ],
     "property_damage": [
@@ -1203,6 +1336,28 @@ const CASE_VALUATION_DATA = {
         "sourceUrl": "https://www.courtlistener.com/opinion/1423966/howe-v-professional-manivest-inc/",
         "confidence": "medium",
         "notes": "DOCTRINAL CITATION, not a dollar comparable -- the underlying case is a lease-forfeiture dispute (unauthorized assignment plus a municipal weed-ordinance violation), not a repair-cost recovery, and its own damages figures (liquidated damages for continued use, costs, attorney fees) don't map onto this claim's propertyDamageAmount formula. What it DOES supply is the actual legal standard the normalWearHaircut parameter is meant to operationalize: the wear-vs-waste line turns on the tenant's willful conduct or negligence, not just visible deterioration. Cited for that standard specifically, the way a claim's underlying legal test is cited even when the case supplying it isn't itself a clean damages comparable."
+      },
+      {
+        "caseName": "Simbo Properties, Inc. v. M8 Realty, L.L.C.",
+        "citation": "2019-Ohio-3091 (8th Dist. Ct. App., Cuyahoga Cnty., Aug. 1, 2019)",
+        "jurisdiction": "OH",
+        "year": 2019,
+        "outcome": "Commercial landlord sought damages from its former tenant for alleged property damage (among other claims, including a flagpole item and real estate taxes). The trial court granted a DIRECTED VERDICT against the landlord on the property-damage claim specifically, holding the landlord failed to introduce evidence establishing the tenant CAUSED the alleged damage. The Eighth District affirmed.",
+        "dollarAmount": 0,
+        "sourceUrl": "https://www.courtlistener.com/opinion/?q=Simbo+Properties+M8+Realty",
+        "confidence": "medium",
+        "notes": "A landlord-LOSES counter-example -- useful balance against the large Apple Glen Investors v. Express Scripts ($6.2M) win already in this dataset. Confirms that even a facially plausible property-damage claim can fail entirely for a basic evidentiary gap (failure to prove CAUSATION, not just failure to prove amount), which is a distinct failure mode from the normalWearHaircut this claim's damages formula already models."
+      },
+      {
+        "caseName": "Avalon Pacific-Santa Ana, L.P. v. HD Supply Repair & Remodel, LLC",
+        "citation": "192 Cal. App. 4th 1183, 122 Cal. Rptr. 3d 417 (Cal. Ct. App., 4th Dist. 2011)",
+        "jurisdiction": "CA",
+        "year": 2011,
+        "outcome": "Landlord leased vacant warehouse/office space to a tenant that intended to convert it into a retail facility; the tenant demolished the existing office structures as part of that conversion, then ceased operations before completing the project. A dispute followed over the resulting condition of the property and the parties' respective obligations.",
+        "dollarAmount": null,
+        "sourceUrl": "https://www.courtlistener.com/opinion/?q=Avalon+Pacific-Santa+Ana+HD+Supply",
+        "confidence": "low",
+        "notes": "INCOMPLETE VERIFICATION: only the general fact pattern (tenant demolition mid-renovation, then cessation of operations) was confirmed from available sources -- the court's actual holding, any damages figure, and which party ultimately prevailed on the property-condition dispute were NOT confirmed. Cited cautiously and only for the fact pattern (a tenant leaving a property mid-demolition/renovation is a distinct property-damage scenario from ordinary wear-and-tear or willful destruction); do not rely on this entry for outcome or dollar-amount guidance without pulling the full opinion first."
       }
     ],
     "tortious_interference_lost_profits": [
@@ -1216,6 +1371,17 @@ const CASE_VALUATION_DATA = {
         "url": "https://www.courtlistener.com/opinion/10460551/exrp-14-holdings-llc-v-ls-14-ave-llc/",
         "confidence": "medium",
         "notes": "IMPORTANT SCOPE NOTE: this is a construction-delay dispute between commercial parties, not a landlord self-help lockout case -- there is no directly on-point published decision found for a tenant suing its own landlord for tortious interference with the tenant's third-party contracts arising from a lockout, despite multiple search angles. Cited here only for the general doctrine this claim type relies on (interference by disabling a party's own performance is actionable even without inducing a third party's breach). The apparent rarity of a squarely on-point case suggests this theory is infrequently pursued as a stand-alone claim -- most wrongful-lockout plaintiffs recover through the direct lockout claim instead -- which is itself a reason to treat this claim's probability range as more speculative than the other lease-disputes claims until better authority surfaces."
+      },
+      {
+        "caseName": "K & K Management, Inc. v. Chul Woo Lee",
+        "citation": "557 A.2d 965, 316 Md. 137 (Md. 1989)",
+        "jurisdiction": "MD",
+        "year": 1989,
+        "outcome": "Motel owners (K & K Management) had contracted with the Lees to operate the motel's restaurant under a profit-sharing lease arrangement. About two years in, the motel owners decided terminating the arrangement was more efficient than continuing it, and LOCKED OUT the restaurant operators without notice as their chosen termination method -- disrupting the restaurant operators' ongoing business operations and their relationships with the business's own customers, suppliers, and staff. The Maryland Court of Appeals (the state's highest court at the time) addressed the propriety of self-help lockout as a termination strategy and the tort theories available to a locked-out commercial tenant whose business relationships are disrupted by the lockout itself, not merely its exclusion from the premises.",
+        "dollarAmount": null,
+        "sourceUrl": "https://www.courtlistener.com/opinion/2388193/k-k-management-inc-v-chul-woo-lee/",
+        "confidence": "medium",
+        "notes": "IMPORTANT VERIFICATION GAP: this session confirmed the case is real (citation, court, date, and core facts verified via CourtListener, which also shows it has been cited 145 times -- indicating real, lasting doctrinal significance), but could NOT independently confirm the specific dollar damages ultimately awarded (this is a well-known case in property-law teaching materials for its intentional-infliction-of-emotional-distress and business-tort holdings arising from a commercial lockout, but that general reputation was not re-verified against the primary opinion text in this session -- pull the full opinion before citing a specific damages figure or holding to a client). Still, this is by far the most squarely on-point real case found for this claim type's specific theory (a lockout disrupting the tenant's OWN business relationships, not just its occupancy) -- meaningfully better than the existing EXRP 14 Holdings citation, which the file's own note already flags as off-point (a construction-delay case, not a lockout case)."
       }
     ],
     "wrongful_lockout": [
@@ -1330,6 +1496,28 @@ const CASE_VALUATION_DATA = {
         "sourceUrl": "https://themold.lawyer/tenant-rights/toxic-commercial-lease-settlement-appeal-success/",
         "confidence": "medium",
         "notes": "Sourced from the plaintiff's own firm's case-results reporting rather than a published opinion or court filing directly reviewed -- the formal case caption and docket number were not independently confirmed, and the specific appellate holding that preceded the settlement is described only in general terms. Included because the underlying facts (toxic mold/asbestos/VOC contamination forcing vacatur, landlord's failure to remediate despite notice) and the settlement figure are specific and plausible, but treat the dollar amount with more caution than the primary-source-verified citations in this claim type."
+      },
+      {
+        "caseName": "Pryority Partnership v. AMT Properties, LLC",
+        "citation": "No. E2020-00511-COA-R3-CV (Tenn. Ct. App. Mar. 10, 2021)",
+        "jurisdiction": "TN",
+        "year": 2021,
+        "outcome": "Commercial tenant sued its landlord for breach of lease, negligent misrepresentation, and constructive eviction after the landlord misrepresented the condition of the building's roof and its intent to repair it, then failed to timely repair the roof and keep the building tenantable. The trial court found constructive eviction and awarded the tenant $193,006.35 in compensatory damages plus $69,002.68 in attorney's fees; the Court of Appeals affirmed in full.",
+        "dollarAmount": 193006,
+        "sourceUrl": "https://www.courtlistener.com/opinion/?q=Pryority+Partnership+AMT+Properties",
+        "confidence": "medium",
+        "notes": "A strong, real, dollar-substantial (nearly $193K) constructive-eviction/failure-to-repair win for a tenant, arising from a genuinely commercial fact pattern (a roof-repair failure and related misrepresentation about repair intentions) -- meaningfully larger than the existing Wesson v. Leone ($1,063) and Radinsky v. Weaver ($2,212) citations, which the file itself already flags as illustrating modest actual recoveries relative to what's claimed. Also independently useful for the attorney_fees claim type (see that citation set)."
+      },
+      {
+        "caseName": "Karaoke Heroes NH, LLC v. RVRM Enterprises, LLC",
+        "citation": "Docket No. AC48149 (Conn. App. Ct. Mar. 3, 2026)",
+        "jurisdiction": "CT",
+        "year": 2026,
+        "outcome": "Commercial tenant operating a karaoke establishment sued its landlord after a third party removed bollards protecting the tenant's required emergency-exit egress path and then told fire authorities the tenant no longer had egress rights through that exit -- threatening the tenant's continued lawful operation. The tenant argued the landlord breached the lease and Connecticut's unfair trade practices act by failing to secure a written egress agreement. The Connecticut Appellate Court affirmed judgment for the LANDLORD, holding an implied emergency-access agreement existed (evidenced by the tenant's continued fee payments to the third party accepted without objection), that the lease itself only obligated the landlord to secure alleyway ingress/egress, and that the tenant bore responsibility for its own post-signature legal/regulatory compliance.",
+        "dollarAmount": null,
+        "sourceUrl": "https://www.courtlistener.com/opinion/?q=Karaoke+Heroes+RVRM+Enterprises",
+        "confidence": "medium",
+        "notes": "A current (2026), real, landlord-WINS counter-example on a repair/interference-adjacent theory -- useful balance against this claim type's other citations, most of which are tenant wins or doctrine-establishing cases. Illustrates a real limiting principle: quiet-enjoyment/repair-failure liability requires the INTERFERENCE TO STEM FROM AN ACTUAL LEASE OBLIGATION the landlord failed to meet, not from a third party's separate, subsequent conduct or from a regulatory compliance burden the lease placed on the tenant itself -- directly parallel to the existing Barash v. Pennsylvania Terminal Real Estate Corp. principle already in this dataset. No dollar amount at issue since the tenant recovered nothing."
       }
     ],
     "security_deposit": [
@@ -1376,6 +1564,17 @@ const CASE_VALUATION_DATA = {
         "url": "https://www.schlamstone.com/blogs/commercial/2016-08-10-not-maintaining-security-deposit-in-new-york-bank-branch-violates-gol-7-103-no-damages",
         "confidence": "medium",
         "notes": "Important nuance case: a technical statutory violation regarding where a commercial deposit is held does not, by itself, entitle the tenant to damages absent commingling or actual harm."
+      },
+      {
+        "caseName": "FP Stores, Inc. v. Tramontina US, Inc.",
+        "citation": "513 S.W.3d 684 (Tex. App.-Houston [1st Dist.] 2016)",
+        "jurisdiction": "TX",
+        "year": 2016,
+        "outcome": "Commercial landlord FP Stores retained tenant Tramontina's security deposit after the lease ended. Tramontina sued for breach of contract and for violation of Texas Property Code § 93.011 (the commercial security-deposit bad-faith-retention statute), alleging the deposit was withheld in bad faith. The trial court granted Tramontina summary judgment. The Court of Appeals AFFIRMED, holding the landlord failed to present sufficient evidence justifying its retention of the deposit.",
+        "dollarAmount": null,
+        "sourceUrl": "https://www.courtlistener.com/opinion/?q=FP+Stores+Tramontina",
+        "confidence": "medium",
+        "notes": "DOLLAR AMOUNT NOT CONFIRMED (the underlying deposit/judgment figure was not available from sources reviewed in this session). Directly on point for the existing note in this claim type flagging that a bad-faith-withholding doubling penalty should be checked per-state -- Texas Property Code § 93.011 is exactly that kind of statute for COMMERCIAL tenancies specifically (distinct from the residential deposit statutes most states have), and this is a real, appellate-affirmed application of it against a landlord who could not substantiate its retention decision with evidence."
       }
     ],
     "foreclosure_deficiency_judgment": [
@@ -1425,6 +1624,50 @@ const CASE_VALUATION_DATA = {
         "sourceUrl": "https://njlawconnect.com/commercial-tenant-rights-foreclosure-nj/",
         "confidence": "medium",
         "notes": "A real, current lender-loss outcome illustrating a procedural trap distinct from the substantive deficiency-judgment/anti-deficiency issues the other citations in this claim type address: a lender holding multiple defaulted liens on the same property who forecloses on them sequentially rather than together risks losing the later lien entirely to claim-preclusion doctrines, regardless of the underlying default being real and undisputed. Worth flagging to a lienholder client with more than one defaulted instrument on the same collateral."
+      },
+      {
+        "caseName": "American General Life Insurance Company, et al. v. 500-512 Seventh Avenue Limited Partnership (Chetrit/Moinian/Minskoff Garment District Building)",
+        "citation": "Supreme Court of the State of New York, New York County (foreclosure order entered August 2026)",
+        "jurisdiction": "NY",
+        "year": 2026,
+        "outcome": "AIG-affiliated lenders (American General Life, Variable Annuity Life, United States Life) sued to foreclose on the $375M loan taken against the leasehold in 2018, alleging intentional self-dealing and diversion of funds by the Chetrit/Moinian/Minskoff ownership group. Facing a debt that had grown to roughly $356M with accrued interest and fees, the borrower agreed not to oppose the lender's foreclosure motion, and the court ordered the buildings sent to a foreclosure auction to satisfy the debt.",
+        "dollarAmount": 356000000,
+        "sourceUrl": "https://therealdeal.com/new-york/2026/08/24/chetrit-moinian-minskoffs-midtown-tower-faces-foreclosure/",
+        "confidence": "high",
+        "notes": "Borrower's decision not to oppose foreclosure despite live self-dealing allegations is itself a data point: even where a lender's complaint alleges borrower misconduct, an undisputed-default posture can still resolve as a clean, uncontested foreclosure once the numbers are hopeless. Also illustrates a garment-district office tower where original 1999 leasehold acquisition cost ($140M) was far below the 2018 loan amount ($375M), i.e., significant equity extraction well before the default."
+      },
+      {
+        "caseName": "Ocean West Capital Partners / Daol Asset Management (on behalf of a consortium of South Korean insurers) v. RFR Realty (285 Madison Avenue)",
+        "citation": "UCC Article 9 public foreclosure auction of pledged mezzanine equity interests, held April 15, 2025 at DLA Piper LLP offices, New York (and via Zoom)",
+        "jurisdiction": "NY",
+        "year": 2025,
+        "outcome": "The $205M mezzanine loan on RFR's 511,000-square-foot Midtown Manhattan office tower fell into maturity default in late 2022; an extension bought time but the loan defaulted again in late 2024 when that extension expired. The mezzanine lender consortium (advised by Ocean West Capital Partners and Daol Asset Management) foreclosed non-judicially under UCC Article 9 on the pledged LLC equity interests rather than proceeding through a judicial mortgage foreclosure, and took ownership of the property at the April 2025 auction, wiping out RFR's equity with no reported cash deficiency recovery pursued against RFR beyond the loss of the collateral itself.",
+        "dollarAmount": 205000000,
+        "sourceUrl": "https://therealdeal.com/new-york/2025/04/18/daol-takes-rfrs-285-madison-at-foreclosure-auction/",
+        "confidence": "high",
+        "notes": "A mezzanine UCC Article 9 foreclosure is legally distinct from a mortgage foreclosure/deficiency judgment (it forecloses on pledged personal property -- equity interests -- not the real property itself, and is typically non-judicial and much faster), but produces the same economic result for the borrower: total loss of the asset with no further deficiency exposure beyond the mezz collateral. Relevant to calibrating this claim type wherever the fact pattern involves mezzanine rather than senior mortgage debt, which is now common in stacked CRE capital structures."
+      },
+      {
+        "caseName": "Rhinebeck Bank v. WA 319 Main, LLC",
+        "citation": "210 A.D.3d 179, 176 N.Y.S.3d 100 (2d Dep't 2022), decided November 16, 2022",
+        "jurisdiction": "NY",
+        "year": 2022,
+        "outcome": "After the collateral sold at foreclosure auction for $795,001 against a judgment of roughly $1.16M, the trial court calculated the deficiency using the lender's appraiser's lower 'liquidation value' ($620,000) rather than fair market value, awarding a larger deficiency. The Second Department reversed, holding fair market value (found to be approximately $1.06M) is the correct benchmark under RPAPL 1371, not a discounted liquidation value -- which, because $1.06M exceeded the auction price, sharply reduced the deficiency judgment to $104,186.56.",
+        "dollarAmount": 104187,
+        "sourceUrl": "https://www.fhnylaw.com/second-department-calculates-deficiency-judgment-in-mortgage-foreclosure-action",
+        "confidence": "high",
+        "notes": "A real, recent example of a lender winning the foreclosure/deficiency claim in principle but recovering far less than sought because of a valuation methodology fight -- useful even where the default itself is undisputed, since the deficiency AMOUNT (not just the right to one) can be knocked down substantially on appeal when a liquidation-value appraisal is used instead of fair market value."
+      },
+      {
+        "caseName": "Lifestyle Real Estate Lender, LLC v. Fred Rappaport, et al.",
+        "citation": "No. 2:21-cv-01781 (E.D. Pa.)",
+        "jurisdiction": "Federal (E.D. Pa.)",
+        "year": 2024,
+        "outcome": "After the lender purchased the collateral for a nominal $1,191.55 at a July 2018 Pennsylvania sheriff's sale following the underlying mortgage foreclosure (which had produced a roughly $4.9M judgment), the lender sued the guarantors in federal court to collect that judgment amount under the guaranty via breach-of-contract and unjust-enrichment theories. The court held that Pennsylvania's Deficiency Judgment Act did not govern the action because the only Pennsylvania connection was the pledged (vacant) collateral, and expressly declined to resolve the guarantors' ultimate contractual liability for the ~$4.9M on that motion, leaving the merits of guarantor liability for further proceedings rather than deciding it outright.",
+        "dollarAmount": 4900000,
+        "sourceUrl": "https://www.courtlistener.com/opinion/10710710/lifestyle-real-estate-lender-llc-v-fred-rappaport-et-al/",
+        "confidence": "medium",
+        "notes": "Illustrates a real procedural trap distinct from the substantive availability-of-deficiency issue already modeled in foreclosureStateModifiers: which state's deficiency-judgment statute (if any) even applies can itself be contested and require its own choice-of-law-style analysis, independent of the merits of the underlying debt. Outcome on guarantor liability itself was not fully resolved as of this research pass -- confidence marked medium because only the procedural ruling, not a final merits disposition, was confirmed."
       }
     ],
     "receivership_dispute": [
@@ -1474,6 +1717,61 @@ const CASE_VALUATION_DATA = {
         "sourceUrl": "https://law.justia.com/cases/federal/appellate-courts/ca3/25-2598/25-2598-2026-07-16.html",
         "confidence": "high",
         "notes": "A rich, current appellate-level confirmation of real receiver powers in a distressed-loan context: modifying a self-dealing, affiliate-favorable lease term put in place after default, and the availability of civil contempt as a real enforcement tool against a borrower/principal who stonewalls a receivership's accounting demands. dollarAmount reflects the underlying loan amount, not a separate damages figure -- this citation is about receiver authority and enforcement, not a compensatory award."
+      },
+      {
+        "caseName": "Brick Air Capital LLC v. NLD Props., Inc.",
+        "citation": "Index No. 850613/2023 (N.Y. Sup. Ct., N.Y. Cnty.), order dated October 11, 2024",
+        "jurisdiction": "NY",
+        "year": 2024,
+        "outcome": "In a commercial mortgage foreclosure action over property at 2310 Second Avenue in Manhattan, the plaintiff-lender moved for appointment of a receiver, relying on a consent-to-receivership clause in the mortgage. The court denied the motion, holding that under New York Real Property Law Sec. 254(10) a receiver-consent clause makes appointment proper without notice or regard to the sufficiency of the security, but does not make appointment automatic -- the court retains equitable discretion to deny it even where the parties contractually agreed to it. A referee was appointed instead to compute the amount due and assess whether the property could be sold in parcels.",
+        "dollarAmount": null,
+        "sourceUrl": "https://law.justia.com/cases/new-york/other-courts/2025/2025-ny-slip-op-33721-u.html",
+        "confidence": "high",
+        "notes": "A clean, recent example of a receivership motion being DENIED even with a contractual consent-to-receiver clause in hand -- a useful counterweight to this claim type's currently grant-heavy sample, and doctrinally distinct from the Adelaide Pointe pattern (there, the issue was factual disputes; here, the court exercised pure equitable discretion despite no apparent dispute about default)."
+      },
+      {
+        "caseName": "Federal Home Loan Mortgage Corporation (Freddie Mac) v. VE Lakeview LP",
+        "citation": "U.S. District Court, Middle District of Georgia, Macon Division, filed June 30, 2026",
+        "jurisdiction": "Federal (11th Cir., M.D. Ga.)",
+        "year": 2026,
+        "outcome": "Freddie Mac sued to appoint a receiver over Lakeview Apartments, a 96-unit Fort Valley, Georgia multifamily property, after the borrower made no monthly payment on its $2,564,000 loan since February 1, 2025. The lender invoked a consent-to-receiver clause in the security instrument (agreed in advance, requiring no separate notice) and cited a 2025 HUD inspection finding 'significant and life-threatening issues' at the property. As of this research, no ruling on the receivership motion had been reported.",
+        "dollarAmount": 2564000,
+        "sourceUrl": "https://www.mpamag.com/us/specialty/commercial/georgia-apartment-complex-faces-receivership-as-freddie-mac-alleges-default/581137",
+        "confidence": "high",
+        "notes": "Smaller-balance loan than most of this claim type's sample (~$2.56M vs. the eight/nine-figure office towers dominating the file), showing the fact pattern -- payment default plus a life-safety/habitability angle -- also recurs at the smaller end of the multifamily market, not just trophy office assets."
+      },
+      {
+        "caseName": "Wells Fargo Bank, N.A. (as Trustee, by and through KeyBank National Association as Special Servicer and Attorney-in-Fact) v. Workspace Property Trust (portfolio entities)",
+        "citation": "Maricopa County Superior Court, Arizona, filed September 2025",
+        "jurisdiction": "AZ",
+        "year": 2025,
+        "outcome": "The lender sued to foreclose on a CMBS-securitized loan portfolio of 143 suburban office/flex properties across Arizona, Florida, Minnesota, and Pennsylvania, with an unpaid principal balance of roughly $1.23 billion (down from a $1.63 billion issuance value per Morningstar Credit) against a portfolio that had fallen from about 89% occupancy at origination to roughly 75%. Trigild was appointed receiver over the entire portfolio pending resolution of the foreclosure.",
+        "dollarAmount": 1230000000,
+        "sourceUrl": "https://www.bisnow.com/news/national/capital-markets/wells-fargo-moves-to-foreclose-workspace-property-trust-portfolio",
+        "confidence": "high",
+        "notes": "By far the largest-dollar receivership in this claim type's sample and a useful data point on multi-state, multi-property portfolio receiverships (as opposed to single-asset receiverships, which make up the rest of the sample) -- occupancy decline from ~89% to ~75% over the loan's life is a similar distress signature to the office-sector fact pattern already noted for this claim type."
+      },
+      {
+        "caseName": "Independent Bank v. Adelaide Pointe Boaters Services, LLC, et al.",
+        "citation": "Kent County (Mich.) Circuit Court, Business Court, Case No. 17-2025-20760-CBB, opinion dated January 9, 2026",
+        "jurisdiction": "MI",
+        "year": 2026,
+        "outcome": "On the bank's renewed motion following development of the factual record, the Business Court held Independent Bank entitled to appointment of a receiver over the mixed-use marina/boat-services development under Michigan's Assignment of Rents Act, on more than $28 million in construction loans in default. The court held that where the assignor is in default and the underlying mortgage authorizes a receiver upon default, the statutory requirement is satisfied even absent a separate receiver clause in the rent assignment itself, and proceeded to select a receiver after considering the parties' competing nominees.",
+        "dollarAmount": 28000000,
+        "sourceUrl": "https://www.courts.michigan.gov/48dd9f/siteassets/business-court-opinions/c17-2025-20760-cbb(january9,2026).pdf",
+        "confidence": "high",
+        "notes": "This is the final resolution of the SAME case already referenced in this claim type's existing note ('the lone initial denial, Independent Bank v. Adelaide Pointe, was later granted on renewed motion once factual disputes were developed') -- included here as a full citation because the existing file only mentioned it in a narrative note, without a citation entry giving the actual holding, dollar amount, and doctrinal basis (Assignment of Rents Act satisfied by a receiver-on-default clause in the mortgage, even without a matching clause in the rent assignment)."
+      },
+      {
+        "caseName": "In re receivership of a downtown St. Louis hotel (lender v. hotel ownership entity)",
+        "citation": "Missouri state court (St. Louis City Circuit Court), receiver appointed April 30, 2026",
+        "jurisdiction": "MO",
+        "year": 2026,
+        "outcome": "A Missouri state judge appointed a receiver over a downtown St. Louis hotel following a $35 million loan default, with the receiver expected to keep the hotel operating while filing an operating plan and periodic reports with the court.",
+        "dollarAmount": 35000000,
+        "sourceUrl": "https://hoodline.com/2026/05/downtown-st-louis-hotel-drama-as-judge-hands-control-to-receiver/",
+        "confidence": "low",
+        "notes": "Confidence marked low because the source article did not name the specific hotel, borrower, lender, or case/docket number -- the loan amount, jurisdiction, and outcome (receiver appointed) are reported, but this citation cannot be independently verified against a primary court record the way the others in this set can. Included only as a directional data point that receivership activity in the current distress cycle extends to hospitality assets, not just office and multifamily."
       }
     ],
     "guaranty_enforcement": [
@@ -1523,6 +1821,50 @@ const CASE_VALUATION_DATA = {
         "sourceUrl": "https://www.newjerseylawyersblog.com/new-jersey-supreme-court-explains-requirements-of-enforceable-personal-guarantees/",
         "confidence": "high",
         "notes": "A significant, current state-supreme-court-level limiting citation: over $1M sought under a guaranty clause was entirely unenforceable against the individual signatories due to a signature-formality defect, despite clear substantive guaranty language in the contract. Directly relevant to calibrating guaranty_enforcement's probability downward where the guaranty was signed without a clearly dual/individual-capacity signature block -- a common drafting gap in short-form supply and vendor agreements, not just loan guaranties."
+      },
+      {
+        "caseName": "172 Madison (NY) LLC v. NMP-Group, LLC, et al.",
+        "citation": "Index No. 650087/2010 (N.Y. Sup. Ct., N.Y. Cnty., Commercial Div.)",
+        "jurisdiction": "NY",
+        "year": 2013,
+        "outcome": "UBS Securities made a $29 million non-recourse loan in 2007 secured by Midtown Manhattan real property; the borrower's principal executed a standard non-recourse carve-out guaranty. After the borrower defaulted and the lender commenced a foreclosure action including a guaranty claim, the borrower later filed for bankruptcy. The court held that the voluntary bankruptcy filing triggered the guaranty's full-recourse springing provision, entitling the lender to seek immediate full repayment from the guarantor notwithstanding New York's 'one action' rule, which normally would have required the lender to exhaust the mortgaged property first.",
+        "dollarAmount": 29000000,
+        "sourceUrl": "https://www.alston.com/-/media/files/insights/publications/2013/10/ifinance-advisoryi-bad-boy-guaranties-and-bankrupt/files/click-to-view-finance-advisory-pdf/fileattachment/13778madison172.pdf",
+        "confidence": "high",
+        "notes": "A bankruptcy-filing trigger case (rather than the SPE-insolvency-covenant trigger common to the Cherryland/Gratiot Avenue line already in the file), and notable for holding the springing guaranty enforceable even against New York's normally borrower-protective 'one action' rule."
+      },
+      {
+        "caseName": "Bank Mutual v. S.J. Boyer Construction, Inc.",
+        "citation": "2010 WI 74, 785 N.W.2d 462 (Wis. 2010)",
+        "jurisdiction": "WI",
+        "year": 2010,
+        "outcome": "After the mortgaged properties sold at sheriff's sale for $1,180,000 against roughly $1.4 million owed, the bank elected a shortened statutory redemption period, which under Wisconsin law waives any deficiency claim against the BORROWER. The Wisconsin Supreme Court held that election does not also waive the lender's separate claim against the GUARANTOR, because guarantor liability arises under an entirely separate contract of guaranty rather than from the mortgage debt itself -- allowing the bank to obtain judgment against the guarantor for the full guaranteed debt even after forfeiting a deficiency claim against the primary obligor.",
+        "dollarAmount": 1400000,
+        "sourceUrl": "https://kmksc.com/good-news-for-lenders-wisconsin-supreme-court-strengthens-lenders-remedies-against-guarantors/",
+        "confidence": "high",
+        "notes": "A strong pro-lender landmark on a distinct doctrinal point from the existing sample: a guaranty is legally independent of the underlying mortgage debt, so procedural elections that extinguish a borrower's deficiency exposure (redemption-period elections, anti-deficiency statutes, etc.) do not automatically protect a guarantor unless the guaranty itself says so."
+      },
+      {
+        "caseName": "Borman, LLC v. Borman, LLC; Joseph Schwebel",
+        "citation": "No. 14-1419 (6th Cir. Feb. 3, 2015)",
+        "jurisdiction": "Federal (6th Cir., applying MI law)",
+        "year": 2015,
+        "outcome": "A purchaser standing in the original lender's shoes sued the borrower and guarantor Joseph Schwebel to collect a roughly $6 million deficiency, relying on a solvency covenant in the guaranty as the full-recourse trigger. The Sixth Circuit affirmed summary judgment FOR the guarantor, holding that Michigan's post-Cherryland Nonrecourse Mortgage Loan Act (NMLA) rendered the solvency covenant unenforceable and therefore barred the deficiency action entirely -- the guarantor owed nothing on the $6 million claim.",
+        "dollarAmount": 6000000,
+        "sourceUrl": "https://caselaw.findlaw.com/court/us-6th-circuit/1691249.html",
+        "confidence": "high",
+        "notes": "A direct, important counterweight to Cherryland and Gratiot Avenue (both already in the file, both pre-NMLA and both full guarantor losses on the same insolvency-covenant theory): this case shows Michigan's 2011 legislative fix actually working in a guarantor's favor to defeat an otherwise-identical full-recourse claim. Confirms that jurisdiction and TIMING relative to a state's legislative response matters enormously for this claim type -- a state-law modifier tracking which states have passed anti-full-recourse statutes (Michigan, and per the existing file's note, Ohio) would likely sharpen this claim type more than a flat national probability range does."
+      },
+      {
+        "caseName": "Lifestyle Real Estate Lender, LLC v. Fred Rappaport, et al.",
+        "citation": "No. 2:21-cv-01781 (E.D. Pa.)",
+        "jurisdiction": "Federal (E.D. Pa.)",
+        "year": 2024,
+        "outcome": "Lender sued guarantors Dr. Rappaport and an estate to collect a roughly $4.9 million judgment already entered in the underlying mortgage foreclosure, via breach-of-contract and unjust-enrichment claims under the guaranty (the lender had already taken the collateral at a nominal sheriff's sale price). The court held Pennsylvania's Deficiency Judgment Act did not apply to the action because the property's only Pennsylvania connection was the pledged vacant collateral, and expressly reserved the question of the guarantors' ultimate contractual liability for further proceedings rather than resolving it on this motion.",
+        "dollarAmount": 4900000,
+        "sourceUrl": "https://www.courtlistener.com/opinion/10710710/lifestyle-real-estate-lender-llc-v-fred-rappaport-et-al/",
+        "confidence": "medium",
+        "notes": "Same underlying case as the citation added to foreclosure_deficiency_judgment -- included here too because it bears directly on guaranty enforcement mechanics: which state's deficiency-judgment framework (if any) governs a guaranty-collection suit can itself become a contested threshold question, independent of the guaranty's substantive terms. Confidence marked medium because the final merits ruling on guarantor liability was not confirmed."
       }
     ],
     "lender_liability_claim": [
@@ -1572,6 +1914,50 @@ const CASE_VALUATION_DATA = {
         "sourceUrl": "https://www.businesswire.com/news/home/20250723952228/en",
         "confidence": "medium",
         "notes": "A current, real example of a CMBS-specific lender-liability theory -- a certificateholder suing the special servicer itself for mishandling defaulted loans, rather than a borrower suing an originating lender. Settled confidentially before any ruling on the motion to dismiss, so no dollar figure or judicial holding on the merits is available; included primarily to document that this claim theory is being actively brought and resolved in the current CMBS distress cycle, consistent with market commentary describing distressed-debt/special-servicer disputes as a currently very active litigation area."
+      },
+      {
+        "caseName": "Credit Suisse AG, Cayman Islands Branch v. Claymore Holdings, LLC",
+        "citation": "No. 18-0403 (Tex. Apr. 24, 2020); on remand, No. 05-21-00649-CV (Tex. App.-Dallas Feb. 14, 2023)",
+        "jurisdiction": "TX",
+        "year": 2023,
+        "outcome": "Claymore (an affiliate of Highland Capital Management) alleged Credit Suisse, which arranged a $250 million tranche of $540 million in loans refinancing a Henderson, Nevada residential development, fraudulently inflated the underlying appraisal to induce Claymore's participation. A jury awarded $40 million in fraud damages and a separate bench trial added $211 million in equitable rescissory damages plus a further ~$23 million for Claymore's secondary-market purchases. The Texas Supreme Court affirmed the $40 million fraud verdict in 2020 but reversed the $211 million rescissory award as duplicative of an adequate legal remedy. On remand, the Dallas Court of Appeals in 2023 went further, vacating the $23 million secondary-market award entirely and reducing the $40 million fraud verdict itself to a take-nothing judgment after crediting Credit Suisse for settlements Claymore had already reached with other co-liable tortfeasors -- leaving Claymore with a net recovery of zero after roughly a decade of litigation.",
+        "dollarAmount": 0,
+        "sourceUrl": "https://www.jdsupra.com/legalnews/the-texas-court-of-appeals-reverses-2007126/",
+        "confidence": "high",
+        "notes": "Not a borrower-vs-originating-lender dispute like most of this claim type's sample -- Claymore was itself a sophisticated institutional CRE lender/investor suing an arranging bank for fraud in how a loan was marketed/appraised, a distinct but real lender-liability-adjacent theory relevant to syndicated/participated CRE debt. The arc from a combined $274M in trial awards down to zero is a vivid, well-documented illustration of appellate erosion risk even after a plaintiff wins outright at trial on a lender-misconduct theory -- directly relevant to calibrating the damages formula's realistic expected value, not just the probability of an initial finding of liability."
+      },
+      {
+        "caseName": "WWP Mezz LLC v. WWP Mezz Investment Company LLC (Worldwide Plaza)",
+        "citation": "Supreme Court of the State of New York, New York County, Commercial Division, decision dated January 27, 2026",
+        "jurisdiction": "NY",
+        "year": 2026,
+        "outcome": "SL Green (indirect owner of the mezzanine borrower at Worldwide Plaza) sought a preliminary injunction to block a UCC Article 9 sale of the pledged equity interests after a mezzanine loan default, arguing the sale terms (including 'Qualified Bidder' requirements) were commercially unreasonable and that the lender's conduct violated the implied covenant of good faith. Justice Andrea Masley denied the preliminary injunction, holding the proposed sale terms were commercially reasonable under UCC Sec. 9-610(b) and rejecting the borrower-side challenge, allowing the sale to proceed as scheduled.",
+        "dollarAmount": null,
+        "sourceUrl": "https://www.whiteandwilliams.com/resources-alerts-Court-Denies-Injunction-in-Battle-of-Titans-of-New-York-Real-Estate-and-Allows-UCC-Sale-of-Pledged-Equity-Interests-to-Proceed",
+        "confidence": "high",
+        "notes": "Directly comparable to the 111 West 57th/Steinway Tower citation already in the file (same theory -- a lender's contractual discretion in a mezzanine-loan enforcement context challenged as bad-faith/commercially unreasonable) but with the OPPOSITE outcome: here the borrower-side challenge was rejected outright at the injunction stage rather than reinstated on appeal, underscoring how fact-specific and procedurally contingent (preliminary injunction vs. post-dismissal appeal) these outcomes are."
+      },
+      {
+        "caseName": "601W Companies (Civic Opera House / 20 N. Wacker Drive) v. Rialto Capital Advisors",
+        "citation": "Counterclaim filed in CMBS special-servicer foreclosure action, Circuit Court of Cook County, Illinois, filed May 31, 2024",
+        "jurisdiction": "IL",
+        "year": 2024,
+        "outcome": "After the underlying $164 million loan (with accrued interest and fees exceeding $195 million) on Chicago's Civic Opera House building went into pandemic-era default, borrower 601W alleged it proactively sought a workout, but special servicer Rialto Capital negotiated in bad faith and made repeated unreasonable refusals of proposed solutions, filing a counterclaim describing Rialto's special-servicing conduct as 'predatory.' As of this research, no ruling on the counterclaim's merits had been reported.",
+        "dollarAmount": null,
+        "sourceUrl": "https://therealdeal.com/chicago/2024/06/04/601w-countersues-servicer-rialto-in-195m-foreclosure/",
+        "confidence": "high",
+        "notes": "One of a documented wave of CMBS-borrower counterclaims against special servicers (Rialto in particular) emerging from the 2023-2025 office distress cycle -- useful alongside the already-cited ROC Debt Strategies case to show this fact pattern (special-servicer-as-defendant rather than originating-lender-as-defendant) recurring across multiple, unrelated properties and courts."
+      },
+      {
+        "caseName": "Midtown Equities (Joseph Cayre) v. Rialto Capital Advisors / Blackstone (205 Montague Street, Brooklyn Heights)",
+        "citation": "Supreme Court of the State of New York, New York County, filed February 25, 2025; dismissed with prejudice March 2025",
+        "jurisdiction": "NY",
+        "year": 2025,
+        "outcome": "Midtown Equities filed a putative class action alleging Rialto (as special servicer on a $45 million Signature Bank-originated loan) and Blackstone engaged in a 'campaign of deception' to manufacture a default and coerce the borrower into paying default interest and fees rather than granting a routine loan extension. Ten days after filing, the parties reached a settlement, and the lawsuit was dismissed with prejudice in March 2025.",
+        "dollarAmount": 0,
+        "sourceUrl": "https://therealdeal.com/new-york/2025/03/07/rialto-midtown-equities-settle-signature-loan-lawsuit/",
+        "confidence": "medium",
+        "notes": "A fast-settled, dismissed-with-prejudice outcome from the same current wave of CMBS-servicer lender-liability suits as the 601W/Rialto and ROC Debt Strategies citations -- illustrates that these theories, even when filed as headline-grabbing class actions with aggressive 'predatory'/'deception' framing, often resolve quickly and confidentially rather than through adjudicated wins. Confidence marked medium because the settlement's terms (and thus whether Midtown recovered anything of value) were not disclosed."
       }
     ],
     "securities_fraud_10b5": [
@@ -1610,6 +1996,59 @@ const CASE_VALUATION_DATA = {
         "dollarAmount": 8200000,
         "sourceUrl": "https://www.sec.gov/divisions/enforce/claims/docs/united-development-funding-final-judgment-073118.pdf",
         "confidence": "high"
+      },
+      {
+        "caseName": "In re CBL & Associates Properties, Inc. Securities Litigation",
+        "citation": "No. 1:19-cv-00181-JRG-CHS (E.D. Tenn.)",
+        "jurisdiction": "Federal (E.D. Tenn.)",
+        "year": 2023,
+        "outcome": "Consolidated securities class action on behalf of purchasers of CBL & Associates (a mall/shopping-center REIT) common stock between July 29, 2014 and March 26, 2019, alleging the company and certain officers made materially false and misleading statements about the company's contingent liabilities, occupancy metrics, and overall business condition (CBL filed Chapter 11 in November 2020, emerging in November 2021). Judge J. Ronnie Greer held a final settlement approval hearing on August 21, 2023 and granted final approval to a $17.5 million cash settlement funded by CBL's D&O insurers.",
+        "dollarAmount": 17500000,
+        "sourceUrl": "https://www.prnewswire.com/news-releases/abraham-fruchter--twersky-llp-and-pomerantz-llp-announce-proposed-settlement-of-class-action-involving-purchasers-of-cbl--associates-properties-inc-securities-301835051.html",
+        "confidence": "high"
+      },
+      {
+        "caseName": "In re Omega Healthcare Investors, Inc. Securities Litigation",
+        "citation": "No. 1:17-cv-08983 (S.D.N.Y.)",
+        "jurisdiction": "Federal (S.D.N.Y.)",
+        "year": 2023,
+        "outcome": "Class action on behalf of purchasers of Omega Healthcare Investors (a skilled-nursing/healthcare-facility REIT) common stock between February 8, 2017 and October 31, 2017, alleging the company and three named officers (CEO C. Taylor Pickett, CFO Robert O. Stephenson, COO Daniel J. Booth) made materially false and misleading statements about the deteriorating financial condition of a major operator-tenant (Orianna Health Systems), that operator's ability to make timely rent payments, and the resulting lease impairments and uncollectible receivables. The court entered judgment approving the settlement on April 25, 2023, effective May 25, 2023, for a $30.75 million cash payment to the class.",
+        "dollarAmount": 30750000,
+        "sourceUrl": "https://law.justia.com/cases/federal/district-courts/new-york/nysdce/1:2017cv08983/484014/167/",
+        "confidence": "high"
+      },
+      {
+        "caseName": "Farmland Partners Inc. Securities Litigation (Turner Insurance Agency, Inc. v. Farmland Partners Inc.)",
+        "citation": "No. 1:18-cv-02351-NYW (D. Colo.)",
+        "jurisdiction": "Federal (D. Colo.)",
+        "year": 2022,
+        "outcome": "Securities class action against Farmland Partners (an agricultural-land REIT) and its CEO and CFO, alleging materially misleading statements that concealed an undisclosed related-party lending arrangement between the company and certain insider-affiliated tenants/borrowers -- allegations that substantially adopted a 2018 anonymous short-seller report published under the pseudonym 'Rota Fortunae.' The District of Colorado dismissed the consolidated complaint with prejudice; Farmland Partners announced the dismissal on April 7, 2022. In a related twist, the short-seller report's author (Quinton Mathews) later admitted in a separate defamation/business-tort action brought by Farmland Partners that his allegations were false and that he had been paid by a hedge fund that profited from shorting the stock. A parallel derivative complaint against the company's officers and directors over the same underlying conduct was voluntarily dismissed by the plaintiff without a settlement.",
+        "dollarAmount": null,
+        "sourceUrl": "https://www.businesswire.com/news/home/20220407005368/en/Farmland-Partners-Defeats-Class-Action-Lawsuit-Stemming-From-2018-Short-and-Distort-Attack",
+        "confidence": "high",
+        "notes": "A clean, confirmed dismissal-with-prejudice outcome for a non-traded-adjacent, publicly-traded mid-cap REIT securities fraud claim built on short-seller allegations -- useful as a real data point on the low end of the outcome distribution, balancing the large settlement figures already in this sample."
+      },
+      {
+        "caseName": "In re Washington Prime Group, Inc. Securities Litigation (Slipher v. Washington Prime Group Inc.)",
+        "citation": "Consolidated action, S.D. Ohio (order granting motion to dismiss entered Mar. 27, 2024)",
+        "jurisdiction": "Federal (S.D. Ohio)",
+        "year": 2024,
+        "outcome": "Securities class action against the mall-REIT and certain officers alleging false and misleading statements about the company's liquidity, leasing pipeline, and ability to avoid bankruptcy during 2020-2021, shortly before Washington Prime Group filed for Chapter 11 in June 2021 (the company was later liquidated and delisted; it did not survive as a going concern the way CBL did). The lead case was captioned Slipher v. Washington Prime Group Inc., filed May 24, 2021; a consolidated complaint was filed April 1, 2022. The court granted defendants' motion to dismiss the consolidated complaint on March 27, 2024, finding the pleadings failed to raise a strong inference of scienter.",
+        "dollarAmount": null,
+        "sourceUrl": "https://www.courtlistener.com/opinion/9917728/slipher-v-washington-prime-group-inc/",
+        "confidence": "medium",
+        "notes": "A second confirmed dismissal (no recovery), and the most recent in time of the dismissals in this sample -- pairs with the Farmland Partners and Medical Properties Trust dismissals below to show that outright defense wins are common even against REITs that went on to file bankruptcy shortly after the alleged misstatements."
+      },
+      {
+        "caseName": "In re Medical Properties Trust, Inc. Securities Litigation (Pirani v. Medical Properties Trust, Inc.; Swärd v. Medical Properties Trust, Inc.)",
+        "citation": "Two parallel actions: Pirani, No. 2:23-cv-00486 (N.D. Ala.); Swärd, No. 1:23-cv-03070 (S.D.N.Y.)",
+        "jurisdiction": "Federal (N.D. Ala. and S.D.N.Y.)",
+        "year": 2025,
+        "outcome": "Class actions on behalf of purchasers of Medical Properties Trust (a large hospital-REIT) securities during a putative class period beginning mid-2019 through early 2023, alleging the company concealed the deteriorating finances of its largest tenant, Steward Health Care (which filed for bankruptcy in May 2024), including undisclosed loans and related-party financing arrangements allegedly used to prop up Steward's ability to pay rent. The Northern District of Alabama action (Pirani) was dismissed with prejudice for failing to satisfy the heightened, 'triple-layered' pleading standard applicable to private securities-fraud plaintiffs. The parallel Southern District of New York action (Swärd) was separately dismissed with prejudice, with the court most recently denying a post-dismissal motion on or about August 14, 2025. Companion shareholder-derivative suits arising from the same related-party-loan allegations remain pending in the Northern District of Alabama (filed October and December 2023) -- see the corresponding new citation under breach_fiduciary_duty_derivative.",
+        "dollarAmount": null,
+        "sourceUrl": "https://www.rgrdlaw.com/cases-medical-properties-trust-inc-class-action-lawsuit-mpw.html",
+        "confidence": "medium",
+        "notes": "Docket numbers for the Swärd action are drawn from law-firm case-tracking pages rather than a directly-verified PACER printout, since the underlying court opinion page could not be retrieved during this research pass (access blocked) -- treat the exact S.D.N.Y. docket number with some caution even though the overall dismissal outcome is corroborated across multiple independent sources. A third confirmed dismissal in this sample (two parallel actions, same underlying facts, both losses for plaintiffs), against a REIT with one of the largest tenant-concentration exposures in the sector."
       }
     ],
     "breach_fiduciary_duty_derivative": [
@@ -1666,6 +2105,39 @@ const CASE_VALUATION_DATA = {
         "dollarAmount": 3250000,
         "sourceUrl": "https://www.globenewswire.com/news-release/2025/08/01/3125831/3080/en/Levi-Korsinsky-LLP-Announces-Pendency-of-Stockholder-Class-Action-and-Proposed-Settlement-Settlement-Hearing-and-Right-To-Appear-Involving-Owners-of-The-Necessity-Retail-Reit-Inc-C.html",
         "confidence": "high"
+      },
+      {
+        "caseName": "In re The Parking REIT, Inc. Stockholder Litigation (SIPDA Revocable Trust v. The Parking REIT, Inc.)",
+        "citation": "Consolidated action, Circuit Court for Baltimore City, Maryland, with a related federal action, No. 2:19-cv-00428 (D. Nev.)",
+        "jurisdiction": "MD (state) and Federal (D. Nev.)",
+        "year": 2021,
+        "outcome": "Class and derivative action alleging The Parking REIT's stockholders were injured by the internalization of the REIT's external advisor, a transaction in which the company's CEO, Michael Shustek, held a substantial personal stake. The Circuit Court for Baltimore City granted final approval to a global settlement of the consolidated Maryland action and the parallel Nevada federal action (SIPDA Revocable Trust v. The Parking REIT, Inc.), requiring the company to pay approximately $9.25 million in cash and to conduct a tender offer for up to 15% of common shares outstanding (excluding shares held by the advisor and its affiliates).",
+        "dollarAmount": 9250000,
+        "sourceUrl": "https://www.girardsharp.com/newsroom-news-parking-reit-settlement-order",
+        "confidence": "high",
+        "notes": "A clean, confirmed cash-plus-tender-offer recovery tied to a concrete, quantifiable insider-self-dealing internalization transaction -- directly on point for the tiedToConcreteQuantifiableSelfDealingTransaction modifier (0.55-0.8 range) alongside Quinn v. Knight, Inland Western, and Hospitality Investors Trust already in this sample."
+      },
+      {
+        "caseName": "In re Medical Properties Trust, Inc. Derivative Litigation",
+        "citation": "Two related derivative actions, N.D. Ala. (filed Oct. 19, 2023 and Dec. 7, 2023)",
+        "jurisdiction": "Federal (N.D. Ala.)",
+        "year": 2024,
+        "outcome": "Shareholder derivative suits against members of Medical Properties Trust's board alleging breach of fiduciary duty in connection with the board's oversight of, and disclosures regarding, related-party loans and financing arrangements extended to help prop up rent payments from the REIT's largest and financially distressed tenant, Steward Health Care (which filed for bankruptcy in May 2024). As of this research pass the derivative actions remain pending in the Northern District of Alabama with no settlement, dismissal, or trial outcome yet reported.",
+        "dollarAmount": null,
+        "sourceUrl": "https://ksfcounsel.com/news/stockholder-derivative-medical-properties-trust/",
+        "confidence": "medium",
+        "notes": "Pending, not yet resolved -- included for completeness and because the tied companion securities class actions (see securities_fraud_10b5) were both dismissed, which is itself informative: a dismissed 10b-5 claim for failure to plead scienter does not necessarily doom a parallel derivative fiduciary-duty claim built on the same facts, since the pleading standards differ."
+      },
+      {
+        "caseName": "Independence Realty Trust, Inc. -- Steadfast Internalization Derivative Demand",
+        "citation": "Pre-suit derivative demand letter, delivered July 16, 2021; Demand Review Committee formed September 2021 (no litigation caption; resolved internally, per company SEC disclosures)",
+        "jurisdiction": "MD (state law claim, resolved without a filed suit)",
+        "year": 2021,
+        "outcome": "Following Independence Realty Trust's August 31, 2020 internalization of external management functions previously performed by its sponsor, Steadfast REIT Investments, LLC, purported stockholders sent the board a pre-suit derivative demand letter (rather than filing suit directly) asking the board to investigate whether a basis existed to pursue claims -- including recovery of internalization-transaction payments. The board responded by forming a two-independent-director Demand Review Committee in September 2021. No further public disclosure of the Committee's findings, a settlement, or a filed lawsuit could be located in this research pass.",
+        "dollarAmount": null,
+        "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1466085/000156459021056728/irt-ex992_6.htm",
+        "confidence": "low",
+        "notes": "Included specifically because it illustrates a resolution pathway NOT otherwise represented in this sample: many derivative demands over REIT internalization/self-dealing transactions never become a captioned lawsuit at all -- they are absorbed and (often quietly) resolved or rejected by an internal special/demand-review committee. Any base-rate calibration built only from filed-and-settled cases will systematically overstate how often these disputes turn into real litigation exposure, since this channel is invisible to case-law and class-action databases."
       }
     ],
     "proxy_disclosure_claim": [
@@ -1717,6 +2189,47 @@ const CASE_VALUATION_DATA = {
         "sourceUrl": "https://investor.piedmontreit.com/news-releases/news-release-details/piedmont-office-realty-trust-reaches-agreements-principle-settle",
         "confidence": "medium",
         "notes": "An older but well-documented REIT-specific proxy/disclosure settlement figure, useful alongside the more recent citations in this claim type for showing the range of outcomes across different eras of REIT disclosure litigation."
+      },
+      {
+        "caseName": "STORE Capital Corp. Stockholder Litigation (O'Dell v. STORE Capital Corp.; Klein v. STORE Capital Corp.; Grossman v. STORE Capital Corp.; Smith v. STORE Capital Corp.; Bushansky v. STORE Capital Corp.)",
+        "citation": "Six complaints filed Oct. 28 - Nov. 28, 2022, S.D.N.Y.",
+        "jurisdiction": "Federal (S.D.N.Y.)",
+        "year": 2022,
+        "outcome": "Following announcement of STORE Capital's approximately $14 billion all-cash acquisition by GIC and Oak Street Real Estate Capital ($32.25/share), six purported stockholders filed substantially similar suits alleging the preliminary and definitive proxy statements omitted material information (financial projections, banker conflicts, valuation-analysis inputs) in violation of Section 14(a)/Rule 14a-9. STORE Capital voluntarily supplemented its proxy disclosures via SEC filing to address the claims and avoid delay; stockholders approved the merger on December 9, 2022, and the suits were mooted/withdrawn without a court-approved settlement or a disclosed per-share cash recovery.",
+        "dollarAmount": null,
+        "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1538990/000119312522301800/d266910d8k.htm",
+        "confidence": "high"
+      },
+      {
+        "caseName": "American Campus Communities, Inc. Stockholder Litigation (Charfauros v. American Campus Communities, Inc.; Justice v. American Campus Communities, Inc.)",
+        "citation": "Jeffrey D. Justice, II v. American Campus Communities, Inc., et al., No. 1:22-cv-03069 and related actions",
+        "jurisdiction": "Federal",
+        "year": 2022,
+        "outcome": "In connection with American Campus Communities' approximately $13 billion take-private acquisition by Blackstone real estate funds, multiple purported stockholders filed suit alleging the proxy statement omitted material information regarding the special committee's process, confidentiality agreements with Blackstone, director/officer conflicts of interest, equity-award treatment, post-closing employment discussions, and the financial advisor's projections/valuation analyses. An earlier-filed action (the Acuna Lawsuit) was dismissed; American Campus Communities' stockholders approved the merger on August 3, 2022, and the remaining suits followed the standard disclosure-only resolution pattern -- the company issued supplemental proxy disclosures and the suits were mooted/withdrawn, with no disclosed per-share cash recovery.",
+        "dollarAmount": null,
+        "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1283630/000119312522212615/d373681dex991.htm",
+        "confidence": "medium"
+      },
+      {
+        "caseName": "Ross v. Conway (Monmouth Real Estate Investment Corp. Proxy Litigation)",
+        "citation": "Putative class action filed Aug. 4, 2021, amended Jan. 14, 2022 (D.N.J. or related federal venue)",
+        "jurisdiction": "Federal (D.N.J.)",
+        "year": 2022,
+        "outcome": "Filed amid a high-profile bidding war for Monmouth Real Estate Investment Corp. (Equity Commonwealth's original ~$3.4 billion all-stock deal was rejected by Monmouth stockholders in August 2021 after Starwood Capital's Barry Sternlicht intervened, and Industrial Logistics Properties Trust ultimately won with a $4 billion all-cash deal that closed February 25, 2022), plaintiffs alleged Monmouth's directors breached fiduciary duties by misrepresenting or omitting material information in the definitive proxy statement concerning the (ultimately terminated) Equity Commonwealth merger agreement, and sought attorneys' fees tied to corrective disclosures. Given the underlying Equity Commonwealth transaction was superseded and never closed, this claim most plausibly resolved on a mootness basis; this research pass could not independently confirm a final settlement amount, fee award, or dismissal order.",
+        "dollarAmount": null,
+        "sourceUrl": "https://www.sec.gov/Archives/edgar/data/67625/000121390021024925/ea140445-dfan14a_blackwells.htm",
+        "confidence": "low",
+        "notes": "Included because the fact pattern (proxy disclosure claim layered on top of an active, competing-bidder situation) is a variant not otherwise represented in this sample, but the final resolution could not be verified with confidence in this pass -- flag for a follow-up research pass before relying on it for probability calibration."
+      },
+      {
+        "caseName": "Physicians Realty Trust / Healthpeak Properties Merger Proxy Litigation",
+        "citation": "Proxy statement filed Jan. 11, 2024; special meeting held Feb. 21, 2024",
+        "jurisdiction": "Federal / Maryland",
+        "year": 2024,
+        "outcome": "In connection with the roughly $21 billion all-stock merger of equals between Healthpeak Properties and Physicians Realty Trust, purported shareholders alleged the companies and their trustees violated federal securities laws and/or Maryland fiduciary-duty principles by omitting or misstating material information in the joint proxy statement filed January 11, 2024. Shareholders of both companies approved the merger at meetings held February 21, 2024, following the customary practice of supplementing the proxy with additional disclosures; no separate cash settlement to shareholders was disclosed.",
+        "dollarAmount": null,
+        "sourceUrl": "https://www.sec.gov/Archives/edgar/data/765880/000110465924026567/tm246967d1_ex99-1.htm",
+        "confidence": "medium"
       }
     ],
     "merger_objection_suit": [
@@ -1757,6 +2270,46 @@ const CASE_VALUATION_DATA = {
         "sourceUrl": "https://www.chicagobusiness.com/article/20100723/CRED03/200038980/inland-western-settles-shareholder-lawsuit",
         "confidence": "medium",
         "notes": "A structurally different settlement currency than the cash settlements elsewhere in this claim type -- relief here was a share givebook (9 of 37.5 million shares returned to the company, diluting the internalization sellers rather than paying cash to class members directly). Useful for showing that merger-objection relief in an internalization-style REIT transaction can take the form of unwinding part of the equity consideration itself, not just a cash fund. dollarAmount left null since no cash settlement figure was reported; the real relief was the share transfer."
+      },
+      {
+        "caseName": "In re CyrusOne Inc. Stockholder Litigation",
+        "citation": "Seven complaints filed in S.D.N.Y., D.N.J., and E.D. Pa. following the Nov. 15, 2021 merger announcement",
+        "jurisdiction": "Federal (S.D.N.Y., D.N.J., E.D. Pa.)",
+        "year": 2022,
+        "outcome": "In connection with CyrusOne's approximately $15 billion take-private acquisition by KKR and Global Infrastructure Partners ($90.50/share cash), seven purported stockholders filed suit and additional stockholders sent demand letters alleging the proxy statement omitted material information in violation of Section 14(a)/Rule 14a-9. CyrusOne stated it believed the claims were without merit but voluntarily supplemented the proxy statement via an 8-K filing in January 2022 'to avoid the risk that the [Stockholder] Litigation may delay or otherwise adversely affect the consummation of the Merger and to minimize the costs, risks and uncertainties inherent in litigation,' expressly denying that any additional disclosure was legally required. Stockholders approved the merger; no separate cash settlement fund to shareholders was disclosed.",
+        "dollarAmount": null,
+        "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1553023/000110465922010326/tm225019d1_8k.htm",
+        "confidence": "high"
+      },
+      {
+        "caseName": "QTS Realty Trust, Inc. Stockholder Litigation (Stein v. QTS Realty Trust, Inc.; Waterman v. QTS Realty Trust, Inc.)",
+        "citation": "Two actions filed July 9 and July 15, 2021, S.D.N.Y.",
+        "jurisdiction": "Federal (S.D.N.Y.)",
+        "year": 2021,
+        "outcome": "In connection with QTS Realty Trust's approximately $10 billion take-private acquisition by Blackstone Infrastructure Partners and BREIT, two purported stockholders sued alleging the preliminary proxy statement omitted material information in violation of Section 14(a)/Rule 14a-9 and asserting Section 20(a) control-person claims against the board, seeking to enjoin the merger. QTS stated the suits were without merit and intended to defend vigorously; the merger closed on schedule in 2021, and the suits followed the standard disclosure-supplement/mootness resolution pattern with no disclosed per-share cash recovery.",
+        "dollarAmount": null,
+        "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1577368/000110465921107329/tm2125390d2_8k.htm",
+        "confidence": "medium"
+      },
+      {
+        "caseName": "Life Storage, Inc. Stockholder Litigation",
+        "citation": "Five complaints filed in S.D.N.Y. following the Apr. 3, 2023 merger announcement",
+        "jurisdiction": "Federal (S.D.N.Y.)",
+        "year": 2023,
+        "outcome": "In connection with the roughly $15 billion all-stock merger of Life Storage into Extra Space Storage, five purported Life Storage stockholders filed substantially similar suits alleging the joint proxy statement/prospectus omitted or misstated material information (including inputs to the financial advisor's fairness analyses), seeking to enjoin the merger absent corrective disclosure. Life Storage and Extra Space filed supplemental disclosures (including additional detail on 'Life Storage Financial Analyses') via an 8-K; both companies' stockholders approved the merger at special meetings on July 18, 2023, and the transaction closed July 20, 2023. No separate cash settlement to Life Storage shareholders was disclosed; Life Storage stockholders were not entitled to appraisal rights in the transaction.",
+        "dollarAmount": null,
+        "sourceUrl": "https://www.sec.gov/Archives/edgar/data/944314/000119312523185331/d513688d8k.htm",
+        "confidence": "high"
+      },
+      {
+        "caseName": "Spirit Realty Capital, Inc. Stockholder Litigation",
+        "citation": "Demand letters beginning Dec. 19, 2023; at least one suit filed in federal court in Michigan following the Oct. 29, 2023 merger announcement",
+        "jurisdiction": "Federal (E.D. Mich. and other venues)",
+        "year": 2024,
+        "outcome": "In connection with Realty Income's approximately $9.3 billion all-stock acquisition of Spirit Realty Capital, purported stockholders sent demand letters and at least one stockholder filed suit alleging the joint proxy statement/prospectus was materially incomplete in violation of the Exchange Act's disclosure requirements. Although Spirit and Realty Income maintained the existing disclosures fully complied with the law, the companies voluntarily supplemented the proxy statement/prospectus 'to moot plaintiffs' disclosure claims and to avoid nuisance, potential expense and delay.' The merger closed in January 2024; no separate cash settlement to Spirit shareholders was disclosed.",
+        "dollarAmount": null,
+        "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1308606/000119312524006684/d706160d8k.htm",
+        "confidence": "medium"
       }
     ],
     "contractor_breach_negligence": [
@@ -1806,6 +2359,83 @@ const CASE_VALUATION_DATA = {
         "sourceUrl": "https://law.justia.com/cases/florida/third-district-court-of-appeal/2018/3d17-2413.html",
         "confidence": "high",
         "notes": "A full-cycle, appellate-affirmed defense win for a commercial property owner against a subcontractor's defective-installation work, including recovery of a substantial mechanic's-lien bond -- reported trial verdict was $3.1 million plus roughly $644,000 in prejudgment interest, though this citation's dollarAmount reflects only the $3.1M verdict figure since the interest award wasn't independently confirmed from the appellate opinion itself."
+      },
+      {
+        "caseName": "Eden Brook Condominium, Inc. v. NVR, Inc. d/b/a Ryan Homes",
+        "citation": "Circuit Court for Anne Arundel County, Maryland, jury verdict Nov. 19, 2012",
+        "jurisdiction": "MD",
+        "year": 2012,
+        "outcome": "Condo association for a 55-and-older community in Odenton, MD sued NVR (parent of Ryan Homes) for faulty construction after leaks forced some homeowners to keep buckets in their units, brickwork failed to meet industry standards, and undersized AC units caused chronic cooling problems; the association also alleged NVR misrepresented the quality of the buildings during construction and failed to maintain them. Attorneys interviewed 26 homeowners before filing suit in 2011. After a five-week trial, the jury awarded $5.6 million in compensatory damages -- against a $10 million ask in the complaint.",
+        "dollarAmount": 5600000,
+        "sourceUrl": "https://thedailyrecord.com/2012/11/20/odenton-condominiums-awarded-5-6m-damages-in-suit-against-ryan-homes/",
+        "confidence": "high",
+        "notes": "Older than the file's other citations but real, well-documented, multifamily (condo association, not single-family), and a useful mid-range full-trial verdict data point between the small subcontractor-defect cases and the nine/ten-figure catastrophic-collapse outliers already in the file."
+      },
+      {
+        "caseName": "BML Properties Ltd. v. China Construction America, Inc. (Baha Mar Resort Litigation)",
+        "citation": "N.Y. Sup. Ct., Commercial Division (New York County), trial verdict Oct. 2024 (exact index number not independently confirmed from a primary court source)",
+        "jurisdiction": "NY",
+        "year": 2024,
+        "outcome": "Developer BML Properties won a $1.6 billion trial verdict against China Construction America, Inc. (and related China State Construction entities) in New York's Commercial Division on fraud and breach-of-contract claims arising from the deeply troubled construction of the Baha Mar resort in Nassau, Bahamas -- a project plagued by years-long delays and defects that led to a bankruptcy filing before the resort finally opened.",
+        "dollarAmount": 1600000000,
+        "sourceUrl": "https://www.susmangodfrey.com/industry/construction-engineering/",
+        "confidence": "medium",
+        "notes": "Verified only via the prevailing law firm's own case-results page, not an independently pulled docket entry or reported opinion -- flagged accordingly. Framed as fraud + breach of contract rather than pure negligence, and the $1.6B figure includes fraud damages far beyond a repair-cost estimate, so it should be read as a new outlier ceiling for what a 'contractor breach' claim can be worth in the most egregious, bad-faith fact patterns -- not as a data point for calibrating the ordinary repairCostEstimate formula."
+      },
+      {
+        "caseName": "Gallery Community Association v. K. Hovnanian at Gallery, LLC",
+        "citation": "No. 1 CA-CV 23-0375 (Ariz. Ct. App. 2024); review granted, Ariz. Sup. Ct. No. CV-24-0252-PR",
+        "jurisdiction": "AZ",
+        "year": 2024,
+        "outcome": "Developer Hovnanian built and sold eighteen townhomes and conveyed the common areas to a homeowners' association, which was also given control over exterior maintenance of the units. The trial court granted summary judgment to Hovnanian, holding the association held no implied warranty of workmanship/habitability because it did not own the residences. The Arizona Court of Appeals vacated that ruling, holding A.R.S. Sec. 33-2002(A) lets the association invoke the implied warranty to sue the developer over defects in common-area structures and in the exterior portions of homes it is obligated to maintain. The Arizona Supreme Court granted review in 2025/2026.",
+        "dollarAmount": null,
+        "sourceUrl": "https://www.azcourts.gov/Portals/0/21/0252%20op.pdf",
+        "confidence": "high",
+        "notes": "Not a damages case -- a standing/doctrine case -- but directly relevant to appliesIf logic: it expands WHO can bring a contractor-breach claim (a common-interest-community association, not just the unit owners individually) for common-area and exterior defects, in a state that had not previously settled the question. Still pending further review at the Arizona Supreme Court as of this research."
+      },
+      {
+        "caseName": "700 Edgewater Condominium Association, Inc. v. OKO Group, LLC et al. (Missoni Baia)",
+        "citation": "Miami-Dade County Circuit Court, Florida, filed Jan. 30, 2026",
+        "jurisdiction": "FL",
+        "year": 2026,
+        "outcome": "Condo association for the 249-unit, 60-story Missoni Baia tower in Edgewater (Miami) sued developer OKO Group, design firms Asymptote and Revuelta, general contractor Civic Construction, and 19 subcontractors, alleging 76 separate construction and design defects -- cracked floor slabs and columns, water intrusion into units/stairwells/the parking garage, defective fire-alarm devices and sprinklers, leaking pool plumbing, missing hot water in parts of the tower, and non-functioning elevators. No damages figure has been pled yet; the case is at an early pleading stage.",
+        "dollarAmount": null,
+        "sourceUrl": "https://therealdeal.com/miami/2026/02/12/oko-group-accused-of-shoddy-work-at-missoni-baia-condos/",
+        "confidence": "medium",
+        "notes": "Included for volume/severity of defect allegations in a recent large commercial high-rise, not for a dollar figure -- outcome is entirely undetermined at this stage. A companion suit (OKO Group v. its own insurers, seeking $22M) is pending over coverage for the same defects."
+      },
+      {
+        "caseName": "Musallam / Veritas Capital Management, LLC v. Sapir / Americaribe-Moriarty (Arte Surfside Construction Defect Litigation)",
+        "citation": "Miami-Dade County Circuit Court, Florida, reported 2026 (exact filing date and index number not independently confirmed)",
+        "jurisdiction": "FL",
+        "year": 2026,
+        "outcome": "The buyer of a penthouse at the Arte Surfside condominium (purchased for approximately $33 million in 2020) sued developer Alex Sapir and joint-venture general contractor Americaribe-Moriarty, alleging glass and glazing defects and a mechanical system that allows water intrusion, causing excessive condensation throughout the building. No damages figure or resolution has been publicly reported.",
+        "dollarAmount": null,
+        "sourceUrl": "https://commercialobserver.com/2026/03/florida-condo-construction-lawsuits/",
+        "confidence": "low",
+        "notes": "Secondary reporting only; no docket number independently verified and outcome fully pending. Included to round out the sample of currently-active South Florida high-rise construction-defect litigation, alongside Missoni Baia above."
+      },
+      {
+        "caseName": "Mid-Century Insurance Co. v. HIVE Construction, Inc.",
+        "citation": "No. 23SC267, 2025 CO 21 (Colo. Apr. 21, 2025)",
+        "jurisdiction": "CO",
+        "year": 2025,
+        "outcome": "HIVE Construction, general contractor for a Denver-area restaurant build-out, substituted plywood for one of two required layers of fire-rated drywall on a wall separating the kitchen and dining area, without seeking approval or a change order. A fire later started inside that wall, causing significant damage and forcing the restaurant to close. The property insurer, as subrogee, sued HIVE for negligence, alleging willful and wanton conduct. The Colorado Supreme Court held the economic loss rule bars the negligence claim because HIVE's duty not to deviate from the specified materials arose from the contract itself, not from an independent tort duty -- and that there is no willful-and-wanton exception to the economic loss rule in Colorado.",
+        "dollarAmount": null,
+        "sourceUrl": "https://law.justia.com/cases/colorado/supreme-court/2025/23sc267.html",
+        "confidence": "high",
+        "notes": "A defense-favorable limiting doctrine directly relevant to the 'negligence' half of this claim type's label: in economic-loss-rule states, a plaintiff confined to a contractual relationship with the contractor may be unable to plead a tort/negligence claim at all (even for reckless deviation from plans), win or lose on the facts -- pushing realistic probability toward the bottom of the current [0.55, 0.8] range whenever the claim is pled purely in tort in such a jurisdiction."
+      },
+      {
+        "caseName": "Confidential Construction-Defect Arbitration re: 88-Unit Condominium, Palm Springs, CA",
+        "citation": "Private arbitration (mediation failed first), resolved late 2024; case name, arbitrator, and docket not publicly disclosed",
+        "jurisdiction": "CA",
+        "year": 2024,
+        "outcome": "An 88-unit condominium association arbitrated construction-defect claims arising from vinyl window and sliding-glass-door frames that literally melted in the Palm Springs desert heat, plus failed deck waterproofing, corroded steel posts, significant stucco cracking, and water trapped behind stone veneer. The dispute settled/resolved in arbitration for $9.75 million.",
+        "dollarAmount": 9750000,
+        "sourceUrl": "https://actslaw.com/acts-law-attorneys-obtain-9-75-million-construction-defect-settlement/",
+        "confidence": "low",
+        "notes": "Reported only via the prevailing law firm's own case-result page -- no independently verifiable case name or docket. Included anyway because it is a real, well-documented recent outcome consistent in magnitude with the file's other post-occupancy latent-defect entries (roughly $111,000/unit here, in the same order of magnitude as Park Hill's per-unit figure), and because confidential arbitration -- not a published opinion -- is how a large share of real-world commercial construction-defect disputes actually resolve."
       }
     ],
     "design_professional_malpractice": [
@@ -1864,6 +2494,50 @@ const CASE_VALUATION_DATA = {
         "sourceUrl": "https://playbill.com/article/orange-county-pac-sues-architect-cesar-pelli-fluor-corp",
         "confidence": "medium",
         "notes": "Real, well-documented filed suit against a nationally prominent architecture firm and design-builder, with specific and credible defect allegations (sightlines, seating design, budget overrun), but the final resolution amount is not independently confirmed beyond a general 'Center won' characterization in secondary compilation sources -- treat the outcome direction as more reliable than any specific dollar figure, since none is included here. A useful addition to this claim type's sample regardless, since it involves a design-builder (Fluor) as co-defendant alongside the architect, a structure not otherwise represented in this claim type's citations."
+      },
+      {
+        "caseName": "Nantucket Cottage Hospital v. CannonDesign, Inc.",
+        "citation": "Suffolk Superior Court, Massachusetts, complaint filed June 2023 (exact docket number not independently confirmed)",
+        "jurisdiction": "MA",
+        "year": 2023,
+        "outcome": "The hospital sued its architect, CannonDesign, for breach of contract, negligence, and malpractice over the design of its new facility (opened 2019), alleging Cannon designed non-load-bearing exterior walls using flammable cedar shingles to satisfy the local Historic District Commission -- a fire-code violation that prevented the hospital from obtaining full Medicare/Medicaid licensure and forced it to operate under temporary waivers while redesigning and rebuilding the walls at a cost of millions. The hospital sought at least $8 million. No settlement or judgment has been located in available reporting.",
+        "dollarAmount": 8000000,
+        "sourceUrl": "https://nantucketcurrent.com/news/hospital-sues-architects-of-its-new-facility-for-8-million",
+        "confidence": "medium",
+        "notes": "Outcome undisclosed/unconfirmed -- treat the $8M figure as the amount sought, not a resolved recovery."
+      },
+      {
+        "caseName": "Bozzuto affiliate v. Icon Architecture, Inc. (The Abby, North Quincy)",
+        "citation": "Massachusetts state court, filed April 2024 (exact venue/docket number not independently confirmed)",
+        "jurisdiction": "MA",
+        "year": 2024,
+        "outcome": "A Bozzuto affiliate sued Boston-based Icon Architecture over dozens of alleged design errors at The Abby, a 610-unit mixed-use development next to the North Quincy MBTA station, claiming more than $3 million in resulting damages. Among the specific errors alleged: construction drawings for elevator pits in two buildings failed to specify code-required sump pumps, requiring demolition and re-pour of already-completed concrete slabs. Icon's president publicly disputed the allegations. Outcome/resolution not yet reported.",
+        "dollarAmount": 3000000,
+        "sourceUrl": "https://www.bisnow.com/boston/news/construction-development/bozzuto-sues-design-firm-over-alleged-errors-that-led-to-3m-in-damages-at-quincy-site-123927",
+        "confidence": "medium",
+        "notes": "A large, recent, commercial multifamily design-error claim with a specific, verifiable defect mechanism (missing sump-pump specification) rather than a vague 'design was bad' allegation -- useful even though pending."
+      },
+      {
+        "caseName": "Wold v. Select Structural Engineering, LLC (Davenport, Iowa Building Collapse Litigation)",
+        "citation": "Scott County District Court, Iowa (multiple related actions filed and consolidated in 2023; individual docket numbers not independently confirmed)",
+        "jurisdiction": "IA",
+        "year": 2023,
+        "outcome": "A 116-year-old mixed-use/apartment building at 324 Main St. in Davenport partially collapsed on May 28, 2023, killing three residents and displacing roughly 100 households. Building owner Andrew Wold had retained Select Structural Engineering to inspect the building and advise on repairs; Wold sued the firm for negligence and breach of contract, alleging it advised the building was not in danger despite noting wall damage during inspection. Select Structural counterclaimed against Wold and Davenport Hotel LLC, alleging dozens of its own claims including negligence and contribution. At least six related lawsuits (including from injured/displaced residents) were filed and consolidated. Outcome undisclosed as of available reporting.",
+        "dollarAmount": null,
+        "sourceUrl": "https://cbs2iowa.com/news/local/davenport-building-owner-files-lawsuit-against-engineering-firm-following-collapse",
+        "confidence": "medium",
+        "notes": "The most severe design/inspection-malpractice fact pattern found for this claim type -- deaths and mass displacement, comparable in severity to the catastrophicLifeSafetyFailure tier already used for contractor_breach_negligence -- but here the alleged malpractice is against a structural engineering/inspection firm rather than a general contractor. No dollar outcome available, but it confirms this claim type can reach the same top-of-range severity as the contractor-side claim, not only the mid-size redesign-cost claims the current sample otherwise reflects."
+      },
+      {
+        "caseName": "Barefoot Resort Residential Owners Association v. D3G Architects, Wingate Consulting Engineers, UFP Mid-Atlantic, JM Allen Construction, and Excel Custom Builders",
+        "citation": "Horry County, South Carolina state court, filed Aug. 11, 2020 (exact case number not independently confirmed)",
+        "jurisdiction": "SC",
+        "year": 2020,
+        "outcome": "A homeowners association sued five defendants -- including architect D3G and engineer Wingate Consulting -- over a $1.5 million beach cabana project at a North Myrtle Beach resort, identifying 13 alleged construction and design defects, most notably the substitution of galvanized steel for specified stainless-steel building hangers and truss plates (workers attempted to coat the galvanized steel rather than replace it), plus improper laminated-veneer-lumber beams, incompatible anchors, and defective concrete-block column construction. The association terminated its contracts with the architect and general contractor, hired replacements, and proceeded with the project while litigation continued. Final resolution not confirmed in available reporting.",
+        "dollarAmount": 1500000,
+        "sourceUrl": "https://www.burnsandwilcox.ca/insights/architects-engineers-sued-for-negligence-defects-in-1-5-million-beach-cabana-project/",
+        "confidence": "medium",
+        "notes": "An older filing with no confirmed final outcome, but factually rich on the design/spec-substitution mechanism and useful as a smaller-project, commercial-amenity data point distinct from the campus/institutional-building fact patterns that dominate this claim type's existing sample."
       }
     ],
     "indemnification_contribution_claim": [
@@ -1897,6 +2571,50 @@ const CASE_VALUATION_DATA = {
         "sourceUrl": "https://arizonaconstructionandthelaw.com/amberwood-development-inc-et-al-v-swanns-grading-inc-persuasive-authority-on-the-scope-of-indemnification-provisions/",
         "confidence": "medium",
         "notes": "Unpublished (no binding precedential effect in Arizona) but factually rich and directly on point: confirms that broad 'arising out of or in connection with' indemnity language reaches a subcontractor's defective work WITHOUT the indemnitee having to separately prove negligence or causation -- a meaningfully lower bar for the general contractor than a narrower indemnity clause would impose, and the percentage-apportionment approach (72%/70.6% rather than 100%) is itself a useful data point for how courts split indemnification exposure among multiple responsible parties on the same underlying award."
+      },
+      {
+        "caseName": "Fortune-Johnson, Inc. v. QFS, LLC",
+        "citation": "No. 1757-23-4 (Va. Ct. App., decided/reported Mar. 2025)",
+        "jurisdiction": "VA",
+        "year": 2025,
+        "outcome": "General contractor Fortune-Johnson was sued for breach of contract over construction of an apartment building and, in turn, filed separate indemnification actions against each of its subcontractors. The Virginia Court of Appeals held the subcontracts' primary indemnity clause was void under Va. Code Sec. 11-4.1 because it expressly required the subcontractors to indemnify the general contractor for the general contractor's OWN negligence -- an obligation the statute squarely prohibits -- and rejected the contractor's argument that the clause's 'to the fullest extent permitted by law' language saved it, holding Virginia courts lack authority to blue-pencil an overbroad indemnity provision into an enforceable one.",
+        "dollarAmount": null,
+        "sourceUrl": "https://valawyersweekly.com/2025/03/16/general-contractors-actions-asserting-indemnification-fail/",
+        "confidence": "high",
+        "notes": "Commercial multifamily (apartment building) fact pattern. Directly confirms the file's existing constructionIndemnityStateModifiers treatment of Virginia-style anti-indemnity statutes: an improperly broad clause is VOIDED outright (no partial enforcement/reformation), not merely narrowed to a proportionate-fault ceiling."
+      },
+      {
+        "caseName": "Dibrino v. Rockefeller Center North, Inc.",
+        "citation": "2025 N.Y. Slip Op. 07077 (N.Y. Dec. 18, 2025)",
+        "jurisdiction": "NY",
+        "year": 2025,
+        "outcome": "A worker fell from a ladder that had been left open and unattended by an employee of DAL Electrical Corporation, the electrical subcontractor on a Rockefeller Center-area project where Rockefeller Center North, Inc. was the owner and JRM Construction Management LLC was the construction manager/general contractor. The New York Court of Appeals held DAL owed no contractual indemnity to the owner or GC because the injury did not 'arise out of, or result from,' the performance of DAL's own contracted electrical work -- and refused to fall back on a broader indemnity clause elsewhere in the same contract, reasoning that doing so would render the narrower, more specific indemnity provision meaningless.",
+        "dollarAmount": null,
+        "sourceUrl": "https://www.courtlistener.com/opinion/10771263/dibrino-v-rockefeller-ctr-n-inc/",
+        "confidence": "high",
+        "notes": "A very recent, high-profile New York Court of Appeals decision on a commercial building. Key addition to the model: it shows a facially enforceable indemnity clause can still fail on CAUSATION/SCOPE grounds (whether the claim 'arises out of' the indemnitor's specific work) -- a distinct failure mode from the enforceability-ceiling logic (indemnityForm: limited/intermediate/broad) that the state-law modifier currently captures."
+      },
+      {
+        "caseName": "Seneca Specialty Insurance Co. v. Jade Beach Condominium Association, Inc.",
+        "citation": "No. 3D22-1290, 388 So. 3d 292 (Fla. 3d DCA Apr. 3, 2024)",
+        "jurisdiction": "FL",
+        "year": 2024,
+        "outcome": "After a unit owner sued the Jade Beach condominium association and two construction companies, the association's insurer, Seneca, paid the association $1 million under its policy. The association then settled with and released the construction-defect defendants. Seneca sued the association for breach of contract, alleging the releases impaired Seneca's subrogation/contribution rights against those construction defendants. The trial court dismissed Seneca's suit as premature, reasoning Seneca first had to sue the released construction defendants itself and obtain a judgment establishing impairment. The Third District Court of Appeal reversed, holding the policy did not require the insurer to sue the released parties first before pursuing its own breach-of-contract claim against its insured.",
+        "dollarAmount": 1000000,
+        "sourceUrl": "https://law.justia.com/cases/florida/third-district-court-of-appeal/2024/3d22-1290.html",
+        "confidence": "high",
+        "notes": "Not a GC-vs-subcontractor indemnification fight -- an insurer-vs-insured dispute over whether the insured association's own settlement with the underlying construction-defect tortfeasors improperly extinguished the carrier's contribution/subrogation rights. Directly relevant to any owner/association negotiating a global construction-defect settlement while a property or liability carrier has already paid out: releasing the contractors without protecting the carrier's contribution rights can itself become a second, independent claim."
+      },
+      {
+        "caseName": "450 Gin Lane SH, LLC v. Gentry Constr. Co., Inc.",
+        "citation": "2026 NY Slip Op 00228 (App. Div., 2d Dep't 2026)",
+        "jurisdiction": "NY",
+        "year": 2026,
+        "outcome": "An owner sued general contractor Gentry for breach of contract, alleging its work on a residence failed to comply with codes, plans, and specifications. Gentry brought a third-party action against sub-subcontractors D&C and Shope seeking common-law indemnification and contribution. The Appellate Division affirmed dismissal of Gentry's common-law indemnification claim against both, holding common-law indemnification is available only where the indemnitee's own conduct is 'solely passive' and its potential liability purely vicarious -- and here the owner's complaint alleged Gentry's OWN failure to construct the project according to the required standards, precluding common-law indemnification regardless of what D&C's and Shope's subcontracts said.",
+        "dollarAmount": null,
+        "sourceUrl": "https://www.nycourts.gov/Reporter/3dseries/2026/2026_00228.htm",
+        "confidence": "medium",
+        "notes": "CAVEAT: the underlying project here was a single-family residence, not commercial/multifamily -- included despite that because the holding restates a live, currently-litigated New York rule with obvious commercial application: where a construction-defect plaintiff alleges the GC's OWN failure to build to spec (the typical construction-defect pleading), COMMON-LAW indemnification against downstream subs is categorically unavailable no matter how the sub-subcontracts are worded -- a failure mode distinct from, and not currently modeled alongside, the contractual-indemnity-ceiling logic already in the file."
       }
     ],
     "insurance_coverage_defect_dispute": [
@@ -1946,6 +2664,50 @@ const CASE_VALUATION_DATA = {
         "sourceUrl": "https://law.justia.com/cases/federal/appellate-courts/ca8/23-3531/23-3531-2025-03-19.html",
         "confidence": "high",
         "notes": "A real, current, insurer-win outcome on a common builder's-risk coverage fight: an ensuing-loss clause does not resurrect coverage for defective-workmanship damage unless the insured can point to a genuinely separate covered peril that caused (or worsened) the loss, not just a different way of describing the same faulty work. dollarAmount reflects the $0 coverage recovered, not the $181,415.39 repair cost itself, which the insured bore."
+      },
+      {
+        "caseName": "Acuity, a Mutual Insurance Co. v. M/I Homes of Chicago, LLC",
+        "citation": "2023 IL 129087 (Ill. Nov. 30, 2023)",
+        "jurisdiction": "IL",
+        "year": 2023,
+        "outcome": "A townhome owners' association sued developer M/I Homes for breach of contract and breach of the implied warranty of habitability, alleging M/I's subcontractors caused construction defects through defective materials, faulty workmanship, and code violations. M/I demanded a defense from Acuity as an additional insured under a subcontractor's CGL policy; Acuity sought a declaratory judgment that the underlying complaint alleged no 'property damage' caused by an 'occurrence.' The trial court agreed with Acuity and found no duty to defend. The Illinois Supreme Court reversed in relevant part, holding that negligent subcontractor work causing damage to the project can constitute 'property damage' caused by an 'occurrence' under a standard CGL policy -- expressly overruling prior Illinois appellate precedent that had treated construction-defect claims as categorically uninsurable business-risk exclusions.",
+        "dollarAmount": null,
+        "sourceUrl": "https://www.isba.org/cases/illinois/supreme/2023/11/30/acuityvmihomesofchicagollc",
+        "confidence": "high",
+        "notes": "A landmark, widely-cited decision that materially EXPANDS CGL coverage availability for construction-defect claims in a major jurisdiction, reversing a more insurer-favorable prior rule. Underlying claim was a residential townhome HOA dispute, but the coverage holding applies with equal force to commercial CGL disputes and should be treated as a real doctrinal shift pushing Illinois-sited claims toward the higher end of the coverage-probability range."
+      },
+      {
+        "caseName": "Lessard v. R.C. Havens & Sons, Inc.",
+        "citation": "104 Mass. App. Ct. 572 (2024)",
+        "jurisdiction": "MA",
+        "year": 2024,
+        "outcome": "After homeowners won a jury verdict against homebuilder R.C. Havens & Sons over construction defects, the homebuilder's CGL insurer intervened seeking a declaration it owed no duty to indemnify. The Massachusetts Appeals Court held that the cost of repairing or removing a construction defect ITSELF is not 'property damage' within the meaning of a CGL policy, but the cost of repairing damage CAUSED BY that defect to otherwise non-defective work or property IS covered 'property damage' -- a split, partially insurer-favorable holding rather than a clean win for either side.",
+        "dollarAmount": null,
+        "sourceUrl": "https://www.constructionlawzone.com/2024/12/massachusetts-appellate-court-confirms-construction-defects-are-not-covered-under-commercial-general-liability-policies/",
+        "confidence": "high",
+        "notes": "Underlying dispute was residential (homebuilder/homeowner), included because the defect-repair-cost-vs-resulting-damage-cost distinction is one of the most heavily litigated CGL construction-defect coverage issues nationally and directly bears on the file's coveredPortionOfUnderlyingDefectDamages formula -- that formula likely should already discount for the slice of repair cost attributable to the defect itself, since that slice is frequently uninsured even where a duty to defend/broader coverage exists."
+      },
+      {
+        "caseName": "Westchester Modular Homes of Fairfield County, Inc. v. Arbella Protection Ins. Co.",
+        "citation": "224 Conn. App. 526 (2024)",
+        "jurisdiction": "CT",
+        "year": 2024,
+        "outcome": "A contractor sued its own CGL insurer, Arbella, to recover defense costs incurred in an underlying construction-defect action alleging water intrusion. The Connecticut Appellate Court held that water intrusion alone, without resulting damage to other property, does not constitute 'property damage' caused by an 'occurrence' under the CGL policy -- an insurer-favorable ruling limiting the contractor's ability to recover its defense costs for that portion of the underlying claim.",
+        "dollarAmount": null,
+        "sourceUrl": "https://www.constructionlawzone.com/2024/07/water-alone-is-not-property-damage-under-a-cgl-policy-in-connecticut/",
+        "confidence": "medium",
+        "notes": "Based on secondary case-summary reporting rather than a full read of the opinion text -- flagged accordingly. Consistent with the general national trend (also seen in Lessard) of appellate courts narrowing what counts as covered 'property damage' in pure water-intrusion/defect-only fact patterns."
+      },
+      {
+        "caseName": "The Travelers Indemnity Co. of Connecticut v. I.C. Refrigeration Service, Inc. et al.",
+        "citation": "Order filed Nov. 10, 2025, U.S. District Court for the Northern District of California (case/docket number not independently confirmed beyond the CourtListener docket entry)",
+        "jurisdiction": "Federal (N.D. Cal.)",
+        "year": 2025,
+        "outcome": "Travelers sought a declaratory judgment that it owed no duty to defend or indemnify its insureds, I.C. Refrigeration Service and Flory Construction, in a construction-defect action brought against them by project owner Highbridge Oakland. The court granted the insureds' motion to dismiss Travelers' duty-to-defend claim, holding Travelers could not show the damages Highbridge sought were not potentially covered 'property damage,' and stayed the remaining duty-to-indemnify claim pending resolution of the underlying suit. The court separately denied, without prejudice, Travelers' later motion for default judgment seeking a declaration that the damages alleged were purely economic rather than property damage.",
+        "dollarAmount": null,
+        "sourceUrl": "https://www.courtlistener.com/opinion/10736966/the-travelers-indemnity-company-of-connecticut-v-ic-refrigeration/",
+        "confidence": "medium",
+        "notes": "An interim/procedural ruling (motion to dismiss plus a denied default-judgment motion), not a final coverage determination -- included as a very recent, real data point showing insurers still frequently losing duty-to-defend declaratory actions at the pleading stage whenever the underlying complaint is pled broadly enough to allege potentially-covered property damage."
       }
     ],
     "cercla_cost_recovery": [
@@ -2024,6 +2786,83 @@ const CASE_VALUATION_DATA = {
         "sourceUrl": "https://www.congress.gov/crs-product/LSB10609",
         "confidence": "high",
         "notes": "A significant, current U.S. Supreme Court clarification of when a party is limited to the narrower, time-barred §113(f) contribution remedy versus the broader §107(a) cost-recovery remedy this claim type models -- directly relevant to correctly classifying a fact pattern into cercla_cost_recovery versus cercla_contribution_claim before applying either claim's damages formula."
+      },
+      {
+        "caseName": "United States v. The Chemours Company, et al.",
+        "citation": "Proposed Consent Decree, U.S. District Court for the Southern District of West Virginia, lodged/announced June 24, 2026",
+        "jurisdiction": "Federal (S.D. W. Va.)",
+        "year": 2026,
+        "outcome": "EPA, DOJ, and the West Virginia Dep't of Environmental Protection announced a $450 million settlement with Chemours resolving PFAS contamination and other environmental-law violations at four facilities: Chambers Works and Parlin, NJ; Fayetteville Works, NC; and Washington Works, WV. The package includes a $22.5 million civil penalty, a $90 million program to mitigate ongoing PFAS discharges into the Cape Fear, Delaware, and Ohio Rivers, plus additional injunctive-relief/remediation obligations making up the balance of the $450 million total. Subject to a 30-day public comment period before final court approval.",
+        "dollarAmount": 450000000,
+        "sourceUrl": "https://www.epa.gov/enforcement/chemours-settlement-summary-june-2026",
+        "confidence": "high",
+        "notes": "Multi-site, multi-state legacy PFAS manufacturing case -- fits the waterwayOrMultiDecadeLegacyIndustrialCorridor benchmark tier alongside Lower Duwamish/Solvay/Raritan Bay/Anaconda, and is itself close in size to the current NJ state PFAS consent judgments cited under state_cleanup_consent_decree (same underlying PFAS-manufacturer fact pattern, different sovereign plaintiff)."
+      },
+      {
+        "caseName": "United States EPA cost-recovery settlement — Petroleum Products Corporation Superfund Site",
+        "citation": "EPA enforcement settlement, Pembroke Park, Florida, announced June 2025 (FY2025 Superfund Cleanup Enforcement Annual Results)",
+        "jurisdiction": "Federal (S.D. Fla.)",
+        "year": 2025,
+        "outcome": "EPA secured commitments covering roughly $62 million in cleanup work (with more than $30 million in cleanup cost commitments specifically secured in FY2025) to remove over 50,000 cubic yards of contaminated soil/waste threatening the Biscayne Aquifer, the primary drinking-water source for approximately 5.2 million South Florida residents.",
+        "dollarAmount": 62000000,
+        "sourceUrl": "https://www.epa.gov/enforcement/enforcement-and-compliance-assurance-annual-results-fy-2025-superfund-cleanup",
+        "confidence": "medium",
+        "notes": "Falls in a dollar range ($20M-$130M) with NO current benchmark tier -- too large for singleParcelSoilOnly ($3M-$19M) but below the $130M floor of waterwayOrMultiDecadeLegacyIndustrialCorridor. See calibration note."
+      },
+      {
+        "caseName": "United States EPA cost-recovery settlement — Honeywell International (San Fernando Valley Area 1 Superfund Site)",
+        "citation": "EPA enforcement settlement, North Hollywood/Burbank, California, announced February 2025 (FY2025 Superfund Cleanup Enforcement Annual Results)",
+        "jurisdiction": "Federal (C.D. Cal.)",
+        "year": 2025,
+        "outcome": "$12 million settlement with Honeywell International to fund groundwater-contamination cleanup work aimed at restoring drinking-water access for approximately 144,000 residents drawing on the San Fernando Valley aquifer.",
+        "dollarAmount": 12000000,
+        "sourceUrl": "https://www.epa.gov/enforcement/enforcement-and-compliance-assurance-annual-results-fy-2025-superfund-cleanup",
+        "confidence": "high",
+        "notes": "Sits at the upper end of the current singleParcelSoilOnly tier ($3M-$19M) -- though this is groundwater, not soil-only, so it also illustrates that tier's label may be narrower than the actual data it should cover."
+      },
+      {
+        "caseName": "Celanese Corp., et al. v. United States (Chemtronics Superfund Site)",
+        "citation": "Consent Decree / settlement, W.D.N.C., reported March 2026 (Mealey's Pollution Liability)",
+        "jurisdiction": "Federal (W.D.N.C.)",
+        "year": 2026,
+        "outcome": "REVERSE-POSTURE cost-recovery settlement: the private owners (including Celanese Corp.) of the Chemtronics Superfund site near Asheville, NC -- contaminated by decades of Vietnam-era chemical-weapons/tear-gas manufacturing conducted at points under government direction -- sued the United States as a PRP under CERCLA Sec. 107. The owners agreed to drop their claims for further reimbursement of cleanup costs in exchange for a $3.9 million payment from the United States.",
+        "dollarAmount": 3900000,
+        "sourceUrl": "https://www.law360.com/mealeys/mealeys-pollution-liability/articles/2448225/u-s-to-pay-3-9m-to-north-carolina-superfund-site-owners-to-settle-cercla-suit",
+        "confidence": "medium",
+        "notes": "Useful because it shows the government itself as a cost-recovery DEFENDANT/PRP (from historical war-materiel production contracts) -- a fact pattern this claim type's current sample doesn't otherwise illustrate. Full case caption/docket not independently confirmed beyond the trade-press summary; underlying consent decree/complaint not directly reviewed."
+      },
+      {
+        "caseName": "Proposed CERCLA Cost Recovery Settlement — Pure Earth Recycling Superfund Site",
+        "citation": "Proposed settlement, EPA Region 2, Vineland, Cumberland County, NJ, published Federal Register Feb. 28, 2025",
+        "jurisdiction": "Federal (D.N.J.)",
+        "year": 2025,
+        "outcome": "Proposed CERCLA Sec. 122(h) cost-recovery settlement resolving liability for 231 separate settling parties (a large de minimis-style multi-party settlement), who collectively agreed to pay $1,427,692.56 to reimburse EPA's past response costs at the site.",
+        "dollarAmount": 1427692.56,
+        "sourceUrl": "https://www.federalregister.gov/documents/2025/02/28/2025-03208/proposed-cercla-cost-recovery-settlement-for-the-pure-earth-recycling-superfund-site-vineland",
+        "confidence": "high",
+        "notes": "Falls below the current singleParcelSoilOnly floor of $3M despite being a real, EPA-negotiated cost-recovery settlement -- and involves a much larger number of PRPs (231) than any tier currently models. See calibration note."
+      },
+      {
+        "caseName": "Proposed CERCLA Cost Recovery Settlement — Trinseo Polymer Release Site",
+        "citation": "Proposed settlement, Bristol, Bucks County, Pennsylvania, published Federal Register Jan. 16, 2026",
+        "jurisdiction": "Federal (E.D. Pa.)",
+        "year": 2026,
+        "outcome": "Proposed settlement requiring the settling respondent to pay $22,171.29 plus interest to reimburse EPA's past response costs at a single polymer-release site.",
+        "dollarAmount": 22171.29,
+        "sourceUrl": "https://regulations.justia.com/regulations/fedreg/2026/01/16/2026-00783.html",
+        "confidence": "high",
+        "notes": "An order of magnitude below even the smallCommercialStateEnforcementPenalty tier floor of $85,000 -- confirms real EPA cost-recovery settlements can be extremely small when the PRP's actual contribution to a site was minor."
+      },
+      {
+        "caseName": "Voggenthaler v. Maryland Square LLC",
+        "citation": "724 F.3d 1050 (9th Cir. 2013); related district court docket 2:08-cv-01618-RCJ-GWF (D. Nev.)",
+        "jurisdiction": "Federal (9th Cir., applying NV law)",
+        "year": 2013,
+        "outcome": "Decades of PCE seepage from a former dry-cleaning tenant ('Al Phillips the Cleaner') migrated from a Las Vegas shopping center into an adjoining residential neighborhood's soil and groundwater. Neighboring homeowners obtained injunctive relief against the shopping-center owner and dry-cleaner operators under RCRA Sec. 7002; the Nevada Division of Environmental Protection separately pursued and (on summary judgment, affirmed on appeal) recovered its past CERCLA response costs from the same parties. NDEP's April 2007 PRP notice put its expended costs at approximately $160,000 at that stage, with additional response costs anticipated; the final total recovery is not confirmed by the sources reviewed.",
+        "dollarAmount": null,
+        "sourceUrl": "https://law.justia.com/cases/federal/appellate-courts/ca9/10-17520/10-17520-2013-07-26.html",
+        "confidence": "medium",
+        "notes": "A commercial-shopping-center-specific dry-cleaner PCE fact pattern (like Regency Centers/Indian Harbor under the insurance-dispute claim type, and the Sigma Realty/Knapp-estate small dry-cleaner state actions) but decided as a CERCLA cost-recovery cross-claim rather than an insurance or state-penalty action -- useful for cross-referencing how the same underlying contamination type plays out across different claim types in this dataset. dollarAmount left null because no source reviewed disclosed a confirmed final total."
       }
     ],
     "cercla_contribution_claim": [
@@ -2064,6 +2903,49 @@ const CASE_VALUATION_DATA = {
         "sourceUrl": "https://www.mgkflitigationblog.com/Barclay_Lofts_PPG_Allocation_CERCLA_Superfund",
         "confidence": "high",
         "notes": "A detailed, multi-party equitable allocation ruling -- useful both for the recoverable-past-costs figure ($1.17M of $1.43M claimed) and as a real illustration of how courts split CERCLA liability among multiple historical operators plus the current owner, including assigning an insolvent party's 'orphan share' to the plaintiff rather than leaving it unallocated. dollarAmount reflects only the confirmed recoverable past costs; future costs remained a wide, unresolved range at the time of this decision."
+      },
+      {
+        "caseName": "Atlantic Richfield Company v. NL Industries, Inc.",
+        "citation": "No. 23-1349 (10th Cir. Feb. 19, 2025)",
+        "jurisdiction": "Federal (10th Cir., applying CO law)",
+        "year": 2025,
+        "outcome": "DOCTRINAL, not a dollar data point: sulfuric acid leaked into a Colorado river from a plant near a mine; after EPA ordered Atlantic Richfield to build water-treatment systems (costing several million dollars), Atlantic Richfield sued NL Industries. The district court held the claim was cost-recovery under Sec. 107 (six-year limitations period) and time-barred it; the Tenth Circuit reversed, holding the claim was actually a Sec. 113(f) contribution action (three-year period, but running from a different trigger), so the suit was timely after all, and remanded. Directly illustrates the same 107-vs-113(f) classification fork that this dataset already flags under cercla_cost_recovery (Guam v. United States) -- now from the reverse direction, where a party arguing for LONGER treatment (cost recovery) was instead held to be a contribution plaintiff.",
+        "dollarAmount": null,
+        "sourceUrl": "https://law.justia.com/cases/federal/appellate-courts/ca10/23-1349/23-1349-2025-02-19.html",
+        "confidence": "high"
+      },
+      {
+        "caseName": "Georgia-Pacific Consumer Products LP v. NCR Corp. (Kalamazoo River Superfund Site litigation)",
+        "citation": "6th Cir., published opinion filed May 12, 2025 (slip op. no. 25a0127p-06)",
+        "jurisdiction": "Federal (6th Cir., applying MI law)",
+        "year": 2025,
+        "outcome": "Continuing installment of the decades-long Kalamazoo River PCB-contamination litigation among historical paper-mill operators. The 2025 published opinion held that a party already found liable for response costs under CERCLA Sec. 107 in an earlier phase of the case is not entitled to declaratory relief for FUTURE cleanup costs under Sec. 107 -- it is limited to a Sec. 113(f) contribution claim for those future costs, reinforcing that a single multi-decade site can generate successive, doctrinally distinct claims at different phases of the same litigation.",
+        "dollarAmount": null,
+        "sourceUrl": "https://www.mcglinchey.com/insights/sixth-circuit-clarifies-cercla-statute-of-limitations/",
+        "confidence": "medium",
+        "notes": "VERIFICATION CAVEAT: the May 12, 2025 decision date and Sixth Circuit slip-opinion number (25a0127p-06) were confirmed against the court's own opinion index, and the subject matter (Kalamazoo River, Sec. 107 vs. 113(f) declaratory relief) is confirmed via a secondary-source summary. The exact party caption for this specific 2025 phase (as opposed to the confirmed 2022 phase of the same litigation family, Georgia-Pacific Consumer Prods. LP v. NCR Corp., No. 18-1806, 2022 WL 1209013 (6th Cir. Apr. 25, 2022)) was NOT independently re-confirmed from primary text in this research session -- flagged here rather than presented as fully verified."
+      },
+      {
+        "caseName": "ASARCO LLC v. Union Pacific Railroad Co.",
+        "citation": "765 F.3d 999 (9th Cir. 2014); parallel rulings same year in 755 F.3d 1183 (10th Cir. 2014) and 762 F.3d 744 (8th Cir. 2014)",
+        "jurisdiction": "Federal (9th, 10th & 8th Cir.)",
+        "year": 2014,
+        "outcome": "A landmark, multi-circuit trilogy arising from ASARCO's bankruptcy reorganization: ASARCO's post-bankruptcy Sec. 113(f) contribution claims against Union Pacific (a 19th-century-era business partner at several historical lead/mining/smelting sites in Idaho, Montana, and elsewhere) were held time-barred because they were filed more than three years after the bankruptcy court approved the underlying CERCLA settlements -- with the Ninth, Tenth, and Eighth Circuits all reaching the same result within months of each other on parallel sites.",
+        "dollarAmount": null,
+        "sourceUrl": "https://www.courtlistener.com/opinion/587606/",
+        "confidence": "medium",
+        "notes": "No single dollar figure applies (multiple sites/dockets); value here is doctrinal -- a real, verified illustration of how a bankruptcy-triggered contribution clock can extinguish an otherwise-valid contribution claim entirely, consistent with this claim type's existing 'orphan share' and equitable-reduction themes (Trinity Industries, Barclay Lofts) but for a different, timing-based reason. Citations confirmed via CourtListener docket search; full opinion text not independently re-read in this session."
+      },
+      {
+        "caseName": "United States v. Entergy Louisiana, LLC, et al. (F.J. Doyle Salvage Superfund Site)",
+        "citation": "Proposed Consent Decree, D.J. Ref. No. 90-11-3-12574, E.D. Tex., proposed Dec. 2025",
+        "jurisdiction": "Federal (E.D. Tex.)",
+        "year": 2025,
+        "outcome": "The United States sued six electrical utilities (Entergy Louisiana, LLC; Entergy Texas, Inc.; City of Garland, TX; Lighthouse Electric Cooperative; Southwestern Electric Power Co.; and Oncor Electric Delivery Co.) under CERCLA Sec. 107(a) to recover costs of cleaning up PCB-contaminated transformers sent to the F.J. Doyle Salvage Superfund Site in Leonard, Texas. The six settling defendants agreed to pay $1,001,630.21 collectively -- roughly 25% of the $4,006,520.83 in EPA response costs at issue -- in exchange for a covenant not to sue and Sec. 113(f)(2) contribution protection against future claims by non-settling PRPs.",
+        "dollarAmount": 1001630.21,
+        "sourceUrl": "https://www.federalregister.gov/public-inspection/2025-23505/proposed-consent-decree-cercla",
+        "confidence": "medium",
+        "notes": "Directly relevant to the contribution-protection mechanic this claim type should account for: once these six utilities settle for ~25% of total costs, any remaining non-settling PRPs lose the ability to seek contribution from them, concentrating the unrecovered ~75% balance onto whoever is left -- the flip side of the 'orphan share' dynamic already noted for Barclay Lofts."
       }
     ],
     "state_cleanup_consent_decree": [
@@ -2102,6 +2984,60 @@ const CASE_VALUATION_DATA = {
         "dollarAmount": 85000,
         "sourceUrl": "https://www.njoag.gov/ag-platkin-and-dep-commissioner-latourette-announce-resolution-of-two-environmental-lawsuits-and-the-filing-of-six-new-enforcement-actions-including-four-in-environmental-justice-communities/",
         "confidence": "medium"
+      },
+      {
+        "caseName": "State of New Jersey, et al. v. E.I. du Pont de Nemours & Co. (n/k/a EIDP, Inc.), The Chemours Co., DuPont Specialty Products USA, LLC, Corteva Inc., DuPont de Nemours, Inc., and 3M Co.",
+        "citation": "Federal court approval of two combined consent judgments, D.N.J., approved Aug. 7, 2026",
+        "jurisdiction": "NJ (federal court approval)",
+        "year": 2026,
+        "outcome": "Federal court gave final approval to two combined settlements, together valued at approximately $2.5 billion, resolving New Jersey's long-running PFAS natural-resource-damage and remediation claims against DuPont-family entities (~$2 billion) and 3M (~$450 million) arising from decades of PFAS manufacturing at four industrial sites: Pompton Lakes Works (Passaic County), Parlin (Middlesex County), Repauno (Gloucester County), and Chambers Works (Salem County). Breakdown: up to $795 million to a PFAS abatement fund, up to $365 million in natural resource damages, up to $1.2 billion in remediation funding (with a $475 million reserve), and roughly $195 million in legal fees/costs, paid out via annual disbursements over 25 years.",
+        "dollarAmount": 2500000000,
+        "sourceUrl": "https://www.njoag.gov/federal-court-approves-historic-pfas-settlements-valued-at-approximately-2-5-billion/",
+        "confidence": "high",
+        "notes": "Described by NJ's AG as the largest environmental recovery in state history. Encompasses/supersedes the earlier-announced standalone 3M settlement (up to $450 million, announced May 13, 2025, covering Chambers Works and Parlin plus the statewide PFAS directive) -- do not double-count both as separate benchmark data points; this $2.5B figure is the final, court-approved combined total."
+      },
+      {
+        "caseName": "New Jersey Dep't of Environmental Protection v. Pechiney Plastic Packaging, Inc., Bristol Myers Squibb, Citigroup, MRC Holdings, Rexam Beverage Can Co., and Albea Americas, Inc. (Pohatcong Valley Groundwater Contamination Site)",
+        "citation": "Proposed Consent Judgment, published N.J. Register Nov. 17, 2025; announced Nov. 24, 2025 (public comment through Jan. 16, 2026)",
+        "jurisdiction": "NJ",
+        "year": 2025,
+        "outcome": "$49.5 million settlement ($45 million in natural resource damages plus $4.5 million in past remediation costs) for a nearly 10,000-acre TCE/PCE groundwater plume (once nine miles long) under Pohatcong Valley, Warren County (Washington Township, Washington Borough, Franklin Township, Greenwich Township), which reached two public water-supply wells and multiple private residential wells. Pechiney Plastic Packaging, Inc. bears the large majority (~$43.9 million of NRD plus most cleanup costs); Bristol Myers Squibb pays the balance (~$1.1 million NRD plus $179,000 past costs). Original state lawsuit filed in 2018.",
+        "dollarAmount": 49500000,
+        "sourceUrl": "https://www.njoag.gov/ag-platkin-and-dep-commissioner-latourette-announce-49-5-million-settlement-to-resolve-pohatcong-valley-groundwater-contamination/",
+        "confidence": "high"
+      },
+      {
+        "caseName": "California Department of Toxic Substances Control settlement — former Bay Area dry cleaner ('Omo's')",
+        "citation": "DTSC administrative settlement, Bay Area, CA, announced March 26, 2026",
+        "jurisdiction": "CA",
+        "year": 2026,
+        "outcome": "DTSC secured more than $100,000 (reported as $100,800) in penalties from the current owners and former operators of a Bay Area dry-cleaning business for cleanup violations tied to legacy solvent (PCE-type) contamination.",
+        "dollarAmount": 100800,
+        "sourceUrl": "https://dtsc.ca.gov/2026/03/26/dtsc-secures-more-than-100000-settlement-with-former-bay-area-dry-cleaner-for-cleanup-violations/",
+        "confidence": "medium",
+        "notes": "A close California analog to the existing NJ small-dry-cleaner penalty data points (Sigma Realty $117,500; Knapp estate $85,000) and to the Golden Gate Petroleum gas-station action already in this claim type's sample -- confirms the smallCommercialStateEnforcementPenalty-style range ($85K-$120K) generalizes beyond New Jersey. The source page itself could not be re-fetched directly in this session (blocked); this entry relies on a corroborating secondary search summary of the same DTSC release and should be spot-checked before heavy reliance."
+      },
+      {
+        "caseName": "New Jersey civil enforcement recovery — Presperse Corporation (bankruptcy proof-of-claim)",
+        "citation": "NJ AG 2025 civil-enforcement recoveries summary, announced July 22, 2026",
+        "jurisdiction": "NJ",
+        "year": 2025,
+        "outcome": "New Jersey recovered $1,667,830.29 from Presperse Corporation via a proof-of-claim filed in what appears to be a bankruptcy/creditor proceeding, as part of the state's broader $193 million in total 2025 civil-enforcement recoveries (environmental and non-environmental combined).",
+        "dollarAmount": 1667830.29,
+        "sourceUrl": "https://www.njoag.gov/ag-davenport-2025-state-recoveries-reach-193-million/",
+        "confidence": "low",
+        "notes": "Specific contamination site and full underlying facts were not disclosed in the source reviewed -- included as a real, sourced dollar figure illustrating that state environmental recoveries increasingly run through bankruptcy claims processes (an important collections-risk factor this claim type doesn't currently model), not as a fully-documented case study. Verify against the underlying bankruptcy docket before relying on it for anything beyond the dollar figure."
+      },
+      {
+        "caseName": "New Jersey civil enforcement recovery — Solvay/Arkema Judicial Consent Order",
+        "citation": "Arkema Judicial Consent Order, NJ, court document dated June 30, 2025; reported in NJ AG's 2025 recoveries summary (July 22, 2026)",
+        "jurisdiction": "NJ",
+        "year": 2025,
+        "outcome": "$33,950,000 recovered under a Judicial Consent Order involving Solvay/Arkema, referenced in New Jersey's 2025 civil-enforcement recoveries summary.",
+        "dollarAmount": 33950000,
+        "sourceUrl": "https://www.njoag.gov/ag-davenport-2025-state-recoveries-reach-193-million/",
+        "confidence": "low",
+        "notes": "IMPORTANT CAVEAT: this appears to be DISTINCT from the $393 million Solvay Specialty Polymers West Deptford PFAS consent order already cited in this claim type's existing sample (different dollar figure, different associated company name 'Arkema,' different document date) -- but the source reviewed did not disclose the underlying site or full case name clearly enough to confirm it is not somehow a partial/duplicate reference to the same overall Solvay PFAS matter. Flagged as low confidence and should be independently verified against NJDEP's site-specific settlement records before being relied upon as a separate data point."
       }
     ],
     "environmental_insurance_coverage_dispute": [
@@ -2160,6 +3096,50 @@ const CASE_VALUATION_DATA = {
         "sourceUrl": "https://caselaw.findlaw.com/us-11th-circuit/1177959.html",
         "confidence": "high",
         "notes": "A landmark, frequently-cited illustration that an 'absolute' pollution exclusion in a general liability or E&O policy can eliminate coverage even for an environmental CONSULTANT's own negligent pollution-related advice -- not just for the underlying contamination itself. Directly relevant to any commercial party relying on an environmental consultant's clearance opinion: that consultant's own insurance may not cover a wrong call."
+      },
+      {
+        "caseName": "Griffith Foods Int'l, Inc. v. National Union Fire Ins. Co. of Pittsburgh, PA",
+        "citation": "2026 IL 131710 (Ill. Sup. Ct. 2026)",
+        "jurisdiction": "Illinois",
+        "year": 2026,
+        "outcome": "INSURER WIN: Griffith Foods operated a medical-equipment/food-related sterilization facility alleged to have emitted ethylene oxide for over 35 years, allegedly causing cancer and other illnesses in nearby residents. The Illinois Supreme Court held that a government permit or other regulatory emissions authorization has 'no relevance' to whether a CGL pollution exclusion applies -- the pollution exclusion is triggered by the nature of the contaminant and resulting injury, not by whether the release was legally authorized -- so the government-authorized emissions were still 'pollution' for coverage purposes and the exclusion applied.",
+        "dollarAmount": null,
+        "sourceUrl": "https://ilcourtsaudio.blob.core.windows.net/antilles-resources/resources/f07723d1-119f-4c40-a855-86d02698f069/Griffith%20Foods%20Int%20v.%20National%20Union%20Fire%20Ins%202026%20IL%20131710.pdf",
+        "confidence": "high",
+        "notes": "This case is ALREADY referenced elsewhere in the dataset (in the Illinois state-modifier table for this claim type, at the 'Illinois' entry, which asserts it is 'already cited under...environmental_insurance_coverage_dispute elsewhere in this dataset') -- but it was NOT actually present in this claim type's citations array prior to this addition. Adding it here closes that gap and makes the cross-reference note accurate."
+      },
+      {
+        "caseName": "Bradley v. Travelers Casualty Insurance Co. (or affiliated Travelers entity)",
+        "citation": "C.D. Cal. (Los Angeles), ruling issued Sept. 2, 2026",
+        "jurisdiction": "Federal (C.D. Cal., applying CA law)",
+        "year": 2026,
+        "outcome": "PARTIAL POLICYHOLDER WIN: an insured ('Bradley') sought partial summary judgment that Travelers owed a duty to defend against an underlying personal-injury suit alleging exposure to hydrogen sulfide gas. The court granted the motion in relevant part, holding Travelers had failed to show the policy's pollution exclusion barred coverage for that claim.",
+        "dollarAmount": null,
+        "sourceUrl": "https://www.mealeys.com/mealeys/mealeys-toxic-torts/articles/2520891",
+        "confidence": "medium",
+        "notes": "Full case caption/docket number and the exact Travelers entity name were not confirmed beyond the trade-press summary (which itself sits behind a subscription paywall) -- party names as given ('Bradley' v. 'Travelers') are as reported, not independently verified against a court docket."
+      },
+      {
+        "caseName": "New Castle County v. Hartford Accident and Indemnity Co.",
+        "citation": "970 F.2d 1267 (3d Cir. 1992)",
+        "jurisdiction": "Federal (3d Cir., applying DE law)",
+        "year": 1992,
+        "outcome": "Landmark, long-running dispute over historical CGL coverage for New Castle County's landfill-related CERCLA liabilities. Among other issues, the Third Circuit's decision is a leading citation for adopting a 'continuous trigger' theory for progressive, multi-year environmental contamination (rather than requiring the insured to pinpoint a single discrete 'occurrence' date), while resolving other coverage issues (including aspects of the pollution exclusion and number-of-occurrences questions) less favorably to the County -- an overall mixed outcome across the several issues litigated. This is one of several related opinions in the same multi-year New Castle County insurance-coverage litigation (other related decisions include 174 F.3d 338 (3d Cir. 1999) and 243 F.3d 744 (3d Cir. 2001)).",
+        "dollarAmount": null,
+        "sourceUrl": "https://www.courtlistener.com/opinion/587606/new-castle-county-v-hartford-accident-and-indemnity-company/",
+        "confidence": "medium",
+        "notes": "Citation and case existence independently confirmed via CourtListener docket search. The substantive summary above reflects general legal knowledge of this well-known, frequently-cited landmark rather than a fresh read of the full opinion text in this session (the opinion's rendered page returned no extractable text) -- recommend confirming the specific holding details against the primary opinion before relying on this for anything beyond 'a real, on-point landmark case exists here.'"
+      },
+      {
+        "caseName": "Broadwell Realty Services, Inc. v. Fidelity & Casualty Co. of New York",
+        "citation": "528 A.2d 76, 218 N.J. Super. 516 (App. Div. 1987)",
+        "jurisdiction": "NJ",
+        "year": 1987,
+        "outcome": "POLICYHOLDER WIN (duty to defend): an early, frequently-cited New Jersey landmark holding that a commercial property owner facing a state-agency-driven cleanup obligation for contamination migrating from its property was entitled to a defense from its CGL insurer, addressing what counts as an 'occurrence' and property damage in the context of gradual environmental contamination discovered and remediated under regulatory compulsion rather than through a conventional third-party tort suit.",
+        "dollarAmount": null,
+        "sourceUrl": "https://www.courtlistener.com/opinion/2258049/broadwell-realty-services-inc-v-fidelity-cas-co-of-ny/",
+        "confidence": "medium",
+        "notes": "Citation and case existence independently confirmed via CourtListener (cited 109 times per that database, confirming its landmark status). As with New Castle County above, the substantive outcome summary reflects general legal knowledge of this well-known case rather than a fresh read of the full opinion text in this session -- confirm the specific holding against the primary opinion before relying on fine-grained details."
       }
     ],
     "just_compensation_valuation": [
@@ -2209,6 +3189,61 @@ const CASE_VALUATION_DATA = {
         "sourceUrl": "https://www.ballardspahr.com/insights/alerts-and-articles/2025/01/arizona-supreme-court-expands-just-compensation-rights-in-eminent-domain-case",
         "confidence": "high",
         "notes": "A strong, current example for the severanceAccessOrBusinessValueDispute uplift tier (3x here) -- notable because the compensable harm wasn't to the condemned parcels themselves but to OTHER property the owners held that was merely appurtenant to them, a real expansion of what counts as 'part of a larger parcel' for severance-damages purposes."
+      },
+      {
+        "caseName": "Mountain Valley Pipeline, LLC v. 8.37 Acres of Land, More or Less, Situate in Roanoke County (Terry family)",
+        "citation": "No. 23-1532 (4th Cir. May 14, 2024)",
+        "jurisdiction": "Federal (4th Cir., applying VA law)",
+        "year": 2024,
+        "outcome": "A jury awarded the Terry family $523,327 in just compensation for permanent and temporary pipeline easements across 8.37 acres of their 560-acre Bent Mountain farm, crediting testimony that the land was worth $1.9 million with a roughly 30% reduction from the pipeline's impact. The district court trimmed the award to $261,033 post-trial, reasoning the jury must have relied on an unsupported commercial-development valuation theory. A Fourth Circuit panel (Judges Thacker, Gregory, and Wynn) reversed, holding the original $523,327 verdict was independently sustainable on the trial record using only the property's residential valuation evidence, and restored the full jury award.",
+        "dollarAmount": 523327,
+        "sourceUrl": "https://cardinalnews.org/2024/05/14/judges-side-with-family-in-mountain-valley-pipeline-compensation-case-reversing-earlier-decision/",
+        "confidence": "high",
+        "notes": "A real, published federal appellate reinstatement of a landowner jury verdict a district judge had cut nearly in half -- useful evidence that a valuation verdict resting on legitimate alternative evidentiary theories can survive post-trial second-guessing on appeal."
+      },
+      {
+        "caseName": "Williamson County, Texas v. J.A. Davidson Holdings, L.P.",
+        "citation": "Williamson County District Court, Texas (jury verdict Apr. 2025; Rule 11 settlement filed July 2025)",
+        "jurisdiction": "TX",
+        "year": 2025,
+        "outcome": "In a county-roadway condemnation, a Williamson County jury awarded J.A. Davidson Holdings $4,437,000 for the portion of property taken -- a figure the reporting describes as exceeding the valuation the county itself presented at trial. The parties subsequently resolved the balance of the dispute via a Rule 11 settlement agreement adding $2,913,000, for a combined total recovery of approximately $7.35 million.",
+        "dollarAmount": 7350000,
+        "sourceUrl": "https://www.hellogeorgetown.com/williamson-county-news/williamson-county-eminent-domain-case-ends-in-7-35m-settlement-after-jury-verdict/",
+        "confidence": "medium",
+        "notes": "The county's initial written offer was not disclosed in available reporting, so the exact uplift multiple can't be independently computed -- included for the confirmed, large, real dollar figures and jury-exceeds-condemnor's-valuation pattern, not as a precise ratio data point."
+      },
+      {
+        "caseName": "New Jersey Department of Environmental Protection v. Midway Beach Condominium Association, Inc.",
+        "citation": "N.J. Superior Court, Law Division, Ocean County, Docket No. OCN-L-2653-17 (jury verdict Aug. 2024; final judgment Aug. 2025)",
+        "jurisdiction": "NJ",
+        "year": 2024,
+        "outcome": "The State condemned a permanent easement over roughly 6 acres of oceanfront property owned by a homeowners' association for a post-Hurricane Sandy dune and storm-protection project, opening with a nominal $500 statutory offer. After trial, the jury returned a verdict of $4,707,631.36 -- described as the largest verdict obtained in any New Jersey beach-replenishment condemnation matter -- essentially matching the owner's own $4.69 million appraisal. Final judgment (with pre-judgment interest resolved by stipulation) entered roughly a year later.",
+        "dollarAmount": 4707631,
+        "sourceUrl": "https://www.ownerscounsel.com/new-jersey-beach-replenishment-case-with-record-high-jury-verdict-nearly-a-year-ago-finally-concludes-after-pre-judgment-interest-agreement-is-reached/",
+        "confidence": "high",
+        "notes": "An extreme-outlier multiple (roughly 9,400x the opening offer) driven by New Jersey's practice of opening beach-easement condemnations with a token statutory-minimum offer, not a genuine first market bid -- do not use this ratio to recalibrate the general uplift tiers; it reflects a state/property-type-specific quirk, not typical negotiating behavior."
+      },
+      {
+        "caseName": "Commissioners of Carroll County, Maryland v. Kathleen O'Connor, et al.",
+        "citation": "Circuit Court for Carroll County, Maryland, No. C-06-CV-23-000315 (jury verdict Nov. 2025)",
+        "jurisdiction": "MD",
+        "year": 2025,
+        "outcome": "The County sought to partially condemn a 79-acre property with a single-family home (a fee-simple taking of 1/3 acre plus an avigation easement over the remaining 78 acres) for an airport runway extension, opening with an offer of $268,500 that was later raised to $400,000 and then $700,000 before trial. The county's own appraisers valued the taking at $645,000-$700,000; the landowners' expert valued the damage at $2.2 million. The jury returned the maximum amount requested -- $3,500,000 in just compensation.",
+        "dollarAmount": 3500000,
+        "sourceUrl": "https://www.ownerscounsel.com/joe-suntum-ocas-maryland-member-prevails-in-landmark-eminent-domain-trial/",
+        "confidence": "high",
+        "notes": "Residential/agricultural rather than commercial, but a real, well-documented ~13x uplift over the county's original offer (and ~5x its own final pretrial expert valuation) -- a genuine data point above the top of the existing severanceAccessOrBusinessValueDispute 2.0-5.0x tier, driven by an avigation-easement severance theory analogous to the Foothills/Hanke proximity-damages fact pattern already in this claim's sample."
+      },
+      {
+        "caseName": "Piedmont Natural Gas Company, Inc. v. BlueRoad Fontanel, LLC",
+        "citation": "Tenn. Ct. App., No. M2024-01860-COA-R3-CV (argued Nov. 5, 2025)",
+        "jurisdiction": "TN",
+        "year": 2025,
+        "outcome": "A gas utility acquired a pipeline easement over the landowner's property through eminent domain, and a jury assessed just compensation for the taking. On appeal, the utility argued the trial court erroneously admitted the landowner's valuation expert testimony and that the evidence was insufficient to support the jury's award. The Tennessee Court of Appeals found no abuse of discretion and affirmed the award in full.",
+        "dollarAmount": null,
+        "sourceUrl": "https://www.courtlistener.com/opinion/10831508/piedmont-natural-gas-company-inc-v-blueroad-fontanel-llc/",
+        "confidence": "medium",
+        "notes": "The specific dollar figure for the jury's award could not be independently confirmed from available public sources despite multiple attempts -- included only for the doctrinal point (appellate deference to a landowner's valuation expert and evidentiary sufficiency), not as a dollar data point. Flag for follow-up if the underlying trial-court record becomes accessible."
       }
     ],
     "quick_take_challenge": [
@@ -2249,6 +3284,39 @@ const CASE_VALUATION_DATA = {
         "sourceUrl": "https://www.romesentinel.com/news/bowers-development-411-columbia-st-oneida-county-supreme-court/article_52f43350-be3f-11ef-8304-0fe1f1968cca.html",
         "confidence": "high",
         "notes": "A stark, multi-level-litigated illustration of just how deferential post-Kelo public-use review is: the condemnation was requested by, and directly benefited, the owner's own business competitor, yet the taking was still upheld as serving a valid public purpose once framed as traffic/parking mitigation. Directly supports keeping this claim's baseProbability at the low end of its 0.05-0.15 range even where the challenger has a sympathetic 'this taking exists only to help my competitor' narrative."
+      },
+      {
+        "caseName": "Township of Jackson v. Getzel Bee, LLC",
+        "citation": "N.J. Supreme Court, No. A-3-25 (decided July 2026)",
+        "jurisdiction": "NJ",
+        "year": 2026,
+        "outcome": "Jackson Township condemned two privately owned lots (owned by Getzel Bee, LLC and Bellevue Jackson LLC) not to use the land itself for a public purpose, but to trade them to a private developer in exchange for a different, unrelated 35-acre tract the Township wanted preserved as open space. The New Jersey Supreme Court unanimously held that neither the Local Lands and Buildings Law nor the Eminent Domain Act authorizes a municipality to condemn private property to use purely as exchange 'currency' in a land swap, because the public-use requirement attaches to the condemned property itself, not merely to the overall transaction's ultimate goal. The condemnation was invalidated.",
+        "dollarAmount": null,
+        "sourceUrl": "https://www.njlm.org/m/newsflash/Home/Detail/3919",
+        "confidence": "high",
+        "notes": "A genuine, state-high-court-level landowner win on a right-to-take theory -- but note the taking failed for lack of statutory authority for this specific land-swap structure, not because the underlying open-space goal was found illegitimate; an ordinary public-use/necessity challenge to a taking that directly serves the stated project would very likely still fail post-Kelo."
+      },
+      {
+        "caseName": "Pacific Gas and Electric Co. v. Superior Court (South San Joaquin Irrigation District, Real Party in Interest)",
+        "citation": "Cal. Ct. App., 3d Dist., No. C097529 (certified for publication, filed Sept. 21, 2023)",
+        "jurisdiction": "CA",
+        "year": 2023,
+        "outcome": "In a decades-long dispute over the irrigation district's bid to acquire PG&E's local electric distribution system via eminent domain to run it as a public utility, the Court of Appeal upheld the district's resolution of necessity and the underlying LAFCO determination that the district has authority to provide electric service in its territory. The California Supreme Court subsequently denied PG&E's petition for review, and PG&E was ordered to pay the district's litigation costs from the multi-year fight.",
+        "dollarAmount": null,
+        "sourceUrl": "https://www.horvitzlevy.com/pacific-gas-electric-co-v-superior-court-south-san-joaquin-irrigation-district-2023/",
+        "confidence": "medium",
+        "notes": "Another loss for the party resisting the condemning authority's right to take -- consistent with this claim type's existing low baseProbability -- though notable for showing how long and costly the underlying right-to-take fight can run (roughly two decades of litigation) even where the challenger ultimately loses."
+      },
+      {
+        "caseName": "Town of Apple Valley v. Apple Valley Ranchos Water",
+        "citation": "Cal. Supreme Court, No. S289391 (decided Aug. 24, 2026)",
+        "jurisdiction": "CA",
+        "year": 2026,
+        "outcome": "Resolving a split among California appellate districts, the California Supreme Court held that when a utility challenges a public agency's resolution of necessity to condemn (municipalize) the utility's system, courts must independently review whether the agency has proven by a preponderance of the evidence that the taking is authorized, rather than applying the traditional highly deferential 'gross abuse of discretion' standard. Applying the more searching standard, the utility had already prevailed at a 67-day bench trial below, with the Town's resolution of necessity found invalid and the Town ordered to pay the utility more than $13 million in attorneys' fees.",
+        "dollarAmount": 13000000,
+        "sourceUrl": "https://www.eminentdomainreport.com/supreme-court-delivers-huge-win-for-utilities-facing-municipalization",
+        "confidence": "high",
+        "notes": "A significant, real WIN for a challenger to a condemning authority's right to take, in the specific sub-context of utility municipalization -- the new preponderance-of-evidence standard is more challenger-friendly than the deferential standard applied to ordinary public-use/necessity challenges, and the $13M+ fee-shifting outcome shows the stakes when a challenge succeeds."
       }
     ],
     "pre_condemnation_access_dispute": [
@@ -2298,6 +3366,39 @@ const CASE_VALUATION_DATA = {
         "sourceUrl": "https://law.justia.com/cases/california/supreme-court/2016/s217738.html",
         "confidence": "high",
         "notes": "The leading, most-cited California authority on precondemnation entry rights -- confirms the general pattern this claim type's baseProbability already reflects (courts side with the entity seeking access once it shows a plausible eminent-domain purpose), while also establishing the procedural and compensation safeguards a landowner can still insist on even while losing the access fight itself."
+      },
+      {
+        "caseName": "Summit Carbon Solutions, LLC v. Kasischke",
+        "citation": "Iowa Supreme Court, No. 23-1186 (decided Nov. 22, 2024)",
+        "jurisdiction": "IA",
+        "year": 2024,
+        "outcome": "A Hardin County landowner refused to allow Summit Carbon Solutions' surveyors onto his land to survey a proposed CO2 pipeline route, arguing Iowa Code section 479B.15 (which authorizes a pipeline company to enter private land to survey) was facially unconstitutional because it allows an uncompensated physical invasion without due process or a jury trial. The Iowa Supreme Court affirmed the district court's rejection of the facial constitutional challenge under both the federal and Iowa constitutions, upholding the statute and the company's survey access.",
+        "dollarAmount": null,
+        "sourceUrl": "https://iowacapitaldispatch.com/2024/11/22/iowa-supreme-court-upholds-land-survey-abilities-of-pipeline-companies-in-summit-case/",
+        "confidence": "high",
+        "notes": "A clean loss for the landowner on a facial constitutional challenge to a modern survey-access statute -- consistent with, and reinforcing, this claim type's existing low 0.05-0.2 baseProbability."
+      },
+      {
+        "caseName": "Betty Jean Strom Trust v. SCS Carbon Transport, LLC",
+        "citation": "South Dakota Supreme Court, 2024 S.D. 48, Nos. 30317 & 30338 (decided Aug. 21, 2024)",
+        "jurisdiction": "SD",
+        "year": 2024,
+        "outcome": "The South Dakota Supreme Court held that SDCL 21-35-31 authorizes only 'minimally invasive superficial inspections' for pre-condemnation pipeline surveys (not invasive geotechnical/deep-dig work), and that the statute's incorporated right to a jury trial on any resulting damages satisfies constitutional requirements -- rejecting the landowners' broader takings challenge to the survey-access statute itself. However, the Court also reversed summary judgment for Summit Carbon Solutions on the separate, threshold question of whether Summit actually qualifies as a 'common carrier' with eminent domain authority at all, holding the lower courts abused their discretion by denying landowners' discovery requests into Summit's business model and offtake agreements, and remanded for further proceedings on that common-carrier status.",
+        "dollarAmount": null,
+        "sourceUrl": "https://caselaw.findlaw.com/court/sd-supreme-court/116507602.html",
+        "confidence": "high",
+        "notes": "A genuinely mixed outcome: a clean loss on the access/survey-statute constitutionality question itself (consistent with the existing sample), paired with a real partial win reopening the separate common-carrier / eminent-domain-authority threshold question -- illustrates that even where survey access itself is essentially unwinnable, a landowner can still meaningfully contest whether the entity qualifies for eminent domain power in the first place."
+      },
+      {
+        "caseName": "John P. Boerschig v. Rio Grande Electric Cooperative, Inc.",
+        "citation": "Texas Supreme Court, No. 24-0213 (decided May 22, 2026)",
+        "jurisdiction": "TX",
+        "year": 2026,
+        "outcome": "A ranch purchaser sued an electric cooperative holding condemnation authority for trespass after it tripled the number of poles and nearly doubled the wires on a decades-old distribution line crossing his property to serve a new industrial customer and substation. The cooperative's only claimed right derived from an unrecorded 1947 easement-by-estoppel. The Texas Supreme Court held the jury correctly found an easement by estoppel existed, but that the cooperative's major upgrade -- built to serve new customers, not to continue its original use -- exceeded the scope of that easement as a matter of law. The Court reversed the court of appeals, rendered judgment for the landowner on the trespass claim, and remanded for further proceedings (including damages).",
+        "dollarAmount": null,
+        "sourceUrl": "https://www.txcourts.gov/media/1462760/240213.pdf",
+        "confidence": "high",
+        "notes": "An outright Texas Supreme Court win for the landowner -- but on a distinguishable theory (the SCOPE of an existing, informal 1947 easement held by an entity with general condemnation authority) rather than a challenge to a fresh statutory survey/entry request, which is the more typical fact pattern already in this claim's sample. Best treated as a separate, more landowner-favorable sub-scenario (disputes over whether an entity's use exceeds its existing easement) rather than folded into the general pre-condemnation access/survey base rate."
       }
     ],
     "regulatory_taking": [
@@ -2347,15 +3448,41 @@ const CASE_VALUATION_DATA = {
         "sourceUrl": "https://www.thefreelibrary.com/Federal+judge+halts+Glen+Ellyn,C%5BR%5Ds+ban+on+short-term+home+rentals.-a0840698001",
         "confidence": "medium",
         "notes": "IMPORTANT: this is a preliminary TRO ruling on likelihood of success, not a final judgment on the regulatory-taking claim's merits -- include as a current, real illustration that a short-term-rental ban applied to a property with an established pre-ban rental use and history CAN support a Penn Central claim at the threshold stage, not as a confirmed final win. A meaningfully different fact pattern from most regulatory-taking cases in this sample (a use-restriction ordinance rather than a development-density or wetlands-type regulation), reflecting a growing and currently unsettled area of takings litigation nationally."
+      },
+      {
+        "caseName": "BBLI Edison, LLC v. City of Chicago",
+        "citation": "7th Cir., No. 25-1713 (decided July 22, 2026)",
+        "jurisdiction": "Federal (7th Cir., applying IL law)",
+        "year": 2026,
+        "outcome": "Chicago's Keep Chicago Renting Ordinance requires a property owner who acquires a residential building through foreclosure to either offer existing tenants new one-year leases or pay each tenant a $10,600 relocation fee. The owner of a roughly 220-unit building (five tenants elected the cash payment) challenged the ordinance as an unconstitutional taking. The Seventh Circuit acknowledged the takings argument 'has something to it' but ultimately rejected it, characterizing the requirement as a 'clunky form of rent control' -- permissible regulation of the landlord-tenant relationship under the Penn Central framework -- rather than a compensable taking, and affirmed dismissal.",
+        "dollarAmount": null,
+        "sourceUrl": "https://www.inversecondemnation.com/2026/07/ca7-takings-claim-has-something-to-it-but-city-requiring-owner-pay-relocation-fee-to-tenants-is-a-clunky-form-of-rent-control-so-you-lose.html",
+        "confidence": "high",
+        "notes": "A loss for the property owner even though the court expressly conceded the takings theory 'has something to it' -- the court declined to extend Koontz to this fact pattern and applied ordinary Penn Central deference instead."
+      },
+      {
+        "caseName": "Sheetz v. County of El Dorado (on remand from the U.S. Supreme Court)",
+        "citation": "Cal. Ct. App., 3d Dist., No. C093682A (certified for publication, filed July 29, 2025)",
+        "jurisdiction": "CA",
+        "year": 2025,
+        "outcome": "After the U.S. Supreme Court held in 2024 that the Nollan/Dolan unconstitutional-conditions framework applies to legislatively-enacted development impact fees (not just individualized administrative conditions), the case returned to the California Court of Appeal to actually apply that framework to El Dorado County's traffic impact fee. On remand, the Court of Appeal rejected Sheetz's constitutional challenge on the merits, holding the County's legislatively-enacted fee satisfied Nollan/Dolan's nexus and rough-proportionality requirements.",
+        "dollarAmount": 23420,
+        "sourceUrl": "https://www.eminentdomainreport.com/supreme-court-shuts-the-door-on-sheetz",
+        "confidence": "high",
+        "notes": "Important complement to the Sheetz entry already in the file: the 2024 U.S. Supreme Court decision was a purely procedural win establishing that legislative fees don't get a free pass from Nollan/Dolan scrutiny -- but once that scrutiny was actually applied to the real fee on remand, the property owner LOST on the merits. Don't let the earlier SCOTUS win overstate this claim type's real odds; the final, substantive result was a defeat for the fee-payer."
+      },
+      {
+        "caseName": "Matthew Parsons, et al. v. City of Indian Wells",
+        "citation": "Cal. Ct. App., 4th Dist., Div. 2, No. E082591 (certified for publication, filed Aug. 31, 2026)",
+        "jurisdiction": "CA",
+        "year": 2026,
+        "outcome": "Not itself a Penn Central/Lucas takings claim, but a closely related, currently-litigated short-term-rental-regulation dispute: property owners in a common-interest development successfully argued below that a City ordinance provision letting HOA boards opt their community out of the City's generally-applicable STR minimum-stay ban was preempted by the Davis-Stirling Act and an unconstitutional delegation of legislative authority, winning a writ of mandate ordering the City to issue them an unrestricted STR permit, plus attorney's fees. The Court of Appeal reversed on both theories, upholding the City's opt-out ordinance and the STR restriction as applied to the owners.",
+        "dollarAmount": null,
+        "sourceUrl": "https://www.courtlistener.com/opinion/10666454/",
+        "confidence": "medium",
+        "notes": "Included for topical relevance to the Blakelick Properties v. Village of Glen Ellyn entry already in this claim's sample (both concern STR-ban litigation), not as a regulatory-takings holding itself -- this case turns on statutory preemption and delegation-of-authority doctrine, not the Takings Clause. Flag this distinction if it's surfaced to end users; it illustrates the broader trend of contested STR regulation but should not be cited as a Penn Central precedent."
       }
     ],
-
-    /* eminent_domain_attorney_fees is primarily modeled via the
-       eminentDomainAttorneyFees 51-jurisdiction statutory table (see
-       below), not this shared citations pattern -- but a real case
-       actually applying one state's fee-shifting statute is still
-       valuable to show the formula working in practice, not just as
-       researched statute text. */
     "eminent_domain_attorney_fees": [
       {
         "caseName": "Joseph B. Doerr Trust v. Central Florida Expressway Authority",
@@ -2367,6 +3494,39 @@ const CASE_VALUATION_DATA = {
         "sourceUrl": "https://law.justia.com/cases/florida/supreme-court/2015/sc14-1007.html",
         "confidence": "high",
         "notes": "A real, Florida Supreme Court-level application of the fee-shifting mechanism this claim's eminentDomainAttorneyFees table already documents for Florida (Fla. Stat. Sec. 73.092(1), benefit-achieved formula) -- and an important refinement beyond the bare statute: where the condemning authority's OWN litigation conduct unreasonably drove up the owner's fees, a rigid benefit-achieved cap can be held unconstitutional as applied, entitling the owner to a fuller fee recovery than the base formula alone would yield. dollarAmount reflects the initial $816,000 award; the final, remanded figure (accounting for the excessive-litigation add-on) was not independently confirmed."
+      },
+      {
+        "caseName": "City of Sioux Falls v. Johnson Properties, LLC",
+        "citation": "South Dakota Supreme Court, 2025 S.D. 66, Docket No. 30947 (argued Oct. 9, 2025; decided Nov. 19, 2025)",
+        "jurisdiction": "SD",
+        "year": 2025,
+        "outcome": "The City condemned two portions of a commercial property (housing the Alibi Bar & Grill) for a road-realignment project, initially offering $32,454 and depositing an appraised $51,647, later raising its pretrial offer to $250,000. A jury awarded Johnson Properties $382,600 in just compensation -- exceeding the City's final offer by more than 20%, the statutory trigger under SDCL 21-35-23. The circuit court awarded $139,724.60 in attorney's fees using a contingent-fee ('lift') methodology rather than a straight lodestar/hourly calculation, supported by affidavits that contingent fees (typically 25%-50%) are the customary arrangement in South Dakota eminent domain practice. The South Dakota Supreme Court affirmed, holding the circuit court did not abuse its discretion in either the methodology or the amount.",
+        "dollarAmount": 139725,
+        "sourceUrl": "https://ujs.sd.gov/media/muoemfqe/30947.pdf",
+        "confidence": "high",
+        "notes": "A commercial-property fee-shifting case with the full underlying record confirmed (initial offer, deposit, final pretrial offer, verdict, and fee award all independently verified from the opinion itself) -- a strong, current illustration of SDCL 21-35-23's >20%-above-offer trigger operating on real numbers, and of courts endorsing contingent-fee awards over rigid hourly billing in this practice area."
+      },
+      {
+        "caseName": "State of Minnesota, by its Commissioner of Transportation v. David P. Williams, d/b/a Bear Track Outfitting Co., et al. (Mike's Holiday)",
+        "citation": "Minnesota Court of Appeals, No. A24-1713 (filed Aug. 4, 2025)",
+        "jurisdiction": "MN",
+        "year": 2025,
+        "outcome": "MnDOT condemned parcels (including one owned by Mike's Holiday) for a highway improvement project, with a final written pre-litigation offer of $14,600. The parties ultimately settled the underlying just-compensation claim for $100,000, after a commissioners' panel had valued the taking at over $200,000. Because the settlement exceeded both the $25,000 floor and MnDOT's last offer by more than 40%, Mike's Holiday was entitled to fees under Minn. Stat. section 117.031(a); the district court awarded $127,657.10 in fees and expenses (including fees incurred defending the condemnation petition itself), using the lodestar method. The Court of Appeals affirmed in full, rejecting MnDOT's arguments that the fee award improperly included fees unrelated to obtaining the final judgment.",
+        "dollarAmount": 127657,
+        "sourceUrl": "https://mn.gov/law-library-stat/archive/ctappub/2025/OPa241713-080425.pdf",
+        "confidence": "high",
+        "notes": "A striking, fully-verified real-world data point: the statutory fee award ($127,657.10) actually EXCEEDED the underlying $100,000 damages settlement -- a vivid illustration of how a state's percentage-above-offer fee-shifting trigger can produce a fee recovery larger than the compensation claim itself once the statutory threshold is crossed."
+      },
+      {
+        "caseName": "Metropolitan District v. Mott",
+        "citation": "Connecticut Appellate Court, No. AC46665 (filed Sept. 30, 2025)",
+        "jurisdiction": "CT",
+        "year": 2025,
+        "outcome": "In a dispute involving an easement and a counterclaim for declaratory/title relief, the property owners sought attorney's fees under Connecticut's inverse-condemnation fee-shifting statute (Conn. Gen. Stat. section 48-17b). The Appellate Court held the statute was inapplicable because the owners had neither pleaded an inverse condemnation claim in their counterclaim nor actually prevailed on one -- fee-shifting under that statute is tied to that specific cause of action, not to prevailing on a related property dispute generally. Fees were denied (and a separate fee argument under a different statute was deemed inadequately briefed and not considered).",
+        "dollarAmount": null,
+        "sourceUrl": "https://www.courtlistener.com/opinion/10679411/",
+        "confidence": "medium",
+        "notes": "A useful loss/counterexample: illustrates that eminent-domain-adjacent fee-shifting statutes are typically tied tightly to a specific pleaded and prevailed-upon cause of action (here, inverse condemnation specifically), not triggered merely because a property/easement dispute involving a condemning-type authority exists."
       }
     ],
     "variance_permit_denial_appeal": [
@@ -2416,6 +3576,60 @@ const CASE_VALUATION_DATA = {
         "sourceUrl": "https://www.njcourts.gov/system/files/court-opinions/2026/a_70_24.pdf",
         "confidence": "high",
         "notes": "A landmark, state-supreme-court-level doctrinal shift that raises the bar for a specific, common category of variance application (inherently beneficial uses, e.g. affordable housing, schools, hospitals, houses of worship) in New Jersey -- applicants can no longer rely on public-benefit showings alone. This should push variance_permit_denial_appeal's baseProbability toward the lower end of its range for New Jersey inherently-beneficial-use applications specifically, until the applicant's own facts clearly satisfy the new independent zoning-plan-consistency requirement."
+      },
+      {
+        "caseName": "Calista Enterprises, L.L.C. v. Oxford Board of Zoning Appeals",
+        "citation": "2025-Ohio-1692 (Ohio Ct. App., 12th Dist., Butler County, No. CA2024-09-116, May 12, 2025)",
+        "jurisdiction": "OH",
+        "year": 2025,
+        "outcome": "The Twelfth District Court of Appeals reversed the Butler County Court of Common Pleas's affirmance of the Zoning Board's denial of a variance, holding the common pleas court abused its discretion by crediting three of the Board's stated statutory criteria for denial while entirely failing to weigh four other statutory factors that favored granting the variance. The court remanded with instructions that the trial court properly weigh the one valid factor supporting denial against the multiple factors favoring approval -- an interim procedural win for the property owner (variance not yet finally granted, but the denial could not stand on the record as analyzed).",
+        "dollarAmount": null,
+        "sourceUrl": "https://www.supremecourt.ohio.gov/rod/docs/pdf/12/2025/2025-Ohio-1692.pdf",
+        "confidence": "high",
+        "notes": "Confirmed via the court's own published opinion and independently via Justia/Casemine case summaries."
+      },
+      {
+        "caseName": "Craft Custom Homes, LLC v. Zoning Hearing Board of Newtown Township",
+        "citation": "2025 Pa. Commw. Unpub. LEXIS 27 (Pa. Commw. Ct., Nov. 7, 2024)",
+        "jurisdiction": "PA",
+        "year": 2024,
+        "outcome": "The Commonwealth Court affirmed the trial court's reversal of the Zoning Hearing Board's denial of a dimensional variance for 7.5-foot side yards (vs. the required 15 feet) on a small nonconforming residential lot. The court held the parcel had not merged with adjacent commonly-owned parcels under the merger doctrine (a garden and doghouse did not constitute the kind of intensive, unified use required for merger), and that the lot's nonconforming, undersized status created a genuine, non-self-imposed unnecessary hardship justifying the variance. Property owner win; variance ultimately granted.",
+        "dollarAmount": null,
+        "sourceUrl": "https://nochumson.com/resources/commonwealth-court-overturns-zoning-boards-denial-based-on-merger-doctrine-and-unnecessary-hardship-questions",
+        "confidence": "high"
+      },
+      {
+        "caseName": "D'Angelo v. Zoning Board",
+        "citation": "229 A.D.2d 945, 645 N.Y.S.2d 378 (N.Y. App. Div., 4th Dep't, 1996)",
+        "jurisdiction": "NY",
+        "year": 1996,
+        "outcome": "In an Article 78 proceeding, the Appellate Division annulled the Zoning Board's denial of an area variance, holding the denial was arbitrary and capricious and unsupported by substantial evidence because the Board failed to actually conduct the statutorily-required balancing test under Town Law Section 267-b(3) (weighing benefit to the applicant against detriment to the neighborhood) and instead based its denial on generalized community opposition. Property owner win.",
+        "dollarAmount": null,
+        "sourceUrl": "https://www.courtlistener.com/opinion/6139042/dangelo-v-zoning-board/",
+        "confidence": "medium",
+        "notes": "Older landmark-level New York area-variance case included because it is a frequently-cited, clean example of the 'community opposition alone is not substantial evidence' doctrine that recurs across many modern variance appeals; full case caption (which town/board) not independently confirmed beyond the citation itself."
+      },
+      {
+        "caseName": "Palmer v. Susquehanna Township Zoning Hearing Board",
+        "citation": "No. 1235 C.D. 2023 (Pa. Commw. Ct., Feb. 4, 2025)",
+        "jurisdiction": "PA",
+        "year": 2025,
+        "outcome": "The Commonwealth Court affirmed the Zoning Hearing Board's denial of a variance application, siding with the municipality. Included specifically as a counterweight to the mostly-successful appeals above, since a search focused only on 'variance reversed' language would otherwise skew the sample toward property-owner wins.",
+        "dollarAmount": null,
+        "sourceUrl": "https://wwwsecure.pacourts.us/assets/opinions/Commonwealth/out/1235CD23_2-4-25.pdf?cb=1",
+        "confidence": "medium",
+        "notes": "Case name and disposition ('affirmed') cross-referenced from a secondary legal-search summary and the court's own docket-numbered opinion file, but the full opinion text could not be directly read to confirm every detail -- treat the citation and outcome direction as reliable, but the fact narrative as unconfirmed."
+      },
+      {
+        "caseName": "Huntting Hospitality LLC v. Zoning Board of Appeals of the Village of East Hampton",
+        "citation": "2026 NY Slip Op 50502(U) (N.Y. Sup. Ct., Suffolk Cnty., decided ~April 2026)",
+        "jurisdiction": "NY",
+        "year": 2026,
+        "outcome": "A historic inn's owner sought variances for a pool, spa, and patio as part of a larger building-addition application; the Village's ZBA approved the larger addition (including ADA access) but took the position that the accessory-structure area variances for the pool/spa/patio were beyond its authority to decide, effectively refusing to rule on that portion of the application. The court held that refusing to adjudicate the pool variances on the merits would leave the applicant with no avenue for review, and addressed the resulting ripeness/procedural posture in the applicant's favor.",
+        "dollarAmount": null,
+        "sourceUrl": "https://www.nycourts.gov/reporter/current/3dseries/2026/2026_50502.shtml",
+        "confidence": "low",
+        "notes": "Could not directly retrieve and read the full opinion (site blocked automated fetch); outcome description is reconstructed from secondary search snippets and may not capture the court's final disposition precisely. Include with caution -- useful mainly to illustrate that a board's refusal to decide a variance application at all is itself litigable, not as a clean merits data point."
       }
     ],
     "spot_zoning_challenge": [
@@ -2465,6 +3679,71 @@ const CASE_VALUATION_DATA = {
         "sourceUrl": "https://nyenvlaw.com/blog/state-supreme-court-annuls-towns-spot-zoning/",
         "confidence": "high",
         "notes": "A clean textbook spot-zoning annulment with two independently sufficient grounds (single-beneficiary drafting history plus no genuine comprehensive-plan consistency), pairing well with the PA Commonwealth Court citation above where a similar-looking targeted rezoning was upheld because it WAS shown consistent with an actual comprehensive plan -- the comprehensive-plan-consistency question is the real hinge in most of these cases, more than the rezoning's narrowness alone."
+      },
+      {
+        "caseName": "Thornber v. Village of North Barrington",
+        "citation": "321 Ill. App. 3d 318, 747 N.E.2d 496 (2d Dist. 2001)",
+        "jurisdiction": "IL",
+        "year": 2001,
+        "outcome": "Residents challenged the Village's zoning ordinance amendment permitting construction of a cellular telecommunications monopole on municipal property as illegal spot zoning and contract zoning. The Appellate Court upheld the amendment, holding it was not arbitrary or unreasonable because the plaintiffs failed to show any illegal motive by the Village or that the amendment was inconsistent with a comprehensive plan for the property. Municipality win -- the rezoning was upheld.",
+        "dollarAmount": null,
+        "sourceUrl": "https://caselaw.findlaw.com/il-court-of-appeals/1124140.html",
+        "confidence": "high"
+      },
+      {
+        "caseName": "McDowell v. Randolph County",
+        "citation": "256 N.C. App. 708, 808 S.E.2d 513 (2017)",
+        "jurisdiction": "NC",
+        "year": 2017,
+        "outcome": "The North Carolina Court of Appeals invalidated a roughly 29.95-acre rezoning to heavy industrial use as illegal spot zoning. Challenge win -- the rezoning was struck down.",
+        "dollarAmount": null,
+        "sourceUrl": "https://www.sog.unc.edu/resources/legal-summaries/spot-zoning",
+        "confidence": "medium",
+        "notes": "Outcome and acreage as summarized by the UNC School of Government's compiled legal summary of North Carolina spot-zoning case law, not independently verified against the full opinion text."
+      },
+      {
+        "caseName": "Musi v. Town of Shallotte",
+        "citation": "200 N.C. App. 379, 684 S.E.2d 892 (2009)",
+        "jurisdiction": "NC",
+        "year": 2009,
+        "outcome": "The Court of Appeals held the challenged rezoning was not spot zoning at all, in part because the rezoned area was not limited to a single owner's small parcel. Municipality win -- the rezoning was upheld.",
+        "dollarAmount": null,
+        "sourceUrl": "https://www.sog.unc.edu/resources/legal-summaries/spot-zoning",
+        "confidence": "medium",
+        "notes": "Outcome as summarized by the UNC School of Government's compiled legal summary; not independently verified against the full opinion text."
+      },
+      {
+        "caseName": "Good Neighbors of Oregon Hill v. County of Rockingham",
+        "citation": "242 N.C. App. 280, 774 S.E.2d 902 (2015)",
+        "jurisdiction": "NC",
+        "year": 2015,
+        "outcome": "The Court of Appeals held the challenged rezoning did not constitute spot zoning because the affected parcels were in joint or related ownership rather than the kind of single-beneficiary carve-out the doctrine targets. Municipality win -- the rezoning was upheld.",
+        "dollarAmount": null,
+        "sourceUrl": "https://www.sog.unc.edu/resources/legal-summaries/spot-zoning",
+        "confidence": "medium",
+        "notes": "Outcome as summarized by the UNC School of Government's compiled legal summary; not independently verified against the full opinion text."
+      },
+      {
+        "caseName": "Etheridge v. County of Currituck",
+        "citation": "235 N.C. App. 469, 762 S.E.2d 289 (2014)",
+        "jurisdiction": "NC",
+        "year": 2014,
+        "outcome": "The Court of Appeals invalidated a rezoning enacted to permit a recycling center as illegal spot zoning. Challenge win -- the rezoning was struck down; industrial/waste-facility fact pattern relevant to commercial/industrial development disputes specifically.",
+        "dollarAmount": null,
+        "sourceUrl": "https://www.sog.unc.edu/resources/legal-summaries/spot-zoning",
+        "confidence": "medium",
+        "notes": "Outcome as summarized by the UNC School of Government's compiled legal summary; not independently verified against the full opinion text."
+      },
+      {
+        "caseName": "Childress v. Yadkin County",
+        "citation": "186 N.C. App. 30, 650 S.E.2d 55 (2007)",
+        "jurisdiction": "NC",
+        "year": 2007,
+        "outcome": "The Court of Appeals upheld a rezoning between similar residential zoning districts, finding it did not amount to illegal spot zoning. Municipality win -- the rezoning was upheld.",
+        "dollarAmount": null,
+        "sourceUrl": "https://www.sog.unc.edu/resources/legal-summaries/spot-zoning",
+        "confidence": "medium",
+        "notes": "Outcome as summarized by the UNC School of Government's compiled legal summary; not independently verified against the full opinion text."
       }
     ],
     "section_1983_zoning_claim": [
@@ -2514,6 +3793,28 @@ const CASE_VALUATION_DATA = {
         "sourceUrl": "https://scholarship.law.stjohns.edu/cgi/viewcontent.cgi?article=1480&context=lawreview",
         "confidence": "medium",
         "notes": "A rare example of a landowner actually PREVAILING on an equal-protection theory against a municipality's discretionary land-use decision, with real, large damages plus fees and interest -- a useful counterweight to the Sixth Circuit citation above (developer lost on due process) in this same claim type, since equal protection and due process theories succeed at meaningfully different rates in zoning litigation. dollarAmount reflects the reported total exposure figure, which blends principal damages with interest and fees rather than isolating a single compensatory-damages number."
+      },
+      {
+        "caseName": "Masic v. Town of Franklinville, New York",
+        "citation": "No. 1:24-cv-00018 (W.D.N.Y. Aug. 27, 2025)",
+        "jurisdiction": "NY",
+        "year": 2025,
+        "outcome": "Homeowners alleged Town officials trespassed on their property and selectively enforced zoning and building codes against them out of personal animus in a years-long dispute over their home/barn construction, a small dog-breeding operation, and agricultural activity. On the Town's motion to dismiss, the district court allowed the plaintiffs' federal and state equal protection claims and their federal substantive due process claim to proceed, along with a Monell municipal-liability theory against policymaking officials. This is a procedural win only (surviving a motion to dismiss, not a merits verdict or settlement) -- no damages have been established and the case's ultimate outcome is unknown as of this writing.",
+        "dollarAmount": null,
+        "sourceUrl": "https://dockets.justia.com/docket/new-york/nywdce/1:2024cv00018/148891",
+        "confidence": "medium",
+        "notes": "Included specifically because it shows a plausibly-pled personal-animus/selective-enforcement theory clearing the motion-to-dismiss stage post-2020s, consistent with the file's existing directEvidenceOfDiscriminatoryIntent modifier -- but it is NOT yet a resolved case and should not be treated as a win for calibration purposes until (if) it produces a final judgment or settlement."
+      },
+      {
+        "caseName": "Greenbriar Village, LLC v. Mountain Brook City",
+        "citation": "345 F.3d 1258 (11th Cir. 2003)",
+        "jurisdiction": "Federal (11th Cir.)",
+        "year": 2003,
+        "outcome": "The Eleventh Circuit expressed reluctance to constitutionalize an ordinary zoning dispute and declined to find a substantive due process or equal protection violation in the City's zoning decision affecting the developer's property. Municipality win.",
+        "dollarAmount": null,
+        "sourceUrl": "https://www.jbwpc.com/Articles/Zoning-and-Land-Use-Litigation/LAND-USE-LITIGATION-UNDER-THE-CIVIL-RIGHTS-ACT.shtml",
+        "confidence": "medium",
+        "notes": "Drawn from a secondary law-firm summary of Eleventh Circuit land-use Section 1983 case law rather than the full opinion; older case (2003) but consistent in direction with the file's existing observation that most Section 1983 zoning claims fail."
       }
     ],
     "development_agreement_breach": [
@@ -2572,6 +3873,17 @@ const CASE_VALUATION_DATA = {
         "sourceUrl": "https://www.dailyherald.com/20250418/news/hoffman-estates-loses-appeal-of-case-seeking-donation-of-20-acres-from-niu-foundation/",
         "confidence": "high",
         "notes": "REVERSE-DIRECTION citation: here the MUNICIPALITY is the one suing to enforce a development agreement, against a developer/foundation entity, and losing -- useful defensive precedent for a developer facing a municipality's enforcement claim, particularly where the parties later amended or superseded the original agreement's specific terms. Confirms that a later, more specific agreement provision governing the same subject matter can fully displace an earlier obligation, even one the municipality reasonably believed still applied."
+      },
+      {
+        "caseName": "City of Minot v. Cypress Development",
+        "citation": "North Central Judicial District Court, Ward County, N.D., jury verdict July 20, 2021 (docket number not independently confirmed)",
+        "jurisdiction": "ND",
+        "year": 2021,
+        "outcome": "The City sued its private development partner for breaching a series of 2011-2015 agreements (development agreement, disposition agreement, lease, and management agreement) covering two downtown mixed-use parking/retail/apartment structures, alleging Cypress failed to make required lease payments and breached construction obligations. Cypress counter-sued for over $50 million, alleging the City's own change in leadership caused it to abandon the project. After trial, the jury found FOR THE CITY and AGAINST the developer, awarding the City $2,442,479.94 in damages for unpaid lease payments and excess/remedial construction costs, and rejected Cypress's $50M+ counterclaim in its entirety. A clean, well-documented example of the reverse fact pattern from most of this claim type's other citations: here it is the MUNICIPALITY recovering from the DEVELOPER for the developer's own breach of a development-related agreement, not the other way around.",
+        "dollarAmount": 2442479,
+        "sourceUrl": "https://www.minotdailynews.com/news/local-news/2021/07/city-of-minot-wins-2-44-million-in-parking-ramp-dispute-with-cypress-development/",
+        "confidence": "medium",
+        "notes": "Well-corroborated by multiple independent local news outlets (Minot Daily News, KX News, KFYR-TV) with a specific, consistent dollar figure, but no court docket/case number or written appellate opinion was located, so treat as a real, credible reported verdict rather than a citable published opinion."
       }
     ],
     "slip_and_fall_hazardous_condition": [

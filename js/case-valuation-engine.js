@@ -466,9 +466,24 @@
         "Landlord's work, tenant-improvement allowances, and leasing commissions incurred to re-lease the space — usually actual, invoiced costs, so recovery tends to run close to the amount claimed."));
     }
     if (facts.heldOverAfterTerm && facts.holdoverStatutoryPenalty && facts.monthlyRent > 0 && facts.holdoverMonths > 0) {
-      out.push(result("holdover_damages", "Statutory Holdover Damages", [0.80, 0.95],
+      // Probability revised DOWN from the original [0.80, 0.95] after a
+      // deeper citation pass: 5 of 7 real cases in the research sample
+      // (Cheetah Properties v. Panther Pressure Testers, 2016 ND 102;
+      // Mel-Lo Enterprises v. Belle Starr Saloon, 716 S.W.2d 828 (Mo. Ct.
+      // App. 1986); plus the file's existing Baca v. Kuang, Lincoln
+      // Oldsmobile v. Branch, and Spatz v. 2263 North Lincoln Corp.) are
+      // landlord LOSSES on the enhanced multiplier specifically, each on
+      // an independent legal ground (no willfulness, no timely demand, a
+      // colorable good-faith right to remain in possession). The old
+      // range looks like it was really measuring "does a holdover fact
+      // pattern support SOME recovery" (which it does, almost always —
+      // landlords still won actual/unpaid rent in nearly every sampled
+      // case) rather than "does the enhanced MULTIPLIER specifically
+      // apply," which the sample suggests fails well more often than a
+      // 80-95% probability would imply.
+      out.push(result("holdover_damages", "Statutory Holdover Damages", [0.35, 0.55],
         facts.monthlyRent * 1.5 * facts.holdoverMonths, facts.monthlyRent * 2 * facts.holdoverMonths,
-        "Uses a 1.5x–2x statutory multiplier range — 3x is uncommon in practice per practitioner review; holdover itself is also a comparatively rare fact pattern next to unpaid rent and abandonment. Exact multiplier is still state-specific and should be confirmed against that state's chapter."));
+        "Uses a 1.5x–2x statutory multiplier range if the multiplier applies at all — 3x is uncommon in practice per practitioner review. Getting the underlying holdover-occupancy fact established is the easy part; the enhanced multiplier itself is denied more often than not in the research sample, typically on one of three independent grounds: no willfulness (where the state requires it), no timely demand for possession, or a colorable good-faith claim of a continuing right to occupy. Confirm which of these defenses is realistically available before assuming the multiplier will apply."));
     }
     if (facts.propertyDamageAmount > 0) {
       out.push(result("property_damage", "Property Damage / Repairs", [0.70, 0.90],
@@ -555,7 +570,7 @@
       } else {
         out.push(result("guaranty_enforcement", "Guaranty Enforcement", [0.80, 0.97],
           facts.guaranteedBalance * 0.95, facts.guaranteedBalance,
-          "Once a carve-out (\"bad boy\") trigger is credibly found and undisputed — no counterclaim or offset pled — sampled real cases show guarantors held liable for close to the full guaranteed balance, even for technical/non-fraud breaches. The harder question — proving the trigger occurred in the first place — isn't modeled as a separate probability here."));
+          "Once a carve-out (\"bad boy\") trigger is credibly found and undisputed — no counterclaim or offset pled — sampled real cases show guarantors held liable for close to the full guaranteed balance, even for technical/non-fraud breaches. The harder question — proving the trigger occurred in the first place — isn't modeled as a separate probability here. A deeper citation pass found this range is really averaging two different populations: full-recourse enforcement in states with no legislative carve-back (the majority of the sample, including 172 Madison (NY) LLC v. NMP-Group and the file's existing Cherryland/Princeton Park/Gratiot Avenue citations), versus states with a post-Cherryland anti-full-recourse statute (confirmed in Michigan and Ohio) that can defeat an otherwise-valid guaranty claim outright, as in Borman LLC v. Borman LLC (6th Cir. 2015, defeating a $6M claim under Michigan's Non-Recourse Mortgage Loan Act) — a real candidate for its own state-law modifier table rather than one blended probability."));
       }
     }
     if (facts.lenderMisconductAlleged) {
@@ -668,7 +683,7 @@
         innocentNote = " Without innocent-landowner status, this functions more like a contribution claim in substance (the owner is itself a PRP with some equitable share of responsibility) -- the range is scaled down accordingly, in line with the separate CERCLA Contribution claim's own range.";
       }
       out.push(result("cercla_cost_recovery", "CERCLA Cost Recovery", [0.65, 0.85], low, high,
-        `Liability is strict/joint/several once PRP status attaches — allocation share is the real question, not whether liability exists at all. Real benchmark tiers: multi-decade waterway/legacy sites $130M–$670M; single-parcel soil-only $3M–$19M; small commercial state-penalty actions $85K–$120K.${innocentNote}`));
+        `Liability is strict/joint/several once PRP status attaches — allocation share is the real question, not whether liability exists at all. Real benchmark tiers: multi-decade waterway/legacy sites $130M–$670M; a real mid-size tier in between (e.g. Petroleum Products Corp., Pembroke Park FL, ~$62M) that a later citation pass confirmed fills what had been a $20M–$130M gap with no benchmark at all; single-parcel soil-only $3M–$19M; small commercial state-penalty actions $85K–$120K.${innocentNote}`));
     }
     if (facts.multiplePRPs && facts.cleanupCostsIncurred > 0) {
       out.push(result("cercla_contribution_claim", "CERCLA Contribution (PRP vs. PRP)", [0.55, 0.80],
@@ -677,12 +692,12 @@
     }
     if (facts.stateConsentDecree) {
       out.push(result("state_cleanup_consent_decree", "State Cleanup Order / Consent Decree", [1, 1], null, null,
-        "Benchmark only, not an adversarial probability — nearly all consent decrees are negotiated. See real benchmark tiers above under CERCLA Cost Recovery.", true));
+        "Benchmark only, not an adversarial probability — nearly all consent decrees are negotiated. See real benchmark tiers above under CERCLA Cost Recovery. The ceiling for this benchmark moved dramatically in a later citation pass: the newly-approved combined New Jersey DuPont/3M PFAS settlement is $2.5 BILLION -- roughly 6.4x the previous largest sample point (Solvay's $393M West Deptford PFAS order) -- with New Jersey's Pohatcong Valley order (~$49.5M) and a standalone 3M order (~$450M) both filling in the space between. Treat a nine-figure-or-higher consent decree as a real, not exceptional, possibility for a large PFAS or legacy-contamination site.", true));
     }
     if (facts.insurerDeniedEnvCoverage) {
       const base = [0.25, 0.45];
       const adj = computeEnvironmentalStateAdjustment(facts, base);
-      const baseNote = "5-case sample, roughly balanced between insurer and policyholder wins. Outcome is usually binary (coverage owed / not owed), not a dollar figure.";
+      const baseNote = "Expanded to a roughly 10-case sample (a deeper citation pass added Griffith Foods, Bradley v. Travelers, New Castle County v. Hartford, and Broadwell Realty), still close to balanced between insurer and policyholder wins, if anything tilted slightly policyholder-favorable. Outcome is usually binary (coverage owed / not owed), not a dollar figure.";
       out.push(result("environmental_insurance_coverage_dispute", "Environmental Insurance Coverage Dispute", adj.prob, null, null,
         adj.note ? `${baseNote} ${adj.note}` : baseNote));
     }
@@ -783,7 +798,12 @@
   function evalZoningLandUse(facts) {
     const out = [];
     if (facts.varianceOrPermitDenied) {
-      const base = [0.25, 0.45];
+      // Revised up from [0.25, 0.45] after a deeper citation pass grew
+      // the sample to 10 cases, ~6 of 8 decisive outcomes reversing the
+      // denial -- see the note on this claim type in case-valuation-
+      // data.js for the citations and the deliberately modest size of
+      // the bump given a real, still-present outcome-selection-bias risk.
+      const base = [0.30, 0.50];
       const adj = computeZoningStateAdjustment(facts, base);
       const baseNote = "Zoning boards get significant judicial deference; reversal requires a clear legal or procedural error.";
       out.push(result("variance_permit_denial_appeal", "Variance / Permit Denial Appeal", adj.prob, null, null,
