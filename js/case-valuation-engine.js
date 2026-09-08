@@ -286,6 +286,104 @@
     return { prob, low, high, note };
   }
 
+  // Adjusts the failure-to-warn claim's open-and-obvious-defense penalty
+  // using the state's actual DOCTRINE TYPE (merged into facts by
+  // collectFacts() from premisesLiabilityStateModifiers[state]
+  // .openAndObviousDoctrine) rather than one flat penalty for every
+  // state. This is a real, confirmed three-way split -- see the deep
+  // research pass's comment block at the top of premisesLiabilityState-
+  // Modifiers in case-valuation-data.js:
+  //   Traditional No-Duty Bar        -- obviousness defeats the claim
+  //                                      outright in most cases; harshest
+  //                                      penalty.
+  //   No-Duty-to-Warn-but-Duty-to-   -- Restatement (Second) Sec. 343A --
+  //   Remedy                            no duty to WARN of the obvious
+  //                                      hazard, but a separate duty to
+  //                                      REMEDY it survives if harm was
+  //                                      still foreseeable; moderate
+  //                                      penalty (this engine's original
+  //                                      default, kept as the fallback
+  //                                      for unresearched states too).
+  //   Comparative-Fault-Factor-Only  -- a growing trend (Michigan 2023,
+  //                                      Arizona 2025 confirmed this
+  //                                      pass) -- obviousness isn't a
+  //                                      duty bar at all, just a jury
+  //                                      comparative-fault factor;
+  //                                      minimal penalty here since the
+  //                                      real effect shows up in the
+  //                                      separate fault-percentage
+  //                                      adjustment, not this claim's
+  //                                      own viability.
+  function computeOpenAndObviousStateAdjustment(facts, baseProb) {
+    if (!facts.openAndObviousDefenseRaised) return { prob: baseProb, note: null };
+    // premisesOpenAndObviousRule is a normalized enum derived from the
+    // richer, free-text premisesOpenAndObviousDoctrine field (some
+    // researched states describe a genuine hybrid/unclear rule that
+    // doesn't cleanly fit one of the three buckets -- those fall through
+    // to the generic default below rather than being force-fit).
+    const rule = facts.premisesOpenAndObviousRule;
+    const citation = facts.premisesOpenAndObviousCitation ? ` (${facts.premisesOpenAndObviousCitation})` : "";
+    if (rule === "Traditional No-Duty Bar") {
+      return { prob: [0.05, 0.15], note: `${facts.state} treats an open-and-obvious hazard as a full no-duty bar${citation} -- this defense is usually outright dispositive here, not just a factor.` };
+    }
+    if (rule === "Comparative-Fault-Factor-Only") {
+      return { prob: [0.30, 0.50], note: `${facts.state} does not treat obviousness as a duty bar at all${citation} -- it goes to the jury purely as a comparative-fault factor, so this claim survives with only a modest reduction (the real effect shows up in the fault-percentage adjustment, not here).` };
+    }
+    if (rule === "No-Duty-to-Warn-but-Duty-to-Remedy") {
+      return { prob: [0.15, 0.30], note: `${facts.state} follows the Restatement (Second) Sec. 343A rule${citation} -- no duty to warn of the obvious hazard, but a separate duty to remedy it survives if harm was still foreseeable despite the obviousness.` };
+    }
+    return { prob: [0.15, 0.30], note: facts.premisesOpenAndObviousDoctrine ? `${facts.state}'s open-and-obvious rule: ${facts.premisesOpenAndObviousDoctrine}${citation}.` : null };
+  }
+
+  // Adjusts the inadequate-security claim's prior-incidents penalty using
+  // the state's actual negligent-security FORESEEABILITY TEST (merged
+  // into facts from premisesLiabilityStateModifiers[state]
+  // .negligentSecurityForeseeabilityTest) -- a real, confirmed four-way
+  // split rather than a single prior-incidents-or-not question:
+  //   Prior Similar Incidents  -- the strict rule: without a substantially
+  //                               similar prior crime on the property or
+  //                               its immediate vicinity, the claim is
+  //                               genuinely weak.
+  //   Totality of the          -- looser: prior incidents are only ONE
+  //   Circumstances               factor among many (nature of business,
+  //                               location, area crime patterns, existing
+  //                               security) -- a real claim can survive
+  //                               without them.
+  //   Balancing Test            -- foreseeability weighed against the
+  //   (e.g. California's Ann M.)  burden of the proposed security measure
+  //                               -- similar practical effect to totality
+  //                               of the circumstances for this model.
+  //   Specific Harm Rule        -- the most restrictive: the owner must
+  //                               have known of an imminent, SPECIFIC
+  //                               danger to the specific plaintiff --
+  //                               even a real pattern of prior incidents
+  //                               doesn't automatically clear this bar.
+  function computeNegligentSecurityStateAdjustment(facts, hasPriorIncidents) {
+    // premisesNegligentSecurityTestNormalized is a normalized enum
+    // derived from the richer, free-text premisesNegligentSecurityTest
+    // field -- several researched states described a genuinely mixed or
+    // unconfirmed test that doesn't cleanly fit one of the four buckets;
+    // those fall through to the generic default below.
+    const test = facts.premisesNegligentSecurityTestNormalized;
+    const citation = facts.premisesNegligentSecurityCitation ? ` (${facts.premisesNegligentSecurityCitation})` : "";
+    if (test === "Specific Harm Rule") {
+      const prob = hasPriorIncidents ? [0.28, 0.48] : [0.05, 0.12];
+      return { prob, note: `${facts.state} applies the restrictive "specific harm" rule${citation} -- the owner must have known of an imminent, SPECIFIC danger to this plaintiff; even a real pattern of prior incidents doesn't automatically clear this bar, which is why the odds here stay capped well below what a looser-test state would show on the same facts.` };
+    }
+    if (test === "Totality of the Circumstances" || test === "Balancing Test") {
+      const prob = hasPriorIncidents ? [0.50, 0.72] : [0.20, 0.35];
+      return { prob, note: `${facts.state} uses a ${test.toLowerCase()}${citation} -- prior incidents are only one factor among several (nature of the business, location, area crime patterns, existing security measures), so this claim carries real weight even without them, and is stronger still with them.` };
+    }
+    if (test === "Prior Similar Incidents") {
+      const prob = hasPriorIncidents ? [0.45, 0.68] : [0.08, 0.18];
+      return { prob, note: `${facts.state} applies the strict "prior similar incidents" rule${citation} -- without a substantially similar prior crime on the property or its immediate vicinity, this claim faces a real, specific obstacle beyond the general difficulty of negligent-security claims.` };
+    }
+    // Unresearched/unknown test -- fall back to the original generic
+    // prior-incidents-or-not treatment rather than guessing a regime.
+    const prob = hasPriorIncidents ? [0.45, 0.68] : [0.18, 0.32];
+    return { prob, note: null };
+  }
+
   // Determines whether/how a punitive-damages claim can be added on top of
   // an underlying premises-liability injury claim, using the state's
   // punitive-damages evidentiary STANDARD and any confirmed CAP (merged
@@ -746,6 +844,18 @@
       out.push(result(claimKey, label, adj.prob, adj.low, adj.high, note));
     }
 
+    // A claim gets this note appended when the property's state genuinely
+    // treats premises liability (a condition of the property) as a
+    // distinct cause of action from ordinary negligence (a contemporaneous
+    // activity) -- confirmed this research pass not just in Texas (the
+    // famous example, Keetch v. Kroger Co., 845 S.W.2d 262 (Tex. 1992))
+    // but also Colorado, Florida, Georgia, Illinois, Louisiana, and
+    // Michigan. Mislabeling the theory is outcome-determinative in these
+    // states, so it's surfaced on every claim, not buried in a footnote.
+    const distinctClaimNote = facts.premisesLiabilityDistinct
+      ? ` PLEADING NOTE: ${facts.state} treats premises liability as legally distinct from an ordinary negligent-activity claim -- confirm this is pled/argued under the correct theory, since mischaracterizing it can be outcome-determinative here.`
+      : "";
+
     if (facts.slipAndFallAlleged) {
       let p = [0.35, 0.55];
       let extraNote = "Slip-and-fall claims turn overwhelmingly on whether the property owner had actual or constructive NOTICE of the hazardous condition long enough before the injury to have fixed or warned of it -- most claims that fail, fail on notice, not on whether a hazard existed at all.";
@@ -755,36 +865,39 @@
       } else if (facts.hazardNoticeProven === "no") {
         p = [0.12, 0.28];
         extraNote += " No notice evidence has been identified here, which materially worsens the odds below the baseline range -- see Albertsons, LLC v. Mohammadi (Tex. 2024), where knowledge of an upstream cause was held not to be evidence of knowledge of the specific hazard itself.";
+        const modeAdopted = facts.premisesModeOfOperationAdopted;
+        if (facts.selfServiceModeOfOperationApplicable && (modeAdopted === true || modeAdopted === "partial")) {
+          p = [0.28, 0.48];
+          extraNote += ` However, ${facts.state} has ${modeAdopted === "partial" ? "at least partially " : ""}adopted the "mode of operation" rule${facts.premisesModeOfOperationCitation ? ` (${facts.premisesModeOfOperationCitation})` : ""} -- since this hazard fits a self-service business's own operating method, the plaintiff may be able to skip proving notice of THIS specific hazard entirely, which meaningfully improves the odds despite the notice gap above.`;
+        }
       }
-      pushInjuryClaim("slip_and_fall_hazardous_condition", "Slip-and-Fall / Hazardous Condition", p, extraNote);
+      pushInjuryClaim("slip_and_fall_hazardous_condition", "Slip-and-Fall / Hazardous Condition", p, extraNote + distinctClaimNote);
     }
 
     if (facts.inadequateSecurityAlleged) {
-      let p = [0.18, 0.32];
-      let extraNote = "Inadequate/negligent-security claims require proving the criminal act was FORESEEABLE to the property owner -- a genuinely harder bar than an ordinary hazard claim, usually won or lost on whether similar incidents had happened before on the property or in its immediate vicinity.";
-      if (facts.priorSimilarCrimeIncidents) {
-        p = [0.45, 0.68];
-        extraNote += " Prior similar incidents have been identified here -- typically the single most important fact in this claim type (see Georgia CVS Pharmacy, LLC v. Carmichael, 316 Ga. 718 (2023)) -- which materially improves the odds.";
-      } else {
-        extraNote += " No prior similar incidents have been identified here, which is a real obstacle to establishing foreseeability.";
-      }
-      pushInjuryClaim("inadequate_security_third_party_crime", "Inadequate Security / Third-Party Criminal Act", p, extraNote);
+      const secAdj = computeNegligentSecurityStateAdjustment(facts, !!facts.priorSimilarCrimeIncidents);
+      let extraNote = "Inadequate/negligent-security claims require proving the criminal act was FORESEEABLE to the property owner -- a genuinely harder bar than an ordinary hazard claim, and the state's specific foreseeability test (see below) usually matters more than any other single fact.";
+      extraNote += facts.priorSimilarCrimeIncidents
+        ? " Prior similar incidents have been identified here (see Georgia CVS Pharmacy, LLC v. Carmichael, 316 Ga. 718 (2023))."
+        : " No prior similar incidents have been identified here.";
+      if (secAdj.note) extraNote += " " + secAdj.note;
+      pushInjuryClaim("inadequate_security_third_party_crime", "Inadequate Security / Third-Party Criminal Act", secAdj.prob, extraNote + distinctClaimNote);
     }
 
     if (facts.structuralFailureAlleged) {
       const p = [0.40, 0.60];
       const extraNote = "Structural/maintenance failures (collapsed railings, failed stairs, defective elevators, etc.) are typically easier to prove than a transient hazard like a spill, since the defect itself is durable and can usually be established through inspection and expert testimony rather than relying on notice timing alone.";
-      pushInjuryClaim("negligent_maintenance_structural_failure", "Negligent Maintenance / Structural Failure", p, extraNote);
+      pushInjuryClaim("negligent_maintenance_structural_failure", "Negligent Maintenance / Structural Failure", p, extraNote + distinctClaimNote);
     }
 
     if (facts.failureToWarnAlleged) {
-      let p = [0.35, 0.55];
-      let extraNote = "A failure-to-warn theory turns on whether the danger was hidden/non-obvious -- a genuinely obvious hazard defeats a pure failure-to-warn claim in most jurisdictions (the \"open and obvious\" doctrine), though a growing number of courts still allow a claim that the owner should have REMEDIED the condition even if it was obvious, rather than merely warning of it.";
+      const base = [0.35, 0.55];
+      const oaoAdj = computeOpenAndObviousStateAdjustment(facts, base);
+      let extraNote = "A failure-to-warn theory turns on whether the danger was hidden/non-obvious -- how an obvious hazard is treated is one of the more consequential state-law splits in this whole area (see the state's open-and-obvious doctrine type below).";
       if (facts.openAndObviousDefenseRaised) {
-        p = [0.15, 0.30];
-        extraNote += " The open-and-obvious defense has been raised here, which is a real and often successful defense specifically against a warning theory -- though check whether a separate failure-to-remedy theory survives even if the warning theory doesn't.";
+        extraNote += oaoAdj.note ? " " + oaoAdj.note : " The open-and-obvious defense has been raised here.";
       }
-      pushInjuryClaim("dangerous_condition_failure_to_warn", "Dangerous Condition / Failure to Warn", p, extraNote);
+      pushInjuryClaim("dangerous_condition_failure_to_warn", "Dangerous Condition / Failure to Warn", oaoAdj.prob, extraNote + distinctClaimNote);
     }
 
     if (facts.egregiousConductAllegedForPunitives && out.length) {

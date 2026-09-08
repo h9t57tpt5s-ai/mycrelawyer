@@ -101,46 +101,76 @@
 
     // ---------- General framework (pulled straight from the page) ----------
     heading("The General Framework", 14);
-    body("What has to be proven, and how it can be defeated. This framework is the same nationwide — the state-by-state section starting below covers only what genuinely varies by jurisdiction: the fault rule and the punitive-damages standard/cap.", { size: 9, color: MUTED, gap: 12 });
+    body("Eight questions where the real answer is almost always \"it depends on the state\" -- this framework is the map, not the territory. Each state's own chapter below gives the actual, cited answer for that jurisdiction.", { size: 9, color: MUTED, gap: 12 });
 
-    heading("Elements to Prove", 12);
-    body(textOf("pl-elements-text"), { size: 9.5, gap: 14 });
-
-    heading("Defenses Available", 12);
+    const FRAMEWORK_TOPICS = [
+      ["1. Elements to Prove", "pl-elements-text"],
+      ["2. Visitor Classification", "pl-classification-text"],
+      ["3. Is Premises Liability Its Own Claim?", "pl-distinct-text"],
+      ["4. Notice & Mode of Operation", "pl-notice-text"],
+      ["5. Open & Obvious Hazards", "pl-openobvious-text"],
+      ["6. Attractive Nuisance", "pl-attractive-text"],
+      ["7. When a Crime Is Committed on the Premises", "pl-security-text"],
+      ["8. Comparative Fault & Punitive Damages", "pl-punitive-text"]
+    ];
+    FRAMEWORK_TOPICS.forEach(([label, id]) => {
+      heading(label, 12);
+      body(textOf(id), { size: 9.5, gap: 12 });
+    });
+    heading("Other Recurring Defenses", 12);
     body(textOf("pl-defenses-text"), { size: 9.5, gap: 14 });
-
-    heading("Punitive Damages", 12);
-    body(textOf("pl-punitive-text"), { size: 9.5, gap: 14 });
     rule();
 
     // ---------- State-by-state reference ----------
     doc.addPage(); y = 64;
     heading("State-by-State Reference", 15);
-    body("All 50 states plus D.C. Each entry lists the comparative/contributory fault rule, the punitive-damages evidentiary standard, and any confirmed statutory cap, each with its citation.", { size: 9, color: MUTED, gap: 16 });
+    body("All 50 states plus D.C. Fields marked \"not independently verified\" reflect this handbook's discipline of never presenting a fabricated citation -- confirm those against a primary source before relying on them in an actual matter.", { size: 9, color: MUTED, gap: 16 });
+
+    function fieldBlock(label, valueText, citation, extraNote) {
+      addPageIfNeeded(28);
+      doc.setFont("helvetica", "bold"); doc.setFontSize(9); doc.setTextColor(GOLD);
+      doc.text(label, marginX, y); y += 12;
+      const citeSuffix = citation ? ` — ${citation}` : " (not independently verified)";
+      body(`${valueText || "Not yet researched"}${citeSuffix}`, { size: 9, gap: extraNote ? 4 : 8 });
+      if (extraNote) body(extraNote, { size: 8.5, color: MUTED, gap: 8 });
+    }
 
     STATES.forEach((name) => {
       const m = MODS[name];
-      addPageIfNeeded(70);
-      doc.setFont("helvetica", "bold"); doc.setFontSize(12); doc.setTextColor(NAVY);
-      doc.text(name, marginX, y); y += 16;
+      addPageIfNeeded(90);
+      doc.setFont("helvetica", "bold"); doc.setFontSize(13); doc.setTextColor(NAVY);
+      doc.text(name, marginX, y); y += 18;
 
+      fieldBlock("Visitor Classification System", m.visitorClassificationSystem, m.visitorClassificationCitation, m.visitorClassificationNote);
+
+      addPageIfNeeded(20);
       doc.setFont("helvetica", "bold"); doc.setFontSize(9); doc.setTextColor(GOLD);
-      doc.text("Comparative / Contributory Fault Rule", marginX, y); y += 12;
-      body(`${m.faultRule || "Not yet researched"}${m.faultRuleCitation ? " — " + m.faultRuleCitation : ""}`, { size: 9, gap: 8 });
-
-      doc.setFont("helvetica", "bold"); doc.setFontSize(9); doc.setTextColor(GOLD);
-      addPageIfNeeded(14);
-      doc.text("Punitive Damages: Evidentiary Standard", marginX, y); y += 12;
-      body(m.punitiveDamagesStandard || "Not yet researched", { size: 9, gap: 8 });
-
-      doc.setFont("helvetica", "bold"); doc.setFontSize(9); doc.setTextColor(GOLD);
-      addPageIfNeeded(14);
-      doc.text("Punitive Damages: Statutory Cap", marginX, y); y += 12;
-      body(m.punitiveDamagesCap || "Not yet researched", { size: 9, gap: 8 });
-
-      if (m.note) {
-        body(m.note, { size: 8, color: MUTED, gap: 10 });
+      doc.text("Elements to Prove", marginX, y); y += 12;
+      if (Array.isArray(m.elementsToProve) && m.elementsToProve.length) {
+        m.elementsToProve.forEach((el, i) => body(`${i + 1}. ${el}`, { size: 9, gap: 4 }));
+      } else {
+        body("Not yet researched", { size: 9, gap: 4 });
       }
+      body(m.elementsCitation ? `— ${m.elementsCitation}` : "(citation not independently verified)", { size: 8.5, color: MUTED, gap: 8 });
+
+      addPageIfNeeded(20);
+      doc.setFont("helvetica", "bold"); doc.setFontSize(9); doc.setTextColor(GOLD);
+      doc.text(`Distinct From Ordinary Negligence? ${m.premisesLiabilityDistinctFromOrdinaryNegligence ? "YES" : "NO"}`, marginX, y); y += 12;
+      body(m.premisesLiabilityDistinctNote || "Not yet researched", { size: 9, gap: 8 });
+
+      const modeOfOp = m.modeOfOperationRuleAdopted === true ? "Yes" : m.modeOfOperationRuleAdopted === "partial" ? "Partially" : m.modeOfOperationRuleAdopted === false ? "No" : "Unclear";
+      fieldBlock("Notice Requirement", m.noticeRule, null, `Mode-of-operation rule adopted: ${modeOfOp}${m.modeOfOperationCitation ? " — " + m.modeOfOperationCitation : ""}`);
+
+      fieldBlock("Open & Obvious Hazards", m.openAndObviousDoctrine, m.openAndObviousCitation, m.openAndObviousNote);
+      fieldBlock("Attractive Nuisance", m.attractiveNuisanceDoctrine, m.attractiveNuisanceCitation, m.attractiveNuisanceNote);
+      fieldBlock("Negligent Security Foreseeability Test", m.negligentSecurityForeseeabilityTest, m.negligentSecurityCitation, m.negligentSecurityNote);
+      fieldBlock("Comparative / Contributory Fault Rule", m.faultRule, m.faultRuleCitation);
+      fieldBlock("Other State-Specific Defenses", m.additionalDefenses, null);
+      fieldBlock("Punitive Damages: Evidentiary Standard", m.punitiveDamagesStandard, null);
+      fieldBlock("Punitive Damages: Statutory Cap", m.punitiveDamagesCap, null);
+
+      if (m.note) body(m.note, { size: 8, color: MUTED, gap: 8 });
+      if (m.researchConfidence) body(`Research confidence: ${m.researchConfidence}`, { size: 8, color: MUTED, gap: 8 });
       rule();
     });
 

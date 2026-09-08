@@ -81,22 +81,87 @@
     panel._close = close;
   }
 
-  function sectionHtml(label, bodyHtml) {
-    return `<div class="eg-chapter-section"><h3>${label}</h3><p>${bodyHtml}</p></div>`;
+  function sectionHtml(label, bodyHtml, extra) {
+    return `<div class="eg-chapter-section">${extra ? `<div class="pl-section-top"><h3>${label}</h3>${extra}</div>` : `<h3>${label}</h3>`}<p>${bodyHtml}</p></div>`;
+  }
+  function citeLine(citation) {
+    return citation ? ` <em>— ${citation}</em>` : ` <em>— citation not independently confirmed; verify before relying on this.</em>`;
+  }
+  // Small inline pill used next to a section heading to flag this
+  // research pass's own honest confidence in that specific claim, when
+  // the underlying field's citation is missing/unconfirmed -- keeps the
+  // "never fabricate precision" discipline visible at the point of use,
+  // not just buried in a footer.
+  function unverifiedPill(citation) {
+    return citation ? "" : `<span class="pl-unverified-pill">not independently verified</span>`;
+  }
+  function boolLabel(v) {
+    if (v === true) return "Yes";
+    if (v === false) return "No";
+    if (v === "partial") return "Partially";
+    return "Unclear";
   }
 
   function openStatePanel(name) {
     buildPanel();
     const m = MODS[name];
     if (!m) return;
-    const punitiveStandard = m.punitiveDamagesStandard || "Not yet researched";
-    const punitiveCap = m.punitiveDamagesCap || "Not yet researched";
+    const elementsList = Array.isArray(m.elementsToProve) && m.elementsToProve.length
+      ? `<ol class="pl-elements-list">${m.elementsToProve.map((e) => `<li>${e}</li>`).join("")}</ol>`
+      : `<p>${m.elementsToProve || "Not yet researched."}</p>`;
+
     const sections = [
-      sectionHtml("Comparative / Contributory Fault Rule", `${m.faultRule}${m.faultRuleCitation ? ` — <em>${m.faultRuleCitation}</em>` : ""}`),
-      sectionHtml("Punitive Damages: Evidentiary Standard", punitiveStandard),
-      sectionHtml("Punitive Damages: Statutory Cap", punitiveCap)
+      // 1. Visitor classification
+      sectionHtml(
+        "Visitor Classification System",
+        `${m.visitorClassificationSystem || "Not yet researched"}${citeLine(m.visitorClassificationCitation)}<br/><br/>${m.visitorClassificationNote || ""}`,
+        unverifiedPill(m.visitorClassificationCitation)
+      ),
+      // 2. Elements (rendered as an ordered list, not just a paragraph)
+      `<div class="eg-chapter-section"><div class="pl-section-top"><h3>Elements to Prove</h3>${unverifiedPill(m.elementsCitation)}</div>${elementsList}<p class="pl-cite-line">${citeLine(m.elementsCitation)}</p></div>`,
+      // 3. Distinct-from-ordinary-negligence
+      sectionHtml(
+        `Is This Its Own Claim, Distinct From Ordinary Negligence? ${m.premisesLiabilityDistinctFromOrdinaryNegligence ? '<span class="pl-yes-badge">YES</span>' : '<span class="pl-no-badge">NO</span>'}`,
+        m.premisesLiabilityDistinctNote || "Not yet researched."
+      ),
+      // 4. Notice + mode of operation
+      sectionHtml(
+        `Notice Requirement &amp; the "Mode of Operation" Rule`,
+        `${m.noticeRule || "Not yet researched."}<br/><br/><strong>Mode-of-operation rule adopted:</strong> ${boolLabel(m.modeOfOperationRuleAdopted)}${citeLine(m.modeOfOperationCitation)}`
+      ),
+      // 5. Open and obvious
+      sectionHtml(
+        "Open &amp; Obvious Hazards",
+        `${m.openAndObviousDoctrine || "Not yet researched"}${citeLine(m.openAndObviousCitation)}<br/><br/>${m.openAndObviousNote || ""}`,
+        unverifiedPill(m.openAndObviousCitation)
+      ),
+      // 6. Attractive nuisance
+      sectionHtml(
+        "Attractive Nuisance",
+        `${m.attractiveNuisanceDoctrine || "Not yet researched"}${citeLine(m.attractiveNuisanceCitation)}<br/><br/>${m.attractiveNuisanceNote || ""}`,
+        unverifiedPill(m.attractiveNuisanceCitation)
+      ),
+      // 7. Negligent security / crime on premises
+      sectionHtml(
+        "When a Crime Is Committed on the Premises: Negligent Security",
+        `<strong>Foreseeability test:</strong> ${m.negligentSecurityForeseeabilityTest || "Not yet researched"}${citeLine(m.negligentSecurityCitation)}<br/><br/>${m.negligentSecurityNote || ""}`,
+        unverifiedPill(m.negligentSecurityCitation)
+      ),
+      // 8. Comparative/contributory fault
+      sectionHtml(
+        "Comparative / Contributory Fault Rule",
+        `${m.faultRule || "Not yet researched"}${citeLine(m.faultRuleCitation)}`
+      ),
+      // 9. Other defenses
+      sectionHtml("Other State-Specific Defenses", m.additionalDefenses || "None identified beyond the fault rule and doctrines above."),
+      // 10. Punitive damages
+      sectionHtml("Punitive Damages: Evidentiary Standard", m.punitiveDamagesStandard || "Not yet researched"),
+      sectionHtml("Punitive Damages: Statutory Cap", m.punitiveDamagesCap || "Not yet researched")
     ];
-    if (m.note) sections.push(sectionHtml("Practitioner Note", m.note));
+    if (m.note) sections.push(sectionHtml("Practitioner Note (Fault/Punitive Damages)", m.note));
+    if (m.researchConfidence) {
+      sections.push(`<div class="eg-chapter-section pl-confidence-footer"><h3>Research Confidence</h3><p>${m.researchConfidence}. This reflects the researcher's own honest self-assessment — any field above flagged "not independently verified" should be confirmed against a primary source before being relied on in an actual matter.</p></div>`);
+    }
 
     panel.innerHTML = `
       <div class="top-row">
@@ -109,7 +174,6 @@
       ${badgeHtml(m.faultRule)}
       <div class="rule mt-24" style="margin-bottom:24px;"></div>
       <div id="pl-panel-content">
-        <div class="eg-chapter-blurb">Elements to prove, defenses generally available, and how punitive damages work are the same nationwide framework covered above — this panel covers only what is genuinely STATE-SPECIFIC: the fault rule and the punitive-damages standard/cap.</div>
         ${sections.join("")}
       </div>
     `;
@@ -117,6 +181,7 @@
     if (window.RELAW_UTILS && window.RELAW_UTILS.linkifyGlossaryTerms) window.RELAW_UTILS.linkifyGlossaryTerms(panel);
     overlay.classList.add("open");
     panel.classList.add("open");
+    panel.scrollTop = 0;
     document.body.style.overflow = "hidden";
   }
 

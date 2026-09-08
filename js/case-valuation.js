@@ -232,6 +232,7 @@
       { key: "injurySeverity", label: "Injury severity", type: "select", options: ["minor", "moderate", "severe", "catastrophic"] },
       { key: "slipAndFallAlleged", label: "Is this a slip-and-fall / hazardous-condition claim?", type: "boolean" },
       { key: "hazardNoticeProven", label: "If slip-and-fall: has actual or constructive notice of the hazard been proven?", type: "select", options: ["yes", "no", "unclear"] },
+      { key: "selfServiceModeOfOperationApplicable", label: "If notice hasn't been proven: does the hazard fit a self-service business's own operating method (e.g. self-serve produce, drink stations)?", type: "boolean" },
       { key: "inadequateSecurityAlleged", label: "Is inadequate/negligent security (third-party criminal act) alleged?", type: "boolean" },
       { key: "priorSimilarCrimeIncidents", label: "If so: were there prior similar criminal incidents on the property or in its immediate vicinity?", type: "boolean" },
       { key: "structuralFailureAlleged", label: "Is negligent maintenance / structural failure alleged (railing, stairs, elevator, etc.)?", type: "boolean" },
@@ -401,6 +402,20 @@
       facts.premisesFaultRuleCitation = m.faultRuleCitation;
       facts.premisesPunitiveDamagesStandard = m.punitiveDamagesStandard;
       facts.premisesPunitiveDamagesCap = m.punitiveDamagesCap;
+      // Deep per-state doctrine fields (added in the second, much more
+      // thorough research pass) -- see the comment above
+      // premisesLiabilityStateModifiers in case-valuation-data.js for what
+      // each of these actually means and why it was researched.
+      facts.premisesOpenAndObviousDoctrine = m.openAndObviousDoctrine;
+      facts.premisesOpenAndObviousRule = m.openAndObviousRule;
+      facts.premisesOpenAndObviousCitation = m.openAndObviousCitation;
+      facts.premisesNegligentSecurityTest = m.negligentSecurityForeseeabilityTest;
+      facts.premisesNegligentSecurityTestNormalized = m.negligentSecurityTestNormalized;
+      facts.premisesNegligentSecurityCitation = m.negligentSecurityCitation;
+      facts.premisesModeOfOperationAdopted = m.modeOfOperationRuleAdopted;
+      facts.premisesModeOfOperationCitation = m.modeOfOperationCitation;
+      facts.premisesLiabilityDistinct = m.premisesLiabilityDistinctFromOrdinaryNegligence;
+      facts.premisesLiabilityDistinctNote = m.premisesLiabilityDistinctNote;
     }
     return facts;
   }

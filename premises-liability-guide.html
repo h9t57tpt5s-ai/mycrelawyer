@@ -24,6 +24,23 @@
 <link rel="stylesheet" href="css/styles.css" />
 <link rel="stylesheet" href="css/eviction-guide.css" />
 <link rel="stylesheet" href="css/terms-gate.css" />
+<style>
+  /* Page-specific additions on top of css/eviction-guide.css's shared
+     .eg-chapter-section chapter styling -- new elements introduced by
+     the deep per-state research pass (element lists, distinct-claim
+     yes/no flags, unverified-field pills, confidence footer). */
+  .pl-section-top { display: flex; align-items: center; justify-content: space-between; gap: 10px; margin-bottom: 8px; }
+  .pl-section-top h3 { margin-bottom: 0; }
+  .pl-unverified-pill { flex-shrink: 0; font-family: var(--font-mono); font-size: 10px; letter-spacing: 0.02em; color: #b45309; background: color-mix(in srgb, #b45309 12%, transparent); border: 1px solid color-mix(in srgb, #b45309 30%, transparent); border-radius: 999px; padding: 2px 8px; white-space: nowrap; }
+  .pl-yes-badge, .pl-no-badge { font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.03em; border-radius: 4px; padding: 1px 7px; margin-left: 6px; vertical-align: 1px; }
+  .pl-yes-badge { color: #b45309; background: color-mix(in srgb, #b45309 14%, transparent); }
+  .pl-no-badge { color: var(--text-muted); background: var(--bg-elevated); border: 1px solid var(--border); }
+  .pl-elements-list { padding-left: 20px; margin: 0 0 8px; }
+  .pl-elements-list li { font-size: 14px; line-height: 1.7; color: var(--text-secondary); margin-bottom: 8px; }
+  .pl-cite-line { font-size: 12.5px !important; color: var(--text-muted) !important; font-style: italic; margin-top: 4px !important; }
+  .pl-confidence-footer { padding-top: 18px; border-top: 1px dashed var(--border); }
+  .pl-confidence-footer p { font-size: 12.5px !important; color: var(--text-muted) !important; }
+</style>
     <script>
       window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
     </script>
@@ -134,23 +151,45 @@
     <div class="section-head reveal">
       <div>
         <div class="eyebrow">The General Framework</div>
-        <h2 style="font-size:clamp(1.4rem,2.2vw,1.9rem);">What has to be proven, and how it can be defeated</h2>
+        <h2 style="font-size:clamp(1.4rem,2.2vw,1.9rem);">Eight questions — and why the real answer is almost always "it depends on the state"</h2>
       </div>
     </div>
-    <div class="grid-3 reveal" style="gap:20px;">
-      <div class="card" style="padding:24px;">
-        <h3 style="font-size:15px; margin-bottom:10px;">Elements to Prove</h3>
-        <p id="pl-elements-text" style="font-size:13.5px; line-height:1.75; color:var(--text-secondary);">A premises-liability negligence claim generally requires: <strong>(1) Duty</strong> — owed based on the visitor's status (invitee/licensee/trespasser at common law, or a unified reasonable-care duty in "Rowland rule" states such as California); <strong>(2) Breach</strong> — the owner knew or, through reasonable inspection, should have known of the hazard and failed to fix, remedy, or warn of it; <strong>(3) Notice</strong> — actual or constructive notice that the specific condition existed long enough to have been discovered, unless the owner's own conduct created the hazard (some states relax this via a "mode of operation" rule for self-service business risks); <strong>(4) Causation</strong> — the breach actually and proximately caused the injury; and <strong>(5) Damages</strong> — provable medical expenses, lost income, and pain and suffering.</p>
+    <p class="text-secondary reveal" style="max-width:760px; margin-bottom:24px;">Premises liability is one of the least uniform areas of tort law in the country. The eight questions below look like general orientation — but for nearly every one of them, at least a handful of states answer differently enough to change the outcome of a real case. Each state's own chapter below gives the actual, cited answer for that jurisdiction; treat what's here as the map, not the territory.</p>
+    <div class="grid-4 reveal" style="gap:18px;">
+      <div class="card" style="padding:22px;">
+        <h3 style="font-size:14.5px; margin-bottom:8px;">1. Elements to Prove</h3>
+        <p id="pl-elements-text" style="font-size:13px; line-height:1.7; color:var(--text-secondary);">Generically: duty, breach, notice, causation, and damages. But the actual formulation — and even the number of elements — is each state's own. Some states (Georgia, for instance) split the analysis entirely depending on whether the hazard is a "static condition" or "active negligence."</p>
       </div>
-      <div class="card" style="padding:24px;">
-        <h3 style="font-size:15px; margin-bottom:10px;">Defenses Available</h3>
-        <p id="pl-defenses-text" style="font-size:13.5px; line-height:1.75; color:var(--text-secondary);">The most consequential defense in nearly every case is the plaintiff's own <strong>comparative or contributory fault</strong> — see the state-by-state rule below, since it varies from an absolute bar (any plaintiff fault) to no bar at all. Other recurring defenses: the <strong>open-and-obvious doctrine</strong> (no duty to warn of a hazard a reasonable visitor would have seen, though a growing number of courts preserve a duty to remedy it regardless); <strong>assumption of risk</strong> (the plaintiff knowingly and voluntarily encountered a known danger); a <strong>reduced duty to trespassers</strong> (limited to refraining from willful/wanton injury, subject to the attractive-nuisance exception for child trespassers); <strong>lack of notice</strong>; and, where a tenant or independent contractor — not the owner — controlled or caused the condition, a dispute over which party owed the duty at all.</p>
+      <div class="card" style="padding:22px;">
+        <h3 style="font-size:14.5px; margin-bottom:8px;">2. Visitor Classification</h3>
+        <p id="pl-classification-text" style="font-size:13px; line-height:1.7; color:var(--text-secondary);">Does the state still sort visitors into invitees, licensees, and trespassers — each owed a different duty — or has it moved to one unified "reasonable care under the circumstances" duty (the "Rowland rule," after <em>Rowland v. Christian</em>)? A genuine, ongoing 50-state split.</p>
       </div>
-      <div class="card" style="padding:24px;">
-        <h3 style="font-size:15px; margin-bottom:10px;">Punitive Damages</h3>
-        <p id="pl-punitive-text" style="font-size:13.5px; line-height:1.75; color:var(--text-secondary);">Ordinary negligence — even negligence that causes a severe injury — never supports punitive damages. A claimant must additionally prove the owner's conduct was <strong>willful, wanton, or in reckless/conscious disregard</strong> of a known danger — typically shown through evidence the owner already knew of the exact hazard (e.g., prior similar incidents) and did nothing. Most states require this be shown by <strong>clear and convincing evidence</strong>, a higher bar than the preponderance standard used for the underlying negligence claim; a handful of states set a different bar entirely (see below), and several prohibit punitive damages in an ordinary tort claim altogether absent a specific enabling statute.</p>
+      <div class="card" style="padding:22px;">
+        <h3 style="font-size:14.5px; margin-bottom:8px;">3. Is Premises Liability Its Own Claim?</h3>
+        <p id="pl-distinct-text" style="font-size:13px; line-height:1.7; color:var(--text-secondary);">Texas is the famous example: a claim about a CONDITION of the property is legally distinct from a claim about a contemporaneous ACTIVITY on it (<em>Keetch v. Kroger Co.</em>), with different elements and no notice requirement for the latter. This research confirmed the same real distinction, in different forms, in Colorado, Florida, Georgia, Illinois, Louisiana, and Michigan too — mislabeling the theory can be case-dispositive in all of them.</p>
+      </div>
+      <div class="card" style="padding:22px;">
+        <h3 style="font-size:14.5px; margin-bottom:8px;">4. Notice &amp; Mode of Operation</h3>
+        <p id="pl-notice-text" style="font-size:13px; line-height:1.7; color:var(--text-secondary);">A plaintiff generally must show the owner had actual or constructive notice of the hazard — it existed long enough that reasonable inspection would have caught it. Some states let a plaintiff skip proving notice of THIS specific hazard under the "mode of operation" rule, if the business's own self-service model makes that type of hazard foreseeably recurring (e.g., a grocery store's produce section).</p>
+      </div>
+      <div class="card" style="padding:22px;">
+        <h3 style="font-size:14.5px; margin-bottom:8px;">5. Open &amp; Obvious Hazards</h3>
+        <p id="pl-openobvious-text" style="font-size:13px; line-height:1.7; color:var(--text-secondary);">Three real, different rules across the states: a full "no duty at all" bar for an obvious hazard; "no duty to warn, but still a duty to remedy" if harm was foreseeable anyway (Restatement (Second) of Torts § 343A); or — a growing trend, with Michigan (2023) and Arizona (2025) both switching recently — obviousness isn't a duty question at all, just a comparative-fault factor for the jury. This is also where a hazard that COULD NOT have been discovered even on reasonable inspection, one that SHOULD have been discovered but wasn't, and one that IS obvious to the visitor get treated very differently.</p>
+      </div>
+      <div class="card" style="padding:22px;">
+        <h3 style="font-size:14.5px; margin-bottom:8px;">6. Attractive Nuisance</h3>
+        <p id="pl-attractive-text" style="font-size:13px; line-height:1.7; color:var(--text-secondary);">A heightened duty to child trespassers regarding an artificial condition the owner should realize poses an unreasonable risk to children too young to appreciate the danger (Restatement (Second) of Torts § 339) — nearly universal, but not quite: Virginia rejects it outright.</p>
+      </div>
+      <div class="card" style="padding:22px;">
+        <h3 style="font-size:14.5px; margin-bottom:8px;">7. When a Crime Is Committed on the Premises</h3>
+        <p id="pl-security-text" style="font-size:13px; line-height:1.7; color:var(--text-secondary);">Negligent/inadequate-security claims turn entirely on how foreseeable the state requires the criminal act to have been: a strict "prior similar incidents" rule, a looser "totality of the circumstances" test, California's foreseeability-vs-burden balancing test, or the very restrictive "specific harm" rule. Mississippi uses its own narrower "atmosphere of violence" variant. This is frequently THE determinative question in a negligent-security case, more than any other single fact.</p>
+      </div>
+      <div class="card" style="padding:22px;">
+        <h3 style="font-size:14.5px; margin-bottom:8px;">8. Comparative Fault &amp; Punitive Damages</h3>
+        <p id="pl-punitive-text" style="font-size:13px; line-height:1.7; color:var(--text-secondary);">The plaintiff's own fault ranges from an absolute bar (any fault at all) to no bar whatsoever depending on the state. Punitive damages additionally require proof of willful, wanton, or reckless disregard of a known danger — usually by clear and convincing evidence, though Colorado uniquely demands proof beyond a reasonable doubt, and several states prohibit punitive damages in an ordinary tort claim entirely absent a specific statute.</p>
       </div>
     </div>
+    <p class="text-secondary reveal" id="pl-defenses-text" style="max-width:760px; margin-top:20px; font-size:13px; line-height:1.7;">Beyond the fault rule itself, other recurring defenses worth knowing across nearly every state: <strong>assumption of risk</strong> (the plaintiff knowingly and voluntarily encountered a known danger); a <strong>reduced duty to trespassers</strong> generally (limited to refraining from willful/wanton injury, subject to the attractive-nuisance exception above); and, where a tenant or independent contractor — not the owner — controlled or caused the condition, a dispute over which party owed the duty at all. Each state's chapter below also lists any genuinely state-specific defenses on top of these (recreational-use immunity statutes, the firefighter's rule, out-of-possession-landlord rules, and similar).</p>
     <div class="reveal" style="margin-top:24px; display:flex; align-items:center; gap:14px; flex-wrap:wrap;">
       <button type="button" class="btn btn-primary btn-sm" id="pl-download-btn">
         <svg viewBox="0 0 24 24" fill="none" width="15" height="15" style="margin-right:6px; vertical-align:-2px;"><path d="M12 4v11m0 0l-4-4m4 4l4-4M5 19h14" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
