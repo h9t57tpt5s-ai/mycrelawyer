@@ -69,10 +69,17 @@ const anthropic = ANTHROPIC_API_KEY ? new Anthropic({ apiKey: ANTHROPIC_API_KEY 
 async function sendReviewNotification(item: {
   id: number; category: unknown; jurisdiction: unknown; claimedAmount: unknown; settledAmount: unknown; flagged: boolean;
 }) {
-  if (!RESEND_API_KEY) return;
+  if (!RESEND_API_KEY) {
+    // Logged (not just silently skipped) so a missing/empty secret shows up
+    // in Edge Function logs instead of looking identical to "email sent
+    // fine" from the outside -- this exact gap is what made the first
+    // silent-failure report undiagnosable.
+    console.error("sendReviewNotification: RESEND_API_KEY is not set -- skipping notification email.");
+    return;
+  }
   const fmt = (n: unknown) => typeof n === "number" ? "$" + n.toLocaleString("en-US") : "—";
   try {
-    await fetch("https://api.resend.com/emails", {
+    const resp = await fetch("https://api.resend.com/emails", {
       method: "POST",
       headers: { "Authorization": `Bearer ${RESEND_API_KEY}`, "Content-Type": "application/json" },
       body: JSON.stringify({
@@ -94,8 +101,18 @@ async function sendReviewNotification(item: {
         ].join("\n"),
       }),
     });
-  } catch {
-    // Swallowed on purpose -- see the function comment above.
+    // fetch() only rejects on a network-level failure -- a non-2xx HTTP
+    // response from Resend (bad/expired key, unverified sender domain, a
+    // validation error) resolves normally and would otherwise disappear
+    // silently. Logging the body here is the whole reason this was
+    // undiagnosable from outside the function -- check Edge Function Logs
+    // for "sendReviewNotification: Resend returned" after a test submission.
+    if (!resp.ok) {
+      const bodyText = await resp.text().catch(() => "(could not read response body)");
+      console.error(`sendReviewNotification: Resend returned ${resp.status} — ${bodyText}`);
+    }
+  } catch (err) {
+    console.error("sendReviewNotification: fetch to Resend failed —", String(err));
   }
 }
 
