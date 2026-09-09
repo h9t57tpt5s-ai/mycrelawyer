@@ -30,14 +30,9 @@ create policy "Signed-in users can read eviction guide chapters"
   to authenticated
   using (true);
 
-insert into public.eviction_guide_chapters (state, slug, chapter, classification, self_help_available, possession_damages_combined, blurb, sections)
+insert into public.eviction_guide_chapters (slug, blurb, sections, updated_at)
 values (
-  'Texas',
   'texas',
-  44,
-  'Landlord-Friendly',
-  'Available',
-  'May Combine',
   $b$Chapter 93 lockout rights and a functioning summary-disposition procedure continue to give Texas landlords faster, lower-cost paths to possession than most jurisdictions.$b$,
   $s$[
     {
@@ -90,14 +85,12 @@ values (
       "label": "Source Notes",
       "content": "Statutory authorities reviewed: Texas Property Code Chapter 24 as amended by Acts 2025, 89th Leg., R.S., Ch. 960 (S.B. 38), effective January 1, 2026; Texas Property Code Chapter 93, Commercial Tenancies; and the Supreme Court of Texas amended order giving preliminary approval of amendments to Rule 143a and Part V of the Texas Rules of Civil Procedure, Misc. Docket No. 25-9105, dated December 31, 2025."
     }
-  ]$s$::jsonb
+  ]$s$::jsonb,
+  now()
 )
 on conflict (slug) do update set
-  chapter = excluded.chapter,
-  classification = excluded.classification,
-  self_help_available = excluded.self_help_available,
-  possession_damages_combined = excluded.possession_damages_combined,
   blurb = excluded.blurb,
-  sections = excluded.sections;
+  sections = excluded.sections,
+  updated_at = now();
 
 notify pgrst, 'reload schema';
