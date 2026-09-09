@@ -1,14 +1,15 @@
 /* =========================================================
    CREdocket — Commercial Eviction Handbook: PDF export
    Mirrors js/premises-liability-report.js's jsPDF pattern for visual
-   consistency across CREdocket's PDF exports. Unlike that file, most
-   of this handbook's chapter text lives in Supabase rather than a
-   local data file, so this fetches every state in one query before
-   building the PDF (its RLS policy grants SELECT to anon +
-   authenticated unconditionally -- see
-   handbook_project/schema_eviction_guide_make_free.sql -- but the
-   button itself still requires a signed-in session, consistent with
-   the page's own per-chapter sign-in gate in js/eviction-guide.js).
+   consistency across CREdocket's PDF exports. Unlike that file, all
+   51 jurisdictions' chapter text here (Texas included) lives in
+   Supabase rather than a local data file, so this fetches every state
+   in one query before building the PDF. Its RLS policy grants SELECT
+   to the `authenticated` role only (see
+   handbook_project/schema_eviction_guide_lock_down.sql), and this
+   button independently checks for a session before even attempting
+   the fetch -- consistent with the page's own real, database-enforced
+   per-chapter sign-in gate in js/eviction-guide.js.
    ========================================================= */
 
 (function () {
@@ -58,7 +59,7 @@
     setBusy("Building PDF…");
 
     const d = EVICTION_GUIDE_DATA;
-    const STATES = d.states.filter((s) => s.slug !== d.freeStateSlug).sort((a, b) => a.name.localeCompare(b.name));
+    const STATES = [...d.states].sort((a, b) => a.name.localeCompare(b.name));
 
     const { jsPDF } = window.jspdf;
     const doc = new jsPDF({ unit: "pt", format: "letter" });
@@ -146,13 +147,9 @@
     body(d.revisionBasis, { size: 8.5, color: MUTED, gap: 16 });
     rule();
 
-    // ---------- Texas ----------
+    // ---------- Chapters (all 51 jurisdictions) ----------
     heading("Chapters", 15);
     body("Each chapter answers the same five questions. Classification is a general orientation tool, not a prediction of any specific case's outcome.", { size: 9, color: MUTED, gap: 14 });
-    const txMeta = d.states.find((s) => s.slug === d.freeStateSlug);
-    chapter(txMeta.name, txMeta.chapter, txMeta.classification, d.texasFull.blurb, d.texasFull.sections);
-
-    // ---------- Every other state ----------
     STATES.forEach((s) => {
       const row = bySlug[s.slug];
       if (row) {

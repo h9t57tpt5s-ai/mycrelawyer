@@ -1,16 +1,13 @@
 /* =========================================================
    CREdocket — Commercial Eviction Handbook page logic
-   Free with a CREdocket account (sign-in required, no purchase). Every
-   state -- including Texas -- requires a session before its chapter
-   text renders; the state grid itself (names + classification) stays
-   visible to everyone as a preview. Texas renders straight from the
-   public EVICTION_GUIDE_DATA; every other state is fetched from
-   Supabase (eviction_guide_chapters) at click time -- its RLS policy
-   grants SELECT to anon + authenticated unconditionally (see
-   handbook_project/schema_eviction_guide_make_free.sql), so the
-   sign-in requirement here is a product/lead-capture gate, not a data
-   permission -- consistent with how the rest of the site gates free
-   features behind a free account.
+   Free with a CREdocket account (sign-in required, no purchase).
+   Every state -- Texas included, no longer a special case -- is
+   fetched from Supabase (eviction_guide_chapters) at click time, and
+   its RLS policy grants SELECT to the `authenticated` role only (see
+   handbook_project/schema_eviction_guide_lock_down.sql) -- so the
+   sign-in requirement is a real, database-enforced gate, not just a
+   client-side prompt. The state grid itself (names + classification)
+   stays visible to everyone as a directory/preview.
    ========================================================= */
 
 (function () {
@@ -75,29 +72,11 @@
     if (el("#eg-revision-basis")) el("#eg-revision-basis").textContent = d.revisionBasis;
   }
 
-  /* ---------- Texas chapter (sign-in gated like every other state) ---------- */
-  function renderTexas() {
-    const tx = EVICTION_GUIDE_DATA.texasFull;
-    const meta = EVICTION_GUIDE_DATA.states.find((s) => s.slug === EVICTION_GUIDE_DATA.freeStateSlug);
-    if (el("#eg-texas-badge") && meta) el("#eg-texas-badge").outerHTML = badgeHtml(meta.classification);
-    const host = el("#eg-texas-chapter");
-    if (!host) return;
-    if (!hasSession()) {
-      host.innerHTML = signInCardHtml("Texas, and every other state, is free to read with a CREdocket account — no purchase required.");
-      const btn = host.querySelector(".eg-signin-btn");
-      if (btn) btn.addEventListener("click", () => window.RELAW_AUTH && window.RELAW_AUTH.openSignInModal());
-      return;
-    }
-    host.innerHTML = chapterContentHtml(tx.blurb, tx.sections);
-    if (window.RELAW_UTILS.linkifyGlossaryTerms) window.RELAW_UTILS.linkifyGlossaryTerms(host);
-  }
-
-  /* ---------- State grid (every other state) ---------- */
+  /* ---------- State grid (all 51 jurisdictions) ---------- */
   function renderGrid() {
     const grid = el("#eg-state-grid");
     if (!grid) return;
-    const others = EVICTION_GUIDE_DATA.states.filter((s) => s.slug !== EVICTION_GUIDE_DATA.freeStateSlug);
-    grid.innerHTML = others
+    grid.innerHTML = EVICTION_GUIDE_DATA.states
       .map(
         (s) => `
       <button type="button" class="eg-state-card" data-slug="${s.slug}">
@@ -212,13 +191,12 @@
   }
 
   renderMeta();
-  renderTexas();
   renderGrid();
 
-  // Re-render Texas and resume an intended state panel after sign-in, same
-  // pattern as the case-detail pending flow in auth.js but scoped here.
+  // Resume an intended state panel after sign-in, same pattern as the
+  // case-detail pending flow in auth.js but scoped here.
   if (sb) {
-    sb.auth.onAuthStateChange(() => { renderTexas(); resumePendingStateIfAny(); });
-    setTimeout(() => { renderTexas(); resumePendingStateIfAny(); }, 400);
+    sb.auth.onAuthStateChange(() => resumePendingStateIfAny());
+    setTimeout(resumePendingStateIfAny, 400);
   }
 })();
