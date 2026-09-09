@@ -66,16 +66,21 @@ const anthropic = ANTHROPIC_API_KEY ? new Anthropic({ apiKey: ANTHROPIC_API_KEY 
 // succeeded and is sitting safely in the queue by the time this is called,
 // so a bad/missing RESEND_API_KEY or a transient Resend outage should never
 // turn into a 500 for the person contributing data.
+//
+// TEMPORARY DEBUG SCAFFOLDING: returns a diagnostic object that the caller
+// folds into the JSON response as `emailDebug`, visible right on the
+// contribute-settlement.html confirmation card -- added specifically
+// because Supabase's own function/log dashboards were hard to navigate to
+// while diagnosing why no notification email was arriving. Safe to remove
+// (and stop surfacing emailDebug client-side) once email delivery is
+// confirmed working reliably; it exposes no secrets, only which branch of
+// this function ran and Resend's own response code/id.
 async function sendReviewNotification(item: {
   id: number; category: unknown; jurisdiction: unknown; claimedAmount: unknown; settledAmount: unknown; flagged: boolean;
-}) {
+}): Promise<{ attempted: boolean; hasKey: boolean; ok: boolean | null; status: number | null; detail: string }> {
   if (!RESEND_API_KEY) {
-    // Logged (not just silently skipped) so a missing/empty secret shows up
-    // in Edge Function logs instead of looking identical to "email sent
-    // fine" from the outside -- this exact gap is what made the first
-    // silent-failure report undiagnosable.
     console.error("sendReviewNotification: RESEND_API_KEY is not set -- skipping notification email.");
-    return;
+    return { attempted: false, hasKey: false, ok: null, status: null, detail: "RESEND_API_KEY secret is empty or missing on this function." };
   }
   const fmt = (n: unknown) => typeof n === "number" ? "$" + n.toLocaleString("en-US") : "—";
   try {
@@ -104,15 +109,13 @@ async function sendReviewNotification(item: {
     // fetch() only rejects on a network-level failure -- a non-2xx HTTP
     // response from Resend (bad/expired key, unverified sender domain, a
     // validation error) resolves normally and would otherwise disappear
-    // silently. Logging the body here is the whole reason this was
-    // undiagnosable from outside the function -- check Edge Function Logs
-    // for "sendReviewNotification: Resend returned" after a test submission.
-    if (!resp.ok) {
-      const bodyText = await resp.text().catch(() => "(could not read response body)");
-      console.error(`sendReviewNotification: Resend returned ${resp.status} — ${bodyText}`);
-    }
+    // silently without reading the body.
+    const bodyText = await resp.text().catch(() => "(could not read response body)");
+    if (!resp.ok) console.error(`sendReviewNotification: Resend returned ${resp.status} — ${bodyText}`);
+    return { attempted: true, hasKey: true, ok: resp.ok, status: resp.status, detail: bodyText.slice(0, 500) };
   } catch (err) {
     console.error("sendReviewNotification: fetch to Resend failed —", String(err));
+    return { attempted: true, hasKey: true, ok: false, status: null, detail: String(err) };
   }
 }
 
@@ -306,7 +309,7 @@ Deno.serve(async (req) => {
     return jsonResponse({ error: "Could not save your submission — try again.", detail: insertError.message }, 500);
   }
 
-  await sendReviewNotification({
+  const emailDebug = await sendReviewNotification({
     id: inserted.id,
     category: extracted.category,
     jurisdiction: extracted.jurisdiction,
@@ -330,5 +333,6 @@ Deno.serve(async (req) => {
       insuranceContribution: extracted.insuranceContribution,
     },
     confidentialityFlagged: scan.detected,
+    emailDebug, // TEMPORARY -- see sendReviewNotification's comment; remove once email delivery is confirmed working
   }, 200);
 });

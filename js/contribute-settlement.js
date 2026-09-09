@@ -201,6 +201,22 @@
         const flaggedNote = json.confidentialityFlagged
           ? `<p class="text-secondary" style="font-size:12.5px; margin-top:10px;"><strong>Flagged for extra review:</strong> our automated scan found language in the settlement text that may indicate a confidentiality provision. A reviewer will look closely before any credit is granted — if this is a false positive (e.g. "confidential business information" used in an unrelated clause), it'll still be approved once confirmed.</p>`
           : "";
+        // TEMPORARY debug panel — shows exactly what the notification-email
+        // attempt did server-side, since Supabase's own log dashboards were
+        // hard to navigate to while diagnosing why no email was arriving.
+        // Safe to delete this block (and stop reading json.emailDebug) once
+        // email delivery is confirmed working.
+        const ed = json.emailDebug;
+        const emailDebugHtml = ed
+          ? `<div style="margin-top:12px; padding:10px 12px; background:var(--bg-elevated); border:1px dashed var(--border); border-radius:6px; font-family:var(--font-mono); font-size:11.5px; color:var(--text-secondary);">
+              <div style="margin-bottom:4px; font-weight:600;">Email notification debug (temporary)</div>
+              <div>attempted: ${ed.attempted}</div>
+              <div>has RESEND_API_KEY: ${ed.hasKey}</div>
+              <div>Resend responded ok: ${ed.ok}</div>
+              <div>Resend HTTP status: ${ed.status}</div>
+              <div>detail: ${(ed.detail || "").replace(/</g, "&lt;")}</div>
+            </div>`
+          : "";
         resultEl.innerHTML = `
           <div class="gate-card" style="margin-top:14px; text-align:left;">
             <div class="eyebrow" style="margin-bottom:8px;">Submitted — Status: ${json.status === "flagged" ? "Flagged for Review" : "Pending Review"}</div>
@@ -209,6 +225,7 @@
               ${rows.map(([k, v]) => `<span class="detail-tag">${k}: ${v}</span>`).join("")}
             </div>
             ${flaggedNote}
+            ${emailDebugHtml}
           </div>`;
         petitionFile = null; settlementFile = null;
         document.getElementById("cs-petition-filelist").innerHTML = "";
