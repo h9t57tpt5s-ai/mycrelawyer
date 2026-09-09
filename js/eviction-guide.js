@@ -1,29 +1,20 @@
 /* =========================================================
    CREdocket — Commercial Eviction Handbook page logic
-   Texas renders straight from the public EVICTION_GUIDE_DATA (free
-   sample). Every other state is fetched from Supabase
-   (eviction_guide_chapters) at click time — row-level security only
-   returns a row to an account with a matching handbook_purchases
-   row, so an unauthorized fetch just comes back empty rather than
-   ever shipping the gated text to the browser.
+   Free for everyone, no purchase or sign-in required (matches
+   premises-liability-guide.js's model). Texas renders straight from
+   the public EVICTION_GUIDE_DATA; every other state is fetched from
+   Supabase (eviction_guide_chapters) at click time — its RLS policy
+   grants SELECT to anon + authenticated unconditionally (see
+   handbook_project/schema_eviction_guide_make_free.sql), so this is
+   just a lazy-load, not an access check. To restore the paywall,
+   revert that policy and this file to their prior git history.
    ========================================================= */
 
 (function () {
   "use strict";
   if (typeof EVICTION_GUIDE_DATA === "undefined") return;
 
-  // ---- CONFIG: fill these in once set up ----------------------------
-  // 1. Create a fixed-price Stripe Payment Link for the full handbook
-  //    and paste its URL here (Stripe Dashboard → Payment Links).
-  //    Ask buyers to check out with the SAME email as their CREdocket
-  //    account, since purchases are matched by account, not email alone.
-  const STRIPE_PAYMENT_LINK_URL = "https://buy.stripe.com/aFacMX20u8GKeLJetz1B600";
-  const PRICE_DISPLAY = "$195";
-  // ---------------------------------------------------------------------
-
   const sb = window.RELAW_SUPABASE;
-  const PENDING_STATE_KEY = "credocket_pending_eg_state";
-  const PENDING_STATE_MAX_AGE_MS = 30 * 60 * 1000;
 
   function el(sel) { return document.querySelector(sel); }
 
@@ -36,12 +27,6 @@
   function badgeHtml(classification) {
     const color = classificationColor(classification);
     return `<span class="badge eg-classification-badge" style="background:color-mix(in srgb, ${color} 16%, transparent); color:${color}; border:1px solid color-mix(in srgb, ${color} 35%, transparent);"><span class="badge-dot" style="background:${color}"></span>${classification}</span>`;
-  }
-
-  function lockIconHtml(unlocked) {
-    return unlocked
-      ? `<svg class="eg-lock-icon" viewBox="0 0 24 24" fill="none" width="18" height="18"><path d="M7 11V8a5 5 0 0 1 9.5-2.2M6 11h12v9H6z" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>`
-      : `<svg class="eg-lock-icon" viewBox="0 0 24 24" fill="none" width="18" height="18"><rect x="6" y="11" width="12" height="9" rx="1.5" stroke="currentColor" stroke-width="1.6"/><path d="M8.5 11V7.5a3.5 3.5 0 0 1 7 0V11" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>`;
   }
 
   function sectionHtml(sec) {
@@ -71,21 +56,16 @@
     if (el("#eg-revision-basis")) el("#eg-revision-basis").textContent = d.revisionBasis;
   }
 
-  /* ---------- Hero + pricing-banner buy buttons (single source of truth
-     for price/link is STRIPE_PAYMENT_LINK_URL/PRICE_DISPLAY above) ---------- */
-  function renderBuyButtons() {
-    const heroBtn = el("#eg-hero-buy-btn");
-    const heroLabel = el("#eg-hero-buy-label");
-    const bannerBtn = el("#eg-banner-buy-btn");
-    const bannerPrice = el("#eg-banner-price");
-    const href = STRIPE_PAYMENT_LINK_URL || `contact.html?matter=${encodeURIComponent("Commercial Eviction Handbook — full 50-state access")}`;
-    if (heroBtn) heroBtn.href = href;
-    if (heroLabel) heroLabel.textContent = `Unlock All 50 States — ${PRICE_DISPLAY}`;
-    if (bannerBtn) bannerBtn.href = href;
-    if (bannerPrice) bannerPrice.textContent = PRICE_DISPLAY;
+  /* ---------- Author byline (single source of truth: RELAW_DATA.author
+     in js/data.js, rendered via the shared helper in js/main.js) ---------- */
+  function renderByline() {
+    const host = el("#eg-byline-host");
+    if (host && window.RELAW_UTILS && window.RELAW_UTILS.bylineHtml) {
+      host.innerHTML = window.RELAW_UTILS.bylineHtml();
+    }
   }
 
-  /* ---------- Texas free sample ---------- */
+  /* ---------- Texas featured chapter ---------- */
   function renderTexas() {
     const tx = EVICTION_GUIDE_DATA.texasFull;
     const meta = EVICTION_GUIDE_DATA.states.find((s) => s.slug === EVICTION_GUIDE_DATA.freeStateSlug);
@@ -96,7 +76,7 @@
     }
   }
 
-  /* ---------- Locked state grid ---------- */
+  /* ---------- State grid (every other state) ---------- */
   function renderGrid() {
     const grid = el("#eg-state-grid");
     if (!grid) return;
@@ -111,7 +91,6 @@
             <span class="eg-state-card-class" style="color:${classificationColor(s.classification)};">${s.classification}</span>
           </div>
         </div>
-        ${lockIconHtml(false)}
       </button>`
       )
       .join("");
@@ -144,44 +123,6 @@
     panel._close = close;
   }
 
-  function setPendingState(slug) {
-    localStorage.setItem(PENDING_STATE_KEY, JSON.stringify({ slug, savedAt: Date.now() }));
-  }
-  function resumePendingStateIfAny() {
-    if (!window.RELAW_AUTH || !window.RELAW_AUTH.getSession()) return;
-    const raw = localStorage.getItem(PENDING_STATE_KEY);
-    if (!raw) return;
-    localStorage.removeItem(PENDING_STATE_KEY);
-    let parsed;
-    try { parsed = JSON.parse(raw); } catch (e) { return; }
-    if (!parsed || !parsed.slug || Date.now() - parsed.savedAt > PENDING_STATE_MAX_AGE_MS) return;
-    openStatePanel(parsed.slug);
-  }
-
-  function purchaseCardHtml(stateName) {
-    const buyBtn = STRIPE_PAYMENT_LINK_URL
-      ? `<a href="${STRIPE_PAYMENT_LINK_URL}" target="_blank" rel="noopener" class="btn btn-primary btn-sm">Unlock the Full Handbook</a>`
-      : `<a href="contact.html?matter=${encodeURIComponent("Commercial Eviction Handbook — full 50-state access")}" class="btn btn-primary btn-sm">Contact Us to Purchase</a>`;
-    return `
-      <div class="gate-card eg-purchase-card">
-        <div class="eyebrow" style="margin-bottom:8px;">Full Handbook Required</div>
-        <h3 style="margin-bottom:4px;">Unlock ${stateName} and all 50 states</h3>
-        <div class="eg-purchase-price">${PRICE_DISPLAY} <small>one-time</small></div>
-        <p class="text-secondary" style="font-size:13.5px; line-height:1.6; margin-bottom:18px;">Every jurisdiction, verified against primary sources — checkout with the same email as your CREdocket account so access unlocks automatically after purchase.</p>
-        ${buyBtn}
-      </div>`;
-  }
-
-  function signInCardHtml() {
-    return `
-      <div class="gate-card">
-        <div class="eyebrow" style="margin-bottom:8px;">Free account required</div>
-        <h3 style="margin-bottom:8px;">Sign in to unlock this chapter</h3>
-        <p class="text-secondary" style="font-size:13.5px; line-height:1.6; margin-bottom:16px;">The Texas chapter is free for everyone — every other state requires a free account and the full handbook purchase.</p>
-        <button type="button" class="btn btn-primary btn-sm" id="eg-signin-btn">Sign in to continue</button>
-      </div>`;
-  }
-
   async function openStatePanel(slug) {
     buildPanel();
     const meta = EVICTION_GUIDE_DATA.states.find((s) => s.slug === slug);
@@ -197,7 +138,7 @@
       <h2>${meta.name}</h2>
       ${badgeHtml(meta.classification)}
       <div class="rule mt-24" style="margin-bottom:24px;"></div>
-      <div id="eg-panel-content"><div class="gate-card is-loading">Checking access…</div></div>
+      <div id="eg-panel-content"><div class="gate-card is-loading">Loading chapter…</div></div>
     `;
     document.getElementById("eg-close-btn").addEventListener("click", panel._close);
     overlay.classList.add("open");
@@ -205,18 +146,8 @@
     document.body.style.overflow = "hidden";
 
     const contentSlot = document.getElementById("eg-panel-content");
-    const session = window.RELAW_AUTH && window.RELAW_AUTH.getSession();
-
-    if (!window.RELAW_AUTH || !sb) {
-      contentSlot.innerHTML = purchaseCardHtml(meta.name);
-      return;
-    }
-    if (!session) {
-      contentSlot.innerHTML = signInCardHtml();
-      document.getElementById("eg-signin-btn").addEventListener("click", () => {
-        setPendingState(slug);
-        window.RELAW_AUTH.openSignInModal();
-      });
+    if (!sb) {
+      contentSlot.innerHTML = `<div class="gate-card"><p class="text-secondary" style="font-size:13.5px;">Couldn't load this chapter — try refreshing the page.</p></div>`;
       return;
     }
 
@@ -232,22 +163,15 @@
         contentSlot.innerHTML = chapterContentHtml(data.blurb, data.sections);
         if (window.RELAW_UTILS.linkifyGlossaryTerms) window.RELAW_UTILS.linkifyGlossaryTerms(contentSlot);
       } else {
-        contentSlot.innerHTML = purchaseCardHtml(meta.name);
+        contentSlot.innerHTML = `<div class="gate-card"><p class="text-secondary" style="font-size:13.5px;">This chapter isn't available yet — check back soon.</p></div>`;
       }
     } catch (err) {
-      contentSlot.innerHTML = `<div class="gate-card"><div class="eyebrow" style="margin-bottom:8px;">Something went wrong</div><p class="text-secondary" style="font-size:13.5px;">${(err && err.message) || "Couldn't check access — try reopening this chapter."}</p></div>`;
+      contentSlot.innerHTML = `<div class="gate-card"><div class="eyebrow" style="margin-bottom:8px;">Something went wrong</div><p class="text-secondary" style="font-size:13.5px;">${(err && err.message) || "Couldn't load this chapter — try reopening it."}</p></div>`;
     }
   }
 
   renderMeta();
-  renderBuyButtons();
+  renderByline();
   renderTexas();
   renderGrid();
-
-  // Resume an intended state after a sign-in redirect, same pattern as
-  // the case-detail pending flow in auth.js but scoped to this page.
-  if (sb) {
-    sb.auth.onAuthStateChange(() => resumePendingStateIfAny());
-    setTimeout(resumePendingStateIfAny, 400);
-  }
 })();

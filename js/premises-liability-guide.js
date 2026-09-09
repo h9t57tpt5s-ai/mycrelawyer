@@ -185,6 +185,16 @@
     document.body.style.overflow = "hidden";
   }
 
+  /* ---------- Author byline (single source of truth: RELAW_DATA.author
+     in js/data.js, rendered via the shared helper in js/main.js) ---------- */
+  function renderByline() {
+    const host = el("#pl-byline-host");
+    if (host && window.RELAW_UTILS && window.RELAW_UTILS.bylineHtml) {
+      host.innerHTML = window.RELAW_UTILS.bylineHtml();
+    }
+  }
+
+  renderByline();
   renderLegend();
   renderGrid();
 })();
