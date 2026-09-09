@@ -40,6 +40,13 @@
 //        x-signup-webhook-secret: <the same random string>
 //   5. Save. Test it by signing up a throwaway test account and
 //      confirming the email arrives.
+//
+// FALLBACK if the Webhooks UI fails with "schema supabase_functions
+// does not exist": that means this project is missing an internal
+// schema the dashboard feature depends on. Skip the dashboard UI
+// entirely and run trigger.sql (same directory) in the SQL Editor
+// instead -- it wires up the identical behavior directly via pg_net,
+// with no dependency on the broken schema.
 // =========================================================
 
 const RESEND_API_KEY = Deno.env.get("RESEND_API_KEY") ?? "";
