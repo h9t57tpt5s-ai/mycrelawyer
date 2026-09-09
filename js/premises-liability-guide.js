@@ -106,10 +106,23 @@
     return `
       <div class="gate-card">
         <div class="eyebrow" style="margin-bottom:8px;">Free account required</div>
-        <h3 style="margin-bottom:8px;">Sign in to read this chapter</h3>
+        <h3 style="margin-bottom:8px;">Sign in to read the rest of this chapter</h3>
         <p class="text-secondary" style="font-size:13.5px; line-height:1.6; margin-bottom:16px;">This guide is free with a CREdocket account — no purchase required.</p>
         <button type="button" class="btn btn-primary btn-sm pl-signin-btn">Sign in to continue</button>
       </div>`;
+  }
+
+  /* A visitor should see real, substantive proof of quality before being
+     asked to sign in -- not just a state name and a fault-rule badge.
+     This data is already fully public (embedded in case-valuation-
+     data.js), so compose a genuine one-sentence teaser from it rather
+     than showing nothing. */
+  function previewTeaserHtml(m) {
+    if (!m.faultRule && !m.visitorClassificationSystem) return "";
+    const parts = [];
+    if (m.faultRule) parts.push(`applies a <strong>${m.faultRule}</strong> comparative/contributory-fault rule`);
+    if (m.visitorClassificationSystem) parts.push(`uses the <strong>${m.visitorClassificationSystem}</strong> visitor-classification system`);
+    return `<div class="eg-chapter-blurb">This state ${parts.join(" and ")}. The full chapter below covers elements to prove, notice and open-and-obvious doctrine, attractive nuisance, negligent security, and the punitive-damages standard.</div>`;
   }
 
   function buildSectionsHtml(m) {
@@ -217,7 +230,7 @@
 
     const contentSlot = document.getElementById("pl-panel-content");
     if (!hasSession()) {
-      contentSlot.innerHTML = signInCardHtml();
+      contentSlot.innerHTML = previewTeaserHtml(m) + signInCardHtml();
       const btn = contentSlot.querySelector(".pl-signin-btn");
       if (btn) btn.addEventListener("click", () => {
         setPendingState(name);

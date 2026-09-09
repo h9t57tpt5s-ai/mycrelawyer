@@ -55,10 +55,29 @@
     return `
       <div class="gate-card">
         <div class="eyebrow" style="margin-bottom:8px;">Free account required</div>
-        <h3 style="margin-bottom:8px;">Sign in to read this chapter</h3>
+        <h3 style="margin-bottom:8px;">Sign in to read the rest of this chapter</h3>
         <p class="text-secondary" style="font-size:13.5px; line-height:1.6; margin-bottom:16px;">${promptText || "The full handbook is free with a CREdocket account — no purchase required."}</p>
         <button type="button" class="btn btn-primary btn-sm eg-signin-btn">Sign in to continue</button>
       </div>`;
+  }
+
+  /* A visitor should see real, substantive proof of quality before being
+     asked to sign in -- not just a name and a badge. Every chapter's
+     one-sentence `blurb` is public (see
+     handbook_project/schema_eviction_guide_preview_view.sql), so fetch
+     it via that narrow view regardless of session state. */
+  async function fetchPreviewBlurb(slug) {
+    if (!sb) return null;
+    try {
+      const { data } = await sb
+        .from("eviction_guide_chapter_previews")
+        .select("blurb")
+        .eq("slug", slug)
+        .maybeSingle();
+      return (data && data.blurb) || null;
+    } catch (err) {
+      return null;
+    }
   }
 
   /* ---------- Static text (title/subtitle/scope/disclaimer) ---------- */
@@ -157,7 +176,10 @@
     const contentSlot = document.getElementById("eg-panel-content");
 
     if (!hasSession()) {
-      contentSlot.innerHTML = signInCardHtml();
+      const previewBlurb = await fetchPreviewBlurb(slug);
+      if (!panel.classList.contains("open")) return; // panel moved on
+      const previewHtml = previewBlurb ? `<div class="eg-chapter-blurb">${previewBlurb}</div>` : "";
+      contentSlot.innerHTML = previewHtml + signInCardHtml();
       const btn = contentSlot.querySelector(".eg-signin-btn");
       if (btn) btn.addEventListener("click", () => {
         setPendingState(slug);
