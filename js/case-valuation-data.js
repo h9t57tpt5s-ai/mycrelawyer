@@ -122,11 +122,16 @@ const CASE_VALUATION_DATA = {
               0.9
             ],
             "damages": {
-              "formula": "propertyDamageAmount * (1 - normalWearHaircut)",
+              "formula": "isCapitalItemDamage ? propertyDamageAmount * (1 - capitalItemHaircut) : propertyDamageAmount * (1 - normalWearHaircut)",
               "normalWearHaircut": [
                 0.1,
                 0.2
-              ]
+              ],
+              "capitalItemHaircut": [
+                0.1,
+                0.4
+              ],
+              "note": "ADDED (round-2 research): a single 10-20% haircut is a reasonable fit for ordinary interior/cosmetic damage (walls, doors, ceilings -- the Polster-type fact pattern), but understates the discount that actually applies to capital/structural building-system components (roofs, HVAC, major equipment) nearing the end of their useful life, where courts have capped a landlord's recovery at diminution in value rather than replacement cost (Founders Bank of Arizona v. Chrysler Realty Corp.; SDR Associates v. ARG Enterprises), and tenants have won outright where the item was genuinely at end-of-life or the damage occurred outside the lease term (Dorian v. S.S. Restaurant Corp.; Kanner v. Globe Bottling Co.). isCapitalItemDamage is a fact the intake flow does not yet collect -- until it does, apply the wider capitalItemHaircut range by counsel judgment wherever the claimed damage is to a major building system rather than ordinary interior finish."
             }
           },
           "wrongful_lockout": {
@@ -161,12 +166,12 @@ const CASE_VALUATION_DATA = {
             "label": "Tortious Interference with Contract (Lost Profits)",
             "appliesIf": "selfHelpUsed && selfHelpDisruptedThirdPartyContracts && lostProfitsFromInterference > 0",
             "baseProbability": [
-              0.25,
-              0.55
+              0.15,
+              0.4
             ],
             "damages": {
               "formula": "lostProfitsFromInterference * [0.4, 0.9]",
-              "note": "A separate theory from the wrongful-lockout claim: if the lockout disrupted the tenant's contracts with its own customers, suppliers, or employees (not just its occupancy), that can independently support tortious interference with contract and open a distinct lost-profits exposure to the landlord. Requires proving intent/improper means and a specific disrupted business expectancy -- fact-intensive; flagged per counsel-of-record review as a real potential landlord liability where self-help is threatened or used, not yet grounded to a specific case citation."
+              "note": "A separate theory from the wrongful-lockout claim: if the lockout disrupted the tenant's contracts with its own customers, suppliers, or employees (not just its occupancy), that can independently support tortious interference with contract and open a distinct lost-profits exposure to the landlord. Requires proving intent/improper means and a specific disrupted business expectancy -- fact-intensive. LOWERED (round-2 research) from the original [0.25, 0.55] to [0.15, 0.4]: real cases squarely on this fact pattern (a lockout disrupting the tenant's own third-party deal) consistently show the tenant LOSING, because courts require proof of conduct beyond ordinary economic self-interest -- see Nolan v. Edison Property Investing, LLC (N.Y. App. Div., 2d Dep't 2026), where summary judgment for the landlord was affirmed on nearly identical facts for exactly that reason. COUNSEL FLAG, not independently verified against the full primary opinion this round: the file's own existing K&K Management, Inc. v. Chul Woo Lee, 316 Md. 137 (1989) citation may on closer reading cut AGAINST this claim type generally -- secondary summaries describe its holding as barring tortious-interference liability where the interference with the plaintiff's other relationships is merely incidental to that same contract's breach, which describes most self-help-lockout fact patterns (the tenant's disrupted customer/supplier/employee relationships are arguably incidental to the landlord's own lockout/breach, not independent conduct). If confirmed, this claim type may deserve an explicit qualifier requiring interference beyond what is incidental to the tenancy's own termination -- verify before relying on either reading. The damages multiplier [0.4, 0.9] remains a modeling heuristic with no citation-backed grounding found in this or the prior research round."
             }
           },
           "quiet_enjoyment_breach": {
@@ -495,9 +500,14 @@ const CASE_VALUATION_DATA = {
               0.35,
               0.6
             ],
-            "note": "Sample expanded from 2 to 4 citations, but still too thin/mixed to refine the base rate with real confidence: two (Princeton/TWBTA, Clark Construction/Perkins Eastman) have undisclosed final outcomes; the two with confirmed outcomes are close to opposite poles -- Yakima School District/KDA is a confirmed $1.7M cash settlement, while MIT/Gehry (Stata Center) settled for confirmed $0 direct cash to the owner despite well-documented, expensive defects. That split is itself informative (design-malpractice claims against reputationally strong architects can resolve without a cash recovery even on strong facts) but isn't enough data points to justify moving the probability range -- kept at the original preliminary estimate.",
+            "note": "Sample expanded from 2 to 4 citations, but still too thin/mixed to refine the base rate with real confidence: two (Princeton/TWBTA, Clark Construction/Perkins Eastman) have undisclosed final outcomes; the two with confirmed outcomes are close to opposite poles -- Yakima School District/KDA is a confirmed $1.7M cash settlement, while MIT/Gehry (Stata Center) settled for confirmed $0 direct cash to the owner despite well-documented, expensive defects. That split is itself informative (design-malpractice claims against reputationally strong architects can resolve without a cash recovery even on strong facts) but isn't enough data points to justify moving the probability range -- kept at the original preliminary estimate. UPDATED (round-2 research): 5 more citations were added, all with CONFIRMED final dollar outcomes ($100K-$106M), bringing the claim type to 7 of 15 total citations with a confirmed resolution rather than 2 of 10 -- every one of the 5 involved an actual payment, which alongside the file's own MIT/Gehry $0 counterexample still supports this baseProbability range as a reasonably calibrated wide band. See the new catastrophicLifeSafetyFailure tier below, added because two of those confirmed outcomes are large enough to establish this claim type can clearly reach a catastrophic-collapse damages tier, not just an ordinary repair/redesign-cost estimate.",
             "damages": {
-              "formula": "repairAndRedesignCostEstimate"
+              "formula": "repairAndRedesignCostEstimate",
+              "tiers": {
+                "catastrophicLifeSafetyFailure": {
+                  "note": "ADDED (round-2 research), mirroring contractor_breach_negligence's existing tier: where a design error contributes to a structural collapse or other life-safety failure, confirmed settlements run far above an ordinary redesign-cost estimate -- I-35W bridge collapse litigation v. URS Corporation ($52.4M confirmed settlement, MN 2010) and the Hard Rock Hotel New Orleans collapse litigation ($106M confirmed global settlement, LA 2026, though not broken out per defendant). These anchor the top of a valuation range for a collapse fact pattern, not the median -- most design-malpractice claims should still use the base repairAndRedesignCostEstimate formula."
+                }
+              }
             }
           },
           "indemnification_contribution_claim": {
@@ -690,7 +700,7 @@ const CASE_VALUATION_DATA = {
             "side": "sideA",
             "label": "Attorney's Fees (Fee-Shifting)",
             "appliesIf": "estimatedAwardExceedsOfferByStatutoryThresholdPct",
-            "note": "State-specific fee-shifting statute (see eminentDomainAttorneyFees, 51-jurisdiction research) -- only modeled as a dollar claim where the state's rule is a clean percentage-above-the-offer threshold; every other state's real, cited rule is still surfaced in the valuation note even when not mechanized into its own claim.",
+            "note": "State-specific fee-shifting statute (see eminentDomainAttorneyFees, 51-jurisdiction research) -- only modeled as a dollar claim where the state's rule is a clean percentage-above-the-offer threshold; every other state's real, cited rule is still surfaced in the valuation note even when not mechanized into its own claim. FEDERAL-CONDEMNOR CARVE-OUT (round-2 research, pending SCOTUS): where the condemnor is exercising FEDERAL eminent-domain authority delegated by statute (e.g., an interstate pipeline condemning under the Natural Gas Act, or another federally-licensed condemnor), the Eighth Circuit has held state fee-shifting statutes do NOT apply at all -- see WBI Energy Transmission, Inc. v. 189.9 Rods of Land (8th Cir. 2025). The U.S. Supreme Court has granted certiorari on exactly this question in Hoffmann v. WBI Energy Transmission (argument set for Nov. 9, 2026; decision expected after). This claim type's fee-shifting formula should NOT be applied to a federal-authority condemnation, or should be applied only with a strong caveat, until that decision comes down.",
             "damages": {
               "formula": "fraction of (estimatedAward - initialOffer), using the state's own statutory cap fraction where the research found one, else a general reasonable-fees proxy"
             }
