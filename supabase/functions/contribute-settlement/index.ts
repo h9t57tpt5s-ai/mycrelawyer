@@ -32,7 +32,14 @@
 //   -> Code tab -> select all, delete, paste this file's contents, deploy.
 // Secrets: reuses the same project-wide ANTHROPIC_API_KEY as
 //   case-valuation-analyze. SUPABASE_URL / SUPABASE_SERVICE_ROLE_KEY are
-//   injected automatically.
+//   injected automatically. Also needs RESEND_API_KEY -- the SAME Resend
+//   API key already configured as the SMTP password for Supabase Auth's
+//   magic-link emails (Sending access, restricted to the credocket.com
+//   domain) -- add it as a NEW Edge Function secret under this name; it's
+//   not automatically shared from the Auth SMTP settings. Used via
+//   Resend's REST API (not SMTP) to notify the admin of a new submission.
+//   Missing/invalid key fails silently -- a notification email is a
+//   nice-to-have, never a reason to fail the submission itself.
 // Schema: run case_valuation_project/schema_settlement_contributions.sql
 //   in the Supabase SQL Editor before deploying this function.
 // =========================================================
@@ -41,6 +48,9 @@ import { createClient } from "npm:@supabase/supabase-js@2";
 import Anthropic from "npm:@anthropic-ai/sdk@0.120";
 
 const ANTHROPIC_API_KEY = Deno.env.get("ANTHROPIC_API_KEY") ?? "";
+const RESEND_API_KEY = Deno.env.get("RESEND_API_KEY") ?? "";
+const NOTIFY_EMAIL = "jeffnovel@icloud.com";
+const SENDER_EMAIL = "no-reply@credocket.com"; // same verified-domain sender as the Auth magic-link emails
 const EXTRACTION_MODEL = "claude-haiku-4-5";
 const MAX_DOC_CHARS = 40000; // per document — a settlement agreement and a petition are rarely longer than this
 const DAILY_SUBMISSION_CAP = 10;
@@ -50,6 +60,44 @@ const supabaseAdmin = createClient(
   Deno.env.get("SUPABASE_SERVICE_ROLE_KEY") ?? "",
 );
 const anthropic = ANTHROPIC_API_KEY ? new Anthropic({ apiKey: ANTHROPIC_API_KEY }) : null;
+
+// Best-effort review-queue notification via Resend's REST API. Deliberately
+// NOT allowed to fail the submission: a contributor's upload already
+// succeeded and is sitting safely in the queue by the time this is called,
+// so a bad/missing RESEND_API_KEY or a transient Resend outage should never
+// turn into a 500 for the person contributing data.
+async function sendReviewNotification(item: {
+  id: number; category: unknown; jurisdiction: unknown; claimedAmount: unknown; settledAmount: unknown; flagged: boolean;
+}) {
+  if (!RESEND_API_KEY) return;
+  const fmt = (n: unknown) => typeof n === "number" ? "$" + n.toLocaleString("en-US") : "—";
+  try {
+    await fetch("https://api.resend.com/emails", {
+      method: "POST",
+      headers: { "Authorization": `Bearer ${RESEND_API_KEY}`, "Content-Type": "application/json" },
+      body: JSON.stringify({
+        from: `CREdocket <${SENDER_EMAIL}>`,
+        to: [NOTIFY_EMAIL],
+        subject: item.flagged
+          ? `[Flagged] New settlement contribution #${item.id} needs review`
+          : `New settlement contribution #${item.id} submitted for review`,
+        text: [
+          "A new settlement contribution was submitted.",
+          "",
+          `Category: ${item.category || "unclear"}`,
+          `Jurisdiction: ${item.jurisdiction || "unclear"}`,
+          `Claimed: ${fmt(item.claimedAmount)}`,
+          `Settled: ${fmt(item.settledAmount)}`,
+          item.flagged ? "\n⚠️ The automated confidentiality scan flagged this one — review the flag reason in the queue before approving." : "",
+          "",
+          "Review it here: https://credocket.com/admin-settlement-review.html",
+        ].join("\n"),
+      }),
+    });
+  } catch {
+    // Swallowed on purpose -- see the function comment above.
+  }
+}
 
 const CORS_HEADERS: Record<string, string> = {
   "Access-Control-Allow-Origin": "*",
@@ -240,6 +288,15 @@ Deno.serve(async (req) => {
   if (insertError) {
     return jsonResponse({ error: "Could not save your submission — try again.", detail: insertError.message }, 500);
   }
+
+  await sendReviewNotification({
+    id: inserted.id,
+    category: extracted.category,
+    jurisdiction: extracted.jurisdiction,
+    claimedAmount: extracted.claimedAmount,
+    settledAmount: extracted.settledAmount,
+    flagged: scan.detected,
+  });
 
   return jsonResponse({
     id: inserted.id,
