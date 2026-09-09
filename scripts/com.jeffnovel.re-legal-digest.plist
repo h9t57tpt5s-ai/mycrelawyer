@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.jeffnovel.re-legal-digest</string>
+
+    <key>ProgramArguments</key>
+    <array>
+        <string>/bin/bash</string>
+        <string>/Users/jeffnovel/RELAW/scripts/run-re-digest.sh</string>
+    </array>
+
+    <!-- Runs at 10:00am and 4:00pm local time (moved off 7am/5pm — Mac is usually asleep then) -->
+    <key>StartCalendarInterval</key>
+    <array>
+        <dict>
+            <key>Hour</key>
+            <integer>10</integer>
+            <key>Minute</key>
+            <integer>0</integer>
+        </dict>
+        <dict>
+            <key>Hour</key>
+            <integer>16</integer>
+            <key>Minute</key>
+            <integer>0</integer>
+        </dict>
+    </array>
+
+    <key>RunAtLoad</key>
+    <false/>
+
+    <key>StandardOutPath</key>
+    <string>/Users/jeffnovel/RELAW/scripts/logs/launchd.out.log</string>
+    <key>StandardErrorPath</key>
+    <string>/Users/jeffnovel/RELAW/scripts/logs/launchd.err.log</string>
+</dict>
+</plist>
