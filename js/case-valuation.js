@@ -631,6 +631,49 @@
       </div>`;
   }
 
+  // Preserved analysis fragments across "Add More Information" follow-ups
+  // (oldest first) -- each entry is the full result HTML from a prior
+  // pass, kept so a follow-up analysis never erases what came before it.
+  // Reset to [] whenever a genuinely new, independent analysis starts
+  // (the main "Analyze Documents" button), since that's an unrelated case.
+  let resultHistory = [];
+
+  function historyHtml() {
+    if (!resultHistory.length) return "";
+    return resultHistory.map((html, i) => `
+      <details class="cv-history-entry">
+        <summary>Previous analysis${resultHistory.length > 1 ? ` #${i + 1}` : ""} (before additional information was added)</summary>
+        <div class="cv-history-body">${html}</div>
+      </details>`).join("");
+  }
+
+  function followupFormHtml() {
+    return `
+      <div class="card cv-followup-card" style="padding:20px; margin-top:16px; border-style:dashed;">
+        <div class="eyebrow" style="margin-bottom:8px;">Add More Information</div>
+        <p class="text-secondary" style="font-size:13px; line-height:1.6; margin-bottom:14px;">Have another document, a new ruling, or updated facts? Add it below for an updated analysis — everything above stays saved, not overwritten.</p>
+        <div class="cv-ai-dropzone" id="cv-followup-dropzone">
+          <input type="file" id="cv-followup-file" accept=".pdf,.docx,.txt" multiple style="display:none;" />
+          <div class="cv-ai-dropzone-inner">
+            <svg viewBox="0 0 24 24" fill="none" width="26" height="26"><path d="M12 3v12m0 0l-4-4m4 4l4-4M5 21h14" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            <p><strong>Drop additional documents here</strong> or <button type="button" class="text-accent" id="cv-followup-browse-btn" style="background:none; border:none; padding:0; font:inherit; cursor:pointer; text-decoration:underline;">browse files</button></p>
+            <p class="text-muted" style="font-size:12px;">PDF, .docx, or .txt</p>
+          </div>
+          <div class="cv-ai-filelist" id="cv-followup-filelist"></div>
+        </div>
+        <div class="cv-field">
+          <label for="cv-followup-pastetext">Or paste additional text</label>
+          <textarea id="cv-followup-pastetext" rows="3" placeholder="What's new — a ruling, a new document, updated settlement posture…"></textarea>
+        </div>
+        <button type="button" class="btn btn-primary btn-sm" id="cv-followup-analyze-btn">
+          Update Analysis With New Information
+          <svg viewBox="0 0 24 24" fill="none" width="16" height="16"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </button>
+        <p class="text-muted" style="font-size:11.5px; margin-top:8px;">Uses 1 analysis credit, same as a new analysis.</p>
+        <div id="cv-followup-status" class="cv-ai-status"></div>
+      </div>`;
+  }
+
   function uploadZoneHtml(bal) {
     return `
       <div class="card cv-upload-card" style="padding:20px; margin-bottom:20px;">
@@ -725,7 +768,15 @@
       </div>`;
   }
 
-  function renderAiResult(json, slug, emptyFiles) {
+  // Holds just the most recent fresh analysis fragment (not the history
+  // wrapper, not the follow-up form) so the NEXT render can archive it
+  // into resultHistory before replacing it -- kept separate from
+  // resultHistory itself so archiving never nests an old follow-up form
+  // or an old history block inside a new history entry.
+  let lastFreshFragmentHtml = "";
+
+  function renderAiResult(json, slug, emptyFiles, followupContext) {
+    if (lastFreshFragmentHtml) resultHistory.push(lastFreshFragmentHtml);
     const a = json.analysis || {};
     const facts = json.extractedFacts || {};
     const baseline = a.baseline || {};
@@ -754,7 +805,7 @@
       ? `<div class="cv-claims" style="margin-top:12px;">${baseline.claims.map(claimResultHtml).join("")}</div>`
       : `<p class="text-muted" style="font-size:12.5px;">The fixed-formula baseline model found no matching claims from the extracted checkbox-style facts — the AI's own analysis above reads the actual document, not just this baseline.</p>`;
 
-    resultsHost.innerHTML = `
+    const freshFragmentHtml = `
       ${emptyFilesHtml}
       <div class="cv-summary card">
         <div class="eyebrow" style="margin-bottom:8px;">AI Analysis — Probability-Weighted Prediction${a.roleLabel ? ` — ${a.roleLabel} view` : ""}</div>
@@ -781,6 +832,9 @@
       </div>
       <p class="text-muted" style="font-size:12px; margin-top:14px;">This is a probability-weighted prediction generated from the documents you provided, not a legal opinion, adjudication, or substitute for counsel.</p>`;
 
+    lastFreshFragmentHtml = freshFragmentHtml;
+    resultsHost.innerHTML = historyHtml() + freshFragmentHtml + followupFormHtml();
+
     const downloadBtn = document.getElementById("cv-download-report");
     if (downloadBtn && window.CV_REPORT) {
       downloadBtn.addEventListener("click", () => {
@@ -804,6 +858,168 @@
         });
       });
     }
+
+    if (followupContext) wireFollowupForm(slug, followupContext.documentText, followupContext.userSide);
+  }
+
+  // Wires the "Add More Information" form that renderAiResult appends
+  // after every result. Combines the newly provided text/files with
+  // everything already analyzed (priorDocumentText) and re-runs a full
+  // analysis over the combined set -- renderAiResult itself archives the
+  // just-superseded result into resultHistory before replacing it, so
+  // nothing already shown is lost.
+  function wireFollowupForm(slug, priorDocumentText, priorUserSide) {
+    const SPINNER = `<span class="cv-spinner" aria-hidden="true"></span>`;
+    const dropzone = document.getElementById("cv-followup-dropzone");
+    const fileInput = document.getElementById("cv-followup-file");
+    const browseBtn = document.getElementById("cv-followup-browse-btn");
+    const filelistEl = document.getElementById("cv-followup-filelist");
+    const pasteEl = document.getElementById("cv-followup-pastetext");
+    const analyzeBtn = document.getElementById("cv-followup-analyze-btn");
+    const statusEl = document.getElementById("cv-followup-status");
+    if (!dropzone || !analyzeBtn) return;
+
+    let followupFiles = [];
+
+    function setFollowupStatus(text, opts) {
+      opts = opts || {};
+      statusEl.className = "cv-ai-status" + (opts.error ? " is-error" : "");
+      statusEl.innerHTML = opts.spinner ? SPINNER : "";
+      if (text) {
+        const span = document.createElement("span");
+        span.textContent = text;
+        statusEl.appendChild(span);
+      }
+    }
+
+    browseBtn.addEventListener("click", () => fileInput.click());
+    fileInput.addEventListener("change", () => {
+      followupFiles = followupFiles.concat(Array.from(fileInput.files || []));
+      renderFileList(filelistEl, followupFiles);
+    });
+    ["dragenter", "dragover"].forEach((evt) =>
+      dropzone.addEventListener(evt, (e) => { e.preventDefault(); dropzone.classList.add("is-dragover"); })
+    );
+    ["dragleave", "drop"].forEach((evt) =>
+      dropzone.addEventListener(evt, (e) => { e.preventDefault(); dropzone.classList.remove("is-dragover"); })
+    );
+    dropzone.addEventListener("drop", (e) => {
+      const dropped = Array.from((e.dataTransfer && e.dataTransfer.files) || []);
+      if (dropped.length) {
+        followupFiles = followupFiles.concat(dropped);
+        renderFileList(filelistEl, followupFiles);
+      }
+    });
+    filelistEl.addEventListener("click", (e) => {
+      const btn = e.target.closest(".cv-ai-file-remove");
+      if (!btn) return;
+      followupFiles.splice(parseInt(btn.getAttribute("data-idx"), 10), 1);
+      renderFileList(filelistEl, followupFiles);
+    });
+
+    const analyzeBtnOriginalHtml = analyzeBtn.innerHTML;
+
+    analyzeBtn.addEventListener("click", async () => {
+      if (!followupFiles.length && !pasteEl.value.trim()) {
+        setFollowupStatus("Add at least one file or paste some new text first.", { error: true });
+        return;
+      }
+      analyzeBtn.disabled = true;
+      analyzeBtn.innerHTML = `${SPINNER}<span>Analyzing…</span>`;
+      try {
+        const sections = [];
+        const emptyFiles = [];
+        for (let i = 0; i < followupFiles.length; i++) {
+          const f = followupFiles[i];
+          setFollowupStatus(`Extracting text (${i + 1} of ${followupFiles.length}: ${f.name})…`, { spinner: true });
+          const text = await extractText(f);
+          if (text) sections.push(`=== New Document ${i + 1}: ${f.name} ===\n${text}`);
+          else emptyFiles.push(f.name);
+        }
+        if (pasteEl.value.trim()) sections.push(`=== New Information (pasted) ===\n${pasteEl.value.trim()}`);
+        const newInfoText = sections.join("\n\n");
+        if (!newInfoText) {
+          const which = emptyFiles.length ? ` (${emptyFiles.join(", ")})` : "";
+          throw new Error(
+            emptyFiles.length
+              ? `No text could be read from ${emptyFiles.length === 1 ? "this file" : "these files"}${which} — this usually means it's a scanned or image-only PDF. Try a text-based copy, or paste the text directly instead.`
+              : "No new text to add — try pasting the text directly instead."
+          );
+        }
+
+        // Combine with everything already analyzed. If the total would
+        // exceed the same cap the initial analysis uses, trim from the
+        // OLDER material first, not the new addition -- new information
+        // is the entire point of this request, so it should never be
+        // the part silently dropped.
+        const header = "\n\n=== Additional Information (added after the initial analysis) ===\n";
+        const roomForPrior = MAX_DOC_CHARS - header.length - newInfoText.length;
+        let combinedText;
+        if (roomForPrior < 0) {
+          combinedText = newInfoText.slice(0, MAX_DOC_CHARS);
+        } else {
+          const trimmedPrior = priorDocumentText.length > roomForPrior ? priorDocumentText.slice(0, roomForPrior) : priorDocumentText;
+          combinedText = trimmedPrior + header + newInfoText;
+        }
+
+        const { data: { session } } = await sb.auth.getSession();
+        if (!session) throw new Error("Your session expired — sign in again and retry.");
+
+        const costFacts = collectCostFacts();
+        const waitMessages = [
+          "Analyzing… (reading the full, updated document set)",
+          "Still analyzing — reasoning through the claims and defenses can take a minute or more…",
+          "Still working — a thorough analysis of a long document can take a couple of minutes…",
+        ];
+        let waitStep = 0;
+        setFollowupStatus(waitMessages[0], { spinner: true });
+        const waitTimer = setInterval(() => {
+          waitStep = Math.min(waitStep + 1, waitMessages.length - 1);
+          setFollowupStatus(waitMessages[waitStep], { spinner: true });
+        }, 25000);
+        let resp;
+        try {
+          resp = await fetch(ANALYZE_FN_URL, {
+            method: "POST",
+            headers: {
+              "Content-Type": "application/json",
+              "Authorization": `Bearer ${session.access_token}`,
+              "apikey": SUPABASE_PUBLISHABLE_KEY
+            },
+            body: JSON.stringify({
+              documentText: combinedText,
+              category: slug,
+              userSide: priorUserSide,
+              expectToTrial: !!costFacts.expectToTrial,
+              settlementOnTable: costFacts.settlementOnTable || null
+            })
+          });
+        } finally {
+          clearInterval(waitTimer);
+        }
+        const json = await resp.json().catch(() => ({}));
+
+        if (resp.ok && json && json.analysis) {
+          setFollowupStatus("");
+          renderAiResult(json, slug, emptyFiles, { documentText: combinedText, userSide: priorUserSide });
+          resultsHost.scrollIntoView({ behavior: "smooth", block: "start" });
+          return;
+        }
+
+        if (resp.status === 402) {
+          const bal = await getCreditBalance();
+          setFollowupStatus("");
+          statusEl.innerHTML = noCreditsCardHtml(bal || { total: 0, used: 0 });
+        } else {
+          setFollowupStatus((json && json.error) || "Something went wrong updating the analysis — try again.", { error: true });
+        }
+      } catch (err) {
+        setFollowupStatus(err.message || "Something went wrong — try again.", { error: true });
+      } finally {
+        analyzeBtn.disabled = false;
+        analyzeBtn.innerHTML = analyzeBtnOriginalHtml;
+      }
+    });
   }
 
   function wireUploadZone(bal) {
@@ -869,6 +1085,12 @@
       const slug = catSelect.value;
       if (!slug) { setStatus("Select a litigation category first.", { error: true }); return; }
       if (!chosenFiles.length && !pasteEl.value.trim()) { setStatus("Upload at least one file or paste the document text first.", { error: true }); return; }
+
+      // A fresh run from the main upload zone is a new, unrelated matter --
+      // clear any "Add More Information" history from a previous case so
+      // it doesn't carry over and get shown alongside this one.
+      resultHistory = [];
+      lastFreshFragmentHtml = "";
 
       // renderUploadZone() in the finally block below fully re-renders
       // this button from uploadZoneHtml() once the request settles, so
@@ -967,7 +1189,7 @@
         // analysis back," not resp.ok alone.
         if (resp.ok && json && json.analysis) {
           setStatus("");
-          renderAiResult(json, slug, emptyFiles);
+          renderAiResult(json, slug, emptyFiles, { documentText, userSide: sideSelect.dataset.userChosen ? sideSelect.value : null });
           resultsHost.scrollIntoView({ behavior: "smooth", block: "start" });
           return;
         }

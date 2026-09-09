@@ -84,6 +84,15 @@
 .cv-ai-status { font-size: 12.5px; color: var(--text-muted); margin-top: 10px; min-height: 16px; display: flex; align-items: center; gap: 8px; }
 .cv-ai-status.is-error { color: var(--status-appeal, #d94949); font-weight: 600; }
 
+/* ---- "Add More Information" follow-up + preserved history ---- */
+.cv-history-entry { border: 1px solid var(--border); border-radius: 10px; margin-bottom: 16px; background: var(--bg-elevated); overflow: hidden; }
+.cv-history-entry summary { padding: 12px 16px; font-size: 13px; font-weight: 600; color: var(--text-secondary); cursor: pointer; list-style: none; display: flex; align-items: center; gap: 8px; }
+.cv-history-entry summary::before { content: "▸"; color: var(--text-muted); transition: transform 0.15s; }
+.cv-history-entry[open] summary::before { transform: rotate(90deg); }
+.cv-history-entry summary::-webkit-details-marker { display: none; }
+.cv-history-body { padding: 4px 16px 16px; opacity: 0.85; }
+.cv-followup-card { background: var(--bg-elevated); }
+
 /* A real spinning indicator, not just text that changes every 25s -- a
    long-running analysis needs something moving on screen the whole time,
    or it reads as broken well before it actually is. currentColor-based so
