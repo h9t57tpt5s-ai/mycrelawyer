@@ -303,6 +303,11 @@ h3, .h3 {
      mid-width laptop windows above this breakpoint too. */
   .brand small { display: none; }
   .nav-cta { gap: 12px; }
+  /* litigation.html's extra "Talk to us" CTA button doesn't fit alongside
+     the auth widget and hamburger toggle in the cramped mobile top bar --
+     it was clipping "Sign in" off-screen. Hide it here; the mobile
+     slide-in menu already has an equivalent "Contact" link. */
+  .nav-talk-btn { display: none; }
 }
 
 @media (max-width: 400px) {
