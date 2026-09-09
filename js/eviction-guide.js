@@ -71,6 +71,20 @@
     if (el("#eg-revision-basis")) el("#eg-revision-basis").textContent = d.revisionBasis;
   }
 
+  /* ---------- Hero + pricing-banner buy buttons (single source of truth
+     for price/link is STRIPE_PAYMENT_LINK_URL/PRICE_DISPLAY above) ---------- */
+  function renderBuyButtons() {
+    const heroBtn = el("#eg-hero-buy-btn");
+    const heroLabel = el("#eg-hero-buy-label");
+    const bannerBtn = el("#eg-banner-buy-btn");
+    const bannerPrice = el("#eg-banner-price");
+    const href = STRIPE_PAYMENT_LINK_URL || `contact.html?matter=${encodeURIComponent("Commercial Eviction Handbook — full 50-state access")}`;
+    if (heroBtn) heroBtn.href = href;
+    if (heroLabel) heroLabel.textContent = `Unlock All 50 States — ${PRICE_DISPLAY}`;
+    if (bannerBtn) bannerBtn.href = href;
+    if (bannerPrice) bannerPrice.textContent = PRICE_DISPLAY;
+  }
+
   /* ---------- Texas free sample ---------- */
   function renderTexas() {
     const tx = EVICTION_GUIDE_DATA.texasFull;
@@ -226,6 +240,7 @@
   }
 
   renderMeta();
+  renderBuyButtons();
   renderTexas();
   renderGrid();
 
