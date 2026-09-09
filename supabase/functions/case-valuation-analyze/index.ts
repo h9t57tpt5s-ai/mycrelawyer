@@ -148,8 +148,19 @@ async function loadCaseData(): Promise<CaseData> {
   const res = await fetch(CASE_DATA_URL);
   if (!res.ok) throw new Error(`Could not load case data (${res.status})`);
   const raw = await res.text();
-  const jsonStr = raw.slice(raw.indexOf("{"), raw.lastIndexOf("}") + 1);
-  cachedCaseData = JSON.parse(jsonStr) as CaseData;
+  // js/case-valuation-data.js is genuine JavaScript (`const
+  // CASE_VALUATION_DATA = {...};`), not JSON -- it contains legitimate JS
+  // block comments between some top-level keys (e.g. before
+  // stateLawModifiers), which is valid JS but breaks JSON.parse outright.
+  // A naive text-slice + JSON.parse here appeared to work only because
+  // cachedCaseData masked it between cold starts -- the moment a redeploy
+  // forces a fresh fetch, it throws "Expected double-quoted property
+  // name" on the first comment it hits, for every category, not just a
+  // newly added one. Execute the file as real JavaScript instead of
+  // force-fitting it through JSON.parse, so any valid JS syntax in it
+  // (comments, trailing commas, etc.) is handled correctly.
+  const fn = new Function(`${raw}\nreturn CASE_VALUATION_DATA;`);
+  cachedCaseData = fn() as CaseData;
   return cachedCaseData;
 }
 
