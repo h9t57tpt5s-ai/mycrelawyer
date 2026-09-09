@@ -102,10 +102,17 @@
     return "Unclear";
   }
 
-  function openStatePanel(name) {
-    buildPanel();
-    const m = MODS[name];
-    if (!m) return;
+  function signInCardHtml() {
+    return `
+      <div class="gate-card">
+        <div class="eyebrow" style="margin-bottom:8px;">Free account required</div>
+        <h3 style="margin-bottom:8px;">Sign in to read this chapter</h3>
+        <p class="text-secondary" style="font-size:13.5px; line-height:1.6; margin-bottom:16px;">This guide is free with a CREdocket account — no purchase required.</p>
+        <button type="button" class="btn btn-primary btn-sm pl-signin-btn">Sign in to continue</button>
+      </div>`;
+  }
+
+  function buildSectionsHtml(m) {
     const elementsList = Array.isArray(m.elementsToProve) && m.elementsToProve.length
       ? `<ol class="pl-elements-list">${m.elementsToProve.map((e) => `<li>${e}</li>`).join("")}</ol>`
       : `<p>${m.elementsToProve || "Not yet researched."}</p>`;
@@ -162,6 +169,33 @@
     if (m.researchConfidence) {
       sections.push(`<div class="eg-chapter-section pl-confidence-footer"><h3>Research Confidence</h3><p>${m.researchConfidence}. This reflects the researcher's own honest self-assessment — any field above flagged "not independently verified" should be confirmed against a primary source before being relied on in an actual matter.</p></div>`);
     }
+    return sections.join("");
+  }
+
+  function hasSession() {
+    return !!(window.RELAW_AUTH && window.RELAW_AUTH.getSession());
+  }
+
+  const PENDING_STATE_KEY = "credocket_pending_pl_state";
+  const PENDING_STATE_MAX_AGE_MS = 30 * 60 * 1000;
+  function setPendingState(name) {
+    localStorage.setItem(PENDING_STATE_KEY, JSON.stringify({ name, savedAt: Date.now() }));
+  }
+  function resumePendingStateIfAny() {
+    if (!hasSession()) return;
+    const raw = localStorage.getItem(PENDING_STATE_KEY);
+    if (!raw) return;
+    localStorage.removeItem(PENDING_STATE_KEY);
+    let parsed;
+    try { parsed = JSON.parse(raw); } catch (e) { return; }
+    if (!parsed || !parsed.name || Date.now() - parsed.savedAt > PENDING_STATE_MAX_AGE_MS) return;
+    openStatePanel(parsed.name);
+  }
+
+  function openStatePanel(name) {
+    buildPanel();
+    const m = MODS[name];
+    if (!m) return;
 
     panel.innerHTML = `
       <div class="top-row">
@@ -173,28 +207,35 @@
       <h2>${name}</h2>
       ${badgeHtml(m.faultRule)}
       <div class="rule mt-24" style="margin-bottom:24px;"></div>
-      <div id="pl-panel-content">
-        ${sections.join("")}
-      </div>
+      <div id="pl-panel-content"></div>
     `;
     document.getElementById("pl-close-btn").addEventListener("click", panel._close);
-    if (window.RELAW_UTILS && window.RELAW_UTILS.linkifyGlossaryTerms) window.RELAW_UTILS.linkifyGlossaryTerms(panel);
     overlay.classList.add("open");
     panel.classList.add("open");
     panel.scrollTop = 0;
     document.body.style.overflow = "hidden";
-  }
 
-  /* ---------- Author byline (single source of truth: RELAW_DATA.author
-     in js/data.js, rendered via the shared helper in js/main.js) ---------- */
-  function renderByline() {
-    const host = el("#pl-byline-host");
-    if (host && window.RELAW_UTILS && window.RELAW_UTILS.bylineHtml) {
-      host.innerHTML = window.RELAW_UTILS.bylineHtml();
+    const contentSlot = document.getElementById("pl-panel-content");
+    if (!hasSession()) {
+      contentSlot.innerHTML = signInCardHtml();
+      const btn = contentSlot.querySelector(".pl-signin-btn");
+      if (btn) btn.addEventListener("click", () => {
+        setPendingState(name);
+        window.RELAW_AUTH.openSignInModal();
+      });
+      return;
     }
+    contentSlot.innerHTML = buildSectionsHtml(m);
+    if (window.RELAW_UTILS && window.RELAW_UTILS.linkifyGlossaryTerms) window.RELAW_UTILS.linkifyGlossaryTerms(panel);
   }
 
-  renderByline();
   renderLegend();
   renderGrid();
+
+  // Resume an intended state panel after sign-in, same pattern as
+  // js/eviction-guide.js's pending-state flow but scoped to this page.
+  if (window.RELAW_SUPABASE) {
+    window.RELAW_SUPABASE.auth.onAuthStateChange(() => resumePendingStateIfAny());
+    setTimeout(resumePendingStateIfAny, 400);
+  }
 })();

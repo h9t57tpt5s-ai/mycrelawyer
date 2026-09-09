@@ -23,6 +23,10 @@
   }
 
   function generatePdf() {
+    if (!window.RELAW_AUTH || !window.RELAW_AUTH.getSession()) {
+      if (window.RELAW_AUTH) window.RELAW_AUTH.openSignInModal();
+      return;
+    }
     if (typeof window.jspdf === "undefined") {
       alert("PDF generation isn't available right now — please try again in a moment.");
       return;
