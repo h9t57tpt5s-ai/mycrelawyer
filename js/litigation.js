@@ -221,6 +221,13 @@
     state.query = qParam;
     searchInput.value = qParam;
   }
+  // ?case=<id> -- opens a specific matter's detail panel directly, e.g.
+  // from a watchlist alert email, without the reader having to search
+  // for it themselves.
+  const caseParam = params.get("case");
+  if (caseParam && window.RELAW_UTILS && window.RELAW_UTILS.openCaseDetail) {
+    window.RELAW_UTILS.openCaseDetail(caseParam);
+  }
 
   render();
 
