@@ -2651,6 +2651,63 @@ const RELAW_DATA = {
         { when: "September 2025", label: "After a four-day trial, Judge Kristine Allen Kerr rules the blight finding \"fairly debatable\" and upholds it" },
         { when: "September 26, 2025", label: "Institute for Justice announces the plaintiffs will appeal the ruling", current: true }
       ]
+    },
+    {
+      id: "live-095",
+      addedDate: "2026-09-10",
+      title: "Wilmington Trust National Association v. NG 211 N. Pennsylvania St LLC (Regions Tower $75M Foreclosure)",
+      category: "lending-foreclosure",
+      status: "pending",
+      date: "2024-02-02",
+      jurisdiction: "Marion Superior Court, Indiana",
+      state: "IN",
+      amount: "$74.9M",
+      source: "live",
+      sourceUrl: "https://www.ibj.com/articles/regions-tower-owners-face-75m-foreclosure-suit-after-missing-loan-deadline",
+      summary: "Wilmington Trust National Association, as trustee for CMBS certificateholders and acting through debt servicer KeyBank, sued to foreclose on Regions Tower -- Indianapolis' third-tallest building -- after owner entities NG 211 N. Pennsylvania St LLC and Regions Tower MF LLC missed an October 1, 2023 deadline to pay off roughly $74.9 million in outstanding loan balance on the 36-story, 685,000-square-foot downtown office tower. The complaint asks the court to order immediate repayment or foreclosure and requests appointment of a receiver to manage the property in the interim.",
+      significance: "A landmark-building foreclosure squarely inside the post-pandemic downtown office distress pattern playing out in cities nationally: an aging, roughly 75%-leased tower financed pre-pandemic now can't refinance at a balance its current cash flow and valuation support. CRE lenders holding legacy CBD office CMBS paper should treat missed 2023-2024 maturity dates as a leading indicator, not a one-off, and owners of comparable towers should be modeling reduced-leverage refinancing or repositioning now rather than waiting for a maturity default to force the question.",
+      body: [
+        "Regions Tower, the 36-story former Indiana National Bank headquarters a block from Monument Circle, is the subject of a $74.9 million foreclosure suit filed February 2, 2024 in Marion Superior Court by Wilmington Trust National Association, acting as trustee for a CMBS trust and through debt servicer KeyBank. The complaint names owner entities NG 211 N. Pennsylvania St LLC and Regions Tower MF LLC -- affiliates of New York-based The Nightingale Group, which bought the tower in 2014 for $65 million -- alleging they missed an October 1, 2023 deadline to pay off the loan in full.",
+        "The 685,000-square-foot tower, designed by Dallas architect Thomas E. Stanley and completed in 1970, was roughly 75% leased at the time of filing according to building data cited in local reporting -- a level of occupancy that made the loan unable to refinance on its original terms even before accounting for the broader decline in downtown office valuations since 2020. Wilmington Trust's complaint asks the court to order immediate repayment of the outstanding balance plus accruing interest and fees, or in the alternative to foreclose and sell the property, and separately requests appointment of a receiver -- naming Riveron RTS LLC's Matthew Mason -- to manage the building during the litigation while keeping current manager JLL in place operationally.",
+        "Regions Bank, despite lending its name to the building, is only a tenant and has no ownership stake -- a detail worth noting given how often building names outlive the entities associated with them once a property changes hands or falls into distress. Local commercial real estate economists quoted at the time of filing were already framing the case as part of a broader repositioning question facing aging downtown office towers: whether a building can be converted to multifamily, retail, or mixed use once its office economics no longer support its debt load, a decision Indiana University's Center for Real Estate Studies director Doug McCoy described as necessarily \"building by building\" rather than a one-size-fits-all answer.",
+        "No further public update on the receivership or a completed sale had surfaced as of this writing -- foreclosure and receivership proceedings on a property this size commonly take well over a year to resolve, and the absence of subsequent news coverage is not itself evidence the matter has been resolved or dismissed. CRE owners and lenders should treat this as a live, pending matter to watch rather than a closed one.",
+        "For lenders holding comparable legacy CBD office CMBS positions, the case is a reminder that a tenant roster in the 70-80% occupied range -- not obviously distressed on its face -- can still be enough to blow up a maturity refinancing once debt-service coverage and valuation assumptions from a pre-2020 underwriting no longer hold. Owners of similarly aged downtown towers should be stress-testing refinancing scenarios against current, not legacy, valuations well before a maturity date arrives."
+      ],
+      tags: ["foreclosure", "office", "cmbs", "indiana", "receivership"],
+      timeline: [
+        { when: "2014", label: "The Nightingale Group acquires Regions Tower for $65M" },
+        { when: "October 1, 2023", label: "Loan maturity deadline passes without full repayment" },
+        { when: "February 2, 2024", label: "Wilmington Trust National Association sues to foreclose in Marion Superior Court, requesting a receiver", current: true }
+      ]
+    },
+    {
+      id: "live-096",
+      addedDate: "2026-09-10",
+      title: "Oxbow Estates HOA et al v. Metropolitan Development Commission (Willows \"The Elements\" Rezoning Settlement)",
+      category: "zoning-land-use",
+      status: "settled",
+      date: "2024-02-05",
+      jurisdiction: "Marion Superior Court, Indiana",
+      state: "IN",
+      amount: "$61M redevelopment at issue",
+      source: "live",
+      sourceUrl: "https://www.ibj.com/articles/developer-neighbors-reach-last-minute-deal-on-willows-redevelopment",
+      summary: "Neighboring homeowners' associations and property owners sued Indianapolis' Metropolitan Development Commission in Marion Superior Court after it approved developer J.C. Hart Co.'s rezoning request for a $61 million, 192-unit apartment and 16-townhome redevelopment of the former Willows Event Center site near Broad Ripple, arguing the density violated a 2003 set of restrictive covenants limiting the area to 1.94 units per acre. The parties reached a last-minute settlement -- the developer cut the project to 168 apartments with no townhomes -- and the City-County Council approved the compromise 24-0 on February 5, 2024, with the lawsuit dismissed with prejudice.",
+      significance: "A clean illustration of how a well-organized neighbor lawsuit against a zoning approval functions less as a binary win-or-lose bet and more as leverage to force a negotiated density reduction -- the plaintiffs here didn't defeat the project outright, but did cut it by roughly a third from the original 2021 proposal (256 units) before the council vote that would have mooted their legal argument. Developers pursuing rezoning in areas with older recorded covenants should expect organized opposition to litigate covenant-density conflicts right up to a final vote, and should build negotiating room into an initial proposal rather than treat MDC approval as the last real checkpoint.",
+      body: [
+        "A dispute over the former Willows Event Center site north of Broad Ripple, at 6729 Westfield Blvd., worked its way from a Metropolitan Development Commission approval to a courthouse settlement in barely six weeks. J.C. Hart Co., along with Chase Development and Evergreen LLC, sought to rezone 21.4 acres for \"The Elements,\" a $61 million residential redevelopment along Spirit Lake. The Indianapolis MDC approved a 192-unit apartment and 16-townhome version of the plan in December 2023, sending it to the City-County Council for final approval.",
+        "Before that vote, four plaintiffs -- Oxbow Estates Homeowners Association, Spirit Lake Co-owners Association, and property owners Thomas Durkin and Steve Yeager -- sued the MDC and the developer entities in Marion Superior Court on January 19, 2024, arguing the approved density violated a 2003 set of recorded covenants limiting the Spirit Lake area to 1.94 units per acre, enforceable by neighboring owners within 660 feet. The plaintiffs, represented by attorney John Kautzman, argued they were willing to accept meaningfully more density than the covenants technically allowed -- up to roughly 144 units -- but that 192 units plus 16 townhomes went too far.",
+        "The dispute had a longer history than the lawsuit alone suggests: the development team first withdrew an earlier rezoning petition in June 2022, hours before a scheduled MDC hearing, before reviving a revised plan that the MDC ultimately approved in December 2023 -- the version the plaintiffs then sued over. That back-and-forth meant the project had already been scaled back once, from an original 2021 proposal of 256 apartments and 18 townhouses, before the covenant lawsuit forced a second round of cuts.",
+        "With the City-County Council vote scheduled for February 5, 2024, the developer and neighborhood groups reached a settlement roughly twenty minutes into the Monday council meeting, following weekend negotiations: J.C. Hart agreed to drop to 168 apartments and eliminate the townhomes and condominiums entirely. The Council approved the revised plan unanimously, 24-0 with one abstention, and the lawsuit was dismissed with prejudice -- ending the litigation without a court ever ruling on whether the original density actually violated the 2003 covenants.",
+        "For developers negotiating rezoning in areas with older recorded density covenants, the case shows that a credible covenant-enforcement lawsuit from an organized, well-represented neighborhood group can still force a real concession even at the eleventh hour before a final legislative vote -- here, a roughly 13% cut from the MDC-approved unit count and the complete elimination of the townhome component. Building negotiating room into an initial proposal, rather than treating Plan Commission or MDC approval as the last meaningful checkpoint, is the more efficient path to a project that actually gets built on schedule."
+      ],
+      tags: ["zoning", "rezoning", "indiana", "multifamily", "settlement"],
+      timeline: [
+        { when: "June 2022", label: "Developers withdraw an earlier rezoning petition hours before an MDC hearing" },
+        { when: "December 2023", label: "The Metropolitan Development Commission approves a 192-unit apartment + 16-townhome version of the project" },
+        { when: "January 19, 2024", label: "Oxbow Estates HOA and neighbors sue the MDC in Marion Superior Court, alleging the density violates 2003 restrictive covenants" },
+        { when: "February 5, 2024", label: "City-County Council approves a negotiated 168-unit compromise 24-0; the lawsuit is dismissed with prejudice", current: true }
+      ]
     }
   ],
 
@@ -2937,6 +2994,7 @@ const RELAW_DATA = {
      third-party case-law aggregators. */
   courts: [
     { jurisdiction: "Circuit Court of St. Louis County, Missouri", url: "https://stlcountycourts.com/" },
+    { jurisdiction: "Marion Superior Court, Indiana", url: "https://www.indycourts.org/" },
     { jurisdiction: "Philadelphia County Court of Common Pleas", url: "https://www.pacourts.us/courts/courts-of-common-pleas/individual-county-courts/philadelphia-courts" },
     { jurisdiction: "Supreme Court of New Jersey", url: "https://www.njcourts.gov/courts/supreme" },
     { jurisdiction: "U.S. District Court, Southern District of New York", url: "https://www.nysd.uscourts.gov/" },
