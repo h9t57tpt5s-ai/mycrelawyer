@@ -16,7 +16,7 @@ const RELAW_DATA = {
      Drives the homepage's "New Today" pill: it only shows when this
      equals the visitor's local today. Updated by the digest automation
      each time Step 4 successfully adds a case — never touched otherwise. */
-  lastUpdatedDate: "2026-09-09",
+  lastUpdatedDate: "2026-09-10",
   categories: [
     { id: "landlord-tenant", label: "Landlord–Tenant", color: "var(--cat-landlord)" },
     { id: "zoning-land-use", label: "Zoning & Land Use", color: "var(--cat-zoning)" },
@@ -2563,6 +2563,64 @@ const RELAW_DATA = {
         "Borrowers with loans approaching, or already past, a scheduled maturity date should not assume that a lender's silence in the months immediately following default reflects an intention to negotiate an extension or workout, since an extended post-maturity default period can instead be a lender building its record for exactly the kind of ex parte receivership motion filed here. Because such a request can be granted with limited advance notice, ownership entities carrying matured, unresolved CRE debt should have workout counsel and a response strategy in place well before a lender files, and with Denver now producing multiple lender-driven receivership actions against well-known, recently built assets in quick succession, owners and equity investors in the market's multifamily and office towers should treat a maturity default, even on an otherwise physically healthy property, as carrying meaningfully higher and faster litigation risk than it might have a few years ago."
       ],
       tags: ["receivership", "loan default", "colorado", "multifamily", "denver"]
+    },
+    {
+      id: "live-092",
+      addedDate: "2026-09-10",
+      title: "Rialto Capital Advisors v. WC MRP Calumet Center, LLC ($46M Calumet City Retail Foreclosure)",
+      category: "lending-foreclosure",
+      status: "filed",
+      date: "2026-08-10",
+      jurisdiction: "Circuit Court of Cook County, Illinois",
+      state: "IL",
+      amount: "$46M",
+      source: "live",
+      sourceUrl: "https://therealdeal.com/chicago/2026/08/10/nate-paul-faces-big-foreclosure-suit-in-chicago-court/",
+      summary: "Rialto Capital Advisors, as special servicer for a CMBS trust, sued WC MRP Calumet Center, LLC, an entity affiliated with Austin investor Nate Paul's World Class Holdings, in the Circuit Court of Cook County to foreclose on a 159,000-square-foot Calumet City, Illinois shopping center, seeking approximately $46 million. The loan, part of a $38.3 million mortgage originated in 2015 against a portfolio of World Class-owned Midwest retail centers, had already been reinstated once roughly a year earlier before defaulting again.",
+      significance: "Illustrates how quickly special servicers move to foreclose once a reinstated CMBS loan defaults a second time, and how cross-collateralized retail portfolios can put otherwise-performing properties at risk when a sponsor with a documented default history stumbles elsewhere. CRE lenders and owners of pooled retail collateral should treat a sponsor's prior loan troubles as a live underwriting factor, not a closed chapter.",
+      body: [
+        "A Miami-based special servicer has filed suit to foreclose on a suburban Chicago shopping center controlled by embattled Austin investor Nate Paul, seeking roughly $46 million after a loan workout the parties struck barely a year ago broke down. The action, filed in the Circuit Court of Cook County, Illinois against WC MRP Calumet Center, LLC, adds another property to the long list of assets tied to Paul's World Class Holdings empire that have landed in foreclosure court, and it illustrates a pattern now recurring across the country's distressed CMBS market: loans that survive one round of forbearance are increasingly defaulting again once their reinstated terms come due.",
+        "Rialto Capital Advisors, acting as special servicer for the trust holding the securitized loan, brought the complaint on behalf of the certificateholders that ultimately own the debt. The property at issue is a more than 159,000-square-foot retail center at 410-500 River Oaks West Road in Calumet City, Illinois, which the World Class-affiliated borrower acquired for $7.7 million in 2014. That acquisition was financed, and later refinanced, as part of a larger $38.3 million mortgage loan originated in 2015 by German American Capital Corporation and secured by a portfolio of World Class-owned shopping centers across the Midwest, later pooled into a CMBS trust that left loan administration and enforcement in Rialto's hands as special servicer.",
+        "According to Rialto's complaint, the parties had already been through one cycle of distress on this loan. A reinstatement agreement, executed roughly a year before this suit, was meant to cure an earlier default and put the loan back on a performing footing. Instead, the borrowing entity defaulted again, prompting Rialto to move for foreclosure rather than pursue a second workout. The complaint also reflects the toll broader portfolio-level distress has taken on the underlying collateral: appraisals across the pooled shopping-center portfolio have fallen from a cumulative $56.6 million at origination to roughly $46.3 million more recently, even as the loan balance itself remains largely unchanged, leaving the lender materially under-collateralized relative to its original underwriting.",
+        "The Calumet City filing cannot be separated from Paul's broader legal and financial history. Paul, the founder of World Class Holdings, was arrested in 2023 on charges that he falsified information to secure roughly $172 million in loans, and his real estate empire has already lost multiple Austin-area properties, collectively valued in the hundreds of millions of dollars, to foreclosure sales in recent years. The Calumet City action extends that pattern into the Midwest and signals that lenders holding World Class-linked paper are increasingly unwilling to extend further patience once a reinstated loan slips again.",
+        "For CMBS investors, special servicers, and other CRE lenders, the case is a useful data point on how quickly patience erodes once a borrower with a documented history of loan trouble defaults a second time on the same collateral, and it underscores a theme playing out across the retail and multifamily sectors alike this year: portfolio-level cross-collateralization means that trouble at one asset, or a broader deterioration in a sponsor's overall financial condition, can put an entire regional portfolio at risk of enforcement even where an individual property is performing reasonably well on its own. Owners whose properties sit within a cross-collateralized loan pool should independently monitor co-borrowers' and guarantors' financial condition across the entire pool rather than just their own asset's performance, borrowers who have already been through one reinstatement should treat any subsequent shortfall as carrying materially higher foreclosure risk than a first-time default, and lenders evaluating new credit to sponsors with a track record of defaults elsewhere in their portfolio should weight that history heavily in underwriting and ongoing monitoring."
+      ],
+      tags: ["foreclosure", "cmbs", "retail", "illinois", "special servicer"],
+      timeline: [
+        { when: "2015", label: "German American Capital Corporation originates the $38.3M portfolio mortgage later pooled into a CMBS trust" },
+        { when: "2025", label: "Rialto Capital and the World Class-affiliated borrower execute a reinstatement agreement curing an earlier default" },
+        { when: "August 10, 2026", label: "Rialto Capital Advisors sues WC MRP Calumet Center, LLC in Cook County for approximately $46M after a second default", current: true }
+      ]
+    },
+    {
+      id: "live-093",
+      addedDate: "2026-09-10",
+      title: "Solera Multifamily, LLC v. Tegethoff (Old Hickory Village Investor Fraud Suit)",
+      category: "reit-securities",
+      status: "pending",
+      date: "2026-07-13",
+      jurisdiction: "U.S. District Court, Eastern District of Missouri",
+      state: "MO",
+      amount: "~$3M direct investment claim; $540M in Ch. 11 liabilities",
+      source: "live",
+      sourceUrl: "https://molawyersmedia.com/2026/07/13/missouri-fraud-complaint-amended-real-estate-case/",
+      summary: "Magistrate Judge John M. Bodenhausen allowed investors Solera Multifamily, LLC and Hickory Investors, LLC to file an amended fraud complaint against developer Jeffrey J. Tegethoff over the stalled Old Hickory Village apartment project in St. Peters, Missouri, while staying claims against Tegethoff Development, LLC, which sought Chapter 11 protection on June 1, 2026 listing roughly $540 million in liabilities. Creditors in the bankruptcy case have separately moved to install an independent trustee, alleging insider transactions and commingled assets.",
+      significance: "Shows that a sponsor's bankruptcy filing stays civil fraud claims only against the debtor entities themselves, not against the individual principal or non-debtor affiliates, letting defrauded investors keep pursuing a controlling developer personally while his company's estate is administered separately. Investors and creditors in closely held real estate syndications should watch how the parallel civil and bankruptcy tracks in this case resolve.",
+      body: [
+        "A federal magistrate judge in the Eastern District of Missouri has allowed investors in a stalled St. Peters, Missouri apartment project to file an amended fraud complaint against developer Jeffrey J. Tegethoff and his affiliated companies, keeping alive a civil securities and fraud suit that runs on a parallel track with Tegethoff Development's own Chapter 11 bankruptcy case. The ruling, issued by Magistrate Judge John M. Bodenhausen in Solera Multifamily, LLC v. Tegethoff, No. 4:25-CV-1877-JMB, stays the plaintiffs' claims against the now-bankrupt corporate defendants while permitting the case against Tegethoff individually and non-debtor affiliates to proceed, a procedural split commercial real estate investors should watch closely as similar sponsor-collapse litigation works through courts nationally.",
+        "The underlying dispute traces to Old Hickory Village, a multifamily development in St. Peters that Tegethoff and his companies began in 2022. Plaintiffs Solera Multifamily, LLC and Hickory Investors, LLC allege they invested nearly $3 million in the project and that Tegethoff diverted those funds to purposes unrelated to the development, including personal expenses. According to the plaintiffs, the diversion left contractors on the project unpaid and caused significant construction delays, and other investors were reportedly forced to make additional capital contributions to keep the project moving, diluting the stakes of investors who had already put money in. The complaint, filed December 26, 2025, asserts breach of contract, breach of fiduciary duty, fraud in the inducement, state and federal securities fraud, theft and conversion, unjust enrichment, and a request for declaratory relief. Tegethoff has denied wrongdoing and moved to dismiss part of the federal case for lack of pleading particularity; Judge Bodenhausen's order allowing an amended complaint suggests the court was not yet persuaded dismissal was warranted on the existing record.",
+        "The litigation landscape shifted further on June 1, 2026, when Tegethoff Development, LLC sought Chapter 11 protection in the U.S. Bankruptcy Court for the Eastern District of Missouri, listing roughly $540 million in liabilities against a far smaller asset base, a filing that came as Tegethoff was simultaneously pursuing a separate, higher-profile venture: the roughly $500 million Oasis at Lakeport entertainment complex under construction at the Lake of the Ozarks. The bankruptcy filing automatically stayed the Solera plaintiffs' claims against the corporate debtor entities, which is why Judge Bodenhausen's order carves those defendants out while letting the case proceed against Tegethoff personally and non-debtor affiliates. In July 2026, creditors in the bankruptcy case escalated matters further, moving to appoint an independent Chapter 11 trustee and alleging Tegethoff engaged in insider transactions, provided inaccurate financial disclosures, and commingled corporate and personal assets, citing what the motion characterized as Tegethoff's own concession that he disregards corporate formalities between his entities.",
+        "Taken together, the civil fraud suit, the bankruptcy filing, and the trustee motion paint a picture of a sponsor whose capital structure and corporate governance are under simultaneous attack on three fronts, a pattern increasingly familiar to investors in real estate syndications and closely held development ventures generally. The overlap between the civil fraud case and the Chapter 11 proceeding also illustrates a structural feature of bankruptcy law that catches many investor-plaintiffs by surprise: the automatic stay protecting a debtor from civil litigation reaches the corporate entities that filed for bankruptcy protection, but not necessarily an individual principal or non-debtor affiliate who did not file, which is exactly the distinction that let the Solera plaintiffs keep pursuing Tegethoff personally even while their claims against his company are paused.",
+        "Investors who committed capital to closely held real estate development ventures structured around a single controlling principal should recognize that a sponsor's bankruptcy filing does not automatically halt fraud claims against that principal individually or against non-debtor affiliated entities, even where it stays claims against the bankrupt corporate defendants themselves. Creditors and investors evaluating a distressed sponsor's Chapter 11 case should pay close attention to allegations of commingled assets and disregarded corporate formalities, since those allegations, if substantiated, can support both a trustee motion in the bankruptcy case and a veil-piercing or personal-liability theory in parallel civil litigation, and developers and fund sponsors juggling multiple simultaneous projects financed by different investor pools should treat rigorous entity-by-entity financial separation as a legal necessity rather than an administrative formality, since a pattern of cross-project fund transfers is precisely the evidence both defrauded investors and bankruptcy creditors will look for once a project stalls."
+      ],
+      tags: ["securities fraud", "investor fraud", "missouri", "multifamily", "bankruptcy"],
+      judge: "John M. Bodenhausen",
+      timeline: [
+        { when: "December 26, 2025", label: "Solera Multifamily and Hickory Investors file suit against Jeffrey Tegethoff and affiliated entities" },
+        { when: "June 1, 2026", label: "Tegethoff Development, LLC files Chapter 11 bankruptcy, listing roughly $540M in liabilities" },
+        { when: "July 2026", label: "Bankruptcy creditors move to appoint an independent Chapter 11 trustee, citing insider transactions and commingled assets" },
+        { when: "July 13, 2026", label: "Judge Bodenhausen allows an amended fraud complaint against Tegethoff and non-debtor affiliates to proceed while claims against the bankrupt entities are stayed", current: true }
+      ]
     }
   ],
 
@@ -2889,7 +2947,8 @@ const RELAW_DATA = {
     { jurisdiction: "U.S. District Court, Western District of North Carolina", url: "https://www.ncwd.uscourts.gov/" },
     { jurisdiction: "Sacramento County Superior Court, California", url: "https://www.saccourt.ca.gov/" },
     { jurisdiction: "U.S. District Court, District of Oregon", url: "https://www.ord.uscourts.gov/" },
-    { jurisdiction: "Supreme Court of the United States", url: "https://www.supremecourt.gov/" }
+    { jurisdiction: "Supreme Court of the United States", url: "https://www.supremecourt.gov/" },
+    { jurisdiction: "U.S. District Court, Eastern District of Missouri", url: "https://www.moed.uscourts.gov/" }
   ],
 
   /* Judges — background on every judge named in our sourced reporting (never
@@ -3097,6 +3156,14 @@ const RELAW_DATA = {
       court: "U.S. District Court, District of Oregon",
       background: "Nominated by President Bill Clinton in 1995 and confirmed to the federal bench in January 1998, after serving as a judge of the Oregon Circuit Court for Lane County from 1992 and, before that, the Oregon District Court for Lane County. Served as Chief Judge of the U.S. District Court for the District of Oregon from 2009 to 2016 and assumed senior status in December 2023.",
       bioUrl: "https://www.fjc.gov/history/judges/aiken-ann-l"
+    },
+    {
+      name: "John M. Bodenhausen",
+      slug: "john-m-bodenhausen",
+      title: "U.S. Magistrate Judge",
+      court: "U.S. District Court, Eastern District of Missouri",
+      background: "Appointed a U.S. Magistrate Judge for the Eastern District of Missouri on April 16, 2015, after serving as an Assistant U.S. Attorney for the district since 2002. Previously practiced patent law at the St. Louis firm Senniger Powers following a clerkship for Judge David R. Hansen of the U.S. Court of Appeals for the Eighth Circuit.",
+      bioUrl: "https://www.moed.uscourts.gov/judge/john-m-bodenhausen"
     }
   ],
 
@@ -3136,6 +3203,7 @@ const RELAW_DATA = {
     { name: "Deutsche Bank", slug: "deutsche-bank", description: "Global investment bank that originates, services, and represents lender groups in commercial mortgage and CMBS foreclosure litigation.", website: "https://www.db.com" },
     { name: "Cushman & Wakefield", slug: "cushman-wakefield", description: "Global commercial real estate services firm providing brokerage, leasing, and property and receivership management services.", website: "https://www.cushmanwakefield.com" },
     { name: "CBRE Group, Inc.", matchTerm: "CBRE", slug: "cbre-group", description: "NYSE-listed global commercial real estate services and investment management firm, frequently serving as broker, property manager, or court-appointed receiver in distressed CRE matters.", website: "https://www.cbre.com" },
-    { name: "D.R. Horton, Inc.", matchTerm: "D.R. Horton", slug: "dr-horton", description: "NYSE-listed national homebuilder and land developer, active in single-family and multifamily residential land entitlement and development nationally.", website: "https://www.drhorton.com" }
+    { name: "D.R. Horton, Inc.", matchTerm: "D.R. Horton", slug: "dr-horton", description: "NYSE-listed national homebuilder and land developer, active in single-family and multifamily residential land entitlement and development nationally.", website: "https://www.drhorton.com" },
+    { name: "Rialto Capital Advisors", matchTerm: "Rialto Capital", slug: "rialto-capital-advisors", description: "Miami-based investment and asset management platform that frequently serves as special servicer for CMBS trusts in commercial mortgage foreclosure litigation.", website: "https://rialtocapital.com" }
   ]
 };
