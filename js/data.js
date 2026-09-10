@@ -3188,6 +3188,63 @@ const RELAW_DATA = {
         { when: "2025", label: "A Harrison County circuit court cites the ruling as controlling to reject a similar challenge to a competing developer's pier lease" }
       ],
       tags: ["tidelands", "casino resort", "public-private pier", "biloxi", "land-use authority"]
+    },
+    {
+      id: "live-113",
+      addedDate: "2026-09-10",
+      title: "Cedarland Homes LLC v. Ferguson (COVID Eviction Moratorium Physical-Takings Claim Dismissed)",
+      category: "eminent-domain",
+      status: "appeal",
+      date: "2026-08-05",
+      jurisdiction: "U.S. District Court, Western District of Washington",
+      judge: "Barbara J. Rothstein",
+      state: "WA",
+      amount: "Uncapped takings claim after state relief program capped compensation at $15,000 per unit",
+      source: "live",
+      sourceUrl: "https://www.hfore.com/washington-owners-lose-case-on-eviction-moratorium-8-10-26/",
+      summary: "A federal judge in Seattle dismissed a proposed class action by fifteen Washington landlords, led by Cedarland Homes LLC, that sought compensation from Governor Bob Ferguson, the state, and eight cities under a Fifth Amendment physical-takings theory over COVID-era eviction moratoria that ran from March 2020 to October 2022. U.S. District Judge Barbara J. Rothstein held that eviction moratoria regulate an existing landlord-tenant relationship rather than grant a new right of physical occupation, distinguishing the case from the Supreme Court's Cedar Point Nursery v. Hassid physical-takings precedent. The plaintiffs, backed by the Rental Housing Association of Washington, have filed a notice of appeal to the Ninth Circuit.",
+      significance: "The ruling is one of the most fully litigated rejections yet of efforts to extend Cedar Point Nursery's physical-takings framework from third-party access regulations into ordinary landlord-tenant regulation, reinforcing that eviction moratoria and similar emergency tenant protections are generally reviewed under the more deferential Penn Central balancing test rather than treated as per se takings. CRE owners with residential exposure, landlord associations, and REITs operating in jurisdictions with rent-freeze or eviction-moratorium regimes should watch the Ninth Circuit appeal closely before relying on a physical-takings theory to challenge similar measures.",
+      body: [
+        "More than five years after Washington State and a string of its cities imposed some of the nation's longest-running COVID-19 eviction moratoria, a federal judge in Seattle has closed the door, for now, on a landlord class action seeking compensation for the losses those moratoria caused. Judge Barbara J. Rothstein dismissed Cedarland Homes LLC v. Ferguson on August 5, 2026, rejecting the theory that the eviction bans amounted to a physical taking of private property under the Fifth Amendment. The ruling is one of the most fully litigated tests yet of whether the Supreme Court's 2021 decision in Cedar Point Nursery v. Hassid, which found that a regulation forcing landowners to admit outside parties onto their property can be a per se physical taking, extends to landlord-tenant regulation generally.",
+        "Cedarland Homes and fourteen other named plaintiffs, represented by Davis Wright Tremaine and lead counsel John DiLorenzo, filed the proposed class action on December 18, 2025 in Thurston County Superior Court before it was removed to the U.S. District Court for the Western District of Washington. The suit named Governor Bob Ferguson, the State of Washington, and eight cities and counties that layered their own local moratoria on top of the state's ban, which ran from March 2020 to October 2022. The plaintiffs argued that the moratoria forced them to house nonpaying tenants while remaining responsible for property taxes, mortgage payments, insurance, and maintenance. Washington's own landlord mitigation program capped reimbursement at $15,000 per unit, an amount the plaintiffs said fell far short of their actual losses.",
+        "Judge Rothstein's opinion turned on how far Cedar Point Nursery actually reaches. That case involved a California regulation granting union organizers a right of physical access to agricultural land, a straightforward physical invasion authorized by regulation. Rothstein held that an eviction moratorium is different: it does not grant a third party a new right to enter or occupy property, but instead restricts a landlord's remedies against a tenant already lawfully in possession under an existing lease. Citing Ninth Circuit precedent and prior Washington state court decisions rejecting physical-takings challenges to pandemic-era landlord-tenant rules, she concluded that moratoria of this kind are properly analyzed as economic regulation under the Penn Central balancing test rather than as a per se taking requiring automatic compensation.",
+        "The decision represents a notable pushback against a litigation strategy that plaintiffs' lawyers nationwide have pursued since Cedar Point Nursery was decided, seeking to stretch its physical-takings framework to reach rent control, short-term rental restrictions, and eviction bans alike. Rothstein's opinion, grounded in the distinction between granting new access rights and merely regulating an existing landlord-tenant relationship, is likely to be cited by other courts confronting similar claims. The litigation is not over, however: the Rental Housing Association of Washington, which backed the suit, has filed a notice of appeal to the Ninth Circuit and has signaled it will seek Supreme Court review if the appeal fails, leaving the ultimate reach of Cedar Point Nursery in the landlord-tenant context an open question for at least another cycle of appellate review.",
+        "For commercial and residential property owners, the case is a reminder that a facial physical-takings theory faces a steep climb once a court concludes the underlying measure merely regulates an existing legal relationship rather than authorizing new occupation. Owners with pandemic-era losses tied to eviction moratoria, and any jurisdiction still relying on emergency rent-freeze or eviction-ban authority, should expect that a state's mitigation fund and its adequacy will matter far more to their prospects on appeal than a broad physical-takings label, and should be building the factual record on actual, documented losses now rather than waiting for the Ninth Circuit's ruling to decide how much that record will matter."
+      ],
+      timeline: [
+        { when: "December 18, 2025", label: "Cedarland Homes and fourteen co-plaintiffs file suit in Thurston County Superior Court" },
+        { when: "August 5, 2026", label: "Judge Rothstein dismisses the class action, rejecting the physical-takings theory", current: true },
+        { when: "August 2026", label: "Rental Housing Association of Washington files notice of appeal to the Ninth Circuit", upcoming: true }
+      ],
+      tags: ["takings clause", "eviction moratorium", "landlord-tenant", "ninth circuit", "washington"]
+    },
+    {
+      id: "live-114",
+      addedDate: "2026-09-10",
+      title: "Service Credit Union v. Weed (Granite Senior Services / Artemis Living at Littleton Construction-Loan Fraud Suit)",
+      category: "lending-foreclosure",
+      status: "filed",
+      date: "2026-06-24",
+      jurisdiction: "Grafton Superior Court, New Hampshire",
+      state: "NH",
+      amount: "$30M in principal claims against the primary defendants, plus $1.5M sought from CTC Commercial and related defendants; $22M collateral value",
+      source: "live",
+      sourceUrl: "https://www.nhbr.com/new-lawsuit-alleges-coordinated-fraud/",
+      summary: "Service Credit Union filed a ten-count fraud and conspiracy suit in Grafton Superior Court against the sponsors of a stalled Littleton, New Hampshire senior living project and against SCU's own former commercial loan officer, alleging the group diverted draws from a $30 million construction loan for personal use. The project, Artemis Living at Littleton, stalled in September 2025 and has since gone into foreclosure, with SCU valuing the collateral at roughly $22 million against the $30 million owed. SCU has also sought an ex parte attachment of the defendants' real estate and other assets.",
+      significance: "The case illustrates how construction-loan fraud risk can originate inside a lender's own loan-administration function, not just on the borrower side, and underscores why draw-disbursement controls need independent oversight on large, multi-draw commercial construction loans. Lenders financing ground-up commercial and senior-living development should treat the case as a prompt to review segregation-of-duties controls between loan origination, draw approval, and construction monitoring.",
+      body: [
+        "A ten-count civil suit filed in Grafton Superior Court is putting a spotlight on one of the more uncomfortable risks in commercial real estate lending: the possibility that a lender's own personnel help borrowers misdirect loan proceeds. Service Credit Union, a New Hampshire-chartered financial institution, filed suit on June 24, 2026 against the sponsors of a stalled senior living development in Littleton, New Hampshire, along with SCU's own former commercial loan officer, alleging a coordinated scheme to defraud the credit union out of a $30 million construction loan.",
+        "The complaint names brothers George and Michael Papadimatos, principals of Granite Senior Operations LLC and the broader entity behind the planned Artemis Living at Littleton campus, along with David A. Weed, the SCU loan officer who oversaw the credit and was terminated from the credit union in July 2025. Additional defendants include Shawn Harressey and CTC Commercial, along with related entities Blue Lodge Spray Foam and GSS. SCU alleges breach of contract, fraud, civil conspiracy, unlawful conversion, unjust enrichment, and fraudulent transfer against the group, and separately accuses Weed of gross negligence for allegedly acting outside the scope of his employment while the loan was being administered and disbursed.",
+        "According to the complaint, Weed and the Papadimatos brothers, together with CTC as to certain fund disbursements, conspired to induce SCU into issuing the $30 million construction loan and then diverted various draws for purposes unrelated to the project rather than applying them to construction costs as the loan agreement required. Construction on the Artemis Living campus, planned along St. Johnsbury Road, stalled in September 2025 amid an alleged lack of payment to both the lender and the project's own contractors, and the property has since gone into foreclosure. SCU's own valuation puts the collateral at roughly $22 million against the $30 million owed, meaning that even a successful liquidation of the property is unlikely to make the credit union whole.",
+        "Alongside the complaint, SCU filed a motion for ex parte attachment, seeking to record liens against real estate and other assets held by the defendants at the Grafton County Registry of Deeds and the New Hampshire Secretary of State's office before those assets could be moved or encumbered further. Weed, the Papadimatos brothers, Blue Lodge Spray Foam, and GSS face the bulk of the $30 million claim, while SCU is separately seeking roughly $1.5 million from CTC Commercial and the Haresseys tied to their alleged role in specific disbursements.",
+        "The case remains at an early stage, with SCU's attachment motion aimed largely at preserving assets while the fraud and conspiracy claims are litigated, and no trial date has yet been set. For commercial lenders generally, the matter is a pointed reminder that draw requests, lien waivers, and inspection certifications are typically the last line of defense against exactly the kind of diversion SCU alleges, and that those controls fail simultaneously with borrower-side fraud whenever the loan officer responsible for enforcing them is himself accused of being part of the scheme. Lenders extending large, multi-draw construction credit should treat this as a reason to segregate origination and administration duties and to periodically audit the personnel who approve disbursements, while also being ready to move quickly on asset-preservation remedies like ex parte attachment if a loan sours amid allegations of internal fraud, since the same misconduct that diverted loan proceeds often puts other borrower and guarantor assets at risk of dissipation before judgment."
+      ],
+      timeline: [
+        { when: "July 2025", label: "David Weed is terminated from Service Credit Union" },
+        { when: "September 2025", label: "Construction on the Artemis Living at Littleton campus stalls" },
+        { when: "June 24, 2026", label: "Service Credit Union files its fraud and conspiracy suit in Grafton Superior Court", current: true }
+      ],
+      tags: ["construction loan fraud", "credit union", "senior living", "foreclosure", "new hampshire"]
     }
   ],
 
@@ -3527,7 +3584,9 @@ const RELAW_DATA = {
     { jurisdiction: "Supreme Court of Alabama", url: "https://judicial.alabama.gov/Appellate/SupremeCourt" },
     { jurisdiction: "Oklahoma County District Court, Oklahoma", url: "https://www.oscn.net/courts/oklahoma" },
     { jurisdiction: "Arkansas Court of Appeals", url: "https://arcourts.gov/courts/court-of-appeals" },
-    { jurisdiction: "Supreme Court of Mississippi", url: "https://courts.ms.gov/appellatecourts/sc/sc.php" }
+    { jurisdiction: "Supreme Court of Mississippi", url: "https://courts.ms.gov/appellatecourts/sc/sc.php" },
+    { jurisdiction: "U.S. District Court, Western District of Washington", url: "https://www.wawd.uscourts.gov/" },
+    { jurisdiction: "Grafton Superior Court, New Hampshire", url: "https://www.courts.nh.gov/your-visit/find-court/grafton-superior-court" }
   ],
 
   /* Judges — background on every judge named in our sourced reporting (never
@@ -3743,6 +3802,14 @@ const RELAW_DATA = {
       court: "U.S. District Court, Eastern District of Missouri",
       background: "Appointed a U.S. Magistrate Judge for the Eastern District of Missouri on April 16, 2015, after serving as an Assistant U.S. Attorney for the district since 2002. Previously practiced patent law at the St. Louis firm Senniger Powers following a clerkship for Judge David R. Hansen of the U.S. Court of Appeals for the Eighth Circuit.",
       bioUrl: "https://www.moed.uscourts.gov/judge/john-m-bodenhausen"
+    },
+    {
+      name: "Barbara J. Rothstein",
+      slug: "barbara-j-rothstein",
+      title: "Senior U.S. District Judge",
+      court: "U.S. District Court, Western District of Washington",
+      background: "Nominated by President Jimmy Carter and confirmed to the federal bench in February 1980 after serving as a King County Superior Court judge, later serving as Chief Judge of the Western District of Washington from 1987 to 1994 and as Director of the Federal Judicial Center from 2003 to 2011. Assumed senior status and continues to hear cases in the Western District of Washington.",
+      bioUrl: "https://www.fjc.gov/history/judges/rothstein-barbara-jacobs"
     }
   ],
 
