@@ -2827,6 +2827,367 @@ const RELAW_DATA = {
         { when: "May 2025", label: "WMN Foshay LP's $51M mortgage matures without full repayment" },
         { when: "April 2026", label: "Deutsche Bank sues to foreclose in Hennepin County District Court, seeking a receiver", current: true }
       ]
+    },
+    {
+      id: "live-101",
+      addedDate: "2026-09-10",
+      title: "Dillard Store Services, Inc. v. Winrock Partners LLC (Winrock Town Center Redevelopment Dispute)",
+      category: "lease-disputes",
+      status: "pending",
+      date: "2026-06-24",
+      jurisdiction: "U.S. District Court, District of New Mexico",
+      judge: "David H. Urias",
+      state: "NM",
+      amount: "Unspecified lost-profits damages",
+      source: "live",
+      sourceUrl: "https://www.pacermonitor.com/public/case/47005124/Dillard_Store_Services,_Inc_v_Winrock_Partners_LLC_et_al",
+      summary: "Dillard Store Services sued Winrock Partners LLC and Integrated Property Services Co. (d/b/a Goodman Realty Group) in December 2022 over the prolonged, multi-year redevelopment of Albuquerque's Winrock Town Center from an enclosed mall into an open-air lifestyle center, alleging the construction blocked entrances and parking around its stores in breach of lease provisions barring common-area obstruction without its consent. Nearly four years later the case remains actively litigated: a magistrate judge granted Dillard's motion to compel in June 2026, and the parties jointly moved in early September 2026 to amend the scheduling order and set a new trial date.",
+      significance: "A durable illustration of how a multi-year mall repositioning can generate lease litigation that outlasts the construction itself: anchor tenants with long-dated leases predating a redevelopment retain leverage to enforce common-area and quiet-enjoyment provisions against an owner's phased-conversion plans, and the discovery fights over what the developer knew about timeline slippage are often where these cases are actually won or lost. Owners converting enclosed malls to open-air formats elsewhere should audit anchor leases for consent-to-obstruct clauses before committing to a construction sequence.",
+      body: [
+        "Dillard's has operated men's and women's stores at Winrock Town Center in Albuquerque since 1992. When Winrock Partners LLC and its manager, Integrated Property Services Co. (doing business as Goodman Realty Group), pushed ahead with a redevelopment converting the enclosed mall into an open-air, mixed-use center, Dillard's sued in the U.S. District Court for the District of New Mexico on December 1, 2022, alleging the construction -- which began that June and ran roughly five months past its original October completion target -- blocked entrances to its stores and tore up surrounding parking for an extended stretch, turning the area into what the complaint calls a dangerous, unclean, and unsightly active construction zone.",
+        "The complaint's core legal theory is straightforward: Dillard's lease bars the landlord from obstructing common areas around its stores without Dillard's consent, and the retailer says the prolonged construction did exactly that, cutting into store traffic and profits for months longer than planned. The suit seeks unspecified damages for lost profits alongside breach-of-contract and negligent-misrepresentation claims.",
+        "Nearly four years after filing, the case is still very much alive. Magistrate Judge John F. Robbenhaar granted Dillard's motion to compel discovery on June 24, 2026, signaling that document and testimony disputes remain contested this deep into the litigation, and the parties filed a joint motion on September 1, 2026 to enter an amended scheduling order and set a new trial date -- the clearest sign yet that the case is heading toward an actual trial rather than settling out.",
+        "For owners and lenders evaluating enclosed-to-open-air mall conversions elsewhere, Winrock is a reminder that a redevelopment's legal tail can run years past substantial completion once an anchor tenant's lease gives it a textual hook -- like a common-area consent clause -- to convert construction delay into a breach claim, and that these disputes are often decided in the discovery trenches rather than on the pleadings."
+      ],
+      tags: ["mall redevelopment", "anchor tenant", "lease breach", "construction disruption", "discovery dispute"],
+      timeline: [
+        { when: "1992", label: "Dillard's opens men's and women's stores at Winrock Town Center" },
+        { when: "June 2022", label: "Open-air redevelopment construction begins, missing its planned October completion date" },
+        { when: "December 1, 2022", label: "Dillard's sues Winrock Partners LLC and Goodman Realty Group for breach of lease and lost profits" },
+        { when: "June 24, 2026", label: "Magistrate judge grants Dillard's motion to compel discovery" },
+        { when: "September 1, 2026", label: "Parties jointly move to amend the scheduling order and set a new trial date", current: true }
+      ]
+    },
+    {
+      id: "live-102",
+      addedDate: "2026-09-10",
+      title: "Thornton v. City of Kuna (Gemstone Technology Park Data Center Rezone Challenge)",
+      category: "zoning-land-use",
+      status: "appeal",
+      date: "2026-08-19",
+      jurisdiction: "Idaho Supreme Court",
+      state: "ID",
+      amount: "$1B+ data center project; 620 acres",
+      source: "live",
+      sourceUrl: "https://boisedev.com/news/2026/08/19/kuna-farmers-appeal-to-idaho-supreme-court-after-petition-against-a-kuna-data-center-was-thrown-out/",
+      summary: "Neighboring landowner Layne Thornton and his Toledo Dairy entities petitioned for judicial review after the Kuna City Council approved, on a tie-breaking 3-2 vote in April 2025, a rezone clearing the way for Diode Ventures' 620-acre, $1B+ Gemstone Technology Park data center campus, arguing council member Greg McPherson should have recused himself given his employment by Thornton. Fourth Judicial District Judge James Cawthon denied the petition in May 2026, finding no 'immediate or direct' economic conflict; Thornton and the Toledo entities appealed to the Idaho Supreme Court in June 2026, leaving the project on hold.",
+      significance: "One of a growing wave of neighbor-driven suits nationally that challenge a data center's local approval process on procedural or conflict-of-interest grounds rather than attacking the underlying land use directly -- a tack that can freeze a multibillion-dollar project's groundbreaking for years regardless of the merits. Developers assembling large rural data-center or industrial campuses via a narrow council vote should scrutinize every voting member's employment and business ties before the hearing, since even a losing recusal argument can stall permits through an appeal.",
+      body: [
+        "Kuna, a fast-growing city southwest of Boise, became a flashpoint in Idaho's data-center boom when Kansas-based Diode Ventures proposed Gemstone Technology Park, a 620-acre campus on farmland owned by Duane Yamamoto near Locust Grove and Barker Roads that the developer says will require more than $1 billion in private investment, built out in phases over roughly a decade. The Kuna City Council approved the rezone and a related comprehensive-plan amendment on a 3-2 vote on April 1, 2025, with Mayor Joe Stear casting the deciding vote after hours of contentious public testimony.",
+        "In August 2025, Layne Thornton -- whose Toledo Dairy operation borders the Yamamoto parcel for more than a mile -- and two affiliated entities, Toledo Dairy I LLC and Toledo Land Holdings LLC, filed a petition for judicial review in Idaho's Fourth Judicial District Court. Their central argument was not that the rezone itself was improper on planning grounds, but that council member Greg McPherson should have recused himself: McPherson was employed by Thornton at the time of the vote, which the petitioners argued created a disqualifying economic conflict of interest under Idaho law.",
+        "District Judge James Cawthon denied the petition in May 2026, holding that for McPherson's employment to create a disqualifying conflict, Thornton -- as his employer -- would have needed an 'immediate or direct' economic stake in the outcome, and that the petitioners hadn't shown one distinct from the general community impact any neighboring landowner might feel. Thornton and the Toledo entities appealed to the Idaho Supreme Court in June 2026, and the case remains pending there as of this writing, with Diode Ventures' groundbreaking timeline on hold pending resolution.",
+        "The dispute is a template for a tactic spreading well beyond Idaho: rather than litigate a data center's water use, noise, or environmental footprint directly, opponents are increasingly attacking the legitimacy of the local approval vote itself -- recusal failures, notice defects, or open-meetings violations -- because a successful procedural challenge can unwind an approval regardless of whether the underlying land use would otherwise survive scrutiny. For developers, the practical lesson is that every voting official's employment and business relationships within the project's footprint deserve the same pre-hearing diligence as the zoning application itself."
+      ],
+      tags: ["data center", "rezoning", "conflict of interest", "judicial review", "Idaho Supreme Court"],
+      timeline: [
+        { when: "April 1, 2025", label: "Kuna City Council approves the Gemstone Technology Park rezone on a 3-2 tie-breaking vote" },
+        { when: "August 2025", label: "Thornton and Toledo Dairy entities petition for judicial review, citing McPherson's alleged conflict of interest" },
+        { when: "May 2026", label: "Judge James Cawthon denies the petition, finding no direct economic conflict" },
+        { when: "June 2026", label: "Petitioners appeal to the Idaho Supreme Court", current: true }
+      ]
+    },
+    {
+      id: "live-103",
+      addedDate: "2026-09-10",
+      title: "Martens v. BB's Childcare, LLC (Commercial Lease-to-Own Jurisdiction Ruling)",
+      category: "lease-disputes",
+      status: "ruling",
+      date: "2026-05-08",
+      jurisdiction: "Nebraska Supreme Court",
+      state: "NE",
+      amount: "$3,000/month commercial lease; purchase-option rights at stake",
+      source: "live",
+      sourceUrl: "https://law.justia.com/cases/nebraska/supreme-court/2026/s-24-914.html",
+      summary: "The Nebraska Supreme Court held on May 8, 2026 that a commercial landlord's forcible entry and detainer action against a childcare-business tenant should have been dismissed for lack of subject matter jurisdiction, because the parties' commercial lease -- which granted the tenant purchase options, rent credits toward a purchase price, and a right of first refusal -- created an equitable interest in the property that made the dispute one over title, not mere possession.",
+      significance: "A significant guardrail for Nebraska commercial landlords who use lease-purchase or lease-to-own structures: once a commercial lease's option-to-purchase and rent-credit terms give the tenant an equitable stake in the real estate, county courts lose jurisdiction to resolve a rent dispute through the fast, summary forcible entry and detainer process, forcing landlords into full district court litigation over title and equitable rights instead. Owners drafting build-to-suit or lease-to-own commercial leases should weigh that trade-off against the option's leasing incentive before including it.",
+      body: [
+        "William Martens, the owner of a commercial property in Nebraska, leased it to BB's Childcare, LLC and its principal, Tasha McNeil, under a written commercial lease executed in September 2020 for a childcare business. The lease ran an initial five-year term ending October 1, 2025, with options for second and third terms extending as far as June 2035, monthly rent of $3,000, and a default trigger of ninety days' non-payment. Notably, the lease also granted the tenants options to purchase the property in future terms, credited a portion of rent payments toward that purchase price, and restricted Martens's ability to sell the property to a third party without first offering the tenants a chance to exercise their purchase option.",
+        "In December 2023, Martens filed a forcible entry and detainer action in county court, alleging BB's Childcare had failed to pay rent as required. The tenants countered that the county court lacked subject matter jurisdiction, arguing that resolving the case required deciding a dispute over their equitable interest in the property itself -- something forcible entry and detainer's summary possession procedure isn't built to adjudicate.",
+        "The Nebraska Supreme Court agreed. In its May 8, 2026 opinion (321 Neb. 335), the Court held that a forcible entry and detainer action is not the proper vehicle to resolve what is, in substance, a contract or title dispute between landlord and tenant, and that where a claimant's right to possession depends on resolving the defendant's separate legal or equitable rights in the property, the court must dismiss for want of jurisdiction. Because the lease's purchase options, rent credits, and right-of-first-refusal provisions gave the tenants an equitable interest bound up with the rent dispute, the Court vacated the judgment below and remanded with instructions to dismiss the case for lack of jurisdiction.",
+        "The ruling matters well beyond a single Nebraska strip-mall or standalone-building tenancy: any commercial landlord using a lease-to-own or lease-purchase structure -- common in build-to-suit deals for small commercial users like childcare centers, medical offices, or single-tenant retail -- now has clear Nebraska Supreme Court authority that a straightforward eviction filing may not be available once nonpayment intersects with the tenant's contractual path to ownership. Landlords in that position should expect to litigate rent and possession disputes in district court under ordinary civil procedure rather than through the faster forcible entry and detainer track, and should weigh that added litigation friction against the leasing incentive a purchase option provides."
+      ],
+      tags: ["forcible entry and detainer", "lease-to-own", "equitable interest", "subject matter jurisdiction", "Nebraska Supreme Court"],
+      timeline: [
+        { when: "September 2020", label: "Martens and BB's Childcare, LLC execute a commercial lease with purchase options and rent credits" },
+        { when: "December 2023", label: "Martens files a forcible entry and detainer action alleging non-payment of rent" },
+        { when: "May 8, 2026", label: "Nebraska Supreme Court vacates the judgment and orders dismissal for lack of subject matter jurisdiction", current: true }
+      ]
+    },
+    {
+      id: "live-104",
+      addedDate: "2026-09-10",
+      title: "Pioneer Hi-Bred International, Inc. et al. v. AltEn, LLC (Mead Ethanol Plant Cleanup-Cost Litigation)",
+      category: "environmental",
+      status: "settled",
+      date: "2025-11-26",
+      jurisdiction: "U.S. District Court, District of Nebraska",
+      judge: "Brian C. Buescher",
+      state: "NE",
+      amount: "~$28M in cleanup costs at issue",
+      source: "live",
+      sourceUrl: "https://nebraskaexaminer.com/2025/12/09/pillen-touts-alten-cleanup-progress-after-federal-lawsuit-settled/",
+      summary: "Seven seed and agrichemical companies -- Pioneer Hi-Bred International, Corteva Agriscience, AgReliant Genetics, Beck's Superior Hybrids, Winfield Solutions, Syngenta Seeds, and Bayer U.S. -- sued the defunct AltEn ethanol plant near Mead, Nebraska and its affiliated entities in 2022 to recover cleanup costs after the plant improperly stockpiled pesticide-treated seed corn waste and contaminated wastewater on-site. U.S. District Judge Brian Buescher dismissed the consolidated federal cases on November 26, 2025 after the parties reached an undisclosed settlement requiring AltEn to file a long-term environmental covenant restricting future use of the contaminated property.",
+      significance: "A rare instance of the companies that supplied a now-bankrupt facility's feedstock effectively becoming the ones responsible for cleaning up and permanently restricting reuse of its industrial real estate, after government enforcement alone couldn't resolve a site environmentalists called one of Nebraska's worst-ever contamination incidents. Any owner or supplier tied to a distressed industrial or agricultural-processing site should treat this as a model for how private cost-recovery litigation can end in a durable land-use covenant even where the responsible operator has no money left to pay a judgment.",
+      body: [
+        "AltEn, LLC operated an ethanol plant south of Mead, Nebraska that, unlike a conventional ethanol facility, accepted unsold pesticide-treated seed corn from major agricultural companies as feedstock rather than ordinary field corn -- seed AltEn's state permit did not authorize it to process. Rather than finding a lawful outlet for the resulting waste, AltEn stockpiled contaminated 'wet cake' byproduct and pesticide-laced wastewater in on-site lagoons, and a frozen pipe rupture on a 4-million-gallon anaerobic digester tank released additional waste, creating what neighboring residents and environmental groups have described as one of the state's most serious industrial contamination events.",
+        "Seven companies that had supplied AltEn with treated seed -- Pioneer Hi-Bred International, Corteva Agriscience, AgReliant Genetics, Beck's Superior Hybrids, Winfield Solutions, Syngenta Seeds, and Bayer U.S. -- sued AltEn, Mead Cattle Company, Green Disposal Mead, Platte River Green Fuels, and individual defendants Tanner Shaw and Scott Tingelhoff in the U.S. District Court for the District of Nebraska beginning in February 2022 (consolidated as Case Nos. 8:22CV70, 8:22CV71, and 8:22CV82), seeking to recover cleanup costs and enforce indemnification obligations the companies say AltEn had agreed to when it accepted the treated seed. The companies -- organized as the AltEn Facility Response Group -- ultimately fronted an estimated $28 million of their own money to remediate the site, well beyond what AltEn or its insolvent affiliates could pay.",
+        "After nearly four years of litigation, including a 2023 order freezing AltEn's assets as the cleanup tab grew, the parties reached an undisclosed settlement, and U.S. District Judge Brian Buescher dismissed the consolidated cases on November 26, 2025. As part of the resolution, AltEn is required to file an environmental covenant with Saunders County imposing long-term restrictions on how the contaminated property can be used going forward -- a mechanism the Nebraska Department of Water, Energy, and Environment relies on to protect the public at cleanup sites even after active remediation winds down. A related state enforcement lawsuit brought by the Nebraska Attorney General in Saunders County District Court over the same conduct remained paused pending settlement talks as of the federal dismissal.",
+        "For any company whose supply chain runs through a third-party processing or disposal facility, AltEn is a cautionary tale about how quickly a feedstock arrangement can convert into cleanup liability once a processor mishandles the material -- and a case study in how private litigation, rather than a government enforcement judgment the operator can't pay, ended up producing the durable outcome: a permanent land-use restriction on the contaminated property itself."
+      ],
+      tags: ["CERCLA-adjacent", "ethanol plant", "cleanup costs", "environmental covenant", "cost recovery"],
+      timeline: [
+        { when: "2021", label: "State and local officials identify large-scale pesticide-contaminated waste stockpiling at the AltEn site" },
+        { when: "February 2022", label: "Seven seed and agrichemical companies sue AltEn and affiliates to recover cleanup costs" },
+        { when: "February 2023", label: "Court freezes AltEn's assets as the seed companies' cleanup costs continue to rise" },
+        { when: "November 26, 2025", label: "Judge Brian Buescher dismisses the consolidated cases following an undisclosed settlement requiring a permanent environmental covenant", current: true }
+      ]
+    },
+    {
+      id: "live-105",
+      addedDate: "2026-09-10",
+      title: "Tucker United v. West Virginia Air Quality Board (Ridgeline Data Center Permit Appeal)",
+      category: "environmental",
+      status: "appeal",
+      date: "2026-08-26",
+      jurisdiction: "Intermediate Court of Appeals of West Virginia",
+      state: "WV",
+      amount: "1,600 MW off-grid gas/diesel power plant + data center; 500 acres",
+      source: "live",
+      sourceUrl: "https://www.legalnewsline.com/west-virginia-record/ica-dismisses-two-tucker-co-data-center-environmental-cases/article_1c0102fc-3c78-4bcb-9cd6-761fc9ecaec3.html",
+      summary: "Tucker United, the Sierra Club, the West Virginia Highlands Conservancy, and Friends of Blackwater appealed the state Air Quality Board's approval of an air permit for Fundamental Data LLC's proposed Ridgeline power plant and data center -- a 1,600-megawatt off-grid gas-and-diesel facility on 500 acres near Davis and Thomas in Tucker County -- arguing DEP improperly classified it as a minor emissions source to limit public review. The Intermediate Court of Appeals dismissed both consolidated appeals (Nos. 26-ICA-92 and 25-ICA-391) on August 26, 2026 for lack of jurisdiction, holding that direct challenges to Air Quality Board permit decisions must go to circuit court or the West Virginia Supreme Court of Appeals, not the ICA -- but left the door open for the groups to appeal further with 'good cause' for the delay.",
+      significance: "A jurisdictional dead end that nonetheless keeps a large-scale off-grid data center's air permit contested well past groundbreaking, and a preview of how West Virginia's new data-center-friendly siting law (which strips local zoning authority over such projects) is shifting the real fight to environmental permitting venues instead. Developers building large gas-fired, off-grid power plants to serve data centers in West Virginia should expect permit challenges to migrate to whichever appellate forum a jurisdictional ruling like this one leaves open, prolonging uncertainty even after a project clears its underlying air permit.",
+      body: [
+        "Fundamental Data, LLC is developing Ridgeline, a proposed 1,600-megawatt off-grid power plant burning natural gas and diesel to run a co-located data center on roughly 500 acres near Davis and Thomas in Tucker County, West Virginia -- deep in the state's tourism-dependent Potomac Highlands. The project drew sustained local opposition, and after West Virginia's Air Quality Board approved the facility's air quality permit, four community and environmental groups -- Tucker United, the Sierra Club, the West Virginia Highlands Conservancy, and Friends of Blackwater -- filed appeals contending the West Virginia Department of Environmental Protection had improperly classified Ridgeline as a 'minor source' of air pollution, a designation the groups say lets the project avoid the more rigorous public review and emissions scrutiny a major source would face, while critical emissions data was redacted from what the public could review.",
+        "The litigation took an unusual procedural turn in mid-2026: two Intermediate Court of Appeals judges, Chief Judge Daniel W. Greear and Judge Charles O. Lorensen, voluntarily recused themselves after it emerged that Fundamental Data's counsel included West Virginia House Speaker Roger Hanshaw and colleagues from his law firm. The state Supreme Court of Appeals temporarily assigned circuit court judges Shawn D. Nines and Gregory L. Howard Jr. to hear the consolidated matters in their place.",
+        "On August 26, 2026, the ICA dismissed both consolidated appeals -- No. 26-ICA-92 (Tucker United, the Highlands Conservancy, and the Sierra Club) and No. 25-ICA-391 (Tucker United, Friends of Blackwater, and the Highlands Conservancy) -- for lack of jurisdiction. The court held that under West Virginia's conflicting statutory scheme, a challenge to an order approving, denying, or modifying an air permit must go directly to the West Virginia Supreme Court of Appeals or, in some circumstances, circuit court, rather than the ICA; the second appeal was independently deemed moot because the final permit challenged in it had already been superseded by the permit at issue in the first case. The court explicitly noted the environmental groups would have 'good cause' to file late notices of appeal with the state Supreme Court given how long the jurisdictional question took to resolve, effectively inviting them to refile there.",
+        "The case lands against the backdrop of a 2025 West Virginia law, HB 2014, that strips local governments of zoning authority over qualifying data-center projects in exchange for directing a large share of the tax revenue they generate to the state -- meaning environmental permitting challenges like this one, rather than local zoning fights, are becoming the primary legal avenue left for communities opposing large off-grid power-and-data-center campuses in the state. For developers, the jurisdictional back-and-forth is itself a form of delay: even a procedurally sound permit can stay contested for years while courts sort out which forum has authority to hear the challenge at all."
+      ],
+      tags: ["data center", "air quality permit", "jurisdictional dismissal", "off-grid power plant", "recusal"],
+      timeline: [
+        { when: "February 2026", label: "West Virginia Air Quality Board approves the Ridgeline facility's air quality permit" },
+        { when: "March 2026", label: "Tucker United and allied groups appeal the permit approval" },
+        { when: "April-June 2026", label: "ICA judges Greear and Lorensen recuse over ties to Fundamental Data's counsel; temporary judges assigned" },
+        { when: "August 26, 2026", label: "ICA dismisses both consolidated appeals for lack of jurisdiction, inviting refiling at the state Supreme Court", current: true }
+      ]
+    },
+    {
+      id: "live-106",
+      addedDate: "2026-09-10",
+      title: "West Virginia Dept. of Environmental Protection v. Bluestone Coal Corp.",
+      category: "environmental",
+      status: "filed",
+      date: "2026-08-07",
+      jurisdiction: "Circuit Court of Kanawha County, West Virginia",
+      state: "WV",
+      amount: "$2,931,492.40 in unpaid penalties sought",
+      source: "live",
+      sourceUrl: "https://www.legalnewsline.com/west-virginia-record/dep-sues-bluestone-coal-for-3m-in-unpaid-penalties/article_ee3ca625-ea71-4d9d-a64a-b37b11b9f15d.html",
+      summary: "The West Virginia Department of Environmental Protection sued Bluestone Coal Corporation, a coal company owned by the family of U.S. Senator Jim Justice, in Kanawha County Circuit Court on August 7, 2026 (Case No. 26-C-938), seeking to recover $2,931,492.40 in unpaid civil and administrative penalties for surface mining and water pollution violations at multiple mine sites, plus interest, remediation, and an injunction against further violations.",
+      significance: "The latest chapter in a years-long pattern of West Virginia and federal regulators pursuing unpaid mining-law penalties against companies tied to the Justice family, illustrating how accumulated reclamation and water-pollution fines against commercial mining real estate can compound for years -- through federal and state actions alike -- before a regulator escalates to court enforcement. Lenders and counterparties evaluating mining-adjacent commercial real estate should treat unresolved DEP and OSMRE penalty histories as a live balance-sheet liability, not a closed regulatory matter, given how long these obligations can sit unpaid before suit is filed.",
+      body: [
+        "The West Virginia Department of Environmental Protection's Division of Mining and Reclamation filed suit against Bluestone Coal Corporation, a company headquartered in Roanoke, Virginia and owned by the family of U.S. Senator and former West Virginia Governor Jim Justice, in Kanawha County Circuit Court on August 7, 2026. The complaint, docketed as Case No. 26-C-938, alleges Bluestone has accumulated more than $2.9 million in unpaid civil and administrative penalties across multiple surface mining operations and has failed to comply with state compliance orders meant to bring those operations back into line.",
+        "The DEP's complaint breaks the total into two buckets: $1,643,492.40 in penalties under West Virginia's Surface Coal Mining and Reclamation Act, and $1,288,000 under the state's Water Pollution Control Act, for a combined $2,931,492.40 sought before interest -- which the DEP notes will keep accruing, along with the possibility of additional violations, over the course of the litigation. The suit seeks full penalty recovery, remediation of the underlying violations, a permanent injunction against future violations at the affected sites, and pre- and post-judgment interest.",
+        "This is not Bluestone's or the broader Justice family coal enterprise's first brush with unpaid-penalty enforcement: the U.S. Department of Justice sued thirteen Justice-family coal companies in 2023 over roughly $7.6 million in unpaid federal mine-safety penalties, and separate federal tax liens and a roughly $8.29 million judgment in an unrelated indemnity dispute have also piled up against Justice and affiliated entities in recent years. The new DEP suit adds a state-level mining and water-pollution enforcement action to that growing docket of unresolved financial obligations tied to the family's coal holdings.",
+        "For anyone assessing the balance-sheet risk of mining-adjacent commercial real estate, the case is a reminder that reclamation and pollution penalties don't disappear simply because a regulator hasn't yet gone to court to collect them -- they can sit as an escalating, largely invisible liability against the underlying mine property for years, surfacing all at once when a state or federal regulator finally decides enforcement litigation is the only way to collect."
+      ],
+      tags: ["coal mining", "reclamation penalties", "water pollution", "regulatory enforcement", "Jim Justice"],
+      timeline: [
+        { when: "2020-2025", label: "Bluestone accumulates civil and administrative penalties across multiple surface mining operations without paying or curing violations" },
+        { when: "August 7, 2026", label: "WV DEP sues Bluestone Coal Corp. in Kanawha County Circuit Court seeking $2.93M+ in penalties", current: true }
+      ]
+    },
+    {
+      id: "live-107",
+      addedDate: "2026-09-10",
+      title: "Hembree Insurance Trust v. Maples Industries, Inc. (Scottsboro Industrial Lease Dispute)",
+      category: "lease-disputes",
+      status: "ruling",
+      date: "2025-04-11",
+      jurisdiction: "Supreme Court of Alabama",
+      judge: "Sarah H. Stewart",
+      state: "AL",
+      amount: "N/A — five-year industrial lease's validity and enforceability at issue",
+      source: "live",
+      sourceUrl: "https://www.insurancebusinessmag.com/us/news/legal-insights/alabama-supreme-court-sides-with-insurance-trust-in-commercial-lease-dispute-532711.aspx",
+      documentUrl: "https://www.courtlistener.com/opinion/10376752/hembree-insurance-trust-v-maples-industries-inc-appeal-from-jackson/",
+      documentLabel: "Read the Alabama Supreme Court's opinion",
+      summary: "The Alabama Supreme Court reversed a Jackson County trial court that had declared a five-year, 135,847-square-foot Scottsboro industrial lease 'null and void in all respects' because the named landlord, Hembree Insurance Trust, had transferred title to the building to its own single-member LLC, Woods Cove Industrial Property, nine years before signing the lease. Hembree sued tenant Maples Industries in March 2024 for failing to repair the property's roof as the lease required; Maples countered that the lease was void because Hembree didn't actually own the building. The Court held that a tenant in possession generally cannot dispute its landlord's title, reversing summary judgment for Maples and remanding.",
+      significance: "A reminder that a lessor's authority to lease commercial property does not depend on holding record title in its own name — a controlling member of a title-holding LLC can validly lease that LLC's real estate, and a tenant who accepted the benefit of the lease for years is generally estopped from later challenging the landlord's title once a maintenance dispute arises. Sponsors that route commercial real estate into single-purpose title-holding entities, but continue leasing from the parent or an affiliate, should take note that the maneuver both works and can be used offensively by the title-holder to enforce lease obligations like roof-repair covenants.",
+      body: [
+        "Hembree Insurance Trust leased a 135,847-square-foot industrial building in Scottsboro, Alabama to Maples Industries, Inc. in February 2019, for a five-year term running from January 1, 2020 through December 31, 2024, with Maples responsible for maintaining the property and each party splitting the cost of any major roof repair or replacement. When Hembree sued Maples in March 2024 alleging Maples had let the roof deteriorate without repairing or replacing it as the lease required, Maples moved to dismiss on an unusual theory: Hembree didn't actually own the building. A 2014 warranty deed showed Hembree had transferred the property years earlier to Woods Cove Industrial Property, LLC — meaning, Maples argued, the 2019 lease that Hembree signed as landlord was void from the start.",
+        "The Jackson Circuit Court agreed, treating Maples's motion as one for summary judgment and declaring the lease 'null and void in all respects' because Woods Cove, not Hembree, held title. Hembree appealed, pointing out that it was Woods Cove's sole member and manager under the LLC's own operating agreement, which expressly authorized Hembree to lease Woods Cove's property on the entity's behalf.",
+        "The Alabama Supreme Court reversed. Chief Justice Stewart's opinion for the Court leaned on a long-settled landlord-tenant principle: a tenant that has accepted possession under a lease is generally estopped from later disputing its landlord's title, and a lessor need not hold record title at all so long as it lawfully possesses or controls the property. Because Maples had occupied and benefited from the building under the 2019 lease for years without objection, it could not turn around and use Hembree's corporate structure to void the lease once a maintenance dispute arose. The case returned to the trial court, which entered a new judgment; a second appeal challenging that judgment was summarily affirmed without opinion on October 31, 2025, closing out the litigation in Hembree's favor.",
+        "For CRE sponsors and asset managers, the case cuts both ways: routing real estate into a single-member LLC for liability or financing reasons does not by itself void leases the parent signs as if it were the owner, but it does invite exactly the kind of technical challenge Maples raised here. Documenting the parent's authority to act on the title-holding entity's behalf — ideally by having the LLC itself execute or ratify the lease — avoids litigating the point years into a tenancy."
+      ],
+      timeline: [
+        { when: "February 2019", label: "Hembree Insurance Trust and Maples Industries sign a five-year industrial lease in Scottsboro" },
+        { when: "March 3, 2024", label: "Hembree sues Maples for failing to repair the roof as required by the lease" },
+        { when: "July 17, 2024", label: "Jackson Circuit Court declares the lease void because title had passed to Hembree's LLC, Woods Cove" },
+        { when: "April 11, 2025", label: "Alabama Supreme Court reverses, holding Maples is estopped from disputing Hembree's authority to lease", current: true },
+        { when: "October 31, 2025", label: "A second appeal is summarily affirmed without opinion following remand, closing the case" }
+      ],
+      tags: ["commercial lease", "landlord title", "estoppel", "industrial property", "alabama supreme court"]
+    },
+    {
+      id: "live-108",
+      addedDate: "2026-09-10",
+      title: "CBS Holdings, LLC v. Hexagon US Federal, Inc. (Madison County Lease Renewal & Fee Fight)",
+      category: "lease-disputes",
+      status: "appeal",
+      date: "2025-07-11",
+      jurisdiction: "Supreme Court of Alabama",
+      judge: "Gregory Cook",
+      state: "AL",
+      amount: "$174,987.45 in disputed attorney fees; underlying lease renewal upheld",
+      source: "live",
+      sourceUrl: "https://law.justia.com/cases/alabama/supreme-court/2024/sc-2024-0077.html",
+      documentUrl: "https://caselaw.findlaw.com/court/al-supreme-court/117470240.html",
+      documentLabel: "Read the attorney-fee opinion",
+      summary: "Hexagon US Federal, Inc. ('HexFed') sued CBS Holdings, LLC in Madison Circuit Court after CBS Holdings, the building's new owner, disputed whether HexFed had validly renewed its lease on two bays of office/industrial space. The trial court ruled for HexFed on every claim, reformed the lease to fix a mutual drafting mistake, and the Alabama Supreme Court affirmed that judgment on October 18, 2024. A second appeal over the resulting $174,987.45 attorney-fee award went the other way: on July 11, 2025, the Court found HexFed's heavily redacted billing records didn't support the award and sent the fee question back down for a properly documented ruling.",
+      significance: "A cautionary tale for prevailing parties seeking contractual attorney fees in commercial lease litigation: even a party that wins outright on the merits can lose its fee award on appeal if it redacts too much of its own billing detail to let a court evaluate reasonableness under Alabama's Peebles factors. Landlords and tenants negotiating fee-shifting lease provisions should expect that collecting on them requires producing detailed, largely unredacted time records, not just a final invoice total.",
+      body: [
+        "Hexagon US Federal, Inc. leased two bays of a building from Intergraph Unimproved Properties, LLC starting in 2015, with the lease amended in 2016 to put both bays on a uniform five-year term. CBS Holdings, LLC later bought the building and stepped into the landlord's role. When a dispute arose in 2020 over whether HexFed had validly exercised its renewal option — complicated by an admitted drafting error in how the rent cap was calculated — HexFed sued CBS Holdings for breach of the lease and breach of the covenant of quiet enjoyment.",
+        "Following a December 2023 bench trial, the Madison Circuit Court ruled for HexFed across the board: it found CBS Holdings had waived any argument that one bay's lease term had already expired by accepting rent without objection, reformed the lease to correct the parties' mutual mistake on the rent ceiling, declared HexFed's renewal valid, and awarded HexFed its costs and attorney fees. The Alabama Supreme Court affirmed that judgment in full on October 18, 2024 (case no. SC-2024-0077), agreeing that CBS Holdings' course of conduct after the alleged expiration date foreclosed its own argument.",
+        "The fight didn't end there. After an evidentiary hearing, the trial court set HexFed's fee award at $174,987.45, but CBS Holdings appealed again, arguing HexFed's invoices — 458 line-item entries, 449 of them redacted for privilege — gave the court no way to assess whether the work billed was reasonable or necessary. On July 11, 2025, the Alabama Supreme Court agreed, holding that a trial court's fee order must permit meaningful appellate review by explaining how it weighed the state's Peebles factors, and that heavily redacted invoices can't support that kind of explanation. The Court reversed the fee award and remanded for HexFed to submit adequate support and for the trial court to detail its calculation.",
+        "The underlying commercial lease dispute is fully resolved in HexFed's favor; what remains open on remand is purely how much CBS Holdings must pay toward HexFed's legal bill for getting there — a live illustration of how a fee-shifting clause's teeth depend entirely on the winning party's billing hygiene."
+      ],
+      timeline: [
+        { when: "April 21, 2021", label: "HexFed sues CBS Holdings in Madison Circuit Court over the lease renewal" },
+        { when: "January 12, 2024", label: "Trial court rules for HexFed on all claims and reforms the lease" },
+        { when: "April 16, 2024", label: "Trial court awards HexFed $174,987.45 in costs and attorney fees" },
+        { when: "October 18, 2024", label: "Alabama Supreme Court affirms the merits judgment for HexFed (SC-2024-0077)" },
+        { when: "July 11, 2025", label: "Alabama Supreme Court reverses the fee award over inadequate billing support and remands", current: true }
+      ],
+      tags: ["commercial lease renewal", "lease reformation", "attorney fees", "madison county", "office space"]
+    },
+    {
+      id: "live-109",
+      addedDate: "2026-09-10",
+      title: "Ready Capital Mortgage Financing 2023-FL 12, LLC v. Drexel Flats Acquisition LLC (Oklahoma City Apartment Foreclosure)",
+      category: "lending-foreclosure",
+      status: "ruling",
+      date: "2026-05-20",
+      jurisdiction: "Oklahoma County District Court, Oklahoma",
+      judge: "Amy Palumbo",
+      state: "OK",
+      amount: "~$28M–$30M in alleged unpaid principal, interest, and fees",
+      source: "live",
+      sourceUrl: "https://kfor.com/news/local/vesta-realtys-okc-luxury-apartments-face-foreclosure-due-to-millions-in-missed-loan-payments/",
+      documentUrl: "https://www.oscn.net/dockets/GetCaseInformation.aspx?db=oklahoma&number=CJ-2026-1275",
+      documentLabel: "View the Oklahoma County District Court docket (CJ-2026-1275)",
+      summary: "CMBS lender Ready Capital Mortgage Financing 2023-FL 12, LLC sued to foreclose on the 272-unit Drexel Flats apartment complex in southwest Oklahoma City after borrower entities tied to Tulsa-based Vesta Realty and its CEO, Marc Kulick, defaulted on the property's loan. Judge Amy Palumbo granted the lender's motion to appoint a receiver on May 20, 2026 after finding Vesta-affiliated borrowers had not turned over rents while tenants went months without reliable trash and utility service; the borrowers posted a $200,000 cash bond and appealed the receivership order to the Oklahoma Supreme Court while a separate summary-judgment motion remains pending in the trial court.",
+      significance: "One of several parallel Oklahoma County foreclosure and receivership actions tied to the collapse of Vesta Realty's roughly $1 billion, multistate apartment portfolio (see the related Vesta Capital, LLC v. Kulick investor-fraud suit in Kansas), this case shows how quickly a court will strip a distressed sponsor of day-to-day control once tenant harm from unpaid utilities and deferred maintenance becomes part of the record — even before the underlying default is finally adjudicated on summary judgment. Lenders and receivership candidates on distressed multifamily assets should expect Oklahoma courts to move on a receiver motion well ahead of the merits.",
+      body: [
+        "Ready Capital Mortgage Financing 2023-FL 12, LLC filed suit in Oklahoma County District Court on February 18, 2026 to foreclose on Drexel Flats, a 272-unit apartment complex in southwest Oklahoma City, naming as defendants the borrower entities Drexel Flats Acquisition LLC and Drexel Flats Acquisition TIC LLC, Vesta Realty founder and CEO Marc Kulick individually, several unpaid trade contractors who had filed liens against the property, and YSA Investments 1, LLC — the vehicle used by former arms dealer Efraim Diveroli to take over roughly two dozen other Vesta-affiliated properties after extending Kulick high-interest rescue loans.",
+        "The petition, filed alongside a motion to appoint a receiver, came after months of reporting on unpaid utility bills and overflowing trash service at Vesta-managed properties across Oklahoma amid the broader collapse of Kulick's roughly $1 billion, nearly-10,000-unit multifamily platform. Following a contested hearing, Judge Amy Palumbo granted the receiver motion on May 20, 2026, and a written order appointing Jeremiah Foster of Resolute Commercial Services, LLC as receiver was entered May 28, 2026.",
+        "The Drexel Flats borrowers didn't concede the point: they posted a $200,000 cash bond and filed a petition in error taking the receivership order up to the Oklahoma Supreme Court, while YSA Investments 1 — despite being a defendant in this case as a competing claimant to the collateral — separately filed for Chapter 11 bankruptcy protection on July 30, 2026, staying the foreclosure claim as to YSA specifically. Meanwhile, the underlying foreclosure claim continues in the trial court, with Ready Capital's motion for summary judgment against the remaining defendants set for hearing in November 2026.",
+        "The case is one of several Oklahoma County actions arising from Vesta's collapse — parallel to, but legally distinct from, the Kansas investor-fraud suit Vesta Capital, LLC v. Kulick — and illustrates how a multistate sponsor's implosion generates simultaneous, overlapping litigation tracks: a fraud case where the capital was raised, receivership and foreclosure fights where the properties sit, and now competing bankruptcy and appellate proceedings layered on top of both."
+      ],
+      timeline: [
+        { when: "February 18, 2026", label: "Ready Capital sues to foreclose on Drexel Flats and moves to appoint a receiver" },
+        { when: "May 20, 2026", label: "Judge Amy Palumbo grants the motion for appointment of a receiver", current: true },
+        { when: "May 28, 2026", label: "Written order appointing a receiver is entered; Jeremiah Foster of Resolute Commercial Services is installed" },
+        { when: "June 3, 2026", label: "Borrower defendants post a $200,000 cash bond and appeal the receivership order to the Oklahoma Supreme Court" },
+        { when: "July 30, 2026", label: "Co-defendant YSA Investments 1, LLC files for Chapter 11 bankruptcy, staying the case as to YSA" },
+        { when: "November 3, 2026", label: "Plaintiff's motion for summary judgment is set for hearing in the trial court" }
+      ],
+      tags: ["foreclosure", "receivership", "multifamily", "oklahoma", "vesta realty"]
+    },
+    {
+      id: "live-110",
+      addedDate: "2026-09-10",
+      title: "Thompson Thrift Construction, Inc. v. Modus Studio, PLLC (Fayetteville Student Housing Defect Suit)",
+      category: "construction-defect",
+      status: "ruling",
+      date: "2025-04-02",
+      jurisdiction: "Arkansas Court of Appeals",
+      judge: "Brandon Harrison",
+      state: "AR",
+      amount: "$13,529,726 underlying arbitration award against the general contractor",
+      source: "live",
+      sourceUrl: "https://thelawyerworld.com/blog/arkansass-five-year-construction-defect-deadline/",
+      documentUrl: "https://caselaw.findlaw.com/court/crt-app-ark-div-iii/117132257.html",
+      documentLabel: "Read the Arkansas Court of Appeals opinion",
+      summary: "After owner West Center Partners, LLC won a $13,529,726 arbitration award against general contractor Thompson Thrift Construction over defects in a Fayetteville student housing project, Thompson Thrift tried to pass that loss on to the project's architect, Modus Studio, PLLC, and several subcontractors. A Washington County circuit court threw out Thompson's claims against Modus as barred by Arkansas's five-year construction statute of repose, but the Arkansas Court of Appeals reversed on April 2, 2025, holding in a case of first impression that Arkansas's one-year savings statute can revive a timely-filed claim even after the repose period has otherwise run.",
+      significance: "Establishes, for the first time in Arkansas, that the state's construction statute of repose does not defeat the separate savings statute for a claim that was originally filed within the five-year repose window but later dismissed without prejudice and refiled within a year — meaningfully extending how long a general contractor held liable for defects can still pursue indemnification and contribution claims against the design professionals and subcontractors who did the underlying work. Developers, GCs, and design firms on Arkansas projects should treat a repose-period deadline as less absolute than previously assumed once a qualifying dismissal and timely refiling are in play.",
+      body: [
+        "West Center Partners, LLC sued Thompson Thrift Construction, Inc. in Washington County Circuit Court in July 2019, alleging Thompson Thrift was responsible as prime contractor for construction defects discovered in a student housing project it had built in Fayetteville, substantially completed in August 2014. Thompson Thrift responded the same month by filing third-party claims against the project's architect, Modus Studio, PLLC, and several subcontractors, seeking contribution and indemnification to the extent it was found liable to West Center Partners.",
+        "The case took a detour when West Center Partners dropped its circuit-court complaint to pursue the dispute in arbitration instead, leading the circuit court to dismiss Thompson Thrift's third-party claims without prejudice as moot in December 2020. West Center Partners went on to win a $13,529,726 arbitration award against Thompson Thrift alone in 2022, which Thompson Thrift paid — leaving it needing to recover from Modus and the subcontractors who had actually performed the design and construction work now found defective.",
+        "Thompson Thrift refiled its claims against Modus 364 days after the December 2020 dismissal, comfortably within the one-year window Arkansas's savings statute allows for refiling a timely but dismissed action. The problem: more than seven years had passed since the project's 2014 substantial completion, well beyond the five-year cutoff in Arkansas's construction statute of repose, Ark. Code Ann. § 16-56-112. The circuit court sided with Modus, holding the repose period is an absolute bar the savings statute cannot revive, and entered final judgment for Modus under Rule 54(b) given the scale of the multi-defendant litigation still pending against everyone else.",
+        "The Arkansas Court of Appeals reversed in an opinion by Judge Brandon Harrison, holding that Thompson Thrift's claims against Modus were 'commenced' for repose purposes when originally filed in August 2019 — within the five-year window — and that refiling a timely-commenced action under the savings statute is legally distinct from initiating a new one after repose has run. The court remanded Thompson Thrift's contribution and indemnification claims against Modus for further proceedings alongside the claims against the remaining subcontractor defendants."
+      ],
+      timeline: [
+        { when: "August 14, 2014", label: "The Fayetteville student housing project reaches substantial completion, starting the five-year repose clock" },
+        { when: "July 2019", label: "West Center Partners sues Thompson Thrift; Thompson Thrift files third-party claims against Modus Studio and subcontractors" },
+        { when: "December 2, 2020", label: "Circuit court dismisses Thompson Thrift's third-party claims without prejudice as moot" },
+        { when: "2022", label: "An arbitrator awards West Center Partners $13,529,726 against Thompson Thrift, which Thompson Thrift pays" },
+        { when: "December 2020 + 364 days", label: "Thompson Thrift refiles its claims against Modus Studio under the one-year savings statute" },
+        { when: "April 2, 2025", label: "Arkansas Court of Appeals reverses, holding the savings statute can revive the timely-filed claim", current: true }
+      ],
+      tags: ["construction defect", "statute of repose", "savings statute", "student housing", "fayetteville"]
+    },
+    {
+      id: "live-111",
+      addedDate: "2026-09-10",
+      title: "State of Mississippi v. Aldrich (Biloxi Waterfront Tidelands Title Dispute)",
+      category: "zoning-land-use",
+      status: "ruling",
+      date: "2024-04-04",
+      jurisdiction: "Supreme Court of Mississippi",
+      judge: "James B. Persons",
+      state: "MS",
+      amount: "~1 acre of Biloxi waterfront commercial land at issue",
+      source: "live",
+      sourceUrl: "https://www.wlox.com/2024/04/04/supreme-court-judge-affirms-lower-court-ruling-aldrich-family-retain-waterfront-property/",
+      documentUrl: "https://www.courtlistener.com/opinion/10627629/the-state-of-mississippi-and-the-secretary-of-state-of-the-state-of/",
+      documentLabel: "Read the Mississippi Supreme Court's opinion",
+      summary: "The Mississippi Supreme Court affirmed a Harrison County Chancery Court ruling that roughly one acre of Biloxi waterfront property — the former site of the Aldrich family's Fisherman's Wharf restaurant, later home to the Lady Luck Casino — belongs to John Bret Aldrich rather than the State, rejecting the Secretary of State's argument that a 1994 tidelands map controlled over a 1784 Spanish land grant predating Mississippi statehood. It's the state's fifth straight loss in a recurring line of tidelands-boundary suits along the Biloxi waterfront that directly determine who can lease disputed parcels for casino and resort development.",
+      significance: "Underscores how much of the Mississippi Gulf Coast's most valuable casino-adjacent land sits under boundary titles that remain unsettled more than three decades after the state's 1994 tidelands map, and how consistently pre-statehood Spanish and French land grants have prevailed over that map in litigation. Any developer, lender, or REIT evaluating a Biloxi waterfront acquisition or ground lease should independently diligence tidelands boundary history rather than relying on the Secretary of State's map, given the state's now-repeated record of losing these disputes.",
+      body: [
+        "The dispute traces back to a 1994 map the Mississippi Secretary of State published under the Public Trust Tidelands Act, demarcating the boundary between privately owned land and State-owned tidelands along the Gulf Coast. That map designated a roughly one-acre Biloxi parcel — south of U.S. Highway 90, between the highway and the Mississippi Sound, where the Aldrich family had operated the Fisherman's Wharf restaurant since the 1970s until Hurricane Katrina destroyed it in 2005 — as State-owned tideland. John Bret Aldrich disagreed, and challenged the boundary in Harrison County Chancery Court in 1998, claiming ownership through an unbroken chain of title running back to a 1784 Spanish land grant to his ancestor, predating Mississippi's admission to the Union.",
+        "After more than two decades of intermittent litigation, Chancellor James B. Persons ruled for Aldrich in September 2022, finding the 1784 Spanish grant negated the State's claim to fee-simple title and adjusting the tideland boundary accordingly. The State and Secretary of State Michael Watson appealed.",
+        "The Mississippi Supreme Court affirmed on April 4, 2024, in an opinion by Justice Ishee. The Court found the chancellor's historical analysis of what land actually passed from the federal government to Mississippi at statehood was sound, and that the pre-statehood Spanish grant survived the transition to state sovereignty over Gulf Coast tidelands. The ruling marked, per contemporaneous reporting, the Secretary of State's fifth consecutive loss in this recurring category of Biloxi tidelands-boundary litigation, following earlier defeats over other waterfront parcels tied to Gulf Coast casino development.",
+        "Because the disputed parcel sits along the same stretch of waterfront where several casino resort projects have been proposed and litigated over site control, the practical stakes go beyond bragging rights over an acre of sand: clear private title (or the lack of it) determines who can lawfully lease the land to a casino developer at all, independent of gaming-commission site approval."
+      ],
+      timeline: [
+        { when: "1994", label: "Mississippi Secretary of State publishes a tidelands boundary map designating the parcel as state-owned" },
+        { when: "1998", label: "John Bret Aldrich challenges the boundary designation in Harrison County Chancery Court" },
+        { when: "September 23, 2022", label: "Chancellor James B. Persons rules for Aldrich, citing an 1784 Spanish land grant" },
+        { when: "April 4, 2024", label: "Mississippi Supreme Court affirms, handing the Secretary of State its fifth straight tidelands loss", current: true }
+      ],
+      tags: ["tidelands", "land title", "casino development", "biloxi", "public trust doctrine"]
+    },
+    {
+      id: "live-112",
+      addedDate: "2026-09-10",
+      title: "State of Mississippi v. RW Development, LLC (Biloxi Casino Pier Tidelands Lease Authority)",
+      category: "zoning-land-use",
+      status: "ruling",
+      date: "2023-03-02",
+      jurisdiction: "Supreme Court of Mississippi",
+      judge: "Jennifer T. Schloegel",
+      state: "MS",
+      amount: "N/A — municipal authority to lease tidelands for a casino pier upheld",
+      source: "live",
+      sourceUrl: "https://www.wlox.com/2023/12/21/rw-development-scores-big-with-casino-site-approval/",
+      documentUrl: "https://www.courtlistener.com/opinion/10627673/state-of-mississippi-by-and-through-michael-watson-in-his-official/",
+      documentLabel: "Read the Mississippi Supreme Court's opinion",
+      summary: "The Mississippi Supreme Court affirmed a Harrison County Chancery Court ruling that the City of Biloxi had statutory authority to lease waterfront tidelands to RW Development, LLC for a joint public/private pier at Veterans Avenue — a pier tied to RW's long-pursued casino resort project (since branded Black Marlin Casino) — rejecting the Secretary of State's argument that only the state itself, as tidelands trustee, could authorize the lease. The March 2, 2023 decision has since become the controlling precedent that Harrison County courts cite to reject the Secretary of State's parallel challenges to other Biloxi casino-adjacent waterfront leases.",
+      significance: "Confirms that Mississippi Gulf Coast municipalities, not just the Secretary of State as tidelands trustee, can lawfully lease public trust tidelands to private casino developers for supporting infrastructure like piers — a foundational precedent for the site-control leg of any Biloxi waterfront casino or resort project. The ruling has already been relied on to reject at least one subsequent Secretary of State challenge to a competing developer's pier lease in 2025, making it the reference point any Gulf Coast casino developer's counsel should diligence before relying on a municipal tidelands lease.",
+      body: [
+        "The dispute centers on a stretch of Biloxi waterfront at the foot of Veterans Avenue, seaward of a public pier that the Biloxi Port Commission had built decades earlier without ever obtaining a tidelands lease from the Secretary of State, and which Hurricane Katrina later destroyed in 2005. On July 2, 2019, the City of Biloxi passed a resolution authorizing an option agreement with RW Development, LLC — the entity controlled by developer Ray Wooldridge that has spent more than 16 years pursuing casino approval for the site, ultimately branded the Black Marlin Casino — to build and lease a new public municipal pier on the site, with RW also permitted to use the pier as part of its adjacent commercial development (gaming on the pier itself was expressly excluded).",
+        "Nine days later, on July 11, 2019, then-Secretary of State Delbert Hosemann sued the City and RW in his official capacity as trustee of the public trust tidelands, seeking a declaration that only the State could authorize construction on public trust tidelands and an injunction halting the project until RW obtained a tidelands lease directly from the State; Harrison County intervened as an additional defendant. Michael Watson succeeded Hosemann as Secretary of State in 2020 and was substituted in as the official-capacity plaintiff as the litigation continued. The Harrison County Chancery Court, per Judge Jennifer T. Schloegel, denied the State's requested relief, holding that Mississippi's Seawall Act and related statutes gave Harrison County's Board of Supervisors — and by extension the City's exercise of delegated authority over the same sand beach — power over pier construction independent of the Secretary of State's general tidelands trusteeship.",
+        "The Mississippi Supreme Court affirmed on March 2, 2023, tracing the chain of statutory authority back through a 1970 federal court judgment (United States v. Harrison County, Mississippi) and a 1948 state law approving federal participation in the sand-beach project, both of which vested beach and pier authority in the county's Board of Supervisors. The Court held that authority was sufficient to support the City's option agreement and lease to RW Development notwithstanding the Secretary of State's separate role as trustee of the broader tidelands.",
+        "The ruling has taken on outsized importance beyond RW Development's own project: Harrison County courts have since cited it as controlling precedent to reject the Secretary of State's parallel challenges to other Biloxi waterfront leases, including a 2025 circuit-court ruling rejecting a challenge to a competing casino developer's Tivoli-site pier lease on the ground that 'the state can point to nothing that distinguishes this case from RW Development.' For any Gulf Coast casino or resort developer, the case is now the baseline authority establishing that a municipal tidelands lease for pier infrastructure can withstand a Secretary of State challenge."
+      ],
+      timeline: [
+        { when: "2005", label: "Hurricane Katrina destroys the existing Veterans Avenue pier" },
+        { when: "July 2, 2019", label: "The City of Biloxi passes a resolution authorizing an option agreement to lease the pier site to RW Development, LLC" },
+        { when: "July 11, 2019", label: "Then-Secretary of State Delbert Hosemann sues the City and RW, seeking a declaration that only the State can lease the tidelands" },
+        { when: "March 2, 2023", label: "Mississippi Supreme Court affirms the chancery court, upholding the municipal lease authority", current: true },
+        { when: "2025", label: "A Harrison County circuit court cites the ruling as controlling to reject a similar challenge to a competing developer's pier lease" }
+      ],
+      tags: ["tidelands", "casino resort", "public-private pier", "biloxi", "land-use authority"]
     }
   ],
 
@@ -3156,7 +3517,17 @@ const RELAW_DATA = {
     { jurisdiction: "Sacramento County Superior Court, California", url: "https://www.saccourt.ca.gov/" },
     { jurisdiction: "U.S. District Court, District of Oregon", url: "https://www.ord.uscourts.gov/" },
     { jurisdiction: "Supreme Court of the United States", url: "https://www.supremecourt.gov/" },
-    { jurisdiction: "U.S. District Court, Eastern District of Missouri", url: "https://www.moed.uscourts.gov/" }
+    { jurisdiction: "U.S. District Court, Eastern District of Missouri", url: "https://www.moed.uscourts.gov/" },
+    { jurisdiction: "U.S. District Court, District of New Mexico", url: "https://www.nmd.uscourts.gov/" },
+    { jurisdiction: "Idaho Supreme Court", url: "https://isc.idaho.gov/" },
+    { jurisdiction: "Nebraska Supreme Court", url: "https://nebraskajudicial.gov/courts/supreme-court" },
+    { jurisdiction: "U.S. District Court, District of Nebraska", url: "https://www.ned.uscourts.gov/" },
+    { jurisdiction: "Intermediate Court of Appeals of West Virginia", url: "https://www.courtswv.gov/appellate-courts/intermediate-court-of-appeals/about-the-court" },
+    { jurisdiction: "Circuit Court of Kanawha County, West Virginia", url: "https://www.courtswv.gov/public-resources/court-information-county/kanawha_county" },
+    { jurisdiction: "Supreme Court of Alabama", url: "https://judicial.alabama.gov/Appellate/SupremeCourt" },
+    { jurisdiction: "Oklahoma County District Court, Oklahoma", url: "https://www.oscn.net/courts/oklahoma" },
+    { jurisdiction: "Arkansas Court of Appeals", url: "https://arcourts.gov/courts/court-of-appeals" },
+    { jurisdiction: "Supreme Court of Mississippi", url: "https://courts.ms.gov/appellatecourts/sc/sc.php" }
   ],
 
   /* Judges — background on every judge named in our sourced reporting (never
