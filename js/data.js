@@ -2769,6 +2769,64 @@ const RELAW_DATA = {
         { when: "June 2022", label: "225 East Michigan Street LLC takes out a $6.57M, 5-year loan from Waukesha State Bank" },
         { when: "August 3, 2026", label: "Waukesha State Bank sues to foreclose in Milwaukee County Circuit Court, alleging default on the loan", current: true }
       ]
+    },
+    {
+      id: "live-099",
+      addedDate: "2026-09-10",
+      title: "Fortress Credit Corp. v. 601W Cos. ($220M Dayton's Project Foreclosure)",
+      category: "lending-foreclosure",
+      status: "ruling",
+      date: "2026-04-27",
+      jurisdiction: "Hennepin County District Court, Minnesota",
+      state: "MN",
+      amount: "$220M unpaid principal, interest, and fees",
+      source: "live",
+      sourceUrl: "https://www.axios.com/local/twin-cities/2026/04/27/future-daytons-project-foreclosure-redevelopnent",
+      summary: "A Hennepin County judge has approved potential foreclosure on The Dayton's Project, the $350 million redevelopment of Minneapolis' former Dayton's department store, after developer 601W Cos. defaulted on financing from Fortress Credit Corp./Fortress Investment Group, now owing roughly $220 million in unpaid principal, interest, and fees against a property the city assesses at only about $27 million. A Hennepin County judge had already placed the 1.2-million-square-foot, largely vacant building into receivership in September 2024, when the debt stood at $177 million; a sheriff's sale had not yet been scheduled as of the most recent reporting reviewed for this entry.",
+      significance: "One of the starkest examples nationally of the gap between a trophy redevelopment's original cost basis and its current collateral value: a $350M project now assessed at roughly $27M, with a lender's own counsel telling the court that winning foreclosure just hands Fortress \"the privilege of owning an empty building that is going to require significant operating costs.\" CRE lenders and workout counsel should treat this as a live case study in why some lenders now prefer an extended receivership and negotiated resolution over completing a foreclosure on an oversized, hard-to-re-tenant asset -- actually owning the building can be worse than not being repaid.",
+      body: [
+        "The Dayton's Project, New York developer 601W Cos.' $350 million transformation of Minneapolis' former Dayton's department store at 700 Nicollet Mall into 1.2 million square feet of office and retail space, is headed toward foreclosure after a Hennepin County judge approved the lender's request to proceed. Fortress Credit Corp., an affiliate of Fortress Investment Group, alleges 601W and partner Hightower Initiatives are in default, with unpaid principal, interest, and fees now totaling approximately $220 million.",
+        "The building's court-supervised distress predates this ruling by more than a year and a half. A Hennepin County judge placed the property into receivership on September 23, 2024, stripping 601W of day-to-day management after Fortress alleged missed mortgage payments -- at the time, the unpaid balance stood at $177 million. Fortress told the court it had already fronted nearly $4 million of its own money simply to keep the building's utilities and essential services running, underscoring how far a distressed office tower's carrying costs can outrun its ability to generate cash once occupancy collapses.",
+        "Occupancy is the core of the problem: the building, which opened amid pandemic-era headwinds after a buzzy 2017 kickoff that once included plans for an Andrew Zimmern-curated food hall, peaked around 28% leased and has since lost its largest remaining tenant, accounting firm EY, with the food hall concept abandoned entirely. Minneapolis' broader downtown office vacancy rate -- roughly a third of all space -- means even a highly amenitized, recently renovated building struggles to find tenants for floor plates the size of two football fields, where much of the space sits too far from a window to easily convert to residential use either.",
+        "What makes this case notable beyond its size is what a lender's own lawyer told the court about the prize at stake: completing the foreclosure means Fortress would own an enormous, nearly empty building requiring millions annually in property taxes, heating and cooling, security, and maintenance -- with the remaining unfinished office space estimated to cost roughly $110 per square foot to build out before it could even be leased. That dynamic is precisely why large commercial foreclosures on oversized or functionally obsolete assets increasingly end in a negotiated restructuring or extended receivership rather than a lender actually taking the keys.",
+        "For CRE lenders, borrowers, and workout counsel, Dayton's Project is a live illustration that winning the right to foreclose and actually wanting to foreclose are two different questions on a large, hard-to-re-tenant trophy asset -- the collateral's book value at origination is close to irrelevant once a building's physical floor-plate design itself, not just market conditions, limits which tenants or uses can ever occupy it."
+      ],
+      tags: ["foreclosure", "office", "cmbs", "minnesota", "receivership"],
+      timeline: [
+        { when: "2017", label: "601W Cos. begins a $350M redevelopment of the former Dayton's department store" },
+        { when: "September 23, 2024", label: "A Hennepin County judge places the property into receivership; $177M owed at the time" },
+        { when: "January 2026", label: "At a court hearing, Fortress's counsel argues foreclosure would only saddle the lender with an unprofitable empty building" },
+        { when: "April 2026", label: "A Hennepin County judge approves potential foreclosure, with debt grown to approximately $220M against a $27M city-assessed value", current: true }
+      ]
+    },
+    {
+      id: "live-100",
+      addedDate: "2026-09-10",
+      title: "Deutsche Bank National Trust Co. v. WMN Foshay LP ($51M Foshay Tower Foreclosure)",
+      category: "lending-foreclosure",
+      status: "pending",
+      date: "2026-04-14",
+      jurisdiction: "Hennepin County District Court, Minnesota",
+      state: "MN",
+      amount: "$51M mortgage; ~$43M sought",
+      source: "live",
+      sourceUrl: "https://bringmethenews.com/minnesota-business/foshay-tower-faces-foreclosure-after-owner-fails-to-pay-mortgage",
+      summary: "Deutsche Bank, acting as trustee for CMBS bondholders, sued the Foshay Tower's owner, WMN Foshay LP, in Hennepin County District Court in early-to-mid April 2026, alleging the 32-story Art Deco landmark's owner failed to pay off its $51 million mortgage by its May 2025 maturity date and now owes roughly $43 million in unpaid principal, interest, and fees. The suit seeks a court-appointed receiver for the building, which houses the 229-room W Minneapolis hotel along with Manny's Steakhouse, Prohibition Bar, and The Living Room lounge.",
+      significance: "A recurring-distress case study: the same building lost its prior owner, Ashford Hospitality Trust, to a 2020 default on the same fundamental problem -- hospitality-anchored CRE debt that assumes room-rate and occupancy levels the underlying market no longer supports. Lenders and buyers evaluating hotel-anchored office/mixed-use towers should treat a building's own default history as a first-order underwriting signal independent of the current owner's specific financial condition, since the underlying asset economics that caused the prior default may not have actually changed.",
+      body: [
+        "Foshay Tower, the 32-story Art Deco skyscraper that was Minneapolis' tallest building from its 1929 completion until the IDS Center surpassed it in 1972, is facing foreclosure after owner WMN Foshay LP failed to pay off a $51 million mortgage by its maturity date in May 2025. Deutsche Bank, acting as trustee on behalf of bondholders in an affiliated commercial mortgage-backed securities trust, filed suit in Hennepin County District Court in early-to-mid April 2026, alleging WMN Foshay now owes roughly $43 million in unpaid principal, interest, and fees, and asking the court to appoint a receiver to manage the property.",
+        "The tower houses the 229-room W Minneapolis hotel along with several well-known hospitality tenants -- Manny's Steakhouse, Prohibition Bar, and The Living Room -- though a 20-year-old Keys Cafe location inside the hotel closed in November, one of several signs of a property already trimming underperforming tenants before the foreclosure suit was filed. Reporting indicates WMN Foshay had been marketing the W Minneapolis hotel for at least six months before the lawsuit and had signaled openness to transferring ownership outright, suggesting the owner may already have been negotiating a sale or workout in parallel with the eventual default.",
+        "This is not the building's first brush with loan distress. Ashford Hospitality Trust, a Dallas-based hotel REIT, bought the property (along with the nearby Chambers Hotel) for a combined $187 million in 2015, then relinquished its ownership interest in Foshay Tower in 2020 after missing loan payments during the pandemic's collapse in hotel demand -- meaning the building has now cycled through loan default under two consecutive ownership groups within roughly six years.",
+        "For CRE lenders and prospective buyers, a hotel-anchored tower's history of one prior loan default is a meaningful signal independent of whatever a subsequent buyer's own balance sheet looks like: if the underlying room-rate and occupancy assumptions that caused the first default haven't structurally improved, a new owner financing the same building on similar assumptions faces the same latent risk, regardless of that owner's other financial strength. Evaluating a distressed hospitality asset's re-underwriting should start with why the prior loan actually failed, not just whether the new sponsor looks creditworthy on paper."
+      ],
+      tags: ["foreclosure", "hotel", "cmbs", "minnesota", "receivership"],
+      timeline: [
+        { when: "1929", label: "Foshay Tower is completed, becoming Minneapolis' tallest building" },
+        { when: "2015", label: "Ashford Hospitality Trust buys Foshay Tower and the Chambers Hotel for a combined $187M" },
+        { when: "2020", label: "Ashford relinquishes ownership of Foshay Tower after missing loan payments during the pandemic" },
+        { when: "May 2025", label: "WMN Foshay LP's $51M mortgage matures without full repayment" },
+        { when: "April 2026", label: "Deutsche Bank sues to foreclose in Hennepin County District Court, seeking a receiver", current: true }
+      ]
     }
   ],
 
