@@ -91,7 +91,15 @@ async function sendAlertEmail(toEmail: string, watchlistName: string, c: NewCase
     console.error("check-and-send-watchlist-alerts: RESEND_API_KEY is not set -- skipping email.");
     return;
   }
-  const caseUrl = c.id ? `${SITE_URL}/litigation.html?case=${encodeURIComponent(c.id)}` : `${SITE_URL}/litigation.html`;
+  // UTM params so this shows up as its own traffic source in Vercel
+  // Analytics instead of vanishing into "direct, no referrer" -- email
+  // clients generally don't forward a Referrer header at all, so without
+  // these, a watchlist subscriber clicking through from their inbox is
+  // indistinguishable from someone who just typed the URL (or a bot).
+  const utm = "utm_source=credocket&utm_medium=email&utm_campaign=watchlist-alert";
+  const caseUrl = c.id
+    ? `${SITE_URL}/litigation.html?case=${encodeURIComponent(c.id)}&${utm}`
+    : `${SITE_URL}/litigation.html?${utm}`;
   try {
     const resp = await fetch("https://api.resend.com/emails", {
       method: "POST",
