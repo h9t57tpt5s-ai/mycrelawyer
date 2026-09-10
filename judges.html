@@ -264,6 +264,15 @@
     } else {
       judgesGrid.innerHTML = `<p class="text-secondary">No named judges in the current tracker yet — check back as more matters progress to a ruling.</p>`;
     }
+    // "in-view" on the descendants makes .reveal cards visible, but
+    // #judges-grid itself is the .reveal-stagger container -- the CSS rule
+    // that actually un-hides its children (.reveal-stagger.in-view > *)
+    // requires THIS element to carry "in-view", not just its descendants.
+    // Without it, judges-grid's cards depend entirely on the passive
+    // scroll IntersectionObserver in main.js, which is unreliable for
+    // content injected after that observer already ran (see courts-list
+    // below, where this was the actual bug, not a fabricated risk).
+    judgesGrid.classList.add("in-view");
     document.querySelectorAll("#judges-grid .reveal, #judges-grid .card").forEach((el) => el.classList.add("in-view"));
 
     // Full court index, most recent first
@@ -277,6 +286,17 @@
         </div>
         <div class="text-muted mono" style="font-size:11.5px; white-space:nowrap;">${new Date(c.date + "T00:00:00").toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric" })}</div>
       </div>`).join("");
+    // Same fix as above: #courts-list's own wrapper is a plain .reveal
+    // card, populated here well after main.js's scroll observer already
+    // ran its initial pass. This element sits below the fold, so it
+    // depends on that observer firing again on scroll to ever reveal --
+    // which is exactly what was failing in production (confirmed: 91
+    // rows correctly in the DOM, but the wrapper stuck at opacity:0
+    // indefinitely, even after scrolling it fully into view). Forcing
+    // "in-view" here the moment content lands removes that dependency
+    // entirely, matching the pattern already used in js/litigation.js
+    // and js/watchlists.js for their own dynamically-inserted content.
+    list.closest(".reveal")?.classList.add("in-view");
   })();
 </script>
 </body>
