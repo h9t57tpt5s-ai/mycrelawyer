@@ -2621,6 +2621,36 @@ const RELAW_DATA = {
         { when: "July 2026", label: "Bankruptcy creditors move to appoint an independent Chapter 11 trustee, citing insider transactions and commingled assets" },
         { when: "July 13, 2026", label: "Judge Bodenhausen allows an amended fraud complaint against Tegethoff and non-debtor affiliates to proceed while claims against the bankrupt entities are stayed", current: true }
       ]
+    },
+    {
+      id: "live-094",
+      addedDate: "2026-09-10",
+      title: "Feather-Craft et al v. Brentwood ($436M Manchester Corridor Blight/Eminent Domain Suit)",
+      category: "eminent-domain",
+      status: "appeal",
+      date: "2025-09-26",
+      jurisdiction: "Circuit Court of St. Louis County, Missouri",
+      state: "MO",
+      amount: "$436M redevelopment plan at issue",
+      source: "live",
+      sourceUrl: "https://reason.com/2025/10/03/missouri-judge-backs-citys-eminent-domain-redevelopment-plan/",
+      summary: "The Institute for Justice, representing four family-owned Manchester Corridor businesses and a property-owning family in Brentwood, Missouri, is appealing a St. Louis County Circuit Court ruling that upheld the city's blight designation covering 75 parcels along Manchester Road -- a designation that clears the way for the city to condemn the properties via eminent domain and hand them to private developer Green Street for a $436 million mixed-use redevelopment. Judge Kristine Allen Kerr held the blight question was \"fairly debatable\" and deferred to the city's legislative determination; the plaintiffs argue that standard effectively guts a 2006 Missouri Legislature reform meant to curb blight abuse after Kelo v. New London.",
+      significance: "A live test of how much bite Missouri's post-Kelo blight-reform statute actually has: if a city can satisfy it merely by pointing to peeling paint and cracked pavement on some parcels within a much larger district, the statute does little to constrain a blight designation used as a predicate for a straightforwardly private economic-development taking. CRE owners and tenants anywhere in a city-designated redevelopment area, not just in Missouri, should treat a pending blight study as an active threat to their occupancy, not a bureaucratic formality, and should build a documented maintenance record precisely because \"fairly debatable\" evidence of deterioration is apparently enough to sustain a taking.",
+      body: [
+        "Four small, longstanding businesses and a family that owns the building one of them leases are fighting to keep their locations on Brentwood, Missouri's Manchester Corridor, after the city designated a 75-parcel stretch of the road as blighted -- the legal predicate Missouri cities need to condemn private property and hand it to a developer. Represented by the national public-interest firm Institute for Justice, the plaintiffs -- National Feather-Craft Company (d/b/a Feather-Craft Fly Fishing), Time for Dinner LLC, Convergence Dance and Body Studio, and building owners Martin and Anthony George -- sued the City of Brentwood on December 12, 2023 in the Circuit Court of St. Louis County, arguing the blight finding was pretextual and that Missouri law bars using eminent domain solely for private economic development.",
+        "The redevelopment plan at stake is substantial: in July 2023, Brentwood approved turning the Manchester Corridor over to private developer Green Street for a $436 million project including a three-story office building, a hotel, and a five-story multifamily structure, projected to generate $266 million in new revenue over 25 years. Brentwood's own blight report found 26 of the 75 parcels vacant and 48 showing \"signs of physical deterioration\" -- cracked parking lots, buildings needing paint, damaged trash enclosures -- which the city says is enough under Missouri's rule that an entire area can be blighted if a \"preponderance\" of it meets the standard, even where individual, well-maintained properties like the plaintiffs' do not.",
+        "Following a four-day trial, Judge Kristine Allen Kerr ruled for the city in September 2025, holding that where \"substantial evidence exists on both sides\" of a blight determination, the question is \"fairly debatable\" and courts must defer to the city's legislative judgment rather than reweigh the evidence themselves. The plaintiffs argue that standard, if it stands, effectively immunizes any blight finding a city can support with cracked pavement or peeling paint on a fraction of a large district, regardless of how well-maintained the properties actually being taken are -- precisely the kind of blight-label abuse Missouri's Legislature intended to foreclose when it tightened the state's eminent domain statute in reaction to the U.S. Supreme Court's 2005 Kelo v. New London decision.",
+        "Brentwood has separately defended the blight finding on flood-risk grounds tied to the Manchester Corridor's exposure to a 500-year flood event -- a rationale IJ's attorneys note sits awkwardly alongside the city's own recently completed $120 million Brentwood Bound project, which was built specifically to mitigate flooding and improve access along the same corridor. On September 26, 2025, IJ announced the plaintiffs will appeal, with attorney Bob Belden arguing the trial court applied the wrong standard of review and that, left uncorrected, the ruling threatens business and property owners anywhere in Missouri whose land a city wants to hand to a preferred private developer.",
+        "For CRE owners, tenants, and lenders, the case underscores that a blight designation is not a formality to be ignored until eminent domain proceedings actually begin -- by the time a redevelopment plan and blight study are finalized, as this case shows, a court may defer heavily to the city's own findings rather than independently testing them. Businesses and owners inside any proposed redevelopment district should document their properties' condition proactively and understand that Missouri's 2006 reform, whatever its intent, may offer less practical protection against a determined city and developer than the statute's text suggests -- a live question this appeal should help resolve."
+      ],
+      tags: ["eminent domain", "blight", "redevelopment", "missouri", "institute for justice"],
+      judge: "Kristine Allen Kerr",
+      timeline: [
+        { when: "July 2023", label: "Brentwood approves a $436M redevelopment plan for the Manchester Corridor with private developer Green Street" },
+        { when: "December 12, 2023", label: "Feather-Craft, Time for Dinner, Convergence, and the George family sue the City of Brentwood in St. Louis County Circuit Court" },
+        { when: "September 2025", label: "After a four-day trial, Judge Kristine Allen Kerr rules the blight finding \"fairly debatable\" and upholds it" },
+        { when: "September 26, 2025", label: "Institute for Justice announces the plaintiffs will appeal the ruling", current: true }
+      ]
     }
   ],
 
@@ -2906,6 +2936,7 @@ const RELAW_DATA = {
      court's own site (docket search, judge assignments, local rules), not
      third-party case-law aggregators. */
   courts: [
+    { jurisdiction: "Circuit Court of St. Louis County, Missouri", url: "https://stlcountycourts.com/" },
     { jurisdiction: "Philadelphia County Court of Common Pleas", url: "https://www.pacourts.us/courts/courts-of-common-pleas/individual-county-courts/philadelphia-courts" },
     { jurisdiction: "Supreme Court of New Jersey", url: "https://www.njcourts.gov/courts/supreme" },
     { jurisdiction: "U.S. District Court, Southern District of New York", url: "https://www.nysd.uscourts.gov/" },
