@@ -3,25 +3,26 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Jones Lang LaSalle Incorporated — CREdocket</title>
-<meta name="description" content="Commercial real estate litigation matters tracked involving Jones Lang LaSalle Incorporated on CREdocket." />
+<title>Coverage Map — CREdocket</title>
+<meta name="description" content="Where CREdocket's litigation tracker is strong and where it isn't yet, state by state — cross-referenced against population to prioritize expanded state-court research." />
 <meta property="og:type" content="website" />
 <meta property="og:site_name" content="CREdocket" />
-<meta property="og:title" content="Jones Lang LaSalle Incorporated — CREdocket" />
-<meta property="og:description" content="Commercial real estate litigation matters tracked involving Jones Lang LaSalle Incorporated on CREdocket." />
-<meta property="og:url" content="https://credocket.com/company-jll.html" />
+<meta property="og:title" content="Coverage Map — CREdocket" />
+<meta property="og:description" content="Where CREdocket's litigation tracker is strong and where it isn't yet, state by state." />
+<meta property="og:url" content="https://credocket.com/coverage-map.html" />
 <meta property="og:image" content="https://credocket.com/img/og-image.png" />
 <meta property="og:image:width" content="1200" />
 <meta property="og:image:height" content="630" />
 <meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:title" content="Jones Lang LaSalle Incorporated — CREdocket" />
-<meta name="twitter:description" content="Commercial real estate litigation matters tracked involving Jones Lang LaSalle Incorporated on CREdocket." />
+<meta name="twitter:title" content="Coverage Map — CREdocket" />
+<meta name="twitter:description" content="Where CREdocket's litigation tracker is strong and where it isn't yet, state by state." />
 <meta name="twitter:image" content="https://credocket.com/img/og-image.png" />
 <link rel="icon" href="img/favicon.svg" type="image/svg+xml" />
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/styles.css" />
+<link rel="stylesheet" href="css/coverage-map.css" />
     <script>
       window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
     </script>
@@ -92,56 +93,47 @@
 </nav>
 
 <header class="page-header">
-    <svg class="page-header-graphic" viewBox="0 0 640 400" fill="none" aria-hidden="true" preserveAspectRatio="xMaxYMid slice">
-      <defs>
-        <radialGradient id="phGlow" cx="70%" cy="30%" r="60%">
-          <stop offset="0" stop-color="var(--accent)" stop-opacity="0.16"/>
-          <stop offset="1" stop-color="var(--accent)" stop-opacity="0"/>
-        </radialGradient>
-      </defs>
-      <rect x="0" y="0" width="640" height="400" fill="url(#phGlow)"/>
-      <circle cx="420" cy="120" r="3.5" fill="var(--status-pending)" opacity="0.8">
-        <animate attributeName="r" values="3.5;5.5;3.5" dur="3s" repeatCount="indefinite"/>
-      </circle>
-      <circle cx="230" cy="160" r="3" fill="var(--status-filed)" opacity="0.8">
-        <animate attributeName="r" values="3;5;3" dur="2.6s" repeatCount="indefinite"/>
-      </circle>
-    </svg>
   <div class="container">
-    <div class="eyebrow reveal in-view">Company Profile</div>
-    <h1 class="reveal in-view" style="font-size:clamp(2.2rem,4vw,3.4rem);">Jones Lang LaSalle Incorporated</h1>
-    <p class="lede mt-16 reveal in-view">NYSE-listed global commercial real estate brokerage and investment management firm.</p>
+    <div class="eyebrow reveal in-view">Research</div>
+    <h1 class="reveal in-view" style="font-size:clamp(2.2rem,4vw,3.4rem);">Coverage Map</h1>
+    <p class="lede mt-16 reveal in-view">Where the tracker is strong, and where it isn't yet — cross-referenced against state population to prioritize where expanded state-court research should go next, rather than growing coverage wherever a matter happens to surface.</p>
   </div>
 </header>
 
 <section class="section-tight">
-  <div class="container">
-    <div class="card reveal" style="padding:24px; margin-bottom:32px;"><a href="https://www.jll.com" target="_blank" rel="noopener" class="btn btn-ghost btn-sm">Company website &#8599;</a></div>
-    <div class="grid-3 reveal-stagger mb-32" id="cp-stats"></div>
-
-    <div class="section-head reveal">
-      <div>
-        <div class="eyebrow">Matters Involving Jones Lang LaSalle Incorporated</div>
-        <h2 style="font-size:clamp(1.6rem,2.6vw,2.2rem);">Tracked on CREdocket</h2>
-      </div>
-      <p class="text-muted" style="max-width:420px; font-size:13.5px;">Matched by plain-text search of our sourced reporting — never inferred from partial name matches or guessed affiliations.</p>
+  <div class="container" style="max-width:960px;">
+    <div class="card reveal" style="padding:24px; margin-bottom:24px;">
+      <div class="eyebrow" style="margin-bottom:10px;">Methodology</div>
+      <p class="text-secondary" id="cm-methodology" style="font-size:13px; line-height:1.7;"></p>
     </div>
-    <div class="grid-3 reveal-stagger" id="cp-case-grid"></div>
 
-    <div class="card cta-photo-card reveal mt-40" style="padding:40px; display:flex; align-items:center; justify-content:space-between; gap:24px; flex-wrap:wrap;">
-      <div class="cta-photo-bg"><img src="img/photos/office-building.jpg" alt="" aria-hidden="true" loading="lazy" /></div>
-      <div>
-        <h2 style="font-size:clamp(1.4rem,2.2vw,1.8rem);">Tracking litigation exposure involving Jones Lang LaSalle Incorporated?</h2>
-        <p class="text-secondary mt-16" style="max-width:440px;">Whether it's your own company or a counterparty, it's worth a conversation before it becomes a bigger problem.</p>
+    <div class="cm-controls reveal">
+      <label for="cm-sort" class="text-muted mono" style="font-size:12px;">Sort by</label>
+      <div class="select-wrap">
+        <select id="cm-sort" class="select-input">
+          <option value="gap">Biggest gap first</option>
+          <option value="population">Population (largest first)</option>
+          <option value="matters">Matters tracked (most first)</option>
+          <option value="az">A–Z</option>
+        </select>
       </div>
-      <a href="contact.html?matter=Matter%20involving%20Jones%20Lang%20LaSalle%20Incorporated" class="btn btn-primary">
-        Discuss This
-        <svg viewBox="0 0 24 24" fill="none"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
-      </a>
     </div>
-    <p class="text-muted mt-24" style="font-size:13px;">
-      <a href="companies.html" class="text-accent" style="display:inline;">View all companies &amp; parties &rarr;</a>
-    </p>
+
+    <div class="cm-table-wrap reveal">
+      <table class="cm-table">
+        <thead>
+          <tr>
+            <th>State</th>
+            <th>Population</th>
+            <th>Matters Tracked</th>
+            <th>Federal / State</th>
+            <th>Per 1M Residents</th>
+            <th>Gap</th>
+          </tr>
+        </thead>
+        <tbody id="cm-tbody"></tbody>
+      </table>
+    </div>
   </div>
 </section>
 
@@ -192,6 +184,7 @@
         <h4>Legal</h4>
         <a href="privacy.html">Privacy Policy</a>
         <a href="terms.html">Terms of Service</a>
+        <a href="litigation-tools-terms.html">Litigation Tools Terms &amp; Waiver</a>
       </div>
       <div class="footer-col">
         <h4>Contact</h4>
@@ -200,65 +193,83 @@
       </div>
     </div>
     <div class="footer-bottom">
-      <span>&copy; <span data-year></span> CREdocket. Litigation intelligence sourced from ongoing legal research.</span>
+      <span>© <span data-year></span> CREdocket. Litigation intelligence sourced from ongoing legal research.</span>
       <span>Not legal advice. For informational purposes only.</span>
     </div>
   </div>
 </footer>
 
 <script src="js/data.js"></script>
+<script src="js/state-population-data.js"></script>
 <script src="js/main.js"></script>
 <script src="js/glossary-tooltip.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script>
 <script src="js/supabase-client.js"></script>
 <script src="js/auth.js"></script>
-<script src="js/trending.js"></script>
-<script src="js/search.js"></script>
 <script src="js/motion.js"></script>
 <script>
   (function () {
-    const COMPANY_NAME = "Jones Lang LaSalle Incorporated";
-    const MATCH_TERM = "JLL";
+    document.getElementById("cm-methodology").innerHTML = `Matters-tracked counts are computed live from CREdocket's own tracker. Population is the ${STATE_POPULATION_DATA.asOf}, used as a rough, honest proxy for "how much litigation activity would we expect to see here" -- it is <strong>not</strong> a precise commercial real estate market-size ranking. A low-population state with an outsized industrial or logistics base, or a high-population state that's mostly residential, will look mismatched against this proxy. Treat the ranking below as a prioritization signal for where to expand state-court research next, not a precise measurement of an actual gap.`;
 
-    function fieldsOf(c) {
-      // Deliberately excludes `significance` and `body` — those sections often
-      // discuss OTHER companies for comparison/context (e.g. "modeled on the
-      // RealPage litigation") without that company being a party to the matter.
-      // title/summary/tags describe what actually happened and who's involved.
-      return [c.title, c.summary, (c.tags || []).join(" "), c.jurisdiction].join(" ").toLowerCase();
+    const fedKeywords = ["U.S. District Court", "U.S. Court of Appeals", "United States District Court", "U.S. Bankruptcy Court", "United States Court of Appeals", "U.S. Supreme Court", "Federal (nationwide)"];
+    function isFederal(jurisdiction) {
+      return !!jurisdiction && fedKeywords.some((k) => jurisdiction.includes(k));
     }
 
-    const q = (MATCH_TERM || COMPANY_NAME).toLowerCase();
-    const matches = RELAW_DATA.cases.filter((c) => fieldsOf(c).includes(q))
-      .sort((a, b) => new Date(b.date) - new Date(a.date));
+    // Tally live from the tracker rather than hardcoding counts, so this
+    // page stays accurate as new matters are added without a manual update.
+    const byState = {};
+    RELAW_DATA.cases.forEach((c) => {
+      if (!c.state) return;
+      const name = RELAW_DATA.states[c.state];
+      if (!name) return;
+      const entry = (byState[name] = byState[name] || { total: 0, federal: 0, state: 0 });
+      entry.total++;
+      if (isFederal(c.jurisdiction)) entry.federal++; else entry.state++;
+    });
 
-    // Stats row
-    const catMap = Object.fromEntries(RELAW_DATA.categories.map((c) => [c.id, c]));
-    const cats = [...new Set(matches.map((c) => c.category))];
-    const states = [...new Set(matches.map((c) => c.state).filter(Boolean))];
-    const dates = matches.map((c) => c.date).sort();
-    const statsGrid = document.getElementById("cp-stats");
-    statsGrid.innerHTML = `
-      <div class="card reveal" style="text-align:center; padding:24px;">
-        <div class="mono" style="font-size:2rem; font-weight:600; color:var(--accent);">${matches.length}</div>
-        <div class="text-muted" style="font-size:12px; text-transform:uppercase; letter-spacing:0.04em; margin-top:6px;">Matter${matches.length === 1 ? "" : "s"} Tracked</div>
-      </div>
-      <div class="card reveal" style="padding:24px;">
-        <div class="text-muted" style="font-size:12px; text-transform:uppercase; letter-spacing:0.04em; margin-bottom:10px;">Practice Areas</div>
-        <div style="display:flex; flex-wrap:wrap; gap:6px;">
-          ${cats.length ? cats.map((id) => { const cat = catMap[id]; return `<span class="badge" style="background:color-mix(in srgb, ${cat.color} 16%, transparent); color:${cat.color}; border:1px solid color-mix(in srgb, ${cat.color} 35%, transparent);"><span class="badge-dot" style="background:${cat.color}"></span>${cat.label}</span>`; }).join("") : `<span class="text-muted" style="font-size:13px;">&mdash;</span>`}
-        </div>
-      </div>
-      <div class="card reveal" style="padding:24px;">
-        <div class="text-muted" style="font-size:12px; text-transform:uppercase; letter-spacing:0.04em; margin-bottom:6px;">Coverage Window</div>
-        <div style="font-size:14px; font-weight:600;">${dates.length ? `${new Date(dates[0] + "T00:00:00").toLocaleDateString("en-US", {month:"short",year:"numeric"})} &ndash; ${new Date(dates[dates.length-1] + "T00:00:00").toLocaleDateString("en-US", {month:"short",year:"numeric"})}` : "&mdash;"}</div>
-        <div class="text-muted mono" style="font-size:11.5px; margin-top:6px;">${states.length ? states.join(", ") : ""}</div>
-      </div>`;
+    const rows = Object.entries(STATE_POPULATION_DATA.population).map(([name, population]) => {
+      const counts = byState[name] || { total: 0, federal: 0, state: 0 };
+      const perMillion = population > 0 ? (counts.total / (population / 1000000)) : 0;
+      return { name, population, ...counts, perMillion };
+    });
 
-    const grid = document.getElementById("cp-case-grid");
-    grid.innerHTML = matches.length
-      ? matches.map(window.RELAW_UTILS.caseCardHtml).join("")
-      : `<p class="text-secondary">No matters currently tracked for ${COMPANY_NAME} — check back as coverage grows.</p>`;
+    function gapMeta(perMillion) {
+      if (perMillion < 0.3) return { label: "Severe", cls: "cm-gap-severe" };
+      if (perMillion < 0.7) return { label: "Moderate", cls: "cm-gap-moderate" };
+      return { label: "OK", cls: "cm-gap-ok" };
+    }
+
+    function sortRows(key) {
+      const arr = [...rows];
+      if (key === "population") arr.sort((a, b) => b.population - a.population);
+      else if (key === "matters") arr.sort((a, b) => b.total - a.total || b.population - a.population);
+      else if (key === "az") arr.sort((a, b) => a.name.localeCompare(b.name));
+      else arr.sort((a, b) => a.perMillion - b.perMillion || b.population - a.population); // "gap" default
+      return arr;
+    }
+
+    const tbody = document.getElementById("cm-tbody");
+    const sortSelect = document.getElementById("cm-sort");
+
+    function render() {
+      const sorted = sortRows(sortSelect.value);
+      tbody.innerHTML = sorted.map((r) => {
+        const gap = gapMeta(r.perMillion);
+        return `<tr>
+          <td class="cm-state-name">${r.name}</td>
+          <td>${r.population.toLocaleString()}</td>
+          <td>${r.total}</td>
+          <td>${r.federal} / ${r.state}</td>
+          <td>${r.perMillion.toFixed(2)}</td>
+          <td><span class="cm-gap-badge ${gap.cls}">${gap.label}</span></td>
+        </tr>`;
+      }).join("");
+    }
+
+    sortSelect.addEventListener("change", render);
+    render();
+
     document.querySelectorAll(".reveal, .card").forEach((el) => el.classList.add("in-view"));
   })();
 </script>
