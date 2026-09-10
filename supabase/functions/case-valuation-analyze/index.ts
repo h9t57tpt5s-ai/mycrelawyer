@@ -92,6 +92,29 @@ const CASE_DATA_URL = "https://credocket.com/js/case-valuation-data.js";
 const NARRATIVE_MODEL = "claude-opus-5"; // swap to "claude-sonnet-5" for a wider cost margin
 const EXTRACTION_MODEL = "claude-haiku-4-5";
 
+// Per-million-token pricing, for the cost-estimate logging below only --
+// keep in sync with https://claude.com/pricing if pricing changes. Not
+// used for anything user-facing or billing-critical, purely visibility
+// into real per-analysis Claude API spend (the in-code estimate above --
+// "$0.15-0.40/analysis" -- predates the effort/max_tokens tuning further
+// down and was never based on measured tokens).
+const MODEL_PRICING_PER_MTOK: Record<string, { input: number; output: number }> = {
+  "claude-opus-5": { input: 5, output: 25 },
+  "claude-haiku-4-5": { input: 1, output: 5 },
+};
+function logUsage(
+  label: string,
+  model: string,
+  usage: { input_tokens?: number; output_tokens?: number } | undefined,
+): number {
+  const inTok = usage?.input_tokens ?? 0;
+  const outTok = usage?.output_tokens ?? 0;
+  const pricing = MODEL_PRICING_PER_MTOK[model];
+  const cost = pricing ? (inTok / 1_000_000) * pricing.input + (outTok / 1_000_000) * pricing.output : 0;
+  console.log(`[cv-cost] ${label} model=${model} input_tokens=${inTok} output_tokens=${outTok} est_cost=$${cost.toFixed(4)}`);
+  return cost;
+}
+
 const supabaseAdmin = createClient(
   Deno.env.get("SUPABASE_URL") ?? "",
   Deno.env.get("SUPABASE_SERVICE_ROLE_KEY") ?? "",
@@ -1028,7 +1051,7 @@ function buildExtractionSchema(fields: FieldDef[], includeFilingParty: boolean) 
 // alone with an empty `description` (uploaded document but nothing typed)
 // -- either one on its own is sent to the model; only when BOTH are empty
 // does this short-circuit to null without even calling the API.
-async function classifyCategory(description: string, documentText: string): Promise<string | null> {
+async function classifyCategory(description: string, documentText: string): Promise<{ category: string | null; cost: number }> {
   const categoryIds = Object.keys(CATEGORY_FIELDS);
   const categoryListText = categoryIds
     .map((id) => `- "${id}": ${CATEGORY_DESCRIPTIONS[id] || ""}`)
@@ -1042,7 +1065,7 @@ async function classifyCategory(description: string, documentText: string): Prom
   // Nothing to classify from -- return null rather than calling the API
   // (the caller already guards against this case, but classifyCategory
   // should be safe to call directly with either input empty or both).
-  if (!combinedSourceText) return null;
+  if (!combinedSourceText) return { category: null, cost: 0 };
 
   const response = await anthropic!.messages.create({
     model: EXTRACTION_MODEL,
@@ -1065,14 +1088,15 @@ async function classifyCategory(description: string, documentText: string): Prom
     },
   });
 
+  const cost = logUsage("classify", EXTRACTION_MODEL, response.usage);
   const text = response.content.find((b): b is Anthropic.TextBlock => b.type === "text")?.text;
-  if (!text) return null;
+  if (!text) return { category: null, cost };
   try {
     const parsed = JSON.parse(text);
     const cat = typeof parsed.category === "string" ? parsed.category : null;
-    return cat && CATEGORY_FIELDS[cat] ? cat : null;
+    return { category: cat && CATEGORY_FIELDS[cat] ? cat : null, cost };
   } catch {
-    return null;
+    return { category: null, cost };
   }
 }
 
@@ -1214,9 +1238,10 @@ Deno.serve(async (req) => {
     // category, trust it directly rather than second-guessing a real user
     // choice with an AI guess. Otherwise -- the expected path going
     // forward -- infer it from the user's description and/or document text.
-    const category = requestBody.category && CATEGORY_FIELDS[requestBody.category]
-      ? requestBody.category
+    const classifyResult = requestBody.category && CATEGORY_FIELDS[requestBody.category]
+      ? { category: requestBody.category, cost: 0 }
       : await classifyCategory(description, documentText);
+    const category = classifyResult.category;
     if (!category) {
       return jsonResponse({
         error: "unrecognized-category",
@@ -1277,11 +1302,18 @@ Deno.serve(async (req) => {
       });
     }));
     const extractedFacts: Facts = {};
+    let extractionInputTokens = 0, extractionOutputTokens = 0;
     for (const extraction of extractionResults) {
+      extractionInputTokens += extraction.usage?.input_tokens ?? 0;
+      extractionOutputTokens += extraction.usage?.output_tokens ?? 0;
       const extractionText = extraction.content.find((b): b is Anthropic.TextBlock => b.type === "text")?.text;
       if (!extractionText) throw new Error("Extraction pass returned no output");
       Object.assign(extractedFacts, JSON.parse(extractionText));
     }
+    const extractionCost = logUsage("extraction", EXTRACTION_MODEL, {
+      input_tokens: extractionInputTokens,
+      output_tokens: extractionOutputTokens,
+    });
 
     // Merge state-law modifiers for lease-disputes, same as the client does
     if (category === "lease-disputes") {
@@ -1487,6 +1519,7 @@ Deno.serve(async (req) => {
       }],
     });
     const analysis = await analysisStream.finalMessage();
+    const analysisCost = logUsage("analysis", NARRATIVE_MODEL, analysis.usage);
     const analysisText = analysis.content.find((b): b is Anthropic.TextBlock => b.type === "text")?.text;
     if (!analysisText) {
       // TEMPORARY (same debug-scaffolding pattern as the outer catch
@@ -1564,6 +1597,9 @@ Deno.serve(async (req) => {
       : rawBestGuess === null
         ? (aiDamagesRange[0] + aiDamagesRange[1]) / 2
         : Math.min(Math.max(rawBestGuess, aiDamagesRange[0]), aiDamagesRange[1]);
+
+    const totalEstCost = classifyResult.cost + extractionCost + analysisCost;
+    console.log(`[cv-cost] TOTAL est_cost=$${totalEstCost.toFixed(4)} category=${category}`);
 
     // Only NOW, with a real completed analysis about to go back to the
     // user, does this consume a credit -- see the note at Step 4 above.
