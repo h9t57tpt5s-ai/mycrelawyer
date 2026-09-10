@@ -128,6 +128,22 @@
       </div>
       <p class="text-muted" style="max-width:420px; font-size:13.5px;">Only judges explicitly named in our sourced reporting are listed — we don't infer or guess who's presiding. Background and biography links come from official court sources.</p>
     </div>
+    <div class="filter-bar reveal" style="margin-bottom:16px;">
+      <div class="filter-row">
+        <div class="search-input-wrap">
+          <svg viewBox="0 0 24 24" fill="none"><path d="M11 19a8 8 0 100-16 8 8 0 000 16zM21 21l-4.35-4.35" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+          <input type="text" id="judges-search" class="search-input" placeholder="Search by judge, court, or matter…" />
+        </div>
+        <div class="select-wrap">
+          <select id="judges-sort" class="select-input">
+            <option value="active">Most matters first</option>
+            <option value="recent">Most recent activity</option>
+            <option value="az">A–Z by name</option>
+          </select>
+        </div>
+      </div>
+    </div>
+    <p class="text-muted mono" id="judges-count" style="font-size:12px; margin-bottom:16px;"></p>
     <div class="grid-3 reveal-stagger" id="judges-grid"></div>
   </div>
 </section>
@@ -245,20 +261,69 @@
       return `<a href="${court.url}" target="_blank" rel="noopener" class="text-accent" style="text-decoration:none; border-bottom:1px dotted currentColor;">${jurisdiction}</a>`;
     }
 
-    // Named judges, grouped
+    // Named judges, grouped -- 44+ names and growing with every digest run,
+    // so (per direct feedback) this needs the same search/sort treatment
+    // the court index below already has, not just an ever-longer static grid.
     const byJudge = {};
     cases.forEach((c) => {
       if (!c.judge) return;
       (byJudge[c.judge] = byJudge[c.judge] || []).push(c);
     });
+    const judgesSearchInput = document.getElementById("judges-search");
+    const judgesSortSelect = document.getElementById("judges-sort");
     const judgesGrid = document.getElementById("judges-grid");
-    const judgeNames = Object.keys(byJudge);
-    if (judgeNames.length) {
-      judgesGrid.innerHTML = judgeNames.map((name) => {
-        const matters = byJudge[name];
-        const ref = judgeByName[name];
-        const court = ref ? ref.court : matters[0].jurisdiction;
-        return `<div class="card">
+    const judgesCountEl = document.getElementById("judges-count");
+
+    const judgeEntries = Object.entries(byJudge).map(([name, matters]) => {
+      const sortedMatters = [...matters].sort((a, b) => new Date(b.date) - new Date(a.date));
+      const ref = judgeByName[name];
+      const court = ref ? ref.court : sortedMatters[0].jurisdiction;
+      return {
+        name,
+        ref,
+        court,
+        matters: sortedMatters,
+        count: sortedMatters.length,
+        mostRecent: sortedMatters[0].date,
+      };
+    });
+
+    function judgeMatchesQuery(entry, q) {
+      if (!q) return true;
+      const hay = [
+        entry.name,
+        entry.court,
+        entry.ref ? entry.ref.title : "",
+        entry.ref ? entry.ref.background : "",
+        ...entry.matters.map((m) => m.title),
+      ].join(" ").toLowerCase();
+      return hay.includes(q);
+    }
+
+    function sortJudges(list, sortKey) {
+      const arr = [...list];
+      if (sortKey === "az") arr.sort((a, b) => a.name.localeCompare(b.name));
+      else if (sortKey === "recent") arr.sort((a, b) => new Date(b.mostRecent) - new Date(a.mostRecent));
+      else arr.sort((a, b) => b.count - a.count || new Date(b.mostRecent) - new Date(a.mostRecent)); // "active" (default)
+      return arr;
+    }
+
+    function renderJudges() {
+      if (!judgeEntries.length) {
+        judgesCountEl.textContent = "";
+        judgesGrid.innerHTML = `<p class="text-secondary">No named judges in the current tracker yet — check back as more matters progress to a ruling.</p>`;
+        judgesGrid.classList.add("in-view");
+        return;
+      }
+
+      const q = (judgesSearchInput.value || "").trim().toLowerCase();
+      const filtered = judgeEntries.filter((e) => judgeMatchesQuery(e, q));
+      const sorted = sortJudges(filtered, judgesSortSelect.value);
+
+      judgesCountEl.textContent = `${sorted.length} judge${sorted.length === 1 ? "" : "s"} of ${judgeEntries.length}`;
+
+      judgesGrid.innerHTML = sorted.length
+        ? sorted.map(({ name, ref, court, matters }) => `<div class="card">
           <h3 style="font-size:1.05rem;">${name}</h3>
           <p class="text-muted" style="font-size:12.5px; margin:6px 0 2px; font-weight:600;">${ref ? ref.title : ""}</p>
           <p class="text-muted mono" style="font-size:12px; margin:0 0 12px;">${courtLinkHtml(court)}</p>
@@ -271,21 +336,30 @@
             <p class="text-muted" style="font-size:11px; text-transform:uppercase; letter-spacing:0.04em; margin:0 0 2px;">${matters.length === 1 ? "Matter" : `${matters.length} Matters`} on CREdocket</p>
             ${matters.map((c) => `<span data-case-id="${c.id}" class="text-accent" style="display:block; font-size:13px; cursor:pointer;">${c.title} ↗</span>`).join("")}
           </div>
-        </div>`;
-      }).join("");
-    } else {
-      judgesGrid.innerHTML = `<p class="text-secondary">No named judges in the current tracker yet — check back as more matters progress to a ruling.</p>`;
+        </div>`).join("")
+        : `<p class="text-secondary" style="grid-column:1/-1;">No judges match "${judgesSearchInput.value}".</p>`;
+
+      // "in-view" on the descendants makes .reveal cards visible, but
+      // #judges-grid itself is the .reveal-stagger container -- the CSS rule
+      // that actually un-hides its children (.reveal-stagger.in-view > *)
+      // requires THIS element to carry "in-view", not just its descendants.
+      // Without it, judges-grid's cards depend entirely on the passive
+      // scroll IntersectionObserver in main.js, which is unreliable for
+      // content injected after that observer already ran (see courts-grid
+      // below, where this was the actual bug, not a fabricated risk) --
+      // and this grid is now re-rendered on every search/sort change, long
+      // after that observer already ran once.
+      judgesGrid.classList.add("in-view");
+      judgesGrid.querySelectorAll(".reveal, .card").forEach((el) => el.classList.add("in-view"));
     }
-    // "in-view" on the descendants makes .reveal cards visible, but
-    // #judges-grid itself is the .reveal-stagger container -- the CSS rule
-    // that actually un-hides its children (.reveal-stagger.in-view > *)
-    // requires THIS element to carry "in-view", not just its descendants.
-    // Without it, judges-grid's cards depend entirely on the passive
-    // scroll IntersectionObserver in main.js, which is unreliable for
-    // content injected after that observer already ran (see courts-list
-    // below, where this was the actual bug, not a fabricated risk).
-    judgesGrid.classList.add("in-view");
-    document.querySelectorAll("#judges-grid .reveal, #judges-grid .card").forEach((el) => el.classList.add("in-view"));
+
+    let judgesDebounce;
+    judgesSearchInput.addEventListener("input", () => {
+      clearTimeout(judgesDebounce);
+      judgesDebounce = setTimeout(renderJudges, 160);
+    });
+    judgesSortSelect.addEventListener("change", renderJudges);
+    renderJudges();
 
     // Full court index -- one card per COURT, not one row per matter. The
     // old version was every case dumped in reverse-chron order, so a busy
