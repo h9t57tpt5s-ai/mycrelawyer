@@ -1363,7 +1363,7 @@ Deno.serve(async (req) => {
           probabilityPct: `${Math.round(c.probability[0] * 100)}-${Math.round(c.probability[1] * 100)}%`,
           damagesRange: c.damagesRange ? `${fmtMoney(c.damagesRange[0])} - ${fmtMoney(c.damagesRange[1])}` : null,
         }))
-      : "none -- the fixed-formula model found no matching claims from the extracted checkbox-style facts, but the actual document may still contain real claims or issues outside that fixed field set. Analyze the document itself, not just this baseline.";
+      : "none -- the fixed-formula model found no matching claims from the extracted checkbox-style facts. This can mean either (a) the case materials describe real claims the fixed field set doesn't capture -- analyze the document/description itself for those, not just this baseline -- or (b) the case materials simply don't contain enough economic detail (no rent figure, no stated damages, no dollar amount at all) to compute anything, in which case the correct response is a null damagesRange/bestGuessValue, not an invented number standing in for the baseline's absence.";
 
     // A [low, high] pair as a JSON Schema array (minItems/maxItems: 2) is
     // rejected outright -- Anthropic's structured-output validator only
@@ -1396,8 +1396,12 @@ Deno.serve(async (req) => {
       properties: {
         narrative: { type: "string", description: "A comprehensive, detailed reasoned analysis of the actual document(s): the key facts, every claim/defense/issue you identify (not limited to the baseline model's fixed categories), how the cited precedent applies, evidentiary or procedural weaknesses on either side, and how it all nets out for the filing party. Write like a sharp litigator's case assessment memo -- direct, specific, thorough." },
         likelyOutcome: { type: "string", description: "A short (2-3 sentence) bottom-line summary of the likely outcome and why." },
-        damagesRange: rangeSchema("YOUR OWN independent probability-weighted net exposure/recovery range for the filing party, in dollars (low/high) -- informed by the baseline but not bound by it. Never a single point estimate."),
-        bestGuessValue: { type: "number", description: "A single best-guess point estimate of net case value in dollars, positioned inside damagesRange above. This is NOT simply the midpoint of the range -- weight it toward whichever end the actual balance of probabilities and damages evidence favors, the same way you'd give a client one number to plan around after already giving them the honest range. Reason from the same per-issue probability x damages assessment you use in `issues` below." },
+        damagesRange: nullableRangeSchema("YOUR OWN independent probability-weighted net exposure/recovery range for the filing party, in dollars (low/high) -- informed by the baseline but not bound by it. Never a single point estimate. MUST be null -- not a placeholder or illustrative range -- if the case materials contain NO actual economic anchor at all (no rent/lease-value figure, no stated damages amount, no dollar figure of any kind tied to the specific dispute)."),
+        bestGuessValue: { anyOf: [{ type: "number" }, { type: "null" }], description: "A single best-guess point estimate of net case value in dollars, positioned inside damagesRange above. This is NOT simply the midpoint of the range -- weight it toward whichever end the actual balance of probabilities and damages evidence favors, the same way you'd give a client one number to plan around after already giving them the honest range. Reason from the same per-issue probability x damages assessment you use in `issues` below. MUST be null whenever damagesRange above is null -- there is no such thing as a best guess at a number that doesn't exist yet." },
+        whatIsNeededForEstimate: {
+          anyOf: [{ type: "string" }, { type: "null" }],
+          description: "REQUIRED (non-null) whenever damagesRange/bestGuessValue above are null; MUST be null when they aren't. A short, specific, plain-English list of exactly what facts are missing to compute a real dollar estimate -- e.g. 'the monthly rent amount and how much time remains on the lease' or 'the property's appraised value and the amount of the lender's claimed deficiency.' Name the actual missing inputs for THIS category and these facts, not a generic 'more information needed.' This is shown to the user as a direct, actionable prompt for what to add next -- write it that way, addressed to the user (\"the monthly rent...\" not \"the model requires...\").",
+        },
         issues: {
           type: "array",
           description: "Every distinct claim, defense, or issue you identified in the actual document(s) -- may include ones the fixed baseline model doesn't capture at all (e.g. a specific factual dispute, an evidentiary weakness, a procedural defect, a defense actually raised in an answer). Order by significance.",
@@ -1407,7 +1411,7 @@ Deno.serve(async (req) => {
               label: { type: "string", description: "Short name for this claim/issue." },
               analysis: { type: "string", description: "Your reasoning on this specific issue: the facts supporting it, how cited precedent applies (if any), and its strength." },
               probabilityRangePct: nullableRangeSchema("Low/high percent likelihood this issue is resolved in the filing party's favor, if quantifiable."),
-              damagesRange: nullableRangeSchema("Low/high dollar range for this specific issue, if it has an independent dollar value."),
+              damagesRange: nullableRangeSchema("Low/high dollar range for this specific issue, if it has an independent dollar value. Null if no actual dollar figure or computable proxy for this specific issue appears anywhere in the case materials -- do not fill in an illustrative or typical-case number."),
               citedCaseNames: { type: "array", items: { type: "string" }, description: "Exact case name(s) from the reference list below that support this issue -- ONLY names copied exactly from that list, or an empty array if none apply." },
             },
             // Structured-output schemas require every property in
@@ -1420,7 +1424,7 @@ Deno.serve(async (req) => {
           },
         },
       },
-      required: ["narrative", "likelyOutcome", "damagesRange", "bestGuessValue", "issues"],
+      required: ["narrative", "likelyOutcome", "damagesRange", "bestGuessValue", "whatIsNeededForEstimate", "issues"],
       additionalProperties: false,
     };
 
@@ -1453,8 +1457,9 @@ Deno.serve(async (req) => {
         "You are an experienced commercial real estate litigator producing a probability-weighted case assessment -- not a legal opinion, not an adjudication, and not legal advice. " +
         `Read the case materials provided -- the user's own description of their case and/or uploaded/pasted document(s) -- and do a comprehensive analysis for the "${catSpec.label}" category: identify every claim, defense, and issue actually present in the record -- not just what a fixed checklist would catch. Weigh evidentiary strength, procedural posture, and any defenses or counterclaims raised. If the only material provided is the user's own description with no supporting document, analyze it exactly as rigorously, and say so candidly where the lack of a document leaves a fact unverified. ` +
         "GROUNDING REQUIREMENT: you may cite ONLY cases from the reference list below, copied EXACTLY by name -- never invent, alter, or guess at a case name, citation, or outcome. If no listed case supports a point, make the point without a citation rather than fabricating one. " +
-        "A fixed-formula baseline model's mechanical output is provided as ONE reference data point -- it is not the answer key. Use your own judgment from the actual case materials; you may agree with, refine, or depart from the baseline, and should say which and why. " +
-        "Every dollar range must be a range, never a single number -- EXCEPT bestGuessValue, which is deliberately the one point estimate in this whole analysis: after laying out the honest range, commit to the single number inside it you'd actually tell the client to plan around, reasoned from the same probability-weighting you used for the range and issues, not just its arithmetic midpoint. Write like a sharp litigator's internal case assessment memo for a client deciding whether to settle or fight -- direct and specific, not hedged into vagueness.",
+        "A fixed-formula baseline model's mechanical output is provided as ONE reference data point -- it is not the answer key. Use your own judgment from the actual case materials; you may agree with, refine, or depart from the baseline, and should say which and why. Departing from the baseline means correcting its LEGAL classification (which claims actually apply, how they're framed) with your own reading of the record -- it is never license to invent a dollar figure the record doesn't support just because the baseline came back empty. " +
+        "NO-INVENTED-NUMBERS REQUIREMENT, as important as the case-name grounding requirement above: a dollar estimate is only as honest as the facts underneath it. If the case materials -- the user's description and/or any document(s) -- contain NO actual economic anchor for the specific dispute (no rent or lease-value figure, no stated damages amount, no dollar figure tied to what actually happened here), you MUST set damagesRange and bestGuessValue to null rather than filling in a plausible-sounding 'typical case' number -- a range like '$15,000-$90,000' for a rent dispute where no rent amount was ever given is fabrication dressed up as analysis, not a real estimate, and directly contradicts this tool's core promise that every number is grounded in the actual facts provided. This applies even when the legal analysis itself is strong and the liability picture is clear -- confidence about who wins does not create a number for how much when none exists. When you do this, you MUST also populate whatIsNeededForEstimate with the SPECIFIC facts that would let you compute a real range (e.g. 'the monthly rent amount and how much time remains on the lease' -- not a vague 'more information needed') -- this is shown to the user as a direct prompt for what to add, so name the actual missing inputs. Still give full legal analysis (claims, defenses, likely outcome, citations) despite the missing number -- a legal assessment without a price tag is far more useful than a price tag invented from nothing. Only assign a real damagesRange/bestGuessValue (and leave whatIsNeededForEstimate null) when at least one concrete dollar figure or a computable proxy for one (e.g. a stated monthly rent AND a stated remaining term, from which a rent stream can actually be computed) appears in the case materials. " +
+        "Every dollar range must be a range, never a single number -- EXCEPT bestGuessValue, which (when a real number is warranted at all, per the requirement above) is deliberately the one point estimate in this whole analysis: after laying out the honest range, commit to the single number inside it you'd actually tell the client to plan around, reasoned from the same probability-weighting you used for the range and issues, not just its arithmetic midpoint. Write like a sharp litigator's internal case assessment memo for a client deciding whether to settle or fight -- direct and specific, not hedged into vagueness.",
       messages: [{
         role: "user",
         content:
@@ -1521,16 +1526,30 @@ Deno.serve(async (req) => {
     for (const iss of issues) for (const cit of iss.citations) allCitedMap.set(cit.caseName, cit);
     for (const cit of baselineCitedCasesMap.values()) allCitedMap.set(cit.caseName, cit);
 
-    const aiDamagesRange: [number, number] = rangeToTuple(analysisParsed.damagesRange) ?? netPosition;
+    // The baseline's own netPosition is [0,0] both when it genuinely
+    // computed a zero-value case AND when it simply found no matching
+    // claims at all (evalResult.claims.length === 0) -- those are very
+    // different situations, and treating the second as "$0" would be
+    // exactly the kind of invented-number problem the AI is now
+    // instructed above to avoid. Only fall back to the baseline's number
+    // when the baseline actually computed something from real claims;
+    // otherwise there is no number, full stop.
+    const baselineHasComputableValue = evalResult.claims.length > 0;
+    const aiDamagesRange: [number, number] | null =
+      rangeToTuple(analysisParsed.damagesRange) ?? (baselineHasComputableValue ? netPosition : null);
 
     // Clamp rather than trust blindly -- a structured-output number field
     // has no schema-level way to constrain it to fall inside another
     // field's range, so enforce that here instead of shipping a "best
     // guess" that could land outside the range it's supposed to pin down.
+    // No range at all means no best guess either -- there's nothing to
+    // clamp into and nothing honest to report.
     const rawBestGuess = typeof analysisParsed.bestGuessValue === "number" ? analysisParsed.bestGuessValue : null;
-    const bestGuessValue = rawBestGuess === null
-      ? (aiDamagesRange[0] + aiDamagesRange[1]) / 2
-      : Math.min(Math.max(rawBestGuess, aiDamagesRange[0]), aiDamagesRange[1]);
+    const bestGuessValue: number | null = aiDamagesRange === null
+      ? null
+      : rawBestGuess === null
+        ? (aiDamagesRange[0] + aiDamagesRange[1]) / 2
+        : Math.min(Math.max(rawBestGuess, aiDamagesRange[0]), aiDamagesRange[1]);
 
     // Only NOW, with a real completed analysis about to go back to the
     // user, does this consume a credit -- see the note at Step 4 above.
@@ -1553,6 +1572,11 @@ Deno.serve(async (req) => {
         likelyOutcome: analysisParsed.likelyOutcome,
         damagesRange: aiDamagesRange,
         bestGuessValue,
+        whatIsNeededForEstimate: aiDamagesRange === null
+          ? (typeof analysisParsed.whatIsNeededForEstimate === "string" && analysisParsed.whatIsNeededForEstimate
+              ? analysisParsed.whatIsNeededForEstimate
+              : "Add specific dollar figures for this dispute -- at minimum, the amounts actually in controversy -- so a damages range can be computed.")
+          : null,
         roleLabel,
         category,
         categoryLabel: evalResult.categoryLabel,

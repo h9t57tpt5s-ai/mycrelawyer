@@ -126,12 +126,23 @@ window.CV_REPORT = (function () {
       y += 20;
       doc.setFont("helvetica", "normal"); doc.setFontSize(10.5); doc.setTextColor(INK);
       doc.text(`Full range: ${fmtMoneyRange(ctx.net)}`, marginX, y);
-    } else {
+    } else if (ctx.net) {
       doc.setFont("helvetica", "bold"); doc.setFontSize(20); doc.setTextColor(NAVY);
       doc.text(fmtMoneyRange(ctx.net), marginX, y);
       y += 18;
       doc.setFont("helvetica", "normal"); doc.setFontSize(10); doc.setTextColor(MUTED);
       doc.text(`Estimated net position — ${roleLabel} view`, marginX, y);
+    } else {
+      // No invented $0 range -- the backend explicitly declined to
+      // estimate because nothing in the case materials pinned down an
+      // actual dollar figure. Say that plainly instead of a number.
+      doc.setFont("helvetica", "bold"); doc.setFontSize(18); doc.setTextColor(NAVY);
+      doc.text("No dollar estimate yet", marginX, y);
+      y += 18;
+      doc.setFont("helvetica", "normal"); doc.setFontSize(10); doc.setTextColor(MUTED);
+      const needLines = doc.splitTextToSize(ctx.whatIsNeededForEstimate || "Insufficient economic detail was provided to compute a damages range.", 420);
+      doc.text(needLines, marginX, y);
+      y += needLines.length * 13;
     }
 
     doc.addPage(); y = 64;
@@ -152,8 +163,10 @@ window.CV_REPORT = (function () {
     if (typeof ctx.bestGuessValue === "number") {
       body(`Best-guess case value: ${fmtMoney(ctx.bestGuessValue)}`, { bold: true, size: 12, gap: 4 });
       body(`Full range: ${fmtMoneyRange(ctx.net)}`, { gap: 16 });
-    } else {
+    } else if (ctx.net) {
       body(`Total estimated net position: ${fmtMoneyRange(ctx.net)}`, { bold: true, size: 12, gap: 16 });
+    } else {
+      body(`Dollar estimate: not yet possible — ${ctx.whatIsNeededForEstimate || "insufficient economic detail was provided."}`, { bold: true, size: 11, color: "#B45309", gap: 16 });
     }
     rule();
 

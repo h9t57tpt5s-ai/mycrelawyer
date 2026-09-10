@@ -388,6 +388,20 @@
     const emptyFilesHtml = (emptyFiles && emptyFiles.length)
       ? `<div class="gate-card is-error" style="margin-bottom:16px;"><div class="eyebrow" style="margin-bottom:6px;">Heads Up</div><p class="text-secondary" style="font-size:13px; line-height:1.6;">No text could be read from <strong>${emptyFiles.join(", ")}</strong> — this is almost always a scanned or image-only PDF with no selectable text layer, so it was skipped. The analysis below only reflects your other document(s). Try a text-based copy of ${emptyFiles.length === 1 ? "that file" : "those files"} if you have one, or paste its text directly.</p></div>`
       : "";
+    // The backend deliberately returns damagesRange: null (never an
+    // invented "typical case" number) when nothing you gave it actually
+    // pins down a dollar figure -- see js/case-valuation.js's sibling
+    // Edge Function for the full reasoning. Surface that as a clear,
+    // actionable warning up top, not a blank space where a number used
+    // to be -- and point directly at the "add more information" box
+    // below, since that's the exact mechanism to resolve it.
+    const missingInfoHtml = (a.damagesRange == null)
+      ? `<div class="gate-card is-error" style="margin-bottom:16px;">
+          <div class="eyebrow" style="margin-bottom:6px;">Can't Estimate a Dollar Value Yet</div>
+          <p class="text-secondary" style="font-size:13.5px; line-height:1.6;">${a.whatIsNeededForEstimate || "Add specific dollar figures for this dispute so a damages range can be computed."}</p>
+          <p class="text-secondary" style="font-size:13px; line-height:1.6; margin-top:8px;">The legal analysis below is still complete — add these details in the box further down and re-analyze to get an actual dollar range.</p>
+        </div>`
+      : "";
 
     // Auto-fill the side toggle from the AI-extracted filing party, but
     // only if the user hasn't deliberately picked a side themselves --
@@ -409,9 +423,10 @@
 
     const freshFragmentHtml = `
       ${emptyFilesHtml}
+      ${missingInfoHtml}
       <div class="cv-summary card">
         <div class="eyebrow" style="margin-bottom:8px;">AI Analysis — Probability-Weighted Prediction${a.roleLabel ? ` — ${a.roleLabel} view` : ""}</div>
-        ${typeof a.bestGuessValue === "number" ? `<div class="cv-net">${V.fmt(a.bestGuessValue)}</div><p class="text-muted" style="font-size:12px; margin-top:2px;">Best-guess case value</p>` : (a.damagesRange ? `<div class="cv-net">${V.fmtRange(a.damagesRange[0], a.damagesRange[1])}</div>` : "")}
+        ${typeof a.bestGuessValue === "number" ? `<div class="cv-net">${V.fmt(a.bestGuessValue)}</div><p class="text-muted" style="font-size:12px; margin-top:2px;">Best-guess case value</p>` : (a.damagesRange ? `<div class="cv-net">${V.fmtRange(a.damagesRange[0], a.damagesRange[1])}</div>` : `<div class="cv-net" style="font-size:1.3rem; color:var(--text-muted);">No estimate yet</div><p class="text-muted" style="font-size:12px; margin-top:2px;">See "Can't Estimate a Dollar Value Yet" above</p>`)}
         ${a.damagesRange && typeof a.bestGuessValue === "number" ? `<p class="text-secondary" style="font-size:13px; margin-top:10px;">Full range: <strong>${V.fmtRange(a.damagesRange[0], a.damagesRange[1])}</strong> — kept alongside the single figure above because the range itself is informative, not just noise around a guess.</p>` : ""}
       </div>
       ${a.likelyOutcome ? `<div class="card" style="padding:20px; margin-top:16px;"><div class="eyebrow" style="margin-bottom:8px;">Executive Discovery</div><p class="text-secondary" style="font-size:14px; line-height:1.6;">${a.likelyOutcome}</p></div>` : ""}
@@ -457,7 +472,11 @@
           // unconditionally, so this must never be null.
           roles: { sideA: "Your side", sideB: "Other side" },
           side: facts.filingParty || cvUserSide || "sideA",
-          net: a.damagesRange || [0, 0],
+          // null (not [0,0]) when the backend declined to invent a number --
+          // [0,0] would render as a real, misleading "$0" estimate in the
+          // PDF rather than "no estimate yet."
+          net: a.damagesRange || null,
+          whatIsNeededForEstimate: a.whatIsNeededForEstimate || null,
           bestGuessValue: typeof a.bestGuessValue === "number" ? a.bestGuessValue : null,
           likelyOutcome: a.likelyOutcome || null,
           narrative: a.narrative || null,
