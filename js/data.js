@@ -2740,6 +2740,35 @@ const RELAW_DATA = {
         { when: "January 2026", label: "Fairlane is placed into receivership (John Polderman, Stevenson & Bullock) amid reports of $3.4M in unaccounted-for rental income" },
         { when: "July 9, 2026", label: "The receiver confirms he is preparing bidding and sale procedures for a future sale of the mall", current: true }
       ]
+    },
+    {
+      id: "live-098",
+      addedDate: "2026-09-10",
+      title: "Waukesha State Bank v. 225 East Michigan Street LLC ($6.7M Mackie Building Foreclosure)",
+      category: "lending-foreclosure",
+      status: "filed",
+      date: "2026-08-03",
+      jurisdiction: "Milwaukee County Circuit Court",
+      state: "WI",
+      amount: "$6.2M owed ($5.9M principal)",
+      source: "live",
+      sourceUrl: "https://dailyreporter.com/2026/08/10/historic-milwaukee-mackie-building-foreclosure-grain-exchange/",
+      summary: "Waukesha State Bank sued 225 East Michigan Street LLC, an affiliate of Milwaukee developer J. Jeffers & Co., on August 3, 2026 in Milwaukee County Circuit Court to foreclose on the historic Mackie Building after the LLC defaulted on a $6.57 million loan, owing roughly $5.9 million in principal plus interest and fees. Jeffers attributes the default to below-pre-pandemic revenue at anchor tenant The Grain Exchange, an event venue whose percentage-of-revenue rent has fallen short of what the mortgage requires; the bank separately sued Jeffers and affiliated entities in Waukesha County Circuit Court seeking a personal money judgment.",
+      significance: "A clean illustration of how a percentage-rent lease structure -- common for hospitality and event-venue tenants precisely because it lets rent flex with a volatile revenue stream -- can leave a landlord newly exposed to a fixed mortgage obligation once that tenant's business genuinely doesn't recover, rather than simply dips temporarily. Owners financing a building around a single anchor tenant's percentage rent should stress-test debt service against a permanently lower post-pandemic revenue baseline for hospitality/events tenants specifically, not just a temporary downturn, and should track the tenant's own lease-renewal timeline as a leading indicator of the landlord's own refinancing risk.",
+      body: [
+        "The Mackie Building, a 152-year-old Milwaukee landmark added to the National Register of Historic Places in 1973, is the subject of a foreclosure suit filed August 3, 2026 by Waukesha State Bank against 225 East Michigan Street LLC, an entity affiliated with Milwaukee developer J. Jeffers & Co. The bank alleges the LLC defaulted on a five-year, $6.57 million loan -- carrying monthly payments of $45,143.31 and a June 30, 2027 maturity -- leaving roughly $5.9 million in unpaid principal plus more than $340,000 in interest, late charges, and prepayment fees outstanding.",
+        "Jeffers' firm bought the building in 2014 and completed a $14 million renovation in 2016 that converted three underused office floors into 25 luxury apartments known as Mackie Flats. The building's ground floors house The Grain Exchange, an ornate historic event venue operated by Bartolotta Restaurant Group under a lease that ties rent to a percentage of the venue's own revenue -- a structure that insulated Bartolotta from fixed rent risk but, according to Jeffers, has left the building's owner without enough cash flow to service the mortgage now that Grain Exchange business \"hasn't gotten back to the level of business it saw before the COVID-19 pandemic\" and, in Jeffers' words, \"it's not even close.\"",
+        "Complicating the picture further, Bartolotta's lease at the Grain Exchange was reported to be winding down with a renewal not yet finalized as of the foreclosure filing -- meaning the building's primary revenue driver's own occupancy is itself unresolved at the same moment its underperformance is cited as the cause of the owner's default. Waukesha State Bank's complaint demands the property be sold at a sheriff's sale within six months of a foreclosure judgment; separately, the bank filed a distinct suit in Waukesha County Circuit Court seeking a personal money judgment against Jeffers and several of his development firm's affiliated entities, a common lender strategy for reaching a guarantor's other assets beyond the mortgaged property itself.",
+        "Jeffers, for his part, expressed confidence the matter can be resolved short of an actual foreclosure sale, telling reporters \"I have a lot of resources,\" and a Bartolotta Restaurant Group spokesperson said the company doesn't anticipate the lawsuit affecting Grain Exchange staffing, service, or events. Both statements are consistent with a foreclosure filing functioning as much as a negotiating lever to force a workout or refinancing as an actual step toward a forced sale -- a filing doesn't obligate a lender to actually carry it through to auction if the parties reach a resolution first.",
+        "For CRE owners and lenders, the case is a reminder that a percentage-rent structure with an anchor hospitality or events tenant transfers revenue volatility risk to the landlord specifically at the moment the landlord's own debt service is fixed and due regardless -- a lease term that looks like reasonable risk-sharing when a tenant's revenue merely dips can become an existential mortgage-default risk if that tenant's business permanently resets to a lower baseline, which is precisely the pattern Jeffers describes here for a venue-and-events business post-pandemic."
+      ],
+      tags: ["foreclosure", "hospitality", "historic building", "wisconsin", "percentage rent"],
+      timeline: [
+        { when: "2014", label: "J. Jeffers & Co. acquires the Mackie Building" },
+        { when: "2016", label: "A $14M renovation converts three office floors into 25 apartments (Mackie Flats)" },
+        { when: "June 2022", label: "225 East Michigan Street LLC takes out a $6.57M, 5-year loan from Waukesha State Bank" },
+        { when: "August 3, 2026", label: "Waukesha State Bank sues to foreclose in Milwaukee County Circuit Court, alleging default on the loan", current: true }
+      ]
     }
   ],
 
