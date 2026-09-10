@@ -431,10 +431,23 @@
       cvUserSide = facts.filingParty;
     }
 
-    const factEntries = Object.entries(facts).filter(([k, v]) => k !== "filingParty" && v !== null && v !== undefined && v !== "");
+    const factEntries = Object.entries(facts).filter(([k, v]) => k !== "filingParty" && k !== "state" && v !== null && v !== undefined && v !== "");
     const factsHtml = factEntries.length
       ? `<div class="cv-ai-facts"><div class="cv-citations-label">Facts extracted from your case description and documents:</div>${factEntries.map(([k, v]) => `<span class="detail-tag">${k}: ${v}</span>`).join("")}</div>`
       : "";
+    // The jurisdiction the whole analysis is anchored to (Texas law, Texas
+    // cases, Texas statutes throughout) was previously only ever mentioned
+    // in passing inside the prose -- easy to miss, and impossible to
+    // verify at a glance. Pulled out as its own clearly-labeled fact,
+    // right alongside category and side, wherever those are shown.
+    const stateName = facts.state && typeof RELAW_DATA !== "undefined" && RELAW_DATA.states
+      ? (RELAW_DATA.states[facts.state] || facts.state)
+      : null;
+    const metaRowHtml = `<div style="display:flex; flex-wrap:wrap; gap:8px; margin-top:12px;">
+      ${a.categoryLabel ? `<span class="detail-tag">Category: ${a.categoryLabel}</span>` : ""}
+      ${stateName ? `<span class="detail-tag">Jurisdiction: ${stateName}</span>` : `<span class="detail-tag" style="color:var(--status-pending);">Jurisdiction: not stated</span>`}
+      ${a.roleLabel ? `<span class="detail-tag">Your side: ${a.roleLabel}</span>` : ""}
+    </div>`;
     const issuesHtml = (a.issues || []).length
       ? `<div class="eyebrow" style="margin:20px 0 8px;">Claim-by-Claim Detail</div><div class="cv-claims">${a.issues.map(issueResultHtml).join("")}</div>`
       : "";
@@ -449,6 +462,7 @@
         <div class="eyebrow" style="margin-bottom:8px;">AI Analysis — Probability-Weighted Prediction${a.roleLabel ? ` — ${a.roleLabel} view` : ""}</div>
         ${typeof a.bestGuessValue === "number" ? `<div class="cv-net">${V.fmt(a.bestGuessValue)}</div><p class="text-muted" style="font-size:12px; margin-top:2px;">Best-guess case value</p>` : (a.damagesRange ? `<div class="cv-net">${V.fmtRange(a.damagesRange[0], a.damagesRange[1])}</div>` : `<div class="cv-net" style="font-size:1.3rem; color:var(--text-muted);">No estimate yet</div><p class="text-muted" style="font-size:12px; margin-top:2px;">See "Can't Estimate a Dollar Value Yet" above</p>`)}
         ${a.damagesRange && typeof a.bestGuessValue === "number" ? `<p class="text-secondary" style="font-size:13px; margin-top:10px;">Full range: <strong>${V.fmtRange(a.damagesRange[0], a.damagesRange[1])}</strong> — kept alongside the single figure above because the range itself is informative, not just noise around a guess.</p>` : ""}
+        ${metaRowHtml}
       </div>
       ${a.likelyOutcome ? `<div class="card" style="padding:20px; margin-top:16px;"><div class="eyebrow" style="margin-bottom:8px;">Executive Discovery</div><p class="text-secondary" style="font-size:14px; line-height:1.6;">${a.likelyOutcome}</p></div>` : ""}
       ${summaryTableHtml(a)}
@@ -485,6 +499,7 @@
           note: iss.analysis, isBenchmark: false, citations: iss.citations || [],
         })) }, {
           categoryLabel: a.categoryLabel,
+          jurisdictionLabel: stateName,
           // There's no more client-known category/SPEC lookup (the
           // backend classifies the category itself now), so this is a
           // generic, always-safe pair of role labels rather than the

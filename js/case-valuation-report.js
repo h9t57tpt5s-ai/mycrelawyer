@@ -121,7 +121,7 @@ window.CV_REPORT = (function () {
     doc.text("Case Value Report", marginX, y);
     y += 30;
     doc.setFont("helvetica", "normal"); doc.setFontSize(13); doc.setTextColor(MUTED);
-    doc.text(ctx.categoryLabel, marginX, y);
+    doc.text(ctx.jurisdictionLabel ? `${ctx.categoryLabel} — ${ctx.jurisdictionLabel}` : ctx.categoryLabel, marginX, y);
     y += 24;
     doc.setFont("helvetica", "bold"); doc.setFontSize(10); doc.setTextColor("#B45309");
     doc.text("BETA — MODELING IN ACTIVE DEVELOPMENT", marginX, y);
@@ -173,6 +173,7 @@ window.CV_REPORT = (function () {
 
     heading("Summary", 13);
     body(`Category: ${ctx.categoryLabel}`, { bold: true, gap: 4 });
+    body(`Jurisdiction: ${ctx.jurisdictionLabel || "Not stated in the case materials"}`, { bold: true, gap: 4, color: ctx.jurisdictionLabel ? INK : "#B45309" });
     body(`Your side: ${roleLabel}`, { bold: true, gap: 4 });
     if (typeof ctx.bestGuessValue === "number") {
       body(`Best-guess case value: ${fmtMoney(ctx.bestGuessValue)}`, { bold: true, size: 12, gap: 4 });
