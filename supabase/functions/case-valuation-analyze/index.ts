@@ -87,6 +87,7 @@ import Anthropic from "npm:@anthropic-ai/sdk@0.120";
 const ANTHROPIC_API_KEY = Deno.env.get("ANTHROPIC_API_KEY") ?? "";
 const DAILY_BURST_CAP = 15;
 const MAX_DOC_CHARS = 50000; // server-side mirror of the client-side cap -- never trust the client alone
+const MAX_DESCRIPTION_CHARS = 8000; // the user's own freeform case description -- shorter cap than documents, but still a real source of facts, never trust the client alone
 const CASE_DATA_URL = "https://credocket.com/js/case-valuation-data.js";
 const NARRATIVE_MODEL = "claude-opus-5"; // swap to "claude-sonnet-5" for a wider cost margin
 const EXTRACTION_MODEL = "claude-haiku-4-5";
@@ -932,6 +933,24 @@ const CATEGORY_FIELDS: Record<string, FieldDef[]> = {
   ],
 };
 
+// Short human-readable descriptions of each category, used ONLY to build
+// the classification prompt below (classifyCategory) -- kept next to
+// CATEGORY_FIELDS since the ids must stay in exact sync with it, but kept
+// separate from CaseData/loadCaseData() on purpose: classification must
+// work even before/without a successful fetch of case-valuation-data.js,
+// and keeping it self-contained makes classifyCategory reviewable on its
+// own without tracing through the fetched-data plumbing.
+const CATEGORY_DESCRIPTIONS: Record<string, string> = {
+  "lease-disputes": "Commercial lease disputes between landlord and tenant -- unpaid rent, lease termination/acceleration of future rent, holdover, landlord self-help/wrongful lockout, security deposits, breach of quiet enjoyment, re-leasing/mitigation costs.",
+  "lending-foreclosure": "Commercial real-estate lending and foreclosure disputes -- loan default, foreclosure actions and deficiency judgments, receivership, guaranty enforcement/carve-out ('bad boy') triggers, borrower-asserted lender-liability claims.",
+  "reit-securities": "REIT and real-estate securities litigation -- stock-drop securities fraud, board/sponsor breach-of-fiduciary-duty derivative suits, proxy disclosure claims, merger-objection suits.",
+  "construction-defect": "Construction defect disputes on a commercial or multi-unit property -- contractor workmanship or design-professional defects, repair costs, indemnification/contribution among contractors, CGL insurance coverage disputes over defect claims.",
+  "environmental": "Environmental contamination and cleanup disputes on commercial/industrial property -- CERCLA cost recovery, contribution claims among potentially responsible parties (PRPs), state cleanup consent decrees, environmental insurance coverage disputes.",
+  "eminent-domain": "Eminent domain / condemnation disputes -- just-compensation valuation fights, challenges to the taking itself, pre-condemnation survey/access disputes, regulatory-takings claims.",
+  "zoning-land-use": "Zoning and land-use disputes -- variance or permit denials, spot-zoning challenges, arbitrary or discriminatory denial of development approvals (including Section 1983 civil-rights claims), development-agreement breaches.",
+  "premises-liability": "Premises liability / personal-injury claims arising on commercial property -- slip-and-fall or other hazardous-condition injuries, inadequate/negligent security against third-party crime, structural or maintenance failures, failure to warn of a dangerous condition.",
+};
+
 // Anthropic's structured-output schema validator rejects the "array-form
 // type + enum containing null" shorthand -- `{type: ["string","null"],
 // enum: [...values, null]}` -- with a 400 ("Enum value '…' does not match
@@ -985,6 +1004,76 @@ function buildExtractionSchema(fields: FieldDef[], includeFilingParty: boolean) 
   // allowed to come back empty -- "required" here means "present in the
   // output, possibly as null", not "the model must find a value").
   return { type: "object", properties, required: Object.keys(properties), additionalProperties: false };
+}
+
+// =========================================================
+// Category classification -- runs BEFORE the existing per-category
+// evaluator pipeline described at the top of this file. The frontend no
+// longer offers a category dropdown, so the litigation category has to be
+// inferred server-side from whatever the user gave us: their own typed
+// `description`, extracted `documentText`, or (usually) both. Deliberately
+// kept as its own small, single-purpose function -- separate from the
+// fact-extraction pass below -- so it can be reviewed and tuned on its
+// own. Uses the same Anthropic client and the same structured-JSON-output
+// call shape as the fact-extraction pass (EXTRACTION_MODEL / Haiku --
+// classifying into one of a fixed, short list of ids is a much easier
+// task than full fact extraction or the comprehensive narrative analysis,
+// so there's no reason to spend Opus effort or tokens on it).
+//
+// Returns the category id (a real key of CATEGORY_FIELDS) on a confident
+// match, or null if it genuinely can't be placed -- callers must treat
+// null as "ask the user for more detail," never coerce it to a guess.
+// Handles both directions of partial input correctly: `description` alone
+// with an empty `documentText` (no files uploaded), and `documentText`
+// alone with an empty `description` (uploaded document but nothing typed)
+// -- either one on its own is sent to the model; only when BOTH are empty
+// does this short-circuit to null without even calling the API.
+async function classifyCategory(description: string, documentText: string): Promise<string | null> {
+  const categoryIds = Object.keys(CATEGORY_FIELDS);
+  const categoryListText = categoryIds
+    .map((id) => `- "${id}": ${CATEGORY_DESCRIPTIONS[id] || ""}`)
+    .join("\n");
+
+  const combinedSourceText = [
+    description ? `=== User's own description of the case ===\n${description}` : "",
+    documentText ? `=== Uploaded/pasted document(s) ===\n${documentText}` : "",
+  ].filter(Boolean).join("\n\n");
+
+  // Nothing to classify from -- return null rather than calling the API
+  // (the caller already guards against this case, but classifyCategory
+  // should be safe to call directly with either input empty or both).
+  if (!combinedSourceText) return null;
+
+  const response = await anthropic!.messages.create({
+    model: EXTRACTION_MODEL,
+    max_tokens: 200,
+    system:
+      "You classify a commercial real-estate litigation matter into EXACTLY ONE of a fixed list of categories, based on the user's own description of their case and/or an uploaded document. " +
+      "Only pick a category if the facts actually and specifically fit it. If the matter is too vague or generic to place with confidence, doesn't clearly match any category, could plausibly fit more than one with no way to tell which, or isn't commercial real-estate litigation at all, return null for category rather than guessing -- a wrong guess here is worse than admitting uncertainty. " +
+      "Categories:\n" + categoryListText,
+    messages: [{ role: "user", content: combinedSourceText }],
+    output_config: {
+      format: {
+        type: "json_schema",
+        schema: {
+          type: "object",
+          properties: { category: nullableEnum(categoryIds) },
+          required: ["category"],
+          additionalProperties: false,
+        },
+      },
+    },
+  });
+
+  const text = response.content.find((b): b is Anthropic.TextBlock => b.type === "text")?.text;
+  if (!text) return null;
+  try {
+    const parsed = JSON.parse(text);
+    const cat = typeof parsed.category === "string" ? parsed.category : null;
+    return cat && CATEGORY_FIELDS[cat] ? cat : null;
+  } catch {
+    return null;
+  }
 }
 
 Deno.serve(async (req) => {
@@ -1077,20 +1166,25 @@ Deno.serve(async (req) => {
   // day," it's charging them for a bug. Confirmed this was happening in
   // practice: several consecutive schema-validation failures during
   // debugging each still logged a row here and burned a real credit.
-  let requestBody: { documentText?: string; category?: string; userSide?: "sideA" | "sideB" | null; expectToTrial?: boolean; settlementOnTable?: number | null };
+  // `category` is intentionally NOT required anymore -- the frontend's
+  // category dropdown is gone; the category is now inferred server-side
+  // (see classifyCategory below) from `description` and/or `documentText`.
+  // It's still accepted here and, if present and valid, still trusted
+  // directly (skipping classification) -- purely so any old cached
+  // frontend JS still mid-rollout, which may still send an explicit
+  // dropdown-selected `category`, keeps working exactly as before. New
+  // requests are expected to omit it entirely.
+  let requestBody: { documentText?: string; description?: string; category?: string; userSide?: "sideA" | "sideB" | null; expectToTrial?: boolean; settlementOnTable?: number | null };
   try {
     requestBody = await req.json();
   } catch {
     return jsonResponse({ error: "Invalid request body" }, 400);
   }
-  if (!requestBody.documentText) {
-    return jsonResponse({ error: "No document text provided" }, 400);
+  const description = (requestBody.description ?? "").slice(0, MAX_DESCRIPTION_CHARS);
+  const documentText = (requestBody.documentText ?? "").slice(0, MAX_DOC_CHARS);
+  if (!description && !documentText) {
+    return jsonResponse({ error: "No case description or document text provided" }, 400);
   }
-  const category = requestBody.category ?? "";
-  if (!CATEGORY_FIELDS[category]) {
-    return jsonResponse({ error: "Unrecognized litigation category" }, 400);
-  }
-  const documentText = requestBody.documentText.slice(0, MAX_DOC_CHARS);
 
   if (!ANTHROPIC_API_KEY || !anthropic) {
     // Safe failure mode: the gate above is fully live and correct even
@@ -1113,16 +1207,49 @@ Deno.serve(async (req) => {
   // complexity that wasn't actually buying anything.
   try {
     const data = await loadCaseData();
+
+    // ---- New step: classify the litigation category (runs before the ----
+    // ---- existing 4a/4b/4c pipeline below, which is otherwise unchanged) -
+    // If an old cached frontend still sent an explicit (dropdown-selected)
+    // category, trust it directly rather than second-guessing a real user
+    // choice with an AI guess. Otherwise -- the expected path going
+    // forward -- infer it from the user's description and/or document text.
+    const category = requestBody.category && CATEGORY_FIELDS[requestBody.category]
+      ? requestBody.category
+      : await classifyCategory(description, documentText);
+    if (!category) {
+      return jsonResponse({
+        error: "unrecognized-category",
+        message: "We couldn't confidently tell what kind of commercial real estate dispute this is — try adding a bit more detail, like the type of dispute (e.g. lease, injury on the property, construction defect, foreclosure) and who the parties are.",
+      }, 400);
+    }
     const catSpec = data.spec.categories[category];
     if (!catSpec) throw new Error("Category not found in case data");
 
+    // A user's own freeform description is now a first-class source of
+    // facts (parties, dollar amounts, dates, what happened) -- not just an
+    // afterthought to whatever document(s) got uploaded. It may in fact be
+    // the ONLY source (upload-only requests still work: description is ""
+    // and this reduces to documentText alone; description-only requests
+    // also still work: documentText is "" and this reduces to the
+    // description alone). Combined once here, with its own clearly labeled
+    // section, and reused for both the extraction pass below and the
+    // comprehensive analysis pass further down -- so neither one silently
+    // ignores half of what the user gave us.
+    const combinedCaseText = [
+      description ? `=== User's own description of the case ===\n${description}` : "",
+      documentText,
+    ].filter(Boolean).join("\n\n");
+
     // ---- 4a. Extraction pass (Haiku 4.5, structured JSON, no thinking) ----
-    // documentText may contain more than one filing (e.g. the original
-    // petition AND an answer/counterclaim), concatenated client-side with
-    // "=== Document N: filename ===" section headers -- read across all
-    // of them and synthesize one consistent set of facts, since a fact
-    // like "does the tenant dispute the debt" typically only shows up in
-    // the answer, not the petition.
+    // combinedCaseText may contain the user's own typed description, and/or
+    // more than one filing (e.g. the original petition AND an answer/
+    // counterclaim), concatenated client-side with "=== Document N:
+    // filename ===" section headers -- read across all of it and synthesize
+    // one consistent set of facts, since a fact like "does the tenant
+    // dispute the debt" typically only shows up in the answer, not the
+    // petition, and a fact like a specific dollar amount may only show up
+    // in what the user typed, not in any document at all.
     //
     // Every field is nullable by design (the model should say null for
     // anything not found, never guess) -- but Anthropic caps a single
@@ -1132,11 +1259,11 @@ Deno.serve(async (req) => {
     // and run one extraction call per chunk in parallel, then merge.
     const fieldChunks = chunkFields(CATEGORY_FIELDS[category] || []);
     const baseSystemPrompt =
-      `You extract structured facts from commercial real estate litigation document(s) for the "${catSpec.label}" category. ` +
-      `The user message may contain multiple filings from the same matter (e.g. an original petition and a later answer or counterclaim), separated by "=== Document N: ... ===" headers -- read all of them together as one case record and synthesize a single consistent set of facts; a later filing can add or update facts the earlier one didn't cover. ` +
-      `Only extract facts explicitly stated or very clearly implied in the document(s) — output null for anything you can't determine, never guess.`;
+      `You extract structured facts about a commercial real estate litigation matter for the "${catSpec.label}" category. Your source material may include the user's own typed description of their case, one or more uploaded/pasted document(s) (e.g. a petition, answer, or counterclaim), or both. ` +
+      `The user message may contain multiple filings from the same matter, separated by "=== Document N: ... ===" headers, and/or a "=== User's own description of the case ===" section -- read all of it together as one case record and synthesize a single consistent set of facts; a later filing (or the user's own description) can add or update facts an earlier document didn't cover. ` +
+      `Only extract facts explicitly stated or very clearly implied in the material provided — output null for anything you can't determine, never guess.`;
     const filingPartyPrompt =
-      ` Also determine "filingParty": whether the ORIGINAL/first document represents the "${catSpec.roles.sideA}" side or the "${catSpec.roles.sideB}" side (e.g. captions like "Plaintiff [name], as Landlord, alleges..." indicate sideA here is the ${catSpec.roles.sideA}). If the user has told you separately which side they represent, that takes precedence over your own read of the caption.` +
+      ` Also determine "filingParty": whether the ORIGINAL/first document (or, if there's no document, the user's own description) represents the "${catSpec.roles.sideA}" side or the "${catSpec.roles.sideB}" side (e.g. captions like "Plaintiff [name], as Landlord, alleges..." indicate sideA here is the ${catSpec.roles.sideA}). If the user has told you separately which side they represent, that takes precedence over your own read of the caption.` +
       (requestBody.userSide ? ` The user has stated they represent the "${requestBody.userSide === "sideA" ? catSpec.roles.sideA : catSpec.roles.sideB}" side — set filingParty to "${requestBody.userSide}" accordingly.` : "");
 
     const extractionResults = await Promise.all(fieldChunks.map((chunk, i) => {
@@ -1145,7 +1272,7 @@ Deno.serve(async (req) => {
         model: EXTRACTION_MODEL,
         max_tokens: 2048,
         system: baseSystemPrompt + (includeFilingParty ? filingPartyPrompt : ""),
-        messages: [{ role: "user", content: documentText }],
+        messages: [{ role: "user", content: combinedCaseText }],
         output_config: { format: { type: "json_schema", schema: buildExtractionSchema(chunk, includeFilingParty) } },
       });
     }));
@@ -1324,9 +1451,9 @@ Deno.serve(async (req) => {
       output_config: { effort: "medium", format: { type: "json_schema", schema: analysisSchema } },
       system:
         "You are an experienced commercial real estate litigator producing a probability-weighted case assessment -- not a legal opinion, not an adjudication, and not legal advice. " +
-        `Read the actual document(s) provided and do a comprehensive analysis for the "${catSpec.label}" category: identify every claim, defense, and issue actually present in the record -- not just what a fixed checklist would catch. Weigh evidentiary strength, procedural posture, and any defenses or counterclaims raised. ` +
+        `Read the case materials provided -- the user's own description of their case and/or uploaded/pasted document(s) -- and do a comprehensive analysis for the "${catSpec.label}" category: identify every claim, defense, and issue actually present in the record -- not just what a fixed checklist would catch. Weigh evidentiary strength, procedural posture, and any defenses or counterclaims raised. If the only material provided is the user's own description with no supporting document, analyze it exactly as rigorously, and say so candidly where the lack of a document leaves a fact unverified. ` +
         "GROUNDING REQUIREMENT: you may cite ONLY cases from the reference list below, copied EXACTLY by name -- never invent, alter, or guess at a case name, citation, or outcome. If no listed case supports a point, make the point without a citation rather than fabricating one. " +
-        "A fixed-formula baseline model's mechanical output is provided as ONE reference data point -- it is not the answer key. Use your own judgment from the actual document; you may agree with, refine, or depart from the baseline, and should say which and why. " +
+        "A fixed-formula baseline model's mechanical output is provided as ONE reference data point -- it is not the answer key. Use your own judgment from the actual case materials; you may agree with, refine, or depart from the baseline, and should say which and why. " +
         "Every dollar range must be a range, never a single number -- EXCEPT bestGuessValue, which is deliberately the one point estimate in this whole analysis: after laying out the honest range, commit to the single number inside it you'd actually tell the client to plan around, reasoned from the same probability-weighting you used for the range and issues, not just its arithmetic midpoint. Write like a sharp litigator's internal case assessment memo for a client deciding whether to settle or fight -- direct and specific, not hedged into vagueness.",
       messages: [{
         role: "user",
@@ -1337,7 +1464,7 @@ Deno.serve(async (req) => {
           (requestBody.settlementOnTable ? `Settlement currently on the table: ${fmtMoney(requestBody.settlementOnTable)}\n` : "") +
           `\nFixed-formula baseline model output (reference only, not authoritative):\n${JSON.stringify(baselineSummary, null, 2)}\n` +
           `\nReal cited precedent you may draw on (cite ONLY from this list, by exact name):\n${citationPoolText}\n` +
-          `\n=== The document(s) to analyze ===\n${documentText}`,
+          `\n=== The case materials to analyze (the user's own description and/or uploaded document(s)) ===\n${combinedCaseText}`,
       }],
     });
     const analysis = await analysisStream.finalMessage();
@@ -1427,6 +1554,7 @@ Deno.serve(async (req) => {
         damagesRange: aiDamagesRange,
         bestGuessValue,
         roleLabel,
+        category,
         categoryLabel: evalResult.categoryLabel,
         issues,
         citedCases: [...allCitedMap.values()],

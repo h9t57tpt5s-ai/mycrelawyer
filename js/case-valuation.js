@@ -1,11 +1,13 @@
 /* =========================================================
    CREdocket — Case Value Calculator page logic
    -----------------------------------------------------------
-   One combined interface: manual fact entry is free for everyone;
-   document upload (which pre-fills those same fields via AI
-   extraction, then adds a written analysis on top) requires
-   purchased analysis credits. Both paths feed the same form fields,
-   the same deterministic engine, and the same results area.
+   One unified, AI-first interface: the user describes their case in a
+   single freeform text bar and/or drops in documents. There's no more
+   category or side dropdown, and no more per-category manual-field
+   questionnaire -- the litigation category is classified server-side
+   (from the description + any document text combined), so every
+   estimate now runs through the AI backend and is gated on purchased
+   analysis credits.
 
    Document text extraction happens entirely client-side (PDF via
    pdf.js, .docx via mammoth.js, .txt via FileReader) -- the raw file
@@ -19,18 +21,19 @@
 
 (function () {
   "use strict";
-  if (typeof CASE_VALUATION_DATA === "undefined" || !window.RELAW_VALUATION) return;
-  const V = window.RELAW_VALUATION;
-  const SPEC = CASE_VALUATION_DATA.spec.categories;
-  const STATE_MODS = CASE_VALUATION_DATA.stateLawModifiers;
-  const STATES = Object.keys(STATE_MODS).sort();
-  const EMINENT_DOMAIN_FEE_MODS = CASE_VALUATION_DATA.eminentDomainAttorneyFees;
-  const EMINENT_DOMAIN_GOODWILL = CASE_VALUATION_DATA.eminentDomainBusinessGoodwill;
-  const FORECLOSURE_STATE_MODS = CASE_VALUATION_DATA.foreclosureStateModifiers;
-  const INDEMNITY_STATE_MODS = CASE_VALUATION_DATA.constructionIndemnityStateModifiers;
-  const ZONING_STATE_MODS = CASE_VALUATION_DATA.zoningComprehensivePlanModifiers;
-  const ENV_POLLUTION_MODS = CASE_VALUATION_DATA.environmentalPollutionExclusionModifiers;
-  const PREMISES_LIABILITY_STATE_MODS = CASE_VALUATION_DATA.premisesLiabilityStateModifiers;
+  // The client-side rules engine (js/case-valuation-engine.js) and its
+  // shared case-law data file (js/case-valuation-data.js) were both
+  // removed from this page along with the manual-entry form they served
+  // -- the litigation category, facts, and every dollar figure now come
+  // back from the AI backend's response instead of being computed here.
+  // These three tiny formatting helpers are all that's left of what used
+  // to be `window.RELAW_VALUATION`'s exports; kept as plain local
+  // functions rather than reviving a dependency on either deleted file.
+  const V = {
+    fmt: (n) => (n < 0 ? "-$" + Math.round(-n).toLocaleString("en-US") : "$" + Math.round(n).toLocaleString("en-US")),
+    fmtRange: (lo, hi) => (Math.round(lo) === Math.round(hi) ? V.fmt(lo) : `${V.fmt(lo)} – ${V.fmt(hi)}`),
+    pct: (r) => `${Math.round(r[0] * 100)}–${Math.round(r[1] * 100)}%`,
+  };
 
   // ---- CONFIG ---------------------------------------------------------
   const STRIPE_PAYMENT_LINK_URL = "https://buy.stripe.com/dRm9AL34yaOSeLJetz1B601";
@@ -55,32 +58,19 @@
       "https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js";
   }
 
-  /* ---------- entitlement checks ----------------------------------
-     Two DIFFERENT, deliberate gates:
-     - checkEntitlement(): "has ever purchased" -- unlocks the manual
-       tool's full claim-by-claim breakdown + PDF export, forever, for
-       zero additional marginal cost. One-time unlock, not metered.
-     - getCreditBalance(): live remaining-credit count -- gates
-       document upload/AI analysis specifically, since each analysis
-       has a real AI API cost. Every purchase adds credits; they're
-       consumed one per analysis and never expire. */
-  async function checkEntitlement() {
-    if (!window.RELAW_AUTH || !sb) return false;
-    const session = window.RELAW_AUTH.getSession();
-    if (!session) return false;
-    try {
-      const { data, error } = await sb
-        .from("case_valuation_purchases")
-        .select("id")
-        .limit(1)
-        .maybeSingle();
-      if (error) return false;
-      return !!data;
-    } catch (e) {
-      return false;
-    }
-  }
+  const uploadHost = document.getElementById("cv-upload-host");
+  const resultsHost = document.getElementById("cv-results-host");
+  const form = document.getElementById("cv-form");
+  if (!uploadHost || !resultsHost || !form) return;
 
+  /* ---------- entitlement checks ----------------------------------
+     getCreditBalance(): live remaining-credit count -- gates the whole
+     "describe your case / upload documents" analysis flow, since every
+     analysis now runs through the AI backend (which also classifies the
+     litigation category from the description + document text -- there's
+     no more client-side category dropdown to key a free deterministic
+     estimate off of). Every purchase adds credits; they're consumed one
+     per analysis and never expire. */
   async function getCreditBalance() {
     const [{ data: purchases, error: pErr }, { count, error: cErr }] = await Promise.all([
       sb.from("case_valuation_purchases").select("credits_granted"),
@@ -90,349 +80,6 @@
     const total = (purchases || []).reduce((s, p) => s + (p.credits_granted || 0), 0);
     const used = count || 0;
     return { total, used, remaining: total - used };
-  }
-
-  function upsellHtml() {
-    const session = window.RELAW_AUTH && window.RELAW_AUTH.getSession();
-    if (!session) {
-      return `
-        <div class="gate-card">
-          <div class="eyebrow" style="margin-bottom:8px;">Free account required</div>
-          <h3 style="margin-bottom:8px;">Sign in to see the full breakdown</h3>
-          <p class="text-secondary" style="font-size:13.5px; line-height:1.6; margin-bottom:16px;">The net position above is free for everyone. The claim-by-claim analysis with citations, the cost-to-litigate comparison, and the PDF report require a free account and the full-access plan.</p>
-          <button type="button" class="btn btn-primary btn-sm" id="cv-signin-btn">Sign in to continue</button>
-        </div>`;
-    }
-    const buyBtn = STRIPE_PAYMENT_LINK_URL
-      ? `<a href="${STRIPE_PAYMENT_LINK_URL}" target="_blank" rel="noopener" class="btn btn-primary btn-sm">Unlock Full Access</a>`
-      : `<a href="contact.html?matter=${encodeURIComponent("Case Value Calculator — full access")}" class="btn btn-primary btn-sm">Contact Us to Purchase</a>`;
-    return `
-      <div class="gate-card eg-purchase-card">
-        <div class="eyebrow" style="margin-bottom:8px;">Full Access Required</div>
-        <h3 style="margin-bottom:4px;">See the full claim-by-claim analysis</h3>
-        <div class="eg-purchase-price">${PRICE_DISPLAY}</div>
-        <p class="text-secondary" style="font-size:13.5px; line-height:1.6; margin-bottom:18px;">Unlocks the claim-by-claim breakdown with real case citations, the cost-to-litigate and settlement comparison, document upload with AI analysis, and PDF report export — for every category, every matter.</p>
-        ${buyBtn}
-      </div>`;
-  }
-
-  const CATEGORIES = [
-    { slug: "lease-disputes", label: "Landlord-Tenant / Lease Disputes" },
-    { slug: "lending-foreclosure", label: "Lending & Foreclosure" },
-    { slug: "reit-securities", label: "REIT & Real Estate Securities" },
-    { slug: "construction-defect", label: "Construction Defect" },
-    { slug: "environmental", label: "Environmental" },
-    { slug: "eminent-domain", label: "Eminent Domain" },
-    { slug: "zoning-land-use", label: "Zoning & Land Use" },
-    { slug: "premises-liability", label: "Premises Liability / Negligence" }
-  ];
-
-  const QUESTIONS = {
-    "lease-disputes": [
-      { key: "state", label: "Property state", type: "state" },
-      { key: "unpaidRentAmount", label: "Unpaid rent accrued to date ($)", type: "number" },
-      { key: "tenantDisputesDebt", label: "Does the tenant dispute the debt (e.g. claims rent abatement)?", type: "boolean" },
-      { key: "hasWrittenLease", label: "Is there a written lease?", type: "boolean", default: true },
-      { key: "leaseTerminated", label: "Has the lease been terminated / tenant vacated?", type: "boolean" },
-      { key: "remainingMonths", label: "Months remaining on the lease term at termination", type: "number" },
-      { key: "monthlyRent", label: "Monthly rent ($)", type: "number" },
-      { key: "hasAccelerationClause", label: "Does the lease have an acceleration clause?", type: "select", options: ["yes", "no", "unsure"] },
-      { key: "hasRelet", label: "Has the landlord already re-let the space?", type: "boolean" },
-      { key: "reletRentAmount", label: "If re-let, new rent received over the overlapping period ($)", type: "number" },
-      { key: "heldOverAfterTerm", label: "Did the tenant hold over after the lease term expired?", type: "boolean" },
-      { key: "holdoverMonths", label: "Months held over", type: "number" },
-      { key: "propertyDamageAmount", label: "Property damage / repair costs claimed ($)", type: "number" },
-      { key: "selfHelpUsed", label: "Did the landlord use self-help (change locks, etc.)?", type: "boolean" },
-      { key: "selfHelpProcessFollowed", label: "If self-help was used, was the state's required process followed?", type: "select", options: ["yes", "no", "unclear"] },
-      { key: "wrongfulLockoutDamages", label: "If wrongful lockout: tenant's actual damages claimed (relocation, lost inventory/profits) ($)", type: "number" },
-      { key: "daysLockedOut", label: "If wrongful lockout: number of days the tenant was locked out (for per-day statutory penalty states)", type: "number" },
-      { key: "selfHelpDisruptedThirdPartyContracts", label: "Did the lockout disrupt the tenant's contracts with its own customers/suppliers/employees (not just occupancy)?", type: "boolean" },
-      { key: "lostProfitsFromInterference", label: "If so: tenant's lost profits claimed from that third-party contract disruption ($)", type: "number" },
-      { key: "repairFailureOrInterferenceClaimed", label: "Is the tenant alleging failure to repair / interference with use?", type: "boolean" },
-      { key: "gaveCureNoticeLandlordFailedToAct", label: "Did the tenant give notice and the landlord fail to act?", type: "boolean" },
-      { key: "depositAmount", label: "Security deposit amount ($)", type: "number" },
-      { key: "depositDisputed", label: "Is the deposit withheld/disputed?", type: "boolean" },
-      { key: "landlordProvidedItemization", label: "Did the landlord provide an itemization of deductions?", type: "boolean" },
-      { key: "releaseWorkCosts", label: "Costs incurred/anticipated to re-lease the space — landlord's work, tenant-improvement allowance, leasing commissions ($)", type: "number" },
-      { key: "hasFeeShiftingClause", label: "Does the lease have an attorney's-fees (fee-shifting) clause?", type: "boolean" },
-      { key: "litigationPosture", label: "Litigation posture (for attorney's-fees estimate)", type: "select", options: ["default", "answered-passive", "contested-msj", "trial"] }
-    ],
-    "lending-foreclosure": [
-      { key: "state", label: "Property state (for deficiency-judgment-availability rules)", type: "state" },
-      { key: "foreclosureMethod", label: "Foreclosure method used or planned", type: "select", options: ["judicial", "non-judicial", "unsure"] },
-      { key: "loanBalance", label: "Outstanding loan balance ($)", type: "number" },
-      { key: "foreclosureFiled", label: "Has a foreclosure action been filed?", type: "boolean" },
-      { key: "borrowerDisputesDefault", label: "Does the borrower dispute the default itself?", type: "boolean" },
-      { key: "lenderAdvances", label: "Lender protective advances — taxes/insurance paid ($)", type: "number" },
-      { key: "saleProceeds", label: "Foreclosure sale proceeds, if known ($)", type: "number" },
-      { key: "receivershipMotionFiled", label: "Has a receivership motion been filed?", type: "boolean" },
-      { key: "guarantyTriggerAlleged", label: "Is a guaranty carve-out trigger event alleged (fraud, waste, unauthorized transfer, etc.)?", type: "boolean" },
-      { key: "guaranteedBalance", label: "Guaranteed loan balance ($)", type: "number" },
-      { key: "guarantorAssertsCounterclaimOrOffset", label: "Does the guarantor assert a counterclaim or offset against the guaranty?", type: "boolean" },
-      { key: "lenderMisconductAlleged", label: "Does the borrower allege lender misconduct (bad faith, wrongful acceleration)?", type: "boolean" },
-      { key: "egregiousConductAlleged", label: "If lender misconduct alleged: is it egregious / clear bad faith (opens exemplary damages)?", type: "boolean" },
-      { key: "lenderLiabilityDamagesClaimed", label: "If lender misconduct alleged: borrower's claimed damages (contract, lost profits, out-of-pocket) ($)", type: "number" },
-      { key: "hasFeeShiftingClause", label: "Does the loan/guaranty documentation have an attorney's-fees (fee-shifting) clause?", type: "boolean" },
-      { key: "litigationPosture", label: "Litigation posture (for attorney's-fees estimate)", type: "select", options: ["default", "answered-passive", "contested-msj", "trial"] }
-    ],
-    "reit-securities": [
-      { key: "stockDropAlleged", label: "Is a stock-price drop tied to a misrepresentation/omission alleged?", type: "boolean" },
-      { key: "estimatedInvestorLosses", label: "Estimated aggregate investor losses ($)", type: "number" },
-      { key: "hasCriminalConductOrAuditorOrControllingShareholder", label: "Is there criminal conduct, an auditor co-defendant, or controlling-shareholder self-dealing alleged?", type: "boolean" },
-      { key: "boardBreachAlleged", label: "Is a board/sponsor fiduciary-duty breach alleged (derivative suit)?", type: "boolean" },
-      { key: "tiedToConcreteSelfDealingTransaction", label: "Is it tied to a specific, quantifiable self-dealing transaction?", type: "boolean" },
-      { key: "proxyOmissionAlleged", label: "Is a material omission in proxy/vote materials alleged?", type: "boolean" },
-      { key: "specificInsiderStakeAlleged", label: "Is a specific, quantifiable undisclosed insider financial stake alleged?", type: "boolean" },
-      { key: "mergerObjection", label: "Is this a merger/sale-terms objection suit?", type: "boolean" }
-    ],
-    "construction-defect": [
-      { key: "state", label: "Project state (for anti-indemnity-statute rules)", type: "state" },
-      { key: "contractorDefectAlleged", label: "Is a defect alleged against the general contractor?", type: "boolean" },
-      { key: "repairCostEstimate", label: "Estimated repair cost ($)", type: "number" },
-      { key: "catastrophicOrLifeSafety", label: "Is this a catastrophic/structural/life-safety failure (vs. a latent post-occupancy defect)?", type: "boolean" },
-      { key: "designErrorAlleged", label: "Is a design error alleged against the architect/engineer?", type: "boolean" },
-      { key: "multiplePartiesIndemnityExists", label: "Are there multiple responsible parties with an indemnity clause?", type: "boolean" },
-      { key: "insurerDeniedCoverage", label: "Has a CGL insurer denied or disputed coverage?", type: "boolean" }
-    ],
-    "environmental": [
-      { key: "state", label: "State (for pollution-exclusion insurance-coverage rules)", type: "state" },
-      { key: "cleanupCostsIncurred", label: "Cleanup/remediation costs incurred or estimated ($)", type: "number" },
-      { key: "contaminationScale", label: "Contamination scale", type: "select", options: ["single-parcel", "multi-decade/waterway", "small-commercial-penalty"] },
-      { key: "multiplePRPs", label: "Are there multiple potentially responsible parties (PRPs)?", type: "boolean" },
-      { key: "innocentLandownerStatus", label: "Does the property owner qualify as a CERCLA 'innocent landowner' (didn't cause the contamination, had no actual knowledge of it at acquisition, did appropriate due diligence beforehand, and has exercised due care since)?", type: "select", options: ["yes", "no", "unsure"] },
-      { key: "stateConsentDecree", label: "Is this a state cleanup enforcement action / consent decree (not private litigation)?", type: "boolean" },
-      { key: "insurerDeniedEnvCoverage", label: "Has an insurer denied environmental coverage?", type: "boolean" }
-    ],
-    "eminent-domain": [
-      { key: "state", label: "State (for attorney-fee-shifting and business-goodwill rules)", type: "state" },
-      { key: "initialOffer", label: "Condemning authority's initial offer ($)", type: "number" },
-      { key: "severanceDamagesClaimed", label: "Does the dispute involve severance/access damages to a remainder parcel?", type: "boolean" },
-      { key: "businessGoodwillLossClaimed", label: "Is a separate loss of business goodwill being claimed (distinct from land/severance value)?", type: "boolean" },
-      { key: "challengingTheTaking", label: "Is the owner challenging the taking itself (not just the value)?", type: "boolean" },
-      { key: "opposingSurveyAccess", label: "Is this a pre-condemnation survey/access dispute?", type: "boolean" },
-      { key: "regulatoryTakingAlleged", label: "Is a regulatory taking alleged (no formal condemnation filed)?", type: "boolean" },
-      { key: "propertyFairMarketValue", label: "Property's fair market value, if a regulatory taking is alleged ($)", type: "number" }
-    ],
-    "zoning-land-use": [
-      { key: "state", label: "Municipality's state (for comprehensive-plan-consistency rules)", type: "state" },
-      { key: "varianceOrPermitDenied", label: "Was a variance or permit denied and appealed?", type: "boolean" },
-      { key: "spotZoningAlleged", label: "Is a rezoning being challenged as improper spot zoning?", type: "boolean" },
-      { key: "arbitraryOrDiscriminatoryDenialAlleged", label: "Is an arbitrary or discriminatory zoning denial alleged (Section 1983)?", type: "boolean" },
-      { key: "vestedRightPlusBadFaith", label: "Was a permit already issued, money spent, then the code changed to kill the project?", type: "boolean" },
-      { key: "longPatternShiftingDemands", label: "Is there a long pattern of repeated, shifting requirements across applications?", type: "boolean" },
-      { key: "noNoticeOrHearing", label: "Was there a complete absence of notice or hearing?", type: "boolean" },
-      { key: "discriminatoryIntentEvidence", label: "Is there direct evidence of discriminatory intent?", type: "boolean" },
-      { key: "lostValueEstimate", label: "Estimated lost project/development value ($)", type: "number" },
-      { key: "developmentAgreementBreached", label: "Is a development agreement alleged to have been breached?", type: "boolean" }
-    ],
-    "premises-liability": [
-      { key: "state", label: "State where the injury occurred (for comparative-fault and punitive-damages rules)", type: "state" },
-      { key: "medicalSpecialsIncurred", label: "Medical specials incurred/anticipated ($)", type: "number" },
-      { key: "lostWagesClaimed", label: "Lost wages claimed ($)", type: "number" },
-      { key: "injurySeverity", label: "Injury severity", type: "select", options: ["minor", "moderate", "severe", "catastrophic"] },
-      { key: "slipAndFallAlleged", label: "Is this a slip-and-fall / hazardous-condition claim?", type: "boolean" },
-      { key: "hazardNoticeProven", label: "If slip-and-fall: has actual or constructive notice of the hazard been proven?", type: "select", options: ["yes", "no", "unclear"] },
-      { key: "selfServiceModeOfOperationApplicable", label: "If notice hasn't been proven: does the hazard fit a self-service business's own operating method (e.g. self-serve produce, drink stations)?", type: "boolean" },
-      { key: "inadequateSecurityAlleged", label: "Is inadequate/negligent security (third-party criminal act) alleged?", type: "boolean" },
-      { key: "priorSimilarCrimeIncidents", label: "If so: were there prior similar criminal incidents on the property or in its immediate vicinity?", type: "boolean" },
-      { key: "structuralFailureAlleged", label: "Is negligent maintenance / structural failure alleged (railing, stairs, elevator, etc.)?", type: "boolean" },
-      { key: "failureToWarnAlleged", label: "Is failure to warn of a dangerous condition alleged?", type: "boolean" },
-      { key: "openAndObviousDefenseRaised", label: "If so: has the property owner raised an open-and-obvious defense?", type: "boolean" },
-      { key: "plaintiffComparativeFaultPercent", label: "Plaintiff's own alleged comparative-fault percentage (0-100)", type: "number" },
-      { key: "egregiousConductAllegedForPunitives", label: "Is the property owner's conduct alleged to be willful, wanton, or in reckless disregard of a known danger (punitive damages)?", type: "boolean" }
-    ]
-  };
-
-  const catSelect = document.getElementById("cv-category-select");
-  const sideSelect = document.getElementById("cv-side-select");
-  const formHost = document.getElementById("cv-form-host");
-  const manualEntryDetails = document.getElementById("cv-manual-entry");
-  const uploadHost = document.getElementById("cv-upload-host");
-  const resultsHost = document.getElementById("cv-results-host");
-  const form = document.getElementById("cv-form");
-  if (!catSelect) return;
-
-  CATEGORIES.forEach((c) => {
-    const opt = document.createElement("option");
-    opt.value = c.slug;
-    opt.textContent = c.label;
-    catSelect.appendChild(opt);
-  });
-
-  function renderSideOptions(slug) {
-    const roles = SPEC[slug].roles;
-    sideSelect.innerHTML = `<option value="sideA">${roles.sideA}</option><option value="sideB">${roles.sideB}</option>`;
-  }
-
-  function questionInputHtml(q) {
-    const id = "cv-q-" + q.key;
-    if (q.type === "boolean") {
-      return `<div class="cv-field">
-        <label for="${id}">${q.label}</label>
-        <select id="${id}" data-key="${q.key}" data-type="boolean">
-          <option value="">—</option>
-          <option value="true"${q.default ? " selected" : ""}>Yes</option>
-          <option value="false">No</option>
-        </select>
-      </div>`;
-    }
-    if (q.type === "select") {
-      return `<div class="cv-field">
-        <label for="${id}">${q.label}</label>
-        <select id="${id}" data-key="${q.key}" data-type="select">
-          <option value="">—</option>
-          ${q.options.map((o) => `<option value="${o}">${o}</option>`).join("")}
-        </select>
-      </div>`;
-    }
-    if (q.type === "state") {
-      return `<div class="cv-field">
-        <label for="${id}">${q.label}</label>
-        <select id="${id}" data-key="${q.key}" data-type="state">
-          <option value="">—</option>
-          ${STATES.map((s) => `<option value="${s}">${s}</option>`).join("")}
-        </select>
-      </div>`;
-    }
-    return `<div class="cv-field">
-      <label for="${id}">${q.label}</label>
-      <input id="${id}" type="number" step="any" data-key="${q.key}" data-type="number" />
-    </div>`;
-  }
-
-  function renderForm(slug) {
-    formHost.innerHTML = QUESTIONS[slug].map(questionInputHtml).join("");
-    resultsHost.innerHTML = "";
-  }
-
-  catSelect.addEventListener("change", () => {
-    if (!catSelect.value) { formHost.innerHTML = ""; resultsHost.innerHTML = ""; return; }
-    renderSideOptions(catSelect.value);
-    renderForm(catSelect.value);
-  });
-
-  function collectFacts(slug) {
-    const facts = {};
-    formHost.querySelectorAll("[data-key]").forEach((el) => {
-      const key = el.getAttribute("data-key");
-      const type = el.getAttribute("data-type");
-      const raw = el.value;
-      if (raw === "") return;
-      if (type === "boolean") facts[key] = raw === "true";
-      else if (type === "number") facts[key] = parseFloat(raw);
-      else facts[key] = raw;
-    });
-    // pull in state-law modifiers for lease-disputes
-    if (slug === "lease-disputes" && facts.state && STATE_MODS[facts.state]) {
-      const m = STATE_MODS[facts.state];
-      facts.mitigationDuty = m.mitigationDuty;
-      facts.holdoverStatutoryPenalty = m.holdoverStatutoryPenalty;
-      facts.selfHelpAvailable = m.selfHelpAvailable;
-      facts.wrongfulLockoutRemedyType = m.wrongfulLockoutRemedyType;
-      facts.wrongfulLockoutRemedyValue = m.wrongfulLockoutRemedyValue;
-      facts.wrongfulLockoutCitation = m.wrongfulLockoutCitation;
-    }
-    // pull in attorney-fee-shifting + business-goodwill state law for eminent-domain
-    if (slug === "eminent-domain" && facts.state) {
-      const feeMod = EMINENT_DOMAIN_FEE_MODS[facts.state];
-      if (feeMod) {
-        facts.eminentDomainFeeThresholdPct = feeMod.thresholdPct;
-        facts.eminentDomainFeeMandatory = feeMod.mandatory;
-        facts.eminentDomainFeeCapNote = feeMod.capNote || null;
-        facts.eminentDomainFeeCitation = feeMod.citation;
-        facts.eminentDomainFeeNote = feeMod.note;
-      }
-      facts.eminentDomainGoodwillRecognized = EMINENT_DOMAIN_GOODWILL.recognizedStates.includes(facts.state);
-      facts.eminentDomainGoodwillCitation = facts.eminentDomainGoodwillRecognized
-        ? EMINENT_DOMAIN_GOODWILL.recognizedCitation
-        : null;
-      facts.eminentDomainGoodwillNote = facts.eminentDomainGoodwillRecognized
-        ? EMINENT_DOMAIN_GOODWILL.recognizedNote
-        : EMINENT_DOMAIN_GOODWILL.majorityRuleNote;
-    }
-    // pull in deficiency-judgment-availability state law for lending-foreclosure
-    // (full 51-jurisdiction table -- see foreclosureStateModifiers in
-    // case-valuation-data.js)
-    if (slug === "lending-foreclosure" && facts.state && FORECLOSURE_STATE_MODS[facts.state]) {
-      const m = FORECLOSURE_STATE_MODS[facts.state];
-      facts.deficiencyBarredIfNonJudicial = m.deficiencyBarredIfNonJudicial;
-      facts.deficiencyConditionalIfNonJudicial = m.deficiencyConditionalIfNonJudicial;
-      facts.deficiencyBarredForBorrowerButGuarantorAvailable = m.deficiencyBarredForBorrowerButGuarantorAvailable;
-      facts.fairValueOffsetApplies = m.fairValueOffsetApplies;
-      facts.foreclosureProcedureTrap = m.procedureTrap;
-      facts.foreclosureStateCitation = m.citation;
-      facts.foreclosureStateNote = m.note;
-    }
-    // pull in the anti-indemnity-statute state law for construction-defect
-    // (full 51-jurisdiction table -- see constructionIndemnityStateModifiers
-    // in case-valuation-data.js)
-    if (slug === "construction-defect" && facts.state && INDEMNITY_STATE_MODS[facts.state]) {
-      const m = INDEMNITY_STATE_MODS[facts.state];
-      facts.indemnityForm = m.indemnityForm;
-      facts.indemnityStateCitation = m.citation;
-      facts.indemnityStateNote = m.note;
-    }
-    // pull in the comprehensive-plan-consistency state law for
-    // zoning-land-use (first tranche, 35 of 51 jurisdictions -- see
-    // zoningComprehensivePlanModifiers in case-valuation-data.js; states
-    // not yet researched have requirement: null and are left unadjusted)
-    if (slug === "zoning-land-use" && facts.state && ZONING_STATE_MODS[facts.state]) {
-      const m = ZONING_STATE_MODS[facts.state];
-      facts.zoningPlanConsistencyRequirement = m.requirement;
-      facts.zoningPlanConsistencyCitation = m.citation;
-      facts.zoningPlanConsistencyNote = m.note;
-    }
-    // pull in the pollution-exclusion-interpretation state law for
-    // environmental (first tranche, 20 of 51 jurisdictions -- see
-    // environmentalPollutionExclusionModifiers in case-valuation-data.js;
-    // states not yet researched have interpretation: null and are left
-    // unadjusted)
-    if (slug === "environmental" && facts.state && ENV_POLLUTION_MODS[facts.state]) {
-      const m = ENV_POLLUTION_MODS[facts.state];
-      facts.pollutionExclusionInterpretation = m.interpretation;
-      facts.pollutionExclusionCitation = m.citation;
-      facts.pollutionExclusionNote = m.note;
-    }
-    // pull in the comparative/contributory-fault rule and punitive-damages
-    // standard/cap for premises-liability (full 51-jurisdiction table -- see
-    // premisesLiabilityStateModifiers in case-valuation-data.js)
-    if (slug === "premises-liability" && facts.state && PREMISES_LIABILITY_STATE_MODS[facts.state]) {
-      const m = PREMISES_LIABILITY_STATE_MODS[facts.state];
-      facts.premisesFaultRule = m.faultRule;
-      facts.premisesFaultRuleCitation = m.faultRuleCitation;
-      facts.premisesPunitiveDamagesStandard = m.punitiveDamagesStandard;
-      facts.premisesPunitiveDamagesCap = m.punitiveDamagesCap;
-      // Deep per-state doctrine fields (added in the second, much more
-      // thorough research pass) -- see the comment above
-      // premisesLiabilityStateModifiers in case-valuation-data.js for what
-      // each of these actually means and why it was researched.
-      facts.premisesOpenAndObviousDoctrine = m.openAndObviousDoctrine;
-      facts.premisesOpenAndObviousRule = m.openAndObviousRule;
-      facts.premisesOpenAndObviousCitation = m.openAndObviousCitation;
-      facts.premisesNegligentSecurityTest = m.negligentSecurityForeseeabilityTest;
-      facts.premisesNegligentSecurityTestNormalized = m.negligentSecurityTestNormalized;
-      facts.premisesNegligentSecurityCitation = m.negligentSecurityCitation;
-      facts.premisesModeOfOperationAdopted = m.modeOfOperationRuleAdopted;
-      facts.premisesModeOfOperationCitation = m.modeOfOperationCitation;
-      facts.premisesLiabilityDistinct = m.premisesLiabilityDistinctFromOrdinaryNegligence;
-      facts.premisesLiabilityDistinctNote = m.premisesLiabilityDistinctNote;
-    }
-    return facts;
-  }
-
-  // Fills the currently-rendered form fields from an extractedFacts object
-  // (AI extraction result) -- same data-key attributes collectFacts() reads,
-  // so the user sees exactly what was extracted and can review/edit before
-  // estimating. Does not touch fields extraction didn't return a value for.
-  function fillFormFromFacts(facts) {
-    formHost.querySelectorAll("[data-key]").forEach((el) => {
-      const key = el.getAttribute("data-key");
-      const type = el.getAttribute("data-type");
-      if (!(key in facts) || facts[key] === null || facts[key] === undefined) return;
-      const v = facts[key];
-      if (type === "boolean") el.value = v ? "true" : "false";
-      else el.value = String(v);
-    });
   }
 
   function claimResultHtml(c) {
@@ -468,116 +115,53 @@
     return out;
   }
 
-  function costCardHtml(costEstimate, netAfterCosts, comparison) {
-    let verdictHtml = "";
-    if (comparison) {
-      let verdictClass = "cv-verdict-mixed", verdictText;
-      if (comparison.clearlyFavorsLitigating) {
-        verdictClass = "cv-verdict-litigate";
-        verdictText = `Litigating clears the ${V.fmt(comparison.settlementOnTable)} settlement on the table even in the worst-case scenario.`;
-      } else if (comparison.clearlyFavorsSettling) {
-        verdictClass = "cv-verdict-settle";
-        verdictText = `The ${V.fmt(comparison.settlementOnTable)} settlement on the table beats litigating even in the best-case scenario.`;
-      } else {
-        verdictText = `Depends on where the actual outcome lands within the range — litigating could net more or less than the ${V.fmt(comparison.settlementOnTable)} settlement on the table.`;
-      }
-      verdictHtml = `<div class="cv-verdict ${verdictClass}">${verdictText}</div>`;
+  // The user's side ("sideA"/"sideB") relative to whatever category the
+  // backend classifies -- captured via the lightweight two-button toggle
+  // inside the case-description card (see uploadZoneHtml()/wireUploadZone()
+  // below), since there's no more category-specific role-labeled <select>
+  // to key this off of: the category itself is now classified server-side
+  // from the freeform description + document text combined, not chosen by
+  // the user up front. cvUserSideChosen tracks whether the user
+  // deliberately picked a side (vs. it being auto-filled from AI-extracted
+  // facts in renderAiResult below).
+  let cvUserSide = null;
+  let cvUserSideChosen = false;
+
+  // Auto-grows a textarea to fit its content, chat-bar style, instead of
+  // showing an internal scrollbar.
+  function autoGrowTextarea(el) {
+    // Guards against measuring scrollHeight while the element (or an
+    // ancestor) hasn't been laid out yet -- e.g. read synchronously right
+    // after an innerHTML swap, before the browser has resolved a real
+    // width for it -- which can otherwise wrap the placeholder text into
+    // an enormous, wrong scrollHeight that then gets baked in as a fixed
+    // inline height. If the box doesn't have a sane width yet, defer one
+    // frame and try again instead of trusting a bogus reading now.
+    if (el.offsetWidth < 40) {
+      requestAnimationFrame(() => autoGrowTextarea(el));
+      return;
     }
-    return `
-      <div class="cv-summary card" style="margin-top:16px;">
-        <div class="eyebrow" style="margin-bottom:8px;">Cost to Litigate</div>
-        <p class="text-secondary" style="font-size:13px; margin-bottom:4px;">Estimated attorney fees (${costEstimate.pathLabel}): <strong>${V.fmtRange(costEstimate.costRange[0], costEstimate.costRange[1])}</strong></p>
-        <p class="text-secondary" style="font-size:13px; margin-bottom:16px;">Estimated time to resolution: <strong>${costEstimate.monthsRange[0]}–${costEstimate.monthsRange[1]} months</strong></p>
-        <div class="eyebrow" style="margin-bottom:8px;">Net Position After Litigation Costs</div>
-        <div class="cv-net">${V.fmtRange(netAfterCosts[0], netAfterCosts[1])}</div>
-        <p class="text-muted" style="font-size:12px; margin-bottom:${verdictHtml ? "12" : "0"}px;">${costEstimate.isCustom ? "Using your own attorney-fee estimate." : "Using general industry cost norms for this category — not individually cited to a real case."} This does not include expert-witness costs, court costs, or the value of management time diverted to the matter.</p>
-        ${verdictHtml}
-      </div>`;
+    el.style.height = "auto";
+    el.style.height = Math.min(el.scrollHeight, 480) + "px";
   }
 
-  form.addEventListener("submit", async (e) => {
-    e.preventDefault();
-    const slug = catSelect.value;
-    if (!slug) return;
-    const facts = collectFacts(slug);
-    const evalResult = V.evaluate(slug, facts);
-    const side = sideSelect.value;
-    const roles = evalResult.roles;
-    const mySide = side === "sideA" ? evalResult.sideATotal : evalResult.sideBTotal;
-    const otherSide = side === "sideA" ? evalResult.sideBTotal : evalResult.sideATotal;
-    const net = [mySide[0] - otherSide[1], mySide[1] - otherSide[0]];
-
-    if (!evalResult.claims.length) {
-      resultsHost.innerHTML = `<div class="gate-card"><p class="text-secondary" style="font-size:13.5px;">No claims apply based on the facts entered — try filling in more fields above.</p></div>`;
-      return;
-    }
-
-    resultsHost.innerHTML = `
-      <div class="cv-summary card">
-        <div class="eyebrow" style="margin-bottom:8px;">Net Position — ${side === "sideA" ? roles.sideA : roles.sideB} view</div>
-        <div class="cv-net">${V.fmtRange(net[0], net[1])}</div>
-        <p class="text-muted" style="font-size:12.5px;">Sum of applicable claims' expected values, from the ${side === "sideA" ? roles.sideA : roles.sideB}'s perspective. This is a probability-informed estimate, not a prediction of any specific outcome.</p>
-      </div>
-      <div id="cv-gated-content" style="margin-top:16px;"><div class="gate-card is-loading">Checking access…</div></div>
-    `;
-
-    const gatedSlot = document.getElementById("cv-gated-content");
-    const entitled = await checkEntitlement();
-
-    if (!entitled) {
-      gatedSlot.innerHTML = upsellHtml();
-      const signInBtn = document.getElementById("cv-signin-btn");
-      if (signInBtn && window.RELAW_AUTH) signInBtn.addEventListener("click", () => window.RELAW_AUTH.openSignInModal());
-      return;
-    }
-
-    let costHtml = "";
-    let costData = null;
-    if (window.RELAW_VALUATION_COSTS) {
-      const costFacts = collectCostFacts();
-      const costEstimate = window.RELAW_VALUATION_COSTS.estimateCost(slug, costFacts);
-      const { netAfterCosts, comparison } = window.RELAW_VALUATION_COSTS.compareToSettlement(net, costEstimate, costFacts.settlementOnTable);
-      costHtml = costCardHtml(costEstimate, netAfterCosts, comparison);
-      costData = { costEstimate, netAfterCosts, comparison };
-    }
-
-    gatedSlot.innerHTML = `
-      <div class="card" style="padding:20px;">
-        <button type="button" class="btn btn-ghost btn-sm" id="cv-download-report">
-          Download PDF Report
-          <svg viewBox="0 0 24 24" fill="none" width="16" height="16"><path d="M12 3v12m0 0l-4-4m4 4l4-4M5 21h14" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
-        </button>
-      </div>
-      ${costHtml}
-      <div class="cv-claims" style="margin-top:16px;">${evalResult.claims.map(claimResultHtml).join("")}</div>
-    `;
-
-    const downloadBtn = document.getElementById("cv-download-report");
-    if (downloadBtn) {
-      downloadBtn.addEventListener("click", () => {
-        if (window.CV_REPORT) {
-          window.CV_REPORT.requestFullReport(evalResult, {
-            categoryLabel: evalResult.categoryLabel,
-            roles,
-            side,
-            net,
-            catSpec: SPEC[slug],
-            costData
-          });
-        }
-      });
-    }
-  });
+  // The form no longer has its own submit button -- the actual call to
+  // action lives inside the async, credit-gated card rendered into
+  // #cv-upload-host (see renderUploadZone() below), since every estimate
+  // now runs through the AI backend. This is just a safety net so an
+  // Enter keypress in one of the cost-section number fields can't trigger
+  // a real page navigation/reload.
+  form.addEventListener("submit", (e) => e.preventDefault());
 
   /* =========================================================
-     Document upload / AI analysis -- gated to users with remaining
-     analysis credits. Extracts text client-side, sends it to the
-     Edge Function (which enforces credits + rate limit server-side
-     regardless of what this UI shows), then uses the response to
-     (a) pre-fill the form fields above so they're reviewable/editable
-     and (b) render the full result -- net position, claim-by-claim
-     breakdown with citations, and the AI-written narrative -- into
-     the same results area the manual "Estimate" button uses.
+     Case description + document upload / AI analysis -- gated to users
+     with remaining analysis credits. Extracts uploaded-document text
+     client-side, sends it (together with the freeform case description)
+     to the Edge Function -- which enforces credits + rate limit
+     server-side regardless of what this UI shows, and classifies the
+     litigation category itself from that combined text -- then uses the
+     response to render the full result: net position, claim-by-claim
+     breakdown with citations, and the AI-written narrative.
      ========================================================= */
 
   async function extractPdfText(file) {
@@ -610,8 +194,8 @@
     return `
       <div class="gate-card">
         <div class="eyebrow" style="margin-bottom:8px;">Free account required</div>
-        <h3 style="margin-bottom:8px;">Sign in to upload documents</h3>
-        <p class="text-secondary" style="font-size:13.5px; line-height:1.6; margin-bottom:16px;">Document upload runs on purchased analysis credits tied to your account. You can still answer the questions below by hand for free without signing in.</p>
+        <h3 style="margin-bottom:8px;">Sign in to get an estimate</h3>
+        <p class="text-secondary" style="font-size:13.5px; line-height:1.6; margin-bottom:16px;">Describing your case and/or uploading documents for AI-assisted analysis runs on purchased analysis credits tied to your account.</p>
         <button type="button" class="btn btn-primary btn-sm" id="cv-ai-signin-btn">Sign in to continue</button>
       </div>`;
   }
@@ -623,9 +207,9 @@
     return `
       <div class="gate-card eg-purchase-card">
         <div class="eyebrow" style="margin-bottom:8px;">Analysis Credits Required</div>
-        <h3 style="margin-bottom:4px;">Upload documents for AI-assisted analysis</h3>
+        <h3 style="margin-bottom:4px;">Describe your case or upload documents for AI-assisted analysis</h3>
         <div class="eg-purchase-price">${PRICE_DISPLAY}</div>
-        <p class="text-secondary" style="font-size:13.5px; line-height:1.6; margin-bottom:12px;">Each credit analyzes one matter's documents and unlocks the full manual breakdown too. Credits never expire and stack across purchases. You can still answer the questions below by hand for free.</p>
+        <p class="text-secondary" style="font-size:13.5px; line-height:1.6; margin-bottom:12px;">Each credit analyzes one matter and unlocks the full claim-by-claim breakdown, citations, and PDF report. Credits never expire and stack across purchases.</p>
         ${usedNote}
         <a href="${STRIPE_PAYMENT_LINK_URL}" target="_blank" rel="noopener" class="btn btn-primary btn-sm">Purchase Credits</a>
       </div>`;
@@ -674,13 +258,34 @@
       </div>`;
   }
 
+  // The single unified "tell us about your case" card -- a large,
+  // auto-growing freeform description bar (the AI-chat-style replacement
+  // for the old category/side dropdowns and per-category manual-field
+  // questionnaire) sitting directly above the existing document dropzone,
+  // so the two read as one flow. The litigation category is no longer
+  // picked here at all -- the backend classifies it from whatever
+  // combination of description text and document text comes through.
   function uploadZoneHtml(bal) {
     return `
       <div class="card cv-upload-card" style="padding:20px; margin-bottom:20px;">
         <div class="cv-ai-balance">
           <span class="badge badge-live">${bal.remaining} of ${bal.total} analysis credits remaining</span>
         </div>
-        <p class="text-secondary" style="font-size:13px; line-height:1.6; margin:10px 0 14px;">Upload the original petition, an answer, a counterclaim — as many documents as you have. Extracted facts fill in the questions below for you to review, plus you get a written analysis. Nothing you upload is stored — only the extracted text is sent for analysis.</p>
+        <p class="text-secondary" style="font-size:13px; line-height:1.6; margin:10px 0 14px;">Tell us what happened, upload the original petition, an answer, a counterclaim — or both. The more detail you give, the better the estimate. Nothing you upload is stored — only the extracted text is sent for analysis.</p>
+
+        <div class="cv-field">
+          <label for="cv-description">Describe your case</label>
+          <textarea id="cv-description" class="cv-description-bar" rows="3" placeholder="Describe your case — e.g. &quot;I'm a commercial landlord in Texas, my tenant broke a 5-year lease with 2 years left and stopped paying rent...&quot;"></textarea>
+        </div>
+
+        <div class="cv-side-toggle-wrap">
+          <span class="cv-side-toggle-label">Your side (optional)</span>
+          <div class="cv-side-toggle" id="cv-side-toggle" role="group" aria-label="Your side">
+            <button type="button" class="cv-side-toggle-btn" data-side="sideA">I'm bringing this claim</button>
+            <button type="button" class="cv-side-toggle-btn" data-side="sideB">I'm responding to a claim</button>
+          </div>
+        </div>
+
         <div class="cv-ai-dropzone" id="cv-ai-dropzone">
           <input type="file" id="cv-ai-file" accept=".pdf,.docx,.txt" multiple style="display:none;" />
           <div class="cv-ai-dropzone-inner">
@@ -691,11 +296,11 @@
           <div class="cv-ai-filelist" id="cv-ai-filelist"></div>
         </div>
         <div class="cv-field">
-          <label for="cv-ai-pastetext">Or paste text directly (optional, adds to any files above)</label>
+          <label for="cv-ai-pastetext">Or paste document text directly (optional, adds to any files above)</label>
           <textarea id="cv-ai-pastetext" rows="3" placeholder="Paste document text here…"></textarea>
         </div>
         <button type="button" class="btn btn-primary btn-sm" id="cv-ai-analyze-btn">
-          Analyze Documents
+          Estimate My Case
           <svg viewBox="0 0 24 24" fill="none" width="16" height="16"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
         </button>
         <div id="cv-ai-status" class="cv-ai-status"></div>
@@ -775,7 +380,7 @@
   // or an old history block inside a new history entry.
   let lastFreshFragmentHtml = "";
 
-  function renderAiResult(json, slug, emptyFiles, followupContext) {
+  function renderAiResult(json, emptyFiles, followupContext) {
     if (lastFreshFragmentHtml) resultHistory.push(lastFreshFragmentHtml);
     const a = json.analysis || {};
     const facts = json.extractedFacts || {};
@@ -784,19 +389,16 @@
       ? `<div class="gate-card is-error" style="margin-bottom:16px;"><div class="eyebrow" style="margin-bottom:6px;">Heads Up</div><p class="text-secondary" style="font-size:13px; line-height:1.6;">No text could be read from <strong>${emptyFiles.join(", ")}</strong> — this is almost always a scanned or image-only PDF with no selectable text layer, so it was skipped. The analysis below only reflects your other document(s). Try a text-based copy of ${emptyFiles.length === 1 ? "that file" : "those files"} if you have one, or paste its text directly.</p></div>`
       : "";
 
-    if (facts && Object.keys(facts).length) {
-      fillFormFromFacts(facts);
-      // Extracted facts land in the (possibly-collapsed) manual-entry
-      // disclosure -- open it so the user actually sees what to review.
-      if (manualEntryDetails) manualEntryDetails.open = true;
-    }
-    if (facts && (facts.filingParty === "sideA" || facts.filingParty === "sideB") && !sideSelect.dataset.userChosen) {
-      sideSelect.value = facts.filingParty;
+    // Auto-fill the side toggle from the AI-extracted filing party, but
+    // only if the user hasn't deliberately picked a side themselves --
+    // wireUploadZone() re-reads cvUserSide when it re-renders the toggle.
+    if (facts && (facts.filingParty === "sideA" || facts.filingParty === "sideB") && !cvUserSideChosen) {
+      cvUserSide = facts.filingParty;
     }
 
     const factEntries = Object.entries(facts).filter(([k, v]) => k !== "filingParty" && v !== null && v !== undefined && v !== "");
     const factsHtml = factEntries.length
-      ? `<div class="cv-ai-facts"><div class="cv-citations-label">Facts extracted from your documents (review above, then re-run Estimate anytime to test edits):</div>${factEntries.map(([k, v]) => `<span class="detail-tag">${k}: ${v}</span>`).join("")}</div>`
+      ? `<div class="cv-ai-facts"><div class="cv-citations-label">Facts extracted from your case description and documents:</div>${factEntries.map(([k, v]) => `<span class="detail-tag">${k}: ${v}</span>`).join("")}</div>`
       : "";
     const issuesHtml = (a.issues || []).length
       ? `<div class="eyebrow" style="margin:20px 0 8px;">Claim-by-Claim Detail</div><div class="cv-claims">${a.issues.map(issueResultHtml).join("")}</div>`
@@ -847,19 +449,25 @@
           note: iss.analysis, isBenchmark: false, citations: iss.citations || [],
         })) }, {
           categoryLabel: a.categoryLabel,
-          roles: SPEC[slug] ? SPEC[slug].roles : null,
-          side: facts.filingParty || sideSelect.value,
+          // There's no more client-known category/SPEC lookup (the
+          // backend classifies the category itself now), so this is a
+          // generic, always-safe pair of role labels rather than the
+          // category-specific ones the old dropdown used to supply --
+          // case-valuation-report.js dereferences roles.sideA/sideB
+          // unconditionally, so this must never be null.
+          roles: { sideA: "Your side", sideB: "Other side" },
+          side: facts.filingParty || cvUserSide || "sideA",
           net: a.damagesRange || [0, 0],
           bestGuessValue: typeof a.bestGuessValue === "number" ? a.bestGuessValue : null,
           likelyOutcome: a.likelyOutcome || null,
           narrative: a.narrative || null,
-          catSpec: SPEC[slug],
+          catSpec: null,
           costData: null
         });
       });
     }
 
-    if (followupContext) wireFollowupForm(slug, followupContext.documentText, followupContext.userSide);
+    if (followupContext) wireFollowupForm(followupContext.documentText, followupContext.userSide, followupContext.description);
   }
 
   // Wires the "Add More Information" form that renderAiResult appends
@@ -867,8 +475,10 @@
   // everything already analyzed (priorDocumentText) and re-runs a full
   // analysis over the combined set -- renderAiResult itself archives the
   // just-superseded result into resultHistory before replacing it, so
-  // nothing already shown is lost.
-  function wireFollowupForm(slug, priorDocumentText, priorUserSide) {
+  // nothing already shown is lost. priorDescription is the original
+  // freeform case description from the initial analysis -- re-sent as-is
+  // on every follow-up since the request contract always requires it.
+  function wireFollowupForm(priorDocumentText, priorUserSide, priorDescription) {
     const SPINNER = `<span class="cv-spinner" aria-hidden="true"></span>`;
     const dropzone = document.getElementById("cv-followup-dropzone");
     const fileInput = document.getElementById("cv-followup-file");
@@ -987,9 +597,9 @@
               "apikey": SUPABASE_PUBLISHABLE_KEY
             },
             body: JSON.stringify({
+              description: priorDescription || "",
               documentText: combinedText,
-              category: slug,
-              userSide: priorUserSide,
+              userSide: priorUserSide || null,
               expectToTrial: !!costFacts.expectToTrial,
               settlementOnTable: costFacts.settlementOnTable || null
             })
@@ -1001,12 +611,14 @@
 
         if (resp.ok && json && json.analysis) {
           setFollowupStatus("");
-          renderAiResult(json, slug, emptyFiles, { documentText: combinedText, userSide: priorUserSide });
+          renderAiResult(json, emptyFiles, { documentText: combinedText, userSide: priorUserSide, description: priorDescription });
           resultsHost.scrollIntoView({ behavior: "smooth", block: "start" });
           return;
         }
 
-        if (resp.status === 402) {
+        if (json && json.error === "unrecognized-category") {
+          setFollowupStatus(json.message || "We couldn't tell what kind of commercial real estate dispute this update describes — add a bit more detail (the type of dispute, the parties, what's being claimed) and try again.", { error: true });
+        } else if (resp.status === 402) {
           const bal = await getCreditBalance();
           setFollowupStatus("");
           statusEl.innerHTML = noCreditsCardHtml(bal || { total: 0, used: 0 });
@@ -1053,7 +665,35 @@
 
     let chosenFiles = [];
 
-    sideSelect.addEventListener("change", () => { sideSelect.dataset.userChosen = "1"; });
+    const descriptionEl = document.getElementById("cv-description");
+    if (descriptionEl) {
+      descriptionEl.addEventListener("input", () => autoGrowTextarea(descriptionEl));
+      autoGrowTextarea(descriptionEl);
+    }
+
+    // Lightweight two-button toggle standing in for the old side <select>.
+    // Clicking the already-active button deselects it (side back to
+    // null/unknown) rather than forcing a choice -- getting this wrong
+    // flips which party bears which litigation risk, so "unset" has to
+    // stay a real, easy-to-reach option, not just the initial state.
+    const sideToggleEl = document.getElementById("cv-side-toggle");
+    function updateSideToggleUI() {
+      if (!sideToggleEl) return;
+      sideToggleEl.querySelectorAll(".cv-side-toggle-btn").forEach((btn) => {
+        btn.classList.toggle("is-active", btn.getAttribute("data-side") === cvUserSide);
+      });
+    }
+    if (sideToggleEl) {
+      updateSideToggleUI();
+      sideToggleEl.addEventListener("click", (e) => {
+        const btn = e.target.closest(".cv-side-toggle-btn");
+        if (!btn) return;
+        const val = btn.getAttribute("data-side");
+        cvUserSideChosen = true;
+        cvUserSide = cvUserSide === val ? null : val;
+        updateSideToggleUI();
+      });
+    }
 
     browseBtn.addEventListener("click", () => fileInput.click());
     fileInput.addEventListener("change", () => {
@@ -1082,9 +722,11 @@
     });
 
     analyzeBtn.addEventListener("click", async () => {
-      const slug = catSelect.value;
-      if (!slug) { setStatus("Select a litigation category first.", { error: true }); return; }
-      if (!chosenFiles.length && !pasteEl.value.trim()) { setStatus("Upload at least one file or paste the document text first.", { error: true }); return; }
+      const description = (descriptionEl && descriptionEl.value ? descriptionEl.value : "").trim();
+      if (!description && !chosenFiles.length && !pasteEl.value.trim()) {
+        setStatus("Describe your case, or upload/paste a document, before requesting an estimate.", { error: true });
+        return;
+      }
 
       // A fresh run from the main upload zone is a new, unrelated matter --
       // clear any "Add More Information" history from a previous case so
@@ -1112,18 +754,19 @@
           sections.push(chosenFiles.length ? `=== Additional context ===\n${pasteEl.value.trim()}` : pasteEl.value.trim());
         }
         let documentText = sections.join("\n\n");
-        if (!documentText) {
+        if (!documentText && !description) {
           // Almost always means every uploaded file was a scanned/image-only
           // PDF with no embedded text layer -- pdf.js can only read text
           // that's actually encoded in the file, not pixels on a page. Say
           // that plainly rather than a generic "no text" message, since the
           // fix (re-scan with OCR, or a text-based copy) is different from
-          // a real extraction failure.
+          // a real extraction failure. Only fatal here because there's also
+          // no case description to fall back on.
           const which = emptyFiles.length ? ` (${emptyFiles.join(", ")})` : "";
           throw new Error(
             emptyFiles.length
-              ? `No text could be read from ${emptyFiles.length === 1 ? "this file" : "these files"}${which} — this usually means it's a scanned or image-only PDF with no selectable text, not a real error. Try a text-based/"born digital" copy if you have one, or paste the text directly below instead.`
-              : "No text could be extracted — try pasting the text directly instead."
+              ? `No text could be read from ${emptyFiles.length === 1 ? "this file" : "these files"}${which} — this usually means it's a scanned or image-only PDF with no selectable text, not a real error. Try a text-based/"born digital" copy if you have one, add a case description above, or paste the text directly below instead.`
+              : "No text could be extracted — try pasting the text directly instead, or add a case description above."
           );
         }
         const emptyNote = emptyFiles.length ? ` (no text found in ${emptyFiles.join(", ")}, likely scanned/image-only — continuing with the rest)` : "";
@@ -1166,9 +809,9 @@
               "apikey": SUPABASE_PUBLISHABLE_KEY
             },
             body: JSON.stringify({
+              description,
               documentText,
-              category: slug,
-              userSide: sideSelect.dataset.userChosen ? sideSelect.value : null,
+              userSide: cvUserSide || null,
               expectToTrial: !!costFacts.expectToTrial,
               settlementOnTable: costFacts.settlementOnTable || null
             })
@@ -1189,13 +832,15 @@
         // analysis back," not resp.ok alone.
         if (resp.ok && json && json.analysis) {
           setStatus("");
-          renderAiResult(json, slug, emptyFiles, { documentText, userSide: sideSelect.dataset.userChosen ? sideSelect.value : null });
+          renderAiResult(json, emptyFiles, { documentText, userSide: cvUserSide || null, description });
           resultsHost.scrollIntoView({ behavior: "smooth", block: "start" });
           return;
         }
 
         setStatus("");
-        if (resp.status === 402) {
+        if (json && json.error === "unrecognized-category") {
+          resultsHost.innerHTML = `<div class="gate-card is-error"><div class="eyebrow" style="margin-bottom:8px;">Need More Detail</div><p class="text-secondary" style="font-size:13.5px;">${json.message || "We couldn't tell what kind of commercial real estate dispute this is from the information provided. Add a bit more detail above — the type of dispute, the parties involved, and what's being claimed — and try again."}</p></div>`;
+        } else if (resp.status === 402) {
           resultsHost.innerHTML = noCreditsCardHtml({ total: bal.total, used: bal.total });
         } else if (resp.status === 429) {
           resultsHost.innerHTML = `<div class="gate-card is-error"><div class="eyebrow" style="margin-bottom:8px;">Analysis Didn't Run</div><p class="text-secondary" style="font-size:13.5px;">${json.error || "You've hit today's request limit — try again tomorrow."}</p></div>`;

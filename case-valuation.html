@@ -119,7 +119,7 @@
     <span class="badge reveal in-view" style="margin-top:14px; background:color-mix(in srgb, var(--status-pending) 16%, transparent); color:var(--status-pending); border:1px solid color-mix(in srgb, var(--status-pending) 40%, transparent);">
       <span class="badge-dot" style="background:var(--status-pending)"></span>Beta — modeling in active development
     </span>
-    <p class="lede mt-16 reveal in-view">A structured, rules-based estimate of litigation exposure across 8 commercial real estate categories — probability range × damages range, never a single number, and every result traces to a specific rule or a real cited case below it. Answer what you know by hand, or — with Full Access — upload your pleadings and let AI fill in the facts and write up the reasoning for you.</p>
+    <p class="lede mt-16 reveal in-view">A structured, rules-based estimate of litigation exposure across 8 commercial real estate categories — probability range × damages range, never a single number, and every result traces to a specific rule or a real cited case below it. Describe your case in your own words and/or drop in your pleadings — AI identifies the type of dispute, extracts the facts, and writes up the reasoning for you.</p>
   </div>
 </header>
 
@@ -139,35 +139,11 @@
     <div class="section-head reveal">
       <div>
         <div class="eyebrow">Estimate a Matter</div>
-        <h2 style="font-size:clamp(1.4rem,2.2vw,1.9rem);">Pick a category, then answer what you know or upload your documents</h2>
+        <h2 style="font-size:clamp(1.4rem,2.2vw,1.9rem);">Describe your case, upload your documents, or both</h2>
       </div>
     </div>
     <form id="cv-form" class="card reveal" style="padding:28px;">
-      <div class="cv-controls">
-        <div>
-          <label for="cv-category-select">Litigation category</label>
-          <select id="cv-category-select"><option value="">Select a category…</option></select>
-        </div>
-        <div>
-          <label for="cv-side-select">Your side</label>
-          <select id="cv-side-select"><option value="sideA">—</option></select>
-        </div>
-      </div>
-
       <div id="cv-upload-host"></div>
-
-      <details class="cv-manual-entry" id="cv-manual-entry">
-        <summary class="cv-manual-entry-summary">
-          <span class="cv-manual-entry-summary-text">
-            <strong>Enter details manually</strong>
-            <span class="text-muted"> — fill in the fields yourself, instead of or in addition to uploading documents</span>
-          </span>
-          <svg class="cv-manual-entry-chevron" viewBox="0 0 24 24" fill="none" width="18" height="18"><path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
-        </summary>
-        <div class="cv-manual-entry-body">
-          <div id="cv-form-host"></div>
-        </div>
-      </details>
 
       <div class="cv-cost-section">
         <div class="eyebrow" style="margin-bottom:10px;">Cost to Litigate &amp; Settlement Comparison</div>
@@ -194,11 +170,6 @@
           </div>
         </div>
       </div>
-
-      <button type="submit" class="btn btn-primary btn-sm">
-        Estimate
-        <svg viewBox="0 0 24 24" fill="none"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
-      </button>
     </form>
     <div id="cv-results-host" style="margin-top:28px;"></div>
   </div>
@@ -268,9 +239,6 @@
 </footer>
 
 <script src="js/data.js"></script>
-<script src="js/case-valuation-data.js"></script>
-<script src="js/case-valuation-engine.js"></script>
-<script src="js/case-valuation-costs.js"></script>
 <script src="js/main.js"></script>
 <script src="js/glossary-tooltip.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script>
