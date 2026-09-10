@@ -373,6 +373,27 @@
       </div>`;
   }
 
+  // Renders the AI's comprehensive analysis as distinct, titled sections
+  // instead of one undifferentiated wall of prose -- the model already
+  // organizes its reasoning this way (narrativeSections is an array of
+  // {heading, body}), this just gives that structure real visual form.
+  // Each section gets its own heading and, since a single section's body
+  // can itself run several paragraphs, splits on blank lines so it never
+  // collapses back into one dense block.
+  function narrativeSectionsHtml(sections) {
+    if (!Array.isArray(sections) || !sections.length) return "";
+    return sections.map((s) => {
+      const paragraphs = (s.body || "").split(/\n\s*\n/).map((p) => p.trim()).filter(Boolean);
+      const bodyHtml = paragraphs.length
+        ? paragraphs.map((p) => `<p>${p}</p>`).join("")
+        : `<p>${s.body || ""}</p>`;
+      return `<div class="cv-narrative-section">
+        ${s.heading ? `<h4 class="cv-narrative-heading">${s.heading}</h4>` : ""}
+        <div class="cv-narrative-body">${bodyHtml}</div>
+      </div>`;
+    }).join("");
+  }
+
   // Holds just the most recent fresh analysis fragment (not the history
   // wrapper, not the follow-up form) so the NEXT render can archive it
   // into resultHistory before replacing it -- kept separate from
@@ -431,7 +452,7 @@
       </div>
       ${a.likelyOutcome ? `<div class="card" style="padding:20px; margin-top:16px;"><div class="eyebrow" style="margin-bottom:8px;">Executive Discovery</div><p class="text-secondary" style="font-size:14px; line-height:1.6;">${a.likelyOutcome}</p></div>` : ""}
       ${summaryTableHtml(a)}
-      ${a.narrative ? `<div class="card" style="padding:20px; margin-top:16px;"><div class="eyebrow" style="margin-bottom:8px;">Comprehensive Analysis</div><p class="cv-note" style="font-size:13.5px; line-height:1.7;">${a.narrative}</p></div>` : ""}
+      ${(a.narrativeSections || []).length ? `<div class="card" style="padding:24px; margin-top:16px;"><div class="eyebrow" style="margin-bottom:16px;">Comprehensive Analysis</div>${narrativeSectionsHtml(a.narrativeSections)}</div>` : ""}
       <div id="cv-gated-content" style="margin-top:16px;">
         <div class="card" style="padding:20px;">
           <button type="button" class="btn btn-ghost btn-sm" id="cv-download-report">
@@ -479,7 +500,7 @@
           whatIsNeededForEstimate: a.whatIsNeededForEstimate || null,
           bestGuessValue: typeof a.bestGuessValue === "number" ? a.bestGuessValue : null,
           likelyOutcome: a.likelyOutcome || null,
-          narrative: a.narrative || null,
+          narrativeSections: a.narrativeSections || [],
           catSpec: null,
           costData: null
         });

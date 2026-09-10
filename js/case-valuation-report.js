@@ -64,6 +64,20 @@ window.CV_REPORT = (function () {
       doc.setDrawColor(216, 211, 196); doc.line(marginX, y, pageW - marginX, y);
       y += 16;
     }
+    // A distinct sub-heading style for each Comprehensive Analysis section
+    // -- a small gold accent square (echoing the title page's gold divider
+    // rule) instead of a bare bold line, so the report's one long section
+    // of actual legal reasoning reads as a sequence of named arguments
+    // instead of an undifferentiated wall of text.
+    function subHeading(text) {
+      const size = 12.5;
+      addPageIfNeeded(size * 0.95 + 10);
+      doc.setFillColor(156, 122, 50);
+      doc.rect(marginX, y - size * 0.72, 5, 5, "F");
+      doc.setFont("helvetica", "bold"); doc.setFontSize(size); doc.setTextColor(NAVY);
+      doc.text(text, marginX + 12, y);
+      y += size * 0.95 + 2;
+    }
     // A real column-aligned table -- claim, likelihood, damages if
     // successful, expected value -- so the reader can see how the case
     // value range (and the best-guess figure on the title page) was
@@ -232,9 +246,15 @@ window.CV_REPORT = (function () {
       rule();
     });
 
-    if (ctx.narrative) {
+    if (ctx.narrativeSections && ctx.narrativeSections.length) {
       heading("Comprehensive Analysis", 14);
-      body(ctx.narrative, { size: 9.5, gap: 16 });
+      ctx.narrativeSections.forEach((sec, i) => {
+        if (sec.heading) subHeading(sec.heading);
+        const paragraphs = (sec.body || "").split(/\n\s*\n/).map((p) => p.trim()).filter(Boolean);
+        (paragraphs.length ? paragraphs : [sec.body || ""]).forEach((p, pi, arr) => {
+          body(p, { size: 9.5, gap: pi === arr.length - 1 ? 18 : 8 });
+        });
+      });
       rule();
     }
 

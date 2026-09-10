@@ -1394,7 +1394,19 @@ Deno.serve(async (req) => {
     const analysisSchema = {
       type: "object",
       properties: {
-        narrative: { type: "string", description: "A comprehensive, detailed reasoned analysis of the actual document(s): the key facts, every claim/defense/issue you identify (not limited to the baseline model's fixed categories), how the cited precedent applies, evidentiary or procedural weaknesses on either side, and how it all nets out for the filing party. Write like a sharp litigator's case assessment memo -- direct, specific, thorough." },
+        narrativeSections: {
+          type: "array",
+          description: "The comprehensive, detailed reasoned analysis of the actual case materials -- the key facts, every claim/defense/issue you identify (not limited to the baseline model's fixed categories), how the cited precedent applies, evidentiary or procedural weaknesses on either side, and how it all nets out for the filing party -- broken into distinct, clearly-titled sections instead of one undifferentiated block of prose. Write like a sharp litigator's case assessment memo -- direct, specific, thorough. Typically 5-9 sections. Order them the way a memo would actually flow: ground the reader in what you have/don't have first, address the baseline if you're departing from it, then work through liability, the main damages battlegrounds, defenses, and any secondary issues (guaranty/collectibility, deposits, procedural traps) roughly in order of how much they actually matter to the outcome.",
+          items: {
+            type: "object",
+            properties: {
+              heading: { type: "string", description: "A short, punchy section title (2-6 words, Title Case, not shouted in all-caps) -- e.g. 'The Real Battleground: Mitigation', 'Core Liability', 'Termination vs. Holdover'. Specific to what's actually in THIS section, never a generic label like 'Analysis' or 'Discussion'." },
+              body: { type: "string", description: "The actual analysis for this section -- one or more paragraphs. As detailed and specific as the rest of this tool's writing; splitting into sections is about giving the reader visual structure to navigate, not about writing less." },
+            },
+            required: ["heading", "body"],
+            additionalProperties: false,
+          },
+        },
         likelyOutcome: { type: "string", description: "A short (2-3 sentence) bottom-line summary of the likely outcome and why." },
         damagesRange: nullableRangeSchema("YOUR OWN independent probability-weighted net exposure/recovery range for the filing party, in dollars (low/high) -- informed by the baseline but not bound by it. Never a single point estimate. MUST be null -- not a placeholder or illustrative range -- if the case materials contain NO actual economic anchor at all (no rent/lease-value figure, no stated damages amount, no dollar figure of any kind tied to the specific dispute)."),
         bestGuessValue: { anyOf: [{ type: "number" }, { type: "null" }], description: "A single best-guess point estimate of net case value in dollars, positioned inside damagesRange above. This is NOT simply the midpoint of the range -- weight it toward whichever end the actual balance of probabilities and damages evidence favors, the same way you'd give a client one number to plan around after already giving them the honest range. Reason from the same per-issue probability x damages assessment you use in `issues` below. MUST be null whenever damagesRange above is null -- there is no such thing as a best guess at a number that doesn't exist yet." },
@@ -1424,7 +1436,7 @@ Deno.serve(async (req) => {
           },
         },
       },
-      required: ["narrative", "likelyOutcome", "damagesRange", "bestGuessValue", "whatIsNeededForEstimate", "issues"],
+      required: ["narrativeSections", "likelyOutcome", "damagesRange", "bestGuessValue", "whatIsNeededForEstimate", "issues"],
       additionalProperties: false,
     };
 
@@ -1568,7 +1580,15 @@ Deno.serve(async (req) => {
     return jsonResponse({
       extractedFacts,
       analysis: {
-        narrative: analysisParsed.narrative,
+        narrativeSections: Array.isArray(analysisParsed.narrativeSections)
+          ? analysisParsed.narrativeSections
+              .filter((s: unknown): s is { heading: unknown; body: unknown } => !!s && typeof s === "object")
+              .map((s: { heading: unknown; body: unknown }) => ({
+                heading: typeof s.heading === "string" ? s.heading : "",
+                body: typeof s.body === "string" ? s.body : "",
+              }))
+              .filter((s: { heading: string; body: string }) => s.heading || s.body)
+          : [],
         likelyOutcome: analysisParsed.likelyOutcome,
         damagesRange: aiDamagesRange,
         bestGuessValue,

@@ -155,3 +155,25 @@
   .cv-summary-table { font-size: 12px; }
   .cv-summary-table th, .cv-summary-table td { padding: 9px 10px; }
 }
+
+/* Comprehensive Analysis -- the AI's reasoning organizes itself into
+   named sections (narrativeSections: [{heading, body}]), which used to
+   all get flattened into one dense, single-spaced paragraph. Each section
+   now reads as its own distinct block: an accent rule marking where a new
+   line of reasoning starts, a real heading in the site's display face,
+   and room to breathe between multi-paragraph bodies -- the visual
+   structure a litigator's memo actually has, not a wall of text. */
+.cv-narrative-section { padding-left: 18px; border-left: 3px solid var(--accent); margin-bottom: 26px; }
+.cv-narrative-section:last-child { margin-bottom: 0; }
+.cv-narrative-heading {
+  font-family: var(--font-display); font-size: 1.08rem; font-weight: 600;
+  color: var(--text-primary); margin-bottom: 8px; line-height: 1.3;
+}
+.cv-narrative-body { font-size: 13.5px; line-height: 1.75; color: var(--text-secondary); }
+.cv-narrative-body p { margin-bottom: 12px; }
+.cv-narrative-body p:last-child { margin-bottom: 0; }
+
+@media (max-width: 560px) {
+  .cv-narrative-section { padding-left: 14px; }
+  .cv-narrative-heading { font-size: 1rem; }
+}
