@@ -137,22 +137,31 @@
         <div class="eyebrow">Full Index</div>
         <h2 style="font-size:clamp(1.6rem,2.6vw,2.2rem);">Courts we're tracking</h2>
       </div>
-      <p class="text-muted" style="max-width:420px; font-size:13.5px;">Every court with an active matter in the tracker, most recent first.</p>
+      <p class="text-muted" style="max-width:420px; font-size:13.5px;">One card per court, not one row per matter — search by court, state, or matter, sorted by whichever view is useful.</p>
     </div>
-    <div class="card reveal" style="padding:8px 0;">
-      <div id="courts-list"></div>
+    <div class="filter-bar reveal" style="margin-bottom:16px;">
+      <div class="filter-row">
+        <div class="search-input-wrap">
+          <svg viewBox="0 0 24 24" fill="none"><path d="M11 19a8 8 0 100-16 8 8 0 000 16zM21 21l-4.35-4.35" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+          <input type="text" id="courts-search" class="search-input" placeholder="Search by court, state, or matter…" />
+        </div>
+        <div class="select-wrap">
+          <select id="courts-sort" class="select-input">
+            <option value="active">Most active first</option>
+            <option value="recent">Most recent activity</option>
+            <option value="az">A–Z by court</option>
+          </select>
+        </div>
+      </div>
     </div>
+    <p class="text-muted mono" id="courts-count" style="font-size:12px; margin-bottom:16px;"></p>
+    <div class="grid-3 reveal-stagger" id="courts-grid"></div>
   </div>
 </section>
 
 <section class="newsletter-band">
   <div class="container">
     <div class="newsletter-card">
-      <div class="newsletter-card-text">
-        <div class="eyebrow" style="margin-bottom:10px;">Stay Ahead</div>
-        <h2 style="font-size:clamp(1.4rem,2.2vw,1.9rem);">Get the litigation digest in your inbox</h2>
-        <p class="text-secondary mt-16">New matters, rulings, and regulatory actions — delivered as they're tracked.</p>
-      </div>
       <div class="newsletter-embed">
         <script async src="https://subscribe-forms.beehiiv.com/v3/loader.js" data-beehiiv-form="6fe66572-cbbf-4d3d-9c0e-1aafbf2857ca"></script>
       </div>
@@ -275,28 +284,92 @@
     judgesGrid.classList.add("in-view");
     document.querySelectorAll("#judges-grid .reveal, #judges-grid .card").forEach((el) => el.classList.add("in-view"));
 
-    // Full court index, most recent first
-    const sorted = [...cases].sort((a, b) => new Date(b.date) - new Date(a.date));
-    const list = document.getElementById("courts-list");
-    list.innerHTML = sorted.map((c) => `
-      <div style="display:flex; align-items:center; justify-content:space-between; gap:16px; padding:14px 24px; border-bottom:1px solid var(--border-soft);">
-        <div style="min-width:0;">
-          <div style="font-size:14px; font-weight:600; color:var(--text-primary);">${courtLinkHtml(c.jurisdiction)}</div>
-          <span data-case-id="${c.id}" class="text-secondary" style="font-size:12.5px; cursor:pointer; display:block; margin-top:2px;">${c.title}${c.judge ? ` &middot; Judge ${c.judge}` : ""}</span>
-        </div>
-        <div class="text-muted mono" style="font-size:11.5px; white-space:nowrap;">${new Date(c.date + "T00:00:00").toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric" })}</div>
-      </div>`).join("");
-    // Same fix as above: #courts-list's own wrapper is a plain .reveal
-    // card, populated here well after main.js's scroll observer already
-    // ran its initial pass. This element sits below the fold, so it
-    // depends on that observer firing again on scroll to ever reveal --
-    // which is exactly what was failing in production (confirmed: 91
-    // rows correctly in the DOM, but the wrapper stuck at opacity:0
-    // indefinitely, even after scrolling it fully into view). Forcing
-    // "in-view" here the moment content lands removes that dependency
-    // entirely, matching the pattern already used in js/litigation.js
-    // and js/watchlists.js for their own dynamically-inserted content.
-    list.closest(".reveal")?.classList.add("in-view");
+    // Full court index -- one card per COURT, not one row per matter. The
+    // old version was every case dumped in reverse-chron order, so a busy
+    // court like the NY County Supreme Court just repeated itself eight
+    // times with no way to jump to a specific court. Grouping, plus real
+    // search and a sort that isn't just "however the cases happened to
+    // sort," is what actually makes this an index instead of a list.
+    const courtsSearchInput = document.getElementById("courts-search");
+    const courtsSortSelect = document.getElementById("courts-sort");
+    const courtsGrid = document.getElementById("courts-grid");
+    const courtsCountEl = document.getElementById("courts-count");
+
+    const byCourt = {};
+    cases.forEach((c) => {
+      if (!c.jurisdiction) return;
+      (byCourt[c.jurisdiction] = byCourt[c.jurisdiction] || []).push(c);
+    });
+    const courtEntries = Object.entries(byCourt).map(([jurisdiction, matters]) => {
+      const sortedMatters = [...matters].sort((a, b) => new Date(b.date) - new Date(a.date));
+      const stateCode = sortedMatters.find((m) => m.state) ? sortedMatters.find((m) => m.state).state : null;
+      return {
+        jurisdiction,
+        stateName: stateCode ? RELAW_DATA.states[stateCode] || stateCode : "",
+        court: courtByJurisdiction[jurisdiction],
+        matters: sortedMatters,
+        count: sortedMatters.length,
+        mostRecent: sortedMatters[0].date,
+      };
+    });
+
+    function courtMatchesQuery(entry, q) {
+      if (!q) return true;
+      const hay = [entry.jurisdiction, entry.stateName, ...entry.matters.map((m) => m.title)].join(" ").toLowerCase();
+      return hay.includes(q);
+    }
+
+    function sortCourts(list, sortKey) {
+      const arr = [...list];
+      if (sortKey === "az") arr.sort((a, b) => a.jurisdiction.localeCompare(b.jurisdiction));
+      else if (sortKey === "recent") arr.sort((a, b) => new Date(b.mostRecent) - new Date(a.mostRecent));
+      else arr.sort((a, b) => b.count - a.count || new Date(b.mostRecent) - new Date(a.mostRecent)); // "active" (default)
+      return arr;
+    }
+
+    function renderCourts() {
+      const q = (courtsSearchInput.value || "").trim().toLowerCase();
+      const filtered = courtEntries.filter((e) => courtMatchesQuery(e, q));
+      const sorted = sortCourts(filtered, courtsSortSelect.value);
+      const totalMatters = sorted.reduce((n, e) => n + e.count, 0);
+
+      courtsCountEl.textContent = `${sorted.length} court${sorted.length === 1 ? "" : "s"} · ${totalMatters} matter${totalMatters === 1 ? "" : "s"}`;
+
+      courtsGrid.innerHTML = sorted.length
+        ? sorted.map((entry) => {
+            const nameHtml = entry.court
+              ? `<a href="${entry.court.url}" target="_blank" rel="noopener" style="color:inherit; text-decoration:none; border-bottom:1px dotted currentColor;">${entry.jurisdiction}</a>`
+              : entry.jurisdiction;
+            const shown = entry.matters.slice(0, 3);
+            return `<div class="card">
+              <div style="display:flex; align-items:flex-start; justify-content:space-between; gap:10px; margin-bottom:6px;">
+                <h3 style="font-size:1rem; line-height:1.35;">${nameHtml}</h3>
+                <span class="badge" style="flex-shrink:0;">${entry.count}</span>
+              </div>
+              ${entry.stateName ? `<p class="text-muted mono" style="font-size:11.5px; margin-bottom:12px;">${entry.stateName}</p>` : ""}
+              <div style="display:flex; flex-direction:column; gap:7px;">
+                ${shown.map((c) => `<span data-case-id="${c.id}" class="text-secondary" style="font-size:12.5px; cursor:pointer; display:block;">${c.title}${c.judge ? ` &middot; Judge ${c.judge}` : ""}</span>`).join("")}
+                ${entry.count > shown.length ? `<span class="text-muted" style="font-size:12px;">+${entry.count - shown.length} more</span>` : ""}
+              </div>
+              <p class="text-muted mono mt-16" style="font-size:11px;">Most recent: ${new Date(entry.mostRecent + "T00:00:00").toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric" })}</p>
+            </div>`;
+          }).join("")
+        : `<p class="text-secondary" style="grid-column:1/-1;">No courts match "${courtsSearchInput.value}".</p>`;
+
+      // Same reveal fix as judges-grid above -- this grid is repopulated on
+      // every search/sort change, long after main.js's scroll observer
+      // already ran, so it can never rely on that observer to reveal it.
+      courtsGrid.classList.add("in-view");
+      courtsGrid.querySelectorAll(".reveal, .card").forEach((el) => el.classList.add("in-view"));
+    }
+
+    let courtsDebounce;
+    courtsSearchInput.addEventListener("input", () => {
+      clearTimeout(courtsDebounce);
+      courtsDebounce = setTimeout(renderCourts, 160);
+    });
+    courtsSortSelect.addEventListener("change", renderCourts);
+    renderCourts();
   })();
 </script>
 </body>

@@ -521,13 +521,24 @@ h3, .h3 {
 .rule { height: 1px; background: linear-gradient(90deg, transparent, var(--border), transparent); }
 
 /* ---------- Newsletter band (site-wide, above footer) ---------- */
+/* This used to run our own "Get the litigation digest in your inbox"
+   headline right beside beehiiv's embedded form -- which renders its OWN
+   full branded card (title, description, subscribe button) inside the
+   iframe. Two separate pitches for the same thing, stacked or side by
+   side depending on viewport width, reads as broken rather than
+   intentional. beehiiv's card already says what this is; our job is just
+   to frame it like it belongs on the page. */
 .newsletter-band { padding: 56px 0; background: var(--bg-elevated); border-top: 1px solid var(--border-soft); }
+/* Block + margin:auto centering rather than flex -- as a flex item,
+   .newsletter-embed's width:100% resolved against its own shrink-to-fit
+   content size (beehiiv's script-managed wrapper divs) instead of the
+   card's width, capping it at beehiiv's ~320px default regardless of the
+   max-width set here. Block layout resolves percentage widths against the
+   parent's content box unconditionally, which is what we actually want. */
 .newsletter-card {
-  display: flex; align-items: center; justify-content: space-between; gap: 32px; flex-wrap: wrap;
-  padding: 36px 40px; border-radius: var(--radius-lg); background: var(--accent-wash); border: 1px solid rgba(51,85,255,0.18);
+  padding: 32px; border-radius: var(--radius-lg); background: var(--accent-wash); border: 1px solid rgba(51,85,255,0.18);
 }
-.newsletter-card-text { max-width: 460px; }
-.newsletter-embed { flex: 0 0 auto; min-width: 320px; min-height: 48px; display: flex; align-items: center; }
+.newsletter-embed { width: 100%; max-width: 420px; margin: 0 auto; }
 /* beehiiv's own resize handshake (which is supposed to expand its wrapper
    from height:0 once the iframe reports its real content height) doesn't
    reliably fire in every context. Force a sensible fixed height instead of
@@ -535,7 +546,10 @@ h3, .h3 {
    beehiiv's script writes directly onto these elements. */
 .newsletter-embed > div { width: 100%; }
 .newsletter-embed > div > div { height: auto !important; overflow: visible !important; }
-.newsletter-embed iframe { height: 420px !important; min-height: 420px !important; }
+.newsletter-embed iframe {
+  height: 435px !important; min-height: 435px !important; width: 100% !important;
+  border-radius: 12px; box-shadow: 0 4px 16px rgba(15,23,42,0.08);
+}
 
 /* ---------- Footer ---------- */
 .footer { border-top: 1px solid var(--border-soft); padding: 72px 0 36px; position: relative; z-index: 1; background: var(--bg-elevated); }

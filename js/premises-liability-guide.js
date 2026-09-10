@@ -37,6 +37,10 @@
     if (!legend) return;
     const order = ["Pure Contributory", "Modified Comparative (50% Bar)", "Modified Comparative (51% Bar)", "Pure Comparative", "Slight/Gross (unique -- see note)"];
     legend.innerHTML = order.map((r) => `<span><span class="eg-dot" style="background:${ruleColor(r)};"></span>${ruleShortLabel(r)}</span>`).join("");
+    // #pl-legend is a plain .reveal element populated here, after
+    // main.js's scroll observer already ran its initial pass -- same
+    // stuck-at-opacity:0 bug found on judges.html and calendar.html.
+    legend.classList.add("in-view");
   }
 
   function badgeHtml(rule) {
