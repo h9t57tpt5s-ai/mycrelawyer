@@ -496,8 +496,10 @@
 <script src="js/timeline.js"></script>
 <script>
   (function () {
-    const featured = [...RELAW_DATA.cases].sort((a,b) => new Date(b.addedDate || b.date) - new Date(a.addedDate || a.date)).slice(0, 3);
-    document.getElementById("featured-grid").innerHTML = featured.map((c) => window.RELAW_UTILS.caseCardHtml(c, { dateField: "added" })).join("");
+    // By the underlying legal event's own date, not when we added it to
+    // the tracker -- see js/main.js's caseCardHtml for the full reasoning.
+    const featured = [...RELAW_DATA.cases].sort((a,b) => new Date(b.date) - new Date(a.date)).slice(0, 3);
+    document.getElementById("featured-grid").innerHTML = featured.map((c) => window.RELAW_UTILS.caseCardHtml(c)).join("");
     document.querySelectorAll("#featured-grid .reveal").forEach(el => el.classList.add("in-view"));
 
     const catGrid = document.getElementById("category-grid");

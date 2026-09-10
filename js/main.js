@@ -129,8 +129,13 @@
   const tickerTrack = document.getElementById("ticker-track");
   if (tickerTrack && typeof RELAW_DATA !== "undefined") {
     const catMap = Object.fromEntries(RELAW_DATA.categories.map((c) => [c.id, c]));
+    // Sorted by the underlying legal event's own date, not when we added
+    // the matter to the tracker -- addedDate reflects our own research
+    // pace (which now includes backfilling older state-court matters to
+    // close coverage gaps), not how current the news actually is. A
+    // ticker billing itself as recent news has to mean recent events.
     const recent = [...RELAW_DATA.cases]
-      .sort((a, b) => new Date(b.addedDate || b.date) - new Date(a.addedDate || a.date))
+      .sort((a, b) => new Date(b.date) - new Date(a.date))
       .slice(0, 10);
 
     const itemHtml = (c) => {
@@ -155,20 +160,21 @@
     return RELAW_DATA.statuses.find((s) => s.id === id);
   }
 
-  function caseCardHtml(c, opts) {
+  function caseCardHtml(c) {
     const cat = categoryById(c.category);
     const status = statusById(c.status);
     const isLive = c.source === "live";
-    // By default the card shows the underlying legal event's own date. Pages
-    // that sort their grid by publish date (dateField: "added") — the
-    // Litigation Tracker and homepage featured cases — show that same date
-    // here instead, so the visible order matches the visible dates. Judge/
-    // company profile pages, SEO landing pages, and quarterly.html still
-    // sort and display by event date, which is correct in those contexts.
-    const useAdded = opts && opts.dateField === "added";
-    const displayDate = useAdded ? (c.addedDate || c.date) : c.date;
-    const dateTitleAttr = useAdded && c.addedDate && c.addedDate !== c.date
-      ? ` title="Event date: ${formatDate(c.date)}"`
+    // Always the underlying legal event's own date -- never addedDate.
+    // A "when we added it" date used to double as a rough proxy for "how
+    // current is this" (dateField: "added", previously used by the
+    // Litigation Tracker and homepage featured cards), which worked while
+    // the gap between an event and when we tracked it was days or weeks.
+    // Backfilling older state-court matters to close Coverage Map gaps
+    // broke that assumption -- a 2024 filing added to the tracker today
+    // is not "recent" by any reasonable reading, so recency now only ever
+    // means the event's own date, everywhere a date is shown as such.
+    const dateTitleAttr = c.addedDate && c.addedDate !== c.date
+      ? ` title="Added to tracker: ${formatDate(c.addedDate)}"`
       : "";
     return `
       <article class="card case-card reveal" data-case-id="${c.id}">
@@ -184,7 +190,7 @@
         <h3>${c.title}</h3>
         <p class="summary">${c.summary}</p>
         <div class="case-card-meta">
-          <span${dateTitleAttr}>${formatDate(displayDate)}</span>
+          <span${dateTitleAttr}>${formatDate(c.date)}</span>
           <span>${c.jurisdiction}</span>
         </div>
       </article>`;

@@ -18,17 +18,22 @@
     const status = statusMap[c.status];
     const isLive = c.source === "live";
     const stateName = c.state ? RELAW_DATA.states[c.state] : null;
-    // The big date on this feed is when we ADDED the matter (matches the
-    // page's own newest-first sort), not the underlying legal event's own
-    // date — those can differ by days or weeks. The event date is still
-    // shown, just as a smaller inline label, so nothing is lost.
-    const added = new Date((c.addedDate || c.date) + "T00:00:00");
+    // The big date on this feed is the underlying legal event's own date --
+    // this page's whole promise is "recent developments," so that has to
+    // mean when something actually happened, not when we got around to
+    // tracking it. Those two used to differ by only days or weeks, which
+    // addedDate approximated fine; backfilling older state-court matters
+    // to close Coverage Map gaps broke that assumption, so addedDate can no
+    // longer drive what counts as an "update" here. Still shown as a small
+    // secondary note when it meaningfully differs from the event date, for
+    // transparency about when we actually surfaced it.
     const eventD = new Date(c.date + "T00:00:00");
+    const added = c.addedDate ? new Date(c.addedDate + "T00:00:00") : null;
     const sameDate = c.addedDate === c.date;
     return `
       <article class="update-row" data-case-id="${c.id}">
         <div class="update-date">
-          ${added.toLocaleDateString("en-US", { month: "short", day: "numeric" })}<br>${added.getFullYear()}
+          ${eventD.toLocaleDateString("en-US", { month: "short", day: "numeric" })}<br>${eventD.getFullYear()}
         </div>
         <span class="update-dot" style="background:${cat.color}"></span>
         <div class="update-content">
@@ -41,7 +46,7 @@
             <span class="status-pill" style="color:${status.color}"><span class="dot" style="background:${status.color}"></span>${status.label}</span>
             ${isLive ? `<span class="badge badge-live">Verified Update</span>` : ""}
             ${stateName ? `<span>${stateName}</span>` : ""}
-            ${!sameDate ? `<span class="text-muted">Event date: ${eventD.toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric" })}</span>` : ""}
+            ${!sameDate && added ? `<span class="text-muted">Added to tracker: ${added.toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric" })}</span>` : ""}
             <span class="update-read-cue">Read full update →</span>
           </div>
         </div>
@@ -49,7 +54,7 @@
   }
 
   function render() {
-    const sorted = [...RELAW_DATA.cases].sort((a, b) => new Date(b.addedDate || b.date) - new Date(a.addedDate || a.date));
+    const sorted = [...RELAW_DATA.cases].sort((a, b) => new Date(b.date) - new Date(a.date));
 
     // Optional ?recent=N — used by the homepage's "New Today" pill so it
     // points at just the latest handful of updates rather than the entire

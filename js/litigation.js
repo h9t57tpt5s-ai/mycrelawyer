@@ -92,10 +92,15 @@
       }
       return true;
     });
-    // Sort by when a matter was published to the tracker (addedDate), not
-    // the underlying legal event's own date — a matter added today should
-    // read as "newest" even if the event itself happened weeks ago.
-    const sortDate = (c) => new Date(c.addedDate || c.date);
+    // Sort by the underlying legal event's own date, not addedDate (when we
+    // added the matter to the tracker). This used to be the other way
+    // around, on the theory that a matter added today should read as
+    // "newest" even if the event itself happened weeks ago -- that held up
+    // while the gap was days or weeks, but backfilling older state-court
+    // matters to close Coverage Map gaps broke it: a 2024 filing added
+    // today is not "newest" by any reading a visitor would expect from a
+    // "Newest first" sort.
+    const sortDate = (c) => new Date(c.date);
     if (state.sort === "category") {
       // Group by category in the site's own deliberate category order
       // (RELAW_DATA.categories), newest-first within each group.
@@ -121,7 +126,7 @@
           <p>No matters match these filters. Try widening your search.</p>
         </div>`;
     } else {
-      grid.innerHTML = filtered.map((c) => window.RELAW_UTILS.caseCardHtml(c, { dateField: "added" })).join("");
+      grid.innerHTML = filtered.map((c) => window.RELAW_UTILS.caseCardHtml(c)).join("");
       grid.querySelectorAll(".reveal").forEach((el) => el.classList.add("in-view"));
     }
 
