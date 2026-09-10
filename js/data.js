@@ -2708,6 +2708,38 @@ const RELAW_DATA = {
         { when: "January 19, 2024", label: "Oxbow Estates HOA and neighbors sue the MDC in Marion Superior Court, alleging the density violates 2003 restrictive covenants" },
         { when: "February 5, 2024", label: "City-County Council approves a negotiated 168-unit compromise 24-0; the lawsuit is dismissed with prejudice", current: true }
       ]
+    },
+    {
+      id: "live-097",
+      addedDate: "2026-09-10",
+      title: "PSOF WA Holding LLC v. Fairlane Town Center Realty Holding LLC ($28M+ Dearborn Mall Receivership)",
+      category: "lending-foreclosure",
+      status: "pending",
+      date: "2026-07-09",
+      jurisdiction: "3rd Circuit Court, Wayne County, Michigan",
+      state: "MI",
+      amount: "$28M loan (over $35M outstanding as of mid-2026)",
+      source: "live",
+      sourceUrl: "https://www.aol.com/articles/receiver-fairlane-town-center-prepping-202822139.html",
+      summary: "Fairlane Town Center, a 1976-built regional mall in Dearborn, Michigan, has been under a court-appointed receiver since January 2026 -- its second receivership this decade -- after owner Kohan Retail Investment Group defaulted on a $28 million loan originally issued in April 2023. Peachtree Group affiliate PSOF WA Holding LLC sued in Wayne County Circuit Court in November 2024 alleging missed payments, $2.96M in delinquent property taxes, and diverted rental income; Kohan disputed the allegations, and a judge initially denied receivership in January 2025 before later granting it. The court-appointed receiver is now preparing bidding and sale procedures for a future sale, with the outstanding loan balance reported at more than $35 million as of July 2026.",
+      significance: "An instructive, multi-year case study in serial mall distress: Fairlane has now cycled through four ownership groups and two receiverships since 2014 (Taubman to Starwood to Centennial to Kohan), with each successive buyer inheriting -- and in Kohan's case, reportedly worsening -- the same underlying problem of a regional mall whose cash flow no longer supports its debt load. CRE lenders evaluating a buyer with Kohan's track record (multiple malls nationally have followed a similar pattern of tax delinquency, deferred maintenance, and eventual receivership under its ownership) should treat sponsor history as a first-order underwriting factor, and owners of other aging, moderately-occupied regional malls should recognize that occupancy alone -- Fairlane still has relatively few vacancies -- does not protect against foreclosure when debt service and tax obligations go unmet.",
+      body: [
+        "Fairlane Town Center, the enclosed regional mall developer A. Alfred Taubman opened in Dearborn on March 2, 1976, is under its second court-appointed receivership of the decade after owner Kohan Retail Investment Group defaulted on a $28 million loan. Peachtree Group affiliate PSOF WA Holding LLC sued Kohan affiliate Fairlane Town Center Realty Holding LLC in Wayne County Circuit Court in late November 2024, alleging Kohan missed its $200,000 October and November 2024 loan payments, was delinquent on $2.96 million in property taxes as of September 30, and had been diverting roughly $400,000 a month in mall rent that was supposed to be deposited into a lender-controlled account instead of Kohan's own accounts.",
+        "Kohan, through Livonia attorney Dennis Harris, disputed essentially every material allegation: that $2.3 million already sat in the lender-controlled account and Peachtree had simply failed to draw November and December payments from it, that no admission of fund diversion had been made, and that a flagged $85,000 discrepancy was actually a snowplowing expense, not misappropriated rent. On January 8, 2025, Wayne County Circuit Judge Annette Berry denied Peachtree's initial receivership request -- which had proposed Dallas-based Trigild Property Management, itself Fairlane's receiver under a prior owner -- while leaving the door open to a renewed request on or after February 17, 2025.",
+        "The dispute escalated rather than resolved: reporting in January 2026 disclosed that, separate from the original default allegations, roughly $3.4 million in tenant rental income collected between January 8 and November 4, 2025 was unaccounted for in the court-designated account -- and by that point a receiver, John Polderman of Southfield firm Stevenson & Bullock, had been appointed, placing Fairlane into its second receivership since Starwood Retail Partners' 2014 purchase (as part of a seven-mall, $1.4 billion package from Taubman Centers) previously ended in a receivership of its own before Centennial Real Estate bought the property in 2022 and quickly resold it to Kohan for $52 million in April 2023.",
+        "By July 2026, court filings and reporting referred to Fairlane's lender as HSF Fairlane LLC rather than the originally named PSOF WA Holding LLC -- whether reflecting a loan assignment, a servicing change, or simply inconsistent naming across filings was not independently confirmed for this writeup -- and a Wayne County judge was asked to formally declare Fairlane and Kohan in default on a loan whose outstanding balance had grown to more than $35 million. Receiver Polderman confirmed to the Detroit Free Press on July 9, 2026 that he is now developing bidding and sale procedures for a future sale of the mall, which would make Kohan the third ownership group in the property's history to lose it to receivership or forced sale.",
+        "Despite the financial distress, Fairlane remains relatively well-occupied by regional-mall standards -- anchored by Macy's, JC Penney, H&M, and a Powerhouse gym, with only scattered vacancies -- underscoring that occupancy is not, by itself, a reliable predictor of foreclosure risk when an owner falls behind on both debt service and property taxes. For CRE lenders, Kohan's documented pattern across multiple malls nationally (tax delinquency, deferred maintenance, and eventual receivership) is a sponsor-history red flag worth weighting heavily in underwriting decisions independent of a given property's current leasing performance."
+      ],
+      tags: ["foreclosure", "receivership", "retail", "mall", "michigan"],
+      judge: "Annette Berry",
+      timeline: [
+        { when: "2014", label: "Starwood Retail Partners buys Fairlane and six other malls from Taubman Centers for $1.4B" },
+        { when: "April 2023", label: "Kohan Retail Investment Group buys Fairlane for $52M, financed in part by a $28M loan" },
+        { when: "November 2024", label: "PSOF WA Holding LLC (Peachtree Group) sues Kohan affiliate in Wayne County Circuit Court alleging default and diverted rent, seeking a receiver" },
+        { when: "January 8, 2025", label: "Judge Annette Berry denies the initial receivership request" },
+        { when: "January 2026", label: "Fairlane is placed into receivership (John Polderman, Stevenson & Bullock) amid reports of $3.4M in unaccounted-for rental income" },
+        { when: "July 9, 2026", label: "The receiver confirms he is preparing bidding and sale procedures for a future sale of the mall", current: true }
+      ]
     }
   ],
 
@@ -2994,7 +3026,7 @@ const RELAW_DATA = {
      third-party case-law aggregators. */
   courts: [
     { jurisdiction: "Circuit Court of St. Louis County, Missouri", url: "https://stlcountycourts.com/" },
-    { jurisdiction: "Marion Superior Court, Indiana", url: "https://www.indycourts.org/" },
+    { jurisdiction: "3rd Circuit Court, Wayne County, Michigan", url: "https://www.3rdcc.org/" },
     { jurisdiction: "Philadelphia County Court of Common Pleas", url: "https://www.pacourts.us/courts/courts-of-common-pleas/individual-county-courts/philadelphia-courts" },
     { jurisdiction: "Supreme Court of New Jersey", url: "https://www.njcourts.gov/courts/supreme" },
     { jurisdiction: "U.S. District Court, Southern District of New York", url: "https://www.nysd.uscourts.gov/" },
