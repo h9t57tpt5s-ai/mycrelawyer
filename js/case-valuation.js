@@ -500,14 +500,16 @@
         })) }, {
           categoryLabel: a.categoryLabel,
           jurisdictionLabel: stateName,
-          // There's no more client-known category/SPEC lookup (the
-          // backend classifies the category itself now), so this is a
-          // generic, always-safe pair of role labels rather than the
-          // category-specific ones the old dropdown used to supply --
+          // The backend already resolves a category-specific role label for
+          // the user's own side (e.g. "Landlord", "Lender") into
+          // a.roleLabel -- that already accounts for which side the user
+          // said they're on, so just render it directly as "sideA" rather
+          // than re-deriving a generic sideA/sideB pair here. Falls back to
+          // a generic label only if the backend didn't return one --
           // case-valuation-report.js dereferences roles.sideA/sideB
           // unconditionally, so this must never be null.
-          roles: { sideA: "Your side", sideB: "Other side" },
-          side: facts.filingParty || cvUserSide || "sideA",
+          roles: { sideA: a.roleLabel || "Your side", sideB: "Other side" },
+          side: "sideA",
           // null (not [0,0]) when the backend declined to invent a number --
           // [0,0] would render as a real, misleading "$0" estimate in the
           // PDF rather than "no estimate yet."
