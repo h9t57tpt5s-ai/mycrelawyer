@@ -92,6 +92,13 @@
       </div>`;
     }));
     listEl.innerHTML = cards.join("");
+    // These cards are inserted long after page load, so the global scroll-
+    // reveal IntersectionObserver (js/main.js) — which only observes
+    // .reveal elements present at load time — never sees them, leaving
+    // them stuck at the CSS's opacity:0 resting state. Skip straight to
+    // the revealed state instead of waiting on an observer that will
+    // never fire for them (same fix js/litigation.js's render() applies).
+    listEl.querySelectorAll(".reveal").forEach((el) => el.classList.add("in-view"));
     listEl.querySelectorAll("[data-delete-watchlist]").forEach((btn) => {
       btn.addEventListener("click", async () => {
         await sb.from("watchlists").delete().eq("id", btn.getAttribute("data-delete-watchlist"));
