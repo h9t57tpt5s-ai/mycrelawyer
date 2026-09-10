@@ -43,7 +43,7 @@
       ? `${volume.count.toLocaleString()} federal ADA Title III lawsuits filed in ${stateName} in 2025.${volume.note ? " " + volume.note : ""}`
       : `No high-volume federal filing count independently confirmed for ${stateName} — it did not appear in the top-10 filing states or the confirmed-zero states for 2025.`;
 
-    const plaintiffsHtml = renderPlaintiffsForState(stateName);
+    const patternsHtml = renderPatternsForState(stateName);
 
     const overlayHtml = overlay
       ? `<div class="card" style="padding:20px; margin-top:16px;">
@@ -72,34 +72,32 @@
         <ul class="ar-list">${propSpec.riskFactors.map((f) => `<li>${f}</li>`).join("")}</ul>
       </div>
 
-      ${plaintiffsHtml}`;
+      ${patternsHtml}`;
     resultsHost.scrollIntoView({ behavior: "smooth", block: "start" });
   }
 
-  // Cross-link to js/ada-serial-plaintiffs-data.js's directory, filtered to
-  // the selected state -- this is what turns "here's the abstract risk
-  // tier" into "here's who's actually filing these in your state." Guarded
+  // Cross-link to js/ada-litigation-patterns-data.js, filtered to the
+  // selected state -- this is what turns "here's the abstract risk tier"
+  // into "here's what's actually driving suits in your state." Reports
+  // jurisdiction-level patterns only, not named plaintiffs/firms (pulled
+  // pending legal review -- see that data file's header comment). Guarded
   // separately since this page should keep working even if that data file
   // isn't loaded for some reason.
-  function renderPlaintiffsForState(stateName) {
-    if (typeof ADA_SERIAL_PLAINTIFFS_DATA === "undefined") return "";
-    const matches = ADA_SERIAL_PLAINTIFFS_DATA.entries.filter((p) => p.jurisdictions.includes(stateName));
-    if (!matches.length) {
+  function renderPatternsForState(stateName) {
+    if (typeof ADA_LITIGATION_PATTERNS_DATA === "undefined") return "";
+    const entry = ADA_LITIGATION_PATTERNS_DATA.entries.find((e) => e.jurisdiction === stateName);
+    if (!entry) {
       return `<div class="card" style="padding:20px; margin-top:16px;">
-        <div class="eyebrow" style="margin-bottom:8px;">Serial Plaintiffs Active in ${stateName}</div>
-        <p class="text-secondary" style="font-size:13.5px; line-height:1.65;">None of the named plaintiffs/firms profiled in our <a href="ada-serial-plaintiffs.html" class="text-accent" style="display:inline;">Serial Plaintiff Profiles</a> directory are confirmed active in ${stateName} specifically — that reflects the scope of sourced research so far, not an absence of filing activity in the state.</p>
+        <div class="eyebrow" style="margin-bottom:8px;">Litigation Patterns in ${stateName}</div>
+        <p class="text-secondary" style="font-size:13.5px; line-height:1.65;">${stateName} isn't yet covered in our <a href="ada-litigation-patterns.html" class="text-accent" style="display:inline;">Litigation Patterns by State</a> directory — that reflects the scope of sourced research so far, not an absence of filing activity in the state.</p>
       </div>`;
     }
     return `<div class="card" style="padding:20px; margin-top:16px;">
-      <div class="eyebrow" style="margin-bottom:10px;">Serial Plaintiffs Active in ${stateName}</div>
-      <div style="display:flex; flex-direction:column; gap:12px;">
-        ${matches.map((p) => `
-          <a href="ada-plaintiff-${p.slug}.html" style="display:block; padding:12px 14px; border:1px solid var(--border-soft); border-radius:8px; text-decoration:none;">
-            <p style="font-size:13.5px; font-weight:600; color:var(--text-primary); margin-bottom:2px;">${p.name}</p>
-            <p class="text-muted" style="font-size:12px;">${p.filingVolume.text} — ${p.targetNote}</p>
-          </a>`).join("")}
-      </div>
-      <p class="text-muted mt-16" style="font-size:12px;"><a href="ada-serial-plaintiffs.html" class="text-accent" style="display:inline;">View all serial plaintiff profiles →</a></p>
+      <div class="eyebrow" style="margin-bottom:10px;">Litigation Patterns in ${stateName}</div>
+      <p class="text-secondary" style="font-size:13.5px; line-height:1.65; margin-bottom:12px;">${entry.concentrationNote}</p>
+      <div class="eyebrow" style="margin-bottom:8px;">Commonly Targeted Issues</div>
+      <ul class="ar-list">${entry.commonlyTargetedIssues.map((i) => `<li>${i}</li>`).join("")}</ul>
+      <p class="text-muted mt-16" style="font-size:12px;"><a href="ada-litigation-patterns.html" class="text-accent" style="display:inline;">View all jurisdictions →</a></p>
     </div>`;
   }
 

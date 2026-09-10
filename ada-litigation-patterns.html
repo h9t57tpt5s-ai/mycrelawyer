@@ -3,19 +3,19 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Potter Handy LLP — Serial Plaintiff Profile — CREdocket</title>
-<meta name="description" content="Sourced ADA Title III filing-volume profile for Potter Handy LLP — jurisdiction, targeted property types, and cited court records." />
+<title>Litigation Patterns by State — CREdocket</title>
+<meta name="description" content="Sourced ADA Title III litigation patterns by jurisdiction — commonly targeted property types and violation categories, and how concentrated filing activity is, without naming individual plaintiffs." />
 <meta property="og:type" content="website" />
 <meta property="og:site_name" content="CREdocket" />
-<meta property="og:title" content="Potter Handy LLP — Serial Plaintiff Profile — CREdocket" />
-<meta property="og:description" content="Sourced ADA Title III filing-volume profile for Potter Handy LLP." />
-<meta property="og:url" content="https://credocket.com/ada-plaintiff-potter-handy-llp.html" />
+<meta property="og:title" content="Litigation Patterns by State — CREdocket" />
+<meta property="og:description" content="Sourced ADA Title III litigation patterns by jurisdiction — commonly targeted property types and violation categories." />
+<meta property="og:url" content="https://credocket.com/ada-litigation-patterns.html" />
 <meta property="og:image" content="https://credocket.com/img/og-image.png" />
 <meta property="og:image:width" content="1200" />
 <meta property="og:image:height" content="630" />
 <meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:title" content="Potter Handy LLP — Serial Plaintiff Profile — CREdocket" />
-<meta name="twitter:description" content="Sourced ADA Title III filing-volume profile for Potter Handy LLP." />
+<meta name="twitter:title" content="Litigation Patterns by State — CREdocket" />
+<meta name="twitter:description" content="Sourced ADA Title III litigation patterns by jurisdiction." />
 <meta name="twitter:image" content="https://credocket.com/img/og-image.png" />
 <link rel="icon" href="img/favicon.svg" type="image/svg+xml" />
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -77,7 +77,7 @@
           <a href="contribute-settlement.html">Contribute a Settlement (Earn Credits)</a>
           <a href="lien-deadline-calculator.html">Mechanic's Lien Deadline Calculator</a>
           <a href="ada-risk-flagging.html">ADA Title III Risk Flagging</a>
-          <a href="ada-serial-plaintiffs.html">Serial Plaintiff Profiles</a>
+          <a href="ada-litigation-patterns.html">Litigation Patterns by State</a>
         </div>
       </li>
       <li><a href="about.html">About</a></li>
@@ -91,6 +91,7 @@
 </nav>
 
 <header class="page-header">
+    <div class="page-header-photo"><img src="img/photos/office-building.jpg" alt="Office building" loading="eager" /></div>
     <svg class="page-header-graphic" viewBox="0 0 640 400" fill="none" aria-hidden="true" preserveAspectRatio="xMaxYMid slice">
       <defs>
         <radialGradient id="phGlow" cx="70%" cy="30%" r="60%">
@@ -107,47 +108,20 @@
       </circle>
     </svg>
   <div class="container">
-    <div class="eyebrow reveal in-view" id="app-eyebrow">Serial Plaintiff Profile</div>
-    <h1 class="reveal in-view" style="font-size:clamp(2.2rem,4vw,3.4rem);" id="app-name">Potter Handy LLP</h1>
-    <p class="lede mt-16 reveal in-view" id="app-counsel"></p>
+    <div class="eyebrow reveal in-view">Litigation Tools</div>
+    <h1 class="reveal in-view" style="font-size:clamp(2.2rem,4vw,3.4rem);">Litigation Patterns by State</h1>
+    <p class="lede mt-16 reveal in-view">What's actually getting sued over, and how concentrated filing activity is, by jurisdiction — without naming individual plaintiffs or firms. Pairs with the <a href="ada-risk-flagging.html" class="text-accent" style="display:inline;">ADA Title III Risk Flagging</a> tool.</p>
   </div>
 </header>
 
 <section class="section-tight">
   <div class="container" style="max-width:820px;">
-    <div class="grid-3 reveal-stagger mb-32" id="app-stats"></div>
-
-    <div class="card reveal" style="padding:24px; margin-bottom:24px;">
-      <div class="eyebrow" style="margin-bottom:10px;">Filing Volume</div>
-      <p style="font-size:1.1rem; font-weight:600; margin-bottom:4px;" id="app-volume-text"></p>
-      <p class="text-secondary" style="font-size:13.5px; line-height:1.6;" id="app-volume-detail"></p>
-      <p class="text-muted mono" style="font-size:11.5px; margin-top:10px;" id="app-volume-source"></p>
+    <div class="card reveal" style="padding:24px; margin-bottom:32px;">
+      <div class="eyebrow" style="margin-bottom:10px;">Disclaimer</div>
+      <p class="text-secondary" id="alp-disclaimer" style="font-size:13px; line-height:1.7;"></p>
     </div>
 
-    <div class="card reveal" style="padding:24px; margin-bottom:24px;">
-      <div class="eyebrow" style="margin-bottom:10px;">What's Targeted</div>
-      <p class="text-secondary" style="font-size:13.5px; line-height:1.7; margin-bottom:12px;" id="app-target-note"></p>
-      <div style="display:flex; flex-wrap:wrap; gap:6px;" id="app-property-types"></div>
-    </div>
-
-    <div class="card reveal" style="padding:24px; margin-bottom:24px;">
-      <div class="eyebrow" style="margin-bottom:10px;">Background</div>
-      <p class="text-secondary" style="font-size:13.5px; line-height:1.7;" id="app-notes"></p>
-    </div>
-
-    <div class="card reveal" style="padding:24px; margin-bottom:24px;" id="app-cases-card">
-      <div class="eyebrow" style="margin-bottom:10px;">Known Cases</div>
-      <div id="app-cases"></div>
-    </div>
-
-    <div class="card reveal" style="padding:24px; margin-bottom:24px;">
-      <div class="eyebrow" style="margin-bottom:10px;">Sources</div>
-      <div id="app-sources" style="display:flex; flex-direction:column; gap:6px; font-size:12.5px;"></div>
-    </div>
-
-    <p class="text-muted mt-24" style="font-size:13px;">
-      <a href="ada-serial-plaintiffs.html" class="text-accent" style="display:inline;">&larr; View all serial plaintiff profiles</a>
-    </p>
+    <div id="alp-list"></div>
   </div>
 </section>
 
@@ -160,6 +134,7 @@
     </div>
   </div>
 </section>
+
 <footer class="footer">
   <div class="container">
     <div class="footer-grid">
@@ -187,7 +162,7 @@
         <a href="premises-liability-guide.html">Premises Liability / Negligence Guide</a>
         <a href="lien-deadline-calculator.html">Mechanic's Lien Deadline Calculator</a>
         <a href="ada-risk-flagging.html">ADA Title III Risk Flagging</a>
-        <a href="ada-serial-plaintiffs.html">Serial Plaintiff Profiles</a>
+        <a href="ada-litigation-patterns.html">Litigation Patterns by State</a>
         <a href="account.html">Watchlists</a>
         <a href="about.html">About</a>
         <a href="contact.html">Contact</a>
@@ -196,6 +171,7 @@
         <h4>Legal</h4>
         <a href="privacy.html">Privacy Policy</a>
         <a href="terms.html">Terms of Service</a>
+        <a href="litigation-tools-terms.html">Litigation Tools Terms &amp; Waiver</a>
       </div>
       <div class="footer-col">
         <h4>Contact</h4>
@@ -204,7 +180,7 @@
       </div>
     </div>
     <div class="footer-bottom">
-      <span>&copy; <span data-year></span> CREdocket. Litigation intelligence sourced from ongoing legal research.</span>
+      <span>© <span data-year></span> CREdocket. Litigation intelligence sourced from ongoing legal research.</span>
       <span>Not legal advice. For informational purposes only.</span>
     </div>
   </div>
@@ -212,7 +188,7 @@
 
 <script src="js/data.js"></script>
 <script src="js/ada-risk-data.js"></script>
-<script src="js/ada-serial-plaintiffs-data.js"></script>
+<script src="js/ada-litigation-patterns-data.js"></script>
 <script src="js/main.js"></script>
 <script src="js/glossary-tooltip.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script>
@@ -221,56 +197,23 @@
 <script src="js/motion.js"></script>
 <script>
   (function () {
-    const SLUG = "potter-handy-llp";
-    const p = ADA_SERIAL_PLAINTIFFS_DATA.entries.find((e) => e.slug === SLUG);
-    if (!p) return;
-
-    const TYPE_LABEL = { individual: "Individual", firm: "Firm" };
-    document.getElementById("app-eyebrow").textContent = `Serial Plaintiff Profile — ${TYPE_LABEL[p.type] || p.type}`;
-    document.getElementById("app-counsel").textContent = p.counsel ? `Represented by ${p.counsel}` : "";
+    document.getElementById("alp-disclaimer").textContent = ADA_LITIGATION_PATTERNS_DATA.disclaimer;
 
     const PROPERTY_LABELS = (typeof ADA_RISK_DATA !== "undefined" && ADA_RISK_DATA.propertyTypes) || {};
-    document.getElementById("app-stats").innerHTML = `
-      <div class="card reveal" style="padding:24px;">
-        <div class="text-muted" style="font-size:12px; text-transform:uppercase; letter-spacing:0.04em; margin-bottom:6px;">Jurisdiction${p.jurisdictions.length === 1 ? "" : "s"}</div>
-        <div style="font-size:14px; font-weight:600;">${p.jurisdictions.join(", ")}</div>
-      </div>
-      <div class="card reveal" style="padding:24px;">
-        <div class="text-muted" style="font-size:12px; text-transform:uppercase; letter-spacing:0.04em; margin-bottom:6px;">Confidence</div>
-        <div style="font-size:14px; font-weight:600;">${p.filingVolume.confidence}</div>
-      </div>
-      <div class="card reveal" style="padding:24px;">
-        <div class="text-muted" style="font-size:12px; text-transform:uppercase; letter-spacing:0.04em; margin-bottom:6px;">Type</div>
-        <div style="font-size:14px; font-weight:600;">${TYPE_LABEL[p.type] || p.type}</div>
-      </div>`;
-
-    document.getElementById("app-volume-text").textContent = p.filingVolume.text;
-    document.getElementById("app-volume-detail").textContent = p.filingVolume.detail;
-    document.getElementById("app-volume-source").innerHTML = `Source: <a href="${p.filingVolume.sourceUrl}" target="_blank" rel="noopener" class="text-accent" style="display:inline;">${p.filingVolume.source}</a>`;
-
-    document.getElementById("app-target-note").textContent = p.targetNote;
-    document.getElementById("app-property-types").innerHTML = p.targetPropertyTypes.map((id) => {
-      const meta = PROPERTY_LABELS[id];
-      return `<span class="detail-tag">${meta ? meta.label : id}</span>`;
-    }).join("");
-
-    document.getElementById("app-notes").textContent = p.notes;
-
-    const casesCard = document.getElementById("app-cases-card");
-    if (p.knownCases && p.knownCases.length) {
-      document.getElementById("app-cases").innerHTML = p.knownCases.map((c) => `
-        <div style="padding:10px 0; border-top:1px solid var(--border-soft);">
-          <p style="font-size:13.5px; font-weight:600; margin-bottom:4px;">${c.caption}</p>
-          <p class="text-secondary" style="font-size:12.5px; line-height:1.6; margin-bottom:4px;">${c.note}</p>
-          ${c.sourceUrl ? `<a href="${c.sourceUrl}" target="_blank" rel="noopener" class="text-accent" style="font-size:12px; display:inline;">Source ↗</a>` : ""}
-        </div>`).join("");
-    } else {
-      casesCard.style.display = "none";
-    }
-
-    document.getElementById("app-sources").innerHTML = p.sources.map((s) =>
-      `<a href="${s.url}" target="_blank" rel="noopener" class="text-accent" style="display:inline;">${s.label} ↗</a>`
-    ).join("");
+    const list = document.getElementById("alp-list");
+    list.innerHTML = ADA_LITIGATION_PATTERNS_DATA.entries.map((e) => `
+      <div class="card reveal" style="padding:24px; margin-bottom:20px;">
+        <h2 style="font-size:1.2rem; margin-bottom:12px;">${e.jurisdiction}</h2>
+        <p class="text-secondary" style="font-size:13.5px; line-height:1.7; margin-bottom:14px;">${e.concentrationNote}</p>
+        <div class="eyebrow" style="margin-bottom:8px;">Commonly Targeted Issues</div>
+        <ul class="ar-list" style="margin-bottom:14px;">${e.commonlyTargetedIssues.map((i) => `<li>${i}</li>`).join("")}</ul>
+        <div style="display:flex; flex-wrap:wrap; gap:6px; margin-bottom:14px;">
+          ${e.commonlyTargetedPropertyTypes.map((id) => `<span class="detail-tag">${(PROPERTY_LABELS[id] && PROPERTY_LABELS[id].label) || id}</span>`).join("")}
+        </div>
+        <div style="display:flex; flex-direction:column; gap:6px; padding-top:12px; border-top:1px solid var(--border-soft);">
+          ${e.sources.map((s) => `<a href="${s.url}" target="_blank" rel="noopener" class="text-accent" style="display:inline; font-size:12px;">${s.label} ↗</a>`).join("")}
+        </div>
+      </div>`).join("");
 
     document.querySelectorAll(".reveal, .card").forEach((el) => el.classList.add("in-view"));
   })();
