@@ -22,7 +22,18 @@
     return el ? el.textContent.trim() : "";
   }
 
-  function generatePdf() {
+  async function loadImageDataUrl(url) {
+    const res = await fetch(url);
+    const blob = await res.blob();
+    return await new Promise((resolve, reject) => {
+      const reader = new FileReader();
+      reader.onload = () => resolve(reader.result);
+      reader.onerror = reject;
+      reader.readAsDataURL(blob);
+    });
+  }
+
+  async function generatePdf() {
     if (!window.RELAW_AUTH || !window.RELAW_AUTH.getSession()) {
       if (window.RELAW_AUTH) window.RELAW_AUTH.openSignInModal();
       return;
@@ -177,6 +188,22 @@
       if (m.researchConfidence) body(`Research confidence: ${m.researchConfidence}`, { size: 8, color: MUTED, gap: 8 });
       rule();
     });
+
+    heading("About the Author", 13);
+    addPageIfNeeded(90);
+    try {
+      const imgData = await loadImageDataUrl("img/jeff-novel.png");
+      doc.addImage(imgData, "PNG", marginX, y, 64, 64);
+    } catch (err) { /* image optional -- text bio still renders without it */ }
+    doc.setFont("helvetica", "bold"); doc.setFontSize(11); doc.setTextColor(NAVY);
+    doc.text("Jeff Novel", marginX + 76, y + 14);
+    doc.setFont("helvetica", "normal"); doc.setFontSize(9); doc.setTextColor(MUTED);
+    doc.text("Contributing Author, CREdocket", marginX + 76, y + 28);
+    y += 76;
+    body("Jeff has spent over two decades trying commercial real estate disputes in state and federal courtrooms, and before arbitration panels, nationwide. He represents developers, retailers, and multifamily owners and managers in landlord-tenant and lease disputes, construction and contractor claims, purchase-and-sale and title fights, and premises liability and negligence matters arising on commercial property.", { size: 9.5, color: MUTED, gap: 10 });
+    body("That trial experience — including the duty, notice, and comparative-fault fights this guide covers — shapes the state-by-state guidance in it.", { size: 9.5, color: MUTED, gap: 10 });
+    body("Full bio & recent analysis: credocket.com/author-jeff-novel.html", { size: 9, color: MUTED, gap: 14 });
+    rule();
 
     heading("About CREdocket", 13);
     body("CREdocket tracks litigation, regulatory actions, and legal developments affecting commercial real estate owners, managers, developers, and REITs. Learn more at credocket.com.", { size: 9.5, color: MUTED });

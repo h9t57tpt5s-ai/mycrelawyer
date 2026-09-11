@@ -96,6 +96,16 @@
       doc.setDrawColor(216, 211, 196); doc.line(marginX, y, pageW - marginX, y);
       y += 16;
     }
+    async function loadImageDataUrl(url) {
+      const res = await fetch(url);
+      const blob = await res.blob();
+      return await new Promise((resolve, reject) => {
+        const reader = new FileReader();
+        reader.onload = () => resolve(reader.result);
+        reader.onerror = reject;
+        reader.readAsDataURL(blob);
+      });
+    }
     function classificationColor(c) {
       if (c === "Landlord-Friendly") return "#16a34a";
       if (c === "Tenant-Friendly") return "#dc2626";
@@ -162,6 +172,22 @@
         rule();
       }
     });
+
+    heading("About the Author", 13);
+    addPageIfNeeded(90);
+    try {
+      const imgData = await loadImageDataUrl("img/jeff-novel.png");
+      doc.addImage(imgData, "PNG", marginX, y, 64, 64);
+    } catch (err) { /* image optional -- text bio still renders without it */ }
+    doc.setFont("helvetica", "bold"); doc.setFontSize(11); doc.setTextColor(NAVY);
+    doc.text("Jeff Novel", marginX + 76, y + 14);
+    doc.setFont("helvetica", "normal"); doc.setFontSize(9); doc.setTextColor(MUTED);
+    doc.text("Contributing Author, CREdocket", marginX + 76, y + 28);
+    y += 76;
+    body("Jeff has spent over two decades trying commercial real estate disputes in state and federal courtrooms, and before arbitration panels, nationwide. He represents developers, retailers, and multifamily owners and managers in landlord-tenant and lease disputes — including commercial evictions and forcible detainer actions — construction and contractor claims, and purchase-and-sale and title fights.", { size: 9.5, color: MUTED, gap: 10 });
+    body("That trial experience — including the self-help lockouts, notice defects, and possession fights this handbook covers — shapes the practical, state-specific guidance in it.", { size: 9.5, color: MUTED, gap: 10 });
+    body("Full bio & recent analysis: credocket.com/author-jeff-novel.html", { size: 9, color: MUTED, gap: 14 });
+    rule();
 
     heading("About CREdocket", 13);
     body("CREdocket tracks litigation, regulatory actions, and legal developments affecting commercial real estate owners, managers, developers, and REITs. Learn more at credocket.com.", { size: 9.5, color: MUTED });
