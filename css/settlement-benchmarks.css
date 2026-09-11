@@ -20,6 +20,17 @@
 
 .sb-outcome { font-size: 13.5px; line-height: 1.65; color: var(--text-secondary); margin: 0; }
 
+/* Anonymous / redacted result -- reuses the site's existing metered-
+   paywall gate-card look (see .gate-card in styles.css) rather than a
+   new visual language, just compact enough to sit inside a result card. */
+.sb-card.is-locked .sb-tags { margin-bottom: 16px; }
+.sb-gate-card.gate-card {
+  margin: 0; padding: 14px 16px; display: flex; align-items: center; justify-content: space-between;
+  gap: 14px; flex-wrap: wrap;
+}
+.sb-gate-card .btn { flex-shrink: 0; }
+
 @media (max-width: 640px) {
   .sb-card-top { flex-direction: column; gap: 6px; }
+  .sb-gate-card.gate-card { flex-direction: column; align-items: flex-start; }
 }

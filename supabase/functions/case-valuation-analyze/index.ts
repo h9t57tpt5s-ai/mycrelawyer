@@ -200,7 +200,31 @@ async function loadCaseData(): Promise<CaseData> {
   // force-fitting it through JSON.parse, so any valid JS syntax in it
   // (comments, trailing commas, etc.) is handled correctly.
   const fn = new Function(`${raw}\nreturn CASE_VALUATION_DATA;`);
-  cachedCaseData = fn() as CaseData;
+  const publicData = fn() as Omit<CaseData, "citations">;
+
+  // SECURITY (2026-09): the actual case-citation bench (real
+  // settlement/verdict outcomes with dollar amounts and sources) used to
+  // live inside the public file fetched above -- which meant the entire
+  // proprietary research asset grounding this tool was one unauthenticated
+  // `curl` away from anyone. It's now a private, RLS-locked table
+  // (`private_case_citations`) readable only by this service-role client,
+  // never by the anon/publishable key or an end user's session. The public
+  // file above still holds the state-law-modifier tables and the
+  // category/claimType spec -- real research too, but a restatement of
+  // public law, not the hard-won dataset -- and several free guide pages
+  // still fetch it directly client-side for exactly that content.
+  const { data: citationsRow, error: citationsErr } = await supabaseAdmin
+    .from("private_case_citations")
+    .select("citations")
+    .eq("id", "main")
+    .single();
+  if (citationsErr || !citationsRow) {
+    throw new Error(
+      `Could not load private case citations (run the private_case_citations migration if this is a fresh project): ${citationsErr?.message ?? "no row found"}`
+    );
+  }
+
+  cachedCaseData = { ...publicData, citations: citationsRow.citations } as CaseData;
   return cachedCaseData;
 }
 
