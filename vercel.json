@@ -3,6 +3,8 @@
     { "source": "/glossary.html", "destination": "/litigation.html", "permanent": true },
     { "source": "/glossary", "destination": "/litigation.html", "permanent": true },
     { "source": "/ada-serial-plaintiffs.html", "destination": "/ada-litigation-patterns.html", "permanent": false },
-    { "source": "/ada-plaintiff-:slug.html", "destination": "/ada-litigation-patterns.html", "permanent": false }
+    { "source": "/ada-plaintiff-:slug.html", "destination": "/ada-litigation-patterns.html", "permanent": false },
+    { "source": "/coverage-map.html", "destination": "/litigation.html", "permanent": false },
+    { "source": "/coverage-map", "destination": "/litigation.html", "permanent": false }
   ]
 }
