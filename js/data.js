@@ -3356,6 +3356,218 @@ const RELAW_DATA = {
         { when: "June 23, 2026", label: "Case management conference scheduled", upcoming: true }
       ],
       tags: ["wrongful lockout", "self-help eviction", "commercial lease dispute", "restaurant", "California"]
+    },
+    {
+      id: "live-119",
+      addedDate: "2026-09-10",
+      title: "The State of Texas v. JRJ Pusok Holdings, LLC",
+      category: "eminent-domain",
+      status: "ruling",
+      date: "2026-06-12",
+      jurisdiction: "Supreme Court of Texas",
+      judge: "Jane Bland",
+      state: "TX",
+      amount: "N/A — no monetary judgment; case remanded to the trial court for further proceedings on the merits",
+      source: "live",
+      sourceUrl: "https://texasscorecard.com/state/texas-supreme-court-sides-with-citizens-in-eminent-domain-dispute/",
+      summary: "The Texas Supreme Court unanimously-on-the-immunity-question held that the State cannot invoke sovereign immunity to block a former landowner's statutory right to repurchase condemned property once the government decides it no longer needs the land for public use. The case traces back to a Harris County parcel on Mueschke Road in Tomball that TxDOT condemned for a Grand Parkway-area highway project; after the route was later changed, TxDOT deemed roughly 20,000 square feet of the site surplus but refused to sell it back, prompting the landowners' successor, JRJ Pusok Holdings, LLC, to sue. Justice Jane Bland authored the majority opinion, joined by five justices; Justice Young concurred, and Justice Hawkins dissented (joined by Justice Sullivan and, in part, Chief Justice Blacklock).",
+      significance: "Closes off a maneuver some condemning authorities have relied on: taking land through eminent domain, later abandoning the stated public purpose, and then asserting sovereign immunity to keep property a landowner has a statutory right to buy back. For any commercial owner or developer whose land sits along a transportation, utility, or other public-works corridor, the ruling confirms that a change in project scope or routing does not leave the state free to simply retain the excess parcel -- Chapter 21 of the Texas Property Code's repurchase right survives the government's own change of plans, and county courts at law have concurrent jurisdiction to enforce it.",
+      body: [
+        "The dispute traces back more than a decade, to when the Texas Department of Transportation moved to acquire land along Mueschke Road in Tomball, part of the Grand Parkway (State Highway 99) corridor northwest of Houston. After negotiations, the landowners conveyed the property to the state in exchange for compensation, and TxDOT's condemnation suit was resolved without proceeding to judgment. Years later, TxDOT rerouted the Mueschke Road improvement, and the agency's own personnel acknowledged that roughly 20,000 square feet of the acquired tract had become surplus -- no longer necessary for the highway project it was taken for.",
+        "When the state declined to sell the surplus parcel back, the original owners assigned their rights to JRJ Pusok Holdings, LLC, which sued the State of Texas and Kyle Madsen, in his official capacity as director of TxDOT's Right of Way Division, seeking to enforce the statutory repurchase right in Chapter 21 of the Texas Property Code. The State responded with a plea to the jurisdiction, arguing sovereign immunity barred the suit and that no justiciable controversy existed. The trial court agreed and dismissed the case, but the Fourteenth Court of Appeals reversed, holding immunity was waived for repurchase claims because the property had been acquired \"through eminent domain\" even though the underlying condemnation suit settled before judgment.",
+        "The Texas Supreme Court affirmed. Justice Bland's opinion for the Court grounded the result in the constitutional character of the right at stake, opening with the observation that the right to own property is \"fundamental, natural, inherent, inalienable, not derived from the legislature and . . . preexist[s]\" the state itself. The Court held that a repurchase claim under Chapter 21 falls among the categories of suits for which the Legislature has waived immunity, that property acquired via a condemnation suit settled short of judgment still counts as acquired \"through eminent domain\" for repurchase purposes, and that a landowner may repurchase only the specific portion of the property no longer necessary for public use -- not the whole original tract. Justice Hawkins's dissent, joined by Justice Sullivan and in part by Chief Justice Blacklock, argued that immunity should apply because \"every dollar the government spends defending a lawsuit or paying a judgment to benefit one individual is a dollar that could have been spent on schools, roads, and public safety.\"",
+        "For developers, REITs, and other commercial owners whose land lies along a planned or existing transportation or utility corridor, the decision is a reminder that a condemning authority's later change of plans -- a reroute, a scaled-back footprint, a canceled phase -- does not let the government simply keep whatever it took. The repurchase right travels with the land and can be enforced years after the original taking, and this ruling confirms owners (or their assignees) can sue in county court at law to enforce it despite a sovereign-immunity defense."
+      ],
+      timeline: [
+        { when: "2014", label: "TxDOT files a condemnation suit for the Mueschke Road parcel; the case settles with the landowners conveying the property in exchange for compensation" },
+        { when: "2016", label: "TxDOT reroutes the highway project and later acknowledges roughly 20,000 square feet of the site is surplus" },
+        { when: "2024", label: "The Fourteenth Court of Appeals reverses the trial court's dismissal, holding immunity was waived for the repurchase claim" },
+        { when: "November 4, 2025", label: "Oral argument before the Texas Supreme Court" },
+        { when: "June 12, 2026", label: "The Texas Supreme Court affirms, holding the State is not immune from the repurchase suit and remanding for further proceedings", current: true }
+      ],
+      documentUrl: "https://search.txcourts.gov/SearchMedia.aspx?MediaVersionID=ed3ce8c0-36e7-4012-b9c8-46156f1eb2b8&coa=cossup&DT=OPINION&MediaID=b4db616d-131b-4712-868f-19275f6c0139",
+      documentLabel: "Read the official opinion",
+      tags: ["eminent domain", "sovereign immunity", "repurchase right", "TxDOT", "condemnation", "Texas"]
+    },
+    {
+      id: "live-120",
+      addedDate: "2026-09-10",
+      title: "City of San Antonio and Toyota Motor Manufacturing Texas, Inc. v. Southside Affordable Development, LLC",
+      category: "zoning-land-use",
+      status: "ruling",
+      date: "2025-07-16",
+      jurisdiction: "Fourth Court of Appeals, San Antonio, Texas",
+      judge: "H. Todd McCray",
+      state: "TX",
+      amount: "N/A — claims dismissed with prejudice for lack of standing",
+      source: "live",
+      sourceUrl: "https://www.ksat.com/news/local/2023/12/05/lawsuit-filed-against-city-toyota-alleges-20-year-agreement-is-unconstitutional/",
+      summary: "The Fourth Court of Appeals dismissed with prejudice a landowner's challenge to the 20-year-old 'Starbright Agreement' that gives Toyota Motor Manufacturing Texas a good-faith consultation role over zoning within a three-mile buffer around its South Side San Antonio plant. Southside Affordable Development, LLC had sued the city and Toyota after San Antonio declined to rezone a 97-acre tract Southside bought in 2017, arguing the arrangement was unconstitutional 'contract zoning' and a taking; the appeals court held Southside lacked standing because the challenged ordinances predated its purchase and no assignment of claims from the prior owner was ever shown.",
+      significance: "A cautionary tale for any developer buying into an area covered by a long-standing development agreement between a city and a major industrial tenant: a purchaser who did not own the land when the underlying ordinances were adopted generally cannot revive a constitutional challenge to them absent an explicit assignment of claims from the prior owner, and informal statements of non-support from city staff do not themselves trigger a takings claim. Developers eyeing land inside negotiated 'enhanced zoning area' buffers near large industrial users should diligence the origin and assignability of any zoning challenge before relying on it as a path around a restrictive framework.",
+      body: [
+        "In 2003, the City of San Antonio and Toyota Motor Manufacturing Texas entered into the Project Starbright Agreement to bring Toyota's manufacturing plant to newly annexed land on the city's South Side. A companion City Agreement required San Antonio to work in good faith with Toyota on zoning within a three-mile 'Enhanced Zoning Area' surrounding the plant. San Antonio subsequently approved a series of ordinances implementing that framework, including a 2004 rezoning of a 97-acre tract then owned by Presto Tierra LLC and a further 2017 rezoning of the same tract. Presto Tierra sold the property to Southside Affordable Development, LLC in June 2017.",
+        "In 2022 and 2023, Southside sought a rezoning that would allow multifamily residential development on the tract, encountering opposition from the city and receiving only informal indications that officials would not support the project. In December 2023, Southside sued the City of San Antonio and Toyota in Bexar County's 285th Judicial District Court, alleging the Starbright Agreement's zoning provisions amounted to unconstitutional 'contract zoning' that improperly delegated the city's zoning authority to a private company, violated due process, and effected an uncompensated taking under the Private Real Property Rights Protection Act, given what the complaint characterized as a steep drop in the property's value once the rezoning was denied.",
+        "The Fourth Court of Appeals reversed the trial court's denial of the city's plea to the jurisdiction and rendered judgment dismissing Southside's claims with prejudice. Writing for the panel, Justice H. Todd McCray held that Southside's constitutional claims failed because the challenged ordinances were all adopted before Southside purchased the property in 2017, and under Texas law a subsequent purchaser cannot recover for an injury that predates its purchase absent an assignment of the prior owner's claims -- and Southside identified no such assignment, nor did its deed contain assignment language. The court further held that Southside could not qualify as an 'owner' under the Private Real Property Rights Protection Act as to the 2003 and 2004 ordinances because Presto Tierra, not Southside, held title when those ordinances took effect, and that the city's informal statements declining to support Southside's rezoning request did not constitute the kind of official governmental action the statute requires.",
+        "The court's opinion left the door open a crack: it noted the ruling does not foreclose Southside from establishing standing in the future if San Antonio formally and officially denies a rezoning request going forward, as opposed to the informal non-support Southside had received to that point. For developers acquiring land already subject to a negotiated development agreement between a city and an anchor industrial tenant, the case underscores that the timing of a purchase relative to the challenged government action -- and whether the seller ever assigned its claims -- can be dispositive before a court ever reaches the merits of a contract-zoning or takings theory."
+      ],
+      timeline: [
+        { when: "2003-2004", label: "San Antonio and Toyota enter the Starbright Agreement; the city adopts ordinances establishing the three-mile Enhanced Zoning Area and rezoning the tract" },
+        { when: "June 2017", label: "Southside Affordable Development, LLC purchases the 97-acre tract from Presto Tierra LLC" },
+        { when: "2022-2023", label: "Southside seeks rezoning for a multifamily project; the city indicates it will not support the request" },
+        { when: "December 2023", label: "Southside sues the City of San Antonio and Toyota in Bexar County's 285th Judicial District Court" },
+        { when: "May 8, 2024", label: "The trial court denies the city's plea to the jurisdiction" },
+        { when: "July 16, 2025", label: "The Fourth Court of Appeals reverses, holding Southside lacks standing, and dismisses the case with prejudice", current: true }
+      ],
+      documentUrl: "https://search.txcourts.gov/SearchMedia.aspx?MediaVersionID=af4b9665-0b2d-4219-b13c-d41c95355ab9&coa=coa04&DT=Opinion&MediaID=467bb86a-40fa-4100-b63a-b7e9f88def9b",
+      documentLabel: "Read the official opinion",
+      tags: ["contract zoning", "standing", "Toyota", "Starbright Agreement", "takings", "Texas"]
+    },
+    {
+      id: "live-121",
+      addedDate: "2026-09-10",
+      title: "ATC Indoor DAS LLC v. MM CCM 48M Leasing, LLC and MM CCM 48M, LLC (Collin Creek Mall Lease Dispute)",
+      category: "lease-disputes",
+      status: "ruling",
+      date: "2026-01-29",
+      jurisdiction: "Fifth Court of Appeals, Dallas, Texas",
+      judge: "Emily Miskel",
+      state: "TX",
+      amount: "N/A — summary judgment reversed and rendered in part on liability; remanded in part on attorney's fees",
+      source: "live",
+      sourceUrl: "https://tcjl.com/dallas-court-of-appeals-rules-for-tenant-in-lease-dispute-arising-from-failed-shopping-mall/",
+      summary: "The Fifth Court of Appeals in Dallas ruled for a wireless-infrastructure tenant against the successor owner of the shuttered Collin Creek Mall, holding the landlord could not use an impossibility or impracticability defense to excuse its termination of a lease it had voluntarily assumed and performed under for months. ATC Indoor DAS LLC, which installed and maintained distributed antenna equipment serving AT&T and Verizon inside the mall, sued after MM CCM 48M Leasing, LLC -- which bought the failing mall and assumed the host lease -- terminated the agreement and gave ATC 30 days to remove its equipment once the mall closed.",
+      significance: "Confirms that a successor purchaser who voluntarily assumes a lease and performs under it cannot later invoke changed market conditions -- here, a mall's total collapse and closure -- as an excuse to walk away from that lease altogether; 'merely shifting market conditions,' the court held, do not excuse contractual performance. Owners acquiring distressed retail assets encumbered by specialty tenant leases (wireless infrastructure, telecom, signage, and similar arrangements that survive an anchor's departure) should treat assumption of those leases as a binding commitment that a later decision to close or redevelop the property does not automatically unwind.",
+      body: [
+        "ATC Indoor DAS LLC installs and maintains distributed antenna system (DAS) equipment that improves indoor wireless coverage inside large structures. It entered into a host lease with the owner of Collin Creek Mall in Plano, Texas, which allowed ATC to license space to AT&T and Verizon in exchange for rent those carriers paid ATC for the improved in-mall coverage. By 2018, the mall was in serious financial distress; MM CCM 48M Leasing, LLC and MM CCM 48M, LLC acquired the property and expressly assumed the host lease, continuing to accept its benefits for a period of months.",
+        "Shortly after the acquisition, MM CCM 48M Leasing sent ATC a letter, invoking its position as successor-in-interest to the original landlord, terminating the lease and informing ATC that the mall had closed and that its equipment had to be removed within 30 days. ATC sued for breach of contract, and both sides moved for summary judgment; the trial court ruled for the landlord.",
+        "On rehearing, the Fifth Court of Appeals reversed. Writing for the panel (joined by Justices Garcia and Lee), Justice Emily Miskel held that ATC had conclusively established its breach-of-contract claim and that the trial court erred in denying ATC's own motion for summary judgment. The court rejected the landlord's impossibility/impracticability defense on the ground that MM CCM 48M Leasing had voluntarily assumed the lease, accepted its benefits, and performed under it for months before attempting to terminate -- and that a mall's declining fortunes and eventual closure amounted to 'merely shifting market conditions,' which do not excuse a party from a contract it chose to step into. The court rendered judgment for ATC on liability and remanded the case for further proceedings on attorney's fees and ATC's remaining claims against MM CCM 48M, LLC.",
+        "For any owner acquiring a distressed or closing retail property, the decision is a reminder that specialty leases which survive an anchor tenant's departure -- DAS and wireless-infrastructure agreements, rooftop leases, signage licenses, and similar arrangements -- do not automatically terminate when a mall goes dark, and a successor landlord who assumes and performs under such a lease cannot later point to the property's own decline as an excuse to walk away from it."
+      ],
+      timeline: [
+        { when: "Pre-2018", label: "ATC Indoor DAS LLC enters a host lease with Collin Creek Mall's original owner to serve AT&T and Verizon" },
+        { when: "2018", label: "MM CCM 48M Leasing, LLC and MM CCM 48M, LLC acquire the mall and assume the host lease" },
+        { when: "2018 (months later)", label: "MM CCM 48M Leasing terminates the lease and gives ATC 30 days to remove its equipment after the mall closes" },
+        { when: "2023", label: "Trial court cross-motions for summary judgment result in judgment for the landlord (Cause No. 471-03806-2023, 471st District Court, Collin County)" },
+        { when: "January 29, 2026", label: "The Fifth Court of Appeals reverses on rehearing, rendering judgment for ATC on liability and remanding on fees and remaining claims", current: true }
+      ],
+      documentUrl: "https://search.txcourts.gov/SearchMedia.aspx?MediaVersionID=9ab2edf3-a327-460b-b90f-ba8d569dcf7d&coa=coa05&DT=Opinion&MediaID=34d9bf60-5c2e-4396-853c-1476010f8451",
+      documentLabel: "Read the official opinion",
+      tags: ["shopping mall", "lease assumption", "impossibility defense", "distributed antenna system", "Collin Creek Mall", "Texas"]
+    },
+    {
+      id: "live-122",
+      addedDate: "2026-09-10",
+      title: "Holiday Inn Club Vacations Inc. v. CBRE, Inc., ACI Architectural Concepts, Inc., and T&G Corporation f/k/a T&G Constructors",
+      category: "construction-defect",
+      status: "ruling",
+      date: "2025-02-04",
+      jurisdiction: "Fourteenth Court of Appeals, Houston, Texas",
+      judge: "Kevin Jewell",
+      state: "TX",
+      amount: "N/A — take-nothing summary judgment reversed and remanded for further proceedings",
+      source: "live",
+      sourceUrl: "https://www.wshblaw.com/publication-texas-court-revives-construction-defect-claims-key-lessons-for-managing-latent-defect-risk",
+      summary: "The Fourteenth Court of Appeals revived a timeshare-resort operator's construction-defect suit against its construction manager, general contractor, and construction administrator, reversing a take-nothing summary judgment that had gone against Holiday Inn Club Vacations Inc. on statute-of-limitations, standing, and economic-loss-rule grounds. The court held fact issues remained over when Holiday Inn's water-intrusion claims against CBRE, Inc., T&G Corporation f/k/a T&G Constructors, and ACI Architectural Concepts, Inc. actually accrued under the discovery rule, given evidence that isolated window-related water issues during the project did not necessarily put Holiday Inn on notice of the more systemic defects alleged later.",
+      significance: "Reinforces that a construction manager or general contractor cannot win summary judgment on limitations simply by pointing to an owner's awareness of isolated, resolved defects during a project -- the discovery rule requires evidence the owner knew or should have known of the specific, systemic problem actually being sued over. Owners and asset managers pursuing water-intrusion or similarly latent defect claims against a project's construction team should document the evolution from isolated repair requests to a pattern indicating a design or workmanship failure, since that evidentiary gap is precisely what kept this claim alive past summary judgment.",
+      body: [
+        "Holiday Inn Club Vacations Inc. sued CBRE, Inc. (construction manager), T&G Corporation f/k/a T&G Constructors (general contractor), and ACI Architectural Concepts, Inc. (construction administrator) in the 405th District Court of Galveston County over alleged construction defects at one of its timeshare resort properties, centering on water intrusion the company said stemmed from deficient work and failure to comply with project plans and specifications. The trial court granted a combined no-evidence and traditional motion for summary judgment in favor of all three defendants, entering a final take-nothing judgment against Holiday Inn.",
+        "On appeal, Holiday Inn raised three issues, arguing the trial court erred in granting summary judgment to all three appellees on their statute-of-limitations defenses, to CBRE specifically on standing and capacity grounds, and to CBRE on the economic-loss rule. Writing for the Fourteenth Court of Appeals, Justice Kevin Jewell agreed on all three points and reversed.",
+        "On limitations, the court held the defendants had not conclusively negated the discovery rule as a matter of law. CBRE argued Holiday Inn had judicially admitted awareness of water infiltration during the project, but the court found that isolated window-related issues resolved during construction did not conclusively establish Holiday Inn knew, or should have known, of the more systemic defects it later sued over -- a fact question for the jury rather than a basis for summary judgment. On standing, the court rejected CBRE's argument that Holiday Inn lacked an interest in the resort during the relevant period, finding evidence supported Holiday Inn's ability to assert claims arising from the contract. And on the economic-loss rule, the court held Holiday Inn's claims were not conclusively barred where the alleged conduct implicated duties independent of the contract itself.",
+        "The court reversed the take-nothing judgment as to all three defendants and remanded the case to the trial court for further proceedings. For owners of hospitality, resort, and other commercial properties pursuing latent-defect claims well after substantial completion, the ruling is a useful marker for how Texas's discovery rule operates in practice: a defendant's evidence that the owner knew about *some* water issues during construction is not, by itself, enough to conclusively defeat a later claim over a different or more extensive defect discovered only after the fact."
+      ],
+      timeline: [
+        { when: "December 4, 2023", label: "Holiday Inn Club Vacations Inc. files its notice of appeal (Trial Court Cause No. 20-CV-1450, 405th District Court, Galveston County)" },
+        { when: "February 4, 2025", label: "The Fourteenth Court of Appeals reverses the take-nothing summary judgment and remands for further proceedings", current: true }
+      ],
+      documentUrl: "https://search.txcourts.gov/SearchMedia.aspx?MediaVersionID=9bacebca-5e6c-4ae3-980b-cfa1ca4695ae&coa=coa14&DT=Opinion&MediaID=f6979f28-a233-454f-960c-ad8a564acff9",
+      documentLabel: "Read the official opinion",
+      tags: ["construction defect", "water intrusion", "discovery rule", "statute of limitations", "CBRE", "timeshare resort", "Texas"]
+    },
+    {
+      id: "live-123",
+      addedDate: "2026-09-10",
+      title: "City of Dallas v. Mid-America Apartment Communities, Inc. (MAA Meridian Fair Housing Suit)",
+      category: "landlord-tenant",
+      status: "filed",
+      date: "2026-03-18",
+      jurisdiction: "Dallas County District Court, Texas",
+      state: "TX",
+      amount: "N/A — city seeks injunctive relief and civil penalties under the Dallas Fair Housing Ordinance",
+      source: "live",
+      sourceUrl: "https://hoodline.com/2026/04/dallas-targets-landlords-affordable-housing-nonprofit-in-bias-suit-blitz/",
+      summary: "The City of Dallas sued NYSE-listed multifamily REIT Mid-America Apartment Communities, Inc. under the Dallas Fair Housing Ordinance over its Uptown property, MAA Meridian, alleging the property denied a tenant's request for an emotional-support-animal accommodation and instead required a $500 pet deposit and $20 monthly pet rent before it would consider approving the animal. The suit is one of three the city filed within about a month against Dallas-area landlords -- also naming Zahir Properties Inc. (Courthouse Apartments) and the Texas Workforce Housing Foundation -- over alleged fair-housing violations and unresolved maintenance conditions.",
+      significance: "Extends the municipal code-enforcement playbook seen in cities like Oakland (against Mosser Companies over elevator-ordinance compliance) to fair-housing accommodation practices at large, publicly traded multifamily operators, not just smaller independent landlords. Any multifamily owner or manager operating in a jurisdiction with a local fair-housing ordinance should audit how leasing staff handle assistance- and support-animal accommodation requests, since pet fees or deposits conditioned on approving a disability accommodation are a recurring theme across the city's recent enforcement actions.",
+      body: [
+        "The City of Dallas filed suit against Mid-America Apartment Communities, Inc. (MAA), a large, NYSE-listed multifamily REIT, over conditions at its Uptown Dallas property, MAA Meridian. According to the city's complaint, tenant Taylor Monroe submitted a request in mid-2024 for a reasonable accommodation to keep an emotional-support dog, supported by a clinical assessment and a letter from a mental-health provider. The city alleges MAA Meridian required Monroe to pay a $500 pet deposit and $20 in monthly pet rent as a condition of approving the accommodation, and that property managers separately balked at the request because the therapist who completed the supporting paperwork was affiliated with a specific assistance-animal certification service.",
+        "The MAA suit, filed March 18, 2026, was one of three fair-housing enforcement actions the City of Dallas brought against area landlords within roughly a month. A second, filed April 7, 2026, targeted Zahir Properties Inc., which operates Courthouse Apartments in Old East Dallas, over a tenant's allegedly wrongful non-renewal and withheld deposit. A third, filed earlier in June 2025 and still pending, named the Texas Workforce Housing Foundation and related entities over conditions the city says pose immediate health and safety hazards across roughly 1,136 units.",
+        "Across the three suits, city attorneys describe a common pattern: denied reasonable-accommodation requests paired with unresolved maintenance failures, including a malfunctioning refrigerator, a damaged and unsecured front door, and a ceiling defect that let water into a unit during rain at one of the named properties. The city is proceeding under the Dallas Fair Housing Ordinance (Chapter 20A of the Dallas City Code), which allows the city itself -- rather than only an aggrieved tenant -- to bring a civil enforcement action.",
+        "For institutional owners and managers of multifamily assets, the MAA suit is notable less for its size than for its target: this is not a small independent landlord but one of the largest publicly traded apartment REITs in the country, being sued directly by a municipality over how a single leasing office handled one disability-accommodation request. Owners operating in cities with local fair-housing ordinances with their own civil-enforcement teeth should treat this as a reminder that accommodation requests need to be documented and resolved without conditioning approval on fees the Fair Housing Act and comparable local ordinances generally prohibit for service and support animals."
+      ],
+      timeline: [
+        { when: "June 2024", label: "Tenant Taylor Monroe requests an emotional-support-animal accommodation at MAA Meridian" },
+        { when: "June 2025", label: "The City of Dallas sues the Texas Workforce Housing Foundation and related entities over conditions at other properties" },
+        { when: "March 18, 2026", label: "The City of Dallas sues Mid-America Apartment Communities, Inc. over the denied accommodation at MAA Meridian", current: true },
+        { when: "April 7, 2026", label: "The City of Dallas sues Zahir Properties Inc. over conditions at Courthouse Apartments" }
+      ],
+      tags: ["fair housing", "reasonable accommodation", "assistance animal", "multifamily REIT", "municipal code enforcement", "Mid-America Apartment Communities", "Texas"]
+    },
+    {
+      id: "live-124",
+      addedDate: "2026-09-10",
+      title: "California Department of Toxic Substances Control v. Lyon (Modesto Groundwater Contamination Superfund Site)",
+      category: "environmental",
+      status: "settled",
+      date: "2026-07-15",
+      jurisdiction: "U.S. District Court, Eastern District of California",
+      state: "CA",
+      amount: "$2M consent-decree settlement",
+      source: "live",
+      sourceUrl: "https://dtsc.ca.gov/2026/07/15/dtsc-secures-2-million-settlement-for-cleanup-at-the-modesto-groundwater-contamination-superfund-site/",
+      summary: "California's Department of Toxic Substances Control secured a $2 million consent-decree settlement from Suzanne Lyon, Russell Tonda, and Diane Tonda -- the current owners of the commercial property at 941 McHenry Avenue in Modesto that housed Halford's Cleaners, a dry-cleaning business operating on the site from roughly 1948 until 2025. DTSC's federal suit alleged decades of discharges of tetrachloroethylene (PCE), a dry-cleaning solvent and known carcinogen, into the soil, contaminating groundwater and nearby sewer lines at the Modesto Groundwater Contamination site, on the EPA's National Priorities List since 1989.",
+      significance: "A reminder that CERCLA and its state-law analogues impose strict, largely defense-proof liability on a contaminated property's current owners for cleanup costs tied to a prior tenant's operations, regardless of whether the current owner caused or even knew about the original discharges. Any purchaser or lender considering a commercial property with a legacy dry-cleaning, industrial, or other solvent-using tenant should treat a Phase II environmental assessment and an innocent-landowner or bona fide prospective purchaser defense analysis as essential diligence, not a formality, given how long these liabilities can persist after the contaminating use itself has ended.",
+      body: [
+        "From approximately 1948 until 2025, Halford's Cleaners operated a dry-cleaning business at 941 McHenry Avenue in Modesto, California. Over that roughly 75-year span, the business allegedly discharged significant volumes of tetrachloroethylene -- commonly known as perchloroethylene, or PCE, a solvent widely used in dry cleaning and identified by the State of California as a carcinogen -- into the soil beneath and around the property. That contamination migrated into groundwater and nearby sewer lines, contributing to what is now known as the Modesto Groundwater Contamination site, added to the EPA's National Priorities List (the federal Superfund list) in March 1989 after PCE from the site was detected in a city water-supply well.",
+        "California's Department of Toxic Substances Control, which has overseen soil, groundwater, and air-quality cleanup efforts at the site for more than three decades, filed a federal cost-recovery suit against Suzanne Lyon, Russell Tonda, and Diane Tonda -- named in DTSC's complaint as the current owners of the dry-cleaner property -- seeking to recover the state's past and future cleanup costs. The case, DTSC v. Lyon et al., was filed in the U.S. District Court for the Eastern District of California on February 26, 2026.",
+        "The parties resolved the case through a consent decree under which the defendants agreed to pay $2 million toward the site's past and future cleanup costs, which DTSC announced on July 15, 2026. Because CERCLA imposes strict liability on a contaminated property's current owner for cleanup costs regardless of fault, the settlement did not turn on whether Lyon or the Tondas caused the contamination themselves -- only on their status as the property's owners of record.",
+        "For any commercial property owner, buyer, or lender, the case underscores how long legacy contamination liability from a single small commercial tenant -- here, a dry cleaner operating for decades before it closed -- can outlast the business itself and attach to whoever holds title when a regulator like DTSC or the EPA comes calling. Given the multi-decade timelines involved (this Superfund site was listed in 1989 and cleanup litigation is still ongoing 37 years later), diligence on any property with a documented history of solvent-using tenants -- dry cleaners, auto-repair shops, printers, and similar uses -- remains one of the highest-value steps a prospective purchaser or lender can take before closing."
+      ],
+      timeline: [
+        { when: "c. 1948-2025", label: "Halford's Cleaners operates a dry-cleaning business at 941 McHenry Avenue in Modesto" },
+        { when: "March 1989", label: "The Modesto Groundwater Contamination site is added to the EPA's National Priorities List" },
+        { when: "February 26, 2026", label: "DTSC sues the property's current owners in the U.S. District Court for the Eastern District of California (Case No. 2:26-cv-00603)" },
+        { when: "July 15, 2026", label: "DTSC announces a $2 million consent-decree settlement for past and future cleanup costs", current: true }
+      ],
+      tags: ["environmental", "CERCLA", "Superfund", "dry cleaner", "PCE contamination", "current-owner liability", "California"]
+    },
+    {
+      id: "live-125",
+      addedDate: "2026-09-10",
+      title: "The Mission LLC v. State of California and City of Santa Barbara",
+      category: "zoning-land-use",
+      status: "ruling",
+      date: "2026-06-02",
+      jurisdiction: "U.S. District Court, Central District of California",
+      judge: "Hernán D. Vera",
+      state: "CA",
+      amount: "N/A — dismissed with leave to amend by June 22, 2026",
+      source: "live",
+      sourceUrl: "https://www.independent.com/2026/06/10/federal-judge-dismisses-mission-llcs-lawsuit-against-state-city-of-santa-barbara/",
+      summary: "A federal judge dismissed -- with leave to amend -- a developer's constitutional challenge to SB 158, a California budget trailer bill the developer says was written to single out and force environmental review of its own builder's-remedy housing project on a roughly 5-acre parcel behind Santa Barbara's historic Old Mission. Judge Hernán D. Vera found The Mission LLC's claims against the State of California and the City of Santa Barbara unripe and insufficiently pleaded to overcome sovereign immunity, but noted the law raises 'serious constitutional questions' and gave the developer until June 22, 2026 to file an amended complaint.",
+      significance: "Illustrates the next front in California's builder's-remedy fights: rather than contesting a project on ordinary zoning or CEQA grounds, a legislature can respond to an unwanted builder's-remedy filing with narrowly tailored trailer-bill legislation targeting the specific project's population, parcel-size, and site characteristics -- and a developer's equal-protection and special-legislation challenge to that kind of bespoke statute faces real ripeness and sovereign-immunity hurdles even where a federal judge is openly skeptical of the law's constitutionality. Developers relying on the builder's remedy to bypass a noncompliant housing element should expect that a sufficiently high-profile or contested project may draw legislative countermeasures, not just administrative or judicial ones.",
+      body: [
+        "The Mission LLC proposed an eight-story, 270-unit apartment building -- with roughly 20% of units affordable to low-income households -- on a nearly 5-acre sloped parcel behind Santa Barbara's historic Old Mission, invoking California's builder's-remedy law to bypass the city's zoning where its housing element was found noncompliant. The site includes FEMA-identified floodway fringe areas, archaeological resources from the prehistoric and Mission eras, and proximity to the Mission's historic cemetery and a fault line, and the project has been contested locally since at least mid-2025.",
+        "In September 2025, the California Legislature passed, and the Governor signed, SB 158, a budget trailer bill requiring environmental review for builder's-remedy projects meeting a specific combination of criteria: location in a city with a population of 85,000 to 95,000, in a county with a population of 440,000 to 455,000, on a parcel of four or more acres, filed under the builder's remedy, sited on FEMA-identified floodways and Fish and Wildlife-identified wetlands, and adjacent to a state historic landmark. The Mission LLC's project appears to be the only project in California meeting every one of those parameters.",
+        "The Mission LLC sued the State of California and the City of Santa Barbara in the U.S. District Court for the Central District of California on October 24, 2025, alleging SB 158 violates the equal protection clauses of the U.S. and California constitutions, runs afoul of nondiscrimination law, and constitutes prohibited special legislation targeting a single project, and further arguing the law's application to environmental review already underway before SB 158 passed amounted to impermissible retroactivity. Judge Hernán D. Vera took the state and city's motions to dismiss under submission on March 5, 2026, and ruled on June 2, 2026, finding the case unripe because the project's application remained under review (so no concrete injury had yet occurred), that The Mission LLC had not satisfied the requirements for an exception to the state's sovereign immunity, and that the complaint was 'woefully short' on the specifics needed to show actual injury. Judge Vera nonetheless observed that SB 158 raises 'serious constitutional questions' without ruling on the law's ultimate validity, called the ripeness defects 'eminently curable,' and gave The Mission LLC until June 22, 2026 to file an amended complaint.",
+        "For developers using the builder's remedy to advance projects that draw significant local opposition, the case is an early data point on a legislative countermeasure distinct from the more familiar tools of a hostile planning commission or a CEQA lawsuit: a targeted trailer bill written to capture a specific contested project's own site characteristics. Even a court sympathetic to the constitutional concerns such a law raises may still dismiss a facial or as-applied challenge on ripeness and immunity grounds if the underlying land-use approval process has not yet run its course, meaning developers may need to let a project clear (or be formally denied at) the local level before a federal constitutional challenge to project-specific legislation is ripe for adjudication."
+      ],
+      timeline: [
+        { when: "September 2025", label: "The California Legislature passes SB 158 as a budget trailer bill; the Governor signs it" },
+        { when: "October 24, 2025", label: "The Mission LLC sues the State of California and City of Santa Barbara in federal court" },
+        { when: "March 5, 2026", label: "Judge Hernán D. Vera takes the defendants' motions to dismiss under submission" },
+        { when: "June 2, 2026", label: "Judge Vera dismisses the complaint as unripe and insufficiently pleaded, with leave to amend", current: true },
+        { when: "June 22, 2026", label: "Deadline for The Mission LLC to file an amended complaint", upcoming: true }
+      ],
+      tags: ["builder's remedy", "SB 158", "equal protection", "sovereign immunity", "ripeness", "housing element", "California"]
     }
   ],
 
@@ -3746,7 +3958,14 @@ const RELAW_DATA = {
     { jurisdiction: "Supreme Court of Indiana", url: "https://www.in.gov/courts/supreme/" },
     { jurisdiction: "Harris County District Court, Texas", url: "https://www.hcdistrictclerk.com/" },
     { jurisdiction: "Ninth Judicial Circuit Court, Osceola County, Florida", url: "https://ninthcircuit.org/" },
-    { jurisdiction: "Los Angeles County Superior Court", url: "https://www.lacourt.org/" }
+    { jurisdiction: "Los Angeles County Superior Court", url: "https://www.lacourt.org/" },
+    { jurisdiction: "Supreme Court of Texas", url: "https://www.txcourts.gov/supreme/" },
+    { jurisdiction: "Fourth Court of Appeals, San Antonio, Texas", url: "https://www.txcourts.gov/4thcoa/" },
+    { jurisdiction: "Fifth Court of Appeals, Dallas, Texas", url: "https://www.txcourts.gov/5thcoa/" },
+    { jurisdiction: "Fourteenth Court of Appeals, Houston, Texas", url: "https://www.txcourts.gov/14thcoa/" },
+    { jurisdiction: "Dallas County District Court, Texas", url: "https://www.dallascounty.org/government/district-clerk/" },
+    { jurisdiction: "U.S. District Court, Eastern District of California", url: "https://www.caed.uscourts.gov/" },
+    { jurisdiction: "U.S. District Court, Central District of California", url: "https://www.cacd.uscourts.gov/" }
   ],
 
   /* Judges — background on every judge named in our sourced reporting (never
@@ -3970,6 +4189,46 @@ const RELAW_DATA = {
       court: "U.S. District Court, Western District of Washington",
       background: "Nominated by President Jimmy Carter and confirmed to the federal bench in February 1980 after serving as a King County Superior Court judge, later serving as Chief Judge of the Western District of Washington from 1987 to 1994 and as Director of the Federal Judicial Center from 2003 to 2011. Assumed senior status and continues to hear cases in the Western District of Washington.",
       bioUrl: "https://www.fjc.gov/history/judges/rothstein-barbara-jacobs"
+    },
+    {
+      name: "Jane Bland",
+      slug: "jane-bland",
+      title: "Justice — authored the Court's majority opinion (Justice Hawkins dissenting)",
+      court: "Supreme Court of Texas",
+      background: "Justice on the Supreme Court of Texas since 2019, after 15 years as a justice on the First Court of Appeals and 6 years as a state district judge — 28 years on the state judiciary in total. Previously a partner at Vinson & Elkins LLP in Houston; received the William H. Rehnquist Award for judicial excellence in 2010. Board-certified in civil appellate law and civil trial law.",
+      bioUrl: "https://www.txcourts.gov/supreme/about-the-court/justices/justice-jane-bland/"
+    },
+    {
+      name: "H. Todd McCray",
+      slug: "h-todd-mccray",
+      title: "Justice — authored the panel's opinion",
+      court: "Fourth Court of Appeals, San Antonio, Texas",
+      background: "Justice on the Fourth Court of Appeals, Place 3, since January 2025. Practiced as a trial and appellate attorney in Texas for over three decades, including as an assistant county attorney in Grayson County and an assistant district attorney in Bexar County. Board Certified in Criminal Law by the Texas Board of Legal Specialization since 1997.",
+      bioUrl: "https://www.txcourts.gov/4thcoa/about-the-court/justices/justice-h-todd-mccray/"
+    },
+    {
+      name: "Emily Miskel",
+      slug: "emily-miskel",
+      title: "Justice — authored the panel's opinion",
+      court: "Fifth Court of Appeals, Dallas, Texas",
+      background: "Appointed to the Fifth Court of Appeals by Governor Greg Abbott in 2022, after serving as judge of the 470th District Court (a Collin County family court) from 2015. Recipient of the William H. Rehnquist Award for Judicial Excellence in 2020. Holds a Harvard Law degree and a Stanford engineering degree, and worked in the oil and gas industry before law school.",
+      bioUrl: "https://www.txcourts.gov/5thcoa/about-the-court/justices/justice-emily-miskel/"
+    },
+    {
+      name: "Kevin Jewell",
+      slug: "kevin-jewell",
+      title: "Justice — authored the panel's opinion",
+      court: "Fourteenth Court of Appeals, Houston, Texas",
+      background: "Elected to the Fourteenth Court of Appeals in November 2016 and took office in January 2017. Previously a litigation and appellate shareholder at Chamberlain, Hrdlicka, White, Williams & Aughtry in Houston, where he chaired the firm's appellate practice group. Board Certified in Civil Appellate Law since 1998.",
+      bioUrl: "https://www.txcourts.gov/14thcoa/about-the-court/justices/justice-kevin-jewell/"
+    },
+    {
+      name: "Hernán D. Vera",
+      slug: "hernan-d-vera",
+      title: "U.S. District Judge",
+      court: "U.S. District Court, Central District of California",
+      background: "Nominated by President Biden in January 2023 and confirmed to the federal bench in June 2023, after serving as a Los Angeles County Superior Court judge from 2020. Previously a principal at Bird Marella P.C. and, from 2002 to 2014, directing attorney and later President and CEO of the pro bono law firm Public Counsel.",
+      bioUrl: "https://www.fjc.gov/history/judges/vera-hern-n-diego"
     }
   ],
 
