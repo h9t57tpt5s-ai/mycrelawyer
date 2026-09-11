@@ -17,6 +17,13 @@
   const btn = document.getElementById("pl-download-btn");
   if (!btn) return;
 
+  // Shared dismissible toast (js/main.js) instead of a blocking alert() --
+  // falls back to alert() only if main.js somehow isn't loaded.
+  function notify(message, opts) {
+    if (window.RELAW_UTILS && window.RELAW_UTILS.showToast) window.RELAW_UTILS.showToast(message, opts);
+    else alert(message);
+  }
+
   function textOf(id) {
     const el = document.getElementById(id);
     return el ? el.textContent.trim() : "";
@@ -39,11 +46,11 @@
       return;
     }
     if (typeof window.jspdf === "undefined") {
-      alert("PDF generation isn't available right now — please try again in a moment.");
+      notify("PDF generation isn't available right now — please try again in a moment.", { error: true });
       return;
     }
     if (typeof CASE_VALUATION_DATA === "undefined" || !CASE_VALUATION_DATA.premisesLiabilityStateModifiers) {
-      alert("Handbook data isn't available right now — please reload and try again.");
+      notify("Handbook data isn't available right now — please reload and try again.", { error: true });
       return;
     }
     const MODS = CASE_VALUATION_DATA.premisesLiabilityStateModifiers;

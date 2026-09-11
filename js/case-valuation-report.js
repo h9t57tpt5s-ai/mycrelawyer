@@ -9,6 +9,13 @@
 window.CV_REPORT = (function () {
   "use strict";
 
+  // Shared dismissible toast (js/main.js) instead of a blocking alert() --
+  // falls back to alert() only if main.js somehow isn't loaded.
+  function notify(message, opts) {
+    if (window.RELAW_UTILS && window.RELAW_UTILS.showToast) window.RELAW_UTILS.showToast(message, opts);
+    else alert(message);
+  }
+
   function fmtMoney(n) { return n < 0 ? "-$" + Math.round(-n).toLocaleString("en-US") : "$" + Math.round(n).toLocaleString("en-US"); }
   function fmtMoneyRange(range) {
     if (!range) return "—";
@@ -18,7 +25,7 @@ window.CV_REPORT = (function () {
 
   function requestFullReport(evalResult, ctx) {
     if (!evalResult || !evalResult.claims || !evalResult.claims.length) {
-      alert("Estimate a matter first to generate a report.");
+      notify("Estimate a matter first to generate a report.", { error: true });
       return;
     }
     generatePdf(evalResult, ctx);
@@ -26,7 +33,7 @@ window.CV_REPORT = (function () {
 
   function generatePdf(evalResult, ctx) {
     if (typeof window.jspdf === "undefined") {
-      alert("PDF generation isn't available right now — please try again in a moment.");
+      notify("PDF generation isn't available right now — please try again in a moment.", { error: true });
       return;
     }
     const { jsPDF } = window.jspdf;

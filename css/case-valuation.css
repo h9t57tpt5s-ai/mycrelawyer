@@ -98,7 +98,7 @@
 .cv-field textarea { width: 100%; padding: 9px 12px; border-radius: 8px; border: 1px solid var(--border); background: var(--bg-elevated); color: var(--text-primary); font-size: 13.5px; font-family: inherit; resize: vertical; }
 
 .cv-ai-status { font-size: 12.5px; color: var(--text-muted); margin-top: 10px; min-height: 16px; display: flex; align-items: center; gap: 8px; }
-.cv-ai-status.is-error { color: var(--status-appeal, #d94949); font-weight: 600; }
+.cv-ai-status.is-error { color: var(--ui-danger); font-weight: 600; }
 
 /* ---- "Add More Information" follow-up + preserved history ---- */
 .cv-history-entry { border: 1px solid var(--border); border-radius: 10px; margin-bottom: 16px; background: var(--bg-elevated); overflow: hidden; }
@@ -129,10 +129,10 @@
    same card used for a calm loading/info/upsell state -- otherwise a real
    failure blends in and looks like nothing happened at all. */
 .gate-card.is-error {
-  border: 1px solid color-mix(in srgb, var(--status-appeal, #d94949) 45%, transparent);
-  background: color-mix(in srgb, var(--status-appeal, #d94949) 7%, var(--surface));
+  border: 1px solid color-mix(in srgb, var(--ui-danger) 45%, transparent);
+  background: color-mix(in srgb, var(--ui-danger) 7%, var(--surface));
 }
-.gate-card.is-error .eyebrow { color: var(--status-appeal, #d94949); }
+.gate-card.is-error .eyebrow { color: var(--ui-danger); }
 
 .cv-ai-facts { border-top: 1px solid var(--border-soft); padding-top: 10px; margin: 10px 0; }
 .cv-ai-facts .detail-tag { margin: 2px 4px 2px 0; }

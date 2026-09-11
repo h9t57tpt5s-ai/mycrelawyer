@@ -10,7 +10,7 @@
 .irp-state-select-row select {
   width: 100%;
   padding: 12px 14px;
-  border-radius: var(--radius, 10px);
+  border-radius: var(--radius-md);
   border: 1px solid var(--border);
   background: var(--bg-elevated);
   color: var(--text-primary);

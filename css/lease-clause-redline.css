@@ -20,7 +20,7 @@
 .lr-badge-neutral { color: var(--text-secondary); }
 .lr-badge-landlord { color: var(--status-filed); border-color: color-mix(in srgb, var(--status-filed) 40%, var(--border)); }
 .lr-badge-tenant { color: var(--status-ruling); border-color: color-mix(in srgb, var(--status-ruling) 40%, var(--border)); }
-.lr-badge-warn { color: var(--status-appeal, #d94949); border-color: color-mix(in srgb, var(--status-appeal, #d94949) 40%, var(--border)); }
+.lr-badge-warn { color: var(--ui-warning); border-color: color-mix(in srgb, var(--ui-warning) 40%, var(--border)); }
 
 .lr-term-reference { border-top: 1px solid var(--border-soft); margin-top: 12px; padding-top: 12px; display: grid; gap: 8px; }
 .lr-term-reference-row { display: grid; grid-template-columns: 120px 1fr; gap: 10px; font-size: 12px; line-height: 1.6; }

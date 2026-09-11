@@ -216,6 +216,37 @@
   }
   window.RELAW_UTILS.bylineHtml = typeof RELAW_DATA !== "undefined" ? bylineHtml : null;
 
+  /* Shared toast helper -- replaces the native alert() popups that were
+     still handling PDF/report-generation errors in case-valuation-report.js,
+     eviction-guide-report.js, and premises-liability-report.js. A blocking
+     OS-chrome dialog looked out of place next to this site's fully custom
+     gate-card/status-line error components everywhere else. One shared,
+     dismissible, auto-expiring toast instead, used from any page that
+     loads this file. */
+  function showToast(message, opts) {
+    opts = opts || {};
+    let host = document.getElementById("relaw-toast-host");
+    if (!host) {
+      host = document.createElement("div");
+      host.id = "relaw-toast-host";
+      host.className = "toast-host";
+      document.body.appendChild(host);
+    }
+    const toast = document.createElement("div");
+    toast.className = "toast" + (opts.error ? " is-error" : "");
+    toast.setAttribute("role", "status");
+    toast.textContent = message;
+    host.appendChild(toast);
+    requestAnimationFrame(() => toast.classList.add("in-view"));
+    const dismiss = () => {
+      toast.classList.remove("in-view");
+      setTimeout(() => toast.remove(), 250);
+    };
+    toast.addEventListener("click", dismiss);
+    setTimeout(dismiss, opts.duration || 5000);
+  }
+  window.RELAW_UTILS.showToast = showToast;
+
   /* Injects/updates a single JSON-LD block describing the currently open
      case's authorship, mirroring the visible byline above so the two never
      drift out of sync. Removed on close since it only describes whichever

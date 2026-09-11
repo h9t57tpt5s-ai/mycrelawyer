@@ -37,9 +37,29 @@
   /* Status */
   --status-filed: #0ea5e9;
   --status-pending: #f59e0b;
-  --status-ruling: #16a34a;
+  /* Was #16a34a -- identical to --cat-zoning below, so a "Zoning" category
+     badge and a "Ruling Issued" status pill rendered as the exact same
+     green. Shifted to a distinct emerald so the two facets (practice area
+     vs. procedural stage) can never collide. */
+  --status-ruling: #059669;
   --status-settled: #64748b;
   --status-appeal: #ea580c;
+
+  /* UI-semantic (generic success/error/warning feedback -- sign-in
+     status, form validation, toasts). Deliberately a SEPARATE namespace
+     from the --status-* litigation-taxonomy colors above: those two were
+     being silently cross-used via var(--status-x, #fallback) in several
+     places, which meant a successful sign-in rendered in muted "settled"
+     slate and a form error rendered in "appeal" orange -- the fallback
+     hex (the color actually intended) never fired because --status-settled
+     and --status-appeal are always defined. These values ARE those
+     original, correct fallbacks, just finally wired to their own tokens. */
+  --ui-success: #1a8a5f;
+  --ui-danger: #d94949;
+  --ui-warning: #b45309;
+  --ui-success-soft: color-mix(in srgb, var(--ui-success) 14%, transparent);
+  --ui-danger-soft: color-mix(in srgb, var(--ui-danger) 12%, transparent);
+  --ui-warning-soft: color-mix(in srgb, var(--ui-warning) 14%, transparent);
 
   /* Type */
   --font-display: "Fraunces", "Iowan Old Style", Georgia, serif;
@@ -51,6 +71,14 @@
   --radius-md: 10px;
   --radius-lg: 16px;
   --radius-full: 999px;
+  /* Buttons only -- deliberately NOT --radius-full. A full-pill radius was
+     previously used for every interactive control (buttons, chips, status
+     pills, avatars alike), which flattened all shape hierarchy into one
+     silhouette. Pill stays reserved for true tags/badges/chips; anything
+     you click to navigate or submit gets this smaller, more structural
+     radius instead -- also a better fit for the "blueprint/skyline" concept
+     this theme is going for than an all-pill UI. */
+  --radius-btn: 8px;
 
   --shadow-sm: 0 2px 8px rgba(15, 23, 42, 0.08);
   --shadow-md: 0 10px 28px rgba(15, 23, 42, 0.14);
@@ -169,27 +197,35 @@ h3, .h3 {
   align-items: center;
   gap: 10px;
   padding: 14px 26px;
-  border-radius: var(--radius-full);
+  border-radius: var(--radius-btn);
   font-size: 14.5px;
   font-weight: 600;
   letter-spacing: 0.01em;
   border: 1px solid transparent;
-  transition: transform 0.35s var(--ease), box-shadow 0.35s var(--ease), background 0.3s ease, border-color 0.3s ease;
+  transition: transform 0.35s var(--ease), box-shadow 0.35s var(--ease), background 0.3s ease, border-color 0.3s ease, opacity 0.2s ease;
   white-space: nowrap;
 }
 .btn-primary {
-  background: linear-gradient(135deg, var(--accent-bright), var(--accent));
+  background: var(--accent);
   color: #ffffff;
 }
-.btn-primary:hover { transform: translateY(-2px); box-shadow: var(--shadow-glow); }
+.btn-primary:hover { background: var(--accent-deep); box-shadow: var(--shadow-md); }
 .btn-ghost {
   background: transparent;
   border-color: var(--border);
   color: var(--text-primary);
 }
-.btn-ghost:hover { border-color: var(--accent); color: var(--accent); transform: translateY(-2px); }
+.btn-ghost:hover { border-color: var(--accent); color: var(--accent); }
 .btn-sm { padding: 10px 18px; font-size: 13px; }
 .btn svg { width: 16px; height: 16px; }
+.btn:disabled, .btn[disabled] {
+  opacity: 0.5;
+  cursor: not-allowed;
+  transform: none !important;
+  box-shadow: none !important;
+  background: var(--text-muted);
+}
+.btn-ghost:disabled, .btn-ghost[disabled] { background: transparent; border-color: var(--border); color: var(--text-muted); }
 
 /* ---------- Navbar ---------- */
 .nav {
@@ -271,7 +307,12 @@ h3, .h3 {
     padding-top: 0; width: 100%; flex-basis: 100%;
     max-height: 0; overflow: hidden; transition: max-height 0.35s ease;
   }
-  .nav-item.has-dropdown.open .nav-dropdown { max-height: 400px; }
+  /* Was 400px -- the largest submenu (8 items, some with long labels that
+     wrap to 2 lines at mobile widths) measured live at over 400px of real
+     content, so its own overflow:hidden silently clipped 3 of 8 links
+     with no way to reach them, independent of the outer panel's own
+     scroll fix above. Raised well past any realistic submenu height. */
+  .nav-item.has-dropdown.open .nav-dropdown { max-height: 900px; }
   .nav-dropdown > a {
     background: none; border: none; box-shadow: none; padding: 9px 4px 9px 18px;
     font-size: 15.5px; white-space: normal;
@@ -280,14 +321,28 @@ h3, .h3 {
 }
 
 @media (max-width: 1180px) {
-  .nav-links { position: fixed; top: 0; right: 0; height: 100vh; width: min(320px, 80vw);
+  /* BUG FIX: this panel used to center its content vertically with no
+     scroll container while page scroll is locked open (see js/main.js) --
+     verified live, opening the largest dropdown (8 items) pushed the last
+     3-4 links entirely off-screen with no way to reach them, and on
+     shorter viewports (iPhone SE) even "Home"/"Contact" could scroll out
+     of view in both directions. overflow-y:auto + flex-start (growing
+     downward from a fixed top, not centering and overflowing both edges)
+     + a dvh-based height cap fixes this without changing anything visual
+     when the content already fits. */
+  .nav-links { position: fixed; top: 0; right: 0; height: 100dvh; width: min(320px, 80vw);
     background: var(--bg-elevated); border-left: 1px solid var(--border); flex-direction: column;
-    justify-content: center; align-items: flex-start; gap: 28px; padding: 40px; transform: translateX(100%);
-    transition: transform 0.45s var(--ease); z-index: 99; }
+    justify-content: flex-start; align-items: flex-start; gap: 28px; padding: 88px 40px 40px; transform: translateX(100%);
+    transition: transform 0.45s var(--ease); z-index: 99;
+    overflow-y: auto; -webkit-overflow-scrolling: touch; }
   .nav-links.open { transform: translateX(0); }
   .nav-links a { font-size: 18px; }
-  .nav-toggle { display: flex; flex-direction: column; gap: 5px; width: 28px; z-index: 101; background: none; border: none; padding: 8px; }
-  .nav-toggle span { display: block; width: 100%; height: 1.5px; background: var(--text-primary); transition: transform 0.3s ease, opacity 0.3s ease; }
+  /* 28x31px measured live -- under both Apple HIG (44x44pt) and Material
+     Design (48x48dp) minimum tap targets, on the only control that opens
+     mobile navigation. Padding grows to reach 44x44 without growing the
+     visible three-bar icon itself. */
+  .nav-toggle { display: flex; flex-direction: column; gap: 5px; width: 44px; height: 44px; align-items: center; justify-content: center; z-index: 101; background: none; border: none; padding: 0; }
+  .nav-toggle span { display: block; width: 22px; height: 1.5px; background: var(--text-primary); transition: transform 0.3s ease, opacity 0.3s ease; }
   .nav-toggle.open span:nth-child(1) { transform: translateY(6.5px) rotate(45deg); }
   .nav-toggle.open span:nth-child(2) { opacity: 0; }
   .nav-toggle.open span:nth-child(3) { transform: translateY(-6.5px) rotate(-45deg); }
@@ -366,18 +421,20 @@ h3, .h3 {
    row of actions instead of a big button with two washed-out afterthoughts. ---------- */
 .hero-pill {
   display: inline-flex; align-items: center; gap: 10px;
-  padding: 14px 24px; border-radius: var(--radius-full);
+  padding: 14px 24px; border-radius: var(--radius-btn);
   font-size: 14px; font-weight: 600; letter-spacing: 0.01em;
   border: 1px solid transparent; white-space: nowrap;
-  transition: transform 0.35s var(--ease), box-shadow 0.35s var(--ease), border-color 0.3s ease, background 0.3s ease;
+  transition: transform 0.35s var(--ease), box-shadow 0.35s var(--ease), border-color 0.3s ease, background 0.3s ease, opacity 0.2s ease;
 }
 .hero-pill svg { width: 15px; height: 15px; flex-shrink: 0; }
-.hero-pill:hover { transform: translateY(-2px); }
 .hero-pill-primary {
-  background: linear-gradient(135deg, var(--accent-bright), var(--accent));
+  background: var(--accent);
   color: #ffffff;
 }
-.hero-pill-primary:hover { box-shadow: var(--shadow-glow); }
+.hero-pill-primary:hover { background: var(--accent-deep); box-shadow: var(--shadow-md); }
+.hero-pill:disabled, .hero-pill[disabled] {
+  opacity: 0.5; cursor: not-allowed; transform: none !important; box-shadow: none !important;
+}
 .hero-pill-live {
   background: color-mix(in srgb, var(--status-ruling) 14%, var(--bg-elevated) 86%);
   color: var(--status-ruling);
@@ -489,7 +546,7 @@ h3, .h3 {
 
 .badge-trending {
   background: color-mix(in srgb, var(--status-pending) 14%, transparent);
-  color: #b45309;
+  color: var(--ui-warning);
   border: 1px solid color-mix(in srgb, var(--status-pending) 45%, transparent);
 }
 
@@ -603,7 +660,7 @@ h3, .h3 {
   border-radius: var(--radius-full); padding: 11px 16px 11px 40px; font-size: 14px;
   color: var(--text-primary); transition: border-color 0.25s ease, background 0.25s ease;
 }
-.search-input:focus { outline: none; border-color: var(--accent); background: var(--surface-hover); }
+.search-input:focus { outline: none; border-color: var(--accent); background: var(--surface-hover); box-shadow: 0 0 0 3px var(--accent-wash); }
 .search-input::placeholder { color: var(--text-muted); }
 
 .select-wrap { position: relative; }
@@ -612,7 +669,7 @@ h3, .h3 {
   border-radius: var(--radius-full); padding: 11px 36px 11px 16px; font-size: 13.5px;
   color: var(--text-primary); cursor: pointer; transition: border-color 0.25s ease;
 }
-.select-input:focus { outline: none; border-color: var(--accent); }
+.select-input:focus { outline: none; border-color: var(--accent); box-shadow: 0 0 0 3px var(--accent-wash); }
 .select-wrap::after {
   content: ""; position: absolute; right: 14px; top: 50%; width: 8px; height: 8px;
   border-right: 1.5px solid var(--text-muted); border-bottom: 1.5px solid var(--text-muted);
@@ -737,6 +794,12 @@ h3, .h3 {
 }
 @media (prefers-reduced-motion: reduce) {
   .market-card img, .page-header-photo img, .hero-photo img, .cta-photo-card img { animation: none !important; }
+  .hero-glow, .hero-pill-dot, .ticker-track { animation: none !important; }
+  .reveal, .reveal-stagger > * {
+    transition: opacity 0.3s ease !important;
+    transform: none !important;
+  }
+  .card:hover, .market-card:hover, .state-pill:hover { transform: none !important; }
 }
 
 /* ---------- Decorative page-header graphic + photo backdrop ---------- */
@@ -983,10 +1046,10 @@ h3, .h3 {
   width: 100%; padding: 11px 14px; border-radius: var(--radius-md); border: 1px solid var(--border);
   background: var(--surface); color: var(--text-primary); font-size: 14px; font-family: var(--font-body);
 }
-.auth-modal .auth-modal-input:focus { outline: none; border-color: var(--accent); }
+.auth-modal .auth-modal-input:focus { outline: none; border-color: var(--accent); box-shadow: 0 0 0 3px var(--accent-wash); }
 .auth-modal-status { margin-top: 12px; font-size: 13px; line-height: 1.5; color: var(--text-muted); min-height: 1em; }
-.auth-modal-status.is-success { color: var(--status-settled, #1a8a5f); }
-.auth-modal-status.is-error { color: var(--status-appeal, #d94949); }
+.auth-modal-status.is-success { color: var(--ui-success); }
+.auth-modal-status.is-error { color: var(--ui-danger); }
 
 .auth-modal-tabs { display: flex; gap: 4px; background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius-full); padding: 3px; margin-bottom: 4px; }
 .auth-modal-tab {
@@ -1050,6 +1113,22 @@ h3, .h3 {
   color: var(--status-pending); background: color-mix(in srgb, var(--status-pending) 14%, transparent);
   padding: 2px 7px; border-radius: var(--radius-full);
 }
+
+/* ---------- Toast (window.RELAW_UTILS.showToast, js/main.js) ---------- */
+.toast-host {
+  position: fixed; bottom: 24px; right: 24px; z-index: 400;
+  display: flex; flex-direction: column; gap: 10px;
+  max-width: min(360px, calc(100vw - 32px));
+}
+.toast {
+  background: var(--bg-elevated); border: 1px solid var(--border); border-left: 3px solid var(--accent);
+  border-radius: var(--radius-md); box-shadow: var(--shadow-lg);
+  padding: 14px 18px; font-size: 13.5px; line-height: 1.5; color: var(--text-primary);
+  cursor: pointer; opacity: 0; transform: translateY(8px);
+  transition: opacity 0.25s ease, transform 0.25s ease;
+}
+.toast.in-view { opacity: 1; transform: translateY(0); }
+.toast.is-error { border-left-color: var(--ui-danger); }
 
 /* ---------- Empty state ---------- */
 .empty-state { text-align: center; padding: 80px 20px; color: var(--text-muted); }
@@ -1199,7 +1278,7 @@ h3, .h3 {
   width: 100%; background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius-sm);
   padding: 13px 16px; font-size: 14.5px; color: var(--text-primary); transition: border-color 0.25s ease;
 }
-.form-field input:focus, .form-field textarea:focus, .form-field select:focus { outline: none; border-color: var(--accent); }
+.form-field input:focus, .form-field textarea:focus, .form-field select:focus { outline: none; border-color: var(--accent); box-shadow: 0 0 0 3px var(--accent-wash); }
 .form-field textarea { resize: vertical; min-height: 120px; }
 
 .contact-info-item { display: flex; gap: 16px; padding: 20px 0; border-top: 1px solid var(--border-soft); }

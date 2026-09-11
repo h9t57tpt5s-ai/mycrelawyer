@@ -20,6 +20,13 @@
   const sb = window.RELAW_SUPABASE;
   const originalLabel = btn.innerHTML;
 
+  // Shared dismissible toast (js/main.js) instead of a blocking alert() --
+  // falls back to alert() only if main.js somehow isn't loaded.
+  function notify(message, opts) {
+    if (window.RELAW_UTILS && window.RELAW_UTILS.showToast) window.RELAW_UTILS.showToast(message, opts);
+    else alert(message);
+  }
+
   function setBusy(label) {
     btn.disabled = true;
     btn.innerHTML = label;
@@ -35,11 +42,11 @@
       return;
     }
     if (typeof window.jspdf === "undefined") {
-      alert("PDF generation isn't available right now — please try again in a moment.");
+      notify("PDF generation isn't available right now — please try again in a moment.", { error: true });
       return;
     }
     if (!sb) {
-      alert("Couldn't reach the database — please reload and try again.");
+      notify("Couldn't reach the database — please reload and try again.", { error: true });
       return;
     }
 
@@ -51,7 +58,7 @@
       rows = data || [];
     } catch (err) {
       resetButton();
-      alert("Couldn't load the full handbook right now — please try again in a moment.");
+      notify("Couldn't load the full handbook right now — please try again in a moment.", { error: true });
       return;
     }
     const bySlug = {};
