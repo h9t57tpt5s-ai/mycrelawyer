@@ -401,13 +401,20 @@
   // or an old history block inside a new history entry.
   let lastFreshFragmentHtml = "";
 
-  function renderAiResult(json, emptyFiles, followupContext) {
+  function renderAiResult(json, emptyFiles, followupContext, truncationNote) {
     if (lastFreshFragmentHtml) resultHistory.push(lastFreshFragmentHtml);
     const a = json.analysis || {};
     const facts = json.extractedFacts || {};
     const baseline = a.baseline || {};
     const emptyFilesHtml = (emptyFiles && emptyFiles.length)
       ? `<div class="gate-card is-error" style="margin-bottom:16px;"><div class="eyebrow" style="margin-bottom:6px;">Heads Up</div><p class="text-secondary" style="font-size:13px; line-height:1.6;">No text could be read from <strong>${emptyFiles.join(", ")}</strong> — this is almost always a scanned or image-only PDF with no selectable text layer, so it was skipped. The analysis below only reflects your other document(s). Try a text-based copy of ${emptyFiles.length === 1 ? "that file" : "those files"} if you have one, or paste its text directly.</p></div>`
+      : "";
+    // Unlike the transient "Analyzing…" wait-message note, this stays
+    // visible in the actual result -- a truncation that happened during a
+    // 30-90s wait is easy to never see otherwise. See where truncationNote
+    // is built (both call sites) for exactly what it covers.
+    const truncationNoteHtml = truncationNote
+      ? `<div class="gate-card is-error" style="margin-bottom:16px;"><div class="eyebrow" style="margin-bottom:6px;">Heads Up — Part of Your Document Wasn't Read</div><p class="text-secondary" style="font-size:13px; line-height:1.6;">${truncationNote}</p></div>`
       : "";
     // The backend deliberately returns damagesRange: null (never an
     // invented "typical case" number) when nothing you gave it actually
@@ -457,6 +464,7 @@
 
     const freshFragmentHtml = `
       ${emptyFilesHtml}
+      ${truncationNoteHtml}
       ${missingInfoHtml}
       <div class="cv-summary card">
         <div class="eyebrow" style="margin-bottom:8px;">AI Analysis — Probability-Weighted Prediction${a.roleLabel ? ` — ${a.roleLabel} view` : ""}</div>
@@ -654,11 +662,19 @@
         const header = "\n\n=== Additional Information (added after the initial analysis) ===\n";
         const roomForPrior = MAX_DOC_CHARS - priorFactsSummary.length - header.length - newInfoText.length;
         let combinedText;
+        // Persisted warning for this combine step, same reasoning as the
+        // initial-upload path above -- stays visible in the result itself,
+        // not just the wait spinner.
+        let truncationNote = null;
         if (roomForPrior < 0) {
           combinedText = (priorFactsSummary + newInfoText).slice(0, MAX_DOC_CHARS);
+          truncationNote = `The newly added material was long enough on its own that none of the original document's raw text fit within this tool's ${MAX_DOC_CHARS.toLocaleString()}-character analysis limit. The facts already confirmed from the original document were still carried forward (see the facts list below), but its raw text was not re-read this round.`;
         } else {
           const trimmedPrior = priorDocumentText.length > roomForPrior ? priorDocumentText.slice(0, roomForPrior) : priorDocumentText;
           combinedText = priorFactsSummary + trimmedPrior + header + newInfoText;
+          if (priorDocumentText.length > roomForPrior) {
+            truncationNote = `The combined document text exceeded this tool's ${MAX_DOC_CHARS.toLocaleString()}-character analysis limit, so only part of the original document's raw text was re-read this round (the facts already confirmed from it were still carried forward in full — see the facts list below). The newly added material was kept in full.`;
+          }
         }
 
         const { data: { session } } = await sb.auth.getSession();
@@ -700,7 +716,7 @@
 
         if (resp.ok && json && json.analysis) {
           setFollowupStatus("");
-          renderAiResult(json, emptyFiles, { documentText: combinedText, userSide: priorUserSide, description: priorDescription });
+          renderAiResult(json, emptyFiles, { documentText: combinedText, userSide: priorUserSide, description: priorDescription }, truncationNote);
           resultsHost.scrollIntoView({ behavior: "smooth", block: "start" });
           return;
         }
@@ -859,10 +875,20 @@
           );
         }
         const emptyNote = emptyFiles.length ? ` (no text found in ${emptyFiles.join(", ")}, likely scanned/image-only — continuing with the rest)` : "";
-        const truncNote = documentText.length > MAX_DOC_CHARS
+        const wasTruncated = documentText.length > MAX_DOC_CHARS;
+        const truncNote = wasTruncated
           ? `Combined document text truncated to the first ${MAX_DOC_CHARS.toLocaleString()} characters for analysis.${emptyNote}`
           : emptyNote ? `Analyzing.${emptyNote}` : "";
-        if (documentText.length > MAX_DOC_CHARS) documentText = documentText.slice(0, MAX_DOC_CHARS);
+        // Persisted version of the same warning -- the wait-message note
+        // above (truncNote/notePrefix below) only shows while the spinner
+        // is up and disappears the moment the result renders, so a user
+        // who doesn't read it during the 30-90s wait would have no way of
+        // knowing part of their document was never sent at all. Passed
+        // through to renderAiResult so it stays visible in the result itself.
+        const truncationNote = wasTruncated
+          ? `Your uploaded document(s) totaled more than this tool's ${MAX_DOC_CHARS.toLocaleString()}-character analysis limit, so only the first ${MAX_DOC_CHARS.toLocaleString()} characters were actually read — anything after that point in the combined text was not analyzed. If a fact that matters (a dollar figure, a date, a defense) falls later in a long document, add it directly in the case description box above, or use "Add More Information" below to add it as its own shorter entry.`
+          : null;
+        if (wasTruncated) documentText = documentText.slice(0, MAX_DOC_CHARS);
 
         const { data: { session } } = await sb.auth.getSession();
         if (!session) throw new Error("Your session expired — sign in again and retry.");
@@ -921,7 +947,7 @@
         // analysis back," not resp.ok alone.
         if (resp.ok && json && json.analysis) {
           setStatus("");
-          renderAiResult(json, emptyFiles, { documentText, userSide: cvUserSide || null, description });
+          renderAiResult(json, emptyFiles, { documentText, userSide: cvUserSide || null, description }, truncationNote);
           resultsHost.scrollIntoView({ behavior: "smooth", block: "start" });
           return;
         }
