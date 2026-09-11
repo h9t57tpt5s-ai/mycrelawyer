@@ -3619,6 +3619,37 @@ const RELAW_DATA = {
         { when: "July 21, 2026", label: "ACDA sues Hughes Family LLC and Anchorage Innovation District LLC in Alaska Superior Court, seeking a court-ordered sale of all five lots", current: true }
       ],
       tags: ["partition action", "redevelopment authority", "co-ownership dispute", "downtown revitalization", "Alaska"]
+    },
+    {
+      id: "live-128",
+      addedDate: "2026-09-11",
+      title: "Hern v. Alexandria Real Estate Equities, Inc. (Life-Science REIT Impairment-Disclosure Securities Suit Dismissed)",
+      category: "reit-securities",
+      status: "ruling",
+      date: "2026-09-11",
+      jurisdiction: "U.S. District Court, Central District of California",
+      state: "CA",
+      amount: "$2.2B in disputed property impairments; ~19% single-day stock decline",
+      source: "live",
+      sourceUrl: "https://www.law360.com/real-estate-authority/commercial/articles/2524252",
+      summary: "U.S. District Judge George H. Wu dismissed a proposed securities class action against Alexandria Real Estate Equities, Inc., finding investors failed to adequately allege that the life-science REIT's executives knowingly misled the market about property impairments before an October 27, 2025 guidance cut that included a $323.9M impairment charge and warnings of up to $685M more to come. Alexandria's stock fell roughly 19% in one day on the disclosure; the court held the complaint did not meet the Private Securities Litigation Reform Act's heightened pleading standard for scienter.",
+      significance: "Gives REITs facing securities suits tied to sector-wide impairment waves, particularly in oversupplied life-science and office space, a concrete precedent that a large stock drop following disappointing guidance is not by itself enough to plead fraudulent intent. Boards and IR teams overseeing portfolios exposed to similar demand shocks should ensure internal valuation and leasing materials stay consistent with public messaging well before any guidance cut becomes necessary.",
+      body: [
+        "A federal judge in the Central District of California has dismissed a proposed securities class action against Alexandria Real Estate Equities, Inc., the NYSE-listed life-science and lab-space REIT, rejecting investor claims that the company's executives misled the market about the scale of property impairments building inside its portfolio before a sharp October 2025 stock decline. The case, captioned Hern v. Alexandria Real Estate Equities, Inc., et al., was assigned to U.S. District Judge George H. Wu, who found that the complaint did not adequately allege that Alexandria or its officers acted with the intent to deceive required to sustain a claim under Section 10(b) of the Securities Exchange Act of 1934. For REIT boards and executives navigating a commercial real estate downturn marked by recurring impairment charges, the ruling is a reminder that a large stock drop tied to disappointing guidance is not, by itself, enough to get a securities fraud claim past the pleading stage.",
+        "The lawsuit, filed on behalf of investors who bought or otherwise acquired Alexandria shares between January 27, 2025 and October 27, 2025, centered on the company's third-quarter 2025 earnings release. Alexandria disclosed results that fell well short of what it had projected earlier in the year, cutting its full-year funds-from-operations guidance and citing lower occupancy and slower leasing activity across its life-science and lab-space portfolio. The company also recorded a real estate impairment charge of $323.9 million for the quarter, with roughly $206 million of that tied to a single asset in Long Island City, New York, and warned investors it could recognize an additional $0 to $685 million in impairments in the fourth quarter. Alexandria's stock fell from a closing price of $77.87 on October 27 to $62.94 the next day, a one-day decline of approximately 19 percent that wiped out a significant share of the company's market value and prompted a wave of plaintiffs' firm investigations within days.",
+        "Lead plaintiff Warren Hern's complaint alleged that Alexandria and certain of its senior executives had, throughout the roughly nine-month class period, repeatedly touted solid leasing volume, occupancy stability, and a healthy tenant pipeline even as internal signs pointed toward the much larger wave of impairments, described in briefing as totaling approximately $2.2 billion once the disclosed and anticipated charges were considered together, that ultimately materialized. The theory was a familiar one in post-pandemic office and lab-space securities litigation: that a landlord's public statements about portfolio health diverged materially from what management knew, or should have known, about softening demand and declining asset values in a sector working through excess supply.",
+        "In granting the motion to dismiss, the court concluded that the complaint fell short of the Private Securities Litigation Reform Act's demanding pleading standard, which requires plaintiffs to plead specific facts giving rise to a strong inference that a defendant acted with scienter, not simply that its later, more negative disclosures beat its earlier public optimism. Life-science real estate has been especially exposed to a slower-than-expected recovery in biotech venture funding and a resulting glut of speculative lab space delivered during the post-COVID building boom, conditions that have pressured occupancy and valuations across Alexandria's peer set as well as its own portfolio. Courts evaluating securities claims arising from that broader downturn have generally required plaintiffs to show something more concrete than hindsight, such as internal reports or admissions that contradicted public statements at the time they were made, rather than treating a subsequent guidance cut as proof that earlier optimism was knowingly false.",
+        "The dismissal is a meaningful, if not necessarily final, win for Alexandria, which remains one of the largest owners of life-science lab space in markets including Boston-Cambridge, San Francisco, and San Diego. The company continues to face separate securities suits and shareholder demand letters tied to the same impairment disclosures, and plaintiffs in dismissed federal securities cases are frequently granted leave to amend and refile a more detailed complaint rather than seeing their claims extinguished outright.",
+        "For REIT general counsel and investor relations teams, the practical lesson is that hedged, forward-looking language about leasing and occupancy trends, paired with contemporaneous risk disclosures about sector-wide headwinds, remains meaningfully more defensible than statements that read, in hindsight, as flatly inconsistent with what turned out to be true. Boards overseeing portfolios exposed to sector-specific demand shocks, whether life-science lab space or traditional office, should expect that a large impairment charge and accompanying stock decline will draw securities litigation as a matter of course, and should keep internal materials, including board minutes, leasing forecasts, and asset-level valuation memos, consistent with public messaging well before any guidance cut becomes necessary. And because dismissals under the PSLRA's heightened pleading standard are frequently granted with leave to amend, companies that clear this initial hurdle should not assume the litigation is over, and should continue preserving records relevant to the disclosures at issue while any amended complaint remains possible."
+      ],
+      timeline: [
+        { when: "January 27, 2025", label: "Start of the securities class period" },
+        { when: "October 27, 2025", label: "Alexandria discloses Q3 2025 results, cuts FFO guidance, and reports a $323.9M impairment charge" },
+        { when: "November 25, 2025", label: "Warren Hern files the securities class action in the Central District of California" },
+        { when: "September 11, 2026", label: "Judge George H. Wu grants the motion to dismiss, finding scienter inadequately pled", current: true }
+      ],
+      judge: "George H. Wu",
+      tags: ["reit", "securities fraud", "life science", "lab space", "impairment", "california"]
     }
   ],
 
@@ -4040,6 +4071,14 @@ const RELAW_DATA = {
       court: "U.S. District Court, District of New Jersey",
       background: "Appointed by President Obama in 2012 after serving as a U.S. Magistrate Judge for the District of New Jersey since 2007. Previously an assistant attorney general for New Jersey.",
       bioUrl: "https://www.fjc.gov/history/judges/shipp-michael-andre"
+    },
+    {
+      name: "George H. Wu",
+      slug: "george-h-wu",
+      title: "U.S. District Judge",
+      court: "U.S. District Court, Central District of California",
+      background: "Nominated by President George W. Bush in January 2007 and confirmed by the Senate that March, filling a seat vacated by Judge Ronald S.W. Lew. Previously in private practice in Los Angeles and an assistant professor of law at the University of Tennessee College of Law. Assumed senior status in November 2023.",
+      bioUrl: "https://www.fjc.gov/history/judges/wu-george-h"
     },
     {
       name: "Stuart Rabner",
