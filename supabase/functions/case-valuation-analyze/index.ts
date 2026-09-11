@@ -174,6 +174,12 @@ type CaseData = {
     citation?: string;
     note?: string;
   }>;
+  constructionIndemnityStateModifiers?: Record<string, {
+    indemnityForm?: "broad" | "broad-capped" | "intermediate" | "limited";
+    citation?: string;
+    confidence?: string;
+    note?: string;
+  }>;
 };
 
 let cachedCaseData: CaseData | null = null;
@@ -525,11 +531,26 @@ function evalReitSecurities(f: Facts, cit: CaseData["citations"]): Claim[] {
       num(f, "estimatedInvestorLosses") * pctRange[0], num(f, "estimatedInvestorLosses") * pctRange[1],
       tier ? "Criminal conduct / auditor / controlling-shareholder self-dealing present -- settlements run an order of magnitude higher than a clean case." : "Clean stock-drop fact pattern -- typical range is 3-8% of estimated investor losses."));
   }
+  // Real, on-point pair from the same underlying facts: RTL/AR Global's
+  // $375M internalization payment bundled into the Global Net Lease merger
+  // supported a plain fiduciary-duty claim that settled for $3.25M cash
+  // (Meyer v. Weil), but a companion suit challenging the SAME self-dealing
+  // through a merger-objection theory was dismissed on the merits under
+  // Maryland's business-judgment-rule presumption (The Necessity Retail
+  // REIT, Inc. Shareholder Litigation v. AR Global Investments, LLC) --
+  // most REITs are Maryland (or similarly business-judgment-rule-
+  // deferential) entities, so this real split is a genuine, current
+  // doctrinal signal for any controlling-insider self-dealing payment
+  // structured as part of a merger, not just an outlier.
+  const controllingInsiderMergerSelfDealing = bool(f, "controllingInsiderSelfDealingInMerger");
   if (bool(f, "boardBreachAlleged")) {
     const specific = bool(f, "tiedToConcreteSelfDealingTransaction");
     const p: [number, number] = specific ? [0.55, 0.80] : [0.05, 0.15];
-    out.push(R("breach_fiduciary_duty_derivative", "Breach of Fiduciary Duty (Derivative)", p, null, null,
-      specific ? "Tied to a concrete, quantifiable self-dealing transaction -- real recoveries in this pattern ran $15M-$90M." : "Generic governance complaint with no specific self-dealing transaction -- real cases in this pattern settled for governance changes only, with no disclosed cash recovery."));
+    let note = specific ? "Tied to a concrete, quantifiable self-dealing transaction -- real recoveries in this pattern ran $15M-$90M." : "Generic governance complaint with no specific self-dealing transaction -- real cases in this pattern settled for governance changes only, with no disclosed cash recovery.";
+    if (specific && controllingInsiderMergerSelfDealing) {
+      note += " Where that self-dealing transaction is bundled into a merger (an internalization fee paid to the sponsor/manager as part of the deal), a straight fiduciary-duty theory has proven the more viable vehicle for a real cash recovery than a merger-objection theory over the same conduct: Meyer v. Weil, et al. (The Necessity Retail REIT, Inc. / AR Global Shareholder Litigation) settled for $3.25M cash on this theory even though a companion merger-objection suit over the identical $375M internalization payment was dismissed on the merits (see merger_objection_suit).";
+    }
+    out.push(R("breach_fiduciary_duty_derivative", "Breach of Fiduciary Duty (Derivative)", p, null, null, note));
   }
   if (bool(f, "proxyOmissionAlleged")) {
     const specific = bool(f, "specificInsiderStakeAlleged");
@@ -538,10 +559,100 @@ function evalReitSecurities(f: Facts, cit: CaseData["citations"]): Claim[] {
       specific ? "A specific, quantifiable undisclosed insider stake was alleged -- this pattern survived dismissal and drew real cash settlements in the research sample." : "Only a generic, already-disclosed industry risk is alleged -- this pattern was dismissed for lack of materiality in the research sample."));
   }
   if (bool(f, "mergerObjection")) {
-    out.push(R("merger_objection_suit", "Merger Objection Suit", [0.10, 0.25], 75000, 500000,
-      "Real recovery is rare; when a settlement happens it's typically a 'mootness fee' to plaintiff's counsel, not a per-share shareholder payout."));
+    let p: [number, number] = [0.10, 0.25];
+    let extraNote = "";
+    if (controllingInsiderMergerSelfDealing) {
+      p = [0.05, 0.15];
+      extraNote = " Even a large, specifically-quantified controlling-insider self-dealing figure bundled into a merger doesn't reliably overcome business-judgment-rule deference on a merger-objection theory specifically: The Necessity Retail REIT, Inc. Shareholder Litigation v. AR Global Investments, LLC was dismissed on the merits under Maryland's business-judgment-rule presumption despite a $375M (18% of combined-entity value) alleged self-dealing payment -- a plain fiduciary-duty theory over the same conduct is the more likely path to a real recovery (see breach_fiduciary_duty_derivative) rather than this claim type.";
+    }
+    out.push(R("merger_objection_suit", "Merger Objection Suit", p, 75000, 500000,
+      `Real recovery is rare; when a settlement happens it's typically a 'mootness fee' to plaintiff's counsel, not a per-share shareholder payout.${extraNote}`));
   }
   return out;
+}
+
+// Applies this project's state's real construction anti-indemnity statute
+// (merged from js/case-valuation-data.js's 51-jurisdiction
+// constructionIndemnityStateModifiers table into flattened
+// `constructionIndemnity*` facts by the request handler, same pattern as
+// the other state-law merges in this file) to the indemnification/
+// contribution allocation range, instead of that claim using a flat
+// 10%-88% multiplier regardless of state law or how the defect's
+// responsibility is actually distributed. Also folds in the real
+// allocation-pattern evidence (a single-subcontractor-traced defect vs. a
+// diffuse multi-party one) and the insurer-subrogation risk from Seneca v.
+// Jade Beach -- none of which evalConstructionDefect() referenced before
+// this fix, despite all of it already sitting in the citation data.
+function computeConstructionIndemnityAdjustment(f: Facts): { low: number; high: number; note: string } {
+  const state = str(f, "state");
+  const form = str(f, "constructionIndemnityForm");
+  const citation = str(f, "constructionIndemnityCitation");
+  const ownNegligenceClause = bool(f, "indemnityClauseCoversIndemniteesOwnNegligence");
+  const notes: string[] = [];
+
+  // Base range: the file's original flat 10%-88% of repair cost, before any
+  // allocation-pattern or state-law adjustment.
+  let low = 0.10, high = 0.88;
+
+  if (bool(f, "defectTracedToSingleSubcontractor")) {
+    low = 0.70; high = 0.90;
+    notes.push("Defect traced to a single subcontractor's workmanship -- real allocation data (Kellner v. Advance Cast Stone Co., the Milwaukee Parking Structure Panel Collapse) shows an 88%/10%/2% subcontractor/GC/owner split in this fact pattern, pushing the allocated share toward that subcontractor's high end rather than a diffuse multi-party split.");
+  } else if (f.defectTracedToSingleSubcontractor === false) {
+    notes.push("Defect responsibility is shared across the GC and multiple trades rather than traced to one subcontractor -- allocation tends to run lower and more diffuse than the single-subcontractor pattern; e.g. a design professional co-defendant alongside a developer/GC took only ~10% of the total in one real allocation, since professional E&O coverage limits are typically much smaller than a GC's CGL policy.");
+  }
+
+  if (ownNegligenceClause) {
+    if (!state || !form) {
+      notes.push("This indemnity clause purports to reach the indemnitee's own negligence, but this project's state hasn't been separately researched for its anti-indemnity statute here -- whether that portion of the clause is even enforceable is a real open question not reflected in the range above.");
+    } else if (form === "limited") {
+      high = Math.min(high, 0.30);
+      notes.push(`${state}'s anti-indemnity statute is one of the strictest ("limited" form)${citation ? ` (${citation})` : ""} -- it voids indemnification for essentially ANY of the indemnitee's own negligence, not just sole negligence, so a clause reaching the indemnitee's own fault is largely unenforceable here; the indemnitor's real exposure is capped near its own proportionate fault share, well below what a broad clause would otherwise support.`);
+    } else if (form === "intermediate") {
+      notes.push(`${state} voids indemnification only for the indemnitee's SOLE negligence ("intermediate" form)${citation ? ` (${citation})` : ""} -- concurrent-negligence indemnity (the indemnitee bears some fault too, but not all of it) generally survives, so this clause likely remains enforceable unless the claim is that the indemnitee was SOLELY at fault, in which case the low end of this range is the more realistic outcome.`);
+    } else if (form === "broad-capped") {
+      notes.push(`${state} allows indemnification for the indemnitee's own acts "in whole or in part" but only up to a statutory monetary cap ("broad-capped" form)${citation ? ` (${citation})` : ""} -- confirm the actual cap amount against the repair-cost estimate, since it can bind below the modeled high end.`);
+    } else {
+      notes.push(`${state} has no general construction anti-indemnity statute confirmed ("broad" form)${citation ? ` (${citation})` : ""} -- broad-form indemnity, even for the indemnitee's sole negligence, can generally be enforced here if clearly drafted, though courts strictly construe such language.`);
+    }
+    if (form === "limited" || form === "intermediate") {
+      notes.push("An overbroad clause doesn't always fail entirely, and the REMEDY varies by state: Virginia voids an overbroad indemnity clause outright and refuses to \"blue-pencil\" it into an enforceable one, even where the clause itself invokes \"the fullest extent permitted by law\" (Fortune-Johnson, Inc. v. QFS, LLC; Uniwest Constr., Inc. v. Amtech Elevator Servs., Inc.), while North Carolina instead blue-pencils the offending language down to what the statute allows and evaluates the claim under the narrowed clause (In re New Bern Riverfront Development, LLC) -- confirm which approach this state takes before assuming an overbroad clause is either fully dead or fully rescued.");
+    }
+  } else if (ownNegligenceClause === false) {
+    notes.push("This indemnity clause is not alleged to reach the indemnitee's own negligence -- most state anti-indemnity statutes target only that scenario, so this clause likely isn't at risk of being narrowed or voided on that ground; it can still fail on other grounds, such as the underlying claim not \"arising out of\" the indemnitor's own work (Dibrino v. Rockefeller Center North, Inc.).");
+  }
+
+  if (bool(f, "ownerSettledWithContractorsAfterInsurerPayout")) {
+    notes.push("A separate risk flagged by real precedent: where a property/liability insurer has already paid the owner/association for the defect and the owner then settles with and releases the contractors, that release can impair the CARRIER's own subrogation/contribution rights and expose the owner to a second, independent breach-of-contract claim from its own insurer (Seneca Specialty Insurance Co. v. Jade Beach Condominium Association, Inc.) -- coordinate any settlement with a carrier that has already paid out before releasing the contractors.");
+  }
+
+  return { low, high, note: notes.join(" ") };
+}
+
+// Real, current CGL duty-to-defend/indemnify case law shows two of the
+// most consequential facts in a construction-defect coverage dispute are
+// (1) whether the defect traces to a subcontractor's work vs. the GC's own
+// direct work, and (2) whether the claimed damage extends beyond the
+// defect itself to other, non-defective property -- neither of which
+// insurerDeniedCoverage alone could distinguish before this fix.
+function computeCglCoverageAdjustment(f: Facts): { prob: [number, number]; note: string } {
+  let prob: [number, number] = [0.45, 0.65];
+  const notes: string[] = [];
+  const subWork = f.defectCausedBySubcontractorWork;
+  if (subWork === true) {
+    prob = [0.55, 0.75];
+    notes.push("Defect traced to a SUBCONTRACTOR's work, not the general contractor's own direct work -- courts increasingly hold that negligent subcontractor work causing project damage IS \"property damage\" caused by an \"occurrence\" under a standard CGL policy, favoring a duty to defend (Acuity, a Mutual Ins. Co. v. M/I Homes of Chicago, LLC, 2023 IL 129087, expressly overruling prior precedent that treated construction-defect claims as categorically uninsurable business risk; Cornice & Rose International, LLC v. Acuity, 2024 WL 4880102 (7th Cir. 2024), duty to defend owed to an architecture firm).");
+  } else if (subWork === false) {
+    prob = [0.30, 0.50];
+    notes.push("Defect alleged against the general contractor's OWN direct work, with no subcontractor involved -- this is the fact pattern where insurers most often prevail on a no-duty-to-defend theory (Admiral Insurance Co. v. Tocci Building Corp., 122 F.4th 1 (1st Cir. 2024)).");
+  } else {
+    notes.push("Whether the defect is traced to a subcontractor's work (favors coverage) or the GC's own direct work (favors the insurer) is one of the most consequential facts in a CGL coverage dispute -- not specified here.");
+  }
+  if (bool(f, "damageExtendsBeyondDefectItself")) {
+    notes.push("Claimed damages extend beyond the cost of fixing the defect itself to OTHER, non-defective work or property -- courts that otherwise treat the cost to fix the defect itself as uncovered business risk still treat resulting damage to other property as covered \"property damage\" (Lessard v. R.C. Havens & Sons, Inc., 104 Mass. App. Ct. 572 (2024)), which supports at least partial coverage for that portion.");
+  } else if (f.damageExtendsBeyondDefectItself === false) {
+    notes.push("Claimed damages are limited to the cost of repairing/removing the defect itself, with no alleged damage to other, non-defective work or property -- several real, recent decisions hold that cost alone is not covered \"property damage\" under a standard CGL policy (Lessard v. R.C. Havens & Sons, Inc.; Westchester Modular Homes of Fairfield County, Inc. v. Arbella Protection Ins. Co., 224 Conn. App. 526 (2024), water intrusion alone).");
+  }
+  return { prob, note: notes.join(" ") };
 }
 
 function evalConstructionDefect(f: Facts, cit: CaseData["citations"]): Claim[] {
@@ -560,23 +671,62 @@ function evalConstructionDefect(f: Facts, cit: CaseData["citations"]): Claim[] {
       "Harder to prove than a workmanship defect -- expert-testimony-dependent standard-of-care question."));
   }
   if (bool(f, "multiplePartiesIndemnityExists") && num(f, "repairCostEstimate") > 0) {
+    const adj = computeConstructionIndemnityAdjustment(f);
     out.push(R("indemnification_contribution_claim", "Indemnification / Contribution", [0.40, 0.70],
-      num(f, "repairCostEstimate") * 0.10, num(f, "repairCostEstimate") * 0.88,
-      "Real allocation example: an 88%/10%/2% subcontractor/GC/owner split when the defect traced to specific subcontractor workmanship."));
+      num(f, "repairCostEstimate") * adj.low, num(f, "repairCostEstimate") * adj.high,
+      adj.note));
   }
   if (bool(f, "insurerDeniedCoverage")) {
-    out.push(R("insurance_coverage_defect_dispute", "Insurance Coverage Dispute (CGL)", [0.45, 0.65], null, null,
-      "Coverage disputes usually resolve the legal question (duty to defend/indemnify) rather than a dollar figure -- treat this as a coverage yes/no signal."));
+    const cgl = computeCglCoverageAdjustment(f);
+    out.push(R("insurance_coverage_defect_dispute", "Insurance Coverage Dispute (CGL)", cgl.prob, null, null,
+      `Coverage disputes usually resolve the legal question (duty to defend/indemnify) rather than a dollar figure -- treat this as a coverage yes/no signal. ${cgl.note}`));
   }
   return out;
+}
+
+// js/case-valuation-data.js's own note on cercla_cost_recovery claims this
+// allocation share is "computed directly in evalEnvironmental() ... based on
+// the innocentLandownerStatus fact" -- that was false until this function:
+// no such fact or branch existed anywhere in this file. Implements the real
+// doctrinal fork the note actually describes (CERCLA Sec. 107(b), 5-factor
+// test in Advanced Tech. Corp. v. Eliskim, Inc.): a plaintiff who qualifies
+// as an innocent landowner can bring a full Sec. 107(a) cost-recovery claim
+// (recovering the ENTIRE cleanup cost from other PRPs); a plaintiff who is
+// itself a PRP (owner/operator, arranger, or transporter) is functionally
+// limited to a contribution-style claim recovering only the other parties'
+// equitable share. Falls back to the prior flat 50%-100% range when the
+// status hasn't been specified, rather than guessing which side of the
+// fork applies.
+function computeCerclaAllocationShare(f: Facts): { low: number; high: number; note: string } {
+  const status = str(f, "innocentLandownerStatus");
+  const citation = "Advanced Tech. Corp. v. Eliskim, Inc., No. 1:96CV755 (N.D. Ohio 2000)";
+  if (!status) {
+    return {
+      low: 0.5, high: 1.0,
+      note: `Whether this plaintiff qualifies as a CERCLA Sec. 107(b) "innocent landowner" (5-factor test, ${citation}) materially changes this allocation share -- not specified here, so a flat 50%-100% range is shown rather than the sharper split a real innocent-landowner determination would produce.`,
+    };
+  }
+  if (status === "innocent-landowner-defense-asserted") {
+    return {
+      low: 0.85, high: 1.0,
+      note: `An asserted, qualifying Sec. 107(b) innocent-landowner defense (5-factor test, ${citation}) supports a full Sec. 107(a) cost-recovery claim -- recovering the ENTIRE cleanup cost from other PRPs, not merely an equitable share -- reflected in the high end of this range; the low end reflects the real risk the defense doesn't hold up on the facts (e.g. a due-diligence gap defeats the "all appropriate inquiry" prong).`,
+    };
+  }
+  // owner-operator / arranger / transporter -- a PRP itself, not innocent.
+  return {
+    low: 0.20, high: 0.60,
+    note: `Because this plaintiff is itself a PRP (${status.replace(/-/g, " ")}) rather than a qualifying Sec. 107(b) innocent landowner (${citation}), it is functionally limited to a contribution-style claim -- recovering only the OTHER parties' equitable share, not the full cost -- modeled here in the same range as this category's own CERCLA Contribution claim.`,
+  };
 }
 
 function evalEnvironmental(f: Facts, cit: CaseData["citations"]): Claim[] {
   const out: Claim[] = [];
   const R = (k: string, l: string, p: [number, number], lo: number | null, hi: number | null, n?: string, b?: boolean) => R2(cit, k, l, p, lo, hi, n, b);
   if (num(f, "cleanupCostsIncurred") > 0) {
-    out.push(R("cercla_cost_recovery", "CERCLA Cost Recovery", [0.65, 0.85], num(f, "cleanupCostsIncurred") * 0.5, num(f, "cleanupCostsIncurred"),
-      "Liability is strict/joint/several once PRP status attaches -- allocation share is the real question, not whether liability exists at all."));
+    const alloc = computeCerclaAllocationShare(f);
+    out.push(R("cercla_cost_recovery", "CERCLA Cost Recovery", [0.65, 0.85],
+      num(f, "cleanupCostsIncurred") * alloc.low, num(f, "cleanupCostsIncurred") * alloc.high,
+      `Liability is strict/joint/several once PRP status attaches -- allocation share is the real question, not whether liability exists at all. ${alloc.note}`));
   }
   if (bool(f, "multiplePRPs") && num(f, "cleanupCostsIncurred") > 0) {
     out.push(R("cercla_contribution_claim", "CERCLA Contribution (PRP vs. PRP)", [0.55, 0.80],
@@ -986,18 +1136,26 @@ const CATEGORY_FIELDS: Record<string, FieldDef[]> = {
     { key: "proxyOmissionAlleged", type: "boolean", label: "Is a material omission in proxy/vote materials alleged?" },
     { key: "specificInsiderStakeAlleged", type: "boolean", label: "Is a specific undisclosed insider financial stake alleged?" },
     { key: "mergerObjection", type: "boolean", label: "Is this a merger/sale-terms objection suit?" },
+    { key: "controllingInsiderSelfDealingInMerger", type: "boolean", label: "Is a specific self-dealing payment to a controlling insider (e.g. an internalization fee to the sponsor/manager) alleged as part of the merger itself?" },
   ],
   "construction-defect": [
+    { key: "state", type: "state", label: "Project state (for the construction anti-indemnity statute)" },
     { key: "contractorDefectAlleged", type: "boolean", label: "Is a defect alleged against the general contractor?" },
     { key: "repairCostEstimate", type: "number", label: "Estimated repair cost ($)" },
     { key: "catastrophicOrLifeSafety", type: "boolean", label: "Is this a catastrophic/structural/life-safety failure?" },
     { key: "designErrorAlleged", type: "boolean", label: "Is a design error alleged against the architect/engineer?" },
     { key: "multiplePartiesIndemnityExists", type: "boolean", label: "Are there multiple responsible parties with an indemnity clause?" },
+    { key: "indemnityClauseCoversIndemniteesOwnNegligence", type: "boolean", label: "If so: does the indemnity clause purport to cover the indemnitee's OWN negligence (sole or concurrent), not just the indemnitor's own fault?" },
+    { key: "defectTracedToSingleSubcontractor", type: "boolean", label: "Is the defect traced to a single, identifiable subcontractor's workmanship (rather than shared among the GC and multiple trades)?" },
+    { key: "ownerSettledWithContractorsAfterInsurerPayout", type: "boolean", label: "Has the owner/association already settled with and released the contractor(s) after an insurer already paid out for the defect?" },
     { key: "insurerDeniedCoverage", type: "boolean", label: "Has a CGL insurer denied or disputed coverage?" },
+    { key: "defectCausedBySubcontractorWork", type: "boolean", label: "If coverage is disputed: was the defect caused by a subcontractor's work (rather than the general contractor's own direct work)?" },
+    { key: "damageExtendsBeyondDefectItself", type: "boolean", label: "If coverage is disputed: does the claimed damage extend beyond the cost of fixing the defect itself to other, non-defective work or property?" },
   ],
   "environmental": [
     { key: "cleanupCostsIncurred", type: "number", label: "Cleanup/remediation costs incurred or estimated ($)" },
     { key: "contaminationScale", type: "select", label: "Contamination scale", options: ["single-parcel", "multi-decade/waterway", "small-commercial-penalty"] },
+    { key: "innocentLandownerStatus", type: "select", label: "Plaintiff's CERCLA PRP status/role -- affects whether this is a full cost-recovery claim or a contribution-style claim (Sec. 107(b))", options: ["owner-operator", "arranger", "transporter", "innocent-landowner-defense-asserted"] },
     { key: "multiplePRPs", type: "boolean", label: "Are there multiple potentially responsible parties (PRPs)?" },
     { key: "stateConsentDecree", type: "boolean", label: "Is this a state cleanup enforcement action / consent decree?" },
     { key: "insurerDeniedEnvCoverage", type: "boolean", label: "Has an insurer denied environmental coverage?" },
@@ -1451,6 +1609,20 @@ Deno.serve(async (req) => {
         extractedFacts.foreclosureProcedureTrap = mods.procedureTrap;
         extractedFacts.foreclosureStateCitation = mods.citation;
         extractedFacts.foreclosureStateNote = mods.note;
+      }
+    }
+
+    // Merge the 51-jurisdiction construction anti-indemnity state-law table
+    // into flattened `constructionIndemnity*` facts, same pattern as the
+    // other state-law merges above -- feeds
+    // computeConstructionIndemnityAdjustment() in evalConstructionDefect()
+    // instead of that claim ignoring state law entirely.
+    if (category === "construction-defect") {
+      const stateVal = str(extractedFacts, "state");
+      const mods = stateVal ? data.constructionIndemnityStateModifiers?.[stateVal] : undefined;
+      if (mods) {
+        extractedFacts.constructionIndemnityForm = mods.indemnityForm;
+        extractedFacts.constructionIndemnityCitation = mods.citation;
       }
     }
 
