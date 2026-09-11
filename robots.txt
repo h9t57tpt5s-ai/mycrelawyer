@@ -1,4 +1,39 @@
 User-agent: *
 Allow: /
 
+# The raw case-citation research database that grounds the paid Case Value
+# Calculator -- not meant for bulk machine consumption. Blocked for every
+# crawler (not just AI bots) since the file itself is being removed from
+# public hosting entirely; this is a defense-in-depth backstop, not the
+# actual fix -- see settlement-benchmarks-search for how this data is now
+# served (redacted for anonymous visitors, full detail for signed-in users).
+Disallow: /js/case-valuation-data.js
+
+# Known AI-training/answer-engine crawlers specifically -- reputable actors
+# that respect robots.txt. A determined scraper ignoring this file entirely
+# is a separate problem robots.txt cannot solve.
+User-agent: GPTBot
+Disallow: /js/case-valuation-data.js
+
+User-agent: ChatGPT-User
+Disallow: /js/case-valuation-data.js
+
+User-agent: ClaudeBot
+Disallow: /js/case-valuation-data.js
+
+User-agent: anthropic-ai
+Disallow: /js/case-valuation-data.js
+
+User-agent: PerplexityBot
+Disallow: /js/case-valuation-data.js
+
+User-agent: Google-Extended
+Disallow: /js/case-valuation-data.js
+
+User-agent: CCBot
+Disallow: /js/case-valuation-data.js
+
+User-agent: Bytespider
+Disallow: /js/case-valuation-data.js
+
 Sitemap: https://credocket.com/sitemap.xml
