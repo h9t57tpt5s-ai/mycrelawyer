@@ -164,6 +164,16 @@ type CaseData = {
     modeOfOperationRuleAdopted?: boolean | "partial"; modeOfOperationCitation?: string;
     premisesLiabilityDistinctFromOrdinaryNegligence?: boolean; premisesLiabilityDistinctNote?: string;
   }>;
+  foreclosureStateModifiers?: Record<string, {
+    nonJudicialDominant?: boolean;
+    deficiencyBarredIfNonJudicial?: boolean;
+    deficiencyConditionalIfNonJudicial?: boolean;
+    deficiencyBarredForBorrowerButGuarantorAvailable?: boolean;
+    fairValueOffsetApplies?: boolean;
+    procedureTrap?: string | null;
+    citation?: string;
+    note?: string;
+  }>;
 };
 
 let cachedCaseData: CaseData | null = null;
@@ -385,6 +395,76 @@ function evalLeaseDisputes(f: Facts, cit: CaseData["citations"]): Claim[] {
   return out;
 }
 
+// Applies this loan's state's real deficiency-judgment law (merged from
+// js/case-valuation-data.js's 51-jurisdiction foreclosureStateModifiers
+// table into flattened `foreclosure*` facts by the request handler, the
+// same pattern used for premises-liability's state modifiers above) to the
+// flat debt-minus-proceeds deficiency calculation, instead of applying
+// that flat formula unconditionally regardless of state law. Bars/zeroes
+// the deficiency outright in states whose dominant non-judicial method
+// forfeits it (or forfeits it only against the borrower entity, leaving a
+// guarantor claim open), flags the states where deficiency rights survive
+// non-judicial foreclosure only on an extra procedural step, and applies
+// the fair-value offset (credit = the GREATER of sale proceeds or a
+// court-determined/appraised fair value, per every researched state's own
+// note -- mathematically identical to the "debtor gets the LESSER of the
+// two resulting deficiencies" phrasing some of those notes use) when a
+// fair-value figure has actually been entered. Falls back to the flat,
+// unadjusted formula for a state that hasn't been researched, or when no
+// state was identified at all.
+function computeDeficiencyStateAdjustment(f: Facts, debt: number, proceeds: number): { deficiency: number; note: string } {
+  const flat = Math.max(0, debt - proceeds);
+  const state = str(f, "state");
+  const citation = str(f, "foreclosureStateCitation");
+  if (!state || !citation) {
+    return {
+      deficiency: flat,
+      note: state
+        ? `${state}'s deficiency-judgment rules haven't been separately researched for this tool -- using the flat formula (loan balance + lender advances, minus sale proceeds), with no state-law adjustment.`
+        : "No state was identified for this loan -- using the flat formula (loan balance + lender advances, minus sale proceeds). Provide the property's state so this state's actual deficiency-judgment law can be applied.",
+    };
+  }
+  const stateNote = str(f, "foreclosureStateNote");
+  const nonJudicialDominant = bool(f, "foreclosureNonJudicialDominant");
+  const methodInput = str(f, "foreclosureMethod");
+  const method: "judicial" | "non-judicial" = methodInput === "judicial" || methodInput === "non-judicial"
+    ? methodInput
+    : (nonJudicialDominant ? "non-judicial" : "judicial");
+  const assumedSuffix = methodInput ? "" : ` (foreclosure method not specified -- assumed ${method}, ${state}'s dominant method)`;
+
+  if (method === "non-judicial" && bool(f, "foreclosureDeficiencyBarredIfNonJudicial")) {
+    return {
+      deficiency: 0,
+      note: `${state} bars a deficiency judgment outright following its dominant non-judicial foreclosure method${assumedSuffix} (${citation}).${stateNote ? " " + stateNote : ""}`,
+    };
+  }
+  if (method === "non-judicial" && bool(f, "foreclosureDeficiencyBarredForBorrowerButGuarantorAvailable")) {
+    return {
+      deficiency: 0,
+      note: `${state}'s non-judicial route generally bars a deficiency claim against the borrower entity itself${assumedSuffix} (${citation}) -- a claim against a personal guarantor may still be available; cross-reference the separate Guaranty Enforcement claim.${stateNote ? " " + stateNote : ""}`,
+    };
+  }
+
+  let deficiency = flat;
+  let note = `${state}'s deficiency-judgment rules were applied${assumedSuffix} (${citation}).`;
+  const procedureTrap = str(f, "foreclosureProcedureTrap");
+  if (method === "non-judicial" && bool(f, "foreclosureDeficiencyConditionalIfNonJudicial")) {
+    note += ` Deficiency rights here are conditional on an extra procedural step${procedureTrap ? ": " + procedureTrap : ""} -- if the lender missed it, the deficiency shown here would instead be barred entirely.`;
+  } else if (procedureTrap) {
+    note += ` Procedural trap to flag: ${procedureTrap}`;
+  }
+  if (bool(f, "foreclosureFairValueOffsetApplies")) {
+    const fairValue = num(f, "courtDeterminedFairValue");
+    if (fairValue > proceeds) {
+      deficiency = Math.max(0, debt - fairValue);
+      note += ` A fair-value offset applies here -- the entered court-determined/appraised fair value (${fmtMoney(fairValue)}) exceeds the sale proceeds, so it controls the credit against the debt instead of the lower sale price.`;
+    } else {
+      note += ` A fair-value offset applies here (the credit against the debt is the greater of sale proceeds or a court-determined fair value) -- enter a fair-value figure if one has been determined and it exceeds the sale proceeds, which would reduce this deficiency.`;
+    }
+  }
+  return { deficiency, note };
+}
+
 function evalLendingForeclosure(f: Facts, cit: CaseData["citations"]): Claim[] {
   const out: Claim[] = [];
   const R = (k: string, l: string, p: [number, number], lo: number | null, hi: number | null, n?: string) => R2(cit, k, l, p, lo, hi, n);
@@ -395,14 +475,14 @@ function evalLendingForeclosure(f: Facts, cit: CaseData["citations"]): Claim[] {
     const advances = num(f, "lenderAdvances");
     const proceeds = num(f, "saleProceeds");
     const gross = num(f, "loanBalance") + advances;
-    const deficiency = Math.max(0, gross - proceeds);
+    const { deficiency, note: stateAdjustmentNote } = computeDeficiencyStateAdjustment(f, gross, proceeds);
     out.push(R("foreclosure_deficiency_judgment", "Foreclosure / Deficiency Judgment", p,
       deficiency, deficiency,
-      "This is the legal deficiency the court would enter judgment for, not a prediction of what will actually be collected. Whether a judgment is ultimately collectable depends heavily on the borrower/guarantor's post-judgment asset picture and is outside the scope of this calculator -- treat this figure as case value, not a collection forecast."));
+      `This is the legal deficiency the court would enter judgment for, not a prediction of what will actually be collected. Whether a judgment is ultimately collectable depends heavily on the borrower/guarantor's post-judgment asset picture and is outside the scope of this calculator -- treat this figure as case value, not a collection forecast. ${stateAdjustmentNote}`));
   }
   if (bool(f, "receivershipMotionFiled")) {
     out.push(R("receivership_dispute", "Receivership Grant/Denial", [0.65, 0.85], null, null,
-      "Not a dollar claim -- operational-control relief. 5 of 6 sampled real matters resulted in a receiver appointed."));
+      "Not a dollar claim -- operational-control relief. Sample has grown to 10 real matters; of the 8 with a reported ruling, 7 resulted in a receiver appointed and 1 (Brick Air Capital v. NLD Props.) was denied outright even with a consent-to-receivership clause, on the court's equitable discretion."));
   }
   if (bool(f, "guarantyTriggerAlleged") && num(f, "guaranteedBalance") > 0) {
     if (guarantorDisputes) {
@@ -412,7 +492,7 @@ function evalLendingForeclosure(f: Facts, cit: CaseData["citations"]): Claim[] {
     } else {
       out.push(R("guaranty_enforcement", "Guaranty Enforcement", [0.80, 0.97],
         num(f, "guaranteedBalance") * 0.95, num(f, "guaranteedBalance"),
-        "Once a carve-out (\"bad boy\") trigger is credibly found and undisputed -- no counterclaim or offset pled -- sampled real cases show guarantors held liable for close to the full guaranteed balance, even for technical/non-fraud breaches. The harder question -- proving the trigger occurred in the first place -- isn't modeled as a separate probability here."));
+        "Once a carve-out (\"bad boy\") trigger is credibly found and undisputed -- no counterclaim or offset pled -- most sampled real cases (5 of 7 with a resolved outcome) show guarantors held liable for close to the full guaranteed balance, even for technical/non-fraud breaches. Two real exceptions cut the other way even on an undisputed trigger: a signature-formality defect can render the guaranty entirely unenforceable (Extech Building Materials v. E&N Construction), and a state's own post-hoc legislative fix can retroactively void the very trigger relied on (Michigan's Nonrecourse Mortgage Loan Act in Borman v. Schwebel). The harder questions -- proving the trigger occurred, and that the guaranty is enforceable in the first place -- aren't modeled as a separate probability here."));
     }
   }
   if (bool(f, "lenderMisconductAlleged")) {
@@ -879,11 +959,14 @@ const CATEGORY_FIELDS: Record<string, FieldDef[]> = {
     { key: "litigationPosture", type: "select", label: "Litigation posture (for attorney's-fees estimate)", options: ["default", "answered-passive", "contested-msj", "trial"] },
   ],
   "lending-foreclosure": [
+    { key: "state", type: "state", label: "Property state (for deficiency-judgment rules)" },
     { key: "loanBalance", type: "number", label: "Outstanding loan balance ($)" },
     { key: "foreclosureFiled", type: "boolean", label: "Has a foreclosure action been filed?" },
+    { key: "foreclosureMethod", type: "select", label: "Foreclosure method used, if known", options: ["judicial", "non-judicial", "unknown"] },
     { key: "borrowerDisputesDefault", type: "boolean", label: "Does the borrower dispute the default itself?" },
     { key: "lenderAdvances", type: "number", label: "Lender protective advances -- taxes/insurance paid ($)" },
     { key: "saleProceeds", type: "number", label: "Foreclosure sale proceeds, if known ($)" },
+    { key: "courtDeterminedFairValue", type: "number", label: "Court-determined or appraised fair market value at foreclosure, if any -- for states with a fair-value offset ($)" },
     { key: "receivershipMotionFiled", type: "boolean", label: "Has a receivership motion been filed?" },
     { key: "guarantyTriggerAlleged", type: "boolean", label: "Is a guaranty carve-out trigger event alleged?" },
     { key: "guaranteedBalance", type: "number", label: "Guaranteed loan balance ($)" },
@@ -1349,6 +1432,25 @@ Deno.serve(async (req) => {
         extractedFacts.premisesModeOfOperationCitation = mods.modeOfOperationCitation;
         extractedFacts.premisesLiabilityDistinct = mods.premisesLiabilityDistinctFromOrdinaryNegligence;
         extractedFacts.premisesLiabilityDistinctNote = mods.premisesLiabilityDistinctNote;
+      }
+    }
+
+    // Merge the 51-jurisdiction foreclosure deficiency-judgment state-law
+    // table into flattened `foreclosure*` facts, same pattern as the other
+    // two categories above -- feeds computeDeficiencyStateAdjustment() in
+    // evalLendingForeclosure() instead of that claim ignoring state law.
+    if (category === "lending-foreclosure") {
+      const stateVal = str(extractedFacts, "state");
+      const mods = stateVal ? data.foreclosureStateModifiers?.[stateVal] : undefined;
+      if (mods) {
+        extractedFacts.foreclosureNonJudicialDominant = mods.nonJudicialDominant;
+        extractedFacts.foreclosureDeficiencyBarredIfNonJudicial = mods.deficiencyBarredIfNonJudicial;
+        extractedFacts.foreclosureDeficiencyConditionalIfNonJudicial = mods.deficiencyConditionalIfNonJudicial;
+        extractedFacts.foreclosureDeficiencyBarredForBorrowerButGuarantorAvailable = mods.deficiencyBarredForBorrowerButGuarantorAvailable;
+        extractedFacts.foreclosureFairValueOffsetApplies = mods.fairValueOffsetApplies;
+        extractedFacts.foreclosureProcedureTrap = mods.procedureTrap;
+        extractedFacts.foreclosureStateCitation = mods.citation;
+        extractedFacts.foreclosureStateNote = mods.note;
       }
     }
 
