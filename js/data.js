@@ -3404,6 +3404,32 @@ const RELAW_DATA = {
       summary: "Trepp data reported by CRE Daily on August 11 shows roughly $65 billion in CMBS loans maturing by year-end 2026, including $37 billion of 'hard' maturities that have already exhausted their extension options; Trepp estimates more than half of those properties will need fresh borrower equity to refinance at current rates. Office debt bears a disproportionate share of the distress, with an 11.91% distress rate versus 7.6% market-wide serious delinquency, and all five nonperforming CMBS loans maturing in August are office loans totaling $1.8B. Examples cited include Rithm Capital injecting $73M of fresh equity to refinance a $500M maturity at 31 W. 52nd St. in Manhattan, and a San Francisco office CMBS investment that returned bondholders just $101M of an original $240M investment.",
       significance: "A maturity-default wave driven by loan structure and vintage rather than property performance tends to produce fights over extension and modification terms, guarantor liability claims under recourse carve-outs once a maturity default triggers personal exposure, appraisal disputes between borrowers and special servicers ahead of forced sales, and bondholder claims against special servicers over resolution timing and pricing when losses are as steep as the San Francisco example. Sponsors with 2015-2016-vintage 10-year loans or 2021-2022-vintage interest-only loans maturing into a tighter lending market should treat this as portfolio-wide exposure rather than an isolated, property-by-property risk.",
       tags: ["cmbs", "maturity wall", "office", "special servicing", "guarantor liability"]
+    },
+    {
+      id: "trend-004",
+      title: "Shareholder Activism Against Public REITs Tops 100 Campaigns Since 2020, With 2026 Proxy Fights Increasingly Settled Before a Vote",
+      category: "reit-securities",
+      date: "2026-01-13",
+      scope: "Public REIT sector (national)",
+      metric: "100+ public activist campaigns launched against REITs since 2020; over 90% resolve before any shareholder vote",
+      source: "live",
+      sourceUrl: "https://www.goodwinlaw.com/en/insights/publications/2026/01/alerts-realestate-shareholder-activism-in-the-public-reit-sector",
+      summary: "Goodwin's January 2026 lookback counts more than 100 public activist campaigns and related engagements against REITs since 2020, with recent examples including Elliott Investment Management's campaign at Rexford Industrial Realty (which secured a CEO transition and an added independent director), Erez Asset Management's campaign at Whitestone REIT (which preceded MCB Acquisition's $15-per-share cash offer), Blackwells Capital's simultaneous campaigns at Ashford Hospitality Trust and Global Net Lease, and Land & Buildings-led liquidation campaigns at Equity Commonwealth (where shareholders approved a plan of sale and dissolution) and National Health Investors. Barclays' shareholder-advisory group separately counted 38 campaigns launched against public REITs in 2024 alone, with roughly 20 more in 2025 year to date. Over 90% of REIT activist campaigns now conclude before reaching a shareholder vote, and roughly 60% of targeted REITs are valued between $1 million and $1 billion, with another 30% between $1 billion and $10 billion.",
+      significance: "REIT-sector counsel tie the settlement-first shift to the SEC's universal proxy card (Exchange Act Rule 14a-19), which lets shareholders mix and match nominees from competing slates and has raised activists' odds of seating at least one dissident director in an actual vote — pushing boards toward negotiated resolutions rather than risking a contested election. REIT boards and their counsel evaluating an activist approach, or diligencing a REIT counterparty's governance profile before a transaction, should treat settlement-readiness (board composition, standstill terms, advance-notice bylaws) as the live battleground rather than assume a proxy fight will reach a vote.",
+      tags: ["reit governance", "shareholder activism", "universal proxy", "proxy contest"]
+    },
+    {
+      id: "trend-005",
+      title: "Classified Boards at Public REITs Fall to 5% as Annual Elections and Majority Voting Become the Default",
+      category: "reit-securities",
+      date: "2026-02-25",
+      scope: "Public REIT sector (national)",
+      metric: "Classified boards among public equity REITs down to 5% in 2026, from 17% in 2017",
+      source: "live",
+      sourceUrl: "https://www.goodwinlaw.com/en/insights/publications/2026/02/alerts-realestate-corporate-governance-trends-in-the-public-reit-sector",
+      summary: "Goodwin's February 2026 governance survey of the public REIT sector finds annual director elections now standard at 95% of REITs, majority-voting standards adopted by more than 80% (up from 76% in 2017), stockholder bylaw-amendment rights at 69% of REITs (up from 47%), and proxy-access provisions at 48% (up from 19%) — alongside CEO/chair separation at 77% of REITs (up from 55%) and women holding roughly a third of REIT board seats (up from 13%). Because nearly 80% of the RMZ REIT universe is incorporated in Maryland, the Maryland Unsolicited Takeover Act remains the backstop takeover-defense framework for most of the sector, and the same report finds 34% of Maryland REITs have affirmatively opted out of it.",
+      significance: "The steady erosion of structural takeover defenses — fewer classified boards, broader bylaw-amendment and proxy-access rights — runs in the same direction as the activism data above: REITs have less structural insulation from a dissident campaign than they did a decade ago. Counsel advising a REIT board on its charter and bylaws, or diligencing a REIT's takeover-defense profile ahead of an activist approach or unsolicited bid, should confirm current MUTA opt-in/opt-out status and classified-board provisions rather than assume Maryland incorporation alone provides meaningful protection.",
+      tags: ["reit governance", "classified boards", "proxy access", "maryland reit law", "board diversity"]
     }
   ],
 
@@ -3488,6 +3514,25 @@ const RELAW_DATA = {
       jurisdiction: "Federal (nationwide)",
       enacted: "Re-proposed March 19, 2026; comments due June 18, 2026",
       summary: "The Federal Reserve, FDIC, and OCC re-proposed bank capital rules that reverse course from the original 2023 Basel III Endgame proposal, using loan-to-value-based risk weights to reduce punitive capital treatment of commercial real estate loans and cut minimum capital requirements for banks under $100B in assets by roughly 7.8%. A more favorable capital regime could ease the refinancing crunch behind the current wave of CMBS maturity defaults, though the rule remains in the comment period and is not yet final.",
+      relatedCases: []
+    },
+    {
+      id: "reg-009",
+      title: "SEC Universal Proxy Rule — Exchange Act Rule 14a-19",
+      type: "Federal Rule",
+      jurisdiction: "Federal (nationwide)",
+      enacted: "Adopted November 17, 2021 (Release No. 34-93596); compliance required for contested director elections at shareholder meetings held after August 31, 2022",
+      summary: "Requires every party to a contested board election — the company and any dissident shareholder alike — to use a single 'universal' proxy card listing the full slate of both sides' nominees, so shareholders can vote for any mix of company and dissident candidates rather than being locked into one whole slate. REIT-sector law firm analyses marking the rule's third full proxy season report it has raised activists' odds of seating at least one dissident director while also increasing pressure on boards to settle before a contested vote is ever taken.",
+      relatedCases: []
+    },
+    {
+      id: "reg-010",
+      title: "Maryland Unsolicited Takeover Act — Md. Code Ann., Corps. & Ass'ns §§ 3-800 to 3-806 (MGCL Title 3, Subtitle 8)",
+      type: "State Law",
+      jurisdiction: "Maryland",
+      state: "MD",
+      enacted: "Enacted 1999",
+      summary: "Lets a Maryland corporation or REIT with at least three independent directors adopt, by board resolution alone and without a stockholder vote, up to five takeover defenses — a classified board, a two-thirds vote requirement to remove a trustee, board-only authority to fix trustee count and fill vacancies, and a majority-in-interest requirement for stockholder-requested special meetings. Because roughly 80% of the public REIT sector (by the RMZ index) is incorporated in Maryland, this statute is the default takeover-defense framework for most public REITs — though governance pressure has pushed about a third of Maryland REITs to affirmatively opt out of it.",
       relatedCases: []
     }
   ],
