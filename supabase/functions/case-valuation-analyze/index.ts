@@ -229,6 +229,47 @@ async function loadCaseData(): Promise<CaseData> {
 }
 
 // =========================================================
+// Contributed settlement benchmarks -- reviewer-approved real outcomes
+// submitted through contribute-settlement.html (see
+// case_valuation_project/schema_settlement_contributions.sql), NOT the
+// curated case-law citation bench above. These are actual settled dollar
+// amounts from real matters, which is a materially different (and
+// arguably more representative -- published case law skews toward
+// disputes that escalated far enough to generate a written opinion)
+// calibration signal than case-law outcomes alone.
+//
+// Queried directly against the base table with the service-role client
+// (bypassing RLS), not through the public get_settlement_benchmarks()
+// RPC -- that RPC exists for the anon-safe aggregate display on the
+// contribute page and enforces its own `count(*) >= 3` floor for the
+// same de-anonymization reason applied here. We re-apply the identical
+// floor server-side: below 3 approved contributions for a
+// category/state slice, a single contributor's real settlement could be
+// reverse-identified from the "benchmark" the model quotes back in a
+// user-facing report, so we omit it entirely rather than expose a thin
+// slice. Matches on category + state only (not property type -- the
+// calculator doesn't currently extract that fact) so it degrades to "no
+// match" rather than a wrong one.
+type SettlementBenchmark = { count: number; median: number; min: number; max: number; drivers: string[] };
+async function loadSettlementBenchmarks(category: string, state: string | undefined): Promise<SettlementBenchmark | null> {
+  let query = supabaseAdmin
+    .from("settlement_contributions")
+    .select("settled_amount, key_factual_drivers")
+    .eq("status", "approved")
+    .eq("category", category)
+    .not("settled_amount", "is", null);
+  query = state ? query.eq("jurisdiction", state) : query.is("jurisdiction", null);
+  const { data, error } = await query;
+  if (error || !data || data.length < 3) return null;
+
+  const amounts = data.map((r) => Number(r.settled_amount)).sort((a, b) => a - b);
+  const mid = Math.floor(amounts.length / 2);
+  const median = amounts.length % 2 === 0 ? (amounts[mid - 1] + amounts[mid]) / 2 : amounts[mid];
+  const drivers = data.map((r) => r.key_factual_drivers).filter((d): d is string => !!d).slice(0, 5);
+  return { count: amounts.length, median, min: amounts[0], max: amounts[amounts.length - 1], drivers };
+}
+
+// =========================================================
 // Deterministic valuation engine -- a straight port of
 // js/case-valuation-engine.js. KEEP THESE IN SYNC: if the rules
 // engine changes on the client, mirror the change here too, or the
@@ -1650,6 +1691,14 @@ Deno.serve(async (req) => {
       }
     }
 
+    // Contributed real-settlement benchmarks for this category/state, if
+    // enough reviewer-approved contributions exist to safely surface (see
+    // loadSettlementBenchmarks above). Independent of, and a different
+    // kind of signal than, both the citation-pool case law below and the
+    // deterministic baseline -- these are actual settled dollar amounts,
+    // not modeled or reported-opinion figures.
+    const settlementBenchmark = await loadSettlementBenchmarks(category, str(extractedFacts, "state"));
+
     // ---- 4b. Deterministic engine — identical math to the manual tool ----
     const evalResult = evaluate(category, extractedFacts, data);
     // An explicit userSide from the form always wins over the AI's read of
@@ -1803,7 +1852,10 @@ Deno.serve(async (req) => {
         "NO-INVENTED-NUMBERS REQUIREMENT, as important as the case-name grounding requirement above: a dollar estimate is only as honest as the facts underneath it. If the case materials -- the user's description and/or any document(s) -- contain NO actual economic anchor for the specific dispute (no rent or lease-value figure, no stated damages amount, no dollar figure tied to what actually happened here), you MUST set damagesRange and bestGuessValue to null rather than filling in a plausible-sounding 'typical case' number -- a range like '$15,000-$90,000' for a rent dispute where no rent amount was ever given is fabrication dressed up as analysis, not a real estimate, and directly contradicts this tool's core promise that every number is grounded in the actual facts provided. This applies even when the legal analysis itself is strong and the liability picture is clear -- confidence about who wins does not create a number for how much when none exists. When you do this, you MUST also populate whatIsNeededForEstimate with the SPECIFIC facts that would let you compute a real range (e.g. 'the monthly rent amount and how much time remains on the lease' -- not a vague 'more information needed') -- this is shown to the user as a direct prompt for what to add, so name the actual missing inputs. Still give full legal analysis (claims, defenses, likely outcome, citations) despite the missing number -- a legal assessment without a price tag is far more useful than a price tag invented from nothing. Only assign a real damagesRange/bestGuessValue (and leave whatIsNeededForEstimate null) when at least one concrete dollar figure or a computable proxy for one (e.g. a stated monthly rent AND a stated remaining term, from which a rent stream can actually be computed) appears in the case materials. " +
         "Every dollar range must be a range, never a single number -- EXCEPT bestGuessValue, which (when a real number is warranted at all, per the requirement above) is deliberately the one point estimate in this whole analysis: after laying out the honest range, commit to the single number inside it you'd actually tell the client to plan around, reasoned from the same probability-weighting you used for the range and issues, not just its arithmetic midpoint. Write like a sharp litigator's internal case assessment memo for a client deciding whether to settle or fight -- direct and specific, not hedged into vagueness. " +
         "PROBABILITY CALIBRATION REQUIREMENT: unlike a dollar figure, a probabilityRangePct CAN be legitimately assessed from the claim's legal doctrine and fact pattern alone (e.g. undisputed non-payment under a written commercial lease is a strong claim as a matter of well-settled law, independent of any dollar amount) -- do not null probabilityRangePct just because damagesRange is null. But the range's WIDTH has to honestly reflect how much of that assessment rests on facts that are actually stated versus merely assumed. A two-sentence description that never mentions a lease, a notice history, or a guaranty is not the same evidentiary posture as a reviewed document confirming those things, even where the doctrine cuts the same way -- narrow every probability range as if the unstated facts are confirmed, and you've quietly reintroduced the same fabricated-confidence problem the no-invented-numbers rule above exists to prevent, just moved from the dollar column to the percentage column. Concretely: (1) when an issue's outcome is genuinely a coin flip on ONE binary fact you don't have (e.g. 'is there a personal guaranty' -- collectibility is night-and-day depending on the answer), the range must span close to that full realistic spread, not a narrow band that implies you've already weighed it; a comfortable-looking '40-85%' for a completely unknown fact is barely better than a fake dollar figure. (2) When your reasoning explicitly assumes a fact the user never stated (a clean notice history, no landlord-side maintenance failures, a standard remedies clause), say so in that issue's own analysis text in the same sentence as the number, not just somewhere else in the memo -- the percentage and its load-bearing assumption belong together. (3) Reserve narrow, confident ranges (e.g. 85-95%) for propositions that are strong under the doctrine essentially regardless of unknown facts -- 'a tenant who stops paying with no defense mentioned is in breach' qualifies; 'this specific defense will fail' generally does not, if you don't actually know whether the predicate facts for that defense exist. " +
-        "REMINDER ON CITATIONS -- every one of the requirements above is about the analysis TEXT, not the structured citedCaseNames field on each issue, and satisfying them is not a substitute for filling that field in. If you name a case from the reference list in an issue's prose (per the GROUNDING REQUIREMENT), that same case name must also appear in that issue's citedCaseNames array -- do not let a case exist only in the prose. Before finalizing each issue, check it against the reference list a second time and list every supporting case by exact name.",
+        "REMINDER ON CITATIONS -- every one of the requirements above is about the analysis TEXT, not the structured citedCaseNames field on each issue, and satisfying them is not a substitute for filling that field in. If you name a case from the reference list in an issue's prose (per the GROUNDING REQUIREMENT), that same case name must also appear in that issue's citedCaseNames array -- do not let a case exist only in the prose. Before finalizing each issue, check it against the reference list a second time and list every supporting case by exact name." +
+        (settlementBenchmark
+          ? ` CONTRIBUTED SETTLEMENT DATA: below the case materials you'll also find real, reviewer-verified settlement amounts from ${settlementBenchmark.count} other matters in this same category and state -- actual money that actually changed hands, not a modeled or reported-opinion figure. Treat this as a distinct, valuable calibration anchor alongside the case-law citations, not a replacement for them: case law tells you how a court reasons about liability, this tells you what similar disputes actually settled for once collectibility, litigation cost, and every other real-world discount got baked in. Weigh your damagesRange and bestGuessValue against it -- if your own estimate lands far outside this real range, say so explicitly in the analysis and explain what makes this case different (different property scale, different facts, more/less exposure), rather than silently ignoring a real, on-point data point. Never cite it in citedCaseNames (that field is reserved for actual case law from the reference list) -- reference it in the analysis prose instead, e.g. 'contributed settlement data for comparable disputes in this state.'`
+          : ""),
       messages: [{
         role: "user",
         content:
@@ -1813,6 +1865,10 @@ Deno.serve(async (req) => {
           (requestBody.settlementOnTable ? `Settlement currently on the table: ${fmtMoney(requestBody.settlementOnTable)}\n` : "") +
           `\nFixed-formula baseline model output (reference only, not authoritative):\n${JSON.stringify(baselineSummary, null, 2)}\n` +
           `\nReal cited precedent you may draw on (cite ONLY from this list, by exact name):\n${citationPoolText}\n` +
+          (settlementBenchmark
+            ? `\nContributed real-settlement data (${settlementBenchmark.count} reviewer-approved matters, same category + state): median settled ${fmtMoney(settlementBenchmark.median)}, range ${fmtMoney(settlementBenchmark.min)}-${fmtMoney(settlementBenchmark.max)}.` +
+              (settlementBenchmark.drivers.length ? ` Notable drivers from these matters: ${settlementBenchmark.drivers.join("; ")}.\n` : "\n")
+            : "") +
           `\n=== The case materials to analyze (the user's own description and/or uploaded document(s)) ===\n${combinedCaseText}`,
       }],
     });
@@ -1942,6 +1998,11 @@ Deno.serve(async (req) => {
           damagesRange: netPosition,
           claims: evalResult.claims,
         },
+        // Present only when >=3 reviewer-approved contributions exist for
+        // this category/state (see loadSettlementBenchmarks) -- the
+        // frontend can show this as its own "grounded in N real
+        // settlements" indicator, distinct from citedCases above.
+        contributedSettlementBenchmark: settlementBenchmark,
       },
     }, 200);
   } catch (err) {
