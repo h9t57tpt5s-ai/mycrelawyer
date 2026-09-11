@@ -6816,9 +6816,9 @@ const CASE_VALUATION_DATA = {
     },
     "Alaska": {
       "faultRule": "Pure Comparative",
-      "faultRuleCitation": "Alaska Stat. § 09.17.060",
+      "faultRuleCitation": "Alaska Stat. § 09.17.060 (independently confirmed this session against the primary statutory text: fault 'diminishes proportionately' the award without barring recovery, i.e., a plaintiff found 90% at fault can still recover the remaining 10%)",
       "punitiveDamagesStandard": "Clear and Convincing Evidence (statutory)",
-      "punitiveDamagesCap": "Greater of $500,000 or 3x compensatory damages; up to 4x compensatory or $7 million if motivated by financial gain -- Alaska Stat. § 09.17.020",
+      "punitiveDamagesCap": "Greater of $500,000 or 3x compensatory damages; up to the greater of $7 million, 4x compensatory damages, or 4x the aggregate financial gain if the conduct was motivated by financial gain and its adverse consequences were actually known to the defendant/its policymakers -- Alaska Stat. § 09.17.020 (independently confirmed this session against the primary statutory text)",
       "note": "Recovery is reduced by the plaintiff's own fault percentage with no cutoff -- a plaintiff found 90% at fault can still recover the remaining 10%.",
       "visitorClassificationSystem": "Unified Reasonable Care (post-Rowland)",
       "visitorClassificationCitation": "Webb v. City & Borough of Sitka, 561 P.2d 731 (Alaska 1977)",
@@ -6845,7 +6845,7 @@ const CASE_VALUATION_DATA = {
       "negligentSecurityCitation": null,
       "negligentSecurityNote": "Not independently verified for Alaska — searches did not surface a leading Alaska Supreme Court negligent-security case naming a specific foreseeability test (e.g., prior-similar-incidents or totality-of-the-circumstances). Secondary sources confirm only that foreseeability review in Alaska is 'necessarily fact-based.' Confirm current authority before using this field in a published table.",
       "additionalDefenses": "Alaska is a pure comparative-negligence state. Alaska also has a recreational land use immunity statute (AS 09.65.200) limiting landowner liability to persons using land for recreational purposes without charge — not independently re-verified this session and should be confirmed before publication.",
-      "researchConfidence": "low",
+      "researchConfidence": "low (the core fault-rule and punitive-damages-cap figures -- Alaska Stat. Sec. 09.17.060 and Sec. 09.17.020 -- were independently confirmed against primary statutory text this session; the doctrinal fields below, including notice rule, open-and-obvious, attractive nuisance, and negligent security, remain unverified with a specific controlling citation, which is why the state as a whole stays at 'low' rather than being upgraded)",
       "openAndObviousRule": "Comparative-Fault-Factor-Only",
       "negligentSecurityTestNormalized": null
     },
@@ -6876,13 +6876,13 @@ const CASE_VALUATION_DATA = {
       "attractiveNuisanceDoctrine": "Adopted with modifications",
       "attractiveNuisanceCitation": null,
       "attractiveNuisanceNote": "Not independently verified with a specific controlling Arizona Supreme Court citation this session (web search budget was exhausted before a citation could be confirmed). Secondary sources describe Arizona courts as limiting the doctrine to manmade/artificial conditions, consistent with the general Restatement § 339 approach, but this needs confirmation against a named case before publication.",
-      "negligentSecurityForeseeabilityTest": "Totality of the Circumstances (as characterized by secondary sources)",
-      "negligentSecurityCitation": null,
-      "negligentSecurityNote": "Not independently verified with a controlling Arizona case name this session. Secondary sources describe Arizona negligent-security claims as turning on whether the criminal act was foreseeable (using police reports, crime statistics, and prior complaints), consistent with a totality-of-the-circumstances approach, but no single leading Arizona Supreme Court citation establishing that label was confirmed.",
+      "negligentSecurityForeseeabilityTest": "Foreseeability-Defines-Scope-of-Duty (not a categorical prior-similar-incidents gate)",
+      "negligentSecurityCitation": "Knauss v. DND Neffson Co., 192 Ariz. 192, 963 P.2d 271 (Ariz. Ct. App. 1997)",
+      "negligentSecurityNote": "Independently verified this session against the reported opinion. Knauss (an after-hours abduction, rape, and murder from a shopping-mall parking lot) rejected the argument that the crime was unforeseeable merely because no identical prior incident had occurred there: once a duty exists from the property owner/invitee relationship, foreseeability of the specific type of harm 'defines and limits the scope of conduct necessary to fulfill' that duty rather than operating as a threshold prior-similar-incidents gate to the existence of duty itself. This is a Court of Appeals (not Supreme Court) decision, but it is the case Arizona premises-liability practitioners cite as the leading authority on this question.",
       "additionalDefenses": "Arizona applies pure comparative fault (A.R.S. § 12-2505) with several-only liability apportioned among all at-fault parties, including non-party criminal actors in negligent-security cases — relevant to how damages actually get allocated even where duty/breach are established.",
-      "researchConfidence": "medium",
+      "researchConfidence": "medium (negligent-security foreseeability test upgraded this session with a confirmed citation, Knauss v. DND Neffson Co.; attractive nuisance still lacks a confirmed controlling citation)",
       "openAndObviousRule": "No-Duty-to-Warn-but-Duty-to-Remedy",
-      "negligentSecurityTestNormalized": "Totality of the Circumstances"
+      "negligentSecurityTestNormalized": "Foreseeability-Defines-Scope-of-Duty"
     },
     "Arkansas": {
       "faultRule": "Modified Comparative (50% Bar)",
@@ -6984,13 +6984,13 @@ const CASE_VALUATION_DATA = {
       "attractiveNuisanceDoctrine": "Adopted with modifications",
       "attractiveNuisanceCitation": "C.R.S. § 13-21-115(3)(c)(I) (attractive-nuisance carve-out for trespassing children under 14)",
       "attractiveNuisanceNote": "The General Assembly expressly built an attractive-nuisance-style exception for trespassers under fourteen years of age into the PLA itself, rather than leaving it to a separate common-law doctrine.",
-      "negligentSecurityForeseeabilityTest": "describe if mixed — appears to be folded into the PLA's statutory 'actually knew or should have known' standard rather than a separately named foreseeability test",
-      "negligentSecurityCitation": null,
-      "negligentSecurityNote": "Not independently verified for Colorado — no controlling Colorado Supreme Court case naming a distinct foreseeability test (e.g., prior-similar-incidents or totality-of-the-circumstances) for negligent security was located this session. Secondary sources describe courts weighing prior similar crimes and volatile on-premises circumstances, consistent with a totality-style approach, but this operates within the PLA's statutory duty language rather than as a freestanding common-law doctrine.",
+      "negligentSecurityForeseeabilityTest": "Statutory 'Actually Knew or Should Have Known' Standard, Subject to a Predominant-Cause Limit (folded into the PLA rather than a separately named common-law test)",
+      "negligentSecurityCitation": "C.R.S. § 13-21-115, as amended by 2022 Colo. Sess. Laws (effective Apr. 7, 2022); Rocky Mountain Planned Parenthood, Inc. v. Wagner, 467 P.3d 287 (Colo. 2020)",
+      "negligentSecurityNote": "Independently verified this session (via a law-firm summary of the enrolled bill and Justia's codification of Sec. 13-21-115; the exact subsection number should still be double-checked against the current official text before citing in a filing). The 2022 amendment was a direct legislative response to Wagner (a mass-shooting-at-a-clinic case): it added that foreseeability of third-party criminal conduct may NOT be based on the 'controversial' nature of the landowner's business, and that a landowner is not liable where the third-party criminal act was the predominant cause of the harm -- i.e., where the landowner's own conduct was not a substantial factor. This is a real, citable statutory answer to what was previously an open question, not just the general 'knew or should have known' PLA standard applied to any other hazard.",
       "additionalDefenses": "The PLA's exclusivity (Vigil v. Franklin) is itself the dominant defense-side feature of Colorado premises law — it forecloses common-law negligence theories and defenses not specified in the statute. Colorado also has a separate recreational-use statute (not independently re-verified this session).",
       "researchConfidence": "high",
       "openAndObviousRule": "Comparative-Fault-Factor-Only",
-      "negligentSecurityTestNormalized": null
+      "negligentSecurityTestNormalized": "Statutory Knew-or-Should-Have-Known + Predominant-Cause Limit"
     },
     "Connecticut": {
       "faultRule": "Modified Comparative (51% Bar)",
@@ -7030,9 +7030,9 @@ const CASE_VALUATION_DATA = {
     },
     "Delaware": {
       "faultRule": "Modified Comparative (51% Bar)",
-      "faultRuleCitation": "Del. Code tit. 10, § 8132",
+      "faultRuleCitation": "Del. Code tit. 10, § 8132 (independently confirmed this session against the primary statutory text: a contributorily-negligent plaintiff recovers, diminished in proportion to the plaintiff's own share of fault, only where that share was not greater than the defendant's/defendants' combined negligence -- i.e., barred at 51%)",
       "punitiveDamagesStandard": "Clear and Convincing Evidence",
-      "punitiveDamagesCap": "No statutory cap identified for ordinary tort/premises-liability claims.",
+      "punitiveDamagesCap": "No statutory cap identified for ordinary tort/premises-liability claims (independently confirmed this session against multiple secondary sources describing Delaware as imposing no statutory ceiling on compensatory or punitive damages in an ordinary personal-injury case, in contrast to the medical-malpractice-specific punitive-damages provision at 18 Del. C. Sec. 6855).",
       "note": "",
       "visitorClassificationSystem": "Hybrid/Other — describe",
       "visitorClassificationCitation": "25 Del. C. § 1501 (private residential/farm premises only, post-1980 amendment); common-law tripartite classification for all other property, per Bailey v. Pennington, 406 A.2d 44 (Del. 1979)",
@@ -7060,7 +7060,7 @@ const CASE_VALUATION_DATA = {
       "negligentSecurityCitation": null,
       "negligentSecurityNote": "Not independently verified for Delaware — no controlling Delaware case naming a specific foreseeability test (prior-similar-incidents vs. totality-of-the-circumstances) was located this session. Secondary sources describe courts weighing past-area criminal activity and industry security standards, which is consistent with either test; confirm against a named Delaware Supreme Court or Superior Court opinion before publication.",
       "additionalDefenses": "Delaware imposes a 2-year statute of limitations on premises-liability (personal injury) claims, 10 Del. C. § 8107. Delaware's bifurcated statutory/common-law scheme (see classification note) is itself a distinctive, state-specific wrinkle practitioners must check against property type (residential/farm vs. other).",
-      "researchConfidence": "low",
+      "researchConfidence": "low (the core fault-rule and no-statutory-cap-on-punitive-damages fields -- 10 Del. C. Sec. 8132, and the confirmed absence of a general punitive-damages cap -- were independently confirmed against primary/authoritative sources this session; several doctrinal fields below, including negligent security, attractive nuisance, and the premises-liability-distinct-from-negligence question, remain unverified with a specific controlling citation, which is why the state as a whole stays at 'low' rather than being upgraded)",
       "openAndObviousRule": "Traditional No-Duty Bar",
       "negligentSecurityTestNormalized": null
     },
@@ -7198,13 +7198,13 @@ const CASE_VALUATION_DATA = {
       "attractiveNuisanceDoctrine": "Adopted (Restatement Second Sec. 339) — provisional",
       "attractiveNuisanceCitation": null,
       "attractiveNuisanceNote": "Not independently verified for Hawaii — searches returned only generic, multi-state summaries of the Restatement (Second) of Torts §339 doctrine with no Hawaii-specific appellate case. Most likely adopted in some form given Hawaii's general adoption of Restatement negligence principles, but this should be confirmed against Hawaii case law before publishing.",
-      "negligentSecurityForeseeabilityTest": "Not independently verified for Hawaii",
-      "negligentSecurityCitation": null,
-      "negligentSecurityNote": "Not independently verified for Hawaii — I was unable to locate a Hawaii-specific negligent-security/third-party-crime foreseeability case in this research pass; only generic multi-jurisdiction discussion was returned.",
+      "negligentSecurityForeseeabilityTest": "Duty Analyzed as a Question of Law Under Restatement (Second) Sec. 314A Innkeeper-Guest Principles (no single named foreseeability test articulated)",
+      "negligentSecurityCitation": "Knodle v. Waikiki Gateway Hotel, Inc., 69 Haw. 376, 742 P.2d 377 (Haw. 1987)",
+      "negligentSecurityNote": "Independently verified this session against the reported opinion. Knodle (a hotel-guest murder case) held that the existence of a duty to protect against third-party criminal conduct is a question of law for the court, not the jury, and relied on Restatement (Second) of Torts Sec. 314A to recognize an innkeeper's duty to take reasonable action to protect a guest against an unreasonable risk of physical harm; the court also held that a jury instruction framing foreseeability as whether the act 'appears to have been ordinary or usual under all the circumstances' misstated the proximate-cause standard. Knodle establishes the duty framework but, unlike California's Ann M. or Georgia's Carmichael, does not itself name a specific foreseeability test (prior-similar-incidents vs. totality-of-the-circumstances) -- that remains open.",
       "additionalDefenses": "Recreational Use immunity, Haw. Rev. Stat. ch. 520 (landowner not liable to recreational users absent willful/malicious failure to warn of a known danger); separate recreational-activity-business statute, HRS §663-1.54, requires reasonable care by commercial recreation operators despite ch. 520.",
-      "researchConfidence": "medium",
+      "researchConfidence": "medium (negligent security duty framework upgraded this session with a confirmed citation, Knodle v. Waikiki Gateway Hotel; open-and-obvious and attractive nuisance still lack a confirmed controlling citation)",
       "openAndObviousRule": "No-Duty-to-Warn-but-Duty-to-Remedy",
-      "negligentSecurityTestNormalized": null
+      "negligentSecurityTestNormalized": "Restatement Sec. 314A Innkeeper-Guest Duty (No Named Foreseeability Test)"
     },
     "Idaho": {
       "faultRule": "Modified Comparative (50% Bar)",
@@ -7342,13 +7342,13 @@ const CASE_VALUATION_DATA = {
       "attractiveNuisanceDoctrine": "Adopted (Restatement Second Sec. 339)",
       "attractiveNuisanceCitation": null,
       "attractiveNuisanceNote": "Iowa recognizes attractive nuisance for trespassing children where the landowner knew or should have known children were likely to trespass; Iowa authority indicates the condition need not itself be 'attractive' so long as trespass by children was foreseeable. Not independently verified with a specific controlling Iowa Supreme Court citation in this pass.",
-      "negligentSecurityForeseeabilityTest": "Not independently verified for Iowa",
-      "negligentSecurityCitation": null,
-      "negligentSecurityNote": "Not independently verified for Iowa — searches returned only generic, non-Iowa-specific discussion of negligent security and foreseeability; no controlling Iowa appellate case was identified in this pass.",
+      "negligentSecurityForeseeabilityTest": "Multi-Factor Foreseeability (not limited to the specific property's own past experience)",
+      "negligentSecurityCitation": "Martinko v. H-N-W Associates, 393 N.W.2d 320 (Iowa 1986)",
+      "negligentSecurityNote": "Independently verified this session against the reported opinion. Martinko (a mall parking-lot murder) held that foreseeability is the central question but is not limited to a rigid prior-similar-incidents rule tied to the specific property: the court found evidence that 126 crimes occurred at the defendant's OTHER malls nationwide in the same 4-year period was not itself probative of foreseeability at this mall, but noted that 'the place and character of the business' and other factors beyond the property's own past experience can independently establish foreseeability. This is a multi-factor approach closer to totality-of-the-circumstances than a strict single-property prior-incidents test, though the court did not use either label by name.",
       "additionalDefenses": "Iowa recreational use statute, Iowa Code ch. 461C (no duty to keep premises safe for, or warn, recreational users; exception preserved for willful or malicious failure to guard or warn of a known danger).",
-      "researchConfidence": "medium",
+      "researchConfidence": "medium (negligent security foreseeability standard upgraded this session with a confirmed citation, Martinko v. H-N-W Associates; attractive nuisance and mode-of-operation still lack a confirmed controlling citation)",
       "openAndObviousRule": "No-Duty-to-Warn-but-Duty-to-Remedy",
-      "negligentSecurityTestNormalized": null
+      "negligentSecurityTestNormalized": "Multi-Factor Foreseeability"
     },
     "Kansas": {
       "faultRule": "Modified Comparative (50% Bar)",
@@ -8096,13 +8096,13 @@ const CASE_VALUATION_DATA = {
       "attractiveNuisanceDoctrine": "Adopted (Restatement Second Sec. 339)",
       "attractiveNuisanceCitation": "Knowles v. Tripledee Drilling Co., 1989 OK 40, 771 P.2d 208, 209 (Okla. 1989)",
       "attractiveNuisanceNote": "Oklahoma recognizes the attractive-nuisance doctrine for artificial conditions dangerous to trespassing children, applying the standard Restatement Sec. 339 factors.",
-      "negligentSecurityForeseeabilityTest": "describe if mixed — not independently verified with a clearly-controlling leading case",
-      "negligentSecurityCitation": null,
-      "negligentSecurityNote": "Not independently verified for Oklahoma in this research pass. Searches for a leading Oklahoma Supreme Court case specifically establishing the foreseeability test for negligent-security/third-party-crime claims (analogous to California's Ann M. or New York's Nallan) did not return a clearly-confirmed controlling citation before the research budget was exhausted. Oklahoma negligent-security claims likely proceed under general premises-liability foreseeability principles tied to the invitee duty, but this should be independently confirmed before publication.",
+      "negligentSecurityForeseeabilityTest": "Notice-Based (Foreseeability + Landlord's Exclusive Control), Strongly Informed by Prior Similar Incidents",
+      "negligentSecurityCitation": "Lay v. Dworman, 1986 OK 85, 732 P.2d 455 (Okla. 1986); see also Cordes v. Wood, 1996 OK 88, 918 P.2d 76 (Okla. 1996)",
+      "negligentSecurityNote": "Independently verified this session against the reported opinions. Lay v. Dworman held a landlord could be liable where a tenant was raped by an intruder who entered through a lock the landlord knew was defective, had been asked to fix, and where the landlord was also aware of prior rapes in the same apartment complex -- Oklahoma's foreseeability analysis in this line of cases centers on the landlord's actual knowledge/notice (including a documented history of similar crime) combined with the landlord's exclusive control over the common areas/security feature at issue, rather than a freestanding 'totality of the circumstances' label.",
       "additionalDefenses": "Modified comparative fault (51% bar rule), Okla. Stat. tit. 23 Sec. 13; assumption of risk retained as a distinct statutory defense, Okla. Stat. tit. 23 Sec. 12 (Oklahoma is unusual in preserving assumption of risk as a jury question rather than fully subsuming it into comparative fault, reflecting Okla. Const. art. XXIII Sec. 6).",
-      "researchConfidence": "medium-high (low specifically for negligent security foreseeability test, which could not be independently verified)",
+      "researchConfidence": "high (negligent security foreseeability test upgraded this session with confirmed citations, Lay v. Dworman and Cordes v. Wood)",
       "openAndObviousRule": "Traditional No-Duty Bar",
-      "negligentSecurityTestNormalized": null
+      "negligentSecurityTestNormalized": "Notice-Based / Prior-Similar-Incidents"
     },
     "Oregon": {
       "faultRule": "Modified Comparative (51% Bar)",
@@ -8383,13 +8383,13 @@ const CASE_VALUATION_DATA = {
       "attractiveNuisanceDoctrine": "Adopted with modifications",
       "attractiveNuisanceCitation": "Restatement (Second) of Torts Sec. 339 (common-law adoption; also referenced indirectly in some municipal nuisance ordinances, e.g., Utah local code provisions listing 'attractive nuisance' hazards)",
       "attractiveNuisanceNote": "Utah recognizes the doctrine as an exception to the rule that landowners owe trespassers only a duty to refrain from willful/wanton injury, primarily protecting child trespassers. I could not independently confirm a specific landmark Utah Supreme Court case applying the full Restatement test within this session's search budget.",
-      "negligentSecurityForeseeabilityTest": "Not independently verified for Utah",
-      "negligentSecurityCitation": null,
-      "negligentSecurityNote": "Not independently verified for Utah — general secondary sources describe a totality-of-the-circumstances-style foreseeability inquiry (prior similar crimes, patterns of suspicious activity, property's crime-risk profile) as commonly applied, but I could not confirm a specific controlling Utah Supreme Court case articulating the test within the available search budget. Verify against primary Utah authority before publication.",
+      "negligentSecurityForeseeabilityTest": "Prior-Incident/Actual-Knowledge-Based (a single unrelated prior incident years earlier is insufficient by itself)",
+      "negligentSecurityCitation": "Dwiggins v. Morgan Jewelers, 811 P.2d 182 (Utah 1991)",
+      "negligentSecurityNote": "Independently verified this session against the reported opinion. Dwiggins (a store robbery/assault) held that a business owner's duty to protect customers from criminal acts does not arise until the owner knows, or should know, that criminal acts are likely -- and that a single robbery five years earlier was insufficient, standing alone, to make the later robbery foreseeable. This is closer to a prior-similar-incidents/actual-notice approach than to a broad multi-factor totality-of-the-circumstances test.",
       "additionalDefenses": "Utah Recreational Use statute, Utah Code Title 57, Ch. 14, immunizes landowners who allow free recreational access from ordinary premises-liability duties (including a duty to warn), subject to a willful-misconduct exception. Utah applies modified comparative negligence (plaintiff barred if his/her fault equals or exceeds the defendant's, i.e., a 50% bar) under Utah Code Sec. 78B-5-818.",
-      "researchConfidence": "medium",
+      "researchConfidence": "medium (negligent security foreseeability standard upgraded this session with a confirmed citation, Dwiggins v. Morgan Jewelers; attractive nuisance still lacks a confirmed controlling citation)",
       "openAndObviousRule": "No-Duty-to-Warn-but-Duty-to-Remedy",
-      "negligentSecurityTestNormalized": null
+      "negligentSecurityTestNormalized": "Prior-Incident / Actual-Knowledge-Based"
     },
     "Vermont": {
       "faultRule": "Modified Comparative (51% Bar)",
@@ -8523,13 +8523,13 @@ const CASE_VALUATION_DATA = {
       "attractiveNuisanceDoctrine": "Adopted (Restatement Second Sec. 339), presumed",
       "attractiveNuisanceCitation": null,
       "attractiveNuisanceNote": "Not independently verified for West Virginia with a specific controlling case in this session — the doctrine is widely assumed to be recognized at West Virginia common law along Restatement Sec. 339 lines, but I could not confirm a specific West Virginia Supreme Court of Appeals citation within the available search budget.",
-      "negligentSecurityForeseeabilityTest": "Not independently verified for West Virginia",
-      "negligentSecurityCitation": null,
-      "negligentSecurityNote": "Not independently verified for West Virginia — I could not locate and confirm a controlling West Virginia case articulating a specific foreseeability test (prior similar incidents vs. totality vs. balancing) for negligent-security claims within the available search budget in this session.",
+      "negligentSecurityForeseeabilityTest": "No General Duty to Protect from Third-Party Crime, Except Where the Defendant's Own Conduct Created/Increased the Risk (a landlord's general knowledge of unrelated prior-area crime, alone, is not enough)",
+      "negligentSecurityCitation": "Miller v. Whitworth, 193 W.Va. 262, 455 S.E.2d 821 (W. Va. 1995); see also Doe v. Wal-Mart Stores, Inc., 198 W.Va. 100, 479 S.E.2d 610 (W. Va. 1996)",
+      "negligentSecurityNote": "Independently verified this session against the reported opinion. Miller v. Whitworth held that West Virginia does not impose a general duty to protect others from the deliberate criminal conduct of third parties, but recognized an exception where the defendant's own affirmative actions or omissions unreasonably created or increased the risk of injury from that criminal activity; the court specifically held that a landlord's general knowledge of prior unrelated criminal incidents in the surrounding area is not, by itself, sufficient to impose a duty. This is a materially more defendant-favorable rule than a totality-of-the-circumstances or pure foreseeability test.",
       "additionalDefenses": "W. Va. Code Sec. 55-7-27 codifies the trespasser no-duty (willful/wanton only) rule. West Virginia applies modified comparative fault with a 51% bar (part of the state's broader 2015 tort-reform package, alongside Sec. 55-7-28's open-and-obvious statute). West Virginia also has a recreational-use immunity statute (W. Va. Code Sec. 19-25-1 et seq.) limiting liability for owners who permit free recreational access to land.",
-      "researchConfidence": "medium",
+      "researchConfidence": "medium (negligent security rule upgraded this session with a confirmed citation, Miller v. Whitworth; attractive nuisance and the exact punitive-damages-cap formula still lack a confirmed controlling citation)",
       "openAndObviousRule": "Traditional No-Duty Bar",
-      "negligentSecurityTestNormalized": null
+      "negligentSecurityTestNormalized": "No-Duty Absent Risk-Creation/Enhancement by Defendant"
     },
     "Wisconsin": {
       "faultRule": "Modified Comparative (51% Bar)",
@@ -8568,9 +8568,9 @@ const CASE_VALUATION_DATA = {
     },
     "Wyoming": {
       "faultRule": "Modified Comparative (51% Bar)",
-      "faultRuleCitation": "Wyo. Stat. § 1-1-109",
+      "faultRuleCitation": "Wyo. Stat. § 1-1-109 (independently confirmed this session against the primary statutory text: a claimant recovers, reduced in proportion to the claimant's own fault, only where that fault was not more than 50% of the total fault of all actors -- barred once the claimant's own share reaches 51%)",
       "punitiveDamagesStandard": "Clear and Convincing Evidence",
-      "punitiveDamagesCap": "No statutory cap -- Wyoming's constitution (art. 10, § 4) has been read to prohibit the legislature from capping damages for death or personal injury.",
+      "punitiveDamagesCap": "No statutory cap -- Wyoming's constitution (art. 10, § 4) has been read to prohibit the legislature from capping damages for death or personal injury (independently confirmed this session against the primary constitutional text: 'No law shall be enacted limiting the amount of damages to be recovered for causing the injury or death of any person,' subject only to a specific carve-out letting the legislature mandate ADR/medical-review-panel procedures in health-care-provider cases).",
       "note": "",
       "visitorClassificationSystem": "Hybrid/Other — describe",
       "visitorClassificationCitation": "Clarke v. Beckwith, 858 P.2d 293 (Wyo. 1993) (per search-engine-summarized secondary source; NOT independently confirmed against primary case text this session)",
@@ -8597,7 +8597,7 @@ const CASE_VALUATION_DATA = {
       "negligentSecurityCitation": null,
       "negligentSecurityNote": "Not independently verified for Wyoming — I could not locate or confirm a controlling Wyoming case articulating a specific foreseeability test for negligent-security claims within the available search budget in this session.",
       "additionalDefenses": "Wyoming's Recreational Use Statute (Wyo. Stat. Sec. 34-19-101 et seq.) limits landowner liability for persons using land for recreational purposes without charge. Wyoming also has a Recreation Safety Act addressing inherent risks of certain sports/recreational activities (relevant given the state's ski and outdoor-recreation industry), which can bar claims arising from inherent risks of those activities regardless of ordinary premises-liability principles. Wyoming applies modified comparative negligence with a 50% bar (Wyo. Stat. Sec. 1-1-109).",
-      "researchConfidence": "low",
+      "researchConfidence": "low (the core fault-rule and no-cap-on-damages fields -- Wyo. Stat. Sec. 1-1-109, and Wyo. Const. art. 10, Sec. 4's bar on legislatively capping death/personal-injury damages -- were independently confirmed against primary sources this session; several doctrinal fields below, including visitor classification, negligent security, attractive nuisance, and open-and-obvious, remain unverified with a specific controlling citation, which is why the state as a whole stays at 'low' rather than being upgraded)",
       "openAndObviousRule": "No-Duty-to-Warn-but-Duty-to-Remedy",
       "negligentSecurityTestNormalized": null
     }
