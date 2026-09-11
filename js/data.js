@@ -25,7 +25,8 @@ const RELAW_DATA = {
     { id: "lending-foreclosure", label: "Lending & Foreclosure", color: "var(--cat-lending)" },
     { id: "environmental", label: "Environmental", color: "var(--cat-environmental)" },
     { id: "eminent-domain", label: "Eminent Domain", color: "var(--cat-eminent)" },
-    { id: "lease-disputes", label: "Commercial Lease Disputes", color: "var(--cat-lease)" }
+    { id: "lease-disputes", label: "Commercial Lease Disputes", color: "var(--cat-lease)" },
+    { id: "premises-liability", label: "Premises Liability", color: "var(--cat-premises)" }
   ],
 
   statuses: [
@@ -3245,6 +3246,116 @@ const RELAW_DATA = {
         { when: "June 24, 2026", label: "Service Credit Union files its fraud and conspiracy suit in Grafton Superior Court", current: true }
       ],
       tags: ["construction loan fraud", "credit union", "senior living", "foreclosure", "new hampshire"]
+    },
+    {
+      id: "live-115",
+      addedDate: "2026-09-10",
+      title: "Stewart v. Simon Property Group, L.P. (Greenwood Park Mall Shooting Negligent-Security Suit)",
+      category: "premises-liability",
+      status: "appeal",
+      date: "2026-01-15",
+      jurisdiction: "Supreme Court of Indiana",
+      state: "IN",
+      amount: "Unspecified compensatory damages sought; underlying premises-liability and negligence claims",
+      source: "live",
+      sourceUrl: "https://indianacapitalchronicle.com/2026/01/16/fate-of-greenwood-mall-shooting-lawsuit-now-with-indiana-supreme-court/",
+      summary: "The Indiana Supreme Court heard oral argument on January 15, 2026 in the long-running negligent-security suit brought by shooting victim Kaya P.R. Stewart and her family against Greenwood Park Mall owner Simon Property Group, L.P. and its security contractor, Allied Universal Event Services, Inc., over the July 17, 2022 food-court mass shooting that killed three people. Both the Marion Superior Court and the Indiana Court of Appeals rejected the defendants' bids to dismiss the case, and the Supreme Court is now weighing the central question of whether a mass shooting at a shopping mall is foreseeable enough, as a matter of law, to support a negligent-security duty running from the mall owner and its security contractor to mall patrons.",
+      significance: "One of the most closely watched tests of the foreseeability element in mall and shopping-center negligent-security claims now pending before any state supreme court, with Indiana's status as an open-carry state adding a wrinkle the justices probed directly at argument. Whatever standard the Court adopts will shape how every commercial landlord and contracted security firm in Indiana litigates -- and insures against -- premises-liability exposure tied to third-party criminal acts, and is likely to be cited well beyond Indiana given how thin state supreme court authority remains on this exact question.",
+      body: [
+        "A gunman opened fire in the food court of Greenwood Park Mall, south of Indianapolis, on July 17, 2022, killing three people before an armed bystander fatally shot him. Kaya Stewart, who was shot in the leg, and her family sued the mall's owner, Simon Property Group, L.P., and its contracted security provider, Allied Universal Event Services, Inc., in Marion Superior Court on January 5, 2024, alleging the companies failed to take reasonable steps to prevent a foreseeable attack. The complaint points to specific, concrete lapses rather than a generalized failure to prevent crime: understaffed video monitoring of the parking lots and mall corridors, non-functioning security cameras, no security presence covering the food court at the time of the shooting, and no one noticing the gunman spend more than an hour in a restroom assembling his weapons or carrying a large backpack through areas covered by roughly a dozen cameras beforehand.",
+        "Simon and Allied Universal moved to dismiss on the theory that a mass shooting is categorically unforeseeable as a matter of law, and that imposing a duty to prevent one would make property owners insurers against unpredictable third-party violence. Both the Marion County trial court and the Indiana Court of Appeals rejected that argument on procedural grounds, allowing the case to proceed, and the defendants sought and obtained review by the Indiana Supreme Court.",
+        "At oral argument on January 15, 2026, the justices pressed both sides on how Indiana's status as an open-carry state should factor into the foreseeability analysis -- whether a mall operator's security planning should account for the elevated baseline risk of firearms being present on the property even without any prior history of gun violence at that specific location. Companion wrongful-death suits brought by the families of three people killed in the shooting, Pedro Pineda, Rosa Mirian Rivera de Pineda, and Victor Gomez, have been held pending the outcome of the Stewart appeal, meaning the Supreme Court's eventual ruling will resolve far more than one plaintiff's case.",
+        "For any owner or manager of a shopping mall, lifestyle center, or other high-traffic retail property, the case is a live illustration of how negligent-security claims are increasingly built around documentable security-system failures -- non-functioning cameras, unmonitored feeds, unstaffed high-risk areas -- rather than a bare argument that violence in general was foreseeable. A ruling that lets the case proceed to a jury would meaningfully lower the bar plaintiffs must clear at the pleading stage in Indiana and likely beyond."
+      ],
+      timeline: [
+        { when: "July 17, 2022", label: "Gunman kills three people in the Greenwood Park Mall food court; an armed bystander fatally shoots him" },
+        { when: "January 5, 2024", label: "Kaya Stewart and her family sue Simon Property Group and Allied Universal Event Services in Marion Superior Court" },
+        { when: "2024-2025", label: "Marion Superior Court and the Indiana Court of Appeals both reject the defendants' bids to dismiss the case" },
+        { when: "January 15, 2026", label: "Indiana Supreme Court hears oral argument on whether the mass shooting was foreseeable as a matter of law", current: true }
+      ],
+      tags: ["negligent security", "premises liability", "mall shooting", "foreseeability", "open carry", "Indiana Supreme Court"]
+    },
+    {
+      id: "live-116",
+      addedDate: "2026-09-10",
+      title: "Sanders v. Simon Property Group, L.P. (The Galleria Houston Parking-Garage Shooting Negligent-Security Suit)",
+      category: "premises-liability",
+      status: "filed",
+      date: "2026-09-03",
+      jurisdiction: "Harris County District Court, Texas",
+      state: "TX",
+      amount: "More than $1,000,000 sought",
+      source: "live",
+      sourceUrl: "https://abc13.com/post/family-sues-houstons-galleria-mall-security-companies-2025-fatal-shooting-lawsuit-says/19782644/",
+      summary: "The family of Anthony Sanders, a 30-year-old Marine Corps veteran shot and killed in a parking garage at Houston's Galleria mall on June 3, 2025, filed a negligent-security suit in Harris County District Court against Simon Property Group, HG Galleria LLC, and security contractors Allied Universal Security Services and GardaWorld Security Services, along with the individuals accused of the shooting. The complaint's central allegation is that the two suspects had previously been banned from the mall -- and were captured on video being removed by security more than once, including the day before the fatal shooting -- yet the property had no system in place to actually keep banned individuals out.",
+      significance: "Shifts the negligent-security foreseeability inquiry away from a property's general crime history and onto something more concrete and harder for a defendant to dismiss at the pleading stage: whether a mall enforced its own previously-issued bans against the specific individuals who went on to commit the violence. Any commercial property that maintains a formal trespass/ban list -- malls, casinos, large retail centers -- should treat the case as a reason to audit whether its ban-enforcement process (facial recognition, security briefings, access-control flags) actually functions in practice, not just on paper.",
+      body: [
+        "Anthony Sanders, a 30-year-old Marine Corps veteran, was shot and killed in a parking garage at The Galleria in Houston on June 3, 2025, after leaving the mall with his fiancée, Selena Patterson, and their infant son. More than a year later, Sanders' mother, Frank Sanders, Patterson, and their son filed suit in Harris County District Court against Simon Property Group and its affiliated entity HG Galleria LLC, along with security contractors Allied Universal Security Services and GardaWorld Security Services, and separately against the men accused in the shooting itself, Justin Joshua Guzman, Marko Cinan, and Nathaniel Ray Alvarez.",
+        "The complaint's theory does not rest on a generalized claim that the Galleria's parking garages are dangerous. Instead, it alleges that Guzman and Cinan had previously been banned from the property and were recorded on the mall's own surveillance system being escorted out by security guards on multiple occasions, including the day before the fatal shooting -- yet were able to walk back onto the property without being stopped. The suit alleges negligence, premises liability, and gross negligence against the Simon entities, and negligence and negligent-undertaking claims against the security contractors, on the theory that a mall that bothers to ban dangerous individuals but has no functioning way to keep them out once banned has effectively made the ban meaningless.",
+        "Plaintiffs' counsel, Muhammad Aziz, has framed the case around that gap: a mall large enough to routinely eject people for cause needs a system -- whether that is facial recognition, photo briefings for security staff, or something else -- that actually flags a previously-banned individual on reentry, rather than relying on line-level guards to recognize a face they may have seen only once, months earlier. That framing narrows the foreseeability fight considerably compared to a typical negligent-security claim resting only on a property's general crime statistics.",
+        "For owners and operators of high-traffic commercial properties that maintain formal trespass or ban lists -- malls, casinos, large retail and entertainment venues -- the case is a concrete prompt to test whether ban enforcement actually works end-to-end, from the incident that triggers a ban through to whatever mechanism is supposed to catch that person if they come back, rather than assuming the existence of a ban policy is itself a defense."
+      ],
+      timeline: [
+        { when: "June 3, 2025", label: "Anthony Sanders is fatally shot in a Galleria parking garage after his alleged shooters, previously banned from the mall, return to the property" },
+        { when: "September 3, 2026", label: "Sanders' mother, fiancée, and son sue Simon Property Group, HG Galleria LLC, and the mall's security contractors in Harris County District Court", current: true }
+      ],
+      tags: ["negligent security", "premises liability", "shopping mall", "parking garage", "ban enforcement", "Texas"]
+    },
+    {
+      id: "live-117",
+      addedDate: "2026-09-10",
+      title: "Marcano v. Publix Super Markets, Inc. (Kissimmee Grocery Store Slip-and-Fall Verdict)",
+      category: "premises-liability",
+      status: "ruling",
+      date: "2026-02-24",
+      jurisdiction: "Ninth Judicial Circuit Court, Osceola County, Florida",
+      state: "FL",
+      amount: "$3,967,000 jury verdict",
+      source: "live",
+      sourceUrl: "https://www.prnewswire.com/news-releases/rubenstein-law-secures-3-967-000-jury-verdict-against-publix-super-markets-inc-in-osceola-county-302696076.html",
+      summary: "An Osceola County jury awarded Victoria Marcano $3,967,000 after a six-day trial, finding Publix Super Markets, Inc. 100% liable for a June 5, 2023 slip-and-fall in the beverage aisle of its store on North John Young Parkway in Kissimmee, Florida. Trial evidence showed Publix employees had documented and cleaned up liquid spills in that exact spot before, undercutting any argument that the hazard was unknown to the store. Marcano underwent three spinal surgeries -- one to her neck and two to her back -- following the fall; Publix has since moved for a new trial, arguing the court improperly allowed inflated medical-bill evidence.",
+      significance: "A textbook illustration of how 'mode of operation' and prior-notice evidence -- documented past spills and cleanups at the identical location -- can take a routine slip-and-fall from a modest settlement into an eight-figure-adjacent verdict once a jury sees a pattern rather than an isolated accident. Grocery, retail, and other high-foot-traffic commercial property operators should treat prior-incident logs for recurring hazard locations as a real litigation liability, not just a maintenance record, and revisit spill-response protocols in aisles with a documented history.",
+      body: [
+        "Victoria Marcano, a 30-year-old mother of three, slipped on liquid in the beverage aisle of a Publix store on North John Young Parkway in Kissimmee, Florida on June 5, 2023, sustaining injuries she says required three spinal surgeries -- one neck surgery and two back surgeries. She sued Publix Super Markets, Inc. in the Ninth Judicial Circuit Court for Osceola County, and the case went to a jury trial that lasted six days.",
+        "The trial's outcome turned less on the spill itself than on what Publix's own records showed about it. Evidence presented at trial established that store employees had previously identified and cleaned up liquid spills in that same aisle location on multiple occasions before Marcano's fall -- evidence her attorneys used to argue the hazard was a known, recurring condition rather than a one-off accident Publix could not have anticipated. The jury found Publix 100% responsible and awarded $3,967,000, broken out as $411,000 in past medical expenses, $556,000 in future medical care, $750,000 in past pain and suffering, and the balance in future pain and suffering and loss of enjoyment of life.",
+        "The verdict is not yet final: Publix has moved for a new trial, arguing the court improperly permitted Marcano's counsel to present what the retailer characterizes as inflated medical bills in violation of Florida's evidentiary rules governing damages presentations, a live and frequently litigated issue in Florida premises-liability trials post-verdict.",
+        "For any commercial property operator with recurring hazard locations -- a beverage aisle, an entrance mat during rain, a loading-dock ramp -- the case underscores that internal incident and cleanup logs, kept for ordinary maintenance purposes, can become the single most damaging piece of evidence a plaintiff's lawyer introduces at trial once the same location generates more than one documented spill."
+      ],
+      timeline: [
+        { when: "June 5, 2023", label: "Victoria Marcano slips on liquid in a Publix beverage aisle in Kissimmee, Florida" },
+        { when: "February 24, 2026", label: "Osceola County jury awards Marcano $3,967,000, finding Publix 100% liable", current: true },
+        { when: "2026", label: "Publix moves for a new trial, challenging the medical-bill evidence allowed at trial", upcoming: true }
+      ],
+      tags: ["slip and fall", "premises liability", "grocery store", "prior notice", "Florida"]
+    },
+    {
+      id: "live-118",
+      addedDate: "2026-09-10",
+      title: "Mercado v. North Valley Construction Co. LLC (Original Saugus Café Wrongful Lockout Suit)",
+      category: "lease-disputes",
+      status: "filed",
+      date: "2026-01-14",
+      jurisdiction: "Los Angeles County Superior Court",
+      state: "CA",
+      amount: "Damages exceeding $1,000,000 sought",
+      source: "live",
+      sourceUrl: "https://www.hometownstation.com/santa-clarita-news/community-news/original-saugus-cafe-operator-alleges-wrongful-lockout-trademark-theft-in-lawsuit-578829",
+      summary: "Alfredo Mercado, longtime operator of the Original Saugus Café in Santa Clarita, sued property owners North Valley Construction Co. LLC, Larry Goodman, and Louise Arklin (individually and as trustee of the Henry Arklin Family Trust) in Los Angeles County Superior Court, alleging they changed the locks on the roughly 140-year-old restaurant on January 5, 2026 and shut down his business without any judicial eviction process. Mercado, who says he ran the café for nearly three decades under an oral month-to-month lease, also alleges the property owners tried to file trademark applications for the café's name without his consent.",
+      significance: "A clean illustration of why California's flat statutory prohibition on commercial self-help eviction -- unlike Texas and the handful of states that permit it for rent delinquency -- exposes a landlord to compensatory damages, punitive damages, and attorneys' fees the moment it changes locks without a court order, regardless of how informal or long-running the underlying tenancy was. Owners and asset managers relying on oral or informally-documented commercial tenancies in self-help-prohibited states should treat any lockout impulse as a judicial-process problem first, since the absence of a written lease does not create a self-help shortcut.",
+      body: [
+        "The Original Saugus Café, a roughly 140-year-old restaurant in Santa Clarita, California, closed abruptly on January 2, 2026, after its longtime operator, Alfredo Mercado, says the property owners verbally told him in late December 2025 that the locks would be changed on or about January 5. Mercado, who alleges he purchased and began operating the restaurant business in 1998 and ran it for nearly three decades under a long-standing oral month-to-month lease with the Arklin family, was in fact locked out on January 5, 2026.",
+        "Mercado sued North Valley Construction Co. LLC, Larry Goodman, and Louise Arklin -- individually and as trustee of the Henry Arklin Family Trust -- in Los Angeles County Superior Court on January 14, 2026, alleging breach of contract and trademark infringement, and asserting that the defendants \"locked plaintiff out of his business, ceased its operations, and ruined any and all good will of plaintiff.\" The complaint separately alleges the defendants attempted to file trademark applications covering the café's name without Mercado's knowledge or consent -- an allegation, if proven, that would compound the lockout by cutting off Mercado's ability to reopen the business under its own historic name even if he regained the physical premises.",
+        "California is one of the roughly 18 states (plus the District of Columbia) that prohibit commercial self-help eviction outright, requiring a landlord to use the judicial unlawful-detainer process regardless of the tenant's default or the formality of the underlying lease. That makes the absence of a written lease here largely irrelevant to the legal analysis: an oral month-to-month tenancy is still a tenancy, and California law gives a commercial landlord no self-help shortcut around it. Mercado's complaint seeks compensatory damages, punitive damages, attorneys' fees, and injunctive relief, alleging damages exceeding $1 million; a case management conference is set for June 23, 2026. The café itself reopened under new management within two weeks of the lockout, a separate wrinkle the litigation will need to sort out alongside the trademark dispute.",
+        "For commercial landlords generally, the case is a reminder that self-help eviction risk does not scale down with the formality of the tenancy. A landlord frustrated with a long-running oral arrangement may feel a lockout is a practical shortcut to a messy tenant relationship, but in a self-help-prohibited jurisdiction that shortcut converts what might have been a straightforward unlawful-detainer filing into exposure for punitive damages and attorneys' fees on top of whatever the underlying dispute was ever worth."
+      ],
+      timeline: [
+        { when: "Late December 2025", label: "Property owners verbally tell Mercado the locks will be changed" },
+        { when: "January 2, 2026", label: "The Original Saugus Café closes after nearly 140 years of operation" },
+        { when: "January 5, 2026", label: "Property owners change the locks, locking Mercado out of the business" },
+        { when: "January 14, 2026", label: "Mercado sues North Valley Construction Co. LLC and the Arklin family in Los Angeles County Superior Court", current: true },
+        { when: "June 23, 2026", label: "Case management conference scheduled", upcoming: true }
+      ],
+      tags: ["wrongful lockout", "self-help eviction", "commercial lease dispute", "restaurant", "California"]
     }
   ],
 
@@ -3586,7 +3697,11 @@ const RELAW_DATA = {
     { jurisdiction: "Arkansas Court of Appeals", url: "https://arcourts.gov/courts/court-of-appeals" },
     { jurisdiction: "Supreme Court of Mississippi", url: "https://courts.ms.gov/appellatecourts/sc/sc.php" },
     { jurisdiction: "U.S. District Court, Western District of Washington", url: "https://www.wawd.uscourts.gov/" },
-    { jurisdiction: "Grafton Superior Court, New Hampshire", url: "https://www.courts.nh.gov/your-visit/find-court/grafton-superior-court" }
+    { jurisdiction: "Grafton Superior Court, New Hampshire", url: "https://www.courts.nh.gov/your-visit/find-court/grafton-superior-court" },
+    { jurisdiction: "Supreme Court of Indiana", url: "https://www.in.gov/courts/supreme/" },
+    { jurisdiction: "Harris County District Court, Texas", url: "https://www.hcdistrictclerk.com/" },
+    { jurisdiction: "Ninth Judicial Circuit Court, Osceola County, Florida", url: "https://ninthcircuit.org/" },
+    { jurisdiction: "Los Angeles County Superior Court", url: "https://www.lacourt.org/" }
   ],
 
   /* Judges — background on every judge named in our sourced reporting (never
