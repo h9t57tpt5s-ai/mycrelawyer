@@ -524,7 +524,7 @@
       });
     }
 
-    if (followupContext) wireFollowupForm(followupContext.documentText, followupContext.userSide, followupContext.description);
+    if (followupContext) wireFollowupForm(followupContext.documentText, followupContext.userSide, followupContext.description, facts);
   }
 
   // Wires the "Add More Information" form that renderAiResult appends
@@ -535,7 +535,10 @@
   // nothing already shown is lost. priorDescription is the original
   // freeform case description from the initial analysis -- re-sent as-is
   // on every follow-up since the request contract always requires it.
-  function wireFollowupForm(priorDocumentText, priorUserSide, priorDescription) {
+  // priorExtractedFacts is the previous pass's structured extraction
+  // (json.extractedFacts) -- see its use below, right where the combined
+  // text gets built, for why it has to travel separately from the raw text.
+  function wireFollowupForm(priorDocumentText, priorUserSide, priorDescription, priorExtractedFacts) {
     const SPINNER = `<span class="cv-spinner" aria-hidden="true"></span>`;
     const dropzone = document.getElementById("cv-followup-dropzone");
     const fileInput = document.getElementById("cv-followup-file");
@@ -614,19 +617,48 @@
           );
         }
 
+        // BUG THIS FIXES: when newInfoText alone was already close to (or
+        // over) MAX_DOC_CHARS, "trim the older material first" meant the
+        // ENTIRE original document could get silently dropped -- not just
+        // shortened -- leaving the backend with nothing but the new
+        // document. A reply brief with no dollar figures of its own then
+        // reported "can't estimate a dollar value" even though the
+        // original petition/lease (now completely gone from the request)
+        // had every figure needed. Raising MAX_DOC_CHARS isn't the fix --
+        // it's deliberately capped below the server's own ceiling after a
+        // real Supabase free-tier timeout on a 3-document submission (see
+        // the comment on MAX_DOC_CHARS above).
+        //
+        // Fix: carry the PREVIOUS PASS'S ALREADY-EXTRACTED FACTS forward
+        // as a compact, never-trimmed summary, separate from the raw
+        // document text. It's a handful of short field:value pairs --
+        // orders of magnitude smaller than the raw text it came from --
+        // so it always fits, and it means a known dollar figure can never
+        // be lost to truncation again even if the raw prior text has to
+        // be cut down hard (or dropped entirely) to make room for a large
+        // new document.
+        const priorFactsSummary = priorExtractedFacts && Object.keys(priorExtractedFacts).length
+          ? "=== Facts already established from the prior document(s) in this analysis -- these are CONFIRMED, carry them forward even though the newly added material below may not repeat them ===\n" +
+            Object.entries(priorExtractedFacts)
+              .filter(([, v]) => v !== null && v !== undefined && v !== "")
+              .map(([k, v]) => `${k}: ${v}`)
+              .join("\n").slice(0, 4000) + "\n\n"
+          : "";
+
         // Combine with everything already analyzed. If the total would
         // exceed the same cap the initial analysis uses, trim from the
         // OLDER material first, not the new addition -- new information
         // is the entire point of this request, so it should never be
-        // the part silently dropped.
+        // the part silently dropped. The confirmed-facts summary above is
+        // reserved off the top and never trimmed, regardless.
         const header = "\n\n=== Additional Information (added after the initial analysis) ===\n";
-        const roomForPrior = MAX_DOC_CHARS - header.length - newInfoText.length;
+        const roomForPrior = MAX_DOC_CHARS - priorFactsSummary.length - header.length - newInfoText.length;
         let combinedText;
         if (roomForPrior < 0) {
-          combinedText = newInfoText.slice(0, MAX_DOC_CHARS);
+          combinedText = (priorFactsSummary + newInfoText).slice(0, MAX_DOC_CHARS);
         } else {
           const trimmedPrior = priorDocumentText.length > roomForPrior ? priorDocumentText.slice(0, roomForPrior) : priorDocumentText;
-          combinedText = trimmedPrior + header + newInfoText;
+          combinedText = priorFactsSummary + trimmedPrior + header + newInfoText;
         }
 
         const { data: { session } } = await sb.auth.getSession();
