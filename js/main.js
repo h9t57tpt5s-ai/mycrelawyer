@@ -182,6 +182,50 @@
     tickerTrack.innerHTML = html;
   }
 
+  /* ---------- Hero "Live docket" (homepage only) ----------
+     Was a decorative schematic-skyline SVG; replaced with the 3 most
+     recently filed real tracked matters, styled as a stack of filed
+     papers. Real data only -- same recency sort the ticker above uses
+     (the underlying legal event's own date, not when we added it). */
+  const docketStack = document.getElementById("hero-docket-stack");
+  const docketCount = document.getElementById("docket-label-count");
+  if (docketStack && typeof RELAW_DATA !== "undefined") {
+    const catMap = Object.fromEntries(RELAW_DATA.categories.map((c) => [c.id, c]));
+    const statusMap = Object.fromEntries(RELAW_DATA.statuses.map((s) => [s.id, s]));
+    const featured = [...RELAW_DATA.cases]
+      .sort((a, b) => new Date(b.date) - new Date(a.date))
+      .slice(0, 3);
+
+    if (docketCount) {
+      docketCount.textContent = `${RELAW_DATA.cases.length} matters tracked`;
+    }
+
+    // Real matter ids look like "live-130" -- the docket number below is
+    // that same number, just formatted like a real case caption instead
+    // of a raw slug, not a fabricated one.
+    const docketNo = (id) => {
+      const n = (id.match(/(\d+)$/) || [, "0"])[1].padStart(4, "0");
+      return `No. 26-CRE-${n}`;
+    };
+
+    docketStack.innerHTML = featured.map((c) => {
+      const cat = catMap[c.category];
+      const status = statusMap[c.status];
+      return `
+        <article class="docket-card" data-case-id="${c.id}">
+          <div class="docket-card-top">
+            <span class="docket-card-no"><span class="dot" style="background:${cat.color}"></span>${docketNo(c.id)}</span>
+            <span class="status-pill" style="color:${status.color}"><span class="dot" style="background:${status.color}"></span>${status.label}</span>
+          </div>
+          <h4>${c.title}</h4>
+          <div class="docket-card-meta">
+            <span>${formatDate(c.date)}</span>
+            <span>${cat.label}</span>
+          </div>
+        </article>`;
+    }).join("");
+  }
+
   function formatDate(iso) {
     const d = new Date(iso + "T00:00:00");
     return d.toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric" });

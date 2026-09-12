@@ -23,6 +23,13 @@
   --accent-deep: #1b2e99;
   --accent-wash: rgba(51, 85, 255, 0.08);
 
+  /* Redline -- a legal-filing-stamp red, distinct from --ui-danger (that's
+     generic "something failed"; this is "this is real, filed, current" --
+     the mark a docket stamp or a redlined document actually uses). Spent
+     in exactly one place: the homepage's "Live docket" stamp. Not a status
+     or category color, and not meant to spread beyond that one accent. */
+  --redline: #b3261e;
+
   /* Category & status colors -- rebuilt in OKLCH (2026-09).
      The previous 14 values were byte-for-byte stock Tailwind swatches
      (e.g. #2563eb is exactly blue-600) sharing no perceptual relationship
@@ -392,10 +399,9 @@ h3, .h3 {
 /* ---------- Hero ---------- */
 .hero {
   position: relative;
-  min-height: 100vh;
   display: flex;
   align-items: center;
-  padding-top: 120px;
+  padding: 148px 0 96px;
   overflow: hidden;
 }
 .hero-glow {
@@ -481,9 +487,6 @@ h3, .h3 {
   .hero-pill { padding: 12px 18px; font-size: 13.5px; }
 }
 
-.skyline-wrap { position: relative; }
-.skyline-wrap svg { width: 100%; height: auto; overflow: visible; }
-.skyline-wrap .parallax-layer { will-change: transform; }
 
 /* ---------- Ticker ---------- */
 .ticker {
@@ -861,29 +864,75 @@ h3, .h3 {
 .cta-photo-card h2, .cta-photo-card p, .cta-photo-card .text-secondary { color: rgba(255,255,255,0.92); }
 .cta-photo-card .btn-ghost { border-color: rgba(255,255,255,0.35); color: #fff; }
 
-/* ---------- Hero photo backdrop (homepage) ---------- */
+/* ---------- Hero backdrop (homepage) ----------
+   Was a stock skyline photo (dallas.jpg) under a brand-color wash, with a
+   separate schematic-skyline SVG floating on top of it in the right
+   column -- two competing renderings of "a skyline" in the same shot,
+   and the photo read as generic real-estate-marketing stock art rather
+   than anything specific to a litigation-intelligence product. Replaced
+   with a plain ruled-paper texture (this product's actual material is
+   filings and dockets, not skylines) and the right column now shows the
+   real, live docket instead of a decorative building. */
 .hero { position: relative; overflow: hidden; }
-.hero-photo { position: absolute; inset: 0; z-index: 0; overflow: hidden; opacity: 0.62; }
-.hero-photo img {
-  width: 100%; height: 100%; object-fit: cover; object-position: center 38%;
-  filter: saturate(0.92) brightness(0.8) contrast(1.05);
-  animation: kenburns 34s ease-in-out infinite alternate;
-}
-/* Brand-color wash for cohesion with the accent palette, on top of the photo's
-   own warm tones -- gives the hero a distinct, premium "signature" look rather
-   than a generic stock photo. */
-.hero-photo::before {
-  content: ""; position: absolute; inset: 0; z-index: 1;
-  background: linear-gradient(160deg, rgba(27,46,153,0.38) 0%, rgba(51,85,255,0.12) 45%, rgba(27,46,153,0.3) 100%);
-  mix-blend-mode: multiply;
-}
-.hero-photo::after {
-  content: ""; position: absolute; inset: 0; z-index: 1;
-  background:
-    linear-gradient(100deg, var(--bg) 0%, var(--bg) 26%, rgba(242,243,246,0.72) 42%, rgba(242,243,246,0.18) 62%, transparent 82%),
-    linear-gradient(180deg, transparent 55%, var(--bg) 100%);
+.hero-ruled {
+  position: absolute; inset: 0; z-index: 0; pointer-events: none;
+  background-image: repeating-linear-gradient(180deg, var(--border-soft) 0, var(--border-soft) 1px, transparent 1px, transparent 44px);
+  -webkit-mask-image: linear-gradient(180deg, transparent 0, rgba(0,0,0,0.55) 30%, rgba(0,0,0,0.55) 78%, transparent 100%);
+  mask-image: linear-gradient(180deg, transparent 0, rgba(0,0,0,0.55) 30%, rgba(0,0,0,0.55) 78%, transparent 100%);
+  opacity: 0.6;
 }
 .hero-grid { position: relative; z-index: 1; }
+
+.hero h1 em {
+  font-style: italic;
+  color: var(--accent-deep);
+}
+
+/* ---------- Live docket (hero, right column) ----------
+   Three of the actual most-recently-filed tracked matters, fanned like a
+   stack of real papers -- built from RELAW_DATA in js/main.js, never
+   placeholder text, and each card is a real [data-case-id] so the site's
+   existing global click handler opens its real detail panel. */
+.docket-wrap { position: relative; padding-top: 4px; }
+.docket-label {
+  display: flex; align-items: center; gap: 10px; margin-bottom: 22px;
+  font-family: var(--font-mono); font-size: 11.5px; color: var(--text-muted);
+  letter-spacing: 0.04em;
+}
+.docket-label-stamp {
+  display: inline-flex; align-items: center; gap: 6px;
+  padding: 4px 10px; border-radius: var(--radius-sm);
+  border: 1px solid color-mix(in srgb, var(--redline) 45%, transparent);
+  color: var(--redline); text-transform: uppercase; font-weight: 700;
+  letter-spacing: 0.08em;
+}
+.docket-label-stamp::before {
+  content: ""; width: 6px; height: 6px; border-radius: 50%;
+  background: var(--redline); flex-shrink: 0;
+  animation: pill-pulse 1.8s ease-in-out infinite;
+}
+
+.docket-stack { display: flex; flex-direction: column; }
+.docket-card {
+  display: block; background: var(--bg-elevated); border: 1px solid var(--border);
+  border-radius: var(--radius-md); box-shadow: var(--shadow-sm);
+  padding: 18px 20px; cursor: pointer;
+  transition: transform 0.35s var(--ease), box-shadow 0.35s ease, border-color 0.3s ease;
+}
+.docket-card + .docket-card { margin-top: -14px; }
+.docket-stack .docket-card:nth-child(1) { transform: rotate(-1.4deg); z-index: 3; }
+.docket-stack .docket-card:nth-child(2) { transform: rotate(1deg); z-index: 2; }
+.docket-stack .docket-card:nth-child(3) { transform: rotate(-0.6deg); z-index: 1; }
+.docket-card:hover {
+  transform: rotate(0deg) translateY(-6px) scale(1.015);
+  box-shadow: var(--shadow-md); border-color: var(--accent-deep); z-index: 4;
+}
+.docket-card-top { display: flex; align-items: center; justify-content: space-between; gap: 10px; margin-bottom: 10px; }
+.docket-card-no { display: flex; align-items: center; gap: 8px; font-family: var(--font-mono); font-size: 11px; color: var(--text-muted); letter-spacing: 0.03em; }
+.docket-card-no .dot { width: 7px; height: 7px; border-radius: 50%; flex-shrink: 0; }
+.docket-card h4 { font-family: var(--font-display); font-size: 15.5px; font-weight: 600; line-height: 1.35; margin: 0 0 8px; color: var(--text-primary); }
+.docket-card-meta { display: flex; align-items: center; justify-content: space-between; gap: 10px; font-size: 11.5px; color: var(--text-muted); font-family: var(--font-mono); padding-top: 10px; border-top: 1px solid var(--border-soft); }
+@media (max-width: 980px) { .docket-wrap { margin-top: 8px; } }
 
 /* ---------- US jurisdiction map ---------- */
 .usmap-wrap { max-width: 780px; margin: 0 auto; }
