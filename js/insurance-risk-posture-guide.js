@@ -85,22 +85,53 @@
     return parts.join(" ");
   }
 
-  function stateOptionsHtml(states) {
-    return `<option value="">— Select a state —</option>` + states.map((s) => `<option value="${s}">${s}</option>`).join("");
+  // Same fault-rule color coding js/premises-liability-guide.js uses for
+  // its own state grid, so a state card means the same thing (visually)
+  // wherever it appears on the site.
+  const FAULT_RULE_COLORS = {
+    "Pure Contributory": "var(--cat-construction)",
+    "Modified Comparative (50% Bar)": "var(--cat-reit)",
+    "Modified Comparative (51% Bar)": "var(--cat-landlord)",
+    "Pure Comparative": "var(--cat-zoning)",
+    "Slight/Gross (unique -- see note)": "var(--cat-lending)",
+  };
+  function ruleColor(rule) { return FAULT_RULE_COLORS[rule] || "var(--text-muted)"; }
+  function ruleShortLabel(rule) {
+    if (rule === "Slight/Gross (unique -- see note)") return "Slight/Gross (SD only)";
+    return rule || "Not researched";
   }
 
   function renderStatePicker() {
-    const select = el("#irp-state");
+    const grid = el("#irp-state-grid");
     const host = el("#irp-state-result");
-    if (!select || typeof CASE_VALUATION_DATA === "undefined") return;
+    if (!grid || typeof CASE_VALUATION_DATA === "undefined") return;
     const MODS = CASE_VALUATION_DATA.premisesLiabilityStateModifiers;
     if (!MODS) return;
     const states = Object.keys(MODS).sort();
-    select.innerHTML = stateOptionsHtml(states);
 
-    select.addEventListener("change", () => {
-      const name = select.value;
-      if (!name) { host.innerHTML = ""; return; }
+    // Same .eg-state-card/.eg-state-grid component the two handbook
+    // pages use (css/eviction-guide.css, already loaded here) -- was a
+    // native <select> before, which hides all 51 options behind one
+    // click; a grid can be scanned at a glance instead.
+    grid.innerHTML = states.map((name) => `
+      <button type="button" class="eg-state-card" data-state="${name}">
+        <div>
+          <div class="eg-state-card-name">${name}</div>
+          <div class="eg-state-card-meta">
+            <span class="eg-state-card-class" style="color:${ruleColor(MODS[name].faultRule)};">${ruleShortLabel(MODS[name].faultRule)}</span>
+          </div>
+        </div>
+      </button>`).join("");
+
+    grid.querySelectorAll(".eg-state-card").forEach((card) => {
+      card.addEventListener("click", () => {
+        const name = card.getAttribute("data-state");
+        grid.querySelectorAll(".eg-state-card").forEach((c) => c.classList.toggle("is-active", c === card));
+        renderStateResult(name);
+      });
+    });
+
+    function renderStateResult(name) {
       const m = MODS[name];
       const faultText = FAULT_RULE_IMPLICATIONS[m.faultRule] || "This state's comparative/contributory fault rule wasn't mapped to a specific insurance implication here — see its chapter in the Premises Liability Guide and discuss the fault rule directly with your broker.";
       const secText = NEGLIGENT_SECURITY_IMPLICATIONS[m.negligentSecurityTestNormalized] || "This state's negligent-security foreseeability test wasn't mapped to a specific insurance implication here — see its chapter in the Premises Liability Guide for the underlying rule.";
@@ -125,7 +156,8 @@
         </div>
         <p class="text-muted mt-16" style="font-size:12px;"><a href="premises-liability-guide.html" class="text-accent" style="display:inline;">Read ${name}'s full Premises Liability Guide chapter for the underlying legal analysis and citations →</a></p>
       `;
-    });
+      host.scrollIntoView({ behavior: "smooth", block: "nearest" });
+    }
   }
 
   renderDisclaimer();

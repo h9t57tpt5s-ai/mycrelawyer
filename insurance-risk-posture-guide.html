@@ -51,7 +51,6 @@
           <a href="calendar.html">Litigation Calendar</a>
           <a href="regulatory.html">Regulatory Issues</a>
           <a href="account.html">Watchlists</a>
-          <a href="contribute-settlement.html">Contribute a Settlement (Earn Credits)</a>
         </div>
       </li>
       <li class="nav-item has-dropdown">
@@ -88,6 +87,7 @@
           <a href="lien-deadline-calculator.html">Mechanic's Lien Deadline Calculator</a>
           <a href="ada-risk-flagging.html">ADA Title III Risk Flagging</a>
           <a href="premises-liability-checklist.html">Premises Liability Checklist (Manager Edition)</a>
+          <a href="contribute-settlement.html">Contribute a Settlement (Earn Credits)</a>
         </div>
       </li>
       <li class="nav-item has-dropdown">
@@ -138,7 +138,7 @@
     <h1 class="reveal in-view" style="font-size:clamp(2.2rem,4vw,3.4rem);">Insurance &amp; Risk Posture Guide</h1>
     <p class="lede mt-16 reveal in-view">The Premises Liability Guide tells you what a claimant must prove, and what a state's punitive-damages exposure looks like. This translates that same state-by-state data into what CGL/umbrella coverage — and what you require from tenants and contractors — should actually follow from it.</p>
     <div class="hero-actions reveal in-view mt-24" style="justify-content:flex-start;">
-      <a href="#irp-tool" class="hero-pill hero-pill-primary">
+      <a href="#irp-state-grid" class="hero-pill hero-pill-primary">
         Check your state's coverage requirements
         <svg viewBox="0 0 24 24" fill="none" width="15" height="15"><path d="M12 5v14m0 0l-6-6m6 6l6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
       </a>
@@ -202,10 +202,7 @@
       </div>
     </div>
     <p class="text-secondary reveal" style="max-width:720px; margin-bottom:20px;">Pulled directly from the same 51-jurisdiction table behind the <a href="premises-liability-guide.html" class="text-accent" style="display:inline;">Premises Liability Guide</a> and the Case Value Calculator's Premises Liability category — every sentence below traces to a field in that table, translated into what it should mean for your coverage, not a new legal claim.</p>
-    <div class="irp-state-select-row reveal" id="irp-tool">
-      <label for="irp-state">Select a state</label>
-      <select id="irp-state"></select>
-    </div>
+    <div class="eg-state-grid" id="irp-state-grid" style="scroll-margin-top:100px;"></div>
     <div id="irp-state-result"></div>
   </div>
 </section>

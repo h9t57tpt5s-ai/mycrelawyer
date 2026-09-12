@@ -5,15 +5,8 @@
 .irp-require-list { margin: 0; padding-left: 20px; font-size: 13.5px; line-height: 1.8; color: var(--text-secondary); }
 .irp-require-list li { margin-bottom: 10px; }
 
-.irp-state-select-row { max-width: 420px; margin-bottom: 8px; }
-.irp-state-select-row label { display: block; font-family: var(--font-mono); font-size: 11.5px; color: var(--text-muted); margin-bottom: 6px; }
-.irp-state-select-row select {
-  width: 100%;
-  padding: 12px 14px;
-  border-radius: var(--radius-md);
-  border: 1px solid var(--border);
-  background: var(--bg-elevated);
-  color: var(--text-primary);
-  font-size: 14px;
-  font-family: inherit;
-}
+/* State picker itself (.eg-state-grid / .eg-state-card) is the shared
+   component from css/eviction-guide.css, already loaded on this page --
+   was a native <select> here, unified to match the scannable grid the
+   two handbook pages use (a dropdown hides 51 options behind one click;
+   a grid can be scanned). Nothing page-specific left to style. */

@@ -49,7 +49,6 @@
           <a href="calendar.html">Litigation Calendar</a>
           <a href="regulatory.html">Regulatory Issues</a>
           <a href="account.html">Watchlists</a>
-          <a href="contribute-settlement.html">Contribute a Settlement (Earn Credits)</a>
         </div>
       </li>
       <li class="nav-item has-dropdown">
@@ -86,6 +85,7 @@
           <a href="lien-deadline-calculator.html">Mechanic's Lien Deadline Calculator</a>
           <a href="ada-risk-flagging.html">ADA Title III Risk Flagging</a>
           <a href="premises-liability-checklist.html">Premises Liability Checklist (Manager Edition)</a>
+          <a href="contribute-settlement.html">Contribute a Settlement (Earn Credits)</a>
         </div>
       </li>
       <li class="nav-item has-dropdown">
@@ -131,7 +131,8 @@
   <div class="container">
     <div class="eyebrow reveal in-view">Guides</div>
     <h1 class="reveal in-view" style="font-size:clamp(2.2rem,4vw,3.4rem);">State-by-state litigation guides</h1>
-    <p class="lede mt-16 reveal in-view">A single index of every state-specific practice-area page CREdocket publishes — the real matters tracked in that state, for that category, with citations. Nine states so far; more as coverage grows.</p>
+    <p class="lede mt-16 reveal in-view">Every state with a tracked matter, broken down by practice area — plus the deep-dive guides CREdocket has published for specific state/category combinations, where one exists.</p>
+    <p class="text-muted mono mt-16 reveal in-view" id="state-guides-count" style="font-size:12.5px;"></p>
   </div>
 </header>
 
@@ -244,25 +245,59 @@
       { state: "Texas", href: "texas-lending-foreclosure.html", category: "Lending & Foreclosure", count: 1 },
     ];
 
+    // GUIDES entries are keyed by the SAME full state name RELAW_DATA.states
+    // resolves 2-letter codes to, so they line up with the real per-state
+    // data below without a separate lookup table.
+    const guidesByState = {};
+    GUIDES.forEach((g) => { (guidesByState[g.state] = guidesByState[g.state] || []).push(g); });
+
+    // The actual fix: this used to list ONLY the 13 states/categories that
+    // happen to have one of the hand-authored deep-dive pages above --
+    // real tracked matters exist in 46 states, so a hub calling itself
+    // "state-by-state" was quietly missing 37 of them. Built directly from
+    // RELAW_DATA.cases instead, covering every state with at least one
+    // tracked matter; the 13 deep-dive pages still surface as a bonus
+    // "Read the deep-dive guide" link wherever one exists for that state.
+    const catMap = Object.fromEntries(RELAW_DATA.categories.map((c) => [c.id, c]));
     const byState = {};
-    GUIDES.forEach((g) => { (byState[g.state] = byState[g.state] || []).push(g); });
-    const states = Object.keys(byState).sort();
+    RELAW_DATA.cases.forEach((c) => {
+      if (!c.state) return;
+      const name = RELAW_DATA.states[c.state];
+      if (!name) return;
+      if (!byState[name]) byState[name] = { total: 0, categories: {} };
+      byState[name].total++;
+      byState[name].categories[c.category] = (byState[name].categories[c.category] || 0) + 1;
+    });
+    const stateNames = Object.keys(byState).sort();
 
     const host = document.getElementById("state-guides-host");
-    host.innerHTML = states.map((state) => `
+    document.getElementById("state-guides-count").textContent =
+      `${stateNames.length} states with tracked matters` + (Object.keys(guidesByState).length ? ` · ${GUIDES.length} deep-dive guides across ${Object.keys(guidesByState).length} of them` : "");
+
+    host.innerHTML = stateNames.map((name) => {
+      const s = byState[name];
+      const catChips = Object.entries(s.categories)
+        .sort((a, b) => b[1] - a[1])
+        .map(([catId, count]) => {
+          const cat = catMap[catId];
+          const color = cat ? cat.color : "var(--text-muted)";
+          return `<span style="display:inline-flex; align-items:center; gap:6px; font-size:12px; color:var(--text-secondary);">
+            <span style="width:7px; height:7px; border-radius:50%; background:${color}; flex-shrink:0;"></span>${cat ? cat.label : catId} (${count})
+          </span>`;
+        }).join("");
+      const guideLinks = (guidesByState[name] || []).map((g) =>
+        `<a href="${g.href}" class="text-accent" style="display:inline-flex; font-size:12.5px;">${g.category} deep-dive guide &rarr;</a>`
+      ).join("");
+      return `
       <div class="card reveal in-view" style="margin-bottom:16px; padding:24px 28px;">
-        <h3 style="font-size:1.1rem; margin-bottom:14px;">${state}</h3>
-        <div style="display:flex; flex-direction:column; gap:10px;">
-          ${byState[state].map((g) => {
-            const cat = RELAW_DATA.categories.find((c) => c.label === g.category);
-            const color = cat ? cat.color : "var(--text-muted)";
-            return `<a href="${g.href}" style="display:flex; align-items:center; justify-content:space-between; gap:12px; font-size:13.5px; color:var(--text-secondary);">
-              <span style="display:flex; align-items:center; gap:8px;"><span style="width:7px; height:7px; border-radius:50%; background:${color}; flex-shrink:0;"></span>${g.category}</span>
-              <span class="text-muted mono" style="font-size:11.5px; flex-shrink:0;">${g.count} matter${g.count === 1 ? "" : "s"} &rarr;</span>
-            </a>`;
-          }).join("")}
+        <div style="display:flex; align-items:baseline; justify-content:space-between; gap:12px; flex-wrap:wrap; margin-bottom:12px;">
+          <h3 style="font-size:1.1rem;">${name}</h3>
+          <a href="litigation.html?state=${Object.keys(RELAW_DATA.states).find((code) => RELAW_DATA.states[code] === name)}" class="text-accent mono" style="font-size:11.5px;">${s.total} matter${s.total === 1 ? "" : "s"} &rarr;</a>
         </div>
-      </div>`).join("");
+        <div style="display:flex; flex-wrap:wrap; gap:10px 16px; margin-bottom:${guideLinks ? "14px" : "0"};">${catChips}</div>
+        ${guideLinks ? `<div style="display:flex; flex-wrap:wrap; gap:6px 16px; padding-top:12px; border-top:1px solid var(--border-soft);">${guideLinks}</div>` : ""}
+      </div>`;
+    }).join("");
   })();
 </script>
 </body>
