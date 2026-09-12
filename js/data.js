@@ -16,7 +16,7 @@ const RELAW_DATA = {
      Drives the homepage's "New Today" pill: it only shows when this
      equals the visitor's local today. Updated by the digest automation
      each time Step 4 successfully adds a case — never touched otherwise. */
-  lastUpdatedDate: "2026-09-11",
+  lastUpdatedDate: "2026-09-12",
   categories: [
     { id: "landlord-tenant", label: "Landlord–Tenant", color: "var(--cat-landlord)" },
     { id: "zoning-land-use", label: "Zoning & Land Use", color: "var(--cat-zoning)" },
@@ -3650,6 +3650,71 @@ const RELAW_DATA = {
       ],
       judge: "George H. Wu",
       tags: ["reit", "securities fraud", "life science", "lab space", "impairment", "california"]
+    },
+    {
+      id: "live-129",
+      addedDate: "2026-09-12",
+      title: "LDG Development, LLC v. City of Prospect, Kentucky (Prospect Cove Fair Housing Zoning-Denial Verdict)",
+      category: "zoning-land-use",
+      status: "ruling",
+      date: "2026-08-26",
+      jurisdiction: "Jefferson Circuit Court, Kentucky",
+      state: "KY",
+      amount: "$36.3M jury verdict, including approximately $7.3M in punitive damages",
+      source: "live",
+      sourceUrl: "https://www.law360.com/real-estate-authority/residential/articles/2518782",
+      summary: "A Jefferson County jury awarded affordable-housing developer LDG Development $36.3 million against the City of Prospect, Kentucky, finding on five of eight submitted counts that the town's 2017 rejection of a zoning change for a 198-unit senior apartment complex violated the federal Fair Housing Act and the Equal Protection Clause. The verdict, including roughly $7.3 million in punitive damages, follows a two-week trial and caps litigation LDG first filed in 2017; co-defendant Louisville Metro Government had already settled separately in 2025 for $6 million.",
+      significance: "Puts a concrete, nine-figure price on a zoning board's rejection of affordable housing where the record shows the denial was pretextual, giving developers a strong deterrent precedent against municipalities that use land-use process to exclude protected classes of prospective tenants. Municipal counsel and zoning bodies elsewhere should treat undocumented departures from planning-staff recommendations, driven by organized opposition focused on prospective residents rather than legitimate land-use criteria, as carrying real fair-housing exposure.",
+      body: [
+        "A Jefferson County, Kentucky jury has ordered the City of Prospect to pay more than $36.3 million to affordable-housing developer LDG Development, finding that the wealthy Louisville suburb's decade-old rejection of a proposed 198-unit senior apartment complex violated the federal Fair Housing Act and the Equal Protection Clause. The verdict, returned August 26, 2026 after a two-week trial in Jefferson Circuit Court, includes roughly $7.3 million in punitive damages and closes out litigation that began in 2017, when local officials voted down a zoning change needed to build the project. For commercial developers, municipal land-use bodies, and the neighborhood groups that often pressure them, the case is a rare instance of a jury putting a concrete, nine-figure price tag on a zoning denial found to be discriminatory.",
+        "The dispute traces to LDG's proposal, first submitted around 2016, to build Prospect Cove, a four-story, 198-unit affordable apartment complex for seniors, including residents with disabilities, on land near the intersection of River Road and Timber Ridge Drive in Prospect. City and county planning staff initially reviewed the application favorably, but the Louisville Metro Council, which held final say over the necessary zoning change, rejected it in a 14-11 vote in 2017. LDG sued that year, naming both Louisville Metro Government and the City of Prospect, and alleging that the denial was not a legitimate land-use decision but a pretext for excluding low-income and, the complaint argued, disproportionately Black tenants from an affluent, largely white suburb.",
+        "The nearly decade-long litigation moved in fits and starts, including an early setback for LDG when a trial-level ruling upheld the rejection, before the case eventually proceeded toward trial on claims against both government defendants. Louisville Metro Government broke from the City of Prospect first, agreeing in August 2025 to a $6 million settlement that also committed city officials to legislative changes intended to streamline the approval process for future affordable-housing applications, leaving Prospect as the sole remaining defendant when the case went to trial in March 2026.",
+        "The jury sided with LDG on five of eight counts submitted for its consideration, awarding damages that credited the developer's claims of lost value and delay-related costs tied to the years-long fight to build the project, along with punitive damages reflecting a finding that Prospect's conduct went beyond ordinary land-use disagreement. LDG has said it intends to move forward with construction of the senior housing complex, targeting a groundbreaking in late 2026 or early 2027, meaning the project Prospect spent nearly a decade fighting will likely still get built, just years later and considerably more expensively for the city that resisted it.",
+        "The case sits at the intersection of municipal zoning discretion and federal fair-housing liability. Local governments generally enjoy substantial deference over land-use decisions, but that deference evaporates once a plaintiff can show a facially neutral zoning process was, in substance, a vehicle for excluding a protected class of prospective residents. Discovery in Fair Housing Act zoning cases frequently turns up exactly the kind of evidence that can convert a routine land-use dispute into a discrimination claim: council members' informal communications with organized opposition groups, staff recommendations reversed without a clear planning rationale, and a record showing comparable projects proposed elsewhere moved through the same approval process without similar resistance.",
+        "For developers building affordable or income-restricted housing in higher-income suburban jurisdictions, the practical lesson is to preserve records of a project's planning merits, staff recommendations, and any public comments that focus on prospective tenants rather than legitimate land-use criteria, since that record is exactly what can later convert a zoning loss into a fair-housing damages claim. For municipal counsel and elected zoning bodies, the lesson runs the other way: a denial that departs from staff recommendations, follows organized opposition centered on the type of resident a project would serve, and lacks a documented planning rationale now carries a demonstrated risk of a nine-figure jury verdict, on top of the likelihood that the rejected project gets built anyway once the litigation runs its course."
+      ],
+      timeline: [
+        { when: "2016", label: "LDG Development submits its Prospect Cove zoning application for a 198-unit senior apartment complex" },
+        { when: "2017", label: "Louisville Metro Council rejects the zoning change 14-11; LDG sues Louisville Metro Government and the City of Prospect" },
+        { when: "August 2025", label: "Louisville Metro Government settles separately with LDG for $6 million" },
+        { when: "March 2026", label: "Trial begins against the City of Prospect in Jefferson Circuit Court" },
+        { when: "August 26, 2026", label: "Jury awards LDG $36.3 million, including $7.3 million in punitive damages", current: true }
+      ],
+      tags: ["fair housing", "zoning denial", "affordable housing", "equal protection", "kentucky"]
+    },
+    {
+      id: "live-130",
+      addedDate: "2026-09-12",
+      title: "Town of Nahant v. Northeastern University (East Point Eminent Domain Reversal)",
+      category: "eminent-domain",
+      status: "ruling",
+      date: "2026-09-03",
+      jurisdiction: "Massachusetts Supreme Judicial Court",
+      state: "MA",
+      amount: "~$2.2M taking value estimated by the town; Northeastern has signaled it will contest that figure and warned of up to $9M in potential delay damages if the taking had been abandoned",
+      source: "live",
+      sourceUrl: "https://law.justia.com/cases/massachusetts/supreme-court/2026/sjc-13844.html",
+      summary: "The Massachusetts Supreme Judicial Court reversed two lower court rulings and held that the Town of Nahant may proceed with an eminent domain taking of roughly 12.5 acres of Northeastern University's East Point land, rejecting the university's argument that the taking was an unlawful pretext for blocking its Marine Science Center expansion. Justice Elizabeth Dewar's September 3, 2026 opinion found the town's conservation and open-space purpose genuine and independently documented, even though stopping the university's project was also part of its motivation.",
+      significance: "Narrows the 'bad faith'/pretext defense that institutional and commercial landowners have relied on to challenge municipal takings aimed at blocking their development plans, holding that a mixed motive does not defeat an otherwise genuine, independently documented public purpose. Institutional owners facing local opposition dressed up as a conservation or open-space taking should expect real judicial deference to a municipality's declared rationale where that rationale predates the specific development dispute.",
+      body: [
+        "The Massachusetts Supreme Judicial Court has ruled that the Town of Nahant may proceed with an eminent domain taking of roughly 12.5 acres of Northeastern University land on the town's East Point peninsula, reversing two lower court decisions that had sided with the university and reviving an eight-year dispute over whether a municipality can use its condemnation power to stop a private landowner's development plans. The decision, issued September 3, 2026 in Town of Nahant v. Northeastern University, is authored by Justice Elizabeth Dewar and turns on a question that reaches well beyond one small coastal town: how much scrutiny courts should give a municipality's stated public purpose when the same taking also happens to block a project the town opposed for other reasons.",
+        "East Point is a roughly 28.7-acre peninsula that the federal government originally acquired by eminent domain in 1941 for a military installation before the land eventually passed into private and institutional hands, with Northeastern acquiring the bulk of the parcel and operating its Marine Science Center there, while the town retained a smaller parcel at the tip that it has long maintained as a public park. Tensions escalated in 2018, when Northeastern announced plans to expand the Marine Science Center with new construction on its undeveloped acreage, drawing organized opposition from residents concerned about losing one of the town's last significant stretches of open coastal land. Nahant voters in 2021 authorized the town's Board of Selectmen to acquire conservation and access easements over the disputed acreage through eminent domain, formally taking the position that the land should remain open space rather than campus infrastructure.",
+        "Northeastern challenged the taking, and for several years the university had the better of the litigation. In April 2024, a judge of the Essex Superior Court invalidated Nahant's eminent domain order, concluding that the town had acted in bad faith because its dominant purpose was blocking the university's expansion rather than genuinely preserving the land for conservation, a distinction that matters because eminent domain doctrine requires that a taking serve an actual public purpose rather than functioning as pretext for a less legitimate objective. The Massachusetts Appeals Court affirmed that reasoning later that year, finding the town had no reasonable expectation of following through on dedicating the land to public conservation use.",
+        "The Supreme Judicial Court reversed both rulings following oral argument on February 2, 2026. Justice Dewar's 43-page opinion did not dispute that blocking the university's expansion was one of the town's motivations, but held that a mixed motive does not defeat an otherwise genuine public purpose, pointing to Nahant's long-documented position, predating the current dispute, that it wanted the East Point acreage kept undeveloped. The court emphasized that a municipality's exercise of eminent domain authority is a legislative act entitled to a presumption of validity, and that courts should not substitute their own judgment for a town's on whether and when to take land for open space, recreation, or conservation purposes.",
+        "With liability now resolved in the town's favor, the case moves to the compensation phase, where the dollar stakes will be determined. Nahant's own selectmen have estimated the taken interest is worth approximately $2.2 million, a figure Northeastern has signaled it will contest as too low, while the university had separately suggested the town could face damages of up to $9 million tied to construction delays if it abandoned the taking once compensation costs became clear, a scenario now considerably less likely given the SJC's ruling on the merits. A commission process under the supervision of a Superior Court judge is the typical mechanism for resolving contested just-compensation disputes of this kind in Massachusetts and is expected to take the better part of a year to resolve.",
+        "The practical upshot for institutional and commercial landowners is that resisting a municipal taking by pointing to mixed motives is now a harder path in Massachusetts: a town's independently documented conservation or open-space rationale can coexist with, and survive scrutiny alongside, an intent to stop a disfavored project, so a challenge needs to show the stated public purpose itself is not credible or documented rather than simply that the town also wanted to block the development. Landowners should also expect that liability and compensation are fought as separate battles, with valuation disputes like the one now looming between Nahant and Northeastern often taking months to resolve even after the taking itself is upheld, and municipalities eyeing eminent domain as a tool against unwanted institutional expansion would be well served to build a contemporaneous public record, through votes, open-space plans, and public statements, of an independent, legitimate purpose well before a specific development dispute arises."
+      ],
+      timeline: [
+        { when: "1941", label: "The federal government acquires East Point by eminent domain for a military installation" },
+        { when: "2018", label: "Northeastern announces plans to expand its Marine Science Center on East Point, drawing local opposition" },
+        { when: "2021", label: "Nahant voters authorize the Board of Selectmen to take Northeastern's East Point acreage by eminent domain" },
+        { when: "April 2024", label: "Essex Superior Court invalidates the taking, finding the town acted in bad faith" },
+        { when: "Late 2024", label: "Massachusetts Appeals Court affirms the Superior Court's ruling for Northeastern" },
+        { when: "February 2, 2026", label: "Supreme Judicial Court hears oral argument" },
+        { when: "September 3, 2026", label: "Supreme Judicial Court reverses, upholding the town's eminent domain taking", current: true }
+      ],
+      judge: "Elizabeth Dewar",
+      tags: ["eminent domain", "public purpose", "pretext doctrine", "university property", "massachusetts"]
     }
   ],
 
@@ -4319,6 +4384,14 @@ const RELAW_DATA = {
       court: "U.S. District Court, Central District of California",
       background: "Nominated by President Biden in January 2023 and confirmed to the federal bench in June 2023, after serving as a Los Angeles County Superior Court judge from 2020. Previously a principal at Bird Marella P.C. and, from 2002 to 2014, directing attorney and later President and CEO of the pro bono law firm Public Counsel.",
       bioUrl: "https://www.fjc.gov/history/judges/vera-hern-n-diego"
+    },
+    {
+      name: "Elizabeth Dewar",
+      slug: "elizabeth-dewar",
+      title: "Associate Justice",
+      court: "Massachusetts Supreme Judicial Court",
+      background: "Appointed to the Massachusetts Supreme Judicial Court by Governor Maura Healey in January 2024, filling the first open seat of her administration. Previously served as Massachusetts State Solicitor from 2016 to 2024 and clerked at all three levels of the federal judiciary, including for U.S. Supreme Court Justice Stephen G. Breyer.",
+      bioUrl: "https://www.mass.gov/info-details/supreme-judicial-court-justices"
     }
   ],
 
