@@ -1130,6 +1130,21 @@ h3, .h3 {
 .toast.in-view { opacity: 1; transform: translateY(0); }
 .toast.is-error { border-left-color: var(--ui-danger); }
 
+/* ---------- Case chip (window.RELAW_UTILS.caseChipHtml, js/main.js) ----
+   Compact single-line reference to a matter -- category dot + status dot
+   + title + date -- used wherever a case is referenced from outside the
+   tracker grid itself (a judge's or company's matters list, a court's
+   docket), so those never degrade to a bare colorless text link again. */
+.case-chip {
+  display: flex; align-items: center; gap: 8px;
+  cursor: pointer; padding: 7px 0; font-size: 13px; color: var(--text-secondary);
+  transition: color 0.2s ease;
+}
+.case-chip:hover { color: var(--accent-deep); }
+.case-chip-dot { width: 7px; height: 7px; border-radius: 50%; flex-shrink: 0; }
+.case-chip-title { flex: 1 1 auto; min-width: 0; }
+.case-chip-date { font-family: var(--font-mono); font-size: 11px; color: var(--text-muted); flex-shrink: 0; white-space: nowrap; }
+
 /* ---------- Empty state ---------- */
 .empty-state { text-align: center; padding: 80px 20px; color: var(--text-muted); }
 .empty-state svg { width: 48px; height: 48px; margin: 0 auto 20px; opacity: 0.5; }

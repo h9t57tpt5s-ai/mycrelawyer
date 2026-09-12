@@ -71,7 +71,17 @@
     }
     countEl.textContent = watchlists.length;
     if (!watchlists.length) {
-      listEl.innerHTML = `<p class="text-muted">No watchlists yet — create one above.</p>`;
+      listEl.innerHTML = window.RELAW_UTILS.emptyStateHtml({
+        message: "No watchlists yet — create one to get alerted when a matching matter is added.",
+        actionLabel: "Create your first watchlist",
+        actionId: "wl-empty-cta",
+      });
+      const cta = document.getElementById("wl-empty-cta");
+      const nameInput = document.getElementById("wl-name");
+      if (cta && nameInput) cta.addEventListener("click", () => {
+        nameInput.scrollIntoView({ behavior: "smooth", block: "center" });
+        nameInput.focus();
+      });
       return;
     }
 

@@ -406,15 +406,22 @@
     const a = json.analysis || {};
     const facts = json.extractedFacts || {};
     const baseline = a.baseline || {};
+    // .is-advisory (amber), not .is-error (red) -- these three notes sit
+    // ALONGSIDE a real, successful analysis result. They're routine and
+    // self-correctable, not a broken request, and reusing .is-error's red
+    // for them either reads as alarming when nothing actually failed, or
+    // trains a user to tune out red entirely, including when something
+    // genuinely did fail (session expired, rate limited, server error --
+    // those replace the WHOLE result and correctly stay .is-error below).
     const emptyFilesHtml = (emptyFiles && emptyFiles.length)
-      ? `<div class="gate-card is-error" style="margin-bottom:16px;"><div class="eyebrow" style="margin-bottom:6px;">Heads Up</div><p class="text-secondary" style="font-size:13px; line-height:1.6;">No text could be read from <strong>${emptyFiles.join(", ")}</strong> — this is almost always a scanned or image-only PDF with no selectable text layer, so it was skipped. The analysis below only reflects your other document(s). Try a text-based copy of ${emptyFiles.length === 1 ? "that file" : "those files"} if you have one, or paste its text directly.</p></div>`
+      ? `<div class="gate-card is-advisory" style="margin-bottom:16px;"><div class="eyebrow" style="margin-bottom:6px;">Heads Up</div><p class="text-secondary" style="font-size:13px; line-height:1.6;">No text could be read from <strong>${emptyFiles.join(", ")}</strong> — this is almost always a scanned or image-only PDF with no selectable text layer, so it was skipped. The analysis below only reflects your other document(s). Try a text-based copy of ${emptyFiles.length === 1 ? "that file" : "those files"} if you have one, or paste its text directly.</p></div>`
       : "";
     // Unlike the transient "Analyzing…" wait-message note, this stays
     // visible in the actual result -- a truncation that happened during a
     // 30-90s wait is easy to never see otherwise. See where truncationNote
     // is built (both call sites) for exactly what it covers.
     const truncationNoteHtml = truncationNote
-      ? `<div class="gate-card is-error" style="margin-bottom:16px;"><div class="eyebrow" style="margin-bottom:6px;">Heads Up — Part of Your Document Wasn't Read</div><p class="text-secondary" style="font-size:13px; line-height:1.6;">${truncationNote}</p></div>`
+      ? `<div class="gate-card is-advisory" style="margin-bottom:16px;"><div class="eyebrow" style="margin-bottom:6px;">Heads Up — Part of Your Document Wasn't Read</div><p class="text-secondary" style="font-size:13px; line-height:1.6;">${truncationNote}</p></div>`
       : "";
     // The backend deliberately returns damagesRange: null (never an
     // invented "typical case" number) when nothing you gave it actually
@@ -424,7 +431,7 @@
     // to be -- and point directly at the "add more information" box
     // below, since that's the exact mechanism to resolve it.
     const missingInfoHtml = (a.damagesRange == null)
-      ? `<div class="gate-card is-error" style="margin-bottom:16px;">
+      ? `<div class="gate-card is-advisory" style="margin-bottom:16px;">
           <div class="eyebrow" style="margin-bottom:6px;">Can't Estimate a Dollar Value Yet</div>
           <p class="text-secondary" style="font-size:13.5px; line-height:1.6;">${a.whatIsNeededForEstimate || "Add specific dollar figures for this dispute so a damages range can be computed."}</p>
           <p class="text-secondary" style="font-size:13px; line-height:1.6; margin-top:8px;">The legal analysis below is still complete — add these details in the box further down and re-analyze to get an actual dollar range.</p>
@@ -469,7 +476,7 @@
       <div class="cv-summary card">
         <div class="eyebrow" style="margin-bottom:8px;">AI Analysis — Probability-Weighted Prediction${a.roleLabel ? ` — ${a.roleLabel} view` : ""}</div>
         ${typeof a.bestGuessValue === "number" ? `<div class="cv-net">${V.fmt(a.bestGuessValue)}</div><p class="text-muted" style="font-size:12px; margin-top:2px;">Best-guess case value</p>` : (a.damagesRange ? `<div class="cv-net">${V.fmtRange(a.damagesRange[0], a.damagesRange[1])}</div>` : `<div class="cv-net" style="font-size:1.3rem; color:var(--text-muted);">No estimate yet</div><p class="text-muted" style="font-size:12px; margin-top:2px;">See "Can't Estimate a Dollar Value Yet" above</p>`)}
-        ${a.damagesRange && typeof a.bestGuessValue === "number" ? `<p class="text-secondary" style="font-size:13px; margin-top:10px;">Full range: <strong>${V.fmtRange(a.damagesRange[0], a.damagesRange[1])}</strong> — kept alongside the single figure above because the range itself is informative, not just noise around a guess.</p>` : ""}
+        ${a.damagesRange && typeof a.bestGuessValue === "number" ? `<div style="margin-top:12px;"><span class="detail-tag" title="Kept alongside the single figure above because the range itself is informative, not just noise around a guess.">Full range: ${V.fmtRange(a.damagesRange[0], a.damagesRange[1])}</span></div>` : ""}
         ${metaRowHtml}
       </div>
       ${a.likelyOutcome ? `<div class="card" style="padding:20px; margin-top:16px;"><div class="eyebrow" style="margin-bottom:8px;">Executive Discovery</div><p class="text-secondary" style="font-size:14px; line-height:1.6;">${a.likelyOutcome}</p></div>` : ""}

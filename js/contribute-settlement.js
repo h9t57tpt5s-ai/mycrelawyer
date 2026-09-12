@@ -245,7 +245,13 @@
       return;
     }
     if (!data || !data.length) {
-      submissionsHost.innerHTML = `<p class="text-muted" style="font-size:13px;">No submissions yet — upload your first pair of documents above.</p>`;
+      submissionsHost.innerHTML = window.RELAW_UTILS.emptyStateHtml({
+        message: "No submissions yet — contribute your first pair of documents to start earning credits.",
+        actionLabel: "Contribute a settlement",
+        actionId: "cs-empty-cta",
+      });
+      const cta = document.getElementById("cs-empty-cta");
+      if (cta) cta.addEventListener("click", () => host.scrollIntoView({ behavior: "smooth", block: "center" }));
       return;
     }
     submissionsHost.innerHTML = `
@@ -274,7 +280,13 @@
       return;
     }
     if (!data || !data.length) {
-      benchmarksHost.innerHTML = `<p class="text-muted" style="font-size:13px;">No slice has reached the minimum of 3 contributions yet — be among the first to change that.</p>`;
+      benchmarksHost.innerHTML = window.RELAW_UTILS.emptyStateHtml({
+        message: "No slice has reached the minimum of 3 contributions yet — be among the first to change that.",
+        actionLabel: "Contribute a settlement",
+        actionId: "cs-benchmarks-empty-cta",
+      });
+      const cta = document.getElementById("cs-benchmarks-empty-cta");
+      if (cta) cta.addEventListener("click", () => host.scrollIntoView({ behavior: "smooth", block: "center" }));
       return;
     }
     const fmt = (n) => n == null ? "—" : "$" + Math.round(Number(n)).toLocaleString("en-US");

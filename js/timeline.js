@@ -32,7 +32,20 @@
     const olderCount = allCases.length - cases.length;
 
     if (!cases.length) {
-      host.innerHTML = `<div class="empty-state"><p>No matters in the current filter to plot on the timeline.</p></div>`;
+      host.innerHTML = window.RELAW_UTILS.emptyStateHtml
+        ? window.RELAW_UTILS.emptyStateHtml({
+            message: "No matters in the current filter to plot on the timeline.",
+            actionLabel: "Clear filters",
+            actionId: "timeline-empty-clear",
+          })
+        : `<div class="empty-state"><p>No matters in the current filter to plot on the timeline.</p></div>`;
+      // Reuses the same #clear-filters button litigation.js's own filter
+      // bar already has -- this page's timeline and case grid share one
+      // filter state, so clearing it here does the same thing clearing it
+      // up in the filter bar would.
+      const cta = document.getElementById("timeline-empty-clear");
+      const realClearBtn = document.getElementById("clear-filters");
+      if (cta && realClearBtn) cta.addEventListener("click", () => realClearBtn.click());
       return;
     }
 

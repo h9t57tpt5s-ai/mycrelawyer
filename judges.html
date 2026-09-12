@@ -351,7 +351,7 @@
           </div>
           <div style="display:flex; flex-direction:column; gap:8px; padding-top:${ref ? "12px" : "0"}; border-top:${ref ? "1px solid var(--border-soft)" : "none"};">
             <p class="text-muted" style="font-size:11px; text-transform:uppercase; letter-spacing:0.04em; margin:0 0 2px;">${matters.length === 1 ? "Matter" : `${matters.length} Matters`} on CREdocket</p>
-            ${matters.map((c) => `<span data-case-id="${c.id}" class="text-accent" style="display:block; font-size:13px; cursor:pointer;">${c.title} ↗</span>`).join("")}
+            ${matters.map((c) => window.RELAW_UTILS.caseChipHtml(c)).join("")}
           </div>
         </div>`).join("")
         : `<p class="text-secondary" style="grid-column:1/-1;">No judges match "${judgesSearchInput.value}".</p>`;
@@ -442,7 +442,7 @@
               </div>
               ${entry.stateName ? `<p class="text-muted mono" style="font-size:11.5px; margin-bottom:12px;">${entry.stateName}</p>` : ""}
               <div style="display:flex; flex-direction:column; gap:7px;">
-                ${shown.map((c) => `<span data-case-id="${c.id}" class="text-secondary" style="font-size:12.5px; cursor:pointer; display:block;">${c.title}${c.judge ? ` &middot; Judge ${c.judge}` : ""}</span>`).join("")}
+                ${shown.map((c) => window.RELAW_UTILS.caseChipHtml(c, { suffix: c.judge ? ` &middot; Judge ${c.judge}` : "" })).join("")}
                 ${entry.count > shown.length ? `<span class="text-muted" style="font-size:12px;">+${entry.count - shown.length} more</span>` : ""}
               </div>
               <p class="text-muted mono mt-16" style="font-size:11px;">Most recent: ${new Date(entry.mostRecent + "T00:00:00").toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric" })}</p>

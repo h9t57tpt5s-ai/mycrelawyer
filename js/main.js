@@ -37,7 +37,15 @@
       navToggle.classList.contains("open") ? closeMenu() : openMenu();
     });
     if (navScrim) navScrim.addEventListener("click", closeMenu);
-    navLinks.querySelectorAll("a").forEach((a) => a.addEventListener("click", closeMenu));
+    // Excludes the dropdown parent labels ("Tracker", "Guides &
+    // Calculators", etc.) -- those no longer navigate (see the dropdown
+    // section below), they toggle their submenu, and this listener used to
+    // fire first and close the whole mobile panel out from under that
+    // toggle before the user ever saw the submenu open.
+    navLinks.querySelectorAll("a").forEach((a) => {
+      if (a.parentElement.classList.contains("has-dropdown")) return;
+      a.addEventListener("click", closeMenu);
+    });
   }
 
   /* ---------- Nav dropdown ---------- */
@@ -49,16 +57,43 @@
       if (btn) btn.setAttribute("aria-expanded", "false");
     });
   }
+  function toggleDropdown(item, btn) {
+    const isOpen = item.classList.toggle("open");
+    btn.setAttribute("aria-expanded", isOpen ? "true" : "false");
+    closeAllDropdowns(item);
+  }
   document.querySelectorAll(".nav-item.has-dropdown").forEach((item) => {
     const btn = item.querySelector(".nav-caret-btn");
     if (!btn) return;
+    // Every page bakes .active onto the ONE matching child link inside the
+    // dropdown (e.g. "Judges & Courts" on judges.html) -- but the parent
+    // label itself ("Research") never got any visual cue that the current
+    // page lives in its section, so nothing in the top bar showed you were
+    // even inside that part of the site. Reuses the existing a.active CSS
+    // (color + underline) already defined for exact-match links -- no new
+    // styles needed, just extending which element qualifies.
+    const label = item.querySelector(":scope > a");
+    if (label && item.querySelector(".nav-dropdown a.active")) label.classList.add("active");
     btn.addEventListener("click", (e) => {
       e.preventDefault();
       e.stopPropagation();
-      const isOpen = item.classList.toggle("open");
-      btn.setAttribute("aria-expanded", isOpen ? "true" : "false");
-      closeAllDropdowns(item);
+      toggleDropdown(item, btn);
     });
+    // The parent label itself (e.g. "Tracker", "Guides & Calculators") is a
+    // real <a href> pointing at whichever child page happened to be listed
+    // first -- an implementation accident, not a deliberate landing page,
+    // and clicking it used to silently navigate there instead of doing what
+    // every visual cue around it implies (revealing the submenu, same as
+    // the caret). A plain left-click now toggles the submenu instead;
+    // modified clicks (cmd/ctrl/middle-click -- "open in a new tab") are
+    // left alone so that real, if incidental, affordance still works.
+    if (label) {
+      label.addEventListener("click", (e) => {
+        if (e.defaultPrevented || e.button !== 0 || e.metaKey || e.ctrlKey || e.shiftKey || e.altKey) return;
+        e.preventDefault();
+        toggleDropdown(item, btn);
+      });
+    }
   });
   document.addEventListener("click", (e) => {
     if (!e.target.closest(".nav-item.has-dropdown")) closeAllDropdowns();
@@ -196,11 +231,33 @@
       </article>`;
   }
 
+  // A single matter, referenced from somewhere that ISN'T the tracker grid
+  // (a judge's or company's "matters" list, a court's docket) -- these used
+  // to degrade to a bare, colorless <span>Title ↗</span> with no category,
+  // no status, no date, so a user drilling from "which judge handles the
+  // most matters" into that judge's own case list lost every visual signal
+  // the tracker invests in everywhere else. One compact row instead: the
+  // same category/status colors as caseCardHtml above, just single-line.
+  // opts.suffix appends extra text after the title (e.g. courts.html's
+  // " · Judge Name"); opts.className lets a call site add its own spacing.
+  function caseChipHtml(c, opts) {
+    opts = opts || {};
+    const cat = categoryById(c.category);
+    const status = statusById(c.status);
+    return `<span class="case-chip${opts.className ? " " + opts.className : ""}" data-case-id="${c.id}">
+        <span class="case-chip-dot" style="background:${cat ? cat.color : "var(--text-muted)"}" title="${cat ? cat.label : ""}"></span>
+        <span class="case-chip-dot" style="background:${status ? status.color : "var(--text-muted)"}" title="${status ? status.label : ""}"></span>
+        <span class="case-chip-title">${c.title}${opts.suffix || ""}</span>
+        <span class="case-chip-date">${formatDate(c.date)}</span>
+      </span>`;
+  }
+
   window.RELAW_UTILS = window.RELAW_UTILS || {};
   window.RELAW_UTILS.formatDate = formatDate;
   window.RELAW_UTILS.categoryById = typeof RELAW_DATA !== "undefined" ? categoryById : null;
   window.RELAW_UTILS.statusById = typeof RELAW_DATA !== "undefined" ? statusById : null;
   window.RELAW_UTILS.caseCardHtml = typeof RELAW_DATA !== "undefined" ? caseCardHtml : null;
+  window.RELAW_UTILS.caseChipHtml = typeof RELAW_DATA !== "undefined" ? caseChipHtml : null;
 
   /* Renders the byline row shown under every case's headline in the detail
      panel. Single source of truth is RELAW_DATA.author (js/data.js) — this
@@ -246,6 +303,27 @@
     setTimeout(dismiss, opts.duration || 5000);
   }
   window.RELAW_UTILS.showToast = showToast;
+
+  /* Shared empty-state component -- litigation.js already had a real one
+     (icon + message, centered) but three other "nothing here yet" states
+     (watchlists, timeline, contribute-a-settlement) were bare <p> tags
+     with no box and no icon, and none of the four ever offered an actual
+     action -- just prose telling the user to look "above" for the thing
+     that would fix it. One shared builder, reused everywhere, with a real
+     optional button instead of a pointer. */
+  function emptyStateHtml(opts) {
+    opts = opts || {};
+    const icon = opts.icon || '<svg viewBox="0 0 24 24" fill="none"><path d="M11 19a8 8 0 100-16 8 8 0 000 16zM21 21l-4.35-4.35" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>';
+    const actionHtml = (opts.actionLabel && opts.actionId)
+      ? `<button type="button" class="btn btn-ghost btn-sm" id="${opts.actionId}" style="margin-top:16px;">${opts.actionLabel}</button>`
+      : "";
+    return `<div class="empty-state"${opts.gridSpan ? ` style="grid-column: 1 / -1;"` : ""}>
+      ${icon}
+      <p>${opts.message}</p>
+      ${actionHtml}
+    </div>`;
+  }
+  window.RELAW_UTILS.emptyStateHtml = emptyStateHtml;
 
   /* Injects/updates a single JSON-LD block describing the currently open
      case's authorship, mirroring the visible byline above so the two never

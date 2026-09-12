@@ -4,7 +4,7 @@
 
 .cv-field { margin-bottom: 16px; }
 .cv-field label { display: block; font-size: 13px; color: var(--text-secondary); margin-bottom: 6px; line-height: 1.4; }
-.cv-field select, .cv-field input { width: 100%; padding: 9px 12px; border-radius: 8px; border: 1px solid var(--border); background: var(--bg-elevated); color: var(--text-primary); font-size: 14px; }
+.cv-field select, .cv-field input { width: 100%; padding: 9px 12px; border-radius: var(--radius-md); border: 1px solid var(--border); background: var(--bg-elevated); color: var(--text-primary); font-size: 14px; }
 
 /* The single freeform "tell us about your case" bar -- styled like a
    modern AI chat input (one rounded box, generous padding, auto-growing)
@@ -50,13 +50,18 @@
 .cv-side-toggle-btn.is-active { background: var(--accent); color: #fff; }
 
 .cv-summary { padding: 24px; margin-bottom: 20px; text-align: center; }
-.cv-net { font-family: var(--font-display); font-size: 2rem; font-weight: 600; color: var(--accent-deep); margin: 6px 0; }
+/* This is the one number the entire tool exists to produce -- previously
+   sized SMALLER than the page's own h2 (clamp(2rem,3.2vw,3rem) in
+   styles.css), which meant nothing about it visually said "look here
+   first." Enlarged well past body-copy scale and weighted heavier so it
+   reads as the headline result it is. */
+.cv-net { font-family: var(--font-display); font-size: clamp(2.75rem, 6vw, 4.5rem); font-weight: 700; line-height: 1.05; color: var(--accent-deep); margin: 6px 0; }
 
 .cv-claims { display: grid; gap: 14px; }
-.cv-claim-card { border: 1px solid var(--border); border-radius: 10px; padding: 18px 20px; background: var(--bg-elevated); }
+.cv-claim-card { border: 1px solid var(--border); border-radius: var(--radius-md); padding: 18px 20px; background: var(--bg-elevated); }
 .cv-claim-top { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-bottom: 8px; flex-wrap: wrap; }
 .cv-claim-top h4 { font-size: 15px; margin: 0; }
-.cv-prob { font-family: var(--font-mono); font-size: 11.5px; color: var(--accent-deep); background: var(--accent-wash); padding: 3px 9px; border-radius: 999px; white-space: nowrap; }
+.cv-prob { font-family: var(--font-mono); font-size: 11.5px; color: var(--accent-deep); background: var(--accent-wash); padding: 3px 9px; border-radius: var(--radius-full); white-space: nowrap; }
 .cv-damages { font-size: 13px; color: var(--text-secondary); margin-bottom: 4px; }
 .cv-ev { font-size: 13.5px; color: var(--text-primary); margin-bottom: 8px; }
 .cv-note { font-size: 12.5px; color: var(--text-muted); line-height: 1.6; margin-bottom: 10px; }
@@ -68,7 +73,7 @@
 .cv-cost-section { border-top: 1px solid var(--border-soft); margin-top: 8px; padding-top: 20px; margin-bottom: 20px; }
 .cv-cost-section #cv-cost-form-host { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 4px 24px; }
 
-.cv-verdict { border-radius: 8px; padding: 12px 16px; font-size: 13px; font-weight: 600; text-align: center; }
+.cv-verdict { border-radius: var(--radius-md); padding: 12px 16px; font-size: 13px; font-weight: 600; text-align: center; }
 .cv-verdict-litigate { background: color-mix(in srgb, var(--status-ruling) 14%, transparent); color: var(--status-ruling); }
 .cv-verdict-settle { background: color-mix(in srgb, var(--cat-construction) 14%, transparent); color: var(--cat-construction); }
 .cv-verdict-mixed { background: color-mix(in srgb, var(--status-pending) 14%, transparent); color: var(--status-pending); }
@@ -85,23 +90,23 @@
 /* ---- AI Document Analysis ---- */
 .cv-ai-balance { margin-bottom: 18px; }
 
-.cv-ai-dropzone { position: relative; border: 1.5px dashed var(--border); border-radius: 10px; padding: 26px 20px; text-align: center; margin-bottom: 16px; transition: border-color 0.15s, background 0.15s; }
+.cv-ai-dropzone { position: relative; border: 1.5px dashed var(--border); border-radius: var(--radius-md); padding: 26px 20px; text-align: center; margin-bottom: 16px; transition: border-color 0.15s, background 0.15s; }
 .cv-ai-dropzone.is-dragover { border-color: var(--accent); background: var(--accent-wash); }
 .cv-ai-dropzone-inner { color: var(--text-secondary); }
 .cv-ai-dropzone-inner svg { color: var(--text-muted); margin-bottom: 8px; }
 .cv-ai-dropzone-inner p { font-size: 13.5px; margin: 4px 0; }
 .cv-ai-filelist { display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; margin-top: 12px; }
-.cv-ai-file-chip { display: inline-flex; align-items: center; gap: 6px; font-size: 12.5px; color: var(--accent-deep); font-family: var(--font-mono); background: var(--accent-wash); border: 1px solid color-mix(in srgb, var(--accent) 30%, transparent); border-radius: 999px; padding: 5px 8px 5px 12px; }
+.cv-ai-file-chip { display: inline-flex; align-items: center; gap: 6px; font-size: 12.5px; color: var(--accent-deep); font-family: var(--font-mono); background: var(--accent-wash); border: 1px solid color-mix(in srgb, var(--accent) 30%, transparent); border-radius: var(--radius-full); padding: 5px 8px 5px 12px; }
 .cv-ai-file-remove { background: none; border: none; color: var(--accent-deep); font-size: 15px; line-height: 1; cursor: pointer; padding: 0 2px; }
 .cv-ai-file-remove:hover { color: var(--status-filed); }
 
-.cv-field textarea { width: 100%; padding: 9px 12px; border-radius: 8px; border: 1px solid var(--border); background: var(--bg-elevated); color: var(--text-primary); font-size: 13.5px; font-family: inherit; resize: vertical; }
+.cv-field textarea { width: 100%; padding: 9px 12px; border-radius: var(--radius-md); border: 1px solid var(--border); background: var(--bg-elevated); color: var(--text-primary); font-size: 13.5px; font-family: inherit; resize: vertical; }
 
 .cv-ai-status { font-size: 12.5px; color: var(--text-muted); margin-top: 10px; min-height: 16px; display: flex; align-items: center; gap: 8px; }
 .cv-ai-status.is-error { color: var(--ui-danger); font-weight: 600; }
 
 /* ---- "Add More Information" follow-up + preserved history ---- */
-.cv-history-entry { border: 1px solid var(--border); border-radius: 10px; margin-bottom: 16px; background: var(--bg-elevated); overflow: hidden; }
+.cv-history-entry { border: 1px solid var(--border); border-radius: var(--radius-md); margin-bottom: 16px; background: var(--bg-elevated); overflow: hidden; }
 .cv-history-entry summary { padding: 12px 16px; font-size: 13px; font-weight: 600; color: var(--text-secondary); cursor: pointer; list-style: none; display: flex; align-items: center; gap: 8px; }
 .cv-history-entry summary::before { content: "▸"; color: var(--text-muted); transition: transform 0.15s; }
 .cv-history-entry[open] summary::before { transform: rotate(90deg); }
@@ -134,13 +139,28 @@
 }
 .gate-card.is-error .eyebrow { color: var(--ui-danger); }
 
+/* A SEPARATE, amber tier for benign, expected, self-correctable states
+   that sit ALONGSIDE a real, successful result -- "can't estimate a
+   dollar value yet" or "part of your document wasn't read" are not
+   failures, they're routine and the fix is right there in the same
+   card. Reusing .is-error's red for these trained users to either feel
+   alarmed by a normal state or tune out a real one -- see the three
+   call sites in js/case-valuation.js this was split out of. Genuine
+   failures (session expired, rate limited, server error) that replace
+   the whole result -- not just a note beside one -- correctly stay red. */
+.gate-card.is-advisory {
+  border: 1px solid color-mix(in srgb, var(--ui-warning) 45%, transparent);
+  background: color-mix(in srgb, var(--ui-warning) 7%, var(--surface));
+}
+.gate-card.is-advisory .eyebrow { color: var(--ui-warning); }
+
 .cv-ai-facts { border-top: 1px solid var(--border-soft); padding-top: 10px; margin: 10px 0; }
 .cv-ai-facts .detail-tag { margin: 2px 4px 2px 0; }
 
 /* At-a-glance damages/probability table -- the primary "quick look" view
    requested to sit above the prose narrative and per-claim cards, styled
    like the rest of the PDF report's plain, no-nonsense number layout. */
-.cv-summary-table-wrap { margin-top: 16px; overflow-x: auto; border: 1px solid var(--border); border-radius: 10px; background: var(--bg-elevated); }
+.cv-summary-table-wrap { margin-top: 16px; overflow-x: auto; border: 1px solid var(--border); border-radius: var(--radius-md); background: var(--bg-elevated); }
 .cv-summary-table { width: 100%; border-collapse: collapse; font-size: 13px; }
 .cv-summary-table th, .cv-summary-table td { padding: 11px 16px; text-align: right; white-space: nowrap; }
 .cv-summary-table th:first-child, .cv-summary-table td:first-child { text-align: left; white-space: normal; }

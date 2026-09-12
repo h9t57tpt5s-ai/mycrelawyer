@@ -254,7 +254,7 @@
           </div>
           <div style="display:flex; flex-direction:column; gap:8px; padding-top:12px; border-top:1px solid var(--border-soft);">
             <p class="text-muted" style="font-size:11px; text-transform:uppercase; letter-spacing:0.04em; margin:0 0 2px;">${matters.length === 0 ? "No matters yet" : matters.length === 1 ? "1 Matter" : `${matters.length} Matters`} on CREdocket</p>
-            ${matters.slice(0, 3).map((c) => `<span data-case-id="${c.id}" class="text-accent" style="display:block; font-size:13px; cursor:pointer;">${c.title} ↗</span>`).join("")}
+            ${matters.slice(0, 3).map((c) => window.RELAW_UTILS.caseChipHtml(c)).join("")}
             ${matters.length > 3 ? `<a href="company-${p.slug}.html" class="text-muted" style="font-size:12px;">+${matters.length - 3} more →</a>` : ""}
           </div>
         </div>`;
