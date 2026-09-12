@@ -182,22 +182,60 @@
     tickerTrack.innerHTML = html;
   }
 
-  /* ---------- Hero "Live docket" (homepage only) ----------
-     Was a decorative schematic-skyline SVG; replaced with the 3 most
-     recently filed real tracked matters, styled as a stack of filed
-     papers. Real data only -- same recency sort the ticker above uses
-     (the underlying legal event's own date, not when we added it). */
-  const docketStack = document.getElementById("hero-docket-stack");
-  const docketCount = document.getElementById("docket-label-count");
-  if (docketStack && typeof RELAW_DATA !== "undefined") {
+  /* ---------- Hero headline rotation (homepage only) ----------
+     User liked more than one draft tagline and asked for a rotating
+     set "to keep the site fresh" -- picks one at random per page load.
+     The hardcoded HTML text stays as the no-JS/SEO fallback. */
+  const heroHeadline = document.getElementById("hero-headline");
+  if (heroHeadline) {
+    const HERO_TAGLINES = [
+      "Where commercial real estate meets the courtroom.",
+      "Litigation risk, tracked in real time.",
+      "Every CRE lawsuit that matters, in one place.",
+      "Commercial real estate litigation, mapped and tracked.",
+      "The legal risk behind every deal, tracked live.",
+      "Built for property managers who can't afford to miss a lawsuit.",
+      "The litigation tracker for property managers, owners, and REITs.",
+    ];
+    heroHeadline.textContent = HERO_TAGLINES[Math.floor(Math.random() * HERO_TAGLINES.length)];
+  }
+
+  /* ---------- Hero live tracking map + feed (homepage only) ----------
+     v1 was a decorative schematic-skyline SVG. v2: 3 real matters
+     fanned like a stack of papers -- read as a rendering bug, not a
+     deliberate look ("looks like a programming error"), per direct
+     feedback. v3 was an all-dark "mission control" feed panel -- liked
+     the precision/register, not the black ("still prefer a lighter
+     color palette... still need slick graphics"). v4: the real
+     jurisdiction map (same one on litigation.html) as the actual
+     graphic, light palette, plus 3 of the most recent real matters
+     below it, flat and grid-aligned, next to the headline as before
+     (user: "I like having the stack next to the tagline"). */
+  const heroMapHost = document.getElementById("hero-usmap-host");
+  const heroMapSub = document.getElementById("hero-map-sub");
+  const feedList = document.getElementById("hero-feed-list");
+  const statStates = document.getElementById("hero-stat-states");
+  const statCategories = document.getElementById("hero-stat-categories");
+  if (feedList && typeof RELAW_DATA !== "undefined") {
     const catMap = Object.fromEntries(RELAW_DATA.categories.map((c) => [c.id, c]));
     const statusMap = Object.fromEntries(RELAW_DATA.statuses.map((s) => [s.id, s]));
     const featured = [...RELAW_DATA.cases]
       .sort((a, b) => new Date(b.date) - new Date(a.date))
       .slice(0, 3);
 
-    if (docketCount) {
-      docketCount.textContent = `${RELAW_DATA.cases.length} matters tracked`;
+    // Same computation state-guides.html uses for its own "N states with
+    // tracked matters" count -- states with at least one real matter,
+    // not all 51 (several tools cover all 51; the tracker itself only
+    // has real matters in a subset).
+    const statesWithMatters = new Set(RELAW_DATA.cases.map((c) => c.state).filter(Boolean));
+    if (statCategories) statCategories.textContent = RELAW_DATA.categories.length;
+    if (statStates) statStates.textContent = statesWithMatters.size;
+    if (heroMapSub) heroMapSub.textContent = `${statesWithMatters.size} states with tracked matters`;
+
+    if (heroMapHost && window.RELAW_UTILS.renderUsMap) {
+      window.RELAW_UTILS.renderUsMap("hero-usmap-host", (code) => {
+        window.location.href = `litigation.html?state=${code}`;
+      });
     }
 
     // Real matter ids look like "live-130" -- the docket number below is
@@ -208,21 +246,15 @@
       return `No. 26-CRE-${n}`;
     };
 
-    docketStack.innerHTML = featured.map((c) => {
+    feedList.innerHTML = featured.map((c) => {
       const cat = catMap[c.category];
       const status = statusMap[c.status];
       return `
-        <article class="docket-card" data-case-id="${c.id}">
-          <div class="docket-card-top">
-            <span class="docket-card-no"><span class="dot" style="background:${cat.color}"></span>${docketNo(c.id)}</span>
-            <span class="status-pill" style="color:${status.color}"><span class="dot" style="background:${status.color}"></span>${status.label}</span>
-          </div>
-          <h4>${c.title}</h4>
-          <div class="docket-card-meta">
-            <span>${formatDate(c.date)}</span>
-            <span>${cat.label}</span>
-          </div>
-        </article>`;
+        <div class="hero-feed-row" data-case-id="${c.id}">
+          <span class="hero-feed-row-no"><span class="dot" style="background:${status.color}"></span>${docketNo(c.id)}</span>
+          <span class="hero-feed-row-title">${c.title}<span>${cat.label} · ${status.label}</span></span>
+          <span class="hero-feed-row-date">${formatDate(c.date)}</span>
+        </div>`;
     }).join("");
   }
 

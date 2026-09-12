@@ -15,7 +15,6 @@
   };
 
   const grid = document.getElementById("case-grid");
-  const timelineHost = document.getElementById("timeline-host");
   const resultsCount = document.getElementById("results-count");
   const searchInput = document.getElementById("search-input");
   const statusSelect = document.getElementById("status-select");
@@ -129,8 +128,6 @@
       grid.innerHTML = filtered.map((c) => window.RELAW_UTILS.caseCardHtml(c)).join("");
       grid.querySelectorAll(".reveal").forEach((el) => el.classList.add("in-view"));
     }
-
-    if (timelineHost) window.RELAW_UTILS.renderTimeline("timeline-host", filtered);
 
     if (statePillList) {
       statePillList.querySelectorAll(".state-pill").forEach((pill) => {

@@ -153,41 +153,24 @@
 
 <section class="section-tight timeline-section" style="padding-bottom:80px;">
   <div class="container">
-    <div class="tracker-overview-grid">
-      <div class="tracker-overview-col reveal">
-        <div class="tracker-overview-head">
-          <div>
-            <div class="eyebrow">Visual Overview</div>
-            <h2>Timeline by practice area</h2>
-          </div>
-          <p class="text-muted">Scroll horizontally to explore. Click any point to open full matter details.</p>
+    <div class="tracker-overview-col reveal" style="max-width:760px; margin:0 auto;">
+      <div class="tracker-overview-head">
+        <div>
+          <div class="eyebrow">By Jurisdiction</div>
+          <h2>Explore matters by state</h2>
         </div>
-        <div class="card" style="padding:28px 12px;">
-          <div class="timeline-scroll">
-            <div class="timeline-svg-wrap" id="timeline-host"></div>
-          </div>
-        </div>
+        <p class="text-muted">Click a state to jump to matters there. See also: <a href="judges.html" class="text-accent" style="display:inline;">judges &amp; courts ↗</a></p>
       </div>
-
-      <div class="tracker-overview-col reveal">
-        <div class="tracker-overview-head">
-          <div>
-            <div class="eyebrow">By Jurisdiction</div>
-            <h2>Explore matters by state</h2>
-          </div>
-          <p class="text-muted">Click a state to jump to matters there. See also: <a href="judges.html" class="text-accent" style="display:inline;">judges &amp; courts ↗</a></p>
-        </div>
-        <div class="card" style="padding:24px;">
-          <div class="usmap-wrap" id="usmap-host"></div>
-          <div class="state-pill-list" id="state-pills"></div>
-          <div class="city-spotlight" id="city-spotlight">
-            <div class="city-spotlight-inner">
-              <div class="city-spotlight-svg" id="city-spotlight-svg"></div>
-              <div class="city-spotlight-info">
-                <div class="eyebrow" style="margin-bottom:8px;">Now viewing</div>
-                <div class="cityscape-caption"></div>
-                <div class="city-spotlight-count" id="city-spotlight-count"></div>
-              </div>
+      <div class="card" style="padding:24px;">
+        <div class="usmap-wrap" id="usmap-host"></div>
+        <div class="state-pill-list" id="state-pills"></div>
+        <div class="city-spotlight" id="city-spotlight">
+          <div class="city-spotlight-inner">
+            <div class="city-spotlight-svg" id="city-spotlight-svg"></div>
+            <div class="city-spotlight-info">
+              <div class="eyebrow" style="margin-bottom:8px;">Now viewing</div>
+              <div class="cityscape-caption"></div>
+              <div class="city-spotlight-count" id="city-spotlight-count"></div>
             </div>
           </div>
         </div>
@@ -319,7 +302,6 @@
 <script src="js/trending.js"></script>
 <script src="js/search.js"></script>
 <script src="js/motion.js"></script>
-<script src="js/timeline.js"></script>
 <script src="js/us-state-paths.js"></script>
 <script src="js/usmap.js"></script>
 <script src="js/cityscape.js"></script>

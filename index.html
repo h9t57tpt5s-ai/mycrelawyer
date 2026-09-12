@@ -52,7 +52,7 @@
     </script>
     <script defer src="/_vercel/insights/script.js"></script>
   </head>
-<body>
+<body class="home">
 
 <div class="nav-scrim"></div>
 <nav class="nav">
@@ -147,49 +147,59 @@
 
 <!-- ================= HERO ================= -->
 <header class="hero">
-  <div class="hero-ruled" aria-hidden="true"></div>
-  <div class="hero-glow"></div>
-  <div class="container hero-grid">
+  <div class="hero-grid-bg" aria-hidden="true"></div>
+  <div class="hero-reticle" aria-hidden="true"></div>
+  <div class="container hero-layout">
     <div>
-      <div class="eyebrow reveal in-view">Built for owners, managers, developers &amp; REITs</div>
-      <h1 class="reveal in-view">Where commercial real estate meets the <em>courtroom</em>.</h1>
+      <div class="hero-live reveal in-view"><span class="hero-live-dot"></span>Live — tracking active CRE litigation</div>
+      <h1 class="reveal in-view" id="hero-headline">Where commercial real estate meets the courtroom.</h1>
       <p class="lede mt-24 reveal in-view">CREdocket tracks the litigation, regulatory actions, and legal disputes reshaping ownership, lending, leasing, and development across the CRE industry — organized so your team can see what matters, fast.</p>
-      <div class="hero-actions reveal in-view">
-        <a href="litigation.html" class="hero-pill hero-pill-primary">
-          Litigation Tracker
+
+      <div class="hero-actions-mission reveal in-view">
+        <a href="litigation.html" class="hero-btn hero-btn-primary">
+          Open the Tracker
           <svg viewBox="0 0 24 24" fill="none"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
         </a>
-        <a href="updates.html?recent=5" id="new-today-pill" class="hero-pill hero-pill-live" style="display:none;">
+        <a href="updates.html?recent=5" id="new-today-pill" class="hero-btn hero-btn-live" style="display:none;">
           <span class="hero-pill-dot"></span>New Today
-          <svg viewBox="0 0 24 24" fill="none"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
         </a>
-        <a href="about.html" class="hero-pill hero-pill-ghost">How we cover it</a>
+        <a href="about.html" class="hero-btn hero-btn-ghost">How we cover it</a>
       </div>
-      <div class="hero-stats reveal in-view">
-        <div class="hero-stat">
+
+      <div class="hero-audience reveal in-view">For property managers, owners, developers &amp; REITs</div>
+
+      <div class="hero-telemetry reveal in-view">
+        <div class="hero-telemetry-stat">
           <div class="num"><span id="stat-matters" data-count="0">0</span></div>
           <div class="label">Tracked Matters</div>
         </div>
-        <div class="hero-stat-browse">
-          <div class="hero-stat-browse-label">Searchable &amp; sortable by</div>
-          <div class="chip-row">
-            <a href="litigation.html#filters-anchor" class="chip">City</a>
-            <a href="litigation.html#filters-anchor" class="chip">State</a>
-            <a href="property-types.html" class="chip">CRE Type</a>
-            <a href="litigation.html#filters-anchor" class="chip">Practice Area</a>
-            <a href="litigation.html#filters-anchor" class="chip">Status</a>
-            <a href="updates.html?recent=5" class="chip">Latest News</a>
-          </div>
+        <div class="hero-telemetry-stat">
+          <div class="num" id="hero-stat-states">—</div>
+          <div class="label">States Tracked</div>
         </div>
+        <div class="hero-telemetry-stat">
+          <div class="num" id="hero-stat-categories">—</div>
+          <div class="label">Practice Areas</div>
+        </div>
+      </div>
+
+      <div class="hero-browse reveal in-view">
+        <a href="litigation.html#filters-anchor">City</a><span class="sep">/</span>
+        <a href="litigation.html#filters-anchor">State</a><span class="sep">/</span>
+        <a href="property-types.html">CRE Type</a><span class="sep">/</span>
+        <a href="litigation.html#filters-anchor">Practice Area</a><span class="sep">/</span>
+        <a href="litigation.html#filters-anchor">Status</a><span class="sep">/</span>
+        <a href="updates.html?recent=5">Latest News</a>
       </div>
     </div>
 
-    <div class="docket-wrap reveal in-view">
-      <div class="docket-label">
-        <span class="docket-label-stamp">Live docket</span>
-        <span id="docket-label-count">Loading tracked matters…</span>
+    <div class="hero-map reveal in-view">
+      <div class="hero-feed-head">
+        <span class="hero-feed-live"><span class="hero-live-dot"></span>Live tracking map</span>
+        <span class="hero-feed-sub" id="hero-map-sub">Loading…</span>
       </div>
-      <div class="docket-stack" id="hero-docket-stack" aria-label="Recently tracked matters"></div>
+      <div class="hero-map-svg" id="hero-usmap-host" aria-label="Map of tracked matters by US state"></div>
+      <div id="hero-feed-list" aria-label="Recently tracked matters"></div>
     </div>
   </div>
 </header>
@@ -427,6 +437,8 @@
 </footer>
 
 <script src="js/data.js"></script>
+<script src="js/us-state-paths.js"></script>
+<script src="js/usmap.js"></script>
 <script>
   document.getElementById("stat-matters").setAttribute("data-count", RELAW_DATA.cases.length);
   // "New Today" pill: only shown when the digest actually published something
@@ -449,7 +461,6 @@
 <script src="js/trending.js"></script>
 <script src="js/search.js"></script>
 <script src="js/motion.js"></script>
-<script src="js/timeline.js"></script>
 <script>
   (function () {
     // By the underlying legal event's own date, not when we added it to

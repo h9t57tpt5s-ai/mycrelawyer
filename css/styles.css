@@ -26,9 +26,25 @@
   /* Redline -- a legal-filing-stamp red, distinct from --ui-danger (that's
      generic "something failed"; this is "this is real, filed, current" --
      the mark a docket stamp or a redlined document actually uses). Spent
-     in exactly one place: the homepage's "Live docket" stamp. Not a status
-     or category color, and not meant to spread beyond that one accent. */
+     in exactly one place: the homepage hero's live indicator. Not a
+     status or category color, and not meant to spread beyond that. */
   --redline: #b3261e;
+
+  /* Hero-only tokens (homepage). Kept as their own small set (rather than
+     reusing --bg/--text-* directly) so the hero's precise, technical
+     register (grid lines, telemetry stats, a live-tracking map) can be
+     tuned independently of the rest of the site's editorial theme --
+     stayed light on user feedback ("still prefer a lighter color
+     palette") after a full-dark "mission control" pass read as the
+     wrong register entirely, even though the underlying idea (precise,
+     technical, grid-aligned, real data as the graphic) was right. */
+  --hero-bg: #f4f5f8;
+  --hero-panel: #ffffff;
+  --hero-panel-hover: #eef0f4;
+  --hero-text: #0b0d12;
+  --hero-text-dim: #3d4453;
+  --hero-text-faint: #7a8194;
+  --hero-grid-line: #dde1e8;
 
   /* Category & status colors -- rebuilt in OKLCH (2026-09).
      The previous 14 values were byte-for-byte stock Tailwind swatches
@@ -404,37 +420,12 @@ h3, .h3 {
   padding: 148px 0 96px;
   overflow: hidden;
 }
-.hero-glow {
-  position: absolute;
-  top: -20%; left: 50%;
-  width: 1200px; height: 1200px;
-  transform: translateX(-50%);
-  background: radial-gradient(circle, rgba(51,85,255,0.14) 0%, rgba(51,85,255,0) 62%);
-  pointer-events: none;
-  z-index: 0;
-  animation: hero-glow-drift 16s ease-in-out infinite alternate;
-  will-change: transform;
-}
-@keyframes hero-glow-drift {
-  from { transform: translateX(-54%) translateY(0) scale(1); }
-  to   { transform: translateX(-46%) translateY(4%) scale(1.1); }
-}
-.hero-grid { display: grid; grid-template-columns: 1.4fr 0.6fr; gap: 48px; align-items: center; }
-@media (max-width: 980px) { .hero-grid { grid-template-columns: 1fr; } }
+
+.hero-layout { display: grid; grid-template-columns: 1.15fr 0.85fr; gap: 56px; align-items: center; }
+@media (max-width: 980px) { .hero-layout { grid-template-columns: 1fr; } }
 
 .hero h1 { font-size: clamp(2.4rem, 3.6vw, 3.9rem); }
 @media (min-width: 1400px) { .hero h1 { font-size: clamp(2.4rem, 3.2vw, 4.2rem); } }
-
-.hero-stats { display: flex; gap: 40px; margin-top: 48px; flex-wrap: wrap; align-items: flex-start; }
-.hero-stat .num { font-family: var(--font-display); font-size: 2.1rem; color: var(--accent); font-weight: 600; }
-.hero-stat .label { font-size: 12.5px; color: var(--text-muted); font-family: var(--font-mono); letter-spacing: 0.06em; text-transform: uppercase; margin-top: 2px; }
-
-.hero-stat-browse { padding-top: 2px; }
-.hero-stat-browse-label { font-size: 12.5px; color: var(--text-muted); margin-bottom: 10px; }
-.hero-stat-browse .chip-row { gap: 8px; }
-.hero-stat-browse .chip { padding: 6px 13px; font-size: 12px; }
-
-.hero-actions { display: flex; gap: 16px; margin-top: 44px; flex-wrap: wrap; align-items: center; }
 
 .hero > .container { will-change: transform, opacity; }
 
@@ -719,37 +710,17 @@ h3, .h3 {
 
 .results-count { font-size: 13px; color: var(--text-muted); font-family: var(--font-mono); }
 
-/* ---------- Timeline ---------- */
+/* ---------- Tracker overview (jurisdiction map) ----------
+   Used to be a side-by-side grid with an SVG "timeline by practice
+   area" chart in the other column -- direct user feedback: dense,
+   unreadable, and added nothing the map didn't already show better.
+   Removed (js/timeline.js deleted entirely, nothing else referenced
+   it); the map now runs as a single centered column. */
 .timeline-section { position: relative; z-index: 1; }
-.timeline-older-note { font-size: 11.5px; padding: 10px 20px 0; margin: 0; }
-/* Timeline now sits in a grid column, not the full container, so it no
-   longer bleeds edge-to-edge -- just scrolls within its own card. */
-.timeline-scroll { overflow-x: auto; padding-bottom: 24px; }
-.timeline-scroll::-webkit-scrollbar { height: 6px; }
-.timeline-scroll::-webkit-scrollbar-thumb { background: var(--border); border-radius: 3px; }
-/* Must stay >= the JS's own Math.max(1100, ...) floor (js/timeline.js) --
-   the SVG renders at width:100% of this wrapper and scales its content
-   via viewBox, so a smaller min-width here doesn't reduce how much
-   scrolling is needed, it just squishes every label illegibly. */
-.timeline-svg-wrap { min-width: 1100px; }
-
-/* Side-by-side timeline + jurisdiction map, so getting to the actual
-   case list below doesn't take two full stacked sections' worth of
-   scrolling. Stacks back to one column below 1100px, where each would
-   otherwise be too cramped to use. */
-.tracker-overview-grid { display: grid; grid-template-columns: 1.15fr 0.85fr; gap: 32px; align-items: start; }
 .tracker-overview-col { min-width: 0; }
 .tracker-overview-head { margin-bottom: 20px; }
 .tracker-overview-head h2 { font-size: clamp(1.25rem, 1.8vw, 1.6rem); margin: 6px 0 10px; }
 .tracker-overview-head p { font-size: 13px; }
-@media (max-width: 1100px) {
-  .tracker-overview-grid { grid-template-columns: 1fr; gap: 56px; }
-}
-
-.timeline-node { cursor: pointer; }
-.timeline-node circle.core { transition: r 0.25s ease, filter 0.25s ease; }
-.timeline-node:hover circle.core { filter: brightness(0.85); }
-.timeline-node text { font-family: var(--font-mono); }
 
 /* ---------- City spotlight (shown when a state is selected) ---------- */
 .city-spotlight {
@@ -865,74 +836,162 @@ h3, .h3 {
 .cta-photo-card .btn-ghost { border-color: rgba(255,255,255,0.35); color: #fff; }
 
 /* ---------- Hero backdrop (homepage) ----------
-   Was a stock skyline photo (dallas.jpg) under a brand-color wash, with a
-   separate schematic-skyline SVG floating on top of it in the right
-   column -- two competing renderings of "a skyline" in the same shot,
-   and the photo read as generic real-estate-marketing stock art rather
-   than anything specific to a litigation-intelligence product. Replaced
-   with a plain ruled-paper texture (this product's actual material is
-   filings and dockets, not skylines) and the right column now shows the
-   real, live docket instead of a decorative building. */
-.hero { position: relative; overflow: hidden; }
-.hero-ruled {
+   v1 was a stock skyline photo under a brand-color wash with a schematic
+   skyline SVG on top -- generic real-estate stock art. v2 replaced that
+   with a light ruled-paper hero and a "fanned papers" card stack -- the
+   fan (each card rotated a couple degrees, per direct user feedback)
+   read as a rendering bug, not a deliberate look. v3: full mission-
+   control register -- near-black, grid-aligned, monospace telemetry,
+   nothing tilted. This product tracks litigation the way a range
+   tracks a vehicle: precisely, continuously, in a straight line. */
+.hero {
+  position: relative; overflow: hidden;
+  background: var(--hero-bg);
+  color: var(--hero-text);
+}
+.hero-grid-bg {
   position: absolute; inset: 0; z-index: 0; pointer-events: none;
-  background-image: repeating-linear-gradient(180deg, var(--border-soft) 0, var(--border-soft) 1px, transparent 1px, transparent 44px);
-  -webkit-mask-image: linear-gradient(180deg, transparent 0, rgba(0,0,0,0.55) 30%, rgba(0,0,0,0.55) 78%, transparent 100%);
-  mask-image: linear-gradient(180deg, transparent 0, rgba(0,0,0,0.55) 30%, rgba(0,0,0,0.55) 78%, transparent 100%);
-  opacity: 0.6;
+  background-image:
+    linear-gradient(var(--hero-grid-line) 1px, transparent 1px),
+    linear-gradient(90deg, var(--hero-grid-line) 1px, transparent 1px);
+  background-size: 64px 64px;
+  -webkit-mask-image: radial-gradient(ellipse 80% 70% at 30% 30%, black 0%, transparent 72%);
+  mask-image: radial-gradient(ellipse 80% 70% at 30% 30%, black 0%, transparent 72%);
 }
-.hero-grid { position: relative; z-index: 1; }
+.hero-reticle {
+  position: absolute; z-index: 0; pointer-events: none;
+  top: 50%; right: 6%; width: 640px; height: 640px; transform: translateY(-50%);
+  border-radius: 50%;
+  border: 1px solid var(--hero-grid-line);
+}
+.hero-reticle::before, .hero-reticle::after {
+  content: ""; position: absolute; border-radius: 50%; border: 1px solid var(--hero-grid-line);
+}
+.hero-reticle::before { inset: 90px; }
+.hero-reticle::after { inset: 190px; }
+@media (max-width: 980px) { .hero-reticle { display: none; } }
 
-.hero h1 em {
-  font-style: italic;
-  color: var(--accent-deep);
-}
+.hero-layout { position: relative; z-index: 1; }
 
-/* ---------- Live docket (hero, right column) ----------
-   Three of the actual most-recently-filed tracked matters, fanned like a
-   stack of real papers -- built from RELAW_DATA in js/main.js, never
-   placeholder text, and each card is a real [data-case-id] so the site's
-   existing global click handler opens its real detail panel. */
-.docket-wrap { position: relative; padding-top: 4px; }
-.docket-label {
-  display: flex; align-items: center; gap: 10px; margin-bottom: 22px;
-  font-family: var(--font-mono); font-size: 11.5px; color: var(--text-muted);
-  letter-spacing: 0.04em;
+.hero-live {
+  display: inline-flex; align-items: center; gap: 9px;
+  font-family: var(--font-mono); font-size: 11.5px; font-weight: 500;
+  color: var(--hero-text-dim); text-transform: uppercase; letter-spacing: 0.09em;
 }
-.docket-label-stamp {
-  display: inline-flex; align-items: center; gap: 6px;
-  padding: 4px 10px; border-radius: var(--radius-sm);
-  border: 1px solid color-mix(in srgb, var(--redline) 45%, transparent);
-  color: var(--redline); text-transform: uppercase; font-weight: 700;
-  letter-spacing: 0.08em;
-}
-.docket-label-stamp::before {
-  content: ""; width: 6px; height: 6px; border-radius: 50%;
-  background: var(--redline); flex-shrink: 0;
+.hero-live-dot {
+  width: 7px; height: 7px; border-radius: 50%; background: var(--redline); flex-shrink: 0;
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--redline) 22%, transparent);
   animation: pill-pulse 1.8s ease-in-out infinite;
 }
 
-.docket-stack { display: flex; flex-direction: column; }
-.docket-card {
-  display: block; background: var(--bg-elevated); border: 1px solid var(--border);
-  border-radius: var(--radius-md); box-shadow: var(--shadow-sm);
-  padding: 18px 20px; cursor: pointer;
-  transition: transform 0.35s var(--ease), box-shadow 0.35s ease, border-color 0.3s ease;
+.hero h1 {
+  font-family: var(--font-body);
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: -0.01em;
+  line-height: 1.05;
+  color: var(--hero-text);
+  margin-top: 18px;
 }
-.docket-card + .docket-card { margin-top: -14px; }
-.docket-stack .docket-card:nth-child(1) { transform: rotate(-1.4deg); z-index: 3; }
-.docket-stack .docket-card:nth-child(2) { transform: rotate(1deg); z-index: 2; }
-.docket-stack .docket-card:nth-child(3) { transform: rotate(-0.6deg); z-index: 1; }
-.docket-card:hover {
-  transform: rotate(0deg) translateY(-6px) scale(1.015);
-  box-shadow: var(--shadow-md); border-color: var(--accent-deep); z-index: 4;
+.hero .lede { color: var(--hero-text-dim); }
+
+.hero-audience {
+  margin-top: 18px;
+  font-family: var(--font-mono); font-size: 11.5px; color: var(--hero-text-faint);
+  text-transform: uppercase; letter-spacing: 0.06em;
 }
-.docket-card-top { display: flex; align-items: center; justify-content: space-between; gap: 10px; margin-bottom: 10px; }
-.docket-card-no { display: flex; align-items: center; gap: 8px; font-family: var(--font-mono); font-size: 11px; color: var(--text-muted); letter-spacing: 0.03em; }
-.docket-card-no .dot { width: 7px; height: 7px; border-radius: 50%; flex-shrink: 0; }
-.docket-card h4 { font-family: var(--font-display); font-size: 15.5px; font-weight: 600; line-height: 1.35; margin: 0 0 8px; color: var(--text-primary); }
-.docket-card-meta { display: flex; align-items: center; justify-content: space-between; gap: 10px; font-size: 11.5px; color: var(--text-muted); font-family: var(--font-mono); padding-top: 10px; border-top: 1px solid var(--border-soft); }
-@media (max-width: 980px) { .docket-wrap { margin-top: 8px; } }
+.hero-browse {
+  margin-top: 28px; font-size: 12.5px; color: var(--hero-text-faint);
+  display: flex; flex-wrap: wrap; gap: 6px 0;
+}
+.hero-browse a { color: var(--hero-text-dim); text-decoration: none; border-bottom: 1px solid transparent; }
+.hero-browse a:hover { color: var(--hero-text); border-bottom-color: currentColor; }
+.hero-browse .sep { margin: 0 8px; color: var(--hero-grid-line); }
+
+/* ---------- Hero buttons (sharp, high-contrast -- distinct from the
+   shared .hero-pill used on the guide pages' light hero banners) ---------- */
+.hero-actions-mission { display: flex; gap: 14px; margin-top: 40px; flex-wrap: wrap; align-items: center; }
+.hero-btn {
+  display: inline-flex; align-items: center; gap: 10px;
+  padding: 14px 22px; border-radius: 3px;
+  font-size: 13.5px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.04em;
+  border: 1px solid transparent; white-space: nowrap;
+  transition: transform 0.25s var(--ease), background 0.25s ease, border-color 0.25s ease, color 0.25s ease;
+}
+.hero-btn svg { width: 14px; height: 14px; flex-shrink: 0; }
+.hero-btn-primary { background: var(--hero-text); color: var(--hero-bg); }
+.hero-btn-primary:hover { background: var(--hero-text-dim); transform: translateY(-1px); }
+.hero-btn-ghost { background: transparent; border-color: var(--hero-grid-line); color: var(--hero-text); }
+.hero-btn-ghost:hover { border-color: var(--hero-text-dim); }
+.hero-btn-live {
+  background: transparent; border-color: color-mix(in srgb, var(--redline) 45%, transparent); color: var(--redline);
+}
+.hero-btn-live .hero-pill-dot { width: 6px; height: 6px; border-radius: 50%; background: currentColor; animation: pill-pulse 1.8s ease-in-out infinite; }
+
+/* ---------- Telemetry stat row ---------- */
+.hero-telemetry { display: flex; gap: 40px; margin-top: 52px; flex-wrap: wrap; }
+.hero-telemetry-stat { padding-left: 18px; border-left: 1px solid var(--hero-grid-line); }
+.hero-telemetry-stat:first-child { padding-left: 0; border-left: none; }
+.hero-telemetry-stat .num {
+  font-family: var(--font-mono); font-size: 2rem; font-weight: 600; color: var(--hero-text);
+  font-variant-numeric: tabular-nums; line-height: 1;
+}
+.hero-telemetry-stat .label {
+  margin-top: 6px; font-size: 11px; color: var(--hero-text-faint);
+  font-family: var(--font-mono); letter-spacing: 0.06em; text-transform: uppercase;
+}
+
+/* ---------- Live tracking map (hero, right column) ----------
+   The actual jurisdiction map (js/usmap.js, js/us-state-paths.js --
+   the same one on litigation.html, which the user singled out as
+   working well) rendered right in the hero as its real graphic,
+   instead of a decorative skyline or another block of text -- glowing
+   accent dots over real geography reads as "slick" without inventing
+   a new visual language the rest of the site doesn't have. Below it,
+   3 of the most recently filed real matters, flat and grid-aligned
+   (no rotation, no card shadow), each a real [data-case-id] so the
+   site's existing global click handler opens its real detail panel. */
+.hero-map {
+  position: relative; background: var(--hero-panel);
+  border: 1px solid var(--hero-grid-line); border-radius: 6px;
+  box-shadow: var(--shadow-sm);
+}
+.hero-map::before, .hero-map::after {
+  content: ""; position: absolute; width: 16px; height: 16px; pointer-events: none;
+}
+.hero-map::before { top: -1px; left: -1px; border-top: 2px solid var(--hero-text); border-left: 2px solid var(--hero-text); }
+.hero-map::after { bottom: -1px; right: -1px; border-bottom: 2px solid var(--hero-text); border-right: 2px solid var(--hero-text); }
+.hero-feed-head {
+  display: flex; align-items: center; justify-content: space-between; gap: 10px;
+  padding: 16px 20px; border-bottom: 1px solid var(--hero-grid-line);
+  font-family: var(--font-mono); font-size: 11px; text-transform: uppercase; letter-spacing: 0.08em;
+}
+.hero-feed-live { display: flex; align-items: center; gap: 8px; color: var(--hero-text); font-weight: 600; }
+.hero-feed-sub { color: var(--hero-text-faint); }
+.hero-map-svg { padding: 22px 22px 6px; }
+.hero-map-svg svg { width: 100%; height: auto; display: block; }
+/* Brighter than the tracker page's own map (var(--accent)) and with a
+   soft glow -- here the map IS the hero's graphic, not a supporting
+   utility next to a results grid, so its active markers carry more
+   visual weight. */
+.hero-map-svg .state-path-active .state-path {
+  fill: var(--accent-bright);
+  filter: drop-shadow(0 0 5px color-mix(in srgb, var(--accent) 55%, transparent));
+}
+.hero-map-svg .state-path-active:hover .state-path { fill: var(--accent-deep); }
+.hero-feed-row {
+  display: flex; align-items: baseline; gap: 12px;
+  padding: 13px 20px; border-top: 1px solid var(--hero-grid-line);
+  cursor: pointer; transition: background 0.2s ease;
+}
+.hero-feed-row:hover { background: var(--hero-panel-hover); }
+.hero-feed-row-no { flex-shrink: 0; display: flex; align-items: center; gap: 7px; font-family: var(--font-mono); font-size: 10.5px; color: var(--hero-text-faint); width: 108px; }
+.hero-feed-row-no .dot { width: 6px; height: 6px; border-radius: 50%; flex-shrink: 0; }
+.hero-feed-row-title { flex: 1 1 auto; min-width: 0; font-size: 13px; color: var(--hero-text); line-height: 1.4; }
+.hero-feed-row-title span { display: block; font-family: var(--font-mono); font-size: 10.5px; color: var(--hero-text-faint); text-transform: uppercase; letter-spacing: 0.04em; margin-top: 3px; }
+.hero-feed-row-date { flex-shrink: 0; font-family: var(--font-mono); font-size: 10.5px; color: var(--hero-text-faint); white-space: nowrap; }
+@media (max-width: 980px) { .hero-map { margin-top: 12px; } .hero-reticle { display: none; } }
+@media (max-width: 560px) { .hero-feed-row-no { width: 84px; } }
 
 /* ---------- US jurisdiction map ---------- */
 .usmap-wrap { max-width: 780px; margin: 0 auto; }
