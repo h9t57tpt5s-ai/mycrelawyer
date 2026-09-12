@@ -115,10 +115,34 @@
 </nav>
 
 <header class="page-header">
+    <svg class="page-header-graphic" viewBox="0 0 640 400" fill="none" aria-hidden="true" preserveAspectRatio="xMaxYMid slice">
+      <defs>
+        <radialGradient id="phGlow" cx="70%" cy="30%" r="60%">
+          <stop offset="0" stop-color="var(--accent)" stop-opacity="0.16"/>
+          <stop offset="1" stop-color="var(--accent)" stop-opacity="0"/>
+        </radialGradient>
+      </defs>
+      <rect x="0" y="0" width="640" height="400" fill="url(#phGlow)"/>
+      <circle cx="420" cy="120" r="3.5" fill="var(--status-pending)" opacity="0.8">
+        <animate attributeName="r" values="3.5;5.5;3.5" dur="3s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="230" cy="160" r="3" fill="var(--status-filed)" opacity="0.8">
+        <animate attributeName="r" values="3;5;3" dur="2.6s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="330" cy="200" r="3" fill="var(--accent-bright)" opacity="0.8">
+        <animate attributeName="r" values="3;5;3" dur="3.4s" repeatCount="indefinite"/>
+      </circle>
+    </svg>
   <div class="container">
     <div class="eyebrow reveal in-view">Litigation Tools</div>
     <h1 class="reveal in-view" style="font-size:clamp(2.2rem,4vw,3.4rem);">Insurance &amp; Risk Posture Guide</h1>
     <p class="lede mt-16 reveal in-view">The Premises Liability Guide tells you what a claimant must prove, and what a state's punitive-damages exposure looks like. This translates that same state-by-state data into what CGL/umbrella coverage — and what you require from tenants and contractors — should actually follow from it.</p>
+    <div class="hero-actions reveal in-view mt-24" style="justify-content:flex-start;">
+      <a href="#irp-tool" class="hero-pill hero-pill-primary">
+        Check your state's coverage requirements
+        <svg viewBox="0 0 24 24" fill="none" width="15" height="15"><path d="M12 5v14m0 0l-6-6m6 6l6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </a>
+    </div>
   </div>
 </header>
 
@@ -178,7 +202,7 @@
       </div>
     </div>
     <p class="text-secondary reveal" style="max-width:720px; margin-bottom:20px;">Pulled directly from the same 51-jurisdiction table behind the <a href="premises-liability-guide.html" class="text-accent" style="display:inline;">Premises Liability Guide</a> and the Case Value Calculator's Premises Liability category — every sentence below traces to a field in that table, translated into what it should mean for your coverage, not a new legal claim.</p>
-    <div class="irp-state-select-row reveal">
+    <div class="irp-state-select-row reveal" id="irp-tool">
       <label for="irp-state">Select a state</label>
       <select id="irp-state"></select>
     </div>
