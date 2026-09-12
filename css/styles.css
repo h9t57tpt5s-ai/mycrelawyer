@@ -673,8 +673,16 @@ h3, .h3 {
 .disclosure strong { color: var(--accent-deep); }
 .disclosure svg { flex-shrink: 0; width: 18px; height: 18px; color: var(--accent); }
 
-/* ---------- Page header (interior pages) ---------- */
-.page-header { padding: 168px 0 64px; position: relative; z-index: 1; }
+/* ---------- Page header (interior pages) ----------
+   Was 168px 0 64px, unchanged at every width -- on every one of the 107
+   interior pages sharing this banner (tools, guides, directories alike),
+   that's ~230px of pure padding before the eyebrow/h1 even starts, no
+   tighter on a phone than on a desktop monitor. Direct feedback: "you
+   have to scroll way down to see what you are looking at" -- true
+   everywhere this banner sits above the actual tool or content someone
+   came for. Tightened here and further under the mobile breakpoint. */
+.page-header { padding: 128px 0 48px; position: relative; z-index: 1; }
+@media (max-width: 900px) { .page-header { padding: 108px 0 36px; } }
 
 /* ---------- Filter bar (litigation page) ---------- */
 .filter-bar {
