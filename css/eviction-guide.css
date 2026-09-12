@@ -36,7 +36,9 @@
 .eg-state-card-class { font-family: var(--font-mono); font-size: 11px; color: var(--text-muted); }
 
 .eg-lock-icon { flex-shrink: 0; color: var(--text-muted); opacity: 0.7; }
-.eg-state-card.is-unlocked .eg-lock-icon { color: var(--status-ruling); opacity: 1; }
+/* Was var(--status-ruling) -- "unlocked" means "good/accessible," not the
+   litigation status "Ruling Issued"; see the --ui-* tokens in styles.css. */
+.eg-state-card.is-unlocked .eg-lock-icon { color: var(--ui-success); opacity: 1; }
 
 .eg-chapter-section { margin-bottom: 26px; }
 .eg-chapter-section:last-child { margin-bottom: 0; }

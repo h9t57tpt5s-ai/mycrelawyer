@@ -23,27 +23,43 @@
   --accent-deep: #1b2e99;
   --accent-wash: rgba(51, 85, 255, 0.08);
 
-  /* Category colors */
-  --cat-landlord: #2563eb;
-  --cat-zoning: #16a34a;
-  --cat-reit: #d97706;
-  --cat-construction: #dc2626;
-  --cat-lending: #7c3aed;
-  --cat-environmental: #0d9488;
-  --cat-eminent: #e11d48;
-  --cat-lease: #475569;
-  --cat-premises: #c026d3;
+  /* Category & status colors -- rebuilt in OKLCH (2026-09).
+     The previous 14 values were byte-for-byte stock Tailwind swatches
+     (e.g. #2563eb is exactly blue-600) sharing no perceptual relationship
+     with each other or with --accent, which is why --cat-zoning and
+     --status-ruling could end up identical (#16a34a, both green-600) --
+     two unrelated facets (practice area vs. procedural stage) rendering
+     as the same color entirely by accident.
 
-  /* Status */
-  --status-filed: #0ea5e9;
-  --status-pending: #f59e0b;
-  /* Was #16a34a -- identical to --cat-zoning below, so a "Zoning" category
-     badge and a "Ruling Issued" status pill rendered as the exact same
-     green. Shifted to a distinct emerald so the two facets (practice area
-     vs. procedural stage) can never collide. */
-  --status-ruling: #059669;
-  --status-settled: #64748b;
-  --status-appeal: #ea580c;
+     Method: every category sits at the SAME lightness/chroma (L=0.64,
+     C=0.135 -- vivid, matched weight), every status at a DIFFERENT,
+     lower lightness/chroma (L=0.60, C=0.095) -- so a category and a
+     status can never collide even at a near-identical hue, because they
+     occupy a different "weight class" by construction, not just a
+     different hue. Hues are evenly spread (9 categories at ~35.6deg
+     apart, comfortably above the ~30deg minimum for reliable
+     discrimination; the 5 statuses sit at the midpoint between category
+     pairs, phase-shifted so no status hue ever equals a category hue),
+     and the full sweep excludes a +-20deg band around --accent's own hue
+     (267.5deg) so no category/status can be mistaken for the
+     interactive/link blue. Recompute with any OKLCH tool (oklch.com) if
+     this ever needs to change -- keep the same L/C bands and the accent
+     exclusion band when you do. */
+  --cat-landlord: #00a0bc;
+  --cat-zoning: #59a050;
+  --cat-reit: #bf7b0f;
+  --cat-construction: #d16a52;
+  --cat-lending: #897dd9;
+  --cat-environmental: #00a68a;
+  --cat-eminent: #cc668a;
+  --cat-lease: #989006;
+  --cat-premises: #b36ebb;
+
+  --status-filed: #8e71ad;
+  --status-pending: #987d36;
+  --status-ruling: #a76991;
+  --status-settled: #b2686c;
+  --status-appeal: #ad6f48;
 
   /* UI-semantic (generic success/error/warning feedback -- sign-in
      status, form validation, toasts). Deliberately a SEPARATE namespace
@@ -435,12 +451,19 @@ h3, .h3 {
 .hero-pill:disabled, .hero-pill[disabled] {
   opacity: 0.5; cursor: not-allowed; transform: none !important; box-shadow: none !important;
 }
+/* Was var(--status-ruling) -- another instance of the exact cross-
+   namespace misuse the --ui-* tokens (see :root) exist to prevent: "live/
+   active" needs an unambiguous green regardless of what color the
+   litigation-taxonomy "Ruling Issued" status happens to be this week.
+   The OKLCH rebuild above is what surfaced this one -- --status-ruling
+   is no longer green at all, which would have made the "live" indicator
+   read as mauve/pink instead of "go." */
 .hero-pill-live {
-  background: color-mix(in srgb, var(--status-ruling) 14%, var(--bg-elevated) 86%);
-  color: var(--status-ruling);
-  border-color: color-mix(in srgb, var(--status-ruling) 45%, transparent);
+  background: color-mix(in srgb, var(--ui-success) 14%, var(--bg-elevated) 86%);
+  color: var(--ui-success);
+  border-color: color-mix(in srgb, var(--ui-success) 45%, transparent);
 }
-.hero-pill-live:hover { border-color: var(--status-ruling); box-shadow: 0 10px 28px color-mix(in srgb, var(--status-ruling) 22%, transparent); }
+.hero-pill-live:hover { border-color: var(--ui-success); box-shadow: 0 10px 28px color-mix(in srgb, var(--ui-success) 22%, transparent); }
 .hero-pill-live .hero-pill-dot { width: 7px; height: 7px; border-radius: 50%; background: currentColor; animation: pill-pulse 1.8s ease-in-out infinite; flex-shrink: 0; }
 @keyframes pill-pulse { 0%, 100% { opacity: 1; transform: scale(1); } 50% { opacity: 0.45; transform: scale(0.7); } }
 .hero-pill-new {
@@ -538,10 +561,13 @@ h3, .h3 {
   border: 1px solid rgba(51,85,255,0.3);
 }
 
+/* Same fix as .hero-pill-live above -- this badge means "credits
+   remaining," "Verified Update," "Chapter N," never the litigation
+   status "Ruling Issued," so it shouldn't be tied to that token. */
 .badge-live {
-  background: color-mix(in srgb, var(--status-ruling) 12%, transparent);
-  color: var(--status-ruling);
-  border: 1px solid color-mix(in srgb, var(--status-ruling) 40%, transparent);
+  background: color-mix(in srgb, var(--ui-success) 12%, transparent);
+  color: var(--ui-success);
+  border: 1px solid color-mix(in srgb, var(--ui-success) 40%, transparent);
 }
 
 .badge-trending {

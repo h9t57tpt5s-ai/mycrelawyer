@@ -73,10 +73,15 @@
 .cv-cost-section { border-top: 1px solid var(--border-soft); margin-top: 8px; padding-top: 20px; margin-bottom: 20px; }
 .cv-cost-section #cv-cost-form-host { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 4px 24px; }
 
+/* This trio is a generic litigate/settle/mixed recommendation, not tied
+   to any litigation-taxonomy category or status -- was borrowing
+   --status-ruling/--cat-construction/--status-pending as arbitrary
+   swatches, which is exactly what the --ui-* tokens (styles.css) exist
+   for instead. */
 .cv-verdict { border-radius: var(--radius-md); padding: 12px 16px; font-size: 13px; font-weight: 600; text-align: center; }
-.cv-verdict-litigate { background: color-mix(in srgb, var(--status-ruling) 14%, transparent); color: var(--status-ruling); }
-.cv-verdict-settle { background: color-mix(in srgb, var(--cat-construction) 14%, transparent); color: var(--cat-construction); }
-.cv-verdict-mixed { background: color-mix(in srgb, var(--status-pending) 14%, transparent); color: var(--status-pending); }
+.cv-verdict-litigate { background: color-mix(in srgb, var(--ui-success) 14%, transparent); color: var(--ui-success); }
+.cv-verdict-settle { background: color-mix(in srgb, var(--ui-danger) 14%, transparent); color: var(--ui-danger); }
+.cv-verdict-mixed { background: color-mix(in srgb, var(--ui-warning) 14%, transparent); color: var(--ui-warning); }
 
 @media (max-width: 640px) {
   .cv-cost-section #cv-cost-form-host { grid-template-columns: 1fr; }

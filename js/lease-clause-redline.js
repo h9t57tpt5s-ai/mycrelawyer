@@ -189,7 +189,11 @@
   function renderResult(json) {
     const a = json.analysis || {};
     const clauseSpec = LEASE_REDLINE_DATA.clauseTypes[json.clauseType];
-    const riskColorVar = { low: "--status-ruling", moderate: "--status-pending", high: "--status-appeal" }[a.overallRiskLevel] || "--status-pending";
+    // Generic low/moderate/high risk, not litigation statuses -- see the
+    // matching fix in js/ada-risk-data.js for why this can't borrow
+    // --status-* tokens (they no longer form a red/amber/green gradient
+    // after the OKLCH rebuild in styles.css).
+    const riskColorVar = { low: "--ui-success", moderate: "--ui-warning", high: "--ui-danger" }[a.overallRiskLevel] || "--ui-warning";
 
     const termCards = (clauseSpec ? clauseSpec.keyTerms : []).map((termMeta) => {
       const aiTerm = a[termMeta.id];

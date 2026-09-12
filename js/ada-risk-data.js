@@ -57,14 +57,20 @@ const ADA_RISK_DATA = {
     "North Dakota": { count: 0, tier: "minimal", note: "Zero federal Title III filings recorded in 2025." },
     "South Dakota": { count: 0, tier: "minimal", note: "Zero federal Title III filings recorded in 2025." },
   },
+  // A generic 6-tier risk gradient (danger -> warning -> neutral ->
+  // success), not litigation statuses -- was borrowing --status-* tokens
+  // as arbitrary swatches, which silently broke this scale's red-to-
+  // green logic when those tokens were rebuilt in OKLCH (styles.css) and
+  // stopped being red/amber/blue/green. Uses the real --ui-* semantic
+  // tokens instead, which exist for exactly this.
   tierMeta: {
-    "extreme": { label: "Extreme", color: "--status-appeal" },
-    "very-high": { label: "Very High", color: "--status-appeal" },
-    "high": { label: "High", color: "--status-pending" },
-    "elevated": { label: "Elevated", color: "--status-pending" },
-    "moderate": { label: "Moderate", color: "--status-filed" },
-    "moderate-low": { label: "Moderate-to-Low (no high-volume filings confirmed)", color: "--status-ruling" },
-    "minimal": { label: "Minimal", color: "--status-ruling" },
+    "extreme": { label: "Extreme", color: "--ui-danger" },
+    "very-high": { label: "Very High", color: "--ui-danger" },
+    "high": { label: "High", color: "--ui-warning" },
+    "elevated": { label: "Elevated", color: "--ui-warning" },
+    "moderate": { label: "Moderate", color: "--accent-deep" },
+    "moderate-low": { label: "Moderate-to-Low (no high-volume filings confirmed)", color: "--ui-success" },
+    "minimal": { label: "Minimal", color: "--ui-success" },
   },
 
   // State-law overlays: damages beyond federal ADA's injunction-only

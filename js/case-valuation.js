@@ -459,7 +459,7 @@
       : null;
     const metaRowHtml = `<div style="display:flex; flex-wrap:wrap; gap:8px; margin-top:12px;">
       ${a.categoryLabel ? `<span class="detail-tag">Category: ${a.categoryLabel}</span>` : ""}
-      ${stateName ? `<span class="detail-tag">Jurisdiction: ${stateName}</span>` : `<span class="detail-tag" style="color:var(--status-pending);">Jurisdiction: not stated</span>`}
+      ${stateName ? `<span class="detail-tag">Jurisdiction: ${stateName}</span>` : `<span class="detail-tag" style="color:var(--ui-warning);">Jurisdiction: not stated</span>`}
       ${a.roleLabel ? `<span class="detail-tag">Your side: ${a.roleLabel}</span>` : ""}
     </div>`;
     const issuesHtml = (a.issues || []).length
