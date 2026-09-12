@@ -3,10 +3,15 @@
    -----------------------------------------------------------
    Site-wide search over every matter's full text (title,
    summary, why-it-matters, full article body, tags,
-   jurisdiction). Available from any page: injects a search
-   trigger into the nav and opens an overlay with live results
-   that open the shared detail panel directly, or hand off to
-   the Litigation Tracker's own filter search via ?q=.
+   jurisdiction), PLUS judges, companies/parties, and every
+   guide/tool page (a static directory below, since those
+   aren't in RELAW_DATA). Available from any page via Cmd/Ctrl+K
+   or "/" -- injects a search trigger into the nav and opens an
+   overlay with live, mixed-type results: a matter opens the
+   shared detail panel directly, everything else (judge, company,
+   page) navigates to its own page. Long result lists still hand
+   off matter-only overflow to the Litigation Tracker's own
+   filter search via ?q=.
    ========================================================= */
 
 (function () {
@@ -14,6 +19,35 @@
   if (typeof RELAW_DATA === "undefined") return;
 
   const MAX_RESULTS = 8;
+
+  // Hand-maintained -- these are static pages, not RELAW_DATA records, so
+  // there's nothing to derive this list from automatically. Add a line
+  // whenever a new tool/guide/report page ships.
+  const PAGES = [
+    { title: "Case Value Calculator", href: "case-valuation.html", description: "AI-assisted probability-weighted case value estimate from your own documents." },
+    { title: "Lease Clause Redline Checker", href: "lease-clause-redline.html", description: "Flags unusual or missing lease terms against market norms." },
+    { title: "Mechanic's Lien Deadline Calculator", href: "lien-deadline-calculator.html", description: "Preliminary notice, filing, and enforcement deadlines, all 51 jurisdictions." },
+    { title: "ADA Title III Risk Flagging", href: "ada-risk-flagging.html", description: "Property-type-specific ADA serial-litigation exposure by state." },
+    { title: "Premises Liability Checklist", href: "premises-liability-checklist.html", description: "Manager-facing checklist for premises liability and negligence exposure." },
+    { title: "Commercial Eviction Handbook", href: "eviction-guide.html", description: "Statutory notice, self-help, jurisdiction, and damages, all 50 states plus D.C." },
+    { title: "Premises Liability / Negligence Guide", href: "premises-liability-guide.html", description: "Elements, defenses, comparative fault, and punitive damages, all 51 jurisdictions." },
+    { title: "Insurance & Risk Posture Guide", href: "insurance-risk-posture-guide.html", description: "Coverage and risk-transfer guidance for commercial property owners and managers." },
+    { title: "Manager vs. Owner Liability", href: "manager-vs-owner-liability.html", description: "Who's exposed: property manager vs. owner liability allocation." },
+    { title: "Algorithmic Pricing: A Manager's Guide", href: "algorithmic-pricing-manager-guide.html", description: "Litigation exposure from algorithmic/revenue-management rent pricing." },
+    { title: "State-by-State Guides", href: "state-guides.html", description: "Every state-specific practice-area litigation guide, indexed by state." },
+    { title: "Market Signals", href: "trends.html", description: "Aggregate trend reports across tracked litigation." },
+    { title: "Quarterly Report", href: "quarterly.html", description: "Narrative synthesis of the quarter's tracked litigation." },
+    { title: "Litigation Patterns by State", href: "ada-litigation-patterns.html", description: "State-by-state litigation pattern analysis." },
+    { title: "Property Type Insights", href: "property-types.html", description: "Litigation trends by commercial property type." },
+    { title: "Judges & Courts", href: "judges.html", description: "Directory of judges and courts presiding over tracked matters." },
+    { title: "Companies & Parties", href: "companies.html", description: "Directory of companies and parties named across tracked matters." },
+    { title: "Compare Companies", href: "compare-companies.html", description: "Side-by-side litigation exposure comparison across companies." },
+    { title: "Contribute a Settlement", href: "contribute-settlement.html", description: "Submit a real settlement, earn free analysis credits." },
+    { title: "Litigation Tracker", href: "litigation.html", description: "The full searchable, filterable litigation database." },
+    { title: "Litigation Calendar", href: "calendar.html", description: "Upcoming hearings, filing deadlines, and procedural dates." },
+    { title: "Regulatory Issues", href: "regulatory.html", description: "Regulatory and zoning actions affecting commercial real estate." },
+    { title: "Watchlists", href: "account.html", description: "Get alerted when a matching matter is added to the tracker." },
+  ];
 
   function escapeHtml(s) {
     return s.replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
@@ -44,17 +78,18 @@
     };
   }
 
-  function search(query) {
-    const q = query.trim().toLowerCase();
-    if (!q) return [];
+  // Every result, regardless of source, normalizes to the same shape:
+  // { type, title, snippet, meta, color, caseId? | href? }. type "case"
+  // opens the shared detail panel via caseId; every other type navigates
+  // to href. This is what lets one results list mix matters, judges,
+  // companies, and pages without four different rendering paths.
+  function searchCases(q) {
     const catMap = Object.fromEntries(RELAW_DATA.categories.map((cat) => [cat.id, cat]));
     const results = [];
     RELAW_DATA.cases.forEach((c) => {
       const f = fieldsOf(c);
       const haystack = Object.values(f).join(" ").toLowerCase();
       if (!haystack.includes(q)) return;
-
-      // pick the best field to show a snippet from: prefer body/summary over title
       let snippetField = "summary";
       if (f.title.toLowerCase().includes(q)) snippetField = "title";
       else if (f.summary.toLowerCase().includes(q)) snippetField = "summary";
@@ -62,12 +97,64 @@
       else if (f.body.toLowerCase().includes(q)) snippetField = "body";
       else if (f.tags.toLowerCase().includes(q)) snippetField = "tags";
       else snippetField = "jurisdiction";
-
-      results.push({ case: c, cat: catMap[c.category], snippet: f[snippetField] || f.summary });
+      const cat = catMap[c.category];
+      results.push({
+        type: "case", caseId: c.id, sortDate: c.date,
+        title: c.title, snippet: f[snippetField] || f.summary,
+        meta: `${cat.label} · ${c.jurisdiction}`, color: cat.color,
+      });
     });
-    // newest first
-    results.sort((a, b) => new Date(b.case.date) - new Date(a.case.date));
     return results;
+  }
+
+  function searchJudges(q) {
+    const judges = (RELAW_DATA.judges || []).concat(RELAW_DATA.courts || []);
+    const results = [];
+    judges.forEach((j) => {
+      const haystack = [j.name, j.title, j.court, j.background].filter(Boolean).join(" ").toLowerCase();
+      if (!haystack.includes(q)) return;
+      const snippet = (j.background && j.background.toLowerCase().includes(q)) ? j.background : (j.court || j.title || "");
+      results.push({
+        type: "judge", href: j.slug ? `judge-${j.slug}.html` : "judges.html",
+        title: j.name, snippet, meta: j.title || j.court || "Judge", color: "var(--text-muted)",
+      });
+    });
+    return results;
+  }
+
+  function searchCompanies(q) {
+    const results = [];
+    (RELAW_DATA.trackedParties || []).forEach((p) => {
+      const haystack = [p.name, p.matchTerm, p.description].filter(Boolean).join(" ").toLowerCase();
+      if (!haystack.includes(q)) return;
+      let domain = "";
+      try { domain = p.website ? new URL(p.website).hostname.replace(/^www\./, "") : ""; } catch (e) { /* malformed URL, skip */ }
+      results.push({
+        type: "company", href: p.slug ? `company-${p.slug}.html` : "companies.html",
+        title: p.name, snippet: p.description || "", meta: domain, color: "var(--text-muted)",
+      });
+    });
+    return results;
+  }
+
+  function searchPages(q) {
+    const results = [];
+    PAGES.forEach((p) => {
+      const haystack = [p.title, p.description].join(" ").toLowerCase();
+      if (!haystack.includes(q)) return;
+      results.push({ type: "page", href: p.href, title: p.title, snippet: p.description, meta: "", color: "var(--accent-deep)" });
+    });
+    return results;
+  }
+
+  function search(query) {
+    const q = query.trim().toLowerCase();
+    if (!q) return [];
+    // Cases first (newest first, the highest-volume content), then
+    // judges/companies/pages -- each internally unsorted since there's
+    // no meaningful ranking signal beyond "it matched."
+    const cases = searchCases(q).sort((a, b) => new Date(b.sortDate) - new Date(a.sortDate));
+    return [...cases, ...searchJudges(q), ...searchCompanies(q), ...searchPages(q)];
   }
 
   function init() {
@@ -87,14 +174,14 @@
       <div class="search-panel">
         <div class="search-input-row">
           <svg class="icon" viewBox="0 0 24 24" fill="none"><path d="M11 19a8 8 0 100-16 8 8 0 000 16zM21 21l-4.35-4.35" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
-          <input type="text" id="global-search-input" placeholder="Search matters, jurisdictions, topics…" autocomplete="off" />
+          <input type="text" id="global-search-input" placeholder="Search matters, judges, companies, tools, guides…" autocomplete="off" />
           <span class="search-hint">Esc</span>
           <button class="search-close-btn" id="global-search-close" aria-label="Close search">
             <svg viewBox="0 0 24 24" fill="none"><path d="M6 6l12 12M18 6L6 18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
           </button>
         </div>
         <div class="search-results" id="global-search-results">
-          <div class="search-placeholder">Search across every matter's full write-up, not just titles.</div>
+          <div class="search-placeholder">Search matters, judges, companies, and every tool or guide -- not just titles.</div>
         </div>
       </div>`;
     document.body.appendChild(overlay);
@@ -126,42 +213,48 @@
       }
     });
 
+    const TYPE_LABEL = { case: null, judge: "Judge", company: "Company", page: "Tool / Guide" };
+
     function renderResults(query) {
       const q = query.trim();
       if (!q) {
-        resultsHost.innerHTML = `<div class="search-placeholder">Search across every matter's full write-up, not just titles.</div>`;
+        resultsHost.innerHTML = `<div class="search-placeholder">Search matters, judges, companies, and every tool or guide -- not just titles.</div>`;
         return;
       }
       const matches = search(q);
       if (!matches.length) {
-        resultsHost.innerHTML = `<div class="search-empty">No matters mention "${escapeHtml(q)}".</div>`;
+        resultsHost.innerHTML = `<div class="search-empty">Nothing matches "${escapeHtml(q)}".</div>`;
         return;
       }
       const shown = matches.slice(0, MAX_RESULTS);
+      const caseTotal = matches.filter((r) => r.type === "case").length;
+      const caseShown = shown.filter((r) => r.type === "case").length;
       resultsHost.innerHTML =
         shown
           .map(
-            (r) => `
-        <div class="search-result-row" data-case-id="${r.case.id}">
-          <span class="search-result-dot" style="background:${r.cat.color}"></span>
+            (r, i) => `
+        <div class="search-result-row" data-index="${i}">
+          <span class="search-result-dot" style="background:${r.color}"></span>
           <div class="search-result-body">
-            <h4>${escapeHtml(r.case.title)}</h4>
-            <p>${highlight(r.snippet, q)}</p>
-            <div class="search-result-meta">${r.cat.label} · ${r.case.jurisdiction}</div>
+            <h4>${escapeHtml(r.title)}</h4>
+            ${r.snippet ? `<p>${highlight(r.snippet, q)}</p>` : ""}
+            <div class="search-result-meta">${[TYPE_LABEL[r.type], r.meta].filter(Boolean).map(escapeHtml).join(" · ")}</div>
           </div>
         </div>`
           )
           .join("") +
-        (matches.length > MAX_RESULTS
-          ? `<div class="search-view-all" id="search-view-all">View all ${matches.length} matches in the Litigation Tracker →</div>`
+        (caseTotal > caseShown
+          ? `<div class="search-view-all" id="search-view-all">View all ${caseTotal} matching matters in the Litigation Tracker →</div>`
           : "");
 
       resultsHost.querySelectorAll(".search-result-row").forEach((row) => {
         row.addEventListener("click", () => {
-          const id = row.getAttribute("data-case-id");
+          const r = shown[parseInt(row.getAttribute("data-index"), 10)];
           close();
-          if (window.RELAW_UTILS && window.RELAW_UTILS.openCaseDetail) {
-            window.RELAW_UTILS.openCaseDetail(id);
+          if (r.type === "case") {
+            if (window.RELAW_UTILS && window.RELAW_UTILS.openCaseDetail) window.RELAW_UTILS.openCaseDetail(r.caseId);
+          } else {
+            window.location.href = r.href;
           }
         });
       });
