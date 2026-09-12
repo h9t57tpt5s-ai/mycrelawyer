@@ -338,6 +338,21 @@ h3, .h3 {
 .nav-dropdown > a:hover { background: var(--surface); color: var(--text-primary); }
 .nav-dropdown > a.active { color: var(--accent-deep); }
 
+/* ---------- Nav dropdown group labels ----------
+   Used once: inside the Tools menu, to keep the AI-powered / rule-based
+   distinction (restored per user request as its own top-level "AI
+   Tools" menu, then folded back in here when the 9-item nav read as
+   crowded) without spending a whole extra top-level slot on it. Not an
+   <a> -- :first-child/:last-child above naturally skip it, so it gets
+   its own explicit corner-rounding instead. */
+.nav-dropdown-label {
+  display: block; background: var(--bg-elevated); border: 1px solid var(--border); border-bottom: none;
+  padding: 8px 14px 4px; font-family: var(--font-mono); font-size: 9.5px; font-weight: 700;
+  letter-spacing: 0.07em; text-transform: uppercase; color: var(--text-muted); white-space: nowrap;
+}
+.nav-dropdown-label:first-child { border-radius: var(--radius-md) var(--radius-md) 0 0; padding-top: 10px; }
+.nav-dropdown-label:not(:first-child) { border-top: 1px solid var(--border-soft); margin-top: 4px; }
+
 @media (max-width: 1180px) {
   .nav-item.has-dropdown { display: flex; flex-wrap: wrap; align-items: center; width: 100%; justify-content: space-between; }
   .nav-item.has-dropdown > a { flex: 1 1 auto; }
@@ -357,6 +372,11 @@ h3, .h3 {
     font-size: 15.5px; white-space: normal;
   }
   .nav-item.has-dropdown .nav-caret-btn { width: 36px; height: 36px; }
+  .nav-dropdown-label {
+    background: none; border: none; padding: 14px 4px 4px 18px; font-size: 11px;
+  }
+  .nav-dropdown-label:first-child { border-radius: 0; padding-top: 10px; }
+  .nav-dropdown-label:not(:first-child) { border-top: none; margin-top: 6px; }
 }
 
 @media (max-width: 1180px) {
