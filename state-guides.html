@@ -3,26 +3,25 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>ADA Title III Risk Flagging — CREdocket</title>
-<meta name="description" content="Free ADA Title III physical-accessibility litigation risk profile by state and property type — federal filing-volume data, state-law damages overlays, and common violation categories." />
+<title>State-by-State Litigation Guides — CREdocket</title>
+<meta name="description" content="CREdocket's state-specific litigation guides: landlord–tenant, lending & foreclosure, REIT & securities, eminent domain, zoning, and lease-dispute matters, organized by state." />
 <meta property="og:type" content="website" />
 <meta property="og:site_name" content="CREdocket" />
-<meta property="og:title" content="ADA Title III Risk Flagging — CREdocket" />
-<meta property="og:description" content="Free ADA Title III physical-accessibility litigation risk profile by state and property type." />
-<meta property="og:url" content="https://credocket.com/ada-risk-flagging.html" />
+<meta property="og:title" content="State-by-State Litigation Guides — CREdocket" />
+<meta property="og:description" content="CREdocket's state-specific litigation guides: landlord–tenant, lending & foreclosure, REIT & securities, eminent domain, zoning, and lease-dispute matters, organized by state." />
+<meta property="og:url" content="https://credocket.com/state-guides.html" />
 <meta property="og:image" content="https://credocket.com/img/og-image.png" />
 <meta property="og:image:width" content="1200" />
 <meta property="og:image:height" content="630" />
 <meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:title" content="ADA Title III Risk Flagging — CREdocket" />
-<meta name="twitter:description" content="Free ADA Title III physical-accessibility litigation risk profile by state and property type." />
+<meta name="twitter:title" content="State-by-State Litigation Guides — CREdocket" />
+<meta name="twitter:description" content="CREdocket's state-specific litigation guides: landlord–tenant, lending & foreclosure, REIT & securities, eminent domain, zoning, and lease-dispute matters, organized by state." />
 <meta name="twitter:image" content="https://credocket.com/img/og-image.png" />
 <link rel="icon" href="img/favicon.svg" type="image/svg+xml" />
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/styles.css" />
-<link rel="stylesheet" href="css/ada-risk-flagging.css" />
     <script>
       window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
     </script>
@@ -100,7 +99,7 @@
           <a href="insurance-risk-posture-guide.html">Insurance &amp; Risk Posture Guide</a>
           <a href="manager-vs-owner-liability.html">Manager vs. Owner Liability</a>
           <a href="algorithmic-pricing-manager-guide.html">Algorithmic Pricing: A Manager's Guide</a>
-          <a href="state-guides.html">State-by-State Guides</a>
+          <a href="state-guides.html" class="active">State-by-State Guides</a>
         </div>
       </li>
       <li><a href="about.html">About</a></li>
@@ -114,36 +113,35 @@
 </nav>
 
 <header class="page-header">
+    <svg class="page-header-graphic" viewBox="0 0 640 400" fill="none" aria-hidden="true" preserveAspectRatio="xMaxYMid slice">
+      <defs>
+        <radialGradient id="phGlow" cx="70%" cy="30%" r="60%">
+          <stop offset="0" stop-color="var(--accent)" stop-opacity="0.16"/>
+          <stop offset="1" stop-color="var(--accent)" stop-opacity="0"/>
+        </radialGradient>
+      </defs>
+      <rect x="0" y="0" width="640" height="400" fill="url(#phGlow)"/>
+      <circle cx="420" cy="120" r="3.5" fill="var(--status-pending)" opacity="0.8">
+        <animate attributeName="r" values="3.5;5.5;3.5" dur="3s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="230" cy="160" r="3" fill="var(--status-filed)" opacity="0.8">
+        <animate attributeName="r" values="3;5;3" dur="2.6s" repeatCount="indefinite"/>
+      </circle>
+    </svg>
   <div class="container">
-    <div class="eyebrow reveal in-view">Litigation Tools</div>
-    <h1 class="reveal in-view" style="font-size:clamp(2.2rem,4vw,3.4rem);">ADA Title III Risk Flagging</h1>
-    <p class="lede mt-16 reveal in-view">Free physical/architectural-barrier litigation risk profile, by state and property type — real 2025 federal filing-volume data, known state-law damages overlays, and the property-type-specific areas that actually get sued over.</p>
+    <div class="eyebrow reveal in-view">Guides</div>
+    <h1 class="reveal in-view" style="font-size:clamp(2.2rem,4vw,3.4rem);">State-by-state litigation guides</h1>
+    <p class="lede mt-16 reveal in-view">A single index of every state-specific practice-area page CREdocket publishes — the real matters tracked in that state, for that category, with citations. Nine states so far; more as coverage grows.</p>
   </div>
 </header>
 
 <section class="section-tight">
-  <div class="container" style="max-width:820px;">
-    <div class="card reveal" style="padding:24px; margin-bottom:24px;">
-      <div class="eyebrow" style="margin-bottom:10px;">Disclaimer</div>
-      <p class="text-secondary" id="ar-disclaimer" style="font-size:13px; line-height:1.7;"></p>
-    </div>
+  <div class="container">
+    <div id="state-guides-host"></div>
 
-    <div class="cv-controls" style="margin-bottom:20px;">
-      <div>
-        <label for="ar-state">State</label>
-        <select id="ar-state">
-          <option value="">— Select a state —</option>
-        </select>
-      </div>
-      <div>
-        <label for="ar-property-type">Property type</label>
-        <select id="ar-property-type">
-          <option value="">— Select a property type —</option>
-        </select>
-      </div>
-    </div>
-
-    <div id="ar-results"></div>
+    <p class="text-muted mt-40" style="font-size:13px;">
+      Don't see your state or practice area? <a href="litigation.html" class="text-accent" style="display:inline;">Browse the full Litigation Tracker</a> — it's searchable and filterable by both, even where a dedicated state page doesn't exist yet.
+    </p>
   </div>
 </section>
 
@@ -193,6 +191,7 @@
         <a href="algorithmic-pricing-manager-guide.html">Algorithmic Pricing: A Manager's Guide</a>
         <a href="lien-deadline-calculator.html">Mechanic's Lien Deadline Calculator</a>
         <a href="ada-risk-flagging.html">ADA Title III Risk Flagging</a>
+        <a href="state-guides.html">State-by-State Guides</a>
         <a href="about.html">About</a>
         <a href="contact.html">Contact</a>
       </div>
@@ -200,7 +199,6 @@
         <h4>Legal</h4>
         <a href="privacy.html">Privacy Policy</a>
         <a href="terms.html">Terms of Service</a>
-        <a href="litigation-tools-terms.html">Litigation Tools Terms &amp; Waiver</a>
       </div>
       <div class="footer-col">
         <h4>Contact</h4>
@@ -209,21 +207,63 @@
       </div>
     </div>
     <div class="footer-bottom">
-      <span>© <span data-year></span> CREdocket. Litigation intelligence sourced from ongoing legal research.</span>
+      <span>&copy; <span data-year></span> CREdocket. Litigation intelligence sourced from ongoing legal research.</span>
       <span>Not legal advice. For informational purposes only.</span>
     </div>
   </div>
 </footer>
 
 <script src="js/data.js"></script>
-<script src="js/ada-risk-data.js"></script>
-<script src="js/ada-litigation-patterns-data.js"></script>
 <script src="js/main.js"></script>
 <script src="js/glossary-tooltip.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script>
 <script src="js/supabase-client.js"></script>
 <script src="js/auth.js"></script>
+<script src="js/trending.js"></script>
+<script src="js/search.js"></script>
 <script src="js/motion.js"></script>
-<script src="js/ada-risk-flagging.js"></script>
+<script>
+  (function () {
+    // One entry per real state-specific guide page -- hand-maintained
+    // (not derived from RELAW_DATA) since these are individually authored
+    // pages, not auto-generated per state/category combination. Add a row
+    // here whenever a new one ships.
+    const GUIDES = [
+      { state: "California", href: "california-landlord-tenant.html", category: "Landlord–Tenant", count: 1 },
+      { state: "California", href: "california-zoning-land-use.html", category: "Zoning & Land Use", count: 1 },
+      { state: "Florida", href: "florida-lending-foreclosure.html", category: "Lending & Foreclosure", count: 1 },
+      { state: "Florida", href: "florida-reit-securities.html", category: "REIT & Securities", count: 1 },
+      { state: "Illinois", href: "illinois-lease-disputes.html", category: "Commercial Lease Disputes", count: 1 },
+      { state: "Minnesota", href: "minnesota-lending-foreclosure.html", category: "Lending & Foreclosure", count: 1 },
+      { state: "New Jersey", href: "new-jersey-eminent-domain.html", category: "Eminent Domain", count: 1 },
+      { state: "New Jersey", href: "new-jersey-reit-securities.html", category: "REIT & Securities", count: 1 },
+      { state: "New York", href: "new-york-landlord-tenant.html", category: "Landlord–Tenant", count: 1 },
+      { state: "New York", href: "new-york-lending-foreclosure.html", category: "Lending & Foreclosure", count: 2 },
+      { state: "Pennsylvania", href: "pennsylvania-landlord-tenant.html", category: "Landlord–Tenant", count: 1 },
+      { state: "Rhode Island", href: "rhode-island-eminent-domain.html", category: "Eminent Domain", count: 1 },
+      { state: "Texas", href: "texas-lending-foreclosure.html", category: "Lending & Foreclosure", count: 1 },
+    ];
+
+    const byState = {};
+    GUIDES.forEach((g) => { (byState[g.state] = byState[g.state] || []).push(g); });
+    const states = Object.keys(byState).sort();
+
+    const host = document.getElementById("state-guides-host");
+    host.innerHTML = states.map((state) => `
+      <div class="card reveal in-view" style="margin-bottom:16px; padding:24px 28px;">
+        <h3 style="font-size:1.1rem; margin-bottom:14px;">${state}</h3>
+        <div style="display:flex; flex-direction:column; gap:10px;">
+          ${byState[state].map((g) => {
+            const cat = RELAW_DATA.categories.find((c) => c.label === g.category);
+            const color = cat ? cat.color : "var(--text-muted)";
+            return `<a href="${g.href}" style="display:flex; align-items:center; justify-content:space-between; gap:12px; font-size:13.5px; color:var(--text-secondary);">
+              <span style="display:flex; align-items:center; gap:8px;"><span style="width:7px; height:7px; border-radius:50%; background:${color}; flex-shrink:0;"></span>${g.category}</span>
+              <span class="text-muted mono" style="font-size:11.5px; flex-shrink:0;">${g.count} matter${g.count === 1 ? "" : "s"} &rarr;</span>
+            </a>`;
+          }).join("")}
+        </div>
+      </div>`).join("");
+  })();
+</script>
 </body>
 </html>
