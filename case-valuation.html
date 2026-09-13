@@ -295,9 +295,34 @@
 <script src="js/case-valuation.js"></script>
 <script src="js/terms-gate.js"></script>
 <script>
-  window.RELAW_TERMS_GATE.gate("case-value-calculator", {
-    summary: "The Case Value Calculator produces an AI- and rules-based probability-weighted estimate — not legal advice, not a prediction of outcome, and not a substitute for a licensed attorney. Please review and accept the terms, disclaimer, and waiver below before continuing."
-  });
+  // Deferred to first real interaction (2026-09-13, 10-agent premium-
+  // readiness review's UX finding) instead of firing unconditionally on
+  // page load. The gate's actual legal substance is unchanged -- same
+  // unchecked checkbox, same explicit "I Agree" click, still blocks
+  // before any analysis happens -- this only changes WHEN it appears, so
+  // a visitor can read the page and see what the tool does before being
+  // asked to accept anything, instead of a legal wall being the literal
+  // first thing rendered before they've typed a single word.
+  (function () {
+    const TERMS_SUMMARY = "The Case Value Calculator produces an AI- and rules-based probability-weighted estimate — not legal advice, not a prediction of outcome, and not a substitute for a licensed attorney. Please review and accept the terms, disclaimer, and waiver below before continuing.";
+    if (window.RELAW_TERMS_GATE.hasAccepted()) {
+      window.RELAW_TERMS_GATE.gate("case-value-calculator", { summary: TERMS_SUMMARY });
+      return;
+    }
+    const formHost = document.getElementById("cv-form");
+    if (!formHost) return;
+    function intercept(e) {
+      if (!formHost.contains(e.target)) return;
+      e.preventDefault();
+      e.stopPropagation();
+      if (document.activeElement && formHost.contains(document.activeElement)) document.activeElement.blur();
+      document.removeEventListener("mousedown", intercept, true);
+      document.removeEventListener("focusin", intercept, true);
+      window.RELAW_TERMS_GATE.gate("case-value-calculator", { summary: TERMS_SUMMARY });
+    }
+    document.addEventListener("mousedown", intercept, true);
+    document.addEventListener("focusin", intercept, true);
+  })();
 </script>
 </body>
 </html>
