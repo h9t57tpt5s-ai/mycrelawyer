@@ -208,6 +208,16 @@
           </select>
         </div>
         <button class="btn btn-ghost btn-sm" id="clear-filters">Clear</button>
+        <div class="export-dropdown" id="export-dropdown">
+          <button type="button" class="btn btn-ghost btn-sm" id="export-toggle">
+            Export
+            <svg viewBox="0 0 24 24" fill="none" width="14" height="14"><path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </button>
+          <div class="export-menu-panel">
+            <button type="button" id="export-csv">Export CSV (Excel)</button>
+            <button type="button" id="export-pdf">Export PDF</button>
+          </div>
+        </div>
       </div>
       <div class="chip-row" id="category-chips"></div>
       <div class="results-count" id="results-count"></div>
@@ -289,6 +299,7 @@
 <script src="js/us-state-paths.js"></script>
 <script src="js/usmap.js"></script>
 <script src="js/cityscape.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
 <script src="js/litigation.js"></script>
 </body>
 </html>

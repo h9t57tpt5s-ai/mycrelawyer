@@ -23,6 +23,10 @@
   const chipRow = document.getElementById("category-chips");
   const clearBtn = document.getElementById("clear-filters");
   const statePillList = document.getElementById("state-pills");
+  const exportDropdown = document.getElementById("export-dropdown");
+  const exportToggle = document.getElementById("export-toggle");
+  const exportCsvBtn = document.getElementById("export-csv");
+  const exportPdfBtn = document.getElementById("export-pdf");
 
   if (!grid) return;
 
@@ -232,6 +236,61 @@
     chipRow.querySelectorAll(".chip").forEach((c) => { c.classList.remove("active"); c.style.color = "var(--text-secondary)"; });
     render();
   });
+
+  /* Export -- CSV/PDF of whatever the current filters are showing right
+     now (re-runs getFiltered() at click time, not a stale snapshot from
+     the last render). A short human-readable description of the active
+     filters becomes both the PDF subtitle and the downloaded filename,
+     so "export what I'm looking at" stays true after the file leaves
+     the browser tab too. */
+  function describeActiveFilters() {
+    const parts = [];
+    if (state.categories.size) {
+      parts.push(RELAW_DATA.categories.filter((c) => state.categories.has(c.id)).map((c) => c.label).join(", "));
+    }
+    if (state.status !== "all") {
+      const s = RELAW_DATA.statuses.find((s) => s.id === state.status);
+      if (s) parts.push(s.label);
+    }
+    if (state.stateFilter !== "all" && RELAW_DATA.states[state.stateFilter]) {
+      parts.push(RELAW_DATA.states[state.stateFilter]);
+    }
+    if (state.query) parts.push(`"${state.query}"`);
+    return parts.length ? parts.join(" · ") : "All tracked matters";
+  }
+  function exportFilename(ext) {
+    const safe = describeActiveFilters().replace(/[^a-z0-9]+/gi, "_").replace(/^_+|_+$/g, "").slice(0, 60);
+    return `CREdocket_${safe || "Export"}_${new Date().toISOString().slice(0, 10)}.${ext}`;
+  }
+  if (exportDropdown && exportToggle) {
+    exportToggle.addEventListener("click", (e) => {
+      e.stopPropagation();
+      exportDropdown.classList.toggle("open");
+    });
+    document.addEventListener("click", (e) => {
+      if (!exportDropdown.contains(e.target)) exportDropdown.classList.remove("open");
+    });
+    exportCsvBtn.addEventListener("click", () => {
+      exportDropdown.classList.remove("open");
+      const filtered = getFiltered();
+      if (!filtered.length) { window.RELAW_UTILS.showToast("No matters match the current filters — nothing to export.", { error: true }); return; }
+      window.RELAW_UTILS.downloadTextFile(
+        window.RELAW_UTILS.casesToCsv(filtered),
+        exportFilename("csv"),
+        "text/csv;charset=utf-8;"
+      );
+    });
+    exportPdfBtn.addEventListener("click", () => {
+      exportDropdown.classList.remove("open");
+      const filtered = getFiltered();
+      if (!filtered.length) { window.RELAW_UTILS.showToast("No matters match the current filters — nothing to export.", { error: true }); return; }
+      window.RELAW_UTILS.exportCasesToPdf(filtered, {
+        title: "CREdocket — Litigation Tracker Export",
+        subtitle: describeActiveFilters(),
+        filename: exportFilename("pdf"),
+      });
+    });
+  }
 
   /* Deep-link support: ?category=zoning-land-use and/or ?state=NY */
   const params = new URLSearchParams(window.location.search);

@@ -386,6 +386,107 @@
   }
   window.RELAW_UTILS.showToast = showToast;
 
+  /* ---------- Export: filtered case list to CSV / PDF ----------
+     Shared by litigation.html's filter bar (the primary use case: export
+     whatever the current category/status/state/search filters are
+     currently showing) and reusable anywhere else a page has an array of
+     real case objects on hand. No backend involved -- everything here
+     runs client-side against RELAW_DATA.cases (or a filtered subset of
+     it) already in memory. */
+  function csvCell(v) {
+    const s = v === null || v === undefined ? "" : String(v);
+    return /[",\r\n]/.test(s) ? '"' + s.replace(/"/g, '""') + '"' : s;
+  }
+  function casesToCsv(cases) {
+    const headers = ["Title", "Category", "Status", "Date", "Jurisdiction", "State", "Amount", "Summary", "Source URL"];
+    const rows = cases.map((c) => {
+      const cat = categoryById(c.category);
+      const status = statusById(c.status);
+      const stateName = (c.state && RELAW_DATA.states && RELAW_DATA.states[c.state]) || c.state || "";
+      return [
+        c.title, cat ? cat.label : c.category, status ? status.label : c.status,
+        formatDate(c.date), c.jurisdiction, stateName, c.amount || "", c.summary, c.sourceUrl || "",
+      ].map(csvCell).join(",");
+    });
+    // Leading BOM so Excel (which guesses encoding from the byte order
+    // mark, not a declared charset the way a browser would) opens this as
+    // UTF-8 instead of mis-rendering an em dash or a party name's accented
+    // character -- both of which show up in real matter titles/summaries.
+    return "﻿" + [headers.map(csvCell).join(","), ...rows].join("\r\n");
+  }
+  function downloadTextFile(text, filename, mimeType) {
+    const blob = new Blob([text], { type: mimeType });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement("a");
+    a.href = url;
+    a.download = filename;
+    document.body.appendChild(a);
+    a.click();
+    a.remove();
+    setTimeout(() => URL.revokeObjectURL(url), 1000);
+  }
+  // Hand-rolled instead of a table plugin -- jsPDF 2.5.1 (already loaded
+  // on case-valuation.html/eviction-guide.html/premises-liability-guide.html
+  // for their own report downloads) has no bundled table renderer, and one
+  // more compact row per matter (bold title + a muted meta line) reads
+  // better for a docket export than a cramped grid would anyway.
+  function exportCasesToPdf(cases, opts) {
+    opts = opts || {};
+    if (typeof window.jspdf === "undefined") {
+      showToast("PDF export isn't available on this page yet — try again in a moment, or use Export CSV instead.", { error: true });
+      return;
+    }
+    const { jsPDF } = window.jspdf;
+    const doc = new jsPDF({ unit: "pt", format: "letter" });
+    const marginX = 48;
+    let y = 56;
+    const pageHeight = doc.internal.pageSize.getHeight();
+    const pageWidth = doc.internal.pageSize.getWidth();
+    const contentWidth = pageWidth - marginX * 2;
+    function addPageIfNeeded(need) {
+      if (y + need > pageHeight - 48) {
+        doc.addPage();
+        y = 56;
+      }
+    }
+    doc.setFont("helvetica", "bold"); doc.setFontSize(16); doc.setTextColor(20, 24, 33);
+    doc.text(opts.title || "CREdocket — Litigation Tracker Export", marginX, y); y += 20;
+    doc.setFont("helvetica", "normal"); doc.setFontSize(10); doc.setTextColor(100, 106, 120);
+    const subtitle = (opts.subtitle ? opts.subtitle + " — " : "") +
+      `${cases.length} matter${cases.length === 1 ? "" : "s"} — generated ${new Date().toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric" })}`;
+    doc.text(subtitle, marginX, y); y += 10;
+    doc.setDrawColor(210, 213, 219);
+    doc.line(marginX, y, pageWidth - marginX, y); y += 22;
+
+    cases.forEach((c) => {
+      const cat = categoryById(c.category);
+      const status = statusById(c.status);
+      addPageIfNeeded(50);
+      doc.setFont("helvetica", "bold"); doc.setFontSize(11); doc.setTextColor(20, 24, 33);
+      const titleLines = doc.splitTextToSize(c.title, contentWidth);
+      doc.text(titleLines, marginX, y); y += titleLines.length * 13 + 3;
+      doc.setFont("helvetica", "normal"); doc.setFontSize(9); doc.setTextColor(100, 106, 120);
+      const stateName = (c.state && RELAW_DATA.states && RELAW_DATA.states[c.state]) || c.state || "";
+      const metaLine = [
+        cat ? cat.label : null,
+        status ? status.label : null,
+        formatDate(c.date),
+        c.jurisdiction,
+        c.amount || null,
+      ].filter(Boolean).join("  |  ");
+      const metaLines = doc.splitTextToSize(metaLine, contentWidth);
+      addPageIfNeeded(metaLines.length * 11 + 14);
+      doc.text(metaLines, marginX, y); y += metaLines.length * 11 + 10;
+      doc.setDrawColor(232, 234, 238);
+      doc.line(marginX, y, pageWidth - marginX, y); y += 14;
+    });
+
+    doc.save(opts.filename || `CREdocket_Export_${new Date().toISOString().slice(0, 10)}.pdf`);
+  }
+  window.RELAW_UTILS.casesToCsv = typeof RELAW_DATA !== "undefined" ? casesToCsv : null;
+  window.RELAW_UTILS.downloadTextFile = downloadTextFile;
+  window.RELAW_UTILS.exportCasesToPdf = typeof RELAW_DATA !== "undefined" ? exportCasesToPdf : null;
+
   /* Shared empty-state component -- litigation.js already had a real one
      (icon + message, centered) but three other "nothing here yet" states
      (watchlists, timeline, contribute-a-settlement) were bare <p> tags

@@ -825,6 +825,29 @@ h3, .h3 {
 
 .results-count { font-size: 13px; color: var(--text-muted); font-family: var(--font-mono); }
 
+/* ---------- Export dropdown (litigation tracker filter bar) --------
+   Click-toggled (a .open class from JS), not the nav's hover-based
+   .nav-dropdown -- a hover panel doesn't work on touch, and this needs
+   to stay open while the user reads the two options. */
+.export-dropdown { position: relative; }
+.export-dropdown > .btn svg { transition: transform 0.18s ease; }
+.export-dropdown.open > .btn svg { transform: rotate(180deg); }
+.export-menu-panel {
+  position: absolute; top: calc(100% + 6px); right: 0; z-index: 60; min-width: 180px;
+  background: var(--bg-elevated); border: 1px solid var(--border); border-radius: var(--radius-md);
+  box-shadow: var(--shadow-lg); overflow: hidden;
+  opacity: 0; visibility: hidden; transform: translateY(-4px);
+  transition: opacity 0.15s ease, transform 0.15s ease, visibility 0.15s;
+}
+.export-dropdown.open .export-menu-panel { opacity: 1; visibility: visible; transform: translateY(0); }
+.export-menu-panel button {
+  display: block; width: 100%; text-align: left; background: none; border: none;
+  padding: 11px 14px; font-size: 13px; font-weight: 500; color: var(--text-secondary); cursor: pointer;
+  transition: background 0.15s ease, color 0.15s ease;
+}
+.export-menu-panel button:hover { background: var(--surface); color: var(--text-primary); }
+.export-menu-panel button:not(:last-child) { border-bottom: 1px solid var(--border-soft); }
+
 /* ---------- Tracker overview (jurisdiction map) ----------
    Used to be a side-by-side grid with an SVG "timeline by practice
    area" chart in the other column -- direct user feedback: dense,
