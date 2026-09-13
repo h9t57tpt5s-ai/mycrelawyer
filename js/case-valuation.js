@@ -110,6 +110,7 @@
       const raw = el.value;
       if (raw === "") return;
       if (type === "boolean") out[key] = raw === "true";
+      else if (type === "string") out[key] = raw;
       else out[key] = parseFloat(raw);
     });
     return out;
@@ -742,7 +743,10 @@
               expectToTrial: !!costFacts.expectToTrial,
               settlementOnTable: costFacts.settlementOnTable ?? null,
               customCostLow: costFacts.customCostLow ?? null,
-              customCostHigh: costFacts.customCostHigh ?? null
+              customCostHigh: costFacts.customCostHigh ?? null,
+              mitigationReleaseMonths: costFacts.mitigationReleaseMonths ?? null,
+              mitigationNewMonthlyRent: costFacts.mitigationNewMonthlyRent ?? null,
+              mitigationPropertyType: costFacts.mitigationPropertyType || null
             })
           });
         } finally {
@@ -966,7 +970,10 @@
               expectToTrial: !!costFacts.expectToTrial,
               settlementOnTable: costFacts.settlementOnTable ?? null,
               customCostLow: costFacts.customCostLow ?? null,
-              customCostHigh: costFacts.customCostHigh ?? null
+              customCostHigh: costFacts.customCostHigh ?? null,
+              mitigationReleaseMonths: costFacts.mitigationReleaseMonths ?? null,
+              mitigationNewMonthlyRent: costFacts.mitigationNewMonthlyRent ?? null,
+              mitigationPropertyType: costFacts.mitigationPropertyType || null
             })
           });
         } finally {

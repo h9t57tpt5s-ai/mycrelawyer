@@ -193,6 +193,39 @@
           </div>
         </div>
       </div>
+
+      <div class="cv-cost-section">
+        <div class="eyebrow" style="margin-bottom:10px;">Lease Mitigation Reference (Landlord-Tenant Only)</div>
+        <p class="text-muted" style="font-size:12px; line-height:1.6; margin-bottom:16px;">If this is a landlord-tenant matter involving accelerated/future rent, a landlord generally has a duty to mitigate by re-leasing the space. Enter your own broker's re-lease estimate below if you have one — it replaces this tool's generic mitigation assumption with your actual number. Leave blank (and this section is ignored) for any other kind of matter.</p>
+        <div id="cv-mitigation-form-host">
+          <div class="cv-field">
+            <label for="cv-q-mitigationPropertyType">Property type (optional)</label>
+            <select id="cv-q-mitigationPropertyType" data-cost-key="mitigationPropertyType" data-type="string">
+              <option value="" selected>N/A</option>
+              <option value="Office">Office</option>
+              <option value="Multifamily">Multifamily</option>
+              <option value="Retail">Retail</option>
+              <option value="Industrial">Industrial</option>
+              <option value="Hospitality">Hospitality</option>
+              <option value="Mixed-Use">Mixed-Use</option>
+              <option value="Land/Development">Land/Development</option>
+              <option value="Medical Office">Medical Office</option>
+              <option value="Data Center">Data Center</option>
+              <option value="Life Sciences">Life Sciences</option>
+              <option value="Senior Living">Senior Living</option>
+              <option value="Self-Storage">Self-Storage</option>
+            </select>
+          </div>
+          <div class="cv-field">
+            <label for="cv-q-mitigationReleaseMonths">Your own estimate: months to re-lease the space (optional)</label>
+            <input id="cv-q-mitigationReleaseMonths" type="number" step="any" min="0" data-cost-key="mitigationReleaseMonths" data-type="number" />
+          </div>
+          <div class="cv-field">
+            <label for="cv-q-mitigationNewMonthlyRent">Your own estimate: expected monthly rent from a new tenant ($, optional)</label>
+            <input id="cv-q-mitigationNewMonthlyRent" type="number" step="any" min="0" data-cost-key="mitigationNewMonthlyRent" data-type="number" />
+          </div>
+        </div>
+      </div>
     </form>
     <div id="cv-results-host" style="margin-top:28px;"></div>
   </div>

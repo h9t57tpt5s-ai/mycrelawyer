@@ -4312,5 +4312,46 @@ const CASE_VALUATION_DATA = {
       "openAndObviousRule": "No-Duty-to-Warn-but-Duty-to-Remedy",
       "negligentSecurityTestNormalized": null
     }
-  }
+  },
+
+  /* ---------- Lease mitigation reference data (landlord-tenant accelerated
+     rent) -- OPTIONAL, gated entirely on real, cited market data actually
+     being present here. Deliberately starts EMPTY. In an accelerated-rent
+     claim, evalLeaseDisputes() (supabase/functions/case-valuation-analyze/
+     index.ts) currently nets future rent against a flat mitigation-
+     uncertainty haircut (80-98% of gross, or 88-100%, depending on the
+     state's mitigationDuty) when the landlord hasn't actually re-let yet --
+     a generic stand-in, not a real market-informed estimate, because there
+     was never a real re-lease-time/rate figure to use instead.
+
+     This dictionary is where that real figure goes, once actually
+     researched (never estimated/invented) from a source like a CBRE/JLL/
+     Cushman & Wakefield/Colliers quarterly market report -- see the
+     feasibility assessment in this session's [[credocket-roadmap-ideas]]
+     memory note for why this can't be an automated aggregation pipeline
+     and has to be researched incrementally, market by market, the same
+     way ADA Litigation Patterns' state coverage grew.
+
+     Key: "<2-letter state>|<propertyType>", propertyType from the same
+     controlled vocabulary the digest pipeline uses for case propertyType
+     (Office, Multifamily, Retail, Industrial, Hospitality, Mixed-Use,
+     Land/Development, Medical Office, Data Center, Life Sciences, Senior
+     Living, Self-Storage). Entry shape:
+       {
+         reLeaseMonthsRange: [lo, hi],   // typical months to re-lease
+         rentChangeRange: [lo, hi],      // new-tenant rent vs. prior rent,
+                                          // as a signed fraction (-0.10 =
+                                          // 10% lower, 0.05 = 5% higher)
+         asOfDate: "YYYY-MM-DD",
+         source: "...",                  // e.g. "CBRE Q2 2026 Office MarketView"
+         sourceUrl: "..."
+       }
+     While this stays empty (as it does today), evalLeaseDisputes() falls
+     back to the existing flat-haircut behavior exactly as before -- this
+     is purely additive and changes nothing until a real entry exists. A
+     user's own broker estimate (entered directly in the Case Value
+     Calculator's cost section) takes priority over a lookup here even
+     once entries exist, since a case-specific real number always beats
+     a market-average one. */
+  "leaseMitigationReference": {}
 };

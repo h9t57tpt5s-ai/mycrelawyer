@@ -180,6 +180,15 @@ type CaseData = {
     confidence?: string;
     note?: string;
   }>;
+  // Optional, deliberately empty until real market data is researched --
+  // see the long comment on this key in js/case-valuation-data.js.
+  leaseMitigationReference?: Record<string, {
+    reLeaseMonthsRange: [number, number];
+    rentChangeRange: [number, number];
+    asOfDate: string;
+    source: string;
+    sourceUrl: string;
+  }>;
 };
 
 let cachedCaseData: CaseData | null = null;
@@ -374,7 +383,30 @@ function makeResult(
   };
 }
 
-function evalLeaseDisputes(f: Facts, cit: CaseData["citations"]): Claim[] {
+// Projects a real dollar mitigation offset instead of the flat percentage
+// haircut below, given an actual (or actually-sourced) re-lease timeline
+// and new rent: full rent still accrues against the defaulting tenant for
+// the vacancy months before a replacement is found, then only the
+// shortfall (if any) between the old and new rent accrues for the
+// remainder of the old lease's term.
+function computeMitigatedNetFutureRent(monthlyRent: number, remainingMonths: number, reLeaseMonths: number, newMonthlyRent: number): number {
+  const vacantMonths = Math.min(remainingMonths, Math.max(0, reLeaseMonths));
+  const postReLeaseMonths = Math.max(0, remainingMonths - vacantMonths);
+  const shortfallPerMonth = Math.max(0, monthlyRent - Math.max(0, newMonthlyRent));
+  return vacantMonths * monthlyRent + postReLeaseMonths * shortfallPerMonth;
+}
+
+// Optional, deliberately empty until real market data is researched -- see
+// the long comment on leaseMitigationReference in js/case-valuation-data.js.
+// Returns null (not a guess) whenever no entry exists for this state/
+// property-type pair, which is every lookup today.
+function lookupMitigationReference(data: CaseData, stateVal: string, propertyType: string) {
+  if (!stateVal || !propertyType) return null;
+  const entry = data.leaseMitigationReference?.[`${stateVal}|${propertyType}`];
+  return entry || null;
+}
+
+function evalLeaseDisputes(f: Facts, cit: CaseData["citations"], data: CaseData): Claim[] {
   const out: Claim[] = [];
   const R = (k: string, l: string, p: [number, number], lo: number | null, hi: number | null, n?: string, b?: boolean) => R2(cit, k, l, p, lo, hi, n, b);
   if (num(f, "unpaidRentAmount") > 0) {
@@ -387,15 +419,35 @@ function evalLeaseDisputes(f: Facts, cit: CaseData["citations"]): Claim[] {
     const p: [number, number] = str(f, "hasAccelerationClause") === "yes" ? [0.65, 0.90] : [0.15, 0.30];
     const grossFutureRent = num(f, "remainingMonths") * num(f, "monthlyRent");
     // Net of actual/anticipated replacement-tenant rent (dollar-for-dollar,
-    // BEFORE discounting) if re-let; otherwise a modest haircut reflecting
-    // mitigation-duty uncertainty, not a guess at the eventual relet amount.
+    // BEFORE discounting) if re-let; otherwise, in priority order: (1) the
+    // user's own broker-supplied re-lease estimate, (2) a real, sourced
+    // market reference for this state/property type if one has actually
+    // been researched (leaseMitigationReference -- empty today), (3) the
+    // original flat mitigation-uncertainty haircut, unchanged, as the
+    // final fallback when none of the above exist.
     let netLow = grossFutureRent, netHigh = grossFutureRent;
+    let mitigationNote = "";
     if (bool(f, "hasRelet") && num(f, "reletRentAmount") >= 0) {
       netLow = netHigh = Math.max(0, grossFutureRent - num(f, "reletRentAmount"));
-    } else if (str(f, "mitigationDuty") === "Yes") {
-      netLow = grossFutureRent * 0.80; netHigh = grossFutureRent * 0.98;
-    } else if (str(f, "mitigationDuty") === "Unclear") {
-      netLow = grossFutureRent * 0.88; netHigh = grossFutureRent;
+      mitigationNote = " Net of actual/anticipated replacement-tenant rent.";
+    } else if (num(f, "mitigationReleaseMonths") > 0 && num(f, "mitigationNewMonthlyRent") >= 0) {
+      const net = computeMitigatedNetFutureRent(num(f, "monthlyRent"), num(f, "remainingMonths"), num(f, "mitigationReleaseMonths"), num(f, "mitigationNewMonthlyRent"));
+      netLow = netHigh = net;
+      mitigationNote = ` Net of your own re-lease estimate (${num(f, "mitigationReleaseMonths")} month(s) to re-lease at $${num(f, "mitigationNewMonthlyRent").toLocaleString("en-US")}/month) rather than a generic mitigation haircut.`;
+    } else {
+      const ref = lookupMitigationReference(data, str(f, "state") || "", str(f, "mitigationPropertyType") || "");
+      if (ref) {
+        const scenario = (reLeaseMonths: number, rentChange: number) =>
+          computeMitigatedNetFutureRent(num(f, "monthlyRent"), num(f, "remainingMonths"), reLeaseMonths, num(f, "monthlyRent") * (1 + rentChange));
+        const a = scenario(ref.reLeaseMonthsRange[0], ref.rentChangeRange[1]);
+        const b = scenario(ref.reLeaseMonthsRange[1], ref.rentChangeRange[0]);
+        netLow = Math.min(a, b); netHigh = Math.max(a, b);
+        mitigationNote = ` Net of a sourced market re-lease reference for this property type/state (${ref.source}, as of ${ref.asOfDate}) rather than a generic mitigation haircut -- a directional market range, not case-specific evidence.`;
+      } else if (str(f, "mitigationDuty") === "Yes") {
+        netLow = grossFutureRent * 0.80; netHigh = grossFutureRent * 0.98;
+      } else if (str(f, "mitigationDuty") === "Unclear") {
+        netLow = grossFutureRent * 0.88; netHigh = grossFutureRent;
+      }
     }
     // Present-value discount (5%-9% annual) -- required once future rent is
     // accelerated; see the cited case, which used a 6.0% rate reflecting the
@@ -403,8 +455,7 @@ function evalLeaseDisputes(f: Facts, cit: CaseData["citations"]): Claim[] {
     const low = pvOfLevelStream(netLow, num(f, "remainingMonths"), 0.09);
     const high = pvOfLevelStream(netHigh, num(f, "remainingMonths"), 0.05);
     out.push(R("accelerated_rent", "Accelerated / Future Rent", p, Math.max(0, low), Math.max(0, high),
-      "Discounted to present value using a 5%-9% annual rate range (industry/court practice, not a flat percentage haircut)." +
-      (bool(f, "hasRelet") ? " Net of actual/anticipated replacement-tenant rent." : "")));
+      "Discounted to present value using a 5%-9% annual rate range (industry/court practice, not a flat percentage haircut)." + mitigationNote));
   }
   if (num(f, "releaseWorkCosts") > 0) {
     out.push(R("releasing_mitigation_costs", "Re-Leasing / Mitigation Costs", [0.60, 0.85],
@@ -1078,7 +1129,7 @@ function evalPremisesLiability(f: Facts, cit: CaseData["citations"]): Claim[] {
   return out;
 }
 
-const EVALUATORS: Record<string, (f: Facts, cit: CaseData["citations"]) => Claim[]> = {
+const EVALUATORS: Record<string, (f: Facts, cit: CaseData["citations"], data: CaseData) => Claim[]> = {
   "premises-liability": evalPremisesLiability,
   "lease-disputes": evalLeaseDisputes,
   "lending-foreclosure": evalLendingForeclosure,
@@ -1093,7 +1144,7 @@ function evaluate(categorySlug: string, facts: Facts, data: CaseData) {
   const fn = EVALUATORS[categorySlug];
   const catSpec = data.spec.categories[categorySlug];
   if (!fn || !catSpec) return { claims: [] as Claim[], sideATotal: [0, 0] as [number, number], sideBTotal: [0, 0] as [number, number], roles: null, categoryLabel: categorySlug };
-  const claims = fn(facts, data.citations);
+  const claims = fn(facts, data.citations, data);
   const sideATotal: [number, number] = [0, 0], sideBTotal: [number, number] = [0, 0];
   for (const c of claims) {
     if (!c.expectedValueRange || c.isBenchmark) continue;
@@ -1575,7 +1626,7 @@ Deno.serve(async (req) => {
   // frontend JS still mid-rollout, which may still send an explicit
   // dropdown-selected `category`, keeps working exactly as before. New
   // requests are expected to omit it entirely.
-  let requestBody: { documentText?: string; description?: string; category?: string; userSide?: "sideA" | "sideB" | null; expectToTrial?: boolean; settlementOnTable?: number | null; customCostLow?: number | null; customCostHigh?: number | null };
+  let requestBody: { documentText?: string; description?: string; category?: string; userSide?: "sideA" | "sideB" | null; expectToTrial?: boolean; settlementOnTable?: number | null; customCostLow?: number | null; customCostHigh?: number | null; mitigationReleaseMonths?: number | null; mitigationNewMonthlyRent?: number | null; mitigationPropertyType?: string | null };
   try {
     requestBody = await req.json();
   } catch {
@@ -1704,6 +1755,16 @@ Deno.serve(async (req) => {
         extractedFacts.wrongfulLockoutRemedyValue = mods.wrongfulLockoutRemedyValue;
         extractedFacts.wrongfulLockoutCitation = mods.wrongfulLockoutCitation;
       }
+      // User-supplied lease-mitigation override (Case Value Calculator's
+      // cost section, optional, landlord-tenant only) -- a case-specific
+      // real number from the user's own broker always outranks a market-
+      // average lookup, so this is read directly in evalLeaseDisputes()
+      // ahead of leaseMitigationReference. Merged into facts (not read
+      // straight off requestBody there) so it flows through the exact
+      // same num()/str() helpers every other fact does.
+      if (typeof requestBody.mitigationReleaseMonths === "number") extractedFacts.mitigationReleaseMonths = requestBody.mitigationReleaseMonths;
+      if (typeof requestBody.mitigationNewMonthlyRent === "number") extractedFacts.mitigationNewMonthlyRent = requestBody.mitigationNewMonthlyRent;
+      if (requestBody.mitigationPropertyType) extractedFacts.mitigationPropertyType = requestBody.mitigationPropertyType;
     }
 
     // Merge the 51-jurisdiction premises-liability state-law table, same as
