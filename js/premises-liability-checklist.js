@@ -118,6 +118,11 @@
         </div>
         ${lockoutHtml}
         <p class="text-muted mt-16" style="font-size:12px;"><a href="premises-liability-guide.html" class="text-accent" style="display:inline;">Read ${name}'s full Premises Liability Guide chapter for citations and complete analysis →</a></p>
+        ${window.RELAW_UTILS.watchlistCtaHtml ? window.RELAW_UTILS.watchlistCtaHtml({
+          stateCode: window.RELAW_UTILS.stateCodeByName(name),
+          categoryId: "premises-liability",
+          message: `Get a free email alert on new premises-liability matters in ${name} — no card required.`,
+        }) : ""}
       `;
       host.scrollIntoView({ behavior: "smooth", block: "nearest" });
     }

@@ -72,7 +72,11 @@
         <ul class="ar-list">${propSpec.riskFactors.map((f) => `<li>${f}</li>`).join("")}</ul>
       </div>
 
-      ${patternsHtml}`;
+      ${patternsHtml}
+      ${window.RELAW_UTILS.watchlistCtaHtml ? window.RELAW_UTILS.watchlistCtaHtml({
+        stateCode: window.RELAW_UTILS.stateCodeByName(stateName),
+        message: `Get a free email alert on new ADA/premises-liability matters in ${stateName} — no card required.`,
+      }) : ""}`;
     resultsHost.scrollIntoView({ behavior: "smooth", block: "start" });
   }
 

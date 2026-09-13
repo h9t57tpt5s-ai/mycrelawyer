@@ -487,6 +487,36 @@
   window.RELAW_UTILS.downloadTextFile = downloadTextFile;
   window.RELAW_UTILS.exportCasesToPdf = typeof RELAW_DATA !== "undefined" ? exportCasesToPdf : null;
 
+  // ---- Post-free-tool watchlist CTA ----
+  // Added 2026-09-13 (10-agent premium-readiness review, UX finding): the
+  // free rule-based tools (Mechanic's Lien Calculator, ADA Risk Flagging,
+  // Premises Liability Checklist) each deliver a real, useful answer and
+  // then dead-end -- nothing on the page connects that moment (a visitor
+  // has just proven real intent, for a specific state/category) to the
+  // one thing on the site that would keep them coming back: a free
+  // watchlist. This is that connective tissue, reused across all three.
+  // account.html's own ?state=/?category= query-param prefill is wired
+  // in js/watchlists.js.
+  function stateCodeByName(name) {
+    if (typeof RELAW_DATA === "undefined" || !RELAW_DATA.states || !name) return null;
+    const entry = Object.entries(RELAW_DATA.states).find(([, n]) => n === name);
+    return entry ? entry[0] : null;
+  }
+  function watchlistCtaHtml(opts) {
+    opts = opts || {};
+    const params = new URLSearchParams();
+    if (opts.stateCode) params.set("state", opts.stateCode);
+    if (opts.categoryId) params.set("category", opts.categoryId);
+    const qs = params.toString();
+    return `<div class="card" style="padding:20px; margin-top:16px; border-style:dashed;">
+      <div class="eyebrow" style="margin-bottom:8px;">Stay Ahead Of This</div>
+      <p class="text-secondary" style="font-size:13.5px; line-height:1.6; margin-bottom:14px;">${opts.message || "Get a free email alert the moment a new matter like this is added to the tracker — no card required."}</p>
+      <a href="account.html${qs ? "?" + qs : ""}" class="btn btn-primary btn-sm">Create a free watchlist</a>
+    </div>`;
+  }
+  window.RELAW_UTILS.stateCodeByName = stateCodeByName;
+  window.RELAW_UTILS.watchlistCtaHtml = watchlistCtaHtml;
+
   /* Shared empty-state component -- litigation.js already had a real one
      (icon + message, centered) but three other "nothing here yet" states
      (watchlists, timeline, contribute-a-settlement) were bare <p> tags

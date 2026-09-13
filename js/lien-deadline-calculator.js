@@ -202,9 +202,13 @@
       filed: filedInput.value || null,
     };
 
-    resultsHost.innerHTML = perspectiveSelect.value === "owner"
+    resultsHost.innerHTML = (perspectiveSelect.value === "owner"
       ? ownerResults(stateName, state, dates)
-      : claimantResults(stateName, state, roleSelect.value, dates);
+      : claimantResults(stateName, state, roleSelect.value, dates))
+      + (window.RELAW_UTILS.watchlistCtaHtml ? window.RELAW_UTILS.watchlistCtaHtml({
+          stateCode: window.RELAW_UTILS.stateCodeByName(stateName),
+          message: `Get a free email alert on new lien and construction-payment disputes in ${stateName} — no card required.`,
+        }) : "");
     resultsHost.scrollIntoView({ behavior: "smooth", block: "start" });
   }
 

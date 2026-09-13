@@ -32,6 +32,35 @@
     .map((c) => `<option value="${c.id}">${c.label}</option>`)
     .join("");
 
+  // Pre-fill from ?state=XX&category=YY -- the landing point for the
+  // "Create a free watchlist" CTA the free rule-based tools show after
+  // delivering a real answer (js/main.js's watchlistCtaHtml). Lets a
+  // visitor who just proved real intent for a specific state/category
+  // arrive with the form already set up instead of a blank multi-select
+  // they have to already know how to fill in themselves.
+  (function prefillFromQueryParams() {
+    const params = new URLSearchParams(window.location.search);
+    const stateCode = params.get("state");
+    const categoryId = params.get("category");
+    if (!stateCode && !categoryId) return;
+    let stateName = null, categoryLabel = null;
+    if (stateCode && RELAW_DATA.states[stateCode]) {
+      const opt = statesSelect.querySelector(`option[value="${stateCode}"]`);
+      if (opt) { opt.selected = true; stateName = RELAW_DATA.states[stateCode]; }
+    }
+    if (categoryId) {
+      const cat = RELAW_DATA.categories.find((c) => c.id === categoryId);
+      if (cat) {
+        const opt = categoriesSelect.querySelector(`option[value="${categoryId}"]`);
+        if (opt) { opt.selected = true; categoryLabel = cat.label; }
+      }
+    }
+    const nameInput = document.getElementById("wl-name");
+    if (nameInput && !nameInput.value) {
+      nameInput.value = [categoryLabel, stateName].filter(Boolean).join(" — ");
+    }
+  })();
+
   function selectedValues(selectEl) {
     return [...selectEl.selectedOptions].map((o) => o.value);
   }
