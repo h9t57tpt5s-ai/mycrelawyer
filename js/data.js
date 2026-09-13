@@ -16,7 +16,7 @@ const RELAW_DATA = {
      Drives the homepage's "New Today" pill: it only shows when this
      equals the visitor's local today. Updated by the digest automation
      each time Step 4 successfully adds a case — never touched otherwise. */
-  lastUpdatedDate: "2026-09-12",
+  lastUpdatedDate: "2026-09-13",
   categories: [
     { id: "landlord-tenant", label: "Landlord–Tenant", color: "var(--cat-landlord)" },
     { id: "zoning-land-use", label: "Zoning & Land Use", color: "var(--cat-zoning)" },
@@ -3775,6 +3775,67 @@ const RELAW_DATA = {
         { when: "June 9, 2026", label: "Portland Music Holdings files suit in the U.S. District Court for the District of Maine", current: true }
       ],
       tags: ["zoning", "takings", "due process", "music venue", "maine"]
+    },
+    {
+      id: "live-133",
+      addedDate: "2026-09-13",
+      title: "KKR Real Estate Finance Trust Inc. v. Lubert-Adler Real Estate Fund & Keystone Development + Investment (Bourse Building Mortgage Default & Forced-Sale Suit)",
+      category: "lending-foreclosure",
+      status: "filed",
+      date: "2026-07-28",
+      jurisdiction: "U.S. District Court for the Eastern District of Pennsylvania",
+      state: "PA",
+      amount: "$24.2M sought (principal, interest, and fees) on an $83.7M acquisition and construction loan",
+      source: "live",
+      sourceUrl: "https://www.inquirer.com/real-estate/commercial/bourse-keystone-dean-adler-lawsuit-20260807.html",
+      summary: "KKR Real Estate Finance Trust sued the ownership entities behind Philadelphia's historic Bourse building and the adjacent 400 Market Street on July 28 in federal court, alleging default on an $83.7 million loan and seeking a $24.2 million judgment plus a court-ordered public sale of the properties. The suit follows a collapse between joint venture partners Dean Adler's Lubert-Adler and Keystone Development + Investment, who have been locked in a separate ownership-control fight in Delaware Chancery Court since March, during which construction stalled, mortgage payments lapsed, and contractors filed more than $2 million in mechanic's liens.",
+      significance: "Shows how quickly a governance breakdown between joint venture sponsors can convert a performing construction loan into a forced liquidation, since a lender's collateral keeps deteriorating in real time even while an internal ownership dispute is litigated on a separate track. Sponsors structuring complex adaptive-reuse joint ventures should treat unresolved control disputes as a direct threat to loan compliance, not just an internal governance matter.",
+      body: [
+        "A commercial mortgage lender has asked a federal court to order a public auction of one of Philadelphia's most storied commercial buildings, the latest and most consequential turn in a redevelopment project that collapsed into open litigation between its own joint venture partners. KKR Real Estate Finance Trust Inc. filed suit on July 28, 2026 in the U.S. District Court for the Eastern District of Pennsylvania against the ownership entities behind the Bourse building at 111 South Independence Mall East and the adjacent property at 400 Market Street, alleging default on an $83.7 million acquisition and construction loan and seeking a $24.2 million judgment plus interest, fees, and a judicial sale of the collateral.",
+        "The underlying project traces to June 2024, when an entity controlled by Philadelphia developer Dean Adler and his firm, Lubert-Adler Real Estate Funds, partnered with Keystone Development + Investment to acquire the 131-year-old Beaux-Arts Bourse building and the neighboring 400 Market Street from KKR Real Estate Finance Trust for roughly $41 million, financed in part by an $83.7 million loan from the same KKR entity. The venture's plan was to convert the historic Bourse into a 152-key hotel with restaurant and event space, while transforming 400 Market into a 176-unit apartment building.",
+        "That plan began unraveling in early 2026, when Adler moved to abandon the hotel concept and pursue a multifamily conversion of the Bourse instead, in partnership with PMC Property Group rather than Keystone. Keystone responded by suing in the Delaware Court of Chancery, accusing Adler of attempting to oust it as managing partner, and secured a temporary restraining order in March 2026 that kept Keystone in control of the venture while the ouster dispute was litigated. Adler counterclaimed, accusing Keystone of gross mismanagement and unauthorized spending, while Keystone maintained Adler had failed to adequately capitalize the development.",
+        "While the ownership dispute played out in Delaware, work on the Bourse itself ground to a halt. KKR's federal complaint asserts the venture stopped making mortgage payments beginning in June 2026, and that at least five contractors have filed more than $2 million in mechanic's liens against the property for unpaid work, evidence that the paralysis at the ownership level had already spread to the construction site well before the lender moved to declare a default and seek a forced sale.",
+        "The case sits at the intersection of two problems that increasingly confront complex real estate joint ventures: a governance fight that can immobilize decision-making at a partnership's most critical moment, and a lender whose collateral does not wait patiently for that fight to resolve. Missed payments, halted construction, and mounting mechanic's liens all erode collateral value in real time, giving a sophisticated lender strong incentive to move quickly rather than wait out litigation to which it is not even a party.",
+        "Sponsors structuring joint ventures on complex, high-profile adaptive-reuse projects should specify well before a disagreement arises who retains authority over major decisions like a change in project scope, and should recognize that a governance dispute between sponsors is no defense to a lender for missed debt service. Lenders on similarly structured deals should treat a public partnership rupture between co-sponsors as an early warning sign meriting closer loan monitoring, since missed payments and mechanic's liens tend to follow a public ownership fight within months, and a formal default declaration is frequently not far behind."
+      ],
+      timeline: [
+        { when: "June 2024", label: "Lubert-Adler and Keystone Development + Investment acquire the Bourse and 400 Market Street with an $83.7M KKR loan" },
+        { when: "March 2026", label: "Keystone obtains a Delaware Chancery Court TRO keeping it in control amid an ouster dispute with Adler" },
+        { when: "June 2026", label: "The venture stops making mortgage payments; contractors begin filing mechanic's liens" },
+        { when: "July 28, 2026", label: "KKR Real Estate Finance Trust files suit in the Eastern District of Pennsylvania seeking $24.2M and a forced sale", current: true }
+      ],
+      tags: ["foreclosure", "joint venture breakup", "mechanic's liens", "hotel conversion", "pennsylvania"]
+    },
+    {
+      id: "live-134",
+      addedDate: "2026-09-13",
+      title: "Palm Beach Marriott Singer Island Condominium Association, Inc. v. Urgo Hotels LP (Decade-Long Duplicative Resort-Fee Dispute)",
+      category: "lease-disputes",
+      status: "pending",
+      date: "2026-09-11",
+      jurisdiction: "Circuit Court, Fifteenth Judicial Circuit, Palm Beach County, Florida",
+      state: "FL",
+      amount: "More than $45M in claimed damages dating to 2013, plus punitive damages sought",
+      source: "live",
+      sourceUrl: "https://therealdeal.com/miami/2026/09/11/inside-florida-hotel-condo-owners-overcharging-lawsuit/",
+      summary: "The condominium association for the 239-unit Palm Beach Marriott Singer Island has moved for punitive damages and a temporary stay of a disputed per-occupied-day administrative fee charged by commercial operator Urgo Hotels LP, in litigation that traces back to a 2010 dispute over shared-facility charges at the Riviera Beach, Florida resort. The association's attorneys say damages tied to the fee since 2013 could exceed $45 million, with trial set for early 2027.",
+      significance: "Illustrates how an unresolved fee dispute between a hotel-condominium's operator and its owners' association can compound over more than a decade into tens of millions of dollars in claimed exposure. Operators and associations at comparably structured hotel-condominium properties nationally should treat recurring, formulaic fees as a recurring audit and documentation obligation, not a fixed contractual entitlement.",
+      body: [
+        "More than ten years after it first went to court over what it calls duplicative resort fees, the condominium association for the Palm Beach Marriott Singer Island has escalated its long-running dispute with the property's commercial operator, Urgo Hotels LP, moving in August 2026 for punitive damages and a temporary stay of the disputed charges as the case heads toward trial in early 2027. The litigation, pending in the Circuit Court for the Fifteenth Judicial Circuit in Palm Beach County, Florida, centers on a roughly $45-per-occupied-day administrative fee that the association says duplicates costs already covered by owners' regular quarterly assessments.",
+        "The underlying property, a 239-unit resort at 3800 North Ocean Drive in Riviera Beach, operates under a structure common to hotel-condominiums: individual owners hold title to their units, while a commercial operator manages day-to-day hotel operations, shared amenities, and a rental program, funded through a combination of ownership assessments and operator-imposed fees. The association first sued Urgo Hotels in 2010 over shared-facility maintenance charges, a dispute the parties settled in 2013. By 2015 the association had returned to court, alleging owners continued to be charged for shared-facility upkeep without assurance the fee bore a reasonable relationship to documented, actual expenses.",
+        "More than a decade of litigation later, the dollar figures at stake have grown substantially. Attorneys Stevan Pardo and Greg Weiss, representing the association, filed motions in August 2026 seeking a temporary injunction staying collection of the disputed fee while the case proceeds, and an amendment adding a claim for punitive damages tied to the operator's continued collection of the challenged charge. Pardo has stated that damages tied to fees collected since 2013 could exceed $45 million. Urgo Hotels has opposed the association's characterization of the case, with counsel arguing in related proceedings that portions of the dispute are foreclosed by the 2013 settlement and that support for the association's position among individual owners is not as unified as the litigation suggests.",
+        "The dispute illustrates a structural tension inherent to hotel-condominium ownership. Unlike a conventional condominium, where an elected board answers directly to unit owners, a hotel-condominium's operator typically retains significant contractual authority over shared facilities and amenity operations under a long-term management agreement negotiated at the property's inception. When an operator sets a fee under broad contractual language and owners later come to believe it has drifted from actual documented costs into something closer to an independent profit center, the resulting dispute can be difficult to resolve short of litigation, because the operator's authority to set and collect the fee in the first instance is rarely in serious question, only whether the specific amount charged is adequately substantiated.",
+        "The case also highlights how long this category of dispute can persist once it takes root. A fee disagreement that began as a relatively contained issue over shared-facility maintenance charges in 2010 has, through a settlement, a second lawsuit, and now a punitive-damages motion, spanned sixteen years and, on the association's account, tens of millions of dollars in cumulative exposure, a trajectory that matters for any operator managing a comparable fee structure elsewhere.",
+        "Owners of hotel-condominium interests, and the associations that represent them, should insist on regular, itemized accounting from operators for any fee billed on a per-occupied-day or similarly formulaic basis, since the gap between a contractually permitted fee and one substantiated by actual costs is precisely where this kind of dispute takes root. Operators managing shared-facility fees under decades-old agreements should audit those charges periodically against current documented costs rather than relying on original contract language alone, and both sides should recognize that punitive-damages exposure tends to accumulate specifically where a dispute festers rather than resolves, making early, well-documented resolution materially cheaper than years of compounding litigation risk."
+      ],
+      timeline: [
+        { when: "2010", label: "The condominium association first sues Urgo Hotels over shared-facility maintenance charges" },
+        { when: "2013", label: "The parties settle the 2010 lawsuit" },
+        { when: "2015", label: "The association sues again, alleging continued overcharging for shared-facility upkeep" },
+        { when: "August 2026", label: "The association moves for punitive damages and a temporary stay of the disputed fee", current: true },
+        { when: "Early 2027", label: "Trial is scheduled", upcoming: true }
+      ],
+      tags: ["hotel condominium", "fee dispute", "punitive damages", "operator dispute", "florida"]
     }
   ],
 
