@@ -262,6 +262,19 @@
     const safe = describeActiveFilters().replace(/[^a-z0-9]+/gi, "_").replace(/^_+|_+$/g, "").slice(0, 60);
     return `CREdocket_${safe || "Export"}_${new Date().toISOString().slice(0, 10)}.${ext}`;
   }
+  // Bulk export of the whole hand-curated, individually-sourced tracker was
+  // previously ungated -- anonymous, unauthenticated visitors could pull
+  // the entire proprietary dataset. Gated to a free account (2026-09-13,
+  // per the 10-agent premium-readiness review's data-asset finding) --
+  // same "free account, no card required" bar every other gated feature
+  // on the site (watchlists, full write-ups) already uses, not a paywall.
+  function requireSignInForExport() {
+    const session = window.RELAW_AUTH && window.RELAW_AUTH.getSession();
+    if (session && session.user) return true;
+    window.RELAW_UTILS.showToast("Sign in (free, no card required) to export matters.", { error: true });
+    if (window.RELAW_AUTH) window.RELAW_AUTH.openSignInModal();
+    return false;
+  }
   if (exportDropdown && exportToggle) {
     exportToggle.addEventListener("click", (e) => {
       e.stopPropagation();
@@ -272,6 +285,7 @@
     });
     exportCsvBtn.addEventListener("click", () => {
       exportDropdown.classList.remove("open");
+      if (!requireSignInForExport()) return;
       const filtered = getFiltered();
       if (!filtered.length) { window.RELAW_UTILS.showToast("No matters match the current filters — nothing to export.", { error: true }); return; }
       window.RELAW_UTILS.downloadTextFile(
@@ -282,6 +296,7 @@
     });
     exportPdfBtn.addEventListener("click", () => {
       exportDropdown.classList.remove("open");
+      if (!requireSignInForExport()) return;
       const filtered = getFiltered();
       if (!filtered.length) { window.RELAW_UTILS.showToast("No matters match the current filters — nothing to export.", { error: true }); return; }
       window.RELAW_UTILS.exportCasesToPdf(filtered, {

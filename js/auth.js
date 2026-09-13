@@ -304,12 +304,16 @@
   }
 
   /* ---------- Paywall gate ---------- */
-  const MONTHLY_LIMIT = 3;
-  // Temporarily off: signed-in users get unlimited reads while we're still
-  // getting the account flow dialed in. View records still get written below
-  // (untouched), so flipping this back to true re-enables the real limit
-  // retroactively against whatever history has already accumulated.
-  const ENFORCE_MONTHLY_LIMIT = false;
+  // Re-enabled (2026-09-13) per the 10-agent premium-readiness review --
+  // every reviewer converged on "there's no free-tier boundary at all
+  // today" as the top monetization gap, and this system was fully built
+  // and just switched off. Raised from the original 3 to 5 (softer
+  // landing) since case_views rows kept accumulating the whole time this
+  // was off -- flipping it on enforces retroactively against whatever
+  // view history already exists this month, so a lower number risked
+  // instantly locking out an engaged existing user mid-session.
+  const MONTHLY_LIMIT = 5;
+  const ENFORCE_MONTHLY_LIMIT = true;
 
   function startOfMonthIso() {
     const d = new Date();

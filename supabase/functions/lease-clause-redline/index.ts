@@ -19,10 +19,11 @@
 // Unlike the Value Calculator, this is a single Claude call, not a
 // two-phase extraction+analysis pipeline -- one clause is a much
 // smaller unit of work than a whole case document, and there's no
-// deterministic baseline engine to feed here. The schema is built
-// per clause type from CLAUSE_KEY_TERMS below, kept in sync with
-// js/lease-redline-data.js's clauseTypes -- if you add or change a
-// clause type or its key terms there, mirror the change here too.
+// deterministic baseline engine to feed here. The schema (and the
+// model's own reference thresholds) are built from js/lease-redline-
+// data.js's clauseTypes, fetched live at request time (loadRedlineData()
+// below) -- adding or changing a clause type there takes effect here
+// automatically, no separate copy to keep in sync.
 //
 // GROUNDING: this analysis is about commercial-leasing market
 // drafting practice, not case law -- the model is explicitly
@@ -65,95 +66,36 @@ function jsonResponse(body: Record<string, unknown>, status: number) {
   });
 }
 
-// Kept in sync with js/lease-redline-data.js's clauseTypes -- id, label,
-// and the term ids/labels must match exactly (the term ids become
-// schema property names and, on the client, the lookup key into the
-// market-standard reference library for the side-by-side display).
-const CLAUSE_KEY_TERMS: Record<string, { label: string; terms: { id: string; label: string }[] }> = {
-  "assignment-subletting": {
-    label: "Assignment & Subletting",
-    terms: [
-      { id: "consentStandard", label: "Consent Standard" },
-      { id: "recapture", label: "Landlord Recapture Right" },
-      { id: "profitSharing", label: "Assignment/Sublease Profit Sharing" },
-      { id: "permittedTransfers", label: "Permitted-Transfer Carve-Outs" },
-      { id: "responseTime", label: "Landlord Response Time" },
-    ],
-  },
-  "snda": {
-    label: "SNDA (Subordination, Non-Disturbance & Attornment)",
-    terms: [
-      { id: "ndaCondition", label: "Non-Disturbance as a Condition" },
-      { id: "successorObligations", label: "Successor Landlord's Obligations" },
-      { id: "leaseContinuation", label: "Lease Continuation vs. New Lease" },
-      { id: "turnaroundTime", label: "SNDA Execution Turnaround" },
-    ],
-  },
-  "casualty-condemnation": {
-    label: "Casualty & Condemnation",
-    terms: [
-      { id: "terminationRight", label: "Termination Right on Partial Casualty" },
-      { id: "rentAbatement", label: "Rent Abatement During Restoration" },
-      { id: "condemnationAward", label: "Condemnation Award Allocation" },
-      { id: "temporaryTaking", label: "Temporary Taking" },
-    ],
-  },
-  "co-tenancy-exclusive-use": {
-    label: "Co-Tenancy & Exclusive Use",
-    terms: [
-      { id: "openingCoTenancy", label: "Opening Co-Tenancy" },
-      { id: "ongoingCoTenancy", label: "Ongoing Co-Tenancy Remedy" },
-      { id: "exclusiveUseScope", label: "Exclusive Use Scope" },
-    ],
-  },
-  "cam-audit-rights": {
-    label: "CAM Reconciliation & Audit Rights",
-    terms: [
-      { id: "auditRight", label: "Tenant's Audit Right" },
-      { id: "camCap", label: "Controllable-CAM Cap" },
-      { id: "grossUp", label: "Gross-Up Provision" },
-      { id: "camExclusions", label: "CAM Definition & Exclusions" },
-    ],
-  },
-  "estoppel-certificates": {
-    label: "Estoppel Certificates",
-    terms: [
-      { id: "turnaroundTime", label: "Delivery Turnaround" },
-      { id: "certificationScope", label: "Scope of Certification" },
-      { id: "nonWaiver", label: "Non-Waiver / Non-Modification" },
-      { id: "frequency", label: "Request Frequency" },
-    ],
-  },
-  "continuous-operation": {
-    label: "Continuous Operation",
-    terms: [
-      { id: "operatingHoursRequirement", label: "Operating Hours & Days Requirement" },
-      { id: "darkClauseRemedy", label: "Remedy for Cessation of Operations (\"Go-Dark\" Clause)" },
-      { id: "percentageRentInterplay", label: "Percentage Rent / Alternate Rent on Dark Period" },
-      { id: "exceptionsCarveOuts", label: "Exceptions to the Continuous-Operation Obligation" },
-    ],
-  },
-  "repair-replacement-allocation": {
-    label: "Repair & Replacement Allocation",
-    terms: [
-      { id: "structuralRoofResponsibility", label: "Structural & Roof Repair Responsibility" },
-      { id: "hvacRepairReplacement", label: "HVAC Repair vs. Capital Replacement" },
-      { id: "capitalAmortization", label: "Capital Expenditure Definition & Amortization" },
-      { id: "tenantCausedDamage", label: "Repairs Due to Tenant's Negligence or Misuse" },
-    ],
-  },
-  "radius-restriction": {
-    label: "Radius Restriction",
-    terms: [
-      { id: "radiusDistanceMeasurement", label: "Radius Distance & Measurement Point" },
-      { id: "restrictedActivityScope", label: "Scope of Restricted Activity" },
-      { id: "breachRemedy", label: "Remedy for Breach of the Restriction" },
-      { id: "existingLocationCarveOuts", label: "Carve-Outs for Existing/Pre-Lease Locations" },
-    ],
-  },
-};
+// Fetched live from the deployed site (same pattern as case-valuation-
+// analyze's loadCaseData()) rather than duplicated here -- previously this
+// was a hand-maintained copy holding only { id, label } per term, so the
+// model was only ever told the term NAME, never the actual market-
+// standard/landlord-favorable/tenant-favorable reference language the
+// client displays right next to its verdict. Fixed 2026-09-13 (10-agent
+// premium-readiness review, AI-tools-maturity finding): the reference
+// card and the model's own classification could rest on completely
+// different unstated thresholds. Fetching the real file instead of
+// re-typing it also means this can never drift out of sync again.
+const REDLINE_DATA_URL = "https://credocket.com/js/lease-redline-data.js";
 
-function buildRedlineSchema(terms: { id: string; label: string }[]) {
+type RedlineKeyTerm = { id: string; label: string; marketStandard: string; landlordFavorable: string; tenantFavorable: string };
+type RedlineData = { clauseTypes: Record<string, { label: string; keyTerms: RedlineKeyTerm[] }> };
+
+let cachedRedlineData: RedlineData | null = null;
+async function loadRedlineData(): Promise<RedlineData> {
+  if (cachedRedlineData) return cachedRedlineData;
+  const res = await fetch(REDLINE_DATA_URL);
+  if (!res.ok) throw new Error(`Could not load lease-redline reference data (${res.status})`);
+  const raw = await res.text();
+  // js/lease-redline-data.js is genuine JavaScript, not JSON -- same
+  // execute-as-JS approach as case-valuation-analyze's loadCaseData(),
+  // for the same reason (comments/trailing commas break JSON.parse).
+  const fn = new Function(`${raw}\nreturn LEASE_REDLINE_DATA;`);
+  cachedRedlineData = fn() as RedlineData;
+  return cachedRedlineData;
+}
+
+function buildRedlineSchema(terms: RedlineKeyTerm[]) {
   const termProps: Record<string, unknown> = {};
   terms.forEach((t) => {
     termProps[t.id] = {
@@ -261,7 +203,8 @@ Deno.serve(async (req: Request) => {
   if (!requestBody.clauseText) {
     return jsonResponse({ error: "No clause text provided" }, 400);
   }
-  const clauseSpec = requestBody.clauseType ? CLAUSE_KEY_TERMS[requestBody.clauseType] : null;
+  const redlineData = await loadRedlineData();
+  const clauseSpec = requestBody.clauseType ? redlineData.clauseTypes[requestBody.clauseType] : null;
   if (!clauseSpec) {
     return jsonResponse({ error: "Unrecognized clause type" }, 400);
   }
@@ -272,7 +215,16 @@ Deno.serve(async (req: Request) => {
     ? requestBody.clauseText.slice(0, MAX_CLAUSE_CHARS)
     : requestBody.clauseText;
 
-  const schema = buildRedlineSchema(clauseSpec.terms);
+  const schema = buildRedlineSchema(clauseSpec.keyTerms);
+
+  // The site's own curated reference thresholds, spelled out for the
+  // model term by term -- previously the model only ever saw the term
+  // NAME and had to guess "market practice" independently, which could
+  // (and had no way not to) diverge from the specific numbers the client
+  // shows the user right next to the model's own verdict.
+  const referenceText = clauseSpec.keyTerms.map((t) =>
+    `- ${t.label}:\n  Market standard: ${t.marketStandard}\n  Landlord-favorable: ${t.landlordFavorable}\n  Tenant-favorable: ${t.tenantFavorable}`
+  ).join("\n");
 
   try {
     const stream = anthropic.messages.stream({
@@ -284,6 +236,7 @@ Deno.serve(async (req: Request) => {
         "You are an experienced commercial real estate attorney reviewing one specific lease clause for the party you represent -- not a legal opinion, not an adjudication, and not legal advice. " +
         `Analyze the "${clauseSpec.label}" clause below against general institutional commercial-leasing market practice, from the perspective of the party you represent. ` +
         "For each key term listed in the schema, quote or closely summarize what the actual clause says about it, classify it against market practice, and explain why -- from the represented party's perspective specifically (a landlord-favorable term is a concern when representing the tenant, and vice versa). " +
+        `REFERENCE THRESHOLDS -- use these specific, curated definitions of market-standard/landlord-favorable/tenant-favorable for each term below as your classification anchor, not your own independent sense of "market practice." The user sees this exact reference language displayed alongside your verdict, so your classification must be consistent with it:\n${referenceText}\n\n` +
         "GROUNDING REQUIREMENT: do not cite, invent, or reference any specific court case, statute, or regulation -- this analysis is about market drafting practice only, not case law. If a term genuinely isn't addressed by the clause at all, say so plainly rather than guessing what it might mean. " +
         "Write the narrative like a real markup memo to the client: direct, specific, and focused on what actually matters in this clause, not generic boilerplate about the clause type in general.",
       messages: [{
