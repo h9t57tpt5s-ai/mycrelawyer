@@ -13,6 +13,20 @@ git repository with normal local file and network access — use `git`, `curl`,
 
 ## STEP 1 — RESEARCH
 
+Before searching, read `js/data.js`'s `cases` array and compute today's actual
+coverage picture — this only takes a minute and directly steers the searches below:
+count matters per `category` (9 categories: landlord-tenant, zoning-land-use,
+reit-securities, construction-defect, lending-foreclosure, environmental,
+eminent-domain, lease-disputes, premises-liability) and per `state`. Note which
+categories are thinnest (lowest count, or a small share of the total) and which
+states have zero or exactly one matter — a coverage audit run 2026-09-13 found
+lending-foreclosure alone was 31% of the whole tracker while premises-liability/
+construction-defect/reit-securities combined were under 14%, and roughly half of
+all states had 0-1 matters, substantially because one earlier bulk-backfill session
+did most of the state-breadth work rather than the ordinary twice-daily cadence
+sustaining it. Recompute this fresh every run rather than trusting that 2026-09-13
+snapshot — it changes as matters get added.
+
 Use the WebSearch tool to find the most interesting, recent real estate industry news
 from a LEGAL perspective, published in roughly the last 12–24 hours (a bit older is
 fine if nothing fresh is out — use judgment). Prioritize:
@@ -29,7 +43,15 @@ Run several searches from different angles ("commercial real estate lawsuit", "R
 litigation news", "commercial landlord lawsuit ruling", "real estate developer sued",
 "CRE legal news this week") to find the single most interesting, substantive story or
 a tight cluster of 2–3 related stories. Evaluate for genuine relevance and impact —
-don't just grab the first result.
+don't just grab the first result. When two candidate stories are otherwise close in
+genuine substance/relevance, prefer the one that falls into a thinner category or a
+thinner-coverage state per the count you just computed — run 1-2 of your searches
+specifically angled at the thinnest category/states (e.g. "premises liability lawsuit
+commercial property [state]", "construction defect lawsuit [thin state]") rather than
+letting every run gravitate to whatever category/state is already easiest to find
+coverage for. Never force a genuinely weak or off-topic story into the tracker just to
+fill a gap, and never fabricate geographic spread — a real, substantive story in an
+already-strong category still beats a padded one in a thin category.
 
 Before settling on a story, read `js/data.js` in this repo (see Step 4) and check it
 isn't a near-duplicate of an existing `live-*` case or `trend-*` entry. If everything
