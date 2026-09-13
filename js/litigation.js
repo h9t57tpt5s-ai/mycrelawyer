@@ -26,6 +26,36 @@
 
   if (!grid) return;
 
+  /* Header stats -- same "tight, at-a-glance" telemetry treatment the
+     homepage hero uses, applied here since this is the site's other
+     highest-traffic page. Real counts only: total tracked matters,
+     distinct states with at least one matter, and practice areas. */
+  const statMatters = document.getElementById("stat-tracker-matters");
+  const statStates = document.getElementById("stat-tracker-states");
+  const statCategories = document.getElementById("stat-tracker-categories");
+  if (statMatters && statStates && statCategories) {
+    const statesWithMatters = new Set(RELAW_DATA.cases.map((c) => c.state).filter(Boolean));
+    statMatters.setAttribute("data-count", RELAW_DATA.cases.length);
+    statStates.setAttribute("data-count", statesWithMatters.size);
+    statCategories.setAttribute("data-count", RELAW_DATA.categories.length);
+    // main.js's generic [data-count] observer already fired on load using
+    // the "0" placeholder baked into the HTML -- these values only exist
+    // now, so re-run the same count-up animation quarterly.html uses for
+    // its own header stats.
+    [statMatters, statStates, statCategories].forEach((el) => {
+      const target = parseFloat(el.getAttribute("data-count"));
+      const start = performance.now();
+      const duration = 1000;
+      function tick(now) {
+        const p = Math.min((now - start) / duration, 1);
+        const eased = 1 - Math.pow(1 - p, 3);
+        el.textContent = Math.round(target * eased);
+        if (p < 1) requestAnimationFrame(tick);
+      }
+      requestAnimationFrame(tick);
+    });
+  }
+
   /* Build category chips */
   RELAW_DATA.categories.forEach((cat) => {
     const chip = document.createElement("button");
