@@ -238,12 +238,17 @@
       });
     }
 
-    // Real matter ids look like "live-130" -- the docket number below is
-    // that same number, just formatted like a real case caption instead
-    // of a raw slug, not a fabricated one.
+    // Was formatted as "No. 26-CRE-0042" -- close enough to how a real
+    // U.S. court docket number reads (year-code-sequence) that it could
+    // be mistaken for the matter's actual court docket number, which
+    // this site doesn't collect. Site-flagged as a credibility risk on
+    // a product whose whole pitch is "real, sourced, never fabricated."
+    // This is just the matter's own internal id (e.g. "live-130",
+    // already used as its data-case-id everywhere else); label it as
+    // an internal reference, not a docket-shaped number.
     const docketNo = (id) => {
       const n = (id.match(/(\d+)$/) || [, "0"])[1].padStart(4, "0");
-      return `No. 26-CRE-${n}`;
+      return `Ref #${n}`;
     };
 
     feedList.innerHTML = featured.map((c) => {
@@ -300,6 +305,7 @@
         </div>
         <h3>${c.title}</h3>
         <p class="summary">${c.summary}</p>
+        ${c.amount ? `<div class="detail-tag" style="display:inline-block; margin-bottom:14px;">${c.amount}</div>` : ""}
         <div class="case-card-meta">
           <span${dateTitleAttr}>${formatDate(c.date)}</span>
           <span>${c.jurisdiction}</span>
