@@ -469,6 +469,32 @@
       ? `<div class="cv-claims" style="margin-top:12px;">${baseline.claims.map(claimResultHtml).join("")}</div>`
       : `<p class="text-muted" style="font-size:12.5px;">The fixed-formula baseline model found no matching claims from the extracted checkbox-style facts — the AI's own analysis above reads the actual document, not just this baseline.</p>`;
 
+    // Cost to Litigate & Settlement Comparison -- deterministic figures
+    // computed server-side from the cost-section inputs above the
+    // analyze button (see supabase/functions/case-valuation-analyze's
+    // computeCostData). Mirrors the PDF report's own version of this
+    // section (js/case-valuation-report.js) so it isn't gated behind a
+    // download click -- most visitors never click "Download PDF Report."
+    const costData = json.costData || null;
+    const costCardHtml = costData
+      ? `<div class="card" style="padding:20px; margin-top:16px;">
+          <div class="eyebrow" style="margin-bottom:10px;">Cost to Litigate &amp; Settlement Comparison</div>
+          <div style="display:flex; flex-wrap:wrap; gap:8px; margin-bottom:12px;">
+            <span class="detail-tag">Est. attorney fees (${costData.costEstimate.pathLabel}): ${V.fmtRange(costData.costEstimate.costRange[0], costData.costEstimate.costRange[1])}</span>
+            <span class="detail-tag">Est. time to resolution: ${costData.costEstimate.monthsRange[0]}–${costData.costEstimate.monthsRange[1]} months</span>
+          </div>
+          ${costData.netAfterCosts ? `<p style="font-size:14.5px; font-weight:600; color:var(--text-primary); margin-bottom:8px;">Net position after litigation costs: ${V.fmtRange(costData.netAfterCosts[0], costData.netAfterCosts[1])}</p>` : ""}
+          ${costData.comparison ? `<p class="text-secondary" style="font-size:13.5px; line-height:1.6; margin-bottom:8px;">${
+            costData.comparison.clearlyFavorsLitigating
+              ? `Litigating clears the ${V.fmt(costData.comparison.settlementOnTable)} settlement on the table even in the worst-case scenario.`
+              : costData.comparison.clearlyFavorsSettling
+                ? `The ${V.fmt(costData.comparison.settlementOnTable)} settlement on the table beats litigating even in the best-case scenario.`
+                : `Result depends on where the actual outcome lands within the range — litigating could net more or less than the ${V.fmt(costData.comparison.settlementOnTable)} settlement on the table.`
+          }</p>` : ""}
+          <p class="text-muted" style="font-size:11.5px; line-height:1.5;">${costData.costEstimate.isCustom ? "Uses your own attorney-fee estimate." : "Uses general commercial-litigation industry cost norms for this category — not individually cited to a real case the way the estimate above is."}</p>
+        </div>`
+      : "";
+
     const freshFragmentHtml = `
       ${emptyFilesHtml}
       ${truncationNoteHtml}
@@ -481,6 +507,7 @@
       </div>
       ${a.likelyOutcome ? `<div class="card" style="padding:20px; margin-top:16px;"><div class="eyebrow" style="margin-bottom:8px;">Executive Discovery</div><p class="text-secondary" style="font-size:14px; line-height:1.6;">${a.likelyOutcome}</p></div>` : ""}
       ${summaryTableHtml(a)}
+      ${costCardHtml}
       ${(a.narrativeSections || []).length ? `<div class="card" style="padding:24px; margin-top:16px;"><div class="eyebrow" style="margin-bottom:16px;">Comprehensive Analysis</div>${narrativeSectionsHtml(a.narrativeSections)}</div>` : ""}
       <div id="cv-gated-content" style="margin-top:16px;">
         <div class="card" style="padding:20px;">
@@ -534,7 +561,7 @@
           likelyOutcome: a.likelyOutcome || null,
           narrativeSections: a.narrativeSections || [],
           catSpec: null,
-          costData: null
+          costData
         });
       });
     }
@@ -713,7 +740,9 @@
               documentText: combinedText,
               userSide: priorUserSide || null,
               expectToTrial: !!costFacts.expectToTrial,
-              settlementOnTable: costFacts.settlementOnTable || null
+              settlementOnTable: costFacts.settlementOnTable ?? null,
+              customCostLow: costFacts.customCostLow ?? null,
+              customCostHigh: costFacts.customCostHigh ?? null
             })
           });
         } finally {
@@ -935,7 +964,9 @@
               documentText,
               userSide: cvUserSide || null,
               expectToTrial: !!costFacts.expectToTrial,
-              settlementOnTable: costFacts.settlementOnTable || null
+              settlementOnTable: costFacts.settlementOnTable ?? null,
+              customCostLow: costFacts.customCostLow ?? null,
+              customCostHigh: costFacts.customCostHigh ?? null
             })
           });
         } finally {

@@ -1130,6 +1130,77 @@ function fmtMoney(n: number): string {
 }
 
 // =========================================================
+// Cost to Litigate & Settlement Comparison -- deterministic, not
+// AI-generated (same "fixed-formula, general industry norms" framing
+// the manual baseline engine and the tool's own UI copy already use --
+// "These cost/timeline figures are general commercial-litigation
+// industry norms, not individually cited to a specific real case").
+// Frontend contract: js/case-valuation-report.js's requestFullReport()
+// reads costData.costEstimate.{pathLabel,costRange,monthsRange,isCustom},
+// costData.netAfterCosts, and costData.comparison.{clearlyFavorsLitigating,
+// clearlyFavorsSettling,settlementOnTable} -- keep this in sync with that
+// file if the shape ever changes.
+//
+// General attorney-fee ranges for a moderately complex commercial real
+// estate dispute, by resolution path -- deliberately broad ranges since
+// actual cost varies enormously by jurisdiction, firm rate structure,
+// and how hard-fought the matter turns out to be. Not case-specific;
+// this is the same kind of industry-norm figure litigators already
+// budget against when scoping a matter, not a citation-backed number.
+const COST_NORMS: Record<"settlement" | "trial", { pathLabel: string; costRange: [number, number]; monthsRange: [number, number] }> = {
+  settlement: { pathLabel: "Resolved via settlement or dispositive motion", costRange: [20000, 85000], monthsRange: [3, 8] },
+  trial: { pathLabel: "Litigated through trial", costRange: [90000, 275000], monthsRange: [10, 20] },
+};
+
+type CostData = {
+  costEstimate: { pathLabel: string; costRange: [number, number]; monthsRange: [number, number]; isCustom: boolean };
+  netAfterCosts: [number, number] | null;
+  comparison: { clearlyFavorsLitigating: boolean; clearlyFavorsSettling: boolean; settlementOnTable: number } | null;
+};
+
+function computeCostData(
+  expectToTrial: boolean,
+  customCostLow: number | null,
+  customCostHigh: number | null,
+  netPosition: [number, number] | null,
+  settlementOnTable: number | null,
+): CostData {
+  const norm = expectToTrial ? COST_NORMS.trial : COST_NORMS.settlement;
+  const hasCustom = customCostLow != null && customCostHigh != null && customCostHigh >= customCostLow;
+  const costRange: [number, number] = hasCustom ? [customCostLow as number, customCostHigh as number] : norm.costRange;
+  const costEstimate = { pathLabel: norm.pathLabel, costRange, monthsRange: norm.monthsRange, isCustom: hasCustom };
+
+  // Net position (netPosition) is already signed so that HIGHER IS
+  // ALWAYS BETTER for the represented party, regardless of whether
+  // they're nominally plaintiff or defendant (see its computation
+  // above: mySide - otherSide). Litigation costs reduce that position
+  // regardless of which side incurs them (the American Rule default --
+  // each side bears its own fees absent a fee-shifting clause this tool
+  // doesn't attempt to model). Paired conservatively: worst case nets
+  // the low end of the case value against the high end of cost; best
+  // case nets the high end of the case value against the low end of cost.
+  const netAfterCosts: [number, number] | null = netPosition
+    ? [netPosition[0] - costRange[1], netPosition[1] - costRange[0]]
+    : null;
+
+  // settlementOnTable uses the SAME signed convention as netPosition --
+  // a positive number is money that improves the represented party's
+  // position (received, or avoided paying), negative is a net cost to
+  // them (see the field's hint text in case-valuation.html). Only
+  // computable once there's an actual net-after-costs range to compare
+  // it against.
+  const comparison = netAfterCosts && settlementOnTable != null
+    ? {
+        clearlyFavorsLitigating: netAfterCosts[0] > settlementOnTable,
+        clearlyFavorsSettling: netAfterCosts[1] < settlementOnTable,
+        settlementOnTable,
+      }
+    : null;
+
+  return { costEstimate, netAfterCosts, comparison };
+}
+
+// =========================================================
 // Per-category extraction fields -- mirrors QUESTIONS in
 // js/case-valuation.js. KEEP THESE IN SYNC if that object changes.
 // =========================================================
@@ -1504,7 +1575,7 @@ Deno.serve(async (req) => {
   // frontend JS still mid-rollout, which may still send an explicit
   // dropdown-selected `category`, keeps working exactly as before. New
   // requests are expected to omit it entirely.
-  let requestBody: { documentText?: string; description?: string; category?: string; userSide?: "sideA" | "sideB" | null; expectToTrial?: boolean; settlementOnTable?: number | null };
+  let requestBody: { documentText?: string; description?: string; category?: string; userSide?: "sideA" | "sideB" | null; expectToTrial?: boolean; settlementOnTable?: number | null; customCostLow?: number | null; customCostHigh?: number | null };
   try {
     requestBody = await req.json();
   } catch {
@@ -1952,6 +2023,14 @@ Deno.serve(async (req) => {
         ? (aiDamagesRange[0] + aiDamagesRange[1]) / 2
         : Math.min(Math.max(rawBestGuess, aiDamagesRange[0]), aiDamagesRange[1]);
 
+    const costData = computeCostData(
+      !!requestBody.expectToTrial,
+      typeof requestBody.customCostLow === "number" ? requestBody.customCostLow : null,
+      typeof requestBody.customCostHigh === "number" ? requestBody.customCostHigh : null,
+      aiDamagesRange,
+      typeof requestBody.settlementOnTable === "number" ? requestBody.settlementOnTable : null,
+    );
+
     const totalEstCost = classifyResult.cost + extractionCost + analysisCost;
     console.log(`[cv-cost] TOTAL est_cost=$${totalEstCost.toFixed(4)} category=${category}`);
 
@@ -2004,6 +2083,7 @@ Deno.serve(async (req) => {
         // settlements" indicator, distinct from citedCases above.
         contributedSettlementBenchmark: settlementBenchmark,
       },
+      costData,
     }, 200);
   } catch (err) {
     // TEMPORARY: surfacing the real upstream error text/status in the
