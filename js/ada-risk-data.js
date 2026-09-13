@@ -52,7 +52,7 @@ const ADA_RISK_DATA = {
     "Indiana": { count: 88, tier: "moderate" },
     "Georgia": { count: 34, tier: "moderate", note: "34 federal Title III filings in the first half of 2025 (Jan-Jun) per Seyfarth Shaw's 2025 Mid-Year Report -- a real, sourced number, but only a half-year figure. No exact full-year 2025 total was published for Georgia; the only full-year data point is that Indiana's 88 filings pushed Georgia out of the top 10, so Georgia's full-year count is confirmed to be somewhere below 88." },
     "Wisconsin": { count: 34, tier: "moderate", note: "34 federal Title III filings in the first half of 2025 (Jan-Jun) per Seyfarth Shaw's 2025 Mid-Year Report -- a real, sourced number, but only a half-year figure; no confirmed full-year 2025 total was separately published for Wisconsin." },
-    "Colorado": { count: 34, tier: "moderate", note: "34 federal Title III filings in the first half of 2025 (Jan-Jun) per Seyfarth Shaw's 2025 Mid-Year Report -- a real, sourced number, but only a half-year figure; no confirmed full-year 2025 total was separately published for Colorado. (See also this state's overlay entry below for its HB21-1110 safe-harbor framework.)" },
+    "Colorado": { count: 34, tier: "moderate", note: "34 federal Title III filings in the first half of 2025 (Jan-Jun) per Seyfarth Shaw's 2025 Mid-Year Report -- a real, sourced number, but only a half-year figure; no confirmed full-year 2025 total was separately published for Colorado." },
     "Montana": { count: 0, tier: "minimal", note: "Zero federal Title III filings recorded in 2025." },
     "North Dakota": { count: 0, tier: "minimal", note: "Zero federal Title III filings recorded in 2025." },
     "South Dakota": { count: 0, tier: "minimal", note: "Zero federal Title III filings recorded in 2025." },
@@ -76,8 +76,25 @@ const ADA_RISK_DATA = {
   // State-law overlays: damages beyond federal ADA's injunction-only
   // remedy, and any pre-suit notice/cure mechanism. California, New
   // York, Illinois, and Texas are now verified in real depth; Florida
-  // and Colorado are real but described in general terms since their
-  // exact mechanics weren't independently verified to the same depth.
+  // is real but described in general terms since its exact mechanics
+  // weren't independently verified to the same depth.
+  //
+  // Colorado previously had an entry here describing "HB21-1110" as a
+  // private-business compliance safe harbor -- wrong on both counts,
+  // caught during a later research pass (independently re-verified via
+  // WebSearch before removing this): HB21-1110 amends the Colorado
+  // Anti-Discrimination Act to cover *state and local government*
+  // websites/digital services only (it doesn't reach private
+  // businesses at all), and it creates a new private right of action
+  // with $3,500/violation statutory damages against those government
+  // entities -- the opposite of a safe harbor. It's also a *digital*
+  // accessibility law; this tool's own scope (see file header) is
+  // physical/architectural-barrier litigation, a different exposure
+  // entirely. No real Colorado state-law overlay relevant to a private
+  // commercial property's physical-barrier ADA exposure was found, so
+  // Colorado now falls through to the honest "no overlay confirmed"
+  // default in js/ada-risk-flagging.js rather than reporting a
+  // protection that doesn't exist.
   stateOverlays: {
     "California": {
       hasOverlay: true,
@@ -91,11 +108,6 @@ const ADA_RISK_DATA = {
     "Florida": {
       hasOverlay: true,
       summary: "Florida has enacted measures aimed at curbing high-volume serial-filer suits, particularly in state court, though the framework is less established and less protective than California's. Federal-court filings in Florida are not subject to a state pre-suit notice requirement the way California damages claims are.",
-      details: [],
-    },
-    "Colorado": {
-      hasOverlay: true,
-      summary: "Colorado has enacted a compliance safe-harbor framework (HB21-1110) for businesses meeting certain accessibility standards -- a real, if narrower, state-law consideration worth understanding relative to Colorado's own filing volume.",
       details: [],
     },
     "New York": {
