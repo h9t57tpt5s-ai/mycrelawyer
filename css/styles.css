@@ -1549,6 +1549,12 @@ h3, .h3 {
   .card, .gate-card, .legal-doc { box-shadow: none !important; border: 1px solid #ccc !important; }
   a { text-decoration: underline; color: #000 !important; }
   .container { max-width: 100% !important; }
+  /* Preserve category/status dot colors -- without this, Chrome/Safari
+     drop CSS background-colors by default when printing, so every
+     colored dot (case-chip, status-pill, badge) would print as a blank
+     white circle: real information silently missing from the page. */
+  * { -webkit-print-color-adjust: exact !important; print-color-adjust: exact !important; }
+
   /* Belt-and-suspenders for the quarterly report's <details> accordion --
      the download-briefing button already forces every panel open via JS
      before calling window.print(), but a visitor using the browser's own
@@ -1558,4 +1564,29 @@ h3, .h3 {
      here too, independent of the JS path. */
   .qr-topic-body { display: block !important; }
   .qr-chevron, .qr-expand-all, .qr-matters-filterbar { display: none !important; }
+  /* The "Jump to a section" strip only makes sense as an on-screen
+     navigation aid -- clickable topic links are dead weight on paper,
+     and by the time this prints every topic is already unfolded below
+     it anyway. Drop it so the printed report opens straight into the
+     actual content. */
+  .qr-takeaways { display: none !important; }
+  /* .card/.legal-doc above puts a 1px border around anything with that
+     class, which is fine for a normal single-page card but actively
+     breaks on these two: with every accordion topic force-expanded
+     (#qr-accordion, several thousand px) and the full matter list
+     force-expanded (.qr-matters-list, 80+ rows), each is one bordered
+     box spanning many printed pages. A border wrapping a box that long
+     is exactly the kind of thing browser print/PDF engines render
+     badly -- this was producing garbled trailing borders and several
+     fully blank pages at the end of the download. Strip the card
+     treatment from just these two (still boxed on-screen; nothing
+     else with the shared .card/.legal-doc class is affected).  */
+  #qr-accordion, .qr-matters-list {
+    border: none !important; box-shadow: none !important; border-radius: 0 !important; padding: 0 !important;
+  }
+  /* Keep a single filed-report row from splitting across a page break
+     mid-line -- each row is short enough (~40px) that this never
+     forces an awkward oversized element onto its own page the way it
+     would on the two large containers above. */
+  .case-chip { break-inside: avoid; }
 }
