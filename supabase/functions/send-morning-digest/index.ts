@@ -96,6 +96,20 @@ function watchlistMatches(w: any, c: any): boolean {
   return true;
 }
 
+// Per-user cadence preference, set via account.html's "Email digest"
+// card (js/digest-prefs.js, sb.auth.updateUser({data:{digest_frequency}})
+// on Supabase Auth's own user_metadata -- no separate table). A user who
+// has never touched that control has no digest_frequency at all, which
+// must resolve to "both" (today's send-everyone-everything behavior) so
+// rolling this preference out never silently unsubscribes anyone who
+// hasn't made a choice.
+function wantsPeriod(user: any, period: Period): boolean {
+  const pref = user.user_metadata?.digest_frequency;
+  if (pref === "none") return false;
+  if (pref === "daily" || pref === "weekly") return pref === period;
+  return true; // "both", or unset/legacy
+}
+
 async function sendEmail(to: string, subject: string, html: string) {
   const res = await fetch("https://api.resend.com/emails", {
     method: "POST",
@@ -154,7 +168,7 @@ Deno.serve(async (req) => {
 
   const { data: watchlists } = await admin.from("watchlists").select("*");
   const { data: usersPage } = await admin.auth.admin.listUsers();
-  const users = usersPage?.users || [];
+  const users = (usersPage?.users || []).filter((u) => wantsPeriod(u, period));
 
   let sent = 0;
   for (const user of users) {
@@ -171,7 +185,7 @@ Deno.serve(async (req) => {
         ${caseListHtml(others, UTM)}
         <p style="margin-top:24px;"><a href="https://credocket.com/litigation.html?${UTM}" style="background:#3355ff; color:#fff; padding:10px 20px; border-radius:999px; text-decoration:none; font-weight:600;">Open the tracker</a></p>
         ${cfg.shareLine ? `<p style="font-size:13px; color:#3d4453; line-height:1.6; margin-top:20px; padding-top:16px; border-top:1px solid #e2e5eb;">${cfg.shareLine}</p>` : ""}
-        <p style="font-size:12px; color:#9aa3b5; margin-top:32px;">Manage your watchlists at <a href="https://credocket.com/account.html?${UTM}" style="color:#9aa3b5;">credocket.com/account.html</a>.</p>
+        <p style="font-size:12px; color:#9aa3b5; margin-top:32px;">Manage your watchlists and how often we email you at <a href="https://credocket.com/account.html?${UTM}#digest-prefs-anchor" style="color:#9aa3b5;">credocket.com/account.html</a>.</p>
       </div>`;
 
     const ok = await sendEmail(

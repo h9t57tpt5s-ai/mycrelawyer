@@ -186,6 +186,27 @@
         </div>
       </div>
       <div id="watchlists-list"></div>
+
+      <div class="section-head reveal" id="digest-prefs-anchor" style="margin-top:40px;">
+        <div>
+          <div class="eyebrow">Notifications</div>
+          <h2 style="font-size:clamp(1.4rem,2.2vw,1.9rem);">Email digest</h2>
+        </div>
+      </div>
+      <form id="digest-prefs-form" class="card" style="padding:28px;">
+        <div class="form-field">
+          <label for="digest-frequency">How often should we email you?</label>
+          <select id="digest-frequency">
+            <option value="both">Daily + weekly (default)</option>
+            <option value="daily">Daily only</option>
+            <option value="weekly">Weekly only</option>
+            <option value="none">Don't email me a digest</option>
+          </select>
+          <p class="text-muted" style="font-size:12.5px; line-height:1.6; margin-top:8px;">The daily digest covers new matters from roughly the last day; the weekly digest is a wider recap meant to be easy to forward to your team. This only controls these two digests — real-time watchlist alerts are separate and always send regardless of this setting.</p>
+        </div>
+        <button type="submit" class="btn btn-primary btn-sm mt-16">Save preference</button>
+        <div id="digest-prefs-status" class="auth-modal-status"></div>
+      </form>
     </div>
 
   </div>
@@ -247,6 +268,7 @@
 <script src="js/auth.js"></script>
 <script src="js/trending.js"></script>
 <script src="js/watchlists.js"></script>
+<script src="js/digest-prefs.js"></script>
 <script src="js/search.js"></script>
 <script src="js/motion.js"></script>
 </body>
