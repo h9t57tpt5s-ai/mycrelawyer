@@ -662,7 +662,9 @@
           <div><div class="label">Date</div><div class="value">${formatDate(c.date)}</div></div>
           <div><div class="label">State</div><div class="value">${stateName}</div></div>
           <div style="grid-column:1 / -1;"><div class="label">Jurisdiction</div><div class="value">${c.jurisdiction}</div></div>
+          ${(c.parties && c.parties.length) ? `<div style="grid-column:1 / -1;"><div class="label">Parties</div><div class="value" style="display:flex; flex-wrap:wrap; gap:6px; margin-top:4px;">${c.parties.map((p) => `<span class="detail-tag">${p.role ? p.role + ": " : ""}${p.name}</span>`).join("")}</div></div>` : ""}
           ${c.judge ? `<div style="grid-column:1 / -1;"><div class="label">Presiding Judge</div><div class="value">${c.judge}</div></div>` : ""}
+          ${c.propertyType ? `<div><div class="label">Property Type</div><div class="value">${c.propertyType}</div></div>` : ""}
           <div><div class="label">Amount / Scale</div><div class="value">${c.amount}</div></div>
           <div><div class="label">Status</div><div class="value">${status.label}</div></div>
         </div>

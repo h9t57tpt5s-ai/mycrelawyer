@@ -66,9 +66,10 @@ otherwise.
 
 1. Read `js/data.js` in this repo. It exports `RELAW_DATA` with `categories` (ids:
    landlord-tenant, zoning-land-use, reit-securities, construction-defect,
-   lending-foreclosure, environmental, eminent-domain, lease-disputes), `statuses`
-   (ids: filed, pending, ruling, settled, appeal), and a `cases` array. Every entry
-   has `source: "live"` — find the highest existing `live-NNN` id.
+   lending-foreclosure, environmental, eminent-domain, lease-disputes,
+   premises-liability), `statuses` (ids: filed, pending, ruling, settled, appeal),
+   and a `cases` array. Every entry has `source: "live"` — find the highest existing
+   `live-NNN` id.
 2. For the story from Steps 1–2, add ONE new object to the end of the `cases` array
    (just before its closing `]`) with this exact shape:
    ```
@@ -84,9 +85,38 @@ otherwise.
      sourceUrl: "...",            // single best primary/most authoritative source
      summary: "...",              // 2-4 sentences: what happened
      significance: "...",         // 2-4 sentences: why it matters to CRE owners/REITs
-     tags: ["...", "...", "..."]  // 3-5 short lowercase tags
+     tags: ["...", "...", "..."], // 3-5 short lowercase tags
+     parties: [                   // named parties actually IN this matter — omit
+                                   // the whole field if the story doesn't clearly
+                                   // name real parties (e.g. a regulatory/market
+                                   // report with no named litigants)
+       { name: "...", role: "..." } // name: the party's proper legal entity name,
+                                     // exactly as it appears in the source (so it
+                                     // can later be matched against
+                                     // RELAW_DATA.trackedParties by name/matchTerm)
+                                     // -- not a shortened or informal name.
+                                     // role: this matter's actual role for that
+                                     // party (e.g. "Plaintiff", "Defendant",
+                                     // "Landlord", "Tenant", "Lender", "Borrower",
+                                     // "Trustee") — whatever term the source itself
+                                     // uses or clearly implies, not a guess.
+     ],
+     propertyType: "..."          // the single best-fit type of property actually
+                                   // involved, from: Office, Multifamily, Retail,
+                                   // Industrial, Hospitality, Mixed-Use,
+                                   // Land/Development, Medical Office, Data Center,
+                                   // Life Sciences, Senior Living, Self-Storage.
+                                   // Omit the whole field entirely (don't guess or
+                                   // default to one of these) if the matter isn't
+                                   // clearly tied to one property type — e.g. a
+                                   // REIT governance dispute, a market-wide
+                                   // regulatory action, or a matter spanning
+                                   // multiple unrelated property types.
    }
    ```
+   `parties` and `propertyType` are both optional — added going forward for new
+   entries only. Existing `live-*` cases without them are untouched; do not add
+   these fields to any existing case as part of a routine digest run.
    Edit in place — don't rewrite the whole file. Keep valid JS syntax.
 3. If nothing genuinely new and substantive turned up (a rehash of an existing
    `live-*` entry), skip this step and Step 6's case-push accordingly, and say so in
