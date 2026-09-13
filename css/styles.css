@@ -657,6 +657,28 @@ h3, .h3 {
 .legal-doc p { font-size: 15px; line-height: 1.75; color: var(--text-secondary); margin-bottom: 14px; }
 .legal-doc a { color: var(--accent); text-decoration: underline; text-underline-offset: 2px; }
 
+/* ---------- Quarterly report hero: the report's intro (title, lede,
+   stats) and its "at a glance" takeaways card are companion pieces, not
+   sequential reading -- side by side in the header on desktop instead
+   of the takeaways card repeating the stats' job one full-width section
+   further down the page. */
+.qr-hero-grid { display: grid; grid-template-columns: 1.2fr 1fr; gap: 48px; align-items: start; }
+@media (max-width: 980px) { .qr-hero-grid { grid-template-columns: 1fr; gap: 8px; } }
+/* The stat row reuses .hero-telemetry-stat's number/label type (same
+   treatment as the homepage hero and litigation.html), laid out as its
+   own 2x2 grid instead of a bordered flex row -- a divided single row
+   doesn't have the width to work with once it's sharing the header with
+   the takeaways card. */
+/* Combined with .hero-telemetry in the selector (not a plain descendant
+   rule) so this beats .hero-telemetry's own display:flex on specificity
+   rather than depending on which rule happens to sit later in the
+   cascade -- both are otherwise equal, single-class selectors. */
+.hero-telemetry.qr-hero-stats { display: grid; grid-template-columns: repeat(2, 1fr); gap: 26px 32px; margin-top: 40px; }
+.qr-hero-stats .hero-telemetry-stat { padding-left: 0; border-left: none; }
+/* Lift the card off the header photo instead of the flat, borderless
+   look it has full-width further down the page. */
+.qr-hero-aside .qr-takeaways { margin: 0; box-shadow: var(--shadow-md); }
+
 /* ---------- Quarterly report: takeaways strip + accordion + matters ----
    v1 (a sticky "Jump to:" pill nav) only made a long page easier to
    navigate -- it never reduced how much rendered by default, so
@@ -1570,6 +1592,11 @@ h3, .h3 {
      it anyway. Drop it so the printed report opens straight into the
      actual content. */
   .qr-takeaways { display: none !important; }
+  /* With the takeaways card gone, its column is dead space -- collapse
+     the hero back to one column instead of leaving the report's title
+     and lede stranded in a half-width strip on paper. */
+  .qr-hero-grid { display: block !important; }
+  .qr-hero-aside { display: none !important; }
   /* .card/.legal-doc above puts a 1px border around anything with that
      class, which is fine for a normal single-page card but actively
      breaks on these two: with every accordion topic force-expanded
