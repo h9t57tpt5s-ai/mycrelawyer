@@ -124,6 +124,33 @@ const CLAUSE_KEY_TERMS: Record<string, { label: string; terms: { id: string; lab
       { id: "frequency", label: "Request Frequency" },
     ],
   },
+  "continuous-operation": {
+    label: "Continuous Operation",
+    terms: [
+      { id: "operatingHoursRequirement", label: "Operating Hours & Days Requirement" },
+      { id: "darkClauseRemedy", label: "Remedy for Cessation of Operations (\"Go-Dark\" Clause)" },
+      { id: "percentageRentInterplay", label: "Percentage Rent / Alternate Rent on Dark Period" },
+      { id: "exceptionsCarveOuts", label: "Exceptions to the Continuous-Operation Obligation" },
+    ],
+  },
+  "repair-replacement-allocation": {
+    label: "Repair & Replacement Allocation",
+    terms: [
+      { id: "structuralRoofResponsibility", label: "Structural & Roof Repair Responsibility" },
+      { id: "hvacRepairReplacement", label: "HVAC Repair vs. Capital Replacement" },
+      { id: "capitalAmortization", label: "Capital Expenditure Definition & Amortization" },
+      { id: "tenantCausedDamage", label: "Repairs Due to Tenant's Negligence or Misuse" },
+    ],
+  },
+  "radius-restriction": {
+    label: "Radius Restriction",
+    terms: [
+      { id: "radiusDistanceMeasurement", label: "Radius Distance & Measurement Point" },
+      { id: "restrictedActivityScope", label: "Scope of Restricted Activity" },
+      { id: "breachRemedy", label: "Remedy for Breach of the Restriction" },
+      { id: "existingLocationCarveOuts", label: "Carve-Outs for Existing/Pre-Lease Locations" },
+    ],
+  },
 };
 
 function buildRedlineSchema(terms: { id: string; label: string }[]) {
