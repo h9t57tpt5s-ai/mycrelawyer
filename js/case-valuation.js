@@ -82,6 +82,29 @@
     return { total, used, remaining: total - used };
   }
 
+  // Shared by claimResultHtml and issueResultHtml below. Fixed 2026-09-13
+  // (10-agent premium-readiness review, litigation-partner finding): this
+  // read cit.url, but the real citation bench's field is sourceUrl on
+  // ~91% of entries (url only survives on a small legacy minority) --
+  // TypeScript's own type annotation on the backend's resolveCitations()
+  // claimed `url` and was never actually checked at runtime, so the
+  // "Grounded in real cases" link was silently non-clickable for the
+  // large majority of citations shown to users. Also now surfaces
+  // confidence ("high"/"medium"/"low", already present on every citation
+  // but never previously rendered anywhere) so a thinly-supported cite
+  // doesn't look identical to a well-corroborated one.
+  const CONFIDENCE_COLOR = { high: "var(--ui-success)", medium: "var(--ui-warning)", low: "var(--ui-danger)" };
+  function citationHtml(cit) {
+    const href = cit.sourceUrl || cit.url;
+    return `
+      <div class="cv-citation">
+        ${href ? `<a href="${href}" target="_blank" rel="noopener">${cit.caseName}</a>` : cit.caseName}
+        ${cit.year ? ` (${cit.year})` : ""}
+        ${cit.dollarAmount ? ` — ${V.fmt(cit.dollarAmount)}` : ""}
+        ${cit.confidence ? ` <span style="color:${CONFIDENCE_COLOR[cit.confidence] || "var(--text-muted)"}; font-size:11px; text-transform:uppercase; letter-spacing:0.03em;" title="How independently corroborated this citation is">${cit.confidence} confidence</span>` : ""}
+      </div>`;
+  }
+
   function claimResultHtml(c) {
     const evRange = c.expectedValueRange;
     return `
@@ -93,12 +116,7 @@
         ${c.damagesRange ? `<div class="cv-damages">Damages range: ${V.fmtRange(c.damagesRange[0], c.damagesRange[1])}</div>` : ""}
         ${evRange && !c.isBenchmark ? `<div class="cv-ev">Expected value: <strong>${V.fmtRange(evRange[0], evRange[1])}</strong></div>` : ""}
         ${c.note ? `<p class="cv-note">${c.note}</p>` : ""}
-        ${(c.citations || []).length ? `<div class="cv-citations"><div class="cv-citations-label">Grounded in real cases:</div>${c.citations.map((cit) => `
-          <div class="cv-citation">
-            ${cit.url ? `<a href="${cit.url}" target="_blank" rel="noopener">${cit.caseName}</a>` : cit.caseName}
-            ${cit.year ? ` (${cit.year})` : ""}
-            ${cit.dollarAmount ? ` — ${V.fmt(cit.dollarAmount)}` : ""}
-          </div>`).join("")}</div>` : ""}
+        ${(c.citations || []).length ? `<div class="cv-citations"><div class="cv-citations-label">Grounded in real cases:</div>${c.citations.map(citationHtml).join("")}</div>` : ""}
       </div>`;
   }
 
@@ -365,12 +383,7 @@
         </div>
         ${iss.damagesRange ? `<div class="cv-damages">Value range: ${V.fmtRange(iss.damagesRange[0], iss.damagesRange[1])}</div>` : ""}
         ${iss.analysis ? `<p class="cv-note">${iss.analysis}</p>` : ""}
-        ${(iss.citations || []).length ? `<div class="cv-citations"><div class="cv-citations-label">Grounded in real cases:</div>${iss.citations.map((cit) => `
-          <div class="cv-citation">
-            ${cit.url ? `<a href="${cit.url}" target="_blank" rel="noopener">${cit.caseName}</a>` : cit.caseName}
-            ${cit.year ? ` (${cit.year})` : ""}
-            ${cit.dollarAmount ? ` — ${V.fmt(cit.dollarAmount)}` : ""}
-          </div>`).join("")}</div>` : ""}
+        ${(iss.citations || []).length ? `<div class="cv-citations"><div class="cv-citations-label">Grounded in real cases:</div>${iss.citations.map(citationHtml).join("")}</div>` : ""}
       </div>`;
   }
 

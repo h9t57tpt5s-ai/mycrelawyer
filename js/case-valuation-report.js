@@ -246,8 +246,14 @@ window.CV_REPORT = (function () {
         doc.text("Grounded in real cases:", marginX, y);
         y += 13;
         c.citations.slice(0, 3).forEach((cit) => {
-          const line = `${cit.caseName}${cit.year ? " (" + cit.year + ")" : ""}${cit.dollarAmount ? " — " + fmtMoney(cit.dollarAmount) : ""}`;
-          body(line, { size: 8.5, color: MUTED, gap: 4 });
+          // sourceUrl/confidence added 2026-09-13 -- both already existed on
+          // every citation but were never rendered anywhere, on-screen or
+          // in this PDF, leaving a case name with no way to independently
+          // verify it without leaving the tool (this report's whole point).
+          const href = cit.sourceUrl || cit.url;
+          const line = `${cit.caseName}${cit.year ? " (" + cit.year + ")" : ""}${cit.dollarAmount ? " — " + fmtMoney(cit.dollarAmount) : ""}${cit.confidence ? " [" + cit.confidence + " confidence]" : ""}`;
+          body(line, { size: 8.5, color: MUTED, gap: href ? 2 : 4 });
+          if (href) body(href, { size: 7.5, color: MUTED, gap: 4 });
         });
         y += 6;
       }

@@ -151,7 +151,12 @@ function jsonResponse(body: Record<string, unknown>, status: number) {
 // =========================================================
 type CaseData = {
   spec: { categories: Record<string, { label: string; roles: { sideA: string; sideB: string }; claimTypes: Record<string, { side: string }> }> };
-  citations: Record<string, { caseName: string; url: string; year?: number; dollarAmount?: number }[]>;
+  // sourceUrl is the real field on ~91% of entries; url survives only on a
+  // small legacy minority -- both accepted since the frontend reads
+  // sourceUrl first, falling back to url (fixed 2026-09-13; this type
+  // previously claimed `url` only, which no code ever actually enforced
+  // at runtime and silently left the majority of citations' links unrendered).
+  citations: Record<string, { caseName: string; sourceUrl?: string; url?: string; year?: number; dollarAmount?: number; confidence?: "high" | "medium" | "low"; citation?: string; outcome?: string; jurisdiction?: string; notes?: string }[]>;
   stateLawModifiers: Record<string, {
     mitigationDuty?: string; holdoverStatutoryPenalty?: boolean; selfHelpAvailable?: string;
     wrongfulLockoutRemedyType?: string; wrongfulLockoutRemedyValue?: number | null; wrongfulLockoutCitation?: string;
@@ -293,7 +298,7 @@ type Claim = {
   expectedValueRange: [number, number] | null;
   note: string;
   isBenchmark: boolean;
-  citations: { caseName: string; url: string; year?: number; dollarAmount?: number }[];
+  citations: CaseData["citations"][string];
 };
 
 function num(f: Facts, k: string): number {
@@ -1163,7 +1168,7 @@ function evaluate(categorySlug: string, facts: Facts, data: CaseData) {
 // server-side after the call, not just prompted.
 function collectCategoryCitationPool(category: string, data: CaseData) {
   const catSpec = data.spec.categories[category];
-  const pool: { caseName: string; url: string; year?: number; dollarAmount?: number }[] = [];
+  const pool: CaseData["citations"][string] = [];
   const seen = new Set<string>();
   if (!catSpec) return pool;
   for (const claimKey of Object.keys(catSpec.claimTypes)) {
@@ -1843,7 +1848,7 @@ Deno.serve(async (req) => {
     const netPosition: [number, number] = [mySide[0] - otherSide[1], mySide[1] - otherSide[0]];
     const roleLabel = evalResult.roles ? (filingParty === "sideA" ? evalResult.roles.sideA : evalResult.roles.sideB) : filingParty;
 
-    const baselineCitedCasesMap = new Map<string, { caseName: string; url: string; year?: number; dollarAmount?: number }>();
+    const baselineCitedCasesMap = new Map<string, CaseData["citations"][string][number]>();
     for (const c of evalResult.claims) for (const cit of c.citations) baselineCitedCasesMap.set(cit.caseName, cit);
 
     // ---- 4c. Comprehensive analysis pass (Opus 5, adaptive thinking, xhigh
@@ -2022,9 +2027,9 @@ Deno.serve(async (req) => {
     // Validate every cited case name against the real pool -- drop anything
     // that isn't an exact match rather than trusting the prompt instruction.
     const poolByName = new Map(citationPool.map((c) => [c.caseName, c]));
-    const resolveCitations = (names: unknown): { caseName: string; url: string; year?: number; dollarAmount?: number }[] => {
+    const resolveCitations = (names: unknown): CaseData["citations"][string] => {
       if (!Array.isArray(names)) return [];
-      const out: { caseName: string; url: string; year?: number; dollarAmount?: number }[] = [];
+      const out: CaseData["citations"][string] = [];
       for (const n of names) {
         const match = typeof n === "string" ? poolByName.get(n) : undefined;
         if (match) out.push(match);
@@ -2055,7 +2060,7 @@ Deno.serve(async (req) => {
       };
     }) : [];
 
-    const allCitedMap = new Map<string, { caseName: string; url: string; year?: number; dollarAmount?: number }>();
+    const allCitedMap = new Map<string, CaseData["citations"][string][number]>();
     for (const iss of issues) for (const cit of iss.citations) allCitedMap.set(cit.caseName, cit);
     for (const cit of baselineCitedCasesMap.values()) allCitedMap.set(cit.caseName, cit);
 
