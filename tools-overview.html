@@ -3,27 +3,25 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Case Value Calculator (Beta) — CREdocket</title>
-<meta name="description" content="Beta — modeling in active development. A probability-informed estimate of litigation exposure across 8 commercial real estate litigation categories, grounded in real cited settlements and judgments — not a prediction, not legal advice." />
+<title>Tools Overview — CREdocket</title>
+<meta name="description" content="AI-powered estimators alongside free calculators and reference tools for commercial real estate litigation and risk — pick the one that matches what you're trying to solve." />
 <meta property="og:type" content="website" />
 <meta property="og:site_name" content="CREdocket" />
-<meta property="og:title" content="Case Value Calculator (Beta) — CREdocket" />
-<meta property="og:description" content="Beta — modeling in active development. A probability-informed estimate of litigation exposure across 8 commercial real estate litigation categories, grounded in real cited settlements and judgments." />
-<meta property="og:url" content="https://credocket.com/case-valuation.html" />
+<meta property="og:title" content="Tools Overview — CREdocket" />
+<meta property="og:description" content="AI-powered estimators alongside free calculators and reference tools for commercial real estate litigation and risk." />
+<meta property="og:url" content="https://credocket.com/tools-overview.html" />
 <meta property="og:image" content="https://credocket.com/img/og-image.png" />
 <meta property="og:image:width" content="1200" />
 <meta property="og:image:height" content="630" />
 <meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:title" content="Case Value Calculator (Beta) — CREdocket" />
-<meta name="twitter:description" content="Beta — modeling in active development. A probability-informed estimate of litigation exposure across 8 commercial real estate litigation categories, grounded in real cited settlements and judgments." />
+<meta name="twitter:title" content="Tools Overview — CREdocket" />
+<meta name="twitter:description" content="AI-powered estimators alongside free calculators and reference tools for commercial real estate litigation and risk." />
 <meta name="twitter:image" content="https://credocket.com/img/og-image.png" />
 <link rel="icon" href="img/favicon.svg" type="image/svg+xml" />
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/styles.css" />
-<link rel="stylesheet" href="css/case-valuation.css" />
-<link rel="stylesheet" href="css/terms-gate.css" />
     <script>
       window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
     </script>
@@ -76,13 +74,13 @@
         </div>
       </li>
       <li class="nav-item has-dropdown">
-        <a href="tools-overview.html">Tools</a>
+        <a href="tools-overview.html" class="active">Tools</a>
         <button class="nav-caret-btn" aria-label="Toggle Tools submenu" aria-expanded="false">
           <svg class="nav-caret" viewBox="0 0 24 24" fill="none" width="14" height="14"><path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
         </button>
         <div class="nav-dropdown">
           <div class="nav-dropdown-label">AI-Powered</div>
-          <a href="case-valuation.html" class="active">Case Value Calculator (Beta)</a>
+          <a href="case-valuation.html">Case Value Calculator (Beta)</a>
           <a href="lease-clause-redline.html">Lease Clause Redline Checker (Beta)</a>
           <div class="nav-dropdown-label">Calculators &amp; Reference</div>
           <a href="lien-deadline-calculator.html">Mechanic's Lien Deadline Calculator</a>
@@ -116,84 +114,58 @@
 </nav>
 
 <header class="page-header">
-    <div class="page-header-photo"><img src="img/photos/chicago.jpg" alt="Chicago skyline" loading="eager" /></div>
-    <svg class="page-header-graphic" viewBox="0 0 640 400" fill="none" aria-hidden="true" preserveAspectRatio="xMaxYMid slice">
-      <defs>
-        <radialGradient id="phGlow" cx="70%" cy="30%" r="60%">
-          <stop offset="0" stop-color="var(--accent)" stop-opacity="0.16"/>
-          <stop offset="1" stop-color="var(--accent)" stop-opacity="0"/>
-        </radialGradient>
-      </defs>
-      <rect x="0" y="0" width="640" height="400" fill="url(#phGlow)"/>
-      <circle cx="420" cy="120" r="3.5" fill="var(--status-pending)" opacity="0.8">
-        <animate attributeName="r" values="3.5;5.5;3.5" dur="3s" repeatCount="indefinite"/>
-      </circle>
-      <circle cx="230" cy="160" r="3" fill="var(--status-filed)" opacity="0.8">
-        <animate attributeName="r" values="3;5;3" dur="2.6s" repeatCount="indefinite"/>
-      </circle>
-      <circle cx="330" cy="200" r="3" fill="var(--accent-bright)" opacity="0.8">
-        <animate attributeName="r" values="3;5;3" dur="3.4s" repeatCount="indefinite"/>
-      </circle>
-    </svg>
   <div class="container">
-    <div class="eyebrow reveal in-view">Litigation Tools</div>
-    <h1 class="reveal in-view" style="font-size:clamp(2.2rem,4vw,3.4rem);">Case Value Calculator</h1>
-    <span class="badge reveal in-view" style="margin-top:14px; background:color-mix(in srgb, var(--status-pending) 16%, transparent); color:var(--status-pending); border:1px solid color-mix(in srgb, var(--status-pending) 40%, transparent);">
-      <span class="badge-dot" style="background:var(--status-pending)"></span>Beta — modeling in active development
-    </span>
-    <p class="lede mt-16 reveal in-view">A structured, rules-based estimate of litigation exposure across 8 commercial real estate categories — probability range × damages range, never a single number, and every result traces to a specific rule or a real cited case below it. Describe your case in your own words and/or drop in your pleadings — AI identifies the type of dispute, extracts the facts, and writes up the reasoning for you.</p>
+    <div class="eyebrow reveal in-view">Tools</div>
+    <h1 class="reveal in-view" style="font-size:clamp(2.2rem,4vw,3.4rem);">Pick the right tool.</h1>
+    <p class="lede mt-16 reveal in-view">Two kinds of tools, grouped by how they work: AI-powered estimators that read your own case facts, and free calculators and reference tools built on fixed rules.</p>
   </div>
 </header>
 
-<section class="section-tight">
-  <div class="container" style="max-width:820px;">
-    <div class="card reveal" style="padding:24px;">
-      <div class="eyebrow" style="margin-bottom:10px;">How This Works</div>
-      <p class="text-secondary" style="font-size:13.5px; line-height:1.7; margin-bottom:14px;"><strong>This tool is in beta.</strong> The underlying probability and damages modeling is still being actively developed and refined as more real case data — settlements, judgments, and consent decrees — is incorporated. Ranges shown today should be treated as an early, evolving estimate, not a finished or stable model.</p>
-      <p class="text-secondary" style="font-size:13.5px; line-height:1.7; margin-bottom:14px;">This is a transparent, explainable framework calibrated against real, cited case outcomes and (where relevant) state law — not a black-box statistical prediction, and not a substitute for judicial or arbitral resolution of an actual dispute. Every probability and damages range shown is grounded in either a specific legal rule or a comparable case cited in the results.</p>
-      <p class="text-secondary" style="font-size:13.5px; line-height:1.7;">This tool does not provide legal advice and does not predict the outcome of any specific matter. Litigation outcomes depend on facts, evidence, jurisdiction, and counsel that a short questionnaire cannot capture. <a href="contact.html" class="text-accent" style="display:inline;">Discuss an actual matter with counsel &rarr;</a></p>
+<section class="section-tight" style="padding-bottom:24px;">
+  <div class="container">
+    <div class="eyebrow">AI-Powered</div>
+    <h2 style="font-size:clamp(1.3rem,2vw,1.7rem); margin:6px 0 24px;">Reads your case's own facts</h2>
+    <div class="grid-3 reveal-stagger">
+      <a href="case-valuation.html" class="card reveal" style="display:block; text-decoration:none; color:inherit;">
+        <h3 style="font-size:1.1rem; line-height:1.35;">Case Value Calculator (Beta)</h3>
+        <p class="text-secondary mt-16" style="font-size:13.5px; line-height:1.6;">A probability-informed estimate of litigation exposure across 8 commercial real estate litigation categories, grounded in real cited settlements and judgments — not a prediction, not legal advice.</p>
+        <p class="text-accent mt-16" style="font-size:12.5px;">Estimate a matter's value &rarr;</p>
+      </a>
+      <a href="lease-clause-redline.html" class="card reveal" style="display:block; text-decoration:none; color:inherit;">
+        <h3 style="font-size:1.1rem; line-height:1.35;">Lease Clause Redline Checker (Beta)</h3>
+        <p class="text-secondary mt-16" style="font-size:13.5px; line-height:1.6;">Paste a lease clause — assignment, SNDA, casualty &amp; condemnation, co-tenancy, CAM audit rights, or estoppel — and see how it compares to market-standard commercial leasing practice, term by term.</p>
+        <p class="text-accent mt-16" style="font-size:12.5px;">Check a lease clause &rarr;</p>
+      </a>
     </div>
   </div>
 </section>
 
-<section class="section-tight">
+<section class="section-tight" style="padding-top:8px;">
   <div class="container">
-    <div class="section-head reveal">
-      <div>
-        <div class="eyebrow">Estimate a Matter</div>
-        <h2 style="font-size:clamp(1.4rem,2.2vw,1.9rem);">Describe your case, upload your documents, or both</h2>
-      </div>
+    <div class="eyebrow">Calculators &amp; Reference</div>
+    <h2 style="font-size:clamp(1.3rem,2vw,1.7rem); margin:6px 0 24px;">Fixed rules, free to use</h2>
+    <div class="grid-3 reveal-stagger">
+      <a href="lien-deadline-calculator.html" class="card reveal" style="display:block; text-decoration:none; color:inherit;">
+        <h3 style="font-size:1.1rem; line-height:1.35;">Mechanic's Lien Deadline Calculator</h3>
+        <p class="text-secondary mt-16" style="font-size:13.5px; line-height:1.6;">Free calculator for preliminary notice, lien filing, and enforcement deadlines on commercial construction projects — all 51 U.S. jurisdictions.</p>
+        <p class="text-accent mt-16" style="font-size:12.5px;">Calculate lien deadlines &rarr;</p>
+      </a>
+      <a href="ada-risk-flagging.html" class="card reveal" style="display:block; text-decoration:none; color:inherit;">
+        <h3 style="font-size:1.1rem; line-height:1.35;">ADA Title III Risk Flagging</h3>
+        <p class="text-secondary mt-16" style="font-size:13.5px; line-height:1.6;">Free ADA Title III physical-accessibility litigation risk profile by state and property type — federal filing-volume data, state-law damages overlays, and common violation categories.</p>
+        <p class="text-accent mt-16" style="font-size:12.5px;">Check your ADA risk &rarr;</p>
+      </a>
+      <a href="premises-liability-checklist.html" class="card reveal" style="display:block; text-decoration:none; color:inherit;">
+        <h3 style="font-size:1.1rem; line-height:1.35;">Premises Liability Checklist</h3>
+        <p class="text-secondary mt-16" style="font-size:13.5px; line-height:1.6;">A plain-language checklist for on-site property management staff: what to do immediately after a visitor injury, how to handle a lockout without creating wrongful-lockout liability, and what documentation to preserve.</p>
+        <p class="text-accent mt-16" style="font-size:12.5px;">Open the checklist &rarr;</p>
+      </a>
+      <a href="contribute-settlement.html" class="card reveal" style="display:block; text-decoration:none; color:inherit;">
+        <h3 style="font-size:1.1rem; line-height:1.35;">Contribute a Settlement</h3>
+        <p class="text-secondary mt-16" style="font-size:13.5px; line-height:1.6;">Upload a petition/complaint and its non-confidential settlement agreement to earn free Case Value Calculator credits — and help build the litigation-outcomes database that grounds every estimate on the site.</p>
+        <p class="text-accent mt-16" style="font-size:12.5px;">Earn calculator credits &rarr;</p>
+      </a>
     </div>
-    <form id="cv-form" class="card reveal" style="padding:28px;">
-      <div id="cv-upload-host"></div>
-
-      <div class="cv-cost-section">
-        <div class="eyebrow" style="margin-bottom:10px;">Cost to Litigate &amp; Settlement Comparison</div>
-        <p class="text-muted" style="font-size:12px; line-height:1.6; margin-bottom:16px;">These cost/timeline figures are general commercial-litigation industry norms, not individually cited to a specific real case the way the estimate above is — enter your own numbers below if you have them.</p>
-        <div id="cv-cost-form-host">
-          <div class="cv-field">
-            <label for="cv-q-expectToTrial">Do you expect this to go to trial, or resolve via settlement/motion first?</label>
-            <select id="cv-q-expectToTrial" data-cost-key="expectToTrial" data-type="boolean">
-              <option value="false" selected>Settlement or motion practice</option>
-              <option value="true">Full trial</option>
-            </select>
-          </div>
-          <div class="cv-field">
-            <label for="cv-q-customCostLow">Your own estimated attorney fees — low end ($, optional)</label>
-            <input id="cv-q-customCostLow" type="number" step="any" data-cost-key="customCostLow" data-type="number" />
-          </div>
-          <div class="cv-field">
-            <label for="cv-q-customCostHigh">Your own estimated attorney fees — high end ($, optional)</label>
-            <input id="cv-q-customCostHigh" type="number" step="any" data-cost-key="customCostHigh" data-type="number" />
-          </div>
-          <div class="cv-field">
-            <label for="cv-q-settlementOnTable">Settlement amount currently on the table, if any ($, optional)</label>
-            <input id="cv-q-settlementOnTable" type="number" step="any" data-cost-key="settlementOnTable" data-type="number" />
-          </div>
-        </div>
-      </div>
-    </form>
-    <div id="cv-results-host" style="margin-top:28px;"></div>
   </div>
 </section>
 
@@ -239,7 +211,7 @@
       </div>
     </div>
     <div class="footer-bottom">
-      <span>© <span data-year></span> CREdocket. Litigation intelligence sourced from ongoing legal research.</span>
+      <span>&copy; <span data-year></span> CREdocket. Litigation intelligence sourced from ongoing legal research.</span>
       <span>Not legal advice. For informational purposes only.</span>
     </div>
   </div>
@@ -251,17 +223,13 @@
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script>
 <script src="js/supabase-client.js"></script>
 <script src="js/auth.js"></script>
+<script src="js/trending.js"></script>
+<script src="js/search.js"></script>
 <script src="js/motion.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
-<script src="js/case-valuation-report.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/mammoth/1.6.0/mammoth.browser.min.js"></script>
-<script src="js/case-valuation.js"></script>
-<script src="js/terms-gate.js"></script>
 <script>
-  window.RELAW_TERMS_GATE.gate("case-value-calculator", {
-    summary: "The Case Value Calculator produces an AI- and rules-based probability-weighted estimate — not legal advice, not a prediction of outcome, and not a substitute for a licensed attorney. Please review and accept the terms, disclaimer, and waiver below before continuing."
-  });
+  (function () {
+    document.querySelectorAll(".reveal").forEach((el) => el.classList.add("in-view"));
+  })();
 </script>
 </body>
 </html>
