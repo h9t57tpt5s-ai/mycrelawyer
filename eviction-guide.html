@@ -270,13 +270,11 @@
 <script src="js/eviction-guide.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
 <script src="js/eviction-guide-report.js"></script>
-<!-- Terms gate temporarily disabled -- this page is now free (with a
-     required sign-in, no purchase), matching premises-liability-guide.html.
-     Restore by re-adding css/terms-gate.css to <head> and this block:
-       <script src="js/terms-gate.js"></script>
-       <script>
-         window.RELAW_TERMS_GATE.gate("eviction-handbook", { summary: "..." });
-       </script>
--->
+<script src="js/terms-gate.js"></script>
+<script>
+  window.RELAW_TERMS_GATE.gate("eviction-handbook", {
+    summary: "The Commercial Eviction Handbook is general legal information — not legal advice for your specific matter, and not a substitute for a licensed attorney in the relevant jurisdiction. Please review and accept the terms, disclaimer, and waiver below before continuing."
+  });
+</script>
 </body>
 </html>
