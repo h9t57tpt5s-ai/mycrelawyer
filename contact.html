@@ -276,6 +276,24 @@
 </footer>
 
 <script src="js/data.js"></script>
+<script>
+  // Defensive retry: js/data.js occasionally fails to load (a transient
+  // network blip, a CDN edge hiccup) leaving RELAW_DATA undefined and
+  // this page silently rendering empty grids / "0 Tracked Matters"
+  // instead of the real, live dataset -- indistinguishable from a
+  // genuinely empty site to a visitor. Flagged 2026-09-14 after this was
+  // spotted live on the tracker page. A single automatic, cache-busted
+  // reload fixes the overwhelming majority of these before a person ever
+  // sees a broken page; sessionStorage caps it at one retry per page per
+  // tab session so a real, persistent failure doesn't reload forever.
+  if (typeof RELAW_DATA === "undefined") {
+    var _ddk = "credocket_data_retry_" + location.pathname;
+    if (!sessionStorage.getItem(_ddk)) {
+      sessionStorage.setItem(_ddk, "1");
+      location.reload();
+    }
+  }
+</script>
 <script src="js/main.js"></script>
 <script src="js/glossary-tooltip.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script>
