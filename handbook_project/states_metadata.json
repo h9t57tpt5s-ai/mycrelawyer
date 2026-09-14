@@ -1,0 +1,410 @@
+[
+  {
+    "name": "Alabama",
+    "slug": "alabama",
+    "chapter": 1,
+    "classification": "Landlord-Friendly",
+    "selfHelpAvailable": "Not Available",
+    "possessionDamagesCombined": "May Combine (cap applies)"
+  },
+  {
+    "name": "Alaska",
+    "slug": "alaska",
+    "chapter": 2,
+    "classification": "Neutral",
+    "selfHelpAvailable": "Conditional",
+    "possessionDamagesCombined": "May Combine"
+  },
+  {
+    "name": "Arizona",
+    "slug": "arizona",
+    "chapter": 3,
+    "classification": "Landlord-Friendly",
+    "selfHelpAvailable": "Available",
+    "possessionDamagesCombined": "May Combine"
+  },
+  {
+    "name": "Arkansas",
+    "slug": "arkansas",
+    "chapter": 4,
+    "classification": "Landlord-Friendly",
+    "selfHelpAvailable": "Not Available",
+    "possessionDamagesCombined": "May Combine"
+  },
+  {
+    "name": "California",
+    "slug": "california",
+    "chapter": 5,
+    "classification": "Neutral",
+    "selfHelpAvailable": "Not Available",
+    "possessionDamagesCombined": "Often Separate"
+  },
+  {
+    "name": "Colorado",
+    "slug": "colorado",
+    "chapter": 6,
+    "classification": "Neutral",
+    "selfHelpAvailable": "Not Available",
+    "possessionDamagesCombined": "Often Separate"
+  },
+  {
+    "name": "Connecticut",
+    "slug": "connecticut",
+    "chapter": 7,
+    "classification": "Neutral",
+    "selfHelpAvailable": "Not Available",
+    "possessionDamagesCombined": "Varies"
+  },
+  {
+    "name": "Delaware",
+    "slug": "delaware",
+    "chapter": 8,
+    "classification": "Neutral",
+    "selfHelpAvailable": "Not Available",
+    "possessionDamagesCombined": "Varies"
+  },
+  {
+    "name": "District of Columbia",
+    "slug": "district-of-columbia",
+    "chapter": 9,
+    "classification": "Tenant-Friendly",
+    "selfHelpAvailable": "Not Available",
+    "possessionDamagesCombined": "May Combine"
+  },
+  {
+    "name": "Florida",
+    "slug": "florida",
+    "chapter": 10,
+    "classification": "Neutral",
+    "selfHelpAvailable": "Not Available",
+    "possessionDamagesCombined": "May Combine"
+  },
+  {
+    "name": "Georgia",
+    "slug": "georgia",
+    "chapter": 11,
+    "classification": "Landlord-Friendly",
+    "selfHelpAvailable": "Conditional",
+    "possessionDamagesCombined": "May Combine"
+  },
+  {
+    "name": "Hawaii",
+    "slug": "hawaii",
+    "chapter": 12,
+    "classification": "Landlord-Friendly",
+    "selfHelpAvailable": "Conditional",
+    "possessionDamagesCombined": "May Combine"
+  },
+  {
+    "name": "Idaho",
+    "slug": "idaho",
+    "chapter": 13,
+    "classification": "Neutral",
+    "selfHelpAvailable": "Uncertain",
+    "possessionDamagesCombined": "May Combine"
+  },
+  {
+    "name": "Illinois",
+    "slug": "illinois",
+    "chapter": 14,
+    "classification": "Tenant-Friendly",
+    "selfHelpAvailable": "Not Available",
+    "possessionDamagesCombined": "May Combine"
+  },
+  {
+    "name": "Indiana",
+    "slug": "indiana",
+    "chapter": 15,
+    "classification": "Tenant-Friendly",
+    "selfHelpAvailable": "Conditional",
+    "possessionDamagesCombined": "Often Separate"
+  },
+  {
+    "name": "Iowa",
+    "slug": "iowa",
+    "chapter": 16,
+    "classification": "Landlord-Friendly",
+    "selfHelpAvailable": "Uncertain",
+    "possessionDamagesCombined": "Often Separate"
+  },
+  {
+    "name": "Kansas",
+    "slug": "kansas",
+    "chapter": 17,
+    "classification": "Neutral",
+    "selfHelpAvailable": "Not Available",
+    "possessionDamagesCombined": "May Combine"
+  },
+  {
+    "name": "Kentucky",
+    "slug": "kentucky",
+    "chapter": 18,
+    "classification": "Landlord-Friendly",
+    "selfHelpAvailable": "Conditional",
+    "possessionDamagesCombined": "Often Separate"
+  },
+  {
+    "name": "Louisiana",
+    "slug": "louisiana",
+    "chapter": 19,
+    "classification": "Neutral",
+    "selfHelpAvailable": "Not Available",
+    "possessionDamagesCombined": "Often Separate"
+  },
+  {
+    "name": "Maine",
+    "slug": "maine",
+    "chapter": 20,
+    "classification": "Landlord-Friendly",
+    "selfHelpAvailable": "Uncertain",
+    "possessionDamagesCombined": "May Combine"
+  },
+  {
+    "name": "Maryland",
+    "slug": "maryland",
+    "chapter": 21,
+    "classification": "Neutral",
+    "selfHelpAvailable": "Available",
+    "possessionDamagesCombined": "May Combine"
+  },
+  {
+    "name": "Massachusetts",
+    "slug": "massachusetts",
+    "chapter": 22,
+    "classification": "Landlord-Friendly",
+    "selfHelpAvailable": "Not Available",
+    "possessionDamagesCombined": "Often Separate"
+  },
+  {
+    "name": "Michigan",
+    "slug": "michigan",
+    "chapter": 23,
+    "classification": "Neutral",
+    "selfHelpAvailable": "Not Available",
+    "possessionDamagesCombined": "May Combine"
+  },
+  {
+    "name": "Minnesota",
+    "slug": "minnesota",
+    "chapter": 24,
+    "classification": "Neutral",
+    "selfHelpAvailable": "Conditional",
+    "possessionDamagesCombined": "May Combine"
+  },
+  {
+    "name": "Mississippi",
+    "slug": "mississippi",
+    "chapter": 25,
+    "classification": "Landlord-Friendly",
+    "selfHelpAvailable": "Conditional",
+    "possessionDamagesCombined": "May Combine"
+  },
+  {
+    "name": "Missouri",
+    "slug": "missouri",
+    "chapter": 26,
+    "classification": "Tenant-Friendly",
+    "selfHelpAvailable": "Not Available",
+    "possessionDamagesCombined": "May Combine"
+  },
+  {
+    "name": "Montana",
+    "slug": "montana",
+    "chapter": 27,
+    "classification": "Landlord-Friendly",
+    "selfHelpAvailable": "Available",
+    "possessionDamagesCombined": "May Combine"
+  },
+  {
+    "name": "Nebraska",
+    "slug": "nebraska",
+    "chapter": 28,
+    "classification": "Landlord-Friendly",
+    "selfHelpAvailable": "Not Available",
+    "possessionDamagesCombined": "May Combine"
+  },
+  {
+    "name": "Nevada",
+    "slug": "nevada",
+    "chapter": 29,
+    "classification": "Landlord-Friendly",
+    "selfHelpAvailable": "Conditional",
+    "possessionDamagesCombined": "Varies"
+  },
+  {
+    "name": "New Hampshire",
+    "slug": "new-hampshire",
+    "chapter": 30,
+    "classification": "Landlord-Friendly",
+    "selfHelpAvailable": "Not Available",
+    "possessionDamagesCombined": "Often Separate"
+  },
+  {
+    "name": "New Jersey",
+    "slug": "new-jersey",
+    "chapter": 31,
+    "classification": "Landlord-Friendly",
+    "selfHelpAvailable": "Not Available",
+    "possessionDamagesCombined": "Often Separate"
+  },
+  {
+    "name": "New Mexico",
+    "slug": "new-mexico",
+    "chapter": 32,
+    "classification": "Landlord-Friendly",
+    "selfHelpAvailable": "Uncertain",
+    "possessionDamagesCombined": "May Combine"
+  },
+  {
+    "name": "New York",
+    "slug": "new-york",
+    "chapter": 33,
+    "classification": "Neutral",
+    "selfHelpAvailable": "Conditional",
+    "possessionDamagesCombined": "May Combine"
+  },
+  {
+    "name": "North Carolina",
+    "slug": "north-carolina",
+    "chapter": 34,
+    "classification": "Landlord-Friendly",
+    "selfHelpAvailable": "Conditional",
+    "possessionDamagesCombined": "May Combine"
+  },
+  {
+    "name": "North Dakota",
+    "slug": "north-dakota",
+    "chapter": 35,
+    "classification": "Neutral",
+    "selfHelpAvailable": "Not Available",
+    "possessionDamagesCombined": "May Combine"
+  },
+  {
+    "name": "Ohio",
+    "slug": "ohio",
+    "chapter": 36,
+    "classification": "Neutral",
+    "selfHelpAvailable": "Conditional",
+    "possessionDamagesCombined": "May Combine"
+  },
+  {
+    "name": "Oklahoma",
+    "slug": "oklahoma",
+    "chapter": 37,
+    "classification": "Landlord-Friendly",
+    "selfHelpAvailable": "Not Available",
+    "possessionDamagesCombined": "May Combine"
+  },
+  {
+    "name": "Oregon",
+    "slug": "oregon",
+    "chapter": 38,
+    "classification": "Landlord-Friendly",
+    "selfHelpAvailable": "Conditional",
+    "possessionDamagesCombined": "Often Separate"
+  },
+  {
+    "name": "Pennsylvania",
+    "slug": "pennsylvania",
+    "chapter": 39,
+    "classification": "Neutral",
+    "selfHelpAvailable": "Not Available",
+    "possessionDamagesCombined": "May Combine"
+  },
+  {
+    "name": "Rhode Island",
+    "slug": "rhode-island",
+    "chapter": 40,
+    "classification": "Landlord-Friendly",
+    "selfHelpAvailable": "Not Available",
+    "possessionDamagesCombined": "May Combine"
+  },
+  {
+    "name": "South Carolina",
+    "slug": "south-carolina",
+    "chapter": 41,
+    "classification": "Neutral",
+    "selfHelpAvailable": "Conditional",
+    "possessionDamagesCombined": "May Combine"
+  },
+  {
+    "name": "South Dakota",
+    "slug": "south-dakota",
+    "chapter": 42,
+    "classification": "Landlord-Friendly",
+    "selfHelpAvailable": "Conditional",
+    "possessionDamagesCombined": "May Combine"
+  },
+  {
+    "name": "Tennessee",
+    "slug": "tennessee",
+    "chapter": 43,
+    "classification": "Landlord-Friendly",
+    "selfHelpAvailable": "Not Available",
+    "possessionDamagesCombined": "May Combine"
+  },
+  {
+    "name": "Texas",
+    "slug": "texas",
+    "chapter": 44,
+    "classification": "Landlord-Friendly",
+    "selfHelpAvailable": "Available",
+    "possessionDamagesCombined": "May Combine"
+  },
+  {
+    "name": "Utah",
+    "slug": "utah",
+    "chapter": 45,
+    "classification": "Landlord-Friendly",
+    "selfHelpAvailable": "Not Available",
+    "possessionDamagesCombined": "May Combine"
+  },
+  {
+    "name": "Vermont",
+    "slug": "vermont",
+    "chapter": 46,
+    "classification": "Neutral",
+    "selfHelpAvailable": "Available",
+    "possessionDamagesCombined": "Varies"
+  },
+  {
+    "name": "Virginia",
+    "slug": "virginia",
+    "chapter": 47,
+    "classification": "Landlord-Friendly",
+    "selfHelpAvailable": "Available",
+    "possessionDamagesCombined": "May Combine"
+  },
+  {
+    "name": "Washington",
+    "slug": "washington",
+    "chapter": 48,
+    "classification": "Neutral",
+    "selfHelpAvailable": "Not Available",
+    "possessionDamagesCombined": "May Combine"
+  },
+  {
+    "name": "West Virginia",
+    "slug": "west-virginia",
+    "chapter": 49,
+    "classification": "Neutral",
+    "selfHelpAvailable": "Conditional",
+    "possessionDamagesCombined": "May Combine"
+  },
+  {
+    "name": "Wisconsin",
+    "slug": "wisconsin",
+    "chapter": 50,
+    "classification": "Tenant-Friendly",
+    "selfHelpAvailable": "Conditional",
+    "possessionDamagesCombined": "May Combine"
+  },
+  {
+    "name": "Wyoming",
+    "slug": "wyoming",
+    "chapter": 51,
+    "classification": "Neutral",
+    "selfHelpAvailable": "Conditional",
+    "possessionDamagesCombined": "May Combine (cap applies)"
+  }
+]

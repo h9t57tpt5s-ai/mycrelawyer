@@ -28,6 +28,7 @@
     <script defer src="/_vercel/insights/script.js"></script>
   </head>
 <body>
+<a class="skip-link" href="#main-content">Skip to main content</a>
 
 <div class="nav-scrim"></div>
 <nav class="nav">
@@ -112,6 +113,8 @@
     </div>
   </div>
 </nav>
+<main id="main-content" tabindex="-1">
+
 
 <header class="page-header">
     <div class="page-header-photo"><img src="img/photos/chicago.jpg" alt="Chicago skyline" loading="eager" /></div>
@@ -188,7 +191,7 @@
       <div class="filter-row">
         <div class="search-input-wrap">
           <svg viewBox="0 0 24 24" fill="none"><path d="M11 19a8 8 0 100-16 8 8 0 000 16zM21 21l-4.35-4.35" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
-          <input type="text" id="search-input" class="search-input" placeholder="Search by title, jurisdiction, or tag…" />
+          <input type="text" id="search-input" class="search-input" placeholder="Search by title, jurisdiction, or tag…" aria-label="Search tracked matters" />
         </div>
         <div class="select-wrap">
           <select id="status-select" class="select-input">
@@ -237,6 +240,7 @@
   </div>
 </section>
 
+</main>
 <footer class="footer">
   <div class="container">
     <div class="footer-grid">

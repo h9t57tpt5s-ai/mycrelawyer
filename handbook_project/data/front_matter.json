@@ -1,0 +1,19 @@
+{
+  "title": "The Commercial Eviction Handbook",
+  "subtitle": "A 50-State Guide to Notice, Self-Help, Jurisdiction, Timing & Damages",
+  "edition": "2026 Edition",
+  "author": "Jeff Novel",
+  "copyrightYear": "2026",
+  "copyrightHolder": "Jeff Novel",
+  "disclaimer": "This handbook is provided for general informational purposes only and does not constitute legal advice. The information in this handbook is not intended as, and should not be construed or relied upon as, legal advice on any specific facts or circumstances. Reading this handbook does not create an attorney-client relationship between the reader and the author, and no such relationship is formed by the purchase or use of this publication. Commercial landlord-tenant law is jurisdiction-specific, fact-specific, and subject to frequent legislative and judicial change. Before taking or refraining from taking any action affecting a commercial tenancy, a landlord should consult qualified local counsel admitted in the state where the leased premises are located.",
+  "scopeNote": "Scope. This handbook addresses commercial (non-residential) tenancies only. Residential eviction statutes, residential tenant-protection rules, and residential-specific notice, cure, and hardship provisions are intentionally excluded throughout this handbook, and should never be relied upon for a residential tenancy. Where a state's eviction statute governs both commercial and residential tenancies through the same code sections, this handbook presents only the provisions and analysis relevant to commercial tenancies.",
+  "revisionBasis": "Revision basis. The Texas and California chapters were independently verified against primary statutory and rule sources through August 2026. The remaining forty-eight state chapters and the District of Columbia chapter were independently re-researched and verified against current primary sources as part of this 2026 Edition. Any chapter containing a point that could not be independently verified with confidence is flagged in that chapter, and the reader is directed to confirm the specific point with local counsel before relying on it.",
+  "methodology": [
+    "Statutory Notice — Does the state require a default or pay-or-vacate notice before a commercial landlord may file suit, and if so, how much notice and delivered how?",
+    "Self-Help / Commercial Lockout — Is self-help (typically a lockout) an available remedy for a commercial lease default, and under what conditions?",
+    "Jurisdiction and Venue — Can an action to regain possession be combined with a claim for lease damages, or must two separate suits be filed? Which court has jurisdiction?",
+    "Timing — How long does it typically take to regain possession through the courts?",
+    "Damages — What damages can a commercial landlord recover through litigation, and is there a duty to mitigate?"
+  ],
+  "colorKeyIntro": "Each chapter is labeled Landlord-Friendly, Tenant-Friendly, or Neutral, based on an overall assessment of that state's statutory notice burden, availability of self-help, procedural speed, and damages rules as they affect a commercial landlord pursuing possession. This classification is a general orientation tool, not a prediction of the outcome of any specific case, and it does not account for lease-specific drafting that can shift the practical balance in either direction."
+}

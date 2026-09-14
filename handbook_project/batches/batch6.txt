@@ -1,0 +1,83 @@
+=== Washington (2022 BASELINE TEXT) ===
+Washington
+
+
+
+Statutory Notice. Notice is not required to begin eviction; but a landlord must provide notice of past due rent in writing three days before beginning eviction. Notice may be served at any time after rent becomes due. Wash. Rev. Code Ann. § 59.12.030(3). 
+
+
+
+Self-help. Unless explicitly provided for in the lease, Washington courts tend to disfavor landlords’ use of self-help remedies.  
+
+
+
+Jurisdiction. The superior court of the county in which the property at issue is located has jurisdiction. Id. § 59.12.050. Damages and rent may be combined with issue of possession. Id. § 59.12.170.
+
+Timing. Variable. Defendant must answer no less than seven and no more than thirty days from the date of service.  Id. § 59.12.070. Plaintiff may apply for a writ of restitution at the time of filing or any time afterwards, but the defendant may stay its execution with a bond.  Id. §§ 59.12.90 and 59.12.100. The case proceeds as a regular jury trial (unless jury is waived), but shall take precedence over other civil actions. Id. § 59.12.130.
+
+Damages. Jury (or the court, if a bench trial) will assess damages resulting from any unlawful detainer, alleged in the complaint and proved, and the amount of any rent due. Judgment shall be rendered for twice the amount of any damages thus assessed and rent found due.  Defendant may maintain the lease by paying all such damages, and costs, within five days of the date of judgment. Id. § 59.12.170.  An accelerated rent cause is enforceable if the lease contains a provision unequivocally making the tenant responsible for unpaid rent even after termination of the lease and the landlord’s reentry. A landlord has a duty to mitigate by re-leasing the premises, unless the lease specifically absolves it of that duty. 2011 WL 3795697, at *15.
+
+=== West Virginia (2022 BASELINE TEXT) ===
+West Virginia
+
+
+
+Statutory Notice. No notice is required by West Virginia statute. W. Va. Code Ann. § 37-6-19. 
+
+
+
+Self-help. When a tenant abandons the property, a landlord must post notice on the property requiring the tenant to pay rent within one month. If rent is not paid, the landlord is entitled to take possession and may use self-help remedies. Id. § 37-6-6(a). 
+
+
+
+Jurisdiction. A claim for damages may be assessed at the same time as a claim for possession. Id. §§ 55-3-2, 55-3-4.
+
+Timing. Variable. The timing of an eviction proceeding in West Virginia is variable. A summons must be answered no more than ninety days after its date and the case proceeds to trial, but such a trial has precedence over all other civil actions on the docket. Id. § 55-3-3. 
+
+Damages. Damages may include mesne profits of the premises (not exceeding 3 years previous), special damages resulting from unlawful detainer, and damages for destruction or waste. Id. § 55-3-2. Interest on rent is allowed as on other contracts. Id. § 37-6-9.  In the case of abandonment, the landlord may recover rent “owed up to the time when he or she became entitled to possession.” Id. § 37-6-6(a). But rent “of every kind may be recovered by distress or action.” Id. § 37-6-9. A landlord has the option (but not the obligation) after retaking possession to re-lease the premises and mitigate damages, in which case the tenant remains liable on the lease for the difference between the amount of rent received by a new tenant and the amount owed by the original tenant. Id. § 37-6-7.
+
+=== Wisconsin (2022 BASELINE TEXT) ===
+Wisconsin
+
+
+
+Statutory Notice. If a tenant breaches a lease for a term of more than one year, Wisconsin statutes require a landlord to give thirty days’ notice. Wis. Stat. Ann. §§ 704.17.   
+
+
+
+Self-help. There are no Wisconsin statutes prohibiting commercial landlords from utilizing self-help remedies.  
+
+
+
+Jurisdiction. Small-claims procedure is the exclusive procedure for eviction actions regardless of the amount of rent claimed. Id. § 799.01. A landlord may join any claim against the defendant arising out of the defendant’s possession or occupancy of the premises. Id. § 799.40.  
+
+Timing. In eviction actions, the return date for a summons served upon a Wisconsin resident shall be no less than five days, nor more than twenty-five days from the issue date. If the tenant is not a Wisconsin resident, the return date shall be no less than twenty days from the issue date. Id. § 799.05. The timing of eviction proceedings may vary. 
+
+Damages. At minimum, a landlord may recover twice the rental value apportioned on a daily basis for the time the tenant remains in possession, where “rental value” means the amount for which the premises might reasonably have been rented, but not less than the amount actually paid or payable by the tenant for the prior rental period (including taxes, insurance, and repairs). A landlord may recover more than this amount upon proof of greater damages caused by the unlawful detainer, and may seek any other damages to which he may be entitled. Id. § 704.27. Wisconsin case law indicates that if a landlord successfully re-leases the premises, the initial tenant is released from all further liability for rent, and any money received from the successor tenant will be credited toward the initial tenant’s obligation under the lease. 624 N.W.2d 847, 850.
+
+=== Wyoming (2022 BASELINE TEXT) ===
+Wyoming
+
+
+
+Statutory Notice.  The tenant must be personally served with notice at least three days prior to commencing an action for forcible entry and detainer. Wyo. Stat. Ann. § 1-21-1003.
+
+
+
+Self-help.  There are no Wyoming statutes explicitly forbidding commercial landlords from utilizing self-help remedies.
+
+
+
+Jurisdiction.  Circuit courts have jurisdictions over eviction actions and the jurisdictional limits of such courts is $7,000.  As a result, claims for damages will usually need to be filed in a separate lawsuit. Id. § 1-21-1001. 
+
+
+
+Timing.  After the complaint is filed and served, the court is required by statute to set a hearing within twelve days.  The tenant must be served with the eviction complaint no less than three or more than twelve days before the trial date.  Id. § 1-21-1004.  Once the landlord receives a judgment, the landlord can request that the court issue a Writ of Restitution which will allow the sheriff to remove the tenant and lock it out of the property.  Unless the tenant appeals, the sheriff's officer must execute the Writ of Restitution within two days of receiving it, Sundays excepted, by restoring possession to the landlord.  Id. § 1-21-1013.
+
+
+
+Damages.  Acceleration of rent clauses are enforceable in Wyoming.  There is no statute requiring that landlords mitigate their damages.
+
+
+
+Special Considerations.  Trial may be before the judge or a jury.  The tenant has 30 days to appeal the ruling on the eviction proceeding, but the appeal will not stay the proceedings on judgment unless, within forty-eight hours after judgment, Sundays excepted, the appellant executes and files with the court his bond to plaintiff, with two or more sufficient sureties approved by the court, conditioned that the appellant shall pay all costs which have accrued or may thereafter accrue and all damages which the plaintiff sustained or may thereafter sustain from the wrongful detention during the pendency of the appeal.  Id. § 1-21-1004.

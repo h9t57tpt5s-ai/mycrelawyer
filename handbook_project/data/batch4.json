@@ -1,0 +1,364 @@
+[
+  {
+    "state": "Nevada",
+    "classification": "Landlord-Friendly",
+    "classificationRaw": "Landlord-Friendly",
+    "sections": [
+      {
+        "heading": "Statutory Notice",
+        "text": "Nevada's summary eviction statutes distinguish between monetary and non-monetary defaults. For nonpayment of rent in a commercial tenancy, NRS 40.2542 governs and requires a notice advising the tenant that it may be evicted at or before noon of the fifth full day (excluding weekends and holidays) following service unless the tenant pays the rent due or files an affidavit with the court contesting the eviction. For non-monetary defaults (e.g., a lease covenant violation), a landlord must proceed under NRS 40.2516, which requires a five-day notice to cure or quit identifying the breach, followed — if the tenant does not cure — by a second notice (a notice to quit for unlawful detainer) directing the tenant to vacate and advising of the right to contest by filing an affidavit with the court. This two-notice structure for non-monetary defaults matches the 2022 baseline's description, though the specific timing (five days, not a generic \"notice\") is more precisely tied to NRS 40.2516 and 40.2542 for commercial premises specifically (as distinguished from the residential process in NRS 40.253)."
+      },
+      {
+        "heading": "Self-Help / Commercial Lockout",
+        "text": "Nevada continues to permit a form of statutory commercial lockout under NRS 118C.200. A landlord may change the door locks of a commercial tenant delinquent in rent if the landlord gives written notice (by certified mail) of the delinquency and the landlord's intent to change the locks at least three days beforehand, and posts a notice on the front door of the premises identifying where a new key may be obtained during regular business hours (conditioned on payment of overdue rent). A landlord who violates NRS 118C.200 exposes itself to statutory remedies under NRS 118C.210, including recovery of possession or lease termination by the tenant, plus damages of at least one month's rent or $500 (whichever is greater), attorney's fees, and costs, offset by any rent still owed."
+      },
+      {
+        "heading": "Jurisdiction and Venue",
+        "text": "A \"summary\" eviction proceeding under NRS 40.2516/40.2542 seeks possession only; a landlord must file a separate plenary action to recover money damages, though it may do so before or after the summary proceeding. Alternatively, a landlord may pursue a \"formal\" unlawful detainer action combining possession and damages claims in a single suit, with a show-cause hearing available for expedited possession pending trial. These actions are filed in the justice court (or district court for larger claims) in the township/county where the property is located."
+      },
+      {
+        "heading": "Timing",
+        "text": "A summary eviction hearing on a properly filed tenant affidavit is typically calendared quickly, generally within about a week of the contest being filed, given the five-day notice-and-cure/quit structure. A formal eviction proceeding, by contrast, follows ordinary civil litigation timelines and takes materially longer."
+      },
+      {
+        "heading": "Damages",
+        "text": "Nevada does not require an acceleration clause to be separately/specially stated to be enforceable, but a landlord does have a duty to mitigate damages upon abandonment. Under NRS 40.360, in an action for forcible entry or unlawful detainer, the court or jury assesses damages occasioned by the wrongful conduct and, where the unlawful detainer follows a rent default, awards the rent due plus treble (three times) the assessed damages against a defendant found guilty of forcible entry or unlawful detainer."
+      }
+    ],
+    "leaseConsiderations": [
+      "Include an express lockout/self-help notice mechanism consistent with NRS 118C.200 if the landlord wants to preserve that remedy.",
+      "Draft default and cure provisions that track the NRS 40.2516 two-notice (cure, then quit) structure for non-monetary defaults.",
+      "Include an acceleration clause (not statutorily required, but recommended for clarity).",
+      "Address the landlord's mitigation obligations and reletting rights.",
+      "Consider whether to pursue summary eviction (possession only, fast) versus formal eviction (combined possession/damages, slower) and draft remedies language accordingly.",
+      "Include an attorney's fees provision, as fee-shifting is not automatic outside the treble-damages framework of NRS 40.360."
+    ],
+    "sourceNotes": "Statutory authorities reviewed: Nev. Rev. Stat. §§ 40.2516, 40.2542, 40.253, 40.360, 118C.200, 118C.210.\n\n---"
+  },
+  {
+    "state": "New Hampshire",
+    "classification": "Landlord-Friendly",
+    "classificationRaw": "Landlord-Friendly",
+    "sections": [
+      {
+        "heading": "Statutory Notice",
+        "text": "For a nonresidential (commercial) tenant who neglects or refuses to pay rent due and in arrears upon demand, seven days' notice is sufficient. If rent is payable more frequently than once every three months, a notice equal to the rent period is sufficient, and three months' notice is sufficient in all cases. The eviction notice must state with specificity the reason for eviction, and — if based on nonpayment — must inform the tenant of any right to avoid eviction by paying arrearages and liquidated damages under RSA 540:9. N.H. Rev. Stat. Ann. § 540:3."
+      },
+      {
+        "heading": "Self-Help / Commercial Lockout",
+        "text": "Self-help remedies remain unavailable in New Hampshire; a landlord must proceed through judicial eviction. The statutory penalties for unlawful lockouts and utility shutoffs (RSA 540-A) apply to residential premises, but commercial landlords likewise have no self-help remedy and must obtain a writ through the eviction process to regain possession."
+      },
+      {
+        "heading": "Jurisdiction and Venue",
+        "text": "Eviction actions are heard in the New Hampshire circuit court (district division). Because money judgments in an eviction proceeding are capped, a landlord will typically need to pursue lease damages beyond that cap in a separate civil action. N.H. Rev. Stat. Ann. § 540:13."
+      },
+      {
+        "heading": "Timing",
+        "text": "After a writ issues, it is returnable seven days after service, and a tenant has until the return date to file an appearance contesting the eviction. If the tenant appears, the court schedules a hearing within ten days of the appearance being filed. Judgment triggers a seven-day window to note an appeal and thirty days for filing with the New Hampshire Supreme Court. N.H. Rev. Stat. Ann. § 540:13."
+      },
+      {
+        "heading": "Damages",
+        "text": "Damages are generally governed by the lease terms. New Hampshire law does not clearly establish a landlord's duty to mitigate damages specific to commercial leases, though a general contract-law duty to mitigate exists. Any money judgment awarded within the eviction proceeding itself remains capped, without precluding either party from pursuing additional amounts in a separate action."
+      },
+      {
+        "heading": "Special Considerations",
+        "text": "The eviction-proceeding money judgment is limited to a maximum of $1,500 and does not preclude either party from bringing a subsequent claim in a court of competent jurisdiction for amounts exceeding that cap. N.H. Rev. Stat. Ann. § 540:13."
+      },
+      {
+        "heading": "2026 Update Note",
+        "text": "RSA 540:3 was amended by 2024, ch. 9, § 4, effective January 1, 2025. The amendment restructured the notice provisions to separately address residential (30-day, or 7-day for specified lease violations) and nonresidential/commercial (7-day for nonpayment, tracking the rent-period rule) notice periods, and added the requirement that the eviction notice state with specificity the reason for eviction. Commercial landlords and counsel should confirm their notice forms track the current, more detailed content requirements rather than older short-form notices."
+      }
+    ],
+    "leaseConsiderations": [
+      "Contractual notice-and-cure provisions, since RSA 540:3's default commercial notice period (7 days for nonpayment) is brief but content requirements are now more detailed.",
+      "Explicit statement of reasons in any notice to quit, tracking the current statute's specificity requirement.",
+      "Damages/liquidated-damages provisions that anticipate the $1,500 cap on money judgments obtainable within the eviction action itself.",
+      "A separate-action reservation clause preserving the landlord's right to pursue full contract damages outside the eviction proceeding.",
+      "Mitigation language, given the uncertain state of New Hampshire common law on a landlord's duty to mitigate in commercial leases.",
+      "Attorney's fees clause, since fee-shifting is not automatic."
+    ],
+    "sourceNotes": "Statutory authorities reviewed: N.H. Rev. Stat. Ann. §§ 540:2, 540:3, 540:9, 540:13, 540-A; 2024 N.H. Laws ch. 9, § 4 (amending RSA 540:3), effective January 1, 2025.\n\n---"
+  },
+  {
+    "state": "New Jersey",
+    "classification": "Landlord-Friendly",
+    "classificationRaw": "Landlord-Friendly",
+    "sections": [
+      {
+        "heading": "Statutory Notice",
+        "text": "No statutory notice period is required to evict a commercial tenant in default of rent under the Summary Dispossess Act. N.J. Stat. Ann. § 2A:18-53. Written notice to quit is required to remove a commercial holdover tenant. Id. § 2A:18-53. Separately, written notice must be given before disposing of a tenant's abandoned personal property, unless the lease provides otherwise. Id. § 2A:18-72."
+      },
+      {
+        "heading": "Self-Help / Commercial Lockout",
+        "text": "Self-help remains unavailable as a practical matter for commercial landlords in New Jersey. Recovery of possession must proceed through a summary dispossess action in Superior Court followed by a court-issued warrant of removal executed by a court officer; New Jersey courts have not squarely resolved whether a lease provision expressly authorizing self-help would be enforceable, and practitioners continue to treat self-help as a materially litigation-risky path that should not be relied upon."
+      },
+      {
+        "heading": "Jurisdiction and Venue",
+        "text": "A summary dispossession action for possession is filed in the Special Civil Part of the Law Division of the Superior Court in the county where the leased premises is located. Possession is the only remedy available in that proceeding; lease damages must be pursued in a separate lawsuit."
+      },
+      {
+        "heading": "Timing",
+        "text": "Trial in a summary dispossession action is generally scheduled between 10 and 30 days after service of the complaint. After judgment for possession, the landlord must apply for a warrant of removal within 30 days of judgment; the warrant is then executed by a court officer, typically after several days' notice. The overall process commonly takes roughly 60 to 90 days. A separate damages action proceeds on the ordinary civil docket."
+      },
+      {
+        "heading": "Damages",
+        "text": "Acceleration clauses must be expressly stated in the lease to be enforceable. A landlord has a duty to mitigate damages upon a tenant's breach, and the landlord bears the burden of proving reasonable mitigation efforts."
+      },
+      {
+        "heading": "Special Considerations",
+        "text": "If a tenant contests the eviction, courts commonly refer the matter to mediation before setting it for trial. Even after judgment for possession, a commercial tenant retains a statutory right to \"redeem\" the tenancy by paying the rent found owed (as determined by the court or stated in a default judgment certification); a timely redemption permits the tenant to remain. N.J. Stat. Ann. § 2A:18-55. A tenant generally may not appeal a summary dispossession judgment except on jurisdictional grounds. Id. § 2A:18-59."
+      }
+    ],
+    "leaseConsiderations": [
+      "Express, unambiguous notice-to-quit and cure provisions, since the statute itself imposes no default notice period.",
+      "Express acceleration clause, since acceleration is unenforceable absent explicit lease language.",
+      "Mitigation and reletting language, given the landlord's statutory mitigation duty and burden of proof.",
+      "Redemption-rights awareness in drafting default remedies, since a tenant can redeem even after a possession judgment.",
+      "Separate reservation of damages claims, since possession and damages cannot be combined in the summary dispossess proceeding.",
+      "Caution against relying on a lease self-help clause given unresolved New Jersey case law.",
+      "Attorney's fees provision, since fee-shifting is not automatic."
+    ],
+    "sourceNotes": "Statutory authorities reviewed: N.J. Stat. Ann. §§ 2A:18-53, 2A:18-55, 2A:18-59, 2A:18-72.\n\n---"
+  },
+  {
+    "state": "New Mexico",
+    "classification": "Landlord-Friendly",
+    "classificationRaw": "Landlord-Friendly",
+    "sections": [
+      {
+        "heading": "Statutory Notice",
+        "text": "Three days' written notice to quit must be given before a forcible entry or unlawful detainer action may be filed. N.M. Stat. Ann. § 35-10-3."
+      },
+      {
+        "heading": "Self-Help / Commercial Lockout",
+        "text": "New Mexico's Uniform Owner-Resident Relations Act, which restricts self-help remedies (e.g., lockouts, utility shutoffs, seizure of personal property), applies only to residential dwelling units and expressly does not govern commercial tenancies. N.M. Stat. Ann. § 47-8-1 et seq. There is no comparable New Mexico statute governing commercial self-help, and secondary authority on the point is inconsistent. Common-law self-help repossession without breach of the peace has historically been treated as legally uncertain and disfavored by New Mexico courts and practitioners given the litigation risk it creates; landlords are generally advised to proceed judicially. ⚠ Could not independently verify with confidence whether New Mexico case law affirmatively forecloses commercial self-help — confirm current status with local counsel before relying on self-help as a remedy."
+      },
+      {
+        "heading": "Jurisdiction and Venue",
+        "text": "A landlord may recover both possession and damages in a single forcible entry and detainer action. N.M. Stat. Ann. § 35-10-4. The action is filed in the magistrate court or district court for the county where the property is located, but magistrate court jurisdiction is limited to claims of $10,000 or less. Id. § 35-3-3."
+      },
+      {
+        "heading": "Timing",
+        "text": "The case must be heard within 10 days after service of process on the tenant, though the court may continue the matter for up to 10 additional days."
+      },
+      {
+        "heading": "Damages",
+        "text": "Rent acceleration clauses are enforceable. New Mexico does not impose a general statutory duty on a commercial landlord to mitigate damages. If the landlord recovers possession and the tenant appeals to district court, the tenant owes the actual rent accrued through the magistrate court judgment, plus double the rent accruing thereafter through entry of judgment in the district court. N.M. Stat. Ann. § 35-10-5."
+      },
+      {
+        "heading": "Special Considerations",
+        "text": "Where the court finds for the landlord, it customarily awards the rent owed and possession, while allowing the tenant a reasonable period to vacate."
+      }
+    ],
+    "leaseConsiderations": [
+      "Express acceleration clause to ensure enforceability.",
+      "No-mitigation-required language, consistent with the absence of a statutory mitigation duty (subject to any contrary lease terms).",
+      "Caution regarding self-help: given the ambiguous legal landscape, an express, carefully limited self-help clause (peaceable re-entry only) is preferable to relying on undefined common-law rights.",
+      "Clear default/notice provisions building on (or extending) the bare three-day statutory notice.",
+      "Appeal-related rent provisions reflecting the double-rent-on-appeal exposure under § 35-10-5.",
+      "Attorney's fees provision, since fee-shifting is not automatic under the forcible entry and detainer statute."
+    ],
+    "sourceNotes": "Statutory authorities reviewed: N.M. Stat. Ann. §§ 35-3-3, 35-10-3, 35-10-4, 35-10-5, 47-8-1 et seq. (Uniform Owner-Resident Relations Act, residential scope).\n\n---"
+  },
+  {
+    "state": "New York",
+    "classification": "Neutral",
+    "classificationRaw": "Neutral",
+    "sections": [
+      {
+        "heading": "Statutory Notice",
+        "text": "For nonpayment of rent, a landlord must serve a 14-day written rent demand before commencing a nonpayment summary proceeding; the demand must provide a good-faith approximation of the amount owed, the manner in which it may be paid, and the name, address, and contact information of the person to whom payment should be made. N.Y. Real Prop. Acts. Law § 711(2). A holdover proceeding requires a predicate notice terminating the tenancy in accordance with the lease and applicable notice provisions rather than a rent demand."
+      },
+      {
+        "heading": "Self-Help / Commercial Lockout",
+        "text": "New York continues to recognize limited peaceable self-help re-entry for commercial tenancies at common law, where the right is expressly reserved in the lease. A landlord relying on self-help must reenter without force, threats, or breach of the peace (for example, changing locks without confrontation is more likely to be deemed peaceable, while stationing security guards to physically bar a tenant or threatening to call police on a returning tenant has been held to breach the peace and expose the landlord to liability). Given the litigation risk and fact-specific nature of the peaceable-re-entry standard, judicial eviction remains the more reliable and commonly used path even where a lease authorizes self-help."
+      },
+      {
+        "heading": "Jurisdiction and Venue",
+        "text": "Damages may be sought together with possession in a summary proceeding. N.Y. Real Prop. Acts. Law § 601. Commercial summary proceedings are heard in the New York City Civil Court (Commercial/Housing Part, by borough), in District Court in certain counties (e.g., Nassau and Suffolk), or in county, city, town, or village courts of appropriate jurisdiction elsewhere in the state. Id. § 701."
+      },
+      {
+        "heading": "Timing",
+        "text": "After a nonpayment or holdover petition is filed, the notice of petition must be made returnable within a compressed statutory window (generally within about ten days of service, consistent with RPAPL Article 7's expedited summary-proceeding design); if the tenant answers, trial is set on a short timetable. If judgment favors the landlord, the warrant of eviction issues promptly, while a default by the tenant leads to issuance of the warrant on a somewhat longer statutory timeline. N.Y. Real Prop. Acts. Law § 732. Overall, an uncontested case commonly resolves in 30–90 days, while a contested case with defenses or counterclaims can take several months."
+      },
+      {
+        "heading": "Damages",
+        "text": "New York does not impose a general duty on a commercial landlord to mitigate damages. A rent acceleration clause is enforceable when expressly stated in the lease, though case law continues to scrutinize whether the full accelerated amount is recoverable or instead constitutes an unenforceable penalty, particularly where the landlord has relet the premises and effectively received a windfall. Attorney's fees are recoverable only if expressly provided for in the lease."
+      }
+    ],
+    "leaseConsiderations": [
+      "Express, precisely drafted rent demand/notice provisions consistent with RPAPL § 711(2)'s content requirements.",
+      "Explicit self-help/peaceable re-entry clause if the landlord wishes to preserve that remedy, paired with strict internal protocols to avoid a breach-of-the-peace finding.",
+      "Acceleration clause drafted to withstand penalty-clause scrutiny (e.g., present-value discounting, credit for reletting proceeds).",
+      "Attorney's fees provision, since fee-shifting is not automatic.",
+      "No-mitigation-required language, subject to case-law limits on acceleration recovery.",
+      "Clear designation of the proper court/venue for the specific property location given New York's fragmented commercial summary-proceeding jurisdiction."
+    ],
+    "sourceNotes": "Statutory authorities reviewed: N.Y. Real Prop. Acts. Law §§ 601, 701, 711, 732.\n\n---"
+  },
+  {
+    "state": "North Carolina",
+    "classification": "Landlord-Friendly",
+    "classificationRaw": "Landlord-Friendly",
+    "sections": [
+      {
+        "heading": "Statutory Notice",
+        "text": "North Carolina imposes no general statutory notice requirement for commercial evictions where the lease itself addresses default and termination. Where a written or oral lease is silent on when the tenant's right to possession is forfeited for nonpayment, N.C. Gen. Stat. § 42-3 implies a forfeiture of the term if rent is not paid within 10 days after the landlord (or its agent) demands the rent due."
+      },
+      {
+        "heading": "Self-Help / Commercial Lockout",
+        "text": "Commercial landlords in North Carolina retain a common-law self-help remedy. Under § 42-3, once the implied 10-day forfeiture period following a rent demand has passed (where the lease is silent on the point), the landlord may reenter and dispossess the tenant without first declaring a forfeiture or having reserved a reentry right in the lease — most commonly accomplished by peaceably padlocking the premises. Any reentry must be peaceable; North Carolina courts construe \"breach of the peace\" broadly, so that virtually any tenant objection at the scene forecloses self-help and leaves summary ejectment through the courts as the landlord's only safe remedy."
+      },
+      {
+        "heading": "Jurisdiction and Venue",
+        "text": "A landlord may pursue a summary ejectment action seeking possession and damages together, or possession first with damages later. N.C. Gen. Stat. § 42-28. District courts have a $25,000 jurisdictional limit for civil claims generally, which governs the damages a summary ejectment action filed in district court may include. N.C. Gen. Stat. § 7A-243. This corrects the 2022 baseline, which cited a $10,000 limit; that figure was superseded well before the baseline was written — the limit was raised from $10,000 to $25,000 by S.L. 2013-159, effective for actions filed on or after August 1, 2013 — so this is a correction of a stale citation rather than a 2023–2026 change. The action must be filed in the county where the property is located."
+      },
+      {
+        "heading": "Timing",
+        "text": "After the complaint is filed, the clerk of superior court issues a summons requiring the tenant to appear within a period not exceeding seven days from issuance, excluding weekends and legal holidays. N.C. Gen. Stat. § 42-28. If the tenant fails to appear or is defaulted, the landlord may obtain a writ of possession, which the sheriff must execute within a matter of days of receipt. Id. § 42-36.2."
+      },
+      {
+        "heading": "Damages",
+        "text": "Rent acceleration clauses are enforceable, but a landlord has a duty to mitigate damages once it regains possession of the premises."
+      },
+      {
+        "heading": "Special Considerations",
+        "text": "In a summary ejectment action based on nonpayment of rent, the proceeding is stayed or discontinued if the tenant pays or tenders the rent due plus court costs before judgment. N.C. Gen. Stat. § 42-33."
+      }
+    ],
+    "leaseConsiderations": [
+      "Express default and forfeiture provisions to avoid reliance on the § 42-3 implied 10-day/demand default rule.",
+      "Explicit self-help clause reserving the reentry right, understanding that any tenant objection at the scene will likely defeat peaceable self-help.",
+      "Rent acceleration clause paired with mitigation/reletting language given the landlord's mitigation duty.",
+      "Provisions addressing the interplay between the cure-by-tender right (§ 42-33) and any acceleration remedy the landlord wants to preserve.",
+      "Awareness of the $25,000 district-court jurisdictional limit when structuring combined possession/damages claims.",
+      "Attorney's fees provision, since fee-shifting is not automatic."
+    ],
+    "sourceNotes": "Statutory authorities reviewed: N.C. Gen. Stat. §§ 7A-243, 42-3, 42-28, 42-33, 42-36.2; S.L. 2013-159 (raising the district court jurisdictional limit to $25,000, effective August 1, 2013 — a correction to the stale $10,000 figure in the 2022 baseline, not a 2023–2026 change).\n\n---"
+  },
+  {
+    "state": "North Dakota",
+    "classification": "Neutral",
+    "classificationRaw": "Neutral",
+    "sections": [
+      {
+        "heading": "Statutory Notice",
+        "text": "Three days' written notice must be given before an eviction proceeding may be initiated. N.D. Cent. Code Ann. § 47-32-02."
+      },
+      {
+        "heading": "Self-Help / Commercial Lockout",
+        "text": "Self-help remedies remain unavailable in North Dakota; a landlord must proceed through the statutory eviction action to regain possession."
+      },
+      {
+        "heading": "Jurisdiction and Venue",
+        "text": "An eviction action for a holdover or material lease breach may be maintained in the appropriate district court, and possession and damages may be awarded in the same proceeding. N.D. Cent. Code Ann. §§ 47-32-01, 47-32-04, 47-16-13.4."
+      },
+      {
+        "heading": "Timing",
+        "text": "The eviction hearing must be held between three and fifteen days after the eviction action is served on a tenant within the county, or seven to fifteen days for a tenant served outside the county. N.D. Cent. Code Ann. § 47-32-02. Once the court issues an eviction order, the landlord may use it to have the tenant immediately removed, though a tenant may be granted up to five additional days to vacate upon a showing of substantial hardship. Id. § 47-32-04."
+      },
+      {
+        "heading": "Damages",
+        "text": "An evicted commercial tenant remains liable for rent for the remainder of the lease term, subject to the landlord's duty to mitigate damages. N.D. Cent. Code Ann. § 47-16-13.7. Reasonable attorney's fees are recoverable. Id. § 47-16-13.6."
+      },
+      {
+        "heading": "Special Considerations",
+        "text": "If a landlord accepts rent after lease expiration, the lease is presumed renewed on the same terms for the same term length, up to one year. N.D. Cent. Code Ann. § 47-16-06. Abandoned property worth less than $2,500 may be kept or disposed of 28 days after the tenant vacates. Id. § 47-16-30.1. Separately, North Dakota enacted a new eviction-record-sealing mechanism (2025 S.B. 2238) allowing a tenant to petition to seal an eviction record seven years after satisfying a judgment for nonpayment or property damage (or immediately in domestic-violence-related cases); this is a court-records/tenant-screening measure rather than a change to the commercial eviction process itself, and does not alter the notice, self-help, jurisdiction, timing, or damages framework above."
+      }
+    ],
+    "leaseConsiderations": [
+      "Explicit default and notice provisions building on the bare three-day statutory notice.",
+      "Mitigation and reletting language, given the landlord's statutory mitigation duty.",
+      "Attorney's fees clause, consistent with and reinforcing the statutory fee-shifting right.",
+      "Hold-over/renewal language addressing the statutory presumption of renewal upon acceptance of rent after lease expiration.",
+      "Abandoned-property disposition provisions coordinated with the 28-day/$2,500 statutory default rule.",
+      "No self-help clause reliance, since self-help is unavailable by statute."
+    ],
+    "sourceNotes": "Statutory authorities reviewed: N.D. Cent. Code Ann. §§ 47-16-06, 47-16-13.4, 47-16-13.6, 47-16-13.7, 47-16-30.1, 47-32-01, 47-32-02, 47-32-04; 2025 N.D. Laws (S.B. 2238, eviction-record sealing, not core to commercial process).\n\n---"
+  },
+  {
+    "state": "Ohio",
+    "classification": "Neutral",
+    "classificationRaw": "Neutral",
+    "sections": [
+      {
+        "heading": "Statutory Notice",
+        "text": "Three days' statutory notice to leave the premises is required before a forcible entry and detainer action may be filed. Ohio Rev. Code Ann. § 1923.04."
+      },
+      {
+        "heading": "Self-Help / Commercial Lockout",
+        "text": "Ohio continues to permit commercial self-help repossession at common law, distinct from the residential Landlord-Tenant Act's prohibition on non-judicial evictions. A landlord may use self-help where: the tenant is holding over unlawfully or in breach of the lease; the landlord has given notice of termination or an opportunity to cure; the lease itself provides for self-help repossession; and the repossession is accomplished without a breach of the peace. Ohio courts have reasoned that the legislature's choice to prohibit self-help in residential settings while enacting no comparable prohibition for commercial leases weighs against treating commercial self-help provisions as void on public-policy grounds (see Northfield Park Assocs. v. Northeast Ohio Harness, 36 Ohio App. 3d 14 (Cuyahoga Cty. 1987))."
+      },
+      {
+        "heading": "Jurisdiction and Venue",
+        "text": "A forcible entry and detainer action may include a claim for damages under the lease, although the court may, for good cause, continue the trial of the damages claim separately from the possession claim. Ohio Rev. Code Ann. § 1923.081."
+      },
+      {
+        "heading": "Timing",
+        "text": "Most courts schedule a hearing between roughly fourteen and twenty-one days after the complaint is filed. If judgment favors the landlord, the court issues a writ of restitution, which must be executed within ten days of issuance."
+      },
+      {
+        "heading": "Damages",
+        "text": "A landlord has a duty to mitigate damages. Acceleration clauses are generally enforceable if expressly provided for in the lease agreement."
+      },
+      {
+        "heading": "2026 Update Note",
+        "text": "Effective April 9, 2025, Ohio S.B. 237 (135th General Assembly) amended R.C. Chapter 1923, including §§ 1923.01 and 1923.05. The amendments expand forcible entry and detainer grounds to include a tenant financially responsible for, and in default on, municipally provided utility service, and add a protection barring an eviction action from naming a minor tenant as a defendant where a parent or adult guardian is also named, with dismissal and fee-shifting to the minor tenant as a remedy for violation. These changes are directed principally at residential/utility and minor-tenant scenarios and do not materially alter the commercial notice, self-help, jurisdiction, timing, or damages framework described above, but commercial landlords and counsel should be aware the underlying chapter was amended in 2025."
+      }
+    ],
+    "leaseConsiderations": [
+      "Express self-help clause with notice-and-cure mechanics tracking the Northfield Park factors (termination/cure notice, lease authorization, peaceable execution).",
+      "Acceleration clause expressly stated in the lease to ensure enforceability.",
+      "Mitigation and reletting language, given the landlord's statutory mitigation duty.",
+      "Coordination of possession and damages claims, anticipating that a court may bifurcate and continue the damages portion for good cause.",
+      "Attorney's fees provision, since fee-shifting is not automatic outside the narrow minor-tenant-defendant scenario added in 2025.",
+      "Contractual notice periods tailored to the business, since three days is a bare statutory minimum."
+    ],
+    "sourceNotes": "Statutory authorities reviewed: Ohio Rev. Code Ann. §§ 1923.01, 1923.04, 1923.05, 1923.081; Northfield Park Assocs. v. Northeast Ohio Harness, 36 Ohio App. 3d 14, 521 N.E.2d 466 (Cuyahoga Cty. 1987); 2025 Ohio S.B. 237 (135th Gen. Assemb.), effective April 9, 2025.\n\n---"
+  },
+  {
+    "state": "Oklahoma",
+    "classification": "Landlord-Friendly",
+    "classificationRaw": "Landlord-Friendly",
+    "sections": [
+      {
+        "heading": "Statutory Notice",
+        "text": "No notice to quit is required when the lease specifies a termination date. Okla. Stat. Ann. tit. 41, § 8. Where a tenant neglects or refuses to pay rent due for a period of three months or longer, ten days' written notice to quit is required before the lease is deemed terminated, unless the rent is paid within that period. Id. § 6. A lease provision expressly waiving the requirement of a demand or notice to quit remains enforceable under Oklahoma case law."
+      },
+      {
+        "heading": "Self-Help / Commercial Lockout",
+        "text": "Self-help remains prohibited in Oklahoma; the statutory forcible entry and detainer procedure is the exclusive method for regaining possession."
+      },
+      {
+        "heading": "Jurisdiction and Venue",
+        "text": "Claims for collection of rent or property damage may be joined with an action for possession in district court. Okla. Stat. Ann. tit. 12, § 1148.1. The action may proceed on the district court's small claims docket where the amount in controversy does not exceed the small-claims jurisdictional amount ($10,000). Id. §§ 1148.14, 1751. A landlord may instead pursue possession and damages in separate proceedings, and local counsel commonly recommends filing a separate damages action."
+      },
+      {
+        "heading": "Timing",
+        "text": "After an action is filed, the summons requires the tenant to appear at trial; under 2025 amendments, the summons must generally be served at least seven days before trial (increased from three), with the return day no later than the trial date. Okla. Stat. Ann. tit. 12, § 1148.5. Separately, for actions under Title 41, § 132(C)–(D), the summons period runs not less than five nor more than ten days from issuance. Id. §§ 1148.4, 1148.16. After a writ of possession issues, the tenant receives 48 hours' notice to vacate. Id. § 1148.10A."
+      },
+      {
+        "heading": "Damages",
+        "text": "Collection of rent, damages to the premises, restitution for unlawful possession by a holdover or forcible-possession tenant, and reasonable attorney's fees may be recovered by the prevailing party. Okla. Stat. Ann. tit. 12 §§ 1148.1, 1148.2, 1148.9. As a general rule, future (unaccrued) rent cannot be collected where the landlord retakes possession, absent contrary lease provision addressing damages."
+      },
+      {
+        "heading": "Special Considerations",
+        "text": "If a landlord accepts rent after a lease expires, the lease is presumed to have renewed on the same terms and for the same term length, up to one year. Okla. Stat. Ann. tit. 41, § 35. Where a tenant abandons or is evicted and leaves personal property behind, the landlord may take possession of the property 10 days after mailing notice, or 10 days after the tenant is personally served with notice; if the tenant does not reclaim the property or indicate an intent to do so, the landlord may sell it at public sale, subject to the tenant paying all outstanding rent and damages before any return of the property. Id. § 52."
+      },
+      {
+        "heading": "2026 Update Note",
+        "text": "Effective November 1, 2025, Oklahoma S.B. 128 amended 12 Okla. Stat. §§ 1148.4, 1148.5, 1148.5A, and 1148.16, principally by extending the minimum period between service of summons and trial from three days to seven days, and by requiring the summons form to be developed in plain, understandable language by the Oklahoma Bar Association. Commercial landlords and counsel should build the longer minimum service-to-trial window into eviction timelines going forward."
+      }
+    ],
+    "leaseConsiderations": [
+      "Express lease-term-expiration language to avoid triggering the ten-days'-notice-for-nonpayment default rule where a fixed term is intended to control.",
+      "Express waiver of demand/notice-to-quit requirements where the landlord wants to shorten the pre-filing runway, consistent with enforceable waiver case law.",
+      "Future-rent/liquidated damages provision, since future rent is not recoverable by default upon repossession absent contrary lease language.",
+      "Attorney's fees provision, reinforcing the statutory fee-shifting right.",
+      "Abandoned-property disposition provisions coordinated with the 10-day notice/public-sale statutory framework.",
+      "Awareness of the extended (now seven-day) minimum summons-to-trial period from the 2025 amendment when projecting possession timelines.",
+      "Hold-over/renewal language addressing the statutory presumption of renewal upon post-expiration rent acceptance."
+    ],
+    "sourceNotes": "Statutory authorities reviewed: Okla. Stat. Ann. tit. 41, §§ 6, 8, 35, 52; tit. 12, §§ 1148.1, 1148.2, 1148.4, 1148.5, 1148.5A, 1148.9, 1148.10A, 1148.14, 1148.16, 1751; 2025 Okla. S.B. 128, effective November 1, 2025."
+  }
+]

@@ -1,0 +1,239 @@
+### Alabama — Landlord-Friendly
+
+**Statutory Notice.** A landlord must give a tenant who defaults on any lease term a ten-day statutory notice to quit before commencing an unlawful detainer action. Ala. Code § 35-9-6.
+
+**Self-Help / Commercial Lockout.** Self-help remedies (lockouts, seizure of premises without judicial process) remain unavailable in Alabama. Ala. Code § 6-6-317.
+
+**Jurisdiction and Venue.** District and circuit courts have jurisdiction over eviction actions according to their respective statutory jurisdictional amounts, and venue lies in the county where the leased property is located. Ala. Code § 35-9A-461(b). District courts retain a $20,000 damages jurisdictional limit, Ala. Code § 12-11-30(1), so a commercial landlord seeking damages beyond that amount must pursue a separate or supplemental claim in circuit court (including on appeal).
+
+**Timing.** After the notice period expires, the landlord serves a summons and complaint. Ala. Code § 35-9-6. A tenant has 14 days to respond for nonpayment of rent and 7 days to respond for other grounds; the tenant then has 7 days to appeal an adverse ruling, after which the landlord may obtain a writ of possession. Ala. Code § 35-9A-461(d). Eviction actions receive scheduling precedence over other civil cases, and on appeal to circuit court the case is set for trial within 60 days of the appeal filing. Ala. Code § 6-6-350.
+
+**Damages.** Eviction and repossession generally terminate the lease and the landlord's right to post-eviction rent, but the parties may contract to hold the tenant liable for rent accruing after eviction, and Alabama courts enforce express acceleration clauses. Landlords have no statutory duty to mitigate damages. A tenant who unlawfully holds over after lease expiration may be liable for double rent. Ala. Code § 6-6-314.
+
+**Special Considerations.** An appeal from a district court eviction judgment must be filed within seven days and is entitled to preferred trial scheduling in circuit court, but a tenant's appeal does not stay the writ of possession unless the tenant pays into court all rent due under the lease and continues paying rent as it accrues during the appeal. Ala. Code §§ 6-6-350, 35-9A-461(d).
+
+**Key Commercial Lease Drafting Considerations.**
+- Express acceleration-of-rent clause, since Alabama will not imply one.
+- Express post-eviction/post-repossession rent liability language, since termination otherwise cuts off future rent.
+- No reliance on self-help; build in judicial-process timelines for default scenarios.
+- Contractual notice/cure periods tailored to the tenant's typical default patterns (statute sets only a 10-day floor).
+- Anticipate a bifurcated forum: possession in district court capped at $20,000, larger damages claims in circuit court.
+- Double-rent holdover language to reinforce the statutory holdover remedy.
+- Attorney's fees provision, since fee-shifting is not automatic.
+- Appeal-bond/rent-deposit mechanics to preserve possession pending a tenant's appeal.
+
+**Source Notes.** Statutory authorities reviewed: Ala. Code §§ 35-9-6, 35-9A-461(b), (d), 12-11-30(1), 6-6-317, 6-6-314, 6-6-350. No material 2023–2026 amendments to these commercial eviction provisions were identified; citations and substance were confirmed against current Alabama Code text.
+
+---
+
+### Alaska — Neutral
+
+**Statutory Notice.** A landlord must give the tenant written notice to quit before commencing an action to recover possession. Alaska Stat. § 34.03.220(b). For nonpayment of rent, the landlord may proceed after 7 days' notice; for non-monetary lease violations, a 10-day notice is required. Alaska Stat. §§ 34.03.220(b), 09.45.090(b)(2)(A). Notice may be delivered personally, left at the premises, or sent by registered or certified mail, and 3 days are added to the notice period when service is by mail. Alaska Stat. §§ 09.45.100, 09.45.090(c).
+
+**Self-Help / Commercial Lockout.** Where the lease so provides, a landlord may re-enter for nonpayment of rent, but any self-help re-entry must be peaceable. Alaska Stat. §§ 09.45.690, 09.45.060. A landlord may not seize a tenant's property to satisfy rent. Alaska Stat. § 34.03.250.
+
+**Jurisdiction and Venue.** Possession is recovered through an unlawful detainer action. Alaska Stat. § 09.45.070. District court has jurisdiction where arrears and property damage do not exceed $100,000; larger claims proceed in superior court. Alaska Stat. §§ 22.15.030(a)(6), (b), 22.10.020.
+
+**Timing.** A possession hearing is typically set within about two weeks of filing; damages claims proceed in the ordinary course of litigation and do not receive priority docketing.
+
+**Damages.** Acceleration-of-rent clauses are enforceable where expressly provided; absent such a clause, a landlord should mitigate by seeking a replacement tenant. A tenant who pays all arrears, interest, and costs before judgment and cures other lease breaches may be entitled to continue in possession unless the lease provides otherwise. Alaska Stat. § 09.45.690.
+
+**Key Commercial Lease Drafting Considerations.**
+- Express, unambiguous re-entry/self-help clause if the landlord wants to preserve that remedy — it is contract-dependent, not automatic.
+- Reinforce that any self-help must remain peaceable to avoid tort exposure.
+- Express acceleration clause, since none is implied.
+- Mitigation language allocating responsibility for reletting efforts.
+- Address the statutory reinstatement right (payment of arrears cures default) if the landlord wants to limit or condition it contractually.
+- Specify notice delivery method in the lease to avoid the statutory 3-day mail extension where speed matters.
+- Distinguish monetary (7-day) vs. non-monetary (10-day) default notice triggers in default provisions.
+- Anticipate venue/forum depending on claim size ($100,000 threshold between district and superior court).
+
+**Source Notes.** Statutory authorities reviewed: Alaska Stat. §§ 34.03.220(b), 34.03.250, 09.45.060, 09.45.070, 09.45.090(b)(2)(A), (c), 09.45.100, 09.45.690, 22.10.020, 22.15.030(a)(6), (b). No material 2023–2026 legislative amendments specific to commercial forcible entry and detainer or the Alaska Landlord and Tenant Act's commercial provisions were identified in current searches.
+
+---
+
+### Arizona — Landlord-Friendly
+
+**Statutory Notice.** A landlord must give a written demand to quit and wait five days before pursuing self-help or a forcible detainer action. Ariz. Rev. Stat. § 12-1173(2).
+
+**Self-Help / Commercial Lockout.** Arizona continues to permit commercial self-help. Where a tenant fails to pay rent for five days, the landlord may re-enter and take possession without further formal demand. Ariz. Rev. Stat. § 33-361(A). If rent remains unpaid, the landlord also holds a statutory lien and may seize as much of the tenant's on-premises personal property as necessary to secure the rent, subject to procedural requirements (notice periods and, ultimately, a public sale) and the exclusion of property belonging to third parties or otherwise exempt by law. Ariz. Rev. Stat. § 33-361(D); see also Ariz. Rev. Stat. § 33-1023 (sale procedure). Separately, a landlord may pursue prejudgment attachment of a tenant's assets for lease breaches under Ariz. Rev. Stat. § 12-2401 et seq.
+
+**Jurisdiction and Venue.** The court in a forcible detainer action may determine possession and simultaneously assess damages, attorney's fees, and costs, or the landlord may bring a separate action for unpaid rent and damages. Ariz. Rev. Stat. § 33-361(B). Justice courts have concurrent jurisdiction with superior court for amounts of $10,000 or less, Ariz. Rev. Stat. § 22-201(C), while superior court has jurisdiction over forcible entry and detainer actions regardless of amount. Ariz. Const. art. VI, § 14(5).
+
+**Timing.** A forcible entry and detainer action must be tried not less than five nor more than thirty days after commencement. Ariz. Rev. Stat. § 33-361. No writ of restitution issues until five days after judgment, but once issued it is enforced promptly. Ariz. Rev. Stat. § 12-1178(C).
+
+**Damages.** Courts may award all charges due under the rental agreement plus damages, attorney's fees, and costs. An acceleration clause must be express to be enforceable, and landlords have no duty to mitigate. Ariz. Rev. Stat. § 33-361(D).
+
+**Special Considerations.** Any party may appeal within five days of judgment, but must pay into court the rent due and continue paying rent as it accrues during the appeal. Ariz. Rev. Stat. § 12-1179(A), (D). Separately, effective 2026, S.B. 1426 amended Ariz. Rev. Stat. §§ 12-1171 and 12-1173 to create an expedited forcible detainer track for removing unauthorized occupants ("squatters") who never had a landlord-tenant relationship; the bill expressly does not alter existing landlord-tenant rights and remedies and does not apply to current or former tenants, so it has no effect on standard commercial lease enforcement.
+
+**Key Commercial Lease Drafting Considerations.**
+- Express lockout/self-help procedures consistent with § 33-361(A) to preserve the landlord's non-judicial remedy.
+- Landlord's lien and property-seizure mechanics referenced or clarified in the default section.
+- Express acceleration clause, since none is implied.
+- No mitigation obligation by default — consider whether to impose one contractually.
+- Attorney's fees and costs provision to support fee recovery alongside possession.
+- Consider whether to reserve the right to a separate damages action versus combining claims in the forcible detainer proceeding.
+- Appeal bond/rent-deposit provisions consistent with the five-day appeal window.
+- Confirm tenant status is unambiguous in the lease, since squatter-focused expedited procedures under S.B. 1426 are unavailable against actual tenants.
+
+**Source Notes.** Statutory authorities reviewed: Ariz. Rev. Stat. §§ 12-1173(2), 12-1178(C), 12-1179(A), (D), 12-2401 et seq., 22-201(C), 33-361(A), (B), (D), 33-1023; Ariz. Const. art. VI, § 14(5); S.B. 1426 (2026), amending Ariz. Rev. Stat. §§ 12-1171, 12-1173, effective 2026 (expedited unauthorized-occupant procedure; does not alter landlord-tenant remedies).
+
+---
+
+### Arkansas — Landlord-Friendly
+
+**Statutory Notice.** A landlord must give the tenant a ten-day notice to quit. Ark. Code Ann. § 18-16-101(b)(1).
+
+**Self-Help / Commercial Lockout.** Self-help is not available in Arkansas. Ark. Code Ann. § 18-60-302.
+
+**Jurisdiction and Venue.** A landlord may seek both possession and damages in the same unlawful detainer proceeding, filed in circuit court in the county where the property is located. Ark. Code Ann. § 18-60-306.
+
+**Timing.** If the tenant does not file a written objection to the claim for possession within five days after service of the complaint, the clerk must immediately issue a writ of possession without delay. Ark. Code Ann. § 18-60-307(b).
+
+**Damages.** Upon judgment for the landlord, the court assesses rent due through judgment, and if the tenant remains in possession more than 24 hours after service of a writ of possession, the court may order the tenant's possessions applied to satisfy any money judgment. Ark. Code Ann. § 18-60-310(c)(1), (3). Where the property is used for commercial (or mixed residential/commercial) purposes, the landlord is entitled to liquidated damages of three times the monthly rental value for the period of unlawful detention. Ark. Code Ann. § 18-60-309(b)(2). Arkansas imposes no express statutory duty to mitigate.
+
+**Special Considerations.** If the lease provides for acceleration of rent or termination of possession without termination of the lease itself, the landlord may pursue rent through the end of the lease term following eviction.
+
+**Key Commercial Lease Drafting Considerations.**
+- Express acceleration clause and/or "termination of possession without termination of lease" language to preserve post-eviction rent claims.
+- No statutory mitigation duty — consider whether to impose one, since courts may otherwise decline to require it.
+- Combined possession-and-damages pleading is available in a single circuit court action — align lease remedies provisions accordingly.
+- Contractual notice periods, since the ten-day statutory notice is a floor that parties may lengthen (but should not shorten below the statute).
+- Reinforce the triple-rent commercial holdover remedy in default/holdover provisions to make tenants aware of the enhanced exposure.
+- Attorney's fees provision, since fee-shifting is not automatic under these sections.
+- Provisions addressing disposition of tenant property left behind after a writ of possession is executed.
+
+**Source Notes.** Statutory authorities reviewed: Ark. Code Ann. §§ 18-16-101(b)(1), 18-60-302, 18-60-306, 18-60-307(b), 18-60-309(a), (b)(2), 18-60-310(c)(1), (3). No material 2023–2026 amendments to Arkansas's unlawful detainer statutes affecting commercial tenancies were identified.
+
+---
+
+### Colorado — Neutral
+
+**Statutory Notice.** Colorado requires at least three days' written notice after a tenant's default before an eviction action may proceed; a lease may require earlier notice but may not waive the three-day minimum. Colo. Rev. Stat. § 13-40-104 (unlawful detention; formerly cited by some sources as Title 12, now codified in Title 13's Forcible Entry and Detainer article).
+
+**Self-Help / Commercial Lockout.** Colorado prohibits self-help exclusion or removal of a tenant except by mutual consent or where the unit has been abandoned. Colo. Rev. Stat. § 38-12-510.
+
+**Jurisdiction and Venue.** Possession actions may be filed in county or district court in the county where the property is located; claims involving monthly rent exceeding $25,000 must be certified to district court, and county courts otherwise have jurisdiction over rent/damages claims and counterclaims up to $25,000 (exclusive of costs and fees). Colo. Rev. Stat. § 13-40-109. Damages and possession claims must be filed separately.
+
+**Timing.** If a tenant fails to comply with a written demand for compliance or possession, the court issues a summons for a hearing set between seven and fourteen days after issuance.
+
+**Damages.** A landlord may recover the difference between the rent reserved under the lease and the reasonable rental value of the premises for the balance of the term, plus consequential damages, provided the landlord fulfills its duty to mitigate.
+
+**Special Considerations.** Colorado enacted significant tenant-protection legislation in 2024–2026 — including H.B. 24-1098 (requiring "cause" for eviction of a residential tenant, effective April 19, 2024) and H.B. 25-1168 (housing protections and rent-repayment-plan requirements for victim-survivors of domestic violence and related abuse, effective August 6, 2025) — but both measures are expressly limited to residential tenancies and dwelling units and do not alter the commercial forcible entry and detainer framework described above.
+
+**Key Commercial Lease Drafting Considerations.**
+- Contractual notice periods may exceed but not shorten the three-day statutory minimum.
+- No self-help — build default enforcement around judicial process and abandonment/mutual-consent exceptions.
+- Express mitigation-of-damages language, since Colorado imposes a duty to mitigate as a matter of law.
+- Plan for separately filed possession and damages actions, and address venue if monthly rent may exceed $25,000.
+- Liquidated/acceleration damages provisions tied to the "loss of bargain" measure (contract rent less reasonable rental value) to reduce proof burdens at trial.
+- Attorney's fees and cost-shifting provisions, since none is implied.
+- Confirm the tenancy is genuinely commercial in the lease recitals, since recent residential-only reforms (just-cause eviction, victim-survivor protections) create risk if a mixed-use classification is contested.
+
+**Source Notes.** Statutory authorities reviewed: Colo. Rev. Stat. §§ 13-40-104, 13-40-109, 38-12-510; H.B. 24-1098 (2024), effective April 19, 2024 (residential just-cause eviction; does not apply to commercial tenancies); H.B. 25-1168 (2025), effective August 6, 2025 (residential victim-survivor housing protections; does not apply to commercial tenancies).
+
+---
+
+### Connecticut — Neutral
+
+**Statutory Notice.** Where a commercial tenant defaults on rent or breaches the lease, the landlord must give three days' notice to quit before terminating the rental agreement or the time specified for the tenant to quit possession. Conn. Gen. Stat. § 47a-23. If the tenant remains after the notice period, a court commissioner may issue a writ, summons, and complaint. Conn. Gen. Stat. § 47a-23a. If the tenant's whereabouts are unknown, notice by publication (at least twice, at least ten days before the quit date) suffices. Conn. Gen. Stat. § 47a-23b. Connecticut also maintains a separate provision specifically addressing eviction of tenants and occupants from commercial property and disposition of property left behind. Conn. Gen. Stat. § 47a-42a.
+
+**Self-Help / Commercial Lockout.** Self-help methods such as lockouts remain unavailable to Connecticut commercial landlords. Connecticut's entry and detainer statute makes it unlawful for a landlord to retake possession from a tenant holding over by force or a breach of the peace, and a landlord has no right to regain possession from a tenant by self-help even where the tenant is unlawfully holding over. Conn. Gen. Stat. § 47a-43 (Chapter 833, Entry and Detainer).
+
+**Jurisdiction and Venue.** Summary process actions must be brought in the geographical judicial district where the premises are located, or, for a corporate defendant, where it maintains an office or place of business; if the defendant is a nonresident, venue lies where the plaintiff resides or where the land lies, at the plaintiff's election. Conn. Gen. Stat. § 47a-23a.
+
+**Timing.** If the tenant has not vacated by the date specified in the notice to quit, the landlord may have a summons and complaint served. The defendant has two days after the return date to appear; absent an appearance by the third day after the return date, the landlord may move for default judgment.
+
+**Damages.** A landlord who terminates a commercial tenancy following the tenant's breach has a duty to mitigate and cannot also recover rent due under the full lease term; but a landlord who declines to accept surrender and instead sues for rent as it comes due (without terminating the tenancy) has no duty to mitigate.
+
+**Special Considerations.** Connecticut adopted eviction-record-sealing legislation in 2024 (limiting public access to certain dismissed/withdrawn/tenant-prevailing eviction case records) and expanded "just cause"/good-cause protections for specified residential tenant categories effective October 1, 2024; both measures are residential-focused and do not extend good-cause eviction protections to commercial tenancies. A broader residential "just cause" bill (S.B. 143, 2024) was not enacted.
+
+**Key Commercial Lease Drafting Considerations.**
+- Express notice-and-cure provisions, since the statutory three-day quit notice is a floor.
+- No self-help — rely on judicial summary process for all removals.
+- Mitigation-of-damages strategy: consider a "no-termination, sue-as-rent-comes-due" remedies clause to preserve full lease-term rent recovery without a mitigation duty, alongside a standard termination-and-relet remedy.
+- Venue provisions consistent with the judicial-district rules, particularly for out-of-state corporate or nonresident tenants.
+- Attorney's fees provision, since fee-shifting is not automatic.
+- Address disposition of tenant property left on commercial premises post-eviction, referencing § 47a-42a.
+- Default/appearance timeline awareness (two-day appearance window) when drafting notice/cure mechanics that anticipate litigation speed.
+
+**Source Notes.** Statutory authorities reviewed: Conn. Gen. Stat. §§ 47a-23, 47a-23a, 47a-23b, 47a-42a, Chapter 832 generally. 2024 Connecticut legislation on eviction-record sealing and expanded good-cause protections for certain residential tenant categories (effective October 1, 2024) reviewed and confirmed inapplicable to commercial tenancies; S.B. 143 (2024 broader just-cause bill) was not enacted.
+
+---
+
+### Delaware — Neutral
+
+**Statutory Notice.** Commercial rental units are expressly excluded from Delaware's Residential Landlord-Tenant Code; all rights, remedies, and obligations under a commercial rental agreement are governed by general contract principles, and only Chapter 57 (Summary Possession) and Part IV of Title 25 apply to commercial rental agreements. Del. Code Ann. tit. 25, § 5101(b). A summary possession action may proceed on grounds including those set by the commercial rental agreement itself. Del. Code Ann. tit. 25, § 5702(10). Notice of the summary possession complaint must be served at least five days and not more than thirty days before the hearing. Del. Code Ann. tit. 25, § 5705.
+
+**Self-Help / Commercial Lockout.** Delaware does not recognize self-help as an available commercial eviction remedy; recovery of possession from a commercial tenant must proceed through the Chapter 57 summary possession action.
+
+**Jurisdiction and Venue.** Summary possession actions are heard by the Justice of the Peace Court in the county where the premises are located. Del. Code Ann. tit. 25, § 5701.
+
+**Timing.** The action commences by filing a complaint for possession; hearing timing follows the notice window in § 5705 and is otherwise court-dependent. Del. Code Ann. tit. 25, § 5704.
+
+**Damages.** Upon judgment for the landlord, the court awards costs to the prevailing party, and for claims based on forcible entry or forcible holding out, the court may award a fixed sum as damages in addition to costs. Del. Code Ann. tit. 25, § 5711. An acceleration clause must be expressly stated to be enforceable, and because commercial tenancies are governed by contract principles, the lease itself must specify whether the landlord may collect rent as contract damages after eviction. Delaware law imposes a duty to mitigate damages.
+
+**Special Considerations.** Because commercial tenancies sit outside the Residential Landlord-Tenant Code, drafters cannot rely on Code default rules to fill lease gaps — the written lease effectively is the governing law on notice, cure, damages, and remedies, subject only to the Chapter 57 court procedure.
+
+**Key Commercial Lease Drafting Considerations.**
+- Comprehensive, self-contained default/notice/cure provisions — Delaware's contract-principles approach means gaps are not filled by residential-code protections.
+- Express acceleration-of-rent and post-eviction damages clauses, since none is implied.
+- Mitigation language, since Delaware imposes a duty to mitigate as a matter of law.
+- No self-help remedy — build enforcement around the Chapter 57 Justice of the Peace Court process.
+- Attorney's fees and cost-shifting provisions.
+- Confirm the "commercial rental unit" characterization is unambiguous in the lease to avoid inadvertent application of residential-code provisions.
+- Notice timing consistent with the 5–30 day window under § 5705 for any summary possession filing.
+
+**Source Notes.** Statutory authorities reviewed: Del. Code Ann. tit. 25, §§ 5101(b), 5701, 5702(10), 5704, 5705, 5711. Delaware's 2024 residential eviction diversion program (§ 5702A, mandatory mediation for residential filings on/after July 1, 2024) was reviewed and confirmed to apply only to residential summary possession filings, not commercial.
+
+---
+
+### District of Columbia — Tenant-Friendly
+
+**Statutory Notice.** A commercial month-to-month or quarter-to-quarter tenancy may be terminated by 30 days' written notice from the landlord to the tenant to quit (by contrast, only the tenant — not the landlord — may unilaterally terminate a residential month-to-month tenancy under this section), with the notice period expiring on the first day of the first month at least 30 days after the date of the notice. D.C. Code § 42-3202. The parties may agree to a longer or shorter notice period, or waive the notice requirement, in the lease. D.C. Code § 42-3208.
+
+**Self-Help / Commercial Lockout.** Self-help is not available in the District of Columbia.
+
+**Jurisdiction and Venue.** An action for possession may be filed in the Superior Court of the District of Columbia, and the landlord may seek rent in arrears together with possession, or file separate suits for possession and damages, which may be consolidated.
+
+**Timing.** Timing is variable and case-dependent; there is no fixed statutory hearing window generally applicable to commercial possession actions.
+
+**Damages.** Eviction generally terminates the lease and the tenant's ongoing rent obligation, so statutory provisions typically speak to rent in arrears rather than future rent; however, case law permits a landlord to seek damages for loss of rent measured by the lease terms in appropriate circumstances.
+
+**2026 Update Note.** Effective December 31, 2025, the Rebalancing Expectations for Neighbors, Tenants, and Landlords (RENTAL) Amendment Act of 2025, D.C. Law 26-80, made substantial changes to D.C.'s eviction framework — including expedited proceedings for dangerous-crime cases, a reduced pre-filing notice period (from 30 to 10 days) for residential nonpayment cases, and new ERAP-stay procedures under D.C. Code § 42-3505.01(r). These changes are limited to residential rental housing (rental units, housing accommodations, dwelling units) under the Rental Housing Act framework and do not apply to commercial tenancies, which continue to be governed by D.C. Code § 42-3202 and related general landlord-tenant provisions described above.
+
+**Key Commercial Lease Drafting Considerations.**
+- Express notice-period provisions, since the 30-day default notice may be shortened, lengthened, or waived by agreement.
+- No self-help — enforcement must proceed through Superior Court.
+- Decide whether to combine possession and damages claims or reserve damages for a separate (potentially consolidated) suit.
+- Express post-eviction/future-rent damages clause, since termination otherwise cuts off the landlord's rent claim absent contractual or case-law support.
+- Attorney's fees provision, since fee-shifting is not automatic.
+- Confirm the lease is unambiguously commercial, since the RENTAL Act's 2025 reforms materially tightened residential eviction timing and protections — misclassification risk has increased.
+- Build in realistic timing expectations, since commercial possession timing in D.C. remains variable and court-dependent.
+
+**Source Notes.** Statutory authorities reviewed: D.C. Code §§ 42-3202, 42-3208, 42-3505.01(r); RENTAL Amendment Act of 2025, D.C. Law 26-80, effective December 31, 2025 (residential-only reforms).
+
+---
+
+### Florida — Neutral
+
+**Statutory Notice.** A landlord must give three days' written notice requiring payment of rent or possession for a monetary default. Fla. Stat. § 83.20(2). For a non-monetary material breach (where the lease is silent or the tenancy is oral), the landlord must give 15 days' written notice to cure or vacate. Fla. Stat. § 83.20(3). Both the statutory cure periods and notice requirements may be waived by agreement.
+
+**Self-Help / Commercial Lockout.** Self-help is not permitted in Florida; a landlord may obtain possession only through an action at law. Fla. Stat. §§ 83.05, 83.21.
+
+**Jurisdiction and Venue.** A complaint to remove a commercial tenant is filed in the court of the county where the premises are situated. Fla. Stat. § 83.21.
+
+**Timing.** A landlord must serve a summons and complaint at least five days before a judgment for final removal is entered. Fla. Stat. § 83.22. Timing thereafter is variable depending on whether the matter is contested; in a contested nonpayment case, the tenant must deposit the accrued rent into the court registry or move the court to determine the amount to be deposited as a condition of contesting.
+
+**Damages.** A landlord may combine a claim for money damages with a possession claim if pleaded "expressly and specifically," and may also recover attorney's fees and costs. Fla. Stat. §§ 83.231, 83.251. A tenant who refuses to deliver possession after lease expiration may be liable for double rent for the holdover period, plus interest. Fla. Stat. § 83.06. Florida landlords have a duty to mitigate damages, and Florida courts enforce express rent-acceleration clauses.
+
+**Key Commercial Lease Drafting Considerations.**
+- Express acceleration clause, since Florida courts require one to enforce accelerated rent.
+- Mitigation-of-damages allocation, since Florida imposes a mitigation duty as a matter of law.
+- Combine possession and damages claims expressly in remedies language to preserve the option under §§ 83.231/83.251.
+- Attorney's fees provision to support fee recovery alongside a Chapter 83, Part I action.
+- Double-rent holdover clause reinforcing the statutory § 83.06 remedy.
+- Consider whether to shorten/lengthen the statutory 3-day/15-day notice-and-cure periods, since both are waivable and frequently negotiated.
+- Anticipate the rent-deposit/court-registry requirement in contested nonpayment cases when drafting rent-payment and default-dispute provisions.
+
+**Source Notes.** Statutory authorities reviewed: Fla. Stat. §§ 83.05, 83.06, 83.20(2), (3), 83.21, 83.22, 83.231, 83.251 (Chapter 83, Part I — Nonresidential Tenancies). Current statutory text and section numbering were confirmed against the 2025 Florida Statutes; no material change to the substance of the commercial notice, self-help, jurisdiction, timing, or damages provisions was identified for 2023–2026, notwithstanding routine non-substantive chapter-law citations appearing in the statutes' amendment history.

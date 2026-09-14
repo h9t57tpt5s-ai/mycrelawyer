@@ -1,0 +1,189 @@
+{
+  "securities_fraud_10b5": {
+    "newCitations": [
+      {
+        "caseName": "In re CBL & Associates Properties, Inc. Securities Litigation",
+        "citation": "No. 1:19-cv-00181-JRG-CHS (E.D. Tenn.)",
+        "jurisdiction": "Federal (E.D. Tenn.)",
+        "year": 2023,
+        "outcome": "Consolidated securities class action on behalf of purchasers of CBL & Associates (a mall/shopping-center REIT) common stock between July 29, 2014 and March 26, 2019, alleging the company and certain officers made materially false and misleading statements about the company's contingent liabilities, occupancy metrics, and overall business condition (CBL filed Chapter 11 in November 2020, emerging in November 2021). Judge J. Ronnie Greer held a final settlement approval hearing on August 21, 2023 and granted final approval to a $17.5 million cash settlement funded by CBL's D&O insurers.",
+        "dollarAmount": 17500000,
+        "sourceUrl": "https://www.prnewswire.com/news-releases/abraham-fruchter--twersky-llp-and-pomerantz-llp-announce-proposed-settlement-of-class-action-involving-purchasers-of-cbl--associates-properties-inc-securities-301835051.html",
+        "confidence": "high"
+      },
+      {
+        "caseName": "In re Omega Healthcare Investors, Inc. Securities Litigation",
+        "citation": "No. 1:17-cv-08983 (S.D.N.Y.)",
+        "jurisdiction": "Federal (S.D.N.Y.)",
+        "year": 2023,
+        "outcome": "Class action on behalf of purchasers of Omega Healthcare Investors (a skilled-nursing/healthcare-facility REIT) common stock between February 8, 2017 and October 31, 2017, alleging the company and three named officers (CEO C. Taylor Pickett, CFO Robert O. Stephenson, COO Daniel J. Booth) made materially false and misleading statements about the deteriorating financial condition of a major operator-tenant (Orianna Health Systems), that operator's ability to make timely rent payments, and the resulting lease impairments and uncollectible receivables. The court entered judgment approving the settlement on April 25, 2023, effective May 25, 2023, for a $30.75 million cash payment to the class.",
+        "dollarAmount": 30750000,
+        "sourceUrl": "https://law.justia.com/cases/federal/district-courts/new-york/nysdce/1:2017cv08983/484014/167/",
+        "confidence": "high"
+      },
+      {
+        "caseName": "Farmland Partners Inc. Securities Litigation (Turner Insurance Agency, Inc. v. Farmland Partners Inc.)",
+        "citation": "No. 1:18-cv-02351-NYW (D. Colo.)",
+        "jurisdiction": "Federal (D. Colo.)",
+        "year": 2022,
+        "outcome": "Securities class action against Farmland Partners (an agricultural-land REIT) and its CEO and CFO, alleging materially misleading statements that concealed an undisclosed related-party lending arrangement between the company and certain insider-affiliated tenants/borrowers -- allegations that substantially adopted a 2018 anonymous short-seller report published under the pseudonym 'Rota Fortunae.' The District of Colorado dismissed the consolidated complaint with prejudice; Farmland Partners announced the dismissal on April 7, 2022. In a related twist, the short-seller report's author (Quinton Mathews) later admitted in a separate defamation/business-tort action brought by Farmland Partners that his allegations were false and that he had been paid by a hedge fund that profited from shorting the stock. A parallel derivative complaint against the company's officers and directors over the same underlying conduct was voluntarily dismissed by the plaintiff without a settlement.",
+        "dollarAmount": null,
+        "sourceUrl": "https://www.businesswire.com/news/home/20220407005368/en/Farmland-Partners-Defeats-Class-Action-Lawsuit-Stemming-From-2018-Short-and-Distort-Attack",
+        "confidence": "high",
+        "notes": "A clean, confirmed dismissal-with-prejudice outcome for a non-traded-adjacent, publicly-traded mid-cap REIT securities fraud claim built on short-seller allegations -- useful as a real data point on the low end of the outcome distribution, balancing the large settlement figures already in this sample."
+      },
+      {
+        "caseName": "In re Washington Prime Group, Inc. Securities Litigation (Slipher v. Washington Prime Group Inc.)",
+        "citation": "Consolidated action, S.D. Ohio (order granting motion to dismiss entered Mar. 27, 2024)",
+        "jurisdiction": "Federal (S.D. Ohio)",
+        "year": 2024,
+        "outcome": "Securities class action against the mall-REIT and certain officers alleging false and misleading statements about the company's liquidity, leasing pipeline, and ability to avoid bankruptcy during 2020-2021, shortly before Washington Prime Group filed for Chapter 11 in June 2021 (the company was later liquidated and delisted; it did not survive as a going concern the way CBL did). The lead case was captioned Slipher v. Washington Prime Group Inc., filed May 24, 2021; a consolidated complaint was filed April 1, 2022. The court granted defendants' motion to dismiss the consolidated complaint on March 27, 2024, finding the pleadings failed to raise a strong inference of scienter.",
+        "dollarAmount": null,
+        "sourceUrl": "https://www.courtlistener.com/opinion/9917728/slipher-v-washington-prime-group-inc/",
+        "confidence": "medium",
+        "notes": "A second confirmed dismissal (no recovery), and the most recent in time of the dismissals in this sample -- pairs with the Farmland Partners and Medical Properties Trust dismissals below to show that outright defense wins are common even against REITs that went on to file bankruptcy shortly after the alleged misstatements."
+      },
+      {
+        "caseName": "In re Medical Properties Trust, Inc. Securities Litigation (Pirani v. Medical Properties Trust, Inc.; Swärd v. Medical Properties Trust, Inc.)",
+        "citation": "Two parallel actions: Pirani, No. 2:23-cv-00486 (N.D. Ala.); Swärd, No. 1:23-cv-03070 (S.D.N.Y.)",
+        "jurisdiction": "Federal (N.D. Ala. and S.D.N.Y.)",
+        "year": 2025,
+        "outcome": "Class actions on behalf of purchasers of Medical Properties Trust (a large hospital-REIT) securities during a putative class period beginning mid-2019 through early 2023, alleging the company concealed the deteriorating finances of its largest tenant, Steward Health Care (which filed for bankruptcy in May 2024), including undisclosed loans and related-party financing arrangements allegedly used to prop up Steward's ability to pay rent. The Northern District of Alabama action (Pirani) was dismissed with prejudice for failing to satisfy the heightened, 'triple-layered' pleading standard applicable to private securities-fraud plaintiffs. The parallel Southern District of New York action (Swärd) was separately dismissed with prejudice, with the court most recently denying a post-dismissal motion on or about August 14, 2025. Companion shareholder-derivative suits arising from the same related-party-loan allegations remain pending in the Northern District of Alabama (filed October and December 2023) -- see the corresponding new citation under breach_fiduciary_duty_derivative.",
+        "dollarAmount": null,
+        "sourceUrl": "https://www.rgrdlaw.com/cases-medical-properties-trust-inc-class-action-lawsuit-mpw.html",
+        "confidence": "medium",
+        "notes": "Docket numbers for the Swärd action are drawn from law-firm case-tracking pages rather than a directly-verified PACER printout, since the underlying court opinion page could not be retrieved during this research pass (access blocked) -- treat the exact S.D.N.Y. docket number with some caution even though the overall dismissal outcome is corroborated across multiple independent sources. A third confirmed dismissal in this sample (two parallel actions, same underlying facts, both losses for plaintiffs), against a REIT with one of the largest tenant-concentration exposures in the sector."
+      }
+    ],
+    "calibrationNote": "The expanded sample meaningfully changes the picture: alongside the pre-existing large recoveries (VEREIT/ARCP $1.025B, RAIT $32M, W.P. Carey $30M SEC settlement, UDF $8.2M SEC settlement), the new citations add two more real cash settlements (CBL $17.5M, Omega Healthcare $30.75M) but also three confirmed dismissals with zero recovery (Farmland Partners, Washington Prime Group, and the twin Medical Properties Trust dismissals in N.D. Ala. and S.D.N.Y.). Counting resolved matters only, roughly 6 of 9 ended in a disclosed recovery and 3 in a clean defense win -- a ~65-70% recovery rate that sits at or slightly above the current 0.35-0.55 baseProbability range, though this sample is still skewed toward well-publicized, law-firm-tracked cases (weaker claims that get voluntarily withdrawn pre-certification without a press release are systematically undercounted). Net assessment: the range still looks defensible and arguably conservative rather than too high; if anything there is a case for nudging the top of the range up slightly (e.g., to 0.60) given how consistently REIT-tenant-concentration and short-seller-driven claims that survive past the motion-to-dismiss stage in this sample went on to settle for real money, while the ones that got dismissed were dismissed early (pleading-stage) rather than after expensive discovery."
+  },
+  "breach_fiduciary_duty_derivative": {
+    "newCitations": [
+      {
+        "caseName": "In re The Parking REIT, Inc. Stockholder Litigation (SIPDA Revocable Trust v. The Parking REIT, Inc.)",
+        "citation": "Consolidated action, Circuit Court for Baltimore City, Maryland, with a related federal action, No. 2:19-cv-00428 (D. Nev.)",
+        "jurisdiction": "MD (state) and Federal (D. Nev.)",
+        "year": 2021,
+        "outcome": "Class and derivative action alleging The Parking REIT's stockholders were injured by the internalization of the REIT's external advisor, a transaction in which the company's CEO, Michael Shustek, held a substantial personal stake. The Circuit Court for Baltimore City granted final approval to a global settlement of the consolidated Maryland action and the parallel Nevada federal action (SIPDA Revocable Trust v. The Parking REIT, Inc.), requiring the company to pay approximately $9.25 million in cash and to conduct a tender offer for up to 15% of common shares outstanding (excluding shares held by the advisor and its affiliates).",
+        "dollarAmount": 9250000,
+        "sourceUrl": "https://www.girardsharp.com/newsroom-news-parking-reit-settlement-order",
+        "confidence": "high",
+        "notes": "A clean, confirmed cash-plus-tender-offer recovery tied to a concrete, quantifiable insider-self-dealing internalization transaction -- directly on point for the tiedToConcreteQuantifiableSelfDealingTransaction modifier (0.55-0.8 range) alongside Quinn v. Knight, Inland Western, and Hospitality Investors Trust already in this sample."
+      },
+      {
+        "caseName": "In re Medical Properties Trust, Inc. Derivative Litigation",
+        "citation": "Two related derivative actions, N.D. Ala. (filed Oct. 19, 2023 and Dec. 7, 2023)",
+        "jurisdiction": "Federal (N.D. Ala.)",
+        "year": 2024,
+        "outcome": "Shareholder derivative suits against members of Medical Properties Trust's board alleging breach of fiduciary duty in connection with the board's oversight of, and disclosures regarding, related-party loans and financing arrangements extended to help prop up rent payments from the REIT's largest and financially distressed tenant, Steward Health Care (which filed for bankruptcy in May 2024). As of this research pass the derivative actions remain pending in the Northern District of Alabama with no settlement, dismissal, or trial outcome yet reported.",
+        "dollarAmount": null,
+        "sourceUrl": "https://ksfcounsel.com/news/stockholder-derivative-medical-properties-trust/",
+        "confidence": "medium",
+        "notes": "Pending, not yet resolved -- included for completeness and because the tied companion securities class actions (see securities_fraud_10b5) were both dismissed, which is itself informative: a dismissed 10b-5 claim for failure to plead scienter does not necessarily doom a parallel derivative fiduciary-duty claim built on the same facts, since the pleading standards differ."
+      },
+      {
+        "caseName": "Independence Realty Trust, Inc. -- Steadfast Internalization Derivative Demand",
+        "citation": "Pre-suit derivative demand letter, delivered July 16, 2021; Demand Review Committee formed September 2021 (no litigation caption; resolved internally, per company SEC disclosures)",
+        "jurisdiction": "MD (state law claim, resolved without a filed suit)",
+        "year": 2021,
+        "outcome": "Following Independence Realty Trust's August 31, 2020 internalization of external management functions previously performed by its sponsor, Steadfast REIT Investments, LLC, purported stockholders sent the board a pre-suit derivative demand letter (rather than filing suit directly) asking the board to investigate whether a basis existed to pursue claims -- including recovery of internalization-transaction payments. The board responded by forming a two-independent-director Demand Review Committee in September 2021. No further public disclosure of the Committee's findings, a settlement, or a filed lawsuit could be located in this research pass.",
+        "dollarAmount": null,
+        "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1466085/000156459021056728/irt-ex992_6.htm",
+        "confidence": "low",
+        "notes": "Included specifically because it illustrates a resolution pathway NOT otherwise represented in this sample: many derivative demands over REIT internalization/self-dealing transactions never become a captioned lawsuit at all -- they are absorbed and (often quietly) resolved or rejected by an internal special/demand-review committee. Any base-rate calibration built only from filed-and-settled cases will systematically overstate how often these disputes turn into real litigation exposure, since this channel is invisible to case-law and class-action databases."
+      }
+    ],
+    "calibrationNote": "The Parking REIT's confirmed $9.25M cash-plus-tender-offer recovery for a textbook insider-internalization transaction reinforces that the tiedToConcreteQuantifiableSelfDealingTransaction modifier (0.55-0.8) is well-calibrated -- it is now the fourth real, quantifiable settlement in that fact pattern (alongside Quinn v. Knight, Inland Western, and Hospitality Investors Trust), all in the tens-of-millions range or larger. The two pending/undisclosed matters (Medical Properties Trust derivative suits; Independence Realty Trust's internal demand-review pathway) don't move the probability numbers but are a useful caution: the Independence Realty example in particular suggests the universe of real self-dealing/internalization disputes is larger than what shows up in settlement trackers, because many are resolved (or die) inside a board-level demand-review process well before any complaint is filed -- meaning the TRUE base rate of 'does a derivative demand turn into a paying lawsuit' may be somewhat lower than 0.25-0.45 would suggest if that range is meant to describe all demands rather than only demands that mature into filed litigation. Recommend clarifying in the UI/documentation whether baseProbability is conditioned on a suit already being filed (in which case 0.25-0.45 still looks right) or is meant to cover the full universe of shareholder demands (in which case it is probably too high)."
+  },
+  "proxy_disclosure_claim": {
+    "newCitations": [
+      {
+        "caseName": "STORE Capital Corp. Stockholder Litigation (O'Dell v. STORE Capital Corp.; Klein v. STORE Capital Corp.; Grossman v. STORE Capital Corp.; Smith v. STORE Capital Corp.; Bushansky v. STORE Capital Corp.)",
+        "citation": "Six complaints filed Oct. 28 - Nov. 28, 2022, S.D.N.Y.",
+        "jurisdiction": "Federal (S.D.N.Y.)",
+        "year": 2022,
+        "outcome": "Following announcement of STORE Capital's approximately $14 billion all-cash acquisition by GIC and Oak Street Real Estate Capital ($32.25/share), six purported stockholders filed substantially similar suits alleging the preliminary and definitive proxy statements omitted material information (financial projections, banker conflicts, valuation-analysis inputs) in violation of Section 14(a)/Rule 14a-9. STORE Capital voluntarily supplemented its proxy disclosures via SEC filing to address the claims and avoid delay; stockholders approved the merger on December 9, 2022, and the suits were mooted/withdrawn without a court-approved settlement or a disclosed per-share cash recovery.",
+        "dollarAmount": null,
+        "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1538990/000119312522301800/d266910d8k.htm",
+        "confidence": "high"
+      },
+      {
+        "caseName": "American Campus Communities, Inc. Stockholder Litigation (Charfauros v. American Campus Communities, Inc.; Justice v. American Campus Communities, Inc.)",
+        "citation": "Jeffrey D. Justice, II v. American Campus Communities, Inc., et al., No. 1:22-cv-03069 and related actions",
+        "jurisdiction": "Federal",
+        "year": 2022,
+        "outcome": "In connection with American Campus Communities' approximately $13 billion take-private acquisition by Blackstone real estate funds, multiple purported stockholders filed suit alleging the proxy statement omitted material information regarding the special committee's process, confidentiality agreements with Blackstone, director/officer conflicts of interest, equity-award treatment, post-closing employment discussions, and the financial advisor's projections/valuation analyses. An earlier-filed action (the Acuna Lawsuit) was dismissed; American Campus Communities' stockholders approved the merger on August 3, 2022, and the remaining suits followed the standard disclosure-only resolution pattern -- the company issued supplemental proxy disclosures and the suits were mooted/withdrawn, with no disclosed per-share cash recovery.",
+        "dollarAmount": null,
+        "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1283630/000119312522212615/d373681dex991.htm",
+        "confidence": "medium"
+      },
+      {
+        "caseName": "Ross v. Conway (Monmouth Real Estate Investment Corp. Proxy Litigation)",
+        "citation": "Putative class action filed Aug. 4, 2021, amended Jan. 14, 2022 (D.N.J. or related federal venue)",
+        "jurisdiction": "Federal (D.N.J.)",
+        "year": 2022,
+        "outcome": "Filed amid a high-profile bidding war for Monmouth Real Estate Investment Corp. (Equity Commonwealth's original ~$3.4 billion all-stock deal was rejected by Monmouth stockholders in August 2021 after Starwood Capital's Barry Sternlicht intervened, and Industrial Logistics Properties Trust ultimately won with a $4 billion all-cash deal that closed February 25, 2022), plaintiffs alleged Monmouth's directors breached fiduciary duties by misrepresenting or omitting material information in the definitive proxy statement concerning the (ultimately terminated) Equity Commonwealth merger agreement, and sought attorneys' fees tied to corrective disclosures. Given the underlying Equity Commonwealth transaction was superseded and never closed, this claim most plausibly resolved on a mootness basis; this research pass could not independently confirm a final settlement amount, fee award, or dismissal order.",
+        "dollarAmount": null,
+        "sourceUrl": "https://www.sec.gov/Archives/edgar/data/67625/000121390021024925/ea140445-dfan14a_blackwells.htm",
+        "confidence": "low",
+        "notes": "Included because the fact pattern (proxy disclosure claim layered on top of an active, competing-bidder situation) is a variant not otherwise represented in this sample, but the final resolution could not be verified with confidence in this pass -- flag for a follow-up research pass before relying on it for probability calibration."
+      },
+      {
+        "caseName": "Physicians Realty Trust / Healthpeak Properties Merger Proxy Litigation",
+        "citation": "Proxy statement filed Jan. 11, 2024; special meeting held Feb. 21, 2024",
+        "jurisdiction": "Federal / Maryland",
+        "year": 2024,
+        "outcome": "In connection with the roughly $21 billion all-stock merger of equals between Healthpeak Properties and Physicians Realty Trust, purported shareholders alleged the companies and their trustees violated federal securities laws and/or Maryland fiduciary-duty principles by omitting or misstating material information in the joint proxy statement filed January 11, 2024. Shareholders of both companies approved the merger at meetings held February 21, 2024, following the customary practice of supplementing the proxy with additional disclosures; no separate cash settlement to shareholders was disclosed.",
+        "dollarAmount": null,
+        "sourceUrl": "https://www.sec.gov/Archives/edgar/data/765880/000110465924026567/tm246967d1_ex99-1.htm",
+        "confidence": "medium"
+      }
+    ],
+    "calibrationNote": "All four new citations are garden-variety M&A proxy-disclosure claims (no quantified insider financial stake pled), and every one of them resolved -- so far as could be confirmed -- via voluntary supplemental disclosure and mootness rather than a court-tested win, a certified class settlement, or a disclosed per-share cash recovery. That is the SAME low-recovery pattern the existing St. Clair-Hibbard citation and the genericIndustryWideRiskAlreadyDisclosedInGeneralTerms modifier (0.10-0.25) already describe. This actually argues the current 0.30-0.55 BASE range (before any modifier is applied) may be pitched too high if it is meant to reflect the modal REIT-merger proxy-disclosure claim: on this expanded sample, the generic/no-quantified-stake fact pattern is clearly the norm, not the exception, and it consistently lands in the bottom of the existing modifier band rather than the middle of the base range. Consider either lowering the unmodified base range toward 0.15-0.35, or adding explicit documentation that the 0.30-0.55 base assumes at least some non-boilerplate, case-specific omission is pled (which is closer to what distinguishes Lightstone and Piedmont/Wells from this batch)."
+  },
+  "merger_objection_suit": {
+    "newCitations": [
+      {
+        "caseName": "In re CyrusOne Inc. Stockholder Litigation",
+        "citation": "Seven complaints filed in S.D.N.Y., D.N.J., and E.D. Pa. following the Nov. 15, 2021 merger announcement",
+        "jurisdiction": "Federal (S.D.N.Y., D.N.J., E.D. Pa.)",
+        "year": 2022,
+        "outcome": "In connection with CyrusOne's approximately $15 billion take-private acquisition by KKR and Global Infrastructure Partners ($90.50/share cash), seven purported stockholders filed suit and additional stockholders sent demand letters alleging the proxy statement omitted material information in violation of Section 14(a)/Rule 14a-9. CyrusOne stated it believed the claims were without merit but voluntarily supplemented the proxy statement via an 8-K filing in January 2022 'to avoid the risk that the [Stockholder] Litigation may delay or otherwise adversely affect the consummation of the Merger and to minimize the costs, risks and uncertainties inherent in litigation,' expressly denying that any additional disclosure was legally required. Stockholders approved the merger; no separate cash settlement fund to shareholders was disclosed.",
+        "dollarAmount": null,
+        "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1553023/000110465922010326/tm225019d1_8k.htm",
+        "confidence": "high"
+      },
+      {
+        "caseName": "QTS Realty Trust, Inc. Stockholder Litigation (Stein v. QTS Realty Trust, Inc.; Waterman v. QTS Realty Trust, Inc.)",
+        "citation": "Two actions filed July 9 and July 15, 2021, S.D.N.Y.",
+        "jurisdiction": "Federal (S.D.N.Y.)",
+        "year": 2021,
+        "outcome": "In connection with QTS Realty Trust's approximately $10 billion take-private acquisition by Blackstone Infrastructure Partners and BREIT, two purported stockholders sued alleging the preliminary proxy statement omitted material information in violation of Section 14(a)/Rule 14a-9 and asserting Section 20(a) control-person claims against the board, seeking to enjoin the merger. QTS stated the suits were without merit and intended to defend vigorously; the merger closed on schedule in 2021, and the suits followed the standard disclosure-supplement/mootness resolution pattern with no disclosed per-share cash recovery.",
+        "dollarAmount": null,
+        "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1577368/000110465921107329/tm2125390d2_8k.htm",
+        "confidence": "medium"
+      },
+      {
+        "caseName": "Life Storage, Inc. Stockholder Litigation",
+        "citation": "Five complaints filed in S.D.N.Y. following the Apr. 3, 2023 merger announcement",
+        "jurisdiction": "Federal (S.D.N.Y.)",
+        "year": 2023,
+        "outcome": "In connection with the roughly $15 billion all-stock merger of Life Storage into Extra Space Storage, five purported Life Storage stockholders filed substantially similar suits alleging the joint proxy statement/prospectus omitted or misstated material information (including inputs to the financial advisor's fairness analyses), seeking to enjoin the merger absent corrective disclosure. Life Storage and Extra Space filed supplemental disclosures (including additional detail on 'Life Storage Financial Analyses') via an 8-K; both companies' stockholders approved the merger at special meetings on July 18, 2023, and the transaction closed July 20, 2023. No separate cash settlement to Life Storage shareholders was disclosed; Life Storage stockholders were not entitled to appraisal rights in the transaction.",
+        "dollarAmount": null,
+        "sourceUrl": "https://www.sec.gov/Archives/edgar/data/944314/000119312523185331/d513688d8k.htm",
+        "confidence": "high"
+      },
+      {
+        "caseName": "Spirit Realty Capital, Inc. Stockholder Litigation",
+        "citation": "Demand letters beginning Dec. 19, 2023; at least one suit filed in federal court in Michigan following the Oct. 29, 2023 merger announcement",
+        "jurisdiction": "Federal (E.D. Mich. and other venues)",
+        "year": 2024,
+        "outcome": "In connection with Realty Income's approximately $9.3 billion all-stock acquisition of Spirit Realty Capital, purported stockholders sent demand letters and at least one stockholder filed suit alleging the joint proxy statement/prospectus was materially incomplete in violation of the Exchange Act's disclosure requirements. Although Spirit and Realty Income maintained the existing disclosures fully complied with the law, the companies voluntarily supplemented the proxy statement/prospectus 'to moot plaintiffs' disclosure claims and to avoid nuisance, potential expense and delay.' The merger closed in January 2024; no separate cash settlement to Spirit shareholders was disclosed.",
+        "dollarAmount": null,
+        "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1308606/000119312524006684/d706160d8k.htm",
+        "confidence": "medium"
+      }
+    ],
+    "calibrationNote": "All four new citations are large, mega-cap (multi-billion-dollar) REIT/real-estate M&A deals from 2021-2024, and every single one followed the exact 'voluntary supplemental disclosure to moot the claim' pattern the existing note already flags as the norm -- with NO disclosed per-share cash recovery and, notably, no disclosed mootness fee at all in any of the four (unlike the older, smaller Cole Credit Property Trust III citation already in this file, which at least disclosed a $100K counsel-fee reimbursement). This strongly reconfirms the current calibration: baseProbability of 0.10-0.25 for a real (non-fee) recovery remains appropriate and arguably still generous, and the note's 'high-frequency, low-dollar-value' framing holds up well against this larger, more recent sample. One refinement worth making explicit: in these newer, larger transactions, even the modest mootness fees that do get paid to plaintiffs' counsel appear to be negotiated and paid informally without a public dollar figure (in contrast to older, smaller-cap REIT deals like Cole Credit Property Trust III), so the UI language should be careful not to imply a mootness fee is reliably disclosed or quantifiable across the board -- for large-cap targets it is frequently invisible to public records entirely."
+  }
+}

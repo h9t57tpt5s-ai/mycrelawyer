@@ -1,0 +1,164 @@
+[
+  {
+    "state": "Washington",
+    "classification": "Neutral",
+    "classificationRaw": "Neutral",
+    "sections": [
+      {
+        "heading": "Statutory Notice",
+        "text": "Washington does not require pre-suit notice as a general matter before a commercial landlord may commence an unlawful detainer action for most defaults, but a specific notice is required for nonpayment of rent. Where a tenant continues in possession after defaulting on rent, the landlord must serve a written notice, in the alternative, demanding payment of the rent or surrender of the premises; the tenant has three days after service to comply (fourteen days applies only to tenancies governed by the Residential Landlord-Tenant Act, chapter 59.18 RCW, which does not apply to commercial tenancies). Wash. Rev. Code Ann. § 59.12.030(3). The notice may be served at any time after rent becomes due. Service methods, proof of service, and required notice content are governed by RCW 59.12.040."
+      },
+      {
+        "heading": "Self-Help / Commercial Lockout",
+        "text": "Washington courts have long disfavored landlord self-help and require landlords to regain possession through the judicial unlawful detainer process rather than by forcible reentry, lockout, or exclusion, reflecting the state's longstanding policy — reflected as early as *Barnes v. Bickle*, 111 Wash. 133, 189 P. 998 (1920) — that a tenant's right to exclusive possession may not be interfered with by unauthorized landlord entry. While Chapter 59.12 does not contain an express statutory prohibition on commercial self-help comparable to RCW 59.18.290 (which applies only to residential tenancies under chapter 59.18 RCW), commercial landlords should not rely on self-help remedies even where a lease purports to authorize them; courts construe such lease language narrowly and against the landlord, and self-help exposes a landlord to trespass and conversion liability."
+      },
+      {
+        "heading": "Jurisdiction and Venue",
+        "text": "The superior court of the county in which the property is located has jurisdiction over unlawful detainer actions. Wash. Rev. Code Ann. § 59.12.050. A claim for damages and rent may be combined with the claim for possession in the same action. Id. § 59.12.170."
+      },
+      {
+        "heading": "Timing",
+        "text": "Timing is variable. After the complaint and summons are filed, the summons must set a return date not less than seven nor more than thirty days from the date of service, and the complaint must state the amount of rent claimed. Id. § 59.12.070. The plaintiff may apply for a writ of restitution at the time of filing or at any time thereafter, but the defendant may stay execution by posting a bond. Id. §§ 59.12.090, 59.12.100. The action proceeds as a jury trial unless waived, and unlawful detainer actions take precedence over other civil actions on the docket. Id. § 59.12.130."
+      },
+      {
+        "heading": "Damages",
+        "text": "The jury (or the court in a bench trial) assesses damages resulting from the unlawful detainer as alleged and proved, together with any rent found due, and judgment is entered for twice that combined amount. Id. § 59.12.170. A defendant may reinstate the tenancy by paying the full judgment amount, including costs, within five days after entry of judgment. Id. An acceleration-of-rent clause is enforceable where the lease unequivocally makes the tenant liable for unpaid rent even after lease termination and landlord reentry, and a landlord has a duty to mitigate by re-leasing the premises unless the lease specifically relieves it of that duty."
+      },
+      {
+        "heading": "2026 Update Note",
+        "text": "Effective June 11, 2026, House Bill 2664 (Chapter 144, Laws of 2026) amended RCW 59.12.040 to remove the certified-mail requirement for substitute service of unlawful detainer and related notices that had been imposed by 2025 legislation (2025 c 44, based on HB 1003). Under the current version, when a notice cannot be served personally and is instead left with a person of suitable age at the premises, a copy may again be sent by ordinary first-class mail rather than certified mail; mailed service is still deemed complete upon deposit in the mail from within Washington, postage prepaid, and adds five days before an action may be commenced."
+      }
+    ],
+    "leaseConsiderations": [
+      "Express, narrowly drawn default and cure notice provisions specifying delivery method and cure period, since courts construe ambiguous lease language against the landlord as drafter.",
+      "Do not rely on lease \"self-help\" or lockout clauses as a substitute for the statutory unlawful detainer process.",
+      "Express acceleration clause tied unequivocally to tenant liability post-termination and post-reentry.",
+      "Mitigation language allocating (or expressly disclaiming) the landlord's duty to re-lease.",
+      "Non-waiver provisions addressing acceptance of partial or late rent payments, which can waive termination rights.",
+      "Contractual notice-period and delivery-method provisions consistent with RCW 59.12.040's current mailing rules.",
+      "Attorney's fees provision, since Washington does not provide a general statutory right to fees in commercial unlawful detainer actions absent lease or other statutory authority.",
+      "Reservation of separate damages claims and rent/possession joinder language consistent with RCW 59.12.170."
+    ],
+    "sourceNotes": "Statutory authorities reviewed: Wash. Rev. Code Ann. §§ 59.12.030, 59.12.040, 59.12.050, 59.12.070, 59.12.090, 59.12.100, 59.12.130, 59.12.170; RCW 59.18.290 (residential-only, reviewed for contrast); House Bill 2664, Chapter 144, Laws of 2026 (effective June 11, 2026); 2025 c 44 (certified-mail requirement subsequently repealed); *Barnes v. Bickle*, 111 Wash. 133, 189 P. 998 (1920).\n\n---"
+  },
+  {
+    "state": "West Virginia",
+    "classification": "Neutral",
+    "classificationRaw": "Neutral",
+    "sections": [
+      {
+        "heading": "Statutory Notice",
+        "text": "West Virginia statute does not impose a generally applicable pre-suit notice period for a commercial unlawful detainer action based on nonpayment of rent or breach of covenant; a landlord with a right of reentry may proceed by serving a declaration in ejectment or commencing an unlawful detainer action once rent is due and unpaid or a covenant has been breached, without a separate statutory notice-and-cure period. W. Va. Code Ann. § 37-6-19. This differs from the abandonment-specific procedure discussed below, which does require notice. Commercial landlords remain free to (and typically do) contract for a notice-and-cure period in the lease itself."
+      },
+      {
+        "heading": "Self-Help / Commercial Lockout",
+        "text": "Self-help is available to a West Virginia commercial landlord only in defined circumstances, not as a general remedy for a tenant who remains in possession while in default. Where a tenant in arrears has abandoned the leased property, the landlord may post notice on the premises requiring payment of the rent in arrears within one month; if the rent remains unpaid, the landlord is entitled to take possession without judicial process. Id. § 37-6-6(a). Outside of this abandonment scenario, West Virginia does not have a general commercial self-help statute, and landlords should not assume that lockout or exclusion is available against a tenant who remains in occupancy."
+      },
+      {
+        "heading": "Jurisdiction and Venue",
+        "text": "A claim for damages arising from the unlawful detainer may be assessed in the same proceeding as the claim for possession. Id. §§ 55-3-2, 55-3-4."
+      },
+      {
+        "heading": "Timing",
+        "text": "Timing is variable. A summons must be returnable not more than ninety days after its date and served at least ten days before the return date; the case proceeds to a jury trial on a \"not guilty\" plea (or upon default), and the action takes precedence over all other civil causes on the docket. Id. § 55-3-3."
+      },
+      {
+        "heading": "Damages",
+        "text": "Recoverable damages may include mesne profits of the premises for a period not exceeding three years before commencement of the action, special damages resulting from the unlawful detainer, and damages for destruction or waste of the property. Id. § 55-3-2. Interest on rent is recoverable as on other contracts. Id. § 37-6-9. In the abandonment scenario described above, the landlord may recover rent owed up through the date it became entitled to possession. Id. § 37-6-6(a). More generally, \"[r]ent of every kind may be recovered by distress or action.\" Id. § 37-6-9. A landlord has the option, but not the obligation, to relet the premises after regaining possession; if it does so, the original tenant remains liable for the difference between the rent received from the new tenant and the rent owed under the original lease. Id. § 37-6-7."
+      }
+    ],
+    "leaseConsiderations": [
+      "Contractual notice-and-cure provisions, since West Virginia statute does not impose a default notice period outside the abandonment context.",
+      "Express acceleration clause, since no general statutory acceleration remedy exists.",
+      "Mitigation/reletting language clarifying the landlord's optional right (not duty) to relet and the tenant's continuing liability for any deficiency under § 37-6-7.",
+      "Distress and self-help limitations — do not assume lockout rights outside of the narrow abandonment procedure in § 37-6-6(a); require judicial process for occupied defaults.",
+      "Interest and late-fee provisions to supplement the general statutory interest allowance under § 37-6-9.",
+      "Attorney's fees provision, since West Virginia does not provide a general statutory right to fees in commercial unlawful detainer actions.",
+      "Damages-period language addressing the three-year mesne-profits limitation in § 55-3-2."
+    ],
+    "sourceNotes": "Statutory authorities reviewed: W. Va. Code Ann. §§ 37-6-6, 37-6-7, 37-6-9, 37-6-19, 37-6-30, 55-3-2, 55-3-3, 55-3-4; W. Va. Code Ann. § 55-3A-1 et seq. (Remedies for Wrongful Occupation of Residential Rental Property — confirmed residential-only and excluded from this commercial analysis). No 2023–2026 amendment to these commercial-eviction provisions was identified in this research; the 2022 baseline substance remains current.\n\n---"
+  },
+  {
+    "state": "Wisconsin",
+    "classification": "Tenant-Friendly",
+    "classificationRaw": "Tenant-Friendly",
+    "sections": [
+      {
+        "heading": "Statutory Notice",
+        "text": "Notice requirements under Chapter 704 (Landlord and Tenant), which applies to commercial as well as residential tenancies, depend on lease duration and the nature of the default. For a lease of more than one year, if the tenant fails to pay rent when due, commits waste, or breaches any other covenant or condition, the tenancy is terminated only if the landlord gives written notice requiring the tenant to pay the rent, repair the waste, or otherwise comply on or before a date at least thirty days after the notice is given, and the tenant fails to comply. Wis. Stat. Ann. § 704.17(3). Shorter cure periods (generally five or fourteen days) apply to month-to-month, year-to-year, and sub-one-year leases under § 704.17(1p) and (2)."
+      },
+      {
+        "heading": "Self-Help / Commercial Lockout",
+        "text": "No Wisconsin statute categorically prohibits a commercial landlord from using self-help remedies, and commercial tenancies are not covered by the residential lockout and rental-practices protections that apply to dwelling units. Commercial landlords should nonetheless proceed cautiously, since any lockout carries a real risk of tort liability (e.g., conversion, breach of the covenant of quiet enjoyment) if executed without clear lease authorization or if it breaches the peace."
+      },
+      {
+        "heading": "Jurisdiction and Venue",
+        "text": "Small-claims procedure under Chapter 799 is the exclusive procedure for eviction actions, regardless of the amount of rent claimed. Id. § 799.01(1)(a). A landlord may join with the claim for restitution of the premises any other claim against the defendant arising out of the defendant's possession or occupancy. Id. § 799.40(2)."
+      },
+      {
+        "heading": "Timing",
+        "text": "In eviction actions, the summons return date for a defendant served within Wisconsin must be no less than five nor more than twenty-five days after the issue date; if the defendant is not a Wisconsin resident, the return date must be no less than twenty days after issuance. Id. § 799.05. Overall timing otherwise varies by county calendar."
+      },
+      {
+        "heading": "Damages",
+        "text": "At minimum, a landlord may recover twice the rental value, apportioned daily, for the period the tenant remains in possession after being required to vacate — \"rental value\" being the amount for which the premises might reasonably have been rented, but not less than the amount actually paid or payable for the prior rental period (including allocable taxes, insurance, and repair costs). Id. § 704.27. A landlord may recover more upon proof of greater actual damages, and may pursue any other available remedy. Wisconsin case law holds that once a landlord successfully re-leases the premises, the original tenant is released from further rent liability, with any rent received from the successor tenant credited against the original tenant's obligation. 624 N.W.2d 847, 850 (Wis. 2001) (case name not independently re-verified in this research; cited consistent with the 2022 baseline — ⚠ confirm case name and current validity with counsel before relying on this citation in isolation)."
+      },
+      {
+        "heading": "2026 Update Note",
+        "text": "2025 Wisconsin Act 105 amended Wis. Stat. § 799.01(1)(c)–(d) to raise the general small-claims/circuit-court monetary jurisdiction threshold from $10,000 to $15,000, effective January 1, 2027. Because any non-possessory damages claim joined with an eviction action under § 799.40(2) is subject to this general small-claims jurisdictional ceiling, the increase will expand the size of a damages claim a landlord may join with a Chapter 799 eviction action once effective; larger claims must still be pursued separately in circuit court under ordinary civil procedure. The dedicated eviction-possession claim itself remains unlimited in dollar amount under § 799.01(1)(a)."
+      }
+    ],
+    "leaseConsiderations": [
+      "Express cure-period provisions tailored to lease term, since statutory cure periods scale with lease duration (5, 14, or 30 days).",
+      "Acceleration-of-rent clause, since Wisconsin's minimum statutory holdover damages (double daily rental value) may understate actual landlord losses.",
+      "Mitigation/reletting language addressing when and how re-letting releases the original tenant, consistent with Wisconsin case law crediting successor rent against the original tenant's liability.",
+      "Self-help caution clause — even though not statutorily prohibited for commercial premises, specify peaceable, narrowly conditioned lockout procedures to reduce tort exposure.",
+      "Attorney's fees provision, since Wisconsin does not provide a general statutory right to fees in commercial eviction actions.",
+      "Joinder-of-claims language anticipating the small-claims monetary ceiling applicable to damages claims joined with possession under § 799.40.",
+      "Rental-value definition provision to avoid disputes over the § 704.27 statutory minimum-damages calculation."
+    ],
+    "sourceNotes": "Statutory authorities reviewed: Wis. Stat. Ann. §§ 704.01, 704.17, 704.27, 799.01, 799.05, 799.40; 2025 Wisconsin Act 105 (effective January 1, 2027, amending § 799.01(1)(c)–(d) monetary jurisdiction); 2025 Wisconsin Act 247 (technical/session updates incorporated into current statute text, no substantive commercial-eviction change identified); 624 N.W.2d 847 (Wis. 2001), carried forward from the 2022 baseline for the reletting/release rule (case name not independently re-verified — see ⚠ note above). Classification retained as Tenant-Friendly given the mandatory 30-day cure period for longer-term commercial leases and exclusive, tenant-protective small-claims procedure, consistent with the 2022 baseline.\n\n---"
+  },
+  {
+    "state": "Wyoming",
+    "classification": "Neutral",
+    "classificationRaw": "Neutral",
+    "sections": [
+      {
+        "heading": "Statutory Notice",
+        "text": "A commercial tenant must be personally served with written notice at least three days before a forcible entry and detainer action may be commenced. Wyo. Stat. Ann. § 1-21-1003."
+      },
+      {
+        "heading": "Self-Help / Commercial Lockout",
+        "text": "No Wyoming statute or reported decision expressly forbids a commercial landlord from using self-help remedies, so a common-law self-help remedy may remain available in principle; however, in practice landlords face meaningful risk of liability (including for breach of the peace or wrongful exclusion) absent clear lease authorization, and the statutory forcible entry and detainer process under Article 10 remains the standard and safer path to possession."
+      },
+      {
+        "heading": "Jurisdiction and Venue",
+        "text": "Circuit courts have jurisdiction over forcible entry and detainer actions. Wyo. Stat. Ann. § 1-21-1001. General circuit court civil jurisdiction (which governs a damages claim joined with a possession claim) extends to matters not exceeding $50,000, exclusive of costs. Wyo. Stat. Ann. § 5-9-128. A damages claim exceeding that amount would need to be pursued separately in district court. Notably, § 1-21-1017 permits a business entity to appear and litigate a forcible entry and detainer action pro se — without an attorney — through an owner, shareholder, member, or partner, provided the entity gives written notice of this representation to the court and all parties; if an attorney later appears for the entity, the opposing party is entitled to a continuance to obtain its own counsel."
+      },
+      {
+        "heading": "Timing",
+        "text": "After the complaint is filed and served, the court must set a hearing within twelve days, and the tenant must be served with the complaint and summons no less than three and no more than twelve days before trial. Id. § 1-21-1004. Once judgment is entered, the landlord may obtain a writ of restitution directing the sheriff to restore possession; absent an appeal, the writ must be executed within two days of receipt (Sundays excepted). Id. § 1-21-1013."
+      },
+      {
+        "heading": "Damages",
+        "text": "Acceleration-of-rent clauses are enforceable in Wyoming, and there is no statute requiring a landlord to mitigate damages following a commercial tenant's default."
+      },
+      {
+        "heading": "Special Considerations",
+        "text": "Trial may be before the judge or a jury. Id. § 1-21-1008–1010. A losing tenant has thirty days to appeal, but an appeal does not stay enforcement of the judgment unless, within forty-eight hours after judgment (Sundays excepted), the appellant files a bond with two or more sufficient sureties, conditioned on payment of accrued and future costs and damages sustained by the plaintiff from the wrongful detention during the appeal. Id. § 1-21-1004, 1-21-1014. As noted above, § 1-21-1017 (enacted 2021) allows a non-attorney owner, member, or partner to represent a business-entity landlord or tenant in an FED proceeding — a practical, cost-saving option not available in ordinary civil litigation."
+      }
+    ],
+    "leaseConsiderations": [
+      "Express acceleration clause, enforceable under Wyoming law and useful given the absence of a statutory mitigation duty.",
+      "No-mitigation acknowledgment or, alternatively, an express mitigation obligation if the parties prefer to allocate that risk contractually.",
+      "Contractual notice periods, since the three-day statutory notice is a floor that parties may lengthen (but generally not shorten) by agreement.",
+      "Attorney's fees provision, since Wyoming does not provide a general statutory right to fees in commercial FED actions.",
+      "Self-help caution clause specifying any agreed peaceable-reentry procedure, given the absence of a controlling statute or case law on commercial self-help.",
+      "Appeal-bond awareness — confirm lease remedies and holdover damages language anticipate the forty-eight-hour bond deadline that governs whether a tenant's appeal stays enforcement.",
+      "Entity-representation planning — if the landlord is an LLC or similar entity, note the § 1-21-1017 option for an owner/member to litigate FED actions without counsel.",
+      "Jurisdictional-limit awareness — structure or bifurcate damages claims exceeding $50,000 for filing in district court rather than assuming joinder with the circuit court possession action."
+    ],
+    "sourceNotes": "Statutory authorities reviewed: Wyo. Stat. Ann. §§ 1-21-1001, 1-21-1002, 1-21-1003, 1-21-1004, 1-21-1008 through 1-21-1010, 1-21-1013, 1-21-1014, 1-21-1017; Wyo. Stat. Ann. § 5-9-128 (circuit court general civil jurisdiction, $50,000 threshold). The $7,000 jurisdictional figure in the 2022 baseline is corrected here; Wyoming's circuit court general civil jurisdiction has stood at $50,000 since a 2011 statutory increase, and no 2023–2026 amendment to that threshold or to Article 10's core notice/timing provisions was identified in this research."
+  }
+]

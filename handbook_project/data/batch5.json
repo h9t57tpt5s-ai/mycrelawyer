@@ -1,0 +1,371 @@
+[
+  {
+    "state": "Oregon",
+    "classification": "Landlord-Friendly",
+    "classificationRaw": "Landlord-Friendly",
+    "sections": [
+      {
+        "heading": "Statutory Notice",
+        "text": "Oregon draws a sharp line between residential and commercial tenancies. For a commercial tenant, no statutory notice to quit is required before a landlord commences a forcible entry and detainer (FED) action for nonpayment of rent — the action may be filed as soon as the tenant fails to pay rent within ten days after it becomes due under the lease (or such other period as the lease specifies). Or. Rev. Stat. §§ 91.090, 105.115(1)(b). Where notice is otherwise required to terminate a commercial tenancy (e.g., for a periodic or holdover tenancy under ORS 91.060–91.080), the tenant may waive that notice by the terms of a written lease. Or. Rev. Stat. § 105.120."
+      },
+      {
+        "heading": "Self-Help / Commercial Lockout",
+        "text": "Oregon permits peaceable self-help for commercial landlords. Entry to recover possession must be made \"in a peaceable manner and without force.\" Or. Rev. Stat. § 105.105. Oregon courts require that the lease expressly authorize reentry/relocking and that the landlord exercise it without force or breach of the peace; any use of force renders the self-help unlawful."
+      },
+      {
+        "heading": "Jurisdiction and Venue",
+        "text": "FED actions are tried in the circuit court for the county in which the property is located. Or. Rev. Stat. § 105.110. The action is limited to possession; attorney's fees are rarely awarded in the FED proceeding itself, and damages generally must be pursued in a separate civil action, to be reached on the court's ordinary docket."
+      },
+      {
+        "heading": "Timing",
+        "text": "After filing, the court sets a status/first appearance conference, typically seven to fifteen days after filing. If the parties do not settle, trial is set roughly seven to fifteen days later. Or. Rev. Stat. § 105.137. No continuance may be granted to a tenant for more than two days unless the tenant provides security for accruing rent, approved by the court. Or. Rev. Stat. § 105.140. Following a landlord's judgment, the court issues a notice of restitution (giving the tenant four days to vacate) and, if needed, a writ of execution directing the sheriff to remove the tenant. Or. Rev. Stat. §§ 105.151, 105.156, 105.161."
+      },
+      {
+        "heading": "Damages",
+        "text": "Rent-acceleration clauses are enforceable, though courts commonly limit recovery of future rent to roughly three years of damages (highly judge-dependent); a landlord may instead sue periodically for rent as it accrues. Oregon imposes a duty to mitigate damages on the landlord."
+      },
+      {
+        "heading": "Special Considerations",
+        "text": "Effective January 1, 2026, House Bill 3522 (2025 Or. Laws) allows an owner to use the FED process against squatters with an expedited 24-hour notice procedure. This mechanism targets unauthorized occupants with no lease and does not alter the notice or process rules that apply to a defaulting or holdover commercial tenant under an existing lease."
+      }
+    ],
+    "leaseConsiderations": [
+      "Express written reentry/relocking authorization to preserve the peaceable self-help remedy.",
+      "Contractual waiver of any otherwise-applicable notice period.",
+      "Rent-acceleration clause paired with a realistic future-damages cap given judicial reluctance to award more than roughly three years.",
+      "Express duty-to-mitigate and reletting provisions.",
+      "Attorney's fees provision, since fee-shifting is unlikely to be awarded in the summary FED proceeding itself.",
+      "Reservation of the right to pursue damages in a separate action from the possession suit.",
+      "Security/surety provisions addressing continuances."
+    ],
+    "sourceNotes": "Statutory authorities reviewed: Or. Rev. Stat. §§ 91.090, 105.105, 105.110, 105.115, 105.120, 105.137, 105.140, 105.151, 105.156, 105.161; House Bill 3522 (2025 Or. Laws), operative January 1, 2026 (squatter-removal provision).\n\n---"
+  },
+  {
+    "state": "Pennsylvania",
+    "classification": "Neutral",
+    "classificationRaw": "Neutral",
+    "sections": [
+      {
+        "heading": "Statutory Notice",
+        "text": "A commercial landlord must give ten days' written notice to quit for nonpayment of rent (or use of the premises for an illegal purpose), and thirty days' written notice for other breaches or termination at the end of a term. 68 Pa. Stat. Ann. § 250.501."
+      },
+      {
+        "heading": "Self-Help / Commercial Lockout",
+        "text": "Pennsylvania is generally counted among the states that prohibit self-help remedies for commercial landlords; recovery of possession must proceed through the magisterial district judge or court process rather than unilateral lockout. The one recognized exception is true abandonment: where a tenant has abandoned the premises, the landlord may re-enter without legal action and either collect rent from the abandoning tenant or relet and sue for any rent deficiency. Separate from possession, Pennsylvania's distraint (levy) statute continues to permit a landlord to seize a tenant's personal property found on the premises for rent due or in arrears, subject to statutory notice, timing (7 a.m.–7 p.m., not Sundays), and procedural requirements. 68 Pa. Stat. Ann. § 250.302. Courts have found aspects of the distress-*sale* process constitutionally infirm as applied in certain circumstances, so landlords should proceed carefully and expect this remedy to be contested if invoked."
+      },
+      {
+        "heading": "Jurisdiction and Venue",
+        "text": "The magisterial district judge hears commercial landlord-tenant possession actions, and a claim for possession may be combined with a claim for rent/damages in the same proceeding. 68 Pa. Stat. Ann. § 250.503."
+      },
+      {
+        "heading": "Timing",
+        "text": "Timing is variable, subject to the court's calendar. Id. § 250.503. The tenant must appear within seven to ten days of the date of the summons. Id. § 250.502. A writ of possession may issue upon request after the fifth day following judgment, must be served within forty-eight hours, and is executed on the eleventh day after service. Id. § 250.503."
+      },
+      {
+        "heading": "Damages",
+        "text": "A landlord may recover damages for unjust detention of the premises plus unpaid rent. Id. § 250.503. As a general rule a landlord must elect between retaking possession and collecting future rent, but accelerated rent may be recovered where (1) the lease so provides and (2) the tenant has abandoned the premises and the landlord has retaken possession — subject to a credit against the judgment for any rent the landlord collects from a replacement tenant. 69 A.3d 642, 656-57 (Pa. Super. 2013)."
+      },
+      {
+        "heading": "Special Considerations",
+        "text": "If a writ of possession issues solely for nonpayment of rent, the tenant may render it ineffective by paying the rent in arrears plus costs. 68 Pa. Stat. Ann. § 250.503. A landlord may dispose of a tenant's abandoned personal property, but must give at least ten days' written notice by first-class mail before doing so (with an additional thirty-day storage option), and faces treble damages, attorney's fees, and costs for noncompliance. Id. § 250.505a."
+      }
+    ],
+    "leaseConsiderations": [
+      "Explicit notice-and-cure provisions consistent with, or expanding on, the statutory 10-/30-day notice periods.",
+      "Express acceleration clause conditioned on abandonment and retaking of possession, with a reletting/mitigation credit mechanism.",
+      "Landlord-lien or distraint-related lease language, recognizing that any actual levy must still follow § 250.302's statutory procedure.",
+      "Attorney's fees provision, since a possession action may be combined with a rent claim before the magisterial district judge.",
+      "Detailed abandoned-property disposal procedures tracking § 250.505a's notice timing to avoid treble-damages exposure.",
+      "Non-waiver language addressing post-notice rent acceptance."
+    ],
+    "sourceNotes": "Statutory authorities reviewed: Landlord and Tenant Act of 1951, 68 Pa. Stat. Ann. §§ 250.302, 250.501, 250.502, 250.503, 250.505a; 69 A.3d 642 (Pa. Super. 2013) (acceleration/retaking-possession rule).\n\n---"
+  },
+  {
+    "state": "Rhode Island",
+    "classification": "Landlord-Friendly",
+    "classificationRaw": "Landlord-Friendly",
+    "sections": [
+      {
+        "heading": "Statutory Notice",
+        "text": "No notice is required before commencing a repossession action for nonpayment; an action may be brought once rent is fifteen days in arrears, whether or not demanded. R.I. Gen. Laws § 34-18.1-9 (Commercial Leasing and Other Estates chapter)."
+      },
+      {
+        "heading": "Self-Help / Commercial Lockout",
+        "text": "Self-help is expressly prohibited for commercial leases covered by this chapter, whether purportedly authorized by the common law or by a written or oral lease provision. R.I. Gen. Laws § 34-18.1-15."
+      },
+      {
+        "heading": "Jurisdiction and Venue",
+        "text": "The action for possession is filed in district court, and the court may award judgment for possession together with all rent due and costs in the same proceeding. R.I. Gen. Laws § 34-18.1-9."
+      },
+      {
+        "heading": "Timing",
+        "text": "Under the general forcible entry and detainer statute, a tenant must be served at least six days before trial. R.I. Gen. Laws § 34-19-3. In a commercial nonpayment action under § 34-18.1-9, the tenant must answer within seven days of service, and the case takes precedence on the court's calendar for hearing on the next court day after that period. An issued writ of possession must be executed within twenty days. R.I. Gen. Laws § 34-18.1-9."
+      },
+      {
+        "heading": "Damages",
+        "text": "A landlord may recover all rent due plus costs in the same action. R.I. Gen. Laws § 34-18.1-9. Rent-acceleration clauses are enforceable where expressly provided for in the lease, and the parties may expressly disclaim any duty to mitigate by agreement. 182 A.3d 46 (R.I. 2018)."
+      },
+      {
+        "heading": "Special Considerations",
+        "text": "A judgment in a general unlawful detainer action is not appealable. R.I. Gen. Laws § 34-19-8. A judgment in a nonpayment ejectment action under § 34-18.1-9 may be appealed to the superior court, but only within forty-eight hours and only if the tenant pays all rent due. R.I. Gen. Laws §§ 34-18.1-9, 34-18.1-18. Execution of an issued writ may be stayed only if the tenant pays all rent due, and a landlord does not waive its right to possession by accepting such payment. R.I. Gen. Laws § 34-18.1-16."
+      }
+    ],
+    "leaseConsiderations": [
+      "Express rent-acceleration clause, since it will not be implied.",
+      "Express mitigation-disclaimer language if the landlord wants to avoid a duty to mitigate.",
+      "Clear default/notice provisions, since the statute itself requires none for a nonpayment action.",
+      "Non-waiver language confirming that acceptance of post-filing rent does not waive the right to possession.",
+      "Attorney's fees and costs provisions, given the compressed appeal and stay windows.",
+      "Contractual notice-and-cure terms for defaults other than nonpayment, which fall outside the fifteen-day/no-notice nonpayment track."
+    ],
+    "sourceNotes": "Statutory authorities reviewed: R.I. Gen. Laws §§ 34-18.1-9, 34-18.1-15, 34-18.1-16, 34-18.1-18, 34-19-3, 34-19-8; 182 A.3d 46 (R.I. 2018) (acceleration and mitigation).\n\n---"
+  },
+  {
+    "state": "South Carolina",
+    "classification": "Neutral",
+    "classificationRaw": "Neutral",
+    "sections": [
+      {
+        "heading": "Statutory Notice",
+        "text": "No notice to quit is required when a tenant fails to pay rent when due, or when a lease term simply expires — the tenancy terminates automatically and the tenant must vacate forthwith. S.C. Code Ann. §§ 27-35-110, 27-35-140."
+      },
+      {
+        "heading": "Self-Help / Commercial Lockout",
+        "text": "Direct lockout self-help is not a favored remedy in South Carolina; commercial evictions are generally expected to proceed through the magistrate's court. A distinct, court-supervised distraint remedy is available: on abandonment (defined as a tenant's absence for fifteen days after a default in rent payment, S.C. Code Ann. § 27-35-150) or on a rent default generally, a landlord may file an affidavit of rent due (and, if applicable, an affidavit of abandonment) with the magistrate's court and obtain a warrant authorizing seizure and sale of the tenant's property on the premises to satisfy the arrearage; the tenant may halt a sale by posting bond and proceeding to trial. This distraint/distress process is not self-help in the sense of unilateral lockout — it requires a magistrate's court filing and warrant."
+      },
+      {
+        "heading": "Jurisdiction and Venue",
+        "text": "Circuit courts, county courts, and magistrates have concurrent jurisdiction over ejectment actions, S.C. Code Ann. § 27-33-40, but such actions are typically brought in magistrate's court, where possession and rent owed may be determined in the same proceeding. S.C. Code Ann. § 27-37-155."
+      },
+      {
+        "heading": "Timing",
+        "text": "The court orders the tenant to vacate or show cause within ten days after service of the order. S.C. Code Ann. § 27-37-20. If the tenant contests, trial proceeds as in any other civil case, id. § 27-37-60, and on motion the magistrate may set the ejectment matter for the next term of court following the tenant's appearance, id. § 27-37-155. After a verdict for the landlord, the magistrate must issue a writ of ejectment within five days, id. § 27-37-100, and the tenant has twenty-four hours to vacate once the writ is executed, id. § 27-37-160."
+      },
+      {
+        "heading": "Damages",
+        "text": "The tenant must pay rent due and accruing during the ejectment action, and rent continues to accrue after filing so long as the tenant remains in possession. S.C. Code Ann. §§ 27-37-150, 27-37-155. A holdover tenant who remains for three months after a written demand to surrender becomes liable for double the value of use of the premises, recoverable in a separate action. Id. § 27-35-170. A tenant is not liable for future rent once the tenancy is terminated unless the lease expressly provides for recovery of the rent that would have accrued for the remaining term (an enforceable acceleration provision), subject to the landlord's duty to make reasonable efforts to mitigate."
+      },
+      {
+        "heading": "Special Considerations",
+        "text": "Either party may appeal an ejectment judgment as in any other civil appeal, S.C. Code Ann. § 27-37-120, but an appeal does not stay ejectment unless the tenant posts an appeal bond set by the magistrate, id. § 27-37-130. A landlord does not waive the right to insist on ejectment by accepting rent payments after commencement of the ejectment proceeding. Id. § 27-37-150."
+      }
+    ],
+    "leaseConsiderations": [
+      "Express acceleration clause, coupled with acknowledgment of the landlord's duty to mitigate.",
+      "Express holdover-rent provision (to supplement or exceed the statutory double-value remedy under § 27-35-170).",
+      "Non-waiver language for acceptance of post-filing rent.",
+      "Drafting the default/abandonment definitions to align with the fifteen-day statutory abandonment trigger under § 27-35-150 if the landlord wants to rely on distraint.",
+      "Attorney's fees provision, since none is provided by statute for ejectment.",
+      "Appeal-bond and stay provisions addressed contractually where the parties want a different allocation than the statutory default."
+    ],
+    "sourceNotes": "Statutory authorities reviewed: S.C. Code Ann. §§ 27-33-40, 27-35-110, 27-35-140, 27-35-150, 27-35-170, 27-37-20, 27-37-60, 27-37-100, 27-37-120, 27-37-130, 27-37-150, 27-37-155, 27-37-160.\n\n---"
+  },
+  {
+    "state": "South Dakota",
+    "classification": "Landlord-Friendly",
+    "classificationRaw": "Landlord-Friendly",
+    "sections": [
+      {
+        "heading": "Statutory Notice",
+        "text": "No pre-filing notice to quit is required for nonpayment. Senate Bill 90 (2024 S.D. Sess. Laws, ch. 75), effective July 1, 2024, repealed former SDCL § 21-16-2, which had required three days' written notice to quit before a forcible entry and detainer action could be commenced. A landlord may now file a forcible entry and detainer action directly once a statutory default (e.g., failure to pay rent) exists, subject to any contrary notice provision the parties have written into the lease."
+      },
+      {
+        "heading": "Self-Help / Commercial Lockout",
+        "text": "No South Dakota statute prohibits commercial self-help; the common-law remedy may still be available. However, if a landlord wrongfully and forcibly ejects or excludes a tenant from rightful possession, the landlord may be liable for treble the tenant's actual damages. S.D. Codified Laws § 21-3-6."
+      },
+      {
+        "heading": "Jurisdiction and Venue",
+        "text": "Circuit court or magistrate court has jurisdiction over a forcible entry and detainer action concerning property in its county. S.D. Codified Laws § 21-16-3. Claims for rent and damages may be joined with the possession action, or possession and damages may be pursued in separate actions. Id. § 21-16-4."
+      },
+      {
+        "heading": "Timing",
+        "text": "The tenant must now appear and plead within five days after service (increased from the former four-day period by SB 90's amendment of SDCL § 21-16-7), and the court may not adjourn or continue the action for more than fourteen days unless the tenant provides \"good and sufficient surety\" covering rent that may accrue and damages the tenant may owe if judgment goes against him. S.D. Codified Laws § 21-16-7. The action may be brought to trial \"upon two days' notice after issue is joined.\" Id. § 21-16-8."
+      },
+      {
+        "heading": "Damages",
+        "text": "Rents, profits, damages, costs, and attorney's fees may be recovered, id. §§ 21-16-10, 21-16-11, although attorney's fees for the damages portion of the case are recoverable only if the lease expressly provides for them. A tenant who willfully holds over after notice to quit and demand for possession is liable for double rent thereafter, id. § 21-3-8, as is a tenant who fails to surrender possession after giving notice of intent to do so, id. § 21-3-7. South Dakota has not definitively resolved whether a landlord owes a duty to mitigate, though a landlord may at least decline to relet to an unsuitable replacement tenant. 800 N.W.2d 730 (S.D. 2011)."
+      },
+      {
+        "heading": "Special Considerations",
+        "text": "If a landlord accepts rent after lease expiration, the lease is presumed to renew on the same terms for the same term length, up to one year. S.D. Codified Laws § 43-32-14."
+      },
+      {
+        "heading": "2026 Update Note",
+        "text": "Effective July 1, 2024, Senate Bill 90 (2024 S.D. Sess. Laws, ch. 75) repealed the three-day statutory notice-to-quit requirement of former SDCL § 21-16-2 and amended SDCL § 21-16-7 to extend the tenant's appearance period from four to five days after service, streamlining the front end of the eviction timeline for South Dakota landlords."
+      }
+    ],
+    "leaseConsiderations": [
+      "Contractual notice-and-cure provisions, since the statutory pre-filing notice requirement no longer exists as a floor.",
+      "Express acceleration and holdover double-rent provisions to supplement §§ 21-3-7 and 21-3-8.",
+      "Attorney's fees clause covering the damages portion of any combined possession/rent action.",
+      "Self-help/reentry language addressing peaceable-manner limits, given the treble-damages exposure under § 21-3-6 for wrongful forcible exclusion.",
+      "Express duty-to-mitigate (or disclaimer) language, since South Dakota case law has not settled the question.",
+      "Renewal/holdover-acceptance language to override the automatic one-year-renewal presumption under § 43-32-14 if not desired."
+    ],
+    "sourceNotes": "Statutory authorities reviewed: S.D. Codified Laws §§ 21-3-6, 21-3-7, 21-3-8, 21-16-3, 21-16-4, 21-16-7, 21-16-8, 21-16-10, 21-16-11, 43-32-14; Senate Bill 90, 2024 S.D. Sess. Laws, ch. 75, effective July 1, 2024; 800 N.W.2d 730 (S.D. 2011) (mitigation).\n\n---"
+  },
+  {
+    "state": "Tennessee",
+    "classification": "Landlord-Friendly",
+    "classificationRaw": "Landlord-Friendly",
+    "sections": [
+      {
+        "heading": "Statutory Notice",
+        "text": "No statutory notice to quit is required before filing a forcible entry and detainer action; the detainer warrant itself serves as notice. Tenn. Code Ann. § 29-18-113."
+      },
+      {
+        "heading": "Self-Help / Commercial Lockout",
+        "text": "Self-help is prohibited in Tennessee; landlords must obtain possession through the judicial forcible entry and detainer process rather than by unilateral lockout, subject to a narrow exception for true abandonment or voluntary surrender."
+      },
+      {
+        "heading": "Jurisdiction and Venue",
+        "text": "A forcible detainer action may be brought in the circuit court or the court of general sessions for the county where the property is located. Tenn. Code Ann. §§ 29-18-107, 29-18-108. Damages are assessed as part of the possession action. Id. §§ 29-18-120, 29-18-125."
+      },
+      {
+        "heading": "Timing",
+        "text": "Trial may not be set less than six days from the date the tenant is served with the detainer warrant. Tenn. Code Ann. § 29-18-117. The trial date may be extended, by either party, up to fifteen days (or longer by agreement). Id. § 29-18-118. Circuit court actions go to trial on the first term after the pleadings close. Id. § 29-18-120. A writ of possession may not issue sooner than ten days after judgment, id. § 29-18-126, and the sheriff has twenty days to execute and return the writ, id. § 29-18-127."
+      },
+      {
+        "heading": "Damages",
+        "text": "Damages for breach of a commercial lease should place the landlord in the position it would have occupied absent the breach, subject to the landlord's duty to mitigate; the tenant bears the burden of proving the landlord failed to exercise reasonable care and diligence in mitigating. Acceleration clauses and attorney's fees provisions are enforceable where set forth in the lease."
+      },
+      {
+        "heading": "Special Considerations",
+        "text": "A tenant has ten days to appeal. Tenn. Code Ann. § 29-18-128. An eviction action in general sessions court is tried by the judge without a jury. Id. § 29-18-107. Before a writ may issue, the landlord must post bond covering costs and damages that may accrue to the tenant for wrongful prosecution. Id. § 29-18-111."
+      },
+      {
+        "heading": "2026 Update Note",
+        "text": "Effective July 1, 2025, Public Chapter 90 (2025) (S.B. 292/H.B. 216) amended Tenn. Code Ann. Titles 29 and 66 to create an expedited procedure — a verified \"Complaint to Remove Persons Unlawfully Occupying Commercial Real Property,\" submitted to the county sheriff — for commercial property owners to remove squatters and other unauthorized occupants of vacant commercial real estate. This new procedure applies only to occupants with no valid lease; a tenant holding under a signed commercial lease remains subject to, and protected by, the standard forcible entry and detainer process described above."
+      }
+    ],
+    "leaseConsiderations": [
+      "Express acceleration clause and attorney's fees provision, since neither is implied by statute.",
+      "Mitigation-standard language allocating the burden of proof consistent with (or varying) the default rule placing that burden on the tenant.",
+      "Contractual notice-and-cure terms, since none is required by statute before filing.",
+      "Bond/security provisions addressing the landlord's statutory obligation to post bond before a writ issues.",
+      "Jury-trial waiver language for any circuit court proceeding, since general sessions actions are already tried without a jury.",
+      "Provisions distinguishing lease-based default remedies from the new Public Chapter 90 unauthorized-occupant procedure, to avoid inadvertently treating a defaulting tenant as an unlawful occupant."
+    ],
+    "sourceNotes": "Statutory authorities reviewed: Tenn. Code Ann. §§ 29-18-107, 29-18-108, 29-18-111, 29-18-113, 29-18-117, 29-18-118, 29-18-120, 29-18-125, 29-18-126, 29-18-127, 29-18-128; Public Chapter 90 (2025 Tenn. Pub. Acts) (S.B. 292/H.B. 216), effective July 1, 2025.\n\n---"
+  },
+  {
+    "state": "Utah",
+    "classification": "Landlord-Friendly",
+    "classificationRaw": "Landlord-Friendly",
+    "sections": [
+      {
+        "heading": "Statutory Notice",
+        "text": "Utah requires three days' written notice before an unlawful detainer action based on nonpayment of rent may proceed, and notice may be served any time after rent becomes due. Utah Code Ann. § 78B-6-802(1)(c)."
+      },
+      {
+        "heading": "Self-Help / Commercial Lockout",
+        "text": "Contrary to the 2022 baseline, Utah law does prohibit self-help exclusion of a tenant: it is unlawful for an owner to willfully exclude a tenant from the premises \"in any manner except by judicial process.\" Utah Code Ann. § 78B-6-814. The statute carves out an abandonment exception — the landlord may retake and attempt to relet premises, and may remove the contents, once the premises are abandoned (presumed, among other things, where the tenant fails to notify the owner of an absence and fails to pay rent within fifteen days of the due date with no other reasonable evidence of continued occupancy). Id. §§ 78B-6-814, 78B-6-816. Section 78B-6-814 is not limited to residential tenancies and applies to commercial leases as well."
+      },
+      {
+        "heading": "Jurisdiction and Venue",
+        "text": "A plaintiff may claim damages, compensation for occupation of the premises, or both, in the same unlawful detainer action. Utah Code Ann. § 78B-6-807(1)(c)."
+      },
+      {
+        "heading": "Timing",
+        "text": "A defendant must appear within three business days of service unless the defendant objects and the court finds more time warranted. Id. § 78B-6-807(3)(a). If the tenant remains in possession, the court must expedite proceedings and begin trial within sixty days of service of the complaint absent agreement otherwise. Id. § 78B-6-810(1). On request of either party, the court must hold an evidentiary hearing within ten business days after the answer or response to determine occupancy rights pending litigation, and may enter final judgment at that hearing if all issues can be adjudicated without further proceedings. Id. § 78B-6-810(2)."
+      },
+      {
+        "heading": "Damages",
+        "text": "A plaintiff may recover damages from forcible entry, forcible or unlawful detainer, waste (if alleged and proved), amounts due under the contract, and abatement of a nuisance, where applicable. Id. § 78B-6-811(2). Judgment against a losing defendant includes rent, three times the assessed damages, costs, and reasonable attorney's fees. Id. § 78B-6-811(3), (5). Utah applies a \"retained jurisdiction\" approach for future rent, under which the court retains jurisdiction over the parties and subject matter and may enter supplemental damage awards as additional rent accrues, based on past events and taking the landlord's mitigation efforts into account. 776 P.2d 896, 908 (Utah 1989)."
+      }
+    ],
+    "leaseConsiderations": [
+      "Do not rely on self-help/lockout language as a stand-alone remedy; Utah requires judicial process except in a defined abandonment scenario.",
+      "Precisely defined abandonment provisions tracking the statutory presumption under § 78B-6-814/816 if the landlord wants to invoke the self-help exception.",
+      "Acceleration clause paired with mitigation language, given the retained-jurisdiction approach to future rent.",
+      "Attorney's fees provision (though the statute already provides fee-shifting in unlawful detainer judgments, express lease language avoids ambiguity).",
+      "Notice-and-cure provisions consistent with, or extending, the three-day statutory floor.",
+      "Provisions addressing the treble-damages exposure under § 78B-6-811 for a losing tenant."
+    ],
+    "sourceNotes": "Statutory authorities reviewed: Utah Code Ann. §§ 78B-6-802, 78B-6-807, 78B-6-810, 78B-6-811, 78B-6-814, 78B-6-816; 776 P.2d 896 (Utah 1989) (retained-jurisdiction approach to future rent).\n\n---"
+  },
+  {
+    "state": "Vermont",
+    "classification": "Neutral",
+    "classificationRaw": "Neutral",
+    "sections": [
+      {
+        "heading": "Statutory Notice",
+        "text": "Vermont does not require a commercial landlord to give a notice of default unless the lease itself requires one."
+      },
+      {
+        "heading": "Self-Help / Commercial Lockout",
+        "text": "No Vermont statute prohibits a commercial landlord from using self-help remedies, provided they are exercised in a peaceable manner. Vt. Stat. Ann. tit. 12, § 4911 (entry must not be made \"with strong hand or multitude of people,\" but only peaceably)."
+      },
+      {
+        "heading": "Jurisdiction and Venue",
+        "text": "Entry and detainer actions proceed under Title 12, Chapter 171 of the Vermont Statutes. A landlord may recover treble damages beginning at the time notice to quit is delivered to the tenant; before notice is given, only actual damages are recoverable in a separate trespass action. Vt. Stat. Ann. tit. 12, § 4923."
+      },
+      {
+        "heading": "Timing",
+        "text": "No specific statutory timeline governs the pace of a Vermont commercial eviction action; timing is variable and depends on the general civil docket."
+      },
+      {
+        "heading": "Damages",
+        "text": "A prevailing party may recover court costs and a nominal fine not to exceed $10, in the court's discretion. Vt. Stat. Ann. tit. 12, §§ 4916, 4917. Treble damages are available, accruing from the time notice to quit is given. Id. § 4923. A commercial landlord has a duty to mitigate when a tenant abandons the premises, though this duty does not relieve the tenant of its existing lease obligation to pay rent, and a landlord is not required to accept a tenant's attempted surrender. 648 A.2d 1374, 1376-77 (Vt. 1994)."
+      },
+      {
+        "heading": "Special Considerations",
+        "text": "A 2026 legislative effort (S.309/H.772, which would have added a \"just cause\" ejectment framework and confidentiality provisions to Title 12, Chapter 169) failed on the Senate floor in May 2026 after a 15-15 tie vote, so it did not become law; current commercial ejectment/entry-and-detainer procedure is unchanged from the pre-existing statutory scheme described above."
+      }
+    ],
+    "leaseConsiderations": [
+      "Express default-notice provisions, since none is required by statute.",
+      "Express self-help/reentry authorization confirming peaceable-manner limits under § 4911.",
+      "Acceleration clause language, since Vermont's default remedy structure (nominal statutory damages plus treble damages tied to notice) does not itself provide for future-rent recovery.",
+      "Mitigation and non-acceptance-of-surrender language tracking Vermont case law.",
+      "Contractual timing/procedure provisions (expedited notice-and-cure, arbitration, or similar), given the absence of a statutory eviction timeline.",
+      "Monitor future legislative sessions, since comprehensive landlord-tenant reform efforts have recently come close to passage."
+    ],
+    "sourceNotes": "Statutory authorities reviewed: Vt. Stat. Ann. tit. 12, §§ 4911, 4916, 4917, 4923; 648 A.2d 1374 (Vt. 1994) (mitigation/surrender); S.309 and H.772 (2026 Vt. biennium, introduced but not enacted).\n\n---"
+  },
+  {
+    "state": "Virginia",
+    "classification": "Landlord-Friendly",
+    "classificationRaw": "Landlord-Friendly",
+    "sections": [
+      {
+        "heading": "Statutory Notice",
+        "text": "A commercial landlord may proceed to recover possession after giving five days' written notice for failure to pay rent; the tenant forfeits the right of possession if the default continues for five days after receipt of the notice. Va. Code Ann. § 55.1-1415."
+      },
+      {
+        "heading": "Self-Help / Commercial Lockout",
+        "text": "Self-help eviction remains available to a commercial (nonresidential) landlord without further legal process, so long as it does not incite a breach of the peace. Va. Code Ann. § 55.1-1415. Nothing in the statute precludes the landlord from instead pursuing an unlawful detainer action under Article 13 of Title 8.01. In practice, landlords commonly exercise self-help by relocking premises while the tenant's business is closed and unoccupied, to minimize breach-of-the-peace risk."
+      },
+      {
+        "heading": "Jurisdiction and Venue",
+        "text": "Jurisdiction lies with either the circuit court or the general district court. Va. Code Ann. §§ 8.01-124, 8.01-126. A suit for possession may be combined with a suit for damages and rent owed. Id. § 8.01-128."
+      },
+      {
+        "heading": "Timing",
+        "text": "Repossession — whether by self-help or legal process — may begin once the tenant is five days in default following written notice. Id. § 55.1-1415. Unlawful detainer actions are generally handled like other civil jury trials, id. § 8.01-125, but the plaintiff may request bifurcation: a final, appealable judgment for possession at the initial hearing on the unlawful detainer summons, with a continuance date set no later than 120 days from that hearing to determine final rent and damages. Id. § 8.01-128. If the defendant contests the amount of rent and damages at the initial hearing, the court will not bifurcate the case."
+      },
+      {
+        "heading": "Damages",
+        "text": "Damages sustained from unlawful possession, together with any rent owed, may be recovered. Id. § 8.01-128(A). Virginia recognizes the validity of acceleration clauses in commercial leases, but such a clause may be an unenforceable penalty if grossly disproportionate to actual damages. 1996 WL 1065475, at *2 (Va. Cir. Ct. 1996)."
+      },
+      {
+        "heading": "Special Considerations",
+        "text": "Many Virginia landlord-tenant provisions include \"unless the lease provides otherwise\" language, and Virginia courts broadly respect the parties' freedom to contract around the Code's default provisions, particularly where the contract grants the parties greater rights than the statute provides."
+      },
+      {
+        "heading": "2026 Update Note",
+        "text": "Effective July 1, 2024, amendments to Va. Code Ann. § 8.01-128 clarified and codified the bifurcation procedure described above — allowing a plaintiff to obtain a final, appealable possession judgment at the initial hearing while continuing the rent/damages determination for up to 120 days — and specified that the court will not bifurcate if the defendant contests the rent and damages amount at that initial hearing. Commercial landlords and counsel should confirm the current pleading-form requirements (including requesting all amounts due as of the hearing date, plus an approximation of amounts coming due) reflect this codified procedure."
+      }
+    ],
+    "leaseConsiderations": [
+      "Express self-help/reentry provisions, since Virginia remains one of the minority of states permitting peaceable commercial self-help.",
+      "Acceleration clause drafted to avoid characterization as an unenforceable penalty (i.e., reasonably related to anticipated damages).",
+      "Contractual notice periods that expand on, or otherwise supersede, the five-day statutory floor where the parties prefer a different standard.",
+      "Bifurcation-aware drafting: attorney's fees and rent-acceleration provisions that will support a strong damages case within the 120-day continuance window.",
+      "Non-waiver language for acceptance of rent following notice or filing.",
+      "Explicit \"lease provides otherwise\" drafting wherever the parties want to displace a Code default rule, given Virginia courts' willingness to enforce such contractual variations."
+    ],
+    "sourceNotes": "Statutory authorities reviewed: Va. Code Ann. §§ 8.01-124, 8.01-125, 8.01-126, 8.01-128, 55.1-1415; 1996 WL 1065475 (Va. Cir. Ct. 1996) (acceleration-clause penalty doctrine); 2024 amendments to § 8.01-128 (bifurcation procedure), effective July 1, 2024."
+  }
+]

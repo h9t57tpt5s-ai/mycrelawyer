@@ -1,0 +1,172 @@
+Commercial Eviction Handbook
+
+Texas and California Update Guidebook
+
+Commercial Evictions Only | Updated August 2026
+
+____________________________________________
+
+Item
+
+Detail
+
+Prepared for
+
+Jeff Novel
+
+Purpose
+
+Clean replacement guidebook sections for the Commercial Eviction Handbook.
+
+Scope limitation
+
+Commercial eviction issues only. Residential eviction rules are excluded unless expressly relevant to commercial tenancy proceedings.
+
+Jurisdictions covered
+
+Texas and California.
+
+Revision basis
+
+Verified statutory and procedural updates through August 2026, using the authorities listed in the Source Notes.
+
+Use note: This guidebook is designed to be inserted into the larger 50-state Commercial Eviction Handbook as clean replacement text for the Texas and California chapters.
+
+
+
+2026 Revision Notice
+
+The Texas and California chapters have been comprehensively revised to reflect verified statutory and procedural developments through August 2026 affecting commercial eviction practice. Residential eviction statutes, residential tenant protections, and residential procedural rules have been intentionally excluded unless expressly relevant to commercial tenancy proceedings.
+
+Commercial-Only Methodology
+
+The guide addresses commercial tenancies only.
+
+The guide focuses on notice, self-help or lockout rights, jurisdiction, venue, possession procedure, timing, damages, mitigation, appeal issues, and commercial lease drafting considerations.
+
+Residential-only reforms, hardship rules, mediation requirements, and tenant-protection statutes are omitted unless the source expressly applies to commercial tenancy proceedings.
+
+This guide is a practical screening tool and not a substitute for state-specific legal advice or local-counsel review.
+
+Texas
+
+Statutory Notice
+
+Unless the parties have contracted for a shorter or longer notice period in a written lease or agreement, a landlord must give a tenant who defaults or holds over beyond the end of the rental term or renewal period at least three days' written notice to vacate before filing a forcible detainer suit. Beginning January 1, 2026, Texas Property Code § 24.005 distinguishes certain nonpayment actions by requiring a notice to pay rent or vacate when the tenant's right of possession is terminated solely for nonpayment of rent and the tenant was not delinquent before the month in which the notice was given. Section 24.005 also specifies approved notice-delivery methods, including mail, delivery inside the premises in a conspicuous place, hand delivery to a tenant age 16 or older, and approved electronic delivery where agreed in writing.
+
+Commercial Lockout / Self-Help
+
+Texas continues to permit commercial lockouts under Chapter 93 of the Texas Property Code. A commercial landlord may change the door locks of a tenant who is delinquent in paying at least part of the rent. However, the landlord may not intentionally exclude a commercial tenant except by judicial process unless the exclusion results from bona fide repairs, construction, an emergency, abandonment, or a lockout authorized by § 93.002. The landlord must post written notice on the tenant’s front door identifying the person or company from which a new key may be obtained. Chapter 93 also provides a statutory reentry remedy if a tenant is unlawfully locked out.
+
+Commercial Tenant Reentry
+
+If a commercial tenant is locked out in violation of § 93.002, the tenant may file a sworn complaint for reentry in the justice court where the premises are located. The court may issue an ex parte writ of reentry granting temporary possession pending a final hearing if the court reasonably believes an unlawful lockout likely occurred. A writ of possession supersedes a writ of reentry.
+
+Jurisdiction and Venue
+
+A justice court in the precinct where the leased premises are located has jurisdiction over eviction proceedings, and the eviction action must be filed in that precinct. The justice court adjudicates possession rights but does not determine title disputes. Counterclaims and third-party claims are not permitted in the eviction action and must be asserted separately.
+
+Possession Procedure
+
+For eviction actions filed on or after January 1, 2026, Rule 510 governs eviction proceedings. Texas law now authorizes summary disposition procedures in specified forcible entry and detainer actions where no genuine dispute of material fact exists. A landlord may file a sworn motion for summary disposition together with the petition and obtain judgment without trial unless the tenant timely demonstrates the existence of a genuine factual dispute.
+
+Timing
+
+Service of the citation and petition generally must be attempted within five business days after filing. Trial must occur no earlier than the tenth day and no later than the twenty-first day after the petition is filed, may not occur earlier than the fourth day after service on the tenant, and may not be postponed more than seven days absent written agreement of the parties.
+
+Damages
+
+Texas continues to recognize acceleration provisions when properly drafted and continues to impose a duty to mitigate damages following abandonment of leased premises. Unpaid rent claims may be joined in the eviction action where permitted by Rule 510. Landlords should preserve future-rent remedies, acceleration rights, attorney-fee provisions, and post-possession damage claims in the lease documents.
+
+2026 Update Note
+
+Effective January 1, 2026, Chapter 24 of the Texas Property Code and Rule 510 underwent substantial revision through S.B. 38. The amendments address notice content, delivery methods, venue, computation of time, service requirements, summary disposition procedures, trial timing, and appellate procedures. Commercial landlords should ensure that all notices, lease forms, and eviction procedures are reviewed for compliance with the revised statutory framework.
+
+Key Commercial Lease Drafting Considerations
+
+Express acceleration clause.
+
+Attorney’s fees provision.
+
+Survival of damages after repossession.
+
+Contractual notice periods.
+
+Electronic notice authorization.
+
+Commercial lockout procedures.
+
+Mitigation language.
+
+Reservation of separate damages claims.
+
+
+
+California
+
+Statutory Notice
+
+Commercial notice requirements depend upon the basis for termination and the provisions of the lease. Before initiating an unlawful detainer action, landlords should verify the applicable commercial notice provisions, cure rights, and lease-specific requirements governing the default at issue. Current notice analysis should always be reviewed in conjunction with California’s unlawful detainer statutes and the lease language.
+
+Commercial Lockout / Self-Help
+
+Self-help is not an available commercial eviction remedy in California. Commercial landlords generally must recover possession through unlawful detainer proceedings rather than lockout or other unilateral exclusion methods.
+
+Possession Proceeding
+
+Commercial possession disputes are generally resolved through unlawful detainer proceedings. Because the scope of relief available in an unlawful detainer action is narrower than in general civil litigation, landlords should separately evaluate possession claims and broader lease-damage claims. Depending on the circumstances, additional lease-damage claims may require separate litigation.
+
+Timing
+
+California continues to provide expedited unlawful detainer procedures. Effective January 1, 2026, Assembly Bill 1384 amended Code of Civil Procedure § 1170. In a commercial unlawful detainer action, when a defendant files a demurrer or motion to strike, the hearing generally must occur between five and seven court days after filing. In commercial tenancy cases, any continuance granted for good cause may not exceed ten court days after the first hearing date established by the court. These amendments were enacted to reduce delays in commercial unlawful detainer proceedings.
+
+Damages
+
+California Civil Code § 1951.2 governs damages following termination of a lease due to tenant breach. Upon termination, a landlord may recover:
+
+Unpaid rent earned before termination;
+
+Rent damages accruing through the time of award;
+
+Future-rent damages where authorized by the lease and statute; and
+
+Other detriment proximately caused by the tenant’s breach.
+
+Future-rent recovery remains subject to the requirements of Civil Code § 1951.2(c), and mitigation principles continue to apply. A landlord’s efforts to mitigate damages do not waive the right to recover damages authorized by § 1951.2.
+
+Mitigation
+
+California continues to reduce recoverable post-termination and future-rent damages by rental losses that could reasonably have been avoided. The statutory framework expressly contemplates mitigation while preserving the landlord’s damages claims.
+
+2026 Update Note
+
+Effective January 1, 2026, AB 1384 amended California Code of Civil Procedure § 1170 and imposed stricter timing requirements for hearings on demurrers and motions to strike in commercial unlawful detainer proceedings. Commercial landlords should evaluate pleading strategy and motion practice with these expedited hearing requirements in mind.
+
+Key Commercial Lease Drafting Considerations
+
+Express future-rent damages provision.
+
+Acceleration clause complying with Civil Code § 1951.2.
+
+Attorney’s fees provision.
+
+Detailed default and cure provisions.
+
+Reservation of remedies following reentry.
+
+Non-waiver language for acceptance of payments.
+
+Clarification of mitigation and reletting rights.
+
+Post-termination damage provisions.
+
+
+
+Source Notes
+
+Texas authorities reviewed and used for the Texas replacement section: Texas Property Code Chapter 24 as amended by Acts 2025, 89th Leg., R.S., Ch. 960 (S.B. 38), effective January 1, 2026; Texas Property Code Chapter 93, Commercial Tenancies; and the Supreme Court of Texas amended order giving preliminary approval of amendments to Rule 143a and Part V of the Texas Rules of Civil Procedure, Misc. Docket No. 25-9105, dated December 31, 2025.
+
+California authorities reviewed and used for the California replacement section: California Assembly Bill 1384, Chapter 299, Statutes of 2025, amending Code of Civil Procedure § 1170; and California Civil Code § 1951.2.
+
+Original source document consulted: 2022.08.19 Commercial Eviction Handbook.docx.
+

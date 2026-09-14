@@ -1,0 +1,136 @@
+{
+  "slip_and_fall_hazardous_condition": [
+    {
+      "caseName": "Victoria Marcano v. Publix Super Markets, Inc.",
+      "citation": "Case No. 2024-CA-001128, Circuit Court, Osceola County, Florida (jury verdict, reported Feb. 2026)",
+      "year": 2026,
+      "outcome": "Marcano slipped on liquid in the beverage aisle of a Publix grocery store in Kissimmee, Florida on June 5, 2023; trial evidence showed employees had already cleaned liquid in the same spot before her fall. After a six-day trial the jury found Publix 100% liable. She required three spinal surgeries (one cervical, two lumbar), and the jury awarded $3,967,000.",
+      "dollarAmount": 3967000,
+      "sourceUrl": "https://westorlandonews.com/multi-million-dollar-jury-verdict-against-publix-super-markets-in-florida/",
+      "confidence": "high"
+    },
+    {
+      "caseName": "Deborah Fenton v. Nevada Property 1, LLC (The Cosmopolitan of Las Vegas)",
+      "citation": "Eighth Judicial District Court, Clark County, Nevada, before Judge Eric Johnson (jury verdict, April 2025)",
+      "year": 2025,
+      "outcome": "Fenton slipped and fell on spilled water and glass at the Chandelier Bar during a private event at The Cosmopolitan Las Vegas hotel-casino on September 24, 2021, developing Complex Regional Pain Syndrome. A Clark County jury found the hotel liable for an unsafe/dangerous condition on its commercial premises and awarded $15,000,000 (about $1.24 million in past/future medical costs and roughly $13.7 million in past and future pain and suffering).",
+      "dollarAmount": 15000000,
+      "sourceUrl": "https://www.casino.org/news/jury-awards-15m-to-slip-and-fall-victim-at-cosmopolitan-las-vegas/",
+      "confidence": "high"
+    },
+    {
+      "caseName": "Pablo Scipione v. Kinkisharyo International, LLC",
+      "citation": "Los Angeles County Superior Court, California (jury verdict, May 21, 2024)",
+      "year": 2024,
+      "outcome": "Scipione, an electrical contractor, slipped on water that had pooled overnight atop a train car at Kinkisharyo's commercial/industrial train-manufacturing facility in Palmdale, California in February 2016, hyperextending his ankle/knee and later developing Complex Regional Pain Syndrome. A Los Angeles jury rejected the company's defense that he was an employee limited to workers' comp and awarded $58,358,431 ($54,158,431 compensatory plus $4,200,000 punitive) -- reported as the largest slip-and-fall verdict in U.S. history. NOTE: this is an industrial (not retail) commercial premises, and the verdict size is a significant outlier driven partly by punitive damages tied to an employment-status dispute -- do not treat as a typical comp.",
+      "dollarAmount": 58358431,
+      "sourceUrl": "https://www.insurancejournal.com/news/west/2024/05/23/775477.htm",
+      "confidence": "high"
+    },
+    {
+      "caseName": "William & Elaine Kidd v. WKS Restaurant Corporation (dba El Pollo Loco)",
+      "citation": "Jury verdict, Kern County Superior Court, Bakersfield, California (exact verdict date and docket number not independently confirmed; reported figures range $16M-$16.5M across sources, most commonly cited as $16.2M)",
+      "year": 2015,
+      "outcome": "Kidd slipped and fell on a wet floor leaving the restroom of an El Pollo Loco restaurant in Bakersfield in 2012; employees had been cleaning the grills with slippery cleaning solution about an hour before closing (in violation of company policy against paying overtime for after-close cleaning). Kidd suffered a torn quadriceps tendon and a claimed mild traumatic brain injury. After a four-week trial, the jury found the restaurant negligent and awarded approximately $16.2 million.",
+      "dollarAmount": 16200000,
+      "sourceUrl": "https://www.turnto23.com/news/local-news/jury-awards-16-million-to-man-who-slipped-and-fell-at-bakersfield-el-pollo-loco",
+      "confidence": "medium"
+    }
+  ],
+  "inadequate_security_third_party_crime": [
+    {
+      "caseName": "Kathleen Dawson v. Hilton Management LLC and Larry Joe Clowers, Jr.",
+      "citation": "Jury verdict, 189th Judicial District Court, Harris County, Texas, Cause No. 2018-84453, Nov. 17, 2021",
+      "year": 2021,
+      "outcome": "A Hilton Americas-Houston guest was found unconscious outside the hotel; hotel staff, without verifying her identity or room assignment, wheeled her into the room of a male conference attendee (not her own registered room), where she was sexually assaulted. A Harris County jury found Hilton Management LLC 90% liable for negligent security/verification failures and returned a $44 million verdict (with the assailant assigned roughly the remaining liability). Two weeks later, Hilton and Dawson settled the case for a confidential, undisclosed amount before final judgment -- the $44M figure is the jury verdict, not the final payout.",
+      "dollarAmount": 44000000,
+      "sourceUrl": "https://www.click2houston.com/news/local/2021/11/19/woman-wins-44m-in-suit-against-houston-hilton-hotel-after-alleged-sexual-assault-lawyers-say/",
+      "confidence": "high"
+    },
+    {
+      "caseName": "Wahlstrom v. JPA I Management Co., Inc. and JPA IV Management Co., Inc.",
+      "citation": "Jury verdict, Massachusetts Superior Court, Aug. 11, 2015",
+      "year": 2015,
+      "outcome": "A woman was raped in the parking garage of a Radisson Hotel in Massachusetts in 2009. The hotel's owner and operator had learned that another woman was raped in the same garage just 12 days earlier but failed to warn guests or add security. A jury found the ownership/management entities liable for inadequate security and awarded the plaintiff $6.6 million; the man responsible later pleaded guilty to both rapes.",
+      "dollarAmount": 6600000,
+      "sourceUrl": "https://www.cbsnews.com/news/jury-awards-6-6m-to-woman-raped-in-massachusetts-hotel-parking-garage",
+      "confidence": "high"
+    },
+    {
+      "caseName": "Estate of Trabis Ward v. American Federated Title Corp., Fitzgerald Group, LLC, and Aquanysa 1, LLC (d/b/a J&L Liquors)",
+      "citation": "Settlement, Broward County, Florida (announced Aug. 29, 2022)",
+      "year": 2022,
+      "outcome": "Trabis Ward was shot and killed by an unknown assailant in the parking lot of a Lauderdale Lakes shopping plaza around midnight on October 10, 2020. The plaintiff alleged the plaza's anchor tenant, a liquor store, was allowed to operate as an unlicensed late-night gathering/bar spot with no security, fostering the violence that led to the shooting, and that the plaza owner/manager and liquor store failed to provide adequate security. The case settled for $4.55 million total ($1 million from the liquor store's policy limits and $3.55 million from the property owner/manager). Sourced only via the plaintiff's law firm's own case-results page -- no independent news/docket confirmation located.",
+      "dollarAmount": 4550000,
+      "sourceUrl": "https://haggardlawfirm.com/4-55-million-obtained-in-broward-county-negligent-security-wrongful-death-case/",
+      "confidence": "medium"
+    },
+    {
+      "caseName": "Raman Reyes v. Rain On Events, LLC (and Ivis Perdomo)",
+      "citation": "Jury verdict, Superior Court of New Jersey, Bergen County (Judge Michael Beukas), Feb. 7, 2025",
+      "year": 2025,
+      "outcome": "Raman Reyes was shot in the head and left legally blind while leaving a private party at Rain nightclub in Teaneck, NJ, after the club's security allegedly admitted a visibly intoxicated attendee without checking his bag (which held the gun) and ignored his stated threat to shoot someone. Following a two-week civil trial, a Bergen County jury awarded $3 million, assigning 60% fault to the nightclub operator Rain On Events, 35% to the shooter, and 5% to Reyes, reducing his net recovery to $2.85 million. Sourced only via the plaintiff's law firm's own case-results page -- no independent news/docket confirmation located.",
+      "dollarAmount": 3000000,
+      "sourceUrl": "https://pagliaralawgroup.com/law-firm-in-new-jersey-wins-3-million-verdict-against-nightclub-for-patron-shooting/",
+      "confidence": "medium"
+    }
+  ],
+  "negligent_maintenance_structural_failure": [
+    {
+      "caseName": "Wosinski v. Advance Cast Stone Co.",
+      "citation": "2017 WI App 51, 377 Wis. 2d 596, 901 N.W.2d 797 (Wis. Ct. App. 2017); jury verdict, Milwaukee County Circuit Court, Nov. 2013",
+      "year": 2017,
+      "outcome": "A 13.5-ton precast concrete facade panel fell from the O'Donnell Park parking garage, a Milwaukee County-owned commercial parking structure, in June 2010, killing a 15-year-old bystander and injuring two others below. A Milwaukee County jury found panel manufacturer/installer Advance Cast Stone primarily at fault for installing the panel with only two of the four required steel connecting rods and concealing the defect, awarding roughly $39 million in compensatory and punitive damages; the Wisconsin Court of Appeals affirmed the verdict in 2017, though it capped the manufacturer's insurer's exposure at its $10 million policy limit.",
+      "dollarAmount": 39000000,
+      "sourceUrl": "https://www.courthousenews.com/39-million-verdict-upheld-milwaukee-parking-garage-death/",
+      "confidence": "high"
+    },
+    {
+      "caseName": "Valdez v. Macy's Retail Holdings, Inc. and ThyssenKrupp Elevator Corp.",
+      "citation": "Jury verdict/settlement, Superior Court of New Jersey, Bergen County, settled May 2016",
+      "year": 2016,
+      "outcome": "An 11-year-old girl's foot and leg were caught, crushed, and torn in a 58-year-old escalator at a Macy's department store in the Garden State Plaza mall in Paramus, NJ in August 2013, requiring roughly 15-22 surgeries. An independent NBC New York investigation confirmed the escalator's required maintenance had not been completed and its temporary operating certificate had expired before the accident. Macy's (owner) and ThyssenKrupp Elevator (contracted for inspection/maintenance) settled the resulting lawsuit for $15 million without admitting liability.",
+      "dollarAmount": 15000000,
+      "sourceUrl": "https://www.nbcnewyork.com/news/local/girl-loses-toes-escalator-accident-macys-garden-state-plaza-mall-expired-certificate/1988386/",
+      "confidence": "high"
+    },
+    {
+      "caseName": "Siddiqui v. CBL & Associates Properties, Inc. and KONE Inc.",
+      "citation": "Jury verdict, Pulaski County Circuit Court, Arkansas, Dec. 7, 2018",
+      "year": 2018,
+      "outcome": "A shopper's right big toe was crushed and severed when her foot was pulled into a gap created by a mechanical break in an escalator at Park Plaza Mall in Little Rock, Arkansas, in December 2013. Mall owner CBL & Associates and escalator manufacturer/maintenance contractor KONE Inc. admitted fault before trial but argued only $500,000 was warranted; a Pulaski County jury instead awarded $3 million in damages.",
+      "dollarAmount": 3000000,
+      "sourceUrl": "https://www.claimsjournal.com/news/southcentral/2018/12/10/288190.htm",
+      "confidence": "high"
+    }
+  ],
+  "dangerous_condition_failure_to_warn": [
+    {
+      "caseName": "James Shelton McClure and Madeline McClure v. Hotel Crescent Court, et al.",
+      "citation": "Cause No. DC-22-05954, 162nd Judicial District Court, Dallas County, Texas (jury verdict, June 6, 2025)",
+      "year": 2025,
+      "outcome": "While walking their dog through the courtyard of the Hotel Crescent Court (a commercial hotel) in the early morning, McClure stepped into an empty, drained fountain basin about two feet deep, level with the surrounding concrete, in an unlit area with no cones, barriers, or warning signs marking the drop-off. The hotel knew the basin had been drained for winter but posted no warning. A Dallas County jury found the hotel 95% responsible and McClure 5% comparatively at fault, awarding a total verdict of $9.45 million for his orthopedic and neurological injuries, which included four ankle surgeries and a total ankle replacement.",
+      "dollarAmount": 9450000,
+      "sourceUrl": "https://texaslawbook.net/injured-man-gets-9-45m-jury-verdict-against-dallas-hotel/",
+      "confidence": "high"
+    },
+    {
+      "caseName": "Giannone v. Professional Janitorial Maid Services (Marshalls store slip-and-fall)",
+      "citation": "Superior Court of New Jersey, Law Division, Monmouth County (reported settlement, 2019; incident May 30, 2014)",
+      "year": 2019,
+      "outcome": "Frank Giannone, manager of a Marshalls retail store, slipped and fell on a floor that a janitorial contractor's worker had just mopped but failed to mark with wet-floor warning signs. Giannone underwent two spinal fusion surgeries he attributed to the fall and sued the cleaning company for failing to warn of the known wet-floor hazard it had itself just created. The parties settled for $1.5 million. Primary NJ Law Journal source is paywalled -- verified only via a law firm's blog quoting it, no independent docket number located.",
+      "dollarAmount": 1500000,
+      "sourceUrl": "https://www.levinandmalkin.com/missing-wet-floor-sign-a-factor-in-1-5-million-settlement/",
+      "confidence": "medium"
+    },
+    {
+      "caseName": "Confidential claimant v. Kroger Limited Partnership I (Rutherford County, TN store)",
+      "citation": "Pre-suit settlement, Rutherford County, Tennessee (Smyrna Kroger location); no docket number (resolved before filing)",
+      "year": 2022,
+      "outcome": "A customer slipped on liquid another shopper had spilled minutes earlier near a self-checkout aisle at a Kroger grocery store. A Kroger employee admitted staff already knew about the spill and was on the way to clean it, but no warning sign or cone was placed in the interim, and the customer fell and suffered a rotator cuff injury requiring surgery. The claim was resolved pre-suit for $153,500. Self-reported only by the handling law firm's own case-results page -- no docket number, independent corroboration, or exact date located.",
+      "dollarAmount": 153500,
+      "sourceUrl": "https://wkjustice.com/case-results/153-500-settlement-for-slip-and-fall-at-rutherford-county-kroger/",
+      "confidence": "low"
+    }
+  ]
+}

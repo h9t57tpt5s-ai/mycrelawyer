@@ -1,0 +1,240 @@
+# Commercial Eviction Handbook — Batch 3: Maine, Maryland, Massachusetts, Michigan, Minnesota, Mississippi, Missouri, Montana, Nebraska
+## Verified and updated to August 2026
+
+---
+
+### Maine — Landlord-Friendly
+
+**Statutory Notice.** Maine's Forcible Entry and Detainer statute, 14 M.R.S. §§ 6001–6046, is divided into Subchapter 1 (Residential Landlords and Tenants, §§ 6000–6016-A) and Subchapter 2 (Commercial Leases, § 6017 et seq.). The seven-day pay-or-quit notice found at 14 M.R.S. § 6002 applies only to residential tenancies under Subchapter 1 — it does not govern commercial leases. Commercial tenancies are instead governed by 14 M.R.S. § 6017, which does not itself impose a statutory pre-filing notice period; notice requirements for a commercial default are therefore set by the lease and ordinary contract principles, not by a fixed statutory number of days. Practitioners relying on a "seven-day notice" for a Maine commercial matter are relying on the wrong subchapter.
+
+**Self-Help / Commercial Lockout.** The self-help prohibition at 14 M.R.S. § 6014 likewise sits in Subchapter 1 and by its terms governs residential tenancies. No parallel statutory self-help ban applies expressly to commercial leases under Subchapter 2, and no Maine appellate authority was located squarely addressing self-help repossession of commercial premises. ⚠ Could not independently verify the availability of self-help for Maine commercial landlords with confidence — commercial landlords should not assume self-help is available absent express lease authorization and should confirm current guidance with local counsel before attempting extrajudicial repossession.
+
+**Jurisdiction and Venue.** The District Court has jurisdiction to hear, decide, and award rent and arrears allegedly owing in a commercial tenancy dispute, regardless of the amount in controversy. 14 M.R.S. § 6017.
+
+**Timing.** Timing is variable and depends on the District Court's docket. Under § 6017, a tenant defending a commercial forcible entry and detainer action must appear on the return date and pay the agreed-upon rent, including all arrears, as a condition of maintaining the defense; disputed amounts are determined by the court at hearing. If the tenant fails to pay rent to the court when due, the writ of possession issues immediately. Where judgment favors the landlord, the court may issue the writ of possession immediately — including during a Superior Court appeal — if the landlord posts a surety bond conditioned on paying damages and costs the tenant may suffer if the tenant ultimately prevails.
+
+**Damages.** Maine's statutory landlord's-duty-to-mitigate provision, 14 M.R.S. § 6010-A, is likewise confined to Subchapter 1 residential tenancies. No parallel statutory mitigation duty applies to Maine commercial leases, consistent with the 2022 baseline's conclusion that a commercial landlord has no duty to mitigate damages, though the lease itself may impose one.
+
+**Special Considerations.** A commercial landlord and tenant may agree, in the lease or in a separate agreement, to waive a jury trial for disputes arising from the lease, and may likewise agree to binding arbitration, with an arbitrator's decision favoring the landlord permitting immediate writ issuance upon docketing with the Superior Court under the Uniform Arbitration Act. 14 M.R.S. § 6017. Lease language should be reviewed carefully to avoid inadvertently sweeping a possession dispute into a mandatory arbitration clause. As noted above, a tenant must pay rent in arrears to maintain a defense once an action is filed.
+
+**Key Commercial Lease Drafting Considerations.**
+- Define the notice period and cure rights expressly, since no statutory commercial notice period exists to fall back on.
+- Include an express, clearly drafted jury trial waiver if a bench proceeding is preferred.
+- Consider an arbitration clause but carve out possession disputes to avoid delaying repossession.
+- Include an explicit self-help/re-entry clause only after consulting Maine counsel, given the absence of clear statutory or case authority on commercial self-help.
+- Address mitigation obligations directly in the lease, since no statutory duty to mitigate applies to commercial tenancies.
+- Provide for acceleration of rent and attorney's fees expressly, as neither is guaranteed by statute.
+- Specify electronic and alternative notice-delivery methods in the lease.
+
+**Source Notes.** Statutory authorities reviewed: 14 M.R.S. §§ 6001, 6002, 6010-A, 6014 (Subchapter 1, Residential Landlords and Tenants) and 14 M.R.S. § 6017 (Subchapter 2, Commercial Leases), current through the 2025 session laws as reflected on the Maine Legislature's statutes website.
+
+---
+
+### Maryland — Neutral
+
+**Statutory Notice.** Maryland does not require a landlord to give a commercial tenant statutory pre-filing notice before bringing a Failure to Pay Rent action; the 10-day written notice-of-intent-to-file requirement added to Md. Code Ann., Real Prop. § 8-401 is expressly limited to residential premises. For a commercial tenant holding over or breaching a lease, however, Real Property § 8-402 (holding over) and § 8-402.1 (breach of lease) apply to both residential and commercial tenancies and require 30 days' written notice of the breach and the landlord's intent to repossess (14 days where the tenant's conduct poses a clear and imminent danger of serious harm to persons or property). Commercial landlords should therefore not assume no notice is ever required — the answer depends on which of Maryland's several summary ejectment causes of action is being pursued.
+
+**Self-Help / Commercial Lockout.** Self-help remedies remain available to a commercial landlord in Maryland, provided they are exercised peaceably and without breaching the peace. K & K Mgmt., Inc. v. Lee, 316 Md. 137, 557 A.2d 965, 979–80 (1989). The remedy generally requires that the tenant be in default beyond any applicable cure period, that the lease authorize re-entry, and that repossession occur without violence, threats, or confrontation. Maryland's courts have reaffirmed the remedy but continue to discourage its use given the practical risks of a breach-of-the-peace dispute. Donegal Assocs., LLC v. Christie-Scott, LLC, 248 Md. App. 631 (2020).
+
+**Jurisdiction and Venue.** A landlord may seek possession and monetary damages in the same District Court proceeding. If damages sought exceed the constitutional jury-trial threshold, a party may demand a jury trial and have the case removed from the District Court to the Circuit Court. Md. Code Ann., Cts. & Jud. Proc. § 4-402(e). That threshold was raised from $15,000 to $25,000 by constitutional amendment approved by Maryland voters in November 2022, effective December 4, 2022 — meaning the $15,000 figure in the 2022 baseline is now outdated and should be treated as $25,000 going forward.
+
+**Timing.** For a Failure to Pay Rent case, the court issues a summons for trial on the fifth day after the complaint is filed. Md. Code Ann., Real Prop. § 8-401. Removal to Circuit Court on a jury demand can add several months before trial.
+
+**Damages.** A Maryland commercial landlord has a duty to mitigate damages, and rent-acceleration clauses are enforceable if expressly stated in the lease.
+
+**Special Considerations.** Where a damages case is removed to Circuit Court, the tenant is generally required to continue paying rent pending trial. Where the landlord is awarded a judgment of restitution, the tenant retains a statutory right of redemption by tendering all past-due amounts, court costs, and fees before actual execution of the eviction order. Real Prop. § 8-401(e).
+
+**2026 Update Note.** Effective October 1, 2024, the Renters' Rights and Stabilization Act of 2024 (2024 Md. Laws, H.B. 693) increased the waiting period between a judgment of possession and execution of the warrant of restitution from four to seven days, applicable to both residential and commercial ejectment cases, and substantially increased the District and Circuit Court surcharges assessed in summary ejectment and non-summary ejectment cases.
+
+**Key Commercial Lease Drafting Considerations.**
+- Expressly authorize re-entry/self-help in the lease if the landlord wants to preserve that remedy, with clear default and cure triggers.
+- Draft default notice provisions tracking whichever of §§ 8-401, 8-402, or 8-402.1 will actually apply to the anticipated breach.
+- Include an express mitigation and reletting clause.
+- Include an enforceable, clearly stated acceleration clause.
+- Build in extra time for possible removal to Circuit Court on a jury demand above $25,000.
+- Address attorney's fees and cost-shifting expressly.
+- Consider a redemption-rights waiver where permitted, given the statutory tenant redemption right.
+
+**Source Notes.** Statutory authorities reviewed: Md. Code Ann., Real Prop. §§ 8-401, 8-402, 8-402.1; Md. Code Ann., Cts. & Jud. Proc. § 4-402(e); K & K Mgmt., Inc. v. Lee, 316 Md. 137 (1989); Donegal Assocs., LLC v. Christie-Scott, LLC, 248 Md. App. 631 (2020); Renters' Rights and Stabilization Act of 2024, H.B. 693 (2024 Md. Laws), effective October 1, 2024; Maryland constitutional amendment raising the jury-trial threshold to $25,000, effective December 4, 2022.
+
+---
+
+### Massachusetts — Landlord-Friendly
+
+**Statutory Notice.** When a commercial tenant defaults on rent, the landlord may terminate under the notice provisions specified in the lease. In the absence of such lease provisions, the landlord must give the tenant at least 14 days' written notice. Mass. Gen. Laws ch. 186, § 11A.
+
+**Self-Help / Commercial Lockout.** Self-help remedies are not available in Massachusetts, even for commercial tenants. Mass. Gen. Laws ch. 184, § 18 prohibits forcible or self-help entry to recover possession of land or tenements and requires that possession be recovered through judicial process; unlawful lockouts and utility shutoffs can also carry criminal penalties.
+
+**Jurisdiction and Venue.** Recovering possession (summary process) and recovering damages may require separate lawsuits. In a summary process case the landlord may sue for unpaid rent even where the tenancy was terminated for a reason other than nonpayment, but the landlord cannot include claims for other damages, such as property damage, in the summary process action — those require a separate civil suit.
+
+**Timing.** Summary process to regain possession typically takes roughly 17 to 40 days after filing. The timing of a separate suit for non-rent damages depends on the court's docket and is variable. The Trial Court solicited public comment through November 2025 on proposed amendments to the Uniform Summary Process Rules addressing filing and service mechanics; as of this writing those amendments had not been finalized, so no substantive rule change is reported here.
+
+**Damages.** If the landlord does not terminate the lease, the landlord has no duty to mitigate damages. A rent-acceleration clause is enforceable if expressly provided for in the lease and does not constitute a penalty.
+
+**Key Commercial Lease Drafting Considerations.**
+- Include an express notice-and-cure provision to avoid defaulting to the 14-day statutory notice.
+- Draft a rent-acceleration clause carefully to avoid characterization as an unenforceable penalty.
+- Reserve the landlord's right to pursue non-rent damages in a separate civil action.
+- Include express mitigation language if the parties intend a different mitigation standard than the no-duty default (applicable only where the lease is not terminated).
+- Include an attorney's fees provision.
+- Confirm self-help is not authorized by the lease, since it is unavailable under Massachusetts law regardless of lease language.
+
+**Source Notes.** Statutory authorities reviewed: Mass. Gen. Laws ch. 186, § 11A; Mass. Gen. Laws ch. 184, § 18; Mass. Gen. Laws ch. 239 (Summary Process for Possession of Land).
+
+---
+
+### Michigan — Neutral
+
+**Statutory Notice.** Seven days' notice is required after the landlord serves a written demand for possession for nonpayment of rent; after the seven-day period, the landlord may recover possession by summary proceedings. Mich. Comp. Laws § 600.5714.
+
+**Self-Help / Commercial Lockout.** Self-help is prohibited under Michigan law. The Anti-Lockout Statute, MCL § 600.2918, makes it unlawful for a landlord to forcibly remove or exclude a tenant, or to willfully interrupt utility service, to recover possession, and its protections may not be waived. A tenant forcibly and unlawfully put out may recover three times actual damages or $200, whichever is greater, plus possession; a tenant otherwise unlawfully interfered with (e.g., by lockout or utility shutoff) may recover actual damages or $200, whichever is greater, for each occurrence.
+
+**Jurisdiction and Venue.** A landlord may join a claim for damages with the claim for possession of the premises; however, the court may order separate disposition of the possession and damages claims. Mich. Comp. Laws § 600.5739.
+
+**Timing.** The court issues a summons directing the defendant to appear for trial within 30 days of the summons's issuance date, with the summons served not less than 10 days before the trial date. Mich. Comp. Laws § 600.5735. If judgment is entered for the landlord, the court issues a writ of restitution.
+
+**Damages.** A landlord has a duty to mitigate damages when a tenant abandons the premises and stops paying rent due under the lease. An acceleration-of-rent clause may be enforceable, but under the Truth in Renting Act, MCL § 554.633(1)(i), (k), a lease provision purporting to release a party from the duty to mitigate is void, and an acceleration clause must allow that the tenant may not be liable for the full accelerated amount because of the landlord's mitigation obligation, with either party entitled to have a court determine the actual amount owed. Mich. Comp. Laws § 600.5726 addresses the related but distinct context of accelerated indebtedness on forfeiture of a land contract.
+
+**Special Considerations.** A tenant may attempt to delay the eviction hearing by filing a related action in a higher court and requesting a stay of the summary proceeding pending resolution of that action; the tenant's separate lawsuit must involve the leased premises and the eviction issue.
+
+**Key Commercial Lease Drafting Considerations.**
+- Draft an acceleration clause that expressly preserves the tenant's right to a judicial determination of actual damages, consistent with MCL § 554.633.
+- Do not attempt to waive the statutory mitigation duty — such waivers are void.
+- Include a clear demand-for-possession and notice mechanism tracking the seven-day requirement.
+- Address whether possession and damages claims will be pursued together or reserved for separate disposition.
+- Include an attorney's fees provision.
+- Anticipate potential delay tactics via related litigation and consider forum-selection and venue clauses.
+
+**Source Notes.** Statutory authorities reviewed: Mich. Comp. Laws §§ 600.5714, 600.5726, 600.5735, 600.5739, 600.2918; Truth in Renting Act, MCL § 554.633.
+
+---
+
+### Minnesota — Neutral
+
+**Statutory Notice.** Unless required by the lease, a commercial landlord in Minnesota generally need not give the tenant statutory notice before bringing an eviction action. The 14-day pre-filing notice requirement added to Minn. Stat. § 504B.321, subd. 1a is, by its express terms, limited to residential tenants and does not apply to commercial leases.
+
+**Self-Help / Commercial Lockout.** Minnesota does not permit a commercial landlord to use self-help to dispossess a tenant who remains in possession; possession must be recovered through a judicial eviction action. Where a commercial tenant has actually abandoned the premises, however, a landlord may take possession of and deal with the tenant's remaining personal property under Minn. Stat. § 504B.271, without that step itself constituting an unlawful eviction, since no person remains in possession to dispossess.
+
+**Jurisdiction and Venue.** An eviction action may combine allegations of nonpayment of rent and material violation of the lease, though they are heard as alternative grounds. Minn. Stat. § 504B.285.
+
+**Timing.** A hearing takes place between seven and 14 days after the summons is issued. Minn. Stat. § 504B.321. The 2023 amendments repealed the prior six-day cap on scheduling eviction trials, directing courts instead to set trial dates that allow "fair, thorough, and timely adjudication," considering case complexity, discovery needs, and preparation time — a change that applies to commercial as well as residential eviction trials, though courts must still prioritize scheduling of residential (not commercial) cases involving safety-endangerment allegations.
+
+**Damages.** A landlord has no duty to mitigate damages unless the landlord has accepted the tenant's abandonment of the premises. Rent-acceleration clauses are enforceable.
+
+**2026 Update Note.** Effective January 1, 2024, Minnesota Laws 2023, chapter 52 (article 19), amended Minn. Stat. §§ 504B.285 and 504B.321 to, among other things, repeal the former six-day cap on eviction trial scheduling, expand the required content of eviction complaints (including an itemized accounting for nonpayment claims and identification of the specific lease provision breached), permit additional written-communication methods for landlord notices, restrict bond requirements, and require courts to dismiss and expunge actions where filing and service requirements are not met. These procedural changes apply to commercial evictions filed under Chapter 504B, though most of the Act's substantive tenant protections remain residential-only.
+
+**Key Commercial Lease Drafting Considerations.**
+- Draft an express notice-and-cure clause, since no statutory notice period applies to commercial defaults.
+- Include an acceleration clause, as these remain generally enforceable.
+- Address mitigation expressly, since the statutory no-duty default applies except on accepted abandonment.
+- Anticipate longer, less predictable trial scheduling following the 2024 repeal of the six-day cap.
+- Ensure any eviction complaint will include the itemized rent accounting or specific lease-breach detail now expected under § 504B.321.
+- Address handling of abandoned personal property consistent with § 504B.271.
+- Include an attorney's fees provision.
+
+**Source Notes.** Statutory authorities reviewed: Minn. Stat. §§ 504B.285, 504B.321, 504B.271; Minnesota Laws 2023, ch. 52, art. 19 (eff. Jan. 1, 2024, for leases entered into or renewed on or after that date).
+
+---
+
+### Mississippi — Landlord-Friendly
+
+**Statutory Notice.** A landlord must give a defaulting commercial tenant three days' written notice to pay rent or quit the premises. Miss. Code Ann. § 89-7-27. Any default condition expressed in a written lease may also trigger the eviction process, and notice of default by email or text message is proper where the tenant has agreed in writing to that method of notice. If the tenant does not vacate within the notice period, the landlord may terminate the tenancy and file suit. Id.
+
+**Self-Help / Commercial Lockout.** Mississippi permits self-help under limited circumstances: the written lease must specifically authorize the landlord's re-entry upon a lease violation, the landlord must give the tenant three days' written notice, and the landlord must not break in, use violence, or threaten violence in retaking possession.
+
+**Jurisdiction and Venue.** A landlord may bring an action for possession of the premises together with an action for rent in the same proceeding.
+
+**Timing.** An eviction proceeding typically takes roughly six weeks to nine months, depending on the court's docket. A tenant has seven days from the date of judgment to move out, unless the court orders otherwise based on the circumstances. Miss. Code Ann. § 89-7-31.
+
+**Damages.** A rent-acceleration clause is enforceable if expressly provided for in the lease. A tenant who refuses to quit after lawful notice is liable for double rent during the holdover period. Miss. Code Ann. § 89-7-25.
+
+**Special Considerations.** A tenant is not required to continue paying rent for a building destroyed by fire or otherwise, unless the tenant caused the destruction or expressly agreed to keep paying rent after destruction. Miss. Code Ann. § 89-7-3.
+
+**Key Commercial Lease Drafting Considerations.**
+- Include an express re-entry/self-help authorization if the landlord wants to preserve that remedy, since it is unavailable absent explicit lease language.
+- Authorize electronic (email/text) notice in writing to take advantage of the statutory allowance.
+- Include an enforceable acceleration clause.
+- Address holdover rent expressly, since double rent otherwise applies by statute.
+- Include a casualty/destruction clause addressing continued rent obligations.
+- Include an attorney's fees provision.
+
+**Source Notes.** Statutory authorities reviewed: Miss. Code Ann. §§ 89-7-3, 89-7-25, 89-7-27, 89-7-31, as amended through Laws 2022, ch. 501 (S.B. 2461), effective April 21, 2022 — the most recent amendment identified to these sections as of August 2026. A bill introduced in the 2026 Regular Session (H.B. 499) proposing to shorten eviction trial-scheduling timelines was located but could not be confirmed as enacted; it is not relied upon here.
+
+---
+
+### Missouri — Tenant-Friendly
+
+**Statutory Notice.** No statutory notice is required in Missouri for expedited eviction proceedings under Mo. Rev. Stat. § 441.740, nor for leases that have been properly terminated under their own terms.
+
+**Self-Help / Commercial Lockout.** Self-help remedies are prohibited in Missouri, including for commercial tenants. Even where a lease purports to authorize self-help, a landlord who changes locks, shuts off utilities, or otherwise excludes a tenant without a court eviction risks liability for wrongful eviction and conversion, potentially including business-interruption damages exceeding the unpaid rent.
+
+**Jurisdiction and Venue.** Missouri provides several distinct eviction proceedings — rent-and-possession and unlawful detainer actions under Mo. Rev. Stat. ch. 535 and ch. 534, respectively, and immediate/emergency eviction under § 441.740 — filed in the circuit court for the county where the property is located. A claim for damages can generally be joined with a claim for possession, or the landlord may elect to pursue possession first and file a separate damages suit later.
+
+**Timing.** Timing depends entirely on the court's docket; recent rent-and-possession and unlawful detainer proceedings have taken approximately six to seven months. Expedited, "immediate eviction" proceedings remain available under § 441.740 for emergency situations.
+
+**Damages.** Missouri courts generally uphold damages provisions negotiated in good faith between the parties but are unlikely to enforce a penalty provision that produces a windfall for the landlord rather than compensating for actual damages; Missouri appellate courts have not squarely resolved the enforceability of rent-acceleration clauses. Missouri recognizes three options on a tenant's default: the landlord may remain out of possession and sue for rent as it becomes due; give notice of intent to re-let to mitigate damages while reserving the right to sue for unpaid rent; or re-enter, take possession, and terminate the tenant's right to possession. A landlord is entitled to double the yearly rental value for a tenant's holdover after written demand and notice to quit. Mo. Rev. Stat. § 441.080. ⚠ The 2022 baseline also asserted a double-rent remedy for unauthorized subletting or assignment (citing "§ 534.537," a section number that could not be located in the current Missouri statutes) — this could not be independently verified and should be confirmed with local counsel before relying on it; Mo. Rev. Stat. § 441.030 does bar assignment or subletting without written landlord consent for terms of two years or less, but the specific double-rent consequence for that violation could not be confirmed.
+
+**Special Considerations.** Missouri recognizes three general categories of eviction suits: (1) rent and possession, (2) unlawful detainer, and (3) immediate eviction, the last limited to emergencies involving risk of physical injury, substantial property damage, or drug-related criminal activity. Mo. Rev. Stat. § 441.740. Choosing between rent-and-possession and unlawful detainer largely turns on whether the landlord wants to resolve everything (possession and damages) in one proceeding or pursue possession first and damages separately.
+
+**2026 Update Note.** Effective August 28, 2024, Missouri Senate Bill 895 (2024) bars counties, municipalities, and other political subdivisions from imposing or enforcing an eviction moratorium unless specifically authorized by state or federal law — foreclosing the kind of local eviction-moratorium orders some Missouri municipalities issued during the COVID-19 pandemic — and requires that transfers of title to rental property carrying an outstanding collectible judgment be filed with the circuit court within 30 days of transfer. Separately, § 441.740 was itself amended effective August 28, 2023 by Missouri Senate Bill 106 (2023); the amendment's specific substantive changes could not be independently confirmed from available secondary sources. ⚠ Confirm the precise text and effect of the 2023 amendment to § 441.740 with current Missouri statutory text or local counsel before relying on its details.
+
+**Key Commercial Lease Drafting Considerations.**
+- Do not rely on lease language purporting to authorize self-help — it remains prohibited and risky regardless of lease terms.
+- Draft damages provisions as genuine compensation, not a penalty, given Missouri courts' skepticism of windfall clauses.
+- Address rent acceleration explicitly and expect potential judicial scrutiny given the unsettled case law.
+- Specify which eviction pathway (rent-and-possession vs. unlawful detainer vs. joined damages) the parties anticipate.
+- Include an express mitigation/reletting clause given the ambiguity in the common-law default rules.
+- Include an attorney's fees provision.
+- Build realistic timeline expectations into default/cure and remedy provisions given typical six-to-seven-month proceedings.
+
+**Source Notes.** Statutory authorities reviewed: Mo. Rev. Stat. §§ 441.080, 441.740, 534.137, 535.010, 535.110; Missouri Senate Bill 895 (2024 Mo. Laws), effective August 28, 2024; Missouri Senate Bill 106 (2023 Mo. Laws), amending § 441.740 effective August 28, 2023.
+
+---
+
+### Montana — Landlord-Friendly
+
+**Statutory Notice.** A landlord must provide a tenant with three days' written notice before reentry. Mont. Code Ann. § 70-27-106. Notice is not required, however, to file an action for possession of the property. Id. § 70-27-107.
+
+**Self-Help / Commercial Lockout.** A landlord may use self-help remedies when evicting a commercial tenant, but may not use force in retaking possession. Changing locks alone does not constitute forcible entry.
+
+**Jurisdiction and Venue.** A landlord may bring an action for damages together with an action for possession of the premises in the same lawsuit. Id. § 70-27-205. An action for repossession may be brought in the justice's court or the district court of the county where the property is situated. Id. § 70-27-101.
+
+**Timing.** In an eviction proceeding, the tenant has 10 days to answer after service of the complaint. Id. § 70-27-117. Answers filed in justice's court are tried within 10 days after the tenant's appearance or answer. Id. § 70-27-202 (recodified provisions govern trial timing under Chapter 27). If the proceeding is for nonpayment of rent, a judgment may not be enforced until five days after entry; otherwise the judgment may be enforced immediately. Id. § 70-27-205(3). Summary proceedings remain available for unlawful detainer actions. Id. § 70-16-109.
+
+**Damages.** A Montana landlord has a duty to mitigate damages when a tenant breaches a lease. A rent-acceleration clause must be expressly provided for in the lease to be enforced. Damages for forcible entry or unlawful detainer may be recovered at three times actual damages. Id. § 70-27-206.
+
+**Special Considerations.** In a nonpayment proceeding, the tenant may retain possession by paying the rent owed within five days after entry of judgment. Id. § 70-27-205(3). If a landlord accepts rent after a lease expires, the lease is presumed renewed on the same terms for the same term, not to exceed one year. Id. § 70-26-204. A 2023 bill that would have generally revised Montana landlord-tenant law (H.B. 732) died in committee and did not become law, so no material statutory change to Chapter 27 was identified for 2023–2026.
+
+**Key Commercial Lease Drafting Considerations.**
+- Address self-help/re-entry procedures expressly to define the parties' expectations, even though Montana permits it by default absent force.
+- Include an express rent-acceleration clause, since none is implied.
+- Include a mitigation clause consistent with (or clarifying) the statutory duty to mitigate.
+- Address treble-damages exposure for any disputed forcible-entry or unlawful-detainer scenario.
+- Specify whether renewal is intended if rent is accepted post-expiration, to avoid an unintended one-year statutory renewal.
+- Include an attorney's fees provision.
+
+**Source Notes.** Statutory authorities reviewed: Mont. Code Ann. §§ 70-16-109, 70-26-204, 70-27-101, 70-27-106, 70-27-107, 70-27-117, 70-27-202, 70-27-205, 70-27-206; 2023 Mont. H.B. 732 (died in committee, not enacted).
+
+---
+
+### Nebraska — Landlord-Friendly
+
+**Statutory Notice.** A landlord must give the tenant three days' written notice before proceeding with an eviction action based on a monetary default. Neb. Rev. Stat. § 25-21,221. This section applies to forcible entry and detainer actions under §§ 25-21,219 to 25-21,235, which are expressly distinct from, and do not apply to, tenancies governed by Nebraska's Uniform Residential Landlord and Tenant Act. Neb. Rev. Stat. § 25-21,219.
+
+**Self-Help / Commercial Lockout.** Self-help remedies are prohibited under Nebraska law.
+
+**Jurisdiction and Venue.** District and county courts have jurisdiction over forcible entry and detainer actions. Neb. Rev. Stat. § 25-21,219. The proceeding may determine both the right to possession of the premises and rents or other damages owed. Id.
+
+**Timing.** An eviction trial must take place not less than 10 days but not more than 14 days after the summons is issued. Neb. Rev. Stat. § 25-21,223. A continuance may not exceed seven days absent extraordinary cause supported by an undertaking covering accruing rent and damages. Id. § 25-21,225. The time to complete a separate action for damages is variable and depends on the court's docket.
+
+**Damages.** A Nebraska landlord has a duty to mitigate damages, but the tenant bears the burden of proving the landlord unreasonably failed to do so. If the landlord terminates the lease, the tenant is generally not required to pay future rent and liabilities, but a rent-acceleration clause is enforceable if expressly stated in the lease.
+
+**Key Commercial Lease Drafting Considerations.**
+- Confirm the lease's default-notice provisions align with (or intentionally extend) the three-day statutory minimum.
+- Do not rely on self-help — it is categorically unavailable in Nebraska.
+- Include an express rent-acceleration clause to preserve post-termination remedies.
+- Address mitigation obligations and evidentiary burdens in the lease to reduce future disputes.
+- Include an attorney's fees provision.
+- Plan around the compressed 10-to-14-day trial-scheduling window when assessing litigation strategy.
+
+**Source Notes.** Statutory authorities reviewed: Neb. Rev. Stat. §§ 25-21,219, 25-21,221, 25-21,223, 25-21,225, current as reflected on the Nebraska Legislature's official statutes site; no amendments to these specific sections were identified within the 2023–2026 window (the most recent amendment located to § 25-21,219 was Laws 2021, LB320, § 1, predating this review period).

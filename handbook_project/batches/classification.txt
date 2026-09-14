@@ -1,0 +1,51 @@
+2022 ORIGINAL LANDLORD/TENANT-FRIENDLINESS CLASSIFICATION (from source document color-coding):
+Alabama: Landlord-friendly (green)
+Alaska: Neutral (no color)
+Arizona: Landlord-friendly (green)
+Arkansas: Landlord-friendly (green)
+Colorado: Neutral
+Connecticut: Neutral
+Delaware: Neutral
+District of Columbia: Tenant-friendly (red)
+Florida: Neutral
+Georgia: Tenant-friendly (red)
+Hawaii: Landlord-friendly (green)
+Idaho: Tenant-friendly (red)
+Illinois: Tenant-friendly (red)
+Indiana: Tenant-friendly (red)
+Iowa: Landlord-friendly (green)
+Kansas: Neutral
+Kentucky: Neutral
+Louisiana: Neutral
+Maine: Neutral
+Maryland: Neutral
+Massachusetts: Landlord-friendly (green)
+Michigan: Neutral
+Minnesota: Neutral
+Mississippi: Neutral
+Missouri: Tenant-friendly (red)
+Montana: Landlord-friendly (green)
+Nebraska: Landlord-friendly (green)
+Nevada: Landlord-friendly (green)
+New Hampshire: Landlord-friendly (green)
+New Jersey: Landlord-friendly (green)
+New Mexico: Landlord-friendly (green)
+New York: Neutral
+North Carolina: Landlord-friendly (green)
+North Dakota: Neutral
+Ohio: Neutral
+Oklahoma: Landlord-friendly (green)
+Oregon: Landlord-friendly (green)
+Pennsylvania: Neutral
+Rhode Island: Landlord-friendly (green)
+South Carolina: Neutral
+South Dakota: Landlord-friendly (green)
+Tennessee: Landlord-friendly (green)
+Utah: Landlord-friendly (green)
+Vermont: Neutral
+Virginia: Landlord-friendly (green)
+Washington: Neutral
+West Virginia: Neutral
+Wisconsin: Tenant-friendly (red)
+Wyoming: Neutral
+(Texas: Landlord-friendly (green) | California: Neutral (black) — already updated for 2026, do not redo)

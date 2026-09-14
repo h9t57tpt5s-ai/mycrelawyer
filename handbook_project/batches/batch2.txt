@@ -1,0 +1,202 @@
+=== Georgia (2022 BASELINE TEXT) ===
+Georgia
+
+
+
+Statutory Notice.  No statutory notice is required unless such notice is required in the lease agreement.
+
+
+
+Self-help.  A landlord may use self-help to retake possession of the premises in Georgia only if the lease specifically authorizes self-help remedies, and such remedies may be undertaken without breaching the peace. 
+
+
+
+Jurisdiction.  The landlord may bring a suit for possession of the premises as well as a judgment for damages in the same proceeding.  Ga. Code Ann. §§ 44-7-49 and 44-7-55(a).
+
+
+
+Timing.  After landlord files the summary possession action, the tenant has seven days to respond.  Full payment of rent owed and the cost of a dispossessory warrant within those seven days is a full defense to the eviction action once in a twelve-month period, and the court will compel the landlord to accept such payment unless the lease specifically provides otherwise. If the tenant fails to respond, the court will automatically grant a Writ of Possession. Otherwise, both parties must appear in court. If the judge grants a Writ of Possession, then the landlord must make an application for execution of the Writ of Possession within thirty (30) days, requesting the sheriff to remove the tenant and its property. Id. §§ 44-7-50; 44-7-53; 44-7-55. 
+
+
+
+Damages.  Rent acceleration clauses in Georgia are enforceable if they are provided for in the lease. However, usually a successful dispossessory action will terminate the lease and the tenant will not be required to pay future rent. Landlords in Georgia do not have a duty to mitigate damages.
+
+=== Hawaii (2022 BASELINE TEXT) ===
+Hawaii
+
+Statutory Notice.  A statutory notice to quit is required at least ten days before possession can be restored to the landlord. Haw. Rev. Stat. Ann. § 666-1. 
+
+
+
+Self-help.  A landlord is permitted to use self-help to regain possession of the premises if the right to self-help is an express provision in the lease.
+
+
+
+Jurisdiction.  An action for possession must be brought in the district court of the circuit where the premises are situated. Id. § 666-6. A landlord may join claims for rent and damages to a possession claim. Id. § 666-7. 
+
+
+
+Timing.  The length of time of the summary possession proceeding could be as short as five to ten days after the tenant has received service. However, it could take as long as four to six weeks if there is a trial.
+
+
+
+Damages.  For an acceleration clause to be enforceable, it must be an express provision in the lease. Under Hawaii law, the landlord has the duty to mitigate its damages, but the burden is on the tenant to prove the landlord failed to satisfy this duty. See Marco Kona Warehouse v. Sharmilo, Inc., 7 Haw. App. 383, 768 P.2d 247 (1989). If a tenant pays rent to the landlord during the course of the eviction proceedings, any such rent will be construed as damages for withholding the premises from the landlord if the eviction proceedings are successful. Haw. Rev. Stat. Ann. § 666-5. 
+
+
+
+Special Considerations. Where a tenant creates a “nuisance” as defined by Hawaii law, the landlord may deliver a written notice warning the tenant to abate within twenty-four hours. If the tenant fails to comply, the landlord may terminate the tenancy by written notice to vacate within five days of the date that the second notice is delivered. Id. § 666-3.
+
+=== Idaho (2022 BASELINE TEXT) ===
+Idaho
+
+Statutory Notice.  After a tenant defaults, the landlord must give three days’ notice in writing before conducting an eviction. This notice must also notify the commercial tenant that in the event a court enters judgment for the landlord, the tenant has seven days (or longer, if granted by the court) to remove its belongings from the premises before the landlord may remove and dispose of such belongings. Idaho Code Ann. § 6-303. 
+
+
+
+Self-help.  There is no Idaho statute specifically forbidding the use of self-help remedies, but a landlord may wish to include them in the lease agreement. 
+
+
+
+Jurisdiction.  The landlord may combine an action for possession with a claim for damages. Id. § 6-311E.  The district court of the county in which the property is located has jurisdiction over eviction proceedings. Id. § 6-305. 
+
+
+
+Timing.  After the landlord files a complaint, the court will issue a summons. At the time of issuance, Idaho law requires the court to schedule a trial within twelve days from the filing of the complaint. The summons, complaint, and notice of trial setting must be served on the defendant not less than five days before the day of trial. Id. § 6-310. 
+
+
+
+Damages.  The law on accelerated rent is somewhat in flux.  While it may be collected, it cannot be deemed a liquidated damages provision.  Essentially, Idaho courts examine whether the future damages sought are disproportionate the actual damages.  The landlord has a duty to mitigate its damages.
+
+=== Illinois (2022 BASELINE TEXT) ===
+Illinois
+
+Statutory Notice.  Before a landlord can start the eviction process, it must make a formal demand for payment of the past-due rent, or to cure the defect that is leading to the eviction. 735 Ill. Comp. Stat. Ann. 5/9-209. In Illinois, the landlord has to give the tenant at least five days' notice before taking action for past due rent and 10 days' notice for all situations other than non-payment of rent.
+
+
+
+Self-help.  Self-help is not available in Illinois.
+
+
+
+Jurisdiction.  The eviction action must be filed in the county courthouse where the property is located.  The landlord can join a claim for rent with a claim for possession.  Id.
+
+
+
+Timing.  Variable depending upon the district in which the eviction action is filed.  Typically somewhere between three to four months for resolution. 
+
+
+
+Damages.  A landlord has a statutory duty to take reasonable measures to mitigate damages recoverable against a defaulting lessee. Id. 5/9-213.1. 
+
+
+
+Special Considerations.  Be careful about accepting partial payment of rent.  It could result in an unintentional forgiveness of a lease violation and could preclude the landlord from evicting the tenant.  Similarly, beware of accepting the keys back from the tenant before the judge has signed an eviction order.  Courts may construe this as a voluntary surrender of the lease, and may invalidate the collection of any future rent that is due.
+
+=== Indiana (2022 BASELINE TEXT) ===
+Indiana
+
+Statutory Notice.  The parties can waive statutory notice.  If notice has not been waived, a landlord may terminate the lease and bring an action for ejectment with no less than ten days' notice to the tenant.  Ind. Code Ann. § 32-31-1-6.  Notice is not required in the following situations: (1) the landlord agrees to rent the premises to the tenant for a specified period of time; (2) the time for the determination of the tenancy is specified in the contract; (3) a tenant at will commits waste; (4) the tenant is a tenant at sufferance; (5) the express terms of the contract require the tenant to pay the rent in advance, and the tenant refuses or neglects to pay the rent in advance and (6) the landlord-tenant relationship does not exist.  Ind. Code Ann. § 32-31-1-8.
+
+
+
+Self-help.  Landlords do not have an absolute right of self-help to remove tenants.  Self-help may only generally be exercised where the tenant has abandoned the premises.
+
+
+
+Jurisdiction.  In almost every county in Indiana, evictions are a two-step process.  After the initial filing, the court will usually set a hearing 2-3 weeks out.  At the initial hearing, the court will only determine who is entitled to possession of the property.  Also at this hearing, the court will schedule another hearing at a later date to determine what damages are owed (usually about two month out).  At the damages hearing, the Court determines whether the landlord is entitled to a monetary judgment for unpaid rent and damages.  After a judgment is entered, the landlord may initiate what is called Proceedings Supplemental in progress of collection.
+
+
+
+Timing.  Variable.  Depends on the docket of the individual court, but possession is generally determined in under a month while damages are usually determined in three to four months.
+
+
+
+Damages.  An acceleration clause is enforceable if it is expressly stated in the lease agreement. Usually, when a tenant is evicted, the lease and all liability for future rent are terminated.
+
+=== Iowa (2022 BASELINE TEXT) ===
+Iowa
+
+Statutory Notice.  Before an action for forcible entry and detainer can be brought, the landlord must give the tenant a three days' notice to quit in writing. Iowa Code Ann. § 648.3.
+
+
+
+Self-help.  There is no Iowa statute expressly prohibiting self-help remedies, but a landlord may choose to include them in the lease agreement. 
+
+
+
+Jurisdiction.  An action for forcible entry and detainer must be brought in the county where the property is located. Id. § 648.5. Forcible entry and detainer claims may not be joined to any other claims, except a claim for rent. Id. § 648.19
+
+
+
+Timing.  When the court has received the petition, the court shall set a date, time, and place for hearing. The court shall set the date of the hearing no later than eight days from the filing date, or no later than fifteen days from the filing date with the plaintiff’s consent. Iowa Code Ann. § 648.5.  If a claim for damages is joined with the eviction action, that claim will receive a different cause number and will proceed on a different timeline than the action for possession. Id. § 648.19. 
+
+
+
+Damages.  There is no expedited remedy to recover delinquent rent. For an acceleration clause to be enforceable, it must be expressly stated in the lease agreement. The landlord has a duty to mitigate only if the tenant abandons the premises.
+
+=== Kansas (2022 BASELINE TEXT) ===
+Kansas
+
+Statutory Notice.  A landlord in Kansas must give three days’ notice to leave the premises for which possession is sought. Kan. Stat. Ann. § 61-3803.  The three-day notice period must cover three consecutive 24-hour periods, starting at the time the notice is delivered, posted, and mailed. Id. If the notice is mailed, an additional two days to quit the premises must be provided. Id. Saturdays, Sundays, legal holidays, and days on which the office of the clerk of the court is closed do not count toward the notice period. Id. 
+
+
+
+Self-help.  There is no right to use self-help in Kansas.  Id. § 61-3804. 
+
+
+
+Jurisdiction.  A landlord can bring an action for rent due along with an action for possession, or can bring a rent action as a separate lawsuit for the amount due. Id. A judgment in a lawsuit for an eviction “shall not be a bar to any subsequent lawsuit brought by either party for claims not included in such judgment.”  Id. § 61-3802.
+
+
+
+Timing.  The defendant must appear at the date and time indicated in the summons issued by the court, which may not be less than three days after the summons is issued but no more than fourteen days after. If a trial is necessary, it shall be conducted within fourteen days after the appearance date stated in the summons. Id. §§ 61-3805; 61-3806; 61-3807. 
+
+
+
+Damages.  Acceleration of rent clauses are likely enforceable in Kansas although there is some case law to the contrary. A landlord may seek rent due for possession of the premises. Id. § 61-3804.
+
+=== Kentucky (2022 BASELINE TEXT) ===
+Kentucky
+
+Statutory Notice.  For nonpayment of rent, the landlord must give notice which states the total amount past due, when it became due, and a demand that it be paid within seven days from the date of the notice.  For other material noncompliance, the notice must state the nature of the breach, whether or not the same breach has occurred in the past six months, and a demand to remedy the breach within fourteen days.  If the same non-monetary breach occurred within the previous six months, the landlord does not have to allow the tenant to remedy the breach. Ky. Rev. Stat. Ann. §§ 383.660(1)-(2). 
+
+
+
+Self-help.  Self-help remedies are not permitted in Kentucky. Id. § 383.655.   
+
+
+
+Jurisdiction.  Actions for possession and rent may be brought together, but a landlord generally must make a separate claim for actual damages from breach of the rental agreement and reasonable attorney’s fees. Id. § 383.685. 
+
+
+
+Timing.  Variable depending on the court's docket.  It could take as little as a week or as long as several months to complete the eviction process. But the landlord may bring an action for possession for a tenant in default in rent as soon as the notice period concludes. Id. § 383.705(3). 
+
+
+
+Damages.  If the tenant abandons the premises, the landlord does not have a duty to mitigate damages. However, when there is a forfeiture of the lease and the landlord re-enters the premises due to the tenant breaching the contract, the landlord does have a duty to mitigate damages.  Acceleration of rent provisions may be enforceable but there is case law suggesting that in some instances they could be considered unenforceable liquidated damages clauses to the extent they may be a penalty. If a tenant remains in possession without the landlord’s consent after the expiration or termination of the rental agreement, and the tenant’s holdover is willful and not in good faith, the landlord may recover an amount not more than three months’ periodic rent or three times the actual damages sustained, whichever is greater, and reasonable attorney’s fees, along with their action for possession. Id. §§ 383.590, 383.695. A rental agreement may not provide that the tenant agrees to pay the landlord’s attorney’s fees. Id. § 383.570.
+
+=== Louisiana (2022 BASELINE TEXT) ===
+Louisiana
+
+Statutory Notice.  When a lessee's right of occupancy has ceased because of the termination of the lease by expiration or its term, action by the lessor, nonpayment of rent, or for any other reason, and the lessor wishes to obtain possession of the premises, the lessor or his agent shall cause written notice to vacate the premises to be delivered to the lessee.  The notice shall allow the lessee not less than five days from the date of its delivery to vacate the leased premises.  A lessee may waive the notice requirements by written waiver contained in the lease, in which case, the lessor may immediately institute eviction proceedings.
+
+
+
+Self-help.  No self-help remedies are available in Louisiana.  Commercial landlords must repossess leased premises with a court order authorizing a tenant's eviction through a government official such as a representative of the local sheriff's office.
+
+
+
+Jurisdiction.  The landlord must file separate actions for possession and damages.  The possession action must be filed in the Parish Court or Justice of the Peace Court where the property is located.
+
+
+
+Timing.  The eviction proceeding is usually completed within 30 to 60 days.  The hearing on the eviction is no earlier than 3 days after service of the eviction lawsuit, but is dependent upon the court's schedule.
+
+
+
+Damages.  Acceleration of rent clauses must be expressly provided for in the lease agreement to be enforceable. A landlord cannot keep collecting rent once the lease is terminated. 
+
+
+
+Special Considerations.  There is no right to a jury trial on eviction matters in Louisiana.

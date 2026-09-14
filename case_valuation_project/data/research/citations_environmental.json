@@ -1,0 +1,240 @@
+{
+  "cercla_cost_recovery": {
+    "newCitations": [
+      {
+        "caseName": "United States v. The Chemours Company, et al.",
+        "citation": "Proposed Consent Decree, U.S. District Court for the Southern District of West Virginia, lodged/announced June 24, 2026",
+        "jurisdiction": "Federal (S.D. W. Va.)",
+        "year": 2026,
+        "outcome": "EPA, DOJ, and the West Virginia Dep't of Environmental Protection announced a $450 million settlement with Chemours resolving PFAS contamination and other environmental-law violations at four facilities: Chambers Works and Parlin, NJ; Fayetteville Works, NC; and Washington Works, WV. The package includes a $22.5 million civil penalty, a $90 million program to mitigate ongoing PFAS discharges into the Cape Fear, Delaware, and Ohio Rivers, plus additional injunctive-relief/remediation obligations making up the balance of the $450 million total. Subject to a 30-day public comment period before final court approval.",
+        "dollarAmount": 450000000,
+        "sourceUrl": "https://www.epa.gov/enforcement/chemours-settlement-summary-june-2026",
+        "confidence": "high",
+        "notes": "Multi-site, multi-state legacy PFAS manufacturing case -- fits the waterwayOrMultiDecadeLegacyIndustrialCorridor benchmark tier alongside Lower Duwamish/Solvay/Raritan Bay/Anaconda, and is itself close in size to the current NJ state PFAS consent judgments cited under state_cleanup_consent_decree (same underlying PFAS-manufacturer fact pattern, different sovereign plaintiff)."
+      },
+      {
+        "caseName": "United States EPA cost-recovery settlement — Petroleum Products Corporation Superfund Site",
+        "citation": "EPA enforcement settlement, Pembroke Park, Florida, announced June 2025 (FY2025 Superfund Cleanup Enforcement Annual Results)",
+        "jurisdiction": "Federal (S.D. Fla.)",
+        "year": 2025,
+        "outcome": "EPA secured commitments covering roughly $62 million in cleanup work (with more than $30 million in cleanup cost commitments specifically secured in FY2025) to remove over 50,000 cubic yards of contaminated soil/waste threatening the Biscayne Aquifer, the primary drinking-water source for approximately 5.2 million South Florida residents.",
+        "dollarAmount": 62000000,
+        "sourceUrl": "https://www.epa.gov/enforcement/enforcement-and-compliance-assurance-annual-results-fy-2025-superfund-cleanup",
+        "confidence": "medium",
+        "notes": "Falls in a dollar range ($20M-$130M) with NO current benchmark tier -- too large for singleParcelSoilOnly ($3M-$19M) but below the $130M floor of waterwayOrMultiDecadeLegacyIndustrialCorridor. See calibration note."
+      },
+      {
+        "caseName": "United States EPA cost-recovery settlement — Honeywell International (San Fernando Valley Area 1 Superfund Site)",
+        "citation": "EPA enforcement settlement, North Hollywood/Burbank, California, announced February 2025 (FY2025 Superfund Cleanup Enforcement Annual Results)",
+        "jurisdiction": "Federal (C.D. Cal.)",
+        "year": 2025,
+        "outcome": "$12 million settlement with Honeywell International to fund groundwater-contamination cleanup work aimed at restoring drinking-water access for approximately 144,000 residents drawing on the San Fernando Valley aquifer.",
+        "dollarAmount": 12000000,
+        "sourceUrl": "https://www.epa.gov/enforcement/enforcement-and-compliance-assurance-annual-results-fy-2025-superfund-cleanup",
+        "confidence": "high",
+        "notes": "Sits at the upper end of the current singleParcelSoilOnly tier ($3M-$19M) -- though this is groundwater, not soil-only, so it also illustrates that tier's label may be narrower than the actual data it should cover."
+      },
+      {
+        "caseName": "Celanese Corp., et al. v. United States (Chemtronics Superfund Site)",
+        "citation": "Consent Decree / settlement, W.D.N.C., reported March 2026 (Mealey's Pollution Liability)",
+        "jurisdiction": "Federal (W.D.N.C.)",
+        "year": 2026,
+        "outcome": "REVERSE-POSTURE cost-recovery settlement: the private owners (including Celanese Corp.) of the Chemtronics Superfund site near Asheville, NC -- contaminated by decades of Vietnam-era chemical-weapons/tear-gas manufacturing conducted at points under government direction -- sued the United States as a PRP under CERCLA Sec. 107. The owners agreed to drop their claims for further reimbursement of cleanup costs in exchange for a $3.9 million payment from the United States.",
+        "dollarAmount": 3900000,
+        "sourceUrl": "https://www.law360.com/mealeys/mealeys-pollution-liability/articles/2448225/u-s-to-pay-3-9m-to-north-carolina-superfund-site-owners-to-settle-cercla-suit",
+        "confidence": "medium",
+        "notes": "Useful because it shows the government itself as a cost-recovery DEFENDANT/PRP (from historical war-materiel production contracts) -- a fact pattern this claim type's current sample doesn't otherwise illustrate. Full case caption/docket not independently confirmed beyond the trade-press summary; underlying consent decree/complaint not directly reviewed."
+      },
+      {
+        "caseName": "Proposed CERCLA Cost Recovery Settlement — Pure Earth Recycling Superfund Site",
+        "citation": "Proposed settlement, EPA Region 2, Vineland, Cumberland County, NJ, published Federal Register Feb. 28, 2025",
+        "jurisdiction": "Federal (D.N.J.)",
+        "year": 2025,
+        "outcome": "Proposed CERCLA Sec. 122(h) cost-recovery settlement resolving liability for 231 separate settling parties (a large de minimis-style multi-party settlement), who collectively agreed to pay $1,427,692.56 to reimburse EPA's past response costs at the site.",
+        "dollarAmount": 1427692.56,
+        "sourceUrl": "https://www.federalregister.gov/documents/2025/02/28/2025-03208/proposed-cercla-cost-recovery-settlement-for-the-pure-earth-recycling-superfund-site-vineland",
+        "confidence": "high",
+        "notes": "Falls below the current singleParcelSoilOnly floor of $3M despite being a real, EPA-negotiated cost-recovery settlement -- and involves a much larger number of PRPs (231) than any tier currently models. See calibration note."
+      },
+      {
+        "caseName": "Proposed CERCLA Cost Recovery Settlement — Trinseo Polymer Release Site",
+        "citation": "Proposed settlement, Bristol, Bucks County, Pennsylvania, published Federal Register Jan. 16, 2026",
+        "jurisdiction": "Federal (E.D. Pa.)",
+        "year": 2026,
+        "outcome": "Proposed settlement requiring the settling respondent to pay $22,171.29 plus interest to reimburse EPA's past response costs at a single polymer-release site.",
+        "dollarAmount": 22171.29,
+        "sourceUrl": "https://regulations.justia.com/regulations/fedreg/2026/01/16/2026-00783.html",
+        "confidence": "high",
+        "notes": "An order of magnitude below even the smallCommercialStateEnforcementPenalty tier floor of $85,000 -- confirms real EPA cost-recovery settlements can be extremely small when the PRP's actual contribution to a site was minor."
+      },
+      {
+        "caseName": "Voggenthaler v. Maryland Square LLC",
+        "citation": "724 F.3d 1050 (9th Cir. 2013); related district court docket 2:08-cv-01618-RCJ-GWF (D. Nev.)",
+        "jurisdiction": "Federal (9th Cir., applying NV law)",
+        "year": 2013,
+        "outcome": "Decades of PCE seepage from a former dry-cleaning tenant ('Al Phillips the Cleaner') migrated from a Las Vegas shopping center into an adjoining residential neighborhood's soil and groundwater. Neighboring homeowners obtained injunctive relief against the shopping-center owner and dry-cleaner operators under RCRA Sec. 7002; the Nevada Division of Environmental Protection separately pursued and (on summary judgment, affirmed on appeal) recovered its past CERCLA response costs from the same parties. NDEP's April 2007 PRP notice put its expended costs at approximately $160,000 at that stage, with additional response costs anticipated; the final total recovery is not confirmed by the sources reviewed.",
+        "dollarAmount": null,
+        "sourceUrl": "https://law.justia.com/cases/federal/appellate-courts/ca9/10-17520/10-17520-2013-07-26.html",
+        "confidence": "medium",
+        "notes": "A commercial-shopping-center-specific dry-cleaner PCE fact pattern (like Regency Centers/Indian Harbor under the insurance-dispute claim type, and the Sigma Realty/Knapp-estate small dry-cleaner state actions) but decided as a CERCLA cost-recovery cross-claim rather than an insurance or state-penalty action -- useful for cross-referencing how the same underlying contamination type plays out across different claim types in this dataset. dollarAmount left null because no source reviewed disclosed a confirmed final total."
+      }
+    ],
+    "calibrationNote": "The expanded sample confirms the top (waterway/multi-decade) and small-penalty tiers are well-populated and roughly right, but exposes two real gaps rather than validating the middle: (1) a $20M-$130M range with NO tier at all -- the Petroleum Products Corp. site (~$62M, Pembroke Park FL) falls squarely in this gap, well above singleParcelSoilOnly's $19M ceiling but far below waterwayOrMultiDecadeLegacyIndustrialCorridor's $130M floor; and (2) real, EPA-negotiated cost-recovery settlements well BELOW the current $3M singleParcelSoilOnly floor and even below the $85K smallCommercialStateEnforcementPenalty floor (Pure Earth Recycling $1.43M across 231 PRPs; Trinseo $22,171.29). Recommend adding a fourth 'small/multi-de-minimis-party site' tier roughly $20K-$3M, and either renaming or adding a mid-size tier for the $20M-$130M range rather than treating $19M-to-$130M as a discontinuity."
+  },
+  "cercla_contribution_claim": {
+    "newCitations": [
+      {
+        "caseName": "Atlantic Richfield Company v. NL Industries, Inc.",
+        "citation": "No. 23-1349 (10th Cir. Feb. 19, 2025)",
+        "jurisdiction": "Federal (10th Cir., applying CO law)",
+        "year": 2025,
+        "outcome": "DOCTRINAL, not a dollar data point: sulfuric acid leaked into a Colorado river from a plant near a mine; after EPA ordered Atlantic Richfield to build water-treatment systems (costing several million dollars), Atlantic Richfield sued NL Industries. The district court held the claim was cost-recovery under Sec. 107 (six-year limitations period) and time-barred it; the Tenth Circuit reversed, holding the claim was actually a Sec. 113(f) contribution action (three-year period, but running from a different trigger), so the suit was timely after all, and remanded. Directly illustrates the same 107-vs-113(f) classification fork that this dataset already flags under cercla_cost_recovery (Guam v. United States) -- now from the reverse direction, where a party arguing for LONGER treatment (cost recovery) was instead held to be a contribution plaintiff.",
+        "dollarAmount": null,
+        "sourceUrl": "https://law.justia.com/cases/federal/appellate-courts/ca10/23-1349/23-1349-2025-02-19.html",
+        "confidence": "high"
+      },
+      {
+        "caseName": "Georgia-Pacific Consumer Products LP v. NCR Corp. (Kalamazoo River Superfund Site litigation)",
+        "citation": "6th Cir., published opinion filed May 12, 2025 (slip op. no. 25a0127p-06)",
+        "jurisdiction": "Federal (6th Cir., applying MI law)",
+        "year": 2025,
+        "outcome": "Continuing installment of the decades-long Kalamazoo River PCB-contamination litigation among historical paper-mill operators. The 2025 published opinion held that a party already found liable for response costs under CERCLA Sec. 107 in an earlier phase of the case is not entitled to declaratory relief for FUTURE cleanup costs under Sec. 107 -- it is limited to a Sec. 113(f) contribution claim for those future costs, reinforcing that a single multi-decade site can generate successive, doctrinally distinct claims at different phases of the same litigation.",
+        "dollarAmount": null,
+        "sourceUrl": "https://www.mcglinchey.com/insights/sixth-circuit-clarifies-cercla-statute-of-limitations/",
+        "confidence": "medium",
+        "notes": "VERIFICATION CAVEAT: the May 12, 2025 decision date and Sixth Circuit slip-opinion number (25a0127p-06) were confirmed against the court's own opinion index, and the subject matter (Kalamazoo River, Sec. 107 vs. 113(f) declaratory relief) is confirmed via a secondary-source summary. The exact party caption for this specific 2025 phase (as opposed to the confirmed 2022 phase of the same litigation family, Georgia-Pacific Consumer Prods. LP v. NCR Corp., No. 18-1806, 2022 WL 1209013 (6th Cir. Apr. 25, 2022)) was NOT independently re-confirmed from primary text in this research session -- flagged here rather than presented as fully verified."
+      },
+      {
+        "caseName": "ASARCO LLC v. Union Pacific Railroad Co.",
+        "citation": "765 F.3d 999 (9th Cir. 2014); parallel rulings same year in 755 F.3d 1183 (10th Cir. 2014) and 762 F.3d 744 (8th Cir. 2014)",
+        "jurisdiction": "Federal (9th, 10th & 8th Cir.)",
+        "year": 2014,
+        "outcome": "A landmark, multi-circuit trilogy arising from ASARCO's bankruptcy reorganization: ASARCO's post-bankruptcy Sec. 113(f) contribution claims against Union Pacific (a 19th-century-era business partner at several historical lead/mining/smelting sites in Idaho, Montana, and elsewhere) were held time-barred because they were filed more than three years after the bankruptcy court approved the underlying CERCLA settlements -- with the Ninth, Tenth, and Eighth Circuits all reaching the same result within months of each other on parallel sites.",
+        "dollarAmount": null,
+        "sourceUrl": "https://www.courtlistener.com/opinion/587606/",
+        "confidence": "medium",
+        "notes": "No single dollar figure applies (multiple sites/dockets); value here is doctrinal -- a real, verified illustration of how a bankruptcy-triggered contribution clock can extinguish an otherwise-valid contribution claim entirely, consistent with this claim type's existing 'orphan share' and equitable-reduction themes (Trinity Industries, Barclay Lofts) but for a different, timing-based reason. Citations confirmed via CourtListener docket search; full opinion text not independently re-read in this session."
+      },
+      {
+        "caseName": "United States v. Entergy Louisiana, LLC, et al. (F.J. Doyle Salvage Superfund Site)",
+        "citation": "Proposed Consent Decree, D.J. Ref. No. 90-11-3-12574, E.D. Tex., proposed Dec. 2025",
+        "jurisdiction": "Federal (E.D. Tex.)",
+        "year": 2025,
+        "outcome": "The United States sued six electrical utilities (Entergy Louisiana, LLC; Entergy Texas, Inc.; City of Garland, TX; Lighthouse Electric Cooperative; Southwestern Electric Power Co.; and Oncor Electric Delivery Co.) under CERCLA Sec. 107(a) to recover costs of cleaning up PCB-contaminated transformers sent to the F.J. Doyle Salvage Superfund Site in Leonard, Texas. The six settling defendants agreed to pay $1,001,630.21 collectively -- roughly 25% of the $4,006,520.83 in EPA response costs at issue -- in exchange for a covenant not to sue and Sec. 113(f)(2) contribution protection against future claims by non-settling PRPs.",
+        "dollarAmount": 1001630.21,
+        "sourceUrl": "https://www.federalregister.gov/public-inspection/2025-23505/proposed-consent-decree-cercla",
+        "confidence": "medium",
+        "notes": "Directly relevant to the contribution-protection mechanic this claim type should account for: once these six utilities settle for ~25% of total costs, any remaining non-settling PRPs lose the ability to seek contribution from them, concentrating the unrecovered ~75% balance onto whoever is left -- the flip side of the 'orphan share' dynamic already noted for Barclay Lofts."
+      }
+    ],
+    "calibrationNote": "This claim type's expanded sample skews almost entirely toward statute-of-limitations/claim-classification doctrine (Atlantic Richfield, Georgia-Pacific/NCR, the ASARCO trilogy) rather than fresh percentage-allocation data points, so it does NOT provide much new evidence on whether the 0.55-0.8 baseProbability range itself is calibrated correctly. What it does add is a strong, now well-evidenced THIRD failure mode beyond 'equitable-factor reduction' (Trinity) and 'orphan share' (Barclay Lofts): a technically time-barred claim can extinguish an otherwise economically sound contribution right entirely, particularly after a bankruptcy-court-approved settlement or an earlier declaratory judgment in the same case family. Recommend the tool's UI flag limitations-period risk as a discrete gating question before applying the probability x damages math, similar to how eminent-domain's fullDefenseRisk is flagged separately from its valuation-uplift math."
+  },
+  "state_cleanup_consent_decree": {
+    "newCitations": [
+      {
+        "caseName": "State of New Jersey, et al. v. E.I. du Pont de Nemours & Co. (n/k/a EIDP, Inc.), The Chemours Co., DuPont Specialty Products USA, LLC, Corteva Inc., DuPont de Nemours, Inc., and 3M Co.",
+        "citation": "Federal court approval of two combined consent judgments, D.N.J., approved Aug. 7, 2026",
+        "jurisdiction": "NJ (federal court approval)",
+        "year": 2026,
+        "outcome": "Federal court gave final approval to two combined settlements, together valued at approximately $2.5 billion, resolving New Jersey's long-running PFAS natural-resource-damage and remediation claims against DuPont-family entities (~$2 billion) and 3M (~$450 million) arising from decades of PFAS manufacturing at four industrial sites: Pompton Lakes Works (Passaic County), Parlin (Middlesex County), Repauno (Gloucester County), and Chambers Works (Salem County). Breakdown: up to $795 million to a PFAS abatement fund, up to $365 million in natural resource damages, up to $1.2 billion in remediation funding (with a $475 million reserve), and roughly $195 million in legal fees/costs, paid out via annual disbursements over 25 years.",
+        "dollarAmount": 2500000000,
+        "sourceUrl": "https://www.njoag.gov/federal-court-approves-historic-pfas-settlements-valued-at-approximately-2-5-billion/",
+        "confidence": "high",
+        "notes": "Described by NJ's AG as the largest environmental recovery in state history. Encompasses/supersedes the earlier-announced standalone 3M settlement (up to $450 million, announced May 13, 2025, covering Chambers Works and Parlin plus the statewide PFAS directive) -- do not double-count both as separate benchmark data points; this $2.5B figure is the final, court-approved combined total."
+      },
+      {
+        "caseName": "New Jersey Dep't of Environmental Protection v. Pechiney Plastic Packaging, Inc., Bristol Myers Squibb, Citigroup, MRC Holdings, Rexam Beverage Can Co., and Albea Americas, Inc. (Pohatcong Valley Groundwater Contamination Site)",
+        "citation": "Proposed Consent Judgment, published N.J. Register Nov. 17, 2025; announced Nov. 24, 2025 (public comment through Jan. 16, 2026)",
+        "jurisdiction": "NJ",
+        "year": 2025,
+        "outcome": "$49.5 million settlement ($45 million in natural resource damages plus $4.5 million in past remediation costs) for a nearly 10,000-acre TCE/PCE groundwater plume (once nine miles long) under Pohatcong Valley, Warren County (Washington Township, Washington Borough, Franklin Township, Greenwich Township), which reached two public water-supply wells and multiple private residential wells. Pechiney Plastic Packaging, Inc. bears the large majority (~$43.9 million of NRD plus most cleanup costs); Bristol Myers Squibb pays the balance (~$1.1 million NRD plus $179,000 past costs). Original state lawsuit filed in 2018.",
+        "dollarAmount": 49500000,
+        "sourceUrl": "https://www.njoag.gov/ag-platkin-and-dep-commissioner-latourette-announce-49-5-million-settlement-to-resolve-pohatcong-valley-groundwater-contamination/",
+        "confidence": "high"
+      },
+      {
+        "caseName": "California Department of Toxic Substances Control settlement — former Bay Area dry cleaner ('Omo's')",
+        "citation": "DTSC administrative settlement, Bay Area, CA, announced March 26, 2026",
+        "jurisdiction": "CA",
+        "year": 2026,
+        "outcome": "DTSC secured more than $100,000 (reported as $100,800) in penalties from the current owners and former operators of a Bay Area dry-cleaning business for cleanup violations tied to legacy solvent (PCE-type) contamination.",
+        "dollarAmount": 100800,
+        "sourceUrl": "https://dtsc.ca.gov/2026/03/26/dtsc-secures-more-than-100000-settlement-with-former-bay-area-dry-cleaner-for-cleanup-violations/",
+        "confidence": "medium",
+        "notes": "A close California analog to the existing NJ small-dry-cleaner penalty data points (Sigma Realty $117,500; Knapp estate $85,000) and to the Golden Gate Petroleum gas-station action already in this claim type's sample -- confirms the smallCommercialStateEnforcementPenalty-style range ($85K-$120K) generalizes beyond New Jersey. The source page itself could not be re-fetched directly in this session (blocked); this entry relies on a corroborating secondary search summary of the same DTSC release and should be spot-checked before heavy reliance."
+      },
+      {
+        "caseName": "New Jersey civil enforcement recovery — Presperse Corporation (bankruptcy proof-of-claim)",
+        "citation": "NJ AG 2025 civil-enforcement recoveries summary, announced July 22, 2026",
+        "jurisdiction": "NJ",
+        "year": 2025,
+        "outcome": "New Jersey recovered $1,667,830.29 from Presperse Corporation via a proof-of-claim filed in what appears to be a bankruptcy/creditor proceeding, as part of the state's broader $193 million in total 2025 civil-enforcement recoveries (environmental and non-environmental combined).",
+        "dollarAmount": 1667830.29,
+        "sourceUrl": "https://www.njoag.gov/ag-davenport-2025-state-recoveries-reach-193-million/",
+        "confidence": "low",
+        "notes": "Specific contamination site and full underlying facts were not disclosed in the source reviewed -- included as a real, sourced dollar figure illustrating that state environmental recoveries increasingly run through bankruptcy claims processes (an important collections-risk factor this claim type doesn't currently model), not as a fully-documented case study. Verify against the underlying bankruptcy docket before relying on it for anything beyond the dollar figure."
+      },
+      {
+        "caseName": "New Jersey civil enforcement recovery — Solvay/Arkema Judicial Consent Order",
+        "citation": "Arkema Judicial Consent Order, NJ, court document dated June 30, 2025; reported in NJ AG's 2025 recoveries summary (July 22, 2026)",
+        "jurisdiction": "NJ",
+        "year": 2025,
+        "outcome": "$33,950,000 recovered under a Judicial Consent Order involving Solvay/Arkema, referenced in New Jersey's 2025 civil-enforcement recoveries summary.",
+        "dollarAmount": 33950000,
+        "sourceUrl": "https://www.njoag.gov/ag-davenport-2025-state-recoveries-reach-193-million/",
+        "confidence": "low",
+        "notes": "IMPORTANT CAVEAT: this appears to be DISTINCT from the $393 million Solvay Specialty Polymers West Deptford PFAS consent order already cited in this claim type's existing sample (different dollar figure, different associated company name 'Arkema,' different document date) -- but the source reviewed did not disclose the underlying site or full case name clearly enough to confirm it is not somehow a partial/duplicate reference to the same overall Solvay PFAS matter. Flagged as low confidence and should be independently verified against NJDEP's site-specific settlement records before being relied upon as a separate data point."
+      }
+    ],
+    "calibrationNote": "This is the single biggest calibration finding across all four claim types: the existing sample topped out at Solvay's $393 million West Deptford PFAS order, but the newly-approved combined NJ DuPont/3M PFAS settlement is $2.5 BILLION -- roughly 6.4x larger -- and the Pohatcong Valley order ($49.5M) and standalone 3M order (~$450M) both slot in between. Because this claim type is explicitly modeled as a benchmark lookup (not probability x damages), the practical fix isn't a probability adjustment but an explicit note that STATEWIDE, MULTI-SITE PFAS consent judgments belong in their own benchmark tier above ordinary single-site consent decrees (even large ones like Solvay) -- treating a $2.5B statewide PFAS resolution as comparable to a single-site order would badly mis-scale a benchmark lookup for anything but the largest, most diversified corporate PRPs. At the small end, the new CA dry-cleaner and bankruptcy-claim data points confirm the existing $85K-$120K small-commercial-penalty range still holds up well."
+  },
+  "environmental_insurance_coverage_dispute": {
+    "newCitations": [
+      {
+        "caseName": "Griffith Foods Int'l, Inc. v. National Union Fire Ins. Co. of Pittsburgh, PA",
+        "citation": "2026 IL 131710 (Ill. Sup. Ct. 2026)",
+        "jurisdiction": "Illinois",
+        "year": 2026,
+        "outcome": "INSURER WIN: Griffith Foods operated a medical-equipment/food-related sterilization facility alleged to have emitted ethylene oxide for over 35 years, allegedly causing cancer and other illnesses in nearby residents. The Illinois Supreme Court held that a government permit or other regulatory emissions authorization has 'no relevance' to whether a CGL pollution exclusion applies -- the pollution exclusion is triggered by the nature of the contaminant and resulting injury, not by whether the release was legally authorized -- so the government-authorized emissions were still 'pollution' for coverage purposes and the exclusion applied.",
+        "dollarAmount": null,
+        "sourceUrl": "https://ilcourtsaudio.blob.core.windows.net/antilles-resources/resources/f07723d1-119f-4c40-a855-86d02698f069/Griffith%20Foods%20Int%20v.%20National%20Union%20Fire%20Ins%202026%20IL%20131710.pdf",
+        "confidence": "high",
+        "notes": "This case is ALREADY referenced elsewhere in the dataset (in the Illinois state-modifier table for this claim type, at the 'Illinois' entry, which asserts it is 'already cited under...environmental_insurance_coverage_dispute elsewhere in this dataset') -- but it was NOT actually present in this claim type's citations array prior to this addition. Adding it here closes that gap and makes the cross-reference note accurate."
+      },
+      {
+        "caseName": "Bradley v. Travelers Casualty Insurance Co. (or affiliated Travelers entity)",
+        "citation": "C.D. Cal. (Los Angeles), ruling issued Sept. 2, 2026",
+        "jurisdiction": "Federal (C.D. Cal., applying CA law)",
+        "year": 2026,
+        "outcome": "PARTIAL POLICYHOLDER WIN: an insured ('Bradley') sought partial summary judgment that Travelers owed a duty to defend against an underlying personal-injury suit alleging exposure to hydrogen sulfide gas. The court granted the motion in relevant part, holding Travelers had failed to show the policy's pollution exclusion barred coverage for that claim.",
+        "dollarAmount": null,
+        "sourceUrl": "https://www.mealeys.com/mealeys/mealeys-toxic-torts/articles/2520891",
+        "confidence": "medium",
+        "notes": "Full case caption/docket number and the exact Travelers entity name were not confirmed beyond the trade-press summary (which itself sits behind a subscription paywall) -- party names as given ('Bradley' v. 'Travelers') are as reported, not independently verified against a court docket."
+      },
+      {
+        "caseName": "New Castle County v. Hartford Accident and Indemnity Co.",
+        "citation": "970 F.2d 1267 (3d Cir. 1992)",
+        "jurisdiction": "Federal (3d Cir., applying DE law)",
+        "year": 1992,
+        "outcome": "Landmark, long-running dispute over historical CGL coverage for New Castle County's landfill-related CERCLA liabilities. Among other issues, the Third Circuit's decision is a leading citation for adopting a 'continuous trigger' theory for progressive, multi-year environmental contamination (rather than requiring the insured to pinpoint a single discrete 'occurrence' date), while resolving other coverage issues (including aspects of the pollution exclusion and number-of-occurrences questions) less favorably to the County -- an overall mixed outcome across the several issues litigated. This is one of several related opinions in the same multi-year New Castle County insurance-coverage litigation (other related decisions include 174 F.3d 338 (3d Cir. 1999) and 243 F.3d 744 (3d Cir. 2001)).",
+        "dollarAmount": null,
+        "sourceUrl": "https://www.courtlistener.com/opinion/587606/new-castle-county-v-hartford-accident-and-indemnity-company/",
+        "confidence": "medium",
+        "notes": "Citation and case existence independently confirmed via CourtListener docket search. The substantive summary above reflects general legal knowledge of this well-known, frequently-cited landmark rather than a fresh read of the full opinion text in this session (the opinion's rendered page returned no extractable text) -- recommend confirming the specific holding details against the primary opinion before relying on this for anything beyond 'a real, on-point landmark case exists here.'"
+      },
+      {
+        "caseName": "Broadwell Realty Services, Inc. v. Fidelity & Casualty Co. of New York",
+        "citation": "528 A.2d 76, 218 N.J. Super. 516 (App. Div. 1987)",
+        "jurisdiction": "NJ",
+        "year": 1987,
+        "outcome": "POLICYHOLDER WIN (duty to defend): an early, frequently-cited New Jersey landmark holding that a commercial property owner facing a state-agency-driven cleanup obligation for contamination migrating from its property was entitled to a defense from its CGL insurer, addressing what counts as an 'occurrence' and property damage in the context of gradual environmental contamination discovered and remediated under regulatory compulsion rather than through a conventional third-party tort suit.",
+        "dollarAmount": null,
+        "sourceUrl": "https://www.courtlistener.com/opinion/2258049/broadwell-realty-services-inc-v-fidelity-cas-co-of-ny/",
+        "confidence": "medium",
+        "notes": "Citation and case existence independently confirmed via CourtListener (cited 109 times per that database, confirming its landmark status). As with New Castle County above, the substantive outcome summary reflects general legal knowledge of this well-known case rather than a fresh read of the full opinion text in this session -- confirm the specific holding against the primary opinion before relying on fine-grained details."
+      }
+    ],
+    "calibrationNote": "Adding these four brings the running tally to roughly 3 insurer-favorable outcomes (Regency Centers, James River, Griffith Foods) against 4-5 policyholder-favorable or mixed-favorable outcomes (Harrietstown, San Bernardino, Bradley, Broadwell, and New Castle County's partial win on trigger-of-coverage), plus 2 pending/undisclosed (Travelers v. Washington Shoppes, Fox Investments). If baseProbability [0.25, 0.45] is meant to capture the POLICYHOLDER's odds, this now-larger sample leans more policyholder-favorable than that range implies and would support nudging the upper bound toward 0.5; but the sample still badly conflates two different postures that shouldn't be pooled -- duty-to-DEFEND fights (which policyholders tend to win more often, per Bradley/Broadwell/Harrietstown here) are a meaningfully easier bar than duty-to-INDEMNIFY/actual-coverage fights (where Regency Centers, James River, and Griffith Foods all went against the policyholder). Recommend splitting this claim type's probability range by defend-vs-indemnify posture rather than adjusting a single blended number."
+  }
+}

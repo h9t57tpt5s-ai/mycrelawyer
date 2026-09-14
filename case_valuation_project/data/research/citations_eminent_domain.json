@@ -1,0 +1,214 @@
+{
+  "just_compensation_valuation": {
+    "newCitations": [
+      {
+        "caseName": "Mountain Valley Pipeline, LLC v. 8.37 Acres of Land, More or Less, Situate in Roanoke County (Terry family)",
+        "citation": "No. 23-1532 (4th Cir. May 14, 2024)",
+        "jurisdiction": "Federal (4th Cir., applying VA law)",
+        "year": 2024,
+        "outcome": "A jury awarded the Terry family $523,327 in just compensation for permanent and temporary pipeline easements across 8.37 acres of their 560-acre Bent Mountain farm, crediting testimony that the land was worth $1.9 million with a roughly 30% reduction from the pipeline's impact. The district court trimmed the award to $261,033 post-trial, reasoning the jury must have relied on an unsupported commercial-development valuation theory. A Fourth Circuit panel (Judges Thacker, Gregory, and Wynn) reversed, holding the original $523,327 verdict was independently sustainable on the trial record using only the property's residential valuation evidence, and restored the full jury award.",
+        "dollarAmount": 523327,
+        "sourceUrl": "https://cardinalnews.org/2024/05/14/judges-side-with-family-in-mountain-valley-pipeline-compensation-case-reversing-earlier-decision/",
+        "confidence": "high",
+        "notes": "A real, published federal appellate reinstatement of a landowner jury verdict a district judge had cut nearly in half -- useful evidence that a valuation verdict resting on legitimate alternative evidentiary theories can survive post-trial second-guessing on appeal."
+      },
+      {
+        "caseName": "Williamson County, Texas v. J.A. Davidson Holdings, L.P.",
+        "citation": "Williamson County District Court, Texas (jury verdict Apr. 2025; Rule 11 settlement filed July 2025)",
+        "jurisdiction": "TX",
+        "year": 2025,
+        "outcome": "In a county-roadway condemnation, a Williamson County jury awarded J.A. Davidson Holdings $4,437,000 for the portion of property taken -- a figure the reporting describes as exceeding the valuation the county itself presented at trial. The parties subsequently resolved the balance of the dispute via a Rule 11 settlement agreement adding $2,913,000, for a combined total recovery of approximately $7.35 million.",
+        "dollarAmount": 7350000,
+        "sourceUrl": "https://www.hellogeorgetown.com/williamson-county-news/williamson-county-eminent-domain-case-ends-in-7-35m-settlement-after-jury-verdict/",
+        "confidence": "medium",
+        "notes": "The county's initial written offer was not disclosed in available reporting, so the exact uplift multiple can't be independently computed -- included for the confirmed, large, real dollar figures and jury-exceeds-condemnor's-valuation pattern, not as a precise ratio data point."
+      },
+      {
+        "caseName": "New Jersey Department of Environmental Protection v. Midway Beach Condominium Association, Inc.",
+        "citation": "N.J. Superior Court, Law Division, Ocean County, Docket No. OCN-L-2653-17 (jury verdict Aug. 2024; final judgment Aug. 2025)",
+        "jurisdiction": "NJ",
+        "year": 2024,
+        "outcome": "The State condemned a permanent easement over roughly 6 acres of oceanfront property owned by a homeowners' association for a post-Hurricane Sandy dune and storm-protection project, opening with a nominal $500 statutory offer. After trial, the jury returned a verdict of $4,707,631.36 -- described as the largest verdict obtained in any New Jersey beach-replenishment condemnation matter -- essentially matching the owner's own $4.69 million appraisal. Final judgment (with pre-judgment interest resolved by stipulation) entered roughly a year later.",
+        "dollarAmount": 4707631,
+        "sourceUrl": "https://www.ownerscounsel.com/new-jersey-beach-replenishment-case-with-record-high-jury-verdict-nearly-a-year-ago-finally-concludes-after-pre-judgment-interest-agreement-is-reached/",
+        "confidence": "high",
+        "notes": "An extreme-outlier multiple (roughly 9,400x the opening offer) driven by New Jersey's practice of opening beach-easement condemnations with a token statutory-minimum offer, not a genuine first market bid -- do not use this ratio to recalibrate the general uplift tiers; it reflects a state/property-type-specific quirk, not typical negotiating behavior."
+      },
+      {
+        "caseName": "Commissioners of Carroll County, Maryland v. Kathleen O'Connor, et al.",
+        "citation": "Circuit Court for Carroll County, Maryland, No. C-06-CV-23-000315 (jury verdict Nov. 2025)",
+        "jurisdiction": "MD",
+        "year": 2025,
+        "outcome": "The County sought to partially condemn a 79-acre property with a single-family home (a fee-simple taking of 1/3 acre plus an avigation easement over the remaining 78 acres) for an airport runway extension, opening with an offer of $268,500 that was later raised to $400,000 and then $700,000 before trial. The county's own appraisers valued the taking at $645,000-$700,000; the landowners' expert valued the damage at $2.2 million. The jury returned the maximum amount requested -- $3,500,000 in just compensation.",
+        "dollarAmount": 3500000,
+        "sourceUrl": "https://www.ownerscounsel.com/joe-suntum-ocas-maryland-member-prevails-in-landmark-eminent-domain-trial/",
+        "confidence": "high",
+        "notes": "Residential/agricultural rather than commercial, but a real, well-documented ~13x uplift over the county's original offer (and ~5x its own final pretrial expert valuation) -- a genuine data point above the top of the existing severanceAccessOrBusinessValueDispute 2.0-5.0x tier, driven by an avigation-easement severance theory analogous to the Foothills/Hanke proximity-damages fact pattern already in this claim's sample."
+      },
+      {
+        "caseName": "Piedmont Natural Gas Company, Inc. v. BlueRoad Fontanel, LLC",
+        "citation": "Tenn. Ct. App., No. M2024-01860-COA-R3-CV (argued Nov. 5, 2025)",
+        "jurisdiction": "TN",
+        "year": 2025,
+        "outcome": "A gas utility acquired a pipeline easement over the landowner's property through eminent domain, and a jury assessed just compensation for the taking. On appeal, the utility argued the trial court erroneously admitted the landowner's valuation expert testimony and that the evidence was insufficient to support the jury's award. The Tennessee Court of Appeals found no abuse of discretion and affirmed the award in full.",
+        "dollarAmount": null,
+        "sourceUrl": "https://www.courtlistener.com/opinion/10831508/piedmont-natural-gas-company-inc-v-blueroad-fontanel-llc/",
+        "confidence": "medium",
+        "notes": "The specific dollar figure for the jury's award could not be independently confirmed from available public sources despite multiple attempts -- included only for the doctrinal point (appellate deference to a landowner's valuation expert and evidentiary sufficiency), not as a dollar data point. Flag for follow-up if the underlying trial-court record becomes accessible."
+      }
+    ],
+    "calibrationNote": "The enlarged sample reinforces rather than undermines the existing tiered structure. The Carroll County case (a real ~13x uplift over the initial offer, ~5x over the condemnor's own final pretrial expert valuation) sits above the current severanceAccessOrBusinessValueDispute 2.0-5.0x ceiling, echoing the Arizona Foothills/Hanke proximity-damages pattern already in the file -- avigation/proximity-easement severance disputes may deserve their own sub-tier extending past 5x rather than being capped at the general severance ceiling. The New Jersey beach case's ~9,400x multiple is a real but non-generalizable outlier tied to that state's nominal opening-offer convention for beach easements and should not move any range. No new data was found this round for the narrower routineComparableSalesValuation (0.5-1.0x) tier, which remains supported only by the original NC DOT v. AJA Investments data point."
+  },
+  "quick_take_challenge": {
+    "newCitations": [
+      {
+        "caseName": "Township of Jackson v. Getzel Bee, LLC",
+        "citation": "N.J. Supreme Court, No. A-3-25 (decided July 2026)",
+        "jurisdiction": "NJ",
+        "year": 2026,
+        "outcome": "Jackson Township condemned two privately owned lots (owned by Getzel Bee, LLC and Bellevue Jackson LLC) not to use the land itself for a public purpose, but to trade them to a private developer in exchange for a different, unrelated 35-acre tract the Township wanted preserved as open space. The New Jersey Supreme Court unanimously held that neither the Local Lands and Buildings Law nor the Eminent Domain Act authorizes a municipality to condemn private property to use purely as exchange 'currency' in a land swap, because the public-use requirement attaches to the condemned property itself, not merely to the overall transaction's ultimate goal. The condemnation was invalidated.",
+        "dollarAmount": null,
+        "sourceUrl": "https://www.njlm.org/m/newsflash/Home/Detail/3919",
+        "confidence": "high",
+        "notes": "A genuine, state-high-court-level landowner win on a right-to-take theory -- but note the taking failed for lack of statutory authority for this specific land-swap structure, not because the underlying open-space goal was found illegitimate; an ordinary public-use/necessity challenge to a taking that directly serves the stated project would very likely still fail post-Kelo."
+      },
+      {
+        "caseName": "Pacific Gas and Electric Co. v. Superior Court (South San Joaquin Irrigation District, Real Party in Interest)",
+        "citation": "Cal. Ct. App., 3d Dist., No. C097529 (certified for publication, filed Sept. 21, 2023)",
+        "jurisdiction": "CA",
+        "year": 2023,
+        "outcome": "In a decades-long dispute over the irrigation district's bid to acquire PG&E's local electric distribution system via eminent domain to run it as a public utility, the Court of Appeal upheld the district's resolution of necessity and the underlying LAFCO determination that the district has authority to provide electric service in its territory. The California Supreme Court subsequently denied PG&E's petition for review, and PG&E was ordered to pay the district's litigation costs from the multi-year fight.",
+        "dollarAmount": null,
+        "sourceUrl": "https://www.horvitzlevy.com/pacific-gas-electric-co-v-superior-court-south-san-joaquin-irrigation-district-2023/",
+        "confidence": "medium",
+        "notes": "Another loss for the party resisting the condemning authority's right to take -- consistent with this claim type's existing low baseProbability -- though notable for showing how long and costly the underlying right-to-take fight can run (roughly two decades of litigation) even where the challenger ultimately loses."
+      },
+      {
+        "caseName": "Town of Apple Valley v. Apple Valley Ranchos Water",
+        "citation": "Cal. Supreme Court, No. S289391 (decided Aug. 24, 2026)",
+        "jurisdiction": "CA",
+        "year": 2026,
+        "outcome": "Resolving a split among California appellate districts, the California Supreme Court held that when a utility challenges a public agency's resolution of necessity to condemn (municipalize) the utility's system, courts must independently review whether the agency has proven by a preponderance of the evidence that the taking is authorized, rather than applying the traditional highly deferential 'gross abuse of discretion' standard. Applying the more searching standard, the utility had already prevailed at a 67-day bench trial below, with the Town's resolution of necessity found invalid and the Town ordered to pay the utility more than $13 million in attorneys' fees.",
+        "dollarAmount": 13000000,
+        "sourceUrl": "https://www.eminentdomainreport.com/supreme-court-delivers-huge-win-for-utilities-facing-municipalization",
+        "confidence": "high",
+        "notes": "A significant, real WIN for a challenger to a condemning authority's right to take, in the specific sub-context of utility municipalization -- the new preponderance-of-evidence standard is more challenger-friendly than the deferential standard applied to ordinary public-use/necessity challenges, and the $13M+ fee-shifting outcome shows the stakes when a challenge succeeds."
+      }
+    ],
+    "calibrationNote": "The overall 0.05-0.15 baseProbability still looks right for the ordinary public-use/necessity challenge -- two of the three new cases (South San Joaquin, and the general public-use principle underlying Jackson) confirm courts remain highly deferential once a taking directly serves its stated public project. But Apple Valley v. Apple Valley Ranchos Water is a real, high-court-level win for a challenger with a $13M+ fee award attached, in the specific sub-context of utility municipalization, where the newly-clarified preponderance-of-evidence standard of review is meaningfully more favorable to the challenger than the deferential standard applied elsewhere in this claim type. Recommend flagging utility-municipalization right-to-take disputes as a distinct, higher-probability sub-case rather than leaving them folded into the general 0.05-0.15 range."
+  },
+  "pre_condemnation_access_dispute": {
+    "newCitations": [
+      {
+        "caseName": "Summit Carbon Solutions, LLC v. Kasischke",
+        "citation": "Iowa Supreme Court, No. 23-1186 (decided Nov. 22, 2024)",
+        "jurisdiction": "IA",
+        "year": 2024,
+        "outcome": "A Hardin County landowner refused to allow Summit Carbon Solutions' surveyors onto his land to survey a proposed CO2 pipeline route, arguing Iowa Code section 479B.15 (which authorizes a pipeline company to enter private land to survey) was facially unconstitutional because it allows an uncompensated physical invasion without due process or a jury trial. The Iowa Supreme Court affirmed the district court's rejection of the facial constitutional challenge under both the federal and Iowa constitutions, upholding the statute and the company's survey access.",
+        "dollarAmount": null,
+        "sourceUrl": "https://iowacapitaldispatch.com/2024/11/22/iowa-supreme-court-upholds-land-survey-abilities-of-pipeline-companies-in-summit-case/",
+        "confidence": "high",
+        "notes": "A clean loss for the landowner on a facial constitutional challenge to a modern survey-access statute -- consistent with, and reinforcing, this claim type's existing low 0.05-0.2 baseProbability."
+      },
+      {
+        "caseName": "Betty Jean Strom Trust v. SCS Carbon Transport, LLC",
+        "citation": "South Dakota Supreme Court, 2024 S.D. 48, Nos. 30317 & 30338 (decided Aug. 21, 2024)",
+        "jurisdiction": "SD",
+        "year": 2024,
+        "outcome": "The South Dakota Supreme Court held that SDCL 21-35-31 authorizes only 'minimally invasive superficial inspections' for pre-condemnation pipeline surveys (not invasive geotechnical/deep-dig work), and that the statute's incorporated right to a jury trial on any resulting damages satisfies constitutional requirements -- rejecting the landowners' broader takings challenge to the survey-access statute itself. However, the Court also reversed summary judgment for Summit Carbon Solutions on the separate, threshold question of whether Summit actually qualifies as a 'common carrier' with eminent domain authority at all, holding the lower courts abused their discretion by denying landowners' discovery requests into Summit's business model and offtake agreements, and remanded for further proceedings on that common-carrier status.",
+        "dollarAmount": null,
+        "sourceUrl": "https://caselaw.findlaw.com/court/sd-supreme-court/116507602.html",
+        "confidence": "high",
+        "notes": "A genuinely mixed outcome: a clean loss on the access/survey-statute constitutionality question itself (consistent with the existing sample), paired with a real partial win reopening the separate common-carrier / eminent-domain-authority threshold question -- illustrates that even where survey access itself is essentially unwinnable, a landowner can still meaningfully contest whether the entity qualifies for eminent domain power in the first place."
+      },
+      {
+        "caseName": "John P. Boerschig v. Rio Grande Electric Cooperative, Inc.",
+        "citation": "Texas Supreme Court, No. 24-0213 (decided May 22, 2026)",
+        "jurisdiction": "TX",
+        "year": 2026,
+        "outcome": "A ranch purchaser sued an electric cooperative holding condemnation authority for trespass after it tripled the number of poles and nearly doubled the wires on a decades-old distribution line crossing his property to serve a new industrial customer and substation. The cooperative's only claimed right derived from an unrecorded 1947 easement-by-estoppel. The Texas Supreme Court held the jury correctly found an easement by estoppel existed, but that the cooperative's major upgrade -- built to serve new customers, not to continue its original use -- exceeded the scope of that easement as a matter of law. The Court reversed the court of appeals, rendered judgment for the landowner on the trespass claim, and remanded for further proceedings (including damages).",
+        "dollarAmount": null,
+        "sourceUrl": "https://www.txcourts.gov/media/1462760/240213.pdf",
+        "confidence": "high",
+        "notes": "An outright Texas Supreme Court win for the landowner -- but on a distinguishable theory (the SCOPE of an existing, informal 1947 easement held by an entity with general condemnation authority) rather than a challenge to a fresh statutory survey/entry request, which is the more typical fact pattern already in this claim's sample. Best treated as a separate, more landowner-favorable sub-scenario (disputes over whether an entity's use exceeds its existing easement) rather than folded into the general pre-condemnation access/survey base rate."
+      }
+    ],
+    "calibrationNote": "The core pattern holds for genuine survey/entry-access disputes under modern statutes: Kasischke is a clean loss for the landowner, and even Strom Trust's partial win leaves the actual access/survey right intact (it only reopens the entity's underlying common-carrier status). The 0.05-0.2 baseProbability remains right for that fact pattern. Boerschig, however, is a real, high-court landowner win in a meaningfully different fact pattern -- a dispute over whether an entity's ACTUAL USE exceeds the scope of an existing (here, informal/unrecorded) easement, rather than a fresh request for survey access. Recommend treating 'scope of an existing easement' disputes as a distinct, more landowner-favorable claim variant rather than averaging it into this claim type's base rate."
+  },
+  "regulatory_taking": {
+    "newCitations": [
+      {
+        "caseName": "BBLI Edison, LLC v. City of Chicago",
+        "citation": "7th Cir., No. 25-1713 (decided July 22, 2026)",
+        "jurisdiction": "Federal (7th Cir., applying IL law)",
+        "year": 2026,
+        "outcome": "Chicago's Keep Chicago Renting Ordinance requires a property owner who acquires a residential building through foreclosure to either offer existing tenants new one-year leases or pay each tenant a $10,600 relocation fee. The owner of a roughly 220-unit building (five tenants elected the cash payment) challenged the ordinance as an unconstitutional taking. The Seventh Circuit acknowledged the takings argument 'has something to it' but ultimately rejected it, characterizing the requirement as a 'clunky form of rent control' -- permissible regulation of the landlord-tenant relationship under the Penn Central framework -- rather than a compensable taking, and affirmed dismissal.",
+        "dollarAmount": null,
+        "sourceUrl": "https://www.inversecondemnation.com/2026/07/ca7-takings-claim-has-something-to-it-but-city-requiring-owner-pay-relocation-fee-to-tenants-is-a-clunky-form-of-rent-control-so-you-lose.html",
+        "confidence": "high",
+        "notes": "A loss for the property owner even though the court expressly conceded the takings theory 'has something to it' -- the court declined to extend Koontz to this fact pattern and applied ordinary Penn Central deference instead."
+      },
+      {
+        "caseName": "Sheetz v. County of El Dorado (on remand from the U.S. Supreme Court)",
+        "citation": "Cal. Ct. App., 3d Dist., No. C093682A (certified for publication, filed July 29, 2025)",
+        "jurisdiction": "CA",
+        "year": 2025,
+        "outcome": "After the U.S. Supreme Court held in 2024 that the Nollan/Dolan unconstitutional-conditions framework applies to legislatively-enacted development impact fees (not just individualized administrative conditions), the case returned to the California Court of Appeal to actually apply that framework to El Dorado County's traffic impact fee. On remand, the Court of Appeal rejected Sheetz's constitutional challenge on the merits, holding the County's legislatively-enacted fee satisfied Nollan/Dolan's nexus and rough-proportionality requirements.",
+        "dollarAmount": 23420,
+        "sourceUrl": "https://www.eminentdomainreport.com/supreme-court-shuts-the-door-on-sheetz",
+        "confidence": "high",
+        "notes": "Important complement to the Sheetz entry already in the file: the 2024 U.S. Supreme Court decision was a purely procedural win establishing that legislative fees don't get a free pass from Nollan/Dolan scrutiny -- but once that scrutiny was actually applied to the real fee on remand, the property owner LOST on the merits. Don't let the earlier SCOTUS win overstate this claim type's real odds; the final, substantive result was a defeat for the fee-payer."
+      },
+      {
+        "caseName": "Matthew Parsons, et al. v. City of Indian Wells",
+        "citation": "Cal. Ct. App., 4th Dist., Div. 2, No. E082591 (certified for publication, filed Aug. 31, 2026)",
+        "jurisdiction": "CA",
+        "year": 2026,
+        "outcome": "Not itself a Penn Central/Lucas takings claim, but a closely related, currently-litigated short-term-rental-regulation dispute: property owners in a common-interest development successfully argued below that a City ordinance provision letting HOA boards opt their community out of the City's generally-applicable STR minimum-stay ban was preempted by the Davis-Stirling Act and an unconstitutional delegation of legislative authority, winning a writ of mandate ordering the City to issue them an unrestricted STR permit, plus attorney's fees. The Court of Appeal reversed on both theories, upholding the City's opt-out ordinance and the STR restriction as applied to the owners.",
+        "dollarAmount": null,
+        "sourceUrl": "https://www.courtlistener.com/opinion/10666454/",
+        "confidence": "medium",
+        "notes": "Included for topical relevance to the Blakelick Properties v. Village of Glen Ellyn entry already in this claim's sample (both concern STR-ban litigation), not as a regulatory-takings holding itself -- this case turns on statutory preemption and delegation-of-authority doctrine, not the Takings Clause. Flag this distinction if it's surfaced to end users; it illustrates the broader trend of contested STR regulation but should not be cited as a Penn Central precedent."
+      }
+    ],
+    "calibrationNote": "This batch runs against the property owner in every instance that actually reached a takings holding (BBLI Edison, Sheetz-on-remand), reinforcing the file's existing note that regulatory-takings claims rarely succeed absent a near-total wipeout of value. The Sheetz remand result is the most important addition: it shows that the 2024 Supreme Court procedural win (Nollan/Dolan applies to legislative fees) did NOT translate into a substantive win once actually litigated on the underlying fee -- a useful caution against reading the original Sheetz citation as more owner-favorable than it now proves to be. No new evidence surfaced this round to justify moving the 0.10-0.25 baseProbability in either direction; if anything, keep it toward the lower half absent a Lucas-style total wipeout."
+  },
+  "eminent_domain_attorney_fees": {
+    "newCitations": [
+      {
+        "caseName": "City of Sioux Falls v. Johnson Properties, LLC",
+        "citation": "South Dakota Supreme Court, 2025 S.D. 66, Docket No. 30947 (argued Oct. 9, 2025; decided Nov. 19, 2025)",
+        "jurisdiction": "SD",
+        "year": 2025,
+        "outcome": "The City condemned two portions of a commercial property (housing the Alibi Bar & Grill) for a road-realignment project, initially offering $32,454 and depositing an appraised $51,647, later raising its pretrial offer to $250,000. A jury awarded Johnson Properties $382,600 in just compensation -- exceeding the City's final offer by more than 20%, the statutory trigger under SDCL 21-35-23. The circuit court awarded $139,724.60 in attorney's fees using a contingent-fee ('lift') methodology rather than a straight lodestar/hourly calculation, supported by affidavits that contingent fees (typically 25%-50%) are the customary arrangement in South Dakota eminent domain practice. The South Dakota Supreme Court affirmed, holding the circuit court did not abuse its discretion in either the methodology or the amount.",
+        "dollarAmount": 139725,
+        "sourceUrl": "https://ujs.sd.gov/media/muoemfqe/30947.pdf",
+        "confidence": "high",
+        "notes": "A commercial-property fee-shifting case with the full underlying record confirmed (initial offer, deposit, final pretrial offer, verdict, and fee award all independently verified from the opinion itself) -- a strong, current illustration of SDCL 21-35-23's >20%-above-offer trigger operating on real numbers, and of courts endorsing contingent-fee awards over rigid hourly billing in this practice area."
+      },
+      {
+        "caseName": "State of Minnesota, by its Commissioner of Transportation v. David P. Williams, d/b/a Bear Track Outfitting Co., et al. (Mike's Holiday)",
+        "citation": "Minnesota Court of Appeals, No. A24-1713 (filed Aug. 4, 2025)",
+        "jurisdiction": "MN",
+        "year": 2025,
+        "outcome": "MnDOT condemned parcels (including one owned by Mike's Holiday) for a highway improvement project, with a final written pre-litigation offer of $14,600. The parties ultimately settled the underlying just-compensation claim for $100,000, after a commissioners' panel had valued the taking at over $200,000. Because the settlement exceeded both the $25,000 floor and MnDOT's last offer by more than 40%, Mike's Holiday was entitled to fees under Minn. Stat. section 117.031(a); the district court awarded $127,657.10 in fees and expenses (including fees incurred defending the condemnation petition itself), using the lodestar method. The Court of Appeals affirmed in full, rejecting MnDOT's arguments that the fee award improperly included fees unrelated to obtaining the final judgment.",
+        "dollarAmount": 127657,
+        "sourceUrl": "https://mn.gov/law-library-stat/archive/ctappub/2025/OPa241713-080425.pdf",
+        "confidence": "high",
+        "notes": "A striking, fully-verified real-world data point: the statutory fee award ($127,657.10) actually EXCEEDED the underlying $100,000 damages settlement -- a vivid illustration of how a state's percentage-above-offer fee-shifting trigger can produce a fee recovery larger than the compensation claim itself once the statutory threshold is crossed."
+      },
+      {
+        "caseName": "Metropolitan District v. Mott",
+        "citation": "Connecticut Appellate Court, No. AC46665 (filed Sept. 30, 2025)",
+        "jurisdiction": "CT",
+        "year": 2025,
+        "outcome": "In a dispute involving an easement and a counterclaim for declaratory/title relief, the property owners sought attorney's fees under Connecticut's inverse-condemnation fee-shifting statute (Conn. Gen. Stat. section 48-17b). The Appellate Court held the statute was inapplicable because the owners had neither pleaded an inverse condemnation claim in their counterclaim nor actually prevailed on one -- fee-shifting under that statute is tied to that specific cause of action, not to prevailing on a related property dispute generally. Fees were denied (and a separate fee argument under a different statute was deemed inadequately briefed and not considered).",
+        "dollarAmount": null,
+        "sourceUrl": "https://www.courtlistener.com/opinion/10679411/",
+        "confidence": "medium",
+        "notes": "A useful loss/counterexample: illustrates that eminent-domain-adjacent fee-shifting statutes are typically tied tightly to a specific pleaded and prevailed-upon cause of action (here, inverse condemnation specifically), not triggered merely because a property/easement dispute involving a condemning-type authority exists."
+      }
+    ],
+    "calibrationNote": "This claim type is correctly modeled as a state-statute lookup rather than a general probability, and the new data strongly supports that design choice. The Minnesota case is the most important addition: it shows a state's percentage-above-offer trigger (here, Minn. Stat. section 117.031(a)'s >40%-above-offer-and->$25,000 test) can generate a fee award ($127,657.10) that exceeds the underlying damages recovery ($100,000) once crossed, which the current 'fraction of (estimatedAward - initialOffer), using the state's own statutory cap fraction' formula should already be capable of reflecting for Minnesota specifically if it isn't already in the 51-jurisdiction table. The South Dakota case confirms contingent 'lift'-based fee calculations (not just hourly lodestar) are judicially endorsed in at least one state. The Connecticut loss is a reminder to keep this claim narrowly scoped to states/causes of action where a real fee-shifting trigger is actually pleaded and met, rather than assuming fee-shifting follows automatically from any eminent-domain-adjacent dispute."
+  }
+}
