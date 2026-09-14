@@ -172,8 +172,8 @@
       "Every CRE lawsuit that matters, in one place.",
       "Commercial real estate litigation, mapped and tracked.",
       "The legal risk behind every deal, tracked live.",
-      "Built for property managers who can't afford to miss a lawsuit.",
-      "The litigation tracker for property managers, owners, and REITs.",
+      "Built for anyone who can't afford to miss a lawsuit that touches their deal.",
+      "The litigation tracker for owners, developers, managers, and REITs.",
     ];
     heroHeadline.textContent = HERO_TAGLINES[Math.floor(Math.random() * HERO_TAGLINES.length)];
   }
