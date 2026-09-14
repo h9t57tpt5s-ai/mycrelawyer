@@ -11,6 +11,14 @@
   const sb = window.RELAW_SUPABASE;
   if (!sb) return;
 
+  // FREE_MODE (2026-09-14): must match the flag in js/case-valuation.js /
+  // js/lease-clause-redline.js and their Edge Functions -- pricing is
+  // paused while the product gets built out further, so this card
+  // shouldn't push an "Upgrade" pitch or a credit count that no longer
+  // means anything. Flip back to false, together with the other three,
+  // when pricing returns.
+  const FREE_MODE = true;
+
   const nameEl = document.getElementById("account-plan-name");
   const detailEl = document.getElementById("account-plan-detail");
   if (!nameEl || !detailEl) return; // not on account.html
@@ -25,6 +33,17 @@
     const session = window.RELAW_AUTH && window.RELAW_AUTH.getSession();
     if (!session || !session.user) return; // #account-signed-in is hidden anyway
     const userId = session.user.id;
+
+    if (FREE_MODE) {
+      nameEl.textContent = "Free";
+      const { count: viewsThisMonth } = await sb
+        .from("case_views")
+        .select("id", { count: "exact", head: true })
+        .eq("user_id", userId)
+        .gte("viewed_at", new Date(new Date().getFullYear(), new Date().getMonth(), 1).toISOString());
+      detailEl.innerHTML = `The Case Value Calculator and Lease Clause Redline Checker are free for everyone right now while we build out the product — no credits needed. ${viewsThisMonth || 0} of 3 full write-ups viewed this month.`;
+      return;
+    }
 
     const { data: sub, error: subErr } = await sb
       .from("case_valuation_subscriptions")

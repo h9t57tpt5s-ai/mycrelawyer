@@ -13,6 +13,15 @@
   const sb = window.RELAW_SUPABASE;
   if (!sb) return;
 
+  // FREE_MODE (2026-09-14): pricing is paused while the product gets
+  // built out further -- must match the backend's own FREE_MODE flag in
+  // supabase/functions/lease-clause-redline/index.ts (that function
+  // enforces this for real; this one exists only so a signed-in user
+  // sees the analyze button immediately instead of a stale "no credits"
+  // paywall this page would otherwise show before ever calling it).
+  // Flip both back to false together when pricing returns.
+  const FREE_MODE = true;
+
   const SUPABASE_URL = "https://ribmcdyoydhmafnyfhpp.supabase.co";
   const REDLINE_FN_URL = SUPABASE_URL + "/functions/v1/lease-clause-redline";
   const STRIPE_PAYMENT_LINK_URL = "https://buy.stripe.com/dRm9AL34yaOSeLJetz1B601";
@@ -125,8 +134,10 @@
       if (btn && window.RELAW_AUTH) btn.addEventListener("click", () => window.RELAW_AUTH.openSignInModal());
       return;
     }
-    uploadHost.innerHTML = `<div class="gate-card is-loading">Checking your credit balance…</div>`;
-    const bal = await getCreditBalance();
+    if (!FREE_MODE) {
+      uploadHost.innerHTML = `<div class="gate-card is-loading">Checking your credit balance…</div>`;
+    }
+    const bal = FREE_MODE ? { total: Infinity, used: 0, remaining: Infinity, freeMode: true } : await getCreditBalance();
     if (!bal) {
       uploadHost.innerHTML = `<div class="gate-card"><p class="text-secondary" style="font-size:13.5px;">Couldn't check your credit balance — refresh and try again.</p></div>`;
       return;
@@ -137,7 +148,7 @@
     }
     uploadHost.innerHTML = `
       <div class="card" style="padding:20px; display:flex; align-items:center; justify-content:space-between; gap:16px; flex-wrap:wrap;">
-        <span class="badge badge-live">${bal.remaining} of ${bal.total} analysis credits remaining</span>
+        <span class="badge badge-live">${bal.freeMode ? "Free during launch — no credits needed" : `${bal.remaining} of ${bal.total} analysis credits remaining`}</span>
         <button type="button" class="btn btn-primary" id="lr-analyze-btn">Analyze Clause</button>
       </div>
       <div id="lr-status" class="cv-ai-status"></div>`;

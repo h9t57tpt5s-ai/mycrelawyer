@@ -53,6 +53,15 @@
 
   const sb = window.RELAW_SUPABASE;
 
+  // FREE_MODE (2026-09-14): pricing is paused while the product gets
+  // built out further -- must match the backend's own FREE_MODE flag in
+  // supabase/functions/case-valuation-analyze/index.ts (that function
+  // enforces this for real; this one exists only so a signed-in user
+  // sees the upload form immediately instead of a stale "no credits"
+  // paywall this page would otherwise show before ever calling it).
+  // Flip both back to false together when pricing returns.
+  const FREE_MODE = true;
+
   if (window.pdfjsLib) {
     window.pdfjsLib.GlobalWorkerOptions.workerSrc =
       "https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js";
@@ -289,7 +298,7 @@
     return `
       <div class="card cv-upload-card" style="padding:20px; margin-bottom:20px;">
         <div class="cv-ai-balance">
-          <span class="badge badge-live">${bal.remaining} of ${bal.total} analysis credits remaining</span>
+          <span class="badge badge-live">${bal.freeMode ? "Free during launch — no credits needed" : `${bal.remaining} of ${bal.total} analysis credits remaining`}</span>
         </div>
         <p class="text-secondary" style="font-size:13px; line-height:1.6; margin:10px 0 14px;">Tell us what happened, upload the original petition, an answer, a counterclaim — or both. The more detail you give, the better the estimate. Nothing you upload is stored — only the extracted text is sent for analysis.</p>
 
@@ -1044,6 +1053,12 @@
       uploadHost.innerHTML = signInCardHtml();
       const btn = document.getElementById("cv-ai-signin-btn");
       if (btn && window.RELAW_AUTH) btn.addEventListener("click", () => window.RELAW_AUTH.openSignInModal());
+      return;
+    }
+    if (FREE_MODE) {
+      const bal = { total: Infinity, used: 0, remaining: Infinity, freeMode: true };
+      uploadHost.innerHTML = uploadZoneHtml(bal);
+      wireUploadZone(bal);
       return;
     }
     uploadHost.innerHTML = `<div class="gate-card is-loading">Checking your credit balance…</div>`;
