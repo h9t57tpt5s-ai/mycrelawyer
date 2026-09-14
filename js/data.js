@@ -16,7 +16,7 @@ const RELAW_DATA = {
      Drives the homepage's "New Today" pill: it only shows when this
      equals the visitor's local today. Updated by the digest automation
      each time Step 4 successfully adds a case — never touched otherwise. */
-  lastUpdatedDate: "2026-09-13",
+  lastUpdatedDate: "2026-09-14",
   categories: [
     { id: "landlord-tenant", label: "Landlord–Tenant", color: "var(--cat-landlord)" },
     { id: "zoning-land-use", label: "Zoning & Land Use", color: "var(--cat-zoning)" },
@@ -3888,6 +3888,68 @@ const RELAW_DATA = {
         "For sponsors and owners who rely on bridge financing to acquire value-add multifamily assets, the Cimerring litigation is a pointed reminder that a lender's informal assurances about future refinancing are not a substitute for a binding forward commitment, and that the gap between the two can determine who ultimately owns the asset once market conditions tighten. Borrowers should treat any refinancing plan that is not documented as a conditional forward commitment, with defined underwriting benchmarks and timing, as aspirational rather than contractual, and should independently track their own qualification for a permanent takeout loan rather than relying solely on the bridge lender's representations. Owners facing a maturing bridge loan without a secured takeout should also be alert to the conflict of interest inherent whenever the same lender or its affiliate stands to benefit from a foreclosure sale, and should consider independent counsel and marketing a refinancing or voluntary sale to third parties before a default forecloses those options."
       ],
       tags: ["bridge loan", "foreclosure", "fraud", "multifamily", "georgia"]
+    },
+    {
+      id: "live-137",
+      addedDate: "2026-09-14",
+      title: "United States v. Joshua Schuster (Silverback Development Investor Fraud Sentencing)",
+      category: "reit-securities",
+      status: "ruling",
+      date: "2026-08-11",
+      jurisdiction: "U.S. District Court, Southern District of New York",
+      state: "NY",
+      amount: "$13M forfeiture ordered; 4 years federal prison",
+      source: "live",
+      sourceUrl: "https://therealdeal.com/new-york/2026/08/11/josh-schuster-gets-4-years-in-prison-for-ponzi-scheme/",
+      summary: "U.S. District Judge Valerie E. Caproni sentenced former Silverback Development founder Joshua Schuster to four years in federal prison and three years of supervised release on August 11, 2026, after his February guilty plea to securities fraud for defrauding real estate investors of more than $13 million between roughly 2018 and 2022. The court approved a $13 million forfeiture order, though prosecutors acknowledged they have not identified assets sufficient to fully repay victims; Schuster had raised the funds on promises of equity in Gramercy Park, Long Island City, and South Bronx development projects but diverted a substantial portion to personal expenses and to pay off earlier investors.",
+      significance: "Illustrates how quickly a real estate equity raise built on inaccurate use-of-proceeds and track-record representations can produce felony liability rather than merely a failed investment, and underscores that a criminal forfeiture order does not guarantee investors will recover their losses. Sponsors, fund managers, and the counsel who paper offering documents should treat the case as a reminder that diligence on fund-usage representations is a control, not a formality.",
+      body: [
+        "Joshua Schuster, founder of the now-defunct New York City development firm Silverback Development, was sentenced on August 11, 2026 to four years in federal prison and three years of supervised release after pleading guilty to securities fraud for defrauding investors of more than $13 million between approximately 2018 and 2022. U.S. District Judge Valerie E. Caproni of the Southern District of New York imposed the sentence and approved a $13 million forfeiture order intended to compensate Schuster's victims, though prosecutors acknowledged they have been unable to identify assets sufficient to make investors whole. For real estate sponsors, fund managers, and the counsel who paper their offering documents, the case is a compact and unusually well-documented illustration of how quickly an equity raise built on inflated representations can convert from a financing strategy into a federal prison sentence.",
+        "Schuster built Silverback Development into a visible presence in New York City real estate, pitching investors on equity stakes in ground-up and value-add projects across Gramercy Park, Long Island City, the South Bronx, and other neighborhoods. According to the criminal information and the U.S. Attorney's Office for the Southern District of New York, Schuster raised money from investors by making inaccurate statements about how their funds would be used and by exaggerating Silverback's business reputation and track record. Rather than deploying the capital as represented, prosecutors alleged, Schuster diverted portions of it to cover more than $1 million in personal credit card payments, private-school tuition, and hundreds of thousands of dollars in gambling losses, while using new investor funds to pay off earlier investors in the pattern courts and prosecutors describe as Ponzi-like.",
+        "The scheme first drew public attention in May 2025, when the SEC filed a civil fraud action against Schuster and his entity, Schuster Enterprises LLC (doing business as Silverback), and federal prosecutors separately charged him criminally with wire fraud and securities fraud, each carrying a statutory maximum of 20 years. Schuster pleaded guilty to the securities fraud count on February 27, 2026, telling Judge Caproni in open court that he was ashamed of his conduct. At his sentencing hearing roughly five months later, Schuster's counsel argued for leniency on the theory that he had been sober for four years and was, in his own telling, no longer the person who lied to and stole from his investors.",
+        "Judge Caproni was not persuaded that Schuster's post-offense conduct reflected genuine rehabilitation rather than continued image management. In imposing the four-year sentence, she pointed to Schuster's relocation to Boca Raton, Florida, where he rented an expensive house, purchased a Ford Bronco, and had his wife driving a Mercedes-Benz, remarking that she did not believe he had given up the desire to appear successful. That observation goes to a recurring theme in white-collar sentencing: courts increasingly scrutinize a defendant's lifestyle and spending in the period between guilty plea and sentencing as evidence of whether contrition is genuine or performative, and defense narratives built primarily around sobriety or personal transformation carry less weight when a defendant's outward financial conduct has not meaningfully changed.",
+        "The forfeiture order underscores a separate, often underappreciated dynamic in investor-fraud prosecutions: a forfeiture judgment establishes a legal entitlement to recovery, but it does not manufacture assets where none exist. Prosecutors told the court they had not identified sufficient assets to satisfy the $13 million figure, meaning Schuster's victims may hold a formally recognized claim with limited practical prospect of full repayment, a gap that is common where a fraud's proceeds were spent on lifestyle expenses and prior investor payouts rather than preserved in traceable form. The SEC's parallel civil action and the criminal prosecution proceeded on separate but related tracks, each capable of independently producing significant consequences, from an SEC bar and disgorgement order to a felony conviction and custodial sentence.",
+        "For sponsors raising equity from individual or family-office investors on New York City development deals, the practical lesson is that the line between aggressive marketing and criminal securities fraud is drawn by the accuracy of specific representations about fund usage and track record, not by the size or sophistication of the deal, so verifying that a sponsor's track-record claims and use-of-proceeds representations are accurate — and that capital calls are actually tracked against stated purposes — functions as a real control rather than a paperwork formality. Investors and their counsel evaluating potential claims against a sponsor accused of misusing capital should also recognize that a criminal forfeiture order, while it establishes the amount owed, offers no guarantee of recovery, and that civil claims against a sponsor's other assets or against professionals who facilitated the offering often remain the more realistic path to recouping losses; anyone facing a live fraud allegation involving a sponsor, meanwhile, should move on parallel civil remedies promptly rather than waiting on the outcome of a criminal case to determine what, if anything, is left to collect."
+      ],
+      tags: ["securities fraud", "investor fraud", "sentencing", "ponzi scheme", "new york"],
+      timeline: [
+        { when: "2018–2022", label: "Schuster raises and misuses more than $13M from Silverback investors" },
+        { when: "May 2025", label: "SEC files civil fraud action; federal prosecutors bring criminal wire fraud and securities fraud charges" },
+        { when: "February 27, 2026", label: "Schuster pleads guilty to securities fraud" },
+        { when: "August 11, 2026", label: "Judge Caproni sentences Schuster to 4 years in prison and orders $13M forfeiture", current: true },
+        { when: "October 20, 2026", label: "Schuster is scheduled to surrender to the Federal Bureau of Prisons", upcoming: true }
+      ],
+      judge: "Valerie E. Caproni"
+    },
+    {
+      id: "live-138",
+      addedDate: "2026-09-14",
+      title: "Gunwerks, LLC v. Forward Cody Wyoming, Inc. (Manufacturing Facility Design-Build Third-Party Beneficiary Appeal)",
+      category: "construction-defect",
+      status: "ruling",
+      date: "2026-02-02",
+      jurisdiction: "Supreme Court of Wyoming",
+      state: "WY",
+      amount: "$14M sought in underlying construction-defect claims",
+      source: "live",
+      sourceUrl: "https://cowboystatedaily.com/2026/02/02/wyoming-supreme-court-revives-gunmakers-14m-lawsuit-over-business-council-project/",
+      summary: "The Wyoming Supreme Court unanimously reversed the dismissal of Gunwerks, LLC's $14 million construction-defect claims against its manufacturing facility's architect, Plan One Architects, and general contractor, Sletten Construction of Wyoming, holding that Gunwerks adequately alleged it was an intended third-party beneficiary of contracts those firms signed with Forward Cody Wyoming, Inc., the economic-development entity that held the contracts on Gunwerks' behalf. Justice Bridget Hill authored the February 2, 2026 opinion, which sends the case back to the Park County district court for further proceedings alongside Gunwerks' direct breach-of-contract claim against Forward Cody.",
+      significance: "Clarifies that a manufacturer or other end user with no signed contract can still sue the architect and contractor directly where a public-private conduit entity's contracts exist solely to produce a facility for that user's benefit — narrowing a liability shield design-build teams have relied on in economic-development-funded projects, and putting municipalities and development authorities on notice that acting as contracting intermediary does not concentrate all downstream liability with them.",
+      body: [
+        "The Wyoming Supreme Court on February 2, 2026 revived a $14 million construction-defect lawsuit brought by Gunwerks, LLC, the Cody-based precision rifle and optics manufacturer, against the architect and general contractor who designed and built its manufacturing facility, even though Gunwerks was not a party to either firm's contract. In Gunwerks, LLC v. Forward Cody Wyoming, Inc., 2026 WY 16, the court unanimously reversed the Fifth Judicial District Court's dismissal of Gunwerks' claims against Plan One Architects and Sletten Construction of Wyoming, Inc., holding that Gunwerks had adequately alleged it was an intended third-party beneficiary of the design and construction contracts those firms signed with Forward Cody Wyoming, Inc., the local economic-development entity that arranged the project's financing and stood as the direct contracting party. Justice Bridget Hill authored the opinion. For developers, economic-development authorities, and design-build teams operating anywhere a public or quasi-public conduit entity holds the contracts on behalf of an eventual owner-occupant, the ruling is a significant data point on how far liability can travel down that contracting chain.",
+        "The dispute traces back to an economic-development arrangement common across smaller municipalities seeking to retain or attract manufacturing employers: rather than contracting directly with its architect and contractor, Gunwerks relied on Forward Cody, working with the City of Cody, to secure roughly $6 million in grants and loans from the Wyoming Business Council and to hold the design and construction contracts on the project's behalf. Forward Cody in turn retained Plan One Architects to design the facility and Sletten Construction of Wyoming as general contractor to build it. Gunwerks itself signed no contract with either firm; its relationship to the project ran through Forward Cody as the intermediary and nominal owner during construction.",
+        "According to court filings, the arrangement went badly wrong once construction was underway. Gunwerks documented what it described as pervasive design and construction defects, including climate-control failures, water intrusion, and structural deficiencies severe enough that the manufacturer ultimately compiled 157 pages cataloging alleged defects across the facility, including its specialized shooting-range tunnel. Gunwerks sued Forward Cody directly for breach of contract in November 2021, and separately sued Plan One and Sletten, arguing that even without privity, it was the intended beneficiary of design and construction contracts that existed for no purpose other than building it a functioning facility. Plan One and Sletten each moved to dismiss on the theory that Gunwerks, as a matter of law, could not be an intended third-party beneficiary of contracts to which it was a stranger, and the Fifth Judicial District Court, in an order from Judge Bill Simpson, agreed, leaving Gunwerks' direct breach-of-contract claim against Forward Cody as its only surviving avenue against any of the three parties responsible for the building.",
+        "The Wyoming Supreme Court reversed both dismissals. Drawing on the state's existing third-party beneficiary framework, including its 2022 decision in Peterson v. Meritain, Justice Hill's opinion held that whether a non-signatory qualifies as an intended beneficiary turns on the parties' intent as reflected in the contract and surrounding circumstances, not on the mere fact that the beneficiary never signed the agreement. Because the entire purpose of Forward Cody's contracts with Plan One and Sletten was to produce a manufacturing facility for Gunwerks' benefit, the court found Gunwerks had pleaded enough to survive dismissal and proceed to discovery on whether it could ultimately prove intended-beneficiary status. The court's order sends the case back to the district court in Park County for further proceedings, with Gunwerks' claims against Forward Cody, Plan One, and Sletten all now proceeding in tandem.",
+        "The legal significance of the ruling lies less in the underlying construction defects than in the contracting architecture that produced the dispute. Economic-development authorities frequently serve as an intermediary, holding design and construction contracts on behalf of a manufacturer, retailer, or other end user that the public-private deal is ultimately designed to benefit, often specifically to centralize administration of grant and loan proceeds or to satisfy public-funding conditions. Design and construction professionals working under that kind of arrangement have historically been able to point to the absence of a direct contract with the ultimate occupant as a liability shield; the Wyoming Supreme Court's ruling narrows that shield considerably, since a contract whose entire purpose is to benefit a specific, identifiable end user is precisely the fact pattern that supports third-party beneficiary status, regardless of who signed the signature page.",
+        "That has practical consequences that extend well beyond Cody, Wyoming. Architects and general contractors working on economic-development, redevelopment-authority, or other publicly financed projects where a conduit entity holds the contract should not assume the eventual owner-occupant's lack of privity insulates them from direct liability, and should factor that exposure into how they price risk and structure their own insurance and indemnification provisions on this type of engagement. Economic-development authorities and municipalities structuring similar arrangements should document, at the outset, whether they intend the design and construction contracts to run exclusively to their own benefit or to also benefit the eventual occupant, since that intent is now squarely relevant to who can be sued later, and should recognize that acting as the contracting conduit does not necessarily concentrate all downstream liability with them. More broadly, any party entering into a multi-tier contracting structure, whether a public-private development deal, a ground lease with a conduit developer, or a master-lease arrangement, would be well served to have counsel assess third-party beneficiary exposure proactively rather than relying on the absence of privity as a default shield, since the case now returns to the trial court for fact-finding on the merits of Gunwerks' defect claims and the ultimate scope of Plan One's and Sletten's exposure remains to be litigated."
+      ],
+      tags: ["construction defect", "third-party beneficiary", "design-build", "economic development", "wyoming"],
+      timeline: [
+        { when: "November 2021", label: "Gunwerks sues Forward Cody for breach of contract, later adding Plan One and Sletten" },
+        { when: "2024", label: "Fifth Judicial District Court dismisses Gunwerks' claims against Plan One and Sletten" },
+        { when: "February 2, 2026", label: "Wyoming Supreme Court reverses, reviving all claims and remanding to the district court", current: true }
+      ],
+      judge: "Bridget Hill"
     }
   ],
 
@@ -4286,7 +4348,8 @@ const RELAW_DATA = {
     { jurisdiction: "Dallas County District Court, Texas", url: "https://www.dallascounty.org/government/district-clerk/" },
     { jurisdiction: "U.S. District Court, Eastern District of California", url: "https://www.caed.uscourts.gov/" },
     { jurisdiction: "U.S. District Court, Central District of California", url: "https://www.cacd.uscourts.gov/" },
-    { jurisdiction: "U.S. District Court, District of Maine", url: "https://www.med.uscourts.gov/" }
+    { jurisdiction: "U.S. District Court, District of Maine", url: "https://www.med.uscourts.gov/" },
+    { jurisdiction: "Supreme Court of Wyoming", url: "https://www.wyocourts.gov/supreme-court/" }
   ],
 
   /* Judges — background on every judge named in our sourced reporting (never
@@ -4566,6 +4629,22 @@ const RELAW_DATA = {
       court: "Massachusetts Supreme Judicial Court",
       background: "Appointed to the Massachusetts Supreme Judicial Court by Governor Maura Healey in January 2024, filling the first open seat of her administration. Previously served as Massachusetts State Solicitor from 2016 to 2024 and clerked at all three levels of the federal judiciary, including for U.S. Supreme Court Justice Stephen G. Breyer.",
       bioUrl: "https://www.mass.gov/info-details/supreme-judicial-court-justices"
+    },
+    {
+      name: "Valerie E. Caproni",
+      slug: "valerie-e-caproni",
+      title: "U.S. District Judge",
+      court: "U.S. District Court, Southern District of New York",
+      background: "Nominated by President Obama on January 4, 2013 to a seat vacated by Judge Richard J. Holwell, confirmed by the Senate that September. Previously general counsel to the FBI from 2003 to 2011 and vice president and deputy general counsel at Northrop Grumman Corporation. Assumed senior status in January 2025.",
+      bioUrl: "https://www.fjc.gov/history/judges/caproni-valerie-elaine"
+    },
+    {
+      name: "Bridget Hill",
+      slug: "bridget-hill",
+      title: "Justice",
+      court: "Supreme Court of Wyoming",
+      background: "Appointed to the Wyoming Supreme Court by Governor Mark Gordon and sworn in May 28, 2025, filling the seat vacated by the retirement of Chief Justice Kate Fox. Previously served as Wyoming Attorney General from 2019 to 2025 and as Director of the Wyoming Office of State Lands and Investments from 2013 to 2018.",
+      bioUrl: "https://www.wyocourts.gov/supreme-court/"
     }
   ],
 
