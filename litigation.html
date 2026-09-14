@@ -301,10 +301,20 @@
   // reload fixes the overwhelming majority of these before a person ever
   // sees a broken page; sessionStorage caps it at one retry per page per
   // tab session so a real, persistent failure doesn't reload forever.
-  if (typeof RELAW_DATA === "undefined") {
+  // Checks both "never loaded at all" (RELAW_DATA undefined) AND
+  // "loaded but suspiciously incomplete" (a truncated/partial transfer
+  // of this 900KB+ file can still parse as valid JS if the cut lands on
+  // a clean array-element boundary, leaving RELAW_DATA defined with only
+  // a handful of cases instead of the real 138+) -- the first version of
+  // this guard only caught the first case, and Jeff hit the second one
+  // live the same day it shipped.
+  var _dataBad = typeof RELAW_DATA === "undefined" ||
+    !RELAW_DATA.cases || RELAW_DATA.cases.length < 50;
+  if (_dataBad) {
     var _ddk = "credocket_data_retry_" + location.pathname;
-    if (!sessionStorage.getItem(_ddk)) {
-      sessionStorage.setItem(_ddk, "1");
+    var _ddTries = parseInt(sessionStorage.getItem(_ddk) || "0", 10);
+    if (_ddTries < 2) {
+      sessionStorage.setItem(_ddk, String(_ddTries + 1));
       location.reload();
     }
   }
