@@ -594,6 +594,25 @@ h3, .h3 {
 @media (max-width: 980px) { .grid-3 { grid-template-columns: repeat(2, 1fr); } .grid-4 { grid-template-columns: repeat(2, 1fr); } }
 @media (max-width: 640px) { .grid-3, .grid-4 { grid-template-columns: 1fr; } }
 
+/* ---------- Pricing page ---------- */
+.btn-block { display: flex; width: 100%; justify-content: center; }
+.pricing-card { display: flex; flex-direction: column; }
+.pricing-card-featured { border-color: var(--accent); box-shadow: var(--shadow-md); }
+.pricing-price { font-family: var(--font-display); font-size: 2.4rem; font-weight: 600; color: var(--text-primary); line-height: 1; }
+.pricing-period { font-family: var(--font-body); font-size: 14px; font-weight: 500; color: var(--text-muted); }
+.pricing-features { display: flex; flex-direction: column; gap: 10px; font-size: 13.5px; line-height: 1.5; color: var(--text-secondary); flex-grow: 1; }
+.pricing-features li { padding-left: 22px; position: relative; }
+.pricing-features li::before {
+  content: ""; position: absolute; left: 0; top: 6px; width: 14px; height: 14px;
+  border-radius: 50%; background: var(--accent-wash);
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%233355ff' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='20 6 9 17 4 12'/%3E%3C/svg%3E");
+  background-repeat: no-repeat; background-position: center; background-size: 9px;
+}
+.pricing-faq-item { padding: 18px 0; border-top: 1px solid var(--border-soft); }
+.pricing-faq-item:first-of-type { border-top: none; }
+.pricing-faq-item h3 { font-size: 15px; font-weight: 600; margin-bottom: 6px; }
+.pricing-faq-item p { font-size: 13.5px; line-height: 1.65; }
+
 /* ---------- Section header ---------- */
 .section-head { display: flex; align-items: flex-end; justify-content: space-between; gap: 24px; margin-bottom: 56px; flex-wrap: wrap; }
 

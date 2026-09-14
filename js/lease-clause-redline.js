@@ -111,6 +111,7 @@
         <p class="text-secondary" style="font-size:13.5px; line-height:1.6; margin-bottom:12px;">Each credit analyzes one clause and works across both the Redline Checker and the Case Value Calculator. Credits never expire and stack across purchases.</p>
         ${usedNote}
         <a href="${STRIPE_PAYMENT_LINK_URL}" target="_blank" rel="noopener" class="btn btn-primary btn-sm">Purchase Credits</a>
+        <p class="text-muted" style="font-size:12px; margin-top:12px;">Running through packs regularly? <a href="pricing.html" class="text-accent" style="display:inline;">See Practitioner/Firm plans</a> for monthly credits + unlimited full write-ups.</p>
       </div>`;
   }
 

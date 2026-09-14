@@ -3,19 +3,19 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Your Account — CREdocket</title>
-<meta name="description" content="Manage your CREdocket watchlists — track specific states, practice areas, or named parties across every tracked matter." />
+<title>Pricing — CREdocket</title>
+<meta name="description" content="CREdocket pricing: free litigation tracking and directories for everyone, plus Practitioner and Firm plans with unlimited full write-ups and monthly AI analysis credits for the Case Value Calculator and Lease Clause Redline Checker." />
 <meta property="og:type" content="website" />
 <meta property="og:site_name" content="CREdocket" />
-<meta property="og:title" content="Your Account — CREdocket" />
-<meta property="og:description" content="Manage your CREdocket watchlists — track specific states, practice areas, or named parties across every tracked matter." />
-<meta property="og:url" content="https://credocket.com/account.html" />
+<meta property="og:title" content="Pricing — CREdocket" />
+<meta property="og:description" content="Free litigation tracking and directories for everyone, plus Practitioner and Firm plans with unlimited full write-ups and monthly AI analysis credits." />
+<meta property="og:url" content="https://credocket.com/pricing.html" />
 <meta property="og:image" content="https://credocket.com/img/og-image.png" />
 <meta property="og:image:width" content="1200" />
 <meta property="og:image:height" content="630" />
 <meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:title" content="Your Account — CREdocket" />
-<meta name="twitter:description" content="Manage your CREdocket watchlists — track specific states, practice areas, or named parties across every tracked matter." />
+<meta name="twitter:title" content="Pricing — CREdocket" />
+<meta name="twitter:description" content="Free litigation tracking and directories for everyone, plus Practitioner and Firm plans with unlimited full write-ups and monthly AI analysis credits." />
 <meta name="twitter:image" content="https://credocket.com/img/og-image.png" />
 <link rel="icon" href="img/favicon.svg" type="image/svg+xml" />
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -47,7 +47,7 @@
           <a href="updates.html?recent=5">Latest Updates</a>
           <a href="calendar.html">Litigation Calendar</a>
           <a href="regulatory.html">Regulatory Issues</a>
-          <a href="account.html" class="active">Watchlists</a>
+          <a href="account.html">Watchlists</a>
         </div>
       </li>
       <li class="nav-item has-dropdown">
@@ -114,112 +114,83 @@
 </nav>
 
 <header class="page-header">
-    <div class="page-header-photo"><img src="img/photos/san-francisco.jpg" alt="San Francisco skyline" loading="eager" /></div>
-    <svg class="page-header-graphic" viewBox="0 0 640 400" fill="none" aria-hidden="true" preserveAspectRatio="xMaxYMid slice">
-      <defs>
-        <radialGradient id="phGlow" cx="70%" cy="30%" r="60%">
-          <stop offset="0" stop-color="var(--accent)" stop-opacity="0.16"/>
-          <stop offset="1" stop-color="var(--accent)" stop-opacity="0"/>
-        </radialGradient>
-      </defs>
-      <rect x="0" y="0" width="640" height="400" fill="url(#phGlow)"/>
-      <circle cx="420" cy="120" r="3.5" fill="var(--status-pending)" opacity="0.8">
-        <animate attributeName="r" values="3.5;5.5;3.5" dur="3s" repeatCount="indefinite"/>
-      </circle>
-      <circle cx="230" cy="160" r="3" fill="var(--status-filed)" opacity="0.8">
-        <animate attributeName="r" values="3;5;3" dur="2.6s" repeatCount="indefinite"/>
-      </circle>
-      <circle cx="330" cy="200" r="3" fill="var(--accent-bright)" opacity="0.8">
-        <animate attributeName="r" values="3;5;3" dur="3.4s" repeatCount="indefinite"/>
-      </circle>
-    </svg>
   <div class="container">
-    <div class="eyebrow reveal in-view">Your Account</div>
-    <h1 class="reveal in-view" style="font-size:clamp(2.2rem,4vw,3.4rem);">Watchlists.</h1>
-    <p class="lede mt-16 reveal in-view">Track specific states, practice areas, or a named party — a landlord, developer, REIT, or opposing firm — across every matter CREdocket tracks. New matches trigger a same-day email.</p>
+    <div class="eyebrow reveal in-view">Pricing</div>
+    <h1 class="reveal in-view" style="font-size:clamp(2.2rem,4vw,3.4rem);">Straightforward pricing for CRE litigation intelligence.</h1>
+    <p class="lede mt-16 reveal in-view">The tracker, directories, calendar, and free tools stay free for everyone. Paid plans add unlimited full write-ups and monthly AI analysis credits for the Case Value Calculator and Lease Clause Redline Checker.</p>
   </div>
 </header>
 
 <section class="section-tight">
-  <div class="container" style="max-width:820px;">
+  <div class="container">
+    <div class="grid-3">
 
-    <div id="account-signed-out" class="card" style="display:none; padding:40px; text-align:center;">
-      <div class="eyebrow" style="margin-bottom:10px; justify-content:center;">Free account required</div>
-      <h3 style="margin-bottom:10px;">Sign in to create watchlists</h3>
-      <p class="text-secondary" style="margin-bottom:20px;">No password needed — free accounts get watchlists, alerts, and 3 full write-ups/month at no cost.</p>
-      <button type="button" class="btn btn-primary btn-sm" id="account-signin-btn" style="margin:0 auto;">Sign in</button>
+      <div class="card pricing-card reveal" style="padding:28px;">
+        <div class="eyebrow" style="margin-bottom:8px;">Free</div>
+        <div class="pricing-price">$0<span class="pricing-period">/mo</span></div>
+        <p class="text-secondary" style="font-size:13.5px; line-height:1.6; margin:14px 0 20px;">Everything you need to track what's happening in CRE litigation.</p>
+        <ul class="pricing-features">
+          <li>Full Litigation Tracker, filters &amp; jurisdiction map</li>
+          <li>Judges &amp; Courts, Companies &amp; Parties directories</li>
+          <li>Litigation Calendar, Quarterly Report, Market Signals</li>
+          <li>Watchlists with real-time email alerts</li>
+          <li>Daily/weekly digest emails</li>
+          <li>Free calculators: Mechanic's Lien, ADA Risk Flagging, Premises Liability Checklist</li>
+          <li>Both free handbooks (with sign-in)</li>
+          <li>3 full case write-ups/month</li>
+        </ul>
+        <a href="account.html" class="btn btn-ghost btn-block mt-16">Get started free</a>
+      </div>
+
+      <div class="card pricing-card pricing-card-featured reveal" style="padding:28px;">
+        <div class="eyebrow" style="margin-bottom:8px;">Practitioner</div>
+        <div class="pricing-price">$89<span class="pricing-period">/mo</span></div>
+        <p class="text-secondary" style="font-size:13.5px; line-height:1.6; margin:14px 0 20px;">For a solo CRE litigator or in-house counsel who wants unlimited reading and AI-assisted analysis on tap.</p>
+        <ul class="pricing-features">
+          <li>Everything in Free</li>
+          <li><strong>Unlimited</strong> full case write-ups</li>
+          <li><strong>12 AI analysis credits/month</strong> — Case Value Calculator + Lease Clause Redline Checker, shared pool</li>
+          <li>1 seat</li>
+          <li>Need more in a given month? Top up with the existing $49/10-credit pack — no separate billing</li>
+        </ul>
+        <a href="#" class="btn btn-primary btn-block mt-16" id="pricing-subscribe-practitioner">Subscribe</a>
+      </div>
+
+      <div class="card pricing-card reveal" style="padding:28px;">
+        <div class="eyebrow" style="margin-bottom:8px;">Firm</div>
+        <div class="pricing-price">$249<span class="pricing-period">/mo</span></div>
+        <p class="text-secondary" style="font-size:13.5px; line-height:1.6; margin:14px 0 20px;">For a small firm's CRE litigation group or a lender's workout team sharing one account.</p>
+        <ul class="pricing-features">
+          <li>Everything in Practitioner</li>
+          <li><strong>40 AI analysis credits/month</strong>, pooled</li>
+          <li>Up to 3 seats sharing one login</li>
+          <li>Same $49/10-credit top-up option beyond the monthly pool</li>
+        </ul>
+        <a href="#" class="btn btn-ghost btn-block mt-16" id="pricing-subscribe-firm">Subscribe</a>
+      </div>
+
     </div>
 
-    <div id="account-signed-in" style="display:none;">
-      <div class="section-head reveal">
-        <div>
-          <div class="eyebrow">Your Plan</div>
-          <h2 style="font-size:clamp(1.4rem,2.2vw,1.9rem);" id="account-plan-name">Free</h2>
-        </div>
-        <a href="pricing.html" class="btn btn-ghost btn-sm">See plans</a>
-      </div>
-      <div class="card reveal" style="padding:24px; margin-bottom:40px;" id="account-plan-card">
-        <p class="text-secondary" style="font-size:13.5px; line-height:1.6;" id="account-plan-detail">Loading your plan…</p>
-      </div>
-
-      <div class="section-head reveal">
-        <div>
-          <div class="eyebrow">New Watchlist</div>
-          <h2 style="font-size:clamp(1.4rem,2.2vw,1.9rem);">Add a filter</h2>
-        </div>
-      </div>
-
-      <form id="watchlist-form" class="card" style="padding:28px; margin-bottom:40px;">
-        <div class="form-field">
-          <label for="wl-name">Name this watchlist</label>
-          <input type="text" id="wl-name" placeholder="e.g. Texas Lending Disputes, or Blackstone" required />
-        </div>
-        <div class="form-field mt-16">
-          <label for="wl-states">States (optional — hold Cmd/Ctrl to select multiple)</label>
-          <select id="wl-states" multiple size="6"></select>
-        </div>
-        <div class="form-field mt-16">
-          <label for="wl-categories">Practice areas (optional)</label>
-          <select id="wl-categories" multiple size="6"></select>
-        </div>
-        <div class="form-field mt-16">
-          <label for="wl-keyword">Party, company, or keyword (optional)</label>
-          <input type="text" id="wl-keyword" placeholder="e.g. Lightstone, RealPage, a specific landlord or REIT name" />
-        </div>
-        <button type="submit" class="btn btn-primary btn-sm mt-16">Create watchlist</button>
-        <div id="watchlist-form-status" class="auth-modal-status"></div>
-      </form>
-
-      <div class="section-head reveal">
-        <div>
-          <div class="eyebrow">Tracking</div>
-          <h2 style="font-size:clamp(1.4rem,2.2vw,1.9rem);"><span id="watchlist-count">0</span> watchlists</h2>
-        </div>
-      </div>
-      <div id="watchlists-list"></div>
-
-      <div class="section-head reveal" id="digest-prefs-anchor" style="margin-top:40px;">
-        <div>
-          <div class="eyebrow">Notifications</div>
-          <h2 style="font-size:clamp(1.4rem,2.2vw,1.9rem);">Email digest</h2>
-        </div>
-      </div>
-      <form id="digest-prefs-form" class="card" style="padding:28px;">
-        <div class="form-field">
-          <label for="digest-frequency">How often should we email you?</label>
-          <select id="digest-frequency">
-            <option value="both">Daily + weekly (default)</option>
-            <option value="daily">Daily only</option>
-            <option value="weekly">Weekly only</option>
-            <option value="none">Don't email me a digest</option>
-          </select>
-          <p class="text-muted" style="font-size:12.5px; line-height:1.6; margin-top:8px;">The daily digest covers new matters from roughly the last day; the weekly digest is a wider recap meant to be easy to forward to your team. This only controls these two digests — real-time watchlist alerts are separate and always send regardless of this setting.</p>
-        </div>
-        <button type="submit" class="btn btn-primary btn-sm mt-16">Save preference</button>
-        <div id="digest-prefs-status" class="auth-modal-status"></div>
-      </form>
+    <div class="card reveal" style="padding:24px; margin-top:32px; border-style:dashed;">
+      <div class="eyebrow" style="margin-bottom:8px;">Prefer no subscription?</div>
+      <p class="text-secondary" style="font-size:13.5px; line-height:1.6;">The AI tools are also available with no commitment: <strong>$49 for 10 analysis credits</strong>, shared between the Case Value Calculator and Lease Clause Redline Checker, and they never expire. Buy a pack any time from either tool's page — no subscription required. This is also how Practitioner and Firm subscribers top up if they need more than their monthly allotment in a given month.</p>
     </div>
 
+    <div class="reveal" style="margin-top:32px; max-width:720px;">
+      <div class="eyebrow" style="margin-bottom:12px;">Questions</div>
+      <div class="pricing-faq-item">
+        <h3>What happens if I use all my monthly AI credits?</h3>
+        <p class="text-secondary">Your Free-tier browsing, tracker access, and watchlists are never affected — only new AI analyses are paused until your plan renews, unless you top up with the $49/10-credit pack, which applies immediately.</p>
+      </div>
+      <div class="pricing-faq-item">
+        <h3>Can I cancel anytime?</h3>
+        <p class="text-secondary">Yes — cancel from your account settings and you'll keep plan access through the end of your current billing period. Any already-purchased one-time credit packs never expire, subscription or not.</p>
+      </div>
+      <div class="pricing-faq-item">
+        <h3>Do unused monthly credits roll over?</h3>
+        <p class="text-secondary">No — the monthly allotment resets each billing period rather than accumulating. If you want credits that never expire, the $49/10-credit pack is the option for that.</p>
+      </div>
+    </div>
   </div>
 </section>
 
@@ -257,6 +228,7 @@
         <h4>Legal</h4>
         <a href="privacy.html">Privacy Policy</a>
         <a href="terms.html">Terms of Service</a>
+        <a href="litigation-tools-terms.html">Litigation Tools Terms &amp; Waiver</a>
       </div>
       <div class="footer-col">
         <h4>Contact</h4>
@@ -278,10 +250,8 @@
 <script src="js/supabase-client.js"></script>
 <script src="js/auth.js"></script>
 <script src="js/trending.js"></script>
-<script src="js/watchlists.js"></script>
-<script src="js/digest-prefs.js"></script>
-<script src="js/account-plan.js"></script>
 <script src="js/search.js"></script>
 <script src="js/motion.js"></script>
+<script src="js/pricing.js"></script>
 </body>
 </html>

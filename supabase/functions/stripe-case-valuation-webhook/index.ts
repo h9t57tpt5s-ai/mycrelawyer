@@ -1,61 +1,68 @@
 // =========================================================
-// CREdocket -- Stripe webhook: unlock the Case Value Calculator
+// CREdocket -- Stripe webhook: Case Value Calculator credits + subscriptions
 //
-// Same pattern as stripe-handbook-webhook, retargeted at a different
-// product/table. Listens for Stripe's `checkout.session.completed`
-// event on the calculator's Payment Link, matches the buyer's checkout
-// email to an existing CREdocket account, and grants ONE_TIME_CREDITS
-// runs by writing a row to public.case_valuation_purchases -- which
-// the client and the analysis Edge Function both check (remaining
-// credits = sum(credits_granted) - count of analyses used, all-time,
-// since one-time credits don't expire or reset). This is a CREDIT
-// GRANT, not "unlocked forever" -- each purchase adds ONE_TIME_CREDITS
-// more runs to the buyer's balance.
+// Two independent flows now live in this one webhook:
 //
-// A future monthly subscription would grant credits that reset each
-// billing period instead of accumulating -- not wired up yet. When
-// that's built, branch on plan_type ('one_time_credits' vs
-// 'monthly_subscription') rather than changing this table's shape.
+// 1. ONE-TIME CREDIT PACK (original, unchanged): checkout.session.completed
+//    with mode "payment" grants ONE_TIME_CREDITS runs by writing a row to
+//    public.case_valuation_purchases -- cumulative, never expires.
 //
-// Note: this gates the UI presentation, not the underlying data --
-// the calculator computes entirely client-side (there's no per-state
-// gated content to protect via RLS the way the handbook's chapters
-// are), so this is the same tradeoff every client-side freemium
-// calculator makes. Worth knowing, not a bug.
+// 2. RECURRING SUBSCRIPTIONS (new, 2026-09-13): Practitioner/Firm tiers.
+//    checkout.session.completed with mode "subscription" starts tracking
+//    a row in public.case_valuation_subscriptions; customer.subscription.
+//    updated/deleted keep that row's period/status in sync on renewal or
+//    cancellation. Unlike the pack, this resets each billing period
+//    rather than accumulating (see case_valuation_project/
+//    schema_subscriptions.sql's header comment for the full design).
 //
-// Deploy: Supabase Dashboard -> Edge Functions -> New function
-//   name: stripe-case-valuation-webhook
-//   paste this file's contents, deploy.
+// This is a CREDIT GRANT / ENTITLEMENT RECORD, not "unlocked forever" --
+// the analysis Edge Functions (case-valuation-analyze, lease-clause-
+// redline) check both tables at request time to decide what a given
+// request is actually allowed to consume.
+//
+// Deploy: Supabase Dashboard -> Edge Functions -> stripe-case-valuation-webhook
+//   -> Code tab -> select all, delete, paste this file's contents, deploy.
 //
 // Secrets needed (Dashboard -> Edge Functions -> Secrets, project-wide):
-//   STRIPE_CASE_VALUATION_WEBHOOK_SECRET   -- from a NEW Stripe webhook
-//                              endpoint (Stripe Dashboard -> Developers ->
-//                              Webhooks -> Add destination -> URL below ->
-//                              select event "checkout.session.completed"
-//                              -> copy the "Signing secret", starts with
-//                              whsec_).
-//                              NOTE: Supabase Edge Function secrets are
-//                              shared across the WHOLE PROJECT, not scoped
-//                              per function -- the handbook webhook already
-//                              uses the plain name STRIPE_WEBHOOK_SECRET,
-//                              so this one MUST use a different name or it
-//                              will silently overwrite the handbook's and
-//                              break that payment flow.
-// SUPABASE_URL and SUPABASE_SERVICE_ROLE_KEY are injected automatically
-// by Supabase for every Edge Function -- do not set those yourself.
+//   STRIPE_CASE_VALUATION_WEBHOOK_SECRET  -- unchanged, from the existing
+//                              webhook endpoint (Stripe Dashboard ->
+//                              Developers -> Webhooks -> this endpoint ->
+//                              "Signing secret", starts with whsec_).
+//   STRIPE_SECRET_KEY          -- NEW, required for the subscription flow
+//                              only (the one-time-pack flow never needed
+//                              a real API call -- it only reads fields
+//                              already on the checkout session payload).
+//                              Subscription events DO need one real API
+//                              call (retrieving the just-created
+//                              subscription's period/price at checkout
+//                              time) since Stripe's webhook payload for
+//                              checkout.session.completed doesn't include
+//                              subscription period/price details inline.
+//                              From Stripe Dashboard -> Developers -> API
+//                              keys -> Secret key (starts with sk_live_
+//                              or sk_test_). This is a project-wide
+//                              secret name -- if any other function ever
+//                              needs a real Stripe secret key, reuse this
+//                              same one rather than adding another.
 //
-// Webhook endpoint URL to register in Stripe:
+// IMPORTANT -- register 2 more event types on the EXISTING webhook
+// endpoint in the Stripe Dashboard (Developers -> Webhooks -> this
+// endpoint -> "+ Select events"), in addition to the checkout.session.
+// completed event already configured:
+//   customer.subscription.updated
+//   customer.subscription.deleted
+//
+// PRICE_ID_TO_PLAN below MUST be filled in with your real Stripe Price
+// IDs (not Product IDs) once the Practitioner/Firm recurring Prices +
+// Payment Links exist in Stripe -- see PRICING_SETUP.md for the exact
+// dashboard steps. Until filled in, subscription checkouts will complete
+// in Stripe but this webhook will log an error and skip granting access
+// (fails safe, not silently -- see the "Unrecognized price ID" branch).
+//
+// Webhook endpoint URL (unchanged):
 //   https://ribmcdyoydhmafnyfhpp.supabase.co/functions/v1/stripe-case-valuation-webhook
 // =========================================================
 
-// Pinned to an exact patch version, not just "@17" -- npm:stripe's
-// bundled TypeScript types constrain `apiVersion` below to a single
-// literal string matching whatever API version that specific package
-// version was built against, and it tightens with every release. An
-// unpinned "@17" silently re-resolves to newer patches over time,
-// each of which can demand a different literal and break `deno check`
-// again the same way this one did (confirmed: 17.7.0 demands
-// "2025-02-24.acacia", not the "2024-06-20" this file had).
 import Stripe from "npm:stripe@17.7.0";
 import { createClient } from "npm:@supabase/supabase-js@2";
 
@@ -65,25 +72,37 @@ import { createClient } from "npm:@supabase/supabase-js@2";
 // metadata through checkout.session.completed by default.
 const ONE_TIME_CREDITS = 10;
 
+// Fill in with real Stripe Price IDs (price_..., not prod_...) once
+// created -- see the header comment above. Both fields on each entry are
+// used: monthlyCreditAllotment feeds case_valuation_subscriptions'
+// monthly_credit_allotment column, and planType is stored as-is (also
+// drives the "unlimited full write-ups" unlock in js/auth.js, which
+// treats ANY row in case_valuation_subscriptions with status='active' as
+// qualifying regardless of which planType -- so a new tier added here
+// automatically gets that unlock too, no separate wiring needed there).
+const PRICE_ID_TO_PLAN: Record<string, { planType: string; monthlyCreditAllotment: number }> = {
+  "price_REPLACE_WITH_PRACTITIONER_PRICE_ID": { planType: "practitioner", monthlyCreditAllotment: 12 },
+  "price_REPLACE_WITH_FIRM_PRICE_ID": { planType: "firm", monthlyCreditAllotment: 40 },
+};
+
 // Deliberately NOT named STRIPE_WEBHOOK_SECRET -- that name is already
 // taken project-wide by the handbook webhook's secret. See header comment.
 const STRIPE_WEBHOOK_SECRET = Deno.env.get("STRIPE_CASE_VALUATION_WEBHOOK_SECRET") ?? "";
+const STRIPE_SECRET_KEY = Deno.env.get("STRIPE_SECRET_KEY") ?? "";
 
 const supabaseAdmin = createClient(
   Deno.env.get("SUPABASE_URL") ?? "",
   Deno.env.get("SUPABASE_SERVICE_ROLE_KEY") ?? "",
 );
 
-// Stripe's SDK needs *some* API key to construct, but this function only
-// ever calls stripe.webhooks.constructEventAsync (signature verification,
-// no network call to Stripe), so a placeholder is fine here. Same reason
-// `apiVersion` below is inert for what this file actually does: it only
-// governs outbound API calls made THROUGH this client (there are none),
-// not the webhook payload Stripe sends -- that's controlled by the
-// endpoint's own configured API version in the Stripe Dashboard. Set to
-// match the exact pinned package version above so `deno check` passes;
-// changing it does not change any behavior here.
-const stripe = new Stripe("sk_placeholder_not_used_for_webhook_verification", {
+// Real for the subscription flow (retrieves the just-created subscription
+// to read its period/price -- see header comment); the one-time-pack
+// flow below still makes no outbound Stripe API call at all, same as
+// before. Falls back to a placeholder if STRIPE_SECRET_KEY isn't set yet
+// so the one-time-pack flow and signature verification keep working
+// during rollout, before that secret is added -- subscription checkouts
+// will just fail closed (logged, not silently) until it is.
+const stripe = new Stripe(STRIPE_SECRET_KEY || "sk_placeholder_not_used_for_webhook_verification", {
   apiVersion: "2025-02-24.acacia",
 });
 
@@ -99,6 +118,58 @@ async function findUserIdByEmail(email: string): Promise<string | null> {
     page += 1;
   }
   return null;
+}
+
+// Maps Stripe's subscription status values down to the 3 this app
+// actually branches on -- see schema_subscriptions.sql's header comment
+// for why the finer-grained Stripe statuses collapse to 'past_due'.
+function normalizeStatus(stripeStatus: Stripe.Subscription.Status): "active" | "past_due" | "canceled" {
+  if (stripeStatus === "active" || stripeStatus === "trialing") return "active";
+  if (stripeStatus === "canceled" || stripeStatus === "unpaid") return "canceled";
+  return "past_due";
+}
+
+async function upsertSubscriptionRow(sub: Stripe.Subscription, userId: string | null, email: string | null) {
+  const priceId = sub.items.data[0]?.price?.id;
+  const plan = priceId ? PRICE_ID_TO_PLAN[priceId] : undefined;
+  if (!plan) {
+    console.error(`Unrecognized Stripe price ID on subscription ${sub.id}: ${priceId} -- fill in PRICE_ID_TO_PLAN. Skipping grant (fails safe, not silently).`);
+    return { granted: false, reason: "unrecognized_price" };
+  }
+  // On renewal/update events there's no userId passed in (see the
+  // customer.subscription.updated handler below) -- look up the existing
+  // row by stripe_subscription_id instead of re-resolving from email.
+  let resolvedUserId = userId;
+  if (!resolvedUserId) {
+    const { data: existing } = await supabaseAdmin
+      .from("case_valuation_subscriptions")
+      .select("user_id")
+      .eq("stripe_subscription_id", sub.id)
+      .maybeSingle();
+    resolvedUserId = existing?.user_id ?? null;
+  }
+  if (!resolvedUserId) {
+    console.warn(`No CREdocket account resolvable for subscription ${sub.id} (email: ${email ?? "unknown"}) -- skipping.`);
+    return { granted: false, reason: "no_matching_account" };
+  }
+
+  const { error } = await supabaseAdmin
+    .from("case_valuation_subscriptions")
+    .upsert({
+      user_id: resolvedUserId,
+      stripe_subscription_id: sub.id,
+      stripe_customer_id: typeof sub.customer === "string" ? sub.customer : sub.customer.id,
+      stripe_customer_email: email,
+      plan_type: plan.planType,
+      monthly_credit_allotment: plan.monthlyCreditAllotment,
+      status: normalizeStatus(sub.status),
+      current_period_start: new Date(sub.current_period_start * 1000).toISOString(),
+      current_period_end: new Date(sub.current_period_end * 1000).toISOString(),
+      updated_at: new Date().toISOString(),
+    }, { onConflict: "stripe_subscription_id" });
+
+  if (error) throw error;
+  return { granted: true, planType: plan.planType, userId: resolvedUserId };
 }
 
 Deno.serve(async (req) => {
@@ -121,29 +192,66 @@ Deno.serve(async (req) => {
     return new Response(`Webhook signature verification failed`, { status: 400 });
   }
 
-  if (event.type !== "checkout.session.completed") {
-    return new Response(JSON.stringify({ received: true, skipped: event.type }), { status: 200 });
-  }
-
-  const session = event.data.object as Stripe.Checkout.Session;
-
-  if (session.payment_status !== "paid") {
-    return new Response(JSON.stringify({ received: true, skipped: "not paid" }), { status: 200 });
-  }
-
-  const email = session.customer_details?.email || session.customer_email || null;
-  if (!email) {
-    console.error("Checkout session completed with no email on it:", session.id);
-    return new Response(JSON.stringify({ received: true, error: "no email on session" }), { status: 200 });
-  }
-
   try {
+    // ---- Subscription lifecycle: renewal / plan change ----------------
+    // Stripe sends the full subscription object inline on this event --
+    // no API call needed (unlike the initial checkout, below).
+    if (event.type === "customer.subscription.updated") {
+      const sub = event.data.object as Stripe.Subscription;
+      const result = await upsertSubscriptionRow(sub, null, null);
+      return new Response(JSON.stringify({ received: true, ...result }), { status: 200 });
+    }
+
+    // ---- Subscription lifecycle: cancellation --------------------------
+    if (event.type === "customer.subscription.deleted") {
+      const sub = event.data.object as Stripe.Subscription;
+      const { error } = await supabaseAdmin
+        .from("case_valuation_subscriptions")
+        .update({ status: "canceled", updated_at: new Date().toISOString() })
+        .eq("stripe_subscription_id", sub.id);
+      if (error) throw error;
+      return new Response(JSON.stringify({ received: true, canceled: sub.id }), { status: 200 });
+    }
+
+    if (event.type !== "checkout.session.completed") {
+      return new Response(JSON.stringify({ received: true, skipped: event.type }), { status: 200 });
+    }
+
+    const session = event.data.object as Stripe.Checkout.Session;
+
+    if (session.payment_status !== "paid" && session.mode !== "subscription") {
+      return new Response(JSON.stringify({ received: true, skipped: "not paid" }), { status: 200 });
+    }
+
+    const email = session.customer_details?.email || session.customer_email || null;
+    if (!email) {
+      console.error("Checkout session completed with no email on it:", session.id);
+      return new Response(JSON.stringify({ received: true, error: "no email on session" }), { status: 200 });
+    }
+
     const userId = await findUserIdByEmail(email);
     if (!userId) {
       console.warn(`No CREdocket account found for purchaser email: ${email}`);
       return new Response(JSON.stringify({ received: true, warning: "no matching account", email }), { status: 200 });
     }
 
+    // ---- Subscription checkout (Practitioner/Firm) ---------------------
+    if (session.mode === "subscription") {
+      if (!session.subscription) {
+        console.error("Subscription checkout completed with no subscription ID on session:", session.id);
+        return new Response(JSON.stringify({ received: true, error: "no subscription id on session" }), { status: 200 });
+      }
+      // The ONE real Stripe API call in this whole webhook -- the
+      // checkout session payload itself doesn't include the new
+      // subscription's period/price, only its ID.
+      const sub = await stripe.subscriptions.retrieve(
+        typeof session.subscription === "string" ? session.subscription : session.subscription.id,
+      );
+      const result = await upsertSubscriptionRow(sub, userId, email);
+      return new Response(JSON.stringify({ received: true, ...result }), { status: 200 });
+    }
+
+    // ---- One-time credit pack checkout (unchanged) ---------------------
     const { error: insertError } = await supabaseAdmin
       .from("case_valuation_purchases")
       .upsert(
@@ -162,7 +270,7 @@ Deno.serve(async (req) => {
 
     return new Response(JSON.stringify({ received: true, unlocked: true, userId, creditsGranted: ONE_TIME_CREDITS }), { status: 200 });
   } catch (err) {
-    console.error("Failed to record case-valuation purchase:", err);
+    console.error("Failed to process case-valuation webhook event:", err);
     return new Response(JSON.stringify({ received: false, error: String(err) }), { status: 500 });
   }
 });

@@ -307,12 +307,16 @@
   // Re-enabled (2026-09-13) per the 10-agent premium-readiness review --
   // every reviewer converged on "there's no free-tier boundary at all
   // today" as the top monetization gap, and this system was fully built
-  // and just switched off. Raised from the original 3 to 5 (softer
-  // landing) since case_views rows kept accumulating the whole time this
-  // was off -- flipping it on enforces retroactively against whatever
-  // view history already exists this month, so a lower number risked
-  // instantly locking out an engaged existing user mid-session.
-  const MONTHLY_LIMIT = 5;
+  // and just switched off.
+  //
+  // Set to the subscription-pricing memo's exact recommended value (3),
+  // not the softer-landing 5 used in the brief window between re-
+  // enabling this and shipping subscriptions: "there's no reason to keep
+  // giving away unlimited full write-ups for free once a paid
+  // alternative exists to upgrade to" (case_valuation_project/
+  // subscription-pricing-recommendation.md, Section 4) -- now that
+  // Practitioner/Firm exist as a real upgrade path, that reasoning holds.
+  const MONTHLY_LIMIT = 3;
   const ENFORCE_MONTHLY_LIMIT = true;
 
   function startOfMonthIso() {
@@ -344,6 +348,27 @@
         .maybeSingle();
       if (existingErr) throw existingErr;
       if (existing) return { status: "ok" };
+
+      // Practitioner/Firm subscribers get unlimited full write-up reads
+      // (case_valuation_project/subscription-pricing-recommendation.md,
+      // Section 4) -- any status='active' row qualifies regardless of
+      // plan_type, so a future tier added there is covered automatically
+      // with no change needed here. RLS already scopes this select to
+      // the caller's own row (see schema_subscriptions.sql).
+      const { data: activeSub, error: subErr } = await sb
+        .from("case_valuation_subscriptions")
+        .select("id")
+        .eq("user_id", userId)
+        .eq("status", "active")
+        .gt("current_period_end", new Date().toISOString())
+        .maybeSingle();
+      if (!subErr && activeSub) {
+        const { error: insertErr } = await sb
+          .from("case_views")
+          .insert({ user_id: userId, case_id: caseId });
+        if (insertErr) throw insertErr;
+        return { status: "ok" };
+      }
 
       const { count, error: countErr } = await sb
         .from("case_views")

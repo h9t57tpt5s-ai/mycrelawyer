@@ -155,28 +155,70 @@ Deno.serve(async (req: Request) => {
   }
   const userId = userData.user.id;
 
-  // ---- Step 2: credit balance -- SHARED with the Value Calculator ------
-  const { data: purchases, error: purchaseError } = await supabaseAdmin
-    .from("case_valuation_purchases")
-    .select("credits_granted")
-    .eq("user_id", userId);
-  if (purchaseError) {
+  // ---- Step 2: what this request may draw against -- SHARED with the
+  // Value Calculator (same pool, same subscription, same tables). See
+  // that function's own Step 2 comment for the full priority-order
+  // reasoning -- kept in sync here since Supabase Edge Functions don't
+  // support importing shared code between functions in this deploy-by-
+  // paste workflow.
+  let creditSource: "subscription" | "one_time" | null = null;
+
+  const { data: subscription, error: subscriptionError } = await supabaseAdmin
+    .from("case_valuation_subscriptions")
+    .select("monthly_credit_allotment, current_period_start, current_period_end")
+    .eq("user_id", userId)
+    .eq("status", "active")
+    .gt("current_period_end", new Date().toISOString())
+    .maybeSingle();
+  if (subscriptionError) {
     return jsonResponse({ error: "Could not verify access — try again" }, 500);
   }
-  const totalCredits = (purchases ?? []).reduce((sum, p) => sum + (p.credits_granted ?? 0), 0);
-  if (totalCredits === 0) {
-    return jsonResponse({ error: "This feature requires purchasing analysis credits (shared with the Case Value Calculator).", code: "payment_required" }, 402);
+
+  if (subscription) {
+    const { count: periodUsedCount, error: periodUsedError } = await supabaseAdmin
+      .from("case_valuation_analyses")
+      .select("id", { count: "exact", head: true })
+      .eq("user_id", userId)
+      .eq("credit_source", "subscription")
+      .gte("created_at", subscription.current_period_start);
+    if (periodUsedError) {
+      return jsonResponse({ error: "Could not verify usage — try again" }, 500);
+    }
+    if ((periodUsedCount ?? 0) < subscription.monthly_credit_allotment) {
+      creditSource = "subscription";
+    }
   }
-  const { count: usedCount, error: usedError } = await supabaseAdmin
-    .from("case_valuation_analyses")
-    .select("id", { count: "exact", head: true })
-    .eq("user_id", userId);
-  if (usedError) {
-    return jsonResponse({ error: "Could not verify usage — try again" }, 500);
-  }
-  const remainingCredits = totalCredits - (usedCount ?? 0);
-  if (remainingCredits <= 0) {
-    return jsonResponse({ error: "You've used all your purchased analysis credits. Purchase more to continue.", code: "no_credits_remaining" }, 402);
+
+  if (!creditSource) {
+    const { data: purchases, error: purchaseError } = await supabaseAdmin
+      .from("case_valuation_purchases")
+      .select("credits_granted")
+      .eq("user_id", userId);
+    if (purchaseError) {
+      return jsonResponse({ error: "Could not verify access — try again" }, 500);
+    }
+    const totalCredits = (purchases ?? []).reduce((sum, p) => sum + (p.credits_granted ?? 0), 0);
+    if (totalCredits === 0) {
+      return jsonResponse({
+        error: subscription
+          ? "You've used this month's included analyses. Purchase additional credits to continue, or wait for your plan to renew."
+          : "This feature requires purchasing analysis credits (shared with the Case Value Calculator).",
+        code: "payment_required",
+      }, 402);
+    }
+    const { count: usedCount, error: usedError } = await supabaseAdmin
+      .from("case_valuation_analyses")
+      .select("id", { count: "exact", head: true })
+      .eq("user_id", userId)
+      .eq("credit_source", "one_time");
+    if (usedError) {
+      return jsonResponse({ error: "Could not verify usage — try again" }, 500);
+    }
+    const remainingCredits = totalCredits - (usedCount ?? 0);
+    if (remainingCredits <= 0) {
+      return jsonResponse({ error: "You've used all your purchased analysis credits. Purchase more to continue.", code: "no_credits_remaining" }, 402);
+    }
+    creditSource = "one_time";
   }
 
   // ---- Step 3: daily burst cap, shared across both tools --------------
@@ -256,7 +298,7 @@ Deno.serve(async (req: Request) => {
     // of this file, mirroring case-valuation-analyze exactly).
     const { error: logError } = await supabaseAdmin
       .from("case_valuation_analyses")
-      .insert({ user_id: userId, category: requestBody.clauseType, tool: "lease-redline" });
+      .insert({ user_id: userId, category: requestBody.clauseType, tool: "lease-redline", credit_source: creditSource });
     if (logError) console.error("Failed to log completed analysis (credit not deducted):", logError);
 
     return jsonResponse({
