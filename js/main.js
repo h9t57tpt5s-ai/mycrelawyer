@@ -238,25 +238,12 @@
       });
     }
 
-    // Was formatted as "No. 26-CRE-0042" -- close enough to how a real
-    // U.S. court docket number reads (year-code-sequence) that it could
-    // be mistaken for the matter's actual court docket number, which
-    // this site doesn't collect. Site-flagged as a credibility risk on
-    // a product whose whole pitch is "real, sourced, never fabricated."
-    // This is just the matter's own internal id (e.g. "live-130",
-    // already used as its data-case-id everywhere else); label it as
-    // an internal reference, not a docket-shaped number.
-    const docketNo = (id) => {
-      const n = (id.match(/(\d+)$/) || [, "0"])[1].padStart(4, "0");
-      return `Ref #${n}`;
-    };
-
     feedList.innerHTML = featured.map((c) => {
       const cat = catMap[c.category];
       const status = statusMap[c.status];
       return `
         <div class="hero-feed-row" data-case-id="${c.id}">
-          <span class="hero-feed-row-no"><span class="dot" style="background:${status.color}"></span>${docketNo(c.id)}</span>
+          <span class="hero-feed-row-no"><span class="dot" style="background:${status.color}"></span></span>
           <span class="hero-feed-row-title">${c.title}<span>${cat.label} · ${status.label}</span></span>
           <span class="hero-feed-row-date">${formatDate(c.date)}</span>
         </div>`;
