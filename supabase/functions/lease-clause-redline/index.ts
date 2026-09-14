@@ -161,64 +161,75 @@ Deno.serve(async (req: Request) => {
   // reasoning -- kept in sync here since Supabase Edge Functions don't
   // support importing shared code between functions in this deploy-by-
   // paste workflow.
-  let creditSource: "subscription" | "one_time" | null = null;
+  //
+  // FREE_MODE (2026-09-14): pricing is paused while the product gets
+  // built out further -- see case-valuation-analyze/index.ts's own
+  // Step 2 comment for the full reasoning and the known frontend bug
+  // that must be fixed (js/lease-clause-redline.js's getCreditBalance())
+  // before this can safely flip back to false.
+  const FREE_MODE = true;
+  let creditSource: "subscription" | "one_time" | "promo" | null = null;
 
-  const { data: subscription, error: subscriptionError } = await supabaseAdmin
-    .from("case_valuation_subscriptions")
-    .select("monthly_credit_allotment, current_period_start, current_period_end")
-    .eq("user_id", userId)
-    .eq("status", "active")
-    .gt("current_period_end", new Date().toISOString())
-    .maybeSingle();
-  if (subscriptionError) {
-    return jsonResponse({ error: "Could not verify access — try again" }, 500);
-  }
-
-  if (subscription) {
-    const { count: periodUsedCount, error: periodUsedError } = await supabaseAdmin
-      .from("case_valuation_analyses")
-      .select("id", { count: "exact", head: true })
+  if (FREE_MODE) {
+    creditSource = "promo";
+  } else {
+    const { data: subscription, error: subscriptionError } = await supabaseAdmin
+      .from("case_valuation_subscriptions")
+      .select("monthly_credit_allotment, current_period_start, current_period_end")
       .eq("user_id", userId)
-      .eq("credit_source", "subscription")
-      .gte("created_at", subscription.current_period_start);
-    if (periodUsedError) {
-      return jsonResponse({ error: "Could not verify usage — try again" }, 500);
-    }
-    if ((periodUsedCount ?? 0) < subscription.monthly_credit_allotment) {
-      creditSource = "subscription";
-    }
-  }
-
-  if (!creditSource) {
-    const { data: purchases, error: purchaseError } = await supabaseAdmin
-      .from("case_valuation_purchases")
-      .select("credits_granted")
-      .eq("user_id", userId);
-    if (purchaseError) {
+      .eq("status", "active")
+      .gt("current_period_end", new Date().toISOString())
+      .maybeSingle();
+    if (subscriptionError) {
       return jsonResponse({ error: "Could not verify access — try again" }, 500);
     }
-    const totalCredits = (purchases ?? []).reduce((sum, p) => sum + (p.credits_granted ?? 0), 0);
-    if (totalCredits === 0) {
-      return jsonResponse({
-        error: subscription
-          ? "You've used this month's included analyses. Purchase additional credits to continue, or wait for your plan to renew."
-          : "This feature requires purchasing analysis credits (shared with the Case Value Calculator).",
-        code: "payment_required",
-      }, 402);
+
+    if (subscription) {
+      const { count: periodUsedCount, error: periodUsedError } = await supabaseAdmin
+        .from("case_valuation_analyses")
+        .select("id", { count: "exact", head: true })
+        .eq("user_id", userId)
+        .eq("credit_source", "subscription")
+        .gte("created_at", subscription.current_period_start);
+      if (periodUsedError) {
+        return jsonResponse({ error: "Could not verify usage — try again" }, 500);
+      }
+      if ((periodUsedCount ?? 0) < subscription.monthly_credit_allotment) {
+        creditSource = "subscription";
+      }
     }
-    const { count: usedCount, error: usedError } = await supabaseAdmin
-      .from("case_valuation_analyses")
-      .select("id", { count: "exact", head: true })
-      .eq("user_id", userId)
-      .eq("credit_source", "one_time");
-    if (usedError) {
-      return jsonResponse({ error: "Could not verify usage — try again" }, 500);
+
+    if (!creditSource) {
+      const { data: purchases, error: purchaseError } = await supabaseAdmin
+        .from("case_valuation_purchases")
+        .select("credits_granted")
+        .eq("user_id", userId);
+      if (purchaseError) {
+        return jsonResponse({ error: "Could not verify access — try again" }, 500);
+      }
+      const totalCredits = (purchases ?? []).reduce((sum, p) => sum + (p.credits_granted ?? 0), 0);
+      if (totalCredits === 0) {
+        return jsonResponse({
+          error: subscription
+            ? "You've used this month's included analyses. Purchase additional credits to continue, or wait for your plan to renew."
+            : "This feature requires purchasing analysis credits (shared with the Case Value Calculator).",
+          code: "payment_required",
+        }, 402);
+      }
+      const { count: usedCount, error: usedError } = await supabaseAdmin
+        .from("case_valuation_analyses")
+        .select("id", { count: "exact", head: true })
+        .eq("user_id", userId)
+        .eq("credit_source", "one_time");
+      if (usedError) {
+        return jsonResponse({ error: "Could not verify usage — try again" }, 500);
+      }
+      const remainingCredits = totalCredits - (usedCount ?? 0);
+      if (remainingCredits <= 0) {
+        return jsonResponse({ error: "You've used all your purchased analysis credits. Purchase more to continue.", code: "no_credits_remaining" }, 402);
+      }
+      creditSource = "one_time";
     }
-    const remainingCredits = totalCredits - (usedCount ?? 0);
-    if (remainingCredits <= 0) {
-      return jsonResponse({ error: "You've used all your purchased analysis credits. Purchase more to continue.", code: "no_credits_remaining" }, 402);
-    }
-    creditSource = "one_time";
   }
 
   // ---- Step 3: daily burst cap, shared across both tools --------------
