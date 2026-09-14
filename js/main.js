@@ -1,6 +1,6 @@
 /* =========================================================
    CREdocket — Shared site behavior
-   Nav state, mobile menu, scroll reveals, count-up stats, ticker
+   Nav state, mobile menu, scroll reveals, count-up stats
    ========================================================= */
 
 (function () {
@@ -159,28 +159,6 @@
   document.querySelectorAll("[data-year]").forEach((el) => {
     el.textContent = new Date().getFullYear();
   });
-
-  /* ---------- Ticker (built from tracked matters) ---------- */
-  const tickerTrack = document.getElementById("ticker-track");
-  if (tickerTrack && typeof RELAW_DATA !== "undefined") {
-    const catMap = Object.fromEntries(RELAW_DATA.categories.map((c) => [c.id, c]));
-    // Sorted by the underlying legal event's own date, not when we added
-    // the matter to the tracker -- addedDate reflects our own research
-    // pace (which now includes backfilling older state-court matters to
-    // close coverage gaps), not how current the news actually is. A
-    // ticker billing itself as recent news has to mean recent events.
-    const recent = [...RELAW_DATA.cases]
-      .sort((a, b) => new Date(b.date) - new Date(a.date))
-      .slice(0, 10);
-
-    const itemHtml = (c) => {
-      const cat = catMap[c.category];
-      return `<span class="ticker-item" data-case-id="${c.id}" title="Read ${c.title}"><span class="ticker-dot" style="background:${cat.color}"></span>${formatDate(c.date)} — ${c.title}</span>`;
-    };
-
-    const html = recent.map(itemHtml).join("") + recent.map(itemHtml).join("");
-    tickerTrack.innerHTML = html;
-  }
 
   /* ---------- Hero headline rotation (homepage only) ----------
      User liked more than one draft tagline and asked for a rotating
