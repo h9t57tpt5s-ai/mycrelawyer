@@ -139,12 +139,16 @@
   <div class="container">
     <div class="eyebrow reveal in-view">Updates</div>
     <h1 class="reveal in-view" style="font-size:clamp(2.2rem,4vw,3.4rem);">Everything, in order.</h1>
-    <p class="lede mt-16 reveal in-view">Every tracked matter, newest first — real, sourced developments pulled in by our litigation-news research feed. Click any item to read the full write-up.</p>
+    <p class="lede mt-16 reveal in-view">Every tracked matter — real, sourced developments pulled in by our litigation-news research feed. Click any item to read the full write-up.</p>
   </div>
 </header>
 
 <section class="section-tight">
   <div class="container">
+    <div class="sort-toggle" role="group" aria-label="Sort updates by">
+      <button type="button" class="sort-toggle-btn is-active" data-sort="added">Newly Written About</button>
+      <button type="button" class="sort-toggle-btn" data-sort="event">By Event Date</button>
+    </div>
     <p id="updates-recent-note" class="text-muted mono" style="display:none; font-size:12.5px; margin-bottom:16px;"></p>
     <div class="updates-feed" id="updates-feed"></div>
   </div>

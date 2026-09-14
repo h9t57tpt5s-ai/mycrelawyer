@@ -1506,6 +1506,10 @@ h3, .h3 {
 .search-view-all:hover { background: color-mix(in srgb, var(--accent) 16%, transparent); }
 
 /* ---------- Updates feed (chronological) ---------- */
+.sort-toggle { display: flex; gap: 4px; padding: 4px; background: var(--bg-elevated); border: 1px solid var(--border); border-radius: var(--radius-full); margin: 0 auto 20px; max-width: 780px; width: fit-content; }
+.sort-toggle-btn { border: none; background: transparent; padding: 8px 16px; border-radius: var(--radius-full); font-size: 13px; font-weight: 600; color: var(--text-secondary); cursor: pointer; transition: background 0.2s ease, color 0.2s ease; white-space: nowrap; }
+.sort-toggle-btn:hover { color: var(--text-primary); }
+.sort-toggle-btn.is-active { background: var(--accent); color: #fff; }
 .updates-feed { position: relative; max-width: 780px; margin: 0 auto; }
 .updates-feed::before {
   content: "";
