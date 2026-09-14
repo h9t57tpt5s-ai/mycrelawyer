@@ -52,12 +52,13 @@
 //   customer.subscription.updated
 //   customer.subscription.deleted
 //
-// PRICE_ID_TO_PLAN below MUST be filled in with your real Stripe Price
-// IDs (not Product IDs) once the Practitioner/Firm recurring Prices +
-// Payment Links exist in Stripe -- see PRICING_SETUP.md for the exact
-// dashboard steps. Until filled in, subscription checkouts will complete
-// in Stripe but this webhook will log an error and skip granting access
-// (fails safe, not silently -- see the "Unrecognized price ID" branch).
+// PRICE_ID_TO_PLAN below is filled in with the real Practitioner/Firm
+// Price IDs (2026-09-13). If either plan's price is ever recreated in
+// Stripe (not just edited -- a genuinely new Price object), update the
+// corresponding entry here or subscription checkouts on the old ID will
+// complete in Stripe but this webhook will log an error and skip
+// granting access (fails safe, not silently -- see the "Unrecognized
+// price ID" branch).
 //
 // Webhook endpoint URL (unchanged):
 //   https://ribmcdyoydhmafnyfhpp.supabase.co/functions/v1/stripe-case-valuation-webhook
@@ -81,8 +82,8 @@ const ONE_TIME_CREDITS = 10;
 // qualifying regardless of which planType -- so a new tier added here
 // automatically gets that unlock too, no separate wiring needed there).
 const PRICE_ID_TO_PLAN: Record<string, { planType: string; monthlyCreditAllotment: number }> = {
-  "price_REPLACE_WITH_PRACTITIONER_PRICE_ID": { planType: "practitioner", monthlyCreditAllotment: 12 },
-  "price_REPLACE_WITH_FIRM_PRICE_ID": { planType: "firm", monthlyCreditAllotment: 40 },
+  "price_1UFNnB1g7aNJXW5yl0BpKuj8": { planType: "practitioner", monthlyCreditAllotment: 12 },
+  "price_1UFNrH1g7aNJXW5y0CMKqeG1": { planType: "firm", monthlyCreditAllotment: 40 },
 };
 
 // Deliberately NOT named STRIPE_WEBHOOK_SECRET -- that name is already

@@ -2,14 +2,12 @@
    CREdocket — Pricing page: wires the Practitioner/Firm Subscribe
    buttons to their Stripe Payment Links.
 
-   REPLACE the two placeholder URLs below with real Stripe Payment
-   Links once the Practitioner ($89/mo) and Firm ($249/mo) recurring
-   Prices exist in Stripe -- see PRICING_SETUP.md for the exact
-   dashboard steps. Same "plain Payment Link, opened in a new tab"
-   pattern js/case-valuation.js already uses for the one-time
-   $49/10-credit pack (STRIPE_PAYMENT_LINK_URL) -- no custom Checkout
-   Session code, consistent with the rest of this site's Stripe
-   integration.
+   The two URLs below are the real Practitioner ($89/mo) and Firm
+   ($249/mo) Stripe Payment Links (filled in 2026-09-13). Same "plain
+   Payment Link, opened in a new tab" pattern js/case-valuation.js
+   already uses for the one-time $49/10-credit pack
+   (STRIPE_PAYMENT_LINK_URL) -- no custom Checkout Session code,
+   consistent with the rest of this site's Stripe integration.
 
    Sign-in is required before opening the link (unlike the one-time
    pack, which only ever renders its own buy button post-sign-in
@@ -25,8 +23,8 @@
   "use strict";
 
   const PLANS = {
-    practitioner: { url: "https://buy.stripe.com/REPLACE_WITH_PRACTITIONER_PAYMENT_LINK", label: "Practitioner" },
-    firm: { url: "https://buy.stripe.com/REPLACE_WITH_FIRM_PAYMENT_LINK", label: "Firm" },
+    practitioner: { url: "https://buy.stripe.com/8x214fcF8g9cbzx4SZ1B602", label: "Practitioner" },
+    firm: { url: "https://buy.stripe.com/cNi6oz7kO5uy331adj1B603", label: "Firm" },
   };
 
   function wireSubscribeButton(id, plan) {
