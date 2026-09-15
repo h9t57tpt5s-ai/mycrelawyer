@@ -3,19 +3,19 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Judge George H. Wu — CREdocket</title>
-<meta name="description" content="U.S. District Judge, U.S. District Court, Central District of California. Commercial real estate litigation matters tracked before Judge George H. Wu on CREdocket." />
-<meta property="og:type" content="profile" />
+<title>Coverage Methodology — CREdocket</title>
+<meta name="description" content="How CREdocket decides what counts as a tracked matter, how entries are sourced and categorized, and how often coverage is updated." />
+<meta property="og:type" content="website" />
 <meta property="og:site_name" content="CREdocket" />
-<meta property="og:title" content="Judge George H. Wu — CREdocket" />
-<meta property="og:description" content="U.S. District Judge, U.S. District Court, Central District of California. Commercial real estate litigation matters tracked before Judge George H. Wu on CREdocket." />
-<meta property="og:url" content="https://credocket.com/judge-george-h-wu.html" />
+<meta property="og:title" content="Coverage Methodology — CREdocket" />
+<meta property="og:description" content="How CREdocket decides what counts as a tracked matter, how entries are sourced and categorized, and how often coverage is updated." />
+<meta property="og:url" content="https://credocket.com/methodology.html" />
 <meta property="og:image" content="https://credocket.com/img/og-image.png" />
 <meta property="og:image:width" content="1200" />
 <meta property="og:image:height" content="630" />
 <meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:title" content="Judge George H. Wu — CREdocket" />
-<meta name="twitter:description" content="U.S. District Judge, U.S. District Court, Central District of California. Commercial real estate litigation matters tracked before Judge George H. Wu on CREdocket." />
+<meta name="twitter:title" content="Coverage Methodology — CREdocket" />
+<meta name="twitter:description" content="How CREdocket decides what counts as a tracked matter, how entries are sourced and categorized, and how often coverage is updated." />
 <meta name="twitter:image" content="https://credocket.com/img/og-image.png" />
 <link rel="icon" href="img/favicon.svg" type="image/svg+xml" />
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -117,60 +117,39 @@
 
 
 <header class="page-header">
-    <svg class="page-header-graphic" viewBox="0 0 640 400" fill="none" aria-hidden="true" preserveAspectRatio="xMaxYMid slice">
-      <defs>
-        <radialGradient id="phGlow" cx="70%" cy="30%" r="60%">
-          <stop offset="0" stop-color="var(--accent)" stop-opacity="0.16"/>
-          <stop offset="1" stop-color="var(--accent)" stop-opacity="0"/>
-        </radialGradient>
-      </defs>
-      <rect x="0" y="0" width="640" height="400" fill="url(#phGlow)"/>
-      <circle cx="420" cy="120" r="3.5" fill="var(--status-pending)" opacity="0.8">
-        <animate attributeName="r" values="3.5;5.5;3.5" dur="3s" repeatCount="indefinite"/>
-      </circle>
-      <circle cx="230" cy="160" r="3" fill="var(--status-filed)" opacity="0.8">
-        <animate attributeName="r" values="3;5;3" dur="2.6s" repeatCount="indefinite"/>
-      </circle>
-    </svg>
   <div class="container">
-    <div class="eyebrow reveal in-view">Judge Profile</div>
-    <h1 class="reveal in-view" style="font-size:clamp(2.2rem,4vw,3.4rem);">Judge George H. Wu</h1>
-    <p class="lede mt-16 reveal in-view">U.S. District Judge &middot; <span id="jp-court-link"></span></p>
+    <div class="eyebrow reveal in-view">Methodology</div>
+    <h1 class="reveal in-view" style="font-size:clamp(2.2rem,4vw,3.4rem);">Coverage Methodology</h1>
+    <p class="lede mt-16 reveal in-view">How we decide what counts as a tracked matter, how entries are researched and categorized, and how often coverage is refreshed. Written for readers who need to know how this data is built, not just what it says — risk and compliance teams, rating analysts, and anyone citing CREdocket in their own work.</p>
   </div>
 </header>
 
 <section class="section-tight">
-  <div class="container">
-    <div class="card reveal" style="padding:32px; margin-bottom:32px;">
-      <p class="text-secondary" style="font-size:14.5px; line-height:1.7; margin-bottom:18px;">Nominated by President George W. Bush in January 2007 and confirmed by the Senate that March, filling a seat vacated by Judge Ronald S.W. Lew. Previously in private practice in Los Angeles and an assistant professor of law at the University of Tennessee College of Law. Assumed senior status in November 2023.</p>
-      <a href="https://www.fjc.gov/history/judges/wu-george-h" target="_blank" rel="noopener" class="btn btn-ghost btn-sm">Official biography &#8599;</a>
-    </div>
+  <div class="container" style="max-width:760px;">
+    <div class="legal-doc reveal">
 
-    <div class="grid-4 reveal-stagger mb-32" id="jp-stats"></div>
+      <h2>Scope: what gets tracked</h2>
+      <p>A matter is added to the tracker when it is a filed complaint, dispositive ruling, settlement, or regulatory/agency action in which a commercial real estate owner, manager, lender, developer, or REIT is a named party or direct target — and it falls within one of the nine practice areas this site covers: landlord-tenant, zoning &amp; land use, REIT &amp; securities, construction defect, lending &amp; foreclosure, environmental, eminent domain, commercial lease disputes, and premises liability. Coverage spans all fifty states and federal court, and is not limited to any one property type, though individual entries are tagged by property type where it's identifiable.</p>
 
-    <div class="section-head reveal">
-      <div>
-        <div class="eyebrow">Matters Before This Judge</div>
-        <h2 style="font-size:clamp(1.6rem,2.6vw,2.2rem);">Tracked on CREdocket</h2>
-      </div>
-      <p class="text-muted" style="max-width:420px; font-size:13.5px;">Sourced, verified matters — not an inference of how this judge tends to rule. As coverage grows, patterns in practice area and ruling speed will surface here automatically.</p>
-    </div>
-    <div class="grid-3 reveal-stagger" id="jp-case-grid"></div>
+      <h2>What's excluded</h2>
+      <p>We exclude residential-only disputes with no commercial-property nexus, routine non-precedential procedural filings (a scheduling order, a stipulated extension), and matters where a CRE company is merely mentioned for comparison or background rather than an actual named party. That last distinction — actual party versus incidental mention — is the same test the Companies &amp; Parties directory's own matching logic applies, and it's the most common reason a search result you might expect to see doesn't appear.</p>
 
-    <div class="card cta-photo-card reveal mt-40" style="padding:40px; display:flex; align-items:center; justify-content:space-between; gap:24px; flex-wrap:wrap;">
-      <div class="cta-photo-bg"><img src="img/photos/philadelphia.jpg" alt="" aria-hidden="true" loading="lazy" /></div>
-      <div>
-        <h2 style="font-size:clamp(1.4rem,2.2vw,1.8rem);">Have a matter before Judge George H. Wu?</h2>
-        <p class="text-secondary mt-16" style="max-width:440px;">If you're litigating in front of this judge, it's worth a conversation about how similar matters here have played out.</p>
-      </div>
-      <a href="contact.html?matter=Matter%20before%20Judge%20George%20H%20Wu&jurisdiction=U.S.%20District%20Court%2C%20Central%20District%20of%20California" class="btn btn-primary">
-        Discuss This
-        <svg viewBox="0 0 24 24" fill="none"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
-      </a>
+      <h2>Categorization</h2>
+      <p>Every matter is tagged with a practice area (one of the nine listed above), a status (filed, pending, ruling issued, settled, or on appeal), a jurisdiction, and — where the underlying reporting supports it — a property type and named parties. Categorization is a judgment call in genuinely mixed cases (a construction-defect suit that's also a lending dispute, for instance); we tag by the dispute's primary legal theory, not every claim pleaded in the complaint.</p>
+
+      <h2>Research &amp; sourcing</h2>
+      <p>Matters are identified through an ongoing research process that searches public court opinions, agency and regulator releases, and reported legal and trade-press news for developments meeting the scope above. Every entry is written as an original summary and links back to its real underlying source — we don't publish an entry we can't source, and we don't fabricate case facts, dollar figures, or procedural posture to fill in gaps the source reporting doesn't cover. Each entry also carries a "why it matters" note aimed at operators and investors, connecting the ruling or filing back to underwriting, leasing, or portfolio-strategy implications — that commentary is our own analysis, distinct from the sourced facts above it.</p>
+
+      <h2>Update cadence</h2>
+      <p>New matters are researched and added in two passes per day, run independently of each other. Rather than capping each pass at a single new entry, every run does a comprehensive sweep of that pass's window and adds every matter meeting the scope criteria above — some days that's a couple of entries, other days considerably more, depending on what was actually filed, decided, or reported. Each run also identifies the single most significant development from that sweep and highlights it as that day's featured story on the homepage, regardless of how far back the underlying event occurred — a major ruling on an older case can be that day's most important story even if the docket activity itself happened weeks earlier.</p>
+
+      <h2>Accuracy &amp; corrections</h2>
+      <p>We aim for accuracy, but litigation moves quickly and entries reflect information available at the time of writing. If you spot an error — a wrong outcome, an outdated status, a misattributed party — <a href="contact.html">contact us</a> and we'll review and correct it. We are not obligated to update an entry after publication except as part of our ordinary editorial process, and an entry's absence from the tracker is not a representation that no such matter exists.</p>
+
+      <h2>What this is not</h2>
+      <p>CREdocket is a curated intelligence tracker, not a real-time docket-monitoring service or a comprehensive record of every court filing nationwide. We track matters that meet the scope above and that our research process actually surfaces; we do not guarantee completeness, and a matter directly affecting your portfolio can exist without appearing here. This page describes our process, not a warranty about any individual entry — see our <a href="terms.html">Terms of Service</a> for the governing disclaimers, and our <a href="about.html">About</a> page for who the tracker is built for.</p>
+
     </div>
-    <p class="text-muted mt-24" style="font-size:13px;">
-      <a href="judges.html" class="text-accent" style="display:inline;">View all judges &amp; courts &rarr;</a>
-    </p>
   </div>
 </section>
 
@@ -217,7 +196,7 @@
       </div>
     </div>
     <div class="footer-bottom">
-      <span>&copy; <span data-year></span> CREdocket. Litigation intelligence sourced from ongoing legal research.</span>
+      <span>© <span data-year></span> CREdocket. Litigation intelligence sourced from ongoing legal research.</span>
       <span>Not legal advice. For informational purposes only.</span>
     </div>
   </div>
@@ -260,60 +239,5 @@
 <script src="js/trending.js"></script>
 <script src="js/search.js"></script>
 <script src="js/motion.js"></script>
-<script>
-  (function () {
-    const JUDGE_NAME = "George H. Wu";
-    const judge = (RELAW_DATA.judges || []).find((j) => j.name === JUDGE_NAME);
-    const matches = RELAW_DATA.cases.filter((c) => c.judge === JUDGE_NAME)
-      .sort((a, b) => new Date(b.date) - new Date(a.date));
-
-    // Court link in the lede
-    const courtEl = document.getElementById("jp-court-link");
-    const court = RELAW_DATA.courts.find((c) => c.jurisdiction === (judge ? judge.court : ""));
-    courtEl.innerHTML = court
-      ? `<a href="${court.url}" target="_blank" rel="noopener" class="text-accent" style="text-decoration:none; border-bottom:1px dotted currentColor;">${judge.court}</a>`
-      : (judge ? judge.court : "");
-
-    // Stats row
-    const catMap = Object.fromEntries(RELAW_DATA.categories.map((c) => [c.id, c]));
-    const cats = [...new Set(matches.map((c) => c.category))];
-    const dates = matches.map((c) => c.date).sort();
-    // Lightweight judge analytics: a real grant-rate/time-to-ruling
-    // breakdown needs structured per-motion outcome data this dataset
-    // doesn't capture yet -- this status breakdown (filed/pending/ruling/
-    // settled/on appeal) is what's honestly derivable from tracked
-    // matters today, and lays the groundwork for the fuller version once
-    // that data exists.
-    const statusMap = Object.fromEntries(RELAW_DATA.statuses.map((s) => [s.id, s]));
-    const statusCounts = Object.entries(
-      matches.reduce((acc, c) => { acc[c.status] = (acc[c.status] || 0) + 1; return acc; }, {})
-    ).map(([id, count]) => [statusMap[id] || { label: id, color: "var(--text-muted)" }, count]);
-    const statsGrid = document.getElementById("jp-stats");
-    statsGrid.innerHTML = `
-      <div class="card reveal" style="text-align:center; padding:24px;">
-        <div class="mono" style="font-size:2rem; font-weight:600; color:var(--accent);">${matches.length}</div>
-        <div class="text-muted" style="font-size:12px; text-transform:uppercase; letter-spacing:0.04em; margin-top:6px;">Matter${matches.length === 1 ? "" : "s"} Tracked</div>
-      </div>
-      <div class="card reveal" style="padding:24px;">
-        <div class="text-muted" style="font-size:12px; text-transform:uppercase; letter-spacing:0.04em; margin-bottom:10px;">Practice Areas</div>
-        <div style="display:flex; flex-wrap:wrap; gap:6px;">
-          ${cats.map((id) => { const cat = catMap[id]; return `<span class="badge" style="background:color-mix(in srgb, ${cat.color} 16%, transparent); color:${cat.color}; border:1px solid color-mix(in srgb, ${cat.color} 35%, transparent);"><span class="badge-dot" style="background:${cat.color}"></span>${cat.label}</span>`; }).join("")}
-        </div>
-      </div>
-      <div class="card reveal" style="padding:24px;">
-        <div class="text-muted" style="font-size:12px; text-transform:uppercase; letter-spacing:0.04em; margin-bottom:10px;">Case Status</div>
-        <div style="display:flex; flex-wrap:wrap; gap:6px;">
-          ${statusCounts.map(([st, count]) => `<span class="badge" style="background:color-mix(in srgb, ${st.color} 16%, transparent); color:${st.color}; border:1px solid color-mix(in srgb, ${st.color} 35%, transparent);"><span class="badge-dot" style="background:${st.color}"></span>${count} ${st.label}</span>`).join("")}
-        </div>
-      </div>
-      <div class="card reveal" style="padding:24px;">
-        <div class="text-muted" style="font-size:12px; text-transform:uppercase; letter-spacing:0.04em; margin-bottom:6px;">Coverage Window</div>
-        <div style="font-size:14px; font-weight:600;">${dates.length ? `${new Date(dates[0] + "T00:00:00").toLocaleDateString("en-US", {month:"short",year:"numeric"})} &ndash; ${new Date(dates[dates.length-1] + "T00:00:00").toLocaleDateString("en-US", {month:"short",year:"numeric"})}` : "&mdash;"}</div>
-      </div>`;
-
-    document.getElementById("jp-case-grid").innerHTML = matches.map(window.RELAW_UTILS.caseCardHtml).join("");
-    document.querySelectorAll(".reveal, .card").forEach((el) => el.classList.add("in-view"));
-  })();
-</script>
 </body>
 </html>
