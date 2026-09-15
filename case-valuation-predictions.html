@@ -248,6 +248,7 @@
         <p class="text-secondary" style="font-size:14px; line-height:1.7; margin-bottom:8px;"><strong>Nothing logged yet.</strong> This registry was just built. The first entries require a signed-in session running the calculator on a real, currently pending tracked matter — check back soon, or ask us directly for a status update.</p>
         <p class="text-muted" style="font-size:12.5px;">We'd rather show an honest, empty registry than backfill it with anything less than a genuinely pre-dated prediction.</p>
       </div>`;
+      host.querySelectorAll(".reveal").forEach((el) => el.classList.add("in-view"));
       return;
     }
 
@@ -271,6 +272,7 @@
         ${outcomeHtml}
       </div>`;
     }).join("");
+    host.querySelectorAll(".reveal").forEach((el) => el.classList.add("in-view"));
   })();
 </script>
 </body>
