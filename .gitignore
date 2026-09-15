@@ -2,3 +2,4 @@
 *.log
 node_modules/
 scripts/logs/
+supabase/.temp/
