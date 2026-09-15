@@ -78,8 +78,14 @@ window.LR_REPORT = (function () {
       y += size * 0.95 + 4;
     }
 
+    // LEASE_REDLINE_DATA is declared with top-level `const` in
+    // js/lease-redline-data.js -- reachable as a bare identifier via the
+    // shared classic-script global scope (same way js/lease-clause-redline.js
+    // itself references it), but NOT as window.LEASE_REDLINE_DATA -- a
+    // top-level const/let never becomes a window property the way var
+    // and function declarations do. Guard with typeof, not a window check.
     const a = json.analysis || {};
-    const clauseSpec = (window.LEASE_REDLINE_DATA && window.LEASE_REDLINE_DATA.clauseTypes[json.clauseType]) || null;
+    const clauseSpec = (typeof LEASE_REDLINE_DATA !== "undefined" && LEASE_REDLINE_DATA.clauseTypes[json.clauseType]) || null;
     const riskLevel = (a.overallRiskLevel || "").toLowerCase();
     const riskColor = RISK_COLOR[riskLevel] || MUTED;
     const BADGE_LABEL = {
@@ -115,7 +121,7 @@ window.LR_REPORT = (function () {
 
     heading("Disclaimer", 13);
     body("This is a beta tool. \"Market standard\" reflects common negotiated middle ground across institutional commercial leases generally — it varies by asset class, submarket, and relative negotiating leverage, and is not itself grounded in case law or statute the way this site's other tools are.", { size: 9, color: "#B45309", bold: true, gap: 10 });
-    body((window.LEASE_REDLINE_DATA && window.LEASE_REDLINE_DATA.disclaimer) || "This tool is not legal advice, does not review the clause for enforceability or drafting defects a court might find, and does not create an attorney-client relationship. Have any clause reviewed by qualified counsel before relying on it.", { size: 9, color: MUTED, gap: 16 });
+    body((typeof LEASE_REDLINE_DATA !== "undefined" && LEASE_REDLINE_DATA.disclaimer) || "This tool is not legal advice, does not review the clause for enforceability or drafting defects a court might find, and does not create an attorney-client relationship. Have any clause reviewed by qualified counsel before relying on it.", { size: 9, color: MUTED, gap: 16 });
 
     if ((a.topConcerns || []).length) {
       heading("Top Concerns", 13);
