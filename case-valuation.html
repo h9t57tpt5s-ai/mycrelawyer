@@ -225,6 +225,11 @@
           </div>
         </div>
         <p class="text-muted" style="font-size:12px; margin-top:16px;">This is a probability-weighted prediction generated from the documents provided, not a legal opinion, adjudication, or substitute for counsel — see the full disclaimer below the tool.</p>
+        <button type="button" class="btn btn-ghost btn-sm" id="cv-sample-pdf-btn" style="margin-top:16px;">
+          Download this as a sample PDF report
+          <svg viewBox="0 0 24 24" fill="none" width="16" height="16"><path d="M12 3v12m0 0l-4-4m4 4l4-4M5 21h14" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </button>
+        <p class="text-muted" style="font-size:11.5px; margin-top:6px;">Generates a real PDF using the exact same report code every paid analysis produces — so you can see the actual deliverable, not just a description of it.</p>
       </div>
     </div>
   </div>
@@ -425,6 +430,64 @@
     }
     document.addEventListener("mousedown", intercept, true);
     document.addEventListener("focusin", intercept, true);
+  })();
+</script>
+<script>
+  // Sample PDF download (2026-09-15) -- generates a REAL PDF via the
+  // exact same window.CV_REPORT.requestFullReport() code path every
+  // paid analysis uses, fed fabricated facts matching the on-page
+  // sample above. Deliberately not a pre-baked static file: this way
+  // the sample can never silently drift out of sync with what the real
+  // report actually looks like if that code changes later. The two
+  // cited cases are real (see the on-page sample's own citations) --
+  // only the underlying dispute facts are fabricated, and the report
+  // says so explicitly on its own title/executive-discovery page so it
+  // reads correctly even if downloaded and opened out of context.
+  (function () {
+    const btn = document.getElementById("cv-sample-pdf-btn");
+    if (!btn) return;
+    btn.addEventListener("click", function () {
+      const sampleClaims = [
+        {
+          claimKey: "unpaid_rent",
+          label: "Unpaid Rent",
+          probability: [0.90, 0.97],
+          damagesRange: [95000, 95000],
+          expectedValueRange: [88000, 92000],
+          note: "Undisputed accrued rent on a written lease is close to open-and-shut absent a real defense to the underlying debt.",
+          citations: [{
+            caseName: "SVAP III Poway Crossings, LLC v. Fitness International, LLC",
+            year: 2023, dollarAmount: 520361, confidence: "high",
+            sourceUrl: "https://caselaw.findlaw.com/court/ca-court-of-appeal/2181216.html",
+          }],
+        },
+        {
+          claimKey: "accelerated_rent",
+          label: "Accelerated Rent",
+          probability: [0.65, 0.90],
+          damagesRange: [540000, 702000],
+          expectedValueRange: [470000, 610000],
+          note: "Lease has an acceleration clause; damages reflect the remaining 3-year term rent, offset by the landlord's duty to mitigate through re-letting.",
+          citations: [{
+            caseName: "Cummings Properties, LLC v. Hines",
+            year: 2023, dollarAmount: 68650, confidence: "high",
+            sourceUrl: "https://caselaw.findlaw.com/court/ma-supreme-judicial-court/115141290.html",
+          }],
+        },
+      ];
+      const sampleEvalResult = { claims: sampleClaims };
+      const sampleCtx = {
+        side: "sideA",
+        roles: { sideA: "Landlord", sideB: "Tenant" },
+        categoryLabel: "Commercial Lease Disputes (Sample Report)",
+        jurisdictionLabel: "Texas",
+        bestGuessValue: 655000,
+        net: [580000, 740000],
+        likelyOutcome: "This is a SAMPLE report generated from a fabricated illustrative scenario (a retail tenant defaulting with 3 years remaining on a 10-year lease) — it does not describe any real client or matter. The two cases cited in the Claim-by-Claim Analysis below are real, independently verified entries from CREdocket's own case-law database, with their real outcomes and sources — only the surrounding dispute facts here are invented for illustration.",
+        catSpec: { claimTypes: { unpaid_rent: { side: "sideA" }, accelerated_rent: { side: "sideA" } } },
+      };
+      window.CV_REPORT.requestFullReport(sampleEvalResult, sampleCtx);
+    });
   })();
 </script>
 </body>
