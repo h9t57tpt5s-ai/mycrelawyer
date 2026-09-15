@@ -201,6 +201,68 @@
       </div>
       <div id="watchlists-list"></div>
 
+      <div class="section-head reveal" style="margin-top:40px;">
+        <div>
+          <div class="eyebrow">Portfolio</div>
+          <h2 style="font-size:clamp(1.4rem,2.2vw,1.9rem);">Your properties &amp; counterparties</h2>
+        </div>
+      </div>
+      <p class="text-secondary reveal" style="font-size:13.5px; line-height:1.6; margin-bottom:20px;">Add the actual properties, tenants, lenders, guarantors, or other counterparties you care about by name. Every one of them is checked automatically against every new matter added to the tracker — you'll get an email the moment any of them is named in something new, whether or not it fits one of your watchlists above.</p>
+
+      <form id="portfolio-form" class="card" style="padding:28px; margin-bottom:24px;">
+        <div class="form-field">
+          <label for="pe-name">Name (exactly as it would appear in a filing — e.g. the full legal entity name)</label>
+          <input type="text" id="pe-name" placeholder="e.g. 400 Market Street Owner LLC, or Willow Bridge Property Co." required />
+        </div>
+        <div class="form-field mt-16">
+          <label for="pe-type">What is this?</label>
+          <select id="pe-type">
+            <option value="property">Property</option>
+            <option value="tenant">Tenant</option>
+            <option value="lender">Lender</option>
+            <option value="guarantor">Guarantor</option>
+            <option value="counterparty" selected>Other counterparty</option>
+            <option value="other">Other</option>
+          </select>
+        </div>
+        <div class="form-field mt-16">
+          <label for="pe-notes">Note to yourself (optional)</label>
+          <input type="text" id="pe-notes" placeholder="e.g. our tenant at 400 Market St" />
+        </div>
+        <button type="submit" class="btn btn-primary btn-sm mt-16">Add to portfolio</button>
+        <div id="portfolio-form-status" class="auth-modal-status"></div>
+      </form>
+
+      <details class="card reveal" style="padding:20px 28px; margin-bottom:24px;">
+        <summary style="cursor:pointer; font-weight:600; font-size:13.5px;">Add several at once</summary>
+        <form id="portfolio-bulk-form" style="margin-top:16px;">
+          <div class="form-field">
+            <label for="pe-bulk-names">One name per line</label>
+            <textarea id="pe-bulk-names" rows="6" placeholder="400 Market Street Owner LLC&#10;Acme Retail Tenant Corp&#10;First Regional Bank, N.A." style="width:100%; padding:12px; border-radius:8px; border:1px solid var(--border); background:var(--bg-elevated); color:var(--text-primary); font-size:13.5px; font-family:inherit; resize:vertical;"></textarea>
+          </div>
+          <div class="form-field mt-16">
+            <label for="pe-bulk-type">All of these are:</label>
+            <select id="pe-bulk-type">
+              <option value="property">Properties</option>
+              <option value="tenant">Tenants</option>
+              <option value="lender">Lenders</option>
+              <option value="guarantor">Guarantors</option>
+              <option value="counterparty" selected>Other counterparties</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+          <button type="submit" class="btn btn-ghost btn-sm mt-16">Add all</button>
+          <div id="portfolio-bulk-status" class="auth-modal-status"></div>
+        </form>
+      </details>
+
+      <div class="section-head reveal">
+        <div>
+          <h3 style="font-size:1.05rem;"><span id="portfolio-count">0</span> tracked</h3>
+        </div>
+      </div>
+      <div id="portfolio-list"></div>
+
       <div class="section-head reveal" id="digest-prefs-anchor" style="margin-top:40px;">
         <div>
           <div class="eyebrow">Notifications</div>
@@ -310,6 +372,7 @@
 <script src="js/auth.js"></script>
 <script src="js/trending.js"></script>
 <script src="js/watchlists.js"></script>
+<script src="js/portfolio-entities.js"></script>
 <script src="js/digest-prefs.js"></script>
 <script src="js/account-plan.js"></script>
 <script src="js/search.js"></script>

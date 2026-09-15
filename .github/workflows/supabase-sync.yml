@@ -64,7 +64,7 @@ jobs:
             cat /tmp/upsert_resp.json || true
 
             echo "-- Triggering watchlist alert check for $id --"
-            alert_payload=$(jq '{id, title, category, state, summary, significance, jurisdiction, date}' "$f")
+            alert_payload=$(jq '{id, title, category, state, summary, significance, jurisdiction, date, parties}' "$f")
             alert_status=$(curl -sS -o /tmp/alert_resp.json -w "%{http_code}" \
               -X POST 'https://ribmcdyoydhmafnyfhpp.supabase.co/functions/v1/check-and-send-watchlist-alerts' \
               -H "Authorization: Bearer $SUPABASE_ANON_KEY" \

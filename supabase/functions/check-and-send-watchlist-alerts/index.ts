@@ -1,5 +1,5 @@
 // =========================================================
-// CREdocket — Watchlist match alerts
+// CREdocket — Watchlist + portfolio-entity match alerts
 //
 // Called once per newly-synced case by
 // .github/workflows/supabase-sync.yml, right after that case lands in
@@ -10,6 +10,20 @@
 // everything), and emails each matching watchlist's owner a same-day
 // alert via Resend, linking straight to the matter via
 // litigation.html?case=<id>.
+//
+// ALSO (added 2026-09-14, the #1 finding from the 100-persona
+// stakeholder review -- see case_valuation_project/schema_portfolio_
+// entities.sql) checks every user's saved portfolio_entities -- their
+// own named properties, tenants, lenders, guarantors, and other
+// counterparties -- against the new case's `parties[].name` when
+// present, falling back to a substring match against the case title
+// when it isn't (as of 2026-09-14, `parties` is a very new field the
+// digest pipeline is only asked to populate going forward, so most
+// existing and even many new cases won't have it yet -- the title
+// fallback is what makes this actually useful before that catches up,
+// since virtually every case title already names at least one real
+// party). Emails each matched entity's owner separately from any
+// watchlist match, using the same Resend pattern.
 //
 // Auth model: a single shared secret (AUTOMATION_SECRET), checked
 // against the x-automation-secret header the sync workflow already
@@ -61,12 +75,50 @@ function jsonResponse(body: Record<string, unknown>, status: number) {
 type NewCase = {
   id?: string; title?: string; category?: string; state?: string;
   summary?: string; significance?: string; jurisdiction?: string; date?: string;
+  parties?: { name: string; role: string }[];
 };
 
 type Watchlist = {
   id: string; user_id: string; name: string;
   states: string[] | null; categories: string[] | null; keyword: string | null;
 };
+
+type PortfolioEntity = {
+  id: string; user_id: string; entity_name: string; entity_type: string;
+};
+
+// Case-insensitive, whitespace-normalized comparison, tolerant of one
+// name being a prefix/suffix of the other (e.g. a user saving "Willow
+// Bridge Property Co." should match a party recorded as "Willow Bridge
+// Property Company" or vice versa) -- deliberately not a fuzzy/typo-
+// tolerant match beyond that, since a looser match on short names risks
+// false-positive alerts (a real trust cost) more than it risks missing
+// a genuine hit.
+function normalizeName(s: string): string {
+  return s.toLowerCase().replace(/[.,]/g, "").replace(/\s+/g, " ").trim();
+}
+function namesMatch(a: string, b: string): boolean {
+  const na = normalizeName(a), nb = normalizeName(b);
+  if (!na || !nb) return false;
+  return na === nb || na.includes(nb) || nb.includes(na);
+}
+
+function matchesPortfolioEntity(entity: PortfolioEntity, c: NewCase): boolean {
+  const normEntity = normalizeName(entity.entity_name);
+  if (c.parties && c.parties.length) {
+    if (c.parties.some((p) => namesMatch(p.name, entity.entity_name))) return true;
+  }
+  // Fallback: most cases don't have structured `parties` yet, but nearly
+  // every case title names at least one real party (e.g. "Gunwerks, LLC
+  // v. Forward Cody Wyoming, Inc.") -- a plain substring check against
+  // the title catches those without needing the structured field. Guarded
+  // to entity names of real length (>= 6 normalized characters) so a
+  // short/generic saved name (e.g. "Bank", "LLC") can't fire on every
+  // unrelated case that happens to contain that substring -- a wrong
+  // alert costs more trust than a missed short-name match does.
+  if (normEntity.length >= 6 && c.title && normalizeName(c.title).includes(normEntity)) return true;
+  return false;
+}
 
 // Mirrors js/watchlists.js's findMatches() filter logic exactly -- an
 // empty/unset filter dimension matches everything, matching that file's
@@ -86,20 +138,11 @@ function matchesWatchlist(w: Watchlist, c: NewCase): boolean {
   return true;
 }
 
-async function sendAlertEmail(toEmail: string, watchlistName: string, c: NewCase) {
+async function sendEmail(toEmail: string, subject: string, bodyLines: (string | null)[], campaign: string) {
   if (!RESEND_API_KEY) {
     console.error("check-and-send-watchlist-alerts: RESEND_API_KEY is not set -- skipping email.");
     return;
   }
-  // UTM params so this shows up as its own traffic source in Vercel
-  // Analytics instead of vanishing into "direct, no referrer" -- email
-  // clients generally don't forward a Referrer header at all, so without
-  // these, a watchlist subscriber clicking through from their inbox is
-  // indistinguishable from someone who just typed the URL (or a bot).
-  const utm = "utm_source=credocket&utm_medium=email&utm_campaign=watchlist-alert";
-  const caseUrl = c.id
-    ? `${SITE_URL}/litigation.html?case=${encodeURIComponent(c.id)}&${utm}`
-    : `${SITE_URL}/litigation.html?${utm}`;
   try {
     const resp = await fetch("https://api.resend.com/emails", {
       method: "POST",
@@ -107,27 +150,69 @@ async function sendAlertEmail(toEmail: string, watchlistName: string, c: NewCase
       body: JSON.stringify({
         from: `CREdocket <${SENDER_EMAIL}>`,
         to: [toEmail],
-        subject: `New match on your "${watchlistName}" watchlist: ${c.title || "a tracked matter"}`,
-        text: [
-          `A new matter matching your "${watchlistName}" watchlist was just added to CREdocket:`,
-          "",
-          c.title || "(untitled matter)",
-          c.jurisdiction ? `Jurisdiction: ${c.jurisdiction}` : null,
-          c.date ? `Date: ${c.date}` : null,
-          "",
-          c.summary || "",
-          "",
-          `View it here: ${caseUrl}`,
-        ].filter((line) => line !== null).join("\n"),
+        subject,
+        text: bodyLines.filter((line) => line !== null).join("\n"),
       }),
     });
     if (!resp.ok) {
       const bodyText = await resp.text().catch(() => "(could not read response body)");
-      console.error(`check-and-send-watchlist-alerts: Resend returned ${resp.status} for ${toEmail} -- ${bodyText}`);
+      console.error(`check-and-send-watchlist-alerts: Resend returned ${resp.status} for ${toEmail} (${campaign}) -- ${bodyText}`);
     }
   } catch (err) {
-    console.error(`check-and-send-watchlist-alerts: fetch to Resend failed for ${toEmail} —`, String(err));
+    console.error(`check-and-send-watchlist-alerts: fetch to Resend failed for ${toEmail} (${campaign}) —`, String(err));
   }
+}
+
+// UTM params so each click shows up as its own traffic source in Vercel
+// Analytics instead of vanishing into "direct, no referrer" -- email
+// clients generally don't forward a Referrer header at all, so without
+// these, an alerted user clicking through from their inbox is
+// indistinguishable from someone who just typed the URL (or a bot).
+function caseUrl(c: NewCase, campaign: string): string {
+  const utm = `utm_source=credocket&utm_medium=email&utm_campaign=${campaign}`;
+  return c.id
+    ? `${SITE_URL}/litigation.html?case=${encodeURIComponent(c.id)}&${utm}`
+    : `${SITE_URL}/litigation.html?${utm}`;
+}
+
+async function sendWatchlistAlertEmail(toEmail: string, watchlistName: string, c: NewCase) {
+  await sendEmail(
+    toEmail,
+    `New match on your "${watchlistName}" watchlist: ${c.title || "a tracked matter"}`,
+    [
+      `A new matter matching your "${watchlistName}" watchlist was just added to CREdocket:`,
+      "",
+      c.title || "(untitled matter)",
+      c.jurisdiction ? `Jurisdiction: ${c.jurisdiction}` : null,
+      c.date ? `Date: ${c.date}` : null,
+      "",
+      c.summary || "",
+      "",
+      `View it here: ${caseUrl(c, "watchlist-alert")}`,
+    ],
+    "watchlist-alert",
+  );
+}
+
+async function sendPortfolioAlertEmail(toEmail: string, entityName: string, c: NewCase) {
+  await sendEmail(
+    toEmail,
+    `"${entityName}" was just named in a new CREdocket matter`,
+    [
+      `A new matter naming "${entityName}" -- something in your CREdocket portfolio -- was just added:`,
+      "",
+      c.title || "(untitled matter)",
+      c.jurisdiction ? `Jurisdiction: ${c.jurisdiction}` : null,
+      c.date ? `Date: ${c.date}` : null,
+      "",
+      c.summary || "",
+      "",
+      `View it here: ${caseUrl(c, "portfolio-alert")}`,
+      "",
+      `Manage what's in your portfolio: ${SITE_URL}/account.html`,
+    ],
+    "portfolio-alert",
+  );
 }
 
 Deno.serve(async (req) => {
@@ -162,9 +247,34 @@ Deno.serve(async (req) => {
       console.error(`check-and-send-watchlist-alerts: could not resolve email for user ${w.user_id} —`, uErr?.message);
       continue;
     }
-    await sendAlertEmail(userData.user.email, w.name, newCase);
+    await sendWatchlistAlertEmail(userData.user.email, w.name, newCase);
     emailsSent++;
   }
 
-  return jsonResponse({ ok: true, matchedWatchlists: matched.length, emailsSent }, 200);
+  // Portfolio-entity matching -- a separate table/concept from
+  // watchlists (see this file's header comment). A table that doesn't
+  // exist yet (schema not run) fails this query gracefully rather than
+  // 500ing the whole request, so watchlist alerts keep working even
+  // before Jeff runs schema_portfolio_entities.sql.
+  const { data: entities, error: peErr } = await supabaseAdmin
+    .from("portfolio_entities")
+    .select("id, user_id, entity_name, entity_type");
+  let matchedEntityCount = 0;
+  if (peErr) {
+    console.error("check-and-send-watchlist-alerts: failed to load portfolio_entities (table may not exist yet) —", peErr.message);
+  } else {
+    const matchedEntities = ((entities || []) as PortfolioEntity[]).filter((e) => matchesPortfolioEntity(e, newCase));
+    matchedEntityCount = matchedEntities.length;
+    for (const e of matchedEntities) {
+      const { data: userData, error: uErr } = await supabaseAdmin.auth.admin.getUserById(e.user_id);
+      if (uErr || !userData || !userData.user || !userData.user.email) {
+        console.error(`check-and-send-watchlist-alerts: could not resolve email for user ${e.user_id} —`, uErr?.message);
+        continue;
+      }
+      await sendPortfolioAlertEmail(userData.user.email, e.entity_name, newCase);
+      emailsSent++;
+    }
+  }
+
+  return jsonResponse({ ok: true, matchedWatchlists: matched.length, matchedPortfolioEntities: matchedEntityCount, emailsSent }, 200);
 });
