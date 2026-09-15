@@ -1,0 +1,540 @@
+{
+  "_comment": "Case names and years ONLY, for automated dedup during citation research -- deliberately excludes outcome/dollarAmount/sourceUrl/confidence, which is the proprietary analysis (see case-valuation-analyze/index.ts's loadCaseData() comment). A case NAME and its YEAR are public facts on their own; this index carries no research value by itself.",
+  "claimTypes": {
+    "unpaid_rent": [
+      {
+        "caseName": "Sylva Shops Limited Partnership v. Hibbard",
+        "year": 2006
+      },
+      {
+        "caseName": "Grand Prospect Partners, L.P. v. Ross Dress for Less, Inc.",
+        "year": 2015
+      },
+      {
+        "caseName": "SVAP III Poway Crossings, LLC v. Fitness International, LLC",
+        "year": 2023
+      },
+      {
+        "caseName": "CPUS Anson Building 8A, LP v. Tradewinds Holding Company, Inc.",
+        "year": 2026
+      }
+    ],
+    "accelerated_rent": [
+      {
+        "caseName": "Austin Hill Country Realty, Inc. v. Palisades Plaza, Inc.",
+        "year": 1997
+      },
+      {
+        "caseName": "Cummings Properties, LLC v. Hines",
+        "year": 2023
+      },
+      {
+        "caseName": "Bistro Manila, LLC v. Alvah I, LLC",
+        "year": 2025
+      },
+      {
+        "caseName": "CSRA Columbus OH Fitness Master Lessee, L.L.C. v. Fitness & Sports Clubs, L.L.C.",
+        "year": 2025
+      }
+    ],
+    "holdover_damages": [
+      {
+        "caseName": "Lincoln Oldsmobile, Inc. v. Branch",
+        "year": 1990
+      },
+      {
+        "caseName": "ESRT 501 Seventh Ave., LLC v. Regine, Ltd.",
+        "year": 2022
+      },
+      {
+        "caseName": "Victoria's Secret Stores, LLC v. Herald Sq. Owner LLC",
+        "year": 2022
+      },
+      {
+        "caseName": "Baca v. Kuang",
+        "year": 2025
+      }
+    ],
+    "attorney_fees": [
+      {
+        "caseName": "Oak Park Investment Co. v. Lundy's, Inc.",
+        "year": 1981
+      },
+      {
+        "caseName": "RadioShack Corp. v. Cascade Crossing II, LLC",
+        "year": 2007
+      },
+      {
+        "caseName": "Rohrmoos Venture v. UTSW DVA Healthcare, LLP",
+        "year": 2019
+      },
+      {
+        "caseName": "Wells & McElwee, P.C. v. Tiffany & Tomato, Inc. (companion appeals: Tiffany & Tomato, Inc. v. Wells & McElwee, P.C.)",
+        "year": 2021
+      }
+    ],
+    "property_damage": [],
+    "wrongful_lockout": [
+      {
+        "caseName": "Berg v. Wiley",
+        "year": 1978
+      },
+      {
+        "caseName": "Rucker v. Wynn",
+        "year": 1994
+      },
+      {
+        "caseName": "Platinum City, LLC v. Boudreaux",
+        "year": 2011
+      },
+      {
+        "caseName": "Palm Beach Florida Hotel & Office Building Corp. v. Nantucket Enterprises, Inc.",
+        "year": 2016
+      }
+    ],
+    "quiet_enjoyment_breach": [
+      {
+        "caseName": "Tenants of Mint Urban Infinity Apartments v. Cardinal Group Management, Glendale Properties I & II",
+        "year": 2025
+      }
+    ],
+    "security_deposit": [
+      {
+        "caseName": "250 L.L.C. v. PhotoPoint Corp. (USA)",
+        "year": 2005
+      },
+      {
+        "caseName": "Urban Soccer Inc. v. Royal Wine Corp.",
+        "year": 2016
+      },
+      {
+        "caseName": "Oak Forest Properties LLC v. RER Financial, Inc.",
+        "year": 2018
+      },
+      {
+        "caseName": "Aljabban v. Fontana Indoor Swap Meet, Inc.",
+        "year": 2020
+      }
+    ],
+    "foreclosure_deficiency_judgment": [
+      {
+        "caseName": "AFF IV 200 Miami LLC v. SRCTD 44-200 LLC and FS Equity Investments II LLC",
+        "year": 2026
+      },
+      {
+        "caseName": "Emerald Creek Capital 3 LLC v. BH3-affiliated ownership entities (Hillsboro Beach Resort)",
+        "year": 2026
+      },
+      {
+        "caseName": "LNR Partners (special servicer) v. Cohen Brothers Realty Corp. (750 Lexington Avenue)",
+        "year": 2026
+      },
+      {
+        "caseName": "The Ardent Companies (Ardent Cos.) v. Baruch Broad Street LLC / Zamir Equities",
+        "year": 2026
+      }
+    ],
+    "receivership_dispute": [
+      {
+        "caseName": "Wells Fargo Bank, N.A. (as trustee) v. Hertz Investment Group (Riverfront Plaza)",
+        "year": 2025
+      },
+      {
+        "caseName": "CWCapital (special servicer) v. Kawa Capital (One Parkway North Boulevard, Deerfield)",
+        "year": 2026
+      },
+      {
+        "caseName": "Citibank, N.A. / LNR Partners v. Golub & Company and BlueFive Capital (625 North Michigan Avenue)",
+        "year": 2026
+      },
+      {
+        "caseName": "U.S. Bank National Association v. Brookfield Republic Plaza LLC",
+        "year": 2026
+      }
+    ],
+    "guaranty_enforcement": [
+      {
+        "caseName": "CSFB 2001-CP-4 Princeton Park Corporate Center, LLC v. SB Rental I, LLC",
+        "year": 2009
+      },
+      {
+        "caseName": "51382 Gratiot Avenue Holdings, LLC v. Chesterfield Development Co., LLC",
+        "year": 2011
+      },
+      {
+        "caseName": "Wells Fargo Bank, N.A. v. Cherryland Mall Ltd. Partnership",
+        "year": 2011
+      },
+      {
+        "caseName": "Bank Midwest, N.A. v. The Integritty Group",
+        "year": 2026
+      }
+    ],
+    "lender_liability_claim": [
+      {
+        "caseName": "K.M.C. Co., Inc. v. Irving Trust Co.",
+        "year": 1985
+      },
+      {
+        "caseName": "Barrett v. Bank of America",
+        "year": 1986
+      },
+      {
+        "caseName": "Beaumont Lamar Apartments, LLC v. Wallis Bank et al.",
+        "year": 2024
+      },
+      {
+        "caseName": "Dooley Developments USA LLC and Colin Dooley v. Stallion Funding, LLC et al.",
+        "year": 2024
+      },
+      {
+        "caseName": "Newage Garden Grove, LLC v. Wells Fargo Bank, N.A. (as Trustee) and Rialto Capital Advisors, LLC",
+        "year": 2024
+      },
+      {
+        "caseName": "111 West 57th Investment LLC v. 111 W57 Mezz Investor LLC (Steinway Tower)",
+        "year": 2026
+      },
+      {
+        "caseName": "Via Mizner Owner III LLC v. Via Mizner Lender 1 LLC (Mandarin Oriental Residences, Boca Raton)",
+        "year": 2026
+      }
+    ],
+    "securities_fraud_10b5": [
+      {
+        "caseName": "SEC v. W. P. Carey & Co. LLC, et al.",
+        "year": 2008
+      },
+      {
+        "caseName": "In re RAIT Financial Trust Securities Litigation",
+        "year": 2009
+      },
+      {
+        "caseName": "SEC v. United Development Funding III, L.P., United Development Funding IV, et al.",
+        "year": 2018
+      },
+      {
+        "caseName": "In re American Realty Capital Properties, Inc. Litigation (VEREIT/ARCP Securities Litigation)",
+        "year": 2020
+      },
+      {
+        "caseName": "Pirani v. Medical Properties Trust, Inc.",
+        "year": 2024
+      },
+      {
+        "caseName": "Handal v. Innovative Industrial Properties, Inc.",
+        "year": 2025
+      },
+      {
+        "caseName": "Martin v. Arbor Realty Trust, Inc.",
+        "year": 2026
+      }
+    ],
+    "breach_fiduciary_duty_derivative": [
+      {
+        "caseName": "In re Inland Western Retail Real Estate Trust, Inc. Shareholder Litigation",
+        "year": 2010
+      },
+      {
+        "caseName": "Katz v. CommonWealth REIT; Central Laborers' Pension Fund v. CommonWealth REIT (Equity Commonwealth Trustee Litigation)",
+        "year": 2015
+      },
+      {
+        "caseName": "Quinn v. Knight (Apple REIT Ten / Apple Hospitality REIT Derivative Litigation)",
+        "year": 2017
+      },
+      {
+        "caseName": "Milliken v. American Realty Capital Hospitality Advisors, LLC, et al. (Hospitality Investors Trust Shareholder Derivative Litigation)",
+        "year": 2020
+      },
+      {
+        "caseName": "In re Match Group, Inc. Derivative Litigation",
+        "year": 2024
+      },
+      {
+        "caseName": "Kim v. Cedar Realty Trust, Inc.",
+        "year": 2024
+      },
+      {
+        "caseName": "Meyer v. Weil (In re Necessity Retail REIT / AR Global stockholder litigation)",
+        "year": 2024
+      },
+      {
+        "caseName": "Maffei v. Palkon",
+        "year": 2025
+      },
+      {
+        "caseName": "Aquino v. Schanzer",
+        "year": 2026
+      }
+    ],
+    "proxy_disclosure_claim": [
+      {
+        "caseName": "In re Wells Real Estate Investment Trust, Inc. Securities Litigation (Piedmont Office Realty Trust)",
+        "year": 2012
+      },
+      {
+        "caseName": "St. Clair-Hibbard v. American Finance Trust, Inc., et al.",
+        "year": 2019
+      },
+      {
+        "caseName": "In re Lightstone REIT Proxy Litigation (Lightstone Value Plus REIT I, II, and III)",
+        "year": 2026
+      }
+    ],
+    "merger_objection_suit": [
+      {
+        "caseName": "Cole Credit Property Trust III, Inc. Shareholder Litigation",
+        "year": 2013
+      },
+      {
+        "caseName": "In re Government Properties Income Trust / Select Income REIT Merger Litigation (Chen v. Select Income REIT; Schwartz v. Select Income REIT; Sinkula v. Select Income REIT; Scarantino v. Fraiche)",
+        "year": 2018
+      }
+    ],
+    "contractor_breach_negligence": [
+      {
+        "caseName": "CityCenter Holdings, LLC v. Tutor Perini Building Corp. (Harmon Hotel Construction Defect Litigation)",
+        "year": 2014
+      },
+      {
+        "caseName": "Grandview at Riverwalk Port Imperial Condominium Association v. K. Hovnanian at Port Imperial Urban Renewal II, LLC et al.",
+        "year": 2017
+      },
+      {
+        "caseName": "Regalia on the Ocean Condominium Association, Inc. v. Regalia Beach Developers, LLC et al.",
+        "year": 2021
+      },
+      {
+        "caseName": "In re: Champlain Towers South Collapse Litigation",
+        "year": 2022
+      }
+    ],
+    "design_professional_malpractice": [
+      {
+        "caseName": "Clark Construction Group, LLC v. Perkins Eastman DC, PC",
+        "year": 2018
+      },
+      {
+        "caseName": "Trustees of Princeton University v. Tod Williams Billie Tsien Architects, LLP et al.",
+        "year": 2019
+      }
+    ],
+    "indemnification_contribution_claim": [
+      {
+        "caseName": "Kellner v. Advance Cast Stone Co. (Milwaukee Parking Structure Panel Collapse)",
+        "year": 2013
+      }
+    ],
+    "insurance_coverage_defect_dispute": [
+      {
+        "caseName": "Admiral Insurance Co. v. Tocci Building Corp.",
+        "year": 2024
+      },
+      {
+        "caseName": "Cornice & Rose International, LLC v. Acuity",
+        "year": 2024
+      },
+      {
+        "caseName": "Mycon General Contractors, Inc. v. Employers Mutual Casualty Company et al.",
+        "year": 2026
+      }
+    ],
+    "cercla_cost_recovery": [
+      {
+        "caseName": "United States v. Alden Leeds, Inc., et al. (Lower Passaic River Study Area / Diamond Alkali Superfund Site)",
+        "year": 2024
+      },
+      {
+        "caseName": "United States v. NL Industries, Inc., et al. (Raritan Bay Slag Superfund Site)",
+        "year": 2024
+      },
+      {
+        "caseName": "United States v. Boeing Co., City of Seattle, and King County (Lower Duwamish Waterway Superfund Site)",
+        "year": 2026
+      },
+      {
+        "caseName": "United States v. Columbia Falls Aluminum Company, LLC",
+        "year": 2026
+      }
+    ],
+    "cercla_contribution_claim": [
+      {
+        "caseName": "Trinity Industries, Inc. v. Greenlease Holding Co.",
+        "year": 2018
+      },
+      {
+        "caseName": "Walnut Creek Manor, LLC v. Mayhew Center, LLC",
+        "year": 2023
+      },
+      {
+        "caseName": "Barclay Lofts LLC v. PPG Industries, Inc.",
+        "year": 2024
+      }
+    ],
+    "state_cleanup_consent_decree": [
+      {
+        "caseName": "People of the State of California v. Bay Area/Diablo Petroleum Co. (dba Golden Gate Petroleum), et al.",
+        "year": 2023
+      },
+      {
+        "caseName": "New Jersey Dep't of Environmental Protection v. Estate of Kenneth Knapp / Solomon Dwek (Chatsworth Deli site)",
+        "year": 2025
+      },
+      {
+        "caseName": "New Jersey Dep't of Environmental Protection v. Sigma Realty, Inc.",
+        "year": 2025
+      },
+      {
+        "caseName": "New Jersey Dep't of Environmental Protection v. Solvay Specialty Polymers USA, LLC",
+        "year": 2025
+      }
+    ],
+    "environmental_insurance_coverage_dispute": [
+      {
+        "caseName": "Fox Investments LLC v. City of Kaukauna, et al.",
+        "year": 2024
+      },
+      {
+        "caseName": "Travelers Property Casualty Co. of America and St. Paul Fire and Marine Ins. Co. v. Washington Shoppes LP and The Broadbent Co.",
+        "year": 2025
+      },
+      {
+        "caseName": "Regency Centers Corp. v. Indian Harbor Insurance Co.",
+        "year": 2026
+      }
+    ],
+    "just_compensation_valuation": [
+      {
+        "caseName": "State v. Moore Outdoor Properties, LP / Arrington Outdoor of Fort Worth, L.P.",
+        "year": 2013
+      },
+      {
+        "caseName": "State v. Gleannloch Commercial Development, LP",
+        "year": 2019
+      },
+      {
+        "caseName": "City of North Canton v. Julius Brown, LLC",
+        "year": 2025
+      },
+      {
+        "caseName": "North Carolina Department of Transportation v. AJA Investments",
+        "year": 2025
+      }
+    ],
+    "quick_take_challenge": [
+      {
+        "caseName": "Los Angeles County Metropolitan Transportation Authority v. Alameda Produce Market, LLC",
+        "year": 2011
+      },
+      {
+        "caseName": "PKO Ventures, LLC v. Norfolk Redevelopment & Housing Authority (Norva Properties)",
+        "year": 2013
+      },
+      {
+        "caseName": "Medical Acquisition Company, Inc. v. Superior Court (Tri-City Healthcare District)",
+        "year": 2018
+      }
+    ],
+    "pre_condemnation_access_dispute": [
+      {
+        "caseName": "Texas Rice Land Partners, Ltd. v. Denbury Green Pipeline-Texas, LLC",
+        "year": 2012
+      },
+      {
+        "caseName": "Summit Carbon Solutions, LLC v. Malloy",
+        "year": 2025
+      },
+      {
+        "caseName": "In re Elba Express Co., LLC Petitions for Ex Parte Survey Entry",
+        "year": 2026
+      },
+      {
+        "caseName": "PSEG Renewable Transmission LLC v. Arentz Family, LP",
+        "year": 2026
+      }
+    ],
+    "regulatory_taking": [
+      {
+        "caseName": "Arkansas Game & Fish Commission v. United States",
+        "year": 2013
+      },
+      {
+        "caseName": "Lost Tree Village Corp. v. United States",
+        "year": 2015
+      },
+      {
+        "caseName": "DeVillier v. Texas",
+        "year": 2024
+      },
+      {
+        "caseName": "Sheetz v. County of El Dorado, California",
+        "year": 2024
+      }
+    ],
+    "variance_permit_denial_appeal": [
+      {
+        "caseName": "Lockaway Storage v. County of Alameda",
+        "year": 2013
+      },
+      {
+        "caseName": "Sam Commercial Properties LLC v. Town of Mooresville",
+        "year": 2023
+      },
+      {
+        "caseName": "Matter of Franklin Sq. Realty Assoc., LLC v. Board of Appeals of the Town of Hempstead",
+        "year": 2025
+      },
+      {
+        "caseName": "The Smoking Tree LLC (Jacob Schlichter) v. City of Albert Lea",
+        "year": 2026
+      }
+    ],
+    "spot_zoning_challenge": [
+      {
+        "caseName": "Lathan v. Union County Board of Commissioners",
+        "year": 1980
+      },
+      {
+        "caseName": "Allen Distribution v. West Pennsboro Township Zoning Hearing Board",
+        "year": 2020
+      },
+      {
+        "caseName": "Chaffier v. Hellertown Borough Zoning Hearing Board",
+        "year": 2024
+      }
+    ],
+    "section_1983_zoning_claim": [
+      {
+        "caseName": "Town of Orangetown v. Magee",
+        "year": 1996
+      },
+      {
+        "caseName": "City of Monterey v. Del Monte Dunes at Monterey, Ltd.",
+        "year": 1999
+      },
+      {
+        "caseName": "Green Genie, Inc. v. City of Detroit",
+        "year": 2023
+      },
+      {
+        "caseName": "Rubicon Real Estate Holdings, LLC v. City of Pontiac",
+        "year": 2026
+      }
+    ],
+    "development_agreement_breach": [
+      {
+        "caseName": "Mammoth Lakes Land Acquisition, LLC v. Town of Mammoth Lakes",
+        "year": 2010
+      },
+      {
+        "caseName": "Township of Salem v. Miller Penn Development LLC",
+        "year": 2016
+      },
+      {
+        "caseName": "City Heights Holdings LLC v. City of Cle Elum",
+        "year": 2024
+      }
+    ]
+  }
+}
