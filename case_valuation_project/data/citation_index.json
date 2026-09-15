@@ -175,6 +175,22 @@
     ],
     "foreclosure_deficiency_judgment": [
       {
+        "caseName": "Roseleaf Corp. v. Chierighino",
+        "year": 1963
+      },
+      {
+        "caseName": "First Commerce Realty Investors v. K-F Land Co.",
+        "year": 1981
+      },
+      {
+        "caseName": "First Bank v. Fischer & Frichtel, Inc.",
+        "year": 2012
+      },
+      {
+        "caseName": "Black Sky Capital, LLC v. Cobb",
+        "year": 2019
+      },
+      {
         "caseName": "AFF IV 200 Miami LLC v. SRCTD 44-200 LLC and FS Equity Investments II LLC",
         "year": 2026
       },
@@ -193,6 +209,14 @@
     ],
     "receivership_dispute": [
       {
+        "caseName": "McHenry Savings Bank v. Margaret Daniel Trust",
+        "year": 2021
+      },
+      {
+        "caseName": "SKW Hillside Bleecker Lender, LLC v. 145 Bleecker LLC",
+        "year": 2023
+      },
+      {
         "caseName": "Wells Fargo Bank, N.A. (as trustee) v. Hertz Investment Group (Riverfront Plaza)",
         "year": 2025
       },
@@ -205,11 +229,19 @@
         "year": 2026
       },
       {
+        "caseName": "M&T Bank v. 428 Hartford Turnpike Associates, LLP",
+        "year": 2026
+      },
+      {
         "caseName": "U.S. Bank National Association v. Brookfield Republic Plaza LLC",
         "year": 2026
       }
     ],
     "guaranty_enforcement": [
+      {
+        "caseName": "Blue Hills Office Park LLC v. J.P. Morgan Chase Bank",
+        "year": 2007
+      },
       {
         "caseName": "CSFB 2001-CP-4 Princeton Park Corporate Center, LLC v. SB Rental I, LLC",
         "year": 2009
@@ -221,6 +253,10 @@
       {
         "caseName": "Wells Fargo Bank, N.A. v. Cherryland Mall Ltd. Partnership",
         "year": 2011
+      },
+      {
+        "caseName": "CP III Rincon Towers, Inc. v. Cohen",
+        "year": 2016
       },
       {
         "caseName": "Bank Midwest, N.A. v. The Integritty Group",
