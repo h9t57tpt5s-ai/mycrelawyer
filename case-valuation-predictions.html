@@ -3,25 +3,26 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Calculator Methodology — CREdocket</title>
-<meta name="description" content="How the Case Value Calculator estimates litigation exposure: the probability-weighted model, the categories it covers, and the citation-verification standard behind every number." />
+<title>Prediction Registry — CREdocket</title>
+<meta name="description" content="Real Case Value Calculator predictions on real, pending CRE matters, timestamped before the outcome is known, checked against the actual result once each case resolves." />
 <meta property="og:type" content="website" />
 <meta property="og:site_name" content="CREdocket" />
-<meta property="og:title" content="Calculator Methodology — CREdocket" />
-<meta property="og:description" content="How the Case Value Calculator estimates litigation exposure: the probability-weighted model, the categories it covers, and the citation-verification standard behind every number." />
-<meta property="og:url" content="https://credocket.com/case-valuation-methodology.html" />
+<meta property="og:title" content="Prediction Registry — CREdocket" />
+<meta property="og:description" content="Real Case Value Calculator predictions on real, pending CRE matters, timestamped before the outcome is known, checked against the actual result once each case resolves." />
+<meta property="og:url" content="https://credocket.com/case-valuation-predictions.html" />
 <meta property="og:image" content="https://credocket.com/img/og-image.png" />
 <meta property="og:image:width" content="1200" />
 <meta property="og:image:height" content="630" />
 <meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:title" content="Calculator Methodology — CREdocket" />
-<meta name="twitter:description" content="How the Case Value Calculator estimates litigation exposure: the probability-weighted model, the categories it covers, and the citation-verification standard behind every number." />
+<meta name="twitter:title" content="Prediction Registry — CREdocket" />
+<meta name="twitter:description" content="Real Case Value Calculator predictions on real, pending CRE matters, timestamped before the outcome is known, checked against the actual result once each case resolves." />
 <meta name="twitter:image" content="https://credocket.com/img/og-image.png" />
 <link rel="icon" href="img/favicon.svg" type="image/svg+xml" />
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/styles.css" />
+<link rel="stylesheet" href="css/case-valuation.css" />
     <script>
       window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
     </script>
@@ -119,39 +120,30 @@
 <header class="page-header">
   <div class="container">
     <div class="eyebrow reveal in-view">Methodology</div>
-    <h1 class="reveal in-view" style="font-size:clamp(2.2rem,4vw,3.4rem);">Calculator Methodology</h1>
-    <p class="lede mt-16 reveal in-view">How the Case Value Calculator turns a described dispute into a probability-weighted damages range — the model, the categories it covers, and the standard every cited case has to clear before it's allowed to ground a result. This is a separate document from the <a href="methodology.html">tracker's coverage methodology</a>, which explains what makes it into the litigation tracker itself.</p>
+    <h1 class="reveal in-view" style="font-size:clamp(2.2rem,4vw,3.4rem);">Prediction Registry</h1>
+    <p class="lede mt-16 reveal in-view">Real Case Value Calculator output on real, pending matters — logged before the outcome is known, checked against what actually happens once each case resolves. This is the genuine track record our <a href="case-valuation-worked-examples.html">worked examples</a> page said was coming next.</p>
   </div>
 </header>
 
 <section class="section-tight">
-  <div class="container" style="max-width:760px;">
-    <div class="legal-doc reveal">
-
-      <h2>What this is — and isn't</h2>
-      <p>The Case Value Calculator is a structured, rules-based expected-value model: probability of success × damages, summed across every claim identified in your matter, presented as a range rather than a single figure. It is deliberately not a black-box statistical prediction from a licensed litigation-analytics platform, and not a substitute for judicial or arbitral resolution of an actual dispute. Every probability range and every damages range traces back to either a specific, documented legal rule or a real, cited comparable case — never an unexplained number.</p>
-
-      <h2>How an estimate gets built</h2>
-      <p>Three inputs go into every result. First, the facts of your matter — extracted by AI from your own description and any documents you provide, never assumed or filled in. Second, the governing legal framework for your dispute's category and claim type — a documented probability range keyed to the actual legal standard (for example, unpaid rent on a written lease starts from a 90–97% probability range because an undisputed debt is close to open-and-shut, while a tenant's wrongful-lockout claim is driven almost entirely by whether the state allows a landlord to use self-help eviction at all). Third, real, verified comparable cases — actual settlements, judgments, and rulings with their real dollar outcomes, cited directly alongside the range they inform.</p>
-
-      <h2>Categories &amp; claim types covered</h2>
-      <p>The calculator currently models seven practice areas, each broken into the specific claim types a matter in that category might involve: landlord-tenant lease disputes (unpaid rent, accelerated rent, holdover damages, attorney's fees, property damage, wrongful lockout, quiet enjoyment/repair breaches, security deposits), lending &amp; foreclosure (deficiency judgments, receivership, guaranty enforcement, lender-liability claims), REIT &amp; securities (10b-5 securities fraud, breach of fiduciary duty, proxy disclosure, merger objections), construction defect (contractor negligence, design-professional malpractice, indemnification, insurance coverage), environmental (CERCLA cost recovery and contribution, consent decrees, insurance coverage), eminent domain (just-compensation valuation, quick-take challenges, access disputes, regulatory takings), and zoning &amp; land use (variance/permit appeals, spot-zoning challenges, Section 1983 claims, development-agreement breaches).</p>
-
-      <h2>The citation-verification standard</h2>
-      <p>Every case cited in a result has to clear the same bar the litigation tracker itself uses: found through real research, then independently confirmed against an actual source — a court opinion, a docket, or a detailed secondary account from a source we've actually read in full — before it's ever allowed to ground a number. A citation's confidence is shown alongside it: <strong>high</strong> means it was verified against a primary source (the opinion itself, a government filing, a docket); <strong>medium</strong> means it rests on a detailed secondary source rather than the primary text. We do not publish a "low confidence" tier — a case that can't clear at least medium confidence is left out entirely rather than shown with a caveat. No dollar amount, outcome, or holding is ever invented or estimated to fill a gap in what a source actually states.</p>
-
-      <h2>Ongoing expansion</h2>
-      <p>The citation database behind this tool grows daily through an ongoing, automated research process that rotates through every claim type, applying the exact same verification standard described above before anything is added. It is a genuinely different research stream from the litigation tracker's own daily coverage — the tracker curates notable, reader-relevant matters; this research pulls every real, citable case it can verify for each claim type, prioritizing completeness for the model over newsworthiness for a reader.</p>
-
-      <h2>How to read a result</h2>
-      <p>A result is always shown as a range, never a single number, because the underlying uncertainty is real — the probability range reflects how contested that type of claim typically is, and the damages range reflects the real spread across comparable outcomes. Where the tool can compute a best-guess point estimate from your specific facts, it shows that alongside the full range, not instead of it. Claims are broken out individually so you can see exactly which parts of your matter are driving the total, and every citation is a real, clickable link to its actual source — nothing here is provided for you to take on faith.</p>
-      <p>Every result also shows a <strong>case-law coverage</strong> badge for its category — strong, developing, or limited — based on how many independently verified real citations currently back that category. This is deliberately separate from a single citation's own high/medium confidence rating: a category can have several well-verified citations and still be a "limited coverage" category overall if that's all that exists yet. We'd rather a thinly-supported category look thin than have every result look equally authoritative regardless of how much real case law actually stands behind it.</p>
-      <p>Curious what this looks like applied to a real, already-decided case? See our <a href="case-valuation-worked-examples.html">worked examples &rarr;</a> Curious what a genuine, dated prediction looks like on a matter that hasn't resolved yet? See our <a href="case-valuation-predictions.html">prediction registry &rarr;</a></p>
-
-      <h2>Limitations</h2>
-      <p>This tool does not provide legal advice, does not predict the outcome of any specific matter, and is not a substitute for consulting qualified counsel about your actual facts and jurisdiction. Litigation outcomes depend on evidence, procedural posture, the specific judge or arbitrator, and advocacy that no calculator can capture. The underlying model is still being actively refined as more verified case data is incorporated — treat every range as an informed, transparent estimate, not a finished or stable prediction. See our <a href="terms.html">Terms of Service</a> for the governing disclaimers.</p>
-
+  <div class="container" style="max-width:820px;">
+    <div class="card reveal" style="padding:24px; border-style:dashed;">
+      <div class="eyebrow" style="margin-bottom:10px;">How This Is Different From a Worked Example</div>
+      <p class="text-secondary" style="font-size:13.5px; line-height:1.7; margin-bottom:10px;">Our <a href="case-valuation-worked-examples.html">worked examples</a> page applies the documented methodology, by hand, to cases whose outcome we already knew — useful for showing our reasoning, but not evidence of predictive accuracy, since hindsight can make any explanation look tidy.</p>
+      <p class="text-secondary" style="font-size:13.5px; line-height:1.7;">Every entry below is the opposite: the calculator's actual output on a real, currently pending tracked matter, run and published <strong>before</strong> that matter resolved. Each entry is committed to our public, version-controlled site repository the day it's logged — the timestamp isn't just a claim, it's independently checkable in our commit history. When a logged matter actually resolves, we add the real outcome and an honest comparison, whether the prediction held up or didn't.</p>
     </div>
+  </div>
+</section>
+
+<section class="section-tight">
+  <div class="container" style="max-width:820px;">
+    <div class="section-head reveal">
+      <div>
+        <div class="eyebrow">Logged Predictions</div>
+        <h2 style="font-size:clamp(1.4rem,2.2vw,1.9rem);">The record so far</h2>
+      </div>
+    </div>
+    <div id="registry-host"></div>
   </div>
 </section>
 
@@ -160,11 +152,11 @@
     <div class="card cta-photo-card reveal" style="padding:56px; display:flex; align-items:center; justify-content:space-between; gap:32px; flex-wrap:wrap;">
       <div class="cta-photo-bg"><img src="img/photos/office-building.jpg" alt="" aria-hidden="true" loading="lazy" /></div>
       <div>
-        <h2 style="font-size:clamp(1.6rem,2.6vw,2.2rem);">See a sample result</h2>
-        <p class="text-secondary mt-16" style="max-width:480px;">The Case Value Calculator page shows a full worked example, with real cited case law, before you enter a single fact of your own.</p>
+        <h2 style="font-size:clamp(1.6rem,2.6vw,2.2rem);">Try it on your own matter</h2>
+        <p class="text-secondary mt-16" style="max-width:480px;">Describe your case or upload your documents — the same methodology behind every entry above.</p>
       </div>
       <a href="case-valuation.html" class="btn btn-primary">
-        Try the calculator
+        Open the calculator
         <svg viewBox="0 0 24 24" fill="none"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
       </a>
     </div>
@@ -222,22 +214,6 @@
 
 <script src="js/data.js"></script>
 <script>
-  // Defensive retry: js/data.js occasionally fails to load (a transient
-  // network blip, a CDN edge hiccup) leaving RELAW_DATA undefined and
-  // this page silently rendering empty grids / "0 Tracked Matters"
-  // instead of the real, live dataset -- indistinguishable from a
-  // genuinely empty site to a visitor. Flagged 2026-09-14 after this was
-  // spotted live on the tracker page. A single automatic, cache-busted
-  // reload fixes the overwhelming majority of these before a person ever
-  // sees a broken page; sessionStorage caps it at one retry per page per
-  // tab session so a real, persistent failure doesn't reload forever.
-  // Checks both "never loaded at all" (RELAW_DATA undefined) AND
-  // "loaded but suspiciously incomplete" (a truncated/partial transfer
-  // of this 900KB+ file can still parse as valid JS if the cut lands on
-  // a clean array-element boundary, leaving RELAW_DATA defined with only
-  // a handful of cases instead of the real 138+) -- the first version of
-  // this guard only caught the first case, and Jeff hit the second one
-  // live the same day it shipped.
   var _dataBad = typeof RELAW_DATA === "undefined" ||
     !RELAW_DATA.cases || RELAW_DATA.cases.length < 50;
   if (_dataBad) {
@@ -249,6 +225,7 @@
     }
   }
 </script>
+<script src="js/prediction-registry-data.js"></script>
 <script src="js/main.js"></script>
 <script src="js/glossary-tooltip.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script>
@@ -257,5 +234,44 @@
 <script src="js/trending.js"></script>
 <script src="js/search.js"></script>
 <script src="js/motion.js"></script>
+<script>
+  (function () {
+    const host = document.getElementById("registry-host");
+    if (!host) return;
+    const fmt = (n) => n < 0 ? "-$" + Math.round(-n).toLocaleString("en-US") : "$" + Math.round(n).toLocaleString("en-US");
+    const fmtRange = (r) => !r ? "—" : (Math.round(r[0]) === Math.round(r[1]) ? fmt(r[0]) : fmt(r[0]) + " – " + fmt(r[1]));
+
+    const entries = (typeof PREDICTION_REGISTRY !== "undefined" && PREDICTION_REGISTRY.length) ? PREDICTION_REGISTRY : [];
+
+    if (!entries.length) {
+      host.innerHTML = `<div class="card reveal" style="padding:32px; text-align:center;">
+        <p class="text-secondary" style="font-size:14px; line-height:1.7; margin-bottom:8px;"><strong>Nothing logged yet.</strong> This registry was just built. The first entries require a signed-in session running the calculator on a real, currently pending tracked matter — check back soon, or ask us directly for a status update.</p>
+        <p class="text-muted" style="font-size:12.5px;">We'd rather show an honest, empty registry than backfill it with anything less than a genuinely pre-dated prediction.</p>
+      </div>`;
+      return;
+    }
+
+    host.innerHTML = entries.map((e) => {
+      const statusBadge = e.status === "resolved"
+        ? `<span class="detail-tag" style="color:var(--ui-success); border-color:var(--ui-success);">Resolved</span>`
+        : `<span class="detail-tag" style="color:var(--status-pending); border-color:var(--status-pending);">Awaiting outcome</span>`;
+      const outcomeHtml = e.actualOutcome
+        ? `<div class="rule mt-16" style="margin-bottom:12px;"></div>
+           <p class="text-secondary" style="font-size:13px; line-height:1.65;"><strong>Actual outcome (${e.actualOutcome.date || "—"}):</strong> ${e.actualOutcome.summary || ""}${e.actualOutcome.sourceUrl ? ` <a href="${e.actualOutcome.sourceUrl}" target="_blank" rel="noopener" class="text-accent">Source &rarr;</a>` : ""}</p>
+           ${e.analysis ? `<p class="text-secondary" style="font-size:13px; line-height:1.65; margin-top:8px;"><strong>How the prediction compared:</strong> ${e.analysis}</p>` : ""}`
+        : "";
+      return `<div class="card reveal" style="padding:24px; margin-bottom:16px;">
+        <div style="display:flex; align-items:center; justify-content:space-between; gap:12px; flex-wrap:wrap; margin-bottom:8px;">
+          <h3 style="font-size:1.05rem; line-height:1.35;">${e.caseTitle || e.caseId}</h3>
+          ${statusBadge}
+        </div>
+        <div class="tag-row mt-16" style="margin-bottom:12px;"><span class="detail-tag">Predicted ${e.predictedAt}</span><span class="detail-tag">${e.category || ""}</span><span class="detail-tag">${e.side || ""}</span></div>
+        <div class="cv-net" style="font-size:1.6rem;">${fmtRange(e.predictedRange)}</div>
+        ${typeof e.predictedBestGuess === "number" ? `<p class="text-muted" style="font-size:12px;">Best guess: ${fmt(e.predictedBestGuess)}</p>` : ""}
+        ${outcomeHtml}
+      </div>`;
+    }).join("");
+  })();
+</script>
 </body>
 </html>
