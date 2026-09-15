@@ -73,7 +73,36 @@
         "year": 2021
       }
     ],
-    "property_damage": [],
+    "property_damage": [
+      {
+        "caseName": "Zeeman Manufacturing Co. v. L.R. Sams Co.",
+        "year": 1970
+      },
+      {
+        "caseName": "Pointe West Center, LLC v. It's Alive, Inc.",
+        "year": 2015
+      },
+      {
+        "caseName": "Lobell v. Rosenberg (sub nom. 2025 Canal Street, L.L.C. v. Lobell)",
+        "year": 2016
+      },
+      {
+        "caseName": "Boatright v. S-R Plaza, LLC",
+        "year": 2021
+      },
+      {
+        "caseName": "Kimp v. Fire Lake Plaza II, LLC",
+        "year": 2021
+      },
+      {
+        "caseName": "Valco Building and Maintenance Supplies Corp. v. Werwaiss & Co., Inc.",
+        "year": 2023
+      },
+      {
+        "caseName": "Oxford Campus I, LLC v. Michael",
+        "year": 2024
+      }
+    ],
     "wrongful_lockout": [
       {
         "caseName": "Berg v. Wiley",
@@ -93,6 +122,34 @@
       }
     ],
     "quiet_enjoyment_breach": [
+      {
+        "caseName": "American National Bank & Trust Co. of Chicago v. K-Mart Corp.",
+        "year": 1983
+      },
+      {
+        "caseName": "Genesco, Inc. v. Monumental Life Insurance Co. (aff'd sub nom. Jaffe-Spindler Co. v. Genesco, Inc.)",
+        "year": 1983
+      },
+      {
+        "caseName": "Southern Motors, Inc. v. Virginia National Bank (aff'd sub nom. Mullins v. Southern Motors, Inc.)",
+        "year": 1987
+      },
+      {
+        "caseName": "In re Print Harmony, LLC",
+        "year": 2017
+      },
+      {
+        "caseName": "McKinney/Pearl Restaurant Partners, L.P. v. Metropolitan Life Insurance Co.",
+        "year": 2017
+      },
+      {
+        "caseName": "Leeber Realty LLC v. Trustco Bank",
+        "year": 2018
+      },
+      {
+        "caseName": "Whole Foods Market Group, Inc. v. Wical Limited Partnership",
+        "year": 2018
+      },
       {
         "caseName": "Tenants of Mint Urban Infinity Apartments v. Cardinal Group Management, Glendale Properties I & II",
         "year": 2025
