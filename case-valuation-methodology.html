@@ -1,0 +1,259 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Calculator Methodology — CREdocket</title>
+<meta name="description" content="How the Case Value Calculator estimates litigation exposure: the probability-weighted model, the categories it covers, and the citation-verification standard behind every number." />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="CREdocket" />
+<meta property="og:title" content="Calculator Methodology — CREdocket" />
+<meta property="og:description" content="How the Case Value Calculator estimates litigation exposure: the probability-weighted model, the categories it covers, and the citation-verification standard behind every number." />
+<meta property="og:url" content="https://credocket.com/case-valuation-methodology.html" />
+<meta property="og:image" content="https://credocket.com/img/og-image.png" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Calculator Methodology — CREdocket" />
+<meta name="twitter:description" content="How the Case Value Calculator estimates litigation exposure: the probability-weighted model, the categories it covers, and the citation-verification standard behind every number." />
+<meta name="twitter:image" content="https://credocket.com/img/og-image.png" />
+<link rel="icon" href="img/favicon.svg" type="image/svg+xml" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css" />
+    <script>
+      window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
+    </script>
+    <script defer src="/_vercel/insights/script.js"></script>
+  </head>
+<body>
+<a class="skip-link" href="#main-content">Skip to main content</a>
+
+<div class="nav-scrim"></div>
+<nav class="nav">
+  <div class="container">
+    <a href="/" class="brand">
+      <svg class="brand-mark" viewBox="0 0 32 32" fill="none"><path d="M6 26h20M8 26V14M12 26V14M16 26V14M20 26V14M24 26V14M4 14l12-8 12 8" stroke="var(--accent)" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/></svg>
+      <span><span class="brand-accent">CRE</span>docket<small>CRE LITIGATION INTELLIGENCE</small></span>
+    </a>
+    <ul class="nav-links">
+      <li class="nav-item has-dropdown">
+        <a href="tracker-overview.html">Tracker</a>
+        <button class="nav-caret-btn" aria-label="Toggle Tracker submenu" aria-expanded="false">
+          <svg class="nav-caret" viewBox="0 0 24 24" fill="none" width="14" height="14"><path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </button>
+        <div class="nav-dropdown">
+          <a href="litigation.html">All Matters</a>
+          <a href="updates.html?recent=5">Latest Updates</a>
+          <a href="calendar.html">Litigation Calendar</a>
+          <a href="regulatory.html">Regulatory Issues</a>
+          <a href="account.html">Watchlists</a>
+        </div>
+      </li>
+      <li class="nav-item has-dropdown">
+        <a href="directory-overview.html">Directory</a>
+        <button class="nav-caret-btn" aria-label="Toggle Directory submenu" aria-expanded="false">
+          <svg class="nav-caret" viewBox="0 0 24 24" fill="none" width="14" height="14"><path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </button>
+        <div class="nav-dropdown">
+          <a href="judges.html">Judges &amp; Courts</a>
+          <a href="companies.html">Companies &amp; Parties</a>
+          <a href="compare-companies.html">Compare Companies</a>
+        </div>
+      </li>
+      <li class="nav-item has-dropdown">
+        <a href="analysis-overview.html">Analysis</a>
+        <button class="nav-caret-btn" aria-label="Toggle Analysis submenu" aria-expanded="false">
+          <svg class="nav-caret" viewBox="0 0 24 24" fill="none" width="14" height="14"><path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </button>
+        <div class="nav-dropdown">
+          <a href="trends.html">Market Signals</a>
+          <a href="quarterly.html">Quarterly Report</a>
+          <a href="ada-litigation-patterns.html">Litigation Patterns by State</a>
+          <a href="property-types.html">Property Type Insights</a>
+        </div>
+      </li>
+      <li class="nav-item has-dropdown">
+        <a href="tools-overview.html">Tools</a>
+        <button class="nav-caret-btn" aria-label="Toggle Tools submenu" aria-expanded="false">
+          <svg class="nav-caret" viewBox="0 0 24 24" fill="none" width="14" height="14"><path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </button>
+        <div class="nav-dropdown">
+          <div class="nav-dropdown-label">AI-Powered</div>
+          <a href="case-valuation.html">Case Value Calculator (Beta)</a>
+          <a href="lease-clause-redline.html">Lease Clause Redline Checker (Beta)</a>
+          <div class="nav-dropdown-label">Calculators &amp; Reference</div>
+          <a href="lien-deadline-calculator.html">Mechanic's Lien Deadline Calculator</a>
+          <a href="ada-risk-flagging.html">ADA Title III Risk Flagging</a>
+          <a href="premises-liability-checklist.html">Premises Liability Checklist (Manager Edition)</a>
+          <a href="contribute-settlement.html">Contribute a Settlement (Earn Credits)</a>
+        </div>
+      </li>
+      <li class="nav-item has-dropdown">
+        <a href="guides-overview.html">Guides</a>
+        <button class="nav-caret-btn" aria-label="Toggle Guides submenu" aria-expanded="false">
+          <svg class="nav-caret" viewBox="0 0 24 24" fill="none" width="14" height="14"><path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </button>
+        <div class="nav-dropdown">
+          <a href="eviction-guide.html">Commercial Eviction Handbook</a>
+          <a href="premises-liability-guide.html">Premises Liability / Negligence Guide</a>
+          <a href="insurance-risk-posture-guide.html">Insurance &amp; Risk Posture Guide</a>
+          <a href="manager-vs-owner-liability.html">Manager vs. Owner Liability</a>
+          <a href="algorithmic-pricing-manager-guide.html">Algorithmic Pricing: A Manager's Guide</a>
+          <a href="state-guides.html">State-by-State Guides</a>
+        </div>
+      </li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <div class="nav-cta">
+      <div id="auth-nav-slot" class="auth-nav-slot"></div>
+      <button class="nav-toggle" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</nav>
+<main id="main-content" tabindex="-1">
+
+
+<header class="page-header">
+  <div class="container">
+    <div class="eyebrow reveal in-view">Methodology</div>
+    <h1 class="reveal in-view" style="font-size:clamp(2.2rem,4vw,3.4rem);">Calculator Methodology</h1>
+    <p class="lede mt-16 reveal in-view">How the Case Value Calculator turns a described dispute into a probability-weighted damages range — the model, the categories it covers, and the standard every cited case has to clear before it's allowed to ground a result. This is a separate document from the <a href="methodology.html">tracker's coverage methodology</a>, which explains what makes it into the litigation tracker itself.</p>
+  </div>
+</header>
+
+<section class="section-tight">
+  <div class="container" style="max-width:760px;">
+    <div class="legal-doc reveal">
+
+      <h2>What this is — and isn't</h2>
+      <p>The Case Value Calculator is a structured, rules-based expected-value model: probability of success × damages, summed across every claim identified in your matter, presented as a range rather than a single figure. It is deliberately not a black-box statistical prediction from a licensed litigation-analytics platform, and not a substitute for judicial or arbitral resolution of an actual dispute. Every probability range and every damages range traces back to either a specific, documented legal rule or a real, cited comparable case — never an unexplained number.</p>
+
+      <h2>How an estimate gets built</h2>
+      <p>Three inputs go into every result. First, the facts of your matter — extracted by AI from your own description and any documents you provide, never assumed or filled in. Second, the governing legal framework for your dispute's category and claim type — a documented probability range keyed to the actual legal standard (for example, unpaid rent on a written lease starts from a 90–97% probability range because an undisputed debt is close to open-and-shut, while a tenant's wrongful-lockout claim is driven almost entirely by whether the state allows a landlord to use self-help eviction at all). Third, real, verified comparable cases — actual settlements, judgments, and rulings with their real dollar outcomes, cited directly alongside the range they inform.</p>
+
+      <h2>Categories &amp; claim types covered</h2>
+      <p>The calculator currently models seven practice areas, each broken into the specific claim types a matter in that category might involve: landlord-tenant lease disputes (unpaid rent, accelerated rent, holdover damages, attorney's fees, property damage, wrongful lockout, quiet enjoyment/repair breaches, security deposits), lending &amp; foreclosure (deficiency judgments, receivership, guaranty enforcement, lender-liability claims), REIT &amp; securities (10b-5 securities fraud, breach of fiduciary duty, proxy disclosure, merger objections), construction defect (contractor negligence, design-professional malpractice, indemnification, insurance coverage), environmental (CERCLA cost recovery and contribution, consent decrees, insurance coverage), eminent domain (just-compensation valuation, quick-take challenges, access disputes, regulatory takings), and zoning &amp; land use (variance/permit appeals, spot-zoning challenges, Section 1983 claims, development-agreement breaches).</p>
+
+      <h2>The citation-verification standard</h2>
+      <p>Every case cited in a result has to clear the same bar the litigation tracker itself uses: found through real research, then independently confirmed against an actual source — a court opinion, a docket, or a detailed secondary account from a source we've actually read in full — before it's ever allowed to ground a number. A citation's confidence is shown alongside it: <strong>high</strong> means it was verified against a primary source (the opinion itself, a government filing, a docket); <strong>medium</strong> means it rests on a detailed secondary source rather than the primary text. We do not publish a "low confidence" tier — a case that can't clear at least medium confidence is left out entirely rather than shown with a caveat. No dollar amount, outcome, or holding is ever invented or estimated to fill a gap in what a source actually states.</p>
+
+      <h2>Ongoing expansion</h2>
+      <p>The citation database behind this tool grows daily through an ongoing, automated research process that rotates through every claim type, applying the exact same verification standard described above before anything is added. It is a genuinely different research stream from the litigation tracker's own daily coverage — the tracker curates notable, reader-relevant matters; this research pulls every real, citable case it can verify for each claim type, prioritizing completeness for the model over newsworthiness for a reader.</p>
+
+      <h2>How to read a result</h2>
+      <p>A result is always shown as a range, never a single number, because the underlying uncertainty is real — the probability range reflects how contested that type of claim typically is, and the damages range reflects the real spread across comparable outcomes. Where the tool can compute a best-guess point estimate from your specific facts, it shows that alongside the full range, not instead of it. Claims are broken out individually so you can see exactly which parts of your matter are driving the total, and every citation is a real, clickable link to its actual source — nothing here is provided for you to take on faith.</p>
+
+      <h2>Limitations</h2>
+      <p>This tool does not provide legal advice, does not predict the outcome of any specific matter, and is not a substitute for consulting qualified counsel about your actual facts and jurisdiction. Litigation outcomes depend on evidence, procedural posture, the specific judge or arbitrator, and advocacy that no calculator can capture. The underlying model is still being actively refined as more verified case data is incorporated — treat every range as an informed, transparent estimate, not a finished or stable prediction. See our <a href="terms.html">Terms of Service</a> for the governing disclaimers.</p>
+
+    </div>
+  </div>
+</section>
+
+<section class="section-tight">
+  <div class="container">
+    <div class="card cta-photo-card reveal" style="padding:56px; display:flex; align-items:center; justify-content:space-between; gap:32px; flex-wrap:wrap;">
+      <div class="cta-photo-bg"><img src="img/photos/office-building.jpg" alt="" aria-hidden="true" loading="lazy" /></div>
+      <div>
+        <h2 style="font-size:clamp(1.6rem,2.6vw,2.2rem);">See a sample result</h2>
+        <p class="text-secondary mt-16" style="max-width:480px;">The Case Value Calculator page shows a full worked example, with real cited case law, before you enter a single fact of your own.</p>
+      </div>
+      <a href="case-valuation.html" class="btn btn-primary">
+        Try the calculator
+        <svg viewBox="0 0 24 24" fill="none"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="newsletter-band">
+  <div class="container">
+    <div class="newsletter-card">
+      <div class="newsletter-embed">
+        <script async src="https://subscribe-forms.beehiiv.com/v3/loader.js" data-beehiiv-form="6fe66572-cbbf-4d3d-9c0e-1aafbf2857ca"></script>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-col">
+        <a href="/" class="brand" style="margin-bottom:14px;">
+          <svg class="brand-mark" viewBox="0 0 32 32" fill="none"><path d="M6 26h20M8 26V14M12 26V14M16 26V14M20 26V14M24 26V14M4 14l12-8 12 8" stroke="var(--accent)" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/></svg>
+          <span><span class="brand-accent">CRE</span>docket</span>
+        </a>
+        <p style="max-width:280px;">Litigation intelligence for commercial real estate owners, managers, developers, and REITs.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Navigate</h4>
+        <a href="tracker-overview.html">Tracker</a>
+        <a href="directory-overview.html">Directory</a>
+        <a href="analysis-overview.html">Analysis</a>
+        <a href="tools-overview.html">Tools</a>
+        <a href="guides-overview.html">Guides</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <div class="footer-col">
+        <h4>Legal</h4>
+        <a href="privacy.html">Privacy Policy</a>
+        <a href="terms.html">Terms of Service</a>
+        <a href="methodology.html">Methodology</a>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <a href="contact.html">Contact form</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span data-year></span> CREdocket. Litigation intelligence sourced from ongoing legal research.</span>
+      <span>Not legal advice. For informational purposes only.</span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/data.js"></script>
+<script>
+  // Defensive retry: js/data.js occasionally fails to load (a transient
+  // network blip, a CDN edge hiccup) leaving RELAW_DATA undefined and
+  // this page silently rendering empty grids / "0 Tracked Matters"
+  // instead of the real, live dataset -- indistinguishable from a
+  // genuinely empty site to a visitor. Flagged 2026-09-14 after this was
+  // spotted live on the tracker page. A single automatic, cache-busted
+  // reload fixes the overwhelming majority of these before a person ever
+  // sees a broken page; sessionStorage caps it at one retry per page per
+  // tab session so a real, persistent failure doesn't reload forever.
+  // Checks both "never loaded at all" (RELAW_DATA undefined) AND
+  // "loaded but suspiciously incomplete" (a truncated/partial transfer
+  // of this 900KB+ file can still parse as valid JS if the cut lands on
+  // a clean array-element boundary, leaving RELAW_DATA defined with only
+  // a handful of cases instead of the real 138+) -- the first version of
+  // this guard only caught the first case, and Jeff hit the second one
+  // live the same day it shipped.
+  var _dataBad = typeof RELAW_DATA === "undefined" ||
+    !RELAW_DATA.cases || RELAW_DATA.cases.length < 50;
+  if (_dataBad) {
+    var _ddk = "credocket_data_retry_" + location.pathname;
+    var _ddTries = parseInt(sessionStorage.getItem(_ddk) || "0", 10);
+    if (_ddTries < 2) {
+      sessionStorage.setItem(_ddk, String(_ddTries + 1));
+      location.reload();
+    }
+  }
+</script>
+<script src="js/main.js"></script>
+<script src="js/glossary-tooltip.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script>
+<script src="js/supabase-client.js"></script>
+<script src="js/auth.js"></script>
+<script src="js/trending.js"></script>
+<script src="js/search.js"></script>
+<script src="js/motion.js"></script>
+</body>
+</html>
