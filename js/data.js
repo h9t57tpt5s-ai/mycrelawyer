@@ -16,7 +16,7 @@ const RELAW_DATA = {
      Drives the homepage's "New Today" pill: it only shows when this
      equals the visitor's local today. Updated by the digest automation
      each time Step 4 successfully adds a case — never touched otherwise. */
-  lastUpdatedDate: "2026-09-14",
+  lastUpdatedDate: "2026-09-15",
   categories: [
     { id: "landlord-tenant", label: "Landlord–Tenant", color: "var(--cat-landlord)" },
     { id: "zoning-land-use", label: "Zoning & Land Use", color: "var(--cat-zoning)" },
@@ -3950,6 +3950,69 @@ const RELAW_DATA = {
         { when: "February 2, 2026", label: "Wyoming Supreme Court reverses, reviving all claims and remanding to the district court", current: true }
       ],
       judge: "Bridget Hill"
+    },
+    {
+      id: "live-139",
+      addedDate: "2026-09-15",
+      title: "NVR, Inc. v. Osprey Point Preserve, LLC (Lot-Purchase Agreement Breach Over Unbuilt Marina Amenities)",
+      category: "zoning-land-use",
+      status: "ruling",
+      date: "2026-08-19",
+      jurisdiction: "Delaware Court of Chancery",
+      state: "DE",
+      amount: "Marina parcel disputed at $9M asking price",
+      source: "live",
+      sourceUrl: "https://courts.delaware.gov/opinions/download.aspx?id=399990",
+      summary: "Delaware Vice Chancellor Bonnie W. David ruled on August 19, 2026 that homebuilder NVR, Inc., not land developer Osprey Point Preserve, LLC, breached the parties' 2018 lot-purchase agreement for a Sussex County community by unreasonably withholding approval of a revised site plan. The court held OPP validly terminated the agreement after NVR defaulted on additional lot purchases, entering judgment for OPP on both of NVR's claims and on OPP's breach-of-contract counterclaim, while confirming OPP retains ownership of the community's still-unbuilt marina parcel.",
+      significance: "A rare instance of a national homebuilder, rather than a land developer, found to have breached a development agreement, illustrating how Delaware's expedited Chancery process tests 'reasonable approval' covenants once a project's amenity costs escalate. Developers and builders negotiating site-plan approval rights in lot-purchase agreements should treat the ruling as a caution that courts will scrutinize actual conduct, not just contractual leverage, when assigning blame for a stalled project.",
+      body: [
+        "A Delaware Court of Chancery judge has ruled that homebuilding giant NVR, Inc. — not the land developer it sued — breached the contract governing a Sussex County residential community, in a decision that reshuffles a long-running dispute over amenities that never got built. In an August 19, 2026 post-trial opinion, Vice Chancellor Bonnie W. David found that NVR, which builds under the NV Homes brand, unreasonably withheld approval of a revised site plan submitted by developer Osprey Point Preserve, LLC, and that OPP therefore validly terminated the parties' lot-purchase agreement after NVR fell into default on additional lot purchases. The ruling matters well beyond the Rehoboth Beach-area community at the center of it: it is a rare instance of a national homebuilder, rather than a land developer, being found to have breached a development agreement, and it offers a concrete illustration of how reasonable-approval obligations get tested when a project's economics sour.",
+        "The dispute traces back to a June 4, 2018 Agreement of Sale under which NVR agreed to purchase and build homes on land that OPP was entitled to develop after obtaining rezoning for the Osprey Point community. As part of that bargain, OPP committed to constructing a package of resort-style amenities, including a marina, kayak launch and storage, and a bulkhead community beach, and eventually conveying that acreage to the community's homeowners association. Marketing materials for Osprey Point prominently featured those amenities, and residents who bought homes in the community have said the promised marina and beachfront access were central to their purchase decisions. Years later, with the amenities still undelivered, buyer frustration escalated into a second, parallel piece of litigation: a group of Osprey Point homeowners suing NVR directly over the gap between what was marketed and what was built.",
+        "The Chancery Court case decided in August, however, was NVR's own lawsuit against its development partner, not the homeowners' suit. NVR filed a 27-page complaint in Delaware's Court of Chancery in May 2026, alleging that OPP was violating the parties' agreement by refusing to finalize a site plan that NVR said it needed to move the project, and the promised amenity conveyance, forward. NVR sought expedited treatment, which the court granted, fast-tracking a trial given the potential harm to residents still waiting on their promised waterfront access. NVR's complaint sought an order of specific performance requiring OPP to withdraw its site plan, give NVR a chance to approve a revised version, and then resubmit it. The relationship had also frayed over money: OPP had offered to sell NVR the 1.1-acre marina parcel for $9 million, a price NVR's litigation called exorbitant, while OPP maintained it had never agreed to simply hand the marina land to the homeowners association without compensation.",
+        "At trial, the evidence cut against NVR's framing of the dispute. Vice Chancellor David found that OPP had, in fact, delivered lots with functioning utility hookups by June 2025, but that NVR continued refusing to purchase them, conduct the court treated as a default under the lot-purchase agreement rather than a legitimate response to any developer shortfall. On the central site-plan dispute, the court concluded that NVR, not OPP, was the party that breached the agreement, by unreasonably withholding its approval of OPP's revised site plan rather than engaging with it as the contract required. Because NVR was in default, the court held, OPP's January 2026 termination of the lot-purchase agreement was valid, and it entered judgment for OPP on both of NVR's claims and on OPP's own breach-of-contract counterclaim. The opinion also confirmed that OPP retains ownership of the marina parcel and never agreed to convey it to the homeowners association on the terms NVR's suit assumed, though the court was careful to note its ruling neither orders nor approves construction of the marina itself, since OPP has not yet obtained the regulatory permits a marina would require.",
+        "For real estate developers, homebuilders, and their counsel, the decision is a useful data point on how Delaware's Court of Chancery evaluates reasonableness covenants in land-development contracts, particularly where a builder's approval rights over a developer's site plan become a bargaining chip once a project's amenity costs balloon. It also underscores that expedited Chancery proceedings, typically associated with M&A and corporate-governance disputes, are equally available, and equally fast, in real estate land-use contract fights when a court finds residents' interests are at stake. Homeowners in Osprey Point, meanwhile, are left exactly where they started: their separate suit against NVR over the same undelivered amenities remains pending, unaffected by a ruling that resolved only the contractual blame-shifting between the builder and the developer, not who ultimately has to pay to finish the marina.",
+        "The upshot for anyone drafting or litigating similar agreements is that courts will look at conduct over time rather than assume approval rights automatically favor whichever party holds more leverage at signing, so builders and developers should confirm that amenity-conveyance promises made in marketing materials are actually captured in the operative purchase and site-plan documents rather than left as a side understanding, since a marina rendered in a sales brochure carries little legal weight if the governing agreement does not clearly obligate its construction or conveyance on defined terms. Parties considering Delaware's expedited Chancery track should also weigh that speed accelerates a case's resolution without improving the underlying facts, as NVR's own experience shows, and that a builder walking away from continued lot purchases on the theory that a developer has fallen short risks being found in default itself if the developer can show it kept performing under the contract."
+      ],
+      tags: ["land development", "lot purchase agreement", "homebuilder", "site plan", "delaware chancery"],
+      timeline: [
+        { when: "June 4, 2018", label: "NVR and Osprey Point Preserve sign the Agreement of Sale / lot-purchase agreement" },
+        { when: "June 2025", label: "OPP delivers lots with utility hookups; NVR continues refusing to purchase them" },
+        { when: "January 2026", label: "OPP terminates the lot-purchase agreement, citing NVR's default" },
+        { when: "May 2026", label: "NVR sues OPP in Delaware Court of Chancery, seeking expedited trial" },
+        { when: "August 19, 2026", label: "Vice Chancellor David rules NVR, not OPP, breached the agreement; enters judgment for OPP", current: true }
+      ],
+      judge: "Bonnie W. David"
+    },
+    {
+      id: "live-140",
+      addedDate: "2026-09-15",
+      title: "Landesbank Hessen-Thüringen Girozentrale v. 29 West 34 Owner LLC (Herald Square Foreclosure Settlement)",
+      category: "lending-foreclosure",
+      status: "settled",
+      date: "2026-08-05",
+      jurisdiction: "Supreme Court of the State of New York, New York County",
+      state: "NY",
+      amount: "$50M mortgage; over $12M in alleged unpaid property taxes",
+      source: "live",
+      sourceUrl: "https://therealdeal.com/new-york/2026/08/07/jeff-sutton-regains-control-of-herald-square-property/",
+      summary: "German lender Helaba (Landesbank Hessen-Thüringen Girozentrale) exited its foreclosure lawsuit against Jeff Sutton's 29 West 34 Owner LLC after assigning its $50 million mortgage on the Herald Square retail property to a new lender entity tied to an SL Green executive. On August 5, 2026, the parties signed a stipulation discharging the court-appointed receiver and returning control of the building to Sutton, pending sign-off from Justice Francis A. Kahn III.",
+      significance: "Shows lenders increasingly exiting contested CRE foreclosures by selling the distressed debt to specialized buyers rather than litigating to a forced sale, particularly where the collateral remains a desirable, occupied asset in a strong retail corridor. Illustrates that an aggressive borrower defense can extend a foreclosure timeline long enough for a debt sale or negotiated settlement to become the more attractive exit for a lender than a contested auction.",
+      body: [
+        "A high-profile foreclosure lawsuit over one of Herald Square's most visible retail properties has come to a close, not with a courthouse auction but with a negotiated exit. Landesbank Hessen-Thüringen Girozentrale, the German lender known as Helaba, has withdrawn from litigation it filed in New York County Supreme Court against 29 West 34 Owner LLC, an entity controlled by veteran Manhattan retail landlord Jeff Sutton of Wharton Properties. On August 5, 2026, attorneys for 29 West 34 Owner LLC, a new lender group, and the court-appointed receiver signed a stipulation settling the case, discharging receiver Ian Lagowitz and returning operational control of the 29 West 34th Street retail building to Sutton's ownership entity, pending sign-off from Justice Francis A. Kahn III, who presides over Part 32, the mortgage foreclosure and auction part of the New York County Supreme Court's Civil Term.",
+        "The foreclosure action, filed under index number 850386/2025, traced back to a $50 million mortgage Helaba originated on the property in 2018. Trouble surfaced in early 2025, when the lender issued formal notices of default alleging that Sutton's ownership entity had failed to pay more than $12 million in real estate taxes owed to New York City on the building, a lapse serious enough to put the loan, and the property, at risk. Helaba filed its foreclosure complaint on September 4, 2025, and the court appointed Ian Lagowitz as receiver to take over collection of rents and management of the property while the litigation proceeded. Sutton did not go quietly: by late December 2025, his side was pushing back hard, seeking sanctions against the lender and contesting the foreclosure on multiple fronts, turning what began as a straightforward tax-default foreclosure into a protracted, adversarial fight playing out over nearly a year.",
+        "The turning point came not from a ruling on the merits but from a change in who held the debt. Court records filed July 17, 2026 showed that Helaba had assigned its $50 million mortgage package to a newly formed entity, 29 W. 34th Street Holdings LLC, which almost immediately reassigned the debt again to 29 W. 34th Street Lender LLC. Financial disclosures connected to the transaction identified Andrew S. Levine, SL Green Realty's chief legal officer, as an executive vice president of the holding entity, signaling that a sophisticated New York real estate player, rather than the original German bank, had effectively taken over the lender's position and, with it, the path toward resolving the dispute. Within roughly three weeks of that assignment, the parties reached the stipulation ending the case: the receivership terminated, and Sutton's ownership entity regained the property without the forced sale or credit bid that a contested foreclosure judgment can produce.",
+        "For a lender, exiting litigation by selling the underlying debt to a specialized buyer, rather than pursuing a foreclosure judgment and auction to conclusion, is an increasingly common workout tool when a loan's tax-default posture is curable and the collateral remains a desirable, occupied asset in a strong retail corridor. Herald Square's 34th Street retail strip has held up better than many Manhattan office and secondary retail submarkets through this cycle, giving Sutton's side leverage that a landlord facing foreclosure on a distressed or half-vacant building typically lacks. The identity of the ultimate buyer of the debt, tied to a senior SL Green executive acting in an affiliated capacity rather than through SL Green itself, also illustrates how distressed CRE debt increasingly changes hands among a small, overlapping circle of New York real estate professionals who see value in taking over a workout directly rather than letting an original institutional lender see it through to a contested auction.",
+        "The case is a reminder that a foreclosure filing, even one grounded in a real and substantial default such as millions of dollars in unpaid property taxes, does not inevitably end in a lost asset for the borrower. Litigation posture, receivership, and the identity of the party holding the note can all shift meaningfully over the life of a case, and an aggressive defense, including the sanctions motion Sutton's team pursued, can extend the timeline long enough for a debt sale or refinancing to become the more attractive exit for a lender than continued litigation. Borrowers facing a tax-driven default should nonetheless move quickly to cure or negotiate, since the underlying default that triggers a foreclosure filing does not disappear on its own; here it took a change in lender, not a change in the tax arrears, to unlock the settlement, and landlords and asset managers tracking counterparties in distressed New York retail debt should treat the deal as a signal that qualified private buyers are actively acquiring assigned mortgage positions on marquee Manhattan retail collateral, with receivership proving to be a disruptive but not necessarily final chapter for a well-located, income-producing asset."
+      ],
+      tags: ["foreclosure", "cmbs-adjacent", "retail", "receivership", "new york"],
+      timeline: [
+        { when: "2018", label: "Helaba originates a $50M mortgage on 29 West 34th Street" },
+        { when: "Early 2025", label: "Helaba issues formal notices of default over unpaid real estate taxes" },
+        { when: "September 4, 2025", label: "Helaba files foreclosure action; court appoints Ian Lagowitz as receiver" },
+        { when: "July 17, 2026", label: "Helaba assigns the mortgage to a new lender entity tied to SL Green's chief legal officer" },
+        { when: "August 5, 2026", label: "Parties stipulate to settle; receiver discharged, control returned to Sutton", current: true }
+      ],
+      judge: "Francis A. Kahn III"
     }
   ],
 
@@ -4362,7 +4425,8 @@ const RELAW_DATA = {
     { jurisdiction: "U.S. District Court, Eastern District of California", url: "https://www.caed.uscourts.gov/" },
     { jurisdiction: "U.S. District Court, Central District of California", url: "https://www.cacd.uscourts.gov/" },
     { jurisdiction: "U.S. District Court, District of Maine", url: "https://www.med.uscourts.gov/" },
-    { jurisdiction: "Supreme Court of Wyoming", url: "https://www.wyocourts.gov/supreme-court/" }
+    { jurisdiction: "Supreme Court of Wyoming", url: "https://www.wyocourts.gov/supreme-court/" },
+    { jurisdiction: "Delaware Court of Chancery", url: "https://courts.delaware.gov/chancery/" }
   ],
 
   /* Judges — background on every judge named in our sourced reporting (never
@@ -4658,6 +4722,14 @@ const RELAW_DATA = {
       court: "Supreme Court of Wyoming",
       background: "Appointed to the Wyoming Supreme Court by Governor Mark Gordon and sworn in May 28, 2025, filling the seat vacated by the retirement of Chief Justice Kate Fox. Previously served as Wyoming Attorney General from 2019 to 2025 and as Director of the Wyoming Office of State Lands and Investments from 2013 to 2018.",
       bioUrl: "https://www.wyocourts.gov/supreme-court/"
+    },
+    {
+      name: "Bonnie W. David",
+      slug: "bonnie-w-david",
+      title: "Vice Chancellor",
+      court: "Delaware Court of Chancery",
+      background: "Sworn in as Vice Chancellor of the Delaware Court of Chancery on January 7, 2025 after nomination by Gov. John Carney, following nearly two years of service as a Magistrate in Chancery. Previously a litigator at Skadden, Arps, Slate, Meagher & Flom focused on deal litigation, corporate statutory proceedings, and contract disputes, and clerked in the Court of Chancery for Vice Chancellor Sam Glasscock III immediately after law school.",
+      bioUrl: "https://courts.delaware.gov/forms/download.aspx?id=275388"
     }
   ],
 
