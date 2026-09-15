@@ -103,6 +103,24 @@
   // but never previously rendered anywhere) so a thinly-supported cite
   // doesn't look identical to a well-corroborated one.
   const CONFIDENCE_COLOR = { high: "var(--ui-success)", medium: "var(--ui-warning)", low: "var(--ui-danger)" };
+
+  // Coverage tier badge (2026-09-15) -- how many independently verified
+  // real citations exist for the WHOLE category, not any one claim's
+  // confidence. A thin category (few real comparables yet) should read
+  // as thin, not silently look as authoritative as a well-covered one.
+  // Tiers/thresholds come straight from the backend's citationCoverage
+  // field (see citationCoverageTier() in case-valuation-analyze/index.ts)
+  // -- keep these two label maps in sync with that function's cuts.
+  const COVERAGE_LABEL = { strong: "Strong case-law coverage", developing: "Developing case-law coverage", limited: "Limited case-law coverage", none: "No verified citations yet" };
+  const COVERAGE_COLOR = { strong: "var(--ui-success)", developing: "var(--status-pending)", limited: "var(--ui-warning)", none: "var(--ui-danger)" };
+  function coverageBadgeHtml(coverage) {
+    if (!coverage || !coverage.tier) return "";
+    const label = COVERAGE_LABEL[coverage.tier] || coverage.tier;
+    const color = COVERAGE_COLOR[coverage.tier] || "var(--text-muted)";
+    const n = coverage.count || 0;
+    return `<span class="detail-tag" style="color:${color}; border-color:${color};" title="${n} independently verified real case${n === 1 ? "" : "s"} currently back this category — grows daily as new citations are verified">${label} (${n} verified case${n === 1 ? "" : "s"})</span>`;
+  }
+
   function citationHtml(cit) {
     const href = cit.sourceUrl || cit.url;
     return `
@@ -485,6 +503,7 @@
       ${a.categoryLabel ? `<span class="detail-tag">Category: ${a.categoryLabel}</span>` : ""}
       ${stateName ? `<span class="detail-tag">Jurisdiction: ${stateName}</span>` : `<span class="detail-tag" style="color:var(--ui-warning);">Jurisdiction: not stated</span>`}
       ${a.roleLabel ? `<span class="detail-tag">Your side: ${a.roleLabel}</span>` : ""}
+      ${coverageBadgeHtml(a.citationCoverage)}
     </div>`;
     const issuesHtml = (a.issues || []).length
       ? `<div class="eyebrow" style="margin:20px 0 8px;">Claim-by-Claim Detail</div><div class="cv-claims">${a.issues.map(issueResultHtml).join("")}</div>`

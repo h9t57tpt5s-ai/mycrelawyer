@@ -1181,6 +1181,21 @@ function collectCategoryCitationPool(category: string, data: CaseData) {
   return pool;
 }
 
+// Coverage tier for the frontend's "how well-supported is this number"
+// indicator (2026-09-15, per Jeff: don't let a thin category look as
+// authoritative as a well-covered one). Thresholds calibrated against
+// the real distribution across the 7 categories the day this shipped
+// (10-25 unique citations/category) -- revisit as the daily
+// citation-research automation (see case_valuation_project/data/
+// citation_index.json) grows coverage over time; these aren't
+// permanent, just a reasonable starting cut of the real spread.
+function citationCoverageTier(count: number): "none" | "limited" | "developing" | "strong" {
+  if (count === 0) return "none";
+  if (count <= 11) return "limited";
+  if (count <= 19) return "developing";
+  return "strong";
+}
+
 function fmtMoney(n: number): string {
   return n < 0 ? "-$" + Math.round(-n).toLocaleString("en-US") : "$" + Math.round(n).toLocaleString("en-US");
 }
@@ -2198,6 +2213,12 @@ Deno.serve(async (req) => {
         roleLabel,
         category,
         categoryLabel: evalResult.categoryLabel,
+        // How well-supported this category's estimate is by real, verified
+        // case law, distinct from confidence on any one citation -- lets
+        // the frontend flag a thinly-covered category honestly instead of
+        // it looking as authoritative as a well-covered one. See
+        // citationCoverageTier() and collectCategoryCitationPool() above.
+        citationCoverage: { count: citationPool.length, tier: citationCoverageTier(citationPool.length) },
         issues,
         citedCases: [...allCitedMap.values()],
         baseline: {
