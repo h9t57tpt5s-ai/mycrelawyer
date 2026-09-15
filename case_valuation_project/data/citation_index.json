@@ -327,12 +327,28 @@
     ],
     "proxy_disclosure_claim": [
       {
+        "caseName": "In re Piedmont Office Realty Trust, Inc. Securities Litigation",
+        "year": 2012
+      },
+      {
         "caseName": "In re Wells Real Estate Investment Trust, Inc. Securities Litigation (Piedmont Office Realty Trust)",
         "year": 2012
       },
       {
         "caseName": "St. Clair-Hibbard v. American Finance Trust, Inc., et al.",
         "year": 2019
+      },
+      {
+        "caseName": "Marchese v. Bluerock Residential Growth REIT, Inc., et al.",
+        "year": 2022
+      },
+      {
+        "caseName": "Garfield v. Bohjalian, et al. (AIR Communities / Blackstone merger)",
+        "year": 2024
+      },
+      {
+        "caseName": "Ayer v. Lightstone Value Plus REIT I, Inc., et al.",
+        "year": 2025
       },
       {
         "caseName": "In re Lightstone REIT Proxy Litigation (Lightstone Value Plus REIT I, II, and III)",
@@ -469,12 +485,32 @@
     ],
     "insurance_coverage_defect_dispute": [
       {
+        "caseName": "Lamar Homes, Inc. v. Mid-Continent Casualty Co.",
+        "year": 2007
+      },
+      {
+        "caseName": "Greystone Construction, Inc. v. National Fire & Marine Insurance Co.",
+        "year": 2011
+      },
+      {
+        "caseName": "Ohio Northern University v. Charles Construction Services, Inc.",
+        "year": 2018
+      },
+      {
+        "caseName": "Acuity v. M/I Homes of Chicago, LLC",
+        "year": 2023
+      },
+      {
         "caseName": "Admiral Insurance Co. v. Tocci Building Corp.",
         "year": 2024
       },
       {
         "caseName": "Cornice & Rose International, LLC v. Acuity",
         "year": 2024
+      },
+      {
+        "caseName": "Twigg v. Admiral Insurance Co.",
+        "year": 2025
       },
       {
         "caseName": "Mycon General Contractors, Inc. v. Employers Mutual Casualty Company et al.",
@@ -501,8 +537,28 @@
     ],
     "cercla_contribution_claim": [
       {
+        "caseName": "Cooper Industries, Inc. v. Aviall Services, Inc.",
+        "year": 2004
+      },
+      {
+        "caseName": "United States v. Atlantic Research Corp.",
+        "year": 2007
+      },
+      {
+        "caseName": "Niagara Mohawk Power Corp. v. Chevron U.S.A., Inc.",
+        "year": 2010
+      },
+      {
+        "caseName": "Hobart Corp. v. Waste Management of Ohio, Inc.",
+        "year": 2014
+      },
+      {
         "caseName": "Trinity Industries, Inc. v. Greenlease Holding Co.",
         "year": 2018
+      },
+      {
+        "caseName": "Territory of Guam v. United States",
+        "year": 2021
       },
       {
         "caseName": "Walnut Creek Manor, LLC v. Mayhew Center, LLC",
@@ -533,8 +589,28 @@
     ],
     "environmental_insurance_coverage_dispute": [
       {
+        "caseName": "Claussen v. Aetna Casualty & Surety Co.",
+        "year": 1989
+      },
+      {
+        "caseName": "Morton International, Inc. v. General Accident Insurance Co. of America",
+        "year": 1993
+      },
+      {
+        "caseName": "American States Insurance Co. v. Koloms",
+        "year": 1997
+      },
+      {
+        "caseName": "Northville Industries Corp. v. National Union Fire Insurance Co. of Pittsburgh, PA",
+        "year": 1997
+      },
+      {
         "caseName": "Fox Investments LLC v. City of Kaukauna, et al.",
         "year": 2024
+      },
+      {
+        "caseName": "Travelers Property Casualty Co. of America & St. Paul Fire and Marine Ins. Co. v. The Broadbent Company, Inc. and Washington Shoppes LP",
+        "year": 2025
       },
       {
         "caseName": "Travelers Property Casualty Co. of America and St. Paul Fire and Marine Ins. Co. v. Washington Shoppes LP and The Broadbent Co.",
@@ -661,8 +737,20 @@
     ],
     "spot_zoning_challenge": [
       {
+        "caseName": "Blades v. City of Raleigh",
+        "year": 1972
+      },
+      {
         "caseName": "Lathan v. Union County Board of Commissioners",
         "year": 1980
+      },
+      {
+        "caseName": "Foothill Communities Coalition v. County of Orange",
+        "year": 2014
+      },
+      {
+        "caseName": "Good Neighbors of Oregon Hill Protecting Property Rights v. County of Rockingham",
+        "year": 2015
       },
       {
         "caseName": "Allen Distribution v. West Pennsboro Township Zoning Hearing Board",
@@ -699,6 +787,18 @@
       {
         "caseName": "Township of Salem v. Miller Penn Development LLC",
         "year": 2016
+      },
+      {
+        "caseName": "Town of Florence v. Florence Copper, Inc.",
+        "year": 2021
+      },
+      {
+        "caseName": "Butterfli Holdings 001 LLC and Butterfli Holdings 002 LLC v. City of Youngstown",
+        "year": 2024
+      },
+      {
+        "caseName": "Campbellton Road, Ltd. v. City of San Antonio, by and through the San Antonio Water System",
+        "year": 2024
       },
       {
         "caseName": "City Heights Holdings LLC v. City of Cle Elum",
