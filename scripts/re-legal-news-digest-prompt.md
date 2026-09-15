@@ -19,17 +19,37 @@ count matters per `category` (9 categories: landlord-tenant, zoning-land-use,
 reit-securities, construction-defect, lending-foreclosure, environmental,
 eminent-domain, lease-disputes, premises-liability) and per `state`. Note which
 categories are thinnest (lowest count, or a small share of the total) and which
-states have zero or exactly one matter — a coverage audit run 2026-09-13 found
-lending-foreclosure alone was 31% of the whole tracker while premises-liability/
-construction-defect/reit-securities combined were under 14%, and roughly half of
-all states had 0-1 matters, substantially because one earlier bulk-backfill session
-did most of the state-breadth work rather than the ordinary twice-daily cadence
-sustaining it. Recompute this fresh every run rather than trusting that 2026-09-13
-snapshot — it changes as matters get added.
+states have zero or exactly one matter. Recompute this fresh every run rather than
+trusting any prior snapshot — it changes as matters get added.
 
-Use the WebSearch tool to find the most interesting, recent real estate industry news
-from a LEGAL perspective, published in roughly the last 12–24 hours (a bit older is
-fine if nothing fresh is out — use judgment). Prioritize:
+**Coverage philosophy (changed 2026-09-14, Jeff's explicit direction): comprehensive
+underlying coverage, with the single best story highlighted.** Earlier versions of
+this pipeline looked for "the one best story" and mostly stopped there, which capped
+real growth at ~2 matters/run. That's no longer the goal. Every run now has two
+distinct jobs, both required:
+
+1. **The flagship story** — one story, written up in full (Steps 2-3 below), exactly
+   as before. This is what a reader sees as today's featured piece.
+2. **Comprehensive sweep** — in the SAME run, find and log EVERY OTHER genuinely
+   real, verified, on-topic CRE litigation/legal-risk matter you can turn up, each as
+   its own lightweight tracker entry (Step 4 below) with a real, checkable source —
+   no full article required for these, just the structured fields. There is no fixed
+   quota and no upper bound; log as many as you can genuinely verify in this run
+   (realistically often somewhere in the 8-20+ range on a normal news day, fewer on a
+   slow one) — the constraint is "real and sourced," never a target number. An
+   unusually quiet day genuinely producing only 3-4 is fine; never pad the gap with a
+   weak, tangential, or duplicate story just to hit a number.
+
+Use the WebSearch tool broadly and from many angles to serve BOTH jobs: general
+sweeps ("commercial real estate lawsuit", "REIT litigation news", "commercial
+landlord lawsuit ruling", "real estate developer sued", "CRE legal news this week",
+"commercial property litigation [today's date]") plus targeted sweeps naming specific
+categories and the thinnest-coverage states you identified above (e.g. "premises
+liability lawsuit commercial property [state]", "construction defect lawsuit [thin
+state]", "eminent domain lawsuit [thin state]", "REIT securities lawsuit filed").
+Run enough searches — expect more like 8-15 distinct queries per run than the 4-5 a
+single-story hunt needed — to actually surface the volume of real matters that exist,
+not just whatever the first couple of searches happen to return. Prioritize:
 
 - Litigation, lawsuits, court rulings, and appellate decisions impacting commercial
   property owners, developers, REITs, landlords, or real estate lenders/investors.
@@ -39,25 +59,22 @@ fine if nothing fresh is out — use judgment). Prioritize:
   foreclosure litigation, CRE loan defaults and workouts, antitrust actions affecting
   real estate, tax assessment appeals, insurance coverage disputes).
 
-Run several searches from different angles ("commercial real estate lawsuit", "REIT
-litigation news", "commercial landlord lawsuit ruling", "real estate developer sued",
-"CRE legal news this week") to find the single most interesting, substantive story or
-a tight cluster of 2–3 related stories. Evaluate for genuine relevance and impact —
-don't just grab the first result. When two candidate stories are otherwise close in
-genuine substance/relevance, prefer the one that falls into a thinner category or a
-thinner-coverage state per the count you just computed — run 1-2 of your searches
-specifically angled at the thinnest category/states (e.g. "premises liability lawsuit
-commercial property [state]", "construction defect lawsuit [thin state]") rather than
-letting every run gravitate to whatever category/state is already easiest to find
-coverage for. Never force a genuinely weak or off-topic story into the tracker just to
-fill a gap, and never fabricate geographic spread — a real, substantive story in an
-already-strong category still beats a padded one in a thin category.
+From everything genuinely real and on-topic you find, pick the single most
+interesting/substantive item as the flagship (favor real significance — dollar
+scale, precedential weight, how many owners/REITs it actually affects — not just
+recency; when two are close, prefer the one in a thinner category/state per the
+count above). Every other genuinely real, verified, non-duplicate item you found
+becomes a comprehensive-sweep entry in Step 4, regardless of category/state — do NOT
+throw away real, verified stories just because they're not the flagship. Never
+fabricate geographic spread and never force a genuinely weak or off-topic story into
+either bucket just to fill a gap or hit a number — a thin day is an honest thin day.
 
-Before settling on a story, read `js/data.js` in this repo (see Step 4) and check it
-isn't a near-duplicate of an existing `live-*` case or `trend-*` entry. If everything
-you find is already substantially represented on the site, write the article on the
-most substantive available story anyway (per the note at the bottom of this file),
-but skip Steps 4/4B's case/trend additions for that story.
+Before finalizing your list, read `js/data.js` in this repo (see Step 4) and drop
+anything that's a near-duplicate of an existing `live-*` case or `trend-*` entry. If
+everything you find is already substantially represented on the site, write the
+flagship article on the most substantive available story anyway (per the note at the
+bottom of this file), but skip Step 4's case additions for that story specifically
+(other genuinely new comprehensive-sweep items still get added normally).
 
 ## STEP 2 — WRITE THE ARTICLE
 
@@ -92,11 +109,18 @@ otherwise.
    premises-liability), `statuses` (ids: filed, pending, ruling, settled, appeal),
    and a `cases` array. Every entry has `source: "live"` — find the highest existing
    `live-NNN` id.
-2. For the story from Steps 1–2, add ONE new object to the end of the `cases` array
-   (just before its closing `]`) with this exact shape:
+2. Add ONE object per genuinely real, verified, non-duplicate matter you have —
+   the flagship story from Steps 1–2 AND every comprehensive-sweep item from Step 1
+   — to the end of the `cases` array (each just before its closing `]`), in this
+   exact shape:
    ```
    {
      id: "live-NNN",              // next sequential number, zero-padded to 3 digits
+     addedDate: "YYYY-MM-DD",     // today's actual date (this run), not the event date
+     featured: true,              // ONLY on the flagship story this run wrote a full
+                                   // article for (Steps 2-3) -- omit this field
+                                   // entirely on every comprehensive-sweep entry. At
+                                   // most one `featured: true` case per run.
      title: "...",                // concise case/matter name or story title
      category: "...",             // best-fit category id
      status: "...",               // best-fit status id
@@ -136,13 +160,24 @@ otherwise.
                                    // multiple unrelated property types.
    }
    ```
+   Only the flagship entry needs a genuinely rich `summary`/`significance` written
+   with full-article-level care -- comprehensive-sweep entries still need REAL,
+   accurate, non-fabricated summary/significance text grounded in the actual source,
+   just shorter/more direct than the flagship's is fine (2-3 plain sentences each is
+   enough; do not pad these with invented detail to make them look more substantial).
    `parties` and `propertyType` are both optional — added going forward for new
    entries only. Existing `live-*` cases without them are untouched; do not add
    these fields to any existing case as part of a routine digest run.
-   Edit in place — don't rewrite the whole file. Keep valid JS syntax.
-3. If nothing genuinely new and substantive turned up (a rehash of an existing
-   `live-*` entry), skip this step and Step 6's case-push accordingly, and say so in
-   your final summary.
+   Edit in place — don't rewrite the whole file. Keep valid JS syntax. Adding many
+   entries in one run is expected now -- add them one at a time (or in one larger
+   edit covering all of them together), but every single one must independently meet
+   the same real-and-sourced bar as the flagship; volume is never a reason to relax
+   that bar.
+3. If nothing genuinely new and substantive turned up anywhere (every candidate is a
+   rehash of an existing `live-*` entry), skip this step and Step 6's case-push
+   accordingly, and say so in your final summary. This should be rare now that Step 1
+   searches broadly — a run adding zero comprehensive-sweep entries is a signal to
+   search more angles next time, not just an accepted quiet day.
 
 ## STEP 4B — MARKET SIGNALS (RELAW_DATA.trends)
 
@@ -209,8 +244,10 @@ case-by-case. Only act under these conditions; most runs skip this entirely.
 
 ## STEP 5 — SUMMARIZE
 
-Print a short final summary: what the article covers, whether Step 4/4B/4C changed
-anything (and why, if skipped), and confirm the Step 6 push status.
+Print a short final summary: what the flagship article covers, the total count of
+comprehensive-sweep entries added and which categories/states they landed in,
+whether Step 4B/4C changed anything (and why, if skipped), and confirm the Step 6
+push status.
 
 ## STEP 6 — PUSH TO THE LIVE SITE
 
@@ -219,8 +256,17 @@ Only run this if Step 4, 4B, and/or 4C actually changed something.
 ```
 cd /Users/jeffnovel/RELAW
 git add js/data.js quarterly.html
-git commit -m "Digest: add <case/trend title> (live-NNN / trend-NNN)"
+git commit -m "Digest: add N new matters (live-NNN through live-NNN)"
 git push origin main
+```
+
+Name the flagship story in the commit body (not just the count) if it's the kind of
+thing worth a human skimming `git log` noticing, e.g.:
+
+```
+Digest: add 11 new matters (live-139 through live-149)
+
+Flagship: <flagship story title> (live-NNN)
 ```
 
 Only stage `js/data.js` and `quarterly.html` — never `-A` or all files. If the push

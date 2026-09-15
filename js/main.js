@@ -197,9 +197,26 @@
   if (feedList && typeof RELAW_DATA !== "undefined") {
     const catMap = Object.fromEntries(RELAW_DATA.categories.map((c) => [c.id, c]));
     const statusMap = Object.fromEntries(RELAW_DATA.statuses.map((s) => [s.id, s]));
-    const featured = [...RELAW_DATA.cases]
-      .sort((a, b) => new Date(b.date) - new Date(a.date))
-      .slice(0, 3);
+
+    // The digest's chosen "flagship" story for its most recent run (the one
+    // it wrote a full article for -- see scripts/re-legal-news-digest-
+    // prompt.md) is marked `featured: true` on exactly one case per run.
+    // Its own `date` (the underlying legal event) is often weeks/months old
+    // even on the day it's added, so a plain "3 most recent by event date"
+    // sort can and does leave it out entirely -- pin the most recently-
+    // added featured case into the first slot instead of leaving that to
+    // chance, then fill the rest with the usual recency sort.
+    const featuredCase = [...RELAW_DATA.cases]
+      .filter((c) => c.featured)
+      .sort((a, b) => new Date(b.addedDate || b.date) - new Date(a.addedDate || a.date))[0];
+
+    const byRecentEvent = [...RELAW_DATA.cases]
+      .filter((c) => !featuredCase || c.id !== featuredCase.id)
+      .sort((a, b) => new Date(b.date) - new Date(a.date));
+
+    const recent = featuredCase
+      ? [featuredCase, ...byRecentEvent].slice(0, 3)
+      : byRecentEvent.slice(0, 3);
 
     // Same computation state-guides.html uses for its own "N states with
     // tracked matters" count -- states with at least one real matter,
@@ -216,13 +233,13 @@
       });
     }
 
-    feedList.innerHTML = featured.map((c) => {
+    feedList.innerHTML = recent.map((c) => {
       const cat = catMap[c.category];
       const status = statusMap[c.status];
       return `
         <div class="hero-feed-row" data-case-id="${c.id}">
           <span class="hero-feed-row-no"><span class="dot" style="background:${status.color}"></span></span>
-          <span class="hero-feed-row-title">${c.title}<span>${cat.label} · ${status.label}</span></span>
+          <span class="hero-feed-row-title">${c.featured ? `<span class="badge badge-live" style="margin-right:8px;">Today's Top Story</span>` : ""}${c.title}<span>${cat.label} · ${status.label}</span></span>
           <span class="hero-feed-row-date">${formatDate(c.date)}</span>
         </div>`;
     }).join("");
