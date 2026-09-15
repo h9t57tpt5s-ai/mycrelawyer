@@ -347,6 +347,34 @@
       {
         "caseName": "In re Government Properties Income Trust / Select Income REIT Merger Litigation (Chen v. Select Income REIT; Schwartz v. Select Income REIT; Sinkula v. Select Income REIT; Scarantino v. Fraiche)",
         "year": 2018
+      },
+      {
+        "caseName": "American Campus Communities, Inc. shareholder litigation (Blackstone/BREIT take-private merger)",
+        "year": 2022
+      },
+      {
+        "caseName": "Preferred Apartment Communities, Inc. shareholder litigation (Blackstone/BREIT merger)",
+        "year": 2022
+      },
+      {
+        "caseName": "STORE Capital Corporation shareholder litigation (GIC/Oak Street take-private merger)",
+        "year": 2022
+      },
+      {
+        "caseName": "Life Storage, Inc. / Extra Space Storage Inc. merger shareholder litigation",
+        "year": 2023
+      },
+      {
+        "caseName": "Physicians Realty Trust shareholder litigation (Healthpeak Properties merger of equals)",
+        "year": 2024
+      },
+      {
+        "caseName": "The Necessity Retail REIT, Inc. shareholder litigation (Global Net Lease merger / AR Global internalization)",
+        "year": 2024
+      },
+      {
+        "caseName": "National Storage Affiliates Trust shareholder litigation (Public Storage merger)",
+        "year": 2026
       }
     ],
     "contractor_breach_negligence": [
@@ -369,18 +397,74 @@
     ],
     "design_professional_malpractice": [
       {
+        "caseName": "United States v. Rogers & Rogers",
+        "year": 1958
+      },
+      {
+        "caseName": "City of Mounds View v. Walijarvi",
+        "year": 1978
+      },
+      {
+        "caseName": "Berschauer/Phillips Construction Co. v. Seattle School District No. 1",
+        "year": 1994
+      },
+      {
+        "caseName": "Moransais v. Heathman",
+        "year": 1999
+      },
+      {
+        "caseName": "Bilt-Rite Contractors, Inc. v. Architectural Studio",
+        "year": 2005
+      },
+      {
+        "caseName": "The Pointe at Westport Harbor Homeowners' Ass'n v. Engineers Northwest, Inc.",
+        "year": 2016
+      },
+      {
         "caseName": "Clark Construction Group, LLC v. Perkins Eastman DC, PC",
         "year": 2018
       },
       {
         "caseName": "Trustees of Princeton University v. Tod Williams Billie Tsien Architects, LLP et al.",
         "year": 2019
+      },
+      {
+        "caseName": "Clark Construction Group, LLC v. Perkins Eastman Architects, P.C.",
+        "year": 2020
       }
     ],
     "indemnification_contribution_claim": [
       {
+        "caseName": "Ethyl Corp. v. Daniel Construction Co.",
+        "year": 1987
+      },
+      {
+        "caseName": "Crawford v. Weather Shield Manufacturing, Inc.",
+        "year": 2008
+      },
+      {
+        "caseName": "Uniwest Construction, Inc. v. Amtech Elevator Services, Inc.",
+        "year": 2010
+      },
+      {
         "caseName": "Kellner v. Advance Cast Stone Co. (Milwaukee Parking Structure Panel Collapse)",
         "year": 2013
+      },
+      {
+        "caseName": "Hensel Phelps Construction Co. v. Thompson Masonry Contractor, Inc.",
+        "year": 2016
+      },
+      {
+        "caseName": "Dibrino v. Rockefeller Center North, Inc.",
+        "year": 2025
+      },
+      {
+        "caseName": "Fortune-Johnson Inc. v. Quiet Floor Systems LLC",
+        "year": 2025
+      },
+      {
+        "caseName": "S&B Engineers & Constructors, Ltd. v. Scallon Controls, Inc.",
+        "year": 2026
       }
     ],
     "insurance_coverage_defect_dispute": [
@@ -480,6 +564,34 @@
       }
     ],
     "quick_take_challenge": [
+      {
+        "caseName": "99 Cents Only Stores v. Lancaster Redevelopment Agency",
+        "year": 2001
+      },
+      {
+        "caseName": "Southwestern Illinois Development Authority v. National City Environmental, L.L.C.",
+        "year": 2002
+      },
+      {
+        "caseName": "County of Wayne v. Hathcock",
+        "year": 2004
+      },
+      {
+        "caseName": "Kelo v. City of New London",
+        "year": 2005
+      },
+      {
+        "caseName": "City of Norwood v. Horney",
+        "year": 2006
+      },
+      {
+        "caseName": "Matter of Goldstein v. New York State Urban Development Corp. (Atlantic Yards)",
+        "year": 2009
+      },
+      {
+        "caseName": "Matter of Kaur v. New York State Urban Development Corp. (Columbia University Manhattanville)",
+        "year": 2010
+      },
       {
         "caseName": "Los Angeles County Metropolitan Transportation Authority v. Alameda Produce Market, LLC",
         "year": 2011
