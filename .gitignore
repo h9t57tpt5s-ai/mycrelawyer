@@ -3,3 +3,15 @@
 node_modules/
 scripts/logs/
 supabase/.temp/
+
+# Proprietary case-citation research (the paid Case Value Calculator's
+# actual "hard-won dataset" -- real settlement/verdict citations with
+# dollar amounts and sources). This repo is PUBLIC. These files were
+# committed and live in the repo's history/tree for weeks despite a
+# separate 2026-09 fix that correctly removed the same data from the
+# public js/case-valuation-data.js bundle -- untracked 2026-09-14 after
+# discovering the git-repo exposure was never actually closed. Keep
+# authoring this data locally / in the private Supabase
+# `private_case_citations` table only, never in this repo again.
+case_valuation_project/data/claim_citations*.json
+case_valuation_project/data/research/
