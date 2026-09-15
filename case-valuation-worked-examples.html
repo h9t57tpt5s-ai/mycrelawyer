@@ -3,25 +3,26 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Calculator Methodology — CREdocket</title>
-<meta name="description" content="How the Case Value Calculator estimates litigation exposure: the probability-weighted model, the categories it covers, and the citation-verification standard behind every number." />
+<title>Worked Examples — CREdocket</title>
+<meta name="description" content="The Case Value Calculator's methodology applied by hand to two real, already-decided cases — showing the reasoning, not just the number." />
 <meta property="og:type" content="website" />
 <meta property="og:site_name" content="CREdocket" />
-<meta property="og:title" content="Calculator Methodology — CREdocket" />
-<meta property="og:description" content="How the Case Value Calculator estimates litigation exposure: the probability-weighted model, the categories it covers, and the citation-verification standard behind every number." />
-<meta property="og:url" content="https://credocket.com/case-valuation-methodology.html" />
+<meta property="og:title" content="Worked Examples — CREdocket" />
+<meta property="og:description" content="The Case Value Calculator's methodology applied by hand to two real, already-decided cases — showing the reasoning, not just the number." />
+<meta property="og:url" content="https://credocket.com/case-valuation-worked-examples.html" />
 <meta property="og:image" content="https://credocket.com/img/og-image.png" />
 <meta property="og:image:width" content="1200" />
 <meta property="og:image:height" content="630" />
 <meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:title" content="Calculator Methodology — CREdocket" />
-<meta name="twitter:description" content="How the Case Value Calculator estimates litigation exposure: the probability-weighted model, the categories it covers, and the citation-verification standard behind every number." />
+<meta name="twitter:title" content="Worked Examples — CREdocket" />
+<meta name="twitter:description" content="The Case Value Calculator's methodology applied by hand to two real, already-decided cases — showing the reasoning, not just the number." />
 <meta name="twitter:image" content="https://credocket.com/img/og-image.png" />
 <link rel="icon" href="img/favicon.svg" type="image/svg+xml" />
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/styles.css" />
+<link rel="stylesheet" href="css/case-valuation.css" />
     <script>
       window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
     </script>
@@ -119,38 +120,83 @@
 <header class="page-header">
   <div class="container">
     <div class="eyebrow reveal in-view">Methodology</div>
-    <h1 class="reveal in-view" style="font-size:clamp(2.2rem,4vw,3.4rem);">Calculator Methodology</h1>
-    <p class="lede mt-16 reveal in-view">How the Case Value Calculator turns a described dispute into a probability-weighted damages range — the model, the categories it covers, and the standard every cited case has to clear before it's allowed to ground a result. This is a separate document from the <a href="methodology.html">tracker's coverage methodology</a>, which explains what makes it into the litigation tracker itself.</p>
+    <h1 class="reveal in-view" style="font-size:clamp(2.2rem,4vw,3.4rem);">Worked Examples</h1>
+    <p class="lede mt-16 reveal in-view">Two real, already-decided cases, walked through by hand using the exact documented rules from our <a href="case-valuation-methodology.html">calculator methodology</a> — showing how the model reasons, not just what number it lands on.</p>
   </div>
 </header>
 
 <section class="section-tight">
-  <div class="container" style="max-width:760px;">
-    <div class="legal-doc reveal">
+  <div class="container" style="max-width:820px;">
+    <div class="card reveal" style="padding:24px; border-style:dashed;">
+      <div class="eyebrow" style="margin-bottom:10px;">What This Is — And Isn't</div>
+      <p class="text-secondary" style="font-size:13.5px; line-height:1.7; margin-bottom:10px;">These are <strong>methodology walkthroughs</strong>, not blind predictions. Both cases below are ones we already knew the outcome of — they're in fact two of the real cases in our own citation database — so this is not a claim that the calculator "called it" in advance. What it shows is how the documented probability-and-damages framework reasons through real facts, including where a court's actual ruling landed inside, at the edge of, or beyond the range the methodology would produce.</p>
+      <p class="text-secondary" style="font-size:13.5px; line-height:1.7;">A genuine, unbiased track record requires predicting a case's outcome <em>before</em> it's decided, on the record, and checking back later. That's a real feature we're building next — timestamped predictions on real, currently pending matters, checked against the actual outcome once each case resolves.</p>
+    </div>
+  </div>
+</section>
 
-      <h2>What this is — and isn't</h2>
-      <p>The Case Value Calculator is a structured, rules-based expected-value model: probability of success × damages, summed across every claim identified in your matter, presented as a range rather than a single figure. It is deliberately not a black-box statistical prediction from a licensed litigation-analytics platform, and not a substitute for judicial or arbitral resolution of an actual dispute. Every probability range and every damages range traces back to either a specific, documented legal rule or a real, cited comparable case — never an unexplained number.</p>
+<section class="section-tight">
+  <div class="container" style="max-width:820px;">
+    <div class="section-head reveal">
+      <div>
+        <div class="eyebrow">Example 1 — Unpaid Rent</div>
+        <h2 style="font-size:clamp(1.4rem,2.2vw,1.9rem);">SVAP III Poway Crossings, LLC v. Fitness International, LLC</h2>
+      </div>
+    </div>
+    <div class="card reveal" style="padding:24px;">
+      <h4 style="margin-bottom:8px;">The facts</h4>
+      <p class="text-secondary" style="font-size:13.5px; line-height:1.7; margin-bottom:16px;">A landlord sought $520,361.29 in rent it said the tenant, a gym operator, owed as of October 2021. The tenant raised force majeure, impossibility, impracticability, and frustration-of-purpose defenses tied to pandemic-era closures — arguing it shouldn't have to pay because it couldn't operate the gym as intended.</p>
 
-      <h2>How an estimate gets built</h2>
-      <p>Three inputs go into every result. First, the facts of your matter — extracted by AI from your own description and any documents you provide, never assumed or filled in. Second, the governing legal framework for your dispute's category and claim type — a documented probability range keyed to the actual legal standard (for example, unpaid rent on a written lease starts from a 90–97% probability range because an undisputed debt is close to open-and-shut, while a tenant's wrongful-lockout claim is driven almost entirely by whether the state allows a landlord to use self-help eviction at all). Third, real, verified comparable cases — actual settlements, judgments, and rulings with their real dollar outcomes, cited directly alongside the range they inform.</p>
+      <h4 style="margin-bottom:8px;">Applying the rule</h4>
+      <p class="text-secondary" style="font-size:13.5px; line-height:1.7; margin-bottom:8px;">Our documented <code class="mono">unpaid_rent</code> rule starts at 90–97% probability for an essentially undisputed debt, dropping to 55–75% once a tenant raises a substantive dispute (for example, an abatement claim tied to the landlord's own breach). A defense was raised here, so a mechanical read says: apply the lower, disputed-debt range.</p>
+      <p class="text-secondary" style="font-size:13.5px; line-height:1.7; margin-bottom:16px;">But applying the rule well means judging the <em>strength</em> of that defense, not just whether one was raised. By the time this case was litigated, force-majeure and impossibility arguments against paying rent — as opposed to operating a business — had already been broadly rejected in reported COVID-era commercial lease decisions. A defense procedurally raised but doctrinally weak doesn't carry the same weight as a live factual dispute. Applying that judgment here: <strong>88–95% probability</strong> of full recovery, closer to the "essentially undisputed" band than the "genuinely disputed" one.</p>
 
-      <h2>Categories &amp; claim types covered</h2>
-      <p>The calculator currently models seven practice areas, each broken into the specific claim types a matter in that category might involve: landlord-tenant lease disputes (unpaid rent, accelerated rent, holdover damages, attorney's fees, property damage, wrongful lockout, quiet enjoyment/repair breaches, security deposits), lending &amp; foreclosure (deficiency judgments, receivership, guaranty enforcement, lender-liability claims), REIT &amp; securities (10b-5 securities fraud, breach of fiduciary duty, proxy disclosure, merger objections), construction defect (contractor negligence, design-professional malpractice, indemnification, insurance coverage), environmental (CERCLA cost recovery and contribution, consent decrees, insurance coverage), eminent domain (just-compensation valuation, quick-take challenges, access disputes, regulatory takings), and zoning &amp; land use (variance/permit appeals, spot-zoning challenges, Section 1983 claims, development-agreement breaches).</p>
+      <div class="cv-claim-card" style="margin-bottom:16px;">
+        <div class="cv-claim-top">
+          <h4>Unpaid Rent</h4>
+          <span class="cv-prob">88–95% likelihood</span>
+        </div>
+        <div class="cv-damages">Damages: $520,361 (stated, not a range — this is the accrued debt itself)</div>
+        <div class="cv-ev"><strong>Expected value: $457,918 – $494,343</strong></div>
+      </div>
 
-      <h2>The citation-verification standard</h2>
-      <p>Every case cited in a result has to clear the same bar the litigation tracker itself uses: found through real research, then independently confirmed against an actual source — a court opinion, a docket, or a detailed secondary account from a source we've actually read in full — before it's ever allowed to ground a number. A citation's confidence is shown alongside it: <strong>high</strong> means it was verified against a primary source (the opinion itself, a government filing, a docket); <strong>medium</strong> means it rests on a detailed secondary source rather than the primary text. We do not publish a "low confidence" tier — a case that can't clear at least medium confidence is left out entirely rather than shown with a caveat. No dollar amount, outcome, or holding is ever invented or estimated to fill a gap in what a source actually states.</p>
+      <h4 style="margin-bottom:8px;">What actually happened</h4>
+      <p class="text-secondary" style="font-size:13.5px; line-height:1.7; margin-bottom:16px;">The trial court granted the landlord summary judgment for the full $520,361.29 — the Court of Appeal affirmed, holding that paying rent, not operating the gym, was the tenant's actual contractual obligation, so none of the pandemic-related defenses excused it. <a href="https://caselaw.findlaw.com/court/ca-court-of-appeal/2181216.html" target="_blank" rel="noopener" class="text-accent">Read the opinion &rarr;</a></p>
 
-      <h2>Ongoing expansion</h2>
-      <p>The citation database behind this tool grows daily through an ongoing, automated research process that rotates through every claim type, applying the exact same verification standard described above before anything is added. It is a genuinely different research stream from the litigation tracker's own daily coverage — the tracker curates notable, reader-relevant matters; this research pulls every real, citable case it can verify for each claim type, prioritizing completeness for the model over newsworthiness for a reader.</p>
+      <div class="rule" style="margin-bottom:14px;"></div>
+      <p class="text-secondary" style="font-size:13px; line-height:1.7;"><strong>Reading the gap:</strong> the actual result (100% recovery) landed above even the high end of the estimated range. That's a real, instructive limit of a probability-weighted model: once a court resolves liability entirely on summary judgment, there's no partial-recovery outcome to weight against — the range approach is built for the more common case where some genuine uncertainty and settlement dynamics apply a discount, not for a clean, total win. A well-calibrated tool should show its work honestly here rather than claim a better fit than the range actually had.</p>
+    </div>
+  </div>
+</section>
 
-      <h2>How to read a result</h2>
-      <p>A result is always shown as a range, never a single number, because the underlying uncertainty is real — the probability range reflects how contested that type of claim typically is, and the damages range reflects the real spread across comparable outcomes. Where the tool can compute a best-guess point estimate from your specific facts, it shows that alongside the full range, not instead of it. Claims are broken out individually so you can see exactly which parts of your matter are driving the total, and every citation is a real, clickable link to its actual source — nothing here is provided for you to take on faith.</p>
-      <p>Every result also shows a <strong>case-law coverage</strong> badge for its category — strong, developing, or limited — based on how many independently verified real citations currently back that category. This is deliberately separate from a single citation's own high/medium confidence rating: a category can have several well-verified citations and still be a "limited coverage" category overall if that's all that exists yet. We'd rather a thinly-supported category look thin than have every result look equally authoritative regardless of how much real case law actually stands behind it.</p>
-      <p>Curious what this looks like applied to a real, already-decided case? See our <a href="case-valuation-worked-examples.html">worked examples &rarr;</a></p>
+<section class="section-tight">
+  <div class="container" style="max-width:820px;">
+    <div class="section-head reveal">
+      <div>
+        <div class="eyebrow">Example 2 — Lender-Liability Claim</div>
+        <h2 style="font-size:clamp(1.4rem,2.2vw,1.9rem);">Dooley Developments USA LLC v. Stallion Funding, LLC</h2>
+      </div>
+    </div>
+    <div class="card reveal" style="padding:24px;">
+      <h4 style="margin-bottom:8px;">The facts</h4>
+      <p class="text-secondary" style="font-size:13.5px; line-height:1.7; margin-bottom:16px;">A borrower/developer sued its construction lender, alleging the lender used deceptive "loan-to-own" tactics on a 25-unit condo development — failing to fund draw requests and engineering a default in order to foreclose and take the project itself. The lender countersued for $16 million.</p>
 
-      <h2>Limitations</h2>
-      <p>This tool does not provide legal advice, does not predict the outcome of any specific matter, and is not a substitute for consulting qualified counsel about your actual facts and jurisdiction. Litigation outcomes depend on evidence, procedural posture, the specific judge or arbitrator, and advocacy that no calculator can capture. The underlying model is still being actively refined as more verified case data is incorporated — treat every range as an informed, transparent estimate, not a finished or stable prediction. See our <a href="terms.html">Terms of Service</a> for the governing disclaimers.</p>
+      <h4 style="margin-bottom:8px;">Applying the rule</h4>
+      <p class="text-secondary" style="font-size:13.5px; line-height:1.7; margin-bottom:16px;">Our documented <code class="mono">lender_liability_claim</code> rule starts deliberately low — <strong>15–35% probability</strong> — because lender-liability doctrine is historically borrower-unfriendly absent clear evidence of bad faith. That's not a guess about this specific case; it's a base rate reflecting how hard these claims are to win across the doctrine generally. Damages, when a claim like this does succeed, are comparable-case-informed rather than formulaic, since they depend heavily on the specific harm proven.</p>
 
+      <div class="cv-claim-card" style="margin-bottom:16px;">
+        <div class="cv-claim-top">
+          <h4>Lender-Liability Claim</h4>
+          <span class="cv-prob">15–35% likelihood</span>
+        </div>
+        <div class="cv-note">Base rate reflects that lender-liability claims are historically difficult to win, not a judgment on this matter's specific evidence.</div>
+      </div>
+
+      <h4 style="margin-bottom:8px;">What actually happened</h4>
+      <p class="text-secondary" style="font-size:13.5px; line-height:1.7; margin-bottom:16px;">A Dallas County jury found the lender liable on every theory — fraud, breach of contract, usury, wrongful foreclosure, and promissory estoppel, with a finding of malice — awarded the developer over $6 million (growing to roughly $12.79 million at final judgment), and rejected the lender's $16 million counterclaims entirely. <a href="https://www.prnewswire.com/news-releases/reese-marketos-secures-trial-win-for-dallas-real-estate-developer-302280476.html" target="_blank" rel="noopener" class="text-accent">Read more &rarr;</a></p>
+
+      <div class="rule" style="margin-bottom:14px;"></div>
+      <p class="text-secondary" style="font-size:13px; line-height:1.7;"><strong>Reading the gap:</strong> this is exactly the case a 15–35% probability range exists to describe — a claim type that mostly loses, but pays out enormously on the real facts that support it. A single case beating long odds doesn't mean the base rate was wrong; it means the range is honestly modeling a claim type where most matters settle for little or lose outright, and a minority with genuinely bad-faith conduct on the record can produce a verdict like this one. Judging the model by whether any one low-probability case wins or loses misses the point of a probability range — the question is whether the range is well-calibrated across many matters, which is exactly what the prediction-registry feature above is designed to eventually show.</p>
     </div>
   </div>
 </section>
@@ -160,11 +206,11 @@
     <div class="card cta-photo-card reveal" style="padding:56px; display:flex; align-items:center; justify-content:space-between; gap:32px; flex-wrap:wrap;">
       <div class="cta-photo-bg"><img src="img/photos/office-building.jpg" alt="" aria-hidden="true" loading="lazy" /></div>
       <div>
-        <h2 style="font-size:clamp(1.6rem,2.6vw,2.2rem);">See a sample result</h2>
-        <p class="text-secondary mt-16" style="max-width:480px;">The Case Value Calculator page shows a full worked example, with real cited case law, before you enter a single fact of your own.</p>
+        <h2 style="font-size:clamp(1.6rem,2.6vw,2.2rem);">Try it on your own matter</h2>
+        <p class="text-secondary mt-16" style="max-width:480px;">Describe your case or upload your documents — the same methodology, applied to your own facts.</p>
       </div>
       <a href="case-valuation.html" class="btn btn-primary">
-        Try the calculator
+        Open the calculator
         <svg viewBox="0 0 24 24" fill="none"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
       </a>
     </div>
