@@ -230,8 +230,19 @@
       <div class="lr-term-grid">${termCards}</div>
       ${revisionsHtml}
       <div class="card" style="padding:20px; margin-top:16px;"><div class="eyebrow" style="margin-bottom:8px;">Comprehensive Analysis</div><p class="cv-note" style="font-size:13.5px; line-height:1.7;">${a.narrative || ""}</p></div>
+      <div class="card" style="padding:20px; margin-top:16px;">
+        <button type="button" class="btn btn-ghost btn-sm" id="lr-download-report">
+          Download PDF Report
+          <svg viewBox="0 0 24 24" fill="none" width="16" height="16"><path d="M12 3v12m0 0l-4-4m4 4l4-4M5 21h14" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </button>
+      </div>
       <p class="text-muted" style="font-size:12px; margin-top:14px;">${LEASE_REDLINE_DATA.disclaimer}</p>`;
     resultsHost.scrollIntoView({ behavior: "smooth", block: "start" });
+
+    const downloadBtn = document.getElementById("lr-download-report");
+    if (downloadBtn && window.LR_REPORT) {
+      downloadBtn.addEventListener("click", () => window.LR_REPORT.requestFullReport(json));
+    }
   }
 
   async function runAnalysis() {
