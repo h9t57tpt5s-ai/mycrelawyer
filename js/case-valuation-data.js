@@ -893,7 +893,7 @@ const CASE_VALUATION_DATA = {
     },
     "aggregation": {
       "expectedValue": "probabilityRange x damagesRange -> range, never a point estimate",
-      "categorySelection": "user first selects which of the 8 tracked litigation categories their matter falls under; only that category's claim types and role labels (sideA/sideB) are shown",
+      "categorySelection": "user first selects which of the 7 tracked litigation categories their matter falls under; only that category's claim types and role labels (sideA/sideB) are shown",
       "sideATotal": "sum of sideA-favoring claim expected values within the selected category",
       "sideBTotal": "sum of sideB-favoring claim expected values within the selected category",
       "netPosition": "sideATotal - sideBTotal, presented from whichever side the user identified as",
