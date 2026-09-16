@@ -151,6 +151,106 @@
     return `<span class="detail-tag" style="color:${color}; border-color:${color};" title="${n} independently verified real case${n === 1 ? "" : "s"} currently back this category — grows daily as new citations are verified">${label} (${n} verified case${n === 1 ? "" : "s"})</span>`;
   }
 
+  // Reserve & Settlement Guidance (2026-09-16) -- a pure function, no DOM,
+  // so js/case-valuation-report.js's PDF version can reuse the identical
+  // math without importing this file. Takes a SIGNED [lo, hi] range and a
+  // signed point estimate using the SAME convention as costData.netAfterCosts
+  // and analysis.damagesRange/bestGuessValue: positive is good for the
+  // represented side (money received, or a cost avoided), negative is a
+  // net cost to them (see computeCostData's own comment in the Edge
+  // Function for why -- this doesn't invert or reinterpret that
+  // convention, just reads it).
+  //
+  // "exposure" (hi <= 0, even the best case costs money): ASC 450-20-30-1
+  // says that absent a single better estimate, accrue the MINIMUM of a
+  // probable, reasonably-estimable loss range -- here, that's the
+  // smallest cost, i.e. -hi (hi sits closest to zero). The settlement
+  // walk-away is the mirror image of that same logic applied to
+  // negotiation instead of accounting: never pay more in settlement than
+  // your worst-case litigated cost (-lo).
+  //
+  // "recovery" (lo >= 0, even the worst case is a net gain): ASC 450-30
+  // generally bars recognizing a contingent GAIN until it's realized or
+  // realization is assured, so there's no accrual figure to offer here --
+  // only the settlement mirror (never accept less than your worst-case
+  // litigated recovery).
+  //
+  // "mixed" (straddles zero): whether a loss is even probable -- the
+  // accrual threshold itself -- is part of what's unresolved, so this
+  // deliberately returns no accrual/walk-away figures, only the range.
+  function computeReserveGuidance(range, bestGuess) {
+    const lo = range[0], hi = range[1];
+    if (hi <= 0) {
+      return {
+        mode: "exposure",
+        recommendedAccrual: -hi,
+        bestEstimateAccrual: -bestGuess,
+        discloseLow: -hi,
+        discloseHigh: -lo,
+        openingOffer: -hi,
+        target: -bestGuess,
+        walkAway: -lo,
+      };
+    }
+    if (lo >= 0) {
+      return {
+        mode: "recovery",
+        openingOffer: hi,
+        target: bestGuess,
+        walkAway: lo,
+      };
+    }
+    return { mode: "mixed", lo, hi, bestGuess };
+  }
+  window.RELAW_CV_RESERVE = window.RELAW_CV_RESERVE || {};
+  window.RELAW_CV_RESERVE.computeReserveGuidance = computeReserveGuidance;
+
+  function reserveSettlementHtml(a, costData) {
+    if (!a.damagesRange || typeof a.bestGuessValue !== "number") return "";
+    const range = (costData && costData.netAfterCosts) ? costData.netAfterCosts : a.damagesRange;
+    const g = computeReserveGuidance(range, a.bestGuessValue);
+    const side = a.roleLabel || "your side";
+
+    if (g.mode === "exposure") {
+      return `<div class="card" style="padding:20px; margin-top:16px;">
+        <div class="eyebrow" style="margin-bottom:10px;">Reserve &amp; Settlement Guidance</div>
+        <p class="text-secondary" style="font-size:13.5px; line-height:1.6; margin-bottom:14px;">Even in the best case here, this analysis nets out to a cost for ${side} — the kind of contingency accountants treat as a probable, reasonably estimable loss.</p>
+        <div class="rsg-row">
+          <div class="rsg-cell"><div class="rsg-label">Reserve — range minimum</div><div class="rsg-value">${V.fmt(g.recommendedAccrual)}</div><div class="rsg-note">Under ASC 450, the standard accrual absent a more specific single estimate.</div></div>
+          <div class="rsg-cell"><div class="rsg-label">Reserve — this case's estimate</div><div class="rsg-value">${V.fmt(g.bestEstimateAccrual)}</div><div class="rsg-note">If your own facts make one figure a better estimate than the range minimum.</div></div>
+        </div>
+        <p class="text-muted" style="font-size:12px; margin-top:12px;">Full range to disclose: ${V.fmt(g.discloseLow)} – ${V.fmt(g.discloseHigh)}.</p>
+        <div class="eyebrow" style="margin:18px 0 10px;">Settlement Position</div>
+        <div class="rsg-row">
+          <div class="rsg-cell"><div class="rsg-label">Opening offer</div><div class="rsg-value">${V.fmt(g.openingOffer)}</div><div class="rsg-note">Your best-case litigated cost.</div></div>
+          <div class="rsg-cell"><div class="rsg-label">Target</div><div class="rsg-value">${V.fmt(g.target)}</div><div class="rsg-note">Economically equivalent to litigating it out.</div></div>
+          <div class="rsg-cell"><div class="rsg-label">Walk-away</div><div class="rsg-value">${V.fmt(g.walkAway)}</div><div class="rsg-note">Never pay more than your worst-case litigated cost.</div></div>
+        </div>
+        <p class="text-muted" style="font-size:11.5px; line-height:1.5; margin-top:12px;">Not accounting or legal advice — a starting framework for your own auditors and counsel, derived from the probability-weighted estimate above.</p>
+      </div>`;
+    }
+    if (g.mode === "recovery") {
+      return `<div class="card" style="padding:20px; margin-top:16px;">
+        <div class="eyebrow" style="margin-bottom:10px;">Reserve &amp; Settlement Guidance</div>
+        <p class="text-secondary" style="font-size:13.5px; line-height:1.6; margin-bottom:14px;">Even in the worst case here, this analysis nets out to a gain for ${side} — a contingent recovery, not an exposure. Under ASC 450-30, a contingent gain like this is generally not booked as a receivable until it's realized or realization is assured, however likely it looks here.</p>
+        <div class="eyebrow" style="margin-bottom:10px;">Settlement Position</div>
+        <div class="rsg-row">
+          <div class="rsg-cell"><div class="rsg-label">Opening ask</div><div class="rsg-value">${V.fmt(g.openingOffer)}</div><div class="rsg-note">Your best-case litigated recovery.</div></div>
+          <div class="rsg-cell"><div class="rsg-label">Target</div><div class="rsg-value">${V.fmt(g.target)}</div><div class="rsg-note">Economically equivalent to litigating it out.</div></div>
+          <div class="rsg-cell"><div class="rsg-label">Walk-away</div><div class="rsg-value">${V.fmt(g.walkAway)}</div><div class="rsg-note">Never accept less than your worst-case litigated recovery.</div></div>
+        </div>
+        <p class="text-muted" style="font-size:11.5px; line-height:1.5; margin-top:12px;">Not accounting or legal advice — a starting framework for your own auditors and counsel, derived from the probability-weighted estimate above.</p>
+      </div>`;
+    }
+    // mixed -- deliberately no accrual or anchor/walk-away figures; see
+    // computeReserveGuidance's comment for why straddling zero means the
+    // accrual threshold itself is unresolved, not just the amount.
+    return `<div class="card" style="padding:20px; margin-top:16px; border-style:dashed;">
+      <div class="eyebrow" style="margin-bottom:10px;">Reserve &amp; Settlement Guidance</div>
+      <p class="text-secondary" style="font-size:13.5px; line-height:1.6;">This range spans both a net cost and a net gain for ${side} (${V.fmtRange(g.lo, g.hi)}), so whether a loss here is even "probable" — the threshold for a reserve at all — is itself part of what's unresolved. Treat this as a case for disclosure and monitoring, with ${V.fmt(g.bestGuess)} as a working planning figure, rather than a settled accrual or settlement position until the facts point more clearly one way or the other.</p>
+    </div>`;
+  }
+
   function citationHtml(cit) {
     const href = cit.sourceUrl || cit.url;
     return `
@@ -582,6 +682,7 @@
       ${a.likelyOutcome ? `<div class="card" style="padding:20px; margin-top:16px;"><div class="eyebrow" style="margin-bottom:8px;">Executive Discovery</div><p class="text-secondary" style="font-size:14px; line-height:1.6;">${a.likelyOutcome}</p></div>` : ""}
       ${summaryTableHtml(a)}
       ${costCardHtml}
+      ${reserveSettlementHtml(a, costData)}
       ${(a.narrativeSections || []).length ? `<div class="card" style="padding:24px; margin-top:16px;"><div class="eyebrow" style="margin-bottom:16px;">Comprehensive Analysis</div>${narrativeSectionsHtml(a.narrativeSections)}</div>` : ""}
       <div id="cv-gated-content" style="margin-top:16px;">
         <div class="card" style="padding:20px;">

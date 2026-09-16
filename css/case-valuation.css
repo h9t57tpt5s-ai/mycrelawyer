@@ -83,6 +83,16 @@
 .cv-verdict-settle { background: color-mix(in srgb, var(--ui-danger) 14%, transparent); color: var(--ui-danger); }
 .cv-verdict-mixed { background: color-mix(in srgb, var(--ui-warning) 14%, transparent); color: var(--ui-warning); }
 
+/* Reserve & Settlement Guidance (2026-09-16) -- js/case-valuation.js's
+   reserveSettlementHtml(). Same 2-3 column stat-cell layout for both the
+   accrual figures and the anchor/target/walk-away figures, so the two
+   read as one coherent framework rather than two different widgets. */
+.rsg-row { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 12px; }
+.rsg-cell { background: var(--bg-elevated); border: 1px solid var(--border); border-radius: var(--radius-md); padding: 12px 14px; }
+.rsg-label { font-family: var(--font-mono); font-size: 10.5px; text-transform: uppercase; letter-spacing: 0.04em; color: var(--text-muted); margin-bottom: 6px; }
+.rsg-value { font-family: var(--font-display); font-size: 1.35rem; font-weight: 700; color: var(--accent-deep); line-height: 1.1; }
+.rsg-note { font-size: 11.5px; color: var(--text-muted); margin-top: 6px; line-height: 1.4; }
+
 @media (max-width: 640px) {
   .cv-cost-section #cv-cost-form-host { grid-template-columns: 1fr; }
   /* The two side-toggle buttons stack full-width on narrow screens --

@@ -223,6 +223,34 @@ window.CV_REPORT = (function () {
       rule();
     }
 
+    // Reserve & Settlement Guidance -- mirrors the on-screen version
+    // (js/case-valuation.js's reserveSettlementHtml) exactly, reusing its
+    // pure computeReserveGuidance() via window.RELAW_CV_RESERVE rather
+    // than re-deriving the ASC 450 / negotiation math a second time. Safe
+    // to call here even though case-valuation.js loads after this file in
+    // case-valuation.html's <script> order (see that file's own comment)
+    // -- this only runs later, once a user actually clicks "Download PDF
+    // Report," by which point both scripts have finished loading.
+    if (ctx.net && typeof ctx.bestGuessValue === "number" && window.RELAW_CV_RESERVE) {
+      const range = (ctx.costData && ctx.costData.netAfterCosts) ? ctx.costData.netAfterCosts : ctx.net;
+      const g = window.RELAW_CV_RESERVE.computeReserveGuidance(range, ctx.bestGuessValue);
+      heading("Reserve & Settlement Guidance", 13);
+      if (g.mode === "exposure") {
+        body(`Even in the best case, this analysis nets out to a cost for ${roleLabel} — the kind of contingency accountants treat as a probable, reasonably estimable loss.`, { gap: 8 });
+        body(`Reserve (ASC 450 range minimum): ${fmtMoney(g.recommendedAccrual)}`, { bold: true, gap: 4 });
+        body(`Reserve (this case's own best estimate): ${fmtMoney(g.bestEstimateAccrual)}`, { gap: 4 });
+        body(`Full range to disclose: ${fmtMoney(g.discloseLow)} – ${fmtMoney(g.discloseHigh)}`, { size: 9, color: MUTED, gap: 10 });
+        body(`Settlement position — opening offer: ${fmtMoney(g.openingOffer)} · target: ${fmtMoney(g.target)} · walk-away: ${fmtMoney(g.walkAway)} (never pay more than your worst-case litigated cost)`, { size: 9.5, gap: 8 });
+      } else if (g.mode === "recovery") {
+        body(`Even in the worst case, this analysis nets out to a gain for ${roleLabel}. Under ASC 450-30, a contingent gain like this is generally not booked as a receivable until it's realized or realization is assured, however likely it looks here.`, { gap: 8 });
+        body(`Settlement position — opening ask: ${fmtMoney(g.openingOffer)} · target: ${fmtMoney(g.target)} · walk-away: ${fmtMoney(g.walkAway)} (never accept less than your worst-case litigated recovery)`, { size: 9.5, gap: 8 });
+      } else {
+        body(`This range spans both a net cost and a net gain for ${roleLabel} (${fmtMoneyRange([g.lo, g.hi])}), so whether a loss here is even "probable" is itself unresolved. Treat this as a case for disclosure and monitoring, with ${fmtMoney(g.bestGuess)} as a working planning figure, rather than a settled accrual or settlement position.`, { gap: 8 });
+      }
+      body("Not accounting or legal advice — a starting framework for your own auditors and counsel.", { size: 8.5, color: MUTED, gap: 8 });
+      rule();
+    }
+
     heading("Claim-by-Claim Analysis", 14);
     evalResult.claims.forEach((c) => {
       addPageIfNeeded(90);
