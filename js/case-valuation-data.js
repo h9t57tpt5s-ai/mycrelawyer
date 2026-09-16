@@ -4354,14 +4354,23 @@ const CASE_VALUATION_DATA = {
      once entries exist, since a case-specific real number always beats
      a market-average one.
 
-     10 REAL ENTRIES so far (8 added 2026-09-16, 2 more retail entries
-     added the same day once real coverage existed), researched via
-     WebSearch + WebFetch of actual CBRE/JLL/Cushman & Wakefield/Colliers/
-     Kidder Mathews quarterly market reports -- one representative major
-     metro per state+property-type pair (the schema has no metro field;
-     where multiple metros exist in a state, e.g. CA industrial's LA vs.
-     Inland Empire, the better-sourced one was used and the other left for
-     a future entry under a different key convention if ever needed).
+     14 REAL ENTRIES so far (8 added 2026-09-16, 2 more retail entries
+     added the same day once real coverage existed, then 4 more added
+     later the same day -- MA/CA/TX/NC below -- chosen by cross-
+     referencing RELAW_DATA.cases' lease-disputes category in js/data.js
+     for the state+propertyType combos with the most actual tracked
+     matters that this dictionary didn't cover yet: MA|Retail had 2
+     tracked matters (Faneuil Hall Marketplace, a Boston restaurant
+     lease default), and CA|Office, TX|Retail, and NC|Retail each had 1
+     -- Century City office rent default, the Collin Creek Mall lease
+     dispute, and a South End Charlotte ground-floor retail default,
+     respectively), researched via WebSearch + WebFetch of actual CBRE/
+     JLL/Cushman & Wakefield/Colliers/Kidder Mathews/Matthews quarterly
+     market reports -- one representative major metro per state+property-
+     type pair (the schema has no metro field; where multiple metros
+     exist in a state, e.g. CA industrial's LA vs. Inland Empire, the
+     better-sourced one was used and the other left for a future entry
+     under a different key convention if ever needed).
      Every reLeaseMonthsRange here is a DIRECTIONAL INFERENCE from real,
      WebFetched vacancy/absorption/leasing-velocity data -- none of the
      sources directly state "average months to re-lease" as their own
@@ -4369,18 +4378,28 @@ const CASE_VALUATION_DATA = {
      this as "a directional market range, not case-specific evidence."
      rentChangeRange is anchored on each report's own directly-stated
      asking-rent trend wherever possible (flagged per-entry below where
-     it required more inference than that). Two researched
-     markets/property-types (FL office/Miami, AZ retail/Phoenix) were
-     deliberately EXCLUDED even though partial data existed -- the
-     research explicitly could not clear this site's medium-confidence
-     bar for them (Miami relied on a secondary source relaying Yardi
-     Matrix data with no metro-wide vacancy figure; Phoenix retail relied
-     on a forecast blended with trailing actuals from a secondary
-     write-up) -- same "never publish a low-confidence figure, leave it
-     out instead" standard the citation database uses. Retail coverage
-     (NY/CA) was added once real, WebFetch-confirmed primary-source data
-     existed for it -- it is not "entirely uncovered" anymore, though
-     still only 2 of 50 states. */
+     it required more inference than that). NC|Retail is flagged: the
+     Matthews Q2 2026 Charlotte retail report gives vacancy/absorption/
+     asking-rent LEVEL but no stated rent-change trend, so rentChangeRange
+     there is anchored instead on a second, independently WebFetched
+     source (a CRE Daily brief directly reporting CoStar's own Q2 2026
+     figure that Charlotte led major US retail markets with 6.2% annual
+     rent growth) rather than the Matthews report itself. Three researched
+     markets/property-types (FL office/Miami, AZ retail/Phoenix, AL
+     industrial/Huntsville) were deliberately EXCLUDED even though partial
+     data existed -- the research explicitly could not clear this site's
+     medium-confidence bar for them (Miami relied on a secondary source
+     relaying Yardi Matrix data with no metro-wide vacancy figure; Phoenix
+     retail relied on a forecast blended with trailing actuals from a
+     secondary write-up; Huntsville's own Graham & Co. submarket report
+     had real vacancy figures but no asking-rent or rent-growth figure at
+     all, so rentChangeRange couldn't be populated without inventing a
+     number) -- same "never publish a low-confidence figure, leave it out
+     instead" standard the citation database uses. Retail coverage (NY/
+     CA/MA/TX/NC) and office coverage (NY/IL/TX/GA/CA) have both grown
+     past their original footprint as real, WebFetch-confirmed primary-
+     source data has become available -- still nowhere near all 50 states,
+     but no longer "1-2 states deep" either. */
   "leaseMitigationReference": {
     "NY|Office": {
       "reLeaseMonthsRange": [6, 14],
@@ -4451,6 +4470,34 @@ const CASE_VALUATION_DATA = {
       "asOfDate": "2026-06-30",
       "source": "Kidder Mathews, Los Angeles Retail Market Report Q2 2026",
       "sourceUrl": "https://kidder.com/market-reports/los-angeles-retail-market-report/"
+    },
+    "MA|Retail": {
+      "reLeaseMonthsRange": [3, 8],
+      "rentChangeRange": [0, 0.06],
+      "asOfDate": "2026-09-01",
+      "source": "Matthews Real Estate Investment Services, Boston, MA Retail Market Report Q2 2026",
+      "sourceUrl": "https://www.matthews.com/insights/boston-ma-retail-market-report-q2-2026"
+    },
+    "CA|Office": {
+      "reLeaseMonthsRange": [12, 22],
+      "rentChangeRange": [-0.05, 0.02],
+      "asOfDate": "2026-06-30",
+      "source": "Kidder Mathews, Los Angeles Office Market Report Q2 2026",
+      "sourceUrl": "https://kidder.com/market-reports/los-angeles-office-market-report/"
+    },
+    "TX|Retail": {
+      "reLeaseMonthsRange": [4, 10],
+      "rentChangeRange": [0, 0.05],
+      "asOfDate": "2026-04-07",
+      "source": "Matthews Real Estate Investment Services, Dallas-Fort Worth, TX Retail Market Report Q1 2026",
+      "sourceUrl": "https://www.matthews.com/insights/q1-2026-dallas-fort-worth-tx-retail-market-report"
+    },
+    "NC|Retail": {
+      "reLeaseMonthsRange": [3, 8],
+      "rentChangeRange": [0.02, 0.07],
+      "asOfDate": "2026-07-21",
+      "source": "CoStar Group, Q2 2026 U.S. Retail Asking Rent Growth report (Charlotte figure, via CRE Daily)",
+      "sourceUrl": "https://www.credaily.com/briefs/us-retail-rent-growth-slows-to-decade-low-in-q2/"
     }
   }
 };
