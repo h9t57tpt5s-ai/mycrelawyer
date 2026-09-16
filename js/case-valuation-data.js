@@ -4354,14 +4354,15 @@ const CASE_VALUATION_DATA = {
      once entries exist, since a case-specific real number always beats
      a market-average one.
 
-     FIRST 8 REAL ENTRIES (added 2026-09-16), researched via WebSearch +
-     WebFetch of actual CBRE/JLL/Cushman & Wakefield/Colliers quarterly
-     market reports -- one representative major metro per state+property-
-     type pair (the schema has no metro field; where multiple metros exist
-     in a state, e.g. CA industrial's LA vs. Inland Empire, the
-     better-sourced one was used and the other left for a future entry
-     under a different key convention if ever needed). Every
-     reLeaseMonthsRange here is a DIRECTIONAL INFERENCE from real,
+     10 REAL ENTRIES so far (8 added 2026-09-16, 2 more retail entries
+     added the same day once real coverage existed), researched via
+     WebSearch + WebFetch of actual CBRE/JLL/Cushman & Wakefield/Colliers/
+     Kidder Mathews quarterly market reports -- one representative major
+     metro per state+property-type pair (the schema has no metro field;
+     where multiple metros exist in a state, e.g. CA industrial's LA vs.
+     Inland Empire, the better-sourced one was used and the other left for
+     a future entry under a different key convention if ever needed).
+     Every reLeaseMonthsRange here is a DIRECTIONAL INFERENCE from real,
      WebFetched vacancy/absorption/leasing-velocity data -- none of the
      sources directly state "average months to re-lease" as their own
      figure, which is why evalLeaseDisputes()'s own note already frames
@@ -4376,7 +4377,10 @@ const CASE_VALUATION_DATA = {
      Matrix data with no metro-wide vacancy figure; Phoenix retail relied
      on a forecast blended with trailing actuals from a secondary
      write-up) -- same "never publish a low-confidence figure, leave it
-     out instead" standard the citation database uses. */
+     out instead" standard the citation database uses. Retail coverage
+     (NY/CA) was added once real, WebFetch-confirmed primary-source data
+     existed for it -- it is not "entirely uncovered" anymore, though
+     still only 2 of 50 states. */
   "leaseMitigationReference": {
     "NY|Office": {
       "reLeaseMonthsRange": [6, 14],
@@ -4433,6 +4437,20 @@ const CASE_VALUATION_DATA = {
       "asOfDate": "2026-06-30",
       "source": "JLL / Cushman & Wakefield, Phoenix Industrial Market Q2 2026",
       "sourceUrl": "https://www.cushmanwakefield.com/en/united-states/insights/us-marketbeats/phoenix-marketbeats/industrial"
+    },
+    "NY|Retail": {
+      "reLeaseMonthsRange": [3, 9],
+      "rentChangeRange": [-0.02, 0.05],
+      "asOfDate": "2026-07-09",
+      "source": "CBRE, Manhattan Retail Figures Q2 2026",
+      "sourceUrl": "https://www.cbre.com/insights/figures/manhattan-retail-figures-q2-2026"
+    },
+    "CA|Retail": {
+      "reLeaseMonthsRange": [3, 8],
+      "rentChangeRange": [-0.08, 0],
+      "asOfDate": "2026-06-30",
+      "source": "Kidder Mathews, Los Angeles Retail Market Report Q2 2026",
+      "sourceUrl": "https://kidder.com/market-reports/los-angeles-retail-market-report/"
     }
   }
 };
