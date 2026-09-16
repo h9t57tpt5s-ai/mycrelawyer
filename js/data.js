@@ -16,7 +16,7 @@ const RELAW_DATA = {
      Drives the homepage's "New Today" pill: it only shows when this
      equals the visitor's local today. Updated by the digest automation
      each time Step 4 successfully adds a case — never touched otherwise. */
-  lastUpdatedDate: "2026-09-15",
+  lastUpdatedDate: "2026-09-16",
   categories: [
     { id: "landlord-tenant", label: "Landlord–Tenant", color: "var(--cat-landlord)" },
     { id: "zoning-land-use", label: "Zoning & Land Use", color: "var(--cat-zoning)" },
@@ -4166,6 +4166,63 @@ const RELAW_DATA = {
         { when: "2022", label: "Blackstone acquires 8 Spruce Street for $930M and enrolls the building in 421-a" },
         { when: "September 10, 2026", label: "Housing Rights Initiative files class action in New York state court", current: true }
       ]
+    },
+    {
+      id: "live-143",
+      addedDate: "2026-09-16",
+      title: "Elkasimi v. Soho WP / BE-1 Concept Holdings (Park Social Winter Park Staircase Premises-Liability Verdict)",
+      category: "premises-liability",
+      status: "ruling",
+      date: "2026-03-12",
+      jurisdiction: "Ninth Judicial Circuit Court, Orange County, Florida",
+      state: "FL",
+      amount: "$644,751,855.08 jury verdict",
+      source: "live",
+      sourceUrl: "https://www.clickorlando.com/news/local/2026/03/12/man-wins-644m-lawsuit-after-falling-down-stairs-at-winter-park-bar/",
+      summary: "An Orange County, Florida jury awarded more than $644.7 million to Karim Elkasimi, who was left partially quadriplegic after falling down a steep, narrow, ungripped staircase while leaving Park Social, a second-story Winter Park bar, in 2017. The verdict named property-owning and bar-operating entities Soho WP and BE-1 Concept Holdings, after evidence showed a safer staircase existed but had been restricted to employees until the day after the fall.",
+      significance: "One of the largest premises-liability verdicts on record, and a pointed reminder that a pre-code building feature put to modern commercial use does not shield an owner or operator from liability, and that landlords can be swept into liability alongside operating tenants for a structural hazard like a stairway. Owners of older mixed-use and hospitality buildings should treat it as a prompt to audit grandfathered stairways and egress routes still in daily public use.",
+      body: [
+        "A jury in Orange County, Florida has returned a verdict of more than $644.7 million against the ownership and operating entities behind Park Social, a second-story bar and lounge in Winter Park, after a patron who fell down an interior staircase in 2017 was left partially quadriplegic. The award, reported at $644,751,855.08, is among the largest premises-liability verdicts ever recorded in the United States, arriving as commercial property owners and operators nationwide already contend with rising general-liability insurance costs and an increasingly aggressive plaintiffs' bar in the premises-liability space.",
+        "The case arose from a November 25, 2017 incident in which the plaintiff, Karim Elkasimi, then 57, fell down a flight of roughly 20 stairs while leaving Park Social, a venue occupying the second floor of a 1926-era mixed-use building on Winter Park's Park Avenue corridor. The fall left him with catastrophic, permanently disabling injuries, including partial quadriplegia. Elkasimi sued the entities that owned and operated the property and the bar, identified in court filings as Soho WP and BE-1 Concept Holdings, alleging that the staircase he used to exit the building was unreasonably dangerous and that the defendants knew, or should have known, about the hazard well before his fall. At trial, evidence showed the stairs were narrower and steeper than code-conforming egress stairs, with treads that lacked any grip tape, and that a second, safer staircase existed elsewhere in the building but had been restricted to employees only until the day after Elkasimi's fall.",
+        "The jury's award, returned on March 12, 2026, combined compensation for past and future pain and suffering, lost earning capacity, and other economic and non-economic losses. Verdicts of this size in a premises-liability case, as opposed to a mass-tort or class-action context, are exceedingly rare, and it remains flagged among the largest personal-injury awards of the year more than five months after it was announced.",
+        "For commercial property owners, the legal significance lies less in the dollar figure than in the fact pattern the jury credited. Premises-liability law in Florida, as in most states, turns on whether an owner or operator breached a duty of reasonable care to maintain the premises in a reasonably safe condition for invitees, and whether that breach foreseeably caused the injury. Compliance with the building code in effect when a structure was built, here 1926, long before modern stair-width and slip-resistance standards existed, does not automatically satisfy that duty once the property is put to commercial use inviting the general public. The case also shows how tenant improvements and operational decisions inside a leased space can create liability exposure reaching well beyond the tenant, since both the property-owning entity and the bar's operating entity were named and held liable.",
+        "Post-trial proceedings in cases of this magnitude are typically extensive, with defendants commonly pursuing motions challenging the sufficiency of the evidence or the size of the award and seeking remittitur before any appeal, so the final enforceable judgment may look different from the jury's initial number. Commercial landlords and operating tenants sharing a building should treat this verdict as a prompt to jointly audit any pre-code or grandfathered architectural features, staircases especially, that remain in daily public use, and to review any policy that restricts a safer building feature to staff rather than the public, since withholding a known-safer option from patrons was central to this verdict. Because landlord and tenant liability can attach jointly for a structural hazard, lease indemnification and insurance-procurement clauses should be revisited to confirm coverage limits are adequate for a catastrophic-injury claim rather than a routine slip-and-fall, and carriers should be looped in early on any known stairway, egress, or historic-building hazard given how significantly a verdict like this one can reshape a carrier's view of shared risk."
+      ],
+      timeline: [
+        { when: "November 25, 2017", label: "Karim Elkasimi falls down the staircase exiting Park Social" },
+        { when: "March 12, 2026", label: "Orange County jury returns a $644.7M verdict against Soho WP and BE-1 Concept Holdings", current: true }
+      ],
+      tags: ["premises liability", "staircase", "jury verdict", "florida", "hospitality"]
+    },
+    {
+      id: "live-144",
+      addedDate: "2026-09-16",
+      title: "Red River State Bank v. Generations on 1st, LLC (Watertown, SD Multifamily Loan-Default Litigation & Chapter 7 Sale)",
+      category: "lending-foreclosure",
+      status: "pending",
+      date: "2026-08-17",
+      jurisdiction: "U.S. Bankruptcy Court, District of North Dakota",
+      state: "SD",
+      amount: "$22M+ in defaulted promissory notes; The Ruins parcel resold for $6.1M after an $11.265M credit bid unraveled",
+      source: "live",
+      sourceUrl: "https://www.northeastradiosd.com/post/watertown-the-ruins-redevelopment-deal-collapses-as-jesse-craig-forfeits-1-1m-property-sells-to",
+      summary: "A $22M+ loan-default fight between Red River State Bank and Fargo developer Jesse Craig over three Watertown, South Dakota apartment projects has spread across a South Dakota foreclosure court and a North Dakota bankruptcy court. On August 17, 2026, U.S. Bankruptcy Judge Shon Hastings authorized the Chapter 7 trustee to sell the downtown Ruins project to a backup bidder after Craig's own winning $11.265M credit bid collapsed over unresolved lien-priority issues, costing him more than $1.1M in forfeited earnest money.",
+      significance: "Shows how a mid-size regional CRE loan default can splinter into parallel state foreclosure, federal removal/remand, and out-of-state bankruptcy proceedings that each move on independent timelines. Lenders and workout counsel should treat a Chapter 7 credit-bid win as provisional until the trustee's lien inventory is complete and title actually clears.",
+      body: [
+        "A multifamily development dispute rooted in Watertown, South Dakota has grown into a sprawling, multi-forum legal fight spanning state foreclosure litigation, a removed-and-remanded federal case, and a Chapter 7 bankruptcy proceeding in neighboring North Dakota, culminating on August 17, 2026 in a bankruptcy court order that stripped a local developer of a downtown redevelopment site after his own winning bid to reclaim it fell apart. The dispute offers commercial lenders and workout counsel a real-time illustration of how a mid-size regional loan default can metastasize into parallel proceedings that each move on their own timeline and their own rules.",
+        "The underlying dispute traces back to a series of promissory notes, totaling more than $22 million, that Red River State Bank of Halstad, Minnesota extended to finance three Watertown apartment developments launched by Fargo-based developer Jesse Craig: Parkside Place, Generations on 1st, and a downtown adaptive-reuse project known as The Ruins. Red River State Bank filed foreclosure lawsuits in South Dakota's Third Judicial Circuit Court in Codington County, naming Generations on 1st, LLC, Craig Holdings, LLC, Watertown Development Company, and Jesse and Mulinda Craig individually as defendants, alleging that Generations on 1st and Mulinda Craig had defaulted on the notes. The Craigs filed counterclaims against the bank alleging breach of contract, breach of the covenant of good faith and fair dealing, and both actual and constructive fraud, allegations that, if credited, would shift at least some blame for the projects' distress from the developer back onto the lender's own conduct.",
+        "While the state-court foreclosure and fraud counterclaims continued through Codington County, with a related proceeding removed to and then remanded back from federal court in South Dakota, a parallel and ultimately more consequential process unfolded in bankruptcy court. The Ruins ended up in a Chapter 7 sale process with attorney Erik Ahlgren as trustee. Craig's own company initially won that sale with a credit bid of roughly $11.265 million, outbidding the next-highest bidder by more than $5 million under a sale order entered June 4, 2026. The win did not hold: on July 7, 2026, Trustee Ahlgren moved to amend the sale order to explicitly enumerate sixteen separate mortgages, mechanics' liens, and other claims against the property to satisfy South Dakota title-insurance requirements, a sign the lien stack was more tangled than the original order accounted for.",
+        "On August 17, 2026, U.S. Bankruptcy Judge Shon Hastings, Chief Judge of the U.S. Bankruptcy Court for the District of North Dakota, signed a final order authorizing Trustee Ahlgren to convey The Ruins property, at 315 E. Kemp Avenue in Watertown, to backup bidder Archer Land Co., LLC for approximately $6.1 million, roughly half of what Craig's entity had originally bid. Craig forfeited more than $1.1 million in earnest money tied to the original winning bid as part of the deal's collapse.",
+        "The case is instructive for its procedural sprawl: a single distressed multifamily portfolio generated a state-court foreclosure action testing whether the borrower's default is offset by the lender's own conduct, a federal removal-and-remand fight over which court decides threshold issues, and a bankruptcy sale process in a different state's federal court driven by the separate imperative of clearing marketable title. Regional lenders should confirm, before consenting to any credit-bid sale in a borrower's bankruptcy, that the trustee holds a complete, title-insurable lien inventory, since an incomplete schedule can force a sale order to be reopened months later; borrowers should treat a Chapter 7 credit-bid win as provisional until title actually clears, given how much Craig ultimately forfeited when his bid unwound; and workout counsel on any multi-property developer relationship should map every forum a dispute could reach at the outset, since state, federal, and bankruptcy proceedings can each move independently and produce outcomes that affect one another."
+      ],
+      timeline: [
+        { when: "2024", label: "Generations on 1st, LLC and Mulinda Craig default on Red River State Bank promissory notes; bank files foreclosure suits" },
+        { when: "June 4, 2026", label: "Bankruptcy court enters sale order after Craig's company wins The Ruins with an $11.265M credit bid" },
+        { when: "July 7, 2026", label: "Chapter 7 trustee moves to amend the sale order over an incomplete lien inventory" },
+        { when: "August 17, 2026", label: "Bankruptcy Judge Shon Hastings authorizes sale of The Ruins to backup bidder Archer Land Co. for $6.1M", current: true }
+      ],
+      judge: "Shon Hastings",
+      tags: ["foreclosure", "chapter 7 bankruptcy", "south dakota", "multifamily", "loan default"]
     }
   ],
 
