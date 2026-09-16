@@ -503,6 +503,50 @@ function evalLeaseDisputes(f: Facts, cit: CaseData["citations"], data: CaseData)
     out.push(R("quiet_enjoyment_breach", "Breach of Quiet Enjoyment / Constructive Eviction", p, null, null,
       "Fact-intensive claim, informed by comparable cases rather than a formula -- see cited cases."));
   }
+  // Implied warranty of SUITABILITY (not "habitability" -- that residential
+  // doctrine has NOT been extended to commercial leases in the large
+  // majority of U.S. jurisdictions; the traditional "caveat lessee" rule
+  // still governs commercial tenancies absent express lease language).
+  // Texas is the clearly-confirmed exception: Davidow v. Inwood North
+  // Professional Group-Phase I, 747 S.W.2d 373 (Tex. 1988), holds a
+  // commercial landlord impliedly warrants that, at the lease's inception,
+  // there were no latent defects vital to the premises' intended commercial
+  // use, and that those essential facilities will remain suitable --
+  // Davidow further makes the tenant's rent obligation and that warranty
+  // MUTUALLY DEPENDENT, so a real breach can excuse withheld rent rather
+  // than requiring a separate affirmative damages suit. Davidow also treats
+  // this as a DEFAULT, WAIVABLE term the parties can displace by express
+  // lease language. Outside Texas, general secondary sources describe only
+  // scattered, unconfirmed jurisdictional movement toward an implied-
+  // suitability theory -- not confirmed here to at least medium confidence
+  // for any specific other state, so this is modeled as a Texas-specific
+  // claim and a longshot everywhere else, rather than inventing a broader
+  // "habitability" theory commercial lease law doesn't actually support.
+  if (bool(f, "impliedWarrantyOfSuitabilityAlleged")) {
+    const state = str(f, "state");
+    const amount = num(f, "suitabilityRepairCostOrRentWithheld");
+    const waived = str(f, "suitabilityWarrantyWaivedByLease");
+    let p: [number, number];
+    let note: string;
+    if (state === "Texas") {
+      if (waived === "yes") {
+        p = [0.10, 0.25];
+        note = "Texas recognizes an implied warranty of suitability for commercial leases (Davidow v. Inwood North Professional Group-Phase I, 747 S.W.2d 373 (Tex. 1988)), but Davidow treats it as a default term the parties can waive or modify by express lease language -- an express provision addressing this condition has been identified here, which sharply narrows this claim to whatever gap that provision leaves open.";
+      } else if (waived === "no") {
+        p = [0.45, 0.70];
+        note = "Texas is the clearest, most-confirmed jurisdiction recognizing an implied warranty of suitability in commercial leases (Davidow v. Inwood North Professional Group-Phase I, 747 S.W.2d 373 (Tex. 1988)). No express lease provision addressing the condition has been identified here, so the default (unwaived) warranty applies, and Davidow's mutual-dependence rule means a proven breach can justify withheld rent directly rather than requiring a separate damages theory.";
+      } else {
+        p = [0.30, 0.55];
+        note = "Texas recognizes an implied warranty of suitability for commercial leases (Davidow v. Inwood North Professional Group-Phase I, 747 S.W.2d 373 (Tex. 1988)), but it is a default, waivable term -- whether an express lease provision addresses this condition (which would narrow or eliminate the claim) hasn't been confirmed here.";
+      }
+    } else {
+      p = [0.05, 0.15];
+      note = `${state || "Most states"} follow${state ? "s" : ""} the majority "caveat lessee" rule for commercial tenancies -- courts have generally declined to extend the residential implied warranty of habitability to commercial leases (commercial tenants are treated as sophisticated parties expected to negotiate their own express repair/condition covenants). Texas's implied warranty of SUITABILITY (a distinct, narrower doctrine -- Davidow v. Inwood North Professional Group-Phase I, 747 S.W.2d 373 (Tex. 1988)) is the only jurisdiction confirmed here to recognize an implied-warranty theory for commercial premises at all. Absent confirmed recognition of an implied warranty in this state, treat this theory as a longshot and look instead to the lease's own express repair/maintenance covenants and the Breach of Quiet Enjoyment claim above.`;
+    }
+    out.push(R("implied_warranty_of_suitability_breach", "Breach of Implied Warranty of Suitability", p,
+      amount > 0 ? amount * 0.5 : null, amount > 0 ? amount : null,
+      note + (amount > 0 ? " If breach is found, recovery (or the amount of rent excused) tends to track close to the amount actually withheld or spent, since it's usually a dollar-for-dollar rent abatement or an invoiced repair cost -- discounted here only for the chance a court finds the premises only partially unsuitable. No citation-backed damages ratio identified beyond that; treat the low end as a modeling heuristic." : "")));
+  }
   if (num(f, "depositAmount") > 0 && bool(f, "depositDisputed")) {
     const p: [number, number] = !bool(f, "landlordProvidedItemization") ? [0.65, 0.90] : [0.55, 0.80];
     out.push(R("security_deposit", "Wrongfully Withheld Security Deposit", p, num(f, "depositAmount"), num(f, "depositAmount"),
@@ -1349,6 +1393,9 @@ const CATEGORY_FIELDS: Record<string, FieldDef[]> = {
     { key: "depositDisputed", type: "boolean", label: "Is the deposit withheld/disputed?" },
     { key: "landlordProvidedItemization", type: "boolean", label: "Did the landlord provide an itemization of deductions?" },
     { key: "releaseWorkCosts", type: "number", label: "Costs incurred/anticipated to re-lease the space -- landlord's work, tenant-improvement allowance, leasing commissions ($)" },
+    { key: "impliedWarrantyOfSuitabilityAlleged", type: "boolean", label: "Is the tenant alleging the landlord breached an implied warranty that the premises are/remain suitable for their intended commercial use (a latent defect vital to that use)?" },
+    { key: "suitabilityWarrantyWaivedByLease", type: "select", label: "If so: does the lease contain an express provision addressing this condition, or disclaiming an implied suitability warranty?", options: ["yes", "no", "unclear"] },
+    { key: "suitabilityRepairCostOrRentWithheld", type: "number", label: "If so: dollar amount at stake -- tenant's repair costs incurred and/or rent withheld/abated based on the alleged unsuitability ($)" },
     { key: "hasFeeShiftingClause", type: "boolean", label: "Does the lease have an attorney's-fees (fee-shifting) clause?" },
     { key: "litigationPosture", type: "select", label: "Litigation posture (for attorney's-fees estimate)", options: ["default", "answered-passive", "contested-msj", "trial"] },
   ],

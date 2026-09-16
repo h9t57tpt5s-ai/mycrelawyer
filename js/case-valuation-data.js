@@ -233,6 +233,46 @@ const CASE_VALUATION_DATA = {
               "formula": "depositAmount",
               "note": "check per-state for any bad-faith-withholding doubling penalty before asserting one"
             }
+          },
+          "implied_warranty_of_suitability_breach": {
+            "side": "sideB",
+            "label": "Breach of Implied Warranty of Suitability",
+            "appliesIf": "impliedWarrantyOfSuitabilityAlleged",
+            "baseProbability": [
+              0.05,
+              0.15
+            ],
+            "note": "NOT the residential 'implied warranty of habitability' -- that doctrine has NOT been extended to commercial leases in the large majority of U.S. jurisdictions (the traditional 'caveat lessee' rule still applies to commercial tenancies absent express lease language). Texas is the clearly-confirmed exception: Davidow v. Inwood North Professional Group-Phase I, 747 S.W.2d 373 (Tex. 1988), recognizes an implied warranty that commercial premises are suitable for their intended use at inception and will remain so, and makes the tenant's rent obligation and that warranty mutually dependent (a real breach can excuse withheld rent). Davidow itself makes this a DEFAULT, waivable term that yields to an express lease provision. Modeled here as a Texas-specific claim; no other state was confirmed to at least medium confidence during this research pass, so treat as a longshot everywhere else rather than a general commercial 'habitability' theory the law doesn't actually support.",
+            "modifiers": [
+              {
+                "if": "state === 'Texas' && suitabilityWarrantyWaivedByLease === 'no'",
+                "probability": [
+                  0.45,
+                  0.70
+                ],
+                "note": "Davidow's default (unwaived) warranty applies -- the tenant's rent obligation and the landlord's implied warranty are mutually dependent, so a real breach can excuse withheld rent directly."
+              },
+              {
+                "if": "state === 'Texas' && suitabilityWarrantyWaivedByLease === 'unclear'",
+                "probability": [
+                  0.30,
+                  0.55
+                ],
+                "note": "Texas recognizes the warranty, but whether an express lease provision displaces the default (waivable) term hasn't been confirmed."
+              },
+              {
+                "if": "state === 'Texas' && suitabilityWarrantyWaivedByLease === 'yes'",
+                "probability": [
+                  0.10,
+                  0.25
+                ],
+                "note": "An express lease provision addressing the condition has been identified, which Davidow allows to displace the default warranty."
+              }
+            ],
+            "damages": {
+              "formula": "suitabilityRepairCostOrRentWithheld * [0.5, 1.0]",
+              "note": "Typically dollar-for-dollar rent abatement or invoiced repair cost if breach is found -- discounted at the low end only for the chance a court finds only partial unsuitability; no citation-backed damages ratio identified, so treat as a modeling heuristic rather than a case-derived figure."
+            }
           }
         }
       },
