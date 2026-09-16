@@ -1208,9 +1208,11 @@ function fmtMoney(n: number): string {
 // industry norms, not individually cited to a specific real case").
 // Frontend contract: js/case-valuation-report.js's requestFullReport()
 // reads costData.costEstimate.{pathLabel,costRange,monthsRange,isCustom},
-// costData.netAfterCosts, and costData.comparison.{clearlyFavorsLitigating,
-// clearlyFavorsSettling,settlementOnTable} -- keep this in sync with that
-// file if the shape ever changes.
+// costData.netAfterCosts, costData.comparison.{clearlyFavorsLitigating,
+// clearlyFavorsSettling,settlementOnTable}, and
+// costData.{feeShiftingApplied,feeShiftingNote} -- keep this in sync with
+// that file (and js/case-valuation.js's costCardHtml, which mirrors it
+// on-screen) if the shape ever changes.
 //
 // General attorney-fee ranges for a moderately complex commercial real
 // estate dispute, by resolution path -- deliberately broad ranges since
@@ -1227,7 +1229,22 @@ type CostData = {
   costEstimate: { pathLabel: string; costRange: [number, number]; monthsRange: [number, number]; isCustom: boolean };
   netAfterCosts: [number, number] | null;
   comparison: { clearlyFavorsLitigating: boolean; clearlyFavorsSettling: boolean; settlementOnTable: number } | null;
+  feeShiftingApplied: boolean;
+  feeShiftingNote: string | null;
 };
+
+// Disclosure text for the fee-shifting adjustment below -- surfaced
+// identically on both the on-screen card (js/case-valuation.js's
+// costCardHtml) and the PDF report (js/case-valuation-report.js) per the
+// sync comment above costCardHtml. Deliberately hedged: a fee-shifting
+// clause entitles a "prevailing party" to its fees, but whether a court
+// actually finds one side "prevailing" (and awards fees in full, versus a
+// discretionary or partial amount) is never guaranteed just because the
+// clause exists -- this tool has no way to assess that likelihood, so it
+// models the full-award case and says so plainly rather than pretending
+// to more precision than that.
+const FEE_SHIFTING_NOTE =
+  "This lease has a fee-shifting (attorney's-fees) clause, so the cost range below is no longer modeled as \"each side bears its own fees\" (the American Rule default used otherwise). Instead: the best case assumes you're the prevailing party and recover your own litigation costs from the other side, so litigating carries no net cost drag beyond the case value itself; the worst case assumes the other side prevails and you're ordered to pay both sides' litigation costs (the other side's costs aren't separately estimated here, so this uses the same cost range as a stand-in, roughly doubling the standalone worst-case cost). This assumes a full fee award of standard litigation costs -- fee-shifting clauses are often subject to a court's discretion or a \"prevailing party\" determination that isn't guaranteed even when the clause exists, so treat this as an illustrative bracket, not a predicted outcome.";
 
 function computeCostData(
   expectToTrial: boolean,
@@ -1235,6 +1252,7 @@ function computeCostData(
   customCostHigh: number | null,
   netPosition: [number, number] | null,
   settlementOnTable: number | null,
+  feeShifting = false,
 ): CostData {
   const norm = expectToTrial ? COST_NORMS.trial : COST_NORMS.settlement;
   const hasCustom = customCostLow != null && customCostHigh != null && customCostHigh >= customCostLow;
@@ -1244,14 +1262,27 @@ function computeCostData(
   // Net position (netPosition) is already signed so that HIGHER IS
   // ALWAYS BETTER for the represented party, regardless of whether
   // they're nominally plaintiff or defendant (see its computation
-  // above: mySide - otherSide). Litigation costs reduce that position
-  // regardless of which side incurs them (the American Rule default --
-  // each side bears its own fees absent a fee-shifting clause this tool
-  // doesn't attempt to model). Paired conservatively: worst case nets
-  // the low end of the case value against the high end of cost; best
-  // case nets the high end of the case value against the low end of cost.
+  // above: mySide - otherSide). Litigation costs reduce that position --
+  // by default (the American Rule) each side bears its own fees
+  // regardless of who wins, so this is paired conservatively: worst case
+  // nets the low end of the case value against the high end of cost;
+  // best case nets the high end of the case value against the low end
+  // of cost.
+  //
+  // When feeShifting is true (a lease's own attorney's-fees clause, see
+  // hasFeeShiftingClause in the lease-disputes extraction fields), that
+  // symmetric assumption no longer holds, so the range is reshaped
+  // asymmetrically instead of just widened: best case assumes you
+  // prevail and recover your own costs from the other side (no net cost
+  // drag at all -- see FEE_SHIFTING_NOTE's caveat about this being the
+  // full-award case, not a guaranteed one), worst case assumes you don't
+  // prevail and pay both sides' costs at the high end of the estimated
+  // range (using the same range for the other side's costs, since this
+  // tool has no separate estimate for them).
   const netAfterCosts: [number, number] | null = netPosition
-    ? [netPosition[0] - costRange[1], netPosition[1] - costRange[0]]
+    ? feeShifting
+      ? [netPosition[0] - costRange[1] * 2, netPosition[1]]
+      : [netPosition[0] - costRange[1], netPosition[1] - costRange[0]]
     : null;
 
   // settlementOnTable uses the SAME signed convention as netPosition --
@@ -1268,7 +1299,13 @@ function computeCostData(
       }
     : null;
 
-  return { costEstimate, netAfterCosts, comparison };
+  return {
+    costEstimate,
+    netAfterCosts,
+    comparison,
+    feeShiftingApplied: feeShifting,
+    feeShiftingNote: feeShifting ? FEE_SHIFTING_NOTE : null,
+  };
 }
 
 // =========================================================
@@ -2177,6 +2214,7 @@ Deno.serve(async (req) => {
       typeof requestBody.customCostHigh === "number" ? requestBody.customCostHigh : null,
       aiDamagesRange,
       typeof requestBody.settlementOnTable === "number" ? requestBody.settlementOnTable : null,
+      bool(extractedFacts, "hasFeeShiftingClause"),
     );
 
     const totalEstCost = classifyResult.cost + extractionCost + analysisCost;

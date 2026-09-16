@@ -207,12 +207,16 @@ window.CV_REPORT = (function () {
     }
 
     if (ctx.costData) {
-      const { costEstimate, netAfterCosts, comparison } = ctx.costData;
+      const { costEstimate, netAfterCosts, comparison, feeShiftingApplied, feeShiftingNote } = ctx.costData;
       heading("Cost to Litigate & Settlement Comparison", 13);
       body(`Estimated attorney fees (${costEstimate.pathLabel}): ${fmtMoneyRange(costEstimate.costRange)}`, { gap: 4 });
       body(`Estimated time to resolution: ${costEstimate.monthsRange[0]}–${costEstimate.monthsRange[1]} months`, { gap: 4 });
       body(`Net position after litigation costs: ${fmtMoneyRange(netAfterCosts)}`, { bold: true, size: 11.5, gap: 8 });
       body(costEstimate.isCustom ? "Uses your own attorney-fee estimate." : "Uses general commercial-litigation industry cost norms for this category — not individually cited to a real case the way the claim analysis above is.", { size: 8.5, color: MUTED, gap: 8 });
+      if (feeShiftingApplied && feeShiftingNote) {
+        body("Fee-shifting clause detected:", { bold: true, size: 9, gap: 2 });
+        body(feeShiftingNote, { size: 8.5, color: MUTED, gap: 8 });
+      }
       if (comparison) {
         let verdict;
         if (comparison.clearlyFavorsLitigating) verdict = `Litigating clears the ${fmtMoney(comparison.settlementOnTable)} settlement on the table even in the worst-case scenario.`;

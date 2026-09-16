@@ -658,6 +658,7 @@
             <span class="detail-tag">Est. time to resolution: ${costData.costEstimate.monthsRange[0]}–${costData.costEstimate.monthsRange[1]} months</span>
           </div>
           ${costData.netAfterCosts ? `<p style="font-size:14.5px; font-weight:600; color:var(--text-primary); margin-bottom:8px;">Net position after litigation costs: ${V.fmtRange(costData.netAfterCosts[0], costData.netAfterCosts[1])}</p>` : ""}
+          ${costData.feeShiftingApplied && costData.feeShiftingNote ? `<p class="text-secondary" style="font-size:12.5px; line-height:1.6; margin-bottom:8px; padding:8px 10px; border-radius:6px; background:var(--bg-subtle, rgba(127,127,127,0.08));"><strong>Fee-shifting clause detected:</strong> ${costData.feeShiftingNote}</p>` : ""}
           ${costData.comparison ? `<p class="text-secondary" style="font-size:13.5px; line-height:1.6; margin-bottom:8px;">${
             costData.comparison.clearlyFavorsLitigating
               ? `Litigating clears the ${V.fmt(costData.comparison.settlementOnTable)} settlement on the table even in the worst-case scenario.`
