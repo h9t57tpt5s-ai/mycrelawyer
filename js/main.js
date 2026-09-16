@@ -316,12 +316,36 @@
       </span>`;
   }
 
+  /* Settlement-rate aggregate for a judge's matters, shared by every
+     judge-<slug>.html profile page (via the DOMContentLoaded block near
+     the bottom of this file) and by judges.html's directory card. Single
+     source of truth for both the "resolved" definition (settled or ruling
+     -- filed/pending/appeal haven't reached an outcome yet) and the
+     minimum-sample-size bar, so the two call sites can't drift apart.
+     Mirrors the minimum of 3 already used for the settlement-benchmarks
+     aggregate on contribute-settlement.html -- same honesty discipline:
+     don't show a rate computed from 1-2 data points. */
+  function judgeSettlementStats(matters, minSample) {
+    minSample = minSample || 3;
+    const RESOLVED_STATUSES = ["settled", "ruling"];
+    const resolved = (matters || []).filter((c) => RESOLVED_STATUSES.indexOf(c.status) !== -1);
+    const settledCount = resolved.filter((c) => c.status === "settled").length;
+    return {
+      resolvedCount: resolved.length,
+      settledCount: settledCount,
+      minSample: minSample,
+      sufficientSample: resolved.length >= minSample,
+      rate: resolved.length ? Math.round((settledCount / resolved.length) * 100) : null,
+    };
+  }
+
   window.RELAW_UTILS = window.RELAW_UTILS || {};
   window.RELAW_UTILS.formatDate = formatDate;
   window.RELAW_UTILS.categoryById = typeof RELAW_DATA !== "undefined" ? categoryById : null;
   window.RELAW_UTILS.statusById = typeof RELAW_DATA !== "undefined" ? statusById : null;
   window.RELAW_UTILS.caseCardHtml = typeof RELAW_DATA !== "undefined" ? caseCardHtml : null;
   window.RELAW_UTILS.caseChipHtml = typeof RELAW_DATA !== "undefined" ? caseChipHtml : null;
+  window.RELAW_UTILS.judgeSettlementStats = judgeSettlementStats;
 
   /* Renders the byline row shown under every case's headline in the detail
      panel. Single source of truth is RELAW_DATA.author (js/data.js) — this
@@ -751,4 +775,56 @@
       if (cardEl) window.RELAW_UTILS.openCaseDetail(cardEl.getAttribute("data-case-id"));
     });
   }
+
+  /* ---------- Judge profile: settlement-rate stat card ----------
+     Adds a "Settlement Rate" card to the #jp-stats grid that every
+     judge-<slug>.html page's own inline script already builds (practice
+     areas / case status / coverage window). Living here instead of being
+     hand-added to all 37 existing judge-*.html files means one edit
+     covers every current and future profile page automatically.
+
+     Runs on DOMContentLoaded rather than immediately: this file loads and
+     executes near the top of </body>, well before each judge page's own
+     inline script (the last script tag on the page, which fills in
+     #jp-stats via a wholesale statsGrid.innerHTML = ...). Appending here
+     immediately would either find an empty grid or get clobbered by that
+     later overwrite. DOMContentLoaded fires only after the document is
+     fully parsed -- which, since scripts execute in source order as the
+     parser reaches them, means every synchronous <script> before it
+     (including that page's own trailing inline block) has already run.
+
+     A judge's real average time from filing to resolution was considered
+     for this same card (per the Phase 3 roadmap ask) but isn't buildable
+     from real data: RELAW_DATA.cases carries exactly one `date` field per
+     matter ("date of the ruling/filing/development, not today" -- see
+     scripts/re-legal-news-digest-prompt.md), a single point-in-time
+     snapshot, not a filed/resolved date pair. Fabricating one isn't an
+     option (see CLAUDE.md's "never fabricate content"), so this only
+     ships the settlement-rate half. */
+  document.addEventListener("DOMContentLoaded", () => {
+    if (typeof RELAW_DATA === "undefined" || !RELAW_DATA.cases || !RELAW_DATA.judges) return;
+    const statsGrid = document.getElementById("jp-stats");
+    if (!statsGrid) return; // not a judge profile page
+
+    const slugMatch = location.pathname.match(/judge-([a-z0-9-]+)\.html$/i);
+    if (!slugMatch) return;
+    const judge = RELAW_DATA.judges.find((j) => j.slug === slugMatch[1]);
+    if (!judge) return;
+
+    const matters = RELAW_DATA.cases.filter((c) => c.judge === judge.name);
+    const stats = window.RELAW_UTILS.judgeSettlementStats(matters);
+
+    const cardHtml = stats.sufficientSample
+      ? `<div class="card reveal in-view" style="padding:24px;">
+          <div class="text-muted" style="font-size:12px; text-transform:uppercase; letter-spacing:0.04em; margin-bottom:6px;">Settlement Rate</div>
+          <div class="mono" style="font-size:2rem; font-weight:600; color:var(--accent);">${stats.rate}%</div>
+          <div class="text-muted" style="font-size:12px; margin-top:6px;">${stats.settledCount} of ${stats.resolvedCount} resolved matters settled; the rest ended in a ruling</div>
+        </div>`
+      : `<div class="card reveal in-view" style="padding:24px;">
+          <div class="text-muted" style="font-size:12px; text-transform:uppercase; letter-spacing:0.04em; margin-bottom:6px;">Settlement Rate</div>
+          <div class="text-secondary" style="font-size:13px; line-height:1.6;">Not enough resolved matters yet to compute a rate (${stats.resolvedCount} of ${stats.minSample} needed).</div>
+        </div>`;
+
+    statsGrid.insertAdjacentHTML("beforeend", cardHtml);
+  });
 })();

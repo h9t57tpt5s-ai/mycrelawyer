@@ -389,7 +389,7 @@
       judgesCountEl.textContent = `${sorted.length} judge${sorted.length === 1 ? "" : "s"} of ${judgeEntries.length}`;
 
       judgesGrid.innerHTML = sorted.length
-        ? sorted.map(({ name, ref, court, matters }) => `<div class="card">
+        ? sorted.map(({ name, ref, court, matters }) => { const settlement = window.RELAW_UTILS.judgeSettlementStats(matters); return `<div class="card">
           <h3 style="font-size:1.05rem;">${name}</h3>
           <p class="text-muted" style="font-size:12.5px; margin:6px 0 2px; font-weight:600;">${ref ? ref.title : ""}</p>
           <p class="text-muted mono" style="font-size:12px; margin:0 0 12px;">${courtLinkHtml(court)}</p>
@@ -399,10 +399,13 @@
             ${ref && ref.slug ? `<a href="judge-${ref.slug}.html" class="text-accent" style="display:inline-flex; align-items:center; gap:4px; font-size:12.5px; font-weight:600; text-decoration:none;">Full profile ↗</a>` : ""}
           </div>
           <div style="display:flex; flex-direction:column; gap:8px; padding-top:${ref ? "12px" : "0"}; border-top:${ref ? "1px solid var(--border-soft)" : "none"};">
-            <p class="text-muted" style="font-size:11px; text-transform:uppercase; letter-spacing:0.04em; margin:0 0 2px;">${matters.length === 1 ? "Matter" : `${matters.length} Matters`} on CREdocket</p>
+            <div style="display:flex; align-items:center; justify-content:space-between; gap:8px; flex-wrap:wrap;">
+              <p class="text-muted" style="font-size:11px; text-transform:uppercase; letter-spacing:0.04em; margin:0 0 2px;">${matters.length === 1 ? "Matter" : `${matters.length} Matters`} on CREdocket</p>
+              ${settlement.sufficientSample ? `<span class="badge" style="background:color-mix(in srgb, var(--accent) 16%, transparent); color:var(--accent); border:1px solid color-mix(in srgb, var(--accent) 35%, transparent);" title="${settlement.settledCount} of ${settlement.resolvedCount} resolved matters settled">${settlement.rate}% settlement rate</span>` : ""}
+            </div>
             ${matters.map((c) => window.RELAW_UTILS.caseChipHtml(c)).join("")}
           </div>
-        </div>`).join("")
+        </div>`; }).join("")
         : `<p class="text-secondary" style="grid-column:1/-1;">No judges match "${judgesSearchInput.value}".</p>`;
 
       // "in-view" on the descendants makes .reveal cards visible, but
