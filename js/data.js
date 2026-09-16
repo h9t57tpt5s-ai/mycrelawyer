@@ -4222,7 +4222,9 @@ const RELAW_DATA = {
         { when: "August 17, 2026", label: "Bankruptcy Judge Shon Hastings authorizes sale of The Ruins to backup bidder Archer Land Co. for $6.1M", current: true }
       ],
       judge: "Shon Hastings",
-      tags: ["foreclosure", "chapter 7 bankruptcy", "south dakota", "multifamily", "loan default"]
+      tags: ["foreclosure", "chapter 7 bankruptcy", "south dakota", "multifamily", "loan default"],
+      docketUrl: "https://www.courtlistener.com/docket/69518085/the-ruins-llc/",
+      docketLabel: "CourtListener docket (The Ruins, LLC Ch. 7 case)"
     }
   ],
 
