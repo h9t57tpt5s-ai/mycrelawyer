@@ -686,15 +686,81 @@ function evalLendingForeclosure(f: Facts, cit: CaseData["citations"]): Claim[] {
   return out;
 }
 
+// PSLRA heightened scienter-pleading standard (15 U.S.C. Sec. 78u-4(b)(2)(A) --
+// a Rule 10b-5 complaint must plead, WITH PARTICULARITY, facts giving rise
+// to a "strong inference" that the defendant acted with scienter, not just
+// notice-plead it the way Rule 8 would otherwise allow). Tellabs, Inc. v.
+// Makor Issues & Rights, Ltd., 551 U.S. 308 (2007), construed that inference
+// requirement: it need not be irrefutable, but must be "cogent and at least
+// as compelling as any opposing inference of nonfraudulent intent," judged
+// holistically rather than allegation-by-allegation. This is a materially
+// harder bar than ordinary pleading, and it operates PRE-DISCOVERY -- a
+// case that can't clear it is dismissed before any settlement-percentage
+// figure below ever becomes relevant. Modeled as a standalone, PROBABILITY-
+// ONLY claim (no damages of its own, same non-monetary pattern as
+// receivership_dispute in evalLendingForeclosure above) rather than folded
+// silently into securities_fraud_10b5's own number, because "will this
+// survive the motion to dismiss" and "how much is the case worth on the
+// merits" are genuinely distinct questions a litigator tracks separately --
+// but it ALSO caps securities_fraud_10b5's own headline probability below
+// (a case can't reach a merits-stage settlement percentage if it never
+// clears this pleading gate), so a weak-scienter, pre-MTD case shows a
+// LOWER top-line probability than a garden-variety notice-pleading claim
+// would, not a higher one.
+function computePslraScienterAdjustment(f: Facts): { survivalProb: [number, number]; note: string; strengthLabel: string } {
+  const strength = str(f, "scienterPleadingStrength");
+  if (strength === "particularized-strong") {
+    return {
+      survivalProb: [0.55, 0.75],
+      strengthLabel: "particularized, contemporaneous evidence of scienter alleged (e.g. internal documents, a subsequent restatement, an SEC/DOJ finding, admissions, or specific executive knowledge tied to the misstatement)",
+      note: "Particularized, contemporaneous evidence materially improves the odds of clearing the PSLRA's 'strong inference' bar, though Tellabs still requires weighing it against any innocent competing inference before a court lets the claim proceed to discovery.",
+    };
+  }
+  if (strength === "circumstantial-moderate") {
+    return {
+      survivalProb: [0.30, 0.50],
+      strengthLabel: "circumstantial scienter evidence alleged (e.g. confidential-witness accounts, suspicious insider stock sales, or a red-flag pattern) without a smoking-gun admission or restatement",
+      note: "Circumstantial evidence can satisfy Tellabs, but only if specific and compelling enough in the aggregate -- courts routinely dismiss where confidential-witness allegations are vague or insider sales fit an ordinary, pre-scheduled trading pattern (a Rule 10b5-1 plan), so this sits well below a particularized-evidence case.",
+    };
+  }
+  if (strength === "generic-corporate-only") {
+    return {
+      survivalProb: [0.08, 0.20],
+      strengthLabel: 'only generic "the company/its officers must have known" corporate-scienter allegations, with no particularized facts tied to any specific individual\'s knowledge',
+      note: "This is close to the fact pattern the PSLRA was written to screen out -- pleading that a defendant must have known of a problem merely because of its importance to the company, without particularized facts, is squarely the kind of generalized, non-particularized theory that fails Tellabs; dismissal (with or without leave to amend) is the likely outcome absent stronger facts.",
+    };
+  }
+  return {
+    survivalProb: [0.20, 0.40],
+    strengthLabel: "scienter-pleading strength not yet specified",
+    note: "The strength of the particularized scienter allegations is the single biggest driver of whether this claim clears the PSLRA's heightened pleading bar before discovery -- provide more detail (documents, witnesses, admissions, timing of insider trades) to narrow this range.",
+  };
+}
+
 function evalReitSecurities(f: Facts, cit: CaseData["citations"]): Claim[] {
   const out: Claim[] = [];
   const R = (k: string, l: string, p: [number, number], lo: number | null, hi: number | null, n?: string) => R2(cit, k, l, p, lo, hi, n);
   if (bool(f, "stockDropAlleged") && num(f, "estimatedInvestorLosses") > 0) {
     const tier = bool(f, "hasCriminalConductOrAuditorOrControllingShareholder");
     const pctRange: [number, number] = tier ? [0.10, 0.25] : [0.03, 0.08];
-    out.push(R("securities_fraud_10b5", "Securities Fraud (Rule 10b-5)", [0.35, 0.55],
+    let baseP: [number, number] = [0.35, 0.55];
+    let pslraSuffix = "";
+    const atMtd = bool(f, "pslraMotionToDismissStage");
+    if (atMtd) {
+      const pslra = computePslraScienterAdjustment(f);
+      // The merits-stage figure can never exceed the odds of surviving the
+      // pleading-stage gate in the first place -- cap, don't just widen.
+      baseP = [Math.min(baseP[0], pslra.survivalProb[0]), Math.min(baseP[1], pslra.survivalProb[1])];
+      pslraSuffix = ` PRE-MOTION-TO-DISMISS: this figure is capped by the PSLRA's heightened scienter-pleading standard (15 U.S.C. Sec. 78u-4(b)(2); Tellabs, Inc. v. Makor Issues & Rights, Ltd., 551 U.S. 308 (2007)) -- ${pslra.strengthLabel}. See the separate Motion-to-Dismiss Survival claim below for this standard modeled on its own.`;
+    }
+    out.push(R("securities_fraud_10b5", "Securities Fraud (Rule 10b-5)", baseP,
       num(f, "estimatedInvestorLosses") * pctRange[0], num(f, "estimatedInvestorLosses") * pctRange[1],
-      tier ? "Criminal conduct / auditor / controlling-shareholder self-dealing present -- settlements run an order of magnitude higher than a clean case." : "Clean stock-drop fact pattern -- typical range is 3-8% of estimated investor losses."));
+      (tier ? "Criminal conduct / auditor / controlling-shareholder self-dealing present -- settlements run an order of magnitude higher than a clean case." : "Clean stock-drop fact pattern -- typical range is 3-8% of estimated investor losses.") + pslraSuffix));
+    if (atMtd) {
+      const pslra = computePslraScienterAdjustment(f);
+      out.push(R("pslra_scienter_pleading_survival", "Motion-to-Dismiss Survival (PSLRA Scienter Pleading Standard)", pslra.survivalProb, null, null,
+        `Not a separate cause of action -- this is the threshold pleading hurdle the Rule 10b-5 claim above must clear before discovery, under the PSLRA's heightened scienter-pleading standard (15 U.S.C. Sec. 78u-4(b)(2)) as construed in Tellabs, Inc. v. Makor Issues & Rights, Ltd., 551 U.S. 308 (2007): the complaint must plead, with particularity, facts giving rise to an inference of scienter that is "cogent and at least as compelling as any opposing inference of nonfraudulent intent" -- a materially harder bar than ordinary notice pleading. Modeled here as ${pslra.strengthLabel}. ${pslra.note} Directional, calibrated to the doctrinal standard rather than to a specific empirical motion-to-dismiss-outcome dataset -- refine with real case-outcome data if it becomes available.`));
+    }
   }
   // Real, on-point pair from the same underlying facts: RTL/AR Global's
   // $375M internalization payment bundled into the Global Net Lease merger
@@ -1428,6 +1494,8 @@ const CATEGORY_FIELDS: Record<string, FieldDef[]> = {
     { key: "specificInsiderStakeAlleged", type: "boolean", label: "Is a specific undisclosed insider financial stake alleged?" },
     { key: "mergerObjection", type: "boolean", label: "Is this a merger/sale-terms objection suit?" },
     { key: "controllingInsiderSelfDealingInMerger", type: "boolean", label: "Is a specific self-dealing payment to a controlling insider (e.g. an internalization fee to the sponsor/manager) alleged as part of the merger itself?" },
+    { key: "pslraMotionToDismissStage", type: "boolean", label: "Is the Rule 10b-5 claim currently at, or before, the motion-to-dismiss stage?" },
+    { key: "scienterPleadingStrength", type: "select", label: "Strength of the pled facts giving rise to a 'strong inference' of scienter under the PSLRA's heightened pleading standard", options: ["particularized-strong", "circumstantial-moderate", "generic-corporate-only", "unclear"] },
   ],
   "construction-defect": [
     { key: "state", type: "state", label: "Project state (for the construction anti-indemnity statute)" },

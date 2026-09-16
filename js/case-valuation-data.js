@@ -413,7 +413,7 @@ const CASE_VALUATION_DATA = {
               0.35,
               0.55
             ],
-            "note": "Stanford Securities Class Action Clearinghouse (the designated primary source) is STILL inaccessible as of this research pass (re-checked -- still 'under construction, expected back Winter 2026,' same status as before). Its successor project, Stanford Securities Litigation Analytics (sla.law.stanford.edu), has the underlying data but requires a data license/login for detailed filtering and settlement figures -- not usable for this kind of ad hoc research. Rerun once either is freely accessible; a general web search pass in the meantime did surface real additions elsewhere in this category (see breach_fiduciary_duty_derivative and merger_objection_suit) but still did not turn up more small mortgage-REIT/non-traded-REIT Rule 10b-5 settlements specifically.",
+            "note": "Stanford Securities Class Action Clearinghouse (the designated primary source) is STILL inaccessible as of this research pass (re-checked -- still 'under construction, expected back Winter 2026,' same status as before). Its successor project, Stanford Securities Litigation Analytics (sla.law.stanford.edu), has the underlying data but requires a data license/login for detailed filtering and settlement figures -- not usable for this kind of ad hoc research. Rerun once either is freely accessible; a general web search pass in the meantime did surface real additions elsewhere in this category (see breach_fiduciary_duty_derivative and merger_objection_suit) but still did not turn up more small mortgage-REIT/non-traded-REIT Rule 10b-5 settlements specifically. ADDED: when pslraMotionToDismissStage is true (this claim hasn't yet cleared a motion to dismiss), baseProbability is capped by -- never exceeds -- the pslra_scienter_pleading_survival claim's probability below, since a case can't reach a merits-stage settlement percentage without first clearing the PSLRA's heightened scienter-pleading gate.",
             "damages": {
               "formula": "settlementPercentOfEstimatedInvestorLosses",
               "percentRange": [
@@ -513,6 +513,46 @@ const CASE_VALUATION_DATA = {
             "note": "Confirmed low real-recovery probability (kept at 0.10–0.25): the classic 'disclosure-only settlement' pattern — supplemental proxy disclosures get added, suits get mooted, and post-Trulia courts have grown skeptical of paying a 'mootness fee' for it at all. Where a mootness fee IS paid, it goes to plaintiff's counsel (typically $75K–$500K), not to shareholders as a per-share recovery — model this claim type as high-frequency, low-dollar-value litigation risk, and make the counsel-fee-vs-shareholder-recovery distinction explicit in the UI.",
             "damages": {
               "formula": "usually a mootness fee to counsel (modest, often $75K-$500K) rather than a per-share shareholder recovery; flag this distinction explicitly in the UI"
+            }
+          },
+          "pslra_scienter_pleading_survival": {
+            "side": "sideA",
+            "label": "Motion-to-Dismiss Survival (PSLRA Scienter Pleading Standard)",
+            "appliesIf": "stockDropAlleged && pslraMotionToDismissStage",
+            "baseProbability": [
+              0.20,
+              0.40
+            ],
+            "note": "Not a separate cause of action -- this is the threshold pleading hurdle the securities_fraud_10b5 claim above must clear before discovery, under the Private Securities Litigation Reform Act's heightened scienter-pleading standard (15 U.S.C. Sec. 78u-4(b)(2)) as construed in Tellabs, Inc. v. Makor Issues & Rights, Ltd., 551 U.S. 308 (2007): the complaint must plead, with particularity, facts giving rise to an inference of scienter that is 'cogent and at least as compelling as any opposing inference of nonfraudulent intent' -- a materially harder bar than ordinary Rule 8 notice pleading. Probability-only, no independent damages -- same non-monetary pattern as receivership_dispute in the lending-foreclosure category. Directional, calibrated to the doctrinal standard rather than to a specific empirical motion-to-dismiss-outcome dataset -- refine with real case-outcome data if it becomes available.",
+            "modifiers": [
+              {
+                "if": "scienterPleadingStrength === 'particularized-strong'",
+                "probability": [
+                  0.55,
+                  0.75
+                ],
+                "note": "Particularized, contemporaneous evidence (internal documents, a subsequent restatement, an SEC/DOJ finding, admissions, specific executive knowledge tied to the misstatement)."
+              },
+              {
+                "if": "scienterPleadingStrength === 'circumstantial-moderate'",
+                "probability": [
+                  0.30,
+                  0.50
+                ],
+                "note": "Circumstantial evidence only (confidential witnesses, suspicious insider stock sales, a red-flag pattern) -- can satisfy Tellabs but only if specific and compelling enough in the aggregate."
+              },
+              {
+                "if": "scienterPleadingStrength === 'generic-corporate-only'",
+                "probability": [
+                  0.08,
+                  0.20
+                ],
+                "note": "Only generic 'must have known' corporate-scienter allegations with no particularized individual knowledge -- close to the fact pattern the PSLRA was written to screen out."
+              }
+            ],
+            "damages": {
+              "formula": "not a damages claim -- a pleading-stage survival probability, not a dollar figure",
+              "isRange": false
             }
           }
         }
