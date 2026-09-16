@@ -4225,6 +4225,89 @@ const RELAW_DATA = {
       tags: ["foreclosure", "chapter 7 bankruptcy", "south dakota", "multifamily", "loan default"],
       docketUrl: "https://www.courtlistener.com/docket/69518085/the-ruins-llc/",
       docketLabel: "CourtListener docket (The Ruins, LLC Ch. 7 case)"
+    },
+    {
+      id: "live-145",
+      addedDate: "2026-09-16",
+      title: "Proven Business Skills v. Phoenix American Hospitality, LLC (Non-Traded Hotel REIT Securities Class Action)",
+      category: "reit-securities",
+      status: "filed",
+      date: "2026-09-16",
+      jurisdiction: "U.S. District Court, Northern District of Texas",
+      state: "TX",
+      amount: "$86M+ raised from 2,000+ retail investors across two non-traded REIT funds; class damages not yet quantified",
+      source: "live",
+      sourceUrl: "https://www.financialcontent.com/article/bizwire-2026-9-16-federman-and-sherwood-announces-filing-of-securities-class-action-lawsuit-against-phoenix-american-hospitality-llc-american-hospitality-properties-reit-inc-american-hospitality-properties-reit-ii-inc-and-william-lee-nelson",
+      summary: "Federman & Sherwood filed a securities class action against Phoenix American Hospitality, LLC, its two affiliated non-traded REIT funds, and president William Lee Nelson in the Northern District of Texas, roughly three months after the SEC settled fraud charges against the same defendants over the same conduct. The SEC alleged PAH and Nelson raised about $86 million from more than 2,000 retail investors by misrepresenting that a fund owned 'as many as 11 hotels' when it actually held only a preferred equity interest in a single hotel until January 2024.",
+      significance: "Shows how quickly a settled SEC enforcement action — reached without an admission of liability — can become the factual foundation for a follow-on private securities class action, since the SEC's own detailed complaint gives plaintiffs' counsel a ready-made roadmap. Sponsors of non-traded REITs and similar retail-facing fund vehicles should treat asset-level representations in offering materials as high-litigation-risk statements, particularly where there is no public trading market to independently test investor harm.",
+      body: [
+        "A Dallas-based hospitality fund manager that settled SEC fraud charges in June now faces a parallel private securities class action from the same class of investors the SEC found it had misled. On September 16, 2026, the plaintiffs' firm Federman & Sherwood filed suit, captioned Proven Business Skills v. Phoenix American Hospitality, LLC, et al., in the U.S. District Court for the Northern District of Texas against Phoenix American Hospitality, LLC, its two affiliated non-traded REIT funds, American Hospitality Properties REIT, Inc. and American Hospitality Properties REIT II, Inc., and PAH's president, William Lee 'Perch' Nelson.",
+        "The private suit tracks factual findings the SEC itself made in a settled enforcement action filed and resolved on June 4, 2026 in the same courthouse. The SEC alleged that PAH and Nelson raised approximately $86 million from more than 2,000 retail investors across the two funds between March 2022 and July 2024, and that PAH told investors one fund owned 'as many as 11 hotels' when in reality the fund held only a preferred equity interest in a single hotel property until January 2024. PAH first disclosed the underlying SEC subpoena in July 2024. Without admitting or denying the allegations, PAH and Nelson agreed to final judgments requiring PAH to pay a $591,127 civil penalty and Nelson to pay a $118,225 civil penalty, along with a five-year bar on Nelson serving as an officer or director of a public company, subject to court approval.",
+        "The new class action asserts claims under Section 10(b) of the Securities Exchange Act of 1934 and SEC Rule 10b-5 for material misstatements and omissions made in connection with the purchase of a security, plus a Section 20(a) control-person claim against Nelson and other officers. The class period runs from March 1, 2022 through July 31, 2024, and investors have until November 16, 2026 to petition the court to serve as lead plaintiff under the Private Securities Litigation Reform Act.",
+        "The sequencing is the real lesson for sponsors raising capital through non-traded REITs or similar retail-facing fund structures: a regulatory settlement's 'without admitting or denying' language does nothing to stop a plaintiffs' firm from using the SEC's own publicly filed, fact-rich complaint as the backbone of a follow-on suit, and it let Federman & Sherwood move to filing roughly fifteen weeks after the SEC settlement was announced. Because non-traded REIT interests typically have no public trading market to independently benchmark investor harm the way an exchange-listed REIT's share price would, offering-document representations about portfolio composition — asset counts, ownership interests, occupancy — carry outsized litigation risk, since they are often the only information retail investors have to evaluate the investment, and individual officers named in a control-person claim face exposure that a negotiated SEC officer bar does nothing to resolve. Counsel advising sponsors under SEC scrutiny should factor the near-certain shape and timing of follow-on private litigation into how a settlement is negotiated and worded, since the settlement's factual findings become public, and usable by plaintiffs' firms, almost immediately."
+      ],
+      timeline: [
+        { when: "March 2022 – July 2024", label: "Alleged class period during which PAH and its funds raised roughly $86M from retail investors" },
+        { when: "July 2024", label: "PAH discloses receipt of an SEC subpoena related to the funds" },
+        { when: "June 4, 2026", label: "SEC files and settles fraud charges against PAH and Nelson" },
+        { when: "September 16, 2026", label: "Federman & Sherwood files a follow-on securities class action in the Northern District of Texas", current: true }
+      ],
+      tags: ["reit securities", "sec enforcement", "class action", "hotel reit", "non-traded reit"]
+    },
+    {
+      id: "live-146",
+      addedDate: "2026-09-16",
+      title: "Blue Sky Towers IV LLC v. Town of Waldoboro (Wireless Tower Siting / Telecommunications Act Suit)",
+      category: "zoning-land-use",
+      status: "filed",
+      date: "2026-09-11",
+      jurisdiction: "U.S. District Court, District of Maine",
+      state: "ME",
+      amount: "Non-monetary; seeks injunctive relief compelling tower-siting approval plus attorneys' fees",
+      source: "live",
+      sourceUrl: "https://wirelessestimator.com/articles/2026/blue-sky-towers-federal-lawsuit-targets-maine-towns-rule-restricting-towers-to-route-1-corridor/",
+      summary: "Blue Sky Towers IV LLC sued the Town of Waldoboro, Maine in federal court after its Board of Appeals unanimously denied a variance needed to build a 194-foot wireless tower roughly five miles from Route 1, outside a town ordinance limiting wireless facilities to within 300 yards of that corridor. The complaint alleges the restriction violates the Telecommunications Act's bar on local decisions that effectively prohibit personal wireless service, and separately claims the denial lacked substantial evidence.",
+      significance: "Tests how far a facially neutral distance-based zoning standard can go before it becomes an unlawful barrier to wireless build-out under federal preemption law. Municipalities and developers alike should treat the case as a signal that a location restriction confining a federally protected use to a narrow sliver of a town's land area is vulnerable to challenge regardless of how it is labeled under local zoning law.",
+      body: [
+        "A wireless infrastructure developer has sued a Maine town over a zoning provision that, on its face, looks like an ordinary dimensional standard but that the developer says functions as a near-total ban on new cell towers across most of the town. On September 11, 2026, Blue Sky Towers IV LLC filed suit against the Town of Waldoboro, its Board of Appeals, and its Planning Board in the U.S. District Court for the District of Maine, challenging the denial of a variance that would have allowed a 194-foot self-support tower intended to close a documented Verizon coverage gap in South Waldoboro.",
+        "Waldoboro's ordinance permits wireless facilities in its Rural Zoning District with Planning Board site-plan approval, but a separate provision confines such facilities to within 300 yards of Route 1, the town's main corridor. Blue Sky's proposed site at 2734 Friendship Road sits roughly five miles from Route 1. Blue Sky sought a dimensional variance from the 300-yard restriction, but the town's own attorney concluded the rule functions as a location requirement rather than a true dimensional setback, and that Maine law left the Board of Appeals without jurisdiction to grant that type of variance. The Board unanimously denied the variance on August 20, 2026.",
+        "Blue Sky's complaint invokes Section 332(c)(7) of the Telecommunications Act of 1996, which bars state and local governments from decisions that have 'the effect of prohibiting the provision of personal wireless services.' The complaint also alleges the denial was not supported by substantial evidence in the written record, a separate requirement under the same statutory section, and raises a state-law claim that the Board abused its discretion by declining to even consider the effective-prohibition issue. Blue Sky has asked for expedited review, a track Section 332(c)(7)(B)(v) expressly contemplates for wireless-siting challenges.",
+        "The dispute follows a similar suit Blue Sky Towers III LLC filed earlier in 2026 against the neighboring town of Nobleboro after its own board rejected a comparable tower proposal, suggesting a broader pattern of friction between wireless build-out plans and small-town Maine zoning boards. For commercial landowners and infrastructure developers, the case is a reminder that local governments retain real authority to regulate the siting and appearance of wireless facilities, but that authority has a federal floor: a rule cannot, in practice, foreclose a carrier's ability to close a demonstrated coverage gap, regardless of how the rule is labeled under state zoning law. Developers pursuing a similar challenge should build a documented coverage-gap record before filing suit, since both the effective-prohibition and substantial-evidence standards turn heavily on the administrative record compiled below, and municipalities drafting distance-based siting rules should stress-test them against realistic coverage scenarios rather than assume a numeric standard is automatically defensible."
+      ],
+      timeline: [
+        { when: "August 20, 2026", label: "Waldoboro Board of Appeals unanimously denies Blue Sky's dimensional variance request" },
+        { when: "September 11, 2026", label: "Blue Sky Towers IV LLC files suit in the U.S. District Court for the District of Maine", current: true }
+      ],
+      tags: ["zoning", "telecommunications act", "wireless siting", "maine", "land use"]
+    },
+    {
+      id: "live-147",
+      addedDate: "2026-09-16",
+      title: "Lewis v. Circle K Stores, Inc. (Fourth Circuit Premises-Liability Summary-Judgment Reversal)",
+      category: "premises-liability",
+      status: "ruling",
+      date: "2026-05-13",
+      jurisdiction: "U.S. Court of Appeals for the Fourth Circuit",
+      state: "SC",
+      amount: "Non-monetary; summary judgment reversed and case remanded for trial in the District of South Carolina",
+      source: "live",
+      sourceUrl: "https://law.justia.com/cases/federal/appellate-courts/ca4/25-1964/25-1964-2026-05-13.html",
+      summary: "The Fourth Circuit reversed summary judgment for Circle K Stores Inc. in a South Carolina premises-liability suit, holding that a jury, not a judge, should decide whether a parking-lot surface an employee had just cleaned with water and concrete cleaner was truly 'open and obvious,' and that expert testimony was not categorically required to prove the wet surface caused the plaintiff's fall. Judge J. Harvie Wilkinson III wrote the panel opinion, joined by Judges Julius N. Richardson and Toby Heytens.",
+      significance: "Narrows a defense — 'open and obvious' hazard — that commercial property owners and retail operators rely on constantly to defeat premises-liability claims at summary judgment, particularly where an employee created the condition and an internal safety policy calling for a warning went unfollowed. Owners, operators, and insurers should revisit maintenance and cleaning protocols with an eye toward documented compliance, not just written policy.",
+      body: [
+        "Commercial property owners and the convenience-store and retail operators that occupy their sites received a reminder in May that the 'open and obvious' defense to a premises-liability claim is narrower than many defendants assume, particularly where an employee actively creates the hazardous condition. In Lewis v. Circle K Stores Inc., the U.S. Court of Appeals for the Fourth Circuit reversed a grant of summary judgment for the store operator, holding that a jury should decide whether a wet, freshly cleaned parking-lot surface was truly open and obvious and whether the plaintiff needed expert testimony to prove what caused his fall.",
+        "The case arose after Jonathan Lewis was injured leaving a Circle K convenience store in South Carolina. A store employee had just cleaned a painted line in the parking lot using water and a powdered concrete cleaner, and according to the complaint no warning signs, cones, or hazard markers were placed around the area despite the store's own internal policies calling for such warnings. Lewis slipped on the wet surface exiting the store and severely injured his right leg. The case was removed to the U.S. District Court for the District of South Carolina, where the district court granted Circle K summary judgment on three grounds: that the wet, visibly cleaned surface was an open and obvious hazard eliminating any duty to warn, that the specific risk was not foreseeable, and that Lewis lacked expert testimony establishing causation.",
+        "On appeal, a Fourth Circuit panel led by Judge J. Harvie Wilkinson III, joined by Judges Julius N. Richardson and Toby Heytens, rejected all three grounds and reversed. The panel held that genuine disputes of material fact remained as to whether the hazard was truly open and obvious given that a store employee had just created the condition and no warning was posted despite an internal policy requiring one, and that a jury could conclude the danger was less apparent to a departing customer than the district court assumed. The panel also held expert testimony is not categorically required to establish causation on facts of this kind, where a jury could rely on ordinary experience and timing to connect the wet surface to the fall.",
+        "The ruling matters beyond one convenience store because open-and-obvious is among the most heavily litigated defenses in commercial premises-liability practice, and is frequently resolved at summary judgment before trial exposure materializes. The opinion signals that visibility of a wet or altered surface alone does not automatically satisfy the defense, particularly where a defendant's own employee created the condition and its own internal protocols called for an unheeded warning — and that combination of a self-created hazard plus a documented, unfollowed policy gave the panel enough to find a reasonable jury could see the case differently than the trial judge did on a cold summary-judgment record. Commercial landlords, retail and convenience-store operators, and insurers should treat the case as a prompt to audit actual compliance with cleaning and maintenance warning protocols, not just their existence on paper, and to confirm lease indemnification and insurance coverage account for liability arising from a tenant-operator's own maintenance activities. The case now returns to the District of South Carolina for further proceedings, most likely trial, since the Fourth Circuit's ruling only restores Lewis's right to have a jury hear the case rather than resolving liability itself."
+      ],
+      timeline: [
+        { when: "November 2022", label: "Jonathan Lewis sues Circle K Stores Inc. in South Carolina state court over his fall; the case is later removed to federal court" },
+        { when: "May 13, 2026", label: "Fourth Circuit reverses summary judgment for Circle K and remands for further proceedings", current: true }
+      ],
+      judge: "J. Harvie Wilkinson III",
+      tags: ["premises liability", "slip and fall", "fourth circuit", "south carolina", "summary judgment"],
+      docketUrl: "https://www.courtlistener.com/opinion/10859032/jonathan-lewis-v-circle-k-stores-inc/",
+      docketLabel: "CourtListener opinion"
     }
   ],
 
@@ -4638,7 +4721,8 @@ const RELAW_DATA = {
     { jurisdiction: "U.S. District Court, Central District of California", url: "https://www.cacd.uscourts.gov/" },
     { jurisdiction: "U.S. District Court, District of Maine", url: "https://www.med.uscourts.gov/" },
     { jurisdiction: "Supreme Court of Wyoming", url: "https://www.wyocourts.gov/supreme-court/" },
-    { jurisdiction: "Delaware Court of Chancery", url: "https://courts.delaware.gov/chancery/" }
+    { jurisdiction: "Delaware Court of Chancery", url: "https://courts.delaware.gov/chancery/" },
+    { jurisdiction: "U.S. Court of Appeals for the Fourth Circuit", url: "https://www.ca4.uscourts.gov/" }
   ],
 
   /* Judges — background on every judge named in our sourced reporting (never
@@ -4942,6 +5026,14 @@ const RELAW_DATA = {
       court: "Delaware Court of Chancery",
       background: "Sworn in as Vice Chancellor of the Delaware Court of Chancery on January 7, 2025 after nomination by Gov. John Carney, following nearly two years of service as a Magistrate in Chancery. Previously a litigator at Skadden, Arps, Slate, Meagher & Flom focused on deal litigation, corporate statutory proceedings, and contract disputes, and clerked in the Court of Chancery for Vice Chancellor Sam Glasscock III immediately after law school.",
       bioUrl: "https://courts.delaware.gov/forms/download.aspx?id=275388"
+    },
+    {
+      name: "J. Harvie Wilkinson III",
+      slug: "j-harvie-wilkinson-iii",
+      title: "U.S. Circuit Judge",
+      court: "U.S. Court of Appeals for the Fourth Circuit",
+      background: "Appointed to the Fourth Circuit by President Reagan in 1984 and served as the court's chief judge from 1996 to 2003. Previously a law clerk to U.S. Supreme Court Justice Lewis F. Powell Jr. and a professor at the University of Virginia School of Law.",
+      bioUrl: "https://www.fjc.gov/history/judges/wilkinson-james-harvie-iii"
     }
   ],
 
