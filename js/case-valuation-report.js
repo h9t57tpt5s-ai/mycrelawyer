@@ -1,7 +1,7 @@
 /* =========================================================
    CREdocket — Case Value Calculator: full report generation
    Adapted from the original commercial-lease-dispute-only report
-   (PR #3) to work across all 7 litigation categories — dynamic
+   (PR #3) to work across all 8 litigation categories — dynamic
    role labels (sideA/sideB per category, not just landlord/tenant),
    plus real case citations per claim, which the original didn't have.
    ========================================================= */
