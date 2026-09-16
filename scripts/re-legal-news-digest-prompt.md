@@ -158,6 +158,35 @@ otherwise.
                                    // REIT governance dispute, a market-wide
                                    // regulatory action, or a matter spanning
                                    // multiple unrelated property types.
+     documentUrl: "...",          // link to the actual PRIMARY DOCUMENT itself --
+                                   // the court opinion, the filed complaint, an
+                                   // agency litigation release -- as distinct from
+                                   // docketUrl below (the case's docket/tracking
+                                   // record, not the document text). Already a
+                                   // real, rendered field (js/main.js's detail
+                                   // panel shows it as "Read the primary
+                                   // document") but was never documented here
+                                   // before 2026-09-16 -- add it whenever you've
+                                   // actually found and confirmed the real
+                                   // document's own direct URL (a PDF of the
+                                   // opinion, the court's own posted complaint,
+                                   // etc.), not just the news article covering it
+                                   // (that's what sourceUrl is for).
+     documentLabel: "...",        // short label, e.g. "Read the official opinion",
+                                   // "Read the filed complaint", "Read the SEC
+                                   // litigation release". Required whenever
+                                   // documentUrl is present; omit both together
+                                   // otherwise.
+     docketUrl: "...",            // a SPECIFIC, VERIFIED, case-specific link to this
+                                   // matter's real docket -- see the strict rules
+                                   // below. Omit the whole field (do not guess or
+                                   // fall back to a generic search link) if you
+                                   // can't verify one.
+     docketLabel: "..."           // short human label for the link, e.g.
+                                   // "CourtListener docket", "NYSCEF (Index No.
+                                   // 123456/2026)", "re:SearchTX", "Cook County
+                                   // Case Search". Required whenever docketUrl is
+                                   // present; omit both together otherwise.
    }
    ```
    Only the flagship entry needs a genuinely rich `summary`/`significance` written
@@ -165,9 +194,40 @@ otherwise.
    accurate, non-fabricated summary/significance text grounded in the actual source,
    just shorter/more direct than the flagship's is fine (2-3 plain sentences each is
    enough; do not pad these with invented detail to make them look more substantial).
-   `parties` and `propertyType` are both optional — added going forward for new
-   entries only. Existing `live-*` cases without them are untouched; do not add
-   these fields to any existing case as part of a routine digest run.
+   `parties`, `propertyType`, `documentUrl`/`documentLabel`, and `docketUrl`/
+   `docketLabel` are all optional — added going forward for new entries only.
+   Existing `live-*` cases without them are untouched; do not add these fields to
+   any existing case as part of a routine digest run.
+
+   **docketUrl verification rules (added 2026-09-16, after a dedicated feasibility
+   review — see [[credocket-project-overview]] memory note for the full findings):**
+   a real docket link is valuable, but coverage is inherently uneven across courts,
+   so getting this wrong (or faking coverage) is worse than leaving it out entirely.
+   - ONLY add `docketUrl` when you have found and can point to one SPECIFIC,
+     case-identifying result — a CourtListener docket permalink you confirmed
+     matches this exact case (federal courts only — RECAP has no state-court
+     coverage), a NYSCEF index number you confirmed for this exact NY matter, a
+     re:SearchTX case ID for this exact TX matter, or a Cook County, IL case ID
+     for a Cook County matter. These are the only sources currently vetted as
+     both free and reliably linkable — do not substitute a different portal
+     without the same level of confirmed, case-specific match.
+   - NEVER add a generic "search this name on [portal]" link and never label
+     it as a docket -- that overstates certainty this site doesn't have and is
+     exactly the fabrication risk this rule exists to prevent. If your search
+     on a portal doesn't clearly resolve to one confirmed matching result
+     (ambiguous common party names, multiple candidates, zero results), omit
+     the field. A missing docketUrl is the expected, correct outcome most of
+     the time -- don't strain to fill it in.
+   - Known dead ends, so don't spend search budget chasing them: Delaware
+     Chancery Court (your likely most common DE venue) has no free public
+     docket at all -- paid File & ServeXpress only. Most California, Florida,
+     and Illinois trial courts (outside Cook County) run their own per-county
+     portals with no unified free search -- only attempt these if the specific
+     county is one you already know has a reliable free portal.
+   - This field is being added going forward only -- there is no plan to
+     backfill it across the ~140+ existing cases as a batch job; that would
+     require individually verifying each one, which is out of scope for a
+     routine digest run.
    Edit in place — don't rewrite the whole file. Keep valid JS syntax. Adding many
    entries in one run is expected now -- add them one at a time (or in one larger
    edit covering all of them together), but every single one must independently meet

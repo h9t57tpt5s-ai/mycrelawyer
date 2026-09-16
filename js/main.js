@@ -596,6 +596,19 @@
           </div>`
         : "";
 
+      // Distinct from primarySourceHtml above: a link to the case's actual
+      // docket/tracking record (CourtListener, NYSCEF, re:SearchTX, a county
+      // clerk system), not the document text itself. Only ever populated when
+      // a specific, verified, case-matching docket was found -- see the
+      // verification rules in scripts/re-legal-news-digest-prompt.md. Most
+      // cases won't have one; that's expected, not a gap to fill.
+      const docketLinkHtml = c.docketUrl
+        ? `<div class="primary-source-link">
+            <svg viewBox="0 0 24 24" fill="none" width="15" height="15"><path d="M4 4h16v16H4V4z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><path d="M8 9h8M8 13h8M8 17h4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+            <a href="${c.docketUrl}" target="_blank" rel="noopener">${c.docketLabel || "View docket"} ↗</a>
+          </div>`
+        : "";
+
       const hasGatedContent = !!((c.body && c.body.length) || (c.timeline && c.timeline.length));
 
       function fullArticleInnerHtml() {
@@ -605,7 +618,7 @@
           if (isLive && c.sourceUrl) {
             articleHtml += `<p class="body-text"><a href="${c.sourceUrl}" target="_blank" rel="noopener">Original source ↗</a></p>`;
           }
-          articleHtml = primarySourceHtml + articleHtml;
+          articleHtml = primarySourceHtml + docketLinkHtml + articleHtml;
         } else if (isLive) {
           articleHtml = `
             <div class="article-pending">
