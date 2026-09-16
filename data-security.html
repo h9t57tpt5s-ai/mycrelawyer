@@ -1,0 +1,282 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Data Security &amp; Governance — CREdocket</title>
+<meta name="description" content="What CREdocket collects, how long it's kept, whether it trains AI models, and an honest account of what security controls are and aren't in place today." />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="CREdocket" />
+<meta property="og:title" content="Data Security & Governance — CREdocket" />
+<meta property="og:description" content="What CREdocket collects, how long it's kept, whether it trains AI models, and an honest account of what security controls are and aren't in place today." />
+<meta property="og:url" content="https://credocket.com/data-security.html" />
+<link rel="canonical" href="https://credocket.com/data-security.html" />
+<meta property="og:image" content="https://credocket.com/img/og-image.png" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Data Security & Governance — CREdocket" />
+<meta name="twitter:description" content="What CREdocket collects, how long it's kept, whether it trains AI models, and an honest account of what security controls are and aren't in place today." />
+<meta name="twitter:image" content="https://credocket.com/img/og-image.png" />
+<link rel="icon" href="img/favicon.svg" type="image/svg+xml" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css" />
+    <script>
+      window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
+    </script>
+    <script defer src="/_vercel/insights/script.js"></script>
+  </head>
+<body>
+<a class="skip-link" href="#main-content">Skip to main content</a>
+
+<div class="nav-scrim"></div>
+<nav class="nav">
+  <div class="container">
+    <a href="/" class="brand">
+      <svg class="brand-mark" viewBox="0 0 32 32" fill="none"><path d="M6 26h20M8 26V14M12 26V14M16 26V14M20 26V14M24 26V14M4 14l12-8 12 8" stroke="var(--accent)" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/></svg>
+      <span><span class="brand-accent">CRE</span>docket<small>CRE LITIGATION INTELLIGENCE</small></span>
+    </a>
+    <ul class="nav-links">
+      <li class="nav-item has-dropdown">
+        <a href="tracker-overview.html">Tracker</a>
+        <button class="nav-caret-btn" aria-label="Toggle Tracker submenu" aria-expanded="false">
+          <svg class="nav-caret" viewBox="0 0 24 24" fill="none" width="14" height="14"><path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </button>
+        <div class="nav-dropdown">
+          <a href="litigation.html">All Matters</a>
+          <a href="updates.html?recent=5">Latest Updates</a>
+          <a href="calendar.html">Litigation Calendar</a>
+          <a href="regulatory.html">Regulatory Issues</a>
+          <a href="account.html">Watchlists</a>
+        </div>
+      </li>
+      <li class="nav-item has-dropdown">
+        <a href="directory-overview.html">Directory</a>
+        <button class="nav-caret-btn" aria-label="Toggle Directory submenu" aria-expanded="false">
+          <svg class="nav-caret" viewBox="0 0 24 24" fill="none" width="14" height="14"><path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </button>
+        <div class="nav-dropdown">
+          <a href="judges.html">Judges &amp; Courts</a>
+          <a href="companies.html">Companies &amp; Parties</a>
+          <a href="compare-companies.html">Compare Companies</a>
+        </div>
+      </li>
+      <li class="nav-item has-dropdown">
+        <a href="analysis-overview.html">Analysis</a>
+        <button class="nav-caret-btn" aria-label="Toggle Analysis submenu" aria-expanded="false">
+          <svg class="nav-caret" viewBox="0 0 24 24" fill="none" width="14" height="14"><path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </button>
+        <div class="nav-dropdown">
+          <a href="trends.html">Market Signals</a>
+          <a href="quarterly.html">Quarterly Report</a>
+          <a href="ada-litigation-patterns.html">Litigation Patterns by State</a>
+          <a href="property-types.html">Property Type Insights</a>
+        </div>
+      </li>
+      <li class="nav-item has-dropdown">
+        <a href="tools-overview.html">Tools</a>
+        <button class="nav-caret-btn" aria-label="Toggle Tools submenu" aria-expanded="false">
+          <svg class="nav-caret" viewBox="0 0 24 24" fill="none" width="14" height="14"><path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </button>
+        <div class="nav-dropdown">
+          <div class="nav-dropdown-label">AI-Powered</div>
+          <a href="case-valuation.html">Case Value Calculator (Beta)</a>
+          <a href="lease-clause-redline.html">Lease Clause Redline Checker (Beta)</a>
+          <div class="nav-dropdown-label">Calculators &amp; Reference</div>
+          <a href="lien-deadline-calculator.html">Mechanic's Lien Deadline Calculator</a>
+          <a href="ada-risk-flagging.html">ADA Title III Risk Flagging</a>
+          <a href="premises-liability-checklist.html">Premises Liability Checklist (Manager Edition)</a>
+          <a href="settlement-benchmarks.html">Settlement &amp; Verdict Benchmarks</a>
+          <a href="contribute-settlement.html">Contribute a Settlement (Earn Credits)</a>
+        </div>
+      </li>
+      <li class="nav-item has-dropdown">
+        <a href="guides-overview.html">Guides</a>
+        <button class="nav-caret-btn" aria-label="Toggle Guides submenu" aria-expanded="false">
+          <svg class="nav-caret" viewBox="0 0 24 24" fill="none" width="14" height="14"><path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </button>
+        <div class="nav-dropdown">
+          <a href="eviction-guide.html">Commercial Eviction Handbook</a>
+          <a href="premises-liability-guide.html">Premises Liability / Negligence Guide</a>
+          <a href="insurance-risk-posture-guide.html">Insurance &amp; Risk Posture Guide</a>
+          <a href="manager-vs-owner-liability.html">Manager vs. Owner Liability</a>
+          <a href="algorithmic-pricing-manager-guide.html">Algorithmic Pricing: A Manager's Guide</a>
+          <a href="state-guides.html">State-by-State Guides</a>
+        </div>
+      </li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <div class="nav-cta">
+      <div id="auth-nav-slot" class="auth-nav-slot"></div>
+      <button class="nav-toggle" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</nav>
+<main id="main-content" tabindex="-1">
+
+
+<header class="page-header">
+  <div class="container">
+    <div class="eyebrow reveal in-view">Legal</div>
+    <h1 class="reveal in-view" style="font-size:clamp(2.2rem,4vw,3.4rem);">Data Security &amp; Governance</h1>
+    <p class="lede mt-16 reveal in-view">Last updated September 16, 2026. This page exists because it's the single most-requested piece of missing information from people considering our AI-assisted tools: what actually happens to a document, a case description, or a tenant/lender name you type in. It's written to be checked, not just trusted — every claim below is either something we verified directly in our own code, or a current policy published by a named third party, with a link.</p>
+  </div>
+</header>
+
+<section class="section-tight">
+  <div class="container" style="max-width:760px;">
+    <div class="legal-doc reveal">
+
+      <h2>What This Page Is — And Isn't</h2>
+      <p>This is a plain-language account of data handling for CREdocket's account system, Watchlists/Portfolio entities, and the two AI-assisted tools (the Case Value Calculator and the Lease Clause Redline Checker). It is not a substitute for our <a href="privacy.html">Privacy Policy</a> or <a href="terms.html">Terms of Service</a>, which remain the governing legal documents — this page goes into more operational detail on the questions we hear most: does anything train on your documents, where does the data actually live, and what security posture does a two-person, Supabase-hosted site actually have (as opposed to what a page like this might be tempted to imply). Where we don't have a firm answer yet, we say so directly rather than paper over it.</p>
+
+      <h2>What We Collect, and Why</h2>
+      <p><strong>Account information.</strong> An email address and password (handled by Supabase, our backend provider), used to sign you in and associate your Watchlists, Portfolio entities, purchases, and usage limits with your account.</p>
+      <p><strong>Case descriptions and uploaded documents.</strong> When you use the Case Value Calculator or the Lease Clause Redline Checker, you type a description and/or upload or paste a document. This is collected to generate your analysis — see the dedicated section below for exactly what happens to it, because that's the part with the most misconceptions.</p>
+      <p><strong>Watchlist and Portfolio entity names.</strong> If you add a property, tenant, lender, guarantor, or other counterparty name to your Portfolio (so we can match it against new matters added to the tracker), that name — plus the entity type and any note you add — is collected and stored, described in detail below.</p>
+
+      <h2>Uploaded Case Documents &amp; Descriptions: What Actually Happens</h2>
+      <p><strong>The raw file itself is never uploaded to any server.</strong> Text extraction (PDF via pdf.js, .docx via mammoth.js, .txt via the browser's own file reader) happens entirely inside your browser, on your own device. This is stated directly in our source code — <code>js/case-valuation.js</code>'s own header comment reads: "the raw file is never uploaded or stored anywhere; only the extracted text is sent to the case-valuation-analyze Edge Function." <code>js/lease-clause-redline.js</code> uses the identical client-side extraction approach (its own comment describes it as mirroring the Calculator's). Neither tool has any code path that transmits the original file object anywhere.</p>
+      <p><strong>The extracted text passes through our server once, and isn't written to our database.</strong> We read the request-handling code in both backend functions (<code>supabase/functions/case-valuation-analyze/index.ts</code> and <code>supabase/functions/lease-clause-redline/index.ts</code>) specifically to check this. Each function reads your description/document/clause text from the incoming request, sends it to Anthropic's Claude API for analysis, and streams the result back to your browser. Searching both files for every database write they perform turns up exactly two — one per function — and both write only <code>{ user_id, category, tool, credit_source }</code> (which practice-area category was detected, which tool you used, and which credit paid for it). Neither insert includes your description, your document text, or your clause text in any form. The database table these writes go into (<code>case_valuation_analyses</code>, see <code>case_valuation_project/schema_analysis.sql</code>) doesn't even have a column that could hold it — its schema is just an id, your user id, a category label, and a timestamp. So the honest answer is: we don't store the substance of what you submit at all, not "we store it but keep it private" — there's no table for it to land in even if we wanted to.</p>
+      <p style="background:var(--bg-elevated); border:1px solid var(--border); border-radius:8px; padding:14px 16px; font-size:13.5px; line-height:1.6;"><strong>What we could still see, in principle:</strong> the request briefly passes through our Supabase Edge Function's runtime logs on the way to Anthropic. We don't have a code path that persists those logs into a queryable table, but we also haven't independently audited how long Supabase's own platform-level function-invocation logging retains that transient data by default — flagging that honestly as something we haven't fully verified, rather than asserting a specific number we don't actually know.</p>
+
+      <h2>Does Any of This Train an AI Model?</h2>
+      <p>The analysis itself is performed by Claude, Anthropic's model, called directly through Anthropic's commercial API with a standard API key — nothing in our integration invokes any Anthropic feature that requires opting into their data-sharing program (we checked: there's no such parameter anywhere in either Edge Function's API call). That matters because, per Anthropic's own current published policy for commercial/API customers: <strong>"We will not use your chats or coding sessions to train our models, unless you choose to participate in our Development Partner Program"</strong> — an opt-in program we have not enabled. (Source: <a href="https://privacy.claude.com/en/articles/7996885-how-do-you-use-personal-data-in-model-training" target="_blank" rel="noopener">Anthropic Privacy Center — "How do you use personal data in model training?"</a>, fetched directly from Anthropic's own site.)</p>
+      <p>On retention specifically: Anthropic's published policy for standard commercial API customers (which is what we are — we have not negotiated a Zero Data Retention agreement with Anthropic) states that inputs and outputs are automatically deleted from their backend <strong>within 30 days</strong> of receipt or generation, with narrow exceptions for legal holds or a subsequent negotiated retention arrangement. (Source: <a href="https://privacy.claude.com/en/articles/7996866-how-long-do-you-store-my-organization-s-data" target="_blank" rel="noopener">Anthropic Privacy Center — "How long do you store my organization's data?"</a>.) Separately, Anthropic's API documentation notes that content flagged by their automated trust-and-safety systems can be retained longer — up to 2 years — regardless of any retention arrangement; that's Anthropic's exception, not ours, and would only apply if content triggered their abuse-detection systems. (Source: <a href="https://platform.claude.com/docs/en/manage-claude/api-and-data-retention" target="_blank" rel="noopener">Claude Platform Docs — "API and data retention."</a>)</p>
+
+      <h2>Watchlist &amp; Portfolio Entity Names</h2>
+      <p>Unlike the description above, tagged entity names <em>are</em> stored — this is the point of the feature: matching a tenant, lender, or counterparty name you enter against every new matter added to the tracker going forward. They live in a Supabase table (<code>portfolio_entities</code>) alongside the entity type and any note you add. We checked this table's actual row-level-security policy in its migration file (<code>case_valuation_project/schema_portfolio_entities.sql</code>): it restricts every operation — read, create, update, delete — to rows where <code>auth.uid() = user_id</code>, meaning only your own signed-in session (or our service-role backend) can ever see or touch your entries; no other user's session can read them, regardless of what that session requests. There's no additional field-level encryption on the entity name beyond Supabase's standard database encryption (see Security Posture below) — it's protected by access control, not by being unreadable to us.</p>
+      <p>You can remove any Portfolio entity yourself at any time — the account page has a "Remove" action that deletes the row immediately (we confirmed this in <code>js/portfolio-entities.js</code>); there's no waiting period or approval step. Short of that, entity names are retained indefinitely for as long as your account exists — we don't have an automatic expiration or purge job for this table today, and we're saying that plainly rather than describing an aspirational retention period we haven't actually built.</p>
+
+      <h2>Security Posture, Honestly</h2>
+      <p><strong>In transit:</strong> every connection to credocket.com and to our Supabase backend is over HTTPS/TLS.</p>
+      <p><strong>At rest:</strong> our database runs on Supabase's hosted infrastructure. Per Supabase's own published security page, "all customer data is encrypted at rest with AES-256 and in transit via TLS." (Source: <a href="https://supabase.com/security" target="_blank" rel="noopener">supabase.com/security</a>, fetched directly.) That's Supabase's platform-level control, applied to everything we store there — we haven't layered any additional application-level encryption of our own on top of it.</p>
+      <p><strong>SOC 2 — an important distinction:</strong> Supabase itself states it is "SOC 2 Type 2 compliant" (same source, supabase.com/security). That's a real, verifiable certification of our infrastructure <em>provider</em> — it is not a certification of CREdocket. <strong>CREdocket has not undergone a SOC 2 examination, a penetration test, or any independent third-party security audit of its own application code.</strong> We're a small, actively-developed site, and that's the honest current state, not something we want a page like this to blur by leaning on our vendor's compliance posture as if it were our own. A SOC 2 examination for CREdocket itself is a roadmap item, not a present-tense fact — realistically something to pursue as a self-serve business tier matures and the cost/benefit of a formal audit makes more sense, not before then.</p>
+      <p><strong>Account deletion:</strong> there is currently no self-serve "delete my account" button. If you want your account and associated data removed, see Requesting Deletion below.</p>
+
+      <h2>Requesting Deletion</h2>
+      <p>To request deletion of your account, your stored Watchlist/Portfolio data, or any other information we hold about you, contact us through the <a href="contact.html">Contact page</a> — that form goes directly to us, not to a database (see our <a href="privacy.html">Privacy Policy</a> for how the contact form itself works). We'll confirm what's been removed. Note the scope of what we can act on: we can delete what's in our own Supabase tables; we cannot retroactively delete a request that already passed through Anthropic's API and was handled under Anthropic's own 30-day (or shorter) retention window described above — by the time you'd typically think to ask, it's likely already gone on their end regardless.</p>
+
+      <h2>Changes to This Page</h2>
+      <p>We'll update this page as our actual practices change — including, we hope, replacing some of the "not yet in place" items above with real ones. Material changes will be reflected by an updated "last updated" date at the top.</p>
+
+    </div>
+  </div>
+</section>
+
+<section class="newsletter-band">
+  <div class="container">
+    <div class="newsletter-card">
+      <div class="newsletter-embed">
+        <script async src="https://subscribe-forms.beehiiv.com/v3/loader.js" data-beehiiv-form="6fe66572-cbbf-4d3d-9c0e-1aafbf2857ca"></script>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-col">
+        <a href="/" class="brand" style="margin-bottom:14px;">
+          <svg class="brand-mark" viewBox="0 0 32 32" fill="none"><path d="M6 26h20M8 26V14M12 26V14M16 26V14M20 26V14M24 26V14M4 14l12-8 12 8" stroke="var(--accent)" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/></svg>
+          <span><span class="brand-accent">CRE</span>docket</span>
+        </a>
+        <p style="max-width:280px;">Litigation intelligence for commercial real estate owners, managers, developers, and REITs.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Navigate</h4>
+        <a href="tracker-overview.html">Tracker</a>
+        <a href="directory-overview.html">Directory</a>
+        <a href="analysis-overview.html">Analysis</a>
+        <a href="tools-overview.html">Tools</a>
+        <a href="guides-overview.html">Guides</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <div class="footer-col">
+        <h4>Legal</h4>
+        <a href="privacy.html">Privacy Policy</a>
+        <a href="terms.html">Terms of Service</a>
+        <a href="methodology.html">Methodology</a>
+        <a href="data-security.html">Data Security &amp; Governance</a>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <a href="contact.html">Contact form</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span data-year></span> CREdocket. Litigation intelligence sourced from ongoing legal research.</span>
+      <span>Not legal advice. For informational purposes only.</span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/data.js"></script>
+<script>
+  // Defensive retry: js/data.js occasionally fails to load (a transient
+  // network blip, a CDN edge hiccup) leaving RELAW_DATA undefined and
+  // this page silently rendering empty grids / "0 Tracked Matters"
+  // instead of the real, live dataset -- indistinguishable from a
+  // genuinely empty site to a visitor. Flagged 2026-09-14 after this was
+  // spotted live on the tracker page. A single automatic, cache-busted
+  // reload fixes the overwhelming majority of these before a person ever
+  // sees a broken page; sessionStorage caps it at one retry per page per
+  // tab session so a real, persistent failure doesn't reload forever.
+  // Checks both "never loaded at all" (RELAW_DATA undefined) AND
+  // "loaded but suspiciously incomplete" (a truncated/partial transfer
+  // of this 900KB+ file can still parse as valid JS if the cut lands on
+  // a clean array-element boundary, leaving RELAW_DATA defined with only
+  // a handful of cases instead of the real 138+) -- the first version of
+  // this guard only caught the first case, and Jeff hit the second one
+  // live the same day it shipped.
+  var _dataBad = typeof RELAW_DATA === "undefined" ||
+    !RELAW_DATA.cases || RELAW_DATA.cases.length < 50;
+  if (_dataBad) {
+    var _ddk = "credocket_data_retry_" + location.pathname;
+    var _ddTries = parseInt(sessionStorage.getItem(_ddk) || "0", 10);
+    // Best-effort, fire-and-forget failure log -- see
+    // case_valuation_project/schema_client_data_load_failures.sql. Never
+    // blocks the reload below: wrapped in try/catch, keepalive:true so the
+    // upcoming location.reload() can't abort the request mid-flight, and a
+    // silently-swallowed failure here (e.g. before that table exists) is
+    // fine -- this is observability, not the actual fix.
+    try {
+      fetch("https://ribmcdyoydhmafnyfhpp.supabase.co/rest/v1/client_data_load_failures", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          "apikey": "sb_publishable_77xSJub0DOpnTSM4nzhVaQ_aztB5p3f",
+          "Authorization": "Bearer sb_publishable_77xSJub0DOpnTSM4nzhVaQ_aztB5p3f"
+        },
+        body: JSON.stringify({
+          path: location.pathname,
+          reason: typeof RELAW_DATA === "undefined" ? "undefined" : "too_few_cases",
+          cases_found: (typeof RELAW_DATA !== "undefined" && RELAW_DATA.cases) ? RELAW_DATA.cases.length : null,
+          attempt: _ddTries,
+          user_agent: navigator.userAgent
+        }),
+        keepalive: true
+      }).catch(function () {});
+    } catch (e) {}
+    if (_ddTries < 2) {
+      sessionStorage.setItem(_ddk, String(_ddTries + 1));
+      location.reload();
+    }
+  }
+</script>
+<script src="js/main.js"></script>
+<script src="js/glossary-tooltip.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script>
+<script src="js/supabase-client.js"></script>
+<script src="js/auth.js"></script>
+<script src="js/trending.js"></script>
+<script src="js/search.js"></script>
+<script src="js/motion.js"></script>
+</body>
+</html>
