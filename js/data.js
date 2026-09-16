@@ -139,7 +139,9 @@ const RELAW_DATA = {
       timeline: [
         { when: "July 28, 2026", label: "CMBS trustee sues to foreclose after first-payment default and guarantor Chapter 11 filings",  current: true }
       ],
-      tags: ["CMBS", "foreclosure", "first-payment default", "receivership", "guarantor bankruptcy"]
+      tags: ["CMBS", "foreclosure", "first-payment default", "receivership", "guarantor bankruptcy"],
+      docketUrl: "https://www.courtlistener.com/docket/73684397/wilmington-savings-fund-society-fsb-v-milton-90-pleasant-valley-street/",
+      docketLabel: "CourtListener docket"
     },
     {
       id: "live-004",
@@ -164,7 +166,9 @@ const RELAW_DATA = {
         { when: "June 12, 2026", label: "FitFactariDC LLC files proposed class action against CoStar and five major brokerages",  current: true },
         { when: "August 19, 2026", label: "Initial status hearing scheduled",  upcoming: true }
       ],
-      tags: ["antitrust", "hub-and-spoke", "CoStar", "lease data", "brokerage"]
+      tags: ["antitrust", "hub-and-spoke", "CoStar", "lease data", "brokerage"],
+      docketUrl: "https://www.courtlistener.com/docket/73480976/fitfactaridc-llc-v-costar-group-inc/",
+      docketLabel: "CourtListener docket"
     },
     {
       id: "live-005",
@@ -190,7 +194,9 @@ const RELAW_DATA = {
       ],
       documentUrl: "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26596",
       documentLabel: "Read the SEC litigation release",
-      tags: ["REIT", "SEC enforcement", "securities fraud", "non-traded REIT", "related-party transactions"]
+      tags: ["REIT", "SEC enforcement", "securities fraud", "non-traded REIT", "related-party transactions"],
+      docketUrl: "https://www.courtlistener.com/docket/73687065/securities-and-exchange-commission-v-rad-diversified-reit-inc/",
+      docketLabel: "CourtListener docket"
     },
     {
       id: "live-006",
@@ -217,7 +223,9 @@ const RELAW_DATA = {
         { when: "May 28, 2026", label: "Silver Star Properties REIT files its second Chapter 11 petition in four years",  current: true },
         { when: "June 2, 2026", label: "Separate $5.75M promissory note on a self-storage property moves to foreclosure" }
       ],
-      tags: ["REIT bankruptcy", "loan default", "foreclosure", "fiduciary duty", "self-storage"]
+      tags: ["REIT bankruptcy", "loan default", "foreclosure", "fiduciary duty", "self-storage"],
+      docketUrl: "https://www.courtlistener.com/docket/73409172/silver-star-properties-reit-inc/",
+      docketLabel: "CourtListener docket"
     },
     {
       id: "live-007",
@@ -298,7 +306,9 @@ const RELAW_DATA = {
         "The Town of Johnston's second attempt to reach a 31-acre parcel on George Waterman Road has put local officials in front of a federal judge to explain why they shouldn't be held in contempt — just days after that same judge voided the town's first attempt to condemn the land.",
         "U.S. District Judge Melissa R. DuBose ruled on July 28, 2026 that Johnston's March 2025 condemnation of the site, owned by homebuilding companies tied to the Santoro family and Salvatore Compagnone, was 'void ab initio,' finding the town relied on a charter provision that could not support a taking without pledging just compensation or establishing enforcement procedures required under the Fifth and Fourteenth Amendments. The ruling came after the town's mayor publicly vowed to 'fight back' against the family's plans for a 252-unit income-restricted apartment complex using 'all the power of government available.'",
         "Three days after that ruling, Johnston's Town Council passed resolutions placing a November ballot measure to expand its condemnation authority and creating a new Municipal Public Building Authority over town property — moves the landowners argue violate the standing preliminary injunction. DuBose has ordered the town to produce records from that meeting and scheduled a show-cause hearing on contempt, underscoring that a merits win against a pretextual taking can require an enforcement fight of its own."
-      ]
+      ],
+      docketUrl: "https://www.courtlistener.com/docket/69723262/scls-realty-llc-v-town-of-johnston-rhode-island/",
+      docketLabel: "CourtListener docket"
     },
     {
       id: "live-010",
@@ -327,7 +337,9 @@ const RELAW_DATA = {
       ],
       documentUrl: "https://www.nycourts.gov/reporter/current/3dseries/2026/2026_03376.shtml",
       documentLabel: "Read the official opinion",
-      tags: ["mezzanine debt", "implied covenant", "UCC foreclosure", "sole discretion", "capital stack"]
+      tags: ["mezzanine debt", "implied covenant", "UCC foreclosure", "sole discretion", "capital stack"],
+      docketUrl: "https://www.courtlistener.com/opinion/10866496/111-w-57th-inv-llc-v-111-w57-mezz-inv-llc/",
+      docketLabel: "CourtListener opinion"
     },
     {
       id: "live-011",
@@ -354,7 +366,9 @@ const RELAW_DATA = {
         { when: "September 2, 2026", label: "Court hearing on expedited discovery scheduled",  upcoming: true },
         { when: "October 1, 2026", label: "Rent freeze set to take effect if not blocked",  upcoming: true }
       ],
-      tags: ["rent freeze", "article 78", "rent guidelines board", "landlord-tenant", "multifamily"]
+      tags: ["rent freeze", "article 78", "rent guidelines board", "landlord-tenant", "multifamily"],
+      docketUrl: "https://iapps.courts.state.ny.us/nyscef/CaseSearch",
+      docketLabel: "NYSCEF Index No. 85199/2026"
     },
     {
       id: "live-012",
@@ -407,7 +421,9 @@ const RELAW_DATA = {
         { when: "2022", label: "Lightstone REITs solicit proxy vote to eliminate scheduled liquidation deadlines" },
         { when: "August 5, 2026", label: "Judge Shipp denies motion to dismiss; all four counts proceed to discovery",  current: true }
       ],
-      tags: ["REIT", "proxy disclosure", "fiduciary duty", "charter amendment", "securities class action"]
+      tags: ["REIT", "proxy disclosure", "fiduciary duty", "charter amendment", "securities class action"],
+      docketUrl: "https://www.courtlistener.com/docket/69353264/ayer-v-lightstone-value-plus-reit-i-inc/",
+      docketLabel: "CourtListener docket"
     },
     {
       id: "live-014",
@@ -434,7 +450,9 @@ const RELAW_DATA = {
       ],
       documentUrl: "https://www.documentcloud.org/documents/28535107-us-dis-casd-3-26cv3865-d2650861e355-complaint-with-jury-demand-against-udr-inc-filing/",
       documentLabel: "Read the filed complaint",
-      tags: ["algorithmic pricing", "RealPage", "REIT", "class action", "san diego"]
+      tags: ["algorithmic pricing", "RealPage", "REIT", "class action", "san diego"],
+      docketUrl: "https://www.courtlistener.com/docket/73578741/keller-v-udr-inc/",
+      docketLabel: "CourtListener docket"
     },
     {
       id: "live-015",
@@ -542,7 +560,9 @@ const RELAW_DATA = {
       ],
       documentUrl: "https://www.nycourts.gov/reporter/3dseries/2024/2024_00450.htm",
       documentLabel: "Read the appellate decision",
-      tags: ["construction defect", "condominium", "new york", "office-to-residential conversion", "developer liability"]
+      tags: ["construction defect", "condominium", "new york", "office-to-residential conversion", "developer liability"],
+      docketUrl: "https://iapps.courts.state.ny.us/nyscef/CaseSearch",
+      docketLabel: "NYSCEF Index No. 656934/2021"
     },
     {
       id: "live-019",
@@ -567,7 +587,9 @@ const RELAW_DATA = {
         { when: "July 9, 2026", label: "EPA announces the $57.6M consent decree agreement with CFAC for Superfund site cleanup" },
         { when: "Through August 6, 2026", label: "Public comment period open before the U.S. District Court formally enters the consent decree", current: true }
       ],
-      tags: ["environmental", "CERCLA", "superfund", "industrial site", "montana"]
+      tags: ["environmental", "CERCLA", "superfund", "industrial site", "montana"],
+      docketUrl: "https://www.courtlistener.com/docket/73568530/united-states-of-america-v-columbia-falls-aluminum-company-llc/",
+      docketLabel: "CourtListener docket"
     },
     {
       id: "live-020",
@@ -583,7 +605,9 @@ const RELAW_DATA = {
       sourceUrl: "https://www.housingwire.com/articles/uwm-sues-two-harbors-crosscountry-merger/",
       summary: "UWM Holdings Corp. and UWM Acquisitions 1 LLC sued NYSE-listed mortgage REIT Two Harbors Investment Corp. on August 10, alleging Two Harbors' board and management willfully breached and committed fraud in connection with their December 2025 stock-for-stock merger agreement by sabotaging the March 16, 2026 shareholder vote and steering the company toward a competing all-cash offer from CrossCountry Mortgage. UWM alleges Two Harbors misrepresented its retail shareholder base, delayed producing a beneficial-owner list needed for solicitation, and violated the deal's nonsolicitation provision, while executives stood to receive cash payouts under the rival bid rather than stock. Two Harbors has called the suit frivolous.",
       significance: "Tests whether a target REIT's conduct during proxy solicitation — not just its ultimate decision to accept a rival bid — can be recast as willful breach or fraud that escapes a negotiated termination-fee cap, a theory with direct application to any public real estate entity's stock-for-stock merger agreement. REIT boards and general counsel should treat proxy-outreach mechanics and documented good-faith engagement with rival bidders as independent litigation risk, not administrative detail, in any contested M&A process.",
-      tags: ["REIT", "merger litigation", "fraud", "breach of contract", "proxy solicitation"]
+      tags: ["REIT", "merger litigation", "fraud", "breach of contract", "proxy solicitation"],
+      docketUrl: "https://www.courtlistener.com/docket/73740046/uwm-holdings-corp-v-two-harbors-investment-corp/",
+      docketLabel: "CourtListener docket"
     },
     {
       id: "live-021",
@@ -629,7 +653,9 @@ const RELAW_DATA = {
         { when: "December 15, 2025", label: "New York's algorithmic-pricing statute (Gen. Bus. Law § 340-b) takes effect; enforcement against RealPage and its customers stayed pending the injunction ruling" },
         { when: "August 5, 2026", label: "Second Circuit rules a NYC food-delivery data-sharing law unconstitutional as compelled speech" },
         { when: "August 2026", label: "RealPage cites the Second Circuit ruling as supplemental authority; NY Attorney General's office disputes its relevance", current: true }
-      ]
+      ],
+      docketUrl: "https://www.courtlistener.com/docket/71964352/realpage-inc-v-james/",
+      docketLabel: "CourtListener docket"
     },
     {
       id: "live-023",
@@ -713,7 +739,9 @@ const RELAW_DATA = {
       timeline: [
         { when: "April 2025", label: "Bank Midwest and The Integritty Group execute a $20M loan agreement secured by TIG's 41 Qdoba restaurants" },
         { when: "August 6, 2026", label: "Bank Midwest sues in the Eastern District of Pennsylvania alleging concealed liquidity distress and a covert franchise exit, seeking a receiver", current: true }
-      ]
+      ],
+      docketUrl: "https://www.courtlistener.com/docket/73733742/bank-midwest-a-division-of-nbh-bank-v-tig-queso-llc/",
+      docketLabel: "CourtListener docket"
     },
     {
       id: "live-026",
@@ -797,7 +825,9 @@ const RELAW_DATA = {
         { when: "April 15, 2025", label: "PSEG sues 117 landowners in the District of Maryland after repeated refusals of survey access" },
         { when: "June 20, 2025", label: "District Judge Adam B. Abelson grants PSEG a preliminary injunction authorizing entry" },
         { when: "August 6, 2026", label: "Fourth Circuit affirms in a published opinion, holding PSEG has the power of eminent domain for purposes of the survey-entry statute", current: true }
-      ]
+      ],
+      docketUrl: "https://www.courtlistener.com/docket/70689952/pseg-renewable-transmission-llc-v-arentz-family-lp/",
+      docketLabel: "CourtListener docket"
     },
     {
       id: "live-029",
@@ -858,7 +888,9 @@ const RELAW_DATA = {
         { when: "August 10, 2026", label: "Justice Wayne Ozzi grants a TRO barring the Dept. of Finance from acting on notices sent to roughly 17,000 owners" },
         { when: "August 13, 2026", label: "Appellate Division Justice Phillip Hom stays the TRO, letting the city resume the rollout pending full-panel review", current: true },
         { when: "August 31, 2026", label: "Case set to be heard in Staten Island Supreme Court", upcoming: true }
-      ]
+      ],
+      docketUrl: "https://iapps.courts.state.ny.us/nyscef/CaseSearch",
+      docketLabel: "NYSCEF Index No. 85217/2026"
     },
     {
       id: "live-031",
@@ -885,7 +917,9 @@ const RELAW_DATA = {
         { when: "January 1, 2026", label: "Loan reaches maturity and is not paid off" },
         { when: "August 12, 2026", label: "U.S. Bank National Association sues to foreclose and seeks appointment of a receiver", current: true }
       ],
-      tags: ["cmbs", "foreclosure", "receivership", "office", "maturity default"]
+      tags: ["cmbs", "foreclosure", "receivership", "office", "maturity default"],
+      docketUrl: "https://www.courtlistener.com/docket/74638795/us-bank-national-association-as-trustee-for-morgan-stanley-bank-of-america/",
+      docketLabel: "CourtListener docket"
     },
     {
       id: "live-032",
@@ -1213,7 +1247,9 @@ const RELAW_DATA = {
         { when: "July 2026", label: "Judge Trenga denies partial summary judgment, sending the case toward trial" },
         { when: "August 24, 2026", label: "FTC and five states file a stipulated settlement unwinding the agreement, pending Judge Trenga's signature", current: true }
       ],
-      tags: ["antitrust", "FTC", "rental listings", "landlord-tenant", "multifamily"]
+      tags: ["antitrust", "FTC", "rental listings", "landlord-tenant", "multifamily"],
+      docketUrl: "https://www.courtlistener.com/docket/71501133/federal-trade-commission-v-zillow-group-inc/",
+      docketLabel: "CourtListener docket"
     },
     {
       id: "live-043",
@@ -1353,7 +1389,9 @@ const RELAW_DATA = {
         "The ruling lands squarely within a well-established but frequently underestimated area of CRE finance risk. Nearly every institutional mortgage loan today is structured as non-recourse to the borrowing entity, with a separate guaranty from a principal that springs into full personal recourse if the borrower does specified things the lender considers bad-faith or value-destroying, commonly an unauthorized transfer of ownership or control, or a voluntary bankruptcy filing. Borrowers and their counsel sometimes treat these carve-outs as boilerplate, or assume that a transfer made under financial duress, or executed by someone other than the guarantor personally, will be viewed more sympathetically by courts. The Eleventh Circuit's opinion confirms the opposite: once a guarantor sets in motion a transaction that violates the loan's transfer restrictions, he cannot insulate himself from the consequences by later arguing that intervening decisions were made by parties he no longer controlled.",
         "For CRE owners, developers, and guarantors, the case is a pointed reminder that eleventh-hour maneuvers around a scheduled foreclosure sale carry serious personal financial risk. Any transfer of membership or ownership interests in a borrowing entity, even one intended to install new management or bring in a rescue capital partner, should be run past the loan documents and, where required, past the lender, before it closes rather than after, and guarantors should assume that a subsequent bankruptcy filing by the transferred entity will be read by courts as part of the same chain of events they set off rather than as an independent act by an unrelated party, since distancing oneself from new management's later decisions offered Everhardt no protection once his own unauthorized transfer had already tripped the carve-out. Because so much of this exposure turns on definitions buried in loan agreements, including what counts as a Permitted Transfer, which entities need lender consent, and how control is defined, borrowers facing distress should have counsel review those provisions well before a default notice arrives rather than after a foreclosure sale is already on the calendar, bearing in mind that even an unpublished, non-precedential opinion like this one is likely to be cited persuasively by lenders' counsel in future carve-out disputes within the circuit."
       ],
-      tags: ["hotel finance", "guaranty", "bad boy carve-out", "bankruptcy", "recourse liability"]
+      tags: ["hotel finance", "guaranty", "bad boy carve-out", "bankruptcy", "recourse liability"],
+      docketUrl: "https://www.courtlistener.com/docket/74701388/access-point-financial-llc-v-charles-everhardt/",
+      docketLabel: "CourtListener docket (11th Cir. appeal)"
     },
     {
       id: "live-048",
@@ -1444,7 +1482,9 @@ const RELAW_DATA = {
         { when: "July 1, 2026", label: "Court-approved transition installs Cushman & Wakefield as property manager in place of SL Green, under receiver Hilco Global", current: true }
       ],
       judge: "Andrea Masley",
-      tags: ["CMBS foreclosure", "receivership", "mezzanine debt", "UCC sale", "office"]
+      tags: ["CMBS foreclosure", "receivership", "mezzanine debt", "UCC sale", "office"],
+      docketUrl: "https://iapps.courts.state.ny.us/nyscef/CaseSearch",
+      docketLabel: "NYSCEF Index No. 850068/2026"
     },
     {
       id: "live-051",
@@ -1478,7 +1518,9 @@ const RELAW_DATA = {
         { when: "October 16, 2026", label: "Court-ordered deadline for the sale to close", upcoming: true }
       ],
       judge: "Nitza I. Quiñones Alejandro",
-      tags: ["CMBS foreclosure", "receivership", "distressed office", "office conversion", "federal court order"]
+      tags: ["CMBS foreclosure", "receivership", "distressed office", "office conversion", "federal court order"],
+      docketUrl: "https://www.courtlistener.com/docket/66730007/wells-fargo-bank-national-association-as-trusteefor-the-benefit-of/",
+      docketLabel: "CourtListener docket"
     },
     {
       id: "live-052",
@@ -1563,7 +1605,9 @@ const RELAW_DATA = {
         { when: "2017", label: "The Retail Property Trust's dispute with Nassau County over ASIE reporting compliance begins working through the Eastern District of New York" },
         { when: "August 6, 2026", label: "Second Circuit affirms the $4.8M fine and summary judgment for the County, with one judge writing separately to question whether corporations may invoke the Excessive Fines Clause at all", current: true }
       ],
-      tags: ["excessive fines clause", "property tax reporting", "shopping mall", "second circuit", "simon property group"]
+      tags: ["excessive fines clause", "property tax reporting", "shopping mall", "second circuit", "simon property group"],
+      docketUrl: "https://www.courtlistener.com/opinion/10940797/the-retail-property-trust-v-nassau-cnty-dept-of-assessment/",
+      docketLabel: "CourtListener opinion"
     },
     {
       id: "live-055",
@@ -1613,7 +1657,9 @@ const RELAW_DATA = {
         { when: "Late June 2024", label: "Harbor Custom files its second amended Chapter 11 plan, outlining the Pacific Ridge transfer" },
         { when: "August 21, 2024", label: "Sound Capital NW Holdings LLC takes title to Pacific Ridge Apartments via a $5M credit bid", current: true }
       ],
-      tags: ["Chapter 11", "credit bid", "construction loan", "multifamily", "bankruptcy"]
+      tags: ["Chapter 11", "credit bid", "construction loan", "multifamily", "bankruptcy"],
+      docketUrl: "https://www.courtlistener.com/docket/68078274/harbor-custom-development-inc-lead-case-consolidated-w-member-cases/",
+      docketLabel: "CourtListener docket"
     },
     {
       id: "live-057",
@@ -1666,7 +1712,9 @@ const RELAW_DATA = {
         { when: "October 2023", label: "Oakworth Capital Bank sues RC Nashville Development Partners and Timothy J. Morris over the defaulted $10M construction loan" },
         { when: "April 11, 2024", label: "The site is sold to R Squared Properties LLC for $35M at a foreclosure auction", current: true }
       ],
-      tags: ["Ritz-Carlton", "construction loan default", "foreclosure auction", "hospitality development", "Nashville"]
+      tags: ["Ritz-Carlton", "construction loan default", "foreclosure auction", "hospitality development", "Nashville"],
+      docketUrl: "https://www.courtlistener.com/docket/67940311/oakworth-capital-bank-v-rc-nashville-development-partners-llc/",
+      docketLabel: "CourtListener docket"
     },
     {
       id: "live-059",
@@ -1777,7 +1825,9 @@ const RELAW_DATA = {
         { when: "June 18, 2026", label: "Judge William Lindsay Osteen Jr. enters final consent judgment approving the $7M settlement", current: true }
       ],
       judge: "William Lindsay Osteen Jr.",
-      tags: ["algorithmic pricing", "RealPage", "antitrust", "multistate settlement", "consent decree"]
+      tags: ["algorithmic pricing", "RealPage", "antitrust", "multistate settlement", "consent decree"],
+      docketUrl: "https://www.courtlistener.com/docket/69074245/united-states-of-america-v-realpage-inc/",
+      docketLabel: "CourtListener docket"
     },
     {
       id: "live-063",
@@ -1978,7 +2028,9 @@ const RELAW_DATA = {
         { when: "October 15, 2026", label: "Final fairness hearing before Judge Waverly D. Crenshaw Jr. in Nashville", upcoming: true }
       ],
       judge: "Waverly D. Crenshaw Jr.",
-      tags: ["realpage", "algorithmic pricing", "antitrust", "reit", "mdl settlement"]
+      tags: ["realpage", "algorithmic pricing", "antitrust", "reit", "mdl settlement"],
+      docketUrl: "https://www.courtlistener.com/docket/67174489/in-re-realpage-inc-rental-software-antitrust-litigation-no-ii/",
+      docketLabel: "CourtListener docket"
     },
     {
       id: "live-070",
@@ -2035,7 +2087,9 @@ const RELAW_DATA = {
         { when: "2023", label: "SinOceanic I Limited acquires 181 West Madison out of HNA Group's bankruptcy" },
         { when: "April 2026", label: "SitusAMC files a foreclosure suit and moves to appoint Hilco's Matthew Mason as receiver", current: true }
       ],
-      tags: ["foreclosure", "receivership", "special servicer", "chicago office", "cmbs"]
+      tags: ["foreclosure", "receivership", "special servicer", "chicago office", "cmbs"],
+      docketUrl: "https://www.courtlistener.com/docket/73105372/wells-fargo-bank-na-v-181-west-madison-property-llc/",
+      docketLabel: "CourtListener docket"
     },
     {
       id: "live-072",
@@ -2123,7 +2177,9 @@ const RELAW_DATA = {
         { when: "February 2026", label: "D.C. Attorney General Brian L. Schwalb files a civil RICO and consumer-protection complaint against the Razjooyan family" },
         { when: "July 17, 2026", label: "U.S. District Court for the District of Columbia grants a preliminary injunction ordering professional management and repairs", current: true }
       ],
-      tags: ["rico", "housing code violations", "receivership", "consumer protection", "washington dc"]
+      tags: ["rico", "housing code violations", "receivership", "consumer protection", "washington dc"],
+      docketUrl: "https://www.courtlistener.com/docket/73186724/district-of-columbia-v-razjooyan/",
+      docketLabel: "CourtListener docket"
     },
     {
       id: "live-075",
@@ -2236,7 +2292,9 @@ const RELAW_DATA = {
         { when: "July 24, 2026", label: "Stines and Huffman file a proposed class action alleging unabated facility noise" },
         { when: "September 2, 2026", label: "Plaintiffs move to remand the removed case back to North Carolina state court", current: true }
       ],
-      tags: ["data center", "nuisance", "class action", "remand", "north carolina"]
+      tags: ["data center", "nuisance", "class action", "remand", "north carolina"],
+      docketUrl: "https://www.courtlistener.com/docket/73738334/stines-v-primeblock-operations-llc/",
+      docketLabel: "CourtListener docket"
     },
     {
       id: "live-079",
@@ -2292,7 +2350,9 @@ const RELAW_DATA = {
         { when: "August 2021", label: "Hurricane Ida damages Transportation Consultants' insured Louisiana property" },
         { when: "September 3, 2026", label: "Fifth Circuit affirms that the arbitration clause is unenforceable against the domestic insurers", current: true }
       ],
-      tags: ["insurance coverage", "arbitration", "surplus lines", "hurricane ida", "louisiana"]
+      tags: ["insurance coverage", "arbitration", "surplus lines", "hurricane ida", "louisiana"],
+      docketUrl: "https://www.courtlistener.com/opinion/10966064/transportation-conslt-v-certain-undwr/",
+      docketLabel: "CourtListener opinion"
     },
     {
       id: "live-081",
@@ -2352,7 +2412,9 @@ const RELAW_DATA = {
         { when: "October 11, 2024", label: "The Hustons file suit in the U.S. District Court for the District of Oregon" },
         { when: "February 3, 2026", label: "Judge Ann L. Aiken grants partial summary judgment for the Hustons on liability", current: true }
       ],
-      tags: ["fair housing", "familial status", "disability", "landlord discrimination", "oregon"]
+      tags: ["fair housing", "familial status", "disability", "landlord discrimination", "oregon"],
+      docketUrl: "https://www.courtlistener.com/docket/69255708/huston-v-willamette-valley-rentals-llc/",
+      docketLabel: "CourtListener docket"
     },
     {
       id: "live-083",
@@ -2494,7 +2556,9 @@ const RELAW_DATA = {
         "The case sits at the intersection of two doctrines commercial developers encounter far more often separately than together: the well-worn body of due process and equal protection case law governing municipal land-use decisions, under which developers regularly challenge permit denials and selective code enforcement as arbitrary, and the considerably rarer invocation of extortion and corruption theories against a sitting municipal attorney personally, framing enforcement as an instrument of an individually motivated scheme to force a below-market sale to a favored buyer. Proving that theory requires tying specific enforcement actions to the alleged quid pro quo, which is why the complaint leans heavily on the direct statements attributed to Baird rather than resting on the volume of citations alone, and Baird's potential immunity for acts taken in his official capacity will likely shape the case's trajectory before the underlying zoning issues are reached on the merits.",
         "For developers assembling sites for affordable or mixed-income housing in small municipalities, the case is a reminder that the same local discretion that makes density bonuses and housing incentives possible also concentrates significant, difficult-to-check power in a small number of local officials, leaving few fast or affordable remedies once that relationship turns adversarial short of federal litigation of exactly this kind. It counsels building a contemporaneous written record of every interaction with permitting and code enforcement officials from a project's earliest stages, particularly communications touching on alternative buyers or settlement overtures, since that documentation is what can transform an ordinary permitting dispute into a viable corruption or civil-rights claim, and it counsels weighing, before committing significant capital to an assemblage in a jurisdiction with limited institutional checks on a single official, whether the approval path realistically depends on the goodwill of one or two individuals rather than a more insulated, board-driven process."
       ],
-      tags: ["zoning", "code enforcement", "affordable housing", "florida", "municipal liability"]
+      tags: ["zoning", "code enforcement", "affordable housing", "florida", "municipal liability"],
+      docketUrl: "https://www.courtlistener.com/docket/74712343/the-alder-at-lake-park-llc-v-town-of-lake-park/",
+      docketLabel: "CourtListener docket"
     },
     {
       id: "live-089",
@@ -2623,7 +2687,9 @@ const RELAW_DATA = {
         { when: "June 1, 2026", label: "Tegethoff Development, LLC files Chapter 11 bankruptcy, listing roughly $540M in liabilities" },
         { when: "July 2026", label: "Bankruptcy creditors move to appoint an independent Chapter 11 trustee, citing insider transactions and commingled assets" },
         { when: "July 13, 2026", label: "Judge Bodenhausen allows an amended fraud complaint against Tegethoff and non-debtor affiliates to proceed while claims against the bankrupt entities are stayed", current: true }
-      ]
+      ],
+      docketUrl: "https://www.courtlistener.com/docket/72081019/solera-multifamily-llc-v-tegethoff/",
+      docketLabel: "CourtListener docket"
     },
     {
       id: "live-094",
@@ -2859,7 +2925,9 @@ const RELAW_DATA = {
         { when: "December 1, 2022", label: "Dillard's sues Winrock Partners LLC and Goodman Realty Group for breach of lease and lost profits" },
         { when: "June 24, 2026", label: "Magistrate judge grants Dillard's motion to compel discovery" },
         { when: "September 1, 2026", label: "Parties jointly move to amend the scheduling order and set a new trial date", current: true }
-      ]
+      ],
+      docketUrl: "https://www.courtlistener.com/docket/66581116/dillard-store-services-inc-v-winrock-partners-llc/",
+      docketLabel: "CourtListener docket"
     },
     {
       id: "live-102",
@@ -2943,7 +3011,9 @@ const RELAW_DATA = {
         { when: "February 2022", label: "Seven seed and agrichemical companies sue AltEn and affiliates to recover cleanup costs" },
         { when: "February 2023", label: "Court freezes AltEn's assets as the seed companies' cleanup costs continue to rise" },
         { when: "November 26, 2025", label: "Judge Brian Buescher dismisses the consolidated cases following an undisclosed settlement requiring a permanent environmental covenant", current: true }
-      ]
+      ],
+      docketUrl: "https://www.courtlistener.com/docket/63107484/pioneer-hi-bred-international-inc-v-alten-llc/",
+      docketLabel: "CourtListener docket"
     },
     {
       id: "live-105",
@@ -3219,7 +3289,9 @@ const RELAW_DATA = {
         { when: "August 5, 2026", label: "Judge Rothstein dismisses the class action, rejecting the physical-takings theory", current: true },
         { when: "August 2026", label: "Rental Housing Association of Washington files notice of appeal to the Ninth Circuit", upcoming: true }
       ],
-      tags: ["takings clause", "eviction moratorium", "landlord-tenant", "ninth circuit", "washington"]
+      tags: ["takings clause", "eviction moratorium", "landlord-tenant", "ninth circuit", "washington"],
+      docketUrl: "https://www.courtlistener.com/docket/72214882/cedarland-homes-llc-v-ferguson/",
+      docketLabel: "CourtListener docket"
     },
     {
       id: "live-114",
@@ -3539,7 +3611,9 @@ const RELAW_DATA = {
         { when: "February 26, 2026", label: "DTSC sues the property's current owners in the U.S. District Court for the Eastern District of California (Case No. 2:26-cv-00603)" },
         { when: "July 15, 2026", label: "DTSC announces a $2 million consent-decree settlement for past and future cleanup costs", current: true }
       ],
-      tags: ["environmental", "CERCLA", "Superfund", "dry cleaner", "PCE contamination", "current-owner liability", "California"]
+      tags: ["environmental", "CERCLA", "Superfund", "dry cleaner", "PCE contamination", "current-owner liability", "California"],
+      docketUrl: "https://www.courtlistener.com/docket/72337565/ca-dept-of-toxic-substances-control-v-lyon/",
+      docketLabel: "CourtListener docket"
     },
     {
       id: "live-125",
@@ -3569,7 +3643,9 @@ const RELAW_DATA = {
         { when: "June 2, 2026", label: "Judge Vera dismisses the complaint as unripe and insufficiently pleaded, with leave to amend", current: true },
         { when: "June 22, 2026", label: "Deadline for The Mission LLC to file an amended complaint", upcoming: true }
       ],
-      tags: ["builder's remedy", "SB 158", "equal protection", "sovereign immunity", "ripeness", "housing element", "California"]
+      tags: ["builder's remedy", "SB 158", "equal protection", "sovereign immunity", "ripeness", "housing element", "California"],
+      docketUrl: "https://www.courtlistener.com/docket/71746386/the-mission-llc-v-the-state-of-california/",
+      docketLabel: "CourtListener docket"
     },
     {
       id: "live-126",
@@ -3651,7 +3727,9 @@ const RELAW_DATA = {
         { when: "September 11, 2026", label: "Judge George H. Wu grants the motion to dismiss, finding scienter inadequately pled", current: true }
       ],
       judge: "George H. Wu",
-      tags: ["reit", "securities fraud", "life science", "lab space", "impairment", "california"]
+      tags: ["reit", "securities fraud", "life science", "lab space", "impairment", "california"],
+      docketUrl: "https://www.courtlistener.com/docket/71959712/warren-hern-v-alexandria-real-estate-equities-inc/",
+      docketLabel: "CourtListener docket"
     },
     {
       id: "live-129",
@@ -3776,7 +3854,9 @@ const RELAW_DATA = {
         { when: "May 29, 2026", label: "Live Nation announces it is no longer involved in the venue or with Portland Music Holdings" },
         { when: "June 9, 2026", label: "Portland Music Holdings files suit in the U.S. District Court for the District of Maine", current: true }
       ],
-      tags: ["zoning", "takings", "due process", "music venue", "maine"]
+      tags: ["zoning", "takings", "due process", "music venue", "maine"],
+      docketUrl: "https://www.courtlistener.com/docket/73457710/portland-music-holdings-llc-v-city-of-portland/",
+      docketLabel: "CourtListener docket"
     },
     {
       id: "live-133",
@@ -3866,7 +3946,9 @@ const RELAW_DATA = {
         { when: "April 2024", label: "Soros Fund Management, having purchased the defaulted debt from Aareal, sues Eretz for foreclosure in New York County Supreme Court" },
         { when: "September 1, 2026", label: "Soros Fund Management takes title to the building at a $158.7M foreclosure auction", current: true }
       ],
-      tags: ["foreclosure", "office", "distressed debt", "new york", "tenant takeover"]
+      tags: ["foreclosure", "office", "distressed debt", "new york", "tenant takeover"],
+      docketUrl: "https://iapps.courts.state.ny.us/nyscef/CaseSearch",
+      docketLabel: "NYSCEF Index No. 850134/2024"
     },
     {
       id: "live-136",
@@ -3921,7 +4003,9 @@ const RELAW_DATA = {
         { when: "August 11, 2026", label: "Judge Caproni sentences Schuster to 4 years in prison and orders $13M forfeiture", current: true },
         { when: "October 20, 2026", label: "Schuster is scheduled to surrender to the Federal Bureau of Prisons", upcoming: true }
       ],
-      judge: "Valerie E. Caproni"
+      judge: "Valerie E. Caproni",
+      docketUrl: "https://www.courtlistener.com/docket/70189262/united-states-v-schuster/",
+      docketLabel: "CourtListener docket"
     },
     {
       id: "live-138",
@@ -4014,7 +4098,9 @@ const RELAW_DATA = {
         { when: "July 17, 2026", label: "Helaba assigns the mortgage to a new lender entity tied to SL Green's chief legal officer" },
         { when: "August 5, 2026", label: "Parties stipulate to settle; receiver discharged, control returned to Sutton", current: true }
       ],
-      judge: "Francis A. Kahn III"
+      judge: "Francis A. Kahn III",
+      docketUrl: "https://iapps.courts.state.ny.us/nyscef/CaseSearch",
+      docketLabel: "NYSCEF Index No. 850386/2025"
     },
     {
       id: "live-141",
@@ -4041,7 +4127,9 @@ const RELAW_DATA = {
       timeline: [
         { when: "2024", label: "Alleged flip-and-finance scheme begins across Baltimore-area investment properties" },
         { when: "September 9, 2026", label: "AmeriTrust files RICO and fraud complaint in U.S. District Court for the District of Maryland", current: true }
-      ]
+      ],
+      docketUrl: "https://www.courtlistener.com/docket/74767372/ameritrust-mortgage-corporation-v-firstloans-inc/",
+      docketLabel: "CourtListener docket"
     },
     {
       id: "live-142",
