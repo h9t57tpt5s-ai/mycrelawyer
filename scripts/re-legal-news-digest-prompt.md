@@ -207,10 +207,20 @@ otherwise.
      case-identifying result — a CourtListener docket permalink you confirmed
      matches this exact case (federal courts only — RECAP has no state-court
      coverage), a NYSCEF index number you confirmed for this exact NY matter, a
-     re:SearchTX case ID for this exact TX matter, or a Cook County, IL case ID
+     TAMES case number for a TX appellate/Supreme Court matter (search.txcourts.gov
+     -- free, no login, separate from re:SearchTX), or a Cook County, IL case ID
      for a Cook County matter. These are the only sources currently vetted as
      both free and reliably linkable — do not substitute a different portal
      without the same level of confirmed, case-specific match.
+   - **re:SearchTX (research.txcourts.gov) now requires an eFileTexas account/
+     login as of 2026-09-16** -- a real access change from when this rule was
+     first written, confirmed during the first real verification sweep. Do NOT
+     create an account to get around this. Texas TRIAL-court matters (district/
+     county court, not appellate) currently have no free verification path this
+     way. Cook County's own case-search portal and Dallas County's court portal
+     both gate behind a reCAPTCHA -- do not attempt to solve it. If a free,
+     no-login path for TX trial courts or these specific portals ever reopens,
+     update this note.
    - NEVER add a generic "search this name on [portal]" link and never label
      it as a docket -- that overstates certainty this site doesn't have and is
      exactly the fabrication risk this rule exists to prevent. If your search
