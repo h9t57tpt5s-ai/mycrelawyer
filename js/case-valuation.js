@@ -534,7 +534,8 @@
       ${stateName ? `<span class="detail-tag">Jurisdiction: ${stateName}</span>` : `<span class="detail-tag" style="color:var(--ui-warning);">Jurisdiction: not stated</span>`}
       ${a.roleLabel ? `<span class="detail-tag">Your side: ${a.roleLabel}</span>` : ""}
       ${coverageBadgeHtml(a.citationCoverage)}
-    </div>`;
+    </div>
+    ${a.category ? `<p style="margin-top:12px;"><a href="settlement-benchmarks.html?category=${encodeURIComponent(a.category)}" style="font-size:13px;">See real settlement &amp; verdict benchmarks for ${a.categoryLabel || "this category"} &rarr;</a></p>` : ""}`;
     const issuesHtml = (a.issues || []).length
       ? `<div class="eyebrow" style="margin:20px 0 8px;">Claim-by-Claim Detail</div><div class="cv-claims">${a.issues.map(issueResultHtml).join("")}</div>`
       : "";
