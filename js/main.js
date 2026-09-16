@@ -541,11 +541,10 @@
       datePublished: c.addedDate || c.date,
       about: c.tags || [],
       author: {
-        // No `url` yet — it would point to author-jeff-novel.html, which
-        // isn't deployed. Add it back once that page goes live.
         "@type": "Person",
         name: a.name,
         jobTitle: a.title,
+        url: a.bioUrl ? `https://credocket.com/${a.bioUrl}` : undefined,
         sameAs: [a.linkedin]
       },
       publisher: { "@type": "Organization", name: "CREdocket" }
