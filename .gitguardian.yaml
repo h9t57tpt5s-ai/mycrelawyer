@@ -1,0 +1,22 @@
+version: 2
+
+# CREdocket / mycrelawyer — GitGuardian ignore rules
+#
+# This repo intentionally ships a Supabase "publishable" (anon) API key in
+# client-side code across ~120+ static HTML pages and several js/*.js files
+# (js/supabase-client.js is the canonical copy). This is not a leaked
+# secret: Supabase's publishable/anon key is explicitly designed to be
+# public in browser-side code -- the real access boundary is Row Level
+# Security policies on each table, not keeping this key hidden. Rotating
+# it would mean updating it across every page for zero real security
+# benefit. See js/supabase-client.js's own header comment for the same
+# explanation, and the credocket-project-overview memory note.
+#
+# GitGuardian's generic "Bearer Token" detector flags any literal
+# "Bearer <token>" string, with no way to know this specific token is a
+# public-by-design key rather than a real secret -- hence this ignore.
+
+secret:
+  ignored-matches:
+    - name: Supabase publishable/anon key (public by design, see comment above)
+      match: sb_publishable_77xSJub0DOpnTSM4nzhVaQ_aztB5p3f
