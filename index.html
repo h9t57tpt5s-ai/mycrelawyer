@@ -288,7 +288,7 @@
     <div class="section-head reveal">
       <div>
         <div class="eyebrow">Coverage Areas</div>
-        <h2>Eight practice areas, one dashboard</h2>
+        <h2 id="category-count-heading">Practice areas, one dashboard</h2>
       </div>
       <p class="lede">From zoning fights to REIT securities claims, we organize legal developments the way CRE teams actually think about risk.</p>
     </div>
@@ -469,6 +469,19 @@
     const featured = [...RELAW_DATA.cases].sort((a,b) => new Date(b.date) - new Date(a.date)).slice(0, 3);
     document.getElementById("featured-grid").innerHTML = featured.map((c) => window.RELAW_UTILS.caseCardHtml(c)).join("");
     document.querySelectorAll("#featured-grid .reveal").forEach(el => el.classList.add("in-view"));
+
+    // Drift-proof: this heading's number hardcoded "Eight practice areas"
+    // for months after a 9th category (premises-liability) was added,
+    // caught by the 2026-09-15 numeric-consistency sweep (same bug class
+    // as about.html and case-valuation.html the same day). Deriving it
+    // from RELAW_DATA.categories.length here means it can never go stale
+    // again the next time a category is added.
+    const catCountEl = document.getElementById("category-count-heading");
+    if (catCountEl) {
+      const n = RELAW_DATA.categories.length;
+      const words = { 6: "Six", 7: "Seven", 8: "Eight", 9: "Nine", 10: "Ten", 11: "Eleven", 12: "Twelve" };
+      catCountEl.textContent = `${words[n] || n} practice areas, one dashboard`;
+    }
 
     const catGrid = document.getElementById("category-grid");
     catGrid.innerHTML = RELAW_DATA.categories.map(cat => {
