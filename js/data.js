@@ -3461,7 +3461,9 @@ const RELAW_DATA = {
       ],
       documentUrl: "https://search.txcourts.gov/SearchMedia.aspx?MediaVersionID=ed3ce8c0-36e7-4012-b9c8-46156f1eb2b8&coa=cossup&DT=OPINION&MediaID=b4db616d-131b-4712-868f-19275f6c0139",
       documentLabel: "Read the official opinion",
-      tags: ["eminent domain", "sovereign immunity", "repurchase right", "TxDOT", "condemnation", "Texas"]
+      tags: ["eminent domain", "sovereign immunity", "repurchase right", "TxDOT", "condemnation", "Texas"],
+      docketUrl: "https://search.txcourts.gov/Case.aspx?cn=24-0447&coa=cossup",
+      docketLabel: "Tex. Sup. Ct. No. 24-0447"
     },
     {
       id: "live-120",
@@ -3494,7 +3496,9 @@ const RELAW_DATA = {
       ],
       documentUrl: "https://search.txcourts.gov/SearchMedia.aspx?MediaVersionID=af4b9665-0b2d-4219-b13c-d41c95355ab9&coa=coa04&DT=Opinion&MediaID=467bb86a-40fa-4100-b63a-b7e9f88def9b",
       documentLabel: "Read the official opinion",
-      tags: ["contract zoning", "standing", "Toyota", "Starbright Agreement", "takings", "Texas"]
+      tags: ["contract zoning", "standing", "Toyota", "Starbright Agreement", "takings", "Texas"],
+      docketUrl: "https://search.txcourts.gov/Case.aspx?cn=04-24-00371-CV&coa=coa04",
+      docketLabel: "Tex. App.—San Antonio No. 04-24-00371-CV"
     },
     {
       id: "live-121",
@@ -3526,7 +3530,9 @@ const RELAW_DATA = {
       ],
       documentUrl: "https://search.txcourts.gov/SearchMedia.aspx?MediaVersionID=9ab2edf3-a327-460b-b90f-ba8d569dcf7d&coa=coa05&DT=Opinion&MediaID=34d9bf60-5c2e-4396-853c-1476010f8451",
       documentLabel: "Read the official opinion",
-      tags: ["shopping mall", "lease assumption", "impossibility defense", "distributed antenna system", "Collin Creek Mall", "Texas"]
+      tags: ["shopping mall", "lease assumption", "impossibility defense", "distributed antenna system", "Collin Creek Mall", "Texas"],
+      docketUrl: "https://search.txcourts.gov/Case.aspx?cn=05-24-00769-CV&coa=coa05",
+      docketLabel: "Tex. App.—Dallas No. 05-24-00769-CV"
     },
     {
       id: "live-122",
@@ -3555,7 +3561,9 @@ const RELAW_DATA = {
       ],
       documentUrl: "https://search.txcourts.gov/SearchMedia.aspx?MediaVersionID=9bacebca-5e6c-4ae3-980b-cfa1ca4695ae&coa=coa14&DT=Opinion&MediaID=f6979f28-a233-454f-960c-ad8a564acff9",
       documentLabel: "Read the official opinion",
-      tags: ["construction defect", "water intrusion", "discovery rule", "statute of limitations", "CBRE", "timeshare resort", "Texas"]
+      tags: ["construction defect", "water intrusion", "discovery rule", "statute of limitations", "CBRE", "timeshare resort", "Texas"],
+      docketUrl: "https://search.txcourts.gov/Case.aspx?cn=14-23-00976-CV&coa=coa14",
+      docketLabel: "Tex. App.—Houston [14th Dist.] No. 14-23-00976-CV"
     },
     {
       id: "live-123",
