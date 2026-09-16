@@ -88,15 +88,44 @@
   });
 
   // ---- Credit balance + gating (same tables as the Value Calculator) ----
+  // Fixed 2026-09-16 -- same bug, same fix as js/case-valuation.js: this
+  // only ever checked case_valuation_purchases, so a real subscriber with
+  // room left in their monthly plan would still hit this paywall and
+  // never reach the analyze button. Mirrors lease-clause-redline/index.ts's
+  // own priority order: active subscription's monthly allotment first,
+  // falling through to the one-time pack as overage once that's used up.
   async function getCreditBalance() {
-    const [{ data: purchases, error: pErr }, { count, error: cErr }] = await Promise.all([
+    const { data: subscription, error: subError } = await sb
+      .from("case_valuation_subscriptions")
+      .select("monthly_credit_allotment, current_period_start, current_period_end")
+      .eq("status", "active")
+      .gt("current_period_end", new Date().toISOString())
+      .maybeSingle();
+    if (subError) return null;
+
+    if (subscription) {
+      const { count: periodUsed, error: periodErr } = await sb
+        .from("case_valuation_analyses")
+        .select("id", { count: "exact", head: true })
+        .eq("credit_source", "subscription")
+        .gte("created_at", subscription.current_period_start);
+      if (periodErr) return null;
+      const remaining = subscription.monthly_credit_allotment - (periodUsed || 0);
+      if (remaining > 0) {
+        return { source: "subscription", total: subscription.monthly_credit_allotment, used: periodUsed || 0, remaining };
+      }
+      // This period's allotment is used up -- fall through to the
+      // one-time pool as overage, exactly like the backend does.
+    }
+
+    const [{ data: purchases, error: pErr }, { count: usedCount, error: uErr }] = await Promise.all([
       sb.from("case_valuation_purchases").select("credits_granted"),
-      sb.from("case_valuation_analyses").select("id", { count: "exact", head: true }),
+      sb.from("case_valuation_analyses").select("id", { count: "exact", head: true }).eq("credit_source", "one_time"),
     ]);
-    if (pErr || cErr) return null;
+    if (pErr || uErr) return null;
     const total = (purchases || []).reduce((s, p) => s + (p.credits_granted || 0), 0);
-    const used = count || 0;
-    return { total, used, remaining: total - used };
+    const used = usedCount || 0;
+    return { source: subscription ? "subscription_exhausted" : "one_time", total, used, remaining: total - used };
   }
 
   function signInCardHtml() {

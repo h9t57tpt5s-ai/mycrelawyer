@@ -80,15 +80,45 @@
      no more client-side category dropdown to key a free deterministic
      estimate off of). Every purchase adds credits; they're consumed one
      per analysis and never expire. */
+  // Fixed 2026-09-16 (was: only ever checked case_valuation_purchases, so
+  // a real subscriber with room left in their monthly plan would still be
+  // shown the "purchase credits" paywall here and never reach the analyze
+  // button, even though the backend would have happily served them).
+  // Mirrors case-valuation-analyze/index.ts's own priority order exactly:
+  // an active subscription's monthly allotment first, falling through to
+  // the one-time pack as overage once that period's allotment is used up.
   async function getCreditBalance() {
-    const [{ data: purchases, error: pErr }, { count, error: cErr }] = await Promise.all([
+    const { data: subscription, error: subError } = await sb
+      .from("case_valuation_subscriptions")
+      .select("monthly_credit_allotment, current_period_start, current_period_end")
+      .eq("status", "active")
+      .gt("current_period_end", new Date().toISOString())
+      .maybeSingle();
+    if (subError) return null;
+
+    if (subscription) {
+      const { count: periodUsed, error: periodErr } = await sb
+        .from("case_valuation_analyses")
+        .select("id", { count: "exact", head: true })
+        .eq("credit_source", "subscription")
+        .gte("created_at", subscription.current_period_start);
+      if (periodErr) return null;
+      const remaining = subscription.monthly_credit_allotment - (periodUsed || 0);
+      if (remaining > 0) {
+        return { source: "subscription", total: subscription.monthly_credit_allotment, used: periodUsed || 0, remaining };
+      }
+      // This period's allotment is used up -- fall through to the
+      // one-time pool as overage, exactly like the backend does.
+    }
+
+    const [{ data: purchases, error: pErr }, { count: usedCount, error: uErr }] = await Promise.all([
       sb.from("case_valuation_purchases").select("credits_granted"),
-      sb.from("case_valuation_analyses").select("id", { count: "exact", head: true })
+      sb.from("case_valuation_analyses").select("id", { count: "exact", head: true }).eq("credit_source", "one_time")
     ]);
-    if (pErr || cErr) return null;
+    if (pErr || uErr) return null;
     const total = (purchases || []).reduce((s, p) => s + (p.credits_granted || 0), 0);
-    const used = count || 0;
-    return { total, used, remaining: total - used };
+    const used = usedCount || 0;
+    return { source: subscription ? "subscription_exhausted" : "one_time", total, used, remaining: total - used };
   }
 
   // Shared by claimResultHtml and issueResultHtml below. Fixed 2026-09-13

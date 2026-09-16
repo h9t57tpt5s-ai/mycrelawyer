@@ -164,9 +164,11 @@ Deno.serve(async (req: Request) => {
   //
   // FREE_MODE (2026-09-14): pricing is paused while the product gets
   // built out further -- see case-valuation-analyze/index.ts's own
-  // Step 2 comment for the full reasoning and the known frontend bug
-  // that must be fixed (js/lease-clause-redline.js's getCreditBalance())
-  // before this can safely flip back to false.
+  // Step 2 comment for the full reasoning. The frontend bug that used to
+  // block flipping this back to false is fixed (2026-09-16):
+  // js/lease-clause-redline.js's getCreditBalance() now checks the
+  // subscription pool before falling through to one-time credits, same
+  // priority order as the backend here.
   const FREE_MODE = true;
   let creditSource: "subscription" | "one_time" | "promo" | null = null;
 

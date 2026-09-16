@@ -1591,13 +1591,19 @@ Deno.serve(async (req) => {
   // entirely rather than leaving a half-enforced gate live. Every call
   // still gets logged with credit_source="promo" (a real, unconstrained
   // text value -- see schema_subscriptions.sql) so usage volume during
-  // this period is still visible later. To re-enable paid access: flip
-  // this back to false, redeploy, AND first fix the known bug in
-  // js/case-valuation.js's getCreditBalance() -- it only ever checked
+  // this period is still visible later.
+  //
+  // The blocker that used to be here is fixed (2026-09-16): js/case-
+  // valuation.js's getCreditBalance() only ever checked
   // case_valuation_purchases, never case_valuation_subscriptions, so a
   // real subscriber would have hit the frontend's own "no credits"
-  // paywall before ever reaching this endpoint. Same bug, same fix,
-  // needed in lease-clause-redline/index.ts and js/lease-clause-redline.js.
+  // paywall before ever reaching this endpoint. It now checks the
+  // subscription's monthly allotment first, falling through to the
+  // one-time pool as overage -- same priority order as this function.
+  // Same fix already applied to lease-clause-redline/index.ts's
+  // counterpart, js/lease-clause-redline.js. To re-enable paid access:
+  // flip this back to false and redeploy (both this function and
+  // lease-clause-redline) -- no other known blocker remains.
   const FREE_MODE = true;
   let creditSource: "subscription" | "one_time" | "promo" | null = null;
 
