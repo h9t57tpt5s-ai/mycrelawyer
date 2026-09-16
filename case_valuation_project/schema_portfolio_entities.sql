@@ -58,8 +58,13 @@ create policy "Users manage their own portfolio entities"
   using (auth.uid() = user_id)
   with check (auth.uid() = user_id);
 
--- Reasonable per-user cap so this can't be abused as unbounded storage
--- -- enforced at the application layer (the account.html UI), not here;
--- this comment is just a reminder to add that check when building the
--- UI, matching the pattern free-tier limits already use elsewhere on
--- the site (case_views' MONTHLY_LIMIT, etc.).
+-- Reasonable per-user cap so this can't be abused as unbounded storage --
+-- checked client-side in js/portfolio-entities.js (MAX_ENTITIES) before
+-- every insert, matching the pattern free-tier limits already use
+-- elsewhere on the site (case_views' MONTHLY_LIMIT, etc.), AND enforced
+-- for real in the database by a BEFORE INSERT trigger -- see
+-- supabase/migrations/20260916_portfolio_entities_cap_trigger.sql (run
+-- that migration separately, after this file, in the Supabase SQL
+-- Editor). The client-side check alone is not a security boundary: RLS
+-- here only checks auth.uid() = user_id, so any signed-in user could
+-- otherwise call the Supabase REST API directly and bypass it.

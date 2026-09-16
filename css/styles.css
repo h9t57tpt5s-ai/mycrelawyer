@@ -1435,6 +1435,31 @@ h3, .h3 {
 .empty-state { text-align: center; padding: 80px 20px; color: var(--text-muted); }
 .empty-state svg { width: 48px; height: 48px; margin: 0 auto 20px; opacity: 0.5; }
 
+/* ---------- File dropzone (js/portfolio-entities.js's CSV bulk import) --
+   Same visual language as case-valuation.css's .cv-ai-dropzone (that one
+   stays page-scoped to case-valuation.html since it's only loaded there);
+   this copy lives in the global stylesheet so any page's file-upload flow
+   -- not just the Case Value Calculator's -- can reuse it. */
+.file-dropzone { position: relative; border: 1.5px dashed var(--border); border-radius: var(--radius-md); padding: 22px 20px; text-align: center; margin-bottom: 14px; transition: border-color 0.15s, background 0.15s; }
+.file-dropzone.is-dragover { border-color: var(--accent); background: var(--accent-wash); }
+.file-dropzone-inner { color: var(--text-secondary); }
+.file-dropzone-inner svg { color: var(--text-muted); margin-bottom: 6px; }
+.file-dropzone-inner p { font-size: 13px; margin: 3px 0; }
+
+/* ---------- Bulk-import per-row results (js/portfolio-entities.js) ----
+   One line per CSV row after validation -- name, Added/Skipped, and the
+   reason when skipped -- so an import never looks like a silent
+   all-or-nothing success/failure. */
+.import-results { max-height: 260px; overflow-y: auto; border: 1px solid var(--border); border-radius: var(--radius-md); margin-top: 14px; }
+.import-row { display: flex; align-items: baseline; gap: 10px; padding: 8px 12px; font-size: 12.5px; border-bottom: 1px solid var(--border-soft); }
+.import-row:last-child { border-bottom: none; }
+.import-row-name { flex: 1 1 auto; min-width: 0; color: var(--text-primary); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.import-row-status { flex-shrink: 0; font-family: var(--font-mono); font-size: 10.5px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.04em; padding: 2px 8px; border-radius: var(--radius-full); }
+.import-row.is-ok .import-row-status { color: var(--ui-success); background: var(--ui-success-soft); }
+.import-row.is-skip .import-row-status { color: var(--ui-warning); background: var(--ui-warning-soft); }
+.import-row.is-error .import-row-status { color: var(--ui-danger); background: var(--ui-danger-soft); }
+.import-row-reason { flex-shrink: 0; color: var(--text-muted); max-width: 40%; text-align: right; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+
 /* ---------- Global search ---------- */
 .nav-search-toggle {
   display: flex; align-items: center; justify-content: center;

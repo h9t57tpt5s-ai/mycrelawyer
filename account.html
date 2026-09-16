@@ -236,26 +236,40 @@
       </form>
 
       <details class="card reveal" style="padding:20px 28px; margin-bottom:24px;">
-        <summary style="cursor:pointer; font-weight:600; font-size:13.5px;">Add several at once</summary>
-        <form id="portfolio-bulk-form" style="margin-top:16px;">
-          <div class="form-field">
-            <label for="pe-bulk-names">One name per line</label>
-            <textarea id="pe-bulk-names" rows="6" placeholder="400 Market Street Owner LLC&#10;Acme Retail Tenant Corp&#10;First Regional Bank, N.A." style="width:100%; padding:12px; border-radius:8px; border:1px solid var(--border); background:var(--bg-elevated); color:var(--text-primary); font-size:13.5px; font-family:inherit; resize:vertical;"></textarea>
+        <summary style="cursor:pointer; font-weight:600; font-size:13.5px;">Bulk import (CSV)</summary>
+        <div style="margin-top:16px;">
+          <p class="text-secondary" style="font-size:12.5px; line-height:1.6; margin-bottom:14px;">One entity per line: <span class="mono">name,type,note</span> — type and note are both optional. Recognized types: property, tenant, lender, guarantor, counterparty, other (anything else is imported as "Other" rather than rejected). Wrap a name in quotes if it contains a comma, e.g. <span class="mono">"First Regional Bank, N.A.",lender</span>. <button type="button" id="pe-bulk-template-btn" class="text-accent" style="background:none; border:none; padding:0; font:inherit; cursor:pointer; text-decoration:underline;">Download a sample CSV</button></p>
+
+          <div class="file-dropzone" id="pe-bulk-dropzone">
+            <input type="file" id="pe-bulk-file" accept=".csv,.txt,text/csv,text/plain" style="display:none;" />
+            <div class="file-dropzone-inner">
+              <svg viewBox="0 0 24 24" fill="none" width="24" height="24"><path d="M12 3v12m0 0l-4-4m4 4l4-4M5 21h14" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              <p><strong>Drop a CSV file here</strong> or <button type="button" class="text-accent" id="pe-bulk-browse-btn" style="background:none; border:none; padding:0; font:inherit; cursor:pointer; text-decoration:underline;">browse files</button></p>
+              <p class="text-muted" style="font-size:11.5px;">.csv or .txt — loads into the box below for review before importing</p>
+            </div>
           </div>
-          <div class="form-field mt-16">
-            <label for="pe-bulk-type">All of these are:</label>
-            <select id="pe-bulk-type">
-              <option value="property">Properties</option>
-              <option value="tenant">Tenants</option>
-              <option value="lender">Lenders</option>
-              <option value="guarantor">Guarantors</option>
-              <option value="counterparty" selected>Other counterparties</option>
-              <option value="other">Other</option>
-            </select>
-          </div>
-          <button type="submit" class="btn btn-ghost btn-sm mt-16">Add all</button>
-          <div id="portfolio-bulk-status" class="auth-modal-status"></div>
-        </form>
+
+          <form id="portfolio-bulk-form">
+            <div class="form-field">
+              <label for="pe-bulk-names">Or paste rows directly</label>
+              <textarea id="pe-bulk-names" rows="7" placeholder="400 Market Street Owner LLC,property,Primary asset&#10;Acme Retail Tenant Corp,tenant&#10;&quot;First Regional Bank, N.A.&quot;,lender" style="width:100%; padding:12px; border-radius:8px; border:1px solid var(--border); background:var(--bg-elevated); color:var(--text-primary); font-size:13px; font-family:var(--font-mono); resize:vertical;"></textarea>
+            </div>
+            <div class="form-field mt-16">
+              <label for="pe-bulk-default-type">Default type (used for any row that doesn't specify one)</label>
+              <select id="pe-bulk-default-type">
+                <option value="property">Property</option>
+                <option value="tenant">Tenant</option>
+                <option value="lender">Lender</option>
+                <option value="guarantor">Guarantor</option>
+                <option value="counterparty" selected>Other counterparty</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+            <button type="submit" class="btn btn-ghost btn-sm mt-16">Import rows</button>
+            <div id="portfolio-bulk-status" class="auth-modal-status"></div>
+            <div id="portfolio-bulk-results"></div>
+          </form>
+        </div>
       </details>
 
       <div class="section-head reveal">
