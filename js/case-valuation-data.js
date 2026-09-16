@@ -4352,6 +4352,87 @@ const CASE_VALUATION_DATA = {
      user's own broker estimate (entered directly in the Case Value
      Calculator's cost section) takes priority over a lookup here even
      once entries exist, since a case-specific real number always beats
-     a market-average one. */
-  "leaseMitigationReference": {}
+     a market-average one.
+
+     FIRST 8 REAL ENTRIES (added 2026-09-16), researched via WebSearch +
+     WebFetch of actual CBRE/JLL/Cushman & Wakefield/Colliers quarterly
+     market reports -- one representative major metro per state+property-
+     type pair (the schema has no metro field; where multiple metros exist
+     in a state, e.g. CA industrial's LA vs. Inland Empire, the
+     better-sourced one was used and the other left for a future entry
+     under a different key convention if ever needed). Every
+     reLeaseMonthsRange here is a DIRECTIONAL INFERENCE from real,
+     WebFetched vacancy/absorption/leasing-velocity data -- none of the
+     sources directly state "average months to re-lease" as their own
+     figure, which is why evalLeaseDisputes()'s own note already frames
+     this as "a directional market range, not case-specific evidence."
+     rentChangeRange is anchored on each report's own directly-stated
+     asking-rent trend wherever possible (flagged per-entry below where
+     it required more inference than that). Two researched
+     markets/property-types (FL office/Miami, AZ retail/Phoenix) were
+     deliberately EXCLUDED even though partial data existed -- the
+     research explicitly could not clear this site's medium-confidence
+     bar for them (Miami relied on a secondary source relaying Yardi
+     Matrix data with no metro-wide vacancy figure; Phoenix retail relied
+     on a forecast blended with trailing actuals from a secondary
+     write-up) -- same "never publish a low-confidence figure, leave it
+     out instead" standard the citation database uses. */
+  "leaseMitigationReference": {
+    "NY|Office": {
+      "reLeaseMonthsRange": [6, 14],
+      "rentChangeRange": [-0.03, 0.08],
+      "asOfDate": "2026-07-08",
+      "source": "CBRE, Manhattan Office Figures Q2 2026",
+      "sourceUrl": "https://www.cbre.com/insights/figures/manhattan-office-figures-q2-2026"
+    },
+    "IL|Office": {
+      "reLeaseMonthsRange": [12, 24],
+      "rentChangeRange": [-0.08, 0.03],
+      "asOfDate": "2026-06-30",
+      "source": "JLL, Downtown Chicago Office Market Dynamics Q2 2026",
+      "sourceUrl": "https://www.jll.com/en-us/insights/market-dynamics/chicago-downtown-office"
+    },
+    "TX|Office": {
+      "reLeaseMonthsRange": [14, 26],
+      "rentChangeRange": [-0.04, 0.02],
+      "asOfDate": "2026-06-30",
+      "source": "Cushman & Wakefield, MarketBeat Houston Office Q2 2026",
+      "sourceUrl": "https://www.cushmanwakefield.com/en/united-states/insights/us-marketbeats/houston-marketbeats/office"
+    },
+    "GA|Office": {
+      "reLeaseMonthsRange": [12, 24],
+      "rentChangeRange": [0, 0.08],
+      "asOfDate": "2026-06-30",
+      "source": "Colliers, Atlanta Regional Office Market Report Q2 2026",
+      "sourceUrl": "https://www.colliers.com/en/research/atlanta/2026-q2-atlanta-office-market-report"
+    },
+    "TX|Industrial": {
+      "reLeaseMonthsRange": [3, 8],
+      "rentChangeRange": [0, 0.06],
+      "asOfDate": "2026-06-30",
+      "source": "JLL, Dallas-Fort Worth Industrial Market Dynamics Q2 2026",
+      "sourceUrl": "https://www.jll.com/en-us/insights/market-dynamics/dallas-fort-worth-industrial"
+    },
+    "CA|Industrial": {
+      "reLeaseMonthsRange": [2, 6],
+      "rentChangeRange": [-0.10, -0.02],
+      "asOfDate": "2026-07-09",
+      "source": "CBRE, Los Angeles Industrial Figures Q2 2026",
+      "sourceUrl": "https://www.cbre.com/insights/figures/los-angeles-industrial-figures-q2-2026"
+    },
+    "GA|Industrial": {
+      "reLeaseMonthsRange": [4, 10],
+      "rentChangeRange": [0, 0.05],
+      "asOfDate": "2026-06-30",
+      "source": "Cushman & Wakefield, MarketBeat Atlanta Industrial Q2 2026",
+      "sourceUrl": "https://www.cushmanwakefield.com/en/united-states/insights/us-marketbeats/atlanta-marketbeats/industrial"
+    },
+    "AZ|Industrial": {
+      "reLeaseMonthsRange": [3, 8],
+      "rentChangeRange": [-0.06, 0],
+      "asOfDate": "2026-06-30",
+      "source": "JLL / Cushman & Wakefield, Phoenix Industrial Market Q2 2026",
+      "sourceUrl": "https://www.cushmanwakefield.com/en/united-states/insights/us-marketbeats/phoenix-marketbeats/industrial"
+    }
+  }
 };
