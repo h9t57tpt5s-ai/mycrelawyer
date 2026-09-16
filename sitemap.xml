@@ -2,122 +2,607 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://credocket.com/about.html</loc>
-    <lastmod>2026-08-10</lastmod>
+    <lastmod>2026-09-15</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://credocket.com/ada-litigation-patterns.html</loc>
+    <lastmod>2026-09-14</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://credocket.com/ada-risk-flagging.html</loc>
+    <lastmod>2026-09-14</lastmod>
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://credocket.com/algorithmic-pricing-manager-guide.html</loc>
+    <lastmod>2026-09-14</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://credocket.com/analysis-overview.html</loc>
+    <lastmod>2026-09-14</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://credocket.com/author-jeff-novel.html</loc>
+    <lastmod>2026-09-14</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://credocket.com/calendar.html</loc>
+    <lastmod>2026-09-14</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://credocket.com/california-landlord-tenant.html</loc>
-    <lastmod>2026-08-10</lastmod>
+    <lastmod>2026-09-14</lastmod>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://credocket.com/california-zoning-land-use.html</loc>
-    <lastmod>2026-08-10</lastmod>
+    <lastmod>2026-09-14</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://credocket.com/case-valuation-methodology.html</loc>
+    <lastmod>2026-09-15</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://credocket.com/case-valuation-predictions.html</loc>
+    <lastmod>2026-09-15</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://credocket.com/case-valuation-worked-examples.html</loc>
+    <lastmod>2026-09-15</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://credocket.com/case-valuation.html</loc>
+    <lastmod>2026-09-15</lastmod>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://credocket.com/companies.html</loc>
+    <lastmod>2026-09-14</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://credocket.com/company-apollo-global-management.html</loc>
+    <lastmod>2026-09-14</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://credocket.com/company-blackstone.html</loc>
+    <lastmod>2026-09-15</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://credocket.com/company-cbre-group.html</loc>
+    <lastmod>2026-09-14</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://credocket.com/company-columbia-falls-aluminum.html</loc>
+    <lastmod>2026-09-14</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://credocket.com/company-costar-group.html</loc>
+    <lastmod>2026-09-14</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://credocket.com/company-cushman-wakefield.html</loc>
+    <lastmod>2026-09-14</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://credocket.com/company-deutsche-bank.html</loc>
+    <lastmod>2026-09-14</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://credocket.com/company-dr-horton.html</loc>
+    <lastmod>2026-09-14</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://credocket.com/company-goldman-sachs.html</loc>
+    <lastmod>2026-09-14</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://credocket.com/company-jll.html</loc>
+    <lastmod>2026-09-14</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://credocket.com/company-lightstone-group.html</loc>
+    <lastmod>2026-09-14</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://credocket.com/company-metro-loft.html</loc>
+    <lastmod>2026-09-14</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://credocket.com/company-mosser-companies.html</loc>
+    <lastmod>2026-09-14</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://credocket.com/company-penn-florida-companies.html</loc>
+    <lastmod>2026-09-14</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://credocket.com/company-rad-diversified-reit.html</loc>
+    <lastmod>2026-09-14</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://credocket.com/company-realpage.html</loc>
+    <lastmod>2026-09-14</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://credocket.com/company-rialto-capital-advisors.html</loc>
+    <lastmod>2026-09-14</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://credocket.com/company-silver-star-properties-reit.html</loc>
+    <lastmod>2026-09-14</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://credocket.com/company-travelers.html</loc>
+    <lastmod>2026-09-14</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://credocket.com/company-two-harbors-investment.html</loc>
+    <lastmod>2026-09-14</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://credocket.com/company-udr-inc.html</loc>
+    <lastmod>2026-09-14</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://credocket.com/company-us-bank-national-association.html</loc>
+    <lastmod>2026-09-14</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://credocket.com/company-uwm-holdings.html</loc>
+    <lastmod>2026-09-14</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://credocket.com/company-wells-fargo.html</loc>
+    <lastmod>2026-09-14</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://credocket.com/company-willow-bridge-property.html</loc>
+    <lastmod>2026-09-14</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://credocket.com/company-wilmington-trust-national-association.html</loc>
+    <lastmod>2026-09-14</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://credocket.com/compare-companies.html</loc>
+    <lastmod>2026-09-14</lastmod>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://credocket.com/contact.html</loc>
-    <lastmod>2026-08-10</lastmod>
+    <lastmod>2026-09-14</lastmod>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://credocket.com/counsel.html</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://credocket.com/contribute-settlement.html</loc>
+    <lastmod>2026-09-14</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://credocket.com/data-centers.html</loc>
+    <lastmod>2026-09-14</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://credocket.com/directory-overview.html</loc>
+    <lastmod>2026-09-14</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://credocket.com/distressed-office.html</loc>
+    <lastmod>2026-09-15</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://credocket.com/eviction-guide.html</loc>
+    <lastmod>2026-09-14</lastmod>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://credocket.com/florida-lending-foreclosure.html</loc>
-    <lastmod>2026-08-10</lastmod>
+    <lastmod>2026-09-14</lastmod>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://credocket.com/florida-reit-securities.html</loc>
-    <lastmod>2026-08-10</lastmod>
+    <lastmod>2026-09-14</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://credocket.com/guides-overview.html</loc>
+    <lastmod>2026-09-14</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://credocket.com/handbook.html</loc>
+    <lastmod>2026-09-07</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://credocket.com/hospitality-hotels.html</loc>
+    <lastmod>2026-09-14</lastmod>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://credocket.com/illinois-lease-disputes.html</loc>
-    <lastmod>2026-08-10</lastmod>
+    <lastmod>2026-09-14</lastmod>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://credocket.com/index.html</loc>
-    <lastmod>2026-08-10</lastmod>
+    <lastmod>2026-09-15</lastmod>
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://credocket.com/industrial-logistics.html</loc>
+    <lastmod>2026-09-15</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://credocket.com/insurance-risk-posture-guide.html</loc>
+    <lastmod>2026-09-14</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://credocket.com/judge-andrea-masley.html</loc>
+    <lastmod>2026-09-14</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://credocket.com/judge-andrew-borrok.html</loc>
+    <lastmod>2026-09-14</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://credocket.com/judge-ann-a-scott-timmer.html</loc>
+    <lastmod>2026-09-14</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://credocket.com/judge-ann-l-aiken.html</loc>
+    <lastmod>2026-09-14</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://credocket.com/judge-anne-m-patterson.html</loc>
+    <lastmod>2026-09-14</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://credocket.com/judge-anthony-j-trenga.html</loc>
+    <lastmod>2026-09-14</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://credocket.com/judge-barbara-j-rothstein.html</loc>
+    <lastmod>2026-09-14</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://credocket.com/judge-bonnie-w-david.html</loc>
+    <lastmod>2026-09-15</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://credocket.com/judge-bridget-hill.html</loc>
+    <lastmod>2026-09-14</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://credocket.com/judge-elizabeth-dewar.html</loc>
+    <lastmod>2026-09-14</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://credocket.com/judge-gabrielle-r-wolohojian.html</loc>
+    <lastmod>2026-09-14</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://credocket.com/judge-george-h-wu.html</loc>
+    <lastmod>2026-09-14</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://credocket.com/judge-hunter-w-carroll.html</loc>
+    <lastmod>2026-09-14</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://credocket.com/judge-jessica-salvini.html</loc>
+    <lastmod>2026-09-14</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://credocket.com/judge-joel-m-cohen.html</loc>
+    <lastmod>2026-09-14</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://credocket.com/judge-john-m-bodenhausen.html</loc>
+    <lastmod>2026-09-14</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://credocket.com/judge-kimberly-fitzpatrick.html</loc>
+    <lastmod>2026-09-14</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://credocket.com/judge-leondra-kruger.html</loc>
+    <lastmod>2026-09-14</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://credocket.com/judge-mark-x-mullin.html</loc>
+    <lastmod>2026-09-14</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://credocket.com/judge-melissa-r-dubose.html</loc>
+    <lastmod>2026-09-14</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://credocket.com/judge-michael-a-shipp.html</loc>
+    <lastmod>2026-09-14</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://credocket.com/judge-michael-noriega.html</loc>
+    <lastmod>2026-09-14</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://credocket.com/judge-nitza-i-quinones-alejandro.html</loc>
+    <lastmod>2026-09-14</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://credocket.com/judge-phillip-hom.html</loc>
+    <lastmod>2026-09-14</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://credocket.com/judge-richard-k-sueyoshi.html</loc>
+    <lastmod>2026-09-14</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://credocket.com/judge-rowan-d-wilson.html</loc>
+    <lastmod>2026-09-14</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://credocket.com/judge-sookyoung-shin.html</loc>
+    <lastmod>2026-09-14</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://credocket.com/judge-steven-d-ecker.html</loc>
+    <lastmod>2026-09-14</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://credocket.com/judge-stuart-rabner.html</loc>
+    <lastmod>2026-09-14</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://credocket.com/judge-valerie-e-caproni.html</loc>
+    <lastmod>2026-09-14</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://credocket.com/judge-waverly-d-crenshaw-jr.html</loc>
+    <lastmod>2026-09-14</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://credocket.com/judge-william-lindsay-osteen-jr.html</loc>
+    <lastmod>2026-09-14</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://credocket.com/judges.html</loc>
-    <lastmod>2026-08-10</lastmod>
+    <lastmod>2026-09-14</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://credocket.com/lease-clause-redline.html</loc>
+    <lastmod>2026-09-15</lastmod>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://credocket.com/lien-deadline-calculator.html</loc>
+    <lastmod>2026-09-14</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://credocket.com/life-sciences-lab-space.html</loc>
+    <lastmod>2026-09-15</lastmod>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://credocket.com/litigation.html</loc>
-    <lastmod>2026-08-10</lastmod>
+    <lastmod>2026-09-14</lastmod>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://credocket.com/manager-vs-owner-liability.html</loc>
+    <lastmod>2026-09-14</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://credocket.com/medical-office-buildings.html</loc>
+    <lastmod>2026-09-14</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://credocket.com/methodology.html</loc>
+    <lastmod>2026-09-15</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://credocket.com/minnesota-lending-foreclosure.html</loc>
-    <lastmod>2026-08-10</lastmod>
+    <lastmod>2026-09-14</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://credocket.com/multifamily-apartments.html</loc>
+    <lastmod>2026-09-14</lastmod>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://credocket.com/new-jersey-eminent-domain.html</loc>
-    <lastmod>2026-08-10</lastmod>
+    <lastmod>2026-09-14</lastmod>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://credocket.com/new-jersey-reit-securities.html</loc>
-    <lastmod>2026-08-10</lastmod>
+    <lastmod>2026-09-14</lastmod>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://credocket.com/new-york-landlord-tenant.html</loc>
-    <lastmod>2026-08-10</lastmod>
+    <lastmod>2026-09-14</lastmod>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://credocket.com/new-york-lending-foreclosure.html</loc>
-    <lastmod>2026-08-10</lastmod>
+    <lastmod>2026-09-14</lastmod>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://credocket.com/pennsylvania-landlord-tenant.html</loc>
-    <lastmod>2026-08-10</lastmod>
+    <lastmod>2026-09-14</lastmod>
     <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://credocket.com/premises-liability-checklist.html</loc>
+    <lastmod>2026-09-14</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://credocket.com/premises-liability-guide.html</loc>
+    <lastmod>2026-09-14</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://credocket.com/pricing.html</loc>
+    <lastmod>2026-09-14</lastmod>
+    <priority>0.9</priority>
   </url>
   <url>
     <loc>https://credocket.com/privacy.html</loc>
-    <lastmod>2026-08-10</lastmod>
+    <lastmod>2026-09-14</lastmod>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://credocket.com/regulatory.html</loc>
-    <lastmod>2026-08-10</lastmod>
+    <loc>https://credocket.com/property-types.html</loc>
+    <lastmod>2026-09-14</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://credocket.com/quarterly.html</loc>
+    <lastmod>2026-09-14</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://credocket.com/regulatory.html</loc>
+    <lastmod>2026-09-14</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://credocket.com/retail-cre.html</loc>
+    <lastmod>2026-09-15</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://credocket.com/rhode-island-eminent-domain.html</loc>
-    <lastmod>2026-08-10</lastmod>
+    <lastmod>2026-09-14</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://credocket.com/self-storage.html</loc>
+    <lastmod>2026-09-14</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://credocket.com/senior-living.html</loc>
+    <lastmod>2026-09-14</lastmod>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://credocket.com/state-guides.html</loc>
-    <lastmod>2026-09-11</lastmod>
-    <priority>0.6</priority>
+    <lastmod>2026-09-14</lastmod>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://credocket.com/terms.html</loc>
-    <lastmod>2026-08-10</lastmod>
+    <lastmod>2026-09-14</lastmod>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://credocket.com/texas-lending-foreclosure.html</loc>
-    <lastmod>2026-08-10</lastmod>
+    <lastmod>2026-09-14</lastmod>
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://credocket.com/tools-overview.html</loc>
+    <lastmod>2026-09-15</lastmod>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://credocket.com/tracker-overview.html</loc>
+    <lastmod>2026-09-14</lastmod>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://credocket.com/trends.html</loc>
+    <lastmod>2026-09-14</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://credocket.com/updates.html</loc>
-    <lastmod>2026-08-10</lastmod>
+    <lastmod>2026-09-14</lastmod>
     <priority>0.8</priority>
   </url>
 </urlset>
