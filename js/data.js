@@ -16,7 +16,7 @@ const RELAW_DATA = {
      Drives the homepage's "New Today" pill: it only shows when this
      equals the visitor's local today. Updated by the digest automation
      each time Step 4 successfully adds a case — never touched otherwise. */
-  lastUpdatedDate: "2026-09-16",
+  lastUpdatedDate: "2026-09-17",
   categories: [
     { id: "landlord-tenant", label: "Landlord–Tenant", color: "var(--cat-landlord)" },
     { id: "zoning-land-use", label: "Zoning & Land Use", color: "var(--cat-zoning)" },
@@ -4308,6 +4308,66 @@ const RELAW_DATA = {
       tags: ["premises liability", "slip and fall", "fourth circuit", "south carolina", "summary judgment"],
       docketUrl: "https://www.courtlistener.com/opinion/10859032/jonathan-lewis-v-circle-k-stores-inc/",
       docketLabel: "CourtListener opinion"
+    },
+    {
+      id: "live-148",
+      addedDate: "2026-09-17",
+      title: "In re Hughes Center Receivership (Blackstone CMBS Default, Court-Ordered Sale to Borden Industries)",
+      category: "lending-foreclosure",
+      status: "ruling",
+      date: "2026-07-28",
+      jurisdiction: "Eighth Judicial District Court, Clark County, Nevada",
+      state: "NV",
+      amount: "$325M defaulted CMBS loan; sale price to Borden Industries withheld from public filings",
+      source: "live",
+      sourceUrl: "https://www.reviewjournal.com/business/vegas-business/building-las-vegas/sale-of-big-office-park-near-las-vegas-strip-pushes-ahead-3860743/",
+      summary: "Eighth Judicial District Court Judge Maria Gall approved the sale of Hughes Center, a 68-acre, 1.4-million-square-foot Las Vegas office and retail campus, to Borden Industries on July 28, 2026, closing out a roughly two-year court-ordered receivership. The receivership began after a Blackstone-affiliated ownership entity defaulted on a $325 million CMBS loan and Wells Fargo, acting as trustee for the loan's noteholders, moved to have Logic Commercial Real Estate appointed receiver.",
+      significance: "Shows a full CMBS special-servicing-to-receivership-to-sale cycle for a large mixed-use office asset undermined by tenant migration to newer submarkets, and confirms that Nevada courts will seal receivership sale pricing from public dockets on a proper showing. Special servicers and receivers handling distressed office campuses with a healthier retail component should study the marketing approach here as a template for finding buyers outside the traditional office-investor pool.",
+      body: [
+        "A prominent Las Vegas office campus that spent the better part of two years under court-appointed receivership is now headed to new ownership, after a Clark County district judge signed off on its sale to an industrial and technology investment firm. The order, entered July 28, 2026 by Eighth Judicial District Court Judge Maria Gall, authorizes court-appointed receiver Logic Commercial Real Estate to convey Hughes Center, a 68-acre, roughly 1.4-million-square-foot office and retail complex a mile east of the Las Vegas Strip, to Borden Industries, led by founder and former Switch executive Michael Borden. The sale is expected to close around September 2026, with the purchase price withheld from public court filings.",
+        "The case traces back to a $325 million CMBS loan secured by the property, held through an entity affiliated with Blackstone, the world's largest alternative asset manager. The loan, tied to a mortgage that came due in September, entered special servicing after payments stopped, and by late 2023 the property was already being described by trade press as nearing default. In 2024, the loan's servicer moved for the appointment of a receiver after the borrower failed to bring the debt current. Wells Fargo Bank, National Association, acting in its customary role as trustee for the CMBS trust holding the loan, brought the underlying motion. Eighth Judicial District Court Judge Susan Johnson granted it, placing the property under the control of Logic Commercial Real Estate as receiver, a step that stripped the Blackstone-affiliated ownership entity of day-to-day control while the receivership sought either a loan workout or, ultimately, a sale.",
+        "Hughes Center's troubles were rooted less in any single default event than in a broader repricing of suburban and campus-style office product across the Las Vegas market. Tenants that once anchored the property migrated to newer, more amenitized product in Summerlin and the UnCommons development, pushing office vacancy at the campus above 60 percent even as its roughly 98,000 square feet of retail space remained nearly 85 percent leased. That bifurcation, a struggling office component carrying a still-healthy retail component, is a pattern now familiar to special servicers and receivers working out large mixed-use office assets nationally, and it shaped how the receiver ultimately marketed the property: not as a distressed office building to be repositioned floor by floor, but as a large, well-located parcel whose highest value may lie beyond conventional office use.",
+        "Procedurally, the case illustrates how a CMBS special-servicing default converts into a state-court receivership rather than a conventional judicial foreclosure in many jurisdictions, including Nevada. Rather than litigating a foreclosure sale to judgment, the trustee sought appointment of a receiver under Nevada law, giving a court-supervised fiduciary, here a commercial brokerage acting as receiver, the power to manage, lease, and ultimately market and sell the asset under the court's ongoing supervision. Judge Gall's order approving the sale, and sealing the purchase price from the public docket, reflects a now-common practice in distressed CRE dispositions: courts will protect commercially sensitive pricing information even in a public receivership proceeding, so long as the receiver and the parties show a legitimate confidentiality interest.",
+        "For CMBS lenders, special servicers, and receivers working through the wave of maturing office loans, and for office landlords and asset managers elsewhere in secondary and tertiary Sun Belt markets carrying similar campus-format product, the practical lesson is twofold: special servicers facing a defaulted office loan with declining occupancy should evaluate receivership early, particularly where a retail or non-office component retains stronger fundamentals and could support a going-concern sale, and receivers marketing distressed office assets should be prepared to pursue buyers from outside the traditional office-investor pool since the highest-and-best use may involve redevelopment or a non-office end use. Landlords with campus-style suburban office holdings in markets undergoing rapid submarket repositioning should stress-test debt-service coverage against realistic re-leasing assumptions well ahead of loan maturity, and parties to any similar receivership sale should build a specific factual record supporting confidentiality requests rather than assuming a court will seal deal terms automatically."
+      ],
+      timeline: [
+        { when: "March 2023", label: "Blackstone's $325M Hughes Center loan enters special servicing" },
+        { when: "2024", label: "Judge Susan Johnson grants Wells Fargo's motion to appoint Logic Commercial Real Estate as receiver" },
+        { when: "July 28, 2026", label: "Judge Maria Gall approves the receiver's sale of Hughes Center to Borden Industries", current: true },
+        { when: "September 2026", label: "Sale to Borden Industries expected to close", upcoming: true }
+      ],
+      judge: "Maria Gall",
+      tags: ["cmbs default", "receivership", "office", "nevada", "special servicing"]
+    },
+    {
+      id: "live-149",
+      addedDate: "2026-09-17",
+      title: "OKO Group Affiliate v. Zurich American Insurance Co. et al. (Missoni Baia Builder's-Risk Coverage Suit)",
+      category: "construction-defect",
+      status: "filed",
+      date: "2026-04-03",
+      jurisdiction: "U.S. District Court, Southern District of Florida",
+      state: "FL",
+      amount: "$22.4M disputed balance of a $55.7M builder's-risk claim; $33.9M already paid by insurers",
+      source: "live",
+      sourceUrl: "https://therealdeal.com/miami/2026/04/07/oko-group-sues-over-22-million-claim-tied-to-missoni-baia/",
+      summary: "An affiliate of OKO Group sued four insurers, Zurich American Insurance, Allianz Global Risks US Insurance, ACE American Insurance, and National Fire Insurance Company of Hartford, in Miami federal court on April 3, 2026, seeking $22.4 million in unpaid builder's-risk benefits tied to foundation settling during construction of the Missoni Baia condo tower. The suit follows a January 2026 lawsuit by the tower's own condo association accusing OKO and roughly two dozen contractors and design firms of pervasive construction defects.",
+      significance: "Illustrates how a large builder's-risk claim on a complex vertical project can generate its own protracted first-party coverage litigation running in parallel with, and informed by, third-party construction-defect claims arising from the same damage. Developers negotiating multi-carrier builder's-risk programs should scrutinize how policies define covered resulting damage versus excluded faulty workmanship before a loss occurs.",
+      body: [
+        "An affiliate of Miami-based developer OKO Group, led by billionaire Vlad Doronin, has sued four of its own insurers in federal court in Miami, seeking to recover $22.4 million the company says it is still owed on a builder's-risk insurance claim tied to construction problems at Missoni Baia, the 249-unit Edgewater condo tower OKO developed with Cain International. The complaint, filed April 3, 2026 in the U.S. District Court for the Southern District of Florida, names Zurich American Insurance Company, Allianz Global Risks US Insurance Company, ACE American Insurance Company, and National Fire Insurance Company of Hartford as defendants, and arrives as a separate lawsuit by the tower's own condominium association accuses OKO and roughly two dozen contractors and design professionals of defective construction throughout the building.",
+        "According to the complaint, OKO's affiliate began submitting claims to the four insurers in 2023 after the 649-foot tower's foundation experienced uneven settling during construction in 2021, a problem the developer says triggered cascading delay and remediation costs. OKO alleges the total, substantiated claim ultimately reached $55.7 million, of which the insurers paid out $33.9 million, leaving a disputed balance of $22.4 million that the insurers have refused to pay despite what the complaint describes as more than a year's notice of the outstanding claim. The 249-unit tower, Missoni's first residential branding partnership globally, was completed in 2024.",
+        "The lawsuit is a builder's-risk coverage dispute, a species of first-party property insurance litigation distinct from the third-party construction-defect claims more commonly seen in Florida condo litigation. Builder's-risk policies are typically written to cover physical loss or damage to a structure during the course of construction itself, including costs flowing from covered perils such as faulty workmanship where it causes resulting damage, soil movement, or design-related settling issues, subject to the policy's specific exclusions and sublimits. Because builder's-risk policies are heavily negotiated, multi-carrier programs on large developments, here layered across at least four insurers, disputes over which portion of a loss falls to which carrier, and whether particular remediation costs are covered resulting damage versus excluded faulty workmanship, are common and can take years to resolve even after a claim is substantially paid.",
+        "What makes the dispute notable for the broader market is its timing relative to the parallel defect litigation. In January 2026, the tower's condominium association sued OKO's development affiliate and nearly two dozen contractors, subcontractors, and design firms in Miami-Dade Circuit Court, alleging pervasive construction defects including cracked slabs, foundation and column cracking, water intrusion, malfunctioning fire alarms, and elevator and plumbing failures traced to the same foundation settling issues underlying OKO's insurance claim. The two cases are not formally consolidated, but they arise from an overlapping factual record, and how OKO's builder's-risk insurers characterize the foundation-settling damage in the coverage suit, as a covered peril or as excluded faulty workmanship, will likely inform, and could be informed by, findings in the association's defect case.",
+        "For developers and general contractors on large vertical construction projects, the case is a reminder that a builder's-risk claim large enough to implicate a multi-carrier tower does not resolve quickly or completely even when a majority of the claimed loss is eventually paid, and that a substantial unpaid balance can itself become protracted litigation running alongside the underlying defect claims driving the loss. Owners assembling builder's-risk programs on complex, foundation-sensitive sites should scrutinize how policies define covered resulting damage from faulty workmanship or design defects before a loss occurs, build claim documentation with an eye toward the possibility that a first-party coverage dispute may run alongside third-party defect claims, and coordinate strategy across both matters since findings in one can affect exposure or recovery in the other even without formal consolidation; condo associations, for their part, should not assume a developer's eventual insurance recovery will fund repairs on any predictable schedule."
+      ],
+      timeline: [
+        { when: "2021", label: "Missoni Baia's foundation experiences uneven settling during construction" },
+        { when: "2023", label: "OKO's affiliate begins submitting builder's-risk claims to its insurers" },
+        { when: "2024", label: "Missoni Baia tower construction completed" },
+        { when: "January 2026", label: "Missoni Baia condo association sues OKO and contractors over construction defects" },
+        { when: "April 3, 2026", label: "OKO affiliate sues four insurers in the Southern District of Florida over the $22.4M unpaid claim balance", current: true }
+      ],
+      tags: ["builder's risk", "insurance coverage", "construction defect", "florida", "condo development"]
     }
   ],
 
