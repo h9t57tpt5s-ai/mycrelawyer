@@ -190,6 +190,7 @@
         <div class="form-field mt-16">
           <label for="wl-keyword">Party, company, or keyword (optional)</label>
           <input type="text" id="wl-keyword" placeholder="e.g. Lightstone, RealPage, a specific landlord or REIT name" />
+          <p class="text-muted" style="font-size:12px; line-height:1.5; margin-top:6px;">This searches matter titles and summaries as text — it isn't checked against structured party data, so treat a match method note in the alert email as the real confidence signal, and don't assume a quiet watchlist means nothing happened involving this name.</p>
         </div>
         <button type="submit" class="btn btn-primary btn-sm mt-16">Create watchlist</button>
         <div id="watchlist-form-status" class="auth-modal-status"></div>
@@ -209,7 +210,8 @@
           <h2 style="font-size:clamp(1.4rem,2.2vw,1.9rem);">Your properties &amp; counterparties</h2>
         </div>
       </div>
-      <p class="text-secondary reveal" style="font-size:13.5px; line-height:1.6; margin-bottom:20px;">Add the actual properties, tenants, lenders, guarantors, or other counterparties you care about by name. Every one of them is checked automatically against every new matter added to the tracker — you'll get an email the moment any of them is named in something new, whether or not it fits one of your watchlists above.</p>
+      <p class="text-secondary reveal" style="font-size:13.5px; line-height:1.6; margin-bottom:12px;">Add the actual properties, tenants, lenders, guarantors, or other counterparties you care about by name. Every one of them is checked automatically against every new matter added to the tracker — you'll get an email the moment any of them is named in something new, whether or not it fits one of your watchlists above.</p>
+      <p class="text-muted reveal" style="font-size:12.5px; line-height:1.6; margin-bottom:20px;">Matching honesty check: this depends on each matter's structured party data, which as of 2026-09-16 exists on 0 of the 147 matters currently tracked (it's a new field, added going forward on new matters only). Until that coverage grows, every portfolio match today comes from a text match against the matter's title, not a verified party record — every alert email states which method found it. Treat a quiet portfolio as a supplement to your own monitoring, not a guarantee nothing happened.</p>
 
       <form id="portfolio-form" class="card" style="padding:28px; margin-bottom:24px;">
         <div class="form-field">

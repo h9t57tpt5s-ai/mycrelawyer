@@ -25,6 +25,17 @@
 // party). Emails each matched entity's owner separately from any
 // watchlist match, using the same Resend pattern.
 //
+// ALSO (added 2026-09-16, follow-up to the same review: reviewers across
+// nearly every persona flagged that a false negative here is "worse than
+// no tool" because a silent "no alert" is ambiguous between "no risk" and
+// "missed match" -- see getPortfolioMatchMethod below) every alert email
+// now states plainly HOW the match was found: a portfolio-entity alert
+// says whether it came from structured party data or only an unverified
+// title-text mention, and a watchlist alert notes when its optional
+// keyword filter (a text search, not structured data) was part of the
+// match. This does not change what counts as a match, only what the
+// recipient is told about it.
+//
 // Auth model: a single shared secret (AUTOMATION_SECRET), checked
 // against the x-automation-secret header the sync workflow already
 // sends -- this endpoint has no browser caller, so there's no user JWT
@@ -103,10 +114,24 @@ function namesMatch(a: string, b: string): boolean {
   return na === nb || na.includes(nb) || nb.includes(na);
 }
 
-function matchesPortfolioEntity(entity: PortfolioEntity, c: NewCase): boolean {
+// Match-method transparency (added 2026-09-16, the #1 finding from the
+// 100-persona stakeholder review's follow-up pass: "no alert" is
+// ambiguous between "no risk" and "missed match" because the underlying
+// mechanism -- structured party data vs. a plain title substring -- was
+// invisible to the user. As of this date, ZERO of the 147 currently
+// tracked matters in js/data.js have the structured `parties` field
+// populated (it was only introduced 2026-09-14, added going forward on
+// new entries only per scripts/re-legal-news-digest-prompt.md), so in
+// practice every portfolio-entity match today is a title-substring
+// match, not a structured one. This does NOT change the matching logic
+// itself -- only reports which path fired, so it can be surfaced to the
+// user instead of hidden.
+type PortfolioMatchMethod = "structured" | "title" | null;
+
+function getPortfolioMatchMethod(entity: PortfolioEntity, c: NewCase): PortfolioMatchMethod {
   const normEntity = normalizeName(entity.entity_name);
   if (c.parties && c.parties.length) {
-    if (c.parties.some((p) => namesMatch(p.name, entity.entity_name))) return true;
+    if (c.parties.some((p) => namesMatch(p.name, entity.entity_name))) return "structured";
   }
   // Fallback: most cases don't have structured `parties` yet, but nearly
   // every case title names at least one real party (e.g. "Gunwerks, LLC
@@ -116,8 +141,8 @@ function matchesPortfolioEntity(entity: PortfolioEntity, c: NewCase): boolean {
   // short/generic saved name (e.g. "Bank", "LLC") can't fire on every
   // unrelated case that happens to contain that substring -- a wrong
   // alert costs more trust than a missed short-name match does.
-  if (normEntity.length >= 6 && c.title && normalizeName(c.title).includes(normEntity)) return true;
-  return false;
+  if (normEntity.length >= 6 && c.title && normalizeName(c.title).includes(normEntity)) return "title";
+  return null;
 }
 
 // Mirrors js/watchlists.js's findMatches() filter logic exactly -- an
@@ -175,7 +200,17 @@ function caseUrl(c: NewCase, campaign: string): string {
     : `${SITE_URL}/litigation.html?${utm}`;
 }
 
-async function sendWatchlistAlertEmail(toEmail: string, watchlistName: string, c: NewCase) {
+async function sendWatchlistAlertEmail(toEmail: string, watchlistName: string, c: NewCase, usedKeywordMatch: boolean) {
+  // A watchlist's state/category filters are exact matches against
+  // structured fields -- no ambiguity there. Its optional keyword filter,
+  // though, is a plain substring search against this matter's title/
+  // summary/significance text (see matchesWatchlist above), which is the
+  // same kind of unverified text match the portfolio-entity fallback
+  // uses -- surfaced here so a keyword-based match isn't silently treated
+  // as more certain than it is.
+  const matchMethodLine = usedKeywordMatch
+    ? `Match method: found via a text search for your watchlist's keyword in this matter's title/summary -- not checked against structured party data. Confirm the party/company is actually involved before treating this as confirmed.`
+    : null;
   await sendEmail(
     toEmail,
     `New match on your "${watchlistName}" watchlist: ${c.title || "a tracked matter"}`,
@@ -188,13 +223,26 @@ async function sendWatchlistAlertEmail(toEmail: string, watchlistName: string, c
       "",
       c.summary || "",
       "",
+      matchMethodLine,
+      matchMethodLine ? "" : null,
       `View it here: ${caseUrl(c, "watchlist-alert")}`,
     ],
     "watchlist-alert",
   );
 }
 
-async function sendPortfolioAlertEmail(toEmail: string, entityName: string, c: NewCase) {
+async function sendPortfolioAlertEmail(toEmail: string, entityName: string, c: NewCase, matchMethod: PortfolioMatchMethod) {
+  // Match-confidence disclosure (see getPortfolioMatchMethod's comment
+  // above): tells the recipient plainly whether this alert came from
+  // this matter's structured party/role data (high confidence) or only
+  // from the entity's name appearing as a substring of the matter's
+  // title (lower confidence, unverified) -- so "matched" doesn't read as
+  // more certain than it is, and by the same logic a user can treat "no
+  // alert" for a matter they later find through other means as a real
+  // coverage gap rather than assume the tool would have caught it.
+  const confidenceLine = matchMethod === "structured"
+    ? `Match confidence: High -- "${entityName}" appears in this matter's structured party/role data.`
+    : `Match confidence: Lower -- "${entityName}" was found only as a text mention in this matter's title. This matter doesn't yet have structured party data, so this hasn't been verified as the same entity in the same role. Please confirm manually.`;
   await sendEmail(
     toEmail,
     `"${entityName}" was just named in a new CREdocket matter`,
@@ -206,6 +254,8 @@ async function sendPortfolioAlertEmail(toEmail: string, entityName: string, c: N
       c.date ? `Date: ${c.date}` : null,
       "",
       c.summary || "",
+      "",
+      confidenceLine,
       "",
       `View it here: ${caseUrl(c, "portfolio-alert")}`,
       "",
@@ -247,7 +297,8 @@ Deno.serve(async (req) => {
       console.error(`check-and-send-watchlist-alerts: could not resolve email for user ${w.user_id} —`, uErr?.message);
       continue;
     }
-    await sendWatchlistAlertEmail(userData.user.email, w.name, newCase);
+    const usedKeywordMatch = Boolean(w.keyword && w.keyword.trim());
+    await sendWatchlistAlertEmail(userData.user.email, w.name, newCase, usedKeywordMatch);
     emailsSent++;
   }
 
@@ -263,15 +314,17 @@ Deno.serve(async (req) => {
   if (peErr) {
     console.error("check-and-send-watchlist-alerts: failed to load portfolio_entities (table may not exist yet) —", peErr.message);
   } else {
-    const matchedEntities = ((entities || []) as PortfolioEntity[]).filter((e) => matchesPortfolioEntity(e, newCase));
+    const matchedEntities = ((entities || []) as PortfolioEntity[])
+      .map((e) => ({ entity: e, method: getPortfolioMatchMethod(e, newCase) }))
+      .filter((m) => m.method !== null);
     matchedEntityCount = matchedEntities.length;
-    for (const e of matchedEntities) {
+    for (const { entity: e, method } of matchedEntities) {
       const { data: userData, error: uErr } = await supabaseAdmin.auth.admin.getUserById(e.user_id);
       if (uErr || !userData || !userData.user || !userData.user.email) {
         console.error(`check-and-send-watchlist-alerts: could not resolve email for user ${e.user_id} —`, uErr?.message);
         continue;
       }
-      await sendPortfolioAlertEmail(userData.user.email, e.entity_name, newCase);
+      await sendPortfolioAlertEmail(userData.user.email, e.entity_name, newCase, method);
       emailsSent++;
     }
   }
