@@ -586,7 +586,8 @@ const CASE_VALUATION_DATA = {
                   "note": "water intrusion, facade/envelope failure, HVAC/MEP — roughly $10M-$56M in this sample regardless of unit count. Defect PERVASIVENESS across every unit is a stronger driver of settlement size than raw unit count or building height (Park Hill: only 10 units but ~$2.65M/unit, the highest per-unit figure in the sample, because the defect was pervasive)."
                 }
               }
-            }
+            },
+            "reposeExposureNote": "ADDED: statute-of-repose latency risk, driven by the new defectType + yearsSinceSubstantialCompletion facts, now shaves up to 10 points off the base probability (see computeReposeLatencyAdjustment in the engine) — not a cosmetic label. A statute of REPOSE (unlike a statute of limitations) runs from substantial completion and is generally NOT tolled by late discovery in most states (G and H Assocs. v. Ernest W. Hahn, Inc., 113 Nev. 265 (1997); accord Montana Supreme Court, 2017), with only a narrow fraudulent-concealment exception in some states (CA, TX, NV). Structural/framing, geotechnical/foundation, and water-intrusion/envelope defects are the classic latent, slow-to-manifest fact patterns most exposed to this bar; MEP and cosmetic/workmanship defects are typically caught during commissioning or early occupancy, so their exposure is lower."
           },
           "design_professional_malpractice": {
             "side": "sideA",
@@ -604,7 +605,8 @@ const CASE_VALUATION_DATA = {
                   "note": "ADDED (round-2 research), mirroring contractor_breach_negligence's existing tier: where a design error contributes to a structural collapse or other life-safety failure, confirmed settlements run far above an ordinary redesign-cost estimate -- I-35W bridge collapse litigation v. URS Corporation ($52.4M confirmed settlement, MN 2010) and the Hard Rock Hotel New Orleans collapse litigation ($106M confirmed global settlement, LA 2026, though not broken out per defendant). These anchor the top of a valuation range for a collapse fact pattern, not the median -- most design-malpractice claims should still use the base repairAndRedesignCostEstimate formula."
                 }
               }
-            }
+            },
+            "reposeExposureNote": "ADDED: same statute-of-repose latency adjustment described on contractor_breach_negligence's reposeExposureNote applies here too -- a design error contributing to a structural or geotechnical defect is just as subject to a repose bar as a workmanship defect is, and courts don't relax the repose analysis merely because the defendant is a design professional rather than a contractor."
           },
           "indemnification_contribution_claim": {
             "side": "sideB",
@@ -631,6 +633,24 @@ const CASE_VALUATION_DATA = {
             "note": "Coverage litigation resolves the LEGAL question (duty to defend/indemnify, exclusion scope) in a published opinion while the dollar consequences flow through confidential settlements downstream — only 1 of 3 sampled cases disclosed even a damages floor for the underlying claim. Base rate kept at the original preliminary estimate; treat any output for this claim type as a coverage-yes/no signal more than a dollar estimate.",
             "damages": {
               "formula": "coveredPortionOfUnderlyingDefectDamages"
+            },
+            "triggerTheoryNote": "ADDED: the new defectType fact now nudges this probability band, not just documentation -- water-intrusion/envelope defects are the paradigm 'progressive damage' fact pattern courts apply a continuous-trigger theory to (Air Master & Cooling, Inc. v. Selective Ins. Co. of Am., 451 N.J. Super. 297 (App. Div. 2017)), meaning EVERY CGL policy on the risk from first exposure through when the damage's nature and scope became known can potentially be triggered and stacked -- a real reason one insurer's denial doesn't end the coverage inquiry, unlike a single-event occurrence such as a structural collapse."
+          },
+          "differing_site_conditions_claim": {
+            "side": "sideB",
+            "label": "Differing Site Conditions (Contractor v. Owner)",
+            "appliesIf": "differingSiteConditionsAllegedAndExtraCostsClaimed",
+            "baseProbability": [
+              0.30,
+              0.50
+            ],
+            "note": "ADDED for geotechnical/DSC sub-classification. Runs CONTRACTOR-to-OWNER -- the reverse direction of every other claim type in this category -- for the contractor's extra costs/delay from an unforeseen subsurface condition, not an owner-side defect claim. Type I (differs materially from what the contract documents represented) is the easier theory to prove, since it turns on contract-document interpretation: Stuyvesant Dredging Co. v. United States, 834 F.2d 1576, 1581 (Fed. Cir. 1987); H.B. Mac, Inc. v. United States, 153 F.3d 1338, 1345 (Fed. Cir. 1998) (4-element test) -- probability band raised to [0.45, 0.65] when differingSiteConditionsType is type-1. Type II (unusual/unforeseeable condition, no contract representation) is the harder theory, turning on the abnormality of the actual condition -- probability band lowered to [0.20, 0.40] when type-2. Timely, proper notice under the DSC clause is a threshold requirement independent of the merits (Randa/Madison Joint Venture III v. Dahlberg, 239 F.3d 1264, 1274 (Fed. Cir. 2001)). No proprietary settlement-value dataset was researched for this claim type (unlike contractor_breach_negligence/design_professional_malpractice above) -- damages are formula-driven off the contractor's own claimed extra costs, not a data-derived tier, and should be read at correspondingly lower confidence.",
+            "damages": {
+              "formula": "extraCostsFromSiteCondition",
+              "multiplierRange": [
+                0.5,
+                0.95
+              ]
             }
           }
         }

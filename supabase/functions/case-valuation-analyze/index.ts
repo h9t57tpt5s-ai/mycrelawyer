@@ -886,20 +886,107 @@ function computeCglCoverageAdjustment(f: Facts): { prob: [number, number]; note:
   return { prob, note: notes.join(" ") };
 }
 
+// Real doctrine this file didn't previously model for ANY defect type: a
+// statute of REPOSE (unlike a statute of limitations) runs from substantial
+// completion and, in most states, is NOT tolled by late discovery of the
+// defect -- e.g. G and H Assocs. v. Ernest W. Hahn, Inc., 113 Nev. 265, 934
+// P.2d 229 (1997) (Nevada Supreme Court: no discovery-rule tolling); accord
+// Montana Supreme Court, 2017 (rejecting a late-discovery tolling
+// argument). Most states' repose windows run roughly 6-15 years post-
+// substantial-completion, most commonly 8-10 (multi-state surveys:
+// BuildRight, Porter Law Firm, Terrapin Consulting Group's 2026 guide), with
+// only a narrow fraudulent-concealment exception in some states (e.g. CA,
+// TX, NV). Structural/framing, geotechnical/foundation, and water-
+// intrusion/envelope defects are the classic latent, slow-to-manifest fact
+// patterns (differential settlement, hidden framing rot, progressive water
+// infiltration) that can surface close to or past a repose deadline; MEP
+// and cosmetic/workmanship defects are typically caught during
+// commissioning or early occupancy, so repose exposure is usually much
+// lower for them. This is a real, separate probability-of-recovery risk
+// (repose is a complete, binary bar -- not a damages multiplier), not a
+// cosmetic label: it nudges the probability band down, it never changes the
+// damages estimate.
+function computeReposeLatencyAdjustment(f: Facts): { probAdj: number; note: string } {
+  const defectType = str(f, "defectType");
+  const years = num(f, "yearsSinceSubstantialCompletion");
+  if (!defectType) return { probAdj: 0, note: "" };
+  const latentTypes = ["structural-framing", "geotechnical-foundation", "water-intrusion-envelope"];
+  const isLatentType = latentTypes.includes(defectType);
+  const typeLabel = defectType.replace(/-/g, " ");
+  if (!isLatentType) {
+    return {
+      probAdj: 0,
+      note: ` This defect type (${typeLabel}) is typically caught during commissioning or early occupancy rather than years later, so statute-of-repose exposure is usually much lower here than for a latent structural/geotechnical/water-intrusion defect.`,
+    };
+  }
+  if (!years) {
+    return {
+      probAdj: 0,
+      note: ` This defect type (${typeLabel}) is a classic latent, slow-to-manifest fact pattern -- confirm years since substantial completion against this project's state statute-of-repose period (commonly 6-15 years, most often 8-10, running regardless of discovery in most states) before relying on this claim.`,
+    };
+  }
+  if (years >= 8) {
+    return {
+      probAdj: -0.10,
+      note: ` This defect type (${typeLabel}) is a classic latent, slow-to-manifest fact pattern, and ${years} years have passed since substantial completion -- most states' construction statute of repose runs 6-15 years (most commonly 8-10) from substantial completion and is generally NOT tolled by late discovery (G and H Assocs. v. Ernest W. Hahn, Inc., 113 Nev. 265 (1997); accord Montana Supreme Court, 2017), with only a narrow fraudulent-concealment exception in some states (CA, TX, NV). Confirm this project's exact state repose period before relying on this claim -- at ${years} years, a repose bar is a real, case-dispositive risk this range would otherwise ignore.`,
+    };
+  }
+  if (years >= 5) {
+    return {
+      probAdj: -0.05,
+      note: ` This defect type (${typeLabel}) typically manifests slowly, and ${years} years have passed since substantial completion -- worth confirming against this project's state statute-of-repose period (commonly 6-15 years, most often 8-10, running from substantial completion regardless of discovery in most states) well before any repose deadline risk becomes acute.`,
+    };
+  }
+  return { probAdj: 0, note: "" };
+}
+
+// Real, published authority treats PROGRESSIVE property damage -- the
+// paradigm case being water intrusion -- differently, for CGL
+// trigger-of-coverage purposes, from a single discrete event like a
+// structural collapse: courts applying a "continuous trigger" theory hold
+// that EVERY CGL policy on the risk from first exposure through the date
+// the damage's essential nature and scope became known can potentially be
+// triggered and stacked, not just the policy on the risk when the damage
+// was discovered. Air Master & Cooling, Inc. v. Selective Ins. Co. of Am.,
+// 451 N.J. Super. 297 (App. Div. 2017) is the leading construction-defect
+// application (progressive water infiltration into a building). This means
+// one insurer's denial doesn't necessarily end the coverage inquiry the way
+// it typically would for a single-event occurrence -- a real reason to
+// nudge the probability of finding SOME coverage upward, not just a label.
+function computeDefectTypeCoverageNote(f: Facts): { probAdj: number; note: string } {
+  const defectType = str(f, "defectType");
+  if (defectType === "water-intrusion-envelope") {
+    return {
+      probAdj: 0.05,
+      note: " Water-intrusion/envelope defects are the paradigm \"progressive damage\" fact pattern courts apply a continuous-trigger theory to (Air Master & Cooling, Inc. v. Selective Ins. Co. of Am., 451 N.J. Super. 297 (App. Div. 2017)) -- ALL CGL policies on the risk from first exposure through when the damage's nature and scope became known can potentially be triggered and stacked, so one insurer's denial doesn't necessarily end the coverage inquiry the way it would for a single-event occurrence; identify every policy period the defect could span, not just the current insurer's.",
+    };
+  }
+  if (defectType === "structural-framing") {
+    return {
+      probAdj: 0,
+      note: " A structural/framing failure is more often tied to a single, more identifiable occurrence and policy period than a progressive-damage claim, so the continuous-trigger stacking analysis that expands the pool of potentially-responsible policies for progressive water-intrusion damage is less likely to apply here.",
+    };
+  }
+  return { probAdj: 0, note: "" };
+}
+
 function evalConstructionDefect(f: Facts, cit: CaseData["citations"]): Claim[] {
   const out: Claim[] = [];
   const R = (k: string, l: string, p: [number, number], lo: number | null, hi: number | null, n?: string) => R2(cit, k, l, p, lo, hi, n);
+  const repose = computeReposeLatencyAdjustment(f);
+  const clampProb = (p: [number, number], adj: number): [number, number] =>
+    [Math.max(0.02, Math.min(0.98, p[0] + adj)), Math.max(0.02, Math.min(0.98, p[1] + adj))];
   if (bool(f, "contractorDefectAlleged") && num(f, "repairCostEstimate") > 0) {
     const catastrophic = bool(f, "catastrophicOrLifeSafety");
     out.push(R("contractor_breach_negligence", "Contractor Breach / Negligence",
-      [catastrophic ? 0.70 : 0.55, catastrophic ? 0.90 : 0.80],
+      clampProb([catastrophic ? 0.70 : 0.55, catastrophic ? 0.90 : 0.80], repose.probAdj),
       num(f, "repairCostEstimate") * 0.85, num(f, "repairCostEstimate") * 0.95,
-      catastrophic ? "Catastrophic/life-safety failures anchor the top of the real-case range ($39M-$997M in the research sample)." : "Post-occupancy latent defects clustered $10M-$116M in the research sample; defect pervasiveness across units mattered more than unit count."));
+      (catastrophic ? "Catastrophic/life-safety failures anchor the top of the real-case range ($39M-$997M in the research sample)." : "Post-occupancy latent defects clustered $10M-$116M in the research sample; defect pervasiveness across units mattered more than unit count.") + repose.note));
   }
   if (bool(f, "designErrorAlleged") && num(f, "repairCostEstimate") > 0) {
-    out.push(R("design_professional_malpractice", "Design Professional Malpractice", [0.35, 0.60],
+    out.push(R("design_professional_malpractice", "Design Professional Malpractice", clampProb([0.35, 0.60], repose.probAdj),
       num(f, "repairCostEstimate") * 0.6, num(f, "repairCostEstimate") * 0.9,
-      "Harder to prove than a workmanship defect -- expert-testimony-dependent standard-of-care question."));
+      "Harder to prove than a workmanship defect -- expert-testimony-dependent standard-of-care question." + repose.note));
   }
   if (bool(f, "multiplePartiesIndemnityExists") && num(f, "repairCostEstimate") > 0) {
     const adj = computeConstructionIndemnityAdjustment(f);
@@ -909,8 +996,25 @@ function evalConstructionDefect(f: Facts, cit: CaseData["citations"]): Claim[] {
   }
   if (bool(f, "insurerDeniedCoverage")) {
     const cgl = computeCglCoverageAdjustment(f);
-    out.push(R("insurance_coverage_defect_dispute", "Insurance Coverage Dispute (CGL)", cgl.prob, null, null,
-      `Coverage disputes usually resolve the legal question (duty to defend/indemnify) rather than a dollar figure -- treat this as a coverage yes/no signal. ${cgl.note}`));
+    const typeNote = computeDefectTypeCoverageNote(f);
+    out.push(R("insurance_coverage_defect_dispute", "Insurance Coverage Dispute (CGL)", clampProb(cgl.prob, typeNote.probAdj), null, null,
+      `Coverage disputes usually resolve the legal question (duty to defend/indemnify) rather than a dollar figure -- treat this as a coverage yes/no signal. ${cgl.note}${typeNote.note}`));
+  }
+  if (bool(f, "differingSiteConditionsAlleged") && num(f, "extraCostsFromSiteCondition") > 0) {
+    const dscType = str(f, "differingSiteConditionsType");
+    let prob: [number, number] = [0.30, 0.50];
+    let note = "Runs CONTRACTOR-to-OWNER -- the reverse direction of this category's other claim types -- for the contractor's extra costs/delay from an unforeseen subsurface condition, not an owner-side defect claim. Timely, proper notice under the DSC clause is a threshold requirement independent of the merits (Randa/Madison Joint Venture III v. Dahlberg, 239 F.3d 1264, 1274 (Fed. Cir. 2001)) -- confirm notice was given before relying on this claim at all.";
+    if (dscType === "type-1") {
+      prob = [0.45, 0.65];
+      note = `A Type I claim (actual conditions differ materially from what the contract documents represented) requires the contractor prove: (1) the contract documents represented the site condition, (2) the actual condition wasn't reasonably foreseeable from information outside the contract, (3) the contractor reasonably relied on the contract documents, and (4) the conditions differed materially and caused damages (Stuyvesant Dredging Co. v. United States, 834 F.2d 1576, 1581 (Fed. Cir. 1987); H.B. Mac, Inc. v. United States, 153 F.3d 1338, 1345 (Fed. Cir. 1998)) -- generally the easier of the two DSC theories, since it turns on contract-document interpretation rather than proving the condition was unusual. ${note}`;
+    } else if (dscType === "type-2") {
+      prob = [0.20, 0.40];
+      note = `A Type II claim (no contract representation, but the condition was of an unusual nature differing materially from what's ordinarily encountered in similar work) is generally the HARDER of the two DSC theories -- it turns on the abnormality of the actual condition rather than a specific misrepresentation, and courts have denied large claims on this ground even where the condition was genuinely unexpected. ${note}`;
+    } else {
+      note = `Whether this is a Type I (differs from what the contract documents represented) or Type II (unusual/unforeseeable, no contract representation) claim materially changes the burden of proof and the odds of success -- not specified here, so a wider band is shown. ${note}`;
+    }
+    out.push(R("differing_site_conditions_claim", "Differing Site Conditions (Contractor v. Owner)", prob,
+      num(f, "extraCostsFromSiteCondition") * 0.5, num(f, "extraCostsFromSiteCondition") * 0.95, note));
   }
   return out;
 }
@@ -1510,6 +1614,11 @@ const CATEGORY_FIELDS: Record<string, FieldDef[]> = {
     { key: "insurerDeniedCoverage", type: "boolean", label: "Has a CGL insurer denied or disputed coverage?" },
     { key: "defectCausedBySubcontractorWork", type: "boolean", label: "If coverage is disputed: was the defect caused by a subcontractor's work (rather than the general contractor's own direct work)?" },
     { key: "damageExtendsBeyondDefectItself", type: "boolean", label: "If coverage is disputed: does the claimed damage extend beyond the cost of fixing the defect itself to other, non-defective work or property?" },
+    { key: "defectType", type: "select", label: "Primary defect type -- changes statute-of-repose latency risk, and for water intrusion, CGL trigger-of-coverage analysis", options: ["structural-framing", "water-intrusion-envelope", "mep-systems", "geotechnical-foundation", "workmanship-cosmetic-finish"] },
+    { key: "yearsSinceSubstantialCompletion", type: "number", label: "Years since substantial completion (for statute-of-repose exposure)" },
+    { key: "differingSiteConditionsAlleged", type: "boolean", label: "Is the CONTRACTOR claiming a differing/unforeseen subsurface site condition (a Type I or Type II DSC clause claim) against the owner -- the reverse direction of an owner-side geotechnical defect claim?" },
+    { key: "differingSiteConditionsType", type: "select", label: "If so: Type I (actual conditions differ materially from what the contract documents represented) or Type II (an unusual, unforeseeable condition not ordinarily encountered, with no contract representation)?", options: ["type-1", "type-2", "unsure"] },
+    { key: "extraCostsFromSiteCondition", type: "number", label: "If so: contractor's additional costs/delay damages claimed due to the differing site condition ($)" },
   ],
   "environmental": [
     { key: "cleanupCostsIncurred", type: "number", label: "Cleanup/remediation costs incurred or estimated ($)" },
@@ -1567,7 +1676,7 @@ const CATEGORY_DESCRIPTIONS: Record<string, string> = {
   "lease-disputes": "Commercial lease disputes between landlord and tenant -- unpaid rent, lease termination/acceleration of future rent, holdover, landlord self-help/wrongful lockout, security deposits, breach of quiet enjoyment, re-leasing/mitigation costs.",
   "lending-foreclosure": "Commercial real-estate lending and foreclosure disputes -- loan default, foreclosure actions and deficiency judgments, receivership, guaranty enforcement/carve-out ('bad boy') triggers, borrower-asserted lender-liability claims.",
   "reit-securities": "REIT and real-estate securities litigation -- stock-drop securities fraud, board/sponsor breach-of-fiduciary-duty derivative suits, proxy disclosure claims, merger-objection suits.",
-  "construction-defect": "Construction defect disputes on a commercial or multi-unit property -- contractor workmanship or design-professional defects, repair costs, indemnification/contribution among contractors, CGL insurance coverage disputes over defect claims.",
+  "construction-defect": "Construction defect disputes on a commercial or multi-unit property -- contractor workmanship or design-professional defects (structural/framing, water intrusion/envelope, MEP, geotechnical/foundation), repair costs, indemnification/contribution among contractors, CGL insurance coverage disputes over defect claims, and contractor-side differing/unforeseen site condition (DSC) claims against the owner.",
   "environmental": "Environmental contamination and cleanup disputes on commercial/industrial property -- CERCLA cost recovery, contribution claims among potentially responsible parties (PRPs), state cleanup consent decrees, environmental insurance coverage disputes.",
   "eminent-domain": "Eminent domain / condemnation disputes -- just-compensation valuation fights, challenges to the taking itself, pre-condemnation survey/access disputes, regulatory-takings claims.",
   "zoning-land-use": "Zoning and land-use disputes -- variance or permit denials, spot-zoning challenges, arbitrary or discriminatory denial of development approvals (including Section 1983 civil-rights claims), development-agreement breaches.",
