@@ -16,7 +16,7 @@ const RELAW_DATA = {
      Drives the homepage's "New Today" pill: it only shows when this
      equals the visitor's local today. Updated by the digest automation
      each time Step 4 successfully adds a case — never touched otherwise. */
-  lastUpdatedDate: "2026-09-17",
+  lastUpdatedDate: "2026-09-18",
   categories: [
     { id: "landlord-tenant", label: "Landlord–Tenant", color: "var(--cat-landlord)" },
     { id: "zoning-land-use", label: "Zoning & Land Use", color: "var(--cat-zoning)" },
@@ -4453,6 +4453,69 @@ const RELAW_DATA = {
         { when: "July 10, 2026", label: "Save Siloam's Airport moves to intervene in the litigation" }
       ],
       tags: ["zoning", "subdivision", "arkansas", "airport", "permit denial"]
+    },
+    {
+      id: "live-153",
+      addedDate: "2026-09-18",
+      title: "Darby Development Co., Inc. v. United States (COVID Eviction-Moratorium Takings Settlement Talks)",
+      category: "eminent-domain",
+      status: "pending",
+      date: "2026-09-10",
+      jurisdiction: "U.S. Court of Federal Claims",
+      judge: "Armando O. Bonilla",
+      amount: "2,633 claimant landlords; settlement discussions reportedly centered near $1B, against an original ~$26B ask",
+      source: "live",
+      sourceUrl: "https://therealdeal.com/national/2026/09/10/more-landlords-seek-damages-from-eviction-moratorium/",
+      summary: "More than 2,600 residential landlords, led by Darby Development Company, Inc., are now party to a Fifth Amendment takings claim against the United States over the CDC's 2020-2021 nationwide COVID eviction moratorium, pending before Judge Armando O. Bonilla in the U.S. Court of Federal Claims. Following a 2024 Federal Circuit reversal establishing that the moratorium could support a takings theory, the case has moved to active settlement negotiations with the Department of Justice, with one attorney suggesting a resolution near $1 billion.",
+      significance: "Shows that a Fifth Amendment takings claim against the federal government can succeed even where the underlying emergency public-health order was later held unlawful, giving property owners a real litigation path to compensation for losses caused by future blanket regulatory measures, not just a political remedy. Owners with comparable pandemic-era losses who are not already part of the certified plaintiff group would not automatically share in any eventual settlement.",
+      body: [
+        "A five-year-old lawsuit over the federal government's COVID-19 eviction moratorium is entering its endgame, and the numbers involved have grown substantially along the way. In Darby Development Company, Inc. v. United States, No. 1:21-cv-01621, pending before Judge Armando O. Bonilla in the U.S. Court of Federal Claims, more than 2,600 owners of residential rental property, up roughly 75% since the spring of 2026, have now joined a takings claim against the United States over losses tied to the Centers for Disease Control and Prevention's 2020-2021 nationwide eviction ban. According to a fourth amended complaint filed in late August 2026, the plaintiff group now numbers 2,633 claimants, and the Department of Justice and plaintiffs' counsel are actively negotiating what one lawyer involved has suggested could be a settlement in the range of $1 billion.",
+        "The case traces back to September 2020, when the CDC invoked its public-health authority to bar residential evictions nationwide, an order that, with periodic renewals, remained largely in effect until the Supreme Court found the agency had exceeded its statutory authority. Darby Development and a group of other rental-property owners sued the United States in the Court of Federal Claims, arguing that the moratorium amounted to a physical taking of their property, since it forced them to continue housing non-paying tenants without the ability to regain possession, while leaving them responsible for mortgage payments, property taxes, insurance, and maintenance throughout. Because a Takings Clause claim for money damages against the federal government runs to the Court of Federal Claims rather than a district court, that tribunal was the only forum available to press it.",
+        "The government's central defense was almost paradoxical: because the CDC's moratorium was later held unlawful and outside the agency's statutory authority, the government argued it could not simultaneously be an authorized government action capable of supporting a takings claim. The Court of Federal Claims agreed and dismissed the case in 2022. On August 7, 2024, however, the U.S. Court of Appeals for the Federal Circuit reversed in an opinion by Judge Sharon Prost, joined by Judge Kara Stoll, holding that the CDC order was taken pursuant to color of federal authority sufficient to support a takings theory even though it was later found unlawful, and that the plaintiffs had adequately alleged a physical taking. The government sought rehearing en banc, which the Federal Circuit denied on June 6, 2025, and separately sought additional time from the Supreme Court to pursue further review. The litigation nonetheless proceeded on remand at the Court of Federal Claims, where the case has now moved from liability to the scale of compensation.",
+        "That shift in posture is what has driven both the ballooning plaintiff count and the active settlement talks. With liability established as a matter of Federal Circuit precedent within the case, the practical battle has become one of valuation: what actual, documented losses more than 2,600 individual property owners sustained during the moratorium period, and how the government should calculate just compensation across a claimant pool that large. Plaintiffs' filings have pointed to eviction-moratorium-driven losses across the broader affected landlord population running into the tens of billions of dollars nationally, with the original ask in this litigation reported at roughly $26 billion; more recent settlement discussion has reportedly centered on a far smaller, though still substantial, figure in the neighborhood of $1 billion for the certified claimant group. No settlement has been finalized, and Judge Bonilla continues to oversee periodic status reports on the negotiations.",
+        "For commercial and residential property owners assessing exposure to future emergency regulatory measures, Darby is a rare, real-world example of a takings claim against the federal government actually working its way toward compensation, and a useful data point on timeline: years of litigation preceded any prospect of recovery here. The case is also a pointed reminder that being part of the certified plaintiff group matters, since a favorable liability ruling for named plaintiffs does not automatically extend to similarly situated owners who never joined the case, and that documented, owner-specific loss records, unpaid rent, carrying costs, and maintenance, are central to how any eventual compensation gets calculated, making that documentation worth preserving now by anyone who sustained comparable losses during the moratorium period."
+      ],
+      timeline: [
+        { when: "September 2020", label: "CDC issues nationwide COVID-19 eviction moratorium" },
+        { when: "2021", label: "Darby Development and other landlords file suit in the U.S. Court of Federal Claims" },
+        { when: "2022", label: "Court of Federal Claims dismisses the case" },
+        { when: "August 7, 2024", label: "Federal Circuit reverses, holding the moratorium can support a takings claim" },
+        { when: "June 6, 2025", label: "Federal Circuit denies rehearing en banc" },
+        { when: "Late August 2026", label: "Fourth amended complaint filed; claimant count reaches 2,633" },
+        { when: "September 10, 2026", label: "Reporting confirms active DOJ settlement talks, with one estimate near $1B", current: true }
+      ],
+      tags: ["takings clause", "eviction moratorium", "court of federal claims", "landlord-tenant", "settlement"],
+      docketUrl: "https://www.courtlistener.com/docket/60090159/darby-development-company-inc-v-united-states/",
+      docketLabel: "CourtListener docket"
+    },
+    {
+      id: "live-154",
+      addedDate: "2026-09-18",
+      title: "Herb Simon v. Simon Family (SFG Company Dissolution & Equity-Stripping Suit)",
+      category: "reit-securities",
+      status: "filed",
+      date: "2026-07-31",
+      jurisdiction: "Marion Superior Court, Indiana",
+      state: "IN",
+      amount: "Undisclosed; dispute over equity interests in a privately held real estate holding company",
+      source: "live",
+      sourceUrl: "https://therealdeal.com/national/2026/08/06/simon-family-feud-explodes-over-restructure-of-private-firm/",
+      summary: "Herb Simon, co-founder of Simon Property Group, sued his late nephew David Simon's family and 17 total defendants in Marion Superior Court, alleging David used his control as manager of SFG Manager LLC to unilaterally dissolve SFG Company LLC, a private real estate vehicle formed in 1995 to hold interests kept outside the public REIT, and transfer its assets to a new entity less than two weeks before his death on March 22, 2026. The complaint alleges the maneuver stripped Herb and other family equity holders of preferential interests without their notice or consent.",
+      significance: "Illustrates that privately held family real estate holding vehicles sitting outside a public REIT's own corporate structure can carry significant, largely invisible governance risk, and that an LLC manager's broad authority is not a license to restructure ownership unilaterally over a co-owner's objection. A cautionary example for family-controlled real estate enterprises of how manager-succession and consent-rights ambiguity can erupt into public litigation, particularly when a major restructuring is timed around a principal's terminal illness.",
+      body: [
+        "A dispute usually confined to family matters has landed in Marion Superior Court in Indianapolis, where Herb Simon, the co-founder of Simon Property Group and majority owner of the Indiana Pacers, has sued the family and estate of his late nephew, longtime Simon Property Group chairman and CEO David Simon, along with fifteen other defendants. Filed July 31, 2026, the complaint centers not on the publicly traded REIT itself but on SFG Company LLC, a private real estate vehicle Herb formed in 1995 with his late brother, Melvin Simon, specifically to hold property interests kept outside Simon Property Group when that company went public. The suit alleges David Simon used his position as manager of SFG's governing entity, SFG Manager LLC, to unilaterally dissolve SFG Co. and transfer its assets to a new entity in a maneuver designed to strip Herb's side of the family of equity value it had held for three decades.",
+        "According to the complaint, Herb Simon and co-plaintiffs, including the Herbert Simon Revocable Trust and Bank of America, acting as trustee for the marital trust of Herb's late wife, Bren Simon, allege that David Simon and Herb had been negotiating a broader liquidation or restructuring of SFG Co. for some time, with David reportedly seeking the right to acquire his family's interests at a steep discount to fair-market value, an outcome Herb rejected in favor of a valuation-based buyout. When those negotiations stalled, the complaint alleges, David Simon achieved through unilateral corporate action what he could not obtain through negotiation: less than two weeks before his death on March 22, 2026, following a battle with pancreatic cancer, David executed a written consent as manager of SFG Manager LLC forming a new entity, SFG HoldCo LLC, and transferred all of SFG Co.'s assets into it in exchange for membership interests in the new vehicle. The complaint alleges that maneuver was executed without notice to, or the consent of, the equity holders on Herb's side of the family, and that it had the effect of stripping several of them of preferential interests they had held in SFG Co. since its formation.",
+        "The defendants include seventeen individuals and entities tied to David Simon's branch of the family, among them his nieces Deborah Simon and Cindy Simon-Skjodt, and other Simon family members and affiliated entities connected to the restructuring. David Simon's son, Eli Simon, was named CEO of the successor entity in the aftermath of the transaction and has publicly called the lawsuit a meritless complaint, stating his intention to remain focused on running the company rather than litigating the family dispute in public.",
+        "Disputes among the controlling families of major REITs are not new, but they rarely surface in this much public detail, and rarer still do they involve allegations that a fiduciary used the narrow window before his own death to lock in a corporate restructuring over the objection of co-owners. The case sits at the intersection of LLC manager fiduciary duty, minority equity protection, and estate planning executed under obvious time pressure, and it will likely turn on what SFG Co.'s own operating agreement actually permitted its manager to do unilaterally, and whether the entities and individuals who received HoldCo interests can be treated as good-faith recipients or as parties who benefited from a breach. Because SFG Co. was deliberately structured to sit outside the publicly traded REIT, the litigation is unlikely to have direct securities-law implications for Simon Property Group shareholders, but it offers a vivid illustration of how privately held affiliate entities tied to a public real estate company's controlling family can carry their own, largely invisible governance risk.",
+        "For real estate families and closely held investment vehicles more broadly, the case is a pointed reminder that LLC manager authority, however broadly drafted, is not a license to restructure ownership unilaterally when co-owners have a competing claim to consent rights, and that timing a major corporate action around a principal's terminal illness invites exactly the kind of scrutiny this complaint now puts before an Indiana court. Family-controlled real estate enterprises that hold significant assets in privately structured LLCs outside their public operating company should treat this dispute as a case study in why manager-succession and consent provisions deserve the same rigor typically reserved for the public company's own governance documents, and should periodically stress-test those provisions before, not after, a succession event forces the question."
+      ],
+      timeline: [
+        { when: "1995", label: "Herb and Melvin Simon form SFG Company LLC to hold real estate interests outside Simon Property Group" },
+        { when: "March 22, 2026", label: "David Simon dies after a battle with pancreatic cancer" },
+        { when: "Early March 2026", label: "David Simon executes written consent forming SFG HoldCo LLC and transfers SFG Co.'s assets to it, less than two weeks before his death" },
+        { when: "July 31, 2026", label: "Herb Simon and co-plaintiffs file suit in Marion Superior Court", current: true }
+      ],
+      tags: ["reit", "llc governance", "fiduciary duty", "indiana", "family business dispute"]
     }
   ],
 
@@ -4867,7 +4930,8 @@ const RELAW_DATA = {
     { jurisdiction: "U.S. District Court, District of Maine", url: "https://www.med.uscourts.gov/" },
     { jurisdiction: "Supreme Court of Wyoming", url: "https://www.wyocourts.gov/supreme-court/" },
     { jurisdiction: "Delaware Court of Chancery", url: "https://courts.delaware.gov/chancery/" },
-    { jurisdiction: "U.S. Court of Appeals for the Fourth Circuit", url: "https://www.ca4.uscourts.gov/" }
+    { jurisdiction: "U.S. Court of Appeals for the Fourth Circuit", url: "https://www.ca4.uscourts.gov/" },
+    { jurisdiction: "U.S. Court of Federal Claims", url: "https://www.uscfc.uscourts.gov/" }
   ],
 
   /* Judges — background on every judge named in our sourced reporting (never
@@ -5179,6 +5243,14 @@ const RELAW_DATA = {
       court: "U.S. Court of Appeals for the Fourth Circuit",
       background: "Appointed to the Fourth Circuit by President Reagan in 1984 and served as the court's chief judge from 1996 to 2003. Previously a law clerk to U.S. Supreme Court Justice Lewis F. Powell Jr. and a professor at the University of Virginia School of Law.",
       bioUrl: "https://www.fjc.gov/history/judges/wilkinson-james-harvie-iii"
+    },
+    {
+      name: "Armando O. Bonilla",
+      slug: "armando-o-bonilla",
+      title: "Judge",
+      court: "U.S. Court of Federal Claims",
+      background: "Nominated by President Biden and confirmed by the Senate in December 2021, taking office on the U.S. Court of Federal Claims in February 2022. Previously served as Associate Deputy Attorney General in the U.S. Department of Justice from 2010 to 2017 and as Associate General Counsel for the U.S. Marshals Service from 2017 to 2018.",
+      bioUrl: "https://www.uscfc.uscourts.gov/armando-o-bonilla"
     }
   ],
 
@@ -5220,6 +5292,7 @@ const RELAW_DATA = {
     { name: "CBRE Group, Inc.", matchTerm: "CBRE", slug: "cbre-group", description: "NYSE-listed global commercial real estate services and investment management firm, frequently serving as broker, property manager, or court-appointed receiver in distressed CRE matters.", website: "https://www.cbre.com" },
     { name: "D.R. Horton, Inc.", matchTerm: "D.R. Horton", slug: "dr-horton", description: "NYSE-listed national homebuilder and land developer, active in single-family and multifamily residential land entitlement and development nationally.", website: "https://www.drhorton.com" },
     { name: "Rialto Capital Advisors", matchTerm: "Rialto Capital", slug: "rialto-capital-advisors", description: "Miami-based investment and asset management platform that frequently serves as special servicer for CMBS trusts in commercial mortgage foreclosure litigation.", website: "https://rialtocapital.com" },
-    { name: "Blackstone", slug: "blackstone", description: "Global alternative asset manager and one of the largest owners of multifamily, office, and other commercial real estate nationally, both directly and through portfolio landlord entities.", website: "https://www.blackstone.com" }
+    { name: "Blackstone", slug: "blackstone", description: "Global alternative asset manager and one of the largest owners of multifamily, office, and other commercial real estate nationally, both directly and through portfolio landlord entities.", website: "https://www.blackstone.com" },
+    { name: "Simon Property Group", slug: "simon-property-group", description: "NYSE-listed REIT and the nation's largest owner of shopping malls and premium outlet centers.", website: "https://www.simon.com" }
   ]
 };
