@@ -166,6 +166,8 @@ async function ingest(body: Record<string, unknown>) {
   const secLive = recent.some((f) => f.filing_type === "sec_8k");
   const candidates = findMatches(entityRows, recent);
   let newMatches: NewMatch[] = [];
+  let emailsSent = 0;
+  let emailsFailed = 0;
   if (candidates.length) {
     // ignoreDuplicates makes the returned rows exactly the matches that
     // did not exist before, so re-ingesting a window never re-alerts.
@@ -180,22 +182,42 @@ async function ingest(body: Record<string, unknown>) {
       )
       .select("id, entity_id, filing_id");
     if (mErr) return jsonResponse({ error: "Could not store matches", detail: mErr.message }, 500);
-    const insertedKeys = new Map((inserted ?? []).map((r) => [`${r.entity_id}:${r.filing_id}`, r.id as number]));
+    const insertedKeys = new Set((inserted ?? []).map((r) => `${r.entity_id}:${r.filing_id}`));
     newMatches = candidates.filter((m) => insertedKeys.has(`${m.entity.id}:${m.filing.id}`));
+  }
 
-    const byUser = new Map<string, NewMatch[]>();
-    for (const m of newMatches) byUser.set(m.entity.user_id, [...(byUser.get(m.entity.user_id) ?? []), m]);
-    for (const [userId, userMatches] of byUser) {
-      const { data: userData, error: uErr } = await supabaseAdmin.auth.admin.getUserById(userId);
-      const email = userData?.user?.email;
-      if (uErr || !email) {
-        console.error(`ingest-court-filings: could not resolve email for user ${userId} --`, uErr?.message);
-        continue;
-      }
-      if (await sendMatchEmail(email, userMatches, secLive)) {
-        const ids = userMatches.map((m) => insertedKeys.get(`${m.entity.id}:${m.filing.id}`)!);
-        await supabaseAdmin.from("filing_matches").update({ emailed_at: new Date().toISOString() }).in("id", ids);
-      }
+  // Email every match from the last week that has no emailed_at, not just
+  // the ones inserted by this call: a failed send must be retried, or the
+  // duplicate guard above would bury that alert forever.
+  const retrySince = new Date(Date.now() - 7 * 86_400_000).toISOString();
+  const { data: unsent, error: unsentErr } = await supabaseAdmin
+    .from("filing_matches")
+    .select("id, entity_id, filing_id, confidence, matched_party")
+    .is("emailed_at", null).gte("created_at", retrySince).limit(1000);
+  if (unsentErr) return jsonResponse({ error: "Could not load unsent matches", detail: unsentErr.message }, 500);
+
+  const entityById = new Map(entityRows.map((e) => [e.id, e]));
+  const filingById = new Map(recent.map((f) => [f.id, f]));
+  const byUser = new Map<string, { id: number; match: NewMatch }[]>();
+  for (const row of unsent ?? []) {
+    const entity = entityById.get(row.entity_id), filing = filingById.get(row.filing_id);
+    if (!entity || !filing) continue;
+    const match: NewMatch = { entity, filing, confidence: row.confidence, matchedParty: row.matched_party };
+    byUser.set(entity.user_id, [...(byUser.get(entity.user_id) ?? []), { id: row.id, match }]);
+  }
+  for (const [userId, items] of byUser) {
+    const { data: userData, error: uErr } = await supabaseAdmin.auth.admin.getUserById(userId);
+    const email = userData?.user?.email;
+    if (uErr || !email) {
+      console.error(`ingest-court-filings: could not resolve email for user ${userId} --`, uErr?.message);
+      emailsFailed++;
+      continue;
+    }
+    if (await sendMatchEmail(email, items.map((i) => i.match), secLive)) {
+      emailsSent++;
+      await supabaseAdmin.from("filing_matches").update({ emailed_at: new Date().toISOString() }).in("id", items.map((i) => i.id));
+    } else {
+      emailsFailed++;
     }
   }
 
@@ -208,7 +230,7 @@ async function ingest(body: Record<string, unknown>) {
       .in("entity_name", searched);
   }
 
-  return jsonResponse({ ok: true, stored: stored.length, rejected, checkedFilings: recent.length, checkedEntities: entityRows.length, newMatches: newMatches.length }, 200);
+  return jsonResponse({ ok: true, stored: stored.length, rejected, checkedFilings: recent.length, checkedEntities: entityRows.length, newMatches: newMatches.length, emailsSent, emailsFailed }, 200);
 }
 
 Deno.serve(async (req) => {
