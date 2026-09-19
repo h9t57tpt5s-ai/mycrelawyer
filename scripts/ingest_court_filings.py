@@ -107,10 +107,10 @@ def to_filing(result, filing_type, date_from, date_to):
     }
 
 
-def pull_chapter_11(cl, date_from, date_to):
+def pull_chapter_11(cl, date_from, date_to, max_pages=MAX_CH11_PAGES):
     filings, expected = [], None
     page = cl.search(f"chapter:11 AND dateFiled:[{date_from} TO {date_to}]")
-    for _ in range(MAX_CH11_PAGES):
+    for _ in range(max_pages):
         if expected is None:
             expected = page.get("count")
         for r in page.get("results", []):
@@ -123,7 +123,7 @@ def pull_chapter_11(cl, date_from, date_to):
             break
         page = cl.get(page["next"])
     else:
-        print(f"Chapter 11: stopped at {MAX_CH11_PAGES} pages; window may be incomplete.", file=sys.stderr)
+        print(f"Chapter 11: stopped at {max_pages} pages; window may be incomplete.", file=sys.stderr)
     return filings, expected
 
 
@@ -243,6 +243,8 @@ def main():
     # are undocumented, so keep anonymous runs small.
     budget = args.budget if args.budget is not None else (110 if token else 30)
     cl = CourtListener(token, budget)
+    # ~25 petitions a day at 20 per page; a backfill window needs more pages.
+    ch11_pages = max(MAX_CH11_PAGES, args.window_days * 2)
 
     today = dt.datetime.now(dt.timezone.utc).date()
     date_from, date_to = (today - dt.timedelta(days=args.window_days)).isoformat(), today.isoformat()
@@ -254,7 +256,7 @@ def main():
     else:
         if not anon_key or not secret:
             sys.exit("SUPABASE_ANON_KEY and AUTOMATION_SECRET are required (or use --dry-run).")
-        status, body = call_function(function_url, anon_key, secret, {"action": "entities", "limit": max(budget - MAX_CH11_PAGES, 1)})
+        status, body = call_function(function_url, anon_key, secret, {"action": "entities", "limit": max(budget - ch11_pages, 1)})
         if status != 200:
             sys.exit(f"Could not load entities (HTTP {status}): {body}")
         entities = body.get("entities", [])
@@ -263,7 +265,7 @@ def main():
 
     filings, searched = {}, []
     try:
-        ch11, expected = pull_chapter_11(cl, date_from, date_to)
+        ch11, expected = pull_chapter_11(cl, date_from, date_to, ch11_pages)
         for f in ch11:
             filings[f["source_docket_id"]] = f
         print(f"Chapter 11: kept {len(ch11)} of {expected} reported")
