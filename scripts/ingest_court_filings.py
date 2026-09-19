@@ -25,6 +25,21 @@ import urllib.parse
 import urllib.request
 
 CL_SEARCH = "https://www.courtlistener.com/api/rest/v4/search/"
+EDGAR_SEARCH = "https://efts.sec.gov/LATEST/search-index"
+# The SEC asks automated callers to identify themselves with a contact
+# address; set SEC_USER_AGENT to a monitored mailbox.
+SEC_USER_AGENT = os.environ.get("SEC_USER_AGENT", "CREdocket no-reply@credocket.com")
+# Form 8-K items worth a counterparty's attention, under the SEC's own item
+# titles. An item code names the TYPE of event, not its cause: 2.04 also
+# covers a healthy company redeeming its own notes early, and 3.01 also
+# covers a voluntary transfer between exchanges. Only 1.03 is unambiguous,
+# so only 1.03 is ever shown publicly (see the 20260919b migration).
+SEC_ITEMS = {
+    "1.03": "Bankruptcy or Receivership",
+    "2.04": "Triggering Events That Accelerate or Increase a Direct Financial Obligation",
+    "3.01": "Notice of Delisting or Failure to Satisfy a Continued Listing Rule; Transfer of Listing",
+}
+MAX_EDGAR_PAGES = 5
 CL_SITE = "https://www.courtlistener.com"
 USER_AGENT = "CREdocket-surveillance/1.0 (+https://credocket.com)"
 DEFAULT_FUNCTION_URL = "https://ribmcdyoydhmafnyfhpp.supabase.co/functions/v1/ingest-court-filings"
@@ -135,6 +150,69 @@ def pull_entity(cl, entity_name, date_from, date_to):
     return out
 
 
+def sec_company_name(display_name):
+    # "Synergy CHC Corp.  (SNYR)  (CIK 0001562733)" -> "Synergy CHC Corp."
+    return re.sub(r"\s*\([^()]*\)\s*", " ", display_name).strip()
+
+
+def edgar_hits(url):
+    # EDGAR full-text search intermittently answers 500; retry briefly.
+    for attempt in range(4):
+        time.sleep(1 + attempt * 3)
+        try:
+            req = urllib.request.Request(url, headers={"User-Agent": SEC_USER_AGENT})
+            with urllib.request.urlopen(req, timeout=60) as resp:
+                return json.load(resp).get("hits", {}).get("hits", [])
+        except urllib.error.HTTPError as err:
+            if err.code < 500 or attempt == 3:
+                raise
+            print(f"EDGAR HTTP {err.code}, retry {attempt + 1}/3", file=sys.stderr)
+
+
+def pull_sec_8k(date_from, date_to):
+    """Public-company 8-K event disclosures from EDGAR full-text search.
+
+    A phrase search for "Item 1.03" also returns documents that merely
+    mention it (verified 2026-09-19: 6 real filings among 39 hits), so a hit
+    counts only if the filing's own item codes include the item and the
+    document is the 8-K itself rather than an exhibit.
+    """
+    by_adsh = {}
+    for item in SEC_ITEMS:
+        for page in range(MAX_EDGAR_PAGES):
+            params = urllib.parse.urlencode({
+                "q": f'"Item {item}"', "forms": "8-K", "dateRange": "custom",
+                "startdt": date_from, "enddt": date_to, "from": page * 100,
+            })
+            hits = edgar_hits(f"{EDGAR_SEARCH}?{params}")
+            for h in hits:
+                src = h.get("_source", {})
+                adsh, ciks, names = src.get("adsh") or "", src.get("ciks") or [], src.get("display_names") or []
+                file_date = src.get("file_date") or ""
+                if item not in (src.get("items") or []) or src.get("file_type") != "8-K":
+                    continue
+                if not re.fullmatch(r"\d{10}-\d{2}-\d{6}", adsh) or not ciks or not names or not (date_from <= file_date <= date_to):
+                    continue
+                codes = sorted(set(src.get("items") or []) & set(SEC_ITEMS))
+                by_adsh[adsh] = {
+                    "source": "sec_edgar",
+                    "source_docket_id": int(adsh.replace("-", "")),
+                    "filing_type": "sec_8k",
+                    "court_id": "sec",
+                    "court_name": "SEC Form 8-K",
+                    "docket_number": "; ".join(f"Item {c}: {SEC_ITEMS[c]}" for c in codes),
+                    "case_name": sec_company_name(names[0]),
+                    "date_filed": file_date,
+                    "parties": [sec_company_name(n) for n in names],
+                    "docket_url": f"https://www.sec.gov/Archives/edgar/data/{int(ciks[0])}/{adsh.replace('-', '')}/{adsh}-index.htm",
+                }
+            if len(hits) < 100:
+                break
+        else:
+            print(f"SEC Item {item}: stopped at {MAX_EDGAR_PAGES} pages; window may be incomplete.", file=sys.stderr)
+    return list(by_adsh.values())
+
+
 def call_function(url, anon_key, secret, payload):
     req = urllib.request.Request(
         url, data=json.dumps(payload).encode(), method="POST",
@@ -199,11 +277,20 @@ def main():
     except BudgetExhausted:
         print(f"Request budget used up after {len(searched)} of {len(entities)} entities; the rest roll to the next run.")
 
+    try:
+        sec_rows = pull_sec_8k(date_from, date_to)
+        print(f"SEC 8-K event disclosures: {len(sec_rows)}")
+    except (urllib.error.URLError, ValueError) as err:
+        sec_rows = []
+        print(f"SEC pull failed, continuing without it: {err}", file=sys.stderr)
+
     rows = list(filings.values())
     if args.dry_run:
+        for f in sec_rows[:10]:
+            print(f"  {f['date_filed']} sec_8k          {f['case_name'][:44]:<44} {f['docket_number'][:60]}")
         for f in rows[:15]:
             print(f"  {f['date_filed']} {f['filing_type']:<15} {f['court_id']:<6} {f['case_name'][:70]}")
-        print(f"DRY RUN: {len(rows)} filings pulled, {len(searched)} entities searched, {budget - cl.remaining} requests used. Nothing sent.")
+        print(f"DRY RUN: {len(rows)} court filings and {len(sec_rows)} SEC disclosures pulled, {len(searched)} entities searched, {budget - cl.remaining} requests used. Nothing sent.")
         return
 
     total_new = 0
@@ -214,7 +301,17 @@ def main():
             sys.exit(f"Ingest failed (HTTP {status}): {body}")
         total_new += body.get("newMatches", 0)
         print(f"Ingested batch: {body}")
-    print(f"Done: {len(rows)} filings sent, {total_new} new portfolio match(es).")
+    # Sent separately and allowed to fail: until the 20260919b migration is
+    # run the database rejects sec_8k rows, and that must not block the
+    # court filings above.
+    if sec_rows:
+        status, body = call_function(function_url, anon_key, secret, {"action": "ingest", "filings": sec_rows, "searchedEntities": []})
+        if status == 200:
+            total_new += body.get("newMatches", 0)
+            print(f"Ingested SEC batch: {body}")
+        else:
+            print(f"::warning::SEC batch not stored (HTTP {status}): {body}")
+    print(f"Done: {len(rows)} court filings and {len(sec_rows)} SEC disclosures sent, {total_new} new portfolio match(es).")
 
 
 if __name__ == "__main__":

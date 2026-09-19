@@ -8,7 +8,7 @@
   const countEl = document.getElementById("filing-matches-count");
   if (!sb || !listEl) return;
 
-  const KIND_LABELS = { bankruptcy_ch11: "Chapter 11 petition", civil: "Federal civil suit" };
+  const KIND_LABELS = { bankruptcy_ch11: "Chapter 11 petition", civil: "Federal civil suit", sec_8k: "SEC Form 8-K" };
 
   function escapeHtml(s) {
     return String(s == null ? "" : s).replace(/[&<>"']/g, (c) => ({
@@ -16,15 +16,17 @@
     })[c]);
   }
 
-  // Only ever link to the docket host the ingest function itself enforces.
+  // Only ever link to the hosts the ingest function itself enforces.
+  const ALLOWED_PREFIXES = ["https://www.courtlistener.com/docket/", "https://www.sec.gov/Archives/edgar/data/"];
   function safeDocketUrl(url) {
-    return typeof url === "string" && url.indexOf("https://www.courtlistener.com/docket/") === 0 ? url : null;
+    return typeof url === "string" && ALLOWED_PREFIXES.some((p) => url.indexOf(p) === 0) ? url : null;
   }
 
   function matchCard(m) {
     const f = m.court_filings || {};
     const e = m.portfolio_entities || {};
     const url = safeDocketUrl(f.docket_url);
+    const isSec = f.filing_type === "sec_8k";
     const confidence = m.confidence === "exact"
       ? `<span class="mono" style="font-size:11.5px; text-transform:uppercase; letter-spacing:0.03em;">High confidence</span>`
       : `<span class="mono text-muted" style="font-size:11.5px; text-transform:uppercase; letter-spacing:0.03em;">Possible match — confirm</span>`;
@@ -35,8 +37,9 @@
           ${confidence}
         </div>
         <p style="font-size:13.5px; margin-top:6px;">${escapeHtml(KIND_LABELS[f.filing_type] || "Federal filing")}: ${escapeHtml(f.case_name)}</p>
-        <p class="text-muted" style="font-size:12.5px; margin-top:4px;">${escapeHtml(f.court_name)}${f.docket_number ? `, No. ${escapeHtml(f.docket_number)}` : ""} · filed ${escapeHtml(f.date_filed)} · matched party: ${escapeHtml(m.matched_party)}</p>
-        ${url ? `<p style="font-size:12.5px; margin-top:6px;"><a href="${escapeHtml(url)}" target="_blank" rel="noopener noreferrer">View docket on CourtListener</a></p>` : ""}
+        <p class="text-muted" style="font-size:12.5px; margin-top:4px;">${isSec ? escapeHtml(f.docket_number) : `${escapeHtml(f.court_name)}${f.docket_number ? `, No. ${escapeHtml(f.docket_number)}` : ""}`} · filed ${escapeHtml(f.date_filed)} · matched name: ${escapeHtml(m.matched_party)}</p>
+        ${isSec ? `<p class="text-muted" style="font-size:12px; margin-top:4px;">An 8-K item names the type of event, not its cause — read the filing before drawing a conclusion.</p>` : ""}
+        ${url ? `<p style="font-size:12.5px; margin-top:6px;"><a href="${escapeHtml(url)}" target="_blank" rel="noopener noreferrer">${isSec ? "View filing on SEC EDGAR" : "View docket on CourtListener"}</a></p>` : ""}
       </div>`;
   }
 
@@ -53,7 +56,7 @@
         }
         if (countEl) countEl.textContent = data.length;
         if (!data.length) {
-          listEl.innerHTML = `<p class="text-muted" style="font-size:13px;">No federal filings have matched your portfolio yet. New Chapter 11 petitions and federal suits are checked once a day.</p>`;
+          listEl.innerHTML = `<p class="text-muted" style="font-size:13px;">No filings have matched your portfolio yet. New Chapter 11 petitions, federal suits and SEC 8-K event filings are checked once a day.</p>`;
           return;
         }
         listEl.innerHTML = data.map(matchCard).join("");

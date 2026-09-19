@@ -17,7 +17,12 @@ const AUTOMATION_SECRET = Deno.env.get("AUTOMATION_SECRET") ?? "";
 const RESEND_API_KEY = Deno.env.get("RESEND_API_KEY") ?? "";
 const SENDER_EMAIL = "no-reply@credocket.com";
 const SITE_URL = "https://credocket.com";
-const DOCKET_URL_PREFIX = "https://www.courtlistener.com/docket/";
+const URL_PREFIX: Record<string, string> = {
+  bankruptcy_ch11: "https://www.courtlistener.com/docket/",
+  civil: "https://www.courtlistener.com/docket/",
+  sec_8k: "https://www.sec.gov/Archives/edgar/data/",
+};
+const SOURCE_FOR: Record<string, string> = { bankruptcy_ch11: "courtlistener", civil: "courtlistener", sec_8k: "sec_edgar" };
 const MAX_FILINGS_PER_CALL = 500;
 // Matching re-checks this many days of stored filings on every run, so an
 // entity added today still surfaces a petition filed last week.
@@ -50,7 +55,7 @@ async function fetchAll<T>(
 
 type IncomingFiling = {
   source_docket_id: number;
-  filing_type: "bankruptcy_ch11" | "civil";
+  filing_type: "bankruptcy_ch11" | "civil" | "sec_8k";
   court_id: string;
   court_name?: string;
   docket_number?: string;
@@ -64,14 +69,14 @@ function parseFiling(raw: unknown): IncomingFiling | null {
   if (!raw || typeof raw !== "object") return null;
   const f = raw as Record<string, unknown>;
   if (!Number.isInteger(f.source_docket_id)) return null;
-  if (f.filing_type !== "bankruptcy_ch11" && f.filing_type !== "civil") return null;
+  if (typeof f.filing_type !== "string" || !(f.filing_type in URL_PREFIX)) return null;
   if (typeof f.court_id !== "string" || typeof f.case_name !== "string" || !f.case_name.trim()) return null;
   if (typeof f.date_filed !== "string" || !/^\d{4}-\d{2}-\d{2}$/.test(f.date_filed)) return null;
-  if (typeof f.docket_url !== "string" || !f.docket_url.startsWith(DOCKET_URL_PREFIX)) return null;
+  if (typeof f.docket_url !== "string" || !f.docket_url.startsWith(URL_PREFIX[f.filing_type])) return null;
   const parties = Array.isArray(f.parties) ? f.parties.filter((p): p is string => typeof p === "string" && p.trim().length > 0) : [];
   return {
     source_docket_id: f.source_docket_id as number,
-    filing_type: f.filing_type,
+    filing_type: f.filing_type as IncomingFiling["filing_type"],
     court_id: f.court_id,
     court_name: typeof f.court_name === "string" ? f.court_name : undefined,
     docket_number: typeof f.docket_number === "string" ? f.docket_number : undefined,
@@ -112,19 +117,28 @@ function findMatches(entities: Entity[], filings: StoredFiling[]): NewMatch[] {
   return out;
 }
 
+const KIND_LABEL: Record<string, string> = {
+  bankruptcy_ch11: "Chapter 11 bankruptcy petition",
+  civil: "Federal civil suit",
+  sec_8k: "SEC Form 8-K event disclosure",
+};
+
 function describeFiling(m: NewMatch): string[] {
-  const kind = m.filing.filing_type === "bankruptcy_ch11" ? "Chapter 11 bankruptcy petition" : "Federal civil suit";
+  const isSec = m.filing.filing_type === "sec_8k";
   const confidence = m.confidence === "exact"
-    ? `Match confidence: High -- the party name "${m.matchedParty}" matches your saved name once corporate suffixes are ignored.`
-    : `Match confidence: Possible -- your saved name is the leading part of the party name "${m.matchedParty}". Confirm this is the same entity before relying on it.`;
+    ? `Match confidence: High -- the name "${m.matchedParty}" matches your saved name once corporate suffixes are ignored.`
+    : `Match confidence: Possible -- your saved name is the leading part of "${m.matchedParty}". Confirm this is the same entity before relying on it.`;
   return [
-    `"${m.entity.entity_name}" (${m.entity.entity_type}) -- ${kind}`,
+    `"${m.entity.entity_name}" (${m.entity.entity_type}) -- ${KIND_LABEL[m.filing.filing_type] ?? "Filing"}`,
     `${m.filing.case_name}`,
-    `${m.filing.court_name ?? ""}${m.filing.docket_number ? `, No. ${m.filing.docket_number}` : ""} -- filed ${m.filing.date_filed}`,
+    isSec
+      ? `${m.filing.docket_number ?? ""} -- filed ${m.filing.date_filed}`
+      : `${m.filing.court_name ?? ""}${m.filing.docket_number ? `, No. ${m.filing.docket_number}` : ""} -- filed ${m.filing.date_filed}`,
+    isSec ? "An 8-K item names the type of event, not its cause. Item 2.04 also covers a company redeeming its own notes early, and Item 3.01 also covers a voluntary transfer between exchanges. Read the filing before drawing a conclusion." : null,
     confidence,
-    `Docket: ${m.filing.docket_url}`,
+    `${isSec ? "Filing" : "Docket"}: ${m.filing.docket_url}`,
     "",
-  ];
+  ].filter((line): line is string => line !== null);
 }
 
 async function sendMatchEmail(toEmail: string, matches: NewMatch[]): Promise<boolean> {
@@ -133,13 +147,13 @@ async function sendMatchEmail(toEmail: string, matches: NewMatch[]): Promise<boo
     return false;
   }
   const subject = matches.length === 1
-    ? `"${matches[0].entity.entity_name}" was just named in a new federal filing`
-    : `${matches.length} new federal filings name entities in your portfolio`;
+    ? `"${matches[0].entity.entity_name}" was just named in a new federal or SEC filing`
+    : `${matches.length} new filings name entities in your portfolio`;
   const text = [
-    "CREdocket's daily check of new federal court filings found the following against your portfolio:",
+    "CREdocket's daily check of new federal court and SEC filings found the following against your portfolio:",
     "",
     ...matches.flatMap(describeFiling),
-    "Coverage: all new Chapter 11 petitions nationwide, plus federal civil suits naming your saved entities. State-court filings are not yet covered, so no alert is not proof of no filing.",
+    "Coverage: all new Chapter 11 petitions nationwide, federal civil suits naming your saved entities, and SEC Form 8-K filings under Items 1.03, 2.04 and 3.01. State-court filings are not yet covered, so no alert is not proof of no filing.",
     "",
     `Manage your portfolio: ${SITE_URL}/account.html?utm_source=credocket&utm_medium=email&utm_campaign=filing-alert`,
   ].join("\n");
@@ -190,8 +204,9 @@ async function ingest(body: Record<string, unknown>) {
   if (filings.length) {
     const rows = filings.map((f) => ({
       ...f,
-      source: "courtlistener",
-      is_business: matchableNames(f).some(looksLikeBusiness),
+      source: SOURCE_FOR[f.filing_type],
+      // Only companies file Form 8-K.
+      is_business: f.filing_type === "sec_8k" || matchableNames(f).some(looksLikeBusiness),
     }));
     const { data, error } = await supabaseAdmin
       .from("court_filings")
