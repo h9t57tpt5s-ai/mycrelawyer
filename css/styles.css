@@ -1301,6 +1301,12 @@ h3, .h3 {
   font-family: var(--font-mono); font-size: 12px; color: var(--text-secondary);
   overflow-wrap: break-word; margin-bottom: 12px; padding-bottom: 12px; border-bottom: 1px solid var(--border-soft);
 }
+.auth-nav-link {
+  display: block; font-family: var(--font-body); font-size: 13.5px; font-weight: 500;
+  color: var(--text-primary); text-decoration: none; padding: 7px 8px; margin: 0 -8px; border-radius: 8px;
+}
+.auth-nav-link:hover, .auth-nav-link:focus-visible { background: var(--accent-wash); color: var(--accent-deep); }
+.auth-nav-link + .auth-nav-signout { margin-top: 12px; }
 .auth-nav-signout {
   width: 100%; font-family: var(--font-body); font-size: 12.5px; color: var(--text-secondary);
   background: transparent; border: 1px solid var(--border); border-radius: var(--radius-full);

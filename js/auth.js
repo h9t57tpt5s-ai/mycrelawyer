@@ -86,6 +86,8 @@
           <button type="button" class="auth-nav-avatar-btn" id="auth-account-btn" aria-haspopup="true" aria-expanded="false" title="${email}">${initial}</button>
           <div class="auth-nav-dropdown" id="auth-nav-dropdown" role="menu">
             <div class="auth-nav-dropdown-email">${email}</div>
+            <a class="auth-nav-link" role="menuitem" href="account.html">My account</a>
+            <a class="auth-nav-link" role="menuitem" href="account.html#portfolio">My portfolio &amp; alerts</a>
             <button type="button" class="auth-nav-signout" id="auth-signout-btn">Sign out</button>
           </div>
         </div>`;
