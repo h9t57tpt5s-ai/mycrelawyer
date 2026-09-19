@@ -1,0 +1,36 @@
+name: Counterparty surveillance — daily federal filings pull
+
+# Runs scripts/ingest_court_filings.py on a GitHub-hosted runner: the pull
+# is rate-limited to one CourtListener request every 13 seconds, far longer
+# than a Supabase Edge Function may run, so the slow half lives here and
+# the Edge Function (ingest-court-filings) does storage, matching and email.
+#
+# COURTLISTENER_TOKEN is optional. Without it the job still pulls every new
+# Chapter 11 petition but can search only a handful of portfolio entities.
+
+on:
+  schedule:
+    - cron: "30 11 * * *" # 6:30am Central, ahead of the 7am morning digest
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: court-filings-ingest
+  cancel-in-progress: false
+
+jobs:
+  ingest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - name: Pull new federal filings and match portfolios
+        env:
+          SUPABASE_ANON_KEY: sb_publishable_77xSJub0DOpnTSM4nzhVaQ_aztB5p3f
+          AUTOMATION_SECRET: ${{ secrets.AUTOMATION_SECRET }}
+          COURTLISTENER_TOKEN: ${{ secrets.COURTLISTENER_TOKEN }}
+        run: python3 scripts/ingest_court_filings.py
