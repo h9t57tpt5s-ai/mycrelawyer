@@ -1,0 +1,27 @@
+name: Tests
+
+# The matcher decides who gets a bankruptcy alert and the calculator prints
+# a legal claim figure; neither should change without its tests passing.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "supabase/functions/ingest-court-filings/**"
+      - "js/lease-rejection-calculator.js"
+      - "scripts/tests/**"
+      - ".github/workflows/tests.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  deno-tests:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: denoland/setup-deno@v2
+        with:
+          deno-version: v2.x
+      - run: deno test --no-config --allow-read supabase/functions/ingest-court-filings/ scripts/tests/

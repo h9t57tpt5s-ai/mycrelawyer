@@ -3,26 +3,27 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Zoning & Land Use Litigation in California — CREdocket</title>
-<meta name="description" content="Zoning & Land Use litigation tracked in California: Voskerician v. City of Menlo Park (SB 9 Park Fee Takings Challenge)." />
+<title>Lease Rejection Claim Calculator — CREdocket</title>
+<meta name="description" content="Free calculator for the cap on a landlord's damages claim when a bankrupt tenant rejects a lease, under 11 U.S.C. § 502(b)(6) — time and rent approaches side by side." />
 <meta property="og:type" content="website" />
 <meta property="og:site_name" content="CREdocket" />
-<meta property="og:title" content="Zoning & Land Use Litigation in California — CREdocket" />
-<meta property="og:description" content="Zoning & Land Use litigation tracked in California: Voskerician v. City of Menlo Park (SB 9 Park Fee Takings Challenge)." />
-<meta property="og:url" content="https://credocket.com/california-zoning-land-use.html" />
-<link rel="canonical" href="https://credocket.com/california-zoning-land-use.html" />
+<meta property="og:title" content="Lease Rejection Claim Calculator — CREdocket" />
+<meta property="og:description" content="Free calculator for the cap on a landlord's damages claim when a bankrupt tenant rejects a lease, under 11 U.S.C. § 502(b)(6) — time and rent approaches side by side." />
+<meta property="og:url" content="https://credocket.com/lease-rejection-claim-calculator.html" />
+<link rel="canonical" href="https://credocket.com/lease-rejection-claim-calculator.html" />
 <meta property="og:image" content="https://credocket.com/img/og-image.png" />
 <meta property="og:image:width" content="1200" />
 <meta property="og:image:height" content="630" />
 <meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:title" content="Zoning & Land Use Litigation in California — CREdocket" />
-<meta name="twitter:description" content="Zoning & Land Use litigation tracked in California: Voskerician v. City of Menlo Park (SB 9 Park Fee Takings Challenge)." />
+<meta name="twitter:title" content="Lease Rejection Claim Calculator — CREdocket" />
+<meta name="twitter:description" content="Free calculator for the cap on a landlord's damages claim when a bankrupt tenant rejects a lease, under 11 U.S.C. § 502(b)(6) — time and rent approaches side by side." />
 <meta name="twitter:image" content="https://credocket.com/img/og-image.png" />
 <link rel="icon" href="img/favicon.svg" type="image/svg+xml" />
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/styles.css" />
+<link rel="stylesheet" href="css/lien-deadline-calculator.css" />
     <script>
       window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
     </script>
@@ -87,7 +88,7 @@
           <a href="lease-clause-redline.html">Lease Clause Redline Checker (Beta)</a>
           <div class="nav-dropdown-label">Calculators &amp; Reference</div>
           <a href="lien-deadline-calculator.html">Mechanic's Lien Deadline Calculator</a>
-          <a href="lease-rejection-claim-calculator.html">Lease Rejection Claim Calculator</a>
+          <a href="lease-rejection-claim-calculator.html" class="active">Lease Rejection Claim Calculator</a>
           <a href="ada-risk-flagging.html">ADA Title III Risk Flagging</a>
           <a href="premises-liability-checklist.html">Premises Liability Checklist (Manager Edition)</a>
           <a href="settlement-benchmarks.html">Settlement &amp; Verdict Benchmarks</a>
@@ -121,49 +122,64 @@
 
 
 <header class="page-header">
-    <svg class="page-header-graphic" viewBox="0 0 640 400" fill="none" aria-hidden="true" preserveAspectRatio="xMaxYMid slice">
-      <defs>
-        <radialGradient id="phGlow" cx="70%" cy="30%" r="60%">
-          <stop offset="0" stop-color="var(--accent)" stop-opacity="0.16"/>
-          <stop offset="1" stop-color="var(--accent)" stop-opacity="0"/>
-        </radialGradient>
-      </defs>
-      <rect x="0" y="0" width="640" height="400" fill="url(#phGlow)"/>
-      <circle cx="420" cy="120" r="3.5" fill="var(--status-pending)" opacity="0.8">
-        <animate attributeName="r" values="3.5;5.5;3.5" dur="3s" repeatCount="indefinite"/>
-      </circle>
-      <circle cx="230" cy="160" r="3" fill="var(--status-filed)" opacity="0.8">
-        <animate attributeName="r" values="3;5;3" dur="2.6s" repeatCount="indefinite"/>
-      </circle>
-    </svg>
   <div class="container">
-    <div class="eyebrow reveal in-view">California &middot; Zoning & Land Use</div>
-    <h1 class="reveal in-view" style="font-size:clamp(2.2rem,4vw,3.4rem);">Zoning & Land Use litigation in California</h1>
-    <p class="lede mt-16 reveal in-view">1 matter currently tracked in California courts. Updated as new developments are sourced.</p>
+    <div class="eyebrow reveal in-view">Litigation Tools</div>
+    <h1 class="reveal in-view" style="font-size:clamp(2.2rem,4vw,3.4rem);">Lease Rejection Claim Calculator</h1>
+    <p class="lede mt-16 reveal in-view">When a tenant files bankruptcy and rejects your lease, the Bankruptcy Code caps what you can claim for the lost future rent. This works out that cap under both methods courts use — free, no sign-in.</p>
   </div>
 </header>
 
 <section class="section-tight">
-  <div class="container">
-    <div class="grid-3 reveal-stagger" id="case-grid"></div>
-    <div class="card cta-photo-card reveal mt-40" style="padding:40px; display:flex; align-items:center; justify-content:space-between; gap:24px; flex-wrap:wrap;">
-      <div class="cta-photo-bg"><img src="img/photos/office-building.jpg" alt="" aria-hidden="true" loading="lazy" /></div>
-      <div>
-        <h2 style="font-size:clamp(1.4rem,2.2vw,1.8rem);">Facing a similar issue in California?</h2>
-        <p class="text-secondary mt-16" style="max-width:440px;">If your portfolio has exposure to zoning & land use matters in California, it's worth a conversation before it becomes a bigger problem.</p>
-      </div>
-      <a href="contact.html?matter=Zoning%20%26%20Land%20Use%20matter%20in%20California&jurisdiction=California" class="btn btn-primary">
-        Discuss This
-        <svg viewBox="0 0 24 24" fill="none"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
-      </a>
+  <div class="container" style="max-width:820px;">
+    <div class="card reveal" style="padding:24px;">
+      <div class="eyebrow" style="margin-bottom:10px;">Disclaimer</div>
+      <p class="text-secondary" style="font-size:13px; line-height:1.7;">This is an arithmetic aid, not legal advice. It applies the text of 11 U.S.C. § 502(b)(6) to the figures you enter. It does not decide which charges count as "rent reserved" under your lease, how a security deposit or letter of credit is applied, whether the lease was validly terminated before the petition, or what your damages are under state law — each of which can change the result. Have bankruptcy counsel review any proof of claim.</p>
     </div>
-    <p class="text-muted mt-24" style="font-size:13px;">
-      <a href="state-guides.html" class="text-accent" style="display:inline;">&larr; All state guides</a>
-      &nbsp;&middot;&nbsp;
-      <a href="litigation.html?category=zoning-land-use" class="text-accent" style="display:inline;">View all Zoning & Land Use matters nationwide &rarr;</a>
-      &nbsp;&middot;&nbsp;
-      <a href="litigation.html?state=CA" class="text-accent" style="display:inline;">View all matters in California &rarr;</a>
-    </p>
+  </div>
+</section>
+
+<section class="section-tight" style="padding-top:0;">
+  <div class="container" style="max-width:820px;">
+    <form id="lrc-form" class="card reveal" style="padding:28px;">
+      <div class="cv-controls">
+        <div class="cv-field">
+          <label for="lrc-start">Petition date, or the date you took back the space if earlier</label>
+          <input type="date" id="lrc-start" required />
+        </div>
+        <div class="cv-field">
+          <label for="lrc-end">Lease expiration date</label>
+          <input type="date" id="lrc-end" required />
+        </div>
+        <div class="cv-field">
+          <label for="lrc-rent">Monthly rent reserved on that date ($)</label>
+          <input type="number" id="lrc-rent" min="0" step="0.01" inputmode="decimal" required />
+        </div>
+        <div class="cv-field">
+          <label for="lrc-esc">Annual rent escalation (%) — optional</label>
+          <input type="number" id="lrc-esc" min="0" max="50" step="0.01" inputmode="decimal" placeholder="0" />
+        </div>
+        <div class="cv-field">
+          <label for="lrc-unpaid">Unpaid rent already due on that date ($) — optional</label>
+          <input type="number" id="lrc-unpaid" min="0" step="0.01" inputmode="decimal" placeholder="0" />
+        </div>
+        <div class="cv-field">
+          <label for="lrc-actual">Your actual damages under state law, after mitigation ($) — optional</label>
+          <input type="number" id="lrc-actual" min="0" step="0.01" inputmode="decimal" />
+        </div>
+      </div>
+      <button type="submit" class="btn btn-primary" style="margin-top:8px;">Calculate the cap</button>
+    </form>
+
+    <div id="lrc-result" class="card" style="margin-top:24px; padding:28px;"><p class="text-secondary" style="font-size:13.5px;">Enter the lease figures above to see the cap under both methods.</p></div>
+
+    <div class="card reveal" style="margin-top:24px; padding:28px;">
+      <div class="eyebrow" style="margin-bottom:10px;">How the cap works</div>
+      <p class="text-secondary" style="font-size:13.5px; line-height:1.7;">Section 502(b)(6) disallows a landlord's claim for damages from the termination of a real-property lease to the extent it exceeds (A) "the rent reserved by such lease, without acceleration, for the greater of one year, or 15 percent, not to exceed three years, of the remaining term of such lease," measured from the earlier of the petition date and the date the landlord repossessed or the tenant surrendered the space, plus (B) "any unpaid rent due under such lease, without acceleration, on the earlier of such dates." <a href="https://www.law.cornell.edu/uscode/text/11/502" target="_blank" rel="noopener noreferrer">Read the statute</a>.</p>
+      <p class="text-secondary mt-16" style="font-size:13.5px; line-height:1.7;"><strong>The cap is a ceiling, not the claim.</strong> You first need real damages under your lease and state law, net of what re-letting recovers. The allowed claim is the lesser of those damages and the cap.</p>
+      <p class="text-secondary mt-16" style="font-size:13.5px; line-height:1.7;"><strong>Two ways to read "15 percent."</strong> Under the <em>time approach</em>, the cap is the rent falling due during the first 15 percent of the remaining term (no less than one year, no more than three). Under the <em>rent approach</em>, it is 15 percent of all rent remaining under the lease, bounded by one year's and three years' rent. They give the same number unless rent changes over the term. Most recent decisions use the time approach, including <em>In re Cortlandt Liquidating LLC</em>, 658 B.R. 244 (S.D.N.Y. 2024), a district whose bankruptcy courts had long used the rent approach; in that case the debtor was the lease guarantor rather than the tenant, and the court held the cap applies to a claim against a debtor-guarantor too. See commentary from <a href="https://www.dlapiper.com/en-us/insights/publications/2024/04/southern-district-of-new-york-rules-that-time-approach-applies-to-calculating-landlords-lease" target="_blank" rel="noopener noreferrer">DLA Piper</a> and <a href="https://www.jonesday.com/en/insights/2024/09/new-york-district-court-cap-on-landlord-claims-in-bankruptcy-applies-to-claims-against-lease-guarantors-and-cap-should-b" target="_blank" rel="noopener noreferrer">Jones Day</a>. Check which approach your court follows.</p>
+      <p class="text-secondary mt-16" style="font-size:13.5px; line-height:1.7;"><strong>What this simplifies.</strong> Escalations are applied once every twelve months from the start date; if your lease steps rent on other dates or by fixed amounts, the result is approximate. Enter as "monthly rent" only the charges that qualify as rent reserved under your lease — courts differ on whether taxes, insurance and common-area charges count.</p>
+      <p class="text-secondary mt-16" style="font-size:13.5px; line-height:1.7;">Want to know the day a tenant files? <a href="account.html">Add your tenants and guarantors to your portfolio</a> and they are checked daily against every new Chapter 11 petition, or browse <a href="bankruptcy-watch.html">this week's filings</a>.</p>
+    </div>
   </div>
 </section>
 
@@ -204,6 +220,7 @@
         <a href="terms.html">Terms of Service</a>
         <a href="methodology.html">Methodology</a>
         <a href="data-security.html">Data Security &amp; Governance</a>
+        <a href="litigation-tools-terms.html">Litigation Tools Terms &amp; Waiver</a>
       </div>
       <div class="footer-col">
         <h4>Contact</h4>
@@ -211,7 +228,7 @@
       </div>
     </div>
     <div class="footer-bottom">
-      <span>&copy; <span data-year></span> CREdocket. Litigation intelligence sourced from ongoing legal research.</span>
+      <span>© <span data-year></span> CREdocket. Litigation intelligence sourced from ongoing legal research.</span>
       <span>Not legal advice. For informational purposes only.</span>
     </div>
   </div>
@@ -278,13 +295,6 @@
 <script src="js/trending.js"></script>
 <script src="js/search.js"></script>
 <script src="js/motion.js"></script>
-<script>
-  (function () {
-    const matches = RELAW_DATA.cases.filter((c) => c.state === "CA" && c.category === "zoning-land-use")
-      .sort((a, b) => new Date(b.date) - new Date(a.date));
-    document.getElementById("case-grid").innerHTML = matches.map(window.RELAW_UTILS.caseCardHtml).join("");
-    document.querySelectorAll("#case-grid .reveal").forEach((el) => el.classList.add("in-view"));
-  })();
-</script>
+<script src="js/lease-rejection-calculator.js"></script>
 </body>
 </html>
