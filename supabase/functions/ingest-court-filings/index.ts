@@ -11,12 +11,12 @@
 // 20260919_court_filings_surveillance.sql to have been run.
 
 import { createClient } from "npm:@supabase/supabase-js@2";
-import { EntityIndex, looksLikeBusiness, type MatchConfidence } from "./entity-match.ts";
+import { looksLikeBusiness } from "./entity-match.ts";
+import { buildAlertEmail, findMatches, matchableNames, type Entity, type NewMatch, type StoredFiling } from "./alert-logic.ts";
 
 const AUTOMATION_SECRET = Deno.env.get("AUTOMATION_SECRET") ?? "";
 const RESEND_API_KEY = Deno.env.get("RESEND_API_KEY") ?? "";
 const SENDER_EMAIL = "no-reply@credocket.com";
-const SITE_URL = "https://credocket.com";
 const URL_PREFIX: Record<string, string> = {
   bankruptcy_ch11: "https://www.courtlistener.com/docket/",
   civil: "https://www.courtlistener.com/docket/",
@@ -87,76 +87,12 @@ function parseFiling(raw: unknown): IncomingFiling | null {
   };
 }
 
-// A Chapter 11 caption is the debtor's name, so it stands in when the
-// party list is empty. A civil caption ("A v. B") is not a party name.
-function matchableNames(f: { filing_type: string; case_name: string; parties: string[] }): string[] {
-  if (f.parties.length) return f.parties;
-  return f.filing_type === "bankruptcy_ch11" ? [f.case_name] : [];
-}
-
-type StoredFiling = {
-  id: number; filing_type: string; court_name: string | null; docket_number: string | null;
-  case_name: string; date_filed: string; parties: string[]; docket_url: string;
-};
-type Entity = { id: number; user_id: string; entity_name: string; entity_type: string };
-type NewMatch = { entity: Entity; filing: StoredFiling; confidence: MatchConfidence; matchedParty: string };
-
-function findMatches(entities: Entity[], filings: StoredFiling[]): NewMatch[] {
-  const index = new EntityIndex(entities.map((e) => ({ name: e.entity_name, item: e })));
-  const out: NewMatch[] = [];
-  for (const filing of filings) {
-    const best = new Map<number, { entity: Entity; confidence: MatchConfidence; party: string }>();
-    for (const party of matchableNames(filing)) {
-      for (const { item: entity, confidence } of index.lookup(party)) {
-        const prev = best.get(entity.id);
-        if (!prev || (prev.confidence !== "exact" && confidence === "exact")) best.set(entity.id, { entity, confidence, party });
-      }
-    }
-    for (const m of best.values()) out.push({ entity: m.entity, filing, confidence: m.confidence, matchedParty: m.party });
-  }
-  return out;
-}
-
-const KIND_LABEL: Record<string, string> = {
-  bankruptcy_ch11: "Chapter 11 bankruptcy petition",
-  civil: "Federal civil suit",
-  sec_8k: "SEC Form 8-K event disclosure",
-};
-
-function describeFiling(m: NewMatch): string[] {
-  const isSec = m.filing.filing_type === "sec_8k";
-  const confidence = m.confidence === "exact"
-    ? `Match confidence: High -- the name "${m.matchedParty}" matches your saved name once corporate suffixes are ignored.`
-    : `Match confidence: Possible -- your saved name is the leading part of "${m.matchedParty}". Confirm this is the same entity before relying on it.`;
-  return [
-    `"${m.entity.entity_name}" (${m.entity.entity_type}) -- ${KIND_LABEL[m.filing.filing_type] ?? "Filing"}`,
-    `${m.filing.case_name}`,
-    isSec
-      ? `${m.filing.docket_number ?? ""} -- filed ${m.filing.date_filed}`
-      : `${m.filing.court_name ?? ""}${m.filing.docket_number ? `, No. ${m.filing.docket_number}` : ""} -- filed ${m.filing.date_filed}`,
-    isSec ? "An 8-K item names the type of event, not its cause. Item 2.04 also covers a company redeeming its own notes early, and Item 3.01 also covers a voluntary transfer between exchanges. Read the filing before drawing a conclusion." : null,
-    confidence,
-    `${isSec ? "Filing" : "Docket"}: ${m.filing.docket_url}`,
-    "",
-  ].filter((line): line is string => line !== null);
-}
-
 async function sendMatchEmail(toEmail: string, matches: NewMatch[]): Promise<boolean> {
   if (!RESEND_API_KEY) {
     console.error("ingest-court-filings: RESEND_API_KEY is not set -- skipping email.");
     return false;
   }
-  const subject = matches.length === 1
-    ? `"${matches[0].entity.entity_name}" was just named in a new federal or SEC filing`
-    : `${matches.length} new filings name entities in your portfolio`;
-  const text = [
-    "CREdocket's daily check of new federal court and SEC filings found the following against your portfolio:",
-    "",
-    ...matches.flatMap(describeFiling),
-    "Coverage: all new Chapter 11 petitions nationwide, federal civil suits naming your saved entities, and SEC Form 8-K filings under Items 1.03, 2.04 and 3.01. State-court filings are not yet covered, so no alert is not proof of no filing.",
-    "",
-    `Manage your portfolio: ${SITE_URL}/account.html?utm_source=credocket&utm_medium=email&utm_campaign=filing-alert`,
-  ].join("\n");
+  const { subject, text } = buildAlertEmail(matches);
   try {
     const resp = await fetch("https://api.resend.com/emails", {
       method: "POST",

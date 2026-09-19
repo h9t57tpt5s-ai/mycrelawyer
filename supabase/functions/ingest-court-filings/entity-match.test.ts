@@ -62,7 +62,10 @@ Deno.test("business heuristic separates entities from individuals", () => {
 
 // Known, deliberate limitation: users should save full legal names.
 Deno.test("single-word names match only an identical core", () => {
-  expectMatch("Walgreens", "Walgreens, Inc.", "exact");
+  expectMatch("Walgreens", "Walgreens, Inc.", "probable");
+  expectMatch("Walgreens, Inc.", "WALGREENS INC", "exact");
+  expectMatch("Summit LLC", "Summit Inc.", "probable");
+  expectMatch("Mosaic Co", "MOSAIC CO", "exact");
   expectMatch("Walgreens", "Walgreens Boots Alliance, Inc.", null);
 });
 

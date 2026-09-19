@@ -19,21 +19,24 @@ const GENERIC = new Set([
 
 const ALIAS_SPLIT = /\b(?:d\/b\/a|f\/k\/a|a\/k\/a|n\/k\/a|dba|fka|aka)\b/i;
 
-function coreTokens(segment: string): string[] {
-  const tokens = segment
+type Core = { tokens: string[]; full: string };
+
+function toCore(segment: string): Core {
+  const all = segment
     .toLowerCase()
     .replace(/&/g, " and ")
     .replace(/\./g, "")
     .replace(/[^a-z0-9 ]/g, " ")
     .split(/\s+/)
     .filter(Boolean);
-  while (tokens.length && tokens[0] === "the") tokens.shift();
+  while (all.length && all[0] === "the") all.shift();
+  const tokens = [...all];
   while (tokens.length && DESIGNATORS.has(tokens[tokens.length - 1])) tokens.pop();
-  return tokens;
+  return { tokens, full: all.join(" ") };
 }
 
-export function nameCores(name: string): string[][] {
-  return name.split(ALIAS_SPLIT).map(coreTokens).filter((t) => t.length > 0);
+export function nameCores(name: string): Core[] {
+  return name.split(ALIAS_SPLIT).map(toCore).filter((c) => c.tokens.length > 0);
 }
 
 function isGenericOnly(tokens: string[]): boolean {
@@ -46,16 +49,21 @@ function isPrefix(longer: string[], shorter: string[]): boolean {
   return shorter.every((t, i) => longer[i] === t);
 }
 
-function compareCores(a: string[], b: string[]): MatchConfidence | null {
-  if (isGenericOnly(a) || isGenericOnly(b)) return null;
-  if (a.join(" ") === b.join(" ")) return a.join("").length >= 3 ? "exact" : null;
-  const [shorter, longer] = a.length <= b.length ? [a, b] : [b, a];
+function compareCores(a: Core, b: Core): MatchConfidence | null {
+  if (isGenericOnly(a.tokens) || isGenericOnly(b.tokens)) return null;
+  if (a.tokens.join(" ") === b.tokens.join(" ")) {
+    if (a.tokens.join("").length < 3) return null;
+    // One shared word with different suffixes ("Summit LLC" / "Summit Inc.")
+    // is weak evidence of the same company, so it is only "probable".
+    return a.tokens.length >= 2 || a.full === b.full ? "exact" : "probable";
+  }
+  const [shorter, longer] = a.tokens.length <= b.tokens.length ? [a.tokens, b.tokens] : [b.tokens, a.tokens];
   // A single shared word ("Summit") is not evidence of the same entity.
   if (shorter.length < 2) return null;
   return isPrefix(longer, shorter) ? "probable" : null;
 }
 
-function matchCoreSets(entityCores: string[][], partyCores: string[][]): MatchConfidence | null {
+function matchCoreSets(entityCores: Core[], partyCores: Core[]): MatchConfidence | null {
   let best: MatchConfidence | null = null;
   for (const e of entityCores) {
     for (const p of partyCores) {
@@ -76,13 +84,13 @@ export function matchEntity(entityName: string, partyName: string): MatchConfide
 // scan into a lookup. Results are identical to calling matchEntity on
 // every pair (asserted in the tests).
 export class EntityIndex<T> {
-  private byFirstToken = new Map<string, { item: T; cores: string[][] }[]>();
+  private byFirstToken = new Map<string, { item: T; cores: Core[] }[]>();
 
   constructor(entries: { name: string; item: T }[]) {
     for (const { name, item } of entries) {
       const cores = nameCores(name);
       const record = { item, cores };
-      for (const first of new Set(cores.map((c) => c[0]))) {
+      for (const first of new Set(cores.map((c) => c.tokens[0]))) {
         const bucket = this.byFirstToken.get(first);
         if (bucket) bucket.push(record);
         else this.byFirstToken.set(first, [record]);
@@ -94,7 +102,7 @@ export class EntityIndex<T> {
     const partyCores = nameCores(partyName);
     const seen = new Set<unknown>();
     const out: { item: T; confidence: MatchConfidence }[] = [];
-    for (const first of new Set(partyCores.map((c) => c[0]))) {
+    for (const first of new Set(partyCores.map((c) => c.tokens[0]))) {
       for (const record of this.byFirstToken.get(first) ?? []) {
         if (seen.has(record)) continue;
         seen.add(record);
