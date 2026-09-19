@@ -163,6 +163,16 @@
       </label>
     </div>
     <div class="card reveal" style="padding:8px 0;" id="ch11-list"><p class="text-secondary" style="padding:24px;">Loading petitions…</p></div>
+    <div id="sec-section" hidden style="margin-top:40px;">
+      <div class="section-head reveal in-view">
+        <div>
+          <div class="eyebrow">SEC Disclosures</div>
+          <h2 style="font-size:clamp(1.4rem,2.2vw,1.9rem);">Public companies reporting bankruptcy or receivership</h2>
+        </div>
+        <p class="text-muted" style="max-width:420px; font-size:13.5px;">Form 8-K filings under Item 1.03, from SEC EDGAR. A public company must file one within four business days of the event.</p>
+      </div>
+      <div class="card" style="padding:8px 0;" id="sec-list"></div>
+    </div>
     <p class="text-muted reveal" style="font-size:12.5px; line-height:1.6; margin-top:16px;">Source: federal court records via CourtListener and the RECAP Archive, a project of the nonprofit Free Law Project. Checked once a day. Individuals who file Chapter 11 are left out using a name-based rule, so a business with a personal-sounding name can be missing, and the real-estate filter is a guess from the debtor's name, not a classification of its business. Chapter 7 filings, state-court receiverships, and assignments for the benefit of creditors are not covered. Not legal advice.</p>
   </div>
 </section>
@@ -359,6 +369,25 @@
       filterEl.addEventListener("input", render);
       reOnlyEl.addEventListener("change", render);
     }).catch(() => fail("Couldn't load the filings feed — try refreshing."));
+
+    // Shown only once SEC rows exist; database policy exposes Item 1.03 only.
+    sb.from("court_filings").select("case_name, docket_number, date_filed, docket_url")
+      .eq("filing_type", "sec_8k").gte("date_filed", since)
+      .order("date_filed", { ascending: false }).limit(200)
+      .then(({ data, error }) => {
+        if (error || !data || !data.length) return;
+        document.getElementById("sec-list").innerHTML = data.map((r) => {
+          const ok = typeof r.docket_url === "string" && r.docket_url.indexOf("https://www.sec.gov/Archives/edgar/data/") === 0;
+          return `<div style="display:flex; align-items:baseline; justify-content:space-between; gap:16px; padding:12px 24px; border-bottom:1px solid var(--border-soft);">
+            <div style="min-width:0;">
+              <div style="font-size:14px; font-weight:600; color:var(--text-primary);">${escapeHtml(r.case_name)}</div>
+              <div style="font-size:12.5px; color:var(--text-secondary);">Filed ${escapeHtml(r.date_filed)} · ${escapeHtml(r.docket_number)}</div>
+            </div>
+            ${ok ? `<a href="${escapeHtml(r.docket_url)}" target="_blank" rel="noopener noreferrer" style="font-size:12.5px; white-space:nowrap;">Filing</a>` : ""}
+          </div>`;
+        }).join("");
+        document.getElementById("sec-section").hidden = false;
+      });
   })();
 </script>
 </body>
