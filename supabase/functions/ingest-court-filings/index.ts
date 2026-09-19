@@ -87,12 +87,12 @@ function parseFiling(raw: unknown): IncomingFiling | null {
   };
 }
 
-async function sendMatchEmail(toEmail: string, matches: NewMatch[]): Promise<boolean> {
+async function sendMatchEmail(toEmail: string, matches: NewMatch[], secLive: boolean): Promise<boolean> {
   if (!RESEND_API_KEY) {
     console.error("ingest-court-filings: RESEND_API_KEY is not set -- skipping email.");
     return false;
   }
-  const { subject, text } = buildAlertEmail(matches);
+  const { subject, text } = buildAlertEmail(matches, secLive);
   try {
     const resp = await fetch("https://api.resend.com/emails", {
       method: "POST",
@@ -163,6 +163,7 @@ async function ingest(body: Record<string, unknown>) {
       .gte("date_filed", since).order("id").range(from, to));
   if (recentErr) return jsonResponse({ error: "Could not load recent filings", detail: recentErr }, 500);
 
+  const secLive = recent.some((f) => f.filing_type === "sec_8k");
   const candidates = findMatches(entityRows, recent);
   let newMatches: NewMatch[] = [];
   if (candidates.length) {
@@ -191,7 +192,7 @@ async function ingest(body: Record<string, unknown>) {
         console.error(`ingest-court-filings: could not resolve email for user ${userId} --`, uErr?.message);
         continue;
       }
-      if (await sendMatchEmail(email, userMatches)) {
+      if (await sendMatchEmail(email, userMatches, secLive)) {
         const ids = userMatches.map((m) => insertedKeys.get(`${m.entity.id}:${m.filing.id}`)!);
         await supabaseAdmin.from("filing_matches").update({ emailed_at: new Date().toISOString() }).in("id", ids);
       }

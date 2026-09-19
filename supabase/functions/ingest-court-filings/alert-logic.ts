@@ -59,15 +59,19 @@ function describeFiling(m: NewMatch): string[] {
   ].filter((line): line is string => line !== null);
 }
 
-export function buildAlertEmail(matches: NewMatch[]): { subject: string; text: string } {
+// secLive: whether SEC rows are actually being stored. The coverage line
+// must not claim a source the database is still refusing.
+export function buildAlertEmail(matches: NewMatch[], secLive: boolean): { subject: string; text: string } {
   const subject = matches.length === 1
     ? `"${matches[0].entity.entity_name}" was just named in a new federal or SEC filing`
     : `${matches.length} new filings name entities in your portfolio`;
   const text = [
-    "CREdocket's daily check of new federal court and SEC filings found the following against your portfolio:",
+    `CREdocket's daily check of new federal court${secLive ? " and SEC" : ""} filings found the following against your portfolio:`,
     "",
     ...matches.flatMap(describeFiling),
-    "Coverage: all new Chapter 11 petitions nationwide, federal civil suits naming your saved entities, and SEC Form 8-K filings under Items 1.03, 2.04 and 3.01. State-court filings are not yet covered, so no alert is not proof of no filing.",
+    secLive
+      ? "Coverage: all new Chapter 11 petitions nationwide, federal civil suits naming your saved entities, and SEC Form 8-K filings under Items 1.03, 2.04 and 3.01. State-court filings are not yet covered, so no alert is not proof of no filing."
+      : "Coverage: all new Chapter 11 petitions nationwide and federal civil suits naming your saved entities. State-court filings are not yet covered, so no alert is not proof of no filing.",
     "",
     matches.some((m) => m.filing.filing_type === "bankruptcy_ch11")
       ? `If the debtor is your tenant and rejects the lease, your claim for lost rent is capped by 11 U.S.C. 502(b)(6). Estimate the cap: ${SITE_URL}/lease-rejection-claim-calculator.html?utm_source=credocket&utm_medium=email&utm_campaign=filing-alert`

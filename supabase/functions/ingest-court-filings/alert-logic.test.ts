@@ -32,12 +32,13 @@ Deno.test("each user's entity matches independently; unrelated entities do not",
 
 Deno.test("Chapter 11 email names the entity, links the docket and the claim calculator", () => {
   const [m] = findMatches([entity(1, "Meritage Hospitality Group")], [filing(10, {})]);
-  const { subject, text } = buildAlertEmail([m]);
+  const { subject, text } = buildAlertEmail([m], false);
   assert(subject.includes("Meritage Hospitality Group"), subject);
   for (const want of ["Chapter 11 bankruptcy petition", "No. 26-01234", "filed 2026-09-17", "Match confidence: High", "https://www.courtlistener.com/docket/1/x/", "lease-rejection-claim-calculator.html", "State-court filings are not yet covered"]) {
     assert(text.includes(want), `missing: ${want}\n${text}`);
   }
   assert(!text.includes("null") && !text.includes("undefined"), text);
+  assert(!text.includes("SEC"), "claims SEC coverage while SEC rows are not being stored");
 });
 
 Deno.test("SEC email carries the item title and the caveat, and no bankruptcy calculator link", () => {
@@ -46,7 +47,7 @@ Deno.test("SEC email carries the item title and the caveat, and no bankruptcy ca
     docket_url: "https://www.sec.gov/Archives/edgar/data/1285785/x/x-index.htm" });
   const m = findMatches([entity(1, "Mosaic Co")], [f]);
   assert(m.length === 1, "no SEC match");
-  const { text } = buildAlertEmail(m);
+  const { text } = buildAlertEmail(m, true);
   for (const want of ["SEC Form 8-K event disclosure", "Item 2.04: Triggering Events", "names the type of event, not its cause", "Filing: https://www.sec.gov/"]) {
     assert(text.includes(want), `missing: ${want}\n${text}`);
   }
@@ -57,7 +58,7 @@ Deno.test("SEC email carries the item title and the caveat, and no bankruptcy ca
 Deno.test("multiple matches get a count subject and a 'possible' label where due", () => {
   const f2 = filing(14, { filing_type: "civil", case_name: "X v. Y", parties: ["Allred Heating Cooling Electric, LLC"] });
   const m = findMatches([entity(1, "Meritage Hospitality Group"), entity(2, "Allred Heating")], [filing(10, {}), f2]);
-  const { subject, text } = buildAlertEmail(m);
+  const { subject, text } = buildAlertEmail(m, true);
   assert(subject.startsWith("2 new filings"), subject);
   assert(text.includes("Match confidence: Possible"), text);
 });
