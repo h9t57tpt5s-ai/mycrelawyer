@@ -16,7 +16,7 @@ const RELAW_DATA = {
      Drives the homepage's "New Today" pill: it only shows when this
      equals the visitor's local today. Updated by the digest automation
      each time Step 4 successfully adds a case — never touched otherwise. */
-  lastUpdatedDate: "2026-09-18",
+  lastUpdatedDate: "2026-09-19",
   categories: [
     { id: "landlord-tenant", label: "Landlord–Tenant", color: "var(--cat-landlord)" },
     { id: "zoning-land-use", label: "Zoning & Land Use", color: "var(--cat-zoning)" },
@@ -4545,6 +4545,68 @@ const RELAW_DATA = {
         { when: "September 16, 2026", label: "MLP Ventures files a new suit seeking reversal of the denial, preliminary approval, and appointment of an independent referee", current: true }
       ],
       tags: ["zoning", "data center", "pennsylvania", "land use appeal", "municipal law"]
+    },
+    {
+      id: "live-156",
+      addedDate: "2026-09-19",
+      title: "Crown Heights Tenants v. Rikud Realty (Sheriff's Execution Sale Ousts Chronically Noncompliant Dukler-Family Landlord)",
+      category: "landlord-tenant",
+      status: "settled",
+      date: "2026-09-04",
+      jurisdiction: "New York City Sheriff's Office execution sale; NYC Housing Court, Kings County",
+      state: "NY",
+      amount: "~$7.6M total consideration at sale; underlying $2.2M 2017 tort judgment",
+      source: "live",
+      sourceUrl: "https://www.nyc.gov/mayors-office/news/2026/09/mamdani-administration-celebrates-transfer-of-three-crown-height",
+      summary: "Three chronically distressed, rent-stabilized Crown Heights buildings owned by Rikud Realty, an entity tied to the Dukler family, changed hands on September 4, 2026 after a New York City Sheriff's execution sale on a nine-year-old $2.2M lead-poisoning tort judgment against Rikud. A judgment-creditor investor won the auction by credit bid but declined ownership; real estate investor Mark Schwartz and his firm Brooklyn Affordable Housing Associates then acquired the three buildings, totaling 88 units and nearly 1,000 open code violations, for roughly $7.6M.",
+      significance: "Demonstrates that an unsatisfied premises-liability or tort judgment against a landlord entity remains a live, enforceable lien years later, and that a judgment creditor's execution sale can force an ownership change that years of housing-code litigation and HPD enforcement failed to achieve. Owners should treat old, unpaid judgments against ownership entities as an ongoing control risk rather than a closed matter.",
+      body: [
+        "Three rent-stabilized walk-ups on Eastern Parkway and Sterling Place in Crown Heights, Brooklyn changed hands on September 4, 2026, ending nearly a decade of tenant organizing against a landlord family that has repeatedly ranked among New York City's worst. The transfer is legally notable less for the outcome than for the mechanism: it was accomplished not through a housing-court eviction of the owner or a negotiated sale, but through a New York City Sheriff's execution sale on a nine-year-old tort judgment, illustrating an underused route for tenants and municipalities confronting entrenched landlords who are prepared to absorb violations and fines indefinitely rather than sell voluntarily.",
+        "The three buildings, 1018 Eastern Parkway, 1074 Eastern Parkway, and 1392 Sterling Place, totaling 88 units, were owned by Rikud Realty, an entity affiliated with, and half-owned by, Sara Dukler of the Dukler family, which has appeared for years on the city's worst-landlords lists. By the time of the sale, the three properties had accumulated nearly 1,000 open Department of Housing Preservation and Development violations against those 88 units, including roughly 400 classified as immediately hazardous, covering lead paint, rodent and roach infestation, and chronic leaks. The buildings sat in HPD's Alternative Enforcement Program, reserved for the city's most distressed housing stock, and HPD brought Rikud into housing court in 2020 to compel repairs after two earlier tenant lawsuits, filed in February 2019 and January 2020, cited 561 open violations and roughly $2 million in alleged illegal rent overcharges, respectively.",
+        "None of that housing-court activity produced the ownership change tenants had spent years seeking. What did was a separate, older piece of litigation entirely unconnected to the conditions fight: a 2017 judgment of approximately $2.2 million entered against Rikud in a lead-poisoning case brought by a tenant injured by the buildings' own deteriorated paint. That judgment sat largely dormant for years before an investor connected to Iris Holdings Group, the property's management company, acquired the creditor's rights to it. This September, the judgment holder used it to force a sheriff's sale of the three properties, a judgment-execution auction run by the city Sheriff's Office rather than a foreclosure or bankruptcy proceeding. The judgment creditor won the auction with a credit bid, effectively purchasing the properties by canceling debt rather than paying cash, but then declined to take on ownership and operation of severely distressed, rent-stabilized housing.",
+        "Real estate investor Mark Schwartz, who also serves as mayor of Teaneck, New Jersey, and his firm Brooklyn Affordable Housing Associates stepped into that gap, paying roughly $7.6 million in total consideration to take the buildings instead. The resolution tenants and the city are now pursuing runs through a nonprofit ownership structure: the buildings will be held by a housing development fund corporation, a vehicle commonly used in New York to convert distressed rental housing into resident-controlled cooperatives. HPD has indicated it expects to provide roughly $10 million in rehabilitation financing, subject to a financial needs assessment, and the Dukler Tenant Union, formed in 2025 after tenants began organizing in 2018 and later staged a rent strike, has reached a separate agreement with Schwartz committing to tenant-overseen rehabilitation and an eventual path to limited-equity cooperative ownership.",
+        "For landlords and asset managers, the case is a pointed reminder that a personal-injury or premises-liability judgment entered against a property-owning entity does not simply disappear if left unpaid; it remains a live, transferable lien that a patient or opportunistic creditor can enforce years later through an execution sale, potentially forcing a change of control the owner never negotiated. For tenant advocates, municipal housing agencies, and community land trusts, the episode shows that judgment liens tied to a building's own history of neglect can, in the right circumstances, become a more effective lever for displacing a chronically noncompliant owner than repair-focused housing-court proceedings alone, and that buyers stepping into such a sale should budget for both the acquisition price and substantial near-term capital obligations, since these properties typically carry deferred maintenance well beyond what a conventional purchase would reflect."
+      ],
+      timeline: [
+        { when: "2017", label: "A tenant wins a $2.2M lead-poisoning judgment against Rikud Realty" },
+        { when: "February 2019", label: "18 tenants sue citing 561 open housing code violations across the three buildings" },
+        { when: "January 2020", label: "22 tenants file a separate suit alleging $2M in illegal rent overcharges" },
+        { when: "2020", label: "HPD brings Rikud into housing court to compel emergency repairs" },
+        { when: "2025", label: "Tenants formally establish the Dukler Tenant Union after years of organizing and a rent strike" },
+        { when: "September 4, 2026", label: "The city Sheriff auctions the three buildings on the 2017 judgment; Mark Schwartz's Brooklyn Affordable Housing Associates acquires them for ~$7.6M", current: true }
+      ],
+      tags: ["landlord-tenant", "housing code violations", "execution sale", "new york", "tenant organizing"]
+    },
+    {
+      id: "live-157",
+      addedDate: "2026-09-19",
+      title: "32 Intervale, LLC v. City of Burlington (Short-Term Rental Ordinance Challenge Dismissed as Unripe)",
+      category: "zoning-land-use",
+      status: "ruling",
+      date: "2026-04-10",
+      jurisdiction: "Vermont Supreme Court",
+      state: "VT",
+      amount: "Dispute over regulatory status of 22 nonowner-occupied short-term rental units across 17 properties",
+      source: "live",
+      sourceUrl: "https://www.sevendaysvt.com/news/supreme-court-sides-with-burlington-on-short-term-rentals-43731219/",
+      summary: "The Vermont Supreme Court affirmed dismissal of a declaratory judgment suit brought by 17 Burlington property owners seeking to preemptively exempt 22 short-term rental units from the city's 2022 ordinance restricting nonowner-occupied rentals, holding in 32 Intervale, LLC v. City of Burlington (2026 VT 9) that the dispute was not ripe because no enforcement action had been taken and resolving nonconforming-use status would require property-specific factual findings.",
+      significance: "Confirms that a citywide preemptive challenge to a short-term rental ordinance's applicability can be defeated on ripeness grounds without a court reaching the merits, giving municipalities nationwide facing similar rental-regulation litigation a procedural template, while leaving rental operators' nonconforming-use claims to be litigated individually only once the city actually moves to enforce.",
+      body: [
+        "The Vermont Supreme Court has affirmed the dismissal of a long-running challenge brought by a group of Burlington short-term rental operators against the city's 2022 ordinance restricting nonowner-occupied rentals, ruling in 32 Intervale, LLC v. City of Burlington (2026 VT 9, decided April 10, 2026, Docket No. 25-AP-248) that the dispute was not yet ripe for judicial review. The decision closes out, at least for now, a multi-year effort by property owners to get ahead of enforcement through a declaratory judgment action rather than waiting for the city to act against them individually, and it offers municipalities elsewhere navigating short-term rental disputes a template for defeating similar preemptive suits.",
+        "The case traces back to Burlington's 2022 short-term rental ordinance, which imposed new definitions and requirements on the practice and, notably, prohibited most nonowner-occupied short-term rentals within the city. Seventeen property owners, collectively holding more than sixteen short-term rental units concentrated in Burlington's Old North End, sued the city seeking a declaratory judgment that the ordinance did not apply to their twenty-two units because those uses predated the ordinance and qualified as legal nonconforming uses exempt from the new restrictions. The lead plaintiff, Airbnb host Sam Gardner, brought the suit under his business entity, 32 Intervale LLC.",
+        "The litigation had already made one prior trip through Vermont's court system. The owners initially filed their declaratory judgment action in the Civil Division of the Chittenden Superior Court in 2023, which dismissed the case on the ground that Vermont's Environmental Division, not the Civil Division, held exclusive subject matter jurisdiction over the dispute because it concerned application of a municipal land use regulation. The Vermont Supreme Court affirmed that jurisdictional ruling in a 2025 decision, sending the matter to the Environmental Division. Once there, the Environmental Division dismissed the refiled case on an independent ground: that no live controversy existed for it to resolve.",
+        "In this second appeal, the Vermont Supreme Court agreed. Because the city had not yet taken enforcement action against any of the seventeen owners' properties, and because resolving whether any given unit qualified as a protected nonconforming use would require individualized factual findings, including how long each unit had operated as a rental, under what conditions, and whether operations had lapsed in a way that could forfeit nonconforming status, the court held that the dispute was not ripe. A blanket declaratory ruling covering twenty-two distinct properties was not something the court could issue in the abstract; the question was inherently property-specific and would only become concrete once the city moved to enforce the ordinance against a particular owner's particular unit.",
+        "The ripeness holding leaves the underlying merits question, whether these Old North End rentals in fact qualify as legal nonconforming uses grandfathered against the 2022 ordinance, entirely undecided. For the property owners, that is a mixed result: they avoided an adverse ruling on the merits but gained nothing, and remain exposed to enforcement at any time, at which point they would need to raise their nonconforming-use defense in that individual enforcement proceeding rather than through a preemptive citywide challenge. For Burlington and other municipalities, the decision is a clean procedural win, confirming that a broad-based preemptive challenge to a rental ordinance's applicability can be defeated on ripeness grounds without the city ever having to litigate the substance of whether any particular property is exempt. Short-term rental operators elsewhere considering similar preemptive suits should expect ripeness to be a significant hurdle, and should instead maintain contemporaneous documentation of when and how a rental use began so that record is ready when an individual enforcement dispute eventually arises."
+      ],
+      timeline: [
+        { when: "2022", label: "Burlington adopts an ordinance restricting most nonowner-occupied short-term rentals" },
+        { when: "2023", label: "32 Intervale LLC and 16 other owners file a declaratory judgment action in Chittenden Superior Court's Civil Division" },
+        { when: "2025", label: "The Vermont Supreme Court affirms dismissal for lack of subject matter jurisdiction, sending the case to the Environmental Division" },
+        { when: "April 10, 2026", label: "The Vermont Supreme Court affirms dismissal of the refiled case as unripe (2026 VT 9)", current: true }
+      ],
+      documentUrl: "https://www.courtlistener.com/opinion/10840840/32-intervale-llc-v-city-of-burlington/",
+      documentLabel: "Read the official opinion",
+      tags: ["zoning", "short-term rental", "ripeness", "vermont", "land use"]
     }
   ],
 
