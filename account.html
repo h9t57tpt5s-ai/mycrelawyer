@@ -48,6 +48,7 @@
           <a href="litigation.html">All Matters</a>
           <a href="updates.html?recent=5">Latest Updates</a>
           <a href="calendar.html">Litigation Calendar</a>
+          <a href="bankruptcy-watch.html">Chapter 11 Watch</a>
           <a href="regulatory.html">Regulatory Issues</a>
           <a href="account.html" class="active">Watchlists</a>
         </div>
@@ -210,8 +211,8 @@
           <h2 style="font-size:clamp(1.4rem,2.2vw,1.9rem);">Your properties &amp; counterparties</h2>
         </div>
       </div>
-      <p class="text-secondary reveal" style="font-size:13.5px; line-height:1.6; margin-bottom:12px;">Add the actual properties, tenants, lenders, guarantors, or other counterparties you care about by name. Every one of them is checked automatically against every new matter added to the tracker — you'll get an email the moment any of them is named in something new, whether or not it fits one of your watchlists above.</p>
-      <p class="text-muted reveal" style="font-size:12.5px; line-height:1.6; margin-bottom:20px;">Matching honesty check: this depends on each matter's structured party data, which as of 2026-09-16 exists on 0 of the 147 matters currently tracked (it's a new field, added going forward on new matters only). Until that coverage grows, every portfolio match today comes from a text match against the matter's title, not a verified party record — every alert email states which method found it. Treat a quiet portfolio as a supplement to your own monitoring, not a guarantee nothing happened.</p>
+      <p class="text-secondary reveal" style="font-size:13.5px; line-height:1.6; margin-bottom:12px;">Add the actual properties, tenants, lenders, guarantors, or other counterparties you care about by name. Every one of them is checked automatically against new federal court filings and every new matter added to the tracker — you'll get an email when any of them is named in something new, whether or not it fits one of your watchlists above.</p>
+      <p class="text-muted reveal" style="font-size:12.5px; line-height:1.6; margin-bottom:20px;">What gets checked: (1) once a day, every new Chapter 11 bankruptcy petition filed nationwide, plus new federal lawsuits naming your saved entities — matched on the party's legal name, so save full legal names ("Acme Holdings LLC", not "Acme"); (2) every new matter added to the CREdocket tracker, where most matches still come from the matter's title text rather than a verified party record. State-court filings are not yet covered. Treat a quiet portfolio as a supplement to your own monitoring, not proof nothing was filed.</p>
 
       <form id="portfolio-form" class="card" style="padding:28px; margin-bottom:24px;">
         <div class="form-field">
@@ -280,6 +281,13 @@
         </div>
       </div>
       <div id="portfolio-list"></div>
+
+      <div class="section-head reveal" style="margin-top:32px;">
+        <div>
+          <h3 style="font-size:1.05rem;"><span id="filing-matches-count">0</span> federal filing matches</h3>
+        </div>
+      </div>
+      <div id="filing-matches-list"></div>
 
       <div class="section-head reveal" id="digest-prefs-anchor" style="margin-top:40px;">
         <div>
@@ -417,6 +425,7 @@
 <script src="js/trending.js"></script>
 <script src="js/watchlists.js"></script>
 <script src="js/portfolio-entities.js"></script>
+<script src="js/filing-matches.js"></script>
 <script src="js/digest-prefs.js"></script>
 <script src="js/account-plan.js"></script>
 <script src="js/search.js"></script>

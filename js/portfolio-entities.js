@@ -183,9 +183,9 @@
           <div class="card reveal" style="margin-bottom:12px; padding:16px 20px;">
             <div style="display:flex; align-items:center; justify-content:space-between; gap:16px;">
               <div>
-                <span style="font-weight:600; font-size:14px;">${e.entity_name}</span>
+                <span style="font-weight:600; font-size:14px;">${escapeHtml(e.entity_name)}</span>
                 <span class="text-muted mono" style="font-size:11.5px; margin-left:8px; text-transform:uppercase; letter-spacing:0.03em;">${TYPE_LABELS[e.entity_type] || e.entity_type}</span>
-                ${e.notes ? `<p class="text-muted" style="font-size:12.5px; margin-top:4px;">${e.notes}</p>` : ""}
+                ${e.notes ? `<p class="text-muted" style="font-size:12.5px; margin-top:4px;">${escapeHtml(e.notes)}</p>` : ""}
               </div>
               <button type="button" class="auth-nav-signout" data-delete-entity="${e.id}">Remove</button>
             </div>
