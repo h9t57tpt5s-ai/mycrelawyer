@@ -46,9 +46,10 @@ type Period = "daily" | "weekly";
 // Everything that differs between the two cadences, in one place --
 // widening the window and reframing the copy is the entire diff between
 // "morning digest" and "weekly, forward-to-your-team digest." windowHours
-// keeps the same ~1.5x buffer-over-nominal-period ratio the original daily
-// job used (36h over a 24h day) so a cron firing a little early/late never
-// silently produces an empty send.
+// is the send interval plus one hour: enough slack that a cron firing a
+// little late never drops a matter, small enough that matters are not
+// repeated in consecutive digests (syncs land ~12:15 and ~22:15 UTC, well
+// clear of the 11:00-12:00 UTC overlap).
 const PERIOD_CONFIG: Record<Period, {
   windowHours: number;
   campaign: string; // own UTM campaign per cadence, same convention as check-and-send-watchlist-alerts vs. this function -- so the two are told apart in analytics
@@ -61,7 +62,7 @@ const PERIOD_CONFIG: Record<Period, {
   periodNoun: string; // used in the subject line and the "others" section, e.g. "today" / "this week"
 }> = {
   daily: {
-    windowHours: 36,
+    windowHours: 25,
     campaign: "morning-digest",
     headerEyebrow: "CREdocket Digest",
     headerTitle: "Your morning briefing",
@@ -72,7 +73,7 @@ const PERIOD_CONFIG: Record<Period, {
     periodNoun: "today",
   },
   weekly: {
-    windowHours: 8 * 24,
+    windowHours: 7 * 24 + 1,
     campaign: "weekly-digest",
     headerEyebrow: "CREdocket Weekly Digest",
     headerTitle: "Your weekly briefing",
@@ -157,9 +158,14 @@ Deno.serve(async (req) => {
   const cfg = PERIOD_CONFIG[period];
   const UTM = `utm_source=credocket&utm_medium=email&utm_campaign=${cfg.campaign}`;
 
-  const since = new Date(Date.now() - cfg.windowHours * 60 * 60 * 1000).toISOString().slice(0, 10);
+  // "New" means newly ADDED to the tracker (synced_at), not a recent legal
+  // event date. Most matters describe events days or months old by the time
+  // they are researched and added, so filtering on the event date found
+  // nothing on 28 of 30 mornings (measured 2026-09-19 against case_data) and
+  // the digest almost never sent, even though 2-5 matters were added daily.
+  const since = new Date(Date.now() - cfg.windowHours * 60 * 60 * 1000).toISOString();
 
-  const { data: newCases } = await admin.from("case_data").select("*").gte("date", since).order("date", { ascending: false });
+  const { data: newCases } = await admin.from("case_data").select("*").gte("synced_at", since).order("synced_at", { ascending: false });
   const todaysCases = newCases || [];
 
   if (!todaysCases.length) {
