@@ -11,7 +11,7 @@
 // 20260919_court_filings_surveillance.sql to have been run.
 
 import { createClient } from "npm:@supabase/supabase-js@2";
-import { looksLikeBusiness, matchEntity, type MatchConfidence } from "./entity-match.ts";
+import { EntityIndex, looksLikeBusiness, type MatchConfidence } from "./entity-match.ts";
 
 const AUTOMATION_SECRET = Deno.env.get("AUTOMATION_SECRET") ?? "";
 const RESEND_API_KEY = Deno.env.get("RESEND_API_KEY") ?? "";
@@ -19,6 +19,9 @@ const SENDER_EMAIL = "no-reply@credocket.com";
 const SITE_URL = "https://credocket.com";
 const DOCKET_URL_PREFIX = "https://www.courtlistener.com/docket/";
 const MAX_FILINGS_PER_CALL = 500;
+// Matching re-checks this many days of stored filings on every run, so an
+// entity added today still surfaces a petition filed last week.
+const MATCH_LOOKBACK_DAYS = 30;
 
 const supabaseAdmin = createClient(
   Deno.env.get("SUPABASE_URL") ?? "",
@@ -27,6 +30,22 @@ const supabaseAdmin = createClient(
 
 function jsonResponse(body: Record<string, unknown>, status: number) {
   return new Response(JSON.stringify(body), { status, headers: { "Content-Type": "application/json" } });
+}
+
+// Supabase returns at most 1,000 rows per request whatever .limit() says,
+// so any read that must see every row has to page. A silently truncated
+// read here means silently missed alerts.
+const PAGE_SIZE = 1000;
+async function fetchAll<T>(
+  page: (from: number, to: number) => PromiseLike<{ data: unknown[] | null; error: { message: string } | null }>,
+): Promise<{ rows: T[]; error: string | null }> {
+  const rows: T[] = [];
+  for (let from = 0; ; from += PAGE_SIZE) {
+    const { data, error } = await page(from, from + PAGE_SIZE - 1);
+    if (error) return { rows, error: error.message };
+    rows.push(...((data ?? []) as T[]));
+    if (!data || data.length < PAGE_SIZE) return { rows, error: null };
+  }
 }
 
 type IncomingFiling = {
@@ -78,18 +97,17 @@ type Entity = { id: number; user_id: string; entity_name: string; entity_type: s
 type NewMatch = { entity: Entity; filing: StoredFiling; confidence: MatchConfidence; matchedParty: string };
 
 function findMatches(entities: Entity[], filings: StoredFiling[]): NewMatch[] {
+  const index = new EntityIndex(entities.map((e) => ({ name: e.entity_name, item: e })));
   const out: NewMatch[] = [];
   for (const filing of filings) {
-    const names = matchableNames(filing);
-    for (const entity of entities) {
-      let best: { confidence: MatchConfidence; party: string } | null = null;
-      for (const party of names) {
-        const c = matchEntity(entity.entity_name, party);
-        if (c === "exact") { best = { confidence: c, party }; break; }
-        if (c && !best) best = { confidence: c, party };
+    const best = new Map<number, { entity: Entity; confidence: MatchConfidence; party: string }>();
+    for (const party of matchableNames(filing)) {
+      for (const { item: entity, confidence } of index.lookup(party)) {
+        const prev = best.get(entity.id);
+        if (!prev || (prev.confidence !== "exact" && confidence === "exact")) best.set(entity.id, { entity, confidence, party });
       }
-      if (best) out.push({ entity, filing, confidence: best.confidence, matchedParty: best.party });
     }
+    for (const m of best.values()) out.push({ entity: m.entity, filing, confidence: m.confidence, matchedParty: m.party });
   }
   return out;
 }
@@ -143,15 +161,13 @@ async function sendMatchEmail(toEmail: string, matches: NewMatch[]): Promise<boo
 }
 
 async function listEntities(limit: number) {
-  const { data, error } = await supabaseAdmin
-    .from("portfolio_entities")
-    .select("entity_name, last_federal_search_at")
-    .order("last_federal_search_at", { ascending: true, nullsFirst: true })
-    .limit(5000);
-  if (error) return jsonResponse({ error: "Could not load portfolio entities", detail: error.message }, 500);
+  const { rows: data, error } = await fetchAll<{ entity_name: string }>((from, to) =>
+    supabaseAdmin.from("portfolio_entities").select("entity_name, last_federal_search_at")
+      .order("last_federal_search_at", { ascending: true, nullsFirst: true }).order("id").range(from, to));
+  if (error) return jsonResponse({ error: "Could not load portfolio entities", detail: error }, 500);
   const seen = new Set<string>();
   const names: string[] = [];
-  for (const row of data ?? []) {
+  for (const row of data) {
     const key = row.entity_name.trim().toLowerCase();
     if (!key || seen.has(key)) continue;
     seen.add(key);
@@ -185,12 +201,18 @@ async function ingest(body: Record<string, unknown>) {
     stored = (data ?? []) as StoredFiling[];
   }
 
-  const { data: entityRows, error: entErr } = await supabaseAdmin
-    .from("portfolio_entities")
-    .select("id, user_id, entity_name, entity_type");
-  if (entErr) return jsonResponse({ error: "Could not load portfolio entities", detail: entErr.message }, 500);
+  const { rows: entityRows, error: entErr } = await fetchAll<Entity>((from, to) =>
+    supabaseAdmin.from("portfolio_entities").select("id, user_id, entity_name, entity_type").order("id").range(from, to));
+  if (entErr) return jsonResponse({ error: "Could not load portfolio entities", detail: entErr }, 500);
 
-  const candidates = findMatches((entityRows ?? []) as Entity[], stored);
+  const since = new Date(Date.now() - MATCH_LOOKBACK_DAYS * 86_400_000).toISOString().slice(0, 10);
+  const { rows: recent, error: recentErr } = await fetchAll<StoredFiling>((from, to) =>
+    supabaseAdmin.from("court_filings")
+      .select("id, filing_type, court_name, docket_number, case_name, date_filed, parties, docket_url")
+      .gte("date_filed", since).order("id").range(from, to));
+  if (recentErr) return jsonResponse({ error: "Could not load recent filings", detail: recentErr }, 500);
+
+  const candidates = findMatches(entityRows, recent);
   let newMatches: NewMatch[] = [];
   if (candidates.length) {
     // ignoreDuplicates makes the returned rows exactly the matches that
@@ -234,7 +256,7 @@ async function ingest(body: Record<string, unknown>) {
       .in("entity_name", searched);
   }
 
-  return jsonResponse({ ok: true, stored: stored.length, rejected, newMatches: newMatches.length }, 200);
+  return jsonResponse({ ok: true, stored: stored.length, rejected, checkedFilings: recent.length, checkedEntities: entityRows.length, newMatches: newMatches.length }, 200);
 }
 
 Deno.serve(async (req) => {

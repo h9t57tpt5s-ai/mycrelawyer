@@ -1,4 +1,4 @@
-import { looksLikeBusiness, matchEntity } from "./entity-match.ts";
+import { EntityIndex, looksLikeBusiness, matchEntity } from "./entity-match.ts";
 
 function expectMatch(entity: string, party: string, want: string | null) {
   const got = matchEntity(entity, party);
@@ -64,4 +64,28 @@ Deno.test("business heuristic separates entities from individuals", () => {
 Deno.test("single-word names match only an identical core", () => {
   expectMatch("Walgreens", "Walgreens, Inc.", "exact");
   expectMatch("Walgreens", "Walgreens Boots Alliance, Inc.", null);
+});
+
+Deno.test("EntityIndex agrees with pairwise matchEntity on every pair", () => {
+  const entities = [
+    "Harbor Group Management", "Simon Property Group", "Bank of Texas", "Summit Hotel", "Summit",
+    "Holdings LLC", "Northern Trust", "Williams Hauling", "The Michaels Stores, Inc.", "Walgreens",
+    "Meritage Hospitality Group", "Acme Co. d/b/a Zenith Partners",
+  ];
+  const parties = [
+    "Harbor Group Management Co., LLC", "SIMON PROPERTY GROUP, L.P.", "Bank of Oklahoma, N.A. d/b/a Bank of Texas, N.A.",
+    "Summit Hotel Properties, Inc.", "Summit Trucking LLC", "Acme Holdings LLC", "The Northern Trust Company",
+    "Corey Williams Hauling LLC", "MICHAELS STORES INC.", "Walgreens Boots Alliance, Inc.", "Meritage Hospitality Group Inc.",
+    "Zenith Partners LLC", "Michael John Charman",
+  ];
+  const index = new EntityIndex(entities.map((name) => ({ name, item: name })));
+  for (const party of parties) {
+    const viaIndex = new Map(index.lookup(party).map((r) => [r.item, r.confidence]));
+    for (const entity of entities) {
+      const direct = matchEntity(entity, party);
+      const indexed = viaIndex.get(entity) ?? null;
+      if (direct !== indexed) throw new Error(`${entity} vs ${party}: direct=${direct} indexed=${indexed}`);
+    }
+  }
+  if (index.lookup("Meritage Hospitality Group Inc.").length !== 1) throw new Error("expected exactly one Meritage match");
 });

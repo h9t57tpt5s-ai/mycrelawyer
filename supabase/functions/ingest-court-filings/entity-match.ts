@@ -55,16 +55,55 @@ function compareCores(a: string[], b: string[]): MatchConfidence | null {
   return isPrefix(longer, shorter) ? "probable" : null;
 }
 
-export function matchEntity(entityName: string, partyName: string): MatchConfidence | null {
+function matchCoreSets(entityCores: string[][], partyCores: string[][]): MatchConfidence | null {
   let best: MatchConfidence | null = null;
-  for (const e of nameCores(entityName)) {
-    for (const p of nameCores(partyName)) {
+  for (const e of entityCores) {
+    for (const p of partyCores) {
       const r = compareCores(e, p);
       if (r === "exact") return "exact";
       if (r) best = r;
     }
   }
   return best;
+}
+
+export function matchEntity(entityName: string, partyName: string): MatchConfidence | null {
+  return matchCoreSets(nameCores(entityName), nameCores(partyName));
+}
+
+// Both match kinds require the two names to share their first word, so
+// bucketing entities by that word turns an every-entity-by-every-party
+// scan into a lookup. Results are identical to calling matchEntity on
+// every pair (asserted in the tests).
+export class EntityIndex<T> {
+  private byFirstToken = new Map<string, { item: T; cores: string[][] }[]>();
+
+  constructor(entries: { name: string; item: T }[]) {
+    for (const { name, item } of entries) {
+      const cores = nameCores(name);
+      const record = { item, cores };
+      for (const first of new Set(cores.map((c) => c[0]))) {
+        const bucket = this.byFirstToken.get(first);
+        if (bucket) bucket.push(record);
+        else this.byFirstToken.set(first, [record]);
+      }
+    }
+  }
+
+  lookup(partyName: string): { item: T; confidence: MatchConfidence }[] {
+    const partyCores = nameCores(partyName);
+    const seen = new Set<unknown>();
+    const out: { item: T; confidence: MatchConfidence }[] = [];
+    for (const first of new Set(partyCores.map((c) => c[0]))) {
+      for (const record of this.byFirstToken.get(first) ?? []) {
+        if (seen.has(record)) continue;
+        seen.add(record);
+        const confidence = matchCoreSets(record.cores, partyCores);
+        if (confidence) out.push({ item: record.item, confidence });
+      }
+    }
+    return out;
+  }
 }
 
 const BUSINESS_HINT = /\b(llc|l\.l\.c|inc|incorporated|corp|corporation|company|co\.|l\.?p\.?|llp|ltd|limited|pllc|trust|partners|partnership|holdings|group|associates|enterprises|properties|ventures|fund|bank|n\.a\.)\b/i;
