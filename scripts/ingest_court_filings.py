@@ -58,7 +58,7 @@ DESIGNATORS = {"llc", "inc", "incorporated", "corp", "corporation", "co", "compa
 # names and need no login, no CAPTCHA and carry no bar on automated use
 # (researched 2026-09-19; most big-county portals fail at least one test).
 #
-# PRIVACY RULE for both: these files are dominated by residential evictions
+# SCOPE AND PRIVACY for both: these files are dominated by residential evictions
 # and consumer debt suits against individuals. Storing or alerting on those
 # would risk making CREdocket a tenant-screening service under the Fair
 # Credit Reporting Act. So a case is kept ONLY if a defendant is clearly a
@@ -68,9 +68,40 @@ HILLSBOROUGH_DIR = "https://publicrec.hillsclerk.com/Civil/dailyfilings/"
 HILLSBOROUGH_SEARCH = "https://hover.hillsclerk.com/html/home.html"
 HARRIS_JP_FORM = "https://jpwebsite.harriscountytx.gov/PublicExtracts/search.jsp"
 HARRIS_JP_DATA = "https://jpwebsite.harriscountytx.gov/PublicExtracts/GetExtractData"
-# Eviction and Small Claims. Debt Claim was tested and had no business
-# defendants in 237 cases, so it is not pulled.
-HARRIS_JP_CASE_TYPES = {"8464": "Eviction", "8466": "Small Claims"}
+# Evictions only, and only where the tenant is a business. Small Claims
+# (mostly tenants suing apartment owners) and Debt Claim (consumer debt) are
+# residential or debt-collection matters and are deliberately not pulled.
+HARRIS_JP_CASE_TYPES = {"8464": "Eviction"}
+
+# SCOPE (Jeff, 2026-09-19): "I want nothing residential and no debt
+# collection matters. That is not what this site is about." So case types
+# are an ALLOWLIST: a type that is not named here is dropped, including any
+# new type a clerk adds later. Deliberately excluded: every residential
+# landlord-tenant and homestead/non-homestead foreclosure type, every Debt
+# Owed / Accounts / county-court and small-claims contract tier, negligence,
+# insurance, PIP, windshield, replevin, condominium and family matters.
+#   value False -> a business DEFENDANT is enough.
+#   value True  -> a business PLAINTIFF is required too, which removes
+#                  consumers and homeowners suing a business.
+HILLSBOROUGH_CASE_TYPES = [
+    (re.compile(r"^LT Non-Residential\b", re.I), False),
+    (re.compile(r"^Mortgage Foreclosure - Commercial\b", re.I), False),
+    (re.compile(r"^Premises Liability-Commercial$", re.I), False),
+    (re.compile(r"^Eminent Domain$", re.I), False),
+    (re.compile(r"^Construction Defect$", re.I), True),
+    # Circuit-court (over $50,000) contract suits between two businesses,
+    # which is where commercial lease and guaranty disputes are filed.
+    # "Contract & Indebtedness" is NOT included: in practice it is commercial
+    # debt collection (merchant-cash-advance lenders, banks suing on notes).
+    # "Business Transactions" is NOT included: it is structured-settlement
+    # transfer petitions against insurers.
+    (re.compile(r"^(Breach of Contract|Business Torts)$", re.I), True),
+]
+# Justice-court evictions are not labeled commercial or residential, so an
+# eviction brought by what is plainly a housing operator is dropped.
+RESIDENTIAL_NAME = re.compile(r"\b(apartments?|apts?|lofts?|villas?|townhomes?|town ?houses?|residences?|residential|"
+                              r"mobile home|manufactured home|housing|homes|manor|senior living|student living)\b", re.I)
+
 STATE_UA = "CREdocket-surveillance/1.0 (+https://credocket.com)"
 BUSINESS_NAME = re.compile(
     r"\b(llc|l\.l\.c|inc|incorporated|corp|corporation|company|co\.|l\.?p\.?|llp|ltd|limited|pllc|"
@@ -258,11 +289,14 @@ def us_date(value):
         return ""
 
 
-def state_filing(source, court_id, court_name, case_number, case_type, date_filed, defendants, plaintiffs, url):
+def state_filing(source, court_id, court_name, case_number, case_type, date_filed, defendants, plaintiffs, url,
+                 need_business_plaintiff=False):
     biz_defendants = [n for n in defendants if is_business_name(n)]
+    biz_plaintiffs = [n for n in plaintiffs if is_business_name(n)]
     if not biz_defendants or not case_number or not date_filed:
         return None
-    parties = biz_defendants + [n for n in plaintiffs if is_business_name(n)]
+    if need_business_plaintiff and not biz_plaintiffs:
+        return None
     return {
         "source": source,
         "source_docket_id": stable_id(source, case_number),
@@ -272,9 +306,17 @@ def state_filing(source, court_id, court_name, case_number, case_type, date_file
         "docket_number": case_number,
         "case_name": f"{case_type or 'Civil case'} -- defendant: {biz_defendants[0]}",
         "date_filed": date_filed,
-        "parties": list(dict.fromkeys(parties)),
+        "parties": list(dict.fromkeys(biz_defendants + biz_plaintiffs)),
         "docket_url": url,
     }
+
+
+def hillsborough_rule(case_type):
+    """None if the case type is out of scope, else whether a business plaintiff is required."""
+    for pattern, need_plaintiff in HILLSBOROUGH_CASE_TYPES:
+        if pattern.search(case_type or ""):
+            return need_plaintiff
+    return None
 
 
 def http_get(url, opener=None, referer=None, timeout=120):
@@ -310,8 +352,11 @@ def pull_hillsborough(date_from, date_to):
             elif role in ("Plaintiff", "Petitioner"):
                 case["pl"].append(name)
         for number, c in cases.items():
+            need_plaintiff = hillsborough_rule(c["type"])
+            if need_plaintiff is None:
+                continue
             f = state_filing("hillsborough_fl", "fl-hillsborough", "Hillsborough County Circuit/County Civil Court, Florida",
-                             number, c["type"], c["date"], c["def"], c["pl"], HILLSBOROUGH_SEARCH)
+                             number, c["type"], c["date"], c["def"], c["pl"], HILLSBOROUGH_SEARCH, need_plaintiff)
             if f:
                 out[f["source_docket_id"]] = f
     return list(out.values()), len(wanted)
@@ -331,6 +376,9 @@ def pull_harris_jp(date_from, date_to):
         for raw in csv.DictReader(io.StringIO(text)):
             row = {(k or "").strip(): (v or "").strip() for k, v in raw.items()}
             seen += 1
+            landlords = [row.get("Plaintiff Name", ""), row.get("Second Plaintiff Name", "")]
+            if any(RESIDENTIAL_NAME.search(n) for n in landlords if n):
+                continue
             f = state_filing("harris_jp_tx", "tx-harris-jp", "Harris County Justice Court, Texas",
                              row.get("Case Number", ""), row.get("Case Type", "") or label, us_date(row.get("Case File Date", "")),
                              [row.get("Defendant Name", ""), row.get("Second Defendant Name", "")],
@@ -413,13 +461,15 @@ def main():
         sec_rows = []
         print(f"SEC pull failed, continuing without it: {err}", file=sys.stderr)
 
-    state_rows = []
+    state_rows, state_batches = [], []
     for label, pull in (("Hillsborough FL", pull_hillsborough), ("Harris County TX justice courts", pull_harris_jp)):
         try:
             got, scanned = pull(date_from, date_to)
             state_rows += got
-            print(f"{label}: kept {len(got)} business-defendant cases ({scanned} {'daily files' if 'Hills' in label else 'cases'} scanned)")
+            state_batches.append((label, got, scanned))
+            print(f"{label}: kept {len(got)} in-scope commercial cases ({scanned} {'daily files' if 'Hills' in label else 'cases'} scanned)")
         except (urllib.error.URLError, ValueError, OSError) as err:
+            # No batch is recorded for a failed pull, so nothing is pruned.
             print(f"::warning::{label} pull failed, continuing without it: {err}")
 
     rows = list(filings.values())
@@ -441,13 +491,26 @@ def main():
             sys.exit(f"Ingest failed (HTTP {status}): {body}")
         total_new += body.get("newMatches", 0)
         print(f"Ingested batch: {body}")
-    for i in range(0, len(state_rows), 400):
-        status, body = call_function(function_url, anon_key, secret, {"action": "ingest", "filings": state_rows[i:i + 400], "searchedEntities": []})
+    # One call per state source carrying its COMPLETE in-scope set for the
+    # window, so the function can remove anything else stored for it.
+    for label, got, scanned in state_batches:
+        if len(got) > 450:
+            print(f"::warning::{label}: {len(got)} cases is more than one call can carry; not sent. Narrow the window.")
+            continue
+        source = {"Hillsborough FL": "hillsborough_fl", "Harris County TX justice courts": "harris_jp_tx"}[label]
+        payload = {"action": "ingest", "filings": got, "searchedEntities": []}
+        # Prune only when the source really returned data: an empty or error
+        # page would otherwise read as "nothing in scope" and wipe good rows.
+        if scanned > 0:
+            payload["pruneState"] = {"source": source, "dateFrom": date_from, "dateTo": date_to}
+        else:
+            print(f"::warning::{label}: nothing scanned, so no cleanup was requested.")
+        status, body = call_function(function_url, anon_key, secret, payload)
         if status == 200:
             total_new += body.get("newMatches", 0)
-            print(f"Ingested state-court batch: {body}")
+            print(f"Ingested {label}: {body}")
         else:
-            print(f"::warning::State-court batch not stored (HTTP {status}): {body}")
+            print(f"::warning::{label} batch not stored (HTTP {status}): {body}")
 
     # Sent separately and allowed to fail: until the 20260919b migration is
     # run the database rejects sec_8k rows, and that must not block the

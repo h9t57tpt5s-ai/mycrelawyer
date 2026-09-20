@@ -141,6 +141,43 @@ async function listEntities(limit: number) {
   return jsonResponse({ ok: true, entities: names }, 200);
 }
 
+// State-court scope is an allowlist that has already been tightened once.
+// When the runner sends the COMPLETE set of in-scope cases for one state
+// source and date window, anything else stored for that source and window
+// is out of scope and is removed -- except a row that already produced an
+// alert, so nobody's alert history disappears. Never applies to federal or
+// SEC rows.
+const PRUNABLE_SOURCES = new Set(["hillsborough_fl", "harris_jp_tx"]);
+
+async function pruneStateWindow(raw: unknown, keepIds: number[]): Promise<number | string> {
+  if (!raw || typeof raw !== "object") return 0;
+  const p = raw as Record<string, unknown>;
+  const isDate = (v: unknown): v is string => typeof v === "string" && /^\d{4}-\d{2}-\d{2}$/.test(v);
+  if (typeof p.source !== "string" || !PRUNABLE_SOURCES.has(p.source) || !isDate(p.dateFrom) || !isDate(p.dateTo)) return "invalid prune request";
+
+  const { rows: existing, error } = await fetchAll<{ id: number; source_docket_id: number }>((from, to) =>
+    supabaseAdmin.from("court_filings").select("id, source_docket_id")
+      .eq("source", p.source as string).gte("date_filed", p.dateFrom as string).lte("date_filed", p.dateTo as string)
+      .order("id").range(from, to));
+  if (error) return error;
+  const keep = new Set(keepIds);
+  const stale = existing.filter((r) => !keep.has(Number(r.source_docket_id))).map((r) => r.id);
+  if (!stale.length) return 0;
+
+  const alerted = new Set<number>();
+  for (let i = 0; i < stale.length; i += 200) {
+    const { data, error: mErr } = await supabaseAdmin.from("filing_matches").select("filing_id").in("filing_id", stale.slice(i, i + 200));
+    if (mErr) return mErr.message;
+    for (const m of data ?? []) alerted.add(m.filing_id as number);
+  }
+  const doomed = stale.filter((id) => !alerted.has(id));
+  for (let i = 0; i < doomed.length; i += 200) {
+    const { error: dErr } = await supabaseAdmin.from("court_filings").delete().in("id", doomed.slice(i, i + 200));
+    if (dErr) return dErr.message;
+  }
+  return doomed.length;
+}
+
 async function ingest(body: Record<string, unknown>) {
   const rawFilings = Array.isArray(body.filings) ? body.filings : [];
   if (rawFilings.length > MAX_FILINGS_PER_CALL) return jsonResponse({ error: `At most ${MAX_FILINGS_PER_CALL} filings per call` }, 400);
@@ -160,6 +197,13 @@ async function ingest(body: Record<string, unknown>) {
       .select("id, source, filing_type, court_name, docket_number, case_name, date_filed, parties, docket_url");
     if (error) return jsonResponse({ error: "Could not store filings", detail: error.message }, 500);
     stored = (data ?? []) as StoredFiling[];
+  }
+
+  let pruned: number | string = 0;
+  if (body.pruneState) {
+    // Refuse to prune on a partly rejected batch: a rejected row would look
+    // "missing" and be deleted.
+    pruned = rejected ? "skipped: batch had rejected rows" : await pruneStateWindow(body.pruneState, filings.map((f) => f.source_docket_id));
   }
 
   const { rows: entityRows, error: entErr } = await fetchAll<Entity>((from, to) =>
@@ -240,7 +284,7 @@ async function ingest(body: Record<string, unknown>) {
       .in("entity_name", searched);
   }
 
-  return jsonResponse({ ok: true, stored: stored.length, rejected, checkedFilings: recent.length, checkedEntities: entityRows.length, newMatches: newMatches.length, emailsSent, emailsFailed }, 200);
+  return jsonResponse({ ok: true, stored: stored.length, rejected, checkedFilings: recent.length, checkedEntities: entityRows.length, newMatches: newMatches.length, emailsSent, emailsFailed, pruned }, 200);
 }
 
 Deno.serve(async (req) => {
