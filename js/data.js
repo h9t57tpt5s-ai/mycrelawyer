@@ -4732,6 +4732,36 @@ const RELAW_DATA = {
         { when: "September 18, 2026", label: "The City of Portland permanently closes the NW Northrup Shelter as part of a budget-driven consolidation" }
       ],
       tags: ["foreclosure", "oregon", "loan default", "government lease", "portland"]
+    },
+    {
+      id: "live-162",
+      addedDate: "2026-09-20",
+      title: "South Union Township v. Namdar Realty Group & Uniontown Mall Realty (Court-Supervised Mall Safety Compliance)",
+      category: "premises-liability",
+      status: "pending",
+      date: "2026-05-22",
+      jurisdiction: "Court of Common Pleas, Fayette County, Pennsylvania",
+      state: "PA",
+      amount: "Not a monetary claim; court-ordered remediation of a roughly 690,000 sq. ft. regional mall",
+      source: "live",
+      sourceUrl: "https://www.heraldstandard.com/editors_pick/2026/jul/02/court-schedules-site-visit-to-uniontown-mall/",
+      summary: "South Union Township, Pennsylvania sued Uniontown Mall's owners, Namdar Realty Group and Uniontown Mall Realty, in November 2025 over blocked and locked emergency exits, a rodent infestation, and deteriorating driveways, alleging the conditions constituted a public nuisance. Fayette County Judge Linda Cordaro ordered the owners to remediate the conditions on May 22, 2026, and has since scheduled a September 30 site visit to personally assess compliance, which she described as 'moderate' but not yet complete as of early July.",
+      significance: "Illustrates municipalities' growing willingness to pursue nuisance litigation, backed by active judicial oversight through scheduled compliance inspections, against commercial landlords who defer maintenance on safety-critical systems like fire exits, rather than relying solely on administrative code-enforcement citations. Owners of aging or declining retail and mixed-use assets should treat sustained deferred maintenance as a credible litigation and enforcement risk distinct from ordinary code citations or private injury claims.",
+      body: [
+        "When a shopping center's owner stops investing in basic maintenance, the tenants and shoppers who notice deteriorating conditions are usually the first to sue. In Fayette County, Pennsylvania, it was the local township that got there first. South Union Township sued Uniontown Mall's owners, Namdar Realty Group and an affiliated entity, Uniontown Mall Realty, in November 2025, alleging that years of deferred maintenance at the roughly 690,000-square-foot enclosed mall had created conditions dangerous enough to constitute a public nuisance. Ten months later, the case has produced a rare outcome in commercial real estate litigation: an ongoing, judge-supervised repair regime, complete with a court-scheduled site inspection, rather than a one-time damages award or settlement.",
+        "The township's complaint, filed in the Fayette County Court of Common Pleas, catalogued conditions inspectors said went well beyond cosmetic neglect. Multiple emergency exit doors throughout the mall were found locked, obstructed, or so damaged that they required excessive force to open, a defect the township argued created an ongoing threat to public safety by impeding emergency evacuation and compromising fire-exit access in the event of a fire or other crisis. The complaint also cited a rodent infestation inside the mall and deteriorating exterior infrastructure, including driveways and parking areas pocked with potholes serious enough to threaten further damage if left unaddressed. Rather than proceeding purely through administrative code-enforcement citations, the township elected to sue in nuisance, asking the court to order the owners to remediate the conditions under judicial supervision.",
+        "Fayette County Judge Linda Cordaro ruled for the township on May 22, 2026, ordering Namdar Realty to address the safety issues raised in the suit. That order did not end the case. Instead, the court retained an active supervisory role, and on July 2 the parties learned that Cordaro had scheduled a site visit for September 30 so that she, along with representatives of both the mall ownership and the township, could personally assess whether the ordered repairs had actually been completed. Speaking after the scheduling order, Cordaro credited the ownership group with taking the May order seriously, noting the mall had achieved 'moderate compliance, although not complete compliance.' The most significant unresolved item remains the emergency exits: while Namdar has obtained a building permit for the necessary repairs, the work itself had not been completed as of early July. Stormwater drainage issues and road repairs along the mall's Restaurant Row corridor were likewise still outstanding.",
+        "The Uniontown Mall dispute is not an isolated data point for Namdar Realty Group, a prolific acquirer of distressed and declining regional malls across the country. A similarly troubled property under Namdar's ownership, Bangor Mall in Maine, has faced its own parallel legal and regulatory pressure over unpaid fines and incomplete repairs, underscoring that the maintenance and safety issues surfacing in Fayette County reflect a broader portfolio-level pattern rather than a single property's mismanagement. For institutional owners of aging retail centers nationally, and for the municipalities that host them, the Uniontown case offers a live illustration of an enforcement tool that sits between a routine code citation and a full receivership: a nuisance action that keeps the court actively engaged in verifying compliance, rather than simply imposing a one-time order or fine and moving on.",
+        "For commercial real estate owners and asset managers, the case underscores that deferred maintenance at a struggling property is no longer purely a leasing or valuation problem; it is an increasingly credible litigation and enforcement risk in its own right, particularly where safety-critical building systems like fire exits are involved. Local governments frustrated by the pace of voluntary compliance are showing a growing willingness to litigate rather than rely solely on administrative citations, and courts are, in turn, showing a willingness to retain active oversight through scheduled compliance checks rather than treating an order to repair as self-executing. Owners of aging or declining retail, office, and mixed-use assets should treat sustained deferred maintenance, especially involving fire and life-safety systems, as an exposure that can escalate into judicially supervised litigation well before a tenant or visitor is actually injured, and should document remediation progress continuously, since a judge weighing 'moderate' versus 'complete' compliance will look for concrete evidence of permits obtained and work performed rather than stated intent."
+      ],
+      timeline: [
+        { when: "November 2025", label: "South Union Township files its nuisance suit against Namdar Realty Group and Uniontown Mall Realty" },
+        { when: "May 22, 2026", label: "Judge Linda Cordaro orders the owners to remediate the safety conditions" },
+        { when: "July 2, 2026", label: "Court schedules a September 30 site visit to assess compliance; Cordaro notes 'moderate' but incomplete compliance so far", current: true },
+        { when: "September 30, 2026", label: "Scheduled court site visit to assess whether ordered repairs, including emergency-exit work, have been completed", upcoming: true }
+      ],
+      judge: "Linda Cordaro",
+      tags: ["premises liability", "pennsylvania", "mall", "code enforcement", "nuisance"]
     }
   ],
 
@@ -5075,6 +5105,7 @@ const RELAW_DATA = {
      court's own site (docket search, judge assignments, local rules), not
      third-party case-law aggregators. */
   courts: [
+    { jurisdiction: "Court of Common Pleas, Fayette County, Pennsylvania", url: "https://www.fayettecountypa.org/302/Court-of-Common-Pleas" },
     { jurisdiction: "Circuit Court of St. Louis County, Missouri", url: "https://stlcountycourts.com/" },
     { jurisdiction: "3rd Circuit Court, Wayne County, Michigan", url: "https://www.3rdcc.org/" },
     { jurisdiction: "Philadelphia County Court of Common Pleas", url: "https://www.pacourts.us/courts/courts-of-common-pleas/individual-county-courts/philadelphia-courts" },
@@ -5156,6 +5187,14 @@ const RELAW_DATA = {
      court's own biography page, or for federal Article III judges, the
      Federal Judicial Center's Biographical Directory. */
   judges: [
+    {
+      name: "Linda R. Cordaro",
+      slug: "linda-r-cordaro",
+      title: "Judge",
+      court: "Court of Common Pleas, Fayette County, Pennsylvania",
+      background: "Elected to the Fayette County Court of Common Pleas bench in November 2013, with a current term extending to December 31, 2033. Previously a principal in private practice handling business, real estate, and civil litigation matters, and served as an assistant district attorney for Fayette County, including as the county's child abuse prosecutor from 2005 to 2013.",
+      bioUrl: "https://www.fayettecountypa.org/directory.aspx?EID=151"
+    },
     {
       name: "Melissa R. DuBose",
       slug: "melissa-r-dubose",
