@@ -16,7 +16,7 @@ const RELAW_DATA = {
      Drives the homepage's "New Today" pill: it only shows when this
      equals the visitor's local today. Updated by the digest automation
      each time Step 4 successfully adds a case — never touched otherwise. */
-  lastUpdatedDate: "2026-09-19",
+  lastUpdatedDate: "2026-09-20",
   categories: [
     { id: "landlord-tenant", label: "Landlord–Tenant", color: "var(--cat-landlord)" },
     { id: "zoning-land-use", label: "Zoning & Land Use", color: "var(--cat-zoning)" },
@@ -4667,6 +4667,71 @@ const RELAW_DATA = {
         { when: "October 20, 2026", label: "Hearing set on the Housing Authority's motion for a prejudgment remedy to attach Cappelletti-family homes in Middlebury, CT", current: true, upcoming: true }
       ],
       tags: ["fraud", "housing authority", "connecticut", "bond financing", "asset seizure"]
+    },
+    {
+      id: "live-160",
+      addedDate: "2026-09-20",
+      title: "57th & 6th Ground LLC v. Carnegie House Tenants Corp. (Ground-Rent Arbitration Award Vacated for Arbitrator Non-Disclosure)",
+      category: "lease-disputes",
+      status: "ruling",
+      date: "2026-09-03",
+      jurisdiction: "Appellate Division of the Supreme Court of New York, First Department",
+      state: "NY",
+      amount: "$24M annual ground rent set by the vacated arbitration award (up from $4M), based on an underlying land valuation of more than $300M",
+      source: "live",
+      sourceUrl: "https://www.crainsnewyork.com/real-estate/commercial/cny-carnegie-house-rent-hike-reprieve-20260903/",
+      summary: "New York's Appellate Division, First Department unanimously vacated a $24 million ground-rent arbitration award against the Carnegie House cooperative on West 57th Street, finding the panel's neutral umpire failed to disclose a job offer from counsel for the prevailing landowner while the arbitration was pending. The reversal overturns a January 2026 trial court decision that had confirmed the award under CPLR Article 75's demanding standard for vacatur, sending the ground-rent reset back for further proceedings.",
+      significance: "Shows that even New York's 'very heavy burden of proof' standard for vacating an arbitration award cannot save a result tainted by an arbitrator's undisclosed financial or professional dealings with a party's counsel, a risk relevant to any high-value CRE arbitration, including ground-lease resets, mezzanine-loan valuation disputes, and joint-venture buyouts that route around the courts.",
+      body: [
+        "Commercial landlords, developers, and lenders who route valuation and rent-reset disputes to arbitration got a costly reminder this month of how fragile that process can be when a neutral arbitrator's own disclosures fall short. In 57th & 6th Ground LLC v. Carnegie House Tenants Corp., New York's Appellate Division, First Department, unanimously reversed a lower court and vacated a $24 million ground-rent arbitration award after finding that the panel's neutral umpire failed to disclose a job offer extended by counsel for the prevailing party while the arbitration was still underway.",
+        "The dispute centers on Carnegie House, a 21-story cooperative at the corner of West 57th Street and Sixth Avenue on the edge of Manhattan's Billionaires' Row. Like a number of older Manhattan co-ops, Carnegie House does not own the land beneath its building; it holds a long-term ground lease, originally dated December 16, 1959 and amended since, from a separate ownership entity. When the co-op exercised its option to extend that lease for a new term beginning in March 2025, the extension required the ground rent to be reset to reflect a new appraisal of the underlying land's value. The co-op and the landowner, an entity tied to Cammeby's International Group's Rubin Schron together with David Werner Real Estate, which acquired the land in 2014, could not agree on that value, and the dispute proceeded to a tripartite arbitration panel as the lease required.",
+        "In July 2025, the panel sided decisively with the landowner, valuing the underlying land at more than $300 million and setting a new annual ground rent of roughly $24 million, up from the prior $4 million, an increase co-op shareholders warned would be unaffordable and could push some owners toward default or foreclosure on their apartments. The landlord entity, 57th & 6th Ground LLC, moved under CPLR 7510 to confirm the award, while the co-op and an affiliated entity, Georgetown 57, LLC, cross-moved under CPLR 7511(b)(1)(i) and (ii) to vacate it, arguing the neutral umpire had been partial and had engaged in misconduct in procuring the result. In a January 2026 decision, a Manhattan Supreme Court justice sided with the landlord, holding that the co-op had not met the very heavy burden of proof New York law imposes on a party seeking to vacate an award for partiality, and confirmed the $24 million figure.",
+        "The co-op appealed, and the First Department reversed. The appellate panel found that the case's neutral umpire, the panel member both sides jointly selected rather than each side's own party-appointed arbitrator, had failed to disclose that he received and was actively considering a job offer from a law firm serving as co-counsel to the landowner while the arbitration was still pending. The court held that this omission was sufficient on its own to raise a legitimate question of evident partiality warranting vacatur, regardless of whether the co-op could show the undisclosed contact actually altered the outcome. The ruling sends the rent-reset question back for further proceedings rather than resolving the underlying valuation dispute itself, meaning Carnegie House shareholders face a fresh reset process rather than a final, affordable number.",
+        "For commercial real estate practitioners, the decision is a rare and instructive one: courts are traditionally reluctant to disturb arbitration awards, and New York's very heavy burden standard for vacatur due to partiality is deliberately difficult to meet. That the co-op cleared it here reflects just how seriously courts treat an arbitrator's ongoing, undisclosed financial or professional dealings with a party's counsel, even short of proof that those dealings actually skewed the substantive result. Ground-lease resets, mezzanine-loan valuation disputes, joint-venture buyout arbitrations, and other high-dollar CRE arbitrations typically hinge on a neutral's credibility precisely because courts will not second-guess the merits, and this ruling shows that credibility can collapse retroactively if a conflict surfaces later, unwinding months of proceedings.",
+        "Parties selecting a neutral arbitrator for a CRE valuation or rent-reset dispute would be well served to insist on continuing disclosure obligations covering any professional or financial contact with either side's counsel for the full duration of the proceeding, and counsel should treat any employment or business discussion with a sitting neutral as immediately reportable, since an omission alone can unwind an award many months later. A confirmed award is not necessarily the end of the road: a losing party with credible evidence of an undisclosed conflict retains a meaningful, if narrow, path to vacatur under CPLR 7511, and ground-lease owners and co-op boards facing a looming reset should budget for the possibility that an adverse result is not final, preserving any evidence of irregularities in arbitrator selection as the process unfolds rather than only after an unfavorable award issues."
+      ],
+      timeline: [
+        { when: "December 16, 1959", label: "Original ground lease for the land under Carnegie House is executed" },
+        { when: "2014", label: "Real estate investors tied to Cammeby's International Group and David Werner Real Estate acquire the underlying land" },
+        { when: "March 2025", label: "Carnegie House's extended ground lease term begins, triggering a rent reset" },
+        { when: "July 2025", label: "Arbitration panel values the land at over $300M and sets a new $24M annual ground rent" },
+        { when: "January 2026", label: "Manhattan Supreme Court confirms the arbitration award, rejecting the co-op's vacatur motion" },
+        { when: "September 3, 2026", label: "Appellate Division, First Department unanimously vacates the award over the neutral umpire's undisclosed job offer from the landowner's co-counsel", current: true }
+      ],
+      documentUrl: "https://www.courtlistener.com/opinion/10773968/57th-6th-ground-llc-v-carnegie-house-tenants-corp/",
+      documentLabel: "Read the January 2026 trial court decision",
+      tags: ["ground lease", "arbitration", "new york", "co-op", "arbitrator disclosure"]
+    },
+    {
+      id: "live-161",
+      addedDate: "2026-09-20",
+      title: "Northwest Bank v. North Pearl LLC, Sturgeon Development Partners & Vanessa Sturgeon (Pearl District Homeless-Shelter Building Foreclosure)",
+      category: "lending-foreclosure",
+      status: "filed",
+      date: "2026-08-25",
+      jurisdiction: "Multnomah County Circuit Court, Oregon",
+      state: "OR",
+      amount: "$6M original loan principal; approximately $7.2M currently claimed owed, including accrued interest",
+      source: "live",
+      sourceUrl: "https://www.wweek.com/news/city/2026/08/27/northwest-building-used-for-mayor-wilsons-overnight-shelter-faces-foreclosure/",
+      summary: "Northwest Bank filed a foreclosure lawsuit on August 25, 2026 against developer Vanessa Sturgeon, Sturgeon Development Partners, and North Pearl LLC over a defaulted $6 million loan, now totaling roughly $7.2 million with accrued interest, secured by a Pearl District building in Portland. The property had housed the City of Portland's roughly 200-bed NW Northrup overnight homeless shelter under an $18,000-per-month lease until the shelter's permanent closure on September 18, 2026.",
+      significance: "Illustrates how a maturity default left unresolved for more than two years can escalate into foreclosure litigation, and how a distressed asset's income stream tied to a single government tenant can complicate a lender's enforcement and eventual disposition of the collateral, a recurring pattern amid continued distress in downtown Portland's commercial real estate market.",
+      body: [
+        "A commercial foreclosure lawsuit filed last month in Multnomah County Circuit Court illustrates a recurring theme of this real estate cycle: a maturity default on a mid-sized commercial loan, left unresolved for more than two years, can escalate into litigation that reaches well beyond the borrower and lender. In Northwest Bank v. North Pearl LLC, Sturgeon Development Partners, and Vanessa Sturgeon, filed August 25, 2026, the Portland-based lender is seeking to foreclose on a Pearl District building that, until this month, housed one of Mayor Keith Wilson's signature overnight homeless shelters.",
+        "According to the complaint, North Pearl LLC, an entity controlled by longtime Portland developer Vanessa Sturgeon through her firm, Sturgeon Development Partners, borrowed $6 million from Northwest Bank in 2022. The loan matured in March 2024, and the borrower failed to repay the principal at maturity. Northwest Bank alleges the debt has continued to accrue interest in the intervening two-plus years and now totals roughly $7.2 million, combining the unpaid principal, missed payments, and nearly $2 million in accrued interest. The bank is asking the court for a judgment on the debt and to foreclose its mortgage lien against the property.",
+        "What elevates this beyond an otherwise ordinary commercial mortgage default is the building's tenancy. Sturgeon leased the property to the City of Portland for $18,000 a month to operate the NW Northrup Shelter, a roughly 200-bed overnight homeless shelter that became a flashpoint in the surrounding Pearl District neighborhood when it opened in September 2025 over vocal resident opposition centered on livability and safety concerns. The shelter, one of the anchor components of Mayor Wilson's homelessness strategy, closed permanently on September 18, 2026 as part of the city's broader budget-driven consolidation of its shelter network, a decision city officials say was unrelated to the foreclosure suit. A spokesman for the mayor's office said the city does not expect the lawsuit to affect the shelter's already-planned closure.",
+        "For commercial real estate lenders and landlords, the case illustrates several compounding risk factors that increasingly intersect in distressed-asset workouts. A loan that goes unresolved for more than two years past maturity, as this one did, tends to generate rapidly escalating interest exposure that can approach a third of the original principal, making an early workout or restructuring conversation far cheaper for both sides than protracted forbearance followed by litigation. When a distressed asset's income stream depends on a single government or quasi-governmental tenant, that tenancy can complicate a foreclosure's practical mechanics even when it has no formal bearing on the lender's legal right to foreclose, since a receiver or successor owner must account for lease termination rights, public relations exposure, and, in this instance, the added complexity of a politically sensitive use.",
+        "The filing also arrives amid continued, well-documented distress in downtown Portland's commercial real estate market, where several prominent office towers have faced foreclosure actions, loan defaults, or below-market sales over the past several years as vacancy rates remained elevated and property values compressed. While the Sturgeon-Northwest Bank dispute involves a smaller, Pearl District asset rather than one of downtown's marquee towers, it fits the same pattern of regional lenders moving to enforce their rights on aging, underperforming commercial loans rather than continuing to extend forbearance indefinitely.",
+        "Borrowers approaching a loan maturity they cannot satisfy should engage lenders early, since the roughly two-year gap between this loan's 2024 maturity default and the 2026 foreclosure filing meant accrued interest alone grew substantially, a cost that compounds the longer a workout is deferred. Lenders holding collateral leased to a government or nonprofit tenant should map out that lease's termination and assignment provisions before initiating foreclosure, and developers considering a government lease as a stabilization strategy for underperforming space should treat it as a bridge to a broader capital solution rather than a substitute for addressing the underlying loan default, since a below-market government lease does not by itself satisfy debt-service obligations to a secured lender."
+      ],
+      timeline: [
+        { when: "2022", label: "North Pearl LLC borrows $6M from Northwest Bank" },
+        { when: "March 2024", label: "Loan matures; North Pearl LLC fails to repay the principal" },
+        { when: "September 2025", label: "The NW Northrup overnight homeless shelter opens in the mortgaged building under an $18,000/month city lease" },
+        { when: "August 25, 2026", label: "Northwest Bank files its foreclosure complaint in Multnomah County Circuit Court", current: true },
+        { when: "September 18, 2026", label: "The City of Portland permanently closes the NW Northrup Shelter as part of a budget-driven consolidation" }
+      ],
+      tags: ["foreclosure", "oregon", "loan default", "government lease", "portland"]
     }
   ],
 
