@@ -81,7 +81,7 @@ export function coverageLine(liveSources: Set<string>): string {
   const states = Object.keys(STATE_SOURCE_NAMES).filter((s) => liveSources.has(s)).map((s) => STATE_SOURCE_NAMES[s]);
   const list = parts.length === 2 ? parts.join(" and ") : `${parts.slice(0, -1).join(", ")}, and ${parts[parts.length - 1]}`;
   const stateText = states.length
-    ? `State trial courts are covered only in ${states.join(" and ")}, and only for cases with a business defendant; every other state court is not covered`
+    ? `State trial courts are covered only in ${states.join(" and ")}, and only for commercial case types with a business defendant (never residential or debt-collection matters); every other state court is not covered`
     : "State-court filings are not yet covered";
   return `Coverage: ${list}. ${stateText}, so no alert is not proof of no filing.`;
 }
