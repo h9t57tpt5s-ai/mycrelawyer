@@ -9,6 +9,7 @@
   if (!sb || !listEl) return;
 
   const KIND_LABELS = { bankruptcy_ch11: "Chapter 11 petition", civil: "Federal civil suit", sec_8k: "SEC Form 8-K" };
+  const STATE_PREFIXES = ["https://hover.hillsclerk.com/", "https://jpwebsite.harriscountytx.gov/"];
 
   function escapeHtml(s) {
     return String(s == null ? "" : s).replace(/[&<>"']/g, (c) => ({
@@ -17,7 +18,7 @@
   }
 
   // Only ever link to the hosts the ingest function itself enforces.
-  const ALLOWED_PREFIXES = ["https://www.courtlistener.com/docket/", "https://www.sec.gov/Archives/edgar/data/"];
+  const ALLOWED_PREFIXES = ["https://www.courtlistener.com/docket/", "https://www.sec.gov/Archives/edgar/data/"].concat(STATE_PREFIXES);
   function safeDocketUrl(url) {
     return typeof url === "string" && ALLOWED_PREFIXES.some((p) => url.indexOf(p) === 0) ? url : null;
   }
@@ -27,6 +28,7 @@
     const e = m.portfolio_entities || {};
     const url = safeDocketUrl(f.docket_url);
     const isSec = f.filing_type === "sec_8k";
+    const isState = typeof f.docket_url === "string" && STATE_PREFIXES.some((p) => f.docket_url.indexOf(p) === 0);
     const confidence = m.confidence === "exact"
       ? `<span class="mono" style="font-size:11.5px; text-transform:uppercase; letter-spacing:0.03em;">High confidence</span>`
       : `<span class="mono text-muted" style="font-size:11.5px; text-transform:uppercase; letter-spacing:0.03em;">Possible match — confirm</span>`;
@@ -36,10 +38,10 @@
           <span style="font-weight:600; font-size:14px;">${escapeHtml(e.entity_name || "Removed entity")}</span>
           ${confidence}
         </div>
-        <p style="font-size:13.5px; margin-top:6px;">${escapeHtml(KIND_LABELS[f.filing_type] || "Federal filing")}: ${escapeHtml(f.case_name)}</p>
+        <p style="font-size:13.5px; margin-top:6px;">${escapeHtml(isState ? "State court civil filing" : (KIND_LABELS[f.filing_type] || "Filing"))}: ${escapeHtml(f.case_name)}</p>
         <p class="text-muted" style="font-size:12.5px; margin-top:4px;">${isSec ? escapeHtml(f.docket_number) : `${escapeHtml(f.court_name)}${f.docket_number ? `, No. ${escapeHtml(f.docket_number)}` : ""}`} · filed ${escapeHtml(f.date_filed)} · matched name: ${escapeHtml(m.matched_party)}</p>
         ${isSec ? `<p class="text-muted" style="font-size:12px; margin-top:4px;">An 8-K item names the type of event, not its cause — read the filing before drawing a conclusion.</p>` : ""}
-        ${url ? `<p style="font-size:12.5px; margin-top:6px;"><a href="${escapeHtml(url)}" target="_blank" rel="noopener noreferrer">${isSec ? "View filing on SEC EDGAR" : "View docket on CourtListener"}</a></p>` : ""}
+        ${url ? `<p style="font-size:12.5px; margin-top:6px;"><a href="${escapeHtml(url)}" target="_blank" rel="noopener noreferrer">${isSec ? "View filing on SEC EDGAR" : isState ? "Search this case number on the clerk's site" : "View docket on CourtListener"}</a></p>` : ""}
       </div>`;
   }
 
