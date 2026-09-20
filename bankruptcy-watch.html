@@ -4,11 +4,11 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>Chapter 11 Watch — CREdocket</title>
-<meta name="description" content="Every new business Chapter 11 bankruptcy petition filed in the United States, updated daily from federal court records." />
+<meta name="description" content="New Chapter 11 bankruptcy petitions by real estate and construction businesses, updated daily from federal court records." />
 <meta property="og:type" content="website" />
 <meta property="og:site_name" content="CREdocket" />
 <meta property="og:title" content="Chapter 11 Watch — CREdocket" />
-<meta property="og:description" content="Every new business Chapter 11 bankruptcy petition filed in the United States, updated daily from federal court records." />
+<meta property="og:description" content="New Chapter 11 bankruptcy petitions by real estate and construction businesses, updated daily from federal court records." />
 <meta property="og:url" content="https://credocket.com/bankruptcy-watch.html" />
 <link rel="canonical" href="https://credocket.com/bankruptcy-watch.html" />
 <meta property="og:image" content="https://credocket.com/img/og-image.png" />
@@ -16,7 +16,7 @@
 <meta property="og:image:height" content="630" />
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:title" content="Chapter 11 Watch — CREdocket" />
-<meta name="twitter:description" content="Every new business Chapter 11 bankruptcy petition filed in the United States, updated daily from federal court records." />
+<meta name="twitter:description" content="New Chapter 11 bankruptcy petitions by real estate and construction businesses, updated daily from federal court records." />
 <meta name="twitter:image" content="https://credocket.com/img/og-image.png" />
 <link rel="icon" href="img/favicon.svg" type="image/svg+xml" />
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -143,7 +143,7 @@
   <div class="container">
     <div class="eyebrow reveal in-view">Chapter 11 Watch</div>
     <h1 class="reveal in-view" style="font-size:clamp(2.2rem,4vw,3.4rem);">Who filed this week.</h1>
-    <p class="lede mt-16 reveal in-view">Every new business Chapter 11 petition filed in a U.S. bankruptcy court, pulled daily from federal court records. If one of these is your tenant, borrower, or contractor, the automatic stay generally took effect the moment the petition was filed.</p>
+    <p class="lede mt-16 reveal in-view">New Chapter 11 petitions by real estate owners, developers and contractors, pulled daily from federal court records. If one of these is your borrower, landlord, contractor or counterparty, the automatic stay generally took effect the moment the petition was filed.</p>
   </div>
 </header>
 
@@ -152,28 +152,15 @@
     <div class="section-head reveal">
       <div>
         <div class="eyebrow">New Petitions</div>
-        <h2 style="font-size:clamp(1.6rem,2.6vw,2.2rem);"><span id="ch11-count">—</span> business filings <span id="ch11-range"></span></h2>
+        <h2 style="font-size:clamp(1.6rem,2.6vw,2.2rem);"><span id="ch11-count">—</span> real estate &amp; construction filings <span id="ch11-range"></span></h2>
       </div>
-      <p class="text-muted" style="max-width:420px; font-size:13.5px;">Want to be told when a specific company files? <a href="account.html#portfolio">Add it to your portfolio</a> and we check it against this feed every day.</p>
+      <p class="text-muted" style="max-width:420px; font-size:13.5px;">Want to know when one of your own tenants, borrowers or guarantors files, whatever its business? <a href="account.html#portfolio">Add it to your portfolio</a> and it is checked against every new petition daily.</p>
     </div>
     <div class="card reveal" style="padding:20px 24px; margin-bottom:16px; display:flex; gap:16px; align-items:center; flex-wrap:wrap;">
       <input id="ch11-filter" type="search" aria-label="Filter by debtor name or court" placeholder="Filter by debtor name or court…" autocomplete="off" style="flex:1 1 260px; min-width:0;" />
-      <label style="display:flex; align-items:center; gap:8px; font-size:13px; color:var(--text-secondary);">
-        <input id="ch11-re-only" type="checkbox" /> Name suggests real estate or construction
-      </label>
     </div>
     <div class="card reveal" style="padding:8px 0;" id="ch11-list"><p class="text-secondary" style="padding:24px;">Loading petitions…</p></div>
-    <div id="sec-section" hidden style="margin-top:40px;">
-      <div class="section-head reveal in-view">
-        <div>
-          <div class="eyebrow">SEC Disclosures</div>
-          <h2 style="font-size:clamp(1.4rem,2.2vw,1.9rem);">Public companies reporting bankruptcy or receivership</h2>
-        </div>
-        <p class="text-muted" style="max-width:420px; font-size:13.5px;">Form 8-K filings under Item 1.03, from SEC EDGAR. A public company must file one within four business days of the event.</p>
-      </div>
-      <div class="card" style="padding:8px 0;" id="sec-list"></div>
-    </div>
-    <p class="text-muted reveal" style="font-size:12.5px; line-height:1.6; margin-top:16px;">Source: federal court records via CourtListener and the RECAP Archive, a project of the nonprofit Free Law Project. Checked once a day. Individuals who file Chapter 11 are left out using a name-based rule, so a business with a personal-sounding name can be missing, and the real-estate filter is a guess from the debtor's name, not a classification of its business. Chapter 7 filings, state-court receiverships, and assignments for the benefit of creditors are not covered. Not legal advice.</p>
+    <p class="text-muted reveal" style="font-size:12.5px; line-height:1.6; margin-top:16px;">Source: federal court records via CourtListener and the RECAP Archive, a project of the nonprofit Free Law Project. Checked once a day. This page lists only debtors whose name indicates a real estate or construction business; that is a reading of the name, not a classification of the company, so some are missed and a few may not belong. Individuals are never listed. Chapter 7 filings, state-court receiverships, and assignments for the benefit of creditors are not covered. Not legal advice.</p>
   </div>
 </section>
 
@@ -294,11 +281,11 @@
     const list = document.getElementById("ch11-list");
     const countEl = document.getElementById("ch11-count");
     const filterEl = document.getElementById("ch11-filter");
-    const reOnlyEl = document.getElementById("ch11-re-only");
-    const DOCKET_PREFIX = "https://www.courtlistener.com/docket/";
-    // A guess from the debtor's name only: property-style words, or a
-    // name that starts with a street number ("701 Bay LLC").
-    const RE_HINT = /^\d|\b(propert(y|ies)|realty|real estate|developments?|developers?|apartments?|plaza|towers?|land|estates?|homes|homebuilders?|housing|residential|construction|builders?|contractors?|hotels?|hospitality|lodging|mall|rentals?|leasing|condominium|storage|roofing|flooring|electric|plumbing|demolition)\b/i;
+        const DOCKET_PREFIX = "https://www.courtlistener.com/docket/";
+    // Read from the debtor's name only: property and construction words, or
+    // a name that opens with a street number ("701 Bay LLC", "110-09 101 AVE
+    // LLC") -- a bare leading digit ("3pm Group") does not count.
+    const RE_HINT = /^\d+(-\d+)?\s|\b(propert(y|ies)|realty|real estate|developments?|developers?|apartments?|plaza|towers?|land|estates?|homebuilders?|construction|builders?|contractors?|hotels?|lodging|mall|shopping center|condominium|self storage|storage|roofing|flooring|electric|plumbing|demolition)\b/i;
 
     function escapeHtml(v) {
       return String(v == null ? "" : v).replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c]);
@@ -317,7 +304,7 @@
       const q = filterEl.value.trim().toLowerCase();
       const shown = rows.filter((r) =>
         (!q || (r.case_name + " " + (r.court_name || "")).toLowerCase().includes(q)) &&
-        (!reOnlyEl.checked || RE_HINT.test(r.case_name)));
+        true);
       if (!shown.length) {
         list.innerHTML = `<p class="text-secondary" style="padding:24px;">No petitions match that filter.</p>`;
         return;
@@ -357,7 +344,7 @@
     }
 
     loadAll().then((data) => {
-      rows = data;
+      rows = data.filter((r) => RE_HINT.test(r.case_name));
       countEl.textContent = rows.length.toLocaleString("en-US");
       if (rows.length) {
         const earliest = new Date(rows[rows.length - 1].date_filed + "T00:00:00");
@@ -367,27 +354,7 @@
       render();
       list.classList.add("in-view");
       filterEl.addEventListener("input", render);
-      reOnlyEl.addEventListener("change", render);
     }).catch(() => fail("Couldn't load the filings feed — try refreshing."));
-
-    // Shown only once SEC rows exist; database policy exposes Item 1.03 only.
-    sb.from("court_filings").select("case_name, docket_number, date_filed, docket_url")
-      .eq("filing_type", "sec_8k").gte("date_filed", since)
-      .order("date_filed", { ascending: false }).limit(200)
-      .then(({ data, error }) => {
-        if (error || !data || !data.length) return;
-        document.getElementById("sec-list").innerHTML = data.map((r) => {
-          const ok = typeof r.docket_url === "string" && r.docket_url.indexOf("https://www.sec.gov/Archives/edgar/data/") === 0;
-          return `<div style="display:flex; align-items:baseline; justify-content:space-between; gap:16px; padding:12px 24px; border-bottom:1px solid var(--border-soft);">
-            <div style="min-width:0;">
-              <div style="font-size:14px; font-weight:600; color:var(--text-primary);">${escapeHtml(r.case_name)}</div>
-              <div style="font-size:12.5px; color:var(--text-secondary);">Filed ${escapeHtml(r.date_filed)} · ${escapeHtml(r.docket_number)}</div>
-            </div>
-            ${ok ? `<a href="${escapeHtml(r.docket_url)}" target="_blank" rel="noopener noreferrer" style="font-size:12.5px; white-space:nowrap;">Filing</a>` : ""}
-          </div>`;
-        }).join("");
-        document.getElementById("sec-section").hidden = false;
-      });
   })();
 </script>
 </body>

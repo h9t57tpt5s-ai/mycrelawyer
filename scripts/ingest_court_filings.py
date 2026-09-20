@@ -76,7 +76,9 @@ HARRIS_JP_CASE_TYPES = {"8464": "Eviction"}
 # SCOPE (Jeff, 2026-09-19): "I want nothing residential and no debt
 # collection matters. That is not what this site is about." So case types
 # are an ALLOWLIST: a type that is not named here is dropped, including any
-# new type a clerk adds later. Deliberately excluded: every residential
+# new type a clerk adds later. The test for a type is simple: it must be a
+# commercial real estate matter on its face. Deliberately excluded: general
+# contract and business disputes, every residential
 # landlord-tenant and homestead/non-homestead foreclosure type, every Debt
 # Owed / Accounts / county-court and small-claims contract tier, negligence,
 # insurance, PIP, windshield, replevin, condominium and family matters.
@@ -89,13 +91,8 @@ HILLSBOROUGH_CASE_TYPES = [
     (re.compile(r"^Premises Liability-Commercial$", re.I), False),
     (re.compile(r"^Eminent Domain$", re.I), False),
     (re.compile(r"^Construction Defect$", re.I), True),
-    # Circuit-court (over $50,000) contract suits between two businesses,
-    # which is where commercial lease and guaranty disputes are filed.
-    # "Contract & Indebtedness" is NOT included: in practice it is commercial
-    # debt collection (merchant-cash-advance lenders, banks suing on notes).
-    # "Business Transactions" is NOT included: it is structured-settlement
-    # transfer petitions against insurers.
-    (re.compile(r"^(Breach of Contract|Business Torts)$", re.I), True),
+    # General contract and business-tort suits are NOT included, even between
+    # two businesses: nothing in the record ties them to real estate.
 ]
 # Justice-court evictions are not labeled commercial or residential, so an
 # eviction brought by what is plainly a housing operator is dropped.
