@@ -14,7 +14,11 @@ entity names instead.
 """
 
 import argparse
+import csv
 import datetime as dt
+import hashlib
+import http.cookiejar
+import io
 import json
 import os
 import re
@@ -48,6 +52,31 @@ SECONDS_BETWEEN_REQUESTS = 13
 MAX_CH11_PAGES = 10
 DESIGNATORS = {"llc", "inc", "incorporated", "corp", "corporation", "co", "company",
                "lp", "llp", "lllp", "ltd", "limited", "pllc", "pc", "pa", "na", "plc"}
+
+# --- State trial courts -----------------------------------------------------
+# Only two official sources were found that publish new filings with party
+# names and need no login, no CAPTCHA and carry no bar on automated use
+# (researched 2026-09-19; most big-county portals fail at least one test).
+#
+# PRIVACY RULE for both: these files are dominated by residential evictions
+# and consumer debt suits against individuals. Storing or alerting on those
+# would risk making CREdocket a tenant-screening service under the Fair
+# Credit Reporting Act. So a case is kept ONLY if a defendant is clearly a
+# business, ONLY business names are stored, and the caption (which can name
+# individuals) is never stored.
+HILLSBOROUGH_DIR = "https://publicrec.hillsclerk.com/Civil/dailyfilings/"
+HILLSBOROUGH_SEARCH = "https://hover.hillsclerk.com/html/home.html"
+HARRIS_JP_FORM = "https://jpwebsite.harriscountytx.gov/PublicExtracts/search.jsp"
+HARRIS_JP_DATA = "https://jpwebsite.harriscountytx.gov/PublicExtracts/GetExtractData"
+# Eviction and Small Claims. Debt Claim was tested and had no business
+# defendants in 237 cases, so it is not pulled.
+HARRIS_JP_CASE_TYPES = {"8464": "Eviction", "8466": "Small Claims"}
+STATE_UA = "CREdocket-surveillance/1.0 (+https://credocket.com)"
+BUSINESS_NAME = re.compile(
+    r"\b(llc|l\.l\.c|inc|incorporated|corp|corporation|company|co\.|l\.?p\.?|llp|ltd|limited|pllc|"
+    r"partners|partnership|holdings|group|associates|enterprises|properties|ventures|fund|bank|n\.a\.|"
+    r"association|hospital|insurance|stores?|markets?|restaurants?|university|church|authority)\b", re.I)
+NOT_A_BUSINESS = re.compile(r"\b(estate of|unknown|john doe|jane doe|tenant|occupant|any and all|heirs)\b", re.I)
 
 
 class BudgetExhausted(Exception):
@@ -213,6 +242,104 @@ def pull_sec_8k(date_from, date_to):
     return list(by_adsh.values())
 
 
+def is_business_name(name):
+    return bool(name) and bool(BUSINESS_NAME.search(name)) and not NOT_A_BUSINESS.search(name)
+
+
+def stable_id(source, case_number):
+    # court_filings keys on an integer; 52 bits stays exact in JSON numbers.
+    return int(hashlib.sha256(f"{source}:{case_number}".encode()).hexdigest()[:13], 16)
+
+
+def us_date(value):
+    try:
+        return dt.datetime.strptime(value.strip()[:10], "%m/%d/%Y").date().isoformat()
+    except ValueError:
+        return ""
+
+
+def state_filing(source, court_id, court_name, case_number, case_type, date_filed, defendants, plaintiffs, url):
+    biz_defendants = [n for n in defendants if is_business_name(n)]
+    if not biz_defendants or not case_number or not date_filed:
+        return None
+    parties = biz_defendants + [n for n in plaintiffs if is_business_name(n)]
+    return {
+        "source": source,
+        "source_docket_id": stable_id(source, case_number),
+        "filing_type": "civil",
+        "court_id": court_id,
+        "court_name": court_name,
+        "docket_number": case_number,
+        "case_name": f"{case_type or 'Civil case'} -- defendant: {biz_defendants[0]}",
+        "date_filed": date_filed,
+        "parties": list(dict.fromkeys(parties)),
+        "docket_url": url,
+    }
+
+
+def http_get(url, opener=None, referer=None, timeout=120):
+    headers = {"User-Agent": STATE_UA}
+    if referer:
+        headers["Referer"] = referer
+    req = urllib.request.Request(url, headers=headers)
+    with (opener.open(req, timeout=timeout) if opener else urllib.request.urlopen(req, timeout=timeout)) as resp:
+        return resp.read().decode("utf-8-sig", errors="replace")
+
+
+def pull_hillsborough(date_from, date_to):
+    listing = http_get(HILLSBOROUGH_DIR)
+    wanted = sorted({f for f in re.findall(r"CivilFiling_(\d{8})\.csv", listing)
+                     if date_from.replace("-", "") <= f <= date_to.replace("-", "")})
+    out = {}
+    for stamp in wanted:
+        time.sleep(1)
+        cases = {}
+        for row in csv.DictReader(io.StringIO(http_get(f"{HILLSBOROUGH_DIR}CivilFiling_{stamp}.csv"))):
+            if (row.get("CaseCategory") or "").strip() != "CV":
+                continue
+            case = cases.setdefault((row.get("CaseNumber") or "").strip(), {"type": "", "date": "", "def": [], "pl": []})
+            case["type"] = (row.get("CaseTypeDescription") or "").strip()
+            case["date"] = us_date(row.get("FilingDate") or "")
+            # A first name marks an individual; never treat those as businesses.
+            if (row.get("FirstName") or "").strip():
+                continue
+            name = (row.get("LastName/CompanyName") or "").strip()
+            role = (row.get("PartyType") or "").strip()
+            if role in ("Defendant", "Respondent"):
+                case["def"].append(name)
+            elif role in ("Plaintiff", "Petitioner"):
+                case["pl"].append(name)
+        for number, c in cases.items():
+            f = state_filing("hillsborough_fl", "fl-hillsborough", "Hillsborough County Circuit/County Civil Court, Florida",
+                             number, c["type"], c["date"], c["def"], c["pl"], HILLSBOROUGH_SEARCH)
+            if f:
+                out[f["source_docket_id"]] = f
+    return list(out.values()), len(wanted)
+
+
+def pull_harris_jp(date_from, date_to):
+    # The extract endpoint hangs without the session cookie the form page sets.
+    opener = urllib.request.build_opener(urllib.request.HTTPCookieProcessor(http.cookiejar.CookieJar()))
+    http_get(HARRIS_JP_FORM, opener=opener, timeout=60)
+    fmt = lambda iso: dt.date.fromisoformat(iso).strftime("%m/%d/%Y")
+    out, seen = {}, 0
+    for code, label in HARRIS_JP_CASE_TYPES.items():
+        time.sleep(2)
+        params = urllib.parse.urlencode({"extractCaseType": "CV", "extract": "7", "court": "300", "casetype": code,
+                                         "format": "csv", "fdate": fmt(date_from), "tdate": fmt(date_to)})
+        text = http_get(f"{HARRIS_JP_DATA}?{params}", opener=opener, referer=HARRIS_JP_FORM, timeout=180)
+        for raw in csv.DictReader(io.StringIO(text)):
+            row = {(k or "").strip(): (v or "").strip() for k, v in raw.items()}
+            seen += 1
+            f = state_filing("harris_jp_tx", "tx-harris-jp", "Harris County Justice Court, Texas",
+                             row.get("Case Number", ""), row.get("Case Type", "") or label, us_date(row.get("Case File Date", "")),
+                             [row.get("Defendant Name", ""), row.get("Second Defendant Name", "")],
+                             [row.get("Plaintiff Name", ""), row.get("Second Plaintiff Name", "")], HARRIS_JP_FORM)
+            if f:
+                out[f["source_docket_id"]] = f
+    return list(out.values()), seen
+
+
 def call_function(url, anon_key, secret, payload):
     req = urllib.request.Request(
         url, data=json.dumps(payload).encode(), method="POST",
@@ -286,13 +413,24 @@ def main():
         sec_rows = []
         print(f"SEC pull failed, continuing without it: {err}", file=sys.stderr)
 
+    state_rows = []
+    for label, pull in (("Hillsborough FL", pull_hillsborough), ("Harris County TX justice courts", pull_harris_jp)):
+        try:
+            got, scanned = pull(date_from, date_to)
+            state_rows += got
+            print(f"{label}: kept {len(got)} business-defendant cases ({scanned} {'daily files' if 'Hills' in label else 'cases'} scanned)")
+        except (urllib.error.URLError, ValueError, OSError) as err:
+            print(f"::warning::{label} pull failed, continuing without it: {err}")
+
     rows = list(filings.values())
     if args.dry_run:
+        for f in state_rows[:12]:
+            print(f"  {f['date_filed']} {f['court_id']:<16} {f['docket_number']:<14} {f['case_name'][:80]}")
         for f in sec_rows[:10]:
             print(f"  {f['date_filed']} sec_8k          {f['case_name'][:44]:<44} {f['docket_number'][:60]}")
         for f in rows[:15]:
             print(f"  {f['date_filed']} {f['filing_type']:<15} {f['court_id']:<6} {f['case_name'][:70]}")
-        print(f"DRY RUN: {len(rows)} court filings and {len(sec_rows)} SEC disclosures pulled, {len(searched)} entities searched, {budget - cl.remaining} requests used. Nothing sent.")
+        print(f"DRY RUN: {len(rows)} federal filings, {len(state_rows)} state-court cases and {len(sec_rows)} SEC disclosures pulled, {len(searched)} entities searched, {budget - cl.remaining} requests used. Nothing sent.")
         return
 
     total_new = 0
@@ -303,6 +441,14 @@ def main():
             sys.exit(f"Ingest failed (HTTP {status}): {body}")
         total_new += body.get("newMatches", 0)
         print(f"Ingested batch: {body}")
+    for i in range(0, len(state_rows), 400):
+        status, body = call_function(function_url, anon_key, secret, {"action": "ingest", "filings": state_rows[i:i + 400], "searchedEntities": []})
+        if status == 200:
+            total_new += body.get("newMatches", 0)
+            print(f"Ingested state-court batch: {body}")
+        else:
+            print(f"::warning::State-court batch not stored (HTTP {status}): {body}")
+
     # Sent separately and allowed to fail: until the 20260919b migration is
     # run the database rejects sec_8k rows, and that must not block the
     # court filings above.
@@ -313,7 +459,7 @@ def main():
             print(f"Ingested SEC batch: {body}")
         else:
             print(f"::warning::SEC batch not stored (HTTP {status}): {body}")
-    print(f"Done: {len(rows)} court filings and {len(sec_rows)} SEC disclosures sent, {total_new} new portfolio match(es).")
+    print(f"Done: {len(rows)} federal filings, {len(state_rows)} state-court cases and {len(sec_rows)} SEC disclosures sent, {total_new} new portfolio match(es).")
 
 
 if __name__ == "__main__":

@@ -17,12 +17,17 @@ import { buildAlertEmail, findMatches, matchableNames, type Entity, type NewMatc
 const AUTOMATION_SECRET = Deno.env.get("AUTOMATION_SECRET") ?? "";
 const RESEND_API_KEY = Deno.env.get("RESEND_API_KEY") ?? "";
 const SENDER_EMAIL = "no-reply@credocket.com";
-const URL_PREFIX: Record<string, string> = {
-  bankruptcy_ch11: "https://www.courtlistener.com/docket/",
-  civil: "https://www.courtlistener.com/docket/",
-  sec_8k: "https://www.sec.gov/Archives/edgar/data/",
+// Every accepted source, the filing types it may send, and the only URL
+// prefix its links may use. State-court sources reuse the "civil" type, so
+// they need no schema change; `source` is what tells them apart. They are
+// never publicly readable (the public policy covers only business Chapter
+// 11 petitions and SEC Item 1.03 rows).
+const SOURCES: Record<string, { types: string[]; urlPrefix: string }> = {
+  courtlistener: { types: ["bankruptcy_ch11", "civil"], urlPrefix: "https://www.courtlistener.com/docket/" },
+  sec_edgar: { types: ["sec_8k"], urlPrefix: "https://www.sec.gov/Archives/edgar/data/" },
+  hillsborough_fl: { types: ["civil"], urlPrefix: "https://hover.hillsclerk.com/" },
+  harris_jp_tx: { types: ["civil"], urlPrefix: "https://jpwebsite.harriscountytx.gov/" },
 };
-const SOURCE_FOR: Record<string, string> = { bankruptcy_ch11: "courtlistener", civil: "courtlistener", sec_8k: "sec_edgar" };
 const MAX_FILINGS_PER_CALL = 500;
 // Matching re-checks this many days of stored filings on every run, so an
 // entity added today still surfaces a petition filed last week.
@@ -54,6 +59,7 @@ async function fetchAll<T>(
 }
 
 type IncomingFiling = {
+  source: string;
   source_docket_id: number;
   filing_type: "bankruptcy_ch11" | "civil" | "sec_8k";
   court_id: string;
@@ -68,13 +74,18 @@ type IncomingFiling = {
 function parseFiling(raw: unknown): IncomingFiling | null {
   if (!raw || typeof raw !== "object") return null;
   const f = raw as Record<string, unknown>;
-  if (!Number.isInteger(f.source_docket_id)) return null;
-  if (typeof f.filing_type !== "string" || !(f.filing_type in URL_PREFIX)) return null;
+  // Rows from the original CourtListener pull carry no source field.
+  const source = typeof f.source === "string" ? f.source : "courtlistener";
+  const rules = Object.hasOwn(SOURCES, source) ? SOURCES[source] : null;
+  if (!rules) return null;
+  if (!Number.isSafeInteger(f.source_docket_id)) return null;
+  if (typeof f.filing_type !== "string" || !rules.types.includes(f.filing_type)) return null;
   if (typeof f.court_id !== "string" || typeof f.case_name !== "string" || !f.case_name.trim()) return null;
   if (typeof f.date_filed !== "string" || !/^\d{4}-\d{2}-\d{2}$/.test(f.date_filed)) return null;
-  if (typeof f.docket_url !== "string" || !f.docket_url.startsWith(URL_PREFIX[f.filing_type])) return null;
+  if (typeof f.docket_url !== "string" || !f.docket_url.startsWith(rules.urlPrefix)) return null;
   const parties = Array.isArray(f.parties) ? f.parties.filter((p): p is string => typeof p === "string" && p.trim().length > 0) : [];
   return {
+    source,
     source_docket_id: f.source_docket_id as number,
     filing_type: f.filing_type as IncomingFiling["filing_type"],
     court_id: f.court_id,
@@ -87,12 +98,12 @@ function parseFiling(raw: unknown): IncomingFiling | null {
   };
 }
 
-async function sendMatchEmail(toEmail: string, matches: NewMatch[], secLive: boolean): Promise<boolean> {
+async function sendMatchEmail(toEmail: string, matches: NewMatch[], liveSources: Set<string>): Promise<boolean> {
   if (!RESEND_API_KEY) {
     console.error("ingest-court-filings: RESEND_API_KEY is not set -- skipping email.");
     return false;
   }
-  const { subject, text } = buildAlertEmail(matches, secLive);
+  const { subject, text } = buildAlertEmail(matches, liveSources);
   try {
     const resp = await fetch("https://api.resend.com/emails", {
       method: "POST",
@@ -140,14 +151,13 @@ async function ingest(body: Record<string, unknown>) {
   if (filings.length) {
     const rows = filings.map((f) => ({
       ...f,
-      source: SOURCE_FOR[f.filing_type],
       // Only companies file Form 8-K.
       is_business: f.filing_type === "sec_8k" || matchableNames(f).some(looksLikeBusiness),
     }));
     const { data, error } = await supabaseAdmin
       .from("court_filings")
       .upsert(rows, { onConflict: "source,source_docket_id" })
-      .select("id, filing_type, court_name, docket_number, case_name, date_filed, parties, docket_url");
+      .select("id, source, filing_type, court_name, docket_number, case_name, date_filed, parties, docket_url");
     if (error) return jsonResponse({ error: "Could not store filings", detail: error.message }, 500);
     stored = (data ?? []) as StoredFiling[];
   }
@@ -159,11 +169,11 @@ async function ingest(body: Record<string, unknown>) {
   const since = new Date(Date.now() - MATCH_LOOKBACK_DAYS * 86_400_000).toISOString().slice(0, 10);
   const { rows: recent, error: recentErr } = await fetchAll<StoredFiling>((from, to) =>
     supabaseAdmin.from("court_filings")
-      .select("id, filing_type, court_name, docket_number, case_name, date_filed, parties, docket_url")
+      .select("id, source, filing_type, court_name, docket_number, case_name, date_filed, parties, docket_url")
       .gte("date_filed", since).order("id").range(from, to));
   if (recentErr) return jsonResponse({ error: "Could not load recent filings", detail: recentErr }, 500);
 
-  const secLive = recent.some((f) => f.filing_type === "sec_8k");
+  const liveSources = new Set(recent.map((f) => f.source));
   const candidates = findMatches(entityRows, recent);
   let newMatches: NewMatch[] = [];
   let emailsSent = 0;
@@ -213,7 +223,7 @@ async function ingest(body: Record<string, unknown>) {
       emailsFailed++;
       continue;
     }
-    if (await sendMatchEmail(email, items.map((i) => i.match), secLive)) {
+    if (await sendMatchEmail(email, items.map((i) => i.match), liveSources)) {
       emailsSent++;
       await supabaseAdmin.from("filing_matches").update({ emailed_at: new Date().toISOString() }).in("id", items.map((i) => i.id));
     } else {

@@ -1,10 +1,10 @@
-import { buildAlertEmail, findMatches, type Entity, type StoredFiling } from "./alert-logic.ts";
+import { buildAlertEmail, coverageLine, findMatches, type Entity, type StoredFiling } from "./alert-logic.ts";
 
 function assert(cond: unknown, msg: string) { if (!cond) throw new Error(msg); }
 
 const entity = (id: number, name: string, user = "u1"): Entity => ({ id, user_id: user, entity_name: name, entity_type: "tenant" });
 const filing = (id: number, over: Partial<StoredFiling>): StoredFiling => ({
-  id, filing_type: "bankruptcy_ch11", court_name: "United States Bankruptcy Court, W.D. Michigan", docket_number: "26-01234",
+  id, source: "courtlistener", filing_type: "bankruptcy_ch11", court_name: "United States Bankruptcy Court, W.D. Michigan", docket_number: "26-01234",
   case_name: "Meritage Hospitality Group Inc.", date_filed: "2026-09-17", parties: [],
   docket_url: "https://www.courtlistener.com/docket/1/x/", ...over,
 });
@@ -32,7 +32,7 @@ Deno.test("each user's entity matches independently; unrelated entities do not",
 
 Deno.test("Chapter 11 email names the entity, links the docket and the claim calculator", () => {
   const [m] = findMatches([entity(1, "Meritage Hospitality Group")], [filing(10, {})]);
-  const { subject, text } = buildAlertEmail([m], false);
+  const { subject, text } = buildAlertEmail([m], new Set(["courtlistener"]));
   assert(subject.includes("Meritage Hospitality Group"), subject);
   for (const want of ["Chapter 11 bankruptcy petition", "No. 26-01234", "filed 2026-09-17", "Match confidence: High", "https://www.courtlistener.com/docket/1/x/", "lease-rejection-claim-calculator.html", "State-court filings are not yet covered"]) {
     assert(text.includes(want), `missing: ${want}\n${text}`);
@@ -42,12 +42,12 @@ Deno.test("Chapter 11 email names the entity, links the docket and the claim cal
 });
 
 Deno.test("SEC email carries the item title and the caveat, and no bankruptcy calculator link", () => {
-  const f = filing(13, { filing_type: "sec_8k", court_name: "SEC Form 8-K", case_name: "MOSAIC CO", parties: ["MOSAIC CO"],
+  const f = filing(13, { source: "sec_edgar", filing_type: "sec_8k", court_name: "SEC Form 8-K", case_name: "MOSAIC CO", parties: ["MOSAIC CO"],
     docket_number: "Item 2.04: Triggering Events That Accelerate or Increase a Direct Financial Obligation",
     docket_url: "https://www.sec.gov/Archives/edgar/data/1285785/x/x-index.htm" });
   const m = findMatches([entity(1, "Mosaic Co")], [f]);
   assert(m.length === 1, "no SEC match");
-  const { text } = buildAlertEmail(m, true);
+  const { text } = buildAlertEmail(m, new Set(["courtlistener", "sec_edgar"]));
   for (const want of ["SEC Form 8-K event disclosure", "Item 2.04: Triggering Events", "names the type of event, not its cause", "Filing: https://www.sec.gov/"]) {
     assert(text.includes(want), `missing: ${want}\n${text}`);
   }
@@ -58,7 +58,27 @@ Deno.test("SEC email carries the item title and the caveat, and no bankruptcy ca
 Deno.test("multiple matches get a count subject and a 'possible' label where due", () => {
   const f2 = filing(14, { filing_type: "civil", case_name: "X v. Y", parties: ["Allred Heating Cooling Electric, LLC"] });
   const m = findMatches([entity(1, "Meritage Hospitality Group"), entity(2, "Allred Heating")], [filing(10, {}), f2]);
-  const { subject, text } = buildAlertEmail(m, true);
+  const { subject, text } = buildAlertEmail(m, new Set(["courtlistener", "sec_edgar"]));
   assert(subject.startsWith("2 new filings"), subject);
   assert(text.includes("Match confidence: Possible"), text);
+});
+
+Deno.test("state-court match is labeled as state, explains the business-only rule, and is claimed only when live", () => {
+  const f = filing(20, { source: "hillsborough_fl", filing_type: "civil", court_name: "Hillsborough County Circuit/County Court, Florida",
+    docket_number: "26-CC-012345", case_name: "LT Non-Residential Eviction/Past Due Rent -- defendant: Bracket UT LLC dba Bracket Solar",
+    parties: ["Bracket UT LLC dba Bracket Solar"], docket_url: "https://hover.hillsclerk.com/" });
+  const m = findMatches([entity(1, "Bracket Solar")], [f]);
+  assert(m.length === 1 && m[0].confidence === "exact", JSON.stringify(m));
+  const { text } = buildAlertEmail(m, new Set(["courtlistener", "hillsborough_fl"]));
+  for (const want of ["State court civil filing", "No. 26-CC-012345", "Only business parties are recorded", "Clerk's case search: https://hover.hillsclerk.com/", "only in Hillsborough County, Florida civil courts", "business defendant"]) {
+    assert(text.includes(want), `missing: ${want}\n${text}`);
+  }
+  assert(!text.includes("Federal civil suit") && !text.includes("Harris County"), text);
+});
+
+Deno.test("coverage line never claims a source with no stored rows", () => {
+  const none = coverageLine(new Set(["courtlistener"]));
+  assert(none.includes("State-court filings are not yet covered") && !none.includes("SEC") && !none.includes("County"), none);
+  const all = coverageLine(new Set(["courtlistener", "sec_edgar", "hillsborough_fl", "harris_jp_tx"]));
+  assert(all.includes("SEC Form 8-K") && all.includes("Hillsborough County") && all.includes("Harris County"), all);
 });
