@@ -16,7 +16,7 @@ const RELAW_DATA = {
      Drives the homepage's "New Today" pill: it only shows when this
      equals the visitor's local today. Updated by the digest automation
      each time Step 4 successfully adds a case — never touched otherwise. */
-  lastUpdatedDate: "2026-09-20",
+  lastUpdatedDate: "2026-09-21",
   categories: [
     { id: "landlord-tenant", label: "Landlord–Tenant", color: "var(--cat-landlord)" },
     { id: "zoning-land-use", label: "Zoning & Land Use", color: "var(--cat-zoning)" },
@@ -4762,6 +4762,38 @@ const RELAW_DATA = {
       ],
       judge: "Linda Cordaro",
       tags: ["premises liability", "pennsylvania", "mall", "code enforcement", "nuisance"]
+    },
+    {
+      id: "live-163",
+      addedDate: "2026-09-21",
+      featured: true,
+      title: "Town of Marshfield v. Commonwealth (SJC Rejects Second Municipal Challenge to MBTA Communities Act)",
+      category: "zoning-land-use",
+      status: "ruling",
+      date: "2026-09-18",
+      jurisdiction: "Massachusetts Supreme Judicial Court",
+      state: "MA",
+      amount: "Not a monetary claim; upholds a statewide multifamily zoning mandate covering 177 MBTA-served municipalities",
+      source: "live",
+      sourceUrl: "https://www.mass.gov/news/ag-campbell-issues-statement-after-sjc-rejects-marshfields-claims-challenging-the-mbta-communities-law",
+      summary: "The Massachusetts Supreme Judicial Court unanimously rejected a challenge brought by the Town of Marshfield and eight other municipalities to the MBTA Communities Act, the state law requiring 177 transit-served communities to zone for multifamily housing as of right. In a 22-page opinion issued September 18, 2026, Justice Serge Georges, Jr. rejected the towns' unfunded-mandate, Home Rule Amendment, and infrastructure-strain claims, marking the second time the SJC has upheld the law against coordinated municipal resistance.",
+      significance: "Removes a significant source of entitlement risk for developers pursuing multifamily projects in MBTA Communities Act zoning districts by foreclosing the strongest remaining legal theories towns had used to resist the mandate. REITs, developers, and their counsel evaluating transit-oriented sites in Massachusetts can now treat the statutory mandate itself as settled, though individual-municipality compliance status still needs to be confirmed before relying on as-of-right capacity.",
+      body: [
+        "Commercial developers who have spent the past several years trying to plan multifamily projects in Greater Boston's transit-served suburbs got a significant dose of legal certainty this month. On September 18, 2026, the Massachusetts Supreme Judicial Court unanimously rejected a challenge brought by the Town of Marshfield and eight other municipalities to the MBTA Communities Act, the 2021 state law that requires the 177 cities and towns served by the MBTA to adopt zoning that allows multifamily housing as of right near transit. The decision in Town of Marshfield and another v. Commonwealth and another, SJC-13840, is the second time in less than two years that the state's highest court has upheld the law against a coordinated municipal revolt, and it closes off several of the strongest remaining legal theories towns had floated for resisting it.",
+        "Marshfield and its co-plaintiff communities argued that the Act, codified at General Laws Chapter 40A, Section 3A, amounted to an unfunded state mandate imposed on municipalities without corresponding funding, that it violated the Home Rule Amendment to the Massachusetts Constitution by intruding on matters of purely local concern, and that it conflicted with the state's existing Zoning Act framework. The towns also argued that compliance would strain local infrastructure, including roads and sewer systems, beyond what their residents had approved through town meeting votes.",
+        "Writing for a unanimous court, Justice Serge Georges, Jr. rejected each theory. On the unfunded-mandate claim, the court held that Marshfield's complaint did not plausibly allege that the Act or its implementing regulations impose costs beyond the incidental local administration expenses that the state's mandate law expressly excludes from protection, and found it unnecessary to resolve the broader question of whether zoning-compliance costs are categorically excluded from unfunded-mandate protection at all. On the infrastructure-strain claim, the court found the town's allegations too conclusory and speculative to state a viable claim. On the Home Rule Amendment theory, the court reaffirmed that while the amendment protects municipal authority over genuinely local matters, it does not prevent the Legislature from imposing substantive statewide requirements that municipalities must implement through their existing local procedures, so long as the underlying statute is a valid general law addressing a matter of statewide concern, as the SJC had already found housing production to be.",
+        "The ruling builds directly on the SJC's January 2025 decision in Attorney General v. Town of Milton, SJC-13580, which first upheld the Act's core enforceability and confirmed the Attorney General's authority to sue noncompliant municipalities, while separately invalidating the state housing agency's initial implementing guidelines for having skipped required rulemaking procedures under the Administrative Procedure Act. Those guidelines have since been re-promulgated in compliance with the APA, and Marshfield's case represents the first major test of the law's durability once that procedural defect was cured. Massachusetts Attorney General Andrea Campbell, whose office defended the Act, said the ruling leaves the multifamily zoning mandate fully intact across every covered community.",
+        "For commercial real estate developers, the practical effect is to remove a meaningful category of entitlement risk from projects sited in MBTA Communities Act zoning districts. A developer who has spent months or years assembling a multifamily deal near a commuter rail stop or subway station no longer has to price in the possibility that a late-breaking municipal lawsuit could unwind the underlying zoning district itself, at least on the legal theories Marshfield advanced. Compliance and enforcement remain live issues distinct from this ruling, however: some of the 177 covered communities still have not adopted conforming zoning, and the Attorney General's office has separately pursued enforcement actions, including a pending suit against nine noncompliant communities, using the same tools validated in Milton.",
+        "Developers evaluating sites in MBTA Communities Act districts can now treat the underlying statutory mandate as settled law rather than a pending legal question, though they should still confirm that the specific municipality's zoning has been found compliant by the state's housing agency before relying on as-of-right multifamily capacity. Municipalities considering further resistance to the Act should recognize that both the unfunded-mandate and Home Rule theories have now been squarely rejected, narrowing the realistic paths left to challenge compliance obligations to procedural or as-applied claims rather than facial attacks on the law itself, and counsel advising REITs or institutional developers on transit-oriented zoning disputes elsewhere should watch how other states treat similarly structured mandates, since Massachusetts's two-round validation of this law is likely to be cited as persuasive authority as more states adopt comparable transit-zoning statutes."
+      ],
+      timeline: [
+        { when: "January 8, 2025", label: "SJC upholds the Act's core enforceability in Attorney General v. Town of Milton, but invalidates then-existing implementing guidelines for skipping required rulemaking procedures" },
+        { when: "September 18, 2026", label: "SJC unanimously rejects Marshfield's unfunded-mandate, Home Rule, and infrastructure-strain challenges in a 22-page opinion by Justice Serge Georges, Jr.", current: true }
+      ],
+      documentUrl: "https://www.mass.gov/doc/marshfield-v-commonwealth-sjc-s13840/download",
+      documentLabel: "Read the SJC's full opinion",
+      judge: "Serge Georges, Jr.",
+      tags: ["zoning", "massachusetts", "multifamily", "mbta communities act", "municipal law"]
     }
   ],
 
@@ -5506,6 +5538,14 @@ const RELAW_DATA = {
       court: "U.S. Court of Federal Claims",
       background: "Nominated by President Biden and confirmed by the Senate in December 2021, taking office on the U.S. Court of Federal Claims in February 2022. Previously served as Associate Deputy Attorney General in the U.S. Department of Justice from 2010 to 2017 and as Associate General Counsel for the U.S. Marshals Service from 2017 to 2018.",
       bioUrl: "https://www.uscfc.uscourts.gov/armando-o-bonilla"
+    },
+    {
+      name: "Serge Georges, Jr.",
+      slug: "serge-georges-jr",
+      title: "Associate Justice",
+      court: "Massachusetts Supreme Judicial Court",
+      background: "Appointed to the Massachusetts Supreme Judicial Court by Governor Charlie Baker and sworn in December 16, 2020, after serving as a judge of the Boston Municipal Court from 2013 to 2020. Previously in private practice at several Boston-area law firms following the start of his legal career in 1996; a former president of the Massachusetts Black Lawyers Association.",
+      bioUrl: "https://www.mass.gov/info-details/supreme-judicial-court-justices"
     }
   ],
 
