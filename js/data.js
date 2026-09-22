@@ -16,7 +16,7 @@ const RELAW_DATA = {
      Drives the homepage's "New Today" pill: it only shows when this
      equals the visitor's local today. Updated by the digest automation
      each time Step 4 successfully adds a case — never touched otherwise. */
-  lastUpdatedDate: "2026-09-21",
+  lastUpdatedDate: "2026-09-22",
   categories: [
     { id: "landlord-tenant", label: "Landlord–Tenant", color: "var(--cat-landlord)" },
     { id: "zoning-land-use", label: "Zoning & Land Use", color: "var(--cat-zoning)" },
@@ -4930,6 +4930,41 @@ const RELAW_DATA = {
       ],
       propertyType: "Mixed-Use",
       tags: ["zoning", "florida", "live local act", "affordable housing", "regulatory taking"]
+    },
+    {
+      id: "live-168",
+      addedDate: "2026-09-22",
+      title: "U.S. Bank N.A. v. 1592 Boston Street LLC (Bostonian Apartments Foreclosure)",
+      category: "lending-foreclosure",
+      status: "filed",
+      date: "2026-09-10",
+      jurisdiction: "Denver District Court, Colorado",
+      state: "CO",
+      amount: "$3,280,000 principal sought; property assessed at approximately $4.3M by Adams County",
+      source: "live",
+      sourceUrl: "https://businessden.com/the-docket-real-estate-lawsuit-roundup-for-9-17-26/",
+      summary: "U.S. Bank National Association filed a foreclosure complaint on September 10, 2026 in Denver District Court against 1592 Boston Street LLC, seeking to foreclose on the Bostonian Apartments, a 32-unit Aurora, Colorado complex, over a $3.28 million unpaid loan. The filing follows a Chapter 11 bankruptcy the borrower filed in January 2026 that was dismissed in May 2026 without a sale or refinancing.",
+      significance: "The case is a compressed illustration of how quickly commercial lenders are moving from bankruptcy tolerance to foreclosure once a small multifamily borrower's Chapter 11 case fails to produce a cure, sale, or refinancing. Owners of similarly distressed, revenue-declining multifamily assets should treat a bankruptcy filing as a narrow, temporary tool rather than a resolution in itself.",
+      body: [
+        "On September 10, 2026, U.S. Bank National Association filed a foreclosure complaint in Denver District Court against 1592 Boston Street LLC, the entity that owns the Bostonian Apartments, a 32-unit complex at 1592 Boston Street in Aurora, Colorado. The suit, filed as case number 26CV31801 through Polsinelli P.C. attorney William R. Meyer, alleges the borrower has failed to repay a $3,280,000 loan secured by the property. The filing is the latest, and likely decisive, chapter in a distress saga that began with a Chapter 11 bankruptcy filing at the start of the year, and it offers commercial lenders and small multifamily owners a compressed illustration of how a stressed loan can move from workout attempts to litigation once a property's revenue keeps falling and a bankruptcy case fails to produce a resolution.",
+        "The Bostonian Apartments is one of two side-by-side, similarly sized apartment properties in north Aurora that share a common owner and manager, Shaul Gabbay, but sit in separate single-asset LLCs and carry separate loans. The companion property, a 32-unit building at 1960 Dallas Street, is financed through a loan held by Wilmington Trust National Association, which had already sought appointment of a receiver over that property as early as April 2025 after payments lapsed. Both LLCs filed for Chapter 11 bankruptcy protection on January 9, 2026, a step that, at least temporarily, halted the Dallas Street receivership push and gave Gabbay's ownership entities breathing room to attempt a reorganization or a sale. Adams County assessed the Boston Street property at roughly $4.3 million against the $3 million U.S. Bank was then owed, and county records showed the property's annual revenue had already fallen 22% year over year, from $549,000 in 2024 to $426,000 in 2025.",
+        "The bankruptcy did not hold. The Boston Street Chapter 11 case was dismissed roughly a week after mid-May 2026, before the building had been sold or refinanced, returning U.S. Bank to essentially the same position it occupied before the filing, only with several more months of accrued interest, fees, and uncertainty added to the balance now sought in the foreclosure complaint. On the companion Dallas Street property, Wilmington Trust asked the court on June 1, 2026 to reappoint a receiver, citing Gabbay's failure to pay rent on time since the previous December. Gabbay himself told local reporters around that time that he expected U.S. Bank to eventually foreclose on the Boston Street building as well, a prediction the September 10 filing has now confirmed.",
+        "For lenders and special servicers holding paper against small, thinly capitalized multifamily borrowers, the sequence here is a useful template of how quickly a Chapter 11 filing's protective effect can evaporate when the underlying property's cash flow does not stabilize. A borrower that uses bankruptcy primarily to pause a receivership or foreclosure action, rather than to execute a credible plan to cure arrears or refinance, buys time rather than a solution, and lenders are increasingly willing to let a case run its course to dismissal and then move immediately to enforce their original remedies. The roughly four-month gap between the Boston Street dismissal in mid-May and the new foreclosure complaint in September also suggests lenders are pairing patience with a hard deadline rather than litigating reflexively the moment a bankruptcy case closes.",
+        "The parallel treatment of the two Aurora properties, one now in a fresh foreclosure action and the other back under a receivership request, illustrates why lenders and courts increasingly favor receivership as an interim tool even when foreclosure is the eventual endpoint: it installs independent, professional management over rent collection and building operations while the larger legal process plays out, protecting collateral value that might otherwise erode further under a distressed owner's continued control. Owners of similarly sized, revenue-challenged multifamily assets should treat a Chapter 11 filing as a narrow, temporary tool rather than a fix in itself, should assume a lender that has already tolerated a receivership request, a bankruptcy filing, and a post-dismissal grace period will not extend the same patience twice, and should recognize that documenting a credible path to stabilized cash flow, or an actual signed sale or refinancing commitment, before that patience runs out is now effectively the price of avoiding foreclosure in a case like this one."
+      ],
+      timeline: [
+        { when: "April 2025", label: "Wilmington Trust seeks a receiver over the companion 1960 Dallas Street property after payments lapse" },
+        { when: "January 9, 2026", label: "Both 1592 Boston Street LLC and the affiliated 1960 Dallas Street LLC file Chapter 11 bankruptcy" },
+        { when: "Mid-to-late May 2026", label: "The 1592 Boston Street Chapter 11 case is dismissed without a sale or refinancing" },
+        { when: "June 1, 2026", label: "Wilmington Trust asks the court to reappoint a receiver over 1960 Dallas Street" },
+        { when: "September 10, 2026", label: "U.S. Bank files a foreclosure complaint against 1592 Boston Street LLC in Denver District Court", current: true }
+      ],
+      parties: [
+        { name: "U.S. Bank National Association", role: "Lender/Plaintiff" },
+        { name: "1592 Boston Street LLC", role: "Borrower/Defendant" }
+      ],
+      propertyType: "Multifamily",
+      tags: ["foreclosure", "colorado", "multifamily", "chapter 11", "receivership"]
     }
   ],
 
