@@ -4965,6 +4965,74 @@ const RELAW_DATA = {
       ],
       propertyType: "Multifamily",
       tags: ["foreclosure", "colorado", "multifamily", "chapter 11", "receivership"]
+    },
+    {
+      id: "live-169",
+      addedDate: "2026-09-22",
+      title: "Advenir Azora Development, LLC v. City of Hendersonville (Zoning Denial Suit — Partial Dismissal)",
+      category: "zoning-land-use",
+      status: "ruling",
+      date: "2026-09-01",
+      jurisdiction: "Henderson County Superior Court, North Carolina",
+      state: "NC",
+      amount: "180-unit, 21-acre rezoning denial; declaratory and injunctive relief sought, no liquidated damages claim",
+      source: "live",
+      sourceUrl: "https://www.hendersonvillelightning.com/news/16296-although-city-won-two-rounds-haywood-road-zoning-lawsuit-survives.html",
+      summary: "Henderson County Superior Court Judge Troy Stafford dismissed two of three claims in Miami developer Advenir Azora Development's suit over the City of Hendersonville's January 2026 denial of a rezoning request for a 180-unit rental project on Haywood Road, but let the developer's core 'arbitrary and capricious' claim proceed. The suit followed the city council's unanimous denial of the LEO Hendersonville project's request to convert a 21-acre single-family subdivision entitlement into denser rental housing.",
+      significance: "Shows which theories survive a motion to dismiss in a rezoning-denial challenge: statutory-authority and due-process claims were dismissed for lack of specific factual support, while the arbitrary-and-capricious claim, which turns on whether the council's stated reasons are supported by the administrative record, survived. Developers challenging a rezoning denial elsewhere should expect the same triage and build their hearing record accordingly.",
+      body: [
+        "Commercial developers challenging a local government's rezoning denial got a mixed, but instructive, result out of North Carolina this month. On September 1, 2026, Henderson County Superior Court Judge Troy Stafford dismissed two of the three claims brought by Advenir Azora Development, LLC against the City of Hendersonville over the city council's January 2026 denial of a rezoning request for a 180-unit multifamily project on Haywood Road, while allowing the developer's core claim, that the denial was arbitrary and capricious, to proceed toward a hearing on the merits.",
+        "Advenir Azora, a Miami-based builder known for duplex, triplex, and quadplex rental communities, had spent more than a year pursuing a zoning change for a 21-acre tract at 1741 Haywood Road, branded the LEO Hendersonville project. The proposal would have replaced the site's existing single-family subdivision entitlement with a denser mix of attached rental units. After the city council voted unanimously in January 2026 to deny the rezoning, Advenir Azora filed suit in March, alleging the council's denial exceeded its statutory zoning authority, violated the developer's due process rights, and was, independently, arbitrary and capricious given the evidence presented at the public hearing.",
+        "The city moved to dismiss all three counts. In his September 1 order, Judge Stafford agreed with the city on two of them, finding the complaint did not plead facts sufficient to show the council acted outside the scope of its statutory zoning power or that its process denied Advenir Azora constitutionally adequate process. But the court declined to dismiss the arbitrary-and-capricious claim, which functions in North Carolina zoning litigation as something close to a certiorari-style review of whether the council's stated reasons for denial are supported by competent, material, and substantial evidence in the record. That claim will now proceed to further briefing and, eventually, a hearing on whether the council's stated rationale for rejecting the LEO Hendersonville rezoning actually holds up.",
+        "For commercial real estate owners, developers, and their counsel, the ruling is a useful data point on how North Carolina trial courts are triaging this increasingly common category of dispute: a developer whose rezoning application is voted down and responds with a multi-count complaint layering procedural and constitutional theories on top of a more fact-intensive 'was this decision supported by the record' claim. Statutory-authority and due-process claims, which require a developer to show something closer to bad faith or a fundamentally broken process, are proving difficult to plead past the motion-to-dismiss stage on generalized allegations of an unreasonable denial. The arbitrary-and-capricious theory, by contrast, puts the burden back on the record built during the public hearing process, and Judge Stafford's order suggests that theory is enough, standing alone, to keep a rezoning-denial suit alive.",
+        "The case also carries a lesson about pacing: the city has now won two rounds in a motion practice that has stretched from the March filing through a September ruling, without resolving the underlying question of whether the LEO Hendersonville rezoning denial itself was defensible. Municipal defendants facing similar suits should expect that a well-pleaded arbitrary-and-capricious count is likely to survive even a partially successful motion to dismiss, meaning the fight typically shifts to the administrative record compiled at the public hearing rather than ending with the pleadings. Developers, for their part, should treat the record made at the rezoning hearing, the traffic, density, and infrastructure evidence presented, and the specificity of the reasons a governing board gives for denial, as the single most consequential piece of evidence in any later court challenge; municipalities should ensure denial votes are accompanied by specific, evidence-based findings, since generalized or conclusory reasons for denial are the likeliest point of vulnerability once a case reaches arbitrary-and-capricious review."
+      ],
+      timeline: [
+        { when: "January 2026", label: "Hendersonville City Council unanimously denies the LEO Hendersonville rezoning request" },
+        { when: "March 2026", label: "Advenir Azora Development files suit against the City of Hendersonville" },
+        { when: "September 1, 2026", label: "Judge Troy Stafford dismisses the statutory-authority and due-process counts but lets the arbitrary-and-capricious claim proceed", current: true }
+      ],
+      parties: [
+        { name: "Advenir Azora Development, LLC", role: "Plaintiff" },
+        { name: "City of Hendersonville, North Carolina", role: "Defendant" }
+      ],
+      propertyType: "Multifamily",
+      judge: "Troy Stafford",
+      tags: ["zoning", "north carolina", "rezoning denial", "arbitrary and capricious", "multifamily"]
+    },
+    {
+      id: "live-170",
+      addedDate: "2026-09-22",
+      title: "LRK, LLC v. City of St. George (Kleinpeter Tract Downzoning Challenge — TRO Granted)",
+      category: "zoning-land-use",
+      status: "pending",
+      date: "2026-07-13",
+      jurisdiction: "19th Judicial District Court, East Baton Rouge Parish, Louisiana",
+      state: "LA",
+      amount: "~60-acre commercially zoned parcel; declaratory and injunctive relief sought",
+      source: "live",
+      sourceUrl: "https://www.theadvocate.com/baton_rouge/news/courts/st-george-rezoning-lawsuit/article_b2538455-124f-4683-bffe-323678f2c4a3.html",
+      summary: "A 19th Judicial District Court judge signed a temporary restraining order in July 2026 blocking the City of St. George, Louisiana from adopting or enforcing a proposed ordinance that would downzone nearly 60 acres of commercially zoned land at the Pecue Lane/I-10 interchange owned by an entity tied to the Kleinpeter family. Plaintiff LRK, LLC's June 8, 2026 suit also asks the court to declare the city's own legal incorporation date, a question tied to the scope of St. George's zoning and ordinance-making authority.",
+      significance: "Illustrates the risk a wholesale zoning-code consolidation poses to parcels holding stable, decades-old commercial entitlements, and shows a TRO can freeze a pending rezoning ordinance before it takes effect. The case's added challenge to the city's own incorporation date is a reminder that a young or recently reorganized municipality's zoning authority can itself become a point of legal attack.",
+      body: [
+        "A commercial landowner's zoning dispute with Louisiana's newest municipality has produced a rare interim win for the property side, and a reminder that a city's own legal foundation can become collateral damage in a land-use fight. In July 2026, a judge on the 19th Judicial District Court, sitting in East Baton Rouge Parish, signed a temporary restraining order barring the City of St. George from adopting or enforcing a proposed ordinance that would downzone nearly 60 acres of commercially zoned land owned by an entity tied to the Kleinpeter family at the Pecue Lane interchange with Interstate 10. The order, sought by plaintiff LRK, LLC, halts the rezoning while the underlying suit, filed June 8, 2026, proceeds, a suit that also asks the court to resolve a separate and unusually consequential question: the actual legal date St. George came into existence as a city.",
+        "The dispute traces back to St. George's broader overhaul of its zoning code, approved by the city council on April 28, 2026, which consolidated the area's 45 legacy zoning districts, inherited from East Baton Rouge Parish's pre-incorporation zoning map, into a streamlined 16-district structure. LRK's Pecue Lane tract had carried a heavy commercial classification for more than three decades under the prior parish zoning regime. Under the new consolidated map, the city proposed to reclassify the parcel into a more restrictive district, a change LRK's complaint characterizes as an unconstitutional downzoning that would materially reduce the density and scale of development the site could support. LRK is asking the court to declare any more restrictive zoning classification for the tract unconstitutional and unenforceable as applied to its property, and, in the interim, obtained the TRO to prevent the city from finalizing the new classification while that claim is litigated.",
+        "What elevates the case beyond a standard rezoning challenge is LRK's decision to fold in a direct attack on St. George's legal incorporation date. St. George's creation as an independent municipality was itself the subject of years of contentious litigation and a Louisiana Supreme Court ruling upholding the incorporation, but LRK's complaint asks the court to declare a different, specific incorporation date than the one the city has operated under, a question with implications reaching well beyond a single parcel if the city's zoning and ordinance-making authority is tied to when its legal existence is deemed to have begun. The city has pushed back, filing a memorandum opposing continuation of the restraining order and defending both the substance of the proposed rezoning and its own incorporation timeline, and a motion hearing on LRK's request to convert the temporary order into a preliminary injunction followed in August 2026.",
+        "For commercial property owners, developers, and lenders with holdings inside a newly incorporated or recently reorganized municipality, the case is a pointed illustration of the risk that comes with a wholesale zoning-code overhaul: parcels that carried stable, decades-old commercial entitlements under a prior regime, in this instance parish-administered zoning, can be swept into more restrictive classifications as part of a broad consolidation effort that is not, on its face, targeted at any single property. That risk is compounded here by the surrounding legal uncertainty about the young municipality's own governing authority, a factor unlikely to recur in most zoning disputes but one that materially raises the stakes, and the potential remedies, in this particular case.",
+        "Owners of commercially zoned land inside a municipality undergoing a zoning-code consolidation should review draft district maps early and comment during the adoption process, since a broad recodification can quietly downzone individual parcels without any property-specific hearing. A temporary restraining order remains a meaningful tool to freeze a pending rezoning ordinance before it takes effect, buying time to litigate the underlying constitutional or statutory challenge, and counsel evaluating a challenge to a young or newly reorganized municipality's zoning action should consider whether questions about the jurisdiction's own legal formation could strengthen, or complicate, the underlying land-use claim."
+      ],
+      timeline: [
+        { when: "April 28, 2026", label: "St. George City Council approves a zoning-code overhaul consolidating 45 districts into 16" },
+        { when: "June 8, 2026", label: "LRK, LLC files suit challenging the downzoning of its Pecue Lane tract and St. George's incorporation date" },
+        { when: "July 13, 2026", label: "19th Judicial District Court judge signs a TRO blocking the proposed rezoning", current: true },
+        { when: "August 11, 2026", label: "Motion hearing held on converting the TRO into a preliminary injunction" }
+      ],
+      parties: [
+        { name: "LRK, LLC", role: "Plaintiff" },
+        { name: "City of St. George, Louisiana", role: "Defendant" }
+      ],
+      propertyType: "Land/Development",
+      tags: ["zoning", "louisiana", "downzoning", "temporary restraining order", "incorporation dispute"]
     }
   ],
 
