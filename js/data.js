@@ -16,7 +16,7 @@ const RELAW_DATA = {
      Drives the homepage's "New Today" pill: it only shows when this
      equals the visitor's local today. Updated by the digest automation
      each time Step 4 successfully adds a case — never touched otherwise. */
-  lastUpdatedDate: "2026-09-22",
+  lastUpdatedDate: "2026-09-23",
   categories: [
     { id: "landlord-tenant", label: "Landlord–Tenant", color: "var(--cat-landlord)" },
     { id: "zoning-land-use", label: "Zoning & Land Use", color: "var(--cat-zoning)" },
@@ -5033,6 +5033,72 @@ const RELAW_DATA = {
       ],
       propertyType: "Land/Development",
       tags: ["zoning", "louisiana", "downzoning", "temporary restraining order", "incorporation dispute"]
+    },
+    {
+      id: "live-171",
+      addedDate: "2026-09-23",
+      featured: true,
+      title: "Sheetz, Inc. v. City of Centerville (Ohio Supreme Court Allows Separate Damages Suit After Site-Plan Appeal Win)",
+      category: "zoning-land-use",
+      status: "ruling",
+      date: "2026-09-15",
+      jurisdiction: "Supreme Court of Ohio",
+      state: "OH",
+      amount: "Damages claim for construction delay and lost revenue remanded for further proceedings; no figure yet determined",
+      source: "live",
+      sourceUrl: "https://www.daytondailynews.com/local/ohio-supreme-court-sheetz-can-pursue-legal-action-against-centerville/article_c8e22d40-fdfa-5b31-a69d-8b84ac655822.html",
+      summary: "The Supreme Court of Ohio ruled unanimously on September 15, 2026 that Sheetz, Inc. may pursue a separate civil action for damages against the City of Centerville after already winning an administrative appeal that found the city improperly rejected an approved site plan for a new travel-center store. Writing for the court, Justice Joseph T. Deters held that Ohio's R.C. Chapter 2506 administrative-appeal process cannot award damages and therefore does not require a party to raise a damages claim during that appeal to preserve it.",
+      significance: "Gives commercial developers a clear procedural roadmap for recovering delay-related losses after successfully challenging a wrongful zoning or site-plan denial, removing a forfeiture argument municipalities have used to try to cut off damages exposure once the underlying zoning fight is resolved. Developers and REITs facing improper site-plan rejections should document delay costs contemporaneously, since liability questions now proceed on remand with the right to sue for damages already settled.",
+      body: [
+        "Commercial developers who win an administrative appeal reversing a municipality's improper rejection of a site plan have long faced an uncomfortable question: does that victory, by itself, preserve a right to sue for the resulting financial harm, or must damages be pleaded during the administrative appeal itself, on pain of forfeiting them? On September 15, 2026, the Supreme Court of Ohio answered that question in Sheetz, Inc. v. City of Centerville, holding unanimously that Ohio law does not permit, and therefore does not require, a party to seek money damages or declaratory relief during an R.C. Chapter 2506 administrative appeal, and that a developer who prevails on such an appeal may still bring a separate civil action for damages afterward.",
+        "The case traces to 2023, when the Centerville City Council, responding to public opposition from groups including Epiphany Lutheran Church and Bethany Village Senior Living, voted to overturn a site plan for a new Sheetz travel-center and convenience store at 6318 Far Hills Avenue near the Interstate 675 interchange, a plan the city's own planning commission had already approved unanimously as compliant with every applicable development standard. Sheetz appealed that rejection administratively, and in January 2025 a Montgomery County Common Pleas Court judge agreed that the council had exceeded its authority, ordering the city to approve the site plan it never should have rejected. That victory settled the zoning question but left open whether Sheetz could recover for the resulting construction delay, lost revenue, and carrying costs, and whether Sheetz had already lost that right by not asking for damages during the administrative appeal itself.",
+        "Centerville argued it had, contending that Ohio's administrative-appeal statute and ordinary preclusion principles required Sheetz to raise any damages claim within the same proceeding that challenged the council's decision. A federal district court handling a related claim certified the underlying state-law question to the Ohio Supreme Court given its significance beyond the immediate dispute. Writing for a unanimous court joined by Chief Justice Sharon L. Kennedy and Justices Patrick F. Fischer, Jennifer Brunner, Daniel R. Hawkins, and Megan E. Shanahan, Justice Deters rejected Centerville's position: an R.C. Chapter 2506 administrative appeal is a limited proceeding confined to reviewing whether the agency's decision was supported by the evidence and consistent with law, not a vehicle for litigating damages, so Sheetz's later civil action for money is not a prohibited second bite at the same claim.",
+        "The ruling matters well beyond one Dayton-area convenience store. Ohio, like most states, relies heavily on administrative appeals as the primary mechanism for challenging local zoning and site-plan decisions, and municipalities frequently argue that a developer's failure to raise every conceivable claim during that appeal forfeits it. The decision forecloses that argument for damages claims specifically, giving developers a clear roadmap: win the zoning fight first through the administrative process, then pursue a separate action for the resulting financial harm without fear that the first victory quietly extinguished the second claim. For municipalities, an improper site-plan denial now carries real exposure to follow-on damages litigation rather than ending, from the city's perspective, with a merely symbolic administrative loss.",
+        "Sheetz's underlying damages claim now returns to the trial court for further proceedings, with liability for the delay caused by Centerville's rejected site plan still to be determined. For developers and REITs elsewhere, the case is a reminder to document delay-related costs, including carrying costs, lost revenue, financing costs, and construction-cost escalation, as they accrue, since proving those figures will be the central task once a damages case actually gets underway, and to recognize that winning a zoning appeal is often only the first of two fights a wrongful rejection can require."
+      ],
+      timeline: [
+        { when: "2023", label: "Centerville City Council overturns planning commission's approval of Sheetz site plan" },
+        { when: "January 2025", label: "Montgomery County Common Pleas Court rules the council exceeded its authority and orders site-plan approval" },
+        { when: "September 15, 2026", label: "Ohio Supreme Court rules unanimously that Sheetz may separately sue for damages", current: true }
+      ],
+      parties: [
+        { name: "Sheetz, Inc.", role: "Plaintiff" },
+        { name: "City of Centerville, Ohio", role: "Defendant" }
+      ],
+      propertyType: "Retail",
+      judge: "Joseph T. Deters",
+      tags: ["zoning", "ohio", "site plan", "administrative appeal", "damages"]
+    },
+    {
+      id: "live-172",
+      addedDate: "2026-09-23",
+      title: "Schurman Family Company TIC v. Superior Court (Privette Doctrine Extended to Non-Hiring Landlord)",
+      category: "premises-liability",
+      status: "ruling",
+      date: "2026-08-26",
+      jurisdiction: "California Court of Appeal, First Appellate District, Division Two",
+      state: "CA",
+      amount: "Not a monetary ruling; writ relief directing entry of summary judgment for the warehouse-owner landlord",
+      source: "live",
+      sourceUrl: "https://www.businessinsurance.com/california-court-says-landlord-protected-from-contractor-injury-suit/",
+      summary: "California's First Appellate District ruled on August 26, 2026 that a warehouse owner is protected from a contractor's employee's injury lawsuit under the Privette doctrine, even though the landlord itself never hired the contractor. The court held Privette extends to any party within the 'chain of delegation' leading to a contractor's retention, reversing a trial court that had denied summary judgment because the landlord was not the direct hiring party.",
+      significance: "Widens Privette doctrine protection for California commercial landlords whose leases authorize tenants to bring in independent contractors for installation or maintenance work, narrowing a liability gap counsel previously treated as uncertain whenever the landlord itself was not the hiring party. Landlords should still confirm their leases clearly contemplate the type of contracted work at issue, since the doctrine's traditional exceptions for retained control or undisclosed hazards remain unaffected.",
+      body: [
+        "Commercial landlords in California have generally understood that when their tenants bring in independent contractors to perform work on leased premises, and one of that contractor's workers gets hurt, the landlord's own liability exposure turns heavily on whether it was the entity that actually hired the contractor. On August 26, 2026, the California Court of Appeal, First Appellate District, Division Two, complicated that understanding in Schurman Family Company TIC v. Superior Court, granting a warehouse owner writ relief and directing the trial court to enter summary judgment in the landlord's favor, even though the landlord itself never hired the contractor whose employee was injured.",
+        "Schurman Family Company, as tenant-in-common owner of a warehouse, had leased roof space and associated access rights to Verizon Wireless specifically so Verizon could install and maintain communications equipment there. Verizon, exercising rights the lease expressly contemplated, hired a general contractor to service that equipment, and the contractor sent an employee to the roof to perform the work; that employee fell through a skylight and was seriously injured, and he sued the warehouse owner directly. The trial court denied Schurman's motion for summary judgment, reasoning that because Schurman was the tenant's landlord rather than the entity that directly hired the contractor, California's Privette doctrine, which generally shields a hiring party from liability for a contractor's employees' on-the-job injuries, did not apply.",
+        "The Court of Appeal reversed, holding that Privette's protection is not confined to parties in a direct hiring relationship with the contractor but extends to anyone within what the court described as the 'chain of delegation' leading to the contractor's retention. Because Schurman's lease with Verizon expressly contemplated that Verizon would bring in independent contractors to install and maintain the very equipment the injured worker was servicing, and Verizon in fact hired the contractor to perform exactly that contemplated work, the panel held Schurman fell within that chain of delegation and was entitled to Privette's protection as though it had hired the contractor directly, absent a recognized exception to the doctrine.",
+        "The decision matters for how commercial landlords structure and think about lease provisions authorizing tenant-arranged contractor work, a routine feature of leases covering rooftop telecommunications equipment, HVAC systems, and similar installations where the tenant, not the landlord, engages and directs the outside contractor. Before this ruling, a cautious landlord's counsel might have advised that Privette protection was uncertain whenever the landlord itself was not the hiring party. The First District's chain-of-delegation reasoning substantially narrows that gap, at least where the lease contemplates and authorizes the tenant's use of independent contractors for the work in question and no recognized exception, such as retained control over the work or concealment of a known hazard, applies.",
+        "Because this is a single appellate district's decision, landlords and counsel elsewhere in California should watch for whether other districts or the California Supreme Court adopt the same reasoning before treating it as settled statewide law, and should in the meantime ensure lease language clearly and specifically contemplates the category of contracted work a tenant is authorized to bring onto the property, since the strength of a chain-of-delegation defense in a future dispute will likely turn on how explicitly the lease anticipated it."
+      ],
+      timeline: [
+        { when: "August 26, 2026", label: "First Appellate District grants writ relief, directs summary judgment for the landlord", current: true }
+      ],
+      parties: [
+        { name: "Schurman Family Company", role: "Defendant/Petitioner (warehouse owner)" },
+        { name: "Verizon Wireless", role: "Tenant" }
+      ],
+      propertyType: "Industrial",
+      tags: ["premises liability", "california", "privette doctrine", "contractor injury", "verizon"]
     }
   ],
 
@@ -5449,7 +5515,9 @@ const RELAW_DATA = {
     { jurisdiction: "Supreme Court of Wyoming", url: "https://www.wyocourts.gov/supreme-court/" },
     { jurisdiction: "Delaware Court of Chancery", url: "https://courts.delaware.gov/chancery/" },
     { jurisdiction: "U.S. Court of Appeals for the Fourth Circuit", url: "https://www.ca4.uscourts.gov/" },
-    { jurisdiction: "U.S. Court of Federal Claims", url: "https://www.uscfc.uscourts.gov/" }
+    { jurisdiction: "U.S. Court of Federal Claims", url: "https://www.uscfc.uscourts.gov/" },
+    { jurisdiction: "Supreme Court of Ohio", url: "https://www.supremecourt.ohio.gov/" },
+    { jurisdiction: "California Court of Appeal, First Appellate District, Division Two", url: "https://www.courts.ca.gov/1dca.htm" }
   ],
 
   /* Judges — background on every judge named in our sourced reporting (never
@@ -5785,6 +5853,14 @@ const RELAW_DATA = {
       court: "Massachusetts Supreme Judicial Court",
       background: "Appointed to the Massachusetts Supreme Judicial Court by Governor Charlie Baker and sworn in December 16, 2020, after serving as a judge of the Boston Municipal Court from 2013 to 2020. Previously in private practice at several Boston-area law firms following the start of his legal career in 1996; a former president of the Massachusetts Black Lawyers Association.",
       bioUrl: "https://www.mass.gov/info-details/supreme-judicial-court-justices"
+    },
+    {
+      name: "Joseph T. Deters",
+      slug: "joseph-t-deters",
+      title: "Justice",
+      court: "Supreme Court of Ohio",
+      background: "Appointed to the Supreme Court of Ohio by Governor Mike DeWine in January 2023 and elected to a full six-year term in November 2024. Previously Hamilton County Prosecutor from 1992 to 1999 and again from 2005 to 2023, after beginning his career as an assistant prosecutor in the same office in 1982.",
+      bioUrl: "https://www.supremecourt.ohio.gov/judicial-system/supreme-court-of-ohio/justices-overview/joseph-deters/"
     }
   ],
 
@@ -5827,6 +5903,7 @@ const RELAW_DATA = {
     { name: "D.R. Horton, Inc.", matchTerm: "D.R. Horton", slug: "dr-horton", description: "NYSE-listed national homebuilder and land developer, active in single-family and multifamily residential land entitlement and development nationally.", website: "https://www.drhorton.com" },
     { name: "Rialto Capital Advisors", matchTerm: "Rialto Capital", slug: "rialto-capital-advisors", description: "Miami-based investment and asset management platform that frequently serves as special servicer for CMBS trusts in commercial mortgage foreclosure litigation.", website: "https://rialtocapital.com" },
     { name: "Blackstone", slug: "blackstone", description: "Global alternative asset manager and one of the largest owners of multifamily, office, and other commercial real estate nationally, both directly and through portfolio landlord entities.", website: "https://www.blackstone.com" },
-    { name: "Simon Property Group", slug: "simon-property-group", description: "NYSE-listed REIT and the nation's largest owner of shopping malls and premium outlet centers.", website: "https://www.simon.com" }
+    { name: "Simon Property Group", slug: "simon-property-group", description: "NYSE-listed REIT and the nation's largest owner of shopping malls and premium outlet centers.", website: "https://www.simon.com" },
+    { name: "Verizon Wireless", matchTerm: "Verizon", slug: "verizon-wireless", description: "National wireless carrier that leases rooftop and site space from commercial landlords nationwide for communications and distributed-antenna equipment.", website: "https://www.verizon.com" }
   ]
 };
