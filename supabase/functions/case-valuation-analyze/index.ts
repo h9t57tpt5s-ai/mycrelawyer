@@ -1822,17 +1822,29 @@ Deno.serve(async (req) => {
   }
 
   // ---- Step 1: identify the caller ----------------------------------
-  const authHeader = req.headers.get("Authorization") ?? "";
-  const token = authHeader.replace(/^Bearer\s+/i, "");
-  if (!token) {
-    return jsonResponse({ error: "Missing Authorization header" }, 401);
-  }
+  // Backtest path (2026-09-22): scripts/backtest_case_valuation.py runs
+  // resolved cases through this exact function to measure calibration.
+  // It authenticates with the shared AUTOMATION_SECRET instead of a user
+  // session, fails closed if the secret is unset, and is never logged to
+  // case_valuation_analyses (that table is per-user usage history).
+  const BACKTEST_SECRET = Deno.env.get("AUTOMATION_SECRET") ?? "";
+  const providedSecret = req.headers.get("x-automation-secret") ?? "";
+  const isBacktest = Boolean(BACKTEST_SECRET) && providedSecret === BACKTEST_SECRET;
 
-  const { data: userData, error: userError } = await supabaseAdmin.auth.getUser(token);
-  if (userError || !userData?.user) {
-    return jsonResponse({ error: "Invalid or expired session — please sign in again" }, 401);
+  let userId = "";
+  if (!isBacktest) {
+    const authHeader = req.headers.get("Authorization") ?? "";
+    const token = authHeader.replace(/^Bearer\s+/i, "");
+    if (!token) {
+      return jsonResponse({ error: "Missing Authorization header" }, 401);
+    }
+
+    const { data: userData, error: userError } = await supabaseAdmin.auth.getUser(token);
+    if (userError || !userData?.user) {
+      return jsonResponse({ error: "Invalid or expired session — please sign in again" }, 401);
+    }
+    userId = userData.user.id;
   }
-  const userId = userData.user.id;
 
   // ---- Step 2: determine what this request may draw against ----------
   // Two independent pools, checked in priority order: (1) an active
@@ -1935,12 +1947,15 @@ Deno.serve(async (req) => {
   }
 
   // ---- Step 3: burst-abuse governor, separate from the credit balance -
+  // Skipped for backtests: the runner paces itself and has no user row.
   const oneDayAgo = new Date(Date.now() - 24 * 60 * 60 * 1000).toISOString();
-  const { count: todayCount, error: todayError } = await supabaseAdmin
-    .from("case_valuation_analyses")
-    .select("id", { count: "exact", head: true })
-    .eq("user_id", userId)
-    .gte("created_at", oneDayAgo);
+  const { count: todayCount, error: todayError } = isBacktest
+    ? { count: 0, error: null }
+    : await supabaseAdmin
+      .from("case_valuation_analyses")
+      .select("id", { count: "exact", head: true })
+      .eq("user_id", userId)
+      .gte("created_at", oneDayAgo);
 
   if (todayError) {
     return jsonResponse({ error: "Could not verify usage — try again" }, 500);
@@ -2492,10 +2507,12 @@ Deno.serve(async (req) => {
     // It does mean a user could in rare cases get one extra free analysis
     // if this specific insert fails -- an acceptable trade given the
     // alternative (silently eating a successful, paid-for result) is worse.
-    const { error: logError } = await supabaseAdmin
-      .from("case_valuation_analyses")
-      .insert({ user_id: userId, category, tool: "case-valuation", credit_source: creditSource });
-    if (logError) console.error("Failed to log completed analysis (credit not deducted):", logError);
+    if (!isBacktest) {
+      const { error: logError } = await supabaseAdmin
+        .from("case_valuation_analyses")
+        .insert({ user_id: userId, category, tool: "case-valuation", credit_source: creditSource });
+      if (logError) console.error("Failed to log completed analysis (credit not deducted):", logError);
+    }
 
     return jsonResponse({
       extractedFacts,
