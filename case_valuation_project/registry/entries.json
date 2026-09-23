@@ -1,1 +1,313 @@
-[]
+[
+  {
+    "registryId": "ct-realty-capital-v-eastport-ii-2025",
+    "caseId": null,
+    "caseTitle": "Realty Capital Partners I, LLC v. Eastport II, LLC, et al.",
+    "court": "Connecticut Superior Court, Judicial District of New London (transferred to Complex Litigation, Hartford)",
+    "docket": "X03-HHD-CV25-6224529-S",
+    "filings": [
+      {
+        "side": "plaintiff",
+        "label": "Foreclosure complaint (Dec. 5, 2025)",
+        "url": "https://civilinquiry.jud.ct.gov/DocumentInquiry/DocumentInquiry.aspx?DocumentNo=31596436"
+      },
+      {
+        "side": "defendant",
+        "label": "Answer, special defenses and counterclaim (Apr. 20, 2026)",
+        "url": "https://civilinquiry.jud.ct.gov/DocumentInquiry/DocumentInquiry.aspx?DocumentNo=32475313"
+      },
+      {
+        "side": "defendant",
+        "label": "Objection to appointment of receiver",
+        "url": "https://civilinquiry.jud.ct.gov/DocumentInquiry/DocumentInquiry.aspx?DocumentNo=32895987"
+      }
+    ],
+    "predictedAt": "2026-09-23",
+    "category": "lending-foreclosure",
+    "side": "Lender",
+    "predictedRange": [
+      9570000,
+      15460000
+    ],
+    "predictedBestGuess": 12200000,
+    "whatIsNeededForEstimate": null,
+    "likelyOutcome": "RCP1 should ultimately obtain a judgment of strict foreclosure on both parcels \u2014 maturity on January 1, 2026 makes default essentially unavoidable and the mortgages are admitted \u2014 but the defendants' allegation that the plaintiff is controlled by a co-borrower's principal who bought the note weeks after being sued by his sister is a genuine equitable defense that could defeat, delay, or recharacterize the claim as one for contribution. Net recovery is further capped because only two of seven-plus portfolio properties are being foreclosed and no appraisal evidence exists, so any deficiency is presently unquantifiable.",
+    "claims": [
+      {
+        "label": "Foreclosure Judgment on Hatchett Hills and Kingsbridge (Counts One and Two)",
+        "probabilityRange": [
+          0.55,
+          0.8
+        ],
+        "damagesRange": [
+          17400000,
+          19325000
+        ]
+      },
+      {
+        "label": "Insider Note Purchase / Unclean Hands / Co-Obligor Satisfaction Defense",
+        "probabilityRange": [
+          0.55,
+          0.8
+        ],
+        "damagesRange": null
+      },
+      {
+        "label": "Deficiency Judgment Exposure / Recovery Shortfall",
+        "probabilityRange": [
+          0.35,
+          0.65
+        ],
+        "damagesRange": null
+      },
+      {
+        "label": "Appointment of Receiver of Rents",
+        "probabilityRange": [
+          0.6,
+          0.85
+        ],
+        "damagesRange": null
+      },
+      {
+        "label": "Proof of Holder Status and Standing",
+        "probabilityRange": [
+          0.75,
+          0.92
+        ],
+        "damagesRange": null
+      },
+      {
+        "label": "Contractual Attorney's Fees and Costs of Collection",
+        "probabilityRange": [
+          0.6,
+          0.85
+        ],
+        "damagesRange": null
+      },
+      {
+        "label": "Default Against Non-Answering Defendants (Eastport II and Ferndale)",
+        "probabilityRange": [
+          0.5,
+          0.8
+        ],
+        "damagesRange": null
+      },
+      {
+        "label": "Pleading Defects and Scrivener's Errors",
+        "probabilityRange": [
+          0.8,
+          0.95
+        ],
+        "damagesRange": null
+      }
+    ],
+    "status": "pending",
+    "actualOutcome": null,
+    "resolvedAt": null,
+    "analysis": null
+  },
+  {
+    "registryId": "ct-bcb-community-bank-v-30-oak-2025",
+    "caseId": null,
+    "caseTitle": "BCB Community Bank v. 30 Oak LLC, Peter J. Somma, Jr., et al.",
+    "court": "Connecticut Superior Court, Judicial District of Stamford-Norwalk (Complex Litigation)",
+    "docket": "X08-FST-CV25-6076444-S",
+    "filings": [
+      {
+        "side": "plaintiff",
+        "label": "Foreclosure complaint (Sept. 24, 2025)",
+        "url": "https://civilinquiry.jud.ct.gov/DocumentInquiry/DocumentInquiry.aspx?DocumentNo=31065136"
+      },
+      {
+        "side": "defendant",
+        "label": "Answer, special defenses and counterclaim",
+        "url": "https://civilinquiry.jud.ct.gov/DocumentInquiry/DocumentInquiry.aspx?DocumentNo=31201443"
+      }
+    ],
+    "predictedAt": "2026-09-23",
+    "category": "lending-foreclosure",
+    "side": "Lender",
+    "predictedRange": [
+      2640000,
+      3404000
+    ],
+    "predictedBestGuess": 3050000,
+    "whatIsNeededForEstimate": null,
+    "likelyOutcome": "BCB should obtain a judgment of foreclosure on an essentially undefended payment default; the special defenses are legally misdirected and factually conclusory, and the counterclaim is far more likely to generate delay and discovery cost than recovery. The realistic fight is over the judgment-of-debt amount (roughly $3.3M\u2013$3.7M, not the $4.5M facility maximum) and over whether the Stamford office condominium's value leaves a deficiency that is actually collectible from a guarantor whose identity and solvency the record does not establish.",
+    "claims": [
+      {
+        "label": "Foreclosure of Mortgage / Judgment of Debt",
+        "probabilityRange": [
+          0.8,
+          0.92
+        ],
+        "damagesRange": [
+          3300000,
+          3700000
+        ]
+      },
+      {
+        "label": "Attornment / Leasehold Survival Special Defense",
+        "probabilityRange": [
+          0.78,
+          0.92
+        ],
+        "damagesRange": null
+      },
+      {
+        "label": "Bad Faith / Collusive-Foreclosure Defense (Unclean Hands)",
+        "probabilityRange": [
+          0.7,
+          0.9
+        ],
+        "damagesRange": null
+      },
+      {
+        "label": "Borrower-Side Counterclaim (Survived Motion to Dismiss)",
+        "probabilityRange": [
+          0.6,
+          0.88
+        ],
+        "damagesRange": null
+      },
+      {
+        "label": "Deficiency Judgment and Guaranty Collectibility",
+        "probabilityRange": [
+          0.35,
+          0.8
+        ],
+        "damagesRange": null
+      },
+      {
+        "label": "Material Adverse Change (Non-Monetary) Default",
+        "probabilityRange": [
+          0.6,
+          0.8
+        ],
+        "damagesRange": null
+      },
+      {
+        "label": "Assignment of Rents / Receivership Entitlement",
+        "probabilityRange": [
+          0.72,
+          0.9
+        ],
+        "damagesRange": null
+      },
+      {
+        "label": "Standing of Tenant-Defendant to Raise Borrower Defenses",
+        "probabilityRange": [
+          0.45,
+          0.8
+        ],
+        "damagesRange": null
+      }
+    ],
+    "status": "pending",
+    "actualOutcome": null,
+    "resolvedAt": null,
+    "analysis": null
+  },
+  {
+    "registryId": "ct-td-bank-v-sgs-330-main-2025",
+    "caseId": null,
+    "caseTitle": "TD Bank, N.A. v. SGS 330 Main, LLC and Bernard S. Bertram",
+    "court": "Connecticut Superior Court, Judicial District of Hartford",
+    "docket": "HHD-CV25-6213744-S",
+    "filings": [
+      {
+        "side": "plaintiff",
+        "label": "Commercial foreclosure complaint (Oct. 1, 2025)",
+        "url": "https://civilinquiry.jud.ct.gov/DocumentInquiry/DocumentInquiry.aspx?DocumentNo=31115745"
+      },
+      {
+        "side": "defendant",
+        "label": "Answer (Dec. 2, 2025)",
+        "url": "https://civilinquiry.jud.ct.gov/DocumentInquiry/DocumentInquiry.aspx?DocumentNo=31477643"
+      }
+    ],
+    "predictedAt": "2026-09-23",
+    "category": "lending-foreclosure",
+    "side": "Lender",
+    "predictedRange": [
+      1764000,
+      2409000
+    ],
+    "predictedBestGuess": 2075000,
+    "whatIsNeededForEstimate": null,
+    "likelyOutcome": "The lender obtains judgment of foreclosure and a debt finding in the low-$2M range \u2014 liability is already decided, the borrower admitted the Note, Mortgage, Guaranty and non-payment at maturity, and pleaded no special defenses. The only live fights are proving the exact payoff components (amortized principal, post-maturity/default interest, late charges, advances), producing the original Note and Guaranty, and then timely perfecting a deficiency motion within 30 days of the law day with a supporting appraisal.",
+    "claims": [
+      {
+        "label": "Judgment of Foreclosure and Debt Found",
+        "probabilityRange": [
+          0.92,
+          0.98
+        ],
+        "damagesRange": [
+          1900000,
+          2400000
+        ]
+      },
+      {
+        "label": "Attorney's Fees and Costs",
+        "probabilityRange": [
+          0.8,
+          0.95
+        ],
+        "damagesRange": [
+          20000,
+          60000
+        ]
+      },
+      {
+        "label": "Breach of Guaranty (Bertram)",
+        "probabilityRange": [
+          0.85,
+          0.95
+        ],
+        "damagesRange": null
+      },
+      {
+        "label": "Original Note and Guaranty Production",
+        "probabilityRange": [
+          0.85,
+          0.95
+        ],
+        "damagesRange": null
+      },
+      {
+        "label": "Deficiency Judgment Procedure and Valuation",
+        "probabilityRange": [
+          0.45,
+          0.8
+        ],
+        "damagesRange": null
+      },
+      {
+        "label": "Prior Municipal Tax Liens Eroding Collateral Value",
+        "probabilityRange": null,
+        "damagesRange": null
+      },
+      {
+        "label": "Receiver of Rents",
+        "probabilityRange": [
+          0.7,
+          0.9
+        ],
+        "damagesRange": null
+      },
+      {
+        "label": "Absence of Borrower Counterclaims or Lender-Liability Defenses",
+        "probabilityRange": [
+          0.8,
+          0.93
+        ],
+        "damagesRange": null
+      }
+    ],
+    "status": "pending",
+    "actualOutcome": null,
+    "resolvedAt": null,
+    "analysis": null
+  }
+]
