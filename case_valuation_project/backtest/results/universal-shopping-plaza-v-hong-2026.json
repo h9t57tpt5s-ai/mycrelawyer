@@ -1,0 +1,112 @@
+{
+ "id": "universal-shopping-plaza-v-hong-2026",
+ "ranAt": "2026-09-23T01:12:37+00:00",
+ "status": 200,
+ "prediction": {
+  "category": "lease-disputes",
+  "roleLabel": "Landlord",
+  "damagesRange": [
+   46375.05,
+   103192.29999999999
+  ],
+  "bestGuessValue": 55000,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": "Universal most likely loses the unlawful detainer: its own witness tied the $65,989 demanded in the February 2025 three-day notice to January-February 2023 rent, which section 1161(2) bars, and the notice separately fails to state the period or basis for the demand. The underlying $65,989 debt remains strong on the merits and recoverable in a follow-on contract action within the four-year limitations period, but the holdover and fee claims rise and fall entirely with the defective notice.",
+  "issues": [
+   {
+    "label": "Validity of the Three-Day Notice Under CCP \u00a7 1161(2)",
+    "probabilityRange": [
+     0.15,
+     0.3
+    ],
+    "damagesRange": null
+   },
+   {
+    "label": "Unpaid Rent of $65,989 (In This Action or a Follow-On Contract Suit)",
+    "probabilityRange": [
+     0.45,
+     0.7
+    ],
+    "damagesRange": [
+     57389,
+     65989
+    ]
+   },
+   {
+    "label": "Holdover Damages at $1,219/Day From March 1, 2025",
+    "probabilityRange": [
+     0.15,
+     0.3
+    ],
+    "damagesRange": [
+     112000,
+     130000
+    ]
+   },
+   {
+    "label": "Contractual Attorney's Fees",
+    "probabilityRange": [
+     0.15,
+     0.3
+    ],
+    "damagesRange": [
+     25000,
+     60000
+    ]
+   },
+   {
+    "label": "Notice's Failure to State the Period or Calculation Basis",
+    "probabilityRange": [
+     0.25,
+     0.45
+    ],
+    "damagesRange": null
+   },
+   {
+    "label": "Tenant's COVID Rent-Reduction / Oral Modification Defense",
+    "probabilityRange": [
+     0.65,
+     0.85
+    ],
+    "damagesRange": null
+   },
+   {
+    "label": "Waiver / Estoppel From 23 Months of Accepted Payments",
+    "probabilityRange": [
+     0.4,
+     0.65
+    ],
+    "damagesRange": null
+   },
+   {
+    "label": "Possession of the Premises",
+    "probabilityRange": [
+     0.15,
+     0.3
+    ],
+    "damagesRange": null
+   }
+  ],
+  "citationCoverage": {
+   "count": 39,
+   "tier": "strong"
+  }
+ },
+ "error": null,
+ "outcome": {
+  "amount": 189100,
+  "amountIsTheRequestedAmount": false,
+  "date": "2026-09-09",
+  "description": "After a three-day court trial the trial court entered judgment for the landlord on July 3, 2025 awarding possession, $65,989 in past-due rent (the amount demanded in the notice) and $123,111 in holdover damages, $189,100 in total; no fee award is stated in the opinion. The Court of Appeal reversed, holding the three-day notice void because the unpaid rent fell due more than one year before service, and remanded for entry of judgment in favor of the tenant.",
+  "attorneysFeesAtTrial": null,
+  "appellateChange": "reversed"
+ },
+ "source": {
+  "caseName": "Universal Shopping Plaza v. Piong Bin Hong",
+  "court": "California Court of Appeal, Second District, Division Seven, on appeal from Los Angeles County Superior Court",
+  "docket": "B348490 (Super. Ct. No. 25NNCV01228)",
+  "decided": "2026-09-09",
+  "url": "https://www.courts.ca.gov/opinions/documents/B348490.PDF",
+  "excerptNote": "Verbatim from the landlord's contention in the introduction and from Factual and Procedural Background parts A, B and C through the trial testimony. Removed: the sentences stating the trial court's rulings (demurrer, findings, July 3, 2025 judgment), the closing arguments, the introduction's reference to the holdover award, lease paragraph 27.1, footnotes, and all appellate analysis/holdings. One sentence is stitched across a footnote break in the PDF."
+ }
+}

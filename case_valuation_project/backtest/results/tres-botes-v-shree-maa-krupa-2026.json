@@ -1,0 +1,112 @@
+{
+ "id": "tres-botes-v-shree-maa-krupa-2026",
+ "ranAt": "2026-09-23T01:10:05+00:00",
+ "status": 200,
+ "prediction": {
+  "category": "lease-disputes",
+  "roleLabel": "Landlord",
+  "damagesRange": [
+   85250,
+   288280
+  ],
+  "bestGuessValue": 165000,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": "The landlords should win liability against Tres Botes outright \u2014 its own admissions and its 'lack of business, internal issues' interrogatory answer foreclose every defense it has raised \u2014 but the Dos Botes claim faces a genuine fact issue on whether the five-year option was ever exercised, plus an unresolved 2013 deed that could destroy SDP's standing entirely. Damages will be cut well below the $513,200 demanded, because both figures are gross unmitigated future rent and SMK sold the Tres Botes property in December 2024. Expect a recovery in the mid-six figures at the very top end, more realistically around $165,000 net.",
+  "issues": [
+   {
+    "label": "Dos Botes \u2014 Breach of Renewed Lease ($324,000 claimed)",
+    "probabilityRange": [
+     0.3,
+     0.55
+    ],
+    "damagesRange": [
+     120000,
+     324000
+    ]
+   },
+   {
+    "label": "Tres Botes \u2014 Accrued Rent Through the December 2024 Sale",
+    "probabilityRange": [
+     0.75,
+     0.9
+    ],
+    "damagesRange": [
+     55000,
+     68800
+    ]
+   },
+   {
+    "label": "Tres Botes \u2014 Post-Sale Future Rent (Rent Follows the Reversion)",
+    "probabilityRange": [
+     0.2,
+     0.4
+    ],
+    "damagesRange": [
+     40000,
+     120400
+    ]
+   },
+   {
+    "label": "Sale-of-Premises Clause as a Termination Defense",
+    "probabilityRange": [
+     0.7,
+     0.88
+    ],
+    "damagesRange": null
+   },
+   {
+    "label": "Affirmative Defenses: Estoppel, Fraud, Failure of Consideration, Anticipatory Breach",
+    "probabilityRange": [
+     0.7,
+     0.88
+    ],
+    "damagesRange": null
+   },
+   {
+    "label": "Attorney's Fees Under Chapter 38",
+    "probabilityRange": [
+     0.6,
+     0.8
+    ],
+    "damagesRange": null
+   },
+   {
+    "label": "Declaratory Judgment \u2014 'The Toucan Lounge' Trade Name",
+    "probabilityRange": [
+     0.35,
+     0.6
+    ],
+    "damagesRange": null
+   },
+   {
+    "label": "Appellate Risk on the Partial Summary Judgment",
+    "probabilityRange": [
+     0.35,
+     0.6
+    ],
+    "damagesRange": null
+   }
+  ],
+  "citationCoverage": {
+   "count": 39,
+   "tier": "strong"
+  }
+ },
+ "error": null,
+ "outcome": {
+  "amount": 187096.44,
+  "amountIsTheRequestedAmount": false,
+  "date": "2026-09-17",
+  "description": "Trial court (judgment signed September 22, 2025) granted summary judgment awarding SMK $79,096.44 against Tres Botes (18 months plus one prorated month at $4,300 until the property was sold) and SDP $108,000 against Dos Botes (12 months at $9,000 until relet), $187,096.44 total; no attorney's fees mentioned. On appeal the $79,096.44 award to SMK was affirmed; the $108,000 award to SDP was reversed and remanded because SDP did not conclusively prove the lease was renewed.",
+  "attorneysFeesAtTrial": null,
+  "appellateChange": "modified to $79,096.44"
+ },
+ "source": {
+  "caseName": "Tres Botes, LLC & Dos Botes Entertainment, Inc. v. Shree Maa Krupa Properties, Ltd. & SDP Hotel, LLC",
+  "court": "Texas Court of Appeals, Thirteenth District (Corpus Christi-Edinburg), on appeal from County Court at Law No. 3, Cameron County",
+  "docket": "No. 13-26-00255-CV",
+  "decided": "2026-09-17",
+  "url": "https://search.txcourts.gov/SearchMedia.aspx?MediaVersionID=9f7b53a3-e9d0-4aeb-948c-509e94a6bf80&coa=coa13&DT=Opinion&MediaID=b99beda1-cada-45d1-8793-0f9d08618041",
+  "excerptNote": "Verbatim from Part I (Background) and the parties' summary-judgment evidence and arguments recited in Parts II.B and II.C incl. footnote 7. Removed: the sentence and footnotes 4-5 stating the trial court's September 22, 2025 judgment amounts, and all appellate analysis/holdings."
+ }
+}
