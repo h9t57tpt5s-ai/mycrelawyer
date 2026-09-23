@@ -1,12 +1,80 @@
 {
  "id": "frye-v-raphaelson-estate-2023",
- "ranAt": "2026-09-23T20:13:43+00:00",
- "status": 546,
- "prediction": null,
- "error": {
-  "code": "WORKER_RESOURCE_LIMIT",
-  "message": "Function failed due to not having enough compute resources (please check logs)"
+ "ranAt": "2026-09-23T20:29:54+00:00",
+ "status": 200,
+ "prediction": {
+  "model": "claude-sonnet-5",
+  "category": "lease-disputes",
+  "roleLabel": "Landlord",
+  "damagesRange": [
+   11000,
+   116250
+  ],
+  "bestGuessValue": 62000,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": "The estate should prevail on liability for both the trespass and unjust-enrichment counterclaims, but the Magistrate is likely to substantially discount the $5,000/month blended valuation (especially given the separately-agreed $1,000/month Commerce Property rate and the thin lay-opinion basis for the figure) and to shorten the compensable period depending on how the recantation dispute is resolved. Frye will likely recover at least his documented $25,000 payment on his own unjust-enrichment claim, netting against the estate's award. The realistic net outcome for the estate is a positive recovery in the tens of thousands, not the full $160,000 requested.",
+  "issues": [
+   {
+    "label": "Estate's Unjust Enrichment/Trespass Counterclaim (Use Without Rent)",
+    "probabilityRange": [
+     0.6,
+     0.85
+    ],
+    "damagesRange": [
+     60000,
+     150000
+    ]
+   },
+   {
+    "label": "Recantation Defense and Evidentiary Reliability of Frye's Testimony",
+    "probabilityRange": [
+     0.4,
+     0.6
+    ],
+    "damagesRange": null
+   },
+   {
+    "label": "Irrevocable License / Court-Approval-Required Defense",
+    "probabilityRange": [
+     0.1,
+     0.3
+    ],
+    "damagesRange": null
+   },
+   {
+    "label": "Sufficiency of Damages Evidence (Frye's Second Defense)",
+    "probabilityRange": [
+     0.45,
+     0.7
+    ],
+    "damagesRange": null
+   },
+   {
+    "label": "Frye's Own Unjust Enrichment Claim (Offset Against Estate)",
+    "probabilityRange": [
+     0.5,
+     0.75
+    ],
+    "damagesRange": [
+     -50000,
+     -15000
+    ]
+   },
+   {
+    "label": "Commerce Property Valuation Inconsistency",
+    "probabilityRange": [
+     0.55,
+     0.8
+    ],
+    "damagesRange": null
+   }
+  ],
+  "citationCoverage": {
+   "count": 39,
+   "tier": "strong"
+  }
  },
+ "error": null,
  "outcome": {
   "amount": 44000,
   "amountIsTheRequestedAmount": false,
