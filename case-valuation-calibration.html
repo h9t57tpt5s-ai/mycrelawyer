@@ -3,20 +3,20 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Prediction Registry — CREdocket</title>
-<meta name="description" content="Real Case Value Calculator predictions on real, pending CRE matters, timestamped before the outcome is known, checked against the actual result once each case resolves." />
+<title>Calculator Calibration — CREdocket</title>
+<meta name="description" content="How CREdocket's Case Value Calculator scores against real commercial real estate cases with public outcomes, run blind and published good or bad." />
 <meta property="og:type" content="website" />
 <meta property="og:site_name" content="CREdocket" />
-<meta property="og:title" content="Prediction Registry — CREdocket" />
-<meta property="og:description" content="Real Case Value Calculator predictions on real, pending CRE matters, timestamped before the outcome is known, checked against the actual result once each case resolves." />
-<meta property="og:url" content="https://credocket.com/case-valuation-predictions.html" />
-<link rel="canonical" href="https://credocket.com/case-valuation-predictions.html" />
+<meta property="og:title" content="Calculator Calibration — CREdocket" />
+<meta property="og:description" content="How CREdocket's Case Value Calculator scores against real commercial real estate cases with public outcomes, run blind and published good or bad." />
+<meta property="og:url" content="https://credocket.com/case-valuation-calibration.html" />
+<link rel="canonical" href="https://credocket.com/case-valuation-calibration.html" />
 <meta property="og:image" content="https://credocket.com/img/og-image.png" />
 <meta property="og:image:width" content="1200" />
 <meta property="og:image:height" content="630" />
 <meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:title" content="Prediction Registry — CREdocket" />
-<meta name="twitter:description" content="Real Case Value Calculator predictions on real, pending CRE matters, timestamped before the outcome is known, checked against the actual result once each case resolves." />
+<meta name="twitter:title" content="Calculator Calibration — CREdocket" />
+<meta name="twitter:description" content="How CREdocket's Case Value Calculator scores against real commercial real estate cases with public outcomes, run blind and published good or bad." />
 <meta name="twitter:image" content="https://credocket.com/img/og-image.png" />
 <link rel="icon" href="img/favicon.svg" type="image/svg+xml" />
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -124,17 +124,18 @@
 <header class="page-header">
   <div class="container">
     <div class="eyebrow reveal in-view">Methodology</div>
-    <h1 class="reveal in-view" style="font-size:clamp(2.2rem,4vw,3.4rem);">Prediction Registry</h1>
-    <p class="lede mt-16 reveal in-view">Real Case Value Calculator output on real, pending matters — logged before the outcome is known, checked against what actually happens once each case resolves. This is the genuine track record our <a href="case-valuation-worked-examples.html">worked examples</a> page said was coming next. For the calculator's blind score on already-resolved cases, see the <a href="case-valuation-calibration.html">calibration page</a>.</p>
+    <h1 class="reveal in-view" style="font-size:clamp(2.2rem,4vw,3.4rem);">Calculator Calibration</h1>
+    <p class="lede mt-16 reveal in-view">Resolved commercial real estate cases with public outcomes, run through the live Case Value Calculator using only the facts knowable before the result, and scored against what the court actually awarded. Every case is published here, hit or miss.</p>
   </div>
 </header>
 
 <section class="section-tight">
   <div class="container" style="max-width:820px;">
-    <div class="card reveal" style="padding:24px; border-style:dashed;">
-      <div class="eyebrow" style="margin-bottom:10px;">How This Is Different From a Worked Example</div>
-      <p class="text-secondary" style="font-size:13.5px; line-height:1.7; margin-bottom:10px;">Our <a href="case-valuation-worked-examples.html">worked examples</a> page applies the documented methodology, by hand, to cases whose outcome we already knew — useful for showing our reasoning, but not evidence of predictive accuracy, since hindsight can make any explanation look tidy.</p>
-      <p class="text-secondary" style="font-size:13.5px; line-height:1.7;">Every entry below is the opposite: the calculator's actual output on a real, currently pending tracked matter, run and published <strong>before</strong> that matter resolved. Each entry is committed to our public, version-controlled site repository the day it's logged — the timestamp isn't just a claim, it's independently checkable in our commit history. When a logged matter actually resolves, we add the real outcome and an honest comparison, whether the prediction held up or didn't.</p>
+    <div class="card reveal" style="padding:24px;">
+      <div class="eyebrow" style="margin-bottom:10px;">How each case is scored</div>
+      <p class="text-secondary" style="font-size:13.5px; line-height:1.7; margin-bottom:10px;">Each case comes from a published appellate opinion hosted by the court itself. The calculator receives a verbatim excerpt of the opinion's facts and each side's contentions, with every sentence stating an award, a finding or a holding removed. The outcome is stored separately and a script refuses to run any case whose award appears in the input. Every case goes through the same live tool a user would use, not a copy of it.</p>
+      <p class="text-secondary" style="font-size:13.5px; line-height:1.7; margin-bottom:10px;">Two comparisons are shown. <strong>Main claim:</strong> the calculator's per-claim expected values, excluding any attorney's-fee claim, against the trial award on the main claim. <strong>All-in:</strong> the calculator's top-line range and best guess against the whole trial judgment including fees. A hit means the actual figure fell inside the predicted range. The tool is asked what a trial court will do, so appellate changes are noted but scored separately.</p>
+      <p class="text-secondary" style="font-size:13.5px; line-height:1.7;">The inputs, outputs and scoring script are in the public repository so the result can be checked: <a href="https://github.com/h9t57tpt5s-ai/mycrelawyer/tree/main/case_valuation_project/backtest" target="_blank" rel="noopener noreferrer">case_valuation_project/backtest</a>. This tests the model, not the intake form: a real user's description is messier than a court's statement of facts.</p>
     </div>
   </div>
 </section>
@@ -143,11 +144,13 @@
   <div class="container" style="max-width:820px;">
     <div class="section-head reveal">
       <div>
-        <div class="eyebrow">Logged Predictions</div>
+        <div class="eyebrow">Scorecard</div>
         <h2 style="font-size:clamp(1.4rem,2.2vw,1.9rem);">The record so far</h2>
       </div>
+      <p class="text-muted" id="cal-generated" style="max-width:360px; font-size:13px;"></p>
     </div>
-    <div id="registry-host"></div>
+    <div id="cal-summary" class="grid-3" style="margin-bottom:24px;"></div>
+    <div id="cal-host"></div>
   </div>
 </section>
 
@@ -254,7 +257,7 @@
     }
   }
 </script>
-<script src="js/prediction-registry-data.js"></script>
+<script src="js/backtest-results-data.js"></script>
 <script src="js/main.js"></script>
 <script src="js/glossary-tooltip.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script>
@@ -265,42 +268,48 @@
 <script src="js/motion.js"></script>
 <script>
   (function () {
-    const host = document.getElementById("registry-host");
-    if (!host) return;
-    const fmt = (n) => n < 0 ? "-$" + Math.round(-n).toLocaleString("en-US") : "$" + Math.round(n).toLocaleString("en-US");
-    const fmtRange = (r) => !r ? "—" : (Math.round(r[0]) === Math.round(r[1]) ? fmt(r[0]) : fmt(r[0]) + " – " + fmt(r[1]));
+    const host = document.getElementById("cal-host");
+    const sum = document.getElementById("cal-summary");
+    if (!host || !sum) return;
+    const data = (typeof window.BACKTEST_RESULTS === "object" && window.BACKTEST_RESULTS) ? window.BACKTEST_RESULTS : { summary: {}, cases: [] };
+    const fmt = (n) => n == null ? "—" : (n < 0 ? "-$" : "$") + Math.round(Math.abs(n)).toLocaleString("en-US");
+    const fmtRange = (r) => !r ? "no range" : fmt(r[0]) + " – " + fmt(r[1]);
+    const pct = (x) => x == null ? "—" : (x > 0 ? "+" : "") + Math.round(x * 100) + "%";
+    const esc = (v) => String(v == null ? "" : v).replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c]);
+    const S = data.summary || {};
+    const tile = (num, label) => `<div class="card" style="padding:20px;"><div class="cv-net" style="font-size:1.6rem;">${num}</div><p class="text-muted" style="font-size:12.5px; margin-top:4px; line-height:1.5;">${label}</p></div>`;
+    sum.innerHTML =
+      tile(`${S.exFeesHits ?? 0} of ${S.exFeesScorable ?? 0}`, "main-claim awards inside the calculator's per-claim range") +
+      tile(`${S.allInHits ?? 0} of ${S.allInScorable ?? 0}`, "whole judgments inside the top-line range") +
+      tile(pct(S.medianBestGuessError), "median best-guess error against the whole judgment (positive = too high)");
+    const gen = document.getElementById("cal-generated");
+    if (gen) gen.textContent = (S.cases || 0) + " case" + (S.cases === 1 ? "" : "s") + " run" + (S.declined ? `, ${S.declined} declined for lack of a dollar anchor` : "") + ". Target: 25.";
 
-    const entries = (typeof PREDICTION_REGISTRY !== "undefined" && PREDICTION_REGISTRY.length) ? PREDICTION_REGISTRY : [];
-
-    if (!entries.length) {
-      host.innerHTML = `<div class="card reveal" style="padding:32px; text-align:center;">
-        <p class="text-secondary" style="font-size:14px; line-height:1.7; margin-bottom:8px;"><strong>Nothing logged yet.</strong> This registry was just built. The first entries require a signed-in session running the calculator on a real, currently pending tracked matter — check back soon, or ask us directly for a status update.</p>
-        <p class="text-muted" style="font-size:12.5px;">We'd rather show an honest, empty registry than backfill it with anything less than a genuinely pre-dated prediction.</p>
-      </div>`;
+    const cases = data.cases || [];
+    if (!cases.length) {
+      host.innerHTML = `<div class="card reveal" style="padding:32px; text-align:center;"><p class="text-secondary" style="font-size:14px;">No cases scored yet.</p></div>`;
       host.querySelectorAll(".reveal").forEach((el) => el.classList.add("in-view"));
       return;
     }
-
-    host.innerHTML = entries.map((e) => {
-      const statusBadge = e.status === "resolved"
-        ? `<span class="detail-tag" style="color:var(--ui-success); border-color:var(--ui-success);">Resolved</span>`
-        : `<span class="detail-tag" style="color:var(--status-pending); border-color:var(--status-pending);">Awaiting outcome</span>`;
-      const outcomeHtml = e.actualOutcome
-        ? `<div class="rule mt-16" style="margin-bottom:12px;"></div>
-           <p class="text-secondary" style="font-size:13px; line-height:1.65;"><strong>Actual outcome (${e.actualOutcome.date || "—"}):</strong> ${e.actualOutcome.summary || ""}${e.actualOutcome.sourceUrl ? ` <a href="${e.actualOutcome.sourceUrl}" target="_blank" rel="noopener" class="text-accent">Source &rarr;</a>` : ""}</p>
-           ${e.analysis ? `<p class="text-secondary" style="font-size:13px; line-height:1.65; margin-top:8px;"><strong>How the prediction compared:</strong> ${e.analysis}</p>` : ""}`
-        : "";
-      return `<div class="card reveal" style="padding:24px; margin-bottom:16px;">
-        <div style="display:flex; align-items:center; justify-content:space-between; gap:12px; flex-wrap:wrap; margin-bottom:8px;">
-          <h3 style="font-size:1.05rem; line-height:1.35;">${e.caseTitle || e.caseId}</h3>
-          ${statusBadge}
+    const badge = (hit) => hit === true
+      ? `<span class="detail-tag" style="color:var(--ui-success); border-color:var(--ui-success);">Hit</span>`
+      : hit === false ? `<span class="detail-tag" style="color:var(--status-pending); border-color:var(--status-pending);">Miss</span>`
+      : `<span class="detail-tag">Not scorable</span>`;
+    host.innerHTML = cases.map((c) => `<div class="card reveal" style="padding:24px; margin-bottom:16px;">
+        <div style="display:flex; align-items:flex-start; justify-content:space-between; gap:12px; flex-wrap:wrap; margin-bottom:6px;">
+          <h3 style="font-size:1.05rem; line-height:1.35;">${esc(c.caseName)}</h3>
+          ${c.declined ? `<span class="detail-tag">Declined</span>` : ""}
         </div>
-        <div class="tag-row mt-16" style="margin-bottom:12px;"><span class="detail-tag">Predicted ${e.predictedAt}</span><span class="detail-tag">${e.category || ""}</span><span class="detail-tag">${e.side || ""}</span></div>
-        <div class="cv-net" style="font-size:1.6rem;">${fmtRange(e.predictedRange)}</div>
-        ${typeof e.predictedBestGuess === "number" ? `<p class="text-muted" style="font-size:12px;">Best guess: ${fmt(e.predictedBestGuess)}</p>` : ""}
-        ${outcomeHtml}
-      </div>`;
-    }).join("");
+        <p class="text-muted" style="font-size:12.5px; margin-bottom:12px;">${esc(c.court)} · decided ${esc(c.decided)} · ${esc(c.category)} · valued for the ${esc(c.role)}${c.sourceUrl ? ` · <a href="${esc(c.sourceUrl)}" target="_blank" rel="noopener noreferrer">opinion</a>` : ""}</p>
+        ${c.declined ? `<p class="text-secondary" style="font-size:13.5px;">The calculator declined to give a range for this input.</p>` : c.error ? `<p class="text-secondary" style="font-size:13.5px;">The run failed; no score.</p>` : `
+        <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(240px, 1fr)); gap:16px;">
+          <div><div class="eyebrow" style="margin-bottom:6px;">Main claim, ex-fees</div>
+            <p style="font-size:13.5px; margin:0;">Predicted ${fmtRange(c.exFees.predictedRange)}<br>Awarded ${fmt(c.exFees.actual)} ${badge(c.exFees.hit)}</p></div>
+          <div><div class="eyebrow" style="margin-bottom:6px;">All-in, with fees</div>
+            <p style="font-size:13.5px; margin:0;">Predicted ${fmtRange(c.allIn.predictedRange)}${c.allIn.bestGuess != null ? `, best guess ${fmt(c.allIn.bestGuess)}` : ""}<br>Judgment ${fmt(c.allIn.actual)} ${badge(c.allIn.hit)}${c.allIn.bestGuessError != null ? ` <span class="text-muted">best guess ${pct(c.allIn.bestGuessError)}</span>` : ""}</p></div>
+        </div>`}
+        <p class="text-secondary" style="font-size:13px; line-height:1.65; margin-top:12px;">${esc(c.outcomeDescription)}</p>
+      </div>`).join("");
     host.querySelectorAll(".reveal").forEach((el) => el.classList.add("in-view"));
   })();
 </script>
