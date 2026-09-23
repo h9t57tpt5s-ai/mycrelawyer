@@ -1,0 +1,26 @@
+{
+ "id": "usbank-br-penn-realty-2025",
+ "ranAt": "2026-09-23T02:17:32+00:00",
+ "status": 546,
+ "prediction": null,
+ "error": {
+  "code": "WORKER_RESOURCE_LIMIT",
+  "message": "Function failed due to not having enough compute resources (please check logs)"
+ },
+ "outcome": {
+  "amount": 51392086.96,
+  "amountIsTheRequestedAmount": false,
+  "date": "2025-05-08",
+  "description": "After a bench trial the district court held Penn Realty breached the loan agreement and entered an in personam money judgment for U.S. Bank of $51,392,086.96 (no judgment in mortgage foreclosure was entered); the Third Circuit affirmed that judgment in a separate unpublished opinion (No. 23-2185, Sept. 25, 2024). In this precedential appeal the Third Circuit upheld the subsequent execution sale of the apartment building under Fed. R. Civ. P. 69(a) and affirmed the denial of the borrower's motion to quash.",
+  "attorneysFeesAtTrial": null,
+  "appellateChange": "affirmed"
+ },
+ "source": {
+  "caseName": "US Bank NA, as Trustee for the Registered Holders of J.P. Morgan Chase Commercial Mortgage Securities Corp., Multifamily Mortgage Pass-Through Certificates, Series 2012-K18 v. B R Penn Realty Owner LP",
+  "court": "United States Court of Appeals for the Third Circuit (precedential)",
+  "docket": "No. 24-1108 (appeal from E.D. Pa. No. 2:21-cv-00502)",
+  "decided": "2025-05-08",
+  "url": "https://www2.ca3.uscourts.gov/opinarch/241108p.pdf",
+  "excerptNote": "Excerpts from Part I (Background) with footnotes 1 and 4, the Pennsylvania loan/mortgage primer in Part III.A, and the description of the complaint's in personam demand. Removed: the sentence stating the bench-trial result and money-judgment amount, the '$51 million' characterization, the affirmance of that judgment in the separate appeal, and everything about the execution sale and this appeal's holdings. Note: this opinion concerns the post-judgment execution sale, so the borrower's defenses at trial are not described; pre-outcome facts are thin. Whitespace normalized; PDF spacing artifacts and footnote markers removed."
+ }
+}

@@ -1,0 +1,103 @@
+{
+ "id": "721-st-charles-crd-2025",
+ "ranAt": "2026-09-23T02:14:58+00:00",
+ "status": 200,
+ "prediction": {
+  "category": "lease-disputes",
+  "roleLabel": "Landlord",
+  "damagesRange": [
+   22400,
+   93348.64
+  ],
+  "bestGuessValue": 57000,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": "721 should win on liability \u2014 the handwritten addendum expressly put CRD on the hook for Gibbs-era damage, and Montagnet admitted as much on the stand while conceding CRD never touched the electrical, wiring, pay box, lighting or paver items. The realistic fight is quantum: expect the court to award a meaningful but reduced portion of the $106,077.89 invoice, discounting the complete-resurfacing premium as betterment and applying whatever credit the Gibbs settlement compels. The lost-profits claim against CRD likely fails for lack of causation and any proven figure.",
+  "issues": [
+   {
+    "label": "Breach of Clause 13 / Handwritten Addendum \u2014 Repair Damages",
+    "probabilityRange": [
+     0.7,
+     0.88
+    ],
+    "damagesRange": [
+     32000,
+     106078
+    ]
+   },
+   {
+    "label": "Betterment / Capital Improvement Defense",
+    "probabilityRange": [
+     0.35,
+     0.55
+    ],
+    "damagesRange": null
+   },
+   {
+    "label": "Gibbs Settlement Credit / Solidary Obligor Reduction",
+    "probabilityRange": [
+     0.3,
+     0.7
+    ],
+    "damagesRange": null
+   },
+   {
+    "label": "Contra Proferentem / Ambiguity Against 721 as Drafter",
+    "probabilityRange": [
+     0.65,
+     0.85
+    ],
+    "damagesRange": null
+   },
+   {
+    "label": "Lost Profits \u2014 S&P Parking Lease",
+    "probabilityRange": [
+     0.1,
+     0.3
+    ],
+    "damagesRange": null
+   },
+   {
+    "label": "Attorney's Fees",
+    "probabilityRange": [
+     0.35,
+     0.6
+    ],
+    "damagesRange": null
+   },
+   {
+    "label": "Judicial Interest from Date of Judicial Demand",
+    "probabilityRange": [
+     0.85,
+     0.95
+    ],
+    "damagesRange": null
+   },
+   {
+    "label": "No Quiet Enjoyment / Constructive Eviction Claim Exists",
+    "probabilityRange": null,
+    "damagesRange": null
+   }
+  ],
+  "citationCoverage": {
+   "count": 39,
+   "tier": "strong"
+  }
+ },
+ "error": null,
+ "outcome": {
+  "amount": 106077.87,
+  "amountIsTheRequestedAmount": true,
+  "date": "2025-05-08",
+  "description": "After a one-day bench trial the court found CRD liable for damage during both leases and awarded 721 all of its claimed repair costs, $106,077.87 (no lost-profit award is described), then awarded $51,770.71 in attorney's fees and judicial interest. The Fourth Circuit affirmed liability but held Gibbs and CRD solidarily liable for the Gibbs-period damage, amended the judgment to reduce the damages by 50% for the settled co-obligor's virile share, and reversed the attorney's fee award because the lease did not provide fees for a Clause 13 breach.",
+  "attorneysFeesAtTrial": 51770.71,
+  "appellateChange": "modified to $53,038.94"
+ },
+ "source": {
+  "caseName": "721 St. Charles, LLC v. Gibbs Residential, LLC and Commercial Realty Developers, LLC",
+  "court": "Louisiana Court of Appeal, Fourth Circuit",
+  "docket": "No. 2024-CA-0603 (appeal from Civil District Court, Orleans Parish, No. 2020-08628, Div. F-14)",
+  "decided": "2025-05-08",
+  "url": "https://www.la4th.org/opinion/2024/4940183.pdf",
+  "excerptNote": "Excerpts from 'Factual Summary and Procedural History' (through the pre-trial settlement with Gibbs), the trial testimony of Boes and Montagnet summarized under 'Breach of Clause 13', and the lease's Clause 13. Removed: footnote 3 (the S and P Parking lease), the Lauren Gibbs deposition excerpt, Clauses 18-19, the trial court's liability finding and damages/fee awards, the appellate court's findings on manifest error, solidarity, virile share and attorney's fees, and the disposition. Footnote markers and page artifacts stripped; whitespace normalized."
+ }
+}

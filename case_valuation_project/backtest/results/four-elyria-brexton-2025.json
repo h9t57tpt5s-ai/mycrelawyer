@@ -1,0 +1,109 @@
+{
+ "id": "four-elyria-brexton-2025",
+ "ranAt": "2026-09-23T02:13:06+00:00",
+ "status": 200,
+ "prediction": {
+  "category": "construction-defect",
+  "roleLabel": "Contractor / Design Professional",
+  "damagesRange": [
+   40000,
+   245000
+  ],
+  "bestGuessValue": 130000,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": "Brexton should defeat Four Elyria's summary judgment motion \u2014 the Galvin/Giltz conflict and Giltz's limited personal knowledge create genuine fact issues on the oral agreement, change-order waiver, and tort intent \u2014 but Brexton will not win its own motion and should expect a jury trial on scope and waiver. The most likely resolution is a pre-trial or mid-trial settlement in which the liens are released in exchange for a partial payment, with Brexton recovering a fraction of the ~$500,000 and the fraud/slander-of-title claims against the officers dismissed.",
+  "issues": [
+   {
+    "label": "Recovery for Site-Specific Work (breach of oral/separate contract and, alternatively, unjust enrichment)",
+    "probabilityRange": [
+     0.35,
+     0.55
+    ],
+    "damagesRange": [
+     300000,
+     500000
+    ]
+   },
+   {
+    "label": "Fraud claim against Brexton and its two officers (exposure)",
+    "probabilityRange": [
+     0.25,
+     0.45
+    ],
+    "damagesRange": [
+     -200000,
+     -50000
+    ]
+   },
+   {
+    "label": "Slander of title claim (exposure)",
+    "probabilityRange": [
+     0.15,
+     0.3
+    ],
+    "damagesRange": [
+     -100000,
+     -25000
+    ]
+   },
+   {
+    "label": "Defeating Four Elyria's motion for summary judgment",
+    "probabilityRange": [
+     0.75,
+     0.9
+    ],
+    "damagesRange": null
+   },
+   {
+    "label": "Effect of the unconditional lien waivers on lien and claim",
+    "probabilityRange": [
+     0.35,
+     0.65
+    ],
+    "damagesRange": null
+   },
+   {
+    "label": "Mechanic's lien validity and foreclosure",
+    "probabilityRange": [
+     0.4,
+     0.7
+    ],
+    "damagesRange": null
+   },
+   {
+    "label": "Four Elyria's breach claim for failure to pay subcontractors (exposure/offset)",
+    "probabilityRange": [
+     0.45,
+     0.7
+    ],
+    "damagesRange": null
+   },
+   {
+    "label": "Applicability of the cited precedent list",
+    "probabilityRange": null,
+    "damagesRange": null
+   }
+  ],
+  "citationCoverage": {
+   "count": 29,
+   "tier": "strong"
+  }
+ },
+ "error": null,
+ "outcome": {
+  "amount": 465417.44,
+  "amountIsTheRequestedAmount": false,
+  "date": "2025-05-19",
+  "description": "The trial court held the Site-Specific Work was outside the contract, granted summary judgment against Four Elyria on all its claims and for Brexton on unjust enrichment, and after a damages-only jury trial entered judgment for Brexton for $465,417.44; both sides' attorney-fee motions were denied and Brexton's lien-foreclosure counterclaim was dismissed. On this second appeal the court of appeals agreed the work was outside the contract but reversed in part and remanded for the trial court to apply the contract's Article 9 change-order provisions, leaving the unjust-enrichment award and the fee issues to be revisited on remand.",
+  "attorneysFeesAtTrial": null,
+  "appellateChange": "reversed"
+ },
+ "source": {
+  "caseName": "Four Elyria Co., L.L.C. v. Brexton Constr., L.L.C.",
+  "court": "Court of Appeals of Ohio, Ninth Appellate District (Lorain County)",
+  "docket": "C.A. No. 24CA012089, 2025-Ohio-1778 (appeal from Lorain County Court of Common Pleas, Case No. 17CV192092)",
+  "decided": "2025-05-19",
+  "url": "https://www.supremecourt.ohio.gov/rod/docs/pdf/9/2025/2025-Ohio-1778.pdf",
+  "excerptNote": "Excerpts from Part I (facts and pleadings, \u00b6\u00b63, 5-9; \u00b66 truncated before the quoted lien-waiver language) and the deposition testimony of both sides summarized in the partial dissent (\u00b6\u00b656, 58). Removed: \u00b64 (plan disclaimers), \u00b610 (motions), the trial court's summary-judgment rulings (\u00b6\u00b611-13, 16), the jury verdict figure, post-verdict motions, the first appeal's disposition, and all appellate holdings. Whitespace and PDF page-number artifacts normalized only."
+ }
+}

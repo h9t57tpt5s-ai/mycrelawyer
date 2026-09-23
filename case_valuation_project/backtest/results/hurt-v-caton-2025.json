@@ -1,0 +1,109 @@
+{
+ "id": "hurt-v-caton-2025",
+ "ranAt": "2026-09-23T02:08:28+00:00",
+ "status": 200,
+ "prediction": {
+  "category": "lease-disputes",
+  "roleLabel": "Landlord",
+  "damagesRange": [
+   204921.25,
+   287944.8
+  ],
+  "bestGuessValue": 226000,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": "Caton most likely wins the core Section 9(a) trigger question \u2014 the fifth amendment's recital that the Section 1(b) conditions 'would not be satisfied' if the option were exercised largely defeats the Trust's 'never exercised, so nothing ripened' defense \u2014 and recovers the $314,000 in option consideration on partial summary judgment. The $128,885.50 expense claim is the weak flank: proved only by deposition testimony, arguably incurred by Management Services Company rather than by Caton, and arguably outside Section 2(b) 'diligence,' so expect it to survive to trial and be substantially discounted or cut. Probability-weighted net recovery lands in the low-to-mid $200,000s against a $442,885.50 demand.",
+  "issues": [
+   {
+    "label": "Section 9(a) Trigger Without Exercise of the Option",
+    "probabilityRange": [
+     0.65,
+     0.82
+    ],
+    "damagesRange": null
+   },
+   {
+    "label": "Refund of $314,000 Option Consideration",
+    "probabilityRange": [
+     0.55,
+     0.72
+    ],
+    "damagesRange": [
+     314000,
+     314000
+    ]
+   },
+   {
+    "label": "Out-of-Pocket Diligence Expenses of $128,885.50",
+    "probabilityRange": [
+     0.25,
+     0.48
+    ],
+    "damagesRange": [
+     128885,
+     128885
+    ]
+   },
+   {
+    "label": "Liquidated Damages / Penalty and Forfeiture Defense",
+    "probabilityRange": [
+     0.62,
+     0.8
+    ],
+    "damagesRange": null
+   },
+   {
+    "label": "Whether the Adverse Possession Claim Is an 'Encumbrance' Materially Affecting Development",
+    "probabilityRange": [
+     0.7,
+     0.85
+    ],
+    "damagesRange": null
+   },
+   {
+    "label": "Trust's Thirty-Day Cure / 'We Could Have Fixed It' Defense",
+    "probabilityRange": [
+     0.6,
+     0.8
+    ],
+    "damagesRange": null
+   },
+   {
+    "label": "Timeliness and Adequacy of the Termination Notice",
+    "probabilityRange": [
+     0.8,
+     0.92
+    ],
+    "damagesRange": null
+   },
+   {
+    "label": "Prejudgment Interest and Attorney's Fees",
+    "probabilityRange": [
+     0.35,
+     0.6
+    ],
+    "damagesRange": null
+   }
+  ],
+  "citationCoverage": {
+   "count": 39,
+   "tier": "strong"
+  }
+ },
+ "error": null,
+ "outcome": {
+  "amount": 442885.5,
+  "amountIsTheRequestedAmount": true,
+  "date": "2025-03-04",
+  "description": "The circuit court granted Caton summary judgment on a futility theory and awarded him $442,885.50 in damages (the full amount of his demand) plus $96,329.00 in attorneys' fees. The Court of Appeals of Virginia affirmed that the agreement required Caton to exercise the option, but reversed the summary judgment award of damages and fees because futility was not established as a matter of law, and remanded for further proceedings.",
+  "attorneysFeesAtTrial": 96329.0,
+  "appellateChange": "reversed"
+ },
+ "source": {
+  "caseName": "Charles W. Hurt and Shirley L. Fisher, as Trustees of the South Pantops II Land Trust v. Douglas E. Caton",
+  "court": "Court of Appeals of Virginia (published), on appeal from the Circuit Court of Albemarle County",
+  "docket": "Record No. 1198-23-2",
+  "decided": "2025-03-04",
+  "url": "https://www.vacourts.gov/opinions/opncavwp/1198232.pdf",
+  "excerptNote": "Verbatim from the opinion's introduction (dispute summary and the parties' cross-motion positions), the BACKGROUND section (Agreement terms, development plans and adverse-possession suit, fifth amendment, termination and demand letters, the suit and cross-motions), footnotes 2-3, and the first paragraph of the Analysis summarizing each side's contention. Removed: every sentence describing the circuit court's ruling, its damages and fee award, and the appellate holdings, including the standard-of-review section."
+ }
+}

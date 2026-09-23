@@ -1,0 +1,26 @@
+{
+ "id": "edgemere-lawal-2025",
+ "ranAt": "2026-09-23T02:11:01+00:00",
+ "status": 504,
+ "prediction": null,
+ "error": {
+  "code": "IDLE_TIMEOUT",
+  "message": "Request idle timeout limit (150s) reached"
+ },
+ "outcome": {
+  "amount": 83791.8,
+  "amountIsTheRequestedAmount": false,
+  "date": "2025-05-27",
+  "description": "The jury found for the tenant on all claims and the trial court entered judgment for $36,791.80 moving expenses, $42,000 lost profits and $5,000 for the retained security deposit (total $83,791.80), plus $67,000 attorney's fees, interest and costs, and took-nothing on the landlord's rent claim. The court of appeals reversed the constructive-eviction/implied-warranty recovery (no evidence of substantial interference) and rendered judgment that the tenant take nothing on those claims, affirmed the judgment against the landlord on its breach claim and for the tenant on the $5,000 security-deposit claim, and remanded attorney's fees for a new trial.",
+  "attorneysFeesAtTrial": 67000,
+  "appellateChange": "modified to $5,000"
+ },
+ "source": {
+  "caseName": "Edgemere Loop 375, LLC v. Lookman Lawal, M.D., and Southwestern Cardiac Arrhythmia Institute, P.A.",
+  "court": "Court of Appeals of Texas, Eighth District (El Paso)",
+  "docket": "No. 08-24-00092-CV (appeal from 205th District Court, El Paso County, TC# 2020DCV2771)",
+  "decided": "2025-05-27",
+  "url": "https://search.txcourts.gov/SearchMedia.aspx?MediaID=1da0b877-43f9-4d95-99b6-7609f934dace",
+  "excerptNote": "Excerpts from Part I (Factual Background; the 'To summarize' paragraph, the title-company/attorney-retention paragraph and the May 29 letter quotation omitted for length), Part II (Procedural Background) and the parties' contentions quoted in Part IV (Analysis, incl. footnote 5). Removed: the jury's findings and the trial court's final judgment (all award figures), the appellate holdings, the attorney's-fee testimony figure, and the disposition. Whitespace normalized only."
+ }
+}
