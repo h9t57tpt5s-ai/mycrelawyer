@@ -1,0 +1,72 @@
+{
+ "id": "dover-mall-v-tang-2023",
+ "ranAt": "2026-09-23T20:11:10+00:00",
+ "status": 200,
+ "prediction": {
+  "model": "claude-sonnet-5",
+  "category": "lease-disputes",
+  "roleLabel": "Landlord",
+  "damagesRange": [
+   67500,
+   179458.318
+  ],
+  "bestGuessValue": 179458.318,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": "Dover Mall should win summary judgment on liability given Tang's own concessions and the lease's express rent carve-out defeating the frustration/impossibility defenses. The real uncertainty is on damages: the total absence of record evidence on reletting efforts creates a genuine mitigation fact dispute that could either be resolved in the landlord's favor via the lease's election-of-remedies clause (full $276,089.72) or sent to trial/discounted because of the landlord's unsubstantiated reletting representations. Net expected recovery is likely to land meaningfully below the full requested amount but well above a token recovery, given how strong liability is and how weak Tang's affirmative defenses are on the merits.",
+  "issues": [
+   {
+    "label": "Breach of Lease / Core Liability",
+    "probabilityRange": [
+     0.9,
+     0.97
+    ],
+    "damagesRange": null
+   },
+   {
+    "label": "Frustration of Purpose / Impossibility Defenses",
+    "probabilityRange": [
+     0.75,
+     0.9
+    ],
+    "damagesRange": null
+   },
+   {
+    "label": "Failure to Mitigate / Amount of Recovery",
+    "probabilityRange": [
+     0.45,
+     0.65
+    ],
+    "damagesRange": [
+     150000,
+     276089.72
+    ]
+   },
+   {
+    "label": "Practical Collectibility Against Individual Defendant",
+    "probabilityRange": null,
+    "damagesRange": null
+   }
+  ],
+  "citationCoverage": {
+   "count": 39,
+   "tier": "strong"
+  }
+ },
+ "error": null,
+ "outcome": {
+  "amount": 276089.72,
+  "amountIsTheRequestedAmount": true,
+  "date": "2023-10-05",
+  "description": "The Superior Court granted the landlord summary judgment on liability and damages in the amount of $276,089.72, the full amount demanded, holding the force majeure clause allocated pandemic-closure risk to the tenant and two lease provisions relieved the landlord of any duty to relet. No attorney's fee award is stated. This is a trial-level decision; no appeal is reflected in the opinion.",
+  "attorneysFeesAtTrial": null,
+  "appellateChange": "n/a (trial-level decision; no appeal in opinion)"
+ },
+ "source": {
+  "caseName": "Dover Mall, LLC v. Sam Tang",
+  "court": "Delaware Superior Court (Kent County), Resident Judge Jeffrey J Clark",
+  "docket": "C.A. No. K22C-07-013 JJC",
+  "decided": "2023-10-05",
+  "url": "http://courts.delaware.gov/Opinions/Download.aspx?id=353820",
+  "excerptNote": "Verbatim from the letter opinion's introduction (parties' positions), 'The Record and Procedural Background' section (including footnotes 16 and 17), and the fact-recitation portions of the Discussion (Tang's two affirmative defenses; his concession on the damages schedule). Removed: every sentence stating the court's rulings on liability, force majeure, mitigation, and the summary-judgment result; the long quoted remedy/reletting lease clauses; the case-law discussion; the Conclusion. The $276,089.72 figure that remains is Dover Mall's stated demand, not the result."
+ }
+}

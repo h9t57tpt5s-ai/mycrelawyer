@@ -1,0 +1,78 @@
+{
+ "id": "carmel-barham-dealership-2023",
+ "ranAt": "2026-09-23T20:21:24+00:00",
+ "status": 200,
+ "prediction": {
+  "model": "claude-sonnet-5",
+  "category": "eminent-domain",
+  "roleLabel": "Property Owner",
+  "damagesRange": [
+   150500,
+   358000
+  ],
+  "bestGuessValue": 230000,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": "Barham will almost certainly recover at least the $163,000 appraised value, since the taking itself is uncontested and some compensation is owed as a matter of law. The real fight \u2014 and the case's true value driver \u2014 is whether the jury treats the Threel Road access loss as a compensable taking of an easement/change in property use (potentially pushing the award well above $163,000) or as non-compensable circuity of travel given the available Aronson Road access, an outcome made harder to predict without knowing what, if anything, Barham already recovered in the separate County Line Action.",
+  "issues": [
+   {
+    "label": "Just Compensation for the Direct Taking (Fee Strip, Access-Control Line, Temporary ROW)",
+    "probabilityRange": [
+     0.95,
+     1
+    ],
+    "damagesRange": [
+     140000,
+     190000
+    ]
+   },
+   {
+    "label": "Compensability of Threel Road Easement Loss (Traffic-Flow vs. Easement Taking)",
+    "probabilityRange": [
+     0.35,
+     0.6
+    ],
+    "damagesRange": [
+     50000,
+     280000
+    ]
+   },
+   {
+    "label": "Double-Recovery / Prior Adjudication in the County Line Action",
+    "probabilityRange": [
+     0.25,
+     0.6
+    ],
+    "damagesRange": null
+   },
+   {
+    "label": "Quick-Take / Public-Use Challenge",
+    "probabilityRange": [
+     0,
+     0.05
+    ],
+    "damagesRange": null
+   }
+  ],
+  "citationCoverage": {
+   "count": 22,
+   "tier": "strong"
+  }
+ },
+ "error": null,
+ "outcome": {
+  "amount": 2400000,
+  "amountIsTheRequestedAmount": false,
+  "date": "2023-10-30",
+  "description": "After a May 2022 jury trial the Marion Circuit Court entered judgment on a $2.4 million verdict for Barham and denied Carmel's motions to correct error, for new trial, and for remittitur. The Court of Appeals reversed on October 30, 2023, holding Barham had no compensable easement interest in Threel Road (already extinguished in the County Line condemnation) and that the access change was non-compensable under the ingress-egress and traffic-flow rules, and remanded with instructions to grant Carmel partial summary judgment on that issue.",
+  "attorneysFeesAtTrial": null,
+  "appellateChange": "reversed"
+ },
+ "source": {
+  "caseName": "City of Carmel v. Barham Investments, LLC, Marion County Treasurer, and Coast to Coast Carmel Corporation",
+  "court": "Court of Appeals of Indiana",
+  "docket": "22A-PL-2399 (Marion Circuit Court Cause No. 49C01-1712-PL-46760)",
+  "decided": "2023-10-30",
+  "url": "https://public.courts.in.gov/Decisions/api/Document/Opinion?Id=X9zl-fYtQYK6_4blrcmz4U5qNH5Y6VWpE2-CDAwH2_CN1anKpTYwgg42dNkjGuoR0",
+  "excerptNote": "Verbatim from the Case Summary (para. 1 only), Facts and Procedural History (paras. 3-6), and the parties' contentions and easement/Agreed Order language from the Discussion (paras. 11-12, 16, 19). Removed: para. 2 and para. 7 (jury award, post-trial motions, and the court's disposition), appendix citations, and every sentence stating what the appellate court concluded. The $163,000 court-appointed appraisal is retained as a pre-outcome fact."
+ }
+}

@@ -1,0 +1,100 @@
+{
+ "id": "franciscan-cvs-i69-2023",
+ "ranAt": "2026-09-23T20:19:41+00:00",
+ "status": 200,
+ "prediction": {
+  "model": "claude-sonnet-5",
+  "category": "eminent-domain",
+  "roleLabel": "Property Owner",
+  "damagesRange": [
+   1081450,
+   4327400
+  ],
+  "bestGuessValue": 1081450,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": "The undisputed ~$45,000 strip value will be awarded regardless of outcome. The real fight is whether the trial court admits Owners' loss-of-access/highest-and-best-use valuation evidence over the State's motion in limine and Ensley's circuity-of-travel bar; Owners have a genuine but not dominant chance given the more extreme facts than Marina Entertainment (3+ mile detour) tempered by that precedent's own acknowledged weakness. If admitted, a verdict near the joint appraisers' ~$1.9M figure is the most defensible outcome, with the individual $3M/$4.4M appraisals representing upside but vulnerable to cross-examination.",
+  "issues": [
+   {
+    "label": "Strip taking value (base compensation)",
+    "probabilityRange": [
+     0.9,
+     1
+    ],
+    "damagesRange": [
+     40500,
+     47400
+    ]
+   },
+   {
+    "label": "Admissibility of loss-of-access valuation evidence (motion in limine)",
+    "probabilityRange": [
+     0.35,
+     0.55
+    ],
+    "damagesRange": null
+   },
+   {
+    "label": "Franciscan consequential/HBU damages",
+    "probabilityRange": [
+     0.25,
+     0.45
+    ],
+    "damagesRange": [
+     770000,
+     3000000
+    ]
+   },
+   {
+    "label": "SCP/CVS consequential damages ('spontaneous buyer' theory)",
+    "probabilityRange": [
+     0.25,
+     0.45
+    ],
+    "damagesRange": [
+     1130000,
+     4400000
+    ]
+   },
+   {
+    "label": "Joint appraiser report as compromise valuation",
+    "probabilityRange": [
+     0.3,
+     0.5
+    ],
+    "damagesRange": [
+     1900000,
+     1900000
+    ]
+   },
+   {
+    "label": "Public use / necessity of the taking",
+    "probabilityRange": [
+     0.95,
+     1
+    ],
+    "damagesRange": null
+   }
+  ],
+  "citationCoverage": {
+   "count": 22,
+   "tier": "strong"
+  }
+ },
+ "error": null,
+ "outcome": {
+  "amount": 2200000,
+  "amountIsTheRequestedAmount": false,
+  "date": "2023-11-28",
+  "description": "The Johnson Superior Court jury awarded $680,000 to Franciscan and $1.5 million to SCP (a $2.2 million judgment), with attorney's fees awarded to both owners under Ind. Code 32-24-1-14(b) (amount not stated) and 8% prejudgment interest. The Court of Appeals reversed on November 28, 2023, holding the traffic-flow rule bars the access damages, and remanded with instructions to vacate the judgment for SCP and enter judgment for Franciscan for only the value of the strip (appraised at $40,500-$47,400), with prejudgment interest recalculated.",
+  "attorneysFeesAtTrial": null,
+  "appellateChange": "reversed"
+ },
+ "source": {
+  "caseName": "State of Indiana v. Franciscan Alliance, Inc. f/k/a Sisters of St. Francis Health Services, Inc.; The Market Place at State Road 37, LLC; Hook SupeRX, LLC; SCP 2010-C36-018 LLC; and Johnson County, Indiana",
+  "court": "Court of Appeals of Indiana",
+  "docket": "22A-PL-2969 (Johnson Superior Court Cause No. 41D04-1911-PL-181)",
+  "decided": "2023-11-28",
+  "url": "https://public.courts.in.gov/Decisions/api/Document/Opinion?Id=dyEe-G6TfgNLbmXgEg_IkVwtqjV0VXJe2bOJ4VdFqgLdjmWknwT_aQsgFUjNIm_J0",
+  "excerptNote": "Verbatim from the Facts section (paras. 3-5) and the waiver discussion (paras. 9-10) describing pre-trial objections, plus the statement of the traffic-flow rule and the Owners' highest-and-best-use argument from the Discussion. Removed: paras. 1-2 (jury award and the State's requested reduction), the final sentence of para. 5 stating what the jury awarded, the figure/exhibit citation, transcript citations, and every sentence stating the court's conclusions, including the attorney-fee and prejudgment-interest rulings. Appraisal figures are retained as pre-outcome evidence."
+ }
+}

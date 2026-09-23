@@ -1,11 +1,11 @@
 {
  "id": "cumberland-lakefront-blackwing-2025",
- "ranAt": "2026-09-23T03:04:36+00:00",
- "status": 504,
+ "ranAt": "2026-09-23T20:09:15+00:00",
+ "status": 546,
  "prediction": null,
  "error": {
-  "code": "IDLE_TIMEOUT",
-  "message": "Request idle timeout limit (150s) reached"
+  "code": "WORKER_RESOURCE_LIMIT",
+  "message": "Function failed due to not having enough compute resources (please check logs)"
  },
  "outcome": {
   "amount": 444055.13,

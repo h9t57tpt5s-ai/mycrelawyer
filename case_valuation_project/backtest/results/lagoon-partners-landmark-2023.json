@@ -1,0 +1,113 @@
+{
+ "id": "lagoon-partners-landmark-2023",
+ "ranAt": "2026-09-23T20:18:03+00:00",
+ "status": 200,
+ "prediction": {
+  "model": "claude-sonnet-5",
+  "category": "lease-disputes",
+  "roleLabel": "Landlord",
+  "damagesRange": [
+   864160.4,
+   1630770.5
+  ],
+  "bestGuessValue": 1235000,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": "Lagoon should win on liability (breach) and recover the $364,212 in unpaid pre-surrender rent with high confidence. The accelerated/future-rent claim, while legally supportable given the PV-discounted liquidated-damages clause, is unlikely to be resolved on this early summary-judgment motion because of a genuine, well-supported fact dispute over mitigation and Lagoon's own redevelopment of the property \u2014 expect a partial ruling on liability/back rent now, with the future-rent amount going to further discovery and likely trial, and a probable net recovery meaningfully below the full $1,444,258 demanded for that component.",
+  "issues": [
+   {
+    "label": "Breach of Lease / Liability",
+    "probabilityRange": [
+     0.85,
+     0.95
+    ],
+    "damagesRange": [
+     364212,
+     364212
+    ]
+   },
+   {
+    "label": "Frustration of Purpose Defense",
+    "probabilityRange": [
+     0.1,
+     0.25
+    ],
+    "damagesRange": null
+   },
+   {
+    "label": "Enforceability of Liquidated Damages / Acceleration Clause",
+    "probabilityRange": [
+     0.55,
+     0.75
+    ],
+    "damagesRange": null
+   },
+   {
+    "label": "Mitigation of Damages / Redevelopment Dispute",
+    "probabilityRange": [
+     0.35,
+     0.55
+    ],
+    "damagesRange": null
+   },
+   {
+    "label": "Unpaid Rent Arrears ($364,212)",
+    "probabilityRange": [
+     0.85,
+     0.95
+    ],
+    "damagesRange": [
+     364212,
+     364212
+    ]
+   },
+   {
+    "label": "Accelerated / Present-Value Future Rent ($1,444,258 demanded)",
+    "probabilityRange": [
+     0.35,
+     0.65
+    ],
+    "damagesRange": [
+     700000,
+     1444258
+    ]
+   },
+   {
+    "label": "Premature Summary Judgment / Discovery Continuance",
+    "probabilityRange": [
+     0.55,
+     0.75
+    ],
+    "damagesRange": null
+   },
+   {
+    "label": "Attorney's Fees and Costs",
+    "probabilityRange": [
+     0.6,
+     0.8
+    ],
+    "damagesRange": null
+   }
+  ],
+  "citationCoverage": {
+   "count": 39,
+   "tier": "strong"
+  }
+ },
+ "error": null,
+ "outcome": {
+  "amount": 1808470,
+  "amountIsTheRequestedAmount": true,
+  "date": "2023-12-11",
+  "description": "The district court granted Lagoon summary judgment in June 2022, held the liquidated-damages clause enforceable so that no mitigation was required, and (after Lagoon waived attorney fees) entered judgment for $1,808,470 plus costs. The Minnesota Court of Appeals reversed on December 11, 2023, holding the liquidated-damages clause unenforceable because actual damages were capable of estimation and the clause ignored the duty to mitigate, and remanded for further proceedings on actual damages and mitigation.",
+  "attorneysFeesAtTrial": null,
+  "appellateChange": "reversed"
+ },
+ "source": {
+  "caseName": "Lagoon Partners, LLC v. Silver Cinemas Acquisition Co., d/b/a Landmark Theatres",
+  "court": "Minnesota Court of Appeals",
+  "docket": "A23-0194 (Hennepin County District Court File No. 27-CV-21-11262)",
+  "decided": "2023-12-11",
+  "url": "http://mn.gov/law-library-stat/archive/ctappub/2023/OPa230194-121123.pdf",
+  "excerptNote": "Verbatim sentences from the FACTS section (Lease Agreement, Default, Litigation) through the parties' summary-judgment briefing; the opening description of the theater, the block-quoted termination clause, the scheduling-order sentences, and some executive-order detail were omitted for length. Removed: the syllabus and opening paragraph stating the court's conclusion, the block quote of the statutory-limit liquidated-damages language, the executive-order citations, footnotes, the paragraph describing the district court's summary-judgment order and judgment amount, and all analysis. Lagoon's $1,808,470 demand is retained as a pre-outcome fact."
+ }
+}
