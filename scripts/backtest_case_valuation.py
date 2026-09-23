@@ -69,6 +69,7 @@ def call_calculator(secret, inp):
 
 def summarize(analysis):
     return {
+        "model": analysis.get("model"),
         "category": analysis.get("category"),
         "roleLabel": analysis.get("roleLabel"),
         "damagesRange": analysis.get("damagesRange"),

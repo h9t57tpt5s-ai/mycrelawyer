@@ -2554,6 +2554,9 @@ Deno.serve(async (req) => {
         // frontend can show this as its own "grounded in N real
         // settlements" indicator, distinct from citedCases above.
         contributedSettlementBenchmark: settlementBenchmark,
+        // Which model produced this analysis, so a calibration result is
+        // never attributed to the wrong model if NARRATIVE_MODEL changes.
+        model: NARRATIVE_MODEL,
       },
       costData,
     }, 200);

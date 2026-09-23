@@ -80,6 +80,7 @@ def main():
             "docket": m.get("docket"),
             "filings": m["filings"],
             "predictedAt": today,
+            "model": a.get("model"),
             "category": a.get("category"),
             "side": a.get("roleLabel"),
             "predictedRange": a.get("damagesRange"),
