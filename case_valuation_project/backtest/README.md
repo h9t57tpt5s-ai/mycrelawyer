@@ -22,11 +22,21 @@ is public. Results are published, good or bad.
    whose outcome amount appears anywhere in its input text.
 4. **Every case is run through the live Edge Function**, not a copy of its
    prompt, so the result is what a user would have received.
-5. **Scoring.** A case counts as a hit when the outcome falls inside the
-   predicted `damagesRange`, and the best-guess error is
-   `(bestGuessValue - outcome) / outcome`. Cases where the calculator
-   returns no range (`whatIsNeededForEstimate` set) are reported as
-   "declined", not dropped.
+5. **Scoring.** Two comparisons are reported for every case, because the
+   calculator's top-line range includes a contractual attorney's-fee claim
+   when one is pleaded and court awards are usually reported without it:
+   - **Ex-fees:** the sum of the calculator's per-issue expected values
+     for every issue except those labeled as fees, against the trial award
+     on the main claim (`outcome.amount`, which excludes fees).
+   - **All-in:** the calculator's top-line `damagesRange` and
+     `bestGuessValue` against the whole trial judgment including fees
+     (`outcome.amount + outcome.attorneysFeesAtTrial`).
+   A case is a hit when the actual figure falls inside the range, and the
+   best-guess error is `(predicted - actual) / actual`. Appellate changes
+   are recorded but scored separately, since the tool is asked what a
+   trial court will do. Cases where the calculator returns no range
+   (`whatIsNeededForEstimate` set) are reported as "declined", not
+   dropped.
 6. Results live in `results/<id>.json`, one file per case, written the
    moment the call returns. A case is never re-run once a result exists.
 
