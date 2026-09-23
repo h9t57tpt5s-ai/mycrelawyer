@@ -40,8 +40,10 @@ def validate(case):
     if FORBIDDEN_INPUT_KEYS & set(inp):
         raise ValueError(f"{case['id']}: outcome data must never be inside input")
     # A crude but real guard against leaking the answer into the prompt.
+    # A case may state that the court awarded exactly what was demanded;
+    # the demand is a legitimate pre-outcome fact, so that case opts out.
     amount = case["outcome"].get("amount")
-    if amount:
+    if amount and not case["outcome"].get("amountIsTheRequestedAmount"):
         text = (inp.get("description") or "") + (inp.get("documentText") or "")
         if f"{amount:,.2f}" in text or f"{int(amount):,}" in text:
             raise ValueError(f"{case['id']}: the outcome amount appears in the input text")

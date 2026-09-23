@@ -1,0 +1,42 @@
+name: Case Value Calculator backtest
+
+# Manual only. Runs resolved cases through the live calculator and commits
+# one result file per case. Each case is a real Claude API call, so the
+# limit input is the spend control; the runner never re-runs a case that
+# already has a result file.
+
+on:
+  workflow_dispatch:
+    inputs:
+      limit:
+        description: "Maximum cases to run this time"
+        default: "1"
+      only:
+        description: "Comma-separated case ids (optional)"
+        default: ""
+
+permissions:
+  contents: write
+
+concurrency:
+  group: case-valuation-backtest
+  cancel-in-progress: false
+
+jobs:
+  backtest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run cases through the calculator
+        env:
+          AUTOMATION_SECRET: ${{ secrets.AUTOMATION_SECRET }}
+        run: python3 scripts/backtest_case_valuation.py case_valuation_project/backtest/cases.json --confirm --limit "${{ inputs.limit }}" --only "${{ inputs.only }}"
+      - name: Commit results
+        run: |
+          git add case_valuation_project/backtest/results/
+          if git diff --cached --quiet; then echo "No new results."; exit 0; fi
+          git config user.name "credocket-backtest-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git commit -m "Backtest: record calculator results"
+          git push
