@@ -135,6 +135,7 @@
       <div class="eyebrow" style="margin-bottom:10px;">How each case is scored</div>
       <p class="text-secondary" style="font-size:13.5px; line-height:1.7; margin-bottom:10px;">Each case comes from a published appellate opinion hosted by the court itself. The calculator receives a verbatim excerpt of the opinion's facts and each side's contentions, with every sentence stating an award, a finding or a holding removed. The outcome is stored separately and a script refuses to run any case whose award appears in the input. Every case goes through the same live tool a user would use, not a copy of it.</p>
       <p class="text-secondary" style="font-size:13.5px; line-height:1.7; margin-bottom:10px;">Two comparisons are shown. <strong>Main claim:</strong> the calculator's per-claim expected values, excluding any attorney's-fee claim, against the trial award on the main claim. <strong>All-in:</strong> the calculator's top-line range and best guess against the whole trial judgment including fees. A hit means the actual figure fell inside the predicted range. The tool is asked what a trial court will do, so appellate changes are noted but scored separately.</p>
+      <p class="text-secondary" style="font-size:13.5px; line-height:1.7; margin-bottom:10px;"><strong>Read the per-case hits with care.</strong> The calculator returns probability-weighted expected values: a claim it gives a 60 percent chance of recovering $100,000 is carried at about $60,000. A single case that was then won outright will land above that figure by construction, and one that was lost will land below it. The fairer test of a probability-weighted tool is whether its predictions add up across many cases, so the scorecard also shows total predicted against total awarded.</p>
       <p class="text-secondary" style="font-size:13.5px; line-height:1.7;">The inputs, outputs and scoring script are in the public repository so the result can be checked: <a href="https://github.com/h9t57tpt5s-ai/mycrelawyer/tree/main/case_valuation_project/backtest" target="_blank" rel="noopener noreferrer">case_valuation_project/backtest</a>. This tests the model, not the intake form: a real user's description is messier than a court's statement of facts.</p>
     </div>
   </div>
@@ -149,7 +150,7 @@
       </div>
       <p class="text-muted" id="cal-generated" style="max-width:360px; font-size:13px;"></p>
     </div>
-    <div id="cal-summary" class="grid-3" style="margin-bottom:24px;"></div>
+    <div id="cal-summary" class="grid-4" style="margin-bottom:24px;"></div>
     <div id="cal-host"></div>
   </div>
 </section>
@@ -281,7 +282,8 @@
     sum.innerHTML =
       tile(`${S.exFeesHits ?? 0} of ${S.exFeesScorable ?? 0}`, "main-claim awards inside the calculator's per-claim range") +
       tile(`${S.allInHits ?? 0} of ${S.allInScorable ?? 0}`, "whole judgments inside the top-line range") +
-      tile(pct(S.medianBestGuessError), "median best-guess error against the whole judgment (positive = too high)");
+      tile(pct(S.medianBestGuessError), "median best-guess error against the whole judgment (positive = too high)") +
+      tile(S.aggregateRatio == null ? "—" : Math.round(S.aggregateRatio * 100) + "%", `total predicted as a share of total awarded (${fmt(S.aggregatePredicted)} vs ${fmt(S.aggregateActual)})`);
     const gen = document.getElementById("cal-generated");
     if (gen) gen.textContent = (S.cases || 0) + " case" + (S.cases === 1 ? "" : "s") + " run" + (S.declined ? `, ${S.declined} declined for lack of a dollar anchor` : "") + ". Target: 25.";
 
