@@ -14,6 +14,9 @@ on:
       only:
         description: "Comma-separated case ids (optional)"
         default: ""
+      mode:
+        description: "backtest (resolved cases) or registry (dated predictions on pending matters)"
+        default: "backtest"
 
 permissions:
   contents: write
@@ -31,12 +34,17 @@ jobs:
       - name: Run cases through the calculator
         env:
           AUTOMATION_SECRET: ${{ secrets.AUTOMATION_SECRET }}
-        run: python3 scripts/backtest_case_valuation.py case_valuation_project/backtest/cases.json --confirm --limit "${{ inputs.limit }}" --only "${{ inputs.only }}"
+        run: |
+          if [ "${{ inputs.mode }}" = "registry" ]; then
+            python3 scripts/registry_predict.py --confirm --limit "${{ inputs.limit }}" --only "${{ inputs.only }}"
+          else
+            python3 scripts/backtest_case_valuation.py case_valuation_project/backtest/cases.json --confirm --limit "${{ inputs.limit }}" --only "${{ inputs.only }}"
+          fi
       - name: Commit results
         run: |
-          git add case_valuation_project/backtest/results/
+          git add case_valuation_project/backtest/results/ case_valuation_project/registry/entries.json js/prediction-registry-data.js
           if git diff --cached --quiet; then echo "No new results."; exit 0; fi
           git config user.name "credocket-backtest-bot"
           git config user.email "actions@users.noreply.github.com"
-          git commit -m "Backtest: record calculator results"
+          git commit -m "${{ inputs.mode == 'registry' && 'Registry: log dated predictions' || 'Backtest: record calculator results' }}"
           git push
