@@ -109,8 +109,12 @@ def main():
             continue
         out_path = RESULTS_DIR / f"{c['id']}.json"
         if out_path.exists():
-            print(f"skip {c['id']}: result exists")
-            continue
+            # A completed analysis is final; a failed call (upstream error,
+            # timeout) is retried on the next run.
+            if json.loads(out_path.read_text()).get("status") == 200:
+                print(f"skip {c['id']}: result exists")
+                continue
+            print(f"retry {c['id']}: previous attempt failed")
         if ran >= args.limit:
             break
         print(f"running {c['id']} ...", flush=True)

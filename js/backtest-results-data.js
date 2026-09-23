@@ -11,9 +11,9 @@ window.BACKTEST_RESULTS = {
   "allInHits": 1,
   "allInScorable": 5,
   "medianBestGuessError": -0.199,
-  "aggregatePredicted": 592000,
-  "aggregateActual": 1473328,
-  "aggregateRatio": 0.402
+  "aggregatePredicted": 561312,
+  "aggregateActual": 763101,
+  "aggregateRatio": 0.736
  },
  "cases": [
   {

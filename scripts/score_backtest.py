@@ -91,7 +91,11 @@ def main():
     # construction. The fair test of a probability-weighted tool is whether
     # its predictions add up across many cases, so the aggregate ratio is
     # reported alongside the per-case hit rate.
-    pairs = [(r["allIn"]["bestGuess"], r["allIn"]["actual"]) for r in scored if r["allIn"]["bestGuess"] is not None and r["allIn"]["actual"]]
+    # Measured ex-fees (midpoint of the per-claim range against the main
+    # award): fee awards are lumpy and can exceed the damages themselves,
+    # which would let one fee award dominate the total.
+    pairs = [((r["exFees"]["predictedRange"][0] + r["exFees"]["predictedRange"][1]) / 2, r["exFees"]["actual"])
+             for r in scored if r["exFees"]["predictedRange"] and r["exFees"]["actual"]]
     summary["aggregatePredicted"] = round(sum(a for a, _ in pairs))
     summary["aggregateActual"] = round(sum(b for _, b in pairs))
     summary["aggregateRatio"] = round(summary["aggregatePredicted"] / summary["aggregateActual"], 3) if summary["aggregateActual"] else None
