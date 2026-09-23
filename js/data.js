@@ -5099,6 +5099,71 @@ const RELAW_DATA = {
       ],
       propertyType: "Industrial",
       tags: ["premises liability", "california", "privette doctrine", "contractor injury", "verizon"]
+    },
+    {
+      id: "live-173",
+      addedDate: "2026-09-23",
+      featured: true,
+      title: "Computershare Trust Co. v. Showboat Properties LLC (CMBS Foreclosure on Atlantic City's Showboat)",
+      category: "lending-foreclosure",
+      status: "filed",
+      date: "2026-06-30",
+      jurisdiction: "Superior Court of New Jersey, Chancery Division, Atlantic County",
+      state: "NJ",
+      amount: "$48.4 million CMBS loan alleged in default; trustee seeks judgment permitting a sheriff's sale",
+      source: "live",
+      sourceUrl: "https://pressofatlanticcity.com/news/local/casinos/article_0740fbf3-cfb8-434a-8fd6-bf88dd3dab7f.html",
+      summary: "Computershare Trust Co., as trustee for CMBS investors, filed a foreclosure complaint on June 30, 2026 against Showboat Properties LLC and entities tied to developer Bart Blatstein, alleging no payments have been made on a $48.4 million loan secured by part of Atlantic City's Showboat hotel complex in over a year. The complaint targets at least 475 guest rooms, the property's arcade, and its parking garage, and seeks a court-ordered sale of the collateral.",
+      significance: "Illustrates how CMBS trust structures leave borrowers with far less workout flexibility than a balance-sheet lender once a monetary default occurs, and shows how unresolved contractor and mechanic's lien disputes tied to renovation work can compound a hospitality owner's distress alongside a loan default. Special servicers and receivers stepping into similar assets should expect to resolve ancillary contractor claims as part of, not separate from, the disposition process.",
+      body: [
+        "Atlantic City's Showboat, one of the Boardwalk's most recognizable hotel properties, is now the subject of a commercial foreclosure action after its mortgage trustee accused the ownership entity controlled by developer Bart Blatstein of defaulting on a $48.4 million commercial mortgage-backed securities loan. Computershare Trust Co., acting on behalf of investors holding the CMBS trust that owns the loan, filed the foreclosure complaint on June 30, 2026 in the Superior Court of New Jersey, Chancery Division, Atlantic County, naming Showboat Properties LLC and related Blatstein entities as defendants. The trustee alleges the borrower has made no payments toward the debt in over a year and is seeking a judgment permitting a sheriff's sale of the mortgaged portion of the property.",
+        "The complaint targets a specific slice of the sprawling Showboat complex: at least 475 guest rooms, the Lucky Snake Arcade, and the property's parking garage. Blatstein, a longtime Philadelphia-area developer, purchased the shuttered former casino in 2016 and has since repositioned it as a non-gaming hotel and entertainment destination, adding attractions including an indoor waterpark. The CMBS loan at issue financed that repositioning, and its default follows a pattern that has become familiar across the hospitality sector: properties that took on debt during a period of low rates and aggressive underwriting are now confronting higher refinancing costs, softer hospitality demand in some secondary gaming markets, and lenders with far less patience for extend-and-modify workouts than a few years ago.",
+        "What distinguishes this matter from a routine payment default is the trail of related litigation the foreclosure complaint sits alongside. Court records show at least two separate contractor disputes tied to construction and renovation work at the Showboat's waterpark attraction. In one, a judge ordered Blatstein and his construction company to pay an electrical subcontractor, Lee-Way Electrical of Buena, more than $532,000 plus 12.5% interest after finding the work had gone unpaid. In another, an interior landscaping contractor sued Blatstein in 2024 over roughly $1.7 million in unpaid work at the waterpark, a dispute that was later resolved and closed. Together with the CMBS default, these filings paint a picture of an owner facing simultaneous pressure from its lender and from contractors who performed work on the site, precisely the kind of liquidity strain servicers watch for as an early warning sign.",
+        "For CMBS special servicers and trustees, the Showboat matter is a reminder that a loan default on a large hospitality asset rarely arrives as an isolated credit event. Deferred maintenance, unpaid contractor claims, and mechanic's lien exposure frequently surface alongside a payment default, and each can complicate a foreclosure sale by clouding title or creating competing claims against sale proceeds. A receiver, if appointed, will typically need to account for and resolve outstanding contractor claims before or during disposition, which can extend timelines and reduce net recovery for certificate holders relative to a straightforward payment default with no ancillary litigation.",
+        "The case also illustrates the foreclosure mechanics particular to CMBS-financed hospitality assets. Unlike a single-lender workout, a CMBS special servicer acts on behalf of a pool of bondholders with varying risk tolerances and often limited flexibility to grant the kind of extended forbearance a balance-sheet lender might offer a longtime borrower relationship. Owners of CMBS-financed hospitality or entertainment assets facing cash flow strain should engage their servicer well before a payment default for that reason, and should understand that unresolved contractor and mechanic's lien claims can themselves become red flags that complicate a later sale; lenders and receivers stepping into distressed assets like this one should likewise anticipate resolving ancillary contractor litigation as part of, not separate from, the disposition process, particularly where a foreclosure targets only a defined slice of a larger mixed-use property, as it does here."
+      ],
+      timeline: [
+        { when: "2016", label: "Bart Blatstein purchases the shuttered former Showboat casino" },
+        { when: "2024", label: "Interior landscaping contractor sues Blatstein over unpaid waterpark work; later resolved" },
+        { when: "June 30, 2026", label: "Computershare Trust Co. files CMBS foreclosure complaint in Atlantic County Superior Court", current: true }
+      ],
+      parties: [
+        { name: "Computershare Trust Co.", role: "Trustee/Plaintiff" },
+        { name: "Showboat Properties LLC", role: "Defendant/Borrower" },
+        { name: "Bart Blatstein", role: "Defendant" }
+      ],
+      propertyType: "Hospitality",
+      tags: ["hotel foreclosure", "cmbs", "new jersey", "atlantic city", "receivership"]
+    },
+    {
+      id: "live-174",
+      addedDate: "2026-09-23",
+      title: "Cogent Bank v. Horizon Edge Hospitality LLC (SBA-Backed Foreclosure on Shuttered Rochester Wyndham)",
+      category: "lending-foreclosure",
+      status: "filed",
+      date: "2026-07-07",
+      jurisdiction: "Supreme Court of the State of New York, Monroe County",
+      state: "NY",
+      amount: "$6,347,940.30 alleged owed as of July 7, 2026 on a $5 million SBA-guaranteed loan and an $850,000 conventional loan",
+      source: "live",
+      sourceUrl: "https://13wham.com/news/local/foreclosure-lawsuit-filed-against-shuttered-wyndham-rochester-downtown-hotel-cogent-bank",
+      summary: "Cogent Bank filed a foreclosure complaint in Monroe County Supreme Court against hotel owner Nayan K. Patel and his entities Horizon Edge Hospitality LLC and Horizon Edge Capital LP, alleging more than $6.3 million owed on an SBA-guaranteed loan and a conventional loan secured by the now-shuttered Wyndham Rochester Downtown. The filing follows a second forbearance agreement that the bank alleges also went into default, and comes weeks after the City of Rochester ordered the hotel closed over fire and building code violations.",
+      significance: "Shows how a municipal code-enforcement closure can independently trigger or accelerate a loan default by eliminating a hospitality property's operating revenue, and underscores that SBA guarantees reduce a lender's credit exposure without substituting for ongoing post-closing monitoring of a borrower's maintenance and compliance practices.",
+      body: [
+        "A downtown Rochester, New York hotel that the city forced to close over fire and building code violations is now facing a separate foreclosure lawsuit from its primary lender. Cogent Bank filed a foreclosure complaint in the Supreme Court of the State of New York, Monroe County, against hotel owner Nayan K. Patel and his affiliated entities, Horizon Edge Hospitality LLC and Horizon Edge Capital LP, alleging that more than $6.3 million is owed on loans secured by the Wyndham Rochester Downtown property at 32-70 State Street. The complaint reflects a debt of $6,347,940.30 as calculated on July 7, 2026, with interest and other charges continuing to accrue.",
+        "According to the complaint, Cogent extended Horizon Edge Hospitality two loans in April 2024: a $5 million loan guaranteed by the U.S. Small Business Administration and an $850,000 conventional loan. The bank alleges the borrowers defaulted on both by failing to make required payments and by failing to maintain the business itself, a default category that in SBA-backed hospitality lending typically covers matters such as lapsed insurance, unpaid property taxes, deferred maintenance, or a failure to keep the property operating as a going concern. The parties subsequently entered into a second forbearance agreement in May 2026, but the bank alleges the borrowers defaulted on that agreement as well, precipitating the foreclosure filing.",
+        "The lawsuit lands on top of an already precarious operational situation at the property. In June 2026, the City of Rochester ordered the Wyndham closed after inspectors documented 13 open fire code violations and 10 open building code violations, a decision the mayor's office followed by publicly calling on ownership to address the issues immediately. Court filings reviewed by local reporters connect Horizon Edge Hospitality, despite its presence in the New York State corporate registry, to a Georgia-based dentist, Dr. Ashish Kakadia, illustrating how SBA-guaranteed hospitality lending has increasingly drawn borrowers from outside the traditional hotel-operating industry into hands-on ownership of distressed assets.",
+        "Cogent's complaint seeks both a judgment permitting foreclosure on the mortgages and the appointment of a receiver to take possession of and protect the property while the litigation proceeds, a standard and important request here since a shuttered hotel with open code violations is exactly the kind of asset that can deteriorate further, or become a liability magnet, if left unsecured during a multi-month or multi-year foreclosure timeline. A receiver's ability to secure the premises and begin addressing code violations can meaningfully affect the property's ultimate resale value and reduce the lender's loss severity relative to leaving a shuttered, code-deficient building to sit vacant.",
+        "The case is a useful illustration of how SBA-guaranteed commercial lending interacts with local code enforcement in ways that can compound a borrower's distress: a municipal closure order over code violations can independently trigger or accelerate a loan default by cutting off a property's operating revenue, even where the loan itself was otherwise performing, and a second forbearance agreement that also lapses is a meaningful signal to courts and to the market that a workout path has been exhausted. For lenders, the matter is a reminder that an SBA guarantee reduces ultimate credit exposure but does not substitute for ongoing post-closing monitoring of a borrower's maintenance practices and code compliance, particularly where the borrower, as here, is a first-time or out-of-industry hotel operator whose capital reserves and operational experience may not match those of a seasoned hospitality owner."
+      ],
+      parties: [
+        { name: "Cogent Bank", role: "Plaintiff/Lender" },
+        { name: "Horizon Edge Hospitality LLC", role: "Defendant/Borrower" },
+        { name: "Horizon Edge Capital LP", role: "Defendant" },
+        { name: "Nayan K. Patel", role: "Defendant" }
+      ],
+      propertyType: "Hospitality",
+      tags: ["hotel foreclosure", "sba loan", "new york", "receivership", "code violations"]
     }
   ],
 
