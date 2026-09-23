@@ -55,6 +55,7 @@ def score(record):
         "decided": (record.get("source") or {}).get("decided"),
         "sourceUrl": (record.get("source") or {}).get("url"),
         "ranAt": record.get("ranAt"),
+        "model": p.get("model") or ("claude-opus-5" if record.get("status") == 200 else None),
         "category": p.get("category"),
         "role": p.get("roleLabel"),
         "declined": declined,

@@ -89,7 +89,11 @@ const DAILY_BURST_CAP = 15;
 const MAX_DOC_CHARS = 50000; // server-side mirror of the client-side cap -- never trust the client alone
 const MAX_DESCRIPTION_CHARS = 8000; // the user's own freeform case description -- shorter cap than documents, but still a real source of facts, never trust the client alone
 const CASE_DATA_URL = "https://credocket.com/js/case-valuation-data.js";
-const NARRATIVE_MODEL = "claude-opus-5"; // swap to "claude-sonnet-5" for a wider cost margin
+// Sonnet 5 as of 2026-09-23: on Opus 5 the analysis pass ran past
+// Supabase's 150-second request limit or its compute cap on roughly half
+// of real-length inputs (see case_valuation_project/backtest/results/).
+// Every response reports the model that produced it.
+const NARRATIVE_MODEL = "claude-sonnet-5";
 const EXTRACTION_MODEL = "claude-haiku-4-5";
 
 // Per-million-token pricing, for the cost-estimate logging below only --
@@ -100,6 +104,7 @@ const EXTRACTION_MODEL = "claude-haiku-4-5";
 // down and was never based on measured tokens).
 const MODEL_PRICING_PER_MTOK: Record<string, { input: number; output: number }> = {
   "claude-opus-5": { input: 5, output: 25 },
+  "claude-sonnet-5": { input: 3, output: 15 },
   "claude-haiku-4-5": { input: 1, output: 5 },
 };
 function logUsage(
