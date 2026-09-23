@@ -191,7 +191,7 @@
         <h3>Housing Rights Initiative v. Blackstone (8 Spruce Street Rent-Stabilization Overcharge Class Action)</h3>
         <p class="summary">Tenant watchdog Housing Rights Initiative filed a class action against Blackstone-affiliated entities BREIT Operating Partnership, 8 Spruce, and Beam Living, alleging the landlord of the 898-unit, 421-a-stabilized 8 Spruce Street tower calculated lease-renewal increases off an inflated advertised rent rather than the lower net rent tenants actually paid after concessions. The suit claims the practice produced renewal increases exceeding 50% in some units and more than $30 million in aggregate overcharges affecting up to 3,500 current and former tenants since September 2020.</p>
         <div class="detail-tag" style="display:inline-block; margin-bottom:14px;">$30M+ in alleged aggregate overcharges</div>
-        <div class="case-card-meta">
+        <p class="text-secondary" style="font-size:13px; line-height:1.6; margin:0 0 12px;"><strong>Why it matters:</strong> Tests a concession-driven leasing practice — advertising a high 'legal' rent, offering upfront concessions, then calculating renewal increases off the unconcessioned figure — that is common across New York's tax-abated, rent-stabilized rental stock, not unique to this building. A ruling crediting the theory would put every 421-a or J-51 landlord using similar concession structures on notice that their renewal math may not withstand scrutiny.</p><div class="case-card-meta">
           <span title="Added to tracker: Sep 15, 2026">Sep 10, 2026</span>
           <span>Supreme Court of the State of New York, New York County</span>
         </div>
@@ -209,7 +209,7 @@
         <h3>In re Hughes Center Receivership (Blackstone CMBS Default, Court-Ordered Sale to Borden Industries)</h3>
         <p class="summary">Eighth Judicial District Court Judge Maria Gall approved the sale of Hughes Center, a 68-acre, 1.4-million-square-foot Las Vegas office and retail campus, to Borden Industries on July 28, 2026, closing out a roughly two-year court-ordered receivership. The receivership began after a Blackstone-affiliated ownership entity defaulted on a $325 million CMBS loan and Wells Fargo, acting as trustee for the loan's noteholders, moved to have Logic Commercial Real Estate appointed receiver.</p>
         <div class="detail-tag" style="display:inline-block; margin-bottom:14px;">$325M defaulted CMBS loan; sale price to Borden Industries withheld from public filings</div>
-        <div class="case-card-meta">
+        <p class="text-secondary" style="font-size:13px; line-height:1.6; margin:0 0 12px;"><strong>Why it matters:</strong> Shows a full CMBS special-servicing-to-receivership-to-sale cycle for a large mixed-use office asset undermined by tenant migration to newer submarkets, and confirms that Nevada courts will seal receivership sale pricing from public dockets on a proper showing. Special servicers and receivers handling distressed office campuses with a healthier retail component should study the marketing approach here as a template for finding buyers outside the traditional office-investor pool.</p><div class="case-card-meta">
           <span title="Added to tracker: Sep 17, 2026">Jul 28, 2026</span>
           <span>Eighth Judicial District Court, Clark County, Nevada</span>
         </div>
@@ -227,11 +227,20 @@
         <h3>United States, et al. v. LivCor, LLC (RealPage Algorithmic Pricing Antitrust Consent Judgment)</h3>
         <p class="summary">U.S. District Judge William Lindsay Osteen Jr. entered a final consent judgment resolving DOJ and nine-state antitrust claims that Blackstone-backed landlord LivCor, LLC used RealPage's revenue-management software and shared competitor pricing data to coordinate apartment rents. LivCor will pay $7 million split among the participating states and is barred from using non-compliant algorithmic pricing tools, sharing competitively sensitive data with rival landlords, or attending RealPage-hosted landlord meetings.</p>
         <div class="detail-tag" style="display:inline-block; margin-bottom:14px;">$7M multistate settlement; LivCor controls ~3,500 apartment units in North Carolina</div>
-        <div class="case-card-meta">
+        <p class="text-secondary" style="font-size:13px; line-height:1.6; margin:0 0 12px;"><strong>Why it matters:</strong> The settlement is a concrete template for how large landlord-defendants are resolving the sprawling RealPage antitrust litigation: a comparatively modest payment paired with detailed behavioral restrictions on data-sharing and algorithmic tools, rather than proceeding to trial. It also underscores that a federal antitrust settlement does not resolve separate exposure under municipal and state algorithmic-pricing bans, several of which carry independent statutory penalties.</p><div class="case-card-meta">
           <span title="Added to tracker: Sep 1, 2026">Jun 18, 2026</span>
           <span>U.S. District Court, Middle District of North Carolina</span>
         </div>
       </article><!--/prerender:cp-case-grid--></div>
+
+    <div class="section-head reveal in-view" style="margin-top:32px;">
+      <div>
+        <div class="eyebrow">Public Filings</div>
+        <h2 style="font-size:clamp(1.3rem,2vw,1.7rem);">Bankruptcy petitions and SEC bankruptcy disclosures naming this company</h2>
+      </div>
+      <p class="text-muted" style="max-width:420px; font-size:13.5px;">From the daily check of every new Chapter 11 petition nationwide and SEC Form 8-K Item 1.03 filings, matched on the company name.</p>
+    </div>
+    <div class="card reveal in-view" style="padding:18px 24px;" id="cp-filings"><!--prerender:cp-filings--><p class="text-muted" style="font-size:13px; margin:0;">No public Chapter 11 petition or SEC bankruptcy disclosure naming this company in the filings we monitor. Federal civil suits and state-court matters against a specific company are checked privately for subscribers who save the name in their portfolio.</p><!--/prerender:cp-filings--></div>
 
     <div class="card reveal" style="padding:18px 24px; margin-top:24px; display:flex; align-items:center; justify-content:space-between; gap:16px; flex-wrap:wrap;">
       <p class="text-secondary" style="font-size:13px; margin:0;">See how this company stacks up against up to three peers.</p>
@@ -408,8 +417,16 @@
       </div>`;
 
     const grid = document.getElementById("cp-case-grid");
+    // The shared card plus the asset class and the matter's own "why it
+    // matters" note -- the part a risk officer reads on a company page.
+    const companyCard = (c) => {
+      const card = window.RELAW_UTILS.caseCardHtml(c);
+      const extra = (c.propertyType ? `<div class="detail-tag" style="display:inline-block; margin-bottom:10px;">${c.propertyType}</div>` : "") +
+        (c.significance ? `<p class="text-secondary" style="font-size:13px; line-height:1.6; margin:0 0 12px;"><strong>Why it matters:</strong> ${c.significance}</p>` : "");
+      return extra ? card.replace('<div class="case-card-meta">', extra + '<div class="case-card-meta">') : card;
+    };
     grid.innerHTML = matches.length
-      ? matches.map(window.RELAW_UTILS.caseCardHtml).join("")
+      ? matches.map(companyCard).join("")
       : `<p class="text-secondary">No matters currently tracked for ${COMPANY_NAME} — check back as coverage grows.</p>`;
     document.querySelectorAll(".reveal, .card").forEach((el) => el.classList.add("in-view"));
   })();

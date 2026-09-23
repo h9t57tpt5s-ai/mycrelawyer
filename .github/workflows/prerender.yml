@@ -28,7 +28,7 @@ jobs:
       - uses: denoland/setup-deno@v2
         with:
           deno-version: v2.x
-      - run: deno run --allow-read --allow-write scripts/prerender.ts
+      - run: deno run --allow-read --allow-write --allow-net scripts/prerender.ts
       - name: Commit prerendered pages
         run: |
           git add index.html litigation.html coverage.html company-*.html
@@ -36,4 +36,7 @@ jobs:
           git config user.name "credocket-prerender-bot"
           git config user.email "actions@users.noreply.github.com"
           git commit -m "Prerender: bake current counts and matter lists into the HTML"
+          # Other commits land on main while a long run is in flight; rebase
+          # so the results push is never rejected and the API spend lost.
+          git pull --rebase origin main
           git push

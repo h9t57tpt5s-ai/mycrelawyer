@@ -47,4 +47,7 @@ jobs:
           git config user.name "credocket-backtest-bot"
           git config user.email "actions@users.noreply.github.com"
           git commit -m "${{ inputs.mode == 'registry' && 'Registry: log dated predictions' || 'Backtest: record calculator results' }}"
+          # Other commits land on main while a long run is in flight; rebase
+          # so the results push is never rejected and the API spend lost.
+          git pull --rebase origin main
           git push

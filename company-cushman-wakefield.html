@@ -191,7 +191,7 @@
         <h3>Worldwide Plaza Foreclosure Receivership (825 Eighth Avenue, Manhattan)</h3>
         <p class="summary">Under a court-approved transition effective July 1, Cushman & Wakefield replaced SL Green Realty Corp. as day-to-day manager of Worldwide Plaza, the 1.8-million-square-foot Manhattan office tower, ceding control to receiver Hilco Global while a $940 million CMBS foreclosure filed by Goldman Sachs, Deutsche Bank and the loan's trustee proceeds in New York County Supreme Court. A parallel fight over the property's mezzanine debt, in which Extell Development's Gary Barnett is pursuing a UCC Article 9 foreclosure sale, remains on appeal after Justice Andrea Masley denied SL Green and RXR's bid to enjoin the sale.</p>
         <div class="detail-tag" style="display:inline-block; margin-bottom:14px;">$940M senior loan (Goldman Sachs/Deutsche Bank, Series 2017-WWP); bondholders estimated to face losses up to $488M</div>
-        <div class="case-card-meta">
+        <p class="text-secondary" style="font-size:13px; line-height:1.6; margin:0 0 12px;"><strong>Why it matters:</strong> Illustrates how quickly a sponsor can lose operational control of a trophy asset once senior lenders secure a receiver, even before any foreclosure sale occurs, and how competing senior and mezzanine creditors can pursue simultaneous, adversarial remedies against the same building on different timelines and legal standards. Owners and lenders across the distressed office sector should treat the case as a template for how receivership and UCC foreclosure tracks can fracture control of a single asset across parallel proceedings.</p><div class="case-card-meta">
           <span title="Added to tracker: Aug 29, 2026">Jul 1, 2026</span>
           <span>Supreme Court of the State of New York, New York County</span>
         </div>
@@ -209,11 +209,20 @@
         <h3>FitFactariDC LLC v. CoStar Group, Inc. (CRE Lease-Data Hub-and-Spoke Antitrust Suit)</h3>
         <p class="summary">Commercial tenant FitFactariDC LLC filed a proposed class action alleging CoStar Group's lease-comparables platform served as the 'hub' of a Sherman Act price-fixing conspiracy, with CBRE, JLL, Cushman & Wakefield, Colliers, and Newmark as 'spokes' that traded non-public effective rents, concessions, and lease terms through the platform. The complaint claims each 1-point rise in CoStar's market share tracked a 0.3%-0.8% increase in rent per square foot across office, industrial, and retail leases from 2015-2025. An initial status hearing is set for August 19, 2026.</p>
         <div class="detail-tag" style="display:inline-block; margin-bottom:14px;">Putative nationwide class; 2015–2025 class period</div>
-        <div class="case-card-meta">
+        <p class="text-secondary" style="font-size:13px; line-height:1.6; margin:0 0 12px;"><strong>Why it matters:</strong> Extends the RealPage-style hub-and-spoke theory from multifamily algorithmic pricing into commercial brokerage data-sharing, naming the industry's largest brokerages as defendants. If the theory survives a motion to dismiss, follow-on suits could sweep in landlords and owners whose brokers submitted lease data to CoStar, mirroring how RealPage litigation expanded to landlord-customers.</p><div class="case-card-meta">
           <span title="Added to tracker: Aug 4, 2026">Jun 12, 2026</span>
           <span>U.S. District Court, Northern District of Illinois</span>
         </div>
       </article><!--/prerender:cp-case-grid--></div>
+
+    <div class="section-head reveal in-view" style="margin-top:32px;">
+      <div>
+        <div class="eyebrow">Public Filings</div>
+        <h2 style="font-size:clamp(1.3rem,2vw,1.7rem);">Bankruptcy petitions and SEC bankruptcy disclosures naming this company</h2>
+      </div>
+      <p class="text-muted" style="max-width:420px; font-size:13.5px;">From the daily check of every new Chapter 11 petition nationwide and SEC Form 8-K Item 1.03 filings, matched on the company name.</p>
+    </div>
+    <div class="card reveal in-view" style="padding:18px 24px;" id="cp-filings"><!--prerender:cp-filings--><p class="text-muted" style="font-size:13px; margin:0;">No public Chapter 11 petition or SEC bankruptcy disclosure naming this company in the filings we monitor. Federal civil suits and state-court matters against a specific company are checked privately for subscribers who save the name in their portfolio.</p><!--/prerender:cp-filings--></div>
 
     <div class="card reveal" style="padding:18px 24px; margin-top:24px; display:flex; align-items:center; justify-content:space-between; gap:16px; flex-wrap:wrap;">
       <p class="text-secondary" style="font-size:13px; margin:0;">See how this company stacks up against up to three peers.</p>
@@ -390,8 +399,16 @@
       </div>`;
 
     const grid = document.getElementById("cp-case-grid");
+    // The shared card plus the asset class and the matter's own "why it
+    // matters" note -- the part a risk officer reads on a company page.
+    const companyCard = (c) => {
+      const card = window.RELAW_UTILS.caseCardHtml(c);
+      const extra = (c.propertyType ? `<div class="detail-tag" style="display:inline-block; margin-bottom:10px;">${c.propertyType}</div>` : "") +
+        (c.significance ? `<p class="text-secondary" style="font-size:13px; line-height:1.6; margin:0 0 12px;"><strong>Why it matters:</strong> ${c.significance}</p>` : "");
+      return extra ? card.replace('<div class="case-card-meta">', extra + '<div class="case-card-meta">') : card;
+    };
     grid.innerHTML = matches.length
-      ? matches.map(window.RELAW_UTILS.caseCardHtml).join("")
+      ? matches.map(companyCard).join("")
       : `<p class="text-secondary">No matters currently tracked for ${COMPANY_NAME} — check back as coverage grows.</p>`;
     document.querySelectorAll(".reveal, .card").forEach((el) => el.classList.add("in-view"));
   })();

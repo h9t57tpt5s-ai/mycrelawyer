@@ -191,7 +191,7 @@
         <h3>Via Mizner Owner III LLC v. Via Mizner Lender 1 LLC (Mandarin Oriental Boca Raton Lender-Liability Suit)</h3>
         <p class="summary">Penn-Florida Companies affiliates Via Mizner Owner III LLC and Via Mizner Pledgor III LLC sued their construction lenders, Via Mizner Lender 1 LLC and Via Mizner Lender 2 LLC, in the Commercial Division of the Supreme Court of the State of New York, seeking more than $500 million and alleging the lenders manufactured the defaults they are now citing to justify foreclosing on the stalled Residences at Mandarin Oriental in Boca Raton. Justice Andrew Borrok signed a temporary restraining order blocking a UCC Article 9 sale of the pledged ownership interests in the project entities and set a hearing on preliminary relief for October 1, 2026. The suit is a direct response to the same lender group's own $417.7 million judicial foreclosure complaint, filed in Florida in July.</p>
         <div class="detail-tag" style="display:inline-block; margin-bottom:14px;">$500M+ damages sought</div>
-        <div class="case-card-meta">
+        <p class="text-secondary" style="font-size:13px; line-height:1.6; margin:0 0 12px;"><strong>Why it matters:</strong> The case tests a lender-liability theory against a UCC Article 9 equity-pledge foreclosure — a faster, non-judicial remedy lenders increasingly favor over judicial mortgage foreclosure — and shows how an aggressive borrower complaint can pause that faster track even without seriously disputing the underlying nonpayment. CRE lenders and workout counsel structuring loans with layered mortgage-plus-equity-pledge collateral should watch how the New York court weighs the lender-liability claim against the parallel Florida foreclosure action, since the outcome will bear on how quickly secured lenders can actually convert a UCC pledge into asset control once a borrower fights back.</p><div class="case-card-meta">
           <span title="Added to tracker: Aug 19, 2026">Aug 17, 2026</span>
           <span>Supreme Court of the State of New York, New York County</span>
         </div>
@@ -209,11 +209,20 @@
         <h3>Via Mizner Lender 1 LLC v. Via Mizner Owner III, LLC (Mandarin Oriental Residences, Boca Raton Foreclosure)</h3>
         <p class="summary">A lender group led by Via Mizner Lender 1 LLC, tied to Apollo Global Management, sued to foreclose on the long-delayed Mandarin Oriental Residences condo tower after Penn-Florida affiliate Via Mizner Owner III stopped paying interest in June 2024, missed the loan's September 2025 maturity, and missed a February 2025 completion deadline. The complaint seeks to subordinate a $24.1M mechanics'-lien claim from construction manager Strategic Group Builders and the claims of unit buyers, while a related Chapter 11 case over the adjoining hotel component heads to an August 14 bankruptcy auction.</p>
         <div class="detail-tag" style="display:inline-block; margin-bottom:14px;">$417.7M foreclosure claim</div>
-        <div class="case-card-meta">
+        <p class="text-secondary" style="font-size:13px; line-height:1.6; margin:0 0 12px;"><strong>Why it matters:</strong> A live illustration of capital-stack priority in a distressed vertical construction project: a senior mortgage foreclosure seeking to leapfrog both a perfected mechanics' lien and buyer deposit claims, running in parallel with a separate bankruptcy sale of an affiliated asset. CRE lenders, contractors, and preconstruction condo buyers should watch how the court treats escrowed versus disbursed deposits and lien-priority arguments, as the outcome will bear on workout and lien-perfection strategy for other stalled vertical projects.</p><div class="case-card-meta">
           <span title="Added to tracker: Aug 4, 2026">Jul 17, 2026</span>
           <span>Fifteenth Judicial Circuit Court, Palm Beach County, Florida</span>
         </div>
       </article><!--/prerender:cp-case-grid--></div>
+
+    <div class="section-head reveal in-view" style="margin-top:32px;">
+      <div>
+        <div class="eyebrow">Public Filings</div>
+        <h2 style="font-size:clamp(1.3rem,2vw,1.7rem);">Bankruptcy petitions and SEC bankruptcy disclosures naming this company</h2>
+      </div>
+      <p class="text-muted" style="max-width:420px; font-size:13.5px;">From the daily check of every new Chapter 11 petition nationwide and SEC Form 8-K Item 1.03 filings, matched on the company name.</p>
+    </div>
+    <div class="card reveal in-view" style="padding:18px 24px;" id="cp-filings"><!--prerender:cp-filings--><p class="text-muted" style="font-size:13px; margin:0;">No public Chapter 11 petition or SEC bankruptcy disclosure naming this company in the filings we monitor. Federal civil suits and state-court matters against a specific company are checked privately for subscribers who save the name in their portfolio.</p><!--/prerender:cp-filings--></div>
 
     <div class="card reveal" style="padding:18px 24px; margin-top:24px; display:flex; align-items:center; justify-content:space-between; gap:16px; flex-wrap:wrap;">
       <p class="text-secondary" style="font-size:13px; margin:0;">See how this company stacks up against up to three peers.</p>
@@ -390,8 +399,16 @@
       </div>`;
 
     const grid = document.getElementById("cp-case-grid");
+    // The shared card plus the asset class and the matter's own "why it
+    // matters" note -- the part a risk officer reads on a company page.
+    const companyCard = (c) => {
+      const card = window.RELAW_UTILS.caseCardHtml(c);
+      const extra = (c.propertyType ? `<div class="detail-tag" style="display:inline-block; margin-bottom:10px;">${c.propertyType}</div>` : "") +
+        (c.significance ? `<p class="text-secondary" style="font-size:13px; line-height:1.6; margin:0 0 12px;"><strong>Why it matters:</strong> ${c.significance}</p>` : "");
+      return extra ? card.replace('<div class="case-card-meta">', extra + '<div class="case-card-meta">') : card;
+    };
     grid.innerHTML = matches.length
-      ? matches.map(window.RELAW_UTILS.caseCardHtml).join("")
+      ? matches.map(companyCard).join("")
       : `<p class="text-secondary">No matters currently tracked for ${COMPANY_NAME} — check back as coverage grows.</p>`;
     document.querySelectorAll(".reveal, .card").forEach((el) => el.classList.add("in-view"));
   })();

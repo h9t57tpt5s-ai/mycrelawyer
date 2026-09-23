@@ -191,11 +191,20 @@
         <h3>In re Silver Star Properties REIT (Second Chapter 11 Filing)</h3>
         <p class="summary">Houston-based non-traded REIT Silver Star Properties filed its second Chapter 11 petition in four years on May 28, following a failed pivot from office assets to self-storage. Four guaranteed loan agreements totaling over $65M are in default, and a separate $5.75M promissory note on a self-storage property moved to foreclosure on June 2. The filing follows an SEC inquiry and a settled internal fraud/fiduciary-duty suit against the REIT's ousted founder, Allen Hartman, tied to an earlier $259M Goldman Sachs CMBS loan default.</p>
         <div class="detail-tag" style="display:inline-block; margin-bottom:14px;">$100M assets vs. $75M liabilities; $65M+ in defaulted loans</div>
-        <div class="case-card-meta">
+        <p class="text-secondary" style="font-size:13px; line-height:1.6; margin:0 0 12px;"><strong>Why it matters:</strong> Illustrates how leadership litigation and governance disputes within a REIT can compound loan-covenant distress and precipitate repeat bankruptcy filings. Lenders and boards evaluating distressed CRE borrowers are increasingly treating unresolved founder/fiduciary-duty litigation as an independent credit risk factor, separate from asset-level performance, amid the broader wave of CRE loan maturities.</p><div class="case-card-meta">
           <span title="Added to tracker: Aug 4, 2026">May 28, 2026</span>
           <span>U.S. Bankruptcy Court, Northern District of Texas</span>
         </div>
       </article><!--/prerender:cp-case-grid--></div>
+
+    <div class="section-head reveal in-view" style="margin-top:32px;">
+      <div>
+        <div class="eyebrow">Public Filings</div>
+        <h2 style="font-size:clamp(1.3rem,2vw,1.7rem);">Bankruptcy petitions and SEC bankruptcy disclosures naming this company</h2>
+      </div>
+      <p class="text-muted" style="max-width:420px; font-size:13.5px;">From the daily check of every new Chapter 11 petition nationwide and SEC Form 8-K Item 1.03 filings, matched on the company name.</p>
+    </div>
+    <div class="card reveal in-view" style="padding:18px 24px;" id="cp-filings"><!--prerender:cp-filings--><p class="text-muted" style="font-size:13px; margin:0;">No public Chapter 11 petition or SEC bankruptcy disclosure naming this company in the filings we monitor. Federal civil suits and state-court matters against a specific company are checked privately for subscribers who save the name in their portfolio.</p><!--/prerender:cp-filings--></div>
 
     <div class="card reveal" style="padding:18px 24px; margin-top:24px; display:flex; align-items:center; justify-content:space-between; gap:16px; flex-wrap:wrap;">
       <p class="text-secondary" style="font-size:13px; margin:0;">See how this company stacks up against up to three peers.</p>
@@ -372,8 +381,16 @@
       </div>`;
 
     const grid = document.getElementById("cp-case-grid");
+    // The shared card plus the asset class and the matter's own "why it
+    // matters" note -- the part a risk officer reads on a company page.
+    const companyCard = (c) => {
+      const card = window.RELAW_UTILS.caseCardHtml(c);
+      const extra = (c.propertyType ? `<div class="detail-tag" style="display:inline-block; margin-bottom:10px;">${c.propertyType}</div>` : "") +
+        (c.significance ? `<p class="text-secondary" style="font-size:13px; line-height:1.6; margin:0 0 12px;"><strong>Why it matters:</strong> ${c.significance}</p>` : "");
+      return extra ? card.replace('<div class="case-card-meta">', extra + '<div class="case-card-meta">') : card;
+    };
     grid.innerHTML = matches.length
-      ? matches.map(window.RELAW_UTILS.caseCardHtml).join("")
+      ? matches.map(companyCard).join("")
       : `<p class="text-secondary">No matters currently tracked for ${COMPANY_NAME} — check back as coverage grows.</p>`;
     document.querySelectorAll(".reveal, .card").forEach((el) => el.classList.add("in-view"));
   })();

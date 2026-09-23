@@ -55,6 +55,39 @@ function caseCard(c: Case): string {
       </article>`;
 }
 
+
+// A company page card: the shared card plus the asset class when recorded
+// and the matter's own "why it matters" note, which is the part a risk
+// officer reads.
+function companyCard(c: Case): string {
+  const card = caseCard(c);
+  const extra = `${c.propertyType ? `<div class="detail-tag" style="display:inline-block; margin-bottom:10px;">${esc(c.propertyType)}</div>` : ""}` +
+    `${c.significance ? `<p class="text-secondary" style="font-size:13px; line-height:1.6; margin:0 0 12px;"><strong>Why it matters:</strong> ${c.significance}</p>` : ""}`;
+  return extra ? card.replace('<div class="case-card-meta">', extra + '<div class="case-card-meta">') : card;
+}
+
+// Public court-filing rows that name the company: business Chapter 11
+// petitions and SEC Item 1.03 disclosures, the only rows the database
+// exposes to anonymous readers. Fails soft: a network problem leaves the
+// block empty rather than failing the whole prerender.
+const SUPABASE_REST = "https://ribmcdyoydhmafnyfhpp.supabase.co/rest/v1/court_filings";
+const ANON_KEY = "sb_publishable_77xSJub0DOpnTSM4nzhVaQ_aztB5p3f";
+async function publicFilingsHtml(term: string): Promise<string> {
+  const empty = `<p class="text-muted" style="font-size:13px; margin:0;">No public Chapter 11 petition or SEC bankruptcy disclosure naming this company in the filings we monitor. Federal civil suits and state-court matters against a specific company are checked privately for subscribers who save the name in their portfolio.</p>`;
+  try {
+    const q = `${SUPABASE_REST}?select=filing_type,case_name,court_name,docket_number,date_filed,docket_url&case_name=ilike.*${encodeURIComponent(term.replace(/[%*,()]/g, " ").trim())}*&order=date_filed.desc&limit=10`;
+    const r = await fetch(q, { headers: { apikey: ANON_KEY, Authorization: `Bearer ${ANON_KEY}` }, signal: AbortSignal.timeout(20_000) });
+    if (!r.ok) return empty;
+    const rows = await r.json() as { filing_type: string; case_name: string; court_name: string | null; docket_number: string | null; date_filed: string; docket_url: string }[];
+    if (!rows.length) return empty;
+    const ok = (u: string) => u.startsWith("https://www.courtlistener.com/docket/") || u.startsWith("https://www.sec.gov/Archives/edgar/data/");
+    return `<ul style="list-style:none; margin:0; padding:0; font-size:13.5px;">` + rows.map((x) =>
+      `<li style="padding:10px 0; border-bottom:1px solid var(--border-soft);"><strong>${esc(x.case_name)}</strong> &middot; ${x.filing_type === "sec_8k" ? "SEC Form 8-K, " + esc(x.docket_number) : "Chapter 11 petition, " + esc(x.court_name ?? "")}${x.filing_type !== "sec_8k" && x.docket_number ? ", No. " + esc(x.docket_number) : ""} &middot; filed ${fmtDate(x.date_filed)}${ok(x.docket_url) ? ` &middot; <a href="${esc(x.docket_url)}" target="_blank" rel="noopener noreferrer">${x.filing_type === "sec_8k" ? "filing" : "docket"}</a>` : ""}</li>`).join("") + `</ul>`;
+  } catch {
+    return empty;
+  }
+}
+
 // Replace the inner HTML of the element with this id. The element must be
 // written as an opening tag followed directly by </tag> (empty) or by a
 // previous prerender block, so a re-run replaces rather than appends.
@@ -152,7 +185,8 @@ for await (const entry of Deno.readDir(".")) {
         <div class="text-muted mono" style="font-size:11.5px; margin-top:6px;">${esc(sts.join(", "))}</div>
       </div>`;
   let h = fill(h0, "cp-stats", stats, f);
-  h = fill(h, "cp-case-grid", matches.length ? matches.map(caseCard).join("") : `<p class="text-secondary">No matters currently tracked for ${esc(name)} &mdash; check back as coverage grows.</p>`, f);
+  h = fill(h, "cp-case-grid", matches.length ? matches.map(companyCard).join("") : `<p class="text-secondary">No matters currently tracked for ${esc(name)} &mdash; check back as coverage grows.</p>`, f);
+  if (h.includes('id="cp-filings"')) h = fill(h, "cp-filings", await publicFilingsHtml(term), f);
   if (h !== h0) { await Deno.writeTextFile(f, h); written.push(f); }
 }
 

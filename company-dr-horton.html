@@ -191,7 +191,7 @@
         <h3>SITC Inc. v. Sarasota County (Live Local Act Zoning-Preemption Dispute)</h3>
         <p class="summary">Sarasota County is defending four separate lawsuits — brought by developer SITC Inc. (controlled by Halfacre Construction's Jack Cox), D.R. Horton Inc., and others — after commissioners voted in April 2026 that the state's Live Local Act does not apply to the county's Open Use and Residential Estate-1 zoning districts, blocking six of seven pending affordable-housing applications. Twelfth Judicial Circuit Judge Hunter W. Carroll heard argument on the county's motion to dismiss the second complaint on August 25, and a non-jury trial in the lead SITC case is set for March 29, 2027. SITC's suit also asks the court to hold individual commissioners personally liable and alleges the policy shift violated Florida's open-meetings law.</p>
         <div class="detail-tag" style="display:inline-block; margin-bottom:14px;">~500-unit lead project; more than 4,000 rental units across four pending Live Local Act suits countywide</div>
-        <div class="case-card-meta">
+        <p class="text-secondary" style="font-size:13px; line-height:1.6; margin:0 0 12px;"><strong>Why it matters:</strong> The case tests how much room a local government retains to narrow a state affordability-preemption mandate through zoning-code interpretation rather than an outright, publicly noticed policy change — a playbook other Florida counties are watching closely as Live Local Act litigation multiplies statewide. A ruling for the county would hand municipalities a template for limiting Live Local exposure through zoning classification; a ruling for the developers would signal courts will read the Act's zoning triggers broadly and scrutinize last-minute reclassifications.</p><div class="case-card-meta">
           <span title="Added to tracker: Sep 2, 2026">Aug 25, 2026</span>
           <span>Twelfth Judicial Circuit Court, Sarasota County, Florida</span>
         </div>
@@ -209,11 +209,20 @@
         <h3>Forestar (USA) Real Estate Group, Inc. v. Greenville County (Owens Glen Vested-Rights Reversal)</h3>
         <p class="summary">Forestar (USA) Real Estate Group, a D.R. Horton subsidiary, sued Greenville County, South Carolina after the county moved to reverse a vested-rights approval for its roughly 300-lot Owens Glen subdivision in rural Piedmont, well after the 30-day appeal window on that approval had closed. Circuit Judge Jessica Salvini heard oral argument on July 9, 2026 and took the matter under advisement; no ruling has issued.</p>
         <div class="detail-tag" style="display:inline-block; margin-bottom:14px;">$300,000+ in claimed sunk development costs, plus damages sought</div>
-        <div class="case-card-meta">
+        <p class="text-secondary" style="font-size:13px; line-height:1.6; margin:0 0 12px;"><strong>Why it matters:</strong> The case tests how much protection a vested-rights or other final land-use approval actually gives a developer once a local government faces political pressure to undo it. A ruling against the county would reinforce that approvals become genuinely final once a statutory appeal window closes; a ruling for the county would signal that local governments retain broader latitude to revisit development approvals under public pressure, a risk relevant to developers well beyond South Carolina.</p><div class="case-card-meta">
           <span title="Added to tracker: Aug 26, 2026">Jul 9, 2026</span>
           <span>Greenville County Court of Common Pleas, South Carolina</span>
         </div>
       </article><!--/prerender:cp-case-grid--></div>
+
+    <div class="section-head reveal in-view" style="margin-top:32px;">
+      <div>
+        <div class="eyebrow">Public Filings</div>
+        <h2 style="font-size:clamp(1.3rem,2vw,1.7rem);">Bankruptcy petitions and SEC bankruptcy disclosures naming this company</h2>
+      </div>
+      <p class="text-muted" style="max-width:420px; font-size:13.5px;">From the daily check of every new Chapter 11 petition nationwide and SEC Form 8-K Item 1.03 filings, matched on the company name.</p>
+    </div>
+    <div class="card reveal in-view" style="padding:18px 24px;" id="cp-filings"><!--prerender:cp-filings--><p class="text-muted" style="font-size:13px; margin:0;">No public Chapter 11 petition or SEC bankruptcy disclosure naming this company in the filings we monitor. Federal civil suits and state-court matters against a specific company are checked privately for subscribers who save the name in their portfolio.</p><!--/prerender:cp-filings--></div>
 
     <div class="card reveal" style="padding:18px 24px; margin-top:24px; display:flex; align-items:center; justify-content:space-between; gap:16px; flex-wrap:wrap;">
       <p class="text-secondary" style="font-size:13px; margin:0;">See how this company stacks up against up to three peers.</p>
@@ -390,8 +399,16 @@
       </div>`;
 
     const grid = document.getElementById("cp-case-grid");
+    // The shared card plus the asset class and the matter's own "why it
+    // matters" note -- the part a risk officer reads on a company page.
+    const companyCard = (c) => {
+      const card = window.RELAW_UTILS.caseCardHtml(c);
+      const extra = (c.propertyType ? `<div class="detail-tag" style="display:inline-block; margin-bottom:10px;">${c.propertyType}</div>` : "") +
+        (c.significance ? `<p class="text-secondary" style="font-size:13px; line-height:1.6; margin:0 0 12px;"><strong>Why it matters:</strong> ${c.significance}</p>` : "");
+      return extra ? card.replace('<div class="case-card-meta">', extra + '<div class="case-card-meta">') : card;
+    };
     grid.innerHTML = matches.length
-      ? matches.map(window.RELAW_UTILS.caseCardHtml).join("")
+      ? matches.map(companyCard).join("")
       : `<p class="text-secondary">No matters currently tracked for ${COMPANY_NAME} — check back as coverage grows.</p>`;
     document.querySelectorAll(".reveal, .card").forEach((el) => el.classList.add("in-view"));
   })();

@@ -191,7 +191,7 @@
         <h3>Via Mizner Lender 1 LLC v. Via Mizner Owner III, LLC (Mandarin Oriental Residences, Boca Raton Foreclosure)</h3>
         <p class="summary">A lender group led by Via Mizner Lender 1 LLC, tied to Apollo Global Management, sued to foreclose on the long-delayed Mandarin Oriental Residences condo tower after Penn-Florida affiliate Via Mizner Owner III stopped paying interest in June 2024, missed the loan's September 2025 maturity, and missed a February 2025 completion deadline. The complaint seeks to subordinate a $24.1M mechanics'-lien claim from construction manager Strategic Group Builders and the claims of unit buyers, while a related Chapter 11 case over the adjoining hotel component heads to an August 14 bankruptcy auction.</p>
         <div class="detail-tag" style="display:inline-block; margin-bottom:14px;">$417.7M foreclosure claim</div>
-        <div class="case-card-meta">
+        <p class="text-secondary" style="font-size:13px; line-height:1.6; margin:0 0 12px;"><strong>Why it matters:</strong> A live illustration of capital-stack priority in a distressed vertical construction project: a senior mortgage foreclosure seeking to leapfrog both a perfected mechanics' lien and buyer deposit claims, running in parallel with a separate bankruptcy sale of an affiliated asset. CRE lenders, contractors, and preconstruction condo buyers should watch how the court treats escrowed versus disbursed deposits and lien-priority arguments, as the outcome will bear on workout and lien-perfection strategy for other stalled vertical projects.</p><div class="case-card-meta">
           <span title="Added to tracker: Aug 4, 2026">Jul 17, 2026</span>
           <span>Fifteenth Judicial Circuit Court, Palm Beach County, Florida</span>
         </div>
@@ -209,11 +209,20 @@
         <h3>111 West 57th Investment LLC v. 111 W57 Mezz Investor LLC (Steinway Tower "Sole Discretion" Ruling)</h3>
         <p class="summary">New York's highest court reinstated AmBase investment vehicle 111 West 57th Investment LLC's implied-covenant-of-good-faith claim against Apollo-affiliated mezzanine lenders over the 2017 sale of a $25M junior mezzanine loan (secured by the plaintiff's equity in the Steinway Tower project) to Spruce Capital Partners at par value, despite internal models showing roughly $600M in underlying equity value. Spruce initiated a UCC Article 9 strict foreclosure two days after acquiring the loan, wiping out the plaintiff's equity; the Court held Apollo's contractual 'sole discretion' to assign the loan does not exculpate it from good-faith-and-fair-dealing claims and remitted the case to Supreme Court, New York County, while affirming dismissal of related tortious interference claims.</p>
         <div class="detail-tag" style="display:inline-block; margin-bottom:14px;">$65M equity investment; $25M junior mezzanine loan; ~$600M underlying equity value alleged</div>
-        <div class="case-card-meta">
+        <p class="text-secondary" style="font-size:13px; line-height:1.6; margin:0 0 12px;"><strong>Why it matters:</strong> Resolves a split among Appellate Division departments in the lender's favor of accountability, aligning New York with Delaware law: broad 'sole discretion' clauses in loan and pledge agreements no longer categorically foreclose implied-covenant claims when a counterparty alleges the discretion was exercised as part of a bad-faith scheme to strip a joint-venture partner's equity. Mezzanine lenders, sponsors, and equity investors in New York-governed capital stacks should expect a lower pleading bar for bad-faith challenges to loan assignments and strict foreclosures going forward, even where assignment rights are drafted as unqualified.</p><div class="case-card-meta">
           <span title="Added to tracker: Aug 11, 2026">May 28, 2026</span>
           <span>New York Court of Appeals</span>
         </div>
       </article><!--/prerender:cp-case-grid--></div>
+
+    <div class="section-head reveal in-view" style="margin-top:32px;">
+      <div>
+        <div class="eyebrow">Public Filings</div>
+        <h2 style="font-size:clamp(1.3rem,2vw,1.7rem);">Bankruptcy petitions and SEC bankruptcy disclosures naming this company</h2>
+      </div>
+      <p class="text-muted" style="max-width:420px; font-size:13.5px;">From the daily check of every new Chapter 11 petition nationwide and SEC Form 8-K Item 1.03 filings, matched on the company name.</p>
+    </div>
+    <div class="card reveal in-view" style="padding:18px 24px;" id="cp-filings"><!--prerender:cp-filings--><p class="text-muted" style="font-size:13px; margin:0;">No public Chapter 11 petition or SEC bankruptcy disclosure naming this company in the filings we monitor. Federal civil suits and state-court matters against a specific company are checked privately for subscribers who save the name in their portfolio.</p><!--/prerender:cp-filings--></div>
 
     <div class="card reveal" style="padding:18px 24px; margin-top:24px; display:flex; align-items:center; justify-content:space-between; gap:16px; flex-wrap:wrap;">
       <p class="text-secondary" style="font-size:13px; margin:0;">See how this company stacks up against up to three peers.</p>
@@ -390,8 +399,16 @@
       </div>`;
 
     const grid = document.getElementById("cp-case-grid");
+    // The shared card plus the asset class and the matter's own "why it
+    // matters" note -- the part a risk officer reads on a company page.
+    const companyCard = (c) => {
+      const card = window.RELAW_UTILS.caseCardHtml(c);
+      const extra = (c.propertyType ? `<div class="detail-tag" style="display:inline-block; margin-bottom:10px;">${c.propertyType}</div>` : "") +
+        (c.significance ? `<p class="text-secondary" style="font-size:13px; line-height:1.6; margin:0 0 12px;"><strong>Why it matters:</strong> ${c.significance}</p>` : "");
+      return extra ? card.replace('<div class="case-card-meta">', extra + '<div class="case-card-meta">') : card;
+    };
     grid.innerHTML = matches.length
-      ? matches.map(window.RELAW_UTILS.caseCardHtml).join("")
+      ? matches.map(companyCard).join("")
       : `<p class="text-secondary">No matters currently tracked for ${COMPANY_NAME} — check back as coverage grows.</p>`;
     document.querySelectorAll(".reveal, .card").forEach((el) => el.classList.add("in-view"));
   })();

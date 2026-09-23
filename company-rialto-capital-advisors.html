@@ -191,7 +191,7 @@
         <h3>Rialto Capital Advisors v. WC MRP Calumet Center, LLC ($46M Calumet City Retail Foreclosure)</h3>
         <p class="summary">Rialto Capital Advisors, as special servicer for a CMBS trust, sued WC MRP Calumet Center, LLC, an entity affiliated with Austin investor Nate Paul's World Class Holdings, in the Circuit Court of Cook County to foreclose on a 159,000-square-foot Calumet City, Illinois shopping center, seeking approximately $46 million. The loan, part of a $38.3 million mortgage originated in 2015 against a portfolio of World Class-owned Midwest retail centers, had already been reinstated once roughly a year earlier before defaulting again.</p>
         <div class="detail-tag" style="display:inline-block; margin-bottom:14px;">$46M</div>
-        <div class="case-card-meta">
+        <p class="text-secondary" style="font-size:13px; line-height:1.6; margin:0 0 12px;"><strong>Why it matters:</strong> Illustrates how quickly special servicers move to foreclose once a reinstated CMBS loan defaults a second time, and how cross-collateralized retail portfolios can put otherwise-performing properties at risk when a sponsor with a documented default history stumbles elsewhere. CRE lenders and owners of pooled retail collateral should treat a sponsor's prior loan troubles as a live underwriting factor, not a closed chapter.</p><div class="case-card-meta">
           <span title="Added to tracker: Sep 10, 2026">Aug 10, 2026</span>
           <span>Circuit Court of Cook County, Illinois</span>
         </div>
@@ -209,11 +209,20 @@
         <h3>Rialto Capital Advisors v. Jenel Management Corp. ($17.7M Loop Retail Condo Foreclosure)</h3>
         <p class="summary">Rialto Capital Advisors, as special servicer for a securitized commercial mortgage loan trust, filed suit on April 1, 2026 in the Circuit Court of Cook County to foreclose on a roughly 20,211-square-foot retail condominium occupying the first two floors of a 21-story tower at 36 South State Street. The complaint alleges landlord Jenel Management Corp. and affiliated entities defaulted on the loan's scheduled maturity, with Rialto now claiming approximately $17.7 million including default interest and liquidation fees; a Cook County hearing is set for September 28, 2026.</p>
         <div class="detail-tag" style="display:inline-block; margin-bottom:14px;">$17.7M claimed (default interest and fees on ~$16.8M principal)</div>
-        <div class="case-card-meta">
+        <p class="text-secondary" style="font-size:13px; line-height:1.6; margin:0 0 12px;"><strong>Why it matters:</strong> A maturity-default foreclosure on ground-floor retail, an asset type once viewed as more resilient than office, signals that the Loop's distressed-debt cycle now extends beyond office towers. CRE lenders, special servicers, and downtown retail owners should treat a strong operating history as no guarantee against maturity-wall refinancing failure in the current rate environment.</p><div class="case-card-meta">
           <span title="Added to tracker: Sep 5, 2026">Apr 1, 2026</span>
           <span>Circuit Court of Cook County, Illinois</span>
         </div>
       </article><!--/prerender:cp-case-grid--></div>
+
+    <div class="section-head reveal in-view" style="margin-top:32px;">
+      <div>
+        <div class="eyebrow">Public Filings</div>
+        <h2 style="font-size:clamp(1.3rem,2vw,1.7rem);">Bankruptcy petitions and SEC bankruptcy disclosures naming this company</h2>
+      </div>
+      <p class="text-muted" style="max-width:420px; font-size:13.5px;">From the daily check of every new Chapter 11 petition nationwide and SEC Form 8-K Item 1.03 filings, matched on the company name.</p>
+    </div>
+    <div class="card reveal in-view" style="padding:18px 24px;" id="cp-filings"><!--prerender:cp-filings--><p class="text-muted" style="font-size:13px; margin:0;">No public Chapter 11 petition or SEC bankruptcy disclosure naming this company in the filings we monitor. Federal civil suits and state-court matters against a specific company are checked privately for subscribers who save the name in their portfolio.</p><!--/prerender:cp-filings--></div>
 
     <div class="card reveal" style="padding:18px 24px; margin-top:24px; display:flex; align-items:center; justify-content:space-between; gap:16px; flex-wrap:wrap;">
       <p class="text-secondary" style="font-size:13px; margin:0;">See how this company stacks up against up to three peers.</p>
@@ -390,8 +399,16 @@
       </div>`;
 
     const grid = document.getElementById("cp-case-grid");
+    // The shared card plus the asset class and the matter's own "why it
+    // matters" note -- the part a risk officer reads on a company page.
+    const companyCard = (c) => {
+      const card = window.RELAW_UTILS.caseCardHtml(c);
+      const extra = (c.propertyType ? `<div class="detail-tag" style="display:inline-block; margin-bottom:10px;">${c.propertyType}</div>` : "") +
+        (c.significance ? `<p class="text-secondary" style="font-size:13px; line-height:1.6; margin:0 0 12px;"><strong>Why it matters:</strong> ${c.significance}</p>` : "");
+      return extra ? card.replace('<div class="case-card-meta">', extra + '<div class="case-card-meta">') : card;
+    };
     grid.innerHTML = matches.length
-      ? matches.map(window.RELAW_UTILS.caseCardHtml).join("")
+      ? matches.map(companyCard).join("")
       : `<p class="text-secondary">No matters currently tracked for ${COMPANY_NAME} — check back as coverage grows.</p>`;
     document.querySelectorAll(".reveal, .card").forEach((el) => el.classList.add("in-view"));
   })();
