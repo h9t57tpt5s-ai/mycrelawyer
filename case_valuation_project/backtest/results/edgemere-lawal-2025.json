@@ -1,12 +1,85 @@
 {
  "id": "edgemere-lawal-2025",
- "ranAt": "2026-09-23T02:11:01+00:00",
- "status": 504,
- "prediction": null,
- "error": {
-  "code": "IDLE_TIMEOUT",
-  "message": "Request idle timeout limit (150s) reached"
+ "ranAt": "2026-09-23T02:46:05+00:00",
+ "status": 200,
+ "prediction": {
+  "model": "claude-sonnet-5",
+  "category": "lease-disputes",
+  "roleLabel": "Tenant",
+  "damagesRange": [
+   0,
+   0
+  ],
+  "bestGuessValue": 0,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": "Edgemere more likely than not prevails on its core breach-of-contract claim for post-vacate rent, given Lawal's thirteen-plus months of continued occupancy and rent payment after the allegedly wrongful notice \u2014 facts that seriously undercut both his constructive-eviction excuse and his quiet-enjoyment counterclaim. Lawal's best realistic wins are a penalty-clause challenge to the compounding late-fee formula and, possibly, partial jury sympathy on quiet enjoyment given Edgemere's failure to ever formally retract the notice to vacate, but a full defense verdict or full recovery on his counterclaims is unlikely on this record.",
+  "issues": [
+   {
+    "label": "Edgemere's breach-of-contract claim for post-vacate rent (nine months)",
+    "probabilityRange": [
+     0.25,
+     0.45
+    ],
+    "damagesRange": null
+   },
+   {
+    "label": "Constructive eviction counterclaim",
+    "probabilityRange": [
+     0.15,
+     0.3
+    ],
+    "damagesRange": null
+   },
+   {
+    "label": "Breach of implied warranty/covenant of quiet enjoyment",
+    "probabilityRange": [
+     0.18,
+     0.35
+    ],
+    "damagesRange": null
+   },
+   {
+    "label": "Security deposit return",
+    "probabilityRange": [
+     0.2,
+     0.4
+    ],
+    "damagesRange": null
+   },
+   {
+    "label": "Floor-damage claim (abandoned)",
+    "probabilityRange": [
+     0.02,
+     0.08
+    ],
+    "damagesRange": [
+     0,
+     0
+    ]
+   },
+   {
+    "label": "Late-fee formula as unenforceable penalty",
+    "probabilityRange": [
+     0.45,
+     0.65
+    ],
+    "damagesRange": null
+   },
+   {
+    "label": "Attorney's fees (prevailing-party)",
+    "probabilityRange": [
+     0.25,
+     0.4
+    ],
+    "damagesRange": null
+   }
+  ],
+  "citationCoverage": {
+   "count": 39,
+   "tier": "strong"
+  }
  },
+ "error": null,
  "outcome": {
   "amount": 83791.8,
   "amountIsTheRequestedAmount": false,

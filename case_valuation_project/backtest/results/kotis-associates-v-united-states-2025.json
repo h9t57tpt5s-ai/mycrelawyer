@@ -1,12 +1,86 @@
 {
  "id": "kotis-associates-v-united-states-2025",
- "ranAt": "2026-09-23T02:27:09+00:00",
- "status": 546,
- "prediction": null,
- "error": {
-  "code": "WORKER_RESOURCE_LIMIT",
-  "message": "Function failed due to not having enough compute resources (please check logs)"
+ "ranAt": "2026-09-23T02:55:19+00:00",
+ "status": 200,
+ "prediction": {
+  "model": "claude-sonnet-5",
+  "category": "eminent-domain",
+  "roleLabel": "Property Owner",
+  "damagesRange": [
+   14550000,
+   42590000
+  ],
+  "bestGuessValue": 20000000,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": "Given the government's concession of liability and its failure to offer any competing valuation, the Court of Federal Claims is very likely to award the Kotis Entities substantial just compensation plus prejudgment interest, but at a meaningful discount from Dr. Kilpatrick's $44,744,774 figure due to legitimate methodology criticisms (cap rate sourcing, comparable selection) and the speculative-use limits on the planned Publix development. The government's 'pre-existing burden,' 'narrow/nonexclusive easement,' and jurisdictional arguments are unlikely to reduce the award to nominal given the City's own $8.5M corridor purchase price and the physical overlap of the easement with existing buildings on at least three parcels.",
+  "issues": [
+   {
+    "label": "Government's 'no compensation/jurisdiction' theories (nominal award, lack of jurisdiction)",
+    "probabilityRange": [
+     0.8,
+     0.95
+    ],
+    "damagesRange": null
+   },
+   {
+    "label": "Core taking value / physical easement footprint (base compensation across 13 parcels)",
+    "probabilityRange": [
+     0.85,
+     0.95
+    ],
+    "damagesRange": [
+     10000000,
+     25000000
+    ]
+   },
+   {
+    "label": "Severance damages for parcels where easement overlaps existing buildings (Core Life, Publix restaurants, Red Cinemas)",
+    "probabilityRange": [
+     0.8,
+     0.92
+    ],
+    "damagesRange": [
+     6000000,
+     12000000
+    ]
+   },
+   {
+    "label": "Planned Publix development / executed pre-taking lease as element of value",
+    "probabilityRange": [
+     0.3,
+     0.5
+    ],
+    "damagesRange": [
+     3000000,
+     12000000
+    ]
+   },
+   {
+    "label": "Consequential/incidental costs (privacy walls) and prejudgment interest",
+    "probabilityRange": [
+     0.7,
+     0.9
+    ],
+    "damagesRange": [
+     500000,
+     2000000
+    ]
+   },
+   {
+    "label": "Reliability challenge to Kilpatrick's methodology (potential wholesale exclusion/discount)",
+    "probabilityRange": [
+     0.6,
+     0.8
+    ],
+    "damagesRange": null
+   }
+  ],
+  "citationCoverage": {
+   "count": 22,
+   "tier": "strong"
+  }
  },
+ "error": null,
  "outcome": {
   "amount": 42641740,
   "amountIsTheRequestedAmount": false,

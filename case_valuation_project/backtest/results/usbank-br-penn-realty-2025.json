@@ -1,12 +1,77 @@
 {
  "id": "usbank-br-penn-realty-2025",
- "ranAt": "2026-09-23T02:17:32+00:00",
- "status": 546,
- "prediction": null,
- "error": {
-  "code": "WORKER_RESOURCE_LIMIT",
-  "message": "Function failed due to not having enough compute resources (please check logs)"
+ "ranAt": "2026-09-23T02:48:03+00:00",
+ "status": 200,
+ "prediction": {
+  "model": "claude-sonnet-5",
+  "category": "lending-foreclosure",
+  "roleLabel": "Lender",
+  "damagesRange": [
+   28080000,
+   41661810
+  ],
+  "bestGuessValue": 38500000,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": "U.S. Bank is very likely to obtain both foreclosure and a substantial in personam money judgment; the procedural combination of in rem and in personam relief is essentially secure given the borrower's failure to object. The live uncertainty going into the bench trial concerns the forbearance agreement's effect and any standing challenge, plus how much of the pleaded $46,290,900.25 (versus a reduced, forbearance- or fair-value-adjusted figure) is actually proven and collectible.",
+  "issues": [
+   {
+    "label": "Core Liability on the Note/Mortgage Default",
+    "probabilityRange": [
+     0.72,
+     0.9
+    ],
+    "damagesRange": [
+     39000000,
+     46290900
+    ]
+   },
+   {
+    "label": "Propriety of Combined In Rem/In Personam Pleading",
+    "probabilityRange": [
+     0.88,
+     0.97
+    ],
+    "damagesRange": null
+   },
+   {
+    "label": "Forbearance Agreement Dispute",
+    "probabilityRange": [
+     0.55,
+     0.8
+    ],
+    "damagesRange": null
+   },
+   {
+    "label": "Trustee Standing / Chain of Assignment",
+    "probabilityRange": [
+     0.8,
+     0.93
+    ],
+    "damagesRange": null
+   },
+   {
+    "label": "Fair-Value/Deficiency Offset on Foreclosure Sale",
+    "probabilityRange": [
+     0.4,
+     0.7
+    ],
+    "damagesRange": null
+   },
+   {
+    "label": "Additional Accrued Interest, Fees, and Costs Beyond the Pleaded Figure",
+    "probabilityRange": [
+     0.6,
+     0.85
+    ],
+    "damagesRange": null
+   }
+  ],
+  "citationCoverage": {
+   "count": 32,
+   "tier": "strong"
+  }
  },
+ "error": null,
  "outcome": {
   "amount": 51392086.96,
   "amountIsTheRequestedAmount": false,
