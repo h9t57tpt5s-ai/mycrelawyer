@@ -97,6 +97,9 @@ def main():
     # which would let one fee award dominate the total.
     pairs = [((r["exFees"]["predictedRange"][0] + r["exFees"]["predictedRange"][1]) / 2, r["exFees"]["actual"])
              for r in scored if r["exFees"]["predictedRange"] and r["exFees"]["actual"]]
+    # Per-case ratios too, so two very large cases cannot dominate the read.
+    ratios = sorted(a / b for a, b in pairs if b)
+    summary["medianCaseRatio"] = round(ratios[len(ratios) // 2], 3) if ratios else None
     summary["aggregatePredicted"] = round(sum(a for a, _ in pairs))
     summary["aggregateActual"] = round(sum(b for _, b in pairs))
     summary["aggregateRatio"] = round(summary["aggregatePredicted"] / summary["aggregateActual"], 3) if summary["aggregateActual"] else None

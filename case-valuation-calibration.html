@@ -285,7 +285,8 @@
       tile(`${S.exFeesHits ?? 0} of ${S.exFeesScorable ?? 0}`, "main-claim awards inside the calculator's per-claim range") +
       tile(`${S.allInHits ?? 0} of ${S.allInScorable ?? 0}`, "whole judgments inside the top-line range") +
       tile(pct(S.medianBestGuessError), "median best-guess error against the whole judgment (positive = too high)") +
-      tile(S.aggregateRatio == null ? "—" : Math.round(S.aggregateRatio * 100) + "%", `total predicted as a share of total awarded on the main claims, ex-fees (${fmt(S.aggregatePredicted)} vs ${fmt(S.aggregateActual)})`);
+      tile(S.aggregateRatio == null ? "—" : Math.round(S.aggregateRatio * 100) + "%", `total predicted as a share of total awarded on the main claims, ex-fees (${fmt(S.aggregatePredicted)} vs ${fmt(S.aggregateActual)})`) +
+      tile(S.medianCaseRatio == null ? "—" : Math.round(S.medianCaseRatio * 100) + "%", "median case: predicted midpoint as a share of the award, ex-fees");
     const gen = document.getElementById("cal-generated");
     if (gen) gen.textContent = (S.cases || 0) + " case" + (S.cases === 1 ? "" : "s") + " run" + (S.declined ? `, ${S.declined} declined for lack of a dollar anchor` : "") + ". Target: 25.";
 

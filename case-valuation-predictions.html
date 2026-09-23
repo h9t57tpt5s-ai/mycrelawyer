@@ -296,7 +296,7 @@
           <h3 style="font-size:1.05rem; line-height:1.35;">${e.caseTitle || e.caseId}</h3>
           ${statusBadge}
         </div>
-        <div class="tag-row mt-16" style="margin-bottom:12px;"><span class="detail-tag">Predicted ${e.predictedAt}</span><span class="detail-tag">${e.category || ""}</span><span class="detail-tag">${e.side || ""}</span></div>
+        <div class="tag-row mt-16" style="margin-bottom:12px;"><span class="detail-tag">Predicted ${e.predictedAt}</span><span class="detail-tag">${e.model || "claude-opus-5"}</span><span class="detail-tag">${e.category || ""}</span><span class="detail-tag">${e.side || ""}</span></div>
         <div class="cv-net" style="font-size:1.6rem;">${fmtRange(e.predictedRange)}</div>
         ${typeof e.predictedBestGuess === "number" ? `<p class="text-muted" style="font-size:12px;">Best guess: ${fmt(e.predictedBestGuess)}</p>` : ""}
         ${outcomeHtml}
