@@ -309,5 +309,182 @@
     "actualOutcome": null,
     "resolvedAt": null,
     "analysis": null
+  },
+  {
+    "registryId": "ct-wilmington-trust-v-67-holly-hill-2026",
+    "caseId": null,
+    "caseTitle": "Wilmington Trust, N.A., as Trustee (WFCM 2015-LC22) v. 67 Holly Hill LLC and Sohrab Sy Aryeh",
+    "court": "Connecticut Superior Court, Judicial District of Stamford",
+    "docket": "FST-CV26-6081649-S",
+    "filings": [
+      {
+        "side": "plaintiff",
+        "label": "Foreclosure complaint (May 21, 2026)",
+        "url": "https://civilinquiry.jud.ct.gov/DocumentInquiry/DocumentInquiry.aspx?DocumentNo=32891872"
+      },
+      {
+        "side": "defendant",
+        "label": "Answer and special defenses (Sept. 4, 2026)",
+        "url": "https://civilinquiry.jud.ct.gov/DocumentInquiry/DocumentInquiry.aspx?DocumentNo=33491101"
+      }
+    ],
+    "predictedAt": "2026-09-23",
+    "model": "claude-sonnet-5",
+    "category": "lending-foreclosure",
+    "side": "Lender",
+    "predictedRange": [
+      4718500,
+      5781250
+    ],
+    "predictedBestGuess": 5350000,
+    "whatIsNeededForEstimate": null,
+    "likelyOutcome": "The lender is very likely to obtain a judgment of foreclosure and to enforce the guaranty against Mr. Aryeh, given the fully documented note/mortgage/assignment chain and an answer that largely fails to substantively controvert the maturity default; the principal open variables are (1) whether the payment-acceptance defense trims the default-interest period or complicates the default date, and (2) whether the guaranty's actual recourse-carve-out language limits the guarantor's exposure below the full loan balance.",
+    "claims": [
+      {
+        "label": "Core Debt Recovery (Foreclosure Judgment / Deficiency, Principal + Accrued/Default Interest)",
+        "probabilityRange": [
+          0.88,
+          0.96
+        ],
+        "damagesRange": [
+          5350000,
+          6000000
+        ]
+      },
+      {
+        "label": "Standing / Holder-in-Due-Course Challenge",
+        "probabilityRange": [
+          0.82,
+          0.94
+        ],
+        "damagesRange": null
+      },
+      {
+        "label": "Payment-Acceptance / Waiver of Default",
+        "probabilityRange": [
+          0.55,
+          0.78
+        ],
+        "damagesRange": null
+      },
+      {
+        "label": "Guaranty Enforcement Against Individual Guarantor",
+        "probabilityRange": [
+          0.8,
+          0.93
+        ],
+        "damagesRange": null
+      },
+      {
+        "label": "Attorneys' Fees and Costs",
+        "probabilityRange": [
+          0.7,
+          0.85
+        ],
+        "damagesRange": [
+          15000,
+          25000
+        ]
+      }
+    ],
+    "status": "pending",
+    "actualOutcome": null,
+    "resolvedAt": null,
+    "analysis": null
+  },
+  {
+    "registryId": "ct-520-west-avenue-holdings-v-520-west-avenue-property-2025",
+    "caseId": null,
+    "caseTitle": "520 West Avenue Holdings, LLC v. 520 West Avenue Property, LLC, et al.",
+    "court": "Connecticut Superior Court, Judicial District of Stamford",
+    "docket": "FST-CV25-6077850-S",
+    "filings": [
+      {
+        "side": "plaintiff",
+        "label": "Foreclosure complaint (Nov. 26, 2025)",
+        "url": "https://civilinquiry.jud.ct.gov/DocumentInquiry/DocumentInquiry.aspx?DocumentNo=31605716"
+      },
+      {
+        "side": "defendant",
+        "label": "Answer and special defenses",
+        "url": "https://civilinquiry.jud.ct.gov/DocumentInquiry/DocumentInquiry.aspx?DocumentNo=32834861"
+      },
+      {
+        "side": "defendant",
+        "label": "Opposition to appointment of receiver",
+        "url": "https://civilinquiry.jud.ct.gov/DocumentInquiry/DocumentInquiry.aspx?DocumentNo=32419156"
+      }
+    ],
+    "predictedAt": "2026-09-23",
+    "model": "claude-sonnet-5",
+    "category": "lending-foreclosure",
+    "side": "Lender",
+    "predictedRange": [
+      7662000,
+      8953750
+    ],
+    "predictedBestGuess": 8650000,
+    "whatIsNeededForEstimate": null,
+    "likelyOutcome": "On this record, 520 West Avenue Holdings is very likely to obtain a foreclosure judgment and be found the valid holder of the Note, Mortgage, and Guaranty, since Borrower's Answer admits the operative loan documents and default-relevant facts and only disclaims knowledge of intervening assignment mechanics that Plaintiff can prove with the recorded instruments already alleged. The two real sources of downside are (1) whatever substantive theories are packed into the undisclosed Special Defenses, which could create fact issues bearing on good faith/loan administration conduct, and (2) the fair-value offset that will apply to any deficiency judgment, which is unquantifiable without an appraisal. Expect Plaintiff to prevail on liability and likely on the receivership motion, with the ultimate dollar recovery net of a valuation offset and subject to trial timing.",
+    "claims": [
+      {
+        "label": "Foreclosure Judgment / Debt Recovery (Principal + Accrued Interest)",
+        "probabilityRange": [
+          0.85,
+          0.95
+        ],
+        "damagesRange": [
+          9000000,
+          9400000
+        ]
+      },
+      {
+        "label": "Attorney's Fees and Costs",
+        "probabilityRange": [
+          0.8,
+          0.95
+        ],
+        "damagesRange": [
+          15000,
+          25000
+        ]
+      },
+      {
+        "label": "Undisclosed Special Defenses (Content Unknown)",
+        "probabilityRange": [
+          0.5,
+          0.85
+        ],
+        "damagesRange": null
+      },
+      {
+        "label": "Receiver of Rents Motion",
+        "probabilityRange": [
+          0.7,
+          0.9
+        ],
+        "damagesRange": null
+      },
+      {
+        "label": "Guaranty Enforceability Against Replacement Guarantor Trusts",
+        "probabilityRange": [
+          0.75,
+          0.92
+        ],
+        "damagesRange": null
+      },
+      {
+        "label": "Deficiency Judgment / Fair Value Offset",
+        "probabilityRange": [
+          0.4,
+          0.7
+        ],
+        "damagesRange": null
+      }
+    ],
+    "status": "pending",
+    "actualOutcome": null,
+    "resolvedAt": null,
+    "analysis": null
   }
 ]
