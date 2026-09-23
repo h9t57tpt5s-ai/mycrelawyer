@@ -1,0 +1,104 @@
+{
+ "id": "williamson-music-v-eqyinvest-2026",
+ "ranAt": "2026-09-23T00:54:20+00:00",
+ "status": 200,
+ "prediction": {
+  "category": "lease-disputes",
+  "roleLabel": "Landlord",
+  "damagesRange": [
+   164250,
+   253034.93
+  ],
+  "bestGuessValue": 206000,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": "EQY should win on liability against both Williamson and Gore and recover the large majority of the pleaded $170,484.37, because the Lease expressly charges the defaulting tenant with 'free rent or concessions' and Williamson has no evidence of the value of Hallmark's build-out or that the space could have been relet sooner \u2014 and under Austin Hill Country Realty the burden on both points is the tenant's. Expect a judgment in the $165,000-$255,000 range inclusive of a contractual fee award, with the realistic downside being a judge-driven partial haircut on the July-December 2024 overlap months rather than the full $62,096.52 offset. The dominant practical risk is not the merits but collectibility against Gore.",
+  "issues": [
+   {
+    "label": "Breach of Lease and Guaranty \u2014 Uncontested Rent Portion",
+    "probabilityRange": [
+     0.88,
+     0.96
+    ],
+    "damagesRange": [
+     100000,
+     108388
+    ]
+   },
+   {
+    "label": "Defeating the $62,096.52 Free-Rent / Overlap Offset",
+    "probabilityRange": [
+     0.7,
+     0.85
+    ],
+    "damagesRange": [
+     55000,
+     62097
+    ]
+   },
+   {
+    "label": "Defeating the $20,000 Personal Property Credit",
+    "probabilityRange": [
+     0.65,
+     0.85
+    ],
+    "damagesRange": [
+     15000,
+     20000
+    ]
+   },
+   {
+    "label": "Contractual Attorney's Fees",
+    "probabilityRange": [
+     0.7,
+     0.88
+    ],
+    "damagesRange": [
+     40000,
+     90000
+    ]
+   },
+   {
+    "label": "Lockout Exposure (Not Currently Pleaded as a Counterclaim)",
+    "probabilityRange": [
+     0.6,
+     0.85
+    ],
+    "damagesRange": null
+   },
+   {
+    "label": "Collectibility Against Gore and the Tenant Entity",
+    "probabilityRange": [
+     0.25,
+     0.8
+    ],
+    "damagesRange": null
+   },
+   {
+    "label": "No Accelerated or Future-Rent Component",
+    "probabilityRange": null,
+    "damagesRange": null
+   }
+  ],
+  "citationCoverage": {
+   "count": 39,
+   "tier": "strong"
+  }
+ },
+ "error": null,
+ "outcome": {
+  "amount": 170484.37,
+  "amountIsTheRequestedAmount": true,
+  "date": "2026-09-15",
+  "description": "After a bench trial the court awarded the landlord $170,484.37 in past-due rent, the full amount it sought, with no credit for the $62,096.52 free-rent overlap offset or the $20,000 personal property. It also awarded $86,725.00 in attorney's fees. On appeal the rent damages were affirmed and the fee award reversed.",
+  "attorneysFeesAtTrial": 86725.0,
+  "attorneysFeesOnAppeal": "reversed"
+ },
+ "source": {
+  "caseName": "Williamson Music 1st, LLC, and Raymond Gore v. EQYInvest Owner II, Ltd., LLP",
+  "court": "Texas Sixth Court of Appeals (transferred from the Second), on appeal from the 342nd District Court, Tarrant County",
+  "docket": "06-25-00107-CV",
+  "decided": "2026-09-15",
+  "url": "https://search.txcourts.gov/SearchMedia.aspx?MediaVersionID=40c019e5-6590-43be-b02a-bf7b73239fec&coa=coa06&DT=Opinion&MediaID=fd5f6f98-b91a-4602-8ea3-97940423829c",
+  "excerptNote": "documentText is verbatim from Parts I, III.C and III.D of the opinion, with every sentence stating the trial court's award, its findings, or the appellate court's conclusions removed."
+ }
+}
