@@ -155,7 +155,20 @@
 <section class="section-tight">
   <div class="container">
     <div class="card reveal" style="padding:24px; margin-bottom:32px;"><a href="https://www.goldmansachs.com" target="_blank" rel="noopener" class="btn btn-ghost btn-sm">Company website &#8599;</a></div>
-    <div class="grid-3 reveal-stagger mb-32" id="cp-stats"></div>
+    <div class="grid-3 reveal-stagger mb-32" id="cp-stats"><!--prerender:cp-stats-->
+      <div class="card reveal in-view" style="text-align:center; padding:24px;">
+        <div class="mono" style="font-size:2rem; font-weight:600; color:var(--accent);">2</div>
+        <div class="text-muted" style="font-size:12px; text-transform:uppercase; letter-spacing:0.04em; margin-top:6px;">Matters Tracked</div>
+      </div>
+      <div class="card reveal in-view" style="padding:24px;">
+        <div class="text-muted" style="font-size:12px; text-transform:uppercase; letter-spacing:0.04em; margin-bottom:10px;">Practice Areas</div>
+        <div style="display:flex; flex-wrap:wrap; gap:6px;"><span class="badge" style="background:color-mix(in srgb, var(--cat-lending) 16%, transparent); color:var(--cat-lending); border:1px solid color-mix(in srgb, var(--cat-lending) 35%, transparent);">Lending &amp; Foreclosure</span></div>
+      </div>
+      <div class="card reveal in-view" style="padding:24px;">
+        <div class="text-muted" style="font-size:12px; text-transform:uppercase; letter-spacing:0.04em; margin-bottom:6px;">Coverage Window</div>
+        <div style="font-size:14px; font-weight:600;">May 2026 &ndash; Jul 2026</div>
+        <div class="text-muted mono" style="font-size:11.5px; margin-top:6px;">NY, TX</div>
+      </div><!--/prerender:cp-stats--></div>
 
     <div class="section-head reveal">
       <div>
@@ -164,7 +177,43 @@
       </div>
       <p class="text-muted" style="max-width:420px; font-size:13.5px;">Matched by plain-text search of our sourced reporting — never inferred from partial name matches or guessed affiliations.</p>
     </div>
-    <div class="grid-3 reveal-stagger" id="cp-case-grid"></div>
+    <div class="grid-3 reveal-stagger" id="cp-case-grid"><!--prerender:cp-case-grid-->
+      <article class="card case-card reveal in-view" data-case-id="live-050">
+        <div class="case-card-top">
+          <span class="badge" style="background:color-mix(in srgb, var(--cat-lending) 16%, transparent); color:var(--cat-lending); border:1px solid color-mix(in srgb, var(--cat-lending) 35%, transparent);">
+            <span class="badge-dot" style="background:var(--cat-lending)"></span>Lending &amp; Foreclosure
+          </span>
+          <span class="badge badge-live">Verified Update</span>
+          <span class="status-pill" style="color:var(--status-pending)">
+            <span class="dot" style="background:var(--status-pending)"></span>Pending
+          </span>
+        </div>
+        <h3>Worldwide Plaza Foreclosure Receivership (825 Eighth Avenue, Manhattan)</h3>
+        <p class="summary">Under a court-approved transition effective July 1, Cushman & Wakefield replaced SL Green Realty Corp. as day-to-day manager of Worldwide Plaza, the 1.8-million-square-foot Manhattan office tower, ceding control to receiver Hilco Global while a $940 million CMBS foreclosure filed by Goldman Sachs, Deutsche Bank and the loan's trustee proceeds in New York County Supreme Court. A parallel fight over the property's mezzanine debt, in which Extell Development's Gary Barnett is pursuing a UCC Article 9 foreclosure sale, remains on appeal after Justice Andrea Masley denied SL Green and RXR's bid to enjoin the sale.</p>
+        <div class="detail-tag" style="display:inline-block; margin-bottom:14px;">$940M senior loan (Goldman Sachs/Deutsche Bank, Series 2017-WWP); bondholders estimated to face losses up to $488M</div>
+        <div class="case-card-meta">
+          <span title="Added to tracker: Aug 29, 2026">Jul 1, 2026</span>
+          <span>Supreme Court of the State of New York, New York County</span>
+        </div>
+      </article>
+      <article class="card case-card reveal in-view" data-case-id="live-006">
+        <div class="case-card-top">
+          <span class="badge" style="background:color-mix(in srgb, var(--cat-lending) 16%, transparent); color:var(--cat-lending); border:1px solid color-mix(in srgb, var(--cat-lending) 35%, transparent);">
+            <span class="badge-dot" style="background:var(--cat-lending)"></span>Lending &amp; Foreclosure
+          </span>
+          <span class="badge badge-live">Verified Update</span>
+          <span class="status-pill" style="color:var(--status-filed)">
+            <span class="dot" style="background:var(--status-filed)"></span>Filed
+          </span>
+        </div>
+        <h3>In re Silver Star Properties REIT (Second Chapter 11 Filing)</h3>
+        <p class="summary">Houston-based non-traded REIT Silver Star Properties filed its second Chapter 11 petition in four years on May 28, following a failed pivot from office assets to self-storage. Four guaranteed loan agreements totaling over $65M are in default, and a separate $5.75M promissory note on a self-storage property moved to foreclosure on June 2. The filing follows an SEC inquiry and a settled internal fraud/fiduciary-duty suit against the REIT's ousted founder, Allen Hartman, tied to an earlier $259M Goldman Sachs CMBS loan default.</p>
+        <div class="detail-tag" style="display:inline-block; margin-bottom:14px;">$100M assets vs. $75M liabilities; $65M+ in defaulted loans</div>
+        <div class="case-card-meta">
+          <span title="Added to tracker: Aug 4, 2026">May 28, 2026</span>
+          <span>U.S. Bankruptcy Court, Northern District of Texas</span>
+        </div>
+      </article><!--/prerender:cp-case-grid--></div>
 
     <div class="card reveal" style="padding:18px 24px; margin-top:24px; display:flex; align-items:center; justify-content:space-between; gap:16px; flex-wrap:wrap;">
       <p class="text-secondary" style="font-size:13px; margin:0;">See how this company stacks up against up to three peers.</p>
@@ -224,6 +273,7 @@
         <a href="privacy.html">Privacy Policy</a>
         <a href="terms.html">Terms of Service</a>
         <a href="methodology.html">Methodology</a>
+        <a href="coverage.html">Coverage</a>
         <a href="data-security.html">Data Security &amp; Governance</a>
       </div>
       <div class="footer-col">

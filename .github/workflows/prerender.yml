@@ -1,0 +1,39 @@
+name: Prerender counts and matter lists
+
+# Bakes the dataset into the HTML (homepage counts, the tracker's first
+# page, company matter lists, the coverage page) so they are visible
+# without JavaScript. Runs after every push that changes js/data.js,
+# which is how the digest routine publishes new matters.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "js/data.js"
+      - "scripts/prerender.ts"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: prerender
+  cancel-in-progress: false
+
+jobs:
+  prerender:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: denoland/setup-deno@v2
+        with:
+          deno-version: v2.x
+      - run: deno run --allow-read --allow-write scripts/prerender.ts
+      - name: Commit prerendered pages
+        run: |
+          git add index.html litigation.html coverage.html company-*.html
+          if git diff --cached --quiet; then echo "Nothing changed."; exit 0; fi
+          git config user.name "credocket-prerender-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git commit -m "Prerender: bake current counts and matter lists into the HTML"
+          git push

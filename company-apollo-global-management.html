@@ -155,7 +155,20 @@
 <section class="section-tight">
   <div class="container">
     <div class="card reveal" style="padding:24px; margin-bottom:32px;"><a href="https://www.apollo.com" target="_blank" rel="noopener" class="btn btn-ghost btn-sm">Company website &#8599;</a></div>
-    <div class="grid-3 reveal-stagger mb-32" id="cp-stats"></div>
+    <div class="grid-3 reveal-stagger mb-32" id="cp-stats"><!--prerender:cp-stats-->
+      <div class="card reveal in-view" style="text-align:center; padding:24px;">
+        <div class="mono" style="font-size:2rem; font-weight:600; color:var(--accent);">2</div>
+        <div class="text-muted" style="font-size:12px; text-transform:uppercase; letter-spacing:0.04em; margin-top:6px;">Matters Tracked</div>
+      </div>
+      <div class="card reveal in-view" style="padding:24px;">
+        <div class="text-muted" style="font-size:12px; text-transform:uppercase; letter-spacing:0.04em; margin-bottom:10px;">Practice Areas</div>
+        <div style="display:flex; flex-wrap:wrap; gap:6px;"><span class="badge" style="background:color-mix(in srgb, var(--cat-lending) 16%, transparent); color:var(--cat-lending); border:1px solid color-mix(in srgb, var(--cat-lending) 35%, transparent);">Lending &amp; Foreclosure</span></div>
+      </div>
+      <div class="card reveal in-view" style="padding:24px;">
+        <div class="text-muted" style="font-size:12px; text-transform:uppercase; letter-spacing:0.04em; margin-bottom:6px;">Coverage Window</div>
+        <div style="font-size:14px; font-weight:600;">May 2026 &ndash; Jul 2026</div>
+        <div class="text-muted mono" style="font-size:11.5px; margin-top:6px;">FL, NY</div>
+      </div><!--/prerender:cp-stats--></div>
 
     <div class="section-head reveal">
       <div>
@@ -164,7 +177,43 @@
       </div>
       <p class="text-muted" style="max-width:420px; font-size:13.5px;">Matched by plain-text search of our sourced reporting — never inferred from partial name matches or guessed affiliations.</p>
     </div>
-    <div class="grid-3 reveal-stagger" id="cp-case-grid"></div>
+    <div class="grid-3 reveal-stagger" id="cp-case-grid"><!--prerender:cp-case-grid-->
+      <article class="card case-card reveal in-view" data-case-id="live-007">
+        <div class="case-card-top">
+          <span class="badge" style="background:color-mix(in srgb, var(--cat-lending) 16%, transparent); color:var(--cat-lending); border:1px solid color-mix(in srgb, var(--cat-lending) 35%, transparent);">
+            <span class="badge-dot" style="background:var(--cat-lending)"></span>Lending &amp; Foreclosure
+          </span>
+          <span class="badge badge-live">Verified Update</span>
+          <span class="status-pill" style="color:var(--status-filed)">
+            <span class="dot" style="background:var(--status-filed)"></span>Filed
+          </span>
+        </div>
+        <h3>Via Mizner Lender 1 LLC v. Via Mizner Owner III, LLC (Mandarin Oriental Residences, Boca Raton Foreclosure)</h3>
+        <p class="summary">A lender group led by Via Mizner Lender 1 LLC, tied to Apollo Global Management, sued to foreclose on the long-delayed Mandarin Oriental Residences condo tower after Penn-Florida affiliate Via Mizner Owner III stopped paying interest in June 2024, missed the loan's September 2025 maturity, and missed a February 2025 completion deadline. The complaint seeks to subordinate a $24.1M mechanics'-lien claim from construction manager Strategic Group Builders and the claims of unit buyers, while a related Chapter 11 case over the adjoining hotel component heads to an August 14 bankruptcy auction.</p>
+        <div class="detail-tag" style="display:inline-block; margin-bottom:14px;">$417.7M foreclosure claim</div>
+        <div class="case-card-meta">
+          <span title="Added to tracker: Aug 4, 2026">Jul 17, 2026</span>
+          <span>Fifteenth Judicial Circuit Court, Palm Beach County, Florida</span>
+        </div>
+      </article>
+      <article class="card case-card reveal in-view" data-case-id="live-010">
+        <div class="case-card-top">
+          <span class="badge" style="background:color-mix(in srgb, var(--cat-lending) 16%, transparent); color:var(--cat-lending); border:1px solid color-mix(in srgb, var(--cat-lending) 35%, transparent);">
+            <span class="badge-dot" style="background:var(--cat-lending)"></span>Lending &amp; Foreclosure
+          </span>
+          <span class="badge badge-live">Verified Update</span>
+          <span class="status-pill" style="color:var(--status-ruling)">
+            <span class="dot" style="background:var(--status-ruling)"></span>Ruling Issued
+          </span>
+        </div>
+        <h3>111 West 57th Investment LLC v. 111 W57 Mezz Investor LLC (Steinway Tower "Sole Discretion" Ruling)</h3>
+        <p class="summary">New York's highest court reinstated AmBase investment vehicle 111 West 57th Investment LLC's implied-covenant-of-good-faith claim against Apollo-affiliated mezzanine lenders over the 2017 sale of a $25M junior mezzanine loan (secured by the plaintiff's equity in the Steinway Tower project) to Spruce Capital Partners at par value, despite internal models showing roughly $600M in underlying equity value. Spruce initiated a UCC Article 9 strict foreclosure two days after acquiring the loan, wiping out the plaintiff's equity; the Court held Apollo's contractual 'sole discretion' to assign the loan does not exculpate it from good-faith-and-fair-dealing claims and remitted the case to Supreme Court, New York County, while affirming dismissal of related tortious interference claims.</p>
+        <div class="detail-tag" style="display:inline-block; margin-bottom:14px;">$65M equity investment; $25M junior mezzanine loan; ~$600M underlying equity value alleged</div>
+        <div class="case-card-meta">
+          <span title="Added to tracker: Aug 11, 2026">May 28, 2026</span>
+          <span>New York Court of Appeals</span>
+        </div>
+      </article><!--/prerender:cp-case-grid--></div>
 
     <div class="card reveal" style="padding:18px 24px; margin-top:24px; display:flex; align-items:center; justify-content:space-between; gap:16px; flex-wrap:wrap;">
       <p class="text-secondary" style="font-size:13px; margin:0;">See how this company stacks up against up to three peers.</p>
@@ -224,6 +273,7 @@
         <a href="privacy.html">Privacy Policy</a>
         <a href="terms.html">Terms of Service</a>
         <a href="methodology.html">Methodology</a>
+        <a href="coverage.html">Coverage</a>
         <a href="data-security.html">Data Security &amp; Governance</a>
       </div>
       <div class="footer-col">
