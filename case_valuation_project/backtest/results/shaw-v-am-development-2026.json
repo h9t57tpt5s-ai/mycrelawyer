@@ -1,0 +1,100 @@
+{
+ "id": "shaw-v-am-development-2026",
+ "ranAt": "2026-09-23T01:04:01+00:00",
+ "status": 200,
+ "prediction": {
+  "category": "lease-disputes",
+  "roleLabel": "Landlord",
+  "damagesRange": null,
+  "bestGuessValue": null,
+  "whatIsNeededForEstimate": "To compute a real dollar range I need: (1) the square footage of Shaw's office condominium unit (you gave the $275/sf rate but no area to apply it to); (2) the purchase price allocated to Shaw's unit in the August 2015 Mostafavi transaction \u2014 pull it from the closing/settlement statement, since expectancy damages are value minus that price; (3) an appraised or comparable-sales fair market value for the unit as of August 2015; (4) the unit's current appraised value if you intend to press the post-breach appreciation theory; (5) whether the lease contains a prevailing-party attorney-fee clause and the fees incurred to date; and (6) whether the lease contains a non-waiver clause, which directly affects the strength of the acquiescence defense.",
+  "likelyOutcome": "Liability for breach of the right of first refusal is effectively conceded and the ten-year Iowa limitations period defeats the delay-as-time-bar argument, so the landlord's realistic outcomes are a complete defense verdict on estoppel by acquiescence (a genuine but not dominant chance) or, more likely, a finding of breach with nominal or sharply limited damages because the tenant has not proven an August 2015 value-versus-offer-price spread and his seven years of post-breach 'appreciation' is both wrongly measured and speculative. Expect a modest judgment against A & M rather than a large one, with attorney-fee entitlement potentially exceeding the compensatory award.",
+  "issues": [
+   {
+    "label": "Breach of the Right of First Refusal (liability)",
+    "probabilityRange": [
+     0.05,
+     0.15
+    ],
+    "damagesRange": null
+   },
+   {
+    "label": "Estoppel by Acquiescence / Implied Waiver",
+    "probabilityRange": [
+     0.35,
+     0.65
+    ],
+    "damagesRange": null
+   },
+   {
+    "label": "Statute of Limitations / Laches",
+    "probabilityRange": [
+     0.05,
+     0.12
+    ],
+    "damagesRange": null
+   },
+   {
+    "label": "Damages Measured at Date of Breach (defeating the appreciation theory)",
+    "probabilityRange": [
+     0.55,
+     0.8
+    ],
+    "damagesRange": null
+   },
+   {
+    "label": "Speculative / Unproven Valuation Evidence",
+    "probabilityRange": [
+     0.5,
+     0.75
+    ],
+    "damagesRange": null
+   },
+   {
+    "label": "Tenant's Ability and Willingness to Perform in 2015",
+    "probabilityRange": [
+     0.4,
+     0.7
+    ],
+    "damagesRange": null
+   },
+   {
+    "label": "Failure to Mitigate / Avoidable Consequences",
+    "probabilityRange": [
+     0.45,
+     0.7
+    ],
+    "damagesRange": null
+   },
+   {
+    "label": "Attorney Fees / Prevailing-Party Provision",
+    "probabilityRange": [
+     0.3,
+     0.7
+    ],
+    "damagesRange": null
+   }
+  ],
+  "citationCoverage": {
+   "count": 39,
+   "tier": "strong"
+  }
+ },
+ "error": null,
+ "outcome": {
+  "amount": 257216,
+  "amountIsTheRequestedAmount": false,
+  "date": "2026-08-19",
+  "description": "After a bench trial the district court awarded the tenant $257,216 in damages plus post-judgment interest, using the tenant's damages methodology (unrealized appreciation, rent-versus-mortgage differential, lost principal) but valuing the unit at the $166.73 per square foot the third-party buyers paid rather than the $275 the tenant proposed. No attorney's fees. The Iowa Court of Appeals affirmed (2-1) on August 19, 2026, rejecting the estoppel-by-acquiescence and failure-to-mitigate defenses.",
+  "attorneysFeesAtTrial": null,
+  "appellateChange": "affirmed"
+ },
+ "source": {
+  "caseName": "The Law Office of Melvin O. Shaw, P.L.C. v. A & M Development, L.L.C.",
+  "court": "Iowa Court of Appeals (appeal from Iowa District Court for Johnson County)",
+  "docket": "No. 25-1285",
+  "decided": "2026-08-19",
+  "url": "https://www.iowacourts.gov/courtcases/26627/embed/CourtAppealsOpinion",
+  "excerptNote": "Verbatim from Part I (Facts and Prior Proceedings), the parties' contentions in Part III.A-B, and the undisputed timeline recited in Judge Greer's dissent. Removed: the sentences stating the district court's damages award and per-square-foot figure, the district court's findings on the estoppel/mitigation defenses, and every appellate holding. The dissent's footnote characterizing A & M's conduct as a breach was also omitted. Extraction whitespace artifacts corrected."
+ }
+}

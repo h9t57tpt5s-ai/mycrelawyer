@@ -1,0 +1,106 @@
+{
+ "id": "empower-school-v-covenant-2026",
+ "ranAt": "2026-09-23T01:02:01+00:00",
+ "status": 200,
+ "prediction": {
+  "category": "lease-disputes",
+  "roleLabel": "Tenant",
+  "damagesRange": [
+   48145.5,
+   67403.7
+  ],
+  "bestGuessValue": 58000,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": "Covenant has a modestly better-than-even shot at persuading a jury that the lease never commenced \u2014 the Exhibit G outer-date arithmetic (April 23, 2020) combined with Empower's April 13, 2020 permit application and eighteen months of self-interested delay is a strong, jury-friendly story, and the court's ambiguity finding opens the door to the favorable broker email and LOI. Most likely result is a defense verdict on Empower's counterclaim and return of the $96,291.09 deposit, with fees a toss-up under the DJA. The risk, though small in probability, is severe in magnitude: a jury finding Section 3(c) to be a mere covenant exposes Covenant to twelve years of rent on a 19,331 sq ft building, an amount this record does not permit me to quantify.",
+  "issues": [
+   {
+    "label": "Section 3(c) as Condition Precedent to Commencement (core declaratory claim)",
+    "probabilityRange": [
+     0.5,
+     0.7
+    ],
+    "damagesRange": null
+   },
+   {
+    "label": "Return of $96,291.09 Deposit",
+    "probabilityRange": [
+     0.5,
+     0.7
+    ],
+    "damagesRange": [
+     96291,
+     96291
+    ]
+   },
+   {
+    "label": "Exhibit G Outer-Date Failure (commencement notice three days late)",
+    "probabilityRange": [
+     0.45,
+     0.7
+    ],
+    "damagesRange": null
+   },
+   {
+    "label": "Inadequacy of the Completed Pool Work",
+    "probabilityRange": [
+     0.55,
+     0.75
+    ],
+    "damagesRange": null
+   },
+   {
+    "label": "Empower's Breach of Contract Counterclaim (unquantified downside)",
+    "probabilityRange": [
+     0.5,
+     0.72
+    ],
+    "damagesRange": null
+   },
+   {
+    "label": "Empower's Fraud Counterclaim",
+    "probabilityRange": [
+     0.78,
+     0.92
+    ],
+    "damagesRange": null
+   },
+   {
+    "label": "Attorney's Fees Under the Texas DJA",
+    "probabilityRange": [
+     0.45,
+     0.7
+    ],
+    "damagesRange": null
+   },
+   {
+    "label": "Baseline's Quiet Enjoyment / Constructive Eviction and Implied Warranty of Suitability Theories",
+    "probabilityRange": [
+     0.05,
+     0.2
+    ],
+    "damagesRange": null
+   }
+  ],
+  "citationCoverage": {
+   "count": 39,
+   "tier": "strong"
+  }
+ },
+ "error": null,
+ "outcome": {
+  "amount": 96291.09,
+  "amountIsTheRequestedAmount": true,
+  "date": "2026-07-03",
+  "description": "After a four-day jury trial the jury found Section 3(c) was a condition precedent that Empower failed to satisfy; the trial court rendered judgment declaring the lease abrogated and ordered Empower to pay Covenant $96,291.09 in damages (the deposit), $611,491.45 in attorney's fees, and $135,000 in conditional appellate fees. The court of appeals held Section 3(c) is a covenant, not a condition precedent, reversed the entire judgment, rendered take-nothing on the condition-precedent declarations, and remanded the remaining declarations, the damages and fee awards, and Empower's breach-of-contract counterclaim.",
+  "attorneysFeesAtTrial": 611491.45,
+  "appellateChange": "reversed"
+ },
+ "source": {
+  "caseName": "Empower School, LLC v. Covenant Management Systems, LP",
+  "court": "Texas Court of Appeals, Third District, at Austin (appeal from 53rd District Court of Travis County, No. D-1-GN-20-002332)",
+  "docket": "No. 03-24-00448-CV",
+  "decided": "2026-07-03",
+  "url": "https://search.txcourts.gov/SearchMedia.aspx?MediaVersionID=aac76815-becc-4ad3-ab4b-a3a3fbaca4f0&coa=coa03&DT=Opinion&MediaID=5090a08e-c161-4dbe-b9e0-3821a05a8e3f",
+  "excerptNote": "Verbatim from the opening paragraph (first two sentences only) and Part I Background, with footnote 3 folded in as a sentence. Removed: the sentences describing the jury's verdict, the trial court's judgment on the verdict, the list of declarations, the damages/fee award, the motion for new trial and motion to reconsider, the appellate court's statement of its conclusion, two sentences of appellate commentary ('Thus, by any interpretation...' and 'But under either interpretation...'), footnote 2, and Section 3(a) of the quoted lease clause (for length). The Section 3(c) and Exhibit G block quotations were joined into running text without altering words."
+ }
+}

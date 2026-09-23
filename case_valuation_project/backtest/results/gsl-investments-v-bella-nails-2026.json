@@ -1,0 +1,134 @@
+{
+ "id": "gsl-investments-v-bella-nails-2026",
+ "ranAt": "2026-09-23T01:06:27+00:00",
+ "status": 200,
+ "prediction": {
+  "category": "lease-disputes",
+  "roleLabel": "Landlord",
+  "damagesRange": [
+   95932.44000000002,
+   117724.74399999999
+  ],
+  "bestGuessValue": 108000,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": "GSL should obtain summary judgment against Nguyen on the lease and guaranty \u2014 liability is essentially undisputed, the defendants filed no Civ.R. 56 response, and the identity argument fails under either construction. The realistic fight is over the size of the $104,295.80 itemization (mitigation/re-letting credit for the replacement tenant, and the open-term post-60-month CAM adjustment) and the unpleaded, unvalued conversion theory arising from the self-help lockout and $3,000 clean-out. Expect a judgment somewhat below the full $132,139.24 requested, with collectibility against a pro se guarantor as the larger practical risk.",
+  "issues": [
+   {
+    "label": "Breach of Lease / Unpaid Rent and Fees ($104,295.80)",
+    "probabilityRange": [
+     0.75,
+     0.9
+    ],
+    "damagesRange": [
+     104295.8,
+     104295.8
+    ]
+   },
+   {
+    "label": "Personal Guaranty Against Nguyen / 'Phantom LLC' Defense",
+    "probabilityRange": [
+     0.8,
+     0.93
+    ],
+    "damagesRange": null
+   },
+   {
+    "label": "Clean-Out / Removal Costs ($3,000)",
+    "probabilityRange": [
+     0.7,
+     0.9
+    ],
+    "damagesRange": [
+     3000,
+     3000
+    ]
+   },
+   {
+    "label": "Prejudgment Interest ($12,416.92)",
+    "probabilityRange": [
+     0.6,
+     0.85
+    ],
+    "damagesRange": [
+     12416.92,
+     12416.92
+    ]
+   },
+   {
+    "label": "Contractual Attorney's Fees ($12,010.52)",
+    "probabilityRange": [
+     0.65,
+     0.85
+    ],
+    "damagesRange": [
+     12010.52,
+     12010.52
+    ]
+   },
+   {
+    "label": "Court Costs ($416.00)",
+    "probabilityRange": [
+     0.85,
+     0.95
+    ],
+    "damagesRange": [
+     416,
+     416
+    ]
+   },
+   {
+    "label": "Self-Help Lockout Exposure",
+    "probabilityRange": [
+     0.55,
+     0.8
+    ],
+    "damagesRange": null
+   },
+   {
+    "label": "Conversion of Equipment and SBA-Financed Improvements",
+    "probabilityRange": [
+     0.55,
+     0.8
+    ],
+    "damagesRange": null
+   },
+   {
+    "label": "Accelerated Rent Beyond the Motion's Request",
+    "probabilityRange": [
+     0.3,
+     0.6
+    ],
+    "damagesRange": null
+   },
+   {
+    "label": "Collectibility Against a Pro Se Guarantor",
+    "probabilityRange": [
+     0.2,
+     0.65
+    ],
+    "damagesRange": null
+   }
+  ],
+  "citationCoverage": {
+   "count": 39,
+   "tier": "strong"
+  }
+ },
+ "error": null,
+ "outcome": {
+  "amount": 120128.72,
+  "amountIsTheRequestedAmount": true,
+  "date": "2026-07-27",
+  "description": "On September 4, 2025 the trial court granted the landlord summary judgment for $132,139.24, exactly the sum itemized in the landlord's affidavit ($104,295.80 overdue rent and fees, $3,000 clean-out costs, $12,416.92 prejudgment interest, $12,010.52 attorneys' fees and $416 court costs), plus 8 percent post-judgment interest and collection fees; the amount recorded here is the judgment less the $12,010.52 in attorneys' fees. The Twelfth District affirmed on July 27, 2026, holding the guarantor forfeited his lockout, notarization and phantom-LLC arguments by not opposing the motion.",
+  "attorneysFeesAtTrial": 12010.52,
+  "appellateChange": "affirmed"
+ },
+ "source": {
+  "caseName": "GSL Investments I, LLC v. Bella Nails & Spa, LLC, et al.",
+  "court": "Ohio Court of Appeals, Twelfth District, Butler County (appeal from Butler County Court of Common Pleas, Case No. CV 2024 02 0451)",
+  "docket": "CA2025-09-108; 2026-Ohio-2858",
+  "decided": "2026-07-27",
+  "url": "https://www.supremecourt.ohio.gov/rod/docs/pdf/12/2026/2026-Ohio-2858.pdf",
+  "excerptNote": "Verbatim from Part I (Facts & Procedural History, paragraphs 2-3, 7-9, 12-14, first sentence of 15) plus the tenant's contentions from paragraphs 21 and 27. Removed: the sentence stating the trial court's summary-judgment amount and post-judgment terms (rest of paragraph 15), the trial court's orders striking filings, the Section 21.2 default definition and Section 22 remedies clause, the First Amendment rent table, the base-rent table, and all appellate analysis. Lease-table rows are joined on one line."
+ }
+}
