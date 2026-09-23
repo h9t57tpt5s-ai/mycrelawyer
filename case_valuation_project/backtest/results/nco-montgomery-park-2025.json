@@ -1,12 +1,104 @@
 {
  "id": "nco-montgomery-park-2025",
- "ranAt": "2026-09-23T02:50:36+00:00",
- "status": 546,
- "prediction": null,
- "error": {
-  "code": "WORKER_RESOURCE_LIMIT",
-  "message": "Function failed due to not having enough compute resources (please check logs)"
+ "ranAt": "2026-09-23T03:02:02+00:00",
+ "status": 200,
+ "prediction": {
+  "model": "claude-sonnet-5",
+  "category": "lease-disputes",
+  "roleLabel": "Landlord",
+  "damagesRange": [
+   2000000.0000000002,
+   6600000
+  ],
+  "bestGuessValue": 5500000,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": "Montgomery Park is likely to prevail on its declaratory-judgment counterclaim that the lease remained in force (NCO vacated despite the landlord's notice that termination conditions were unmet) and to recover substantial unpaid rent through the original lease term, subject to a mitigation offset; NCO's fraud, unjust enrichment, and overcharge claims face significant doctrinal hurdles given the fully-integrated, negotiated commercial lease. Fee-shifting and default-rate interest under Section 14.04 add meaningful additional recovery beyond the base rent-stream figure.",
+  "issues": [
+   {
+    "label": "Validity of NCO's early termination exercise",
+    "probabilityRange": [
+     0.6,
+     0.85
+    ],
+    "damagesRange": null
+   },
+   {
+    "label": "Counterclaim for declaratory judgment that lease is ongoing",
+    "probabilityRange": [
+     0.6,
+     0.85
+    ],
+    "damagesRange": null
+   },
+   {
+    "label": "Past-due and continuing rent (core damages claim)",
+    "probabilityRange": [
+     0.55,
+     0.8
+    ],
+    "damagesRange": [
+     3200000,
+     6500000
+    ]
+   },
+   {
+    "label": "Landlord's duty to mitigate / re-letting offset",
+    "probabilityRange": [
+     0.4,
+     0.7
+    ],
+    "damagesRange": [
+     600000,
+     2000000
+    ]
+   },
+   {
+    "label": "NCO's fraud claim (square footage misrepresentation)",
+    "probabilityRange": [
+     0.1,
+     0.3
+    ],
+    "damagesRange": null
+   },
+   {
+    "label": "NCO's unjust enrichment claim",
+    "probabilityRange": [
+     0.1,
+     0.25
+    ],
+    "damagesRange": null
+   },
+   {
+    "label": "NCO's rent-overcharge / square-footage claim (as affecting rent calc and termination conditions)",
+    "probabilityRange": [
+     0.25,
+     0.5
+    ],
+    "damagesRange": null
+   },
+   {
+    "label": "Fee-shifting recovery (attorneys' fees and costs) under Section 14.04",
+    "probabilityRange": [
+     0.65,
+     0.9
+    ],
+    "damagesRange": null
+   },
+   {
+    "label": "Default-rate interest on unpaid rent and fees",
+    "probabilityRange": [
+     0.65,
+     0.9
+    ],
+    "damagesRange": null
+   }
+  ],
+  "citationCoverage": {
+   "count": 39,
+   "tier": "strong"
+  }
  },
+ "error": null,
  "outcome": {
   "amount": 9854566.95,
   "amountIsTheRequestedAmount": false,
