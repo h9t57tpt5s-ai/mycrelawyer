@@ -12,6 +12,7 @@ defect so the research routine refuses to push it.
 
 import json
 import pathlib
+import shutil
 import subprocess
 import sys
 
@@ -28,9 +29,22 @@ console.log(JSON.stringify((w.RELAW_DATA ?? globalThis.RELAW_DATA).cases));
 """
 
 
+NODE_LOADER = (
+    "const src=require('fs').readFileSync(process.argv[1],'utf8');const w={};"
+    "new Function('window',src.replace(/^\\s*const RELAW_DATA/m,'window.RELAW_DATA'))(w);"
+    "console.log(JSON.stringify(w.RELAW_DATA.cases));"
+)
+
+
 def load_cases():
-    out = subprocess.run(["deno", "eval", "--no-config", LOADER, str(DATA)],
-                         capture_output=True, text=True, check=False)
+    # Deno locally and in CI; Node in the cloud research environment.
+    if shutil.which("deno"):
+        cmd = ["deno", "eval", "--no-config", LOADER, str(DATA)]
+    elif shutil.which("node"):
+        cmd = ["node", "-e", NODE_LOADER, str(DATA)]
+    else:
+        sys.exit("Needs deno or node to evaluate js/data.js.")
+    out = subprocess.run(cmd, capture_output=True, text=True, check=False)
     if out.returncode:
         sys.exit(f"Could not evaluate js/data.js:\n{out.stderr}")
     return json.loads(out.stdout)
