@@ -1,12 +1,55 @@
 {
  "id": "franciscan-cvs-i69-2023",
- "ranAt": "2026-09-24T02:07:00+00:00",
- "status": 502,
- "prediction": null,
- "error": {
-  "error": "Analysis failed \u2014 try again.",
-  "code": "upstream_error"
+ "ranAt": "2026-09-24T02:18:44+00:00",
+ "status": 200,
+ "prediction": {
+  "model": "claude-sonnet-5",
+  "analysisVersion": "v2",
+  "category": "eminent-domain",
+  "roleLabel": "Property Owner",
+  "damagesRange": [
+   608475,
+   7447400
+  ],
+  "bestGuessValue": 2177937.5,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": "Franciscan will recover the strip value (roughly $40,500-$47,400) regardless of outcome on the access issue. The case's real value turns on whether the trial court admits the highest-and-best-use/loss-of-access theory over the State's Ensley-based objection and motion in limine; if it does, expect a jury award in the low seven figures anchored closer to the joint appraisers' ~$1.9M figure than to the individual outlier estimates, but there is a substantial chance (perhaps better than even) that the theory is excluded or rejected entirely, leaving Owners with only the strip payment.",
+  "issues": [
+   {
+    "label": "Direct Taking - Strip Compensation",
+    "probabilityRange": [
+     0.95,
+     1
+    ],
+    "damagesRange": [
+     40500,
+     47400
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "conceded",
+    "supportedCeiling": 47400
+   },
+   {
+    "label": "Loss-of-Access / Highest-and-Best-Use Damages (Ensley vs. Marina Entertainment)",
+    "probabilityRange": [
+     0.3,
+     0.5
+    ],
+    "damagesRange": [
+     1900000,
+     7400000
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": 7400000
+   }
+  ],
+  "citationCoverage": {
+   "count": 22,
+   "tier": "strong"
+  }
  },
+ "error": null,
  "outcome": {
   "amount": 2200000,
   "amountIsTheRequestedAmount": false,
