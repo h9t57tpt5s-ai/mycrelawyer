@@ -12,7 +12,7 @@
 
 import { createClient } from "npm:@supabase/supabase-js@2";
 import { looksLikeBusiness } from "./entity-match.ts";
-import { buildAlertEmail, findMatches, matchableNames, type Entity, type NewMatch, type StoredFiling } from "./alert-logic.ts";
+import { buildAlertEmail, buildSlackMessage, findMatches, isSlackWebhook, matchableNames, type Entity, type NewMatch, type StoredFiling } from "./alert-logic.ts";
 
 const AUTOMATION_SECRET = Deno.env.get("AUTOMATION_SECRET") ?? "";
 const RESEND_API_KEY = Deno.env.get("RESEND_API_KEY") ?? "";
@@ -121,6 +121,22 @@ async function sendMatchEmail(toEmail: string, matches: NewMatch[], liveSources:
   }
 }
 
+async function sendSlack(webhook: string, matches: NewMatch[], liveSources: Set<string>): Promise<boolean> {
+  try {
+    const resp = await fetch(webhook, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(buildSlackMessage(matches, liveSources)),
+      redirect: "error",
+    });
+    if (!resp.ok) console.error(`ingest-court-filings: Slack returned ${resp.status}`);
+    return resp.ok;
+  } catch (err) {
+    console.error("ingest-court-filings: Slack post failed --", String(err));
+    return false;
+  }
+}
+
 async function listEntities(limit: number) {
   const { rows: data, error } = await fetchAll<{ entity_name: string }>((from, to) =>
     supabaseAdmin.from("portfolio_entities").select("entity_name, last_federal_search_at")
@@ -222,6 +238,8 @@ async function ingest(body: Record<string, unknown>) {
   let newMatches: NewMatch[] = [];
   let emailsSent = 0;
   let emailsFailed = 0;
+  let slackSent = 0;
+  let slackFailed = 0;
   if (candidates.length) {
     // ignoreDuplicates makes the returned rows exactly the matches that
     // did not exist before, so re-ingesting a window never re-alerts.
@@ -267,6 +285,14 @@ async function ingest(body: Record<string, unknown>) {
       emailsFailed++;
       continue;
     }
+    // Slack goes out alongside the email when the user has connected it.
+    // Delivery is tracked by the email: if the email fails, the next run
+    // retries both, so a Slack message can occasionally repeat.
+    const webhook = userData?.user?.user_metadata?.alert_slack_webhook;
+    if (isSlackWebhook(webhook)) {
+      if (await sendSlack(webhook, items.map((i) => i.match), liveSources)) slackSent++;
+      else slackFailed++;
+    }
     if (await sendMatchEmail(email, items.map((i) => i.match), liveSources)) {
       emailsSent++;
       await supabaseAdmin.from("filing_matches").update({ emailed_at: new Date().toISOString() }).in("id", items.map((i) => i.id));
@@ -284,7 +310,7 @@ async function ingest(body: Record<string, unknown>) {
       .in("entity_name", searched);
   }
 
-  return jsonResponse({ ok: true, stored: stored.length, rejected, checkedFilings: recent.length, checkedEntities: entityRows.length, newMatches: newMatches.length, emailsSent, emailsFailed, pruned }, 200);
+  return jsonResponse({ ok: true, stored: stored.length, rejected, checkedFilings: recent.length, checkedEntities: entityRows.length, newMatches: newMatches.length, emailsSent, emailsFailed, slackSent, slackFailed, pruned }, 200);
 }
 
 // Public audit figures for the last AUDIT_DAYS days (alert-log.html).

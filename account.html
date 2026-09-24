@@ -289,7 +289,7 @@
 
       <div class="section-head reveal" style="margin-top:32px;">
         <div>
-          <h3 style="font-size:1.05rem;"><span id="filing-matches-count">0</span> federal filing matches</h3>
+          <h3 style="font-size:1.05rem;"><span id="filing-matches-count">0</span> filing matches</h3>
         </div>
       </div>
       <div id="filing-matches-list"></div>
@@ -313,6 +313,19 @@
         </div>
         <button type="submit" class="btn btn-primary btn-sm mt-16">Save preference</button>
         <div id="digest-prefs-status" class="auth-modal-status"></div>
+      </form>
+
+      <form id="slack-alerts-form" class="card" style="padding:28px; margin-top:20px;">
+        <div class="form-field">
+          <label for="slack-webhook">Also post filing alerts to Slack</label>
+          <input type="url" id="slack-webhook" placeholder="https://hooks.slack.com/services/…" autocomplete="off" spellcheck="false" style="width:100%; font-family:var(--font-mono); font-size:13px;" />
+          <p class="text-muted" style="font-size:12.5px; line-height:1.6; margin-top:8px;">Create an incoming webhook for the channel you want in Slack (<a href="https://api.slack.com/messaging/webhooks" target="_blank" rel="noopener noreferrer">Slack's instructions</a>) and paste its address here. Each alert then posts to that channel as well as arriving by email. Every alert still appears on the public <a href="alert-log.html">alert log</a>, without names.</p>
+        </div>
+        <div style="display:flex; gap:10px; flex-wrap:wrap;" class="mt-16">
+          <button type="submit" class="btn btn-primary btn-sm">Connect Slack</button>
+          <button type="button" id="slack-remove" class="btn btn-ghost btn-sm" style="display:none;">Disconnect</button>
+        </div>
+        <div id="slack-status" class="auth-modal-status"></div>
       </form>
     </div>
 
@@ -433,6 +446,7 @@
 <script src="js/watchlists.js"></script>
 <script src="js/portfolio-entities.js"></script>
 <script src="js/filing-matches.js"></script>
+<script src="js/alert-slack.js"></script>
 <script src="js/digest-prefs.js"></script>
 <script src="js/account-plan.js"></script>
 <script src="js/search.js"></script>

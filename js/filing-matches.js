@@ -67,7 +67,7 @@
         }
         if (countEl) countEl.textContent = data.length;
         if (!data.length) {
-          listEl.innerHTML = `<p class="text-muted" style="font-size:13px;">No filings have matched your portfolio yet. New Chapter 11 petitions, federal suits and SEC 8-K event filings are checked once a day.</p>`;
+          listEl.innerHTML = `<p class="text-muted" style="font-size:13px;">No filings have matched your portfolio yet. New Chapter 11 petitions, federal suits, SEC 8-K event filings and covered state-court cases are checked twice a day.</p>`;
           return;
         }
         listEl.innerHTML = data.map(matchCard).join("");

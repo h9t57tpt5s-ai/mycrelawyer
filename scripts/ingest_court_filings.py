@@ -506,7 +506,7 @@ def main():
         return
 
     def tally(body):
-        for k in ("stored", "newMatches", "emailsSent", "emailsFailed"):
+        for k in ("stored", "newMatches", "emailsSent", "emailsFailed", "slackSent", "slackFailed"):
             run[k] += body.get(k, 0) or 0
 
     for i in range(0, max(len(rows), 1), 400):
@@ -578,7 +578,8 @@ def write_audit(function_url, anon_key, secret):
 
 if __name__ == "__main__":
     run = {"at": dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds"), "window": None,
-           "sources": {}, "stored": 0, "newMatches": 0, "emailsSent": 0, "emailsFailed": 0, "errors": []}
+           "sources": {}, "stored": 0, "newMatches": 0, "emailsSent": 0, "emailsFailed": 0,
+           "slackSent": 0, "slackFailed": 0, "errors": []}
     failed = False
     try:
         main()

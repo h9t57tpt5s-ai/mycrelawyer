@@ -91,7 +91,7 @@ export function buildAlertEmail(matches: NewMatch[], liveSources: Set<string>): 
     ? `"${matches[0].entity.entity_name}" was just named in a new court or SEC filing`
     : `${matches.length} new filings name entities in your portfolio`;
   const text = [
-    "CREdocket's daily check of new court and regulatory filings found the following against your portfolio:",
+    "CREdocket's twice-daily check of new court and regulatory filings found the following against your portfolio:",
     "",
     ...matches.flatMap(describeFiling),
     coverageLine(liveSources),
@@ -103,4 +103,19 @@ export function buildAlertEmail(matches: NewMatch[], liveSources: Set<string>): 
     `Manage your portfolio: ${SITE_URL}/account.html?utm_source=credocket&utm_medium=email&utm_campaign=filing-alert`,
   ].filter((line): line is string => line !== null).join("\n");
   return { subject, text };
+}
+
+// Slack delivery (added 2026-09-24). A user pastes a Slack incoming-webhook
+// URL on the account page; it is stored in their own user_metadata. The
+// server only ever posts to Slack's webhook host, so a stored value can
+// never aim this function at an arbitrary address.
+const SLACK_WEBHOOK_RE = /^https:\/\/hooks\.slack\.com\/services\/[A-Za-z0-9_/-]+$/;
+
+export function isSlackWebhook(url: unknown): url is string {
+  return typeof url === "string" && url.length <= 300 && SLACK_WEBHOOK_RE.test(url);
+}
+
+export function buildSlackMessage(matches: NewMatch[], liveSources: Set<string>): { text: string } {
+  const { subject, text } = buildAlertEmail(matches, liveSources);
+  return { text: `*${subject}*\n\n${text}` };
 }

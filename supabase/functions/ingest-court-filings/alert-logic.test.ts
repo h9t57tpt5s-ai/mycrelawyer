@@ -1,4 +1,4 @@
-import { buildAlertEmail, coverageLine, findMatches, type Entity, type StoredFiling } from "./alert-logic.ts";
+import { buildAlertEmail, buildSlackMessage, coverageLine, findMatches, isSlackWebhook, type Entity, type StoredFiling } from "./alert-logic.ts";
 
 function assert(cond: unknown, msg: string) { if (!cond) throw new Error(msg); }
 
@@ -81,4 +81,25 @@ Deno.test("coverage line never claims a source with no stored rows", () => {
   assert(none.includes("State-court filings are not yet covered") && !none.includes("SEC") && !none.includes("County"), none);
   const all = coverageLine(new Set(["courtlistener", "sec_edgar", "hillsborough_fl", "harris_jp_tx"]));
   assert(all.includes("SEC Form 8-K") && all.includes("Hillsborough County") && all.includes("Harris County"), all);
+});
+
+Deno.test("only Slack's own webhook host is accepted", () => {
+  assert(isSlackWebhook("https://hooks.slack.com/services/T000/B000/XXXXXXXX"), "a real webhook shape passes");
+  for (const bad of [
+    "http://hooks.slack.com/services/T000/B000/XXXX",
+    "https://hooks.slack.com.evil.example/services/T000/B000/XXXX",
+    "https://evil.example/?https://hooks.slack.com/services/T000",
+    "https://hooks.slack.com/services/T000/B000/XXXX?redirect=https://evil.example",
+    "https://hooks.slack.com/workflows/T000/A000/1/abc",
+    "",
+    null,
+  ]) assert(!isSlackWebhook(bad), `rejected: ${bad}`);
+});
+
+Deno.test("the Slack message carries the same filing detail as the email", () => {
+  const [m] = findMatches([entity(1, "Meritage Hospitality Group")], [filing(10, {})]);
+  const { text } = buildSlackMessage([m], new Set(["courtlistener"]));
+  assert(text.startsWith("*"), "bold subject line first");
+  assert(text.includes("Meritage Hospitality Group"), "names the filing");
+  assert(text.includes("courtlistener.com/docket/"), "links the docket");
 });
