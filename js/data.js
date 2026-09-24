@@ -16,7 +16,7 @@ const RELAW_DATA = {
      Drives the homepage's "New Today" pill: it only shows when this
      equals the visitor's local today. Updated by the digest automation
      each time Step 4 successfully adds a case — never touched otherwise. */
-  lastUpdatedDate: "2026-09-23",
+  lastUpdatedDate: "2026-09-24",
   categories: [
     { id: "landlord-tenant", label: "Landlord–Tenant", color: "var(--cat-landlord)" },
     { id: "zoning-land-use", label: "Zoning & Land Use", color: "var(--cat-zoning)" },
@@ -5164,6 +5164,78 @@ const RELAW_DATA = {
       ],
       propertyType: "Hospitality",
       tags: ["hotel foreclosure", "sba loan", "new york", "receivership", "code violations"]
+    },
+    {
+      id: "live-175",
+      addedDate: "2026-09-24",
+      featured: true,
+      title: "Hern v. Alexandria Real Estate Equities, Inc. (Securities Class Action Dismissed Over $2.2B Impairment Claims)",
+      category: "reit-securities",
+      status: "ruling",
+      date: "2026-09-08",
+      jurisdiction: "U.S. District Court for the Central District of California",
+      state: "CA",
+      amount: "Putative class action tied to $2.2 billion in life-science property impairments recognized during the class period; dismissed without prejudice",
+      source: "live",
+      sourceUrl: "https://www.bisnow.com/news/national/capital-markets/judge-dismisses-suit-alleging-alexandria-misled-investors-over-portfolio-strength",
+      summary: "U.S. District Judge George Wu dismissed, without prejudice, a proposed securities class action accusing Alexandria Real Estate Equities and three of its executives of misleading investors about the strength of its life-science leasing pipeline, including a Long Island City, Queens property that took a roughly $206 million impairment. The court found lead plaintiff Warren Hern's complaint did not adequately allege that Alexandria's executives acted with the intent or severe recklessness securities-fraud law requires.",
+      significance: "Confirms that a large impairment charge or guidance cut, standing alone, does not satisfy the Private Securities Litigation Reform Act's heightened scienter-pleading standard, giving REITs a meaningful defense against shareholder suits filed reflexively after a stock-price decline. Life-science and lab-space REITs facing softer post-pandemic demand should expect continued plaintiffs'-bar scrutiny of leasing-pipeline disclosures even as this ruling raises the bar for such claims to survive a motion to dismiss.",
+      body: [
+        "A federal judge in Los Angeles has dismissed a proposed securities class action against Alexandria Real Estate Equities, Inc., the nation's largest publicly traded owner of life-science laboratory space, handing the REIT an early win in litigation that had accused its leadership of misleading investors about the strength of its development pipeline. U.S. District Judge George Wu ruled on September 8, 2026 that lead plaintiff Warren Hern's complaint did not sufficiently plead that Alexandria's executives acted with the scienter -- the intent or severe recklessness -- that federal securities law demands, and dismissed the case without prejudice, leaving Hern free to attempt to replead.",
+        "The case, Hern v. Alexandria Real Estate Equities, Inc., et al., No. 2:25-cv-11319 (C.D. Cal.), centers on Alexandria's disclosures about its life-science leasing pipeline and, in particular, a property at 32-02 48th Avenue in Long Island City, Queens, that the REIT acquired in 2018 for $75 million as part of a broader bet on New York City's emerging life-science corridor. Hern's complaint alleged that over several quarters, Alexandria executives told investors the company possessed reliable visibility into leasing spreads, tenant demand, and occupancy growth for its life-science portfolio, including the Long Island City asset, while downplaying the risk that macroeconomic conditions could derail those projections.",
+        "The claims came to a head after Alexandria's October 27, 2025 third-quarter earnings release, when the company reported results below expectations, cut its full-year funds-from-operations guidance, and disclosed a $323.9 million impairment charge -- roughly two-thirds of it, or on the order of $206 million, attributable to the Long Island City property alone. Alexandria's stock dropped sharply on the news, and investor-side law firms soon filed suit on behalf of a proposed class, ultimately pointing to a cumulative $2.2 billion in property impairments recognized across Alexandria's portfolio during the class period as evidence the REIT's earlier optimism had been unfounded.",
+        "In dismissing the case, Judge Wu did not find that Alexandria's disclosures were accurate or that no reasonable investor could have been misled. Instead, the ruling turned on the more demanding scienter requirement that the Private Securities Litigation Reform Act imposes on securities-fraud plaintiffs: it is not enough to show that a company's projections turned out wrong, or even that executives should have known better. A plaintiff must plead specific facts giving rise to a strong inference that the defendants either knew their statements were false when made or were severely reckless in making them. The court concluded Hern's complaint fell short of that bar, largely resting on the fact of the eventual write-down itself rather than on contemporaneous internal information showing Alexandria's leadership actually possessed contrary knowledge at the time of the challenged statements.",
+        "Because the dismissal was without prejudice, the practical effect is more of a pause than a final resolution -- Hern can amend the complaint with additional particularized facts, such as internal communications or witness accounts, that more directly tie what Alexandria's executives said publicly to what they knew privately. For REITs generally, and life-science and lab-space REITs in particular given the sector's post-pandemic demand slowdown, the ruling is a reminder that a large impairment charge alone does not create securities-fraud exposure; boards and general counsel should nonetheless preserve the factual basis for forward-looking leasing and occupancy statements, since a scienter defense turns on what management actually knew when it spoke rather than on how a submarket bet later performed, and should treat a first dismissal as a likely prelude to an amended complaint rather than a final resolution of the litigation."
+      ],
+      timeline: [
+        { when: "2018", label: "Alexandria acquires the Long Island City, Queens property for $75 million" },
+        { when: "October 27, 2025", label: "Alexandria discloses a $323.9 million impairment charge and cuts FFO guidance, triggering a sharp stock decline" },
+        { when: "September 8, 2026", label: "Judge George Wu dismisses the securities class action without prejudice", current: true }
+      ],
+      parties: [
+        { name: "Alexandria Real Estate Equities, Inc.", role: "Defendant" },
+        { name: "Warren Hern", role: "Plaintiff/Lead Shareholder" }
+      ],
+      propertyType: "Life Sciences",
+      judge: "George Wu",
+      tags: ["reit", "securities fraud", "life sciences", "california", "class action"]
+    },
+    {
+      id: "live-176",
+      addedDate: "2026-09-24",
+      title: "Citibank, N.A. v. Golub & Company (Magnificent Mile Office Tower Foreclosure Receivership)",
+      category: "lending-foreclosure",
+      status: "ruling",
+      date: "2026-06-16",
+      jurisdiction: "Circuit Court of Cook County, Illinois, Chancery Division",
+      state: "IL",
+      amount: "$50.6 million CMBS loan alleged in default",
+      source: "live",
+      sourceUrl: "https://therealdeal.com/chicago/2026/06/27/receiver-appointed-in-625-n-michigan-ave-foreclosure/",
+      summary: "Citibank, N.A., as trustee for CMBS bondholders, and special servicer LNR Partners moved to foreclose on 625 North Michigan Avenue, a 28-story, roughly 290,000-square-foot office tower on Chicago's Magnificent Mile, after landlords Golub & Company and BlueFive Capital defaulted on a $50.6 million loan that matured on March 6, 2026 without repayment. A Cook County judge appointed Scott Shefman of Friedman Real Estate Management as receiver for the property on June 16, 2026.",
+      significance: "Illustrates the now-familiar path from special servicing to formal default notice to court-appointed receivership for maturity-defaulted office CMBS loans in gateway downtowns, even on a trophy corridor like the Magnificent Mile. Owners of office towers with loans originated during the low-rate, aggressive-underwriting era of the late 2010s should expect special servicers to move quickly to a receivership request once a maturity default notice issues, shifting day-to-day control of leasing and operations away from the sponsor while the foreclosure proceeds.",
+      body: [
+        "A 28-story office tower on Chicago's Magnificent Mile has passed into a court-appointed receiver's hands as its owners fight a foreclosure action from their CMBS lender. Citibank, N.A., acting as trustee for commercial mortgage-backed securities bondholders, and special servicer LNR Partners moved against landlords Golub & Company and BlueFive Capital over a $50.6 million loan secured by 625 North Michigan Avenue, a roughly 290,000-square-foot building near the John Hancock Center. The loan, originated by Cantor Commercial Real Estate in 2019 at a 4.63 percent interest rate, reached its maturity date on March 6, 2026 without repayment.",
+        "The loan's troubles were not sudden. It transferred into special servicing in November 2025 on an imminent default driven by cash-flow shortfalls at the property, well before the March maturity date arrived. Golub and BlueFive received a formal notice of default in April 2026, and when the borrowers were unable to refinance or otherwise resolve the debt, the lender side moved to install a receiver to protect the collateral while foreclosure proceeded. On June 16, 2026, a Cook County judge granted that request, appointing Scott Shefman of Friedman Real Estate Management to take over management of the building.",
+        "The sequence -- special servicing transfer, notice of default, maturity default, and then a receivership motion -- has become a standard playbook for CMBS special servicers working out office loans originated in the years of historically low rates and aggressive underwriting that preceded the post-2022 rise in interest rates. Office towers financed on those terms have struggled to refinance at current rates against materially higher cap rates and, in many downtown submarkets, softer occupancy than when the loans were made, leaving sponsors with little room to bridge the gap between a maturing loan balance and current asset value.",
+        "For sponsors, the receivership order is the practical turning point in a maturity-default foreclosure: control over leasing decisions, tenant negotiations, building operations, and the property's bank accounts shifts to the court-appointed receiver, even though title has not yet formally changed hands and the foreclosure litigation continues. That transition can happen quickly once a special servicer concludes a workout is not viable, and sponsors with loans already in special servicing should not assume they will retain operational control simply because a foreclosure complaint has not yet been filed or a sale has not yet occurred.",
+        "The 625 North Michigan Avenue matter is a useful marker for other Magnificent Mile and downtown Chicago office owners navigating loan maturities on similarly vintage debt: once cash flow can no longer cover debt service and a special servicer has been assigned, the realistic window to negotiate an out-of-court extension or modification narrows quickly, and a receivership motion often follows a maturity default within a matter of months rather than years. Sponsors facing a comparable maturity wall should engage their special servicer early, document any leasing momentum or capital improvements that support the asset's value, and prepare for the practical loss of day-to-day control that a receivership brings well before any eventual foreclosure sale or deed-in-lieu resolves title."
+      ],
+      timeline: [
+        { when: "2019", label: "Cantor Commercial Real Estate originates the $50.6 million loan at 4.63% interest" },
+        { when: "November 2025", label: "Loan transfers to special servicing on an imminent default" },
+        { when: "March 6, 2026", label: "Loan reaches maturity without repayment" },
+        { when: "April 2026", label: "Golub & Company and BlueFive Capital receive a formal notice of default" },
+        { when: "June 16, 2026", label: "Cook County judge appoints a receiver for the property", current: true }
+      ],
+      parties: [
+        { name: "Citibank, N.A.", role: "Trustee/Plaintiff" },
+        { name: "LNR Partners", role: "Special Servicer" },
+        { name: "Golub & Company", role: "Defendant/Borrower" },
+        { name: "BlueFive Capital", role: "Defendant/Borrower" }
+      ],
+      propertyType: "Office",
+      tags: ["cmbs foreclosure", "receivership", "illinois", "office", "magnificent mile"]
     }
   ],
 
