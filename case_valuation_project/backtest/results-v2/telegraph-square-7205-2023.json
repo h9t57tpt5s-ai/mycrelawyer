@@ -1,12 +1,85 @@
 {
  "id": "telegraph-square-7205-2023",
- "ranAt": "2026-09-24T02:06:53+00:00",
- "status": 502,
- "prediction": null,
- "error": {
-  "error": "Analysis failed \u2014 try again.",
-  "code": "upstream_error"
+ "ranAt": "2026-09-24T02:38:33+00:00",
+ "status": 200,
+ "prediction": {
+  "model": "claude-sonnet-5",
+  "analysisVersion": "v2",
+  "category": "lease-disputes",
+  "roleLabel": "Landlord",
+  "damagesRange": [
+   66000,
+   1340000
+  ],
+  "bestGuessValue": 569000,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": "7205 Telegraph is likely to prevail on liability -- breach of the condominium instruments and declaratory relief invalidating the 2015 reallocation -- given the zoning-minimum admission by the Association's own expert and the undisclosed board conflict of interest. The dollar recovery, however, is genuinely uncertain and will turn on which expert's valuation methodology the court credits, since neither appraiser valued the property at the actual post-reallocation 12-space figure; a fee award under the bylaws is a realistic add-on, while the Association's unpaid-dues/lien counterclaim is a real, currently unquantified offset against any recovery.",
+  "issues": [
+   {
+    "label": "Breach of Condominium Instruments / Illegality of 2015 Parking Reallocation",
+    "probabilityRange": [
+     0.6,
+     0.82
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null
+   },
+   {
+    "label": "Diminution in Property Value / Lost Rent (Damages for the Reallocation)",
+    "probabilityRange": [
+     0.55,
+     0.8
+    ],
+    "damagesRange": [
+     120000,
+     1340000
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": 1340000
+   },
+   {
+    "label": "Attorney's Fees Under Bylaws \u00a79.1(b)",
+    "probabilityRange": [
+     0.4,
+     0.7
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null
+   },
+   {
+    "label": "Over-Assessment Claim (Phase I Common Element Costs)",
+    "probabilityRange": [
+     0.45,
+     0.75
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null
+   },
+   {
+    "label": "Association's Counterclaim/Setoff for Unpaid Dues and Recorded Liens",
+    "probabilityRange": [
+     0.45,
+     0.7
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null
+   }
+  ],
+  "citationCoverage": {
+   "count": 39,
+   "tier": "strong"
+  }
  },
+ "error": null,
  "outcome": {
   "amount": 481434.84,
   "amountIsTheRequestedAmount": false,

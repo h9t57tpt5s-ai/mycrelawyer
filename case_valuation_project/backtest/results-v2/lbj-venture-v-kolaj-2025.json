@@ -1,12 +1,97 @@
 {
  "id": "lbj-venture-v-kolaj-2025",
- "ranAt": "2026-09-24T01:59:08+00:00",
- "status": 504,
- "prediction": null,
- "error": {
-  "code": "IDLE_TIMEOUT",
-  "message": "Request idle timeout limit (150s) reached"
+ "ranAt": "2026-09-24T02:27:11+00:00",
+ "status": 200,
+ "prediction": {
+  "model": "claude-sonnet-5",
+  "analysisVersion": "v2",
+  "category": "lease-disputes",
+  "roleLabel": "Landlord",
+  "damagesRange": [
+   116097.6,
+   905000
+  ],
+  "bestGuessValue": 222353.255,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": "Liability is conceded, so the bench trial will turn entirely on damages methodology. The landlord's $538,000 acceleration theory is undercut by the lease's own conditional language (acceleration applies only 'if Landlord does not relet') and by the landlord's own reletting/offset conduct, so a deficiency-based rent award closer to Kolaj's $78,000-$96,000 calculation (adjusted for additional elapsed time) is more likely than full acceleration. The $300,000 kitchen claim is the weakest component given the total absence of valuation testimony at trial and is unlikely to be sustained in any significant amount. Attorneys' fees and late fees/interest are comparatively secure. Net expected recovery is likely well below the $905,000 requested, in the range described below.",
+  "issues": [
+   {
+    "label": "Base Deficiency Rent Recovery (Unpaid Rent Net of Reletting)",
+    "probabilityRange": [
+     0.95,
+     0.95
+    ],
+    "damagesRange": [
+     78739,
+     96072
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "conceded",
+    "supportedCeiling": 96072
+   },
+   {
+    "label": "Incremental Recovery if Full Acceleration Theory Prevails",
+    "probabilityRange": [
+     0.1,
+     0.22
+    ],
+    "damagesRange": [
+     0,
+     441928
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": 441928
+   },
+   {
+    "label": "$300,000 Commercial Kitchen Claim",
+    "probabilityRange": [
+     0.08,
+     0.2
+    ],
+    "damagesRange": [
+     0,
+     300000
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": 300000
+   },
+   {
+    "label": "Attorneys' Fees",
+    "probabilityRange": [
+     0.95,
+     0.95
+    ],
+    "damagesRange": [
+     40000,
+     67000
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "conceded",
+    "supportedCeiling": 67000
+   },
+   {
+    "label": "Late Fees and Prejudgment Interest",
+    "probabilityRange": [
+     0.95,
+     0.95
+    ],
+    "damagesRange": [
+     3469,
+     17333
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "conceded",
+    "supportedCeiling": 17333
+   }
+  ],
+  "citationCoverage": {
+   "count": 39,
+   "tier": "strong"
+  }
  },
+ "error": null,
  "outcome": {
   "amount": 96072.49,
   "amountIsTheRequestedAmount": true,

@@ -1,11 +1,11 @@
 {
  "id": "navient-v-bpg-office-partners-2023",
- "ranAt": "2026-09-24T02:21:18+00:00",
- "status": 546,
+ "ranAt": "2026-09-24T02:44:49+00:00",
+ "status": 504,
  "prediction": null,
  "error": {
-  "code": "WORKER_RESOURCE_LIMIT",
-  "message": "Function failed due to not having enough compute resources (please check logs)"
+  "code": "IDLE_TIMEOUT",
+  "message": "Request idle timeout limit (150s) reached"
  },
  "outcome": {
   "amount": 424172.72,

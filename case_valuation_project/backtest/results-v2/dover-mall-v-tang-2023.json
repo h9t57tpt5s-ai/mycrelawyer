@@ -1,12 +1,85 @@
 {
  "id": "dover-mall-v-tang-2023",
- "ranAt": "2026-09-24T02:06:45+00:00",
- "status": 502,
- "prediction": null,
- "error": {
-  "error": "Analysis failed \u2014 try again.",
-  "code": "upstream_error"
+ "ranAt": "2026-09-24T02:34:13+00:00",
+ "status": 200,
+ "prediction": {
+  "model": "claude-sonnet-5",
+  "analysisVersion": "v2",
+  "category": "lease-disputes",
+  "roleLabel": "Landlord",
+  "damagesRange": [
+   166250,
+   276089.72
+  ],
+  "bestGuessValue": 214267.61699999997,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": "Dover Mall is very likely to secure summary judgment (or a directed verdict at trial) on liability and on the common-law force majeure/frustration/impossibility defenses, which are foreclosed by the lease's explicit carve-out and are otherwise weak on these facts. The real risk is confined to the mitigation defense, where Dover Mall's failure to substantiate its reletting efforts creates a genuine triable issue likely to reduce or send to trial the accelerated/future-rent slice of the $276,089.72 claim, producing a probability-weighted recovery somewhat below the full requested amount but well above a nominal award.",
+  "issues": [
+   {
+    "label": "Unpaid & Accelerated Rent Claim (Core Recovery)",
+    "probabilityRange": [
+     0.95,
+     0.95
+    ],
+    "damagesRange": [
+     175000,
+     276089.72
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "conceded",
+    "supportedCeiling": 276089.72
+   },
+   {
+    "label": "Force Majeure Defense (Voluntary Early Closure)",
+    "probabilityRange": [
+     0.78,
+     0.92
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null
+   },
+   {
+    "label": "Frustration of Purpose / Impossibility (Pandemic Closure)",
+    "probabilityRange": [
+     0.75,
+     0.9
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null
+   },
+   {
+    "label": "Frustration of Purpose (Pre-Pandemic Declining Occupancy)",
+    "probabilityRange": [
+     0.8,
+     0.93
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null
+   },
+   {
+    "label": "Failure to Mitigate (Reletting)",
+    "probabilityRange": [
+     0.3,
+     0.55
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null
+   }
+  ],
+  "citationCoverage": {
+   "count": 39,
+   "tier": "strong"
+  }
  },
+ "error": null,
  "outcome": {
   "amount": 276089.72,
   "amountIsTheRequestedAmount": true,

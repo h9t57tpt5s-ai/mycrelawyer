@@ -1,12 +1,110 @@
 {
  "id": "lagoon-partners-landmark-2023",
- "ranAt": "2026-09-24T02:06:56+00:00",
- "status": 502,
- "prediction": null,
- "error": {
-  "error": "Analysis failed \u2014 try again.",
-  "code": "upstream_error"
+ "ranAt": "2026-09-24T02:40:14+00:00",
+ "status": 200,
+ "prediction": {
+  "model": "claude-sonnet-5",
+  "analysisVersion": "v2",
+  "category": "lease-disputes",
+  "roleLabel": "Landlord",
+  "damagesRange": [
+   512400,
+   1808470
+  ],
+  "bestGuessValue": 684300,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": "Lagoon should recover the unpaid pre-termination rent ($364,212) with little difficulty on the merits of liability, and should prevail on the legal enforceability of the liquidated-damages/acceleration clause as a general matter. But the much larger accelerated future-rent claim (~$1.44M) faces a genuine, evidence-supported mitigation dispute tied to Lagoon's own demolition work and reported redevelopment plans, which will likely defeat summary judgment on that component and send it to trial, with a probability-weighted recovery meaningfully below the full amount demanded.",
+  "issues": [
+   {
+    "label": "Unpaid Pre-Termination Rent",
+    "probabilityRange": [
+     0.88,
+     0.96
+    ],
+    "damagesRange": [
+     320000,
+     350000
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": 364212
+   },
+   {
+    "label": "Accelerated / Present-Value Future Rent",
+    "probabilityRange": [
+     0.4,
+     0.6
+    ],
+    "damagesRange": [
+     577000,
+     867000
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": 1444258
+   },
+   {
+    "label": "Frustration of Purpose Defense",
+    "probabilityRange": [
+     0.75,
+     0.9
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null
+   },
+   {
+    "label": "Liquidated Damages / Unenforceable Penalty Challenge",
+    "probabilityRange": [
+     0.6,
+     0.78
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null
+   },
+   {
+    "label": "Mitigation Fact Dispute / Redevelopment Evidence",
+    "probabilityRange": [
+     0.35,
+     0.55
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null
+   },
+   {
+    "label": "Premature/Incomplete Summary Judgment Motion",
+    "probabilityRange": [
+     0.25,
+     0.45
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null
+   },
+   {
+    "label": "Attorney's Fees and Costs",
+    "probabilityRange": [
+     0.55,
+     0.75
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "unknown",
+    "supportedCeiling": null
+   }
+  ],
+  "citationCoverage": {
+   "count": 39,
+   "tier": "strong"
+  }
  },
+ "error": null,
  "outcome": {
   "amount": 1808470,
   "amountIsTheRequestedAmount": true,

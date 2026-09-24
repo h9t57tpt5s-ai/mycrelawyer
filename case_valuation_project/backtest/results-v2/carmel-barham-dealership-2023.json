@@ -1,12 +1,74 @@
 {
  "id": "carmel-barham-dealership-2023",
- "ranAt": "2026-09-24T02:07:03+00:00",
- "status": 502,
- "prediction": null,
- "error": {
-  "error": "Analysis failed \u2014 try again.",
-  "code": "upstream_error"
+ "ranAt": "2026-09-24T02:42:15+00:00",
+ "status": 200,
+ "prediction": {
+  "model": "claude-sonnet-5",
+  "analysisVersion": "v2",
+  "category": "eminent-domain",
+  "roleLabel": "Property Owner",
+  "damagesRange": [
+   142500,
+   163000
+  ],
+  "bestGuessValue": 152750,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": "Barham should recover at least the $163,000 court-appointed appraisal for the physical taking, and has a credible \u2014 though genuinely contested \u2014 shot at additional compensation for the extinguished Threel Road ingress-egress easement given that summary judgment was denied on that exact theory. Without an expert diminution-in-value appraisal in the record, however, that upside component cannot be responsibly quantified, so the case's provable floor value sits close to the appraised figure while its true upside could be materially larger once (if) that evidence is developed.",
+  "issues": [
+   {
+    "label": "Base Just Compensation for Fee Strip, Access-Control Line, and Temporary ROW",
+    "probabilityRange": [
+     0.95,
+     1
+    ],
+    "damagesRange": [
+     150000,
+     163000
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "conceded",
+    "supportedCeiling": 163000
+   },
+   {
+    "label": "Compensability of Extinguished Threel Road Ingress-Egress Easement",
+    "probabilityRange": [
+     0.45,
+     0.65
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null
+   },
+   {
+    "label": "Wrong-Forum / Attribution Defense (County Line Action vs. This Case)",
+    "probabilityRange": [
+     0.3,
+     0.5
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null
+   },
+   {
+    "label": "Statutory Litigation Expenses / Fee-Shifting on Appraisal Rejection",
+    "probabilityRange": [
+     0.55,
+     0.75
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "unknown",
+    "supportedCeiling": null
+   }
+  ],
+  "citationCoverage": {
+   "count": 22,
+   "tier": "strong"
+  }
  },
+ "error": null,
  "outcome": {
   "amount": 2400000,
   "amountIsTheRequestedAmount": false,

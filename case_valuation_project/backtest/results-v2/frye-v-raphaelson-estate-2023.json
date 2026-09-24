@@ -1,11 +1,11 @@
 {
  "id": "frye-v-raphaelson-estate-2023",
- "ranAt": "2026-09-24T02:06:49+00:00",
- "status": 502,
+ "ranAt": "2026-09-24T02:36:47+00:00",
+ "status": 504,
  "prediction": null,
  "error": {
-  "error": "Analysis failed \u2014 try again.",
-  "code": "upstream_error"
+  "code": "IDLE_TIMEOUT",
+  "message": "Request idle timeout limit (150s) reached"
  },
  "outcome": {
   "amount": 44000,

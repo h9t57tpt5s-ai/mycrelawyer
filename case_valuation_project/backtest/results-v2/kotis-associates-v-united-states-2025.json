@@ -1,12 +1,74 @@
 {
  "id": "kotis-associates-v-united-states-2025",
- "ranAt": "2026-09-24T02:06:42+00:00",
- "status": 502,
- "prediction": null,
- "error": {
-  "error": "Analysis failed \u2014 try again.",
-  "code": "upstream_error"
+ "ranAt": "2026-09-24T02:31:45+00:00",
+ "status": 200,
+ "prediction": {
+  "model": "claude-sonnet-5",
+  "analysisVersion": "v2",
+  "category": "eminent-domain",
+  "roleLabel": "Property Owner",
+  "damagesRange": [
+   17100000,
+   44744774
+  ],
+  "bestGuessValue": 26600000,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": "Given conceded liability, an unopposed-on-valuation trial record, and strong parcel-specific severance facts, plaintiffs are highly likely to recover a substantial just compensation award -- realistically in the high-teens-to-high-$30 millions range -- with the ultimate figure discounted from the full $44,744,774 ask to account for legitimate cap-rate and comparable-sales critiques, plus pre-judgment interest from October 2019 that is not separately quantifiable here.",
+  "issues": [
+   {
+    "label": "Core Just Compensation Valuation (Thirteen Parcels)",
+    "probabilityRange": [
+     0.95,
+     0.95
+    ],
+    "damagesRange": [
+     18000000,
+     38000000
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "conceded",
+    "supportedCeiling": 44744774
+   },
+   {
+    "label": "Government's Nominal/No-Compensation Theory (Pre-Existing Burden & Narrow Scope)",
+    "probabilityRange": [
+     0.08,
+     0.2
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null
+   },
+   {
+    "label": "Pre-Judgment Interest on the Award",
+    "probabilityRange": [
+     0.95,
+     0.98
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "conceded",
+    "supportedCeiling": null
+   },
+   {
+    "label": "Appraisal Methodology Reliability Challenge (Cap Rate & Comparables)",
+    "probabilityRange": [
+     0.35,
+     0.6
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null
+   }
+  ],
+  "citationCoverage": {
+   "count": 22,
+   "tier": "strong"
+  }
  },
+ "error": null,
  "outcome": {
   "amount": 42641740,
   "amountIsTheRequestedAmount": false,
