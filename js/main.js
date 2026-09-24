@@ -404,14 +404,19 @@
     return /[",\r\n]/.test(s) ? '"' + s.replace(/"/g, '""') + '"' : s;
   }
   function casesToCsv(cases) {
-    const headers = ["Title", "Category", "Status", "Date", "Jurisdiction", "State", "Amount", "Summary", "Source URL"];
+    // Structured columns (parties, judge, amount in USD, docket) are what an
+    // institution filters and joins on; the prose columns stay for reading.
+    const headers = ["ID", "Title", "Category", "Status", "Date", "Jurisdiction", "State", "Parties", "Judge", "Amount (USD)", "Amount basis", "Amount", "Property type", "Summary", "Source URL", "Docket URL", "Added"];
     const rows = cases.map((c) => {
       const cat = categoryById(c.category);
       const status = statusById(c.status);
       const stateName = (c.state && RELAW_DATA.states && RELAW_DATA.states[c.state]) || c.state || "";
       return [
-        c.title, cat ? cat.label : c.category, status ? status.label : c.status,
-        formatDate(c.date), c.jurisdiction, stateName, c.amount || "", c.summary, c.sourceUrl || "",
+        c.id, c.title, cat ? cat.label : c.category, status ? status.label : c.status,
+        c.date || "", c.jurisdiction, stateName,
+        (c.parties || []).map((p) => (p.role ? p.role + ": " : "") + p.name).join("; "),
+        c.judge || "", typeof c.amountUsd === "number" ? c.amountUsd : "", c.amountUsd ? (c.amountBasis || "") : "",
+        c.amount || "", c.propertyType || "", c.summary, c.sourceUrl || "", c.docketUrl || "", c.addedDate || "",
       ].map(csvCell).join(",");
     });
     // Leading BOM so Excel (which guesses encoding from the byte order
