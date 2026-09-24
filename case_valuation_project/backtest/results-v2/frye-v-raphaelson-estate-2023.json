@@ -1,11 +1,11 @@
 {
  "id": "frye-v-raphaelson-estate-2023",
- "ranAt": "2026-09-24T02:52:55+00:00",
- "status": 546,
+ "ranAt": "2026-09-24T22:57:17+00:00",
+ "status": 504,
  "prediction": null,
  "error": {
-  "code": "WORKER_RESOURCE_LIMIT",
-  "message": "Function failed due to not having enough compute resources (please check logs)"
+  "code": "IDLE_TIMEOUT",
+  "message": "Request idle timeout limit (150s) reached"
  },
  "outcome": {
   "amount": 44000,

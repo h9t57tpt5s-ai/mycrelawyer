@@ -1,11 +1,11 @@
 {
  "id": "mckinney-v-park-plaza-properties-2026",
- "ranAt": "2026-09-24T02:47:57+00:00",
- "status": 546,
+ "ranAt": "2026-09-24T22:54:44+00:00",
+ "status": 504,
  "prediction": null,
  "error": {
-  "code": "WORKER_RESOURCE_LIMIT",
-  "message": "Function failed due to not having enough compute resources (please check logs)"
+  "code": "IDLE_TIMEOUT",
+  "message": "Request idle timeout limit (150s) reached"
  },
  "outcome": {
   "amount": 51336.45,
