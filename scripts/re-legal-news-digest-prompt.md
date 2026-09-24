@@ -132,10 +132,12 @@ otherwise.
      summary: "...",              // 2-4 sentences: what happened
      significance: "...",         // 2-4 sentences: why it matters to CRE owners/REITs
      tags: ["...", "...", "..."], // 3-5 short lowercase tags
-     parties: [                   // named parties actually IN this matter — omit
-                                   // the whole field if the story doesn't clearly
-                                   // name real parties (e.g. a regulatory/market
-                                   // report with no named litigants)
+     parties: [                   // REQUIRED KEY (2026-09-24). The named BUSINESS
+                                   // or GOVERNMENT parties actually IN this matter.
+                                   // Never a natural person's name (Fair Credit
+                                   // Reporting Act risk) -- leave individuals out.
+                                   // Use [] only when no source names a business or
+                                   // government party (e.g. a market-wide report).
        { name: "...", role: "..." } // name: the party's proper legal entity name,
                                      // exactly as it appears in the source (so it
                                      // can later be matched against
@@ -147,6 +149,23 @@ otherwise.
                                      // "Trustee") — whatever term the source itself
                                      // uses or clearly implies, not a guess.
      ],
+     judge: "..." | null,         // REQUIRED KEY (2026-09-24). The presiding judge's
+                                   // name exactly as a source states it for THIS
+                                   // matter (trial, bankruptcy, or authoring
+                                   // appellate judge), without the title, e.g.
+                                   // "Jennifer L. Rochon". null when no source names
+                                   // one. Never inferred from court assignment.
+     amountUsd: 12345678 | null,  // REQUIRED KEY (2026-09-24). The single dollar
+                                   // figure a source states as the amount at stake
+                                   // (loan in default, damages sought, judgment,
+                                   // award, settlement, claim). A plain number, no
+                                   // "$" or "M". null when no figure is stated.
+                                   // Never computed or estimated. `amount` above
+                                   // stays the human-readable phrase.
+     amountBasis: "...",          // required with a non-null amountUsd: one of
+                                   // "loan", "damages sought", "judgment", "award",
+                                   // "settlement", "claim", "purchase price",
+                                   // "other". Omit when amountUsd is null.
      propertyType: "..."          // the single best-fit type of property actually
                                    // involved, from: Office, Multifamily, Retail,
                                    // Industrial, Hospitality, Mixed-Use,
@@ -194,8 +213,12 @@ otherwise.
    accurate, non-fabricated summary/significance text grounded in the actual source,
    just shorter/more direct than the flagship's is fine (2-3 plain sentences each is
    enough; do not pad these with invented detail to make them look more substantial).
-   `parties`, `propertyType`, `documentUrl`/`documentLabel`, and `docketUrl`/
-   `docketLabel` are all optional — added going forward for new entries only.
+   `parties`, `judge` and `amountUsd` are REQUIRED KEYS on every new entry (their
+   values may be [] or null when no source states them, but the key must be there,
+   so every entry records that the question was asked). An institution reading the
+   tracker filters on these; a missing key is a defect, and Step 6 refuses to push
+   one. `propertyType`, `documentUrl`/`documentLabel`, and `docketUrl`/
+   `docketLabel` remain optional — added going forward for new entries only.
    Existing `live-*` cases without them are untouched; do not add these fields to
    any existing case as part of a routine digest run.
 
@@ -322,6 +345,16 @@ push status.
 ## STEP 6 — PUSH TO THE LIVE SITE
 
 Only run this if Step 4, 4B, and/or 4C actually changed something.
+
+First run the field check and fix every entry it names before committing:
+
+```
+python3 scripts/check_case_fields.py
+```
+
+It exits non-zero if any entry added on or after 2026-10-01 is missing the
+`parties`, `judge` or `amountUsd` key, or carries a malformed value. Do not push
+until it passes.
 
 ```
 cd /Users/jeffnovel/RELAW
