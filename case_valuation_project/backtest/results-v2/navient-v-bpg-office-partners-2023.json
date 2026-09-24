@@ -1,11 +1,11 @@
 {
  "id": "navient-v-bpg-office-partners-2023",
- "ranAt": "2026-09-24T02:08:23+00:00",
- "status": 502,
+ "ranAt": "2026-09-24T02:12:41+00:00",
+ "status": 546,
  "prediction": null,
  "error": {
-  "error": "Analysis failed \u2014 try again.",
-  "code": "upstream_error"
+  "code": "WORKER_RESOURCE_LIMIT",
+  "message": "Function failed due to not having enough compute resources (please check logs)"
  },
  "outcome": {
   "amount": 424172.72,
