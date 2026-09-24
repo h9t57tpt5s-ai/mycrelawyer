@@ -1821,7 +1821,7 @@ async function classifyCategory(description: string, documentText: string): Prom
   }
 }
 
-Deno.serve(async (req) => {
+async function handle(req: Request): Promise<Response> {
   // The browser sends this before the real POST whenever the request has
   // custom headers (Authorization, apikey) -- must succeed with the CORS
   // headers below, or the browser blocks the actual request and never
@@ -2330,6 +2330,9 @@ Deno.serve(async (req) => {
       additionalProperties: false,
     };
 
+    // (2026-09-24: superseded on the Pro plan -- see the Deno.serve
+    // wrapper at the end of this file, which heartbeats past the idle
+    // timeout within Pro's 400s wall clock. Kept for history.)
     // Confirmed directly against Supabase's own docs: sending partial
     // response bytes does NOT reset or extend their hard wall-clock
     // execution ceiling (150s free tier / 400s Pro) -- that ceiling is
@@ -2660,4 +2663,65 @@ Deno.serve(async (req) => {
     console.error("case-valuation-analyze error:", err);
     return jsonResponse({ error: "Something went wrong analyzing this document — try again.", code: "internal_error" }, 500);
   }
+}
+
+// Supabase's gateway closes any request that sends no bytes for 150
+// seconds (504 IDLE_TIMEOUT), on every plan. The Pro plan (upgraded
+// 2026-09-24) raises the function's own wall clock to 400 seconds, but
+// that only helps if bytes flow before the 150-second idle mark. An
+// earlier heartbeat attempt (e91f13a, reverted in 7724ba4) was right about
+// the idle timeout; it failed because the free plan's 150-second wall
+// clock killed the function anyway.
+//
+// Fast responses (auth, credits, rate limit, validation) still return with
+// their real status codes. A request still running after FAST_PATH_MS
+// switches to a streamed 200: one space every HEARTBEAT_MS (JSON.parse
+// ignores leading whitespace), then the handler's JSON body as the last
+// chunk with `httpStatus` added when it was not a success. The browser
+// client already treats success as `resp.ok && json.analysis`.
+const FAST_PATH_MS = 5000;
+const HEARTBEAT_MS = 15000;
+
+Deno.serve(async (req) => {
+  const pending = handle(req);
+  const early = await Promise.race([
+    pending,
+    new Promise<null>((resolve) => setTimeout(() => resolve(null), FAST_PATH_MS)),
+  ]);
+  if (early) return early;
+
+  const encoder = new TextEncoder();
+  const stream = new ReadableStream<Uint8Array>({
+    start(controller) {
+      const beat = setInterval(() => {
+        try { controller.enqueue(encoder.encode(" ")); } catch { /* closed */ }
+      }, HEARTBEAT_MS);
+      controller.enqueue(encoder.encode(" "));
+      pending
+        .then(async (res) => {
+          const text = await res.text();
+          if (res.ok) return text;
+          try {
+            return JSON.stringify({ ...JSON.parse(text), httpStatus: res.status });
+          } catch {
+            return JSON.stringify({ error: text.slice(0, 500), httpStatus: res.status });
+          }
+        })
+        .catch((err) => {
+          console.error("case-valuation-analyze unhandled error:", err);
+          return JSON.stringify({ error: "Something went wrong analyzing this document — try again.", code: "internal_error", httpStatus: 500 });
+        })
+        .then((body) => {
+          clearInterval(beat);
+          try {
+            controller.enqueue(encoder.encode(body));
+            controller.close();
+          } catch { /* closed */ }
+        });
+    },
+  });
+  return new Response(stream, {
+    status: 200,
+    headers: { "Content-Type": "application/json", ...CORS_HEADERS },
+  });
 });

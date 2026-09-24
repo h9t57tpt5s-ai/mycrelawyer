@@ -58,8 +58,13 @@ def call_calculator(secret, inp):
                  "Authorization": f"Bearer {ANON_KEY}", "x-automation-secret": secret},
     )
     try:
-        with urllib.request.urlopen(req, timeout=300) as resp:
-            return resp.status, json.load(resp)
+        with urllib.request.urlopen(req, timeout=450) as resp:
+            body = json.load(resp)
+            # A slow request streams back as HTTP 200 with the real status
+            # in the body (see the Deno.serve wrapper in the function).
+            if isinstance(body, dict) and "analysis" not in body and body.get("httpStatus"):
+                return body["httpStatus"], body
+            return resp.status, body
     except urllib.error.HTTPError as err:
         raw = err.read().decode(errors="replace")
         try:
