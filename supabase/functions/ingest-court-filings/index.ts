@@ -324,7 +324,16 @@ async function audit() {
   if (eErr) return jsonResponse({ error: "Could not load entities", detail: eErr }, 500);
 
   // Days from the court's filing date to the day this system first stored
-  // the record: how quickly a filing becomes visible here.
+  // the record: how quickly a filing becomes visible here. Each source
+  // started with a one-time backfill of older filings, which would read as
+  // weeks of lag, so only filings dated on or after the source's first
+  // stored record count toward the lag figures.
+  const liveSince: Record<string, string> = {};
+  for (const source of Object.keys(SOURCES)) {
+    const { data } = await supabaseAdmin.from("court_filings").select("ingested_at")
+      .eq("source", source).order("ingested_at", { ascending: true }).limit(1);
+    if (data?.[0]) liveSince[source] = data[0].ingested_at.slice(0, 10);
+  }
   const DAY = 86_400_000;
   const bySource: Record<string, { stored: number; lagDays: number[] }> = {};
   const byDay: Record<string, { stored: number; alerts: number; emailed: number }> = {};
@@ -332,7 +341,9 @@ async function audit() {
   for (const f of filings) {
     const src = (bySource[f.source] ??= { stored: 0, lagDays: [] });
     src.stored++;
-    src.lagDays.push(Math.max(0, Math.round((Date.parse(f.ingested_at) - Date.parse(f.date_filed + "T00:00:00Z")) / DAY)));
+    if (liveSince[f.source] && f.date_filed >= liveSince[f.source]) {
+      src.lagDays.push(Math.max(0, Math.round((Date.parse(f.ingested_at) - Date.parse(f.date_filed + "T00:00:00Z")) / DAY)));
+    }
     (byDay[day(f.ingested_at)] ??= { stored: 0, alerts: 0, emailed: 0 }).stored++;
   }
   const emailMinutes: number[] = [];
@@ -365,7 +376,8 @@ async function audit() {
     portfolios: new Set(entities.map((e) => e.user_id)).size,
     entitiesWatched: entities.length,
     sources: Object.fromEntries(Object.entries(bySource).map(([k, v]) => [k, {
-      stored: v.stored, medianLagDays: median(v.lagDays), p90LagDays: pct(v.lagDays, 0.9),
+      stored: v.stored, liveSince: liveSince[k] ?? null, lagSample: v.lagDays.length,
+      medianLagDays: median(v.lagDays), p90LagDays: pct(v.lagDays, 0.9),
     }])),
     byDay,
     alerts,

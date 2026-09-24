@@ -97,14 +97,16 @@ def sources_block(audit):
     if not audit or not audit.get("sources"):
         return '<p class="text-muted" style="font-size:13px; margin:0;">No filings stored in the last 30 days.</p>'
     head = (f'<tr><th style="{CELL} text-align:left;">Source</th><th style="{NUM}">Filings stored</th>'
-            f'<th style="{NUM}">Median days, filed to stored</th><th style="{NUM}">90th percentile</th></tr>')
+            f'<th style="{NUM}">Median days, filed to stored</th><th style="{NUM}">90th percentile</th>'
+            f'<th style="{NUM}">Watched since</th></tr>')
     body = []
     for key, v in sorted(audit["sources"].items(), key=lambda kv: -kv[1]["stored"]):
         med, p90 = v.get("medianLagDays"), v.get("p90LagDays")
         body.append(f'<tr><td style="{CELL}">{esc(SOURCE_LABELS.get(key, key))}</td>'
                     f'<td class="mono" style="{NUM}">{v["stored"]:,}</td>'
                     f'<td class="mono" style="{NUM}">{"—" if med is None else med}</td>'
-                    f'<td class="mono" style="{NUM}">{"—" if p90 is None else p90}</td></tr>')
+                    f'<td class="mono" style="{NUM}">{"—" if p90 is None else p90}</td>'
+                    f'<td class="mono" style="{NUM}">{esc(v.get("liveSince") or "—")}</td></tr>')
     return (f'<div style="overflow-x:auto;"><table style="width:100%; border-collapse:collapse; font-size:13.5px;">'
             f'<thead>{head}</thead><tbody>{"".join(body)}</tbody></table></div>')
 
