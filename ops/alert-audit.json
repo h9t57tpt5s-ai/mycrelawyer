@@ -1,0 +1,77 @@
+{
+ "ok": true,
+ "generatedAt": "2026-09-24T23:11:05.319Z",
+ "days": 30,
+ "portfolios": 1,
+ "entitiesWatched": 1,
+ "sources": {
+  "courtlistener": {
+   "stored": 812,
+   "medianLagDays": 12,
+   "p90LagDays": 25
+  },
+  "sec_edgar": {
+   "stored": 163,
+   "medianLagDays": 19,
+   "p90LagDays": 30
+  },
+  "hillsborough_fl": {
+   "stored": 34,
+   "medianLagDays": 5,
+   "p90LagDays": 11
+  },
+  "harris_jp_tx": {
+   "stored": 14,
+   "medianLagDays": 2,
+   "p90LagDays": 10
+  }
+ },
+ "byDay": {
+  "2026-09-19": {
+   "stored": 811,
+   "alerts": 1,
+   "emailed": 1
+  },
+  "2026-09-20": {
+   "stored": 36,
+   "alerts": 0,
+   "emailed": 0
+  },
+  "2026-09-21": {
+   "stored": 38,
+   "alerts": 0,
+   "emailed": 0
+  },
+  "2026-09-22": {
+   "stored": 19,
+   "alerts": 0,
+   "emailed": 0
+  },
+  "2026-09-23": {
+   "stored": 59,
+   "alerts": 0,
+   "emailed": 0
+  },
+  "2026-09-24": {
+   "stored": 60,
+   "alerts": 0,
+   "emailed": 0
+  }
+ },
+ "alerts": [
+  {
+   "source": "courtlistener",
+   "filingType": "bankruptcy_ch11",
+   "dateFiled": "2026-09-17",
+   "storedAt": "2026-09-19T04:19:57.503128+00:00",
+   "matchedAt": "2026-09-19T14:04:53.546431+00:00",
+   "emailedAt": "2026-09-19T14:04:53.92+00:00",
+   "confidence": "exact",
+   "overdue": false
+  }
+ ],
+ "alertsEmailed": 1,
+ "alertsOverdue": 0,
+ "medianEmailMinutes": 0,
+ "maxEmailMinutes": 0
+}
