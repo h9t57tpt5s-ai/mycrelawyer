@@ -1,12 +1,93 @@
 {
  "id": "cumberland-lakefront-blackwing-2025",
- "ranAt": "2026-09-24T02:29:45+00:00",
- "status": 546,
- "prediction": null,
- "error": {
-  "code": "WORKER_RESOURCE_LIMIT",
-  "message": "Function failed due to not having enough compute resources (please check logs)"
+ "ranAt": "2026-09-24T02:50:22+00:00",
+ "status": 200,
+ "prediction": {
+  "model": "claude-sonnet-5",
+  "analysisVersion": "v2",
+  "category": "lease-disputes",
+  "roleLabel": "Landlord",
+  "damagesRange": [
+   -52620.399999999994,
+   0
+  ],
+  "bestGuessValue": -40091.825,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": "Cumberland is more likely than not to prevail on liability for eviction/nonpayment, but the size of that recovery cannot be fixed without the rent and arrears figures reserved for the damages hearing. Its principal quantifiable exposure is defending against Blackwing's $167,050 TI allowance counterclaim, which Cumberland has a real but not certain chance of substantially defeating based on industry-custom evidence and Blackwing's admitted failure to submit receipts; net expected value to Cumberland from the quantifiable pieces of this case is modestly negative pending resolution of the unquantified rent claim.",
+  "issues": [
+   {
+    "label": "TI Allowance Counterclaim ($167,050)",
+    "probabilityRange": [
+     0.55,
+     0.7
+    ],
+    "damagesRange": [
+     -75172,
+     -50115
+    ],
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": -167050
+   },
+   {
+    "label": "Landlord's Nonpayment / Eviction / Breach of Contract Claim",
+    "probabilityRange": [
+     0.6,
+     0.8
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null
+   },
+   {
+    "label": "Failure to Deliver Space / Vent-Hood Blocking Counterclaim",
+    "probabilityRange": [
+     0.3,
+     0.55
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null
+   },
+   {
+    "label": "Self-Help / Wrongful Exclusion Declaratory Claim",
+    "probabilityRange": [
+     0.55,
+     0.8
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null
+   },
+   {
+    "label": "Fraud Counterclaim",
+    "probabilityRange": [
+     0.7,
+     0.9
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null
+   },
+   {
+    "label": "Guarantor/Individual Defendant Collectibility (Freeman and Schramm)",
+    "probabilityRange": null,
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "unknown",
+    "supportedCeiling": null
+   }
+  ],
+  "citationCoverage": {
+   "count": 39,
+   "tier": "strong"
+  }
  },
+ "error": null,
  "outcome": {
   "amount": 444055.13,
   "amountIsTheRequestedAmount": false,
