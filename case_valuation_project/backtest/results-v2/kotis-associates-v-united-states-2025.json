@@ -1,0 +1,28 @@
+{
+ "id": "kotis-associates-v-united-states-2025",
+ "ranAt": "2026-09-24T02:06:42+00:00",
+ "status": 502,
+ "prediction": null,
+ "error": {
+  "error": "Analysis failed \u2014 try again.",
+  "code": "upstream_error"
+ },
+ "outcome": {
+  "amount": 42641740,
+  "amountIsTheRequestedAmount": false,
+  "date": "2025-04-23",
+  "description": "After the valuation trial the Court of Federal Claims adopted Dr. Kilpatrick's before-and-after values for all thirteen parcels but struck his privacy-wall component, awarding just compensation of $42,641,740 (before values $66,179,431, after values $23,537,691) plus interest at the Moody's Aaa corporate bond rate compounded annually, against a demand of $44,744,774; it also denied the government's motion to reopen the record. No attorneys' fees were addressed in this opinion. This is the trial-level decision; no appellate ruling is reflected.",
+  "attorneysFeesAtTrial": null,
+  "appellateChange": "affirmed",
+  "finalAmount": 42641740,
+  "finalNote": "No appeal reflected."
+ },
+ "source": {
+  "caseName": "Kotis Associates, LLC, et al. v. United States",
+  "court": "United States Court of Federal Claims (trial-level opinion and order after valuation trial, Senior Judge Loren A. Smith)",
+  "docket": "No. 20-932",
+  "decided": "2025-04-23",
+  "url": "https://ecf.cofc.uscourts.gov/cgi-bin/show_public_doc?2020cv0932-206-0",
+  "excerptNote": "Verbatim from the opinion's introduction, Part I.B (Statement of Facts: corridor background and three of the thirteen parcel descriptions), Part II (Procedural History), Part III (Overview of Trial Testimony) and Part IV.B.2 (description of each side's appraisal evidence and the government's objections). Record citations (Tr., JX, PX, DX) were dropped from most sentences, and within the parcel descriptions a few intervening sentences (purchase history, parking/building inventories) were omitted between retained sentences. Removed: the intro sentences stating the Court grants/denies the motions and awards compensation in the amount estimated by plaintiffs' expert subject to modifications; ten other parcel descriptions and part of the corridor chronology (length); the highest-and-best-use findings; the Court's rulings on scope of the taking, the privacy-wall deduction, the credibility of Dr. Kilpatrick and rejection of Mr. Roach's objections; and the per-parcel before/after values and total award on the final page (which is an image in the PDF). No appeal is reflected in this opinion."
+ }
+}

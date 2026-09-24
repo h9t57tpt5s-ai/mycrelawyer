@@ -1,0 +1,28 @@
+{
+ "id": "dover-mall-v-tang-2023",
+ "ranAt": "2026-09-24T02:06:45+00:00",
+ "status": 502,
+ "prediction": null,
+ "error": {
+  "error": "Analysis failed \u2014 try again.",
+  "code": "upstream_error"
+ },
+ "outcome": {
+  "amount": 276089.72,
+  "amountIsTheRequestedAmount": true,
+  "date": "2023-10-05",
+  "description": "The Superior Court granted the landlord summary judgment on liability and damages in the amount of $276,089.72, the full amount demanded, holding the force majeure clause allocated pandemic-closure risk to the tenant and two lease provisions relieved the landlord of any duty to relet. No attorney's fee award is stated. This is a trial-level decision; no appeal is reflected in the opinion.",
+  "attorneysFeesAtTrial": null,
+  "appellateChange": "n/a (trial-level decision; no appeal in opinion)",
+  "finalAmount": 276089.72,
+  "finalNote": "Trial-level decision; no appeal reflected."
+ },
+ "source": {
+  "caseName": "Dover Mall, LLC v. Sam Tang",
+  "court": "Delaware Superior Court (Kent County), Resident Judge Jeffrey J Clark",
+  "docket": "C.A. No. K22C-07-013 JJC",
+  "decided": "2023-10-05",
+  "url": "http://courts.delaware.gov/Opinions/Download.aspx?id=353820",
+  "excerptNote": "Verbatim from the letter opinion's introduction (parties' positions), 'The Record and Procedural Background' section (including footnotes 16 and 17), and the fact-recitation portions of the Discussion (Tang's two affirmative defenses; his concession on the damages schedule). Removed: every sentence stating the court's rulings on liability, force majeure, mitigation, and the summary-judgment result; the long quoted remedy/reletting lease clauses; the case-law discussion; the Conclusion. The $276,089.72 figure that remains is Dover Mall's stated demand, not the result."
+ }
+}

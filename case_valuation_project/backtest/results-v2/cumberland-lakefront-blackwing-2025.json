@@ -1,0 +1,28 @@
+{
+ "id": "cumberland-lakefront-blackwing-2025",
+ "ranAt": "2026-09-24T02:06:38+00:00",
+ "status": 502,
+ "prediction": null,
+ "error": {
+  "error": "Analysis failed \u2014 try again.",
+  "code": "upstream_error"
+ },
+ "outcome": {
+  "amount": 444055.13,
+  "amountIsTheRequestedAmount": false,
+  "date": "2025-04-10",
+  "description": "The trial court granted the landlord summary judgment on its eviction and breach-of-contract claims, restored it to possession by writ (tenant evicted April 6, 2023), and after a damages hearing awarded Cumberland $444,055.13; it later granted summary judgment against all of Blackwing's counterclaims, including the $167,050 tenant-improvement claim. No attorneys' fee award is mentioned. The Eighth District affirmed.",
+  "attorneysFeesAtTrial": null,
+  "appellateChange": "affirmed",
+  "finalAmount": 444055.13,
+  "finalNote": "Affirmed."
+ },
+ "source": {
+  "caseName": "Cumberland Lakefront B, LLC v. Blackwing, LLC, et al.",
+  "court": "Court of Appeals of Ohio, Eighth Appellate District, Cuyahoga County (appeal from Cuyahoga County Court of Common Pleas Nos. CV-21-953921 and CV-21-953922)",
+  "docket": "No. 114311; 2025-Ohio-1263",
+  "decided": "2025-04-10",
+  "url": "https://www.supremecourt.ohio.gov/rod/docs/pdf/8/2025/2025-Ohio-1263.pdf",
+  "excerptNote": "Verbatim from the opinion's opening factual/procedural recitation and from its discussion of the tenant's counterclaims (which is where the opinion sets out both sides' contentions and the Pace affidavit). Removed: every sentence stating that the trial court granted summary judgment, granted possession, issued the writ, found liability, held a damages hearing and the amount awarded, deemed property abandoned, or granted summary judgment on the counterclaims; the prior-appeal dismissal history; the appellate court's analysis and conclusions. Two retained sentences refer to Blackwing's position 'on appeal' but state only its contention and demand, not any result. The opinion contains no rent figures."
+ }
+}

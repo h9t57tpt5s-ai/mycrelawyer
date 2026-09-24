@@ -1,0 +1,28 @@
+{
+ "id": "lagoon-partners-landmark-2023",
+ "ranAt": "2026-09-24T02:06:56+00:00",
+ "status": 502,
+ "prediction": null,
+ "error": {
+  "error": "Analysis failed \u2014 try again.",
+  "code": "upstream_error"
+ },
+ "outcome": {
+  "amount": 1808470,
+  "amountIsTheRequestedAmount": true,
+  "date": "2023-12-11",
+  "description": "The district court granted Lagoon summary judgment in June 2022, held the liquidated-damages clause enforceable so that no mitigation was required, and (after Lagoon waived attorney fees) entered judgment for $1,808,470 plus costs. The Minnesota Court of Appeals reversed on December 11, 2023, holding the liquidated-damages clause unenforceable because actual damages were capable of estimation and the clause ignored the duty to mitigate, and remanded for further proceedings on actual damages and mitigation.",
+  "attorneysFeesAtTrial": null,
+  "appellateChange": "reversed",
+  "finalAmount": null,
+  "finalNote": "Reversed (liquidated-damages clause unenforceable) and remanded; no final figure yet."
+ },
+ "source": {
+  "caseName": "Lagoon Partners, LLC v. Silver Cinemas Acquisition Co., d/b/a Landmark Theatres",
+  "court": "Minnesota Court of Appeals",
+  "docket": "A23-0194 (Hennepin County District Court File No. 27-CV-21-11262)",
+  "decided": "2023-12-11",
+  "url": "http://mn.gov/law-library-stat/archive/ctappub/2023/OPa230194-121123.pdf",
+  "excerptNote": "Verbatim sentences from the FACTS section (Lease Agreement, Default, Litigation) through the parties' summary-judgment briefing; the opening description of the theater, the block-quoted termination clause, the scheduling-order sentences, and some executive-order detail were omitted for length. Removed: the syllabus and opening paragraph stating the court's conclusion, the block quote of the statutory-limit liquidated-damages language, the executive-order citations, footnotes, the paragraph describing the district court's summary-judgment order and judgment amount, and all analysis. Lagoon's $1,808,470 demand is retained as a pre-outcome fact."
+ }
+}

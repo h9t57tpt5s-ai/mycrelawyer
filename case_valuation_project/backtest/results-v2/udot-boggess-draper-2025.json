@@ -1,0 +1,95 @@
+{
+ "id": "udot-boggess-draper-2025",
+ "ranAt": "2026-09-24T02:03:23+00:00",
+ "status": 200,
+ "prediction": {
+  "model": "claude-sonnet-5",
+  "analysisVersion": "v2",
+  "category": "eminent-domain",
+  "roleLabel": "Property Owner",
+  "damagesRange": null,
+  "bestGuessValue": null,
+  "whatIsNeededForEstimate": "To generate a real dollar range for this case, I need: (1) the square footage or acreage of the strip of the Property actually taken by UDOT; (2) the square footage of the remainder parcel; (3) Boggess's own expert's before/after per-square-foot or lump-sum valuation of the land taken and the corresponding severance damages figure (the record only gives UDOT's expert's $8.75/$12.50 per-square-foot figures and $2.2 million special-benefit conclusion, which is an offset theory, not Boggess's claim); (4) any total compensation amount Boggess has pled or disclosed in expert reports/pretrial filings; and (5) ideally the excluded 2016 sale price, which -- even though inadmissible before the jury -- would help gauge realistic settlement value.",
+  "likelyOutcome": "Boggess will recover just compensation for the parcel taken (not seriously disputed) plus some measure of severance damages, but the amount is now a genuine jury question skewed somewhat toward UDOT relative to the first trial: the court's pretrial rulings (special benefits doctrine resolved against Boggess, post-valuation sale/development evidence now partially admissible) both cut against the size of any severance award, even though Boggess retains real arguments on causation and on the limits of what the admitted evidence actually proves. Without the underlying acreage and appraisal figures, no responsible dollar estimate can be given for the net award.",
+  "issues": [
+   {
+    "label": "Right to Just Compensation for the Land Taken",
+    "probabilityRange": [
+     0.96,
+     0.99
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "conceded",
+    "supportedCeiling": null
+   },
+   {
+    "label": "Severance Damages -- Diminished Access/Increased Traffic Theory",
+    "probabilityRange": [
+     0.45,
+     0.68
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null
+   },
+   {
+    "label": "Special Benefits Offset (UDOT's $2.2M Theory)",
+    "probabilityRange": [
+     0.55,
+     0.75
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null
+   },
+   {
+    "label": "Admissibility of Post-Valuation Sale/Development Evidence",
+    "probabilityRange": [
+     0.4,
+     0.6
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null
+   },
+   {
+    "label": "Risk of a Second Reversible Error on Retrial",
+    "probabilityRange": [
+     0.7,
+     0.85
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "unknown",
+    "supportedCeiling": null
+   }
+  ],
+  "citationCoverage": {
+   "count": 22,
+   "tier": "strong"
+  }
+ },
+ "error": null,
+ "outcome": {
+  "amount": 330000,
+  "amountIsTheRequestedAmount": false,
+  "date": "2025-05-01",
+  "description": "On retrial the jury awarded Boggess approximately $330,000 (the opinion gives only this rounded figure) for the value of the condemned property and found no severance damages, after UDOT's expert was allowed to testify to a $2.2 million project-benefit offset. The Court of Appeals held that interstate access and added travel lanes are general benefits that cannot offset severance damages, found the error harmful, reversed the verdict and remanded for a new trial; no fees are discussed.",
+  "attorneysFeesAtTrial": null,
+  "appellateChange": "reversed",
+  "finalAmount": null,
+  "finalNote": "Reversed for a new trial; no final figure yet."
+ },
+ "source": {
+  "caseName": "Utah Department of Transportation v. Boggess-Draper Company, LLC",
+  "court": "Utah Court of Appeals",
+  "docket": "2025 UT App 58, No. 20220875-CA (appeal from Third District Court, Salt Lake Department, No. 090921179)",
+  "decided": "2025-05-01",
+  "url": "https://legacy.utcourts.gov/opinions/appopin/UDOT%20v.%20Boggess-Draper%20Company20250501_20220875_58.pdf",
+  "excerptNote": "Excerpts from Background \u00b6\u00b63-7 and \u00b6\u00b69-10 (pre-trial evidentiary motions and rulings on remand), Boggess's severance theory as described at \u00b621, and UDOT's expert's benefit testimony quoted at \u00b641. Removed: \u00b6\u00b61-2 and \u00b68 (both jury verdict amounts and the '$1.4 million reduction' comparison), the sentence in \u00b65 giving the first verdict amount, \u00b611 and \u00b628 (the excluded 2008-offer testimony), the description of the retrial verdict, and all appellate holdings. Note: the opinion states the retrial award only as 'approximately $330,000'. PDF running headers and spacing artifacts removed; whitespace normalized."
+ }
+}

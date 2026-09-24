@@ -1,11 +1,11 @@
 {
  "id": "lbj-venture-v-kolaj-2025",
- "ranAt": "2026-09-24T01:16:53+00:00",
- "status": 546,
+ "ranAt": "2026-09-24T01:59:08+00:00",
+ "status": 504,
  "prediction": null,
  "error": {
-  "code": "WORKER_RESOURCE_LIMIT",
-  "message": "Function failed due to not having enough compute resources (please check logs)"
+  "code": "IDLE_TIMEOUT",
+  "message": "Request idle timeout limit (150s) reached"
  },
  "outcome": {
   "amount": 96072.49,

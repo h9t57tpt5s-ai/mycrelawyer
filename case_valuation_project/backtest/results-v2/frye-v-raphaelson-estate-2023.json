@@ -1,0 +1,28 @@
+{
+ "id": "frye-v-raphaelson-estate-2023",
+ "ranAt": "2026-09-24T02:06:49+00:00",
+ "status": 502,
+ "prediction": null,
+ "error": {
+  "error": "Analysis failed \u2014 try again.",
+  "code": "upstream_error"
+ },
+ "outcome": {
+  "amount": 44000,
+  "amountIsTheRequestedAmount": false,
+  "date": "2023-08-31",
+  "description": "The Magistrate's final post-trial report recommended judgment for the estate and against the occupant for $44,000.00 on the estate's unjust-enrichment counterclaim ($1,000 per month for the Dock Street Properties from May 2020 through August 2022, plus $1,000 per month agreed rent for the Commerce Property from April 2021 through August 2022), rejecting the $5,000-per-month / $160,000 demand, denying the occupant's own $70,000 unjust-enrichment claim, and denying the estate's trespass counterclaim; costs to the estate as prevailing party, no attorney's fees.",
+  "attorneysFeesAtTrial": null,
+  "appellateChange": "none - trial-level magistrate's final report (exceptions available under Court of Chancery Rule 144); no appellate ruling in this document",
+  "finalAmount": 44000,
+  "finalNote": "Trial-level report; no appeal reflected."
+ },
+ "source": {
+  "caseName": "Frye v. Estate of Raphaelson",
+  "court": "Delaware Court of Chancery (Magistrate in Chancery, final post-trial report)",
+  "docket": "C.A. No. 2020-0325-SEM",
+  "decided": "2023-08-31",
+  "url": "http://courts.delaware.gov/Opinions/Download.aspx?id=352620",
+  "excerptNote": "Verbatim sentences from Part I (Background, subsections A-F: early years, use and occupancy, attempted purchase, Commerce Property, falling out, procedural history) plus the paragraph of Part II.A that lays out each side's unjust-enrichment demand and the occupant's two responsive arguments. Removed: the introduction and conclusion stating the recommended judgment; every 'I find' / 'I recommend' sentence; the magistrate's rental-value estimate and month-by-month computation; the trespass ruling; footnote citations and record cites. PDF line-break and word-split artifacts were normalized; no wording changed."
+ }
+}
