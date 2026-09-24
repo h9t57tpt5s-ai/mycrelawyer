@@ -1,0 +1,110 @@
+{
+ "id": "universal-shopping-plaza-v-hong-2026",
+ "ranAt": "2026-09-24T01:09:53+00:00",
+ "status": 200,
+ "prediction": {
+  "model": "claude-sonnet-5",
+  "analysisVersion": "v2",
+  "category": "lease-disputes",
+  "roleLabel": "Landlord",
+  "damagesRange": [
+   0,
+   184232
+  ],
+  "bestGuessValue": 33890.325,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": "Hong is more likely than not to succeed in showing the three-day notice violated CCP \u00a7 1161(2)'s one-year limitation, since the underlying debt indisputably arose in January-February 2023 and Universal's application-of-payments theory is a legally aggressive attempt to bootstrap stale debt into a current forfeiture ground that courts are likely to reject given the anti-forfeiture policy behind UD notice requirements and Universal's own 23-month acceptance of full rent without objection. Universal likely loses possession, holdover damages, and fees in this action, though it retains a good chance of recovering the underlying $65,989 rent debt in a separate, non-UD proceeding.",
+  "issues": [
+   {
+    "label": "Three-Day Notice Validity / Possession Under CCP \u00a7 1161(2)",
+    "probabilityRange": [
+     0.25,
+     0.4
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null
+   },
+   {
+    "label": "Unpaid Rent Recovery ($65,989)",
+    "probabilityRange": [
+     0.25,
+     0.4
+    ],
+    "damagesRange": [
+     0,
+     65989
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": 65989
+   },
+   {
+    "label": "Holdover Damages ($1,219/day from March 1, 2025)",
+    "probabilityRange": [
+     0.2,
+     0.35
+    ],
+    "damagesRange": [
+     0,
+     118243
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": 118243
+   },
+   {
+    "label": "Attorney's Fees",
+    "probabilityRange": [
+     0.2,
+     0.35
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null
+   },
+   {
+    "label": "Waiver/Estoppel by Continued Acceptance of Rent",
+    "probabilityRange": [
+     0.4,
+     0.55
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null
+   },
+   {
+    "label": "Demurrer Denial / Procedural Posture",
+    "probabilityRange": null,
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "unknown",
+    "supportedCeiling": null
+   }
+  ],
+  "citationCoverage": {
+   "count": 39,
+   "tier": "strong"
+  }
+ },
+ "error": null,
+ "outcome": {
+  "amount": 189100,
+  "amountIsTheRequestedAmount": false,
+  "date": "2026-09-09",
+  "description": "After a three-day court trial the trial court entered judgment for the landlord on July 3, 2025 awarding possession, $65,989 in past-due rent (the amount demanded in the notice) and $123,111 in holdover damages, $189,100 in total; no fee award is stated in the opinion. The Court of Appeal reversed, holding the three-day notice void because the unpaid rent fell due more than one year before service, and remanded for entry of judgment in favor of the tenant.",
+  "attorneysFeesAtTrial": null,
+  "appellateChange": "reversed"
+ },
+ "source": {
+  "caseName": "Universal Shopping Plaza v. Piong Bin Hong",
+  "court": "California Court of Appeal, Second District, Division Seven, on appeal from Los Angeles County Superior Court",
+  "docket": "B348490 (Super. Ct. No. 25NNCV01228)",
+  "decided": "2026-09-09",
+  "url": "https://www.courts.ca.gov/opinions/documents/B348490.PDF",
+  "excerptNote": "Verbatim from the landlord's contention in the introduction and from Factual and Procedural Background parts A, B and C through the trial testimony. Removed: the sentences stating the trial court's rulings (demurrer, findings, July 3, 2025 judgment), the closing arguments, the introduction's reference to the holdover award, lease paragraph 27.1, footnotes, and all appellate analysis/holdings. One sentence is stitched across a footnote break in the PDF."
+ }
+}

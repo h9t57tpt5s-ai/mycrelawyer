@@ -1,0 +1,144 @@
+{
+ "id": "gsl-investments-v-bella-nails-2026",
+ "ranAt": "2026-09-24T01:05:07+00:00",
+ "status": 200,
+ "prediction": {
+  "model": "claude-sonnet-5",
+  "analysisVersion": "v2",
+  "category": "lease-disputes",
+  "roleLabel": "Landlord",
+  "damagesRange": [
+   74665,
+   132139.24
+  ],
+  "bestGuessValue": 96764.6128,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": "GSL's summary judgment motion is very likely to be granted in whole or substantial part given the unopposed record, the specific affidavit itemization, and the weak, unpled procedural posture of Nguyen's lockout/conversion concerns; the principal risk is a partial fee or interest trim by the court rather than any real threat to the underlying breach/guaranty liability. The wrongful-lockout/conversion issue is a real but currently unquantified and unlikely-to-succeed offset given its procedural posture.",
+  "issues": [
+   {
+    "label": "Unpaid Rent and Operating Expenses Through Termination",
+    "probabilityRange": [
+     0.75,
+     0.9
+    ],
+    "damagesRange": [
+     80000,
+     104295.8
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": 104295.8
+   },
+   {
+    "label": "Guaranty Enforceability Against Nguyen",
+    "probabilityRange": [
+     0.8,
+     0.93
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null
+   },
+   {
+    "label": "Clean-Out / Removal Costs",
+    "probabilityRange": [
+     0.8,
+     0.95
+    ],
+    "damagesRange": [
+     2500,
+     3000
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": 3000
+   },
+   {
+    "label": "Prejudgment and Postjudgment Interest",
+    "probabilityRange": [
+     0.75,
+     0.9
+    ],
+    "damagesRange": [
+     9000,
+     12416.92
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": 12416.92
+   },
+   {
+    "label": "Contractual Attorneys' Fees",
+    "probabilityRange": [
+     0.7,
+     0.88
+    ],
+    "damagesRange": [
+     8000,
+     12010.52
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": 12010.52
+   },
+   {
+    "label": "Court Costs",
+    "probabilityRange": [
+     0.9,
+     0.97
+    ],
+    "damagesRange": [
+     350,
+     416
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": 416
+   },
+   {
+    "label": "Phantom-LLC / Improper Defendant Argument",
+    "probabilityRange": [
+     0.75,
+     0.9
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null
+   },
+   {
+    "label": "Wrongful Lockout / Conversion Counterclaim",
+    "probabilityRange": [
+     0.6,
+     0.8
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null
+   }
+  ],
+  "citationCoverage": {
+   "count": 39,
+   "tier": "strong"
+  }
+ },
+ "error": null,
+ "outcome": {
+  "amount": 120128.72,
+  "amountIsTheRequestedAmount": true,
+  "date": "2026-07-27",
+  "description": "On September 4, 2025 the trial court granted the landlord summary judgment for $132,139.24, exactly the sum itemized in the landlord's affidavit ($104,295.80 overdue rent and fees, $3,000 clean-out costs, $12,416.92 prejudgment interest, $12,010.52 attorneys' fees and $416 court costs), plus 8 percent post-judgment interest and collection fees; the amount recorded here is the judgment less the $12,010.52 in attorneys' fees. The Twelfth District affirmed on July 27, 2026, holding the guarantor forfeited his lockout, notarization and phantom-LLC arguments by not opposing the motion.",
+  "attorneysFeesAtTrial": 12010.52,
+  "appellateChange": "affirmed"
+ },
+ "source": {
+  "caseName": "GSL Investments I, LLC v. Bella Nails & Spa, LLC, et al.",
+  "court": "Ohio Court of Appeals, Twelfth District, Butler County (appeal from Butler County Court of Common Pleas, Case No. CV 2024 02 0451)",
+  "docket": "CA2025-09-108; 2026-Ohio-2858",
+  "decided": "2026-07-27",
+  "url": "https://www.supremecourt.ohio.gov/rod/docs/pdf/12/2026/2026-Ohio-2858.pdf",
+  "excerptNote": "Verbatim from Part I (Facts & Procedural History, paragraphs 2-3, 7-9, 12-14, first sentence of 15) plus the tenant's contentions from paragraphs 21 and 27. Removed: the sentence stating the trial court's summary-judgment amount and post-judgment terms (rest of paragraph 15), the trial court's orders striking filings, the Section 21.2 default definition and Section 22 remedies clause, the First Amendment rent table, the base-rent table, and all appellate analysis. Lease-table rows are joined on one line."
+ }
+}

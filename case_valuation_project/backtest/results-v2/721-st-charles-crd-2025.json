@@ -1,0 +1,110 @@
+{
+ "id": "721-st-charles-crd-2025",
+ "ranAt": "2026-09-24T01:25:37+00:00",
+ "status": 200,
+ "prediction": {
+  "model": "claude-sonnet-5",
+  "analysisVersion": "v2",
+  "category": "lease-disputes",
+  "roleLabel": "Landlord",
+  "damagesRange": [
+   31900.000000000004,
+   106078
+  ],
+  "bestGuessValue": 47825,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": "721 should prevail on liability -- CRD's handwritten assumption of Gibbs-period repair responsibility, corroborated by its own principal's trial testimony, is difficult for CRD to escape. The dollar outcome turns on whether the court treats the $106,077.89 full resurfacing as the reasonable cost of curing CRD's inadequate patch work or as a capital improvement beyond CRD's repair obligation; a partial recovery in the high-$50,000s to mid-$80,000s is the most likely result, with lost profits, fees, and interest as additional but currently unquantifiable upside.",
+  "issues": [
+   {
+    "label": "CRD's Contractual Assumption of Gibbs-Period Damage (Core Liability)",
+    "probabilityRange": [
+     0.85,
+     0.95
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null
+   },
+   {
+    "label": "Repair/Resurfacing Cost Damages ($106,077.89 invoice)",
+    "probabilityRange": [
+     0.55,
+     0.75
+    ],
+    "damagesRange": [
+     58000,
+     85000
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": 106078
+   },
+   {
+    "label": "Lost Profits Under the S&P Parking Lease",
+    "probabilityRange": [
+     0.2,
+     0.45
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null
+   },
+   {
+    "label": "Attorney's Fees",
+    "probabilityRange": [
+     0.25,
+     0.55
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "unknown",
+    "supportedCeiling": null
+   },
+   {
+    "label": "Post-Judgment Interest",
+    "probabilityRange": [
+     0.8,
+     0.95
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "unknown",
+    "supportedCeiling": null
+   },
+   {
+    "label": "Gibbs Settlement Credit / Offset",
+    "probabilityRange": [
+     0.3,
+     0.6
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "unknown",
+    "supportedCeiling": null
+   }
+  ],
+  "citationCoverage": {
+   "count": 39,
+   "tier": "strong"
+  }
+ },
+ "error": null,
+ "outcome": {
+  "amount": 106077.87,
+  "amountIsTheRequestedAmount": true,
+  "date": "2025-05-08",
+  "description": "After a one-day bench trial the court found CRD liable for damage during both leases and awarded 721 all of its claimed repair costs, $106,077.87 (no lost-profit award is described), then awarded $51,770.71 in attorney's fees and judicial interest. The Fourth Circuit affirmed liability but held Gibbs and CRD solidarily liable for the Gibbs-period damage, amended the judgment to reduce the damages by 50% for the settled co-obligor's virile share, and reversed the attorney's fee award because the lease did not provide fees for a Clause 13 breach.",
+  "attorneysFeesAtTrial": 51770.71,
+  "appellateChange": "modified to $53,038.94"
+ },
+ "source": {
+  "caseName": "721 St. Charles, LLC v. Gibbs Residential, LLC and Commercial Realty Developers, LLC",
+  "court": "Louisiana Court of Appeal, Fourth Circuit",
+  "docket": "No. 2024-CA-0603 (appeal from Civil District Court, Orleans Parish, No. 2020-08628, Div. F-14)",
+  "decided": "2025-05-08",
+  "url": "https://www.la4th.org/opinion/2024/4940183.pdf",
+  "excerptNote": "Excerpts from 'Factual Summary and Procedural History' (through the pre-trial settlement with Gibbs), the trial testimony of Boes and Montagnet summarized under 'Breach of Clause 13', and the lease's Clause 13. Removed: footnote 3 (the S and P Parking lease), the Lauren Gibbs deposition excerpt, Clauses 18-19, the trial court's liability finding and damages/fee awards, the appellate court's findings on manifest error, solidarity, virile share and attorney's fees, and the disposition. Footnote markers and page artifacts stripped; whitespace normalized."
+ }
+}

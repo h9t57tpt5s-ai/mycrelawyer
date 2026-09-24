@@ -1,0 +1,104 @@
+{
+ "id": "edgemere-lawal-2025",
+ "ranAt": "2026-09-24T01:20:58+00:00",
+ "status": 200,
+ "prediction": {
+  "model": "claude-sonnet-5",
+  "analysisVersion": "v2",
+  "category": "lease-disputes",
+  "roleLabel": "Tenant",
+  "damagesRange": null,
+  "bestGuessValue": null,
+  "whatIsNeededForEstimate": "To compute an actual damages range we would need: (1) the monthly rent amount under the renewed 2018 lease (to calculate both Edgemere's claimed nine months of post-vacate rent and its 10%/month-plus-$50/day late fees); (2) the dollar amount of the security deposit; (3) evidence quantifying Lawal's claimed lost profits (e.g., lost patient revenue during the disruption period) and the actual cost of setting up his new office; and (4) the attorney's fees actually billed or claimed by either side under the lease's fee-shifting provision or Chapter 38 of the Texas Civil Practice & Remedies Code.",
+  "likelyOutcome": "A jury is likely to reject the constructive-eviction and quiet-enjoyment counterclaims given the tenant's year-long continued occupancy and his own admission that there was no lockout, blocked access, or utility shutoff \u2014 those claims are weak as framed. The core breach-of-contract fight is genuinely contested and turns on whether Edgemere's unretracted January 2019 notice to vacate excuses Lawal's eventual departure; if the jury credits that theory, Lawal defeats most of the rent/late-fee claim and recovers his deposit, and if not, Edgemere's claim (and its right to keep the deposit against rent owed) largely survives. No reliable dollar estimate can be given because the record never states the monthly rent, the deposit amount, or any proven damages figure on either side.",
+  "issues": [
+   {
+    "label": "Edgemere's Breach of Contract Claim (Post-Vacate Rent & Late Fees)",
+    "probabilityRange": [
+     0.35,
+     0.6
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null
+   },
+   {
+    "label": "Repudiation / Waiver / Estoppel Defense (Unretracted Notice to Vacate)",
+    "probabilityRange": [
+     0.35,
+     0.6
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null
+   },
+   {
+    "label": "Constructive Eviction Counterclaim",
+    "probabilityRange": [
+     0.1,
+     0.25
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null
+   },
+   {
+    "label": "Breach of Implied Warranty of Quiet Enjoyment",
+    "probabilityRange": [
+     0.1,
+     0.25
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null
+   },
+   {
+    "label": "Security Deposit Return",
+    "probabilityRange": [
+     0.35,
+     0.6
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null
+   },
+   {
+    "label": "Attorney's Fees Exposure",
+    "probabilityRange": [
+     0.35,
+     0.6
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null
+   }
+  ],
+  "citationCoverage": {
+   "count": 39,
+   "tier": "strong"
+  }
+ },
+ "error": null,
+ "outcome": {
+  "amount": 83791.8,
+  "amountIsTheRequestedAmount": false,
+  "date": "2025-05-27",
+  "description": "The jury found for the tenant on all claims and the trial court entered judgment for $36,791.80 moving expenses, $42,000 lost profits and $5,000 for the retained security deposit (total $83,791.80), plus $67,000 attorney's fees, interest and costs, and took-nothing on the landlord's rent claim. The court of appeals reversed the constructive-eviction/implied-warranty recovery (no evidence of substantial interference) and rendered judgment that the tenant take nothing on those claims, affirmed the judgment against the landlord on its breach claim and for the tenant on the $5,000 security-deposit claim, and remanded attorney's fees for a new trial.",
+  "attorneysFeesAtTrial": 67000,
+  "appellateChange": "modified to $5,000"
+ },
+ "source": {
+  "caseName": "Edgemere Loop 375, LLC v. Lookman Lawal, M.D., and Southwestern Cardiac Arrhythmia Institute, P.A.",
+  "court": "Court of Appeals of Texas, Eighth District (El Paso)",
+  "docket": "No. 08-24-00092-CV (appeal from 205th District Court, El Paso County, TC# 2020DCV2771)",
+  "decided": "2025-05-27",
+  "url": "https://search.txcourts.gov/SearchMedia.aspx?MediaID=1da0b877-43f9-4d95-99b6-7609f934dace",
+  "excerptNote": "Excerpts from Part I (Factual Background; the 'To summarize' paragraph, the title-company/attorney-retention paragraph and the May 29 letter quotation omitted for length), Part II (Procedural Background) and the parties' contentions quoted in Part IV (Analysis, incl. footnote 5). Removed: the jury's findings and the trial court's final judgment (all award figures), the appellate holdings, the attorney's-fee testimony figure, and the disposition. Whitespace normalized only."
+ }
+}

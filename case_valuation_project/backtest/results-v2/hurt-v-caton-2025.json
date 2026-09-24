@@ -1,0 +1,96 @@
+{
+ "id": "hurt-v-caton-2025",
+ "ranAt": "2026-09-24T01:18:59+00:00",
+ "status": 200,
+ "prediction": {
+  "model": "claude-sonnet-5",
+  "analysisVersion": "v2",
+  "category": "lease-disputes",
+  "roleLabel": "Landlord",
+  "damagesRange": [
+   140000,
+   442885.5
+  ],
+  "bestGuessValue": 207493.5125,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": "Caton has a plausible but genuinely contested claim; the amendment recitals materially strengthen his reading of Section 9(a), but the Trust's condition-precedent argument is a real risk that could defeat the claim outright, and the undocumented expense proof will likely cause even a favorable verdict to trim the out-of-pocket component. Net expected value favors Caton but well below his full $442,885.50 demand, with meaningful odds of an unfavorable summary judgment ruling or trial loss on the liability gate.",
+  "issues": [
+   {
+    "label": "Section 9(a) Liquidated Damages Trigger (Core Liability)",
+    "probabilityRange": [
+     0.45,
+     0.65
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null
+   },
+   {
+    "label": "Option Consideration Refund ($314,000)",
+    "probabilityRange": [
+     0.45,
+     0.65
+    ],
+    "damagesRange": [
+     280000,
+     314000
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": 314000
+   },
+   {
+    "label": "Out-of-Pocket Diligence Expenses ($128,885.50)",
+    "probabilityRange": [
+     0.35,
+     0.55
+    ],
+    "damagesRange": [
+     40000,
+     128885.5
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": 128885.5
+   },
+   {
+    "label": "Trust's Condition-Precedent Defense",
+    "probabilityRange": null,
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null
+   },
+   {
+    "label": "Factual Dispute Over Status of Adverse Possession Litigation at Termination",
+    "probabilityRange": null,
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null
+   }
+  ],
+  "citationCoverage": {
+   "count": 39,
+   "tier": "strong"
+  }
+ },
+ "error": null,
+ "outcome": {
+  "amount": 442885.5,
+  "amountIsTheRequestedAmount": true,
+  "date": "2025-03-04",
+  "description": "The circuit court granted Caton summary judgment on a futility theory and awarded him $442,885.50 in damages (the full amount of his demand) plus $96,329.00 in attorneys' fees. The Court of Appeals of Virginia affirmed that the agreement required Caton to exercise the option, but reversed the summary judgment award of damages and fees because futility was not established as a matter of law, and remanded for further proceedings.",
+  "attorneysFeesAtTrial": 96329.0,
+  "appellateChange": "reversed"
+ },
+ "source": {
+  "caseName": "Charles W. Hurt and Shirley L. Fisher, as Trustees of the South Pantops II Land Trust v. Douglas E. Caton",
+  "court": "Court of Appeals of Virginia (published), on appeal from the Circuit Court of Albemarle County",
+  "docket": "Record No. 1198-23-2",
+  "decided": "2025-03-04",
+  "url": "https://www.vacourts.gov/opinions/opncavwp/1198232.pdf",
+  "excerptNote": "Verbatim from the opinion's introduction (dispute summary and the parties' cross-motion positions), the BACKGROUND section (Agreement terms, development plans and adverse-possession suit, fifth amendment, termination and demand letters, the suit and cross-motions), footnotes 2-3, and the first paragraph of the Analysis summarizing each side's contention. Removed: every sentence describing the circuit court's ruling, its damages and fee award, and the appellate holdings, including the standard-of-review section."
+ }
+}
