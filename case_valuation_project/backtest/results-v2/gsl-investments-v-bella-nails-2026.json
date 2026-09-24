@@ -131,7 +131,9 @@
   "date": "2026-07-27",
   "description": "On September 4, 2025 the trial court granted the landlord summary judgment for $132,139.24, exactly the sum itemized in the landlord's affidavit ($104,295.80 overdue rent and fees, $3,000 clean-out costs, $12,416.92 prejudgment interest, $12,010.52 attorneys' fees and $416 court costs), plus 8 percent post-judgment interest and collection fees; the amount recorded here is the judgment less the $12,010.52 in attorneys' fees. The Twelfth District affirmed on July 27, 2026, holding the guarantor forfeited his lockout, notarization and phantom-LLC arguments by not opposing the motion.",
   "attorneysFeesAtTrial": 12010.52,
-  "appellateChange": "affirmed"
+  "appellateChange": "affirmed",
+  "finalAmount": 120128.72,
+  "finalNote": "Affirmed."
  },
  "source": {
   "caseName": "GSL Investments I, LLC v. Bella Nails & Spa, LLC, et al.",

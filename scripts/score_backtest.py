@@ -19,6 +19,10 @@ FEE_LABEL = re.compile(r"attorney|counsel|legal fees", re.I)
 
 
 def ex_fee_range(issues):
+    """Per-issue range excluding counsel-fee issues, mirroring the live
+    function: v1 issues (no claimant field) sum probability x damages; v2
+    issues run from the weighted low to the supported ceiling, with
+    opposing issues carried as negative exposure and netted."""
     lo = hi = 0.0
     used = 0
     for i in issues:
@@ -27,9 +31,16 @@ def ex_fee_range(issues):
         p, d = i.get("probabilityRange"), i.get("damagesRange")
         if not p or not d:
             continue
-        lo += p[0] * d[0]
-        hi += p[1] * d[1]
         used += 1
+        if i.get("claimant") == "opposing":
+            lo += p[1] * d[0]
+            hi += p[0] * d[1]
+        elif i.get("claimant") == "represented":
+            lo += p[0] * d[0]
+            hi += i["supportedCeiling"] if isinstance(i.get("supportedCeiling"), (int, float)) else d[1]
+        else:
+            lo += p[0] * d[0]
+            hi += p[1] * d[1]
     return ([round(lo), round(hi)] if used else None), used
 
 

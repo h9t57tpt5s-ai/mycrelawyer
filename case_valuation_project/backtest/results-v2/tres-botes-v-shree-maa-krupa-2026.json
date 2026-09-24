@@ -89,7 +89,9 @@
   "date": "2026-09-17",
   "description": "Trial court (judgment signed September 22, 2025) granted summary judgment awarding SMK $79,096.44 against Tres Botes (18 months plus one prorated month at $4,300 until the property was sold) and SDP $108,000 against Dos Botes (12 months at $9,000 until relet), $187,096.44 total; no attorney's fees mentioned. On appeal the $79,096.44 award to SMK was affirmed; the $108,000 award to SDP was reversed and remanded because SDP did not conclusively prove the lease was renewed.",
   "attorneysFeesAtTrial": null,
-  "appellateChange": "modified to $79,096.44"
+  "appellateChange": "modified to $79,096.44",
+  "finalAmount": 79096.44,
+  "finalNote": "$79,096.44 affirmed; the $108,000 Dos Botes award reversed and remanded, so the final total could rise."
  },
  "source": {
   "caseName": "Tres Botes, LLC & Dos Botes Entertainment, Inc. v. Shree Maa Krupa Properties, Ltd. & SDP Hotel, LLC",

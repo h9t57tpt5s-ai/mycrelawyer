@@ -97,7 +97,9 @@
   "date": "2025-05-08",
   "description": "After a one-day bench trial the court found CRD liable for damage during both leases and awarded 721 all of its claimed repair costs, $106,077.87 (no lost-profit award is described), then awarded $51,770.71 in attorney's fees and judicial interest. The Fourth Circuit affirmed liability but held Gibbs and CRD solidarily liable for the Gibbs-period damage, amended the judgment to reduce the damages by 50% for the settled co-obligor's virile share, and reversed the attorney's fee award because the lease did not provide fees for a Clause 13 breach.",
   "attorneysFeesAtTrial": 51770.71,
-  "appellateChange": "modified to $53,038.94"
+  "appellateChange": "modified to $53,038.94",
+  "finalAmount": 53038.94,
+  "finalNote": "Reduced on appeal to a 50 percent share."
  },
  "source": {
   "caseName": "721 St. Charles, LLC v. Gibbs Residential, LLC and Commercial Realty Developers, LLC",

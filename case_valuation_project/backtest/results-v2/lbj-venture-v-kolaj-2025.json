@@ -13,7 +13,9 @@
   "date": "2025-03-06",
   "description": "After the bench trial the trial court rendered judgment for the landlord of $96,072.49 (unpaid rent through trial net of replacement-tenant rent, late fees, and prejudgment interest) \u2014 the figure the tenant advocated, roughly one-tenth of the more than $900,000 the landlord sought \u2014 plus 18% post-judgment interest, and awarded $0 in attorneys' fees. The court of appeals affirmed the damages award and reversed only the denial of attorneys' fees, remanding for a determination of a reasonable fee under the lease.",
   "attorneysFeesAtTrial": 0,
-  "appellateChange": "affirmed"
+  "appellateChange": "affirmed",
+  "finalAmount": 96072.49,
+  "finalNote": "Damages affirmed; fee denial reversed and remanded."
  },
  "source": {
   "caseName": "202 N LBJ Venture Group, LP v. Paul Kolaj and Modesta Kolaj",

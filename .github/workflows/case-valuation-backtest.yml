@@ -34,6 +34,11 @@ jobs:
     timeout-minutes: 60
     steps:
       - uses: actions/checkout@v4
+      - name: Pull results committed by earlier runs
+        # A queued run is pinned to the commit it was created at, so without
+        # this a second queued run re-runs cases the first one just finished
+        # and its results push then fails.
+        run: git pull --rebase origin main
       - name: Run cases through the calculator
         env:
           AUTOMATION_SECRET: ${{ secrets.AUTOMATION_SECRET }}

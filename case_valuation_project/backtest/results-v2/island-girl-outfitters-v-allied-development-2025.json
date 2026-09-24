@@ -86,7 +86,9 @@
   "date": "2025-03-21",
   "description": "After a damages hearing, the Baldwin Circuit Court rendered judgment for the landlord in the amount of $94,350 plus costs of court against the tenant and guarantor (the landlord had claimed $89,010 in its summary-judgment motion and later $146,910; the tenant argued for no more than $18,900). Attorney's fees were not separately stated. The Supreme Court of Alabama affirmed both the liability determination and the damages judgment.",
   "attorneysFeesAtTrial": null,
-  "appellateChange": "affirmed"
+  "appellateChange": "affirmed",
+  "finalAmount": 94350,
+  "finalNote": "Affirmed."
  },
  "source": {
   "caseName": "Island Girl Outfitters, LLC, and Anthony S. Carver v. Allied Development of Alabama, LLC",

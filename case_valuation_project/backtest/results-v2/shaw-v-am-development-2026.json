@@ -80,7 +80,9 @@
   "date": "2026-08-19",
   "description": "After a bench trial the district court awarded the tenant $257,216 in damages plus post-judgment interest, using the tenant's damages methodology (unrealized appreciation, rent-versus-mortgage differential, lost principal) but valuing the unit at the $166.73 per square foot the third-party buyers paid rather than the $275 the tenant proposed. No attorney's fees. The Iowa Court of Appeals affirmed (2-1) on August 19, 2026, rejecting the estoppel-by-acquiescence and failure-to-mitigate defenses.",
   "attorneysFeesAtTrial": null,
-  "appellateChange": "affirmed"
+  "appellateChange": "affirmed",
+  "finalAmount": 257216,
+  "finalNote": "Affirmed."
  },
  "source": {
   "caseName": "The Law Office of Melvin O. Shaw, P.L.C. v. A & M Development, L.L.C.",

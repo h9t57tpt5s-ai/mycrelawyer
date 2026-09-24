@@ -86,7 +86,9 @@
   "date": "2026-07-03",
   "description": "After a four-day jury trial the jury found Section 3(c) was a condition precedent that Empower failed to satisfy; the trial court rendered judgment declaring the lease abrogated and ordered Empower to pay Covenant $96,291.09 in damages (the deposit), $611,491.45 in attorney's fees, and $135,000 in conditional appellate fees. The court of appeals held Section 3(c) is a covenant, not a condition precedent, reversed the entire judgment, rendered take-nothing on the condition-precedent declarations, and remanded the remaining declarations, the damages and fee awards, and Empower's breach-of-contract counterclaim.",
   "attorneysFeesAtTrial": 611491.45,
-  "appellateChange": "reversed"
+  "appellateChange": "reversed",
+  "finalAmount": null,
+  "finalNote": "Reversed and remanded; no final figure yet."
  },
  "source": {
   "caseName": "Empower School, LLC v. Covenant Management Systems, LP",
