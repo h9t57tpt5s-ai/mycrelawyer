@@ -34,7 +34,7 @@ def ex_fee_range(issues):
         used += 1
         if i.get("claimant") == "opposing":
             lo += p[1] * d[0]
-            hi += p[0] * d[1]
+            # the supported upside is that the opposing claim fails: adds 0
         elif i.get("claimant") == "represented":
             lo += p[0] * d[0]
             hi += i["supportedCeiling"] if isinstance(i.get("supportedCeiling"), (int, float)) else d[1]

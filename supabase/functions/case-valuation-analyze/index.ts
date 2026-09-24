@@ -2499,8 +2499,8 @@ Deno.serve(async (req) => {
     //   low  = sum over represented issues of p_low x d_low
     //        + sum over opposing issues of p_high x d_low (d negative: the
     //          most the represented side may pay, at its likeliest)
-    //   high = sum over represented issues of supportedCeiling (or d_high)
-    //        + sum over opposing issues of p_low x d_high (least negative)
+    //   high = sum over represented issues of supportedCeiling (or d_high);
+    //          opposing issues contribute 0 (the upside is that they fail)
     //   expected value (for bestGuessValue) = midpoint of each issue's own
     //          weighted range, summed.
     let mechanicalDamagesRange: [number, number] | null = null;
@@ -2511,7 +2511,11 @@ Deno.serve(async (req) => {
       const [dLo, dHi] = iss.damagesRange;
       const evLow = iss.claimant === "opposing" ? pHi * dLo : pLo * dLo;
       const evHigh = iss.claimant === "opposing" ? pLo * dHi : pHi * dHi;
-      const top = iss.claimant === "opposing" ? evHigh : (iss.supportedCeiling ?? dHi);
+      // The top is the supported upside: every represented claim at its
+      // ceiling and every opposing claim failing, so an opposing issue
+      // contributes nothing to the high end (it is fully priced into the
+      // low end and the expected value).
+      const top = iss.claimant === "opposing" ? 0 : (iss.supportedCeiling ?? dHi);
       mechanicalDamagesRange = mechanicalDamagesRange
         ? [mechanicalDamagesRange[0] + evLow, mechanicalDamagesRange[1] + top]
         : [evLow, top];
