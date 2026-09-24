@@ -2653,7 +2653,9 @@ Deno.serve(async (req) => {
     }
     if (err instanceof Anthropic.APIError) {
       console.error("Anthropic API error:", err);
-      return jsonResponse({ error: "Analysis failed — try again.", code: "upstream_error" }, 502);
+      // Backtest callers (secret-gated) get the upstream message so a
+      // failure can be diagnosed from the run log; users never do.
+      return jsonResponse({ error: "Analysis failed — try again.", code: "upstream_error", ...(isBacktest ? { detail: `${err.status ?? ""} ${String(err.message ?? err).slice(0, 700)}` } : {}) }, 502);
     }
     console.error("case-valuation-analyze error:", err);
     return jsonResponse({ error: "Something went wrong analyzing this document — try again.", code: "internal_error" }, 500);
