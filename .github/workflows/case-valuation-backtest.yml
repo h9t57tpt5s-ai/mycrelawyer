@@ -17,6 +17,9 @@ on:
       mode:
         description: "backtest (resolved cases) or registry (dated predictions on pending matters)"
         default: "backtest"
+      version:
+        description: "Results directory for backtests: v1 or v2 (must match the deployed analysis version)"
+        default: "v2"
 
 permissions:
   contents: write
@@ -38,11 +41,11 @@ jobs:
           if [ "${{ inputs.mode }}" = "registry" ]; then
             python3 scripts/registry_predict.py --confirm --limit "${{ inputs.limit }}" --only "${{ inputs.only }}"
           else
-            python3 scripts/backtest_case_valuation.py case_valuation_project/backtest/cases.json --confirm --limit "${{ inputs.limit }}" --only "${{ inputs.only }}"
+            python3 scripts/backtest_case_valuation.py case_valuation_project/backtest/cases.json --confirm --limit "${{ inputs.limit }}" --only "${{ inputs.only }}" --version "${{ inputs.version }}"
           fi
       - name: Commit results
         run: |
-          git add case_valuation_project/backtest/results/ case_valuation_project/registry/entries.json js/prediction-registry-data.js
+          git add case_valuation_project/backtest/results/ case_valuation_project/backtest/results-v2/ case_valuation_project/registry/entries.json js/prediction-registry-data.js
           if git diff --cached --quiet; then echo "No new results."; exit 0; fi
           git config user.name "credocket-backtest-bot"
           git config user.email "actions@users.noreply.github.com"

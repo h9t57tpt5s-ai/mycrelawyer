@@ -81,6 +81,7 @@ def main():
             "filings": m["filings"],
             "predictedAt": today,
             "model": a.get("model"),
+            "analysisVersion": a.get("analysisVersion") or "v1",
             "category": a.get("category"),
             "side": a.get("roleLabel"),
             "predictedRange": a.get("damagesRange"),

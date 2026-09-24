@@ -26,7 +26,8 @@ import urllib.request
 
 FUNCTION_URL = "https://ribmcdyoydhmafnyfhpp.supabase.co/functions/v1/case-valuation-analyze"
 ANON_KEY = "sb_publishable_77xSJub0DOpnTSM4nzhVaQ_aztB5p3f"
-RESULTS_DIR = pathlib.Path("case_valuation_project/backtest/results")
+RESULTS_ROOT = pathlib.Path("case_valuation_project/backtest")
+RESULTS_DIR = RESULTS_ROOT / "results"
 FORBIDDEN_INPUT_KEYS = {"outcome", "actual", "actualOutcome", "judgment", "verdict"}
 
 
@@ -70,6 +71,7 @@ def call_calculator(secret, inp):
 def summarize(analysis):
     return {
         "model": analysis.get("model"),
+        "analysisVersion": analysis.get("analysisVersion") or "v1",
         "category": analysis.get("category"),
         "roleLabel": analysis.get("roleLabel"),
         "damagesRange": analysis.get("damagesRange"),
@@ -77,7 +79,8 @@ def summarize(analysis):
         "whatIsNeededForEstimate": analysis.get("whatIsNeededForEstimate"),
         "likelyOutcome": analysis.get("likelyOutcome"),
         "issues": [
-            {"label": i.get("label"), "probabilityRange": i.get("probabilityRange"), "damagesRange": i.get("damagesRange")}
+            {"label": i.get("label"), "probabilityRange": i.get("probabilityRange"), "damagesRange": i.get("damagesRange"),
+             "claimant": i.get("claimant"), "liabilityStatus": i.get("liabilityStatus"), "supportedCeiling": i.get("supportedCeiling")}
             for i in analysis.get("issues", [])
         ],
         "citationCoverage": analysis.get("citationCoverage"),
@@ -90,7 +93,10 @@ def main():
     ap.add_argument("--limit", type=int, default=1)
     ap.add_argument("--confirm", action="store_true", help="required; each call spends API credit")
     ap.add_argument("--only", default="", help="comma-separated case ids")
+    ap.add_argument("--version", default="v1", help="results directory: v1 -> results/, v2 -> results-v2/")
     args = ap.parse_args()
+    global RESULTS_DIR
+    RESULTS_DIR = RESULTS_ROOT / ("results" if args.version == "v1" else f"results-{args.version}")
 
     secret = os.environ.get("AUTOMATION_SECRET", "").strip()
     if not secret:

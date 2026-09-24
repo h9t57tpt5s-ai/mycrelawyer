@@ -152,7 +152,7 @@
       </div>
       <p class="text-muted" id="cal-generated" style="max-width:360px; font-size:13px;"></p>
     </div>
-    <div id="cal-summary" class="grid-4" style="margin-bottom:24px;"></div>
+    <div id="cal-summary" class="grid-3" style="margin-bottom:24px;"></div>
     <div id="cal-host"></div>
   </div>
 </section>
@@ -280,18 +280,28 @@
     const fmtRange = (r) => !r ? "no range" : fmt(r[0]) + " – " + fmt(r[1]);
     const pct = (x) => x == null ? "—" : (x > 0 ? "+" : "") + Math.round(x * 100) + "%";
     const esc = (v) => String(v == null ? "" : v).replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c]);
-    const S = data.summary || {};
+    const versions = data.versions || (data.summary ? { v1: { summary: data.summary, cases: data.cases || [] } } : {});
+    const keys = Object.keys(versions).sort();
     const tile = (num, label) => `<div class="card" style="padding:20px;"><div class="cv-net" style="font-size:1.6rem;">${num}</div><p class="text-muted" style="font-size:12.5px; margin-top:4px; line-height:1.5;">${label}</p></div>`;
-    sum.innerHTML =
-      tile(`${S.exFeesHits ?? 0} of ${S.exFeesScorable ?? 0}`, "main-claim awards inside the calculator's per-claim range") +
-      tile(`${S.allInHits ?? 0} of ${S.allInScorable ?? 0}`, "whole judgments inside the top-line range") +
-      tile(pct(S.medianBestGuessError), "median best-guess error against the whole judgment (positive = too high)") +
-      tile(S.aggregateRatio == null ? "—" : Math.round(S.aggregateRatio * 100) + "%", `total predicted as a share of total awarded on the main claims, ex-fees (${fmt(S.aggregatePredicted)} vs ${fmt(S.aggregateActual)})`) +
-      tile(S.medianCaseRatio == null ? "—" : Math.round(S.medianCaseRatio * 100) + "%", "median case: predicted midpoint as a share of the award, ex-fees");
+    const VERSION_NOTE = {
+      v1: "Version 1: the tool as it stood on Sept 22, 2026 (range = sum of probability-weighted claims).",
+      v2: "Version 2, Sept 23, 2026: 95% floor on conceded liability, range top from each claim's supported ceiling, mitigation discounts only on evidence, the represented defendant's own claims valued, opposing claims netted with an enforced sign.",
+    };
+    sum.innerHTML = keys.map((k) => {
+      const S = versions[k].summary || {};
+      return `<div style="grid-column:1 / -1;"><div class="eyebrow" style="margin:${k === keys[0] ? 0 : 20}px 0 8px;">${esc(k)}</div><p class="text-muted" style="font-size:12.5px; margin:0 0 10px;">${esc(VERSION_NOTE[k] || "")}</p></div>` +
+        tile(`${S.exFeesHits ?? 0} of ${S.exFeesScorable ?? 0}`, "main-claim awards inside the calculator's per-claim range") +
+        tile(`${S.allInHits ?? 0} of ${S.allInScorable ?? 0}`, "whole judgments inside the top-line range") +
+        tile(pct(S.medianBestGuessError), "median best-guess error against the whole judgment (positive = too high)") +
+        tile(S.aggregateRatio == null ? "—" : Math.round(S.aggregateRatio * 100) + "%", `total predicted as a share of total awarded on the main claims, ex-fees (${fmt(S.aggregatePredicted)} vs ${fmt(S.aggregateActual)})`) +
+        tile(S.medianCaseRatio == null ? "—" : Math.round(S.medianCaseRatio * 100) + "%", "median case: predicted midpoint as a share of the award, ex-fees") +
+        tile(`${S.holdoutHits ?? 0} of ${S.holdoutScorable ?? 0}`, "held-out cases inside the range (six cases the version-2 revision was never tuned against)");
+    }).join("");
     const gen = document.getElementById("cal-generated");
-    if (gen) gen.textContent = (S.cases || 0) + " case" + (S.cases === 1 ? "" : "s") + " run" + (S.declined ? `, ${S.declined} declined for lack of a dollar anchor` : "") + ". Target: 25.";
+    const latest = versions[keys[keys.length - 1]] ? versions[keys[keys.length - 1]].summary : {};
+    if (gen) gen.textContent = keys.length ? `${keys.length === 1 ? "One version" : keys.length + " versions"} of the tool scored on the same ${latest.cases || 0} cases. Target set: 25.` : "";
 
-    const cases = data.cases || [];
+    const cases = keys.flatMap((k) => (versions[k].cases || []).map((c) => Object.assign({ _version: k }, c)));
     if (!cases.length) {
       host.innerHTML = `<div class="card reveal" style="padding:32px; text-align:center;"><p class="text-secondary" style="font-size:14px;">No cases scored yet.</p></div>`;
       host.querySelectorAll(".reveal").forEach((el) => el.classList.add("in-view"));
@@ -303,7 +313,7 @@
       : `<span class="detail-tag">Not scorable</span>`;
     host.innerHTML = cases.map((c) => `<div class="card reveal" style="padding:24px; margin-bottom:16px;">
         <div style="display:flex; align-items:flex-start; justify-content:space-between; gap:12px; flex-wrap:wrap; margin-bottom:6px;">
-          <h3 style="font-size:1.05rem; line-height:1.35;">${esc(c.caseName)}</h3>
+          <h3 style="font-size:1.05rem; line-height:1.35;">${esc(c.caseName)} <span class="detail-tag" style="margin-left:6px;">${esc(c._version)}</span>${c.holdout ? `<span class="detail-tag" style="margin-left:6px;">held out</span>` : ""}</h3>
           ${c.declined ? `<span class="detail-tag">Declined</span>` : ""}
         </div>
         <p class="text-muted" style="font-size:12.5px; margin-bottom:12px;">${esc(c.court)} · decided ${esc(c.decided)} · ${esc(c.category)} · valued for the ${esc(c.role)}${c.model ? ` · ${esc(c.model)}` : ``}${c.sourceUrl ? ` · <a href="${esc(c.sourceUrl)}" target="_blank" rel="noopener noreferrer">opinion</a>` : ""}</p>

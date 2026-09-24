@@ -94,6 +94,13 @@ const CASE_DATA_URL = "https://credocket.com/js/case-valuation-data.js";
 // of real-length inputs (see case_valuation_project/backtest/results/).
 // Every response reports the model that produced it.
 const NARRATIVE_MODEL = "claude-sonnet-5";
+// Analysis revision, reported on every response so calibration results
+// are attributed to the prompt/schema version that produced them.
+// v2 (2026-09-23): liability floor for conceded claims, per-issue
+// supported ceiling as the range top, mitigation discount only on
+// evidence, represented party's own claims when valuing a defendant,
+// and opposing claims netted with an enforced negative sign.
+const ANALYSIS_VERSION = "v2";
 const EXTRACTION_MODEL = "claude-haiku-4-5";
 
 // Per-million-token pricing, for the cost-estimate logging below only --
@@ -2305,13 +2312,16 @@ Deno.serve(async (req) => {
               probabilityRangePct: nullableRangeSchema("Low/high percent likelihood this issue is resolved in the filing party's favor, if quantifiable."),
               damagesRange: nullableRangeSchema("Low/high dollar range for this specific issue, if it has an independent dollar value. Null if no actual dollar figure or computable proxy for this specific issue appears anywhere in the case materials -- do not fill in an illustrative or typical-case number."),
               citedCaseNames: { type: "array", items: { type: "string" }, description: "Exact case name(s) from the reference list below that support this issue -- ONLY names copied exactly from that list, or an empty array if none apply." },
+              claimant: { type: "string", enum: ["represented", "opposing"], description: "Whose money this issue is about. 'represented': a claim, counterclaim or affirmative recovery of the side being valued (the filing party), or a defense that protects that side's recovery. 'opposing': a claim, counterclaim or fee/interest exposure that the OTHER side would recover from the represented side. Every issue with a damagesRange must say which." },
+              liabilityStatus: { type: "string", enum: ["contested", "conceded", "defaulted", "unknown"], description: "'conceded' when the record shows liability admitted, stipulated, undisputed or established by an order; 'defaulted' when the other side has not answered or responded; 'contested' when it is actually disputed on the record; 'unknown' when the materials do not say." },
+              supportedCeiling: { anyOf: [{ type: "number" }, { type: "null" }], description: "The full dollar amount the record would sustain for this issue if it were won outright -- the stated demand where the record supports it, or the figure computed from the record's own numbers (rent x remaining months, the loan balance, the appraisal). Positive for a 'represented' claim, negative for an 'opposing' one (the most the represented side could have to pay). Null when damagesRange is null. This is NOT probability-weighted; the weighting is done in code." },
             },
             // Structured-output schemas require every property in
             // `required` (nullable types carry the real "optional"
             // semantics) plus additionalProperties:false on every object,
             // same as the top-level schema below -- both were missing
             // here, which the API rejects.
-            required: ["label", "analysis", "probabilityRangePct", "damagesRange", "citedCaseNames"],
+            required: ["label", "analysis", "probabilityRangePct", "damagesRange", "citedCaseNames", "claimant", "liabilityStatus", "supportedCeiling"],
             additionalProperties: false,
           },
         },
@@ -2354,6 +2364,11 @@ Deno.serve(async (req) => {
         "REQUESTED-RELIEF CEILING: if the case materials include or describe a specific motion, pleading, or demand that states a specific dollar amount actually being requested/prayed for from the court (e.g. a motion for summary judgment asking for a stated total, a demand letter with a stated figure, a petition with a specific prayer rather than an open-ended 'to be proven at trial'), populate requestedReliefCeiling with that exact total and your damagesRange/bestGuessValue for the side making that request must NEVER exceed it, even if your own analysis of the underlying facts would support a larger recovery -- the system also enforces this in code as a backstop, so treat it as a real constraint, not a soft suggestion. Reasoning that a bigger number is legally defensible belongs in the analysis prose as an explicit note (e.g. 'the record separately supports an additional $X not included in this motion's request') -- it must never be folded into the numeric damagesRange/bestGuessValue themselves. This mirrors real practice: a party's own choice about what to formally put in front of a court is real information about the state of that specific proceeding, not a ceiling this tool gets to second-guess upward. This ceiling applies only to the side that made the request and only up to what THAT request actually seeks -- it doesn't cap the other side's claims, and it doesn't apply when the operative pleading seeks unliquidated damages 'to be proven at trial' with no specific number attached (there, requestedReliefCeiling is null and your own analysis sets the range as usual). " +
         "Every dollar range must be a range, never a single number -- EXCEPT bestGuessValue, which (when a real number is warranted at all, per the requirement above) is deliberately the one point estimate in this whole analysis: after laying out the honest range, commit to the single number inside it you'd actually tell the client to plan around, reasoned from the same probability-weighting you used for the range and issues, not just its arithmetic midpoint. Write like a sharp litigator's internal case assessment memo for a client deciding whether to settle or fight -- direct and specific, not hedged into vagueness. " +
         "PROBABILITY CALIBRATION REQUIREMENT: unlike a dollar figure, a probabilityRangePct CAN be legitimately assessed from the claim's legal doctrine and fact pattern alone (e.g. undisputed non-payment under a written commercial lease is a strong claim as a matter of well-settled law, independent of any dollar amount) -- do not null probabilityRangePct just because damagesRange is null. But the range's WIDTH has to honestly reflect how much of that assessment rests on facts that are actually stated versus merely assumed. A two-sentence description that never mentions a lease, a notice history, or a guaranty is not the same evidentiary posture as a reviewed document confirming those things, even where the doctrine cuts the same way -- narrow every probability range as if the unstated facts are confirmed, and you've quietly reintroduced the same fabricated-confidence problem the no-invented-numbers rule above exists to prevent, just moved from the dollar column to the percentage column. Concretely: (1) when an issue's outcome is genuinely a coin flip on ONE binary fact you don't have (e.g. 'is there a personal guaranty' -- collectibility is night-and-day depending on the answer), the range must span close to that full realistic spread, not a narrow band that implies you've already weighed it; a comfortable-looking '40-85%' for a completely unknown fact is barely better than a fake dollar figure. (2) When your reasoning explicitly assumes a fact the user never stated (a clean notice history, no landlord-side maintenance failures, a standard remedies clause), say so in that issue's own analysis text in the same sentence as the number, not just somewhere else in the memo -- the percentage and its load-bearing assumption belong together. (3) Reserve narrow, confident ranges (e.g. 85-95%) for propositions that are strong under the doctrine essentially regardless of unknown facts -- 'a tenant who stops paying with no defense mentioned is in breach' qualifies; 'this specific defense will fail' generally does not, if you don't actually know whether the predicate facts for that defense exist. " +
+        "LIABILITY FLOOR: where the case materials show that liability on an issue is conceded, admitted, stipulated, established by an order, or unanswered (no response filed, default), set liabilityStatus accordingly and give that issue a probabilityRangePct no lower than 95 -- the range's width must then come from uncertainty about the AMOUNT, not from a liability discount the record does not support. Carrying an uncontested note balance or an admitted rent arrearage at 75-90% silently strips 10-25% from a number the court will award in full. " +
+        "SUPPORTED CEILING: for every issue that has a damagesRange, also state supportedCeiling -- the full amount the record would sustain if that issue is won outright: the demand where the record supports it, the balance the note states, the rent stream the lease and remaining term compute to, the appraisal or the higher of competing appraisals where the question is which one a factfinder accepts. The system builds the TOP of the case's range from these ceilings and the BOTTOM from your probability-weighted values, so the range spans from the weighted downside to the supported upside; your bestGuessValue should sit at the probability-weighted expected value between them. Never inflate a ceiling beyond what the record itself supports -- it is a ceiling the record can bear, not a wish. " +
+        "MITIGATION AND OFFSETS: apply a mitigation, reletting or offset discount to a landlord's or lender's recovery ONLY where the case materials contain actual evidence of it -- a reletting at a stated rent, a rejected replacement tenant, a sale, a payment, a stated credit. In most jurisdictions the breaching party bears the burden of proving failure to mitigate; where the materials show no such evidence, say so in the issue's analysis and carry the claim at its supported amount rather than assuming a haircut. " +
+        "THE REPRESENTED PARTY'S OWN CLAIMS: when the side being valued is a defendant -- a tenant, borrower, guarantor or contractor -- the matter is not only defense. List every affirmative claim, counterclaim and setoff the represented side asserts (constructive eviction, deposit return, unjust enrichment, lien foreclosure, contract damages, moving costs, lost profits) as its own issue with claimant 'represented', its own probability and its own damagesRange, and state in likelyOutcome which side's NET position the numbers describe. A defendant who wins its counterclaim has a positive value; do not report zero because the other side's claim fails. " +
+        "SIGN CONVENTION: every issue that is the OTHER side's claim, counterclaim, fee or interest exposure against the represented side is claimant 'opposing' and its damagesRange and supportedCeiling are NEGATIVE numbers (what the represented side may have to pay). The system nets opposing issues against represented ones in code and will flip a positive sign on an 'opposing' issue, so mark the claimant correctly rather than relying on the sign alone. " +
         "REMINDER ON CITATIONS -- every one of the requirements above is about the analysis TEXT, not the structured citedCaseNames field on each issue, and satisfying them is not a substitute for filling that field in. If you name a case from the reference list in an issue's prose (per the GROUNDING REQUIREMENT), that same case name must also appear in that issue's citedCaseNames array -- do not let a case exist only in the prose. Before finalizing each issue, check it against the reference list a second time and list every supporting case by exact name." +
         (settlementBenchmark
           ? ` CONTRIBUTED SETTLEMENT DATA: below the case materials you'll also find real, reviewer-verified settlement amounts from ${settlementBenchmark.count} other matters in this same category and state -- actual money that actually changed hands, not a modeled or reported-opinion figure. Treat this as a distinct, valuable calibration anchor alongside the case-law citations, not a replacement for them: case law tells you how a court reasons about liability, this tells you what similar disputes actually settled for once collectibility, litigation cost, and every other real-world discount got baked in. Weigh your damagesRange and bestGuessValue against it -- if your own estimate lands far outside this real range, say so explicitly in the analysis and explain what makes this case different (different property scale, different facts, more/less exposure), rather than silently ignoring a real, on-point data point. Never cite it in citedCaseNames (that field is reserved for actual case law from the reference list) -- reference it in the analysis prose instead, e.g. 'contributed settlement data for comparable disputes in this state.'`
@@ -2416,11 +2431,37 @@ Deno.serve(async (req) => {
 
     const issues = Array.isArray(analysisParsed.issues) ? analysisParsed.issues.map((iss: Record<string, unknown>) => {
       const probTuple = rangeToTuple(iss.probabilityRangePct);
+      const claimant: "represented" | "opposing" = iss.claimant === "opposing" ? "opposing" : "represented";
+      const liabilityStatus = typeof iss.liabilityStatus === "string" ? iss.liabilityStatus : "unknown";
+      let probabilityRange: [number, number] | null = probTuple ? [probTuple[0] / 100, probTuple[1] / 100] : null;
+      // LIABILITY FLOOR, enforced in code: a conceded or defaulted claim is
+      // carried at 95% or better whatever the model wrote.
+      if (probabilityRange && (liabilityStatus === "conceded" || liabilityStatus === "defaulted")) {
+        probabilityRange = [Math.max(probabilityRange[0], 0.95), Math.max(probabilityRange[1], 0.95)];
+      }
+      let damagesRange = rangeToTuple(iss.damagesRange);
+      let supportedCeiling = typeof iss.supportedCeiling === "number" && Number.isFinite(iss.supportedCeiling) ? iss.supportedCeiling : null;
+      // SIGN CONVENTION, enforced in code: an opposing claim is exposure and
+      // must be non-positive; a represented claim is recovery and must be
+      // non-negative. The v1 backtest found the model adding a landlord's
+      // counterclaim to a tenant's recovery when the sign was left to it.
+      if (damagesRange) {
+        const a = Math.abs(damagesRange[0]), b = Math.abs(damagesRange[1]);
+        damagesRange = claimant === "opposing" ? [-Math.max(a, b), -Math.min(a, b)] : [Math.min(a, b), Math.max(a, b)];
+      }
+      if (supportedCeiling !== null) {
+        supportedCeiling = claimant === "opposing" ? -Math.abs(supportedCeiling) : Math.abs(supportedCeiling);
+        // A ceiling can never be less than the claim's own high end.
+        if (damagesRange) supportedCeiling = claimant === "opposing" ? Math.min(supportedCeiling, damagesRange[0]) : Math.max(supportedCeiling, damagesRange[1]);
+      }
       return {
         label: typeof iss.label === "string" ? iss.label : "Issue",
         analysis: typeof iss.analysis === "string" ? iss.analysis : "",
-        probabilityRange: probTuple ? [probTuple[0] / 100, probTuple[1] / 100] : null,
-        damagesRange: rangeToTuple(iss.damagesRange),
+        claimant,
+        liabilityStatus,
+        probabilityRange,
+        damagesRange,
+        supportedCeiling,
         citations: resolveCitations(iss.citedCaseNames),
       };
     }) : [];
@@ -2450,14 +2491,31 @@ Deno.serve(async (req) => {
     // BOTH a real damagesRange and a real probabilityRange contribute --
     // an issue with only a probability (no dollar figure attached) adds
     // no dollars, same "don't invent a number" logic as elsewhere here.
+    // v2 (2026-09-23): the range runs from the probability-weighted
+    // downside to the supported upside. The v1 backtest (25 cases) showed
+    // a range whose top was itself an expected value could not contain an
+    // award the record fully supported: every hit had a wide range and
+    // thirteen of fifteen misses were low. Still per-issue and mechanical:
+    //   low  = sum over represented issues of p_low x d_low
+    //        + sum over opposing issues of p_high x d_low (d negative: the
+    //          most the represented side may pay, at its likeliest)
+    //   high = sum over represented issues of supportedCeiling (or d_high)
+    //        + sum over opposing issues of p_low x d_high (least negative)
+    //   expected value (for bestGuessValue) = midpoint of each issue's own
+    //          weighted range, summed.
     let mechanicalDamagesRange: [number, number] | null = null;
+    let mechanicalExpectedValue: number | null = null;
     for (const iss of issues) {
       if (!iss.damagesRange || !iss.probabilityRange) continue;
-      const evLow = iss.damagesRange[0] * iss.probabilityRange[0];
-      const evHigh = iss.damagesRange[1] * iss.probabilityRange[1];
+      const [pLo, pHi] = iss.probabilityRange;
+      const [dLo, dHi] = iss.damagesRange;
+      const evLow = iss.claimant === "opposing" ? pHi * dLo : pLo * dLo;
+      const evHigh = iss.claimant === "opposing" ? pLo * dHi : pHi * dHi;
+      const top = iss.claimant === "opposing" ? evHigh : (iss.supportedCeiling ?? dHi);
       mechanicalDamagesRange = mechanicalDamagesRange
-        ? [mechanicalDamagesRange[0] + evLow, mechanicalDamagesRange[1] + evHigh]
-        : [evLow, evHigh];
+        ? [mechanicalDamagesRange[0] + evLow, mechanicalDamagesRange[1] + top]
+        : [evLow, top];
+      mechanicalExpectedValue = (mechanicalExpectedValue ?? 0) + (evLow + evHigh) / 2;
     }
 
     const requestedReliefCeiling = typeof analysisParsed.requestedReliefCeiling === "number"
@@ -2484,7 +2542,11 @@ Deno.serve(async (req) => {
     // guess" that could land outside the range it's supposed to pin down.
     // No range at all means no best guess either -- there's nothing to
     // clamp into and nothing honest to report.
-    const rawBestGuess = typeof analysisParsed.bestGuessValue === "number" ? analysisParsed.bestGuessValue : null;
+    // v2: the best guess is the mechanical expected value when one exists,
+    // not the model's separately chosen point.
+    const rawBestGuess = mechanicalExpectedValue !== null
+      ? mechanicalExpectedValue
+      : (typeof analysisParsed.bestGuessValue === "number" ? analysisParsed.bestGuessValue : null);
     const bestGuessValue: number | null = aiDamagesRange === null
       ? null
       : rawBestGuess === null
@@ -2562,6 +2624,7 @@ Deno.serve(async (req) => {
         // Which model produced this analysis, so a calibration result is
         // never attributed to the wrong model if NARRATIVE_MODEL changes.
         model: NARRATIVE_MODEL,
+        analysisVersion: ANALYSIS_VERSION,
       },
       costData,
     }, 200);
