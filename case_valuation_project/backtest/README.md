@@ -22,7 +22,13 @@ is public. Results are published, good or bad.
    whose outcome amount appears anywhere in its input text.
 4. **Every case is run through the live Edge Function**, not a copy of its
    prompt, so the result is what a user would have received.
-5. **Scoring.** Two comparisons are reported for every case, because the
+5. **Scoring, primary: the ultimate outcome.** Each case is scored first
+   against `outcome.finalAmount`, the figure after appeal, because the
+   tool is asked what a case is worth and a trial result later corrected
+   on appeal was not that. A trial-level miss that becomes a hit after
+   appellate correction counts as a hit and is labeled as corrected. A
+   case reversed and remanded with no final figure is pending, not scored.
+   The trial-level comparisons below are secondary. Two further comparisons are reported for every case, because the
    calculator's top-line range includes a contractual attorney's-fee claim
    when one is pleaded and court awards are usually reported without it:
    - **Ex-fees:** the sum of the calculator's per-issue expected values

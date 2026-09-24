@@ -87,7 +87,9 @@
   "date": "2023-11-28",
   "description": "The Johnson Superior Court jury awarded $680,000 to Franciscan and $1.5 million to SCP (a $2.2 million judgment), with attorney's fees awarded to both owners under Ind. Code 32-24-1-14(b) (amount not stated) and 8% prejudgment interest. The Court of Appeals reversed on November 28, 2023, holding the traffic-flow rule bars the access damages, and remanded with instructions to vacate the judgment for SCP and enter judgment for Franciscan for only the value of the strip (appraised at $40,500-$47,400), with prejudgment interest recalculated.",
   "attorneysFeesAtTrial": null,
-  "appellateChange": "reversed"
+  "appellateChange": "reversed",
+  "finalAmount": 44000,
+  "finalNote": "Reversed: only the strip taking is compensable, about $40,500-$47,400 on the record; midpoint used."
  },
  "source": {
   "caseName": "State of Indiana v. Franciscan Alliance, Inc. f/k/a Sisters of St. Francis Health Services, Inc.; The Market Place at State Road 37, LLC; Hook SupeRX, LLC; SCP 2010-C36-018 LLC; and Johnson County, Indiana",

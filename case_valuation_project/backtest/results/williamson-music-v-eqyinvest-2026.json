@@ -91,7 +91,9 @@
   "date": "2026-09-15",
   "description": "After a bench trial the court awarded the landlord $170,484.37 in past-due rent, the full amount it sought, with no credit for the $62,096.52 free-rent overlap offset or the $20,000 personal property. It also awarded $86,725.00 in attorney's fees. On appeal the rent damages were affirmed and the fee award reversed.",
   "attorneysFeesAtTrial": 86725.0,
-  "attorneysFeesOnAppeal": "reversed"
+  "attorneysFeesOnAppeal": "reversed",
+  "finalAmount": 170484.37,
+  "finalNote": "Rent damages affirmed; fee award reversed."
  },
  "source": {
   "caseName": "Williamson Music 1st, LLC, and Raymond Gore v. EQYInvest Owner II, Ltd., LLP",

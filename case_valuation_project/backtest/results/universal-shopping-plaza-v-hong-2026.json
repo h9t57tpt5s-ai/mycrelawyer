@@ -99,7 +99,9 @@
   "date": "2026-09-09",
   "description": "After a three-day court trial the trial court entered judgment for the landlord on July 3, 2025 awarding possession, $65,989 in past-due rent (the amount demanded in the notice) and $123,111 in holdover damages, $189,100 in total; no fee award is stated in the opinion. The Court of Appeal reversed, holding the three-day notice void because the unpaid rent fell due more than one year before service, and remanded for entry of judgment in favor of the tenant.",
   "attorneysFeesAtTrial": null,
-  "appellateChange": "reversed"
+  "appellateChange": "reversed",
+  "finalAmount": 0,
+  "finalNote": "Reversed: the three-day notice was void, so the landlord takes nothing in this action."
  },
  "source": {
   "caseName": "Universal Shopping Plaza v. Piong Bin Hong",

@@ -100,7 +100,9 @@
   "date": "2023-12-11",
   "description": "The district court granted Lagoon summary judgment in June 2022, held the liquidated-damages clause enforceable so that no mitigation was required, and (after Lagoon waived attorney fees) entered judgment for $1,808,470 plus costs. The Minnesota Court of Appeals reversed on December 11, 2023, holding the liquidated-damages clause unenforceable because actual damages were capable of estimation and the clause ignored the duty to mitigate, and remanded for further proceedings on actual damages and mitigation.",
   "attorneysFeesAtTrial": null,
-  "appellateChange": "reversed"
+  "appellateChange": "reversed",
+  "finalAmount": null,
+  "finalNote": "Reversed (liquidated-damages clause unenforceable) and remanded; no final figure yet."
  },
  "source": {
   "caseName": "Lagoon Partners, LLC v. Silver Cinemas Acquisition Co., d/b/a Landmark Theatres",

@@ -105,7 +105,9 @@
   "date": "2025-04-14",
   "description": "After a bench trial the district court entered judgment for Montgomery Park on its past-due-rent counterclaim of $9,854,566.95 plus postjudgment interest (upheld in earlier Fourth Circuit appeals at 842 F.3d 816, 918 F.3d 388 and 40 F.4th 123). The court then awarded $2,074,379.88 in attorneys' fees and nontaxable expenses, $115,942.10 taxable costs and $1,576,036.07 default interest ($3,766,358.05 total). In this fifth appeal the Fourth Circuit affirmed the fee/cost award (including expert fees) but vacated the default-interest component, holding interest runs only from the August 24, 2022 demand, and remanded for recalculation; the underlying rent judgment was not disturbed.",
   "attorneysFeesAtTrial": 2074379.88,
-  "appellateChange": "affirmed"
+  "appellateChange": "affirmed",
+  "finalAmount": 9854566.95,
+  "finalNote": "Affirmed."
  },
  "source": {
   "caseName": "NCO Financial Systems, Inc. v. Montgomery Park, LLC",

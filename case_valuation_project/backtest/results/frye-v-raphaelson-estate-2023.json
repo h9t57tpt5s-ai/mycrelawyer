@@ -81,7 +81,9 @@
   "date": "2023-08-31",
   "description": "The Magistrate's final post-trial report recommended judgment for the estate and against the occupant for $44,000.00 on the estate's unjust-enrichment counterclaim ($1,000 per month for the Dock Street Properties from May 2020 through August 2022, plus $1,000 per month agreed rent for the Commerce Property from April 2021 through August 2022), rejecting the $5,000-per-month / $160,000 demand, denying the occupant's own $70,000 unjust-enrichment claim, and denying the estate's trespass counterclaim; costs to the estate as prevailing party, no attorney's fees.",
   "attorneysFeesAtTrial": null,
-  "appellateChange": "none - trial-level magistrate's final report (exceptions available under Court of Chancery Rule 144); no appellate ruling in this document"
+  "appellateChange": "none - trial-level magistrate's final report (exceptions available under Court of Chancery Rule 144); no appellate ruling in this document",
+  "finalAmount": 44000,
+  "finalNote": "Trial-level report; no appeal reflected."
  },
  "source": {
   "caseName": "Frye v. Estate of Raphaelson",

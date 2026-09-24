@@ -21,7 +21,9 @@
       "date": "2026-09-15",
       "description": "After a bench trial the court awarded the landlord $170,484.37 in past-due rent, the full amount it sought, with no credit for the $62,096.52 free-rent overlap offset or the $20,000 personal property. It also awarded $86,725.00 in attorney's fees. On appeal the rent damages were affirmed and the fee award reversed.",
       "attorneysFeesAtTrial": 86725.0,
-      "attorneysFeesOnAppeal": "reversed"
+      "attorneysFeesOnAppeal": "reversed",
+      "finalAmount": 170484.37,
+      "finalNote": "Rent damages affirmed; fee award reversed."
     }
   },
   {
@@ -46,7 +48,9 @@
       "date": "2026-07-03",
       "description": "After a four-day jury trial the jury found Section 3(c) was a condition precedent that Empower failed to satisfy; the trial court rendered judgment declaring the lease abrogated and ordered Empower to pay Covenant $96,291.09 in damages (the deposit), $611,491.45 in attorney's fees, and $135,000 in conditional appellate fees. The court of appeals held Section 3(c) is a covenant, not a condition precedent, reversed the entire judgment, rendered take-nothing on the condition-precedent declarations, and remanded the remaining declarations, the damages and fee awards, and Empower's breach-of-contract counterclaim.",
       "attorneysFeesAtTrial": 611491.45,
-      "appellateChange": "reversed"
+      "appellateChange": "reversed",
+      "finalAmount": null,
+      "finalNote": "Reversed and remanded; no final figure yet."
     }
   },
   {
@@ -71,7 +75,9 @@
       "date": "2026-08-19",
       "description": "After a bench trial the district court awarded the tenant $257,216 in damages plus post-judgment interest, using the tenant's damages methodology (unrealized appreciation, rent-versus-mortgage differential, lost principal) but valuing the unit at the $166.73 per square foot the third-party buyers paid rather than the $275 the tenant proposed. No attorney's fees. The Iowa Court of Appeals affirmed (2-1) on August 19, 2026, rejecting the estoppel-by-acquiescence and failure-to-mitigate defenses.",
       "attorneysFeesAtTrial": null,
-      "appellateChange": "affirmed"
+      "appellateChange": "affirmed",
+      "finalAmount": 257216,
+      "finalNote": "Affirmed."
     }
   },
   {
@@ -96,7 +102,9 @@
       "date": "2026-07-27",
       "description": "On September 4, 2025 the trial court granted the landlord summary judgment for $132,139.24, exactly the sum itemized in the landlord's affidavit ($104,295.80 overdue rent and fees, $3,000 clean-out costs, $12,416.92 prejudgment interest, $12,010.52 attorneys' fees and $416 court costs), plus 8 percent post-judgment interest and collection fees; the amount recorded here is the judgment less the $12,010.52 in attorneys' fees. The Twelfth District affirmed on July 27, 2026, holding the guarantor forfeited his lockout, notarization and phantom-LLC arguments by not opposing the motion.",
       "attorneysFeesAtTrial": 12010.52,
-      "appellateChange": "affirmed"
+      "appellateChange": "affirmed",
+      "finalAmount": 120128.72,
+      "finalNote": "Affirmed."
     }
   },
   {
@@ -121,7 +129,9 @@
       "date": "2026-09-17",
       "description": "Trial court (judgment signed September 22, 2025) granted summary judgment awarding SMK $79,096.44 against Tres Botes (18 months plus one prorated month at $4,300 until the property was sold) and SDP $108,000 against Dos Botes (12 months at $9,000 until relet), $187,096.44 total; no attorney's fees mentioned. On appeal the $79,096.44 award to SMK was affirmed; the $108,000 award to SDP was reversed and remanded because SDP did not conclusively prove the lease was renewed.",
       "attorneysFeesAtTrial": null,
-      "appellateChange": "modified to $79,096.44"
+      "appellateChange": "modified to $79,096.44",
+      "finalAmount": 79096.44,
+      "finalNote": "$79,096.44 affirmed; the $108,000 Dos Botes award reversed and remanded, so the final total could rise."
     }
   },
   {
@@ -146,7 +156,9 @@
       "date": "2026-09-09",
       "description": "After a three-day court trial the trial court entered judgment for the landlord on July 3, 2025 awarding possession, $65,989 in past-due rent (the amount demanded in the notice) and $123,111 in holdover damages, $189,100 in total; no fee award is stated in the opinion. The Court of Appeal reversed, holding the three-day notice void because the unpaid rent fell due more than one year before service, and remanded for entry of judgment in favor of the tenant.",
       "attorneysFeesAtTrial": null,
-      "appellateChange": "reversed"
+      "appellateChange": "reversed",
+      "finalAmount": 0,
+      "finalNote": "Reversed: the three-day notice was void, so the landlord takes nothing in this action."
     }
   },
   {
@@ -171,7 +183,9 @@
       "date": "2026-09-02",
       "description": "After a bench trial the circuit court found the lease effective date was modified to May 1, 2022, that the landlord did not breach and the tenants did, and entered judgment against the tenants and guarantors jointly and severally for $51,336.45 (back rent of $45,736.45 plus $5,600 demolition costs, each equal to the component the landlord requested), declining the $107,781.91 landlord's-work and $143,777.60 reletting-cost claims; no attorney's fees are mentioned. The court of appeals affirmed the judgment on direct appeal and, on cross-appeal, reversed the denial of reletting costs and remanded for findings on whether the $143,777.60 qualifies as reasonable reletting costs under the lease.",
       "attorneysFeesAtTrial": null,
-      "appellateChange": "affirmed"
+      "appellateChange": "affirmed",
+      "finalAmount": 51336.45,
+      "finalNote": "Affirmed; the denial of reletting costs was reversed on cross-appeal and remanded, so the final total could rise."
     }
   },
   {
@@ -196,7 +210,9 @@
       "date": "2025-03-21",
       "description": "After a damages hearing, the Baldwin Circuit Court rendered judgment for the landlord in the amount of $94,350 plus costs of court against the tenant and guarantor (the landlord had claimed $89,010 in its summary-judgment motion and later $146,910; the tenant argued for no more than $18,900). Attorney's fees were not separately stated. The Supreme Court of Alabama affirmed both the liability determination and the damages judgment.",
       "attorneysFeesAtTrial": null,
-      "appellateChange": "affirmed"
+      "appellateChange": "affirmed",
+      "finalAmount": 94350,
+      "finalNote": "Affirmed."
     }
   },
   {
@@ -221,7 +237,9 @@
       "date": "2025-03-06",
       "description": "After the bench trial the trial court rendered judgment for the landlord of $96,072.49 (unpaid rent through trial net of replacement-tenant rent, late fees, and prejudgment interest) \u2014 the figure the tenant advocated, roughly one-tenth of the more than $900,000 the landlord sought \u2014 plus 18% post-judgment interest, and awarded $0 in attorneys' fees. The court of appeals affirmed the damages award and reversed only the denial of attorneys' fees, remanding for a determination of a reasonable fee under the lease.",
       "attorneysFeesAtTrial": 0,
-      "appellateChange": "affirmed"
+      "appellateChange": "affirmed",
+      "finalAmount": 96072.49,
+      "finalNote": "Damages affirmed; fee denial reversed and remanded."
     }
   },
   {
@@ -246,7 +264,9 @@
       "date": "2025-03-04",
       "description": "The circuit court granted Caton summary judgment on a futility theory and awarded him $442,885.50 in damages (the full amount of his demand) plus $96,329.00 in attorneys' fees. The Court of Appeals of Virginia affirmed that the agreement required Caton to exercise the option, but reversed the summary judgment award of damages and fees because futility was not established as a matter of law, and remanded for further proceedings.",
       "attorneysFeesAtTrial": 96329.0,
-      "appellateChange": "reversed"
+      "appellateChange": "reversed",
+      "finalAmount": null,
+      "finalNote": "Summary judgment reversed and remanded; no final figure yet."
     }
   },
   {
@@ -271,7 +291,9 @@
       "date": "2025-05-27",
       "description": "The jury found for the tenant on all claims and the trial court entered judgment for $36,791.80 moving expenses, $42,000 lost profits and $5,000 for the retained security deposit (total $83,791.80), plus $67,000 attorney's fees, interest and costs, and took-nothing on the landlord's rent claim. The court of appeals reversed the constructive-eviction/implied-warranty recovery (no evidence of substantial interference) and rendered judgment that the tenant take nothing on those claims, affirmed the judgment against the landlord on its breach claim and for the tenant on the $5,000 security-deposit claim, and remanded attorney's fees for a new trial.",
       "attorneysFeesAtTrial": 67000,
-      "appellateChange": "modified to $5,000"
+      "appellateChange": "modified to $5,000",
+      "finalAmount": 5000,
+      "finalNote": "Reduced on appeal to the $5,000 security deposit."
     }
   },
   {
@@ -296,7 +318,9 @@
       "date": "2025-05-19",
       "description": "The trial court held the Site-Specific Work was outside the contract, granted summary judgment against Four Elyria on all its claims and for Brexton on unjust enrichment, and after a damages-only jury trial entered judgment for Brexton for $465,417.44; both sides' attorney-fee motions were denied and Brexton's lien-foreclosure counterclaim was dismissed. On this second appeal the court of appeals agreed the work was outside the contract but reversed in part and remanded for the trial court to apply the contract's Article 9 change-order provisions, leaving the unjust-enrichment award and the fee issues to be revisited on remand.",
       "attorneysFeesAtTrial": null,
-      "appellateChange": "reversed"
+      "appellateChange": "reversed",
+      "finalAmount": null,
+      "finalNote": "Reversed in part and remanded; no final figure yet."
     }
   },
   {
@@ -321,7 +345,9 @@
       "date": "2025-05-08",
       "description": "After a one-day bench trial the court found CRD liable for damage during both leases and awarded 721 all of its claimed repair costs, $106,077.87 (no lost-profit award is described), then awarded $51,770.71 in attorney's fees and judicial interest. The Fourth Circuit affirmed liability but held Gibbs and CRD solidarily liable for the Gibbs-period damage, amended the judgment to reduce the damages by 50% for the settled co-obligor's virile share, and reversed the attorney's fee award because the lease did not provide fees for a Clause 13 breach.",
       "attorneysFeesAtTrial": 51770.71,
-      "appellateChange": "modified to $53,038.94"
+      "appellateChange": "modified to $53,038.94",
+      "finalAmount": 53038.94,
+      "finalNote": "Reduced on appeal to a 50 percent share."
     }
   },
   {
@@ -346,7 +372,9 @@
       "date": "2025-05-08",
       "description": "After a bench trial the district court held Penn Realty breached the loan agreement and entered an in personam money judgment for U.S. Bank of $51,392,086.96 (no judgment in mortgage foreclosure was entered); the Third Circuit affirmed that judgment in a separate unpublished opinion (No. 23-2185, Sept. 25, 2024). In this precedential appeal the Third Circuit upheld the subsequent execution sale of the apartment building under Fed. R. Civ. P. 69(a) and affirmed the denial of the borrower's motion to quash.",
       "attorneysFeesAtTrial": null,
-      "appellateChange": "affirmed"
+      "appellateChange": "affirmed",
+      "finalAmount": 51392086.96,
+      "finalNote": "Affirmed."
     }
   },
   {
@@ -371,7 +399,9 @@
       "date": "2025-05-01",
       "description": "On retrial the jury awarded Boggess approximately $330,000 (the opinion gives only this rounded figure) for the value of the condemned property and found no severance damages, after UDOT's expert was allowed to testify to a $2.2 million project-benefit offset. The Court of Appeals held that interstate access and added travel lanes are general benefits that cannot offset severance damages, found the error harmful, reversed the verdict and remanded for a new trial; no fees are discussed.",
       "attorneysFeesAtTrial": null,
-      "appellateChange": "reversed"
+      "appellateChange": "reversed",
+      "finalAmount": null,
+      "finalNote": "Reversed for a new trial; no final figure yet."
     }
   },
   {
@@ -396,7 +426,9 @@
       "date": "2025-04-14",
       "description": "After a bench trial the district court entered judgment for Montgomery Park on its past-due-rent counterclaim of $9,854,566.95 plus postjudgment interest (upheld in earlier Fourth Circuit appeals at 842 F.3d 816, 918 F.3d 388 and 40 F.4th 123). The court then awarded $2,074,379.88 in attorneys' fees and nontaxable expenses, $115,942.10 taxable costs and $1,576,036.07 default interest ($3,766,358.05 total). In this fifth appeal the Fourth Circuit affirmed the fee/cost award (including expert fees) but vacated the default-interest component, holding interest runs only from the August 24, 2022 demand, and remanded for recalculation; the underlying rent judgment was not disturbed.",
       "attorneysFeesAtTrial": 2074379.88,
-      "appellateChange": "affirmed"
+      "appellateChange": "affirmed",
+      "finalAmount": 9854566.95,
+      "finalNote": "Affirmed."
     }
   },
   {
@@ -421,7 +453,9 @@
       "date": "2025-04-10",
       "description": "The trial court granted the landlord summary judgment on its eviction and breach-of-contract claims, restored it to possession by writ (tenant evicted April 6, 2023), and after a damages hearing awarded Cumberland $444,055.13; it later granted summary judgment against all of Blackwing's counterclaims, including the $167,050 tenant-improvement claim. No attorneys' fee award is mentioned. The Eighth District affirmed.",
       "attorneysFeesAtTrial": null,
-      "appellateChange": "affirmed"
+      "appellateChange": "affirmed",
+      "finalAmount": 444055.13,
+      "finalNote": "Affirmed."
     }
   },
   {
@@ -446,7 +480,9 @@
       "date": "2025-04-23",
       "description": "After the valuation trial the Court of Federal Claims adopted Dr. Kilpatrick's before-and-after values for all thirteen parcels but struck his privacy-wall component, awarding just compensation of $42,641,740 (before values $66,179,431, after values $23,537,691) plus interest at the Moody's Aaa corporate bond rate compounded annually, against a demand of $44,744,774; it also denied the government's motion to reopen the record. No attorneys' fees were addressed in this opinion. This is the trial-level decision; no appellate ruling is reflected.",
       "attorneysFeesAtTrial": null,
-      "appellateChange": "affirmed"
+      "appellateChange": "affirmed",
+      "finalAmount": 42641740,
+      "finalNote": "No appeal reflected."
     }
   },
   {
@@ -471,7 +507,9 @@
       "date": "2023-10-05",
       "description": "The Superior Court granted the landlord summary judgment on liability and damages in the amount of $276,089.72, the full amount demanded, holding the force majeure clause allocated pandemic-closure risk to the tenant and two lease provisions relieved the landlord of any duty to relet. No attorney's fee award is stated. This is a trial-level decision; no appeal is reflected in the opinion.",
       "attorneysFeesAtTrial": null,
-      "appellateChange": "n/a (trial-level decision; no appeal in opinion)"
+      "appellateChange": "n/a (trial-level decision; no appeal in opinion)",
+      "finalAmount": 276089.72,
+      "finalNote": "Trial-level decision; no appeal reflected."
     }
   },
   {
@@ -496,7 +534,9 @@
       "date": "2023-08-31",
       "description": "The Magistrate's final post-trial report recommended judgment for the estate and against the occupant for $44,000.00 on the estate's unjust-enrichment counterclaim ($1,000 per month for the Dock Street Properties from May 2020 through August 2022, plus $1,000 per month agreed rent for the Commerce Property from April 2021 through August 2022), rejecting the $5,000-per-month / $160,000 demand, denying the occupant's own $70,000 unjust-enrichment claim, and denying the estate's trespass counterclaim; costs to the estate as prevailing party, no attorney's fees.",
       "attorneysFeesAtTrial": null,
-      "appellateChange": "none - trial-level magistrate's final report (exceptions available under Court of Chancery Rule 144); no appellate ruling in this document"
+      "appellateChange": "none - trial-level magistrate's final report (exceptions available under Court of Chancery Rule 144); no appellate ruling in this document",
+      "finalAmount": 44000,
+      "finalNote": "Trial-level report; no appeal reflected."
     }
   },
   {
@@ -521,7 +561,9 @@
       "date": "2023-12-19",
       "description": "After a bench trial the Fairfax County Circuit Court entered judgment for 7205 Telegraph on all four counts, awarding $481,434.84 in lost-rent contract damages, a further $6,296.70 for over-assessments, release of the association's liens, and $324,977.60 in attorney's fees and costs. A Court of Appeals panel affirmed on April 25, 2023; rehearing en banc was granted, and on December 19, 2023 the court lifted the stay and left the judgment affirmed.",
       "attorneysFeesAtTrial": 324977.6,
-      "appellateChange": "affirmed"
+      "appellateChange": "affirmed",
+      "finalAmount": 481434.84,
+      "finalNote": "Affirmed, including after rehearing en banc."
     }
   },
   {
@@ -546,7 +588,9 @@
       "date": "2023-12-11",
       "description": "The district court granted Lagoon summary judgment in June 2022, held the liquidated-damages clause enforceable so that no mitigation was required, and (after Lagoon waived attorney fees) entered judgment for $1,808,470 plus costs. The Minnesota Court of Appeals reversed on December 11, 2023, holding the liquidated-damages clause unenforceable because actual damages were capable of estimation and the clause ignored the duty to mitigate, and remanded for further proceedings on actual damages and mitigation.",
       "attorneysFeesAtTrial": null,
-      "appellateChange": "reversed"
+      "appellateChange": "reversed",
+      "finalAmount": null,
+      "finalNote": "Reversed (liquidated-damages clause unenforceable) and remanded; no final figure yet."
     }
   },
   {
@@ -571,7 +615,9 @@
       "date": "2023-11-28",
       "description": "The Johnson Superior Court jury awarded $680,000 to Franciscan and $1.5 million to SCP (a $2.2 million judgment), with attorney's fees awarded to both owners under Ind. Code 32-24-1-14(b) (amount not stated) and 8% prejudgment interest. The Court of Appeals reversed on November 28, 2023, holding the traffic-flow rule bars the access damages, and remanded with instructions to vacate the judgment for SCP and enter judgment for Franciscan for only the value of the strip (appraised at $40,500-$47,400), with prejudgment interest recalculated.",
       "attorneysFeesAtTrial": null,
-      "appellateChange": "reversed"
+      "appellateChange": "reversed",
+      "finalAmount": 44000,
+      "finalNote": "Reversed: only the strip taking is compensable, about $40,500-$47,400 on the record; midpoint used."
     }
   },
   {
@@ -596,7 +642,9 @@
       "date": "2023-10-30",
       "description": "After a May 2022 jury trial the Marion Circuit Court entered judgment on a $2.4 million verdict for Barham and denied Carmel's motions to correct error, for new trial, and for remittitur. The Court of Appeals reversed on October 30, 2023, holding Barham had no compensable easement interest in Threel Road (already extinguished in the County Line condemnation) and that the access change was non-compensable under the ingress-egress and traffic-flow rules, and remanded with instructions to grant Carmel partial summary judgment on that issue.",
       "attorneysFeesAtTrial": null,
-      "appellateChange": "reversed"
+      "appellateChange": "reversed",
+      "finalAmount": null,
+      "finalNote": "Reversed and remanded; no final figure yet."
     }
   },
   {
@@ -621,7 +669,9 @@
       "date": "2023-04-27",
       "description": "The Superior Court entered post-trial judgment for Navient in $503,822.72 (the conceded cooling-tower reimbursement) less $79,650 awarded to BPG on its counterclaim ($71,250 to repair 25 non-operational heat pumps and $8,400 to repair two rooftop air units), a net principal of $424,172.72 plus prejudgment interest from March 17, 2020; BPG's transformer and elevator claims failed. Navient was held the prevailing party entitled to its attorneys' fees and expenses under lease section 28(q) (amount not stated). This is the trial-level decision; no appeal is reflected in the source.",
       "attorneysFeesAtTrial": null,
-      "appellateChange": "none (trial-level post-trial opinion; no appeal in source)"
+      "appellateChange": "none (trial-level post-trial opinion; no appeal in source)",
+      "finalAmount": 424172.72,
+      "finalNote": "Trial-level post-trial opinion; no appeal reflected."
     }
   }
 ]

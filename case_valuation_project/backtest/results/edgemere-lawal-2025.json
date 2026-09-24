@@ -86,7 +86,9 @@
   "date": "2025-05-27",
   "description": "The jury found for the tenant on all claims and the trial court entered judgment for $36,791.80 moving expenses, $42,000 lost profits and $5,000 for the retained security deposit (total $83,791.80), plus $67,000 attorney's fees, interest and costs, and took-nothing on the landlord's rent claim. The court of appeals reversed the constructive-eviction/implied-warranty recovery (no evidence of substantial interference) and rendered judgment that the tenant take nothing on those claims, affirmed the judgment against the landlord on its breach claim and for the tenant on the $5,000 security-deposit claim, and remanded attorney's fees for a new trial.",
   "attorneysFeesAtTrial": 67000,
-  "appellateChange": "modified to $5,000"
+  "appellateChange": "modified to $5,000",
+  "finalAmount": 5000,
+  "finalNote": "Reduced on appeal to the $5,000 security deposit."
  },
  "source": {
   "caseName": "Edgemere Loop 375, LLC v. Lookman Lawal, M.D., and Southwestern Cardiac Arrhythmia Institute, P.A.",

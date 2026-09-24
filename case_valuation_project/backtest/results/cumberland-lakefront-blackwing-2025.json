@@ -12,7 +12,9 @@
   "date": "2025-04-10",
   "description": "The trial court granted the landlord summary judgment on its eviction and breach-of-contract claims, restored it to possession by writ (tenant evicted April 6, 2023), and after a damages hearing awarded Cumberland $444,055.13; it later granted summary judgment against all of Blackwing's counterclaims, including the $167,050 tenant-improvement claim. No attorneys' fee award is mentioned. The Eighth District affirmed.",
   "attorneysFeesAtTrial": null,
-  "appellateChange": "affirmed"
+  "appellateChange": "affirmed",
+  "finalAmount": 444055.13,
+  "finalNote": "Affirmed."
  },
  "source": {
   "caseName": "Cumberland Lakefront B, LLC v. Blackwing, LLC, et al.",

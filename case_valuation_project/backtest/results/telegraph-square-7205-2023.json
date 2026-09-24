@@ -94,7 +94,9 @@
   "date": "2023-12-19",
   "description": "After a bench trial the Fairfax County Circuit Court entered judgment for 7205 Telegraph on all four counts, awarding $481,434.84 in lost-rent contract damages, a further $6,296.70 for over-assessments, release of the association's liens, and $324,977.60 in attorney's fees and costs. A Court of Appeals panel affirmed on April 25, 2023; rehearing en banc was granted, and on December 19, 2023 the court lifted the stay and left the judgment affirmed.",
   "attorneysFeesAtTrial": 324977.6,
-  "appellateChange": "affirmed"
+  "appellateChange": "affirmed",
+  "finalAmount": 481434.84,
+  "finalNote": "Affirmed, including after rehearing en banc."
  },
  "source": {
   "caseName": "Telegraph Square II, a Condominium Unit Owners Association v. 7205 Telegraph Square, LLC",

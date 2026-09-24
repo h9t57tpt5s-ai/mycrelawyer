@@ -78,7 +78,9 @@
   "date": "2025-05-08",
   "description": "After a bench trial the district court held Penn Realty breached the loan agreement and entered an in personam money judgment for U.S. Bank of $51,392,086.96 (no judgment in mortgage foreclosure was entered); the Third Circuit affirmed that judgment in a separate unpublished opinion (No. 23-2185, Sept. 25, 2024). In this precedential appeal the Third Circuit upheld the subsequent execution sale of the apartment building under Fed. R. Civ. P. 69(a) and affirmed the denial of the borrower's motion to quash.",
   "attorneysFeesAtTrial": null,
-  "appellateChange": "affirmed"
+  "appellateChange": "affirmed",
+  "finalAmount": 51392086.96,
+  "finalNote": "Affirmed."
  },
  "source": {
   "caseName": "US Bank NA, as Trustee for the Registered Holders of J.P. Morgan Chase Commercial Mortgage Securities Corp., Multifamily Mortgage Pass-Through Certificates, Series 2012-K18 v. B R Penn Realty Owner LP",

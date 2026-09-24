@@ -77,7 +77,9 @@
   "date": "2025-05-01",
   "description": "On retrial the jury awarded Boggess approximately $330,000 (the opinion gives only this rounded figure) for the value of the condemned property and found no severance damages, after UDOT's expert was allowed to testify to a $2.2 million project-benefit offset. The Court of Appeals held that interstate access and added travel lanes are general benefits that cannot offset severance damages, found the error harmful, reversed the verdict and remanded for a new trial; no fees are discussed.",
   "attorneysFeesAtTrial": null,
-  "appellateChange": "reversed"
+  "appellateChange": "reversed",
+  "finalAmount": null,
+  "finalNote": "Reversed for a new trial; no final figure yet."
  },
  "source": {
   "caseName": "Utah Department of Transportation v. Boggess-Draper Company, LLC",

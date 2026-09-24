@@ -90,7 +90,9 @@
   "date": "2023-04-27",
   "description": "The Superior Court entered post-trial judgment for Navient in $503,822.72 (the conceded cooling-tower reimbursement) less $79,650 awarded to BPG on its counterclaim ($71,250 to repair 25 non-operational heat pumps and $8,400 to repair two rooftop air units), a net principal of $424,172.72 plus prejudgment interest from March 17, 2020; BPG's transformer and elevator claims failed. Navient was held the prevailing party entitled to its attorneys' fees and expenses under lease section 28(q) (amount not stated). This is the trial-level decision; no appeal is reflected in the source.",
   "attorneysFeesAtTrial": null,
-  "appellateChange": "none (trial-level post-trial opinion; no appeal in source)"
+  "appellateChange": "none (trial-level post-trial opinion; no appeal in source)",
+  "finalAmount": 424172.72,
+  "finalNote": "Trial-level post-trial opinion; no appeal reflected."
  },
  "source": {
   "caseName": "Navient Solutions, LLC v. BPG Office Partners XIII Iron Hill LLC and Office Partners XIII Iron Hill LLC",

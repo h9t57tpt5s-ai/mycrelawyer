@@ -13,8 +13,12 @@ window.BACKTEST_RESULTS = {
     "allInHits": 6,
     "allInScorable": 23,
     "medianBestGuessError": -0.35,
-    "holdoutHits": 2,
-    "holdoutScorable": 6,
+    "finalHits": 6,
+    "finalScorable": 17,
+    "finalPending": 6,
+    "correctedOnAppeal": 1,
+    "holdoutHits": 1,
+    "holdoutScorable": 5,
     "medianCaseRatio": 0.679,
     "aggregatePredicted": 75273861,
     "aggregateActual": 113955593,
@@ -23,6 +27,17 @@ window.BACKTEST_RESULTS = {
    "cases": [
     {
      "id": "721-st-charles-crd-2025",
+     "final": {
+      "predictedRange": [
+       22400,
+       93349
+      ],
+      "actual": 53038.94,
+      "hit": true,
+      "note": "Reduced on appeal to a 50 percent share.",
+      "correctedTowardPrediction": true,
+      "pending": false
+     },
      "caseName": "721 St. Charles, LLC v. Gibbs Residential, LLC and Commercial Realty Developers, LLC",
      "court": "Louisiana Court of Appeal, Fourth Circuit",
      "decided": "2025-05-08",
@@ -59,6 +74,17 @@ window.BACKTEST_RESULTS = {
     },
     {
      "id": "carmel-barham-dealership-2023",
+     "final": {
+      "predictedRange": [
+       150500,
+       358000
+      ],
+      "actual": null,
+      "hit": null,
+      "note": "Reversed and remanded; no final figure yet.",
+      "correctedTowardPrediction": false,
+      "pending": true
+     },
      "caseName": "City of Carmel v. Barham Investments, LLC, Marion County Treasurer, and Coast to Coast Carmel Corporation",
      "court": "Court of Appeals of Indiana",
      "decided": "2023-10-30",
@@ -95,6 +121,14 @@ window.BACKTEST_RESULTS = {
     },
     {
      "id": "cumberland-lakefront-blackwing-2025",
+     "final": {
+      "predictedRange": null,
+      "actual": 444055.13,
+      "hit": null,
+      "note": "Affirmed.",
+      "correctedTowardPrediction": false,
+      "pending": false
+     },
      "caseName": "Cumberland Lakefront B, LLC v. Blackwing, LLC, et al.",
      "court": "Court of Appeals of Ohio, Eighth Appellate District, Cuyahoga County (appeal from Cuyahoga County Court of Common Pleas Nos. CV-21-953921 and CV-21-953922)",
      "decided": "2025-04-10",
@@ -127,6 +161,17 @@ window.BACKTEST_RESULTS = {
     },
     {
      "id": "dover-mall-v-tang-2023",
+     "final": {
+      "predictedRange": [
+       67500,
+       179458
+      ],
+      "actual": 276089.72,
+      "hit": false,
+      "note": "Trial-level decision; no appeal reflected.",
+      "correctedTowardPrediction": false,
+      "pending": false
+     },
      "caseName": "Dover Mall, LLC v. Sam Tang",
      "court": "Delaware Superior Court (Kent County), Resident Judge Jeffrey J Clark",
      "decided": "2023-10-05",
@@ -163,6 +208,17 @@ window.BACKTEST_RESULTS = {
     },
     {
      "id": "edgemere-lawal-2025",
+     "final": {
+      "predictedRange": [
+       0,
+       0
+      ],
+      "actual": 5000,
+      "hit": false,
+      "note": "Reduced on appeal to the $5,000 security deposit.",
+      "correctedTowardPrediction": false,
+      "pending": false
+     },
      "caseName": "Edgemere Loop 375, LLC v. Lookman Lawal, M.D., and Southwestern Cardiac Arrhythmia Institute, P.A.",
      "court": "Court of Appeals of Texas, Eighth District (El Paso)",
      "decided": "2025-05-27",
@@ -199,6 +255,17 @@ window.BACKTEST_RESULTS = {
     },
     {
      "id": "empower-school-v-covenant-2026",
+     "final": {
+      "predictedRange": [
+       48146,
+       67404
+      ],
+      "actual": null,
+      "hit": null,
+      "note": "Reversed and remanded; no final figure yet.",
+      "correctedTowardPrediction": false,
+      "pending": true
+     },
      "caseName": "Empower School, LLC v. Covenant Management Systems, LP",
      "court": "Texas Court of Appeals, Third District, at Austin (appeal from 53rd District Court of Travis County, No. D-1-GN-20-002332)",
      "decided": "2026-07-03",
@@ -235,6 +302,17 @@ window.BACKTEST_RESULTS = {
     },
     {
      "id": "four-elyria-brexton-2025",
+     "final": {
+      "predictedRange": [
+       40000,
+       245000
+      ],
+      "actual": null,
+      "hit": null,
+      "note": "Reversed in part and remanded; no final figure yet.",
+      "correctedTowardPrediction": false,
+      "pending": true
+     },
      "caseName": "Four Elyria Co., L.L.C. v. Brexton Constr., L.L.C.",
      "court": "Court of Appeals of Ohio, Ninth Appellate District (Lorain County)",
      "decided": "2025-05-19",
@@ -271,6 +349,17 @@ window.BACKTEST_RESULTS = {
     },
     {
      "id": "franciscan-cvs-i69-2023",
+     "final": {
+      "predictedRange": [
+       1081450,
+       4327400
+      ],
+      "actual": 44000,
+      "hit": false,
+      "note": "Reversed: only the strip taking is compensable, about $40,500-$47,400 on the record; midpoint used.",
+      "correctedTowardPrediction": false,
+      "pending": false
+     },
      "caseName": "State of Indiana v. Franciscan Alliance, Inc. f/k/a Sisters of St. Francis Health Services, Inc.; The Market Place at State Road 37, LLC; Hook SupeRX, LLC; SCP 2010-C36-018 LLC; and Johnson County, Indiana",
      "court": "Court of Appeals of Indiana",
      "decided": "2023-11-28",
@@ -307,6 +396,17 @@ window.BACKTEST_RESULTS = {
     },
     {
      "id": "frye-v-raphaelson-estate-2023",
+     "final": {
+      "predictedRange": [
+       11000,
+       116250
+      ],
+      "actual": 44000,
+      "hit": true,
+      "note": "Trial-level report; no appeal reflected.",
+      "correctedTowardPrediction": false,
+      "pending": false
+     },
      "caseName": "Frye v. Estate of Raphaelson",
      "court": "Delaware Court of Chancery (Magistrate in Chancery, final post-trial report)",
      "decided": "2023-08-31",
@@ -343,6 +443,17 @@ window.BACKTEST_RESULTS = {
     },
     {
      "id": "gsl-investments-v-bella-nails-2026",
+     "final": {
+      "predictedRange": [
+       88126,
+       107516
+      ],
+      "actual": 120128.72,
+      "hit": false,
+      "note": "Affirmed.",
+      "correctedTowardPrediction": false,
+      "pending": false
+     },
      "caseName": "GSL Investments I, LLC v. Bella Nails & Spa, LLC, et al.",
      "court": "Ohio Court of Appeals, Twelfth District, Butler County (appeal from Butler County Court of Common Pleas, Case No. CV 2024 02 0451)",
      "decided": "2026-07-27",
@@ -379,6 +490,17 @@ window.BACKTEST_RESULTS = {
     },
     {
      "id": "hurt-v-caton-2025",
+     "final": {
+      "predictedRange": [
+       204921,
+       287945
+      ],
+      "actual": null,
+      "hit": null,
+      "note": "Summary judgment reversed and remanded; no final figure yet.",
+      "correctedTowardPrediction": false,
+      "pending": true
+     },
      "caseName": "Charles W. Hurt and Shirley L. Fisher, as Trustees of the South Pantops II Land Trust v. Douglas E. Caton",
      "court": "Court of Appeals of Virginia (published), on appeal from the Circuit Court of Albemarle County",
      "decided": "2025-03-04",
@@ -415,6 +537,17 @@ window.BACKTEST_RESULTS = {
     },
     {
      "id": "island-girl-outfitters-v-allied-development-2025",
+     "final": {
+      "predictedRange": [
+       8150,
+       105092
+      ],
+      "actual": 94350,
+      "hit": true,
+      "note": "Affirmed.",
+      "correctedTowardPrediction": false,
+      "pending": false
+     },
      "caseName": "Island Girl Outfitters, LLC, and Anthony S. Carver v. Allied Development of Alabama, LLC",
      "court": "Supreme Court of Alabama (appeal from Baldwin Circuit Court)",
      "decided": "2025-03-21",
@@ -451,6 +584,17 @@ window.BACKTEST_RESULTS = {
     },
     {
      "id": "kotis-associates-v-united-states-2025",
+     "final": {
+      "predictedRange": [
+       14550000,
+       42590000
+      ],
+      "actual": 42641740,
+      "hit": false,
+      "note": "No appeal reflected.",
+      "correctedTowardPrediction": false,
+      "pending": false
+     },
      "caseName": "Kotis Associates, LLC, et al. v. United States",
      "court": "United States Court of Federal Claims (trial-level opinion and order after valuation trial, Senior Judge Loren A. Smith)",
      "decided": "2025-04-23",
@@ -487,6 +631,17 @@ window.BACKTEST_RESULTS = {
     },
     {
      "id": "lagoon-partners-landmark-2023",
+     "final": {
+      "predictedRange": [
+       864160,
+       1630770
+      ],
+      "actual": null,
+      "hit": null,
+      "note": "Reversed (liquidated-damages clause unenforceable) and remanded; no final figure yet.",
+      "correctedTowardPrediction": false,
+      "pending": true
+     },
      "caseName": "Lagoon Partners, LLC v. Silver Cinemas Acquisition Co., d/b/a Landmark Theatres",
      "court": "Minnesota Court of Appeals",
      "decided": "2023-12-11",
@@ -523,6 +678,17 @@ window.BACKTEST_RESULTS = {
     },
     {
      "id": "lbj-venture-v-kolaj-2025",
+     "final": {
+      "predictedRange": [
+       110613,
+       222937
+      ],
+      "actual": 96072.49,
+      "hit": false,
+      "note": "Damages affirmed; fee denial reversed and remanded.",
+      "correctedTowardPrediction": false,
+      "pending": false
+     },
      "caseName": "202 N LBJ Venture Group, LP v. Paul Kolaj and Modesta Kolaj",
      "court": "Texas Court of Appeals, Third District (Austin), on appeal from the 207th District Court of Hays County",
      "decided": "2025-03-06",
@@ -559,6 +725,17 @@ window.BACKTEST_RESULTS = {
     },
     {
      "id": "mckinney-v-park-plaza-properties-2026",
+     "final": {
+      "predictedRange": [
+       17936,
+       135305
+      ],
+      "actual": 51336.45,
+      "hit": true,
+      "note": "Affirmed; the denial of reletting costs was reversed on cross-appeal and remanded, so the final total could rise.",
+      "correctedTowardPrediction": false,
+      "pending": false
+     },
      "caseName": "Shayne McKinney v. Park Plaza Properties, LLC",
      "court": "Arkansas Court of Appeals, Division IV, on appeal from Sebastian County Circuit Court, Fort Smith District",
      "decided": "2026-09-02",
@@ -595,6 +772,17 @@ window.BACKTEST_RESULTS = {
     },
     {
      "id": "navient-v-bpg-office-partners-2023",
+     "final": {
+      "predictedRange": [
+       534091,
+       1079061
+      ],
+      "actual": 424172.72,
+      "hit": false,
+      "note": "Trial-level post-trial opinion; no appeal reflected.",
+      "correctedTowardPrediction": false,
+      "pending": false
+     },
      "caseName": "Navient Solutions, LLC v. BPG Office Partners XIII Iron Hill LLC and Office Partners XIII Iron Hill LLC",
      "court": "Superior Court of the State of Delaware (LeGrow, J.)",
      "decided": "2023-04-27",
@@ -631,6 +819,17 @@ window.BACKTEST_RESULTS = {
     },
     {
      "id": "nco-montgomery-park-2025",
+     "final": {
+      "predictedRange": [
+       2000000,
+       6600000
+      ],
+      "actual": 9854566.95,
+      "hit": false,
+      "note": "Affirmed.",
+      "correctedTowardPrediction": false,
+      "pending": false
+     },
      "caseName": "NCO Financial Systems, Inc. v. Montgomery Park, LLC",
      "court": "U.S. Court of Appeals for the Fourth Circuit (appeal from D. Md., No. 1:11-cv-01020-GLR)",
      "decided": "2025-04-14",
@@ -667,6 +866,14 @@ window.BACKTEST_RESULTS = {
     },
     {
      "id": "shaw-v-am-development-2026",
+     "final": {
+      "predictedRange": null,
+      "actual": 257216,
+      "hit": null,
+      "note": "Affirmed.",
+      "correctedTowardPrediction": false,
+      "pending": false
+     },
      "caseName": "The Law Office of Melvin O. Shaw, P.L.C. v. A & M Development, L.L.C.",
      "court": "Iowa Court of Appeals (appeal from Iowa District Court for Johnson County)",
      "decided": "2026-08-19",
@@ -697,6 +904,17 @@ window.BACKTEST_RESULTS = {
     },
     {
      "id": "telegraph-square-7205-2023",
+     "final": {
+      "predictedRange": [
+       50000,
+       750000
+      ],
+      "actual": 481434.84,
+      "hit": true,
+      "note": "Affirmed, including after rehearing en banc.",
+      "correctedTowardPrediction": false,
+      "pending": false
+     },
      "caseName": "Telegraph Square II, a Condominium Unit Owners Association v. 7205 Telegraph Square, LLC",
      "court": "Court of Appeals of Virginia (panel opinion Apr. 25, 2023; rehearing en banc granted June 6, 2023; Dec. 19, 2023 published order lifting stay, judgment remains affirmed)",
      "decided": "2023-12-19",
@@ -733,6 +951,17 @@ window.BACKTEST_RESULTS = {
     },
     {
      "id": "tres-botes-v-shree-maa-krupa-2026",
+     "final": {
+      "predictedRange": [
+       85250,
+       288280
+      ],
+      "actual": 79096.44,
+      "hit": false,
+      "note": "$79,096.44 affirmed; the $108,000 Dos Botes award reversed and remanded, so the final total could rise.",
+      "correctedTowardPrediction": false,
+      "pending": false
+     },
      "caseName": "Tres Botes, LLC & Dos Botes Entertainment, Inc. v. Shree Maa Krupa Properties, Ltd. & SDP Hotel, LLC",
      "court": "Texas Court of Appeals, Thirteenth District (Corpus Christi-Edinburg), on appeal from County Court at Law No. 3, Cameron County",
      "decided": "2026-09-17",
@@ -769,6 +998,17 @@ window.BACKTEST_RESULTS = {
     },
     {
      "id": "udot-boggess-draper-2025",
+     "final": {
+      "predictedRange": [
+       150000,
+       1100000
+      ],
+      "actual": null,
+      "hit": null,
+      "note": "Reversed for a new trial; no final figure yet.",
+      "correctedTowardPrediction": false,
+      "pending": true
+     },
      "caseName": "Utah Department of Transportation v. Boggess-Draper Company, LLC",
      "court": "Utah Court of Appeals",
      "decided": "2025-05-01",
@@ -805,6 +1045,17 @@ window.BACKTEST_RESULTS = {
     },
     {
      "id": "universal-shopping-plaza-v-hong-2026",
+     "final": {
+      "predictedRange": [
+       42625,
+       85192
+      ],
+      "actual": 0,
+      "hit": false,
+      "note": "Reversed: the three-day notice was void, so the landlord takes nothing in this action.",
+      "correctedTowardPrediction": false,
+      "pending": false
+     },
      "caseName": "Universal Shopping Plaza v. Piong Bin Hong",
      "court": "California Court of Appeal, Second District, Division Seven, on appeal from Los Angeles County Superior Court",
      "decided": "2026-09-09",
@@ -841,6 +1092,17 @@ window.BACKTEST_RESULTS = {
     },
     {
      "id": "usbank-br-penn-realty-2025",
+     "final": {
+      "predictedRange": [
+       28080000,
+       41661810
+      ],
+      "actual": 51392086.96,
+      "hit": false,
+      "note": "Affirmed.",
+      "correctedTowardPrediction": false,
+      "pending": false
+     },
      "caseName": "US Bank NA, as Trustee for the Registered Holders of J.P. Morgan Chase Commercial Mortgage Securities Corp., Multifamily Mortgage Pass-Through Certificates, Series 2012-K18 v. B R Penn Realty Owner LP",
      "court": "United States Court of Appeals for the Third Circuit (precedential)",
      "decided": "2025-05-08",
@@ -877,6 +1139,17 @@ window.BACKTEST_RESULTS = {
     },
     {
      "id": "williamson-music-v-eqyinvest-2026",
+     "final": {
+      "predictedRange": [
+       136250,
+       173835
+      ],
+      "actual": 170484.37,
+      "hit": true,
+      "note": "Rent damages affirmed; fee award reversed.",
+      "correctedTowardPrediction": false,
+      "pending": false
+     },
      "caseName": "Williamson Music 1st, LLC, and Raymond Gore v. EQYInvest Owner II, Ltd., LLP",
      "court": "Texas Sixth Court of Appeals (transferred from the Second), on appeal from the 342nd District Court, Tarrant County",
      "decided": "2026-09-15",
@@ -924,8 +1197,12 @@ window.BACKTEST_RESULTS = {
   "allInHits": 6,
   "allInScorable": 23,
   "medianBestGuessError": -0.35,
-  "holdoutHits": 2,
-  "holdoutScorable": 6,
+  "finalHits": 6,
+  "finalScorable": 17,
+  "finalPending": 6,
+  "correctedOnAppeal": 1,
+  "holdoutHits": 1,
+  "holdoutScorable": 5,
   "medianCaseRatio": 0.679,
   "aggregatePredicted": 75273861,
   "aggregateActual": 113955593,
@@ -934,6 +1211,17 @@ window.BACKTEST_RESULTS = {
  "cases": [
   {
    "id": "721-st-charles-crd-2025",
+   "final": {
+    "predictedRange": [
+     22400,
+     93349
+    ],
+    "actual": 53038.94,
+    "hit": true,
+    "note": "Reduced on appeal to a 50 percent share.",
+    "correctedTowardPrediction": true,
+    "pending": false
+   },
    "caseName": "721 St. Charles, LLC v. Gibbs Residential, LLC and Commercial Realty Developers, LLC",
    "court": "Louisiana Court of Appeal, Fourth Circuit",
    "decided": "2025-05-08",
@@ -970,6 +1258,17 @@ window.BACKTEST_RESULTS = {
   },
   {
    "id": "carmel-barham-dealership-2023",
+   "final": {
+    "predictedRange": [
+     150500,
+     358000
+    ],
+    "actual": null,
+    "hit": null,
+    "note": "Reversed and remanded; no final figure yet.",
+    "correctedTowardPrediction": false,
+    "pending": true
+   },
    "caseName": "City of Carmel v. Barham Investments, LLC, Marion County Treasurer, and Coast to Coast Carmel Corporation",
    "court": "Court of Appeals of Indiana",
    "decided": "2023-10-30",
@@ -1006,6 +1305,14 @@ window.BACKTEST_RESULTS = {
   },
   {
    "id": "cumberland-lakefront-blackwing-2025",
+   "final": {
+    "predictedRange": null,
+    "actual": 444055.13,
+    "hit": null,
+    "note": "Affirmed.",
+    "correctedTowardPrediction": false,
+    "pending": false
+   },
    "caseName": "Cumberland Lakefront B, LLC v. Blackwing, LLC, et al.",
    "court": "Court of Appeals of Ohio, Eighth Appellate District, Cuyahoga County (appeal from Cuyahoga County Court of Common Pleas Nos. CV-21-953921 and CV-21-953922)",
    "decided": "2025-04-10",
@@ -1038,6 +1345,17 @@ window.BACKTEST_RESULTS = {
   },
   {
    "id": "dover-mall-v-tang-2023",
+   "final": {
+    "predictedRange": [
+     67500,
+     179458
+    ],
+    "actual": 276089.72,
+    "hit": false,
+    "note": "Trial-level decision; no appeal reflected.",
+    "correctedTowardPrediction": false,
+    "pending": false
+   },
    "caseName": "Dover Mall, LLC v. Sam Tang",
    "court": "Delaware Superior Court (Kent County), Resident Judge Jeffrey J Clark",
    "decided": "2023-10-05",
@@ -1074,6 +1392,17 @@ window.BACKTEST_RESULTS = {
   },
   {
    "id": "edgemere-lawal-2025",
+   "final": {
+    "predictedRange": [
+     0,
+     0
+    ],
+    "actual": 5000,
+    "hit": false,
+    "note": "Reduced on appeal to the $5,000 security deposit.",
+    "correctedTowardPrediction": false,
+    "pending": false
+   },
    "caseName": "Edgemere Loop 375, LLC v. Lookman Lawal, M.D., and Southwestern Cardiac Arrhythmia Institute, P.A.",
    "court": "Court of Appeals of Texas, Eighth District (El Paso)",
    "decided": "2025-05-27",
@@ -1110,6 +1439,17 @@ window.BACKTEST_RESULTS = {
   },
   {
    "id": "empower-school-v-covenant-2026",
+   "final": {
+    "predictedRange": [
+     48146,
+     67404
+    ],
+    "actual": null,
+    "hit": null,
+    "note": "Reversed and remanded; no final figure yet.",
+    "correctedTowardPrediction": false,
+    "pending": true
+   },
    "caseName": "Empower School, LLC v. Covenant Management Systems, LP",
    "court": "Texas Court of Appeals, Third District, at Austin (appeal from 53rd District Court of Travis County, No. D-1-GN-20-002332)",
    "decided": "2026-07-03",
@@ -1146,6 +1486,17 @@ window.BACKTEST_RESULTS = {
   },
   {
    "id": "four-elyria-brexton-2025",
+   "final": {
+    "predictedRange": [
+     40000,
+     245000
+    ],
+    "actual": null,
+    "hit": null,
+    "note": "Reversed in part and remanded; no final figure yet.",
+    "correctedTowardPrediction": false,
+    "pending": true
+   },
    "caseName": "Four Elyria Co., L.L.C. v. Brexton Constr., L.L.C.",
    "court": "Court of Appeals of Ohio, Ninth Appellate District (Lorain County)",
    "decided": "2025-05-19",
@@ -1182,6 +1533,17 @@ window.BACKTEST_RESULTS = {
   },
   {
    "id": "franciscan-cvs-i69-2023",
+   "final": {
+    "predictedRange": [
+     1081450,
+     4327400
+    ],
+    "actual": 44000,
+    "hit": false,
+    "note": "Reversed: only the strip taking is compensable, about $40,500-$47,400 on the record; midpoint used.",
+    "correctedTowardPrediction": false,
+    "pending": false
+   },
    "caseName": "State of Indiana v. Franciscan Alliance, Inc. f/k/a Sisters of St. Francis Health Services, Inc.; The Market Place at State Road 37, LLC; Hook SupeRX, LLC; SCP 2010-C36-018 LLC; and Johnson County, Indiana",
    "court": "Court of Appeals of Indiana",
    "decided": "2023-11-28",
@@ -1218,6 +1580,17 @@ window.BACKTEST_RESULTS = {
   },
   {
    "id": "frye-v-raphaelson-estate-2023",
+   "final": {
+    "predictedRange": [
+     11000,
+     116250
+    ],
+    "actual": 44000,
+    "hit": true,
+    "note": "Trial-level report; no appeal reflected.",
+    "correctedTowardPrediction": false,
+    "pending": false
+   },
    "caseName": "Frye v. Estate of Raphaelson",
    "court": "Delaware Court of Chancery (Magistrate in Chancery, final post-trial report)",
    "decided": "2023-08-31",
@@ -1254,6 +1627,17 @@ window.BACKTEST_RESULTS = {
   },
   {
    "id": "gsl-investments-v-bella-nails-2026",
+   "final": {
+    "predictedRange": [
+     88126,
+     107516
+    ],
+    "actual": 120128.72,
+    "hit": false,
+    "note": "Affirmed.",
+    "correctedTowardPrediction": false,
+    "pending": false
+   },
    "caseName": "GSL Investments I, LLC v. Bella Nails & Spa, LLC, et al.",
    "court": "Ohio Court of Appeals, Twelfth District, Butler County (appeal from Butler County Court of Common Pleas, Case No. CV 2024 02 0451)",
    "decided": "2026-07-27",
@@ -1290,6 +1674,17 @@ window.BACKTEST_RESULTS = {
   },
   {
    "id": "hurt-v-caton-2025",
+   "final": {
+    "predictedRange": [
+     204921,
+     287945
+    ],
+    "actual": null,
+    "hit": null,
+    "note": "Summary judgment reversed and remanded; no final figure yet.",
+    "correctedTowardPrediction": false,
+    "pending": true
+   },
    "caseName": "Charles W. Hurt and Shirley L. Fisher, as Trustees of the South Pantops II Land Trust v. Douglas E. Caton",
    "court": "Court of Appeals of Virginia (published), on appeal from the Circuit Court of Albemarle County",
    "decided": "2025-03-04",
@@ -1326,6 +1721,17 @@ window.BACKTEST_RESULTS = {
   },
   {
    "id": "island-girl-outfitters-v-allied-development-2025",
+   "final": {
+    "predictedRange": [
+     8150,
+     105092
+    ],
+    "actual": 94350,
+    "hit": true,
+    "note": "Affirmed.",
+    "correctedTowardPrediction": false,
+    "pending": false
+   },
    "caseName": "Island Girl Outfitters, LLC, and Anthony S. Carver v. Allied Development of Alabama, LLC",
    "court": "Supreme Court of Alabama (appeal from Baldwin Circuit Court)",
    "decided": "2025-03-21",
@@ -1362,6 +1768,17 @@ window.BACKTEST_RESULTS = {
   },
   {
    "id": "kotis-associates-v-united-states-2025",
+   "final": {
+    "predictedRange": [
+     14550000,
+     42590000
+    ],
+    "actual": 42641740,
+    "hit": false,
+    "note": "No appeal reflected.",
+    "correctedTowardPrediction": false,
+    "pending": false
+   },
    "caseName": "Kotis Associates, LLC, et al. v. United States",
    "court": "United States Court of Federal Claims (trial-level opinion and order after valuation trial, Senior Judge Loren A. Smith)",
    "decided": "2025-04-23",
@@ -1398,6 +1815,17 @@ window.BACKTEST_RESULTS = {
   },
   {
    "id": "lagoon-partners-landmark-2023",
+   "final": {
+    "predictedRange": [
+     864160,
+     1630770
+    ],
+    "actual": null,
+    "hit": null,
+    "note": "Reversed (liquidated-damages clause unenforceable) and remanded; no final figure yet.",
+    "correctedTowardPrediction": false,
+    "pending": true
+   },
    "caseName": "Lagoon Partners, LLC v. Silver Cinemas Acquisition Co., d/b/a Landmark Theatres",
    "court": "Minnesota Court of Appeals",
    "decided": "2023-12-11",
@@ -1434,6 +1862,17 @@ window.BACKTEST_RESULTS = {
   },
   {
    "id": "lbj-venture-v-kolaj-2025",
+   "final": {
+    "predictedRange": [
+     110613,
+     222937
+    ],
+    "actual": 96072.49,
+    "hit": false,
+    "note": "Damages affirmed; fee denial reversed and remanded.",
+    "correctedTowardPrediction": false,
+    "pending": false
+   },
    "caseName": "202 N LBJ Venture Group, LP v. Paul Kolaj and Modesta Kolaj",
    "court": "Texas Court of Appeals, Third District (Austin), on appeal from the 207th District Court of Hays County",
    "decided": "2025-03-06",
@@ -1470,6 +1909,17 @@ window.BACKTEST_RESULTS = {
   },
   {
    "id": "mckinney-v-park-plaza-properties-2026",
+   "final": {
+    "predictedRange": [
+     17936,
+     135305
+    ],
+    "actual": 51336.45,
+    "hit": true,
+    "note": "Affirmed; the denial of reletting costs was reversed on cross-appeal and remanded, so the final total could rise.",
+    "correctedTowardPrediction": false,
+    "pending": false
+   },
    "caseName": "Shayne McKinney v. Park Plaza Properties, LLC",
    "court": "Arkansas Court of Appeals, Division IV, on appeal from Sebastian County Circuit Court, Fort Smith District",
    "decided": "2026-09-02",
@@ -1506,6 +1956,17 @@ window.BACKTEST_RESULTS = {
   },
   {
    "id": "navient-v-bpg-office-partners-2023",
+   "final": {
+    "predictedRange": [
+     534091,
+     1079061
+    ],
+    "actual": 424172.72,
+    "hit": false,
+    "note": "Trial-level post-trial opinion; no appeal reflected.",
+    "correctedTowardPrediction": false,
+    "pending": false
+   },
    "caseName": "Navient Solutions, LLC v. BPG Office Partners XIII Iron Hill LLC and Office Partners XIII Iron Hill LLC",
    "court": "Superior Court of the State of Delaware (LeGrow, J.)",
    "decided": "2023-04-27",
@@ -1542,6 +2003,17 @@ window.BACKTEST_RESULTS = {
   },
   {
    "id": "nco-montgomery-park-2025",
+   "final": {
+    "predictedRange": [
+     2000000,
+     6600000
+    ],
+    "actual": 9854566.95,
+    "hit": false,
+    "note": "Affirmed.",
+    "correctedTowardPrediction": false,
+    "pending": false
+   },
    "caseName": "NCO Financial Systems, Inc. v. Montgomery Park, LLC",
    "court": "U.S. Court of Appeals for the Fourth Circuit (appeal from D. Md., No. 1:11-cv-01020-GLR)",
    "decided": "2025-04-14",
@@ -1578,6 +2050,14 @@ window.BACKTEST_RESULTS = {
   },
   {
    "id": "shaw-v-am-development-2026",
+   "final": {
+    "predictedRange": null,
+    "actual": 257216,
+    "hit": null,
+    "note": "Affirmed.",
+    "correctedTowardPrediction": false,
+    "pending": false
+   },
    "caseName": "The Law Office of Melvin O. Shaw, P.L.C. v. A & M Development, L.L.C.",
    "court": "Iowa Court of Appeals (appeal from Iowa District Court for Johnson County)",
    "decided": "2026-08-19",
@@ -1608,6 +2088,17 @@ window.BACKTEST_RESULTS = {
   },
   {
    "id": "telegraph-square-7205-2023",
+   "final": {
+    "predictedRange": [
+     50000,
+     750000
+    ],
+    "actual": 481434.84,
+    "hit": true,
+    "note": "Affirmed, including after rehearing en banc.",
+    "correctedTowardPrediction": false,
+    "pending": false
+   },
    "caseName": "Telegraph Square II, a Condominium Unit Owners Association v. 7205 Telegraph Square, LLC",
    "court": "Court of Appeals of Virginia (panel opinion Apr. 25, 2023; rehearing en banc granted June 6, 2023; Dec. 19, 2023 published order lifting stay, judgment remains affirmed)",
    "decided": "2023-12-19",
@@ -1644,6 +2135,17 @@ window.BACKTEST_RESULTS = {
   },
   {
    "id": "tres-botes-v-shree-maa-krupa-2026",
+   "final": {
+    "predictedRange": [
+     85250,
+     288280
+    ],
+    "actual": 79096.44,
+    "hit": false,
+    "note": "$79,096.44 affirmed; the $108,000 Dos Botes award reversed and remanded, so the final total could rise.",
+    "correctedTowardPrediction": false,
+    "pending": false
+   },
    "caseName": "Tres Botes, LLC & Dos Botes Entertainment, Inc. v. Shree Maa Krupa Properties, Ltd. & SDP Hotel, LLC",
    "court": "Texas Court of Appeals, Thirteenth District (Corpus Christi-Edinburg), on appeal from County Court at Law No. 3, Cameron County",
    "decided": "2026-09-17",
@@ -1680,6 +2182,17 @@ window.BACKTEST_RESULTS = {
   },
   {
    "id": "udot-boggess-draper-2025",
+   "final": {
+    "predictedRange": [
+     150000,
+     1100000
+    ],
+    "actual": null,
+    "hit": null,
+    "note": "Reversed for a new trial; no final figure yet.",
+    "correctedTowardPrediction": false,
+    "pending": true
+   },
    "caseName": "Utah Department of Transportation v. Boggess-Draper Company, LLC",
    "court": "Utah Court of Appeals",
    "decided": "2025-05-01",
@@ -1716,6 +2229,17 @@ window.BACKTEST_RESULTS = {
   },
   {
    "id": "universal-shopping-plaza-v-hong-2026",
+   "final": {
+    "predictedRange": [
+     42625,
+     85192
+    ],
+    "actual": 0,
+    "hit": false,
+    "note": "Reversed: the three-day notice was void, so the landlord takes nothing in this action.",
+    "correctedTowardPrediction": false,
+    "pending": false
+   },
    "caseName": "Universal Shopping Plaza v. Piong Bin Hong",
    "court": "California Court of Appeal, Second District, Division Seven, on appeal from Los Angeles County Superior Court",
    "decided": "2026-09-09",
@@ -1752,6 +2276,17 @@ window.BACKTEST_RESULTS = {
   },
   {
    "id": "usbank-br-penn-realty-2025",
+   "final": {
+    "predictedRange": [
+     28080000,
+     41661810
+    ],
+    "actual": 51392086.96,
+    "hit": false,
+    "note": "Affirmed.",
+    "correctedTowardPrediction": false,
+    "pending": false
+   },
    "caseName": "US Bank NA, as Trustee for the Registered Holders of J.P. Morgan Chase Commercial Mortgage Securities Corp., Multifamily Mortgage Pass-Through Certificates, Series 2012-K18 v. B R Penn Realty Owner LP",
    "court": "United States Court of Appeals for the Third Circuit (precedential)",
    "decided": "2025-05-08",
@@ -1788,6 +2323,17 @@ window.BACKTEST_RESULTS = {
   },
   {
    "id": "williamson-music-v-eqyinvest-2026",
+   "final": {
+    "predictedRange": [
+     136250,
+     173835
+    ],
+    "actual": 170484.37,
+    "hit": true,
+    "note": "Rent damages affirmed; fee award reversed.",
+    "correctedTowardPrediction": false,
+    "pending": false
+   },
    "caseName": "Williamson Music 1st, LLC, and Raymond Gore v. EQYInvest Owner II, Ltd., LLP",
    "court": "Texas Sixth Court of Appeals (transferred from the Second), on appeal from the 342nd District Court, Tarrant County",
    "decided": "2026-09-15",

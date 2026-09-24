@@ -59,7 +59,9 @@
   "date": "2023-10-05",
   "description": "The Superior Court granted the landlord summary judgment on liability and damages in the amount of $276,089.72, the full amount demanded, holding the force majeure clause allocated pandemic-closure risk to the tenant and two lease provisions relieved the landlord of any duty to relet. No attorney's fee award is stated. This is a trial-level decision; no appeal is reflected in the opinion.",
   "attorneysFeesAtTrial": null,
-  "appellateChange": "n/a (trial-level decision; no appeal in opinion)"
+  "appellateChange": "n/a (trial-level decision; no appeal in opinion)",
+  "finalAmount": 276089.72,
+  "finalNote": "Trial-level decision; no appeal reflected."
  },
  "source": {
   "caseName": "Dover Mall, LLC v. Sam Tang",

@@ -87,7 +87,9 @@
   "date": "2025-04-23",
   "description": "After the valuation trial the Court of Federal Claims adopted Dr. Kilpatrick's before-and-after values for all thirteen parcels but struck his privacy-wall component, awarding just compensation of $42,641,740 (before values $66,179,431, after values $23,537,691) plus interest at the Moody's Aaa corporate bond rate compounded annually, against a demand of $44,744,774; it also denied the government's motion to reopen the record. No attorneys' fees were addressed in this opinion. This is the trial-level decision; no appellate ruling is reflected.",
   "attorneysFeesAtTrial": null,
-  "appellateChange": "affirmed"
+  "appellateChange": "affirmed",
+  "finalAmount": 42641740,
+  "finalNote": "No appeal reflected."
  },
  "source": {
   "caseName": "Kotis Associates, LLC, et al. v. United States",

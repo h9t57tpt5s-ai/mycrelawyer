@@ -50,8 +50,16 @@ def score(record):
     def err(pred, x):
         return None if pred is None or not x else round((pred - x) / x, 3)
 
+    final_amount = o.get("finalAmount")
+    final_hit = inside(exf, final_amount)
+    trial_hit = inside(exf, main_award)
     return {
         "id": record["id"],
+        # Primary score: what the case was ultimately worth after appeal.
+        # Null when the appellate court sent it back with no figure yet.
+        "final": {"predictedRange": exf, "actual": final_amount, "hit": final_hit, "note": o.get("finalNote"),
+                  "correctedTowardPrediction": bool(final_hit) and trial_hit is False,
+                  "pending": final_amount is None and not declined},
         "caseName": (record.get("source") or {}).get("caseName"),
         "court": (record.get("source") or {}).get("court"),
         "decided": (record.get("source") or {}).get("decided"),
@@ -84,8 +92,12 @@ def summarize(rows):
         "allInHits": sum(1 for r in scored if r["allIn"]["hit"]),
         "allInScorable": sum(1 for r in scored if r["allIn"]["hit"] is not None),
         "medianBestGuessError": None,
-        "holdoutHits": sum(1 for r in scored if r["holdout"] and r["exFees"]["hit"]),
-        "holdoutScorable": sum(1 for r in scored if r["holdout"] and r["exFees"]["hit"] is not None),
+        "finalHits": sum(1 for r in scored if r["final"]["hit"]),
+        "finalScorable": sum(1 for r in scored if r["final"]["hit"] is not None),
+        "finalPending": sum(1 for r in scored if r["final"]["pending"]),
+        "correctedOnAppeal": sum(1 for r in scored if r["final"]["correctedTowardPrediction"]),
+        "holdoutHits": sum(1 for r in scored if r["holdout"] and r["final"]["hit"]),
+        "holdoutScorable": sum(1 for r in scored if r["holdout"] and r["final"]["hit"] is not None),
     }
     errs = sorted(r["allIn"]["bestGuessError"] for r in scored if r["allIn"]["bestGuessError"] is not None)
     if errs:
@@ -119,7 +131,7 @@ def main():
     for v, data in versions.items():
         print(v, json.dumps(data["summary"]))
         for r in data["cases"]:
-            print(f"  {'H ' if r['holdout'] else '  '}{r['id']}: ex-fees {r['exFees']['predictedRange']} vs {r['exFees']['actual']} -> {r['exFees']['hit']}")
+            print(f"  {'H ' if r['holdout'] else '  '}{r['id']}: range {r['exFees']['predictedRange']} | final {r['final']['actual']} -> {r['final']['hit']}{' (corrected on appeal)' if r['final']['correctedTowardPrediction'] else ''} | trial {r['exFees']['actual']} -> {r['exFees']['hit']}")
 
 
 if __name__ == "__main__":

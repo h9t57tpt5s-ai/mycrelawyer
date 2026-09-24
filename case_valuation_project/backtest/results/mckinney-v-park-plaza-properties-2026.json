@@ -118,7 +118,9 @@
   "date": "2026-09-02",
   "description": "After a bench trial the circuit court found the lease effective date was modified to May 1, 2022, that the landlord did not breach and the tenants did, and entered judgment against the tenants and guarantors jointly and severally for $51,336.45 (back rent of $45,736.45 plus $5,600 demolition costs, each equal to the component the landlord requested), declining the $107,781.91 landlord's-work and $143,777.60 reletting-cost claims; no attorney's fees are mentioned. The court of appeals affirmed the judgment on direct appeal and, on cross-appeal, reversed the denial of reletting costs and remanded for findings on whether the $143,777.60 qualifies as reasonable reletting costs under the lease.",
   "attorneysFeesAtTrial": null,
-  "appellateChange": "affirmed"
+  "appellateChange": "affirmed",
+  "finalAmount": 51336.45,
+  "finalNote": "Affirmed; the denial of reletting costs was reversed on cross-appeal and remanded, so the final total could rise."
  },
  "source": {
   "caseName": "Shayne McKinney v. Park Plaza Properties, LLC",
