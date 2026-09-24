@@ -1,12 +1,69 @@
 {
  "id": "frye-v-raphaelson-estate-2023",
- "ranAt": "2026-09-24T22:57:17+00:00",
- "status": 504,
- "prediction": null,
- "error": {
-  "code": "IDLE_TIMEOUT",
-  "message": "Request idle timeout limit (150s) reached"
+ "ranAt": "2026-09-24T23:07:21+00:00",
+ "status": 200,
+ "prediction": {
+  "model": "claude-sonnet-5",
+  "analysisVersion": "v2",
+  "category": "lease-disputes",
+  "roleLabel": "Landlord",
+  "damagesRange": [
+   -4999.999999999996,
+   160000
+  ],
+  "bestGuessValue": 41250,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": "The Estate is likely to recover a meaningful net award for Frye's post-revocation occupancy of the Dock Street Properties and the Commerce Property, but well below the $160,000 requested -- expect the recovery period to be trimmed to run from the April 2020 revocation (not January 2020) and the $5,000/month rate to be at least partially discounted given it rests on uncorroborated lay testimony, while Frye is likely to recover the documented $25,000 he paid toward the failed purchase as an offset, with little to nothing awarded on his undocumented improvement claims.",
+  "issues": [
+   {
+    "label": "Estate's Unjust Enrichment/Trespass Counterclaim for Occupancy Value",
+    "probabilityRange": [
+     0.55,
+     0.75
+    ],
+    "damagesRange": [
+     50000,
+     130000
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": 160000
+   },
+   {
+    "label": "Frye's Unjust Enrichment Claim -- Documented $25,000 Purchase Payment",
+    "probabilityRange": [
+     0.6,
+     0.85
+    ],
+    "damagesRange": [
+     -25000,
+     -15000
+    ],
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": -25000
+   },
+   {
+    "label": "Frye's Unjust Enrichment Claim -- Undocumented Repairs/Improvements",
+    "probabilityRange": [
+     0.1,
+     0.25
+    ],
+    "damagesRange": [
+     -45000,
+     -10000
+    ],
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": -45000
+   }
+  ],
+  "citationCoverage": {
+   "count": 39,
+   "tier": "strong"
+  }
  },
+ "error": null,
  "outcome": {
   "amount": 44000,
   "amountIsTheRequestedAmount": false,

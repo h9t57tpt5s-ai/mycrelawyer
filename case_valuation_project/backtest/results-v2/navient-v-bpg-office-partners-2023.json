@@ -1,12 +1,108 @@
 {
  "id": "navient-v-bpg-office-partners-2023",
- "ranAt": "2026-09-24T22:59:51+00:00",
- "status": 504,
- "prediction": null,
- "error": {
-  "code": "IDLE_TIMEOUT",
-  "message": "Request idle timeout limit (150s) reached"
+ "ranAt": "2026-09-24T23:10:28+00:00",
+ "status": 200,
+ "prediction": {
+  "model": "claude-sonnet-5",
+  "analysisVersion": "v2",
+  "category": "lease-disputes",
+  "roleLabel": "Tenant",
+  "damagesRange": [
+   196824,
+   503823
+  ],
+  "bestGuessValue": 308554.385,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": "Navient should recover its conceded $503,822.72 cooling tower claim in full, and BPG's counterclaim should be substantially reduced from its $817,845 ask \u2014 most sharply on the rooftop air units (where BPG's own witness conceded a $8,400 repair fix instead of $240,000 replacement) and the transformer (a strong SOL defense plus a weak betterment-style damages theory). The heat pump dispute is the closest call and could go either toward the ~$135,850 non-operational-unit figure or, less likely, closer to BPG's full $434,500 age-based theory. Netting it out, Navient likely walks away with a judgment in the roughly $200,000\u2013$420,000 range in its favor, before any fee award under the lease's prevailing-party clause.",
+  "issues": [
+   {
+    "label": "Cooling Tower Reimbursement (Conceded)",
+    "probabilityRange": [
+     0.97,
+     0.99
+    ],
+    "damagesRange": [
+     500000,
+     503823
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "conceded",
+    "supportedCeiling": 503823
+   },
+   {
+    "label": "Heat Pump Counterclaim",
+    "probabilityRange": [
+     0.4,
+     0.6
+    ],
+    "damagesRange": [
+     -300000,
+     -135850
+    ],
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": -434500
+   },
+   {
+    "label": "Rooftop Air Units Counterclaim",
+    "probabilityRange": [
+     0.65,
+     0.85
+    ],
+    "damagesRange": [
+     -50000,
+     -8400
+    ],
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": -240000
+   },
+   {
+    "label": "Transformer Counterclaim / Statute of Limitations Defense",
+    "probabilityRange": [
+     0.25,
+     0.45
+    ],
+    "damagesRange": [
+     -140000,
+     -70000
+    ],
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": -140000
+   },
+   {
+    "label": "Elevator Bracket Repair Counterclaim",
+    "probabilityRange": [
+     0.6,
+     0.8
+    ],
+    "damagesRange": [
+     -3345,
+     -2000
+    ],
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": -3345
+   },
+   {
+    "label": "Prevailing-Party Attorney's Fees",
+    "probabilityRange": [
+     0.45,
+     0.65
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "unknown",
+    "supportedCeiling": null
+   }
+  ],
+  "citationCoverage": {
+   "count": 39,
+   "tier": "strong"
+  }
  },
+ "error": null,
  "outcome": {
   "amount": 424172.72,
   "amountIsTheRequestedAmount": false,

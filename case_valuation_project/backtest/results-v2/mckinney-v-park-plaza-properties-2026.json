@@ -1,12 +1,116 @@
 {
  "id": "mckinney-v-park-plaza-properties-2026",
- "ranAt": "2026-09-24T22:54:44+00:00",
- "status": 504,
- "prediction": null,
- "error": {
-  "code": "IDLE_TIMEOUT",
-  "message": "Request idle timeout limit (150s) reached"
+ "ranAt": "2026-09-24T23:04:49+00:00",
+ "status": 200,
+ "prediction": {
+  "model": "claude-sonnet-5",
+  "analysisVersion": "v2",
+  "category": "lease-disputes",
+  "roleLabel": "Landlord",
+  "damagesRange": [
+   19282.100000000002,
+   302895.95999999996
+  ],
+  "bestGuessValue": 34203.775,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": "The court is likely to find the tenant liable for breach (nonpayment/failure to open is essentially admitted) but to substantially trim the landlord's damages \u2014 awarding most of the back rent and demolition costs while sharply discounting or denying the landlord's-work reimbursement and reletting-cost claims as either the landlord's own contractual obligation or an unreasonable mitigation expense. The tenant's first-breach counterclaim, strong on the floor evidence but weakened by the admitted lack of written notice, will likely reduce but not eliminate the landlord's recovery on back rent.",
+  "issues": [
+   {
+    "label": "Unpaid Rent",
+    "probabilityRange": [
+     0.55,
+     0.7
+    ],
+    "damagesRange": [
+     25155,
+     32015
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": 45736.45
+   },
+   {
+    "label": "Reletting Costs",
+    "probabilityRange": [
+     0.15,
+     0.35
+    ],
+    "damagesRange": [
+     21567,
+     50322
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": 143777.6
+   },
+   {
+    "label": "Landlord's-Work Reimbursement",
+    "probabilityRange": [
+     0.1,
+     0.25
+    ],
+    "damagesRange": [
+     10778,
+     26945
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": 107781.91
+   },
+   {
+    "label": "Demolition Costs",
+    "probabilityRange": [
+     0.45,
+     0.65
+    ],
+    "damagesRange": [
+     2520,
+     3640
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": 5600
+   },
+   {
+    "label": "Tenant's First-Breach / Failure-of-Condition-Precedent Counterclaim",
+    "probabilityRange": [
+     0.3,
+     0.5
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null
+   },
+   {
+    "label": "Effective Date / No-Oral-Modification Dispute",
+    "probabilityRange": [
+     0.4,
+     0.6
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null
+   },
+   {
+    "label": "Personal Guaranty Collectibility",
+    "probabilityRange": [
+     0.8,
+     0.95
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "unknown",
+    "supportedCeiling": null
+   }
+  ],
+  "citationCoverage": {
+   "count": 39,
+   "tier": "strong"
+  }
  },
+ "error": null,
  "outcome": {
   "amount": 51336.45,
   "amountIsTheRequestedAmount": false,
