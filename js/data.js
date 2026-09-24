@@ -73,6 +73,15 @@ const RELAW_DATA = {
       status: "filed",
       date: "2026-07-06",
       jurisdiction: "Philadelphia County Court of Common Pleas",
+      parties: [
+        { name: "Willow Bridge Property Company", role: "Defendant" },
+        { name: "RealPage Inc.", role: "Defendant" },
+        { name: "Bozzuto Management Company", role: "Defendant" },
+        { name: "Greystar Management Services", role: "Defendant" },
+        { name: "Yardi Systems", role: "Defendant" }
+      ],
+      judge: null,
+      amountUsd: null,
       state: "PA",
       amount: "Putative class action; three related suits filed",
       source: "live",
@@ -98,6 +107,13 @@ const RELAW_DATA = {
       status: "ruling",
       date: "2026-07-21",
       jurisdiction: "Supreme Court of New Jersey",
+      parties: [
+        { name: "Township of Jackson", role: "Plaintiff-Appellant" },
+        { name: "Getzel Bee, LLC", role: "Defendant-Respondent" },
+        { name: "Bellevue Jackson, LLC", role: "Defendant-Respondent" },
+        { name: "State of New Jersey", role: "Defendant" }
+      ],
+      amountUsd: null,
       judge: "Stuart Rabner",
       state: "NJ",
       amount: "N/A — condemnation ordinances voided",
@@ -125,6 +141,14 @@ const RELAW_DATA = {
       status: "filed",
       date: "2026-07-28",
       jurisdiction: "U.S. District Court, Southern District of New York",
+      parties: [
+        { name: "Wilmington Savings Fund Society, FSB", role: "Plaintiff (Trustee)" },
+        { name: "Milton 90 Pleasant Valley Street LLC", role: "Defendant (Borrower)" },
+        { name: "Development Associates of Benton Harbor LLC", role: "Defendant (Borrower)" }
+      ],
+      judge: null,
+      amountUsd: 34400000,
+      amountBasis: "loan",
       state: "NY",
       amount: "$34.4M loan balance",
       source: "live",
@@ -151,6 +175,18 @@ const RELAW_DATA = {
       status: "filed",
       date: "2026-06-12",
       jurisdiction: "U.S. District Court, Northern District of Illinois",
+      parties: [
+        { name: "FitFactariDC, LLC", role: "Plaintiff" },
+        { name: "CoStar Group, Inc.", role: "Defendant" },
+        { name: "CBRE Group, Inc.", role: "Defendant" },
+        { name: "Jones Lang LaSalle Incorporated", role: "Defendant" },
+        { name: "Cushman & Wakefield plc", role: "Defendant" },
+        { name: "Colliers International Group Inc.", role: "Defendant" },
+        { name: "Colliers International USA, LLC", role: "Defendant" },
+        { name: "Newmark Group, Inc.", role: "Defendant" }
+      ],
+      judge: "Joan Humphrey Lefkow",
+      amountUsd: null,
       state: "IL",
       amount: "Putative nationwide class; 2015–2025 class period",
       source: "live",
@@ -178,6 +214,14 @@ const RELAW_DATA = {
       status: "filed",
       date: "2026-07-29",
       jurisdiction: "U.S. District Court, Middle District of Florida",
+      parties: [
+        { name: "Securities and Exchange Commission", role: "Plaintiff" },
+        { name: "RAD Diversified REIT, Inc.", role: "Defendant" },
+        { name: "The Seminar Solution, LLC", role: "Relief Defendant" }
+      ],
+      judge: "Kathryn Kimball Mizelle",
+      amountUsd: 152000000,
+      amountBasis: "other",
       state: "FL",
       amount: "$152M alleged fraud",
       source: "live",
@@ -206,6 +250,11 @@ const RELAW_DATA = {
       status: "filed",
       date: "2026-05-28",
       jurisdiction: "U.S. Bankruptcy Court, Northern District of Texas",
+      parties: [
+        { name: "Silver Star Properties REIT, Inc.", role: "Debtor" }
+      ],
+      amountUsd: 75000000,
+      amountBasis: "other",
       judge: "Mark X. Mullin",
       state: "TX",
       amount: "$100M assets vs. $75M liabilities; $65M+ in defaulted loans",
@@ -235,6 +284,13 @@ const RELAW_DATA = {
       status: "filed",
       date: "2026-07-17",
       jurisdiction: "Fifteenth Judicial Circuit Court, Palm Beach County, Florida",
+      parties: [
+        { name: "Via Mizner Lender 1 LLC", role: "Plaintiff" },
+        { name: "Via Mizner Owner III", role: "Defendant" }
+      ],
+      judge: null,
+      amountUsd: 417700000,
+      amountBasis: "claim",
       state: "FL",
       amount: "$417.7M foreclosure claim",
       source: "live",
@@ -263,6 +319,12 @@ const RELAW_DATA = {
       status: "filed",
       date: "2026-07-23",
       jurisdiction: "Hennepin County District Court, Minnesota",
+      parties: [
+        { name: "CommunityAmerica Federal Credit Union", role: "Plaintiff" }
+      ],
+      judge: null,
+      amountUsd: 46000000,
+      amountBasis: "loan",
       state: "MN",
       amount: "$46M combined loan balance (two foreclosure suits)",
       source: "live",
@@ -288,6 +350,12 @@ const RELAW_DATA = {
       status: "pending",
       date: "2026-08-04",
       jurisdiction: "U.S. District Court, District of Rhode Island",
+      parties: [
+        { name: "SCLS Realty, LLC", role: "Plaintiff" },
+        { name: "Sixty Three Johnston, LLC", role: "Plaintiff" },
+        { name: "Town of Johnston, Rhode Island", role: "Defendant" }
+      ],
+      amountUsd: null,
       judge: "Melissa R. DuBose",
       state: "RI",
       amount: "31-acre parcel; town's own appraisal valued land at $775K",
@@ -318,6 +386,13 @@ const RELAW_DATA = {
       status: "ruling",
       date: "2026-05-28",
       jurisdiction: "New York Court of Appeals",
+      parties: [
+        { name: "111 West 57th Investment LLC", role: "Appellant" },
+        { name: "111 W57 Mezz Investor LLC", role: "Defendant" },
+        { name: "ACREFI Mortgage Lending, LLC", role: "Respondent" },
+        { name: "Spruce Capital Partners LLC", role: "Respondent" }
+      ],
+      amountUsd: null,
       judge: "Rowan D. Wilson",
       state: "NY",
       amount: "$65M equity investment; $25M junior mezzanine loan; ~$600M underlying equity value alleged",
@@ -349,6 +424,18 @@ const RELAW_DATA = {
       status: "filed",
       date: "2026-07-22",
       jurisdiction: "Supreme Court of the State of New York",
+      parties: [
+        { name: "Kenilworth Holdings LLC", role: "Petitioner" },
+        { name: "21-45 23rd St. LLC", role: "Petitioner" },
+        { name: "39-12 62nd St. LLC", role: "Petitioner" },
+        { name: "42-59 Bowne St. LLC", role: "Petitioner" },
+        { name: "1369 College LLC", role: "Petitioner" },
+        { name: "593 Park Place Management Inc.", role: "Petitioner" },
+        { name: "43rd Street Associates LLC", role: "Petitioner" },
+        { name: "New York City Rent Guidelines Board", role: "Respondent" }
+      ],
+      judge: "Brendan Lantry",
+      amountUsd: null,
       state: "NY",
       amount: "~1M rent-stabilized units affected citywide",
       source: "live",
@@ -378,6 +465,13 @@ const RELAW_DATA = {
       status: "filed",
       date: "2026-07-17",
       jurisdiction: "San Mateo County Superior Court, California",
+      parties: [
+        { name: "12 Maywood LLC", role: "Petitioner/Plaintiff" },
+        { name: "City of Menlo Park", role: "Respondent/Defendant" }
+      ],
+      judge: null,
+      amountUsd: 127400,
+      amountBasis: "damages sought",
       state: "CA",
       amount: "$127,400 impact fee challenged",
       source: "live",
@@ -405,6 +499,15 @@ const RELAW_DATA = {
       status: "ruling",
       date: "2026-08-05",
       jurisdiction: "U.S. District Court, District of New Jersey",
+      parties: [
+        { name: "Lightstone Value Plus REIT I, Inc.", role: "Defendant" },
+        { name: "Lightstone Value Plus REIT II, Inc.", role: "Defendant" },
+        { name: "Lightstone Value Plus REIT III, Inc.", role: "Defendant" },
+        { name: "Lightstone Value Plus REIT LLC", role: "Defendant" },
+        { name: "Lightstone Value Plus REIT II LLC", role: "Defendant" },
+        { name: "Lightstone Value Plus REIT III LLC", role: "Defendant" }
+      ],
+      amountUsd: null,
       judge: "Michael A. Shipp",
       state: "NJ",
       amount: "$59.8M alleged undisclosed conflict of interest",
@@ -433,6 +536,11 @@ const RELAW_DATA = {
       status: "filed",
       date: "2026-07-02",
       jurisdiction: "U.S. District Court, Southern District of California",
+      parties: [
+        { name: "UDR, Inc.", role: "Defendant" }
+      ],
+      judge: null,
+      amountUsd: null,
       state: "CA",
       amount: "Putative class action; statutory penalties up to $1,000/violation",
       source: "live",
@@ -462,6 +570,14 @@ const RELAW_DATA = {
       status: "ruling",
       date: "2026-07-13",
       jurisdiction: "Supreme Court of New Jersey",
+      parties: [
+        { name: "Monarch Communities, LLC", role: "Plaintiff" },
+        { name: "JMC Investments, LLC", role: "Plaintiff-Respondent" },
+        { name: "Township of Montville", role: "Defendant" },
+        { name: "Mayor and Council of the Township of Montville", role: "Defendant" },
+        { name: "Township of Montville Zoning Board of Adjustment", role: "Defendant-Appellant" }
+      ],
+      amountUsd: null,
       judge: "Anne M. Patterson",
       state: "NJ",
       amount: "165-unit senior living facility; ~8-acre site",
@@ -491,6 +607,17 @@ const RELAW_DATA = {
       status: "filed",
       date: "2026-04-15",
       jurisdiction: "Miami-Dade County Circuit Court",
+      parties: [
+        { name: "300 Biscayne Boulevard Way Condominium Association", role: "Plaintiff" },
+        { name: "Riverwalk East Developments LLC", role: "Defendant" },
+        { name: "Revuelta Architecture International", role: "Defendant" },
+        { name: "Coastal Construction South Florida", role: "Defendant" },
+        { name: "DeSimone Consulting Engineering Corp.", role: "Defendant" },
+        { name: "TK Elevator Corp.", role: "Defendant" }
+      ],
+      judge: null,
+      amountUsd: 750000,
+      amountBasis: "damages sought",
       state: "FL",
       amount: "$750,000+ sought; $1B, 341-unit project",
       source: "live",
@@ -516,6 +643,14 @@ const RELAW_DATA = {
       status: "filed",
       date: "2025-11-26",
       jurisdiction: "Marion Superior Court, Indiana",
+      parties: [
+        { name: "Travelers Property Casualty Company of America", role: "Plaintiff" },
+        { name: "St. Paul Fire and Marine Insurance Company", role: "Plaintiff" },
+        { name: "Washington Shoppes LP", role: "Defendant" },
+        { name: "The Broadbent Company, Inc.", role: "Defendant" }
+      ],
+      judge: null,
+      amountUsd: null,
       state: "IN",
       amount: "Pollution-exclusion coverage dispute; remediation costs undisclosed",
       source: "live",
@@ -541,6 +676,17 @@ const RELAW_DATA = {
       status: "pending",
       date: "2024-03-11",
       jurisdiction: "Supreme Court of the State of New York, New York County",
+      parties: [
+        { name: "Board of Managers of the 443 Greenwich Street Condominium", role: "Plaintiff" },
+        { name: "SGN 443 Greenwich Street Owner LLC", role: "Defendant" },
+        { name: "SGN 443 Greenwich Street Fee Owner LLC", role: "Defendant" },
+        { name: "SGN 443 Greenwich Street Associates LLC", role: "Defendant" },
+        { name: "JS Greenwich LLC", role: "Defendant" },
+        { name: "NB 443 Greenwich Street LLC", role: "Defendant" },
+        { name: "CETRA/CRI Architecture PLLC", role: "Defendant" }
+      ],
+      amountUsd: 376000000,
+      amountBasis: "damages sought",
       judge: "Joel M. Cohen",
       state: "NY",
       amount: "$376M sought; independent estimates closer to ~$100M",
@@ -572,6 +718,13 @@ const RELAW_DATA = {
       status: "pending",
       date: "2026-07-09",
       jurisdiction: "U.S. District Court for the District of Montana",
+      parties: [
+        { name: "United States of America", role: "Plaintiff" },
+        { name: "Columbia Falls Aluminum Company, LLC", role: "Defendant" }
+      ],
+      judge: "Kathleen L. DeSoto",
+      amountUsd: 57600000,
+      amountBasis: "settlement",
       state: "MT",
       amount: "$57.6M cleanup consent decree",
       source: "live",
@@ -599,6 +752,14 @@ const RELAW_DATA = {
       status: "filed",
       date: "2026-08-10",
       jurisdiction: "U.S. District Court, District of Maryland (Northern Division)",
+      parties: [
+        { name: "UWM Holdings Corp.", role: "Plaintiff" },
+        { name: "UWM Acquisitions 1 LLC", role: "Plaintiff" },
+        { name: "Two Harbors Investment Corp.", role: "Defendant" }
+      ],
+      judge: "Julie Rebecca Rubin",
+      amountUsd: 500000000,
+      amountBasis: "damages sought",
       state: "MD",
       amount: "$500M+ sought; $1.3B merger agreement at issue; $25.4M termination fee disputed as capped remedy",
       source: "live",
@@ -617,6 +778,13 @@ const RELAW_DATA = {
       status: "filed",
       date: "2026-08-11",
       jurisdiction: "Alameda County Superior Court, California",
+      parties: [
+        { name: "City of Oakland", role: "Plaintiff" },
+        { name: "The Mosser Companies, Inc.", role: "Defendant" },
+        { name: "184 13th Street Associates, LLC", role: "Defendant (building owner)" }
+      ],
+      judge: null,
+      amountUsd: null,
       state: "CA",
       amount: "Rent repayment and injunctive compliance order sought; no specified damages figure",
       source: "live",
@@ -633,6 +801,11 @@ const RELAW_DATA = {
       status: "pending",
       date: "2026-08-14",
       jurisdiction: "U.S. District Court, S.D.N.Y.",
+      parties: [
+        { name: "RealPage, Inc.", role: "Plaintiff" }
+      ],
+      judge: "Valerie Elaine Caproni",
+      amountUsd: null,
       state: "NY",
       amount: "Preliminary injunction sought; no damages claimed",
       source: "live",
@@ -665,6 +838,14 @@ const RELAW_DATA = {
       status: "filed",
       date: "2026-08-10",
       jurisdiction: "Denver District Court, Colorado",
+      parties: [
+        { name: "U.S. Bank National Association", role: "Plaintiff" },
+        { name: "BOP Republic Plaza I LLC", role: "Defendant" },
+        { name: "Trigild IVL", role: "Receiver" }
+      ],
+      judge: null,
+      amountUsd: 230000000,
+      amountBasis: "loan",
       state: "CO",
       amount: "~$130M defaulted loan; Trepp lists total CMBS debt at $230.1M",
       source: "live",
@@ -693,6 +874,15 @@ const RELAW_DATA = {
       status: "filed",
       date: "2026-07-30",
       jurisdiction: "Miami-Dade County Circuit Court",
+      parties: [
+        { name: "U.S. Bank Trust Company", role: "Plaintiff (agent for lenders)" },
+        { name: "XYQ Cayman Ltd.", role: "Lender" },
+        { name: "Brightline Investment Holdings LLC", role: "Defendant/Borrower" },
+        { name: "FECI Realty", role: "Defendant" }
+      ],
+      judge: "Jason E. Dimitris",
+      amountUsd: 65000000,
+      amountBasis: "loan",
       state: "FL",
       amount: "$65M senior foreclosure claim (of $128.5M total 2022 financing)",
       source: "live",
@@ -722,6 +912,19 @@ const RELAW_DATA = {
       status: "filed",
       date: "2026-08-06",
       jurisdiction: "U.S. District Court, Eastern District of Pennsylvania",
+      parties: [
+        { name: "Bank Midwest, a division of NBH Bank", role: "Plaintiff" },
+        { name: "TIG Queso LLC", role: "Defendant" },
+        { name: "TIG Queso PA LLC", role: "Defendant" },
+        { name: "TIG Queso NJ LLC", role: "Defendant" },
+        { name: "TIG Queso NY LLC", role: "Defendant" },
+        { name: "TIG Queso DE LLC", role: "Defendant" },
+        { name: "TIG Queso FL LLC", role: "Defendant" },
+        { name: "GlassRatner Advisory & Capital Group, LLC", role: "Receiver" }
+      ],
+      judge: "Kai N. Scott",
+      amountUsd: 20000000,
+      amountBasis: "loan",
       state: "PA",
       amount: "$20M loan; ~$18.25M sought (principal, interest, and fees)",
       source: "live",
@@ -751,6 +954,12 @@ const RELAW_DATA = {
       status: "filed",
       date: "2026-08-13",
       jurisdiction: "Erie County Supreme Court, New York",
+      parties: [
+        { name: "Acres Loan Origination LLC", role: "Plaintiff" }
+      ],
+      judge: null,
+      amountUsd: 32500000,
+      amountBasis: "loan",
       state: "NY",
       amount: "$32.5M construction loan (Auden Buffalo); ~$18M loan at issue in the related Air Buffalo foreclosure",
       source: "live",
@@ -779,6 +988,10 @@ const RELAW_DATA = {
       status: "filed",
       date: "2026-08-17",
       jurisdiction: "Supreme Court of the State of New York, New York County",
+      parties: [],
+      judge: null,
+      amountUsd: 675000,
+      amountBasis: "claim",
       state: "NY",
       amount: "~$675,000 common-charge lien foreclosure; separate ~$225,000+ tax-lien suit pending",
       source: "live",
@@ -806,6 +1019,24 @@ const RELAW_DATA = {
       status: "ruling",
       date: "2026-08-06",
       jurisdiction: "U.S. Court of Appeals for the Fourth Circuit",
+      parties: [
+        { name: "PSEG Renewable Transmission LLC", role: "Plaintiff-Appellee" },
+        { name: "Arentz Family, LP", role: "Defendant-Appellant" },
+        { name: "Barney's Farm, LLC", role: "Defendant-Appellant" },
+        { name: "HZ Properties, LLC", role: "Defendant-Appellant" },
+        { name: "M & R, LLC", role: "Defendant-Appellant" },
+        { name: "The Dug Hill Rod and Gun Club, Inc.", role: "Defendant-Appellant" },
+        { name: "Troyer Farms, LLC", role: "Defendant-Appellant" },
+        { name: "Troyer Real Estate, LLC", role: "Defendant-Appellant" },
+        { name: "Dells Generation Farms, LLC", role: "Defendant" },
+        { name: "Groves Mill, LLC", role: "Defendant" },
+        { name: "Panora Acres, Inc.", role: "Defendant" },
+        { name: "Peter and John Radio Fellowship, Inc.", role: "Defendant" },
+        { name: "RBC Real Estate I, LLC", role: "Defendant" },
+        { name: "School of Living", role: "Defendant" }
+      ],
+      judge: "Nicole G. Berner",
+      amountUsd: null,
       state: "MD",
       amount: "117 landowner-appellants; 67-mile transmission project",
       source: "live",
@@ -837,6 +1068,14 @@ const RELAW_DATA = {
       status: "filed",
       date: "2026-08-17",
       jurisdiction: "Supreme Court of the State of New York, New York County",
+      parties: [
+        { name: "Via Mizner Owner III LLC", role: "Plaintiff" },
+        { name: "Via Mizner Pledgor III LLC", role: "Plaintiff" },
+        { name: "Via Mizner Lender 1 LLC", role: "Defendant" },
+        { name: "Via Mizner Lender 2 LLC", role: "Defendant" }
+      ],
+      amountUsd: 500000000,
+      amountBasis: "damages sought",
       judge: "Andrew Borrok",
       state: "NY",
       amount: "$500M+ damages sought",
@@ -868,6 +1107,10 @@ const RELAW_DATA = {
       status: "appeal",
       date: "2026-08-13",
       jurisdiction: "Supreme Court of the State of New York, Appellate Division, Second Department",
+      parties: [
+        { name: "City of New York", role: "Defendant" }
+      ],
+      amountUsd: null,
       judge: "Phillip Hom",
       state: "NY",
       amount: "$500M/year projected tax revenue; ~17,000 owners flagged by notice",
@@ -900,6 +1143,13 @@ const RELAW_DATA = {
       status: "filed",
       date: "2026-08-12",
       jurisdiction: "U.S. District Court, District of New Jersey",
+      parties: [
+        { name: "US Bank National Association as Trustee for Morgan Stanley Bank of America Merrill Lynch Trust 2016-C28, Commercial Mortgage Pass-Through Certificates, Series 2016-C28", role: "Plaintiff" },
+        { name: "Lenox Drive Office Park LLC", role: "Defendant" }
+      ],
+      judge: null,
+      amountUsd: 130000000,
+      amountBasis: "loan",
       state: "NJ",
       amount: "$130M loan balance; matured unpaid January 1, 2026",
       source: "live",
@@ -929,6 +1179,15 @@ const RELAW_DATA = {
       status: "filed",
       date: "2026-08-18",
       jurisdiction: "Supreme Court of the State of New York, New York County",
+      parties: [
+        { name: "Corcoran", role: "Plaintiff" },
+        { name: "Corcoran Sunshine Marketing Group", role: "Plaintiff" },
+        { name: "Brown Harris Stevens", role: "Plaintiff" },
+        { name: "Circle F Capital", role: "Defendant" }
+      ],
+      judge: null,
+      amountUsd: 3200000,
+      amountBasis: "damages sought",
       state: "NY",
       amount: "$3.2M sought; $450K of a $1.45M agreed commission allegedly withheld on a ~$94M recapitalization",
       source: "live",
@@ -956,6 +1215,10 @@ const RELAW_DATA = {
       status: "appeal",
       date: "2026-08-05",
       jurisdiction: "Superior Court of New Jersey, Union County",
+      parties: [
+        { name: "City of Elizabeth", role: "Defendant" }
+      ],
+      amountUsd: null,
       judge: "John M. Deitch",
       state: "NJ",
       amount: "Rent-increase cap of $20/yr or 3%, whichever is less, on Elizabeth's rent-controlled units",
@@ -989,6 +1252,13 @@ const RELAW_DATA = {
       status: "ruling",
       date: "2026-07-31",
       jurisdiction: "Superior Court of the District of Columbia",
+      parties: [
+        { name: "Wardman Tower Residential Condominium Unit Owners Association", role: "Plaintiff" },
+        { name: "JBG SMITH Properties", role: "Defendant" }
+      ],
+      judge: "Yvonne Williams",
+      amountUsd: 356100000,
+      amountBasis: "judgment",
       state: "DC",
       amount: "$118.7M compensatory, trebled to ~$356.1M under D.C.'s Consumer Protection Procedures Act, plus attorneys' fees to be determined",
       source: "live",
@@ -1017,6 +1287,13 @@ const RELAW_DATA = {
       status: "filed",
       date: "2026-08-21",
       jurisdiction: "Circuit Court of Cook County, Illinois",
+      parties: [
+        { name: "9 New York Ave LLC", role: "Plaintiff" },
+        { name: "Jones Lang LaSalle Americas Inc.", role: "Defendant" }
+      ],
+      judge: null,
+      amountUsd: 12000000,
+      amountBasis: "damages sought",
       state: "IL",
       amount: "$12M+ sought; alleged ~$20M shortfall between JLL's implied valuation and the property's April 2026 sale price",
       source: "live",
@@ -1045,6 +1322,13 @@ const RELAW_DATA = {
       status: "pending",
       date: "2026-08-12",
       jurisdiction: "Hamilton County Court of Common Pleas, Ohio",
+      parties: [
+        { name: "Wilmington Trust", role: "Plaintiff/Lender" },
+        { name: "Rubenstein Partners", role: "Defendant/Borrower" }
+      ],
+      judge: null,
+      amountUsd: 39600000,
+      amountBasis: "loan",
       state: "OH",
       amount: "$39.6M sought on 312 Elm St.; companion suit seeks $16M+ on 312 Plum St.'s $18.4M loan",
       source: "live",
@@ -1076,6 +1360,12 @@ const RELAW_DATA = {
       status: "filed",
       date: "2026-08-18",
       jurisdiction: "U.S. District Court for the Southern District of New York",
+      parties: [
+        { name: "10East34th, LLC", role: "Defendant" }
+      ],
+      judge: "Ronnie Abrams",
+      amountUsd: 37500000,
+      amountBasis: "loan",
       state: "NY",
       amount: "$37.5M mortgage; lender also seeks immediate appointment of a receiver",
       source: "live",
@@ -1106,6 +1396,16 @@ const RELAW_DATA = {
       status: "filed",
       date: "2026-07-13",
       jurisdiction: "Fifteenth Judicial Circuit Court, Palm Beach County, Florida",
+      parties: [
+        { name: "UMB Bank N.A.", role: "Plaintiff" },
+        { name: "Public Finance Authority", role: "Defendant" },
+        { name: "Tenet Healthcare Corp.", role: "Defendant" },
+        { name: "Proton International LLC - Delray LLC", role: "Defendant" },
+        { name: "Varian Medical Systems", role: "Defendant" }
+      ],
+      judge: null,
+      amountUsd: 81300000,
+      amountBasis: "loan",
       state: "FL",
       amount: "$81.32M in tax-exempt bonds ($67.3M senior, $14M subordinate)",
       source: "live",
@@ -1135,6 +1435,11 @@ const RELAW_DATA = {
       status: "ruling",
       date: "2026-08-18",
       jurisdiction: "Massachusetts Superior Court, Suffolk County (Business Litigation Session)",
+      parties: [
+        { name: "HS148SST LLC", role: "Plaintiff" },
+        { name: "City of Boston", role: "Defendant" }
+      ],
+      amountUsd: null,
       judge: "Peter B. Krupp",
       state: "MA",
       amount: "~$19M in disputed additional taxes across 150 properties (182 instances)",
@@ -1166,6 +1471,11 @@ const RELAW_DATA = {
       status: "ruling",
       date: "2026-08-10",
       jurisdiction: "Supreme Court of New Jersey",
+      parties: [
+        { name: "Borough of Seaside Park", role: "Plaintiff-Respondent" },
+        { name: "Shree Jyoti, LLC", role: "Defendant-Appellant" }
+      ],
+      amountUsd: null,
       judge: "Michael Noriega",
       state: "NJ",
       amount: "Condemnation of a single derelict commercial motel property; no damages at issue",
@@ -1198,6 +1508,11 @@ const RELAW_DATA = {
       status: "ruling",
       date: "2026-08-24",
       jurisdiction: "Massachusetts Appeals Court",
+      parties: [
+        { name: "Chen's Food Enterprise, Inc.", role: "Defendant" }
+      ],
+      amountUsd: 198000,
+      amountBasis: "judgment",
       judge: "Sookyoung Shin",
       state: "MA",
       amount: "$198,000 unpaid rent judgment",
@@ -1226,6 +1541,18 @@ const RELAW_DATA = {
       status: "settled",
       date: "2026-08-24",
       jurisdiction: "U.S. District Court, Eastern District of Virginia",
+      parties: [
+        { name: "Federal Trade Commission", role: "Plaintiff" },
+        { name: "Commonwealth of Virginia", role: "Plaintiff" },
+        { name: "State of Arizona", role: "Plaintiff" },
+        { name: "State of Connecticut", role: "Plaintiff" },
+        { name: "State of New York", role: "Plaintiff" },
+        { name: "State of Washington", role: "Plaintiff" },
+        { name: "Zillow Group, Inc.", role: "Defendant" },
+        { name: "Zillow, Inc.", role: "Defendant" },
+        { name: "Redfin Corporation", role: "Defendant" }
+      ],
+      amountUsd: null,
       judge: "Anthony J. Trenga",
       state: "VA",
       amount: "$100M payment central to the unwound agreement",
@@ -1259,6 +1586,11 @@ const RELAW_DATA = {
       status: "ruling",
       date: "2026-08-24",
       jurisdiction: "Supreme Court of California",
+      parties: [
+        { name: "Town of Apple Valley", role: "Plaintiff and Appellant" },
+        { name: "Apple Valley Ranchos Water", role: "Defendant and Respondent" }
+      ],
+      amountUsd: null,
       judge: "Leondra Kruger",
       state: "CA",
       amount: "$13.2M attorneys'-fee award below; case remanded before any final valuation",
@@ -1289,6 +1621,11 @@ const RELAW_DATA = {
       status: "pending",
       date: "2026-07-09",
       jurisdiction: "Greenville County Court of Common Pleas, South Carolina",
+      parties: [
+        { name: "Forestar (USA) Real Estate Group Inc.", role: "Plaintiff" },
+        { name: "Greenville County", role: "Defendant" }
+      ],
+      amountUsd: null,
       judge: "Jessica Salvini",
       state: "SC",
       amount: "$300,000+ in claimed sunk development costs, plus damages sought",
@@ -1318,6 +1655,14 @@ const RELAW_DATA = {
       status: "filed",
       date: "2026-08-25",
       jurisdiction: "Hennepin County District Court, Minnesota (lead filing); parallel foreclosure actions in Maricopa County Superior Court, Arizona, and state courts in Florida and Pennsylvania",
+      parties: [
+        { name: "Wells Fargo Bank", role: "Plaintiff (CMBS trustee)" },
+        { name: "Workspace Property Trust", role: "Borrower" },
+        { name: "KeyBank National Association", role: "Special Servicer" }
+      ],
+      judge: null,
+      amountUsd: 1230000000,
+      amountBasis: "loan",
       amount: "$1.23B unpaid principal, plus accrued interest, special servicer fees, and attorneys' fees, on a $1.28B original CMBS loan",
       source: "live",
       sourceUrl: "https://www.bisnow.com/news/national/capital-markets/wells-fargo-moves-to-foreclose-workspace-property-trust-portfolio",
@@ -1346,6 +1691,11 @@ const RELAW_DATA = {
       status: "filed",
       date: "2026-08-17",
       jurisdiction: "342nd District Court, Tarrant County, Texas",
+      parties: [
+        { name: "The Lakes at Marshall Ridge Homeowners Association", role: "Plaintiff" },
+        { name: "Town of Westlake", role: "Defendant" }
+      ],
+      amountUsd: null,
       judge: "Kimberly Fitzpatrick",
       state: "TX",
       amount: "Not a damages claim; TRO blocking a development agreement for a 1.1M-SF data center campus",
@@ -1375,6 +1725,12 @@ const RELAW_DATA = {
       status: "ruling",
       date: "2026-08-26",
       jurisdiction: "U.S. Court of Appeals for the Eleventh Circuit (on appeal from the U.S. District Court for the Northern District of Georgia)",
+      parties: [
+        { name: "Access Point Financial, LLC", role: "Plaintiff-Appellee" }
+      ],
+      judge: null,
+      amountUsd: 3954244.04,
+      amountBasis: "judgment",
       state: "TX",
       amount: "$56.3 million",
       source: "live",
@@ -1401,6 +1757,13 @@ const RELAW_DATA = {
       status: "filed",
       date: "2026-08-13",
       jurisdiction: "Los Angeles County Superior Court",
+      parties: [
+        { name: "Held Properties", role: "Plaintiff/Landlord" },
+        { name: "WealthStone", role: "Defendant/Tenant" }
+      ],
+      judge: null,
+      amountUsd: 1100000,
+      amountBasis: "damages sought",
       state: "CA",
       amount: "~$1.1M sought (a prior $393K judgment plus $708K in additional claimed unpaid rent)",
       source: "live",
@@ -1429,6 +1792,16 @@ const RELAW_DATA = {
       status: "ruling",
       date: "2026-08-19",
       jurisdiction: "Massachusetts Supreme Judicial Court",
+      parties: [
+        { name: "Emerald Necklace Conservancy, Inc.", role: "Plaintiff" },
+        { name: "City of Boston", role: "Defendant" },
+        { name: "Trustees of the George Robert White Fund", role: "Defendant" },
+        { name: "Boston public schools", role: "Defendant" },
+        { name: "parks and recreation department of Boston", role: "Defendant" },
+        { name: "Boston Unity Soccer Partners LLC", role: "Defendant" },
+        { name: "Boston Unity Stadco LLC", role: "Defendant" }
+      ],
+      amountUsd: null,
       state: "MA",
       amount: "$325M public-private redevelopment ($135M city funding, $190M from Boston Legacy FC ownership group)",
       source: "live",
@@ -1461,6 +1834,12 @@ const RELAW_DATA = {
       status: "pending",
       date: "2026-07-01",
       jurisdiction: "Supreme Court of the State of New York, New York County",
+      parties: [
+        { name: "Wilmington Trust, National Association", role: "Plaintiff" },
+        { name: "WWP Office, LLC", role: "Defendant" }
+      ],
+      amountUsd: 940000000,
+      amountBasis: "loan",
       state: "NY",
       amount: "$940M senior loan (Goldman Sachs/Deutsche Bank, Series 2017-WWP); bondholders estimated to face losses up to $488M",
       source: "live",
@@ -1494,6 +1873,14 @@ const RELAW_DATA = {
       status: "ruling",
       date: "2026-08-17",
       jurisdiction: "U.S. District Court, Eastern District of Pennsylvania",
+      parties: [
+        { name: "Wells Fargo Bank, National Association, as Trustee for the benefit of registered holders of J.P. Morgan Chase Commercial Mortgage Securities Trust 2020-MKST", role: "Plaintiff" },
+        { name: "NG 1500 Market St. LLC", role: "Defendant" },
+        { name: "CBRE, Inc.", role: "Receiver" },
+        { name: "Universal Group Company Inc.", role: "Movant (sale objector)" }
+      ],
+      amountUsd: 70000000,
+      amountBasis: "purchase price",
       state: "PA",
       amount: "$70M court-ordered sale (roughly 21% of the $328M Nightingale/InterVest paid in 2017); against $390M CMBS loan, appraised at $471M in 2019 and $223.5M by September 2024",
       source: "live",
@@ -1530,6 +1917,12 @@ const RELAW_DATA = {
       status: "filed",
       date: "2026-08-27",
       jurisdiction: "Circuit Court of Cook County, Illinois, Chancery Division",
+      parties: [
+        { name: "Wilmington Trust National Association", role: "Plaintiff" }
+      ],
+      judge: null,
+      amountUsd: 51000000,
+      amountBasis: "loan",
       state: "IL",
       amount: "~$51M sought in principal and accrued interest (excluding late charges, fees, costs) on $85M combined revolving credit lines",
       source: "live",
@@ -1559,6 +1952,15 @@ const RELAW_DATA = {
       status: "ruling",
       date: "2026-08-24",
       jurisdiction: "Supreme Court of the State of New York, New York County",
+      parties: [
+        { name: "American General Life Insurance Company", role: "Plaintiff" },
+        { name: "The Variable Annuity Life Insurance Company", role: "Plaintiff" },
+        { name: "The United States Life Insurance Company", role: "Plaintiff" },
+        { name: "500-512 Seventh Avenue Limited Partnership", role: "Defendant" }
+      ],
+      judge: null,
+      amountUsd: 356000000,
+      amountBasis: "judgment",
       state: "NY",
       amount: "$356M foreclosure judgment on a $375M original loan; $163M+ in separate personal guaranty judgments",
       source: "live",
@@ -1587,6 +1989,15 @@ const RELAW_DATA = {
       status: "ruling",
       date: "2026-08-06",
       jurisdiction: "U.S. Court of Appeals for the Second Circuit",
+      parties: [
+        { name: "The Retail Property Trust", role: "Plaintiff-Appellant" },
+        { name: "Nassau County Department of Assessment", role: "Defendant-Appellee" },
+        { name: "The Nassau County Legislature", role: "Defendant-Appellee" },
+        { name: "The County of Nassau", role: "Defendant-Appellee" }
+      ],
+      judge: "Richard J. Sullivan",
+      amountUsd: 4800000,
+      amountBasis: "other",
       state: "NY",
       amount: "$4.8M cumulative fine for two years of non-compliance",
       source: "live",
@@ -1617,6 +2028,12 @@ const RELAW_DATA = {
       status: "pending",
       date: "2025-08-19",
       jurisdiction: "Atlanta City Council; anticipated Fulton County Superior Court condemnation proceeding",
+      parties: [
+        { name: "TYTA LLC", role: "Property Owner" },
+        { name: "John Eagan Homes I and II LP", role: "Property Owner" }
+      ],
+      judge: null,
+      amountUsd: null,
       state: "GA",
       amount: "Pre-condemnation resolution covering a 92-unit and a 300-unit apartment complex; acquisition cost not yet set",
       source: "live",
@@ -1641,6 +2058,14 @@ const RELAW_DATA = {
       status: "settled",
       date: "2024-08-21",
       jurisdiction: "U.S. Bankruptcy Court, Western District of Washington",
+      parties: [
+        { name: "Harbor Custom Development, Inc.", role: "Debtor" },
+        { name: "Sound Capital NW Holdings LLC", role: "Lender" },
+        { name: "Sound Capital Construction Fund, LLC", role: "Lender" }
+      ],
+      judge: "Mary Jo Heston",
+      amountUsd: 20300000,
+      amountBasis: "loan",
       state: "WA",
       amount: "$5M credit bid against a construction loan with an approximately $20.3M outstanding balance",
       source: "live",
@@ -1669,6 +2094,12 @@ const RELAW_DATA = {
       status: "filed",
       date: "2025-04-01",
       jurisdiction: "Mecklenburg County Superior Court, North Carolina",
+      parties: [
+        { name: "Charlotte Hawkins LLC", role: "Plaintiff (Landlord)" },
+        { name: "Bar One Lounge South End LLC", role: "Defendant (Tenant)" }
+      ],
+      judge: null,
+      amountUsd: null,
       state: "NC",
       amount: "10-year, ~2,400-SF ground-floor lease; damages not specified in available reporting",
       source: "live",
@@ -1695,6 +2126,13 @@ const RELAW_DATA = {
       status: "settled",
       date: "2024-04-11",
       jurisdiction: "U.S. District Court, Middle District of Tennessee (No. 3:23-cv-01145); foreclosure sale at Metro Nashville Courthouse",
+      parties: [
+        { name: "Oakworth Capital Bank", role: "Plaintiff" },
+        { name: "RC Nashville Development Partners, LLC", role: "Defendant" }
+      ],
+      judge: "Eli Jeremy Richardson",
+      amountUsd: 10470772.9,
+      amountBasis: "damages sought",
       state: "TN",
       amount: "$10,470,772.90 sought in the underlying suit; property sold at foreclosure auction for $35M",
       source: "live",
@@ -1724,6 +2162,12 @@ const RELAW_DATA = {
       status: "filed",
       date: "2025-07-02",
       jurisdiction: "3rd Circuit Court, Wayne County, Michigan",
+      parties: [
+        { name: "City of Detroit", role: "Plaintiff" },
+        { name: "Michigan Real Token II LLC", role: "Defendant" }
+      ],
+      judge: "Annette Berry",
+      amountUsd: null,
       state: "MI",
       amount: "408 properties named in the suit; RealT has raised approximately $93M in Detroit via fractional ownership",
       source: "live",
@@ -1749,6 +2193,12 @@ const RELAW_DATA = {
       status: "ruling",
       date: "2026-06-17",
       jurisdiction: "Supreme Court of Arizona",
+      parties: [
+        { name: "Markham Contracting Co., Inc.", role: "Plaintiff/Appellant" },
+        { name: "Cahava Springs Phase I, Inc.", role: "Defendant/Appellee" }
+      ],
+      amountUsd: 6500000,
+      amountBasis: "damages sought",
       state: "AZ",
       amount: "$6.5M underlying arbitration award against the improvement district",
       source: "live",
@@ -1778,6 +2228,19 @@ const RELAW_DATA = {
       status: "filed",
       date: "2026-08-07",
       jurisdiction: "Maricopa County Superior Court, Arizona",
+      parties: [
+        { name: "State of Arizona", role: "Plaintiff" },
+        { name: "Sedona Springs AZ LLC", role: "Defendant" },
+        { name: "Sienna Ridge AZ LLC", role: "Defendant" },
+        { name: "Summit Ridge AZ LLC", role: "Defendant" },
+        { name: "DMR Sedona Springs AZ LLC", role: "Defendant" },
+        { name: "DMR Tucson 1166 LLC", role: "Defendant" },
+        { name: "Tucson 1166 IG LLC", role: "Defendant" },
+        { name: "Dasmen Residential LLC", role: "Defendant" },
+        { name: "Luxford Living LLC", role: "Defendant" }
+      ],
+      judge: null,
+      amountUsd: null,
       state: "AZ",
       amount: "1,000+ units; seeking restitution and civil penalties, plus a rental freeze pending compliance",
       source: "live",
@@ -1806,6 +2269,19 @@ const RELAW_DATA = {
       status: "settled",
       date: "2026-06-18",
       jurisdiction: "U.S. District Court, Middle District of North Carolina",
+      parties: [
+        { name: "United States of America", role: "Plaintiff" },
+        { name: "State of California", role: "Plaintiff" },
+        { name: "State of Colorado", role: "Plaintiff" },
+        { name: "State of Connecticut", role: "Plaintiff" },
+        { name: "State of Minnesota", role: "Plaintiff" },
+        { name: "State of North Carolina", role: "Plaintiff" },
+        { name: "State of Oregon", role: "Plaintiff" },
+        { name: "State of Tennessee", role: "Plaintiff" },
+        { name: "LivCor, LLC", role: "Defendant" }
+      ],
+      amountUsd: 7000000,
+      amountBasis: "settlement",
       state: "NC",
       amount: "$7M multistate settlement; LivCor controls ~3,500 apartment units in North Carolina",
       source: "live",
@@ -1837,6 +2313,13 @@ const RELAW_DATA = {
       status: "filed",
       date: "2026-07-10",
       jurisdiction: "Suffolk County Superior Court, Massachusetts",
+      parties: [
+        { name: "J. Safra Real Estate", role: "Landlord (Plaintiff)" },
+        { name: "Sugar Factory", role: "Tenant (Defendant)" }
+      ],
+      judge: null,
+      amountUsd: 930000,
+      amountBasis: "damages sought",
       state: "MA",
       amount: "~$930K sought from Sugar Factory alone; ~$2M across seven related tenant suits",
       source: "live",
@@ -1865,6 +2348,13 @@ const RELAW_DATA = {
       status: "ruling",
       date: "2026-06-29",
       jurisdiction: "Milwaukee County Circuit Court",
+      parties: [
+        { name: "C.D. Smith Construction Inc.", role: "Plaintiff" },
+        { name: "The Edison SPE", role: "Defendant" },
+        { name: "The Edison Project LLC", role: "Defendant" }
+      ],
+      amountUsd: 11300000,
+      amountBasis: "judgment",
       state: "WI",
       amount: "$11.3M default judgment on a $13.67M unpaid construction claim",
       source: "live",
@@ -1894,6 +2384,15 @@ const RELAW_DATA = {
       status: "filed",
       date: "2026-08-25",
       jurisdiction: "El Paso County Public Trustee, Colorado (non-judicial foreclosure)",
+      parties: [
+        { name: "RPalmer LLC", role: "Owner" },
+        { name: "Overland Palmer LLC", role: "Owner" },
+        { name: "Palmer Center Owner LLC", role: "Owner" },
+        { name: "DPalmer LLC", role: "Owner" }
+      ],
+      judge: null,
+      amountUsd: 59000000,
+      amountBasis: "loan",
       state: "CO",
       amount: "~$59M unpaid principal balance on an original $74M loan",
       source: "live",
@@ -1918,6 +2417,11 @@ const RELAW_DATA = {
       status: "pending",
       date: "2026-08-25",
       jurisdiction: "Twelfth Judicial Circuit Court, Sarasota County, Florida",
+      parties: [
+        { name: "Sitc Inc.", role: "Plaintiff" },
+        { name: "Sarasota County", role: "Defendant" }
+      ],
+      amountUsd: null,
       state: "FL",
       amount: "~500-unit lead project; more than 4,000 rental units across four pending Live Local Act suits countywide",
       source: "live",
@@ -1939,7 +2443,7 @@ const RELAW_DATA = {
         { when: "August 25, 2026", label: "Judge Hunter W. Carroll hears argument on the county's motion to dismiss the second complaint", current: true },
         { when: "March 29, 2027", label: "Non-jury civil trial scheduled in the lead SITC case", upcoming: true }
       ],
-      judge: "Hunter W. Carroll",
+      judge: null,
       tags: ["zoning", "live local act", "affordable housing", "land use", "florida"]
     },
     {
@@ -1950,6 +2454,9 @@ const RELAW_DATA = {
       status: "pending",
       date: "2026-08-07",
       jurisdiction: "Harris County District Court, Texas",
+      parties: [],
+      judge: null,
+      amountUsd: null,
       state: "TX",
       amount: "$1M+ sought",
       source: "live",
@@ -1978,6 +2485,12 @@ const RELAW_DATA = {
       status: "ruling",
       date: "2026-06-23",
       jurisdiction: "Hawaii Intermediate Court of Appeals",
+      parties: [
+        { name: "RCA Trade Center, Inc.", role: "Plaintiff-Appellant" },
+        { name: "MP Unit 21, LLC", role: "Plaintiff-Appellant" }
+      ],
+      judge: null,
+      amountUsd: null,
       state: "HI",
       amount: "Attorney fees and costs awarded to defendants",
       source: "live",
@@ -2007,6 +2520,12 @@ const RELAW_DATA = {
       status: "settled",
       date: "2026-04-13",
       jurisdiction: "U.S. District Court, Middle District of Tennessee",
+      parties: [
+        { name: "Equity Residential", role: "Defendant (settling)" },
+        { name: "RealPage, Inc.", role: "Defendant" }
+      ],
+      amountUsd: 56000000,
+      amountBasis: "settlement",
       state: "TN",
       amount: "$56M (Equity Residential); $359.925M combined across 37 settling defendants MDL-wide",
       source: "live",
@@ -2040,6 +2559,13 @@ const RELAW_DATA = {
       status: "filed",
       date: "2026-09-01",
       jurisdiction: "Superior Court of the District of Columbia",
+      parties: [
+        { name: "District of Columbia", role: "Plaintiff" },
+        { name: "Delta 2 Owner LLC", role: "Defendant" },
+        { name: "DP Management LLC", role: "Defendant" }
+      ],
+      judge: null,
+      amountUsd: null,
       state: "DC",
       amount: "Restitution and civil penalties sought; no fixed dollar figure alleged",
       source: "live",
@@ -2070,6 +2596,13 @@ const RELAW_DATA = {
       status: "filed",
       date: "2026-04-19",
       jurisdiction: "U.S. District Court, Northern District of Illinois (Eastern Division)",
+      parties: [
+        { name: "Wells Fargo Bank, N.A.", role: "Plaintiff" },
+        { name: "181 West Madison Property LLC", role: "Defendant" }
+      ],
+      judge: "Robert W. Gettleman",
+      amountUsd: 240000000,
+      amountBasis: "loan",
       state: "IL",
       amount: "$240 million loan; foreclosure suit seeks approximately $223 million in outstanding principal and interest",
       source: "live",
@@ -2099,6 +2632,12 @@ const RELAW_DATA = {
       status: "pending",
       date: "2026-07-08",
       jurisdiction: "Eighth Judicial District Court, Clark County, Nevada (Business Court, Department XIII)",
+      parties: [
+        { name: "Coyote Springs Investment LLC", role: "Plaintiff" },
+        { name: "State of Nevada", role: "Defendant" }
+      ],
+      amountUsd: 1500000000,
+      amountBasis: "damages sought",
       state: "NV",
       amount: "$1.5 billion+ sought, potentially exceeding $2 billion in phase-two damages",
       source: "live",
@@ -2129,6 +2668,13 @@ const RELAW_DATA = {
       status: "pending",
       date: "2026-08-24",
       jurisdiction: "Barren Circuit Court, Kentucky (43rd Judicial Circuit)",
+      parties: [
+        { name: "Kentucky Industrial Alliance LLC", role: "Plaintiff" },
+        { name: "City of Cave City", role: "Defendant" },
+        { name: "City Council of Cave City", role: "Defendant" },
+        { name: "Joint City-County Planning Commission", role: "Defendant" }
+      ],
+      amountUsd: null,
       state: "KY",
       amount: "Declaratory and injunctive relief sought; underlying project spans 380-600+ acres (non-monetary claim)",
       source: "live",
@@ -2160,6 +2706,14 @@ const RELAW_DATA = {
       status: "ruling",
       date: "2026-07-17",
       jurisdiction: "U.S. District Court for the District of Columbia",
+      parties: [
+        { name: "District of Columbia", role: "Plaintiff" },
+        { name: "Velocity Commercial Capital, LLC", role: "Movant" },
+        { name: "Velocity Financial, Inc.", role: "Movant" }
+      ],
+      judge: "Christopher R. Cooper",
+      amountUsd: 16000000,
+      amountBasis: "claim",
       state: "DC",
       amount: "$16M+ in allegedly fraudulently obtained housing subsidies across 70+ buildings",
       source: "live",
@@ -2189,6 +2743,11 @@ const RELAW_DATA = {
       status: "ruling",
       date: "2026-06-09",
       jurisdiction: "Connecticut Supreme Court",
+      parties: [
+        { name: "Kosel Equity, LLC", role: "Plaintiff (Landlord)" },
+        { name: "Middletown Fair Rent Commission", role: "Intervenor" }
+      ],
+      amountUsd: null,
       state: "CT",
       amount: "No monetary damages; procedural intervention and injunctive enforcement dispute",
       source: "live",
@@ -2217,6 +2776,12 @@ const RELAW_DATA = {
       status: "filed",
       date: "2026-04-01",
       jurisdiction: "Circuit Court of Cook County, Illinois",
+      parties: [
+        { name: "Rialto Capital Advisors", role: "Plaintiff" }
+      ],
+      judge: null,
+      amountUsd: 17700000,
+      amountBasis: "claim",
       state: "IL",
       amount: "$17.7M claimed (default interest and fees on ~$16.8M principal)",
       source: "live",
@@ -2245,6 +2810,13 @@ const RELAW_DATA = {
       status: "ruling",
       date: "2026-01-20",
       jurisdiction: "Suffolk County Superior Court, Massachusetts",
+      parties: [
+        { name: "Redimere Advisors, LLC", role: "Plaintiff" },
+        { name: "Plymouth Industrial REIT, Inc.", role: "Defendant" },
+        { name: "PIR Industrial REIT LLC", role: "Defendant" }
+      ],
+      amountUsd: 20000000,
+      amountBasis: "claim",
       state: "MA",
       amount: "$60M sought to be escrowed; ~$20M success-fee claim dismissed",
       source: "live",
@@ -2274,6 +2846,11 @@ const RELAW_DATA = {
       status: "pending",
       date: "2026-09-02",
       jurisdiction: "U.S. District Court, Western District of North Carolina",
+      parties: [
+        { name: "PrimeBlock Operations, LLC", role: "Defendant" }
+      ],
+      judge: null,
+      amountUsd: null,
       state: "NC",
       amount: "Proposed class of ~1,000 property owners; damages pled below federal CAFA threshold",
       source: "live",
@@ -2304,6 +2881,13 @@ const RELAW_DATA = {
       status: "pending",
       date: "2025-04-01",
       jurisdiction: "Sacramento County Superior Court, California",
+      parties: [
+        { name: "McCormack Baron Salazar, Inc.", role: "Defendant" },
+        { name: "A. Teichert and Son, Inc.", role: "Defendant" },
+        { name: "Midstate Construction Corporation", role: "Defendant" }
+      ],
+      amountUsd: 9591000,
+      amountBasis: "damages sought",
       state: "CA",
       amount: "$9.5M sought; ~$1M initial business investment alleged destroyed",
       source: "live",
@@ -2333,6 +2917,22 @@ const RELAW_DATA = {
       status: "ruling",
       date: "2026-09-03",
       jurisdiction: "U.S. Court of Appeals for the Fifth Circuit",
+      parties: [
+        { name: "Transportation Consultants, Incorporated, doing business as TCI Trucking", role: "Plaintiff-Appellee" },
+        { name: "Certain Underwriters at Lloyd's, London, Severally subscribing to Certificate No. AMR-36854-07", role: "Defendant-Appellant" },
+        { name: "Indian Harbor Insurance Company", role: "Defendant-Appellant" },
+        { name: "QBE Specialty Insurance Company", role: "Defendant-Appellant" },
+        { name: "Steadfast Insurance Company", role: "Defendant-Appellant" },
+        { name: "General Security Indemnity Company of Arizona", role: "Defendant-Appellant" },
+        { name: "United Specialty Insurance Company", role: "Defendant-Appellant" },
+        { name: "Lexington Insurance Company", role: "Defendant-Appellant" },
+        { name: "HDI Global Specialty SE", role: "Defendant-Appellant" },
+        { name: "Old Republic Union Insurance Company", role: "Defendant-Appellant" },
+        { name: "GeoVera Specialty Insurance Company", role: "Defendant-Appellant" },
+        { name: "Transverse Specialty Insurance Company", role: "Defendant-Appellant" }
+      ],
+      judge: "Stephen A. Higginson",
+      amountUsd: null,
       state: "LA",
       amount: "Surplus lines commercial property coverage dispute; damages undisclosed",
       source: "live",
@@ -2362,6 +2962,16 @@ const RELAW_DATA = {
       status: "pending",
       date: "2026-04-01",
       jurisdiction: "Johnson County District Court, Kansas (Tenth Judicial District)",
+      parties: [
+        { name: "Vesta Capital, LLC", role: "Plaintiff" },
+        { name: "Transparent Collaboration LLC", role: "Plaintiff" },
+        { name: "Pupik, LLC", role: "Plaintiff" },
+        { name: "Carozza-Loeffler, LLC", role: "Plaintiff" },
+        { name: "Vesta Realty, LLC", role: "Defendant" },
+        { name: "Vesta Holdings, LLC", role: "Defendant" },
+        { name: "Louis Investments, LLC", role: "Defendant" }
+      ],
+      amountUsd: null,
       state: "KS",
       amount: "$37M+ in alleged diverted investor and company funds",
       source: "live",
@@ -2392,6 +3002,10 @@ const RELAW_DATA = {
       status: "ruling",
       date: "2026-02-03",
       jurisdiction: "U.S. District Court, District of Oregon",
+      parties: [
+        { name: "Willamette Valley Rentals, LLC", role: "Defendant" }
+      ],
+      amountUsd: null,
       judge: "Ann L. Aiken",
       state: "OR",
       amount: "Liability established on summary judgment; damages to be determined",
@@ -2424,6 +3038,17 @@ const RELAW_DATA = {
       status: "filed",
       date: "2026-08-25",
       jurisdiction: "Superior Court of Massachusetts, Suffolk County",
+      parties: [
+        { name: "GLAS Trust Company, LLC, as Trustee of Copper Property CTL Pass-Through Trust", role: "Plaintiff" },
+        { name: "CTL Propco I LLC", role: "Plaintiff" },
+        { name: "CTL Propco I L.P.", role: "Plaintiff" },
+        { name: "CTL Propco PR I LLC", role: "Plaintiff" },
+        { name: "CTL Propco PR II LLC", role: "Plaintiff" },
+        { name: "Onyx Partners Ltd., LLC", role: "Defendant" }
+      ],
+      judge: null,
+      amountUsd: 150000000,
+      amountBasis: "damages sought",
       state: "MA",
       amount: "$947M portfolio; Copper seeks $150M+ in damages",
       source: "live",
@@ -2449,6 +3074,12 @@ const RELAW_DATA = {
       status: "filed",
       date: "2026-04-22",
       jurisdiction: "Iowa District Court for Polk County",
+      parties: [
+        { name: "Mozart Properties", role: "Defendant" }
+      ],
+      judge: null,
+      amountUsd: 850000,
+      amountBasis: "loan",
       state: "IA",
       amount: "$850,000 principal plus roughly $32,000 accrued interest",
       source: "live",
@@ -2472,6 +3103,12 @@ const RELAW_DATA = {
       status: "ruling",
       date: "2026-08-26",
       jurisdiction: "Supreme Court of the State of New York, Appellate Division, Second Department",
+      parties: [
+        { name: "U.S. Bank National Association", role: "Plaintiff-Respondent" },
+        { name: "Black Plaza Management, LLC", role: "Defendant-Appellant" }
+      ],
+      judge: null,
+      amountUsd: null,
       state: "NY",
       amount: "Foreclosure claim against Black Plaza Management dismissed as abandoned; costs awarded to Black Plaza",
       source: "live",
@@ -2496,6 +3133,13 @@ const RELAW_DATA = {
       status: "appeal",
       date: "2026-06-29",
       jurisdiction: "Supreme Court of the United States",
+      parties: [
+        { name: "WBI Energy Transmission, Inc.", role: "Respondent" },
+        { name: "Rocky & Jonilla Farms, LLP", role: "Defendant-Appellee (8th Cir.)" }
+      ],
+      judge: null,
+      amountUsd: 383000,
+      amountBasis: "award",
       state: "ND",
       amount: "~$380,000 attorney-fee award at issue",
       source: "live",
@@ -2520,6 +3164,14 @@ const RELAW_DATA = {
       status: "filed",
       date: "2026-08-14",
       jurisdiction: "Circuit Court of Cook County, Illinois",
+      parties: [
+        { name: "Wilmington Trust", role: "Plaintiff (trustee for CMBS bondholders)" },
+        { name: "Nakash Lincoln LLC", role: "Defendant (Borrower)" },
+        { name: "Lincoln 1816 LLC", role: "Defendant (Borrower)" }
+      ],
+      judge: null,
+      amountUsd: 25400000,
+      amountBasis: "loan",
       state: "IL",
       amount: "$25.4M mortgage foreclosure",
       source: "live",
@@ -2543,6 +3195,12 @@ const RELAW_DATA = {
       status: "filed",
       date: "2026-08-28",
       jurisdiction: "U.S. District Court, Southern District of Florida",
+      parties: [
+        { name: "The Alder At Lake Park LLC", role: "Plaintiff" },
+        { name: "Town of Lake Park", role: "Defendant" }
+      ],
+      judge: "Ed Artau",
+      amountUsd: null,
       state: "FL",
       amount: "Injunctive relief plus unspecified damages",
       source: "live",
@@ -2568,6 +3226,15 @@ const RELAW_DATA = {
       status: "pending",
       date: "2026-02-10",
       jurisdiction: "Utah Seventh District Court, Grand County",
+      parties: [
+        { name: "Friends of the Abajos d/b/a Kane Creek Development Watch", role: "Plaintiff" },
+        { name: "Living Rivers", role: "Plaintiff" },
+        { name: "Utah Lieutenant Governor (official capacity)", role: "Defendant" },
+        { name: "Kane Creek Preservation & Development, LLC", role: "Defendant" },
+        { name: "Echo Canyon preliminary municipality", role: "Defendant" }
+      ],
+      judge: null,
+      amountUsd: null,
       state: "UT",
       amount: "Constitutional challenge; no damages sought",
       source: "live",
@@ -2592,6 +3259,13 @@ const RELAW_DATA = {
       status: "pending",
       date: "2026-08-07",
       jurisdiction: "Richmond Circuit Court, Virginia",
+      parties: [
+        { name: "Four Mile Capital", role: "Plaintiff" },
+        { name: "Reynolds South Tower LLC", role: "Defendant" },
+        { name: "Purcell Construction Corp.", role: "Defendant" }
+      ],
+      amountUsd: 40000000,
+      amountBasis: "damages sought",
       state: "VA",
       amount: "$40M+",
       source: "live",
@@ -2616,6 +3290,12 @@ const RELAW_DATA = {
       status: "filed",
       date: "2026-09-04",
       jurisdiction: "Denver District Court, Colorado",
+      parties: [
+        { name: "CMTG JP Finance LLC", role: "Lender" }
+      ],
+      judge: null,
+      amountUsd: 170000000,
+      amountBasis: "loan",
       state: "CO",
       amount: "$170M",
       source: "live",
@@ -2639,6 +3319,13 @@ const RELAW_DATA = {
       status: "filed",
       date: "2026-08-10",
       jurisdiction: "Circuit Court of Cook County, Illinois",
+      parties: [
+        { name: "Rialto Capital Advisors", role: "Special Servicer (Plaintiff)" },
+        { name: "WC MRP Calumet Center, LLC", role: "Defendant" }
+      ],
+      judge: null,
+      amountUsd: 45600000,
+      amountBasis: "loan",
       state: "IL",
       amount: "$46M",
       source: "live",
@@ -2667,6 +3354,13 @@ const RELAW_DATA = {
       status: "pending",
       date: "2026-07-13",
       jurisdiction: "U.S. District Court, Eastern District of Missouri",
+      parties: [
+        { name: "Solera Multifamily, LLC", role: "Plaintiff" },
+        { name: "Hickory Investors, LLC", role: "Plaintiff" },
+        { name: "Tegethoff Development Co, LLC", role: "Defendant" },
+        { name: "Tegethoff Development, LLC", role: "Defendant" }
+      ],
+      amountUsd: null,
       state: "MO",
       amount: "~$3M direct investment claim; $540M in Ch. 11 liabilities",
       source: "live",
@@ -2699,6 +3393,13 @@ const RELAW_DATA = {
       status: "appeal",
       date: "2025-09-26",
       jurisdiction: "Circuit Court of St. Louis County, Missouri",
+      parties: [
+        { name: "Feather-Craft Fly Fishing", role: "Plaintiff" },
+        { name: "Time for Dinner", role: "Plaintiff" },
+        { name: "Convergence Dance and Body Center", role: "Plaintiff" },
+        { name: "City of Brentwood", role: "Defendant" }
+      ],
+      amountUsd: null,
       state: "MO",
       amount: "$436M redevelopment plan at issue",
       source: "live",
@@ -2729,6 +3430,14 @@ const RELAW_DATA = {
       status: "pending",
       date: "2024-02-02",
       jurisdiction: "Marion Superior Court, Indiana",
+      parties: [
+        { name: "Wilmington Trust National Association", role: "Plaintiff" },
+        { name: "NG 211 N. Pennsylvania St LLC", role: "Defendant" },
+        { name: "Regions Tower MF LLC", role: "Defendant" }
+      ],
+      judge: null,
+      amountUsd: 74894311.9,
+      amountBasis: "loan",
       state: "IN",
       amount: "$74.9M",
       source: "live",
@@ -2757,6 +3466,16 @@ const RELAW_DATA = {
       status: "settled",
       date: "2024-02-05",
       jurisdiction: "Marion Superior Court, Indiana",
+      parties: [
+        { name: "Oxbow Estates Homeowners Association", role: "Plaintiff" },
+        { name: "Spirit Lake Co-owners Association", role: "Plaintiff" },
+        { name: "Metropolitan Development Commission", role: "Defendant" },
+        { name: "Evergreen LLC", role: "Defendant" },
+        { name: "J.C. Hart Co.", role: "Defendant" },
+        { name: "Chase Development", role: "Defendant" }
+      ],
+      judge: null,
+      amountUsd: null,
       state: "IN",
       amount: "$61M redevelopment at issue",
       source: "live",
@@ -2786,6 +3505,12 @@ const RELAW_DATA = {
       status: "pending",
       date: "2026-07-09",
       jurisdiction: "3rd Circuit Court, Wayne County, Michigan",
+      parties: [
+        { name: "PSOF WA Holding LLC", role: "Plaintiff" },
+        { name: "Fairlane Town Center Realty Holding LLC", role: "Defendant" }
+      ],
+      amountUsd: 28000000,
+      amountBasis: "loan",
       state: "MI",
       amount: "$28M loan (over $35M outstanding as of mid-2026)",
       source: "live",
@@ -2818,6 +3543,13 @@ const RELAW_DATA = {
       status: "filed",
       date: "2026-08-03",
       jurisdiction: "Milwaukee County Circuit Court",
+      parties: [
+        { name: "Waukesha State Bank", role: "Plaintiff" },
+        { name: "225 East Michigan Street LLC", role: "Defendant" }
+      ],
+      judge: null,
+      amountUsd: 6200000,
+      amountBasis: "loan",
       state: "WI",
       amount: "$6.2M owed ($5.9M principal)",
       source: "live",
@@ -2847,6 +3579,14 @@ const RELAW_DATA = {
       status: "ruling",
       date: "2026-04-27",
       jurisdiction: "Hennepin County District Court, Minnesota",
+      parties: [
+        { name: "Fortress Credit Corp.", role: "Lender (Plaintiff)" },
+        { name: "601W Cos.", role: "Borrower (Defendant)" },
+        { name: "Lighthouse Management Group Inc.", role: "Receiver" }
+      ],
+      judge: null,
+      amountUsd: 220000000,
+      amountBasis: "loan",
       state: "MN",
       amount: "$220M unpaid principal, interest, and fees",
       source: "live",
@@ -2876,6 +3616,13 @@ const RELAW_DATA = {
       status: "pending",
       date: "2026-04-14",
       jurisdiction: "Hennepin County District Court, Minnesota",
+      parties: [
+        { name: "Deutsche Bank", role: "Plaintiff" },
+        { name: "WMN Foshay LP", role: "Defendant" }
+      ],
+      judge: null,
+      amountUsd: 43000000,
+      amountBasis: "claim",
       state: "MN",
       amount: "$51M mortgage; ~$43M sought",
       source: "live",
@@ -2905,6 +3652,12 @@ const RELAW_DATA = {
       status: "pending",
       date: "2026-06-24",
       jurisdiction: "U.S. District Court, District of New Mexico",
+      parties: [
+        { name: "Dillard Store Services, Inc.", role: "Plaintiff" },
+        { name: "Winrock Partners LLC", role: "Defendant" },
+        { name: "Integrated Property Services Company", role: "Defendant" }
+      ],
+      amountUsd: null,
       judge: "David H. Urias",
       state: "NM",
       amount: "Unspecified lost-profits damages",
@@ -2937,6 +3690,13 @@ const RELAW_DATA = {
       status: "appeal",
       date: "2026-08-19",
       jurisdiction: "Idaho Supreme Court",
+      parties: [
+        { name: "Toledo Dairy I LLC", role: "Petitioner/Appellant" },
+        { name: "Toledo Land Holdings LLC", role: "Petitioner/Appellant" },
+        { name: "City of Kuna", role: "Respondent" }
+      ],
+      judge: "James Cawthon",
+      amountUsd: null,
       state: "ID",
       amount: "$1B+ data center project; 620 acres",
       source: "live",
@@ -2965,6 +3725,11 @@ const RELAW_DATA = {
       status: "ruling",
       date: "2026-05-08",
       jurisdiction: "Nebraska Supreme Court",
+      parties: [
+        { name: "BB's Childcare, LLC", role: "Appellant" }
+      ],
+      judge: "Cassel",
+      amountUsd: null,
       state: "NE",
       amount: "$3,000/month commercial lease; purchase-option rights at stake",
       source: "live",
@@ -2992,6 +3757,34 @@ const RELAW_DATA = {
       status: "settled",
       date: "2025-11-26",
       jurisdiction: "U.S. District Court, District of Nebraska",
+      parties: [
+        { name: "Pioneer Hi-Bred International, Inc.", role: "Plaintiff" },
+        { name: "AgReliant Genetics, LLC", role: "Plaintiff" },
+        { name: "Beck's Superior Hybrids, Inc.", role: "Plaintiff" },
+        { name: "Corteva Agriscience, LLC", role: "Plaintiff" },
+        { name: "Corteva, Inc.", role: "Plaintiff" },
+        { name: "DDP AgroSciences US DCOMCO, Inc.", role: "Plaintiff" },
+        { name: "E. I. du Pont de Nemours and Company", role: "Plaintiff" },
+        { name: "GLH Seeds Inc.", role: "Plaintiff" },
+        { name: "Land O'Lakes, Inc.", role: "Plaintiff" },
+        { name: "Vilmorin USA Corp.", role: "Plaintiff" },
+        { name: "Winfield Solutions, LLC", role: "Plaintiff" },
+        { name: "AltEn, LLC", role: "Defendant" },
+        { name: "AltEn Operating Company, LLC", role: "Defendant" },
+        { name: "E3 Biofuels, LLC", role: "Defendant" },
+        { name: "Earth Energy & Environment, LLC", role: "Defendant" },
+        { name: "Falcon Energy, LLC", role: "Defendant" },
+        { name: "Green Disposal Mead LLC", role: "Defendant" },
+        { name: "Integrated Recycling, LLC", role: "Defendant" },
+        { name: "Langley Estate, Inc", role: "Defendant" },
+        { name: "Mead Acquisition Company, LLC", role: "Defendant" },
+        { name: "Mead Cattle Company, LLC", role: "Defendant" },
+        { name: "Platte River Green Fuels, LLC", role: "Defendant" },
+        { name: "The Langley Group, Ltd.", role: "Defendant" },
+        { name: "State of Nebraska", role: "Interested Party" }
+      ],
+      amountUsd: 28000000,
+      amountBasis: "other",
       judge: "Brian C. Buescher",
       state: "NE",
       amount: "~$28M in cleanup costs at issue",
@@ -3023,6 +3816,15 @@ const RELAW_DATA = {
       status: "appeal",
       date: "2026-08-26",
       jurisdiction: "Intermediate Court of Appeals of West Virginia",
+      parties: [
+        { name: "Tucker United", role: "Petitioner" },
+        { name: "West Virginia Highlands Conservancy", role: "Petitioner" },
+        { name: "Sierra Club", role: "Petitioner" },
+        { name: "West Virginia Air Quality Board", role: "Respondent" },
+        { name: "Fundamental Data, LLC", role: "Intervenor (developer)" }
+      ],
+      judge: null,
+      amountUsd: null,
       state: "WV",
       amount: "1,600 MW off-grid gas/diesel power plant + data center; 500 acres",
       source: "live",
@@ -3051,6 +3853,13 @@ const RELAW_DATA = {
       status: "filed",
       date: "2026-08-07",
       jurisdiction: "Circuit Court of Kanawha County, West Virginia",
+      parties: [
+        { name: "West Virginia Department of Environmental Protection", role: "Plaintiff" },
+        { name: "Bluestone Coal Corporation", role: "Defendant" }
+      ],
+      judge: null,
+      amountUsd: 2931492.4,
+      amountBasis: "claim",
       state: "WV",
       amount: "$2,931,492.40 in unpaid penalties sought",
       source: "live",
@@ -3077,6 +3886,11 @@ const RELAW_DATA = {
       status: "ruling",
       date: "2025-04-11",
       jurisdiction: "Supreme Court of Alabama",
+      parties: [
+        { name: "Hembree Insurance Trust", role: "Appellant" },
+        { name: "Maples Industries, Inc.", role: "Appellee" }
+      ],
+      amountUsd: null,
       judge: "Sarah H. Stewart",
       state: "AL",
       amount: "N/A — five-year industrial lease's validity and enforceability at issue",
@@ -3109,6 +3923,12 @@ const RELAW_DATA = {
       status: "appeal",
       date: "2025-07-11",
       jurisdiction: "Supreme Court of Alabama",
+      parties: [
+        { name: "CBS Holdings, LLC", role: "Appellant" },
+        { name: "Hexagon US Federal, Inc.", role: "Appellee" }
+      ],
+      amountUsd: 174987.45,
+      amountBasis: "award",
       judge: "Gregory Cook",
       state: "AL",
       amount: "$174,987.45 in disputed attorney fees; underlying lease renewal upheld",
@@ -3141,6 +3961,20 @@ const RELAW_DATA = {
       status: "ruling",
       date: "2026-05-20",
       jurisdiction: "Oklahoma County District Court, Oklahoma",
+      parties: [
+        { name: "Ready Capital Mortgage Financing 2023-FL 12, LLC", role: "Plaintiff" },
+        { name: "Drexel Flats Acquisition LLC", role: "Defendant" },
+        { name: "Drexel Flats Acquisition Tic Llc", role: "Defendant" },
+        { name: "Ysa Investments 1, Llc", role: "Defendant" },
+        { name: "Iplumb Co. Llc", role: "Defendant" },
+        { name: "Nix Lumber, Inc", role: "Defendant" },
+        { name: "Rasa Floors & Carpet Cleaning, Llc", role: "Defendant" },
+        { name: "Tres Palm Supply, Llc", role: "Defendant" },
+        { name: "The Board Of County Commissioners Of Oklahoma County", role: "Defendant" },
+        { name: "The Oklahoma County Treasurer", role: "Defendant" }
+      ],
+      amountUsd: 28000000,
+      amountBasis: "loan",
       judge: "Amy Palumbo",
       state: "OK",
       amount: "~$28M–$30M in alleged unpaid principal, interest, and fees",
@@ -3174,6 +4008,17 @@ const RELAW_DATA = {
       status: "ruling",
       date: "2025-04-02",
       jurisdiction: "Arkansas Court of Appeals",
+      parties: [
+        { name: "Thompson Thrift Construction, Inc.", role: "Appellant" },
+        { name: "Modus Studio, PLLC", role: "Appellee" },
+        { name: "Center Point Contractors, Inc.", role: "Appellee" },
+        { name: "Icrete Technologies, LLC", role: "Appellee" },
+        { name: "Prestige Construction & Development, LLC", role: "Appellee" },
+        { name: "Roofing Systems, Inc.", role: "Appellee" },
+        { name: "U.S. Framing, Inc.", role: "Appellee" }
+      ],
+      amountUsd: 13529726,
+      amountBasis: "award",
       judge: "Brandon Harrison",
       state: "AR",
       amount: "$13,529,726 underlying arbitration award against the general contractor",
@@ -3207,7 +4052,15 @@ const RELAW_DATA = {
       status: "ruling",
       date: "2024-04-04",
       jurisdiction: "Supreme Court of Mississippi",
-      judge: "James B. Persons",
+      parties: [
+        { name: "The State of Mississippi", role: "Appellant" },
+        { name: "Secretary of State of the State of Mississippi", role: "Appellant" },
+        { name: "City of Biloxi", role: "Appellee" },
+        { name: "Biloxi Public School District", role: "Appellee" },
+        { name: "Harrison County, Mississippi", role: "Appellee" }
+      ],
+      amountUsd: null,
+      judge: "David M. Ishee",
       state: "MS",
       amount: "~1 acre of Biloxi waterfront commercial land at issue",
       source: "live",
@@ -3238,6 +4091,13 @@ const RELAW_DATA = {
       status: "ruling",
       date: "2023-03-02",
       jurisdiction: "Supreme Court of Mississippi",
+      parties: [
+        { name: "State of Mississippi", role: "Appellant" },
+        { name: "RW Development, LLC", role: "Appellee" },
+        { name: "City of Biloxi, Mississippi", role: "Appellee" },
+        { name: "Harrison County, Mississippi", role: "Appellee" }
+      ],
+      amountUsd: null,
       judge: "Jennifer T. Schloegel",
       state: "MS",
       amount: "N/A — municipal authority to lease tidelands for a casino pier upheld",
@@ -3270,6 +4130,19 @@ const RELAW_DATA = {
       status: "appeal",
       date: "2026-08-05",
       jurisdiction: "U.S. District Court, Western District of Washington",
+      parties: [
+        { name: "Cedarland Homes LLC", role: "Plaintiff" },
+        { name: "State of Washington", role: "Defendant" },
+        { name: "City of Seattle", role: "Defendant" },
+        { name: "City of Spokane", role: "Defendant" },
+        { name: "City of Kirkland", role: "Defendant" },
+        { name: "City of Burien", role: "Defendant" },
+        { name: "City of Everett", role: "Defendant" },
+        { name: "City of Bellevue", role: "Defendant" },
+        { name: "City of Olympia", role: "Defendant" },
+        { name: "City of Kenmore", role: "Defendant" }
+      ],
+      amountUsd: null,
       judge: "Barbara J. Rothstein",
       state: "WA",
       amount: "Uncapped takings claim after state relief program capped compensation at $15,000 per unit",
@@ -3301,6 +4174,16 @@ const RELAW_DATA = {
       status: "filed",
       date: "2026-06-24",
       jurisdiction: "Grafton Superior Court, New Hampshire",
+      parties: [
+        { name: "Service Credit Union", role: "Plaintiff" },
+        { name: "Granite Senior Services LLC", role: "Defendant" },
+        { name: "Granite Senior Operations LLC", role: "Defendant" },
+        { name: "Blue Lodge Spray Foam LLC", role: "Defendant" },
+        { name: "CTC Commercial LLC", role: "Defendant" }
+      ],
+      judge: null,
+      amountUsd: 30000000,
+      amountBasis: "damages sought",
       state: "NH",
       amount: "$30M in principal claims against the primary defendants, plus $1.5M sought from CTC Commercial and related defendants; $22M collateral value",
       source: "live",
@@ -3329,6 +4212,12 @@ const RELAW_DATA = {
       status: "appeal",
       date: "2026-01-15",
       jurisdiction: "Supreme Court of Indiana",
+      parties: [
+        { name: "Simon Property Group, L.P.", role: "Appellant-Defendant" },
+        { name: "Universal Protection Service, LLC", role: "Appellant-Defendant" }
+      ],
+      judge: "Christina R. Klineman",
+      amountUsd: null,
       state: "IN",
       amount: "Unspecified compensatory damages sought; underlying premises-liability and negligence claims",
       source: "live",
@@ -3357,6 +4246,15 @@ const RELAW_DATA = {
       status: "filed",
       date: "2026-09-03",
       jurisdiction: "Harris County District Court, Texas",
+      parties: [
+        { name: "Simon Property Group", role: "Defendant" },
+        { name: "HG Galleria LLC", role: "Defendant" },
+        { name: "Allied Universal Security Services", role: "Defendant" },
+        { name: "GardaWorld Security Services", role: "Defendant" }
+      ],
+      judge: null,
+      amountUsd: 1000000,
+      amountBasis: "damages sought",
       state: "TX",
       amount: "More than $1,000,000 sought",
       source: "live",
@@ -3383,6 +4281,12 @@ const RELAW_DATA = {
       status: "ruling",
       date: "2026-02-24",
       jurisdiction: "Ninth Judicial Circuit Court, Osceola County, Florida",
+      parties: [
+        { name: "Publix Super Markets, Inc.", role: "Defendant" }
+      ],
+      judge: null,
+      amountUsd: 3967000,
+      amountBasis: "award",
       state: "FL",
       amount: "$3,967,000 jury verdict",
       source: "live",
@@ -3410,6 +4314,13 @@ const RELAW_DATA = {
       status: "filed",
       date: "2026-01-14",
       jurisdiction: "Los Angeles County Superior Court",
+      parties: [
+        { name: "The Original Saugus Café LLC", role: "Plaintiff" },
+        { name: "North Valley Construction Co. LLC", role: "Defendant" }
+      ],
+      judge: null,
+      amountUsd: 1000000,
+      amountBasis: "damages sought",
       state: "CA",
       amount: "Damages exceeding $1,000,000 sought",
       source: "live",
@@ -3439,6 +4350,11 @@ const RELAW_DATA = {
       status: "ruling",
       date: "2026-06-12",
       jurisdiction: "Supreme Court of Texas",
+      parties: [
+        { name: "The State of Texas", role: "Petitioner" },
+        { name: "JRJ Pusok Holdings, LLC", role: "Respondent" }
+      ],
+      amountUsd: null,
       judge: "Jane Bland",
       state: "TX",
       amount: "N/A — no monetary judgment; case remanded to the trial court for further proceedings on the merits",
@@ -3473,6 +4389,12 @@ const RELAW_DATA = {
       status: "ruling",
       date: "2025-07-16",
       jurisdiction: "Fourth Court of Appeals, San Antonio, Texas",
+      parties: [
+        { name: "City of San Antonio", role: "Appellant" },
+        { name: "Toyota Motor Manufacturing Texas, Inc.", role: "Appellant" },
+        { name: "Southside Affordable Development, LLC", role: "Appellee" }
+      ],
+      amountUsd: null,
       judge: "H. Todd McCray",
       state: "TX",
       amount: "N/A — claims dismissed with prejudice for lack of standing",
@@ -3508,6 +4430,12 @@ const RELAW_DATA = {
       status: "ruling",
       date: "2026-01-29",
       jurisdiction: "Fifth Court of Appeals, Dallas, Texas",
+      parties: [
+        { name: "ATC Indoor DAS LLC", role: "Appellant" },
+        { name: "MM CCM 48M Leasing, LLC", role: "Appellee" },
+        { name: "MM CCM 48M, LLC", role: "Appellee" }
+      ],
+      amountUsd: null,
       judge: "Emily Miskel",
       state: "TX",
       amount: "N/A — summary judgment reversed and rendered in part on liability; remanded in part on attorney's fees",
@@ -3542,6 +4470,13 @@ const RELAW_DATA = {
       status: "ruling",
       date: "2025-02-04",
       jurisdiction: "Fourteenth Court of Appeals, Houston, Texas",
+      parties: [
+        { name: "Holiday Inn Club Vacations Inc.", role: "Appellant" },
+        { name: "CBRE, Inc.", role: "Appellee" },
+        { name: "ACI Architectural Concepts, Inc.", role: "Appellee" },
+        { name: "T&G Corporation f/k/a T&G Constructors", role: "Appellee" }
+      ],
+      amountUsd: null,
       judge: "Kevin Jewell",
       state: "TX",
       amount: "N/A — take-nothing summary judgment reversed and remanded for further proceedings",
@@ -3573,6 +4508,12 @@ const RELAW_DATA = {
       status: "filed",
       date: "2026-03-18",
       jurisdiction: "Dallas County District Court, Texas",
+      parties: [
+        { name: "City of Dallas", role: "Plaintiff" },
+        { name: "Mid-America Apartments", role: "Defendant" }
+      ],
+      judge: null,
+      amountUsd: null,
       state: "TX",
       amount: "N/A — city seeks injunctive relief and civil penalties under the Dallas Fair Housing Ordinance",
       source: "live",
@@ -3601,6 +4542,12 @@ const RELAW_DATA = {
       status: "settled",
       date: "2026-07-15",
       jurisdiction: "U.S. District Court, Eastern District of California",
+      parties: [
+        { name: "California Department of Toxic Substances Control", role: "Plaintiff" }
+      ],
+      judge: "John A. Mendez",
+      amountUsd: 2000000,
+      amountBasis: "settlement",
       state: "CA",
       amount: "$2M consent-decree settlement",
       source: "live",
@@ -3631,6 +4578,12 @@ const RELAW_DATA = {
       status: "ruling",
       date: "2026-06-02",
       jurisdiction: "U.S. District Court, Central District of California",
+      parties: [
+        { name: "The Mission LLC", role: "Plaintiff" },
+        { name: "The State of California", role: "Defendant" },
+        { name: "The City of Santa Barbara", role: "Defendant" }
+      ],
+      amountUsd: null,
       judge: "Hernán D. Vera",
       state: "CA",
       amount: "N/A — dismissed with leave to amend by June 22, 2026",
@@ -3663,6 +4616,13 @@ const RELAW_DATA = {
       status: "filed",
       date: "2026-08-25",
       jurisdiction: "Miami-Dade County Circuit Court",
+      parties: [
+        { name: "Grand at Doral I Condominium Association", role: "Plaintiff" },
+        { name: "Prime Properties at Doral", role: "Defendant" },
+        { name: "Premier Properties at Doral", role: "Defendant" }
+      ],
+      judge: null,
+      amountUsd: null,
       state: "FL",
       amount: "Declaratory relief sought; no damages specified",
       source: "live",
@@ -3686,6 +4646,13 @@ const RELAW_DATA = {
       status: "filed",
       date: "2026-07-21",
       jurisdiction: "Superior Court for the State of Alaska, Third Judicial District at Anchorage",
+      parties: [
+        { name: "Anchorage Community Development Authority", role: "Plaintiff" },
+        { name: "Hughes Family LLC", role: "Defendant" },
+        { name: "Anchorage Innovation District LLC", role: "Defendant" }
+      ],
+      judge: null,
+      amountUsd: null,
       state: "AK",
       amount: "Partition and court-ordered sale sought; proceeds to be split proportionately (ACDA holds an 80% interest)",
       source: "live",
@@ -3714,6 +4681,10 @@ const RELAW_DATA = {
       status: "ruling",
       date: "2026-09-11",
       jurisdiction: "U.S. District Court, Central District of California",
+      parties: [
+        { name: "Alexandria Real Estate Equities, Inc.", role: "Defendant" }
+      ],
+      amountUsd: null,
       state: "CA",
       amount: "$2.2B in disputed property impairments; ~19% single-day stock decline",
       source: "live",
@@ -3747,6 +4718,13 @@ const RELAW_DATA = {
       status: "ruling",
       date: "2026-08-26",
       jurisdiction: "Jefferson Circuit Court, Kentucky",
+      parties: [
+        { name: "LDG Development", role: "Plaintiff" },
+        { name: "City of Prospect", role: "Defendant" }
+      ],
+      judge: null,
+      amountUsd: 36300000,
+      amountBasis: "award",
       state: "KY",
       amount: "$36.3M jury verdict, including approximately $7.3M in punitive damages",
       source: "live",
@@ -3778,6 +4756,11 @@ const RELAW_DATA = {
       status: "ruling",
       date: "2026-09-03",
       jurisdiction: "Massachusetts Supreme Judicial Court",
+      parties: [
+        { name: "Town of Nahant", role: "Petitioner" },
+        { name: "Northeastern University", role: "Respondent" }
+      ],
+      amountUsd: null,
       state: "MA",
       amount: "~$2.2M taking value estimated by the town; Northeastern has signaled it will contest that figure and warned of up to $9M in potential delay damages if the taking had been abandoned",
       source: "live",
@@ -3812,6 +4795,13 @@ const RELAW_DATA = {
       status: "filed",
       date: "2026-09-04",
       jurisdiction: "Circuit Court of Cook County, Illinois",
+      parties: [
+        { name: "Jovia Financial Federal Credit Union", role: "Plaintiff" },
+        { name: "S Indiana Avenue LLC", role: "Defendant" }
+      ],
+      judge: null,
+      amountUsd: 17100000,
+      amountBasis: "loan",
       state: "IL",
       amount: "$17.1M sought, including under an unlimited personal guaranty",
       source: "live",
@@ -3843,6 +4833,12 @@ const RELAW_DATA = {
       status: "filed",
       date: "2026-06-09",
       jurisdiction: "U.S. District Court, District of Maine",
+      parties: [
+        { name: "Portland Music Holdings LLC", role: "Plaintiff" },
+        { name: "City of Portland", role: "Defendant" }
+      ],
+      judge: "John C. Nivison",
+      amountUsd: null,
       state: "ME",
       amount: "Unspecified damages and attorneys' fees sought; project's development value at stake",
       source: "live",
@@ -3874,6 +4870,13 @@ const RELAW_DATA = {
       status: "filed",
       date: "2026-07-28",
       jurisdiction: "U.S. District Court for the Eastern District of Pennsylvania",
+      parties: [
+        { name: "KREF Capital LLC", role: "Plaintiff" },
+        { name: "LAK Bourse Owner, LLC", role: "Defendant" }
+      ],
+      judge: null,
+      amountUsd: 24200000,
+      amountBasis: "damages sought",
       state: "PA",
       amount: "$24.2M sought (principal, interest, and fees) on an $83.7M acquisition and construction loan",
       source: "live",
@@ -3904,6 +4907,12 @@ const RELAW_DATA = {
       status: "pending",
       date: "2026-09-11",
       jurisdiction: "Circuit Court, Fifteenth Judicial Circuit, Palm Beach County, Florida",
+      parties: [
+        { name: "Urgo Hotels LP", role: "Defendant" },
+        { name: "UH-SI LLC", role: "Defendant" }
+      ],
+      judge: null,
+      amountUsd: null,
       state: "FL",
       amount: "More than $45M in claimed damages dating to 2013, plus punitive damages sought",
       source: "live",
@@ -3935,6 +4944,14 @@ const RELAW_DATA = {
       status: "ruling",
       date: "2026-09-01",
       jurisdiction: "New York County Supreme Court",
+      parties: [
+        { name: "Soros Fund Management", role: "Plaintiff (Lender)" },
+        { name: "QPTF LLC", role: "Lender (Soros affiliate)" },
+        { name: "The Eretz Group", role: "Defendant (Borrower/Owner)" }
+      ],
+      judge: null,
+      amountUsd: 158700000,
+      amountBasis: "judgment",
       state: "NY",
       amount: "$158.7M foreclosure judgment (on a $145M original mortgage)",
       source: "live",
@@ -3966,6 +4983,13 @@ const RELAW_DATA = {
       status: "pending",
       date: "2026-03-27",
       jurisdiction: "New York State Supreme Court",
+      parties: [
+        { name: "Arbor Realty Trust", role: "Defendant" },
+        { name: "Velocity Consulting", role: "Defendant" }
+      ],
+      judge: null,
+      amountUsd: 175000000,
+      amountBasis: "damages sought",
       state: "GA",
       amount: "$175M sought in damages",
       source: "live",
@@ -3989,6 +5013,11 @@ const RELAW_DATA = {
       status: "ruling",
       date: "2026-08-11",
       jurisdiction: "U.S. District Court, Southern District of New York",
+      parties: [
+        { name: "United States of America", role: "Plaintiff" }
+      ],
+      amountUsd: 13830665,
+      amountBasis: "other",
       state: "NY",
       amount: "$13M forfeiture ordered; 4 years federal prison",
       source: "live",
@@ -4023,6 +5052,14 @@ const RELAW_DATA = {
       status: "ruling",
       date: "2026-02-02",
       jurisdiction: "Supreme Court of Wyoming",
+      parties: [
+        { name: "Gunwerks, LLC", role: "Appellant/Plaintiff" },
+        { name: "Forward Cody Wyoming, Inc.", role: "Appellee/Defendant" },
+        { name: "Sletten Construction of Wyoming, Inc.", role: "Appellee/Crossclaim Defendant" },
+        { name: "Plan One Architects", role: "Appellee/Crossclaim Defendant" }
+      ],
+      amountUsd: 14000000,
+      amountBasis: "damages sought",
       state: "WY",
       amount: "$14M sought in underlying construction-defect claims",
       source: "live",
@@ -4053,6 +5090,11 @@ const RELAW_DATA = {
       status: "ruling",
       date: "2026-08-19",
       jurisdiction: "Delaware Court of Chancery",
+      parties: [
+        { name: "NVR, Inc.", role: "Plaintiff/Counterclaim Defendant" },
+        { name: "Osprey Point Preserve, LLC", role: "Defendant/Counterclaim Plaintiff" }
+      ],
+      amountUsd: null,
       state: "DE",
       amount: "Marina parcel disputed at $9M asking price",
       source: "live",
@@ -4085,6 +5127,14 @@ const RELAW_DATA = {
       status: "settled",
       date: "2026-08-05",
       jurisdiction: "Supreme Court of the State of New York, New York County",
+      parties: [
+        { name: "Landesbank Hessen-Thüringen Girozentrale", role: "Plaintiff (Lender)" },
+        { name: "29 West 34 Owner LLC", role: "Defendant (Borrower)" },
+        { name: "29 W. 34th Street Holdings LLC", role: "Assignee Lender" },
+        { name: "29 W. 34th Street Lender LLC", role: "Assignee Lender" }
+      ],
+      amountUsd: 50000000,
+      amountBasis: "loan",
       state: "NY",
       amount: "$50M mortgage; over $12M in alleged unpaid property taxes",
       source: "live",
@@ -4118,6 +5168,37 @@ const RELAW_DATA = {
       status: "filed",
       date: "2026-09-09",
       jurisdiction: "U.S. District Court for the District of Maryland",
+      parties: [
+        { name: "Ameritrust Mortgage Corporation", role: "Plaintiff (Lender)" },
+        { name: "FirstLoans Inc.", role: "Defendant (Mortgage broker)" },
+        { name: "Rextar Title Services, LLC", role: "Defendant" },
+        { name: "Fidelity National Title Insurance Company", role: "Defendant" },
+        { name: "SLDL Properties LLC", role: "Defendant" },
+        { name: "Zahav Ventures, LLC", role: "Defendant" },
+        { name: "Zahav Plus Ventures", role: "Defendant" },
+        { name: "1258 Glyndon LLC", role: "Defendant" },
+        { name: "Levy Ventures, LLC", role: "Defendant" },
+        { name: "Cancun Bernal, LLC", role: "Defendant" },
+        { name: "Dukeland Rose, LLC", role: "Defendant" },
+        { name: "Grace Popland, LLC", role: "Defendant" },
+        { name: "Popland Street Properties, LLC", role: "Defendant" },
+        { name: "Sunray MGMT LLC", role: "Defendant" },
+        { name: "Cardinal MGMT LLC", role: "Defendant" },
+        { name: "Orleans Street, LLC", role: "Defendant" },
+        { name: "Fairhaven Avenue Properties, LLC", role: "Defendant" },
+        { name: "Fayette Noble, LLC", role: "Defendant" },
+        { name: "Stanford Powell, LLC", role: "Defendant" },
+        { name: "EGBE Ventures, LLC", role: "Defendant" },
+        { name: "Gelt Ventures, LLC", role: "Defendant" },
+        { name: "Kesef Ventures, LLC", role: "Defendant" },
+        { name: "Maple & Green LLC", role: "Defendant" },
+        { name: "Glover Collins, LLC", role: "Defendant" },
+        { name: "Kenyon Winchester LLC", role: "Defendant" },
+        { name: "1613 Spruce Street, LLC", role: "Defendant" }
+      ],
+      judge: "Ellen Lipton Hollander",
+      amountUsd: 14000000,
+      amountBasis: "damages sought",
       state: "MD",
       amount: "$14.1M in alleged lender losses across ~90 loans",
       source: "live",
@@ -4147,6 +5228,14 @@ const RELAW_DATA = {
       status: "filed",
       date: "2026-09-10",
       jurisdiction: "Supreme Court of the State of New York, New York County",
+      parties: [
+        { name: "BREIT Operating Partnership", role: "Defendant" },
+        { name: "Beam Living", role: "Defendant" },
+        { name: "8 Spruce", role: "Defendant" }
+      ],
+      judge: null,
+      amountUsd: 30000000,
+      amountBasis: "claim",
       state: "NY",
       amount: "$30M+ in alleged aggregate overcharges",
       source: "live",
@@ -4175,6 +5264,13 @@ const RELAW_DATA = {
       status: "ruling",
       date: "2026-03-12",
       jurisdiction: "Ninth Judicial Circuit Court, Orange County, Florida",
+      parties: [
+        { name: "Soho WP LLC", role: "Defendant" },
+        { name: "BE1 Concept Holdings LLC", role: "Defendant" }
+      ],
+      judge: null,
+      amountUsd: 644751855.08,
+      amountBasis: "award",
       state: "FL",
       amount: "$644,751,855.08 jury verdict",
       source: "live",
@@ -4202,6 +5298,17 @@ const RELAW_DATA = {
       status: "pending",
       date: "2026-08-17",
       jurisdiction: "U.S. Bankruptcy Court, District of North Dakota",
+      parties: [
+        { name: "Red River State Bank", role: "Plaintiff/Lender" },
+        { name: "Generations on 1st, LLC", role: "Defendant/Borrower" },
+        { name: "Craig Holdings, LLC", role: "Defendant" },
+        { name: "Watertown Development Company", role: "Defendant" },
+        { name: "Codington County", role: "Defendant" },
+        { name: "The Ruins, LLC", role: "Debtor" },
+        { name: "Build, LLC", role: "Bidder/Adversary Plaintiff" },
+        { name: "Archer Land Co., LLC", role: "Buyer" }
+      ],
+      amountUsd: null,
       state: "SD",
       amount: "$22M+ in defaulted promissory notes; The Ruins parcel resold for $6.1M after an $11.265M credit bid unraveled",
       source: "live",
@@ -4234,6 +5341,14 @@ const RELAW_DATA = {
       status: "filed",
       date: "2026-09-16",
       jurisdiction: "U.S. District Court, Northern District of Texas",
+      parties: [
+        { name: "Proven Business Skills Inc", role: "Plaintiff" },
+        { name: "Phoenix American Hospitality, LLC", role: "Defendant" },
+        { name: "American Hospitality Properties REIT, Inc.", role: "Defendant" },
+        { name: "American Hospitality Properties REIT II, Inc.", role: "Defendant" }
+      ],
+      judge: "Sidney Allen Fitzwater",
+      amountUsd: null,
       state: "TX",
       amount: "$86M+ raised from 2,000+ retail investors across two non-traded REIT funds; class damages not yet quantified",
       source: "live",
@@ -4262,6 +5377,12 @@ const RELAW_DATA = {
       status: "filed",
       date: "2026-09-11",
       jurisdiction: "U.S. District Court, District of Maine",
+      parties: [
+        { name: "Blue Sky Towers IV LLC", role: "Plaintiff" },
+        { name: "Town of Waldoboro", role: "Defendant" }
+      ],
+      judge: null,
+      amountUsd: null,
       state: "ME",
       amount: "Non-monetary; seeks injunctive relief compelling tower-siting approval plus attorneys' fees",
       source: "live",
@@ -4288,6 +5409,10 @@ const RELAW_DATA = {
       status: "ruling",
       date: "2026-05-13",
       jurisdiction: "U.S. Court of Appeals for the Fourth Circuit",
+      parties: [
+        { name: "Circle K Stores Inc.", role: "Defendant-Appellee" }
+      ],
+      amountUsd: null,
       state: "SC",
       amount: "Non-monetary; summary judgment reversed and case remanded for trial in the District of South Carolina",
       source: "live",
@@ -4317,6 +5442,12 @@ const RELAW_DATA = {
       status: "ruling",
       date: "2026-07-28",
       jurisdiction: "Eighth Judicial District Court, Clark County, Nevada",
+      parties: [
+        { name: "Wells Fargo", role: "Movant" },
+        { name: "Logic Commercial Real Estate", role: "Receiver" }
+      ],
+      amountUsd: 325000000,
+      amountBasis: "loan",
       state: "NV",
       amount: "$325M defaulted CMBS loan; sale price to Borden Industries withheld from public filings",
       source: "live",
@@ -4347,6 +5478,16 @@ const RELAW_DATA = {
       status: "filed",
       date: "2026-04-03",
       jurisdiction: "U.S. District Court, Southern District of Florida",
+      parties: [
+        { name: "700 Edgewater Development, LLC", role: "Plaintiff" },
+        { name: "Zurich American Insurance Company", role: "Defendant" },
+        { name: "Allianz Global Risks US Insurance Company", role: "Defendant" },
+        { name: "ACE American Insurance Company", role: "Defendant" },
+        { name: "National Fire & Marine Insurance Company", role: "Defendant" }
+      ],
+      judge: "Roy Kalman Altman",
+      amountUsd: 22400000,
+      amountBasis: "claim",
       state: "FL",
       amount: "$22.4M disputed balance of a $55.7M builder's-risk claim; $33.9M already paid by insurers",
       source: "live",
@@ -4377,6 +5518,17 @@ const RELAW_DATA = {
       status: "ruling",
       date: "2026-09-14",
       jurisdiction: "Idaho Supreme Court",
+      parties: [
+        { name: "State of Idaho", role: "Plaintiff-Respondent" },
+        { name: "Idaho Transportation Board", role: "Plaintiff-Respondent" },
+        { name: "Triple Crown Development, LLC", role: "Defendant-Appellant" },
+        { name: "Thueson Construction, Inc.", role: "Defendant Intervenor-Appellant" },
+        { name: "Americrete Ready Mix Concrete, Inc.", role: "Defendant Intervenor-Appellant" },
+        { name: "Americrete Land Holding LLC", role: "Defendant Intervenor-Appellant" },
+        { name: "River Rock Sand & Gravel LLC", role: "Defendant Intervenor-Appellant" }
+      ],
+      judge: "Colleen D. Zahn",
+      amountUsd: null,
       state: "ID",
       amount: "Business-damages claim rejected; underlying land value stipulated separately",
       source: "live",
@@ -4404,6 +5556,11 @@ const RELAW_DATA = {
       status: "ruling",
       date: "2026-06-24",
       jurisdiction: "Florida Second District Court of Appeal",
+      parties: [
+        { name: "Wal-Mart Stores East, LP", role: "Appellant" }
+      ],
+      judge: "Sleet",
+      amountUsd: null,
       state: "FL",
       amount: "$6.8M verdict affirmed (per Law360 reporting)",
       source: "live",
@@ -4433,6 +5590,12 @@ const RELAW_DATA = {
       status: "filed",
       date: "2026-06-04",
       jurisdiction: "Benton County Circuit Court, Arkansas",
+      parties: [
+        { name: "Mud Puddle Investments", role: "Plaintiff" },
+        { name: "City of Siloam Springs", role: "Defendant" }
+      ],
+      judge: null,
+      amountUsd: null,
       state: "AR",
       amount: "319-lot subdivision on approximately 100 acres",
       source: "live",
@@ -4462,6 +5625,17 @@ const RELAW_DATA = {
       status: "pending",
       date: "2026-09-10",
       jurisdiction: "U.S. Court of Federal Claims",
+      parties: [
+        { name: "Darby Development Company, Inc.", role: "Plaintiff" },
+        { name: "United States", role: "Defendant" },
+        { name: "Investors Management Trust Real Estate Group", role: "Plaintiff (claimant landlord)" },
+        { name: "American Landmark", role: "Plaintiff (claimant landlord)" },
+        { name: "Prosperity Capital Partners", role: "Plaintiff (claimant landlord)" },
+        { name: "Commerce Capital Group", role: "Plaintiff (claimant landlord)" },
+        { name: "Gateway Management", role: "Plaintiff (claimant landlord)" }
+      ],
+      amountUsd: 26000000000,
+      amountBasis: "damages sought",
       judge: "Armando O. Bonilla",
       amount: "2,633 claimant landlords; settlement discussions reportedly centered near $1B, against an original ~$26B ask",
       source: "live",
@@ -4496,6 +5670,14 @@ const RELAW_DATA = {
       status: "filed",
       date: "2026-07-31",
       jurisdiction: "Marion Superior Court, Indiana",
+      parties: [
+        { name: "Melvin Simon & Associates, Inc.", role: "Plaintiff" },
+        { name: "Simon Hollywood Developers, Inc.", role: "Plaintiff" },
+        { name: "Bank of America", role: "Plaintiff" },
+        { name: "SFG Manager, LLC", role: "Defendant" }
+      ],
+      judge: null,
+      amountUsd: null,
       state: "IN",
       amount: "Undisclosed; dispute over equity interests in a privately held real estate holding company",
       source: "live",
@@ -4525,6 +5707,13 @@ const RELAW_DATA = {
       status: "filed",
       date: "2026-09-16",
       jurisdiction: "Montgomery County Court of Common Pleas, Pennsylvania",
+      parties: [
+        { name: "Upper Merion Township", role: "Defendant" },
+        { name: "Upper Merion Township Planning Commission", role: "Defendant" },
+        { name: "Upper Merion Township Board of Supervisors", role: "Defendant" }
+      ],
+      judge: null,
+      amountUsd: null,
       state: "PA",
       amount: "5-building, 4.6M-square-foot data center campus",
       source: "live",
@@ -4554,6 +5743,12 @@ const RELAW_DATA = {
       status: "settled",
       date: "2026-09-04",
       jurisdiction: "New York City Sheriff's Office execution sale; NYC Housing Court, Kings County",
+      parties: [
+        { name: "Rikud Realty", role: "Judgment Debtor" }
+      ],
+      judge: null,
+      amountUsd: 2200000,
+      amountBasis: "judgment",
       state: "NY",
       amount: "~$7.6M total consideration at sale; underlying $2.2M 2017 tort judgment",
       source: "live",
@@ -4585,6 +5780,12 @@ const RELAW_DATA = {
       status: "ruling",
       date: "2026-04-10",
       jurisdiction: "Vermont Supreme Court",
+      parties: [
+        { name: "32 Intervale, LLC", role: "Plaintiff-Appellant" },
+        { name: "City of Burlington", role: "Defendant-Appellee" }
+      ],
+      judge: "Eaton",
+      amountUsd: null,
       state: "VT",
       amount: "Dispute over regulatory status of 22 nonowner-occupied short-term rental units across 17 properties",
       source: "live",
@@ -4616,6 +5817,15 @@ const RELAW_DATA = {
       status: "pending",
       date: "2026-09-16",
       jurisdiction: "Iowa District Court for Polk County",
+      parties: [
+        { name: "Eagle Nest Investments LLC", role: "Plaintiff" },
+        { name: "Gratias Properties LLC", role: "Plaintiff" },
+        { name: "TJK Investments LC", role: "Defendant" },
+        { name: "Wendover Reserve LLC", role: "Defendant" },
+        { name: "Landmark Brokerage Inc.", role: "Defendant" }
+      ],
+      judge: null,
+      amountUsd: null,
       state: "IA",
       amount: "Alleged combined shortfall of ~$8.7M across two parcels (126.52-acre commercial parcel sold for $11.4M vs. an alleged $18.34M fair market value; 25.52-acre residential parcel sold for $1.6M vs. an alleged $1.99M fair market value)",
       source: "live",
@@ -4645,6 +5855,14 @@ const RELAW_DATA = {
       status: "pending",
       date: "2025-03-13",
       jurisdiction: "Connecticut Superior Court, Complex Litigation Docket, Hartford (transferred from New London Superior Court)",
+      parties: [
+        { name: "Groton Housing Authority", role: "Plaintiff" },
+        { name: "Greater Groton Realty Corp.", role: "Plaintiff" },
+        { name: "All Points Employer Solutions", role: "Defendant" },
+        { name: "Clermont & Associates", role: "Defendant" }
+      ],
+      amountUsd: 2000000,
+      amountBasis: "claim",
       state: "CT",
       judge: "Scott Chadwick",
       amount: "GHA alleges at least $2M in misappropriated assets tied to Cappelletti's tenure; the collapsed underlying redevelopment plan involved a proposed $750M bond issuance for a ~$4B project",
@@ -4676,6 +5894,14 @@ const RELAW_DATA = {
       status: "ruling",
       date: "2026-09-03",
       jurisdiction: "Appellate Division of the Supreme Court of New York, First Department",
+      parties: [
+        { name: "57th & 6th Ground LLC", role: "Petitioner" },
+        { name: "Carnegie House Tenants Corporation", role: "Respondent" },
+        { name: "Georgetown 57, LLC", role: "Respondent" }
+      ],
+      judge: null,
+      amountUsd: 24000000,
+      amountBasis: "award",
       state: "NY",
       amount: "$24M annual ground rent set by the vacated arbitration award (up from $4M), based on an underlying land valuation of more than $300M",
       source: "live",
@@ -4710,6 +5936,14 @@ const RELAW_DATA = {
       status: "filed",
       date: "2026-08-25",
       jurisdiction: "Multnomah County Circuit Court, Oregon",
+      parties: [
+        { name: "Northwest Bank", role: "Plaintiff" },
+        { name: "Sturgeon Development Partners", role: "Defendant" },
+        { name: "North Pearl LLC", role: "Defendant" }
+      ],
+      judge: null,
+      amountUsd: 7200000,
+      amountBasis: "loan",
       state: "OR",
       amount: "$6M original loan principal; approximately $7.2M currently claimed owed, including accrued interest",
       source: "live",
@@ -4741,6 +5975,12 @@ const RELAW_DATA = {
       status: "pending",
       date: "2026-05-22",
       jurisdiction: "Court of Common Pleas, Fayette County, Pennsylvania",
+      parties: [
+        { name: "South Union Township", role: "Plaintiff" },
+        { name: "Namdar Realty Group", role: "Defendant" },
+        { name: "Uniontown Mall Realty", role: "Defendant" }
+      ],
+      amountUsd: null,
       state: "PA",
       amount: "Not a monetary claim; court-ordered remediation of a roughly 690,000 sq. ft. regional mall",
       source: "live",
@@ -4772,6 +6012,13 @@ const RELAW_DATA = {
       status: "ruling",
       date: "2026-09-18",
       jurisdiction: "Massachusetts Supreme Judicial Court",
+      parties: [
+        { name: "Town of Marshfield", role: "Plaintiff" },
+        { name: "Select board of Marshfield", role: "Plaintiff" },
+        { name: "Commonwealth", role: "Defendant" },
+        { name: "Executive Office of Housing and Livable Communities", role: "Defendant" }
+      ],
+      amountUsd: null,
       state: "MA",
       amount: "Not a monetary claim; upholds a statewide multifamily zoning mandate covering 177 MBTA-served municipalities",
       source: "live",
@@ -4804,6 +6051,8 @@ const RELAW_DATA = {
       status: "filed",
       date: "2026-09-17",
       jurisdiction: "Circuit Court of Greene County, Missouri",
+      judge: "Nathan Taylor",
+      amountUsd: null,
       state: "MO",
       amount: "Not a monetary damages claim; developer seeks declaratory and injunctive relief blocking enforcement of a 120-day data center moratorium against a project it says the city already approved in writing",
       source: "live",
@@ -4837,6 +6086,8 @@ const RELAW_DATA = {
       status: "pending",
       date: "2026-09-02",
       jurisdiction: "Circuit Court of Benton County, Missouri",
+      judge: null,
+      amountUsd: null,
       state: "MO",
       amount: "Not primarily monetary; developer seeks a temporary restraining order and injunctive relief blocking enforcement of a six-month county data center moratorium against a pending land purchase",
       source: "live",
@@ -4857,7 +6108,6 @@ const RELAW_DATA = {
         { when: "September 9, 2026", label: "Scheduled closing date on Overhue's Benton County land purchase, per arguments presented in court" }
       ],
       parties: [
-        { name: "Trent Overhue", role: "Plaintiff" },
         { name: "NSI6 LLC", role: "Plaintiff" },
         { name: "Benton County, Missouri", role: "Defendant" }
       ],
@@ -4872,6 +6122,7 @@ const RELAW_DATA = {
       status: "ruling",
       date: "2026-09-18",
       jurisdiction: "Circuit Court of Cole County, Missouri",
+      amountUsd: null,
       state: "MO",
       amount: "Not a monetary claim; advocacy group seeks to halt a data center project over alleged Sunshine Law and public-notice violations tied to county-extended incentives and an ARPA-funded grant agreement",
       source: "live",
@@ -4907,6 +6158,8 @@ const RELAW_DATA = {
       status: "filed",
       date: "2026-08-27",
       jurisdiction: "U.S. District Court for the Southern District of Florida",
+      judge: null,
+      amountUsd: null,
       state: "FL",
       amount: "Not primarily a monetary claim; developer alleges a code-enforcement campaign that threatened millions of dollars in remediation costs and seeks declaratory and injunctive relief along with damages over an alleged regulatory taking and coercion-based claims",
       source: "live",
@@ -4939,6 +6192,9 @@ const RELAW_DATA = {
       status: "filed",
       date: "2026-09-10",
       jurisdiction: "Denver District Court, Colorado",
+      judge: null,
+      amountUsd: 3280000,
+      amountBasis: "loan",
       state: "CO",
       amount: "$3,280,000 principal sought; property assessed at approximately $4.3M by Adams County",
       source: "live",
@@ -4974,6 +6230,7 @@ const RELAW_DATA = {
       status: "ruling",
       date: "2026-09-01",
       jurisdiction: "Henderson County Superior Court, North Carolina",
+      amountUsd: null,
       state: "NC",
       amount: "180-unit, 21-acre rezoning denial; declaratory and injunctive relief sought, no liquidated damages claim",
       source: "live",
@@ -5008,6 +6265,8 @@ const RELAW_DATA = {
       status: "pending",
       date: "2026-07-13",
       jurisdiction: "19th Judicial District Court, East Baton Rouge Parish, Louisiana",
+      judge: null,
+      amountUsd: null,
       state: "LA",
       amount: "~60-acre commercially zoned parcel; declaratory and injunctive relief sought",
       source: "live",
@@ -5043,6 +6302,7 @@ const RELAW_DATA = {
       status: "ruling",
       date: "2026-09-15",
       jurisdiction: "Supreme Court of Ohio",
+      amountUsd: null,
       state: "OH",
       amount: "Damages claim for construction delay and lost revenue remanded for further proceedings; no figure yet determined",
       source: "live",
@@ -5077,6 +6337,8 @@ const RELAW_DATA = {
       status: "ruling",
       date: "2026-08-26",
       jurisdiction: "California Court of Appeal, First Appellate District, Division Two",
+      judge: "Tara M. Desautels",
+      amountUsd: null,
       state: "CA",
       amount: "Not a monetary ruling; writ relief directing entry of summary judgment for the warehouse-owner landlord",
       source: "live",
@@ -5109,6 +6371,8 @@ const RELAW_DATA = {
       status: "filed",
       date: "2026-06-30",
       jurisdiction: "Superior Court of New Jersey, Chancery Division, Atlantic County",
+      judge: null,
+      amountUsd: null,
       state: "NJ",
       amount: "$48.4 million CMBS loan alleged in default; trustee seeks judgment permitting a sheriff's sale",
       source: "live",
@@ -5129,8 +6393,7 @@ const RELAW_DATA = {
       ],
       parties: [
         { name: "Computershare Trust Co.", role: "Trustee/Plaintiff" },
-        { name: "Showboat Properties LLC", role: "Defendant/Borrower" },
-        { name: "Bart Blatstein", role: "Defendant" }
+        { name: "Showboat Properties LLC", role: "Defendant/Borrower" }
       ],
       propertyType: "Hospitality",
       tags: ["hotel foreclosure", "cmbs", "new jersey", "atlantic city", "receivership"]
@@ -5143,6 +6406,9 @@ const RELAW_DATA = {
       status: "filed",
       date: "2026-07-07",
       jurisdiction: "Supreme Court of the State of New York, Monroe County",
+      judge: null,
+      amountUsd: 6347940.3,
+      amountBasis: "loan",
       state: "NY",
       amount: "$6,347,940.30 alleged owed as of July 7, 2026 on a $5 million SBA-guaranteed loan and an $850,000 conventional loan",
       source: "live",
@@ -5159,8 +6425,7 @@ const RELAW_DATA = {
       parties: [
         { name: "Cogent Bank", role: "Plaintiff/Lender" },
         { name: "Horizon Edge Hospitality LLC", role: "Defendant/Borrower" },
-        { name: "Horizon Edge Capital LP", role: "Defendant" },
-        { name: "Nayan K. Patel", role: "Defendant" }
+        { name: "Horizon Edge Capital LP", role: "Defendant" }
       ],
       propertyType: "Hospitality",
       tags: ["hotel foreclosure", "sba loan", "new york", "receivership", "code violations"]
@@ -5174,6 +6439,7 @@ const RELAW_DATA = {
       status: "ruling",
       date: "2026-09-08",
       jurisdiction: "U.S. District Court for the Central District of California",
+      amountUsd: null,
       state: "CA",
       amount: "Putative class action tied to $2.2 billion in life-science property impairments recognized during the class period; dismissed without prejudice",
       source: "live",
@@ -5193,11 +6459,10 @@ const RELAW_DATA = {
         { when: "September 8, 2026", label: "Judge George Wu dismisses the securities class action without prejudice", current: true }
       ],
       parties: [
-        { name: "Alexandria Real Estate Equities, Inc.", role: "Defendant" },
-        { name: "Warren Hern", role: "Plaintiff/Lead Shareholder" }
+        { name: "Alexandria Real Estate Equities, Inc.", role: "Defendant" }
       ],
       propertyType: "Life Sciences",
-      judge: "George Wu",
+      judge: "George H. Wu",
       tags: ["reit", "securities fraud", "life sciences", "california", "class action"]
     },
     {
@@ -5208,6 +6473,9 @@ const RELAW_DATA = {
       status: "ruling",
       date: "2026-06-16",
       jurisdiction: "Circuit Court of Cook County, Illinois, Chancery Division",
+      judge: null,
+      amountUsd: 50600000,
+      amountBasis: "loan",
       state: "IL",
       amount: "$50.6 million CMBS loan alleged in default",
       source: "live",
@@ -5245,6 +6513,14 @@ const RELAW_DATA = {
       status: "ruling",
       date: "2026-07-29",
       jurisdiction: "King County Superior Court, Washington",
+      parties: [
+        { name: "HFX Funding LLC", role: "Lender" },
+        { name: "Unico Properties", role: "Owner (borrower is an affiliated entity)" },
+        { name: "Trigild", role: "Receiver" }
+      ],
+      judge: null,
+      amountUsd: 14500000,
+      amountBasis: "loan",
       state: "WA",
       amount: "$14.5M loan default",
       source: "live",
