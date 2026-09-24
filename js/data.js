@@ -5236,6 +5236,34 @@ const RELAW_DATA = {
       ],
       propertyType: "Office",
       tags: ["cmbs foreclosure", "receivership", "illinois", "office", "magnificent mile"]
+    },
+    {
+      id: "live-177",
+      addedDate: "2026-09-24",
+      title: "Receiver Appointed for Unico Properties' First and Union Retail Center After $14.5M Default",
+      category: "lending-foreclosure",
+      status: "ruling",
+      date: "2026-07-29",
+      jurisdiction: "King County Superior Court, Washington",
+      state: "WA",
+      amount: "$14.5M loan default",
+      source: "live",
+      sourceUrl: "https://news.theregistryps.com/unico-retail-property-near-pike-place-market-in-seattle-enters-receivership-after-14-5mm-default/",
+      summary: "A downtown Seattle retail condominium tied to Unico Properties LLC has been placed into court-ordered receivership after its owner defaulted on a $14.5 million loan that matured two years earlier. A King County Superior Court order on July 29, 2026 installed Chris Neilson of Trigild as custodial receiver over the 44,000-square-foot property at 1419 First Avenue, marketed as \"First and Union,\" near Pike Place Market.",
+      significance: "The filing shows how quickly a long-stalled loan default can convert into a formal loss of asset control once a lender's patience runs out, and it follows the loss of the property's longtime anchor tenant, Pike Brewing Company, in November 2025. It also adds to a pattern of distress across Unico's broader downtown Seattle portfolio, including an earlier receivership and forced sale at its Colman Building, giving other lenders and owners a benchmark for how anchor-tenant losses in a softening retail submarket can trigger loan-level consequences.",
+      body: [
+        "A downtown Seattle retail property tied to Unico Properties LLC has been placed into court-ordered receivership after its owner defaulted on a $14.5 million loan that matured two years ago, according to reporting from the Puget Sound Business Journal and Connect CRE's weekly lender-activity roundup. On July 29, 2026, a King County Superior Court order installed Chris Neilson of Trigild as custodial receiver over the retail condominium units at 1419 First Avenue, immediately north of Pike Place Market, marketed by Unico as \"First and Union.\" For commercial landlords and lenders watching Seattle's still-struggling downtown retail and office core, the filing is another marker of how quickly an aged, unresolved loan default can escalate into a formal loss of control over the asset itself.",
+        "First and Union is a 44,000-square-foot, three-story retail condominium originally built in 1985 and renovated in 2011, sitting at one of the most heavily trafficked pedestrian corners in downtown Seattle. Despite that location, the property's finances deteriorated after Pike Brewing Company closed its 30-year flagship taproom there in November 2025, eliminating a long-tenured anchor tenant just as broader retail fundamentals in the submarket were already softening. Downtown Seattle retail vacancy has climbed to roughly 180,000 square feet, above the five-year average of about 130,000 square feet, a trend compounded by other high-profile closures nearby, including Hard Rock Cafe and Nike's NikeTown flagship. Against that backdrop, a $14.5 million loan that had already gone unpaid past its scheduled maturity for two years finally moved from a stalled workout into formal court supervision.",
+        "Receivership is a comparatively fast remedy that lenders and courts increasingly favor over a full foreclosure sale when a defaulted property still generates some income or requires active management to preserve value. Rather than waiting for a foreclosure judgment and sheriff's sale, a court-appointed receiver takes immediate operational and financial control of the asset, collecting rents, managing remaining tenants, and stabilizing the property while the underlying loan dispute or a subsequent sale process plays out. For a mixed-tenancy retail condominium like First and Union, where occupancy has plainly been damaged by the loss of an anchor tenant, a receiver's mandate typically includes re-leasing efforts and expense management aimed at maximizing recovery value for the lender ahead of any eventual disposition.",
+        "The receivership is not an isolated event within Unico's Seattle portfolio. The firm, a private equity real estate investment and management company overseeing a roughly $4.3 billion portfolio, has faced a string of similar pressures at other downtown assets. Its landmarked Colman Building at 801 First Avenue, which Unico had been converting from office to apartment use, was financed by a $22.4 million interest-only CMBS loan that was transferred to special servicing in mid-2023 over an imminent monetary default, entered receivership in May 2024, and was ultimately sold out of that receivership. Unico has also sold at least one downtown-area apartment building, a 45-unit property, for $15.1 million at a loss, the second consecutive such sale to close below its purchase basis, suggesting a firm managing sustained, multi-asset distress across its downtown Seattle holdings rather than a single property's isolated tenant problem.",
+        "For commercial property owners and lenders more broadly, the case is a reminder that owners with concentrated tenant exposure should model the loan-covenant and refinancing consequences of losing a long-term anchor tenant before it happens, not after, since a single tenant can represent an outsized share of net operating income at a smaller retail asset. It also underscores that a borrower sitting on a defaulted, unresolved loan for an extended period should not assume that stalemate is stable; lenders retain the option to seek a receiver at any point, converting an informal standoff into a court-supervised loss of control with comparatively little additional process. For lenders and special servicers, a custodial receivership remains a faster, less adversarial alternative to a contested foreclosure when distressed collateral still has re-leasing upside, and for anyone transacting with a common sponsor, a receivership at one asset is often a useful signal to look more closely at that owner's other holdings before assuming a default is isolated."
+      ],
+      timeline: [
+        { when: "November 2025", label: "Pike Brewing Company closes its 30-year flagship taproom at the property" },
+        { when: "July 29, 2026", label: "King County Superior Court appoints Chris Neilson of Trigild as custodial receiver", current: true }
+      ],
+      propertyType: "Retail",
+      tags: ["receivership", "loan default", "retail", "seattle", "washington"]
     }
   ],
 
