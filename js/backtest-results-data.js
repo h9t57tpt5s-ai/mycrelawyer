@@ -20,7 +20,7 @@ window.BACKTEST_RESULTS = {
     "holdoutHits": 1,
     "holdoutScorable": 5,
     "medianCaseRatio": 0.679,
-    "aggregatePredicted": 75273861,
+    "aggregatePredicted": 75273862,
     "aggregateActual": 113955593,
     "aggregateRatio": 0.661
    },
@@ -164,7 +164,7 @@ window.BACKTEST_RESULTS = {
      "final": {
       "predictedRange": [
        67500,
-       179458
+       179459
       ],
       "actual": 276089.72,
       "hit": false,
@@ -187,7 +187,7 @@ window.BACKTEST_RESULTS = {
      "exFees": {
       "predictedRange": [
        67500,
-       179458
+       179459
       ],
       "issuesUsed": 1,
       "actual": 276089.72,
@@ -257,7 +257,7 @@ window.BACKTEST_RESULTS = {
      "id": "empower-school-v-covenant-2026",
      "final": {
       "predictedRange": [
-       48146,
+       48145,
        67404
       ],
       "actual": null,
@@ -280,7 +280,7 @@ window.BACKTEST_RESULTS = {
      "error": null,
      "exFees": {
       "predictedRange": [
-       48146,
+       48145,
        67404
       ],
       "issuesUsed": 1,
@@ -445,7 +445,7 @@ window.BACKTEST_RESULTS = {
      "id": "gsl-investments-v-bella-nails-2026",
      "final": {
       "predictedRange": [
-       88126,
+       88125,
        107516
       ],
       "actual": 120128.72,
@@ -468,7 +468,7 @@ window.BACKTEST_RESULTS = {
      "error": null,
      "exFees": {
       "predictedRange": [
-       88126,
+       88125,
        107516
       ],
       "issuesUsed": 4,
@@ -634,7 +634,7 @@ window.BACKTEST_RESULTS = {
      "final": {
       "predictedRange": [
        864160,
-       1630770
+       1630771
       ],
       "actual": null,
       "hit": null,
@@ -657,7 +657,7 @@ window.BACKTEST_RESULTS = {
      "exFees": {
       "predictedRange": [
        864160,
-       1630770
+       1630771
       ],
       "issuesUsed": 3,
       "actual": 1808470,
@@ -681,7 +681,7 @@ window.BACKTEST_RESULTS = {
      "final": {
       "predictedRange": [
        110613,
-       222937
+       222938
       ],
       "actual": 96072.49,
       "hit": false,
@@ -704,7 +704,7 @@ window.BACKTEST_RESULTS = {
      "exFees": {
       "predictedRange": [
        110613,
-       222937
+       222938
       ],
       "issuesUsed": 5,
       "actual": 96072.49,
@@ -727,8 +727,8 @@ window.BACKTEST_RESULTS = {
      "id": "mckinney-v-park-plaza-properties-2026",
      "final": {
       "predictedRange": [
-       17936,
-       135305
+       17935,
+       135306
       ],
       "actual": 51336.45,
       "hit": true,
@@ -750,8 +750,8 @@ window.BACKTEST_RESULTS = {
      "error": null,
      "exFees": {
       "predictedRange": [
-       17936,
-       135305
+       17935,
+       135306
       ],
       "issuesUsed": 4,
       "actual": 51336.45,
@@ -774,7 +774,7 @@ window.BACKTEST_RESULTS = {
      "id": "navient-v-bpg-office-partners-2023",
      "final": {
       "predictedRange": [
-       534091,
+       534090,
        1079061
       ],
       "actual": 424172.72,
@@ -797,7 +797,7 @@ window.BACKTEST_RESULTS = {
      "error": null,
      "exFees": {
       "predictedRange": [
-       534091,
+       534090,
        1079061
       ],
       "issuesUsed": 5,
@@ -1048,7 +1048,7 @@ window.BACKTEST_RESULTS = {
      "final": {
       "predictedRange": [
        42625,
-       85192
+       85193
       ],
       "actual": 0,
       "hit": false,
@@ -1071,7 +1071,7 @@ window.BACKTEST_RESULTS = {
      "exFees": {
       "predictedRange": [
        42625,
-       85192
+       85193
       ],
       "issuesUsed": 2,
       "actual": 189100,
@@ -1192,12 +1192,12 @@ window.BACKTEST_RESULTS = {
     "scored": 11,
     "declined": 3,
     "errors": 11,
-    "exFeesHits": 6,
+    "exFeesHits": 8,
     "exFeesScorable": 11,
     "allInHits": 4,
     "allInScorable": 11,
     "medianBestGuessError": -0.615,
-    "finalHits": 4,
+    "finalHits": 5,
     "finalScorable": 8,
     "finalPending": 3,
     "correctedOnAppeal": 1,
@@ -1422,7 +1422,7 @@ window.BACKTEST_RESULTS = {
      "final": {
       "predictedRange": [
        29128,
-       96291
+       96292
       ],
       "actual": null,
       "hit": null,
@@ -1445,11 +1445,11 @@ window.BACKTEST_RESULTS = {
      "exFees": {
       "predictedRange": [
        29128,
-       96291
+       96292
       ],
       "issuesUsed": 1,
       "actual": 96291.09,
-      "hit": false
+      "hit": true
      },
      "allIn": {
       "predictedRange": [
@@ -1943,7 +1943,7 @@ window.BACKTEST_RESULTS = {
      "id": "nco-montgomery-park-2025",
      "final": {
       "predictedRange": [
-       94885,
+       94884,
        313663
       ],
       "actual": 9854566.95,
@@ -1966,7 +1966,7 @@ window.BACKTEST_RESULTS = {
      "error": null,
      "exFees": {
       "predictedRange": [
-       94885,
+       94884,
        313663
       ],
       "issuesUsed": 1,
@@ -2069,7 +2069,7 @@ window.BACKTEST_RESULTS = {
      "id": "tres-botes-v-shree-maa-krupa-2026",
      "final": {
       "predictedRange": [
-       115500,
+       115499,
        513200
       ],
       "actual": 79096.44,
@@ -2092,7 +2092,7 @@ window.BACKTEST_RESULTS = {
      "error": null,
      "exFees": {
       "predictedRange": [
-       115500,
+       115499,
        513200
       ],
       "issuesUsed": 2,
@@ -2202,7 +2202,7 @@ window.BACKTEST_RESULTS = {
      "final": {
       "predictedRange": [
        27200000,
-       46290900
+       46290901
       ],
       "actual": 51392086.96,
       "hit": false,
@@ -2225,7 +2225,7 @@ window.BACKTEST_RESULTS = {
      "exFees": {
       "predictedRange": [
        27200000,
-       46290900
+       46290901
       ],
       "issuesUsed": 1,
       "actual": 51392086.96,
@@ -2249,10 +2249,10 @@ window.BACKTEST_RESULTS = {
      "final": {
       "predictedRange": [
        91532,
-       170484
+       170485
       ],
       "actual": 170484.37,
-      "hit": false,
+      "hit": true,
       "note": "Rent damages affirmed; fee award reversed.",
       "correctedTowardPrediction": false,
       "pending": false
@@ -2272,11 +2272,11 @@ window.BACKTEST_RESULTS = {
      "exFees": {
       "predictedRange": [
        91532,
-       170484
+       170485
       ],
       "issuesUsed": 3,
       "actual": 170484.37,
-      "hit": false
+      "hit": true
      },
      "allIn": {
       "predictedRange": [
@@ -2299,12 +2299,12 @@ window.BACKTEST_RESULTS = {
   "scored": 11,
   "declined": 3,
   "errors": 11,
-  "exFeesHits": 6,
+  "exFeesHits": 8,
   "exFeesScorable": 11,
   "allInHits": 4,
   "allInScorable": 11,
   "medianBestGuessError": -0.615,
-  "finalHits": 4,
+  "finalHits": 5,
   "finalScorable": 8,
   "finalPending": 3,
   "correctedOnAppeal": 1,
@@ -2529,7 +2529,7 @@ window.BACKTEST_RESULTS = {
    "final": {
     "predictedRange": [
      29128,
-     96291
+     96292
     ],
     "actual": null,
     "hit": null,
@@ -2552,11 +2552,11 @@ window.BACKTEST_RESULTS = {
    "exFees": {
     "predictedRange": [
      29128,
-     96291
+     96292
     ],
     "issuesUsed": 1,
     "actual": 96291.09,
-    "hit": false
+    "hit": true
    },
    "allIn": {
     "predictedRange": [
@@ -3050,7 +3050,7 @@ window.BACKTEST_RESULTS = {
    "id": "nco-montgomery-park-2025",
    "final": {
     "predictedRange": [
-     94885,
+     94884,
      313663
     ],
     "actual": 9854566.95,
@@ -3073,7 +3073,7 @@ window.BACKTEST_RESULTS = {
    "error": null,
    "exFees": {
     "predictedRange": [
-     94885,
+     94884,
      313663
     ],
     "issuesUsed": 1,
@@ -3176,7 +3176,7 @@ window.BACKTEST_RESULTS = {
    "id": "tres-botes-v-shree-maa-krupa-2026",
    "final": {
     "predictedRange": [
-     115500,
+     115499,
      513200
     ],
     "actual": 79096.44,
@@ -3199,7 +3199,7 @@ window.BACKTEST_RESULTS = {
    "error": null,
    "exFees": {
     "predictedRange": [
-     115500,
+     115499,
      513200
     ],
     "issuesUsed": 2,
@@ -3309,7 +3309,7 @@ window.BACKTEST_RESULTS = {
    "final": {
     "predictedRange": [
      27200000,
-     46290900
+     46290901
     ],
     "actual": 51392086.96,
     "hit": false,
@@ -3332,7 +3332,7 @@ window.BACKTEST_RESULTS = {
    "exFees": {
     "predictedRange": [
      27200000,
-     46290900
+     46290901
     ],
     "issuesUsed": 1,
     "actual": 51392086.96,
@@ -3356,10 +3356,10 @@ window.BACKTEST_RESULTS = {
    "final": {
     "predictedRange": [
      91532,
-     170484
+     170485
     ],
     "actual": 170484.37,
-    "hit": false,
+    "hit": true,
     "note": "Rent damages affirmed; fee award reversed.",
     "correctedTowardPrediction": false,
     "pending": false
@@ -3379,11 +3379,11 @@ window.BACKTEST_RESULTS = {
    "exFees": {
     "predictedRange": [
      91532,
-     170484
+     170485
     ],
     "issuesUsed": 3,
     "actual": 170484.37,
-    "hit": false
+    "hit": true
    },
    "allIn": {
     "predictedRange": [

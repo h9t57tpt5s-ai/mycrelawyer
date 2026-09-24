@@ -8,6 +8,7 @@ js/backtest-results-data.js for the public calibration page.
 
 import glob
 import json
+import math
 import re
 
 RESULT_DIRS = {"v1": "case_valuation_project/backtest/results", "v2": "case_valuation_project/backtest/results-v2"}
@@ -41,7 +42,8 @@ def ex_fee_range(issues):
         else:
             lo += p[0] * d[0]
             hi += p[1] * d[1]
-    return ([round(lo), round(hi)] if used else None), used
+    # Floor/ceil, not round: a ceiling of $170,484.37 must contain an award of $170,484.37.
+    return ([math.floor(lo), math.ceil(hi)] if used else None), used
 
 
 def score(record):
