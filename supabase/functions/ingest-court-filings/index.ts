@@ -287,6 +287,95 @@ async function ingest(body: Record<string, unknown>) {
   return jsonResponse({ ok: true, stored: stored.length, rejected, checkedFilings: recent.length, checkedEntities: entityRows.length, newMatches: newMatches.length, emailsSent, emailsFailed, pruned }, 200);
 }
 
+// Public audit figures for the last AUDIT_DAYS days (alert-log.html).
+// Aggregates only: no party, portfolio or user names leave this function,
+// because the page is public and a named match would reveal whom a
+// customer watches. Each user sees their own named alerts on the account
+// page instead.
+const AUDIT_DAYS = 30;
+
+function median(xs: number[]): number | null {
+  if (!xs.length) return null;
+  const s = [...xs].sort((a, b) => a - b);
+  const m = Math.floor(s.length / 2);
+  return s.length % 2 ? s[m] : (s[m - 1] + s[m]) / 2;
+}
+function pct(xs: number[], p: number): number | null {
+  if (!xs.length) return null;
+  const s = [...xs].sort((a, b) => a - b);
+  return s[Math.min(s.length - 1, Math.floor(p * s.length))];
+}
+
+async function audit() {
+  const since = new Date(Date.now() - AUDIT_DAYS * 86_400_000).toISOString();
+  const { rows: filings, error: fErr } = await fetchAll<{ id: number; source: string; filing_type: string; date_filed: string; ingested_at: string }>((from, to) =>
+    supabaseAdmin.from("court_filings").select("id, source, filing_type, date_filed, ingested_at")
+      .gte("ingested_at", since).order("id").range(from, to));
+  if (fErr) return jsonResponse({ error: "Could not load filings", detail: fErr }, 500);
+
+  const { rows: matches, error: mErr } = await fetchAll<{ id: number; confidence: string; created_at: string; emailed_at: string | null; court_filings: { source: string; filing_type: string; date_filed: string; ingested_at: string } | null }>((from, to) =>
+    supabaseAdmin.from("filing_matches")
+      .select("id, confidence, created_at, emailed_at, court_filings(source, filing_type, date_filed, ingested_at)")
+      .gte("created_at", since).order("id").range(from, to));
+  if (mErr) return jsonResponse({ error: "Could not load matches", detail: mErr }, 500);
+
+  const { rows: entities, error: eErr } = await fetchAll<{ user_id: string }>((from, to) =>
+    supabaseAdmin.from("portfolio_entities").select("user_id").order("id").range(from, to));
+  if (eErr) return jsonResponse({ error: "Could not load entities", detail: eErr }, 500);
+
+  // Days from the court's filing date to the day this system first stored
+  // the record: how quickly a filing becomes visible here.
+  const DAY = 86_400_000;
+  const bySource: Record<string, { stored: number; lagDays: number[] }> = {};
+  const byDay: Record<string, { stored: number; alerts: number; emailed: number }> = {};
+  const day = (iso: string) => iso.slice(0, 10);
+  for (const f of filings) {
+    const src = (bySource[f.source] ??= { stored: 0, lagDays: [] });
+    src.stored++;
+    src.lagDays.push(Math.max(0, Math.round((Date.parse(f.ingested_at) - Date.parse(f.date_filed + "T00:00:00Z")) / DAY)));
+    (byDay[day(f.ingested_at)] ??= { stored: 0, alerts: 0, emailed: 0 }).stored++;
+  }
+  const emailMinutes: number[] = [];
+  const now = Date.now();
+  const alerts = matches.map((m) => {
+    const f = m.court_filings;
+    (byDay[day(m.created_at)] ??= { stored: 0, alerts: 0, emailed: 0 }).alerts++;
+    if (m.emailed_at) {
+      (byDay[day(m.emailed_at)] ??= { stored: 0, alerts: 0, emailed: 0 }).emailed++;
+      emailMinutes.push(Math.max(0, Math.round((Date.parse(m.emailed_at) - Date.parse(m.created_at)) / 60_000)));
+    }
+    return {
+      source: f?.source ?? null,
+      filingType: f?.filing_type ?? null,
+      dateFiled: f?.date_filed ?? null,
+      storedAt: f?.ingested_at ?? null,
+      matchedAt: m.created_at,
+      emailedAt: m.emailed_at,
+      confidence: m.confidence,
+      // Minutes from match to email; unsent alerts older than an hour are
+      // the failure this page exists to expose.
+      overdue: !m.emailed_at && now - Date.parse(m.created_at) > 3_600_000,
+    };
+  }).sort((a, b) => b.matchedAt.localeCompare(a.matchedAt));
+
+  return jsonResponse({
+    ok: true,
+    generatedAt: new Date().toISOString(),
+    days: AUDIT_DAYS,
+    portfolios: new Set(entities.map((e) => e.user_id)).size,
+    entitiesWatched: entities.length,
+    sources: Object.fromEntries(Object.entries(bySource).map(([k, v]) => [k, {
+      stored: v.stored, medianLagDays: median(v.lagDays), p90LagDays: pct(v.lagDays, 0.9),
+    }])),
+    byDay,
+    alerts,
+    alertsEmailed: emailMinutes.length,
+    alertsOverdue: alerts.filter((a) => a.overdue).length,
+    medianEmailMinutes: median(emailMinutes),
+    maxEmailMinutes: emailMinutes.length ? Math.max(...emailMinutes) : null,
+  }, 200);
+}
+
 Deno.serve(async (req) => {
   if (req.method !== "POST") return jsonResponse({ error: "Method not allowed" }, 405);
   const provided = req.headers.get("x-automation-secret") ?? "";
@@ -300,5 +389,6 @@ Deno.serve(async (req) => {
     return await listEntities(limit);
   }
   if (body.action === "ingest") return await ingest(body);
+  if (body.action === "audit") return await audit();
   return jsonResponse({ error: "Unknown action" }, 400);
 });

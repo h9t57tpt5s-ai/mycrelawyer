@@ -40,15 +40,24 @@
         </div>
         <p style="font-size:13.5px; margin-top:6px;">${escapeHtml(isState ? "State court civil filing" : (KIND_LABELS[f.filing_type] || "Filing"))}: ${escapeHtml(f.case_name)}</p>
         <p class="text-muted" style="font-size:12.5px; margin-top:4px;">${isSec ? escapeHtml(f.docket_number) : `${escapeHtml(f.court_name)}${f.docket_number ? `, No. ${escapeHtml(f.docket_number)}` : ""}`} · filed ${escapeHtml(f.date_filed)} · matched name: ${escapeHtml(m.matched_party)}</p>
+        <p class="text-muted" style="font-size:12px; margin-top:4px;">Stored ${fmtStamp(f.ingested_at)} · matched ${fmtStamp(m.created_at)} · ${m.emailed_at ? `emailed ${fmtStamp(m.emailed_at)}` : "email pending"}</p>
         ${isSec ? `<p class="text-muted" style="font-size:12px; margin-top:4px;">An 8-K item names the type of event, not its cause — read the filing before drawing a conclusion.</p>` : ""}
         ${url ? `<p style="font-size:12.5px; margin-top:6px;"><a href="${escapeHtml(url)}" target="_blank" rel="noopener noreferrer">${isSec ? "View filing on SEC EDGAR" : isState ? "Search this case number on the clerk's site" : "View docket on CourtListener"}</a></p>` : ""}
       </div>`;
   }
 
+  // The same three timestamps the public alert log reports, by name here
+  // because this list is the subscriber's own.
+  function fmtStamp(iso) {
+    if (!iso) return "—";
+    const d = new Date(iso);
+    return isNaN(d) ? "—" : d.toLocaleString(undefined, { month: "short", day: "numeric", hour: "numeric", minute: "2-digit" });
+  }
+
   function render() {
     return sb
       .from("filing_matches")
-      .select("id, confidence, matched_party, created_at, court_filings(filing_type, case_name, court_name, docket_number, date_filed, docket_url), portfolio_entities(entity_name)")
+      .select("id, confidence, matched_party, created_at, emailed_at, court_filings(ingested_at, filing_type, case_name, court_name, docket_number, date_filed, docket_url), portfolio_entities(entity_name)")
       .order("created_at", { ascending: false })
       .limit(100)
       .then(({ data, error }) => {

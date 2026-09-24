@@ -21,6 +21,7 @@ import http.cookiejar
 import io
 import json
 import os
+import pathlib
 import re
 import sys
 import time
@@ -49,6 +50,8 @@ USER_AGENT = "CREdocket-surveillance/1.0 (+https://credocket.com)"
 DEFAULT_FUNCTION_URL = "https://ribmcdyoydhmafnyfhpp.supabase.co/functions/v1/ingest-court-filings"
 # CourtListener documents 5 requests/minute; 13s keeps us under it.
 SECONDS_BETWEEN_REQUESTS = 13
+RUNS = pathlib.Path("ops/alert-runs.json")
+MAX_RUNS_KEPT = 90
 MAX_CH11_PAGES = 10
 DESIGNATORS = {"llc", "inc", "incorporated", "corp", "corporation", "co", "company",
                "lp", "llp", "lllp", "ltd", "limited", "pllc", "pc", "pa", "na", "plc"}
@@ -126,16 +129,28 @@ class CourtListener:
         headers = {"User-Agent": USER_AGENT}
         if self.token:
             headers["Authorization"] = f"Token {self.token}"
-        self.remaining -= 1
-        self.last_request = time.time()
-        try:
-            with urllib.request.urlopen(urllib.request.Request(url, headers=headers), timeout=60) as resp:
-                return json.load(resp)
-        except urllib.error.HTTPError as err:
-            if err.code == 429:
-                print("CourtListener rate limit hit (429); stopping pulls for this run.", file=sys.stderr)
-                raise BudgetExhausted() from err
-            raise
+        # A single slow response killed the whole Sept 24 run (read timeout
+        # -> uncaught -> no state, SEC or email work either). Retry
+        # timeouts, dropped connections and 5xx twice with backoff.
+        for attempt in range(3):
+            self.remaining -= 1
+            self.last_request = time.time()
+            try:
+                with urllib.request.urlopen(urllib.request.Request(url, headers=headers), timeout=60) as resp:
+                    return json.load(resp)
+            except urllib.error.HTTPError as err:
+                if err.code == 429:
+                    print("CourtListener rate limit hit (429); stopping pulls for this run.", file=sys.stderr)
+                    raise BudgetExhausted() from err
+                if err.code < 500 or attempt == 2:
+                    raise
+            except (TimeoutError, urllib.error.URLError, ConnectionError) as err:
+                if attempt == 2:
+                    raise
+                print(f"CourtListener {type(err).__name__}; retry {attempt + 1}/2", file=sys.stderr)
+            if self.remaining <= 0:
+                raise BudgetExhausted()
+            time.sleep(20 * (attempt + 1))
 
     def search(self, query):
         params = urllib.parse.urlencode({"type": "r", "order_by": "dateFiled desc", "q": query})
@@ -436,6 +451,7 @@ def main():
     print(f"Window {date_from}..{date_to} | token={'yes' if token else 'no'} | budget={budget} | entities={len(entities)}")
 
     filings, searched = {}, []
+    run.update({"window": [date_from, date_to]})
     try:
         ch11, expected = pull_chapter_11(cl, date_from, date_to, ch11_pages)
         for f in ch11:
@@ -450,13 +466,20 @@ def main():
                 print(f"  {name!r}: {len(hits)} filing(s)")
     except BudgetExhausted:
         print(f"Request budget used up after {len(searched)} of {len(entities)} entities; the rest roll to the next run.")
+    except (urllib.error.URLError, TimeoutError, ConnectionError, ValueError) as err:
+        # Keep whatever was pulled and carry on to the other sources.
+        run["errors"].append(f"CourtListener pull failed: {type(err).__name__}: {err}")
+        print(f"::warning::CourtListener pull failed, continuing without the rest of it: {err}")
+    run["sources"]["courtlistener"] = len(filings)
 
     try:
         sec_rows = pull_sec_8k(date_from, date_to)
         print(f"SEC 8-K event disclosures: {len(sec_rows)}")
     except (urllib.error.URLError, ValueError) as err:
         sec_rows = []
+        run["errors"].append(f"SEC pull failed: {err}")
         print(f"SEC pull failed, continuing without it: {err}", file=sys.stderr)
+    run["sources"]["sec_edgar"] = len(sec_rows)
 
     state_rows, state_batches = [], []
     for label, pull in (("Hillsborough FL", pull_hillsborough), ("Harris County TX justice courts", pull_harris_jp)):
@@ -464,9 +487,11 @@ def main():
             got, scanned = pull(date_from, date_to)
             state_rows += got
             state_batches.append((label, got, scanned))
+            run["sources"][label] = len(got)
             print(f"{label}: kept {len(got)} in-scope commercial cases ({scanned} {'daily files' if 'Hills' in label else 'cases'} scanned)")
         except (urllib.error.URLError, ValueError, OSError) as err:
             # No batch is recorded for a failed pull, so nothing is pruned.
+            run["errors"].append(f"{label} pull failed: {err}")
             print(f"::warning::{label} pull failed, continuing without it: {err}")
 
     rows = list(filings.values())
@@ -480,13 +505,18 @@ def main():
         print(f"DRY RUN: {len(rows)} federal filings, {len(state_rows)} state-court cases and {len(sec_rows)} SEC disclosures pulled, {len(searched)} entities searched, {budget - cl.remaining} requests used. Nothing sent.")
         return
 
-    total_new = 0
+    def tally(body):
+        for k in ("stored", "newMatches", "emailsSent", "emailsFailed"):
+            run[k] += body.get(k, 0) or 0
+
     for i in range(0, max(len(rows), 1), 400):
         payload = {"action": "ingest", "filings": rows[i:i + 400], "searchedEntities": searched if i == 0 else []}
         status, body = call_function(function_url, anon_key, secret, payload)
         if status != 200:
-            sys.exit(f"Ingest failed (HTTP {status}): {body}")
-        total_new += body.get("newMatches", 0)
+            run["errors"].append(f"Federal batch not stored (HTTP {status}): {str(body)[:300]}")
+            print(f"::error::Ingest failed (HTTP {status}): {body}")
+            continue
+        tally(body)
         print(f"Ingested batch: {body}")
     # One call per state source carrying its COMPLETE in-scope set for the
     # window, so the function can remove anything else stored for it.
@@ -504,9 +534,10 @@ def main():
             print(f"::warning::{label}: nothing scanned, so no cleanup was requested.")
         status, body = call_function(function_url, anon_key, secret, payload)
         if status == 200:
-            total_new += body.get("newMatches", 0)
+            tally(body)
             print(f"Ingested {label}: {body}")
         else:
+            run["errors"].append(f"{label} batch not stored (HTTP {status})")
             print(f"::warning::{label} batch not stored (HTTP {status}): {body}")
 
     # Sent separately and allowed to fail: until the 20260919b migration is
@@ -515,12 +546,54 @@ def main():
     if sec_rows:
         status, body = call_function(function_url, anon_key, secret, {"action": "ingest", "filings": sec_rows, "searchedEntities": []})
         if status == 200:
-            total_new += body.get("newMatches", 0)
+            tally(body)
             print(f"Ingested SEC batch: {body}")
         else:
+            run["errors"].append(f"SEC batch not stored (HTTP {status})")
             print(f"::warning::SEC batch not stored (HTTP {status}): {body}")
-    print(f"Done: {len(rows)} federal filings, {len(state_rows)} state-court cases and {len(sec_rows)} SEC disclosures sent, {total_new} new portfolio match(es).")
+    print(f"Done: {len(rows)} federal filings, {len(state_rows)} state-court cases and {len(sec_rows)} SEC disclosures sent, {run['newMatches']} new portfolio match(es).")
+
+
+def write_audit(function_url, anon_key, secret):
+    """Append this run to ops/alert-runs.json and re-render alert-log.html.
+
+    Both files are committed by the workflow, so the git history is an
+    append-only record of every run, including the failed ones."""
+    RUNS.parent.mkdir(exist_ok=True)
+    runs = json.loads(RUNS.read_text()) if RUNS.exists() else []
+    runs = ([run] + runs)[:MAX_RUNS_KEPT]
+    RUNS.write_text(json.dumps(runs, indent=1) + "\n")
+    status, audit = call_function(function_url, anon_key, secret, {"action": "audit"})
+    if status != 200:
+        print(f"::warning::Audit figures unavailable (HTTP {status}): {audit}")
+        audit = None
+    if audit:
+        (RUNS.parent / "alert-audit.json").write_text(json.dumps(audit, indent=1) + "\n")
+    else:
+        prev = RUNS.parent / "alert-audit.json"
+        audit = json.loads(prev.read_text()) if prev.exists() else None
+    import alert_log_render  # noqa: E402  (sibling module)
+    alert_log_render.render(pathlib.Path("alert-log.html"), runs, audit)
 
 
 if __name__ == "__main__":
-    main()
+    run = {"at": dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds"), "window": None,
+           "sources": {}, "stored": 0, "newMatches": 0, "emailsSent": 0, "emailsFailed": 0, "errors": []}
+    failed = False
+    try:
+        main()
+    except SystemExit as exc:
+        if exc.code not in (0, None):
+            failed = True
+            run["errors"].append(str(exc.code)[:300])
+    except Exception as exc:  # recorded, then re-raised below
+        failed = True
+        run["errors"].append(f"{type(exc).__name__}: {exc}"[:300])
+        import traceback
+        traceback.print_exc()
+    if os.environ.get("WRITE_ALERT_LOG") == "1":
+        run["ok"] = not failed and not run["errors"]
+        write_audit(os.environ.get("INGEST_FUNCTION_URL", DEFAULT_FUNCTION_URL),
+                    os.environ.get("SUPABASE_ANON_KEY", ""), os.environ.get("AUTOMATION_SECRET", ""))
+    if failed:
+        sys.exit(1)

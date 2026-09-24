@@ -10,7 +10,10 @@ name: Counterparty surveillance — daily federal filings pull
 
 on:
   schedule:
-    - cron: "30 11 * * *" # 6:30am Central, ahead of the 7am morning digest
+    # Twice a day so a filing that reaches the record during the day is
+    # alerted the same day. Odd minutes: GitHub delays top-of-hour cron.
+    - cron: "37 11 * * *" # ~6:30am Central, ahead of the 7am morning digest
+    - cron: "37 22 * * *" # ~5:30pm Central
   workflow_dispatch:
     inputs:
       window_days:
@@ -18,7 +21,7 @@ on:
         default: "3"
 
 permissions:
-  contents: read
+  contents: write # commits the public alert log after every run
 
 concurrency:
   group: court-filings-ingest
@@ -38,4 +41,18 @@ jobs:
           AUTOMATION_SECRET: ${{ secrets.AUTOMATION_SECRET }}
           COURTLISTENER_TOKEN: ${{ secrets.COURTLISTENER_TOKEN }}
           WINDOW_DAYS: ${{ inputs.window_days || '3' }}
-        run: python3 scripts/ingest_court_filings.py
+          WRITE_ALERT_LOG: "1"
+        # Two runs a day share CourtListener's 125-request daily allowance.
+        run: python3 scripts/ingest_court_filings.py --budget 60
+      - name: Commit the alert log
+        # Runs even when the ingest step failed: a failed run belongs in
+        # the public log too.
+        if: always()
+        run: |
+          git add alert-log.html ops/alert-runs.json ops/alert-audit.json 2>/dev/null || true
+          if git diff --cached --quiet; then echo "Nothing to record."; exit 0; fi
+          git config user.name "credocket-surveillance-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git commit -m "Alert log: record surveillance run"
+          git pull --rebase origin main
+          git push
