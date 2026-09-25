@@ -2349,7 +2349,11 @@ async function handle(req: Request): Promise<Response> {
       // 8192 that caused an earlier "no output" failure (thinking
       // starving the final answer), but a smaller ceiling bounds worst-
       // case generation time further.
-      max_tokens: 16000,
+      // 2026-09-24: raised 16000 -> 32000. On the Pro plan (400s wall
+      // clock, heartbeat past the idle timeout) the old cap was the binding
+      // limit: large two-sided records ran out mid-JSON ("Unterminated
+      // string in JSON").
+      max_tokens: 32000,
       thinking: { type: "adaptive" },
       // Cut from "xhigh" -> "high" -> now "medium": xhigh and high were
       // each tried and the request still failed to complete before
@@ -2404,6 +2408,9 @@ async function handle(req: Request): Promise<Response> {
       throw new Error(
         `Analysis pass returned no output (stop_reason: ${analysis.stop_reason}, content block types: [${analysis.content.map((b) => b.type).join(", ")}])`
       );
+    }
+    if (analysis.stop_reason === "max_tokens") {
+      throw new Error(`Analysis ran out of output tokens before finishing (${analysis.usage?.output_tokens ?? "?"} used)`);
     }
     const analysisParsed = JSON.parse(analysisText);
 
