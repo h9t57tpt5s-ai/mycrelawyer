@@ -810,5 +810,109 @@
     "actualOutcome": null,
     "resolvedAt": null,
     "analysis": null
+  },
+  {
+    "registryId": "pa-pacifica-mechanicsburg-v-bjs-wholesale-club-2025",
+    "caseId": null,
+    "caseTitle": "Pacifica Mechanicsburg LLC v. BJ's Wholesale Club, Inc.",
+    "court": "U.S. District Court for the Middle District of Pennsylvania",
+    "docket": "1:25-cv-01663",
+    "filings": [
+      {
+        "side": "plaintiff",
+        "label": "Amended complaint (Nov. 25, 2025)",
+        "url": "https://storage.courtlistener.com/recap/gov.uscourts.pamd.148188/gov.uscourts.pamd.148188.21.0.pdf"
+      },
+      {
+        "side": "defendant",
+        "label": "Answer, defenses and counterclaim to amended complaint (Dec. 9, 2025)",
+        "url": "https://storage.courtlistener.com/recap/gov.uscourts.pamd.148188/gov.uscourts.pamd.148188.25.0.pdf"
+      },
+      {
+        "side": "plaintiff",
+        "label": "Answer to counterclaim (Apr. 16, 2026)",
+        "url": "https://storage.courtlistener.com/recap/gov.uscourts.pamd.148188/gov.uscourts.pamd.148188.43.0.pdf"
+      }
+    ],
+    "predictedAt": "2026-09-25",
+    "model": "claude-sonnet-5",
+    "analysisVersion": "v2",
+    "category": "lease-disputes",
+    "side": "Landlord",
+    "predictedRange": [
+      -2808542.727,
+      3920000
+    ],
+    "predictedBestGuess": -1066771.3635,
+    "whatIsNeededForEstimate": null,
+    "likelyOutcome": "On the current record this reads as a genuinely two-sided commercial dispute where BJ's better-documented, Lease-anchored liquidated-damages counterclaim (subject to real but partial defenses) currently outweighs Pacifica's more speculative, causation-contested, and consequential-damages-limited affirmative claim -- producing a probability-weighted net exposure to the landlord rather than a net recovery, unless Pacifica prevails on the penalty/unenforceability theory or shows BJ's caused the critical-path delays.",
+    "claims": [
+      {
+        "label": "BJ's Counterclaim for Minimum Rent Abatement (Liquidated Damages)",
+        "probabilityRange": [
+          0.45,
+          0.65
+        ],
+        "damagesRange": [
+          -4436219.58,
+          -1000000
+        ]
+      },
+      {
+        "label": "Pacifica's Delay/Acceleration Damages Claim",
+        "probabilityRange": [
+          0.25,
+          0.45
+        ],
+        "damagesRange": [
+          300000,
+          2500000
+        ]
+      },
+      {
+        "label": "Enforceability of \u00a74.2(d) Liquidated Damages as an Unenforceable Penalty",
+        "probabilityRange": [
+          0.35,
+          0.55
+        ],
+        "damagesRange": null
+      },
+      {
+        "label": "Consequential Damages Limitation (Lease \u00a730.4)",
+        "probabilityRange": [
+          0.4,
+          0.65
+        ],
+        "damagesRange": null
+      },
+      {
+        "label": "Refund of Rent Paid Under Protest Plus Lease-Rate Interest",
+        "probabilityRange": [
+          0.45,
+          0.65
+        ],
+        "damagesRange": null
+      },
+      {
+        "label": "Attorney's Fees Under the Lease",
+        "probabilityRange": [
+          0.3,
+          0.7
+        ],
+        "damagesRange": null
+      },
+      {
+        "label": "Critical-Path Causation Dispute (Whose Delay Controls)",
+        "probabilityRange": [
+          0.3,
+          0.5
+        ],
+        "damagesRange": null
+      }
+    ],
+    "status": "pending",
+    "actualOutcome": null,
+    "resolvedAt": null,
+    "analysis": null
   }
 ]
