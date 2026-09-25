@@ -486,5 +486,290 @@
     "actualOutcome": null,
     "resolvedAt": null,
     "analysis": null
+  },
+  {
+    "registryId": "tx-american-community-lending-v-endeavor-group-real-estate-2026",
+    "caseId": null,
+    "caseTitle": "American Community Lending Holdings, LLC f/k/a Caz Creek Lending Holdings, LLC v. Endeavor Group Real Estate, LLC and Pramukh Mahant Senior Living Fort Worth, LLC",
+    "court": "U.S. District Court for the Northern District of Texas, Fort Worth Division",
+    "docket": "4:26-cv-00587",
+    "filings": [
+      {
+        "side": "plaintiff",
+        "label": "Complaint (May 13, 2026)",
+        "url": "https://storage.courtlistener.com/recap/gov.uscourts.txnd.419470/gov.uscourts.txnd.419470.1.0.pdf"
+      },
+      {
+        "side": "defendant",
+        "label": "Defendants' original answer (July 17, 2026)",
+        "url": "https://storage.courtlistener.com/recap/gov.uscourts.txnd.419470/gov.uscourts.txnd.419470.8.0.pdf"
+      },
+      {
+        "side": "plaintiff",
+        "label": "Joint status report, signed by counsel for both sides (Aug. 18, 2026)",
+        "url": "https://storage.courtlistener.com/recap/gov.uscourts.txnd.419470/gov.uscourts.txnd.419470.13.0.pdf"
+      }
+    ],
+    "predictedAt": "2026-09-25",
+    "model": "claude-sonnet-5",
+    "analysisVersion": "v2",
+    "category": "lending-foreclosure",
+    "side": "Lender",
+    "predictedRange": [
+      5859558.75,
+      6340000
+    ],
+    "predictedBestGuess": 5972179.375,
+    "whatIsNeededForEstimate": null,
+    "likelyOutcome": "Plaintiff is very likely to obtain judgment for the stipulated debt amount (or close to it) given the parties' own stipulation that the loan matured and the full balance is due and owing, which substantially undercuts Defendants' boilerplate, fact-free affirmative defenses. The principal open questions going into trial are (1) whether the pledgors' obligation is a full payment guaranty or a collateral-limited pledge subject to fair-value crediting, and (2) what the pledged ownership interests are actually worth for purposes of any deficiency calculation -- neither of which the current record resolves. Attorney's fees under paragraph 4.8 should also be recoverable given the enforceable fee-shifting clause and active litigation posture.",
+    "claims": [
+      {
+        "label": "Core Debt / Guaranty Enforcement",
+        "probabilityRange": [
+          0.95,
+          0.96
+        ],
+        "damagesRange": [
+          6155325,
+          6300000
+        ]
+      },
+      {
+        "label": "Attorney's Fees Under Paragraph 4.8",
+        "probabilityRange": [
+          0.8,
+          0.92
+        ],
+        "damagesRange": [
+          15000,
+          40000
+        ]
+      },
+      {
+        "label": "Failure to Mitigate / Waiver / Estoppel / Laches Defenses",
+        "probabilityRange": [
+          0.75,
+          0.9
+        ],
+        "damagesRange": null
+      },
+      {
+        "label": "Collateral Valuation Offset on Deficiency Judgment",
+        "probabilityRange": null,
+        "damagesRange": null
+      }
+    ],
+    "status": "pending",
+    "actualOutcome": null,
+    "resolvedAt": null,
+    "analysis": null
+  },
+  {
+    "registryId": "mo-webster-university-v-st-louis-leased-housing-associates-master-tenant-v-2025",
+    "caseId": null,
+    "caseTitle": "Webster University v. St. Louis Leased Housing Associates Master Tenant V, LLLP",
+    "court": "U.S. District Court for the Eastern District of Missouri, Eastern Division",
+    "docket": "4:25-cv-01778",
+    "filings": [
+      {
+        "side": "plaintiff",
+        "label": "Amended complaint as submitted with consent motion for leave (Ex. B, July 15, 2026; leave granted July 21, 2026)",
+        "url": "https://storage.courtlistener.com/recap/gov.uscourts.moed.224981/gov.uscourts.moed.224981.38.2.pdf"
+      },
+      {
+        "side": "defendant",
+        "label": "Answer to amended complaint and affirmative defenses (Aug. 3, 2026)",
+        "url": "https://storage.courtlistener.com/recap/gov.uscourts.moed.224981/gov.uscourts.moed.224981.44.0.pdf"
+      },
+      {
+        "side": "plaintiff",
+        "label": "Original complaint (Dec. 5, 2025)",
+        "url": "https://storage.courtlistener.com/recap/gov.uscourts.moed.224981/gov.uscourts.moed.224981.1.0.pdf"
+      },
+      {
+        "side": "defendant",
+        "label": "Answer to original complaint (Jan. 6, 2026)",
+        "url": "https://storage.courtlistener.com/recap/gov.uscourts.moed.224981/gov.uscourts.moed.224981.10.0.pdf"
+      }
+    ],
+    "predictedAt": "2026-09-25",
+    "model": "claude-sonnet-5",
+    "analysisVersion": "v2",
+    "category": "lease-disputes",
+    "side": "Landlord",
+    "predictedRange": [
+      312186.75,
+      1745415.21
+    ],
+    "predictedBestGuess": 491485.6,
+    "whatIsNeededForEstimate": null,
+    "likelyOutcome": "On the current pleadings, Webster's 2023 and 2024 overbilling refund claims are the real value in this case and are reasonably likely to succeed at least in part \u2014 the Market Rate Unit and capital-improvement categories are hard for Dominium to defend as a matter of lease definition, while the utilities/insurance/management-fee categories will turn on fact-intensive allocation evidence not yet developed. The pre-2023 refund claim is the most exposed piece of the case given the Lease's own 90/90-day audit-and-objection window and Dominium's limitations/waiver/estoppel defenses, and it also lacks a pleaded dollar figure. Net, this looks like a case that settles or partially resolves around the 2023-2024 audited figures, with Webster's realistic net recovery well below the full $1.1M+ in nominal disputed charges once litigation risk on each category and the pre-2023 bar are factored in.",
+    "claims": [
+      {
+        "label": "2024 CAM Overbilling Refund (utilities, management overhead, Market Rate Unit costs, LIHTC insurance, legal fees, telephone, capital improvements)",
+        "probabilityRange": [
+          0.5,
+          0.7
+        ],
+        "damagesRange": [
+          317658,
+          444721
+        ]
+      },
+      {
+        "label": "2023 CAM Overbilling Refund (utilities, management overhead, Market Rate Unit costs, LIHTC insurance)",
+        "probabilityRange": [
+          0.45,
+          0.65
+        ],
+        "damagesRange": [
+          213795,
+          308815
+        ]
+      },
+      {
+        "label": "2025 CAM Overbilling Refund (audit in progress)",
+        "probabilityRange": [
+          0.3,
+          0.5
+        ],
+        "damagesRange": [
+          190500,
+          317500
+        ]
+      },
+      {
+        "label": "Pre-2023 Overbilling Refund Claim",
+        "probabilityRange": [
+          0.1,
+          0.25
+        ],
+        "damagesRange": null
+      },
+      {
+        "label": "Declaratory Judgment (Count IV) \u2014 Future OpEx Allocability",
+        "probabilityRange": [
+          0.55,
+          0.75
+        ],
+        "damagesRange": null
+      },
+      {
+        "label": "Landlord's Contractual Limitations / Waiver / Estoppel Defenses",
+        "probabilityRange": [
+          0.6,
+          0.85
+        ],
+        "damagesRange": null
+      },
+      {
+        "label": "Mitigation and Good-Faith Defenses",
+        "probabilityRange": [
+          0.15,
+          0.35
+        ],
+        "damagesRange": null
+      },
+      {
+        "label": "Attorneys' Fees / Costs Exposure (either direction)",
+        "probabilityRange": null,
+        "damagesRange": null
+      }
+    ],
+    "status": "pending",
+    "actualOutcome": null,
+    "resolvedAt": null,
+    "analysis": null
+  },
+  {
+    "registryId": "ny-are-east-river-science-park-v-nyc-health-and-hospitals-2024",
+    "caseId": null,
+    "caseTitle": "ARE-East River Science Park, LLC v. New York City Health and Hospitals Corporation and New York City Economic Development Corporation",
+    "court": "U.S. District Court for the Southern District of New York",
+    "docket": "1:24-cv-05956",
+    "filings": [
+      {
+        "side": "plaintiff",
+        "label": "First amended complaint (Jan. 24, 2025)",
+        "url": "https://storage.courtlistener.com/recap/gov.uscourts.nysd.626078/gov.uscourts.nysd.626078.33.0.pdf"
+      },
+      {
+        "side": "defendant",
+        "label": "Answer to amended complaint and counterclaims (Apr. 10, 2026)",
+        "url": "https://storage.courtlistener.com/recap/gov.uscourts.nysd.626078/gov.uscourts.nysd.626078.54.0.pdf"
+      }
+    ],
+    "predictedAt": "2026-09-25",
+    "model": "claude-sonnet-5",
+    "analysisVersion": "v2",
+    "category": "lease-disputes",
+    "side": "Tenant",
+    "predictedRange": [
+      1525000,
+      9500000
+    ],
+    "predictedBestGuess": 3750000,
+    "whatIsNeededForEstimate": null,
+    "likelyOutcome": "On the current record, H+H/NYCEDC (the ground lessor side) is likely to prevail on the core question that the Option terminated on November 3, 2024 and to retain the $5M Predevelopment Security Deposit, aided significantly by the court's dismissal of ARE's $50M fraud and implied-covenant damages claims. The implied-covenant counterclaim for ongoing damages is more contested and could be discounted or narrowed at trial, and the parking counterclaims carry operational rather than large monetary value. Net expected recovery for the represented (landlord) side is substantial but not certain, with the deposit as the most binary and highest-value single line item.",
+    "claims": [
+      {
+        "label": "Whether the Option Terminated on November 3, 2024 (Core Declaratory Dispute)",
+        "probabilityRange": [
+          0.55,
+          0.75
+        ],
+        "damagesRange": null
+      },
+      {
+        "label": "$5,000,000 Predevelopment Security Deposit Retention",
+        "probabilityRange": [
+          0.5,
+          0.7
+        ],
+        "damagesRange": [
+          2000000,
+          5000000
+        ]
+      },
+      {
+        "label": "Implied Covenant Damages for Refusal to Relinquish the Option",
+        "probabilityRange": [
+          0.35,
+          0.55
+        ],
+        "damagesRange": [
+          1500000,
+          4500000
+        ]
+      },
+      {
+        "label": "Dismissal of ARE's $50 Million Fraud/Implied-Covenant Claims",
+        "probabilityRange": [
+          0.95,
+          0.99
+        ],
+        "damagesRange": null
+      },
+      {
+        "label": "Parking Counterclaims (100-Space Specific Performance / 400-Space Declaration)",
+        "probabilityRange": [
+          0.6,
+          0.8
+        ],
+        "damagesRange": null
+      },
+      {
+        "label": "ARE's Statute of Limitations / Laches and Discretionary-Declination Defenses",
+        "probabilityRange": [
+          0.2,
+          0.35
+        ],
+        "damagesRange": null
+      }
+    ],
+    "status": "pending",
+    "actualOutcome": null,
+    "resolvedAt": null,
+    "analysis": null
   }
 ]
