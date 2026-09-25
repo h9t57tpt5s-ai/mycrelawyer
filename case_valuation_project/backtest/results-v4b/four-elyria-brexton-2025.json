@@ -1,0 +1,183 @@
+{
+ "id": "four-elyria-brexton-2025",
+ "ranAt": "2026-09-25T16:44:28+00:00",
+ "status": 200,
+ "prediction": {
+  "model": "claude-sonnet-5",
+  "analysisVersion": "v4",
+  "category": "construction-defect",
+  "roleLabel": "Contractor / Design Professional",
+  "damagesRange": [
+   -200000,
+   1500000
+  ],
+  "bestGuessValue": 756250,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": "This nets out as a genuine, fact-intensive jury case on the central scope question (was the Petco tenant-improvement work inside the GMP), with Brexton holding a real but not overwhelming edge because of corroborating course-of-dealing testimony, backstopped by a solid unjust enrichment fallback theory. Brexton's exposure on Four Elyria's slander of title claim is weak for Four Elyria and should be trimmed or dismissed; the fraud claim built on the unconditional lien waivers is the most serious risk to Brexton and could survive summary judgment given the documentary waivers, though Brexton has a credible defense that the waivers didn't purport to cover work it contends was never part of the released Contract. On balance, Brexton is more likely than not to recover a meaningful portion of the ~$500,000 Site-Specific Work claim (via contract or unjust enrichment) while facing residual, harder-to-quantify tort exposure that a jury could but is not likely to credit heavily.",
+  "issues": [
+   {
+    "label": "Brexton's breach of contract claim for Site-Specific Work",
+    "probabilityRange": [
+     0.45,
+     0.55
+    ],
+    "damagesRange": [
+     0,
+     500000
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": 500000,
+    "kind": "claim",
+    "claimType": "other",
+    "strength": "even",
+    "figures": [
+     {
+      "label": "Site-Specific Work amount owed to Brexton",
+      "value": 500000,
+      "disputed": true,
+      "quote": "Brexton expected Four Elyria to pay it separately for the Site-Specific Work, which amounted to almost $500,000.",
+      "computed": null
+     }
+    ],
+    "droppedFigures": 0
+   },
+   {
+    "label": "Brexton's unjust enrichment fallback claim",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": [
+     0,
+     500000
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": 500000,
+    "kind": "claim",
+    "claimType": "other",
+    "strength": "favorable",
+    "figures": [
+     {
+      "label": "Value of Site-Specific Work benefit conferred",
+      "value": 500000,
+      "disputed": true,
+      "quote": "Brexton expected Four Elyria to pay it separately for the Site-Specific Work, which amounted to almost $500,000.",
+      "computed": null
+     }
+    ],
+    "droppedFigures": 0
+   },
+   {
+    "label": "Mechanic's lien foreclosure / declaratory judgment",
+    "probabilityRange": [
+     0.45,
+     0.55
+    ],
+    "damagesRange": [
+     0,
+     500000
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": 500000,
+    "kind": "claim",
+    "claimType": "other",
+    "strength": "even",
+    "figures": [
+     {
+      "label": "Amount secured by mechanic's lien",
+      "value": 500000,
+      "disputed": true,
+      "quote": "Brexton expected Four Elyria to pay it separately for the Site-Specific Work, which amounted to almost $500,000.",
+      "computed": null
+     }
+    ],
+    "droppedFigures": 0
+   },
+   {
+    "label": "Four Elyria's breach of contract claim (failure to pay subcontractors)",
+    "probabilityRange": [
+     0.25,
+     0.4
+    ],
+    "damagesRange": [
+     -500000,
+     0
+    ],
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": -500000,
+    "kind": "claim",
+    "claimType": "other",
+    "strength": "unfavorable",
+    "figures": [
+     {
+      "label": "Unpaid subcontractor amounts if Site-Specific Work deemed within GMP",
+      "value": 500000,
+      "disputed": true,
+      "quote": "Brexton expected Four Elyria to pay it separately for the Site-Specific Work, which amounted to almost $500,000.",
+      "computed": null
+     }
+    ],
+    "droppedFigures": 0
+   },
+   {
+    "label": "Fraud claim based on unconditional lien waivers",
+    "probabilityRange": [
+     0.45,
+     0.55
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "defense",
+    "claimType": "other",
+    "strength": "even",
+    "figures": [],
+    "droppedFigures": 0
+   },
+   {
+    "label": "Slander of title claim",
+    "probabilityRange": [
+     0.05,
+     0.2
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "defense",
+    "claimType": "other",
+    "strength": "weak",
+    "figures": [],
+    "droppedFigures": 0
+   }
+  ],
+  "citationCoverage": {
+   "count": 29,
+   "tier": "strong"
+  }
+ },
+ "error": null,
+ "outcome": {
+  "amount": 465417.44,
+  "amountIsTheRequestedAmount": false,
+  "date": "2025-05-19",
+  "description": "The trial court held the Site-Specific Work was outside the contract, granted summary judgment against Four Elyria on all its claims and for Brexton on unjust enrichment, and after a damages-only jury trial entered judgment for Brexton for $465,417.44; both sides' attorney-fee motions were denied and Brexton's lien-foreclosure counterclaim was dismissed. On this second appeal the court of appeals agreed the work was outside the contract but reversed in part and remanded for the trial court to apply the contract's Article 9 change-order provisions, leaving the unjust-enrichment award and the fee issues to be revisited on remand.",
+  "attorneysFeesAtTrial": null,
+  "appellateChange": "reversed",
+  "finalAmount": null,
+  "finalNote": "Reversed in part and remanded; no final figure yet."
+ },
+ "source": {
+  "caseName": "Four Elyria Co., L.L.C. v. Brexton Constr., L.L.C.",
+  "court": "Court of Appeals of Ohio, Ninth Appellate District (Lorain County)",
+  "docket": "C.A. No. 24CA012089, 2025-Ohio-1778 (appeal from Lorain County Court of Common Pleas, Case No. 17CV192092)",
+  "decided": "2025-05-19",
+  "url": "https://www.supremecourt.ohio.gov/rod/docs/pdf/9/2025/2025-Ohio-1778.pdf",
+  "excerptNote": "Excerpts from Part I (facts and pleadings, \u00b6\u00b63, 5-9; \u00b66 truncated before the quoted lien-waiver language) and the deposition testimony of both sides summarized in the partial dissent (\u00b6\u00b656, 58). Removed: \u00b64 (plan disclaimers), \u00b610 (motions), the trial court's summary-judgment rulings (\u00b6\u00b611-13, 16), the jury verdict figure, post-verdict motions, the first appeal's disposition, and all appellate holdings. Whitespace and PDF page-number artifacts normalized only."
+ }
+}

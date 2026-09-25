@@ -1,0 +1,134 @@
+{
+ "id": "universal-shopping-plaza-v-hong-2026",
+ "ranAt": "2026-09-25T16:31:44+00:00",
+ "status": 200,
+ "prediction": {
+  "model": "claude-sonnet-5",
+  "analysisVersion": "v4",
+  "category": "lease-disputes",
+  "roleLabel": "Landlord",
+  "damagesRange": [
+   3299.4500000000003,
+   65989
+  ],
+  "bestGuessValue": 8248.625,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": "Universal faces a genuine, probably losing battle on notice validity: the $65,989 demanded is undisputedly the stale January/February 2023 shortfall, and the theory that paragraph 4.5's application-of-payments clause keeps that debt perpetually 'current' for CCP \u00a7 1161(2) purposes is a longshot argument reinforced against Universal by the notice's independent failure to specify the rental period covered. The more probable outcome is judgment for the tenant on possession, with Universal recovering little or nothing in this UD action (though it may retain a separate breach-of-contract remedy outside this proceeding), and possible fee exposure running the other way.",
+  "issues": [
+   {
+    "label": "CCP \u00a7 1161(2) One-Year Time-Bar / Application-of-Payments Defense",
+    "probabilityRange": [
+     0.8,
+     0.9
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "defense",
+    "claimType": "other",
+    "strength": "strong",
+    "figures": [],
+    "droppedFigures": 0
+   },
+   {
+    "label": "Notice Specificity Defect",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "defense",
+    "claimType": "other",
+    "strength": "favorable",
+    "figures": [],
+    "droppedFigures": 0
+   },
+   {
+    "label": "Unpaid Rent Claim ($65,989)",
+    "probabilityRange": [
+     0.05,
+     0.2
+    ],
+    "damagesRange": [
+     65989,
+     65989
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": 65989,
+    "kind": "claim",
+    "claimType": "unpaid_rent",
+    "strength": "weak",
+    "figures": [
+     {
+      "label": "Unpaid rent demanded in three-day notice / UD complaint",
+      "value": 65989,
+      "disputed": false,
+      "quote": "the \"amount of rent due\" was $65,989",
+      "computed": null
+     }
+    ],
+    "droppedFigures": 0
+   },
+   {
+    "label": "Holdover Damages ($1,219/day from March 1, 2025)",
+    "probabilityRange": [
+     0.05,
+     0.2
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "holdover_damages",
+    "strength": "weak",
+    "figures": [],
+    "droppedFigures": 1
+   },
+   {
+    "label": "Attorney's Fees",
+    "probabilityRange": [
+     0.25,
+     0.4
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "attorney_fees",
+    "strength": "unfavorable",
+    "figures": [],
+    "droppedFigures": 0
+   }
+  ],
+  "citationCoverage": {
+   "count": 39,
+   "tier": "strong"
+  }
+ },
+ "error": null,
+ "outcome": {
+  "amount": 189100,
+  "amountIsTheRequestedAmount": false,
+  "date": "2026-09-09",
+  "description": "After a three-day court trial the trial court entered judgment for the landlord on July 3, 2025 awarding possession, $65,989 in past-due rent (the amount demanded in the notice) and $123,111 in holdover damages, $189,100 in total; no fee award is stated in the opinion. The Court of Appeal reversed, holding the three-day notice void because the unpaid rent fell due more than one year before service, and remanded for entry of judgment in favor of the tenant.",
+  "attorneysFeesAtTrial": null,
+  "appellateChange": "reversed",
+  "finalAmount": 0,
+  "finalNote": "Reversed: the three-day notice was void, so the landlord takes nothing in this action."
+ },
+ "source": {
+  "caseName": "Universal Shopping Plaza v. Piong Bin Hong",
+  "court": "California Court of Appeal, Second District, Division Seven, on appeal from Los Angeles County Superior Court",
+  "docket": "B348490 (Super. Ct. No. 25NNCV01228)",
+  "decided": "2026-09-09",
+  "url": "https://www.courts.ca.gov/opinions/documents/B348490.PDF",
+  "excerptNote": "Verbatim from the landlord's contention in the introduction and from Factual and Procedural Background parts A, B and C through the trial testimony. Removed: the sentences stating the trial court's rulings (demurrer, findings, July 3, 2025 judgment), the closing arguments, the introduction's reference to the holdover award, lease paragraph 27.1, footnotes, and all appellate analysis/holdings. One sentence is stitched across a footnote break in the PDF."
+ }
+}

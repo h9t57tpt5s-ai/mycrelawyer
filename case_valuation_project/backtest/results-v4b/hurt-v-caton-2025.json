@@ -1,0 +1,136 @@
+{
+ "id": "hurt-v-caton-2025",
+ "ranAt": "2026-09-25T16:39:34+00:00",
+ "status": 200,
+ "prediction": {
+  "model": "claude-sonnet-5",
+  "analysisVersion": "v4",
+  "category": "lease-disputes",
+  "roleLabel": "Tenant",
+  "damagesRange": [
+   188400,
+   442885.5
+  ],
+  "bestGuessValue": 363390.4625,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": "Caton is more likely than not to prevail on the core Section 9(a) liability question given the Fifth Amendment's contemporaneous admission that the Section 1(b) conditions could not be satisfied, which undercuts the Trust's argument that its obligations never ripened absent exercise. The $314,000 option-consideration component should track that liability finding closely, but the $128,885.50 out-of-pocket expense component is comparatively exposed given its apparent reliance on deposition testimony rather than documentary proof, making a partial recovery (or a fact-question referral on the expense component) as likely as full recovery of the demanded $442,885.50.",
+  "issues": [
+   {
+    "label": "Section 9(a) Liquidated Damages \u2014 Core Breach Claim",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": [
+     314000,
+     442885.5
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": 442885.5,
+    "kind": "claim",
+    "claimType": "other",
+    "strength": "favorable",
+    "figures": [
+     {
+      "label": "Option Consideration refund",
+      "value": 314000,
+      "disputed": false,
+      "quote": "a refund of $314,000.00 in Option Consideration",
+      "computed": null
+     },
+     {
+      "label": "Out-of-pocket diligence expenses",
+      "value": 128885.5,
+      "disputed": true,
+      "quote": "$128,885.50 in out-of-pocket expenses",
+      "computed": null
+     }
+    ],
+    "droppedFigures": 0
+   },
+   {
+    "label": "Trust's 'Never Ripened' / Option-Not-Exercised Defense",
+    "probabilityRange": [
+     0.25,
+     0.4
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "defense",
+    "claimType": "other",
+    "strength": "unfavorable",
+    "figures": [],
+    "droppedFigures": 0
+   },
+   {
+    "label": "Evidentiary Sufficiency of Out-of-Pocket Expense Proof",
+    "probabilityRange": [
+     0.45,
+     0.55
+    ],
+    "damagesRange": [
+     0,
+     128885.5
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": 128885.5,
+    "kind": "claim",
+    "claimType": "other",
+    "strength": "even",
+    "figures": [
+     {
+      "label": "Out-of-pocket diligence expenses (deposition-sourced)",
+      "value": 128885.5,
+      "disputed": true,
+      "quote": "$128,885.50 in out-of-pocket expenses",
+      "computed": null
+     }
+    ],
+    "droppedFigures": 0
+   },
+   {
+    "label": "Timing of Termination \u2014 Anticipatory vs. Ripe",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "defense",
+    "claimType": "other",
+    "strength": "favorable",
+    "figures": [],
+    "droppedFigures": 0
+   }
+  ],
+  "citationCoverage": {
+   "count": 39,
+   "tier": "strong"
+  }
+ },
+ "error": null,
+ "outcome": {
+  "amount": 442885.5,
+  "amountIsTheRequestedAmount": true,
+  "date": "2025-03-04",
+  "description": "The circuit court granted Caton summary judgment on a futility theory and awarded him $442,885.50 in damages (the full amount of his demand) plus $96,329.00 in attorneys' fees. The Court of Appeals of Virginia affirmed that the agreement required Caton to exercise the option, but reversed the summary judgment award of damages and fees because futility was not established as a matter of law, and remanded for further proceedings.",
+  "attorneysFeesAtTrial": 96329.0,
+  "appellateChange": "reversed",
+  "finalAmount": null,
+  "finalNote": "Summary judgment reversed and remanded; no final figure yet."
+ },
+ "source": {
+  "caseName": "Charles W. Hurt and Shirley L. Fisher, as Trustees of the South Pantops II Land Trust v. Douglas E. Caton",
+  "court": "Court of Appeals of Virginia (published), on appeal from the Circuit Court of Albemarle County",
+  "docket": "Record No. 1198-23-2",
+  "decided": "2025-03-04",
+  "url": "https://www.vacourts.gov/opinions/opncavwp/1198232.pdf",
+  "excerptNote": "Verbatim from the opinion's introduction (dispute summary and the parties' cross-motion positions), the BACKGROUND section (Agreement terms, development plans and adverse-possession suit, fifth amendment, termination and demand letters, the suit and cross-motions), footnotes 2-3, and the first paragraph of the Analysis summarizing each side's contention. Removed: every sentence describing the circuit court's ruling, its damages and fee award, and the appellate holdings, including the standard-of-review section."
+ }
+}

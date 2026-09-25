@@ -1,0 +1,195 @@
+{
+ "id": "edgemere-lawal-2025",
+ "ranAt": "2026-09-25T16:42:38+00:00",
+ "status": 200,
+ "prediction": {
+  "model": "claude-sonnet-5",
+  "analysisVersion": "v4",
+  "category": "lease-disputes",
+  "roleLabel": "Tenant",
+  "damagesRange": null,
+  "bestGuessValue": null,
+  "whatIsNeededForEstimate": "A dollar figure for your side's own claims: Constructive Eviction Counterclaim; Breach of Implied Warranty of Quiet Enjoyment; Security Deposit Return / Breach of Contract; Lost Profits and Office Relocation Costs. The other side's claims could be priced from the record but yours could not, so a net figure would show only what you might pay. Add the amounts you are claiming (rent, balance, contract price, invoices) and run it again.",
+  "likelyOutcome": "This is a genuine jury case on liability, not a lopsided one: Edgemere's own January 2019 termination-and-vacate letter, left unretracted for over a year while it tried and failed to close a competing sale, gives Lawal a strong waiver/estoppel defense to the holdover-rent and late-fee claims, but his affirmative constructive-eviction and quiet-enjoyment counterclaims are weak given the admitted absence of any physical interference and his own thirteen-month delay in vacating. On the numbers actually in the record, the tenant's realistic net exposure is modest and driven almost entirely by the $50/day late fee, with the landlord's abandoned $5,000 property-damage theory and unquantified base rent claim contributing little that can be reliably priced.",
+  "issues": [
+   {
+    "label": "Validity/Waiver of Lease Termination (Core Liability for Holdover Rent)",
+    "probabilityRange": [
+     0.45,
+     0.55
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "unpaid_rent",
+    "strength": "even",
+    "figures": [],
+    "droppedFigures": 0
+   },
+   {
+    "label": "Contractual Late Fees ($50/day plus 10%/month)",
+    "probabilityRange": [
+     0.25,
+     0.4
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "other",
+    "strength": "unfavorable",
+    "figures": [],
+    "droppedFigures": 1
+   },
+   {
+    "label": "Abandoned Floor-Damage Claim",
+    "probabilityRange": [
+     0.05,
+     0.2
+    ],
+    "damagesRange": [
+     -5000,
+     0
+    ],
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": -5000,
+    "kind": "claim",
+    "claimType": "property_damage",
+    "strength": "weak",
+    "figures": [
+     {
+      "label": "Claimed floor repair cost",
+      "value": 5000,
+      "disputed": true,
+      "quote": "it cost more than $5000 to repair",
+      "computed": null
+     }
+    ],
+    "droppedFigures": 0
+   },
+   {
+    "label": "Termination Notice Estoppel/Waiver Defense",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "defense",
+    "claimType": "other",
+    "strength": "favorable",
+    "figures": [],
+    "droppedFigures": 0
+   },
+   {
+    "label": "Constructive Eviction Counterclaim",
+    "probabilityRange": [
+     0.05,
+     0.2
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "other",
+    "strength": "weak",
+    "figures": [],
+    "droppedFigures": 0
+   },
+   {
+    "label": "Breach of Implied Warranty of Quiet Enjoyment",
+    "probabilityRange": [
+     0.05,
+     0.2
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "quiet_enjoyment_breach",
+    "strength": "weak",
+    "figures": [],
+    "droppedFigures": 0
+   },
+   {
+    "label": "Security Deposit Return / Breach of Contract",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "security_deposit",
+    "strength": "favorable",
+    "figures": [],
+    "droppedFigures": 0
+   },
+   {
+    "label": "Lost Profits and Office Relocation Costs",
+    "probabilityRange": [
+     0.05,
+     0.2
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "tortious_interference_lost_profits",
+    "strength": "weak",
+    "figures": [],
+    "droppedFigures": 0
+   },
+   {
+    "label": "Attorney's Fees (Both Sides)",
+    "probabilityRange": [
+     0.45,
+     0.55
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "attorney_fees",
+    "strength": "even",
+    "figures": [],
+    "droppedFigures": 0
+   }
+  ],
+  "citationCoverage": {
+   "count": 39,
+   "tier": "strong"
+  }
+ },
+ "error": null,
+ "outcome": {
+  "amount": 83791.8,
+  "amountIsTheRequestedAmount": false,
+  "date": "2025-05-27",
+  "description": "The jury found for the tenant on all claims and the trial court entered judgment for $36,791.80 moving expenses, $42,000 lost profits and $5,000 for the retained security deposit (total $83,791.80), plus $67,000 attorney's fees, interest and costs, and took-nothing on the landlord's rent claim. The court of appeals reversed the constructive-eviction/implied-warranty recovery (no evidence of substantial interference) and rendered judgment that the tenant take nothing on those claims, affirmed the judgment against the landlord on its breach claim and for the tenant on the $5,000 security-deposit claim, and remanded attorney's fees for a new trial.",
+  "attorneysFeesAtTrial": 67000,
+  "appellateChange": "modified to $5,000",
+  "finalAmount": 5000,
+  "finalNote": "Reduced on appeal to the $5,000 security deposit."
+ },
+ "source": {
+  "caseName": "Edgemere Loop 375, LLC v. Lookman Lawal, M.D., and Southwestern Cardiac Arrhythmia Institute, P.A.",
+  "court": "Court of Appeals of Texas, Eighth District (El Paso)",
+  "docket": "No. 08-24-00092-CV (appeal from 205th District Court, El Paso County, TC# 2020DCV2771)",
+  "decided": "2025-05-27",
+  "url": "https://search.txcourts.gov/SearchMedia.aspx?MediaID=1da0b877-43f9-4d95-99b6-7609f934dace",
+  "excerptNote": "Excerpts from Part I (Factual Background; the 'To summarize' paragraph, the title-company/attorney-retention paragraph and the May 29 letter quotation omitted for length), Part II (Procedural Background) and the parties' contentions quoted in Part IV (Analysis, incl. footnote 5). Removed: the jury's findings and the trial court's final judgment (all award figures), the appellate holdings, the attorney's-fee testimony figure, and the disposition. Whitespace normalized only."
+ }
+}
