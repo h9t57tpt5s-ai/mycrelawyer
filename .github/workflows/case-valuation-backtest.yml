@@ -50,7 +50,7 @@ jobs:
           fi
       - name: Commit results
         run: |
-          git add case_valuation_project/backtest/results/ case_valuation_project/backtest/results-v2/ case_valuation_project/registry/entries.json js/prediction-registry-data.js
+          git add case_valuation_project/backtest/results*/ case_valuation_project/registry/entries.json js/prediction-registry-data.js
           if git diff --cached --quiet; then echo "No new results."; exit 0; fi
           git config user.name "credocket-backtest-bot"
           git config user.email "actions@users.noreply.github.com"
