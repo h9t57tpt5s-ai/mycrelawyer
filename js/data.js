@@ -16,7 +16,7 @@ const RELAW_DATA = {
      Drives the homepage's "New Today" pill: it only shows when this
      equals the visitor's local today. Updated by the digest automation
      each time Step 4 successfully adds a case — never touched otherwise. */
-  lastUpdatedDate: "2026-09-24",
+  lastUpdatedDate: "2026-09-25",
   categories: [
     { id: "landlord-tenant", label: "Landlord–Tenant", color: "var(--cat-landlord)" },
     { id: "zoning-land-use", label: "Zoning & Land Use", color: "var(--cat-zoning)" },
@@ -5925,6 +5925,86 @@ const RELAW_DATA = {
       ],
       propertyType: "Retail",
       tags: ["receivership", "loan default", "retail", "seattle", "washington"]
+    },
+    {
+      id: "live-178",
+      addedDate: "2026-09-25",
+      featured: true,
+      title: "Fortress Credit Corp. v. Cohen Bros. Realty (Cohen's $204M UCC-Auction Damages Countersuit)",
+      category: "lending-foreclosure",
+      status: "pending",
+      date: "2026-06-29",
+      jurisdiction: "Supreme Court of the State of New York, New York County (Commercial Division)",
+      state: "NY",
+      amount: "$204M damages sought over a $534M UCC foreclosure auction",
+      source: "live",
+      sourceUrl: "https://www.crainsnewyork.com/real-estate/commercial/cny-cohen-demands-203m-from-fortress-20260629/",
+      summary: "Developer Charles Cohen has paid off the roughly $187 million personal-guaranty judgment Fortress Investment Group won against him in 2024, but is now pressing his own claim against Fortress for approximately $204 million in damages, alleging the November 2024 UCC Article 9 auction of his real estate portfolio was not conducted in a commercially reasonable manner. Fortress has said it will continue pursuing its own remaining claims against Cohen.",
+      significance: "The case, arising from what was widely reported as the largest UCC foreclosure auction in CRE history, shows that satisfying a guaranty judgment does not end a borrower's ability to challenge the underlying foreclosure sale process, and puts renewed scrutiny on how lenders document commercial reasonableness under Article 9 when they are also the winning bidder.",
+      body: [
+        "Nearly two years after Fortress Investment Group forced a sale of developer Charles S. Cohen's real estate holdings in what was widely described as the largest Uniform Commercial Code foreclosure auction on record, the dispute between the two sides remains active. Cohen has satisfied the roughly $187 million personal-guaranty judgment a New York court entered against him in 2024 and that the Appellate Division, First Department affirmed in February 2025. But he is now pressing his own claim against Fortress seeking approximately $204 million in damages, arguing that the auction which stripped him of his properties was never conducted in the commercially reasonable manner that Article 9 of the UCC requires. Fortress has indicated it intends to continue pursuing its own remaining claims against Cohen.",
+        "The underlying dispute traces to September 2022, when Fortress Credit Corp., an affiliate of Fortress Investment Group, extended roughly $534 million in financing to limited liability companies affiliated with Cohen Brothers Realty Corp. The loan was secured by interests in a portfolio that included Tower 57, the Cohen-owned Manhattan office building housing the D&D Building design showrooms, along with hospitality and design-center assets in Dania Beach, Florida. Cohen personally guaranteed the debt. When the loan went into default, Fortress enforced its rights through a UCC Article 9 foreclosure on the pledged equity interests in the borrower entities rather than a conventional mortgage foreclosure.",
+        "Fortress's first attempt to schedule the auction drew a formal objection from Cohen, and a New York court agreed the proposed sale process fell short of Article 9's commercial-reasonableness standard, forcing Fortress to revise its marketing plan. A revised, court-sanctioned auction went forward on November 8, 2024, drawing a single bidder, Fortress itself, which submitted credit bids including roughly $148.7 million for equity in the core portfolio, plus separate bids of $76 million for the Design Center of the Americas and $30 million for a Le Meridien hotel in Dania Beach. Separately, in October 2024, the Supreme Court of the State of New York, New York County granted Fortress summary judgment in lieu of complaint on Cohen's personal guaranty for roughly $187 million; the First Department affirmed that ruling in February 2025, and Cohen paid the debt in full in June 2026.",
+        "It is the November 2024 auction that Cohen is now challenging on the merits. His suit alleges Fortress structured the sale, including its marketing approach, choice of brokers, and timeline, in a way that depressed the price paid for his properties, contending the portfolio sold for roughly $150 million against what he says was an internal Fortress valuation closer to $235 million. Fortress disputes that characterization and has signaled it will keep litigating its own remaining claims against Cohen, which could produce additional judgments; Cohen is expected to move to dismiss those claims while pressing his own damages counterclaim.",
+        "For CRE lenders and workout counsel, the case underscores that Article 9's commercial-reasonableness standard applies to every element of a disposition, and that a borrower who loses collateral can still recover damages later if a court finds the sale process itself was deficient, even where the lender was the only bidder. With a $534 million original loan, a $187 million guaranty judgment already paid, and now a $204 million damages claim in play, the dispute illustrates how challenges to a UCC foreclosure's fairness can rival the original credit exposure in size, making process discipline around any equity-pledge foreclosure a genuine litigation-risk issue rather than a formality."
+      ],
+      timeline: [
+        { when: "September 2022", label: "Fortress Credit Corp. extends roughly $534M to Cohen Bros.-affiliated LLCs, personally guaranteed by Charles Cohen" },
+        { when: "October 4, 2024", label: "NY Supreme Court grants Fortress summary judgment in lieu of complaint on the ~$187M guaranty" },
+        { when: "November 8, 2024", label: "Revised UCC Article 9 auction held; Fortress is the sole bidder, acquiring the portfolio's equity interests" },
+        { when: "February 2025", label: "Appellate Division, First Department affirms the $187M guaranty judgment" },
+        { when: "June 2026", label: "Cohen pays off the $187M judgment in full" },
+        { when: "June 29, 2026", label: "Cohen's pending $204M commercial-reasonableness damages claim against Fortress is reported; Fortress says it will keep pursuing its own remaining claims", current: true }
+      ],
+      judge: null,
+      parties: [
+        { name: "Cohen Brothers Realty Corp.", role: "Borrower-affiliated Plaintiff" },
+        { name: "Fortress Credit Corp.", role: "Lender/Defendant" },
+        { name: "Fortress Investment Group LLC", role: "Lender/Defendant" }
+      ],
+      amountUsd: 204000000,
+      amountBasis: "damages sought",
+      tags: ["ucc foreclosure", "commercial reasonableness", "loan default", "new york", "office"]
+    },
+    {
+      id: "live-179",
+      addedDate: "2026-09-25",
+      title: "Pinnacle North, LLC v. White (Michigan Court of Appeals Affirms Veil-Piercing to Collect Commercial Lease Default)",
+      category: "lease-disputes",
+      status: "ruling",
+      date: "2026-03-24",
+      jurisdiction: "Michigan Court of Appeals",
+      state: "MI",
+      amount: "$52,548.24 default judgment (plus a related $50,000 transfer voided)",
+      source: "live",
+      sourceUrl: "https://www.courts.michigan.gov/siteassets/case-documents/uploads/OPINIONS/FINAL/COA/20260324_C370640_39_370640.opn.pdf",
+      summary: "The Michigan Court of Appeals affirmed a trial court ruling piercing the corporate veil of a defaulted commercial tenant, Marketplace Home Mortgage, LLC, to hold its principal personally liable for a $52,548.24 lease-default judgment owed to landlord Pinnacle North, LLC. The court also affirmed a finding that a $50,000 payment the tenant made to its principal around the time of its sale was a voidable transfer under Michigan's Uniform Voidable Transactions Act.",
+      significance: "The ruling gives commercial landlords appellate-level Michigan precedent for converting an uncollectible judgment against an insolvent corporate tenant into personal liability against the individual who ran it, particularly where a sale or wind-down left lease liabilities behind while value moved to insiders.",
+      body: [
+        "A commercial landlord's six-year effort to collect on a defaulted office lease cleared a significant hurdle on March 24, 2026, when the Michigan Court of Appeals affirmed a trial court ruling allowing the landlord to pierce the corporate veil of its former tenant and pursue the tenant's principal personally for the unpaid debt. The decision, arising out of Oakland County's Business Court, gives commercial landlords a concrete, appellate-level roadmap for converting an uncollectible judgment against a defunct corporate tenant into a personal judgment against the individual who ran it.",
+        "The dispute began in 2018, when Marketplace Home Mortgage, LLC signed a three-year commercial lease for office space at the Pinnacle North Office Center, an Oakland County office building owned by landlord Pinnacle North, LLC. MHM defaulted on its rent obligations during the summer of 2018. By December of that year, MHM had been sold to a successor company in a transaction structured so that the buyer did not assume the company's outstanding lease liability, leaving the original corporate tenant insolvent. Pinnacle North sued MHM for breach of the lease in 2019, and an Oakland County trial court entered a default judgment against MHM in October 2019 for $52,548.24, plus interest, costs, and attorney fees.",
+        "Pinnacle North then pursued a follow-on action seeking to hold MHM's principal personally liable under an alter-ego theory, arguing the corporate structure separating the individual from MHM should not be respected because it had been used to avoid the company's lease obligations. The Oakland County Business Court agreed, finding the corporate veil could be pierced, and separately found that a $50,000 payment MHM had made to its principal around the time of the company's sale amounted to a voidable transfer under Michigan's Uniform Voidable Transactions Act.",
+        "On appeal, in an opinion filed under Court of Appeals docket number 370640, the Michigan Court of Appeals affirmed both rulings, giving landlords two independent theories, veil-piercing and the state's voidable-transactions statute, that can be pursued together against a judgment-proof corporate tenant. The timing and structure of the tenant's sale, an asset transaction that shed the lease liability while transferring value to the principal, appears to have been decisive in persuading both the trial court and the Court of Appeals that the corporate form had been misused.",
+        "For commercial landlords leasing to closely held or thinly capitalized tenants, the decision is a useful, fact-specific data point in an area of law where courts are typically reluctant to disregard corporate separateness. It signals that a sale or restructuring timed to leave lease liabilities behind while insiders extract value will draw sustained creditor scrutiny well after the fact, and that pursuing both alter-ego and voidable-transfer theories together can give a landlord's collection effort added resilience on appeal."
+      ],
+      timeline: [
+        { when: "2018", label: "MHM signs a three-year commercial lease at Pinnacle North Office Center" },
+        { when: "Summer 2018", label: "MHM defaults on rent" },
+        { when: "December 2018", label: "MHM is sold without the buyer assuming its lease liability" },
+        { when: "October 17, 2019", label: "Oakland County trial court enters a $52,548.24 default judgment against MHM" },
+        { when: "March 24, 2026", label: "Michigan Court of Appeals affirms veil-piercing and voidable-transfer rulings", current: true }
+      ],
+      judge: null,
+      parties: [
+        { name: "Pinnacle North, LLC", role: "Plaintiff/Landlord" },
+        { name: "Marketplace Home Mortgage, LLC", role: "Defendant/Tenant" }
+      ],
+      amountUsd: 52548,
+      amountBasis: "judgment",
+      propertyType: "Office",
+      documentUrl: "https://www.courts.michigan.gov/siteassets/case-documents/uploads/OPINIONS/FINAL/COA/20260324_C370640_39_370640.opn.pdf",
+      documentLabel: "Read the official Court of Appeals opinion",
+      tags: ["veil piercing", "alter ego", "commercial lease", "michigan", "judgment collection"]
     }
   ],
 
@@ -6673,6 +6753,7 @@ const RELAW_DATA = {
     { name: "Rialto Capital Advisors", matchTerm: "Rialto Capital", slug: "rialto-capital-advisors", description: "Miami-based investment and asset management platform that frequently serves as special servicer for CMBS trusts in commercial mortgage foreclosure litigation.", website: "https://rialtocapital.com" },
     { name: "Blackstone", slug: "blackstone", description: "Global alternative asset manager and one of the largest owners of multifamily, office, and other commercial real estate nationally, both directly and through portfolio landlord entities.", website: "https://www.blackstone.com" },
     { name: "Simon Property Group", slug: "simon-property-group", description: "NYSE-listed REIT and the nation's largest owner of shopping malls and premium outlet centers.", website: "https://www.simon.com" },
-    { name: "Verizon Wireless", matchTerm: "Verizon", slug: "verizon-wireless", description: "National wireless carrier that leases rooftop and site space from commercial landlords nationwide for communications and distributed-antenna equipment.", website: "https://www.verizon.com" }
+    { name: "Verizon Wireless", matchTerm: "Verizon", slug: "verizon-wireless", description: "National wireless carrier that leases rooftop and site space from commercial landlords nationwide for communications and distributed-antenna equipment.", website: "https://www.verizon.com" },
+    { name: "Fortress Investment Group", matchTerm: "Fortress", slug: "fortress-investment-group", description: "Multi-strategy alternative asset manager active as a CRE lender, frequently pursuing foreclosure and UCC Article 9 remedies against defaulted commercial borrowers.", website: "https://www.fortress.com" }
   ]
 };
