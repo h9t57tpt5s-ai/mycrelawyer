@@ -19,6 +19,9 @@ window.BACKTEST_RESULTS = {
     "correctedOnAppeal": 1,
     "holdoutHits": 1,
     "holdoutScorable": 5,
+    "finalBestGuessMedianError": -0.095,
+    "finalBestGuessWithin25": 4,
+    "finalBestGuessScorable": 16,
     "medianCaseRatio": 0.69,
     "aggregatePredicted": 75027428,
     "aggregateActual": 113512708,
@@ -35,6 +38,8 @@ window.BACKTEST_RESULTS = {
       "actual": 53038.94,
       "hit": true,
       "note": "Reduced on appeal to a 50 percent share.",
+      "bestGuess": 54540.810000000005,
+      "bestGuessError": 0.028,
       "correctedTowardPrediction": true,
       "pending": false
      },
@@ -83,6 +88,8 @@ window.BACKTEST_RESULTS = {
       "actual": null,
       "hit": null,
       "note": "Reversed and remanded; no final figure yet.",
+      "bestGuess": 239250.0,
+      "bestGuessError": null,
       "correctedTowardPrediction": false,
       "pending": true
      },
@@ -128,6 +135,8 @@ window.BACKTEST_RESULTS = {
       "actual": 444055.13,
       "hit": null,
       "note": "Affirmed.",
+      "bestGuess": null,
+      "bestGuessError": null,
       "correctedTowardPrediction": false,
       "pending": false
      },
@@ -172,6 +181,8 @@ window.BACKTEST_RESULTS = {
       "actual": 276089.72,
       "hit": false,
       "note": "Trial-level decision; no appeal reflected.",
+      "bestGuess": 117174.673,
+      "bestGuessError": -0.576,
       "correctedTowardPrediction": false,
       "pending": false
      },
@@ -220,6 +231,8 @@ window.BACKTEST_RESULTS = {
       "actual": 5000,
       "hit": false,
       "note": "Reduced on appeal to the $5,000 security deposit.",
+      "bestGuess": 0.0,
+      "bestGuessError": -1.0,
       "correctedTowardPrediction": false,
       "pending": false
      },
@@ -268,6 +281,8 @@ window.BACKTEST_RESULTS = {
       "actual": null,
       "hit": null,
       "note": "Reversed and remanded; no final figure yet.",
+      "bestGuess": 57774.6,
+      "bestGuessError": null,
       "correctedTowardPrediction": false,
       "pending": true
      },
@@ -316,6 +331,8 @@ window.BACKTEST_RESULTS = {
       "actual": null,
       "hit": null,
       "note": "Reversed in part and remanded; no final figure yet.",
+      "bestGuess": 122187.5,
+      "bestGuessError": null,
       "correctedTowardPrediction": false,
       "pending": true
      },
@@ -364,6 +381,8 @@ window.BACKTEST_RESULTS = {
       "actual": 44000,
       "hit": false,
       "note": "Reversed: only the strip taking is compensable, about $40,500-$47,400 on the record; midpoint used.",
+      "bestGuess": 2429252.5,
+      "bestGuessError": 54.21,
       "correctedTowardPrediction": false,
       "pending": false
      },
@@ -412,6 +431,8 @@ window.BACKTEST_RESULTS = {
       "actual": 44000,
       "hit": true,
       "note": "Trial-level report; no appeal reflected.",
+      "bestGuess": 55812.5,
+      "bestGuessError": 0.268,
       "correctedTowardPrediction": false,
       "pending": false
      },
@@ -460,6 +481,8 @@ window.BACKTEST_RESULTS = {
       "actual": 120128.72,
       "hit": false,
       "note": "Affirmed.",
+      "bestGuess": 97820.70199999999,
+      "bestGuessError": -0.186,
       "correctedTowardPrediction": false,
       "pending": false
      },
@@ -508,6 +531,8 @@ window.BACKTEST_RESULTS = {
       "actual": null,
       "hit": null,
       "note": "Summary judgment reversed and remanded; no final figure yet.",
+      "bestGuess": 246433.025,
+      "bestGuessError": null,
       "correctedTowardPrediction": false,
       "pending": true
      },
@@ -558,6 +583,8 @@ window.BACKTEST_RESULTS = {
       "actual": 94350,
       "hit": true,
       "note": "Affirmed.",
+      "bestGuess": 44956.125,
+      "bestGuessError": -0.524,
       "correctedTowardPrediction": false,
       "pending": false
      },
@@ -606,6 +633,8 @@ window.BACKTEST_RESULTS = {
       "actual": 42641740,
       "hit": false,
       "note": "No appeal reflected.",
+      "bestGuess": 27490000.0,
+      "bestGuessError": -0.355,
       "correctedTowardPrediction": false,
       "pending": false
      },
@@ -654,6 +683,8 @@ window.BACKTEST_RESULTS = {
       "actual": null,
       "hit": null,
       "note": "Reversed (liquidated-damages clause unenforceable) and remanded; no final figure yet.",
+      "bestGuess": 1191646.1,
+      "bestGuessError": null,
       "correctedTowardPrediction": false,
       "pending": true
      },
@@ -702,6 +733,8 @@ window.BACKTEST_RESULTS = {
       "actual": 96072.49,
       "hit": false,
       "note": "Damages affirmed; fee denial reversed and remanded.",
+      "bestGuess": 155900.22499999998,
+      "bestGuessError": 0.623,
       "correctedTowardPrediction": false,
       "pending": false
      },
@@ -750,6 +783,8 @@ window.BACKTEST_RESULTS = {
       "actual": 51336.45,
       "hit": true,
       "note": "Affirmed; the denial of reletting costs was reversed on cross-appeal and remanded, so the final total could rise.",
+      "bestGuess": 63457.25,
+      "bestGuessError": 0.236,
       "correctedTowardPrediction": false,
       "pending": false
      },
@@ -798,6 +833,8 @@ window.BACKTEST_RESULTS = {
       "actual": 424172.72,
       "hit": false,
       "note": "Trial-level post-trial opinion; no appeal reflected.",
+      "bestGuess": 770516.1875,
+      "bestGuessError": 0.817,
       "correctedTowardPrediction": false,
       "pending": false
      },
@@ -846,6 +883,8 @@ window.BACKTEST_RESULTS = {
       "actual": 9854566.95,
       "hit": false,
       "note": "Affirmed.",
+      "bestGuess": 3988750.0,
+      "bestGuessError": -0.595,
       "correctedTowardPrediction": false,
       "pending": false
      },
@@ -891,6 +930,8 @@ window.BACKTEST_RESULTS = {
       "actual": 257216,
       "hit": null,
       "note": "Affirmed.",
+      "bestGuess": null,
+      "bestGuessError": null,
       "correctedTowardPrediction": false,
       "pending": false
      },
@@ -935,6 +976,8 @@ window.BACKTEST_RESULTS = {
       "actual": 481434.84,
       "hit": true,
       "note": "Affirmed, including after rehearing en banc.",
+      "bestGuess": 343750.0,
+      "bestGuessError": -0.286,
       "correctedTowardPrediction": false,
       "pending": false
      },
@@ -983,6 +1026,8 @@ window.BACKTEST_RESULTS = {
       "actual": 79096.44,
       "hit": false,
       "note": "$79,096.44 affirmed; the $108,000 Dos Botes award reversed and remanded, so the final total could rise.",
+      "bestGuess": 169477.5,
+      "bestGuessError": 1.143,
       "correctedTowardPrediction": false,
       "pending": false
      },
@@ -1031,6 +1076,8 @@ window.BACKTEST_RESULTS = {
       "actual": null,
       "hit": null,
       "note": "Reversed for a new trial; no final figure yet.",
+      "bestGuess": 540000.0,
+      "bestGuessError": null,
       "correctedTowardPrediction": false,
       "pending": true
      },
@@ -1079,6 +1126,8 @@ window.BACKTEST_RESULTS = {
       "actual": 0,
       "hit": false,
       "note": "Reversed: the three-day notice was void, so the landlord takes nothing in this action.",
+      "bestGuess": 62696.17499999999,
+      "bestGuessError": null,
       "correctedTowardPrediction": false,
       "pending": false
      },
@@ -1127,6 +1176,8 @@ window.BACKTEST_RESULTS = {
       "actual": 51392086.96,
       "hit": false,
       "note": "Affirmed.",
+      "bestGuess": 34542814.5,
+      "bestGuessError": -0.328,
       "correctedTowardPrediction": false,
       "pending": false
      },
@@ -1175,6 +1226,8 @@ window.BACKTEST_RESULTS = {
       "actual": 170484.37,
       "hit": true,
       "note": "Rent damages affirmed; fee award reversed.",
+      "bestGuess": 154358.5675,
+      "bestGuessError": -0.095,
       "correctedTowardPrediction": false,
       "pending": false
      },
@@ -1232,6 +1285,9 @@ window.BACKTEST_RESULTS = {
     "correctedOnAppeal": 1,
     "holdoutHits": 3,
     "holdoutScorable": 4,
+    "finalBestGuessMedianError": -0.262,
+    "finalBestGuessWithin25": 4,
+    "finalBestGuessScorable": 16,
     "medianCaseRatio": 0.768,
     "aggregatePredicted": 76571691,
     "aggregateActual": 113985857,
@@ -1248,6 +1304,8 @@ window.BACKTEST_RESULTS = {
       "actual": 53038.94,
       "hit": true,
       "note": "Reduced on appeal to a 50 percent share.",
+      "bestGuess": 47825.0,
+      "bestGuessError": -0.098,
       "correctedTowardPrediction": false,
       "pending": false
      },
@@ -1296,6 +1354,8 @@ window.BACKTEST_RESULTS = {
       "actual": null,
       "hit": null,
       "note": "Reversed and remanded; no final figure yet.",
+      "bestGuess": 152750.0,
+      "bestGuessError": null,
       "correctedTowardPrediction": false,
       "pending": true
      },
@@ -1344,6 +1404,8 @@ window.BACKTEST_RESULTS = {
       "actual": 444055.13,
       "hit": false,
       "note": "Affirmed.",
+      "bestGuess": -40091.825,
+      "bestGuessError": -1.09,
       "correctedTowardPrediction": false,
       "pending": false
      },
@@ -1392,6 +1454,8 @@ window.BACKTEST_RESULTS = {
       "actual": 276089.72,
       "hit": true,
       "note": "Trial-level decision; no appeal reflected.",
+      "bestGuess": 214267.61699999997,
+      "bestGuessError": -0.224,
       "correctedTowardPrediction": false,
       "pending": false
      },
@@ -1437,6 +1501,8 @@ window.BACKTEST_RESULTS = {
       "actual": 5000,
       "hit": null,
       "note": "Reduced on appeal to the $5,000 security deposit.",
+      "bestGuess": null,
+      "bestGuessError": null,
       "correctedTowardPrediction": false,
       "pending": false
      },
@@ -1479,6 +1545,8 @@ window.BACKTEST_RESULTS = {
       "actual": null,
       "hit": null,
       "note": "Reversed and remanded; no final figure yet.",
+      "bestGuess": 38155.4,
+      "bestGuessError": null,
       "correctedTowardPrediction": false,
       "pending": true
      },
@@ -1527,6 +1595,8 @@ window.BACKTEST_RESULTS = {
       "actual": null,
       "hit": null,
       "note": "Reversed in part and remanded; no final figure yet.",
+      "bestGuess": 151250.0,
+      "bestGuessError": null,
       "correctedTowardPrediction": false,
       "pending": true
      },
@@ -1575,6 +1645,8 @@ window.BACKTEST_RESULTS = {
       "actual": 44000,
       "hit": false,
       "note": "Reversed: only the strip taking is compensable, about $40,500-$47,400 on the record; midpoint used.",
+      "bestGuess": 2177937.5,
+      "bestGuessError": 48.499,
       "correctedTowardPrediction": false,
       "pending": false
      },
@@ -1623,6 +1695,8 @@ window.BACKTEST_RESULTS = {
       "actual": 44000,
       "hit": true,
       "note": "Trial-level report; no appeal reflected.",
+      "bestGuess": 41250.0,
+      "bestGuessError": -0.062,
       "correctedTowardPrediction": false,
       "pending": false
      },
@@ -1671,6 +1745,8 @@ window.BACKTEST_RESULTS = {
       "actual": 120128.72,
       "hit": true,
       "note": "Affirmed.",
+      "bestGuess": 88679.984,
+      "bestGuessError": -0.262,
       "correctedTowardPrediction": false,
       "pending": false
      },
@@ -1719,6 +1795,8 @@ window.BACKTEST_RESULTS = {
       "actual": null,
       "hit": null,
       "note": "Summary judgment reversed and remanded; no final figure yet.",
+      "bestGuess": 185859.2375,
+      "bestGuessError": null,
       "correctedTowardPrediction": false,
       "pending": true
      },
@@ -1767,6 +1845,8 @@ window.BACKTEST_RESULTS = {
       "actual": 94350,
       "hit": true,
       "note": "Affirmed.",
+      "bestGuess": 51998.25,
+      "bestGuessError": -0.449,
       "correctedTowardPrediction": false,
       "pending": false
      },
@@ -1815,6 +1895,8 @@ window.BACKTEST_RESULTS = {
       "actual": 42641740,
       "hit": true,
       "note": "No appeal reflected.",
+      "bestGuess": 26600000.0,
+      "bestGuessError": -0.376,
       "correctedTowardPrediction": false,
       "pending": false
      },
@@ -1863,6 +1945,8 @@ window.BACKTEST_RESULTS = {
       "actual": null,
       "hit": null,
       "note": "Reversed (liquidated-damages clause unenforceable) and remanded; no final figure yet.",
+      "bestGuess": 684300.0,
+      "bestGuessError": null,
       "correctedTowardPrediction": false,
       "pending": true
      },
@@ -1911,6 +1995,8 @@ window.BACKTEST_RESULTS = {
       "actual": 96072.49,
       "hit": true,
       "note": "Damages affirmed; fee denial reversed and remanded.",
+      "bestGuess": 171528.255,
+      "bestGuessError": 0.785,
       "correctedTowardPrediction": false,
       "pending": false
      },
@@ -1959,6 +2045,8 @@ window.BACKTEST_RESULTS = {
       "actual": 51336.45,
       "hit": true,
       "note": "Affirmed; the denial of reletting costs was reversed on cross-appeal and remanded, so the final total could rise.",
+      "bestGuess": 34203.775,
+      "bestGuessError": -0.334,
       "correctedTowardPrediction": false,
       "pending": false
      },
@@ -2007,6 +2095,8 @@ window.BACKTEST_RESULTS = {
       "actual": 424172.72,
       "hit": true,
       "note": "Trial-level post-trial opinion; no appeal reflected.",
+      "bestGuess": 308554.385,
+      "bestGuessError": -0.273,
       "correctedTowardPrediction": false,
       "pending": false
      },
@@ -2055,6 +2145,8 @@ window.BACKTEST_RESULTS = {
       "actual": 9854566.95,
       "hit": false,
       "note": "Affirmed.",
+      "bestGuess": 165066.075,
+      "bestGuessError": -0.983,
       "correctedTowardPrediction": false,
       "pending": false
      },
@@ -2100,6 +2192,8 @@ window.BACKTEST_RESULTS = {
       "actual": 257216,
       "hit": null,
       "note": "Affirmed.",
+      "bestGuess": null,
+      "bestGuessError": null,
       "correctedTowardPrediction": false,
       "pending": false
      },
@@ -2142,6 +2236,8 @@ window.BACKTEST_RESULTS = {
       "actual": 481434.84,
       "hit": true,
       "note": "Affirmed, including after rehearing en banc.",
+      "bestGuess": 569000.0,
+      "bestGuessError": 0.182,
       "correctedTowardPrediction": false,
       "pending": false
      },
@@ -2190,6 +2286,8 @@ window.BACKTEST_RESULTS = {
       "actual": 79096.44,
       "hit": false,
       "note": "$79,096.44 affirmed; the $108,000 Dos Botes award reversed and remanded, so the final total could rise.",
+      "bestGuess": 221998.0,
+      "bestGuessError": 1.807,
       "correctedTowardPrediction": false,
       "pending": false
      },
@@ -2235,6 +2333,8 @@ window.BACKTEST_RESULTS = {
       "actual": null,
       "hit": null,
       "note": "Reversed for a new trial; no final figure yet.",
+      "bestGuess": null,
+      "bestGuessError": null,
       "correctedTowardPrediction": false,
       "pending": false
      },
@@ -2277,6 +2377,8 @@ window.BACKTEST_RESULTS = {
       "actual": 0,
       "hit": true,
       "note": "Reversed: the three-day notice was void, so the landlord takes nothing in this action.",
+      "bestGuess": 33890.325,
+      "bestGuessError": null,
       "correctedTowardPrediction": true,
       "pending": false
      },
@@ -2325,6 +2427,8 @@ window.BACKTEST_RESULTS = {
       "actual": 51392086.96,
       "hit": false,
       "note": "Affirmed.",
+      "bestGuess": 35125268.61625,
+      "bestGuessError": -0.317,
       "correctedTowardPrediction": false,
       "pending": false
      },
@@ -2373,6 +2477,8 @@ window.BACKTEST_RESULTS = {
       "actual": 170484.37,
       "hit": true,
       "note": "Rent damages affirmed; fee award reversed.",
+      "bestGuess": 125430.98115,
+      "bestGuessError": -0.264,
       "correctedTowardPrediction": false,
       "pending": false
      },
@@ -2430,6 +2536,9 @@ window.BACKTEST_RESULTS = {
   "correctedOnAppeal": 1,
   "holdoutHits": 3,
   "holdoutScorable": 4,
+  "finalBestGuessMedianError": -0.262,
+  "finalBestGuessWithin25": 4,
+  "finalBestGuessScorable": 16,
   "medianCaseRatio": 0.768,
   "aggregatePredicted": 76571691,
   "aggregateActual": 113985857,
@@ -2446,6 +2555,8 @@ window.BACKTEST_RESULTS = {
     "actual": 53038.94,
     "hit": true,
     "note": "Reduced on appeal to a 50 percent share.",
+    "bestGuess": 47825.0,
+    "bestGuessError": -0.098,
     "correctedTowardPrediction": false,
     "pending": false
    },
@@ -2494,6 +2605,8 @@ window.BACKTEST_RESULTS = {
     "actual": null,
     "hit": null,
     "note": "Reversed and remanded; no final figure yet.",
+    "bestGuess": 152750.0,
+    "bestGuessError": null,
     "correctedTowardPrediction": false,
     "pending": true
    },
@@ -2542,6 +2655,8 @@ window.BACKTEST_RESULTS = {
     "actual": 444055.13,
     "hit": false,
     "note": "Affirmed.",
+    "bestGuess": -40091.825,
+    "bestGuessError": -1.09,
     "correctedTowardPrediction": false,
     "pending": false
    },
@@ -2590,6 +2705,8 @@ window.BACKTEST_RESULTS = {
     "actual": 276089.72,
     "hit": true,
     "note": "Trial-level decision; no appeal reflected.",
+    "bestGuess": 214267.61699999997,
+    "bestGuessError": -0.224,
     "correctedTowardPrediction": false,
     "pending": false
    },
@@ -2635,6 +2752,8 @@ window.BACKTEST_RESULTS = {
     "actual": 5000,
     "hit": null,
     "note": "Reduced on appeal to the $5,000 security deposit.",
+    "bestGuess": null,
+    "bestGuessError": null,
     "correctedTowardPrediction": false,
     "pending": false
    },
@@ -2677,6 +2796,8 @@ window.BACKTEST_RESULTS = {
     "actual": null,
     "hit": null,
     "note": "Reversed and remanded; no final figure yet.",
+    "bestGuess": 38155.4,
+    "bestGuessError": null,
     "correctedTowardPrediction": false,
     "pending": true
    },
@@ -2725,6 +2846,8 @@ window.BACKTEST_RESULTS = {
     "actual": null,
     "hit": null,
     "note": "Reversed in part and remanded; no final figure yet.",
+    "bestGuess": 151250.0,
+    "bestGuessError": null,
     "correctedTowardPrediction": false,
     "pending": true
    },
@@ -2773,6 +2896,8 @@ window.BACKTEST_RESULTS = {
     "actual": 44000,
     "hit": false,
     "note": "Reversed: only the strip taking is compensable, about $40,500-$47,400 on the record; midpoint used.",
+    "bestGuess": 2177937.5,
+    "bestGuessError": 48.499,
     "correctedTowardPrediction": false,
     "pending": false
    },
@@ -2821,6 +2946,8 @@ window.BACKTEST_RESULTS = {
     "actual": 44000,
     "hit": true,
     "note": "Trial-level report; no appeal reflected.",
+    "bestGuess": 41250.0,
+    "bestGuessError": -0.062,
     "correctedTowardPrediction": false,
     "pending": false
    },
@@ -2869,6 +2996,8 @@ window.BACKTEST_RESULTS = {
     "actual": 120128.72,
     "hit": true,
     "note": "Affirmed.",
+    "bestGuess": 88679.984,
+    "bestGuessError": -0.262,
     "correctedTowardPrediction": false,
     "pending": false
    },
@@ -2917,6 +3046,8 @@ window.BACKTEST_RESULTS = {
     "actual": null,
     "hit": null,
     "note": "Summary judgment reversed and remanded; no final figure yet.",
+    "bestGuess": 185859.2375,
+    "bestGuessError": null,
     "correctedTowardPrediction": false,
     "pending": true
    },
@@ -2965,6 +3096,8 @@ window.BACKTEST_RESULTS = {
     "actual": 94350,
     "hit": true,
     "note": "Affirmed.",
+    "bestGuess": 51998.25,
+    "bestGuessError": -0.449,
     "correctedTowardPrediction": false,
     "pending": false
    },
@@ -3013,6 +3146,8 @@ window.BACKTEST_RESULTS = {
     "actual": 42641740,
     "hit": true,
     "note": "No appeal reflected.",
+    "bestGuess": 26600000.0,
+    "bestGuessError": -0.376,
     "correctedTowardPrediction": false,
     "pending": false
    },
@@ -3061,6 +3196,8 @@ window.BACKTEST_RESULTS = {
     "actual": null,
     "hit": null,
     "note": "Reversed (liquidated-damages clause unenforceable) and remanded; no final figure yet.",
+    "bestGuess": 684300.0,
+    "bestGuessError": null,
     "correctedTowardPrediction": false,
     "pending": true
    },
@@ -3109,6 +3246,8 @@ window.BACKTEST_RESULTS = {
     "actual": 96072.49,
     "hit": true,
     "note": "Damages affirmed; fee denial reversed and remanded.",
+    "bestGuess": 171528.255,
+    "bestGuessError": 0.785,
     "correctedTowardPrediction": false,
     "pending": false
    },
@@ -3157,6 +3296,8 @@ window.BACKTEST_RESULTS = {
     "actual": 51336.45,
     "hit": true,
     "note": "Affirmed; the denial of reletting costs was reversed on cross-appeal and remanded, so the final total could rise.",
+    "bestGuess": 34203.775,
+    "bestGuessError": -0.334,
     "correctedTowardPrediction": false,
     "pending": false
    },
@@ -3205,6 +3346,8 @@ window.BACKTEST_RESULTS = {
     "actual": 424172.72,
     "hit": true,
     "note": "Trial-level post-trial opinion; no appeal reflected.",
+    "bestGuess": 308554.385,
+    "bestGuessError": -0.273,
     "correctedTowardPrediction": false,
     "pending": false
    },
@@ -3253,6 +3396,8 @@ window.BACKTEST_RESULTS = {
     "actual": 9854566.95,
     "hit": false,
     "note": "Affirmed.",
+    "bestGuess": 165066.075,
+    "bestGuessError": -0.983,
     "correctedTowardPrediction": false,
     "pending": false
    },
@@ -3298,6 +3443,8 @@ window.BACKTEST_RESULTS = {
     "actual": 257216,
     "hit": null,
     "note": "Affirmed.",
+    "bestGuess": null,
+    "bestGuessError": null,
     "correctedTowardPrediction": false,
     "pending": false
    },
@@ -3340,6 +3487,8 @@ window.BACKTEST_RESULTS = {
     "actual": 481434.84,
     "hit": true,
     "note": "Affirmed, including after rehearing en banc.",
+    "bestGuess": 569000.0,
+    "bestGuessError": 0.182,
     "correctedTowardPrediction": false,
     "pending": false
    },
@@ -3388,6 +3537,8 @@ window.BACKTEST_RESULTS = {
     "actual": 79096.44,
     "hit": false,
     "note": "$79,096.44 affirmed; the $108,000 Dos Botes award reversed and remanded, so the final total could rise.",
+    "bestGuess": 221998.0,
+    "bestGuessError": 1.807,
     "correctedTowardPrediction": false,
     "pending": false
    },
@@ -3433,6 +3584,8 @@ window.BACKTEST_RESULTS = {
     "actual": null,
     "hit": null,
     "note": "Reversed for a new trial; no final figure yet.",
+    "bestGuess": null,
+    "bestGuessError": null,
     "correctedTowardPrediction": false,
     "pending": false
    },
@@ -3475,6 +3628,8 @@ window.BACKTEST_RESULTS = {
     "actual": 0,
     "hit": true,
     "note": "Reversed: the three-day notice was void, so the landlord takes nothing in this action.",
+    "bestGuess": 33890.325,
+    "bestGuessError": null,
     "correctedTowardPrediction": true,
     "pending": false
    },
@@ -3523,6 +3678,8 @@ window.BACKTEST_RESULTS = {
     "actual": 51392086.96,
     "hit": false,
     "note": "Affirmed.",
+    "bestGuess": 35125268.61625,
+    "bestGuessError": -0.317,
     "correctedTowardPrediction": false,
     "pending": false
    },
@@ -3571,6 +3728,8 @@ window.BACKTEST_RESULTS = {
     "actual": 170484.37,
     "hit": true,
     "note": "Rent damages affirmed; fee award reversed.",
+    "bestGuess": 125430.98115,
+    "bestGuessError": -0.264,
     "correctedTowardPrediction": false,
     "pending": false
    },

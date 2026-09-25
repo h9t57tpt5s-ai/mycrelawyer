@@ -100,7 +100,7 @@ const NARRATIVE_MODEL = "claude-sonnet-5";
 // supported ceiling as the range top, mitigation discount only on
 // evidence, represented party's own claims when valuing a defendant,
 // and opposing claims netted with an enforced negative sign.
-const ANALYSIS_VERSION = "v2";
+const ANALYSIS_VERSION = "v3";
 const EXTRACTION_MODEL = "claude-haiku-4-5";
 
 // Per-million-token pricing, for the cost-estimate logging below only --
@@ -2314,6 +2314,7 @@ async function handle(req: Request): Promise<Response> {
               citedCaseNames: { type: "array", items: { type: "string" }, description: "Exact case name(s) from the reference list below that support this issue -- ONLY names copied exactly from that list, or an empty array if none apply." },
               claimant: { type: "string", enum: ["represented", "opposing"], description: "Whose money this issue is about. 'represented': a claim, counterclaim or affirmative recovery of the side being valued (the filing party), or a defense that protects that side's recovery. 'opposing': a claim, counterclaim or fee/interest exposure that the OTHER side would recover from the represented side. Every issue with a damagesRange must say which." },
               liabilityStatus: { type: "string", enum: ["contested", "conceded", "defaulted", "unknown"], description: "'conceded' when the record shows liability admitted, stipulated, undisputed or established by an order; 'defaulted' when the other side has not answered or responded; 'contested' when it is actually disputed on the record; 'unknown' when the materials do not say." },
+              kind: { type: "string", enum: ["claim", "defense"], description: "'claim': an affirmative claim, counterclaim or setoff that seeks money or property for its claimant. 'defense': a defense, argument or procedural issue that only reduces or defeats the other side's recovery and seeks no money of its own." },
               supportedCeiling: { anyOf: [{ type: "number" }, { type: "null" }], description: "The full dollar amount the record would sustain for this issue if it were won outright -- the stated demand where the record supports it, or the figure computed from the record's own numbers (rent x remaining months, the loan balance, the appraisal). Positive for a 'represented' claim, negative for an 'opposing' one (the most the represented side could have to pay). Null when damagesRange is null. This is NOT probability-weighted; the weighting is done in code." },
             },
             // Structured-output schemas require every property in
@@ -2321,7 +2322,7 @@ async function handle(req: Request): Promise<Response> {
             // semantics) plus additionalProperties:false on every object,
             // same as the top-level schema below -- both were missing
             // here, which the API rejects.
-            required: ["label", "analysis", "probabilityRangePct", "damagesRange", "citedCaseNames", "claimant", "liabilityStatus", "supportedCeiling"],
+            required: ["label", "analysis", "probabilityRangePct", "damagesRange", "citedCaseNames", "claimant", "liabilityStatus", "kind", "supportedCeiling"],
             additionalProperties: false,
           },
         },
@@ -2375,6 +2376,7 @@ async function handle(req: Request): Promise<Response> {
         "SUPPORTED CEILING: for every issue that has a damagesRange, also state supportedCeiling -- the full amount the record would sustain if that issue is won outright: the demand where the record supports it, the balance the note states, the rent stream the lease and remaining term compute to, the appraisal or the higher of competing appraisals where the question is which one a factfinder accepts. The system builds the TOP of the case's range from these ceilings and the BOTTOM from your probability-weighted values, so the range spans from the weighted downside to the supported upside; your bestGuessValue should sit at the probability-weighted expected value between them. Never inflate a ceiling beyond what the record itself supports -- it is a ceiling the record can bear, not a wish. " +
         "MITIGATION AND OFFSETS: apply a mitigation, reletting or offset discount to a landlord's or lender's recovery ONLY where the case materials contain actual evidence of it -- a reletting at a stated rent, a rejected replacement tenant, a sale, a payment, a stated credit. In most jurisdictions the breaching party bears the burden of proving failure to mitigate; where the materials show no such evidence, say so in the issue's analysis and carry the claim at its supported amount rather than assuming a haircut. " +
         "THE REPRESENTED PARTY'S OWN CLAIMS: when the side being valued is a defendant -- a tenant, borrower, guarantor or contractor -- the matter is not only defense. List every affirmative claim, counterclaim and setoff the represented side asserts (constructive eviction, deposit return, unjust enrichment, lien foreclosure, contract damages, moving costs, lost profits) as its own issue with claimant 'represented', its own probability and its own damagesRange, and state in likelyOutcome which side's NET position the numbers describe. A defendant who wins its counterclaim has a positive value; do not report zero because the other side's claim fails. " +
+        "PRICE THE REPRESENTED PARTY'S OWN CLAIMS: if you give a damagesRange to any of the other side's claims, you must also price every affirmative claim of the represented side from the same record -- the rent the lease states, the balance the note states, the contract price, the invoices. A net figure that prices only the other side's claims reads as a loss when the client may be owed money. Leave the represented claim's damagesRange null only when the record contains no figure for it at all; the system will then decline to give a net figure rather than show a one-sided one. Mark each issue's kind: 'claim' if it seeks money or property, 'defense' if it only reduces the other side's recovery. " +
         "SIGN CONVENTION: every issue that is the OTHER side's claim, counterclaim, fee or interest exposure against the represented side is claimant 'opposing' and its damagesRange and supportedCeiling are NEGATIVE numbers (what the represented side may have to pay). The system nets opposing issues against represented ones in code and will flip a positive sign on an 'opposing' issue, so mark the claimant correctly rather than relying on the sign alone. " +
         "REMINDER ON CITATIONS -- every one of the requirements above is about the analysis TEXT, not the structured citedCaseNames field on each issue, and satisfying them is not a substitute for filling that field in. If you name a case from the reference list in an issue's prose (per the GROUNDING REQUIREMENT), that same case name must also appear in that issue's citedCaseNames array -- do not let a case exist only in the prose. Before finalizing each issue, check it against the reference list a second time and list every supporting case by exact name." +
         (settlementBenchmark
@@ -2468,6 +2470,7 @@ async function handle(req: Request): Promise<Response> {
         label: typeof iss.label === "string" ? iss.label : "Issue",
         analysis: typeof iss.analysis === "string" ? iss.analysis : "",
         claimant,
+        kind: iss.kind === "defense" ? "defense" : "claim",
         liabilityStatus,
         probabilityRange,
         damagesRange,
@@ -2513,8 +2516,16 @@ async function handle(req: Request): Promise<Response> {
     //          opposing issues contribute 0 (the upside is that they fail)
     //   expected value (for bestGuessValue) = midpoint of each issue's own
     //          weighted range, summed.
+    // v3 (2026-09-24, Jeff-approved after the v2 re-test): the best guess
+    // is each issue's midpoint probability times the HIGH end of its own
+    // damages range (opposing issues at their midpoint), summed. v2's
+    // weighted midpoint ran 18% low against final outcomes on the 19
+    // training cases; this formula, chosen on those cases alone, ran 6%
+    // low and put 6 of 12 within 25% (v2: 3), and the held-out cases went
+    // from 1 of 4 to 3 of 4 within 25%. Still per-issue and mechanical.
     let mechanicalDamagesRange: [number, number] | null = null;
     let mechanicalExpectedValue: number | null = null;
+    let mechanicalBestGuess: number | null = null;
     for (const iss of issues) {
       if (!iss.damagesRange || !iss.probabilityRange) continue;
       const [pLo, pHi] = iss.probabilityRange;
@@ -2530,14 +2541,31 @@ async function handle(req: Request): Promise<Response> {
         ? [mechanicalDamagesRange[0] + evLow, mechanicalDamagesRange[1] + top]
         : [evLow, top];
       mechanicalExpectedValue = (mechanicalExpectedValue ?? 0) + (evLow + evHigh) / 2;
+      const pMid = (pLo + pHi) / 2;
+      mechanicalBestGuess = (mechanicalBestGuess ?? 0) + (iss.claimant === "opposing" ? pMid * (dLo + dHi) / 2 : pMid * dHi);
     }
+
+    // v3 ONE-SIDED BACKSTOP: when the other side's claims are priced but
+    // none of the represented side's is, and the represented side has an
+    // affirmative claim left unpriced, the net can only read as a loss
+    // even where the client may be owed money (Cumberland: a landlord owed
+    // $444,055 came out at -$52,620). Decline the figure instead and say
+    // what is missing. A defense-only case (no represented claim) still
+    // gets its negative exposure figure.
+    type IssueShape = { label: string; claimant: string; kind: string; damagesRange: [number, number] | null; probabilityRange: [number, number] | null };
+    const pricedRepresented = issues.some((i: IssueShape) => i.claimant === "represented" && i.damagesRange);
+    const pricedOpposing = issues.some((i: IssueShape) => i.claimant === "opposing" && i.damagesRange);
+    const unpricedClaims: IssueShape[] = issues.filter((i: IssueShape) => i.claimant === "represented" && i.kind === "claim" && !i.damagesRange
+      && (!i.probabilityRange || i.probabilityRange[1] > 0.1));
+    const oneSided = !pricedRepresented && pricedOpposing && unpricedClaims.length > 0;
 
     const requestedReliefCeiling = typeof analysisParsed.requestedReliefCeiling === "number"
       ? analysisParsed.requestedReliefCeiling
       : null;
 
-    const rawAiDamagesRange: [number, number] | null =
-      mechanicalDamagesRange ?? rangeToTuple(analysisParsed.damagesRange) ?? (baselineHasComputableValue ? netPosition : null);
+    const rawAiDamagesRange: [number, number] | null = oneSided
+      ? null
+      : mechanicalDamagesRange ?? rangeToTuple(analysisParsed.damagesRange) ?? (baselineHasComputableValue ? netPosition : null);
 
     // REQUESTED-RELIEF CEILING, enforced here as a backstop rather than
     // trusting the prompt instruction alone -- never let either end of
@@ -2558,8 +2586,8 @@ async function handle(req: Request): Promise<Response> {
     // clamp into and nothing honest to report.
     // v2: the best guess is the mechanical expected value when one exists,
     // not the model's separately chosen point.
-    const rawBestGuess = mechanicalExpectedValue !== null
-      ? mechanicalExpectedValue
+    const rawBestGuess = mechanicalBestGuess !== null
+      ? mechanicalBestGuess
       : (typeof analysisParsed.bestGuessValue === "number" ? analysisParsed.bestGuessValue : null);
     const bestGuessValue: number | null = aiDamagesRange === null
       ? null
@@ -2611,7 +2639,9 @@ async function handle(req: Request): Promise<Response> {
         damagesRange: aiDamagesRange,
         bestGuessValue,
         whatIsNeededForEstimate: aiDamagesRange === null
-          ? (typeof analysisParsed.whatIsNeededForEstimate === "string" && analysisParsed.whatIsNeededForEstimate
+          ? oneSided
+            ? `A dollar figure for your side's own claims: ${unpricedClaims.map((i: IssueShape) => i.label).join("; ")}. The other side's claims could be priced from the record but yours could not, so a net figure would show only what you might pay. Add the amounts you are claiming (rent, balance, contract price, invoices) and run it again.`
+            : (typeof analysisParsed.whatIsNeededForEstimate === "string" && analysisParsed.whatIsNeededForEstimate
               ? analysisParsed.whatIsNeededForEstimate
               : "Add specific dollar figures for this dispute -- at minimum, the amounts actually in controversy -- so a damages range can be computed.")
           : null,

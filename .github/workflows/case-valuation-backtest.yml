@@ -18,8 +18,8 @@ on:
         description: "backtest (resolved cases) or registry (dated predictions on pending matters)"
         default: "backtest"
       version:
-        description: "Results directory for backtests: v1 or v2 (must match the deployed analysis version)"
-        default: "v2"
+        description: "Results directory for backtests: v1, v2 or v3 (must match the deployed analysis version)"
+        default: "v3"
 
 permissions:
   contents: write
@@ -31,7 +31,7 @@ concurrency:
 jobs:
   backtest:
     runs-on: ubuntu-latest
-    timeout-minutes: 60
+    timeout-minutes: 180
     steps:
       - uses: actions/checkout@v4
       - name: Pull results committed by earlier runs

@@ -291,12 +291,14 @@
     const VERSION_NOTE = {
       v1: "Version 1: the tool as it stood on Sept 22, 2026 (range = sum of probability-weighted claims).",
       v2: "Version 2, Sept 23, 2026: 95% floor on conceded liability, range top from each claim's supported ceiling, mitigation discounts only on evidence, the represented defendant's own claims valued, opposing claims netted with an enforced sign.",
+      v3: "Version 3, Sept 24, 2026: best guess = each claim's midpoint probability times the top of its own damages range (chosen on the 19 training cases, tested on the 6 held out); the calculator declines a net figure when it can price the other side's claims but none of the client's own.",
     };
     sum.innerHTML = keys.map((k) => {
       const S = versions[k].summary || {};
       return `<div style="grid-column:1 / -1;"><div class="eyebrow" style="margin:${k === keys[0] ? 0 : 20}px 0 8px;">${esc(k)}</div><p class="text-muted" style="font-size:12.5px; margin:0 0 10px;">${esc(VERSION_NOTE[k] || "")}</p></div>` +
         tile(`${S.finalHits ?? 0} of ${S.finalScorable ?? 0}`, `ultimate outcomes, after appeal, inside the calculator's per-claim range${S.correctedOnAppeal ? ` (${S.correctedOnAppeal} became hits when an appellate court corrected the trial result)` : ""}${S.finalPending ? `; ${S.finalPending} more sent back on appeal with no final figure yet` : ""}`) +
         tile(`${S.exFeesHits ?? 0} of ${S.exFeesScorable ?? 0}`, "trial-court awards inside the calculator's per-claim range, before any appeal") +
+        (S.finalBestGuessScorable ? tile(`${S.finalBestGuessWithin25} of ${S.finalBestGuessScorable}`, `best guesses within 25% of the ultimate outcome, fees excluded (median error ${pct(S.finalBestGuessMedianError)})`) : "") +
         tile(`${S.allInHits ?? 0} of ${S.allInScorable ?? 0}`, "whole judgments inside the top-line range") +
         tile(pct(S.medianBestGuessError), "median best-guess error against the whole judgment (positive = too high)") +
         tile(S.aggregateRatio == null ? "—" : Math.round(S.aggregateRatio * 100) + "%", `total predicted as a share of total awarded on the main claims, ex-fees (${fmt(S.aggregatePredicted)} vs ${fmt(S.aggregateActual)})`) +

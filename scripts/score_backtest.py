@@ -11,7 +11,8 @@ import json
 import math
 import re
 
-RESULT_DIRS = {"v1": "case_valuation_project/backtest/results", "v2": "case_valuation_project/backtest/results-v2"}
+RESULT_DIRS = {"v1": "case_valuation_project/backtest/results", "v2": "case_valuation_project/backtest/results-v2",
+               "v3": "case_valuation_project/backtest/results-v3"}
 # Chosen before the v2 revision was written; the revision was never tuned against them.
 HOLDOUTS = {"island-girl-outfitters-v-allied-development-2025", "udot-boggess-draper-2025", "dover-mall-v-tang-2023", "nco-montgomery-park-2025", "edgemere-lawal-2025", "navient-v-bpg-office-partners-2023"}
 OUT = "js/backtest-results-data.js"
@@ -46,6 +47,30 @@ def ex_fee_range(issues):
     return ([math.floor(lo), math.ceil(hi)] if used else None), used
 
 
+def ex_fee_best(issues, version):
+    """Best guess excluding counsel-fee issues, with each version's own
+    formula: v1 p_mid x d_mid; v2 the midpoint of each issue's weighted
+    range; v3 p_mid x d_high for the represented side, p_mid x d_mid for
+    the opposing side."""
+    total, used = 0.0, 0
+    for i in issues:
+        if FEE_LABEL.search(i.get("label") or ""):
+            continue
+        p, d = i.get("probabilityRange"), i.get("damagesRange")
+        if not p or not d:
+            continue
+        used += 1
+        pm, dm = (p[0] + p[1]) / 2, (d[0] + d[1]) / 2
+        opp = i.get("claimant") == "opposing"
+        if version == "v3":
+            total += pm * dm if opp else pm * d[1]
+        elif version == "v2" and i.get("claimant"):
+            total += ((p[1] * d[0] + p[0] * d[1]) if opp else (p[0] * d[0] + p[1] * d[1])) / 2
+        else:
+            total += pm * dm
+    return total if used else None
+
+
 def score(record):
     p = record.get("prediction") or {}
     o = record["outcome"]
@@ -66,6 +91,8 @@ def score(record):
         return None if pred is None or not x else round((pred - x) / x, 3)
 
     final_amount = o.get("finalAmount")
+    version = p.get("analysisVersion") or "v1"
+    best_ex = ex_fee_best(p.get("issues") or [], version) if exf else None
     final_hit = inside(exf, final_amount)
     trial_hit = inside(exf, main_award)
     return {
@@ -73,6 +100,7 @@ def score(record):
         # Primary score: what the case was ultimately worth after appeal.
         # Null when the appellate court sent it back with no figure yet.
         "final": {"predictedRange": exf, "actual": final_amount, "hit": final_hit, "note": o.get("finalNote"),
+                  "bestGuess": best_ex, "bestGuessError": err(best_ex, final_amount),
                   "correctedTowardPrediction": bool(final_hit) and trial_hit is False,
                   "pending": final_amount is None and not declined},
         "caseName": (record.get("source") or {}).get("caseName"),
@@ -115,6 +143,10 @@ def summarize(rows):
         "holdoutHits": sum(1 for r in scored if r["holdout"] and r["final"]["hit"]),
         "holdoutScorable": sum(1 for r in scored if r["holdout"] and r["final"]["hit"] is not None),
     }
+    ferrs = sorted(r["final"]["bestGuessError"] for r in scored if r["final"]["bestGuessError"] is not None)
+    summary["finalBestGuessMedianError"] = ferrs[len(ferrs) // 2] if ferrs else None
+    summary["finalBestGuessWithin25"] = sum(1 for e in ferrs if abs(e) <= 0.25)
+    summary["finalBestGuessScorable"] = len(ferrs)
     errs = sorted(r["allIn"]["bestGuessError"] for r in scored if r["allIn"]["bestGuessError"] is not None)
     if errs:
         summary["medianBestGuessError"] = errs[len(errs) // 2]

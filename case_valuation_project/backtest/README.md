@@ -61,3 +61,12 @@ is public. Results are published, good or bad.
 The calculator's two sides are fixed per category: in lease disputes side A is the landlord and side B the tenant; in lending, side A is the lender and side B the borrower. A case whose `userSide` names the wrong one is valued for the other party. Every case now carries `expectedRole`, and the runner (and the registry script) refuse to record a result whose `roleLabel` differs from it.
 
 Two cases were found run for the wrong side: Shaw (the client is the tenant) and Hurt (the client is the optionee, the tenant side). Their original results are kept in the files with a `void` note and excluded from scoring. Version 2 was re-run with the side corrected; version 1 cannot be re-run because its prompt is no longer deployed.
+
+## Version 3 (2026-09-24)
+
+Approved by Jeff after the version 2 re-test. Two changes:
+
+1. **Best guess.** Each represented issue contributes its midpoint probability times the high end of its own damages range; each opposing issue its midpoint probability times its midpoint damages. Four candidate formulas were compared on the 19 cases that are not held out, scored against the ultimate outcome; this one had the smallest median error. The six held-out cases were looked at only after the choice was made.
+2. **One-sided backstop.** If the other side's claims are priced and none of the client's are, while the client has an unpriced affirmative claim, the calculator declines to give a net figure and names what is missing. Each issue now carries `kind` (claim or defense) so a defense-only case still gets its exposure figure.
+
+Results are in `results-v3/`. The range formula is unchanged from version 2, so range hits should move only through run-to-run variation and the backstop.
