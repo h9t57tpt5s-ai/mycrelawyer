@@ -771,29 +771,6 @@ const RELAW_DATA = {
       docketLabel: "CourtListener docket"
     },
     {
-      id: "live-021",
-      addedDate: "2026-08-14",
-      title: "City of Oakland v. Mosser Companies (First Elevator-Ordinance Enforcement Suit)",
-      category: "landlord-tenant",
-      status: "filed",
-      date: "2026-08-11",
-      jurisdiction: "Alameda County Superior Court, California",
-      parties: [
-        { name: "City of Oakland", role: "Plaintiff" },
-        { name: "The Mosser Companies, Inc.", role: "Defendant" },
-        { name: "184 13th Street Associates, LLC", role: "Defendant (building owner)" }
-      ],
-      judge: null,
-      amountUsd: null,
-      state: "CA",
-      amount: "Rent repayment and injunctive compliance order sought; no specified damages figure",
-      source: "live",
-      sourceUrl: "https://patch.com/california/alameda/east-bay-city-sues-landlord-over-52-day-elevator-outage",
-      summary: "The Oakland City Attorney's Office sued landlord Mosser Companies on August 11, alleging neglect left both elevators at its 98-unit La Peralta building out of service for 52 consecutive days last summer, forcing elderly and disabled tenants to use the stairs or remain confined to their units; the Oakland Fire Department rescued trapped tenants 14 times between 2024 and 2025. It is the first suit brought under Oakland's 2024 ordinance requiring landlords to notify tenants and provide accommodations during extended elevator outages, and separately cites unaddressed pest infestation, fire damage, leaks, and security lapses at the property. A parallel private suit by seven La Peralta tenants over the same conditions is also pending.",
-      significance: "Shows a city government converting a habitability complaint into a direct enforcement action with its own remedies (rent repayment, injunctive compliance) rather than leaving redress solely to tenant litigation, compounding exposure for large multifamily owners since the municipal and private tenant claims can proceed in parallel from the same facts. Owners in Oakland and comparable jurisdictions should treat elevator and life-safety equipment outages as triggering affirmative notice and accommodation obligations distinct from ordinary repair duties, not just a maintenance and capex issue.",
-      tags: ["landlord-tenant", "habitability", "elevator ordinance", "accessibility", "municipal enforcement"]
-    },
-    {
       id: "live-022",
       addedDate: "2026-08-15",
       title: "RealPage, Inc. v. James (First Amendment Challenge to NY Algorithmic Rent-Pricing Law)",
@@ -1100,42 +1077,6 @@ const RELAW_DATA = {
       ]
     },
     {
-      id: "live-030",
-      addedDate: "2026-08-19",
-      title: "Hedley v. City of New York (Pied-à-Terre Tax Notice Due-Process Challenge)",
-      category: "zoning-land-use",
-      status: "appeal",
-      date: "2026-08-13",
-      jurisdiction: "Supreme Court of the State of New York, Appellate Division, Second Department",
-      parties: [
-        { name: "City of New York", role: "Defendant" }
-      ],
-      amountUsd: null,
-      judge: "Phillip Hom",
-      state: "NY",
-      amount: "$500M/year projected tax revenue; ~17,000 owners flagged by notice",
-      source: "live",
-      sourceUrl: "https://www.amny.com/new-york/appeals-court-yes-pied-a-terre/",
-      summary: "Three homeowners sued New York City in Staten Island Supreme Court alleging the Department of Finance implemented the state's new pied-à-terre tax backwards, sending notices to roughly 17,000 owners without first making the residency determination state law requires. Justice Wayne Ozzi granted a TRO on August 10 ordering the city's public property roll taken down and barring enforcement of the notices; the city appealed, and on August 13 Appellate Division Justice Phillip Hom stayed that order, letting the rollout resume while a full panel reviews the case.",
-      significance: "Tests how much process a city must give property owners before flagging them under a new, broadly applicable real estate tax, with a trial court finding a facially valid statute can still be enjoined over defective implementation. Owners of non-primary-residence homes and condos above the tax's $5M/$1M thresholds, and counsel advising them, face renewed enforcement while the underlying suit proceeds, and the case is an early template for challenging the rollout mechanics of similar levies elsewhere.",
-      body: [
-        "New York City's rollout of the state's first pied-à-terre tax, a surcharge on high-value homes and co-ops that are not their owners' primary residence, was thrown into legal limbo for three days this month before an appellate stay put it back on track. The dispute, unfolding in the Supreme Court, Richmond County, and now before the Appellate Division, Second Department, turns on a narrow but consequential administrative-law question: whether the city's Department of Finance followed the sequence the statute requires before mailing tax notices to thousands of property owners. For high-value residential owners, developers, and the tax and real estate counsel who advise them, the case is an early test of how aggressively New York's new luxury-property tax regime can be enforced, and how much process owners are due before the city acts.",
-        "The tax itself, enacted as part of the state budget and signed by Governor Kathy Hochul on May 28, 2026 after passing the legislature the day before, imposes an annual surcharge of 0.8% to 1.3% on one-to-three-family homes valued above $5 million, and 4% to 6.5% on condominium and cooperative units valued above $1 million, where the unit is not occupied as a primary residence by the owner, an immediate family member, or a tenant. It took effect July 1, 2026, is projected to raise roughly $500 million a year for the city, and sunsets on June 30, 2031 absent renewal. To implement it, the Department of Finance published a supplemental property tax roll online in early August covering close to a million residential properties citywide and sent notices to approximately 17,000 owners it had flagged as potentially subject to the surcharge, directing them to submit proof of primary-residence status or face the tax.",
-        "Three homeowners, Simon Hedley, Rachel O'Brien, and Carmine Morano, sued the city in Staten Island, represented by Randy Mastro, the former First Deputy Mayor under Mayor Eric Adams. Their central claim is not that the tax is unconstitutional or improperly enacted, but that the city implemented it backwards. The statute, they argued, requires the Department of Finance to first make its own determination, using information already available to the agency, that a property is not a primary residence, and only then to notify the owner and invite exemption evidence. Instead, the plaintiffs alleged, the city sent blanket notices to a broad swath of owners, including some whose homes indisputably were primary residences, without making that threshold determination first, and published a public roll naming all of them regardless.",
-        "On August 10, Justice Wayne Ozzi of the Supreme Court, Richmond County, agreed, granting a temporary restraining order that directed the city to take the public roll offline and barred the Department of Finance from acting on the outstanding notices until it completed the residency determination the statute requires. Ozzi found the notices themselves inflicted irreparable harm, since recipients were given no explanation of why their property had been selected and were warned that failing to respond would result in the surcharge being imposed by default. In a wrinkle widely noted in local coverage, Ozzi's own home was later reported to appear on the disputed property roll, a detail that has not affected the litigation's course but has fueled commentary about how sweeping the city's initial flagging process was.",
-        "The city appealed immediately, and on August 13, Associate Justice Phillip Hom of the Appellate Division, Second Department, signed an order staying Ozzi's TRO and allowing the Department of Finance to resume the rollout, including republishing the property roll and continuing to process notices, while a full four-justice panel considers the city's appeal. That stay is itself interim relief, not a ruling on the merits of either side's position, and the underlying case is set to be heard back in Staten Island on August 31.",
-        "For owners of high-value non-primary residences, and for the accountants, estate planners, and real estate counsel advising them, the practical exposure has not gone away, since the tax roll is public again, notices are being enforced again, and the exemption-filing clock is running for owners who believe they were flagged in error. Counsel should treat the appellate stay as interim only and get documentation of primary-residence status in promptly rather than wait for the merits ruling, and should watch the August 31 hearing closely since it, not the stay, will determine whether the city's notice-and-roll process needs to be redesigned. More broadly, the case is a reminder that novel real estate tax measures often generate their most immediate litigation exposure not over the underlying policy but over the administrative mechanics of rollout, where a facially valid levy can still be vulnerable to a procedural challenge if the implementing agency skips a step the statute specifies, a pattern any city or state considering a similar tax on a large, ungrouped class of owners would do well to plan around."
-      ],
-      tags: ["pied-a-terre tax", "due process", "property tax", "NYC", "administrative law"],
-      timeline: [
-        { when: "August 10, 2026", label: "Justice Wayne Ozzi grants a TRO barring the Dept. of Finance from acting on notices sent to roughly 17,000 owners" },
-        { when: "August 13, 2026", label: "Appellate Division Justice Phillip Hom stays the TRO, letting the city resume the rollout pending full-panel review", current: true },
-        { when: "August 31, 2026", label: "Case set to be heard in Staten Island Supreme Court", upcoming: true }
-      ],
-      docketUrl: "https://iapps.courts.state.ny.us/nyscef/CaseSearch",
-      docketLabel: "NYSCEF Index No. 85217/2026"
-    },
-    {
       id: "live-031",
       addedDate: "2026-08-20",
       title: "U.S. Bank National Association v. Lenox Drive Office Park LLC (Princeton Pike Corporate Center Foreclosure)",
@@ -1206,43 +1147,6 @@ const RELAW_DATA = {
         { when: "August 18, 2026", label: "Corcoran, Corcoran Sunshine, and Brown Harris Stevens sue over unpaid commissions", current: true }
       ],
       tags: ["broker commission", "condo development", "contract dispute", "recapitalization", "new york"]
-    },
-    {
-      id: "live-033",
-      addedDate: "2026-08-21",
-      title: "In re FREElizabeth Rent Cap Referendum (Landlords' Takings Challenge)",
-      category: "landlord-tenant",
-      status: "appeal",
-      date: "2026-08-05",
-      jurisdiction: "Superior Court of New Jersey, Union County",
-      parties: [
-        { name: "City of Elizabeth", role: "Defendant" }
-      ],
-      amountUsd: null,
-      judge: "John M. Deitch",
-      state: "NJ",
-      amount: "Rent-increase cap of $20/yr or 3%, whichever is less, on Elizabeth's rent-controlled units",
-      source: "live",
-      sourceUrl: "https://jerseyvindicator.org/2026/07/29/elizabeth-voters-will-decide-20-rent-cap-after-judge-rejects-landlords-lawsuit/",
-      summary: "A Union County Superior Court judge dismissed a coalition of 13 Elizabeth, NJ landlords' constitutional challenge to a citizen-initiated ballot measure restoring the city's decades-old $20-or-3% annual rent-increase cap, which the City Council had eliminated (leaving only the 3% cap) in 2023. The landlords appealed and sought a stay to keep the measure off the ballot; the Appellate Division denied the stay on August 5, so the referendum proceeds to a November 3 vote while the appeal remains pending.",
-      significance: "Confirms that a rent-control rollback achieved through a city council vote is not necessarily durable where local law allows citizen initiatives to reverse it, and that New Jersey's 'just and reasonable return' standard — not a categorical bar on tightening rent formulas — governs takings-style challenges to ballot-driven caps. Owners and REITs with regulated multifamily assets in referendum-eligible municipalities should model exposure under both the current and the stricter pre-deregulation rent formula, since courts have shown little willingness to let litigation delay a scheduled vote.",
-      body: [
-        "A citizen-driven effort to restore Elizabeth, New Jersey's longstanding $20 annual rent-increase cap will go to voters on November 3 after a Union County Superior Court judge rejected a takings challenge brought by a coalition of local landlords, and the Appellate Division separately declined to stay the referendum while the landlords' appeal moves forward. The dispute, arising from a citizen petition rather than a private lawsuit against any single owner, tests how far courts will let municipalities and voters go in re-tightening rent regulation after a period of landlord-favorable deregulation, and confirms that even successfully weakened rent controls can be clawed back through the ballot box rather than only through the city council chamber.",
-        "The underlying regulation dates back more than three decades: Elizabeth's rent control ordinance capped annual increases at the lesser of $20 or 3% for covered units. In 2023, the City Council eliminated the $20 cap at landlords' urging, leaving only the 3% ceiling in place, a change owners argued was necessary to keep pace with rising operating costs. Tenant organizers responded by using New Jersey's citizen-initiative process to place a measure back on the ballot restoring the original formula, and after collecting and certifying signatures in mid-2025, a group of 13 Elizabeth landlords sued to keep the question off the ballot altogether, arguing that reinstating the lower cap would restrict their ability to earn a reasonable return so severely that it would amount to an uncompensated taking under the Fifth Amendment and the New Jersey Constitution.",
-        "Judge John M. Deitch rejected that argument on July 27, 2026, ruling that the landlords had failed to show the proposed cap would deprive them of the just and reasonable return New Jersey law requires rent control schemes to preserve. That standard, drawn from New Jersey's own rent-control case law rather than federal takings doctrine alone, asks whether a regulation leaves an owner with a fair return on investment, not whether it caps rent increases at a level owners would prefer. Because the landlords' complaint rested on speculative harm rather than a demonstrated inability to operate profitably under the restored cap, the court found it fell short of stating a viable constitutional claim at the pre-election stage. Fifteen New Jersey-based housing justice organizations, represented by the Rutgers Law School Housing Justice & Tenant Solidarity Clinic and Make the Road New Jersey, appeared as amici in support of letting the referendum proceed.",
-        "The landlords appealed on August 3 and immediately sought a stay to keep the measure off the November ballot while that appeal is litigated. The Appellate Division denied the stay on August 5, meaning Elizabeth voters will decide the referendum's fate on Election Day regardless of how the underlying appeal is eventually resolved. That sequencing matters substantively, not just procedurally: if voters approve the tighter cap in November and the Appellate Division later sides with the landlords, the city could face a contentious rollback of a rent formula tenants have already voted into effect, a scenario carrying its own litigation risk given how retroactively unwinding a voter-approved regulation tends to invite separate challenges from tenant advocates.",
-        "For owners of rent-regulated multifamily property, the case is a reminder that a lawyer representing a distressed or motivated landlord group should treat any legislative deregulation win as provisional wherever a citizen-initiative process exists, since a later ballot measure can restore a tighter cap regardless of the earlier council vote, and that a takings challenge needs concrete, property-specific evidence of lost return rather than general objections to a lower ceiling. New Jersey courts have also shown they will let contested measures reach the ballot while appeals are pending, so owners should not assume filing suit before an election will functionally delay a vote, and should plan compliance timelines around the referendum outcome itself rather than the litigation calendar."
-      ],
-      timeline: [
-        { when: "For over three decades prior to 2023", label: "Elizabeth's rent control ordinance caps annual increases at the lesser of $20 or 3%" },
-        { when: "2023", label: "City Council eliminates the $20 cap, leaving only the 3% ceiling" },
-        { when: "Mid-2025", label: "Citizen petition to restore the $20 cap is certified for the November ballot; landlords sue to block the referendum" },
-        { when: "July 27, 2026", label: "Judge Deitch dismisses the landlords' takings challenge" },
-        { when: "August 3, 2026", label: "Landlords appeal and move for a stay of the referendum" },
-        { when: "August 5, 2026", label: "Appellate Division denies the stay motion", current: true },
-        { when: "November 3, 2026", label: "Referendum goes to Elizabeth voters", upcoming: true }
-      ],
-      tags: ["rent control", "ballot initiative", "takings clause", "referendum", "new jersey"]
     },
     {
       id: "live-034",
@@ -2155,37 +2059,6 @@ const RELAW_DATA = {
       docketLabel: "CourtListener docket"
     },
     {
-      id: "live-059",
-      addedDate: "2026-08-31",
-      title: "City of Detroit v. RealT (RealToken) — Blight & Tenant-Harm Nuisance Abatement Suit",
-      category: "landlord-tenant",
-      status: "filed",
-      date: "2025-07-02",
-      jurisdiction: "3rd Circuit Court, Wayne County, Michigan",
-      parties: [
-        { name: "City of Detroit", role: "Plaintiff" },
-        { name: "Michigan Real Token II LLC", role: "Defendant" }
-      ],
-      judge: "Annette Berry",
-      amountUsd: null,
-      state: "MI",
-      amount: "408 properties named in the suit; RealT has raised approximately $93M in Detroit via fractional ownership",
-      source: "live",
-      sourceUrl: "https://outliermedia.org/realt-lawsuit-detroit-sues-crypto-landlord/",
-      summary: "The City of Detroit, through Corporation Counsel Conrad Mallett, sued cryptocurrency-based real estate company RealT (operating through roughly 165 affiliated 'RealToken' LLCs) and its founders, brothers Remy and Jean-Marc Jacobson, calling it the largest nuisance abatement lawsuit the city has ever filed. The suit names 408 of RealT's 600-plus Detroit properties — all lacking certificates of compliance, more than 100 of them vacant — and seeks personal liability against the Jacobsons for bringing the properties up to code.",
-      significance: "The first major municipal test of a fractional-ownership, tokenized real estate model at scale: RealT sells fractional shares of individual Detroit houses to overseas investors, and the city's suit argues that structure has produced systemic maintenance failure rather than simply an unlucky landlord with a large portfolio. Institutional and retail capital drawn to tokenized/fractional real estate platforms should treat unresolved code violations and blight tickets across a platform's portfolio as a real, non-theoretical enforcement and personal-liability risk to the platform's principals, not just the underlying LLCs.",
-      body: [
-        "Detroit's Corporation Counsel, Conrad Mallett, filed suit against RealT and the Jacobson brothers on July 2, 2025, describing it as the largest nuisance abatement lawsuit the city has ever brought. RealT operates a cryptocurrency-based fractional real estate model, selling tokenized ownership shares of individual Detroit properties primarily to overseas investors through roughly 165 separate LLCs, most using some variation of the RealToken name. The company has raised approximately $93 million from investors buying into its Detroit portfolio, which spans more than 600 properties.",
-        "The city's complaint names 408 of those properties specifically, all lacking a certificate of compliance, with more than 100 sitting vacant, and alleges RealT owes millions in unpaid property taxes and blight tickets across the portfolio. Detroit is seeking a court order requiring RealT to bring every named property up to code, to correct violations at 53 properties the city calls 'unquestionably harmful' within 90 days or allow the city to make the repairs itself at RealT's expense, and to notify tenants of their right to place rent in escrow until repairs are completed. Notably, the suit also seeks to pierce through to the Jacobson brothers personally for the cost of compliance, rather than treating the roughly 165-LLC structure as a liability shield.",
-        "Subsequent city action suggests Detroit is applying a similar enforcement pattern more broadly to distressed, absentee-owned rental portfolios: reporting in August 2026 described the city fining a separate landlord, Munoz Realty, $460,000 over hundreds of poorly maintained rentals, in what local coverage characterized as a potential precedent-setting move. For any platform selling fractional or tokenized ownership in occupied rental property, the RealT suit is a concrete signal that a large, geographically concentrated portfolio with unresolved code violations is treated by municipal counsel as an enforcement target against the platform's operators personally, not merely against the individual title-holding entities."
-      ],
-      timeline: [
-        { when: "July 2, 2025", label: "City of Detroit sues RealT and founders Remy and Jean-Marc Jacobson over 408 non-compliant properties", current: true },
-        { when: "August 2026", label: "Detroit fines a separate landlord, Munoz Realty, $460,000 in a related blight-enforcement pattern" }
-      ],
-      tags: ["nuisance abatement", "tenant harm", "fractional ownership", "blight", "code compliance"]
-    },
-    {
       id: "live-060",
       addedDate: "2026-09-01",
       title: "Markham Contracting Co., Inc. v. Cahava Springs Phase I, Inc. (Unjust Enrichment Claim Against Infrastructure-District Landowners)",
@@ -2552,43 +2425,6 @@ const RELAW_DATA = {
       docketLabel: "CourtListener docket"
     },
     {
-      id: "live-070",
-      addedDate: "2026-09-03",
-      title: "District of Columbia v. Delta 2 Owner LLC (Ward 5 Housing Receivership Suit)",
-      category: "landlord-tenant",
-      status: "filed",
-      date: "2026-09-01",
-      jurisdiction: "Superior Court of the District of Columbia",
-      parties: [
-        { name: "District of Columbia", role: "Plaintiff" },
-        { name: "Delta 2 Owner LLC", role: "Defendant" },
-        { name: "DP Management LLC", role: "Defendant" }
-      ],
-      judge: null,
-      amountUsd: null,
-      state: "DC",
-      amount: "Restitution and civil penalties sought; no fixed dollar figure alleged",
-      source: "live",
-      sourceUrl: "https://oag.dc.gov/release/attorney-general-schwalb-sues-owner-and-manager",
-      summary: "D.C. Attorney General Brian L. Schwalb sued Delta 2 Owner LLC, property manager DP Management LLC (d/b/a Faria Management), and developer Buwa Binitie over conditions at Delta Pearl, a 166-unit affordable apartment building in Ward 5, alleging nearly 200 unresolved housing code violations including dead elevators and no air conditioning since July, rodent and roach infestations, and unrepaired February 2026 fire damage. The suit invokes the District's Consumer Protection Procedures Act and Tenant Receivership Act, seeking emergency repairs, a preliminary injunction, restitution, and civil penalties.",
-      significance: "Shows a regulator pairing a receivership request — which can strip an owner of operational control on short notice — with consumer-protection civil penalty exposure, raising the stakes for affordable-housing owners well above a routine code-enforcement action and signaling that vulnerable tenant populations are drawing faster, more aggressive government intervention.",
-      body: [
-        "District of Columbia Attorney General Brian L. Schwalb filed suit on September 1, 2026 against the owner, manager, and developer of Delta Pearl, a 10-story, 166-unit apartment building at 1400 Florida Avenue NE in Ward 5, alleging that months of unrepaired conditions have left tenants without air conditioning, without functioning elevators, and amid trash, urine, and feces accumulating in common stairwells. The suit, filed in the Superior Court of the District of Columbia, names Delta 2 Owner LLC as the record owner, DP Management LLC — doing business as Faria Management — as the property manager, and developer Buwa Binitie individually as defendants.",
-        "Delta Pearl was originally constructed in 1979 as affordable senior housing and was acquired by Binitie in 2022, who redeveloped the property; roughly 51 percent of its units remain designated as affordable housing for tenants earning below 80 percent of the area median income. City inspectors have documented nearly 200 unresolved housing code violations at the building, including rodent and roach infestations, standing water damage, exposed electrical wiring, inoperable fire-safety equipment, and unrepaired structural damage from a fire that struck the building in February 2026. Air conditioning and elevator service have both been out since the beginning of July, according to the complaint, meaning tenants have gone through the height of summer without either.",
-        "The lawsuit invokes two separate D.C. statutory frameworks: the Consumer Protection Procedures Act, which prohibits unfair and deceptive trade practices in the offering of housing, and the Tenant Receivership Act, which allows a court to strip an owner of control over a building and appoint an independent receiver to manage repairs when conditions pose an ongoing threat to tenant health and safety. The Attorney General's office is seeking an emergency court order compelling immediate repairs to the elevators and cooling systems, a broader preliminary injunction requiring code compliance, restitution for affected tenants, and civil penalties.",
-        "For owners and managers of affordable and rent-restricted housing, the case illustrates a pattern regulators are increasingly willing to escalate quickly: rather than relying solely on administrative code-enforcement citations, the District is combining a receivership request — which can functionally remove an owner from operational control of a property — with a consumer-protection claim carrying its own civil penalty exposure. A receivership motion filed while conditions are actively documented and ongoing gives a court a stronger evidentiary basis to act on an emergency footing, and defendants facing such a motion typically have little practical opportunity to cure the underlying violations before a hearing occurs.",
-        "The case remains at an early stage, with the defendants not yet having filed a public response and no hearing date announced as of this writing. Institutional owners, lenders, and asset managers with affordable-housing components in their portfolios should treat the filing as confirmation that deferred maintenance at a property serving a vulnerable population can convert into fast-moving litigation risk well before it becomes a routine code-enforcement matter. A receivership request can strip day-to-day control of an asset from its owner on relatively short notice once a court finds an ongoing threat to health and safety, documented violation counts and repair timelines are being treated by regulators as evidence of a pattern rather than isolated lapses, and maintaining current, auditable repair logs and vendor payment records for critical building systems — elevators and HVAC chief among them — is now basic risk management rather than a paperwork formality, particularly for any property carrying an affordable-housing designation that draws heightened regulatory scrutiny."
-      ],
-      timeline: [
-        { when: "1979", label: "Delta Pearl is constructed as affordable senior housing" },
-        { when: "2022", label: "Buwa Binitie acquires and redevelops the property" },
-        { when: "February 2026", label: "A fire damages the building; damage goes unrepaired" },
-        { when: "July 2026", label: "Air conditioning and elevator service go out and remain down" },
-        { when: "September 1, 2026", label: "D.C. Attorney General Brian L. Schwalb sues the owner, manager, and developer, seeking emergency repairs and receivership", current: true }
-      ],
-      tags: ["affordable housing", "receivership", "consumer protection", "code violations", "washington dc"]
-    },
-    {
       id: "live-071",
       addedDate: "2026-09-03",
       title: "SitusAMC Foreclosure Suit Over $240M Loan Tied to 181 West Madison (Chicago Loop Office Tower)",
@@ -2734,39 +2570,6 @@ const RELAW_DATA = {
       tags: ["rico", "housing code violations", "receivership", "consumer protection", "washington dc"],
       docketUrl: "https://www.courtlistener.com/docket/73186724/district-of-columbia-v-razjooyan/",
       docketLabel: "CourtListener docket"
-    },
-    {
-      id: "live-075",
-      addedDate: "2026-09-04",
-      title: "Kosel Equity, LLC v. MacGregor (Fair Rent Commission Intervention in Eviction Actions)",
-      category: "landlord-tenant",
-      status: "ruling",
-      date: "2026-06-09",
-      jurisdiction: "Connecticut Supreme Court",
-      parties: [
-        { name: "Kosel Equity, LLC", role: "Plaintiff (Landlord)" },
-        { name: "Middletown Fair Rent Commission", role: "Intervenor" }
-      ],
-      amountUsd: null,
-      state: "CT",
-      amount: "No monetary damages; procedural intervention and injunctive enforcement dispute",
-      source: "live",
-      sourceUrl: "https://www.law360.com/real-estate-authority/residential/articles/2493897/conn-justices-say-local-rent-board-can-enter-eviction-fight",
-      summary: "The Connecticut Supreme Court unanimously held in Kosel Equity, LLC v. MacGregor, decided alongside companion case TOV Realty, LLC v. Suarez, that a municipal fair rent commission may intervene as a party in a pending Superior Court eviction action to enforce its own cease-and-desist order after finding the landlord retaliated against a tenant's fair rent complaint. Justice Ecker authored the opinion, rejecting the landlord's argument that the commission had no cognizable interest in a private eviction proceeding.",
-      significance: "Closes a procedural gap landlords had used to press forward with eviction cases in Superior Court notwithstanding an adverse fair rent commission order, giving commissions statewide a direct vehicle to appear in eviction litigation and enforce retaliation findings rather than relying solely on a separate administrative track.",
-      body: [
-        "The Connecticut Supreme Court has resolved a procedural question that had quietly shaped landlord-tenant litigation strategy across the state for years: whether a municipal fair rent commission, after finding that a landlord retaliated against a tenant, has any standing to step into that landlord's separate eviction case in Superior Court to make sure its own order actually sticks. In a unanimous decision issued June 9, 2026 in Kosel Equity, LLC v. MacGregor, authored by Justice Ecker, the court held that a fair rent commission has a sufficient statutory interest to intervene as a party in a pending summary process action when the commission has already found retaliation and ordered the landlord to cease pursuing eviction. The ruling, decided alongside a companion case, TOV Realty, LLC v. Suarez, closes off a strategy some landlords had used to press forward with eviction proceedings in Superior Court even after a local rent board had ordered them to stop.",
-        "The case traces back to a dispute between landlord Kosel Equity, LLC and tenant Mark MacGregor. The lease set monthly rent at $1,500, but the parties separately agreed, through a concession addendum, that the tenant would pay $1,175 for the lease term. MacGregor filed a complaint with his municipality's fair rent commission, and on May 14, 2025, within six months of that filing, Kosel Equity served him with a notice to quit, citing nonpayment of rent as one basis for eviction and stating that any rent tendered after the notice would not be accepted. Connecticut law, at General Statutes section 47a-20, creates a presumption that an eviction notice served within six months of a tenant's fair rent complaint is retaliatory, and the commission ultimately found that presumption was not rebutted here. It ordered Kosel Equity to cease and desist from pursuing the eviction and to accept the lower, concession-addendum rent amount while the tenant's complaint remained pending.",
-        "The dispute that reached the Supreme Court was not about the merits of the retaliation finding itself, but about what happens next: when a landlord presses forward with a Superior Court eviction case notwithstanding a commission's cease-and-desist order, does the commission have any standing to intervene in that separate court proceeding to enforce its own order, or is it limited to whatever separate administrative appeal process exists? The trial court had permitted the commission to intervene as a party in the summary process action, and Kosel Equity appealed, arguing the commission had no cognizable legal interest in a private eviction case between a landlord and a tenant. The Supreme Court disagreed, holding that a fair rent commission has a clear and direct interest in seeing its own enforcement orders respected, and that permissive intervention was well within the trial court's discretion given that the same landlord, tenant, and premises were the subject of both the pending eviction action and the commission's administrative proceeding.",
-        "For landlords and property managers operating rental portfolios in Connecticut's more than 30 municipalities with active fair rent commissions, the ruling meaningfully changes the practical stakes of proceeding with an eviction after a rent board has issued an adverse order. Before this decision, a landlord in Kosel Equity's position could argue, with some plausibility, that a fair rent commission was a stranger to the separate judicial eviction proceeding and had no direct way to appear and object if the landlord simply pressed ahead in Superior Court. The Supreme Court's ruling forecloses that argument going forward, giving commissions a clear procedural vehicle to appear directly in a pending eviction case, raise the retaliation finding, and ask the court to enforce the commission's own cease-and-desist order rather than requiring the tenant alone to shoulder that burden. The decision is also notable for what it signals about how Connecticut courts intend to treat the interplay between local rent regulation and state eviction procedure more broadly: by deciding this case alongside a companion appeal involving a different landlord and commission, the court made clear it was resolving a general rule of civil procedure rather than a one-off dispute.",
-        "Landlords who receive an adverse fair rent commission ruling, particularly a cease-and-desist order tied to a retaliation finding, should now assume the commission can appear directly in any related Superior Court eviction action rather than being confined to a separate administrative track, and should factor that into whether to proceed with the eviction at all. Property owners and managers should review notice-to-quit timing against the six-month retaliation presumption in Connecticut General Statutes section 47a-20 before serving any notice on a tenant who has a pending or recently resolved fair rent complaint, since that timing alone can trigger a presumption the landlord must then rebut. Portfolio owners operating across multiple Connecticut municipalities should build a coordination protocol between eviction counsel and any pending fair rent proceedings on the same unit, so that a commission order is addressed head-on rather than risking a later intervention motion that reshapes the litigation mid-stream."
-      ],
-      timeline: [
-        { when: "May 14, 2025", label: "Kosel Equity serves a notice to quit within six months of the tenant's fair rent commission complaint" },
-        { when: "June 9, 2026", label: "Connecticut Supreme Court unanimously holds fair rent commissions may intervene in eviction actions", current: true }
-      ],
-      judge: "Steven D. Ecker",
-      tags: ["fair rent commission", "eviction", "retaliation", "landlord-tenant", "connecticut"]
     },
     {
       id: "live-076",
@@ -2995,42 +2798,6 @@ const RELAW_DATA = {
       tags: ["investor fraud", "llc governance", "multifamily", "breach of fiduciary duty", "receivership"]
     },
     {
-      id: "live-082",
-      addedDate: "2026-09-07",
-      title: "Huston v. Willamette Valley Rentals, LLC (Familial-Status Housing Discrimination Summary Judgment)",
-      category: "landlord-tenant",
-      status: "ruling",
-      date: "2026-02-03",
-      jurisdiction: "U.S. District Court, District of Oregon",
-      parties: [
-        { name: "Willamette Valley Rentals, LLC", role: "Defendant" }
-      ],
-      amountUsd: null,
-      judge: "Ann L. Aiken",
-      state: "OR",
-      amount: "Liability established on summary judgment; damages to be determined",
-      source: "live",
-      sourceUrl: "https://law.justia.com/cases/federal/district-courts/oregon/ordce/6:2024cv01725/182493/20/",
-      summary: "U.S. District Judge Ann L. Aiken granted partial summary judgment for Tami and Justin Huston, foster parents of three disabled children, finding property manager Willamette Valley Rentals, LLC liable under the federal Fair Housing Act and Oregon's state fair housing statute for discriminating against the family based on familial status when they sought to rent a house in Salem. The February 3, 2026 order resolves liability as a matter of law; only damages remain to be litigated.",
-      significance: "The ruling is a reminder that fair-housing familial-status protections extend to foster households, not just biological or adopted families, and that once liability is resolved on summary judgment a landlord loses its principal settlement leverage. Property owners, managers, and REITs with residential holdings should treat familial-status screening compliance with the same rigor given to disability and race, since informal or undocumented leasing practices are exactly what supported judgment here without a trial on liability.",
-      body: [
-        "A federal judge in Oregon has ruled that Willamette Valley Rentals, LLC, a Salem-area property management and leasing company, is liable under both the federal Fair Housing Act and Oregon's state fair housing statute for refusing to rent a house to a family of foster parents caring for children with disabilities. The decision, issued February 3, 2026 by U.S. District Judge Ann L. Aiken in Huston et al. v. Willamette Valley Rentals, LLC et al., grants the plaintiffs partial summary judgment: liability on the fair housing claims is now established as a matter of law, with only damages left for further proceedings.",
-        "According to the record before the court, Tami and Justin Huston are registered Oregon foster parents who, along with three biological children, were caring for three foster children with disabilities and employed direct support professionals to assist with their care. In February 2024, Mrs. Huston contacted Willamette Valley Rentals about a house on Hoover Avenue in Salem. The company told her the property was available and that no applications had yet been received. Those representations later drew scrutiny from a fair-housing advocate who suspected the family had been screened out because of the makeup of their household, prompting further inquiry into how the rental was actually being handled. The Hustons sued in October 2024, asserting that the company's conduct amounted to discrimination based on familial status, a protected category under both the federal Fair Housing Act and Oregon's parallel state law, which extends to households that include foster children just as it does to households with biological or adopted children.",
-        "The Fair Housing Act's familial-status protections are frequently misunderstood by landlords who associate discrimination claims primarily with race, national origin, or disability, and who may not realize that refusing an applicant, misrepresenting availability, or applying different screening standards because a household includes minor children, including foster children under a family's care, can independently violate the statute. Judge Aiken's order does not resolve every question in the case; damages remain to be determined, and the litigation will proceed to establish what compensation the Hustons are owed. But the summary judgment ruling itself is significant because it forecloses the company's ability to relitigate the core liability question before a jury: the court has already determined, as a matter of law based on the undisputed record, that the company's conduct violated both statutes.",
-        "That procedural posture matters more than it might first appear. Partial summary judgment on liability, with damages reserved for trial, is a common but underappreciated risk in fair-housing litigation because it removes a defendant's principal bargaining chip in settlement discussions: the argument that liability itself is genuinely disputed. Once liability is off the table, a defendant's exposure is a function of provable damages, emotional distress, and, in appropriate cases, punitive damages and attorneys' fees under fee-shifting provisions common to both federal and state fair housing statutes. For a small or mid-sized property management company, that combination can turn what began as a single contested rental application into a judgment with real financial consequences, quite apart from the reputational cost of an adverse published ruling.",
-        "The case also illustrates the evidentiary role that fair-housing testing organizations and advocates continue to play in enforcement, even in disputes that never involve a government agency as a party. Private litigants who suspect they were screened out because of a protected characteristic often rely on follow-up inquiries, comparative testing, or referrals to fair-housing councils to build the record that later supports a discrimination claim, exactly the kind of documentation that made summary judgment possible here rather than requiring a full trial on liability.",
-        "For commercial and residential property owners and their managers, the file is really about process, not this one house in Salem. Landlords that run rental applications informally, without written screening criteria applied the same way to every applicant and without a documented, verifiable reason for whatever they tell a prospective tenant about availability, create exactly the kind of record that let the Hustons win on summary judgment rather than have to fight it out at trial. Familial status deserves the same day-to-day compliance attention landlords already give disability and race screening, and that attention has to extend specifically to foster and kinship-care households, not just biological or adopted children, with leasing staff trained accordingly. The deeper lesson is about timing and leverage: once a plaintiff can show inconsistent or pretextual statements about a unit's availability, a court can resolve liability well before a jury is ever seated, and once liability is off the table a landlord's own negotiating position collapses to arguing over the size of the damages, fees, and any punitive award still on the table."
-      ],
-      timeline: [
-        { when: "February 26, 2024", label: "Tami Huston contacts Willamette Valley Rentals about a rental house in Salem, Oregon" },
-        { when: "October 11, 2024", label: "The Hustons file suit in the U.S. District Court for the District of Oregon" },
-        { when: "February 3, 2026", label: "Judge Ann L. Aiken grants partial summary judgment for the Hustons on liability", current: true }
-      ],
-      tags: ["fair housing", "familial status", "disability", "landlord discrimination", "oregon"],
-      docketUrl: "https://www.courtlistener.com/docket/69255708/huston-v-willamette-valley-rentals-llc/",
-      docketLabel: "CourtListener docket"
-    },
-    {
       id: "live-083",
       addedDate: "2026-09-07",
       title: "Copper Property CTL Pass Through Trust v. Onyx Partners (Countersuit Over Collapsed $947M JCPenney Portfolio Sale)",
@@ -3193,8 +2960,13 @@ const RELAW_DATA = {
       title: "Alder at Lake Park, LLC v. Town of Lake Park (Affordable Housing Code-Enforcement Extortion Suit)",
       category: "zoning-land-use",
       status: "filed",
-      date: "2026-08-28",
+      date: "2026-08-27",
       jurisdiction: "U.S. District Court, Southern District of Florida",
+      timeline: [
+        { when: "2023 (amended 2024)", label: "Florida's Live Local Act (SB 102, amended by SB 328) requires municipalities to administratively approve qualifying affordable multifamily/mixed-use developments" },
+        { when: "August 27, 2026", label: "The Alder at Lake Park LLC files suit against the Town of Lake Park in the U.S. District Court for the Southern District of Florida", current: true }
+      ],
+      propertyType: "Mixed-Use",
       parties: [
         { name: "The Alder At Lake Park LLC", role: "Plaintiff" },
         { name: "Town of Lake Park", role: "Defendant" }
@@ -3846,39 +3618,6 @@ const RELAW_DATA = {
       ]
     },
     {
-      id: "live-106",
-      addedDate: "2026-09-10",
-      title: "West Virginia Dept. of Environmental Protection v. Bluestone Coal Corp.",
-      category: "environmental",
-      status: "filed",
-      date: "2026-08-07",
-      jurisdiction: "Circuit Court of Kanawha County, West Virginia",
-      parties: [
-        { name: "West Virginia Department of Environmental Protection", role: "Plaintiff" },
-        { name: "Bluestone Coal Corporation", role: "Defendant" }
-      ],
-      judge: null,
-      amountUsd: 2931492.4,
-      amountBasis: "claim",
-      state: "WV",
-      amount: "$2,931,492.40 in unpaid penalties sought",
-      source: "live",
-      sourceUrl: "https://www.legalnewsline.com/west-virginia-record/dep-sues-bluestone-coal-for-3m-in-unpaid-penalties/article_ee3ca625-ea71-4d9d-a64a-b37b11b9f15d.html",
-      summary: "The West Virginia Department of Environmental Protection sued Bluestone Coal Corporation, a coal company owned by the family of U.S. Senator Jim Justice, in Kanawha County Circuit Court on August 7, 2026 (Case No. 26-C-938), seeking to recover $2,931,492.40 in unpaid civil and administrative penalties for surface mining and water pollution violations at multiple mine sites, plus interest, remediation, and an injunction against further violations.",
-      significance: "The latest chapter in a years-long pattern of West Virginia and federal regulators pursuing unpaid mining-law penalties against companies tied to the Justice family, illustrating how accumulated reclamation and water-pollution fines against commercial mining real estate can compound for years -- through federal and state actions alike -- before a regulator escalates to court enforcement. Lenders and counterparties evaluating mining-adjacent commercial real estate should treat unresolved DEP and OSMRE penalty histories as a live balance-sheet liability, not a closed regulatory matter, given how long these obligations can sit unpaid before suit is filed.",
-      body: [
-        "The West Virginia Department of Environmental Protection's Division of Mining and Reclamation filed suit against Bluestone Coal Corporation, a company headquartered in Roanoke, Virginia and owned by the family of U.S. Senator and former West Virginia Governor Jim Justice, in Kanawha County Circuit Court on August 7, 2026. The complaint, docketed as Case No. 26-C-938, alleges Bluestone has accumulated more than $2.9 million in unpaid civil and administrative penalties across multiple surface mining operations and has failed to comply with state compliance orders meant to bring those operations back into line.",
-        "The DEP's complaint breaks the total into two buckets: $1,643,492.40 in penalties under West Virginia's Surface Coal Mining and Reclamation Act, and $1,288,000 under the state's Water Pollution Control Act, for a combined $2,931,492.40 sought before interest -- which the DEP notes will keep accruing, along with the possibility of additional violations, over the course of the litigation. The suit seeks full penalty recovery, remediation of the underlying violations, a permanent injunction against future violations at the affected sites, and pre- and post-judgment interest.",
-        "This is not Bluestone's or the broader Justice family coal enterprise's first brush with unpaid-penalty enforcement: the U.S. Department of Justice sued thirteen Justice-family coal companies in 2023 over roughly $7.6 million in unpaid federal mine-safety penalties, and separate federal tax liens and a roughly $8.29 million judgment in an unrelated indemnity dispute have also piled up against Justice and affiliated entities in recent years. The new DEP suit adds a state-level mining and water-pollution enforcement action to that growing docket of unresolved financial obligations tied to the family's coal holdings.",
-        "For anyone assessing the balance-sheet risk of mining-adjacent commercial real estate, the case is a reminder that reclamation and pollution penalties don't disappear simply because a regulator hasn't yet gone to court to collect them -- they can sit as an escalating, largely invisible liability against the underlying mine property for years, surfacing all at once when a state or federal regulator finally decides enforcement litigation is the only way to collect."
-      ],
-      tags: ["coal mining", "reclamation penalties", "water pollution", "regulatory enforcement", "Jim Justice"],
-      timeline: [
-        { when: "2020-2025", label: "Bluestone accumulates civil and administrative penalties across multiple surface mining operations without paying or curing violations" },
-        { when: "August 7, 2026", label: "WV DEP sues Bluestone Coal Corp. in Kanawha County Circuit Court seeking $2.93M+ in penalties", current: true }
-      ]
-    },
-    {
       id: "live-107",
       addedDate: "2026-09-10",
       title: "Hembree Insurance Trust v. Maples Industries, Inc. (Scottsboro Industrial Lease Dispute)",
@@ -4121,50 +3860,6 @@ const RELAW_DATA = {
         { when: "2025", label: "A Harrison County circuit court cites the ruling as controlling to reject a similar challenge to a competing developer's pier lease" }
       ],
       tags: ["tidelands", "casino resort", "public-private pier", "biloxi", "land-use authority"]
-    },
-    {
-      id: "live-113",
-      addedDate: "2026-09-10",
-      title: "Cedarland Homes LLC v. Ferguson (COVID Eviction Moratorium Physical-Takings Claim Dismissed)",
-      category: "eminent-domain",
-      status: "appeal",
-      date: "2026-08-05",
-      jurisdiction: "U.S. District Court, Western District of Washington",
-      parties: [
-        { name: "Cedarland Homes LLC", role: "Plaintiff" },
-        { name: "State of Washington", role: "Defendant" },
-        { name: "City of Seattle", role: "Defendant" },
-        { name: "City of Spokane", role: "Defendant" },
-        { name: "City of Kirkland", role: "Defendant" },
-        { name: "City of Burien", role: "Defendant" },
-        { name: "City of Everett", role: "Defendant" },
-        { name: "City of Bellevue", role: "Defendant" },
-        { name: "City of Olympia", role: "Defendant" },
-        { name: "City of Kenmore", role: "Defendant" }
-      ],
-      amountUsd: null,
-      judge: "Barbara J. Rothstein",
-      state: "WA",
-      amount: "Uncapped takings claim after state relief program capped compensation at $15,000 per unit",
-      source: "live",
-      sourceUrl: "https://www.hfore.com/washington-owners-lose-case-on-eviction-moratorium-8-10-26/",
-      summary: "A federal judge in Seattle dismissed a proposed class action by fifteen Washington landlords, led by Cedarland Homes LLC, that sought compensation from Governor Bob Ferguson, the state, and eight cities under a Fifth Amendment physical-takings theory over COVID-era eviction moratoria that ran from March 2020 to October 2022. U.S. District Judge Barbara J. Rothstein held that eviction moratoria regulate an existing landlord-tenant relationship rather than grant a new right of physical occupation, distinguishing the case from the Supreme Court's Cedar Point Nursery v. Hassid physical-takings precedent. The plaintiffs, backed by the Rental Housing Association of Washington, have filed a notice of appeal to the Ninth Circuit.",
-      significance: "The ruling is one of the most fully litigated rejections yet of efforts to extend Cedar Point Nursery's physical-takings framework from third-party access regulations into ordinary landlord-tenant regulation, reinforcing that eviction moratoria and similar emergency tenant protections are generally reviewed under the more deferential Penn Central balancing test rather than treated as per se takings. CRE owners with residential exposure, landlord associations, and REITs operating in jurisdictions with rent-freeze or eviction-moratorium regimes should watch the Ninth Circuit appeal closely before relying on a physical-takings theory to challenge similar measures.",
-      body: [
-        "More than five years after Washington State and a string of its cities imposed some of the nation's longest-running COVID-19 eviction moratoria, a federal judge in Seattle has closed the door, for now, on a landlord class action seeking compensation for the losses those moratoria caused. Judge Barbara J. Rothstein dismissed Cedarland Homes LLC v. Ferguson on August 5, 2026, rejecting the theory that the eviction bans amounted to a physical taking of private property under the Fifth Amendment. The ruling is one of the most fully litigated tests yet of whether the Supreme Court's 2021 decision in Cedar Point Nursery v. Hassid, which found that a regulation forcing landowners to admit outside parties onto their property can be a per se physical taking, extends to landlord-tenant regulation generally.",
-        "Cedarland Homes and fourteen other named plaintiffs, represented by Davis Wright Tremaine and lead counsel John DiLorenzo, filed the proposed class action on December 18, 2025 in Thurston County Superior Court before it was removed to the U.S. District Court for the Western District of Washington. The suit named Governor Bob Ferguson, the State of Washington, and eight cities and counties that layered their own local moratoria on top of the state's ban, which ran from March 2020 to October 2022. The plaintiffs argued that the moratoria forced them to house nonpaying tenants while remaining responsible for property taxes, mortgage payments, insurance, and maintenance. Washington's own landlord mitigation program capped reimbursement at $15,000 per unit, an amount the plaintiffs said fell far short of their actual losses.",
-        "Judge Rothstein's opinion turned on how far Cedar Point Nursery actually reaches. That case involved a California regulation granting union organizers a right of physical access to agricultural land, a straightforward physical invasion authorized by regulation. Rothstein held that an eviction moratorium is different: it does not grant a third party a new right to enter or occupy property, but instead restricts a landlord's remedies against a tenant already lawfully in possession under an existing lease. Citing Ninth Circuit precedent and prior Washington state court decisions rejecting physical-takings challenges to pandemic-era landlord-tenant rules, she concluded that moratoria of this kind are properly analyzed as economic regulation under the Penn Central balancing test rather than as a per se taking requiring automatic compensation.",
-        "The decision represents a notable pushback against a litigation strategy that plaintiffs' lawyers nationwide have pursued since Cedar Point Nursery was decided, seeking to stretch its physical-takings framework to reach rent control, short-term rental restrictions, and eviction bans alike. Rothstein's opinion, grounded in the distinction between granting new access rights and merely regulating an existing landlord-tenant relationship, is likely to be cited by other courts confronting similar claims. The litigation is not over, however: the Rental Housing Association of Washington, which backed the suit, has filed a notice of appeal to the Ninth Circuit and has signaled it will seek Supreme Court review if the appeal fails, leaving the ultimate reach of Cedar Point Nursery in the landlord-tenant context an open question for at least another cycle of appellate review.",
-        "For commercial and residential property owners, the case is a reminder that a facial physical-takings theory faces a steep climb once a court concludes the underlying measure merely regulates an existing legal relationship rather than authorizing new occupation. Owners with pandemic-era losses tied to eviction moratoria, and any jurisdiction still relying on emergency rent-freeze or eviction-ban authority, should expect that a state's mitigation fund and its adequacy will matter far more to their prospects on appeal than a broad physical-takings label, and should be building the factual record on actual, documented losses now rather than waiting for the Ninth Circuit's ruling to decide how much that record will matter."
-      ],
-      timeline: [
-        { when: "December 18, 2025", label: "Cedarland Homes and fourteen co-plaintiffs file suit in Thurston County Superior Court" },
-        { when: "August 5, 2026", label: "Judge Rothstein dismisses the class action, rejecting the physical-takings theory", current: true },
-        { when: "August 2026", label: "Rental Housing Association of Washington files notice of appeal to the Ninth Circuit", upcoming: true }
-      ],
-      tags: ["takings clause", "eviction moratorium", "landlord-tenant", "ninth circuit", "washington"],
-      docketUrl: "https://www.courtlistener.com/docket/72214882/cedarland-homes-llc-v-ferguson/",
-      docketLabel: "CourtListener docket"
     },
     {
       id: "live-114",
@@ -4501,40 +4196,6 @@ const RELAW_DATA = {
       docketLabel: "Tex. App.—Houston [14th Dist.] No. 14-23-00976-CV"
     },
     {
-      id: "live-123",
-      addedDate: "2026-09-10",
-      title: "City of Dallas v. Mid-America Apartment Communities, Inc. (MAA Meridian Fair Housing Suit)",
-      category: "landlord-tenant",
-      status: "filed",
-      date: "2026-03-18",
-      jurisdiction: "Dallas County District Court, Texas",
-      parties: [
-        { name: "City of Dallas", role: "Plaintiff" },
-        { name: "Mid-America Apartments", role: "Defendant" }
-      ],
-      judge: null,
-      amountUsd: null,
-      state: "TX",
-      amount: "N/A — city seeks injunctive relief and civil penalties under the Dallas Fair Housing Ordinance",
-      source: "live",
-      sourceUrl: "https://hoodline.com/2026/04/dallas-targets-landlords-affordable-housing-nonprofit-in-bias-suit-blitz/",
-      summary: "The City of Dallas sued NYSE-listed multifamily REIT Mid-America Apartment Communities, Inc. under the Dallas Fair Housing Ordinance over its Uptown property, MAA Meridian, alleging the property denied a tenant's request for an emotional-support-animal accommodation and instead required a $500 pet deposit and $20 monthly pet rent before it would consider approving the animal. The suit is one of three the city filed within about a month against Dallas-area landlords -- also naming Zahir Properties Inc. (Courthouse Apartments) and the Texas Workforce Housing Foundation -- over alleged fair-housing violations and unresolved maintenance conditions.",
-      significance: "Extends the municipal code-enforcement playbook seen in cities like Oakland (against Mosser Companies over elevator-ordinance compliance) to fair-housing accommodation practices at large, publicly traded multifamily operators, not just smaller independent landlords. Any multifamily owner or manager operating in a jurisdiction with a local fair-housing ordinance should audit how leasing staff handle assistance- and support-animal accommodation requests, since pet fees or deposits conditioned on approving a disability accommodation are a recurring theme across the city's recent enforcement actions.",
-      body: [
-        "The City of Dallas filed suit against Mid-America Apartment Communities, Inc. (MAA), a large, NYSE-listed multifamily REIT, over conditions at its Uptown Dallas property, MAA Meridian. According to the city's complaint, tenant Taylor Monroe submitted a request in mid-2024 for a reasonable accommodation to keep an emotional-support dog, supported by a clinical assessment and a letter from a mental-health provider. The city alleges MAA Meridian required Monroe to pay a $500 pet deposit and $20 in monthly pet rent as a condition of approving the accommodation, and that property managers separately balked at the request because the therapist who completed the supporting paperwork was affiliated with a specific assistance-animal certification service.",
-        "The MAA suit, filed March 18, 2026, was one of three fair-housing enforcement actions the City of Dallas brought against area landlords within roughly a month. A second, filed April 7, 2026, targeted Zahir Properties Inc., which operates Courthouse Apartments in Old East Dallas, over a tenant's allegedly wrongful non-renewal and withheld deposit. A third, filed earlier in June 2025 and still pending, named the Texas Workforce Housing Foundation and related entities over conditions the city says pose immediate health and safety hazards across roughly 1,136 units.",
-        "Across the three suits, city attorneys describe a common pattern: denied reasonable-accommodation requests paired with unresolved maintenance failures, including a malfunctioning refrigerator, a damaged and unsecured front door, and a ceiling defect that let water into a unit during rain at one of the named properties. The city is proceeding under the Dallas Fair Housing Ordinance (Chapter 20A of the Dallas City Code), which allows the city itself -- rather than only an aggrieved tenant -- to bring a civil enforcement action.",
-        "For institutional owners and managers of multifamily assets, the MAA suit is notable less for its size than for its target: this is not a small independent landlord but one of the largest publicly traded apartment REITs in the country, being sued directly by a municipality over how a single leasing office handled one disability-accommodation request. Owners operating in cities with local fair-housing ordinances with their own civil-enforcement teeth should treat this as a reminder that accommodation requests need to be documented and resolved without conditioning approval on fees the Fair Housing Act and comparable local ordinances generally prohibit for service and support animals."
-      ],
-      timeline: [
-        { when: "June 2024", label: "Tenant Taylor Monroe requests an emotional-support-animal accommodation at MAA Meridian" },
-        { when: "June 2025", label: "The City of Dallas sues the Texas Workforce Housing Foundation and related entities over conditions at other properties" },
-        { when: "March 18, 2026", label: "The City of Dallas sues Mid-America Apartment Communities, Inc. over the denied accommodation at MAA Meridian", current: true },
-        { when: "April 7, 2026", label: "The City of Dallas sues Zahir Properties Inc. over conditions at Courthouse Apartments" }
-      ],
-      tags: ["fair housing", "reasonable accommodation", "assistance animal", "multifamily REIT", "municipal code enforcement", "Mid-America Apartment Communities", "Texas"]
-    },
-    {
       id: "live-124",
       addedDate: "2026-09-10",
       title: "California Department of Toxic Substances Control v. Lyon (Modesto Groundwater Contamination Superfund Site)",
@@ -4672,43 +4333,6 @@ const RELAW_DATA = {
         { when: "July 21, 2026", label: "ACDA sues Hughes Family LLC and Anchorage Innovation District LLC in Alaska Superior Court, seeking a court-ordered sale of all five lots", current: true }
       ],
       tags: ["partition action", "redevelopment authority", "co-ownership dispute", "downtown revitalization", "Alaska"]
-    },
-    {
-      id: "live-128",
-      addedDate: "2026-09-11",
-      title: "Hern v. Alexandria Real Estate Equities, Inc. (Life-Science REIT Impairment-Disclosure Securities Suit Dismissed)",
-      category: "reit-securities",
-      status: "ruling",
-      date: "2026-09-11",
-      jurisdiction: "U.S. District Court, Central District of California",
-      parties: [
-        { name: "Alexandria Real Estate Equities, Inc.", role: "Defendant" }
-      ],
-      amountUsd: null,
-      state: "CA",
-      amount: "$2.2B in disputed property impairments; ~19% single-day stock decline",
-      source: "live",
-      sourceUrl: "https://www.law360.com/real-estate-authority/commercial/articles/2524252",
-      summary: "U.S. District Judge George H. Wu dismissed a proposed securities class action against Alexandria Real Estate Equities, Inc., finding investors failed to adequately allege that the life-science REIT's executives knowingly misled the market about property impairments before an October 27, 2025 guidance cut that included a $323.9M impairment charge and warnings of up to $685M more to come. Alexandria's stock fell roughly 19% in one day on the disclosure; the court held the complaint did not meet the Private Securities Litigation Reform Act's heightened pleading standard for scienter.",
-      significance: "Gives REITs facing securities suits tied to sector-wide impairment waves, particularly in oversupplied life-science and office space, a concrete precedent that a large stock drop following disappointing guidance is not by itself enough to plead fraudulent intent. Boards and IR teams overseeing portfolios exposed to similar demand shocks should ensure internal valuation and leasing materials stay consistent with public messaging well before any guidance cut becomes necessary.",
-      body: [
-        "A federal judge in the Central District of California has dismissed a proposed securities class action against Alexandria Real Estate Equities, Inc., the NYSE-listed life-science and lab-space REIT, rejecting investor claims that the company's executives misled the market about the scale of property impairments building inside its portfolio before a sharp October 2025 stock decline. The case, captioned Hern v. Alexandria Real Estate Equities, Inc., et al., was assigned to U.S. District Judge George H. Wu, who found that the complaint did not adequately allege that Alexandria or its officers acted with the intent to deceive required to sustain a claim under Section 10(b) of the Securities Exchange Act of 1934. For REIT boards and executives navigating a commercial real estate downturn marked by recurring impairment charges, the ruling is a reminder that a large stock drop tied to disappointing guidance is not, by itself, enough to get a securities fraud claim past the pleading stage.",
-        "The lawsuit, filed on behalf of investors who bought or otherwise acquired Alexandria shares between January 27, 2025 and October 27, 2025, centered on the company's third-quarter 2025 earnings release. Alexandria disclosed results that fell well short of what it had projected earlier in the year, cutting its full-year funds-from-operations guidance and citing lower occupancy and slower leasing activity across its life-science and lab-space portfolio. The company also recorded a real estate impairment charge of $323.9 million for the quarter, with roughly $206 million of that tied to a single asset in Long Island City, New York, and warned investors it could recognize an additional $0 to $685 million in impairments in the fourth quarter. Alexandria's stock fell from a closing price of $77.87 on October 27 to $62.94 the next day, a one-day decline of approximately 19 percent that wiped out a significant share of the company's market value and prompted a wave of plaintiffs' firm investigations within days.",
-        "Lead plaintiff Warren Hern's complaint alleged that Alexandria and certain of its senior executives had, throughout the roughly nine-month class period, repeatedly touted solid leasing volume, occupancy stability, and a healthy tenant pipeline even as internal signs pointed toward the much larger wave of impairments, described in briefing as totaling approximately $2.2 billion once the disclosed and anticipated charges were considered together, that ultimately materialized. The theory was a familiar one in post-pandemic office and lab-space securities litigation: that a landlord's public statements about portfolio health diverged materially from what management knew, or should have known, about softening demand and declining asset values in a sector working through excess supply.",
-        "In granting the motion to dismiss, the court concluded that the complaint fell short of the Private Securities Litigation Reform Act's demanding pleading standard, which requires plaintiffs to plead specific facts giving rise to a strong inference that a defendant acted with scienter, not simply that its later, more negative disclosures beat its earlier public optimism. Life-science real estate has been especially exposed to a slower-than-expected recovery in biotech venture funding and a resulting glut of speculative lab space delivered during the post-COVID building boom, conditions that have pressured occupancy and valuations across Alexandria's peer set as well as its own portfolio. Courts evaluating securities claims arising from that broader downturn have generally required plaintiffs to show something more concrete than hindsight, such as internal reports or admissions that contradicted public statements at the time they were made, rather than treating a subsequent guidance cut as proof that earlier optimism was knowingly false.",
-        "The dismissal is a meaningful, if not necessarily final, win for Alexandria, which remains one of the largest owners of life-science lab space in markets including Boston-Cambridge, San Francisco, and San Diego. The company continues to face separate securities suits and shareholder demand letters tied to the same impairment disclosures, and plaintiffs in dismissed federal securities cases are frequently granted leave to amend and refile a more detailed complaint rather than seeing their claims extinguished outright.",
-        "For REIT general counsel and investor relations teams, the practical lesson is that hedged, forward-looking language about leasing and occupancy trends, paired with contemporaneous risk disclosures about sector-wide headwinds, remains meaningfully more defensible than statements that read, in hindsight, as flatly inconsistent with what turned out to be true. Boards overseeing portfolios exposed to sector-specific demand shocks, whether life-science lab space or traditional office, should expect that a large impairment charge and accompanying stock decline will draw securities litigation as a matter of course, and should keep internal materials, including board minutes, leasing forecasts, and asset-level valuation memos, consistent with public messaging well before any guidance cut becomes necessary. And because dismissals under the PSLRA's heightened pleading standard are frequently granted with leave to amend, companies that clear this initial hurdle should not assume the litigation is over, and should continue preserving records relevant to the disclosures at issue while any amended complaint remains possible."
-      ],
-      timeline: [
-        { when: "January 27, 2025", label: "Start of the securities class period" },
-        { when: "October 27, 2025", label: "Alexandria discloses Q3 2025 results, cuts FFO guidance, and reports a $323.9M impairment charge" },
-        { when: "November 25, 2025", label: "Warren Hern files the securities class action in the Central District of California" },
-        { when: "September 11, 2026", label: "Judge George H. Wu grants the motion to dismiss, finding scienter inadequately pled", current: true }
-      ],
-      judge: "George H. Wu",
-      tags: ["reit", "securities fraud", "life science", "lab space", "impairment", "california"],
-      docketUrl: "https://www.courtlistener.com/docket/71959712/warren-hern-v-alexandria-real-estate-equities-inc/",
-      docketLabel: "CourtListener docket"
     },
     {
       id: "live-129",
@@ -4972,8 +4596,6 @@ const RELAW_DATA = {
         { when: "September 1, 2026", label: "Soros Fund Management takes title to the building at a $158.7M foreclosure auction", current: true }
       ],
       tags: ["foreclosure", "office", "distressed debt", "new york", "tenant takeover"],
-      docketUrl: "https://iapps.courts.state.ny.us/nyscef/CaseSearch",
-      docketLabel: "NYSCEF Index No. 850134/2024"
     },
     {
       id: "live-136",
@@ -5159,102 +4781,6 @@ const RELAW_DATA = {
       judge: "Francis A. Kahn III",
       docketUrl: "https://iapps.courts.state.ny.us/nyscef/CaseSearch",
       docketLabel: "NYSCEF Index No. 850386/2025"
-    },
-    {
-      id: "live-141",
-      addedDate: "2026-09-15",
-      title: "AmeriTrust Mortgage Corp. v. Lerner et al. (Baltimore DSCR Flip-and-Finance Fraud RICO Suit)",
-      category: "lending-foreclosure",
-      status: "filed",
-      date: "2026-09-09",
-      jurisdiction: "U.S. District Court for the District of Maryland",
-      parties: [
-        { name: "Ameritrust Mortgage Corporation", role: "Plaintiff (Lender)" },
-        { name: "FirstLoans Inc.", role: "Defendant (Mortgage broker)" },
-        { name: "Rextar Title Services, LLC", role: "Defendant" },
-        { name: "Fidelity National Title Insurance Company", role: "Defendant" },
-        { name: "SLDL Properties LLC", role: "Defendant" },
-        { name: "Zahav Ventures, LLC", role: "Defendant" },
-        { name: "Zahav Plus Ventures", role: "Defendant" },
-        { name: "1258 Glyndon LLC", role: "Defendant" },
-        { name: "Levy Ventures, LLC", role: "Defendant" },
-        { name: "Cancun Bernal, LLC", role: "Defendant" },
-        { name: "Dukeland Rose, LLC", role: "Defendant" },
-        { name: "Grace Popland, LLC", role: "Defendant" },
-        { name: "Popland Street Properties, LLC", role: "Defendant" },
-        { name: "Sunray MGMT LLC", role: "Defendant" },
-        { name: "Cardinal MGMT LLC", role: "Defendant" },
-        { name: "Orleans Street, LLC", role: "Defendant" },
-        { name: "Fairhaven Avenue Properties, LLC", role: "Defendant" },
-        { name: "Fayette Noble, LLC", role: "Defendant" },
-        { name: "Stanford Powell, LLC", role: "Defendant" },
-        { name: "EGBE Ventures, LLC", role: "Defendant" },
-        { name: "Gelt Ventures, LLC", role: "Defendant" },
-        { name: "Kesef Ventures, LLC", role: "Defendant" },
-        { name: "Maple & Green LLC", role: "Defendant" },
-        { name: "Glover Collins, LLC", role: "Defendant" },
-        { name: "Kenyon Winchester LLC", role: "Defendant" },
-        { name: "1613 Spruce Street, LLC", role: "Defendant" }
-      ],
-      judge: "Ellen Lipton Hollander",
-      amountUsd: 14000000,
-      amountBasis: "damages sought",
-      state: "MD",
-      amount: "$14.1M in alleged lender losses across ~90 loans",
-      source: "live",
-      sourceUrl: "https://thedailyrecord.com/2026/09/10/ameritrust-14-million-losses-baltimore-housing-fraud/",
-      summary: "Non-bank lender AmeriTrust Mortgage Corporation sued a network of New York and Maryland investors, a mortgage broker, two appraisers, and title-closing entities on September 9, 2026, alleging a coordinated scheme in which shell LLCs bought distressed Baltimore-area properties for roughly $40,000-$50,000 and flipped them within months, without material improvement, at prices approaching $200,000 to justify inflated DSCR loans. AmeriTrust says the roughly 90-loan scheme caused it more than $14 million in losses and has filed a related companion suit against the originating brokerage.",
-      significance: "Illustrates how DSCR and other asset-based investor loan products concentrate fraud risk at the appraisal and title-closing stage, since underwriting relies on a freshly established sale price rather than borrower income or occupancy history. Lenders originating investor loans at volume should treat this as a signal to scrutinize repeat appraisers, brokers, and closing agents appearing across clusters of rapid resale transactions.",
-      body: [
-        "A non-bank mortgage lender has filed a sweeping federal racketeering suit accusing a web of New York and Maryland real estate investors, a mortgage broker, two property appraisers, and title-closing entities of running a years-long scheme to strip more than $14 million out of loans made against distressed Baltimore-area investment properties. In a complaint filed September 9, 2026 in the U.S. District Court for the District of Maryland, AmeriTrust Mortgage Corporation, Case No. 1:26-cv-03572, alleges that Pikesville resident Shraga Chaim Lerner and New York residents Benjamin Eidlisz and Eluzer Gold used a rotating cast of single-purpose LLCs to buy cheap Baltimore properties, flip them at inflated prices with no real improvements, and then use those inflated sale prices to justify oversized loans the borrowing entities had no intention of repaying. AmeriTrust filed a related companion suit the same week, Ameritrust Mortgage Corp. v. FirstLoans Inc. et al., No. 1:26-cv-03574, naming the brokerage that originated many of the loans.",
-        "According to the complaint, the scheme followed a consistent pattern across roughly 90 to 91 separate transactions dating back to 2024. LLCs controlled by Lerner or Eidlisz would acquire distressed Baltimore-area properties for roughly $40,000 to $50,000 each, often with no material renovation performed afterward. Within months, those same properties would be sold to other shell entities controlled by Gold at prices AmeriTrust says approached $200,000, a markup of roughly 300% to 400% unsupported by any change in the properties' physical condition. AmeriTrust alleges that mortgage broker Aaron Spielman, principal of New York-based FirstLoans Inc., originated the DSCR loans used to finance those inflated purchase prices, while Maryland-licensed appraisers Jason Taylor and Christopher Actie produced valuations AmeriTrust contends were inflated to support the fabricated sale prices rather than the properties' actual market value. Title and closing services were handled through Fidelity National Title Insurance Co. and REXTAR Title Services, both also named as defendants.",
-        "The complaint pleads breach of contract, common-law fraud, civil conspiracy to defraud, and negligent misrepresentation, and, notably for a real estate finance dispute, a claim under the federal civil Racketeer Influenced and Corrupt Organizations Act. Pleading civil RICO in a mortgage-fraud case is a deliberate escalation: it requires AmeriTrust to allege a pattern of racketeering activity carried out through an enterprise, but it also opens the door to treble damages and attorney's fees if the claim survives and succeeds, a materially higher recovery ceiling than the underlying fraud and contract claims alone would offer. DSCR loans, underwritten primarily against a rental property's projected income rather than the borrower's personal financial profile, have become a mainstay of the non-QM lending market precisely because they let investors scale portfolios quickly with comparatively light documentation, a feature that, as alleged here, also made the scheme harder to catch in real time.",
-        "For CRE and residential-investment lenders alike, the case is a reminder that DSCR and other asset-based investor loan products concentrate fraud risk at the appraisal and title-closing stage in a way traditional owner-occupied underwriting does not, because there is no borrower income or occupancy history to cross-check against the numbers a broker and appraiser supply. The involvement of a national title insurer as a named defendant also signals that lenders are increasingly looking to closing-side gatekeepers, not just borrowers and brokers, to help absorb losses when a flip-and-finance scheme unravels, since title and settlement agents sit at the one checkpoint through which every transaction in a serial scheme like this one must pass.",
-        "The upshot for lenders originating investor and DSCR loans at volume is to treat repeat appraisers, brokers, or title agents appearing across a cluster of rapid resale transactions as an underwriting red flag warranting independent valuation review, particularly where a property resells within months at several multiples of its prior purchase price. Loan documents and broker agreements should carry robust indemnification and repurchase provisions reaching appraisers and settlement agents, not just borrowers, so a lender has contractual recourse beyond an insolvent shell-LLC borrower when a scheme surfaces, and title insurers should reassess the diligence they apply when repeat clients funnel a high volume of same-market flip transactions through the same closing office. The parallel RICO and common-law claims here also show that lenders with strong evidence of coordinated conduct across many loans have a real incentive to plead racketeering alongside contract and fraud theories, given the treble-damages exposure it creates for defendants found liable."
-      ],
-      tags: ["mortgage fraud", "dscr loans", "rico", "title insurance", "maryland"],
-      timeline: [
-        { when: "2024", label: "Alleged flip-and-finance scheme begins across Baltimore-area investment properties" },
-        { when: "September 9, 2026", label: "AmeriTrust files RICO and fraud complaint in U.S. District Court for the District of Maryland", current: true }
-      ],
-      docketUrl: "https://www.courtlistener.com/docket/74767372/ameritrust-mortgage-corporation-v-firstloans-inc/",
-      docketLabel: "CourtListener docket"
-    },
-    {
-      id: "live-142",
-      addedDate: "2026-09-15",
-      title: "Housing Rights Initiative v. Blackstone (8 Spruce Street Rent-Stabilization Overcharge Class Action)",
-      category: "landlord-tenant",
-      status: "filed",
-      date: "2026-09-10",
-      jurisdiction: "Supreme Court of the State of New York, New York County",
-      parties: [
-        { name: "BREIT Operating Partnership", role: "Defendant" },
-        { name: "Beam Living", role: "Defendant" },
-        { name: "8 Spruce", role: "Defendant" }
-      ],
-      judge: null,
-      amountUsd: 30000000,
-      amountBasis: "claim",
-      state: "NY",
-      amount: "$30M+ in alleged aggregate overcharges",
-      source: "live",
-      sourceUrl: "https://www.amny.com/law/blackstone-overcharge-rent-stabilized-tenants/",
-      summary: "Tenant watchdog Housing Rights Initiative filed a class action against Blackstone-affiliated entities BREIT Operating Partnership, 8 Spruce, and Beam Living, alleging the landlord of the 898-unit, 421-a-stabilized 8 Spruce Street tower calculated lease-renewal increases off an inflated advertised rent rather than the lower net rent tenants actually paid after concessions. The suit claims the practice produced renewal increases exceeding 50% in some units and more than $30 million in aggregate overcharges affecting up to 3,500 current and former tenants since September 2020.",
-      significance: "Tests a concession-driven leasing practice — advertising a high 'legal' rent, offering upfront concessions, then calculating renewal increases off the unconcessioned figure — that is common across New York's tax-abated, rent-stabilized rental stock, not unique to this building. A ruling crediting the theory would put every 421-a or J-51 landlord using similar concession structures on notice that their renewal math may not withstand scrutiny.",
-      body: [
-        "A tenant watchdog group has filed a class action accusing Blackstone-affiliated landlord entities of systematically overcharging rent-stabilized tenants at 8 Spruce Street, the 898-unit Frank Gehry-designed tower in Lower Manhattan, by more than $30 million. Housing Rights Initiative filed the suit in New York state court on behalf of current and former tenants who have lived in the building since September 2020, naming Blackstone alongside the entities it uses to hold and operate the property, BREIT Operating Partnership, an entity styled 8 Spruce, and property manager Beam Living. The claims arise under New York City's Rent Stabilization Law and the 421-a tax abatement program, and the case is a pointed test of a leasing practice, offering steep upfront concessions off a high advertised rent and then calculating renewal increases against that higher unconcessioned figure, that plaintiffs' counsel argue is spreading across the city's tax-abated, rent-stabilized housing stock.",
-        "Blackstone purchased 8 Spruce Street in 2022 for $930 million and, in exchange for enrolling the building in the 421-a program, agreed to rent-stabilize every apartment in the tower, a deal that has generated the ownership more than $115 million in tax credits since the agreement took effect. The complaint alleges that once tenants were locked into rent-stabilized leases, the landlord entities routinely advertised units at an inflated legal rent, offered new tenants several months of free rent or other concessions that brought the effective net rent well below that advertised figure, and then calculated lease-renewal increases off the higher, unconcessioned number rather than the lower rent tenants had actually been paying. The suit contends that practice let the landlord bank rent increases the Rent Stabilization Law does not permit, producing renewal jumps the complaint says exceeded 50% year-over-year in some units, across a pattern the complaint pegs at more than $30 million in aggregate overcharges affecting as many as 3,500 current and former tenants.",
-        "The legal theory tracks a recurring fault line in New York rent-stabilization litigation: the Rent Stabilization Code caps how much a legal regulated rent can increase at renewal, but it calculates that cap off the legal rent on file, not necessarily the discounted rent a tenant actually paid under a concession package. Tenant advocates have argued for years that landlords can exploit that gap by structuring concessions so the paper legal rent stays artificially high even while tenants pay much less in practice, only for that gap to reappear as a lawful-looking increase once the concession disappears at renewal. Because 8 Spruce Street's stabilization obligations flow specifically from its 421-a enrollment, the case also puts a spotlight on how tax-abatement compliance is monitored, since the suit is, in substance, an allegation that a landlord took the tax benefit of stabilizing a building while using concession mechanics to erode the practical value of that stabilization to tenants.",
-        "For institutional owners of large tax-abated rental portfolios, the case matters regardless of how the 8 Spruce Street facts shake out, because concession-driven leasing is now standard practice across much of the Manhattan and outer-borough rental market, not a quirk unique to this building. A landlord that offers free-rent concessions to fill units quickly, then reverts to the full advertised rent at renewal, is following an economically ordinary leasing strategy; the legal question the case raises is whether doing so inside a rent-stabilized, tax-abated building crosses from ordinary leasing practice into an overcharge under the Rent Stabilization Code. A ruling crediting the plaintiffs' theory would not stay confined to 8 Spruce Street, and would put every 421-a or J-51-stabilized landlord using similar concession structures on notice that renewal math built off an unconcessioned legal rent may not withstand scrutiny.",
-        "Owners and managers of rent-stabilized buildings enrolled in 421-a, J-51, or similar tax-incentive programs should treat the case as a prompt to audit how renewal increases are calculated relative to any concessions offered at initial lease-up, since a gap between the advertised legal rent and the rent a tenant actually paid is precisely the fact pattern this suit targets, and portfolio owners using standardized concession packages across multiple stabilized properties should have counsel model worst-case overcharge exposure now rather than after a similar suit lands on their own buildings, given the multi-year lookback and per-unit damages that rent-overcharge class actions typically generate. Property managers should also revisit lease-renewal notice templates and internal rent-calculation methodologies to confirm they are anchored to the rent actually collected rather than merely the rent listed on the initial lease, since that distinction is likely to be the central factual battleground as the case proceeds through discovery."
-      ],
-      tags: ["rent stabilization", "421-a", "class action", "overcharge", "new york"],
-      timeline: [
-        { when: "September 2020", label: "Class period begins for tenants covered by the suit" },
-        { when: "2022", label: "Blackstone acquires 8 Spruce Street for $930M and enrolls the building in 421-a" },
-        { when: "September 10, 2026", label: "Housing Rights Initiative files class action in New York state court", current: true }
-      ]
     },
     {
       id: "live-143",
@@ -5618,51 +5144,6 @@ const RELAW_DATA = {
       tags: ["zoning", "subdivision", "arkansas", "airport", "permit denial"]
     },
     {
-      id: "live-153",
-      addedDate: "2026-09-18",
-      title: "Darby Development Co., Inc. v. United States (COVID Eviction-Moratorium Takings Settlement Talks)",
-      category: "eminent-domain",
-      status: "pending",
-      date: "2026-09-10",
-      jurisdiction: "U.S. Court of Federal Claims",
-      parties: [
-        { name: "Darby Development Company, Inc.", role: "Plaintiff" },
-        { name: "United States", role: "Defendant" },
-        { name: "Investors Management Trust Real Estate Group", role: "Plaintiff (claimant landlord)" },
-        { name: "American Landmark", role: "Plaintiff (claimant landlord)" },
-        { name: "Prosperity Capital Partners", role: "Plaintiff (claimant landlord)" },
-        { name: "Commerce Capital Group", role: "Plaintiff (claimant landlord)" },
-        { name: "Gateway Management", role: "Plaintiff (claimant landlord)" }
-      ],
-      amountUsd: 26000000000,
-      amountBasis: "damages sought",
-      judge: "Armando O. Bonilla",
-      amount: "2,633 claimant landlords; settlement discussions reportedly centered near $1B, against an original ~$26B ask",
-      source: "live",
-      sourceUrl: "https://therealdeal.com/national/2026/09/10/more-landlords-seek-damages-from-eviction-moratorium/",
-      summary: "More than 2,600 residential landlords, led by Darby Development Company, Inc., are now party to a Fifth Amendment takings claim against the United States over the CDC's 2020-2021 nationwide COVID eviction moratorium, pending before Judge Armando O. Bonilla in the U.S. Court of Federal Claims. Following a 2024 Federal Circuit reversal establishing that the moratorium could support a takings theory, the case has moved to active settlement negotiations with the Department of Justice, with one attorney suggesting a resolution near $1 billion.",
-      significance: "Shows that a Fifth Amendment takings claim against the federal government can succeed even where the underlying emergency public-health order was later held unlawful, giving property owners a real litigation path to compensation for losses caused by future blanket regulatory measures, not just a political remedy. Owners with comparable pandemic-era losses who are not already part of the certified plaintiff group would not automatically share in any eventual settlement.",
-      body: [
-        "A five-year-old lawsuit over the federal government's COVID-19 eviction moratorium is entering its endgame, and the numbers involved have grown substantially along the way. In Darby Development Company, Inc. v. United States, No. 1:21-cv-01621, pending before Judge Armando O. Bonilla in the U.S. Court of Federal Claims, more than 2,600 owners of residential rental property, up roughly 75% since the spring of 2026, have now joined a takings claim against the United States over losses tied to the Centers for Disease Control and Prevention's 2020-2021 nationwide eviction ban. According to a fourth amended complaint filed in late August 2026, the plaintiff group now numbers 2,633 claimants, and the Department of Justice and plaintiffs' counsel are actively negotiating what one lawyer involved has suggested could be a settlement in the range of $1 billion.",
-        "The case traces back to September 2020, when the CDC invoked its public-health authority to bar residential evictions nationwide, an order that, with periodic renewals, remained largely in effect until the Supreme Court found the agency had exceeded its statutory authority. Darby Development and a group of other rental-property owners sued the United States in the Court of Federal Claims, arguing that the moratorium amounted to a physical taking of their property, since it forced them to continue housing non-paying tenants without the ability to regain possession, while leaving them responsible for mortgage payments, property taxes, insurance, and maintenance throughout. Because a Takings Clause claim for money damages against the federal government runs to the Court of Federal Claims rather than a district court, that tribunal was the only forum available to press it.",
-        "The government's central defense was almost paradoxical: because the CDC's moratorium was later held unlawful and outside the agency's statutory authority, the government argued it could not simultaneously be an authorized government action capable of supporting a takings claim. The Court of Federal Claims agreed and dismissed the case in 2022. On August 7, 2024, however, the U.S. Court of Appeals for the Federal Circuit reversed in an opinion by Judge Sharon Prost, joined by Judge Kara Stoll, holding that the CDC order was taken pursuant to color of federal authority sufficient to support a takings theory even though it was later found unlawful, and that the plaintiffs had adequately alleged a physical taking. The government sought rehearing en banc, which the Federal Circuit denied on June 6, 2025, and separately sought additional time from the Supreme Court to pursue further review. The litigation nonetheless proceeded on remand at the Court of Federal Claims, where the case has now moved from liability to the scale of compensation.",
-        "That shift in posture is what has driven both the ballooning plaintiff count and the active settlement talks. With liability established as a matter of Federal Circuit precedent within the case, the practical battle has become one of valuation: what actual, documented losses more than 2,600 individual property owners sustained during the moratorium period, and how the government should calculate just compensation across a claimant pool that large. Plaintiffs' filings have pointed to eviction-moratorium-driven losses across the broader affected landlord population running into the tens of billions of dollars nationally, with the original ask in this litigation reported at roughly $26 billion; more recent settlement discussion has reportedly centered on a far smaller, though still substantial, figure in the neighborhood of $1 billion for the certified claimant group. No settlement has been finalized, and Judge Bonilla continues to oversee periodic status reports on the negotiations.",
-        "For commercial and residential property owners assessing exposure to future emergency regulatory measures, Darby is a rare, real-world example of a takings claim against the federal government actually working its way toward compensation, and a useful data point on timeline: years of litigation preceded any prospect of recovery here. The case is also a pointed reminder that being part of the certified plaintiff group matters, since a favorable liability ruling for named plaintiffs does not automatically extend to similarly situated owners who never joined the case, and that documented, owner-specific loss records, unpaid rent, carrying costs, and maintenance, are central to how any eventual compensation gets calculated, making that documentation worth preserving now by anyone who sustained comparable losses during the moratorium period."
-      ],
-      timeline: [
-        { when: "September 2020", label: "CDC issues nationwide COVID-19 eviction moratorium" },
-        { when: "2021", label: "Darby Development and other landlords file suit in the U.S. Court of Federal Claims" },
-        { when: "2022", label: "Court of Federal Claims dismisses the case" },
-        { when: "August 7, 2024", label: "Federal Circuit reverses, holding the moratorium can support a takings claim" },
-        { when: "June 6, 2025", label: "Federal Circuit denies rehearing en banc" },
-        { when: "Late August 2026", label: "Fourth amended complaint filed; claimant count reaches 2,633" },
-        { when: "September 10, 2026", label: "Reporting confirms active DOJ settlement talks, with one estimate near $1B", current: true }
-      ],
-      tags: ["takings clause", "eviction moratorium", "court of federal claims", "landlord-tenant", "settlement"],
-      docketUrl: "https://www.courtlistener.com/docket/60090159/darby-development-company-inc-v-united-states/",
-      docketLabel: "CourtListener docket"
-    },
-    {
       id: "live-154",
       addedDate: "2026-09-18",
       title: "Herb Simon v. Simon Family (SFG Company Dissolution & Equity-Stripping Suit)",
@@ -5734,43 +5215,6 @@ const RELAW_DATA = {
         { when: "September 16, 2026", label: "MLP Ventures files a new suit seeking reversal of the denial, preliminary approval, and appointment of an independent referee", current: true }
       ],
       tags: ["zoning", "data center", "pennsylvania", "land use appeal", "municipal law"]
-    },
-    {
-      id: "live-156",
-      addedDate: "2026-09-19",
-      title: "Crown Heights Tenants v. Rikud Realty (Sheriff's Execution Sale Ousts Chronically Noncompliant Dukler-Family Landlord)",
-      category: "landlord-tenant",
-      status: "settled",
-      date: "2026-09-04",
-      jurisdiction: "New York City Sheriff's Office execution sale; NYC Housing Court, Kings County",
-      parties: [
-        { name: "Rikud Realty", role: "Judgment Debtor" }
-      ],
-      judge: null,
-      amountUsd: 2200000,
-      amountBasis: "judgment",
-      state: "NY",
-      amount: "~$7.6M total consideration at sale; underlying $2.2M 2017 tort judgment",
-      source: "live",
-      sourceUrl: "https://www.nyc.gov/mayors-office/news/2026/09/mamdani-administration-celebrates-transfer-of-three-crown-height",
-      summary: "Three chronically distressed, rent-stabilized Crown Heights buildings owned by Rikud Realty, an entity tied to the Dukler family, changed hands on September 4, 2026 after a New York City Sheriff's execution sale on a nine-year-old $2.2M lead-poisoning tort judgment against Rikud. A judgment-creditor investor won the auction by credit bid but declined ownership; real estate investor Mark Schwartz and his firm Brooklyn Affordable Housing Associates then acquired the three buildings, totaling 88 units and nearly 1,000 open code violations, for roughly $7.6M.",
-      significance: "Demonstrates that an unsatisfied premises-liability or tort judgment against a landlord entity remains a live, enforceable lien years later, and that a judgment creditor's execution sale can force an ownership change that years of housing-code litigation and HPD enforcement failed to achieve. Owners should treat old, unpaid judgments against ownership entities as an ongoing control risk rather than a closed matter.",
-      body: [
-        "Three rent-stabilized walk-ups on Eastern Parkway and Sterling Place in Crown Heights, Brooklyn changed hands on September 4, 2026, ending nearly a decade of tenant organizing against a landlord family that has repeatedly ranked among New York City's worst. The transfer is legally notable less for the outcome than for the mechanism: it was accomplished not through a housing-court eviction of the owner or a negotiated sale, but through a New York City Sheriff's execution sale on a nine-year-old tort judgment, illustrating an underused route for tenants and municipalities confronting entrenched landlords who are prepared to absorb violations and fines indefinitely rather than sell voluntarily.",
-        "The three buildings, 1018 Eastern Parkway, 1074 Eastern Parkway, and 1392 Sterling Place, totaling 88 units, were owned by Rikud Realty, an entity affiliated with, and half-owned by, Sara Dukler of the Dukler family, which has appeared for years on the city's worst-landlords lists. By the time of the sale, the three properties had accumulated nearly 1,000 open Department of Housing Preservation and Development violations against those 88 units, including roughly 400 classified as immediately hazardous, covering lead paint, rodent and roach infestation, and chronic leaks. The buildings sat in HPD's Alternative Enforcement Program, reserved for the city's most distressed housing stock, and HPD brought Rikud into housing court in 2020 to compel repairs after two earlier tenant lawsuits, filed in February 2019 and January 2020, cited 561 open violations and roughly $2 million in alleged illegal rent overcharges, respectively.",
-        "None of that housing-court activity produced the ownership change tenants had spent years seeking. What did was a separate, older piece of litigation entirely unconnected to the conditions fight: a 2017 judgment of approximately $2.2 million entered against Rikud in a lead-poisoning case brought by a tenant injured by the buildings' own deteriorated paint. That judgment sat largely dormant for years before an investor connected to Iris Holdings Group, the property's management company, acquired the creditor's rights to it. This September, the judgment holder used it to force a sheriff's sale of the three properties, a judgment-execution auction run by the city Sheriff's Office rather than a foreclosure or bankruptcy proceeding. The judgment creditor won the auction with a credit bid, effectively purchasing the properties by canceling debt rather than paying cash, but then declined to take on ownership and operation of severely distressed, rent-stabilized housing.",
-        "Real estate investor Mark Schwartz, who also serves as mayor of Teaneck, New Jersey, and his firm Brooklyn Affordable Housing Associates stepped into that gap, paying roughly $7.6 million in total consideration to take the buildings instead. The resolution tenants and the city are now pursuing runs through a nonprofit ownership structure: the buildings will be held by a housing development fund corporation, a vehicle commonly used in New York to convert distressed rental housing into resident-controlled cooperatives. HPD has indicated it expects to provide roughly $10 million in rehabilitation financing, subject to a financial needs assessment, and the Dukler Tenant Union, formed in 2025 after tenants began organizing in 2018 and later staged a rent strike, has reached a separate agreement with Schwartz committing to tenant-overseen rehabilitation and an eventual path to limited-equity cooperative ownership.",
-        "For landlords and asset managers, the case is a pointed reminder that a personal-injury or premises-liability judgment entered against a property-owning entity does not simply disappear if left unpaid; it remains a live, transferable lien that a patient or opportunistic creditor can enforce years later through an execution sale, potentially forcing a change of control the owner never negotiated. For tenant advocates, municipal housing agencies, and community land trusts, the episode shows that judgment liens tied to a building's own history of neglect can, in the right circumstances, become a more effective lever for displacing a chronically noncompliant owner than repair-focused housing-court proceedings alone, and that buyers stepping into such a sale should budget for both the acquisition price and substantial near-term capital obligations, since these properties typically carry deferred maintenance well beyond what a conventional purchase would reflect."
-      ],
-      timeline: [
-        { when: "2017", label: "A tenant wins a $2.2M lead-poisoning judgment against Rikud Realty" },
-        { when: "February 2019", label: "18 tenants sue citing 561 open housing code violations across the three buildings" },
-        { when: "January 2020", label: "22 tenants file a separate suit alleging $2M in illegal rent overcharges" },
-        { when: "2020", label: "HPD brings Rikud into housing court to compel emergency repairs" },
-        { when: "2025", label: "Tenants formally establish the Dukler Tenant Union after years of organizing and a rent strike" },
-        { when: "September 4, 2026", label: "The city Sheriff auctions the three buildings on the 2017 judgment; Mark Schwartz's Brooklyn Affordable Housing Associates acquires them for ~$7.6M", current: true }
-      ],
-      tags: ["landlord-tenant", "housing code violations", "execution sale", "new york", "tenant organizing"]
     },
     {
       id: "live-157",
@@ -6149,40 +5593,6 @@ const RELAW_DATA = {
       propertyType: "Data Center",
       judge: "Cotton Walker",
       tags: ["data center", "missouri", "sunshine law", "standing", "amazon"]
-    },
-    {
-      id: "live-167",
-      addedDate: "2026-09-21",
-      title: "The Alder at Lake Park LLC v. Town of Lake Park (Developer Accuses Town Attorney of Extortion Over Affordable Housing Project)",
-      category: "zoning-land-use",
-      status: "filed",
-      date: "2026-08-27",
-      jurisdiction: "U.S. District Court for the Southern District of Florida",
-      judge: null,
-      amountUsd: null,
-      state: "FL",
-      amount: "Not primarily a monetary claim; developer alleges a code-enforcement campaign that threatened millions of dollars in remediation costs and seeks declaratory and injunctive relief along with damages over an alleged regulatory taking and coercion-based claims",
-      source: "live",
-      sourceUrl: "https://therealdeal.com/miami/2026/09/08/developer-sues-lake-park-alleging-corruption/",
-      summary: "The Alder at Lake Park LLC, tied to developer Daniel Goldstein, sued the Town of Lake Park, Florida in federal court on August 27, 2026, alleging the town's outside counsel directed a campaign of code-enforcement citations and coercion to force the company to abandon or sell a planned mixed-use affordable housing project. The complaint alleges the town used code enforcement and historic-preservation review as a workaround to Florida's Live Local Act, which otherwise requires administrative approval of qualifying affordable housing developments without discretionary rezoning.",
-      significance: "Tests the limits of Florida's Live Local Act preemption regime by alleging a municipality substituted code-enforcement pressure for the discretionary zoning leverage the statute removed, a pattern other Florida developers pursuing Live Local Act projects should watch closely. The extortion and regulatory-taking theories, if they survive early motions, would give developers a meaningful federal-court remedy against municipalities that resist qualifying projects through indirect means.",
-      body: [
-        "The Alder at Lake Park LLC, an entity tied to developer Daniel Goldstein of Bofsa Properties, filed a federal complaint on August 27, 2026 in the U.S. District Court for the Southern District of Florida against the Town of Lake Park, accusing the town's outside attorney of directing a campaign of code-enforcement pressure and coercion aimed at forcing the company to abandon or sell a planned affordable housing development. The suit is a striking example of a growing category of commercial real estate dispute in Florida: friction between municipalities and developers over projects that, under the state's Live Local Act, are supposed to be largely insulated from the kind of discretionary local resistance the complaint describes.",
-        "Goldstein's company controls a seven-parcel assemblage at Park Avenue and 10th Street in Lake Park, where it plans The Kelsey at Park Avenue, a mixed-use affordable housing project anchored in part by the historic building at 918 Park Avenue. According to the complaint, town officials initially told Alder they would approve the tower if the company purchased the historic building, and the company did so, only for the town to change its requirements afterward. The complaint goes further, alleging that Town Attorney Tom Baird, of the firm Jones Foster, told Alder's representatives that the company's problems would go away if it sold the properties to a developer Baird had already lined up, and that Baird directed a code enforcement officer to issue 34 separate code violations against Alder's properties. The complaint characterizes this as an effort to use the code-enforcement process, and the threat of millions of dollars in potential remediation costs, to blackmail and coerce Alder into surrendering the assemblage.",
-        "The suit also frames the town's conduct as a broader workaround of Florida's Live Local Act, the 2023 law, Senate Bill 102, amended by Senate Bill 328 in 2024, that requires municipalities to administratively approve qualifying multifamily and mixed-use affordable housing developments in commercial and mixed-use zones without subjecting them to discretionary rezoning votes. By relying instead on code enforcement citations and historic-preservation review, the complaint alleges, Lake Park effectively achieved the same discretionary veto power over the project that the Live Local Act was designed to take away from municipalities. The complaint separately alleges the town's protracted review process amounts to an unfair, uncompensated taking of the assemblage. Baird has denied the allegations attributed to him, telling reporters they are not true and describing the suit as retaliation against town officials for performing ordinary code-compliance oversight ahead of public hearings.",
-        "The case lands amid a wider pattern of friction as Florida municipalities adjust, often reluctantly, to the Live Local Act's preemption of local zoning discretion over qualifying affordable and workforce housing projects. Because the Act strips municipalities of much of their traditional case-by-case leverage over rezoning and site plan approval for these projects, towns resistant to a particular development have an incentive to look for other levers, code enforcement, historic-preservation designations, permitting delays, that fall outside the Act's administrative-approval mandate but can still function as a practical veto. Alder's complaint is one of the more aggressively framed examples of a developer asking a federal court to treat that kind of substitute leverage as actionable misconduct rather than ordinary municipal discretion.",
-        "For developers pursuing Live Local Act projects, and for the municipalities reviewing them, the case is a pointed illustration of where that statute's limits are being tested in practice. A developer that believes a municipality is using code enforcement or historic-preservation review as a substitute for the discretionary zoning authority the Live Local Act removed should document the sequence and timing of citations and requirement changes carefully, since that timeline, as pled here, is central to showing pretext rather than good-faith code administration. Municipal officials and their outside counsel, for their part, should be especially cautious about any communication that could be read as conditioning favorable treatment of a pending application on a developer's willingness to sell to a third party, since that kind of statement is exactly the evidence a coercion or extortion-based claim needs to get past early motions. More broadly, as Florida's affordable-housing preemption regime matures, disputes like this one are likely to become a recurring feature of the landscape, and both developers and municipalities should expect code-enforcement and historic-preservation decisions touching a Live Local Act project to receive closer judicial scrutiny for pretext than such decisions might otherwise draw."
-      ],
-      timeline: [
-        { when: "2023 (amended 2024)", label: "Florida's Live Local Act (SB 102, amended by SB 328) requires municipalities to administratively approve qualifying affordable multifamily/mixed-use developments" },
-        { when: "August 27, 2026", label: "The Alder at Lake Park LLC files suit against the Town of Lake Park in the U.S. District Court for the Southern District of Florida", current: true }
-      ],
-      parties: [
-        { name: "The Alder at Lake Park LLC", role: "Plaintiff" },
-        { name: "Town of Lake Park, Florida", role: "Defendant" }
-      ],
-      propertyType: "Mixed-Use",
-      tags: ["zoning", "florida", "live local act", "affordable housing", "regulatory taking"]
     },
     {
       id: "live-168",
@@ -6968,14 +6378,6 @@ const RELAW_DATA = {
      Federal Judicial Center's Biographical Directory. */
   judges: [
     {
-      name: "Linda R. Cordaro",
-      slug: "linda-r-cordaro",
-      title: "Judge",
-      court: "Court of Common Pleas, Fayette County, Pennsylvania",
-      background: "Elected to the Fayette County Court of Common Pleas bench in November 2013, with a current term extending to December 31, 2033. Previously a principal in private practice handling business, real estate, and civil litigation matters, and served as an assistant district attorney for Fayette County, including as the county's child abuse prosecutor from 2005 to 2013.",
-      bioUrl: "https://www.fayettecountypa.org/directory.aspx?EID=151"
-    },
-    {
       name: "Melissa R. DuBose",
       slug: "melissa-r-dubose",
       title: "U.S. District Judge",
@@ -7046,14 +6448,6 @@ const RELAW_DATA = {
       court: "Supreme Court of the State of New York, New York County",
       background: "Elected to the New York State Supreme Court in 2017 after serving on the New York City Civil Court beginning in 2014. Assigned to the Commercial Division, New York County effective January 1, 2019, where he is designated to preside over all New York County cases alleging violations of the Securities Act of 1933.",
       bioUrl: "https://www.nycourts.gov/commercial-division-new-york-county-manhattan/biography-justice-andrew-borrok"
-    },
-    {
-      name: "Phillip Hom",
-      slug: "phillip-hom",
-      title: "Associate Justice",
-      court: "Supreme Court of the State of New York, Appellate Division, Second Department",
-      background: "Elected to the Queens Civil Court in 2017 and to the New York State Supreme Court in 2019, then designated to the Appellate Term, Second Department, where he was the first Asian American to serve on that court. Nominated by Governor Kathy Hochul to the Appellate Division, Second Department, and assumed office August 16, 2024.",
-      bioUrl: "https://ww2.nycourts.gov/courts/1jd/supctmanh/bio_Hom.shtml"
     },
     {
       name: "Michael Noriega",
@@ -7144,28 +6538,12 @@ const RELAW_DATA = {
       bioUrl: "https://www.fjc.gov/history/judges/osteen-william-lindsay-jr"
     },
     {
-      name: "Hunter W. Carroll",
-      slug: "hunter-w-carroll",
-      title: "Circuit Judge",
-      court: "Twelfth Judicial Circuit Court, Sarasota County, Florida",
-      background: "Appointed to the Twelfth Judicial Circuit bench by Governor Rick Scott in 2015 and subsequently elected twice. Previously practiced law in Sarasota, including as senior staff attorney for the Chief Justice of the Florida Supreme Court, and now serves as administrative judge for Sarasota County and for the circuit's civil division.",
-      bioUrl: "https://www.jud12.flcourts.org/About/Judges/Biography/judge/hunter-carroll"
-    },
-    {
       name: "Waverly D. Crenshaw Jr.",
       slug: "waverly-d-crenshaw-jr",
       title: "U.S. District Judge",
       court: "U.S. District Court, Middle District of Tennessee",
       background: "Nominated by President Obama in February 2015 and confirmed to the federal bench in April 2016, later serving as Chief Judge of the Middle District of Tennessee from 2017 to 2024. Previously practiced law in Nashville after clerking for judges of the Davidson County Chancery Court and the U.S. District Court for the Middle District of Tennessee.",
       bioUrl: "https://www.fjc.gov/history/judges/crenshaw-waverly-david-jr"
-    },
-    {
-      name: "Steven D. Ecker",
-      slug: "steven-d-ecker",
-      title: "Associate Justice, Connecticut Supreme Court",
-      court: "Connecticut Supreme Court",
-      background: "Nominated by Governor Dannel Malloy and confirmed as an Associate Justice of the Connecticut Supreme Court in 2018, after previously serving as a judge of the Connecticut Superior Court and in private practice as a litigator in Hartford.",
-      bioUrl: "https://www.jud.ct.gov/external/supapp/justiceEcker.html"
     },
     {
       name: "Richard K. Sueyoshi",
@@ -7176,28 +6554,12 @@ const RELAW_DATA = {
       bioUrl: "https://www.saccourt.ca.gov/civil/docs/cv-department-53.pdf"
     },
     {
-      name: "Ann L. Aiken",
-      slug: "ann-l-aiken",
-      title: "U.S. District Judge",
-      court: "U.S. District Court, District of Oregon",
-      background: "Nominated by President Bill Clinton in 1995 and confirmed to the federal bench in January 1998, after serving as a judge of the Oregon Circuit Court for Lane County from 1992 and, before that, the Oregon District Court for Lane County. Served as Chief Judge of the U.S. District Court for the District of Oregon from 2009 to 2016 and assumed senior status in December 2023.",
-      bioUrl: "https://www.fjc.gov/history/judges/aiken-ann-l"
-    },
-    {
       name: "John M. Bodenhausen",
       slug: "john-m-bodenhausen",
       title: "U.S. Magistrate Judge",
       court: "U.S. District Court, Eastern District of Missouri",
       background: "Appointed a U.S. Magistrate Judge for the Eastern District of Missouri on April 16, 2015, after serving as an Assistant U.S. Attorney for the district since 2002. Previously practiced patent law at the St. Louis firm Senniger Powers following a clerkship for Judge David R. Hansen of the U.S. Court of Appeals for the Eighth Circuit.",
       bioUrl: "https://www.moed.uscourts.gov/judge/john-m-bodenhausen"
-    },
-    {
-      name: "Barbara J. Rothstein",
-      slug: "barbara-j-rothstein",
-      title: "Senior U.S. District Judge",
-      court: "U.S. District Court, Western District of Washington",
-      background: "Nominated by President Jimmy Carter and confirmed to the federal bench in February 1980 after serving as a King County Superior Court judge, later serving as Chief Judge of the Western District of Washington from 1987 to 1994 and as Director of the Federal Judicial Center from 2003 to 2011. Assumed senior status and continues to hear cases in the Western District of Washington.",
-      bioUrl: "https://www.fjc.gov/history/judges/rothstein-barbara-jacobs"
     },
     {
       name: "Jane Bland",
@@ -7280,14 +6642,6 @@ const RELAW_DATA = {
       bioUrl: "https://www.fjc.gov/history/judges/wilkinson-james-harvie-iii"
     },
     {
-      name: "Armando O. Bonilla",
-      slug: "armando-o-bonilla",
-      title: "Judge",
-      court: "U.S. Court of Federal Claims",
-      background: "Nominated by President Biden and confirmed by the Senate in December 2021, taking office on the U.S. Court of Federal Claims in February 2022. Previously served as Associate Deputy Attorney General in the U.S. Department of Justice from 2010 to 2017 and as Associate General Counsel for the U.S. Marshals Service from 2017 to 2018.",
-      bioUrl: "https://www.uscfc.uscourts.gov/armando-o-bonilla"
-    },
-    {
       name: "Serge Georges, Jr.",
       slug: "serge-georges-jr",
       title: "Associate Justice",
@@ -7325,7 +6679,6 @@ const RELAW_DATA = {
     { name: "Lightstone Group", matchTerm: "Lightstone", slug: "lightstone-group", description: "Sponsor of the Lightstone Value Plus non-traded REIT family.", website: "https://www.lightstonegroup.com" },
     { name: "Silver Star Properties REIT", matchTerm: "Silver Star Properties", slug: "silver-star-properties-reit", description: "Houston-based non-traded REIT, repositioning from office to self-storage." },
     { name: "RAD Diversified REIT", matchTerm: "RAD Diversified", slug: "rad-diversified-reit", description: "Tampa-based non-traded REIT." },
-    { name: "Mosser Companies", matchTerm: "Mosser", slug: "mosser-companies", description: "San Francisco Bay Area multifamily landlord and property manager.", website: "https://www.mosserco.com" },
     { name: "Metro Loft", slug: "metro-loft", description: "New York City office-to-residential conversion developer led by Nathan Berman." },
     { name: "UWM Holdings Corp.", matchTerm: "UWM Holdings", slug: "uwm-holdings", description: "Parent company of United Wholesale Mortgage, the nation's largest wholesale mortgage lender.", website: "https://www.uwm.com" },
     { name: "Two Harbors Investment Corp.", matchTerm: "Two Harbors", slug: "two-harbors-investment", description: "NYSE-listed mortgage REIT.", website: "https://www.twoharborsinvestment.com" },
