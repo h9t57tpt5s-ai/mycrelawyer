@@ -86,7 +86,8 @@ def summarize(analysis):
         "issues": [
             {"label": i.get("label"), "probabilityRange": i.get("probabilityRange"), "damagesRange": i.get("damagesRange"),
              "claimant": i.get("claimant"), "liabilityStatus": i.get("liabilityStatus"), "supportedCeiling": i.get("supportedCeiling"),
-             "kind": i.get("kind")}
+             "kind": i.get("kind"), "claimType": i.get("claimType"), "strength": i.get("strength"),
+             "figures": i.get("figures"), "droppedFigures": i.get("droppedFigures")}
             for i in analysis.get("issues", [])
         ],
         "citationCoverage": analysis.get("citationCoverage"),

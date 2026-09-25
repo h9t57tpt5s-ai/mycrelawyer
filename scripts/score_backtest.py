@@ -12,7 +12,14 @@ import math
 import re
 
 RESULT_DIRS = {"v1": "case_valuation_project/backtest/results", "v2": "case_valuation_project/backtest/results-v2",
-               "v3": "case_valuation_project/backtest/results-v3"}
+               "v3": "case_valuation_project/backtest/results-v3",
+               "v4": "case_valuation_project/backtest/results-v4"}
+# A second, independent run of the same version on the same 25 inputs.
+# Consistency is the spread between the two runs, published beside
+# accuracy (Jeff, 2026-09-25: "without consistency, this is nothing more
+# than a toy making uneducated guesses").
+REPEAT_DIRS = {"v3": "case_valuation_project/backtest/results-v3b",
+               "v4": "case_valuation_project/backtest/results-v4b"}
 # Chosen before the v2 revision was written; the revision was never tuned against them.
 HOLDOUTS = {"island-girl-outfitters-v-allied-development-2025", "udot-boggess-draper-2025", "dover-mall-v-tang-2023", "nco-montgomery-park-2025", "edgemere-lawal-2025", "navient-v-bpg-office-partners-2023"}
 OUT = "js/backtest-results-data.js"
@@ -50,8 +57,8 @@ def ex_fee_range(issues):
 def ex_fee_best(issues, version):
     """Best guess excluding counsel-fee issues, with each version's own
     formula: v1 p_mid x d_mid; v2 the midpoint of each issue's weighted
-    range; v3 p_mid x d_high for the represented side, p_mid x d_mid for
-    the opposing side."""
+    range; v3 and v4 p_mid x d_high for the represented side, p_mid x d_mid
+    for the opposing side."""
     total, used = 0.0, 0
     for i in issues:
         if FEE_LABEL.search(i.get("label") or ""):
@@ -62,7 +69,7 @@ def ex_fee_best(issues, version):
         used += 1
         pm, dm = (p[0] + p[1]) / 2, (d[0] + d[1]) / 2
         opp = i.get("claimant") == "opposing"
-        if version == "v3":
+        if version in ("v3", "v4"):
             total += pm * dm if opp else pm * d[1]
         elif version == "v2" and i.get("claimant"):
             total += ((p[1] * d[0] + p[0] * d[1]) if opp else (p[0] * d[0] + p[1] * d[1])) / 2
@@ -160,12 +167,66 @@ def summarize(rows):
     return summary
 
 
+def rel_diff(a, b):
+    if a is None or b is None:
+        return None
+    scale = max(abs(a), abs(b))
+    return 0.0 if scale == 0 else abs(a - b) / scale
+
+
+def consistency(first_rows, repeat_dir):
+    """Compare each case's result with its repeat run of the same version."""
+    repeats = {}
+    for f in glob.glob(repeat_dir + "/*.json"):
+        rec = json.load(open(f))
+        if rec.get("status") == 200 and not rec.get("void"):
+            repeats[rec["id"]] = score(rec)
+    pairs = []
+    for r in first_rows:
+        b = repeats.get(r["id"])
+        if not b or r["error"]:
+            continue
+        a_rng, b_rng = r["exFees"]["predictedRange"], b["exFees"]["predictedRange"]
+        pairs.append({
+            "id": r["id"],
+            "bothPriced": bool(a_rng and b_rng),
+            "sameDecline": r["declined"] == b["declined"],
+            "bestGuessDiff": rel_diff(r["final"].get("bestGuess"), b["final"].get("bestGuess")) if a_rng and b_rng else None,
+            "lowDiff": rel_diff(a_rng[0], b_rng[0]) if a_rng and b_rng else None,
+            "highDiff": rel_diff(a_rng[1], b_rng[1]) if a_rng and b_rng else None,
+            "sameVerdict": (r["exFees"]["hit"] == b["exFees"]["hit"]) if a_rng and b_rng else None,
+            "first": {"range": a_rng, "bestGuess": r["final"].get("bestGuess")},
+            "repeat": {"range": b_rng, "bestGuess": b["final"].get("bestGuess")},
+        })
+    if not pairs:
+        return None
+    bg = sorted(p["bestGuessDiff"] for p in pairs if p["bestGuessDiff"] is not None)
+    bounds = sorted(x for p in pairs for x in (p["lowDiff"], p["highDiff"]) if x is not None)
+    verdicts = [p["sameVerdict"] for p in pairs if p["sameVerdict"] is not None]
+    return {
+        "pairs": len(pairs),
+        "sameDecline": sum(1 for p in pairs if p["sameDecline"]),
+        "medianBestGuessDiff": bg[len(bg) // 2] if bg else None,
+        "bestGuessWithin5": sum(1 for x in bg if x <= 0.05),
+        "bestGuessWithin10": sum(1 for x in bg if x <= 0.10),
+        "bestGuessCompared": len(bg),
+        "medianBoundDiff": bounds[len(bounds) // 2] if bounds else None,
+        "sameHitVerdict": sum(1 for v in verdicts if v),
+        "verdictsCompared": len(verdicts),
+        "cases": pairs,
+    }
+
+
 def main():
     versions = {}
     for v, d in RESULT_DIRS.items():
         rows = [score(json.load(open(f))) for f in sorted(glob.glob(d + "/*.json"))]
         if rows:
             versions[v] = {"summary": summarize(rows), "cases": rows}
+            if v in REPEAT_DIRS:
+                c = consistency(rows, REPEAT_DIRS[v])
+                if c:
+                    versions[v]["consistency"] = c
     payload = {
         "generatedAt": max((r["ranAt"] or "") for v in versions.values() for r in v["cases"]) if versions else None,
         "versions": versions,
