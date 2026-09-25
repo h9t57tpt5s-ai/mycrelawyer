@@ -123,14 +123,22 @@ def main():
         if out_path.exists():
             # A completed analysis is final; a failed call (upstream error,
             # timeout) is retried on the next run.
-            if json.loads(out_path.read_text()).get("status") == 200:
+            prev = json.loads(out_path.read_text())
+            if prev.get("status") == 200 and not prev.get("void"):
                 print(f"skip {c['id']}: result exists")
                 continue
-            print(f"retry {c['id']}: previous attempt failed")
+            print(f"retry {c['id']}: previous attempt {'was voided' if prev.get('void') else 'failed'}")
         if ran >= args.limit:
             break
         print(f"running {c['id']} ...", flush=True)
         status, body = call_calculator(secret, c["input"])
+        # The calculator's sideA/sideB are fixed per category (lease disputes:
+        # Landlord/Tenant; lending: Lender/Borrower), so a case whose input
+        # names the wrong side is valued for the other party. Refuse to
+        # record that as a result (found 2026-09-24 on Shaw and Hurt).
+        role = (body.get("analysis") or {}).get("roleLabel") if status == 200 else None
+        if status == 200 and c.get("expectedRole") and role != c["expectedRole"]:
+            status, body = 409, {"error": f"valued as {role!r}, but the client is the {c['expectedRole']!r}; fix userSide"}
         record = {
             "id": c["id"], "ranAt": dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds"),
             "status": status,

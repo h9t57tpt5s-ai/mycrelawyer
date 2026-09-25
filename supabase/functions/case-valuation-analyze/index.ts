@@ -2661,7 +2661,7 @@ async function handle(req: Request): Promise<Response> {
       return jsonResponse({ error: "Analysis failed — try again.", code: "upstream_error", ...(isBacktest ? { detail: `${err.status ?? ""} ${String(err.message ?? err).slice(0, 700)}` } : {}) }, 502);
     }
     console.error("case-valuation-analyze error:", err);
-    return jsonResponse({ error: "Something went wrong analyzing this document — try again.", code: "internal_error" }, 500);
+    return jsonResponse({ error: "Something went wrong analyzing this document — try again.", code: "internal_error", ...(isBacktest ? { detail: `${(err as Error)?.name ?? ""}: ${String((err as Error)?.message ?? err).slice(0, 700)}` } : {}) }, 500);
   }
 }
 

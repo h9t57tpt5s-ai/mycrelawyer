@@ -5,23 +5,23 @@ window.BACKTEST_RESULTS = {
   "v1": {
    "summary": {
     "cases": 25,
-    "scored": 23,
-    "declined": 1,
-    "errors": 1,
+    "scored": 22,
+    "declined": 0,
+    "errors": 3,
     "exFeesHits": 8,
-    "exFeesScorable": 23,
+    "exFeesScorable": 22,
     "allInHits": 6,
-    "allInScorable": 23,
-    "medianBestGuessError": -0.35,
+    "allInScorable": 22,
+    "medianBestGuessError": -0.317,
     "finalHits": 6,
     "finalScorable": 17,
-    "finalPending": 6,
+    "finalPending": 5,
     "correctedOnAppeal": 1,
     "holdoutHits": 1,
     "holdoutScorable": 5,
-    "medianCaseRatio": 0.679,
-    "aggregatePredicted": 75273862,
-    "aggregateActual": 113955593,
+    "medianCaseRatio": 0.69,
+    "aggregatePredicted": 75027428,
+    "aggregateActual": 113512708,
     "aggregateRatio": 0.661
    },
    "cases": [
@@ -50,6 +50,7 @@ window.BACKTEST_RESULTS = {
      "role": "Landlord",
      "declined": false,
      "error": null,
+     "void": null,
      "exFees": {
       "predictedRange": [
        22400,
@@ -97,6 +98,7 @@ window.BACKTEST_RESULTS = {
      "role": "Property Owner",
      "declined": false,
      "error": null,
+     "void": null,
      "exFees": {
       "predictedRange": [
        150500,
@@ -143,6 +145,7 @@ window.BACKTEST_RESULTS = {
      "error": {
       "error": ""
      },
+     "void": null,
      "exFees": {
       "predictedRange": null,
       "issuesUsed": 0,
@@ -184,6 +187,7 @@ window.BACKTEST_RESULTS = {
      "role": "Landlord",
      "declined": false,
      "error": null,
+     "void": null,
      "exFees": {
       "predictedRange": [
        67500,
@@ -231,6 +235,7 @@ window.BACKTEST_RESULTS = {
      "role": "Tenant",
      "declined": false,
      "error": null,
+     "void": null,
      "exFees": {
       "predictedRange": [
        0,
@@ -278,6 +283,7 @@ window.BACKTEST_RESULTS = {
      "role": "Tenant",
      "declined": false,
      "error": null,
+     "void": null,
      "exFees": {
       "predictedRange": [
        48145,
@@ -325,6 +331,7 @@ window.BACKTEST_RESULTS = {
      "role": "Contractor / Design Professional",
      "declined": false,
      "error": null,
+     "void": null,
      "exFees": {
       "predictedRange": [
        40000,
@@ -372,6 +379,7 @@ window.BACKTEST_RESULTS = {
      "role": "Property Owner",
      "declined": false,
      "error": null,
+     "void": null,
      "exFees": {
       "predictedRange": [
        1081450,
@@ -419,6 +427,7 @@ window.BACKTEST_RESULTS = {
      "role": "Landlord",
      "declined": false,
      "error": null,
+     "void": null,
      "exFees": {
       "predictedRange": [
        11000,
@@ -466,6 +475,7 @@ window.BACKTEST_RESULTS = {
      "role": "Landlord",
      "declined": false,
      "error": null,
+     "void": null,
      "exFees": {
       "predictedRange": [
        88125,
@@ -512,7 +522,10 @@ window.BACKTEST_RESULTS = {
      "category": "lease-disputes",
      "role": "Landlord",
      "declined": false,
-     "error": null,
+     "error": {
+      "void": "2026-09-24: the input named the wrong side (the calculator valued the landlord; the client is the tenant), so this result is void. Corrected and re-run; version 1 cannot be re-run because its prompt is no longer deployed."
+     },
+     "void": "2026-09-24: the input named the wrong side (the calculator valued the landlord; the client is the tenant), so this result is void. Corrected and re-run; version 1 cannot be re-run because its prompt is no longer deployed.",
      "exFees": {
       "predictedRange": [
        204921,
@@ -560,6 +573,7 @@ window.BACKTEST_RESULTS = {
      "role": "Landlord",
      "declined": false,
      "error": null,
+     "void": null,
      "exFees": {
       "predictedRange": [
        8150,
@@ -607,6 +621,7 @@ window.BACKTEST_RESULTS = {
      "role": "Property Owner",
      "declined": false,
      "error": null,
+     "void": null,
      "exFees": {
       "predictedRange": [
        14550000,
@@ -654,6 +669,7 @@ window.BACKTEST_RESULTS = {
      "role": "Landlord",
      "declined": false,
      "error": null,
+     "void": null,
      "exFees": {
       "predictedRange": [
        864160,
@@ -701,6 +717,7 @@ window.BACKTEST_RESULTS = {
      "role": "Landlord",
      "declined": false,
      "error": null,
+     "void": null,
      "exFees": {
       "predictedRange": [
        110613,
@@ -748,6 +765,7 @@ window.BACKTEST_RESULTS = {
      "role": "Landlord",
      "declined": false,
      "error": null,
+     "void": null,
      "exFees": {
       "predictedRange": [
        17935,
@@ -795,6 +813,7 @@ window.BACKTEST_RESULTS = {
      "role": "Tenant",
      "declined": false,
      "error": null,
+     "void": null,
      "exFees": {
       "predictedRange": [
        534090,
@@ -842,6 +861,7 @@ window.BACKTEST_RESULTS = {
      "role": "Landlord",
      "declined": false,
      "error": null,
+     "void": null,
      "exFees": {
       "predictedRange": [
        2000000,
@@ -884,8 +904,11 @@ window.BACKTEST_RESULTS = {
      "holdout": false,
      "category": "lease-disputes",
      "role": "Landlord",
-     "declined": true,
-     "error": null,
+     "declined": false,
+     "error": {
+      "void": "2026-09-24: the input named the wrong side (the calculator valued the landlord; the client is the tenant), so this result is void. Corrected and re-run; version 1 cannot be re-run because its prompt is no longer deployed."
+     },
+     "void": "2026-09-24: the input named the wrong side (the calculator valued the landlord; the client is the tenant), so this result is void. Corrected and re-run; version 1 cannot be re-run because its prompt is no longer deployed.",
      "exFees": {
       "predictedRange": null,
       "issuesUsed": 0,
@@ -927,6 +950,7 @@ window.BACKTEST_RESULTS = {
      "role": "Landlord",
      "declined": false,
      "error": null,
+     "void": null,
      "exFees": {
       "predictedRange": [
        50000,
@@ -974,6 +998,7 @@ window.BACKTEST_RESULTS = {
      "role": "Landlord",
      "declined": false,
      "error": null,
+     "void": null,
      "exFees": {
       "predictedRange": [
        85250,
@@ -1021,6 +1046,7 @@ window.BACKTEST_RESULTS = {
      "role": "Property Owner",
      "declined": false,
      "error": null,
+     "void": null,
      "exFees": {
       "predictedRange": [
        150000,
@@ -1068,6 +1094,7 @@ window.BACKTEST_RESULTS = {
      "role": "Landlord",
      "declined": false,
      "error": null,
+     "void": null,
      "exFees": {
       "predictedRange": [
        42625,
@@ -1115,6 +1142,7 @@ window.BACKTEST_RESULTS = {
      "role": "Lender",
      "declined": false,
      "error": null,
+     "void": null,
      "exFees": {
       "predictedRange": [
        28080000,
@@ -1162,6 +1190,7 @@ window.BACKTEST_RESULTS = {
      "role": "Landlord",
      "declined": false,
      "error": null,
+     "void": null,
      "exFees": {
       "predictedRange": [
        136250,
@@ -1189,23 +1218,23 @@ window.BACKTEST_RESULTS = {
   "v2": {
    "summary": {
     "cases": 25,
-    "scored": 22,
-    "declined": 3,
-    "errors": 0,
-    "exFeesHits": 17,
-    "exFeesScorable": 22,
+    "scored": 21,
+    "declined": 2,
+    "errors": 2,
+    "exFeesHits": 16,
+    "exFeesScorable": 21,
     "allInHits": 12,
-    "allInScorable": 22,
+    "allInScorable": 21,
     "medianBestGuessError": -0.376,
     "finalHits": 12,
     "finalScorable": 17,
-    "finalPending": 5,
+    "finalPending": 4,
     "correctedOnAppeal": 1,
     "holdoutHits": 3,
     "holdoutScorable": 4,
     "medianCaseRatio": 0.768,
-    "aggregatePredicted": 76575891,
-    "aggregateActual": 113985857,
+    "aggregatePredicted": 76284448,
+    "aggregateActual": 113542971,
     "aggregateRatio": 0.672
    },
    "cases": [
@@ -1234,6 +1263,7 @@ window.BACKTEST_RESULTS = {
      "role": "Landlord",
      "declined": false,
      "error": null,
+     "void": null,
      "exFees": {
       "predictedRange": [
        31900,
@@ -1281,6 +1311,7 @@ window.BACKTEST_RESULTS = {
      "role": "Property Owner",
      "declined": false,
      "error": null,
+     "void": null,
      "exFees": {
       "predictedRange": [
        142500,
@@ -1328,6 +1359,7 @@ window.BACKTEST_RESULTS = {
      "role": "Landlord",
      "declined": false,
      "error": null,
+     "void": null,
      "exFees": {
       "predictedRange": [
        -52621,
@@ -1375,6 +1407,7 @@ window.BACKTEST_RESULTS = {
      "role": "Landlord",
      "declined": false,
      "error": null,
+     "void": null,
      "exFees": {
       "predictedRange": [
        166250,
@@ -1419,6 +1452,7 @@ window.BACKTEST_RESULTS = {
      "role": "Tenant",
      "declined": true,
      "error": null,
+     "void": null,
      "exFees": {
       "predictedRange": null,
       "issuesUsed": 0,
@@ -1460,6 +1494,7 @@ window.BACKTEST_RESULTS = {
      "role": "Tenant",
      "declined": false,
      "error": null,
+     "void": null,
      "exFees": {
       "predictedRange": [
        29128,
@@ -1507,6 +1542,7 @@ window.BACKTEST_RESULTS = {
      "role": "Contractor / Design Professional",
      "declined": false,
      "error": null,
+     "void": null,
      "exFees": {
       "predictedRange": [
        52500,
@@ -1554,6 +1590,7 @@ window.BACKTEST_RESULTS = {
      "role": "Property Owner",
      "declined": false,
      "error": null,
+     "void": null,
      "exFees": {
       "predictedRange": [
        608475,
@@ -1601,6 +1638,7 @@ window.BACKTEST_RESULTS = {
      "role": "Landlord",
      "declined": false,
      "error": null,
+     "void": null,
      "exFees": {
       "predictedRange": [
        -5000,
@@ -1648,6 +1686,7 @@ window.BACKTEST_RESULTS = {
      "role": "Landlord",
      "declined": false,
      "error": null,
+     "void": null,
      "exFees": {
       "predictedRange": [
        69065,
@@ -1694,7 +1733,10 @@ window.BACKTEST_RESULTS = {
      "category": "lease-disputes",
      "role": "Landlord",
      "declined": false,
-     "error": null,
+     "error": {
+      "void": "2026-09-24: the input named the wrong side (the calculator valued the landlord; the client is the tenant), so this result is void. Corrected and re-run; version 1 cannot be re-run because its prompt is no longer deployed."
+     },
+     "void": "2026-09-24: the input named the wrong side (the calculator valued the landlord; the client is the tenant), so this result is void. Corrected and re-run; version 1 cannot be re-run because its prompt is no longer deployed.",
      "exFees": {
       "predictedRange": [
        140000,
@@ -1742,6 +1784,7 @@ window.BACKTEST_RESULTS = {
      "role": "Landlord",
      "declined": false,
      "error": null,
+     "void": null,
      "exFees": {
       "predictedRange": [
        8505,
@@ -1789,6 +1832,7 @@ window.BACKTEST_RESULTS = {
      "role": "Property Owner",
      "declined": false,
      "error": null,
+     "void": null,
      "exFees": {
       "predictedRange": [
        17100000,
@@ -1836,6 +1880,7 @@ window.BACKTEST_RESULTS = {
      "role": "Landlord",
      "declined": false,
      "error": null,
+     "void": null,
      "exFees": {
       "predictedRange": [
        512400,
@@ -1883,6 +1928,7 @@ window.BACKTEST_RESULTS = {
      "role": "Landlord",
      "declined": false,
      "error": null,
+     "void": null,
      "exFees": {
       "predictedRange": [
        78097,
@@ -1930,6 +1976,7 @@ window.BACKTEST_RESULTS = {
      "role": "Landlord",
      "declined": false,
      "error": null,
+     "void": null,
      "exFees": {
       "predictedRange": [
        19282,
@@ -1977,6 +2024,7 @@ window.BACKTEST_RESULTS = {
      "role": "Tenant",
      "declined": false,
      "error": null,
+     "void": null,
      "exFees": {
       "predictedRange": [
        196824,
@@ -2024,6 +2072,7 @@ window.BACKTEST_RESULTS = {
      "role": "Landlord",
      "declined": false,
      "error": null,
+     "void": null,
      "exFees": {
       "predictedRange": [
        94884,
@@ -2066,8 +2115,11 @@ window.BACKTEST_RESULTS = {
      "holdout": false,
      "category": "lease-disputes",
      "role": "Landlord",
-     "declined": true,
-     "error": null,
+     "declined": false,
+     "error": {
+      "void": "2026-09-24: the input named the wrong side (the calculator valued the landlord; the client is the tenant), so this result is void. Corrected and re-run; version 1 cannot be re-run because its prompt is no longer deployed."
+     },
+     "void": "2026-09-24: the input named the wrong side (the calculator valued the landlord; the client is the tenant), so this result is void. Corrected and re-run; version 1 cannot be re-run because its prompt is no longer deployed.",
      "exFees": {
       "predictedRange": null,
       "issuesUsed": 0,
@@ -2109,6 +2161,7 @@ window.BACKTEST_RESULTS = {
      "role": "Landlord",
      "declined": false,
      "error": null,
+     "void": null,
      "exFees": {
       "predictedRange": [
        66000,
@@ -2156,6 +2209,7 @@ window.BACKTEST_RESULTS = {
      "role": "Landlord",
      "declined": false,
      "error": null,
+     "void": null,
      "exFees": {
       "predictedRange": [
        115499,
@@ -2200,6 +2254,7 @@ window.BACKTEST_RESULTS = {
      "role": "Property Owner",
      "declined": true,
      "error": null,
+     "void": null,
      "exFees": {
       "predictedRange": null,
       "issuesUsed": 0,
@@ -2241,6 +2296,7 @@ window.BACKTEST_RESULTS = {
      "role": "Landlord",
      "declined": false,
      "error": null,
+     "void": null,
      "exFees": {
       "predictedRange": [
        0,
@@ -2288,6 +2344,7 @@ window.BACKTEST_RESULTS = {
      "role": "Lender",
      "declined": false,
      "error": null,
+     "void": null,
      "exFees": {
       "predictedRange": [
        27200000,
@@ -2335,6 +2392,7 @@ window.BACKTEST_RESULTS = {
      "role": "Landlord",
      "declined": false,
      "error": null,
+     "void": null,
      "exFees": {
       "predictedRange": [
        91532,
@@ -2362,23 +2420,23 @@ window.BACKTEST_RESULTS = {
  },
  "summary": {
   "cases": 25,
-  "scored": 22,
-  "declined": 3,
-  "errors": 0,
-  "exFeesHits": 17,
-  "exFeesScorable": 22,
+  "scored": 21,
+  "declined": 2,
+  "errors": 2,
+  "exFeesHits": 16,
+  "exFeesScorable": 21,
   "allInHits": 12,
-  "allInScorable": 22,
+  "allInScorable": 21,
   "medianBestGuessError": -0.376,
   "finalHits": 12,
   "finalScorable": 17,
-  "finalPending": 5,
+  "finalPending": 4,
   "correctedOnAppeal": 1,
   "holdoutHits": 3,
   "holdoutScorable": 4,
   "medianCaseRatio": 0.768,
-  "aggregatePredicted": 76575891,
-  "aggregateActual": 113985857,
+  "aggregatePredicted": 76284448,
+  "aggregateActual": 113542971,
   "aggregateRatio": 0.672
  },
  "cases": [
@@ -2407,6 +2465,7 @@ window.BACKTEST_RESULTS = {
    "role": "Landlord",
    "declined": false,
    "error": null,
+   "void": null,
    "exFees": {
     "predictedRange": [
      31900,
@@ -2454,6 +2513,7 @@ window.BACKTEST_RESULTS = {
    "role": "Property Owner",
    "declined": false,
    "error": null,
+   "void": null,
    "exFees": {
     "predictedRange": [
      142500,
@@ -2501,6 +2561,7 @@ window.BACKTEST_RESULTS = {
    "role": "Landlord",
    "declined": false,
    "error": null,
+   "void": null,
    "exFees": {
     "predictedRange": [
      -52621,
@@ -2548,6 +2609,7 @@ window.BACKTEST_RESULTS = {
    "role": "Landlord",
    "declined": false,
    "error": null,
+   "void": null,
    "exFees": {
     "predictedRange": [
      166250,
@@ -2592,6 +2654,7 @@ window.BACKTEST_RESULTS = {
    "role": "Tenant",
    "declined": true,
    "error": null,
+   "void": null,
    "exFees": {
     "predictedRange": null,
     "issuesUsed": 0,
@@ -2633,6 +2696,7 @@ window.BACKTEST_RESULTS = {
    "role": "Tenant",
    "declined": false,
    "error": null,
+   "void": null,
    "exFees": {
     "predictedRange": [
      29128,
@@ -2680,6 +2744,7 @@ window.BACKTEST_RESULTS = {
    "role": "Contractor / Design Professional",
    "declined": false,
    "error": null,
+   "void": null,
    "exFees": {
     "predictedRange": [
      52500,
@@ -2727,6 +2792,7 @@ window.BACKTEST_RESULTS = {
    "role": "Property Owner",
    "declined": false,
    "error": null,
+   "void": null,
    "exFees": {
     "predictedRange": [
      608475,
@@ -2774,6 +2840,7 @@ window.BACKTEST_RESULTS = {
    "role": "Landlord",
    "declined": false,
    "error": null,
+   "void": null,
    "exFees": {
     "predictedRange": [
      -5000,
@@ -2821,6 +2888,7 @@ window.BACKTEST_RESULTS = {
    "role": "Landlord",
    "declined": false,
    "error": null,
+   "void": null,
    "exFees": {
     "predictedRange": [
      69065,
@@ -2867,7 +2935,10 @@ window.BACKTEST_RESULTS = {
    "category": "lease-disputes",
    "role": "Landlord",
    "declined": false,
-   "error": null,
+   "error": {
+    "void": "2026-09-24: the input named the wrong side (the calculator valued the landlord; the client is the tenant), so this result is void. Corrected and re-run; version 1 cannot be re-run because its prompt is no longer deployed."
+   },
+   "void": "2026-09-24: the input named the wrong side (the calculator valued the landlord; the client is the tenant), so this result is void. Corrected and re-run; version 1 cannot be re-run because its prompt is no longer deployed.",
    "exFees": {
     "predictedRange": [
      140000,
@@ -2915,6 +2986,7 @@ window.BACKTEST_RESULTS = {
    "role": "Landlord",
    "declined": false,
    "error": null,
+   "void": null,
    "exFees": {
     "predictedRange": [
      8505,
@@ -2962,6 +3034,7 @@ window.BACKTEST_RESULTS = {
    "role": "Property Owner",
    "declined": false,
    "error": null,
+   "void": null,
    "exFees": {
     "predictedRange": [
      17100000,
@@ -3009,6 +3082,7 @@ window.BACKTEST_RESULTS = {
    "role": "Landlord",
    "declined": false,
    "error": null,
+   "void": null,
    "exFees": {
     "predictedRange": [
      512400,
@@ -3056,6 +3130,7 @@ window.BACKTEST_RESULTS = {
    "role": "Landlord",
    "declined": false,
    "error": null,
+   "void": null,
    "exFees": {
     "predictedRange": [
      78097,
@@ -3103,6 +3178,7 @@ window.BACKTEST_RESULTS = {
    "role": "Landlord",
    "declined": false,
    "error": null,
+   "void": null,
    "exFees": {
     "predictedRange": [
      19282,
@@ -3150,6 +3226,7 @@ window.BACKTEST_RESULTS = {
    "role": "Tenant",
    "declined": false,
    "error": null,
+   "void": null,
    "exFees": {
     "predictedRange": [
      196824,
@@ -3197,6 +3274,7 @@ window.BACKTEST_RESULTS = {
    "role": "Landlord",
    "declined": false,
    "error": null,
+   "void": null,
    "exFees": {
     "predictedRange": [
      94884,
@@ -3239,8 +3317,11 @@ window.BACKTEST_RESULTS = {
    "holdout": false,
    "category": "lease-disputes",
    "role": "Landlord",
-   "declined": true,
-   "error": null,
+   "declined": false,
+   "error": {
+    "void": "2026-09-24: the input named the wrong side (the calculator valued the landlord; the client is the tenant), so this result is void. Corrected and re-run; version 1 cannot be re-run because its prompt is no longer deployed."
+   },
+   "void": "2026-09-24: the input named the wrong side (the calculator valued the landlord; the client is the tenant), so this result is void. Corrected and re-run; version 1 cannot be re-run because its prompt is no longer deployed.",
    "exFees": {
     "predictedRange": null,
     "issuesUsed": 0,
@@ -3282,6 +3363,7 @@ window.BACKTEST_RESULTS = {
    "role": "Landlord",
    "declined": false,
    "error": null,
+   "void": null,
    "exFees": {
     "predictedRange": [
      66000,
@@ -3329,6 +3411,7 @@ window.BACKTEST_RESULTS = {
    "role": "Landlord",
    "declined": false,
    "error": null,
+   "void": null,
    "exFees": {
     "predictedRange": [
      115499,
@@ -3373,6 +3456,7 @@ window.BACKTEST_RESULTS = {
    "role": "Property Owner",
    "declined": true,
    "error": null,
+   "void": null,
    "exFees": {
     "predictedRange": null,
     "issuesUsed": 0,
@@ -3414,6 +3498,7 @@ window.BACKTEST_RESULTS = {
    "role": "Landlord",
    "declined": false,
    "error": null,
+   "void": null,
    "exFees": {
     "predictedRange": [
      0,
@@ -3461,6 +3546,7 @@ window.BACKTEST_RESULTS = {
    "role": "Lender",
    "declined": false,
    "error": null,
+   "void": null,
    "exFees": {
     "predictedRange": [
      27200000,
@@ -3508,6 +3594,7 @@ window.BACKTEST_RESULTS = {
    "role": "Landlord",
    "declined": false,
    "error": null,
+   "void": null,
    "exFees": {
     "predictedRange": [
      91532,

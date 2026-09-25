@@ -72,6 +72,11 @@ def main():
             print(f"  HTTP {status}: {body}")
             continue
         a = body.get("analysis", {})
+        # sideA/sideB are fixed per category, so a wrong userSide values the
+        # other party. Never log a prediction for the wrong client.
+        if m.get("expectedRole") and a.get("roleLabel") != m["expectedRole"]:
+            print(f"  REFUSED: valued as {a.get('roleLabel')!r}, but the client is the {m['expectedRole']!r}; fix userSide")
+            continue
         entries.append({
             "registryId": m["id"],
             "caseId": m.get("trackerCaseId"),

@@ -320,10 +320,10 @@
     host.innerHTML = cases.map((c) => `<div class="card reveal" style="padding:24px; margin-bottom:16px;">
         <div style="display:flex; align-items:flex-start; justify-content:space-between; gap:12px; flex-wrap:wrap; margin-bottom:6px;">
           <h3 style="font-size:1.05rem; line-height:1.35;">${esc(c.caseName)} <span class="detail-tag" style="margin-left:6px;">${esc(c._version)}</span>${c.holdout ? `<span class="detail-tag" style="margin-left:6px;">held out</span>` : ""}</h3>
-          ${c.declined ? `<span class="detail-tag">Declined</span>` : ""}
+          ${c.declined ? `<span class="detail-tag">Declined</span>` : ""}${c.void ? `<span class="detail-tag">Voided</span>` : ""}
         </div>
         <p class="text-muted" style="font-size:12.5px; margin-bottom:12px;">${esc(c.court)} · decided ${esc(c.decided)} · ${esc(c.category)} · valued for the ${esc(c.role)}${c.model ? ` · ${esc(c.model)}` : ``}${c.sourceUrl ? ` · <a href="${esc(c.sourceUrl)}" target="_blank" rel="noopener noreferrer">opinion</a>` : ""}</p>
-        ${c.declined ? `<p class="text-secondary" style="font-size:13.5px;">The calculator declined to give a range for this input.</p>` : c.error ? `<p class="text-secondary" style="font-size:13.5px;">The run failed; no score.</p>` : `
+        ${c.declined ? `<p class="text-secondary" style="font-size:13.5px;">The calculator declined to give a range for this input.</p>` : c.void ? `<p class="text-secondary" style="font-size:13.5px;"><strong>Voided, not scored.</strong> ${esc(c.void)}</p>` : c.error ? `<p class="text-secondary" style="font-size:13.5px;">The run failed; no score.</p>` : `
         <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(240px, 1fr)); gap:16px;">
           <div><div class="eyebrow" style="margin-bottom:6px;">Ultimate outcome, after appeal</div>
             <p style="font-size:13.5px; margin:0;">Predicted ${fmtRange(c.final.predictedRange)}<br>${c.final.pending ? `Sent back on appeal, no final figure yet <span class="detail-tag">Pending</span>` : `Final ${fmt(c.final.actual)} ${badge(c.final.hit)}${c.final.correctedTowardPrediction ? ` <span class="detail-tag">Corrected on appeal</span>` : ""}`}</p>

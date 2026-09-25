@@ -91,5 +91,6 @@
   "decided": "2026-08-19",
   "url": "https://www.iowacourts.gov/courtcases/26627/embed/CourtAppealsOpinion",
   "excerptNote": "Verbatim from Part I (Facts and Prior Proceedings), the parties' contentions in Part III.A-B, and the undisputed timeline recited in Judge Greer's dissent. Removed: the sentences stating the district court's damages award and per-square-foot figure, the district court's findings on the estoppel/mitigation defenses, and every appellate holding. The dissent's footnote characterizing A & M's conduct as a breach was also omitted. Extraction whitespace artifacts corrected."
- }
+ },
+ "void": "2026-09-24: the input named the wrong side (the calculator valued the landlord; the client is the tenant), so this result is void. Corrected and re-run; version 1 cannot be re-run because its prompt is no longer deployed."
 }

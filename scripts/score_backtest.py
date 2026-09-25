@@ -55,7 +55,9 @@ def score(record):
     top = p.get("damagesRange")
     best = p.get("bestGuessValue")
     exf, used = ex_fee_range(p.get("issues") or [])
-    declined = record.get("status") == 200 and not top
+    # A voided result (e.g. run for the wrong side) is excluded like an error.
+    void = record.get("void")
+    declined = record.get("status") == 200 and not top and not void
 
     def inside(rng, x):
         return None if not rng or x is None else (rng[0] <= x <= rng[1])
@@ -84,7 +86,8 @@ def score(record):
         "category": p.get("category"),
         "role": p.get("roleLabel"),
         "declined": declined,
-        "error": record.get("error"),
+        "error": record.get("error") or ({"void": void} if void else None),
+        "void": void,
         "exFees": {"predictedRange": exf, "issuesUsed": used, "actual": main_award, "hit": inside(exf, main_award)},
         "allIn": {
             "predictedRange": top, "bestGuess": best, "actual": all_in_actual,

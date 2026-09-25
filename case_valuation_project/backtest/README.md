@@ -55,3 +55,9 @@ is public. Results are published, good or bad.
   set toward damages disputes that reached judgment.
 - Cases in the calculator's own citation database are excluded, since
   the model has seen their outcomes.
+
+## Side check (added 2026-09-24)
+
+The calculator's two sides are fixed per category: in lease disputes side A is the landlord and side B the tenant; in lending, side A is the lender and side B the borrower. A case whose `userSide` names the wrong one is valued for the other party. Every case now carries `expectedRole`, and the runner (and the registry script) refuse to record a result whose `roleLabel` differs from it.
+
+Two cases were found run for the wrong side: Shaw (the client is the tenant) and Hurt (the client is the optionee, the tenant side). Their original results are kept in the files with a `void` note and excluded from scoring. Version 2 was re-run with the side corrected; version 1 cannot be re-run because its prompt is no longer deployed.

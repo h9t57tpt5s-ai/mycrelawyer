@@ -94,5 +94,6 @@
   "decided": "2025-03-04",
   "url": "https://www.vacourts.gov/opinions/opncavwp/1198232.pdf",
   "excerptNote": "Verbatim from the opinion's introduction (dispute summary and the parties' cross-motion positions), the BACKGROUND section (Agreement terms, development plans and adverse-possession suit, fifth amendment, termination and demand letters, the suit and cross-motions), footnotes 2-3, and the first paragraph of the Analysis summarizing each side's contention. Removed: every sentence describing the circuit court's ruling, its damages and fee award, and the appellate holdings, including the standard-of-review section."
- }
+ },
+ "void": "2026-09-24: the input named the wrong side (the calculator valued the landlord; the client is the tenant), so this result is void. Corrected and re-run; version 1 cannot be re-run because its prompt is no longer deployed."
 }
