@@ -563,5 +563,252 @@
     "actualOutcome": null,
     "resolvedAt": null,
     "analysis": null
+  },
+  {
+    "registryId": "mo-webster-university-v-st-louis-leased-housing-associates-master-tenant-v-2025",
+    "caseId": null,
+    "caseTitle": "Webster University v. St. Louis Leased Housing Associates Master Tenant V, LLLP",
+    "court": "U.S. District Court for the Eastern District of Missouri, Eastern Division",
+    "docket": "4:25-cv-01778",
+    "filings": [
+      {
+        "side": "plaintiff",
+        "label": "Amended complaint as submitted with consent motion for leave (Ex. B, July 15, 2026; leave granted July 21, 2026)",
+        "url": "https://storage.courtlistener.com/recap/gov.uscourts.moed.224981/gov.uscourts.moed.224981.38.2.pdf"
+      },
+      {
+        "side": "defendant",
+        "label": "Answer to amended complaint and affirmative defenses (Aug. 3, 2026)",
+        "url": "https://storage.courtlistener.com/recap/gov.uscourts.moed.224981/gov.uscourts.moed.224981.44.0.pdf"
+      },
+      {
+        "side": "plaintiff",
+        "label": "Original complaint (Dec. 5, 2025)",
+        "url": "https://storage.courtlistener.com/recap/gov.uscourts.moed.224981/gov.uscourts.moed.224981.1.0.pdf"
+      },
+      {
+        "side": "defendant",
+        "label": "Answer to original complaint (Jan. 6, 2026)",
+        "url": "https://storage.courtlistener.com/recap/gov.uscourts.moed.224981/gov.uscourts.moed.224981.10.0.pdf"
+      }
+    ],
+    "predictedAt": "2026-09-25",
+    "model": "claude-sonnet-5",
+    "analysisVersion": "v2",
+    "category": "lease-disputes",
+    "side": "Tenant",
+    "predictedRange": [
+      385550,
+      1110416
+    ],
+    "predictedBestGuess": 600670.8,
+    "whatIsNeededForEstimate": null,
+    "likelyOutcome": "Webster has a strong contractual foothold (Lease \u00a7 4.2's audit-and-refund mechanism) and specific, itemized 2023-2024 audit findings, several of which (utilities, internal overhead, Market Rate Unit cross-charges, and LIHTC-unit insurance) are close to facially improper allocations across separate leased units. Dominium's answer is mostly denial-and-'document speaks for itself,' preserving all issues for discovery rather than conceding anything, and its limitations/waiver defenses have real bite against the unquantified pre-2023 claims but weaker purchase against the timely-audited 2023-2025 years. Net expected outcome is a partial recovery weighted toward the stronger utility/overhead/Market-Rate/insurance categories, with the legal fees, telephone, and capital improvement categories being genuine coin-flip-to-below-even fights, and the pre-2023 and 2025 buckets contributing little quantifiable value on this record.",
+    "claims": [
+      {
+        "label": "Utility cost overcharges (2023-2024)",
+        "probabilityRange": [
+          0.55,
+          0.75
+        ],
+        "damagesRange": [
+          275000,
+          378860
+        ]
+      },
+      {
+        "label": "Dominium's internal management/overhead costs (2023-2024)",
+        "probabilityRange": [
+          0.6,
+          0.8
+        ],
+        "damagesRange": [
+          30000,
+          45833
+        ]
+      },
+      {
+        "label": "Market Rate Unit / portal / resident survey cross-charges (2023-2024)",
+        "probabilityRange": [
+          0.6,
+          0.8
+        ],
+        "damagesRange": [
+          140000,
+          201276
+        ]
+      },
+      {
+        "label": "LIHTC Unit insurance costs (2023-2024)",
+        "probabilityRange": [
+          0.55,
+          0.75
+        ],
+        "damagesRange": [
+          200000,
+          307713
+        ]
+      },
+      {
+        "label": "Legal fees improperly billed (2024)",
+        "probabilityRange": [
+          0.35,
+          0.55
+        ],
+        "damagesRange": [
+          10000,
+          32909
+        ]
+      },
+      {
+        "label": "Telephone costs improperly billed (2024)",
+        "probabilityRange": [
+          0.35,
+          0.55
+        ],
+        "damagesRange": [
+          8000,
+          24406
+        ]
+      },
+      {
+        "label": "Capital improvement costs improperly passed through (2024)",
+        "probabilityRange": [
+          0.4,
+          0.6
+        ],
+        "damagesRange": [
+          40000,
+          119419
+        ]
+      },
+      {
+        "label": "Pre-2023 refund claim",
+        "probabilityRange": [
+          0.1,
+          0.25
+        ],
+        "damagesRange": null
+      },
+      {
+        "label": "2025 CAM overbilling (audit in progress)",
+        "probabilityRange": [
+          0.45,
+          0.65
+        ],
+        "damagesRange": null
+      },
+      {
+        "label": "Declaratory judgment (Count IV)",
+        "probabilityRange": [
+          0.65,
+          0.85
+        ],
+        "damagesRange": null
+      },
+      {
+        "label": "Waiver/estoppel and mitigation defenses",
+        "probabilityRange": [
+          0.2,
+          0.4
+        ],
+        "damagesRange": null
+      }
+    ],
+    "status": "pending",
+    "actualOutcome": null,
+    "resolvedAt": null,
+    "analysis": null
+  },
+  {
+    "registryId": "ny-are-east-river-science-park-v-nyc-health-and-hospitals-2024",
+    "caseId": null,
+    "caseTitle": "ARE-East River Science Park, LLC v. New York City Health and Hospitals Corporation and New York City Economic Development Corporation",
+    "court": "U.S. District Court for the Southern District of New York",
+    "docket": "1:24-cv-05956",
+    "filings": [
+      {
+        "side": "plaintiff",
+        "label": "First amended complaint (Jan. 24, 2025)",
+        "url": "https://storage.courtlistener.com/recap/gov.uscourts.nysd.626078/gov.uscourts.nysd.626078.33.0.pdf"
+      },
+      {
+        "side": "defendant",
+        "label": "Answer to amended complaint and counterclaims (Apr. 10, 2026)",
+        "url": "https://storage.courtlistener.com/recap/gov.uscourts.nysd.626078/gov.uscourts.nysd.626078.54.0.pdf"
+      }
+    ],
+    "predictedAt": "2026-09-25",
+    "model": "claude-sonnet-5",
+    "analysisVersion": "v2",
+    "category": "lease-disputes",
+    "side": "Landlord",
+    "predictedRange": [
+      3633343.75,
+      11000000
+    ],
+    "predictedBestGuess": 4941671.875,
+    "whatIsNeededForEstimate": null,
+    "likelyOutcome": "H+H/NYCEDC hold the stronger position on the gating question of whether the November 3, 2024 Closing Date passed and the Option terminated, given the strict construction typically applied to negotiated commercial option deadlines and the court's prior dismissal of ARE's fraud-based excuses -- but ARE's Unavoidable Delay/Section 3.2 tolling argument is genuinely unresolved and keeps both the $5 million deposit claim and the implied-covenant damages counterclaim meaningfully contested rather than a sure thing. Expect this to proceed toward trial (or a dispositive motion shortly before it) with H+H/NYCEDC more likely than not to prevail on the core declarations and to retain the deposit, but with real downside risk on the implied-covenant damages theory and residual uncertainty on amount and timing.",
+    "claims": [
+      {
+        "label": "Closing Date Passage / Option Termination Declaration",
+        "probabilityRange": [
+          0.55,
+          0.7
+        ],
+        "damagesRange": null
+      },
+      {
+        "label": "$5 Million Predevelopment Security Deposit Retention",
+        "probabilityRange": [
+          0.5,
+          0.65
+        ],
+        "damagesRange": [
+          5000000,
+          5000000
+        ]
+      },
+      {
+        "label": "Implied Covenant Damages for Refusal to Relinquish Option",
+        "probabilityRange": [
+          0.3,
+          0.5
+        ],
+        "damagesRange": [
+          3777812.5,
+          6000000
+        ]
+      },
+      {
+        "label": "Parking Relief (Specific Performance / Declaratory / Alternative Damages)",
+        "probabilityRange": [
+          0.55,
+          0.75
+        ],
+        "damagesRange": null
+      },
+      {
+        "label": "Dismissed Fraud and Implied-Covenant Damages Claims (ARE)",
+        "probabilityRange": [
+          0.95,
+          1
+        ],
+        "damagesRange": null
+      },
+      {
+        "label": "Procedural Defenses (Laches, Statute of Limitations, Discretionary Declination)",
+        "probabilityRange": [
+          0.15,
+          0.3
+        ],
+        "damagesRange": null
+      }
+    ],
+    "status": "pending",
+    "actualOutcome": null,
+    "resolvedAt": null,
+    "analysis": null
   }
 ]
