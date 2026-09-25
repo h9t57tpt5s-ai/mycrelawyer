@@ -101,7 +101,7 @@ const NARRATIVE_MODEL = "claude-sonnet-5";
 // supported ceiling as the range top, mitigation discount only on
 // evidence, represented party's own claims when valuing a defendant,
 // and opposing claims netted with an enforced negative sign.
-const ANALYSIS_VERSION = "v4";
+const ANALYSIS_VERSION = "v4.1";
 const EXTRACTION_MODEL = "claude-haiku-4-5";
 
 // Per-million-token pricing, for the cost-estimate logging below only --
@@ -118,13 +118,18 @@ const MODEL_PRICING_PER_MTOK: Record<string, { input: number; output: number }> 
 function logUsage(
   label: string,
   model: string,
-  usage: { input_tokens?: number; output_tokens?: number } | undefined,
+  usage: { input_tokens?: number | null; output_tokens?: number | null; cache_read_input_tokens?: number | null; cache_creation_input_tokens?: number | null } | undefined,
 ): number {
   const inTok = usage?.input_tokens ?? 0;
   const outTok = usage?.output_tokens ?? 0;
+  // Cache reads bill at 0.1x the input rate, cache writes at 1.25x.
+  const cacheRead = usage?.cache_read_input_tokens ?? 0;
+  const cacheWrite = usage?.cache_creation_input_tokens ?? 0;
   const pricing = MODEL_PRICING_PER_MTOK[model];
-  const cost = pricing ? (inTok / 1_000_000) * pricing.input + (outTok / 1_000_000) * pricing.output : 0;
-  console.log(`[cv-cost] ${label} model=${model} input_tokens=${inTok} output_tokens=${outTok} est_cost=$${cost.toFixed(4)}`);
+  const cost = pricing
+    ? ((inTok + cacheRead * 0.1 + cacheWrite * 1.25) / 1_000_000) * pricing.input + (outTok / 1_000_000) * pricing.output
+    : 0;
+  console.log(`[cv-cost] ${label} model=${model} input_tokens=${inTok} cache_read=${cacheRead} cache_write=${cacheWrite} output_tokens=${outTok} est_cost=$${cost.toFixed(4)}`);
   return cost;
 }
 
@@ -2328,7 +2333,7 @@ async function handle(req: Request): Promise<Response> {
                             rate: { anyOf: [{ type: "number" }, { type: "null" }], description: "A per-period dollar rate the record states (e.g. monthly rent), when the amount is rate x periods. Null otherwise." },
                             periods: { anyOf: [{ type: "number" }, { type: "null" }], description: "The number of periods the rate applies to, from the record's dates or terms. Null when amount is given." },
                             quote: { type: "string", description: "A VERBATIM passage copied from the case materials that states this figure (the amount, or the rate). The system checks the quote against the materials and drops any figure whose quote is not found word for word or does not contain the number." },
-                            disputed: { type: "boolean", description: "True when the other side actually contests this figure (not liability, the amount). Undisputed figures form the low end of the issue's range; all figures form the high end." },
+                            disputed: { type: "boolean", description: "True when the other side contests this figure. Informational only: to put a contested amount into the range, use basis 'competing' and quote each side's figure." },
                           },
                           required: ["label", "amount", "rate", "periods", "quote", "disputed"],
                           additionalProperties: false,
@@ -2393,7 +2398,12 @@ async function handle(req: Request): Promise<Response> {
       // the actual lever that matters here, since streaming/heartbeats do
       // not extend that ceiling at all.
       output_config: { effort: "medium", format: { type: "json_schema", schema: analysisSchema } },
-      system:
+      // Cost (2026-09-25, Jeff: "we need to be more efficient with the use
+      // of the api credits"): the instructions and the category's case-law
+      // list are identical from call to call, so both are cached blocks,
+      // billed at a fraction of the input rate when reused within the
+      // cache window. Only the case materials are new input each time.
+      system: [{ type: "text", cache_control: { type: "ephemeral" }, text:
         "You are an experienced commercial real estate litigator producing a probability-weighted case assessment -- not a legal opinion, not an adjudication, and not legal advice. " +
         `Read the case materials provided -- the user's own description of their case and/or uploaded/pasted document(s) -- and do a comprehensive analysis for the "${catSpec.label}" category: identify every claim, defense, and issue actually present in the record -- not just what a fixed checklist would catch. Weigh evidentiary strength, procedural posture, and any defenses or counterclaims raised. If the only material provided is the user's own description with no supporting document, analyze it exactly as rigorously, and say so candidly where the lack of a document leaves a fact unverified. ` +
         "GROUNDING REQUIREMENT: you may cite ONLY cases from the reference list below, copied EXACTLY by name -- never invent, alter, or guess at a case name, citation, or outcome. If no listed case supports a point, make the point without a citation rather than fabricating one. " +
@@ -2401,7 +2411,7 @@ async function handle(req: Request): Promise<Response> {
         "NO-INVENTED-NUMBERS REQUIREMENT, as important as the case-name grounding requirement above: a dollar estimate is only as honest as the facts underneath it. If the case materials -- the user's description and/or any document(s) -- contain NO actual economic anchor for the specific dispute (no rent or lease-value figure, no stated damages amount, no dollar figure tied to what actually happened here), you MUST set damagesRange and bestGuessValue to null rather than filling in a plausible-sounding 'typical case' number -- a range like '$15,000-$90,000' for a rent dispute where no rent amount was ever given is fabrication dressed up as analysis, not a real estimate, and directly contradicts this tool's core promise that every number is grounded in the actual facts provided. This applies even when the legal analysis itself is strong and the liability picture is clear -- confidence about who wins does not create a number for how much when none exists. When you do this, you MUST also populate whatIsNeededForEstimate with the SPECIFIC facts that would let you compute a real range (e.g. 'the monthly rent amount and how much time remains on the lease' -- not a vague 'more information needed') -- this is shown to the user as a direct prompt for what to add, so name the actual missing inputs. Still give full legal analysis (claims, defenses, likely outcome, citations) despite the missing number -- a legal assessment without a price tag is far more useful than a price tag invented from nothing. Only assign a real damagesRange/bestGuessValue (and leave whatIsNeededForEstimate null) when at least one concrete dollar figure or a computable proxy for one (e.g. a stated monthly rent AND a stated remaining term, from which a rent stream can actually be computed) appears in the case materials. " +
         "REQUESTED-RELIEF CEILING: if the case materials include or describe a specific motion, pleading, or demand that states a specific dollar amount actually being requested/prayed for from the court (e.g. a motion for summary judgment asking for a stated total, a demand letter with a stated figure, a petition with a specific prayer rather than an open-ended 'to be proven at trial'), populate requestedReliefCeiling with that exact total and your damagesRange/bestGuessValue for the side making that request must NEVER exceed it, even if your own analysis of the underlying facts would support a larger recovery -- the system also enforces this in code as a backstop, so treat it as a real constraint, not a soft suggestion. Reasoning that a bigger number is legally defensible belongs in the analysis prose as an explicit note (e.g. 'the record separately supports an additional $X not included in this motion's request') -- it must never be folded into the numeric damagesRange/bestGuessValue themselves. This mirrors real practice: a party's own choice about what to formally put in front of a court is real information about the state of that specific proceeding, not a ceiling this tool gets to second-guess upward. This ceiling applies only to the side that made the request and only up to what THAT request actually seeks -- it doesn't cap the other side's claims, and it doesn't apply when the operative pleading seeks unliquidated damages 'to be proven at trial' with no specific number attached (there, requestedReliefCeiling is null and your own analysis sets the range as usual). " +
         "Every dollar range must be a range, never a single number -- EXCEPT bestGuessValue, which (when a real number is warranted at all, per the requirement above) is deliberately the one point estimate in this whole analysis: after laying out the honest range, commit to the single number inside it you'd actually tell the client to plan around, reasoned from the same probability-weighting you used for the range and issues, not just its arithmetic midpoint. Write like a sharp litigator's internal case assessment memo for a client deciding whether to settle or fight -- direct and specific, not hedged into vagueness. " +
-        "HOW THE NUMBERS ARE MADE (version 4 -- read carefully): you do NOT write probabilities or dollar ranges for issues. The system computes them in code so that the same record always produces the same numbers. For each issue you make two kinds of input only. (1) strength: one band for how likely the issue's claimant is to win it -- 'conceded' (liability admitted, stipulated, defaulted, unanswered or established by an order), 'strong' (well-settled law on facts the record shows), 'favorable' (more likely than not, with a real dispute), 'even' (a genuine toss-up), 'unfavorable', or 'weak'. Pick the band the record supports; when a key fact is simply unknown, that is 'even', not 'strong'. (2) amount: the dollar figures the record states for this issue, each with a VERBATIM quote copied from the case materials that contains the number -- the rent the lease states, the balance the note states, the invoices, each side's appraisal, the demand in the prayer. Use a rate and a number of periods when the value is rent or interest over time. Mark a figure disputed only when the other side contests that amount. Choose basis 'itemized' when the figures add up to the issue's value and 'competing' when they are alternative values of the same thing. The code checks every quote against the materials and drops any figure it cannot find word for word, so copy exactly; do not round, restate or compute a figure yourself. If the record states no figure for an issue, set amount to null. " +
+        "HOW THE NUMBERS ARE MADE (version 4 -- read carefully): you do NOT write probabilities or dollar ranges for issues. The system computes them in code so that the same record always produces the same numbers. For each issue you make two kinds of input only. (1) strength: one band for how likely the issue's claimant is to win it -- 'conceded' (liability admitted, stipulated, defaulted, unanswered or established by an order), 'strong' (well-settled law on facts the record shows), 'favorable' (more likely than not, with a real dispute), 'even' (a genuine toss-up), 'unfavorable', or 'weak'. Pick the band the record supports; when a key fact is simply unknown, that is 'even', not 'strong'. (2) amount: the dollar figures the record states for this issue, each with a VERBATIM quote copied from the case materials that contains the number -- the rent the lease states, the balance the note states, the invoices, each side's appraisal, the demand in the prayer. Use a rate and a number of periods when the value is rent or interest over time. Choose basis 'itemized' when the figures add up to the issue's value, and 'competing' when the sides state different values for the same thing (two appraisals, the landlord's arrearage against the tenant's figure): quote each side's number so the range runs between them. The disputed field is informational only. The code checks every quote against the materials and drops any figure it cannot find word for word, so copy exactly; do not round, restate or compute a figure yourself. If the record states no figure for an issue, set amount to null. " +
         "CLAIM TYPES: map every issue to the category's standard claimType, and use 'other' only when none fits. Two issues about the same claim type for the same claimant are one issue. Defenses are their own issues with kind 'defense' and usually no amount. " +
         "MITIGATION AND OFFSETS: apply a mitigation, reletting or offset discount to a landlord's or lender's recovery ONLY where the case materials contain actual evidence of it -- a reletting at a stated rent, a rejected replacement tenant, a sale, a payment, a stated credit. In most jurisdictions the breaching party bears the burden of proving failure to mitigate; where the materials show no such evidence, say so in the issue's analysis and carry the claim at its supported amount rather than assuming a haircut. " +
         "THE REPRESENTED PARTY'S OWN CLAIMS: when the side being valued is a defendant -- a tenant, borrower, guarantor or contractor -- the matter is not only defense. List every affirmative claim, counterclaim and setoff the represented side asserts (constructive eviction, deposit return, unjust enrichment, lien foreclosure, contract damages, moving costs, lost profits) as its own issue with claimant 'represented', its own probability and its own damagesRange, and state in likelyOutcome which side's NET position the numbers describe. A defendant who wins its counterclaim has a positive value; do not report zero because the other side's claim fails. " +
@@ -2411,20 +2421,27 @@ async function handle(req: Request): Promise<Response> {
         (settlementBenchmark
           ? ` CONTRIBUTED SETTLEMENT DATA: below the case materials you'll also find real, reviewer-verified settlement amounts from ${settlementBenchmark.count} other matters in this same category and state -- actual money that actually changed hands, not a modeled or reported-opinion figure. Treat this as a distinct, valuable calibration anchor alongside the case-law citations, not a replacement for them: case law tells you how a court reasons about liability, this tells you what similar disputes actually settled for once collectibility, litigation cost, and every other real-world discount got baked in. Weigh your damagesRange and bestGuessValue against it -- if your own estimate lands far outside this real range, say so explicitly in the analysis and explain what makes this case different (different property scale, different facts, more/less exposure), rather than silently ignoring a real, on-point data point. Never cite it in citedCaseNames (that field is reserved for actual case law from the reference list) -- reference it in the analysis prose instead, e.g. 'contributed settlement data for comparable disputes in this state.'`
           : ""),
+      }],
       messages: [{
         role: "user",
-        content:
+        content: [{
+          type: "text",
+          cache_control: { type: "ephemeral" },
+          text: `Real cited precedent you may draw on (cite ONLY from this list, by exact name):\n${citationPoolText}\n`,
+        }, {
+          type: "text",
+          text:
           `Category: ${catSpec.label}\n` +
           `Filing party's role: ${roleLabel}\n` +
           `Expect trial: ${requestBody.expectToTrial ? "yes" : "no (settlement/motion practice expected)"}\n` +
           (requestBody.settlementOnTable ? `Settlement currently on the table: ${fmtMoney(requestBody.settlementOnTable)}\n` : "") +
           `\nFixed-formula baseline model output (reference only, not authoritative):\n${JSON.stringify(baselineSummary, null, 2)}\n` +
-          `\nReal cited precedent you may draw on (cite ONLY from this list, by exact name):\n${citationPoolText}\n` +
           (settlementBenchmark
             ? `\nContributed real-settlement data (${settlementBenchmark.count} reviewer-approved matters, same category + state): median settled ${fmtMoney(settlementBenchmark.median)}, range ${fmtMoney(settlementBenchmark.min)}-${fmtMoney(settlementBenchmark.max)}.` +
               (settlementBenchmark.drivers.length ? ` Notable drivers from these matters: ${settlementBenchmark.drivers.join("; ")}.\n` : "\n")
             : "") +
           `\n=== The case materials to analyze (the user's own description and/or uploaded document(s)) ===\n${combinedCaseText}`,
+        }],
       }],
     });
     const analysis = await analysisStream.finalMessage();
@@ -2496,9 +2513,14 @@ async function handle(req: Request): Promise<Response> {
           const vals = figures.map((f) => f.value);
           damagesRange = [Math.min(...vals), Math.max(...vals)];
         } else {
+          // v4.1: an itemized claim is worth the sum of its verified
+          // figures if won; the uncertainty is carried by the strength
+          // band. The v4 paired runs showed a yes/no "disputed" flag moving
+          // the low end between the full amount and $0 on identical input
+          // (US Bank, Kotis, Dover Mall). A contested amount belongs in
+          // basis 'competing', with each side's figure quoted.
           const all = figures.reduce((a, f) => a + f.value, 0);
-          const undisputed = figures.filter((f) => !f.disputed).reduce((a, f) => a + f.value, 0);
-          damagesRange = [undisputed, all];
+          damagesRange = [all, all];
         }
         // An opposing issue is exposure: what the represented side may pay.
         if (claimant === "opposing") damagesRange = [-damagesRange[1], -damagesRange[0]];
@@ -2713,6 +2735,9 @@ async function handle(req: Request): Promise<Response> {
         // never attributed to the wrong model if NARRATIVE_MODEL changes.
         model: NARRATIVE_MODEL,
         analysisVersion: ANALYSIS_VERSION,
+        // Backtest callers get the run's estimated API cost so spending is
+        // measured per run (Jeff, 2026-09-25, on API cost).
+        ...(isBacktest ? { cost: { totalUsd: Number(totalEstCost.toFixed(4)), analysisUsd: Number(analysisCost.toFixed(4)), analysisUsage: analysis.usage } } : {}),
       },
       costData,
     }, 200);

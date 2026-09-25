@@ -77,6 +77,7 @@ def summarize(analysis):
     return {
         "model": analysis.get("model"),
         "analysisVersion": analysis.get("analysisVersion") or "v1",
+        "cost": analysis.get("cost"),
         "category": analysis.get("category"),
         "roleLabel": analysis.get("roleLabel"),
         "damagesRange": analysis.get("damagesRange"),

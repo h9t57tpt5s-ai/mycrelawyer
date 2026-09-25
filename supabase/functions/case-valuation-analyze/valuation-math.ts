@@ -36,6 +36,10 @@ export function moneyValues(text: string): number[] {
   return out;
 }
 
+// Figures below this are not dollar amounts in a CRE dispute; a v4 run
+// counted a stray "1" (a section number) as a figure.
+export const MIN_FIGURE = 100;
+
 const near = (a: number, b: number) => Math.abs(a - b) <= Math.max(0.5, Math.abs(b) * 0.005);
 
 // A figure counts only if its quote appears in the case materials and
@@ -50,10 +54,10 @@ export function verifyFigure(it: Record<string, unknown>, caseTextKey: string): 
   const periods = typeof it.periods === "number" && Number.isFinite(it.periods) ? Math.abs(it.periods) : null;
   const label = typeof it.label === "string" ? it.label : "Figure";
   const disputed = it.disputed === true;
-  if (amount !== null && amount > 0 && inQuote.some((v) => near(v, amount))) {
+  if (amount !== null && amount >= MIN_FIGURE && inQuote.some((v) => near(v, amount))) {
     return { label, value: amount, disputed, quote, computed: null };
   }
-  if (rate !== null && rate > 0 && periods !== null && periods > 0 && periods <= 600 && inQuote.some((v) => near(v, rate))) {
+  if (rate !== null && rate >= MIN_FIGURE && periods !== null && periods > 0 && periods <= 600 && inQuote.some((v) => near(v, rate))) {
     return { label, value: rate * periods, disputed, quote, computed: `${rate} x ${periods}` };
   }
   return null;

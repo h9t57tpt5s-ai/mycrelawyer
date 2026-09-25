@@ -48,3 +48,8 @@ Deno.test("bands are fixed and ordered", () => {
   const order = ["weak", "unfavorable", "even", "favorable", "strong", "conceded"] as const;
   for (let i = 1; i < order.length; i++) assert(STRENGTH_BANDS[order[i]][0] > STRENGTH_BANDS[order[i - 1]][0], `${order[i]} above ${order[i - 1]}`);
 });
+
+Deno.test("tiny numbers are not dollar figures", () => {
+  const key = alnumKey("pursuant to Section 1 of the Lease, Tenant shall pay rent");
+  assert(verifyFigure({ label: "x", amount: 1, rate: null, periods: null, quote: "pursuant to Section 1 of the Lease", disputed: false }, key) === null, "section number rejected");
+});
