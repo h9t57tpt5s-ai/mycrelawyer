@@ -1,0 +1,199 @@
+{
+ "id": "mckinney-v-park-plaza-properties-2026",
+ "ranAt": "2026-09-25T15:41:43+00:00",
+ "status": 200,
+ "prediction": {
+  "model": "claude-sonnet-5",
+  "analysisVersion": "v4",
+  "category": "lease-disputes",
+  "roleLabel": "Landlord",
+  "damagesRange": [
+   30801.87,
+   302895.95999999996
+  ],
+  "bestGuessValue": 145174.7225,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": "Park Plaza is more likely than not to prevail on liability against the tenant/guarantors for the unpaid rent, reletting, and demolition damages, but the tenant's prior-material-breach counterclaim (particularly the corroborated floor-condition evidence) creates a real risk of a partial offset, and the $107,781.91 landlord's-work reimbursement claim is unlikely to be awarded in full given it duplicates the landlord's own independent contractual obligations. Net recovery for Park Plaza is likely to land well below the full $302,895.96 sought at trial.",
+  "issues": [
+   {
+    "label": "Tenant's Prior-Material-Breach Defense (HVAC/Floors/Bathrooms)",
+    "probabilityRange": [
+     0.25,
+     0.4
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "defense",
+    "claimType": "quiet_enjoyment_breach",
+    "strength": "unfavorable",
+    "figures": [],
+    "droppedFigures": 0
+   },
+   {
+    "label": "Reletting / Mitigation Costs",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": [
+     0,
+     143777.6
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": 143777.6,
+    "kind": "claim",
+    "claimType": "releasing_mitigation_costs",
+    "strength": "favorable",
+    "figures": [
+     {
+      "label": "Reletting costs to neighboring tenant",
+      "value": 143777.6,
+      "disputed": true,
+      "quote": "$143,777.60 for costs to relet the space to the neighboring tenant",
+      "computed": null
+     }
+    ],
+    "droppedFigures": 0
+   },
+   {
+    "label": "Unpaid Back Rent",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": [
+     45736.45,
+     45736.45
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": 45736.45,
+    "kind": "claim",
+    "claimType": "unpaid_rent",
+    "strength": "favorable",
+    "figures": [
+     {
+      "label": "Back rent",
+      "value": 45736.45,
+      "disputed": false,
+      "quote": "$45,736.45 in back rent",
+      "computed": null
+     }
+    ],
+    "droppedFigures": 0
+   },
+   {
+    "label": "Landlord's-Work / Tenant-Improvement Reimbursement",
+    "probabilityRange": [
+     0.05,
+     0.2
+    ],
+    "damagesRange": [
+     0,
+     107781.91
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": 107781.91,
+    "kind": "claim",
+    "claimType": "other",
+    "strength": "weak",
+    "figures": [
+     {
+      "label": "Landlord's work costs",
+      "value": 107781.91,
+      "disputed": true,
+      "quote": "$107,781.91 for the amount he expended to complete the landlord's work",
+      "computed": null
+     }
+    ],
+    "droppedFigures": 0
+   },
+   {
+    "label": "Demolition Costs",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": [
+     5600,
+     5600
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": 5600,
+    "kind": "claim",
+    "claimType": "property_damage",
+    "strength": "favorable",
+    "figures": [
+     {
+      "label": "Demolition costs",
+      "value": 5600,
+      "disputed": false,
+      "quote": "$5,600.00 in demolition costs to make the space available for viewing by another tenant",
+      "computed": null
+     }
+    ],
+    "droppedFigures": 0
+   },
+   {
+    "label": "Enforceability of Original Effective Date Despite Email Exchanges (No-Oral-Modification Clause)",
+    "probabilityRange": [
+     0.45,
+     0.55
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "defense",
+    "claimType": "other",
+    "strength": "even",
+    "figures": [],
+    "droppedFigures": 0
+   },
+   {
+    "label": "Personal Guaranty Enforceability",
+    "probabilityRange": [
+     0.95,
+     0.99
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "conceded",
+    "supportedCeiling": null,
+    "kind": "defense",
+    "claimType": "other",
+    "strength": "conceded",
+    "figures": [],
+    "droppedFigures": 0
+   }
+  ],
+  "citationCoverage": {
+   "count": 39,
+   "tier": "strong"
+  }
+ },
+ "error": null,
+ "outcome": {
+  "amount": 51336.45,
+  "amountIsTheRequestedAmount": false,
+  "date": "2026-09-02",
+  "description": "After a bench trial the circuit court found the lease effective date was modified to May 1, 2022, that the landlord did not breach and the tenants did, and entered judgment against the tenants and guarantors jointly and severally for $51,336.45 (back rent of $45,736.45 plus $5,600 demolition costs, each equal to the component the landlord requested), declining the $107,781.91 landlord's-work and $143,777.60 reletting-cost claims; no attorney's fees are mentioned. The court of appeals affirmed the judgment on direct appeal and, on cross-appeal, reversed the denial of reletting costs and remanded for findings on whether the $143,777.60 qualifies as reasonable reletting costs under the lease.",
+  "attorneysFeesAtTrial": null,
+  "appellateChange": "affirmed",
+  "finalAmount": 51336.45,
+  "finalNote": "Affirmed; the denial of reletting costs was reversed on cross-appeal and remanded, so the final total could rise."
+ },
+ "source": {
+  "caseName": "Shayne McKinney v. Park Plaza Properties, LLC",
+  "court": "Arkansas Court of Appeals, Division IV, on appeal from Sebastian County Circuit Court, Fort Smith District",
+  "docket": "No. CV-25-361 (circuit court No. 66FCV-22-1104)",
+  "decided": "2026-09-02",
+  "url": "https://opinions.arcourts.gov/ark/courtofappeals/en/524547/1/document.do",
+  "excerptNote": "Verbatim from Part I (Facts and Procedural History), from formation of the tenant entity through the trial testimony of the landlord's owner and the tenant's principal and flooring contractor. Removed: the introduction stating the judgment amount, the circuit court's rationale for dismissing the alternative counts, the testimony of the architect, project manager and framing contractor (for length), the paragraphs stating the circuit court's post-trial findings and award, and all appellate analysis/holdings. The dollar figures that remain are the landlord's claimed damage components and the lease rent."
+ }
+}

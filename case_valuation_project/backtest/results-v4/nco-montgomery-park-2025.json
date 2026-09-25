@@ -1,0 +1,182 @@
+{
+ "id": "nco-montgomery-park-2025",
+ "ranAt": "2026-09-25T15:59:59+00:00",
+ "status": 200,
+ "prediction": {
+  "model": "claude-sonnet-5",
+  "analysisVersion": "v4",
+  "category": "lease-disputes",
+  "roleLabel": "Landlord",
+  "damagesRange": [
+   0,
+   313662.76
+  ],
+  "bestGuessValue": 211722.363,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": "Montgomery Park is more likely than not to prevail on its position that NCO's early termination was ineffective and that rent remained due, given its contemporaneous notice disputing satisfaction of the termination conditions, but this is a genuine, fully-contested bench-trial issue rather than a sure thing. The quantifiable recovery on this record centers on the $313,662.76 demanded in the July 2011 default letter, likely augmented by contractual attorney's fees and default-rate interest in an amount not yet ascertainable from the materials, with a potentially much larger unquantified additional rent claim if the lease is found to have remained in force through the balance of its term.",
+  "issues": [
+   {
+    "label": "Past-Due Rent Through July 2011 Default Letter",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": [
+     0,
+     313662.76
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": 313662.76,
+    "kind": "claim",
+    "claimType": "unpaid_rent",
+    "strength": "favorable",
+    "figures": [
+     {
+      "label": "Rent due per July 13, 2011 default letter",
+      "value": 313662.76,
+      "disputed": true,
+      "quote": "the sum of $313,662.76",
+      "computed": null
+     }
+    ],
+    "droppedFigures": 0
+   },
+   {
+    "label": "Continuing Rent for Remainder of 12-Year Term",
+    "probabilityRange": [
+     0.45,
+     0.55
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "unpaid_rent",
+    "strength": "even",
+    "figures": [],
+    "droppedFigures": 0
+   },
+   {
+    "label": "Contractual Attorney's Fees Under Section 14.04",
+    "probabilityRange": [
+     0.8,
+     0.9
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "attorney_fees",
+    "strength": "strong",
+    "figures": [],
+    "droppedFigures": 0
+   },
+   {
+    "label": "Default-Rate Interest",
+    "probabilityRange": [
+     0.8,
+     0.9
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "other",
+    "strength": "strong",
+    "figures": [],
+    "droppedFigures": 0
+   },
+   {
+    "label": "Validity of NCO's Early Termination (Threshold Liability Defense)",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "defense",
+    "claimType": "other",
+    "strength": "favorable",
+    "figures": [],
+    "droppedFigures": 0
+   },
+   {
+    "label": "NCO's Square-Footage Overcharge / Rent Recalculation Claim",
+    "probabilityRange": [
+     0.05,
+     0.2
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "other",
+    "strength": "weak",
+    "figures": [],
+    "droppedFigures": 0
+   },
+   {
+    "label": "NCO's Unjust Enrichment Claim",
+    "probabilityRange": [
+     0.05,
+     0.2
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "other",
+    "strength": "weak",
+    "figures": [],
+    "droppedFigures": 0
+   },
+   {
+    "label": "NCO's Fraud Claim",
+    "probabilityRange": [
+     0.05,
+     0.2
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "other",
+    "strength": "weak",
+    "figures": [],
+    "droppedFigures": 0
+   }
+  ],
+  "citationCoverage": {
+   "count": 39,
+   "tier": "strong"
+  }
+ },
+ "error": null,
+ "outcome": {
+  "amount": 9854566.95,
+  "amountIsTheRequestedAmount": false,
+  "date": "2025-04-14",
+  "description": "After a bench trial the district court entered judgment for Montgomery Park on its past-due-rent counterclaim of $9,854,566.95 plus postjudgment interest (upheld in earlier Fourth Circuit appeals at 842 F.3d 816, 918 F.3d 388 and 40 F.4th 123). The court then awarded $2,074,379.88 in attorneys' fees and nontaxable expenses, $115,942.10 taxable costs and $1,576,036.07 default interest ($3,766,358.05 total). In this fifth appeal the Fourth Circuit affirmed the fee/cost award (including expert fees) but vacated the default-interest component, holding interest runs only from the August 24, 2022 demand, and remanded for recalculation; the underlying rent judgment was not disturbed.",
+  "attorneysFeesAtTrial": 2074379.88,
+  "appellateChange": "affirmed",
+  "finalAmount": 9854566.95,
+  "finalNote": "Affirmed."
+ },
+ "source": {
+  "caseName": "NCO Financial Systems, Inc. v. Montgomery Park, LLC",
+  "court": "U.S. Court of Appeals for the Fourth Circuit (appeal from D. Md., No. 1:11-cv-01020-GLR)",
+  "docket": "No. 24-1294",
+  "decided": "2025-04-14",
+  "url": "https://www.govinfo.gov/content/pkg/USCOURTS-ca4-24-01294/pdf/USCOURTS-ca4-24-01294-0.pdf",
+  "excerptNote": "Verbatim from the opinion's introduction, Part I (background), Part II (lease Section 14.04 text) and Part III (description of the parties' pleadings). Removed: the intro sentence describing the roughly $3.8 million fee/cost award under review; the footnote summarizing the holdings of the three prior Fourth Circuit appeals; the sentence stating the bench-trial judgment amount; Montgomery Park's post-judgment fee motion and the district court's fee/cost/interest award figures; and all of the panel's analysis and conclusions."
+ }
+}

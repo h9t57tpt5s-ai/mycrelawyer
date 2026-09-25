@@ -1,0 +1,143 @@
+{
+ "id": "frye-v-raphaelson-estate-2023",
+ "ranAt": "2026-09-25T16:08:47+00:00",
+ "status": 200,
+ "prediction": {
+  "model": "claude-sonnet-5",
+  "analysisVersion": "v4",
+  "category": "lease-disputes",
+  "roleLabel": "Landlord",
+  "damagesRange": [
+   -28900,
+   160000
+  ],
+  "bestGuessValue": 84250,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": "The Estate is very likely to establish liability for uncompensated use and occupancy of the Dock Street Properties and Commerce Property, but the $160,000 demanded is improbable given the thin, family-member-opinion valuation evidence, the more specific (and lower) rate the record supports for the Commerce Property, and the $16,000 cleanup offset. Netted against Plaintiff's own partially-documented $25,000-$70,000 unjust enrichment claim, the Estate should come out net positive but well below its stated ask \u2014 likely in the range of roughly $30,000-$140,000, with something in the middle of that range the more probable landing point after a Magistrate applies separate rates to the parcels and discounts for proof gaps on both sides.",
+  "issues": [
+   {
+    "label": "Estate's Counterclaim for Use Value / Unjust Enrichment (Occupancy Jan. 2020-Aug. 2022)",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": [
+     16000,
+     160000
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": 160000,
+    "kind": "claim",
+    "claimType": "unpaid_rent",
+    "strength": "favorable",
+    "figures": [
+     {
+      "label": "Estate's claimed blended rate x period",
+      "value": 160000,
+      "disputed": true,
+      "quote": "seeks compensation of $160,000.00 ($5,000.00 for each month)",
+      "computed": null
+     },
+     {
+      "label": "Cleanup cost offset against Commerce Property rent",
+      "value": 16000,
+      "disputed": false,
+      "quote": "The Plaintiff estimated the cleanup would cost around $16,000.00",
+      "computed": null
+     }
+    ],
+    "droppedFigures": 2
+   },
+   {
+    "label": "Plaintiff's Defense: Failure to Prove Quantum with Reasonable Certainty",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "defense",
+    "claimType": "other",
+    "strength": "favorable",
+    "figures": [],
+    "droppedFigures": 0
+   },
+   {
+    "label": "Plaintiff's Defense: Irrevocable License",
+    "probabilityRange": [
+     0.05,
+     0.2
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "defense",
+    "claimType": "other",
+    "strength": "weak",
+    "figures": [],
+    "droppedFigures": 0
+   },
+   {
+    "label": "Plaintiff's Unjust Enrichment Claim (Failed Sale Payments)",
+    "probabilityRange": [
+     0.45,
+     0.55
+    ],
+    "damagesRange": [
+     -70000,
+     -25000
+    ],
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": -70000,
+    "kind": "claim",
+    "claimType": "other",
+    "strength": "even",
+    "figures": [
+     {
+      "label": "Plaintiff's total claimed unjust enrichment",
+      "value": 70000,
+      "disputed": true,
+      "quote": "the Plaintiff argues he has been impoverished, and the Defendant has been enriched, by at least $70,000.00",
+      "computed": null
+     },
+     {
+      "label": "Documented payments via J.D.A.S., Inc. toward purchase price",
+      "value": 25000,
+      "disputed": false,
+      "quote": "the Plaintiff, through J.D.A.S., Inc. paid Mr. Raphaelson $25,000.00",
+      "computed": null
+     }
+    ],
+    "droppedFigures": 0
+   }
+  ],
+  "citationCoverage": {
+   "count": 39,
+   "tier": "strong"
+  }
+ },
+ "error": null,
+ "outcome": {
+  "amount": 44000,
+  "amountIsTheRequestedAmount": false,
+  "date": "2023-08-31",
+  "description": "The Magistrate's final post-trial report recommended judgment for the estate and against the occupant for $44,000.00 on the estate's unjust-enrichment counterclaim ($1,000 per month for the Dock Street Properties from May 2020 through August 2022, plus $1,000 per month agreed rent for the Commerce Property from April 2021 through August 2022), rejecting the $5,000-per-month / $160,000 demand, denying the occupant's own $70,000 unjust-enrichment claim, and denying the estate's trespass counterclaim; costs to the estate as prevailing party, no attorney's fees.",
+  "attorneysFeesAtTrial": null,
+  "appellateChange": "none - trial-level magistrate's final report (exceptions available under Court of Chancery Rule 144); no appellate ruling in this document",
+  "finalAmount": 44000,
+  "finalNote": "Trial-level report; no appeal reflected."
+ },
+ "source": {
+  "caseName": "Frye v. Estate of Raphaelson",
+  "court": "Delaware Court of Chancery (Magistrate in Chancery, final post-trial report)",
+  "docket": "C.A. No. 2020-0325-SEM",
+  "decided": "2023-08-31",
+  "url": "http://courts.delaware.gov/Opinions/Download.aspx?id=352620",
+  "excerptNote": "Verbatim sentences from Part I (Background, subsections A-F: early years, use and occupancy, attempted purchase, Commerce Property, falling out, procedural history) plus the paragraph of Part II.A that lays out each side's unjust-enrichment demand and the occupant's two responsive arguments. Removed: the introduction and conclusion stating the recommended judgment; every 'I find' / 'I recommend' sentence; the magistrate's rental-value estimate and month-by-month computation; the trespass ruling; footnote citations and record cites. PDF line-break and word-split artifacts were normalized; no wording changed."
+ }
+}

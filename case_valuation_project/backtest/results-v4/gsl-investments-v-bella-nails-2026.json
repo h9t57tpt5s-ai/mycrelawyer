@@ -1,0 +1,242 @@
+{
+ "id": "gsl-investments-v-bella-nails-2026",
+ "ranAt": "2026-09-25T15:33:09+00:00",
+ "status": 200,
+ "prediction": {
+  "model": "claude-sonnet-5",
+  "analysisVersion": "v4",
+  "category": "lease-disputes",
+  "roleLabel": "Landlord",
+  "damagesRange": [
+   102709.28800000002,
+   132139.24
+  ],
+  "bestGuessValue": 109691.513,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": "The landlord is very likely to obtain summary judgment on the core breach-of-lease, guaranty, and indemnification claims given the unopposed motion and unrebutted principal's affidavit; the main uncertainty is whether the court trims the attorney's fee or interest components for reasonableness/calculation reasons, and whether the guarantor's informal lockout/conversion allegations later mature into a real setoff or separate claim. Net, this analysis values the landlord's recovery at or near the $132,139.24 actually requested in the pending motion, with a modest downward adjustment for possible fee/interest trimming and lockout risk.",
+  "issues": [
+   {
+    "label": "Unpaid Rent and Fees Through Termination",
+    "probabilityRange": [
+     0.8,
+     0.9
+    ],
+    "damagesRange": [
+     104295.8,
+     104295.8
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": 104295.8,
+    "kind": "claim",
+    "claimType": "unpaid_rent",
+    "strength": "strong",
+    "figures": [
+     {
+      "label": "Overdue rent and fees as of termination",
+      "value": 104295.8,
+      "disputed": false,
+      "quote": "$104,295.80 in overdue rent and fees as of the August 15, 2024 termination of the lease",
+      "computed": null
+     }
+    ],
+    "droppedFigures": 0
+   },
+   {
+    "label": "Clean-Out / Removal Costs",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": [
+     3000,
+     3000
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": 3000,
+    "kind": "claim",
+    "claimType": "property_damage",
+    "strength": "favorable",
+    "figures": [
+     {
+      "label": "Clean-out costs paid to Advanced Concepts, Inc.",
+      "value": 3000,
+      "disputed": false,
+      "quote": "$3,000 in clean-out costs",
+      "computed": null
+     }
+    ],
+    "droppedFigures": 0
+   },
+   {
+    "label": "Prejudgment Statutory Interest",
+    "probabilityRange": [
+     0.8,
+     0.9
+    ],
+    "damagesRange": [
+     12416.92,
+     12416.92
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": 12416.92,
+    "kind": "claim",
+    "claimType": "other",
+    "strength": "strong",
+    "figures": [
+     {
+      "label": "Prejudgment statutory interest",
+      "value": 12416.92,
+      "disputed": false,
+      "quote": "$12,416.92 in prejudgment statutory interest",
+      "computed": null
+     }
+    ],
+    "droppedFigures": 0
+   },
+   {
+    "label": "Contractual Attorney's Fees",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": [
+     12010.52,
+     12010.52
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": 12010.52,
+    "kind": "claim",
+    "claimType": "attorney_fees",
+    "strength": "favorable",
+    "figures": [
+     {
+      "label": "Attorney's fees claimed",
+      "value": 12010.52,
+      "disputed": false,
+      "quote": "$12,010.52 in attorneys' fees",
+      "computed": null
+     }
+    ],
+    "droppedFigures": 0
+   },
+   {
+    "label": "Court Costs",
+    "probabilityRange": [
+     0.8,
+     0.9
+    ],
+    "damagesRange": [
+     416,
+     416
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": 416,
+    "kind": "claim",
+    "claimType": "other",
+    "strength": "strong",
+    "figures": [
+     {
+      "label": "Court costs",
+      "value": 416,
+      "disputed": false,
+      "quote": "$416.00 in court costs",
+      "computed": null
+     }
+    ],
+    "droppedFigures": 0
+   },
+   {
+    "label": "Personal Guaranty Liability",
+    "probabilityRange": [
+     0.8,
+     0.9
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "defense",
+    "claimType": "other",
+    "strength": "strong",
+    "figures": [],
+    "droppedFigures": 0
+   },
+   {
+    "label": "Wrongful Lockout / Conversion Counterclaim",
+    "probabilityRange": [
+     0.05,
+     0.2
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "wrongful_lockout",
+    "strength": "weak",
+    "figures": [],
+    "droppedFigures": 0
+   },
+   {
+    "label": "'Phantom LLC' / Improper Party Defense",
+    "probabilityRange": [
+     0.05,
+     0.2
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "defense",
+    "claimType": "other",
+    "strength": "weak",
+    "figures": [],
+    "droppedFigures": 0
+   },
+   {
+    "label": "Unspecified Affirmative Defenses (Original Answer)",
+    "probabilityRange": [
+     0.05,
+     0.2
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "defense",
+    "claimType": "other",
+    "strength": "weak",
+    "figures": [],
+    "droppedFigures": 0
+   }
+  ],
+  "citationCoverage": {
+   "count": 39,
+   "tier": "strong"
+  }
+ },
+ "error": null,
+ "outcome": {
+  "amount": 120128.72,
+  "amountIsTheRequestedAmount": true,
+  "date": "2026-07-27",
+  "description": "On September 4, 2025 the trial court granted the landlord summary judgment for $132,139.24, exactly the sum itemized in the landlord's affidavit ($104,295.80 overdue rent and fees, $3,000 clean-out costs, $12,416.92 prejudgment interest, $12,010.52 attorneys' fees and $416 court costs), plus 8 percent post-judgment interest and collection fees; the amount recorded here is the judgment less the $12,010.52 in attorneys' fees. The Twelfth District affirmed on July 27, 2026, holding the guarantor forfeited his lockout, notarization and phantom-LLC arguments by not opposing the motion.",
+  "attorneysFeesAtTrial": 12010.52,
+  "appellateChange": "affirmed",
+  "finalAmount": 120128.72,
+  "finalNote": "Affirmed."
+ },
+ "source": {
+  "caseName": "GSL Investments I, LLC v. Bella Nails & Spa, LLC, et al.",
+  "court": "Ohio Court of Appeals, Twelfth District, Butler County (appeal from Butler County Court of Common Pleas, Case No. CV 2024 02 0451)",
+  "docket": "CA2025-09-108; 2026-Ohio-2858",
+  "decided": "2026-07-27",
+  "url": "https://www.supremecourt.ohio.gov/rod/docs/pdf/12/2026/2026-Ohio-2858.pdf",
+  "excerptNote": "Verbatim from Part I (Facts & Procedural History, paragraphs 2-3, 7-9, 12-14, first sentence of 15) plus the tenant's contentions from paragraphs 21 and 27. Removed: the sentence stating the trial court's summary-judgment amount and post-judgment terms (rest of paragraph 15), the trial court's orders striking filings, the Section 21.2 default definition and Section 22 remedies clause, the First Amendment rent table, the base-rent table, and all appellate analysis. Lease-table rows are joined on one line."
+ }
+}

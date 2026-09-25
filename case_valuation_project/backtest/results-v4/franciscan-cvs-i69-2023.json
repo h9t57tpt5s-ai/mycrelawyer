@@ -1,0 +1,150 @@
+{
+ "id": "franciscan-cvs-i69-2023",
+ "ranAt": "2026-09-25T16:14:45+00:00",
+ "status": 200,
+ "prediction": {
+  "model": "claude-sonnet-5",
+  "analysisVersion": "v4",
+  "category": "eminent-domain",
+  "roleLabel": "Property Owner",
+  "damagesRange": [
+   893475,
+   4447400
+  ],
+  "bestGuessValue": 2245978,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": "Owners are essentially certain to recover fair market value for the Strip ($40,500-$47,400), but the case's real value turns on a genuinely contested, roughly even-odds legal question -- whether Indiana's traffic-flow/circuity bar (Ensley) or the narrow Marina Entertainment highest-and-best-use exception controls the access-damages theory -- which the pending motion in limine will likely resolve before or at trial. If the access theory survives, a jury verdict in the range of the joint appraisers' ~$1.9 million report is the most probable outcome; the more aggressive $3-4.4 million individual appraisals are also live but face added appellate risk from the State's preserved continuing objection to the jury instructions.",
+  "issues": [
+   {
+    "label": "Loss-of-Access / Severance Damages (Highest-and-Best-Use Theory)",
+    "probabilityRange": [
+     0.45,
+     0.55
+    ],
+    "damagesRange": [
+     1900000,
+     4400000
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": 4400000,
+    "kind": "claim",
+    "claimType": "just_compensation_valuation",
+    "strength": "even",
+    "figures": [
+     {
+      "label": "Franciscan's appraiser severance-damages figure",
+      "value": 3000000,
+      "disputed": true,
+      "quote": "Franciscan's appraiser calculated a $3 million loss.",
+      "computed": null
+     },
+     {
+      "label": "SCP's appraiser severance-damages figure",
+      "value": 4400000,
+      "disputed": true,
+      "quote": "SCP's appraiser landed on a value of $4.4 million because the CVS's income derives from \"spontaneous buyers\" who need the \"quick, in and out\" that access to a major roadway provides.",
+      "computed": null
+     },
+     {
+      "label": "Joint appraisers' report (combined Franciscan and SCP)",
+      "value": 1900000,
+      "disputed": true,
+      "quote": "a joint report from the appraisers calculated damages at about $1.9 million for both Franciscan and SCP",
+      "computed": null
+     }
+    ],
+    "droppedFigures": 0
+   },
+   {
+    "label": "Compensation for the Taken Strip",
+    "probabilityRange": [
+     0.95,
+     0.99
+    ],
+    "damagesRange": [
+     40500,
+     47400
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "conceded",
+    "supportedCeiling": 47400,
+    "kind": "claim",
+    "claimType": "just_compensation_valuation",
+    "strength": "conceded",
+    "figures": [
+     {
+      "label": "State's appraisal of the Strip",
+      "value": 40500,
+      "disputed": true,
+      "quote": "The Strip was valued at either $40,500 or $47,400, and according to the State's appraiser, this taking was the only compensable damage.",
+      "computed": null
+     },
+     {
+      "label": "Owners' appraisal of the Strip",
+      "value": 47400,
+      "disputed": true,
+      "quote": "The Strip was valued at either $40,500 or $47,400, and according to the State's appraiser, this taking was the only compensable damage.",
+      "computed": null
+     }
+    ],
+    "droppedFigures": 0
+   },
+   {
+    "label": "Motion in Limine to Exclude Access-Damages Evidence",
+    "probabilityRange": [
+     0.25,
+     0.4
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "defense",
+    "claimType": "other",
+    "strength": "unfavorable",
+    "figures": [],
+    "droppedFigures": 0
+   },
+   {
+    "label": "Preserved Continuing Objection to Jury Instructions",
+    "probabilityRange": [
+     0.25,
+     0.4
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "defense",
+    "claimType": "other",
+    "strength": "unfavorable",
+    "figures": [],
+    "droppedFigures": 0
+   }
+  ],
+  "citationCoverage": {
+   "count": 22,
+   "tier": "strong"
+  }
+ },
+ "error": null,
+ "outcome": {
+  "amount": 2200000,
+  "amountIsTheRequestedAmount": false,
+  "date": "2023-11-28",
+  "description": "The Johnson Superior Court jury awarded $680,000 to Franciscan and $1.5 million to SCP (a $2.2 million judgment), with attorney's fees awarded to both owners under Ind. Code 32-24-1-14(b) (amount not stated) and 8% prejudgment interest. The Court of Appeals reversed on November 28, 2023, holding the traffic-flow rule bars the access damages, and remanded with instructions to vacate the judgment for SCP and enter judgment for Franciscan for only the value of the strip (appraised at $40,500-$47,400), with prejudgment interest recalculated.",
+  "attorneysFeesAtTrial": null,
+  "appellateChange": "reversed",
+  "finalAmount": 44000,
+  "finalNote": "Reversed: only the strip taking is compensable, about $40,500-$47,400 on the record; midpoint used."
+ },
+ "source": {
+  "caseName": "State of Indiana v. Franciscan Alliance, Inc. f/k/a Sisters of St. Francis Health Services, Inc.; The Market Place at State Road 37, LLC; Hook SupeRX, LLC; SCP 2010-C36-018 LLC; and Johnson County, Indiana",
+  "court": "Court of Appeals of Indiana",
+  "docket": "22A-PL-2969 (Johnson Superior Court Cause No. 41D04-1911-PL-181)",
+  "decided": "2023-11-28",
+  "url": "https://public.courts.in.gov/Decisions/api/Document/Opinion?Id=dyEe-G6TfgNLbmXgEg_IkVwtqjV0VXJe2bOJ4VdFqgLdjmWknwT_aQsgFUjNIm_J0",
+  "excerptNote": "Verbatim from the Facts section (paras. 3-5) and the waiver discussion (paras. 9-10) describing pre-trial objections, plus the statement of the traffic-flow rule and the Owners' highest-and-best-use argument from the Discussion. Removed: paras. 1-2 (jury award and the State's requested reduction), the final sentence of para. 5 stating what the jury awarded, the figure/exhibit citation, transcript citations, and every sentence stating the court's conclusions, including the attorney-fee and prejudgment-interest rulings. Appraisal figures are retained as pre-outcome evidence."
+ }
+}

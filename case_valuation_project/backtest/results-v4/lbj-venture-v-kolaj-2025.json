@@ -1,0 +1,201 @@
+{
+ "id": "lbj-venture-v-kolaj-2025",
+ "ranAt": "2026-09-25T15:46:46+00:00",
+ "status": 200,
+ "prediction": {
+  "model": "claude-sonnet-5",
+  "analysisVersion": "v4",
+  "category": "lease-disputes",
+  "roleLabel": "Landlord",
+  "damagesRange": [
+   99801.3485,
+   905000
+  ],
+  "bestGuessValue": 294153.18460000004,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": "Liability is conceded; the trial will likely confine the landlord's recovery largely to the deficiency-based unpaid rent (~$78,739) plus late fees and prejudgment interest (~$96,072 total), rather than the $538,000 acceleration figure, because Section 10.02(b)'s acceleration remedy appears to apply only where the landlord does not relet. The $300,000 kitchen claim is likely to fail or be sharply reduced for lack of damages proof, while a substantial attorney's fee award (likely near the $67,000 requested) is probable given the statutory and contractual fee bases and the conceded breach.",
+  "issues": [
+   {
+    "label": "Unpaid Rent: Acceleration vs. Deficiency Amount",
+    "probabilityRange": [
+     0.25,
+     0.4
+    ],
+    "damagesRange": [
+     78739.31,
+     538000
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": 538000,
+    "kind": "claim",
+    "claimType": "unpaid_rent",
+    "strength": "unfavorable",
+    "figures": [
+     {
+      "label": "Landlord's accelerated rent claim",
+      "value": 538000,
+      "disputed": true,
+      "quote": "LBJ Venture moved for judgment in the amount of approximately $538,000 in unpaid rent",
+      "computed": null
+     },
+     {
+      "label": "Tenant's deficiency-based unpaid rent figure",
+      "value": 78739.31,
+      "disputed": true,
+      "quote": "$78,739.31 in unpaid rent from the Rent Commencement Date through the time of trial, offset by the amount of rent received by the new tenants in the Leased Premises and the Additional Leased Premises",
+      "computed": null
+     }
+    ],
+    "droppedFigures": 0
+   },
+   {
+    "label": "Commercial Kitchen $300,000 Damages Claim",
+    "probabilityRange": [
+     0.05,
+     0.2
+    ],
+    "damagesRange": [
+     0,
+     300000
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": 300000,
+    "kind": "claim",
+    "claimType": "other",
+    "strength": "weak",
+    "figures": [
+     {
+      "label": "Value of commercial kitchen improvements per lease representation",
+      "value": 300000,
+      "disputed": true,
+      "quote": "such improvements, including the equipment therefor, is estimated to be valued at $300,000",
+      "computed": null
+     }
+    ],
+    "droppedFigures": 0
+   },
+   {
+    "label": "Attorney's Fees Under Statute and Lease",
+    "probabilityRange": [
+     0.95,
+     0.99
+    ],
+    "damagesRange": [
+     67000,
+     67000
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "conceded",
+    "supportedCeiling": 67000,
+    "kind": "claim",
+    "claimType": "attorney_fees",
+    "strength": "conceded",
+    "figures": [
+     {
+      "label": "Attorney's fees requested",
+      "value": 67000,
+      "disputed": false,
+      "quote": "$67,000 in attorneys' fees",
+      "computed": null
+     }
+    ],
+    "droppedFigures": 0
+   },
+   {
+    "label": "Late Fees",
+    "probabilityRange": [
+     0.95,
+     0.99
+    ],
+    "damagesRange": [
+     3469.43,
+     3469.43
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "conceded",
+    "supportedCeiling": 3469.43,
+    "kind": "claim",
+    "claimType": "other",
+    "strength": "conceded",
+    "figures": [
+     {
+      "label": "Late fees",
+      "value": 3469.43,
+      "disputed": false,
+      "quote": "$3,469.43 in late fees",
+      "computed": null
+     }
+    ],
+    "droppedFigures": 0
+   },
+   {
+    "label": "Pre-Judgment Interest",
+    "probabilityRange": [
+     0.95,
+     0.99
+    ],
+    "damagesRange": [
+     13863.75,
+     13863.75
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "conceded",
+    "supportedCeiling": 13863.75,
+    "kind": "claim",
+    "claimType": "other",
+    "strength": "conceded",
+    "figures": [
+     {
+      "label": "Pre-judgment interest",
+      "value": 13863.75,
+      "disputed": false,
+      "quote": "$13,863.75 in pre-judgment interest",
+      "computed": null
+     }
+    ],
+    "droppedFigures": 0
+   },
+   {
+    "label": "Landlord's Mitigation Through Reletting",
+    "probabilityRange": [
+     0.95,
+     0.99
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "conceded",
+    "supportedCeiling": null,
+    "kind": "defense",
+    "claimType": "releasing_mitigation_costs",
+    "strength": "conceded",
+    "figures": [],
+    "droppedFigures": 0
+   }
+  ],
+  "citationCoverage": {
+   "count": 39,
+   "tier": "strong"
+  }
+ },
+ "error": null,
+ "outcome": {
+  "amount": 96072.49,
+  "amountIsTheRequestedAmount": true,
+  "date": "2025-03-06",
+  "description": "After the bench trial the trial court rendered judgment for the landlord of $96,072.49 (unpaid rent through trial net of replacement-tenant rent, late fees, and prejudgment interest) \u2014 the figure the tenant advocated, roughly one-tenth of the more than $900,000 the landlord sought \u2014 plus 18% post-judgment interest, and awarded $0 in attorneys' fees. The court of appeals affirmed the damages award and reversed only the denial of attorneys' fees, remanding for a determination of a reasonable fee under the lease.",
+  "attorneysFeesAtTrial": 0,
+  "appellateChange": "affirmed",
+  "finalAmount": 96072.49,
+  "finalNote": "Damages affirmed; fee denial reversed and remanded."
+ },
+ "source": {
+  "caseName": "202 N LBJ Venture Group, LP v. Paul Kolaj and Modesta Kolaj",
+  "court": "Texas Court of Appeals, Third District (Austin), on appeal from the 207th District Court of Hays County",
+  "docket": "03-24-00025-CV (trial court No. 21-2211)",
+  "decided": "2025-03-06",
+  "url": "https://search.txcourts.gov/SearchMedia.aspx?MediaID=3dc5c03e-76a9-498d-bcef-1d32d7bb3e03",
+  "excerptNote": "Verbatim from the BACKGROUND section (lease terms, default letter, pleadings, partial summary judgment on liability, bench trial on damages, each side's damages position) plus footnotes 1-2 and one evidence paragraph from the Discussion describing the landlord witness's testimony on the commercial kitchen. Removed: the opinion's introductory paragraph, the sentence stating the amount the trial court rendered judgment for and its $0 fee award, all appellate holdings, and the attorney's-fee discussion. Note that the tenant's own proposed judgment figure is retained as a party contention."
+ }
+}

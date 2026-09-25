@@ -1,0 +1,156 @@
+{
+ "id": "williamson-music-v-eqyinvest-2026",
+ "ranAt": "2026-09-25T15:27:47+00:00",
+ "status": 200,
+ "prediction": {
+  "model": "claude-sonnet-5",
+  "analysisVersion": "v4",
+  "category": "lease-disputes",
+  "roleLabel": "Landlord",
+  "damagesRange": [
+   -16419.304,
+   170484.37
+  ],
+  "bestGuessValue": 139780.682,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": "EQY should recover close to the full $170,484.37 in past-due rent it has pled, since Williamson's mitigation and personal-property offset theories are evidentiarily thin (no proof of an earlier reletting opportunity, no quantified build-out value, no request to retrieve the property). Expect the court to reject most or all of the requested offsets, award attorney's fees under Rohrmoos-compliant proof, and hold Gore jointly liable on the guaranty.",
+  "issues": [
+   {
+    "label": "Unpaid Rent Under the Lease (Aug. 2023 - Dec. 21, 2024)",
+    "probabilityRange": [
+     0.8,
+     0.9
+    ],
+    "damagesRange": [
+     0,
+     170484.37
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": 170484.37,
+    "kind": "claim",
+    "claimType": "unpaid_rent",
+    "strength": "strong",
+    "figures": [
+     {
+      "label": "Past-due rent, Aug. 1, 2023 - Dec. 21, 2024",
+      "value": 170484.37,
+      "disputed": true,
+      "quote": "damages of $170,484.37 representing past-due rent owed under the Lease from August 1, 2023, through December 21, 2024, the overlap of the remainder of Williamson's lease and Hallmark's lease term",
+      "computed": null
+     }
+    ],
+    "droppedFigures": 0
+   },
+   {
+    "label": "Tenant's Mitigation/Overlap Offset Defense ($62,096.52)",
+    "probabilityRange": [
+     0.05,
+     0.2
+    ],
+    "damagesRange": [
+     -62096.52,
+     0
+    ],
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": -62096.52,
+    "kind": "defense",
+    "claimType": "releasing_mitigation_costs",
+    "strength": "weak",
+    "figures": [
+     {
+      "label": "Claimed overlap-period rent/interest offset",
+      "value": 62096.52,
+      "disputed": true,
+      "quote": "Williamson sought an offset for the rent and interest EQY claimed for months that overlapped with Hallmark's lease term, calculated at $62,096.52.",
+      "computed": null
+     }
+    ],
+    "droppedFigures": 0
+   },
+   {
+    "label": "Personal Property Setoff ($20,000)",
+    "probabilityRange": [
+     0.05,
+     0.2
+    ],
+    "damagesRange": [
+     -20000,
+     0
+    ],
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": -20000,
+    "kind": "defense",
+    "claimType": "security_deposit",
+    "strength": "weak",
+    "figures": [
+     {
+      "label": "Claimed value of retained furniture/equipment",
+      "value": 20000,
+      "disputed": true,
+      "quote": "Williamson also complains that EQY's damages should be reduced by $20,000.00 to account for the value of Williamson's personal property remaining on the premises when EQY locked Williamson out for non-payment of rent.",
+      "computed": null
+     }
+    ],
+    "droppedFigures": 0
+   },
+   {
+    "label": "Contractual Attorney's Fees",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "attorney_fees",
+    "strength": "favorable",
+    "figures": [],
+    "droppedFigures": 0
+   },
+   {
+    "label": "Guarantor Raymond Gore's Liability",
+    "probabilityRange": [
+     0.8,
+     0.9
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "other",
+    "strength": "strong",
+    "figures": [],
+    "droppedFigures": 0
+   }
+  ],
+  "citationCoverage": {
+   "count": 39,
+   "tier": "strong"
+  }
+ },
+ "error": null,
+ "outcome": {
+  "amount": 170484.37,
+  "amountIsTheRequestedAmount": true,
+  "date": "2026-09-15",
+  "description": "After a bench trial the court awarded the landlord $170,484.37 in past-due rent, the full amount it sought, with no credit for the $62,096.52 free-rent overlap offset or the $20,000 personal property. It also awarded $86,725.00 in attorney's fees. On appeal the rent damages were affirmed and the fee award reversed.",
+  "attorneysFeesAtTrial": 86725.0,
+  "attorneysFeesOnAppeal": "reversed",
+  "finalAmount": 170484.37,
+  "finalNote": "Rent damages affirmed; fee award reversed."
+ },
+ "source": {
+  "caseName": "Williamson Music 1st, LLC, and Raymond Gore v. EQYInvest Owner II, Ltd., LLP",
+  "court": "Texas Sixth Court of Appeals (transferred from the Second), on appeal from the 342nd District Court, Tarrant County",
+  "docket": "06-25-00107-CV",
+  "decided": "2026-09-15",
+  "url": "https://search.txcourts.gov/SearchMedia.aspx?MediaVersionID=40c019e5-6590-43be-b02a-bf7b73239fec&coa=coa06&DT=Opinion&MediaID=fd5f6f98-b91a-4602-8ea3-97940423829c",
+  "excerptNote": "documentText is verbatim from Parts I, III.C and III.D of the opinion, with every sentence stating the trial court's award, its findings, or the appellate court's conclusions removed."
+ }
+}

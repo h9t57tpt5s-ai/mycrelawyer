@@ -1,0 +1,187 @@
+{
+ "id": "telegraph-square-7205-2023",
+ "ranAt": "2026-09-25T16:11:03+00:00",
+ "status": 200,
+ "prediction": {
+  "model": "claude-sonnet-5",
+  "analysisVersion": "v4",
+  "category": "lease-disputes",
+  "roleLabel": "Landlord",
+  "damagesRange": [
+   398250,
+   2225000
+  ],
+  "bestGuessValue": 1112500,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": "7205 Telegraph is likely to prevail on the core liability theory \u2014 the site-plan/zoning shortfall is effectively conceded by the Association's own expert, and the undisclosed board conflict of interest undermines any business-judgment defense of the 2015 reallocation. The real fight is over quantification: the two experts bracket the diminution-in-value damages anywhere from roughly $110,000-$145,000 (Association's framing, closer to the actual 12-space reality) to $1.34 million (7205 Telegraph's most favorable framing), with the true number likely landing well below the high end given that actual post-reallocation parking (12 spaces) tracks much closer to the Association's 15-space benchmark than to plaintiff's 5-space worst case. The Association's lien counterclaim for unpaid post-2017 assessments, and the fee-shifting provision, add real but currently unquantifiable exposure/upside on both sides.",
+  "issues": [
+   {
+    "label": "Breach of Condominium Instruments / Zoning Violation (2015 Parking Reallocation)",
+    "probabilityRange": [
+     0.8,
+     0.9
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "other",
+    "strength": "strong",
+    "figures": [],
+    "droppedFigures": 0
+   },
+   {
+    "label": "Diminution in Value / Lost Rental Value Damages",
+    "probabilityRange": [
+     0.45,
+     0.55
+    ],
+    "damagesRange": [
+     885000,
+     2225000
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": 2225000,
+    "kind": "claim",
+    "claimType": "other",
+    "strength": "even",
+    "figures": [
+     {
+      "label": "Plaintiff's appraisal at 30 spaces (site-plan-compliant baseline)",
+      "value": 2225000,
+      "disputed": true,
+      "quote": "O'Neill estimated the market value of 7205 Telegraph's Phase IV units at $2,225,000",
+      "computed": null
+     },
+     {
+      "label": "Plaintiff's appraisal at 5 spaces (worst-case post-reallocation)",
+      "value": 885000,
+      "disputed": true,
+      "quote": "O'Neill estimated the market value of 7205 Telegraph's Phase IV units at $885,000",
+      "computed": null
+     },
+     {
+      "label": "Defense appraisal at 15 spaces",
+      "value": 2080000,
+      "disputed": true,
+      "quote": "the market value of 7205 Telegraph's Phase IV units with 15 parking spaces was $2,080,000",
+      "computed": null
+     },
+     {
+      "label": "Defense appraisal at 34 spaces",
+      "value": 2190000,
+      "disputed": true,
+      "quote": "the value with 34 parking spaces would be $2,190,000",
+      "computed": null
+     }
+    ],
+    "droppedFigures": 0
+   },
+   {
+    "label": "Lost D&K Tenancy \u2014 Causation and Rent-Stream Damages",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "other",
+    "strength": "favorable",
+    "figures": [],
+    "droppedFigures": 0
+   },
+   {
+    "label": "Over-Assessment / Declaratory Relief on Phase I Common Element Charges",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "other",
+    "strength": "favorable",
+    "figures": [],
+    "droppedFigures": 0
+   },
+   {
+    "label": "Association's Counterclaim/Lien for Unpaid Assessments (Dec. 2017 onward)",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "other",
+    "strength": "favorable",
+    "figures": [],
+    "droppedFigures": 0
+   },
+   {
+    "label": "Attorney's Fees Under Bylaws \u00a79.1(b)",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "attorney_fees",
+    "strength": "favorable",
+    "figures": [],
+    "droppedFigures": 0
+   },
+   {
+    "label": "Statute of Limitations / Laches Defense Against Pre-Objection Damages",
+    "probabilityRange": [
+     0.25,
+     0.4
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "defense",
+    "claimType": "other",
+    "strength": "unfavorable",
+    "figures": [],
+    "droppedFigures": 0
+   }
+  ],
+  "citationCoverage": {
+   "count": 39,
+   "tier": "strong"
+  }
+ },
+ "error": null,
+ "outcome": {
+  "amount": 481434.84,
+  "amountIsTheRequestedAmount": false,
+  "date": "2023-12-19",
+  "description": "After a bench trial the Fairfax County Circuit Court entered judgment for 7205 Telegraph on all four counts, awarding $481,434.84 in lost-rent contract damages, a further $6,296.70 for over-assessments, release of the association's liens, and $324,977.60 in attorney's fees and costs. A Court of Appeals panel affirmed on April 25, 2023; rehearing en banc was granted, and on December 19, 2023 the court lifted the stay and left the judgment affirmed.",
+  "attorneysFeesAtTrial": 324977.6,
+  "appellateChange": "affirmed",
+  "finalAmount": 481434.84,
+  "finalNote": "Affirmed, including after rehearing en banc."
+ },
+ "source": {
+  "caseName": "Telegraph Square II, a Condominium Unit Owners Association v. 7205 Telegraph Square, LLC",
+  "court": "Court of Appeals of Virginia (panel opinion Apr. 25, 2023; rehearing en banc granted June 6, 2023; Dec. 19, 2023 published order lifting stay, judgment remains affirmed)",
+  "docket": "Record No. 0222-22-4 (Fairfax County Circuit Court No. CL-2019-0012054)",
+  "decided": "2023-12-19",
+  "url": "https://www.vacourts.gov/opinions/opncavwp/0222224.pdf",
+  "excerptNote": "Verbatim sentences from the April 25, 2023 panel opinion's BACKGROUND sections A (Condominium Instruments) and B (Condominium Parking), plus the opening sentence identifying 7205 Telegraph's ownership; several bylaw/declaration block quotes, the 2017 replacement-lease details, and the 2019 acceleration letters were omitted for length. Removed: the appellate summary of assignments of error, section C (Trial Court Rulings) including the $481,434.84 damages award, the over-assessment findings, the attorney-fee award, and all analysis. Expert appraisal figures and demanded assessments are retained as pre-outcome facts."
+ }
+}

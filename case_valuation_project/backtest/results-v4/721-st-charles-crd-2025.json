@@ -1,0 +1,166 @@
+{
+ "id": "721-st-charles-crd-2025",
+ "ranAt": "2026-09-25T15:54:49+00:00",
+ "status": 200,
+ "prediction": {
+  "model": "claude-sonnet-5",
+  "analysisVersion": "v4",
+  "category": "lease-disputes",
+  "roleLabel": "Landlord",
+  "damagesRange": [
+   0,
+   106077.89
+  ],
+  "bestGuessValue": 71602.57575,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": "721 St. Charles Ave. LLC is likely to prevail on liability against CRD under the express handwritten addendum, since CRD's own witness admitted the addendum obligated CRD to repair Gibbs-era damage. Damages, however, are likely to land below the full $106,077.89 claimed given the genuine, testified dispute over whether full asphalt resurfacing exceeded CRD's contractual scope and whether electrical/paver damage falls within the covenant at all; lost profits, attorney's fees, and interest cannot be reliably quantified on this record.",
+  "issues": [
+   {
+    "label": "Repair Costs for Gibbs-Era/CRD-Era Damage to Asphalt Surface",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": [
+     0,
+     106077.89
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": 106077.89,
+    "kind": "claim",
+    "claimType": "property_damage",
+    "strength": "favorable",
+    "figures": [
+     {
+      "label": "Cost to repair lot including complete asphalt resurfacing",
+      "value": 106077.89,
+      "disputed": true,
+      "quote": "hired an outside company to repair the damages at the expense of $106,077.89",
+      "computed": null
+     }
+    ],
+    "droppedFigures": 0
+   },
+   {
+    "label": "Capital Improvement / Scope-of-Repair Defense",
+    "probabilityRange": [
+     0.45,
+     0.55
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "defense",
+    "claimType": "other",
+    "strength": "even",
+    "figures": [],
+    "droppedFigures": 0
+   },
+   {
+    "label": "Electrical Infrastructure and Brick Paver Damage Attribution",
+    "probabilityRange": [
+     0.45,
+     0.55
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "property_damage",
+    "strength": "even",
+    "figures": [],
+    "droppedFigures": 0
+   },
+   {
+    "label": "Lost Profits Under the S and P Parking Lease",
+    "probabilityRange": [
+     0.25,
+     0.4
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "tortious_interference_lost_profits",
+    "strength": "unfavorable",
+    "figures": [],
+    "droppedFigures": 0
+   },
+   {
+    "label": "Attorney's Fees",
+    "probabilityRange": [
+     0.05,
+     0.2
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "unknown",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "attorney_fees",
+    "strength": "weak",
+    "figures": [],
+    "droppedFigures": 0
+   },
+   {
+    "label": "Post-Judgment Interest",
+    "probabilityRange": [
+     0.8,
+     0.9
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "unknown",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "other",
+    "strength": "strong",
+    "figures": [],
+    "droppedFigures": 0
+   },
+   {
+    "label": "Settlement Credit / Setoff for Gibbs's Prior Settlement",
+    "probabilityRange": [
+     0.45,
+     0.55
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "unknown",
+    "supportedCeiling": null,
+    "kind": "defense",
+    "claimType": "other",
+    "strength": "even",
+    "figures": [],
+    "droppedFigures": 0
+   }
+  ],
+  "citationCoverage": {
+   "count": 39,
+   "tier": "strong"
+  }
+ },
+ "error": null,
+ "outcome": {
+  "amount": 106077.87,
+  "amountIsTheRequestedAmount": true,
+  "date": "2025-05-08",
+  "description": "After a one-day bench trial the court found CRD liable for damage during both leases and awarded 721 all of its claimed repair costs, $106,077.87 (no lost-profit award is described), then awarded $51,770.71 in attorney's fees and judicial interest. The Fourth Circuit affirmed liability but held Gibbs and CRD solidarily liable for the Gibbs-period damage, amended the judgment to reduce the damages by 50% for the settled co-obligor's virile share, and reversed the attorney's fee award because the lease did not provide fees for a Clause 13 breach.",
+  "attorneysFeesAtTrial": 51770.71,
+  "appellateChange": "modified to $53,038.94",
+  "finalAmount": 53038.94,
+  "finalNote": "Reduced on appeal to a 50 percent share."
+ },
+ "source": {
+  "caseName": "721 St. Charles, LLC v. Gibbs Residential, LLC and Commercial Realty Developers, LLC",
+  "court": "Louisiana Court of Appeal, Fourth Circuit",
+  "docket": "No. 2024-CA-0603 (appeal from Civil District Court, Orleans Parish, No. 2020-08628, Div. F-14)",
+  "decided": "2025-05-08",
+  "url": "https://www.la4th.org/opinion/2024/4940183.pdf",
+  "excerptNote": "Excerpts from 'Factual Summary and Procedural History' (through the pre-trial settlement with Gibbs), the trial testimony of Boes and Montagnet summarized under 'Breach of Clause 13', and the lease's Clause 13. Removed: footnote 3 (the S and P Parking lease), the Lauren Gibbs deposition excerpt, Clauses 18-19, the trial court's liability finding and damages/fee awards, the appellate court's findings on manifest error, solidarity, virile share and attorney's fees, and the disposition. Footnote markers and page artifacts stripped; whitespace normalized."
+ }
+}

@@ -1,0 +1,173 @@
+{
+ "id": "island-girl-outfitters-v-allied-development-2025",
+ "ranAt": "2026-09-25T15:44:38+00:00",
+ "status": 200,
+ "prediction": {
+  "model": "claude-sonnet-5",
+  "analysisVersion": "v4",
+  "category": "lease-disputes",
+  "roleLabel": "Landlord",
+  "damagesRange": [
+   17955,
+   146910
+  ],
+  "bestGuessValue": 142502.69999999998,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": "Liability against both IGO and Carver is fixed; the ore tenus hearing will set a damages figure materially below Allied Development's $146,910 ask (courts applying a premises-specific mitigation credit will offset the differential between contract rent and the replacement tenant's actual rent for the reletting), but above IGO/Carver's $18,900 counter-figure once accrued rent through the vacancy gap, interest, costs, and lease-authorized fees are added back in. Expect an award in the middle of that range, with Carver jointly and severally liable as guarantor.",
+  "issues": [
+   {
+    "label": "Future/Accelerated Rent and Total Lease-Default Damages",
+    "probabilityRange": [
+     0.95,
+     0.99
+    ],
+    "damagesRange": [
+     18900,
+     146910
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "conceded",
+    "supportedCeiling": 146910,
+    "kind": "claim",
+    "claimType": "accelerated_rent",
+    "strength": "conceded",
+    "figures": [
+     {
+      "label": "Allied Development's revised total lease-default damages (rent, interest, costs, fees)",
+      "value": 146910,
+      "disputed": true,
+      "quote": "which now totaled $146,910",
+      "computed": null
+     },
+     {
+      "label": "IGO/Carver's proposed maximum liability after mitigation offset",
+      "value": 18900,
+      "disputed": true,
+      "quote": "they should be liable for no more than $18,900 in damages",
+      "computed": null
+     }
+    ],
+    "droppedFigures": 0
+   },
+   {
+    "label": "Breach of Lease Liability (IGO)",
+    "probabilityRange": [
+     0.95,
+     0.99
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "conceded",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "other",
+    "strength": "conceded",
+    "figures": [],
+    "droppedFigures": 0
+   },
+   {
+    "label": "Personal Guaranty Liability (Carver)",
+    "probabilityRange": [
+     0.95,
+     0.99
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "conceded",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "other",
+    "strength": "conceded",
+    "figures": [],
+    "droppedFigures": 0
+   },
+   {
+    "label": "Failure to Market/Maintain the Centre \u2014 Constructive Eviction / Quiet Enjoyment Defense",
+    "probabilityRange": [
+     0.05,
+     0.2
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "defense",
+    "claimType": "quiet_enjoyment_breach",
+    "strength": "weak",
+    "figures": [],
+    "droppedFigures": 0
+   },
+   {
+    "label": "Mitigation-of-Damages Defense (Reletting Offset)",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "defense",
+    "claimType": "other",
+    "strength": "favorable",
+    "figures": [],
+    "droppedFigures": 0
+   },
+   {
+    "label": "Lack of Itemization of Damages",
+    "probabilityRange": [
+     0.05,
+     0.2
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "defense",
+    "claimType": "other",
+    "strength": "weak",
+    "figures": [],
+    "droppedFigures": 0
+   },
+   {
+    "label": "Contractual Interest, Costs, and Attorney's Fees Under the Lease",
+    "probabilityRange": [
+     0.95,
+     0.99
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "conceded",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "attorney_fees",
+    "strength": "conceded",
+    "figures": [],
+    "droppedFigures": 0
+   }
+  ],
+  "citationCoverage": {
+   "count": 39,
+   "tier": "strong"
+  }
+ },
+ "error": null,
+ "outcome": {
+  "amount": 94350,
+  "amountIsTheRequestedAmount": false,
+  "date": "2025-03-21",
+  "description": "After a damages hearing, the Baldwin Circuit Court rendered judgment for the landlord in the amount of $94,350 plus costs of court against the tenant and guarantor (the landlord had claimed $89,010 in its summary-judgment motion and later $146,910; the tenant argued for no more than $18,900). Attorney's fees were not separately stated. The Supreme Court of Alabama affirmed both the liability determination and the damages judgment.",
+  "attorneysFeesAtTrial": null,
+  "appellateChange": "affirmed",
+  "finalAmount": 94350,
+  "finalNote": "Affirmed."
+ },
+ "source": {
+  "caseName": "Island Girl Outfitters, LLC, and Anthony S. Carver v. Allied Development of Alabama, LLC",
+  "court": "Supreme Court of Alabama (appeal from Baldwin Circuit Court)",
+  "docket": "SC-2023-0561 (trial court CV-22-900259)",
+  "decided": "2025-03-21",
+  "url": "https://publicportal-api.alappeals.gov/courts/68f021c4-6a44-4735-9a76-5360b2e8af13/cms/case/33D15128-6DDF-4F60-8D72-8ABE96948EE3/docketentrydocuments/B04FE86F-1EB1-49BD-A1C7-EEC074DC3688",
+  "excerptNote": "Excerpts from the opinion's introduction, 'Facts and Procedural History', and the parties' contentions as restated in the 'Analysis' section. Removed: the introductory sentence stating the judgment amount, the sentences describing the trial court's partial summary judgment on liability and the later damages judgment, the sentence restating the damages award in the mitigation argument, and all appellate holdings/affirmance language."
+ }
+}

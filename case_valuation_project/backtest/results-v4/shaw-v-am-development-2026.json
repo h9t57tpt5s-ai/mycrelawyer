@@ -1,0 +1,136 @@
+{
+ "id": "shaw-v-am-development-2026",
+ "ranAt": "2026-09-25T15:31:06+00:00",
+ "status": 200,
+ "prediction": {
+  "model": "claude-sonnet-5",
+  "analysisVersion": "v4",
+  "category": "lease-disputes",
+  "roleLabel": "Tenant",
+  "damagesRange": null,
+  "bestGuessValue": null,
+  "whatIsNeededForEstimate": "To compute an actual damages range you need: (1) the unit's square footage (to apply the $275/sq ft estimate or any other rate), (2) the actual price and terms Mostafavi offered/paid for the unit in the August 2015 sale (the figure A&M was contractually obligated to disclose to Shaw and apparently still has not produced), and (3) either a current appraisal of the unit or reliable comparable-sales data to establish the value gap between what Shaw would have paid in 2015 and what the unit is worth now (or was worth at the time the breach should reasonably have been remedied). Without at least the square footage and the 2015 offer price, there is no computable dollar anchor for this claim.",
+  "likelyOutcome": "Shaw should prevail on the underlying breach of the ROFR notice covenant, which A&M effectively concedes, and the suit is timely under Iowa's ten-year contract statute of limitations. But A&M has a genuinely triable waiver/estoppel-by-acquiescence defense covering the multi-year silence period, and even a full liability win produces no quantifiable damages award on this record because the petition supplies no unit square footage, no actual 2015 sale/offer price, and no current valuation -- all necessary to convert the admitted breach into a dollar figure.",
+  "issues": [
+   {
+    "label": "Breach of Right of First Refusal (failure to give notice)",
+    "probabilityRange": [
+     0.95,
+     0.99
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "conceded",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "other",
+    "strength": "conceded",
+    "figures": [],
+    "droppedFigures": 0
+   },
+   {
+    "label": "Lost purchase-option value / appreciation damages",
+    "probabilityRange": [
+     0.95,
+     0.99
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "conceded",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "other",
+    "strength": "conceded",
+    "figures": [],
+    "droppedFigures": 0
+   },
+   {
+    "label": "Waiver / estoppel by acquiescence",
+    "probabilityRange": [
+     0.45,
+     0.55
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "defense",
+    "claimType": "other",
+    "strength": "even",
+    "figures": [],
+    "droppedFigures": 0
+   },
+   {
+    "label": "Failure to mitigate / delay-based damages limitation",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "defense",
+    "claimType": "other",
+    "strength": "favorable",
+    "figures": [],
+    "droppedFigures": 0
+   },
+   {
+    "label": "Statute of limitations / timeliness",
+    "probabilityRange": [
+     0.8,
+     0.9
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "defense",
+    "claimType": "other",
+    "strength": "strong",
+    "figures": [],
+    "droppedFigures": 0
+   },
+   {
+    "label": "Ability and willingness to exercise the ROFR (causation gap)",
+    "probabilityRange": [
+     0.25,
+     0.4
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "defense",
+    "claimType": "other",
+    "strength": "unfavorable",
+    "figures": [],
+    "droppedFigures": 0
+   }
+  ],
+  "citationCoverage": {
+   "count": 39,
+   "tier": "strong"
+  }
+ },
+ "error": null,
+ "outcome": {
+  "amount": 257216,
+  "amountIsTheRequestedAmount": false,
+  "date": "2026-08-19",
+  "description": "After a bench trial the district court awarded the tenant $257,216 in damages plus post-judgment interest, using the tenant's damages methodology (unrealized appreciation, rent-versus-mortgage differential, lost principal) but valuing the unit at the $166.73 per square foot the third-party buyers paid rather than the $275 the tenant proposed. No attorney's fees. The Iowa Court of Appeals affirmed (2-1) on August 19, 2026, rejecting the estoppel-by-acquiescence and failure-to-mitigate defenses.",
+  "attorneysFeesAtTrial": null,
+  "appellateChange": "affirmed",
+  "finalAmount": 257216,
+  "finalNote": "Affirmed."
+ },
+ "source": {
+  "caseName": "The Law Office of Melvin O. Shaw, P.L.C. v. A & M Development, L.L.C.",
+  "court": "Iowa Court of Appeals (appeal from Iowa District Court for Johnson County)",
+  "docket": "No. 25-1285",
+  "decided": "2026-08-19",
+  "url": "https://www.iowacourts.gov/courtcases/26627/embed/CourtAppealsOpinion",
+  "excerptNote": "Verbatim from Part I (Facts and Prior Proceedings), the parties' contentions in Part III.A-B, and the undisputed timeline recited in Judge Greer's dissent. Removed: the sentences stating the district court's damages award and per-square-foot figure, the district court's findings on the estoppel/mitigation defenses, and every appellate holding. The dissent's footnote characterizing A & M's conduct as a breach was also omitted. Extraction whitespace artifacts corrected."
+ }
+}

@@ -1,0 +1,188 @@
+{
+ "id": "universal-shopping-plaza-v-hong-2026",
+ "ranAt": "2026-09-25T15:39:10+00:00",
+ "status": 200,
+ "prediction": {
+  "model": "claude-sonnet-5",
+  "analysisVersion": "v4",
+  "category": "lease-disputes",
+  "roleLabel": "Landlord",
+  "damagesRange": [
+   40011.549999999996,
+   184232
+  ],
+  "bestGuessValue": 87991.6875,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": "A genuine toss-up on the pivotal issue: whether Paragraph 4.5's application-of-payments clause can validly convert a 2023 shortfall into 'currently due' rent for a February 2025 three-day notice under CCP \u00a71161(2), compounded by a strong tenant-side waiver/estoppel argument from 23 months of accepted full rent. Universal is more likely than not to eventually recover the underlying $65,989 in some form (via this UD action or a follow-on contract suit), but its chances of winning the summary UD remedy itself \u2014 and therefore the holdover damages and possession relief \u2014 are close to even, with equities tilting toward the tenant.",
+  "issues": [
+   {
+    "label": "Validity of Three-Day Notice Under CCP \u00a71161(2) / Application-of-Payments Bootstrap",
+    "probabilityRange": [
+     0.45,
+     0.55
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "defense",
+    "claimType": "other",
+    "strength": "even",
+    "figures": [],
+    "droppedFigures": 0
+   },
+   {
+    "label": "Waiver/Estoppel by 23 Months of Accepted Full Rent",
+    "probabilityRange": [
+     0.25,
+     0.4
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "defense",
+    "claimType": "other",
+    "strength": "unfavorable",
+    "figures": [],
+    "droppedFigures": 0
+   },
+   {
+    "label": "Unpaid Rent Principal ($65,989)",
+    "probabilityRange": [
+     0.45,
+     0.55
+    ],
+    "damagesRange": [
+     0,
+     65989
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": 65989,
+    "kind": "claim",
+    "claimType": "unpaid_rent",
+    "strength": "even",
+    "figures": [
+     {
+      "label": "Unpaid rent demanded in three-day notice",
+      "value": 65989,
+      "disputed": true,
+      "quote": "demanded he pay \u201cunpaid rent\u201d in the amount of $65,989",
+      "computed": null
+     }
+    ],
+    "droppedFigures": 0
+   },
+   {
+    "label": "Holdover Damages ($1,219/day from March 1, 2025)",
+    "probabilityRange": [
+     0.45,
+     0.55
+    ],
+    "damagesRange": [
+     118243,
+     118243
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": 118243,
+    "kind": "claim",
+    "claimType": "holdover_damages",
+    "strength": "even",
+    "figures": [
+     {
+      "label": "Holdover damages at fair market daily rate",
+      "value": 118243,
+      "disputed": false,
+      "quote": "holdover damages of $1,219 per day (the alleged fair market value of the premises) beginning on March 1, 2025",
+      "computed": "1219 x 97"
+     }
+    ],
+    "droppedFigures": 0
+   },
+   {
+    "label": "Tenant's Alleged 2021 COVID Discount Promise (Setoff Justification)",
+    "probabilityRange": [
+     0.05,
+     0.2
+    ],
+    "damagesRange": [
+     -65989,
+     0
+    ],
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": -65989,
+    "kind": "defense",
+    "claimType": "other",
+    "strength": "weak",
+    "figures": [
+     {
+      "label": "Alleged 2022 rent overpayment claimed by Hong",
+      "value": 65989,
+      "disputed": true,
+      "quote": "Hong asserted in the letter that he overpaid rent by $65,989 in the 2022 calendar year",
+      "computed": null
+     }
+    ],
+    "droppedFigures": 0
+   },
+   {
+    "label": "Possession",
+    "probabilityRange": [
+     0.45,
+     0.55
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "other",
+    "strength": "even",
+    "figures": [],
+    "droppedFigures": 0
+   },
+   {
+    "label": "Attorney's Fees",
+    "probabilityRange": [
+     0.45,
+     0.55
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "attorney_fees",
+    "strength": "even",
+    "figures": [],
+    "droppedFigures": 0
+   }
+  ],
+  "citationCoverage": {
+   "count": 39,
+   "tier": "strong"
+  }
+ },
+ "error": null,
+ "outcome": {
+  "amount": 189100,
+  "amountIsTheRequestedAmount": false,
+  "date": "2026-09-09",
+  "description": "After a three-day court trial the trial court entered judgment for the landlord on July 3, 2025 awarding possession, $65,989 in past-due rent (the amount demanded in the notice) and $123,111 in holdover damages, $189,100 in total; no fee award is stated in the opinion. The Court of Appeal reversed, holding the three-day notice void because the unpaid rent fell due more than one year before service, and remanded for entry of judgment in favor of the tenant.",
+  "attorneysFeesAtTrial": null,
+  "appellateChange": "reversed",
+  "finalAmount": 0,
+  "finalNote": "Reversed: the three-day notice was void, so the landlord takes nothing in this action."
+ },
+ "source": {
+  "caseName": "Universal Shopping Plaza v. Piong Bin Hong",
+  "court": "California Court of Appeal, Second District, Division Seven, on appeal from Los Angeles County Superior Court",
+  "docket": "B348490 (Super. Ct. No. 25NNCV01228)",
+  "decided": "2026-09-09",
+  "url": "https://www.courts.ca.gov/opinions/documents/B348490.PDF",
+  "excerptNote": "Verbatim from the landlord's contention in the introduction and from Factual and Procedural Background parts A, B and C through the trial testimony. Removed: the sentences stating the trial court's rulings (demurrer, findings, July 3, 2025 judgment), the closing arguments, the introduction's reference to the holdover award, lease paragraph 27.1, footnotes, and all appellate analysis/holdings. One sentence is stitched across a footnote break in the PDF."
+ }
+}

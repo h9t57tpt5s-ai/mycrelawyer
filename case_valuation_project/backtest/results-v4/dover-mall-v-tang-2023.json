@@ -1,0 +1,118 @@
+{
+ "id": "dover-mall-v-tang-2023",
+ "ranAt": "2026-09-25T16:06:07+00:00",
+ "status": 200,
+ "prediction": {
+  "model": "claude-sonnet-5",
+  "analysisVersion": "v4",
+  "category": "lease-disputes",
+  "roleLabel": "Landlord",
+  "damagesRange": [
+   262285.23399999994,
+   276089.72
+  ],
+  "bestGuessValue": 267807.02839999995,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": "Dover Mall is very likely to secure summary judgment on liability given the tenant's concessions and the lease's explicit force-majeure carve-out for rent obligations, with the frustration-of-purpose and impossibility defenses unlikely to survive as a matter of law. The real uncertainty is on the mitigation defense: given Dover Mall's own inability to substantiate reletting efforts, the court may allow that issue to proceed to trial or apply some downward adjustment, though the tenant's failure to quantify any specific mitigation shortfall makes full recovery of the requested $276,089.72 more likely than not.",
+  "issues": [
+   {
+    "label": "Breach of Lease / Unpaid and Accelerated Rent",
+    "probabilityRange": [
+     0.95,
+     0.99
+    ],
+    "damagesRange": [
+     276089.72,
+     276089.72
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "conceded",
+    "supportedCeiling": 276089.72,
+    "kind": "claim",
+    "claimType": "unpaid_rent",
+    "strength": "conceded",
+    "figures": [
+     {
+      "label": "Total unpaid rent, accelerated rent, and other charges sought",
+      "value": 276089.72,
+      "disputed": false,
+      "quote": "Dover Mall then filed the present suit seeking $276,089.72 for unpaid rent, accelerated rent, and other charges.",
+      "computed": null
+     }
+    ],
+    "droppedFigures": 0
+   },
+   {
+    "label": "Failure to Mitigate Defense (Reletting)",
+    "probabilityRange": [
+     0.45,
+     0.55
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "defense",
+    "claimType": "other",
+    "strength": "even",
+    "figures": [],
+    "droppedFigures": 0
+   },
+   {
+    "label": "Frustration of Purpose / Impossibility (Pandemic Closure)",
+    "probabilityRange": [
+     0.05,
+     0.2
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "defense",
+    "claimType": "other",
+    "strength": "weak",
+    "figures": [],
+    "droppedFigures": 0
+   },
+   {
+    "label": "Frustration of Purpose (Pre-Pandemic Occupancy Decline)",
+    "probabilityRange": [
+     0.05,
+     0.2
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "defense",
+    "claimType": "other",
+    "strength": "weak",
+    "figures": [],
+    "droppedFigures": 0
+   }
+  ],
+  "citationCoverage": {
+   "count": 39,
+   "tier": "strong"
+  }
+ },
+ "error": null,
+ "outcome": {
+  "amount": 276089.72,
+  "amountIsTheRequestedAmount": true,
+  "date": "2023-10-05",
+  "description": "The Superior Court granted the landlord summary judgment on liability and damages in the amount of $276,089.72, the full amount demanded, holding the force majeure clause allocated pandemic-closure risk to the tenant and two lease provisions relieved the landlord of any duty to relet. No attorney's fee award is stated. This is a trial-level decision; no appeal is reflected in the opinion.",
+  "attorneysFeesAtTrial": null,
+  "appellateChange": "n/a (trial-level decision; no appeal in opinion)",
+  "finalAmount": 276089.72,
+  "finalNote": "Trial-level decision; no appeal reflected."
+ },
+ "source": {
+  "caseName": "Dover Mall, LLC v. Sam Tang",
+  "court": "Delaware Superior Court (Kent County), Resident Judge Jeffrey J Clark",
+  "docket": "C.A. No. K22C-07-013 JJC",
+  "decided": "2023-10-05",
+  "url": "http://courts.delaware.gov/Opinions/Download.aspx?id=353820",
+  "excerptNote": "Verbatim from the letter opinion's introduction (parties' positions), 'The Record and Procedural Background' section (including footnotes 16 and 17), and the fact-recitation portions of the Discussion (Tang's two affirmative defenses; his concession on the damages schedule). Removed: every sentence stating the court's rulings on liability, force majeure, mitigation, and the summary-judgment result; the long quoted remedy/reletting lease clauses; the case-law discussion; the Conclusion. The $276,089.72 figure that remains is Dover Mall's stated demand, not the result."
+ }
+}
