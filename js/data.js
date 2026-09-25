@@ -6005,6 +6005,47 @@ const RELAW_DATA = {
       documentUrl: "https://www.courts.michigan.gov/siteassets/case-documents/uploads/OPINIONS/FINAL/COA/20260324_C370640_39_370640.opn.pdf",
       documentLabel: "Read the official Court of Appeals opinion",
       tags: ["veil piercing", "alter ego", "commercial lease", "michigan", "judgment collection"]
+    },
+    {
+      id: "live-180",
+      addedDate: "2026-09-25",
+      title: "Cherry Park Properties LLC v. City of Olathe / USD 233 (Eminent Domain Misuse & Preferential Land-Deal Suit)",
+      category: "eminent-domain",
+      status: "ruling",
+      date: "2026-07-20",
+      jurisdiction: "Johnson County District Court, Kansas (10th Judicial District)",
+      state: "KS",
+      amount: "~$1.43M contested land sale (Cherry Park's competing offer was reportedly ~$1M higher)",
+      source: "live",
+      sourceUrl: "https://www.olathereporter.com/city_news/city-schools-get-early-win-against-developer-in-case-alleging-misuse-of-eminent-domain/article_05b18e9f-eba5-4a1b-a9d1-b986328286a8.html",
+      summary: "Developer Cherry Park Properties LLC sued the City of Olathe and Olathe Public Schools (USD 233) in Johnson County District Court, alleging the district used eminent domain to acquire a sewer easement on Cherry Park's land to clear the way for a below-market sale of roughly 79 acres of surplus school land to a company controlled by civic figure Clay Blair, rejecting Cherry Park's own higher offer. On July 20, 2026, Judge Paul Burmaster denied Cherry Park's request for a temporary restraining order and preliminary injunction, finding no showing of irreparable harm, but the case's seven underlying counts continue.",
+      significance: "Shows that eminent domain and open-meetings exposure isn't confined to residential condemnation: a school district or municipality acting as a commercial land seller can face sustained litigation risk when a condemnation needed to enable a private sale is challenged as serving a preferred buyer rather than the public. Losing an early injunction motion doesn't resolve the underlying abuse-of-power claims, which can proceed independently.",
+      body: [
+        "A Kansas developer's lawsuit accusing the City of Olathe and the Olathe public school district of misusing their eminent domain power to steer roughly 79 acres of surplus land to a politically connected buyer is moving forward in Johnson County District Court, even after the presiding judge declined this summer to freeze the underlying transaction while the case is litigated. The dispute has grown from a single eminent domain claim into a seven-count suit alleging preferential treatment, breach of good faith, and violations of the state's open meetings law, illustrating how a routine municipal land sale can generate serious commercial litigation exposure for a school district and a city acting in tandem.",
+        "Cherry Park Properties LLC filed suit on March 10, 2026, in Johnson County District Court against the City of Olathe and Unified School District No. 233 (Olathe Public Schools), captioned Case No. JO-2026-CV-000603 and assigned to Judge Paul Burmaster. The suit centers on roughly 79 acres of district-owned land near Lakeshore Drive and Cedar Niles Road that the district had held since 2004 for a future school site but ultimately decided to sell as surplus. In 2022, the district agreed to sell the parcel to CB Holdings, a company controlled by prominent Olathe civic figure and school-district donor Clay Blair, for approximately $1.43 million. Cherry Park alleges it separately offered roughly $1 million more for the same land and was passed over without meaningful consideration.",
+        "The eminent domain component arises from a related piece of infrastructure: to make the CB Holdings deal workable, the district needed a sewer-line easement across property Cherry Park owns nearby. When negotiations over that easement stalled, the school district, acting through the City of Olathe, moved to acquire the easement by eminent domain rather than continuing to negotiate a purchase. Cherry Park's complaint alleges the condemnation was not exercised for a genuine public purpose but as a mechanism to clear the path for a private sale benefiting Blair, and that the compensation offered was well below the value of the burden it would impose on Cherry Park's land.",
+        "The litigation escalated after it was filed. Weeks later, the Olathe school board held a closed executive session and then voted, on April 2, 2026, to terminate its existing contract with CB Holdings, only to approve what Cherry Park's amended complaint characterizes as a nearly identical replacement deal with 143rd Street Ventures LLC, another entity controlled by Blair. Cherry Park amended its petition to add 143rd Street Ventures as a defendant and to allege the board's April 2 action violated the Kansas Open Meetings Act, arguing the substitution was an effort to route around the pending lawsuit while preserving the same economic outcome for the same ultimate buyer.",
+        "The most recent substantive development came on July 20, 2026, when Judge Burmaster denied Cherry Park's motion for a temporary restraining order and preliminary injunction that would have halted both the eminent domain proceeding and continued development of the disputed land while the case was pending, finding Cherry Park had not shown the kind of irreparable harm that equitable relief requires. The denial was procedural rather than a ruling on the merits: it allows the eminent domain process and the district's land development to continue in the interim, but leaves Cherry Park's seven underlying counts, including the eminent domain abuse and open-meetings claims, to proceed toward resolution.",
+        "For commercial developers, landowners, and public agencies, the case underscores that eminent domain and open-meetings exposure arises just as readily when a municipality or school district is acting as a commercial seller of surplus real property as it does in traditional condemnation disputes, and that a public body pairing a land sale to a preferred buyer with a condemnation needed to make that sale workable should expect scrutiny of whether the condemnation truly serves the public, especially after rejecting a higher competing offer without documented justification. Losing a preliminary-injunction motion is not the same as losing the case; a plaintiff unable to show immediate, irreparable harm can still prevail later on the merits of an eminent domain or governmental-process claim, so early procedural rulings should be read as only one data point in what may be extended litigation. Restructuring a challenged transaction through a new corporate vehicle controlled by the same principal, rather than genuinely reopening the process to competing offers, is unlikely to insulate a public body from continued liability if a court later finds the substitution was made to evade the pending suit rather than to correct the underlying conduct."
+      ],
+      timeline: [
+        { when: "2004", label: "Olathe school district acquires the ~79-acre parcel for a planned future school site" },
+        { when: "2022", label: "District contracts to sell the surplus land to CB Holdings (Clay Blair-controlled) for ~$1.43M" },
+        { when: "March 10, 2026", label: "Cherry Park Properties LLC sues the City of Olathe and USD 233 in Johnson County District Court (Case No. JO-2026-CV-000603), alleging eminent domain misuse" },
+        { when: "April 2, 2026", label: "School board terminates the CB Holdings contract after a closed session and approves a similar deal with Blair-controlled 143rd Street Ventures LLC" },
+        { when: "July 20, 2026", label: "Judge Paul Burmaster denies Cherry Park's TRO/preliminary injunction motion; underlying seven-count case continues", current: true }
+      ],
+      judge: "Paul Burmaster",
+      parties: [
+        { name: "Cherry Park Properties LLC", role: "Plaintiff" },
+        { name: "City of Olathe", role: "Defendant" },
+        { name: "Unified School District No. 233 (Olathe Public Schools)", role: "Defendant" },
+        { name: "CB Holdings", role: "Defendant" },
+        { name: "143rd Street Ventures LLC", role: "Defendant" }
+      ],
+      amountUsd: 1430000,
+      amountBasis: "purchase price",
+      tags: ["eminent domain", "open meetings act", "land sale", "kansas", "municipal liability"]
     }
   ],
 
