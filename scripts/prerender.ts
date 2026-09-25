@@ -11,6 +11,7 @@ type Case = {
   id: string; title: string; category: string; status: string; date: string; addedDate?: string;
   jurisdiction: string; state?: string; amount?: string; source?: string; summary: string;
   significance?: string; tags?: string[]; docketUrl?: string; featured?: boolean; propertyType?: string;
+  judge?: string | null; amountUsd?: number | null; parties?: { name: string; role: string }[];
 };
 type Data = {
   lastUpdatedDate?: string;
@@ -215,7 +216,9 @@ for await (const entry of Deno.readDir(".")) {
     row("State court", String(data.cases.length - federal)) +
     row("Docket-linked", `${docket} (${Math.round(100 * docket / data.cases.length)}%)`, "A confirmed link to the actual docket or opinion; every other matter is sourced to reporting") +
     row("Sourced to reporting only", String(data.cases.length - docket)) +
-    row("With structured party data", String(parties), "Names of the parties recorded as data, not only in the write-up") +
+    row("With structured party data", String(parties), "Business and government parties recorded as data, not only in the write-up") +
+    row("With a named presiding judge", String(data.cases.filter((c) => c.judge).length), "Only where a source names the judge for that matter") +
+    row("With a stated dollar amount", String(data.cases.filter((c) => typeof c.amountUsd === "number").length), "The loan, claim, judgment or settlement figure a source states; never estimated") +
     row("Median lag, event to write-up", median == null ? "n/a" : `${median} days`, within7 == null ? "" : `${within7}% written up within 7 days of the event; the rest are backfilled older matters`) +
     `</tbody></table>`;
   const dense = topStates.slice(0, 8).map(([s, n]) => `${s} ${n}`).join(" · ");
