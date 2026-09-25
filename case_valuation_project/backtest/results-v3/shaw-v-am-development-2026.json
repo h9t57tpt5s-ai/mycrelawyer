@@ -1,0 +1,97 @@
+{
+ "id": "shaw-v-am-development-2026",
+ "ranAt": "2026-09-25T02:37:42+00:00",
+ "status": 200,
+ "prediction": {
+  "model": "claude-sonnet-5",
+  "analysisVersion": "v3",
+  "category": "lease-disputes",
+  "roleLabel": "Tenant",
+  "damagesRange": null,
+  "bestGuessValue": null,
+  "whatIsNeededForEstimate": "To generate a real damages range, we need: (1) the unit's square footage, so the stated $275/sq ft figure can be converted into a total dollar value; (2) the actual price and terms of the 2015 Mostafavi offer that triggered the ROFR, which establishes what Shaw would have had to pay to exercise the right and is the baseline for any 'lost bargain' calculation; and (3) either a contemporaneous 2015 appraisal/valuation of the unit or expert testimony establishing its fair market value at the time of breach, since damages for a lost ROFR are typically measured as of the breach date rather than today's market.",
+  "likelyOutcome": "Shaw is very likely to establish the underlying breach (A&M has effectively conceded it), but A&M's waiver/estoppel-by-acquiescence defense presents a genuine, roughly coin-flip risk given the seven-year delay, continued lease payments, and repeated renewal negotiations that never mentioned the 2015 breach. Even in a full win, damages will likely be measured at 2015 values (the actual Mostafavi offer terms) rather than Shaw's current $275/sq ft estimate, and the record as described lacks the square footage and 2015 sale-price data needed to compute an actual number.",
+  "issues": [
+   {
+    "label": "Breach of Right of First Refusal (liability)",
+    "probabilityRange": [
+     0.95,
+     0.99
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "conceded",
+    "supportedCeiling": null,
+    "kind": "claim"
+   },
+   {
+    "label": "Waiver / Estoppel by Acquiescence",
+    "probabilityRange": [
+     0.4,
+     0.55
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "defense"
+   },
+   {
+    "label": "Timeliness of Suit / No Statute-of-Limitations Bar",
+    "probabilityRange": [
+     0.9,
+     0.97
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "defense"
+   },
+   {
+    "label": "Failure to Mitigate / Valuation-Date Dispute",
+    "probabilityRange": [
+     0.35,
+     0.55
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "defense"
+   },
+   {
+    "label": "Damages Quantification (Lost ROFR Value)",
+    "probabilityRange": null,
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "unknown",
+    "supportedCeiling": null,
+    "kind": "claim"
+   }
+  ],
+  "citationCoverage": {
+   "count": 39,
+   "tier": "strong"
+  }
+ },
+ "error": null,
+ "outcome": {
+  "amount": 257216,
+  "amountIsTheRequestedAmount": false,
+  "date": "2026-08-19",
+  "description": "After a bench trial the district court awarded the tenant $257,216 in damages plus post-judgment interest, using the tenant's damages methodology (unrealized appreciation, rent-versus-mortgage differential, lost principal) but valuing the unit at the $166.73 per square foot the third-party buyers paid rather than the $275 the tenant proposed. No attorney's fees. The Iowa Court of Appeals affirmed (2-1) on August 19, 2026, rejecting the estoppel-by-acquiescence and failure-to-mitigate defenses.",
+  "attorneysFeesAtTrial": null,
+  "appellateChange": "affirmed",
+  "finalAmount": 257216,
+  "finalNote": "Affirmed."
+ },
+ "source": {
+  "caseName": "The Law Office of Melvin O. Shaw, P.L.C. v. A & M Development, L.L.C.",
+  "court": "Iowa Court of Appeals (appeal from Iowa District Court for Johnson County)",
+  "docket": "No. 25-1285",
+  "decided": "2026-08-19",
+  "url": "https://www.iowacourts.gov/courtcases/26627/embed/CourtAppealsOpinion",
+  "excerptNote": "Verbatim from Part I (Facts and Prior Proceedings), the parties' contentions in Part III.A-B, and the undisputed timeline recited in Judge Greer's dissent. Removed: the sentences stating the district court's damages award and per-square-foot figure, the district court's findings on the estoppel/mitigation defenses, and every appellate holding. The dissent's footnote characterizing A & M's conduct as a breach was also omitted. Extraction whitespace artifacts corrected."
+ }
+}

@@ -1,0 +1,106 @@
+{
+ "id": "dover-mall-v-tang-2023",
+ "ranAt": "2026-09-25T03:17:32+00:00",
+ "status": 200,
+ "prediction": {
+  "model": "claude-sonnet-5",
+  "analysisVersion": "v3",
+  "category": "lease-disputes",
+  "roleLabel": "Landlord",
+  "damagesRange": [
+   201500,
+   276089.72
+  ],
+  "bestGuessValue": 234800,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": "Dover Mall should win summary judgment on liability and on the pre-surrender arrears (roughly $190,000-$205,000) essentially outright, since Tang concedes both the breach and the calculation and his force majeure/frustration defenses are foreclosed by the lease's explicit rent carve-out and ordinary frustration doctrine. The accelerated/future-rent component covering the post-surrender period, however, likely survives summary judgment and heads to trial because the record contains no actual evidence of reletting efforts, giving Tang's mitigation defense real traction on that slice of the claim; net recovery is likely to land well below the full $276,089.72 requested.",
+  "issues": [
+   {
+    "label": "Accrued Rent Arrears (April 2020 - November 2021 Surrender)",
+    "probabilityRange": [
+     0.95,
+     0.97
+    ],
+    "damagesRange": [
+     190000,
+     205000
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "conceded",
+    "supportedCeiling": 205000,
+    "kind": "claim"
+   },
+   {
+    "label": "Post-Surrender Accelerated/Future Rent Through Lease End",
+    "probabilityRange": [
+     0.35,
+     0.6
+    ],
+    "damagesRange": [
+     60000,
+     80000
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": 80000,
+    "kind": "claim"
+   },
+   {
+    "label": "Force Majeure / Impossibility Defense",
+    "probabilityRange": [
+     0.05,
+     0.15
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "defense"
+   },
+   {
+    "label": "Frustration of Purpose (Pre-Pandemic Occupancy Decline)",
+    "probabilityRange": [
+     0.02,
+     0.1
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "defense"
+   },
+   {
+    "label": "Individual Capacity / Collectibility",
+    "probabilityRange": null,
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "unknown",
+    "supportedCeiling": null,
+    "kind": "defense"
+   }
+  ],
+  "citationCoverage": {
+   "count": 39,
+   "tier": "strong"
+  }
+ },
+ "error": null,
+ "outcome": {
+  "amount": 276089.72,
+  "amountIsTheRequestedAmount": true,
+  "date": "2023-10-05",
+  "description": "The Superior Court granted the landlord summary judgment on liability and damages in the amount of $276,089.72, the full amount demanded, holding the force majeure clause allocated pandemic-closure risk to the tenant and two lease provisions relieved the landlord of any duty to relet. No attorney's fee award is stated. This is a trial-level decision; no appeal is reflected in the opinion.",
+  "attorneysFeesAtTrial": null,
+  "appellateChange": "n/a (trial-level decision; no appeal in opinion)",
+  "finalAmount": 276089.72,
+  "finalNote": "Trial-level decision; no appeal reflected."
+ },
+ "source": {
+  "caseName": "Dover Mall, LLC v. Sam Tang",
+  "court": "Delaware Superior Court (Kent County), Resident Judge Jeffrey J Clark",
+  "docket": "C.A. No. K22C-07-013 JJC",
+  "decided": "2023-10-05",
+  "url": "http://courts.delaware.gov/Opinions/Download.aspx?id=353820",
+  "excerptNote": "Verbatim from the letter opinion's introduction (parties' positions), 'The Record and Procedural Background' section (including footnotes 16 and 17), and the fact-recitation portions of the Discussion (Tang's two affirmative defenses; his concession on the damages schedule). Removed: every sentence stating the court's rulings on liability, force majeure, mitigation, and the summary-judgment result; the long quoted remedy/reletting lease clauses; the case-law discussion; the Conclusion. The $276,089.72 figure that remains is Dover Mall's stated demand, not the result."
+ }
+}

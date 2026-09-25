@@ -1,0 +1,106 @@
+{
+ "id": "carmel-barham-dealership-2023",
+ "ranAt": "2026-09-25T03:28:58+00:00",
+ "status": 200,
+ "prediction": {
+  "model": "claude-sonnet-5",
+  "analysisVersion": "v3",
+  "category": "eminent-domain",
+  "roleLabel": "Property Owner",
+  "damagesRange": [
+   133000,
+   190000
+  ],
+  "bestGuessValue": 185250,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": "Barham will almost certainly recover at least the roughly $163,000 base appraisal for the physical takings, which Carmel does not seriously dispute. The real variable is whether the jury finds the combined effect of this taking and the separate Threel Road closure extinguished a compensable easement (a live issue after the MSJ denial) rather than mere non-compensable traffic diversion -- a genuinely contested question that could meaningfully increase the award, but the record does not yet supply a dollar figure for that increment.",
+  "issues": [
+   {
+    "label": "Base Just Compensation for Fee Strip, Access-Control Line, and Temporary Construction ROW",
+    "probabilityRange": [
+     0.95,
+     1
+    ],
+    "damagesRange": [
+     140000,
+     190000
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "conceded",
+    "supportedCeiling": 190000,
+    "kind": "claim"
+   },
+   {
+    "label": "Threel Road Access/Easement Extinguishment Claim",
+    "probabilityRange": [
+     0.45,
+     0.65
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim"
+   },
+   {
+    "label": "Traffic-Flow / Circuity-of-Access Doctrine Defense",
+    "probabilityRange": [
+     0.35,
+     0.55
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "defense"
+   },
+   {
+    "label": "Denial of Carmel's Motion for Partial Summary Judgment (Procedural Posture)",
+    "probabilityRange": [
+     0.95,
+     1
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "conceded",
+    "supportedCeiling": null,
+    "kind": "defense"
+   },
+   {
+    "label": "Continued Access via Aronson Road (Mitigation of Access-Loss Theory)",
+    "probabilityRange": [
+     0.4,
+     0.6
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "defense"
+   }
+  ],
+  "citationCoverage": {
+   "count": 22,
+   "tier": "strong"
+  }
+ },
+ "error": null,
+ "outcome": {
+  "amount": 2400000,
+  "amountIsTheRequestedAmount": false,
+  "date": "2023-10-30",
+  "description": "After a May 2022 jury trial the Marion Circuit Court entered judgment on a $2.4 million verdict for Barham and denied Carmel's motions to correct error, for new trial, and for remittitur. The Court of Appeals reversed on October 30, 2023, holding Barham had no compensable easement interest in Threel Road (already extinguished in the County Line condemnation) and that the access change was non-compensable under the ingress-egress and traffic-flow rules, and remanded with instructions to grant Carmel partial summary judgment on that issue.",
+  "attorneysFeesAtTrial": null,
+  "appellateChange": "reversed",
+  "finalAmount": null,
+  "finalNote": "Reversed and remanded; no final figure yet."
+ },
+ "source": {
+  "caseName": "City of Carmel v. Barham Investments, LLC, Marion County Treasurer, and Coast to Coast Carmel Corporation",
+  "court": "Court of Appeals of Indiana",
+  "docket": "22A-PL-2399 (Marion Circuit Court Cause No. 49C01-1712-PL-46760)",
+  "decided": "2023-10-30",
+  "url": "https://public.courts.in.gov/Decisions/api/Document/Opinion?Id=X9zl-fYtQYK6_4blrcmz4U5qNH5Y6VWpE2-CDAwH2_CN1anKpTYwgg42dNkjGuoR0",
+  "excerptNote": "Verbatim from the Case Summary (para. 1 only), Facts and Procedural History (paras. 3-6), and the parties' contentions and easement/Agreed Order language from the Discussion (paras. 11-12, 16, 19). Removed: para. 2 and para. 7 (jury award, post-trial motions, and the court's disposition), appendix citations, and every sentence stating what the appellate court concluded. The $163,000 court-appointed appraisal is retained as a pre-outcome fact."
+ }
+}

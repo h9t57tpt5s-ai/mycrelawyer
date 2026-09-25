@@ -1,0 +1,121 @@
+{
+ "id": "lagoon-partners-landmark-2023",
+ "ranAt": "2026-09-25T03:24:24+00:00",
+ "status": 200,
+ "prediction": {
+  "model": "claude-sonnet-5",
+  "analysisVersion": "v3",
+  "category": "lease-disputes",
+  "roleLabel": "Landlord",
+  "damagesRange": [
+   735000,
+   1808470
+  ],
+  "bestGuessValue": 1140343.3,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": "Lagoon should recover most or all of the $364,212 in unpaid rent essentially as a matter of law, but the far larger accelerated/future-rent component is likely to survive summary judgment only in part (or be continued for further discovery) given the genuine, well-evidenced dispute over Lagoon's redevelopment of the property and its effect on mitigation and the liquidated-damages calculation. Net recovery is likely to land well below the full $1,808,470 demanded, with the future-rent piece the main variable pending Abdul's deposition and completion of discovery.",
+  "issues": [
+   {
+    "label": "Unpaid Rent Through Surrender (May 2021)",
+    "probabilityRange": [
+     0.95,
+     0.95
+    ],
+    "damagesRange": [
+     300000,
+     364212
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "conceded",
+    "supportedCeiling": 364212,
+    "kind": "claim"
+   },
+   {
+    "label": "Accelerated Future Rent Under Liquidated-Damages Clause",
+    "probabilityRange": [
+     0.45,
+     0.65
+    ],
+    "damagesRange": [
+     1000000,
+     1444258
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": 1444258,
+    "kind": "claim"
+   },
+   {
+    "label": "Frustration of Purpose Defense",
+    "probabilityRange": [
+     0.7,
+     0.88
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "defense"
+   },
+   {
+    "label": "Penalty-Clause Enforceability Challenge",
+    "probabilityRange": [
+     0.5,
+     0.7
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "defense"
+   },
+   {
+    "label": "Procedural Prematurity of Summary Judgment Motion",
+    "probabilityRange": [
+     0.5,
+     0.7
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "unknown",
+    "supportedCeiling": null,
+    "kind": "defense"
+   },
+   {
+    "label": "Attorney's Fees and Costs",
+    "probabilityRange": [
+     0.55,
+     0.75
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "unknown",
+    "supportedCeiling": null,
+    "kind": "claim"
+   }
+  ],
+  "citationCoverage": {
+   "count": 39,
+   "tier": "strong"
+  }
+ },
+ "error": null,
+ "outcome": {
+  "amount": 1808470,
+  "amountIsTheRequestedAmount": true,
+  "date": "2023-12-11",
+  "description": "The district court granted Lagoon summary judgment in June 2022, held the liquidated-damages clause enforceable so that no mitigation was required, and (after Lagoon waived attorney fees) entered judgment for $1,808,470 plus costs. The Minnesota Court of Appeals reversed on December 11, 2023, holding the liquidated-damages clause unenforceable because actual damages were capable of estimation and the clause ignored the duty to mitigate, and remanded for further proceedings on actual damages and mitigation.",
+  "attorneysFeesAtTrial": null,
+  "appellateChange": "reversed",
+  "finalAmount": null,
+  "finalNote": "Reversed (liquidated-damages clause unenforceable) and remanded; no final figure yet."
+ },
+ "source": {
+  "caseName": "Lagoon Partners, LLC v. Silver Cinemas Acquisition Co., d/b/a Landmark Theatres",
+  "court": "Minnesota Court of Appeals",
+  "docket": "A23-0194 (Hennepin County District Court File No. 27-CV-21-11262)",
+  "decided": "2023-12-11",
+  "url": "http://mn.gov/law-library-stat/archive/ctappub/2023/OPa230194-121123.pdf",
+  "excerptNote": "Verbatim sentences from the FACTS section (Lease Agreement, Default, Litigation) through the parties' summary-judgment briefing; the opening description of the theater, the block-quoted termination clause, the scheduling-order sentences, and some executive-order detail were omitted for length. Removed: the syllabus and opening paragraph stating the court's conclusion, the block quote of the statutory-limit liquidated-damages language, the executive-order citations, footnotes, the paragraph describing the district court's summary-judgment order and judgment amount, and all analysis. Lagoon's $1,808,470 demand is retained as a pre-outcome fact."
+ }
+}

@@ -1,0 +1,121 @@
+{
+ "id": "frye-v-raphaelson-estate-2023",
+ "ranAt": "2026-09-25T03:20:03+00:00",
+ "status": 200,
+ "prediction": {
+  "model": "claude-sonnet-5",
+  "analysisVersion": "v3",
+  "category": "lease-disputes",
+  "roleLabel": "Landlord",
+  "damagesRange": [
+   -6750,
+   160000
+  ],
+  "bestGuessValue": 86900,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": "The estate should prevail on liability for at least the post-revocation/post-JP-Action occupancy period, but the trial court is likely to award materially less than the full $160,000 requested given the thin, single-witness basis for the $5,000/month rate, the lower rate Frye testified was agreed for the Commerce Property, and the unresolved cleanup credit; Frye will likely recover a partial award on his own unjust enrichment claim anchored near his documented $25,000 payment rather than his full $70,000 ask. Netting both sides, the estate should come out net positive but well below its full requested recovery.",
+  "issues": [
+   {
+    "label": "Estate's Use-and-Occupancy Claim (Trespass/Unjust Enrichment)",
+    "probabilityRange": [
+     0.7,
+     0.88
+    ],
+    "damagesRange": [
+     50000,
+     140000
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": 160000,
+    "kind": "claim"
+   },
+   {
+    "label": "Irrevocable License Defense",
+    "probabilityRange": [
+     0.6,
+     0.8
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "defense"
+   },
+   {
+    "label": "Insufficient Proof of Quantum Defense",
+    "probabilityRange": [
+     0.55,
+     0.75
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "defense"
+   },
+   {
+    "label": "Frye's Own Unjust Enrichment Claim",
+    "probabilityRange": [
+     0.55,
+     0.75
+    ],
+    "damagesRange": [
+     -45000,
+     -15000
+    ],
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": -70000,
+    "kind": "claim"
+   },
+   {
+    "label": "Commerce Property Cleanup Credit Setoff",
+    "probabilityRange": [
+     0.3,
+     0.5
+    ],
+    "damagesRange": [
+     -16000,
+     -5000
+    ],
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": -16000,
+    "kind": "defense"
+   },
+   {
+    "label": "Election of Remedies / Double Recovery",
+    "probabilityRange": null,
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "unknown",
+    "supportedCeiling": null,
+    "kind": "defense"
+   }
+  ],
+  "citationCoverage": {
+   "count": 39,
+   "tier": "strong"
+  }
+ },
+ "error": null,
+ "outcome": {
+  "amount": 44000,
+  "amountIsTheRequestedAmount": false,
+  "date": "2023-08-31",
+  "description": "The Magistrate's final post-trial report recommended judgment for the estate and against the occupant for $44,000.00 on the estate's unjust-enrichment counterclaim ($1,000 per month for the Dock Street Properties from May 2020 through August 2022, plus $1,000 per month agreed rent for the Commerce Property from April 2021 through August 2022), rejecting the $5,000-per-month / $160,000 demand, denying the occupant's own $70,000 unjust-enrichment claim, and denying the estate's trespass counterclaim; costs to the estate as prevailing party, no attorney's fees.",
+  "attorneysFeesAtTrial": null,
+  "appellateChange": "none - trial-level magistrate's final report (exceptions available under Court of Chancery Rule 144); no appellate ruling in this document",
+  "finalAmount": 44000,
+  "finalNote": "Trial-level report; no appeal reflected."
+ },
+ "source": {
+  "caseName": "Frye v. Estate of Raphaelson",
+  "court": "Delaware Court of Chancery (Magistrate in Chancery, final post-trial report)",
+  "docket": "C.A. No. 2020-0325-SEM",
+  "decided": "2023-08-31",
+  "url": "http://courts.delaware.gov/Opinions/Download.aspx?id=352620",
+  "excerptNote": "Verbatim sentences from Part I (Background, subsections A-F: early years, use and occupancy, attempted purchase, Commerce Property, falling out, procedural history) plus the paragraph of Part II.A that lays out each side's unjust-enrichment demand and the occupant's two responsive arguments. Removed: the introduction and conclusion stating the recommended judgment; every 'I find' / 'I recommend' sentence; the magistrate's rental-value estimate and month-by-month computation; the trespass ruling; footnote citations and record cites. PDF line-break and word-split artifacts were normalized; no wording changed."
+ }
+}

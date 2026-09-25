@@ -1,0 +1,136 @@
+{
+ "id": "edgemere-lawal-2025",
+ "ranAt": "2026-09-25T02:58:12+00:00",
+ "status": 200,
+ "prediction": {
+  "model": "claude-sonnet-5",
+  "analysisVersion": "v3",
+  "category": "lease-disputes",
+  "roleLabel": "Tenant",
+  "damagesRange": null,
+  "bestGuessValue": null,
+  "whatIsNeededForEstimate": "To size this case you need: (1) the actual monthly rent amount under the renewed 2018 lease (the 'increased amount' is referenced but never stated), from which the nine-month rent claim and the 10%/month plus $50/day late fee exposure can be computed; (2) the dollar amount of the security deposit Edgemere retained and applied to March 2020 rent; (3) any concrete figures supporting Lawal's claimed lost profits (e.g., lost patient revenue, canceled procedure billings) during the period he says his practice was disrupted; (4) the actual costs he incurred setting up his new office; and (5) each side's claimed attorney's fees to date.",
+  "likelyOutcome": "Liability is a genuine jury question, but the stronger legal argument favors the tenant on the central issue: Edgemere's own unequivocal, never-communicated-as-retracted termination notice undercuts its claim for nine months of post-vacatur rent and late fees, and by extension undermines its justification for keeping the security deposit. Lawal's constructive eviction and quiet enjoyment counterclaims are comparatively weak given his own admissions that there was no lockout, denied access, or utility shutoff. No dollar figures in the record allow this to be sized, so the case nets out as likely favorable to the tenant on liability with an unquantifiable dollar outcome absent additional facts.",
+  "issues": [
+   {
+    "label": "Landlord's claim for 9 months' post-vacatur rent",
+    "probabilityRange": [
+     0.3,
+     0.5
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim"
+   },
+   {
+    "label": "Contractual late fees (10%/month + $50/day)",
+    "probabilityRange": [
+     0.25,
+     0.45
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim"
+   },
+   {
+    "label": "Return of security deposit",
+    "probabilityRange": [
+     0.45,
+     0.65
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim"
+   },
+   {
+    "label": "Constructive eviction counterclaim",
+    "probabilityRange": [
+     0.12,
+     0.3
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim"
+   },
+   {
+    "label": "Breach of implied warranty of quiet enjoyment",
+    "probabilityRange": [
+     0.12,
+     0.3
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim"
+   },
+   {
+    "label": "Lost profits from alleged practice disruption",
+    "probabilityRange": [
+     0.1,
+     0.25
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim"
+   },
+   {
+    "label": "Cost of setting up new office space",
+    "probabilityRange": [
+     0.2,
+     0.4
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim"
+   },
+   {
+    "label": "Attorney's fees (both sides)",
+    "probabilityRange": [
+     0.3,
+     0.6
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "unknown",
+    "supportedCeiling": null,
+    "kind": "defense"
+   }
+  ],
+  "citationCoverage": {
+   "count": 39,
+   "tier": "strong"
+  }
+ },
+ "error": null,
+ "outcome": {
+  "amount": 83791.8,
+  "amountIsTheRequestedAmount": false,
+  "date": "2025-05-27",
+  "description": "The jury found for the tenant on all claims and the trial court entered judgment for $36,791.80 moving expenses, $42,000 lost profits and $5,000 for the retained security deposit (total $83,791.80), plus $67,000 attorney's fees, interest and costs, and took-nothing on the landlord's rent claim. The court of appeals reversed the constructive-eviction/implied-warranty recovery (no evidence of substantial interference) and rendered judgment that the tenant take nothing on those claims, affirmed the judgment against the landlord on its breach claim and for the tenant on the $5,000 security-deposit claim, and remanded attorney's fees for a new trial.",
+  "attorneysFeesAtTrial": 67000,
+  "appellateChange": "modified to $5,000",
+  "finalAmount": 5000,
+  "finalNote": "Reduced on appeal to the $5,000 security deposit."
+ },
+ "source": {
+  "caseName": "Edgemere Loop 375, LLC v. Lookman Lawal, M.D., and Southwestern Cardiac Arrhythmia Institute, P.A.",
+  "court": "Court of Appeals of Texas, Eighth District (El Paso)",
+  "docket": "No. 08-24-00092-CV (appeal from 205th District Court, El Paso County, TC# 2020DCV2771)",
+  "decided": "2025-05-27",
+  "url": "https://search.txcourts.gov/SearchMedia.aspx?MediaID=1da0b877-43f9-4d95-99b6-7609f934dace",
+  "excerptNote": "Excerpts from Part I (Factual Background; the 'To summarize' paragraph, the title-company/attorney-retention paragraph and the May 29 letter quotation omitted for length), Part II (Procedural Background) and the parties' contentions quoted in Part IV (Analysis, incl. footnote 5). Removed: the jury's findings and the trial court's final judgment (all award figures), the appellate holdings, the attorney's-fee testimony figure, and the disposition. Whitespace normalized only."
+ }
+}

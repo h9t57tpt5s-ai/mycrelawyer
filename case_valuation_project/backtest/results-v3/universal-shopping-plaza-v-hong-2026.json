@@ -1,0 +1,112 @@
+{
+ "id": "universal-shopping-plaza-v-hong-2026",
+ "ranAt": "2026-09-25T02:46:11+00:00",
+ "status": 200,
+ "prediction": {
+  "model": "claude-sonnet-5",
+  "analysisVersion": "v3",
+  "category": "lease-disputes",
+  "roleLabel": "Landlord",
+  "damagesRange": [
+   80075.82,
+   475989
+  ],
+  "bestGuessValue": 179924.995,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": "Universal's recovery in this unlawful detainer trial depends almost entirely on whether the trial court accepts the application-of-payments theory as satisfying CCP \u00a71161(2)'s one-year notice requirement \u2014 a genuinely close question that survived demurrer but faces real headwinds from strict-construction doctrine and the notice's failure to specify the rental period. If Universal prevails on that threshold issue, it likely recovers the $65,989 in back rent plus substantial accruing holdover damages and a fee award; if it loses, the unlawful detainer action fails in its entirety and Universal is left, at best, to pursue rent (and a fresh, properly-scoped notice) outside this proceeding.",
+  "issues": [
+   {
+    "label": "Three-Day Notice Timeliness Under CCP \u00a71161(2) / Application-of-Payments Theory",
+    "probabilityRange": [
+     0.4,
+     0.55
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "defense"
+   },
+   {
+    "label": "Recovery of Past-Due Rent ($65,989)",
+    "probabilityRange": [
+     0.38,
+     0.53
+    ],
+    "damagesRange": [
+     65989,
+     65989
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": 65989,
+    "kind": "claim"
+   },
+   {
+    "label": "Holdover Damages at $1,219/Day From March 1, 2025",
+    "probabilityRange": [
+     0.38,
+     0.53
+    ],
+    "damagesRange": [
+     110000,
+     220000
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": 260000,
+    "kind": "claim"
+   },
+   {
+    "label": "Attorney's Fees",
+    "probabilityRange": [
+     0.33,
+     0.5
+    ],
+    "damagesRange": [
+     40000,
+     120000
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": 150000,
+    "kind": "claim"
+   },
+   {
+    "label": "Tenant's Discount/Credit Defense (2022 Rent Reduction Promise)",
+    "probabilityRange": [
+     0.15,
+     0.25
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "defense"
+   }
+  ],
+  "citationCoverage": {
+   "count": 39,
+   "tier": "strong"
+  }
+ },
+ "error": null,
+ "outcome": {
+  "amount": 189100,
+  "amountIsTheRequestedAmount": false,
+  "date": "2026-09-09",
+  "description": "After a three-day court trial the trial court entered judgment for the landlord on July 3, 2025 awarding possession, $65,989 in past-due rent (the amount demanded in the notice) and $123,111 in holdover damages, $189,100 in total; no fee award is stated in the opinion. The Court of Appeal reversed, holding the three-day notice void because the unpaid rent fell due more than one year before service, and remanded for entry of judgment in favor of the tenant.",
+  "attorneysFeesAtTrial": null,
+  "appellateChange": "reversed",
+  "finalAmount": 0,
+  "finalNote": "Reversed: the three-day notice was void, so the landlord takes nothing in this action."
+ },
+ "source": {
+  "caseName": "Universal Shopping Plaza v. Piong Bin Hong",
+  "court": "California Court of Appeal, Second District, Division Seven, on appeal from Los Angeles County Superior Court",
+  "docket": "B348490 (Super. Ct. No. 25NNCV01228)",
+  "decided": "2026-09-09",
+  "url": "https://www.courts.ca.gov/opinions/documents/B348490.PDF",
+  "excerptNote": "Verbatim from the landlord's contention in the introduction and from Factual and Procedural Background parts A, B and C through the trial testimony. Removed: the sentences stating the trial court's rulings (demurrer, findings, July 3, 2025 judgment), the closing arguments, the introduction's reference to the holdover award, lease paragraph 27.1, footnotes, and all appellate analysis/holdings. One sentence is stitched across a footnote break in the PDF."
+ }
+}

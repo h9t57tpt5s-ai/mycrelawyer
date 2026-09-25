@@ -1,0 +1,109 @@
+{
+ "id": "udot-boggess-draper-2025",
+ "ranAt": "2026-09-25T03:08:21+00:00",
+ "status": 200,
+ "prediction": {
+  "model": "claude-sonnet-5",
+  "analysisVersion": "v3",
+  "category": "eminent-domain",
+  "roleLabel": "Property Owner",
+  "damagesRange": null,
+  "bestGuessValue": null,
+  "whatIsNeededForEstimate": "To generate an actual dollar estimate I would need: (1) the appraised value (or competing appraisals) of the strip of land UDOT actually took, including its square footage/acreage; (2) Boggess's own expert's stated dollar figure for claimed severance damages (the diminished-access/increased-traffic impairment), not just the theory; (3) the total square footage of the remainder parcel, so the $8.75-to-$12.50 per-square-foot before/after swing UDOT's expert relies on can actually be converted into a total dollar figure comparable to Boggess's claim; and (4) the amount (if disclosed anywhere) of the first jury's vacated verdict, which would at least provide a benchmark for how a jury has previously valued these same components before the evidentiary rules changed.",
+  "likelyOutcome": "Boggess will recover just compensation for the land physically taken (essentially uncontested as to entitlement) and will likely obtain some award for severance damages given its theory survived to a first verdict, but the retrial evidentiary landscape -- admission of the 2016 sale/development and the pretrial ruling that UDOT's claimed benefits are 'special' rather than 'general' -- meaningfully favors UDOT relative to the first trial and creates real risk that the jury substantially discounts or offsets the severance component against UDOT's $2.2 million special-benefits theory. Without the underlying appraisal figures or Boggess's own damages claim in the record, I cannot respons\u00adibly quantify a net number, but directionally this reads as a case where Boggess still wins something meaningful on the land-value component while facing a live, material battle over how much (if any) severance damages survive the special-benefits offset.",
+  "issues": [
+   {
+    "label": "Entitlement to Just Compensation for Land Taken",
+    "probabilityRange": [
+     0.95,
+     1
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "conceded",
+    "supportedCeiling": null,
+    "kind": "claim"
+   },
+   {
+    "label": "Severance Damages Claim (Diminished Access / Increased Traffic)",
+    "probabilityRange": [
+     0.55,
+     0.8
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim"
+   },
+   {
+    "label": "UDOT's Special-Benefits Offset (Hempstead)",
+    "probabilityRange": [
+     0.45,
+     0.7
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "defense"
+   },
+   {
+    "label": "Admissibility of Post-Valuation Sale and Development Evidence",
+    "probabilityRange": [
+     0.95,
+     0.95
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "conceded",
+    "supportedCeiling": null,
+    "kind": "defense"
+   },
+   {
+    "label": "Exclusion of the 2016 Sale Price (Rule 403 Partial Win)",
+    "probabilityRange": [
+     0.95,
+     0.95
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "conceded",
+    "supportedCeiling": null,
+    "kind": "defense"
+   },
+   {
+    "label": "Retrial Risk From the First Verdict's Reversal",
+    "probabilityRange": null,
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "unknown",
+    "supportedCeiling": null,
+    "kind": "defense"
+   }
+  ],
+  "citationCoverage": {
+   "count": 22,
+   "tier": "strong"
+  }
+ },
+ "error": null,
+ "outcome": {
+  "amount": 330000,
+  "amountIsTheRequestedAmount": false,
+  "date": "2025-05-01",
+  "description": "On retrial the jury awarded Boggess approximately $330,000 (the opinion gives only this rounded figure) for the value of the condemned property and found no severance damages, after UDOT's expert was allowed to testify to a $2.2 million project-benefit offset. The Court of Appeals held that interstate access and added travel lanes are general benefits that cannot offset severance damages, found the error harmful, reversed the verdict and remanded for a new trial; no fees are discussed.",
+  "attorneysFeesAtTrial": null,
+  "appellateChange": "reversed",
+  "finalAmount": null,
+  "finalNote": "Reversed for a new trial; no final figure yet."
+ },
+ "source": {
+  "caseName": "Utah Department of Transportation v. Boggess-Draper Company, LLC",
+  "court": "Utah Court of Appeals",
+  "docket": "2025 UT App 58, No. 20220875-CA (appeal from Third District Court, Salt Lake Department, No. 090921179)",
+  "decided": "2025-05-01",
+  "url": "https://legacy.utcourts.gov/opinions/appopin/UDOT%20v.%20Boggess-Draper%20Company20250501_20220875_58.pdf",
+  "excerptNote": "Excerpts from Background \u00b6\u00b63-7 and \u00b6\u00b69-10 (pre-trial evidentiary motions and rulings on remand), Boggess's severance theory as described at \u00b621, and UDOT's expert's benefit testimony quoted at \u00b641. Removed: \u00b6\u00b61-2 and \u00b68 (both jury verdict amounts and the '$1.4 million reduction' comparison), the sentence in \u00b65 giving the first verdict amount, \u00b611 and \u00b628 (the excluded 2008-offer testimony), the description of the retrial verdict, and all appellate holdings. Note: the opinion states the retrial award only as 'approximately $330,000'. PDF running headers and spacing artifacts removed; whitespace normalized."
+ }
+}

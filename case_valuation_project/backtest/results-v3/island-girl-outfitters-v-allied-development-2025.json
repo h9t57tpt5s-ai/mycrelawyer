@@ -1,0 +1,109 @@
+{
+ "id": "island-girl-outfitters-v-allied-development-2025",
+ "ranAt": "2026-09-25T02:51:51+00:00",
+ "status": 200,
+ "prediction": {
+  "model": "claude-sonnet-5",
+  "analysisVersion": "v3",
+  "category": "lease-disputes",
+  "roleLabel": "Landlord",
+  "damagesRange": [
+   42500,
+   146910
+  ],
+  "bestGuessValue": 108533.6,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": "Allied Development will almost certainly obtain a damages judgment against IGO and Carver jointly \u2014 liability is already locked in by partial summary judgment and the guaranty is unchallenged. The real fight at the ore tenus hearing is how much of the $146,910 claimed the court awards after crediting IGO's mitigation argument about the reletting; given the genuine factual dispute over whether the internal tenant relocation actually mitigated the loss (versus merely shifting the vacancy), a moderate-to-strong recovery somewhere well above tenant's $18,900 offer but meaningfully below the full $146,910 ceiling is the most probable outcome.",
+  "issues": [
+   {
+    "label": "Future/Accelerated Rent Claim Under Default Provision",
+    "probabilityRange": [
+     0.95,
+     0.97
+    ],
+    "damagesRange": [
+     120000,
+     146910
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "conceded",
+    "supportedCeiling": 146910,
+    "kind": "claim"
+   },
+   {
+    "label": "Failure-to-Mitigate / Internal Reletting Offset",
+    "probabilityRange": [
+     0.35,
+     0.65
+    ],
+    "damagesRange": [
+     -110000,
+     -20000
+    ],
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": -128010,
+    "kind": "defense"
+   },
+   {
+    "label": "Guaranty Enforcement Against Carver",
+    "probabilityRange": [
+     0.95,
+     0.99
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "conceded",
+    "supportedCeiling": null,
+    "kind": "claim"
+   },
+   {
+    "label": "Itemization/Documentation Deficiency Objection",
+    "probabilityRange": [
+     0.15,
+     0.35
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "defense"
+   },
+   {
+    "label": "Breach of Quiet Enjoyment / Constructive Eviction (Liability Defense)",
+    "probabilityRange": [
+     0.95,
+     0.95
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "conceded",
+    "supportedCeiling": null,
+    "kind": "defense"
+   }
+  ],
+  "citationCoverage": {
+   "count": 39,
+   "tier": "strong"
+  }
+ },
+ "error": null,
+ "outcome": {
+  "amount": 94350,
+  "amountIsTheRequestedAmount": false,
+  "date": "2025-03-21",
+  "description": "After a damages hearing, the Baldwin Circuit Court rendered judgment for the landlord in the amount of $94,350 plus costs of court against the tenant and guarantor (the landlord had claimed $89,010 in its summary-judgment motion and later $146,910; the tenant argued for no more than $18,900). Attorney's fees were not separately stated. The Supreme Court of Alabama affirmed both the liability determination and the damages judgment.",
+  "attorneysFeesAtTrial": null,
+  "appellateChange": "affirmed",
+  "finalAmount": 94350,
+  "finalNote": "Affirmed."
+ },
+ "source": {
+  "caseName": "Island Girl Outfitters, LLC, and Anthony S. Carver v. Allied Development of Alabama, LLC",
+  "court": "Supreme Court of Alabama (appeal from Baldwin Circuit Court)",
+  "docket": "SC-2023-0561 (trial court CV-22-900259)",
+  "decided": "2025-03-21",
+  "url": "https://publicportal-api.alappeals.gov/courts/68f021c4-6a44-4735-9a76-5360b2e8af13/cms/case/33D15128-6DDF-4F60-8D72-8ABE96948EE3/docketentrydocuments/B04FE86F-1EB1-49BD-A1C7-EEC074DC3688",
+  "excerptNote": "Excerpts from the opinion's introduction, 'Facts and Procedural History', and the parties' contentions as restated in the 'Analysis' section. Removed: the introductory sentence stating the judgment amount, the sentences describing the trial court's partial summary judgment on liability and the later damages judgment, the sentence restating the damages award in the mitigation argument, and all appellate holdings/affirmance language."
+ }
+}

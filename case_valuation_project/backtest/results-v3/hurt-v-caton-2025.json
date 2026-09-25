@@ -1,0 +1,121 @@
+{
+ "id": "hurt-v-caton-2025",
+ "ranAt": "2026-09-25T02:55:54+00:00",
+ "status": 200,
+ "prediction": {
+  "model": "claude-sonnet-5",
+  "analysisVersion": "v3",
+  "category": "lease-disputes",
+  "roleLabel": "Tenant",
+  "damagesRange": [
+   110770.00000000001,
+   442885.5
+  ],
+  "bestGuessValue": 257388.475,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": "More likely than not, Caton prevails on the core liability question given the Trust's own admission in the fifth amendment recital that exercise would have been futile, entitling him to the full $314,000 option-consideration refund with high confidence and a meaningfully more uncertain (but still favorable) recovery on the $128,885.50 in diligence expenses given reliance on deposition testimony rather than documents. Net expected recovery for Caton is likely in the $210,000-$300,000 range, with a plausible full-demand outcome of $442,885.50 if the court credits both components in full and a realistic downside if the court finds the option was never properly triggered or discounts the expense proof heavily.",
+  "issues": [
+   {
+    "label": "Core Liability -- Section 9(a) Trigger Without Formal Exercise",
+    "probabilityRange": [
+     0.55,
+     0.72
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim"
+   },
+   {
+    "label": "Materiality of the Adverse-Possession Encumbrance Under Section 1(b)",
+    "probabilityRange": [
+     0.5,
+     0.7
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "defense"
+   },
+   {
+    "label": "Option Consideration Refund ($314,000)",
+    "probabilityRange": [
+     0.55,
+     0.72
+    ],
+    "damagesRange": [
+     172700,
+     314000
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": 314000,
+    "kind": "claim"
+   },
+   {
+    "label": "Out-of-Pocket Diligence Expenses ($128,885.50)",
+    "probabilityRange": [
+     0.35,
+     0.55
+    ],
+    "damagesRange": [
+     45100,
+     128885.5
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": 128885.5,
+    "kind": "claim"
+   },
+   {
+    "label": "Trust's Defense -- Condition Precedent Never Ripened (No Exercise, No Breach)",
+    "probabilityRange": [
+     0.28,
+     0.45
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "defense"
+   },
+   {
+    "label": "Timing/Sequencing of Termination and Demand Letters",
+    "probabilityRange": [
+     0.7,
+     0.9
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "defense"
+   }
+  ],
+  "citationCoverage": {
+   "count": 39,
+   "tier": "strong"
+  }
+ },
+ "error": null,
+ "outcome": {
+  "amount": 442885.5,
+  "amountIsTheRequestedAmount": true,
+  "date": "2025-03-04",
+  "description": "The circuit court granted Caton summary judgment on a futility theory and awarded him $442,885.50 in damages (the full amount of his demand) plus $96,329.00 in attorneys' fees. The Court of Appeals of Virginia affirmed that the agreement required Caton to exercise the option, but reversed the summary judgment award of damages and fees because futility was not established as a matter of law, and remanded for further proceedings.",
+  "attorneysFeesAtTrial": 96329.0,
+  "appellateChange": "reversed",
+  "finalAmount": null,
+  "finalNote": "Summary judgment reversed and remanded; no final figure yet."
+ },
+ "source": {
+  "caseName": "Charles W. Hurt and Shirley L. Fisher, as Trustees of the South Pantops II Land Trust v. Douglas E. Caton",
+  "court": "Court of Appeals of Virginia (published), on appeal from the Circuit Court of Albemarle County",
+  "docket": "Record No. 1198-23-2",
+  "decided": "2025-03-04",
+  "url": "https://www.vacourts.gov/opinions/opncavwp/1198232.pdf",
+  "excerptNote": "Verbatim from the opinion's introduction (dispute summary and the parties' cross-motion positions), the BACKGROUND section (Agreement terms, development plans and adverse-possession suit, fifth amendment, termination and demand letters, the suit and cross-motions), footnotes 2-3, and the first paragraph of the Analysis summarizing each side's contention. Removed: every sentence describing the circuit court's ruling, its damages and fee award, and the appellate holdings, including the standard-of-review section."
+ }
+}

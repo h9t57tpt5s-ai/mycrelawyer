@@ -1,0 +1,124 @@
+{
+ "id": "williamson-music-v-eqyinvest-2026",
+ "ranAt": "2026-09-25T02:33:51+00:00",
+ "status": 200,
+ "prediction": {
+  "model": "claude-sonnet-5",
+  "analysisVersion": "v3",
+  "category": "lease-disputes",
+  "roleLabel": "Landlord",
+  "damagesRange": [
+   105911.39199999999,
+   170484.37
+  ],
+  "bestGuessValue": 134371.044,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": "EQY should recover the substantial majority of its $170,484.37 past-due rent claim against Williamson and Gore (jointly, via the guaranty), with the court likely allowing Williamson a partial (not full) credit against the free-rent overlap period and possibly a modest credit for the disposed personal property, given the weak legal footing for both offset theories on this record. EQY is also entitled to attorney's fees under the Lease, though no dollar figure for fees is quantifiable from the materials provided.",
+  "issues": [
+   {
+    "label": "Past-Due Rent Under the Lease",
+    "probabilityRange": [
+     0.95,
+     0.95
+    ],
+    "damagesRange": [
+     145000,
+     165000
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "conceded",
+    "supportedCeiling": 170484.37,
+    "kind": "claim"
+   },
+   {
+    "label": "Free-Rent / Mitigation Offset Defense (Williamson)",
+    "probabilityRange": [
+     0.2,
+     0.4
+    ],
+    "damagesRange": [
+     -62096.52,
+     -62096.52
+    ],
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": -62096.52,
+    "kind": "defense"
+   },
+   {
+    "label": "Personal Property Offset Defense (Williamson)",
+    "probabilityRange": [
+     0.15,
+     0.35
+    ],
+    "damagesRange": [
+     -20000,
+     -10000
+    ],
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": -20000,
+    "kind": "defense"
+   },
+   {
+    "label": "Attorney's Fees Under the Lease",
+    "probabilityRange": [
+     0.7,
+     0.9
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim"
+   },
+   {
+    "label": "Guarantor Liability (Raymond Gore)",
+    "probabilityRange": [
+     0.95,
+     0.98
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "conceded",
+    "supportedCeiling": null,
+    "kind": "claim"
+   },
+   {
+    "label": "Wrongful Lockout / Unlawful Eviction (Not Pled Here)",
+    "probabilityRange": [
+     0.05,
+     0.15
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "unknown",
+    "supportedCeiling": null,
+    "kind": "claim"
+   }
+  ],
+  "citationCoverage": {
+   "count": 39,
+   "tier": "strong"
+  }
+ },
+ "error": null,
+ "outcome": {
+  "amount": 170484.37,
+  "amountIsTheRequestedAmount": true,
+  "date": "2026-09-15",
+  "description": "After a bench trial the court awarded the landlord $170,484.37 in past-due rent, the full amount it sought, with no credit for the $62,096.52 free-rent overlap offset or the $20,000 personal property. It also awarded $86,725.00 in attorney's fees. On appeal the rent damages were affirmed and the fee award reversed.",
+  "attorneysFeesAtTrial": 86725.0,
+  "attorneysFeesOnAppeal": "reversed",
+  "finalAmount": 170484.37,
+  "finalNote": "Rent damages affirmed; fee award reversed."
+ },
+ "source": {
+  "caseName": "Williamson Music 1st, LLC, and Raymond Gore v. EQYInvest Owner II, Ltd., LLP",
+  "court": "Texas Sixth Court of Appeals (transferred from the Second), on appeal from the 342nd District Court, Tarrant County",
+  "docket": "06-25-00107-CV",
+  "decided": "2026-09-15",
+  "url": "https://search.txcourts.gov/SearchMedia.aspx?MediaVersionID=40c019e5-6590-43be-b02a-bf7b73239fec&coa=coa06&DT=Opinion&MediaID=fd5f6f98-b91a-4602-8ea3-97940423829c",
+  "excerptNote": "documentText is verbatim from Parts I, III.C and III.D of the opinion, with every sentence stating the trial court's award, its findings, or the appellate court's conclusions removed."
+ }
+}

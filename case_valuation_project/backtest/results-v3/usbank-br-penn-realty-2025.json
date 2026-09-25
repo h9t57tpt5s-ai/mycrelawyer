@@ -1,0 +1,106 @@
+{
+ "id": "usbank-br-penn-realty-2025",
+ "ranAt": "2026-09-25T03:04:59+00:00",
+ "status": 200,
+ "prediction": {
+  "model": "claude-sonnet-5",
+  "analysisVersion": "v3",
+  "category": "lending-foreclosure",
+  "roleLabel": "Lender",
+  "damagesRange": [
+   30000000,
+   46290900.25
+  ],
+  "bestGuessValue": 38189992.5,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": "U.S. Bank is very likely to prevail on the core in personam and in rem claims at trial given the documented default, the forbearance history, and the borrower's failure to preserve any objection to the combined pleading structure -- this is a well-supported commercial lending default case, not a close liability call. The larger uncertainty is not who wins but how much is ultimately collectible: the stated $46,290,900.25 figure is the ceiling, but Pennsylvania's Deficiency Judgment Act fair-market-value process and the apparent absence of any personal guaranty mean actual net recovery could land meaningfully below that number, and the record does not contain the appraisal or sale data needed to pin that down precisely.",
+  "issues": [
+   {
+    "label": "Core Debt / Foreclosure Liability and Money Judgment",
+    "probabilityRange": [
+     0.75,
+     0.9
+    ],
+    "damagesRange": [
+     40000000,
+     46290900
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": 46290900.25,
+    "kind": "claim"
+   },
+   {
+    "label": "Waiver of Procedural Objection to Combined In Rem/In Personam Pleading",
+    "probabilityRange": [
+     0.85,
+     0.95
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "unknown",
+    "supportedCeiling": null,
+    "kind": "defense"
+   },
+   {
+    "label": "Accrued Interest, Fees and Costs Under the Loan Documents",
+    "probabilityRange": [
+     0.7,
+     0.9
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim"
+   },
+   {
+    "label": "Deficiency Judgment Act / Fair Market Value Offset Risk",
+    "probabilityRange": [
+     0.3,
+     0.6
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "unknown",
+    "supportedCeiling": null,
+    "kind": "defense"
+   },
+   {
+    "label": "Collectibility of Personal Judgment Against Single-Purpose Borrower Entity",
+    "probabilityRange": [
+     0.2,
+     0.5
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "unknown",
+    "supportedCeiling": null,
+    "kind": "defense"
+   }
+  ],
+  "citationCoverage": {
+   "count": 32,
+   "tier": "strong"
+  }
+ },
+ "error": null,
+ "outcome": {
+  "amount": 51392086.96,
+  "amountIsTheRequestedAmount": false,
+  "date": "2025-05-08",
+  "description": "After a bench trial the district court held Penn Realty breached the loan agreement and entered an in personam money judgment for U.S. Bank of $51,392,086.96 (no judgment in mortgage foreclosure was entered); the Third Circuit affirmed that judgment in a separate unpublished opinion (No. 23-2185, Sept. 25, 2024). In this precedential appeal the Third Circuit upheld the subsequent execution sale of the apartment building under Fed. R. Civ. P. 69(a) and affirmed the denial of the borrower's motion to quash.",
+  "attorneysFeesAtTrial": null,
+  "appellateChange": "affirmed",
+  "finalAmount": 51392086.96,
+  "finalNote": "Affirmed."
+ },
+ "source": {
+  "caseName": "US Bank NA, as Trustee for the Registered Holders of J.P. Morgan Chase Commercial Mortgage Securities Corp., Multifamily Mortgage Pass-Through Certificates, Series 2012-K18 v. B R Penn Realty Owner LP",
+  "court": "United States Court of Appeals for the Third Circuit (precedential)",
+  "docket": "No. 24-1108 (appeal from E.D. Pa. No. 2:21-cv-00502)",
+  "decided": "2025-05-08",
+  "url": "https://www2.ca3.uscourts.gov/opinarch/241108p.pdf",
+  "excerptNote": "Excerpts from Part I (Background) with footnotes 1 and 4, the Pennsylvania loan/mortgage primer in Part III.A, and the description of the complaint's in personam demand. Removed: the sentence stating the bench-trial result and money-judgment amount, the '$51 million' characterization, the affirmance of that judgment in the separate appeal, and everything about the execution sale and this appeal's holdings. Note: this opinion concerns the post-judgment execution sale, so the borrower's defenses at trial are not described; pre-outcome facts are thin. Whitespace normalized; PDF spacing artifacts and footnote markers removed."
+ }
+}

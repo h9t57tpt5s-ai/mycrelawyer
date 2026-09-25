@@ -1,0 +1,151 @@
+{
+ "id": "mckinney-v-park-plaza-properties-2026",
+ "ranAt": "2026-09-25T02:49:16+00:00",
+ "status": 200,
+ "prediction": {
+  "model": "claude-sonnet-5",
+  "analysisVersion": "v3",
+  "category": "lease-disputes",
+  "roleLabel": "Landlord",
+  "damagesRange": [
+   22150,
+   302895.95999999996
+  ],
+  "bestGuessValue": 61795.0475,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": "The landlord likely prevails on liability for the core back-rent claim, discounted for real uncertainty about whether the tenant's first-material-breach/HVAC defense and the NOM-clause effective-date dispute cut the other way, but its landlord's-work and reletting-cost damages theories are legally exposed and should be discounted heavily even in a liability win. Net expected recovery is well below the roughly $302,896 aggregate requested at trial, with a probability-weighted value in the low-to-mid five figures and a realistic upside in the mid five-to-low six figures if the court credits the landlord's damages evidence in full.",
+  "issues": [
+   {
+    "label": "Back Rent Claim",
+    "probabilityRange": [
+     0.45,
+     0.65
+    ],
+    "damagesRange": [
+     30000,
+     45736.45
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": 45736.45,
+    "kind": "claim"
+   },
+   {
+    "label": "Landlord's Work Costs",
+    "probabilityRange": [
+     0.2,
+     0.4
+    ],
+    "damagesRange": [
+     20000,
+     60000
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": 107781.91,
+    "kind": "claim"
+   },
+   {
+    "label": "Demolition Costs",
+    "probabilityRange": [
+     0.55,
+     0.75
+    ],
+    "damagesRange": [
+     3000,
+     5600
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": 5600,
+    "kind": "claim"
+   },
+   {
+    "label": "Reletting/Buildout Costs for Replacement Tenant",
+    "probabilityRange": [
+     0.15,
+     0.35
+    ],
+    "damagesRange": [
+     20000,
+     60000
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": 143777.6,
+    "kind": "claim"
+   },
+   {
+    "label": "Tenant's First-Material-Breach Defense (HVAC/Bathrooms/Floors)",
+    "probabilityRange": [
+     0.4,
+     0.6
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "defense"
+   },
+   {
+    "label": "No-Oral-Modification Clause vs. Waiver by Conduct",
+    "probabilityRange": [
+     0.45,
+     0.6
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "defense"
+   },
+   {
+    "label": "Written-Notice Condition Precedent (Floor Claim)",
+    "probabilityRange": [
+     0.6,
+     0.8
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "defense"
+   },
+   {
+    "label": "Personal Guaranty Enforceability / Collectibility",
+    "probabilityRange": [
+     0.8,
+     0.95
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "unknown",
+    "supportedCeiling": null,
+    "kind": "claim"
+   }
+  ],
+  "citationCoverage": {
+   "count": 39,
+   "tier": "strong"
+  }
+ },
+ "error": null,
+ "outcome": {
+  "amount": 51336.45,
+  "amountIsTheRequestedAmount": false,
+  "date": "2026-09-02",
+  "description": "After a bench trial the circuit court found the lease effective date was modified to May 1, 2022, that the landlord did not breach and the tenants did, and entered judgment against the tenants and guarantors jointly and severally for $51,336.45 (back rent of $45,736.45 plus $5,600 demolition costs, each equal to the component the landlord requested), declining the $107,781.91 landlord's-work and $143,777.60 reletting-cost claims; no attorney's fees are mentioned. The court of appeals affirmed the judgment on direct appeal and, on cross-appeal, reversed the denial of reletting costs and remanded for findings on whether the $143,777.60 qualifies as reasonable reletting costs under the lease.",
+  "attorneysFeesAtTrial": null,
+  "appellateChange": "affirmed",
+  "finalAmount": 51336.45,
+  "finalNote": "Affirmed; the denial of reletting costs was reversed on cross-appeal and remanded, so the final total could rise."
+ },
+ "source": {
+  "caseName": "Shayne McKinney v. Park Plaza Properties, LLC",
+  "court": "Arkansas Court of Appeals, Division IV, on appeal from Sebastian County Circuit Court, Fort Smith District",
+  "docket": "No. CV-25-361 (circuit court No. 66FCV-22-1104)",
+  "decided": "2026-09-02",
+  "url": "https://opinions.arcourts.gov/ark/courtofappeals/en/524547/1/document.do",
+  "excerptNote": "Verbatim from Part I (Facts and Procedural History), from formation of the tenant entity through the trial testimony of the landlord's owner and the tenant's principal and flooring contractor. Removed: the introduction stating the judgment amount, the circuit court's rationale for dismissing the alternative counts, the testimony of the architect, project manager and framing contractor (for length), the paragraphs stating the circuit court's post-trial findings and award, and all appellate analysis/holdings. The dollar figures that remain are the landlord's claimed damage components and the lease rent."
+ }
+}
