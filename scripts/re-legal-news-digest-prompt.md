@@ -54,7 +54,7 @@ not just whatever the first couple of searches happen to return. Prioritize:
 - Litigation, lawsuits, court rulings, and appellate decisions impacting commercial
   property owners, developers, REITs, landlords, or real estate lenders/investors.
 - Regulatory or legislative developments with imminent litigation exposure (zoning,
-  rent control, environmental liability, ADA/accessibility suits, eminent domain,
+  environmental liability, ADA/accessibility suits, eminent domain,
   lease disputes, construction defect litigation, title/insurance disputes,
   foreclosure litigation, CRE loan defaults and workouts, antitrust actions affecting
   real estate, tax assessment appeals, insurance coverage disputes).
@@ -76,6 +76,16 @@ flagship article on the most substantive available story anyway (per the note at
 bottom of this file), but skip Step 4's case additions for that story specifically
 (other genuinely new comprehensive-sweep items still get added normally).
 
+
+**Scope: commercial real estate only (owner's standing rule, 2026-09-19).** Add a
+matter only if it is a commercial real estate matter on its face: a dispute about the
+business of owning, financing, developing, leasing to businesses, or operating
+property. Multifamily owners and operators count as commercial parties when the
+dispute is about their business (financing, development, zoning, securities,
+antitrust). Skip residential tenant-rights, habitability, eviction or rent-overcharge
+disputes; homeowner and consumer matters; residential landlords' rent-control or
+eviction-moratorium claims; 1-4 unit residential lending; and anything not about real
+estate. If a candidate is borderline, leave it out.
 ## STEP 2 — WRITE THE ARTICLE
 
 Write a single web-ready article (600–900 words) based on the research:
