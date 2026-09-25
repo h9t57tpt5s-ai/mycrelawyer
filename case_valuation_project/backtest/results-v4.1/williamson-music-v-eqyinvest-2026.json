@@ -1,0 +1,29 @@
+{
+ "id": "williamson-music-v-eqyinvest-2026",
+ "ranAt": "2026-09-25T17:02:21+00:00",
+ "status": 502,
+ "prediction": null,
+ "error": {
+  "error": "Analysis failed \u2014 try again.",
+  "code": "upstream_error",
+  "detail": "400 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfQWzN8umrfxCeAfsCR5C\"}"
+ },
+ "outcome": {
+  "amount": 170484.37,
+  "amountIsTheRequestedAmount": true,
+  "date": "2026-09-15",
+  "description": "After a bench trial the court awarded the landlord $170,484.37 in past-due rent, the full amount it sought, with no credit for the $62,096.52 free-rent overlap offset or the $20,000 personal property. It also awarded $86,725.00 in attorney's fees. On appeal the rent damages were affirmed and the fee award reversed.",
+  "attorneysFeesAtTrial": 86725.0,
+  "attorneysFeesOnAppeal": "reversed",
+  "finalAmount": 170484.37,
+  "finalNote": "Rent damages affirmed; fee award reversed."
+ },
+ "source": {
+  "caseName": "Williamson Music 1st, LLC, and Raymond Gore v. EQYInvest Owner II, Ltd., LLP",
+  "court": "Texas Sixth Court of Appeals (transferred from the Second), on appeal from the 342nd District Court, Tarrant County",
+  "docket": "06-25-00107-CV",
+  "decided": "2026-09-15",
+  "url": "https://search.txcourts.gov/SearchMedia.aspx?MediaVersionID=40c019e5-6590-43be-b02a-bf7b73239fec&coa=coa06&DT=Opinion&MediaID=fd5f6f98-b91a-4602-8ea3-97940423829c",
+  "excerptNote": "documentText is verbatim from Parts I, III.C and III.D of the opinion, with every sentence stating the trial court's award, its findings, or the appellate court's conclusions removed."
+ }
+}
