@@ -914,5 +914,106 @@
     "actualOutcome": null,
     "resolvedAt": null,
     "analysis": null
+  },
+  {
+    "registryId": "nd-generations-on-1st-v-red-river-state-bank-2025",
+    "caseId": null,
+    "caseTitle": "Generations on 1st, LLC, Parkside Place, LLC and The Ruins, LLC v. Red River State Bank",
+    "court": "U.S. Bankruptcy Court for the District of North Dakota (Adv. Proc.)",
+    "docket": "Adv. No. 25-07009",
+    "filings": [
+      {
+        "side": "plaintiff",
+        "label": "First amended complaint (Nov. 12, 2025)",
+        "url": "https://storage.courtlistener.com/recap/gov.uscourts.ndb.45995/gov.uscourts.ndb.45995.28.0.pdf"
+      },
+      {
+        "side": "defendant",
+        "label": "Defendant's first amended answer and counterclaim (Jan. 27, 2026)",
+        "url": "https://storage.courtlistener.com/recap/gov.uscourts.ndb.45995/gov.uscourts.ndb.45995.42.0.pdf"
+      },
+      {
+        "side": "plaintiff",
+        "label": "Stipulation dismissing claims between The Ruins, LLC and the bank without prejudice (Mar. 12, 2026)",
+        "url": "https://storage.courtlistener.com/recap/gov.uscourts.ndb.45995/gov.uscourts.ndb.45995.54.0.pdf"
+      }
+    ],
+    "predictedAt": "2026-09-25",
+    "model": "claude-sonnet-5",
+    "analysisVersion": "v2",
+    "category": "lending-foreclosure",
+    "side": "Borrower / Guarantor",
+    "predictedRange": [
+      -44097.524999999994,
+      0
+    ],
+    "predictedBestGuess": -26173.762499999997,
+    "whatIsNeededForEstimate": null,
+    "likelyOutcome": "This heads to trial with the Debtors likely to win at least partial relief on the good-faith/reasonably-equivalent-value fight over the forbearance agreement given the lopsided facial terms, but RRSB's documented altered-invoice fraud claim is the more immediately provable piece of this case and will likely offset, dollar-for-dollar via recoupment, whatever the Debtors recover -- meaning the net financial outcome on the pieces of this case that are currently quantifiable trends modestly negative for the Debtors, even though the Debtors have the stronger equitable narrative overall.",
+    "claims": [
+      {
+        "label": "RRSB's Fraud Counterclaim (Altered Draw Invoices)",
+        "probabilityRange": [
+          0.55,
+          0.75
+        ],
+        "damagesRange": [
+          -58796.7,
+          -15000
+        ]
+      },
+      {
+        "label": "Fraudulent Conveyance / Avoidance of Forbearance Agreement (11 U.S.C. \u00a7 548)",
+        "probabilityRange": [
+          0.4,
+          0.6
+        ],
+        "damagesRange": null
+      },
+      {
+        "label": "Deceit/Fraud -- Insider Self-Dealing and Assignment-of-Rents Mismanagement",
+        "probabilityRange": [
+          0.35,
+          0.55
+        ],
+        "damagesRange": null
+      },
+      {
+        "label": "Negligence Per Se (Regulatory/Reg O-Based Theory)",
+        "probabilityRange": [
+          0.15,
+          0.3
+        ],
+        "damagesRange": null
+      },
+      {
+        "label": "Accounting Claim",
+        "probabilityRange": [
+          0.55,
+          0.75
+        ],
+        "damagesRange": null
+      },
+      {
+        "label": "Attorneys' Fees and Costs (Both Sides)",
+        "probabilityRange": [
+          0.3,
+          0.6
+        ],
+        "damagesRange": null
+      },
+      {
+        "label": "Punitive Damages",
+        "probabilityRange": [
+          0.2,
+          0.35
+        ],
+        "damagesRange": null
+      }
+    ],
+    "status": "pending",
+    "actualOutcome": null,
+    "resolvedAt": null,
+    "analysis": null
   }
 ]
