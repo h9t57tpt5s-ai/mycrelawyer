@@ -1,0 +1,21 @@
+# Files that are part of the repository but not the website. Without this
+# list Vercel served every file, including the calculator's source and
+# prompts (supabase/), the research scripts, the project rules and the
+# handbook's working files (found 2026-09-25).
+/supabase
+/scripts
+/handbook_project
+/.claude
+/.github
+/.sync
+/digests
+/digest-articles
+/CLAUDE.md
+/OVERNIGHT_LOG.md
+/re-litigation-digest-*.md
+# The backtest and the prediction registry stay public on purpose: the
+# calibration page invites readers to check them. Everything else in the
+# valuation project folder is working material.
+/case_valuation_project/*
+!/case_valuation_project/backtest
+!/case_valuation_project/registry
