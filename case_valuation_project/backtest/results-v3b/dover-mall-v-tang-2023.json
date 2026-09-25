@@ -1,0 +1,103 @@
+{
+ "id": "dover-mall-v-tang-2023",
+ "ranAt": "2026-09-25T14:53:44+00:00",
+ "status": 200,
+ "prediction": {
+  "model": "claude-sonnet-5",
+  "analysisVersion": "v3",
+  "category": "lease-disputes",
+  "roleLabel": "Landlord",
+  "damagesRange": [
+   175750,
+   276089.72
+  ],
+  "bestGuessValue": 267807.02839999995,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": "Dover Mall is very likely to prevail on liability and on the accuracy of its stated damages of $276,089.72, with the COVID-based frustration/impossibility defenses unlikely to survive given the lease's explicit force majeure rent carve-out. The mitigation defense is the genuine wildcard \u2014 Dover Mall's admitted lack of evidence of reletting efforts creates real (though unquantified on this record) risk of a partial reduction or a trial-worthy fact issue on damages, so full recovery of the requested amount is likely but not assured.",
+  "issues": [
+   {
+    "label": "Unpaid/Accelerated Rent Claim (Core Liability & Calculation)",
+    "probabilityRange": [
+     0.95,
+     0.99
+    ],
+    "damagesRange": [
+     185000,
+     276089.72
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "conceded",
+    "supportedCeiling": 276089.72,
+    "kind": "claim"
+   },
+   {
+    "label": "Frustration of Purpose / Impossibility (COVID-19 Closure)",
+    "probabilityRange": [
+     0.78,
+     0.92
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "defense"
+   },
+   {
+    "label": "Frustration of Purpose (Pre-Pandemic Declining Occupancy)",
+    "probabilityRange": [
+     0.82,
+     0.94
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "defense"
+   },
+   {
+    "label": "Failure to Mitigate (No Reletting Evidence)",
+    "probabilityRange": [
+     0.4,
+     0.65
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "defense"
+   },
+   {
+    "label": "Individual Capacity / Collectibility",
+    "probabilityRange": null,
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "unknown",
+    "supportedCeiling": null,
+    "kind": "defense"
+   }
+  ],
+  "citationCoverage": {
+   "count": 39,
+   "tier": "strong"
+  }
+ },
+ "error": null,
+ "outcome": {
+  "amount": 276089.72,
+  "amountIsTheRequestedAmount": true,
+  "date": "2023-10-05",
+  "description": "The Superior Court granted the landlord summary judgment on liability and damages in the amount of $276,089.72, the full amount demanded, holding the force majeure clause allocated pandemic-closure risk to the tenant and two lease provisions relieved the landlord of any duty to relet. No attorney's fee award is stated. This is a trial-level decision; no appeal is reflected in the opinion.",
+  "attorneysFeesAtTrial": null,
+  "appellateChange": "n/a (trial-level decision; no appeal in opinion)",
+  "finalAmount": 276089.72,
+  "finalNote": "Trial-level decision; no appeal reflected."
+ },
+ "source": {
+  "caseName": "Dover Mall, LLC v. Sam Tang",
+  "court": "Delaware Superior Court (Kent County), Resident Judge Jeffrey J Clark",
+  "docket": "C.A. No. K22C-07-013 JJC",
+  "decided": "2023-10-05",
+  "url": "http://courts.delaware.gov/Opinions/Download.aspx?id=353820",
+  "excerptNote": "Verbatim from the letter opinion's introduction (parties' positions), 'The Record and Procedural Background' section (including footnotes 16 and 17), and the fact-recitation portions of the Discussion (Tang's two affirmative defenses; his concession on the damages schedule). Removed: every sentence stating the court's rulings on liability, force majeure, mitigation, and the summary-judgment result; the long quoted remedy/reletting lease clauses; the case-law discussion; the Conclusion. The $276,089.72 figure that remains is Dover Mall's stated demand, not the result."
+ }
+}

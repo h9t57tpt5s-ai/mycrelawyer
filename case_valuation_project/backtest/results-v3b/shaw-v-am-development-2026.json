@@ -1,0 +1,100 @@
+{
+ "id": "shaw-v-am-development-2026",
+ "ranAt": "2026-09-25T14:17:18+00:00",
+ "status": 200,
+ "prediction": {
+  "model": "claude-sonnet-5",
+  "analysisVersion": "v3",
+  "category": "lease-disputes",
+  "roleLabel": "Tenant",
+  "damagesRange": null,
+  "bestGuessValue": null,
+  "whatIsNeededForEstimate": "To compute an actual dollar range, the record needs: (1) the square footage of Shaw's condo unit, so the stated $275/sq ft rate can be turned into a total value; (2) the actual price Mostafavi paid A&M in the August 2015 sale (or a contemporaneous appraisal), to establish a 2015 baseline value; (3) a current appraisal or comparable sale supporting the $275/sq ft figure and its valuation date; and (4) any evidence of what Shaw would have needed to pay to exercise the ROFR (financing terms, closing costs) so the 'lost bargain' -- offer price versus fair value -- can be isolated rather than assuming pure appreciation is the measure.",
+  "likelyOutcome": "On liability, Shaw should prevail: A&M's admitted failure to honor a clear, unambiguous ROFR term is a straightforward breach, and the ten-year Iowa limitations period for written contracts means the seven-year gap is not an absolute bar. The real fight -- and a genuinely close one for a bench trial -- is whether Shaw's post-breach conduct (continued payments, renegotiating a new ROFR with the successor owner, repeated purchase requests that never invoked the original breach) constitutes waiver, and whether his delay compresses the damages valuation window under a mitigation theory. Damages cannot be quantified on this record because the $275/sq ft figure has no stated square footage or comparator sale price attached to it.",
+  "issues": [
+   {
+    "label": "Breach of Right of First Refusal (liability)",
+    "probabilityRange": [
+     0.95,
+     0.99
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "conceded",
+    "supportedCeiling": null,
+    "kind": "claim"
+   },
+   {
+    "label": "Damages quantification (unrealized appreciation)",
+    "probabilityRange": [
+     0.55,
+     0.85
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim"
+   },
+   {
+    "label": "Waiver / estoppel by acquiescence defense",
+    "probabilityRange": [
+     0.4,
+     0.6
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "defense"
+   },
+   {
+    "label": "Failure to mitigate / valuation-date reduction",
+    "probabilityRange": [
+     0.3,
+     0.55
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "defense"
+   },
+   {
+    "label": "Statute of limitations (timeliness)",
+    "probabilityRange": [
+     0.9,
+     0.97
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "unknown",
+    "supportedCeiling": null,
+    "kind": "defense"
+   }
+  ],
+  "citationCoverage": {
+   "count": 39,
+   "tier": "strong"
+  }
+ },
+ "error": null,
+ "outcome": {
+  "amount": 257216,
+  "amountIsTheRequestedAmount": false,
+  "date": "2026-08-19",
+  "description": "After a bench trial the district court awarded the tenant $257,216 in damages plus post-judgment interest, using the tenant's damages methodology (unrealized appreciation, rent-versus-mortgage differential, lost principal) but valuing the unit at the $166.73 per square foot the third-party buyers paid rather than the $275 the tenant proposed. No attorney's fees. The Iowa Court of Appeals affirmed (2-1) on August 19, 2026, rejecting the estoppel-by-acquiescence and failure-to-mitigate defenses.",
+  "attorneysFeesAtTrial": null,
+  "appellateChange": "affirmed",
+  "finalAmount": 257216,
+  "finalNote": "Affirmed."
+ },
+ "source": {
+  "caseName": "The Law Office of Melvin O. Shaw, P.L.C. v. A & M Development, L.L.C.",
+  "court": "Iowa Court of Appeals (appeal from Iowa District Court for Johnson County)",
+  "docket": "No. 25-1285",
+  "decided": "2026-08-19",
+  "url": "https://www.iowacourts.gov/courtcases/26627/embed/CourtAppealsOpinion",
+  "excerptNote": "Verbatim from Part I (Facts and Prior Proceedings), the parties' contentions in Part III.A-B, and the undisputed timeline recited in Judge Greer's dissent. Removed: the sentences stating the district court's damages award and per-square-foot figure, the district court's findings on the estoppel/mitigation defenses, and every appellate holding. The dissent's footnote characterizing A & M's conduct as a breach was also omitted. Extraction whitespace artifacts corrected."
+ }
+}

@@ -1,0 +1,121 @@
+{
+ "id": "universal-shopping-plaza-v-hong-2026",
+ "ranAt": "2026-09-25T14:25:02+00:00",
+ "status": 200,
+ "prediction": {
+  "model": "claude-sonnet-5",
+  "analysisVersion": "v3",
+  "category": "lease-disputes",
+  "roleLabel": "Landlord",
+  "damagesRange": [
+   27634.800000000003,
+   184232
+  ],
+  "bestGuessValue": 41452.2,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": "Universal is more likely than not to lose the unlawful detainer action outright because its own witnesses conceded the underlying $65,989 debt arose more than a year before the three-day notice, and the application-of-payments theory used to paper over that gap is a strained reading of a routine accounting clause that strict construction of forfeiture statutes tends to reject; a second, independent defect (the notice's failure to specify the rental period) compounds the problem. If Universal loses, it recovers no possession, rent, holdover damages, or fees in this action, though it retains the separate (un-litigated) option of suing on the debt in an ordinary contract action.",
+  "issues": [
+   {
+    "label": "CCP 1161(2) One-Year Notice Bar",
+    "probabilityRange": [
+     0.15,
+     0.3
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "defense"
+   },
+   {
+    "label": "Unpaid Rent Claim ($65,989)",
+    "probabilityRange": [
+     0.15,
+     0.3
+    ],
+    "damagesRange": [
+     65989,
+     65989
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": 65989,
+    "kind": "claim"
+   },
+   {
+    "label": "Holdover Damages at $1,219/day",
+    "probabilityRange": [
+     0.15,
+     0.3
+    ],
+    "damagesRange": [
+     118243,
+     118243
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": 118243,
+    "kind": "claim"
+   },
+   {
+    "label": "Notice Specificity Defect (Failure to State Rental Period)",
+    "probabilityRange": [
+     0.2,
+     0.35
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "defense"
+   },
+   {
+    "label": "2022 Oral Discount Dispute / Self-Help Setoff",
+    "probabilityRange": [
+     0.6,
+     0.8
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "defense"
+   },
+   {
+    "label": "Attorney's Fees",
+    "probabilityRange": [
+     0.15,
+     0.3
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "unknown",
+    "supportedCeiling": null,
+    "kind": "claim"
+   }
+  ],
+  "citationCoverage": {
+   "count": 39,
+   "tier": "strong"
+  }
+ },
+ "error": null,
+ "outcome": {
+  "amount": 189100,
+  "amountIsTheRequestedAmount": false,
+  "date": "2026-09-09",
+  "description": "After a three-day court trial the trial court entered judgment for the landlord on July 3, 2025 awarding possession, $65,989 in past-due rent (the amount demanded in the notice) and $123,111 in holdover damages, $189,100 in total; no fee award is stated in the opinion. The Court of Appeal reversed, holding the three-day notice void because the unpaid rent fell due more than one year before service, and remanded for entry of judgment in favor of the tenant.",
+  "attorneysFeesAtTrial": null,
+  "appellateChange": "reversed",
+  "finalAmount": 0,
+  "finalNote": "Reversed: the three-day notice was void, so the landlord takes nothing in this action."
+ },
+ "source": {
+  "caseName": "Universal Shopping Plaza v. Piong Bin Hong",
+  "court": "California Court of Appeal, Second District, Division Seven, on appeal from Los Angeles County Superior Court",
+  "docket": "B348490 (Super. Ct. No. 25NNCV01228)",
+  "decided": "2026-09-09",
+  "url": "https://www.courts.ca.gov/opinions/documents/B348490.PDF",
+  "excerptNote": "Verbatim from the landlord's contention in the introduction and from Factual and Procedural Background parts A, B and C through the trial testimony. Removed: the sentences stating the trial court's rulings (demurrer, findings, July 3, 2025 judgment), the closing arguments, the introduction's reference to the holdover award, lease paragraph 27.1, footnotes, and all appellate analysis/holdings. One sentence is stitched across a footnote break in the PDF."
+ }
+}

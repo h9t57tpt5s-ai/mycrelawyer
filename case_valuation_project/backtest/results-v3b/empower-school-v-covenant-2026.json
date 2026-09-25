@@ -1,0 +1,94 @@
+{
+ "id": "empower-school-v-covenant-2026",
+ "ranAt": "2026-09-25T14:15:31+00:00",
+ "status": 200,
+ "prediction": {
+  "model": "claude-sonnet-5",
+  "analysisVersion": "v3",
+  "category": "lease-disputes",
+  "roleLabel": "Tenant",
+  "damagesRange": [
+   43330.9905,
+   96291.09
+  ],
+  "bestGuessValue": 52960.099500000004,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": "Covenant is more likely than not (roughly 55-65%) to win the jury's condition-precedent-vs-covenant determination given the carve-out language in Section 3(c), the Commencement Date Memorandum's mutual-acceptance language, and Empower's own dilatory conduct in completing and permitting the pool work -- which would net Covenant return of its $96,291.09 deposit and defeat Empower's breach-of-contract and fraud counterclaims. If the jury instead finds Section 3(c) was a mere covenant and the lease commenced, Covenant faces material, currently unquantified rent-stream exposure on Empower's counterclaim that this record does not provide enough information to price.",
+  "issues": [
+   {
+    "label": "Condition Precedent vs. Covenant Determination (Section 3(c))",
+    "probabilityRange": [
+     0.5,
+     0.65
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim"
+   },
+   {
+    "label": "Deposit Return ($96,291.09)",
+    "probabilityRange": [
+     0.45,
+     0.65
+    ],
+    "damagesRange": [
+     96291.09,
+     96291.09
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": 96291.09,
+    "kind": "claim"
+   },
+   {
+    "label": "Empower's Breach of Contract Counterclaim",
+    "probabilityRange": [
+     0.35,
+     0.45
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim"
+   },
+   {
+    "label": "Empower's Fraud Counterclaim",
+    "probabilityRange": [
+     0.1,
+     0.2
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim"
+   }
+  ],
+  "citationCoverage": {
+   "count": 39,
+   "tier": "strong"
+  }
+ },
+ "error": null,
+ "outcome": {
+  "amount": 96291.09,
+  "amountIsTheRequestedAmount": true,
+  "date": "2026-07-03",
+  "description": "After a four-day jury trial the jury found Section 3(c) was a condition precedent that Empower failed to satisfy; the trial court rendered judgment declaring the lease abrogated and ordered Empower to pay Covenant $96,291.09 in damages (the deposit), $611,491.45 in attorney's fees, and $135,000 in conditional appellate fees. The court of appeals held Section 3(c) is a covenant, not a condition precedent, reversed the entire judgment, rendered take-nothing on the condition-precedent declarations, and remanded the remaining declarations, the damages and fee awards, and Empower's breach-of-contract counterclaim.",
+  "attorneysFeesAtTrial": 611491.45,
+  "appellateChange": "reversed",
+  "finalAmount": null,
+  "finalNote": "Reversed and remanded; no final figure yet."
+ },
+ "source": {
+  "caseName": "Empower School, LLC v. Covenant Management Systems, LP",
+  "court": "Texas Court of Appeals, Third District, at Austin (appeal from 53rd District Court of Travis County, No. D-1-GN-20-002332)",
+  "docket": "No. 03-24-00448-CV",
+  "decided": "2026-07-03",
+  "url": "https://search.txcourts.gov/SearchMedia.aspx?MediaVersionID=aac76815-becc-4ad3-ab4b-a3a3fbaca4f0&coa=coa03&DT=Opinion&MediaID=5090a08e-c161-4dbe-b9e0-3821a05a8e3f",
+  "excerptNote": "Verbatim from the opening paragraph (first two sentences only) and Part I Background, with footnote 3 folded in as a sentence. Removed: the sentences describing the jury's verdict, the trial court's judgment on the verdict, the list of declarations, the damages/fee award, the motion for new trial and motion to reconsider, the appellate court's statement of its conclusion, two sentences of appellate commentary ('Thus, by any interpretation...' and 'But under either interpretation...'), footnote 2, and Section 3(a) of the quoted lease clause (for length). The Section 3(c) and Exhibit G block quotations were joined into running text without altering words."
+ }
+}

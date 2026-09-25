@@ -1,0 +1,130 @@
+{
+ "id": "four-elyria-brexton-2025",
+ "ranAt": "2026-09-25T14:38:35+00:00",
+ "status": 200,
+ "prediction": {
+  "model": "claude-sonnet-5",
+  "analysisVersion": "v3",
+  "category": "construction-defect",
+  "roleLabel": "Contractor / Design Professional",
+  "damagesRange": [
+   105000,
+   495000
+  ],
+  "bestGuessValue": 228000,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": "Brexton is the more likely net winner on its counterclaim for the unpaid Site-Specific Work (~$495,000 ceiling), but recovery is genuinely contested given the swearing match between Galvin and Giltz and the unresolved scope of Brexton's unconditional lien waivers -- expect a jury verdict for Brexton in the $150,000-$300,000 range or a settlement in that band, with Four Elyria's fraud and slander-of-title claims unlikely to survive independently given privilege and duplication problems.",
+  "issues": [
+   {
+    "label": "Recovery for Site-Specific (Petco) Tenant-Improvement Work",
+    "probabilityRange": [
+     0.35,
+     0.6
+    ],
+    "damagesRange": [
+     300000,
+     480000
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": 495000,
+    "kind": "claim"
+   },
+   {
+    "label": "Unconditional Lien Waiver / Release Defense",
+    "probabilityRange": [
+     0.25,
+     0.45
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "defense"
+   },
+   {
+    "label": "Unjust Enrichment (Alternative Theory)",
+    "probabilityRange": [
+     0.45,
+     0.7
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim"
+   },
+   {
+    "label": "Lien Foreclosure / Declaratory Judgment on Lien Validity",
+    "probabilityRange": [
+     0.35,
+     0.6
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim"
+   },
+   {
+    "label": "Four Elyria's Breach of Contract Claim Against Brexton",
+    "probabilityRange": [
+     0.3,
+     0.5
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim"
+   },
+   {
+    "label": "Fraud Claim Against Brexton's Officers",
+    "probabilityRange": [
+     0.3,
+     0.5
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim"
+   },
+   {
+    "label": "Slander of Title Claim",
+    "probabilityRange": [
+     0.15,
+     0.3
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim"
+   }
+  ],
+  "citationCoverage": {
+   "count": 29,
+   "tier": "strong"
+  }
+ },
+ "error": null,
+ "outcome": {
+  "amount": 465417.44,
+  "amountIsTheRequestedAmount": false,
+  "date": "2025-05-19",
+  "description": "The trial court held the Site-Specific Work was outside the contract, granted summary judgment against Four Elyria on all its claims and for Brexton on unjust enrichment, and after a damages-only jury trial entered judgment for Brexton for $465,417.44; both sides' attorney-fee motions were denied and Brexton's lien-foreclosure counterclaim was dismissed. On this second appeal the court of appeals agreed the work was outside the contract but reversed in part and remanded for the trial court to apply the contract's Article 9 change-order provisions, leaving the unjust-enrichment award and the fee issues to be revisited on remand.",
+  "attorneysFeesAtTrial": null,
+  "appellateChange": "reversed",
+  "finalAmount": null,
+  "finalNote": "Reversed in part and remanded; no final figure yet."
+ },
+ "source": {
+  "caseName": "Four Elyria Co., L.L.C. v. Brexton Constr., L.L.C.",
+  "court": "Court of Appeals of Ohio, Ninth Appellate District (Lorain County)",
+  "docket": "C.A. No. 24CA012089, 2025-Ohio-1778 (appeal from Lorain County Court of Common Pleas, Case No. 17CV192092)",
+  "decided": "2025-05-19",
+  "url": "https://www.supremecourt.ohio.gov/rod/docs/pdf/9/2025/2025-Ohio-1778.pdf",
+  "excerptNote": "Excerpts from Part I (facts and pleadings, \u00b6\u00b63, 5-9; \u00b66 truncated before the quoted lien-waiver language) and the deposition testimony of both sides summarized in the partial dissent (\u00b6\u00b656, 58). Removed: \u00b64 (plan disclaimers), \u00b610 (motions), the trial court's summary-judgment rulings (\u00b6\u00b611-13, 16), the jury verdict figure, post-verdict motions, the first appeal's disposition, and all appellate holdings. Whitespace and PDF page-number artifacts normalized only."
+ }
+}

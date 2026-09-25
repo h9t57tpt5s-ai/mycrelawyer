@@ -1,0 +1,142 @@
+{
+ "id": "navient-v-bpg-office-partners-2023",
+ "ranAt": "2026-09-25T15:09:05+00:00",
+ "status": 200,
+ "prediction": {
+  "model": "claude-sonnet-5",
+  "analysisVersion": "v3",
+  "category": "lease-disputes",
+  "roleLabel": "Tenant",
+  "damagesRange": [
+   127889.78839999993,
+   503822.72
+  ],
+  "bestGuessValue": 306689.25419999997,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": "Navient should recover its conceded $503,822.72 cooling tower claim in full, reduced by a setoff on BPG's counterclaim that is more likely than not to land well below BPG's $817,845 ask -- probably in the $150,000-$300,000 range once the heat pump age-based theory is discounted, the rooftop units are priced at or near BPG's own expert's $8,400 repair figure, and the transformer claim is barred or substantially reduced on limitations grounds. Net to Navient, the likeliest range is a positive recovery in the low-to-mid hundreds of thousands of dollars, with prevailing-party fees also probably favoring Navient though unquantified on this record.",
+  "issues": [
+   {
+    "label": "Cooling Tower Reimbursement (Conceded)",
+    "probabilityRange": [
+     0.97,
+     1
+    ],
+    "damagesRange": [
+     503822.72,
+     503822.72
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "conceded",
+    "supportedCeiling": 503822.72,
+    "kind": "claim"
+   },
+   {
+    "label": "Heat Pump Counterclaim",
+    "probabilityRange": [
+     0.35,
+     0.55
+    ],
+    "damagesRange": [
+     -434500,
+     -135850
+    ],
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": -434500,
+    "kind": "claim"
+   },
+   {
+    "label": "Rooftop Air Units Counterclaim",
+    "probabilityRange": [
+     0.2,
+     0.35
+    ],
+    "damagesRange": [
+     -240000,
+     -8400
+    ],
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": -240000,
+    "kind": "claim"
+   },
+   {
+    "label": "Transformer Counterclaim / Statute of Limitations Defense",
+    "probabilityRange": [
+     0.1,
+     0.25
+    ],
+    "damagesRange": [
+     -140000,
+     -140000
+    ],
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": -140000,
+    "kind": "claim"
+   },
+   {
+    "label": "Elevator Bracket Repair Counterclaim",
+    "probabilityRange": [
+     0.7,
+     0.85
+    ],
+    "damagesRange": [
+     -3345,
+     -3345
+    ],
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": -3345,
+    "kind": "claim"
+   },
+   {
+    "label": "Navient's Prevailing-Party Attorney's Fees",
+    "probabilityRange": [
+     0.5,
+     0.7
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "unknown",
+    "supportedCeiling": null,
+    "kind": "claim"
+   },
+   {
+    "label": "BPG's Competing Prevailing-Party Fee Claim",
+    "probabilityRange": [
+     0.15,
+     0.3
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "unknown",
+    "supportedCeiling": null,
+    "kind": "claim"
+   }
+  ],
+  "citationCoverage": {
+   "count": 39,
+   "tier": "strong"
+  }
+ },
+ "error": null,
+ "outcome": {
+  "amount": 424172.72,
+  "amountIsTheRequestedAmount": false,
+  "date": "2023-04-27",
+  "description": "The Superior Court entered post-trial judgment for Navient in $503,822.72 (the conceded cooling-tower reimbursement) less $79,650 awarded to BPG on its counterclaim ($71,250 to repair 25 non-operational heat pumps and $8,400 to repair two rooftop air units), a net principal of $424,172.72 plus prejudgment interest from March 17, 2020; BPG's transformer and elevator claims failed. Navient was held the prevailing party entitled to its attorneys' fees and expenses under lease section 28(q) (amount not stated). This is the trial-level decision; no appeal is reflected in the source.",
+  "attorneysFeesAtTrial": null,
+  "appellateChange": "none (trial-level post-trial opinion; no appeal in source)",
+  "finalAmount": 424172.72,
+  "finalNote": "Trial-level post-trial opinion; no appeal reflected."
+ },
+ "source": {
+  "caseName": "Navient Solutions, LLC v. BPG Office Partners XIII Iron Hill LLC and Office Partners XIII Iron Hill LLC",
+  "court": "Superior Court of the State of Delaware (LeGrow, J.)",
+  "docket": "C.A. No. N20C-04-005 AML",
+  "decided": "2023-04-27",
+  "url": "http://courts.delaware.gov/Opinions/Download.aspx?id=346910",
+  "excerptNote": "Verbatim sentences from Part I (Background) sections A, B, D and E of the post-trial memorandum opinion and from the parties' post-trial contentions (F.1 and F.2); footnote numerals and page breaks removed and PDF-extraction spacing artifacts (e.g. 'B PG', 't hree') restored to the opinion's words. Omitted: the opinion's introductory summary of the result, Part II (Analysis), the Conclusion, and every sentence stating what the Court found or awarded on the counterclaim or on fees."
+ }
+}

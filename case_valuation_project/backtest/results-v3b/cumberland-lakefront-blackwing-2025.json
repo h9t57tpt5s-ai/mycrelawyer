@@ -1,0 +1,115 @@
+{
+ "id": "cumberland-lakefront-blackwing-2025",
+ "ranAt": "2026-09-25T14:50:01+00:00",
+ "status": 200,
+ "prediction": {
+  "model": "claude-sonnet-5",
+  "analysisVersion": "v3",
+  "category": "lease-disputes",
+  "roleLabel": "Landlord",
+  "damagesRange": null,
+  "bestGuessValue": null,
+  "whatIsNeededForEstimate": "A dollar figure for your side's own claims: Unpaid Rent / Core Breach of Contract Claim (Landlord's Affirmative Claim); Collectibility Against Individual Defendants (Freeman/Schramm). The other side's claims could be priced from the record but yours could not, so a net figure would show only what you might pay. Add the amounts you are claiming (rent, balance, contract price, invoices) and run it again.",
+  "likelyOutcome": "Cumberland is well positioned to establish tenant breach and prevail on eviction, subject to a real but secondary risk that the leases lack the statutory language needed for self-help remedies. The case's principal dollar exposure is Blackwing's $167,050 TI allowance counterclaim, where Cumberland has a solid but not certain evidentiary edge (industry-custom affidavit plus Blackwing's own concession about standard practice and admitted failure to submit receipts) that should limit Blackwing to, at most, a partial recovery tied to documented costs it has not yet shown. Because Cumberland's own unpaid-rent damages remain unliquidated in this record, no reliable net dollar figure for the case as a whole can be computed at this time.",
+  "issues": [
+   {
+    "label": "Unpaid Rent / Core Breach of Contract Claim (Landlord's Affirmative Claim)",
+    "probabilityRange": [
+     0.55,
+     0.75
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim"
+   },
+   {
+    "label": "Tenant Improvement Allowance Counterclaim ($167,050)",
+    "probabilityRange": [
+     0.55,
+     0.7
+    ],
+    "damagesRange": [
+     -167050,
+     0
+    ],
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": -167050,
+    "kind": "claim"
+   },
+   {
+    "label": "Self-Help / Statutory Notice Defense to Eviction (Declaratory Judgment Counterclaim)",
+    "probabilityRange": [
+     0.5,
+     0.65
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "defense"
+   },
+   {
+    "label": "Failure to Deliver Space / Vent-Hood Interference (Breach Counterclaim)",
+    "probabilityRange": [
+     0.3,
+     0.55
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim"
+   },
+   {
+    "label": "Fraud Counterclaim",
+    "probabilityRange": [
+     0.75,
+     0.9
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "defense"
+   },
+   {
+    "label": "Collectibility Against Individual Defendants (Freeman/Schramm)",
+    "probabilityRange": [
+     0.3,
+     0.7
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "unknown",
+    "supportedCeiling": null,
+    "kind": "claim"
+   }
+  ],
+  "citationCoverage": {
+   "count": 39,
+   "tier": "strong"
+  }
+ },
+ "error": null,
+ "outcome": {
+  "amount": 444055.13,
+  "amountIsTheRequestedAmount": false,
+  "date": "2025-04-10",
+  "description": "The trial court granted the landlord summary judgment on its eviction and breach-of-contract claims, restored it to possession by writ (tenant evicted April 6, 2023), and after a damages hearing awarded Cumberland $444,055.13; it later granted summary judgment against all of Blackwing's counterclaims, including the $167,050 tenant-improvement claim. No attorneys' fee award is mentioned. The Eighth District affirmed.",
+  "attorneysFeesAtTrial": null,
+  "appellateChange": "affirmed",
+  "finalAmount": 444055.13,
+  "finalNote": "Affirmed."
+ },
+ "source": {
+  "caseName": "Cumberland Lakefront B, LLC v. Blackwing, LLC, et al.",
+  "court": "Court of Appeals of Ohio, Eighth Appellate District, Cuyahoga County (appeal from Cuyahoga County Court of Common Pleas Nos. CV-21-953921 and CV-21-953922)",
+  "docket": "No. 114311; 2025-Ohio-1263",
+  "decided": "2025-04-10",
+  "url": "https://www.supremecourt.ohio.gov/rod/docs/pdf/8/2025/2025-Ohio-1263.pdf",
+  "excerptNote": "Verbatim from the opinion's opening factual/procedural recitation and from its discussion of the tenant's counterclaims (which is where the opinion sets out both sides' contentions and the Pace affidavit). Removed: every sentence stating that the trial court granted summary judgment, granted possession, issued the writ, found liability, held a damages hearing and the amount awarded, deemed property abandoned, or granted summary judgment on the counterclaims; the prior-appeal dismissal history; the appellate court's analysis and conclusions. Two retained sentences refer to Blackwing's position 'on appeal' but state only its contention and demand, not any result. The opinion contains no rent figures."
+ }
+}

@@ -1,0 +1,178 @@
+{
+ "id": "gsl-investments-v-bella-nails-2026",
+ "ranAt": "2026-09-25T14:19:32+00:00",
+ "status": 200,
+ "prediction": {
+  "model": "claude-sonnet-5",
+  "analysisVersion": "v3",
+  "category": "lease-disputes",
+  "roleLabel": "Landlord",
+  "damagesRange": [
+   72202.5,
+   132139.24
+  ],
+  "bestGuessValue": 96853.84000000001,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": "GSL is very likely to obtain judgment against both the tenant and Nguyen individually (as tenant/guarantor) close to the $132,139.24 total requested in its pending, unopposed summary judgment motion, with the principal rent/fee, clean-out, and interest components largely intact and the attorney's fee component subject to some reduction if billing support is thin. The chief uncertainty is Nguyen's unquantified lockout/conversion claim, which appears weak under a peaceable-repossession analysis but has not been fully vetted for what happened to the removed equipment.",
+  "issues": [
+   {
+    "label": "Unpaid Rent, CAM and Other Lease Charges Through Termination",
+    "probabilityRange": [
+     0.75,
+     0.9
+    ],
+    "damagesRange": [
+     78200,
+     93900
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": 104295.8,
+    "kind": "claim"
+   },
+   {
+    "label": "Nguyen's Personal Guaranty Liability",
+    "probabilityRange": [
+     0.88,
+     0.96
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim"
+   },
+   {
+    "label": "Clean-Out / Indemnification Costs",
+    "probabilityRange": [
+     0.8,
+     0.92
+    ],
+    "damagesRange": [
+     2400,
+     2760
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": 3000,
+    "kind": "claim"
+   },
+   {
+    "label": "Prejudgment and Postjudgment Interest",
+    "probabilityRange": [
+     0.75,
+     0.9
+    ],
+    "damagesRange": [
+     9300,
+     11200
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": 12416.92,
+    "kind": "claim"
+   },
+   {
+    "label": "Attorney's Fees",
+    "probabilityRange": [
+     0.6,
+     0.85
+    ],
+    "damagesRange": [
+     7200,
+     10200
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": 12010.52,
+    "kind": "claim"
+   },
+   {
+    "label": "Court Costs",
+    "probabilityRange": [
+     0.9,
+     0.97
+    ],
+    "damagesRange": [
+     375,
+     404
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": 416,
+    "kind": "claim"
+   },
+   {
+    "label": "Wrongful Lockout / Self-Help Repossession Challenge",
+    "probabilityRange": [
+     0.1,
+     0.3
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim"
+   },
+   {
+    "label": "Conversion of Tenant's Equipment/Improvements",
+    "probabilityRange": [
+     0.15,
+     0.35
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim"
+   },
+   {
+    "label": "Entity Identity / 'Phantom LLC' Defense",
+    "probabilityRange": [
+     0.15,
+     0.3
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "defense"
+   },
+   {
+    "label": "Mitigation / Re-Letting Offset",
+    "probabilityRange": [
+     0.15,
+     0.35
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "unknown",
+    "supportedCeiling": null,
+    "kind": "defense"
+   }
+  ],
+  "citationCoverage": {
+   "count": 39,
+   "tier": "strong"
+  }
+ },
+ "error": null,
+ "outcome": {
+  "amount": 120128.72,
+  "amountIsTheRequestedAmount": true,
+  "date": "2026-07-27",
+  "description": "On September 4, 2025 the trial court granted the landlord summary judgment for $132,139.24, exactly the sum itemized in the landlord's affidavit ($104,295.80 overdue rent and fees, $3,000 clean-out costs, $12,416.92 prejudgment interest, $12,010.52 attorneys' fees and $416 court costs), plus 8 percent post-judgment interest and collection fees; the amount recorded here is the judgment less the $12,010.52 in attorneys' fees. The Twelfth District affirmed on July 27, 2026, holding the guarantor forfeited his lockout, notarization and phantom-LLC arguments by not opposing the motion.",
+  "attorneysFeesAtTrial": 12010.52,
+  "appellateChange": "affirmed",
+  "finalAmount": 120128.72,
+  "finalNote": "Affirmed."
+ },
+ "source": {
+  "caseName": "GSL Investments I, LLC v. Bella Nails & Spa, LLC, et al.",
+  "court": "Ohio Court of Appeals, Twelfth District, Butler County (appeal from Butler County Court of Common Pleas, Case No. CV 2024 02 0451)",
+  "docket": "CA2025-09-108; 2026-Ohio-2858",
+  "decided": "2026-07-27",
+  "url": "https://www.supremecourt.ohio.gov/rod/docs/pdf/12/2026/2026-Ohio-2858.pdf",
+  "excerptNote": "Verbatim from Part I (Facts & Procedural History, paragraphs 2-3, 7-9, 12-14, first sentence of 15) plus the tenant's contentions from paragraphs 21 and 27. Removed: the sentence stating the trial court's summary-judgment amount and post-judgment terms (rest of paragraph 15), the trial court's orders striking filings, the Section 21.2 default definition and Section 22 remedies clause, the First Amendment rent table, the base-rent table, and all appellate analysis. Lease-table rows are joined on one line."
+ }
+}

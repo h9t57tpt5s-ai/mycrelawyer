@@ -1,0 +1,100 @@
+{
+ "id": "lbj-venture-v-kolaj-2025",
+ "ranAt": "2026-09-25T14:31:24+00:00",
+ "status": 200,
+ "prediction": {
+  "model": "claude-sonnet-5",
+  "analysisVersion": "v3",
+  "category": "lease-disputes",
+  "roleLabel": "Landlord",
+  "damagesRange": [
+   103302.05,
+   905000
+  ],
+  "bestGuessValue": 604750,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": "The court will most likely reject full rent acceleration and apply a deficiency measure under Section 10.02(b), crediting relet income, while awarding little to nothing on the $300,000 kitchen claim given LBJ Venture's failure to prove value or enhancement at trial; attorneys' fees will be awarded but likely trimmed from the requested $67,000 to reflect the landlord's partial success. Net result: a judgment materially closer to Kolaj's ~$96,000 counter-calculation than to LBJ Venture's ~$905,000 combined request, though with a realistic chance the court credits the landlord's acceleration theory and pushes the award substantially higher.",
+  "issues": [
+   {
+    "label": "Rent Damages: Acceleration vs. Deficiency Under Section 10.02(b)",
+    "probabilityRange": [
+     0.95,
+     0.95
+    ],
+    "damagesRange": [
+     78739,
+     538000
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "conceded",
+    "supportedCeiling": 538000,
+    "kind": "claim"
+   },
+   {
+    "label": "$300,000 Commercial Kitchen Commitment",
+    "probabilityRange": [
+     0.05,
+     0.15
+    ],
+    "damagesRange": [
+     0,
+     300000
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": 300000,
+    "kind": "claim"
+   },
+   {
+    "label": "Attorneys' Fees Under \u00a738.001 and Section 12.01",
+    "probabilityRange": [
+     0.95,
+     0.95
+    ],
+    "damagesRange": [
+     30000,
+     67000
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "conceded",
+    "supportedCeiling": 67000,
+    "kind": "claim"
+   },
+   {
+    "label": "Mitigation/Offset Accounting for Relet Income",
+    "probabilityRange": [
+     0.5,
+     0.7
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "defense"
+   }
+  ],
+  "citationCoverage": {
+   "count": 39,
+   "tier": "strong"
+  }
+ },
+ "error": null,
+ "outcome": {
+  "amount": 96072.49,
+  "amountIsTheRequestedAmount": true,
+  "date": "2025-03-06",
+  "description": "After the bench trial the trial court rendered judgment for the landlord of $96,072.49 (unpaid rent through trial net of replacement-tenant rent, late fees, and prejudgment interest) \u2014 the figure the tenant advocated, roughly one-tenth of the more than $900,000 the landlord sought \u2014 plus 18% post-judgment interest, and awarded $0 in attorneys' fees. The court of appeals affirmed the damages award and reversed only the denial of attorneys' fees, remanding for a determination of a reasonable fee under the lease.",
+  "attorneysFeesAtTrial": 0,
+  "appellateChange": "affirmed",
+  "finalAmount": 96072.49,
+  "finalNote": "Damages affirmed; fee denial reversed and remanded."
+ },
+ "source": {
+  "caseName": "202 N LBJ Venture Group, LP v. Paul Kolaj and Modesta Kolaj",
+  "court": "Texas Court of Appeals, Third District (Austin), on appeal from the 207th District Court of Hays County",
+  "docket": "03-24-00025-CV (trial court No. 21-2211)",
+  "decided": "2025-03-06",
+  "url": "https://search.txcourts.gov/SearchMedia.aspx?MediaID=3dc5c03e-76a9-498d-bcef-1d32d7bb3e03",
+  "excerptNote": "Verbatim from the BACKGROUND section (lease terms, default letter, pleadings, partial summary judgment on liability, bench trial on damages, each side's damages position) plus footnotes 1-2 and one evidence paragraph from the Discussion describing the landlord witness's testimony on the commercial kitchen. Removed: the opinion's introductory paragraph, the sentence stating the amount the trial court rendered judgment for and its $0 fee award, all appellate holdings, and the attorney's-fee discussion. Note that the tenant's own proposed judgment figure is retained as a party contention."
+ }
+}

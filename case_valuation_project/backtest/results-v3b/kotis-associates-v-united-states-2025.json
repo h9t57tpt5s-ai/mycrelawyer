@@ -1,0 +1,130 @@
+{
+ "id": "kotis-associates-v-united-states-2025",
+ "ranAt": "2026-09-25T14:52:12+00:00",
+ "status": 200,
+ "prediction": {
+  "model": "claude-sonnet-5",
+  "analysisVersion": "v3",
+  "category": "eminent-domain",
+  "roleLabel": "Property Owner",
+  "damagesRange": [
+   14250000,
+   44744774
+  ],
+  "bestGuessValue": 42507535.3,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": "Liability is conceded, so the Kotis Entities will recover just compensation; the live dispute is purely the amount. Given the absence of any competing government valuation and the severity of the physical taking on several high-value parcels, a substantial award close to (but likely somewhat below) the $44,744,774 ask is the most probable outcome, with the exact figure turning on how much the court discounts Dr. Kilpatrick's methodology (cap rate source, comparable sales selection) in response to the rebuttal criticisms, plus statutory interest from the October 2019 taking date on top of whatever principal figure is awarded.",
+  "issues": [
+   {
+    "label": "Just Compensation Valuation for the ITUR/Railbanking Easement",
+    "probabilityRange": [
+     0.95,
+     0.95
+    ],
+    "damagesRange": [
+     15000000,
+     44744774
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "conceded",
+    "supportedCeiling": 44744774,
+    "kind": "claim"
+   },
+   {
+    "label": "Conceded Liability for the Taking",
+    "probabilityRange": [
+     0.97,
+     0.99
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "conceded",
+    "supportedCeiling": null,
+    "kind": "claim"
+   },
+   {
+    "label": "Government's Pre-Existing-Burden Defense",
+    "probabilityRange": [
+     0.6,
+     0.78
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "defense"
+   },
+   {
+    "label": "Narrow/Nonexclusive Easement Scope Defense",
+    "probabilityRange": [
+     0.58,
+     0.75
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "defense"
+   },
+   {
+    "label": "Appraisal Methodology Reliability Challenge",
+    "probabilityRange": [
+     0.45,
+     0.65
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "defense"
+   },
+   {
+    "label": "Government's Summary Judgment / Jurisdiction-to-Award-Only-Nominal-Damages Motion",
+    "probabilityRange": [
+     0.88,
+     0.97
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "defense"
+   },
+   {
+    "label": "Interest on the Just Compensation Award",
+    "probabilityRange": [
+     0.95,
+     0.97
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "conceded",
+    "supportedCeiling": null,
+    "kind": "claim"
+   }
+  ],
+  "citationCoverage": {
+   "count": 22,
+   "tier": "strong"
+  }
+ },
+ "error": null,
+ "outcome": {
+  "amount": 42641740,
+  "amountIsTheRequestedAmount": false,
+  "date": "2025-04-23",
+  "description": "After the valuation trial the Court of Federal Claims adopted Dr. Kilpatrick's before-and-after values for all thirteen parcels but struck his privacy-wall component, awarding just compensation of $42,641,740 (before values $66,179,431, after values $23,537,691) plus interest at the Moody's Aaa corporate bond rate compounded annually, against a demand of $44,744,774; it also denied the government's motion to reopen the record. No attorneys' fees were addressed in this opinion. This is the trial-level decision; no appellate ruling is reflected.",
+  "attorneysFeesAtTrial": null,
+  "appellateChange": "affirmed",
+  "finalAmount": 42641740,
+  "finalNote": "No appeal reflected."
+ },
+ "source": {
+  "caseName": "Kotis Associates, LLC, et al. v. United States",
+  "court": "United States Court of Federal Claims (trial-level opinion and order after valuation trial, Senior Judge Loren A. Smith)",
+  "docket": "No. 20-932",
+  "decided": "2025-04-23",
+  "url": "https://ecf.cofc.uscourts.gov/cgi-bin/show_public_doc?2020cv0932-206-0",
+  "excerptNote": "Verbatim from the opinion's introduction, Part I.B (Statement of Facts: corridor background and three of the thirteen parcel descriptions), Part II (Procedural History), Part III (Overview of Trial Testimony) and Part IV.B.2 (description of each side's appraisal evidence and the government's objections). Record citations (Tr., JX, PX, DX) were dropped from most sentences, and within the parcel descriptions a few intervening sentences (purchase history, parking/building inventories) were omitted between retained sentences. Removed: the intro sentences stating the Court grants/denies the motions and awards compensation in the amount estimated by plaintiffs' expert subject to modifications; ten other parcel descriptions and part of the corridor chronology (length); the highest-and-best-use findings; the Court's rulings on scope of the taking, the privacy-wall deduction, the credibility of Dr. Kilpatrick and rejection of Mr. Roach's objections; and the per-parcel before/after values and total award on the final page (which is an image in the PDF). No appeal is reflected in this opinion."
+ }
+}
