@@ -1,36 +1,25 @@
 {
  "id": "hurt-v-caton-2025",
- "ranAt": "2026-09-24T01:18:59+00:00",
+ "ranAt": "2026-09-25T01:06:24+00:00",
  "status": 200,
  "prediction": {
   "model": "claude-sonnet-5",
   "analysisVersion": "v2",
   "category": "lease-disputes",
-  "roleLabel": "Landlord",
+  "roleLabel": "Tenant",
   "damagesRange": [
-   140000,
+   131600,
    442885.5
   ],
-  "bestGuessValue": 207493.5125,
+  "bestGuessValue": 185859.2375,
   "whatIsNeededForEstimate": null,
-  "likelyOutcome": "Caton has a plausible but genuinely contested claim; the amendment recitals materially strengthen his reading of Section 9(a), but the Trust's condition-precedent argument is a real risk that could defeat the claim outright, and the undocumented expense proof will likely cause even a favorable verdict to trim the out-of-pocket component. Net expected value favors Caton but well below his full $442,885.50 demand, with meaningful odds of an unfavorable summary judgment ruling or trial loss on the liability gate.",
+  "likelyOutcome": "Caton has a genuine, textually supported claim that the Section 1(b) conditions had already failed (helped significantly by the Trust's own fifth-amendment recital), but the Trust's argument that no obligation ripened absent exercise of the option is a serious competing reading, and the parties' continued extensions after the recital plus the 'material adversity' dispute over the encroachment create real factual issues likely to survive summary judgment and go to trial. Expected recovery, probability-weighted, lands well below the full $442,885.50 demand, with the documented $314,000 option-consideration component carrying materially better odds than the deposition-only $128,885.50 expense component.",
   "issues": [
    {
-    "label": "Section 9(a) Liquidated Damages Trigger (Core Liability)",
+    "label": "Core liability: Section 9(a) liquidated-damages trigger without exercise (option consideration component)",
     "probabilityRange": [
-     0.45,
-     0.65
-    ],
-    "damagesRange": null,
-    "claimant": "represented",
-    "liabilityStatus": "contested",
-    "supportedCeiling": null
-   },
-   {
-    "label": "Option Consideration Refund ($314,000)",
-    "probabilityRange": [
-     0.45,
-     0.65
+     0.4,
+     0.58
     ],
     "damagesRange": [
      280000,
@@ -41,13 +30,13 @@
     "supportedCeiling": 314000
    },
    {
-    "label": "Out-of-Pocket Diligence Expenses ($128,885.50)",
+    "label": "Out-of-pocket diligence expense claim ($128,885.50)",
     "probabilityRange": [
-     0.35,
-     0.55
+     0.28,
+     0.45
     ],
     "damagesRange": [
-     40000,
+     70000,
      128885.5
     ],
     "claimant": "represented",
@@ -55,18 +44,24 @@
     "supportedCeiling": 128885.5
    },
    {
-    "label": "Trust's Condition-Precedent Defense",
-    "probabilityRange": null,
+    "label": "Materiality of the Overlook adverse-possession encroachment under Section 1(b)(iv)'s exception",
+    "probabilityRange": [
+     0.38,
+     0.55
+    ],
     "damagesRange": null,
-    "claimant": "opposing",
+    "claimant": "represented",
     "liabilityStatus": "contested",
     "supportedCeiling": null
    },
    {
-    "label": "Factual Dispute Over Status of Adverse Possession Litigation at Termination",
-    "probabilityRange": null,
+    "label": "Trust's waiver/estoppel-by-continued-performance argument",
+    "probabilityRange": [
+     0.3,
+     0.55
+    ],
     "damagesRange": null,
-    "claimant": "represented",
+    "claimant": "opposing",
     "liabilityStatus": "contested",
     "supportedCeiling": null
    }
@@ -94,6 +89,5 @@
   "decided": "2025-03-04",
   "url": "https://www.vacourts.gov/opinions/opncavwp/1198232.pdf",
   "excerptNote": "Verbatim from the opinion's introduction (dispute summary and the parties' cross-motion positions), the BACKGROUND section (Agreement terms, development plans and adverse-possession suit, fifth amendment, termination and demand letters, the suit and cross-motions), footnotes 2-3, and the first paragraph of the Analysis summarizing each side's contention. Removed: every sentence describing the circuit court's ruling, its damages and fee award, and the appellate holdings, including the standard-of-review section."
- },
- "void": "2026-09-24: the input named the wrong side (the calculator valued the landlord; the client is the tenant), so this result is void. Corrected and re-run; version 1 cannot be re-run because its prompt is no longer deployed."
+ }
 }
