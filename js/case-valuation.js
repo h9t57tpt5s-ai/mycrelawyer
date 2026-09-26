@@ -573,6 +573,29 @@
   // or an old history block inside a new history entry.
   let lastFreshFragmentHtml = "";
 
+  // Version 5: the case state's interest, fee and deficiency rules, each
+  // with its statute, from the calculator response. Reference only: the
+  // figures are not added into the case value above.
+  function jurisdictionRulesHtml(r) {
+    if (!r || !r.state) return "";
+    const e = (v) => String(v == null ? "" : v).replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c]);
+    const clip = (v, n) => { const t = String(v || ""); return t.length > n ? t.slice(0, n).replace(/\s+\S*$/, "") + "…" : t; };
+    const src = (cite, url) => cite
+      ? `<div class="text-muted" style="font-size:12px; margin-top:4px;">${url ? `<a class="text-accent" href="${e(url)}" target="_blank" rel="noopener noreferrer">${e(clip(cite, 160))}</a>` : e(clip(cite, 160))}</div>`
+      : "";
+    const row = (label, body, cite, url) => `<div style="padding:10px 0; border-bottom:1px solid var(--border-soft);"><div class="label" style="margin-bottom:4px;">${label}</div><div class="text-secondary" style="font-size:13.5px; line-height:1.55;">${body}</div>${src(cite, url)}</div>`;
+    const pre = r.prejudgmentInterest || {}, post = r.postjudgmentInterest || {}, fees = r.attorneysFees || {}, def = r.deficiency;
+    let rows = row("Prejudgment interest", e(pre.summary) + (pre.accrual ? `. <span class="text-muted">Runs: ${e(clip(pre.accrual, 220))}</span>` : ""), pre.citation, pre.url);
+    if (post.summary) rows += row("Post-judgment interest", e(clip(post.summary, 240)), post.citation, post.url);
+    rows += row("Attorney's fees", e(clip(fees.summary, 300)), fees.citation, fees.url);
+    if (def) rows += row("Deficiency after foreclosure", [def.allowed, def.valueLimit, def.timeLimit].filter(Boolean).map((x) => e(clip(x, 220))).join(" "), def.citation, def.url);
+    return `<div class="card" style="padding:20px; margin-top:16px;">
+      <div class="eyebrow" style="margin-bottom:6px;">State rules that apply · ${e(r.state)}</div>
+      <p class="text-muted" style="font-size:12.5px; line-height:1.5; margin:0 0 6px;">From the statutes for a commercial contract claim, verified ${e(r.verifiedAt || "Sept 2026")}. Shown for reference; interest and fees are not added into the value above.</p>
+      ${rows}
+    </div>`;
+  }
+
   function renderAiResult(json, emptyFiles, followupContext, truncationNote) {
     if (lastFreshFragmentHtml) resultHistory.push(lastFreshFragmentHtml);
     const a = json.analysis || {};
@@ -682,6 +705,7 @@
       </div>
       ${a.likelyOutcome ? `<div class="card" style="padding:20px; margin-top:16px;"><div class="eyebrow" style="margin-bottom:8px;">Executive Discovery</div><p class="text-secondary" style="font-size:14px; line-height:1.6;">${a.likelyOutcome}</p></div>` : ""}
       ${summaryTableHtml(a)}
+      ${jurisdictionRulesHtml(a.jurisdictionRules)}
       ${costCardHtml}
       ${reserveSettlementHtml(a, costData)}
       ${(a.narrativeSections || []).length ? `<div class="card" style="padding:24px; margin-top:16px;"><div class="eyebrow" style="margin-bottom:16px;">Comprehensive Analysis</div>${narrativeSectionsHtml(a.narrativeSections)}</div>` : ""}

@@ -1,5 +1,6 @@
 // =========================================================
 import { alnumKey, dedupeRepresentedFigures, issueRange, STRENGTH_BANDS, verifyFigure, type VerifiedFigure } from "./valuation-math.ts";
+import { jurisdictionRules } from "./state-rules.ts";
 // CREdocket -- Case Value Calculator: AI document analysis
 //
 // COST-PROTECTION DESIGN -- read before changing the order of checks:
@@ -2748,6 +2749,9 @@ async function handle(req: Request): Promise<Response> {
         // never attributed to the wrong model if NARRATIVE_MODEL changes.
         model: NARRATIVE_MODEL,
         analysisVersion: ANALYSIS_VERSION,
+        // v5: the state's interest, fee and deficiency rules, with statute
+        // citations, shown beside the valuation (not folded into it).
+        jurisdictionRules: jurisdictionRules(str(extractedFacts, "state"), category),
         // Backtest callers get the run's estimated API cost so spending is
         // measured per run (Jeff, 2026-09-25, on API cost).
         ...(isBacktest ? { cost: { totalUsd: Number(totalEstCost.toFixed(4)), analysisUsd: Number(analysisCost.toFixed(4)), analysisUsage: analysis.usage } } : {}),
