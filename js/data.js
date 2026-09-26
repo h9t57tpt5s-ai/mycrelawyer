@@ -417,47 +417,6 @@ const RELAW_DATA = {
       docketLabel: "CourtListener opinion"
     },
     {
-      id: "live-011",
-      addedDate: "2026-08-11",
-      title: "Kenilworth Holdings v. New York City Rent Guidelines Board (Rent Freeze Article 78 Challenge)",
-      category: "landlord-tenant",
-      status: "filed",
-      date: "2026-07-22",
-      jurisdiction: "Supreme Court of the State of New York",
-      parties: [
-        { name: "Kenilworth Holdings LLC", role: "Petitioner" },
-        { name: "21-45 23rd St. LLC", role: "Petitioner" },
-        { name: "39-12 62nd St. LLC", role: "Petitioner" },
-        { name: "42-59 Bowne St. LLC", role: "Petitioner" },
-        { name: "1369 College LLC", role: "Petitioner" },
-        { name: "593 Park Place Management Inc.", role: "Petitioner" },
-        { name: "43rd Street Associates LLC", role: "Petitioner" },
-        { name: "New York City Rent Guidelines Board", role: "Respondent" }
-      ],
-      judge: "Brendan Lantry",
-      amountUsd: null,
-      state: "NY",
-      amount: "~1M rent-stabilized units affected citywide",
-      source: "live",
-      sourceUrl: "https://commercialobserver.com/2026/07/nyc-landlords-sue-rent-guidelines-board-rent-freeze/",
-      summary: "A group of five landlord entities, led by Kenilworth Holdings and represented by Dechert's Randy Mastro and Rosenberg & Estis, filed an Article 78 petition against the NYC Rent Guidelines Board over its unprecedented June 25 vote to freeze rents on both one- and two-year rent-stabilized lease renewals starting October 1, 2026. The petition alleges Mayor Zohran Mamdani improperly influenced the board's composition and process, and a court hearing on expedited discovery is set for September 2.",
-      significance: "The first legal challenge to the Mamdani administration by the real estate industry, and a test of how far a mayor can shape an ostensibly independent rate-setting board before a court finds the process itself unlawful. A related $506M CMBS loan on a 53-building rent-stabilized portfolio is already projected to lose bondholders $80M+, illustrating the direct financial exposure a freeze — or prolonged uncertainty over one — creates for owners and lenders of regulated multifamily assets.",
-      body: [
-        "A group of five landlord entities led by Kenilworth Holdings, represented by Dechert's Randy Mastro and by Rosenberg & Estis, filed an Article 78 petition challenging the New York City Rent Guidelines Board's June 25 vote to freeze rents on both one- and two-year rent-stabilized lease renewals beginning October 1, 2026 — a freeze the petition describes as unprecedented in scope.",
-        "The petition's central allegation is procedural rather than purely substantive: that Mayor Zohran Mamdani improperly influenced the board's composition and deliberative process, undermining its intended independence as a rate-setting body. A court hearing on the landlords' request for expedited discovery is scheduled for September 2, 2026.",
-        "The case is being watched as the first legal challenge brought against the Mamdani administration by the real estate industry, and as a test of how far a mayor can shape an ostensibly independent board before a court finds the process itself unlawful. The financial stakes extend beyond the petitioners: a separate $506M CMBS loan tied to a 53-building rent-stabilized portfolio is already projected to cost bondholders more than $80M, illustrating how directly a citywide freeze — or even prolonged uncertainty about one — can flow through to owners and lenders of regulated multifamily assets."
-      ],
-      timeline: [
-        { when: "June 25, 2026", label: "NYC Rent Guidelines Board votes to freeze rent-stabilized renewals" },
-        { when: "July 22, 2026", label: "Landlord group files Article 78 petition challenging the vote",  current: true },
-        { when: "September 2, 2026", label: "Court hearing on expedited discovery scheduled",  upcoming: true },
-        { when: "October 1, 2026", label: "Rent freeze set to take effect if not blocked",  upcoming: true }
-      ],
-      tags: ["rent freeze", "article 78", "rent guidelines board", "landlord-tenant", "multifamily"],
-      docketUrl: "https://iapps.courts.state.ny.us/nyscef/CaseSearch",
-      docketLabel: "NYSCEF Index No. 85199/2026"
-    },
-    {
       id: "live-012",
       addedDate: "2026-08-11",
       title: "Voskerician v. City of Menlo Park (SB 9 Park Fee Takings Challenge)",
@@ -4555,6 +4514,8 @@ const RELAW_DATA = {
       amount: "$158.7M foreclosure judgment (on a $145M original mortgage)",
       source: "live",
       sourceUrl: "https://www.crainsnewyork.com/real-estate/commercial/cny-two-midtown-buildings-return-to-lenders-20260901/",
+      docketUrl: "https://iapps.courts.state.ny.us/nyscef/CaseSearch",
+      docketLabel: "NYSCEF Index No. 850134/2024",
       summary: "Soros Fund Management, which purchased a defaulted $145 million mortgage on 224 West 57th Street from original lender Aareal Capital Corp., took title to the Midtown Manhattan office building at a September 1, 2026 foreclosure auction after obtaining a $158.7 million judgment against owner Eretz Group. The building is occupied primarily by Open Society Foundations, George Soros's own philanthropic organization, meaning the property's anchor tenant effectively became its owner.",
       significance: "Illustrates how distressed-debt acquisition lets a well-capitalized party, here a landlord's own tenant, gain control of a building through a discounted mortgage purchase rather than a conventional sale, and shows that repeated maturity extensions on legacy office loans frequently defer rather than resolve an underlying default risk.",
       body: [
@@ -6086,39 +6047,6 @@ const RELAW_DATA = {
       docketUrl: "https://www.courtlistener.com/docket/74850183/new-flagler-development-llc/",
       docketLabel: "CourtListener docket",
       tags: ["chapter-11", "bankruptcy", "debt-restructuring", "transit-oriented-development", "brightline"]
-    },
-    {
-      id: "live-182",
-      addedDate: "2026-09-26",
-      title: "MLP Ventures Sues Pennsylvania Township Over Rejected $35 Billion King of Prussia Data Center Campus",
-      category: "zoning-land-use",
-      status: "filed",
-      date: "2026-09-16",
-      jurisdiction: "Montgomery County Court of Common Pleas, Pennsylvania",
-      state: "PA",
-      amount: "$35.16 billion projected build-out cost across five King of Prussia-area sites",
-      source: "live",
-      sourceUrl: "https://www.inquirer.com/news/pennsylvania/data-centers-upper-merion-township-lawsuit-20260918.html",
-      summary: "Radnor-based developer MLP Ventures sued Upper Merion Township in Montgomery County Court of Common Pleas on September 16, 2026, challenging the Board of Supervisors' unanimous rejection of a proposed 4.6-million-square-foot data center campus across five King of Prussia-area sites. The suit alleges the township reversed its own zoning officer's determination that data centers were a permitted warehouse use only after organized resident opposition, and seeks a court order granting preliminary approval and appointing an independent referee to oversee further review.",
-      significance: "Tests how much protection a municipal zoning officer's written 'permitted use' determination actually affords once a legislative body faces organized community opposition and moves to treat a project as requiring discretionary approval instead. The 'data center as warehouse' theory at the center of the case is likely to recur as AI-driven demand pushes large data center proposals into suburban jurisdictions not historically zoned for them.",
-      body: [
-        "Radnor-based developer MLP Ventures has sued Upper Merion Township in Montgomery County Court of Common Pleas, challenging the township Board of Supervisors' unanimous August 13 rejection of a proposed 4.6-million-square-foot data center campus across five King of Prussia-area sites. The lawsuit, filed September 16, 2026, asks the court to overturn the denial, grant preliminary approval for the project, and appoint an independent referee to oversee further review, an unusually aggressive remedy that reflects how far the relationship between developer and township has deteriorated. Company filings put the total build-out cost of the proposed campus at roughly $35.16 billion, underscoring both the capital at stake and why the fight has drawn sustained regional attention.",
-        "The core legal dispute turns on a familiar but consequential land-use question: whether a data center qualifies as a 'warehouse' use under Upper Merion's existing zoning code. According to MLP Ventures' complaint, the township's own zoning officer issued a determination letter concluding the proposed use was permitted as-of-right, consistent with the township's stated position in recent years that data centers fall within the warehouse-use category already permitted under the code. MLP Ventures alleges that position changed only after a public backlash, including a petition that gathered more than 18,000 signatures, prompted the Planning Commission and then the Board of Supervisors to reverse course and treat the project as requiring discretionary approvals the board could, and did, deny.",
-        "The litigation has already generated one significant procedural skirmish. In August, a Montgomery County judge issued an order temporarily pausing township action on the data center applications while the zoning question was litigated. That order was vacated the following day, clearing the way for the Board of Supervisors to proceed with, and ultimately cast, its unanimous vote against the project just hours later, illustrating how much can turn on timing in land-use litigation.",
-        "For commercial real estate developers and site-selection teams pursuing data center projects nationally, the dispute is a case study in a risk that is becoming more common as AI-driven demand pushes proposals into suburban and exurban markets not historically zoned with server farms in mind: a 'permitted use' determination from municipal staff is not necessarily the last word once a project draws organized opposition, and a legislative body's discretionary authority over conditional approvals can become a vehicle for revisiting a staff-level interpretation under public pressure. Developers who have relied on an early determination letter as the basis for site acquisition or capital commitments should treat MLP Ventures' suit as a live test of how much protection that letter actually affords once a governing body decides to reconsider, and should build community engagement into project timelines early rather than treating a favorable staff-level reading of the code as sufficient assurance on its own."
-      ],
-      timeline: [
-        { when: "August 13, 2026", label: "Upper Merion Township Board of Supervisors unanimously rejects the 4.6M-square-foot data center campus after a judge's earlier injunction pausing township review is vacated" },
-        { when: "September 16, 2026", label: "MLP Ventures sues Upper Merion Township in Montgomery County Court of Common Pleas, seeking preliminary approval and an independent referee", current: true }
-      ],
-      judge: null,
-      parties: [
-        { name: "MLP Ventures", role: "Plaintiff/Developer" },
-        { name: "Upper Merion Township Board of Supervisors", role: "Defendant" }
-      ],
-      amountUsd: 35160000000,
-      amountBasis: "other",
-      tags: ["zoning", "data-centers", "land-use", "pennsylvania", "ai-infrastructure"]
     }
   ],
 

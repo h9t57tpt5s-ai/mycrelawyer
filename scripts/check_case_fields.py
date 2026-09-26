@@ -52,6 +52,21 @@ def load_cases():
 
 def check(cases):
     problems = []
+    # Duplicate guard (2026-09-26: the digest added MLP Ventures v. Upper
+    # Merion a second time, same filing and same source article). Two
+    # matters may not share a source article or a court docket.
+    for field in ("sourceUrl", "docketUrl"):
+        seen = {}
+        for c in cases:
+            v = (c.get(field) or "").strip().rstrip("/")
+            # NYSCEF has no per-case link; the project rules use its search
+            # page with the index number in docketLabel, so it repeats.
+            if not v or "courtlistener.com/?" in v or "nyscef/CaseSearch" in v:
+                continue
+            if v in seen:
+                problems.append(f"{c.get('id')}: same {field} as {seen[v]} -- likely a duplicate matter")
+            else:
+                seen[v] = c.get("id")
     for c in cases:
         cid = c.get("id", "?")
         added = c.get("addedDate") or ""
