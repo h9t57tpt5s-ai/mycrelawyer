@@ -1,0 +1,187 @@
+{
+ "id": "hrt-enterprises-v-detroit-2025",
+ "ranAt": "2026-09-26T04:11:11+00:00",
+ "status": 200,
+ "prediction": {
+  "model": "claude-sonnet-5",
+  "analysisVersion": "v4.3",
+  "cost": {
+   "totalUsd": 0.1801,
+   "analysisUsd": 0.1738,
+   "analysisUsage": {
+    "input_tokens": 2989,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 8455,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 10820,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "output_tokens_details": {
+     "thinking_tokens": 5252
+    }
+   }
+  },
+  "category": "eminent-domain",
+  "roleLabel": "Property Owner",
+  "damagesRange": [
+   1425000,
+   5000000
+  ],
+  "bestGuessValue": 4850000,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": "Liability is already established by court order, so the case will proceed to a jury verdict on just compensation and taking date, not on whether HRT recovers at all. The most probable outcome is an award in the $1.8-3.1 million range, likely trending toward the higher end if HRT succeeds in establishing the earlier January 2009 taking date (which aligns with its own contemporaneous appraisal), plus accrued prejudgment interest and potential Section 1983 attorney's fees not reflected in the core valuation figure.",
+  "issues": [
+   {
+    "label": "Just Compensation Valuation (Competing Appraisals)",
+    "probabilityRange": [
+     0.95,
+     0.99
+    ],
+    "damagesRange": [
+     1500000,
+     5000000
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "conceded",
+    "supportedCeiling": 5000000,
+    "kind": "claim",
+    "claimType": "just_compensation_valuation",
+    "strength": "conceded",
+    "figures": [
+     {
+      "label": "HRT expert Andrew Reed's appraisal as of Jan. 1, 2009",
+      "value": 3008000,
+      "disputed": true,
+      "quote": "Andrew Reed, a real estate appraiser, testified on behalf of HRT and valued the property at $3,008,000 as of January 1, 2009.",
+      "computed": null
+     },
+     {
+      "label": "HRT owner Karl Thomas's valuation testimony",
+      "value": 5000000,
+      "disputed": true,
+      "quote": "HRT\u2019s owner, Karl Thomas, testified that the property was worth $5 million.",
+      "computed": null
+     },
+     {
+      "label": "City expert Peggy Young's 2002 appraisal",
+      "value": 3000000,
+      "disputed": true,
+      "quote": "Peggy Young, the City\u2019s expert, appraised the property at $3 million in 2002, $3,190,000 in 2005, and $1.5 million in 2010.",
+      "computed": null
+     },
+     {
+      "label": "City expert Peggy Young's 2005 appraisal",
+      "value": 3190000,
+      "disputed": true,
+      "quote": "Peggy Young, the City\u2019s expert, appraised the property at $3 million in 2002, $3,190,000 in 2005, and $1.5 million in 2010.",
+      "computed": null
+     },
+     {
+      "label": "City expert Peggy Young's 2010 appraisal",
+      "value": 1500000,
+      "disputed": true,
+      "quote": "Peggy Young, the City\u2019s expert, appraised the property at $3 million in 2002, $3,190,000 in 2005, and $1.5 million in 2010.",
+      "computed": null
+     }
+    ],
+    "droppedFigures": 0,
+    "basis": "competing"
+   },
+   {
+    "label": "Date of Taking (2009 vs. 2015)",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "just_compensation_valuation",
+    "strength": "favorable",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null
+   },
+   {
+    "label": "Core Liability for De Facto Taking",
+    "probabilityRange": [
+     0.95,
+     0.99
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "conceded",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "quick_take_challenge",
+    "strength": "conceded",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null
+   },
+   {
+    "label": "Res Judicata / Collateral Estoppel from Prior State Suits",
+    "probabilityRange": [
+     0.95,
+     0.99
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "conceded",
+    "supportedCeiling": null,
+    "kind": "defense",
+    "claimType": "quick_take_challenge",
+    "strength": "conceded",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null
+   },
+   {
+    "label": "Prejudgment Interest and Section 1983 Attorney's Fees",
+    "probabilityRange": [
+     0.95,
+     0.99
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "conceded",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "eminent_domain_attorney_fees",
+    "strength": "conceded",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null
+   }
+  ],
+  "citationCoverage": {
+   "count": 22,
+   "tier": "strong"
+  }
+ },
+ "error": null,
+ "outcome": {
+  "amount": 1976820,
+  "amountIsTheRequestedAmount": false,
+  "date": "2025-12-22",
+  "description": "The first jury fixed the taking date at January 1, 2009 and awarded $4.25 million; the district court ordered a remittitur to $2,008,000, the City rejected it, and a second jury awarded HRT $1,976,820 in just compensation. The Sixth Circuit affirmed on December 22, 2025 (ripeness, res judicata, liability, bifurcation and the remittitur all upheld; Thapar, J., dissenting on res judicata). Amount used is the operative second verdict.",
+  "attorneysFeesAtTrial": null,
+  "attorneysFeesOnAppeal": null,
+  "appellateChange": "affirmed",
+  "finalAmount": 1976820,
+  "finalNote": "Affirmed; the operative judgment is the second jury's $1,976,820 (first verdict of $4.25 million was remitted and retried)."
+ },
+ "source": {
+  "caseName": "HRT Enterprises v. City of Detroit, Michigan",
+  "court": "United States Court of Appeals for the Sixth Circuit, on appeal from the U.S. District Court for the Eastern District of Michigan",
+  "docket": "Nos. 23-1847/1855 (E.D. Mich. No. 2:12-cv-13710)",
+  "decided": "2025-12-22",
+  "url": "https://storage.courtlistener.com/pdf/2025/12/22/hrt_enterprises_v._city_of_detroit_mich._1.pdf",
+  "excerptNote": "Verbatim from Part I.A-C (facts, prior litigation, the district court's list of post-2005 developments and its liability ruling) and the Part VI.B paragraph describing the parties' valuation testimony at the first trial. Removed: the opening summary paragraph (both jury awards, the remittitur and the disposition), the sentences reporting the first jury's date finding and $4.25 million award, the remittitur figure, the second trial and second verdict, the district court's and panel's evaluation of each valuation witness, all holdings, and the dissent. Running page headers removed; whitespace normalized."
+ }
+}

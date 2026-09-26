@@ -1,0 +1,260 @@
+{
+ "id": "slyce-v-metropolitan-square-plaza-2025",
+ "ranAt": "2026-09-26T05:04:51+00:00",
+ "status": 200,
+ "prediction": {
+  "model": "claude-sonnet-5",
+  "analysisVersion": "v4.3",
+  "cost": {
+   "totalUsd": 0.2532,
+   "analysisUsd": 0.2364,
+   "analysisUsage": {
+    "input_tokens": 5706,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 9277,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 14430,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "output_tokens_details": {
+     "thinking_tokens": 7542
+    }
+   }
+  },
+  "category": "lease-disputes",
+  "roleLabel": "Landlord",
+  "damagesRange": [
+   292204,
+   855994.88
+  ],
+  "bestGuessValue": 608271.24,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": "Metro is likely to prevail on its counterclaim for breach of the lease and guaranty, recovering the $365,255 in accrued rent/tax/utility arrears with relatively high confidence, plus a meaningful chance (better than even) that the $327,626 lump-sum liquidated damages formula is upheld as a reasonable pre-estimate rather than struck as a penalty. Recovery of the $135,113.88 in construction costs is genuinely uncertain given election-of-remedies overlap with the liquidated damages clause, and the $28,000 brokerage fee is likely to be denied or discounted as speculative and unincurred. Slyce's own breach and unjust enrichment claims are weak and unlikely to succeed given Brittany's trial admissions and the timeline showing Slyce's undisclosed oven-routing decision caused the delay.",
+  "issues": [
+   {
+    "label": "Unpaid Rent, Taxes and Utilities",
+    "probabilityRange": [
+     0.8,
+     0.9
+    ],
+    "damagesRange": [
+     365255,
+     365255
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": 365255,
+    "kind": "claim",
+    "claimType": "unpaid_rent",
+    "strength": "strong",
+    "figures": [
+     {
+      "label": "Accrued rent, taxes and utilities through April 30, 2022",
+      "value": 365255,
+      "disputed": false,
+      "quote": "as of April 30, 2022, the sum of outstanding rent, taxes, and utilities was $365,255",
+      "computed": null
+     }
+    ],
+    "droppedFigures": 0,
+    "basis": "itemized"
+   },
+   {
+    "label": "Lump-Sum Liquidated Damages (Section 13.2)",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": [
+     0,
+     327626
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": 327626,
+    "kind": "claim",
+    "claimType": "accelerated_rent",
+    "strength": "favorable",
+    "figures": [
+     {
+      "label": "Lump Sum Liquidated Damages under section 13.2",
+      "value": 327626,
+      "disputed": true,
+      "quote": "Metro sought $327,626 for \"Lump Sum Liquidated Damages,\" using the calculation set forth in section 13.2 of the lease",
+      "computed": null
+     }
+    ],
+    "droppedFigures": 0,
+    "basis": "itemized"
+   },
+   {
+    "label": "Construction/Build-Out Cost Recovery",
+    "probabilityRange": [
+     0.45,
+     0.55
+    ],
+    "damagesRange": [
+     0,
+     135113.88
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": 135113.88,
+    "kind": "claim",
+    "claimType": "other",
+    "strength": "even",
+    "figures": [
+     {
+      "label": "Construction expenses to customize the space",
+      "value": 135113.88,
+      "disputed": true,
+      "quote": "Metro paid $135,113.88 in construction expenses in efforts to customize the space for Slyce",
+      "computed": null
+     }
+    ],
+    "droppedFigures": 0,
+    "basis": "itemized"
+   },
+   {
+    "label": "Brokerage Commission for Reletting",
+    "probabilityRange": [
+     0.25,
+     0.4
+    ],
+    "damagesRange": [
+     0,
+     28000
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": 28000,
+    "kind": "claim",
+    "claimType": "releasing_mitigation_costs",
+    "strength": "unfavorable",
+    "figures": [
+     {
+      "label": "Anticipated brokerage commission",
+      "value": 28000,
+      "disputed": true,
+      "quote": "Jim expected Metro would have to pay $28,000 for a brokerage commission",
+      "computed": null
+     }
+    ],
+    "droppedFigures": 0,
+    "basis": "itemized"
+   },
+   {
+    "label": "Attorney's Fees Under the Lease",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "attorney_fees",
+    "strength": "favorable",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null
+   },
+   {
+    "label": "Guarantors' Personal Liability",
+    "probabilityRange": [
+     0.8,
+     0.9
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "other",
+    "strength": "strong",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null
+   },
+   {
+    "label": "Slyce's Breach of Contract Claim (Failure to Coordinate)",
+    "probabilityRange": [
+     0.05,
+     0.2
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "other",
+    "strength": "weak",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null
+   },
+   {
+    "label": "Slyce's Unjust Enrichment Claim",
+    "probabilityRange": [
+     0.05,
+     0.2
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "other",
+    "strength": "weak",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null
+   },
+   {
+    "label": "Liquidated Damages as Unenforceable Penalty (Slyce's Defense)",
+    "probabilityRange": [
+     0.25,
+     0.4
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "defense",
+    "claimType": "other",
+    "strength": "unfavorable",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null
+   }
+  ],
+  "citationCoverage": {
+   "count": 39,
+   "tier": "strong"
+  }
+ },
+ "error": null,
+ "outcome": {
+  "amount": 852421.64,
+  "amountIsTheRequestedAmount": false,
+  "date": "2025-03-31",
+  "description": "After a bench trial the court rejected the tenant's breach claim (and dismissed unjust enrichment), found the tenant and guarantors liable, and entered judgment for the landlord of $852,421.64: $365,255.76 rent, taxes and utilities through April 30, 2022; $111,910.38 construction expenses; $327,626.48 lump-sum liquidated damages; $28,000 brokerage fees; and $19,629.02 prejudgment interest. It later awarded $202,034.79 in attorney fees and costs without an evidentiary hearing. The Appellate Court affirmed liability and damages except the $28,000 brokerage fee, which it reversed, and reversed and remanded the fee award for an evidentiary hearing.",
+  "attorneysFeesAtTrial": 202034.79,
+  "attorneysFeesOnAppeal": "reversed and remanded for evidentiary hearing",
+  "appellateChange": "modified",
+  "finalAmount": 824421.64,
+  "finalNote": "Affirmed except the $28,000 brokerage-fee component, which was reversed; fee award remanded."
+ },
+ "source": {
+  "caseName": "Slyce Coal Fired Pizza Company v. Metropolitan Square Plaza, LLC (Laurie Barth and Brittany Barth-Niggemann, counterdefendants)",
+  "court": "Appellate Court of Illinois, First District, First Division (2025 IL App (1st) 221279), on appeal from the Circuit Court of Cook County",
+  "docket": "Nos. 1-22-1279 & 1-22-1868 (consolidated)",
+  "decided": "2025-03-31",
+  "url": "https://www.illinoiscourts.gov/resources/a6e89c4f-4ca1-4fbd-b6a1-6e70253d0bbb/file",
+  "excerptNote": "Verbatim from the Background (paragraphs 4-6, 8, 12, 14-16, 18, 20-23, 25-26, 28-29, 36, 42, 44-45, 48-49), selected trial testimony (65, 73, 97-102) and Metro's closing and Slyce's posttrial arguments (112-113). Paragraph numbers, section headings, page headers, footnotes 1-3 (including the quoted section 14.5 text) and footnote markers removed. Removed: the introduction (which states the award and disposition), the remaining testimony paragraphs, the Trial Court Findings (114-124, which state the liability findings and the itemized $852,421.64 judgment), the fee proceedings, and all appellate analysis and holdings."
+ }
+}

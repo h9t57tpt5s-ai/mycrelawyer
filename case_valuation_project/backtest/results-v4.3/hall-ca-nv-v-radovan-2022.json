@@ -1,0 +1,235 @@
+{
+ "id": "hall-ca-nv-v-radovan-2022",
+ "ranAt": "2026-09-26T03:36:22+00:00",
+ "status": 200,
+ "prediction": {
+  "model": "claude-sonnet-5",
+  "analysisVersion": "v4.3",
+  "cost": {
+   "totalUsd": 0.238,
+   "analysisUsd": 0.2252,
+   "analysisUsage": {
+    "input_tokens": 4398,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 9103,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 13953,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "output_tokens_details": {
+     "thinking_tokens": 7107
+    }
+   }
+  },
+  "category": "lending-foreclosure",
+  "roleLabel": "Lender",
+  "damagesRange": [
+   6614457.001,
+   10610279.02
+  ],
+  "bestGuessValue": 8545542.370250002,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": "Hall is very likely to obtain judgment against Radovan and Criswell, jointly and severally, on the guaranty for the unpaid loan balance, with the court crediting the roughly $365,000 in unapplied FF&E/fee-reimbursement offsets against the $8,610,279.02 base figure. The guarantors' bankruptcy-exculpation and impaired-collateral defenses are unlikely to succeed given the guaranty's broad waiver provisions and the narrow scope of the actual exculpation order; the main open variable is whether roughly $2 million in bankruptcy-era advances and any attorney's fees are added to the judgment.",
+  "issues": [
+   {
+    "label": "Guaranty Enforcement -- Core Debt",
+    "probabilityRange": [
+     0.8,
+     0.9
+    ],
+    "damagesRange": [
+     8610279.02,
+     8610279.02
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": 8610279.02,
+    "kind": "claim",
+    "claimType": "guaranty_enforcement",
+    "strength": "strong",
+    "figures": [
+     {
+      "label": "Outstanding loan balance",
+      "value": 7439342.7,
+      "disputed": false,
+      "quote": "the loan balance, which was $7,439,342.70",
+      "computed": null
+     },
+     {
+      "label": "Accrued interest",
+      "value": 639570.83,
+      "disputed": false,
+      "quote": "the interest accrued, which was $639,570.83",
+      "computed": null
+     },
+     {
+      "label": "Default interest",
+      "value": 531365.49,
+      "disputed": false,
+      "quote": "the default interest, which was $531,365.49",
+      "computed": null
+     }
+    ],
+    "droppedFigures": 0,
+    "basis": "itemized"
+   },
+   {
+    "label": "Unapplied FF&E and Fee-Reimbursement Credits",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": [
+     -365021.62,
+     0
+    ],
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": -365021.62,
+    "kind": "defense",
+    "claimType": "guaranty_enforcement",
+    "strength": "favorable",
+    "figures": [
+     {
+      "label": "Retained FF&E not credited",
+      "value": 194021.62,
+      "disputed": true,
+      "quote": "neither the $194,000 worth of retained furniture, fixtures, and equipment nor the attorney\u2019s fees received by Hall from the title company were reflected as credits on the amortization schedule",
+      "computed": null
+     },
+     {
+      "label": "Title insurer attorney-fee reimbursement not credited",
+      "value": 171000,
+      "disputed": true,
+      "quote": "Hall also received $171,000 from Old Republic to reimburse it for attorney\u2019s fees",
+      "computed": null
+     }
+    ],
+    "droppedFigures": 0,
+    "basis": "itemized"
+   },
+   {
+    "label": "Bankruptcy Exculpation Order Defense",
+    "probabilityRange": [
+     0.25,
+     0.4
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "defense",
+    "claimType": "guaranty_enforcement",
+    "strength": "unfavorable",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null
+   },
+   {
+    "label": "Impaired Collateral / Failure to Mitigate (Penta Settlement)",
+    "probabilityRange": [
+     0.25,
+     0.4
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "defense",
+    "claimType": "lender_liability_claim",
+    "strength": "unfavorable",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null
+   },
+   {
+    "label": "Material Alteration / Guaranty Cap Argument",
+    "probabilityRange": [
+     0.05,
+     0.2
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "defense",
+    "claimType": "guaranty_enforcement",
+    "strength": "weak",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null
+   },
+   {
+    "label": "Bankruptcy-Era Protective Advances (~$2M)",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": [
+     0,
+     2000000
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": 2000000,
+    "kind": "claim",
+    "claimType": "guaranty_enforcement",
+    "strength": "favorable",
+    "figures": [
+     {
+      "label": "Additional funds extended during bankruptcy",
+      "value": 2000000,
+      "disputed": true,
+      "quote": "Hall extended additional funds in connection with the bankruptcy, totaling about $2 million",
+      "computed": null
+     }
+    ],
+    "droppedFigures": 0,
+    "basis": "itemized"
+   },
+   {
+    "label": "Attorney's Fees for Enforcement",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "attorney_fees",
+    "strength": "favorable",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null
+   }
+  ],
+  "citationCoverage": {
+   "count": 32,
+   "tier": "strong"
+  }
+ },
+ "error": null,
+ "outcome": {
+  "amount": 0.0,
+  "amountIsTheRequestedAmount": true,
+  "date": "2022-05-25",
+  "description": "After a bench trial the trial court ruled for the guarantors and ordered that Hall take nothing, finding among other things that Hall's settlement with the contractor Penta materially altered the agreements, that Hall had no damages, and that the guarantors were exculpated and discharged. The Dallas Court of Appeals reversed, held the guarantors had waived their defenses and Hall conclusively proved liability and the amount owed, and rendered judgment that Hall recover $8,610,279.02 plus post-judgment interest.",
+  "attorneysFeesAtTrial": null,
+  "attorneysFeesOnAppeal": null,
+  "finalAmount": 8610279.02,
+  "finalNote": "Reversed and rendered for the lender for $8,610,279.02 (the balance it proved at trial). The final judgment equals the lender's stated demand, a pre-outcome fact in the input."
+ },
+ "source": {
+  "caseName": "Hall CA-NV, LLC v. Robert Radovan and William Criswell",
+  "court": "Texas Fifth Court of Appeals (Dallas), on appeal from the 134th Judicial District Court, Dallas County",
+  "docket": "No. 05-19-01412-CV (trial cause No. DC-18-02395)",
+  "decided": "2022-05-25",
+  "url": "https://storage.courtlistener.com/pdf/2022/05/25/hall_ca-nv_llc_v._robert_radovan_and_william_criswell.pdf",
+  "excerptNote": "documentText is verbatim from Part I.a (loan and guaranty agreements) and Part I.b (bankruptcy, litigation and the bench-trial testimony of both sides). Removed: the opening paragraph stating the take-nothing judgment and the appellate conclusion, the subsection headings, Part I.c (the trial court's findings and take-nothing ruling) and all of Part II. The lender's own trial figure ($8,610,279,02 as printed, i.e. its claimed balance) remains because it is the lender's evidence at trial; the court of appeals later rendered judgment for exactly that amount, so outcome.finalAmount equals the lender's demand. Whitespace and page-number artifacts normalized only."
+ }
+}

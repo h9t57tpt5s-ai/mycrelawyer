@@ -1,0 +1,226 @@
+{
+ "id": "kks-properties-slingerlands-bypass-2020",
+ "ranAt": "2026-09-26T04:24:18+00:00",
+ "status": 200,
+ "prediction": {
+  "model": "claude-sonnet-5",
+  "analysisVersion": "v4.3",
+  "cost": {
+   "totalUsd": 0.2362,
+   "analysisUsd": 0.2312,
+   "analysisUsage": {
+    "input_tokens": 2164,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 8455,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 14812,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "output_tokens_details": {
+     "thinking_tokens": 9951
+    }
+   }
+  },
+  "category": "eminent-domain",
+  "roleLabel": "Property Owner",
+  "damagesRange": [
+   1128558.6,
+   3928945
+  ],
+  "bestGuessValue": 2375252.5,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": "Liability (the fact of a compensable taking) is not in dispute; the fight is purely about amount. Given that both experts share the same highest-and-best-use premise and differ mainly on per-acre rates and on how much the 43-meter access restriction actually degrades the western parcel's value, expect the Court of Claims to award total just compensation somewhere between the State's floor (value of the land physically taken, no severance) and claimant's aggressive 'surplus acreage' theory \u2014 with the collateral estoppel ruling on landlocked status and the State's specific multifamily-development testimony pulling the likely result toward the lower-to-middle part of that range rather than claimant's high end.",
+  "issues": [
+   {
+    "label": "Pre-appropriation value of the whole 31.77-acre property",
+    "probabilityRange": [
+     0.45,
+     0.55
+    ],
+    "damagesRange": [
+     1430000,
+     2224065
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": 2224065,
+    "kind": "claim",
+    "claimType": "just_compensation_valuation",
+    "strength": "even",
+    "figures": [
+     {
+      "label": "Gardner Alternative A total pre-appropriation value",
+      "value": 2224065,
+      "disputed": true,
+      "quote": "resulting in a total preappropriation value of $2,224,065",
+      "computed": null
+     },
+     {
+      "label": "Gardner Alternative B total pre-appropriation value",
+      "value": 2223000,
+      "disputed": true,
+      "quote": "resulting in a total preappropriation value of $2,223,000",
+      "computed": null
+     },
+     {
+      "label": "Thurston/State total pre-appropriation value",
+      "value": 1430000,
+      "disputed": true,
+      "quote": "for a total preappropriation valuation of approximately $1,430,000",
+      "computed": null
+     }
+    ],
+    "droppedFigures": 0,
+    "basis": "competing"
+   },
+   {
+    "label": "Direct damages for the 9.5-acre strip physically taken",
+    "probabilityRange": [
+     0.95,
+     0.99
+    ],
+    "damagesRange": [
+     427500,
+     874000
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "conceded",
+    "supportedCeiling": 874000,
+    "kind": "claim",
+    "claimType": "just_compensation_valuation",
+    "strength": "conceded",
+    "figures": [
+     {
+      "label": "Claimant's developable-acreage rate applied to the taken strip",
+      "value": 874000,
+      "disputed": true,
+      "quote": "the commercially developable portion of the property had a value of $92,000 per acre",
+      "computed": "92000 x 9.5"
+     },
+     {
+      "label": "State's flat rate applied to the taken strip",
+      "value": 427500,
+      "disputed": true,
+      "quote": "calculated the property's preappropriation value to be $45,000 per acre",
+      "computed": "45000 x 9.5"
+     }
+    ],
+    "droppedFigures": 0,
+    "basis": "competing"
+   },
+   {
+    "label": "Consequential/severance damage to the 18.464-acre western parcel",
+    "probabilityRange": [
+     0.45,
+     0.55
+    ],
+    "damagesRange": [
+     175408,
+     830879.9999999999
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": 830879.9999999999,
+    "kind": "claim",
+    "claimType": "just_compensation_valuation",
+    "strength": "even",
+    "figures": [
+     {
+      "label": "Claimant's post-taking 'surplus acreage' value of western parcel",
+      "value": 175408,
+      "disputed": true,
+      "quote": "the surplus acreage had a value of $9,500 per acre",
+      "computed": "9500 x 18.464"
+     },
+     {
+      "label": "State's theory of unchanged developable value of western parcel",
+      "value": 830879.9999999999,
+      "disputed": true,
+      "quote": "calculated the property's preappropriation value to be $45,000 per acre",
+      "computed": "45000 x 18.464"
+     }
+    ],
+    "droppedFigures": 0,
+    "basis": "competing"
+   },
+   {
+    "label": "Collateral estoppel: western parcel not legally landlocked",
+    "probabilityRange": [
+     0.95,
+     0.99
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "conceded",
+    "supportedCeiling": null,
+    "kind": "defense",
+    "claimType": "quick_take_challenge",
+    "strength": "conceded",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null
+   },
+   {
+    "label": "Retrial risk from prior reversal for lack of competent valuation proof",
+    "probabilityRange": [
+     0.25,
+     0.4
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "unknown",
+    "supportedCeiling": null,
+    "kind": "defense",
+    "claimType": "other",
+    "strength": "unfavorable",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null
+   },
+   {
+    "label": "Agreed highest and best use (mixed-use office/retail/residential)",
+    "probabilityRange": [
+     0.95,
+     0.99
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "conceded",
+    "supportedCeiling": null,
+    "kind": "defense",
+    "claimType": "just_compensation_valuation",
+    "strength": "conceded",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null
+   }
+  ],
+  "citationCoverage": {
+   "count": 22,
+   "tier": "strong"
+  }
+ },
+ "error": null,
+ "outcome": {
+  "amount": 744500,
+  "amountIsTheRequestedAmount": false,
+  "date": "2020-10-29",
+  "description": "After a four-day January 2018 trial the Court of Claims credited the State's appraiser (with its own adjustments, preappropriation value $52,339 per acre or $1,662,810), found the western remainder's post-taking highest and best use was multifamily residential, and awarded KKS $744,500 in direct and consequential damages. The Third Department affirmed the amended judgment on October 29, 2020. (An earlier award of $532,000 had been reversed in 2014.)",
+  "attorneysFeesAtTrial": null,
+  "attorneysFeesOnAppeal": null,
+  "appellateChange": "affirmed",
+  "finalAmount": 744500,
+  "finalNote": "Affirmed."
+ },
+ "source": {
+  "caseName": "Matter of Acquisition of Real Property by the State of New York (KKS Properties, LLC, claimant)",
+  "court": "Supreme Court of the State of New York, Appellate Division, Third Department, on appeal from the Court of Claims",
+  "docket": "529374; 2020 NY Slip Op 06185",
+  "decided": "2020-10-29",
+  "url": "https://storage.courtlistener.com/html/2020/10/29/matter_of_acquisition_of_real_prop._by_the_state_of_new_york.html",
+  "excerptNote": "Verbatim from the background (property, 2006 appropriation, prior proceedings) and the decision's descriptions of the parties' trial evidence (both appraisers' preappropriation valuations, the State appraiser's post-taking multifamily testimony, the claimant's access argument and engineer's opinion). Removed: the sentence reporting the first trial's award (reversed in 2014), the sentence reporting the 2018 award, the Court of Claims' findings (its own per-acre value and treatment of each appraisal), footnotes and all appellate reasoning. Two sentences are cut at a semicolon before the court's evaluation of them (the cut is marked by a period), so their second halves are omitted. The decision does not state either appraiser's after-taking value or damages total. Official reporter copy: 2020 NY Slip Op 06185."
+ }
+}

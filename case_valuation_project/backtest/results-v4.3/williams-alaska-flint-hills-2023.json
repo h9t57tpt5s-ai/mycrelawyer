@@ -1,0 +1,61 @@
+{
+ "id": "williams-alaska-flint-hills-2023",
+ "ranAt": "2026-09-26T04:41:19+00:00",
+ "status": 200,
+ "prediction": {
+  "model": "claude-sonnet-5",
+  "analysisVersion": "v4.3",
+  "cost": {
+   "totalUsd": 0.236,
+   "analysisUsd": 0.2269,
+   "analysisUsage": {
+    "input_tokens": 5339,
+    "cache_creation_input_tokens": 8724,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 8724,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 11877,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "output_tokens_details": {
+     "thinking_tokens": 11676
+    }
+   }
+  },
+  "category": "environmental",
+  "roleLabel": "Property Owner / PRP",
+  "damagesRange": [
+   0,
+   0
+  ],
+  "bestGuessValue": 0,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": "placeholder",
+  "issues": [],
+  "citationCoverage": {
+   "count": 24,
+   "tier": "strong"
+  }
+ },
+ "error": null,
+ "outcome": {
+  "amount": 52500000,
+  "amountIsTheRequestedAmount": false,
+  "date": "2023-05-26",
+  "description": "After a 16-day bench trial the superior court held Flint Hills barred from contractual indemnity (because it had contributed to the sulfolane pollution), which made the $32 million Environmental Cap inapplicable, but allowed statutory contribution under AS 46.03.822(j). Allocating 75% of offsite sulfolane response costs to Williams and 25% to Flint Hills (none to the State), it ordered Williams to contribute $52.5 million to Flint Hills's response costs ($51.4 million for offsite sulfolane and $1.17 million for onsite PFAS), plus prejudgment interest, and 75% of future piped-water and offsite remediation costs, and to indemnify Flint Hills for onsite PFAS-related future claims. The Alaska Supreme Court affirmed the contribution award and allocation on May 26, 2023, remanding only the separate injunctive relief for more specificity. The outcome amount is the stated $52.5 million contribution figure, excluding prejudgment interest and the open-ended future-cost share; the State's separate award against Williams is not included.",
+  "attorneysFeesAtTrial": null,
+  "appellateChange": "affirmed",
+  "finalAmount": 52500000,
+  "finalNote": "Contribution award to Flint Hills affirmed; only the injunction was remanded for more specificity."
+ },
+ "source": {
+  "caseName": "Williams Alaska Petroleum, Inc. and The Williams Companies, Inc. v. State of Alaska; Flint Hills Resources, LLC; and Flint Hills Resources Alaska, LLC",
+  "court": "Supreme Court of Alaska, on appeal from the Superior Court, Fourth Judicial District, Fairbanks",
+  "docket": "S-17772 (Superior Court No. 4FA-14-01544 CI); Opinion No. 7658",
+  "decided": "2023-05-26",
+  "url": "https://storage.courtlistener.com/pdf/2023/05/26/williams_alaska_petroleum_inc._and_the_williams_companies_inc._v._state.pdf",
+  "excerptNote": "documentText is verbatim from Parts II.A (Facts) and II.C (Proceedings), and from the parties' positions recited in Parts IV.A.2 and IV.B of the Alaska Supreme Court's opinion (slip opinion as published by the court; CourtListener mirror of the court's PDF). Removed: the Introduction; the statutory background; every sentence stating the superior court's liability, allocation (percentage) or award rulings, its contract-interpretation conclusions, or the Supreme Court's analysis and holdings; footnotes and citations; slip-opinion page headers. Where a footnote or page header fell inside a sentence, the sentence is kept with a line break at that point. One cost sentence from footnote 68 (the expected piped-water project cost and each payer's escrow payments to date) is kept because it states the costs incurred, not the allocation; the allocation sentence that follows it is removed. Split words from the PDF text layer (e.g. 'a nswer') were rejoined."
+ }
+}

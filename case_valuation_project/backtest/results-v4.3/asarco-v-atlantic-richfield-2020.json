@@ -1,0 +1,200 @@
+{
+ "id": "asarco-v-atlantic-richfield-2020",
+ "ranAt": "2026-09-26T04:46:40+00:00",
+ "status": 200,
+ "prediction": {
+  "model": "claude-sonnet-5",
+  "analysisVersion": "v4.3",
+  "cost": {
+   "totalUsd": 0.2189,
+   "analysisUsd": 0.2123,
+   "analysisUsage": {
+    "input_tokens": 3374,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 8724,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 13306,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "output_tokens_details": {
+     "thinking_tokens": 6972
+    }
+   }
+  },
+  "category": "environmental",
+  "roleLabel": "Property Owner / PRP",
+  "damagesRange": [
+   31996102.8,
+   61400000
+  ],
+  "bestGuessValue": 39477166.7625,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": "Asarco is likely to prevail on Atlantic Richfield's PRP liability and recover a contribution share, most probably in the 20%-35% range of a recoverable cost base that the court will likely find somewhere between $61.4 million and the full $111.4 million settlement, given the strength of Asarco's 'irrevocable payment' argument against Atlantic Richfield's 'not yet incurred' defense. Atlantic Richfield's zero-liability position and divisibility defense are unlikely to succeed outright but may modestly depress the allocation percentage below Asarco's expert's own range.",
+  "issues": [
+   {
+    "label": "Recoverable Cost Base ('Incurred' Costs)",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": [
+     61400000,
+     61400000
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": 61400000,
+    "kind": "claim",
+    "claimType": "cercla_contribution_claim",
+    "strength": "favorable",
+    "figures": [
+     {
+      "label": "Actual/committed cleanup costs (Atlantic Richfield's position)",
+      "value": 61400000,
+      "disputed": true,
+      "quote": "the total cleanup cost for the Site would approximate $61.4 million",
+      "computed": null
+     }
+    ],
+    "droppedFigures": 1,
+    "basis": "competing"
+   },
+   {
+    "label": "Equitable Allocation Percentage (Gore Factors)",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "cercla_contribution_claim",
+    "strength": "favorable",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null
+   },
+   {
+    "label": "Atlantic Richfield's PRP/Operator Liability Status",
+    "probabilityRange": [
+     0.8,
+     0.9
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "cercla_contribution_claim",
+    "strength": "strong",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null
+   },
+   {
+    "label": "NRD and Trust-Administration Cost Exclusion Defense",
+    "probabilityRange": [
+     0.25,
+     0.4
+    ],
+    "damagesRange": [
+     -12109743,
+     0
+    ],
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": -12109743,
+    "kind": "defense",
+    "claimType": "cercla_contribution_claim",
+    "strength": "unfavorable",
+    "figures": [
+     {
+      "label": "NRD payment to State of Montana",
+      "value": 5000000,
+      "disputed": true,
+      "quote": "$5 million to the State of Montana for compensatory natural resource damages at the Site",
+      "computed": null
+     },
+     {
+      "label": "NRD/oversight payment to Dept. of Interior",
+      "value": 706000,
+      "disputed": true,
+      "quote": "$706,000 to the U.S. Department of the Interior for natural resource restoration and future oversight costs for the Site",
+      "computed": null
+     },
+     {
+      "label": "Custodial Trust establishment and administration funding",
+      "value": 6403743,
+      "disputed": true,
+      "quote": "$6,403,743 toward the establishment of the Custodial Trust and the funding of the Custodial Administrative Account to be used for trust administration expenses",
+      "computed": null
+     }
+    ],
+    "droppedFigures": 0,
+    "basis": "itemized"
+   },
+   {
+    "label": "Divisibility of Harm Defense",
+    "probabilityRange": [
+     0.05,
+     0.2
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "defense",
+    "claimType": "cercla_contribution_claim",
+    "strength": "weak",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null
+   },
+   {
+    "label": "Statute of Limitations Defense",
+    "probabilityRange": [
+     0.95,
+     0.99
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "conceded",
+    "supportedCeiling": null,
+    "kind": "defense",
+    "claimType": "cercla_contribution_claim",
+    "strength": "conceded",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null
+   }
+  ],
+  "citationCoverage": {
+   "count": 24,
+   "tier": "strong"
+  }
+ },
+ "error": null,
+ "outcome": {
+  "amount": 28850936,
+  "amountIsTheRequestedAmount": false,
+  "date": "2020-09-14",
+  "description": "After an eight-day bench trial the district court found ASARCO had incurred $111,403,743 in necessary response costs (the full consent-decree payment) and held Atlantic Richfield liable for 25 percent of them, $27,850,936, adopting the most conservative of ASARCO's expert's allocation strategies (25 to 41 percent) and rejecting Atlantic Richfield's zero allocation; it added a separate $1 million award for Atlantic Richfield's non-cooperation and misrepresentations, so the stated awards total $28,850,936. The Ninth Circuit affirmed the 25 percent allocation (and the unchallenged $1 million award) but vacated the finding that the whole $111.4 million was recoverable now, because about $50 million of trust funds had not been and might never be spent, and remanded to determine which costs were actually incurred. Atlantic Richfield had argued recoverable costs should be limited to about $61.4 million.",
+  "attorneysFeesAtTrial": null,
+  "appellateChange": "vacated-in-part",
+  "finalAmount": null,
+  "finalNote": "Allocation affirmed; cost base vacated and remanded, so no final figure (25 percent of the remand cost base plus the $1 million award)."
+ },
+ "source": {
+  "caseName": "ASARCO LLC v. Atlantic Richfield Company, LLC",
+  "court": "United States Court of Appeals for the Ninth Circuit, on appeal from the United States District Court for the District of Montana (bench trial)",
+  "docket": "No. 18-35934 (D.C. No. 6:12-cv-00053-DLC)",
+  "decided": "2020-09-14",
+  "url": "https://cdn.ca9.uscourts.gov/datastore/opinions/2020/09/14/18-35934.pdf",
+  "excerptNote": "documentText is verbatim from the Ninth Circuit's published opinion (the court's PDF; text taken from the CourtListener mirror of the same file): the opening two sentences, Part I.A-B (site operations, EPA involvement, the settlement payment and its components, the competing remediation-cost estimates), Part I.C through the 2017 remand, the parties' positions on 'incurred' costs recited in Part II.A, and the parties' experts' allocation positions from Part II.B. Removed: the summary; every sentence stating the district court's findings, allocation percentage, award or additional premium; the Ninth Circuit's analysis and holdings; page headers; footnotes other than footnotes 1 and 2 (kept as separate lines). Where a footnote fell inside a sentence the sentence is kept with a line break at that point."
+ }
+}

@@ -1,0 +1,226 @@
+{
+ "id": "preston-hollow-v-senior-care-living-vi-2024",
+ "ranAt": "2026-09-26T04:05:02+00:00",
+ "status": 200,
+ "prediction": {
+  "model": "claude-sonnet-5",
+  "analysisVersion": "v4.3",
+  "cost": {
+   "totalUsd": 0.238,
+   "analysisUsd": 0.2243,
+   "analysisUsage": {
+    "input_tokens": 5079,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 9103,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 13755,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "output_tokens_details": {
+     "thinking_tokens": 6475
+    }
+   }
+  },
+  "category": "lending-foreclosure",
+  "roleLabel": "Lender",
+  "damagesRange": [
+   0,
+   44675000
+  ],
+  "bestGuessValue": 30155625.000000004,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": "The lender side is likely to establish an Event of Default and the accelerated debt against Senior Care, and has a favorable-but-not-certain path to also hold Bouldin personally liable on the Guaranty once the privity/standing dispute is resolved; Senior Care's declaratory and tort/contract counterclaims are unlikely to succeed given the largely undisputed lien and tax-delinquency facts, though the trustee-validity challenge could cause procedural complications. Net expected recovery for the represented lender parties is substantial but should be discounted from the full $44,675,000 ask for standing, collectibility, and litigation risk.",
+  "issues": [
+   {
+    "label": "Breach of Loan Agreement / Acceleration of Bond Debt Against Senior Care",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": [
+     0,
+     44675000
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": 44675000,
+    "kind": "claim",
+    "claimType": "foreclosure_deficiency_judgment",
+    "strength": "favorable",
+    "figures": [
+     {
+      "label": "Outstanding principal balance of the bonds sought by UMB Bank's counterclaim",
+      "value": 44675000,
+      "disputed": true,
+      "quote": "UMB Bank sought recovery of the outstanding amount of principal on the bonds\u2014$44,675,000\u2014as well as interest, fees, and costs.",
+      "computed": null
+     }
+    ],
+    "droppedFigures": 0,
+    "basis": "itemized"
+   },
+   {
+    "label": "Guaranty Enforcement Against Bouldin",
+    "probabilityRange": [
+     0.45,
+     0.55
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "guaranty_enforcement",
+    "strength": "even",
+    "figures": [],
+    "droppedFigures": 1,
+    "basis": null
+   },
+   {
+    "label": "Successor Trustee Appointment Validity",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "defense",
+    "claimType": "other",
+    "strength": "favorable",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null
+   },
+   {
+    "label": "Receivership Over Senior Care",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "receivership_dispute",
+    "strength": "favorable",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null
+   },
+   {
+    "label": "Senior Care's Declaratory Judgment That No Default Occurred",
+    "probabilityRange": [
+     0.05,
+     0.2
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "other",
+    "strength": "weak",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null
+   },
+   {
+    "label": "Senior Care's Tortious Interference Claims",
+    "probabilityRange": [
+     0.05,
+     0.2
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "lender_liability_claim",
+    "strength": "weak",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null
+   },
+   {
+    "label": "Senior Care's Breach of Contract Claim for Wrongful Acceleration",
+    "probabilityRange": [
+     0.05,
+     0.2
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "lender_liability_claim",
+    "strength": "weak",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null
+   },
+   {
+    "label": "Senior Care's Conversion / Money Had and Received Claim",
+    "probabilityRange": [
+     0.05,
+     0.2
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "other",
+    "strength": "weak",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null
+   },
+   {
+    "label": "Attorney's Fees and Costs Under the Bond Documents",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "attorney_fees",
+    "strength": "favorable",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null
+   }
+  ],
+  "citationCoverage": {
+   "count": 32,
+   "tier": "strong"
+  }
+ },
+ "error": null,
+ "outcome": {
+  "amount": 52597040.06,
+  "amountIsTheRequestedAmount": false,
+  "date": "2024-05-14",
+  "description": "After a week-long bench trial the court rendered judgment for Preston Hollow against Senior Care and Bouldin, jointly and severally, for $52,597,040.06 ($44,675,000 principal plus $7,922,040.06 pre-judgment interest), $250,000 in attorney's fees and $520,000 conditional appellate fees, and reappointed a receiver. On rehearing the First Court of Appeals rendered judgment that Preston Hollow may not enforce the guaranty against Bouldin, reversed the $52.6 million breach-of-contract award against Senior Care and remanded that claim for a new trial, remanded the trustees' guaranty claims for trial, and vacated the fee awards.",
+  "attorneysFeesAtTrial": 250000.0,
+  "attorneysFeesOnAppeal": "vacated",
+  "finalAmount": null,
+  "finalNote": "Reversed and remanded for new trial on the contract claim; guaranty judgment reversed and rendered. Pending."
+ },
+ "source": {
+  "caseName": "Senior Care Living VI, LLC and Mark C. Bouldin v. Preston Hollow Capital, LLC, UMB Bank N.A., and TMI Trust Company",
+  "court": "Texas First Court of Appeals (Houston), opinion on rehearing, on appeal from the 458th District Court, Fort Bend County",
+  "docket": "No. 01-21-00602-CV (Trial Court Case No. 19-DCV-265897)",
+  "decided": "2024-05-14",
+  "url": "https://storage.courtlistener.com/pdf/2024/05/14/senior_care_living_vi_llc_v._preston_hollow_capital_llc_umb_bank_n.a..pdf",
+  "excerptNote": "documentText is verbatim from the Background (Parts A-C): the bond financing, loan agreement and guaranty, the construction-payment dispute with Baxter, the default notices and acceleration, and the pleadings and summary-judgment arguments. Removed for length: the detailed Bond Indenture, Master Indenture and CDMA paragraphs, the side-letter details, the trustee-resignation correspondence and the later default notices. Removed as outcome: the opening paragraphs (trial result and disposition), the summary-judgment and Rule 166(g) rulings, the bench-trial judgment and its components, and all appellate analysis. Footnotes 3-11 and markers removed. Note: the principal balance sought ($44,675,000) appears as the pleaded demand; the judgment amount does not."
+ }
+}

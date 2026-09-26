@@ -1,0 +1,253 @@
+{
+ "id": "huntington-bank-v-limited-investment-group-2022",
+ "ranAt": "2026-09-26T03:44:45+00:00",
+ "status": 200,
+ "prediction": {
+  "model": "claude-sonnet-5",
+  "analysisVersion": "v4.3",
+  "cost": {
+   "totalUsd": 0.2813,
+   "analysisUsd": 0.2696,
+   "analysisUsage": {
+    "input_tokens": 3902,
+    "cache_creation_input_tokens": 9103,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 9103,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 14914,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "output_tokens_details": {
+     "thinking_tokens": 8750
+    }
+   }
+  },
+  "category": "lending-foreclosure",
+  "roleLabel": "Lender",
+  "damagesRange": [
+   367575.99700000003,
+   671351.84
+  ],
+  "bestGuessValue": 459535.94645000005,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": "Huntington should obtain judgment and foreclosure on both properties for the reinstated cognovit judgment amount plus accruing interest, late charges and contractual attorney fees, and should retain the Central Avenue sale proceeds and the great majority of the disputed insurance proceeds; Limited's breach-of-contract and fraud counterclaims are unlikely to succeed given its own failure to submit required draw documentation, though its conversion claim over the unilaterally-endorsed insurance check creates a real, if probably manageable, risk of a partial offset.",
+  "issues": [
+   {
+    "label": "Cognovit Judgment / Note Balance Enforcement",
+    "probabilityRange": [
+     0.8,
+     0.9
+    ],
+    "damagesRange": [
+     521052.41,
+     521052.41
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": 521052.41,
+    "kind": "claim",
+    "claimType": "foreclosure_deficiency_judgment",
+    "strength": "strong",
+    "figures": [
+     {
+      "label": "reinstated cognovit judgment principal balance (Feb. 27, 2013)",
+      "value": 521052.41,
+      "disputed": false,
+      "quote": "the trial court granted Huntington a cognovit judgment in the amount of $521,052.41, plus interest, late fees and charges, and attorney fees",
+      "computed": null
+     }
+    ],
+    "droppedFigures": 0,
+    "basis": "itemized"
+   },
+   {
+    "label": "Central Avenue Receivership Sale Proceeds",
+    "probabilityRange": [
+     0.95,
+     0.99
+    ],
+    "damagesRange": [
+     109859.36,
+     109859.36
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "conceded",
+    "supportedCeiling": 109859.36,
+    "kind": "claim",
+    "claimType": "receivership_dispute",
+    "strength": "conceded",
+    "figures": [
+     {
+      "label": "Central Avenue property sale proceeds",
+      "value": 109859.36,
+      "disputed": false,
+      "quote": "The receiver deposited the proceeds of the sale, $109,859.36, into his escrow account.",
+      "computed": null
+     }
+    ],
+    "droppedFigures": 0,
+    "basis": "itemized"
+   },
+   {
+    "label": "Ownership/Application of First Fire Insurance Check ($139,861.82)",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": [
+     -139861.82,
+     -139861.82
+    ],
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": -139861.82,
+    "kind": "claim",
+    "claimType": "lender_liability_claim",
+    "strength": "favorable",
+    "figures": [
+     {
+      "label": "fire insurance proceeds held pending resolution by Clerk of Courts",
+      "value": 139861.82,
+      "disputed": true,
+      "quote": "the trial court ordered Huntington to deposit $139,851.82 with the Franklin County Clerk of Courts until the court could resolve who the money belonged to",
+      "computed": null
+     }
+    ],
+    "droppedFigures": 0,
+    "basis": "competing"
+   },
+   {
+    "label": "Second State Auto Insurance Check / Creditor's Bill ($40,440.07)",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": [
+     40440.07,
+     40440.07
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": 40440.07,
+    "kind": "claim",
+    "claimType": "other",
+    "strength": "favorable",
+    "figures": [
+     {
+      "label": "second State Auto insurance check",
+      "value": 40440.07,
+      "disputed": false,
+      "quote": "a check in the amount of $40,440.07 issued by State Auto Insurance as a result of the fire",
+      "computed": null
+     }
+    ],
+    "droppedFigures": 0,
+    "basis": "itemized"
+   },
+   {
+    "label": "Limited's Breach of Contract Claim (Failure to Disburse Rehab Funds)",
+    "probabilityRange": [
+     0.05,
+     0.2
+    ],
+    "damagesRange": [
+     -365000,
+     0
+    ],
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": -365000,
+    "kind": "claim",
+    "claimType": "lender_liability_claim",
+    "strength": "weak",
+    "figures": [
+     {
+      "label": "undisbursed rehabilitation loan proceeds claimed as damages",
+      "value": 365000,
+      "disputed": true,
+      "quote": "approximately $365,000 remained available to Limited for the rehabilitation of the Allegheny shopping center",
+      "computed": null
+     }
+    ],
+    "droppedFigures": 0,
+    "basis": "itemized"
+   },
+   {
+    "label": "Limited's Fraud Claim",
+    "probabilityRange": [
+     0.05,
+     0.2
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "lender_liability_claim",
+    "strength": "weak",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null
+   },
+   {
+    "label": "Attorney's Fees and Accrued Interest/Late Charges",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "attorney_fees",
+    "strength": "favorable",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null
+   },
+   {
+    "label": "Receivership Appointments (Both Properties)",
+    "probabilityRange": [
+     0.95,
+     0.99
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "conceded",
+    "supportedCeiling": null,
+    "kind": "defense",
+    "claimType": "receivership_dispute",
+    "strength": "conceded",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null
+   }
+  ],
+  "citationCoverage": {
+   "count": 32,
+   "tier": "strong"
+  }
+ },
+ "error": null,
+ "outcome": {
+  "amount": 1374413.88,
+  "amountIsTheRequestedAmount": false,
+  "date": "2022-10-13",
+  "description": "After a January 2017 bench trial the court entered judgment for Huntington in all four actions, rejected the borrower's claims, held the cognovit judgment could not be collaterally attacked and that Huntington was entitled to recover the full amount of the cognovit note, $1,374,413.88 (per diem $97.69733), and later awarded Huntington $928,593.73 in attorney fees and expenses. The Tenth District affirmed.",
+  "attorneysFeesAtTrial": 928593.73,
+  "attorneysFeesOnAppeal": null,
+  "finalAmount": 1374413.88,
+  "finalNote": "Affirmed in full."
+ },
+ "source": {
+  "caseName": "Limited Investment Group Corp. v. Huntington National Bank (consolidated with Franklin County Treasurer v. Limited Investment Group Corp. and two Huntington National Bank v. Limited Investment Group Corp. actions)",
+  "court": "Court of Appeals of Ohio, Tenth Appellate District (Franklin County)",
+  "docket": "Nos. 21AP-61, 21AP-62, 21AP-63, 21AP-64, 2022-Ohio-3657 (C.P.C. Nos. 10CV-3000, 12CV-1454, 12CV-1602, 12CV-6175)",
+  "decided": "2022-10-13",
+  "url": "https://storage.courtlistener.com/pdf/2022/10/13/ltd._invest._group_corp._v._huntington_natl._bank.pdf",
+  "excerptNote": "documentText is verbatim from paragraphs 2-20 (the loan, the draw dispute, the fire and insurance check, the cognovit judgments, the borrower's suit, the foreclosure, receivership and creditor's-bill actions, and consolidation). Removed: paragraph 1 (which states the appeal is affirmed), footnotes 1 and 2 and their markers, running headers, paragraph 21 onward (the bench-trial findings, the amount the court held due, the fee award, and all appellate analysis). Note: the facts are recited after a bench trial the bank won, so they lean toward the bank's version."
+ }
+}

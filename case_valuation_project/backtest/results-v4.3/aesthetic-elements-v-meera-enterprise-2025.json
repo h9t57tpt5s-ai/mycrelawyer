@@ -1,0 +1,28 @@
+{
+ "id": "aesthetic-elements-v-meera-enterprise-2025",
+ "ranAt": "2026-09-26T03:44:50+00:00",
+ "status": 400,
+ "prediction": null,
+ "error": {
+  "error": "unrecognized-category",
+  "message": "We couldn't confidently tell what kind of commercial real estate dispute this is \u2014 try adding a bit more detail, like the type of dispute (e.g. lease, injury on the property, construction defect, foreclosure) and who the parties are."
+ },
+ "outcome": {
+  "amount": 93329.0,
+  "amountIsTheRequestedAmount": false,
+  "date": "2025-01-09",
+  "description": "After a four-day trial the jury found a valid contract, breach by Meera, and no proven affirmative defenses, and awarded Aesthetic Elements $93,329 in liquidated damages under the service agreement's 20%-of-replacement-cost clause (an unjust-enrichment award was precluded by the contract recovery). JNOV was denied, and the Iowa Court of Appeals affirmed.",
+  "attorneysFeesAtTrial": null,
+  "attorneysFeesOnAppeal": null,
+  "finalAmount": 93329.0,
+  "finalNote": "Affirmed."
+ },
+ "source": {
+  "caseName": "Aesthetic Elements, Inc. v. Meera Enterprise, LLC",
+  "court": "Iowa Court of Appeals, on appeal from the Iowa District Court for Linn County",
+  "docket": "No. 23-1250",
+  "decided": "2025-01-09",
+  "url": "https://storage.courtlistener.com/pdf/2025/01/09/aesthetic_elements_inc._v._meera_enterprises_llc.pdf",
+  "excerptNote": "documentText is verbatim from Part I (Background Facts and Proceedings) through the denial of Meera's summary-judgment motion, plus the trial testimony in footnote 1 about what Meera paid the replacement roofer. Removed: the opening summary, the sentences reporting the special verdicts and the liquidated-damages award, the JNOV ruling, and all appellate analysis (including the lost-profits discussion, which restates the award). The footnote marker was removed. Whitespace and page-number artifacts normalized only."
+ }
+}

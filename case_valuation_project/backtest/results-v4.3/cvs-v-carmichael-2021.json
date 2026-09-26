@@ -1,0 +1,175 @@
+{
+ "id": "cvs-v-carmichael-2021",
+ "ranAt": "2026-09-26T04:33:12+00:00",
+ "status": 200,
+ "prediction": {
+  "model": "claude-sonnet-5",
+  "analysisVersion": "v4.3",
+  "cost": {
+   "totalUsd": 0.1861,
+   "analysisUsd": 0.1795,
+   "analysisUsage": {
+    "input_tokens": 2221,
+    "cache_creation_input_tokens": 7761,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 7761,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 9585,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "output_tokens_details": {
+     "thinking_tokens": 4712
+    }
+   }
+  },
+  "category": "premises-liability",
+  "roleLabel": "Injured Party / Claimant",
+  "damagesRange": [
+   435480,
+   725800
+  ],
+  "bestGuessValue": 489915.00000000006,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": "Carmichael is more likely than not to obtain a plaintiff's verdict given the unusually strong foreseeability record (three prior violent crimes after security removal, corporate admissions on deterrent value) and the weakness of CVS's superior-knowledge and causation defenses on these facts, though a jury will likely assign some percentage of comparative fault to Carmichael for drawing his own weapon, modestly reducing any award. Net expected recovery, discounting for the residual chance of a full defense verdict and for probable comparative-fault reduction, likely falls in the low-to-mid seven figures.",
+  "issues": [
+   {
+    "label": "Negligent Security / Foreseeability of Attack",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "inadequate_security_third_party_crime",
+    "strength": "favorable",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null
+   },
+   {
+    "label": "Causation - Would Security/Lighting Have Prevented the Shooting",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "inadequate_security_third_party_crime",
+    "strength": "favorable",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null
+   },
+   {
+    "label": "CVS's Superior-Knowledge / Private-Relationship Defense (incl. Jury Instruction Appeal)",
+    "probabilityRange": [
+     0.05,
+     0.2
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "defense",
+    "claimType": "dangerous_condition_failure_to_warn",
+    "strength": "weak",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null
+   },
+   {
+    "label": "Comparative Negligence - Carmichael's Own Firearm and Conduct",
+    "probabilityRange": [
+     0.25,
+     0.4
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "defense",
+    "claimType": "other",
+    "strength": "unfavorable",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null
+   },
+   {
+    "label": "Compensatory Damages - Medical Specials and Non-Economic Harm",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": [
+     725800,
+     725800
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": 725800,
+    "kind": "claim",
+    "claimType": "premises_punitive_damages",
+    "strength": "favorable",
+    "figures": [
+     {
+      "label": "Medical bills incurred by Carmichael",
+      "value": 725800,
+      "disputed": false,
+      "quote": "Carmichael also incurred medical bills in the amount of $725,800.",
+      "computed": null
+     }
+    ],
+    "droppedFigures": 0,
+    "basis": "itemized"
+   },
+   {
+    "label": "Potential Punitive Damages",
+    "probabilityRange": [
+     0.45,
+     0.55
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "premises_punitive_damages",
+    "strength": "even",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null
+   }
+  ],
+  "citationCoverage": {
+   "count": 0,
+   "tier": "none"
+  }
+ },
+ "error": null,
+ "outcome": {
+  "amount": 42750000,
+  "amountIsTheRequestedAmount": false,
+  "date": "2023-06-29",
+  "description": "A Fulton County jury returned a total verdict of $45,000,000, found CVS 95% at fault and the claimant 5% at fault (0% to the shooter and to the acquaintance), and awarded an adjusted $42,750,000 against CVS. The trial court denied CVS's motions for new trial and j.n.o.v. The Court of Appeals of Georgia affirmed on November 8, 2021, and the Supreme Court of Georgia, on certiorari, affirmed on June 29, 2023 (316 Ga. 718), holding that, under the jury instructions given, the verdict apportioning no fault to the shooter was not inconsistent. Amount recorded is the adjusted (net of comparative fault) award; no attorney's fees are stated.",
+  "attorneysFeesAtTrial": null,
+  "appellateChange": "affirmed",
+  "finalAmount": 42750000,
+  "finalNote": "Affirmed by the Court of Appeals (2021) and the Supreme Court of Georgia (2023)."
+ },
+ "source": {
+  "caseName": "Georgia CVS Pharmacy, LLC v. James Carmichael",
+  "court": "Court of Appeals of Georgia (Second Division), on appeal from the State Court of Fulton County; affirmed by the Supreme Court of Georgia, Georgia CVS Pharmacy, LLC v. Carmichael, 316 Ga. 718 (2023) (No. S22G0527)",
+  "docket": "A21A0677",
+  "decided": "2021-11-08",
+  "url": "https://efast.gaappeals.gov/download?filingId=1260bd18-1067-424b-9622-9592df19d165",
+  "excerptNote": "Verbatim from the opening paragraph (first two sentences), the trial-record facts, and CVS's arguments as stated in Divisions 1, 1(b) and 2. Removed: every sentence stating the jury's verdict, its fault apportionment or the adjusted damages figure, the standard-of-review passage, footnotes 1-2 and the sentences they interrupt (including CVS's 'main contention' about the acquaintance, which straddles a footnote), the licensee and verdict-form arguments, and all appellate analysis and holdings."
+ }
+}

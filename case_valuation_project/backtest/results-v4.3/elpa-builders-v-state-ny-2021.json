@@ -1,0 +1,132 @@
+{
+ "id": "elpa-builders-v-state-ny-2021",
+ "ranAt": "2026-09-26T04:21:30+00:00",
+ "status": 200,
+ "prediction": {
+  "model": "claude-sonnet-5",
+  "analysisVersion": "v4.3",
+  "cost": {
+   "totalUsd": 0.1028,
+   "analysisUsd": 0.0996,
+   "analysisUsage": {
+    "input_tokens": 856,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 8455,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 6299,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "output_tokens_details": {
+     "thinking_tokens": 2284
+    }
+   }
+  },
+  "category": "eminent-domain",
+  "roleLabel": "Property Owner",
+  "damagesRange": [
+   287337,
+   2000000
+  ],
+  "bestGuessValue": 1940000,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": "Liability for the taking is undisputed; the trial will turn entirely on valuation. Given the frontage-heavy nature of the strips taken and typical Court of Claims outcomes for partial commercial takings without dramatic severance damage, an award meaningfully above the $302,460 advance payment but well short of the $2,000,000 demand is most likely, with the EDPL 304(H) clawback risk remaining low but not negligible.",
+  "issues": [
+   {
+    "label": "Just Compensation - Value of Taken Strips and Severance Damages",
+    "probabilityRange": [
+     0.95,
+     0.99
+    ],
+    "damagesRange": [
+     302460,
+     2000000
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "conceded",
+    "supportedCeiling": 2000000,
+    "kind": "claim",
+    "claimType": "just_compensation_valuation",
+    "strength": "conceded",
+    "figures": [
+     {
+      "label": "Advance payment under EDPL 304 (State's own valuation floor)",
+      "value": 302460,
+      "disputed": false,
+      "quote": "the claimant accepted an advance payment in the sum of $302,460 from the State for the partial taking pursuant to an advance payment agreement",
+      "computed": null
+     },
+     {
+      "label": "Claimant's demand for just compensation",
+      "value": 2000000,
+      "disputed": true,
+      "quote": "the claimant commenced this claim, seeking $2 million in damages from the State as just compensation for the taking",
+      "computed": null
+     }
+    ],
+    "droppedFigures": 0,
+    "basis": "competing"
+   },
+   {
+    "label": "EDPL 304(H) Advance Payment Clawback Risk",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "defense",
+    "claimType": "just_compensation_valuation",
+    "strength": "favorable",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null
+   },
+   {
+    "label": "Ground Lease / Leasehold Apportionment Effect on Owner's Recovery",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "unknown",
+    "supportedCeiling": null,
+    "kind": "defense",
+    "claimType": "just_compensation_valuation",
+    "strength": "favorable",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null
+   }
+  ],
+  "citationCoverage": {
+   "count": 22,
+   "tier": "strong"
+  }
+ },
+ "error": null,
+ "outcome": {
+  "amount": 283920,
+  "amountIsTheRequestedAmount": false,
+  "date": "2021-07-14",
+  "description": "After trial the Court of Claims found just compensation of $283,920 (adopting a before-taking value of $2,510,000 with a minor adjustment, $30,000 severance damages and $26,500 for three trees), below the $302,460 advance payment, and entered judgment for the State for the $18,540 difference under EDPL 304(H). The Second Department affirmed on July 14, 2021. Amount used is the compensation found for the taking (the owner's net recovery beyond the advance was negative).",
+  "attorneysFeesAtTrial": null,
+  "attorneysFeesOnAppeal": null,
+  "appellateChange": "affirmed",
+  "finalAmount": 283920,
+  "finalNote": "Affirmed; compensation of $283,920 was below the $302,460 advance, so the owner repays $18,540."
+ },
+ "source": {
+  "caseName": "Elpa Builders, Inc. v. State of New York",
+  "court": "Supreme Court of the State of New York, Appellate Division, Second Department, on appeal from the Court of Claims",
+  "docket": "2020-01684; 2021 NY Slip Op 04343",
+  "decided": "2021-07-14",
+  "url": "https://storage.courtlistener.com/html/2021/07/14/elpa_bldrs._inc._v._state_of_new_york.html",
+  "excerptNote": "Verbatim from the facts portion of the decision (property, Taco Bell ground lease, the 2015 taking, the advance payment agreement, and the $2 million claim). Removed: the decretal paragraphs, the Court of Claims' finding and the judgment in the State's favor, and all analysis (including the adopted before-taking value, severance and tree awards). A page marker ([*2]) was removed. The decision describes neither side's appraisal figures, so the input has only the advance payment and the claimed amount. Official reporter copy: 2021 NY Slip Op 04343."
+ }
+}

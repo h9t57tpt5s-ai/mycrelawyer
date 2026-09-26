@@ -1,0 +1,58 @@
+{
+ "id": "walmart-v-leverette-2024",
+ "ranAt": "2026-09-26T04:38:59+00:00",
+ "status": 200,
+ "prediction": {
+  "model": "claude-sonnet-5",
+  "analysisVersion": "v4.3",
+  "cost": {
+   "totalUsd": 0.0589,
+   "analysisUsd": 0.0489,
+   "analysisUsage": {
+    "input_tokens": 4747,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 7761,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 2158,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "output_tokens_details": {
+     "thinking_tokens": 1984
+    }
+   }
+  },
+  "category": "premises-liability",
+  "roleLabel": "Injured Party / Claimant",
+  "damagesRange": null,
+  "bestGuessValue": null,
+  "whatIsNeededForEstimate": "Add specific dollar figures for this dispute -- at minimum, the amounts actually in controversy -- so a damages range can be computed.",
+  "likelyOutcome": "",
+  "issues": [],
+  "citationCoverage": {
+   "count": 0,
+   "tier": "none"
+  }
+ },
+ "error": null,
+ "outcome": {
+  "amount": 1000000,
+  "amountIsTheRequestedAmount": false,
+  "date": "2024-05-10",
+  "description": "The jury, given a nominal-damages option at Walmart's request, awarded the claimant $1,000,000 in nominal damages and nothing for future medical expenses or pain and suffering; the claimant had asked for $5,596,168. The trial court entered judgment on the verdict and denied Walmart's motion for new trial arguing the nominal award was excessive as a matter of law. The Court of Appeals of Georgia affirmed on May 10, 2024. No attorney's fees.",
+  "attorneysFeesAtTrial": null,
+  "appellateChange": "affirmed",
+  "finalAmount": 1000000,
+  "finalNote": "Affirmed."
+ },
+ "source": {
+  "caseName": "Walmart Stores East, LP v. Bettie Leverette",
+  "court": "Court of Appeals of Georgia (Fourth Division), on appeal from the Georgia trial court case no. 18C06082 (the opinion does not name the trial court)",
+  "docket": "A24A0115",
+  "decided": "2024-05-10",
+  "url": "https://efast.gaappeals.gov/download?filingId=7f690487-1379-4cfd-a92b-cc3bd5e95c36",
+  "excerptNote": "Verbatim from 'The Incident', 'Leverette's Medical History Following the Incident' and 'The Lawsuit and Trial' sections, through the parties' closing arguments, the nominal-damages jury charge and the verdict-form request. Removed: the opening summary paragraph (states the verdict and disposition), the lead-in clause 'Viewed in the light most favorable to the jury's verdict' sentence, two sentences interrupted by footnotes 1 and 2 (the original complaint's claims and one sentence of the defense neurologist's cervical-MRI testimony), the footnotes, the verdict, the motion for new trial and the trial court's order, and all appellate analysis and holdings."
+ }
+}

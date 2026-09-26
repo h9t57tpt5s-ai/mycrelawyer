@@ -1,0 +1,238 @@
+{
+ "id": "jack-v-eldorado-casino-2019",
+ "ranAt": "2026-09-26T04:35:27+00:00",
+ "status": 200,
+ "prediction": {
+  "model": "claude-sonnet-5",
+  "analysisVersion": "v4.3",
+  "cost": {
+   "totalUsd": 0.1988,
+   "analysisUsd": 0.1885,
+   "analysisUsage": {
+    "input_tokens": 5046,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 7761,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 11403,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "output_tokens_details": {
+     "thinking_tokens": 6038
+    }
+   }
+  },
+  "category": "premises-liability",
+  "roleLabel": "Injured Party / Claimant",
+  "damagesRange": [
+   160603.2,
+   756162
+  ],
+  "bestGuessValue": 521497.35000000003,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": "Jack is well positioned to prevail on liability given Ramone's admitted protocol and duty, the uncorroborated nature of the sole third-party-fault defense, and the unexplained gap in surveillance footage; the collateral source ruling already secures full medical billing evidence for the jury. The real variable is future earning capacity, where the defense's own medical experts substantially undercut its vocational expert's zero-loss opinion, making a significant partial-to-total future wage loss award more likely than not, layered on top of an essentially undisputed ~23-month past wage loss and an unquantified but likely substantial general damages award for a permanent two-level fusion.",
+  "issues": [
+   {
+    "label": "Vicarious Liability for Server's Negligence / Third-Party Fault Defense",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "other",
+    "strength": "favorable",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null
+   },
+   {
+    "label": "Comparative/Third-Party Fault Defense (Unknown Patron)",
+    "probabilityRange": [
+     0.05,
+     0.2
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "defense",
+    "claimType": "other",
+    "strength": "weak",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null
+   },
+   {
+    "label": "Collateral Source Rule / Medical Expense Evidentiary Ruling",
+    "probabilityRange": [
+     0.95,
+     0.99
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "conceded",
+    "supportedCeiling": null,
+    "kind": "defense",
+    "claimType": "other",
+    "strength": "conceded",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null
+   },
+   {
+    "label": "Past Lost Wages",
+    "probabilityRange": [
+     0.8,
+     0.9
+    ],
+    "damagesRange": [
+     63360,
+     63360
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": 63360,
+    "kind": "claim",
+    "claimType": "other",
+    "strength": "strong",
+    "figures": [
+     {
+      "label": "Past lost salary, Oct. 2015 to trial (Sept. 2017)",
+      "value": 63360,
+      "disputed": false,
+      "quote": "She earned a yearly salary of approximately $33,000 and was a single mother of three.",
+      "computed": "33000 x 1.92"
+     }
+    ],
+    "droppedFigures": 0,
+    "basis": "itemized"
+   },
+   {
+    "label": "Future Loss of Earning Capacity",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": [
+     183192,
+     692802
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": 692802,
+    "kind": "claim",
+    "claimType": "other",
+    "strength": "favorable",
+    "figures": [
+     {
+      "label": "Theriot: no return to work, base $39,766 (with degree)",
+      "value": 692802,
+      "disputed": true,
+      "quote": "her future lost earnings would be $692,802",
+      "computed": null
+     },
+     {
+      "label": "Theriot: part-time return, base $39,766",
+      "value": 496945,
+      "disputed": true,
+      "quote": "Jack would sustain a future loss of earnings totaling $496,945 if she were able to return to work part time",
+      "computed": null
+     },
+     {
+      "label": "Theriot: full-time return, base $39,766",
+      "value": 301069,
+      "disputed": true,
+      "quote": "assuming Jack could return to work full time making $22,485 per year, her future lost earnings would be $301,069",
+      "computed": null
+     },
+     {
+      "label": "Theriot: no return to work, base $33,000 (actual salary)",
+      "value": 574925,
+      "disputed": true,
+      "quote": "Jack's future lost wages would be: $574,925 if she did not return to work",
+      "computed": null
+     },
+     {
+      "label": "Theriot: part-time return, base $33,000",
+      "value": 379067,
+      "disputed": true,
+      "quote": "$379,067 if she returned part time making $11,242",
+      "computed": null
+     },
+     {
+      "label": "Theriot: full-time return, base $33,000",
+      "value": 183192,
+      "disputed": true,
+      "quote": "$183,192 if she returned full time earning $22,485",
+      "computed": null
+     }
+    ],
+    "droppedFigures": 1,
+    "basis": "competing"
+   },
+   {
+    "label": "General Damages (Pain, Suffering, Permanent Disability)",
+    "probabilityRange": [
+     0.8,
+     0.9
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "other",
+    "strength": "strong",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null
+   },
+   {
+    "label": "Failure to Mitigate Damages",
+    "probabilityRange": [
+     0.25,
+     0.4
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "defense",
+    "claimType": "other",
+    "strength": "unfavorable",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null
+   }
+  ],
+  "citationCoverage": {
+   "count": 0,
+   "tier": "none"
+  }
+ },
+ "error": null,
+ "outcome": {
+  "amount": 1429928.7,
+  "amountIsTheRequestedAmount": false,
+  "date": "2019-01-16",
+  "description": "A unanimous jury assessed 100% of the fault to the casino's server (none to the unknown patron) and awarded $237,124.79 past medical, $577,698 future medical, $51,646 past lost wages, $317,460 future lost wages, $235,000 in general damages across pain, mental anguish and loss of enjoyment categories, and $1,000 scarring. The trial court entered judgment for $1,429,928.70 (the appellate court notes the items actually sum to $1,429,928.79) and denied JNOV, including the request to reduce past medicals by insurer write-offs. The Second Circuit affirmed on January 16, 2019. No attorney's fees.",
+  "attorneysFeesAtTrial": null,
+  "appellateChange": "affirmed",
+  "finalAmount": 1429928.7,
+  "finalNote": "Affirmed."
+ },
+ "source": {
+  "caseName": "Yasheka Jack v. Eldorado Casino Shreveport Joint Venture, L.L.C., Eldorado Shreveport #1, L.L.C. and Eldorado Shreveport #2, L.L.C.",
+  "court": "Louisiana Court of Appeal, Second Circuit, on appeal from the First Judicial District Court, Caddo Parish (No. 580048)",
+  "docket": "52,454-CA",
+  "decided": "2019-01-16",
+  "url": "https://www.la2nd.org/wp-content/uploads/2022/09/52454ca.pdf",
+  "excerptNote": "Verbatim from Facts and Procedural History and the 'Overview of relevant testimony' subsections on fault and on future lost wages (both sides' lay, medical, vocational and economic witnesses), trimmed for length to selected paragraphs. Removed: the opening paragraph (states the disposition), the jury's findings and itemized award, the judgment total and its footnote, the JNOV ruling, the statements of assignments of error, and every Analysis subsection and holding."
+ }
+}

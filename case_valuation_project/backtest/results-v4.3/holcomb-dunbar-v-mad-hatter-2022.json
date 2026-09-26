@@ -1,0 +1,187 @@
+{
+ "id": "holcomb-dunbar-v-mad-hatter-2022",
+ "ranAt": "2026-09-26T05:07:01+00:00",
+ "status": 200,
+ "prediction": {
+  "model": "claude-sonnet-5",
+  "analysisVersion": "v4.3",
+  "cost": {
+   "totalUsd": 0.199,
+   "analysisUsd": 0.1868,
+   "analysisUsage": {
+    "input_tokens": 3205,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 9277,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 11628,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "output_tokens_details": {
+     "thinking_tokens": 5904
+    }
+   }
+  },
+  "category": "lease-disputes",
+  "roleLabel": "Landlord",
+  "damagesRange": [
+   15600,
+   130000
+  ],
+  "bestGuessValue": 81575,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": "Mad Hatter is likely to recover the roughly $19,500 in pre-notice, undisputed unpaid rent essentially as a matter of law, but its bid for the full $130,000 in accelerated rent through December 2018 faces a real and unresolved election-of-remedies defense (did seeking possession terminate the lease?) plus a genuine fact dispute over whether Mad Hatter made reasonable efforts to mitigate by re-letting. Expect partial summary judgment for the landlord on the arrears, denial of full summary judgment on the accelerated component, and a counterclaim that survives to trial but is unlikely to produce tenant damages given the absence of any pled figure and weak causal link to the vacancy.",
+  "issues": [
+   {
+    "label": "Pre-Notice Unpaid Rent (May-July 2017)",
+    "probabilityRange": [
+     0.8,
+     0.9
+    ],
+    "damagesRange": [
+     19500,
+     19500
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": 19500,
+    "kind": "claim",
+    "claimType": "unpaid_rent",
+    "strength": "strong",
+    "figures": [
+     {
+      "label": "Past-due rent demanded in three-day notice",
+      "value": 19500,
+      "disputed": false,
+      "quote": "did not pay its past due rent of $19,500 and related fees in three days",
+      "computed": null
+     }
+    ],
+    "droppedFigures": 0,
+    "basis": "itemized"
+   },
+   {
+    "label": "Accelerated Rent, August 2017-December 2018",
+    "probabilityRange": [
+     0.45,
+     0.55
+    ],
+    "damagesRange": [
+     0,
+     130000
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": 130000,
+    "kind": "claim",
+    "claimType": "accelerated_rent",
+    "strength": "even",
+    "figures": [
+     {
+      "label": "20 months rent claimed in MSJ at $6,500/month",
+      "value": 130000,
+      "disputed": true,
+      "quote": "Mad Hatter claimed twenty months of rent, from May 2017 to December 2018 at $6,500 a month, plus late fees",
+      "computed": "6500 x 20"
+     }
+    ],
+    "droppedFigures": 0,
+    "basis": "itemized"
+   },
+   {
+    "label": "Election-of-Remedies / Termination-Bar Defense",
+    "probabilityRange": [
+     0.45,
+     0.55
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "defense",
+    "claimType": "other",
+    "strength": "even",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null
+   },
+   {
+    "label": "Landlord's Duty to Mitigate / Reasonable Reletting Efforts",
+    "probabilityRange": [
+     0.45,
+     0.55
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "defense",
+    "claimType": "other",
+    "strength": "even",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null
+   },
+   {
+    "label": "Tenant's Counterclaim: Breach of Lease / Good Faith and Fair Dealing",
+    "probabilityRange": [
+     0.05,
+     0.2
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "quiet_enjoyment_breach",
+    "strength": "weak",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null
+   },
+   {
+    "label": "Ejectment / Possession",
+    "probabilityRange": [
+     0.95,
+     0.99
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "conceded",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "other",
+    "strength": "conceded",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null
+   }
+  ],
+  "citationCoverage": {
+   "count": 39,
+   "tier": "strong"
+  }
+ },
+ "error": null,
+ "outcome": {
+  "amount": 133900,
+  "amountIsTheRequestedAmount": true,
+  "date": "2022-03-17",
+  "description": "The trial court granted the landlord summary judgment for all twenty months of unpaid rent (May 2017 through December 2018 at $6,500 a month) plus late fees, $133,900 in total, the full amount claimed in the motion; the tenant's remaining counterclaims went to a jury, which found against it. The Mississippi Court of Appeals affirmed (May 18, 2021) and the Supreme Court of Mississippi, on certiorari, affirmed on March 17, 2022, holding the default letters did not terminate the lease, the election-of-remedies and mitigation arguments were waived, and the alleged breaches were immaterial.",
+  "attorneysFeesAtTrial": null,
+  "attorneysFeesOnAppeal": null,
+  "appellateChange": "affirmed",
+  "finalAmount": 133900,
+  "finalNote": "Affirmed by the Court of Appeals and, on certiorari, by the Supreme Court of Mississippi."
+ },
+ "source": {
+  "caseName": "Holcomb, Dunbar, Watts, Best, Masters & Golmon, P.A. f/k/a Holcomb Dunbar, P.A. v. 400 South Lamar Oxford Mad Hatter Partners, LLC and Blake Tartt III",
+  "court": "Supreme Court of Mississippi (en banc, on writ of certiorari to the Court of Appeals), on appeal from the Lafayette County Circuit Court",
+  "docket": "No. 2019-CT-01702-SCT",
+  "decided": "2022-03-17",
+  "url": "https://courts.ms.gov/images/Opinions/CO160186.pdf",
+  "excerptNote": "Verbatim from paragraphs 1, 2 (first two sentences only), 3-5, 6 (first two sentences only), the tenant's arguments and the quoted lease paragraph 21 in paragraphs 9-10, and the tenant's material-breach allegations and related lease facts in paragraphs 16-17 and 19-20. Page numbers removed. Removed: every sentence stating the summary-judgment ruling or the $133,900 award, the jury verdict on the counterclaims, the Court of Appeals' and Supreme Court's holdings, the mitigation-waiver discussion, and the motion-to-quash and motion-to-amend rulings."
+ }
+}

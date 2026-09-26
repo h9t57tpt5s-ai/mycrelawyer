@@ -1,0 +1,193 @@
+{
+ "id": "cle-venture-fund-v-coventry-2025",
+ "ranAt": "2026-09-26T03:54:47+00:00",
+ "status": 200,
+ "prediction": {
+  "model": "claude-sonnet-5",
+  "analysisVersion": "v4.3",
+  "cost": {
+   "totalUsd": 0.2529,
+   "analysisUsd": 0.2409,
+   "analysisUsage": {
+    "input_tokens": 3850,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 9103,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 15109,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "output_tokens_details": {
+     "thinking_tokens": 9992
+    }
+   }
+  },
+  "category": "lending-foreclosure",
+  "roleLabel": "Lender",
+  "damagesRange": [
+   -812000,
+   2446775.94
+  ],
+  "bestGuessValue": 1830622.6618,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": "Liability is locked in for CLE Venture Fund on both the note and the guaranty; the only open question is how much of a credit the borrowers get against the debt for the property's 2018 value. Because the borrowers' own valuation expert ignored a material HUD rent restriction while the lender's expert accounted for it and used a more defensible methodology for an abandoned asset, the court is more likely than not to credit a lower valuation, pushing the ultimate deficiency toward the high end of the range \u2014 likely close to (or arguably exceeding, if the court is willing to award beyond the pled demand) the originally requested $2,446,775.94, subject to appellate noise over the Exhibit C/expert-authorship rulings and to Crigler's actual collectibility.",
+  "issues": [
+   {
+    "label": "Breach of Note & Guaranty \u2014 Core Deficiency Claim",
+    "probabilityRange": [
+     0.95,
+     0.99
+    ],
+    "damagesRange": [
+     0,
+     2446775.94
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "conceded",
+    "supportedCeiling": 2446775.94,
+    "kind": "claim",
+    "claimType": "foreclosure_deficiency_judgment",
+    "strength": "conceded",
+    "figures": [
+     {
+      "label": "Damages requested in complaint (principal, default interest, collection costs, net of 2021 sale proceeds credit)",
+      "value": 2446775.94,
+      "disputed": true,
+      "quote": "requesting $2,446,775.94 in damages, plus suitable attorney fees",
+      "computed": null
+     }
+    ],
+    "droppedFigures": 0,
+    "basis": "itemized"
+   },
+   {
+    "label": "Retrospective Property Valuation Credit (Competing Appraisals)",
+    "probabilityRange": [
+     0.25,
+     0.4
+    ],
+    "damagesRange": [
+     -2030000,
+     -1310000
+    ],
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": -2030000,
+    "kind": "defense",
+    "claimType": "foreclosure_deficiency_judgment",
+    "strength": "unfavorable",
+    "figures": [
+     {
+      "label": "Lender's expert (Vodinelic) retrospective valuation",
+      "value": 1310000,
+      "disputed": true,
+      "quote": "the retrospective value of the Property was $1,310,000",
+      "computed": null
+     },
+     {
+      "label": "Borrowers' expert (Durrah) retrospective valuation",
+      "value": 2030000,
+      "disputed": true,
+      "quote": "Durrah valued the Property at $2,030,000 by using both valuation methods",
+      "computed": null
+     }
+    ],
+    "droppedFigures": 0,
+    "basis": "competing"
+   },
+   {
+    "label": "Rejected Borrower Defenses (Res Judicata / Debt Extinguishment)",
+    "probabilityRange": [
+     0.05,
+     0.2
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "defense",
+    "claimType": "other",
+    "strength": "weak",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null
+   },
+   {
+    "label": "Expert Reliability / Evidentiary Rulings (Exhibit C, Authorship)",
+    "probabilityRange": [
+     0.45,
+     0.55
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "unknown",
+    "supportedCeiling": null,
+    "kind": "defense",
+    "claimType": "other",
+    "strength": "even",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null
+   },
+   {
+    "label": "Guarantor Collectibility (Crigler)",
+    "probabilityRange": [
+     0.95,
+     0.99
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "conceded",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "guaranty_enforcement",
+    "strength": "conceded",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null
+   },
+   {
+    "label": "Attorney's Fees",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "unknown",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "attorney_fees",
+    "strength": "favorable",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null
+   }
+  ],
+  "citationCoverage": {
+   "count": 32,
+   "tier": "strong"
+  }
+ },
+ "error": null,
+ "outcome": {
+  "amount": 1735579.45,
+  "amountIsTheRequestedAmount": false,
+  "date": "2025-07-10",
+  "description": "After a bench trial on value the court adopted the lender's expert's retrospective value of $1,310,000 as of the March 27, 2018 transfer, credited it against the debt, and on June 14, 2024 entered judgment against the borrowers and guarantor, jointly and severally, for $1,735,579.45 plus default-rate interest (the lender later withdrew its fee request). The Eighth District affirmed.",
+  "attorneysFeesAtTrial": null,
+  "attorneysFeesOnAppeal": null,
+  "finalAmount": 1735579.45,
+  "finalNote": "Affirmed."
+ },
+ "source": {
+  "caseName": "CLE Venture Fund, L.P. v. Coventry Partners, L.L.C., et al. (Coventry Courts LLC, Coventry Court LLC and John Crigler)",
+  "court": "Court of Appeals of Ohio, Eighth Appellate District (Cuyahoga County)",
+  "docket": "No. 114383, 2025-Ohio-2451 (C.P. No. CV-21-952010)",
+  "decided": "2025-07-10",
+  "url": "https://www.supremecourt.ohio.gov/rod/docs/pdf/8/2025/2025-Ohio-2451.pdf",
+  "excerptNote": "documentText is verbatim from the Factual and Procedural History: the loan, default, forbearance and deed in lieu, the lender's complaint and demand, the trial court's summary-judgment ruling on liability (which left the property's value at transfer for trial), and the trial testimony of both valuation experts. Removed: the opening summary, the trial court's valuation ruling and scrivener's-error correction, the damages judgment amount, the fee withdrawal, the assignments of error and all appellate analysis."
+ }
+}

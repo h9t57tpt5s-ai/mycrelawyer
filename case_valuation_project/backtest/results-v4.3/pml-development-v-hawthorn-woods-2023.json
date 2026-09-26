@@ -1,0 +1,218 @@
+{
+ "id": "pml-development-v-hawthorn-woods-2023",
+ "ranAt": "2026-09-26T04:28:35+00:00",
+ "status": 200,
+ "prediction": {
+  "model": "claude-sonnet-5",
+  "analysisVersion": "v4.3",
+  "cost": {
+   "totalUsd": 0.1562,
+   "analysisUsd": 0.1476,
+   "analysisUsage": {
+    "input_tokens": 4272,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 8402,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 8820,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "output_tokens_details": {
+     "thinking_tokens": 3738
+    }
+   }
+  },
+  "category": "zoning-land-use",
+  "roleLabel": "Property Owner / Developer",
+  "damagesRange": null,
+  "bestGuessValue": null,
+  "whatIsNeededForEstimate": "A dollar figure for your side's own claims: PML's Affirmative Breach of Contract Claim Against the Village. The other side's claims could be priced from the record but yours could not, so a net figure would show only what you might pay. Add the amounts you are claiming (rent, balance, contract price, invoices) and run it again.",
+  "likelyOutcome": "PML is well-positioned on the underlying 'who breached first' question given two prior mandamus rulings against the Village, which gives real traction to PML's defense that its own tax, drawdown, and Kruger Road defaults were excused by the Village's earlier interference. But the tax count is already adjudicated against PML by partial summary judgment, and the drawdown/Kruger Road counterclaims carry real, quantified numbers ($58,103.25 and $200,000+) that PML must overcome trial by proving the excuse defense and its mitigation argument rather than simply out-litigating an unliquidated claim. Net effect: PML likely retains its core contract claim and avoids the largest exposure, but should expect to absorb something on the tax count and possibly a partial award on the drawdown deficit even if it substantially defeats the Kruger Road claim.",
+  "issues": [
+   {
+    "label": "First-Material-Breach Defense (Village's Changing Demands Excuse PML's Later Defaults)",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "defense",
+    "claimType": "development_agreement_breach",
+    "strength": "favorable",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null
+   },
+   {
+    "label": "PML's Affirmative Breach of Contract Claim Against the Village",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "development_agreement_breach",
+    "strength": "favorable",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null
+   },
+   {
+    "label": "Village's Tax-Payment Counterclaim (Count IV)",
+    "probabilityRange": [
+     0.95,
+     0.99
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "conceded",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "development_agreement_breach",
+    "strength": "conceded",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null
+   },
+   {
+    "label": "Village's Drawdown Account Counterclaim (Count V)",
+    "probabilityRange": [
+     0.45,
+     0.55
+    ],
+    "damagesRange": [
+     -58103.25,
+     0
+    ],
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": -58103.25,
+    "kind": "claim",
+    "claimType": "development_agreement_breach",
+    "strength": "even",
+    "figures": [
+     {
+      "label": "drawdown account deficit",
+      "value": 58103.25,
+      "disputed": true,
+      "quote": "the drawdown account, which had a $58,103.25 deficit",
+      "computed": null
+     }
+    ],
+    "droppedFigures": 0,
+    "basis": "itemized"
+   },
+   {
+    "label": "Village's Kruger Road Reconstruction Counterclaim",
+    "probabilityRange": [
+     0.45,
+     0.55
+    ],
+    "damagesRange": [
+     -200000,
+     0
+    ],
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": -200000,
+    "kind": "claim",
+    "claimType": "development_agreement_breach",
+    "strength": "even",
+    "figures": [
+     {
+      "label": "Kruger Road damages claimed by Village",
+      "value": 200000,
+      "disputed": true,
+      "quote": "the Village suffered damages in excess of $200,000 caused by PML\u2019s failure to restore Kruger Road",
+      "computed": null
+     }
+    ],
+    "droppedFigures": 0,
+    "basis": "itemized"
+   },
+   {
+    "label": "Village's Specific-Performance Demand for Conveyance",
+    "probabilityRange": [
+     0.45,
+     0.55
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "development_agreement_breach",
+    "strength": "even",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null
+   },
+   {
+    "label": "Failure to Mitigate Damages (Village's Rejection of Tendered Conveyance)",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "defense",
+    "claimType": "development_agreement_breach",
+    "strength": "favorable",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null
+   },
+   {
+    "label": "Village's Attorney Fees Request",
+    "probabilityRange": [
+     0.45,
+     0.55
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "other",
+    "strength": "even",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null
+   }
+  ],
+  "citationCoverage": {
+   "count": 20,
+   "tier": "strong"
+  }
+ },
+ "error": null,
+ "outcome": {
+  "amount": 5349676.7,
+  "amountIsTheRequestedAmount": false,
+  "date": "2023-06-15",
+  "description": "After the November 2020 bench trial the Lake County circuit court found the Village materially breached first and awarded PML $268,223.70 in lost revenue, $4,898,161 in added site-preparation costs and $183,292 in plan-revision costs (total $5,349,676.70), plus $1,571,795.60 in attorney fees and $2,654.74 costs, and entered judgment for PML on the Village's counterclaims. The appellate court vacated all damages (2022). The Illinois Supreme Court on June 15, 2023 reversed the appellate court, affirmed judgment for PML on its breach claim, but reversed on the Village's counterclaims and remanded for the circuit court to calculate the Village's damages, offset them, reconsider fees, and address unresolved challenges to PML's damages.",
+  "attorneysFeesAtTrial": 1571795.6,
+  "attorneysFeesOnAppeal": null,
+  "appellateChange": "reversed",
+  "finalAmount": null,
+  "finalNote": "Liability for PML affirmed, but remanded to compute the Village's offsetting counterclaim damages, revisit fees and the unaddressed challenges to PML's damages; no final net figure."
+ },
+ "source": {
+  "caseName": "PML Development LLC v. The Village of Hawthorn Woods",
+  "court": "Supreme Court of Illinois, on appeal from the Appellate Court, Second District (2022 IL App (2d) 200779), on appeal from the Circuit Court of Lake County",
+  "docket": "No. 128770; 2023 IL 128770 (circuit court No. 15-CH-848)",
+  "decided": "2023-06-15",
+  "url": "https://storage.courtlistener.com/pdf/2023/06/15/pml_development_llc_v._village_of_hawthorn_woods.pdf",
+  "excerptNote": "Verbatim from the Background, paras. 4-24 (omitting paras. 25-26, the court's colloquy, and all of para. 27 except its first sentence reporting the pretrial partial-summary-judgment ruling) and paras. 28-31 (pretrial and posttrial positions). Removed: paras. 1-2 (procedural history and dispositions), footnote 1 and its marker, para. 32 onward (reopened proofs, the circuit court's findings, its damages and fee awards, the appellate history) and all analysis."
+ }
+}

@@ -1,0 +1,197 @@
+{
+ "id": "windsor-tower-v-speedy-maintenance-2024",
+ "ranAt": "2026-09-26T03:47:25+00:00",
+ "status": 200,
+ "prediction": {
+  "model": "claude-sonnet-5",
+  "analysisVersion": "v4.3",
+  "cost": {
+   "totalUsd": 0.2297,
+   "analysisUsd": 0.2143,
+   "analysisUsage": {
+    "input_tokens": 5112,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 8818,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 13091,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "output_tokens_details": {
+     "thinking_tokens": 7787
+    }
+   }
+  },
+  "category": "construction-defect",
+  "roleLabel": "Owner / Developer",
+  "damagesRange": [
+   14370,
+   48260
+  ],
+  "bestGuessValue": 22939.500000000004,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": "Windsor is the likely net winner: Speedy's $66,000 contract/lien claims are weak given documented ~20% completion, missed deadlines, and work that had to be entirely redone, while Windsor's counterclaim for the $44,300 it paid for worthless work is well supported. The slander-of-title claim adds real but uncertain upside limited mainly to the $3,960 bonding cost absent stronger proof tying the specific interest-rate increase to the lien.",
+  "issues": [
+   {
+    "label": "Windsor's Overpayment / Breach Counterclaim",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": [
+     44300,
+     44300
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": 44300,
+    "kind": "claim",
+    "claimType": "contractor_breach_negligence",
+    "strength": "favorable",
+    "figures": [
+     {
+      "label": "Amount paid to Speedy for incomplete/defective fifth-floor work",
+      "value": 44300,
+      "disputed": false,
+      "quote": "The total amount paid to Speedy by Windsor for this project was $44,300.",
+      "computed": null
+     }
+    ],
+    "droppedFigures": 0,
+    "basis": "itemized"
+   },
+   {
+    "label": "Speedy's Breach of Contract / Payment Claim",
+    "probabilityRange": [
+     0.05,
+     0.2
+    ],
+    "damagesRange": [
+     -66000,
+     -66000
+    ],
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": -66000,
+    "kind": "claim",
+    "claimType": "other",
+    "strength": "weak",
+    "figures": [
+     {
+      "label": "Speedy's claimed contract balance / lien amount",
+      "value": 66000,
+      "disputed": true,
+      "quote": "Speedy filed a mechanics lien on the property for $66,000, which was recorded with the Montgomery County Recorder.",
+      "computed": null
+     }
+    ],
+    "droppedFigures": 0,
+    "basis": "competing"
+   },
+   {
+    "label": "Mechanics Lien Foreclosure",
+    "probabilityRange": [
+     0.05,
+     0.2
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "other",
+    "strength": "weak",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null
+   },
+   {
+    "label": "Speedy's Unjust Enrichment Claim",
+    "probabilityRange": [
+     0.05,
+     0.2
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "other",
+    "strength": "weak",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null
+   },
+   {
+    "label": "Slander of Title / Wrongful Lien Damages",
+    "probabilityRange": [
+     0.25,
+     0.4
+    ],
+    "damagesRange": [
+     3960,
+     3960
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": 3960,
+    "kind": "claim",
+    "claimType": "other",
+    "strength": "unfavorable",
+    "figures": [
+     {
+      "label": "Bond premium payments to discharge mechanics lien",
+      "value": 3960,
+      "disputed": false,
+      "quote": "Windsor made two payments for a total of $3,960 to pay for the bond.",
+      "computed": null
+     }
+    ],
+    "droppedFigures": 0,
+    "basis": "itemized"
+   },
+   {
+    "label": "No Signed Written Contract / Scope Ambiguity",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "defense",
+    "claimType": "other",
+    "strength": "favorable",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null
+   }
+  ],
+  "citationCoverage": {
+   "count": 29,
+   "tier": "strong"
+  }
+ },
+ "error": null,
+ "outcome": {
+  "amount": 48260.0,
+  "amountIsTheRequestedAmount": false,
+  "date": "2024-12-13",
+  "description": "After a two-day bench trial the court found for Windsor, awarded it $44,300 (the amount it had paid Speedy) plus prejudgment and postjudgment interest on its breach-of-contract counterclaim and $3,960 on its slander-of-title counterclaim (bond premiums), a total of $48,260, voided Speedy's $66,000 mechanics lien and denied Speedy's claims. The Second District affirmed.",
+  "attorneysFeesAtTrial": null,
+  "attorneysFeesOnAppeal": null,
+  "finalAmount": 48260.0,
+  "finalNote": "Affirmed."
+ },
+ "source": {
+  "caseName": "Speedy Maintenance Service, L.L.C. v. Windsor Tower, L.L.C., et al.",
+  "court": "Court of Appeals of Ohio, Second Appellate District (Montgomery County)",
+  "docket": "C.A. No. 29996, 2024-Ohio-5841 (Trial Court Case No. 2021 CV 01747)",
+  "decided": "2024-12-13",
+  "url": "https://www.supremecourt.ohio.gov/rod/docs/pdf/2/2024/2024-Ohio-5841.pdf",
+  "excerptNote": "documentText is verbatim from Part I (Procedural History and Facts): the pleadings and lien bond (paragraphs 2-5) and selected bench-trial testimony of both sides (paragraphs 6-8, 11, 15-16, 19-21, 27-31, 34, 39-41, 44), trimmed for length. Removed: paragraph 1 (which states the award), paragraph 45 (the trial court's judgment and amounts), and all appellate analysis; other testimony paragraphs were omitted only for length. Whitespace and page-number artifacts normalized only."
+ }
+}

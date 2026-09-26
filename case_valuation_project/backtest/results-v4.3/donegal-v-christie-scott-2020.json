@@ -1,0 +1,275 @@
+{
+ "id": "donegal-v-christie-scott-2020",
+ "ranAt": "2026-09-26T04:55:58+00:00",
+ "status": 200,
+ "prediction": {
+  "model": "claude-sonnet-5",
+  "analysisVersion": "v4.3",
+  "cost": {
+   "totalUsd": 0.2671,
+   "analysisUsd": 0.2503,
+   "analysisUsage": {
+    "input_tokens": 5331,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 9277,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 15434,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "output_tokens_details": {
+     "thinking_tokens": 9247
+    }
+   }
+  },
+  "category": "lease-disputes",
+  "roleLabel": "Tenant",
+  "damagesRange": [
+   3013337.41,
+   5000000
+  ],
+  "bestGuessValue": 3445212.0598750003,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": "Christie-Scott is likely to prevail on conversion liability and recover a meaningful compensatory award built primarily from the furniture/fixtures inventory (Ex. 24, ~$32,645) and a discounted portion of the retail-product inventory (Ex. 5, ~$113,917), plus a punitive damages award well below the $5,000,000 requested given proportionality concerns against a modest compensatory base. Donegal's holdover-rent counterclaim is exposed to a strong waiver argument from its own continued acceptance of ordinary rent, and its misrepresentation counterclaim is weak on the merits, so the net outcome should favor Christie-Scott after netting both counterclaims.",
+  "issues": [
+   {
+    "label": "Conversion \u2014 Retail Products",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": [
+     113917.24,
+     113917.24
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": 113917.24,
+    "kind": "claim",
+    "claimType": "other",
+    "strength": "favorable",
+    "figures": [
+     {
+      "label": "Retail product inventory value (Exhibit 5)",
+      "value": 113917.24,
+      "disputed": true,
+      "quote": "The retail value of the 2,719 retail products listed on Exhibit 5 was $113,917.24.",
+      "computed": null
+     }
+    ],
+    "droppedFigures": 0,
+    "basis": "competing"
+   },
+   {
+    "label": "Conversion \u2014 Professional Products",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "other",
+    "strength": "favorable",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null
+   },
+   {
+    "label": "Conversion \u2014 Furniture, Fixtures, Equipment & Records",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": [
+     36645.11,
+     36645.11
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": 36645.11,
+    "kind": "claim",
+    "claimType": "other",
+    "strength": "favorable",
+    "figures": [
+     {
+      "label": "Consultant's estimated market value of remaining furniture/fixtures/equipment (Ex. 24)",
+      "value": 32645.11,
+      "disputed": false,
+      "quote": "The inventory list reflected a total estimated market value of $32,645.11, with an estimated market value of sold items in the amount of $6,623.48.",
+      "computed": null
+     },
+     {
+      "label": "Actual proceeds realized by Donegal from sales",
+      "value": 4000,
+      "disputed": false,
+      "quote": "for a total profit of approximately $4,000",
+      "computed": null
+     }
+    ],
+    "droppedFigures": 1,
+    "basis": "itemized"
+   },
+   {
+    "label": "Punitive Damages (Conversion)",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": [
+     5000000,
+     5000000
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": 5000000,
+    "kind": "claim",
+    "claimType": "other",
+    "strength": "favorable",
+    "figures": [
+     {
+      "label": "Punitive damages requested in complaint",
+      "value": 5000000,
+      "disputed": true,
+      "quote": "plus punitive damages of five million dollars ($5,000,000)",
+      "computed": null
+     }
+    ],
+    "droppedFigures": 0,
+    "basis": "competing"
+   },
+   {
+    "label": "Donegal's Holdover Rent Counterclaim",
+    "probabilityRange": [
+     0.25,
+     0.4
+    ],
+    "damagesRange": [
+     -155000,
+     -9492.47
+    ],
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": -155000,
+    "kind": "claim",
+    "claimType": "holdover_damages",
+    "strength": "unfavorable",
+    "figures": [
+     {
+      "label": "Double-rent demand (June 30, 2017 letter)",
+      "value": 75939.76,
+      "disputed": true,
+      "quote": "a total of $75,939.76",
+      "computed": null
+     },
+     {
+      "label": "Counterclaim Count I pleaded holdover damages",
+      "value": 155000,
+      "disputed": true,
+      "quote": "resulting in damages in excess of $155,000",
+      "computed": null
+     },
+     {
+      "label": "Monthly rent rate under the lease",
+      "value": 9492.47,
+      "disputed": false,
+      "quote": "$9,492.47 per month",
+      "computed": null
+     }
+    ],
+    "droppedFigures": 0,
+    "basis": "competing"
+   },
+   {
+    "label": "Waiver/Estoppel Defense to Holdover Rent",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "defense",
+    "claimType": "holdover_damages",
+    "strength": "favorable",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null
+   },
+   {
+    "label": "Donegal's Misrepresentation Counterclaim",
+    "probabilityRange": [
+     0.05,
+     0.2
+    ],
+    "damagesRange": [
+     -75000,
+     0
+    ],
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": -75000,
+    "kind": "claim",
+    "claimType": "other",
+    "strength": "weak",
+    "figures": [
+     {
+      "label": "Compensatory damages requested",
+      "value": 75000,
+      "disputed": true,
+      "quote": "an amount in excess of $75,000",
+      "computed": null
+     }
+    ],
+    "droppedFigures": 1,
+    "basis": "itemized"
+   },
+   {
+    "label": "Abandoned Wrongful Eviction, Trespass & Tortious Interference Claims",
+    "probabilityRange": [
+     0.95,
+     0.99
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "conceded",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "wrongful_lockout",
+    "strength": "conceded",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null
+   }
+  ],
+  "citationCoverage": {
+   "count": 39,
+   "tier": "strong"
+  }
+ },
+ "error": null,
+ "outcome": {
+  "amount": 96633.96,
+  "amountIsTheRequestedAmount": false,
+  "date": "2020-11-19",
+  "description": "After a four-day bench trial (the tenant having abandoned all counts but conversion), the court found the landlord liable for conversion, valued the converted property at $139,938.87 ($113,917.24 retail products plus $26,021.63 furniture, fixtures and equipment), offset $43,304.91 the tenant owed on the landlord's holdover-rent counterclaim, and awarded the tenant a net $96,633.96 in compensatory damages plus $1,000,000 in punitive damages. The amount recorded is the net compensatory award, excluding punitive damages. The Court of Special Appeals held the lockout was a lawful commercial self-help repossession and constructive conversion failed for lack of a pre-suit demand, reversed the compensatory and punitive awards, and remanded for the circuit court to revise its judgment (the unappealed $43,304.91 counterclaim finding stands).",
+  "attorneysFeesAtTrial": null,
+  "attorneysFeesOnAppeal": null,
+  "appellateChange": "reversed",
+  "finalAmount": -43304.91,
+  "finalNote": "Tenant award reversed; the landlord's $43,304.91 counterclaim stands, so the tenant's net position is a loss of that amount."
+ },
+ "source": {
+  "caseName": "Donegal Associates v. Christie-Scott, LLC",
+  "court": "Court of Special Appeals of Maryland (reported opinion), on appeal from the Circuit Court for Howard County (No. 13-C-17-113337)",
+  "docket": "No. 385, September Term, 2019",
+  "decided": "2020-11-19",
+  "url": "https://www.mdcourts.gov/data/opinions/cosa/2020/0385s19.pdf",
+  "excerptNote": "Verbatim from the Factual and Procedural Background, from its first sentence through Mr. Healy's testimony about permitting Ms. Bosley to operate from the space, plus the first sentence of footnote 4 (the monthly rent) appended at the end. Removed for length: the paragraphs on JLL's December 2016 holdover-rent e-mail, the two trial postponements, JLL's refusal to participate, the stylists' later retrieval of tools, the summary-judgment rulings, Exhibit 13, and the testimony of Ms. Frantz, Mr. Hearn, the 'squatters' witnesses, Ms. Bosley, and Mr. Healy's answers to the court's questions. Also removed: the headnote and the appellant's questions presented; footnotes 1-11 and footnote markers; page numbers; and everything from 'As indicated, counsel for Christie-Scott, in closing argument, abandoned all claims except the conversion claim. The court then made its oral ruling.' onward (the circuit court's findings on the tenancy, the counterclaim amount, lien, conversion, damages and punitive damages, and all appellate analysis and holdings). Paragraph breaks re-inserted at the opinion's own paragraph starts."
+ }
+}

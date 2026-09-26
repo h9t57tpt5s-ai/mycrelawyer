@@ -1,0 +1,27 @@
+{
+ "id": "zenith-global-v-linden-village-2021",
+ "ranAt": "2026-09-26T03:59:08+00:00",
+ "status": 409,
+ "prediction": null,
+ "error": {
+  "error": "valued as 'Tenant', but the client is the 'Contractor / Design Professional'; fix userSide"
+ },
+ "outcome": {
+  "amount": 80000.0,
+  "amountIsTheRequestedAmount": false,
+  "date": "2021-07-06",
+  "description": "After a bench trial the court concluded Linden breached the Development Services Agreement by withholding monthly payments and the $50,000 master-use-permit progress payment and awarded Zenith $80,000 in damages; it found Zenith also breached (notably by suspending debt placement) but that Linden proved no resulting damages, dismissed Linden's counterclaims, and awarded Zenith attorney fees and expenses. The Court of Appeals affirmed.",
+  "attorneysFeesAtTrial": null,
+  "attorneysFeesOnAppeal": null,
+  "finalAmount": 80000.0,
+  "finalNote": "Affirmed (fee amounts not stated)."
+ },
+ "source": {
+  "caseName": "Zenith Global Solutions, Inc., d/b/a Zenith Capital v. Linden Village Assisted Living Community, LLC",
+  "court": "Washington Court of Appeals, Division One (unpublished)",
+  "docket": "No. 81490-7-I",
+  "decided": "2021-07-06",
+  "url": "https://storage.courtlistener.com/pdf/2021/07/06/zenith_global_solutions_inc._resp_v._linden_village_assisted_living.pdf",
+  "excerptNote": "documentText is verbatim from Part I (facts and pleadings) through the owner's answer and counterclaims. Removed: the opening summary, footnote 1 and its marker, running page headers, the paragraph reporting the bench-trial conclusions, damages and fee award, and all appellate analysis. Role note: Zenith is the owner's paid development manager under a Development Services Agreement for an assisted living project, mapped to the Contractor / Design Professional side as the service provider on the project."
+ }
+}

@@ -1,0 +1,218 @@
+{
+ "id": "j-nazzaro-partnership-v-state-ny-2022",
+ "ranAt": "2026-09-26T04:20:14+00:00",
+ "status": 200,
+ "prediction": {
+  "model": "claude-sonnet-5",
+  "analysisVersion": "v4.3",
+  "cost": {
+   "totalUsd": 0.1594,
+   "analysisUsd": 0.1555,
+   "analysisUsage": {
+    "input_tokens": 1306,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 8455,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 9937,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "output_tokens_details": {
+     "thinking_tokens": 3942
+    }
+   }
+  },
+  "category": "eminent-domain",
+  "roleLabel": "Property Owner",
+  "damagesRange": [
+   25909.35,
+   1700000
+  ],
+  "bestGuessValue": 1700000,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": "The court will almost certainly reject both extremes: it will likely discount the claimant's redevelopment-based $1.7M figure heavily for lack of proof that the two-story building was reasonably probable, while also rejecting the State's $56,825 figure as failing to credit the property's actual $225,000/year net lease income and the already-existing, lawful commercial parking use of part of the R-10 parcel. A middle-ground award is likely, probably in the low-to-mid hundreds of thousands of dollars, with the parking-related HBU argument for the R-10 portion being the single most persuasive lever available to the claimant.",
+  "issues": [
+   {
+    "label": "Just Compensation for the Permanent Fee Taking (Before/After Value)",
+    "probabilityRange": [
+     0.95,
+     0.99
+    ],
+    "damagesRange": [
+     27273,
+     3900000
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "conceded",
+    "supportedCeiling": 3900000,
+    "kind": "claim",
+    "claimType": "just_compensation_valuation",
+    "strength": "conceded",
+    "figures": [
+     {
+      "label": "Claimant's appraiser: value after taking",
+      "value": 3900000,
+      "disputed": true,
+      "quote": "and $3.9 million after the taking",
+      "computed": null
+     },
+     {
+      "label": "Claimant's appraiser: resulting damages",
+      "value": 1700000,
+      "disputed": true,
+      "quote": "resulting in damages of $1.7 million",
+      "computed": null
+     },
+     {
+      "label": "State's appraiser: NB portion value before taking",
+      "value": 842712,
+      "disputed": true,
+      "quote": "valued the NB portion at $842,712",
+      "computed": null
+     },
+     {
+      "label": "State's appraiser: R-10 portion value before taking",
+      "value": 30626,
+      "disputed": true,
+      "quote": "and the R-10 portion at $30,626 prior to the taking",
+      "computed": null
+     },
+     {
+      "label": "State's appraiser: NB portion value after taking",
+      "value": 789240,
+      "disputed": true,
+      "quote": "and at $789,240 and $27,273, respectively, after the taking",
+      "computed": null
+     },
+     {
+      "label": "State's appraiser: R-10 portion value after taking",
+      "value": 27273,
+      "disputed": true,
+      "quote": "and at $789,240 and $27,273, respectively, after the taking",
+      "computed": null
+     },
+     {
+      "label": "State's appraiser: total damages",
+      "value": 56825,
+      "disputed": true,
+      "quote": "for total damages of $56,825",
+      "computed": null
+     }
+    ],
+    "droppedFigures": 0,
+    "basis": "competing"
+   },
+   {
+    "label": "Highest and Best Use of R-10 Portion \u2014 Existing Parking vs. Deferred Residential Use",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "just_compensation_valuation",
+    "strength": "favorable",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null
+   },
+   {
+    "label": "Speculative Nature of Proposed Two-Story Redevelopment",
+    "probabilityRange": [
+     0.25,
+     0.4
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "defense",
+    "claimType": "just_compensation_valuation",
+    "strength": "unfavorable",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null
+   },
+   {
+    "label": "Undervaluation Risk in State's Appraisal \u2014 Ignoring Actual Lease Income",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "just_compensation_valuation",
+    "strength": "favorable",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null
+   },
+   {
+    "label": "Temporary Easement Compensation",
+    "probabilityRange": [
+     0.95,
+     0.99
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "conceded",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "just_compensation_valuation",
+    "strength": "conceded",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null
+   },
+   {
+    "label": "Consequential/Severance Damages from Parking Reconfiguration",
+    "probabilityRange": [
+     0.45,
+     0.55
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "unknown",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "just_compensation_valuation",
+    "strength": "even",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null
+   }
+  ],
+  "citationCoverage": {
+   "count": 22,
+   "tier": "strong"
+  }
+ },
+ "error": null,
+ "outcome": {
+  "amount": 113730,
+  "amountIsTheRequestedAmount": false,
+  "date": "2022-05-04",
+  "description": "After a nonjury trial the Court of Claims largely adopted the State's appraisal (rejecting its 80% discount on the R-10 portion), found direct damages of $71,000 ($54,000 NB portion, $17,000 R-10 portion), and entered judgment for the principal sum of $113,730 including other damages not itemized in the decision. The Appellate Division, Second Department affirmed on May 4, 2022.",
+  "attorneysFeesAtTrial": null,
+  "attorneysFeesOnAppeal": null,
+  "appellateChange": "affirmed",
+  "finalAmount": 113730,
+  "finalNote": "Affirmed."
+ },
+ "source": {
+  "caseName": "J. Nazzaro Partnership, L.P. v. State of New York",
+  "court": "Supreme Court of the State of New York, Appellate Division, Second Department, on appeal from the Court of Claims",
+  "docket": "2019-07827; 2022 NY Slip Op 02984",
+  "decided": "2022-05-04",
+  "url": "https://storage.courtlistener.com/html/2022/05/04/j._nazzaro_partnership_l.p._v._state_of_new_york.html",
+  "excerptNote": "Verbatim from the facts portion of the decision (property, taking, Chase ground lease, and each side's highest-and-best-use and appraisal evidence at the nonjury trial). Removed: the opening paragraph (judgment amount and decretal paragraph), the Court of Claims' findings and the resulting damages and judgment figures, and all legal analysis. A page marker ([*2]) was removed. The judgment includes 'other damages not challenged on appeal' that the decision does not itemize, so the input has no evidence on those components. Official reporter copy: nycourts.gov reporter, 2022 NY Slip Op 02984."
+ }
+}

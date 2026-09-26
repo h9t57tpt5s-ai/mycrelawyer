@@ -1,0 +1,216 @@
+{
+ "id": "globe-contracting-v-hour-2025",
+ "ranAt": "2026-09-26T03:41:57+00:00",
+ "status": 200,
+ "prediction": {
+  "model": "claude-sonnet-5",
+  "analysisVersion": "v4.3",
+  "cost": {
+   "totalUsd": 0.184,
+   "analysisUsd": 0.1734,
+   "analysisUsage": {
+    "input_tokens": 3054,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 8818,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 10776,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "output_tokens_details": {
+     "thinking_tokens": 5539
+    }
+   }
+  },
+  "category": "construction-defect",
+  "roleLabel": "Contractor / Design Professional",
+  "damagesRange": [
+   33319.901999999995,
+   61901.92
+  ],
+  "bestGuessValue": 41783.796,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": "Globe is likely to recover the bulk of its claimed unpaid progress payments (roughly $45,000-$60,000 of its $61,901.92 damages exhibit), with Hour's delay-based termination defense undermined by his own post-notice change orders and extensions and by the contract's built-in weather/differing-site-conditions excuses. Hour will likely secure a modest offset tied to the fire-rated-door defect and possibly the unpaid-subcontractor allegations, but the record contains no figures to quantify that offset precisely. The prevailing-party attorney fee clause makes the ultimate net outcome sensitive to how the trial court allocates 'success' across the mixed claims and counterclaims.",
+  "issues": [
+   {
+    "label": "Unpaid Progress Payments / Contract Balance",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": [
+     55533.17,
+     61901.92
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": 61901.92,
+    "kind": "claim",
+    "claimType": "contractor_breach_negligence",
+    "strength": "favorable",
+    "figures": [
+     {
+      "label": "Amount stated in Globe's construction lien",
+      "value": 55533.17,
+      "disputed": true,
+      "quote": "filed a construction lien on the project for $55,533.17",
+      "computed": null
+     },
+     {
+      "label": "Amount in Globe's final pretrial damages exhibit",
+      "value": 61901.92,
+      "disputed": true,
+      "quote": "submitted a damages exhibit that requested $61,901.92 in damages",
+      "computed": null
+     }
+    ],
+    "droppedFigures": 0,
+    "basis": "competing"
+   },
+   {
+    "label": "Lien Foreclosure",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "other",
+    "strength": "favorable",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null
+   },
+   {
+    "label": "Hour's Delay/210-Day Termination Counterclaim",
+    "probabilityRange": [
+     0.05,
+     0.2
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "differing_site_conditions_claim",
+    "strength": "weak",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null
+   },
+   {
+    "label": "Hour's Defective Workmanship Counterclaim",
+    "probabilityRange": [
+     0.45,
+     0.55
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "contractor_breach_negligence",
+    "strength": "even",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null
+   },
+   {
+    "label": "Unlicensed/Unqualified Subcontractors Counterclaim",
+    "probabilityRange": [
+     0.25,
+     0.4
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "contractor_breach_negligence",
+    "strength": "unfavorable",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null
+   },
+   {
+    "label": "Unpaid Subcontractors Counterclaim",
+    "probabilityRange": [
+     0.45,
+     0.55
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "contractor_breach_negligence",
+    "strength": "even",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null
+   },
+   {
+    "label": "Unjust Enrichment, Good Faith/Fair Dealing, and Intentional Interference (Globe's Alternative Theories)",
+    "probabilityRange": [
+     0.25,
+     0.4
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "other",
+    "strength": "unfavorable",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null
+   },
+   {
+    "label": "Prevailing-Party Attorney Fees",
+    "probabilityRange": [
+     0.45,
+     0.55
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "unknown",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "other",
+    "strength": "even",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null
+   }
+  ],
+  "citationCoverage": {
+   "count": 29,
+   "tier": "strong"
+  }
+ },
+ "error": null,
+ "outcome": {
+  "amount": 61901.92,
+  "amountIsTheRequestedAmount": true,
+  "date": "2025-07-03",
+  "description": "After a bench trial the district court held Hour materially breached by withholding the July-September 2016 pay applications without justification, awarded Globe $61,901.92 in damages (the amount in its damages exhibit) with lien foreclosure, and later awarded $108,798.14 prejudgment interest, $98,531.00 attorney fees and $32,179.97 costs. The Utah Court of Appeals affirmed liability and the damages award but vacated the prejudgment interest, costs and fee awards and remanded them.",
+  "attorneysFeesAtTrial": 98531.0,
+  "attorneysFeesOnAppeal": "vacated and remanded",
+  "finalAmount": 61901.92,
+  "finalNote": "Damages affirmed; interest, costs and fees vacated and remanded."
+ },
+ "source": {
+  "caseName": "Globe Contracting LLC v. Raymond R. Hour, Kimberly Taing, Hour Taing Enterprise LLC, and Hour Chiropractic Clinic Inc.",
+  "court": "Utah Court of Appeals, on appeal from the Third District Court, Salt Lake Department",
+  "docket": "No. 20240058-CA, 2025 UT App 98 (district court No. 170900003)",
+  "decided": "2025-07-03",
+  "url": "https://storage.courtlistener.com/pdf/2025/07/03/globe_contracting_v._hour.pdf",
+  "excerptNote": "documentText is verbatim from the Background, paragraphs 3-16 (contract and dispute; complaint, counterclaim and pretrial litigation), ending before 'Trial and Ruling'. Removed: the summary of the appellate rulings in paragraphs 1-2, footnotes 1-5 and their markers, running page headers, one section heading, and paragraphs 17 onward (the court's findings, damages award, post-trial rulings and all appellate analysis). Note: the damages awarded equal the figure Globe requested in its pretrial damages exhibit, which remains in the text as Globe's demand."
+ }
+}

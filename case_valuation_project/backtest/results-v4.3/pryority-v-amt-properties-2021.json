@@ -1,0 +1,193 @@
+{
+ "id": "pryority-v-amt-properties-2021",
+ "ranAt": "2026-09-26T04:53:04+00:00",
+ "status": 200,
+ "prediction": {
+  "model": "claude-sonnet-5",
+  "analysisVersion": "v4.3",
+  "cost": {
+   "totalUsd": 0.2162,
+   "analysisUsd": 0.2019,
+   "analysisUsage": {
+    "input_tokens": 4375,
+    "cache_creation_input_tokens": 9277,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 9277,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 10265,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "output_tokens_details": {
+     "thinking_tokens": 4804
+    }
+   }
+  },
+  "category": "lease-disputes",
+  "roleLabel": "Tenant",
+  "damagesRange": [
+   0,
+   193006.35
+  ],
+  "bestGuessValue": 164055.39750000002,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": "AMT is well-positioned to defeat Pryority's unpaid-rent claim on constructive eviction/breach of the express roof-and-suitability covenant, given the landlord's own admitted decade-long, never-cured leak and the Exhibit A warranty superseding the 'as-is' clause, and to recover a substantial share of its $193,006.35 in documented losses on its counterclaims, net of some discount for AMT's admitted pre-lease knowledge of visible leak damage and the weaker misrepresentation/TCPA overlay theories. The case nets out favorably for the tenant/guarantor on both offense and defense, with a mandatory fee-shifting clause adding further recoverable amounts not yet quantified in this record.",
+  "issues": [
+   {
+    "label": "Breach of Express Roof-Repair/Suitability Covenant (Exhibit A)",
+    "probabilityRange": [
+     0.8,
+     0.9
+    ],
+    "damagesRange": [
+     0,
+     193006.35
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": 193006.35,
+    "kind": "claim",
+    "claimType": "implied_warranty_of_suitability_breach",
+    "strength": "strong",
+    "figures": [
+     {
+      "label": "AMT's total expenditures in rent, moving, renovation, and other relocation costs",
+      "value": 193006.35,
+      "disputed": true,
+      "quote": "AMT ultimately expended $193,006.35 in rent, moving expenses, renovation expenses, and other costs related to AMT's failed attempt to relocate to the Warehouse.",
+      "computed": null
+     }
+    ],
+    "droppedFigures": 0,
+    "basis": "itemized"
+   },
+   {
+    "label": "Constructive Eviction (Defense to Rent Claim)",
+    "probabilityRange": [
+     0.8,
+     0.9
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "defense",
+    "claimType": "quiet_enjoyment_breach",
+    "strength": "strong",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null
+   },
+   {
+    "label": "Pryority's Unpaid Rent Claim",
+    "probabilityRange": [
+     0.05,
+     0.2
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "unpaid_rent",
+    "strength": "weak",
+    "figures": [],
+    "droppedFigures": 1,
+    "basis": null
+   },
+   {
+    "label": "Negligent Misrepresentation (Roof Repair Timeline)",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "other",
+    "strength": "favorable",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null
+   },
+   {
+    "label": "Tennessee Consumer Protection Act Claim",
+    "probabilityRange": [
+     0.25,
+     0.4
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "other",
+    "strength": "unfavorable",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null
+   },
+   {
+    "label": "Personal Guaranty Exposure (David Crick)",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "defense",
+    "claimType": "other",
+    "strength": "favorable",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null
+   },
+   {
+    "label": "Prevailing-Party Attorney's Fees (Section 28)",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "attorney_fees",
+    "strength": "favorable",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null
+   }
+  ],
+  "citationCoverage": {
+   "count": 39,
+   "tier": "strong"
+  }
+ },
+ "error": null,
+ "outcome": {
+  "amount": 193006.35,
+  "amountIsTheRequestedAmount": true,
+  "date": "2021-03-10",
+  "description": "After a two-day bench trial the court found the landlord materially breached the lease's roof-repair covenant, negligently misrepresented the roof's condition and constructively evicted the tenant, and awarded AMT $193,006.35 in compensatory damages (the full amount it sought for rent, repairs, moving and other expenses) plus $69,002.68 in attorney's fees under the lease; the TCPA claim was denied. The Tennessee Court of Appeals affirmed in its entirety on March 10, 2021.",
+  "attorneysFeesAtTrial": 69002.68,
+  "attorneysFeesOnAppeal": "affirmed",
+  "appellateChange": "affirmed",
+  "finalAmount": 193006.35,
+  "finalNote": "Affirmed in its entirety."
+ },
+ "source": {
+  "caseName": "Pryority Partnership v. AMT Properties, LLC, et al.",
+  "court": "Court of Appeals of Tennessee at Knoxville, on appeal from the Circuit Court for Hamilton County (No. 17C1340)",
+  "docket": "No. E2020-00511-COA-R3-CV",
+  "decided": "2021-03-10",
+  "url": "https://www.tncourts.gov/sites/default/files/e2020-00511_pryority_v._amt.pdf",
+  "excerptNote": "Verbatim from Part I (the parties' pleadings and summary-judgment positions, the Lease's roof covenant, the roof-replacement cost), Part IV (testimony about the roof's history and Mr. Crick's testimony, the Exhibit A lease language), Part V (the landlord's rent-refund argument and Mr. Crick's testimony, including the $193,006.35 he testified AMT spent, which is the tenant's stated claim) and the Section 28 fee clause from Part VI. Removed: the syllabus, every sentence stating the trial court's findings of breach, constructive eviction, misrepresentation, credibility or unreasonable delay, the damages and fee awards, the TCPA ruling, 'The trial court awarded AMT the full amount of damages sought,' and all appellate analysis and holdings. Footnote 1 (lease-date correction) and footnote markers omitted; page numbers removed. The pleading sentence ending 'vacated the building when the roof was not immediately repaired' was dropped because a footnote interrupts it in the PDF."
+ }
+}

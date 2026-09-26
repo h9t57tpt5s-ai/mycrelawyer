@@ -1,0 +1,179 @@
+{
+ "id": "omega-healthcare-securities-2019",
+ "ranAt": "2026-09-26T04:48:33+00:00",
+ "status": 200,
+ "prediction": {
+  "model": "claude-sonnet-5",
+  "analysisVersion": "v4.3",
+  "cost": {
+   "totalUsd": 0.1958,
+   "analysisUsd": 0.1858,
+   "analysisUsage": {
+    "input_tokens": 5235,
+    "cache_creation_input_tokens": 9071,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 9071,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 9070,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "output_tokens_details": {
+     "thinking_tokens": 2475
+    }
+   }
+  },
+  "category": "reit-securities",
+  "roleLabel": "Shareholder / Plaintiff Class",
+  "damagesRange": null,
+  "bestGuessValue": null,
+  "whatIsNeededForEstimate": "To convert this into a real dollar range we would need: (1) Omega's market capitalization and average daily trading volume during the relevant disclosure windows (July 27 and October 31, 2017); (2) an expert-constructed event study or 'inflation ribbon' isolating the portion of the 4% and 6.8% stock price declines attributable to the alleged fraud versus general market/sector movement; (3) the number of shares purchased by class members during the May 3-October 31, 2017 class period and their purchase prices (to compute per-share out-of-pocket or Section 21D damages); and (4) if this were instead being valued for settlement purposes, comparable information about any settlement demand or mediator's proposal, none of which appears in the motion-to-dismiss opinion provided.",
+  "likelyOutcome": "The \u00a7 10(b)/Rule 10b-5 omission theory (non-disclosure of the working capital loan), paired with strong circumstantial scienter allegations and concrete loss-causation stock-drop evidence, is likely to survive the motion to dismiss in whole or substantial part, with the \u00a7 20(a) control-person claims following it; the separate FFO/AFFO misstatement theory is a closer call because of the GAAP-violation pleading gap, and some individual forward-looking or puffery statements will likely be dismissed as non-actionable even if the core case proceeds. Because this is a merits opinion at the motion-to-dismiss stage with no damages model, market-cap data, or settlement figure in the record, no dollar recovery range can be responsibly computed yet.",
+  "issues": [
+   {
+    "label": "Omission of the Working Capital Loan (Material Non-Disclosure)",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "securities_fraud_10b5",
+    "strength": "favorable",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null
+   },
+   {
+    "label": "Misstatement of FFO/AFFO Via Loan-Funded Rent Characterization",
+    "probabilityRange": [
+     0.45,
+     0.55
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "securities_fraud_10b5",
+    "strength": "even",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null
+   },
+   {
+    "label": "Scienter \u2014 Conscious Misbehavior or Recklessness",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "pslra_scienter_pleading_survival",
+    "strength": "favorable",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null
+   },
+   {
+    "label": "Loss Causation \u2014 Corrective Disclosures and Stock Drops",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "pslra_scienter_pleading_survival",
+    "strength": "favorable",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null
+   },
+   {
+    "label": "Section 20(a) Control-Person Liability",
+    "probabilityRange": [
+     0.8,
+     0.9
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "proxy_disclosure_claim",
+    "strength": "strong",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null
+   },
+   {
+    "label": "PSLRA Safe Harbor / Puffery Defense for Forward-Looking Statements",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "defense",
+    "claimType": "other",
+    "strength": "favorable",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null
+   },
+   {
+    "label": "Lack of Well-Pled GAAP Violation (Defendants' Pleading-Sufficiency Defense)",
+    "probabilityRange": [
+     0.45,
+     0.55
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "defense",
+    "claimType": "other",
+    "strength": "even",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null
+   }
+  ],
+  "citationCoverage": {
+   "count": 32,
+   "tier": "strong"
+  }
+ },
+ "error": null,
+ "outcome": {
+  "amount": 30750000,
+  "amountIsTheRequestedAmount": false,
+  "date": "2023-04-25",
+  "description": "After the district court dismissed the first amended complaint in 2019, the Second Circuit reversed in 2020 (968 F.3d 204), holding the non-disclosure of the working capital loan to the operator actionable and scienter adequately pleaded. On remand the court largely denied a renewed motion to dismiss (Sept. 28, 2021). The parties then settled; the court granted preliminary approval on December 27, 2022, and on April 25, 2023 entered an Order and Final Judgment approving a $30,750,000 cash settlement for the class of Omega securities purchasers (https://storage.courtlistener.com/recap/gov.uscourts.nysd.484014/gov.uscourts.nysd.484014.167.0.pdf). Attorneys' fees were paid out of the settlement fund.",
+  "attorneysFeesAtTrial": null,
+  "appellateChange": "none",
+  "finalAmount": 30750000,
+  "finalNote": "Court-approved class settlement of $30.75 million (S.D.N.Y. Order and Final Judgment, ECF No. 167, April 25, 2023); fees came out of the fund; no appeal of the settlement."
+ },
+ "source": {
+  "caseName": "In re Omega Healthcare Investors, Inc. Securities Litigation",
+  "court": "U.S. District Court for the Southern District of New York (dismissal reversed and remanded by the Second Circuit, Setzer v. Omega Healthcare Investors, Inc., 968 F.3d 204 (2d Cir. 2020))",
+  "docket": "1:17-cv-08983-NRB",
+  "decided": "2019-03-25",
+  "url": "https://storage.courtlistener.com/recap/gov.uscourts.nysd.484014/gov.uscourts.nysd.484014.62.0.pdf",
+  "outcomeUrl": "https://storage.courtlistener.com/recap/gov.uscourts.nysd.484014/gov.uscourts.nysd.484014.167.0.pdf",
+  "excerptNote": "documentText is verbatim from the court's March 25, 2019 Memorandum and Order on the first motion to dismiss (ECF No. 62): the opening paragraph (minus its final sentence stating the ruling), the entire Background (Parts I-IV), and the sentences in the Discussion that summarize plaintiffs' and defendants' arguments on falsity, materiality and scienter. Removed: the procedural history, the pleading standards, and every sentence stating the court's analysis or conclusions. Footnote text was moved to the end of the source file and page numbers were stripped; inline footnote reference numerals (e.g. 'EBITDAR3') remain as extracted. The settlement amount comes from the Order and Final Judgment (ECF No. 167), not from the excerpt."
+ }
+}

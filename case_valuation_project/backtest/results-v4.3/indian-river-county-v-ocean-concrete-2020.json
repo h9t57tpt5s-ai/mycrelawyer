@@ -1,0 +1,128 @@
+{
+ "id": "indian-river-county-v-ocean-concrete-2020",
+ "ranAt": "2026-09-26T04:31:16+00:00",
+ "status": 200,
+ "prediction": {
+  "model": "claude-sonnet-5",
+  "analysisVersion": "v4.3",
+  "cost": {
+   "totalUsd": 0.0844,
+   "analysisUsd": 0.0794,
+   "analysisUsage": {
+    "input_tokens": 1944,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 8402,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 4734,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "output_tokens_details": {
+     "thinking_tokens": 1276
+    }
+   }
+  },
+  "category": "zoning-land-use",
+  "roleLabel": "Property Owner / Developer",
+  "damagesRange": null,
+  "bestGuessValue": null,
+  "whatIsNeededForEstimate": "To compute a real damages range, I need at least one concrete valuation figure tied to this property: the dollar amount from the appraisal report referenced as attached to the Bert Harris claim (showing value as a concrete batch plant site versus value under the post-rezoning restrictions), or the specific dollar figure Maib is expected to testify to as his own opinion of the property's value before and after the rezoning, or the original purchase price together with a stated current/post-rezoning value or expert diminution-in-value estimate. Any one of these would let the range be grounded in the actual record rather than assumed.",
+  "likelyOutcome": "Liability is locked in against the County; the damages trial should produce a recovery for Maib reflecting the diminution in value from batch-plant-use to the more restrictive post-rezoning use, likely on largely unrebutted valuation evidence given the exclusion of the County's experts. No dollar figure in the record allows quantification of that recovery at this time.",
+  "issues": [
+   {
+    "label": "Bert Harris Act damages (diminution in value)",
+    "probabilityRange": [
+     0.95,
+     0.99
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "conceded",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "other",
+    "strength": "conceded",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null
+   },
+   {
+    "label": "Exclusion of County's economist and appraiser",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "defense",
+    "claimType": "other",
+    "strength": "favorable",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null
+   },
+   {
+    "label": "Admissibility of landowner's own opinion testimony on value",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "defense",
+    "claimType": "other",
+    "strength": "favorable",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null
+   },
+   {
+    "label": "Penn Central taking and due process claims (foreclosed)",
+    "probabilityRange": [
+     0.95,
+     0.99
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "conceded",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "other",
+    "strength": "conceded",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null
+   }
+  ],
+  "citationCoverage": {
+   "count": 20,
+   "tier": "strong"
+  }
+ },
+ "error": null,
+ "outcome": {
+  "amount": 2000000,
+  "amountIsTheRequestedAmount": false,
+  "date": "2020-11-25",
+  "description": "At a four-day jury trial in September 2019, with the County's economist and appraiser excluded, the jury awarded the landowner $2 million; final judgment was entered for $2 million plus $1,302,577 in prejudgment interest. The Fourth District affirmed on November 25, 2020. Amount used excludes prejudgment interest.",
+  "attorneysFeesAtTrial": null,
+  "attorneysFeesOnAppeal": null,
+  "appellateChange": "affirmed",
+  "finalAmount": 2000000,
+  "finalNote": "Affirmed (plus $1,302,577 prejudgment interest)."
+ },
+ "source": {
+  "caseName": "Indian River County v. Ocean Concrete, Inc. and George Maib",
+  "court": "Florida Fourth District Court of Appeal, on appeal from the Circuit Court of the Nineteenth Judicial Circuit, Indian River County",
+  "docket": "No. 4D19-3611 (L.T. Case No. 312007CA011589)",
+  "decided": "2020-11-25",
+  "url": "https://storage.courtlistener.com/pdf/2020/11/25/indian_river_county_v._ocean_concrete_inc._and_george_maib.pdf",
+  "excerptNote": "Verbatim from the Background section and the opinion's description of the landowner's value-related testimony (Part B). Removed: the introductory paragraph (disposition), footnotes 1-4 and two footnote markers, the sentence reporting the jury's award and the final judgment with prejudgment interest, and all analysis and holdings. The opinion states no appraisal figures for either side, so the input contains no dollar values."
+ }
+}

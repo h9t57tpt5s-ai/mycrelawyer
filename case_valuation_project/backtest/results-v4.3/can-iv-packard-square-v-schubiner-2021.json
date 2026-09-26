@@ -1,0 +1,238 @@
+{
+ "id": "can-iv-packard-square-v-schubiner-2021",
+ "ranAt": "2026-09-26T03:50:03+00:00",
+ "status": 200,
+ "prediction": {
+  "model": "claude-sonnet-5",
+  "analysisVersion": "v4.3",
+  "cost": {
+   "totalUsd": 0.268,
+   "analysisUsd": 0.2573,
+   "analysisUsage": {
+    "input_tokens": 3594,
+    "cache_creation_input_tokens": 9103,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 9103,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 14158,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "output_tokens_details": {
+     "thinking_tokens": 8067
+    }
+   }
+  },
+  "category": "lending-foreclosure",
+  "roleLabel": "Lender",
+  "damagesRange": [
+   31750191.674000002,
+   54000000
+  ],
+  "bestGuessValue": 36209401.698249996,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": "The lender is very likely to prevail on guaranty liability given the clean bankruptcy-triggered recourse provision and the strongly pro-lender findings from the prior Washtenaw litigation and bankruptcy proceedings (borrower mismanagement, affirmed foreclosure, affirmed receiver appointment). The size of the ultimate deficiency judgment turns on an unresolved credit-bid-allocation dispute this record doesn't fully quantify, and Schubiner's DACA and lien-based counterclaims face serious collateral-estoppel problems from the earlier Packard Square litigation, meaning any offset is likely to be modest relative to the total exposure.",
+  "issues": [
+   {
+    "label": "Guaranty Liability \u2013 Bankruptcy Recourse Trigger",
+    "probabilityRange": [
+     0.8,
+     0.9
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "guaranty_enforcement",
+    "strength": "strong",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null
+   },
+   {
+    "label": "Deficiency Amount / Credit-Bid Allocation Dispute",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": [
+     54000000,
+     54000000
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": 54000000,
+    "kind": "claim",
+    "claimType": "foreclosure_deficiency_judgment",
+    "strength": "favorable",
+    "figures": [
+     {
+      "label": "Lender's theory: original loan principal remains owed as deficiency basis",
+      "value": 54000000,
+      "disputed": true,
+      "quote": "a nearly $54 million loan that plaintiff made to defendant\u2019s company, Packard Square, LLC",
+      "computed": null
+     }
+    ],
+    "droppedFigures": 1,
+    "basis": "competing"
+   },
+   {
+    "label": "Impairment of Collateral / Material Alteration Defense",
+    "probabilityRange": [
+     0.05,
+     0.2
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "defense",
+    "claimType": "guaranty_enforcement",
+    "strength": "weak",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null
+   },
+   {
+    "label": "Prior-Breach / Impossibility Defense",
+    "probabilityRange": [
+     0.05,
+     0.2
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "defense",
+    "claimType": "lender_liability_claim",
+    "strength": "weak",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null
+   },
+   {
+    "label": "DACA Account Funds Counterclaim",
+    "probabilityRange": [
+     0.25,
+     0.4
+    ],
+    "damagesRange": [
+     -1000885.33,
+     0
+    ],
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": -1000885.33,
+    "kind": "claim",
+    "claimType": "other",
+    "strength": "unfavorable",
+    "figures": [
+     {
+      "label": "DACA account funds swept by lender",
+      "value": 1000885.33,
+      "disputed": true,
+      "quote": "which amounted to $1,000,885.33, to plaintiff on the same date",
+      "computed": null
+     }
+    ],
+    "droppedFigures": 0,
+    "basis": "itemized"
+   },
+   {
+    "label": "Breach of Contract Counterclaim re: Subcontractor Liens",
+    "probabilityRange": [
+     0.05,
+     0.2
+    ],
+    "damagesRange": [
+     -1247270.97,
+     0
+    ],
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": -1247270.97,
+    "kind": "claim",
+    "claimType": "lender_liability_claim",
+    "strength": "weak",
+    "figures": [
+     {
+      "label": "Gaylor Electric, Inc. lien",
+      "value": 916312.91,
+      "disputed": true,
+      "quote": "a lien recorded by Gaylor Electric, Inc. (\u201cGaylor\u201d), on September 29, 2016, for $916,312.91",
+      "computed": null
+     },
+     {
+      "label": "Jermor Plumbing & Heating, Inc. lien",
+      "value": 330958.06,
+      "disputed": true,
+      "quote": "a lien recorded by Jermor Plumbing & Heating, Inc. (\u201cJermor\u201d), on October 6, 2016, for $330,958.06",
+      "computed": null
+     }
+    ],
+    "droppedFigures": 0,
+    "basis": "itemized"
+   },
+   {
+    "label": "Receivership Proceedings \u2014 Concluded Favorably to Lender",
+    "probabilityRange": [
+     0.95,
+     0.99
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "conceded",
+    "supportedCeiling": null,
+    "kind": "defense",
+    "claimType": "receivership_dispute",
+    "strength": "conceded",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null
+   },
+   {
+    "label": "Attorney Fees Under Guaranty",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "unknown",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "attorney_fees",
+    "strength": "favorable",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null
+   }
+  ],
+  "citationCoverage": {
+   "count": 32,
+   "tier": "strong"
+  }
+ },
+ "error": null,
+ "outcome": {
+  "amount": 13992936.05,
+  "amountIsTheRequestedAmount": false,
+  "date": "2021-04-29",
+  "description": "On cross-motions, the trial court granted summary disposition to the lender on its guaranty claim and on Schubiner's counterclaims and on December 17, 2019 entered judgment against him for $13,992,936.05 (the original-loan balance left after the lender applied its $75 million credit bid first to the receiver loan), plus attorney fees, consultant fees, continuing interest and costs. The Court of Appeals affirmed the judgment (Docket No. 352510), while vacating a separate postjudgment order on intervenors' properties.",
+  "attorneysFeesAtTrial": null,
+  "attorneysFeesOnAppeal": null,
+  "finalAmount": 13992936.05,
+  "finalNote": "Judgment affirmed."
+ },
+ "source": {
+  "caseName": "Can IV Packard Square, LLC v. Craig Schubiner (and BCL Properties Limited Partnership and 305 Associates, LLC, proposed intervenors)",
+  "court": "Michigan Court of Appeals (unpublished), on appeal from the Oakland County Circuit Court",
+  "docket": "Nos. 352510, 354185, 354821, 354186 (LC No. 2018-167408-CB)",
+  "decided": "2021-04-29",
+  "url": "https://www.courts.michigan.gov/4a4fa7/siteassets/case-documents/uploads/opinions/final/coa/20210429_c352510_72_352510.opn.pdf",
+  "excerptNote": "documentText is verbatim from Part I (Background) through the parties' cross-motions for summary disposition, plus sentences from Part II that state the parties' positions (the guarantor's material-alteration and credit-bid arguments, and the subcontractor liens and the borrower's answer from the related foreclosure case). Removed: the opening paragraph with the dispositions, footnotes 1-4 and their markers, the sentences stating the trial court's summary-disposition ruling and the judgment amount, the lender's affidavit accounting (which states the amount), the postjudgment collection history, and all appellate holdings. Note: the judgment was entered on cross-motions for summary disposition, not after trial."
+ }
+}

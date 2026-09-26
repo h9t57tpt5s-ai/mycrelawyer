@@ -1,0 +1,178 @@
+{
+ "id": "trout-v-shani-dev8-2025",
+ "ranAt": "2026-09-26T04:38:22+00:00",
+ "status": 200,
+ "prediction": {
+  "model": "claude-sonnet-5",
+  "analysisVersion": "v4.3",
+  "cost": {
+   "totalUsd": 0.118,
+   "analysisUsd": 0.1115,
+   "analysisUsage": {
+    "input_tokens": 2192,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 7761,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 6841,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "output_tokens_details": {
+     "thinking_tokens": 2449
+    }
+   }
+  },
+  "category": "premises-liability",
+  "roleLabel": "Injured Party / Claimant",
+  "damagesRange": null,
+  "bestGuessValue": null,
+  "whatIsNeededForEstimate": "To value this case we need actual dollar anchors: the total medical expenses/bills for the two knee surgeries and related treatment, any documented lost wages or income loss Trout incurred, any expert testimony on future medical needs or permanent impairment, the specific settlement demand (if any) previously made, and/or the jury's verdict amount if one has already been returned. Without at least one of these, any damages figure would be invented rather than grounded in the record.",
+  "likelyOutcome": "Liability is a genuine jury question rather than a clear win for either side: Trout has no direct evidence of how the liquid got there or how long it existed, which is the classic Ohio slip-and-fall proof gap, but the destroyed surveillance video and Viren's admission that an earlier spill wouldn't necessarily have been visible give her real spoliation-based leverage to overcome that gap in front of a jury. If the jury finds for Trout, the undisputed severity of a patella fracture requiring two surgeries supports a substantial verdict, but comparative fault could reduce it and the consortium claim's value is separately limited and undated. No dollar range can be computed without the medical specials, wage-loss evidence, or a stated demand/verdict figure.",
+  "issues": [
+   {
+    "label": "Actual/Constructive Notice of the Hazard",
+    "probabilityRange": [
+     0.45,
+     0.55
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "slip_and_fall_hazardous_condition",
+    "strength": "even",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null
+   },
+   {
+    "label": "Spoliation of Surveillance Footage",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "defense",
+    "claimType": "dangerous_condition_failure_to_warn",
+    "strength": "favorable",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null
+   },
+   {
+    "label": "Operating Manual / Cleaning-Protocol Deviation",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "negligent_maintenance_structural_failure",
+    "strength": "favorable",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null
+   },
+   {
+    "label": "Comparative Negligence Defense",
+    "probabilityRange": [
+     0.45,
+     0.55
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "defense",
+    "claimType": "other",
+    "strength": "even",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null
+   },
+   {
+    "label": "Directed Verdict / Insufficient Evidence of Duration",
+    "probabilityRange": [
+     0.45,
+     0.55
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "defense",
+    "claimType": "slip_and_fall_hazardous_condition",
+    "strength": "even",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null
+   },
+   {
+    "label": "Injury Severity / Damages Element",
+    "probabilityRange": [
+     0.8,
+     0.9
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "unknown",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "other",
+    "strength": "strong",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null
+   },
+   {
+    "label": "Loss of Consortium (Estate of David Trout)",
+    "probabilityRange": [
+     0.45,
+     0.55
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "other",
+    "strength": "even",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null
+   }
+  ],
+  "citationCoverage": {
+   "count": 0,
+   "tier": "none"
+  }
+ },
+ "error": null,
+ "outcome": {
+  "amount": 1300000,
+  "amountIsTheRequestedAmount": false,
+  "date": "2025-03-13",
+  "description": "The jury found the operator negligent and on February 12, 2024 awarded the claimant $1,300,000 in noneconomic damages; the trial court denied the operator's motion for JNOV or new trial. The Eighth District reversed on March 13, 2025, holding there was no evidence of constructive notice of the liquid, and reversed the denial of JNOV, which leaves the claimant with nothing; the operator's argument that Ohio's noneconomic-damages cap should have been applied was not reached. No later Ohio Supreme Court merits opinion appears in the Reporter of Decisions. No attorney's fees.",
+  "attorneysFeesAtTrial": null,
+  "appellateChange": "reversed-rendered",
+  "finalAmount": 0,
+  "finalNote": "Reversed: JNOV should have been granted for the restaurant operator."
+ },
+ "source": {
+  "caseName": "Cheryl Trout, et al. v. Jay Shani DEV8, L.L.C., d.b.a. Mr. Hero",
+  "court": "Ohio Court of Appeals, Eighth Appellate District (Cuyahoga County), on appeal from the Cuyahoga County Court of Common Pleas (No. CV-21-955789)",
+  "docket": "113965 (2025-Ohio-832)",
+  "decided": "2025-03-13",
+  "url": "https://www.supremecourt.ohio.gov/rod/docs/pdf/8/2025/2025-Ohio-832.pdf",
+  "excerptNote": "Verbatim from Part I (Facts and Procedural History), from the agreed statement of the case read to the jury through the defendant's directed-verdict motions. Removed: the opening paragraph (states the holding), the paragraph stating the jury's verdict and award and the post-trial motion, the assignments of error, footnote 1, and all of Part II (law and analysis)."
+ }
+}

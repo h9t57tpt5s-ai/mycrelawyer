@@ -1,0 +1,176 @@
+{
+ "id": "burns-concrete-v-teton-county-2020",
+ "ranAt": "2026-09-26T04:30:15+00:00",
+ "status": 200,
+ "prediction": {
+  "model": "claude-sonnet-5",
+  "analysisVersion": "v4.3",
+  "cost": {
+   "totalUsd": 0.1458,
+   "analysisUsd": 0.1387,
+   "analysisUsage": {
+    "input_tokens": 3581,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 8402,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 8363,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "output_tokens_details": {
+     "thinking_tokens": 3056
+    }
+   }
+  },
+  "category": "zoning-land-use",
+  "roleLabel": "Property Owner / Developer",
+  "damagesRange": [
+   0,
+   1905344.78
+  ],
+  "bestGuessValue": 1848184.4366,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": "Liability has already been finally established in the Burns Companies' favor; the only issue for trial is the amount of reliance damages, with the County's principal remaining leverage being its expert's offset theory (that the Temporary Facility would have lost money regardless of the breach). That theory is real but undercut by the same expert's admission of eventual profitability and by evidence the County's own conduct (Rinaldi's letters, press coverage) drove the customer losses, so a substantial majority of the $1,905,344.78 Exhibit 8 claim is likely to be awarded, with prejudgment interest to be argued separately and not quantifiable on this record.",
+  "issues": [
+   {
+    "label": "Reliance Damages \u2014 Exhibit 8 Expenditures",
+    "probabilityRange": [
+     0.95,
+     0.99
+    ],
+    "damagesRange": [
+     0,
+     1905344.78
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "conceded",
+    "supportedCeiling": 1905344.78,
+    "kind": "claim",
+    "claimType": "development_agreement_breach",
+    "strength": "conceded",
+    "figures": [
+     {
+      "label": "Exhibit 8 total expenditures to operationalize the Temporary Facility",
+      "value": 1905344.78,
+      "disputed": true,
+      "quote": "the total amount of damages listed on Exhibit 8 was $1,905,344.78, exclusive of prejudgment interest",
+      "computed": null
+     }
+    ],
+    "droppedFigures": 0,
+    "basis": "itemized"
+   },
+   {
+    "label": "County's Offset Defense (Would-Have-Lost-Anyway Losses)",
+    "probabilityRange": [
+     0.45,
+     0.55
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "defense",
+    "claimType": "development_agreement_breach",
+    "strength": "even",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null
+   },
+   {
+    "label": "Prejudgment Interest",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "unknown",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "development_agreement_breach",
+    "strength": "favorable",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null
+   },
+   {
+    "label": "Entity Allocation Between Burns Holdings and Burns Concrete",
+    "probabilityRange": [
+     0.25,
+     0.4
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "defense",
+    "claimType": "other",
+    "strength": "unfavorable",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null
+   },
+   {
+    "label": "County's Counterclaim for Removal of Temporary Facility",
+    "probabilityRange": [
+     0.05,
+     0.2
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "development_agreement_breach",
+    "strength": "weak",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null
+   },
+   {
+    "label": "Evidence of County Bad Faith (Rinaldi Letters, Press Coverage)",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "unknown",
+    "supportedCeiling": null,
+    "kind": "defense",
+    "claimType": "other",
+    "strength": "favorable",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null
+   }
+  ],
+  "citationCoverage": {
+   "count": 20,
+   "tier": "strong"
+  }
+ },
+ "error": null,
+ "outcome": {
+  "amount": 1049250.9,
+  "amountIsTheRequestedAmount": false,
+  "date": "2020-11-02",
+  "description": "After the damages trial the district court found $1,461,393.53 of the claimed $1,905,344.78 was spent in reasonable reliance on the Development Agreement, then deducted $412,142.63 (Temporary Facility sales less cost of sales) and awarded $1,049,250.90 in reliance damages, denied prejudgment interest, and awarded attorney fees of $792,529.25 plus $16,254.50. The Idaho Supreme Court on November 2, 2020 affirmed liability and the $1,461,393.53 reliance finding but vacated the judgment, holding the $412,142.63 reduction unsupported and instructing the district court to reverse it on recalculation, and vacated the fee awards for explanation.",
+  "attorneysFeesAtTrial": 808783.75,
+  "attorneysFeesOnAppeal": null,
+  "appellateChange": "modified",
+  "finalAmount": null,
+  "finalNote": "Vacated and remanded for recalculation; the final figure is pending rather than computed by us."
+ },
+ "source": {
+  "caseName": "Burns Concrete, Inc. and Burns Holdings, LLC v. Teton County",
+  "court": "Supreme Court of the State of Idaho, on appeal from the District Court of the Seventh Judicial District, Teton County",
+  "docket": "Docket Nos. 46827/47496",
+  "decided": "2020-11-02",
+  "url": "https://storage.courtlistener.com/pdf/2020/11/02/burns_concrete_v._teton_county.pdf",
+  "excerptNote": "Verbatim from Part I.A (Factual Background) and Part I.B (Procedural History) through the summary of the damages-trial testimony. Removed: the syllabus and introduction (award amount and disposition), the post-trial contingency-fee agreement, the district court's findings of fact and conclusions of law and both final judgments' damages and fee figures, and all analysis. Prior appellate decisions on liability (Burns 2012, Burns 2016) are retained as procedural history."
+ }
+}

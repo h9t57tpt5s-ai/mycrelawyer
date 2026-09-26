@@ -1,0 +1,242 @@
+{
+ "id": "brandon-v-wells-fargo-midland-2020",
+ "ranAt": "2026-09-26T04:02:28+00:00",
+ "status": 200,
+ "prediction": {
+  "model": "claude-sonnet-5",
+  "analysisVersion": "v4.3",
+  "cost": {
+   "totalUsd": 0.3031,
+   "analysisUsd": 0.2883,
+   "analysisUsage": {
+    "input_tokens": 5362,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 9103,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 17968,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "output_tokens_details": {
+     "thinking_tokens": 11121
+    }
+   }
+  },
+  "category": "lending-foreclosure",
+  "roleLabel": "Borrower / Guarantor",
+  "damagesRange": [
+   217757.5995,
+   6149151.99
+  ],
+  "bestGuessValue": 975993.99875,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": "Most likely outcome is a mixed bench-trial verdict: Brandon prevails narrowly on the breach-of-contract/accounting theory for a further, modest sum on top of the $103,160.89 already paid (largely tied to the unexplained payoff discrepancies and delay), while his conversion, Theft Liability Act, and speculative consequential-damages theories (the Inglewood deal) are rejected for lack of intent and broken causation; some attorney's-fee recovery for Brandon is likely if he wins any part of the contract claim.",
+  "issues": [
+   {
+    "label": "Excess Sale Proceeds Accounting / Breach of Contract",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": [
+     200000,
+     377000
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": 377000,
+    "kind": "claim",
+    "claimType": "receivership_dispute",
+    "strength": "favorable",
+    "figures": [
+     {
+      "label": "Midland's own admitted approximate excess sale proceeds before deductions",
+      "value": 377000,
+      "disputed": false,
+      "quote": "Bornheimer agreed that these figures indicated approximately $377,000 in excess sale proceeds before the deduction of any penalties, fees, or costs.",
+      "computed": null
+     },
+     {
+      "label": "Midland's internal estimate of excess proceeds due to Brandon",
+      "value": 200000,
+      "disputed": false,
+      "quote": "the excess proceeds due to Brandon would be \"approximately\" $200,000",
+      "computed": null
+     }
+    ],
+    "droppedFigures": 2,
+    "basis": "competing"
+   },
+   {
+    "label": "Consequential Damages (Lost Inglewood Investment)",
+    "probabilityRange": [
+     0.05,
+     0.2
+    ],
+    "damagesRange": [
+     1900000,
+     5717000
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": 5717000,
+    "kind": "claim",
+    "claimType": "lender_liability_claim",
+    "strength": "weak",
+    "figures": [
+     {
+      "label": "Inglewood property annual profit potential",
+      "value": 67000,
+      "disputed": true,
+      "quote": "an income and expense statement that indicated an annual profit of $67,000",
+      "computed": null
+     },
+     {
+      "label": "Inglewood property current market value",
+      "value": 3750000,
+      "disputed": true,
+      "quote": "the current market value for the Inglewood property is $3,750,000",
+      "computed": null
+     },
+     {
+      "label": "Inglewood purchase price",
+      "value": 1900000,
+      "disputed": false,
+      "quote": "a $1,900,000 purchase price",
+      "computed": null
+     }
+    ],
+    "droppedFigures": 0,
+    "basis": "itemized"
+   },
+   {
+    "label": "Conversion / Theft Liability Act (Misapplied April 2012 Payment and Retained Proceeds)",
+    "probabilityRange": [
+     0.05,
+     0.2
+    ],
+    "damagesRange": [
+     55151.990000000005,
+     55151.990000000005
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": 55151.990000000005,
+    "kind": "claim",
+    "claimType": "lender_liability_claim",
+    "strength": "weak",
+    "figures": [
+     {
+      "label": "April 2012 A-Note payment misapplied by Wells Fargo",
+      "value": 24787.41,
+      "disputed": false,
+      "quote": "Wells Fargo deposited Brandon's $24,787.41 payment for the A- Note, but Brandon's note was not credited",
+      "computed": null
+     },
+     {
+      "label": "Refund of misapplied payment plus accrued interest",
+      "value": 30364.58,
+      "disputed": false,
+      "quote": "Midland paid Brandon $30,364.58 on October 27, 2017, which was intended to be a refund of Brandon's April 2012 A-Note payment of $24,787.41 plus accrued interest at the rate of 5%",
+      "computed": null
+     }
+    ],
+    "droppedFigures": 0,
+    "basis": "itemized"
+   },
+   {
+    "label": "Lenders' Payment/Satisfaction and Contractual Offset Defense",
+    "probabilityRange": [
+     0.8,
+     0.9
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "defense",
+    "claimType": "other",
+    "strength": "strong",
+    "figures": [],
+    "droppedFigures": 1,
+    "basis": null
+   },
+   {
+    "label": "Deficiency Judgment (Not Pursued)",
+    "probabilityRange": [
+     0.95,
+     0.99
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "conceded",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "foreclosure_deficiency_judgment",
+    "strength": "conceded",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null
+   },
+   {
+    "label": "Receivership Appointment and Sale (Procedural History)",
+    "probabilityRange": [
+     0.95,
+     0.99
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "conceded",
+    "supportedCeiling": null,
+    "kind": "defense",
+    "claimType": "receivership_dispute",
+    "strength": "conceded",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null
+   },
+   {
+    "label": "Attorney's Fees",
+    "probabilityRange": [
+     0.45,
+     0.55
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "attorney_fees",
+    "strength": "even",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null
+   }
+  ],
+  "citationCoverage": {
+   "count": 32,
+   "tier": "strong"
+  }
+ },
+ "error": null,
+ "outcome": {
+  "amount": 735327.6,
+  "amountIsTheRequestedAmount": false,
+  "date": "2020-05-28",
+  "description": "After a two-day bench trial the court awarded Brandon $245,109.20 in actual damages against Wells Fargo and Midland jointly and severally, plus $245,109.20 in exemplary damages against each of them ($735,327.60 total damages), and $125,000 in attorney's fees plus conditional appellate fees; it found no consequential damages. The Thirteenth Court of Appeals reversed the judgment against Midland entirely and the exemplary damages, and affirmed the rest, leaving $245,109.20 in actual damages against Wells Fargo plus the fee award.",
+  "attorneysFeesAtTrial": 125000.0,
+  "attorneysFeesOnAppeal": "affirmed as to Wells Fargo",
+  "finalAmount": 245109.2,
+  "finalNote": "Modified on appeal: exemplary damages and Midland liability reversed; actual damages affirmed."
+ },
+ "source": {
+  "caseName": "David Keith Brandon v. Wells Fargo Bank, N.A., as Trustee for the Registered Holders of LaSalle Commercial Mortgage Securities, Inc. 2007-MF5, and Midland Loan Services",
+  "court": "Texas Thirteenth Court of Appeals (Corpus Christi-Edinburg), on appeal from the 156th District Court, San Patricio County",
+  "docket": "No. 13-18-00393-CV",
+  "decided": "2020-05-28",
+  "url": "https://search.txcourts.gov/SearchMedia.aspx?MediaVersionID=&MediaID=6611f74e-0214-4698-895d-8c0393168f0e&DT=Opinion",
+  "excerptNote": "documentText is verbatim from the Background (Parts A-D): the notes, servicing arrangement, default, the lenders' suit, receivership sale and the borrower's counterclaims, and the bench-trial testimony of both sides. Removed: the opening summary (which states the judgment), the quoted note and deed-of-trust clauses, footnote 3 and its marker, subsection headings, the payoff table reproduced from Plaintiff's Exhibit 3 and the sentence introducing it, one sentence of the lender's accounting testimony that states the unapplied-funds figure (it equals the actual-damages award), the trial court's judgment and findings (Part E), and all appellate analysis. Outcome note: amount is the trial damages award (actual plus exemplary against each defendant); finalAmount is the actual damages left after appeal."
+ }
+}

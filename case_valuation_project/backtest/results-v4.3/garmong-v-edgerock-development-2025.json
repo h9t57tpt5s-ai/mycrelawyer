@@ -1,0 +1,225 @@
+{
+ "id": "garmong-v-edgerock-development-2025",
+ "ranAt": "2026-09-26T03:33:43+00:00",
+ "status": 200,
+ "prediction": {
+  "model": "claude-sonnet-5",
+  "analysisVersion": "v4.3",
+  "cost": {
+   "totalUsd": 0.2337,
+   "analysisUsd": 0.2242,
+   "analysisUsage": {
+    "input_tokens": 2665,
+    "cache_creation_input_tokens": 8818,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 8818,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 12210,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "output_tokens_details": {
+     "thinking_tokens": 6581
+    }
+   }
+  },
+  "category": "construction-defect",
+  "roleLabel": "Contractor / Design Professional",
+  "damagesRange": [
+   -1099681.2044,
+   1009055.62
+  ],
+  "bestGuessValue": -258142.0097,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": "Garmong is likely to win a judgment establishing the $1,009,055.62 debt and lien foreclosure rights against EdgeRock on the merits, but actual collection will be contested and partially reduced by (1) the stipulated ~$202,623.56 owed to Fox, (2) a real risk ZPS's Lots 1-2 security is knocked out on a double-payment theory, and (3) a priority fight with First Bank over EdgeRock's remaining Lots 4-5 given the diverted loan proceeds. Net expected recovery is meaningfully below the face lien amount once these frictions are priced in.",
+  "issues": [
+   {
+    "label": "Garmong's Breach of Contract / Lien Foreclosure Claim (second lien, $1,009,055.62)",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": [
+     0,
+     1009055.62
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": 1009055.62,
+    "kind": "claim",
+    "claimType": "contractor_breach_negligence",
+    "strength": "favorable",
+    "figures": [
+     {
+      "label": "Second Garmong lien on EdgeRock's and ZPS's lots (same work, same amount)",
+      "value": 1009055.62,
+      "disputed": true,
+      "quote": "more payment disputes arose between EdgeRock, Garmong, and Fox related to work under the EdgeRock-Garmong Contract, leading Garmong to record two liens\u2014one on EdgeRock\u2019s lots, the other on ZPS\u2019s lots\u2014both for the same amount ($1,009,055.62) covering the same work",
+      "computed": null
+     }
+    ],
+    "droppedFigures": 0,
+    "basis": "itemized"
+   },
+   {
+    "label": "First Lien Already Satisfied ($2,140,722.51) \u2014 Background, Not Live Damages",
+    "probabilityRange": [
+     0.95,
+     0.99
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "conceded",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "other",
+    "strength": "conceded",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null
+   },
+   {
+    "label": "Lien Priority vs. First Bank's Mortgage on Lots 4 and 5",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "defense",
+    "claimType": "other",
+    "strength": "favorable",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null
+   },
+   {
+    "label": "ZPS's Double-Payment Defense (Lots 1 and 2)",
+    "probabilityRange": [
+     0.45,
+     0.55
+    ],
+    "damagesRange": [
+     -1720000,
+     -1720000
+    ],
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": -1720000,
+    "kind": "defense",
+    "claimType": "other",
+    "strength": "even",
+    "figures": [
+     {
+      "label": "ZPS's full contract payment to EdgeRock",
+      "value": 1720000,
+      "disputed": false,
+      "quote": "ZPS agreed to pay EdgeRock a total of $1,720,000, which ZPS did",
+      "computed": null
+     }
+    ],
+    "droppedFigures": 0,
+    "basis": "competing"
+   },
+   {
+    "label": "Fox Subcontractor Debt Owed by Garmong (Stipulated Setoff)",
+    "probabilityRange": [
+     0.95,
+     0.99
+    ],
+    "damagesRange": [
+     -202623.56,
+     -202623.56
+    ],
+    "claimant": "opposing",
+    "liabilityStatus": "conceded",
+    "supportedCeiling": -202623.56,
+    "kind": "claim",
+    "claimType": "other",
+    "strength": "conceded",
+    "figures": [
+     {
+      "label": "Stipulated reduced Fox debt",
+      "value": 202623.56,
+      "disputed": false,
+      "quote": "Garmong and Fox stipulated that this $500,053.42 debt was reduced to $202,623.56",
+      "computed": null
+     }
+    ],
+    "droppedFigures": 0,
+    "basis": "itemized"
+   },
+   {
+    "label": "RIF Funds Interpleader ($938,322.40) \u2014 Not Garmong's Contract",
+    "probabilityRange": [
+     0.05,
+     0.2
+    ],
+    "damagesRange": [
+     938322.4,
+     938322.4
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "unknown",
+    "supportedCeiling": 938322.4,
+    "kind": "claim",
+    "claimType": "other",
+    "strength": "weak",
+    "figures": [
+     {
+      "label": "Interpleaded RIF Funds",
+      "value": 938322.4,
+      "disputed": true,
+      "quote": "the City of Westfield interpleaded its RIF Funds totaling $938,322.40, in which multiple parties claim an interest",
+      "computed": null
+     }
+    ],
+    "droppedFigures": 0,
+    "basis": "competing"
+   },
+   {
+    "label": "Unquantified Counterclaims by EdgeRock, ZPS, and Fox",
+    "probabilityRange": [
+     0.45,
+     0.55
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "unknown",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "other",
+    "strength": "even",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null
+   }
+  ],
+  "citationCoverage": {
+   "count": 29,
+   "tier": "strong"
+  }
+ },
+ "error": null,
+ "outcome": {
+  "amount": 943042.64,
+  "amountIsTheRequestedAmount": false,
+  "date": "2025-06-03",
+  "description": "After an eight-day bench trial, the court held Garmong prevailed on its breach-of-contract claim against EdgeRock for $943,042.64 plus interest and costs, with lien foreclosure for the same amount (Fox separately won $1,301,531.37 against EdgeRock). On transfer the Indiana Supreme Court limited the construction liens to work benefiting each lot (invalidating Garmong's lien on EdgeRock's lots and reducing its lien on ZPS's lots to $520,509.70) and addressed mortgage priority; the in personam money judgment against EdgeRock on the contract claim was not disturbed.",
+  "attorneysFeesAtTrial": null,
+  "attorneysFeesOnAppeal": null,
+  "finalAmount": 943042.64,
+  "finalNote": "In personam contract judgment undisturbed; lien security narrowed on transfer."
+ },
+ "source": {
+  "caseName": "EdgeRock Development, LLC, ZPS Westfield, LLC, and First Bank Richmond v. C.H. Garmong & Son, Inc., Signworks, Inc., and Fox Contractors Corp.",
+  "court": "Indiana Supreme Court (on transfer from the Court of Appeals), on appeal from the Hamilton Superior Court 5",
+  "docket": "No. 24S-PL-184 (Ct. App. No. 22A-PL-1968; trial No. 29D05-1912-PL-11500)",
+  "decided": "2025-06-03",
+  "url": "https://storage.courtlistener.com/pdf/2025/06/03/edgerock_development_llc_v._c.h._garmong__son_inc.pdf",
+  "excerptNote": "documentText is verbatim from Facts and Procedural History Parts I-IV, ending with the mid-trial summary-judgment rulings and the interpleader of the RIF Funds. Removed: the opening summary (which states the bench-trial result), the two sentences introducing photographs, section headings, page headers, the paragraph listing the trial court's rulings and amounts, the Court of Appeals' decision, and all of the Supreme Court's analysis. Note: the opinion does not describe EdgeRock's reasons for non-payment, so the owner's side is thin. Whitespace normalized only."
+ }
+}
