@@ -186,7 +186,10 @@ def consistency(first_rows, repeat_dir):
         b = repeats.get(r["id"])
         if not b or r["error"]:
             continue
-        a_rng, b_rng = r["exFees"]["predictedRange"], b["exFees"]["predictedRange"]
+        # A declined case shows no figure to the user, so only cases priced
+        # on both runs are compared.
+        a_rng = None if r["declined"] else r["exFees"]["predictedRange"]
+        b_rng = None if b["declined"] else b["exFees"]["predictedRange"]
         pairs.append({
             "id": r["id"],
             "bothPriced": bool(a_rng and b_rng),

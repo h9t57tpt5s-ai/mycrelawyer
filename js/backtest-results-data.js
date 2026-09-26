@@ -3769,13 +3769,13 @@ window.BACKTEST_RESULTS = {
    "consistency": {
     "pairs": 25,
     "sameDecline": 25,
-    "medianBestGuessDiff": 0.18181818181818188,
+    "medianBestGuessDiff": 0.1779344073647871,
     "bestGuessWithin5": 4,
     "bestGuessWithin10": 8,
-    "bestGuessCompared": 22,
-    "medianBoundDiff": 0.06667039141817253,
-    "sameHitVerdict": 20,
-    "verdictsCompared": 22,
+    "bestGuessCompared": 21,
+    "medianBoundDiff": 0.1,
+    "sameHitVerdict": 19,
+    "verdictsCompared": 21,
     "cases": [
      {
       "id": "721-st-charles-crd-2025",
@@ -3825,24 +3825,18 @@ window.BACKTEST_RESULTS = {
      },
      {
       "id": "cumberland-lakefront-blackwing-2025",
-      "bothPriced": true,
+      "bothPriced": false,
       "sameDecline": true,
-      "bestGuessDiff": 0.23076738884738435,
-      "lowDiff": 0.06667039141817253,
-      "highDiff": 0.0,
-      "sameVerdict": true,
+      "bestGuessDiff": null,
+      "lowDiff": null,
+      "highDiff": null,
+      "sameVerdict": null,
       "first": {
-       "range": [
-        -125288,
-        0
-       ],
+       "range": null,
        "bestGuess": -67863.90000000001
       },
       "repeat": {
-       "range": [
-        -116935,
-        0
-       ],
+       "range": null,
        "bestGuess": -52203.125
       }
      },
@@ -4261,10 +4255,7 @@ window.BACKTEST_RESULTS = {
        "bestGuess": null
       },
       "repeat": {
-       "range": [
-        -990000,
-        0
-       ],
+       "range": null,
        "bestGuess": -385000.0
       }
      },
@@ -5588,15 +5579,15 @@ window.BACKTEST_RESULTS = {
     }
    ],
    "consistency": {
-    "pairs": 19,
-    "sameDecline": 19,
-    "medianBestGuessDiff": 0.016222577534828822,
-    "bestGuessWithin5": 10,
-    "bestGuessWithin10": 10,
-    "bestGuessCompared": 15,
-    "medianBoundDiff": 0.0,
-    "sameHitVerdict": 15,
-    "verdictsCompared": 15,
+    "pairs": 25,
+    "sameDecline": 25,
+    "medianBestGuessDiff": 0.02037857650332822,
+    "bestGuessWithin5": 12,
+    "bestGuessWithin10": 12,
+    "bestGuessCompared": 20,
+    "medianBoundDiff": 0.0029472534153336476,
+    "sameHitVerdict": 20,
+    "verdictsCompared": 20,
     "cases": [
      {
       "id": "721-st-charles-crd-2025",
@@ -5622,25 +5613,42 @@ window.BACKTEST_RESULTS = {
       }
      },
      {
-      "id": "cumberland-lakefront-blackwing-2025",
+      "id": "carmel-barham-dealership-2023",
       "bothPriced": true,
       "sameDecline": true,
-      "bestGuessDiff": 0.6153846153846154,
-      "lowDiff": 0.5,
+      "bestGuessDiff": 0.30412371134020616,
+      "lowDiff": 1.0,
       "highDiff": 0.0,
       "sameVerdict": true,
       "first": {
        "range": [
-        -66820,
-        0
+        97800,
+        163000
        ],
-       "bestGuess": -27145.625
+       "bestGuess": 110025.0
       },
       "repeat": {
        "range": [
-        -33410,
-        0
+        0,
+        163000
        ],
+       "bestGuess": 158110.0
+      }
+     },
+     {
+      "id": "cumberland-lakefront-blackwing-2025",
+      "bothPriced": false,
+      "sameDecline": true,
+      "bestGuessDiff": null,
+      "lowDiff": null,
+      "highDiff": null,
+      "sameVerdict": null,
+      "first": {
+       "range": null,
+       "bestGuess": -27145.625
+      },
+      "repeat": {
+       "range": null,
        "bestGuess": -10440.625
       }
      },
@@ -5680,10 +5688,7 @@ window.BACKTEST_RESULTS = {
        "bestGuess": null
       },
       "repeat": {
-       "range": [
-        -1000,
-        0
-       ],
+       "range": null,
        "bestGuess": -312.5
       }
      },
@@ -5731,6 +5736,52 @@ window.BACKTEST_RESULTS = {
         1500000
        ],
        "bestGuess": 756250.0
+      }
+     },
+     {
+      "id": "franciscan-cvs-i69-2023",
+      "bothPriced": true,
+      "sameDecline": true,
+      "bestGuessDiff": 0.3428350589364633,
+      "lowDiff": 0.4253056884635832,
+      "highDiff": 0.0,
+      "sameVerdict": true,
+      "first": {
+       "range": [
+        893475,
+        4447400
+       ],
+       "bestGuess": 2245978.0
+      },
+      "repeat": {
+       "range": [
+        513475,
+        4447400
+       ],
+       "bestGuess": 1475978.0
+      }
+     },
+     {
+      "id": "frye-v-raphaelson-estate-2023",
+      "bothPriced": true,
+      "sameDecline": true,
+      "bestGuessDiff": 0.5657216494845361,
+      "lowDiff": 1.6605865276920615,
+      "highDiff": 0.5238095238095238,
+      "sameVerdict": true,
+      "first": {
+       "range": [
+        -28900,
+        160000
+       ],
+       "bestGuess": 84250.0
+      },
+      "repeat": {
+       "range": [
+        43749,
+        336000
+       ],
+       "bestGuess": 194000.0
       }
      },
      {
@@ -5826,6 +5877,29 @@ window.BACKTEST_RESULTS = {
       }
      },
      {
+      "id": "lagoon-partners-landmark-2023",
+      "bothPriced": true,
+      "sameDecline": true,
+      "bestGuessDiff": 0.487278895385849,
+      "lowDiff": 0.7883186542782853,
+      "highDiff": 0.5,
+      "sameVerdict": true,
+      "first": {
+       "range": [
+        291369,
+        1808470
+       ],
+       "bestGuess": 1284454.35
+      },
+      "repeat": {
+       "range": [
+        1376451,
+        3616940
+       ],
+       "bestGuess": 2505171.6
+      }
+     },
+     {
       "id": "lbj-venture-v-kolaj-2025",
       "bothPriced": true,
       "sameDecline": true,
@@ -5872,6 +5946,29 @@ window.BACKTEST_RESULTS = {
       }
      },
      {
+      "id": "navient-v-bpg-office-partners-2023",
+      "bothPriced": true,
+      "sameDecline": true,
+      "bestGuessDiff": 0.0037026916590075965,
+      "lowDiff": 0.0029472534153336476,
+      "highDiff": 0.0,
+      "sameVerdict": true,
+      "first": {
+       "range": [
+        226991,
+        503823
+       ],
+       "bestGuess": 383943.66339999996
+      },
+      "repeat": {
+       "range": [
+        226322,
+        503823
+       ],
+       "bestGuess": 382522.03839999996
+      }
+     },
+     {
       "id": "nco-montgomery-park-2025",
       "bothPriced": true,
       "sameDecline": true,
@@ -5912,6 +6009,29 @@ window.BACKTEST_RESULTS = {
       }
      },
      {
+      "id": "telegraph-square-7205-2023",
+      "bothPriced": true,
+      "sameDecline": true,
+      "bestGuessDiff": 0.0,
+      "lowDiff": 0.0,
+      "highDiff": 0.0,
+      "sameVerdict": true,
+      "first": {
+       "range": [
+        398250,
+        2225000
+       ],
+       "bestGuess": 1112500.0
+      },
+      "repeat": {
+       "range": [
+        398250,
+        2225000
+       ],
+       "bestGuess": 1112500.0
+      }
+     },
+     {
       "id": "tres-botes-v-shree-maa-krupa-2026",
       "bothPriced": false,
       "sameDecline": true,
@@ -5944,10 +6064,7 @@ window.BACKTEST_RESULTS = {
        "bestGuess": null
       },
       "repeat": {
-       "range": [
-        -1650000,
-        0
-       ],
+       "range": null,
        "bestGuess": -1485000.0
       }
      },
