@@ -6047,6 +6047,75 @@ const RELAW_DATA = {
       docketUrl: "https://www.courtlistener.com/docket/74850183/new-flagler-development-llc/",
       docketLabel: "CourtListener docket",
       tags: ["chapter-11", "bankruptcy", "debt-restructuring", "transit-oriented-development", "brightline"]
+    },
+    {
+      id: "live-182",
+      addedDate: "2026-09-26",
+      title: "Flagship Partners v. Reuben Brothers, O'Connor Capital Partners ($200M Palm Beach Esplanade Broker Commission Suit)",
+      category: "lease-disputes",
+      status: "filed",
+      date: "2026-09-01",
+      jurisdiction: "Miami-Dade County Circuit Court",
+      state: "FL",
+      amount: "$3M commission claimed (1.5% of $200M sale price)",
+      source: "live",
+      sourceUrl: "https://therealdeal.com/miami/2026/09/10/broker-sues-reuben-bros-oconnor-capital-over-mega-deal/",
+      summary: "Delray Beach-based brokerage Flagship Partners sued Reuben Brothers and O'Connor Capital Partners in Miami-Dade Circuit Court on September 1, 2026, alleging the buyer and seller cut it out of a $200 million sale of The Esplanade, a Palm Beach retail complex at 150 Worth Avenue, after Flagship introduced the two sides. The complaint seeks a $3 million commission, 1.5% of the sale price, that Flagship says neither side ever disputed was owed once the deal closed in March 2026.",
+      significance: "A recurring exposure for institutional buyers and sellers on off-market commercial deals: a broker who claims credit for introducing the parties can pursue a commission claim well after closing even without a signed brokerage agreement with both sides, particularly where the amount and rate went unchallenged when first raised. Owners and funds relying on off-market intermediaries should document commission terms and any disclaimers in writing before a deal reaches the letter-of-intent stage.",
+      body: [
+        "Delray Beach-based brokerage Flagship Partners has sued Reuben Brothers and O'Connor Capital Partners in Miami-Dade Circuit Court, alleging the two firms cut it out of a commission on the $200 million sale of The Esplanade, an upscale retail complex at 150 Worth Avenue in Palm Beach. The complaint, filed September 1, 2026, says Flagship's founder began marketing the property to off-market buyers on O'Connor's behalf in late 2023 and, in December of that year, contacted Reuben-affiliated Motcomb Estates, ultimately connecting the two sides that closed the sale this past March.",
+        "According to the complaint, Flagship made clear to both O'Connor and Reuben that it expected a 1.5% commission on the transaction, which would come to $3 million on the eventual $200 million sale price. The lawsuit alleges that neither the buyer nor the seller ever negotiated that rate or disputed that a commission was owed while the deal was being negotiated, only to exclude Flagship from any payout once the transaction actually closed. An affiliate of London-based Reuben Brothers, together with Crown Onyx, acquired the property from an O'Connor affiliate in March 2026 ahead of a planned luxury hotel redevelopment of the site.",
+        "The dispute illustrates a recurring risk in off-market commercial real estate transactions, where a broker's role in originating and connecting the parties is often understood informally rather than documented in a signed brokerage or co-broker agreement with both sides of the deal. Without a written agreement fixing the commission rate and confirming which party is responsible for paying it, a buyer and seller who complete a deal through an intermediary's introduction can find themselves facing a claim for a fee neither formally committed to pay in writing, even where, as alleged here, neither side disputed the rate while negotiations were ongoing.",
+        "For institutional buyers and sellers active in off-market deal sourcing, the case is a reminder to formalize commission terms in writing as soon as a broker's introduction leads to substantive negotiations, rather than relying on an informal understanding that can later be contested by either side once a lucrative deal has closed. Both Reuben Brothers and O'Connor Capital Partners had not yet responded to the complaint as of this writing."
+      ],
+      timeline: [
+        { when: "Late 2023", label: "Flagship Partners begins marketing The Esplanade to off-market buyers on O'Connor Capital Partners' behalf" },
+        { when: "March 2026", label: "A Reuben Brothers affiliate and Crown Onyx close on the $200M purchase of The Esplanade from an O'Connor affiliate" },
+        { when: "September 1, 2026", label: "Flagship Partners sues Reuben Brothers and O'Connor Capital Partners in Miami-Dade Circuit Court for its $3M commission", current: true }
+      ],
+      judge: null,
+      parties: [
+        { name: "Flagship Partners", role: "Plaintiff/Broker" },
+        { name: "Reuben Brothers", role: "Defendant/Buyer" },
+        { name: "O'Connor Capital Partners", role: "Defendant/Seller" }
+      ],
+      amountUsd: 3000000,
+      amountBasis: "claim",
+      tags: ["broker commission", "retail", "palm beach", "off-market deal", "contract dispute"]
+    },
+    {
+      id: "live-183",
+      addedDate: "2026-09-26",
+      title: "9 New York Ave LLC v. JLL (NoMa Apartment Tower NOI-Inflation Fraud Suit)",
+      category: "lease-disputes",
+      status: "filed",
+      date: "2026-08-21",
+      jurisdiction: "Circuit Court of Cook County, Illinois",
+      state: "IL",
+      amount: "$12.4M sought (lost value plus $4.3M in claimed lost-opportunity damages)",
+      source: "live",
+      sourceUrl: "https://www.bisnow.com/news/washington-dc/multifamily/developer-sues-jll-claiming-fudged-numbers-dc-project",
+      summary: "9 New York Ave LLC, the ownership entity behind a 115-unit luxury apartment tower in Washington, D.C.'s NoMa neighborhood, sued JLL on August 21, 2026 in Cook County Circuit Court, accusing the brokerage of deliberately inflating net operating income projections used to size the project's construction financing. The developer says it sold the completed building for $30.5 million in April 2026, well short of the returns JLL's numbers had projected, and is seeking more than $12 million in damages.",
+      significance: "Places litigation risk on the advisory side of a development deal rather than the usual borrower-lender dispute, testing how far a developer can hold a brokerage's financial projections to account after a project underperforms. Owners and lenders who rely on third-party NOI projections to size construction debt should scrutinize the underlying assumptions independently rather than treating a brokerage's pro forma as a given.",
+      body: [
+        "9 New York Ave LLC, the entity behind a 115-unit luxury apartment tower called The Pinnacle in Washington, D.C.'s NoMa neighborhood, sued JLL on August 21, 2026 in Cook County Circuit Court, where the brokerage is headquartered. The complaint accuses JLL of deliberately inflating net operating income projections for the 14-story building to make the deal's financing math work, allegations the developer says only became apparent once the building underperformed after delivering in 2024.",
+        "According to the complaint, the developer relied on JLL's income projections to size the construction loan used to build the Pinnacle at 7 New York Ave. NE. The building ultimately sold in April 2026 for $30.5 million to July Residential, a price the plaintiff alleges fell well short of the value JLL's original projections had supported, leaving the ownership entity facing losses on the project along with the fees and interest carried while the underperforming numbers were being relied upon.",
+        "The lawsuit seeks more than $12 million in total damages, combining the plaintiff's claimed losses on the project with fees, interest, and roughly $4.3 million in additional lost-opportunity damages the complaint attributes to capital that could have been deployed differently had the true income picture been known at the outset. The suit was filed in Illinois rather than the District of Columbia, where the property itself sits, reflecting JLL's headquarters location and, likely, forum-selection terms in the parties' underlying engagement.",
+        "For developers and lenders in multifamily construction financing, the case is a reminder that a brokerage's net operating income projections, while routinely relied upon to size construction and permanent debt, are themselves a potential source of liability if a developer can show the numbers were knowingly inflated rather than merely optimistic. Owners commissioning third-party income projections for financing purposes should document the assumptions underlying those projections in writing and consider independent verification of key inputs, particularly on deals where the brokerage advising on projections also stands to earn a fee tied to the transaction closing."
+      ],
+      timeline: [
+        { when: "2024", label: "The Pinnacle, a 115-unit apartment tower at 7 New York Ave. NE in D.C.'s NoMa neighborhood, is completed and delivered" },
+        { when: "April 2026", label: "9 New York Ave LLC sells the building to July Residential for $30.5M" },
+        { when: "August 21, 2026", label: "9 New York Ave LLC sues JLL in Cook County Circuit Court, alleging inflated NOI projections and seeking over $12M", current: true }
+      ],
+      judge: null,
+      parties: [
+        { name: "9 New York Ave LLC", role: "Plaintiff/Developer" },
+        { name: "JLL", role: "Defendant" }
+      ],
+      amountUsd: 12400000,
+      amountBasis: "damages sought",
+      tags: ["professional negligence", "multifamily", "construction financing", "washington-dc", "brokerage liability"]
     }
   ],
 
