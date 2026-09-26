@@ -1,13 +1,214 @@
 {
  "id": "telegraph-square-7205-2023",
- "ranAt": "2026-09-25T16:58:42+00:00",
- "status": 502,
- "prediction": null,
- "error": {
-  "error": "Analysis failed \u2014 try again.",
-  "code": "upstream_error",
-  "detail": "400 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfQWiCEuEch8tGNC5pNAx\"}"
+ "ranAt": "2026-09-26T00:43:48+00:00",
+ "status": 200,
+ "prediction": {
+  "model": "claude-sonnet-5",
+  "analysisVersion": "v4.2",
+  "cost": {
+   "totalUsd": 0.1962,
+   "analysisUsd": 0.1857,
+   "analysisUsage": {
+    "input_tokens": 2586,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 9277,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 11678,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "output_tokens_details": {
+     "thinking_tokens": 6132
+    }
+   }
+  },
+  "category": "lease-disputes",
+  "roleLabel": "Landlord",
+  "damagesRange": [
+   398250,
+   2225000
+  ],
+  "bestGuessValue": 1112500,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": "7205 Telegraph is likely to prevail on liability given the clear site-plan violation, the sharp before/after parking cut, and the undisclosed board self-dealing, but the damages award will land well short of its expert's top-end $1,340,000 diminution theory because the actual post-reallocation parking count (12 spaces) tracks much closer to the Association's own low-damage scenario. The over-assessment claim and the Association's lien counterclaim are unliquidated on this record and could offset each other depending on how the court treats the dues obligation once parking rights were curtailed.",
+  "issues": [
+   {
+    "label": "Breach of Condominium Instruments/Site Plan via 2015 Parking Reallocation",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "other",
+    "strength": "favorable",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null
+   },
+   {
+    "label": "Board Self-Dealing/Undisclosed Conflict of Interest in 2015 Vote",
+    "probabilityRange": [
+     0.8,
+     0.9
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "other",
+    "strength": "strong",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null
+   },
+   {
+    "label": "Diminution-in-Value / Consequential Damages from Loss of D&K Tenancy",
+    "probabilityRange": [
+     0.45,
+     0.55
+    ],
+    "damagesRange": [
+     885000,
+     2225000
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": 2225000,
+    "kind": "claim",
+    "claimType": "other",
+    "strength": "even",
+    "figures": [
+     {
+      "label": "7205's expert valuation assuming 30 spaces",
+      "value": 2225000,
+      "disputed": true,
+      "quote": "O'Neill estimated the market value of 7205 Telegraph's Phase IV units at $2,225,000",
+      "computed": null
+     },
+     {
+      "label": "7205's expert valuation assuming 5 spaces",
+      "value": 885000,
+      "disputed": true,
+      "quote": "On the assumption that 7205 Telegraph's Phase IV units had 5 appurtenant parking spaces, O'Neill estimated the market value of 7205 Telegraph's Phase IV units at $885,000",
+      "computed": null
+     },
+     {
+      "label": "Association's expert valuation assuming 15 spaces",
+      "value": 2080000,
+      "disputed": true,
+      "quote": "the market value of 7205 Telegraph's Phase IV units with 15 parking spaces was $2,080,000",
+      "computed": null
+     },
+     {
+      "label": "Association's expert valuation assuming 34 spaces",
+      "value": 2190000,
+      "disputed": true,
+      "quote": "the value with 34 parking spaces would be $2,190,000",
+      "computed": null
+     }
+    ],
+    "droppedFigures": 0,
+    "basis": "competing"
+   },
+   {
+    "label": "Zoning Ordinance Compliance (Site Plan 30-Space Requirement)",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "other",
+    "strength": "favorable",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null
+   },
+   {
+    "label": "Over-Assessment for Phase I Common Elements",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "other",
+    "strength": "favorable",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null
+   },
+   {
+    "label": "Association's Lien for Unpaid Dues (2017-2019)",
+    "probabilityRange": [
+     0.45,
+     0.55
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "other",
+    "strength": "even",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null
+   },
+   {
+    "label": "Attorney's Fees Under Bylaws \u00a79.1(b)",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "attorney_fees",
+    "strength": "favorable",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null
+   },
+   {
+    "label": "Causation Dilution / Pre-Existing Zoning Shortfall Defense",
+    "probabilityRange": [
+     0.25,
+     0.4
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "defense",
+    "claimType": "other",
+    "strength": "unfavorable",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null
+   }
+  ],
+  "citationCoverage": {
+   "count": 39,
+   "tier": "strong"
+  }
  },
+ "error": null,
  "outcome": {
   "amount": 481434.84,
   "amountIsTheRequestedAmount": false,

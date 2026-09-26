@@ -1,13 +1,238 @@
 {
  "id": "navient-v-bpg-office-partners-2023",
- "ranAt": "2026-09-25T16:58:57+00:00",
- "status": 502,
- "prediction": null,
- "error": {
-  "error": "Analysis failed \u2014 try again.",
-  "code": "upstream_error",
-  "detail": "400 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfQWjJcQkT2DHtxuEzdWb\"}"
+ "ranAt": "2026-09-26T00:51:45+00:00",
+ "status": 200,
+ "prediction": {
+  "model": "claude-sonnet-5",
+  "analysisVersion": "v4.2",
+  "cost": {
+   "totalUsd": 0.2308,
+   "analysisUsd": 0.2198,
+   "analysisUsage": {
+    "input_tokens": 2745,
+    "cache_creation_input_tokens": 9277,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 9277,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 11784,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "output_tokens_details": {
+     "thinking_tokens": 6390
+    }
+   }
+  },
+  "category": "lease-disputes",
+  "roleLabel": "Tenant",
+  "damagesRange": [
+   226322.83399999997,
+   503822.72
+  ],
+  "bestGuessValue": 382522.03839999996,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": "BPG's conceded liability for the $503,822.72 cooling tower claim is fixed; the live question is how much of BPG's $817,845 counterclaim survives as a setoff. Given a likely time-barred transformer claim, BPG's own expert undercutting the rooftop-unit replacement demand, and a heat pump claim resting on an age-based theory Navient's expert directly rebutted, BPG is likely to recover only a fraction of what it seeks \u2014 leaving Navient with a substantial net recovery after setoff, and a good argument for prevailing-party fees.",
+  "issues": [
+   {
+    "label": "Cooling Tower Reimbursement (Conceded)",
+    "probabilityRange": [
+     0.95,
+     0.99
+    ],
+    "damagesRange": [
+     503822.72,
+     503822.72
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "conceded",
+    "supportedCeiling": 503822.72,
+    "kind": "claim",
+    "claimType": "other",
+    "strength": "conceded",
+    "figures": [
+     {
+      "label": "unamortized cooling tower replacement cost",
+      "value": 503822.72,
+      "disputed": false,
+      "quote": "It is now undisputed that Navient is entitled to $503,822.72 for the unamortized cost incurred when it replaced the cooling tower at the Blue Wing.",
+      "computed": null
+     }
+    ],
+    "droppedFigures": 0,
+    "basis": "itemized"
+   },
+   {
+    "label": "Heat Pump Replacement Counterclaim",
+    "probabilityRange": [
+     0.25,
+     0.4
+    ],
+    "damagesRange": [
+     -434500,
+     -28750
+    ],
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": -434500,
+    "kind": "claim",
+    "claimType": "property_damage",
+    "strength": "unfavorable",
+    "figures": [
+     {
+      "label": "BPG's total heat pump claim",
+      "value": 434500,
+      "disputed": true,
+      "quote": "$434,500 for heat pumps",
+      "computed": null
+     },
+     {
+      "label": "Levering's total replacement calculation",
+      "value": 405800,
+      "disputed": true,
+      "quote": "Mr. Levering's calculation for the total cost of replacement was $405,800.",
+      "computed": null
+     },
+     {
+      "label": "repair cost for 11 non-operational units within life expectancy",
+      "value": 28750,
+      "disputed": true,
+      "quote": "these 11 heat pumps should be repaired (rather than replaced) at an estimated cost of $28,750",
+      "computed": null
+     }
+    ],
+    "droppedFigures": 1,
+    "basis": "competing"
+   },
+   {
+    "label": "Rooftop Air Units Counterclaim",
+    "probabilityRange": [
+     0.05,
+     0.2
+    ],
+    "damagesRange": [
+     -240000,
+     -8400
+    ],
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": -240000,
+    "kind": "claim",
+    "claimType": "property_damage",
+    "strength": "weak",
+    "figures": [
+     {
+      "label": "BPG's replacement cost estimate (high end)",
+      "value": 240000,
+      "disputed": true,
+      "quote": "BPG's estimated cost to replace the rooftop air units is between $217,200 and $240,000",
+      "computed": null
+     },
+     {
+      "label": "BPG's replacement cost estimate (low end)",
+      "value": 217200,
+      "disputed": true,
+      "quote": "BPG's estimated cost to replace the rooftop air units is between $217,200 and $240,000",
+      "computed": null
+     },
+     {
+      "label": "Frenck's repair cost estimate",
+      "value": 8400,
+      "disputed": true,
+      "quote": "Mr. Frenck's estimated cost to repair both rooftop air units totaled $8,400",
+      "computed": null
+     }
+    ],
+    "droppedFigures": 0,
+    "basis": "competing"
+   },
+   {
+    "label": "Transformer/Pad Counterclaim \u2014 Statute of Limitations",
+    "probabilityRange": [
+     0.05,
+     0.2
+    ],
+    "damagesRange": [
+     -140000,
+     -70000
+    ],
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": -140000,
+    "kind": "claim",
+    "claimType": "property_damage",
+    "strength": "weak",
+    "figures": [
+     {
+      "label": "BPG's transformer/pad claim",
+      "value": 140000,
+      "disputed": true,
+      "quote": "$140,000 for the transformer and pad",
+      "computed": null
+     },
+     {
+      "label": "Navient's actual replacement cost",
+      "value": 70000,
+      "disputed": true,
+      "quote": "Navient paid $70,000 for the replacement transformer.",
+      "computed": null
+     }
+    ],
+    "droppedFigures": 0,
+    "basis": "competing"
+   },
+   {
+    "label": "Elevator Bracket Repair Counterclaim",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": [
+     -3345,
+     -3345
+    ],
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": -3345,
+    "kind": "claim",
+    "claimType": "property_damage",
+    "strength": "favorable",
+    "figures": [
+     {
+      "label": "elevator bracket repair",
+      "value": 3345,
+      "disputed": false,
+      "quote": "$3,345 for the elevators",
+      "computed": null
+     }
+    ],
+    "droppedFigures": 0,
+    "basis": "itemized"
+   },
+   {
+    "label": "Prevailing-Party Attorney's Fees",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "attorney_fees",
+    "strength": "favorable",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null
+   }
+  ],
+  "citationCoverage": {
+   "count": 39,
+   "tier": "strong"
+  }
  },
+ "error": null,
  "outcome": {
   "amount": 424172.72,
   "amountIsTheRequestedAmount": false,

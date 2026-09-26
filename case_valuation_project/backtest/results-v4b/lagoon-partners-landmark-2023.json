@@ -1,13 +1,215 @@
 {
  "id": "lagoon-partners-landmark-2023",
- "ranAt": "2026-09-25T16:58:46+00:00",
- "status": 502,
- "prediction": null,
- "error": {
-  "error": "Analysis failed \u2014 try again.",
-  "code": "upstream_error",
-  "detail": "400 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfQWiVBNwqSZNhub8Xh6M\"}"
+ "ranAt": "2026-09-26T00:45:53+00:00",
+ "status": 200,
+ "prediction": {
+  "model": "claude-sonnet-5",
+  "analysisVersion": "v4.2",
+  "cost": {
+   "totalUsd": 0.1856,
+   "analysisUsd": 0.1754,
+   "analysisUsage": {
+    "input_tokens": 2384,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 9277,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 11030,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "output_tokens_details": {
+     "thinking_tokens": 4826
+    }
+   }
+  },
+  "category": "lease-disputes",
+  "roleLabel": "Landlord",
+  "damagesRange": [
+   1376451.6,
+   1808470
+  ],
+  "bestGuessValue": 1808470,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": "Lagoon is very likely to establish breach and collect the unpaid rent in full, and is more likely than not to have the liquidated-damages/acceleration clause upheld as enforceable rather than an unlawful penalty; but summary judgment on the future-rent component is likely to be denied or only partially granted because Landmark has raised a genuine, evidence-backed mitigation dispute tied to Lagoon's post-surrender redevelopment of the property, sending that portion of damages to trial where Lagoon should still recover a majority, but not all, of its demanded future rent.",
+  "issues": [
+   {
+    "label": "Unpaid Rent Through Surrender",
+    "probabilityRange": [
+     0.8,
+     0.9
+    ],
+    "damagesRange": [
+     364212,
+     364212
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": 364212,
+    "kind": "claim",
+    "claimType": "unpaid_rent",
+    "strength": "strong",
+    "figures": [
+     {
+      "label": "unpaid rent as of May 2021",
+      "value": 364212,
+      "disputed": false,
+      "quote": "Lagoon demanded payment of $364,212 in unpaid rent as of May 2021 and $1,444,258 for the present value of future rent payments, for a total of $1,808,470.",
+      "computed": null
+     }
+    ],
+    "droppedFigures": 0,
+    "basis": "itemized"
+   },
+   {
+    "label": "Accelerated / Present-Value Future Rent",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": [
+     0,
+     1444258
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": 1444258,
+    "kind": "claim",
+    "claimType": "accelerated_rent",
+    "strength": "favorable",
+    "figures": [
+     {
+      "label": "present value of future rent payments",
+      "value": 1444258,
+      "disputed": true,
+      "quote": "and $1,444,258 for the present value of future rent payments, for a total of $1,808,470",
+      "computed": null
+     }
+    ],
+    "droppedFigures": 0,
+    "basis": "itemized"
+   },
+   {
+    "label": "Total Contract Damages Demand (Complaint Prayer)",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": [
+     1808470,
+     1808470
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": 1808470,
+    "kind": "claim",
+    "claimType": "other",
+    "strength": "favorable",
+    "figures": [
+     {
+      "label": "total damages sought in complaint",
+      "value": 1808470,
+      "disputed": false,
+      "quote": "seeks damages of $1,808,470, plus attorney fees, costs, and disbursements",
+      "computed": null
+     }
+    ],
+    "droppedFigures": 0,
+    "basis": "itemized"
+   },
+   {
+    "label": "Penalty-Clause Challenge to Liquidated Damages",
+    "probabilityRange": [
+     0.25,
+     0.4
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "defense",
+    "claimType": "other",
+    "strength": "unfavorable",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null
+   },
+   {
+    "label": "Frustration of Purpose Defense",
+    "probabilityRange": [
+     0.05,
+     0.2
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "defense",
+    "claimType": "other",
+    "strength": "weak",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null
+   },
+   {
+    "label": "Mitigation / Redevelopment Fact Dispute",
+    "probabilityRange": [
+     0.45,
+     0.55
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "defense",
+    "claimType": "other",
+    "strength": "even",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null
+   },
+   {
+    "label": "Prematurity of Summary Judgment / Discovery Continuance",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "defense",
+    "claimType": "other",
+    "strength": "favorable",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null
+   },
+   {
+    "label": "Attorney Fees and Costs",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "unknown",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "attorney_fees",
+    "strength": "favorable",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null
+   }
+  ],
+  "citationCoverage": {
+   "count": 39,
+   "tier": "strong"
+  }
  },
+ "error": null,
  "outcome": {
   "amount": 1808470,
   "amountIsTheRequestedAmount": true,

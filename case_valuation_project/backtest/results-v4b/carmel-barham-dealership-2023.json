@@ -1,13 +1,142 @@
 {
  "id": "carmel-barham-dealership-2023",
- "ranAt": "2026-09-25T16:58:53+00:00",
- "status": 502,
- "prediction": null,
- "error": {
-  "error": "Analysis failed \u2014 try again.",
-  "code": "upstream_error",
-  "detail": "400 400 {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CfQWj2EfwBc1Er5kxvLnk\"}"
+ "ranAt": "2026-09-26T00:49:32+00:00",
+ "status": 200,
+ "prediction": {
+  "model": "claude-sonnet-5",
+  "analysisVersion": "v4.2",
+  "cost": {
+   "totalUsd": 0.1569,
+   "analysisUsd": 0.1519,
+   "analysisUsage": {
+    "input_tokens": 2143,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 8455,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 9528,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "output_tokens_details": {
+     "thinking_tokens": 4775
+    }
+   }
+  },
+  "category": "eminent-domain",
+  "roleLabel": "Property Owner",
+  "damagesRange": [
+   0,
+   163000
+  ],
+  "bestGuessValue": 158110,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": "Barham is very likely to recover at least the $163,000 physical-taking valuation, since liability on that component is conceded and the only question is amount. The real variable is the access/easement claim: the trial court's considered denial of summary judgment on that theory, plus favorable language in the Agreed Order describing 'frontage along Threel Road' and an access-control line, gives Barham a genuinely triable \u2014 and better-than-even \u2014 shot at a meaningfully enhanced award, though the magnitude of that enhancement is not quantified anywhere in this record and will turn entirely on trial evidence (appraisal/expert testimony on diminution in value) not yet before this analysis.",
+  "issues": [
+   {
+    "label": "Just Compensation for the Physical Taking (Fee Strip, Access-Control Line, Temporary ROW)",
+    "probabilityRange": [
+     0.95,
+     0.99
+    ],
+    "damagesRange": [
+     0,
+     163000
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "conceded",
+    "supportedCeiling": 163000,
+    "kind": "claim",
+    "claimType": "just_compensation_valuation",
+    "strength": "conceded",
+    "figures": [
+     {
+      "label": "Court-appointed appraisers' just compensation assessment",
+      "value": 163000,
+      "disputed": true,
+      "quote": "the appraisers assessed the total just compensation due to Barham to be $163,000.00",
+      "computed": null
+     }
+    ],
+    "droppedFigures": 0,
+    "basis": "itemized"
+   },
+   {
+    "label": "Compensability of Lost Threel Road Ingress-Egress Easement (Access/Easement Taking vs. Traffic-Flow Rule)",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "just_compensation_valuation",
+    "strength": "favorable",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null
+   },
+   {
+    "label": "Carmel's Public-Use/Authority Challenge (Effectively Waived)",
+    "probabilityRange": [
+     0.95,
+     0.99
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "conceded",
+    "supportedCeiling": null,
+    "kind": "defense",
+    "claimType": "quick_take_challenge",
+    "strength": "conceded",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null
+   },
+   {
+    "label": "Carmel's Summary Judgment / Traffic-Flow Rule Defense",
+    "probabilityRange": [
+     0.25,
+     0.4
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "defense",
+    "claimType": "quick_take_challenge",
+    "strength": "unfavorable",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null
+   },
+   {
+    "label": "Potential Statutory Litigation-Expense/Fee Recovery",
+    "probabilityRange": [
+     0.45,
+     0.55
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "unknown",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "eminent_domain_attorney_fees",
+    "strength": "even",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null
+   }
+  ],
+  "citationCoverage": {
+   "count": 22,
+   "tier": "strong"
+  }
  },
+ "error": null,
  "outcome": {
   "amount": 2400000,
   "amountIsTheRequestedAmount": false,
