@@ -53,3 +53,40 @@ Deno.test("tiny numbers are not dollar figures", () => {
   const key = alnumKey("pursuant to Section 1 of the Lease, Tenant shall pay rent");
   assert(verifyFigure({ label: "x", amount: 1, rate: null, periods: null, quote: "pursuant to Section 1 of the Lease", disputed: false }, key) === null, "section number rejected");
 });
+
+import { dedupeRepresentedFigures, issueRange } from "./valuation-math.ts";
+const fig = (value: number, disputed = false) => ({ label: "f", value, disputed, quote: "q", computed: null });
+
+Deno.test("a total demand listed beside its parts is dropped (Lagoon)", () => {
+  const out = dedupeRepresentedFigures([
+    { claimant: "represented", strength: "strong", figures: [fig(364212)] },
+    { claimant: "represented", strength: "favorable", figures: [fig(1444258)] },
+    { claimant: "represented", strength: "favorable", figures: [fig(1808470)] },
+  ]);
+  assert(out[0].figures.length === 1 && out[1].figures.length === 1 && out[2].figures.length === 0, "total dropped");
+});
+
+Deno.test("one figure under several theories counts once, on the strongest (Four Elyria)", () => {
+  const out = dedupeRepresentedFigures([
+    { claimant: "represented", strength: "even", figures: [fig(500000)] },
+    { claimant: "represented", strength: "favorable", figures: [fig(500000)] },
+    { claimant: "represented", strength: "even", figures: [fig(500000)] },
+  ]);
+  assert(out.map((i) => i.figures.length).join() === "0,1,0", "kept once on the favorable claim");
+});
+
+Deno.test("the other side's figures are left alone", () => {
+  const out = dedupeRepresentedFigures([
+    { claimant: "represented", strength: "strong", figures: [fig(100000)] },
+    { claimant: "opposing", strength: "even", figures: [fig(100000)] },
+  ]);
+  assert(out[0].figures.length === 1 && out[1].figures.length === 1, "opposing untouched");
+});
+
+Deno.test("issue ranges follow the v4 rules", () => {
+  const a = issueRange([fig(1000), fig(500, true)], "itemized", "represented");
+  assert(a && a[0] === 1000 && a[1] === 1500, "itemized");
+  const b = issueRange([fig(2000), fig(3000)], "competing", "opposing");
+  assert(b && b[0] === -3000 && b[1] === -2000, "competing opposing");
+  assert(issueRange([], "itemized", "represented") === null, "no figures");
+});

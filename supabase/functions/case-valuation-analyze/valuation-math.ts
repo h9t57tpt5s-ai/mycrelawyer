@@ -63,3 +63,67 @@ export function verifyFigure(it: Record<string, unknown>, caseTextKey: string): 
   return null;
 }
 
+
+// ---- v4.3 (2026-09-25): count each dollar once ---------------------------
+// Replaying the saved v4 runs showed the biggest run-to-run swings came
+// from the same money counted twice: a complaint's total demand listed as
+// its own claim beside the parts that make it up (Lagoon, Frye), and one
+// figure priced under several alternative theories (Four Elyria). Two
+// rules, applied to the represented side's figures only:
+//   1. a figure value that appears in more than one claim counts once, on
+//      the claim in the strongest band;
+//   2. a figure equal to the sum of two or three other figures is a total
+//      of those parts and is dropped.
+const BAND_RANK: Record<string, number> = { conceded: 5, strong: 4, favorable: 3, even: 2, unfavorable: 1, weak: 0 };
+
+export type FigureIssue = { claimant: string; strength: string; figures: VerifiedFigure[] };
+
+export function dedupeRepresentedFigures<T extends FigureIssue>(issues: T[]): T[] {
+  const key = (v: number) => Math.round(v * 100);
+  const owner = new Map<number, { rank: number; idx: number }>();
+  issues.forEach((iss, idx) => {
+    if (iss.claimant === "opposing") return;
+    const rank = BAND_RANK[iss.strength] ?? 2;
+    for (const f of iss.figures) {
+      const k = key(f.value), cur = owner.get(k);
+      if (!cur || rank > cur.rank) owner.set(k, { rank, idx });
+    }
+  });
+  const values = [...owner.keys()].map((k) => k / 100).sort((a, b) => a - b);
+  const totals = new Set<number>();
+  for (const v of values) {
+    const parts = values.filter((x) => x < v);
+    const tol = Math.max(1, v * 0.001);
+    let found = false;
+    for (let i = 0; i < parts.length && !found; i++) {
+      for (let j = i + 1; j < parts.length && !found; j++) {
+        if (Math.abs(parts[i] + parts[j] - v) <= tol) found = true;
+        for (let k = j + 1; k < parts.length && !found; k++) {
+          if (Math.abs(parts[i] + parts[j] + parts[k] - v) <= tol) found = true;
+        }
+      }
+    }
+    if (found) totals.add(key(v));
+  }
+  return issues.map((iss, idx) => iss.claimant === "opposing" ? iss : {
+    ...iss,
+    figures: iss.figures.filter((f) => !totals.has(key(f.value)) && owner.get(key(f.value))?.idx === idx),
+  });
+}
+
+// An issue's damages range from its verified figures (v4 rules): itemized
+// = [undisputed sum, full sum]; competing = [lowest, highest]; opposing
+// issues are negative exposure.
+export function issueRange(figures: VerifiedFigure[], basis: string, claimant: string): [number, number] | null {
+  if (!figures.length) return null;
+  let r: [number, number];
+  if (basis === "competing") {
+    const vals = figures.map((f) => f.value);
+    r = [Math.min(...vals), Math.max(...vals)];
+  } else {
+    const all = figures.reduce((a, f) => a + f.value, 0);
+    const undisputed = figures.filter((f) => !f.disputed).reduce((a, f) => a + f.value, 0);
+    r = [undisputed, all];
+  }
+  return claimant === "opposing" ? [-r[1], -r[0]] : r;
+}

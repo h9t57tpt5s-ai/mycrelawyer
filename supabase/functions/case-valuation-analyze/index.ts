@@ -1,5 +1,5 @@
 // =========================================================
-import { alnumKey, STRENGTH_BANDS, verifyFigure, type VerifiedFigure } from "./valuation-math.ts";
+import { alnumKey, dedupeRepresentedFigures, issueRange, STRENGTH_BANDS, verifyFigure, type VerifiedFigure } from "./valuation-math.ts";
 // CREdocket -- Case Value Calculator: AI document analysis
 //
 // COST-PROTECTION DESIGN -- read before changing the order of checks:
@@ -101,7 +101,7 @@ const NARRATIVE_MODEL = "claude-sonnet-5";
 // supported ceiling as the range top, mitigation discount only on
 // evidence, represented party's own claims when valuing a defendant,
 // and opposing claims netted with an enforced negative sign.
-const ANALYSIS_VERSION = "v4.2";
+const ANALYSIS_VERSION = "v4.3";
 const EXTRACTION_MODEL = "claude-haiku-4-5";
 
 // Per-million-token pricing, for the cost-estimate logging below only --
@@ -2493,7 +2493,7 @@ async function handle(req: Request): Promise<Response> {
     // the model quotes verbatim from the materials, each checked against
     // the text before it counts. See STRENGTH_BANDS and verifyFigure().
     const caseTextKey = alnumKey(combinedCaseText);
-    const issues = Array.isArray(analysisParsed.issues) ? analysisParsed.issues.map((iss: Record<string, unknown>) => {
+    const issuesRaw = Array.isArray(analysisParsed.issues) ? analysisParsed.issues.map((iss: Record<string, unknown>) => {
       const claimant: "represented" | "opposing" = iss.claimant === "opposing" ? "opposing" : "represented";
       const liabilityStatus = typeof iss.liabilityStatus === "string" ? iss.liabilityStatus : "unknown";
       // LIABILITY FLOOR, enforced in code: a conceded or defaulted issue is
@@ -2547,6 +2547,16 @@ async function handle(req: Request): Promise<Response> {
         citations: resolveCitations(iss.citedCaseNames),
       };
     }) : [];
+    // v4.3: count each dollar once across the represented side's claims
+    // (a total listed beside its parts, one figure under several theories),
+    // then compute each claim's range from the figures that remain.
+    // issuesRaw is built from the model's untyped JSON, so name its shape.
+    // deno-lint-ignore no-explicit-any
+    const issues = dedupeRepresentedFigures<any>(issuesRaw).map((iss) => {
+      const damagesRange = issueRange(iss.figures, iss.basis ?? "itemized", iss.claimant);
+      const supportedCeiling = damagesRange ? (iss.claimant === "opposing" ? damagesRange[0] : damagesRange[1]) : null;
+      return { ...iss, damagesRange, supportedCeiling };
+    });
 
     const allCitedMap = new Map<string, CaseData["citations"][string][number]>();
     for (const iss of issues) for (const cit of iss.citations) allCitedMap.set(cit.caseName, cit);

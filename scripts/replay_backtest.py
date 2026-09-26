@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Replay saved backtest runs under a different range/best-guess formula.
+"""Replay saved backtest runs under the live range/best-guess math (v4.3).
 
 No API calls: every v4+ result stores each claim's strength band
 (probabilityRange), claimant and verified figures, and the numbers are
@@ -35,22 +35,59 @@ def basis_of(issue):
     return "itemized"
 
 
-def v41_issue_range(issue):
+BAND_RANK = {"conceded": 5, "strong": 4, "favorable": 3, "even": 2, "unfavorable": 1, "weak": 0}
+
+
+def dedupe(issues):
+    """Mirror of dedupeRepresentedFigures() in valuation-math.ts (v4.3)."""
+    import itertools
+    owner = {}
+    for idx, i in enumerate(issues):
+        if i.get("claimant") == "opposing":
+            continue
+        rank = BAND_RANK.get(i.get("strength"), 2)
+        for f in i.get("figures") or []:
+            k = round(f["value"] * 100)
+            if k not in owner or rank > owner[k][0]:
+                owner[k] = (rank, idx)
+    values = sorted(k / 100 for k in owner)
+    totals = set()
+    for v in values:
+        parts = [x for x in values if x < v]
+        tol = max(1, v * 0.001)
+        if any(abs(sum(c) - v) <= tol for n in (2, 3) for c in itertools.combinations(parts, n)):
+            totals.add(round(v * 100))
+    out = []
+    for idx, i in enumerate(issues):
+        if i.get("claimant") == "opposing":
+            out.append(i)
+            continue
+        j = dict(i)
+        j["figures"] = [f for f in i.get("figures") or [] if round(f["value"] * 100) not in totals and owner[round(f["value"] * 100)][1] == idx]
+        out.append(j)
+    return out
+
+
+def issue_range(issue):
+    """Mirror of issueRange() in valuation-math.ts (v4 rules)."""
     figs = issue.get("figures") or []
     if not figs:
         return None
     vals = [f["value"] for f in figs]
-    rng = [min(vals), max(vals)] if basis_of(issue) == "competing" else [sum(vals), sum(vals)]
+    if basis_of(issue) == "competing":
+        rng = [min(vals), max(vals)]
+    else:
+        rng = [sum(f["value"] for f in figs if not f.get("disputed")), sum(vals)]
     return [-rng[1], -rng[0]] if issue.get("claimant") == "opposing" else rng
 
 
 def replay(pred):
-    """Case range and best guess (fees excluded) under v4.1 arithmetic."""
+    """Case range and best guess (fees excluded) under the live v4.3 math."""
     lo = hi = best = 0.0
     used = False
-    issues = [i for i in (pred.get("issues") or []) if not FEE.search(i.get("label") or "")]
+    issues = dedupe([i for i in (pred.get("issues") or []) if not FEE.search(i.get("label") or "")])
     for i in issues:
-        d, p = v41_issue_range(i), i.get("probabilityRange")
+        d, p = issue_range(i), i.get("probabilityRange")
         if not d or not p:
             continue
         used = True
@@ -62,10 +99,9 @@ def replay(pred):
             lo += p[0] * d[0]
             hi += d[1]
             best += pm * d[1]
-    # One-sided backstop, as in the live function.
-    rep_priced = any(i.get("claimant") != "opposing" and v41_issue_range(i) for i in issues)
-    opp_priced = any(i.get("claimant") == "opposing" and v41_issue_range(i) for i in issues)
-    unpriced_claim = any(i.get("claimant") != "opposing" and i.get("kind") == "claim" and not v41_issue_range(i) for i in issues)
+    rep_priced = any(i.get("claimant") != "opposing" and issue_range(i) for i in issues)
+    opp_priced = any(i.get("claimant") == "opposing" and issue_range(i) for i in issues)
+    unpriced_claim = any(i.get("claimant") != "opposing" and i.get("kind") == "claim" and not issue_range(i) for i in issues)
     if not used or (not rep_priced and opp_priced and unpriced_claim):
         return None
     lo, hi = math.floor(lo), math.ceil(hi)
