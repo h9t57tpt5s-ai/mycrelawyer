@@ -292,7 +292,14 @@
       v1: "Version 1: the tool as it stood on Sept 22, 2026 (range = sum of probability-weighted claims).",
       v2: "Version 2, Sept 23, 2026: 95% floor on conceded liability, range top from each claim's supported ceiling, mitigation discounts only on evidence, the represented defendant's own claims valued, opposing claims netted with an enforced sign.",
       v4: "Version 4, Sept 25, 2026: built for consistency. The model no longer writes probabilities or dollar figures: it picks one of six fixed strength bands per claim and quotes each dollar figure verbatim from the filings; code checks every quote against the record, drops any it cannot find, and does all the arithmetic. Each case is run twice and the spread is published.",
+      "v4.3": "Version 4.3, Sept 26, 2026 (version 5 test set): version 4 with each dollar counted once across claims, run on the 46 cases added to cover all eight categories. The original 25 cases' version 4 results are shown above.",
       v3: "Version 3, Sept 24, 2026: best guess = each claim's midpoint probability times the top of its own damages range (chosen on the 19 training cases, tested on the 6 held out); the calculator declines a net figure when it can price the other side's claims but none of the client's own.",
+    };
+    const CAT_LABEL = { "lease-disputes": "Lease disputes", "lending-foreclosure": "Lending and foreclosure", "construction-defect": "Construction", "eminent-domain": "Eminent domain", "zoning-land-use": "Zoning and land use", "premises-liability": "Premises liability", "environmental": "Environmental", "reit-securities": "REIT securities" };
+    const catTable = (bc) => {
+      const rows = Object.entries(bc || {}).sort((x, y) => y[1].cases - x[1].cases);
+      if (rows.length < 2) return "";
+      return `<div style="grid-column:1 / -1; overflow-x:auto;"><table style="width:100%; border-collapse:collapse; font-size:13px; margin-top:4px;"><thead><tr><th style="text-align:left; padding:6px 8px 6px 0; border-bottom:1px solid var(--border-soft);">Category</th><th style="text-align:right; padding:6px 8px; border-bottom:1px solid var(--border-soft);">Priced</th><th style="text-align:right; padding:6px 8px; border-bottom:1px solid var(--border-soft);">Trial award in range</th><th style="text-align:right; padding:6px 0 6px 8px; border-bottom:1px solid var(--border-soft);">Final outcome in range</th></tr></thead><tbody>${rows.map(([cat, b]) => `<tr><td style="padding:6px 8px 6px 0; border-bottom:1px solid var(--border-soft);">${esc(CAT_LABEL[cat] || cat)}</td><td class="mono" style="text-align:right; padding:6px 8px; border-bottom:1px solid var(--border-soft);">${b.cases}</td><td class="mono" style="text-align:right; padding:6px 8px; border-bottom:1px solid var(--border-soft);">${b.exFeesHits} of ${b.exFeesScorable}</td><td class="mono" style="text-align:right; padding:6px 0 6px 8px; border-bottom:1px solid var(--border-soft);">${b.finalScorable ? `${b.finalHits} of ${b.finalScorable}` : "&mdash;"}</td></tr>`).join("")}</tbody></table></div>`;
     };
     sum.innerHTML = keys.map((k) => {
       const S = versions[k].summary || {};
@@ -305,7 +312,8 @@
         tile(pct(S.medianBestGuessError), "median best-guess error against the whole judgment (positive = too high)") +
         tile(S.aggregateRatio == null ? "—" : Math.round(S.aggregateRatio * 100) + "%", `total predicted as a share of total awarded on the main claims, ex-fees (${fmt(S.aggregatePredicted)} vs ${fmt(S.aggregateActual)})`) +
         tile(S.medianCaseRatio == null ? "—" : Math.round(S.medianCaseRatio * 100) + "%", "median case: predicted midpoint as a share of the award, ex-fees") +
-        tile(`${S.holdoutHits ?? 0} of ${S.holdoutScorable ?? 0}`, "held-out cases whose ultimate outcome fell inside the range (six cases the version-2 revision was never tuned against)");
+        tile(`${S.holdoutHits ?? 0} of ${S.holdoutScorable ?? 0}`, "held-out cases whose ultimate outcome fell inside the range (set aside before any run and never used to tune a formula)") +
+        catTable(versions[k].byCategory);
     }).join("");
     const gen = document.getElementById("cal-generated");
     const latest = versions[keys[keys.length - 1]] ? versions[keys[keys.length - 1]].summary : {};

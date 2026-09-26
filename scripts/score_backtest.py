@@ -13,7 +13,8 @@ import re
 
 RESULT_DIRS = {"v1": "case_valuation_project/backtest/results", "v2": "case_valuation_project/backtest/results-v2",
                "v3": "case_valuation_project/backtest/results-v3",
-               "v4": "case_valuation_project/backtest/results-v4"}
+               "v4": "case_valuation_project/backtest/results-v4",
+               "v4.3": "case_valuation_project/backtest/results-v4.3"}
 # A second, independent run of the same version on the same 25 inputs.
 # Consistency is the spread between the two runs, published beside
 # accuracy (Jeff, 2026-09-25: "without consistency, this is nothing more
