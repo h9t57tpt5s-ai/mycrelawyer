@@ -89,6 +89,10 @@ def score(record):
     top = p.get("damagesRange")
     best = p.get("bestGuessValue")
     exf, used = ex_fee_range(p.get("issues") or [])
+    # The live function caps what the user sees at the requested-relief
+    # ceiling; mirror it (the top-line high end shows it when it binds).
+    if exf and top and top[1] is not None and top[1] < exf[1]:
+        exf = [min(exf[0], math.ceil(top[1])), math.ceil(top[1])]
     # A voided result (e.g. run for the wrong side) is excluded like an error.
     void = record.get("void")
     declined = record.get("status") == 200 and not top and not void

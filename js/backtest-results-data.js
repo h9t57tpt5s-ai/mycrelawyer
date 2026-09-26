@@ -23,9 +23,9 @@ window.BACKTEST_RESULTS = {
     "finalBestGuessWithin25": 4,
     "finalBestGuessScorable": 16,
     "medianCaseRatio": 0.69,
-    "aggregatePredicted": 75027428,
+    "aggregatePredicted": 74724676,
     "aggregateActual": 113512708,
-    "aggregateRatio": 0.661
+    "aggregateRatio": 0.658
    },
    "cases": [
     {
@@ -827,8 +827,8 @@ window.BACKTEST_RESULTS = {
      "id": "navient-v-bpg-office-partners-2023",
      "final": {
       "predictedRange": [
-       534090,
-       1079061
+       503823,
+       503823
       ],
       "actual": 424172.72,
       "hit": false,
@@ -853,8 +853,8 @@ window.BACKTEST_RESULTS = {
      "void": null,
      "exFees": {
       "predictedRange": [
-       534090,
-       1079061
+       503823,
+       503823
       ],
       "issuesUsed": 5,
       "actual": 424172.72,
@@ -1304,12 +1304,12 @@ window.BACKTEST_RESULTS = {
     "scored": 22,
     "declined": 3,
     "errors": 0,
-    "exFeesHits": 17,
+    "exFeesHits": 16,
     "exFeesScorable": 22,
     "allInHits": 12,
     "allInScorable": 22,
     "medianBestGuessError": -0.376,
-    "finalHits": 12,
+    "finalHits": 11,
     "finalScorable": 17,
     "finalPending": 5,
     "correctedOnAppeal": 1,
@@ -1318,8 +1318,8 @@ window.BACKTEST_RESULTS = {
     "finalBestGuessMedianError": -0.262,
     "finalBestGuessWithin25": 4,
     "finalBestGuessScorable": 16,
-    "medianCaseRatio": 0.768,
-    "aggregatePredicted": 76571691,
+    "medianCaseRatio": 0.741,
+    "aggregatePredicted": 76566966,
     "aggregateActual": 113985857,
     "aggregateRatio": 0.672
    },
@@ -2502,10 +2502,10 @@ window.BACKTEST_RESULTS = {
      "final": {
       "predictedRange": [
        91532,
-       170485
+       161035
       ],
       "actual": 170484.37,
-      "hit": true,
+      "hit": false,
       "note": "Rent damages affirmed; fee award reversed.",
       "bestGuess": 125430.98115,
       "bestGuessError": -0.264,
@@ -2528,11 +2528,11 @@ window.BACKTEST_RESULTS = {
      "exFees": {
       "predictedRange": [
        91532,
-       170485
+       161035
       ],
       "issuesUsed": 3,
       "actual": 170484.37,
-      "hit": true
+      "hit": false
      },
      "allIn": {
       "predictedRange": [
@@ -2551,9 +2551,9 @@ window.BACKTEST_RESULTS = {
    "byCategory": {
     "lease-disputes": {
      "cases": 17,
-     "exFeesHits": 14,
+     "exFeesHits": 13,
      "exFeesScorable": 17,
-     "finalHits": 11,
+     "finalHits": 10,
      "finalScorable": 14
     },
     "eminent-domain": {
@@ -2600,7 +2600,7 @@ window.BACKTEST_RESULTS = {
     "finalBestGuessWithin25": 7,
     "finalBestGuessScorable": 15,
     "medianCaseRatio": 0.811,
-    "aggregatePredicted": 74951169,
+    "aggregatePredicted": 74946714,
     "aggregateActual": 113541802,
     "aggregateRatio": 0.66
    },
@@ -2757,7 +2757,7 @@ window.BACKTEST_RESULTS = {
      "final": {
       "predictedRange": [
        201500,
-       285000
+       276090
       ],
       "actual": 276089.72,
       "hit": true,
@@ -2783,7 +2783,7 @@ window.BACKTEST_RESULTS = {
      "exFees": {
       "predictedRange": [
        201500,
-       285000
+       276090
       ],
       "issuesUsed": 2,
       "actual": 276089.72,
@@ -3936,12 +3936,12 @@ window.BACKTEST_RESULTS = {
       "sameDecline": true,
       "bestGuessDiff": 0.12324929856097816,
       "lowDiff": 0.12779156327543426,
-      "highDiff": 0.03126315789473684,
+      "highDiff": 0.0,
       "sameVerdict": true,
       "first": {
        "range": [
         201500,
-        285000
+        276090
        ],
        "bestGuess": 234800.0
       },
@@ -5705,7 +5705,7 @@ window.BACKTEST_RESULTS = {
     "bestGuessWithin5": 12,
     "bestGuessWithin10": 12,
     "bestGuessCompared": 20,
-    "medianBoundDiff": 0.0029472534153336476,
+    "medianBoundDiff": 0.0,
     "sameHitVerdict": 20,
     "verdictsCompared": 20,
     "cases": [
@@ -5887,7 +5887,7 @@ window.BACKTEST_RESULTS = {
       "sameDecline": true,
       "bestGuessDiff": 0.5657216494845361,
       "lowDiff": 1.6605865276920615,
-      "highDiff": 0.5238095238095238,
+      "highDiff": 0.0,
       "sameVerdict": true,
       "first": {
        "range": [
@@ -5899,7 +5899,7 @@ window.BACKTEST_RESULTS = {
       "repeat": {
        "range": [
         43749,
-        336000
+        160000
        ],
        "bestGuess": 194000.0
       }
@@ -5933,7 +5933,7 @@ window.BACKTEST_RESULTS = {
       "sameDecline": true,
       "bestGuessDiff": 0.23940560217647433,
       "lowDiff": 0.0,
-      "highDiff": 0.2254136708577385,
+      "highDiff": 0.0,
       "sameVerdict": true,
       "first": {
        "range": [
@@ -5945,7 +5945,7 @@ window.BACKTEST_RESULTS = {
       "repeat": {
        "range": [
         188400,
-        571771
+        442886
        ],
        "bestGuess": 363390.4625
       }
@@ -6002,7 +6002,7 @@ window.BACKTEST_RESULTS = {
       "sameDecline": true,
       "bestGuessDiff": 0.487278895385849,
       "lowDiff": 0.7883186542782853,
-      "highDiff": 0.5,
+      "highDiff": 0.0,
       "sameVerdict": true,
       "first": {
        "range": [
@@ -6014,7 +6014,7 @@ window.BACKTEST_RESULTS = {
       "repeat": {
        "range": [
         1376451,
-        3616940
+        1808470
        ],
        "bestGuess": 2505171.6
       }
@@ -6280,10 +6280,10 @@ window.BACKTEST_RESULTS = {
     "finalBestGuessMedianError": -0.008,
     "finalBestGuessWithin25": 6,
     "finalBestGuessScorable": 30,
-    "medianCaseRatio": 1.028,
-    "aggregatePredicted": 240773576,
+    "medianCaseRatio": 1.0,
+    "aggregatePredicted": 217953440,
     "aggregateActual": 206358465,
-    "aggregateRatio": 1.167
+    "aggregateRatio": 1.056
    },
    "cases": [
     {
@@ -6341,7 +6341,7 @@ window.BACKTEST_RESULTS = {
      "final": {
       "predictedRange": [
        3114826,
-       5778765
+       3238505
       ],
       "actual": 223000,
       "hit": false,
@@ -6367,7 +6367,7 @@ window.BACKTEST_RESULTS = {
      "exFees": {
       "predictedRange": [
        3114826,
-       5778765
+       3238505
       ],
       "issuesUsed": 4,
       "actual": 223000,
@@ -6885,7 +6885,7 @@ window.BACKTEST_RESULTS = {
      "final": {
       "predictedRange": [
        3013337,
-       5150563
+       5000000
       ],
       "actual": -43304.91,
       "hit": false,
@@ -6911,7 +6911,7 @@ window.BACKTEST_RESULTS = {
      "exFees": {
       "predictedRange": [
        3013337,
-       5150563
+       5000000
       ],
       "issuesUsed": 5,
       "actual": 96633.96,
@@ -7085,7 +7085,7 @@ window.BACKTEST_RESULTS = {
      "final": {
       "predictedRange": [
        -1099682,
-       1947379
+       1009056
       ],
       "actual": 943042.64,
       "hit": true,
@@ -7111,7 +7111,7 @@ window.BACKTEST_RESULTS = {
      "exFees": {
       "predictedRange": [
        -1099682,
-       1947379
+       1009056
       ],
       "issuesUsed": 4,
       "actual": 943042.64,
@@ -7285,10 +7285,10 @@ window.BACKTEST_RESULTS = {
      "final": {
       "predictedRange": [
        15600,
-       149500
+       130000
       ],
       "actual": 133900,
-      "hit": true,
+      "hit": false,
       "note": "Affirmed by the Court of Appeals and, on certiorari, by the Supreme Court of Mississippi.",
       "bestGuess": 81575.0,
       "bestGuessError": -0.391,
@@ -7311,11 +7311,11 @@ window.BACKTEST_RESULTS = {
      "exFees": {
       "predictedRange": [
        15600,
-       149500
+       130000
       ],
       "issuesUsed": 2,
       "actual": 133900,
-      "hit": true
+      "hit": false
      },
      "allIn": {
       "predictedRange": [
@@ -7434,11 +7434,11 @@ window.BACKTEST_RESULTS = {
      "id": "igcfco-iii-v-one-way-loans-2024",
      "final": {
       "predictedRange": [
-       15442250,
-       34924999
+       5287812,
+       5287812
       ],
       "actual": 5287812.0,
-      "hit": false,
+      "hit": true,
       "note": "Affirmed.",
       "bestGuess": 28369599.325000003,
       "bestGuessError": 4.365,
@@ -7460,12 +7460,12 @@ window.BACKTEST_RESULTS = {
      "void": null,
      "exFees": {
       "predictedRange": [
-       15442250,
-       34924999
+       5287812,
+       5287812
       ],
       "issuesUsed": 3,
       "actual": 5287812.0,
-      "hit": false
+      "hit": true
      },
      "allIn": {
       "predictedRange": [
@@ -7526,7 +7526,7 @@ window.BACKTEST_RESULTS = {
      "final": {
       "predictedRange": [
        25909,
-       3900000
+       1700000
       ],
       "actual": 113730,
       "hit": true,
@@ -7552,7 +7552,7 @@ window.BACKTEST_RESULTS = {
      "exFees": {
       "predictedRange": [
        25909,
-       3900000
+       1700000
       ],
       "issuesUsed": 1,
       "actual": 113730,
@@ -8573,16 +8573,16 @@ window.BACKTEST_RESULTS = {
    "byCategory": {
     "lending-foreclosure": {
      "cases": 8,
-     "exFeesHits": 2,
+     "exFeesHits": 3,
      "exFeesScorable": 8,
-     "finalHits": 3,
+     "finalHits": 4,
      "finalScorable": 7
     },
     "lease-disputes": {
      "cases": 9,
-     "exFeesHits": 6,
+     "exFeesHits": 5,
      "exFeesScorable": 9,
-     "finalHits": 5,
+     "finalHits": 4,
      "finalScorable": 8
     },
     "zoning-land-use": {
@@ -8649,10 +8649,10 @@ window.BACKTEST_RESULTS = {
   "finalBestGuessMedianError": -0.008,
   "finalBestGuessWithin25": 6,
   "finalBestGuessScorable": 30,
-  "medianCaseRatio": 1.028,
-  "aggregatePredicted": 240773576,
+  "medianCaseRatio": 1.0,
+  "aggregatePredicted": 217953440,
   "aggregateActual": 206358465,
-  "aggregateRatio": 1.167
+  "aggregateRatio": 1.056
  },
  "cases": [
   {
@@ -8710,7 +8710,7 @@ window.BACKTEST_RESULTS = {
    "final": {
     "predictedRange": [
      3114826,
-     5778765
+     3238505
     ],
     "actual": 223000,
     "hit": false,
@@ -8736,7 +8736,7 @@ window.BACKTEST_RESULTS = {
    "exFees": {
     "predictedRange": [
      3114826,
-     5778765
+     3238505
     ],
     "issuesUsed": 4,
     "actual": 223000,
@@ -9254,7 +9254,7 @@ window.BACKTEST_RESULTS = {
    "final": {
     "predictedRange": [
      3013337,
-     5150563
+     5000000
     ],
     "actual": -43304.91,
     "hit": false,
@@ -9280,7 +9280,7 @@ window.BACKTEST_RESULTS = {
    "exFees": {
     "predictedRange": [
      3013337,
-     5150563
+     5000000
     ],
     "issuesUsed": 5,
     "actual": 96633.96,
@@ -9454,7 +9454,7 @@ window.BACKTEST_RESULTS = {
    "final": {
     "predictedRange": [
      -1099682,
-     1947379
+     1009056
     ],
     "actual": 943042.64,
     "hit": true,
@@ -9480,7 +9480,7 @@ window.BACKTEST_RESULTS = {
    "exFees": {
     "predictedRange": [
      -1099682,
-     1947379
+     1009056
     ],
     "issuesUsed": 4,
     "actual": 943042.64,
@@ -9654,10 +9654,10 @@ window.BACKTEST_RESULTS = {
    "final": {
     "predictedRange": [
      15600,
-     149500
+     130000
     ],
     "actual": 133900,
-    "hit": true,
+    "hit": false,
     "note": "Affirmed by the Court of Appeals and, on certiorari, by the Supreme Court of Mississippi.",
     "bestGuess": 81575.0,
     "bestGuessError": -0.391,
@@ -9680,11 +9680,11 @@ window.BACKTEST_RESULTS = {
    "exFees": {
     "predictedRange": [
      15600,
-     149500
+     130000
     ],
     "issuesUsed": 2,
     "actual": 133900,
-    "hit": true
+    "hit": false
    },
    "allIn": {
     "predictedRange": [
@@ -9803,11 +9803,11 @@ window.BACKTEST_RESULTS = {
    "id": "igcfco-iii-v-one-way-loans-2024",
    "final": {
     "predictedRange": [
-     15442250,
-     34924999
+     5287812,
+     5287812
     ],
     "actual": 5287812.0,
-    "hit": false,
+    "hit": true,
     "note": "Affirmed.",
     "bestGuess": 28369599.325000003,
     "bestGuessError": 4.365,
@@ -9829,12 +9829,12 @@ window.BACKTEST_RESULTS = {
    "void": null,
    "exFees": {
     "predictedRange": [
-     15442250,
-     34924999
+     5287812,
+     5287812
     ],
     "issuesUsed": 3,
     "actual": 5287812.0,
-    "hit": false
+    "hit": true
    },
    "allIn": {
     "predictedRange": [
@@ -9895,7 +9895,7 @@ window.BACKTEST_RESULTS = {
    "final": {
     "predictedRange": [
      25909,
-     3900000
+     1700000
     ],
     "actual": 113730,
     "hit": true,
@@ -9921,7 +9921,7 @@ window.BACKTEST_RESULTS = {
    "exFees": {
     "predictedRange": [
      25909,
-     3900000
+     1700000
     ],
     "issuesUsed": 1,
     "actual": 113730,

@@ -117,7 +117,12 @@ export function dedupeRepresentedFigures<T extends FigureIssue>(issues: T[]): T[
 export function issueRange(figures: VerifiedFigure[], basis: string, claimant: string): [number, number] | null {
   if (!figures.length) return null;
   let r: [number, number];
-  if (basis === "competing") {
+  // v4.4: "competing" needs at least two figures to compete. A lone
+  // disputed figure listed as competing (Packard Square's $54M original-
+  // principal theory, Donegal's $5M punitive demand) was treated as
+  // certain, putting most of it into the low end; it is itemized instead,
+  // so a disputed lone figure can be lost entirely.
+  if (basis === "competing" && figures.length >= 2) {
     const vals = figures.map((f) => f.value);
     r = [Math.min(...vals), Math.max(...vals)];
   } else {

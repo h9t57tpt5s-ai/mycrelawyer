@@ -74,7 +74,7 @@ def issue_range(issue):
     if not figs:
         return None
     vals = [f["value"] for f in figs]
-    if basis_of(issue) == "competing":
+    if basis_of(issue) == "competing" and len(vals) >= 2:  # v4.4: a lone figure is itemized
         rng = [min(vals), max(vals)]
     else:
         rng = [sum(f["value"] for f in figs if not f.get("disputed")), sum(vals)]
@@ -105,7 +105,25 @@ def replay(pred):
     if not used or (not rep_priced and opp_priced and unpriced_claim):
         return None
     lo, hi = math.floor(lo), math.ceil(hi)
+    # The live function caps the top-line range at the requested-relief
+    # ceiling; the saved top-line shows it when it binds.
+    top = pred.get("damagesRange")
+    if top and top[1] is not None and top[1] < hi:
+        hi, lo = math.ceil(top[1]), min(lo, math.ceil(top[1]))
     return {"range": [lo, hi], "best": min(max(best, lo), hi)}
+
+
+def _load_holdouts():
+    """Held-out flags from cases.json (v5 additions), plus the original six."""
+    try:
+        for c in json.load(open(ROOT + "cases.json")):
+            if c.get("holdout"):
+                HOLDOUTS.add(c["id"])
+    except (OSError, ValueError):
+        pass
+
+
+_load_holdouts()
 
 
 def load(dirname):

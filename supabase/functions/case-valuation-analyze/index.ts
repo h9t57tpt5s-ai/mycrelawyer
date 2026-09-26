@@ -102,7 +102,7 @@ const NARRATIVE_MODEL = "claude-sonnet-5";
 // supported ceiling as the range top, mitigation discount only on
 // evidence, represented party's own claims when valuing a defendant,
 // and opposing claims netted with an enforced negative sign.
-const ANALYSIS_VERSION = "v4.3";
+const ANALYSIS_VERSION = "v4.4";
 const EXTRACTION_MODEL = "claude-haiku-4-5";
 
 // Per-million-token pricing, for the cost-estimate logging below only --

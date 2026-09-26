@@ -84,3 +84,10 @@ Results are in `results-v3/`. The range formula is unchanged from version 2, so 
 Ten candidates were excluded: nine whose excerpts could not be matched word for word without judgment calls (Service Steel, RSS MSBAM, two Marchbanks cases, LMMM Houston, Stapas, Wortham, Landis+Gyr, Hudson Holeyfield Banks), and Mimi's v. BAI Riverwalk, whose court link no longer resolves. The opinion text each case was checked against is in `sources/`.
 
 One case in five was held out by a hash of its id before any run (`holdout: true`). Outcome judgment calls are recorded in each case's `finalNote`: e.g. Exxon Mobil's final figure is pending because its appeal status could not be verified, Burns Concrete's is pending because the court remanded for recalculation, and Donegal's final is the tenant's net loss after the landlord's counterclaim.
+
+## Version 4.4 (2026-09-26): fixes found by replaying the saved runs, no new API calls
+
+1. **A lone "competing" figure is itemized.** "Competing" means two or more alternative values; a single disputed figure listed that way (Packard Square's $54M original-principal theory, Donegal's $5M punitive demand) had been treated as certain, putting most of it into the low end. It can now be lost entirely, like any disputed figure.
+2. **The scorer mirrors the requested-relief cap.** The live calculator caps what the user sees at the amount a party actually requested; the fees-excluded score now applies the same cap. That made IGCFCO a hit (capped exactly at the award) and Holcomb a miss (capped at the $130,000 requested, below the $133,900 awarded).
+
+Replayed on the saved runs: the 46 new cases go from 19 to 23 of 38 trial awards in range and 17 to 19 of 32 final outcomes (held-out 4 of 7); the original 25 are unchanged. Published scores stay tied to real runs; version 4.4's live results will be recorded on its next paid run.

@@ -90,3 +90,8 @@ Deno.test("issue ranges follow the v4 rules", () => {
   assert(b && b[0] === -3000 && b[1] === -2000, "competing opposing");
   assert(issueRange([], "itemized", "represented") === null, "no figures");
 });
+
+Deno.test("a lone disputed 'competing' figure can be lost entirely (Packard Square)", () => {
+  const r = issueRange([fig(54000000, true)], "competing", "represented");
+  assert(r && r[0] === 0 && r[1] === 54000000, `got ${r}`);
+});
