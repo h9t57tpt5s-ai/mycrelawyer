@@ -16,7 +16,7 @@ const RELAW_DATA = {
      Drives the homepage's "New Today" pill: it only shows when this
      equals the visitor's local today. Updated by the digest automation
      each time Step 4 successfully adds a case — never touched otherwise. */
-  lastUpdatedDate: "2026-09-25",
+  lastUpdatedDate: "2026-09-26",
   categories: [
     { id: "landlord-tenant", label: "Landlord–Tenant", color: "var(--cat-landlord)" },
     { id: "zoning-land-use", label: "Zoning & Land Use", color: "var(--cat-zoning)" },
@@ -6046,6 +6046,79 @@ const RELAW_DATA = {
       amountUsd: 1430000,
       amountBasis: "purchase price",
       tags: ["eminent domain", "open meetings act", "land sale", "kansas", "municipal liability"]
+    },
+    {
+      id: "live-181",
+      addedDate: "2026-09-26",
+      featured: true,
+      title: "Brightline's Real Estate Arms Land in Chapter 11 as Rail Parent Restructures $5.5B Debt",
+      category: "lending-foreclosure",
+      status: "filed",
+      date: "2026-09-24",
+      jurisdiction: "U.S. Bankruptcy Court, District of New Jersey",
+      state: "NJ",
+      amount: "$5.5 billion in consolidated debt across the Brightline enterprise; $258M DIP facility",
+      source: "live",
+      sourceUrl: "https://www.law360.com/articles/2523430/florida-s-brightline-rail-system-hits-ch-11-with-5-5b-debt",
+      summary: "Fortress Investment Group-backed Brightline Holdings LLC and sixteen affiliated entities — including station-area development companies New Flagler Development LLC and Brightline Property Holdings LLC — filed jointly administered Chapter 11 petitions on September 24, 2026 in the U.S. Bankruptcy Court for the District of New Jersey. The case aims to restructure roughly $5.5 billion in debt while Brightline's operating railroad, excluded from the filing, continues running trains between Miami and Orlando.",
+      significance: "Pulls a set of commercial real estate development entities into a major Chapter 11 case even as the sponsor keeps its operating business out, showing lenders and owners financing transit-oriented or infrastructure-adjacent real estate how quickly a parent-level restructuring can reach development subsidiaries organized as separate legal entities. The $258 million DIP facility and $490 million proposed exit financing, both from existing bondholder Assured Guaranty, will shape recoveries for creditors of the real estate-holding debtors specifically.",
+      body: [
+        "Fortress Investment Group-backed Brightline Holdings LLC and sixteen affiliated entities filed for Chapter 11 protection on September 24, 2026, in the U.S. Bankruptcy Court for the District of New Jersey, opening one of the largest transportation-and-real-estate restructurings of the year. The petitions, jointly administered under a lead case captioned In re FIHPNP LLC (Case No. 26-20876) before Judge Mark E. Hall, list combined assets and liabilities of between $1 billion and $10 billion and are aimed at restructuring a debt stack that has grown to roughly $5.5 billion. Among the debtor entities are New Flagler Development LLC and Brightline Property Holdings LLC, companies formed to hold and develop the real estate around Brightline's stations, putting a set of commercial real estate assets squarely inside a Chapter 11 case for the first time.",
+        "For property owners, lenders, and developers who deal in transit-oriented development, the filing is a reminder that the real estate wrapped around an infrastructure asset can be pulled into that asset's financial distress even when the two businesses are nominally separate. Brightline's core operating company, Brightline Trains Florida LLC, was deliberately excluded from the filing and will continue running its Miami-to-Orlando passenger service without interruption. But the development entities that hold and build out station-area real estate are now debtors in possession, subject to the bankruptcy court's oversight of their financing, leasing, and disposition decisions.",
+        "The restructuring follows more than a year of strain. Brightline has been skipping interest payments and negotiating with creditor groups for much of 2026 in an effort to right-size a capital structure that includes unrated bonds, bank debt, and project-level financing tied to specific stations and real estate parcels. To fund the case, Brightline arranged $258 million in debtor-in-possession financing from bond insurer Assured Guaranty Ltd. and other investors, who have also agreed to backstop $490 million in new debt once the company exits bankruptcy — a structure in which the DIP lenders are largely existing bondholders protecting and repositioning their own exposure rather than new outside capital.",
+        "The filing does not arrive in isolation for Brightline's real estate footprint. A separate, unrelated foreclosure action is already pending against Brightline Investment Holdings LLC and its subsidiary DTS DT Retail LLC over the retail podium at Brightline's MiamiCentral Station, where U.S. Bank, acting for a senior lender group, sued in July 2026 to foreclose on a defaulted $65 million loan tranche and force appointment of a receiver. That case proceeds independently in Miami-Dade County Circuit Court and is not part of the New Jersey Chapter 11, underscoring how Brightline's real estate holdings are structured, and now failing, asset by asset rather than as a single consolidated portfolio.",
+        "For commercial real estate practitioners, the structural lesson is in the separateness itself. Lenders financing transit-oriented or infrastructure-adjacent real estate should read the case closely for how New Jersey's bankruptcy court treats intercompany claims, shared services agreements, and any guaranties running between the debtor development entities and the non-debtor operating company, since those provisions will determine how much of the sponsor's distress actually reaches the real estate. Secured creditors of the debtor entities should also move quickly to understand their standing in the jointly administered case and how the DIP and proposed exit financing will affect their priority, while counterparties to separate litigation against non-debtor Brightline affiliates should not assume that litigation is stayed absent that entity actually being a debtor in the New Jersey case."
+      ],
+      timeline: [
+        { when: "July 30, 2026", label: "U.S. Bank sues Brightline Investment Holdings and DTS DT Retail LLC to foreclose on the MiamiCentral Station retail podium (separate case, not part of the Chapter 11)" },
+        { when: "September 24, 2026", label: "Brightline Holdings LLC and 16 affiliated entities, including New Flagler Development LLC and Brightline Property Holdings LLC, file jointly administered Chapter 11 petitions in the U.S. Bankruptcy Court for the District of New Jersey under lead case FIHPNP LLC (No. 26-20876)", current: true }
+      ],
+      judge: "Mark E. Hall",
+      parties: [
+        { name: "Brightline Holdings LLC", role: "Debtor" },
+        { name: "New Flagler Development LLC", role: "Debtor" },
+        { name: "Brightline Property Holdings LLC", role: "Debtor" },
+        { name: "Fortress Investment Group LLC", role: "Sponsor" },
+        { name: "Assured Guaranty Ltd.", role: "DIP Lender" }
+      ],
+      amountUsd: 5500000000,
+      amountBasis: "loan",
+      docketUrl: "https://www.courtlistener.com/docket/74850183/new-flagler-development-llc/",
+      docketLabel: "CourtListener docket",
+      tags: ["chapter-11", "bankruptcy", "debt-restructuring", "transit-oriented-development", "brightline"]
+    },
+    {
+      id: "live-182",
+      addedDate: "2026-09-26",
+      title: "MLP Ventures Sues Pennsylvania Township Over Rejected $35 Billion King of Prussia Data Center Campus",
+      category: "zoning-land-use",
+      status: "filed",
+      date: "2026-09-16",
+      jurisdiction: "Montgomery County Court of Common Pleas, Pennsylvania",
+      state: "PA",
+      amount: "$35.16 billion projected build-out cost across five King of Prussia-area sites",
+      source: "live",
+      sourceUrl: "https://www.inquirer.com/news/pennsylvania/data-centers-upper-merion-township-lawsuit-20260918.html",
+      summary: "Radnor-based developer MLP Ventures sued Upper Merion Township in Montgomery County Court of Common Pleas on September 16, 2026, challenging the Board of Supervisors' unanimous rejection of a proposed 4.6-million-square-foot data center campus across five King of Prussia-area sites. The suit alleges the township reversed its own zoning officer's determination that data centers were a permitted warehouse use only after organized resident opposition, and seeks a court order granting preliminary approval and appointing an independent referee to oversee further review.",
+      significance: "Tests how much protection a municipal zoning officer's written 'permitted use' determination actually affords once a legislative body faces organized community opposition and moves to treat a project as requiring discretionary approval instead. The 'data center as warehouse' theory at the center of the case is likely to recur as AI-driven demand pushes large data center proposals into suburban jurisdictions not historically zoned for them.",
+      body: [
+        "Radnor-based developer MLP Ventures has sued Upper Merion Township in Montgomery County Court of Common Pleas, challenging the township Board of Supervisors' unanimous August 13 rejection of a proposed 4.6-million-square-foot data center campus across five King of Prussia-area sites. The lawsuit, filed September 16, 2026, asks the court to overturn the denial, grant preliminary approval for the project, and appoint an independent referee to oversee further review, an unusually aggressive remedy that reflects how far the relationship between developer and township has deteriorated. Company filings put the total build-out cost of the proposed campus at roughly $35.16 billion, underscoring both the capital at stake and why the fight has drawn sustained regional attention.",
+        "The core legal dispute turns on a familiar but consequential land-use question: whether a data center qualifies as a 'warehouse' use under Upper Merion's existing zoning code. According to MLP Ventures' complaint, the township's own zoning officer issued a determination letter concluding the proposed use was permitted as-of-right, consistent with the township's stated position in recent years that data centers fall within the warehouse-use category already permitted under the code. MLP Ventures alleges that position changed only after a public backlash, including a petition that gathered more than 18,000 signatures, prompted the Planning Commission and then the Board of Supervisors to reverse course and treat the project as requiring discretionary approvals the board could, and did, deny.",
+        "The litigation has already generated one significant procedural skirmish. In August, a Montgomery County judge issued an order temporarily pausing township action on the data center applications while the zoning question was litigated. That order was vacated the following day, clearing the way for the Board of Supervisors to proceed with, and ultimately cast, its unanimous vote against the project just hours later, illustrating how much can turn on timing in land-use litigation.",
+        "For commercial real estate developers and site-selection teams pursuing data center projects nationally, the dispute is a case study in a risk that is becoming more common as AI-driven demand pushes proposals into suburban and exurban markets not historically zoned with server farms in mind: a 'permitted use' determination from municipal staff is not necessarily the last word once a project draws organized opposition, and a legislative body's discretionary authority over conditional approvals can become a vehicle for revisiting a staff-level interpretation under public pressure. Developers who have relied on an early determination letter as the basis for site acquisition or capital commitments should treat MLP Ventures' suit as a live test of how much protection that letter actually affords once a governing body decides to reconsider, and should build community engagement into project timelines early rather than treating a favorable staff-level reading of the code as sufficient assurance on its own."
+      ],
+      timeline: [
+        { when: "August 13, 2026", label: "Upper Merion Township Board of Supervisors unanimously rejects the 4.6M-square-foot data center campus after a judge's earlier injunction pausing township review is vacated" },
+        { when: "September 16, 2026", label: "MLP Ventures sues Upper Merion Township in Montgomery County Court of Common Pleas, seeking preliminary approval and an independent referee", current: true }
+      ],
+      judge: null,
+      parties: [
+        { name: "MLP Ventures", role: "Plaintiff/Developer" },
+        { name: "Upper Merion Township Board of Supervisors", role: "Defendant" }
+      ],
+      amountUsd: 35160000000,
+      amountBasis: "other",
+      tags: ["zoning", "data-centers", "land-use", "pennsylvania", "ai-infrastructure"]
     }
   ],
 
@@ -6464,7 +6537,9 @@ const RELAW_DATA = {
     { jurisdiction: "U.S. Court of Appeals for the Fourth Circuit", url: "https://www.ca4.uscourts.gov/" },
     { jurisdiction: "U.S. Court of Federal Claims", url: "https://www.uscfc.uscourts.gov/" },
     { jurisdiction: "Supreme Court of Ohio", url: "https://www.supremecourt.ohio.gov/" },
-    { jurisdiction: "California Court of Appeal, First Appellate District, Division Two", url: "https://www.courts.ca.gov/1dca.htm" }
+    { jurisdiction: "California Court of Appeal, First Appellate District, Division Two", url: "https://www.courts.ca.gov/1dca.htm" },
+    { jurisdiction: "U.S. Bankruptcy Court, District of New Jersey", url: "https://www.njb.uscourts.gov/" },
+    { jurisdiction: "Montgomery County Court of Common Pleas, Pennsylvania", url: "https://www.montgomerycountypa.gov/departments/county-courts/court-common-pleas" }
   ],
 
   /* Judges — background on every judge named in our sourced reporting (never
@@ -6752,6 +6827,14 @@ const RELAW_DATA = {
       court: "Supreme Court of Ohio",
       background: "Appointed to the Supreme Court of Ohio by Governor Mike DeWine in January 2023 and elected to a full six-year term in November 2024. Previously Hamilton County Prosecutor from 1992 to 1999 and again from 2005 to 2023, after beginning his career as an assistant prosecutor in the same office in 1982.",
       bioUrl: "https://www.supremecourt.ohio.gov/judicial-system/supreme-court-of-ohio/justices-overview/joseph-deters/"
+    },
+    {
+      name: "Mark E. Hall",
+      slug: "mark-e-hall",
+      title: "U.S. Bankruptcy Judge",
+      court: "U.S. Bankruptcy Court, District of New Jersey",
+      background: "Appointed to the U.S. Bankruptcy Court for the District of New Jersey, assuming office October 15, 2024, after serving as a partner at Fox Rothschild LLP and, before that, Riker Danzig LLP, representing debtors, creditors' committees, and secured lenders in Chapter 11, 7, and 13 cases. Previously a judicial law clerk to the Honorable Novalyn L. Winfield, U.S. Bankruptcy Judge for the District of New Jersey.",
+      bioUrl: "https://www.njb.uscourts.gov/content/honorable-mark-e-hall"
     }
   ],
 
@@ -6795,6 +6878,7 @@ const RELAW_DATA = {
     { name: "Blackstone", slug: "blackstone", description: "Global alternative asset manager and one of the largest owners of multifamily, office, and other commercial real estate nationally, both directly and through portfolio landlord entities.", website: "https://www.blackstone.com" },
     { name: "Simon Property Group", slug: "simon-property-group", description: "NYSE-listed REIT and the nation's largest owner of shopping malls and premium outlet centers.", website: "https://www.simon.com" },
     { name: "Verizon Wireless", matchTerm: "Verizon", slug: "verizon-wireless", description: "National wireless carrier that leases rooftop and site space from commercial landlords nationwide for communications and distributed-antenna equipment.", website: "https://www.verizon.com" },
-    { name: "Fortress Investment Group", matchTerm: "Fortress", slug: "fortress-investment-group", description: "Multi-strategy alternative asset manager active as a CRE lender, frequently pursuing foreclosure and UCC Article 9 remedies against defaulted commercial borrowers.", website: "https://www.fortress.com" }
+    { name: "Fortress Investment Group", matchTerm: "Fortress", slug: "fortress-investment-group", description: "Multi-strategy alternative asset manager active as a CRE lender, frequently pursuing foreclosure and UCC Article 9 remedies against defaulted commercial borrowers.", website: "https://www.fortress.com" },
+    { name: "Brightline", matchTerm: "Brightline", slug: "brightline", description: "Fortress Investment Group-backed private passenger railroad whose station-area real estate is held and developed through a network of affiliated holding and development entities.", website: "https://www.gobrightline.com" }
   ]
 };
