@@ -13,15 +13,13 @@ import re
 
 RESULT_DIRS = {"v1": "case_valuation_project/backtest/results", "v2": "case_valuation_project/backtest/results-v2",
                "v3": "case_valuation_project/backtest/results-v3",
-               "v4": "case_valuation_project/backtest/results-v4",
-               "v4.1": "case_valuation_project/backtest/results-v4.1"}
+               "v4": "case_valuation_project/backtest/results-v4"}
 # A second, independent run of the same version on the same 25 inputs.
 # Consistency is the spread between the two runs, published beside
 # accuracy (Jeff, 2026-09-25: "without consistency, this is nothing more
 # than a toy making uneducated guesses").
 REPEAT_DIRS = {"v3": "case_valuation_project/backtest/results-v3b",
-               "v4": "case_valuation_project/backtest/results-v4b",
-               "v4.1": "case_valuation_project/backtest/results-v4.1b"}
+               "v4": "case_valuation_project/backtest/results-v4b"}
 # Chosen before the v2 revision was written; the revision was never tuned against them.
 HOLDOUTS = {"island-girl-outfitters-v-allied-development-2025", "udot-boggess-draper-2025", "dover-mall-v-tang-2023", "nco-montgomery-park-2025", "edgemere-lawal-2025", "navient-v-bpg-office-partners-2023"}
 OUT = "js/backtest-results-data.js"
