@@ -6116,6 +6116,103 @@ const RELAW_DATA = {
       amountUsd: 12400000,
       amountBasis: "damages sought",
       tags: ["professional negligence", "multifamily", "construction financing", "washington-dc", "brokerage liability"]
+    },
+    {
+      id: "live-184",
+      addedDate: "2026-09-26",
+      featured: true,
+      title: "Wells Fargo Moves to Auction Rockpoint's $806M Boston Office Tower",
+      category: "lending-foreclosure",
+      status: "filed",
+      date: "2026-09-23",
+      jurisdiction: "Suffolk County, Massachusetts (non-judicial foreclosure by power of sale)",
+      state: "MA",
+      amount: "$470M mortgage; tower purchased for $806M in 2019, now assessed at ~$425M",
+      source: "live",
+      sourceUrl: "https://www.bostonglobe.com/2026/09/23/business/rockpoint-downtown-boston-office-tower-auction/",
+      summary: "Wells Fargo has scheduled an October 20, 2026 foreclosure auction for 100 Summer Street, a 32-story, roughly 1.3-million-square-foot Boston Financial District office tower owned by Rockpoint Group, per an auction notice from Sullivan & Sullivan Auctioneers reported by the Boston Globe, The Real Deal, and Banker & Tradesman. Rockpoint paid $806 million for the tower in 2019 against a $470 million Wells Fargo mortgage; the building, now 72% leased, carries a current municipal assessment of roughly $425 million.",
+      significance: "Described by market participants as the largest Boston office foreclosure auction in over a decade, the sale will produce a real, arm's-length transaction price for a large, partially-leased class-A gateway-city tower — a data point that appraisers, special servicers, and borrowers negotiating comparable office-loan workouts nationwide will immediately cite. It also shows that even a conservative roughly 58% loan-to-value structure at origination is no protection against a maturity or valuation-driven default once a market repricing is severe enough.",
+      body: [
+        "Wells Fargo has scheduled an October 20, 2026 foreclosure auction for 100 Summer Street, a 32-story, roughly 1.3-million-square-foot office tower in Boston's Financial District owned by Rockpoint Group, according to an auction notice published by Sullivan & Sullivan Auctioneers and reported this week by the Boston Globe, The Real Deal, and Banker & Tradesman. The sale proceeds under Massachusetts' non-judicial foreclosure-by-power-of-sale procedure rather than through a court case, and is being described as the largest Boston office foreclosure auction in more than a decade, eclipsing last year's sale of the 1.1-million-square-foot One Lincoln Street.",
+        "The numbers illustrate the scale of the reset. Rockpoint, a Boston-based real estate private equity firm, paid $806 million for the tower in October 2019, financing the purchase with a $470 million mortgage from Wells Fargo just months before the pandemic upended office demand. The building, developed in 1980 and now roughly 72% leased, carries a current municipal assessment of approximately $425 million -- nearly half of what Rockpoint paid seven years ago and below the outstanding loan balance.",
+        "Massachusetts is one of several states permitting foreclosure of commercial mortgages by power of sale, letting a lender with the requisite contractual authority proceed directly to a public auction after statutory notice, without first obtaining a judicial foreclosure judgment. That compresses the timeline between a lender's enforcement decision and an actual change of ownership relative to judicial-foreclosure states like New York or Illinois, where a foreclosure lawsuit and court-supervised sale process can stretch on for a year or more. A bidder at the October 20 auction will need a $10 million deposit in escrow the day before the sale.",
+        "For office owners and lenders more broadly, the auction is a live data point in an argument mostly fought over appraisals and index numbers: what a large, partially-leased, class-A gateway-district tower is actually worth in an arm's-length sale today. If the tower sells at or below its $425 million assessed value, that outcome will harden comparable-sales arguments for the next round of maturing office CMBS loans; a materially higher price would support the view that quality assets can still attract capital even as loans against them fail.",
+        "The transaction also underscores a structural point for sponsors that acquired trophy assets on aggressive leverage just before a market dislocation: a $470 million loan against an $806 million purchase price was, at origination, a conservative roughly 58% loan-to-value structure by conventional underwriting standards. That the collateral has nonetheless fallen far enough to leave the loan effectively unrecoverable in full shows how far office valuations have moved, independent of how prudently a given deal was leveraged at the outset -- owners holding similarly structured 2018-2021 vintage office loans should not assume a historically conservative loan-to-value ratio protects against a maturity default once current market value has fallen this far."
+      ],
+      timeline: [
+        { when: "October 2019", label: "Rockpoint Group acquires 100 Summer Street for $806M, financed with a $470M Wells Fargo mortgage" },
+        { when: "September 23, 2026", label: "Wells Fargo schedules an October 20 foreclosure auction for the tower", current: true },
+        { when: "October 20, 2026", label: "Scheduled foreclosure auction, run by Sullivan & Sullivan Auctioneers", upcoming: true }
+      ],
+      judge: null,
+      parties: [
+        { name: "Rockpoint Group", role: "Borrower/Owner" },
+        { name: "Wells Fargo", role: "Lender" }
+      ],
+      amountUsd: 470000000,
+      amountBasis: "loan",
+      propertyType: "Office",
+      tags: ["cmbs", "foreclosure", "office distress", "power of sale", "boston"]
+    },
+    {
+      id: "live-185",
+      addedDate: "2026-09-26",
+      title: "9619 Pulaski Hwy LLC Chapter 11 Petition (D. Md.)",
+      category: "lending-foreclosure",
+      status: "filed",
+      date: "2026-09-24",
+      jurisdiction: "United States Bankruptcy Court, District of Maryland",
+      state: "MD",
+      amount: "Undisclosed (financial details not yet public)",
+      source: "live",
+      sourceUrl: "https://www.courtlistener.com/docket/74844567/9619-pulaski-hwy-llc/",
+      summary: "9619 Pulaski Hwy LLC filed a Chapter 11 petition on September 24, 2026 in the United States Bankruptcy Court for the District of Maryland, case number 26-20484. This entry reflects only what the federal court docket shows; no independent news coverage of the filing was available at the time it was added to this tracker.",
+      significance: "Single-asset real estate entities named for their property address, like this debtor, make up a meaningful share of the current wave of small commercial Chapter 11 filings tied to distressed acquisition or construction debt. This tracker will add further detail as public reporting or additional docket activity becomes available.",
+      body: [
+        "9619 Pulaski Hwy LLC, a single-asset entity named for its property address on Pulaski Highway, filed a Chapter 11 petition on September 24, 2026 in the United States Bankruptcy Court for the District of Maryland, docketed as case number 26-20484. As of this entry, no news coverage of the filing's underlying circumstances -- the nature of the debtor's property, its lender, or the cause of the filing -- had been published, so this record is limited to what the court docket itself shows.",
+        "Single-asset real estate Chapter 11 filings of this kind are common among small commercial property owners facing a maturing or defaulted loan, and they typically proceed on a compressed timeline relative to operating-business reorganizations, since the debtor's only meaningful asset is the property itself. This tracker will update this entry, or add a related one, if further docket activity or independent reporting clarifies the debtor's business and the filing's circumstances."
+      ],
+      judge: null,
+      parties: [
+        { name: "9619 Pulaski Hwy LLC", role: "Debtor" }
+      ],
+      amountUsd: null,
+      docketUrl: "https://www.courtlistener.com/docket/74844567/9619-pulaski-hwy-llc/",
+      docketLabel: "CourtListener docket",
+      tags: ["chapter-11", "bankruptcy", "single-asset-entity", "maryland"]
+    },
+    {
+      id: "live-186",
+      addedDate: "2026-09-26",
+      title: "Embassy Suites Portland Airport Hotel Loan Hits Special Servicing After Missed $49.7M Maturity",
+      category: "lending-foreclosure",
+      status: "pending",
+      date: "2026-09-24",
+      jurisdiction: "Multnomah County, Oregon (pre-litigation; loan in special servicing)",
+      state: "OR",
+      amount: "$49.7M CMBS loan (GSMS 2016-GS3 / GSMS 2016-GS4)",
+      source: "live",
+      sourceUrl: "https://news.theregistryps.com/251-key-embassy-suites-portland-airport-hits-special-servicing-after-missing-49-7mm-loan-maturity/",
+      summary: "The $49.7 million CMBS loan secured by the 251-room Embassy Suites by Hilton Portland Airport transferred to special servicing after missing its August 2026 maturity date, according to trade-press reporting on CMBS remittance data. The loan is split across two 2016-vintage securitizations, GSMS 2016-GS3 and GSMS 2016-GS4, and Rialto Capital Advisors has been assigned as special servicer to work out a resolution with ownership.",
+      significance: "Airport-adjacent, extended-stay hotels financed near the top of the last major CMBS issuance cycle are increasingly missing their 2026 maturities as refinancing at current rates proves difficult against still-compressed post-pandemic travel-sector cash flows. Owners and lenders holding similarly vintage hotel CMBS debt should treat a maturity default as the opening move in a special-servicing negotiation, not an isolated event, given the growing backlog of comparable hotel loans servicers are now working through.",
+      body: [
+        "The $49.7 million CMBS loan secured by the 251-room Embassy Suites by Hilton Portland Airport hotel has transferred to special servicing after missing its scheduled August 2026 maturity date, according to trade-press reporting on CMBS remittance data. The debt is split across two 2016-vintage securitizations, GSMS 2016-GS3 and GSMS 2016-GS4, and Rialto Capital Advisors has been assigned as special servicer for the loan.",
+        "Reporting on the loan's performance indicates the property's cash flow has run close to breakeven for some time, with the sponsor reportedly covering shortfalls to keep the loan current before the maturity default finally occurred. That pattern -- a sponsor funding a marginally performing asset out of pocket rather than addressing an unworkable capital structure -- has become common among airport and extended-stay hotel loans originated in the 2015-2017 CMBS vintage, many of which are now reaching maturity into a refinancing environment far less favorable than when they were underwritten.",
+        "No foreclosure complaint or receivership motion had been filed as of this entry; the loan is at the special-servicing and workout-negotiation stage that typically precedes formal enforcement action. For hotel owners and lenders, the case is a reminder that special servicers are currently managing a substantial pipeline of similarly situated hospitality loans, and workout timelines and terms increasingly reflect that backlog rather than the specifics of any single asset."
+      ],
+      timeline: [
+        { when: "2016", label: "The $49.7M loan originates, split across the GSMS 2016-GS3 and GSMS 2016-GS4 CMBS securitizations" },
+        { when: "August 2026", label: "The loan matures without repayment or refinancing" },
+        { when: "September 2026", label: "The loan transfers to special servicing; Rialto Capital Advisors assigned as special servicer", current: true }
+      ],
+      judge: null,
+      parties: [
+        { name: "Rialto Capital Advisors", role: "Special Servicer" }
+      ],
+      amountUsd: 49700000,
+      amountBasis: "loan",
+      propertyType: "Hospitality",
+      tags: ["cmbs", "special servicing", "hospitality", "hotel", "oregon"]
     }
   ],
 
