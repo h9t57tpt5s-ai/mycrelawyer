@@ -1,0 +1,1492 @@
+2025 IL App (1st) 221279 
+Nos. 1-22-1279 & 1-22-1868 (consolidated) 
+ 
+FIRST DIVISION 
+March 31, 2025 
+ 
+____________________________________________________________________________ 
+ 
+IN THE 
+APPELLATE COURT OF ILLINOIS 
+FIRST JUDICIAL DISTRICT 
+____________________________________________________________________________ 
+ 
+ 
+SLYCE COAL FIRED PIZZA COMPANY, 
+ 
+Plaintiff and Counterdefendant-Appellant, 
+ 
+ 
+ 
+v. 
+ 
+METROPOLITAN SQUARE PLAZA, LLC 
+ 
+Defendant and Counterplaintiff-Appellee, 
+ 
+(Laurie Barth and Brittany Barth-Niggemann, 
+Counterdefendants-Appellants). 
+ 
+) 
+) 
+) 
+) 
+) 
+) 
+) 
+) 
+) 
+) 
+) 
+) 
+) 
+) 
+ 
+Appeal from the Circuit Court 
+of Cook County, Illinois,  
+ 
+ 
+ 
+No. 19 L 8297 
+ 
+ 
+ 
+ 
+ 
+The Honorable 
+Mary Colleen Roberts, 
+Judge Presiding. 
+ 
+ 
+ 
+JUSTICE PUCINSKI delivered the judgment of the court, with opinion. 
+ 
+Justices Lavin and Cobbs concurred in the judgment and opinion. 
+ 
+ 
+OPINION 
+ 
+¶ 1 
+In these consolidated appeals, plaintiff and counterdefendant-appellant Slyce Coal Fired 
+Pizza Company (Slyce) appeals from circuit court orders that (1) found in favor of defendant-
+counterplaintiff-appellee Metropolitan Square Plaza, LLC (Metro), on its claim for breach of the 
+parties’ contract and (2) awarded Metro $852,421.64 in damages. Slyce separately challenges the 
+circuit court’s subsequent order awarding Metro all of its requested attorney fees and costs 
+(totaling $202,034.79) without an evidentiary hearing. 
+¶ 2 
+For the following reasons, we affirm the trial court’s findings that Slyce was liable to Metro 
+for breach of contract. We affirm the award of damages, except that we reverse the $28,000 portion 
+of the award corresponding to brokerage fees. Insofar as Slyce appeals the award of Metro’s 
+attorney fees and costs, we reverse and remand for the trial court to conduct an evidentiary hearing. 
+¶ 3 
+ 
+BACKGROUND  
+¶ 4 
+This is a breach of contract dispute arising from failed efforts to open a pizza restaurant in 
+a building owned by Metro in Des Plaines, Illinois. 
+¶ 5 
+Slyce operates a number of pizza restaurants in the Chicago area. Slyce is operated by 
+Laurie Barth (Laurie) and her daughter, Brittany Barth-Niggemann (Brittany). Metro is a limited 
+liability company that owns commercial properties. Metro’s chief executive officer is Jim Karzakis 
+(Jim).  
+¶ 6 
+ In 2017, Metro purchased the property at 1504 Miner Street in Des Plaines, which was 
+formerly the site of a Leona’s restaurant. In March 2018, the parties discussed Slyce’s interest in 
+opening a restaurant at the location.  
+¶ 7 
+ 
+Prelease Activities 
+¶ 8 
+In April 2018, Slyce and Metro entered into a letter of intent for Slyce to lease the premises 
+from Metro. The parties discussed renovations to prepare the premises for operation as a restaurant 
+by Slyce, with some work to be performed by Metro and some of it by Slyce. Among other work, 
+Slyce planned for a massive pair of ovens (weighing over 6,500 pounds) to be installed on the 
+premises.  
+¶ 9 
+In May 2018, Metro hired a contractor, My Home Architects and Engineers (My Home), 
+operated by Dragan Djonovic (Dragan), to develop plans for Metro’s portion of the renovations. 
+Under a separate contract, Slyce hired My Home to serve as its architect. 
+¶ 10 
+On May 18, 2018, Slyce e-mailed to Jim specifications for the 6,500-pound ovens that 
+Slyce desired on the premises. Jim forwarded those to Dragan, who prepared plans for the 
+restaurant. 
+¶ 11 
+The restaurant plans originally contemplated that the ovens would be placed so that they 
+would mostly rest on a preexisting concrete slab but that a portion of the ovens would “overhang” 
+a wooden floor above the basement, which would require steel reinforcement. On August 22, 2018, 
+Brittany again sent Jim the specifications for the ovens and asked: “Is Dragon [sic] going to 
+determine the load that can be put on that slab and the small amount of the oven that will be over 
+the basement.” Jim responded: “Yes, Dragan will calculate the load and we’ll add the steel to meet 
+the requirements.”  
+¶ 12 
+On November 18, 2018, Metro submitted construction plans to the City of Des Plaines 
+(City). Shortly thereafter, Jim wrote an e-mail to Brittany and Laurie: “If all goes well final permits 
+should be issued by mid December.” In response, Laurie wrote “Sounds good and I hope the 
+timeline holds as we NEED to be open for business no later than March/April 2019.”  
+¶ 13 
+ 
+Lease Provisions 
+¶ 14 
+On January 31, 2019, the parties entered into a lease for the premises with a term of “Ten 
+(10) years, one (1) month.” The lease recited that its “Execution Date” was January 31, 2019. 
+However, it also stated that its “Commencement Date” was “[t]he date of delivery of the Premises 
+to Tenant.” The lease did not define the meaning of “delivery.” 
+¶ 15 
+The lease also specified that the “Rent Commencement Date” was March 1, 2019. The 
+lease set forth the “Monthly Fixed Minimum Rent” for each month of the lease term.  
+¶ 16 
+Section 2.7 of the lease was titled “LANDLORD’S AND TENANT’S WORK” and 
+provided, in part:  
+“On or before the Commencement Date, Landlord shall deliver to 
+Tenant possession of the Premises in its then current, ‘as is, where 
+is’ condition ***. *** No later than six (6) months following the 
+Commencement Date Tenant shall complete, at its sole cost and 
+expense, all work necessary to prepare the Premises for the conduct 
+of Tenant’s Business therein (collectively, the ‘Tenant’s Work’), all 
+to be completed in accordance with the description of Tenant’s 
+Work set forth in Exhibit C attached hereto. In no event shall Tenant 
+modify, change or otherwise alter or deviate from Tenant’s Work in 
+any material manner *** without Landlord’s prior written consent.” 
+¶ 17 
+Exhibit C, “TENANT’S WORK,” contained a list of enumerated work items and stated 
+that “Tenant at Tenant’s expense shall perform all work, other than Landlord’s work *** to put 
+the Premises in condition to permit Tenant to conduct its business therein.”  
+¶ 18 
+Elsewhere, exhibit C required that  
+“Tenant shall within 30 days from the date of this Lease, *** prepare and deliver 
+to Landlord, and Landlord’s architect for approval, two sets of complete plans and 
+specifications (including all HVAC, plumbing, fire protection and electrical 
+engineering as well as structural engineering, if applicable) covering all of Tenant’s 
+work *** certified by a licensed and registered architect and, if applicable, a 
+licensed and registered professional engineer.”  
+Exhibit C also required that, within 60 days from the execution date, “Tenant shall *** apply for 
+any and all necessary permits and approvals required to permit Tenant to perform Tenant’s Work.”  
+¶ 19 
+Exhibit C also stated: “The Tenant’s certified Architects and/or Engineers shall be 
+responsible for all design live load calculations *** to be within the limits of the allowable live 
+loads or limits for the existing building systems.” 
+¶ 20 
+With respect to Metro’s obligations, section 2.7 provided that “Landlord shall renovate the 
+Premises as provided for in Exhibit D (‘Landlord’s Work’).” Exhibit D stated that Landlord “shall 
+perform all work, other than Tenant’s work set forth in Section 2.7 of the Lease to put the Premises 
+in condition to permit Tenant to conduct its business therein.” Exhibit D also set forth a list of 
+specific work items that were Metro’s responsibility.  
+¶ 21 
+Section 2.7 contemplated that Metro and Slyce “shall be completing Landlord’s Work and 
+Tenant’s Work *** at the Premises simultaneously.” They also “agree[d] to use their best efforts 
+to jointly coordinate Landlord’s Work and Tenant’s Work to minimize delays in completing such 
+work.” However, section 2.7 indicated that “Landlord’s Work” could be completed up to 10 days 
+after “Tenant’s Work”: 
+“Landlord shall (i) complete the carpentry work, as set forth on 
+Plans, within 30 days after approval of Plans by City of Des Plaines 
+and issuance of building permits, and (ii) use Landlord’s best efforts 
+to complete Landlord’s Work promptly, but in any event, no more 
+than ten (10) days after Tenant completes Tenant’s Work.”  
+¶ 22 
+The lease contained a number of provisions regarding Metro’s remedies in the event of a 
+default. Section 14.5 contemplated that, in the event of default, Slyce shall “pay Landlord, at 
+Landlord’s option *** such expenses as Landlord may incur in connection with the Event of 
+Default *** and all reletting, including without limitation court costs, attorneys’ fees and costs, 
+brokerage, and management fees and commissions, and all costs of preparing the Premises for 
+reletting.” The lease also contemplated that Metro could seek either “liquidated damages,” “Lump-
+Sum Liquidated Damages,” or “Monthly Liquidated damages” under different formulas specified 
+therein.  
+¶ 23 
+In conjunction with the lease, Brittany and Laurie executed a “Guaranty of Lease” in which 
+each of them guaranteed “the complete and due performance by [Slyce] of all the terms” of the 
+lease, including the payment of rent.  
+¶ 24 
+ 
+Developments After the January 2019 Lease Execution 
+¶ 25 
+On February 19, 2019, Metro obtained a permit to execute the work reflected in the 
+approved plans.  
+¶ 26 
+According to Metro, it first learned on February 25, 2019, that Slyce wanted to bring the 
+ovens through the front of the building.1 Dragan subsequently calculated that the ovens were too 
+heavy to be brought over the existing wood floor. It was then determined that, to bring the ovens 
+through the front of the building, the existing wood floor needed to be reinforced and replaced 
+with steel and concrete. Metro took the lead in directing contractors to begin the floor replacement. 
+However, the parties disputed who was ultimately responsible for the work, and they accused each 
+other of failing to act diligently and “use their best efforts to jointly coordinate” their work, as 
+required by section 2.7 of the lease.  
+¶ 27 
+According to Metro, Jim worked diligently on the floor replacement. However, e-mails in 
+spring 2019 showed Slyce’s increasing concern about delays in progress. 
+¶ 28 
+On March 25, 2019, Laurie wrote to Jim: “The lease assumed delivery of the premises to 
+tenant would be by March 1, 2019, which has not occurred.” Laurie suggested an “addendum to 
+ 
+ 
+1This is corroborated by a February 25, 2019, e-mail in which the City’s development manager e-
+mailed Jim: “your team is looking to install the large pizza ovens inside of the building *** and will need 
+to have the equipment enter through the front of the building.” 
+the lease leaving the actual ‘commencement date’ open until we have a firm date ***.” Jim 
+forwarded Laurie’s e-mail to Metro’s real estate counsel (William Bazianos). The next day, 
+Bazianos e-mailed Slyce’s counsel, stating that Metro had in fact delivered the premises and 
+further stating that Slyce had failed to complete floor layout plans and hire contractors to complete 
+Tenant’s Work. Metro’s position was that any delays “are the result of [Slyce’s] failure to move 
+forward timely with Tenant’s Work.” 
+¶ 29 
+On April 9, 2019, Laurie again wrote to Jim: 
+“We all know when Brittany and I signed the lease with a March 1, 
+2019 rent commencement date it was with the understanding the 
+building would be turned over to us at that time to complete 
+‘Tenant’s Work.’ *** As of today this has not happened and the goal 
+of opening for business by mid-May, 2019 appears to be impossible. 
+It has always been communicated that we needed to be open by 
+spring/summer of 2019 at the latest.” 
+Laurie went on to state that Slyce had selected Joe Altmann as its “construction manager” instead 
+of Dragan, citing “delays [Dragan] has caused getting the plan done and missing deadlines and 
+meetings.” 
+¶ 30 
+Laurie further stated that there was an “open hole in the floor” that prevented Slyce and its 
+contractors from beginning the Tenant’s Work. She expressed concern that this would delay the 
+restaurant’s opening “to potentially July 2019 resulting in missing out on half of the summer 
+business season.” 
+¶ 31 
+In the same April 9, 2019, e-mail, Laurie questioned Slyce’s obligation to pay rent:  
+“What incentive do you have to complete ‘Landlord’s Work’ if we 
+are paying rent? I recall you telling Brittany and I we would not have 
+to pay rent until we open. When the lease was being negotiated and 
+you were doing so much to improve the building we both felt it 
+equitable for us to pay rent even though you had told us rent would 
+commence once we open. Never did we imagine this much of a 
+delay would occur.”  
+Laurie indicated her understanding that the parties would meet the next day to “clarify landlord 
+and tenant work” and a timeline for completion.  
+¶ 32 
+The record reflects subsequent communications between Jim and Brittany regarding the 
+division of labor for remaining work. On April 12, 2019, Jim sent an e-mail to Brittany and 
+Altmann with the subject regarding “the steel beam install over the basement.” He asked: “Should 
+we cut the wood basement ceiling trusses to lower the steel beams into place *** in order to support 
+the transportation of the ovens over the basement?” In the same e-mail, Jim asked if Slyce agreed 
+“to equally share the cost of the structural engineering report, steel beams, metal deck, and wire 
+mesh install in order to support the transportation of the pizza ovens over the basement floor?” Jim 
+indicated the total cost would be $9,195.02. He also stated that Metro would pay for the concrete. 
+¶ 33 
+Slyce did not respond directly to Jim’s question about sharing costs. Nevertheless, the 
+parties continued to communicate about the steel and concrete work. On April 26, 2019, Brittany 
+e-mailed Jim and Dragan to ask “how the steel inspection went” and whether they were “on track 
+to pour the floor Thursday 5/2?” In response, Jim indicated that the steel contractor was correcting 
+some work and that the “concrete pour was rescheduled.” 
+¶ 34 
+On May 15, 2019, Metro submitted plans to the City for new floor work. On May 22, 2019, 
+the City requested modifications to those plans.  
+¶ 35 
+ 
+Communications Break Down in June 2019 
+¶ 36 
+It is undisputed that Slyce paid rent for the months of March, April, and May 2019. 
+However, communications between Slyce and Metro broke down in June 2019. Slyce did not pay 
+any more rent. 
+¶ 37 
+On June 4, 2019, Jim e-mailed Brittany and stated that Metro would be completing the 
+“Steel/concrete work over the basement.” Later on June 4, 2019, Jim sent a message in which he 
+suggested that Slyce could take over the floor replacement: 
+“Also, we prefer handing over the completed and inspected work for 
+the steel beams/metal decking/concrete floor over the basement 
+since they’re structural to the building. In terms of next steps, we’re 
+waiting for plan approval from the City of Des Plaines in order to 
+proceed with the concrete pre-pour inspection. 
+ 
+Let us know your preferences on moving forward and I’m 
+sure we can arrive at a mutually beneficial solution.” 
+¶ 38 
+In a response, Laurie complained of Metro’s lack of communication and “repeated delays 
+with no explanation.” Later on June 4, 2019, Laurie wrote to Jim that she learned the City had 
+requested revisions on the plans for the steel and concrete work. She wrote: “We need to know 
+how much longer this could take because it is out of our hands. All while rent continues to be 
+collected and used as leverage to keep stringing us along. This is so unfair and everyone knows 
+it.” 
+¶ 39 
+On June 5, 2019, Jim responded that the City’s comments on the plans were not unusual 
+and that Dragan would address them. In the same e-mail, Jim also criticized Slyce: 
+“[W]e have been very patient and have acted in good faith 
+throughout our relationship with the Slyce team ***. However, 
+rather than working collaboratively as we agreed to in the Lease, 
+you continue to make unfounded accusations ***. You’re fully 
+aware that *** Slyce has not provided the Landlord with the 
+required Tenant permitted and approved plans that you agreed to in 
+the Lease. *** The Landlord’s contractors can’t be guessing what 
+you want if your plans are not final. Therefore any delays for 
+Tenant’s work are your sole responsibility.” 
+¶ 40 
+On June 12, 2019, Metro received a permit from the City for the floor replacement work. 
+On June 17, Laurie e-mailed Jim, again stating that Metro had failed to update Slyce on the work. 
+She questioned why Metro had not informed Slyce that the City had approved the revised plans 
+for the floor work. Later that day, Jim copied Metro’s legal counsel and told Laurie: “You continue 
+to operate in a manner that is not consistent with the terms of the Lease. Going forward, you are 
+directed to correspond only with my attorneys.” 
+¶ 41 
+ Laurie responded that “any deadlines in the lease must be adjusted to allow us to move 
+forward.” Laurie also stated: “It is obvious to me you are posturing to get [Slyce] to share in the 
+cost of the steel, floor and concrete. If you had been honest with us from the beginning we would 
+have worked this out.” 
+¶ 42 
+ Metro continued to work on the floor replacement. Concrete for the floor was poured on 
+June 22, 2019. 
+¶ 43 
+ 
+Slyce Sues Metro, and Metro Counterclaims 
+¶ 44 
+On July 26, 2019, Slyce commenced this litigation by filing a complaint against Metro 
+containing several counts, including breach of contract and unjust enrichment. After Metro filed a 
+motion to dismiss, the trial court dismissed all counts except Slyce’s claims for breach of contract 
+and unjust enrichment. 
+¶ 45 
+On February 4, 2020, Metro filed an answer and a counterclaim with two counts. The first 
+count asserted breach of contract, insofar as Slyce breached its lease obligations by, inter alia, 
+failing to pay rent, failing to provide Metro “two sets of complete plans and specifications” within 
+30 days from the date of the lease as called for by exhibit C, and failing to timely “apply for any 
+and all necessary permits” for Tenant’s Work, as required by exhibit C. The second count was 
+directed against Laurie and Brittany, as Slyce’s guarantors under the lease.  
+¶ 46 
+ 
+Trial 
+¶ 47 
+The record reflects that the trial court presided over a settlement conference in January 
+2022, which proved unsuccessful. The parties proceeded to a bench trial that commenced on April 
+11, 2022. 
+ 
+¶ 48 
+In its opening argument, Slyce’s counsel argued Metro did not use its best efforts to 
+complete its work promptly, especially the floor replacement. Counsel argued that Slyce could not 
+do the “Tenant’s Work” at the property because Metro created “a hole in the ground” inside the 
+premises. Slyce argued that Metro took on the responsibility for the floor replacement, and Slyce 
+relied on Metro to complete the work.  
+¶ 49 
+In Metro’s opening, counsel pointed out that Slyce stopped paying rent after May 2019. 
+Metro argued that Slyce caused it to invest over $100,000 in construction costs before Slyce 
+“walked away” from the project. Metro argued that the floor replacement work was necessitated 
+by Slyce’s decision to bring the ovens through the front of the building, which was not 
+communicated to Metro until after the building plans were already approved. Metro’s counsel 
+emphasized that, under the lease, Slyce was required to complete its work six months after the 
+commencement date, whereas Metro had another 10 days to complete “Landlord’s Work.” 
+Counsel argued that Metro was “trying to coordinate” the work but Slyce did not make similar 
+efforts.  
+¶ 50 
+ 
+Altmann 
+¶ 51 
+Slyce called Altmann, who testified he remodeled homes and commercial spaces. Altmann 
+was hired by Slyce to “complete the interior build-out” before the restaurant opened, but the 
+property never became ready for him to do that work.  
+¶ 52 
+Altmann had served as Slyce’s construction manager in remodeling its three other 
+restaurants, which used the same sort of 6,500-pound pizza ovens at issue in this case. Due to their 
+size, the ovens needed to either be brought in through a large existing opening or by demolishing 
+part of a building. Altmann worked with a company called Diamond Rigging to install the ovens 
+at other Slyce locations. Regarding the Des Plaines premises at issue, Altmann recalled that he 
+asked his contact at Diamond Rigging to discuss how to transport the ovens over the existing wood 
+floor. As the rear entrance to the premises was narrow, Altmann always believed that the plan was 
+for the ovens to come through the front. The ovens could not have been brought through the rear, 
+without making a hole in the wall. 
+¶ 53 
+Altmann visited the premises three times. He first visited in February 2019. He recalled 
+there was a large hole in the floor, which precluded the ovens from being brought in. He again 
+visited in March 2019, and the condition of the building was “[b]asically the way I saw it the first 
+time.” Altmann last visited the building site in April 2019, when he met with Brittany, Jim, and 
+“the architect” (Dragan). They briefly discussed the transportation of the ovens into the building, 
+but “it couldn’t be done until the floor’s completed.”  
+¶ 54 
+Altmann testified that he never started work at the premises because the ovens needed to 
+be in place for him to do his work. When he visited the property, he did not believe it was in a safe 
+condition for him to work, as there was “construction debris all over.” 
+¶ 55 
+On cross-examination, Altmann acknowledged he is not an engineer or architect or a 
+licensed general contractor. He never saw the lease or any “permitted drawings.” His 
+understanding of what Slyce and Metro would do was based on his discussions with Brittany. 
+Altmann agreed that he “did nothing” in terms of actual work at the site. 
+¶ 56 
+ Altmann did not believe that the wood floor needed to be replaced to support the ovens, 
+as he was told by Diamond Rigging that “steel plates” could be used to move the ovens. Altmann 
+later acknowledged that calculations were done to assess the weight tolerance of the floor and that 
+“it was determined the floor had to be replaced.”  
+¶ 57 
+ 
+Brittany  
+¶ 58 
+Brittany testified that, in November 2018, she expressed to Metro the need for the 
+restaurant to be open for business by March or April 2019. Slyce wanted to open by then in order 
+to train staff and be in business before the busy summer season. Brittany also testified that Slyce 
+was planning to open a restaurant in Vernon Hills later in 2019 and that Slyce hoped to have at 
+least six months between the two openings. Brittany testified that Jim was aware that this was 
+“dictating the timeline” to open the Des Plaines location.  
+¶ 59 
+Brittany testified to her understanding that Metro, not Slyce, was responsible for any 
+“structural” work. She believed the scope of Slyce’s work was mostly “cosmetic,” meaning the 
+interior “build-out to make it a restaurant.” Brittany testified that exhibit C did not state it was 
+tenant’s responsibility to do any “structural or concrete work, flooring work.”  
+¶ 60 
+Brittany testified that Slyce submitted the specifications for the ovens to Metro and Dragan, 
+and she understood that they would take them into consideration when finalizing the floor plans. 
+She confirmed that by May 18, 2018, Metro and Dragan knew the size and weight of the ovens. 
+¶ 61 
+Slyce ordered the ovens to be shipped from the manufacturer to Diamond Rigging, who 
+was to transport the ovens into the building. Brittany understood the ovens were going to be 
+brought in through the front, because they were too wide to be brought through the rear, without 
+opening up a wall. Under section 2.7 of the lease, Slyce would need Metro’s written consent before 
+opening a wall or the roof to bring in the ovens. Metro never gave Slyce such written consent. 
+Brittany similarly testified that Slyce could not reinforce the floor without Metro’s consent. 
+¶ 62 
+Brittany explained that were two separate issues pertaining to support for the ovens, 
+relating to (1) support of a portion of the ovens’ planned final resting place and (2) reinforcement 
+of the floor over which the ovens were to be transported. The planned resting place for the ovens 
+was on a concrete slab in the kitchen. However, a portion of the ovens was “going to hang off” the 
+concrete by a number of feet. The floor beneath that portion needed to be reinforced with steel 
+beams.  
+¶ 63 
+A separate issue arose regarding the need to reinforce the floor to move the ovens to their 
+planned resting place. Brittany recalled that around February 2019 she was informed by Jim or 
+Dragan of the need for structural work, including steel and concrete, to reinforce the floor. She 
+understood that Metro would perform that work. Brittany stated that she later found out that Metro 
+did not get the permits for steel and concrete pouring until April 2019 or later.  
+¶ 64 
+Brittany was asked about Laurie’s March 2019 e-mail proposing an addendum to the lease. 
+Brittany recalled that Slyce wanted to amend the lease because it was “evident that we were not 
+going to be meeting our timeline.” Slyce wanted an addendum with a “realistic timeline” for the 
+completion of the work, but the parties never amended the lease.  
+¶ 65 
+Brittany was also asked about the April 9, 2019, e-mail from Laurie to Jim referencing 
+delays and questioning Slyce’s obligation to pay rent. Brittany testified that Slyce was losing 
+revenue by not being able to open by May 2019. Brittany elsewhere stated her understanding was 
+that Slyce was not supposed to “be paying rent until we were opened.” Slyce began paying rent in 
+March, “assuming that the building would have been turned over to us by then even though we 
+had originally negotiated not paying rent *** until we were opened.” When asked why Slyce 
+stopped paying rent after May 2019, Brittany said: “There was still a hole in the floor and it just 
+didn’t look like we were getting anywhere.” 
+¶ 66 
+Brittany was asked about Jim’s April 12, 2019, e-mail asking if Slyce would share the cost 
+of steel beams to reinforce the floor. Brittany recalled this was “kind of a shock” because she did 
+not believe Slyce was responsible for that work. Brittany recalled that on April 18, 2019, she met 
+with Jim, Dragan, and Joe, with Laurie participating by phone. Based on that meeting, it was her 
+understanding that Metro would finish the floor replacement work.  
+¶ 67 
+Brittany testified that Laurie’s e-mail to Jim on June 4, 2019, expressed that it was “not 
+fair that we are still paying rent, and we’re not able to even do our tenant work” because there was 
+“still a hole” in the building. Slyce was frustrated that it “had been waiting since February to get 
+that hole filled in with concrete and steel.” 
+¶ 68 
+Brittany testified that Slyce hired Dragan as its “architect” to do the floor plan and 
+mechanical, electrical, and plumbing plans (MEPs). However, Dragan delayed and eventually told 
+her that TriMark, Slyce’s kitchen equipment supplier, would do the MEPs. Brittany eventually 
+submitted the plans to the City herself, because Dragan was nonresponsive. 
+¶ 69 
+Brittany testified that Slyce used its best efforts to coordinate with Metro. For the most 
+part, she believed that she and Jim “worked really well together.”  
+¶ 70 
+ On cross-examination, Brittany testified that Slyce considered “every option” as to how 
+to bring the ovens in. Slyce decided that moving them through the front “made the most sense” 
+because Slyce was already planning a modification to the front that would create a hole in the wall. 
+Brittany acknowledged that on February 25, 2019, she discussed with Jim that the ovens were 
+going to be brought in through the front of the building.  
+¶ 71 
+Brittany recalled that she, Jim, and Dragan discussed two options to move the ovens across 
+the wood floor: one was to place steel plates over the wood floor (as suggested by Diamond 
+Rigging), and the other was to replace the floor. It was “Jim’s choice” to replace the floor with 
+steel and concrete, after Dragan said the floor would not withstand the ovens’ weight. Brittany 
+agreed that the lease did not contemplate the floor being replaced or reinforced, and it did not 
+indicate whose responsibility it would be. Jim “took it upon himself” to do that work.  
+¶ 72 
+ Regarding Jim’s e-mail asking to share costs for the steel beam installation, Brittany 
+acknowledged she did not respond directly to that request, because they were setting up a meeting 
+that eventually took place on April 18.  
+¶ 73 
+Also on cross-examination, Brittany acknowledged that Slyce agreed to a rent 
+commencement date of March 1, 2019. She stated it was “originally discussed” that Slyce would 
+not pay rent until the restaurant opened, but she acknowledged this was not a lease term. Brittany 
+acknowledged there was a breach when Slyce stopped paying rent. 
+¶ 74 
+Brittany was asked about the language in exhibit C that, within 60 days after the execution 
+date, the tenant shall “apply for any and all necessary permits and approvals required to permit 
+Tenant to perform Tenant’s Work.” She acknowledged Slyce had not done so. She also 
+acknowledged that exhibit C called for Slyce to deliver to Metro, within 30 days of the lease, “two 
+sets of complete plans and specifications.” She agreed this was not done, although she testified 
+that this was partially due to Dragan’s failure to complete the plans. 
+¶ 75 
+Brittany acknowledged that section 2.7 of the lease provided that it could take up to six 
+months to complete “Tenant’s Work,” although she testified that Slyce anticipated that it would 
+take less time. She acknowledged that Slyce sued Metro in July 2019, before six months had passed 
+from the execution of the lease. 
+¶ 76 
+ 
+Laurie 
+¶ 77 
+Laurie testified that she was involved in Slyce’s lease negotiations and financial decisions 
+but that she did not have much role in monitoring the construction. Brittany monitored progress at 
+the site and communicated with Jim on a daily basis. Laurie only “came into it when things got 
+tough” with respect to issues related to the lease. 
+¶ 78 
+Laurie was not involved in deciding how to bring the ovens into the building. She 
+understood that in February or March 2019 the decision was made that the floor needed to be 
+reinforced and concrete needed to be poured. 
+¶ 79 
+Laurie was asked about her March 25, 2019, e-mail, in which she proposed a lease 
+addendum. She testified that by then it was obvious that “our deadlines were not going to be met, 
+and the lease had terms that were time sensitive that I could see would be a problem.” Due to 
+Metro’s delays, Slyce could not complete the “Tenant’s Work” called for by the lease. Metro never 
+agreed to amend the lease.  
+¶ 80 
+Laurie testified that she sent her April 9, 2019, e-mail asking to establish a timeline because 
+Slyce was getting “concerned and frustrated at the delays” with the steel and concrete work and 
+felt like it was “being strung along.” Laurie testified that Slyce agreed to a March 1, 2019, rent 
+commencement date because they “assum[ed] that everything was going to go smoothly and we 
+would be open for business no later than May.” Slyce communicated to Metro that it wanted to 
+open the restaurant by May 2019. Laurie testified that Slyce paid March, April, and May rent.  
+¶ 81 
+Laurie testified that on or about April 14, 2019, she participated by phone in a meeting 
+involving Brittany, Joe, Dragan, and Jim. Laurie’s understanding was that Metro was responsible 
+for doing the steel and concrete flooring work, but there was “no transparency or communication 
+[from Metro] about what was really happening.” 
+¶ 82 
+On cross-examination, Laurie testified that Slyce could not do Tenant’s Work because the 
+floor was torn up. She said the planned path for the ovens was chosen by Slyce and Metro together 
+but that she was not involved. She acknowleged the MEP drawings were Slyce’s responsibility. 
+¶ 83 
+ 
+Jim 
+¶ 84 
+Jim testified that Metro purchased the premises, which had been a Leona’s restaurant, in 
+November 2017. Jim met Brittany in March 2018 and discussed updating the property for Slyce. 
+Slyce did not want the existing layout; it wanted a “custom concept,” so the property needed to be 
+“demoed.” 
+¶ 85 
+In May 2018, he and Slyce met with Dragan to discuss the layout. The first plans were 
+developed on June 4, 2018. There were 12 drafts of the plans between June and November 2018, 
+with Laurie and Brittany commenting on each draft. The plans were submitted to the City in 
+November 2018. After the City made comments, revised plans were approved in January 2019. 
+Metro obtained a permit for the interior remodeling on February 19, 2019. 
+¶ 86 
+Jim testified that none of the “Landlord’s Work” set forth in exhibit D to the lease included 
+replacement of the wood floor.  
+¶ 87 
+He recalled that in 2018 Brittany informed him that there would be a “slight overhang” of 
+the pizza ovens “over the existing wood floor.” They planned to add support under that portion of 
+the wood floor using steel beam and columns. This plan was incorporated into the design that was 
+approved by the City in February 2019. However, “that design plan was specific for the pizza 
+ovens coming in from the rear to that resting place with the overhang.”  
+¶ 88 
+Jim testified that a February 25, 2019, conversation with Brittany was the first time he was 
+informed the ovens would be coming through the front. This required a change to the plans 
+previously approved by the City, as the existing wood floor would not support the weight of the 
+ovens.2  
+¶ 89 
+In early March 2019, Brittany told Jim that the trucking company (Diamond Rigging) 
+recommended moving the ovens onto steel plates to bring them “over the wood floor over the 
+basement.” Jim doubted that it would be safe to put that much weight on the floor, so he asked 
+“the architect [Dragan] to do a calculation” as to whether the existing floor would support the 
+ovens. Dragan’s calculation showed that steel beams were required to support the 6,500-pound 
+ovens.  
+¶ 90 
+Later in March 2019, Jim discussed with Brittany a more “comprehensive solution” to 
+support the floor by adding “steel beams, steel decking and concrete.” They agreed that Jim would 
+contact the steel contractor, who was already working at the site under the previously-approved 
+plans.  
+ 
+ 
+2Jim testified the pizza ovens were going to be installed in the same final location, regardless of the 
+direction that they would be brought in. 
+¶ 91 
+Jim recalled that on April 4, 2019, he and Brittany met at the site with Altmann, whom he 
+understood was Slyce’s general contractor. Jim suggested that Altmann could run the floor 
+replacement project; Altmann said he would think about it. On April 5, there was further discussion 
+with Jim, Laurie, and Brittany as to how to “move forward in the most efficient manner.” On April 
+6, Altmann called Jim. After that conversation, Metro prepared a budget of the materials for the 
+floor replacement and asked the steel contractor to begin work.  
+¶ 92 
+Jim testified that his April 12, 2019, e-mail asked for Slyce’s agreement to cut the floor 
+joists, so that steel beams could be lowered into place. Jim testified this was a “point of no return” 
+because, after the beams are lowered, they are so heavy it is nearly impossible to bring them out. 
+In the same e-mail, Jim proposed that Slyce would pay half of the cost of the steel, about $4,600. 
+¶ 93 
+Jim testified that the floor replacement work required a permit because it was a change to 
+the plans previously approved by the City. On April 16, Jim was copied on plans from MyHome 
+and Brittany. Jim testified that Metro expected Slyce to submit the revision to the City for approval 
+but Slyce delayed in doing so. According to Jim, Metro was frustrated with Slyce’s “lack of 
+progress,” so Metro eventually “stepped in and asked [Dragan] to give us plans” for the floor 
+replacement work. Metro submitted the plans and obtained the permit. 
+¶ 94 
+Jim testified that on April 19, 2019, he met with Brittany, Altmann, and Dragan. They 
+agreed that “Metro should continue” to have contractors proceed with the steel and concrete work. 
+Metro ordered and paid for steel beams and metal decking. 
+¶ 95 
+Jim testified that Metro was obligated to continue the permitted work, even after Slyce left 
+the project, so that the City would be satisfied that the building was safe. Concrete was ultimately 
+poured on June 22, 2019. 
+¶ 96 
+Jim testified that Metro did deliver the premises to Slyce, as Brittany and Slyce’s 
+contractors were coming to the work site. Jim recalled he had weekly calls with Britany about the 
+project and met with her frequently at the premises. Jim enjoyed working with Brittany and had 
+no issues with her “until the floor work over the basement.” 
+¶ 97 
+Jim testified at length about Metro’s claimed damages. He testified that Slyce’s 
+abandonment of the project “devastated” the value of the premises, which became a “gutted shell” 
+due to Metro’s efforts to meet Slyce’s custom requirements. 
+¶ 98 
+Metro’s counsel asked Jim about section 14.5 of the lease, which provides that the landlord 
+may recover costs incurred as a result of a default as well as liquidated damages.3 
+ 
+ 
+3That provision states, in relevant part: 
+“In the event of any Event of Default ***, then in addition to and not in 
+lieu of, Landlord’s other remedies *** (1) the Rent, including Utility 
+Charges, shall thereupon become due and payable up to the time of such 
+re-entry, termination or dispossession; and (2) Landlord may relet the 
+Premises *** and (3) Tenant or its legal representative shall also pay 
+Landlord, at Landlord’s option *** such expenses as Landlord may incur 
+in connection with the Event of Default or Deliberate Event of Default and 
+all reletting, including without limitation court costs, attorneys’ fees and 
+costs, brokerage, and management fees and commission, and all costs of 
+preparing the Premises for reletting, plus either (a) Lump-Sum Liquidated 
+Damages or (b) as liquidated damages *** for each month of the period 
+which would otherwise have constituted the balance of the Term, the 
+excess, if any, of monthly liquidated damages (‘Monthly Liquidated 
+Damages’) equal to the sum of the then-applicable monthly installment of 
+Fixed Minimum Rent, plus the monthly portion of the payment of Tax 
+Rent that would have been payable for the period in question but for such 
+reentry, termination, or dispossession, plus Utility Charges payable for 
+such month computed on the basis of the average monthly charge for the 
+said three (3) preceding Adjustment Years or entire preceding portion of 
+the Term *** over the net amount, if any, of the rents actually collected 
+on account of the lease or leases of the Premises for such month.” 
+(Emphasis in original.) 
+¶ 99 
+ Jim testified that as of April 30, 2022, the sum of outstanding rent, taxes, and utilities was 
+$365,255. Jim also testified that Metro paid $135,113.88 in construction expenses in efforts to 
+customize the space for Slyce. 
+¶ 100 Jim additionally testified that Metro sought $327,626 for “Lump Sum Liquidated 
+Damages,” using the calculation set forth in section 13.2 of the lease. That provision defines 
+“Lump Sum Liquidated Damages” to mean: 
+“the difference between: the sum of the annual Fixed Minimum 
+Rent, the Tax Rent payable in the year immediately preceding such 
+termination, and Utility Charges payable in the last preceding 
+Adjustment Year, all multiplied by the number of years and fraction 
+of a year then constituting the unexpired Term, discounted at the rate 
+of four percent (4%) per annum to present worth, minus the fair and 
+reasonable annual rental value of the Premises for such period, also 
+discounted at the rate of four percent (4%) per annum to present 
+worth.” 
+¶ 101 Jim testified that Metro’s calculation under this formula resulted in $327,626. Specifically, 
+the sum of future rent through the end of the lease (discounted to today’s dollars) was $744,270. 
+From that number, Metro subtracted its estimate of reasonable rent for the remainder of the lease 
+term, which was $550,630. That is, $744,270 minus $550,630 resulted in $327,626 of “Lump Sum 
+Liquidated Damages.” 
+¶ 102 Jim further testified that Metro had unsuccessfully attempted to relet the property since 
+September 2019, despite hiring two brokers. Metro had an agreement with a broker calling for a 
+4% brokerage fee. Metro “estimated $700,000” for remaining rent under the lease period, so Jim 
+expected Metro would have to pay $28,000 for a brokerage commission. 
+¶ 103 On cross-examination, Jim agreed that Metro received the specifications of the ovens in 
+May 2018. Jim agreed that the floor replacement work was not part of either “Landlord’s Work” 
+set forth in exhibit D or “Tenant’s Work” in exhibit C. Jim testified the floor was opened up in 
+March 2019, and he acknowledged that concrete was not poured until June 22, 2019. Asked about 
+Laurie’s March 2019 request for a lease amendment, Jim testified there was no need to amend the 
+lease at that time because Slyce had six months to complete the work after the January 31, 2019, 
+commencement date.  
+¶ 104  
+Dragan  
+¶ 105 Dragan testified that Metro was a long-term client, and he acted as Metro’s general 
+contractor with respect to the premises. Under a separate contract, he provided architectural 
+services for Slyce. 
+¶ 106 Beginning around May 2018, Dragan was involved in weekly meetings with Slyce and 
+Metro. He prepared “over 10 revisions” of drawings for the proposed restaurant before they were 
+submitted to the City in November 2018. After the City made comments, revised plans were 
+submitted in January 2019. In making the drawings, Dragan believed the ovens were going to be 
+brought in “from the back where we have solid concrete floor.”  
+¶ 107 Dragan did not know Slyce planned to bring the ovens through the front until March 2019, 
+when he discussed it with Diamond Rigging. Dragan did new calculations as to how much weight 
+the floor could bear. After his calculations, the plan was to replace the floor and add steel and 
+concrete to support the transport of the ovens. 
+¶ 108 Dragan testified that from late March to May 2019, Slyce continued to make other revisions 
+to their plans for the interior of the building. Dragan made a number of corresponding revisions to 
+the architectural drawings, but he did not submit them to the City because Slyce never 
+communicated that it had no further revisions. 
+¶ 109 On cross-examination, Dragan agreed that he contracted with Slyce to prepare MEP 
+drawings. He agreed the planned final resting place of the ovens was the same whether they came 
+through the front or the back. He believed the “only logical way” to bring the ovens in was through 
+the back, where there was a solid concrete floor.  
+¶ 110  
+Closing Arguments 
+¶ 111 In closing arguments, Slyce claimed that Metro took ownership of the floor replacement 
+work and Metro left a hole in the property that “delayed everything” and made it impossible for 
+Slyce to carry out “Tenant’s Work” in the time frame set forth in the lease. As Metro “assumed 
+ownership” of the floor replacement work, counsel argued any delays should be imputed to Metro. 
+Counsel argued that Slyce’s e-mails asking Jim about the status of the work contradicted Jim’s 
+testimony that he kept Slyce apprised in meetings. 
+¶ 112 Metro’s counsel argued that Slyce was responsible for getting the ovens into the building 
+but had “no plan” how to do so. After Dragan calculated that the existing floor would not support 
+moving the ovens through the front, Slyce was “stuck” because the building had to be modified by 
+putting in a concrete floor. Counsel argued that Metro could not be blamed for delays from the 
+floor replacement work, because as soon as Jim learned about the need for it, he acted to engage 
+contractors for the work. Metro argued Slyce “permitted [Jim] to take control” but abandoned the 
+project after Metro incurred $135,000 in construction expenses. As to Metro’s counterclaim, 
+counsel argued that Slyce breached the lease in several ways, including by failing to pay rent and 
+failing to obtain completed plans and necessary permits. 
+ 
+¶ 113 In Slyce’s posttrial submission, it argued that it proved Metro breached the lease by failing 
+to use its best efforts to jointly coordinate its work with Slyce. As support, it cited Slyce’s March 
+2019 e-mail requesting an addendum to the lease, other Slyce e-mails from April 2019, and 
+Metro’s alleged failure to coordinate with Slyce to obtain a new permit from the City for the steel 
+and concrete work. Elsewhere, Slyce’s posttrial submission argued that, if the court found in favor 
+of Metro on its counterclaim, Metro was not entitled to liquidated damages, as they were penal in 
+nature. Slyce also disputed whether Metro could recover the $28,000 it sought in brokerage fees, 
+because they were a speculative future expense.  
+¶ 114  
+Trial Court Findings  
+¶ 115 Following trial, the court orally announced its findings on April 22, 2022.  
+¶ 116 The court first addressed Slyce’s claims. The trial court found the unjust enrichment claim 
+(count II) failed as a matter of law because a contract governed the parties’ relationship.  
+¶ 117 Turning to Slyce’s breach of contract claim, the court found the evidence did not support 
+the allegation that Metro “failed to use its best efforts to jointly coordinate” with Slyce. The court 
+noted that, although Slyce alleged that Metro failed to respond to Laurie’s March 2019 e-mail 
+suggesting an addendum to the lease, the very next day Metro responded via an e-mail from its 
+attorney. The court also noted Jim’s April 12, 2019, e-mail “asking permission to actually cut the 
+floor of the ceiling so that the work on the floor could commence,” which also included a “proposal 
+to share the costs of the floor replacement.” The court found that Slyce “never responded” to that 
+proposal. The court also found the evidence showed that on April 18, 2019, there was “a game 
+plan meeting” involving Slyce and Metro. The court found “overwhelming” evidence that Metro 
+performed under the lease, including an “abundance of evidence of Metro trying to jointly 
+coordinate with Slyce.”  
+¶ 118 The court also remarked that the lease did not indicate that the restaurant needed to be open 
+for business by a particular date. Although Slyce “had an expectation,” this was “not a term of the 
+contract.” 
+¶ 119 The court further determined that any delay from the floor replacement did not constitute 
+a material breach by Metro that relieved Slyce of its duty to perform, as the delay did not “defeat[ ] 
+the benefit of the bargain.” The court found:  
+“Metro worked diligently to replace the floor, and to push the project 
+forward even in light of Slyce’s refusal to work with Metro to 
+accommodate the move and placement of the ovens. *** When it 
+became clear that Slyce wanted to bring the ovens in through the 
+front and Slyce had no plan for that with respect to how the load of 
+that would be supported by the floor, Metro came in and said let me 
+help you. From that time forward Slyce did nothing to move those 
+ovens into place, nothing except to complain about how long it was 
+taking. So I find that there was no material breach by Metro [that] 
+would release Slyce from this contract.” 
+¶ 120 Turning to Metro’s counterclaim for breach of contract, the court noted that Slyce had an 
+obligation to pay rent under the lease, unless there was a constructive eviction or a material breach 
+by Metro. The court reiterated there was no material breach by Slyce. The court further found that 
+there was no constructive eviction.4 Thus, Slyce was in breach of the lease for failure to pay rent. 
+ 
+4The trial court also noted that Slyce had not pleaded constructive eviction as a defense.  
+¶ 121 The court also found Slyce breached the lease in other ways, including failure to complete 
+“Tenant’s Work”; “fail[ure] to calculate proper design loads for the move of the ovens”; failure to 
+provide Metro with “the mechanical, electrical, and plumbing plans” required by the lease; and 
+failure to timely apply for necessary permits for Slyce to perform its work. As to count II (breach 
+of guaranty), the court also found that Brittany and Laurie were liable as guarantors for Metro’s 
+damages. 
+¶ 122 Turning to damages, the court found Metro proved it paid $111,910.38 in construction 
+expenses related to breach of the lease.5 The court also found Metro entitled to the $327,626.48 it 
+requested as “lump sum liquidated damages,” finding that the lease’s liquidated damage provision 
+was enforceable.  
+¶ 123 In addition, the court also found that Metro had proven $365,255.76 in damages for “lost 
+rent, taxes, and utilities to date.” It also found Metro was entitled to $28,000 for brokerage fees, 
+citing Jim’s testimony about attempts to relet the property. The court also awarded prejudgment 
+interest in the amount of $19,629.02. 
+¶ 124 On April 25, 2022, the trial court issued a written order that entered judgment in Metro’s 
+favor and specified the following damages: 
+Rent + Taxes + Utilities to 4/30/2022 
+$365,255.76 
+Construction Expenses 
+ 
+ 
+$111,910.38 
+Lump Sum Liquidated Damages 
+ 
+$327,626.48 
+Brokerage Fees 
+ 
+ 
+ 
+$28,000.00 
+Prejudgment Simple Interest on Rent  
+$19,629.02 
+ 
+Total  
+ 
+ 
+ 
+ 
+$852,421.64 
+ 
+ 
+5This amount of this award was somewhat less than the approximately $135,000 in construction 
+expenses first testified to by Jim, since Metro subsequently acknowledged that certain of those expenses 
+would have been incurred by Metro regardless of the Slyce lease. 
+The April 25, 2022, written order further specified that “the Lease agreement allows for the award 
+of attorney’s fees and court costs,” to which Metro was entitled. The court directed Metro to 
+prepare a petition for attorney fees and costs. 
+¶ 125 The April 25, 2022, order specified that it was a final and appealable order. In May 2022, 
+the parties filed a joint motion asking the court to state that the April 25, 2022, order was “not final 
+and appealable until attorney fees and costs are determined without an express written finding that 
+there is no just reason for delaying the enforcement or appeal.” Metro also asked the court to clarify 
+that the judgment was entered against Slyce as well as its guarantors, Brittany and Laurie. 
+¶ 126 On May 23, 2022, the court struck the phrase “final and appealable” from the April 25, 
+2022, order. The court indicated the order would be deemed final and appealable when it 
+determined the attorney fees and costs to be awarded to Metro.  
+¶ 127 Metro submitted a petition for attorney fees and costs, seeking $187,413.45 in fees and 
+$14,621.04 in costs. In support, Metro attached a declaration by its lead attorney, Darrell Graham 
+of the firm Roeser Tanner & Graham LLC, that itemized the fees billed by each attorney and legal 
+assistant on the case, attaching invoices. Metro also attached a declaration by its real estate 
+attorney, William Bazianos of Bazianos Law, attaching invoices for fees of $11,283.75. 
+¶ 128 On July 26, 2022, the court issued an order clarifying that the April 2022 judgment was 
+entered against Slyce and its guarantors (Laurie and Brittany) jointly and severally. At the same 
+time, the court made a written finding that there was no just reason for delaying enforcement or 
+appeal. Slyce filed a notice of appeal (No. 1-22-1279) challenging the April 25, 2022, order, as 
+modified on May 23 and July 26, 2022.  
+¶ 129  
+The Court Grants Metro All Requested Attorney Fees and Costs 
+¶ 130 In response to Metro’s fee petition, Slyce requested an evidentiary hearing. Slyce asserted 
+various objections to the billing entries submitted by Metro’s attorneys, including that entries were 
+“block billing,” vague or duplicative, or billed attorney time for clerical tasks. Slyce also argued 
+Metro was not entitled to reimbursement for fees incurred by its real estate attorney. Slyce 
+otherwise claimed the requested fees were unreasonable. 
+¶ 131 On November 16, 2022, the court orally informed the parties that it found the requested 
+fees were reasonable. It also stated that it did not find an evidentiary hearing was necessary. On 
+the same date, the court issued a written order awarding Metro the entire amount of requested fees, 
+totaling $187,413.75, plus all requested costs, $14,621.04. That order included the following 
+language (which also appeared in Metro’s fee petition): 
+“This case should have been a straightforward breach of contract 
+action, but it was made more complex by the injection of multiple 
+additional claims by Slyce and the positions Slyce took during the 
+litigation ***. This is not a situation where [Metro] or its counsel 
+provoked or prolonged litigation in order to run up fees. Indeed, 
+Slyce initiated the lawsuit. More importantly, Slyce had multiple 
+opportunities to resolve this dispute at a fraction of the judgment but 
+consistently took the position that [Metro’]s settlement proposals 
+were unreasonable and made in bad faith. [Metro] received a very 
+favorable result, and the fees incurred were in no way 
+disproportionate to the recovery. (i.e. fees were approximately 20% 
+of the recovery, not including recovery of fees and costs).”  
+¶ 132 Slyce filed a second notice of appeal (No. 1-22-1868), directed to the November 16, 2022, 
+order awarding Metro’s attorney fees and costs. That appeal was subsequently consolidated with 
+appeal No. 1-22-1279. 
+¶ 133  
+ANALYSIS 
+¶ 134 On appeal, Slyce does not dispute that Slyce breached the lease, including by failing to pay 
+rent after May 2019. Instead, it asserts a number of reasons why Metro’s conduct constituted a 
+material breach or otherwise excused Slyce’s failure to perform under the lease. Separate from any 
+issue of liability, Slyce takes issue with many aspects of the trial court’s award of damages. In 
+addition, Slyce asserts the trial court erred in awarding the full amount of Metro’s requested 
+attorney fees and costs, without conducting an evidentiary hearing. 
+¶ 135  As Slyce acknowledges, a deferential standard applies to the trial court’s findings of fact 
+after a bench trial. “Generally, after a bench trial, our standard of review is whether the order or 
+judgment is against the manifest weight of the evidence.” Archon Construction Co. v. U.S. Shelter, 
+L.L.C., 2017 IL App (1st) 153409, ¶ 26. Under this standard, “we give deference to the trial court 
+as the finder of fact, because it is in the best position to observe the conduct and demeanor of the 
+parties and witnesses. [Citation.]” Id. A judgment is against the manifest weight of the evidence 
+only if the opposite conclusion is apparent or if the findings appear to be arbitrary, unreasonable, 
+or not based on the evidence. Martinez v. River Park Place, LLC, 2012 IL App (1st) 111478, ¶ 14.  
+¶ 136  
+Whether Metro Committed a Material Breach  
+¶ 137 We turn to Slyce’s claims that it cannot be held liable for a breach, because Metro 
+committed one or more material breaches of the lease that excused Slyce’s nonperformance. 
+Specifically, Slyce alleges that (1) Metro failed to deliver possession of the premises to Slyce, 
+(2) Metro failed to complete the “Landlord’s Work” set forth in Exhibit D, (3) Metro failed to 
+complete the floor replacement, (4) Metro failed to perform work promptly, (5) Metro failed to 
+complete carpentry work within 30 days after approval of plans by the City, (6) Metro “created 
+conditions preventing Slyce’s work,” and (7) Metro “Failed to Coordinate and Communicate its 
+Work.” These claims of material breach are unavailing.  
+¶ 138 A party suing for breach of contract must prove that it has substantially complied with all 
+the material terms of the agreement. InsureOne Independent Insurance Agency, LLC v. Hallberg, 
+2012 IL App (1st) 092385, ¶ 33. A mere “ ‘partial breach by one party *** does not justify the 
+other party’s subsequent failure to perform.’ ” Id. (quoting Israel v. National Canada Corp., 276 
+Ill. App. 3d 454, 460 (1995)). “Only a material breach of a contract provision will justify 
+nonperformance by the other party.” Id. That is, “a material breach of a contract provision by one 
+party may be grounds for releasing the other party from his contractual obligations.” Mohanty v. 
+St. John Heart Clinic, S.C., 225 Ill. 2d 52, 70 (2006). “[W]hether or not a material breach of 
+contract has been committed is a question of fact,” and the trial court’s finding will not be disturbed 
+unless it is against the manifest weight of the evidence. Id. at 72. 
+¶ 139 The test of whether a breach is material is whether it is so substantial and fundamental as 
+to defeat the objects of the parties in making the agreement or whether the failure to perform 
+renders performance of the rest of the contract different in substance from the original agreement. 
+InsureOne, 2012 IL App (1st) 092385, ¶ 43. “The breach must be so material and important to 
+justify the injured party in regarding the whole transaction at an end.” (Internal quotation marks 
+omitted.) Id.  
+¶ 140 We address the various ways in which Slyce alleges that Metro materially breached the 
+lease. We reject Slyce’s claim that Metro materially breached the lease by failing to deliver 
+possession of the premises to Slyce. As Metro points out, Slyce never argued at trial that Metro 
+materially breached by failing to “deliver” the premises. Indeed, the only breach that Slyce alleged 
+in its posttrial brief was that Metro failed to use its best efforts to jointly coordinate its work with 
+Slyce. Thus, this argument is forfeited on appeal. “ ‘It is well settled that issues not raised in the 
+trial court are deemed forfeited and may not be raised for the first time on appeal.’ ” Jameson Real 
+Estate, LLC v. Ahmed, 2018 IL App (1st) 171534, ¶ 75 (quoting Martinez, 2012 IL App (1st) 
+111478, ¶ 29); see Fox v. Heimann, 375 Ill. App. 3d 35, 45-46 (2007) (defense not raised at trial 
+is waived for purposes of review). 
+¶ 141 In any event, as Slyce acknowledges, the lease did not define the term “delivery.” 
+Certainly, the lease does not equate “delivery” of the premises with it being ready to open for 
+business. Rather, section 2.7 of the lease contemplated that, after delivery of the premises, both 
+Slyce and Metro would work “at the Premises simultaneously,” to prepare it for operation as a 
+restaurant. Moreover, as noted by the trial court, the evidence did not suggest that Metro ever 
+prevented Slyce or its agents from accessing the premises. 
+¶ 142 We also reject Slyce’s suggestion that Metro materially breached the lease because it failed 
+to complete the “Landlord’s Work” set forth in exhibit D. As Metro notes, Slyce does not specify 
+which items on exhibit D were not completed. In any event, even if Metro did not complete 
+“Landlord’s Work,” it would not excuse Slyce’s nonperformance under the lease. This is made 
+clear by examination of the language of section 2.7. Under that provision, Metro was required to 
+complete Landlord’s Work “promptly, but in any event, no more than ten (10) days after Tenant 
+completes Tenant’s Work.” That is, Metro was not obligated to complete its work until after Slyce 
+completed “Tenant’s Work.” And there is no dispute that Slyce did not, in fact, complete “Tenant’s 
+Work” before it ceased paying rent and abandoned the project.6  
+¶ 143  
+The Floor Replacement Work Was Not a Material Breach by Metro 
+¶ 144 Slyce separately argues Metro materially breached the lease because Metro was responsible 
+for replacing the floor and the ensuing delays. Slyce argues that Metro’s conduct shows it 
+undertook responsibility for that work. Slyce points out that Metro had the specifications for the 
+ovens in 2018 but “waited until March 2019 to make the decision to replace the floor.” Slyce 
+asserts it could not make progress on “Tenant’s Work” until the ovens were installed, which was 
+prevented by Metro’s delays in the floor replacement work.  
+¶ 145 In making this argument, Slyce disputes a number of the trial court’s key factual findings. 
+At trial, the court found that Slyce was responsible to determine how to bring the ovens into the 
+building, and it criticized Slyce for not having a feasible plan to bring the ovens into the building 
+across the wood floor. The trial court found that Metro worked diligently to move the project 
+forward, once it determined the floor replacement was necessary. We cannot say the trial court’s 
+findings were against the manifest weight of the evidence. 
+¶ 146 Notably, there is no dispute that the floor replacement was not specifically identified as 
+part of “Tenant’s Work” in exhibit C or “Landlord’s Work” in exhibit D to the lease. This is not 
+surprising, since the trial evidence was that the parties did not consider replacing the floor until 
+after the lease was executed, once they realized the existing wood floor would not support the 
+6,500-pound ovens. It is true that the ovens’ specifications were made known to Metro in 2018. 
+However, trial testimony indicated it was not until late February 2019 that Slyce disclosed its wish 
+ 
+ 
+6Indeed, as pointed out at trial, under section 2.7, Slyce had up to six months following the 
+January 31, 2019, commencement date to complete “Tenant’s Work.” Yet Slyce had already abandoned 
+the project before that six-month period had elapsed. 
+to move the ovens in through the front of the building, after which Dragan calculated that the 
+existing floor was not strong enough to support the load. Thus, as pointed out at oral argument, 
+Slyce’s complaint that Metro “waited” until March 2019 to begin the floor reinforcement is a 
+distortion of the record. 
+¶ 147 Both parties acknowledge that Metro took the lead in the work of the floor replacement. 
+Yet we disagree with Slyce’s suggestion that the resulting delay constituted a material breach by 
+Metro. Although the project was delayed by the floor work, this did not necessarily mean that 
+Metro breached the lease, let alone that it defeated the “benefit of the bargain.” Indeed, the trial 
+court could reasonably find that Metro worked diligently to address the issue after it was identified 
+and frequently updated Slyce. That finding was supported by the evidence, including numerous e-
+mails and Jim’s testimony, which the trial court was entitled to find credible.  
+¶ 148 Furthermore, the evidence indicated that the floor replacement work was actually getting 
+done (albeit more slowly than Slyce desired), such that the restaurant could, in fact, have opened 
+if Slyce had not abandoned the project. Metro obtained permits for the steel and concrete work, 
+and the concrete was poured in late June 2019. Although Slyce wanted the restaurant to be open 
+earlier, the lease did not set forth any particular opening date as a precondition for Slyce’s 
+performance. 
+¶ 149 The lease required both parties to use their “best efforts to jointly coordinate” work to 
+prepare the premises. The court found that Metro did undertake such efforts. The trial court could 
+reasonably find that, under these circumstances, any delay occasioned by the floor replacement 
+work was not a breach by Metro, let alone a material breach. 
+¶ 150  
+Other Delays in Landlord’s Work Were Not a Material Breach 
+¶ 151 Apart from delays caused by the floor replacement, Slyce argues that Metro otherwise 
+committed a material breach in failing to use its best efforts to complete “Landlord’s Work” 
+promptly. Slyce suggests Metro acted in a “dilatory manner” with respect to “seeking permits from 
+the City, finishing the rough work, and clearing construction debris.” Slyce cites Altmann’s 
+testimony that there was no change in the condition of the site when he visited in February, March, 
+and April 2019. 
+¶ 152 This claim of material breach is unavailing, as there is scant evidence in the trial record 
+suggesting that any such delays were so egregious that they could justify a belief that “ ‘the whole 
+transaction [was] at an end,’ ” to excuse Slyce of its lease obligations. See InsureOne, 2012 IL 
+App (1st) 092385, ¶ 43 (quoting Village of Fox Lake v. Aetna Casualty & Surety Co., 178 Ill. App. 
+3d 887, 901 (1989)). The trial court could reasonably find that Altmann’s testimony was unhelpful 
+to Slyce on this point. Altmann admitted he was not familiar with the lease, he was not familiar 
+with the permitted plans, and he never did any work at the premises. Thus, it is hard to see how 
+Altmann’s testimony could help establish whether Metro failed to comply with its lease 
+obligations. Perhaps more important, the lease contemplated that the Landlord’s Work could be 
+completed up to 10 days after Tenant’s Work. As Tenant’s Work was never completed, Slyce 
+cannot rely on a delay in Landlord’s Work as a material breach. 
+¶ 153 For similar reasons, we reject Slyce’s contention that a material breach could be premised 
+on Metro’s failure to “complete the carpentry work, as set forth on Plans, within 30 days after 
+approval of Plans by City of Des Plaines,” as called for under section 2.7 of the lease. This claim 
+was not made at trial and is thus forfeited. Jameson Real Estate, LLC, 2018 IL App (1st) 171534, 
+¶ 75. In any event, there was no trial testimony suggesting that Metro’s failure to complete 
+carpentry work within 30 days was serious enough to constitute a material breach. 
+¶ 154 We reach a similar conclusion with respect to Slyce’s claims that a material breach should 
+have been found based on Metro creating a “large hole in the Premises” that prevented Slyce from 
+performing work. Slyce refers to the language in section 2.7 that Metro shall deliver the premises 
+in a condition “no materially worse than the condition of the Premises on the Execution Date.”7 
+Slyce then faults Metro for creating a large hole that “expos[ed] anyone walking near it to a fall” 
+and for creating a hazardous condition by failing to remove construction debris. This specific claim 
+was not argued to the trial court, and it is otherwise without merit for multiple reasons. First, the 
+undisputed evidence was that Metro created the “hole” due to Slyce’s decision to bring the ovens 
+through the front of the building. Moreover, there was little if any evidence at trial suggesting the 
+floor replacement prevented Slyce from doing any of its work, such that it could be construed as a 
+material breach that excused its obligations under the lease. At most, Altmann testified to his belief 
+that, based on his visits to the property in February, March, and April 2019, the area of the floor 
+replacement work was dangerous. But Slyce presented no testimony from any contractor regarding 
+the site conditions in May or June 2019. There was certainly no testimony suggesting that Metro 
+made the premises so dangerous such that Slyce should have considered the “ ‘whole transaction 
+at an end.’ ” InsureOne, 2012 IL App (1st) 092385, ¶ 43 (quoting Village of Fox Lake, 178 Ill. 
+App. 3d at 901).  
+¶ 155   
+The Trial Court Reasonably Found that Metro Used Its  
+ 
+ 
+Best Efforts to Coordinate Its Work 
+¶ 156 Slyce’s final claimed basis for alleging a material breach is that Metro failed to use its “best 
+efforts to jointly coordinate” its work with Slyce to minimize delays, as required by section 2.7 of 
+ 
+ 
+7Slyce did not make an argument based on this lease provision at trial, and so Slyce’s reliance on 
+it is forfeited. Jameson Real Estate, LLC, 2018 IL App (1st) 171534, ¶ 75. 
+the lease. Citing e-mails discussed at trial, Slyce claims that Metro failed to communicate the 
+progress of the floor replacement work. But the trial court’s remarks show that it considered the 
+pertinent evidence and rejected this claim. The court found that Metro made diligent efforts to 
+coordinate with Slyce, crediting Jim’s testimony that he frequently communicated with Brittany 
+about the status of the project in calls or meetings. The trial court was entitled to find Jim credible, 
+especially as a number of the referenced meetings were corroborated by e-mails or other witness 
+testimony. As the trial court reasonably found that Metro met its obligations under section 2.7, we 
+reject this material breach claim. 
+¶ 157  
+Slyce’s “Quiet Enjoyment” and “Wrongful Prevention” Claims Fail 
+¶ 158 Slyce separately asserts that it should not be liable for its breach of contract, because Metro 
+breached “the covenant of quiet enjoyment” of the leased premises because it “fail[ed] to allow 
+Slyce to use the Premises for its stated purpose” as a functioning restaurant. This argument was 
+not presented to the trial court and is thus forfeited. Jameson Real Estate, LLC, 2018 IL App (1st) 
+171534, ¶ 75. In any event, the trial court found that Metro made diligent efforts to move the floor 
+replacement project forward in an effort to prepare the restaurant for opening. That finding was 
+not against the manifest weight of the evidence, and so Slyce’s “quiet enjoyment” argument fails. 
+¶ 159 Slyce makes a similar claim that, under the “wrongful prevention doctrine,” Metro should 
+not prevail because it prevented Slyce’s performance of “Tenant’s Work.” The “ ‘wrongful 
+prevention doctrine’ is in the nature of an estoppel because it prohibits a party from profiting 
+through his own wrongdoing.” See Cummings v. Beaton & Associates, Inc., 249 Ill. App. 3d 287, 
+307 (1992). If one party directly causes a contractual condition to fail, “the contract may be fully 
+enforced against that party; one cannot take advantage of his own conduct and then claim that the 
+resulting failure of the condition defeats his liability. [Citation.]” Id. at 306. This argument was 
+not presented to the trial court and is thus forfeited. In any event, the trial court’s remarks made 
+clear that it did not find that Metro engaged in any wrongful conduct but in fact Metro made good-
+faith efforts to complete the work before Slyce abandoned the project. This finding was not against 
+the manifest weight of the evidence, and so the “wrongful prevention” claim is without merit. 
+¶ 160  
+The Trial Court Did Not Err in Finding No Constructive Eviction 
+¶ 161 We turn to Slyce’s contention that there was a constructive eviction in this case, which 
+relieved it of the obligation to pay rent. Slyce asserts Metro’s acts and omissions made it “unable 
+to use the premises for its intended purpose, the operation of a restaurant.” 
+¶ 162 Constructive eviction requires something of a “serious and substantial character done by 
+the landlord with the intention of depriving the tenant of the enjoyment of the premises.” Shaker 
+& Associates, Inc. v. Medical Technologies Group, Ltd., 315 Ill. App. 3d 126, 134 (2000). Our 
+court has also used the phrase “ ‘grave and permanent character’ ” in describing the requisite 
+conduct by the landlord. See, e.g., Home Rentals Corp. v. Curtis, 236 Ill. App. 3d 994, 998 (1992) 
+(quoting Applegate v. Inland Real Estate Corp., 109 Ill. App. 3d 986, 989 (1982)). There need not 
+be an express intention on the part of the landlord to so deprive the tenant. Shaker & Associates, 
+Inc., 315 Ill. App. 3d at 134. Constructive eviction relieves the tenant from the obligation to pay 
+rent after the tenant quits the premises. Id. at 134-35. 
+¶ 163 Whether there has been a constructive eviction is a question of fact that will not be reversed 
+unless it is against the manifest weight of the evidence. Home Rentals Corp., 236 Ill. App. 3d at 
+998. Here, the trial court found no constructive eviction; that finding was not against the manifest 
+weight of the evidence. As discussed, the trial court found that Metro worked diligently to 
+complete the floor replacement project to facilitate the installation of Slyce’s ovens. Although 
+Slyce hoped and expected that the project would be completed earlier, the fact that it was not done 
+by June 2019 did not violate the lease. Under these facts, the court reasonably declined to find 
+conduct of a “grave and permanent character” that would constitute a constructive eviction. 
+¶ 164  
+Impracticability and Commercial Frustration 
+¶ 165 We also reject Slyce’s assertions that it should not be liable for its breach, under either the 
+doctrine of commercial impracticability or commercial frustration. Once again, these arguments 
+were not made to the trial court and are forfeited. In any case, the record does not support 
+application of either doctrine. 
+¶ 166 Where a party’s performance under a contract “ ‘is made impracticable without his fault 
+by the occurrence of an event the non-occurrence of which was a basic assumption on which the 
+contract was made, his duty to render that performance is discharged, unless the language or the 
+circumstances indicate the contrary.’ ” 55 Jackson Acquisition, LLC v. Roti Restaurants, LLC, 
+2022 IL App (1st) 210138, ¶ 55 (quoting Restatement (Second) of Contracts § 261 (1981)). 
+However, “[a] party is expected to make reasonable efforts to surmount obstacles to performance, 
+and performance is excused only if it is impracticable despite reasonable efforts.” Id. Slyce 
+suggests that the parties assumed the restaurant would be open by May 2019, such that the delay 
+from the floor work excused it from performing under the lease. That suggestion is belied by the 
+fact that the lease did not specify any opening date. In any event, Slyce would still need to make 
+“reasonable efforts” to overcome the obstacle to the desired opening date. The trial court’s remarks 
+reflect that it did not find Slyce made reasonable efforts to work with Metro. That finding was not 
+against the manifest weight of the evidence. 
+¶ 167 Under the commercial frustration doctrine, a contract is unenforceable if a party’s 
+performance is “rendered meaningless due to an unforeseen change in circumstances.” See Illinois-
+American Water Co. v. City of Peoria, 332 Ill. App. 3d 1098, 1106 (2002). A party asserting this 
+defense must show that (1) the frustrating event was not reasonably foreseeable and (2) the value 
+of performance by the nonclaiming party has been totally or nearly totally destroyed by the 
+frustrating event. 55 Jackson Acquisition, LLC, 2022 IL App (1st) 210138, ¶ 56. Slyce cannot 
+show both elements. Even if the floor replacement work was not reasonably foreseeable, we cannot 
+say that the resulting delay destroyed the value of Metro’s performance under the lease. While the 
+floor reinforcement work certainly delayed the project, the evidence was that Metro eventually 
+completed the work, with the concrete being poured in late June 2019. Keeping in mind that the 
+lease had a term of 10 years and one month, it cannot be said that a delay of a few months would 
+nearly or totally destroy the value of the lease.  
+¶ 168  In sum, we reject all of Slyce’s arguments that it should not be held liable for its admitted 
+breach of contract. We affirm the trial court’s finding that Slyce was liable for breach of the lease 
+under Metro’s counterclaim.8  
+¶ 169  
+Damages 
+¶ 170 We turn to Slyce’s challenges to various portions of the court’s damage award set forth in 
+its April 2022 order. Slyce challenges (1) the award of “lump sum liquidated damages” of 
+$327,626.48; (2) the $365,255.76 award for past rent, utilities, and taxes; (3) the $111,910.38 
+award for construction costs; and (4) the $28,000 award for brokerage fees. We find these 
+challenges without merit, except with respect to the brokerage fees. 
+¶ 171  In reviewing a damage award following a bench trial, the standard of review is whether 
+the trial court’s judgment is against the manifest weight of the evidence. 2460-68 Clark, LLC v. 
+Chopo Chicken, LLC, 2022 IL App (1st) 210119, ¶ 28. Against the manifest weight of the evidence 
+ 
+ 
+8Insofar as the trial court found that Laurie and Brittany were also liable to Metro pursuant to the 
+guaranty they signed, no distinct challenge to their liability under the guaranty has been raised in this appeal.  
+means “the opposite conclusion is clear” or the trial court’s findings “appear to be unreasonable, 
+arbitrary, or not based on evidence.” Id.  
+¶ 172  
+Slyce’s Challenges to the Liquidated Damages Award Are Without Merit 
+¶ 173 Slyce challenges the $327,626.48 award of liquidated damages, pursuant to the lease’s 
+“lump sum liquidated damages” clause in section 13.2. Slyce suggests the trial court was 
+prohibited from awarding any liquidated damages whatsoever, because it awarded other amounts 
+for actual damages. Slyce otherwise claims that the liquidated damages provision at issue was 
+unenforceable and constituted a penalty. Many of these arguments were not raised below and are 
+forfeited. In any event, we find them unavailing.  
+¶ 174 “When interpreting contract provisions that specify damages, Illinois courts draw a 
+distinction between liquidated damages, which are enforceable, and penalties, which are not.” GK 
+Development, Inc. v. Iowa Malls Financing Corp., 2013 IL App (1st) 112802, ¶ 47.  
+ 
+ “The general rule of contracts that a plaintiff is only entitled to recover 
+damages to the extent of his injury is applicable to cases of a breach of a lease. 
+[Citation.] Where damages are difficult to ascertain, the parties may specify a 
+particular sum as liquidated damages. [Citation.] However, if the clause fixing 
+damages is merely to secure performance of the agreement, it will be treated as a 
+penalty and only actual damages proved can be recovered.” Stride v. 120 West 
+Madison Building Corp., 132 Ill. App. 3d 601, 605 (1985). 
+¶ 175 In assessing whether such a clause is enforceable, this court has held: 
+“ ‘Damages for beach by either party may be liquidated in the 
+agreement but only at an amount that is reasonable in the light of the 
+anticipated or actual loss caused by the breach and the difficulties of 
+proof of loss. A term fixing unreasonably large liquidated damages 
+is unenforceable on grounds of public policy as a penalty.’ ” Penske 
+Truck Leasing Co. v. Chemetco, Inc., 311 Ill. App. 3d 447, 454 
+(2000) (quoting Restatement (Second) of Contracts § 356 (1981)). 
+¶ 176 This court has identified three elements that must be met to enforce a liquidated damages 
+clause:  
+“(1) the parties intended to agree in advance to the settlement of damages that might 
+arise from the breach; (2) the amount of liquidated damages was reasonable at the 
+time of contracting, bearing some relation to the damages which might be sustained, 
+and (3) actual damages would be uncertain in amount and difficult to prove.” GK 
+Development, Inc., 2013 IL App (1st) 112802, ¶ 49.  
+“Whether a contractual provision for damages is a valid liquidated-damages provision or a penalty 
+clause is a question of law.” Penske Truck Leasing, 311 Ill. App. 3d at 454. 
+¶ 177 In this case, the lease provided that, upon a default, Slyce must pay to Metro “[a]t 
+Landlord’s option *** such expenses as Landlord may incur in connection with the Event of 
+Default *** and all reletting, plus either (a) Lump-Sum Liquidated Damages or (b) *** monthly 
+liquidated damages.” The court ultimately awarded “Lump Sum Liquidated Damages,” the 
+calculation of which was set forth in section 13.2 as 
+“the difference between: the sum of the annual Fixed Minimum 
+Rent, the Tax Rent payable in the year immediately preceding such 
+termination, and Utility Charges payable in the last preceding 
+Adjustment Year, all multiplied by the number of years and fraction 
+of a year then constituting the unexpired Term, discounted at the rate 
+of four percent (4%) per annum to present worth, minus the fair and 
+reasonable annual rental value of the Premises for such period, also 
+discounted at the rate of four percent (4%) per annum to present 
+worth.” 
+¶ 178 Section 13.2 also stated:  
+“If the Premises or any part thereof be relet by Landlord for the balance of the Term 
+or any part thereof prior to presentation of proof of such liquidated damage to any 
+court *** the amount of rent reserved upon such reletting shall be deemed 
+prima facie to be the fair and reasonable rental value.”  
+In this case, the premises had not been relet at the time of trial. 
+¶ 179 We find that section 13.2 was enforceable. Its formula for “Lump Sum Liquidated 
+Damages” reflected a reasonable estimate of damages that Metro would sustain from lost future 
+rent in the event Slyce breached the lease, as such damages would be uncertain and difficult to 
+prove. In other words, we decline to find that this clause was an unenforceable penalty. 
+¶ 180 In so doing, we reject Slyce’s contention that section 13.2 violates a rule that a party 
+“cannot recover both liquidated damages and actual damages.” Slyce directs our attention to a 
+decision invalidating a $10,000 liquidated damages award, where the applicable contract specified 
+that this amount was “recoverable in addition to ‘any and all actual damages’ resulting from 
+breach.” H&M Driver Leasing Services, Unlimited, Inc. v. Champion International Corp., 181 Ill. 
+App. 3d 28, 31 (1989). In that case, this court determined that the liquidated damages clause 
+imposed a penalty, reciting the principle that, “[w]here a contract provides that the breaching party 
+must pay all damages caused by the breach as well as a specific sum in addition thereto, the sum 
+so specified can be nothing but security for performance and, therefore, constitutes an 
+unenforceable penalty. [Citation.]” (Emphasis added). Id. 
+¶ 181 The calculation of damages in this case does not resemble the fixed $10,000 sum deemed 
+a penalty in H&M Driver Leasing Services. The “Lump Sum Liquidated Damages” provision in 
+section 13.2 does not set forth a specific sum but instead provides a formula to estimate the 
+landlord’s damages with respect to lost future rent stemming from the tenant’s breach of the lease. 
+We find this is a reasonable estimate of damages that is enforceable. 
+¶ 182  On this point, we find instructive Penske Truck Leasing, 311 Ill. App. 3d 447, which 
+enforced a liquidated damages provision containing a “formula” to estimate damages from a 
+breach. The plaintiff in Penske leased trucks to a customer who defaulted on the lease. Id. at 448-
+49. The lease agreement provided that, in the event of default, the plaintiff could sell the vehicles 
+and apply the proceeds to the customer’s obligations or that the plaintiff had the option to retain 
+the vehicles. Id. at 450. If the plaintiff retained the vehicles, the customer would be credited for 
+their fair market value: 
+“ ‘The Net Fair Market Value of the Vehicle shall be applied to 
+CUSTOMER’s obligations *** and CUSTOMER shall remain 
+liable for any sums due to PENSKE TRUCK LEASING under this 
+lease or otherwise. All amounts to be retained by PENSKE TRUCK 
+LEASING and any balance to be paid by CUSTOMER under this 
+lease shall not be construed as a penalty, but as liquidated damages 
+for the breach of this lease ***.’ ” Id. at 450-51. 
+¶ 183 This court agreed with the plaintiff’s argument that this was an enforceable liquidated 
+damages provision  
+“because it provides for an amount of damages that is reasonable in light of the 
+anticipated harm. The lease provides for a formula, as opposed to a specific amount, 
+which begins with an agreed-upon original amount and takes into consideration the 
+amount of depreciation of the trucks before they are returned ***.” Id. at 454.  
+The Penske decision emphasized that “the agreement does not set forth a sum certain in case of a 
+breach by the customer, but it provides a formula for computing damages in case of a breach.” Id. 
+at 455.  
+¶ 184 The “Lump Sum Liquidated Damages” formula at issue in section 13.2 of the lease is 
+analogous to that approved by the Penske court. Section 13.2 contemplates an award of the 
+remaining rent under the lease term, “discounted at the rate of four percent” to present worth, 
+“minus the fair and reasonable rental value of the Premises for such period,” also discounted to 
+present value. In effect, this attempts to compensate the landlord (Metro) by awarding the 
+difference between the remaining rent due under the lease and the “fair and reasonable rental value 
+of the Premises.” Use of such a formula is appropriate when, at the time of contracting, it is difficult 
+to predict the damages that will result from breach. See id. at 455-56 (“[I]t was difficult to 
+determine plaintiff’s losses with regard to a breach of the agreement at the time the agreement was 
+entered by the parties because the used truck market is difficult to predict in advance. Under these 
+circumstances, the alternative formulas provided for in the agreement appear reasonable.”) 
+Certainly, the real estate market is difficult to predict, so the parties could determine that use of 
+this formula was appropriate to estimate damages from a breach of the lease.  
+¶ 185 We emphasize that the “Lump Sum Liquidated Damages” formula takes into account that 
+Metro still has the “fair and reasonable rental value of the Premises.” That is, the fair rental value 
+of the premises is subtracted from the damage calculation. This differentiates this provision from 
+one that demands payment of all remaining rent for the remainder of the lease term, without 
+accounting for the landlord’s ability to relet the premises; such a clause is a penalty. 2336 North 
+Clark, LLC v. Hair Fairies, Inc., 2022 IL App (1st) 211597-U (declining to enforce accelerated 
+rent clause that would award landlord 27 months of future rent as liquidated damages). 
+¶ 186 At this point, we note Slyce’s objection that the “Lump Sum Liquidated Damages” 
+provision fails to specify the “fair and reasonable annual rental value of the Premises.” We find 
+this objection unconvincing. Given the inherently unpredictable nature of real estate valuations 
+and the 10-year length of the lease, it is hardly surprising that no number is specified. Moreover, 
+section 13.2 contemplates that a court may determine fair value upon “presentation of proof of 
+such liquidated damages” and that, if Metro has relet the premises to another party, “the amount 
+of rent reserved upon such reletting shall be deemed prima facie to be the fair and reasonable rental 
+value.” In this case, Jim testified to Metro’s calculation of the fair and reasonable annual rental 
+value of the premises. Notably, Slyce could have but did not present any conflicting evidence on 
+that point.  
+¶ 187 Slyce’s remaining challenges to the liquidated damages award were not raised below and, 
+in any event, are without merit. Emphasizing the use of the word “option,” Slyce attacks the 
+language in section 14.5 that, in the event of default, Slyce shall: 
+ “pay Landlord, at Landlord’s option *** such expenses as Landlord 
+may incur in connection with the Event of Default *** and all 
+reletting *** plus either (a) Lump-Sum Liquidated Damages or 
+(b) as liquidated damages *** for each month of the period which 
+would otherwise have constituted the balance of the Term, the 
+excess, if any, of monthly liquidated damages (‘Monthly Liquidated 
+Damages’) equal to the sum of the then-applicable monthly 
+installment of Fixed Minimum Rent, plus the monthly portion of the 
+payment of Tax Rent that would have been payable for the period in 
+question *** plus Utility Charges payable for such month *** over 
+the net amount, if any, of the rents actually collected on account of 
+the lease or leases of the Premises for such month.” (Emphasis in 
+original.)  
+¶ 188  Slyce cites two cases for the proposition that “optional liquidated damages provisions are 
+unenforceable,” but neither is on point. In Grossinger Motorcorp, Inc. v. American National Bank 
+& Trust Co., 240 Ill. App. 3d 737, 740 (1992), this court invalidated a provision in a real estate 
+sale contract that “ ‘the earnest money shall be forfeited to the [defendant] to be retained by the 
+[defendant] as liquidated damages, or at [defendant]’s option, [defendant] may exercise any other 
+remedy available at law,’ ” reasoning that “ ‘the option reflects that the parties did not have the 
+mutual intention to stipulate to a fixed amount’ ” but “indicates ‘an intent to penalize the defaulting 
+buyer.’ ” Id. at 750-51 (quoting Lefemine v. Baron, 573 So. 2d 326, 329 (Fla. 1991)). Several years 
+later, this court invalidated another provision that purported to give a real estate seller the “option” 
+to retain earnest money as liquidated damages. Catholic Charities of the Archdiocese of Chicago 
+v. Thorpe, 318 Ill. App. 3d 304, 312-13 (2000). The clause at issue in this case does not resemble 
+the earnest money clauses in the two cited cases. Rather, the “option” in section 14.5 pertains to 
+the landlord’s ability to elect between different formulas for “Lump Sum Liquidated Damages” or 
+“Monthly Liquidated Damages.” Slyce does not cite any authority suggesting this is 
+impermissible. 
+¶ 189 We also reject Slyce’s contention that the trial court improperly found the liquidated 
+damages provision valid based on “Metro’s inability to relet the Premises through the time of trial.” 
+Slyce argues the trial court improperly considered events after execution of the contract to 
+determine its validity. This contention is unavailing. Regardless of the trial court’s stated 
+reasoning, we have reviewed the relevant contract provision de novo and concluded that it is 
+enforceable. 
+¶ 190 For the foregoing reasons, we reject Slyce’s challenges to the enforceability of the 
+liquidated damages provisions of the lease. As to the specific amount of the corresponding award 
+of $327,626.48, we note that Slyce does not take issue with Jim’s uncontradicted trial testimony 
+regarding Metro’s calculation of “Lump Sum Liquidated Damages” under section 13.2. Thus, we 
+have no reason to disturb the amount of this award. 
+¶ 191  
+The $365,255.76 Award for Rent, Taxes, and Utilities Was Not Erroneous 
+¶ 192 In challenging the award of $365,255.76 for rent, taxes, and utilities, Slyce asserts a number 
+of grounds that it never presented to the trial court. Referencing language found in section 3.6 of 
+the lease, Slyce claims it was not liable for taxes “until Slyce obtained a certificate of occupancy 
+or sixty days after delivery of the Premises and substantial completion of Metro’s work,” neither 
+of which occurred. Slyce never argued this before the trial court. Indeed, as Metro points out, 
+Slyce’s posttrial memorandum acknowledged that the trial court had “discretion to consider a fair 
+and equitable amount of an award *** for rent, taxes and utilities.” Moreover, Slyce does not cite 
+any record evidence to establish that the conditions in section 3.6 occurred. Thus, we have no basis 
+to disturb this aspect of the damage award. 
+¶ 193 Slyce similarly argues (for the first time) that Metro was not entitled to recover damages 
+for utility costs, because Metro never “tendered possession of the Premises to Slyce.” Slyce refers 
+to section 5 of the lease, which states that, “after the date on which Landlord tenders possession of 
+the Premises to Tenant, Tenant shall pay for all utility service provided to the Premises.” Once 
+again, this argument was never brought to the trial court’s attention and is forfeited. Moreover, 
+Slyce does not cite any evidence establishing that it never took “possession” of the premises. 
+¶ 194 Slyce also suggests that the award for unpaid rent should be reduced because “Metro failed 
+to discount the rent for the reasonable rental value during that time period.” This argument is 
+forfeited and also plainly without merit, as there was undisputed testimony that Metro had not yet 
+been able to rent the premises as of the time of the April 2022 trial. Slyce also asserts that the 
+award for unpaid rent should be reduced because this period overlapped with the COVID-19 
+pandemic. Perhaps this argument could have been made to the trial court, but Slyce cites no 
+evidence or authority to support a reduction on this basis. Slyce has not demonstrated that the 
+$365,255.76 award was against the manifest weight of the evidence, and thus we affirm it. 
+¶ 195  
+The Construction Expenses Award Was Not Erroneous 
+¶ 196 Slyce further contends that it should not be liable for any of the $111,910.38 awarded for 
+Metro’s construction expenses because the lease stated that Landlord’s Work would be at 
+“Landlord’s Expense.” Slyce also disputes the trial court’s finding that these expenses were related 
+to Slyce’s breach. These contentions are forfeited and in any event are without merit. Section 14.5 
+of the lease states that Slyce shall pay “such expenses as Landlord may incur in connection with 
+the Event of Default.” At trial, Jim testified that Metro incurred the expenses at issue to 
+accommodate Slyce’s custom requirements and that the floor replacement work was necessitated 
+by Slyce’s decision to bring the ovens through the front. These expenses directly related to Metro’s 
+lease with Slyce. “ ‘[A]ll damages which naturally and generally result from a breach are 
+recoverable.’ ” See InsureOne, 2012 IL App (1st) 092385, ¶ 89 (quoting Midland Hotel Corp. v. 
+Reuben H. Donnelley Corp., 118 Ill. 2d 306, 318 (1987)). The trial court could reasonably conclude 
+that Metro’s lost construction expenses constituted compensable damages for Slyce’s breach.  
+¶ 197  
+The $28,000 Award for Broker’s Fees Was Speculative 
+¶ 198 Slyce separately challenges the court’s award of $28,000 for Metro’s expected brokerage 
+fees, as they were a “speculative” estimate of the fees Metro would pay if and when its broker 
+found a new tenant for the premises. We find this argument persuasive. 
+¶ 199  A plaintiff is not entitled to recover damages that are “remote, speculative, or uncertain”; 
+a plaintiff “must establish an actual loss with measurable damages in order to recover.” Union 
+Tank Car Co. v. NuDevco Partners Holdings, LLC, 2019 IL App (1st) 172858, ¶ 27. “Absolute 
+certainty” with respect to the amount of damages is not required. Id. “Rather, so long as the 
+existence of damages is certain, a plaintiff need not necessarily establish the precise amount of 
+damages.” Id. 
+¶ 200  Section 14.5 of the lease specifies that Slyce shall pay Metro’s expenses incurred in 
+connection with reletting the premises after a default, including “brokerage, and management fees 
+and commissions.” However, as of the time of trial, Metro had not paid such fees because it had 
+not yet found a new tenant for the premises.  
+¶ 201 At trial, Jim testified about Metro’s efforts to find a new tenant and how it arrived at its 
+$28,000 figure for its expected brokerage fees. Jim testified that Metro had an agreement with a 
+broker calling for a 4% brokerage fee. Metro “estimated $700,000” for remaining rent under the 
+lease period, “times the 4 percent, gets us to $28,000 for the brokerage commission.” Thus, the 
+$28,000 figure is based on Metro’s estimate that it will obtain $700,000 in rent for the remainder 
+of the lease period. However, we think it is speculative as to whether Metro will be able to get that 
+amount. Notably, Jim testified that Metro had significant difficulties in attempts to find another 
+tenant willing to rent the premises, which remained vacant at the time of trial.9 And as Metro 
+acknowledges in its brief, “rental markets for commercial real estate are highly variable.” This 
+suggests that (1) Metro may not be able to find a tenant for an unknown period of time and (2) to 
+relet the space, Metro may be forced to accept significantly less rent than it previously expected. 
+In turn, we find Metro’s estimate of $700,000 in remaining rent is speculative, as is the estimated 
+corresponding 4% broker’s fee of $28,000. For this reason, we reverse the portion of the court’s 
+order that awarded damages for $28,000 in broker’s fees. We otherwise affirm the trial court’s 
+damage awards.  
+¶ 202  
+An Evidentiary Hearing Is Proper to Determine Appropriate  
+ 
+ 
+Attorney Fees and Costs 
+¶ 203 We turn to Slyce’s challenges to the trial court’s separate award of $187,413.75 in fees and 
+$14,621.23 in costs. The court awarded the full amount requested by Metro, after declining Slyce’s 
+request for an evidentiary hearing.  
+¶ 204 The lease expressly contemplated the recovery of Metro’s attorney fees. Nonetheless, Slyce 
+asserts the court erred in declining to hold an evidentiary hearing. Slyce otherwise raises a number 
+of challenges to the amount of the fee award, claiming a number of defects in the time entries 
+submitted with the fee petition. Slyce also claims that the award included certain nonreimbursable 
+fees, such as those incurred by Metro’s real estate attorney. Slyce further suggests the trial court 
+improperly relied on Slyce’s failure to settle the matter in awarding Metro all of its requested fees 
+and costs.  
+¶ 205 We need not discuss each of these contentions in detail, as we find the circumstances 
+warranted an evidentiary hearing on the amount of attorney fees and costs.  
+ 
+9The premises remained vacant for at least another year, as Metro’s brief (filed July 2023) 
+represents that it remained unrented. 
+¶ 206 “The party seeking fees bears the burden of presenting sufficient evidence to support a 
+determination that the fees sought are reasonable.” Young v. Alden Gardens of Waterford, LLC, 
+2015 IL App (1st) 131887, ¶ 102. In determining whether the fees sought are reasonable, courts 
+consider a number of factors, including  
+“the skill and standing of the attorneys, the nature of the case, the novelty and/or 
+difficulty of the issue and work involved, the importance of the matter, the degree 
+of responsibility required, the usual and customary charges for comparable 
+services, the benefit to the client [citation], and whether there is a reasonable 
+connection between the fees and the amount involved in the litigation.” (Internal 
+quotation marks omitted.) Id.  
+Generally, a trial court’s award of attorney fees and costs is reviewed under the abuse of discretion 
+standard. Id. ¶ 105. 
+¶ 207 Before reviewing the amount of the award, a threshold inquiry is whether the court should 
+have first held an evidentiary hearing. In 2007, this court recognized there was a “conflict of 
+authority” as to whether an evidentiary hearing is required before making an attorney fee award 
+but concluded that the “general rule [was] that an evidentiary hearing should be held.” Trossman 
+v. Philipsborn, 373 Ill. App. 3d 1020, 1056 (2007). Trossman reasoned:  
+“[G]enerally, in protracted litigation involving multiple complex issues, an 
+evidentiary hearing should be conducted upon the request of the losing party, 
+especially if the prevailing party was represented by multiple attorneys—which 
+may have resulted in duplicative charges—and where the prevailing party was 
+entitled to fees and costs with respect to some claims, but not others.” Id. at 1058. 
+¶ 208  This court subsequently held that “a fee petition warrants an evidentiary hearing only when 
+the response of the party to be charged with paying the award raises issues of fact that cannot be 
+resolved without further evidence.” Young, 2015 IL App (1st) 131887, ¶ 113. This court 
+subsequently indicated (albeit in dicta) that a party who requests such a hearing should get one in 
+order to be able to exercise its right of cross-examination: 
+“ ‘The reasonableness of fees is a matter of proof, and a party 
+ordered to pay attorney fees has the right to conduct meaningful 
+cross-examination on the issue.’ [Citation.] ‘When a party who must 
+pay attorney fees asks for an evidentiary hearing, he is entitled to 
+one. [Citation.]’ ” U.S. Bank National Ass’n v. Randhurst Crossing 
+LLC, 2018 IL App (1st) 170348, ¶ 83. 
+¶ 209 After reviewing Slyce’s objections to the fee petition, we believe Slyce raised sufficient 
+factual issues to warrant a hearing. Among these, Slyce identified numerous billing entries that it 
+believed were vague or duplicative and entries that allegedly billed attorney time for clerical or 
+administrative tasks. The trial court did not specifically address any of these objections. Further, 
+the court’s order awarded all fees incurred by Metro’s real estate counsel (Bazianos), without 
+addressing Slyce’s contentions that it was improper to award fees incurred before the litigation or 
+to reimburse legal fees stemming from Metro’s unsuccessful efforts to relet the premises.10 
+ 
+ 
+10For example, Metro submitted invoices from Bazianos for prelitigation work pertaining to 
+preparation of the lease. Metro also sought reimbursement for real estate attorney fees incurred in efforts to 
+relet the premises to a new tenant. For example, Metro submitted Bazianos invoices from October 2021, 
+November 2021, and February 2022 whose entries appear to reference another potential tenant and lease. 
+Metro’s submission also includes a February 2021 invoice of $147.50 from Bazianos for a “Conference 
+call with Clients regarding NDA and Employment Agreement” that has no apparent relevance to this 
+litigation. 
+Without assuming whether these objections have merit, we think fairness warrants that Slyce be 
+afforded an opportunity to conduct cross-examination on such matters. 
+¶ 210 We also find it notable that the trial court’s November 2022 fee order adopted significant 
+portions of language from Metro’s fee petition, including criticism of Slyce for not settling despite 
+“multiple opportunities” to do so. While we cannot know exactly what the court was thinking, this 
+language arguably indicates that the decision to award all of Metro’s requested fees was meant, at 
+least in part, to punish Slyce for not settling. While the length and complexity of the litigation is 
+certainly relevant to the reasonableness of the fees, we do not think it is appropriate to suggest that 
+a larger award is appropriate to penalize a losing party for taking a case to trial that (in retrospect) 
+it should have settled.  
+¶ 211 Because we find remand for an evidentiary hearing is appropriate, we need not further 
+address Slyce’s challenges to the contents of Metro’s fee documentation or the reasonableness of 
+such fees. Such arguments may be made on remand. To be clear, we do not mean to suggest that 
+Slyce is necessarily entitled to any reduction. Our holding does not bar the trial court from again 
+awarding the full amount of requested fees and costs. We merely determine that Slyce is entitled 
+to an evidentiary hearing.  
+¶ 212  
+CONCLUSION 
+¶ 213 To summarize: (1) As to the trial court’s findings on liability, we reject Slyce’s claims of 
+error and affirm the trial court’s findings that Slyce was liable to Metro for breach of contract. In 
+turn, Laurie and Brittany are also jointly liable as guarantors of the lease. (2) As to Slyce’s 
+challenges to the various damages awarded to Metro in the April 25, 2022, order, we affirm the 
+damages awarded by the trial court, except that we reverse the portion awarding $28,000 for 
+broker’s fees. (3) Finally, insofar as Slyce appeals the November 16, 2022, award of Metro’s 
+attorney fees and costs, we reverse and remand for the trial court to conduct an evidentiary hearing 
+on the fee petition. 
+¶ 214 Affirmed in part and reversed in part; cause remanded with directions. 
+Slyce Coal Fired Pizza Co. v. Metropolitan Square Plaza, LLC, 2025 IL App (1st) 221279 
+ 
+ 
+Decision Under Review: 
+ 
+ 
+Appeal from the Circuit Court of Cook County, No. 19-L-8297; 
+the Hon. Mary Colleen Roberts, Judge, presiding. 
+ 
+ 
+Attorneys 
+for 
+Appellant: 
+ 
+ 
+James K. Borcia, of Tressler LLP, of Chicago, for appellant. 
+ 
+Attorneys 
+for 
+Appellee: 
+ 
+ 
+Darrell J. Graham, Matthew D. Tanner, and Ashley J. Roeser, of 
+Roeser Tanner & Graham LLC, of Chicago, for appellee.  
+ 
+ 
+ 
+ 

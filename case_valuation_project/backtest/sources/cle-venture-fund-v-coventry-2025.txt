@@ -1,0 +1,426 @@
+[Cite as CLE Venture Fund, L.P. v Coventry Partners, L.L.C., 2025-Ohio-2451.] 
+ 
+COURT OF APPEALS OF OHIO 
+ 
+EIGHTH APPELLATE DISTRICT 
+COUNTY OF CUYAHOGA 
+ 
+CLE VENTURE FUND L.P., 
+: 
+ 
+ 
+Plaintiff-Appellee, 
+: 
+ 
+ 
+ 
+No.  114383 
+ 
+v. 
+: 
+ 
+  
+COVENTRY  PARTNERS LLC  
+: 
+ET AL., 
+ 
+Defendants-Appellants. 
+: 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+JOURNAL ENTRY AND OPINION 
+ 
+ 
+ 
+JUDGMENT:   AFFIRMED 
+RELEASED AND JOURNALIZED:  July 10, 2025 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Civil Appeal from the Cuyahoga County Court of Common Pleas 
+Case No. CV-21-952010 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Appearances: 
+ 
+Taft Stettinius & Hollister LLP, William A. Doyle, Julie A. 
+Crocker, and Allison R. McFarland, for appellee.   
+ 
+Law Office of John R. Christie, LLC, and John R. Christie,  
+for appellants.   
+ 
+ 
+EMANUELLA D. GROVES, J.: 
+ 
+ 
+Defendants-appellants Coventry Courts LLC (“Coventry I”), Coventry 
+Court LLC (“Coventry II”), and John Crigler (“Crigler”) (collectively, the 
+“Appellants”) appeal the trial court’s decision determining a property’s retrospective 
+
+ 
+ 
+value in relation to an award for damages.  For the reasons that follow, we affirm the 
+decision of the trial court. 
+Factual and Procedural History 
+ 
+ In November 2015, Coventry I and Coventry II borrowed $1,600,000 
+from CLE Venture Fund, L.P. (“Appellee”) to finance a property development at 
+9410 Hough Street in Cleveland as well as two nearby vacant parcels on Crawford 
+and East 93rd Street (collectively, the “Property”).  The loan was secured by a 
+promissory note dated November 4, 2015, for the full amount.  It was also secured 
+by a mortgage on the property between Coventry I and Appellee.  Coventry II and 
+Crigler executed a separate guarantee for all of Coventry I’s indebtedness.  The entire 
+balance, including accrued interest, was due and payable by November 4, 2016, or 
+May 4, 2017, if Coventry I and II extended the maturity date. 
+ Coventry I and II extended the maturity date but ultimately defaulted 
+on the loan.  Additionally, Coventry II and Crigler failed to pay the entire balance 
+after the default, thereby defaulting on their obligation as guarantors.  The parties 
+subsequently entered into a forbearance agreement, which established that Appellee 
+would not pursue its rights under the previous agreements as long as Appellants, 
+among other things, paid all amounts due by September 5, 2017.  Simultaneously, 
+the parties entered into a deed-in-lieu of foreclosure agreement.  Pursuant to that 
+agreement, a deed transferring the Property to Appellee was placed in escrow during 
+the forbearance period and was to be turned over to Appellee if Appellants failed to 
+comply with the forbearance agreement.  In addition to other terms, the parties also 
+
+ 
+ 
+agreed that Appellants’ indebtedness under the loan continued after the “closing,” 
+which was defined as “the recordation of the deed referenced in the escrow 
+agreement,” in the event of default.   
+ Appellants subsequently failed to make payment by the forbearance 
+deadline.  On September 15, 2017, Appellee filed suit against Appellants in Cuyahoga 
+C.P. No. CV 17-885989 (“CV 17-885989”).  Subsequently, Appellee obtained the 
+deed to the Property and recorded it on March 27, 2018.  Appellee voluntarily 
+dismissed the case in August 2019.  On June 16, 2021, Appellee sold the property to 
+a third-party buyer for $1,548,000.  Nevertheless, Appellee calculated that 
+Appellants still owed almost $2.5 million after sale of the Property, including default 
+interest and collection costs.  Appellee filed the instant action, Cuyahoga C.P. No. 
+CV 21-952020, on August 23, 2021, alleging breach of the note and guaranty against 
+the Appellants and requesting $2,446,775.94 in damages, plus suitable attorney 
+fees. 
+ 
+Both parties filed for summary judgment in July 2022.  The trial court 
+granted Appellee’s motion with respect to liability noting: 
+(1) [Appellants] are in material breach of the loan documents, as 
+[appellants] failed to pay amounts due and owing to [Appellee] prior to 
+the expiration of the forbearance period on 09/05/2017. 
+(2) As a matter of contract interpretation, the court finds that pursuant 
+to § 4 of the deed-in-lieu of foreclosure agreement, as soon as 
+[Appellee] exercised its rights under the deed-in-lieu by taking title to 
+the property on 03/27/2018, the fair market value of the property at 
+the time of such transfer needed to be recognized, applied, and credited 
+towards the outstanding indebtedness of the [Appellants] at the time 
+of such transfer.  See deed-in-lieu of foreclosure agreement, § 4 (“as of 
+
+ 
+ 
+the closing, lender shall credit the indebtedness owing under the loan 
+documents in amount equal to the sale value or funds received for the 
+property, minus any closing costs of the lender”). 
+(3) “As of the closing” is the operative language of this agreement. As 
+[Appellants] point out, no language in the deed in lieu of foreclosure 
+agreement requires the [Appellee] to sell or otherwise liquidate the 
+property.  Indeed, § 6 of the deed in lieu of foreclosure agreement gives 
+the lender the immediate right to see/transfer the property for its own 
+account. § 6 does not impose an obligation upon the [Appellee] to 
+subsequently liquidate the property and then credit the sales proceeds 
+of the property, at the time of sale, to [Appellants’] preexisting 
+indebtedness. 
+(4) Thus, when [Appellee]/lender sold the property to a third-party 
+buyer on 06/16/2021, recouping $1,548,000.00 in sales proceeds, 
+these proceeds were for the [Appellee]/lenders “own account” and were 
+intended to lessen any possible deficiency remaining on amounts owed 
+under the loan documents post-closing on 03/27/2018. 
+(5) Accordingly, as stated previously by the court in its 1/28/2019 
+Journal Entry in case no. CV-17-885989, a genuine issue of material 
+fact still exists, as to the issue of damages only. 
+ The trial court denied Appellants’ motion for summary judgment 
+finding that Appellee’s claims were not barred by res judicata as there was no final 
+judgment in CV-17-885989.  Additionally, the court found that Appellants’ 
+argument that the transfer of the property resolved the debt lacked merit because 
+the parties’ agreements stated the debt survived the transfer.   
+ 
+The case was continued for trial, solely to determine the retrospective 
+value of the Property on the date of transfer, March 27, 2018.  The value of the 
+Property would offset the amount Appellants owed on the debt. 
+
+ 
+ 
+ The trial commenced in December 2024.  Appellee called Robert 
+Vodinelic (“Vodinelic”) as their expert witness.  He worked with a colleague, 
+Katherine Boro, (“Boro”), to prepare the expert report.   
+ Vodinelic testified that he, in collaboration with Boro, provided an 
+expert opinion on the retrospective market value of the Property as of March 27, 
+2018.  Vodinelic identified the three parcels of the Property and noted that two were 
+vacant lots and one had an abandoned “shell” apartment building.  To his 
+knowledge, the building had been vacant for ten years or more and showed signs of 
+deterioration and neglect, with broken and boarded windows and boarded doors.  
+The building was also subject to a Department of Housing and Urban Development 
+(“HUD”) restriction.  Vodinelic testified that a HUD restriction would cap rent at a 
+certain level.  Such a restriction, Vodinelic testified, could limit the desirability of an 
+asset because it limited the amount of income an owner could receive. 
+ Vodinelic testified that there are three methodologies used to 
+appraise properties: the cost approach, the sales comparison approach, and the 
+income capitalization approach.  Vodinelic testified that he used the sales 
+comparison approach in this case.  He did not use the cost approach because with 
+an older asset like the one in question, there were a number of subjective variables, 
+e.g., determining depreciation and factoring in deferred maintenance, i.e., repairs 
+necessary to rehabilitate the building, which made it difficult to determine a reliable 
+value.  With respect to the income capitalization method, Vodinelic testified that 
+approach is typically used when the asset is functional.  With an abandoned 
+
+ 
+ 
+building, he would need to factor in the costs to make the property functional and 
+then, once it is functional, determine how long it would take to lease units.  Those 
+estimates would be challenging, especially for a property that had not been in 
+operation for a decade or more. 
+ Utilizing the sales comparison approach, Vodinelic testified that he 
+and Boro identified properties similar to the Property, considering and adjusting for 
+differences in the age, condition, size, and other relevant factors to determine a 
+valuation for the three lots.  Ultimately, Vodinelic testified that the retrospective 
+value of the Property was $1,310,000.  Finally, Appellee’s counsel established that 
+Vodinelic was unaware that the HUD restriction had been lifted.  Vodinelic was 
+aware that the HUD restriction was placed in a 2008 deed and that a HUD 
+restriction typically remains for 20 years but was unaware the HUD restriction was 
+not included in the deed when Appellee sold the Property in 2021.  During this 
+testimony, Appellee showed Vodinelic the deed for the 2021 sale, which was 
+identified and marked as Exhibit C.  At the end of the trial, Appellants objected to 
+the admission of Exhibit C and asked that any testimony related to the exhibit be 
+stricken from the record.  The trial court did not admit the exhibit but refused to 
+strike the testimony.   
+ During cross-examination, Appellants questioned Vodinelic about 
+his participation in the appraisal process, focusing on the work he did versus the 
+work Boro did.  Initially, Appellants suggested that Vodinelic did not write the 
+report, noting that his role was “more as a supervisor, as a proofreader, and making 
+
+ 
+ 
+sure you were getting your client’s goals met.”  In response, Vodinelic added that he 
+worked as a collaborator, noting that all of those roles go into a “big melting pot.”  
+Further, Vodinelic denied creating a report designed to achieve a perceived goal of 
+lowering the valuation.  During a later question, Appellants characterized Boro as 
+the author of the report.  Appellee objected arguing that the testimony did not 
+establish that Boro was the sole author of the report.  In response, Vodinelic 
+testified: 
+We collaborated on it together.  She may have typed the words.  Or 
+when it comes to the analysis, we worked on the analysis together.  
+We’re talking about the challenges of the property, the challenges of the 
+market, the approach to value we’re going to be using.   
+So even if she’s the one who typed it, it’s not like she was working in a 
+vacuum and I only saw the appraisal before it was completed. 
+  The trial court overruled the objection after additional cross-
+examination of the witness.  During Vodinelic’s testimony, Appellants did not object 
+to the admission of his testimony nor challenge the admission of the expert report.  
+Furthermore, contrary to Appellants’ assertion at oral argument, they did not move 
+to strike Vodinelic’s testimony in its entirety.  They only moved to strike any 
+testimony related to the 2021 deed, Exhibit C. 
+ Appellants called Donald Durrah (“Durrah”) as their expert witness.  
+Durrah testified in detail about his methodology and his familiarity with the 
+northeast Ohio market.  Durrah opined that knowledge of the region was essential 
+to proper appraisal.  Durrah used the sales comparison and the income 
+capitalization methods to arrive at a valuation.  However, Durrah was unaware that 
+
+ 
+ 
+there was a HUD restriction on the property and did not factor that information into 
+his calculations.  Durrah valued the Property at $2,030,000 by using both valuation 
+methods, giving the valuations a weight in terms of viability, and calculating a 
+weighted average. 
+ In its ruling, the trial court adopted Appellee’s valuation and rejected 
+Appellants’ valuation finding that “[t]he Ohio Supreme Court has repeatedly held 
+that when a property is encumbered by HUD or other governmental restrictions on 
+land use, it should be valued as a low-income housing development, and the 
+restrictions must be taken into account.”1   
+ However, the trial court noted that even if it were not precluded from 
+considering Appellants’ expert report, it would find that the income capitalization 
+approach to valuation was an improper methodology for the Property because it was 
+too speculative.  Further, comparing Appellee’s sales comparison analysis to 
+Appellants’, the trial court found Appellee’s expert opinion more persuasive and 
+reliable.  In its final order, the trial court found that the Property’s value was 
+$1,030,000 as of March 27, 2018, and ordered Appellee to submit a proposed 
+judgment entry outlining the sums it was entitled to under the loan since March 27, 
+2018, less $1,030,000. 
+ 
+1 Citing Notestine Manor, Inc. v. Logan Cty. Bd. of Revision, 152 Ohio St.3d 439; 
+Columbus City Schools Bd. of Edn. v. Franklin Cty. Bd. of Revision, 151 Ohio St.3d 12, 
+¶ 16, citing Woda Ivy Glen Ltd. Partnership v. Fayette Cty. Bd. of Revision, 121 Ohio St.3d 
+175. 
+
+ 
+ 
+ On June 14, 2024, the trial court issued a judgment entry addressing 
+damages.  Preliminarily, the trial court corrected a scrivener’s error regarding the 
+value of the Property, noting that the actual sum should have been $1,310,000 and 
+not $1,030,000, as stated in its trial entry.  Next, the trial court explained its 
+calculation of damages.  After considering all the relevant factors, the trial court 
+found the Appellants jointly and severally liable in the amount of $1,735,579.45 plus 
+interest at the default rate until paid in full and attorney fees, which would be 
+determined at a separate hearing. 
+ On July 15, 2024, Appellants filed a notice of appeal.  This court 
+dismissed the appeal, finding that the award of attorney fees was still outstanding 
+and the order was not final and appealable.  Further, this court noted that the order 
+did not contain language that there was no just cause for delay pursuant to 
+Civ.R. 54(B), which could have permitted appellate consideration, assuming the 
+existence of final order, despite the remaining issues before the trial court.  On 
+August 13, 2024, Appellee’s attorney filed a notice withdrawing the request for 
+attorney fees.  The trial court issued a subsequent journal entry incorporating its 
+previous order and noting that Appellee was no longer requesting attorney fees. 
+ Appellants appeal and assign the following errors for our review. 
+Assignment of Error No. 1 
+ 
+The trial court erred when it allowed an expert who had not authored a 
+report to testify. 
+ 
+ 
+
+ 
+ 
+Assignment of Error No. 2 
+ 
+The trial court erred when [it] decided the surrender value on the 
+testimony of an expert who had not viewed the property. 
+Assignment of Error No. 3 
+ 
+The trial court erred when [it] decided the surrender value on the 
+testimony of an expert who was not aware that the HUD restriction had 
+been lifted. 
+Assignment of Error No. 4 
+ 
+The trial court erred when it allowed and relied upon testimony from 
+an expert who did not prepare the report upon which his opinions were 
+based. 
+Law and Analysis 
+ 
+ Appellants argue that the trial court’s decision was against the 
+manifest weight of the evidence because Vodinelic did not author the report, he did 
+not visit the Property before signing off on the report, and his testimony was 
+presented in violation of Evid.R. 703.  Appellants also take issue with any 
+adjustments or factors Vodinelic used to determine valuation when comparing other 
+properties.  Appellants opine that any ruling based on “these suspect opinions” is 
+against the manifest weight of the evidence.  We are mindful, however, that in a 
+bench trial, there is a presumption that the trial court only considered “evidence that 
+was reliable, relevant and competent in rendering its decision unless it affirmatively 
+appears to the contrary.”  Shaw Steel, Inc. v. Ronfeldt Mfg., L.L.C., 2016-Ohio-1117, 
+¶ 32 (8th Dist.), citing Sonis v. Rasner, 2015-Ohio-3028, ¶ 70 (8th Dist.), citing State 
+v. Pleban, 2011-Ohio-3254, ¶ 45 (9th Dist.).  
+
+ 
+ 
+ Moreover, Appellee points out that Vodinelic testified extensively 
+regarding his participation in the appraisal process.  Regardless, Appellee notes that 
+Appellants failed to object to Vodinelic’s testimony and the admission of his expert 
+report.  Therefore, Appellee argues that Appellants were required to raise and prove 
+plain error to prevail.  Additionally, Appellee argues that Appellants’ brief does not 
+comply with App.R. 16(A) and, therefore, this court should dismiss the appeal.  
+There is merit to Appellee’s contentions. 
+ An appellant’s brief “shall” contain 
+[a]n argument containing the contentions of the appellant with respect 
+to each assignment of error presented for review and the reasons in 
+support of the contentions, with citations to the authorities, statutes, 
+and parts of the record on which appellant relies. The argument may 
+be preceded by a summary. 
+App.R. 16(A)(7). 
+ Appellants have raised four assignments of error but failed to address 
+each separately as required under App.R. 16(A)(7).  This court may “disregard an 
+assignment of error for review if the party raising it ‘fails to argue the assignment of 
+error separately in the brief as required under App.R. 16(A).’” Lamb v. 
+Reynoldsburg Civil Serv. Comm., 2021-Ohio-2322, ¶ 17 (10th Dist.) quoting App.R. 
+12(A)(2).   
+ Further, Appellants fail to cite legal authority for their argument 
+regarding the expert witness.  Other than Evid.R. 703, Appellants have cited no legal 
+authority for the proposition that Appellee’s expert testimony was improperly 
+admitted because he merely supervised and did not author the report.  Nonetheless, 
+
+ 
+ 
+the record reflects that Vodinelic testified that he supervised and collaborated with 
+Boro at all steps of the appraisal.  The trial court is presumed to know the law and, 
+absent evidence to the contrary, is presumed to have appropriately considered the 
+evidence before it.  In its ruling, the trial court found Vodinelic’s testimony and 
+expert report relevant and admissible.  Appellants have failed to cite the record or 
+any case law to establish that the trial court acted inappropriately. 
+ Additionally, Appellants failed to object at the trial court level and 
+failed to raise a plain error argument in this appeal.  When a party fails to raise an 
+objection before the trial court, they waive that issue on appeal absent a claim of 
+plain error.  Linder v. Ohio Dept. of Aging, 2022-Ohio-177, ¶ 15 (1st Dist.).   Further, 
+we need not address an issue when the appellant fails to timely raise plain error.  
+Nationstar Mortg. L.L.C. v. Jessie, 2021-Ohio-439, ¶ 21 (8th Dist.).  Further, “[a]n 
+appellate court may disregard an assignment of error pursuant to App.R. 12(A)(2) if 
+an appellant fails to cite to any legal authority in support of an argument as required 
+by App.R. 16(A)(7).”  Strauss v. Strauss, 2011-Ohio-3831, ¶ 72 (8th Dist.). 
+ Finally, Appellants argue that Durrah’s valuation was superior to 
+Vodinelic’s.  However, they fail to address the trial court’s finding that Ohio Supreme 
+Court precedent prevented it from considering Durrah’s valuation because he failed 
+to address the HUD restrictions.  Further, Appellants challenge Appellee’s expert 
+opinion and testimony because Vodinelic was unaware that the HUD restrictions 
+were lifted.  Notably, they failed to explain how the lifting of the HUD restriction in 
+2021 would affect a retrospective valuation for the Property in 2018, when the HUD 
+
+ 
+ 
+restriction was presumably still in place.  The uncontradicted testimony from 
+Vodinelic noted that the 2008 deed to the property held the restriction and that 
+HUD restrictions typically last 20 years.  An appellate court is not required to search 
+the record for evidence in support of an appellant’s argument nor is it required to 
+search for supportive law.  Mayfair Vill. Condo. Owners Ass’n. v. Grynko, 2013-
+Ohio-2100, ¶ 6 (8th Dist.), citing Nob Hill E. Condo. Assn. v. Grundstein, 2011-
+Ohio-2552, ¶ 11 (8th Dist.), and Strauss at ¶ 72. 
+ Based on the foregoing, Appellants’ failures to separately address the 
+assignments of error and cite to relevant legal authority, prevents this court from 
+determining the existence of reversible error.  Accordingly, we overrule Appellants’ 
+assignments of error. 
+ Judgment affirmed. 
+It is ordered that appellee recover from appellants costs herein taxed. 
+The court finds there were reasonable grounds for this appeal. 
+It is ordered that a special mandate issue out of this court directing the 
+common pleas court to carry this judgment into execution. 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+A certified copy of this entry shall constitute the mandate pursuant to Rule 27 
+of the Rules of Appellate Procedure. 
+ 
+ 
+ 
+ 
+ 
+ 
+____ 
+EMANUELLA D. GROVES, JUDGE 
+ 
+EILEEN A. GALLAGHER, A.J., and 
+ANITA LASTER MAYS, J., CONCUR 
+ 
+ 

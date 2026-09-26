@@ -1,0 +1,644 @@
+If this opinion indicates that it is “FOR PUBLICATION,” it is subject to 
+revision until final publication in the Michigan Appeals Reports. 
+ 
+ 
+ 
+ 
+-1- 
+S T A T E  O F  M I C H I G A N  
+ 
+C O U R T  O F  A P P E A L S  
+ 
+ 
+QUANTUM CONCRETE, INC., 
+Plaintiff/Counterdefendant-Appellant, 
+UNPUBLISHED 
+September 14, 2023 
+v 
+No. 361420 
+Kent Circuit Court 
+PLAZA DE KAZA, LLC, and RONALD A. 
+DYKSTRA, doing business as DYKSTRA HOMES, 
+LC No. 19-003189-CB 
+Defendants/Counterplaintiffs-
+Appellees. 
+ 
+ 
+Before:  SWARTZLE, P.J., and O’BRIEN and FEENEY, JJ. 
+ 
+PER CURIAM. 
+ 
+In this dispute over the payment for concrete improvements to a commercial property, 
+plaintiff/counterdefendant, Quantum Concrete, Inc., appeals by right the judgment entered by the 
+trial 
+court after a bench trial. 
+ The trial 
+court entered a judgment against 
+defendants/counterplaintiffs, Plaza de Kaza, LLC, and Ronald A. Dykstra, who did business as 
+Dykstra Homes, for $24,179.35 in unpaid construction expenses.  On appeal, Quantum argues that 
+the trial court erred when it dismissed Quantum’s claim for foreclosure under Michigan’s 
+Construction Lien Act (CLA), MCL 570.1101 et seq., and erred when it denied Quantum’s motion 
+for attorney fees as a sanction for frivolous litigation.  Because we conclude that Quantum has not 
+identified any errors warranting relief, we affirm. 
+I.  BASIC FACTS 
+ 
+Kassra Darehshori, who was sometimes called “Kaz,” purchased a retail building on 
+Division Avenue near 28th Street in Grand Rapids, Michigan.  He testified that the building came 
+with 9 acres of land, and he intended to develop a banquet hall in the back of the property.  
+Darehshori created Plaza de Kaza to own that property, and he was its sole member.  Testimony 
+and evidence established that Darehshori hired an engineer, Daniel Hula, to design a parking lot 
+for the building.  Darehshori also stated that he had a longstanding relationship with Ronald 
+Dykstra, who was a carpenter.  He hired Dykstra on an hourly and as-needed basis to perform work 
+and advise him on building projects. 
+
+-2- 
+ 
+Dykstra testified that he assisted with renovations at the Plaza de Kaza property.  He 
+performed demolition, framed new walls, hung a drop ceiling, and helped bring the retail space up 
+to standards.  Dykstra also helped Darehshori find subcontractors for the drywall, electrical, and 
+roofing work.  He said that he typically solicited three estimates and submitted them to Darehshori, 
+who selected the one that he wanted. 
+ 
+Dykstra had done business with Quantum when he built homes and had a good relationship 
+with Quantum’s owner, John Trimberger.  The building on Division needed a new concrete floor, 
+and Dykstra called Trimberger and asked if he would submit an estimate.  Dykstra said that he told 
+Trimberger that the work was for “Kaz’s project” and that he would be working for “Kaz,” but 
+Trimberger denied that Dykstra ever said he was representing Plaza de Kaza. 
+ 
+Trimberger testified that Dykstra called him in Spring 2018 and asked him to submit an 
+estimate for a new floor in a restaurant.  It was his understanding that Dykstra, as the general 
+contractor for the owner, hired Quantum.  Trimberger sent his estimates to Dykstra, and Dykstra 
+approved them and asked him to schedule the work.  He also sent his invoices to Dykstra. 
+ 
+Trimberger related that, after Quantum completed the floor work, Quantum submitted its 
+invoice to Dykstra, and it was paid.1  Dykstra then contacted Quantum about replacing the 
+property’s sidewalk.  Dykstra accepted the estimate, Quantum completed the work, and Quantum 
+invoiced Dykstra.  Quantum received payment a few weeks later. 
+ 
+Trimberger stated that Dykstra then called him to submit an estimate for the curb and gutter 
+work on the parking lot.  The parking lot was large and required about 3300 feet of curbing.   
+Trimberger submitted an estimate for $94,759.50 for the curb and gutter work to Dykstra.  Dykstra 
+called him and gave him the go-ahead to begin work. 
+ 
+Quantum’s foreman, Joseph Brooke, stated that they had problems with the curb and gutter 
+project from the start.  He stated that the concrete drainage basins were not properly placed, so the 
+drains did not line up with the curbing.  There were also problems with the parking lot’s grading.  
+He repeatedly called Dykstra, and the excavator returned to correct some of the problems. 
+Trimberger sent invoices to Dykstra for the parking lot work on October 1, October 15, and 
+October 22.  All invoices were paid to date.  Brooke testified that the excavation work for the area 
+of the traffic circle was in horrid shape.  There was crushed concrete around one basin that was 
+much too high, and both catch basins on the traffic circle were spun almost 90 degrees from where 
+they were supposed to be set.  Brooke would not touch it until the excavator spun the drains.  The 
+excavator eventually came out and adjusted the drains, but they were still too close to the radius 
+point of the traffic circle’s center.  Brooke ended up pouring the curbing by following the radius 
+and then bringing the curb to the drain.  That gave the curbing on that side of the traffic circle a 
+flattened look. Trimberger stated that the last invoice that he sent to Dykstra was for the work 
+performed from October 22, 2018 to November 6, 2018, which included work on the parking lot’s 
+traffic circle.  Darehshori stated that the traffic circle plainly did not conform to the blueprints—a 
+ 
+                                                 
+1 According to the trial court’s January 29, 2021 Opinion and Order Resolving Plaintiff’s Motion 
+for Summary Disposition Under MCR 2.116(C)(10), “[a]n entity controlled by Plaza de Kaza’s 
+principal paid th[e] amount in full.”  
+
+-3- 
+“third grader,” he opined, “could have seen that it was wrong.”  He described the traffic circle as 
+having a “taco” shape.  The traffic circle was, in his view, the focal point of his whole project; it 
+was the point where customers would drop off their guests, and he wanted it done properly. 
+ 
+Darehshori, Trimberger, Brooke, Hula, and another person met at the site on November 12, 
+2018, to discuss the traffic circle. 
+ 
+Brooke stated that they discussed options for correcting the traffic circle’s appearance.  He 
+felt that the matter was merely cosmetic and that landscaping would fix it.  Everyone at the meeting 
+appeared to agree to tear out the curbing on one side of the traffic circle and raise its height, and 
+then dovetail it down to the drain.  He performed that work eight days later.  Brooke said that 
+Darehshori specifically approved the second pour. 
+ 
+Hula said that the traffic circle looked “goofy.”  He explained that Quantum followed the 
+surveyor’s stakes for the traffic circle until it got close to the basin, which was clearly misplaced.  
+Quantum then brought the curb over to the drain without following the stakes.  As a result, the 
+traffic circle was not a circle.  Quantum should have called the excavator to adjust the basin.  If 
+the excavator did not appear, the concrete contractor should have refused to pour.  At the meeting 
+on November 12, he said that it was agreed that “they were going to move the catch basin out and 
+then bring the curb around a little more level and then slope down to the catch basin rather than 
+adjust the catch basin.” 
+ 
+Trimberger agreed that the traffic circle had a “taco” look from a distance because there 
+were two high ends and two low ends to accommodate the gutters.  He stated that the drains were 
+not properly positioned as detailed on the blue prints.  In any event, Trimberger felt that it was a 
+nonissue because landscaping would conceal it.  He admitted that they agreed to redo the concrete 
+work to raise the height of the curb on the lower side and then dovetail it down to the drain at the 
+meeting held on November 12, 2018.  Darehshori called the excavator during the meeting and 
+Darehshori told Trimberger that the excavator would be out the next day, so Trimberger assumed 
+that the excavator would fix the drain position.  When no one showed up after a week, Trimberger 
+had his crew remove the concrete and pour new curbs consistent with what had been agreed at the 
+meeting.  His crew performed that work on November 20, 2018.  In Trimberger’s view, the second 
+pour was not a repair of defective work: it was done to placate Darehshori. 
+ 
+After redoing the curbing on the traffic circle on November 20, 2018, Trimberger sought 
+payment of the final invoice from November 6, 2018.  There was conflicting testimony about the 
+events, but there was testimony and evidence that Trimberger went to Darehshori’s office on 
+November 28, 2018, and upset Darehshori’s staff.  Darehshori, however, stated that he refused to 
+pay the remaining $24,179.35 balance because Quantum did not correctly pour the traffic circle 
+and not because he was angry with Trimberger. 
+ 
+In April 2019, Quantum sued Plaza de Kaza and Dykstra.  It asserted claims of foreclosure 
+on a construction lien, breach of contract, and unjust enrichment.  Plaza de Kaza counterclaimed 
+against Quantum for breach of contract and unjust enrichment. 
+ 
+In September 2020, Quantum moved for summary disposition under MCR 2.116(C)(10).  
+Plaza de Kaza responded by moving for summary disposition of Quantum’s foreclosure claim 
+
+-4- 
+under MCR 2.116(I)(2).  The trial court agreed that Quantum failed to establish that it had a valid 
+construction lien and dismissed that claim.  As for the remaining claims and counterclaims, the 
+trial court determined that there were questions of fact that had to be resolved at trial. 
+ 
+After a three-day bench trial, the trial court entered its verdict.  The court found that Dykstra 
+entered into an agreement with Quantum to perform the improvements to Plaza de Kaza’s parking 
+lot.  The court further found that Dykstra breached the agreement by failing to secure payment on 
+Quantum’s final invoice, and was liable for the amount of the final invoice.  The court also found 
+that Plaza de Kaza was liable for the same amount under the theory that Plaza de Kaza was unjustly 
+enriched by the improvement.  The trial court rejected Plaza de Kaza’s claim that it had a contract 
+with Quantum or that Quantum was unjustly enriched by Plaza de Kaza.  The court related that the 
+evidence showed that Plaza de Kaza never entered into a contract with Quantum and never 
+conferred any benefit on Quantum. 
+ 
+The trial court found that the appropriate damages against Dykstra was the amount of the 
+last invoice, $24,179.35, with no setoffs.  Additionally, the court acknowledged that the measure 
+of damages for unjust enrichment differed from the damages for a breach of contract, but it 
+concluded that Plaza de Kaza was unjustly enriched by the amount of the last invoice as well.  The 
+court explained that the defects remaining after the second pour of the traffic circle were the result 
+of the misplacement of the catch basins and drain tops, which were the responsibility of the 
+excavator, not Quantum.  Although Quantum poured the curbs to align with those misplaced 
+drains, the court found that Plaza de Kaza agreed to the plan to rectify the earlier pour and should 
+not be allowed to fault Quantum.  
+ 
+In December 2021, Quantum moved for an award of attorney fees as a sanction for 
+presenting a frivolous defense.  The trial court entered its opinion and order denying the motion 
+for sanctions in April 2022.  Quantum then appealed by right in this Court. 
+II.  SUMMARY DISPOSITION 
+A.  PRESERVATION 
+ 
+On appeal, Quantum argues that the trial court erred in several respects when it granted 
+Plaza de Kaza’s motion for summary disposition under MCR 2.116(I)(2).  Quantum first argues 
+that the trial court could not consider whether Quantum’s lien was untimely under 
+MCL 570.1101(1) because, in its view, Plaza de Kaza waived that defense by failing to assert it 
+consistent with the requirements of MCR 2.111(F). 
+ 
+In civil cases, Michigan follows “the ‘raise or waive’ rule of appellate review.”  Walters v 
+Nadell, 481 Mich App 377, 387; 751 NW2d 431 (2008).  Under that rule, to preserve an issue for 
+appellate review, the party asserting error must demonstrate that the issue was raised in the trial 
+court.  Glasker-Davis v Auvenshine, 333 Mich App 222, 227; 964 NW2d 809 (2020); Bailey v 
+Schaaf (On Remand), 304 Mich App 324, 344; 852 NW2d 180 (2014), vacated not in relevant part 
+497 Mich 927 (2014).  Moreover, the party asserting error must show that the same basis for the 
+error claimed on appeal was brought to the trial court’s attention.  Samuel D Begola Servs, Inc v 
+Wild Bros, 210 Mich App 636, 642; 534 NW2d 217 (1995). 
+
+-5- 
+ 
+Quantum argued in response to Plaza de Kaza’s motion for summary disposition of 
+Quantum’s lien claim under MCR 2.116(I)(2) that the evidence established the last furnishing of 
+labor or materials for the improvement occurred on November 20, 2018.  In the alternative, it 
+argued that there was a question of fact concerning the date of last furnishing labor or materials 
+for the improvement.  Quantum failed to argue that the trial court could not consider the motion 
+because Plaza de Kaza waived the defense by failing to properly assert it under the court rules.  
+Quantum asserted waiver in its motion for reconsideration, but a party cannot preserve an issue for 
+appellate review by first raising it in a motion for reconsideration of the trial court’s decision.  See 
+Vushaj v Farm Bureau Gen Ins Co of Mich, 284 Mich App 513, 519; 773 NW2d 758 (2009).  
+Because Quantum did not assert this ground for disregarding Plaza de Kaza’s motion for summary 
+disposition until its motion for reconsideration, this claim of error is not preserved.  See id. 
+ 
+In a civil case, a party waives a claim of error that the party did not properly preserve by 
+bringing the issue to the trial court’s attention.  Tolas Oil & Gas Exploration Co v Bach Servs & 
+Mfg, LLC, ___ Mich App ___, ___; ___ NW2d ___ (2023) (Docket No. 359090); slip op at 3.  
+Although this Court has the discretion to consider issues that were not properly preserved in the 
+trial court, this Court should exercise its discretion only when exceptional circumstances warrant 
+review.  Bailey, 304 Mich App at 345-346.  This case does not involve an exceptional 
+circumstance.  See Napier v Jacobs, 429 Mich 222, 227-237; 414 NW2d 862 (1987).  Therefore, 
+we decline to consider this claim of error.  However, we will address Quantum’s other claims of 
+error involving the trial court’s decision to grant Plaza de Kaza’s motion for summary disposition 
+because Quantum adequately raised those issues in the trial court. 
+B.  STANDARD OF REVIEW 
+ 
+This Court reviews de novo a trial court’s decision on a motion for summary disposition.  
+Barnard Mfg Co, Inc v Gates Performance Engineering, Inc, 285 Mich App 362, 369; 775 NW2d 
+618 (2009).  This Court also reviews de novo whether the trial court properly interpreted and 
+applied the relevant court rules.  Franks v Franks, 330 Mich App 69, 86; 944 NW2d 388 (2019). 
+C.  ANALYSIS 
+ 
+A motion for summary disposition under MCR 2.116(C)(10) tests the factual sufficiency 
+of a claim.  Maiden v Rozwood, 461 Mich 109, 120; 597 NW2d 817 (1999).  A party is entitled to 
+summary disposition under that rule when, “[e]xcept as to the amount of damages, there is no 
+genuine issue as to any material fact, and the moving party is entitled to judgment or partial 
+judgment as a matter of law.”  MCR 2.116(C)(10).  The party moving for summary disposition 
+bears the initial burden to demonstrate that there is no genuine issue of material fact.  Barnard 
+Mfg, 285 Mich App at 369.  To satisfy that burden, the moving party must identify the issue about 
+which he or she claims there is no genuine issue of material fact and must support his or her claim 
+with affidavits, depositions, admissions, or other documentary evidence that—if left unrebutted—
+would show that he or she is entitled to judgment as a matter of law.  Id. at 369-370.  If the moving 
+party properly asserts and supports the motion, the nonmoving party must come forward with 
+evidence that establishes that a genuine issue of disputed fact exists.  Id. at 370. 
+ 
+The trial court dismissed Quantum’s claim asserting the right to foreclose its construction 
+lien because Quantum failed to present evidence that it had a valid lien under the CLA. We agree. 
+
+-6- 
+ 
+The Legislature provided that certain persons (contractors, subcontractors, suppliers, and 
+laborers) who improve real property will have a construction lien upon the interest of the owner or 
+lessee who contracted for the improvement, if certain conditions apply.  See MCL 570.1107; see 
+also MCL 570.1103(3) (defining construction lien).  Additionally, a contractor, subcontractor, 
+laborer, or supplier who has a lien under the lien act must file a claim of lien against the property 
+with the register of deeds within 90 days after “the lien claimant’s last furnishing of labor or 
+material for the improvement” or the lien ceases to exist.  MCL 570.1111(1).  Finally, the 
+Legislature authorized a person with a construction lien to sue in circuit court to foreclose the lien.  
+See MCL 570.1117; MCL 570.1118. 
+ 
+A suit to foreclose a construction lien is an equitable action and the circuit court must 
+examine each claim and defense and determine the amount due to “each lien claimant.”  
+MCL 570.1118(2).  A lien claimant is defined to be a person who holds a lien as provided under 
+MCL 570.1107.  See MCL 570.1103(3) (defining construction lien as a lien as described under 
+MCL 570.1107); MCL 570.1105(2) (defining lien claimant as a person with a construction lien).  
+It follows that a party suing to foreclose a lien must establish that he or she has a valid lien under 
+MCL 570.1107 before he or she can sue to enforce it by foreclosure.  See, e.g., Northern Concrete 
+Pipe, Inc v Sinacola Cos-Midwest, Inc, 461 Mich 316, 323-324; 603 NW2d 257 (1999). 
+ 
+Although courts have described the 90-day deadline stated under MCL 570.1111(1) as a 
+“period of limitations,” see Legacy Custom Builders, Inc v Rogers, ___ Mich App ___, ___; ___ 
+NW2d ___ (2023) (Docket No. 359213); slip op at 5-6, MCL 570.1111(1) does not limit the time 
+within which a claim may be brought.  Rather, MCL 570.1111(1) identifies the point at which a 
+lien that arose by operation of law under MCL 570.1107 ceases to exist as a matter of law absent 
+the happening of a contingency; more specifically, MCL 570.1111(1) provides that a lien that 
+otherwise came into existence under MCL 570.1107 will cease to exist 90 days from the date that 
+the lien claimant last provided labor or materials for the improvement of the property, unless the 
+lien claimant perfected the lien by filing a claim of lien with the applicable registrar of deeds.  
+Because the period stated under MCL 570.1111(1) does not time-bar enforcement of an otherwise 
+valid lien, it is not a period of limitations under MCR 2.111(F)(3)(a).2 
+ 
+The plaintiff in a foreclosure action bears the burden to establish that he or she had a valid 
+lien, which includes demonstrating that he or she timely perfected the lien by filing the claim of 
+lien required under MCL 570.1111(1).  Ronnisch Constr Group, Inc v Lofts on the Nine, LLC, 499 
+Mich 544, 554 n 22; 886 NW2d 113 (2016).  Accordingly, Quantum had to present evidence as 
+part of its prima facie case that would allow the finder of fact to conclude that it had a construction 
+lien and timely perfected that lien before it would be entitled to foreclose the lien.  See id.; see also 
+Stewart v Rudner, 349 Mich 459, 474-475; 84 NW2d 816 (1957) (stating that a prima facie case 
+means evidence sufficient to justify an inference of liability). 
+ 
+                                                 
+2 The Legislature provided a true period of limitations under MCL 570.1117(1), which bars the 
+enforcement of a lien in foreclosure unless the lien claimant commences the proceedings to enforce 
+within one year after recording the claim of lien. 
+
+-7- 
+ 
+Quantum moved for summary disposition on its foreclosure claim in September 2020.  It 
+relied on its notice of furnishing dated February 12, 2019, claim of lien filed February 15, 2019, 
+proof of service dated April 11, 2019,3 and its sworn statement dated May 20, 2020 as evidence 
+that it had the right to foreclose its lien.  Quantum did not attach these documents to its motion for 
+summary disposition, but it did attach them to its second amended complaint.   
+ 
+In its notice of furnishing labor or materials and its claim of lien, Quantum asserted that it 
+last provided labor or materials for the improvement on November 20, 2018, but those assertions 
+did not establish that Quantum had a valid lien.  Quantum failed to present evidence that, if left 
+unrebutted, established that it had a valid lien, which was an essential element of its foreclosure 
+claim.  See MCL 570.1107; Northern Concrete Pipe, 461 Mich at 323-324.  Consequently, 
+contrary to Quantum’s contention on appeal, the trial court did not err when it denied Quantum’s 
+motion for summary disposition on the foreclosure claim.  See Barnard Mfg, 285 Mich App at 370 
+(stating that, if the moving party fails to properly support its motion, the nonmoving party has no 
+duty to respond and the trial court should deny the motion). 
+ 
+In response to Quantum’s second motion for summary disposition, Plaza de Kaza argued 
+that the undisputed evidence actually showed that it was entitled to summary disposition on 
+Quantum’s claim for foreclosure of its construction lien under MCR 2.116(I)(2).  That rule 
+provides that, “[i]f it appears to the court that the opposing party, rather than the moving party, is 
+entitled to judgment, the court may render judgment in favor of the opposing party” on a motion 
+for summary disposition.  MCR 2.116(I)(2); see also Holland v Consumers Energy Co, 308 Mich 
+App 675, 681-682; 866 NW2d 871 (2015) (“Summary disposition may be granted in favor of an 
+opposing party under MCR 2.116(I)(2) if there is no genuine issue of material fact and the 
+opposing party is entitled to judgment as a matter of law.”). 
+ 
+On appeal, Quantum argues that the trial court could not rely on MCR 2.116(I)(2) to grant 
+summary disposition in favor of Plaza de Kaza on Quantum’s claim of foreclosure because Plaza 
+de Kaza did not support its motion with evidence of its own, but instead relied on evidence 
+submitted by Quantum.  The parties moving for and opposing a motion for summary disposition 
+have a duty to support their positions with evidence, but they are not required to submit their own 
+evidence or attach every piece of evidence to their motions.  It is enough if the party identifies the 
+evidence in support of his or her position and the evidence is then filed in the action or submitted 
+by the parties.  Barnard Mfg, 285 Mich App at 376-378, citing in relevant part MCR 2.116(G)(4) 
+and (G)(5).  As such, Plaza de Kaza could support its motion for summary disposition under 
+MCR 2.116(I)(2) by reference to Quantum’s evidence alone.  In any event, Plaza de Kaza did 
+submit evidence to support its claim that there was no dispute that the work performed after 
+November 6, 2018, did not qualify as an improvement. 
+ 
+According to Plaza de Kaza, the undisputed evidence showed that the work occurring on 
+or before November 6, 2018 constituted the last date of furnishing labor or material for the 
+improvement.  The evidence, it explained, showed that the work that occurred after November 6 
+ 
+                                                 
+3 Exhibit 10 to the Second Amended Complaint contains an April 11, 2019 Proof of Service stating 
+that Quantum’s counsel served defendants’ counsel the claim of lien via email on February 25, 
+2019 and served defendants on April 1, 2019 via certified mail. 
+
+-8- 
+was work to correct defects in Quantum’s workmanship, which did not constitute work for the 
+improvement under MCL 570.1111(1).  Because the undisputed evidence showed that Quantum 
+did not file a claim of lien within 90 days of November 6, 2018--the last date of furnishing labor 
+or materials for the improvement--Quantum’s lien ceased to exist as provided under 
+MCL 570.1111(1).  Plaza de Kaza argued on that basis, Quantum was not entitled to foreclose 
+under the lien act as a matter of law. 
+ 
+In support of its position, Plaza de Kaza relied on testimony and evidence that Quantum 
+sent its final invoice for the work that it performed for the project on November 6, 2018, and did 
+not bill for any additional work. Plaza de Kaza maintained that those facts showed that the last 
+provision of labor or materials occurred on or before November 6, 2018.  Plaza de Kaza also 
+argued that the undisputed evidence showed that the tear out and repour that Quantum performed 
+after the November 12, 2018 meeting did not extend the 90-day deadline for filing a claim of lien.  
+Plaza de Kaza further relied on Trimberger’s deposition to establish that the work was performed 
+to fix Quantum’s defective workmanship, which did not qualify as the provision of labor or 
+materials for an improvement under caselaw, so the work performed on November 20, 2018, did 
+not restart the deadline for perfecting an existing claim of lien.  On the basis of that evidence, it 
+maintained that Quantum’s lien ceased to exist before Quantum filed its claim of lien; accordingly, 
+Quantum did not have a valid lien that it could foreclose. 
+ 
+This Court interpreted the proper meaning of MCL 570.1111(1) in Stock Bldg Supply, LLC 
+v Parsley Homes of Mazuchet Harbor, LLC, 291 Mich App 403; 804 NW2d 898 (2011).  In that 
+case, the evidence showed that the contractor was hired to furnish plumbing for a building.  The 
+plumber later returned to the building to repair leaks, which he invoiced as warranty work.  Id. 
+at 405.  The trial court eventually determined that the plumber did not have a valid lien under the 
+CLA because he did not file a claim of lien within 90 days after his last furnishing of labor or 
+materials for the improvement.  On appeal, this Court had to determine whether the plumber’s 
+return visit to repair the leaks constituted the furnishing of labor or material for the improvement.  
+Id. at 406. 
+ 
+Analyzing the statutory definition of improvement, as now provided under 
+MCL 570.1104(6), and the terms of MCL 570.1111(1), this Court held that a repair to existing 
+work can be an improvement, but that the repairs at issue were not.  Stock Bldg Supply, LLC, 291 
+Mich App at 407.  This Court explained: 
+ 
+According to MCL 570.1111(1) and MCL 570.1104[(6)], a repair 
+completed pursuant to a contract is an improvement, and the last furnishing of an 
+improvement commences the 90-day filing period.  Thus, for example, when a 
+contractor is specifically hired to repair an aspect of the property, such as a 
+nonworking door or a leaky roof, that contractor is making an improvement to the 
+property for which the contractor is entitled to claim a lien.  However, as this Court 
+held in Woodman v Walter, 204 Mich App 68, 69; 514 NW2d 190 (1994), the 
+performance of “warranty work” to correct deficiencies in work performed or 
+defects in fixtures installed by the contractor does not constitute an improvement 
+under the Construction Lien Act because “[i]t does not confer any value beyond the 
+value furnished at the time the initial installation work was completed.”  Therefore, 
+in such situations, “[t]he ninety-day filing period commences on the date of 
+
+-9- 
+completion of the original installation work and is not extended by the later 
+performance of warranty work.”  Id. at 70.  The distinguishing factor between a 
+repair constituting an improvement to the real property, which allows for the 
+commencement of the 90-day filing period, and warranty work, which does not 
+allow for the commencement of a new 90-day filing period, is whether the work in 
+question conferred any value beyond the value furnished by the completion of the 
+original work.  [Stock Bldg Supply, LLC, 291 Mich App at 407-408; emphasis 
+added.] 
+ 
+In support of its motion for summary disposition under MCR 2.116(I)(2), Plaza de Kaza 
+cited Trimberger’s own testimony and Quantum’s invoices to show that Quantum completed its 
+work by November 6, 2018, and only tore out and replaced a portion of the traffic circle after 
+Darehshori complained that the work was defective.  Plaza de Kaza cited, for example, 
+Trimberger’s testimony that the work began in September 2018 and was complete within about 
+six weeks.  It noted that he stated that the last day “on the job” was November 20.  Trimberger 
+also testified that Quantum was directed to “take out and replace” a part of the curb and gutter on 
+the traffic island after a meeting on November 12, 2018.  Trimberger explained that the problems 
+with the traffic circle occurred even before the work to replace the traffic circle.  At the time of the 
+first pour, he explained, the drain basins were not even facing the correct direction.  Trimberger 
+related that after they poured the curbs for the traffic circle for the first time there was a noticeable 
+kink in the circle because the basin was not in the correct spot to connect with the curbing. 
+ 
+Plaza de Kaza also cited Darehshori’s testimony that it was obvious to him that the traffic 
+circle had not been placed in the right spot.  Indeed, he stated that it did not even look like a circle.  
+He also did not agree that the drain’s poor placement justified the incorrect placement.  He felt that 
+Quantum should have either moved the drain or waited for the appropriate party to move the drain.  
+He stated that Quantum took it upon itself to fix the drain and did not even do it properly the 
+second time around. 
+ 
+Plaza de Kaza’s evidence permitted an inference that the work Quantum performed after 
+November 6, 2018, was solely to correct the traffic circle’s defective placement.  The evidence 
+tended to show that, instead of correcting the improperly placed basin or waiting for it to be placed 
+correctly, Quantum chose to disregard the plans for the traffic circle and poured the curbing and 
+gutters in such a way as to connect the misplaced basin.  That resulted in a misshapen traffic circle.  
+Accordingly, considering only the evidence before the trial court after Plaza de Kaza’s response, 
+when Quantum tore out the relevant gutter and curbing, moved the basin, and poured a new gutter 
+and curb, it was not adding new value to the property.  Rather, Quantum “merely provided that 
+which was originally contracted for—namely,” a properly placed traffic circle.  Id. at 409. 
+ 
+Quantum replied to Plaza de Kaza’s response and conceded that Darehshori was unhappy 
+with the first pour and that the parties met to discuss the problem.  Quantum asserted that there 
+was no defect in the original pour, but it did not present any evidence that the traffic circle had 
+been poured in the correct location or consistent with the surveyor’s marks.  Quantum noted that 
+Trimberger sent a text to Darehshori in which he stated that Quantum had “fixed” the traffic circle, 
+but Quantum did not agree that the statement inferred the circle was defective after the first pour.  
+Quantum then accused Plaza de Kaza of not having demonstrated that the first pour was defective. 
+
+-10- 
+ 
+Quantum’s reply did not identify evidence that established a question of fact as to whether 
+the work performed after November 6, 2018, constituted an improvement.  Viewing the evidence 
+in the light most favorable to Quantum, Quantum established that Trimberger agreed to remove 
+and replace the traffic circle to correct the kink.  His testimony failed to establish that the kink 
+itself was not a defect in the original pour.  Trimberger’s newly cited testimony did not controvert 
+Plaza de Kaza’s evidence that the traffic circle was improperly placed during the first pour. 
+ 
+On the evidence then before the trial court, there was no dispute that the work Quantum 
+performed after November 6, 2018, was to correct a defect in the curbing and gutters’ original 
+placement.  Because there was no dispute about the reason for the work performed after 
+November 6, 2018, the trial court did not err when it concluded that—as a matter of law—the last 
+date of furnishing labor or materials for the improvement was on or before November 6, 2018.  
+Moreover, because the undisputed evidence showed that Quantum failed to file its claim of lien 
+until more than 90 days after November 6, 2018, it was also undisputed that Quantum did not have 
+a valid lien to foreclose.  See MCL 570.1101(1).  Consequently, the trial court did not err when it 
+dismissed Quantum’s claim for foreclosure of a construction lien.  See Barnard Mfg, 285 Mich 
+App at 380-381. 
+ 
+On appeal, Quantum argues that this Court should estop Plaza de Kaza from asserting that 
+the last date of furnishing labor or materials for the improvement was before November 20, 2018, 
+on the basis of two foreign authorities: Gooch v Hiatt, 166 Ind App 521; 337 NE2d 585 (1975) 
+and Miller Monuments, Inc v Asbestos Insulating & Roofing Co, 134 Ind App 48; 185 NE2d 533 
+(1962).  Although foreign decisions can be persuasive authority, Franks, 330 Mich App at 97 n 4, 
+those decisions do not provide any helpful guidance. 
+ 
+Both the foreign authorities involved a lien that had to be filed within a specified number 
+of days after the project’s completion which is substantially different from the language of the 
+statute at issue here, which involves the termination of a lien after the passage of time from the 
+last furnishing of labor or materials for the improvement.  Additionally, the courts in those cases 
+held that the owners caused delays in the project that precluded the owner from asserting that the 
+project was completed at an earlier point in time.  Gooch, 166 Ind App at 525-526; Miller 
+Monuments, 134 Ind App at 52-53.  That is not the case here.  MCL 570.1111(1) causes a lien to 
+cease after 90 days from the last improvement unless the lien claimant perfects his or her lien.  The 
+lien claimant is also on notice then that, under Michigan law, repairs to defective workmanship 
+will not reset the period within which to file a claim of lien.  Stock Bldg Supply, 291 Mich App 
+407-408.  As such, the trial court cannot be faulted for failing to apply those foreign authorities. 
+ 
+The trial court did not err when it denied Quantum’s motion for summary disposition of its 
+foreclosure claim under MCR 2.116(C)(10) and instead dismissed that claim under 
+MCR 2.116(I)(2). 
+III.  MOTION FOR SANCTIONS 
+A.  STANDARD OF REVIEW 
+ 
+We next address Quantum’s claim that the trial court erred when it denied Quantum’s 
+motion for sanctions premised on Quantum’s argument that Plaza de Kaza and Dykstra asserted 
+
+-11- 
+frivolous defenses and counterclaims.  This Court reviews de novo whether the trial court properly 
+interpreted and applied the relevant statutes and court rules.  Franks, 330 Mich App at 86.  This 
+Court reviews a trial court’s finding that a defense was frivolous for clear error.  See Kitchen v 
+Kitchen, 465 Mich 654, 661; 641 NW2d 245 (2002).  “A decision is clearly erroneous where, 
+although there is evidence to support it, the reviewing court is left with a definite and firm 
+conviction that a mistake has been made.”  Id. at 661-662. 
+B.  ANALYSIS 
+ 
+The court rules and statute authorize a trial court to sanction a party for asserting a claim 
+or defense that was not well grounded in fact or warranted by existing law or a good-faith argument 
+for the extension, modification, or reversal of existing law, or that was brought to harass or to 
+cause unnecessary delay or needless increase in the cost of litigation.  See MCR 1.109(E)(5) and 
+(6); MCR 2.625(A)(2); MCL 600.2591.  As this Court has explained concerning MCR 1.109(E): 
+ 
+An attorney has an affirmative duty to conduct a reasonable inquiry into the 
+factual and legal viability of a pleading before it is signed.  The reasonableness of 
+the attorney’s inquiry is determined by an objective standard, not the attorney’s 
+subjective good faith.  A court must determine whether a claim or defense is 
+frivolous on the basis of the circumstances at the time it was asserted.  [A] claim is 
+devoid of arguable legal merit if it is not sufficiently grounded in law or fact, such 
+as when it violates basic, longstanding, and unmistakably evident precedent.  [New 
+Covert Generating Co, LLC v Covert Twp, 334 Mich App 24, 91; 964 NW2d 378 
+(2020) (quotation marks and citations omitted), lv den 507 Mich 932 (2021).] 
+ 
+In its opinion and order denying Quantum’s request for sanctions, the trial court first found 
+that Dykstra did not present a frivolous defense: 
+ 
+Defendant Ronald Dykstra has offered an airtight defense to sanctions.  The 
+record from the trial leaves no doubt that he was acting completely at the behest of 
+Defendant Plaza de Kaza and its principal, Kassra Darehshori, when he was dealing 
+with Plaintiff Quantum on the project at the heart of this case.  Dykstra never paid 
+for any work on the project, and he even went to great lengths to attempt to obtain 
+full payment on the final invoice for Quantum when Kassra Darehshori balked at 
+making the payment to Quantum.  Accordingly, Dykstra took a perfectly reasonable 
+position at trial by arguing that he should not be held responsible for breaching a 
+contract with Quantum even though he enlisted Quantum to perform concrete work 
+on the project.  Thus, the Court finds without any hesitation that Dykstra did not 
+present a “frivolous” defense before or during trial. 
+ 
+The record showed that Dykstra early took the position that the real parties to the contract 
+were Plaza de Kaza and Quantum.  Although there was evidence that Dykstra solicited Quantum’s 
+business, received the quote for the work, and approved the quote, which supported a finding that 
+he entered into the contract with Quantum as a general contractor for the owner, Plaza de Kaza, 
+there was also evidence that could have supported a finding that Dykstra served as an agent to bind 
+Plaza de Kaza.  See Saums v Parfet, 270 Mich 165, 171-172; 258 NW 235 (1935) (stating that the 
+
+-12- 
+primary function of an agent is to bring about, modify, accept, and terminate contractual 
+obligations on a principal’s behalf); Timmerman v Bultman, 243 Mich 344, 348-349; 220 NW 754 
+(1928) (discussing the law of agency involving an undisclosed principal).  Notably, the parties 
+involved did not formalize the terms of their agreement in a detailed writing that would have 
+clearly identified the parties and their obligations.  Instead, the parties formed their agreement 
+using electronic and oral communications that included only the broad outlines of their agreement.  
+Although the communications were sufficient to meet the minimum requirements for contract 
+formation, the generality of the communications along with the parties’ actual practices left some 
+doubt about whether Dykstra contracted in his own name or acted as an agent for a third party such 
+as Darehshori or Plaza de Kaza. 
+ 
+There was evidence, for example, that Darehshori had the final say on all work and that 
+Darehshori caused one of his other entities to pay Quantum during the earlier stages of the project.  
+The evidence at trial further supported a finding that Dykstra worked for Darehshori as an 
+independent contractor performing carpentry work on his various properties and offering advice 
+and assistance on construction projects, but that he did not act as a general contractor.  Dykstra 
+also stated that he made it clear to Quantum’s owner, Trimberger, that he was acting on behalf of 
+Darehshori and not on his own behalf.  Given the evidence presented both at the summary 
+disposition stage and trial, the trial court could easily have found that Dykstra did not contract in 
+his own name, but instead contracted on behalf of Plaza de Kaza.  Consequently, we are not left 
+with the definite and firm conviction that the trial court clearly erred when it found that Dykstra 
+did not assert a frivolous defense when he denied that he was a party to the contract with Quantum.  
+See Kitchen, 465 Mich at 661-662. 
+ 
+Turning to the defense by Plaza de Kaza, the trial court noted that it was a closer question 
+as to whether Plaza de Kaza engaged in frivolous litigation.  The court explained that the text 
+messages exchanged between Trimberger and Darehshori strongly suggested that Darehshori 
+refused to pay Quantum out of animosity.4  The court also felt that Plaza de Kaza’s position on the 
+cost to repair the traffic circle was “murky” and possibly “misleading.”  The trial court agreed that 
+Darehshori was justified in his concerns after the first pour but stated that the evidence showed 
+that Darehshori agreed to the corrective measures that Quantum took after the meeting on 
+November 12, 2018.  For that reason, the court wrote, Quantum’s position that it was entitled to 
+payment appeared undisputable after the second pour, and the court allowed the matter to go to 
+ 
+                                                 
+4 There was strong evidence that Darehshori harbored animosity for Trimberger, which played a 
+role in his decision to refuse payment.  Indeed, the evidence tended to show that both Darehshori 
+and Trimberger acted out of anger during the period leading up to the lawsuit.  That evidence might 
+have supported a finding that specific actions taken by the parties during the litigation were taken 
+for improper purposes within the meaning of MCR 1.109(E)(5)(c) and MCL 600.2591(3)(a)(i), 
+but that evidence was not so overwhelming that it could be said that the trial court clearly erred 
+when it found that Plaza de Kaza did not assert its claims and defenses for improper purposes.  See 
+Kitchen, 465 Mich at 661-662. 
+ 
+
+-13- 
+trial in part on the representation that Plaza de Kaza would present evidence that the cost to repair 
+the traffic circle was substantial, which it never did. 
+ 
+Despite these observations, the trial court found that Plaza de Kaza’s counterclaims and 
+defense were not frivolous.  The court found that Quantum’s decision to sue for foreclosure of a 
+construction lien dramatically increased the stakes and compelled Plaza de Kaza to defend 
+vigorously during the early stages to defeat the lien claim.  The court also found it compelling that, 
+after Plaza de Kaza successfully defeated the lien claim, it made an offer of judgment, which, 
+although untimely, would have ended the litigation and saved the attorney fees associated with 
+proceeding to trial.  The “most plausible explanation for that strange decision,” the trial court 
+observed after Quantum refused the offer of judgment, was to preserve its chance to get attorney 
+fees, which had become a recurring problem in commercial litigation, such that litigants endlessly 
+contest their cases “in pursuit of the spoils of fee-shifting provisions in contracts or statutes.” 
+ 
+Contrary to Quantum’s contentions on appeal, the trial court did not deny Quantum’s 
+motion for sanctions on the basis of Quantum’s decision to refuse Plaza de Kaza’s offer of 
+judgment.  The trial court discussed the offer of judgment in the context of trying to explain why 
+Plaza de Kaza had to rely on a weak argument for offset or recoupment at trial.  The court explained 
+that the parties refused to settle and Quantum refused an offer of judgment because it hoped to 
+recover its attorney fees.  Indeed, the trial court properly observed that “the parties wound up trying 
+a case that made no economic sense for either side to try.” Nevertheless, the trial court properly 
+found that Plaza de Kaza’s defenses and counterclaims were not frivolous.5 
+ 
+The record supported the trial court’s finding that Plaza de Kaza’s counterclaims and 
+defenses had some plausible basis in fact and law.  As the trial court aptly noted, Plaza de Kaza 
+successfully defeated Quantum’s claim for foreclosure of a construction lien, which precludes a 
+finding that its defense was meritless.6  Moreover, Plaza de Kaza’s remaining claims and defenses 
+involved whether Quantum was entitled to the full balance on its final invoice or whether that 
+amount should be subject to an offset or damages in recoupment for poor workmanship.  It is well 
+settled that a party defending a breach-of-contract claim may counter or defend by seeking 
+recoupment, Mudge v Macomb Co, 458 Mich 87, 106-107; 580 NW2d 845 (1998), and the 
+evidence showed that there was a colorable basis for concluding that Quantum’s workmanship was 
+less than ideal.  Although the trial court ultimately entered a verdict in Quantum’s favor without 
+ 
+                                                 
+5 The trial court wrote that “several important factors militate against an award of sanctions 
+predicated upon a finding that Defendant Plaza de Kaza’s counterclaim and its defense to Plaintiff 
+Quantum’s claim of unjust enrichment were ‘frivolous’.”  The court also stated that there was no 
+“factual or legal justification to saddle either defendant with the attorney fees incurred by Quantum 
+in the course of this protracted litigation.”  
+6 Quantum suggests that Plaza de Kaza’s failure to earlier raise its defense to the construction lien 
+was evidence that Plaza de Kaza did not have a meritorious defense.  Plaza de Kaza contested 
+whether Quantum’s lien was valid from the start of the case.  Quantum had the burden to establish 
+that its lien was valid and Plaza de Kaza had every right to hold Quantum to that burden. 
+
+-14- 
+any offsets or recoupment, that alone did not show that the defenses were meritless.  See Kitchen, 
+465 Mich at 662. 
+ 
+Quantum has not demonstrated that the trial court clearly erred when it found that Plaza 
+de Kaza and Dykstra did not assert frivolous defenses or counterclaims.  Id. at 661-662. 
+IV.  CONCLUSION 
+ 
+Because Quantum has not shown that the trial court committed any errors that warrant 
+relief, we affirm the trial court’s findings 
+ 
+Affirmed. As the prevailing parties, Plaza de Kaza and Dykstra may tax their costs.  See 
+MCR 7.219(A). 
+/s/ Brock A. Swartzle  
+/s/ Colleen A. O’Brien  
+/s/ Kathleen A. Feeney  
+ 

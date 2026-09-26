@@ -1,0 +1,660 @@
+IN THE COURT OF APPEALS OF TENNESSEE
+AT KNOXVILLE
+December 2, 2020 Session
+PRYORITY PARTNERSHIP v. AMT PROPERTIES, LLC, ET AL.
+Appeal from the Circuit Court for Hamilton County
+No. 17C1340
+Kyle E. Hedrick, Judge
+___________________________________
+No. E2020-00511-COA-R3-CV
+___________________________________
+In this action involving a commercial lease, the trial court granted judgment in favor of 
+the lessee, determining that the lessor had materially breached the lease.  The court 
+further determined that the lessor was liable for negligent misrepresentation, due to its 
+misrepresentations concerning the condition of the roof on the leased building and its
+intent to repair the roof, and constructive eviction, due to its failure to timely repair the 
+building and render it tenantable.  The court awarded compensatory damages to the lessee 
+in the amount of $193,006.35 as well as attorney’s fees in the amount of $69,002.68.  The 
+lessor has appealed.  Discerning no reversible error, we affirm.
+Tenn. R. App. P. 3 Appeal as of Right; Judgment of the Circuit Court
+Affirmed; Case Remanded
+THOMAS R. FRIERSON, II, J., delivered the opinion of the court, in which JOHN W.
+MCCLARTY and KRISTI M. DAVIS, JJ., joined.
+Gary R. Patrick, Jeremy M. Cothern, and Allen Yates, Chattanooga, Tennessee, for the 
+appellant, Pryority Partnership.
+W. Gerald Tidwell, Jr., Chattanooga, Tennessee, for the appellees, AMT Properties, LLC, 
+and David Crick.
+OPINION
+I.  Factual and Procedural Background
+On December 13, 2017, the lessor, Pryority Partnership (“Pryority”), filed a 
+complaint in the Hamilton County Circuit Court (“trial court”) against its lessee, AMT 
+Properties, LLC, and the lessee’s owner, David Crick (collectively, “AMT”).  Pryority 
+asserted that the parties had executed a written lease agreement (“the Lease”) on June 9, 
+2017, concerning a commercial warehouse (“the Warehouse”) located in Chattanooga, 
+Tennessee, and that Mr. Crick had personally guaranteed AMT’s performance under the 
+Lease.1  According to Pryority, although the Lease provided that AMT would pay rent 
+payments of $68,333.33 every four months, AMT had failed to make the required 
+payment due on December 1, 2017.  Pryority alleged that rent and late fees continued to 
+accrue despite the fact that AMT had sent a letter on November 22, 2017, notifying 
+Pryority that it was vacating the Warehouse.  Pryority sought an award of unpaid rent, 
+late charges, interest, and attorney’s fees pursuant to the Lease.  
+AMT filed an answer and counter-complaint on January 29, 2018.  AMT asserted 
+that the Warehouse was untenantable due to holes in the roof and significant water 
+incursion.  According to AMT, it had intended to operate a factory/machine shop for the 
+production of various items in the Warehouse but had been unable to complete the 
+necessary electrical work to operate its machinery because of the water issues.  AMT also 
+claimed that Pryority had failed to repair the roof leaks despite knowledge of the 
+problems.  AMT denied that Pryority was entitled to any relief, asserting, inter alia, the 
+defenses of impossibility of performance, equitable estoppel, and failure of consideration.
+In its counter-complaint, AMT asserted that Pryority had marketed the Warehouse 
+as ready to occupy at the time of the Lease’s execution.  AMT claimed that after it 
+brought the roof issues to Pryority’s attention, Pryority failed to repair or replace the roof 
+despite having assured AMT that this would be accomplished.  AMT further asserted that 
+it tried for several months to occupy the Warehouse but was unable to do so due to the 
+water-related problems.  AMT asserted that as a result, although it had spent a total of 
+$191,438.38 in rent, deposits, upgrades, and repairs to the Warehouse, it was forced to 
+abandon the Warehouse and move its business elsewhere.  AMT alleged that Pryority had 
+breached the Lease’s provisions regarding Pryority’s duty to keep the building in good 
+repair, negligently misrepresented the condition of the Warehouse, and engaged in 
+deceptive practices pursuant to the Tennessee Consumer Protection Act (“TCPA”).  AMT 
+sought an award of compensatory damages, treble damages, attorney’s fees, and costs.
+On October 11, 2019, Pryority filed a motion for summary judgment accompanied 
+by a statement of undisputed material facts and supporting documentation.  In its 
+statement of undisputed material facts, Pryority claimed that AMT possessed knowledge 
+of the leaking roof when it executed the Lease.  Pryority averred that it had attempted 
+repair of the roof and was in the process of obtaining financing to replace the roof when 
+AMT unilaterally decided to abandon the Warehouse and breach the Lease.  According to 
+Pryority, AMT leased the Warehouse in an “as is” condition.  Pryority stated that AMT 
+subsequently became impatient and vacated the building when the roof was not 
+                                           
+1 Although Pryority stated in its complaint that the lease was executed on July 12, 2012, a copy of the 
+Lease entered as an exhibit at trial demonstrates that the actual date of execution was June 9, 2017.
+immediately repaired without attempting to mitigate its damages.  AMT filed a response 
+in opposition to summary judgment, also with supporting documents.2  
+The trial court conducted a bench trial on December 10 and 11, 2019.  Following 
+the filing of proposed findings of fact and conclusions of law by the parties, the trial court 
+entered a memorandum and order on March 2, 2020, in which the court made extensive 
+factual findings.  In its order, the trial court found that Pryority knew as early as October 
+2014 that the Warehouse roof’s leaks were sufficiently severe so as to render the building 
+untenantable for any lessee that needed to run electrical machinery.  The court further 
+found that by the time of the Lease’s execution, Pryority also knew that the temporary 
+repair patches it had attempted prior to that point had been insufficient to remedy the 
+issue.  
+According to the trial court’s findings, AMT approached Pryority with a request to 
+lease the Warehouse in May 2017 because AMT needed a larger space within which to 
+operate its business.  When the parties executed the Lease on June 9, 2017, both parties 
+knew that the roof leaked.  When Mr. Crick expressed concerns about the roof, Pryority’s 
+representative assured Mr. Crick that the roof would be repaired and that the building 
+would be tenantable for AMT’s intended use as a machine shop.  The court also found, 
+however, that Pryority failed to disclose the severity or persistence of the leaks to AMT 
+and that it continued thereafter to attempt the same unsuccessful repair methods.
+As the trial court noted, the Lease contained a provision stating that Pryority was 
+responsible for keeping the roof in good repair and for providing a building that was 
+“structurally sound for the intended use of a machine shop.”  AMT had to invest 
+significant funds to add wiring and perform electrical work required in order to operate
+its machinery.  Moreover, AMT would have been required to spend approximately 
+$100,000.00 to have its large and expensive pieces of machinery moved and installed.  
+According to the court’s findings, Pryority was struggling to determine whether to repair 
+the roof or replace it and what the respective costs would be.  In August 2017, Mr. Crick 
+informed Pryority that he needed to know the plan for repairing the roof before he spent 
+$100,000.00 to move and set up his equipment.  AMT proceeded with its upgrades to the 
+Warehouse in the meantime.
+The trial court determined that Mr. Crick continued to request a plan through 
+October 2017 but received no concrete response from Pryority.  In its last communication 
+to Mr. Crick on October 17, 2017, Pryority stated that it was trying to obtain financing to 
+have the roof replaced and that such replacement should occur within the “next few 
+                                           
+2 Although the record does not contain an order disposing of Pryority’s summary judgment motion, the 
+trial court stated at the beginning of the trial that the motion was denied due to the existence of genuine
+issues of material fact.
+months.”  The court also found that although Pryority had received repair quotes as early 
+as June 2017, Pryority did not undertake to partially replace the roof until November
+2017 after AMT had vacated the premises.  According to the court’s findings, Pryority 
+was attempting to wait until AMT made its December 2017 rent payment to repair or 
+replace the roof so that the rent payment would offset a portion of the attendant expense.  
+The partial roof replacement ultimately cost Pryority $132,940.00, and the court noted 
+that one of Pryority’s agents had testified that Pryority did not need to obtain financing to 
+pay that cost.
+The trial court determined that the Warehouse was never rendered tenantable 
+during the five months that it was in AMT’s possession.  The court further found that 
+Pryority had never communicated a timeframe for the roof repair or replacement to AMT.  
+Consequently, the court concluded that Pryority had materially breached the Lease.  The 
+court further determined that Mr. Crick was a highly credible witness and that if the roof 
+had been properly repaired, AMT would have proceeded to set up its machine shop and 
+continue operating under the Lease.
+The trial court found that Pryority had not acted reasonably in scheduling the 
+repairs and that there was no just reason for its delay.  Relying on Couch v. Hall, 412 
+S.W.2d 635, 637 (Tenn. 1969), and Hogan v. Coyne Int’l Enter. Corp., 996 S.W.2d 195 
+(Tenn. Ct. App. 1998), the court found that the Warehouse was untenantable and that 
+AMT had been constructively evicted by reason of Pryority’s failure to repair the roof.  
+The court found that Pryority had materially breached the Lease and had misrepresented 
+the condition of the Warehouse.  Ruling that AMT should be placed in the same position 
+as it would have been in had the breach not occurred, the court awarded to AMT 
+$193,006.35 in compensatory damages for rent, repairs, and other expenses incurred.  
+The court also ordered that the amount of an award of attorney’s fees would be addressed 
+at a later hearing.
+Pryority timely filed a notice of appeal on March 27, 2020.  It subsequently filed a 
+motion, pursuant to Tennessee Rule of Civil Procedure 54, seeking alteration of the trial 
+court’s order.  Pryority posited that the court had not expressly ruled on AMT’s TCPA 
+claim and requested that the court deny it.  On May 18, 2020, the trial court entered an 
+order specifically denying AMT’s claim under the TCPA.  The court also awarded to 
+AMT attorney’s fees and expenses, pursuant to the Lease’s terms, in the amount of 
+$69,002.68.      
+II.  Issues Presented
+Pryority presents the following issues for this Court’s review, which we have 
+restated slightly:
+1.
+Whether the trial court erred by determining that Pryority had 
+engaged in negligent misrepresentations.
+2.
+Whether the trial court erred by awarding to AMT a refund of its 
+rent payments tendered during the time period when it occupied the 
+Warehouse.
+3.
+Whether the trial court erred by determining that the Lease provided 
+for an award of attorney’s fees to AMT in this case.
+III.  Standard of Review
+Our review of the trial court’s judgment following a non-jury trial is de novo upon 
+the record with a presumption of correctness as to the trial court’s findings of fact unless 
+the preponderance of the evidence is otherwise.  See Tenn. R. App. P. 13(d); Rogers v. 
+Louisville Land Co., 367 S.W.3d 196, 204 (Tenn. 2012).  “In order for the evidence to 
+preponderate against the trial court’s findings of fact, the evidence must support another 
+finding of fact with greater convincing effect.”  Wood v. Starko, 197 S.W.3d 255, 257 
+(Tenn. Ct. App. 2006) (citing Rawlings v. John Hancock Mut. Life Ins. Co., 78 S.W.3d 
+291, 296 (Tenn. Ct. App. 2001)).  We review questions of law, including questions 
+involving contract interpretation, de novo with no presumption of correctness.  See
+Bowden v. Ward, 27 S.W.3d 913, 916 (Tenn. 2000); Cummings Inc. v. Dorgan, 320 
+S.W.3d 316, 333 (Tenn. Ct. App. 2009).  The trial court’s determinations regarding 
+witness credibility are entitled to great weight on appeal and shall not be disturbed absent 
+clear and convincing evidence to the contrary.  See Morrison v. Allen, 338 S.W.3d 417, 
+426 (Tenn. 2011); Jones v. Garrett, 92 S.W.3d 835, 838 (Tenn. 2002).
+IV.  Negligent Misrepresentation
+We note at the outset that on appeal, Pryority has not contested the trial court’s 
+determination that Pryority materially breached the Lease.  Pryority, however, does 
+contest the trial court’s determination that it was liable for making negligent 
+misrepresentations to AMT.  With regard to a claim of negligent misrepresentation, this 
+Court has previously explained:
+To succeed on a claim of negligent misrepresentation, a “plaintiff 
+must establish that ‘(1) the defendant supplied information to the plaintiff; 
+(2) the information was false; (3) the defendant did not exercise reasonable 
+care in obtaining or communicating the information; and (4) the plaintiff 
+justifiably relied on the information.’” Staggs v. Sells, 86 S.W.3d 219, 223 
+(Tenn. Ct. App. 2001) (quoting Atkins v. Kirkpatrick, 823 S.W.2d 547, 552 
+(Tenn. Ct. App. 1991)).
+Furthermore, Tennessee courts require that the 
+false information consists of statements of a material past or present fact. 
+McElroy v. Boise Cascade Corp., 632 S.W.2d 127, 130 (Tenn. Ct. App.
+1982). Consequently, the tort of negligent misrepresentation cannot be 
+based on statements of opinion or representations of future events. Id.
+Int’l Mkt. & Rest., Inc. v. Belmont Univ., No. M2010-00005-COA-R3-CV, 2010 WL 
+4514980, at *3 (Tenn. Ct. App. Nov. 9, 2010).  See Walker v. Sunrise Pontiac-GMC 
+Truck, Inc., 249 S.W.3d 301, 311 (Tenn. 2008) (listing the same elements of a negligent 
+misrepresentation claim as noted above).
+The trial court, through its March 2, 2020 order, determined that the elements of 
+negligent misrepresentation were established because Pryority had supplied false 
+information concerning the state of the roof meant to “entice AMT to continue paying 
+rent and occupy the Building.”  The court noted that the “number of repair calls should 
+have told Pryority that the information being communicated was false.”  It is unclear
+whether the “information” to which the court referred was the severity of the leaks or 
+Pryority’s ability to repair them.  In its appellate brief, AMT contends that Pryority made 
+negligent misrepresentations concerning both Pryority’s ability to quickly repair the roof 
+and the severity of the existing leaks.  
+With regard to the severity of the roof leaks, the proof is clear that the roof had 
+been leaking extensively for a number of years, as demonstrated by the testimony of 
+attorney Richard Jahn.  Mr. Jahn testified that he had served as bankruptcy trustee 
+concerning a former tenant of the Warehouse who had filed a bankruptcy action in 2014.  
+Mr. Jahn explained that he had spent time in the building in 2014 and observed 
+significant roof leaks and water intrusion during his tenure as trustee.  In support, Mr. 
+Jahn presented pictures, taken in 2014, displaying the severity of the roof leaks.  Mr. Jahn 
+further testified that he made Pryority aware of the leaks at that time.  Pryor Bacon, III, 
+one of the partners of Pryority who testified as its representative, admitted that the roof 
+had been leaking since 2014 and that numerous attempts to repair it had been made with 
+varying degrees of success.  According to the undisputed proof, the roof was still leaking 
+significantly in 2017.  
+Mr. Crick acknowledged during his testimony that he was aware the roof had been 
+leaking at the time he signed the Lease.  According to Mr. Crick, although the weather 
+was dry when he toured the Warehouse before entering into the Lease, visible evidence 
+of roof leaks was still present, such as water stains, rust, and black mold.  Mr. Crick 
+related that Pryor Bacon, Jr., the other Pryority partner and the father of Pryor Bacon, III, 
+had assured him that the roof leaks could be remedied by August 1, 2017. Mr. Crick also 
+maintained that he relied on this assurance when he entered into the Lease.  Mr. Crick 
+pointed out that he had made Pryority aware of his intended use for the Warehouse.  
+Moreover, Pryor Bacon, III, acknowledged during his testimony that Pryority was aware 
+at the time of the Lease’s execution that AMT intended to use the Warehouse as a 
+machine shop with electrical equipment.  Mr. Crick also stated that he was unaware of 
+the severity of the roof leaks at the time he executed the Lease.  The trial court found Mr. 
+Crick to be a highly credible witness.
+As this Court has previously explained concerning a negligent misrepresentation:
+The misrepresentation must consist of a statement of a material past 
+or present fact. Thus, statements of opinion or intention are not actionable. 
+Likewise, puffing or other sales talk is generally not actionable. Similarly, 
+conjecture or representations concerning future events are not actionable 
+even though they may later prove to be false. 
+McElroy v. Boise Cascade Corp., 632 S.W.2d 127, 130 (Tenn. Ct. App. 1982) (internal 
+citations omitted).  Pryority postulates that assurances made by Pryority’s representatives 
+concerning the timeliness and efficacy of future repairs, which ultimately proved to be 
+false, would not necessarily constitute negligent misrepresentations because they were 
+not statements of present fact.  
+As the trial court pointed out in its March 2020 order:
+Pryority did not disclose to AMT the severity or the persistence of 
+the leaks over the 3 years that they had owned the property.  [Pryority] was 
+well aware that the roof not only leaked, but leaked severely, and that their 
+temporary fixes from 2014 and 2015 were not working prior to entering 
+into negotiations with AMT.  Moreover, Pryority used the same patching 
+approach in an attempt to make the property tenantable; the very same 
+methods that had failed them for years.  Nevertheless, [Mr. Bacon] gave 
+[Mr. Crick] assurances that they could and would repair the leaks and make 
+the Building tenantable as a machine shop.
+In that order, the court ultimately held that “Pryority had to know when it rented the 
+Building to AMT the roof needed to be replaced.”
+However, in its final order dated May 18, 2020,3 which addressed the issues of 
+attorney’s fees and AMT’s TCPA claim, the trial court found in pertinent part:
+                                           
+3 See Winter v. Smith, 914 S.W.2d 527, 535 (Tenn. Ct. App. 1995) (“Without a Tenn. R. Civ. P. 54.02 
+certification of finality, an order adjudicating only part of the claims or defenses remains interlocutory 
+and is subject to revision by the trial court any time prior to the entry of a final judgment adjudicating all 
+[AMT was] well aware that the roof leaked and, in fact, w[as] charged less 
+money at the inception of the lease in order to allow both parties to perform 
+work in preparation for use of the premises as a machine shop. Fixing 
+leaks was a part of the early work to be performed by Pryority. It became
+clear early on that the spot fixes to the roof (as had been traditionally done 
+by Pryority in the past) were an insufficient remedy and that the premises 
+would not be habitable without the installation of a new roof. The Court 
+finds that the owner was unaware of the absolute need for a new roof at the 
+time of the signing of the lease Agreement. It was only after the early and 
+multiple notifications by Crick that it was clear a new roof was needed. 
+Based on our review of the evidence, we agree with the trial court’s ultimate 
+findings.  It is undisputed that AMT was aware that the roof leaked when it entered into 
+the Lease.  Although Pryority clearly had superior knowledge concerning the condition of 
+the roof and the severity of the leaks, there was a dearth of evidence demonstrating that 
+Pryority knew the roof could not be repaired at the time the Lease was signed.  As such, 
+Pryority’s promises to repair the roof, as opposed to replacing it, did not constitute 
+misrepresentations of a past or present fact.
+We note, however, that Pryority failed to disclose to Mr. Crick that the building 
+experienced significant water intrusion when it rained and that Pryority’s attempts to 
+patch the roof over a number of years had been numerous and largely unsuccessful.  
+Instead, Pryority represented that the roof was capable of repair in short order.  
+Moreover, although Pryority has attempted to rely on language contained in the body of 
+the Lease providing that the Warehouse was accepted by AMT in its “existing condition,” 
+Exhibit A to the Lease expressly provides that the Warehouse “is structurally sound for 
+the intended uses as a machine shop” and that the covenants contained in Exhibit A 
+would “supersede any previous statements in the lease.”
+As the trial court noted, it should have been obvious to Pryority at the time the 
+Lease was executed that the roof could not be quickly repaired so as to render the 
+Warehouse tenantable, especially for the use intended by AMT.  Based on these facts, the 
+trial court properly determined that Pryority engaged in negligent misrepresentation 
+concerning the state of the Warehouse’s roof at the time the Lease was executed.  
+Pryority maintained superior knowledge of the roof’s condition and the numerous failed 
+repair attempts through the years, which constituted past and present facts.  Mr. Crick 
+relied on Pryority’s misrepresentation to his detriment by moving forward with the Lease 
+and AMT’s expenditure of funds toward renting and renovating the Warehouse with the 
+intent of operating its machine shop therein.
+                                                                                                                                            
+the claims raised.”).
+Pryority contends that Mr. Crick’s reliance was unreasonable and that he should 
+have had the Warehouse’s roof independently inspected to determine the severity of the 
+leaks.  This contention sounds in principles of comparative fault, a defense generally 
+applicable to claims of negligent misrepresentation.  See Staggs v. Sells, 86 S.W.3d 219, 
+224 (Tenn. Ct. App. 2001).  However, because Pryority did not plead the defense of 
+comparative fault in response to AMT’s answer and counter-complaint, the defense was 
+not considered by the trial court and cannot be considered by this Court.  See Tenn. R. 
+Civ. P. 8.03 (“In pleading to a preceding pleading, a party shall set forth affirmatively 
+facts in short and plain terms relied upon to constitute . . . comparative fault.”); see also 
+Barnes v. Barnes, 193 S.W.3d 495, 501 (Tenn. 2006) (“Issues not raised in the trial court 
+cannot be raised for the first time on appeal.”).  We accordingly affirm the trial court’s 
+determination that Pryority was liable for its negligent misrepresentation.
+V.  Award of Damages
+In its brief on appeal, Pryority states that although it disagrees with the trial court’s 
+imposition of liability based on constructive eviction and breach of contract, it has chosen 
+to focus solely on the trial court’s damage award.  Pryority accordingly posits that the 
+trial court erred by awarding to AMT a refund of its rent payments made during the time 
+period when it occupied the Warehouse.  Pryority argues that the proper remedy for
+constructive eviction is relief from the obligation to pay rent following the tenant’s 
+abandonment of the leased property.  See, e.g., Morrison v. Smith, 757 S.W.2d 678, 682 
+(Tenn. Ct. App. 1988) (explaining that damages for constructive eviction accrue only 
+after abandonment).  AMT maintains that the damages awarded were proper based on 
+Pryority’s breach of the Lease.  We agree with AMT.
+The trial court determined that Pryority materially breached the provisions of the
+Lease, and Pryority has not disputed this determination on appeal.  As this Court has 
+previously explained concerning breach of a lease agreement:
+It is well settled that the measure and elements of damages upon the 
+breach of a lease is governed by the general principles which determine the 
+measure of damages on claims arising from breaches of other kinds of 
+contracts. The general rule of contracts, to the effect that the plaintiff may 
+recover damages only to the extent of its injury, applies to leases. Damages 
+for breach of a lease should, as a general rule, reflect a compensation 
+reasonably determined to place the injured party in the same position as he 
+would have been in had the breach not occurred and the contract been fully 
+performed, taking into account, however, the duty to mitigate damages. In 
+addition, damages resulting from a breach of a lease must have been within 
+a contemplation of the parties; must have been proximately caused by the 
+breach; and must be ascertainable with reasonable certainty without resort 
+to speculation in conjecture. See 49 Am. Jur. 2d Landlord & Tenant § 96 
+(2003).
+A tenant harmed by a landlord’s breach of a commercial lease is 
+entitled to recover all damages it has sustained as a proximate result, so 
+long as such damages are reasonably shown and are capable of reasonably 
+accurate measure. Ferrell v. Elrod, 469 S.W.2d 678, 689 (Tenn. Ct. App.  
+1971). These damages may include one or more of the following items as 
+may be appropriate so long as no double recovery is involved:
+(1) 
+[I]f the tenant is entitled to terminate the lease and 
+does so, the fair market value of the lease on the date 
+he terminates the lease; 
+(2) 
+the loss sustained by the tenant due to reasonable 
+expenditures made by the tenant before the landlord’s 
+default which the landlord at the time the lease was 
+made could reasonably have foreseen would be made 
+by tenant;
+(3) 
+if the tenant is entitled to terminate the lease and does 
+so, reasonable relocation costs;
+* * *
+(5) 
+if the use of the leased property contemplated by the 
+parties is for business purposes, loss of anticipated 
+business profits proven to a reasonable degree of 
+certainty, which resulted from the landlord’s default, 
+and which the landlord at the time the lease was made 
+could reasonably have foreseen would be cause[d] by 
+the default;
+(6) 
+if the tenant eliminates the default, the reasonable costs 
+incurred by the tenant in eliminating the default; and
+(7)
+interest on the amount recovered at the legal rate for 
+the period appropriate under the circumstances.
+Restatement (Second) of Property: Landlord & Tenant § 10.2 (1977).
+Hardison Law Firm, P.C. v. Howell, No. W2002-01945-COA-R3-CV, 2003 WL 
+22718427, at *17-18 (Tenn. Ct. App. Nov. 17, 2003) (emphasis added).
+In the case at bar, Mr. Crick testified that AMT desired to move its machine shop
+into a larger facility because its business was growing and that AMT anticipated 
+purchasing additional machinery in order to increase production and accommodate 
+demand.  AMT was also expanding the scope of its business to include the production of 
+hydroelectric components, which required the purchase of different and larger machines.  
+As Mr. Crick explained, AMT employed computerized, numerically controlled (“CNC”) 
+machines in its operations, the value of which ranged from $100,000.00 to $500,000.00
+each.  According to Mr. Crick, the CNC machines each weighed between ten and twenty 
+tons and were extremely difficult to move.  Once in place, operational CNC machines 
+would have required AMT to install a specialized electrical system in the Warehouse at a 
+cost of approximately $75,000.00.  In addition, AMT would have been required to 
+employ trained equipment movers to transport, level, and recalibrate the CNC machines 
+when they were relocated to the Warehouse at a combined cost of approximately 
+$100,000.00.
+Mr. Crick testified that he spoke to both Pryor Bacon, Jr., and Pryor Bacon, III, 
+concerning AMT’s intended use for the Warehouse before the Lease was signed.  
+Following execution of the lease, Mr. Crick became aware of a major roof leak directly 
+above the Warehouse’s main electrical panel in addition to numerous other leaks.  Each 
+time it rained, water would pour onto the panel, tripping the breaker.  According to Mr. 
+Crick, this leak was never fixed during AMT’s tenancy.  
+Mr. Crick further related that AMT had completed all of its repairs required under 
+the Lease by the end of July.  At that time, he sent an email to Pryor Bacon, Jr., stating 
+that he believed the roof would need to be replaced because Pryority’s repair attempts 
+had been unsuccessful.  Mr. Crick explained that Mr. Bacon had mentioned that roof 
+replacement might involve removing the existing roof, which would render the interior of 
+the Warehouse completely exposed to the elements.  For this reason, Mr. Crick decided 
+to delay moving additional equipment into the Warehouse while asking Pryority for a 
+definite timeframe within which the roof would be fixed.  Mr. Crick had multiple 
+conversations with Pryor Bacon, Jr., about the roof and the need for a dry building before 
+AMT could proceed with setting up operations in the Warehouse.  According to Mr. 
+Crick, relocating and installing the CNC machines was a lengthy process, such that it 
+would require approximately four months to become operational from the date AMT 
+began to move its machinery.
+Mr. Crick explained that although he repeatedly asked Pryority to provide a plan 
+for rendering the Warehouse tenantable, he was never provided a definite date by which 
+the building would be dry.  Meanwhile, the Warehouse roof leaks continued to worsen 
+with new leaks developing as time passed.  Mr. Crick related that his last correspondence 
+from Pryor Bacon, III, indicated that Pryority would need to refinance the Warehouse 
+indebtedness in order to pay for a new roof, which process could be completed within a 
+“few months.”  Mr. Crick believed that AMT could not safely operate the CNC machines 
+in a wet environment without causing damage to the machines or injury to employees.  
+For this reason, Mr. Crick made the decision in November 2017 to vacate the building 
+and cease paying rent.  Mr. Crick explained that due to AMT’s inability to occupy the 
+Warehouse for production purposes, AMT was forced to abandon bidding on several 
+large contracts worth millions of dollars in revenue for AMT.
+Mr. Crick testified that AMT ultimately expended $193,006.35 in rent, moving 
+expenses, renovation expenses, and other costs related to AMT’s failed attempt to 
+relocate to the Warehouse.  Mr. Crick did not seek damages for lost revenue or profits.  
+The trial court awarded AMT the full amount of damages sought.
+Based on our thorough review of the evidence, we determine that the trial court’s 
+award of damages to AMT was proper.  Although AMT paid rent to occupy the 
+Warehouse and was able to take possession thereof, the Warehouse was never made 
+tenantable by Pryority.  The Lease specifically provided that Pryority was obligated to 
+keep the roof in “good repair,” and Pryor Bacon, III, acknowledged during his testimony 
+that this obligation would have included providing a roof that would have kept water out 
+of the building.  Despite the Lease requirements, the proof demonstrated that the roof 
+leaked severely during AMT’s entire tenancy such that AMT was never able to utilize the 
+building for its intended purpose as a machine shop.  As such, Pryority breached its 
+obligation under the Lease to keep the Warehouse’s roof in good repair.  AMT was 
+entitled to damages proximately caused by that breach, and the damages it claimed were 
+“reasonably shown and [] capable of reasonably accurate measure.”  See Hardison Law 
+Firm, 2003 WL 22718427, at *17.
+AMT expended large sums of money renovating a building that it was ultimately 
+forced to abandon.  AMT also paid rent and other expenses for the Warehouse that it was 
+unable to fully occupy for its intended purpose.  In addition, AMT’s inability to fully 
+occupy the Warehouse meant that AMT was constrained to continue utilizing its 
+previously existing business location for production because it was never able to remove 
+all of its equipment from that location.  Furthermore, AMT was unable to commence 
+production in the larger Warehouse building and was hindered from obtaining various 
+contracts because it could not set up its machine shop in the larger facility.  
+We determine that AMT’s damages claimed were “within a contemplation of the 
+parties,” “proximately caused by the breach,” and “ascertainable with reasonable 
+certainty without resort to speculation.”  See Hardison Law Firm, 2003 WL 22718427, at 
+*17.  We further determine that the only way the trial court could “place [AMT] in the 
+same position as [it] would have been in had the breach not occurred and the contract 
+been fully performed,” see id., would be to award AMT the rent and other expenses it 
+incurred in attempting to move its business to a building that was never made tenantable 
+by the landlord. We therefore affirm the trial court’s award of damages to AMT.
+VI.  Award of Attorney’s Fees
+Finally, Pryority asserts that the Lease does not provide for AMT to receive an 
+award of attorney’s fees because the Lease provision at issue (1) does not expressly apply 
+to attorney’s fees and (2) does not apply except when a party is seeking to “enforce” the 
+terms of the Lease.
+Section twenty-eight of the Lease contains the heading, “Legal Fees 
+and Expenses,” and provides as follows:
+If it shall be necessary for either part[y] hereto to hire and/or obtain 
+Legal counsel, pursue any remedy, or incur any other expense in order to 
+force the other to comply with and/or perform any of the provisions, 
+conditions, and covenants of this Lease, then the prevailing party shall be 
+reimbursed by the other for the entire reasonable customary cost thereof 
+such obligation being deemed to have accrued from the date of the 
+commencement of any action and to be enforceable whether or not the 
+action is prosecuted to judgment.  
+In asserting that this provision does not require an award of attorney’s fees to the 
+prevailing party, Pryority urges that the heading should be disregarded and that the 
+contract provision must specifically and expressly state that attorney’s fees will be 
+awarded, citing Cracker Barrel Old Country Store, Inc. v. Epperson, 284 S.W.3d 303, 
+309 (Tenn. 2009).  Because the Lease is a contract, we will apply customary rules of 
+contract construction to determine the meaning of this provision.
+Concerning proper interpretation of a contract such as the Lease herein, our 
+Supreme Court has previously explained:
+In “resolving disputes concerning contract interpretation, our task is to 
+ascertain the intention of the parties based upon the usual, natural, and 
+ordinary meaning of the contractual language.” Guiliano v. Cleo, Inc., 995 
+S.W.2d 88, 95 (Tenn. 1999). This determination of the intention of the 
+parties is generally treated as a question of law because the words of the 
+contract are definite and undisputed, and in deciding the legal effect of the 
+words, there is no genuine factual issue left for a jury to decide. 5 Joseph 
+M. Perillo, Corbin on Contracts, § 24.30 (rev. ed. 1998); Doe v. HCA 
+Health Services of Tenn., Inc., 46 S.W.3d 191, 196 (Tenn. 2001).
+A court’s initial task in construing a contract is to determine whether 
+the language of the contract is ambiguous. Once found to be ambiguous, a 
+court applies established rules of construction to determine the parties’
+intent. “Only if ambiguity remains after the court applies the pertinent 
+rules of construction does [the legal meaning of the contract] become a 
+question of fact” appropriate for a jury. Smith v. Seaboard Coast Line R.R. 
+Co., 639 F.2d 1235, 1239 (5th Cir. 1981). . . .
+The central tenet of contract construction is that the intent of the 
+contracting parties at the time of executing the agreement should govern. 
+Empress Health & Beauty Spa, Inc. v. Turner, 503 S.W.2d 188, 190 (Tenn.
+1973).
+The intent of the parties is presumed to be that specifically 
+expressed in the body of the contract. “In other words, the object to be 
+attained in construing a contract is to ascertain the meaning and intent of 
+the parties as expressed in the language used and to give effect to such 
+intent if it does not conflict with any rule of law, good morals, or public 
+policy.” 17 Am. Jur. 2d, Contracts, § 245, quoted in Turner, 503 S.W.2d at 
+190. If clear and unambiguous, the literal meaning of the language controls 
+the outcome of contract disputes.
+Nonetheless, a contractual provision may be susceptible to more 
+than one reasonable interpretation, which renders the terms of the contract 
+ambiguous. Memphis Housing Auth. v. Thompson, 38 S.W.3d 504, 512 
+(Tenn. 2001), cert. denied, 534 U.S. 823, 122 S. Ct. 59, 151 L. Ed. 2d 27 
+(2001). “A contract is ambiguous only when it is of uncertain meaning and 
+may fairly be understood in more ways than one.” Turner, 503 S.W.2d at 
+190-91. Where the terms of the contract are ambiguous, the intention of the 
+parties cannot be determined by a literal interpretation of the language, and 
+the courts must resort to other rules of construction.
+Planters Gin Co. v. Fed. Compress & Warehouse Co., 78 S.W.3d 885, 889-90 (Tenn. 
+2002).
+Our Supreme Court has further explained: “An ambiguous provision in a contract 
+generally will be construed against the party drafting it.”  Allstate Ins. Co. v. Watson, 195 
+S.W.3d 609, 612 (Tenn. 2006).  Moreover, “when a contractual provision is ambiguous, a 
+court is permitted to use parol evidence, including the contracting parties’ conduct and 
+statements regarding the disputed provision, to guide the court in construing and 
+enforcing the contract.”  Id.
+On appeal, Pryority postulates that the contractual provision quoted above simply 
+allows for the “costs” of litigation, rather than attorney’s fees, to be awarded to a 
+prevailing party.  Conversely, AMT asserts that the provision’s language concerning the 
+“reimbursement” of the “entire reasonable customary cost” clearly refers to, inter alia, 
+“hir[ing] and/or obtain[ing] Legal counsel.”  Because the language in dispute is capable 
+of more than one reasonable interpretation, we determine that the language is ambiguous 
+such that we may properly consider parol evidence when interpreting it.4  See Planter’s 
+Gin Co., 78 S.W.3d at 889-90; Allstate, 195 S.W.3d at 612.
+In its original complaint, Pryority claimed that it was entitled to recover its 
+attorney’s fees and expenses from AMT pursuant to the Lease.  Pryority repeated this 
+claim in its motion for summary judgment and through its proposed findings of fact and 
+conclusions of law.  Therefore, Pryority’s conduct concerning the disputed provision
+supports AMT’s interpretation of the provision.  See Allstate, 195 S.W.3d at 612.  
+Moreover, we note that the provision should be construed against Pryority as drafter of 
+the Lease.  See id.
+Concerning Pryority’s argument based specifically on the Supreme Court’s ruling 
+in Cracker Barrel, 284 S.W.3d at 309, we note that the language utilized in the above-
+referenced Lease provision is more specific than that incorporated in the Cracker Barrel
+contract.  In this case, the Lease provides for reimbursement of “reasonable customary 
+cost[s]” when a party finds it necessary to “hire and/or obtain Legal counsel, pursue any 
+remedy, or incur any other expense in order to force the other to comply with and/or 
+perform any of the provisions, conditions, and covenants of this Lease.”  By contrast, in 
+Cracker Barrel, the contract simply provided that upon a violation of the contract, a party 
+could seek legal and equitable remedies and “[a]ll costs and expenses of any suit or 
+proceeding shall be assessed against the defaulting party.”  Id. at 307.  The Supreme 
+Court determined that this language was insufficient to allow for an award of attorney’s 
+fees, explaining that the terms, “costs” and “expenses,” without more, would not typically 
+encompass an award of attorney’s fees.  Id. at 309.
+The Supreme Court further elucidated that “if the parties intend to create 
+contractually a right to recover attorney fees, the contractual language must specifically 
+and expressly articulate this intent and not merely provide for recovery of ‘costs and 
+expenses.’”  Id. at 310-11.  As previously explained, in this matter the Lease provides in 
+pertinent part:  
+If it shall be necessary for either part[y] hereto to hire and/or obtain 
+Legal counsel, pursue any remedy, or incur any other expense in order to 
+force the other to comply with and/or perform any of the provisions, 
+conditions, and covenants of this Lease, then the prevailing party shall be 
+reimbursed by the other for the entire reasonable customary cost thereof . . . 
+.
+                                           
+4 Although the trial court did not explicitly find the provision at issue to be ambiguous, it did consider 
+Pryority’s conduct in relying on this provision to seek an award of attorney’s fees if it was determined to 
+be the prevailing party in the litigation.  
+Reviewing this provision in its entirety, we conclude that the reference to hiring 
+counsel “or incur[ring] any other expense,” in combination with the language providing 
+for reimbursement of “reasonable customary cost[s]” related thereto, demonstrates that 
+such costs would include attorney’s fees.  See, e.g., Raines Bros., Inc. v. Chitwood, No. 
+E2013-02232-COA-R3-CV, 2014 WL 3029274, at *12 (Tenn. Ct. App. July 3, 2014)
+(determining that attorney’s fees could be awarded when the parties’ agreement provided 
+“that if a dispute between the parties results in litigation, the prevailing party is entitled to 
+recover ‘reasonable costs, expenses, and fees incurred.’”).  When coupled with Pryority’s 
+conduct of repeatedly seeking attorney’s fees in this litigation pursuant to the same 
+provision it now challenges, we determine that the parties intended for the provision at 
+issue to include recovery of reasonable attorney’s fees.
+As further support for this interpretation, we note that the provision’s heading, 
+“Legal Fees and Expenses,” also suggests that attorney’s fees should be included therein
+(emphasis added).  Pryority argues that the heading should not be considered when 
+analyzing the contract’s provisions.  We note, however, that this Court has previously 
+considered headings or titles within contracts in its analysis of contract language when 
+the contract did not specifically exclude such headings as part of the contract.  See 
+Advanced Banking Servs., Inc. v. Zones, Inc., No. E2017-02095-COA-R3-CV, 2018 WL 
+4775642, at *5 (Tenn. Ct. App. Oct. 3, 2018) (“We are not persuaded by [the 
+defendant’s] argument that the sentence contained in this section should be read without 
+consideration of the section title or the paragraph headings that give context to its 
+meaning.”); Nyrstar Tenn. Mines-Strawberry Plains, LLC v. Claiborne Hauling, LLC, 
+No. E2017-00155-COA-R3-CV, 2017 WL 5901017, at *3 (Tenn. Ct. App. Nov. 29, 
+2017) (noting that “the title of the provision at issue provide[d] further support” for the 
+Court’s analysis of the contract language).
+Pryority further argues that the trial court erred by allowing AMT to recover its 
+attorney’s fees when AMT had not taken action to “to force [Pryority] to comply with 
+and/or perform any of the provisions, conditions, and covenants of this Lease,” as stated 
+in the Lease’s fee-shifting provision.  Instead, as Pryority contends, AMT was primarily 
+defending against Pryority’s action seeking payment of rent owed pursuant to the Lease, 
+although AMT did file a counterclaim seeking damages for, inter alia, breach of the 
+Lease.  A similar argument was rejected by this Court in Parker v. Brunswick Forest 
+Homeowners Ass’n, Inc., No. W2018-01760-COA-R3-CV, 2019 WL 2482351, at *8 
+(Tenn. Ct. App. June 13, 2019), perm. app. denied (Tenn. Sept. 18, 2019).
+In Parker, a homeowner sued his homeowner’s association, which had placed a 
+lien on title to the homeowner’s real property due to unpaid assessments.  See id.  In 
+response, the association not only defended against the homeowner’s action but also filed 
+a counterclaim for breach of contract based on the unpaid assessments.  Id.  The 
+association prevailed on its breach of contract claim while the homeowner’s claims were 
+dismissed.  Id.
+The association in Parker sought an award of attorney’s fees based on a provision 
+contained in the neighborhood’s restrictive covenants, which stated in pertinent part:
+The Association may bring an action at law against the Member personally 
+obligated to pay [an assessment], or foreclose the lien against the Lot or 
+Lots subject to prior mortgages or Deeds of Trust upon the Lot or Lots, 
+then belonging to said Member; in either of which events, the Association 
+may collect from the said Member interest, costs and reasonable attorneys’
+fees.
+Parker, 2019 WL 2482351, at *6.  The homeowner argued that the association could only 
+recover those fees incurred in enforcing the assessment/lien and could not recover its fees 
+incurred in defending against the homeowner’s action based on the language quoted 
+above.  See id.  
+Following its analysis of applicable case law, the Parker Court determined:
+[I]n the absence of an express provision authorizing attorney’s fees for the 
+defense of an action, the defendant cannot recover attorney’s fees where the 
+defendant: (1) did not assert a claim for affirmative relief, such as a breach 
+of contract action, against the plaintiff; (2) did not prevail in showing that 
+the plaintiff breached some duty to the defendant; and (3) sought attorney’s 
+fees related to a wholly separate action unrelated to the present enforcement 
+proceeding. 
+2019 WL 2482351, at *8.  In Parker, the association had asserted a claim for affirmative 
+relief, had prevailed in showing that the homeowner had breached a duty to the 
+association, and had sought fees related to the enforcement proceeding.  See id. at 11.  
+The Parker Court concluded that “all actions taken in this particular case, including the 
+action of defending against Homeowner’s complaint, fall within the ambit of the 
+[restriction’s] attorney’s fee provision,” explaining:
+[I]t was necessary for the Association to respond to Homeowner’s claim in 
+order to obtain relief on its counterclaim to collect on the assessments; 
+stated differently, had Homeowner succeeded in showing that the 
+assessments were in some way invalid, the Association would likely not 
+have prevailed on its claim to collect the unpaid assessments. The same is 
+true regardless of which party actually filed suit first. To hold otherwise 
+would be to exalt form over function and reward parties for winning the 
+race to the courthouse in violation of Tennessee’s long-settled public 
+policy.
+Id.  The Parker Court accordingly ruled that the trial court properly awarded the 
+association its fees incurred in both defending the homeowner’s action and enforcing the 
+restrictions.  See id.
+Similarly, here, Pryority filed its action seeking to enforce the terms of the Lease, 
+and AMT counterclaimed with, inter alia, a breach of contract action.  The trial court 
+determined that Pryority had materially breached the Lease, a ruling that Pryority has not 
+appealed.  As such, AMT asserted a claim for affirmative relief and prevailed in showing 
+that Pryority had breached its duties to AMT while the fees sought were related to the 
+litigation concerning the Lease’s terms.  See, e.g., Parker, 2019 WL 2482351, at *11.  
+We therefore affirm the trial court’s decision to award attorney’s fees to AMT in this 
+action concerning both its breach of contract claim and its defense against Pryority’s 
+claims.5
+VII.  Conclusion
+For the foregoing reasons, we affirm the judgment of the trial court in its entirety.  
+We remand this matter to the trial court for enforcement of the judgment and collection 
+of costs assessed below.  Costs on appeal are taxed to the appellant, Pryority Partnership.
+____________________________________
+THOMAS R. FRIERSON, II, JUDGE
+                                           
+5 In the argument section of AMT’s initial brief, AMT argues that it is also entitled to an award of 
+attorney’s fees on appeal.  However, inasmuch as AMT failed to raise this as an issue in its statement of 
+issues, we determine any issue concerning attorney’s fees on appeal to be waived.  See Gibson v. Bikas, 
+556 S.W.3d 796, 810 (Tenn. Ct. App. 2018) (explaining that a party’s request for attorney’s fees on 
+appeal would not be considered because it had not been raised as an issue in the statement of the issues);
+(Ethridge v. Estate of Ethridge, 427 S.W.3d 389, 395 (Tenn. Ct. App. 2013) (“Issues not raised in the 
+statement of the issues may be considered waived.”).

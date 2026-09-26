@@ -1,0 +1,524 @@
+SECOND DIVISION
+MILLER, P. J.,
+HODGES and PIPKIN, JJ.
+NOTICE: Motions for reconsideration must be
+physically received in our clerk’s office within ten
+days of the date of decision to be deemed timely filed.
+https://www.gaappeals.us/rules
+DEADLINES ARE NO LONGER TOLLED IN THIS
+COURT.  ALL FILINGS MUST BE SUBMITTED WITHIN
+THE TIMES SET BY OUR COURT RULES.
+November 1, 2021
+In the Court of Appeals of Georgia
+A21A0677. 
+GEORGIA 
+CVS 
+PHARMACY, 
+LLC 
+v.
+CARMICHAEL.
+MILLER, Presiding Judge.
+One evening in December 2012, James Carmichael was shot multiple times by
+an unknown assailant in an Atlanta CVS parking lot, leaving him with multiple severe
+long-term injuries. Carmichael brought this premises liability case against CVS,
+arguing that CVS failed to take adequate security measures to protect the property.
+A Fulton County jury found in favor of Carmichael and returned an adjusted verdict
+of $42,750,000 against CVS. CVS appeals from the jury’s verdict and the denial of
+its motion for new trial, arguing that (1) there was insufficient evidence to show that
+CVS caused Carmichael’s injury or that CVS had superior knowledge of the danger;
+(2) the trial court erred in failing to charge the jury on a “personal malice” defense;
+
+(3) the jury rendered a void verdict when it apportioned 0% of the fault to the
+unknown assailant; and (4) Carmichael was actually a licensee, not an invitee, and so
+CVS owed him a lesser standard of care. 
+We affirm the jury’s verdict because (1) a reasonable jury could conclude from
+the evidence at trial that the robbery was reasonably foreseeable to CVS; that
+Carmichael did not have superior knowledge of the danger; and that increased
+lighting or a security guard presence could have deterred the attack; (2) CVS’s
+proposed jury instruction was substantially covered by the trial court’s other
+instructions; (3) the jury properly declined to apportion fault to the two non-parties
+on the verdict form; and (4) CVS waived review of its licensee argument by failing
+to present it below.
+In reviewing a verdict after the denial of a motion for new trial, we
+follow well-established principles. Where a jury returns a verdict and it
+has the approval of the trial judge, the same must be affirmed on appeal
+if there is any evidence to support it as the jurors are the sole and
+exclusive judges of the weight and credit given the evidence. The
+appellate court must construe the evidence with every inference and
+presumption in favor of upholding the verdict, and after judgment, the
+evidence must be construed to uphold the verdict even where the
+evidence is in conflict. As long as there is some evidence to support the
+verdict, the denial of the motion for new trial will not be disturbed.
+
+(Citation omitted.) Golden Isles Cruise Lines, Inc. v. Lowie, 350 Ga. App. 1, 1-2 (827
+SE2d 703) (2019).
+The record adduced at trial shows that on December 20, 2012, at around
+6:40pm, Carmichael was driving through Atlanta on his way home to Alabama when
+he decided to stop at a CVS on Moreland Avenue for some toiletries. While there,
+Carmichael called an acquaintance, Frankie Gray, and asked Gray to meet him at the
+CVS to complete a previously discussed sale of an iPad. Carmichael thought the CVS
+store “was a safe place to meet Mr. Gray” because “CVS is a national chain.”
+Carmichael parked by the front door of the CVS store to meet with Gray. 
+After Carmichael met with Gray and Gray left, an unknown man jumped into
+Carmichael’s car, put a “big” gun to Carmichael’s head, threatened to kill him, and
+said, “Give me your money.” Carmichael “took everything out” and pleaded for his
+life. Carmichael then grabbed his own pistol and attempted to shoot, but the gun
+jammed. The perpetrator then fired several rounds into Carmichael’s stomach, back,
+and shoulder. After the perpetrator fled, Carmichael ran into the store for help before
+collapsing. Carmichael was comatose for about a month afterward, and he has since
+undergone multiple surgeries and continues to suffer from permanent nerve damage,
+
+hearing loss, speech deficiencies, and chronic pain. Carmichael also incurred medical
+bills in the amount of $725,800. 
+Carmichael filed this premises liability action against CVS, arguing that CVS
+failed to take adequate security measures to protect the property, such as by having
+security guards present or having improved lighting in its parking lot.1 
+At trial, many current and former Moreland Avenue CVS store employees
+testified as to the store’s conditions. Numerous employees testified that the store was
+located in a high-crime area. CVS’s employees and managers considered the parking
+lot at the Moreland Avenue store unsafe, to the point that male employees regularly
+walked female employees to their cars. The employees would also park close to the
+building because of the spotty lighting in the parking lot. Two employees respectively
+rated the safety problems at the store as an “8” and “9” out of ten. Three employees
+testified that they were “not surprised” that Carmichael was shot on the premises. 
+Ceilia Wilson, a supervisor with CVS, testified that the store previously had
+security guards that provided a “good deterrent” and made her feel safer, but they
+were removed in 2010. The store’s employees repeatedly requested security guards
+1Carmichael also initially sued various companies that owned the land, as well
+as two fictitious CVS employees, but these other defendants were apparently
+dismissed before trial. CVS was the only named defendant at trial. 
+
+from CVS after that point, but their requests were all denied. The witnesses at trial
+testified that, after security was removed, at least three violent crimes occurred at the
+Moreland Avenue store. Patricia Ham, a former cashier at the store, testified that, in
+February 2011, a robber approached her at the register, showed her what she
+“believe[d] to be a handgun,” threatened to kill her, and demanded money. Cierra
+Langford, a CVS customer, testified that, in June 2012, a robber approached her in
+the parking lot after she left the store. The robber followed her to her car, which was
+“parked right in front,” and “hit [her] in [the] head and took [her] purse.” Holly
+White, a CVS shift manager, testified that, in November 2012, a robber approached
+her in the store and demanded at gunpoint that she open the cash registers. Following
+these crimes, Langford filed an incident report with CVS, and Ham and White both
+requested security from CVS based on their respective incidents. 
+Carmichael’s expert witness testified that “there’s an overwhelming body of
+research which confirm[ed] that [armed security] has a high deterrent effect.” In the
+expert witness’s opinion, if CVS had a security guard present, “the robbery more
+likely would have been prevented.” The expert witness also reviewed the lighting at
+the Moreland Avenue store’s parking lot and testified that, in his opinion, it was
+spotty and inconsistent, and a uniform lighting would “facilitate better visibility in the
+
+area to deter loitering, trespassing, [and] any of those undesirable activities.” The
+investigating officer also testified that he found “armed security effective” and that
+“in [his] experience . . . people don’t rob and shoot people while an officer is sitting
+there.” Finally, CVS’s corporate representative, Andrew Edwards, also testified in his
+deposition (which was read to the jury) that security guards were an effective
+deterrent, that “CVS wouldn’t hire security guards if they didn’t believe they were
+effective,” and that “sufficient lighting” could “be a deterrent to violent crime.” 
+The jury found CVS 95% at fault, Carmichael 5% at fault, and both Gray and
+the shooter 0% at fault for the incident, and it awarded Carmichael an adjusted total
+of $42,750,000 in damages (representing 95% of its total verdict of $45,000,000).
+After trial, CVS filed a motion for new trial and a motion for j.n.o.v. Following a
+hearing, the trial court denied the motions, and this appeal followed. 
+1. In three related arguments, CVS argues that the trial court erred by failing
+to direct a verdict or grant a new trial because the evidence was insufficient to support
+the element of causation and to show that it had superior knowledge of the danger
+presented by the unknown shooter. Specifically, CVS argues that (1) Carmichael
+failed to produce evidence showing that the attack was reasonably foreseeable to
+CVS; (2) the undisputed evidence showed that Carmichael had superior knowledge
+
+of the danger; and (3) Carmichael’s contention that increased lighting or a security
+guard presence would have prevented the attack was too speculative. We reject each
+of these arguments because there was sufficient evidence from which a reasonable
+jury could conclude that CVS proximately caused Carmichael’s injuries and that CVS
+had superior knowledge of the danger.
+“The standard of appellate review of a trial court’s denial of a motion for a
+directed verdict is the any evidence test. Moreover, in considering a ruling on a
+motion for directed verdict, the evidence must be construed most favorably to the
+party opposing the motion. We review any pure questions of law de novo.” (Citations
+and punctuation omitted.) Camelot Club Condominium Assoc., Inc. v. Afari-Opoku,
+340 Ga. App. 618, 620 (1) (798 SE2d 241) (2017). Additionally, 
+[t]he standard of appellate review of the denial of a motion for new trial
+on the general grounds is essentially the same as that applicable to the
+denial of a motion for directed verdict or judgment n.o.v. The appellate
+courts can only set a verdict aside, on evidentiary grounds, as being
+contrary to law in that it lacks any evidence by which it could be
+supported. 
+(Citation omitted.) Morrison v. Kicklighter, 329 Ga. App. 630, 631-632 (1) (765
+SE2d 774) (2014).
+
+[W]here an owner or occupier of land, by express or implied invitation,
+induces or leads others to come upon his premises for any lawful
+purpose, he is liable in damages to such persons for injuries caused by
+his failure to exercise ordinary care in keeping the premises and
+approaches safe. Although a landowner has a duty to invitees to exercise
+ordinary care to keep its premises safe[,] the landowner is not an insurer
+of an invitee’s safety. In order to recover on a premises liability claim,
+a plaintiff must show (1) that the defendant had actual or constructive
+knowledge of the hazard; and (2) that the plaintiff lacked knowledge of
+the hazard despite the exercise of ordinary care due to actions or
+conditions within the control of the owner/occupier.
+(Citations and punctuation omitted.) Camelot Club, supra, 340 Ga. App. at 620 (1)
+(a). We also must keep in mind that “questions regarding proximate cause are
+undeniably a jury question and may only be determined by the courts in plain and
+undisputed cases.” (Citation and punctuation omitted.) Brookview Holdings v. Suarez,
+285 Ga. App. 90, 97 (2) (645 SE2d 559) (2007).
+(a) CVS’s primary contention is that the prior crimes that happened at the
+Moreland Avenue store are too dissimilar to the attack on Carmichael to support an
+inference that Carmichael’s attack was reasonably foreseeable by CVS. We conclude
+that there was ample evidence from which a reasonable jury could conclude that the
+robbery of Carmichael was reasonably foreseeable to CVS because (1) all three
+
+crimes were substantially similar to the present case so as to be probative; and (2)
+there was substantial other evidence to put CVS on notice that a robbery of a
+customer was a salient possibility.
+An intervening criminal act by a third party generally insulates a
+landowner from liability unless such criminal act was reasonably
+foreseeable. In order to be reasonably foreseeable, the criminal act must
+be substantially similar in type to the previous criminal activities
+occurring on or near the premises so that a reasonable person would take
+ordinary precautions to protect his or her customers against the risk
+posed by that type of activity. However, while the prior criminal activity
+must be substantially similar to the particular crime in question, that
+does not mean identical; rather, such activity must be sufficient to attract
+the owner’s attention to the dangerous condition which resulted in the
+litigated incident. In determining whether previous criminal acts are
+substantially similar to the occurrence causing harm[,] the court must
+inquire into the location, nature and extent of the prior criminal
+activities and their likeness, proximity or other relationship to the crime
+in question. The question of reasonable foreseeability of a criminal
+attack is generally for a jury’s determination rather than summary
+adjudication by the courts.
+(Citations and punctuation omitted.) Camelot Club, supra, 340 Ga. App. at 620-621
+(1) (a) (i).
+
+Here, as outlined above, Carmichael presented evidence of an armed robbery
+of a cashier, a robbery/”purse-snatching” of a customer in the parking lot, and another
+armed robbery of an employee, all occuring at the store within two years of the
+present incident. These robberies all involve similar circumstances to those involved
+in the present incident: two involved firearms, and at least one involved a physical
+attack on a customer in the parking lot. Additionally, “[w]hile these theft crimes
+occurred when the drivers were not near their vehicles, under the circumstances
+shown to have existed in this case, it was reasonable to anticipate that an
+unauthorized entry into a vehicle might occur when the driver was nearby and that
+personal harm to the driver would result.” Wal-Mart Stores, Inc. v. Lee, 290 Ga. App.
+541, 548 (3) (a) (659 SE2d 905) (2008). On multiple occassions, we have found
+similar crimes to these to be substantially related to other armed robberies so as to
+show the foreseeability of further criminal activity. See, e.g., Camelot Club, supra,
+340 Ga. App. at 621 (evidence of several armed robberies and aggravated assaults on
+the property was sufficient to support a jury finding that the victim’s murder during
+a robbery was foreseeable to the property owner); Wal-Mart Stores, Inc., supra, 290
+Ga. App. at 548-549 (3) (a) (multiple thefts and aggravated assaults with firearms
+were sufficiently similar to armed robbery and shooting of plaintiff); Carlock v.
+
+Kmart Corp., 227 Ga. App. 356, 359 (2) (489 SE2d 99) (1997) (an armed robbery and
+two “purse snatchings” were substantially similar to an armed robbery and shooting);
+Matt v. Days Inn of Am., Inc., 212 Ga. App. 792, 792-795 (443 SE2d 290) (1994)
+(prior robberies, including a “purse snatching” and other robberies without weapons,
+were substantially similar to a robbery with a weapon).2
+Additionally, Carmichael presented evidence that these crimes were reported
+to CVS. Carmichael also presented evidence from numerous CVS employees and
+managers that CVS knew the store was located in a high-crime area. CVS’s own
+employees, including its managers, considered the parking lot unsafe, and the store’s
+employees repeatedly requested security guards based on these and other incidents,
+but their requests were denied. From all this evidence, the jury could conclude that
+the robbery of Carmichael was reasonably foreseeable to CVS.
+(b) CVS next argues that the evidence was insufficient to support the jury’s
+verdict because the evidence conclusively showed that Carmichael had superior
+knowledge of the harm. CVS’s main contention is that Gray was involved as a
+perpetrator of the robbery, and because Carmichael had a prior relationship with
+2 Because these other crimes were substantially similar, CVS’s argument that
+the trial court erroneously admitted this evidence under Rule 404 (b) similarly fails. 
+
+Gray, Carmichael necessarily had prior knowledge of the danger that Gray potentially
+presented. CVS further argues that Carmichael “kept a loaded gun handy because he
+knew his business was risky” and failed to take care of his own safety by shooting
+first. Contrary to CVS’s argument, there was sufficient evidence from which the jury
+was entitled to find that Carmichael did not have superior knowledge of the danger.
+As an initial matter, although Carmichael is correct that CVS did not move for
+a directed verdict on this basis, “a party may contend on appeal that the evidence is
+insufficient to support a verdict even if the party failed to move for a directed verdict
+or new trial in the trial court.” Aldworth Co., Inc. v. England, 281 Ga. 197, 199 (2)
+(637 SE2d 198) (2006). Nevertheless, such a party may “obtain only a new trial on
+appeal if she prevails on a claim that the evidence was insufficient to sustain the
+verdict,” and cannot obtain a judgment as a matter of law in their favor. Id.
+Next, contrary to CVS’s contention, the evidence was disputed as to whether
+Gray was involved in the robbery. Although law enforcement arrested Gray in
+connection with the incident, the charges “fizzled out” because they did not find
+evidence that Gray and the shooter were working together. Indeed, at trial,
+Carmichael testified that Gray “was a nice guy” who “didn’t do it.” Thus, there was
+some evidence from which the jury could conclude that the attack on Carmichael was
+
+perpetrated by a total stranger and not by someone with whom he had a pre-existing
+relationship.
+Even assuming arguendo that Gray was involved in the robbery, there was no
+evidence presented at trial that Carmichael knew beforehand that Gray potentially
+presented a risk to him. We previously rejected a similar argument in Camelot Club
+Condominium Association, Inc., supra, 340 Ga. App. at 623 (1) (a) (ii), which also
+involved a shooting in a parking lot during a sales transaction. In that case, we
+concluded that the fact that the victim had a prior relationship with one of the
+assailants did not necessarily establish that he had prior knowledge of the danger. Id.
+at 623 (1) (a) (ii) n.7. We noted in that case that, “[a]lthough [the victim] had engaged
+in prior business dealings with one of the Assailants, the evidence indicated that he
+did not know the other two, and Camelot has pointed us to no evidence showing [the
+victim] was aware of or had reason to suspect that any of the three posed a threat.”
+Id. We specifically distinguished cases “in which the plaintiffs had a prior personal
+relationship with their attackers and knew of a specific threat posed by them.” Id. 
+Here, as in Camelot Club, no such evidence existed that Carmichael had any
+knowledge that Gray posed a particular or specific threat. There was no testimony or
+evidence showing that the communications between Carmichael and Gray evinced
+
+anything out of the ordinary that would have been seen as threatening. Carmichael
+testified that he had sold electronics out of his car “hundreds, if not thousands, of
+times” and “never had a problem.” As for the fact that Carmichael had a gun in his
+car, Carmichael testified that he “always carried a gun” for his own safety long before
+he started selling electronics. Further, the evidence showed that Carmichael had no
+knowledge of this particular CVS store or of its conditions. See Camelot Club
+Condominium Association, Inc., supra, 340 Ga. App. at 622 (1) (a) (ii) (plaintiff did
+not have superior knowledge when there was no evidence that the plaintiff had any
+knowledge of prior criminal activity at the location). This case is thus readily
+distinguishable from those cases where we found that a premises liability claim was
+precluded based on the plaintiff’s specific knowledge of the threat posed by the
+attacker. Compare Cook v. Micro Craft, Inc., 262 Ga. App. 434, 438-440 (1) (585
+SE2d 628) (2003) (decedent had superior knowledge of the criminal attack when the
+attacker and his violent history were previously known by the decedent and when the
+decedent had several conversations with the attacker wherein the attacker expressed
+his intention to kill the decedent); Johnson v. Holiday Food Stores, 238 Ga. App. 822,
+824 (1) (520 SE2d 502) (1999) (plaintiff had knowledge superior to that of her
+
+employer regarding an impending attack by her fiancé because she knew his
+personality and temperament as well as the extent that they had argued that day).
+Thus, the jury was presented with the evidence detailed in Division (1) (a),
+CVS was aware of the dangers presented by the state of its property, and the jury was
+presented with no evidence that Carmichael was aware of any prior criminal activity
+at CVS. The jury was therefore entitled to conclude that Carmichael did not have
+superior knowledge of any danger posed by the robbery or of any other condition that
+would have subjected him to an unreasonable risk of harm. See Camelot Club, supra,
+340 Ga. App. at 622-623 (1) (a) (ii) (jury was entitled to find that a property owner
+had superior knowledge when evidence was presented that a criminal attack on the
+property was reasonably foreseeable and when no evidence was presented that the
+victim had any knowledge of prior criminal activity on the property). Accordingly,
+CVS is not entitled to a new trial on this basis.
+(c) CVS further argues that Carmichael failed to present evidence to prove
+beyond the realm of mere speculation that additional security measures would have
+prevented the attack. We conclude that Carmichael indeed presented sufficient
+evidence from which a jury could conclude that the lack of proper lighting or security
+officers on CVS’s premises contributed to the robbery. 
+
+CVS’s employees testified that the store previously had security guards that
+provided “a good deterrent” but that they were removed in 2010 and that at least three
+crimes occurred on the property afterward. CVS’s own corporate representative also
+testified that security guards were an effective deterrent, that “CVS wouldn’t hire
+security guards if they didn’t believe they were effective,” and that “lighting” could
+“be a deterrent to violent crime.” The investigating officer also testified that he found
+“armed security effective” and that “in [his] experience . . . people don’t rob and
+shoot people while an officer is sitting there.” Carmichael’s expert witness testified
+that “there’s an overwhelming body of research which confirm[ed] that [armed
+security] has a high deterrent effect.” In the expert witness’s opinion, if CVS had a
+security guard present, “the robbery more likely would have been prevented.” The
+expert witness also reviewed the lighting at the Moreland Avenue store’s parking lot
+and testified that, in his opinion, if CVS had uniform lighting in the parking lot, it
+would have “facilitate[d] better visibility in the area to deter loitering, trespassing,
+[and] any of those undesirable activities.” 
+Carmichael thus provided evidence that showed more than speculation that a
+lack of security or proper lighting contributed to his injuries. See Brookview
+Holdings, supra, 285 Ga. App. at 94-97 (2) (holding that the victim provided
+
+sufficient evidence that the property owner’s failure to provide security guards
+proximately caused his injuries where an expert witness and the investigating officer
+testified that security guards deterred crime, and noting the “inferences arising from
+the evidence that when security was provided no tenants were attacked, but once [the
+defendant] stopped providing security two tenants were the victims of violent
+crime”). Accordingly, the trial court did not err in failing to grant a new trial or
+j.n.o.v. on the issue of causation.
+2. CVS next argues that the trial court erred by failing to instruct the jury that
+the “foreseeability of a criminal attack is negated when the plaintiff had superior
+knowledge, [such] as when an assault arises out of a pre-existing private relationship
+between the plaintiff and the attacker which was wholly unconnected with the
+premises.” This argument fails because the trial court instructed the jury on the same
+underlying principles contained in CVS’s proposed instruction.
+At trial, CVS requested that the trial court include this “pre-existing
+relationship” instruction, but when the trial court did not include the instruction, CVS
+did not object after the instructions were finalized and the trial court charged the jury.
+“In civil cases, exceptions or objections to charges must be made after the jury is
+charged and before the verdict; objections made at charging conferences before the
+
+charge is given do not preserve charging issues for appellate review.” (Citations
+omitted.) Vaughn v. Metropolitan Property & Cas. Ins. Co., 260 Ga. App. 573, 577
+(9) (580 SE2d 323) (2003). Nevertheless, despite CVS’s failure to object, we may
+review this enumeration under the substantial error doctrine. “[T]he appellate courts
+shall consider and review erroneous charges where there has been a substantial error
+in the charge which was harmful as a matter of law, regardless of whether objection
+was made hereunder or not.” OCGA § 5-5-24 (c). A jury charge constituting
+substantial error harmful as a matter of law “is one that is blatantly apparent and
+prejudicial to the extent that it raises the question of whether the losing party has, to
+some extent at least, been deprived of a fair trial because of it, or a gross injustice is
+about to result or has resulted directly attributable to the alleged errors.” (Citation
+omitted.) Smith v. Norfolk Southern Railway Co., 337 Ga. App. 604, 612 (2) (788
+SE2d 508) (2016).
+CVS is correct that its proposed jury instruction is an accurate summation of
+the law. See, e.g., Johnson, supra, 238 Ga. App. at 824 (1) (concluding that a
+plaintiff’s premises liability claim failed as a matter of law because the attack on the
+plaintiff “grew out of a specific private relationship which had no connection with the
+premises or employment whatsoever.”) (punctuation omitted). The trial court,
+
+however, properly instructed the jury that Carmichael “could not recover if he had
+equal or superior knowledge of the risk and failed to exercise ordinary care for his
+own safety,” which is one of the key elements of a premises liability claim. Our case
+law discussing “pre-existing relationships” as a bar to a premises liability claim do
+so as a specific application of this superior knowledge element to the facts in those
+cases. See, e.g., Cook, supra, at 440 (1) (“[T]he clear and undisputed evidence
+demonstrates that the decedent . . . had knowledge about the impending attack that
+was equal or superior to Micro Craft.”); Johnson, supra, 238 Ga. App. at 824 (1)
+(“Given these facts, we cannot say that appellees had any reason to anticipate a
+criminal assault or superior knowledge of a condition that subjected Johnson to an
+unreasonable risk of harm.”). CVS has pointed us to no case concluding that this
+“pre-existing relationship” principle constitutes an entirely new or separate defense
+apart from a simple failure to prove superior knowledge. 
+Because the trial court’s instructions substantially covered the legal principles
+underlying CVS’s proposed “pre-existing relationship” instruction, CVS has failed
+to show that the trial court erred, much less substantially erred, by failing to include
+its proposed instruction. See Byrne v. Fierman, 256 Ga. App. 443, 445 (2) (568 SE2d
+494) (2002) (“The trial court’s failure to give a jury charge in the exact language
+
+requested is not error where the charges actually given substantially cover the
+principles contained in the request.”) (citation omitted).
+3. CVS next argues that the jury’s verdict as to damages is void because the
+jury improperly apportioned fault by determining that the unidentified shooter was
+0% at fault for Carmichael’s injuries. It argues that such a result contravenes OCGA
+§ 51-12-33 (c)’s directive that juries “shall consider the fault of all persons or entities
+who contributed to the alleged injury or damages.” We conclude that the jury’s
+verdict was not inconsistent, ambiguous, or vague so as to be void.3
+“In a civil case, a verdict that is contradictory and repugnant is void, and no
+valid judgment can be entered thereon. A judgment entered on such a verdict will be
+set aside.” (Citation and punctuation omitted.) Anthony v. Gator Cochran Constr.,
+Inc., 288 Ga. 79 (702 SE2d 139) (2010). “[T]he trial judge has a duty not to receive
+an indefinite, imperfect, or ambiguous verdict, and where an inconsistent or void
+verdict is returned by the jury, the trial judge should refuse to receive it and require
+3 Although Carmichael argues at length that CVS has not preserved this issue
+because CVS raised it for the first time in its motion for new trial, CVS challenges the
+verdict as void. “[A] party does not waive an objection to a verdict that is void, as
+opposed to voidable, by failing to object to the verdict form or the verdict as rendered
+before the jury is released.” Benchmark Builders v. Schultz, 289 Ga. 329, 330 (1) (711
+SE2d 639) (2011). 
+
+the jury to return for further deliberations.” (Citation omitted.) Hillside Orchard
+Farms, Inc. v. Murphy, 222 Ga. App. 106, 111 (2) (473 SE2d 181) (1996).
+Of course, not merely any irregularity will render a verdict void. Indeed,
+under OCGA § 9-12-4, verdicts shall have a reasonable intendment and
+shall receive a reasonable construction. They shall not be avoided unless
+from necessity. Thus, the presumptions are in favor of the validity of
+verdicts, and if possible a construction will be given which will uphold
+them. Even if the verdict is ambiguous and susceptible of two
+constructions, one of which would uphold it and one of which would
+defeat it, that which would uphold it is to be applied. Furthermore, in
+determining the proper interpretation of a jury verdict and to remove any
+ambiguity, the trial court may question the jury prior to disbursal in
+order to clarify the jury’s intent.
+(Citation and punctuation omitted.) Anthony, supra, 288 Ga. at 80-81. 
+We conclude that the jury’s verdict in this case is not void because it is not
+indefinite, imperfect, ambiguous, or inconsistent. In its verdict, the jury clearly set out
+that it assigned 95% of the fault to CVS, 5% of the fault to Carmichael, and 0% of the
+fault to the shooter and Gray. There is nothing inherently inconsistent or vague about
+these findings that would necessarily render the verdict void. Compare Benchmark
+Builders, Inc. v. Schultz, 289 Ga. 329, 330 (1) (711 SE2d 639) (2011) (“An award of
+attorney fees but no other damages or affirmative relief under a statute that authorizes
+
+an award of attorney fees to the ‘prevailing party’ is illegal and void[.]”); Bunch v.
+Mathieson Drive Apartments, Inc., 220 Ga. App. 855, 857-859 (1) (470 SE2d 895)
+(1996) (jury verdict awarding no wrongful death expenses but awarding funeral
+expenses was inherently inconsistent and ambiguous and therefore void). The jury,
+after hearing the evidence in this case, simply found that the shooter was 0% at fault. 
+Citing to Curran v. Scharpf, 290 Ga. 780, 784 (726 SE2d 407) (2012), CVS
+argues that a jury verdict is void whenever “the jury does something it is not
+authorized to do,” and that the jury was not authorized under the apportionment
+statute (OCGA § 51-12-33 (c)) to assign 0% fault to the perpetrator of the crime, but
+we reject these contentions. First, CVS’s citation to Curran concerning the scope of
+the void verdict doctrine is to a non-precedential special concurrence by Justice
+Benham, see Curran, 290 Ga. at 784 (Benham, J., concurring specially), and we have
+found no binding precedent construing the void verdict doctrine as broadly as CVS
+desires. Second, OCGA § 51-12-33 (c) only directs, in relevant part, that “[i]n
+assessing percentages of fault, the trier of fact shall consider the fault of all persons
+or entities who contributed to the alleged injury or damages[.]” (Emphasis supplied.).
+As the trial court below concluded, the jury “considered” the fault of all who
+potentially contributed when they set out their verdict form assigning percentages of
+
+fault between CVS, Carmichael, Gray, and the shooter. The plain language of the
+statute does not itself require that the trier of fact assign some minimum percentage
+of fault to each party. Our law instead states that “[w]hether the non-party contributed
+to the alleged injury is a question of fact for a jury to decide.” Johnson Street
+Properties, LLC v. Clure, 302 Ga. 51, 58 (1) (b) (805 SE2d 60) (2017). 
+To the extent that CVS argues that the evidence at trial did not support the
+jury’s verdict assigning 0% of the fault to the shooter, we note that there was
+evidence presented showing that Carmichael attempted to shoot the robber first
+before the robber shot Carmichael. Thus, it is possible that the jury either found that
+the robber ended up shooting in self-defense and was worthy of no fault or that the
+jury instead assigned the amount of fault it would have assigned to the shooter to
+Carmichael instead. Therefore, there are at least some possible interpretations of the
+jury’s verdict that are consistent with the evidence such that the jury’s verdict was
+entirely proper. See Lucas v. Charles Schwab & Co., 354 Ga. App. 522, 525 (2) (841
+SE2d 150) (2020) (jury verdict was not void when the verdict could reasonably be
+constructed in a way that upheld it); Golden Isles Cruise Lines, Inc., supra, 350 Ga.
+App. at 9-10 (2) (sufficient evidence supported the jury’s verdict assigning 0% of the
+fault to the plaintiff and 100% of the fault to the defendant). 
+
+But even if we assumed that there was insufficient evidence to support the
+jury’s apportionment of the fault, we are compelled to conclude that any such error
+would be harmless4 under the Supreme Court of Georgia’s recent decision in Alston
+& Bird, LLP v. Hatcher Mgmt. Holdings, LLC, ___ Ga. ___ (Case No. S20G1419)
+(Aug. 10, 2021). In Alston & Bird, LLP, the Court analyzed the interplay between the
+statutory text of OCGA §§ 51-12-33 (a), (b), and (c) concerning when a jury is
+entitled to apportion fault to non-parties. The Court concluded that, under the plain
+text of the apportionment statute, a trial court is only entitled to apportion damages
+to non-parties under OCGA § 51-12-33 (b) when there are multiple named defendants
+in the case. Id. at ___ (2). Otherwise, when only one named defendant is present in
+the case, OCGA § 51-12-33 (a) controls and provides that damages may only be
+reduced or apportioned based on the amount of fault assigned to the plaintiff. Id. at
+___ (2). The Court therefore concluded that “[t]here is no grant of authority in the
+4 “No error in either the admission or the exclusion of evidence and no error or
+defect in any ruling or order or in anything done or omitted by the court or by any of
+the parties is ground for granting a new trial or for setting aside a verdict or for
+vacating, modifying, or otherwise disturbing a judgment or order, unless refusal to
+take such action appears to the court inconsistent with substantial justice. The court
+at every stage of the proceeding must disregard any error or defect in the proceeding
+which does not affect the substantial rights of the parties.” OCGA § 9-11-61.
+
+apportionment statute to reduce damages according to the percentage of fault
+allocated to a nonparty in a case with only one named defendant.” Id. at ___ (2). 
+In this case, just as in Alston & Bird, LLP, CVS was the only named defendant
+in the case by the time the case proceeded to trial. See Schriever v. Maddox, 259 Ga.
+558, 561 (2) (c) (578 SE2d 210) (2003) (“[S]ince the company doctor was no longer
+a party to the action,” the case was no longer “an action [] brought against more than
+one person” for apportionment purposes) (construing a former version of OCGA
+§ 51-12-33). Thus, regardless of how much fault the jury assigned to the non-party
+shooter, the amount of damages awarded against CVS would not change because
+OCGA § 51-12-33 (b) does not allow the amount of damages to be reduced based on
+non-party fault in these circumstances. Thus, any alleged failure by the jury in
+declining to assign fault to the non-party shooter based on this evidence was
+ultimately harmless.
+To be sure, the jury’s decision to apportion no fault to the shooter may well be
+considered unusual. For the reasons stated above, however, we cannot find any
+reversible error based on the jury’s apportionment of fault.5
+5 CVS relatedly argues that Carmichael made an improper closing argument
+when he argued that the jury should apportion 0% fault to the shooter. However, CVS
+did not object to Carmichael’s closing argument, and so it has waived any challenge
+
+4. CVS finally argues that the evidence shows that Carmichael was actually a
+licensee, not an invitee, and so CVS owed him a lesser duty of care. At trial, however,
+CVS withdrew any argument that Carmichael was a licensee, and it affirmatively
+represented to the trial court that it was “not going to make any argument that
+[Carmichael’s] entitled to a lower duty.” As a result, the trial court instructed the jury,
+without any objection from CVS, on the duty of care owed to invitees, not licensees.
+Accordingly, because CVS expressly acquiesced to the court’s instruction and the
+jury’s consideration of the case under an invitee framework, CVS has waived this
+argument. See Moody v. Dykes, 269 Ga. 217, 220 (3) (496 SE2d 907) (1998) (trial
+counsel’s representation at charge conference that “I won’t object to anything. I’ll
+accept it all” waived even substantial error review of the jury charge).
+We therefore reject all of CVS’s arguments and affirm the jury’s verdict and
+the denial of CVS’s motion for new trial.
+Judgment affirmed. Hodges, J., concurs. Pipkin, J., concurs in judgment only.
+to the argument. Berryhill v. Daly, 358 Ga. App. 139, 140 (854 SE2d 338) (2021).
+Although CVS argues that it can still challenge the closing argument based on Stolte
+v. Fagan, 291 Ga. 477, 479-483 (2) (731 SE2d 653) (2012), we note that, after the
+briefs were filed in this case, the Supreme Court of Georgia overruled Stolte in its
+decision in Williams v. Harvey, 311 Ga. 439, 447-451 (1) (b) (858 SE2d 479) (2021),
+and so that case does not help CVS and did not influence our analysis.

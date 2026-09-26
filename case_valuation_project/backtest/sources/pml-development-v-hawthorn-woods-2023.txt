@@ -1,0 +1,1149 @@
+ 
+ 
+ 
+ 
+ 
+2023 IL 128770 
+ 
+IN THE 
+SUPREME COURT 
+OF 
+THE STATE OF ILLINOIS 
+ 
+ 
+ 
+(Docket No. 128770) 
+PML DEVELOPMENT LLC, Appellant, v. THE VILLAGE OF HAWTHORN WOODS, 
+Appellee. 
+ 
+ 
+Opinion filed June 15, 2023. 
+ 
+ 
+JUSTICE O’BRIEN delivered the judgment of the court, with opinion. 
+ 
+Chief Justice Theis and Justices Neville, Overstreet, Holder White, and 
+Cunningham concurred in the judgment and opinion. 
+ 
+Justice Rochford specially concurred, with opinion. 
+ 
+OPINION 
+ 
+¶ 1 
+ 
+Plaintiff, PML Development LLC (PML), brought an action against the Village 
+of Hawthorn Woods (Village). PML alleged the Village breached a development 
+agreement (Agreement) between the parties. The complaint sought damages 
+resulting from the Village’s breach, as well as an order compelling the Village to 
+
+ 
+ 
+ 
+ 
+ 
+- 2 - 
+comply with the Agreement. The Village denied breaching the Agreement and filed 
+counterclaims alleging that PML breached the Agreement. Following a bench trial, 
+the circuit court of Lake County found that both parties materially breached the 
+Agreement. However, the circuit court concluded the Village’s first material breach 
+excused PML from performing its obligations under the Agreement. Therefore, the 
+circuit court entered judgment in favor of PML on both its breach of contract claim 
+and the Village’s counterclaim. 
+¶ 2 
+ 
+The Village appealed, and PML cross-appealed. The appellate court reversed, 
+finding that neither party could recover damages because each party materially 
+breached the Agreement. The court reasoned that, because PML continued to 
+perform under the contract despite the Village’s breach, PML remained bound by 
+the terms of the Agreement. When PML subsequently materially breached those 
+terms, it could not recover damages. 2022 IL App (2d) 200779. This court granted 
+PML’s petition for leave to appeal. Ill. S. Ct. R. 315 (eff. Oct. 1, 2021). For the 
+following reasons, we reverse the appellate court’s judgment. We affirm the circuit 
+court’s judgment in favor of PML on its breach of contract claims. We reverse the 
+circuit court’s judgment in favor of PML on the Village’s breach of contract 
+counterclaims. We remand the matter to the circuit court for further proceedings. 
+ 
+¶ 3 
+ 
+ 
+ 
+ 
+ 
+BACKGROUND 
+¶ 4 
+ 
+In June and July 2012, PML prepared a set of grading plans for a 62-acre 
+property within the Village and submitted those plans to the Village for preapproval 
+before it purchased the property. The Village’s chief administration officer and 
+Village clerk informed PML that they had no objection to the plans, and on 
+September 7, 2012, PML purchased the property. 
+¶ 5 
+ 
+On October 11, 2012, PML and the Village entered into the Agreement 
+regarding the use of the property. The Agreement included the following relevant 
+terms. Recital B limited PML to adding 1.2 million cubic yards of fill. Recital F 
+required a drawdown deposit to be executed before commencing work. 
+¶ 6 
+ 
+The parties agreed that, upon completion of the grading project but no later than 
+December 31, 2015, PML would donate the entire parcel of land to the Village for 
+a total sum of $1 by warranty deed free and clear of all liens, encumbrances, and 
+
+ 
+ 
+ 
+ 
+ 
+- 3 - 
+special service area (SSA) assessments as of the date of conveyance. PML would 
+pay all taxes while the property was in its possession, and the Village would assume 
+responsibility for the taxes once PML conveyed the property to the Village. 
+¶ 7 
+ 
+The Agreement also allowed the property to be accessed by Kruger1 Road. 
+PML agreed to bring Kruger Road back up to current Village standards at the end 
+of the project. PML would perform the reconstruction with an anticipated donation 
+toward that reconstruction of $200,000. 
+¶ 8 
+ 
+The Agreement provided that, before work could commence, PML would 
+present the Village engineer with all plans, studies, reports, surveys, and other 
+materials that might be necessary under the applicable Village codes and ordinances 
+or that might be reasonably be requested by the Village engineer. The Village 
+engineer would then approve the final plans if those plans satisfied the applicable 
+codes and ordinances. The parties also agreed that the grading permit would be 
+valid for two years from the date of issuance and that, if work was not completed 
+within two years, a permit extension would be granted for an additional two years. 
+The Agreement required PML to establish a drawdown account, and the funds from 
+that account would be used to pay for inspections related to the grading, filling, 
+sedimentation and soil erosion control measures, stormwater management, 
+perimeter landscaping, and seeding operations. 
+¶ 9 
+ 
+The Village originally approved the plans PML submitted, and PML began 
+operations on the property in February 2013. However, the Village attempted to 
+transform the Agreement by placing additional requirements on PML so that PML 
+could fill and develop the land to conform with the Village’s concept plan for future 
+development of a municipal campus on the property. From March 2013 through 
+September 2014, the Village repeatedly required PML to revise its plans without 
+citing any Village code or ordinance violations. Instead, the Village made its 
+demands to accommodate the Village’s ever-changing concept plans. Despite this, 
+PML sent revised plans to accommodate the Village’s demands. 
+¶ 10 
+ 
+On May 4, 2015, PML filed a three-count complaint against the Village alleging 
+the Village interfered with PML’s work on the property. Count I of PML’s 
+ 
+ 
+1PML’s complaint and the development agreement spell the road’s name as “Krueger”; PML’s 
+site surveys and the Village’s filings reflect the spelling “Kruger.”  
+
+ 
+ 
+ 
+ 
+ 
+- 4 - 
+complaint sought declaratory relief so that PML could complete its work in 
+substantial compliance with the Agreement. Count II sought mandamus relief 
+directing the Village to comply with its obligations under the Agreement. Count III 
+alleged a breach of contract claim and sought monetary damages for the Village’s 
+breach along with a determination that PML should be excused from its obligation 
+to convey the property to the Village. The complaint did not specifically allege that 
+the Agreement should be terminated based on the Village’s alleged material 
+breaches. 
+¶ 11 
+ 
+The Village filed an answer, affirmative defenses, and counterclaims. The 
+Village denied breaching the Agreement. The counterclaims alleged PML 
+materially breached the Agreement for several reasons. Relevant to this appeal are 
+the Village’s claims that PML failed to (1) pay the property taxes on the property 
+(count IV) and (2) fund the drawdown account, which had a $58,103.25 deficit 
+(count V). 
+¶ 12 
+ 
+On November 17, 2015, PML filed a mandamus petition. PML alleged that its 
+incentive to enter into the Agreement was the potential income to be derived from 
+charging its customers by volume for accepting fill for deposit on the property and 
+then using that fill to grade the property. PML asserted that the Village’s 
+misconduct had impaired any potential profit PML may have derived from the 
+project. Specifically, the Village refused to issue the grading permit allowed under 
+the Agreement. Instead, the Village interfered with PML’s operations and 
+attempted to force PML to comply with the Village’s demands to conform the 
+property to the Village’s conceptual plan, which differed substantially from the 
+approved grading plans. PML requested a mandamus order directing the Village to 
+issue the permit as required by the Agreement. 
+¶ 13 
+ 
+In response, the Village argued that PML breached the Agreement and should 
+not be granted mandamus relief. The Village alleged that PML failed to pay the 
+taxes for the property in violation of the Agreement. Consequently, PML could no 
+longer convey the property free and clear of liens and encumbrances due to the tax 
+delinquencies. 
+¶ 14 
+ 
+On January 15, 2016, the circuit court granted PML’s mandamus petition and 
+ordered the Village to issue a permit to PML with a December 31, 2016, expiration. 
+
+ 
+ 
+ 
+ 
+ 
+- 5 - 
+¶ 15 
+ 
+In October 2016, the Village filed a motion to enforce the circuit court’s prior 
+mandamus order and compel PML to complete its work by December 31, 2016. 
+The Village argued that the Agreement did not contemplate PML operating on the 
+property beyond the four-year period (2012-16). PML also continued to be in 
+breach of the Agreement by failing to pay taxes on the property. The Village 
+claimed that PML should not be allowed to reap the benefits of the project while 
+avoiding the court’s orders and PML’s obligations under the Agreement. 
+¶ 16 
+ 
+PML filed a response to the motion to enforce the court’s mandamus order and 
+included a cross-motion for mandamus relief. PML noted that the Agreement 
+included a provision that allowed an automatic two-year extension if it had not 
+completed the project. PML asserted that it had a right under the Agreement to 
+continue to perform its operations and asked the court to deny the Village’s request 
+to compel PML to finish the project by December 2016. As to its cross-motion for 
+mandamus relief, PML asked the court to compel the Village to issue a permit 
+extending the expiration by two years as required by the Agreement. 
+¶ 17 
+ 
+The Village also filed a motion for summary judgment. In this motion, the 
+Village argued that PML materially breached the Agreement by failing to pay the 
+property taxes and, as a result, PML could no longer convey the property to the 
+Village free and clear of all liens and encumbrances as provided by the Agreement. 
+Therefore, the Village requested summary judgment in its favor as to count IV of 
+its counterclaims. 
+¶ 18 
+ 
+In response to the motion for summary judgment, PML argued that the failure 
+to pay taxes was not a breach because the project had not yet been completed and 
+PML could still redeem the taxes. 
+¶ 19 
+ 
+The Village also filed a motion to appoint a receiver. The Village contended 
+that PML failed to pay the property taxes and caused the taxes to be sold at a tax 
+auction. Consequently, it would be impossible for PML to convey the property to 
+the Village, unless PML redeemed the taxes. The Village asked the court to compel 
+specific performance by ordering PML to redeem those taxes or appoint a receiver 
+to redeem those taxes on PML’s behalf. 
+¶ 20 
+ 
+On December 9, 2016, the circuit court extended its mandamus order and gave 
+PML until December 31, 2018, to complete its work on the property pursuant to the 
+
+ 
+ 
+ 
+ 
+ 
+- 6 - 
+Agreement. The court denied the Village’s motion to enforce the court’s prior 
+mandamus order, motion for summary judgment, and motion to appoint a receiver. 
+¶ 21 
+ 
+On August 7, 2017, the Village filed a motion for partial summary judgment on 
+count IV of its counterclaims. Like the Village’s previous motion for summary 
+judgment, this motion was also based on PML’s continued failure to pay the 
+property taxes. 
+¶ 22 
+ 
+At a hearing on the motion, the Village argued that the Agreement required 
+PML to pay the property taxes while PML possessed the property. Due to PML’s 
+failure to pay taxes, third-party tax buyers purchased the unpaid taxes and now had 
+liens on the property. The Agreement required PML to convey the property to the 
+Village free and clear of all liens and encumbrances. 
+¶ 23 
+ 
+At the hearing, the court asked the Village’s counsel what its damages were, 
+since the tax deed had not yet been issued and PML could presumably cure the tax 
+deficiency. The Village responded that specific performance was one remedy 
+provided by the Agreement, so damages were not required. The Village did not 
+believe it was premature to seek relief, as it was attempting to protect its future 
+interest in obtaining the property under the Agreement. Once the redemption period 
+expired, it would be too late for the Village to obtain the property. 
+¶ 24 
+ 
+The court pointed out that the Agreement required PML to transfer the property 
+no later than December 31, 2015. It asked why the property had not been 
+transferred. According to the Village’s counsel, PML had not tendered the property 
+and could not tender the property free and clear of the tax liens as required by the 
+Agreement. PML’s counsel argued that the permit had been extended by the court’s 
+first mandamus order to December 2016. The court, however, noted that December 
+2016 had come and gone as well. PML represented that it was ready and willing to 
+convey the property to the Village at any time but that the Village refused to accept 
+the conveyance. PML also claimed that its failure to pay the taxes was caused by 
+the Village’s interference with its operations on the property. 
+¶ 25 
+ 
+During the argument the court commented that the parties were in a unique 
+situation: 
+
+ 
+ 
+ 
+ 
+ 
+- 7 - 
+“[W]henever there’s a breach of a contract, people basically say, Okay, we’re 
+done, I’m not going to do my portion; he’s not—the other side’s not going to 
+do—you guys are still operating under this contract, that it’s still valid and 
+everybody owes everybody all the obligations and responsibilities under the 
+agreement. I mean, it’s not like you said, Oh, you know, you breached, we’re 
+stopping, we’re going to sue you, we would have made X dollars if we would 
+have continued to the end of the term. You’re still operating. They’re still going 
+there and checking to see if you’re in compliance with the ordinance and 
+everybody’s operating as if this is still a valid un-breached contract ***.”  
+PML’s counsel responded, “Well, isn’t that to our benefit?” The court believed this 
+was a factual question and asked PML’s counsel why it should receive the benefits 
+of the contract but not the Village, since both parties sought specific performance. 
+The court asked PML’s counsel if PML was still operating under the contract, and 
+counsel responded, “Right.” Counsel explained that PML continued its operations 
+to mitigate damages and that the property could lose value if it stopped its 
+operations. The court noted that PML could operate to mitigate its damages but that 
+it could also terminate the Agreement and claim damages for the profits it expected 
+to generate had it continued performing. 
+¶ 26 
+ 
+PML’s counsel explained that PML could convey the property within a day’s 
+notice, but the Village would not accept the conveyance due to the outstanding 
+property taxes. The Village’s counsel answered: 
+“You know. This is a unique situation where we have a trial in less than two 
+weeks on a contract that’s going to be continued to be performed until 2018, 
+and you know, that’s I think unique as well, because we have now additional 
+tax buyers *** out there who have the ability to perform as it relates to tax 
+deeds. 
+ 
+So are we going to have a trial and then, you know, they’re going to continue 
+to perform until 2018 and then lose the property, you know, in that interim 
+period?” 
+The court raised concern about the damages being potentially speculative: 
+
+ 
+ 
+ 
+ 
+ 
+- 8 - 
+ 
+“The other thing that it makes difficult I think at some point, I mean, you’re 
+going to tell me what your damages are potentially as of October 23 or 
+whenever we finish the trial this year, but you’re right, you’re going to still be 
+operating and you could all of the sudden become the most popular fill dump 
+place in the county and get more business than you ever thought you would get 
+and make more money than you thought you would ever make ***.” 
+¶ 27 
+ 
+Ultimately, the circuit court granted the Village’s motion for partial summary 
+judgment in part. The court explained: 
+ 
+“The motion for summary judgment as to Count 4 for failure to pay the 
+taxes, I’m in a quandary on this one ***. 
+ 
+I think that I can partially grant your motion because I think that there is no 
+genuine issue of material fact that there has been a breach based on the failure 
+to pay taxes given the fact that there was a turnover date of title prior to when 
+this became an issue even though it’s been extended. I don’t think there’s a 
+genuine—I don’t think that there’s no genuine issue of material fact whether, 
+in fact, they can comply with that, whether they can do specific performance. I 
+don’t know anything about their financial information, whether they, in fact, 
+have the money to redeem the taxes or not. 
+ 
+I think to order them to do that without having information whether that is 
+valid or if your remedy is a breach of contract instead of specific performance, 
+I think that’s an issue that has to be reserved for trial. 
+ 
+So to the extent that we’ll take an issue out of the litigation here, I am going 
+to find that there was a breach for failing to pay the taxes no later than what the 
+turnover date was contemplated, whether it was December—the end of 
+December 2015 or the extended date in 2016. At this point, that date has come 
+and gone and that may eliminate some evidence that’s presented at trial ***. 
+ 
+ 
+ 
+ 
+ 
+* * * 
+ 
+*** As everybody has noted, there have been allegations of breaches back 
+and forth and I’m going to have to make a determination probably who was the 
+original at fault to see how the things are going to shake out at the end of the 
+day. 
+
+ 
+ 
+ 
+ 
+ 
+- 9 - 
+ 
+So, no, [PML is] not going to be precluded from saying, you know, here’s 
+the reason why. I’m merely taking this issue out that, in fact, I think was a 
+contested issue that you didn’t have to pay the taxes yet. And I think the 
+deadline for payment of taxes based on what’s in the agreement has come and 
+gone and [PML is] in breach of that. Whether there’s an excuse for it or not, I 
+have not made a determination of that.” 
+¶ 28 
+ 
+Prior to trial, both parties submitted pretrial memorandums to the court. Both 
+parties agreed that the Agreement was binding and enforceable. Each party asserted 
+that it performed its obligations under the Agreement but claimed the other party 
+should be liable for its alleged breach. The Village’s memorandum added the 
+allegation that PML breached the Agreement by failing to reconstruct Kruger Road 
+as required by the Agreement. 
+¶ 29 
+ 
+The cause went to trial on November 20, 2020. 
+¶ 30 
+ 
+After trial, the parties submitted posttrial memorandums. In PML’s posttrial 
+memorandum, PML maintained that the Agreement was valid and enforceable and 
+that it performed its obligations under the Agreement. PML alleged that the 
+evidence showed that the Village materially breached the Agreement by (1) failing 
+to issue the proper grading permit, (2) imposing obligations on PML that were not 
+part of the Agreement, and (3) interfering with PML’s means and methods of 
+developing the property. PML also asserted that any claimed breach as to the 
+drawdown account and Kruger Road reconstruction occurred after the Village 
+materially breached. Thus, the Village could not recover. In addition, the Village 
+hindered PML’s performance and caused PML’s inability to pay the taxes on the 
+property. Further, the Village failed to mitigate its damages by rejecting PML’s 
+offers to convey the property to the Village. 
+¶ 31 
+ 
+In the Village’s memorandum, it claimed that it performed its obligations and 
+alleged that PML breached the Agreement by failing to (1) convey the property to 
+the Village, (2) fund the drawdown account, and (3) reconstruct Kruger Road. As 
+to damages, the Village argued that PML’s inability to convey the property 
+frustrated the main purpose of the Agreement, the Village suffered damages based 
+on PML’s failure to fund the drawdown account, and the Village suffered damages 
+in excess of $200,000 caused by PML’s failure to restore Kruger Road. The Village 
+asked the court to order PML to convey the property to the Village by warranty 
+
+ 
+ 
+ 
+ 
+ 
+- 10 - 
+deed free and clear of all liens and encumbrances “in full compliance with the terms 
+of the Development Agreement,” reconstruct Kruger Road, pay the amounts owed 
+under the drawdown account, and pay the Village’s attorney fees. The Village did 
+not request monetary damages caused by PML’s failure to convey the property. 
+¶ 32 
+ 
+Prior to judgment, the Village filed a motion to reopen proofs. The motion asked 
+the court to take judicial notice of the tax deed, quitclaim deed, and Lake County 
+property tax records, which showed that one of the parcels comprising the property 
+had been conveyed to a third party by quitclaim deed. The Village did not ask the 
+court for a hearing on damages caused by PML’s failure to convey the property. 
+However, the Village asked the court to take judicial notice of these records to the 
+extent the new evidence would impact the court’s upcoming judgment and the relief 
+it awarded. Subsequently, the parties entered an agreed stipulation of these facts, 
+and the Village withdrew the motion as moot. 
+¶ 33 
+ 
+The circuit court entered a written judgment, which included detailed factual 
+findings and legal conclusions. The court found “[e]ach party accused the other 
+party of materially breaching the Development Agreement, but neither party 
+stopped the development of the Property from proceeding even after PML filed its 
+lawsuit against the Village in 2015.” 
+¶ 34 
+ 
+As to the Village, the circuit court found the Village materially breached the 
+Agreement in three ways. First, the circuit court found that the Village materially 
+breached the Agreement by refusing to approve PML’s grading plans and issue the 
+appropriate grading permit. The Agreement required the Village to approve PML’s 
+final grading plans and issue the grading permit once PML submitted all plan 
+studies, reports, surveys, and other materials that might be necessary under the 
+applicable Village codes and ordinances or that might be reasonably requested by 
+the Village engineers. However, neither the Village nor the Village engineers told 
+PML that the grading plans violated any specific code or other regulatory provision. 
+Therefore, the circuit court determined that the plans were code compliant. Pursuant 
+to the Agreement, the Village should have issued the initial grading permit in 
+February 2013, but the Village did not issue the grading permit until December 15, 
+2014. Additionally, the permit issued by the Village violated the Agreement and 
+required the court’s intervention. The grading permit should have been for a two-
+
+ 
+ 
+ 
+ 
+ 
+- 11 - 
+year period as required by the Agreement, but the Village only issued a nine-month 
+permit. 
+¶ 35 
+ 
+Second, the court found the Village materially breached the Agreement by 
+imposing obligations on PML that were not bargained for and not part of the 
+Agreement to obtain concessions from PML. The court based this finding on the 
+Village’s continued refusal to issue the required permits to PML. The Village also 
+issued at least six improper stop work orders. 
+¶ 36 
+ 
+Third, the court found the Village materially breached the Agreement by failing 
+to allow PML to dictate the means and methods of developing the property through 
+the Village’s use of earth change approvals. Because the Village did not have its 
+municipal concept plan finalized, it only issued earth change approvals to force 
+PML to work in areas that the Village believed would not have any buildings, roads, 
+parking areas, or bike paths. 
+¶ 37 
+ 
+The court found the Village’s earth change approvals illogical because it 
+required PML to deposit fill in front of the Kruger Road entrance. The work 
+sequencing forced onto PML by the Village contributed to poor site conditions and 
+sediment being tracked onto Kruger Road and long lines of trucks waiting on 
+Kruger Road to deposit fill. This caused PML to perform unnecessary work to move 
+the mountain of fill that accumulated at the entrance. 
+¶ 38 
+ 
+As to PML, the circuit court found that PML materially breached the Agreement 
+in three ways. First, the Agreement required PML to fund a drawdown deposit 
+account. The drawdown account had a deficit of $53,103.25 as of June 2015. The 
+court found that the charges debited against the account were authorized charges 
+under the terms of the Agreement. PML’s failure to fund the account constituted a 
+material breach of the Agreement. 
+¶ 39 
+ 
+Second, the Agreement also required PML to reconstruct Kruger Road upon 
+completion of the project. PML’s total financial donation toward the reconstruction 
+of Kruger Road was to be $200,000. PML did not reconstruct the road, which the 
+court found to be a material breach of the Agreement. 
+¶ 40 
+ 
+Third, the Agreement required PML to donate the property to the Village for 
+the sum of one dollar at the completion of the grading project, but no later than 
+
+ 
+ 
+ 
+ 
+ 
+- 12 - 
+December 31, 2015. PML never conveyed the property to the Village. The donation 
+of the property was to be by warranty deed free and clear of all liens and 
+encumbrances. The court found that the payment of taxes was part of the 
+requirement that PML convey the property to the Village by warranty deed free and 
+clear of all liens, encumbrances, and SSA assessments as of the date of conveyance. 
+However, it concluded that the failure to pay the real estate taxes when due was not 
+a material violation of the Agreement because the Agreement required that all taxes 
+be fully paid by the time of the conveyance, which provided PML with time to pay 
+any delinquent taxes. Nevertheless, PML never redeemed the taxes and failed to 
+convey the property to the Village by warranty deed by December 2015, which the 
+court found to be a material breach of the Agreement. 
+¶ 41 
+ 
+Despite finding breaches by both parties, the court entered judgments in favor 
+of PML on its breach of contract claims and the Village’s breach of contract 
+counterclaim because the Village materially breached the Agreement first. The 
+court reasoned the Village could not seek to enforce the terms beneficial to the 
+Village against PML given that the Village materially breached the Agreement first. 
+Therefore, it held that PML’s performance of its obligations under the Agreement 
+was excused. The court awarded PML damages for lost revenue in the amount of 
+$268,223.70 (based on the difference in target fill rate and the actual fill rate); 
+additional costs relating to site preparation, topsoil, and clay work through the 
+expiration of the grading permit in the amount of $4,898,161; and additional costs 
+attributable to multiple revisions to PML’s plans to comply with the Village’s 
+demands in the amount of $183,292. The court also awarded PML $1,571,795.60 
+in attorney fees and $2654.74 in costs. 
+¶ 42 
+ 
+The Village appealed, and PML cross-appealed. The Village raised four 
+arguments. First, it argued that, because the circuit court found that PML had 
+materially breached the parties’ agreement, the circuit court should have awarded 
+the Village judgment on its counterclaims. 2022 IL App (2d) 200779, ¶ 40. 
+Specifically, the Village argued that the circuit court wrongly found that it had 
+materially breached the Agreement and then compounded its error by finding that 
+the Village’s breach excused PML’s obligations under the agreement. Id. Second, 
+the Village argued that, because the court had found that PML materially breached 
+the agreement, it erred in allowing PML to recover damages under the agreement. 
+Id. Third, the Village argued that PML failed to satisfy its burden in proving 
+
+ 
+ 
+ 
+ 
+ 
+- 13 - 
+damages under the new-business rule. Id. Fourth, the Village argued that the circuit 
+court erred in awarding attorney fees to PML. Id. In its cross-appeal, PML 
+contended that its damages award should be increased. Id. ¶ 38. 
+¶ 43 
+ 
+As to the first issue, the appellate court found that the circuit court properly 
+found “the Village materially breached the Agreement when it hindered PML’s 
+ability to use the property via customary means and methods.” Id. ¶ 48. As one 
+material breach is sufficient to prevent the Village from recovering under the 
+Agreement, the court did not address the other ways the circuit court found that the 
+Village had materially breached the Agreement. Id. 
+¶ 44 
+ 
+As to the second issue, the appellate court agreed with the Village that its breach 
+of the agreement did not automatically alleviate PML of its contractual obligations. 
+Id. ¶ 50. The court noted that PML chose to file a complaint and received a writ of 
+mandamus to compel the Village to adhere to the terms of the Agreement. Id. ¶ 51. 
+PML was able to complete its work on the property by December 2018. Id. Since 
+PML elected to proceed with the Agreement after the Village’s alleged breach of 
+that Agreement, PML remained bound by the obligations imposed under the 
+Agreement. Id. The appellate court found that the circuit court erred in finding that 
+the Village’s first breach excused PML from its obligations under the contract. 
+Relying on Chicago Washed Coal Co. v. Whitsett, 278 Ill. 623 (1917), the appellate 
+court concluded that neither party could recover damages since both parties 
+materially breached the Agreement, and the court vacated the damages award in 
+favor of PML. 2022 IL App (2d) 200779, ¶¶ 60-61. Given this finding, the appellate 
+court did not address each party’s challenges to the circuit court’s damages 
+calculation. Id. ¶ 62. 
+ 
+¶ 45 
+ 
+ 
+ 
+ 
+ 
+ANALYSIS 
+¶ 46 
+ 
+In this court, neither party challenges the circuit court’s and appellate court’s 
+findings that each party materially breached the Agreement. Nor do the parties 
+dispute the fact that the Village materially breached first. Instead, the arguments in 
+this court are focused on the unique scenario presented in this case, where both 
+parties materially breach a contract but there is a question as to whether each party 
+elected to continue performing despite the breach. We are asked to determine each 
+party’s respective rights to pursue its breach of contract claims. 
+
+ 
+ 
+ 
+ 
+ 
+- 14 - 
+¶ 47 
+ 
+The appellate court found the Village could not recover since it breached the 
+Agreement first. It also found that PML could not recover because it “elected” to 
+continue the Agreement despite the Village’s material breach. Given this 
+“election,” the appellate court found that PML remained bound to the terms of the 
+Agreement. Since PML subsequently materially breached the Agreement, the 
+appellate court found that it too could not recover damages. Upon review, we find 
+that both parties elected to continue performing the Agreement. Therefore, we hold 
+that both the Village and PML retained a viable claim for breach of contract. 
+¶ 48 
+ 
+Initially, PML contends that the appellate court erred in applying the election 
+of remedies doctrine. Despite using the term “elected,” what the appellate court 
+applied is the partial breach doctrine. Although the partial breach doctrine has been 
+referred to as an “aspect of [the] election of remedies,” each doctrine has its own 
+separate rules and distinct application. Emerald Investments Ltd. Partnership v. 
+Allmerica Financial Life Insurance & Annuity Co., 516 F.3d 612, 618 (7th Cir. 
+2008). The partial breach doctrine, which is at issue here, is an exception to the 
+first-to-breach rule.2 Both parties ask this court to adopt and apply the partial 
+breach doctrine to this case, though they disagree on the result of the doctrine’s 
+application. We, therefore, focus our analysis on the application of the first-to-
+breach rule and the partial breach doctrine. 
+ 
+¶ 49 
+ 
+ 
+ 
+ 
+ 
+A. The First-to-Breach Rule and Its Exception 
+¶ 50 
+ 
+Generally, to recover on a breach of contract claim, the party must have 
+performed its part of the contract. See Dubey v. Public Storage, Inc., 395 Ill. App. 
+3d 342, 361-62 (2009). This is true because substantial performance is a necessary 
+element of a breach of contract claim. Talbert v. Home Savings of America, F.A., 
+265 Ill. App. 3d 376, 379-80 (1994). The first-to-breach rule excuses a party’s duty 
+to perform under the contract if the other party materially breaches the agreement 
+first. See Mohanty v. St. John Heart Clinic, S.C., 225 Ill. 2d 52, 70 (2006); Eager 
+ 
+ 
+2PML contends that the appellate court should have deemed the Village’s arguments on the 
+partial breach doctrine “waived” because the Village failed to raise the issue in the trial court. 
+However, PML failed to make this forfeiture argument in the appellate court. Therefore, PML has 
+forfeited this argument. See Illinois Supreme Court Rule 341(h)(7) (eff. Oct. 1, 2020) (“Points not 
+argued are forfeited ***.”). 
+
+ 
+ 
+ 
+ 
+ 
+- 15 - 
+v. Berke, 11 Ill. 2d 50, 54 (1957); Finch v. Illinois Community College Board, 315 
+Ill. App. 3d 831, 836 (2000). In other words, the first-to-breach rule excuses the 
+injured party from future performance and allows the injured party to pursue its 
+breach of contract claims. Conversely, the first breaching party cannot seek to 
+enforce the contract against the injured party. 
+¶ 51 
+ 
+The circuit court in this case ended its analysis here. It found the Village 
+breached first. This breach excused PML from performing, and only PML could 
+recover. The circuit court’s analysis was flawed. As the appellate court recognized, 
+there is an exception to this rule where the nonbreaching party may lose its right to 
+assert the first-to-breach rule if it accepts the benefits of the contract despite the 
+other party’s material breach. This is often referred to as the “partial” breach 
+doctrine. See Emerald Investments, 516 F.3d at 618; Dustman v. Advocate Aurora 
+Health, Inc., 2021 IL App (4th) 210157, ¶ 38 (citing 2 E. Allan Farnsworth, 
+Farnsworth on Contracts § 8.15, at 437-38 (2d ed. 1998)). It applies where an 
+injured party elects to continue performing under the contract despite the other 
+party’s material breach. By continuing the contract, the injured party remains bound 
+by its obligation to perform. Dustman, 2021 IL App (4th) 210157, ¶ 38. This does 
+not amount to a waiver of the right to damages for the first material breach, but the 
+injured party may too be liable if it breaches the contract. See Restatement (Second) 
+of Contracts § 237, cmt. e (1981). 
+¶ 52 
+ 
+All of this is to say that, following a material breach, the injured party reaches 
+a fork in the road: it may either continue the contract (retain its benefits of the 
+bargain and sue for damages) or repudiate the agreement (cease performing and sue 
+for damages). See id. § 246, cmts. a-c, illus. 1-3; Emerald Investments, 516 F.3d at 
+618. If the party elects to continue with the contract, it cannot suspend performance 
+later and then claim it had no duty to perform based on the first material breach. 
+This election converts the material breach to a “partial” breach. “[T]he injured party 
+may sue for any damages caused by the partial breach, but having elected to keep 
+the contract in force, the injured party must continue to perform the contract on pain 
+of likewise incurring liability for a breach.” Dustman, 2021 IL App (4th) 210157, 
+¶ 38. Although this court has yet to explicitly adopt the partial breach doctrine, the 
+general principle underlying the doctrine is well rooted in Illinois law. See Chicago 
+Washed Coal Co., 278 Ill. at 627-28; Wollenberger v. Hoover, 346 Ill. 511, 544-45 
+(1931) (discussing the concept in terms of inconsistent remedies); Emerald 
+
+ 
+ 
+ 
+ 
+ 
+- 16 - 
+Investments, 516 F.3d at 618 (applying Illinois law); South Beloit Electric Co. v. 
+Lar Gar Enterprises, Inc., 80 Ill. App. 2d 367, 374-75 (1967) (citing Lichter v. 
+Goss, 232 F.2d 715 (7th Cir. 1956) (applying Illinois law)); Dustman, 2021 IL App 
+(4th) 210157, ¶ 38. To the extent this court has not yet explicitly adopted the partial 
+breach doctrine, we do so now. 
+¶ 53 
+ 
+The application of the partial breach doctrine is illustrated in Dustman, 2021 IL 
+App (4th) 210157. In Dustman, a dispute arose between the plaintiff shareholders 
+and two former shareholders, as well as the individuals that had purchased their 
+shares. Id. ¶ 1. Initially, the plaintiffs alleged that it made several demands for the 
+defendants to engage in arbitration or mediation as provided by the parties’ 
+operating agreement. Id. ¶ 36. The plaintiffs alleged that the defendants ignored or 
+rejected those demands. Id. The plaintiffs brought an action against defendants 
+raising several claims. Id. ¶ 16. The proceedings were initially stayed after the 
+parties agreed to participate in nonbinding mediation. Id. ¶ 19. When mediation 
+failed, the defendants filed a motion to stay the litigation and compel binding 
+arbitration pursuant to the agreement. Id. ¶¶ 20-21. The plaintiffs, having changed 
+their minds, argued that the defendants’ initial refusal to mediate or arbitrate the 
+dispute constituted a material breach. Id. ¶ 36. Thus, according to the plaintiffs, the 
+plaintiffs were relieved of their contractual obligation to arbitrate the dispute 
+expressed in their complaint. Id. ¶ 37. 
+¶ 54 
+ 
+The appellate court rejected the plaintiffs’ argument. The court assumed that 
+the defendants refused the demands for mediation or arbitration and that such 
+refusal constituted a material breach of the operating agreement. Id. It noted, where 
+there is a material, uncured breach of contract, the injured party must decide either 
+to terminate the contract or continue the contract. Id. The court explained, 
+ 
+“ ‘If the injured party chooses to terminate the contract, it is said to treat the 
+breach as total. The injured party’s claim for damages for total breach takes the 
+place of its remaining substantive rights under the contract. Damages are 
+calculated on the assumption that neither party will render any further 
+performance. They therefore compensate the injured party for the loss that it 
+will suffer as a result of being deprived of the balance of the other party’s 
+performance, minus the amount of any saving that resulted from the injured 
+party not having to render its own performance. 
+
+ 
+ 
+ 
+ 
+ 
+- 17 - 
+ 
+If the injured party does not terminate the contract, either because that party 
+has no right to or does not choose to, the injured party is said to treat the breach 
+as partial. The injured party has a claim for damages for partial breach, in 
+addition to its remaining substantive rights under the contract. Damages are 
+calculated on the assumption that both parties will continue to perform in spite 
+of the breach. They therefore compensate the injured party only for the loss it 
+suffered as the result of the delay or other defect in performance that constituted 
+the breach, not for the loss of the balance of the return performance. Since the 
+injured party is not relieved from performing, there is no saving to it to be 
+subtracted.’ ” (Emphases omitted.) Id. ¶ 38 (quoting 2 E. Allan Farnsworth, 
+Farnsworth on Contracts § 8.15, at 437-38 (2d ed. 1998)). 
+¶ 55 
+ 
+The court continued by noting that, if the injured party elects to continue 
+performing the contract by treating the breach as “partial,” the injured party is 
+bound by this decision and has lost the right to stop performance. Id. The court 
+explained the effect of an election to proceed in these circumstances: 
+ 
+“ ‘Where there has been a material failure of performance by one party to a 
+contract, so that a condition precedent to the duty of the other party’s 
+performance has not occurred, the latter party has the choice to continue to 
+perform under the contract or to cease to perform, and conduct indicating an 
+intention to continue the contract in effect will constitute a conclusive election, 
+in effect waiving the right to assert that the breach discharged any obligation to 
+perform. In other words, the general rule that one party’s uncured, material 
+failure of performance will suspend or discharge the other party’s duty to 
+perform does not apply where the latter party, with knowledge of the facts, 
+either performs or indicates a willingness to do so, despite the breach, or insists 
+that the defaulting party continue to render future performance.’ ” Id. ¶ 39 
+(quoting 14 Samuel Williston, Richard A. Lord, A Treatise on the Law of 
+Contracts § 43:15, at 626 (4th ed. 2000)). 
+¶ 56 
+ 
+Applying the “partial” breach doctrine, the Dustman court found that, despite 
+the defendants’ previous refusals to submit to mediation or arbitration, the plaintiffs 
+continued to insist that the defendants submit to mediation or arbitration under the 
+operating agreement. Id. ¶ 40. The plaintiffs therefore insisted that the defaulting 
+party continue to render future performance. Id. This constituted a conclusive 
+
+ 
+ 
+ 
+ 
+ 
+- 18 - 
+election to continue the contract. Id. Further, the parties underwent mediation of 
+their present claims. Id. By participating in nonbinding arbitration, the plaintiffs 
+performed their contractual obligations. Id. Therefore, the plaintiffs elected to 
+continue the contract. Id. Because of this election, the appellate court concluded 
+that the plaintiffs remained bound by the contractual duty to submit their dispute to 
+arbitration. Id.  
+¶ 57 
+ 
+Dustman is helpful in establishing the general principle of the “partial” breach 
+doctrine. That is, when a party to a contract elects to continue performing despite 
+the other party’s material breach, the nonbreaching party remains bound to its 
+obligation to perform. It does not, however, answer the specific question presented 
+in this appeal, that is: if an injured party elects to continue performing a contract—
+despite the other party’s material breach—what is the consequence of the injured 
+party’s subsequent material breach? Or, in this case, what impact does PML’s 
+subsequent breach have on its ability to pursue its breach of contract claims against 
+the Village? Similarly, what effect does PML’s election to continue performing 
+have on the Village’s ability to pursue its breach of contract claim? Before 
+answering those questions, we must first address each party’s argument that it did 
+not “elect” to continue performing the Agreement after the other party’s material 
+breach. 
+¶ 58 
+ 
+Neither party has provided a case establishing the standard of review for this 
+specific question. Given that it is a disputed question of fact, we believe the decision 
+to continue performing is a factual question to be reviewed under the manifest 
+weight of the evidence standard. See generally Galesburg Clinic Ass’n v. West, 302 
+Ill. App. 3d 1016, 1019-20 (1999) (applying manifest weight of the evidence 
+standard to similar issue of whether a party waived its right to assert a breach of 
+contract claim); Eychaner v. Gross, 202 Ill. 2d 228, 251 (2002) (generally, the 
+standard of review in a bench trial is whether the order or judgment is against the 
+manifest weight of the evidence); cf. Dustman, 2021 IL App (4th) 210157, ¶¶ 28-
+29 (applying de novo review to the same question presented here but where facts 
+were not in dispute). We review the legal effect of that factual determination 
+de novo. Eychaner, 202 Ill. 2d at 252 (applying de novo review to the circuit court’s 
+ruling on the legal effect of factual determinations). 
+
+ 
+ 
+ 
+ 
+ 
+- 19 - 
+¶ 59 
+ 
+Here, the circuit court found that “[e]ach party accused the other party of 
+materially breaching the Development Agreement, but neither party stopped the 
+development of the Property from proceeding even after PML filed its lawsuit 
+against the Village in 2015.” In other words, the circuit court found that PML and 
+the Village elected to continue performing despite the other party’s material breach. 
+The record supports a finding that PML elected to continue performing. PML never 
+sought to terminate the Agreement. It only asked to be relieved of its obligation to 
+convey the property to the Village. When the Village refused to approve PML’s 
+grading permit, it could have terminated the contract. It did not. Instead, it insisted 
+that the Village issue the proper grading permit. So too, when the Village interfered 
+with PML’s means and methods by dictating where and how to work on the 
+property, PML could have terminated the Agreement. And, when the Village 
+imposed terms not bargained for, PML could have terminated the agreement. Yet 
+it continued to operate on the property, reaping significant economic benefits. We 
+also do not view PML’s actions as mere attempts to mitigate damages. PML sought 
+and obtained mandamus orders extending its operations under the Agreement for 
+several years in the future. 
+¶ 60 
+ 
+The Village asserts that it did not elect to continue the contract after PML’s 
+material breach. Therefore, it contends that the appellate court erred when it 
+determined that it too could not recover under its breach of contract counterclaim. 
+In the Village’s view, its breach was converted to a partial breach, and it can show 
+substantial performance to pursue its breach of contract claim. PML’s material 
+breach, on the other hand, never converted to a partial breach because the Village 
+did not elect to continue performing. Since PML’s breach remained material, it 
+cannot show substantial performance. Therefore, the Village claims that it is 
+entitled to judgment in its favor and PML is barred from recovering. 
+¶ 61 
+ 
+In holding that neither party could recover damages since both parties 
+materially breached the Agreement, the appellate court relied on Chicago Washed 
+Coal, 278 Ill. 623. However, the appellate court mischaracterized the holding of 
+Chicago Washed Coal, as we will explain below. Additionally, the appellate court 
+failed to consider the crucial factual distinctions between Chicago Washed Coal 
+and this case. 
+
+ 
+ 
+ 
+ 
+ 
+- 20 - 
+¶ 62 
+ 
+In Chicago Washed Coal, the parties agreed to the sale and delivery of 1500 
+tons of certain types of coal to be delivered in daily installments from December 
+28, 1909, to March 30, 1910, with payment to be made on or before the tenth day 
+of the month following shipment. Id. at 624. The seller could not supply the agreed-
+upon type of coal, or the entire amount agreed upon, but did deliver coal to the 
+buyer. Id. at 624-25. The buyer refused to pay for any of the coal delivered in the 
+month of March until the seller delivered more coal. Id. at 625. The seller gave 
+notice to the buyer that it had rescinded the contract and would no longer deliver 
+coal to the buyer based on the buyer’s refusal to make payment. Id. The circuit court 
+entered judgment in favor of the seller for the coal delivered that the buyer refused 
+to pay for. Id. at 626. It denied judgment in favor of the buyer because it breached 
+the agreement by refusing to make payments. Id. at 624. On appeal, this court held 
+that the buyer’s election to continue the contract meant that the buyer remained 
+obligated to make payments. Id. at 627. The buyer’s failure to make payments 
+barred it from recovering damages caused by the sellers’ breach of contract. Id. 
+¶ 63 
+ 
+In holding that neither party could recover in this case, the appellate court took 
+the following statement from Chicago Washed Coal out of context: “Therefore the 
+most that can be said for [the buyer’s] case is that its proofs show that both parties 
+were in default. In this condition of the record there could be no recovery by either 
+against the other on the contract.” Id. However, this court held that the seller 
+properly recovered damages from the buyer’s refusal to make payment for the coal 
+delivered by the seller. Id. at 626. Chicago Washed Coal is consistent with the 
+partial breach doctrine: the seller could recover despite its material breach because 
+the buyer elected to continue the contract. 
+¶ 64 
+ 
+At this point, the facts of Chicago Washed Coal also diverge from the facts in 
+the present case in a critical way. Chicago Washed Coal did not involve the 
+question of whether both parties elected to continue performing despite the other 
+party’s material breach. Rather, the seller in that case affirmatively terminated the 
+agreement. Consequently, we find the appellate court’s analysis in our case flawed 
+because it failed to consider whether the Village elected to continue performing 
+despite PML’s breach. If the answer to that question is “yes,” then PML’s material 
+breach also converted to a partial breach. 
+
+ 
+ 
+ 
+ 
+ 
+- 21 - 
+¶ 65 
+ 
+Contrary to the Village’s argument, the record supports the circuit court’s 
+finding that the Village also operated as if the Agreement remained in force despite 
+allegations of breaches by PML. The Village acknowledges that its brief in the 
+appellate court admitted “both parties elected to proceed,” but it contends that this 
+was merely a mistake. However, the Village’s pleadings and arguments in the 
+circuit court are consistent with the statement that the Village elected to continue 
+performing. Throughout the proceedings, the Village claimed it performed its part 
+of the Agreement and repeatedly sought specific performance. At the hearing on 
+the Village’s motion for partial summary judgment, the Village admitted that the 
+parties would continue performing under the Agreement until at least 2018. At the 
+time of that hearing, the Village already claimed that PML materially breached the 
+Agreement. The Village could have made a claim to terminate the Agreement. It 
+did not. In fact, the Village continued to demand specific performance of the 
+conveyance of the property at trial. Even after trial, the Village maintained that it 
+“demonstrated that it ha[d] allowed this project to go forward despite those 
+numerous breaches.” By presenting its claims as if the Agreement were still in force 
+despite alleged breaches by PML, we cannot say the circuit court erred when it 
+found that the Village also elected to continue performing despite PML’s breach. 
+¶ 66 
+ 
+Having found both parties elected to continue the Agreement, we next 
+determine whether either party may recover damages. As discussed above, by 
+electing to continue performing the Agreement, both PML and the Village, in 
+essence, treated each “material” breach as merely a “partial” one (or nonmaterial). 
+See All EMS, Inc. v. 7-Eleven, Inc., 181 Fed. App’x 551, 557-58 (7th Cir. 2006) 
+(applying Illinois law). Unlike a material breach, when the breach is partial, “ ‘both 
+parties may be guilty of breaches, each having a right to damages.’ ” InsureOne 
+Independent Insurance Agency, LLC v. Hallberg, 2012 IL App (1st) 092385, ¶ 33 
+(quoting Israel v. National Canada Corp., 276 Ill. App. 3d 454, 460 (1995)); see 
+also Devon Bank v. Schlinder, 72 Ill. App. 3d 147, 154 (1979); Dawdy v. Sample, 
+178 Ill. App. 3d 118, 126 (1989) (holding that, where both parties mutually breach 
+a contract, both parties are entitled to some, but not total, damages for breach). We 
+hold that the Village materially breached first by failing to issue the proper grading 
+permit, imposing obligations that were not part of the Agreement, and interfering 
+with PML’s means and methods. PML’s election to continue the Agreement did 
+not bar it from seeking damages, but it did convert the Village’s material breach to 
+a partial breach. Converting the breach to a partial breach meant that the Village 
+
+ 
+ 
+ 
+ 
+ 
+- 22 - 
+could seek a breach of contract claim if PML subsequently breached. PML 
+subsequently materially breached by failing to convey the property, failing to fund 
+the drawdown account, and failing to reconstruct Kruger Road. The Village could 
+pursue its breach of contract claim based on those breaches given that the Village’s 
+breaches converted to partial breaches. The Village elected to continue the 
+Agreement and converted PML’s material breach to a partial breach. Therefore, 
+PML’s breaches did not bar it from pursuing a breach of contract claim against the 
+Village for the Village’s prior breaches. Each party had a viable breach of contract 
+claim. 
+¶ 67 
+ 
+In sum, we find the appellate court erred when it held that neither party could 
+recover damages. We hold that the circuit court correctly entered judgment in favor 
+of PML on its breach of contract claim. However, it erred when it entered a 
+judgment in favor of PML on the Village’s breach of contract counterclaim. The 
+circuit court should enter judgment in favor of the Village on its breach of contract 
+counterclaim. The circuit court should calculate each party’s respective damages 
+and offset the ultimate award given. 
+ 
+¶ 68 
+ 
+ 
+ 
+ 
+ 
+B. Unaddressed Issues in the Appellate Court 
+¶ 69 
+ 
+In the appellate court, both parties challenged the circuit court’s calculation of 
+PML’s damages. PML argued that its damages should be increased, and the Village 
+argued that PML failed to prove its damages. The appellate court did not reach these 
+arguments, given that it held that neither party could recover. In addition, the 
+Village challenged the circuit court’s award of attorney fees. It appears the appellate 
+court did not reach this issue. The Village and PML both request a remand to the 
+appellate court to address these issues. We believe the most efficient approach is to 
+remand the matter to the trial court. The trial court entered its judgment under the 
+incorrect belief that the Village could not recover, and the court did not make 
+findings as to the Village’s damages. The trial court should enter a new judgment 
+under the correct legal framework. It should also reconsider its award of attorney 
+fees. Whether an additional evidentiary hearing on the Village’s damages is 
+required is for the trial court to determine. 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+- 23 - 
+¶ 70 
+ 
+ 
+ 
+ 
+ 
+CONCLUSION 
+¶ 71 
+ 
+For the foregoing reasons, we reverse the appellate court’s judgment. We affirm 
+circuit court’s judgment in favor of PML on its breach of contract claims. We 
+reverse the circuit court’s judgment in favor of PML on the Village’s breach of 
+contract counterclaims. We remand the matter to the circuit court for further 
+proceedings consistent with this opinion. 
+ 
+¶ 72 
+ 
+Appellate court judgment reversed. 
+¶ 73 
+ 
+Circuit court judgment affirmed in part and reversed in part. 
+¶ 74 
+ 
+Cause remanded. 
+ 
+¶ 75 
+ 
+JUSTICE ROCHFORD, specially concurring: 
+¶ 76 
+ 
+The facts relevant to the parties’ remedies are straightforward: the Village and 
+PML each materially breached the agreement, and each party, despite the mutual 
+breaches, persisted in performing under the agreement. I agree with my colleagues 
+that PML’s election to continue the contract obligated PML to fulfill its obligations, 
+thereby preserving the Village’s claim for damages. Likewise, the Village’s 
+election to continue the contract obligated the Village to fulfill its obligations, 
+thereby preserving PML’s claim for damages. But on its journey to the correct 
+result, the majority opinion veers off course, perpetuating the myth of the “partial 
+breach.” I write separately to clarify that the so-called “partial-breach” doctrine is 
+better understood as an election of remedies. 
+¶ 77 
+ 
+If a party fails to perform his duties under a contract, without a valid excuse, he 
+is liable for a breach of contract, and the remedy depends on whether the breach 
+was material or minor. Finch v. Illinois Community College Board, 315 Ill. App. 
+3d 831, 836 (2000); Circle Security Agency, Inc. v. Ross, 107 Ill. App. 3d 195 
+(1982). The Seventh Circuit Court of Appeals, recognizing the difference, 
+accurately described the “partial-breach” doctrine this way: 
+“Like many legal doctrines, it is badly named. There is no such thing as a partial 
+breach. There is a breach of contract, and there are alterations and terminations 
+
+ 
+ 
+ 
+ 
+ 
+- 24 - 
+that are not breaches. The doctrine is really an aspect of election of remedies. If 
+a party to a contract breaks it, the other party can abandon the contract (unless 
+the breach is very minor [citations]) and sue for damages, or it can continue 
+with the contract and sue for damages. [Citations.] But if it makes the latter 
+election, it is bound to the obligations that the contract imposes on it. 
+[Citations.] When [the defendant] *** broke its contract ***, [the plaintiff] 
+could have terminated the contract. But it did not, and so [the defendant] was 
+entitled to enforce the obligations that the contract put on [the plaintiff].” 
+Emerald Investments v. Allmerica Financial Life Insurance & Annuity Co., 516 
+F.3d 612, 618 (7th Cir. 2008). 
+¶ 78 
+ 
+Thus, a party injured by a minor breach is entitled to damages but may not 
+abandon the contract. By contrast, a material breach allows the injured party to elect 
+one of two remedies: (1) abandon the contract and sue for damages or (2) continue 
+the contract and sue for damages but risk liability for failing to fulfill his own 
+contractual obligations. 
+¶ 79 
+ 
+Contract breaches are described as material or minor, yet the majority 
+repeatedly refers to “partial” breaches, which do not exist. The majority compounds 
+the misnomer by holding that a material breach can “convert” to a “partial” breach. 
+Supra ¶¶ 52, 60, 64, 66. A material breach remains material regardless of the chosen 
+remedy—the breach is not diminished by the election to continue the contract. 
+Rather, the material breach is treated like a minor breach. 
+¶ 80 
+ 
+A party who does not terminate the contract either because he has no right to 
+(because the breach is minor) or elects not to (when the breach is material) has a 
+claim for damages in addition to his remaining substantive rights under the contract. 
+Damages are calculated on the assumption that both parties will continue to perform 
+in spite of the breach. Dustman v. Advocate Aurora Health, Inc., 2021 IL App (4th) 
+210157, ¶ 38 (citing 2 E. Allan Farnsworth, Farnsworth on Contracts § 8.15, at 437-
+38 (2d ed. 1998)). To be sure, an injured party may sue for any damages caused by 
+a material breach, but having elected to keep the contract in force, the injured party 
+must continue to fulfill its obligations on pain of likewise incurring liability for a 
+breach. Id. 
+¶ 81 
+ 
+I agree with my colleagues that PML and the Village, each having elected to 
+keep the contract in force despite the mutual breaches, incurred liability for failing 
+
+ 
+ 
+ 
+ 
+ 
+- 25 - 
+to fulfill their respective contractual obligations. Therefore, I concur in the 
+judgment. 

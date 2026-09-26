@@ -1,0 +1,3094 @@
+Notice:  This opinion is subject to correction before publication in the PACIFIC REPORTER. 
+Readers are requested to bring errors to the attention of the Clerk of the Appellate Courts, 
+303 K Street, Anchorage, Alaska 99501, phone (907) 264-0608, fax (907) 264-0878, email 
+corrections@akcourts.gov. 
+THE SUPREME COURT OF THE STATE OF ALASKA 
+WILLIAMS ALASKA PETROLEUM, 
+INC. and THE WILLIAMS 
+COMPANIES, INC., 
+Appellants, 
+v. 
+STATE OF ALASKA; FLINT HILLS 
+RESOURCES, LLC; and FLINT HILLS 
+RESOURCES ALASKA, LLC, 
+Appellees. 
+) 
+) 
+) 
+) 
+) 
+) 
+) 
+) 
+) 
+) 
+) 
+) 
+) 
+) 
+Supreme Court No. S-17772 
+uperior Court No. 4FA-14-01544 CI 
+ P I N I O N 
+o. 7658 – May 26, 2023 
+S
+O
+N
+Appeal from the Superior Court of the State of Alaska, 
+Fourth Judicial District, Fairbanks, Warren W. Matthews, 
+Judge pro tem. 
+Appearances:  David H. Shoup, Tindall Bennett & Shoup, 
+P.C., Anchorage, and Tristan L. Duncan and Mathew L. 
+Larsen, Shook, Hardy & Bacon L.L.P., Kansas City, 
+Missouri, for Appellants.  Laura Fox and Steven E. Mulder, 
+Assistant Attorneys General, Anchorage, and Treg R. Taylor, 
+Attorney General, Juneau, for Appellee State of Alaska. 
+James N. Leik, Perkins Coie LLP, Anchorage, and Jan M. 
+Conlin and Mathew R. Korte, Ciresi Conlin LLP, 
+Minneapolis, Minnesota, for Appellees Flint Hills Resources, 
+LLC and Flint Hills Resources Alaska, LLC. 
+Before:  Winfree, Chief Justice, Maassen, Carney, 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Henderson, Justices, and Eastaugh, Senior Justice.* 
+[Borghesan, Justice, not participating.] 
+CARNEY, Justice. 
+I.  
+INTRODUCTION . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3  
+II.  
+BACKGROUND . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 4  
+A.  
+Facts. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 4  
+B.  
+Statutory Background . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 7  
+C.  
+Proceedings . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 11  
+III.  
+STANDARDS OF REVIEW. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 15  
+IV.  DISCUSSION . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 17  
+A.  
+State’s Statutory Claims Against Williams. . . . . . . . . . . . . . . . . . . . . . 17  
+1.  
+The superior court did not err when it concluded that sulfolane is a  
+hazardous substance under AS 46.03.826(5). . . . . . . . . . . . . . . 17  
+2.  
+The superior court did not err by awarding response costs to the  
+State and Flint Hills.. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 31  
+3.  
+The superior court did not err by awarding damages for loss of  
+access to groundwater due to sulfolane contamination.. . . . . . . 38  
+4.  
+It was error to issue injunctive relief by reference to supporting  
+documents, but the superior court did not err by granting declaratory  
+relief.. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 48  
+a.  
+Challenges to the injunctive relief. . . . . . . . . . . . . . . . . . 50  
+b.  
+Challenges to the declaratory relief. . . . . . . . . . . . . . . . . 53  
+5.  
+Williams’s right to due process was not violated. . . . . . . . . . . . 56  
+6.  
+Imposing civil liability for past releases was not an unconstitutional  
+taking. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 63  
+B.  
+Flint Hills’s Contractual Indemnification And Statutory Contribution  
+Claims Against Williams . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 64  
+1.  
+Overview of the Purchase Agreement’s indemnification and  
+remedies provisions . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 65  
+* 
+Sitting by assignment made under article IV, section 11 of the Alaska 
+Constitution and Alaska Administrative Rule 23(a). 
+-2- 
+7658 
+
+2.  
+The superior court did not erroneously conclude that the Purchase  
+Agreement limited Flint Hills’s liability. . . . . . . . . . . . . . . . . . . 69  
+3.   
+The superior court did not err by concluding Williams retained  
+responsibility for offsite sulfolane.. . . . . . . . . . . . . . . . . . . . . . . 71  
+4.  
+The superior court did not err by concluding that Flint Hills could  
+pursue contribution. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 76  
+5.  
+The superior court’s contribution allocations were not erroneous.  
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 82  
+a.  
+The court did not err by allocating statutory contribution for  
+offsite sulfolane to Williams.. . . . . . . . . . . . . . . . . . . . . . 83  
+b.  
+The superior court adequately considered DEC’s earlier non- 
+regulation of sulfolane when it allocated damages. . . . . 83  
+c.  
+The superior court did not penalize Williams for “defending  
+itself.”. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 85  
+d.  
+The superior court did not err by not allocating responsibility 
+to the State or by ignoring Williams’s equitable defenses.  
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 86  
+e.  
+The superior court did not err by failing to allocate  
+responsibility to the City of North Pole. . . . . . . . . . . . . . 89  
+VI.  CONCLUSION . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 91  
+I.  
+INTRODUCTION 
+Following the release of hazardous substances that contaminated local 
+groundwater, the State and the previous and current owners of a refinery litigated 
+contract and statutory claims for damages, contribution, and injunctive relief under 
+Alaska’s environmental conservation statutes.  The superior court rejected the previous 
+owner’s claims against the State and the current owner, found the previous owner 
+strictly liable, and ordered it to pay damages to the State and make contribution to the 
+current owner for its remediation costs.  The court also issued injunctions requiring the 
+previous owner to perform and pay for various ongoing remediation and cleanup efforts. 
+The previous owner appeals many of the superior court’s findings of fact and 
+-3- 
+7658  
+
+conclusions of law.  The previous owner contends that the superior court erred by 
+concluding the substance at issue was hazardous, awarding response costs to the State 
+and the current owner, awarding damages for loss of groundwater access, issuing 
+improper injunctive and declaratory relief, interpreting the purchase contract between the 
+former and current owners to hold the former owner responsible for the substances 
+released, and improperly allocating damages.  The previous owner also contends that the 
+decision violated its right to due process and was an unconstitutional taking.  We affirm 
+the superior court’s decision except that we remand the grant of injunctive relief for more 
+specificity as required by rule. 
+II. 
+BACKGROUND 
+A. 
+Facts 
+Williams Alaska Petroleum, Inc. and The Williams Companies, Inc. 
+(collectively Williams) owned and operated a North Pole refinery beginning in 1977. 
+The refinery is on State-owned land which Williams leased.  Williams began using 
+sulfolane as a purifying solvent in its refining process in 1985.  Sulfolane is highly 
+soluble in water, meaning it can easily seep into groundwater when released onto the 
+ground and into waterways, and it has low volatility, meaning it will not readily 
+evaporate and instead remains in groundwater without attaching to the soil. 
+Williams allowed sulfolane to migrate into the groundwater at the refinery 
+through various means.  Sulfolane was recycled to the extent feasible, but due to its high 
+solubility some remained dissolved in water from refinery processes and was diverted 
+into the wastewater system.  Due to poor upkeep — with documented foot-wide tears in 
+wastewater lagoon linings and some holes “repaired” by “pulling [the] liner together and 
+punching with . . . pieces of lumber” — several wastewater storage units leaked sulfolane 
+into the soil and groundwater.  There were also direct sulfolane spills.  Williams had 
+multiple accidental releases of sulfolane-containing solutions, resulting in the release of 
+-4-
+7658  
+
+hundreds of gallons of solution with sulfolane concentrations ranging from 66% to 
+100%. 
+Sulfolane was detected in groundwater at the refinery in 1996 when 
+Williams’s lab manager found sulfolane in groundwater samples in concentrations 
+ranging from 250,000-2,700,000 parts per billion (ppb).  Williams did not report its 1996 
+detection of sulfolane in groundwater to the Alaska Department of Environmental 
+Conservation (DEC) until five years later in October 2001, when Williams’s consultant 
+Shannon & Wilson prepared a report for Williams’s 2002 Site Characterization and 
+Corrective Action Plan to address earlier environmental concerns about the refinery.  By 
+2001 sulfolane was generally known in the scientific community to “exhibit[] low levels 
+of toxicity,” but there otherwise was a dearth of available information about sulfolane, 
+and DEC did not regulate it as a hazardous substance.  DEC advised Williams about this 
+uncertainty regarding sulfolane’s toxicity and cautioned Williams about sulfolane’s high 
+mobility in groundwater.  DEC instructed Williams to continue sampling the 
+groundwater until it found the contamination source.  DEC informed Williams it could 
+reduce sampling frequency if its data were not changing and it could not find a source. 
+Williams was not able to determine the specific source and stopped sampling altogether 
+in July 2002. 
+Williams also used aqueous foams as part of its fire response practices. 
+These foams at the time contained per- and polyfluoralkyl substances, commonly called 
+“PFAS.”1   The PFAS in the foams included a wide range of synthetic chemicals; among 
+1 
+See 4 LAWRENCE G. CETRULO, TOXIC TORTS LITIGATION GUIDE § 48:1 
+(2022-23 ed.) (“Per- and polyfluoroalkyl s ubstances (PFAS) is a general t erm used to 
+describe a group of over 5,000 different synthetic chemicals that are used in industrial 
+and commercial applications throughout the world, most commonly to repel water and 
+oil, to combat high temperatures, and to reduce the effects of friction.”). 
+-5-
+7658  
+
+the chemicals were perfluorooctanesulfonic acid (PFOS) and perfluorooctanoic acid 
+(PFOA).2   Testing of the groundwater and soil at the refinery shows that, at the time of 
+trial, they contained several PFAS, including PFOA and PFOS. 
+On March 31, 2004 Williams sold the refinery to Flint Hills Resources, 
+LLC and Flint Hills Resources Alaska, LLC (collectively Flint Hills).  The parties to the 
+sale signed an Asset Sale and Purchase Agreement they agreed would be governed by 
+Texas law.  It contained detailed provisions about the assumption or retention of 
+liabilities related to all aspects of the refinery’s operations, including environmental 
+liabilities.  The parties agreed to hold harmless and indemnify each other for costs arising 
+from their respective retained liabilities.  Williams agreed to retain most environmental 
+liabilities arising from its operations at the refinery, excepting specific matters listed on 
+a Disclosure Schedule. 
+In an effort to ensure more certainty about future indemnification 
+obligations, the parties included a limit on indemnifiable damages with a specific 
+Environmental Cap of $32 million.  They further agreed that for claims “arising out of” 
+the Purchase Agreement, the remedies listed in the Purchase Agreement would be 
+exclusive, with certain exceptions including claims for equitable relief.  Williams agreed 
+to purchase a $50 million environmental liability insurance policy and paid $2.4 million 
+in premiums. 
+The Purchase Agreement also specified that Flint Hills was responsible for 
+future sulfolane releases at the refinery beginning April 1, 2004.  DEC informed Flint 
+2 
+Because the ingredients in the foam were proprietary information, the exact 
+compounds contained in the foams were not known at the time.  An expert witness 
+testified at trial that, based on safety information provided by the manufacturer, the 
+PFAS presumably included PFOA.  Williams admitted the foams contained PFAS and 
+PFOS, but stated it did not know whether they contained PFOA. 
+-6-
+7658  
+
+Hills in October 2004 that it considered sulfolane a regulated contaminant and would be 
+adopting cleanup standards. 
+By April 2019 the sulfolane in the groundwater had laterally travelled, 
+creating a plume approximately two miles wide, three and a half miles long, and over 
+three hundred feet deep, and spreading offsite from the refinery.  The plume then 
+extended into the City of North Pole’s groundwater, and it is expected that sulfolane will 
+continue to flow from the refinery site.  Flint Hills and the State have taken a variety of 
+steps to mitigate damages from the groundwater sulfolane plume, including providing 
+alternative interim water, well-testing, community outreach, and drafting site 
+characterization and corrective action plans.  The most significant step has been 
+expanding the City’s piped water system. 
+B. 
+Statutory Background 
+The legislature passed the Environmental Conservation Act3  to “conserve, 
+improve, and protect [Alaska’s] natural resources and environment and control . . . 
+pollution, in order to enhance the health, safety, and welfare of the people of the state.”4  
+The statutes empower a court to issue injunctions and impose damages on violators.5 
+Alaska Statute 46.03.710 prohibits polluting or adding “to the pollution of 
+the air, land, subsurface land, or water of the state.”6   Alaska Statute 46.03.760 authorizes 
+civil damages7  for violation of the Act or a DEC regulation, order, or permit.  The State’s 
+3 
+AS 46.03.010-.900. 
+4 
+AS 46.03.010 (declaring policy). 
+5 
+AS 46.03.765. 
+6 
+AS 46.03.710. 
+7 
+“Damages include but are not limited to injury to or loss of persons or 
+(continued...) 
+-7-
+7658  
+
+available damages for a violation of the Act are limited to “$100,000 for the initial 
+violation” and “$5,000 for each day after that on which the violation continues.”8  
+Subsection .760(a) also provides that the assessments 
+shall reflect, when applicable, 
+(1) reasonable compensation in the nature of liquidated 
+damages for any adverse environmental effects caused by the 
+violation, which shall be determined by the court according 
+to the toxicity, degradability, and dispersal characteristics of 
+the substance discharged, the sensitivity of the receiving 
+environment, and the degree to which the discharge degrades 
+existing environmental quality; 
+(2) reasonable costs incurred by the state in detection, 
+investigation, and attempted correction of the violation; 
+(3) the economic savings realized by the person in not 
+complying with the requirement for which a violation is 
+charged. 
+In addition to the damages allowed by subsection .760(a), subsection 
+.760(d) allows uncapped liability in cases of oil pollution or releases of hazardous 
+substances for actual damages caused to the state by a violation of AS 46.03.740-.750,9 
+7 
+(...continued) 
+property, real or personal, loss of income, loss of the means of producing income, or the 
+loss of an economic benefit.”  AS 46.03.824. 
+8 
+AS 46.03.760(a). 
+9 
+AS 46.03.740 (prohibiting the discharge of “petroleum, acid, coal or oil tar, 
+lampblack, aniline, asphalt, bitumen, or a residuary product of petroleum, into, or upon 
+the waters or land of the state” except as permitted).  Alaska Statute 46.03.745 prohibits 
+the uncontrolled release of a “hazardous substance as defined in AS 46.09.900.”  Alaska 
+Statute 46.09.900(4) defines “hazardous substance” as 
+(A) an element or compound that, when it enters i nto or on 
+(continued...) 
+-8-
+7658  
+
+including “(1) direct and indirect costs associated with the abatement, containment, or 
+removal of the pollutant; (2) restoration of the environment to its former state; (3) 
+amounts paid as grants . . . and (4) all incidental administrative costs.”10   The statute 
+cautions that “actions under this section may not be used for punitive purposes, and sums 
+assessed by the court must be compensatory and remedial in nature.”11   Section .780 
+provides that if a violation “causes the death of fish, animals, or vegetation or otherwise 
+injures or degrades the environment of the state,” the violator may be additionally liable 
+up to the “amount equal to the sum of money required to . . . replenish a damaged or 
+degraded resource, or to otherwise restore the environment of the state to its condition 
+before the injury.”12 
+To recover uncapped actual damages for a violation under AS 46.03.760(d), 
+the State must bring a civil action under AS 46.03.822, which provides for strict liability 
+for the release of hazardous substances.13   Subsection .822(a) holds persons strictly liable 
+9  
+(...continued) 
+the surface or subsurface land or water of the state, presents 
+an imminent and substantial danger to the public health or 
+welfare, or to fish, animals, vegetation, or any part of the 
+natural habitat in which fish, animals, or wildlife may be 
+found; or (B) a substance defined as a hazardous substance 
+under 42 U.S.C. 9601 - 9657 (Comprehensive Environmental 
+Response, Compensation, and Liability Act of 1980) 
+[CERCLA]; “hazardous substance” does not include 
+uncontaminated crude oil or uncontaminated refined oil . . . . 
+10 
+AS 46.03.760(d). 
+11 
+AS 46.03.760(b). 
+12 
+AS 46.03.780. 
+13 
+See AS 46.03.760(d) and AS 46.03.822. 
+-9- 
+7658  
+
+if they owned or had control over the hazardous substance at the time of release, or 
+owned or operated the facility where the hazardous substance was released or disposed.14  
+For the State to recover damages under subsection .822(a), it must demonstrate that the 
+released substance is a “hazardous substance” as defined by AS 46.03.826(5): 
+(A) an element or compound which, when it enters into the 
+atmosphere or in or upon the water or surface or subsurface 
+land of the state, presents an imminent and substantial danger 
+to the public health or welfare, including but not limited to 
+fish, animals, vegetation, or any part of the natural habitat in 
+which they are found; 
+(B) oil; or 
+(C) a substance defined as a hazardous substance under 
+42 U.S.C. 9601(14).[15] 
+14 
+AS 46.03.822(a)(1)-(3). 
+15 
+42 U.S.C. 9601(14) defines “hazardous substance” under CERCLA as 
+(A) any substance designated pursuant to section  
+311(b)(2)(A) of the Federal Water Pollution Control Act [33  
+U.S.C. 1321(b)(2)(A)], (B) any element, compound, mixture,  
+solution, or substance designated pursuant to section 9602 of  
+this title, (C) any hazardous waste having the characteristics  
+identified under or listed pursuant to section 3001 of the  
+Solid Waste Disposal Act [42 U.S.C. 6921] (but not  
+including any waste the regulation of which under the Solid  
+Waste Disposal Act [42 U.S.C. 6901 et seq.] has been  
+suspended by Act of Congress), (D) any toxic pollutant listed  
+under section 307(a) of the Federal Water Pollution Control  
+Act [33 U.S.C. 1317(a)], (E) any hazardous air pollutant  
+listed under section 112 of the Clean Air Act [42 U.S.C.  
+7412], and (F) any imminently hazardous chemical substance  
+or mixture with respect to which the Administrator has taken  
+action pursuant to section 7 of the Toxic Substances Control  
+Act [15 U.S.C. 2606]. The term does not include petroleum,  
+(continued...) 
+-10-
+7658  
+
+In addition to allowing the State to recover uncapped actual damages, AS 46.03.822 
+holds persons “strictly liable, jointly and severally, for damages, for the costs of 
+response, containment, removal, or remedial action incurred by the state, a municipality, 
+or a village, and for the additional costs of a function or service, including administrative 
+expenses for the incremental costs of providing the function or service.”16  
+The statute explicitly holds ineffective any “indemnification, hold harmless, 
+or similar agreement . . . to transfer liability . . . from the owner or operator of a 
+facility.”17   However, the statute allows for indemnification and hold harmless 
+agreements between liable parties to shift financial responsibility.18   Once liability is 
+determined by the court, parties “may seek contribution from any other person who is 
+liable under (a) of this section.”19   To resolve a claim for contribution, “the court may 
+allocate damages and costs among liable parties using equitable factors determined to be 
+appropriate by the court.”20  
+C.  
+Proceedings 
+In March 2014 the State sued Williams and Flint Hills seeking declaratory 
+15  
+(...continued) 
+. . . natural gas, . . . or synthetic gas usable for fuel (or 
+mixtures of natural gas and such synthetic gas). 
+16 
+AS 46.03.822(a).  Subsection .822(b) which relieves persons from liability 
+if certain narrow conditions arise, is inapplicable.  See AS 46.03.822(b) (releasing 
+liability if the release occurred solely because of an act of war; “an intentional or 
+negligent act or omission of a third party”; or an “act of God”). 
+17 
+AS 46.03.822(g). 
+18  
+Id. 
+19 
+AS 46.03.822(j). 
+20  
+Id. 
+-11- 
+7658  
+
+relief, injunctive relief, and damages resulting from discharges of oil and sulfolane.  The 
+State alleged that sulfolane is a hazardous substance as defined by Alaska’s 
+environmental conservation statutes and administrative code.  In its a nswer, Williams 
+denied that i ts sulfolane releases w
+ ere unlawful; asserted various l egal, equitable, and 
+constitutional defenses; and made counterclaims against the State.  Williams claimed the 
+State was a responsible landowner under AS 46.03.822(a) and could not “transfer its 
+liability” to Williams because it had not regulated sulfolane during Williams’s tenure at 
+the refinery.  Williams also claimed that D
+ EC was o rdinarily and grossly negligent in 
+supervising the refinery during Flint Hills’s tenure, allowing sulfolane to migrate off the 
+refinery property, which in turn resulted in damages to Williams that it should be able 
+to recover in contribution under AS 46.03.822(j). 
+Flint Hills similarly denied liability under the Act and asserted legal, 
+equitable, procedural, and constitutional defenses in its answer.  Flint Hills claimed the 
+State and Williams were responsible parties under AS 46.03.822(a), and Flint Hills 
+counterclaimed against the State for contribution under AS 46.03.822(j).  It also 
+crossclaimed against Williams seeking contribution under AS 46.03.822(j) and 
+indemnification under the terms of the Purchase Agreement, specific performance of the 
+Purchase Agreement, and declaratory judgment regarding Flint Hills’s right to 
+contribution and indemnification from Williams.  Williams in turn asserted crossclaims 
+against Flint Hills, claiming that Flint Hills had breached the Purchase Agreement, was 
+unjustly enriched by improperly seeking coverage from Williams’s environmental 
+insurance policy, and was ordinarily and grossly negligent in allowing sulfolane 
+contamination.  Williams sought damages for breach of contract, declaratory judgment 
+that it was entitled to indemnification under the Purchase Agreement, contribution under 
+AS 46.03.822(j), and application of the Purchase Agreement’s Environmental Cap to any 
+potential liability against Williams. 
+-12-
+7658  
+
+The City of North Pole also filed suit that year.  Its case and a case brought 
+by a North Pole resident against Williams and Flint Hills in 2010 were consolidated with 
+the State’s suit.  After PFAS contamination was discovered at the site, the State and Flint 
+Hills filed additional claims against Williams. 
+In 2016 we ruled in Flint Hills Resources Alaska, LLC v. Williams Alaska 
+Petroleum, Inc. (Flint Hills I) that Flint Hills’s claims against Williams for contractual 
+indemnification and statutory contribution under AS 46.03.822(j) were time-barred with 
+respect to onsite sulfolane contamination, but not offsite sulfolane contamination.21   We 
+also determined that because Flint Hills’s claims against Williams for declaratory and 
+injunctive relief were “equitable remedies . . . identical to the legal remedies Flint Hills 
+sought in its statutory and contractual claims,”22  it had not been error for the superior 
+court to dismiss the equitable claims.23  
+In February 2017 Flint Hills reached a settlement with the State and the 
+City, agreeing to partially fund an extension of piped water to affected residents.  The 
+superior court accordingly dismissed with prejudice the State’s and Flint Hills’s claims 
+against each other. 
+The State and Flint Hills added claims against Williams for offsite PFAS 
+soon after it was discovered in late 2018, but because discovery deadlines had passed the 
+21 
+377 P.3d 959, 973 (Alaska 2016). 
+22 
+Id. at 974 (“Flint Hills sought a judgment from the court declaring that 
+Williams must indemnify Flint Hills under the [Purchase] Agreement and that Williams 
+‘is obligated to contribute to Flint Hills all [s]tatutory [d]amages that have resulted . . . 
+from the [c]ontamination.’  Flint Hills also sought an order requiring Williams to perform 
+under the terms of the [Purchase] Agreement.” (lowercase alterations in original)). 
+23 
+See Knaebel v. Heiner, 663 P.2d 551, 553 (Alaska 1983) (“One who seeks 
+the interposition of equity must generally show that he either has no remedy at law or 
+that no legal remedy is adequate.”). 
+-13-
+7658  
+
+parties agreed the court would refer the offsite PFAS claims to DEC under the doctrine 
+of primary jurisdiction.24   Williams moved to defer onsite PFAS issues to DEC under the 
+same doctrine, but the superior court denied the motion, finding it was “primarily made 
+for purposes of delay” and would not facilitate the “orderly and reasonable coordination 
+of the work of agencies and courts” after “five years of active litigation.” 
+In June 2019 the superior court deconsolidated the State’s and the City’s 
+cases against Williams. 
+The State’s case against Williams proceeded to a bench trial.  Over 16 days 
+each side called lay and expert witnesses a nd admitted thousands of pages of exhibits 
+into evidence.25   The court issued a lengthy memorandum decision and final judgment, 
+concluding that sulfolane is a hazardous substance and that Williams is strictly, jointly, 
+and severally liable for its sulfolane release as well as for onsite PFAS and oil releases. 
+The court allocated 75% responsibility for offsite sulfolane costs to Williams and ordered 
+it to pay damages for that portion of the State’s response and oversight costs, as well as 
+for natural resource damages caused by the loss of the public’s access to groundwater 
+due to sulfolane contamination.  The court held Williams responsible for 75% of future 
+State costs related to the piped water system and held further that the State could recover 
+from Williams that portion of “DEC’s future oversight costs.”  The court a dditionally 
+ordered Williams to abide by Alaska statutes and DEC regulations related to monitoring, 
+reporting, and cleanup of offsite sulfolane and onsite PFAS.  The court found that Flint 
+24 
+“Primary jurisdiction is a judicially created prudential doctrine that applies 
+‘to claims properly cognizable in court [but] that contain some issue within the special 
+competence of an administrative agency.’ ”  Seybert v. Alsworth, 367 P.3d 32, 39 (Alaska 
+2016) (alteration in original) (quoting Reiter v. Cooper, 507 U.S. 258, 268 (1993)). 
+25 
+We discuss the relevant aspects of testimony and evidence presented when 
+addressing each point on appeal. 
+-14-
+7658  
+
+Hills was not responsible for PFAS contamination at the refinery. 
+The superior court then turned to Flint Hills’s claims against Williams to 
+recover costs for responding to the contamination.  The court determined that Williams 
+had retained liability for offsite sulfolane existing on the date Flint Hills acquired the 
+refinery.  The court found that, although Flint Hills could not recover its costs for 
+responding to the contamination through the Purchase Agreement’s indemnification 
+provisions, Flint Hills could obtain statutory contribution under AS 46.03.822(j).  The 
+court granted Flint Hills recovery from Williams for its equitable share of past offsite 
+sulfolane response costs, as well as its share of future costs related to the piped water 
+system and other offsite sulfolane remediation costs.  The court also ordered Williams 
+to indemnify, defend, hold harmless, and reimburse Flint Hills for all onsite PFAS-
+related future claims and costs.  And the superior court dismissed all of Williams’s 
+claims against the State and Flint Hills. 
+Williams appeals, claiming the superior court erred on various points of fact 
+and law. 
+III. 
+STANDARDS OF REVIEW 
+We review the superior court’s factual findings for clear error.26   “Clear 
+error exists ‘when “after a thorough review of the record, we come to a definite and firm 
+conviction that a mistake has been made.” ’ ”27   Questions of law, which include whether 
+the superior court applied the correct legal standard, are reviewed de novo.28  
+“We review a superior court’s evidentiary rulings for abuse of discretion,” 
+26 
+Burton v. Fountainhead Dev., Inc., 393 P.3d 387, 392 (Alaska 2017). 
+27 
+Id. (quoting Laybourn v. City of Wasilla, 362 P.3d 447, 453 (Alaska 2015) 
+(quoting 3-D & Co. v. Tew’s Excavating, Inc., 258 P.3d 819, 824 (Alaska 2011))). 
+28 
+Janes v. Alaska Railbelt Marine, LLC, 309 P.3d 867, 875 (Alaska 2013). 
+-15-
+7658  
+
+reversing only “evidentiary rulings that are both erroneous and prejudicial.”29   Under this 
+standard, we ask “whether the reasons for the exercise of discretion are clearly untenable 
+or unreasonable.”30   We also apply the abuse of discretion standard when we review 
+grants or denials of injunctive relief31  and decisions to “stay or dismiss a claim” under 
+the primary jurisdiction doctrine.32 
+“The superior court’s decision to allocate and apply contribution to a 
+damage award involves the interpretation and application of a statute.”33   We apply our 
+independent judgment to questions of law, including “the interpretation and application 
+of a statute,” as well as “[w]hether the superior court applied an incorrect legal 
+standard.”34   “We interpret statutes ‘according to reason, practicality, and common sense, 
+taking into account the plain meaning and purpose of the law as well as the intent of the 
+drafters.’ ”35 
+29 
+Id. 
+30 
+Burke v. Maka, 296 P.3d 976, 979-80 (Alaska 2013). 
+31 
+Lee v. Konrad, 337 P.3d 510, 517-18 (Alaska 2014); see also State v. 
+Galvin, 491 P.3d 325, 332 (Alaska 2021) (explaining that reviewing an order for 
+injunctive relief often also involves reviewing conclusions of law and findings of fact). 
+32 
+Seybert v. Alsworth, 367 P.3d 32, 36 (Alaska 2016); see also Matanuska 
+Elec. Ass’n v. Chugach Elec. Ass’n, 99 P.3d 553, 559 (Alaska 2004) (recognizing that 
+“primary agency jurisdiction doctrine is one of prudence, and not an absolute 
+jurisdictional limitation”). 
+33 
+Oakly Enters., LLC v. NPI, LLC, 354 P.3d 1073, 1078 (Alaska 2015); see 
+AS 46.03.822(j). 
+34 
+Oakly Enters., LLC, 354 P.3d at 1078 (quoting Guttchen v. Gabriel, 49 P.3d 
+223, 225 (Alaska 2002)). 
+35 
+Id. (quoting Native Vill. of Elim v. State, 990 P.2d 1, 5 (Alaska 1999)). 
+-16-
+7658  
+
+“The constitutionality of a statute and matters of constitutional or statutory 
+interpretation are questions of law to which we apply our independent judgment, 
+adopting the rule of law that is most persuasive in light of precedent, reason, and 
+policy.”36 
+“Questions of contract interpretation are generally questions of law which 
+we review de novo; but fact questions are created when the meaning of contract language 
+is dependent on conflicting extrinsic evidence.”37   “Where the superior court considers 
+extrinsic evidence in interpreting contract terms, . . . we will review the superior court’s 
+factual determinations for clear error and inferences drawn from that extrinsic evidence 
+for support by substantial evidence.”38 
+IV.  DISCUSSION 
+A.  
+State’s Statutory Claims Against Williams 
+1.  
+The superior court did not err when it concluded that sulfolane 
+is a hazardous substance under AS 46.03.826(5). 
+To impose strict liability on Williams under AS 46.03.822(a) for damages 
+caused by sulfolane releases, the superior court first needed to determine whether 
+sulfolane is a hazardous substance.39   It concluded that the sulfolane released by Williams 
+36 
+Dep’t of Revenue v. Nabors Int’l Fin., Inc., 514 P.3d 893, 898 (Alaska 
+2022) (quoting Premera Blue Cross v. State, Dep’t of Com., Cmty. & Econ. Dev., Div. 
+of Ins., 171 P.3d 1110, 1115 (Alaska 2007)). 
+37 
+Afognak Joint Venture v. Old Harbor Native Corp., 151 P.3d 451, 456 
+(Alaska 2007). 
+38 
+Nautilus Marine Enters., Inc. v. Exxon Mobil Corp., 305 P.3d 309, 315 
+(Alaska 2013) (quoting Villars v. Villars, 277 P.3d 763, 768 (Alaska 2012)). 
+39 
+See AS 46.03.822(a) (describing extent to which persons are liable for costs 
+associated with unpermitted release of hazardous substances); AS 46.03.826(5) (defining 
+(continued...) 
+-17- 
+7658  
+
+satisfied all three statutory definitions of hazardous substance under AS 46.03.826(5).40  
+Williams argues that the superior court misinterpreted the law when it found that 
+sulfolane met any of the three statutory definitions of hazardous substance.  We disagree, 
+and affirm the superior court’s determination that sulfolane is a hazardous substance 
+under the Act. 
+Several weeks before trial, the superior court issued a memorandum 
+tentatively adopting interpretations of “hazardous substance” used in AS 46.03.822(a) 
+and defined in subsection .826(5)(A).  It later adopted those interpretations in its 
+decision.  The court construed “imminent and substantial danger to the public health” to 
+mean “a reasonable medical concern about the public health where, given the modifier 
+‘substantial,’ the nature of the harm giving rise to concern is serious and, given the 
+modifier ‘imminent,’ the threat of harm must be present, although the potential impacts 
+may never develop or may take time to develop.”  The court primarily drew from several 
+federal circuit court decisions interpreting federal statutes with “imminent danger” 
+requirements to cover “potential” harms,41  as well as our decisions broadly interpreting 
+39 
+(...continued) 
+“hazardous substance”). 
+40 
+See AS 46.03.826(5) (defining hazardous substance as (A) a substance 
+which poses imminent and substantial danger to public health or welfare or natural 
+environment when released, (B) oil, or (C) a substance defined in CERCLA’s definitions 
+section at 42 U.S.C. 9601(14)). 
+41 
+See Reserve Mining Co. v. EPA, 514 F.2d 492, 528-29 (8th Cir. 1975) 
+(interpreting phrase “endangering the health or welfare of persons” from Federal Water 
+Pollution Control Act to cover discharge of “potentially harmful” substance that gave 
+“rise to a reasonable medical concern over the public health”); Maine People’s All. v. 
+Mallinckrodt, Inc., 471 F.3d 277, 296 (1st Cir. 2006) (holding that, under Resource 
+Conservation and Recovery Act (RCRA), “an imminent and substantial endangerment 
+(continued...) 
+-18-
+7658  
+
+AS 46.03.822.42 
+The superior court relied on the evidence presented at trial to find that 
+sulfolane “presents an imminent and substantial danger to the public health” under its 
+interpretation of AS 46.03.826(5)(A) — that it “presents a reasonable medical concern, 
+the nature of which is serious, and the threat of which is present when sulfolane is 
+released in the environment.”  The State called Dr. Ted Wu, a DEC employee and expert 
+in toxicology and environmental chemistry who reviewed the evidence of contamination 
+at the refinery.  He testified about a number of studies demonstrating sulfolane’s toxic 
+effects when animals were exposed to it, which could indicate potential adverse effects 
+on humans.  He testified that studies showed sulfolane exposure caused “convulsion[s] 
+. . . in squirrel monkeys and rats” and vomiting in squirrel monkeys, decreased kidney 
+and liver functions and white blood cell counts in guinea pigs and rats, increased 
+aggression in dogs, and increased fetal absorption and deformation in fetuses in rats and 
+guinea pigs.  Dr. Wu explained that squirrel monkeys were more susceptible to sulfolane 
+than were rodents, suggesting that humans could be even more susceptible than squirrel 
+monkeys.  Dr. Wu also testified that sulfolane is more toxic than about half of the 
+hazardous substances already identified in DEC’s default groundwater cleanup level 
+table and that sulfolane travels in groundwater to drinking water wells and thereby 
+41 
+(...continued) 
+requires a reasonable prospect of a near-term threat of serious potential harm”); 
+Simsbury-Avon Pres. Club, Inc. v. Metacon Gun Club, Inc., 575 F.3d 199, 210 (2d Cir. 
+2009) (discussing “imminency” as used in RCRA to require only “a showing that a ‘risk 
+of threatened harm is present’ ” (quoting Dague v. City of Burlington, 935 F.2d 1343, 
+1356 (2d Cir. 1991))). 
+42 
+See Berg v. Popham, 113 P.3d 604, 609 (Alaska 2005) (interpreting 
+AS 46.03.822(a) to impose broader arranger liability than that imposed by CERCLA); 
+Kodiak Island Borough v. Exxon Corp., 991 P.2d 757, 765 (Alaska 1999) (adopting a 
+broad, flexible definition of AS 46.03.822(a)’s cost clauses). 
+-19-
+7658  
+
+creates a risk to the public. 
+The State also called Dr. Mary Beth Leigh, a professor of microbiology at 
+the University of Alaska Fairbanks, to provide expert testimony about her own 
+experiments that showed sulfolane was toxic to a bacterium commonly used as a 
+screening tool for toxicity to organisms.  The State called former DEC Commissioner 
+Larry Hartig and former North Pole Mayor Bryce Ward to testify about sulfolane’s 
+impact on public welfare and the factors involved in gauging public welfare.  Hartig 
+testified that he understood the legislature’s intent to be that public welfare includes the 
+people’s “overall health and welfare,” as well as their “economic well-being” and their 
+“opportunity to have a living” and “subsistence.”  Ward testified about the negative 
+impact sulfolane contamination had on the North Pole community, causing residents to 
+be upset and concerned about the amount of sulfolane to which they were unwittingly 
+exposed. 
+Hartig also testified that DEC considered sulfolane a hazardous substance 
+in order to address the sulfolane plume with funding from the Oil and Hazardous 
+Substance Release Response Act Account.43   Funds from the account are available 
+expressly to cover State response costs in the event of oil or hazardous substance 
+releases.44   The definitions of “oil” and “hazardous substance” in the enabling legislation 
+are virtually the same as those in AS 46.03.826.  To obtain funds from the response 
+account, the DEC commissioner must find that the oil or hazardous substance released 
+“poses an imminent and substantial threat to public health or welfare, or to the 
+43 
+See AS 46.08.005-.080; AS 46.08.005 (establishing fund available to 
+respond to release of oil or hazardous substance “to reduce the amount, degree, or 
+intensity of a release or threatened release, and for other related purposes identified in 
+law”). 
+44 
+AS 46.08.040(a), .045. 
+-20-
+7658  
+
+environment,”45  a phrase that is virtually identical to the definition of “hazardous 
+substance” in AS 46.03.826(5)(A). 
+The State introduced Williams’s written emergency medical care policy into 
+evidence.  The policy described possible life-threatening effects of sulfolane if inhaled, 
+ingested, or in contact with the skin or eyes.  It listed “[c]ardiac arrhythmias, respiratory 
+failure, pulmonary edema, paralysis, brain damage, liver damage, lung tissue and 
+stomach tissue damage” as possible side effects from sulfolane exposure. 
+Williams presented deposition testimony from Stephanie Buss, a former 
+DEC employee and toxicologist.  When asked to identify “every single fact . . . that 
+would indicate that sulfolane is and presents an imminent and substantial danger to the 
+public health and welfare,” Buss stated that “toxicity studies . . . indicat[ed] adverse 
+health effects” and proceeded to identify various studies.  She also referred to studies 
+indicating that sulfolane posed dangers not only to public health and welfare, but also to 
+“fish and vegetation.” 
+Williams also called James Fish, a DEC employee and project manager for 
+the refinery contamination area.  Fish testified that the EPA had previously treated 
+sulfolane as a hazardous substance at a refinery in Puerto Rico.  He testified that the 
+EPA’s approach to the Puerto Rican refinery supported DEC’s decision to consider 
+sulfolane a hazardous substance. 
+The superior court relied heavily on Dr. Wu’s testimony to determine that 
+sulfolane is a hazardous substance under AS 46.03.826(5)(A) based on the danger it 
+posed to public health and welfare.  It found Dr. Wu’s medical concerns about sulfolane 
+were both “reasonable and serious” and that “ [a]t a minimum, sulfolane exposure can 
+reduce white blood cell counts; at a maximum sulfolane exposure can cause death.”  The 
+-21-
+7658 
+45 
+AS 46.08.040(a)(1)(A). 
+
+court also found it notable that, while operating the refinery, Williams itself treated 
+sulfolane in its emergency medical care policy as though it were life-threatening. 
+In addition to sulfolane’s demonstrated toxicity, the superior court was 
+troubled by its chemical properties as well as the concentrations in which it had been 
+released.  The court was not convinced that sulfolane concentrations found in the 
+environment after it was released were material to establishing whether sulfolane was 
+hazardous, but it was persuaded that the concentrations at the time of release “into the 
+subsurface land and water of the State presented an imminent and substantial danger to 
+the public health and welfare.” 
+The court also found that DEC’s treatment of sulfolane as a hazardous 
+substance under AS 46.03.826(5)(A) was entitled to deference.  The court reasoned that 
+“Hartig accessed the [Oil and Hazardous Substance Release] [R]esponse [A]ccount 
+several times to address the sulfolane contamination,” and each time he had to determine 
+that “the contamination posed an imminent and substantial threat” to the public health 
+and welfare or to the environment.  The court found that these actions by DEC reflected 
+“the agency’s conclusions both that sulfolane is a hazardous substance and that the 
+release at issue is posing an imminent and substantial threat to public health, welfare, or 
+the environment”; “DEC’s determination that sulfolane is a hazardous substance is 
+reasonable, supported by the record, and not an abuse of discretion”; and DEC’s 
+determination “is entitled to judicial deference and it is therefore controlling in this case.” 
+The court similarly concluded that sulfolane is a hazardous substance because it also 
+“presents an imminent and substantial danger to public welfare.”  In its underlying 
+findings the court specifically cited the testimony from former officials and scientists 
+about sulfolane’s impacts on the public health and welfare. 
+In addition to trial evidence, the superior court relied on admissions in 
+Williams’s pleadings to support its conclusion that sulfolane was a hazardous substance. 
+-22-
+7658  
+
+The State’s 2014 complaint alleged that “[s]ulfolane is a hazardous substance within the 
+meaning of AS 46.03.745, AS 46.03.900, AS 46.03.826, and 18 AAC 75.990.”  Williams 
+initially admitted that allegation, but denied that DEC “considered sulfolane to be a 
+hazardous substance under any statute or regulation at any time during [Williams]’s 
+ownership and operation of the North Pole Refinery.”  Williams later amended its 
+answer, retaining the sentence denying DEC’s classification of sulfolane as a hazardous 
+substance, but instead asserting that the State’s allegation that sulfolane is a hazardous 
+substance was a “legal conclusion to which no response [was] required.”  But Williams 
+did not withdraw an earlier stipulation agreeing that “Flint Hills is a liable landowner and 
+operator under AS 46.03.822(a) for sulfolane releases.” 
+The superior court gave some weight to Williams’s initial admission and 
+its stipulation.  The court found that Williams’s “first answer constitute[d] an evidentiary 
+admission that sulfolane is a hazardous substance, notwithstanding Williams’[s]” 
+amended pleading, finding support in Brigman v. State, which recognizes that “[c]ourts 
+often admit superseded or withdrawn pleadings in civil and criminal cases on the theory 
+that they constitute evidentiary admissions.”46   The court also found that Williams 
+admitted that sulfolane is a hazardous substance when it stipulated as to Flint Hills’s 
+liability for sulfolane.  The court reasoned that “Flint Hills could not be liable under 
+AS 46.03.822(a) for sulfolane releases if sulfolane were not a hazardous substance.  If 
+sulfolane is a hazardous substance when released by Flint Hills, it is a hazardous 
+substance when released by Williams.” 
+In addition to holding Williams strictly liable under AS 46.03.822 due to 
+hazardous substance releases as defined in AS 46.03.826(5)(A), the court held Williams 
+strictly liable under section .822 because many of the releases were sulfolane mixed with 
+-23-
+7658 
+46 
+64 P.3d 152, 166 (Alaska App. 2003). 
+
+oil and because sulfolane wastewater constituted a “petroleum-related byproduct” under 
+AS 46.03.826(5)(B) and AS 46.03.826(7).47   The court found that sulfolane was 
+“released as a constituent of Williams’[s] oil spills” and that “Williams had numerous 
+spills of gasoline containing sulfolane at the refinery.” 
+Finally, the court concluded that sulfolane is a hazardous substance under 
+AS 46.03.826(5)(C).  Subsection .826(5)(C) defines as hazardous any “substance defined 
+as a hazardous substance under 42 U.S.C. 9601(14),” CERCLA’s expansive definition 
+of hazardous substance that includes “any hazardous waste having the characteristics 
+identified under or listed pursuant to section 3001 of the Solid Waste Disposal Act [42 
+U.S.C. § 6921]” (a section better known as the Resources Conservation and Recovery 
+Act (RCRA)).48   The court found sulfolane met the hazardous substance definitions under 
+AS 46.03.826(5)(C) because the EPA had treated it as hazardous waste under RCRA 
+when it was released at a refinery in Puerto Rico. 
+Williams argues that the superior court misinterpreted the law when it 
+found that sulfolane met any of the statutory definitions of hazardous substance in 
+AS 46.03.826(5).  Regarding subsection .826(5)(A), Williams argues that the court’s 
+definition of “imminent” does not comport with dictionary or judicial definitions of the 
+word.  It contends that an “imminent danger” must be one that “threaten[s] to occur 
+immediately,”49  not one that may take time to develop.  Quoting the court’s 
+47 
+AS 46.03.826(5)(B) (defining “hazardous substance” to include “oil”); 
+AS 46.03.826(7) (defining “oil” to include “petroleum-related product or by-product”). 
+48 
+42 U.S.C. § 9601(14) (governing disposal of hazardous and non-hazardous 
+solid waste). 
+49 
+Quoting Meghrig v. KFC W., Inc., 516 U.S. 479, 485 (1996) (citing 
+WEBSTER’S NEW INTERNATIONAL DICTIONARY OF THE ENGLISH LANGUAGE at 1245 (2d 
+(continued...) 
+-24-
+7658  
+
+memorandum adopting a tentative definition of hazardous substance, Williams alleges 
+that the court improperly concluded that “imminent and substantial danger to public 
+health” meant only a “reasonable medical concern about the public health.”50   Williams 
+argues that this definition of “imminent and substantial danger” has never been “adopted 
+by any court, applied by DEC, or advocated by any party during five years of litigation”; 
+that it runs counter to the plain language of the statute; that it “threatens to deprive a 
+49 
+(...continued) 
+ed. 1934)). 
+50 
+This misrepresents the superior court’s definition.  The court did not 
+conclude that an “imminent and substantial danger” meant only a “reasonable medical 
+concern about the public health,” but also that, “given the modifier ‘substantial,’ the 
+nature of the harm giving rise to concern is serious and, given the modifier ‘imminent,’ 
+the threat of harm must be present, although the potential impacts may never develop or 
+may take time to develop.” 
+Moreover, the court ultimately made separate findings that sulfolane 
+presented an imminent and substantial danger to the public health and welfare. 
+Williams’s opening brief primarily argues against the danger to public health finding. 
+Its arguments about the public welfare findings are limited to a single footnote in its 
+opening brief that simply incorporates “all the above reasons why sulfolane is not a 
+hazardous substance in the first instance.”  Williams’s reply brief claims that the 
+arguments are interchangeable.  Williams does not challenge the court’s factual findings 
+about the impact on North Pole residents or its finding that residents’ concerns about 
+“economic well-being [and] opportunity to have a living” are incorporated in the public 
+welfare prong of the definition, and fails to adequately address this issue.  We thus 
+consider Williams’s challenge to the court’s finding waived.  See Alaska R. App. P. 
+212(c)(1)(H) (requiring that argument section “explain the contentions of the appellant 
+. . . and the legal and factual support for those contentions, with citations to the 
+authorities, statutes, and parts of the record relied on”); Casciola v. F.S. Air Serv., Inc., 
+120 P.3d 1059, 1062 (Alaska 2005) (“We do not consider arguments that are 
+inadequately briefed.”). 
+-25-
+7658  
+
+defendant of the constitutional right to fair notice” under Stock v. State;51 and that it is 
+contrary to the legislative history.  Williams also argues that because the concentrations 
+of sulfolane “had decreased dramatically and were nowhere near the ranges cited by the 
+court” by the time the plume reached drinking water wells, the court erred by finding that 
+sulfolane was hazardous at the time of release. 
+The State responds that Williams’s proposed definition of “imminent” is 
+flawed because it would exclude substances causing delayed manifestations of harm, 
+such as birth defects or cancer.  The State emphasizes that the statute uses the word 
+“danger” rather than “harm” to signify the possibility of harm, rather than the present 
+existence of harm.  And it argues that, even under Williams’s proposed interpretation of 
+AS 46.03.826(5)(A), trial evidence supports finding sulfolane is a hazardous substance. 
+The State points to the numerous studies demonstrating sulfolane’s harmful effects on 
+animals.  The State asserts that there is no legal support for Williams’s contention that 
+“whether a substance is hazardous should turn on its concentrations in the environment 
+after decades of dilution.” 
+Williams also asserts that the superior court improperly relied on evidence 
+from Dr. Wu and DEC employee Stephanie Buss because, although they indicated they 
+believed sulfolane was a hazardous substance, they did not state explicitly that it 
+“presents an imminent and substantial danger to public health.”  Williams argues that it 
+was error to infer that sulfolane is a hazardous substance, pointing to a ruling on the 
+parties’ 2018 motions for summary judgment which discounted Dr. Wu’s affidavit for 
+not using these statutory terms.  The State responds that “[n]o rule of evidence says that 
+witness testimony ‘must be excluded’ and cannot be used to support a factual finding if 
+51 
+526 P.2d 3 (Alaska 1974) (explaining circumstances under which 
+environmental conservation statutes might be unconstitutionally vague).  We address fair 
+notice and due process in part IV.A.5 below. 
+-26-
+7658  
+
+it does not use particular words from a statutory definition.”  The State also points out 
+that Williams did not “cit[e] contrary evidence or explain [in its brief] why the studies 
+do not show that sulfolane is dangerous.” 
+When we interpret a statute, we presume “that the legislature intended every 
+word, sentence, or provision of a statute to have some purpose, force, and effect, and that 
+no words or provisions are superfluous.”52   We apply a “sliding-scale approach” to 
+interpret the language:  “[t]he plainer the statutory language is, the more convincing the 
+evidence of contrary legislative purpose or intent must be.”53   To the extent possible, we 
+“interpret each part or section of a statute with every other part or section, so as to create 
+a harmonious whole.”54   Whether a substance meets the legal standard of “hazardous 
+substance” is a “question of law to which we apply our independent judgment.”55 
+We are not p ersuaded by Williams’s arguments.  The two key issues are 
+whether “imminent” dangers under AS 46.03.826(5)(A) can include non-immediate 
+dangers and whether the facts support concluding sulfolane is a hazardous substance. 
+Turning to the first issue, we note that because the parties do not discuss the 
+legislative history of the statute,56  we look primarily to the plain meaning of the statute. 
+52 
+Kodiak Island Borough v. Exxon Corp., 991 P.2d 757, 761 (Alaska 1999) 
+(quoting Rydwell v. Anchorage Sch. Dist., 864 P.2d 526, 530-31 (Alaska 1993)). 
+53 
+State v. Planned Parenthood of the Great Nw., 436 P.3d 984, 992 (Alaska 
+2019) (quoting State v. Fyfe, 370 P.3d 1092, 1095 (Alaska 2016)). 
+54 
+Id. (original alteration omitted) (quoting Rydwell, 864 P.2d at 528). 
+55 
+See Burton v. Fountainhead Dev., Inc., 393 P.3d 387, 392 (Alaska 2017). 
+56 
+Williams alludes to its October 2019 response to the court’s interpretation 
+of “imminent and substantial danger,” when Williams did engage in a legislative history 
+analysis.  However, it makes no arguments now on appeal beyond (1) asserting that 
+(continued...) 
+-27-
+7658  
+
+The undefined use of “imminent” in statutes and treaties, across diverse subject areas, 
+has plagued legal scholars for decades.57   When the legislature enacted 
+AS 46.03.826(5)(A), Black’s Law Dictionary defined “imminent” as something “[n]ear 
+at hand; mediate rather than immediate; . . . impending; on the point of happening; 
+threatening.”58  It defined “danger” as “[j]eopardy; exposure to loss or injury; peril.”59  
+Similarly, Merriam-Webster’s Collegiate Dictionary defined “imminent” as “ready to 
+take place”60  and “danger” as “exposure or liability to injury, pain, or loss.”61   While an 
+“imminent danger” is thus typically some harm that is threatening to occur immediately, 
+the fact that harm ultimately did not occur does not mean that the harm was not imminent 
+56 
+(...continued) 
+AS 46.03.826(5)(A) was enacted prior to subsection .826(5)(C) and thus could not have 
+been designed to expand subsection .826(5)(C); and (2) making conclusory statements 
+that the court’s interpretation of imminent and substantial danger “finds no support in the 
+statutory text or the legislative history.”  “[A] party’s briefing must contain its own 
+arguments and may not merely incorporate arguments from other documents.” 
+McCormick v. Chippewa, Inc., 459 P.3d 1172, 1180 (Alaska 2020).  We conclude 
+Williams’s legislative history arguments were insufficiently briefed and thus waived. 
+57 
+See, e.g., Authority of the President Under Domestic and International Law 
+to Use Military Force Against Iraq, 26 Op. O.L.C. 143, 182-84 (2002) (discussing 
+ambiguities of “imminent” in international law, including temporal elements, 
+probabilities that threat will materialize, and magnitude of harm that threat would cause 
+such that immediacy is no longer required). 
+58 
+Imminent, BLACK’S LAW DICTIONARY (rev. 4th ed. 1968) (similarly defined 
+in current 11th edition). 
+59 
+Danger, id. (similarly defined in current 11th edition).  Black’s Law 
+Dictionary also provides a definition for “imminent danger,” but it applies to the use of 
+self-defense and seems inapplicable to environmental harms. 
+60 
+Imminent, MERRIAM-WEBSTER’S COLLEGIATE DICTIONARY (7th ed. 1963). 
+61 
+Danger, id. 
+-28-
+7658  
+
+at one point.  Federal case law cited by the superior court and both parties supports this 
+interpretation of “imminent danger.”62   The court’s interpretation of “imminent” — that 
+“the threat of harm must be present, although the potential impacts may never develop 
+or may take time to develop” — aligns with the plain definition of statutory terms as well 
+as federal case law interpreting like terms. 
+Williams’s factual and evidentiary challenges to the hazardous substance 
+conclusion also fail to withstand scrutiny.  Williams does not cite any case law or rules 
+of evidence to support its argument that expert testimony must exactly track the relevant 
+statutory text at issue.63   Alaska Evidence Rule 702(a) allows qualified experts to rely on 
+their “scientific, technical, or other specialized knowledge” to express opinions that will 
+“assist the trier of fact to understand the evidence or to determine a fact in issue.”  There 
+is no indication that it would be improper for the trier of fact to rely on expert testimony 
+if the expert fails to repeat verbatim the statutory language at issue while offering an 
+opinion.  Dr. Wu’s and Buss’s testimony demonstrated that sulfolane, “when it enters . . . 
+62 
+See Meghrig v. KFC W., Inc., 516 U.S. 479, 485-86 (1996) (interpreting 
+RCRA’s “imminent and substantial endangerment” provision as requiring threat of 
+danger to be then-present even if impact may not be felt until later); Reserve Mining Co. 
+v. EPA, 514 F.2d 492, 528-29 (8th Cir. 1975) (interpreting phrase “endangering the 
+health or welfare of persons” from Federal Water Pollution Control Act to cover 
+discharge of “potentially harmful” substance that gave “rise to a reasonable medical 
+concern over the public health”); Maine People’s All. v. Mallinckrodt, 471 F.3d 277, 296 
+(1st Cir. 2006) (holding that, under RCRA, “an imminent and substantial endangerment 
+requires a reasonable prospect of a near-term threat of serious potential harm”); 
+Simsbury-Avon Pres. Club, Inc. v. Metacon Gun Club, Inc., 575 F.3d 199, 210 (2d Cir. 
+2009) (stating “imminency” standard in RCRA “requires a showing that a ‘risk of 
+threatened harm is present’ ” (quoting Dague v. City of Burlington, 935 F.2d 1343, 1356 
+(2d Cir. 1991))). 
+63 
+See Marcia V. v. State, Off. of Child.’s Servs., 201 P.3d 496, 508 (Alaska 
+2009) (rejecting argument that expert testimony must recite statutory language). 
+-29-
+7658  
+
+in or upon the water or surface or subsurface land[,] . . . presents an imminent and 
+substantial danger to the public health . . . including . . . to fish, animals, vegetation, or 
+any part of the natural habitat in which they are found.”64   Dr. Wu testified extensively 
+about sulfolane’s toxic effects on animals exposed to it.  And Williams mischaracterizes 
+Buss’s deposition testimony, alleging she concluded sulfolane was a hazardous substance 
+based only on studies showing that “sulfolane has the potential to have adverse effects.” 
+(Emphasis omitted).  But Buss also discussed a study showing “significant impacts of 
+high concentrations of exposure.”  Her deposition testimony indicates that she believed 
+sulfolane posed an imminent and substantial danger to the public health or welfare, but 
+she clarified that none of the studies to which she referred used those words so she 
+avoided saying that a study made such an explicit finding.  That Dr. Wu and Buss never 
+expressly stated “sulfolane presented an imminent and substantial danger to public 
+health” did not preclude the superior court from making such a finding, especially in 
+light of the ample evidence suggesting that fact.  The superior court did not err by relying 
+on Dr. Wu’s and Buss’s testimony when making its findings. 
+Other testimony from Dr. Wu further supports finding sulfolane presents 
+an imminent and substantial danger to the public health or welfare.  He testified about 
+studies showing negative impacts on plants, earthworms, aquatic invertebrates, and fish 
+when exposed to sulfolane, including a study demonstrating impacts on embryonic 
+development in zebrafish when exposed to a range of sulfolane concentrations equivalent 
+to concentrations found in groundwater near refineries around the world.  And the fact 
+that Williams itself treated sulfolane as a substance with life-threatening characteristics 
+while handling it further supports the court’s hazardous substance finding. 
+The superior court also did not abuse its discretion by giving weight to 
+-30-
+7658 
+64 
+AS 46.03.826(5)(A). 
+
+Williams’s initial admission that sulfolane was a hazardous substance, which could shed 
+light on Williams’s own beliefs about whether sulfolane was hazardous.65   Williams 
+failed to refute the inferences that could be drawn from its earlier admission, especially 
+when those inferences were supported by Williams’s own sulfolane-handling practices 
+at the refinery.66 
+2.  
+The superior court did not err by awarding response costs to the 
+State and Flint Hills. 
+Alaska Statute 46.03.822(a) imposes strict liability on those responsible for 
+the unpermitted release of hazardous substances for a range of costs, including response 
+costs.  “Response costs” are defined by regulation as “costs reasonably attributable to the 
+65 
+In contrast to binding judicial admissions, “evidential admissions are words 
+or conduct admissible in evidence against the party making them, but subject to rebuttal 
+or denial.”  29A AM. JUR. 2D Evidence § 769; see 2 KENNETH S. BROUN ET AL., 
+MCCORMICK ON EVIDENCE § 254 (8th ed. 2020) (defining “judicial admission”). 
+“Evidentiary admissions may also be made in pleadings that have been superseded, 
+amended, or withdrawn; answers to interrogatories; and other statements made pursuant 
+to the . . . Rule of Evidence governing statements by opposing parties.”  29A AM. JUR. 
+2D Evidence § 769.  Admissions constituting opinion, such as a conclusion of law, 
+normally include an application of a standard to the facts. 
+Thus, they reveal the facts as the declarant thinks them to be, 
+to which the . . . legal or moral standard involved in the 
+statement was applied.  In these circumstances, the factual 
+information conveyed should not be ignored merely because 
+the statement may also indicate the party’s assumptions about 
+the law. 
+BROUN, supra, § 256 (citations omitted); see also Cikan v. ARCO Alaska, Inc., 125 P.3d 
+335, 341 (Alaska 2005). 
+66 
+Because we affirm the superior court’s conclusion that sulfolane is a 
+hazardous substance under AS 46.03.826(5)(A), it is not necessary for us to address the 
+extent to which sulfolane may also be defined as a hazardous substance under 
+subsections AS 46.03.826(5)(B) and (C). 
+-31- 
+7658  
+
+site or incident” including “the costs of direct investigation, containment and cleanup, 
+removal, and remedial actions associated with an incident or site undertaken by the 
+department . . . as well as the costs of oversight.”67 
+The superior court found that the State’s and Flint Hills’s plans to “provide 
+alternative water in the form of a piped water expansion project [were] reasonable and 
+not arbitrary or capricious.”  There was expert testimony that groundwater remediation 
+would likely cost at least $6 million more than expanding the piped water system, and 
+would take decades to achieve.  The court found “Williams . . . liable for the estimated 
+costs of the piped water system, $72,228,154, as an appropriate response cost under 
+.822(a).”68   Other response costs included those incurred by Flint Hills to deliver bulk 
+and bottled water in the interim and to drill new public wells after sulfolane was detected 
+in the City’s source wells.  The interim water deliveries were part of a project costing 
+$27.67 million, and the new City source wells cost $4.39 million. 
+Williams argues that the superior court erred by awarding the State 
+response costs for the piped water system and new wells, claiming the piped water 
+system was unnecessary, not cost-effective, and unreasonable.  Williams also argues the 
+superior court erred by awarding Flint Hills costs for bottled water to North Pole 
+residents, contending that new wells for the City and “providing alternative water to 
+residents on an interim basis” were unnecessary. 
+Williams points to several environmental conservation regulations to 
+67 
+18 Alaska Administrative Code (AAC) 75.910(b) (2021). 
+68 
+The court calculated expected cost for the piped water system — 
+$72,228,154 — based on “payments from escrow to date by the State of $11,599,681 and 
+$44,378,473 from Flint Hills; an additional $16.25 million is expected to be required to 
+complete the project.”  It then determined that Williams was equitably responsible for 
+75% of the State’s and Flint Hills’s future costs related to the piped water system. 
+-32-
+7658  
+
+support its assertion that “Site Cleanup Rules require those responsible for contamination 
+to take only those actions ‘necessary to protect human health, safety, and welfare, and 
+the environment.’ ”69   But as the State points out, the standard in the site cleanup 
+regulations differs from that required by statute.70   The regulations mainly focus on what 
+the responsible party must do to remedy contamination it has caused, which could be 
+read to require only that the responsible party take the minimum protective actions 
+“necessary.”71   But when considered in light of the policy behind the Environmental 
+69 
+Quoting 18 AAC 75.335 (requiring responsible party to generate site 
+characterization plans prior to hazardous substance cleanup), and also citing 18 AAC 
+75.345 (requiring cleanup to meet specific levels), .360 (specifying cleanup operation 
+requirements for responsible party), .380 (detailing responsible party’s reporting and site 
+closure requirements), and .990 (chapter definitions, including “cleanup level”). 
+70 
+See AS 46.03.822(a) (imposing strict liability on responsible parties for 
+damages resulting from “unpermitted release of a hazardous substance,” including “costs 
+of response, containment, removal, or remedial action, . . . and for the additional costs 
+of a function or service, including administrative expenses for the incremental costs of 
+providing the function or service”); AS 46.03.824 (“Damages include but are not limited 
+to injury to or loss of persons or property, real or personal, loss of income, loss of the 
+means of producing income, or the loss of an economic benefit.”); see also Kodiak Island 
+Borough v. Exxon Corp., 991 P.2d 757, 765 (Alaska 1999) (construing, in dicta, 
+“subsection .822(a)’s statement of specific compensable costs to be exemplary and 
+inclusive, not definitive or exclusive” and “adopt[ing] a literal and inflexible view of 
+subsection .822(a)’s cost clauses would be fundamentally inconsistent with what we 
+perceive to be the legislature’s primary intent in enacting these provisions:  to hold 
+responsible parties strictly liable for all provable spill-related harms”). 
+71 
+See 18 AAC 75.990(17) (defining “cleanup” to include “removal of a 
+hazardous substance from the environment, restoration, and other measures that are 
+necessary to mitigate or avoid further threat to human health, safety, or welfare, or to the 
+environment” (emphasis added)); 18 AAC 75.335(c)-(d) (describing requirements of site 
+characterization report submitted to DEC and allowing DEC to “modify proposed 
+cleanup techniques or require additional cleanup techniques for the site as the department 
+(continued...) 
+-33-
+7658  
+
+Conservation Act and its enabling regulations, it is more likely that the provisions 
+Williams cites operate to establish a baseline cleanup level for the responsible parties, 
+and not a ceiling for the State to respond to the contamination.72   The State incurred costs 
+as a result of Williams’s hazardous substance releases and Williams is therefore strictly 
+liable for them. 
+Williams further argues that the piped water system was unnecessary 
+because DEC had not established a cleanup level required to make the groundwater safe 
+for human consumption73  and the court had not made findings that piped water was 
+71 
+(...continued) 
+determines to be necessary to protect human health, safety, and welfare, and the 
+environment”); 18 AAC 75.345(c) (allowing DEC to set more stringent groundwater 
+cleanup levels than those currently published if it “determines that a more stringent 
+cleanup level is necessary to ensure protection of human health, safety, or welfare, or of 
+the environment”); 18 AAC 75.345(d) (allowing DEC to “require a responsible person 
+to provide an alternative source of drinking water for the affected parties or implement 
+other institutional controls . . . until a cleanup level is established” when “toxicity 
+information is insufficient to establish a cleanup level for a hazardous substance or a 
+pollutant that ensures protection of human health, safety, and welfare, and of the 
+environment”). 
+72 
+See 18 AAC 75.910(b) (holding responsible parties liable for “response 
+costs” and defining response costs as “costs reasonably attributable to the site or 
+incident” including “costs of direct investigation, containment and cleanup, removal, and 
+remedial actions associated with an incident or site undertaken by the department . . . as 
+well as the costs of oversight”); see also AS 46.03.760(d) (holding responsible person 
+“liable to the state . . . for the full amount of actual damages caused to the state by the 
+violation, including” costs for abatement, containment, restoration, and emergency 
+response costs); AS 46.03.780 (allowing for broad recovery when hazardous substance 
+release “injures or degrades the environment”). 
+73 
+DEC had not yet set cleanup levels because of uncertainty about its toxicity 
+data for sulfolane.  In 2015 the EPA recommended that DEC refrain from doing so until 
+the EPA had completed its own toxicity studies evaluating the health effects of sulfolane 
+(continued...) 
+-34-
+7658  
+
+necessary for human or environmental health.  For example, Williams claims there was 
+no evidence demonstrating that “the low levels of sulfolane in North Pole area wells have 
+caused adverse health effects.”  The State again points to the text of AS 46.03.822, where 
+the extent of liability and recovery is untethered to findings of “necessity” or “cleanup 
+levels.”  The State argues that Williams could have proposed a cleanup level74  and 
+Williams’s failure to participate “in the regulatory process . . . puts it in a poor position 
+to now raise regulation-based objections to DEC’s response.”  Furthermore, regulations 
+expressly allow DEC to require a responsible person to provide alternative water sources 
+when “toxicity information is insufficient to establish a cleanup level for a hazardous 
+substance or a pollutant.”75   And, as discussed below, feasibility studies showed that 
+alternatives to the piped water system such as remediating the groundwater would be 
+costly, difficult to implement, uncertain to succeed, and could pose additional risks. 
+Thus establishing a level to which groundwater concentrations would need to have been 
+returned was irrelevant in these circumstances.  The superior court properly concluded 
+that the statutes did not require the State to prove that the piped water system was 
+necessary.76 
+73 
+(...continued) 
+exposure. 
+74 
+See 18 AAC 75.345(b)(3) (allowing DEC to approve responsible party’s 
+proposed alternative cleanup level). 
+75 
+18 AAC 75.345(d). 
+76 
+While Williams alleges that the State had ulterior motives in its pursuit of 
+the piped water system – to “save face with the public” and to remedy other non­
+sulfolane contamination problems with well water – our review of the record reveals no 
+such bad-faith motives. 
+In contrast, Williams’s argument borders on bad faith when it selectively 
+(continued...) 
+-35-
+7658  
+
+Williams next argues that the piped water system is not cost-effective, and 
+thus is not “practicable” as required by regulation.77   Williams alleges that “[n]either the 
+State nor Flint Hills offered any evidence that the piped water system was the most cost-
+effective remedy” and that State witnesses conceded that this was not a factor DEC 
+considered.  While the State mostly focuses on the absence of any statute requiring that 
+it prove piped water is the most cost-effective remedy, it also points to witness testimony 
+discussing the benefits of piped water over other alternatives.  The State noted that its 
+permanency, cost, safety, and reliability made piped water superior to delivering bottled 
+water or to “restor[ing] the aquifer to its natural condition.”  Williams’s sole proposal 
+besides doing nothing was to conduct air sparging, a form of remediating the aquifer that 
+DEC, as well as Flint Hills’s environmental contractor, had already considered and 
+76 
+(...continued) 
+relies on a DEC employee’s testimony to claim that the State sought “to remedy water 
+quality issues unrelated to sulfolane that make the well water ‘unpalatable without 
+treatment.’ ”  The employee, referring to aesthetic differences, said the water was “a little 
+unpalatable without treatment.”  And Williams’s references to other contamination are 
+unsupported by the record and are irrelevant to assessing the response costs the State 
+incurred out of concern for the potential public health and welfare impacts from sulfolane 
+contamination. 
+77 
+“Practicable” is defined as “capable of being designed, constructed, and 
+implemented in a reliable and cost-effective manner, taking into consideration existing 
+technology, site location, and logistics in light of overall project purposes.” 
+18 AAC 75.990(93).  The definition “does not include an alternative if the incremental 
+cost of the alternative is substantial and disproportionate to the incremental degree of 
+protection provided by the alternative as compared to another lower cost alternative.”  Id. 
+Williams cites 18 AAC 75.325(f)(1)(D) to support its assertion.  In relevant 
+part, this section instructs a responsible person, “to the maximum extent practicable, . . . 
+[to] prevent, eliminate, or minimize potential adverse impacts to human health, safety, 
+and welfare, and to the environment, onsite and offsite, from any hazardous substance 
+remaining at the site.”  18 AAC 75.325(f)(1)(D).  Williams mischaracterizes this as a 
+requirement for DEC, rather than the responsible party. 
+-36-
+7658  
+
+determined would be costly, ineffective, and could pose additional risks to the 
+community. 
+Williams further asserts that the piped water system’s cost was exorbitant 
+rather than cost-effective because “[o]nly 86 private wells . . . in recent years” recorded 
+measurements of at least 20 ppb of sulfolane.  Williams therefore calculated the cost of 
+the piped water amounted to “over $837,000 per affected well.”  The State responds that 
+the statute imposes strict liability for actual damages and response costs rather than for 
+only the most cost-effective measures taken.78   Flint Hills points to trial testimony 
+tending to show cost-effectiveness for the piped water system was considered both in its 
+design and at trial.  The record also reveals that the sulfolane plume is migrating and not 
+expected to degrade quickly, and that the uncertainty about effects of long-term exposure 
+to sulfolane justifies preventative measures such as the piped water system. 
+Even if the statutes or regulations required that response costs be 
+“necessary” and cost-effective, the State persuasively argues that the record supports 
+such a finding.  The superior court found that the piped water system would be 
+“reasonable and not arbitrary or capricious” as an alternative water source because it is 
+a common solution for large-scale groundwater contamination, offers an effective long­
+term solution, would require less maintenance, and would be more convenient. 
+Furthermore, testimony from Williams’s own experts supports finding that the interim 
+bottled water deliveries and piped water system design were reasonable. 
+The record supports the superior court’s decision to hold Williams liable 
+78 
+See AS 46.03.760(d) (holding responsible party “liable to the state . . . for 
+the full amount of actual damages caused to the state by the violation, including” costs 
+for abatement, containment, restoration, and emergency response costs); AS 46.03.780 
+(allowing for broad recovery when hazardous substance release “injures or degrades the 
+environment”). 
+-37-
+7658  
+
+for the response costs for the piped water system, interim water provisions, new wells, 
+and public outreach.  The court did not clearly err by finding they were reasonable 
+resolutions to the sulfolane groundwater contamination.  We affirm the award of 
+response costs to the State and Flint Hills for Williams’s sulfolane releases under 
+AS 46.03.822. 
+3.  
+The superior court did not err by awarding damages for loss of 
+access to groundwater due to sulfolane contamination. 
+The superior court determined there was a “component of natural resources 
+damage” from sulfolane “that [was] not addressed by the provision of alternative water 
+supplies,” i.e., “loss of the right of the public to have access to uncontaminated 
+groundwater.”  The court noted that some people might prefer using well water, and it 
+noted that if the sulfolane plume migrates — as is predicted — to areas beyond the piped 
+water system, the impact might create further burdens given the “inconveniences and 
+limitations” of installing water filtration systems for well water in those areas.  The court 
+explained that, while in some instances it might not be strictly necessary for residents to 
+use groundwater since they might have alternatives, Williams’s sulfolane releases had 
+affected people’s access to groundwater due to pollution and this was an 
+“uncompensated ‘adverse environmental effect’ ” per AS 46.03.760(a)(1) which was 
+“deserving of reasonable compensation.”  The court awarded $2,533,125 to the State for 
+Williams’s 75% responsibility for the groundwater-related damages. 
+Williams claims that awarding damages based on the public’s loss of “the 
+option to choose” to access uncontaminated groundwater was error.  Williams argues, 
+first, that no such right to uncontaminated groundwater exists under state law and that 
+the c ourt based this right only on “its speculation that ‘[s]ome people may prefer well 
+water,’ ” for which there was no evidence.  Williams further argues that even if a right 
+to access uncontaminated groundwater existed, it is held by the public; thus, the State is 
+-38- 
+7658  
+
+not harmed and cannot recover damages. 
+Williams is incorrect that the superior court based the existence of the right 
+solely on residents’ potential subjective preference for groundwater.  The court noted 
+that preference but also considered other reasons why access to groundwater was 
+important to the public.  For instance, areas not served by the piped water system would 
+have limited and costly means for access to clean water.  
+Williams is also incorrect that there is no basis in state law to award 
+damages for the loss of access to groundwater.  Liability for such contamination is 
+explicitly laid out in AS 46.03.760.  The statute provides that a person who violates the 
+Act is liable to the State for damages in the form of a civil assessment.79  Even if there 
+were no independent right of access to clean groundwater, the State could pursue 
+damages for harm to this natural resource based on Williams’s violations of the Act. 
+Furthermore, Williams’s argument that the State cannot pursue legal action 
+for harm to a right held by the public ignores the State’s role as trustee of public trust 
+resources.  As we have explained, “[t]he public trust doctrine provides that the State 
+holds certain resources (such as wildlife, minerals, and water rights) in trust for public 
+use, ‘and that government owes a fiduciary duty to manage such resources for the 
+common good of the public as beneficiary.’ ”80   Alaska’s Constitution provides that 
+“[w]herever occurring in their natural state, . . . waters are reserved to the people for 
+79 
+AS 46.03.760(a). 
+80 
+Kanuk ex rel. Kanuk v. State, Dep’t of Nat. Res., 335 P.3d 1088, 1099-1100 
+(Alaska 2014) (quoting Baxley v. State, 958 P.2d 422, 434 (Alaska 1998)); see also 
+AS 46.03.010 (articulating policy of environmental conservation statutes to “enhance the 
+health, safety, and welfare of the people . . . and their overall economic and social well­
+being,” and to coordinate resource management “to the end that the state may fulfill its 
+responsibility as trustee of the environment for the present and future generations”). 
+-39-
+7658  
+
+common use,”81  articulating the public trust doctrine for Alaska’s waters.82   “Waters” 
+comprising the public trust are broadly defined.83   Besides navigable waters, this includes 
+“public water,”84  which is defined as “all other water, whether inland or coastal, fresh or 
+salt, that is reasonably suitable for public use and utility.”85   Thus, groundwater is a 
+public trust resource over which the State serves as trustee.86 
+81 
+Alaska Const. art. VIII, § 3.  These rights are subject to appropriation and 
+reservation rights.  Id. at § 13.  Alaska’s Water Use Act, codified at AS 46.15.010-.270, 
+reiterates these provisions and regulates water appropriation and reservation. 
+AS 46.15.030. 
+82 
+See Kanuk, 335 P.3d at 1099 (“We have frequently compared the state’s 
+duties as set forth in [a]rticle VIII to a trust-like relationship in which the state holds 
+natural resources such as fish, wildlife, and water in ‘trust’ for the benefit of all 
+Alaskans.” (quoting Brooks v. Wright, 971 P.2d 1025, 1031 (Alaska 1999))).  See also 
+AS 46.03.010(b) (“It is the policy of the state . . . to develop and manage the basic 
+resources of water, land, and air to the end that the state may fulfill its responsibility as 
+trustee of the environment for the present and future generations.”). 
+83 
+Owsichek v. State, Guide Licensing & Control Bd., 763 P.2d 488, 492 
+(Alaska 1988) (“A careful reading of the constitutional minutes establishes that the 
+provisions in article VIII were intended to permit the broadest possible access to and use 
+of state waters by the general public.” (quoting Wernberg v. State, 516 P.2d 1191, 1198­
+99 (Alaska 1973))). 
+84 
+See AS 38.05.126 (recognizing constitutional right of public access to 
+navigable and public water). 
+85 
+AS 38.05.965(21). 
+86 
+Some other jurisdictions also recognize groundwater as a public trust 
+resource, such as Hawai’i, In re Water Use Permit Applications, 9 P.3d 409, 445 (Haw. 
+2000), and Vermont, Vt. Stat. Ann. tit. 10, § 1390(5).  But some jurisdictions have not 
+extended the doctrine or have limited its applicability.  See, e.g., Env’t L. Found. v. State 
+Water Res. Control Bd., 237 Cal. Rptr. 3d 393, 402 (Cal. App. 2018) (holding public 
+trust doctrine applicable to groundwater extraction only where such extraction impacts 
+(continued...) 
+-40-
+7658  
+
+The trust relationship serves as a basis for the State’s authority to manage 
+the use of and access to trust resources for “beneficial uses or public purposes.”87   The 
+public trust doctrine has been used to restrain governmental use of public resources,88  but 
+it also enables the State to recover damages from third parties for harm to trust 
+resources.89   To make a public trust claim, the government must show that a party caused 
+unreasonable interference with the public’s ability to enjoy a public trust resource.90 
+The superior court found that the public’s ability to use and enjoy the 
+groundwater was affected by sulfolane contamination.  The court noted that “[c]lean 
+water is critically important to the City” and “more than 7,000 people rely on the 
+groundwater for domestic and commercial water needs.”  The public could no longer 
+safely use the groundwater for these needs because of the sulfolane contamination. 
+86 
+(...continued) 
+navigable waterways). 
+87 
+State, Dep’t of Nat. Res. v. Alaska Riverways, Inc., 232 P.3d 1203, 1211-12 
+(Alaska 2010); see also Brooks v. Wright, 971 P.2d 1025, 1030 (Alaska 1999). 
+88 
+See Kanuk ex rel. Kanuk v. State, Dep’t of Nat. Res., 335 P.3d 1088, 1102 
+(Alaska 2014) (“[O]ur past application of public trust principles has been as a restraint 
+on the State’s ability to restrict public access to public resources. . . .”). 
+89 
+Owsichek v. State, Guide Licensing & Control Bd., 763 P.2d 488, 495 n.12 
+(Alaska 1988) (describing In re Steuart Transp. Co., 495 F. Supp. 38, 40 (E.D.Va.1980) 
+as illustrative of public trust basis for “federal and state governments to recover damages 
+for migratory waterfowl killed in oil spill”); see also Allan Kanner, The Public Trust 
+Doctrine, Parens Patriae, and the Attorney General as the Guardian of the State’s 
+Natural Resources, 16 DUKE ENV’T L. &  POL’Y F. 57, 94 (2005) (citing case law from 
+New Jersey, Maine, and Maryland to support claim that “[t]he right of a state to recover 
+compensatory damages for the destruction of natural [resources] is well established”). 
+90 
+Kanner, supra note 90 at 59 (citing WILLIAM H. RODGERS, HORNBOOK ON 
+ENVIRONMENTAL LAW 176 (1977 & Supp. 1984)). 
+-41-
+7658  
+
+Although the exact nature of the risk posed by sulfolane remains to be understood, there 
+was extensive information in the record to support the superior court’s conclusion that 
+it presented a danger to public health and welfare.  There was also sufficient evidence 
+in the record that the contamination was caused by “unreasonable” conduct.  Williams 
+itself treated sulfolane as a hazardous substance and was aware of potential, if not yet 
+established, environmental impacts.  And at least by 1996, Williams was aware that 
+sulfolane was entering the groundwater.  Yet Williams used inappropriate wastewater 
+treatment practices, such as directing sulfolane into the wastewater treatment system 
+despite being warned by the sulfolane manufacturer not to do so and knowingly using 
+corroded sumps and leaky wastewater lagoons.  Williams unreasonably interfered with 
+the public’s use of groundwater resources, and the State could properly pursue damages 
+for that interference. 
+Williams also argues that even if a right t o uncontaminated groundwater 
+exists, awarding damages for its violation would result in an unlawful double assessment 
+of penalties.  Williams points out that the superior court determined that imposing 
+damages for the cost of restoring the aquifer to its original condition in addition to 
+imposing damages for the cost of the piping system would be an “inappropriate double 
+assessment of damages.”  Williams contends that it would therefore be irrational for the 
+court to award both damages for the piping and damages to compensate the public for 
+the loss of the option to choose well water as that, too, would be an inappropriate double 
+assessment. 
+We disagree with Williams’s characterization of the damages as a double 
+assessment.  The relevant statutes provide for specific forms of recovery for violations 
+of AS 46.03.  Subsection .760(a) provides for civil assessments within a determined 
+range to reflect “reasonable compensation in the nature of liquidated damages for any 
+adverse environmental effects caused by the violation,” “reasonable costs incurred by the 
+-42-
+7658  
+
+state in detection, investigation, and attempted correction of the violation,” and 
+“economic savings realized by” the violator due to their noncompliance. (Emphasis 
+added.)  Section .780 allows costs for restoration following harm to natural resources, 
+providing for damages in “an amount equal to the sum of money required to restock 
+injured land or waters, to replenish a damaged or degraded resource, or to otherwise 
+restore the environment of the state to its condition before the injury.”91  
+The superior court explained that the piped water system “substantially 
+replaced the damaged aquifer” in “an economic usage sense,” and for this reason 
+awarding the cost of restoring the aquifer in addition to the cost of the piping would be 
+a double recovery.  The court also determined that awarding restoration costs twice, 
+under both subsection .760(d) and subsection .780(b), would be duplicative because 
+these were the same categories of loss. 
+However, the superior court found that the public’s loss of its ability to 
+access uncontaminated groundwater was an independent harm that was not addressed by 
+providing alternate water supplies.  We agree.  The superior court explained that the loss 
+of access is an independent harm:  the plume might migrate further to areas that do not 
+have piping and, consequently, alternatives would be inconvenient and limited.  New 
+construction or uses — including subsistence uses like growing food — within the 
+existing plume but outside the piping area will be affected by the limited alternative ways 
+to obtain clean water.  Furthermore, the damages awarded for loss of groundwater were 
+neither restoration damages covered by section .780 nor a cost expended by the State in 
+“attempted correction of the violation”92  under subsections .760(a)(2) or .760(d); rather, 
+91 
+AS 46.03.780(b). 
+92 
+See AS 46.03.760(a)(2); see also AS 46.03.760(d) (detailing responsible 
+party’s liability for state’s costs “associated with the abatement, containment, or removal 
+(continued...) 
+-43-
+7658  
+
+the groundwater damages were compensation for a distinct “adverse environmental 
+effect[]” provided for in subsection .760(a)(1).  Awarding damages based on the loss of 
+groundwater access was not duplicative or unfounded, and the superior court did not 
+abuse its discretion by awarding compensation for this loss. 
+Williams raises a third challenge to the superior court’s award under section 
+.760.  Williams contends that, even if a groundwater access right exists, it could only be 
+compensated as natural resource damages under section .780.  Williams does not explain 
+why section .760 would not apply.  The language in subsection .760(a)(1) allowing 
+compensation for “any adverse environmental effects” is broad and allows for recovery 
+related to the groundwater access issue. 
+Williams further claims that AS 46.03.760(a)(1) “requires a specific finding 
+on the ‘degree to which [Williams’s releases of sulfolane] degraded the existing 
+environmental quality.’ ”93   Williams contends that the superior court did not, and could 
+not, make such a finding.  We have not had occasion to interpret whether this subsection 
+requires such a finding, or whether it is only one of many possible factors a court may 
+consider “when applicable.”94   But it is unnecessary to decide because the extent of 
+92 
+(...continued) 
+of the pollutant” and “restoration of the environment”). 
+93 
+Quoting AS 46.03.760(a)(1). 
+94 
+The statute provides that the sum to be assessed for a violation shall reflect, 
+when applicable, 
+(1) reasonable compensation in the nature of liquidated 
+damages for any adverse environmental effects caused by the 
+violation, which shall be determined by the court according 
+to the toxicity, degradability, and dispersal characteristics of 
+the substance discharged, the sensitivity of the receiving 
+(continued...) 
+-44-
+7658  
+
+degradation in this case was established:  previously potable water had been determined 
+to be unusable for drinking and related purposes throughout the three-and-a-half-mile 
+long — and spreading — plume. 
+It is unclear why Williams claims the court “could not” have made a finding 
+on the degree of degradation.  Even if true, that argument is unpersuasive because 
+Williams fails to understand the purpose of liquidated damages in redressing 
+environmental violations.  As the superior court explained, liquidated damages may be 
+used when the measure of actual damages is uncertain.95   The uncertainty often inherent 
+in determining the environmental impacts of pollution is, in part, a reason that liquidated 
+damages were made available by the legislature.  It would be nonsensical in this statutory 
+context to preclude an award of liquidated damages due to uncertainty as to the exact 
+degree of degradation.  The civil assessment statute provides for liquidated damages 
+within a predetermined range, limited by a ceiling established by the legislature, to 
+enable an award for damages that are uncertain and difficult to value.  The court’s choice 
+of damages within that range was guided by factors listed in the statute and does not 
+reflect an abuse of discretion. 
+Williams adds that there can be no finding that sulfolane “contaminated” 
+the aquifer because 18 AAC 75.990(22) defines “contaminated groundwater” as water 
+“containing a concentration of a hazardous substance that exceeds the applicable cleanup 
+94  
+(...continued)  
+environment, and the degree to which the discharge degrades  
+existing environmental quality. . . .  
+AS 46.03.760(a). 
+95 
+See Henash v. Ipalook, 985 P.2d 442, 447 (Alaska 1999) (discussing 
+various r oles for liquidated damages, including as penalty to assist in deterrence or as 
+compensation for damages that are “too obscure and difficult of proof” (quoting 
+Overnight Motor Transp. Co. v. Missel, 316 U.S. 572, 583-84 (1942))). 
+-45- 
+7658  
+
+level.”  It claims that because no such cleanup level has been set, there is no 
+“contamination” of the groundwater and instead the State was given a “free pass to 
+recover without an objective standard.”  This argument is unpersuasive.  As discussed, 
+18 AAC 75 regulates and facilitates site cleanup.  It does not purport to define or set out 
+the measures for all potential damages available under the environmental conservation 
+statutes.  Thus, applying a definition of “groundwater contamination” drawn from these 
+cleanup regulations is largely irrelevant to determine whether the aquifer was 
+contaminated in violation of a provision of AS 46.03.  The superior court correctly said 
+as much in its orders.  Second, the provisions that are related to cost recovery in 
+18 AAC 75.910 were promulgated pursuant to AS 46.03.760(d) and AS 46.03.822 (as 
+well as other statutes not relevant here).  To the extent that definitions from the 
+administrative regulations apply to damages assessments in AS 46.03, they would apply 
+only to the calculation of “actual damages caused to the state by the violation” associated 
+with remediation and restoration under AS 46.03.760(d), rather than to liquidated 
+damages for “any adverse environmental effects caused by the violation” under 
+subsection .760(a)(1).96   Williams acknowledges as much, stating that “18 AAC 75.910 
+expressly covers claims under 46.03.760(d).” 
+As a final challenge to the access-to-groundwater damages award under 
+section .760, Williams argues that the assessment of liquidated damages against it, 
+covering the eighteen and a half years that Williams operated the refinery, is punitive 
+rather than “compensatory and remedial in nature” as required by the civil assessments 
+statute.97   Williams claims that punitive damages are not permitted and that it “lawfully” 
+96 
+And as the State points out, subsection .760(a) “does not even use the word 
+‘contamination,’ ” and instead uses the term “adverse environmental effect.” 
+97 
+AS 46.03.760(b). 
+-46-
+7658  
+
+used sulfolane because “DEC allowed Williams to leave it in the ground . . . and never 
+once told Williams it was violating the law by doing so.”  We are not persuaded.  When 
+Williams reported it had detected sulfolane in the refinery groundwater, DEC experts 
+expressed uncertainty and some concern about the substance, for which there was a 
+paucity of toxicity information.  DEC admitted its lack of information and advised 
+Williams to monitor its releases while DEC investigated the hazardous nature of 
+sulfolane.  These actions are not equivalent to permitting sulfolane releases.  Moreover, 
+as the State correctly argues, Williams’s use of sulfolane may have been allowed, but its 
+releases into the soil and water were not; such releases would have required a permit that 
+Williams did not obtain.98 
+We note that CERCLA’s regulatory scheme and analogous state statutes 
+such as AS 46.03.822 impose strict liability, even retroactively, and are constructed so 
+that polluters — not the public — bear the risk of uncertainty that the substances they use 
+or dispose of may later be considered hazardous and subject polluters to liability.99  
+Holding businesses liable for pollution caused by activities from which they profited is 
+98 
+The superior court concluded likewise in an order denying summary 
+judgment to both Williams and the State for various claims:  “ ‘[U]npermitted’ means 
+without ‘the authority of a valid permit issued by the department or by the Environmental 
+Protection Agency.’  Because [Williams] has conceded that it did not have a permit 
+issued by the DEC or EPA to release sulfolane, its release of that substance was 
+unpermitted.”  And testimony at trial demonstrates that Williams’s employees knew they 
+did not have the requisite permits to release sulfolane.  See AS 46.08.900 (defining 
+“release” and “permitted release”). 
+99 
+See United States v. Ne. Pharm. & Chem. Co., 810 F.2d 726, 732 (8th Cir. 
+1986) (finding CERCLA applies retroactively); Kodiak Island Borough v. Exxon Corp., 
+991 P.2d 757, 762 (Alaska 1999) (finding section .822 analogous to CERCLA in 
+imposing retroactive liability); see also Burlington N. & Santa Fe Ry. Co. v. United 
+States, 556 U.S. 599, 622 (2009) (Ginsburg, J., dissenting) (discussing CERCLA’s 
+polluter pays principle). 
+-47-
+7658  
+
+not punitive, but is rather a compensatory remedy to spread costs among responsible 
+parties so they are not borne solely by the public.  For these reasons, it is not punitive to 
+assess damages over the entire period of Williams’s refinery operations in North Pole. 
+In sum, the superior court did not err by assessing damages under 
+subsection .760(a) for the adverse effect of sulfolane pollution on groundwater and its 
+impact on the public’s ability to access the groundwater for consumption.  The superior 
+court also properly interpreted the scope of damages permitted by sections .760 and .780, 
+made the requisite factual findings without clear error, and properly exercised its 
+discretion when determining awards that were neither duplicative nor punitive. 
+4.  
+It was error to issue injunctive relief by reference to supporting 
+documents, but the superior court did not err by granting 
+declaratory relief. 
+The superior court awarded injunctive and declaratory relief to the State and 
+Flint Hills under AS 46.03.765 for PFAS-related claims.100   The court found “PFOS and 
+PFOA are hazardous substances” under AS 46.03.822 and are “[t]he compounds 
+encompassed by the acronym PFAS.”  The court also found that no evidence was 
+100 
+AS 46.03.765 affords the court “jurisdiction to enjoin a violation of this 
+chapter . . . or of a regulation, a lawful order of the department, or permit, approval, or 
+acceptance, or term or condition of a permit, approval, or acceptance issued under this 
+chapter.” 
+Williams also argues that the superior court erred when it chose not to refer 
+onsite PFAS claims to DEC under the doctrine of primary jurisdiction.  When the 
+superior court properly has jurisdiction, its decision to refer an issue to an executive 
+agency is plainly within its discretion and is informed by factors such as judicial 
+economy and administrative expertise.  See Seybert v. Alsworth, 367 P.3d 32, 39 (Alaska 
+2016).  The superior court did not abuse its discretion, especially in light of years of 
+pretrial litigation of this issue and DEC’s determination that Williams was responsible 
+for PFAS and other hazardous substance contamination during its tenure.  Referral would 
+not have served the purposes of the primary jurisdiction doctrine. 
+-48- 
+7658  
+
+presented at trial that “PFAS-related products were used or PFAS releases occurred 
+during Flint Hills’[s] tenure at the [refinery].”  It therefore declared Flint Hills was not 
+a responsible party under section .822 for onsite PFAS contamination at the refinery. 
+The superior court concluded in paragraph 3(a) of the judgment that Williams was 
+“strictly, jointly, and severally liable for sulfolane, [and] PFAS . . . releases, including 
+liability for the State’s future response costs.”  It therefore declared in paragraph 3(b) that 
+the State could recover 75% of its future costs related to the piped water system.  In 
+paragraph 3(d) of the judgment, the court further ordered Williams to “perform and pay 
+for remediation and cleanup efforts as directed by DEC with respect to sulfolane 
+groundwater contamination beyond the . . . Refinery property and with respect to PFAS 
+contamination at the Refinery property.”  And under paragraph 3(e), the superior court 
+ordered Williams to 
+i.  
+perform monitoring and reporting of sulfolane 
+groundwater contamination beyond the . . . Refinery 
+property boundary required under [DEC] approved 
+plans; 
+ii.  
+address PFAS soil and groundwater contamination at 
+the Refinery property in accordance with DEC 
+requirements, including characterization, monitoring, 
+reporting, containment, and cleanup; [and] 
+iii.  
+otherwise comply with DEC’s site cleanup rules, 
+including 18 AAC 75 and other applicable state laws, 
+for sulfolane contamination beyond the Refinery 
+property and PFAS contamination at the Refinery 
+property. 
+Additionally, the court ordered Williams to “indemnify, defend, hold harmless, and 
+reimburse Flint Hills for 100% of all future costs, expenses, claims, and damages 
+incurred related to [onsite] PFAS contamination.” 
+-49- 
+7658  
+
+a. 
+Challenges to the injunctive relief 
+Williams argues that awarding injunctive relief to the State was improper 
+because the State “failed to put on evidence that irreparable injury would result absent 
+injunctive relief.”  While we have recognized that irreparable harm and inadequate 
+remedies at law are required elements for common law injunctive relief,101  the State 
+argues that AS 46.03.765 grants the court “jurisdiction to enjoin a violation” of Title 46, 
+Chapter 3, negating the need for the State to show either element.102   In its reply, 
+Williams argues that AS 46.03.765 permits only “temporary or preliminary relief” and 
+is meant to provide DEC “with a tool to stop a polluter from continuing to release 
+contaminants until final relief may be obtained.”  But the statute does not prohibit 
+permanent injunctions; it merely provides additional requirements for temporary or 
+preliminary relief due to the reduced opportunity for due process in such situations,103 
+further indicating that permanent injunctions — which do not entail those same due 
+process concerns — are permitted.  And even those additional requirements for 
+temporary or preliminary relief fall short of requiring irreparable harm.104   Williams’s 
+101 
+Lee v. Konrad, 337 P.3d 510, 517 (Alaska 2014) (“Equitable injunctive 
+relief is an extraordinary remedy that is appropriate only where the party requesting relief 
+is likely to suffer irreparable injury and lacks an adequate remedy at law.”). 
+102 
+See LeDoux v. Kodiak Island Borough, 827 P.2d 1121, 1123 (Alaska 1992) 
+(“Where a statute specifically authorizes injunctive relief, the plaintiff need not show 
+either irreparable injury or lack of an adequate remedy at law.” (quoting Carroll v. El 
+Dorado Ests. Div. No. 2 Ass’n, Inc., 680 P.2d 1158, 1160 (Alaska 1984))). 
+103 
+See AS 46.03.765 (“In actions brought under this section, temporary or 
+preliminary relief may be obtained upon a showing of an imminent threat of continued 
+violation, and probable success on the merits, without the necessity of demonstrating 
+physical irreparable harm.”). 
+104 
+See id. 
+-50-
+7658  
+
+arguments that the injunction should be vacated for failing to meet necessary elements 
+are therefore unpersuasive. 
+Williams next argues that paragraphs 3(d) and 3(e) of the court’s final 
+judgment violate Alaska Civil Rule 65(d) for being too “vague” and “open-ended.”  Civil 
+Rule 65(d) provides in relevant part that “[e]very order granting an injunction . . . shall 
+set forth the reasons for its issuance; shall be specific in terms; [and] shall describe in 
+reasonable detail, and not by reference to the complaint or other document, the act or acts 
+sought to be restrained.”  First, Williams argues paragraph 3(d) of the judgment is 
+impermissibly vague because:  (1) “it identifies no ‘remediation and cleanup efforts’ that 
+Williams must undertake and the Judgment refers to documents that did not yet exist”; 
+(2) “the injunction’s geographic scope to remedy and clean up sulfolane is apparently 
+limitless”; and (3) “there is no time limit on Williams’[s] obligations, which exposes 
+Williams to liability for future costs to remedy releases to which it played no part.” 
+Williams challenges paragraph 3(e) of the injunction for similar reasons:  it “broadly 
+purports to make Williams responsible forever for sulfolane contamination ‘beyond the 
+Refinery property,’ ” and “incorporates all ‘applicable’ Alaska laws, without further 
+guidance or specificity” leaving Williams unable to determine exactly what conduct is 
+required.105  
+105 
+See Hughey v. JMS Dev. Corp., 78 F.3d 1523, 1531 (11th Cir. 1996) 
+(explaining Federal Rule of Civil Procedure 65 regarding injunctions “serves to protect 
+those who are enjoined” by ensuring “an ordinary person . . . should be able to ascertain 
+from the document itself exactly what conduct is proscribed” (quoting 11A CHARLES 
+ALAN WRIGHT, ARTHUR R. MILLER & MARY KAY KANE, FEDERAL PRACTICE AND 
+PROCEDURE § 2955 (1995))); see also Fed. R. Civ. P. 65(d) (“Every order granting an 
+injunction and every restraining order must: (A) state the reasons why it issued; (B) state 
+its terms specifically; and (C) describe in reasonable detail — and not by referring to the 
+complaint or other document — the act or acts restrained or required.”). 
+(continued...) 
+-51-
+7658  
+
+The State argues that the order satisfies Civil Rule 65(d)’s specificity 
+requirements by drawing comparisons to an Idaho federal district court opinion — Idaho 
+Conservation League v. Atlanta Gold Corp. 106   The State argues that, similar to Idaho 
+Conservation League, the court properly ordered Williams “into compliance . . . without 
+directing every step . . . because the duration of the contamination is indefinite and 
+Williams’[s] violations are longstanding and serious.”107   The State next argues that the 
+“site clean-up rules — which the judgment refers to — are specific enough to put 
+Williams on notice of what it must do,”108  a fact demonstrated after the judgment when 
+“Williams managed to twice submit — and gain approval of — monitoring and 
+characterization plans.”  Third, the State argues that the cases upon which Williams relies 
+in labelling the injunction as an “obey the law” injunction are distinguishable.  Finally, 
+the State disregards Williams’s concerns over the injunction’s geographically and 
+temporally unlimited reach because the sulfolane plume is similarly unlimited.  Williams 
+replies that the State fails to show that “the injunction meets Rule 65(d)’s specificity 
+requirements” and that the distinctions between the cases Williams cites and the facts at 
+105 
+(...continued) 
+Williams does not specifically challenge paragraph 3(e)(ii) of the judgment. 
+To the extent paragraph 3(e)(ii) is distinct from paragraph 3(d) — both require PFAS 
+cleanup but the latter requires PFAS “characterization, monitoring, reporting [and] 
+containment” at the refinery — we consider any argument against it insufficiently briefed 
+and therefore waived. 
+106 
+879 F. Supp. 2d 1148 (D. Idaho 2012) (upholding as proper under Federal 
+Rule of Civil Procedure 65(d) trial court’s injunction directing defendants to comply with 
+existing Clean Water Act permits without more specificity because parties, not court, are 
+better placed to determine exact method of compliance). 
+107 
+Cf. id. at 1164. 
+108 
+See 18 AAC 75.325-.390 (describing in detail site cleanup rules and site 
+characterization plans). 
+-52-
+7658  
+
+issue are immaterial. 
+We agree that the injunctive relief did not satisfy Civil Rule 65(d)’s 
+specificity requirements.  Rule 65(d) requires that injunctions “describe in reasonable 
+detail, and not by reference to the complaint or other document, the act or acts sought to 
+be restrained.”  The paragraphs of the judgment that Williams challenges — paragraphs 
+3(d), 3(e)(i), and 3(e)(iii) — do not describe on their own, with reasonable specificity, 
+the remediation and cleanup efforts Williams will need to undertake.  The court’s 
+accompanying Memorandum of Decision includes more specificity, but the parties do 
+not discuss whether it is specific enough to satisfy Rule 65(d) or whether mere reference 
+to the Memorandum of Decision satisfies Rule 65(d).  We remand the judgment for 
+injunctive relief for more clarity and to explicitly incorporate — not by reference — the 
+language from the Memorandum of Decision, statutes, administrative code, and other 
+documents to which the superior court refers. 
+b. 
+Challenges to the declaratory relief 
+Williams next challenges the superior court’s declaratory orders on PFAS 
+at paragraph 3(a) of the court’s final judgment.  Williams argues that the court 
+improperly declared Williams liable for PFAS generally when only PFOS and PFOA 
+were ever mentioned at trial; that “the State and Flint Hills only presented evidence that 
+Williams used a product that included PFOS,” and that Flint Hills should shoulder some 
+of the blame for PFAS.109 
+109 
+As it did with respect to the injunctive relief discussed above, Williams 
+argues that the declaratory relief for PFAS improperly extends into the future.  Because 
+the court’s o rder holds Williams liable for future costs related to the PFAS it released 
+prior to the trial date, this portion of the court-awarded relief is sufficiently specific and 
+does not improperly extend into the future. 
+Williams also argues that the “declaratory relief in favor of Flint Hills . . . 
+(continued...) 
+-53-
+7658  
+
+As Williams acknowledges, “ ‘PFAS’ is not a single substance, but an 
+umbrella term referring to a diverse category of man-made chemicals,” including PFOS, 
+PFOA, and more.110   At trial, Williams representative Randy Newcomer testified that 
+between 1991 and 2000 Williams used only one company’s brand of aqueous foams in 
+its fire response practices, and he agreed that the foams contained “perfluoroalkyl 
+substances” including — but not necessarily limited to — PFOS.  Dr. Wu also testified 
+that the company’s foams marketed and sold during that time listed “organic 
+fluorochemicals” as an ingredient, another phrase for the “PFAS class of compounds,” 
+including “PFOS and PFOA.”  In addition, Williams admitted that “releases of . . . 
+perfluorochemicals occurred” during its tenure at the refinery.  There was also 
+contemporary evidence of PFAS contamination more broadly, not just PFOS, in the soil 
+and groundwater at the refinery.  Though Williams points to evidence suggesting that 
+Flint Hills could have used PFAS during its tenure at the refinery, Williams fails to 
+109 
+(...continued) 
+already was rejected because Flint Hills had an adequate remedy at law.”  For support, 
+Williams cites a 2017 pretrial order dismissing Flint Hills’s “claims for declaratory 
+judgment and specific performance” against Williams as barred by res judicata in light 
+of Flint Hills I, 377 P.3d 959 (Alaska 2016).  But the declaratory relief sought in Flint 
+Hills I concerned sulfolane rather than PFAS, did not involve State claims, and was 
+dependent on the availability of other legal remedies.  Id. at 973-74.  Williams does not 
+explain how these important differences would justify barring declaratory relief based 
+on res judicata and we see no reversible error on this issue.  See Patterson v. Infinity Ins. 
+Co., 303 P.3d 493, 497 (Alaska 2013) (“A judgment is given res judicata effect by this 
+court when it is (1) a final judgment on the merits, (2) from a court of competent 
+jurisdiction, (3) in a dispute between the same parties (or their privies) about the same 
+cause of action.” (quoting Angleton v. Cox, 238 P.3d 610, 614 (Alaska 2010))). 
+110 
+See supra note 1 (defining PFAS). 
+-54-
+7658  
+
+identify any evidence that Flint Hills actually did use PFAS-containing products.111 
+Because the record shows that Williams released PFAS during its tenure, 
+the burden was on Williams to prove that it did not use particular PFAS chemicals or to 
+establish that another entity was also liable.112   The superior court did not err when it 
+declared that no evidence was presented demonstrating Flint Hills used PFAS during its 
+111 
+Williams does not raise the argument that Flint Hills should be liable under 
+AS 46.03.822 for PFAS contamination due to its status as current owner of the facility 
+from where PFAS was released.  See AS 46.03.822(a)(2), .826(9) (assigning liability to 
+owner of facility from which hazardous substance is released and defining “release” 
+broadly such that PFAS “leaching” from the refinery could fall within definition); see 
+also AS 46.03.822(c) (maintaining liability for refinery owners that purchased property 
+with knowledge of earlier releases of hazardous substance). 
+On appeal, Williams points to several sections of the record purporting to 
+show that “Flint Hills used substantial amounts of ‘PFAS’ in fire-training exercises and 
+‘hot work’ at the refinery.”  Some of that “evidence” consists of Williams’s own 
+proposed findings of fact and testimony from some of its own witnesses speculating 
+about the source of PFAS detections that occurred “upgradient” (i.e., in the opposite 
+direction of water seepage) of firefighting areas.  Williams also cites a 2018 DEC report 
+detailing PFAS sampling at the refinery that indicates Flint Hills purchased firefighting 
+foams, but not that those foams contained PFAS.  Williams additionally points us to a 
+lengthy 2013 environmental report without explaining its relevance, but that report was 
+excluded from trial on hearsay grounds and, in any event, it suggests Flint Hills 
+purchased foams without PFOS or PFOA. 
+To the extent there may have been evidence tying Flint Hills to PFAS 
+contamination at the refinery, we consider the argument waived for insufficient briefing 
+and failure to cite relevant evidence in the record.  See Casciola v. F.S. Air Service, Inc., 
+120 P.3d 1059, 1062-63 (Alaska 2005); Alaska R. App. P. 212(c)(1)(H). 
+112 
+See AS 46.03.822; Oakly Enters., LLC v. NPI, LLC, 354 P.3d 1073, 1079­
+80 (Alaska 2015) (“The burden of proof is on the party seeking to avoid joint and several 
+liability . . . .”).  Williams had access to the list of PFAS present in the soil and 
+groundwater at the refinery, and does not identify any place in the record where it 
+challenged or otherwise indicated it would challenge its liability for specific PFAS. 
+-55-
+7658  
+
+time at the refinery, and that Flint Hills was not a responsible party under AS 46.03.822 
+for PFAS contamination. 
+5. 
+Williams’s right to due process was not violated. 
+Williams argues that DEC’s enforcement a ction and the superior court’s 
+finding of liability under section .822 and subsection .826(5)(a) violated the Due Process 
+Clause of the U.S. Constitution113  and article I, section 7 of the Alaska Constitution114 
+because Williams did not have “fair notice” that its conduct was prohibited. 
+Williams implies that the hazardous substance statutes and regulations are 
+too vague to make it clear whether sulfolane fell within the definition and whether 
+Williams could be liable for its release.  Williams claims it relied on agency statements 
+to understand its responsibility.  Williams specifically contends that “DEC told Williams 
+that sulfolane was not a hazardous substance and not regulated” and that DEC actually 
+“allowed sulfolane to stay in the ground.”  As a result it claims that “DEC’s actions and 
+communications g ave Williams n o notice that i ts conduct c reated a substantial risk of 
+actual harm.”  Williams also claims that the superior court’s “eve-of-trial interpretation” 
+of the terms “hazardous substance” and “imminent and substantial danger” violated the 
+principles of fair notice because they were a “reversal” of DEC’s initial position and a 
+prior superior court decision in the case. 
+Due process requires that a party be given fair notice before it can be 
+113 
+“No person shall be . . . deprived of life, liberty, or property, without due 
+process of law.”  U.S. Const. amend. V. 
+114 
+“No person shall be deprived of life, liberty, or property, without due 
+process of law.  The right of all persons to fair and just treatment in the course of 
+legislative and executive investigations shall not be infringed.”  Alaska Const. art. I, § 7. 
+-56-
+7658  
+
+subjected to liability,115  at least with regard to “criminal or serious civil penalties.”116  
+Williams’s potential multi-million dollar liability and remediation duties qualify as 
+“serious civil penalties.”117   Whether the constitutional requirements of due process were 
+met is a legal question that we review de novo,118  but factual determinations such as 
+those regarding the meaning of DEC’s communications are reviewed for clear error.119  
+Fair notice is a principle of “basic fairness” which requires that “a statute 
+115 
+See State, Dep’t of Revenue v. Nabors Int’l Fin., Inc., 514 P.3d 893, 899 
+(Alaska 2022) (explaining that lack of fair notice, such as through statutory vagueness, 
+“violates the first essential of due process of law” (quoting Halliburton Energy Servs. v. 
+State, Dep’t of Lab., Div. of Lab. Standards & Safety, Occupational Safety & Health 
+Section, 2 P.3d 41, 51 (Alaska 2000))). 
+116 
+VECO Int’l, Inc. v. Alaska Pub. Offs. Comm’n, 753 P.2d 703, 714 (Alaska 
+1988). 
+117 
+See id. at 706 (civil penalty of $72,600 imposed for alleged violations of 
+Alaska Campaign Disclosure Act considered “serious civil penalty”).  The State argues 
+that this case does not require fair notice because the hazardous substance statute 
+operates remedially to impose “compensatory liability” rather than “civil or criminal 
+punishment.”  We agree that sections .760, .780, and .822 are not intended to “punish” 
+but rather to compensate for environmental damage.  See AS 46.03.760(b) (requiring that 
+civil assessments be “compensatory and remedial in nature” rather than punitive).  But 
+a “penalty” can be narrowly or broadly defined.  See Penalty, BLACK’S LAW DICTIONARY 
+(11th ed. 2019) (first describing a penalty as “[p]unishment imposed . . . for either a 
+wrong to the state or a civil wrong (as distinguished from compensation for the injured 
+party’s loss)” but then broadly defining civil penalty as “fine assessed for a violation of 
+a statute or regulation”).  We assume without deciding that the large statutory 
+assessments awarded against Williams may be considered “penalties” to which fair 
+notice requirements apply. 
+118 
+See Nabors Int’l Fin., Inc., 514 P.3d at 898. 
+119 
+Burton v. Fountainhead Dev., Inc., 393 P.3d 387, 392 (Alaska 2017). 
+-57-
+7658  
+
+. . . give adequate notice to the ordinary citizen of what is prohibited.”120   In other words, 
+a statute must not be so vague that people cannot know what they must do or are 
+prohibited from doing.  We have explained that even if a statute might in some contexts 
+be too vague to give adequate notice, it “may still pass muster if:  (a) there can be no 
+question as to its applicability to the particular offense involved, and (b) a construction 
+may be placed upon the statute so that in the future the type of offenses coming within 
+its purview may reasonably be understood.”121   The regulation of economic activity — 
+such as through antipollution statutes — typically survives a vagueness challenge as long 
+as there is “legislative language which is not so conflicting and confused that it cannot 
+be given meaning in the adjudication process.”122 
+In Stock v. State we analyzed whether the broad antipollution provision in 
+AS 46.03.710 was void for vagueness.123   Section .710 states that “[a] person may not 
+pollute or add to the pollution of the air, land, subsurface land, or water of the state.” 
+“Pollution” in turn is defined as 
+the contamination or altering of waters, land or subsurface 
+land of the state in a manner which creates a nuisance or 
+120 
+Stock v. State, 526 P.2d 3, 8 (Alaska 1974); see also F.C.C. v. Fox 
+Television Stations, Inc., 567 U.S. 239, 253 (2012) (“A fundamental principle in our 
+legal system is that laws which regulate persons or entities must give fair notice of 
+conduct that is forbidden or required.”). 
+121 
+Stock, 526 P.2d at 8 (internal citations omitted). 
+122 
+Lazy Mountain Land Club v. Matanuska-Susitna Borough Bd. of 
+Adjustment & Appeals, 904 P.2d 373, 383 (Alaska 1995) (quoting Williams v. State, 
+Dep’t of Revenue, 895 P.2d 99, 105 (Alaska 1995)); see also id. (explaining civil 
+penalties and economic regulation are “subject to a less strict vagueness test” than, for 
+instance, speech (quoting Vill. of Hoffman Ests. v. Flipside, Hoffman Ests., Inc., 455 U.S. 
+489, 498-99 (1982))). 
+123 
+526 P.2d at 7-13. 
+-58-
+7658  
+
+makes waters, land or subsurface land unclean, or noxious, or 
+impure, or unfit so that they are actually or potentially 
+harmful or detrimental or injurious to public health, safety or 
+welfare, to domestic, commercial, industrial, or recreational 
+use, or to livestock, wild animals, bird, fish, or other aquatic 
+life.[124] 
+We acknowledged there might be borderline or de minimis cases when the application 
+of the statute might be unclear, but we refused to analyze the statute in so abstract a 
+manner to determine if it was void for vagueness.125   Instead, we looked specifically at 
+the act for which Stock was convicted:  discharging raw sewage into a stream running 
+through residential areas.126   This act obviously fell within the statutory definition of 
+“pollution”; even Stock’s counsel admitted that a reasonable person would know this.127  
+We acknowledged that the term “potentially harmful” in the definition of “pollution” 
+might be vague enough to require a narrowing construction, and we added an element 
+requiring foreseeability which would be used in future applications.128   But we affirmed 
+the superior court’s finding that Stock had violated the provision because Stock’s 
+124 
+AS 46.03.900(20) (formerly AS 46.03.900(15)). 
+125 
+Stock, 526 P.2d at 9-10 (“Courts have often recognized that the possibility 
+of difficult or borderline cases will not invalidate a statute where there is a hard core of 
+cases to which the ordinary person would doubtlessly know the statute unquestionably 
+applies.”). 
+126 
+Id. at 10. 
+127 
+Id. at 9-11. 
+128 
+Id. at 9-10.  We determined that “the statute prohibits acts which a 
+reasonable person would foresee as creating a substantial risk of making water actually 
+injurious to the statutorily protected interests.”  Id. at 10. 
+-59-
+7658  
+
+conduct so clearly fell within the “hard core” of prohibited conduct.129   Additionally, we 
+explained that the need for environmental protection, the increasing number of laws and 
+regulations governing disposal of substances used during commercial activity, and the 
+need for the legislature to make broad statutes to balance economic growth with 
+environmental protection all supported our conclusion that the antipollution provisions 
+at issue were not unconstitutionally vague on their face and that S
+ tock was clearly on 
+notice that discharging raw sewage into waterways was improper.130 
+In Williams’s case, it is possible that the hazardous substance provisions 
+of section .822 and the statutory definition of hazardous substances in subsection .826(5) 
+could be vague in some instances.  But the superior court’s findings about sulfolane lead 
+us to conclude sulfolane falls within the “hard core” of the definition of hazardous 
+substance.  And Williams itself treated sulfolane as hazardous.  Furthermore, Williams 
+may have been allowed to use sulfolane, but it knew that it was not permitted to simply 
+dispose of the substance in any manner it wished.  These facts indicate that Williams was 
+on notice of the potential for liability under a gamut of antipollution statutes, including 
+those related to hazardous substances.  We conclude that the statute is not so 
+impermissibly vague that it violates Williams’s right to due process. 
+We also disagree that DEC’s communications or actions prior to litigation 
+resulted in a lack of fair notice to Williams.131   DEC’s failure to pursue an enforcement 
+129 
+Id. at 9-10. 
+130 
+Id. at 12-13. 
+131 
+The superior court rejected this argument in Williams’s cross-motion for 
+summary judgment because it determined that fair notice would be required only when 
+an agency “depart[ed] from its long-established regulations or adjudications.”  But fair 
+notice requirements apply even when there have not been regulations or adjudications 
+(continued...) 
+-60-
+7658  
+
+action with regard to sulfolane was not “acquiescence”132  to or approval of Williams’s 
+conduct.  In its communications with Williams, DEC acknowledged that sulfolane was 
+not then regulated as a hazardous substance because very little was known about it and 
+there was a “lack of EPA reviewed toxicity data,” and DEC said it first needed to gather 
+more information regarding sulfolane and the pollution issuing from the refinery.  It 
+required Williams to conduct further monitoring and stated that it would follow up with 
+further clarification or action.  Though Williams claims DEC’s communications 
+constituted “written determinations” that sulfolane did not pose a hazard, DEC 
+communicated that sulfolane was not regulated at the time, not that it had ultimately 
+concluded it was not hazardous.  We conclude the superior court did not clearly err when 
+it found DEC had not promulgated prior interpretations about sulfolane in legal briefs, 
+regulations, or adjudications that Williams might have relied on to claim sulfolane was 
+not hazardous.133 
+131 
+(...continued) 
+on point.  The U.S. Supreme Court has recognized that while agencies have enforcement 
+discretion and interpretive latitude, if the statutory interpretations are unreasonable or if 
+the conspicuous inaction appears to be for no reason other than acquiescence, “the 
+potential for unfair surprise is acute.”  Christopher v. SmithKline Beecham Corp., 567 
+U.S. 142, 158 (2012).  Agency actions beyond regulations and adjudications serve to 
+inform regulated entities and therefore are relevant to the fair notice inquiry.  However, 
+as we  discuss below, DEC did not cause Williams unfair surprise. 
+132 
+See id. (recognizing many reasons for agency lack of enforcement and 
+finding lack of fair notice where only possible reason was acquiescence). 
+133 
+The cases Williams cites as support for its argument are distinguishable on 
+several grounds, including their stricter CERCLA context that requires the listing of 
+substances EPA deems hazardous (whereas AS 46.03.822 does not), and their 
+conclusions that notice was lacking only when the court found the statute ambiguous and 
+official agency interpretations or guidance were conflicting.  See Massachusetts v. 
+(continued...) 
+-61-
+7658  
+
+Agencies are free to create and change policies for matters within their 
+purview, as DEC did when it decided to regulate sulfolane and treat Williams as a 
+responsible party.  An agency should indicate that it is changing its position and 
+demonstrate good reasons for such a change, but it does not need to “provide detailed 
+justifications for every change” and it is not the court’s role to ask whether the chosen 
+policy is better or best — only whether it conforms to reason.134   Based on the evidence 
+presented at trial, the superior court concluded that DEC reasonably determined sulfolane 
+to be a “hazardous substance” and that unpermitted disposal was a violation of the 
+antipollution provisions of Title 46, Chapter 3.  We see no error with that conclusion. 
+Williams also argues that the superior court’s own rulings deprived it of due 
+process because the court promulgated an “eve-of-trial interpretation of ‘hazardous 
+substance’ ” and “imminent and substantial danger” under section .822 and subsection 
+.826(5) that contradicted “both the DEC position on sulfolane during 2001-2003 . . . and 
+the intervening decision of the same court.”  Williams does not cite case law to support 
+its claim, does not specify exactly how the superior court acted unlawfully, and does not 
+indicate how it was prejudiced.  We consider arguments that are given cursory treatment 
+133 
+(...continued) 
+Blackstone Valley Elec. Co., 67 F.3d 981, 988, 993 (1st Cir. 1995) (denying, as violation 
+of fair notice, summary judgment to EPA in enforcement action based on EPA’s 
+categorization of ferric ferrocyanide as “ cyanide” under CERCLA, because unclear if 
+regulatory background indicated it should be so categorized and because EPA took 
+inconsistent official positions on categorization); Rollins Env’t Servs. (NJ) Inc. v. U.S. 
+E.P.A., 937 F.2d 649, 654 (D.C. Cir. 1991) (concluding it would violate requirements 
+of fair notice to impose penalty on company because statute was ambiguous and EPA 
+gave conflicting advice to private parties about how to comply with statute). 
+134 
+F.C.C. v. Fox Television Stations, Inc., 567 U.S. 239, 250 (2012). 
+-62-
+7658  
+
+without any support to be waived.135   And we do not see how the superior court carrying 
+out its obligation to interpret the relevant statute — issuing rulings on a matter of law that 
+was consistently contested throughout the proceedings — could have worked unfair 
+surprise on Williams or violated its right to fair notice.136 
+6.  
+Imposing civil liability for past releases was not an 
+unconstitutional taking. 
+Williams 
+argues 
+that 
+the 
+superior 
+court’s 
+interpretation 
+of 
+AS 46.03.826(5)(A) is an unconstitutional regulatory or judicial taking under the U.S. 
+and Alaska Constitutions.137   Williams argues the judgment imposes severe, 
+unforeseeable retroactive liability, which it could not have anticipated because the 
+superior court’s interpretation of the relevant statutes was a “change in law.”  Because 
+this imposition of liability is linked to an identified property interest and it was 
+accomplished for a public purpose, Williams argues it constitutes a compensable taking. 
+Williams’s argument fails because it continuously characterizes the superior 
+court’s interpretation as a “change in the law,” when it is not.  Williams merely disagrees 
+with the interpretation and the factual basis for concluding sulfolane is hazardous. 
+135 
+See Hagen v. Strobel, 353 P.3d 799, 805 (Alaska 2015).  Furthermore, 
+“eve-of-trial” is a misleading portrayal o f the court’s actions.  The court i nformed the 
+parties eleven days before trial and approximately five weeks before the close of trial 
+how it planned to interpret the statute.  Trial courts are under no obligation to issue such 
+memoranda about tentative interpretations of the law ahead of trial, and doing so could 
+only have assisted Williams in preparing its case. 
+136 
+See Christopher, 567 U.S. at 161 (explaining court’s role in conducting 
+statutory interpretation when agency adopts interpretation of statute that does not deserve 
+deference). 
+137 
+“[N]or shall private property be taken for public use, without just 
+compensation.”  U.S. Const. amend. V.  “Private property shall not be taken or damaged 
+for public use without just compensation.”  Alaska Const. art. I, § 18. 
+-63- 
+7658  
+
+Similarly, Williams mischaracterizes DEC’s communications as having previously 
+“expressly advised Williams that sulfolane was not a concern” but now determining it 
+to be a hazardous substance.  As discussed above, the superior court made factual 
+findings that DEC never expressly authorized the releases, and these findings are not 
+clearly erroneous.138   Finally we note that Williams’s irresponsible waste management 
+and sulfolane releases are not conduct linked to “reasonable investment-backed 
+expectations” that takings jurisprudence seeks to protect.139  
+B.  
+Flint Hills’s Contractual Indemnification And Statutory Contribution 
+Claims Against Williams 
+Flint Hills sought indemnification from Williams under the terms of the 
+Purchase Agreement for the remediation and litigation costs associated with the offsite 
+sulfolane.140   Flint Hills also sought statutory contribution from Williams for those 
+138 
+Because there was no “change in law” and no retroactive liability imposed 
+here, we need not reach the arguments of Williams and the State concerning whether 
+retroactive liability under the hazardous substance statute effects an unconstitutional 
+taking. 
+139 
+State, Dept. of Nat. Res. v. Arctic Slope Reg’l Corp., 834 P.2d 134, 139 
+(Alaska 1991) (quoting Ruckelshaus v. Monsanto Co., 467 U.S. 986, 1005 (1984)) 
+(explaining that DNR’s use of proprietary information from oil companies did not upset 
+reasonable investment-backed expectations because it did not affect company’s actions 
+or investments); see Penn Cent. Transp. Co. v. City of New York, 438 U.S. 104, 124 
+(1978); see also Arctic Slope, 834 P.2d at 140-45 (further finding no unfair surprise 
+given statute authorizing DNR use and concluding regulatory statute was legitimate use 
+of state’s police power for public welfare). 
+140 
+We again note that the hazardous substance statute holds i neffective any 
+“indemnification, hold harmless, or similar agreement . . . to transfer liability. . . from the 
+owner or operator of a facility.”  AS 46.03.822(g).  But the statute also allows for 
+indemnification and hold harmless agreements between liable parties to shift financial 
+responsibility.  Id. 
+-64- 
+7658  
+
+costs.141   The superior court determined that the Purchase Agreement terms barred Flint 
+Hills’s claim for indemnification because it had contributed to the sulfolane pollution, 
+but that Flint Hills could seek contribution pursuant to AS 46.03.822(j). 
+Williams disputes the superior court’s interpretation of the Purchase 
+Agreement.  It first argues that Flint Hills assumed responsibility for the offsite sulfolane. 
+Williams also contends that the Purchase Agreement’s indemnification provision is the 
+sole remedy available to Flint Hills and therefore the superior court erred by allowing 
+statutory contribution.  Williams also argues that any award against it — whether 
+through indemnity or contribution — is subject to the Environmental Cap negotiated in 
+the Purchase Agreement.  Because the superior court did not err when it interpreted the 
+parties’ allocation of liabilities and the remedies in the Purchase Agreement, we affirm 
+the court’s determinations regarding Flint Hills’s claims against Williams. 
+1.  
+Overview of the Purchase Agreement’s indemnification and 
+remedies provisions 
+Article X142  of the Purchase Agreement contains detailed provisions 
+regarding financial liability between the parties for litigation or damages incurred 
+following the purchase.  Article X cross-references Section 10.2(a)(iv) of the “Disclosure 
+Schedule” appended to the Purchase Agreement.  That section of the Disclosure 
+Schedule, entitled “Known Environmental Matters,” begins with a sentence fragment 
+stating, “Any and all costs of clean-up, monitoring, corrective actions and compliance 
+141 
+AS 46.03.822(j) enables liable parties to “seek contribution from any other 
+person who is liable under (a) of this section.”  To resolve a claim for contribution, “the 
+court may allocate damages and costs among liable parties using equitable factors 
+determined to be appropriate by the court.” 
+142 
+The Purchase Agreement refers to articles using Roman numerals but 
+sections within using ordinary Arabic numerals.  Thus it refers to the article as “Article 
+X,” but sections within the Article as “Section 10.2,” for example. 
+-65- 
+7658  
+
+with regulations incurred after the Effective Time with respect to contamination 
+specifically identified in the referenced figures, tables and text described below.”  The 
+following sentence adds detail, stating that “Buyer has agreed to assume full 
+responsibility for all existing, known contamination at the Real Property specifically 
+identified in the referenced figures, tables and text described below.”  The Disclosure 
+Schedule also provides that 
+Buyer understands and acknowledges that the levels of 
+Hazardous Materials measured in monitoring wells and 
+contained in the figures, tables, and text below will vary over 
+time, and that Buyer is responsible for such normal 
+variations, as well as any changes in such contamination 
+resulting from Buyer’s actions or omissions after the 
+Effective Time. . . .  [T]he Buyer further understands that the 
+data is representative of site conditions and can be used to 
+support reasonable conclusions about present contaminant 
+concentrations at the locations sampled and contaminant 
+contours outside those locations. 
+Listed in the Disclosure Schedule is a table entitled “Sulfolane Data (July 2001 ­
+September 2001) for North Pole Refinery.”  The table indicates varying concentrations 
+of sulfolane were detected at monitoring wells located on the refinery property, including 
+near the property boundaries. 
+Section 10.2(a)(iii) of the Purchase Agreement states that “Seller shall 
+indemnify, defend and hold Buyer . . . harmless, from and against any and all Damages 
+incurred by [Buyer] in connection with or arising or resulting from . . . the possession, 
+ownership, use, or operation of the Assets prior to the Effective Time.”143   However, that 
+provision’s general language is qualified by various exceptions.  Specifically, that 
+subsection provides that 
+143 
+“Effective Time” refers to the closing date of asset transfer, March 31, 
+2004. 
+-66-
+7658 
+
+Seller shall have no duty to indemnify under this Section 
+10.2(a)(iii) (A) with respect to Buyer’s obligations under 
+Section[] . . . 10.2(b)(v)(C)[144]  [matters set forth on the 
+Disclosure Schedule] . . . , (B) to the extent that Damages are 
+caused or contributed to by Buyer’s operations, actions or 
+omissions after the Effective Time and/or (C) with respect to 
+any Environmental Claim. 
+The latter type of claim is “covered exclusively by the provisions of Section 10.2(a)(iv).” 
+Section 10.2(a)(iv), which governs and serves to define “Environmental 
+Claims,” states that Williams will indemnify Flint Hills for damages arising from a broad 
+enumerated list “except to the extent that Damages are caused or contributed to by 
+Buyer’s operations, actions or omissions after the Effective Time.”  The matters listed 
+for which Williams retains responsibility include in relevant part: 
+(A) any Environmental Condition[145]  existing prior to the 
+Effective Time, at, on or under or arising, emanating, or 
+flowing from any of the Assets, or from the property 
+underlying the Real Property, whether known or unknown as 
+of the Effective Time [including damages to third parties 
+“arising therefrom.”], . . . but excluding (i) any and all costs 
+of cleanup, monitoring, corrective actions and compliance 
+with regulations incurred after the Effective Time with 
+respect t o the matters s et forth on Section 10.2(a)(iv) of the 
+Disclosure Schedule. . . ; 
+144 
+Section 10.2(b) covers indemnification by the Buyer and states that “Buyer 
+shall indemnify, defend and hold Seller . . . harmless, from and against any and all 
+Damages incurred by [Seller] in connection with or arising . . . from . . . (v)(C) any and 
+all costs of cleanup, monitoring, corrective actions and compliance with regulations 
+incurred after the Effective Time with respect to the matters set forth on . . . the 
+Disclosure Schedule.” 
+145 
+The Purchase Agreement defines “Environmental Condition” as “any 
+condition existing on, at or originating from, each property included within the Assets 
+which constitutes, (a) a Release on, at or from such property of any Hazardous Materials 
+or (b) a violation of any applicable Environmental Laws or any Environmental Permits.” 
+-67-
+7658  
+
+(B) [damages to third parties] arising out of or related to any 
+Environmental Condition to the extent (i) not located on the 
+Assets or the property underlying the Real Property and (ii) 
+existing prior to the Effective Time; 
+(C) payment of penalties and fines assessed or imposed by 
+any Governmental Authority arising out of or related to any 
+Environmental Condition existing prior to the Effective 
+Time; and 
+(D) any Damages that arise, directly or indirectly, from the 
+Release, generation, use, presence, storage, treatment and/or 
+recycling of any Hazardous Materials or Petroleum Products 
+by Seller or from the possession, use, ownership, or operation 
+of the Assets prior to the Effective Time, or by a third party 
+if any such Hazardous Materials or Petroleum Products were 
+generated or used by Seller . . . but excluding (i) any and all 
+costs of cleanup, monitoring, corrective actions or 
+compliance with regulations incurred after the Effective Time 
+with respect to the matters set forth on Section 10.2(a)(iv) of 
+the Disclosure Schedule. (Emphasis added.) 
+In an effort to ensure more certainty regarding the extent of future 
+indemnification obligations, the parties included a damages cap for indemnification, with 
+a specific Environmental Cap of $32 million.146   And we previously concluded that the 
+Cap applies to all environmental liabilities.147  
+The parties further agreed that remedies provided in the Purchase 
+Agreement would be exclusive, with certain exceptions.  Section 10.5 of the Agreement 
+states: 
+146 
+Section 10.4(b) provides that “the maximum amount of indemnifiable 
+Damages which may be recovered by [Buyer] from Seller . . . and by [Seller] from Buyer 
+arising out of, resulting from or incident to the matters enumerated in Section 10.2(a) or 
+Section 10.2(b) shall be the Environmental Cap with respect to any and all 
+Environmental Claims.”  
+147 
+Flint Hills I, 377 P.3d 959, 976 (Alaska 2016). 
+-68-
+7658  
+
+Except for (a) any equitable relief, including injunctive relief 
+or specific performance to which any Party hereto . . . may be 
+entitled, . . . the indemnification provisions of this Article X 
+shall be the sole and exclusive remedy of each Party . . . with 
+respect to any and all Actions or Damages arising out of this 
+Agreement from and after the Closing. 
+2.  
+The superior court did not erroneously conclude that the 
+Purchase Agreement limited Flint Hills’s liability. 
+The superior court considered both the language of the contract and 
+testimony regarding the circumstances of negotiation and determined that Flint Hills had 
+assumed responsibility only for sulfolane that was known and onsite at the time of 
+purchase.  This meant that Williams had a duty to indemnify Flint Hills for offsite 
+sulfolane contamination — though this duty was potentially limited by Flint Hills’s own 
+actions, the Environmental Cap, and the remedies provisions of the contract. 
+The superior court noted that the Purchase Agreement’s Disclosure 
+Schedule was entitled “Known Environmental Matters” and referred to “contamination 
+specifically identified” in the Disclosure Schedule.  The court also noted that the 
+Disclosure Schedule provided that Flint Hills would be fully responsible for “[a]ny and 
+all costs of . . . corrective actions and compliance with regulations incurred” after the sale 
+for “all existing, known contamination at the Real Property,” which was specifically 
+identified in the Disclosure Schedule.  The court found that “at the Real Property” 
+supported the interpretation that Flint Hills assumed solely onsite contamination. 
+(Emphasis added.)  The court added that the studies listed in the Disclosure Schedule 
+“did not identify contamination that was not ‘at’ the Refinery property — i.e., outside the 
+Real Property’s boundaries.”  
+The superior court also analyzed the language in Section 10.2(a)(iv)(A), 
+which referred to liabilities that Williams retained for “any Environmental Condition . . . 
+at, on or under or arising, emanating, or flowing from any of the Assets, or from the 
+-69- 
+7658  
+
+property underlying the Real Property,” excluding the conditions on the Disclosure 
+Schedule.  The court contrasted this subsection’s language with that of 10.2(a)(iv)(B), 
+which referenced Williams’s retained liability for harms arising from an Environmental 
+Condition “(i) not located on the Assets or the property underlying the Real 
+Property . . . .”  The court concluded that the onsite and offsite specifications meant 
+subsection (A) referred solely to onsite contamination, and by extension, so did the 
+Disclosure Schedule.  Therefore, the court concluded that Williams retained liability for 
+sulfolane contamination existing offsite at the time of the asset transfer, even if that 
+contamination was caused by migration of a pollutant that had originated onsite and was 
+disclosed in the Schedule. 
+Additionally, the superior court relied on trial testimony to clarify the 
+assumption-of-liabilities issue.  Representatives of both parties described an “our 
+watch/your watch” approach where each party would retain responsibility for issues 
+caused during their operations, with the very narrow exceptions enumerated in the 
+Disclosure Schedule.  Witnesses for both parties agreed that the Disclosure Schedule did 
+not explicitly refer to offsite contamination, and the court concluded that the intent of the 
+parties was that Flint Hills would assume liability for the sulfolane located onsite at the 
+time of purchase. 
+Williams argues that the court misconstrued the plain language of the 
+Agreement when it concluded that Flint Hills had not assumed liability for offsite 
+sulfolane.  First, Williams claims the court incorrectly concluded that the contract 
+distinguished onsite/offsite sulfolane and that Section 10.2(a)(iv)(A) excluded offsite 
+matters.  Williams a rgues that subsection (A) in fact applies to both onsite and offsite 
+conditions, because it refers to conditions “at, on or under or arising, emanating, or 
+flowing from any of the Assets or from the property.”  It argues that “arising, emanating, 
+or flowing from” would be superfluous if it related solely to onsite conditions, which 
+-70-
+7658  
+
+would have been properly encapsulated by “at, on or under.”  Similarly, Williams points 
+to the broad definition of “Environmental Condition” in the contract — “any condition 
+existing on, at or originating from, each property” — to support its contention that a 
+disclosed substance might migrate offsite yet remain part of Flint Hills’s assumed 
+responsibilities.  Second, Williams argues that the superior court erred by relying on 
+extrinsic evidence to assist with the interpretation of the Purchase Agreement.  Williams 
+claims that reference to extrinsic evidence violated Texas contract law governing the 
+agreement. 
+We conclude that the superior court’s inferences about the parties’ intent, 
+based on extrinsic evidence, were supported by substantial evidence.  We further 
+conclude, from these inferences and from our de novo review of the contract language, 
+that the superior court did not err by determining Williams retained liability for offsite 
+sulfolane. 
+3.   
+The superior court did not err by concluding Williams retained 
+responsibility for offsite sulfolane. 
+We apply Texas law to the interpretation of the Purchase Agreement; the 
+parties chose Texas law to govern the Agreement and neither party disputes its 
+application here.148  
+148 
+See, e.g., Jarvis v. Aetna Cas. & Sur. Co., 633 P.2d 1359, 1363 n.5 (Alaska 
+1981) (declining to disturb parties’ choice of law); see also In re Newport Plaza Assocs., 
+L.P., 985 F.2d 640, 644 (1st Cir. 1993) (“When opposing parties agree to the source of 
+the substantive law that controls their rights and obligations, and no jurisdictional 
+concerns are present, a court is at liberty to accept such an agreement without 
+independent inquiry.”); Schiavone Constr. Co. v. Time, Inc., 847 F.2d 1069, 1076 n.3 (3d 
+Cir. 1988) (permitting parties and lower courts’ consent as to choice of law to control 
+when there is no reason to disturb that agreement); Tidler v. Eli Lilly & Co., 851 F.2d 
+418, 421 (D.C. Cir. 1988) (allowing court to assume choice of law was correct since 
+neither party raised the issue). 
+(continued...) 
+-71- 
+7658  
+
+The language in the Purchase Agreement is ambiguous.  On one hand, its 
+definition of Environmental Condition and the language about such conditions in Section 
+10.2’s indemnification provisions appear to be extremely broad; they could therefore 
+apply to both onsite and offsite pollution.  The carve-out for sulfolane in the Disclosure 
+Schedule would, by extension, include sulfolane pollution that had migrated offsite prior 
+to the purchase date.  On the other hand, the breadth of Section 10.2(a) might apply only 
+to Williams’s retained liabilities, while Flint Hills’s assumed liabilities are instead 
+narrowly tailored to those “matters set forth” in the Disclosure Schedule only for 
+conditions “at” the property.  In that case, Williams’s reference to the broad definition 
+of “Environmental Condition” and the language of “arising, emanating, or flowing from” 
+would not apply to Flint Hills’s assumed responsibilities.  Indeed, the Disclosure 
+Schedule refers to the matters set forth therein as “contamination” and not 
+“Environmental Conditions,” possibly supporting this narrower construction.  (Emphasis 
+added.)  In other words, assuming responsibility for “existing, known contamination at 
+the Real Property” would not necessarily include assuming responsibility for the effects 
+arising or emanating from such contamination off the real property. 
+Because the contract language is ambiguous, it was proper for the superior 
+court to resort to extrinsic evidence.  Though Texas law places greater restrictions on the 
+148 
+(...continued) 
+We see no obvious reason that applying Texas law to this case would 
+conflict with Alaska’s choice of law approach, which follows the Second Restatement 
+of Conflicts.  See Peterson v. Ek, 93 P.3d 458, 464 n.11 (Alaska 2004).  As we discuss 
+below, it is unlikely that the resulting interpretations would differ under either Alaska’s 
+or Texas’s interpretive approach, as both would admit the extrinsic evidence which 
+informed the superior court’s decision.  See Tidler, 851 F.2d at 421 (permitting analysis 
+of claims under laws of two states). 
+-72-
+7658  
+
+admission of extrinsic evidence than Alaska law,149  a court can use extrinsic evidence to 
+resolve patent and latent ambiguities as long as those ambiguities are present in the 
+text.150   In other words, Texas law “does not prohibit consideration of surrounding 
+149 
+Under Alaska contract principles, the court’s duty is to “ascertain and give 
+effect to the reasonable intentions of the contracting parties.”  Flint Hills I, 377 P.3d at 
+975 (quoting Est. of Polushkin ex rel. Polushkin v. Maw, 170 P.3d 162, 167 (Alaska 
+2007)).  The court need not initially determine that the disputed language is ambiguous 
+to consider extrinsic evidence; instead, the court can look holistically at the disputed 
+language, other language in the contract, relevant extrinsic evidence, and case law 
+interpreting similar provisions.  Id.; see also Nautilus Marine Enters., Inc. v. Exxon 
+Mobil Corp., 305 P.3d 309, 316 (Alaska 2013) (“We have expressly rejected the 
+‘artificial and unduly cumbersome’ two-step process used in other jurisdictions in which 
+‘resort to extrinsic evidence can take place only after a preliminary finding of 
+ambiguity.’ ” (quoting Alyeska Pipeline Serv. Co. v. O’Kelley, 645 P.2d 767, 771 n.1 
+(Alaska 1982))).  But extrinsic evidence cannot be used to add or contradict contract 
+terms.  See Froines v. Valdez Fisheries Dev. Ass’n, 75 P.3d 83, 87 (Alaska 2003). 
+Texas law is more restrictive.  It indicates that a court’s “primary objective 
+is to ascertain and give effect to the parties’ intent as expressed in the instrument.”  URI, 
+Inc. v. Kleberg Cnty., 543 S.W.3d 755, 763 (Tex. 2018) (emphasis added).  “Objective 
+manifestations of intent control,” and therefore courts should interpret language 
+according to its “ ‘plain, ordinary, and generally accepted meaning’ unless the instrument 
+directs otherwise.”  Id. at 763-64 (quoting Heritage Res., Inc. v. NationsBank, 939 
+S.W.2d 118, 121 (Tex. 1996)).  However, the Texas Supreme Court has explained that 
+the meaning of words often “turns upon use, adaptation and context.”  Id. at 764 (quoting 
+Heritage Res., Inc., 939 S.W.2d at 121).  This context is not just gleaned from the 
+language and structure of the contract itself, but also from the “circumstances present 
+when the contract was entered.”  Id. (quoting Columbia Gas Transmission Corp. v. New 
+Ulm Gas, Ltd., 940 S.W.2d 587, 589 (Tex. 1996)).  Thus, while a court cannot look to 
+extrinsic evidence to add or modify contract terms — i.e., to introduce solely subjective 
+intent that has not been manifested objectively in the contract — it can use extrinsic 
+evidence where the contract language is inherently ambiguous.  Id. 
+150 
+URI, Inc., 543 S.W.3d at 764-65. 
+-73-
+7658  
+
+circumstances that inform, rather than vary from or contradict, the contract text.”151   As 
+we discuss below, we conclude that the superior court adhered to Texas contract law’s 
+requirements when it used extrinsic evidence to resolve the ambiguities of Article X. 
+Flint Hills Resources’ Alaska President Allen Lasater testified that, based 
+on his understanding of the parties’ intent at the time of contracting, Flint Hills did not 
+assume responsibility for offsite contamination.  He stated that there was no offsite 
+sulfolane contamination then “known” and thus it was not included in the Disclosure 
+Schedule.  Lasater essentially equated unknown to undisclosed, and therefore liability 
+for those unknowns “remained with Williams.”  He explained that this was a logical 
+intent because Flint Hills needed to know the extent of pollution in order to agree to 
+continue running the refinery’s pollution remediation system consistent with DEC’s 
+compliance orders. 
+Williams representative Randy Newcomer qualified references to known 
+conditions as “known conditions which were primarily onsite.”  (Emphasis added.)  He 
+stated that Flint Hills took responsibility for “known cleanup” of “known contaminants” 
+as described in the Disclosure Schedule as of the Effective Date, after which Flint Hills 
+was responsible for additional pollution occurring on- and offsite during their ownership. 
+Williams thus remained responsible for the unknown conditions offsite “caused . . . by 
+Williams during its ownership.”  Upon further questioning, Newcomer stated that there 
+was a “your watch/my watch kind of . . . thing” specifically for offsite contaminants.  He 
+explained that if a known contaminant offsite caused damage before the Effective Date, 
+Williams would take responsibility, but “[i]f it was something that Flint Hills caused 
+during their ownership of the [r]efinery,” then Flint Hills assumed responsibility. 
+Newcomer admitted that, as he understood the contract, Williams would be obligated to 
+151 
+Id. at 767 (quoting Hous. Expl. Co. v. Wellington Underwriting Agencies, 
+Ltd., 352 S.W.3d 462, 469 (Tex. 2011)). 
+-74-
+7658 
+
+indemnify Flint Hills for the portion of sulfolane that had migrated off the property when 
+Williams owned the refinery.  But he said that further migration or contamination offsite 
+after the Effective Date would be the responsibility of Flint Hills.  On cross-examination, 
+Newcomer emphasized that liabilities were defined by their known/unknown status 
+rather than onsite/offsite. 
+The Williams Companies Senior Vice President Phillip Wright, who was 
+involved in the refinery sale negotiations, similarly testified that “as a general matter, we 
+agreed to a your watch/our watch type principle . . . in which if the cause for a given 
+contamination was generated while we were the owner and operator of the Refinery, we 
+would be liable for those damages . . . and they would retain liability for anything 
+generated on their watch which was during their ownership and operation of the 
+Refinery.”  But he specifically stated that “those damages” Williams retained 
+responsibility for would not “include the cleanup costs associated with migration of 
+known characterized contamination.”  He testified that it was Williams’s intent, 
+expressed through the language of the contract, that if the sulfolane migrated off the 
+property, it was Flint Hills’s responsibility.  He further added that “[i]t wouldn’t have 
+been possible for [Flint Hills] to assume” the sulfolane “would be retained on site . . . 
+because it was [in] the groundwater” and not in a “vessel.”  He stated that Williams 
+representatives “assumed we were dealing with a sophisticated player that understood 
+these matters and understood groundwater hydrology.” 
+Testimony from representatives of both parties presented competing 
+interpretations of the contract.  Ultimately, the determination of the parties’ intentions 
+and representations during negotiations are issues of fact properly within the province 
+of the superior court.  The court did not clearly err when it concluded as a factual matter 
+that the parties intended for Williams to retain responsibility for its portion of offsite 
+sulfolane, and for Flint Hills to assume liability only for sulfolane contamination onsite 
+-75-
+7658  
+
+and for any additional pollution it generated after the purchase date which might migrate 
+offsite.  Therefore we conclude as a matter of law that the Purchase Agreement language 
+reflects that intent. 
+4.  
+The superior court did not err by concluding that Flint Hills 
+could pursue contribution. 
+The superior court concluded that contractual indemnification was not 
+available to Flint Hills because it had “caused or contributed” to the offsite sulfolane 
+contamination.  And the court concluded that because indemnification was not available, 
+Section 10.4(b)’s Environmental Cap did not apply.152   But the court determined that 
+Flint Hills could pursue contribution from Williams under AS 46.03.822(j).  Exercising 
+its discretion to allocate equitable responsibility among the parties,153  the court 
+determined that Williams was required to contribute $52.5 million to Flint Hills’s offsite 
+response costs, reflecting its equitable allocation of 75% of costs to Williams.  The court 
+awarded $51.4 million for offsite sulfolane and $1.17 million for onsite PFAS 
+contamination, plus prejudgment interest on both. 
+No party disputes the court’s determination that Flint Hills was barred from 
+pursuing contractual indemnity.  However, Williams contends that the superior court’s 
+assessment of damages for offsite sulfolane was erroneous because it exceeded the 
+Environmental Cap of $32 million.  Williams claims that the Environmental Cap should 
+apply to all forms of damages, including statutory damages and contribution allocations, 
+152 
+In Flint Hills I, we determined that indemnification claims for 
+environmental liabilities would be subject to the Cap.  377 P.3d at 976. 
+153 
+See AS 46.03.822(j) (“[T]he court may allocate damages and costs among 
+liable parties using equitable factors determined to be appropriate by the court.”); cf. 
+Lockheed Martin Corp. v. United States, 35 F. Supp. 3d 92, 122 (D.D.C. 2014) 
+(discussing court’s discretion to allocate contribution in CERCLA context), aff’d, 833 
+F.3d 225 (D.C. Cir. 2016). 
+-76- 
+7658  
+
+rather than only to contractual indemnification damages.154   Williams further argues that 
+statutory contribution is not available to Flint Hills because the Purchase Agreement 
+made indemnification the exclusive remedy for environmental damages claims. 
+Williams argues that by failing to properly construe the exclusive remedies provision in 
+Section 10.5, the superior court “allowed Flint Hills to achieve an end-run around” the 
+indemnity bar.  Williams asserts that, because money damages are not equitable relief 
+allowable under the Purchase Agreement and because we characterized contribution 
+damages under AS 46.03.822(j) as a legal claim in Flint Hills I, contribution should be 
+barred by the Purchase Agreement.  We disagree. 
+The Purchase Agreement at Section 10.2(a) provides that Williams would 
+indemnify Flint Hills “(iv) except to the extent that Damages are caused or contributed 
+to by [Flint Hills’s] operations, actions or omissions after the Effective Time.”  The most 
+natural reading of this language and the reading best supported by trial testimony is what 
+the superior court first concluded:  “reflecting the joint ‘my watch/your watch’ concept 
+for liabilities, the parties’ cross-indemnity provisions included language clarifying their 
+obligations to be limited to their own causes and contributions of Environmental 
+Conditions, excluding reimbursement and exempting each from holding the other 
+harmless for contributions or conditions caused by the other’s conduct.”  However, the 
+superior court later determined that because Flint Hills contributed to some of the 
+sulfolane pollution during the period it operated the refinery, as a matter of law “[t]his 
+exception precludes contractual indemnity for sulfolane contamination.”  Because neither 
+Williams nor Flint Hills challenges the superior court’s interpretation, we do not consider 
+154 
+Williams also argues that the superior court made two other errors when it 
+interpreted the Cap:  the court determined that insurance proceeds paid to Flint Hills 
+were not relevant to the Cap, and it declined to enforce the Cap for public policy reasons. 
+Because we conclude that the Cap does not apply to the contribution claim, we do not 
+address these arguments. 
+-77-
+7658  
+
+it further. 
+We agree with the superior court that, because Flint Hills cannot pursue 
+indemnification under the Purchase Agreement, the Environmental Cap does not apply. 
+Section 10.4’s “Limitations on Indemnification” states in subsection (b) that “the 
+maximum amount of indemnifiable Damages” arising out of Sections 10.2(a) and (b) that 
+can be recovered by “Indemnified Parties” is a Cap “with respect to any and all claims 
+for indemnity.” (Emphasis added.)  This language makes clear that the Cap will apply 
+only to indemnification claims.  Furthermore, Section 10.5 provides that “the 
+indemnification provisions of this Article X shall be the sole and exclusive remedy of 
+each Party,” “[e]xcept for . . . equitable relief.”  (Emphasis added.)  The Agreement 
+makes clear that both parties understood equitable relief is not governed by the terms of 
+limitation in their private contract.155   It was not error for the court, when making 
+contribution allocations, to take into account the parties’ intended contractual allocations 
+without being limited by their express terms — in this case, the Environmental Cap.156  
+155 
+Oakly Enters., LLC v. NPI, LLC, 354 P.3d 1073, 1080 (Alaska 2015) 
+(discussing nature of statutory contribution remedy for recovering environmental 
+remediation costs and explaining “contribution claims essentially seek to allocate 
+damages equitably among those who share responsibility”). 
+156 
+See AS 46.03.822(j).  CERCLA case law supports this approach and 
+because Alaska’s hazardous substance statute is informed by CERCLA, case law on that 
+federal statute is persuasive — though not dispositive — for resolving state law claims. 
+Berg v. Popham, 113 P.3d 604, 606, 608 (Alaska 2005); see Lockheed Martin Corp., 35 
+F. Supp. 3d at 123, 143-44 (explaining court has “broad discretion” to make allocation 
+determinations in CERCLA context and “the predominant concern in equity is the intent 
+of the parties”); Halliburton Energy Servs., Inc. v. NL Indus., 648 F. Supp. 2d 840, 877, 
+880-81 (S.D. Tex. 2009) (explaining that even inapplicable indemnification provisions 
+can be considered to determine intent of parties to allocate contribution responsibility); 
+Kerr-McGee Chem. Corp. v. Lefton Iron & Metal Co., 14 F.3d 321, 326 (7th Cir. 1994) 
+(considering parties’ intent as expressed in their contractual arrangements to determine 
+(continued...) 
+-78-
+7658  
+
+Finally, the superior court did not err by concluding that Flint Hills could 
+pursue statutory contribution under AS 46.03.822(j).  In Flint Hills I, we referred to Flint 
+Hills’s indemnification claim and its statutory contribution claim under subsection 
+.822(j) as “legal claims,” in contrast with its “equitable claims” for declaratory judgment 
+and specific performance.157   We did not, however, reach the question whether statutory 
+contribution constitutes a legal or equitable remedy.  Contribution is an equitable 
+remedy.158   This is so regardless of whether it is provided for by statute.159   Thus a claim 
+for statutory contribution is not barred by the Purchase Agreement’s exclusive remedies 
+provision. 
+Williams’s argument that contribution achieves an “end-run around” the 
+indemnity bar is unpersuasive.  The parties agreed they would still be able to pursue 
+156 
+(...continued) 
+equitable contribution allocations); Beazer E., Inc. v. Mead Corp. (Beazer II), 412 F.3d 
+429, 447 n.20 (3d Cir. 2005) (explaining that indemnification provisions that do not 
+apply directly are still factor to consider in contribution claim). 
+157 
+377 P.3d 959, 973-74 (Alaska 2016). 
+158 
+See McLaughlin v. Lougee, 137 P.3d 267, 275-79 (Alaska 2006) 
+(recognizing common law contribution need for fairness purposes); Oakly Enters., LLC, 
+354 P.3d at 1080 (explaining contribution claims aim to equitably allocate damages 
+among responsible parties); Deal v. Kearney, 851 P.2d 1353, 1355-56 (Alaska 1993) 
+(agreeing that “claims for contribution, indemnity, or subrogation are . . . claims 
+grounded in equity”); Fellows v. Tlingit-Haida Reg’l Elec. Auth., 740 P.2d 428, 432 
+(Alaska 1987) (“Contribution is an equitable doctrine adopted to remedy the unfairness 
+of the common law rule allowing one of several tortfeasors to bear responsibility for the 
+entire loss.”). 
+159 
+See Benner v. Wichman, 874 P.2d 949, 956 (Alaska 1994) (implying now-
+repealed contribution statutes provided for “equitable contribution”); Arctic Structures, 
+Inc. v. Wedmore, 605 P.2d 426, 430 (Alaska 1979) (discussing former contribution 
+statute AS 09.16.020(3) that expressly provided “principles of equity applicable to 
+contribution generally shall apply”). 
+-79-
+7658  
+
+equitable relief, “including injunctive relief or specific performance.”  The word 
+“including” indicates these examples are illustrations rather than an exhaustive list of 
+allowable equitable relief.  Contribution falls squarely into relief allowed even under the 
+parties’ own contractual arrangement.  And Williams misconstrues our previous decision 
+when it argues that contribution provides a duplicative and thus ina
+ 
+ppropriate remedy 
+once indemnification is unavailable.160   In Flint Hills I, we denied Flint Hills declaratory 
+relief and specific performance because we determined that it still had an adequate legal 
+160 
+We do not decide whether contribution would have been available absent 
+the parties explicitly permitting the pursuit of equitable remedies.  We have recognized 
+a common law contribution remedy, McLaughlin, 137 P.3d at 275-79, and a statutory 
+contribution remedy in the hazardous substance context, AS 46.03.822(j).  But Alaska 
+does not have a general contribution statute, such as the proposed Uniform Contribution 
+Among Tortfeasors Act of 1955, that discusses the relation between indemnification and 
+contribution.  And even CERCLA case law, though generally indicating that an 
+indemnification agreement encompassing CERCLA liability between responsible parties 
+will control, is not always clear about whether such an agreement displaces contribution 
+altogether or controls equitable allocation in a contribution action.  See, e.g., Fina, Inc. 
+v. ARCO, 200 F.3d 266, 273-74 (5th Cir. 2000) (allowing claim for contribution only 
+after concluding that parties’ indemnification provision did not cover CERCLA claims); 
+Kerr-McGee Chem. Corp., 14 F.3d at 326 (finding indemnity agreement between parties 
+remained applicable in CERCLA action, but that result of indemnification and 
+contribution would have been identical and therefore declining to reverse contribution 
+award; also indicating that equitable allocation informed by indemnification agreement 
+could be modified depending on parties’ ability to pay to avoid shifting cleanup costs 
+onto public); Beazer E., Inc. v. Mead Corp. (Beazer I), 34 F.3d 206, 208-10, 218-19, 219 
+n.10 (3d Cir. 1994) (reversing dismissal of contribution claim because indemnification 
+claim did not cover CERCLA liability but implying that indemnification provisions, 
+rather than equitable apportionment, would control if applicable); Beazer II, 412 F.3d at 
+447 n.20 (revisiting issues between parties and interpreting Kerr-McGee to mean that 
+when “indemnification provision did cover CERCLA liability, . . . no equitable allocation 
+proceeding was required”); Olin Corp. v. Consol. Aluminum Corp., 5 F.3d 10, 16 (2d 
+Cir. 1993) (recognizing that applicable indemnification provisions should be followed 
+though they may incur “seemingly harsh result,” but failing to specify whether sole 
+remedy available was indemnification or if contribution could be pursued, though result 
+would be under parties’ indemnification provisions). 
+-80-
+7658  
+
+remedy through indemnification or contribution — even if some of those legal remedies 
+might be time-barred by the statute of limitations.161   We noted that Flint Hills’s equitable 
+claims sought identical relief to its legal claims, since its requests for declaratory 
+judgment and specific performance essentially asked the court to order Williams to pay 
+the same damages Flint Hills had requested in its indemnification and contribution 
+claims.162   We did not conclude in Flint Hills I that indemnification and contribution 
+were duplicative remedies or constituted identical relief. 
+Unlike its claims for declaratory relief and specific performance vis-à-vis 
+its claims for indemnification and statutory contribution, Flint Hills’s contribution claims 
+are not duplicative of its legal indemnification claims.  If available, indemnification 
+might have enabled Flint Hills to recover entirely for the offsite sulfolane pollution that 
+Williams caused or contributed to prior to the refinery purchase, without any equitable 
+modifications, but subject to the Environmental Cap.163   By contrast, statutory 
+contribution requires the superior court to weigh equitable factors which, besides the 
+intent of the parties as evidenced by their contract, also includes the conduct of parties. 
+The parties’ indemnification agreement, although inapplicable, served to inform the court 
+about the parties’ intent, but it did not bind the court to the same result in its sta
+ 
+tutory 
+contribution determination as it would reach under its contractual indemnification 
+161 
+Flint Hills I, 377 P.3d at 974 (dismissing claims for declaratory relief and 
+specific performance of contract that duplicated its financial contribution claims); see 
+also Knaebel v. Heiner, 663 P.2d 551, 553 (Alaska 1983) (“One who seeks the 
+interposition of equity must generally show that he either has no remedy at law or that 
+no legal remedy is adequate.”). 
+162 
+Flint Hills I, 377 P.3d at 974. 
+163 
+“An express indemnity generally is not subject to equitable considerations 
+or a joint legal obligation to the injured party; rather, it is enforced in accordance with 
+the terms of the contracting parties’ agreement.”  41 AM. JUR. Indemnity § 7 (2022). 
+-81-
+7658  
+
+determination. 
+For these reasons, the contract language expressly allows the statutory 
+contribution remedy and doing so does not inappropriately provide Flint Hills an “end­
+run around” its contractual arrangements or inappropriately award an equitable remedy 
+when a legal one was potentially available.  The superior court did not err by granting 
+Flint Hills statutory contribution from Williams under AS 46.03.822(j). 
+5.  
+The superior court’s contribution allocations were not 
+erroneous. 
+A party liable for the release of a hazardous substance under 
+AS 46.03.822(j) “may seek contribution from any other person who is liable.”164   During 
+a statutory contribution proceeding, “the court may allocate damages and costs among 
+liable parties using equitable factors determined to be appropriate by the court.”165 
+After Flint Hills sought contribution from Williams, the superior court 
+made a series of findings regarding Flint Hills’s contribution claims.  In relevant part, the 
+court found:  “Williams is strictly liable, jointly and severally, under AS 46.03.822 for 
+hazardous substance releases as an owner and operator of the [refinery]”; “the harm 
+caused by Williams[’s] sulfolane releases is not divisible or reasonably capable of 
+apportionment” and thus Williams “is jointly liable for the entire amount of response 
+costs.”  Based on consideration of many equitable factors — including contractual 
+indemnity clauses, proportions of sulfolane releases attributable to each party, the degree 
+of cooperation by each party, and promptness of reporting sulfolane in the groundwater 
+— the court found “Williams is responsible for 75% of the [offsite] sulfolane response 
+costs, while Flint Hills is responsible for 25% of the costs, and the State is not 
+164 
+AS 46.03.822(j). 
+165 
+Id. 
+-82- 
+7658 
+
+responsible for any of the costs.”166  
+Williams appeals the superior court’s statutory contribution allocation 
+under AS 46.03.822(j), arguing the court erred by (1) allocating anything for offsite 
+sulfolane to Williams because the parties “had allocated full responsibility for sulfolane 
+to Flint Hills under the Agreement”; (2) failing to properly consider DEC’s non-
+regulation of sulfolane prior to 2004; (3) penalizing Williams for defending itself; 
+(4) “failing to allocate responsibility to the State and ignoring Williams[’s] equitable 
+estoppel and laches defenses”; and (5) “failing to allocate responsibility to the City.” 
+a.  
+The court did not err by allocating statutory contribution 
+for offsite sulfolane to Williams. 
+We have affirmed the superior court’s conclusion that Williams retained 
+responsibility for sulfolane that was offsite at the time of the Purchase Agreement and 
+that Flint Hills could recover through statutory contribution in the absence of contractual 
+indemnification.  The court therefore did not err by allocating responsibility to Williams 
+under the contribution provisions of AS 46.03.822(j).167 
+b.  
+The superior court adequately considered DEC’s earlier 
+non-regulation of sulfolane when it allocated damages. 
+Williams argues that the superior court erred when it “failed to compare the 
+relative ‘culpability’ of Williams and Flint Hills given the very different regulatory 
+environments in which each operated the refinery.”  Namely, because sulfolane was not 
+regulated as a hazardous substance when Williams released it, Williams argues the court 
+erred by not reducing Williams’s culpability.  Williams relies primarily on two cases for 
+166 
+The court did not allocate any costs to the City of North Pole, which was 
+not a party at the trial. 
+167 
+See Oakly Enters., LLC v. NPI, LLC, 354 P.3d 1073, 1077, 1082-83 (Alaska 
+2015) (discussing and affirming broad, non-inclusive list of factors superior court 
+considered in allocating responsibility for damages under subsection .822(j)). 
+-83- 
+7658  
+
+support:  Boeing Co. v. Cascade Corp. for the assertion that “[a] court should consider 
+the care a party exercised ‘in light of the practices characteristic of the time’ and may 
+reduce a party’s share if no rules or laws prohibited the practices at the time”;168  and 
+Oakly Enterprises, LLC v. NPI, LLC for the assertion that “[a] court should also consider 
+which party ‘knew or should have known’ of the contamination and which party ‘had the 
+ability to control the [cause]’ at the time.”169  Williams argues that, had sulfolane been 
+regulated before the Purchase Agreement, it would have been able to keep it onsite 
+because it “kept all regulated contaminants onsite during its tenure.”  
+Superior courts have broad discretion over which equitable factors to 
+consider when allocating costs under both CERCLA and AS 46.03.822.170   A court may 
+choose to reduce a party’s damages according to the party’s practices and prevailing 
+circumstances at the time, but it is not required to.  And as the State points out, neither 
+Boeing Company nor Oakly Enterprises supports Williams’s position in this case.  Even 
+though sulfolane was not yet regulated as a hazardous substance, it would have been a 
+pollutant under AS 46.03.900(20) and thus its unpermitted releases were prohibited 
+under AS 46.03.710.  As Williams conceded at trial, releasing sulfolane regardless of its 
+official status as a hazardous substance was prohibited by law — a fact that counts 
+against Williams rather than in its favor.  The record demonstrates that Williams knew 
+about the sulfolane releases during its tenure at the refinery due to its own negligence, 
+but failed to address the ongoing releases.  Williams k new sulfolane was at least toxic 
+if not “hazardous.”  Yet the “care” that Williams exercised included storing sulfolane­
+168 
+207 F.3d 1177, 1187 (9th Cir. 2000). 
+169 
+354 P.3d at 1077. 
+170 
+E.g., id. at 1078, 1080-83 (applying clear error standard of review to factual 
+findings and abuse of discretion standard to decisions whether to admit or exclude 
+evidence); Boeing Co., 207 F.3d at 1187. 
+-84-
+7658  
+
+containing waste in a leaky, decommissioned lagoon, some of whose many holes were 
+crudely “patched” by nailing two-by-fours to the liner.  Williams also unilaterally 
+stopped the monitoring that DEC requested to help identify and address the source of the 
+sulfolane leaks.  That behavior was neither typical nor allowed at the time, and Williams 
+knew of and was in control of the cause of the contamination, supporting the court’s 
+decision to impose statutory contribution against Williams. 
+c.  
+The superior court did not penalize Williams for 
+“defending itself.” 
+Williams argues that the court erred because its “allocation expressly took 
+into account Williams’[s] alleged ‘recalcitrance’ and ‘refusal to assist’ DEC.”  Williams 
+argues it was penalized for defending itself.  Williams contends it was within its rights 
+to refuse to provide alternative water and to indemnify Flint Hills, and claims it would 
+be unconstitutional to penalize it for doing what the law plainly allows it to do.171  
+The State quickly and correctly dismisses this argument by pointing out that 
+“[a] party may be ‘within its rights’ to refuse to act until ordered by a court, but its 
+choices can still weigh against it in equity.”  Courts often consider the extent to which 
+parties cooperate with regulators in this context.172   
+171 
+We agree with the State that none of the cases Williams cites for support 
+contradict the assertion that a party’s refusal to act can “weigh against it in equity.” 
+Williams relies for support on an incomplete quote from a dissent, without identifying 
+it as such, but omits the following paragraph of that dissent, which acknowledges 
+“CERCLA strongly incentivizes voluntary compliance” and refers to a case that 
+recognizes the court’s ability to impose fines when a responsible party willfully fails to 
+comply with an EPA order without sufficient cause.  McGinnes Indus. Maint. Corp. v. 
+Phoenix Ins. Co., 477 S.W.3d 786, 801 (Tex. 2015) (Boyd, J., dissenting) (citing Gen. 
+Elec. Co. v. Jackson, 610 F.3d 110, 114 (D.C. Cir. 2010)). 
+172 
+See, e.g., Oakly Enters., 354 P.3d at 1077 & n.6 (allowing superior court 
+to consider “the degree of cooperation by the parties with Federal, State or local officials 
+(continued...) 
+-85- 
+7658  
+
+Williams asserts in reply, without support, “that Williams cooperated in the 
+initial investigation” and that “six years after the refinery’s sale, Williams was 
+participating and willing to continue doing so, until the State abruptly stopped 
+investigating and sued.”  Our review of the record confirms that Williams conducted 
+groundwater sampling for sulfolane for about a year before stopping the sampling 
+without having identified the source of the sulfolane leak, contrary to DEC’s 
+instructions.173  And Williams attended meetings with DEC and offered to pay for and 
+conduct certain modeling, though it did not give the models to DEC.  But Williams does 
+not point to anything in the record indicating that it cooperated with DEC.  Williams has 
+not challenged the superior court’s findings of fact on this issue, including its extensive 
+findings showing an overwhelming level of inaction by Williams even after it had 
+received notice in 2010 that DEC would be treating sulfolane as hazardous.  The court 
+did not abuse its discretion by allocating costs against Williams in part for its lack of 
+cooperation. 
+d.  
+The superior court did not err by not allocating 
+responsibility to the State or by ignoring Williams’s 
+equitable defenses. 
+Williams argues that because the State admitted to being a “liable 
+landowner under AS 46.03.822(a)” as an owner of the refinery lands, the court erred by 
+not allocating some responsibility to the State under AS 46.03.822(j).  Williams also 
+argues that “the court should have allocated some .822(j) responsibility to the State” 
+based on laches and equitable estoppel. 
+172 
+(...continued) 
+to prevent any harm to the public health or the environment,” among other equitable 
+factors, when allocating responsibility for releases under AS 46.03.822(j) (quoting 
+Lockheed Martin Corp. v. United States, 35 F. Supp. 3d 92, 123 (D.C. Cir. 2014))). 
+173  
+Flint Hills I, 377 P.3d 959, 963 (Alaska 2016). 
+-86- 
+7658  
+
+Williams cites FDIC v. Laidlaw Transit, Inc.174  for support that the State 
+should be allocated costs for sulfolane contamination, but that case does not support its 
+argument.  In Laidlaw we recognized that cleanup costs need not “be borne by all 
+potentially responsible parties equally” and that courts can “distinguish among 
+potentially responsible parties to avoid inequitable results.”175   And AS 46.03.822(j) 
+expressly grants discretion to “allocate damages and costs among liable parties using 
+equitable factors determined to be appropriate by the court.”  Williams’s argument 
+amounts to mere disagreement with how the court weighed these equitable factors. 
+When it found that the State was without fault as a landowner, the superior 
+court reasoned that “[n]o persuasive evidence was presented at trial to support an 
+equitable allocation” to the State.  Williams points to several factors it suggests indicate 
+the State’s culpability.  For instance, it asserts that the State had a “but-for causal role in 
+allowing the sulfolane to remain in the ground throughout Williams’[s] tenure.” 
+Williams seems to argue that, because it notified DEC of the sulfolane release in 2001 
+and DEC told Williams only to keep tracking sulfolane through sampling because it was 
+not then a regulated contaminant, Williams had no obligation to clean it up.  But as early 
+as November 2000 a representative from the Department of Natural Resources176  met 
+with Williams and DEC to discuss the adequacy of Williams’s spill prevention efforts 
+and the preparation of a characterization and corrective action plan.  In that meeting, 
+DNR told Williams that it might be in default on its lease because of the spills. 
+Williams also alleges the State was indirectly responsible for sulfolane 
+174 
+21 P.3d 344 (Alaska 2001), abrogated on other grounds by Buntin v. 
+Schlumberger Tech. Corp., 487 P.3d 595 (Alaska 2021). 
+175 
+Id. at 349-50. 
+176 
+DNR was the State agency that managed the lease of the land underlying 
+the refinery. 
+-87-
+7658  
+
+releases by allowing Flint Hills to turn off its pumping system in July 2017, which 
+Williams claims “caus[ed] the sulfolane to migrate offsite.”  Although the State did allow 
+Flint Hills to turn off the pumping system, sulfolane had already been detected offsite in 
+October 2009.  Furthermore, the court expressly considered this factor and found it to 
+be outweighed by Williams’s “other negative conduct,” such as “mismanagement . . . of 
+its waste fluid treatment and disposal systems” and “cessation of testing for sulfolane 
+sources on the [R]efinery property.”  Williams does not argue that the court erred when 
+it weighed this fact about Flint Hills turning off the pumps in its equitable allocation 
+decision.  We are not persuaded the court erred by not allocating financial responsibility 
+to the State as a landowner under these circumstances. 
+Williams also argues that the superior court “inexplicably ignored 
+Williams’[s] equitable estoppel defense and reasonable reliance on the State’s repeated 
+written affirmations that sulfolane was not regulated and could be left in the ground.”177  
+Williams alleges that the court “previously found this defense to be relevant to allocating 
+damages under .822(j).”  But the court previously explained that equitable defenses 
+would be relevant, if at all, for allocation under subsection .822(j) rather than for 
+establishing liability under subsection .822(a) because that would undermine the strict 
+liability framework of the hazardous substance statute.  And in any case the court did not 
+explicitly find that Williams’s equitable estoppel defense was relevant for subsection 
+.822(j) allocation.  As the State points out, Williams does not provide any arguments 
+undermining the court’s discretionary decision not to consider Williams’s defense of 
+177 
+“Equitable estoppel requires proof of three basic elements:  (1) ‘assertion 
+of a position by conduct or word,’ (2) ‘reasonable reliance thereon,’ and (3) ‘resulting 
+prejudice.’  In addition, equitable estoppel ‘will be enforced only to the extent that justice 
+so requires.’ ”  Beecher v . City of Cordova, 408 P.3d 1208, 1214 (Alaska 2018) (first 
+quoting Jamison v. Consol. Utils., Inc., 576 P.2d 97, 102 (Alaska 1978); and then 
+quoting Mun. of Anchorage v. Schneider, 685 P.2d 94, 97 (Alaska 1984)). 
+-88-
+7658  
+
+equitable estoppel. 
+Williams also argues that laches “should have comparatively reduced 
+Williams’[s] responsibility because” in earlier proceedings “the superior court found 
+laches barred Flint Hills’[s] claims for equitable remedies against Williams due to its 
+‘unconscionable delay’ in addressing sulfolane.”  Williams then states, somewhat 
+misleadingly, that the “factual findings upon which the court’s laches decision was made 
+were affirmed on appeal” and should have preclusive effect.  We earlier agreed that Flint 
+Hills “reasonably should have concluded ‘long before May 10, 200[8]’ that sulfolane had 
+migrated beyond the sampling disclosed in the Agreement.”178   But we explicitly did not 
+reach the issue of Williams’s l aches defense on Flint Hills’s equitable claims because 
+these were not available in light of the legal remedies available by contract and statute.179  
+Williams also challenges the court’s conclusion that Williams’s delayed reporting of 
+discovering sulfolane in the groundwater was more problematic than Flint Hills’s nearly 
+two-year delay in drilling monitoring wells.  We see no abuse of discretion in allocating 
+more responsibility to the party that waited five years to report its discovery that a 
+relatively novel solvent had leached into the groundwater than to the party that delayed 
+drilling “recommended monitoring wells” for about two years. 
+e.  
+The superior court did not err by failing to allocate 
+responsibility to the City of North Pole.  
+Williams next argues that “[t]he City was a significant source of sulfolane” 
+and the court should have allocated responsibility to the City.  The court did not rule on 
+the City’s liability and prevented Williams from presenting evidence implicating the 
+City’s contribution to the sulfolane plume. 
+As both Flint Hills and the State point out, once the court deconsolidated 
+178 
+Flint Hills I, 377 P.3d at 973 (alteration in original). 
+179 
+Id. at 974. 
+-89- 
+7658 
+
+the cases in June 2019 the City was no longer a party to these proceedings.  While the 
+cases were consolidated, Williams raised a contribution claim against the City, but the 
+court dismissed it as untimely.  Though in the State’s suit the court could have 
+considered the City’s culpability as an equitable factor under AS 46.03.822(j), because 
+Williams is “strictly liable, jointly and severally” under AS 46.03.822(a), the superior 
+court did not abuse its discretion by failing to allocate costs to an absent party.180  
+Williams also attempts to appeal the deconsolidation order.  The Rules of 
+Appellate Procedure require that an appeal brief contain a “short conclusion stating the 
+precise relief sought”181  and that the argument section contain “the contentions of the 
+appellant with respect to the issues presented” as well as a “heading indicating the 
+subject matter” for “[e]ach major contention.”182   Williams asks in its statement of issues 
+on appeal whether the superior court erred in deconsolidating the cases but does not 
+request that the deconsolidation be reversed on appeal, and omits any mention of the 
+order from its discussion heading.  Williams claims it was prejudiced by deconsolidation, 
+but fails to challenge the court’s detailed justifications for deconsolidating the cases. 
+Williams adds in a heading in its reply brief that the superior court “erred by sua sponte 
+deconsolidating the cases,” but again fails to cite to a rule or case indicating how the 
+court erred.  Williams waived its deconsolidation argument:  we “consider as abandoned 
+questions set forth in the Points but not argued in . . . [the] brief,”183  and an appellant’s 
+180 
+See Laidlaw Transit, Inc., 21 P.3d at 349-50 (contemplating absentee 
+responsible parties in AS 46.03.822(j) contribution claim and explaining how courts can 
+“distinguish among potentially responsible parties to avoid inequitable results”). 
+181 
+Alaska R. App. P. 212(c)(1)(I). 
+182 
+Alaska R. App. P. 212(c)(1)(H). 
+183 
+Reilly v. Northrop, 314 P.3d 1206, 1212 n.4 (Alaska 2013) (alteration in 
+(continued...) 
+-90-
+7658  
+
+reply “brief may raise no contentions not previously raised in either the appellant’s or 
+appellee’s briefs.”184 
+VI. 
+CONCLUSION 
+For the reasons stated above, we 
+AFFIRM the superior court’s conclusion that sulfolane is a hazardous 
+substance under AS 46.03.822(a); 
+AFFIRM the superior court’s award of response costs under AS 46.03.822 
+to the State and Flint Hills for Williams’s offsite sulfolane releases; 
+AFFIRM the superior court’s award of natural resource damages to the 
+State for the loss of access to groundwater; 
+AFFIRM the superior court’s interpretation of the Purchase Agreement’s 
+indemnification provisions; 
+AFFIRM the superior court’s contribution awards under AS 46.03.822(j); 
+AFFIRM the superior court’s decision not to refer onsite PFAS 
+contamination issues to DEC; and 
+AFFIRM the superior court’s declaratory relief; but 
+REMAND the superior court’s injunctive relief for further proceedings in 
+light of this opinion. 
+183 
+(...continued) 
+original) (quoting Wetzler v. Wetzler, 570 P.2d 741, 742 n.2 (Alaska 1977)). 
+184 
+Alaska R. App. P. 212(c)(3). 
+-91-
+7658  

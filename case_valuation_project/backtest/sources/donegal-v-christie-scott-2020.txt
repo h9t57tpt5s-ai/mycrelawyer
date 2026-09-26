@@ -1,0 +1,741 @@
+Donegal Associates v. Christie-Scott LLC, No. 385, September Term, 2019.  Opinion by 
+Graeff, J.   
+PROPERTY — LANDLORD-TENANT — TORTS — CONVERSION OF 
+PERSONALTY —  SELF-HELP EVICTION 
+Conversion is an intentional tort consisting of any distinct act of ownership or dominion 
+exerted by one person over the personal property of another in denial of his or her right or 
+inconsistent with it.  Conversion may be either direct or constructive.  In a direct 
+conversion, the initial taking is unlawful.  Constructive conversion occurs when the 
+defendant’s possession is initially lawful, but there is a wrongful detention.  To establish a 
+constructive conversion, the plaintiff must show that he or she demanded the return of the 
+property, and the holder refused.   
+A commercial landlord is permitted, although it is not encouraged, to resort to self-help to 
+repossess premises and property within the premises in the following circumstances: (1) 
+the tenant is in breach of a lease; (2)  that authorizes the remedy of repossession; and (3) 
+the repossession can be done peacefully.  In this case, those circumstances were satisfied, 
+and therefore, the initial taking was lawful and there was no direct conversion of the 
+property seized.  Constructive conversion was not shown where there was no demand made 
+prior to filing suit for conversion.  To establish a claim for constructive conversion, a pre-
+lawsuit demand and refusal is required.  
+Circuit Court for Howard County 
+Case No. 13-C-17-113337 
+REPORTED 
+IN THE COURT OF SPECIAL APPEALS 
+OF MARYLAND 
+No. 385 
+September Term, 2019 
+______________________________________ 
+DONEGAL ASSOCIATES, LLC 
+v. 
+CHRISTIE-SCOTT, LLC 
+______________________________________ 
+Graeff, 
+Arthur, 
+Woodward, Patrick L. 
+(Senior Judge, Specially Assigned), 
+JJ. 
+______________________________________ 
+Opinion by Graeff, J. 
+______________________________________ 
+Filed:  November 19, 2020 
+Pursuant to Maryland Uniform Electronic Legal Materials Act  
+(§§ 10-1601 et seq. of the State Government Article) this document 
+is authentic.
+Suzanne C. Johnson, Clerk  
+Suzanne Johnson
+2020-11-19 12:34-05:00
+In 2005, Christie-Scott, LLC (“Christie-Scott”), appellee, purchased Victoria & 
+Albert Hair Studios and assumed the salon’s lease with the landlord, Donegal Associates, 
+LLC (“Donegal”), appellant.  In October 2016, the commercial lease ended.  Christie-Scott 
+remained in the space and continued to pay rent, while the parties engaged in negotiations 
+regarding a new lease.  In June 2017, Christie-Scott notified Donegal that it did not intend 
+to renew the lease because it was moving the business to another location. 
+On November 6, 2017, Donegal repossessed the property.  The following day, 
+Christie-Scott filed a complaint in the Circuit Court for Howard County.  On May 2, 2019, 
+the circuit court issued an order finding Donegal liable for conversion of appellee’s 
+property, and it awarded Christie-Scott $139,938.87 in compensatory damages, minus 
+unpaid rent, for a total of $96,633.96.  The court also awarded Christie-Scott $1,000,000 
+in punitive damages. 
+On appeal, Donegal presents the following questions for this Court’s review, which 
+we have reordered, as follows:  
+1. 
+Where a commercial landlord has a contractual lien on personalty, can 
+it be liable for conversion of such personalty if the tenant produces no 
+evidence showing that it made a demand for its return and that the 
+landlord refused such demand? 
+2. 
+When, in violation of Md. Rule 2-305, a plaintiff omits in its 
+complaint the amount of alleged compensatory damages, and the 
+defendant’s trial strategy relies on that pleading, may that plaintiff 
+retain excess damages awarded by waiting until the third day of a four-
+day trial to purport to amend its complaint, without leave of the court, 
+to increase the amount of damages sought? 
+3. 
+Did the circuit court err in awarding compensatory damages for loss 
+of use on a conversion claim when (a) Christie-Scott designated three 
+experts on damages, never proffered their testimony, and offered only 
+incompetent and speculative law testimony; and (b) the court relied 
+solely on an exhibit prepared by Christie-Scott in anticipation of 
+litigation and without foundation, in violation of Md. Rule 5-
+803(b)(6)? 
+4. 
+Did the circuit court err in awarding punitive damages of $1,000,000 
+based on Donegal’s exercise of the right to peaceable self-help in 
+repossessing its premises, when (a) such a right was expressly 
+available to Donegal, a commercial lessor, under the Lease and at 
+common law; (b) Donegal effected repossession for business purposes 
+and there was no actual malice; and (c) the court ignored state and 
+federal constitutional limits on punitive damage awards?  
+For the reasons set forth below, we shall reverse the judgment of the circuit court 
+and remand for further proceedings.  
+FACTUAL AND PROCEDURAL BACKGROUND 
+In 2005, Christie Kaier and Scott Schmidt, through Christie-Scott, LLC, purchased 
+Victoria & Albert Hair Studio in Columbia, Maryland from the previous owners and 
+assumed the commercial lease with Donegal.1  Christie-Scott continued to operate and 
+grow the hair salon business for the next twelve years, during which time the parties had 
+an amicable relationship and renewed the lease multiple times.  
+The parties’ commercial lease expired on October 31, 2016.  Prior to that time, 
+Christie-Scott began negotiating the terms of a new lease with Donegal through its property 
+management company, identified as JLL.  Christie-Scott had concerns regarding needed 
+renovations and safety issues due to the declining character of the neighborhood, which 
+had resulted in non-customers loitering, panhandling in the parking lot, and coming inside 
+1 Ms. Kaier and Mr. Schmidt were both long-time employees of the salon when they 
+purchased it from the owners.  Ms. Kaier handled the administrative side of the business, 
+while Mr. Schmidt, a hair stylist, handled the hiring and training of new staff. 
+to use the bathrooms or the phone.  The parties discussed potential renovations and efforts 
+to eliminate uninvited pedestrian traffic, with Donegal bearing $50,000 of the cost and the 
+balance to be covered by Christie-Scott and amortized in subsequent lease payments.  
+Donegal began commissioning renovation plans at its own expense. 
+When the lease expired on October 31, 2016, Donegal permitted Christie-Scott to 
+remain in the space on a month-to-month basis while the lease negotiations continued, but 
+there was no oral or written agreement to this effect.  The lease provided as follows: 
+5. TERM AND TERMINATION: 
+A.  The Term shall begin on the Commencement Date and unless extended 
+or renewed shall end without notice at midnight on the Termination Date. 
+Tenant agrees to vacate the Premise at the end of the Term and that Landlord 
+shall be entitled to the benefit of all summary proceedings to recover the 
+possession of the Premise at the end of the Term as if statutory notice had 
+been given.  
+* 
+* 
+* 
+C.   If Tenant remains in possession of the Premises after the expiration of 
+the Term, the Term shall not automatically renew by operation of law, and 
+Landlord may consider Tenant as a Tenant-at-Will liable for the payment of 
+Rent at the market rate as determined by Landlord or may consider Tenant 
+as a “Tenant Holding Over” liable for double the market rate of Rent.  In 
+either event, all other covenants of his Lease shall remain in full force and 
+effect.  
+Christie-Scott continued to pay the same amount of rent during this period, but it 
+did not pay real estate taxes or Common Area Maintenance (“CAM”) fees.  Donegal did 
+not communicate whether it considered Christie-Scott a holdover tenant or a tenant-at-will, 
+but it billed Christie-Scott the same amount of rent, and it continued to deposit the rent 
+payments. 
+On December 8, 2016, JLL’s agent, Bill Hearn, sent an e-mail to Jim Greenfield and 
+John Healy, the managing partners at Donegal, regarding discussions with Christie-Scott 
+concerning the expiration of its lease and renewal.  Mr. Hearn asked whether Donegal 
+wanted JLL to begin charging the salon double “holdover rent” or “continue charging the 
+most recent rent without increase.”  Mr. Healy and Mr. Greenfield both responded that they 
+would like to “continue charging the normal monthly rent until further notice.”2 
+While the lease negotiations were ongoing, Christie-Scott was privately 
+contemplating moving the business due to the declining character of the neighborhood and 
+the resulting safety issues.  In February 2017, it began researching new locations.  In March 
+2017, Ms. Kaier called a staff meeting to discuss whether to find a new location or move 
+ahead with fixes to the current one, and the employees unanimously voted to move to a 
+new location.  Christie-Scott settled on a location in Clarksville, secured a bank loan, and 
+in June 2017, it signed a lease for the new space.  A few days after the company signed the 
+lease, Ms. Kaier contacted Mr. Hearn and informed him that the salon was not going to 
+stay at Donegal’s property, and they would be moving by November 1, 2017.3 
+2 The e-mail stating Mr. Healy’s agreement to charge the normal rent was sent by 
+his wife, Charlotte Healy, because Mr. Healy did not use e-mail.  Charlotte Healy, in 
+addition to being a limited partner at Donegal, also was a frequent customer at Christie-
+Scott’s salon. 
+3 At some point, Christie-Scott requested an extension until February 2018.  The 
+record reflects that the availability of the Clarksville location was delayed by permitting 
+and construction problems. 
+A few days later, on June 30, 2017, JLL sent a letter to Christie-Scott, stating that 
+Donegal considered the salon to be a holdover tenant in accordance with Section 5C of the 
+lease.  It demanded immediate payment of double rent dating back to the expiration of the 
+lease on October 31, 2016, a total of $75,939.76.4 
+After that letter, until October 2017, Christie-Scott remained in the space and 
+continued to pay only the normal rent amount, which Donegal deposited.  Christie-Scott 
+made repeated requests for a face-to-face meeting with Donegal during this period, but no 
+such meeting occurred. 
+During the summer of 2017, Mr. Healy was approached by Dwight Platt, another 
+commercial real estate owner, who offered to purchase the building from Donegal.  Mr. 
+Platt told Mr. Healy that he recently had sold a building in Baltimore County and needed 
+to “park” the profits in another real estate investment by December for tax purposes.5 
+Donegal agreed to sell, with the condition that they close by December.  
+On September 8, 2017, Donegal filed, in the District Court for Howard County, a 
+complaint for repossession of rented property due to non-payment of rent by Christie-Scott.  
+4 The rent prior to November 1, 2017, pursuant to the lease, was $9,492.47 per 
+month.  Ms. Kaier testified, and statements from Donegal confirm, that prior to the letter, 
+from November 1, 2016 to June 2017, she had been billed for the regular rent, which she 
+paid, and Donegal cashed the checks. 
+5 In its brief, Donegal cites Section 1031 of the Internal Revenue Code, which allows 
+sellers of real property to avoid capital gains taxes if they reinvest (or “park”) the proceeds 
+in another piece of similar real property within 180 days after the sale.  This procedure was 
+not explicitly discussed at trial, but Mr. Healy testified that Mr. Platt needed to park the 
+money and close by December for tax reasons. 
+Trial was set for October 13, 2017, but it was postponed twice, once because of a 
+scheduling conflict and a second time because the assigned judge recused herself due to a 
+conflict of interest with Mr. Healy. 
+The trial was reset for November 9, 2017.  Donegal, however, decided to pursue the 
+nonjudicial remedy of self-help. 
+Section 24A of the parties’ commercial lease provided that, if Christie-Scott 
+breached “the covenant to pay Rent by failing to pay rent or all other sums of money which 
+may be considered Additional Rent when due,” Donegal was permitted to take any of the 
+following actions: 
+(a) Terminate this Lease, in which event Tenant shall immediately surrender 
+the Premises to Landlord; but if Tenant shall fail to do so, Landlord may, 
+without further notice and without prejudice to any other remedy Tenant may 
+have for possession or arrearages in Rent, Additional Rent or damages for 
+breach of contract, enter upon the Premises and remove Tenant and his 
+effects by force if necessary, without being liable to prosecution for any 
+claim of damages[.] . . . 
+(b) Enter the Premises as the agent of Tenant, by force if necessary, without 
+being liable to prosecution or any claim for damages and relet the Premises 
+as the agent of the Tenant and receive the Rent therefor[.] . . .  
+(c) Perfect and otherwise enforce a lien, which Tenant agrees that Landlord 
+shall have, on all personal property, fixtures and trade fixtures of Tenant, 
+presently existing or subsequently acquired, placed in the Premises by or for 
+the benefit of the Tenant and may without notice and without liability to 
+Tenant or other party be sold by Landlord at public or private sale with the 
+proceeds being applied to amounts owed by Tenant and toward damages 
+resulting from Tenant’s breach of this Lease.  
+On October 31, 2017, Donegal called a meeting to inform Mr. Hearn that it intended 
+to seize possession of the salon through self-help on Monday, November 6, 2017, and “lock 
+out the [t]enant.”6  It selected this date because the salon is closed on Mondays.  At the 
+meeting, Mr. Healy expressed frustration at the slow pace of the litigation in the District 
+Court and believed that, “as a result of Donegal’s interpretation of the lease language and 
+legal statutes,” repossession was permissible at that time. Donegal instructed JLL to 
+coordinate changing the locks and hiring security to keep the premises “secure from the 
+tenant.”  Donegal’s attorney advised Mr. Hearn that “all hair salon product on site will 
+become property of the landlord.”   
+JLL was opposed to this action because it believed it “bypassed” the judicial process 
+pending in District Court, and it advised Donegal to consider other options.  When Donegal 
+declined to do so, JLL refused to participate in the repossession and terminated its 
+management agreement with Donegal. 
+On the morning of November 6, 2017, three days before the District Court hearing 
+was scheduled on Donegal’s repossession action, Mr. Healy went to the salon with 
+Donegal’s attorney, a locksmith, and a security guard, and they changed the locks and 
+alarm codes on the doors.  No advance notice was provided to Christie-Scott.  The salon 
+was closed that day, but one of Christie-Scott’s employees was present at the salon doing 
+inventory when the repossession took place.  Donegal’s attorney asked her to gather her 
+belongings and leave, which she did.   The employee called Ms. Kaier to inform her what 
+6 The information regarding this meeting was memorialized in a November 1, 2017, 
+e-mail from JLL’s regional director, Tim Hearn (Bill Hearn’s brother), to Donegal’s 
+attorneys.  The e-mail was introduced at trial through Bill Hearn, who was cc-ed on the e-
+mail. 
+had happened, but by the time Ms. Kaier got there from her home 45 minutes away, 
+Donegal and its agents were gone.7 
+The stylists were permitted to enter the space a few days later, under the supervision 
+of Donegal’s attorney, to retrieve their personal items and professional “tools,” such as hair 
+dryers, brushes, curling irons, etc.  Donegal’s attorney also returned some of Ms. Kaier’s 
+and Mr. Schmidt’s personal items to them.  Ms. Kaier, Mr. Schmidt, and their employees 
+were otherwise unable to access the salon to retrieve or take stock of any additional items. 
+As a result of the loss of the space, all but three of Christie-Scott’s hair stylists quit to find 
+other jobs. 
+On November 7, 2017, the day after the lockout, Christie-Scott filed a complaint 
+against Donegal in the Circuit Court for Howard County, alleging, among other things, 
+wrongful eviction, trespass, conversion, and tortious interference with a contractual right.  
+In its closing argument, Christie-Scott effectively abandoned all counts except conversion.8  
+Accordingly, only that claim and Donegal’s two counterclaims were submitted to the court 
+for consideration.  As relevant to the conversion count, the complaint included an ad 
+damnum clause requesting “judgment against [Donegal] for compensatory damages in an 
+amount in excess of the minimum jurisdictional amount of the Circuit Court, plus punitive 
+damages of five million dollars ($5,000,000)[.]”  
+7 On November 8, 2017, Donegal filed a motion in the District Court advising that 
+its previous repossession action was moot.  
+8  Counsel noted that the trespass to land (Count III) was a factual prerequisite for 
+the conversion claim, but Christie-Scott was not seeking separate damages on the trespass 
+count. 
+On the same day that Christie-Scott filed its complaint, it filed a motion for a 
+temporary restraining order (“TRO”) and preliminary injunction to enjoin Donegal from 
+continuing the lock-out and to restore possession to Christie-Scott.  On November 8, 2017, 
+the court granted the motion for a TRO.  On November 28, 2017, following a hearing, the 
+court vacated its Order granting the TRO. 
+On May 16, 2018, Donegal filed a counterclaim.  Count I alleged breach of the lease 
+agreement by failing to pay rent as a tenant holding over since November 1, 2016, resulting 
+in damages in excess of $155,000.  Count II alleged misrepresentation regarding Christie-
+Scott’s intent to renew the lease.  It requested “an amount in excess of $75,000” in 
+compensatory damages and the same for punitive damages. 
+Both parties subsequently filed motions for summary judgment.  On April 2, 2019, 
+after a hearing, the court issued an order denying both motions, with the exception that it 
+granted judgment in favor of Donegal on Count VI of Christie-Scott’s complaint (tortious 
+interference with a contractual right). 
+A four-day bench trial began on April 15, 2019.  Ms. Kaier testified that she began 
+working at the salon in 1990, and her responsibilities grew until she became the manager.  
+In 2005, after obtaining a loan for one million dollars, she and Mr. Schmidt purchased the 
+salon.  Ms. Kaier testified that she did not intentionally keep Donegal in the dark about 
+Christie-Scott’s plans to relocate to Clarksville, but she did not finalize the decision to 
+move until June.  Within days of signing the lease, she advised Mr. Hearn. 
+Ms. Kaier had no notice that Donegal was going to change the locks.  After the 
+lockout, she struggled to keep the business afloat, but she was able to find a temporary 
+location to continue operations.  She did not remove items contained in the store at the time 
+of the lockout, with the exception of some personal items.  With regard to the business 
+records, Ms. Kaier testified that she had online access to the salon’s client lists, client 
+appointments, some employee records, the check register, and product lists, but she could 
+not access contracts, invoices, or receipts remotely. 
+Christie-Scott introduced Plaintiff’s Exhibit 5, an inventory list of all the retail 
+products that were in the store at the time of the lockout.9  Retail products are items that 
+customers purchase for home use, as opposed to professional products, which are used on 
+the clients when they come in for services.  The retail value of the 2,719 retail products 
+listed on Exhibit 5 was $113,917.24.  
+Christie-Scott also introduced Plaintiff’s Exhibit 6, an undated inventory list of the 
+professional products in the salon, but Ms. Kaier conceded that it was made from memory, 
+and she did not know the actual quantity because she had not been able to access the space 
+to inventory what had been used since the last weekly order. The professional products 
+inventory was itemized, but it did not include a total dollar amount for the products.  Ms. 
+Kaier testified that, on average, she ordered $2,000–$2,500 of professional products each 
+week. 
+Ms. Kaier further testified that, in addition to the retail and professional products, 
+there were numerous pieces of furniture, fixtures, equipment, and business records still 
+9 Ms. Kaier was able to access this list remotely.  She testified that it had a print-out 
+date of March 19, 2018. 
+locked in the space, a “good portion” of which she had intended to transport to the new 
+location.  She acknowledged, as did Mr. Schmidt, that some of the furniture was old and 
+would not have gone to the new location.   
+ Christie-Scott also introduced numerous receipts and bank statements to establish 
+damages for some of the moveable items, such as the salon chairs, the furniture in the 
+reception area, a refrigerator, two washers and dryers, trollies, and more.  Ms. Kaier 
+testified that the salon might never financially recover due to the additional debt it incurred 
+to buy all new items for the Clarksville space. 
+Ms. Kaier also discussed Plaintiff’s Exhibit 13, a list of the items that she was able 
+to recall that were left in the salon at the time of the lockout.  This list included retail 
+products, furniture, equipment, and fixtures, which counsel stated “was the best evidence” 
+they had because Ms. Kaier had not been able to get into the space.  The court admitted the 
+exhibit “for what it’s worth subject to cross-examination.”10 
+Maggie Frantz, the sole employee present on the day of the lockout, testified that 
+Mr. Healy, an attorney, a locksmith, and an officer came into the salon while she was doing 
+inventory.  They told her that “they were [there] to do a peaceful eviction,” and she needed 
+to grab her belongings and leave.  She described the interaction as follows: “I just, I was 
+kind of confused as to what was happening. I was pretty intimidated at the time I was 
+twenty-two years old, so, I just was a little I guess confused as to what was happening.” 
+10 The total of the items was $221,760. 
+She testified that, after she exited, Mr. Healy “did try to come outside and console me 
+almost a little bit.” 
+Mr. Hearn, Donegal’s commercial property manager at JLL, testified regarding the 
+lease renewal negotiations with Christie-Scott.  He stated that, when he informed Mr. Healy 
+that Christie-Scott intended to move, Mr. Healy was not visibly angry or upset, but he was 
+concerned and determined.  When Donegal advised that it intended to evict Christie-Scott,  
+JLL refused to participate in the lockout, and it terminated its management agreement with 
+Donegal. 
+Donegal called several witnesses relating to comments made by Mr. Schmidt 
+referencing “squatters.”  Christine Hoffman and Christy Murphy testified that, during a 
+staff meeting, there was a concern that Christie-Scott had given notice that they would be 
+moving in November, but Donegal may not allow them to do that.  They testified that Mr. 
+Schmidt stated that it was fine, they were “going to be squatters,” and there was nothing 
+the landlord could do.  Mr. Schmidt denied saying this, but he agreed that the plan after 
+signing the new lease was to stay at Donegal’s property on a month-to-month basis until 
+the Clarksville location was ready. Several other employees testified regarding Mr. 
+Schmidt’s mention of the word “squatters” at an October 2017 staff meeting, but some 
+believed it to be a joke.  
+Karen Bosley, a former stylist with Christie-Scott, testified that she left immediately 
+after the lockout to work for a different salon.  Shortly thereafter, she received a phone call 
+from Charlotte Healy, Mr. Healy’s wife and business partner at Donegal, offering her the 
+opportunity to work out of the locked space.  Ms. Bosley attempted to recruit the other 
+former Victoria & Albert stylists to come work for her, but none of them accepted her offer.  
+Although Christie-Scott did not provide her with her client list, Ms. Bosley briefly ran 
+operations out of the space with a business partner until she took a leave for surgery in 
+January 2018. 
+Charlotte Healy testified that, after the lockout, she acted on behalf of Donegal to 
+clear the space to “set it up for another salon.”  She stated that she sold some product to 
+individuals from other salons that came and “knocked on the door” to see what was 
+available.  She sold the items for a nominal fee, for a total profit of approximately $4,000.  
+The items were not posted online or advertised publicly, and some were thrown away or 
+donated.  Other than the items sold, she did not remove any supplies, equipment, furniture, 
+or records from the salon’s office, stating that they were still in the space at the time of 
+trial.  Unsold items were left on the premises, and she did not keep a record of what was 
+sold. 
+Christie-Scott introduced Plaintiff’s Exhibit 24, an inventory list, prepared on 
+February 9, 2018, by Donegal’s consultant, of the remaining furniture, equipment, and 
+other fixtures in the salon.  The inventory list reflected a total estimated market value of 
+$32,645.11, with an estimated market value of sold items in the amount of $6,623.48.  The 
+list was admitted over Donegal’s objection that it was work product of its hired consultant. 
+John Healy testified as the corporate designee for Donegal.  He decided to consider 
+Christie-Scott a holdover tenant after the salon notified him that it would be moving, but 
+this was a business decision.  He proceeded with the lockout instead of waiting for the 
+District Court proceedings to go forward because he had an agreement to sell the property 
+to Mr. Platt by December, and he was concerned that Christie-Scott would not vacate in 
+time.  Donegal decided to sell the building in part because he and Mr. Greenfield were in 
+their 80s, and there was no one willing and able to inherit the business from them. 
+Mr. Healy testified that he permitted Ms. Bosley to operate out of the space in the 
+days following the repossession because it allowed him to mitigate his damages and to 
+avoid spending money to renovate the property back to office space.  He and Ms. Bosley 
+orally agreed that Donegal would defer six months of rent to give her an opportunity to get 
+the business off the ground, and after that period, they would reevaluate the next steps.  
+Additionally, they agreed that Ms. Bosley would sell and use the products left in the 
+space by Christie-Scott, and that she would give money from the sales to Donegal.  Those 
+monies would then be offset against the claim against Christie-Scott.   In January 2018, 
+Ms. Bosley wrote Donegal a check in the amount of $1,442.67 for these items.  Mr. Healy 
+explained that, although the building was in the process of being sold to Mr. Platt when he 
+entered into the agreement with Ms. Bosley, Donegal had made an oral agreement with 
+Mr. Platt that it would “be responsible for the Victoria and Albert situation.” 
+When the court questioned Mr. Healy as to why Donegal needed Christie-Scott out 
+in such a hurry since they were still paying rent, he testified as follows: 
+The hurry was[,] as far as the buyer was concerned . . . . was I want to have 
+control over this space. It’s not a money issue per se. I want control, all 
+landlords want their space first and money is the other issue. But it’s always 
+I want my space. The buyer said that they would close with that 
+circumstances being [vacant] if you will, and I said to them I’ll deal with the 
+space after we go to closing in December. And as I said, Your Honor, it 
+wasn’t us that wanted to do the December closing, it was the buyer. And so, 
+rightly or wrongly, that’s what the buyer wanted and that’s what we did.[11] 
+Mr. Healy further testified that, when Christie-Scott made a request for a second 
+extension until February 2018, he became concerned that they were going to keep asking 
+for extensions.  He expressed concern with the assumption “that somehow, they have the 
+right to tell me what they are going to do with my space. They are going to tell me when 
+they are going to come[,] and they are going to go and it doesn’t work that way.”  With 
+regard to the property inside the space, Mr. Healy testified that he believed Donegal “had 
+the right to everything in that salon other than the personal property of the people there” 
+because it had a lien under the lease.  He stated that, beyond Mrs. Healy’s efforts to sell 
+the items left in the salon and Ms. Bosley’s sales, he had not taken any additional steps to 
+sell the items. 
+As indicated, counsel for Christie-Scott, in closing argument, abandoned all claims 
+except the conversion claim.  The court then made its oral ruling.    
+The court found that, when the lease expired in October 2016, Christie-Scott became 
+a month-to-month tenant pursuant to Md. Code Ann., Real Prop. Article (“RP”) § 8-402 
+(Repl. Vol. 2015), and it was entitled to “one month notice to quit.”  It further found that, 
+because Donegal invoiced Christie-Scott for the rent at the same rate as before the lease 
+expired, and Christie-Scott paid that amount, Christie-Scott stayed on the property as a 
+tenant-at-will.  After Christie-Scott notified Donegal in June 2017 that it would not be 
+11 This sale was completed in December 2017. 
+renewing the lease, Donegal notified Christie-Scott that it was a “tenant holding over” and 
+demanded double the market rent, retroactive to November 1, 2016. 
+The court found that, although Donegal was not authorized to make the double rent 
+retroactive, Christie-Scott owed Donegal double rent for August, September, October, and 
+one-fifth of November.  Because Christie-Scott paid only the prior rent amount for August 
+through October, the court found that Christie-Scott was in default for not making full 
+payment of rent.  It found, calculating the extra rent owed, plus unpaid common area 
+maintenance fees ($9,602.14) and real-estate taxes ($1,428.37), that for the purposes of 
+Donegal’s counterclaim, Christie-Scott owed Donegal $43,304.91.  
+The court ruled that, due to Christie-Scott’s default, Donegal had several options 
+under the lease.  Pursuant to Section 24A(a), Donegal could terminate the lease, and if 
+Christie-Scott failed to immediately surrender, Donegal could enter the premises and 
+remove Christie-Scott.  The court found that did not happen because the lease had already 
+terminated and there was no 30-day notice to quit the holdover tenancy. 
+Pursuant to Section 24A(c), Donegal was permitted to perfect and enforce a lien on 
+the personal property and fixtures inside the salon and sell the items at a public or private 
+sale, with the proceeds of the sale to be applied to the amount owed by Christie-Scott.  The 
+court found, however, that no sale took place.  In that regard, the court noted: 
+ [T]here was never a sale.  There wasn’t an advertisement.  There wasn’t an 
+auction.  There wasn’t a sign put up. I heard no testimony.  And, in fact, Ms. 
+Healy said it was kind of word of mouth, if anybody came and asked me, 
+which is not really holding a sale. . . . If someone knocks on my door and 
+says, hey, can I buy this, that’s not exactly a sale.  So I don’t think it was 
+commercially reasonable.  He had the right to the lien, but I don’t think that 
+he perfected and enforced it because what he did was lock up the property.  
+The court found that Donegal took possession of the property “without legal right 
+under the lease to do so.”  Donegal did not sell the property or make any provision to return 
+the property to Christie-Scott, but rather, Donegal “just plain kept it.” Based on these 
+circumstances, the court determined that Donegal was liable for conversion because it had 
+“exercised control and possession over property” that belonged to Christie-Scott, and “it 
+did not have a legal right to do so.” 
+With respect to damages on the conversion count, the court acknowledged that there 
+had been “a lot of problems with the proof of damages in this case.”  The court ultimately 
+looked at the February 2018 inventory list prepared by Donegal’s consultant, i.e., 
+Plaintiff’s Exhibit 24, listing the fair market value of the furniture, fixtures, office 
+equipment and supplies as $32,645.11.12  Deducting $6,623.48 for items sold by Donegal 
+after the lock out, the court found that the fair market value of these items was $26,021.63. 
+Addressing the retail products inside the salon, the court accepted the retail value of 
+the items set forth in Plaintiff’s Exhibit 5: $113,917.24.   It stated that the actual damages 
+to Christie-Scott were likely “far more than that amount,” but due to “numerous problems 
+of proof” that “could not be overcome,” that was the amount of damages that the court 
+found. 
+12 The court stated that “one of the difficulties” in calculating these damages was 
+that Christie-Scott intended to move some of the items into the new space and to replace 
+others, and it was unclear “which of the old furniture and fixtures were staying and which 
+was going.”  Nonetheless, the court used the figures on the inventory list as the fair market 
+value of these items. 
+Adding the value of the retail goods ($113,917.24) to the value of the furniture, 
+fixtures, and equipment ($26,021.63) resulted in damages in the amount of $139,938.87.  
+The court then offset the damages owed to Donegal for back-rent, real estate taxes, and 
+CAM, which it calculated to be $43,304.91, to reach a compensatory damage award for 
+Christie-Scott of $96,633.96.  
+The court next turned to Christie-Scott’s punitive damages request.  It found “by 
+clear and convincing evidence that Donegal acted with the intent to injure” Christie-Scott. 
+The court noted that there was a District Court case scheduled for three days later that 
+would have covered their damages.  The court stated:  
+Mr. Healy testified it’s not about the money.  The trigger was when Plaintiff 
+advised that the space wouldn’t be ready in November.  The underlying 
+principle is that they don’t have the right to tell me what I’m going to do with 
+my space.  And there was also a management company who strongly advised 
+the Defendant against taking the action that it did.  There was never a notice 
+to quit.  There was never a notice that the month-to-month tenancy was 
+terminated.  The Plaintiffs were relying on the fact that there would be 
+litigation and had there been a judgment for repossession in the District 
+Court, they would have had a very small amount of time but time to pack up 
+and leave.  
+Mr. Healy is a businessman.  He has wonderful credentials.  He’s got a Law 
+Degree. He’s been owning business property in Howard County for many, 
+many years. . . . Mr. Healy knew and understood that taking the furniture and 
+fixtures, the inventory and potentially all of the stylists would destroy 
+Victoria and Albert, Christie[-]Scott.  It would shut them down.  There was 
+never a demand for money to release the goods.  There was this attempt to, 
+and I can infer from the fact that Ms. Bosley knew to find a place to cut hair 
+the day after the lock-out, that this discussion may have been going on even 
+prior to the lock-out, that there were discussions between Ms. Bosley and 
+between the Healys with respect to her taking over, basically taking over, 
+Victoria and Albert business with her own name on it.  This was done 
+knowing the devastation that it would cause to the Plaintiffs.  
+The court awarded Christie-Scott $1,000,000 in punitive damages.  The court 
+subsequently issued an Order, which was entered on May 3, 2019.  In the Order, the court 
+made supplemental findings, including that Donegal was not liable for trespass because the 
+lease allowed it to reenter and take possession of the property because Christie-Scott was 
+in default.  The order further stated: 
+The Court finds that Defendant’s actions in taking and keeping the 
+Plaintiff’s property without a legal right constituted conversion.  Detailed 
+findings were placed on the record.  Actual and punitive damages are 
+awarded to Plaintiff for Defendant’s conversion. 
+With regard to the punitive damages, the Court finds, based on the 
+testimony of John Healy, that Donegal Associates is a commercial landlord. 
+It owned the building in which Plaintiff had been a tenant.  This was adjacent 
+to the Howard County General Hospital, and was a location with a nice 
+central common courtyard area with plants and seating.  There were a number 
+of long term tenants in the building.  Mr. Healy testified that the business lost 
+$500,000.00 on the salon space alone, leading the Court to find that the 
+building sold for a substantial sale price, as the salon was one of many rental 
+spaces.  Mr. Healy also testified that the owners of Donegal did not take 
+income from the proceeds of the rents for the building for many years, instead 
+applying the funds to the mortgage.  The building was sold in December 
+[2017].  In order to deter the Defendant and others from similar conduct in 
+the future, the punitive damage award would have to be substantial.  The One 
+Million Dollar punitive award will serve as such a deterrent while not 
+financially destroying the Defendant.  
+In addition, in setting the amount of the punitive damages, the Court 
+takes into account the devastating impact Defendant’s actions had on 
+Plaintiff.  Although Plaintiff struggled to prove the amount of damages, the 
+Court finds that Defendant locking Plaintiff out of its space, with no access 
+to its property and papers inside, without notice, caused 14 stylists, many of 
+them long time employees with client followings, to leave employment with 
+Plaintiff, significantly reduced its income as well as its ability to earn income 
+in the future.  In addition, Plaintiff was in a position where it had to replace 
+all of its furniture, office goods, accessories and inventory necessary to run 
+a salon business.  The Court finds by clear and convincing evidence that 
+Defendant locked the Plaintiff out with the purpose and expectation of 
+severely damaging Plaintiff’s business, as detailed on the record.  The 
+Court’s assessment of punitive damages was proportionate to the 
+wrongfulness of its conduct and its ability to pay.  
+This appeal followed.  
+DISCUSSION 
+Donegal began its brief by challenging the punitive and compensatory damages 
+awards.  We will begin with the issue of whether the court properly found conversion 
+because, if there was no conversion, the challenge to the damages is moot. 
+Donegal contends that the circuit court erred in finding that it was liable for 
+conversion of Christie-Scott’s property.  It asserts that there are two types of conversion, 
+direct and constructive, neither of which was supported by the evidence.  Donegal argues 
+that there was no direct conversion because Donegal had a possessory interest in the 
+property.   In that regard, it notes that the court found, consistent with the terms of the lease, 
+that Donegal had a right to a lien on the goods. It further argues that there was no 
+constructive conversion because Christie-Scott made no showing that it had demanded the 
+return of the goods and the demand was refused.  
+Christie-Scott argues that the trial court properly found that Donegal converted its 
+inventory.  It asserts that the evidence supported the court’s finding of a direct conversion 
+because Donegal took possession of Christie-Scott’s property “without right under the 
+lease to do so.”  It argues that Donegal failed to provide 30-day notice to vacate before 
+repossessing the premises, and the self-help repossession was improper because it was not 
+peaceful.  Christie-Scott asserts that, even if the circuit court improperly found a direct 
+conversion in this case, a conversion occurred because Donegal “failed to dispose of 
+Christie-Scott’s property in a reasonable manner.”   
+The Court of Appeals has described the tort of conversion as follows: 
+Conversion is an intentional tort, consisting of two elements, a 
+physical act combined with a certain state of mind.  The physical act can be 
+summarized as “any distinct act of ownership or dominion exerted by one 
+person over the personal property of another in denial of his right or 
+inconsistent with it.”  Allied Investment Corp. v. Jasen, 354 Md. 547, 560, 
+731 A.2d 957, 963 (1999) (quoting Interstate Ins. Co. v. Logan, 205 Md. 583, 
+588–89, 109 A.2d 904, 907 (1954)).  This act of ownership for conversion 
+can occur either by initially acquiring the property or by retaining it longer 
+than the rightful possessor permits.  
+Darcars Motors of Silver Spring, Inc. v. Borzym, 379 Md. 249, 261–62 (2004). 
+Conversion can be either direct or constructive. K & K Management, Inc. v. Lee, 
+316 Md. 137, 173–74 (1989). “Constructive conversion is predicated on possession by the 
+defendant that was initially lawful or rightful.” Id. at 173.  Accord Parlett Ford, Inc. v. 
+Sosslau, 19 Md. App. 320, 322–23 (1973), cert. denied, 271 Md. 744 (1974).  After rightful 
+possession, however, conversion may occur if there is “a wrongful detention of the goods 
+and refusal to deliver them after due demand.”  Mattingly v. Mattingly, 150 Md. 671, 674 
+(1926).  To establish a constructive conversion, “it is necessary to show a demand for the 
+return of the chattel by the rightful owner, and a refusal by the wrongful holder, or some 
+assertion of an adversary right by the holder.”  Durst v. Durst, 225 Md. 175, 179 (1961). 
+In a direct conversion, by contrast, “the taking is considered to be per se tortious and the 
+requirements of demand and refusal do not apply.”  K & K Management, Inc., 316 Md. at 
+174.  
+Here, the circuit court found that there was a direct conversion.  It stated: “I really 
+didn’t have to struggle with whether it was a constructive conversion. It was a conversion 
+that without right under the lease to do so, the landlord took possession of the [Christie-
+Scott’s] property.” 
+In reviewing the circuit court’s findings, the parties correctly note that we review 
+factual findings subject to clear error review.  See Plank v. Cherneski, 469 Md. 548, 568 
+(2020). The ultimate conclusion regarding whether Donegal converted Christie-Scott’s 
+property, however, is a legal finding that this Court reviews de novo.  See Credible 
+Behavioral Health, Inc. v. Johnson, 466 Md. 380, 392 (2019) (appellate court reviews legal 
+conclusions de novo); Midwestern Helicopter, LLC v. Coolbaugh, 839 N.W.2d 167, 216–
+17 (Wis. 2013) (“The trial court’s decision that the facts amounted to conversion is a 
+question of law which [the appellate court] review[s] de novo.”), petition for review denied, 
+846 N.W.2d 15 (2014).  
+In determining whether there was a direct conversion here, we note that a 
+commercial landlord is permitted to resort to self-help to repossess premises and property 
+within the premises when a tenant is in breach of a lease that authorizes that remedy.  K & 
+K Management, Inc., 316 Md. at 167–68.  In K & K Management, Inc., the owners of a 
+motel had a lease with the Lees to operate the motel’s restaurant.  Id. at 162.  The owners 
+took possession of the restaurant by changing the locks without notice.  Id.  The Court 
+found that the Lees’ right “to occupy the premises or receive notice of termination rested 
+on the [lease] Agreement.”  Id. at 167–68.  Because the repossession of the restaurant 
+premises was not permitted by the Agreement, the landlord’s action was determined to be 
+unlawful.  Id. at 168–69, 171–74.   
+Similarly, the propriety of the landlord’s action in exercising possession of the 
+property within the restaurant turned on the terms of the Agreement.  Id. at 172.  Because 
+the jury construed the terms of the ambiguous Agreement as giving the landlord no 
+possessory interest in the property, the landlord was liable for a direct conversion.  Id. at 
+174. 
+The Court went on to comment, however, on the right to self-help in a commercial 
+lease, as follows: 
+We do not encourage resort to self-help and, for all of the practical reasons 
+which the instant action makes abundantly clear, the Bar usually counsels 
+against it.  See Maryland Institute for Continuing Professional Education of 
+Lawyers, Inc., Commercial Leases 257, 259 (1987).  Nevertheless, self-help 
+is not a prohibited means of acquiring repossession of premises upon 
+termination of a commercial lease, so long as the repossession can be effected 
+peacefully. 
+Id. at 178.  Accord Nicholson Air Servs., Inc. v. Bd. of Cty. Com’rs of Allegany Cty., 120 
+Md. App. 47, 79 (1998) (rejecting the argument that a commercial landlord may not resort 
+to self-help to repossess premises when “the tenant is in breach of a commercial lease that 
+expressly authorizes such a remedy”). 
+Based on this case law, a commercial landlord is permitted, although it is not 
+encouraged, to resort to self-help to repossess premises and property within the premises 
+in the following circumstances: (1) the tenant is in breach of a lease; (2)  that authorizes 
+the remedy of repossession; and (3) the repossession can be done peacefully.  See K & K 
+Management Inc., 316 Md. at 178; Nicholson Air Servs., Inc., 120 Md. App. at 79–82; Md. 
+Code Ann., Comm. Law Article § 9-609 (Repl. Vol. 2013) (After default, a secured party 
+may take possession of collateral without judicial process “if it proceeds without a breach 
+of the peace.”).  As explained below, those circumstances were satisfied in this case. 
+First, the circuit court found that Christie-Scott was in default of the lease because 
+it did not pay the full amount of rent that Donegal was charging it as a holdover tenant.13  
+This finding was supported by the record, and it was not clearly erroneous. 
+Second, we look to the terms of the lease to determine if it authorized Donegal to 
+take possession of the property inside the salon in the event of breach.  In K & K 
+Management, Inc., 316 Md. at 174, the Court held that, where the landlord locked out the 
+restaurant operators and retained the property inside, the conversion was direct because the 
+jury found no possessory interest in the property under the agreement that was “at best 
+ambiguous as to [landlord’s] ownership interest in the listed personalty.” 
+Here, by contrast, Section 24A of the lease provided that, if Christie-Scott failed to 
+pay rent, or additional rent, Donegal was entitled to “[p]erfect and otherwise enforce a lien” 
+on “all personal property, fixtures, and trade fixtures” in the salon.  The lease provided that 
+Christie-Scott agreed that Donegal had such a lien and could sell its property at a public or 
+13 Although Christie-Scott was a holdover tenant at the time of the lockout, the 
+parties were still bound by the terms of the original lease because the lease explicitly 
+provided that, if Christie-Scott becomes a tenant-at-will or holdover tenant, “all other 
+covenants of this Lease shall remain in full force and effect.”  See also Straley v. Osborne, 
+262 Md. 514, 520 (1971) (A “holdover tenancy is on all the terms and conditions of the 
+original lease . . . unless a contrary intention is shown.”); Donnelly Advertising Corp. of 
+Md. v. Flaccomio, 216 Md. 113, 121 (1958) (When a tenant holds over, the parties continue 
+to be bound by the covenants and provisions of the original lease.). 
+private sale without notice.  Accordingly, the trial court properly found that, pursuant to 
+Section 24A, Donegal had a lien on the property inside the premises. 
+Third, the repossession must be done peacefully.14  A commercial landlord is 
+required to “avoid a confrontation possibly leading to violence.”  K & K Management, Inc., 
+316 Md. at 179.   Self-help repossessions must be “conducted at a reasonable time and in 
+a reasonable manner.”  Droge v. AAA Two Star Towing, Inc., 468 P.3d 862, 874 (Nev. 
+2020).  A “breach of the peace” for repossession actions has been described as conduct that 
+“incites or is likely to incite immediate public turbulence, or which leads to or is likely to 
+lead to an immediate loss of public order and tranquility. Violent conduct is not a necessary 
+element. The probability of violence at the time of or immediately prior to the repossession 
+is sufficient.”  Pantogi-Cahue v. Ford Motor Credit Co., 872 N.E.2d 1039, 1044 (Ill. App. 
+Ct. 2007) (quoting Chrysler Credit Corp. v. Koontz, 661 N.E.2d 1171, 1173 (Ill. App. Ct. 
+1996)).  
+14 Christie-Scott also contends that there was a direct conversion here because, 
+pursuant to Md. Code Ann., Real Prop. Article (“RP”) § 8-402(b)(1)(i) (Repl. Vol. 2015), 
+Donegal was required to, but did not, give a 30-day notice to vacate before repossessing 
+the premises.  This contention is without merit.  Although RP § 8-402(b)(1)(i) provides for 
+a landlord to give a 30-day notice to a tenant to repossess the premises, RP § 8-402(a)(4) 
+also provides that this statute does not limit other remedies “under the lease or under 
+applicable law.”  Here, the parties’ lease provided that, when the tenant defaults, Donegal 
+may terminate the lease, enter upon the premises, and “enforce a lien” on all property in 
+the salon.  Thus, based on Christie-Scott’s breach of the lease, Donegal was not required 
+to give a 30-day notice to Christie-Scott before repossessing the premises or the property 
+inside.  Moreover, the Court of Appeals has explained that “notice is not required to 
+exercise peaceable self-help.”  Nickens, 429 Md. at 72–73.  See also K & K Management, 
+Inc. v. Lee, 316 Md. 137, 178 (1989) (Reentry without notice, pursuant to the terms of the 
+lease, is “entirely compatible with a desire to avoid a confrontation possibly leading to 
+violence.”). 
+Here, Donegal intentionally chose to repossess the salon on a Monday, a day that 
+the salon would be closed. Although one employee was present, there was no 
+confrontation.  Donegal announced that they were there to execute a “peaceful eviction,” 
+and the employee present was told to leave and allowed to take her personal belongings, 
+which she did without protest.  Under these circumstances, there was no factual question 
+generated regarding a breach of the peace.  Accordingly, we reject Christie-Scott’s 
+argument that the repossession was not peaceful.  
+Because the initial taking of the property inside the salon was not tortious or 
+wrongful, but rather, it was conducted peacefully and in accordance with the lease, we hold 
+that there was no direct conversion. We thus address whether there was a constructive 
+conversion.  
+The circuit court’s ultimate conclusion that Donegal was liable for conversion 
+appeared to be based on the fact that Donegal did not sell the property, as provided for in 
+the lease, but rather, Donegal “just plain kept it.”  To be sure, a landlord exercising the 
+right to the remedy of self-help must act reasonably in disposing of property.  Nickens v. 
+Mount Vernon Realty Group, LLC, 429 Md. 53, 79 (2012), superseded by statute, Md. 
+Code Ann., Real Prop. Article § 7-113.15  See Industrial Technologies, Inc. v. Jacobs Bank, 
+15 After Nickens v. Mount Vernon Realty Group, LLC, 429 Md. 53 (2012), was 
+decided, the General Assembly enacted Md. Code Ann., Real Prop. Article § 7-113, see 
+2013 Md. Laws, Ch. 514 (S.B. 642, eff. June 1, 2013).  This statute “significantly limited 
+the scope of self-help in situations involving residential properties.” Wheeling v. Selene 
+Finance LP, 246 Md. App. 255, 271 (2020), cert. granted, 2020 WL 6059796 (Sept. 14, 
+2020).  This statute does not apply to this case because we are dealing with a commercial 
+lease. 
+872 So.2d 819 (Ala. 2003) (“Even where the initial taking by the defendant was not 
+tortious, the retention of the personalty after demand for its return” may result in a 
+conversion claim.) (cleaned up).  
+As counsel for Christie-Scott acknowledged at oral argument, however, a party 
+claiming constructive conversion must show a demand and refusal.  See Yost v. Early, 87 
+Md. App. 364, 388 (“In order to establish a constructive conversion, . . . it is necessary to 
+show a demand for the return of the chattel by the rightful owner, and a refusal by the 
+wrongful holder, or some assertion of an adversary right by the holder.”) (quoting Durst, 
+225 Md. at 179), cert. denied, 324 Md. 123 (1991); Collins v. Trammel, 911 S.W.2d 635, 
+638 (Mo. Ct. App. 1995) (Plaintiff’s conversion claim failed because the initial taking was 
+lawful, and plaintiff failed to show that demand and refusal was made.).  
+In its brief, Christie-Scott argued that it did make a demand, citing to its complaint 
+in this case, which raised the claim of conversion.  We hold, however, as have other courts 
+addressing the issue, that the demand and refusal required to establish constructive 
+conversion must be made prior to filing suit for conversion.  See Stevens v. Interactive 
+Financial Advisors, Inc., 830 F.3d 735, 741–42 (7th Cir. 2016) (The filing of a conversion 
+lawsuit does not constitute a demand; “a pre-lawsuit demand is necessary to sustain a 
+conversion claim.”); Mayfield Smithson Enterprises v. Com-Quip, Inc., 896 P.2d 1156, 
+1163 (N.M. 1995) (“[A]n action for conversion requires . . . a demand for return of the 
+property prior to filing the complaint.”).  See also Peasley Transfer & Storage Co. v. Smith, 
+979 P.2d 605, 617 (Idaho 1999) (Legal proceeding to release property seized does not 
+constitute “a demand for the return of property for purposes of a conversion claim.”). 
+ Christie-Scott also argues that its motion for a temporary restraining order 
+constituted a demand.  For the same reasons as our holding that the complaint did not 
+constitute a demand, we hold that the motion did not constitute a demand sufficient to 
+sustain a conversion claim.  Moreover, Christie-Scott’s motion was not a sufficient demand 
+because it requested that Donegal restore its possession of the premises, not the personalty 
+inside.  See Mattingly, 150 Md. at 675 (A demand pursuant to this requirement “should be 
+so definite as to apprise the defendant with reasonable exactness what goods are meant.”).  
+Thus, at the time of trial here, Christie-Scott had failed to meet the requirement of a demand 
+and refusal to show a constructive conversion.  
+We hold that the circuit court erred in finding that Donegal was liable for conversion 
+of Christie-Scott’s property, and we reverse the circuit court’s finding in this regard.  It 
+follows that we also reverse the compensatory and punitive damage awards to Christie-
+Scott. 
+We note, however, that the circuit court’s May 3, 2019, Order required Donegal to 
+pay $96,633.96.  This award resulted from an offset of $43,304.91 for the amount Christie-
+Scott owed to Donegal on its counterclaim for breach of the lease against the damages to 
+Christie-Scott of $139,938.87.  Christie-Scott did not file a cross-appeal challenging this 
+finding regarding Donegal’s counterclaim, and therefore, it is not before us on appeal.  As 
+a result, we remand to the circuit court to revise its final judgment in accordance with this 
+opinion. 
+JUDGMENT OF THE CIRCUIT COURT 
+FOR HOWARD COUNTY IN FAVOR OF 
+CHRISTIE-SCOTT ON ITS COMPLAINT 
+AGAINST DONEGAL REVERSED. CASE 
+REMANDED 
+FOR 
+FURTHER 
+PROCEEDINGS 
+CONSISTENT 
+WITH 
+THIS OPINION. COSTS TO BE PAID BY 
+APPELLANT.16 
+16 Although we reverse the decision of the circuit court, we exercise our discretion 
+to impose costs on Donegal. 

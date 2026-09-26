@@ -1,0 +1,755 @@
+Reversed and Remand and Opinion Filed May 25, 2022 
+In The 
+Court of Appeals 
+Fifth District of Texas at Dallas 
+No. 05-19-01412-CV 
+HALL CA-NV, LLC, Appellant 
+V. 
+ROBERT RADOVAN AND WILLIAM CRISWELL, Appellees 
+On Appeal from the 134th Judicial District Court 
+Dallas County, Texas 
+Trial Court Cause No. DC-18-02395 
+MEMORANDUM OPINION 
+Before Justices Molberg, Carlyle, and Smith1 
+Opinion by Justice Molberg 
+Hall CA-NV, LLC (Hall) appeals the trial court’s final judgment ordering that 
+it take nothing on its claim that appellees, Robert Radovan and William Criswell, 
+breached their loan guaranty agreements.  Hall raises six issues on appeal: whether 
+(1) Hall proved all elements in its claim for recovery on the guaranty agreements; 
+(2) Hall conclusively established damages; (3) the guaranty agreements waived any 
+defenses raised by appellees; (4) appellees otherwise failed to plead or prove those 
+ 
+1 The Honorable John Browning participated in the case submission but not in the issuance of this 
+opinion, which occurred after the expiration of his term on December 31, 2020; the Honorable Craig Smith 
+succeeded him and has reviewed the briefs and record before the Court.  See TEX. R. APP. P. 41.1. 
+
+ 
+–2– 
+defenses; (5) the trial court’s findings of fact should be set aside because Hall proved 
+liability and damages and appellees waived or failed to prove any defenses; and (6) 
+the trial court abused its discretion by admitting into evidence a bankruptcy order.  
+We conclude legally sufficient evidence supported Hall’s claim, and Radovan and 
+Criswell waived any defenses to liability and otherwise failed to prove any 
+applicable defense.  We set aside the trial court’s findings to the contrary.  
+Accordingly, we reverse the trial court’s judgment and render judgment for Hall. 
+I. 
+BACKGROUND 
+a. Loan and guaranty agreements 
+Hall CA-NV, LLC agreed to loan New Cal-Neva Lodge, LLC up to $29 
+million for a hotel renovation project.  The hotel being renovated was the collateral 
+that secured the loan.  As additional security for the loan, Hall would receive “100% 
+of the membership interests in” the nearby Fairwinds Estate.  Their loan agreement 
+provided that the “maximum aggregate amount of the Loan shall not exceed the 
+lesser of (i) 60% of the Lender approved acquisition and renovation costs, (ii) 60% 
+of the appraised value of the Project, on an ‘as completed’ basis, or (iii) 
+$29,000,000.00.”  The loan was to be paid in installments.  Interest on the loan, at 
+“rates specified in the Note,” was computed on the unpaid principal balance and was 
+“due and payable as set forth in” a promissory note the parties executed.  New Cal-
+Neva agreed to pay “all expenses of the Loan,” including a Commitment Fee and 
+Hall’s attorney’s fees “incurred in connection” with the loan.  According to the 
+
+ 
+–3– 
+promissory note, an additional five percent in interest would accrue on the balance 
+in the event of default.   
+The loan agreement specified that Hall could “perform any of such covenants, 
+agreements and obligations, and any amounts expended by [Hall] in so doing shall 
+constitute additional indebtedness” if New Cal-Neva failed to perform any of its 
+covenants, agreements, or obligations under the agreement and other loan 
+documents.  New Cal-Neva also covenanted and agreed Hall would be allowed to 
+settle mechanic’s lien claims that New Cal-Neva failed to discharge.   
+ 
+Radovan and Criswell, the principals of New Cal-Neva, executed and signed 
+separate but identical guaranty agreements guaranteeing the loan.  In section two of 
+their respective agreements, Radovan and Criswell “unconditionally and irrevocably 
+guarantee[d] to [Hall] the punctual payment when due, whether by lapse of time, by 
+acceleration of maturity, or otherwise, and at all times thereafter, of the Guaranteed 
+Indebtedness.”  The guaranties were continuing guaranties of payment and not 
+guaranties of collection.  Radovan and Criswell each agreed “that if all or any part 
+of the Guaranteed Indebtedness shall not be punctually paid when due . . . Guarantor 
+shall, immediately, upon demand by Lender, pay the amount due” on the 
+indebtedness.  The guaranty agreements specified that Radovan and Criswell were 
+“jointly and severally liable for the payment and performance” of the guaranteed 
+obligations.   
+
+ 
+–4– 
+Radovan and Criswell, in section nine of the agreements, agreed that their 
+obligations under the agreements  
+shall not be released, discharged, diminished, impaired, reduced, or 
+affected for any reason or by the occurrence of any event, including, 
+without limitation, one or more of the following events, whether or not 
+with notice to or the consent of Guarantor: (a) the taking or accepting 
+of collateral as security for any or all of the Guaranteed Obligations or 
+the release, surrender, exchange, or subordination of any collateral now 
+or hereafter securing any or all of the Guaranteed Obligations; (b) any 
+partial release of the liability of Borrower or any Pledger, or Guarantor 
+hereunder, or the full or partial release of any other guarantor or obligor 
+from liability for any or an of the Guaranteed Obligations; (c) any 
+disability of Borrower, or the dissolution, insolvency, or bankruptcy of 
+Borrower, or any other guarantor, or any other party at any time liable 
+for the payment of any or all of the Guaranteed Obligations; . . . (i) the 
+settlement or compromise of any of the Guaranteed Obligations; . . . or 
+(n) any other circumstance which might otherwise constitute a defense 
+available to, or discharge of, Borrower or Guarantor. 
+The two guarantors also waived their right to require Hall to sue or exhaust its 
+remedies against New Cal-Neva and other guarantors and obligors.  They waived 
+“any principles or provisions of law, statutory, or otherwise, which are or might be 
+in conflict with the terms hereof and any legal or equitable discharge of Guarantor’s 
+Obligations hereunder . . . .”  These were waived whether they arose under “common 
+law, in equity, under contract, by statute, or otherwise . . . .”  Radovan and Criswell 
+further agreed Hall could “exercise any and all rights granted to it under the Loan 
+Agreement, and the other Loan Documents without affecting the validity or 
+enforceability of this Guaranty.”   
+
+ 
+–5– 
+b. Bankruptcy and litigation 
+Following foundation problems with the construction and the loss of certain 
+investors, New Cal-Neva defaulted on the Hall loan and filed for bankruptcy.  A 
+buyer was found, and the hotel and related assets were sold for about $38.15 million.  
+The buyer also wanted to purchase the Fairwinds Estate, which was not part of the 
+bankruptcy estate.  The bankruptcy court included a “limited exculpation” in its 
+order, which provided as follows: 
+For the avoidance of doubt, and in furtherance of Fed. R. Bankr. P. 
+6004(f)(2) and other applicable law, the Court hereby confirms and 
+orders that there shall be no personal liability for any individual who 
+executes any documents, including the revised Plan Documents, that 
+the Buyer reasonably deems necessary to effectuate the transfer of the 
+Purchased Assets, including without limitation the Fairwinds Estate, to 
+the Buyer, and any such individual is exculpated from any personal 
+liability that might otherwise arise on account of the execution of such 
+Plan Documents. 
+ 
+The general contractor, Penta Building Group, claimed to have a priority 
+mechanic’s lien over the hotel property.  As part of the bankruptcy settlement, a “lien 
+litigation reserve” of $15 million was carved out of the sale proceeds for Hall and 
+Penta to resolve Penta’s claim.  Hall and Penta ultimately agreed Penta would 
+receive $8,025,000 from the reserve.  In total, Hall received about $27.5 million plus 
+furniture, fixtures, and equipment, which was about $700,000.  Hall also received 
+$171,000 from Old Republic to reimburse it for attorney’s fees.  Hall extended 
+additional funds in connection with the bankruptcy, totaling about $2 million.  Hall 
+also incurred attorney’s fees from the bankruptcy proceeding. 
+
+ 
+–6– 
+Through counsel, Hall demanded Radovan and Criswell pay the full amount 
+of the guaranteed indebtedness pursuant to their guaranty agreements.  Hall sued 
+Radovan and Criswell to recover the guaranteed indebtedness under their 
+agreements.  They answered, making general and specific denials, and asserting 
+several affirmative defenses, including waiver, estoppel, accord and satisfaction, the 
+one satisfaction rule, failure to mitigate, impaired collateral, res judicata, and 
+collateral estoppel.  In appellees’ rule 166 disclosure, they noted the question of a 
+material alteration of the underlying contracts as a “contested issue of fact.”  In their 
+“identification of legal matters to be ruled on or decided by the court,” they noted (i) 
+the scope of the bankruptcy court’s exculpation order, (ii) whether Hall may enforce 
+the guaranty agreements, (iii) “[w]hether [their] affirmative defenses preclude 
+enforcement of the guaranty agreements.” 
+At the bench trial, Michael Jaynes, president of Hall, testified that Hall had 
+not sold or transferred its interest in the loan at issue.  He said Hall received about 
+$27.5 million plus furniture, fixtures, and equipment from the New Cal-Neva 
+bankruptcy estate.  Hall received about $170,000 from its insurer, which it was 
+seeking to recover from Radovan and Criswell.  Other than that, Hall had not 
+received anything from any other source.  Jaynes said Hall did not pay Penta any 
+amount of money; instead, Penta was paid through the bankruptcy court, like Hall 
+was.  Finally, Jaynes testified Hall had never agreed to release Radovan or Criswell 
+from their guaranty obligations.   
+
+ 
+–7– 
+On cross-examination, Jaynes said the maximum amount Hall could advance 
+under the loan documents was $29 million, though it only ever disbursed just under 
+$20 million.  He said Hall believed when it closed the loan that it would have a first-
+priority lien.  Eventually, during the bankruptcy, Hall decided there was “significant 
+risk as it related to the priority lien position to us.”  Jaynes said it was never 
+determined whether Hall lost its “priority lien at any time.”  He said Penta signed a 
+document saying that it had not begun construction at the time of the loan agreement.  
+But he testified there was risk with litigating Penta’s claims.  
+Ronda Tyrrell was responsible for selling the furniture, fixtures, and 
+equipment Hall received from the bankruptcy estate.  She testified Hall retained 
+$194,021.62 worth of furniture, fixtures, and equipment, for which she said Hall had 
+not paid because they “haven’t used them.”  Tyrrell said the total value of furniture, 
+fixtures, and equipment sold by Hall was $2,290,767.29.  Radovan and Criswell also 
+stipulated Hall received about $545,000 for some of these assets and it retained 
+others valued at about $194,000 for a total of over $720,000.   
+David Epperson, Hall’s portfolio manager for the New Cal-Neva loan, 
+testified that, as of July 30, 2019, Hall was owed about $8.6 million on the loan.  
+According to the amortization schedule, this was the sum of the loan balance, which 
+was $7,439,342.70, the interest accrued, which was $639,570.83, and the default 
+interest, which was $531,365.49.  The total was $8,610,279,02.  Epperson said 
+neither the $194,000 worth of retained furniture, fixtures, and equipment nor the 
+
+ 
+–8– 
+attorney’s fees received by Hall from the title company were reflected as credits on 
+the amortization schedule.  Radovan and Criswell stipulated they had “not paid any 
+amounts under their guaranty agreements.”   
+Radovan testified he and Criswell, through New Cal-Neva and with investors, 
+bought the Cal-Neva Lodge property in 2013.  They also bought the neighboring 
+Fairwinds Estate.  Radovan said he believed Penta had executed releases related to 
+any work Penta did prior to the Hall loan.  Radovan testified he pledged the 
+Fairwinds Estate as additional collateral for the loan.  “Given the amount of equity 
+in the property,” he said, “we never thought that we’d really be at risk on the personal 
+guarantees up to 20 million.”  He said he would not have agreed to guarantee the 
+loan without Penta’s representations, Hall’s title insurance, and the collateral that 
+they had.  He acknowledged the guaranty agreements did not reflect that 
+understanding, nor did he tell Hall that those safeguards were the only reason he 
+agreed to guarantee the loan.   
+Radovan said he thought the $32 million indebtedness was greater than the 
+amount he had agreed to guarantee.  He testified he was shocked when Hall decided 
+to settle with Penta, though he admitted on cross-examination he did not know 
+whether Penta’s position was correct under the law.  Radovan did not want to sell 
+the Fairwinds Estate, which he said he had previously pledged to Hall, but that “at 
+that point, we were doing what the attorneys and the Court was asking us to do.”  On 
+cross-examination, Radovan acknowledged Capital One had a first lien on the 
+
+ 
+–9– 
+Fairwinds Estate, and what Hall had was a pledge of membership interest.  Radovan 
+said Hall’s attorney said Hall would come after his and Criswell’s guaranty 
+agreements if they sold the Fairwinds Estate.  He said he would have resigned, but 
+he obtained an “exculpation” of personal liability relating to the transfer of the Estate 
+from the bankruptcy court.         
+Criswell testified he delegated authority to Radovan regarding “practically 
+every aspect of the Cal-Neva project.”  Like Radovan, he said he did not think he 
+was liable under his guaranty agreement because he thought Hall had been “fully 
+paid.”  If there was any deficiency, he said, it was because Hall decided to give away 
+some of the bankruptcy sale proceeds to Penta. 
+c. Findings of fact and conclusions of law 
+The trial court ruled for Radovan and Criswell, ordering that Hall take 
+nothing.  The court entered findings of fact and conclusions of law.  The court found 
+that (1) Hall loaned about $19.5 million to New Cal-Neva; (2) the maximum 
+aggregate amount of the loan Radovan and Criswell guaranteed was “never to 
+exceed $29 million”; (3) Radovan and Criswell’s guaranties were based on “three 
+key safeguards”: Hall was the first priority lien holder to New Cal-Neva Lodge, Hall 
+had a security interest in the hotel property and the neighboring Fairwinds Estate, 
+and Hall had title insurance; (4) Penta represented to Hall it had not commenced any 
+work prior to the loan; (5) Penta executed a subordination agreement in favor of 
+Hall; (6) Radovan and Criswell believed Penta had not begun any work under its 
+
+ 
+–10– 
+contract with Hall; (7) New Cal-Neva defaulted on its obligations and filed for 
+bankruptcy in 2016; (8) Penta began an adversary proceeding claiming to have lien 
+priority, alleging it began work before Hall’s loan was made; (9) Hall represented, 
+during the bankruptcy proceedings, that it was the first priority lien holder, ahead of 
+Penta; (10) Hall settled the Penta adversary proceeding by agreeing to pay Penta 
+over $8 million despite representing that it was the first priority lien holder; (11) 
+Radovan and Criswell were not told about the agreement before it was agreed to; 
+(12) Hall received value for its payment to Penta; (13) the bankruptcy plan involved 
+selling the hotel property; (14) the purchaser wanted to buy the Fairwinds Estate, 
+which was not part of the bankruptcy estate, in addition to the hotel; (15) because 
+the transfer of the Fairwinds Estate would expose them to liability under their 
+guaranty agreements, Radovan and Criswell obtained an exculpation from the 
+bankruptcy court before transferring that estate to the purchaser; (16) Radovan and 
+Criswell executed “plan documents” to transfer the Fairwinds Estate to the buyer; 
+(17) the secured properties sold for over $38 million; (18) that amount was more 
+than sufficient to cover the entire amount owed Hall, but Hall elected to enter an 
+agreement with Penta, giving it over $8 million; (19) after paying Penta, Hall 
+collected at least $27 million from the bankruptcy proceeding after loaning around 
+$19.5 million, creating the alleged shortfall that is the subject of this suit; (20) Hall 
+also received valuable furniture, fixtures, and equipment, which it partly sold and 
+partly kept; (21) Hall’s alleged deficiency was based on a claimed aggregate loan 
+
+ 
+–11– 
+amount of over $32 million in January 2018; (22) Hall has no damages from the 
+alleged breach; (23) Hall’s claims in this case are contrary to positions taken in the 
+bankruptcy proceeding; and (24) Hall’s claims are based on a loan balance of more 
+than $32 million; (25) Hall is simultaneously pursuing claims against third parties, 
+including its title insurer, Old Republic, to recover the same loss.   
+The trial court concluded that (1) Hall cannot obtain a double recovery for the 
+same injury; (2) Hall’s decision to settle with Penta, based on claims of seniority for 
+work performed before Hall made its loan, materially altered the parties’ agreements 
+under the loan documents; (3) the parties agreed to the loan documents based on the 
+mistaken belief Penta had not begun any work on the hotel that could entitle it to a 
+priority lien with seniority over Hall; (4) Hall is estopped from taking a position 
+contrary to one it took in the bankruptcy proceeding; (5) Hall elected its remedy in 
+the bankruptcy proceeding or otherwise waived its right to enforce the guaranty 
+agreements; (6) Radovan and Criswell were exculpated from liability by the 
+bankruptcy court and thus cannot be held liable for the indebtedness Hall alleges 
+because the indebtedness arises, at least in part, from the lost collateral of the 
+Fairwinds Estate; (7) Hall is not entitled to enforce the guaranty agreements; (8) Hall 
+failed to prove any cognizable damages; (9) Hall failed to mitigate its damages; (10) 
+Hall failed to prove Radovan and Criswell caused the damages alleged; and (11) 
+Radovan and Criswell’s obligation was discharged by accord and satisfaction.  This 
+appeal followed. 
+
+ 
+–12– 
+II. 
+ANALYSIS 
+a. Standard of review 
+A party challenging the legal sufficiency of an adverse finding on an issue on 
+which that party had the burden of proof at trial must demonstrate on appeal that the 
+evidence conclusively established, as a matter of law, all vital facts in support of the 
+issue.  Dow Chem. Co. v. Francis, 46 S.W.3d 237, 241 (Tex. 2001) (per curiam).  
+First, the challenging party must show that no evidence supported the trial court’s 
+finding; and then, if there was none, that the evidence conclusively established the 
+finding urged by the party.  See PlainsCapital Bank v. Martin, 459 S.W.3d 550, 557 
+(Tex. 2015).  “[T]he entire record must be examined to see if the contrary proposition 
+is established as a matter of law.”  Sterner v. Marathon Oil Co., 767 S.W.2d 686, 
+690 (Tex. 1989).   
+When a party challenges the legal sufficiency of an adverse finding on an issue 
+on which an opposing party had the burden of proof, the challenger must 
+demonstrate on appeal that no evidence supports the adverse finding.  Exxon Corp. 
+v. Emerald Oil & Gas Co., L.C., 348 S.W.3d 194, 215 (Tex. 2011).  A no-evidence 
+challenge will be sustained when the record confirms: (1) a complete absence of a 
+vital fact; (2) the court is barred by rules of law or of evidence from giving weight 
+to the only evidence offered to prove a vital fact; (3) the evidence offered to prove a 
+vital fact is no more than a mere scintilla; or (4) the evidence conclusively establishes 
+
+ 
+–13– 
+the opposite of the vital fact.  Ford Motor Co. v. Castillo, 444 S.W.3d 616, 620 (Tex. 
+2014).  The evidence must be reviewed in the light most favorable to the verdict.  Id. 
+In a case tried before the court without a jury, in which there are findings of 
+fact and conclusions of law, the reviewing court will indulge every reasonable 
+presumption in favor of the findings and judgment of the trial court, and no 
+presumption will be indulged against the validity of the judgment.  Vickery v. 
+Comm’n for Lawyer Discipline, 5 S.W.3d 241, 252 (Tex. App.—Houston [14th 
+Dist.] 1999, pet. denied).  “Findings of fact entered in a case tried to a court are of 
+the same force and dignity as a jury’s verdict on jury questions.”  Kahn v. Imperial 
+Airport, L.P., 308 S.W.3d 432, 436–37 (Tex. App.—Dallas 2010, no pet.).  
+b. Applicable law 
+A guaranty creates a secondary obligation according to which the guarantor 
+promises to answer for the debt of another and may be called upon to perform once 
+the primary obligor has failed to.  Anderton v. Cawley, 378 S.W.3d 38, 46 (Tex. 
+App.—Dallas 2012, no pet.).  A guaranty does not entitle a creditor to a double 
+recovery; “it merely provides an alternative source for recovery if the primary 
+obligor becomes insolvent.”  Sunbelt Sav., FSB v. Barr, 824 S.W.2d 600, 603 (Tex. 
+App.—Dallas 1991), rev’d on other grounds, 837 S.W.2d 627 (Tex. 1992).  The 
+elements of a breach of guaranty claim are: (1) the existence and ownership of the 
+guaranty contract; (2) the terms of the note underlying the guaranty or the 
+performance of the underlying contract by the holder; (3) the occurrence of the 
+
+ 
+–14– 
+conditions upon which liability is based; and (4) the guarantor’s failure or refusal to 
+perform the guaranty’s promise.  Marshall v. Ford Motor Co., 878 S.W.2d 629, 631 
+(Tex. App.—Dallas 1994, no pet.); Rivero v. Blue Keel Funding, L.L.C., 127 S.W.3d 
+421, 424 (Tex. App.—Dallas 2004, no pet.).    
+We construe guaranty agreements as any other contract.  See Coker v. Coker, 
+650 S.W.2d 391, 393–94 (Tex. 1983).  The construction of an unambiguous contract 
+is a question of law for the court.  MCI Telecommunications Corp. v. Texas Utilities 
+Elec. Co., 995 S.W.2d 647, 650 (Tex. 1999).  To ascertain the entire agreement 
+between the parties, separate documents executed simultaneously in the course of 
+the same transaction for the same purpose are to be construed together.  Jim Walter 
+Homes, Inc. v. Schuenemann, 668 S.W.2d 324, 327 (Tex. 1984).  
+c. Discussion 
+Hall argues it conclusively proved each element to recover on the guaranty 
+agreements.  We agree.  First, the guaranties exist and are owned by Hall.  Under the 
+two guaranty agreements admitted at trial, Radovan and Criswell guaranteed 
+payment to Hall.  See Schubiger v. First Newport Realty Inv’rs, 601 S.W.2d 218, 
+222 (Tex. App.—Dallas 1980, writ ref’d n.r.e.) (“the party offering the note is 
+presumed to be the owner, especially if it is listed as payee, unless the contrary is 
+shown”).  Second, it is undisputed that Hall loaned money to New Cal-Neva under 
+the terms of the underlying agreement.  This was Hall’s only obligation under the 
+loan agreement.  Third, New Cal-Neva defaulted on the loan and Hall eventually 
+
+ 
+–15– 
+demanded payment from Radovan and Criswell of the guaranteed indebtedness.  
+Fourth, Radovan and Criswell then failed to pay under their guaranty agreements, as 
+they stipulated at trial.  Furthermore, Hall established that the amount owed under 
+the guaranties was $8,610,279.02.  This number was proved through the testimony 
+of Epperson and the account statement exhibit.  See Diaz v. Multi Serv. Tech. Sols. 
+Corp., No. 05-17-00462-CV, 2018 WL 6521916, at *8 (Tex. App.—Dallas Dec. 12, 
+2018, no pet.) (mem. op.) (concluding that a debt amount was established through 
+the testimony of a company’s director of credit and risk management as well as an 
+account statement). 
+Accordingly, we conclude no evidence supported the trial court’s findings that 
+Hall failed to prove Radovan and Criswell’s liability, and moreover, the evidence 
+conclusively established Radovan and Criswell’s liability under their guaranty 
+agreements.  We set aside the trial court’s findings of fact and conclusions of law to 
+the contrary. 
+1. Loan amount 
+In deciding otherwise, the trial court found that Radovan and Criswell never 
+guaranteed any amount over $29 million.  Radovan and Criswell, in their argument 
+supporting this finding, point to the loan agreement provision that the “maximum 
+aggregate amount of the Loan shall not exceed the lesser of (i) 60% of the Lender 
+approved acquisition and renovation costs, (ii) 60% of the appraised value of the 
+Project, on an ‘as completed’ basis, or (iii) $29,000,000.00.”  Hall points to other 
+
+ 
+–16– 
+provisions in the agreement and the note in its argument that the $29 million figure 
+was only a limit on principal advances it could make to New Cal-Neva.  For the 
+reasons that follow, we agree with Hall.   
+One of the recitals at the beginning of the loan agreement made clear that the 
+$29 million limit related to “credit” for New Cal-Neva.  It provided that “Borrower 
+has requested Lender to extend credit to Borrower in the aggregate amount of up to 
+$29,000,000 (the “Loan”) . . . .” (emphasis added).  See Clark v. Walker-Kurth 
+Lumber Co., 689 S.W.2d 275, 279 (Tex. App.—Houston [1st Dist.] 1985, writ ref’d 
+n.r.e.) (“The $1000 limit was a limit on credit to be extended Clarco, Inc., and clearly 
+was not intended to limit the guarantor’s liability.”).   
+The definitions section of the agreement noted that the meaning of “loan” was 
+“[a]s defined in [the recital].”  Thus, “loan” was defined as “credit to [New Cal-
+Neva] in the aggregate amount of up to [$29 million].”  This meaning of loan was 
+confirmed by its use elsewhere in the agreement.  For example, in the representations 
+and warranties section of the agreement, New Cal-Neva represented that “[n]o part 
+of the proceeds of the Loan will be used for the purpose of purchasing or acquiring 
+any ‘margin stock’ . . . .”  So restricting the use of anything other than a proceed 
+disbursed to New Cal-Neva would not make sense.  See MCI Telecommunications 
+Corp. v. Tex. Utilities Elec. Co., 995 S.W.2d 647, 652 (Tex. 1999) (“When 
+interpreting a contract, we examine the entire agreement in an effort to harmonize 
+and give effect to all provisions of the contract so that none will be meaningless.”).   
+
+ 
+–17– 
+In the promissory note, New Cal-Neva promised to pay Hall “the principal 
+sum of TWENTY NINE MILLION [] DOLLARS . . . or so much thereof as may be 
+advanced by Lender [ ], together with interest thereon at the Note Rate [ ], and 
+otherwise in strict accordance with the terms and provisions hereof.”  In other words, 
+the note made a distinction between “the principal sum”—$29 million or some other 
+amount—and “interest thereon at the Note Rate.”  Both were to be paid to Hall.  In 
+the remedies section of the note, New Cal-Neva agreed that, in the event of default, 
+Hall could demand payment on “the entire unpaid balance of the indebtedness 
+evidenced by this Note,” including the outstanding principal balance, “all sums 
+advanced or accrued hereunder or under any other Loan Document,” and all accrued 
+but unpaid interest. 
+Under their guaranty agreements, Radovan and Criswell did not merely 
+guarantee the “loan” but all of the indebtedness under the loan documents.  Each 
+guaranteed to Hall “the punctual payment when due . . . of the Guaranteed 
+Indebtedness,” which was defined as “[a]ll of the indebtedness of Borrower under 
+the Note, the Loan Agreement, the other Loan Documents . . . .”  
+2. Credibility 
+Radovan and Criswell argue the trial court made credibility determinations to 
+which we must defer.  They argue that Hall’s evidence about the amount owed 
+“varied by over $1.5 million.”  Michael Jaynes, Hall’s president, testified on cross-
+examination that as of November 28, 2017, the loan balance was $24,730,742.50, 
+
+ 
+–18– 
+the accrued interest was $4,628,151.04, and the default interest was $2,346,677.88.  
+Counsel for Radovan and Criswell then cross-examined him using an affidavit he 
+submitted during the bankruptcy proceeding.  According to the affidavit, on the same 
+date, the principal balance was $23,067,058.03, the contract interest was 
+$4,545,526.92, and the default interest was $2,304,654.21.  Jaynes conceded these 
+amounts were different from those in the account statement admitted at trial, but he 
+said that there were “post-protective advances, there’s other advances that are 
+outlined on that affidavit.”  He also testified on re-direct that the affidavit noted, 
+“Amounts outlined above may not include expenses incurred but not yet processed 
+by [Hall].”  And Hall, Jaynes further testified, incurred expenses—roughly $2 
+million—during the bankruptcy proceeding.  Jaynes’s bankruptcy affidavit was not 
+admitted in evidence, nor was any further evidence offered to explain the 
+discrepancy in the November 28, 2017 numbers.   
+We first note that none of the trial court’s findings and conclusions appear to 
+be based on this discrepancy.  Second, the fact finder’s credibility determinations 
+must be reasonable.  Bentley v. Bunton, 94 S.W.3d 561, 599 (Tex. 2002).  It “cannot 
+ignore undisputed testimony that is clear, positive, direct, otherwise credible, free 
+from contradictions and inconsistencies, and could have been readily controverted.”  
+City of Keller v. Wilson, 168 S.W.3d 802, 820 (Tex. 2005).  The existence of an 
+affidavit, which acknowledged not-yet-processed expenses, does not create a 
+credibility problem that calls in to question Hall’s direct evidence about the amount 
+
+ 
+–19– 
+owed, which “could have been readily controverted.”  Cf. Chahadeh v. Jacinto Med. 
+Group, P.A., 519 S.W.3d 242, 250 (Tex. App.—Houston [1st Dist.] 2017, no pet.) 
+(discrepancy between a bankruptcy claim and a guaranty claim did not create a fact 
+issue when there was an uncontroverted reason for the difference).   
+3. One-satisfaction rule  
+The trial court concluded that Hall “cannot obtain a double recovery for the 
+same injury.”  A “double recovery” exists when a plaintiff obtains more than one 
+recovery for the same injury.  Waite Hill Services, Inc. v. World Class Metal Works, 
+Inc., 959 S.W.2d 182, 184 (Tex. 1998).  Such a recovery is prohibited by the one-
+satisfaction rule, under which “a claimant is entitled to only one recovery for any 
+damages suffered.”  Nat’l City Bank of Indiana v. Ortiz, 401 S.W.3d 867, 887 (Tex. 
+App.—Houston [14th Dist.] 2013, pet. denied); see also Mundheim v. Lepp, No. 05-
+19-01490-CV, 2021 WL 1921122, at *8 (Tex. App.—Dallas May 13, 2021, pet. 
+denied) (mem. op.) (“The prohibition against double recovery is a corollary of the 
+rule that a party is entitled to but one satisfaction for the injuries sustained by him.”). 
+Here, there is no evidence Hall recovered anything from Radovan and 
+Criswell under their guaranty agreements.  As discussed above, Hall proved it 
+obtained about $27 million from the bankruptcy, which was less than the roughly 
+$32 million balance at the time.   
+
+ 
+–20– 
+4. Affirmative defenses 
+The trial court also concluded Radovan and Criswell proved numerous 
+defenses, including material alteration, mistake, estoppel, waiver, accord and 
+satisfaction, and failure to mitigate.  Hall argues Radovan and Criswell waived all 
+possible defenses in their guaranty agreements.  Again, we must agree with Hall. 
+The two guarantors agreed in section nine that their “obligations under this 
+Guaranty shall not be released, discharged, diminished, impaired, reduced, or 
+affected for any reason or by the occurrence of any event, including, without 
+limitation . . . any other circumstance which might otherwise constitute a defense 
+available to, or discharge of, Borrower or Guarantor.”  And under section ten, they 
+waived “for the benefit of Lender,” among other things, “any principles or provisions 
+of law, statutory, or otherwise, which are or might be in conflict with the terms 
+hereof and any legal or equitable discharge of Guarantor’s Obligations hereunder . . 
+. .”   
+We conclude this broad language in the guaranty agreements waived the 
+affirmative defenses raised by Radovan and Criswell.  “To be effective, a waiver 
+must be clear and specific.”  Moayedi v. Interstate 35/Chisam Rd., L.P., 438 S.W.3d 
+1, 6 (Tex. 2014).  Simply because a waiver is “all encompassing does not mean that 
+it is unclear or vague.”  Id. at 8.  Indeed, a waiver of “all possible defenses seems to 
+very clearly indicate what defenses are included: all of them.”  Id.  For example, in 
+
+ 
+–21– 
+Holmes v. Graham Mortgage Corp., 449 S.W.3d 257, 259-60 (Tex. App.—Dallas 
+2014, pet. denied), the guaranty agreement at issue specified that,  
+[u]ntil the Guaranteed Obligations are fully performed, Guarantor shall 
+not be released . . . by reason of the illegality or unenforceability of all 
+or any part of the indebtedness represented by the Note as against 
+Borrower or Guarantor based on usury or other legal defenses, statutory 
+or otherwise, and Guarantor hereby to the maximum extent permitted 
+by applicable law expressly waives and surrenders any defense to 
+liability hereunder based upon the foregoing acts, things, agreements or 
+waivers, or any of them.   
+ 
+The guarantor raised numerous affirmative defenses, including judicial estoppel, 
+payment, accord and satisfaction, unjust enrichment, cancellation of debt, illegality, 
+equitable estoppel, and promissory estoppel.  Id. at 265.  “Based upon this plain 
+language of the Guaranty,” this Court concluded the guarantor “waived all of these 
+defenses.”  Id.   
+Radovan and Criswell agreed their obligations would not be diminished by 
+the occurrence of any event or any circumstance that might constitute a defense.  
+They waived any principles of law, statutory or otherwise, that might be in conflict 
+with the terms of their agreements.  We conclude this language in the guaranties was 
+clear and specific enough to waive the affirmative defenses raised.   
+Radovan and Criswell argue we must “harmonize the contract as a whole,” 
+ignoring that we must also give effect to every provision.  See MCI 
+Telecommunications Corp., 995 S.W.2d at 652.  The effect of these provisions was 
+the waiver of the above-listed affirmative defenses to liability under the guaranty 
+
+ 
+–22– 
+agreements.  See In re A.B., 458 S.W.3d 207, 210 (Tex. App.—Dallas 2015, pet. 
+denied) (“‘[m]utual mistake’ is an affirmative defense”); McGraw v. Brown Realty 
+Co., 195 S.W.3d 271, 277 (Tex. App.—Dallas 2006, no pet.) (noting that failure to 
+mitigate is an affirmative defense); Frost Nat’l Bank v. Burge, 29 S.W.3d 580, 588 
+(Tex. App.—Houston [14th Dist.] 2000, no pet.) (“material alteration is an 
+affirmative defense”); Clark v. Cotten Schmidt, L.L.P., 327 S.W.3d 765, 770 (Tex. 
+App.—Fort Worth 2010, no pet.) (“[q]uasi-estoppel is an affirmative defense”); TEX. 
+R. CIV. P. 94 (“accord and satisfaction” and “waiver” are affirmative defenses).  
+5. Material alteration  
+Radovan and Criswell argue that even if some defenses were waived, material 
+alteration was not because, if it applies, then the guarantors are no longer bound by 
+the guaranties, including the waivers.  The trial court found Hall’s decision to settle 
+with Penta materially altered its agreement with Radovan and Criswell.  Hall 
+responds that material alteration was neither pleaded by Radovan and Criswell nor 
+agued by them at trial, and that moreover, it was not proved.  Setting aside the 
+questions of whether this defense was properly before the trial court or waived in the 
+guaranty agreements, we conclude that Radovan and Criswell did not carry their 
+burden to prove it at trial.  
+A material alteration is an alteration of the underlying contract between a 
+creditor and principal debtor that either injures or enhances the risk of injury to the 
+guarantor.  Futerfas Family Partners v. Griffin, 374 S.W.3d 473, 478 (Tex. App.—
+
+ 
+–23– 
+Dallas 2012, no pet.).  “Because a material alteration is an affirmative defense, the 
+burden is on the surety to demonstrate that a material alteration occurred.”  Frost 
+Nat’l Bank v. Burge, 29 S.W.3d 580, 588 (Tex. App.—Houston [14th Dist.] 2000, 
+no pet.).  A guarantor may rely upon the terms and conditions of the guaranty being 
+strictly followed, and if the creditor and principal debtor vary in any material degree 
+from the terms of their contract, then a new contract has been formed and the 
+guarantor is not bound to it.  Vastine v. Bank of Dallas, 808 S.W.2d 463, 464 (Tex. 
+1991). 
+Radovan and Criswell fail to identify any terms of the underlying contract that 
+were altered by the parties when Hall settled with Penta during the bankruptcy.  On 
+the contrary, the loan agreement allowed Hall to “procure the release and discharge 
+of” mechanics’ lien claims if New-Cal Neva failed to do so.  Furthermore, the 
+agreement specified that in “settling, compromising or discharging any claims for 
+lien, [Hall] shall not be required to inquire into the validity or amount of any such 
+claim.”  Thus, Hall not only did not “vary in any material degree from the terms of 
+their contract” when it settled with Penta, it acted within the agreement’s terms, 
+which did not require Hall to “inquire into the validity” of Penta’s claim.    Cf. Mann 
+v. NCNB Tex. Nat. Bank, 854 S.W.2d 664, 667 (Tex. App.—Dallas 1992, no writ) 
+(“Any alterations of the underlying loan were made in accordance with the terms of 
+the continuing guaranty.”).  No evidence supported Radovan and Criswell’s defense 
+
+ 
+–24– 
+of material alteration; we set aside the trial court’s findings and conclusions to the 
+contrary.  
+6. Bankruptcy discharge 
+The trial court also found that Radovan and Criswell were exculpated from 
+liability by the bankruptcy court and therefore cannot be held liable for the 
+indebtedness under their guaranty agreements.2  A discharge in bankruptcy does not 
+affect the liability of a guarantor.  See, e.g., Austin Hardwoods, Inc. v. Vanden 
+Berghe, 917 S.W.2d 320, 324 (Tex. App.—El Paso 1995, writ denied); Chahadeh v. 
+Jacinto Med. Group, P.A., 519 S.W.3d 242, 248 (Tex. App.—Houston [1st Dist.] 
+2017, no pet.) (“Under the terms of the guaranty agreements, Chahadeh may be held 
+independently liable for the amount of the outstanding debts under the promissory 
+notes without regard to the outcome of the bankruptcy proceeding.”).  Radovan and 
+Criswell acknowledge this rule but argue that the bankruptcy court’s order 
+specifically extinguished their liability under the guaranty agreements.  And, indeed, 
+such a discharge is possible.  See Geary v. Tex. Commerce Bank, 967 S.W.2d 836, 
+838 (Tex. 1998) (rejecting “argument that a bankruptcy reorganization plan cannot 
+discharge the debts of someone other than the bankrupt party to someone other than 
+the bankrupt party”).  Hall responds, among other ways, that the bankruptcy court’s 
+ 
+2 We will assume for the sake of argument that this defense was not waived.  But see TEX. R. CIV. P. 
+94 (“discharge in bankruptcy” is an affirmative defense).   
+
+ 
+–25– 
+“limited exculpation” did not release Radovan and Criswell from their liability under 
+the guaranty agreements.   
+As described above, the bankruptcy court ordered “that there shall be no 
+personal liability for any individual who executes any documents . . . necessary to 
+effectuate the transfer of the Purchased Assets . . . to the Buyer, and any such 
+individual is exculpated from any personal liability that might otherwise arise on 
+account of the execution of such Plan Documents.”  In other words, anyone who 
+executed documents transferring the hotel and the Fairwinds Estate to the buyer was 
+shielded from any liability arising from the execution of those documents.   
+Radovan and Criswell do not explain in their briefing how their liability under 
+the guaranties arose from the execution of plan documents in the bankruptcy court.  
+Of course, their liability under the guaranty agreements arose under the guaranty 
+agreements and the other loan documents.  While the transfer of the Fairwinds Estate 
+to the buyer perhaps motivated Hall to pursue Radovan and Criswell on their 
+guaranties, as they indicated at trial, their liability under the guaranty agreements 
+cannot be said to have arisen on account of the transfer.  The language in the 
+bankruptcy order makes this case unlike, for example, the release involved in 
+Republic Supply Co. v. Shoaf, 815 F.2d 1046, 1047 (5th Cir. 1987) (emphasis added), 
+where “the bankruptcy court confirmed a reorganization plan [ ] that released a 
+guaranty executed by the appellant, Dr. Joseph Shoaf, in favor of the creditor, now 
+plaintiff-appellee, Republic Supply Company[.]”   
+
+ 
+–26– 
+Moreover, no “plan documents” were admitted at trial.  Thus, there was no 
+evidence before the trial court about what liability was extinguished by the 
+bankruptcy court because the plan documents remained an unknown.  Under 
+questioning from Hall, Radovan first said in a circular way that the plan documents 
+“were a group of documents that made up the plan documents,” but later admitted 
+he did not know how “plan documents” was defined in the bankruptcy court’s order.  
+We conclude that Radovan and Criswell failed to present any evidence their guaranty 
+agreements were released by the bankruptcy court.  
+7. Retained furniture, fixtures, and equipment 
+Finally, Radovan and Criswell argue Hall failed to carry its burden because it 
+admitted it had not sold some of the furniture, fixtures, and equipment it received in 
+the bankruptcy, and it did not deduct the value of those assets from Radovan and 
+Criswell’s indebtedness.  Hall responds that they waived any right to complain about 
+how it treated the collateral when they agreed their obligations would not be 
+diminished by “any impairment of any collateral securing” the loan or by the “failure 
+of Lender to sell any collateral securing any or all of the Guaranteed Obligations in 
+a commercially reasonable manner or as otherwise required by law[.]”   
+Furthermore, under section five of the guaranties, Radovan and Criswell 
+agreed that Hall was not required to enforce its remedies against any collateral before 
+demanding payment from them: 
+
+ 
+–27– 
+In the event of default in payment or performance of the Guaranteed 
+Obligations, or any part thereof, when such Guaranteed Obligations 
+become due, whether by its terms, by acceleration, or otherwise, 
+Guarantor shall promptly pay the amount due thereon to Lender without 
+notice or demand, of any kind or nature, in lawful money of the United 
+States of America or perform the obligations to be performed 
+hereunder, and it shall not be necessary for Lender in order to enforce 
+such 
+payment 
+and 
+performance 
+by 
+Guarantor 
+first, 
+or 
+contemporaneously, to institute suit or exhaust remedies against 
+Borrower or others liable on the Guaranteed Obligations, or to enforce 
+any rights, remedies, powers, privileges or benefits of Lender against 
+any property covered by a lien created under the Mortgage or any other 
+security or collateral which shall ever have been given to secure the 
+Guaranteed Obligations. 
+The Supreme Court of Texas looked at similar guaranty-agreement language in Fed. 
+Deposit Ins. Corp. v. Coleman, 795 S.W.2d 706 (Tex. 1990).  The agreements there 
+specified that “[t]he Creditor shall not be required to pursue any other remedies 
+before invoking the benefits of this guaranty, especially it shall not be required to 
+exhaust its remedies against endorsers, collateral and other security.”  Id. at 707.  
+The court concluded that “the guaranties expressly relieved the creditor from seeking 
+to satisfy its debt from the collateral at all.”  Id. at 710.  The lender, under the 
+guaranties, had “the right to ignore the collateral and obtain a judgment against [the 
+guarantors] for the full amount of the debt, even if the collateral might have been 
+sold to satisfy part of that debt.”  Id.   
+So, too, here: the guaranties relieved Hall from seeking to satisfy its debt from 
+the collateral.  We therefore conclude that, “[i]f Texas law implies a duty to dispose 
+of all collateral before suing on a guaranty,” Radovan and Criswell “expressly 
+
+ 
+–28– 
+waived [their] right[s] to insist on it.”  See SEI Bus. Sys., Inc. v. Bank One Tex., N.A., 
+803 S.W.2d 838, 840 (Tex. App.—Dallas 1991, no writ).   
+III. 
+CONCLUSION 
+We sustain Hall’s first five appellate issues, reverse the trial court’s judgment, 
+and render judgment that Hall recover $8,610,279.02 plus post-judgment interest.  
+We remand to the trial court to determine post-judgment interest.  Because we render 
+judgment for Hall, we do not reach its sixth issue regarding the admissibility of the 
+bankruptcy court order.  See TEX. R. APP. P. 47.1. 
+ 
+ 
+ 
+191412f.p05 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+/Ken Molberg/ 
+KEN MOLBERG 
+JUSTICE 
+ 
+
+ 
+–29– 
+Court of Appeals 
+Fifth District of Texas at Dallas 
+JUDGMENT 
+ 
+HALL CA-NV, LLC, Appellant 
+ 
+No. 05-19-01412-CV          V. 
+ 
+ROBERT RADOVAN AND 
+WILLIAM CRISWELL, Appellees 
+ 
+ 
+On Appeal from the 134th Judicial 
+District Court, Dallas County, Texas 
+Trial Court Cause No. DC-18-02395. 
+Opinion delivered by Justice 
+Molberg. Justices Carlyle and Smith 
+participating. 
+ 
+ 
+In accordance with this Court’s opinion of this date, the judgment of the trial 
+court is REVERSED and judgment is RENDERED that:  
+ 
+HALL CA-NV, LLC recover from appellees ROBERT RADOVAN 
+and WILLIAM CRISWELL actual damages of $8,610,279.02 plus 
+post-judgment interest.   
+ 
+We REMAND to the trial court for a calculation of post-judgment interest. 
+ 
+ 
+It is ORDERED that appellant HALL CA-NV, LLC recover its costs of this 
+appeal from appellees ROBERT RADOVAN and WILLIAM CRISWELL. 
+ 
+Judgment entered this 25th day of May 2022. 
+ 
+ 
+ 
+ 

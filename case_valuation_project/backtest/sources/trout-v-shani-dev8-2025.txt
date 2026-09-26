@@ -1,0 +1,409 @@
+[Cite as Trout v. Shani DEV8, L.L.C., 2025-Ohio-832.] 
+ 
+COURT OF APPEALS OF OHIO 
+ 
+EIGHTH APPELLATE DISTRICT 
+COUNTY OF CUYAHOGA 
+ 
+CHERYL TROUT, 
+: 
+ 
+ 
+Plaintiff-Appellee, 
+: 
+ 
+ 
+ 
+No. 113965 
+ 
+v. 
+: 
+ 
+  
+JAY SHANI DEV8, LLC D.B.A. 
+: 
+MR. HERO, ET AL., 
+ 
+ 
+ 
+: 
+ 
+Defendants-Appellants. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+JOURNAL ENTRY AND OPINION 
+ 
+ 
+ 
+JUDGMENT:  REVERSED 
+RELEASED AND JOURNALIZED:  March 13, 2025 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Civil Appeal from the Cuyahoga County Court of Common Pleas 
+Case No. CV-21-955789 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Appearances: 
+ 
+Tittle & Perlmuter, Kathleen R. Harris, and Scott D. 
+Perlmuter, for appellee.   
+ 
+Carr Law Office, LLC, and Adam E. Carr, for appellant.   
+ 
+ 
+DEENA R. CALABRESE, J.: 
+ 
+ Defendant-appellant Jay Shani DEV8, LLC d.b.a. Mr. Hero (“Jay 
+Shani”) appeals the jury’s verdict and award in favor of plaintiff-appellee Cheryl 
+Trout (“Trout”) stemming from her slip-and-fall accident in the Mr. Hero restaurant 
+on Smith Road in Brook Park, Ohio.  After a review of the evidence presented at trial 
+
+ 
+ 
+and in light of applicable law, we find Trout failed to present any evidence of 
+constructive notice of the alleged hazard.  Therefore, we reverse the trial court’s 
+denial of Jay Shani’s motion for judgment notwithstanding the verdict. 
+I. Facts and Procedural History 
+ The following summary of events was agreed to by the parties and read 
+by the judge at the start of the trial: 
+The plaintiff, Cheryl Trout, alleges that she slipped and fell inside a Mr. 
+Hero restaurant while walking to the counter to pick up food after 
+having ordered the food a few minutes previously while standing at the 
+same counter.  Ms. Trout blames her fall on an accumulation of liquid 
+on the floor.  Jay Shani Dev 8, the company, which is the defendant in 
+this case, denies any liquid was on the floor.  The Mr. Hero restaurant 
+was operated by Jay Shani Dev 8, LLC, under a franchise agreement 
+with Mr. Hero.  The plaintiff, Cheryl Trout, claims to have fractured her 
+right kneecap.  She additionally seeks damages for loss of consortium 
+to her late husband, David Trout, who was not present in the restaurant 
+at the time of her fall. 
+(Tr. 71-72.) 
+ Trout testified at trial that on June 7, 2021, she went to the Mr. Hero on 
+Smith Road, walked up to the counter to place her order and pay and then walked 
+to the front of the store and sat in a chair by the window.  (Tr. 875.)  She did not 
+notice anything wrong with the floor the first time she walked across it.  (Tr. 920.)  
+Trout testified that another customer went up to the counter to get his order and 
+that she would have “been aware of the commotion” and seen if he had spilled “a 
+whole drink.”  (Tr. 924.)  Trout then went up to the counter to get her order, taking 
+a slightly different route up to the counter but in the same general area where she 
+had previously walked.  (Tr. 926-928.)  Trout slipped on her way up to the counter 
+
+ 
+ 
+and landed on her right knee.  (Tr. 887.)  After her fall, she sat on the floor and felt 
+“something wet soaking into [her] pants.”  (Tr. 880, 929.)  The store was clean other 
+than the spot where she fell, and she did not notice any liquid on the floor either 
+before or after her fall.  (Tr. 926, 930-931.)  Trout suffered a fractured patella on her 
+right kneecap that ultimately required two surgeries. 
+ The Mr. Hero franchise where Trout fell is owned and operated by Jay 
+Shani, and Restaurant Developers Corporation (“R.D.C.”) is the franchisor.  (Tr. 
+613.)  Jay Shani is owned by Viren Patel (“Viren”), Archna Patel (“Archna”), and 
+Mike Patel.  Viren and Archna, who are brother and sister, were both working at the 
+Mr. Hero location on the day Trout fell.  (Tr. 612.)  Also working with them that day 
+was their cousin Meet Patel (“Meet”).  (Tr. 419.)  At the time Trout fell, Viren was in 
+the back operating the grill and training Meet, and Archna was handling customers 
+at the counter.  (Tr. 81, 191, 419.)  Because of COVID-19 restrictions, the chairs and 
+tables had been moved to the side and were not available for dine-in use.  (Tr. 497-
+498.) 
+ Archna testified she did not see anything on the floor that would have 
+caused a fall either before or after Trout fell and that she would have seen a spill 
+from her position at the cash register.  (Tr. 500, 567.)  Viren inspected the floor after 
+the fall and did not see any liquid substance.  (Tr. 506.)   
+ Viren testified that after Trout’s fall, he viewed the surveillance-camera 
+footage starting about five minutes before she fell to the time of the fall.  He 
+perceived that the video did not show anyone spill anything on the floor during that 
+
+ 
+ 
+five-minute time frame.  (Tr. 479-481.)  He also did not see anything in the video 
+that would have caused a fall.  (Tr. 479.)  When asked if “someone could have been 
+in there 20 minutes before and spilled and [he] wouldn’t have seen it by looking at 
+the video,” Viren answered “Yes.”  (Tr. 482.)  The surveillance video was never saved, 
+so after seven days it was automatically overwritten.  (Tr. 483.)  Viren is the only 
+person that viewed the surveillance footage before it was overwritten. 
+ On February 7, 2022, Trout filed a second amended complaint alleging 
+a claim of negligence against Jay Shani and a loss-of-consortium claim on behalf of 
+her husband David Trout (“David”).  A claim against R.D.C. was later dismissed.  
+Following David’s death, Trout was substituted as executor of his estate. 
+ Following protracted litigation, the case was tried before a jury 
+beginning on February 5, 2024.  Throughout the trial, there were continual 
+references by Trout’s counsel as to whether this Mr. Hero location followed the 
+“safety rules” derived from R.D.C.’s operating standards manual given by R.D.C. to 
+the franchise owners.  Specifically, the testimony centered around the manual’s 
+requirement that employees clean during “slow times,” the existence and placement 
+of rugs on the floor, and employee training.   
+ Jay Shani moved for a directed verdict after Trout’s counsel’s opening 
+statement, arguing “there was no evidence as to how the liquid got there or how long 
+it was there.”  (Tr. 321-322.)  The trial court denied the motion, pointing out that no 
+evidence had yet been presented.  (Tr. 323.)  A second motion for a directed verdict 
+was made, and denied, at the conclusion of the trial. 
+
+ 
+ 
+ After both parties rested, the jury returned a verdict finding Jay Shani 
+negligent.  On February 12, 2024, the jury awarded Trout $1,300,000 in 
+noneconomic damages.  On March 11, 2024, Jay Shani filed a motion for judgment 
+notwithstanding the verdict or for a new trial, arguing that Trout failed to provide 
+evidence that Jay Shani had constructive notice of a foreign substance on the floor 
+that caused Trout’s fall.  The motion was denied without hearing on April 26, 2024.  
+(Journal entry Apr. 26, 2024.) 
+ Appellant filed the instant appeal raising four assignments of error.  
+1.  The trial court erred in failing to apply Ohio’s statutory damages cap. 
+2.  The trial court erred in failing to enter judgment for the appellant 
+based on the failure of the appellee to demonstrate that the appellant 
+had actual or constructive notice the substance on which the appellee 
+fell. 
+3.  The trial court erred in allowing the jury to decide the case based on 
+a series of safety rules invented by the appellee instead of following 
+Ohio law on ordinary reasonable care for a negligence claim. 
+4.  The trial court erred in failing to instruct the jury that a corporation 
+is entitled to the same treatment as a natural person under Ohio law. 
+II. Law and Analysis 
+A. Constructive Notice 
+ We begin by reviewing Jay Shani’s second assignment of error because 
+we find it is dispositive of this appeal.  In the second assignment of error, Jay Shani 
+argues that the trial court erred in failing to enter judgment in its favor based on 
+Trout’s failure to demonstrate that it had actual or constructive notice of the 
+substance on which Trout fell.  Jay Shani specifically argues that the trial court erred 
+
+ 
+ 
+when it did not grant Jay Shani’s oral motion for directed verdict at the conclusion 
+of Trout’s opening statement, and again when it did not grant Jay Shani’s motion 
+for directed verdict and motion for judgment notwithstanding the verdict after the 
+conclusion of the trial.  Both motions requested judgment in Jay Shani’s favor, 
+arguing there was no evidence showing Jay Shani had actual or constructive notice 
+of the substance on the floor prior to Trout’s fall. 
+B. Motion for Directed Verdict (After Opening Statements) 
+  First, we consider the motion for a directed verdict.  A motion for 
+directed verdict can be made “on the opening statement of the opponent.”  Civ.R. 
+50(A)(1).  A trial court shall sustain a motion for a directed verdict when “after 
+construing the evidence most strongly in favor of the party against whom the motion 
+is directed, [the court] finds that upon any determinative issue reasonable minds 
+could come to but one conclusion upon the evidence submitted and that conclusion 
+is adverse to such party.”  Civ.R. 50(A)(4).  Counsel’s opening statements are not 
+evidence.  Morton v. Murray, 2018-Ohio-5178, ¶ 8 (8th Dist.), citing L&N 
+Partnership v. Lakeside Forest Assn., 2009-Ohio-2987 (10th Dist.).  “Only if the 
+opening statement shows that a party is completely unable to sustain a cause of 
+action should the court take the case away from the jury by directing a verdict.”  
+Parrish v. Jones, 2013-Ohio-5224, ¶ 32.  “Since a directed verdict is a question of 
+law, our review is de novo.”  Geletka v. MetroHealth Sys., 2023-Ohio-934, ¶ 26 (8th 
+Dist.), citing Goodyear Tire & Rubber Co. v. Aetna Cas. & Sur. Co., 2002-Ohio-
+2842, ¶ 4. 
+
+ 
+ 
+ In this case, Jay Shani argues that the trial court erred when it did not 
+grant the motion for a directed verdict after Trout’s opening statement.  Upon a 
+careful review of the transcript, we conclude that nothing in the opening statement 
+revealed that Trout was completely unable to sustain a cause of action for 
+negligence.  Therefore, we find the court did not err in denying Jay Shani’s motion 
+for a directed verdict following Trout’s opening statement. 
+C. Motion for Directed Verdict and Motion for Judgment 
+Notwithstanding the Verdict (At the Conclusion of Trial) 
+ 
+ Next, we consider Jay Shani’s motion for directed verdict and 
+judgment notwithstanding the verdict at the conclusion of the trial.  “The standard 
+for granting a motion for judgment notwithstanding the verdict is the same as that 
+for granting a motion for directed verdict,” and appellate review is also the same for 
+both motions.  Ringhand v. Chaney, 2014-Ohio-3661, ¶ 7 (12th Dist.).  “When 
+reviewing a motion for judgment notwithstanding the verdict, we employ a de novo 
+standard of review.”  Gerston v. Parma VTA, LLC, 2024-Ohio-3005, ¶ 41 (8th Dist.), 
+citing Grau v. Kleinschmidt, 31 Ohio St.3d 84, 90 (1987).  In reviewing a ruling on a 
+motion for judgment notwithstanding the verdict, 
+“[t]he evidence adduced at trial and the facts established by admissions 
+in the pleadings and in the record must be construed most strongly in 
+favor of the party against whom the motion is made, and, where there 
+is substantial evidence to support his side of the case, upon which 
+reasonable minds may reach different conclusions, the motion must be 
+denied.” 
+Id., quoting Posin v. A.B.C. Motor Court Hotel, 45 Ohio St.2d 271, 275 (1976).  The 
+trial court does not consider either the weight of the evidence or the credibility of 
+
+ 
+ 
+the witnesses when ruling on a motion for judgment notwithstanding the verdict.  
+Shields v. Bur. of Workers’ Comp., 2023-Ohio-1368, ¶ 34 (8th Dist.), citing Posin at 
+275.   
+ To establish negligence, a plaintiff must show the existence of a duty, 
+a breach of that duty, and an injury proximately caused by the breach.  Texler v. D.O. 
+Summers Cleaners & Shirt Laundry Co., 81 Ohio St.3d 677, 680 (1998).  ‘“The status 
+of a person who enters another’s property defines the scope of the legal duty owed 
+to that person.’”  Richie v. Home Depot, 2023-Ohio-68, ¶ 11 (8th Dist.), quoting 
+Buonopane v. M. Co., 2022-Ohio-4210, ¶ 15 (8th Dist.), citing Gladon v. Greater 
+Cleveland Regional Transit Auth., 75 Ohio St.3d 312, 315 (1996).  ‘“Property owners 
+owe invitees a duty of ordinary care in maintaining the premises in a reasonably safe 
+condition[.]’”  Richie at ¶ 11, quoting Buonopane at ¶ 15, citing Naso v. Victorian 
+Tudor Inn, L.L.C., 2022-Ohio-1065, ¶ 9 (8th Dist.).  “Whether a duty exists is a 
+question of law for the court to determine.”  Webb v. Breeze, 2011-Ohio-6475, ¶ 9 
+(8th Dist.), citing Frankmann v. Skyline Mgt., LLC, 2007-Ohio-3922, ¶ 5 (8th 
+Dist.), citing Mussivand v. David, 45 Ohio St.3d 314, 318 (1989). 
+ In Burke v. Giant Eagle, Inc., 2017-Ohio-4305 (8th Dist.), we stated:  
+In order for a business invitee to recover for an injury sustained in the 
+context of this case, the invitee is required to show that an employee of 
+the business was negligent in creating a hazard, had actual notice of a 
+hazard and failed to remedy it, or had constructive notice by allowing a 
+hazard to exist for an unacceptable amount of time such that the hazard 
+should have been remedied, but was not.   
+Id. at ¶ 7, citing Kokinos v. Ohio Greyhound, Inc., 153 Ohio St. 435, 436 (1950).   
+
+ 
+ 
+ “The Ohio Supreme Court has held that ‘it is essential that the 
+evidence show [the hazard] continued for a period of time sufficient to charge the 
+defendant with constructive notice thereof.’”  Madaras v. Applebee’s Neighborhood 
+Grill & Bar, 2025-Ohio-169, ¶ 26 (8th Dist.), quoting Kokinos at 438.  This court has 
+previously stated that “an injured party may not rely on mere speculation and 
+conjecture to attempt to demonstrate that a foreign substance had been present for 
+a sufficient period of time to give a shopkeeper or his employees constructive notice 
+of it.”  (Cleaned up.)  Richie at ¶ 13.  “If [a premises owner] did not have actual or 
+constructive notice of the defect — the [alleged liquid substance on the floor] — it 
+had no duty to warn [a business invitee].”  Washington v. Outrage, Inc., 2021-Ohio-
+2263, ¶ 21 (8th Dist.); accord Madaras at ¶ 28. 
+ In this case, there is no dispute that Jay Shani did not place the liquid 
+substance on the floor and did not have actual notice of it being on the floor.  The 
+question is whether Jay Shani had constructive notice of the substance on the floor 
+prior to Trout’s fall.  
+ Trout argues that Hardesty v. P.J. Bordner, 1994 Ohio App. LEXIS 
+6148 (5th Dist. Dec. 29, 1994), is on point, but the facts in Hardesty are so dissimilar 
+that it is not applicable to this case.  In Hardesty, the plaintiff slipped and fell on 
+water in a grocery store.  The existence of the puddle of water was never disputed 
+and another customer testified the puddle was there five to ten minutes before 
+plaintiff fell.  Thus, the plaintiff in Hardesty put forth evidence as to how long the 
+substance was on the floor prior to the accident, and therefore, the court held that 
+
+ 
+ 
+the plaintiff established constructive notice.  Here, we have a dispute that there was 
+anything on the floor and no evidence as to how long it was allegedly on the floor 
+prior to Trout’s fall. 
+ In the instant case, Trout attempts to establish a time frame based on 
+the five-minute mark where Viren started viewing the surveillance footage, and 
+Viren’s testimony that someone could have spilled something 20 minutes before.  
+However, Trout’s analysis relies on conjecture to postulate a substance must have 
+been on the floor for 5 to 20 minutes before Trout fell.  Viren testified that the five 
+minutes of video he watched did not show anyone spill anything and stated the video 
+never showed any liquid substance on the floor.  From this testimony, combined 
+with her own testimony that while she did not notice anything on the floor, she felt 
+“something wet” soak into her pants after her fall, Trout speculates that a spill must 
+have occurred before that five-minute mark.  Likewise, Viren’s testimony that 
+someone could have spilled something 20 minutes before the fall is pure 
+speculation.  Even the theory that the liquid substance allegedly on the floor was the 
+result of a spill, which Trout asserts repeatedly throughout the case, is speculation. 
+ Trout also argues that under Smith v. Regal Cinemas, Inc., 2005-
+Ohio-4703 (8th Dist.), she does not have to prove the amount of time the substance 
+was on the floor to establish constructive notice.  In Smith, there was no dispute that 
+there was a substance on the floor.  The plaintiff testified the substance she slipped 
+on was sticky, and the court concluded it could have been there for a sufficient 
+amount of time to dry and become sticky.  Thus, plaintiff put forth some evidence to 
+
+ 
+ 
+suggest the substance was there long enough to be discovered by a reasonable 
+inspection.  Here, Trout has put forth no evidence to suggest a substance was on the 
+floor for any length of time. 
+ The Sixth District recently addressed constructive notice in Ebersole 
+v. Toledo Hosp., 2025-Ohio-260 (6th Dist.).  The plaintiff in Ebersole slipped and 
+fell on a wet spot on a hospital hallway floor she had traversed four or five minutes 
+prior without issue.  She did not see anything on the floor on her previous trip down 
+the hallway.  There was no dispute that there was water on the floor when plaintiff 
+fell.  She argued that she established constructive notice by presenting evidence that 
+hospital staff were responsible for housekeeping duties, including cleaning the floor 
+and making sure there were no wet spots on the floor.  The court pointed out that 
+the “theory of liability based on constructive knowledge requires a determination of 
+whether the hazard would have been discovered by a reasonable inspection.”  Id. at 
+¶ 32.  However, even though the Ebersole Court discussed staff housekeeping duties, 
+it still recognized that established Ohio law required the plaintiff to show how long 
+a hazard existed to establish constructive notice.  The court stated that if  
+water came to be on the floor within four to five minutes of [plaintiff’s] 
+fall, this was not a sufficient amount of time to create a genuine issue 
+of material fact, particularly where, as [plaintiff] described, the water 
+was imperceptible.  To hold otherwise would be to require the hospital 
+to hyper-vigilantly examine all floors at all times, effectively imposing 
+strict liability and violating the principle that a business owner is not 
+an insurer of the invitee. 
+Id. at ¶ 35. 
+
+ 
+ 
+ In this case, even with testimony about R.D.C. operating manual 
+“rules,” Trout must still demonstrate how long the liquid substance was present 
+prior to the fall.  In addition, even if Trout was able to provide evidence that the 
+liquid substance was on the floor for at least five minutes, we agree with the Sixth 
+District that five minutes of imperceptible water on the floor is not a sufficient 
+amount of time to establish constructive notice.  To hold otherwise would be holding 
+Jay Shani to strict liability.   
+ Trout has not established constructive notice because she has not 
+demonstrated how long a liquid substance was allegedly on the floor prior to her fall.  
+See Calabrese v. Romano’s Macaroni Grill, 2011-Ohio-451 (8th Dist.) (No 
+constructive notice where plaintiff attempted to establish it by relying on “mere 
+speculation,” arguing her acquaintances noticed wet floor signs and saw water on 
+the floor after her fall); Hudzik v. Blvd. Ctr. Co., 2017-Ohio-9345, ¶ 25 (11th Dist.) 
+(no constructive notice where plaintiff did not produce evidence as to how long the 
+alleged defective condition existed); Swick v. Patty’s Market & Dept. Store, Inc., 
+2016-Ohio-4984, ¶ 16 (2d Dist.) (no constructive notice where a plaintiff tried to 
+establish it by asserting a store employee stated, “I bet that’s ham juice from that 
+ham” after her fall); Ray v. Wal-Mart Stores, Inc., 2013-Ohio-2684, ¶ 50 (4th Dist.) 
+(no constructive notice “[w]ithout evidence concerning the length of time that the 
+hazard existed”); Price v. United Dairy Farmers, Inc., 2004-Ohio-3392, ¶ 12 (10th 
+Dist.) (no constructive notice where the plaintiff “did not present any evidence as to 
+the length of time the alleged hazard existed on the store’s floor before he fell”). 
+
+ 
+ 
+ Viewing the evidence adduced at trial most strongly in favor of Trout, 
+there is nothing in the record demonstrating Jay Shani had constructive notice of a 
+foreign substance on the floor.  We find that Jay Shani’s second assignment of error 
+is well taken and reverse the trial court’s denial of the motion for judgment 
+notwithstanding the verdict.1  Because the second assignment of error is dispositive 
+of the case, we decline to address the remaining assignments of error. 
+ Judgment reversed. 
+It is ordered that appellant recover from appellee costs herein taxed. 
+The court finds there were reasonable grounds for this appeal. 
+It is ordered that a special mandate be sent to said court to carry this judgment 
+into execution. 
+A certified copy of this entry shall constitute the mandate pursuant to Rule 27 
+of the Rules of Appellate Procedure. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+DEENA R. CALABRESE, JUDGE 
+ 
+LISA B. FORBES, P.J., and 
+SEAN C. GALLAGHER, J., CONCUR 
+ 
+ 
+1 Alternatively, the trial court could have granted the motion for directed verdict 
+because the two motions are identical and would have yielded the same result. 

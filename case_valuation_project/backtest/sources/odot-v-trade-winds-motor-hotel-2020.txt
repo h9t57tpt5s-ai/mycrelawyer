@@ -1,0 +1,635 @@
+
+       
+          
+          
+  
+    
+
+        
+		
+        
+
+        
+        
+        
+        
+        
+
+        
+			
+		
+		
+		
+        	
+		STATE ex rel. DEPT. OF TRANSPORTATION v. TRADE WINDS MOTOR HOTEL EAST
+
+
+
+    
+
+	
+    
+	
+	
+	
+		Skip to Main Content
+		Accessibility Statement
+	
+
+	
+		
+			
+				
+					Help
+					Contact Us
+				
+			
+
+			
+				
+					e-payments
+					Careers
+				
+			
+
+		
+
+	
+
+	
+		
+			
+
+			toggle navigation
+
+		
+
+		
+			
+				Home
+				Courts
+				Decisions
+				Programs
+				News
+				Legal Research
+				Court Records
+				Quick Links
+			
+		
+	
+
+
+			
+	
+		OSCN Found Document:STATE ex rel. DEPT. OF TRANSPORTATION v. TRADE WINDS MOTOR HOTEL EAST
+
+					
+
+				
+  
+
+
+
+				
+					
+					
+						
+						Previous Case
+
+						
+						Top Of Index
+
+						
+						This Point in Index
+
+						
+						Citationize
+
+						
+						Next Case
+
+						
+						Print Only
+					
+					
+
+				
+
+
+				
+				STATE ex rel. DEPT. OF TRANSPORTATION v. TRADE WINDS MOTOR HOTEL EAST2021 OK CIV APP 6484 P.3d 301Case Number: 117756Decided: 07/23/2020Mandate Issued: 03/17/2021DIVISION IVTHE COURT OF CIVIL APPEALS OF THE STATE OF OKLAHOMA, DIVISION IV
+Cite as: 2021 OK CIV APP 6, 484 P.3d 301
+
+				
+
+
+THE STATE OF OKLAHOMA, ex rel. DEPARTMENT OF TRANSPORTATION, Plaintiff/Appellee,
+
+v.
+
+TRADE WINDS MOTOR HOTEL EAST, INC., Defendant/Appellant,
+
+and
+
+POLLY PROPERTIES, LLC; JOE MOBLEY INVESTMENT COMPANY; ROBERT S. MITCHELL, Deceased, and his successors; IVA L. MITCHELL; TULSA COUNTY TREASURER, Defendants,
+
+and
+
+UNITED NATIONAL INSURANCE COMPANY; W.N. COUCH, INC., an Oklahoma corporation; W.N. COUCH CONTRACTORS, a division of Sherwood Construction Co., Inc., a foreign corporation; and SHERWOOD CONSTRUCTION CO., INC., a foreign corporation, Third-Party Defendants.
+
+
+
+
+
+APPEAL FROM THE DISTRICT COURT OF
+
+TULSA COUNTY, OKLAHOMA
+
+
+HONORABLE REBECCA B. NIGHTINGALE, TRIAL JUDGE
+
+
+
+
+
+VACATED AND REMANDED
+
+
+
+
+
+Jot Hartley, Travis Hartley, THE HARTLEY LAW FIRM, PLLC, Vinita, Oklahoma, for Plaintiff/Appellee
+
+
+K. Ellis Ritchie, Nicholas Atwood, RITCHIE, ROCK, MCBRIDE & ATWOOD, Pryor, Oklahoma, for Defendant/Appellant
+
+
+Mark K. Blongewicz, Kelly C. Comarda, HALL, ESTILL, HARDWICK, GABLE, GOLDEN & NELSON, P.C., Tulsa, Oklahoma, for Third-Party Defendants W.N. Couch, Inc.; W.N. Couch Contractors; and Sherwood Construction Co.
+
+
+
+
+
+
+P. THOMAS THORNBRUGH, PRESIDING JUDGE:
+
+
+
+
+1 Appellant/Defendant, Trade Winds Motor Hotel East, Inc. (TWE), challenges the trial court's order entering judgment on a jury verdict that set an award for just compensation for property taken by Plaintiff, the Oklahoma Department of Transportation (ODOT), in a bifurcated condemnation case, including damages to TWE's remainder property. The order also reflects judgment in favor of ODOT on amounts of condemnation proceeds withdrawn by TWE and other Defendants in excess of the jury's verdict, and a finding pursuant to 12 O.S.2011  994 of no just reason for delay and directing the filing of final judgment. Based on our review of the record, the law, and the parties' briefs, we find the trial court committed reversible error in excluding certain relevant and material evidence from the jury's consideration. We vacate the judgment and remand for further proceedings.
+
+
+BACKGROUND
+
+
+2 This action concerns condemnation proceedings involving the now-defunct Tulsa Trade Winds Motor Hotel East (the Hotel)1 and condemnation-related litigation that has spanned more than a decade. The essential, relevant facts gleaned from the trial court's journal entry and the parties' briefs appear largely undisputed.
+
+
+3 In August 2008, ODOT filed proceedings to condemn approximately a quarter-acre of property adjacent to the Hotel for an access road, perpetual utility easement, and temporary construction easement in conjunction with ODOT's I-44 expansion between Yale and Harvard Avenues in Tulsa. The court-appointed Commissioners assessed compensation due for the property to be taken and damages to the remainder at $847,000. ODOT paid that amount into court.
+
+
+4 Both ODOT and TWE filed exceptions. The court sustained the exceptions, set aside the award, and re-appointed Commissioners, who returned an "Alias Report" awarding $760,000. Each party demanded a jury trial, and ODOT did not withdraw its initial deposit of $847,000. ODOT's contractors--Third-party Defendants WNC, Inc. (formerly W.N. Couch, Inc.), W.N. Couch Contractors, a division of Sherwood Construction Co., Inc., and Sherwood Construction Co., Inc. (collectively, ODOT Contractors)--began work on the project, and ultimately completed it before the matter finally went to trial in February 2018. The litigation was prolonged by a series of physical calamities and legal conundrums that occurred in the interim.
+
+
+5 In May 2010, while ODOT Contractors worked to relocate City of Tulsa water lines that were on the utility easement taken by ODOT, water leaks and flooding suddenly began to occur within, around, and under the Hotel, causing considerable damage. For reasons that remain disputed, TWE ended up closing the Hotel in August 2010.
+
+
+6 In May 2012, TWE filed a district court action against ODOT Contractors (without naming ODOT as a defendant), seeking damages for trespass and negligence in the Contractors' performance of the water line work.2 In mid-2013, TWE substituted its property insurer, United National Insurance Company (UNIC), as plaintiff and real party in interest in the tort case based on UNIC's status as TWE's alleged subrogee entitled to recoup its payments for insured losses3 resulting from the ODOT Contractors' alleged negligence. TWE withdrew from the tort case, and in early 2013 UNIC removed the case to federal district court.
+
+
+7 In November 2013, however, ODOT and TWE moved to add ODOT Contractors and UNIC as necessary parties to the condemnation proceeding. They requested that (1) UNIC be required to assert any claims it might have, as TWE's subrogee, against ODOT and/or the Contractors, and (2) the ODOT Contractors be required to "appear and defend against claims . . . for tortious or negligent injury to the real property which is the subject matter of this action occurring during construction of [ODOT's] highway improvements . . . ." ODOT also requested the court to re-appoint the Commissioners to again appraise the amount and extent of damages inflicted to the property due to the construction operations, and to return a supplemental report "awarding and apportioning the amount of such damages, if any, separate and apart from the damages awarded for the original taking." In December 2013, the court granted the joinder motion.
+
+
+8 UNIC thereafter obtained a voluntary dismissal of the federal court action, and both UNIC and ODOT Contractors were joined as Defendants/Third-Party Defendants in the condemnation case. In September 2014, the following actions occurred:
+
+
+(1) ODOT filed a claim against ODOT Contractors for indemnity, reimbursement, and contribution for amounts ODOT was required to pay as "consequential damages" to TWE's remainder property (whether paid to TWE or UNIC) as a result of ODOT Contractors' "construction operations."
+
+(2) UNIC filed a claim against the ODOT Contractors for negligence, and also sued TWE for a declaratory judgment that UNIC had a valid subrogation interest in any funds recovered by TWE due to loss resulting from ODOT Contractors' negligence.
+
+(3) TWE filed a claim against UNIC for breach of contract and breach of the duty of good faith and fair dealing in UNIC's handling of TWE's claim under its insurance policy, claiming TWE had sustained losses covered by insurance of more than $2,663,159, of which UNIC had paid only $396,093.
+
+(4) Although not until April 2017, with the court's permission TWE asserted counterclaims against ODOT alleging alternative theories of recovery sounding in breach of a general duty of care to TWE, breach of contract (TWE as a third-party beneficiary), inverse condemnation, negligence, trespass, and nuisance. TWE sought judgment against ODOT for "just compensation and/or damages" in excess of $75,000. ODOT did not file a response to the counterclaims until July 2018, after trial in the condemnation case had concluded.
+
+9 In July 2015, after being re-appointed pursuant to the court's December 2013 order, the Commissioners filed a "Supplement to Alias Report" assessing damages "separate and apart from the damages awarded" in their prior Alias Report at $3,890,000.4 ODOT did not pay this amount into court, but filed its "exceptions," as did the ODOT Contractors.5 The trial court ultimately sustained the exceptions and set aside the Supplement to Alias Report.6 
+
+
+10 Meanwhile, in August 2015, over TWE's objection, the court granted a motion by ODOT Contractors to "separate or bifurcate [ODOT's] condemnation case against [TWE] for purposes of pretrial motion practice and trial from the negligence, contribution, indemnification, declaratory judgment, breach of contract, and bad faith claims" among the parties. TWE's objection primarily was on grounds that separating the cases was premature. It also argued, however, that it was not required to establish the ODOT Contractors' negligence in order to recover just compensation for damage caused by their work, so there was no need for a separate "negligence" trial in order for a jury to make a damage assessment. TWE further argued that ODOT's claims for indemnity/contribution and the like against the ODOT Contractors could be decided by the same jury, as those jurors would have heard all the evidence and be familiar with the project.
+
+
+11 In July 2016,7 after again re-appointing Commissioners (in March 2016) and accepting proposed "Instructions to Commissioners" from ODOT, TWE and the ODOT Contractors, the court entered its "Second Alias Instruction[s] to the Commissioners." Those instructions--which are identical to instructions proposed by ODOT and substantially similar to those submitted by the ODOT Contractors--told the Commissioners to re-inspect and determine the value of the damage to TWE's "remaining property" that was "incident to the taking" by ODOT as of 2008, and not as the property "is currently situated." The instructions stated that damage was "'incident to the taking' when it is not the result of negligence, but rather may be the natural and ordinary, but unforeseen, result of the project which gave rise to the taking in the first place." Specifically, the instructions informed the Commissioners that the "claimed water damage" to the remainder property "is not 'incident to the taking' because the damage resulted from the alleged negligence of third parties and not from something inherent in the project." (Emphasis in original).
+
+
+12 In November 2016, the Commissioners returned their "Second Alias Report" assessing compensation due to TWE, exclusive of damages due to the claimed negligence of third parties, to again be $3,890,000. ODOT again filed exceptions and demanded a jury trial.
+
+
+13 In May 2017, however, ODOT Contractor Sherwood moved for summary judgment against UNIC on the negligence claim asserted as TWE's purported subrogee. TWE objected to the motion and filed a lengthy brief,8 but UNIC did not respond. Rather, in June 2017, UNIC filed a voluntary dismissal without prejudice of its claims against all of the ODOT Contractors, thus rendering Sherwood's summary judgment motion moot.
+
+
+14 Prior to the February 2018 condemnation trial, TWE filed a motion seeking that the trial court "find and order" as follows (emphasis added):
+
+
+[T]hat the Condemnation Trial of this matter is to be had on the issues of the value of the part of the property taken and damages to the remainder inclusive of the damages to the remainder which resulted to [TWE's] property by reason of the relocation of water lines, but exclusive of the negligence claims involving contractors and the insurance related claims of UNIC.
+
+15 All other parties opposed this motion. ODOT and ODOT Contractors asserted, inter alia, that the trial court had already determined in its Instructions to Commissioners that the water damage alleged to have resulted from the Contractors' negligence was not "incident to the taking," and thus water damage was an improper item for consideration as part of the condemnation case. ODOT also asserted that water damages evidence should be excluded because TWE had already been compensated by UNIC for its insured losses due to such damage, and had assigned its right to pursue a negligence claim against the Contractors to UNIC. ODOT further argued TWE could not now assert a tort claim against ODOT for any uninsured loss caused by the Contractors' alleged negligence, because TWE had not timely filed a tort claim against ODOT. UNIC objected on grounds that TWE planned to argue that a jury's determination of the amount of water damages would be binding on UNIC in TWE's separate contract and bad faith claims against the insurer. ODOT also filed a motion in limine seeking an order prohibiting TWE from introducing evidence or testimony regarding claims of water-related damages to TWE's "remainder property."
+
+
+16 The trial court denied TWE's February 2018 motion and entered a February 12 minute order prohibiting TWE from "arguing or admitting evidence of water damage in the condemnation trial." The pre-trial order for the case states that TWE's counterclaim is "[n]ot applicable to [the] condemnation portion of this proceeding," and that the trial court had "previously determined that damage claims attributable to water inflicted damage to the said hotel facilities . . . are not incident to the taking by Plaintiff." TWE made a voluminous "offer of proof" related to the water damages issues in the case. The offer contains transcripts of deposition testimony by an engineer, an appraiser, and the Hotel's owner/manager, as well as business records, photographs, and ODOT contracts/reports concerning the effect that the water leaks and flooding had on the operation and value of the "remainder property," i.e., the Hotel.9 The deposition testimony of TWE's expert appraiser, included in the offer, reflects his opinion that injury to the remainder property due to a decrease in market value, exclusive of water damage, amounted to damages of $1,003,000, but if the water damage and its secondary effects (e.g., mold and loss of electrical power for a long period of time) were taken into account, the total decrease in value amounted to approximately $1,666,400.
+
+
+17 Trial occurred over three days in February 2018. ODOT argued and adduced appraisal evidence that just compensation to TWE was no more than approximately $126,250, none of which is attributed to injury to the remainder property. Even though TWE was precluded from introducing evidence of water-related damage to the property allegedly caused by ODOT Contractors' water line relocation work, it adduced evidence that it was entitled to $1,003,000, of which approximately $829,500 was due to damage to the remainder property.
+
+
+18 The jury returned a verdict in favor of TWE for $340,000. The court entered judgment on the verdict for TWE for that amount in a journal entry which also characterized the amount as being "just compensation and damages . . . exclusive of any of Defendants' claims of damages to said remaining lands and improvements by reason of water damages alleged to have resulted from the relocation of . . . water lines by [ODOT Contractors]." In addition to judgment on the jury verdict, the court entered judgment in favor of ODOT on condemnation proceeds withdrawn by TWE and other Defendants in excess of the jury's verdict--$420,000--and found ODOT was entitled to the return of $87,000 remaining from the funds originally deposited with the district court clerk.
+
+
+19 In separate hearings following the trial, and based on the result of the trial, the court thereafter entered summary judgment in favor of ODOT on TWE's bifurcated counterclaims and third-party claims "for damages to [TWE's] remaining lands and improvements." It also entered judgment in favor of ODOT Contractors on their motion seeking summary judgment that "No Viable Claims" remained against the Contractors, and dismissed with prejudice TWE's "purported claims" against ODOT Contractors. The court further made a finding pursuant to 12 O.S.2011  994 that there was no just reason for delay, and directed a filing of final judgment. TWE filed this appeal.
+
+
+STANDARD OF REVIEW
+
+
+20 A condemnation action "brought to obtain private property for public use is a special proceeding and not a civil action, to be carried out in accordance with the methods prescribed by the legislature." Graham v. City of Duncan, 1960 OK 149,  0, 354 P.2d 458 (syllabus by the court). The Court has long held that the question of damages in a condemnation case is a matter for the jury, State ex rel. Atty. Gen. v. LeVan, 1938 OK 88,  7, 77 P.2d 748, and the jury's verdict will be upheld unless it "manifestly appears that it is unjust and not supported by any competent evidence." State ex rel. Dep't of Transp. v. Lamar Advert. of Okla., Inc., 2014 OK 47,  8, 335 P.3d 771 (citing Denver, W. & M. Ry. Co. v. Adkinson, 1911 OK 18, 119 P. 247).
+
+
+21 A decision to admit or exclude evidence is reviewed for abuse of discretion. Myers v. Mo. Pac. R.R. Co., 2002 OK 60,  36, 52 P.3d 1014. "All relevant evidence is admissible, unless the trial court determines that 'its probative value is substantially outweighed by the danger of unfair prejudice, confusion of issues, misleading the jury, undue delay, needless presentation of cumulative evidence, or unfair and harmful surprise.'" Id. (footnote omitted). "The range of inquiry into the value of property taken or damaged in eminent domain proceedings is left largely to the discretion of the trial court, and unless that discretion is abused the trial court's ruling admitting or excluding such evidence will not be disturbed." State ex rel. Dep't of Transp. v. Little, 2004 OK 74,  11, 100 P.3d 707 (footnote omitted). "Error may not be predicated on a ruling that excludes evidence unless a substantial right of a party is affected and the substance of the evidence was made known to the trial court by offer." Bierman v. Aramark Refreshment Servs., Inc., 2008 OK 29,  17, 198 P.3d 877 (footnote omitted). However, "[a] court necessarily abuses its discretion if it bases its ruling on an erroneous view of the law." Id. 
+
+
+22 The trial court's conclusions of law in a condemnation case are subject to the de novo standard of review. Little, 2004 OK 74 at  10 (footnote omitted). De novo review is "plenary, independent and nondeferential." Id.
+
+
+ANALYSIS
+
+
+A. Damages Recoverable by a Landowner in a Compensation Case May Include Damages from Condemnor's Tortious Conduct
+
+
+23 At the core of TWE's appeal is Oklahoma Constitution art. 2  24, which states, in pertinent part (emphasis added):
+
+
+Private property shall not be taken or damaged for public use without just compensation. Just compensation shall mean the value of the property taken, and in addition, any injury to any part of the property not taken . . . . In all cases of condemnation of private property for public or private use, the determination of the character of the use shall be a judicial question.
+
+This definition is carried over to Oklahoma's "eminent domain" statutes in Title 27. Pursuant to 27 O.S.2011  16 (emphasis added):
+
+
+A. In every case wherein private property is taken or damaged for public use, the person whose property is taken or damaged shall be entitled to just compensation.
+
+B. "Just compensation", as used in subsection A of this section, shall mean the value of the property taken, and in addition, any injury to any part of the property not taken. . . .
+
+24 Pursuant to these provisions, the Supreme Court has recognized that "a landowner is entitled to full compensation for damages including those for a condemnor's tortious conduct." Curtis v WFEC RR Co. 2000 OK 26,  17, 1 P.3d 996 (emphasis added)(citing Cities Serv. Gas Co. v. Huebner, 1948 OK 77, 197 P.2d 985; Andrews v. Proctor, 1945 OK 359, 165 P.2d 610; and Okla. City v. Collins--Dietz--Morris, Co., 1938 OK 410, 79 P.2d 791). The Court in Curtis further indicated that, under the circumstances presented there, only such damage as is a "necessary incident" to construction/operation of the public project should be considered in the condemnation proceeding itself. Curtis at  15 (quoting Okla. Gas & Elec. Co. v. Miller Bros. 101 Ranch Trust, 1935 OK 669, 46 P.2d 570). As for injury that is "due to willful or negligent construction or operation," the Court said the remedy is "through a separate and distinct cause of action such as trespass." Curtis at  17.
+
+
+25 The Court has also held, however, that when a public project is completed prior to the trial in the condemnation case, "it is proper for the jury and court to consider the facts then existing" to determine compensation for the landowner, including damages potentially caused by the condemnor or its contractor's negligence or trespass. See, e.g., Cities Serv. Gas Co. v. Huebner, 1948 OK 77,  0, 197 P.2d 985, where the Court distinguished its holding in Miller Bros. 101 Ranch (cited above) as involving a situation where the public work had not been completed at the time of the trial. In Huebner, the Court approved the trial court's decision allowing the jury to consider damages resulting from a condemnor's trespass or negligence in the condemnation case, explaining as follows:
+
+
+Plaintiff [the condemnor] argues that the evidence that land off the right of way was damaged, and that pieces of pipe, iron and asphalt were left on and off the right of way during the laying of the line established negligence, and that in assessing damages in an eminent domain proceeding nothing can be allowed for negligence or trespass. The question was first raised by the plaintiff, the defendants merely introducing evidence as to what was done as an incident to laying the line. They introduced no evidence that such acts were not reasonably necessary in order to lay the line. Their evidence was calculated to establish the elements entering into the depreciation in the value of the land caused by the exercise of the power of eminent domain. . . . But, the authorities are divided on this question, where, as here, the works have been completed prior to the trial. In Oklahoma Gas & Electric Co. v. Miller Bros., 101 Ranch Trust, 173 Okla. 101, 46 P.2d 570, relied upon by plaintiff, it does not seem that the works had been completed at the time of the trial, . . . In the later cases of Oklahoma City v. Collins-Dietz-Morris Co., 183 Okla. 264, 79 P.2d 791, and State v. Adams, 187 Okla. 673, 105 P.2d 416, we pointed out that the condemnee is entitled to be fully compensated for his damages irrespective of negligence. . . . Some of the cases holding that no allowance can be made for willful or negligent acts were cases where the trial was had before the works were constructed, which is clearly correct, since damages for such acts that may not occur would be based entirely upon conjecture and speculation. 
+
+1948 OK 77 at  5 (emphasis added). The Court continued that it was committed to a rule "allowing the jury to consider the damages resulting from trespass or negligence, where the works are completed at the time of the trial," because such a rule would avoid multiple lawsuits and also avoid placing an "undue burden upon the condemnee, whose property is taken without his consent." Id. In addition, the Court said, a "condemnor should not be heard to urge its own wrongs to mitigate the damages," and specifically noted that the trial court had not introduced the idea of negligence in instructing the jury in the case. It rejected the condemnor's argument that injury resulting from its own or its contractor's negligence should have been excluded, finding "no merit in this contention." Id.
+
+
+26 As indicated in the quoted passage above, the Court's decisions in Okla. City v. Collins-Dietz-Morris Co., 1938 OK 410, 79 P.2d 791, and State v. Adams, 1940 OK 320, 105 P.2d 416, are in accord with Huebner. In addition, in the more recent case of State ex rel. Dep't of Transp. v. Perdue, 2008 OK 103, 204 P.3d 1279, the Court recognized the continued viability of Huebner, citing Huebner as an example of a situation where expenses not anticipated when a condemnation case is filed were considered by the jury as part of the landowner's damages. Perdue at  17 and n.23.
+
+
+27 In all cases, "a condemnee bears the burden of establishing damages." Curtis, 2000 OK 26 at  17 (citing Graham, 1960 OK 149, 354 P.2d 458; Western Farmers Elec. Co-op. v. Rowlett, 1955 OK 254,  0, 288 P.2d 726; Nichols v. Okla. City, 1945 OK 66, 157 P.2d 174). The elements of damages include "all damages or injuries arising from the exercise of the right of eminent domain which cause a diminution of the value of private property, whether this results directly to the property or is but an interference with the right which the owner has to the legal and proper use of the same." State Highway Comm'n v. Smith, 1930 OK 480,  0, 293 P. 1002 (Syllabus by the Court). And, as noted above, "it is clear that the issue of damages is triable to a jury." Calhoun v. City of Durant, 1998 OK CIV APP 152,  2, 970 P.2d 608 (citing 27 O.S.1991  2; 66 O.S.1991  55; and 69 O.S.1991  1203(e)(1)).
+
+
+28 Unfortunately, the order of proceedings when separate actions are filed in a matter is not as definitive as the rules regarding damages and burden of proof. In this regard, however, the following language from the Court Syllabus in Graham v. City of Duncan, 1960 OK 149, 354 P.2d 458 (also relied upon in Curtis), is instructive:
+
+
+4. In a condemnation proceeding where the trial is had after the work is completed, it is proper to assess the damages on the basis of the facts existing at the time of trial.
+
+5. A condemnation proceeding is a special proceeding to determine in a single proceeding the damages done by the taking.
+
+6. After a judgment has been entered in a condemnation proceeding, it is conclusive as to all damages which were or might have been included in the award, and the owner cannot thereafter maintain an action for such damages, unless some items of damages have been removed from determination and reserved for future consideration, by agreement of the parties with the approval of the court.
+
+1960 OK 149 at  0 (Syllabus by the Court)(emphasis added); see also Silva v. Ark. La. Gas Co., 1979 OK 131, 602 P.2d 631 (landowner must include all damages accruing prior to hearing on condemnation or waive right to recover such damages). Thus, pursuant to Graham, unless some items of damage are specifically reserved for future consideration, a judgment in a condemnation case is conclusive as to all damages "which were or might have been included in the award." Id.
+
+
+B. The Parties' Arguments
+
+
+29 TWE makes two basic arguments on appeal. First, it asserts the trial court erred in excluding evidence of water damage to the Hotel from the condemnation trial because that evidence was relevant and crucial to TWE's claims for injury to its remainder property. It contends the jury's duty was to determine the amount of just compensation owed to TWE in a single proceeding and that such compensation should include all of the damage caused to the remainder property by the construction project, which was already complete at the time of trial. TWE admits that condemnation is a "special proceeding," and a negligence case is not properly a part of a condemnation proceeding. However, it asserts the condemnation trial could have been conducted without reference to allegations of negligence or trespass against ODOT or its Contractors, and that the negligence issue could have been separately tried, in a contribution or indemnity action, between ODOT and the Contractors, after completion of the condemnation case. TWE contends that even if the insurance reimbursements it received from UNIC are treated as damages attributable to the Contractors' "negligence," those payments did not cover all of TWE's losses due to the construction operation, specifically the diminution in value due to the water damage.
+
+
+30 Secondly, TWE contends the trial court's exclusion of evidence of water damage deprived TWE of its constitutional right to just compensation and to pursue compensation for all injury to its remainder property.
+
+
+31 ODOT in response argues that TWE gave up the right to seek damages resulting from negligence, trespass, or other tortious conduct by ODOT or the ODOT Contractors when TWE filed its separate case against ODOT Contractors. ODOT further contends that when the trial court determined--as part of its "Instructions to Commissioners" in July 2016--that water damage to the remainder property was not "incident to the taking," the decision also rendered such damages irrelevant to the condemnation case. ODOT insists TWE was aware Oklahoma law required it to file a separate tort action to recover for negligence, and by filing such an action it essentially "admitted" that all water damage to the remainder property was caused by the tortious conduct of either ODOT or ODOT Contractors.
+
+
+32 ODOT Contractors, who also have submitted an appellate response brief, reiterate ODOT's "incident to the taking" analysis. They rationalize TWE's argument to include all alleged damages in the condemnation case as follows:
+
+
+The [Oklahoma] cases recognize a clear distinction between damages which are necessarily incident to the taking, and damages which are caused by tortious conduct. Case law discussing property "consequentially" damaged by the taking suggests that plaintiff [sic] in a condemnation action is required merely to establish a causal connection between the condemnation itself and the alleged harm. That burden stands in sharp [] contrast with a plaintiff's burden of proof in a negligence action. Simply put, consequential damages in the condemnation context are damages that result directly from the taking, but are not caused by negligence.10
+
+33 The parties' briefs appear to agree, for the most part, on the general rules of condemnation law in Oklahoma, except that ODOT and the Contractors claim that proof of damages caused by a third party's alleged negligence have no place in a condemnation case. This is because, according to ODOT's argument, such damages as a matter of law cannot be "incidental to," or a consequence of, a public project's construction. The trial court appears to have adopted ODOT's rationale when it decided to exclude evidence of water-related damage from the condemnation trial.
+
+
+C. Reversible Error Occurred by Excluding Evidence of Water Damage
+
+
+34 ODOT and its Contractors ignore three basic aspects of this case that are not in dispute. First, it is undisputed that construction on the I-44 widening project was complete at the time of trial. As such, actual damages to the property were available for assessment by jurors without speculation or conjecture. See Huebner, 1948 OK 77 at  5.
+
+
+35 Second, the law is clear that damages in a condemnation case are always a question for the jury. State ex rel. Atty. Gen. v. LeVan, 1938 OK 88,  7, 77 P.2d 748. ODOT contends the trial court's 2016 "Instruction to Commissioners" that water damage was not "incidental to" the project as a matter of law was conclusive on the issue of whether those damages were relevant to the condemnation case. TWE consistently objected to this characterization of the water-related damages, and has taken the position that it is entitled to all damages to the property, including damage "by reason of relocation of the water lines" considered by the jury, without regard to negligence or trespass by ODOT or its Contractors.
+
+
+36 This leads to the third undisputed fact in this matter, which ODOT's and the Contractors' arguments fail to consider: the fact that the question of their tortious conduct--whether in negligence, trespass or otherwise--has never been fully litigated and decided.
+
+
+37 ODOT and ODOT Contractors claim that TWE has received all of the damages to which it is entitled for tortious conduct, but neither ODOT nor the Contractors have admitted that they engaged in such conduct, and in fact have explicitly denied it. They continue to refer to "alleged" negligence even in this appeal. ODOT appears to argue that payments from UNIC to TWE constitute the entirety of damages payable to TWE for loss due to negligence or trespass. Clearly, however, UNIC's payments were pursuant to an insurance contract, and only for TWE's "insured" losses, which TWE has consistently claimed do not constitute the entire injury suffered to the remainder property.
+
+
+38 The record does not reveal that the factual questions of "incidental damages" and/or "negligence damages" were ever litigated before the trial court decided that water damages were not "incident to" the construction of the project. In other words, there is no evidence specific to that decision. Rather, both ODOT and the Contractors rely on the presumption that TWE would not have filed a separate tort case against ODOT Contractors had it not "known" or "believed" that Contractors' tortious conduct caused all of those damages.
+
+
+39 However, ODOT Contractors were joined as necessary parties in the condemnation case before a trial of the tort case actually occurred, and no trial occurred thereafter. ODOT Contractors and UNIC were joined in part so that ODOT could preserve its contractual claim for contribution/indemnity damages resulting from the Contractors' alleged tortious conduct in relocating water lines. Though TWE itself did not thereafter seek damages in tort against ODOT or its Contractors in this case, nothing in the trial court's judgment suggests that ODOT would not have a remedy in contract against the Contractors for damages caused by their tortious behavior, if such conduct is proved to have occurred. 
+
+
+40 Under the holdings of Huebner, Graham, and Silva, by eliminating evidence of water damage at the condemnation trial, the trial court effectively foreclosed the possibility of holding an additional trial on damages to the remainder property caused by the tortious conduct of any party. Damages that could have been brought up in the condemnation case but were not raised cannot be the subject of a separate proceeding,11 unless specifically reserved for future consideration by agreement of the parties and with the approval of the court. See Graham, 1960 OK 149 at  0. Here, even if such reservation could be read into the record, the future consideration of all such "additional" or "non-incidental" damages has never occurred because the trial court, at ODOT's urging, deemed TWE to have already been compensated for that loss.
+
+
+41 It is true that the Supreme Court has made clear that "condemnation proceedings do not involve tort claims and are not civil actions at law or suits in equity," but are, instead, "special statutory proceedings for the purpose of ascertaining the compensation to be paid for property to be appropriated." State ex rel. Bd. of Regents v. McCloskey Bros., Inc., 2009 OK 90,  14, 227 P.3d 133 (footnotes omitted). Even so, the Court has recognized that there are cases in which the nature of the damages to property may be such that, if they are not considered in the condemnation case, the right to seek them later will be lost. This is what happened in the instant action, over the consistent and vociferous objection by TWE and its offer of proof of such damages.
+
+
+42 As stated above, all relevant evidence is admissible, but the decision to admit or exclude evidence is largely in the trial court's discretion. Myers v. Mo. Pac. R.R. Co., 2002 OK 60 at  36. However, "[a] court necessarily abuses its discretion if it bases its ruling on an erroneous view of the law." Bierman v. Aramark Refreshment Servs., Inc., 2008 OK 29 at  17. Evidence of water damage to the Hotel is evidence of damages that should have been considered in the condemnation case. This is because such damages not only occurred prior to the condemnation hearing, but they were both relevant and necessary to a jury's factual determination of "the value of the property taken, and in addition, any injury to any part of the property not taken." Okla. Const. art. 2  24. The evidence was excluded based on the false presumption that all damages attributable to a tort claim concerning TWE's property had already been decided and paid. The exclusion, thus, was based on an erroneous view of both the facts and the law, and the absence of such evidence undoubtedly substantially prejudiced TWE in making its case to the jury. The exclusion of the evidence constituted reversible error. We therefore vacate the lower court's judgment in its entirety and remand for further proceedings.
+
+
+CONCLUSION
+
+
+43 The trial court committed reversible error by excluding all evidence of water damage to the landowner's remainder property based on an erroneous view of the facts and the law. Accordingly, its judgment is vacated in its entirety and this matter is remanded for further proceedings in accordance with the views expressed herein.
+
+
+44 VACATED AND REMANDED.
+
+
+BARNES, J. (sitting by designation), and RAPP, J. (sitting by designation), concur.
+
+
+
+FOOTNOTES
+
+
+
+1 TWE owns both the Hotel and the Trade Winds Motor Hotel Central located a few blocks west of the Hotel's location. At the time of the condemnation proceedings at issue here, TWE was not the fee simple owner of the real property underlying the two hotels, but instead held the lands pursuant to a long-term lease. No questions concerning TWE's status as a lessee and right to recover the proceeds of condemnation are at issue here.
+
+
+
+
+
+2 The parties identify this case as Tulsa County District Court Case No. CJ-2012-02409.
+
+
+
+
+
+3 It is integral to TWE's appeal that TWE claims UNIC's payment for "insured losses" did not compensate TWE fully for all of the damages it incurred in conjunction with ODOT's condemnation of TWE's property.
+
+
+
+
+
+4 We note that in State ex rel. Dep't of Transp. v. Perdue, 2008 OK 103, 204 P.3d 1279, the Supreme Court addressed how to treat a similar request by ODOT to have commissioners re-evaluate condemned property. The Court held that such a request should be treated as ODOT's "exceptions" to a commissioners' report that was filed in the case 22 months earlier. Because the filing occurred beyond the 30-day statutory period, it was of no effect and "the trial court had no authority to order or confirm a new appraisement." Id. at  14. In the instant appeal, neither party raises as an issue the effectiveness of ODOT's requests for re-evaluation and the trial court's orders thereon, and the judgment entered below does not appear to turn on the appraisals made in the supplemental report(s); thus, we do not further address the issue here.
+
+
+
+
+
+5 ODOT's "exceptions" stated the award was "in excess of that for which [ODOT] is legally responsible," in that ODOT was not responsible for damages to TWE's "remaining property by reason of [ODOT's] highway construction activity conducted by [ODOT Contractors]." ODOT Contractors claimed, inter alia, the Commissioners had improperly assessed damages that were not "incident" or "necessarily incident" to construction and operation of the ODOT project. TWE objected to the Contractors' standing to file exceptions to the report or otherwise participate in the condemnation action.
+
+
+
+
+
+6 The trial court's Amended Journal Entry states that it set aside the Supplement to Alias Report in January 2016.
+
+
+
+
+
+7 A period of delay occurred in the case after TWE's lead counsel at the time, Robert J. Nichols, was required to withdraw from the case pursuant to Supreme Court order in disciplinary proceedings brought against Nichols by the Oklahoma Bar Association.
+
+
+
+
+
+8 TWE asserted facts were in issue concerning the full extent of damages against ODOT, and, together with a Rule 13D Statement that ODOT Contractors had not yet responded to TWE's discovery requests, argued that discovery was not complete with regard to the ODOT Contractors' negligence and the share of damages to which they were to blame.
+
+
+
+
+
+9 The offer of proof is contained within Defendant's Exhibit 31 notebook, which also incorporates several subsections of TWE's Exhibit 22. TWE counsel's description of the contents of the exhibit is found at pages 23 through 30 of the transcript of the jury trial, vol. 1 (Feb. 26, 2018), and also at pages 13 through 16 of the transcript of post-trial proceedings on dispositive motions by ODOT and the Contractors (Oct. 11, 2018).
+
+
+
+
+
+10 See ODOT Contractors' answer brief, at pp. 13-14.
+
+
+
+
+
+11 In Silva, for example, the Court held that damages alleged in a landowner's separate tort claim, which accrued prior to the condemnation hearing, should have been raised in the condemnation case. It affirmed dismissal of the tort claims, holding that Oklahoma law precluded a separate action under such circumstances. 1979 OK 131 at  7 and 11.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	Citationizer Summary of Documents Citing This Document
+	
+	
+		
+		Cite
+		Name
+		Level
+		
+	
+	
+	None Found.
+	
+	
+	Citationizer: Table of Authority
+	
+	
+		
+		Cite
+		Name
+		Level
+		
+	
+	
+	Oklahoma Court of Civil Appeals Cases
+ CiteNameLevel
+
+ 1998 OK CIV APP 152, 970 P.2d 608, 69 OBJ        3914, Calhoun v. City of DurantDiscussed
+Oklahoma Supreme Court Cases
+ CiteNameLevel
+
+ 1940 OK 320, 105 P.2d 416, 187 Okla. 673, STATE v. ADAMSDiscussed at Length
+ 1938 OK 88, 77 P.2d 748, 182 Okla. 371, STATE ex rel. AG v. LeVANDiscussed at Length
+ 1938 OK 410, 79 P.2d 791, 183 Okla. 264, OKLAHOMA CITY v. COLLINS-DIETZMORRIS CO.Discussed at Length
+ 1945 OK 66, 157 P.2d 174, 195 Okla. 305, NICHOLS v. OKLAHOMA CITYDiscussed
+ 1955 OK 254, 288 P.2d 726, WESTERN FARMERS ELECTRIC COOP. v. ROWLETTDiscussed
+ 1945 OK 359, 165 P.2d 610, 196 Okla. 272, ANDREWS v. PROCTORDiscussed
+ 1935 OK 669, 46 P.2d 570, 173 Okla. 101, OKLAHOMA GAS & ELEC. CO. v. MILLER BROS. 101Discussed at Length
+ 1960 OK 149, 354 P.2d 458, GRAHAM v. CITY OF DUNCANDiscussed at Length
+ 2002 OK 60, 52 P.3d 1014, MYERS v. MISSOURI PACIFIC RAILROAD CO.Discussed at Length
+ 2004 OK 74, 100 P.3d 707, STATE ex rel. DEPT OF TRANSPORTATION v. LITTLEDiscussed at Length
+ 1930 OK 480, 293 P. 1002, 146 Okla. 243, STATE HWY. COMM'N v. SMITHDiscussed
+ 2008 OK 29, 198 P.3d 877, BIERMAN v. ARAMARK REFRESHMENT SERVICES, INC.Discussed at Length
+ 2008 OK 103, 204 P.3d 1279, STATE ex rel. DEPT. OF TRANSPORTATION v. PERDUEDiscussed at Length
+ 2009 OK 90, 227 P.3d 133, STATE ex rel. BOARD OF REGENTS v. McCLOSKEY BROTHERS, INC.Discussed
+ 2014 OK 47, 335 P.3d 771, STATE ex rel. DEPT. OF TRANSPORTATION v. LAMAR ADVERTISING OF OKLAHOMA, INC.Discussed
+ 1979 OK 131, 602 P.2d 631, SILVA v. ARKANSAS LOUISIANA GAS CO.Discussed at Length
+ 2000 OK 26, 1 P.3d 996, 71 OBJ        946, Curtis v. WFEC R.R. Co.Discussed at Length
+ 1948 OK 77, 197 P.2d 985, 200 Okla. 521, CITIES SERV. GAS CO. v. HUEBNERDiscussed at Length
+ 1911 OK 18, 119 P. 247, 28 Okla. 1, DENVER W. & M. RY. CO. v. ADKINSONDiscussed
+Title 12. Civil Procedure
+ CiteNameLevel
+
+ 12 O.S. 994, Procedure When There is More Than One Claim or Party - Final JudgmentDiscussed
+Title 27. Eminent Domain
+ CiteNameLevel
+
+ 27 O.S. 2, Procedure of Condemnation for State LandsCited
+ 27 O.S. 16, Right to Just Compensation - DefinitionCited
+Title 66. Railroads
+ CiteNameLevel
+
+ 66 O.S. 55, Review of Commissioner's Report - Jury Trial - Notice - CostsCited
+Title 69. Roads, Bridges, and Ferries
+ CiteNameLevel
+
+ 69 O.S. 1203, Acquisition of Lands or Interests by Purchase, Donation, or CondemnationCited
+
+
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+				
+					
+
+					
+
+				
+
+
+		
+		
+
+
+
+
+
+
+	
+		
+			
+				oscn
+				
+				EMAIL: webmaster@oscn.net
+
+				Oklahoma Judicial Center
+
+				2100 N Lincoln Blvd.
+
+				Oklahoma City, OK 73105
+
+			
+
+			
+				courts
+				
+					Supreme Court of Oklahoma
+					Court of Criminal Appeals					
+					Court of Civil Appeals
+					District Courts
+				
+			
+
+			
+				decisions
+				
+					New Decisions
+					Supreme Court of Oklahoma
+					Court of Criminal Appeals
+					Court of Civil Appeals
+									
+			
+
+			
+				programs
+				
+					The Sovereignty Symposium
+					Access to Justice-->
+					Alternative Dispute Resolution
+					Early Settlement Mediation
+					Children's Court Improvement Program (CIP)
+					Judicial Nominating Commission
+					Certified Courtroom Interpreters
+					Certified Shorthand Reporters
+					Accessibility ADA
+									
+			
+
+		
+
+	
+
+	
+		
+			
+				site map
+				information
+				-->
+				Contact Us
+				Careers
+				Accessibility ADA
+			
+		
+
+	
+
+
+
+
+	
+
+        
+        		
+        
+		
+        		
+        
+        
+
+
+	
+    

@@ -1,0 +1,92 @@
+
+
+Elpa Bldrs., Inc. v State of New York (2021 NY Slip Op 04343)
+
+
+
+
+
+Elpa Bldrs., Inc. v State of New York
+
+
+2021 NY Slip Op 04343
+
+
+Decided on July 14, 2021
+
+
+Appellate Division, Second Department
+
+
+
+Published by New York State Law Reporting Bureau pursuant to Judiciary Law § 431.
+
+
+This opinion is uncorrected and subject to revision before publication in the Official Reports.
+
+
+
+Decided on July 14, 2021
+SUPREME COURT OF THE STATE OF NEW YORK
+Appellate Division, Second Judicial Department
+
+WILLIAM F. MASTRO, J.P.
+COLLEEN D. DUFFY
+VALERIE BRATHWAITE NELSON
+DEBORAH A. DOWLING, JJ.
+
+
+
+
+2020-01684
+
+2020-01747
+
+
+
+[*1]Elpa Builders, Inc., appellant,
+
+
+v
+
+State of New York, respondent. (Claim No. 127690)
+
+
+
+
+
+Flower, Medalie & Markowitz, Bay Shore, NY (Edward Flower of counsel), for appellant.
+Letitia James, Attorney General, New York, NY (Anisha S. Dasgupta and Ari J. Savitzky of counsel), for respondent.
+
+
+
+DECISION & ORDER
+In a claim to recover damages arising from a partial taking of real property, the claimant appeals from (1) a decision of the Court of Claims (Gina M. Lopez-Summa, J.), dated February 22, 2019, and (2) a judgment of the same court dated January 17, 2020. The judgment, insofar as appealed from, upon the decision, made after a trial, is in favor of the defendant and against the claimant in the principal sum of $18,540.
+ORDERED that the appeal from the decision is dismissed, as no appeal lies from a decision (see Schicchi v J.A. Green Constr. Corp., 100 AD2d 509); and it is further,
+ORDERED that the judgment is affirmed insofar as appealed from; and it is further,
+ORDERED that one bill of costs is awarded to the defendant.
+The claimant is the owner of a 53,645-square-foot parcel of real property located in Smithtown, which property has approximately 148 feet of frontage along New York State Route 347 and approximately 151 feet of frontage along Southern Boulevard. The property is subject to a long-term ground lease with Taco Bell, which built and maintains a fast-food restaurant with a drive-through on the property. In September 2015, the defendant, State of New York, appropriated two roadside strips of land from the property in order, inter alia, to construct a public greenway for pedestrians and bicyclists. The taking was comprised of a 13-foot-deep strip of land along Route 347 and an 8-foot-deep strip of land along Southern Boulevard, which totaled 3,112 square feet. The restaurant building was unaffected by the taking, but the taking encompassed a small portion of the property's frontage and parking, and included the removal of three mature trees from the property. The claimant accepted an advance payment in the sum of $302,460 from the State for the partial taking pursuant to an advance payment agreement. The agreement provides that, in accordance with EDPL 304(H), if the claimant elected to have the ultimate amount of compensation determined by the Court of Claims, "[i]n the event the amount [of just compensation] found by the Court is less than the amount of [the] advance payment, . . . the Court shall direct the Clerk to enter judgement dismissing the claim and awarding to the State the difference between the awards as found by the [*2]Court and the amount of said advance payment with appropriate interest."
+In March 2016, the claimant commenced this claim, seeking $2 million in damages from the State as just compensation for the taking. After a trial, the Court of Claims found that the claimant was entitled to the principal sum of $283,920 for the taking. In a judgment dated January 17, 2020, the court awarded the State the principal sum of $18,540, representing the difference between $283,920 and the $302,460 advance payment. The claimant appeals.
+"'When the State takes property by eminent domain, the Constitution requires that it compensate the owner so that he [or she] may be put in the same relative position, insofar as this is possible, as if the taking had not occurred'" (Lebov, LLC v State of New York, 185 AD3d 911, 912, quoting Matter of City of New York [Kaiser Woodcraft Corp.], 11 NY3d 353, 359 [internal quotation marks omitted]). "Where there is a partial taking of land, courts usually apply a 'before and after' rule, which measures damages as the difference between the fair market value of the whole property before the taking and the fair market value of the remainder of the property after the taking" (Lebov, LLC v State of New York, 185 AD3d at 912, quoting Lerner Pavlick Realty v State of New York, 98 AD3d 567, 568). "'In determining an award to an owner of condemned property, the findings must either be within the range of expert testimony or be supported by other evidence and adequately explained by the court'" (Matter of Village of Haverstraw [Ray Riv. Co., Inc.], 191 AD3d 994, 996, quoting Matter of 730 Equity Corp. v New York State Urban Dev. Corp., 142 AD3d 1087, 1089 [internal quotation marks omitted]).
+"'In condemnation cases, the authority of this Court to review findings of fact after a nonjury trial is as broad as that of the trial court'" (Matter of Village of Haverstraw [Ray Riv. Co., Inc.], 191 AD3d at 995, quoting Matter of Mazur Bros., Inc. v State of New York, 97 AD3d 826, 828). "This court 'may render the judgment it finds warranted by the facts, taking into account that in a close case the trial court had the advantage of seeing and hearing the witnesses'" (Matter of Village of Haverstraw [Ray Riv. Co., Inc.], 191 AD3d at 995, quoting Matter of Mazur Bros., Inc. v State of New York, 97 AD3d at 828 [internal quotation marks omitted]; see Matter of Town of Oyster Bay v 55 Motor Ave. Co., LLC, 187 AD3d 760, 761-762). "'[W]here the trial court's explanation of its award is supported by the evidence, it is entitled to deference and will not be disturbed on appeal'" (Matter of Queens W. Dev. Corp. [Nixbot Realty Assoc.], 139 AD3d 863, 866, quoting Matter of Board of Commr. of Great Neck Park Dist. of Town of N. Hempstead v Kings Point Hgts., LLC, 74 AD3d 804, 806).
+"Where, as here, there is a partial taking of real property, 'the measure of damages is the difference between the value of the whole before the taking and the value of the remainder after the taking'" (Matter of County of Orange v Monroe Bakertown Rd. Realty, Inc., 130 AD3d 823, 825, quoting Matter of Metropolitan Transp. Auth. [Washed Aggregate Resources, Inc.], 102 AD3d 787, 789; see New York Cent. Lines, LLC v State of New York, 101 AD3d 966, 967). "The measure of damages in a condemnation case 'must reflect the fair market value of the property in its highest and best use on the date of the taking, regardless of whether the property is being put to such use at the time'" (Matter of 730 Equity Corp. v New York State Urban Dev. Corp., 142 AD3d at 1088, quoting Chester Indus. Park Assoc., LLP v State of New York, 65 AD3d 513, 514 [internal quotation marks omitted]; see Matter of Rocky Point Realty, LLC v Town of Brookhaven, 126 AD3d 706, 707). "The determination of highest and best use must be based upon evidence of a use which reasonably could or would be made of the property in the near future" (Matter of 730 Equity Corp. v New York State Urban Dev. Corp., 142 AD3d at 1088; see Matter of City of New York [Broadway Cary Corp.], 34 NY2d 535, 536).
+Here, although the determination of the Court of Claims of the amount of damages to which the claimant was entitled was slightly outside the range of the expert testimony, it was supported by other evidence presented at trial and was adequately explained by the court (see Matter of Queens W. Dev. Corp. [Nixbot Realty Assoc.], 139 AD3d at 866; Matter of Board of Commr. of Great Neck Park Dist. of Town of N. Hempstead v Kings Point Hgts., LLC, 74 AD3d at 806). Contrary to the claimant's contention, the record demonstrates that the court did not err in adopting a before-taking valuation of $2,510,000 for the property, or in affording more weight and credibility [*3]to the State's expert valuations than to the claimant's expert valuations. Particularly given that the court adequately explained its relatively minor adjustment to the State's expert valuations to afford more weight to the only comparable property cited by either expert that had a fast-food restaurant with a drive-through, the claimant failed to demonstrate that the court erred in determining the value of the appropriated land (see Matter of Metropolitan Transp. Auth. [Longridge Assoc., L.P.], 122 AD3d 856, 858; Chester Indus. Park Assoc., L.P. v State of New York, 103 AD3d 827, 828; Matter of Metropolitan Transp. Auth. [Washed Aggregate Resources, Inc.], 102 AD3d at 790-791; Chemical Corp. v Town of E. Hampton, 298 AD2d 419, 422-423).
+Moreover, contrary to the claimant's contention, the Court of Claims properly credited the testimony of the State's engineering expert and appropriately accounted for the potential need for a zoning variance in the future by awarding the claimant $30,000 in severance damages, which determination does not reflect an improvident exercise of discretion and should not be disturbed on appeal (see e.g. DiGiacomo v State of New York, 182 AD3d 977, 980-981; Matter of County of Warren [Forest Enters. Mgt., Inc.], 182 AD3d 729, 737; Matter of Village of Dobbs Ferry v Stanley Ave. Props., Inc., 95 AD3d 1027, 1028-1029).
+Also without merit is the claimant's assertion that the Court of Claims improvidently exercised its discretion in awarding the claimant the sum of only $26,500 in direct damages to compensate for the removal of three mature trees from the property. The court, in its discretion, properly credited the State's expert witness testimony, which reflected that although the claimant was entitled to compensation for the loss of landscaping, the removal of the trees did not decrease the property's value and, in fact, benefitted the restaurant by increasing its visibility and exposure to potential customers driving on the adjacent highly trafficked roadway (see Matter of Mangold v Lynch, 60 AD2d 884, 885).
+Finally, contrary to the claimant's contention, the Court of Claims did not violate the claimant's constitutional right to just compensation by awarding the State the principal sum of $18,540, representing the difference between the amount to which the court determined the claimant was entitled for the taking, $283,920, and the amount of the advance payment, $302,460, in accordance with EDPL 304(H) and the parties' agreement (see EDPL 304[H]; see also NY Const, art I, § 7; US Const 5th Amend). "An enactment of our Legislature is presumed to be valid and the heavy burden of demonstrating that a statute is unconstitutional rests with the one seeking to invalidate the statute" (People v Bright, 71 NY2d 376, 382, citing Matter of Van Berkel v Power, 16 NY2d 37, 40; see People v Scalza, 152 AD2d 235, 238, affd 76 NY2d 604). "Enactments of the Legislature—a coequal branch of government—may not casually be set aside by the judiciary. The applicable legal principles for finding invalidity are firmly embedded in the law: statutes are presumed constitutional; while the presumption is rebuttable, invalidity must be demonstrated beyond a reasonable doubt" (Matter of McGee v Korman, 70 NY2d 225, 231). "The invalidity of the statute must be established beyond a reasonable doubt and, '[t]he drastic step of striking a statute as unconstitutional is to be taken only as a last resort'" (People v Scalza, 152 AD2d at 238, quoting Matter of McGee v Korman, 70 NY2d at 231).
+Here, the claimant has not met its heavy burden of demonstrating that this Court should take the drastic step of finding EDPL 304(H) to be unconstitutional, based upon the assertion that the claimant was deprived of just compensation for the property because the judgment is in favor of the State and against the claimant (see People v Bright, 71 NY2d at 382; Matter of Van Berkel v Power, 16 NY2d at 40; People v Scalza, 152 AD2d at 238). The claimant's contention is belied by the plain and unambiguous terms of the parties' agreement, which provides that, in accordance with EDPL 304(H), if "the amount [of just compensation] found by the Court is less than the amount of [the] advance payment, . . . the Court shall direct the Clerk to enter judgement dismissing the claim and awarding to the State the difference between the awards as found by the Court and the amount of said advance payment with appropriate interest" (see MHR Capital Partners LP v Presstek, Inc., 12 NY3d 640, 645; Greenfield v Philles Records, 98 NY2d 562, 569; W.W.W. Assoc. v Giancontieri, 77 NY2d 157, 162; see also Vermont Teddy Bear Co. v 538 Madison Realty Co., 1 NY3d 470, 475). Moreover, EDPL 304(H), read in conjunction with the related provisions of EDPL 303 and 304(A), makes clear that the statutory scheme is designed to ensure that a claimant obtains just compensation [*4]for any taking, whether by acceptance of the "condemnor's highest approved appraisal of the just compensation for the property," or by a judicial determination of the appropriate fair value of the taking (EDPL 304[A][1]). Accordingly, the claimant has failed to meet its burden of demonstrating that EDPL 304(H) is unconstitutional or that the Court of Claims violated the claimant's constitutional right to just compensation by awarding the State the principal sum of $18,540 in the judgment in accordance with the parties agreement (see Matter of McGee v Korman, 70 NY2d at 231).
+The claimant's remaining contentions are without merit.
+MASTRO, J.P., DUFFY, BRATHWAITE NELSON and DOWLING, JJ., concur.
+ENTER:
+Aprilanne Agostino
+Clerk of the Court
+
+
+
+
+
+
+
+
+
+

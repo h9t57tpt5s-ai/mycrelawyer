@@ -17,6 +17,7 @@ Every candidate must pass before it enters cases.json:
 """
 
 import argparse
+import difflib
 import hashlib
 import json
 import pathlib
@@ -51,7 +52,87 @@ def amount_forms(x):
 
 
 def sentences(text):
-    return [s.strip() for s in re.split(r"(?<=[.!?\"])\s+", text) if len(key(s)) >= 25]
+    # Curly closing quotes and brackets end sentences too.
+    return [s.strip() for s in re.split(r"(?<=[.!?\"\u201d\u2019)])\s+", text) if len(key(s)) >= 25]
+
+
+def strip_pdf_furniture(text):
+    """Drop what PDF extraction prints between a court's sentences: running
+    headers and footers (any line that recurs three or more times once
+    digits are ignored) and bare page-number lines ("-2-", "Page 6 of 41")."""
+    lines = text.splitlines()
+    shape = lambda ln: re.sub(r"[\d\s]+", " ", ln).strip().lower()
+    counts = {}
+    for ln in lines:
+        if ln.strip():
+            counts[shape(ln)] = counts.get(shape(ln), 0) + 1
+    keep = []
+    for ln in lines:
+        t = ln.strip()
+        if not t:
+            keep.append(ln)
+            continue
+        if re.fullmatch(r"[-\s]*(page\s*)?\d+(\s*of\s*\d+)?[-\s]*", t, re.I):
+            continue
+        if counts.get(shape(ln), 0) >= 3 and len(shape(ln)) >= 8:
+            continue
+        keep.append(ln)
+    return "\n".join(keep)
+
+
+GAP_LOG = []
+
+
+def pieces_in_order(sentence_key, src_key, max_pieces=6, min_piece=12, max_gap=2500):
+    """A sentence interrupted in the PDF by a footnote, page break or
+    header: accept it only if it is the concatenation of at most six
+    pieces, each found word for word in the source, in order, with no gap
+    over 2,500 characters. Nothing can be added: every character of the
+    sentence must come from the source. Accepted gaps are logged."""
+    pos, i, pieces = 0, 0, []
+    while i < len(sentence_key):
+        if len(pieces) == max_pieces:
+            return False
+        rest = sentence_key[i:]
+        window = src_key[pos:pos + max_gap + len(rest)] if pieces else src_key
+        lo, hi = 0, len(rest)
+        while lo < hi:  # longest prefix of rest found in the window
+            mid = (lo + hi + 1) // 2
+            if rest[:mid] in window:
+                lo = mid
+            else:
+                hi = mid - 1
+        if lo < min(min_piece, len(rest)):
+            return False
+        at = window.find(rest[:lo]) + (pos if pieces else 0)
+        pieces.append((at, lo))
+        pos, i = at + lo, i + lo
+    if len(pieces) > 1:
+        GAP_LOG.append([p for p in pieces])
+    return True
+
+
+def found_verbatim(sentence_key, src_key):
+    """Exact match on letters and digits, or a near-exact match that allows
+    only the few stray characters PDF text inserts inside a sentence:
+    page numbers ("-2-"), footnote markers ("engineer2"), running
+    headers. The span between the sentence's first and last 20 characters
+    in the source may be at most 12 characters longer than the sentence
+    and must match it at 97% or better, so a paraphrase cannot pass."""
+    if sentence_key in src_key:
+        return True
+    if pieces_in_order(sentence_key, src_key):
+        return True
+    head, tail = sentence_key[:20], sentence_key[-20:]
+    start = src_key.find(head)
+    while start != -1:
+        end = src_key.find(tail, start + len(head))
+        if end != -1:
+            span = src_key[start:end + len(tail)]
+            if len(span) - len(sentence_key) <= 12 and difflib.SequenceMatcher(None, span, sentence_key, autojunk=False).ratio() >= 0.97:
+                return True
+        start = src_key.find(head, start + 1)
+    return False
 
 
 def check(case, sources, excluded, existing_ids, existing_names):
@@ -88,8 +169,8 @@ def check(case, sources, excluded, existing_ids, existing_names):
     if not src_file.exists():
         problems.append("no saved source text")
     else:
-        src_key = key(src_file.read_text(errors="replace"))
-        missing = [s for s in sentences(inp.get("documentText") or "") if key(s) not in src_key]
+        src_key = key(strip_pdf_furniture(src_file.read_text(errors="replace")))
+        missing = [s for s in sentences(inp.get("documentText") or "") if not found_verbatim(key(s), src_key)]
         if missing:
             problems.append(f"{len(missing)} sentence(s) not found verbatim, e.g. {missing[0][:80]!r}")
     if not isinstance(out.get("amount"), (int, float)):

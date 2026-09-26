@@ -1,0 +1,350 @@
+DISTRICT COURT OF APPEAL OF THE STATE OF FLORIDA 
+FOURTH DISTRICT 
+ 
+BUYER’S CHOICE AUTO SALES, LLC, 
+Appellant/Cross-Appellee, 
+ 
+v. 
+ 
+PALM BEACH MOTORS, LLC, 
+Appellee/Cross-Appellant. 
+ 
+No. 4D2023-0147 
+ 
+[July 17, 2024] 
+ 
+Appeal and cross-appeal from the Circuit Court for the Fifteenth 
+Judicial Circuit, Palm Beach County; Samantha Schosberg Feuer, Judge; 
+L.T. Case No. 502020CA012552XXXXMB. 
+ 
+Kevin F. Richardson of Clyatt & Richardson, P.A., West Palm Beach, for 
+appellant/cross-appellee. 
+ 
+Mark Tinker of Cole, Scott & Kissane, P.A., Tampa, and Lissette 
+Gonzalez, of Cole, Scott & Kissane, P.A., Miami, for appellee/cross-
+appellant. 
+ 
+FORST, J. 
+ 
+Buyer’s Choice Auto Sales, LLC (“Landlord”) appeals the trial court’s 
+final judgment entered in Palm Beach Motors, LLC’s (“Tenant”) favor 
+because Landlord failed to install fencing around the premises where 
+Tenant leased and operated its used car lot business.  Landlord promised 
+to install fencing when Tenant renewed its commercial property lease (“the 
+Lease”).  However, when Landlord did not build the fence, Tenant 
+terminated the Lease, stopped paying rent, and sued for misrepresentation 
+and breach of contract. 
+ 
+Following a bench trial, the trial court determined Landlord 
+fraudulently and negligently induced Tenant to renew the Lease because 
+Landlord had no intent of installing the fence and Landlord breached the 
+Lease by failing to timely install the fence.  The trial court permitted Tenant 
+to terminate the Lease without penalty, ordered Landlord to refund the 
+rental payments that Tenant paid during the pre-termination occupancy 
+period, and excused Tenant’s nonpayment of rent during the post-
+termination occupancy period. 
+
+ 
+ 
+On appeal, Landlord has conceded that Tenant could terminate the 
+Lease due to Landlord’s failure to install fencing.  But Landlord challenges 
+the trial court’s decision to return all pre-termination rental payments to 
+Tenant and excuse Tenant from paying any rent during the post-
+termination occupancy period.  We agree that Landlord breached the Lease 
+by failing to timely build the promised fence.  However, the lack of fencing 
+did not render the leased premises wholly untenantable under section 
+83.201, Florida Statutes (2020)—the rent withholding statute—and thus, 
+Landlord was entitled to receive rent from Tenant for both the pre-
+termination and post-termination occupancy periods.  We therefore 
+reverse the trial court with respect to the rent payment issue.  
+ 
+Additionally, Tenant ratified the Lease and benefitted by continuing to 
+operate its business without fencing during the post-termination 
+occupancy period.  As a result, Tenant is subjected to the burdens that 
+the Lease imposed.  Accordingly, we remand for the trial court to address 
+recovery of property taxes and cleanup expenses and return of Tenant’s 
+security deposit.  We affirm on all other issues raised by Landlord in its 
+appeal and by Tenant in its cross-appeal not addressed herein. 
+ 
+Background 
+ 
+For several years, Tenant rented the leased premises from Landlord to 
+operate Tenant’s used car lot business.  As the existing commercial lease 
+agreement was approaching renewal, Landlord and Tenant discussed 
+installing fencing around the leased premises.  Tenant wanted fencing 
+installed, which was “an absolute requirement,” because Tenant’s 
+business was falling victim to theft and vandalism.  Despite Landlord’s 
+initial reluctance to install fencing, Landlord ultimately agreed and 
+handwrote the following provision onto the Lease, which the parties then 
+signed: 
+ 
+Landlord will pay to install a fence around the property at a 
+cost of market value.  With a minimum of six bids.  
+Simultaneously [T]enant shall provide and install landscaping 
+as per the plan submitted to Lake Worth Beach. 
+ 
+Following the Lease renewal, both Landlord and Tenant contacted 
+fencing contractors to receive bids.  Tenant retained a landscaper to clear 
+vegetation from the premises in preparation for fence installation. 
+ 
+Landlord and Tenant regularly communicated via text message 
+regarding fence installation status, but no fence was ever installed.  During 
+one text message exchange, Landlord had expressed readiness to install 
+the fence.  Yet not only was Landlord not ready, but by the time Landlord 
+
+ 
+sent this text message, Landlord had not even applied for a fencing permit.  
+During another communication, which included Landlord’s counsel, 
+Tenant was informed that the fence would be “started this week,” but 
+Landlord had still not applied for the required fencing permit. 
+ 
+At no point within written communications between the parties or 
+between their counsels did Tenant (1) declare the premises to be “wholly 
+untenantable” due to lack of fencing; (2) specify that Landlord had twenty 
+days to install the fence; and/or (3) express Tenant’s intent to withhold 
+future rent until the fencing was in place—all statutory elements required 
+to withhold rent pursuant to section 83.201, Florida Statutes (2020), the 
+statute governing nonresidential tenancies.  Nor does the Lease reference 
+this statute or Tenant’s right to withhold rent.  In fact, prior to the renewal, 
+Tenant’s used car lot business operated for several years out of the 
+unfenced leased premises. 
+ 
+Nearly a year after the renewed Lease commenced (the pre-termination 
+period), Tenant sued Landlord for fraudulent misrepresentation, negligent 
+misrepresentation, and breach of contract.  Tenant sought to have the 
+Lease “deemed void and enforceable” by alleging that Landlord 
+fraudulently induced Tenant to enter the Lease and negligently 
+misrepresented an intent to install fencing when Landlord had no intent 
+of doing so.  The Lease’s “Remedies” section permits a non-defaulting party 
+to terminate and cancel the Lease in an “Event of Default,” defined as 
+“failure of either party to perform any other covenant, condition, 
+agreement or provision contained herein within fifteen (15) days after 
+receipt by that party of written notice of such failure . . . .”   
+ 
+When Tenant filed the underlying suit, Tenant was current on its rental 
+payments under the Lease—paying Landlord a total of $87,862.50 during 
+the pre-termination occupancy period.  However, starting the following 
+month, Tenant submitted no additional rental payments and withheld rent 
+during the post-termination occupancy period.  Consequently, Landlord 
+counterclaimed for unpaid rent and other relief. 
+ 
+Both parties sought damages for their claims.  Tenant’s breach claim 
+sought vandalism and theft damages to its vehicle inventory stemming 
+from Landlord’s failure to install fencing.  The trial court denied this 
+request, 
+finding 
+that 
+Tenant 
+presented 
+“speculative” 
+evidence.  
+Nevertheless, the trial court relied on the Lease’s “Remedies” section to 
+determine that Landlord’s failure to install fencing breached the Lease and 
+Tenant had the right to terminate the Lease without penalty. 
+ 
+Tenant also sought return of the total $87,862.50 rent which it had 
+paid during the pre-termination occupancy period.  The trial court 
+awarded this $87,862.50 to Tenant with the explanation that, because 
+
+ 
+“[t]he [Landlord]’s breach preceded [Tenant]’s nonpayment of rent, 
+therefore [Tenant]’s nonpayment d[id] not constitute a breach.”   
+ 
+The trial court also determined that Tenant was legally entitled to 
+withhold rent, finding that Tenant had complied with both the Lease’s and 
+section 83.201’s requirements.  Specifically, the trial court found that 
+“[Tenant] notified [Landlord], in writing (of the breach[)]”; “[Landlord]’s 
+breach rendered the premises untenantable due to security risks, threats 
+of vandalism, theft, and damage”; and “Florida law allows a party to 
+withhold rent until the landlord fulfills their obligations under the lease.”  
+To support the rent withholding conclusion, the final judgment cited the 
+Lease, a text message between Tenant and Landlord, and an official notice 
+authored by Tenant’s counsel.  
+ 
+Landlord’s counterclaim sought compensation for unpaid rent, real 
+estate taxes, and cleanup fees, and Landlord presented evidence of these 
+expenditures at trial.  The Lease specified that Tenant is responsible for 
+payment of property taxes and keeping the exterior fronts, sidewalks, and 
+rear of the leased premises “in a neat and orderly condition” and “free from 
+debris and rubbish.”  Ultimately the trial court concluded that Landlord 
+could not recover any damages under the Lease because of Landlord’s 
+fraudulent and negligent inducement of Tenant into the Lease and the 
+subsequent breach of lease.  This appeal and cross-appeal timely follow. 
+ 
+Analysis 
+ 
+A trial court’s factual findings must be supported by competent 
+substantial evidence, but its legal findings are reviewed de novo.  See 
+Greenberg v. Bekins of S. Fla., 337 So. 3d 372, 375 (Fla. 4th DCA 2022).  
+To the extent facts are undisputed, the application of legal principles to 
+those facts is reviewed de novo.  See Allstate Fire & Cas. Ins. Co. v. Castro, 
+351 So. 3d 127, 130 (Fla. 1st DCA 2022). 
+ 
+A. Despite Landlord’s Breach and Fraudulent and Negligent 
+Inducement, Tenant Ratified the Lease 
+ 
+From the outset, we affirm the trial court’s holding that Landlord 
+fraudulently and negligently induced Tenant into the Lease.  On appeal, 
+Landlord relies on the “independent tort doctrine” to challenge that 
+holding.  However, this argument was not raised below outside of 
+Landlord’s motion for rehearing.  An argument raised for the first time in 
+a motion for rehearing will not preserve the argument for appellate review.  
+See Best v. Educ. Affiliates, Inc., 82 So. 3d 143, 146 (Fla. 4th DCA 2012).   
+ 
+
+ 
+Notwithstanding the fraudulent and negligent inducement finding, 
+“fraudulent inducement renders a contract voidable, not void.”  Mazzoni 
+Farms, Inc. v. E.I. DuPont De Nemours & Co., 761 So. 2d 306, 313 (Fla. 
+2000).  A party’s election to sue for damages on a contract, even one 
+procured by fraud, ratifies the contract and “ensures that a party who 
+‘accepts the proceeds and benefits of a contract’ remains subject to ‘the 
+burdens the contract places upon him.’”  See id. (quoting Fineberg v. Kline, 
+542 So. 2d 1002, 1004 (Fla. 3d DCA 1988)); see also Mac-Gray Servs., Inc. 
+v. DeGeorge, 913 So. 2d 630, 634 (Fla. 4th DCA 2005). 
+ 
+Here, even though Tenant sued to terminate the Lease, Tenant also 
+sued Landlord for breach of contract damages stemming from Landlord’s 
+failure to install fencing.  Tenant nevertheless accepted the benefits that 
+the leased premises provided to Tenant’s used car lot business during the 
+pre-termination and post-termination occupancy periods.  We find these 
+facts support Tenant’s ratification of the Lease and thus, Tenant cannot 
+simultaneously avoid the Lease’s burdens while accepting the Lease’s 
+benefits.  See Mazzoni, 761 So. 2d at 313; see also Dist. Bd. of Trs. v. 
+Morgan, 890 So. 2d 1155, 1160 (Fla. 5th DCA 2005) (commenting that 
+because a party ratified a contract that the other party procured through 
+fraud, “[the ratifying party] cannot be heard to complain because the jury 
+agreed and found that the contract was enforceable by both parties”). 
+ 
+B. Because the Leased Premises was not “Untenantable” and 
+Tenant did not Satisfy § 83.201’s Requirements, Tenant Remained 
+Obligated to Pay Rent During the Entire Period it Occupied the 
+Property 
+ 
+When the lease is silent on the procedure to be followed to 
+effect repair or maintenance and the payment of rent relating 
+thereto, yet affirmatively and expressly places the obligation 
+for same upon the landlord, and the landlord has failed or 
+refused to do so, rendering the leased premises wholly 
+untenantable, the tenant may withhold rent after notice to the 
+landlord.  The tenant shall serve the landlord, in the manner 
+prescribed by s. 83.20(3), with a written notice declaring the 
+premises to be wholly untenantable, giving the landlord at least 
+20 days to make the specifically described repair or 
+maintenance, and stating that the tenant will withhold the rent 
+for the next rental period and thereafter until the repair or 
+maintenance has been performed. 
+ 
+§ 83.201, Fla. Stat. (2020) (emphasis added).  
+ 
+
+ 
+Here, the record evidence did not demonstrate that the absence of 
+fencing “render[ed] the leased premises wholly untenantable.”  Tenant, 
+even amidst security concerns, operated its used car lot business on the 
+leased premises for nineteen months following the Lease renewal.  Before 
+renewal, Tenant had operated its business on the unfenced leased 
+premises for several years.  See Cruise.com v. Eller Drive Props., Inc., 813 
+So. 2d 254, 255 (Fla. 4th DCA 2002) (commenting that the rental premises 
+were not rendered wholly untenantable because the commercial tenant’s 
+employees continued to work on the premises, and thus, the tenant could 
+not meet the statutory criteria to withhold rent); Masser v. London 
+Operating Co., 145 So. 79, 83 (Fla. 1932) (“The mere failure, however, of 
+the landlord to make repairs, the need of which does not render the 
+premises untenantable, will not warrant an abandonment of the premises 
+or relieve the tenant from liability for rent.” (emphasis added)). 
+ 
+Additionally, despite the trial court’s finding that Tenant “met the 
+requisite [written notice] elements” under the rent withholding statute, we 
+are unable to find any specific correspondence within this record whereby 
+Tenant: (1) declared the leased premises to be “wholly untenantable”; (2) 
+provided Landlord with at least twenty days from the untenantability 
+declaration to install fencing; and (3) expressed Tenant’s intent to withhold 
+future rent until the fencing was installed.  See § 83.201, Fla. Stat. (2020).  
+Nor has Tenant directed us to any correspondence within the record that 
+complies with section 83.201’s or section 83.20(3)’s requirements.   
+ 
+Therefore, the trial court erred when it determined that Tenant was 
+entitled to withhold rent because its factual findings are not supported by 
+competent substantial evidence.  See Cruise.com, 813 So. 2d at 255. 
+ 
+A general principle of law provides that “upon possession by a lessee of 
+premises to which a covenant to improve or repair has not been fulfilled 
+on the part of the lessor, the defect is generally waived and rent under the 
+lease is due.”  See Yanks v. Truly Nolen, Inc., 341 So. 2d 829, 831 (Fla. 3d 
+DCA 1977); City of Miami Beach v. Ellis, 279 So. 2d 335, 338 (Fla. 3d DCA 
+1973) (“[T]he lessee continuing in possession following the breach of 
+covenant to repair a portion of the p[re]mises was not relieved of his 
+obligation to continue to pay the rent as stipulated in the lease.”).  This 
+principle has held true even in situations when a trial court rescinded a 
+lease agreement.  See Yanks, 341 So. 2d at 831–32 (despite the tenant’s 
+payment of rent being conditioned upon the landlord’s completion of 
+improvements, the tenant was “not entitled to occupy the premises free of 
+charge”). 
+ 
+Here, after the renewed Lease commenced, Tenant enjoyed the benefits 
+which the leased premises provided for nineteen months, including 
+
+ 
+operating Tenant’s used car lot business, earning income, and suffering 
+only “speculative” damages purportedly due to no fencing.1  See Morris Inv. 
+P’ship v. Figueroa, 698 So. 2d 288, 289–90 (Fla. 3d DCA 1997) (leased 
+premises benefitted the tenant by providing space for the tenant to operate 
+his automobile repair shop);  AVVA-BC, LLC v. Amiel, 25 So. 3d 7, 11 (Fla. 
+3d DCA 2009) (leased premises benefitted the tenant by providing space 
+for the tenant to conduct business without interference for seven months). 
+ 
+The trial court returning $87,862.50 in rental payments to Tenant and 
+excusing Tenant’s obligation to pay rent during the post-termination 
+occupancy period deprived Landlord of any rent during the renewed Lease 
+period.  This was error and runs afoul of the referenced general principle 
+that “rent under the lease is due” if a landlord breaches a repair obligation 
+yet the tenant remains in possession of the leased premises.  See Yanks, 
+341 So. 2d at 831; Ellis, 279 So. 2d at 338; Masser, 145 So. at 83. 
+ 
+Accordingly, we hold that Landlord is legally entitled to retain the rental 
+payments that Tenant paid during the pre-termination occupancy period 
+(January 2020 through November 30, 2020) and receive rent for the post-
+termination occupancy period (December 1, 2020 through July 9, 2021). 
+ 
+C. On Remand, the Trial Court Must Address the Issues of 
+Payment of Property Taxes, Cleanup Expenses, and the Return of All 
+or Part of Tenant’s Security Deposit 
+ 
+In addition to unpaid rent, Landlord presented evidence of property 
+taxes and cleanup expenses which Landlord had incurred, neither of 
+which the trial court appears to have considered because of the trial 
+court’s fraudulent and negligent inducement and breach findings.  Tenant 
+may be responsible for these expenses under the Lease.  The trial court 
+erred in categorically barring Landlord from recovering these expenses 
+given that Tenant ratified the Lease.  See Mac-Gray, 913 So. 2d at 634; 
+Morgan, 890 So. 2d at 1160.  In addressing Landlord’s cleanup expenses 
+claim, the trial court must determine what portion, if any, of Tenant’s 
+security deposit should be applied to cleanup expenses and what portion 
+of the deposit should be returned to Tenant. 
+ 
+Conclusion 
+ 
+The trial court improperly determined that Tenant was entitled to 
+remain in the tenantable leased premises for nineteen months essentially 
+rent-free, which is contrary to established law, and failed to consider 
+ 
+1 Tenant did not cross-appeal or otherwise challenge the trial court’s 
+determination that Tenant presented only “speculative” evidence concerning its 
+vehicle inventory damages. 
+
+ 
+Landlord’s presented evidence of unreimbursed property taxes and 
+cleanup expenses and return of Tenant’s security deposit.  We reverse and 
+remand for the trial court to award Landlord rent for the period that 
+Tenant occupied the leased premises (January 1, 2020 through July 9, 
+2021) and to reassess and calculate recovery of property taxes and cleanup 
+expenses and return of Tenant’s security deposit. 
+ 
+Affirmed in part; reversed and remanded in part with instructions. 
+ 
+KLINGENSMITH, C.J., and CIKLIN, J., concur. 
+ 
+*            *            * 
+ 
+Not final until disposition of timely filed motion for rehearing. 

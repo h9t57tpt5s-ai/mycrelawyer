@@ -1,0 +1,941 @@
+Filed 1/12/24; Certified for Publication 1/25/24 (order attached) 
+  
+ 
+ 
+ 
+COURT OF APPEAL, FOURTH APPELLATE DISTRICT 
+ 
+DIVISION ONE 
+ 
+STATE OF CALIFORNIA 
+ 
+ 
+ 
+EPOCHAL ENTERPRISES, INC., 
+ 
+Plaintiff, Cross-defendant and 
+Appellant, 
+ 
+v. 
+LF ENCINITAS PROPERTIES, LLC et 
+al., 
+ 
+Defendants, Cross-complainants 
+and Appellants. 
+D079905 
+ 
+ 
+(Super. Ct. No. 37-2018 - 
+00027797-CU-CO-NC) 
+ 
+ 
+APPEALS from a judgment of the Superior Court of San Diego County, 
+Blaine K. Bowman, Judge.  Affirmed in part, reversed in part, and remanded 
+for further proceedings.   
+G10 Law and Daniel T. Watts for Plaintiff, Cross-defendant, and 
+Appellant Epochal Enterprises, Inc.   
+ 
+Procopio, Cory, Hargreaves & Savitch, Kendra J. Hall; Solomon Ward 
+Seidenwurm & Smith, William V. Whelan and Matthew T. Arvizu for 
+Defendants, Cross-complainants, and Appellants LF Encinitas Properties, 
+LLC and Leichtag Foundation.   
+ 
+
+ 
+2 
+ 
+Epochal Enterprises, dba Divine Orchids (plaintiff) entered into a 
+commercial lease agreement with landlord LF Encinitas Properties, LLC and 
+Leichtag Foundation (defendants).  The lease contained a limitation of 
+liability clause stating, in relevant part, defendants are not personally liable 
+as to any provision of the lease or the premises and plaintiff waived all claims 
+for “consequential damages or loss of business or profits.”  After plaintiff sued 
+defendants, a jury found defendants liable for premises liability, negligence 
+and concealment.  The jury awarded plaintiff damages for lost profits and 
+other past economic loss.  The trial court granted defendants’ motion for 
+judgment notwithstanding the verdict (JNOV), finding the lease agreement’s 
+limitation of liability clause prevented plaintiff from recovering the economic 
+damages the jury awarded.  This appeal follows.   
+Plaintiff appeals from the order granting JNOV in defendants’ favor.  
+Should we agree with plaintiff and reinstate the jury’s verdict, defendants 
+filed a protective cross-appeal challenging a portion of the damages award as 
+not supported by the evidence.   
+As we shall explain, we agree the trial court erred in granting JNOV in 
+defendants’ favor and we reverse the order.  On defendants’ cross-appeal, we 
+conclude substantial evidence supports the damages award and affirm the 
+denial of defendants’ motion for partial JNOV. 1   
+ 
+ 
+ 
+1   
+In addition to its request for JNOV, defendants brought an alternative 
+motion for new trial.  The trial court denied the motion as moot.  On remand, 
+defendants may request that the trial court rule on this motion.   
+
+ 
+3 
+FACTUAL AND PROCEDURAL BACKGROUND 
+A. Facts Leading to the Lease Agreement 
+In 2012, defendants purchased real property containing dilapidated 
+commercial greenhouses “as is,” knowing the greenhouses contained asbestos 
+and lead paint.  The greenhouses were built in the 1960’s and defendants 
+planned to modernize them.  The property contains multiple structures, each 
+one of which is called a “range.”  Some of the ranges are greenhouses.  
+Defendants were informed about asbestos and lead in the greenhouses, that 
+Range 15 had friable asbestos coming from the joints of the heating system, 
+and inert asbestos existed in certain portions of the mechanics of the other 
+greenhouses.   
+During the escrow process, defendants cleared Range 15 of friable 
+asbestos.  Other ranges held inert asbestos that to defendants’ knowledge did 
+not pose a threat to people or property.  Defendants hired a firm to conduct 
+an environmental investigation, which recommended that defendants adopt 
+an operation and management plan with respect to asbestos on the property.  
+Defendants planned to remediate ranges as they became empty but they 
+failed to do that when Range 9 became vacant.   
+Plaintiff is owned and operated by Victor Le and his wife Ying Lee (the 
+principals).  In 2015, plaintiff earned approximately $478,000 in gross sales.  
+Plaintiff owns two greenhouses in Fallbrook totaling 30,000 square feet, and 
+an 8,000 square foot greenhouse in Encinitas that is on the same property as 
+the principals’ residence.   
+Defendants’ employee Dempsey Sawyer showed Range 9 to the 
+principals.  Sawyer knew Range 9 potentially contained asbestos and lead -
+based paint but did not believe that any asbestos had been released.  Sawyer 
+never discussed lead or asbestos contamination with the principals.  He 
+
+ 
+4 
+believed he did not need to disclose the existence of asbestos to plaintiff 
+because the general language in the lease regarding hazardous materials 
+eliminated the need to inform plaintiff specifically about asbestos or lead.  
+Sawyer knew that exposing inert asbestos to the elements could make it 
+friable but did not inform plaintiff about this concern because he knew 
+plaintiff would be rebuilding the greenhouse and the asbestos would then not 
+be exposed to the elements.  Mr. Le had never heard of asbestos and plaintiff 
+never received written information from defendants about asbestos or lead 
+paint before entering the lease.   
+B.  The Lease Agreement 
+ 
+In 2014, Mr. Le, on behalf of plaintiff, signed an agreement with 
+defendants to lease Range 9 from defendants “as-is” for five years at eight 
+cents a square foot. 2   Defendants’ law firm drafted the lease.  Plaintiff did not 
+have a lawyer or anyone else review it.  Mr. Le did not read the lease except 
+for the lease price and term, and Mrs. Lee did not read the lease at all.   
+The lease contained an indemnification provision shielding defendants 
+from personal injury or property damage liability for property connected with 
+plaintiff’s use of the premises, absent gross negligence or intentional 
+misconduct by defendants:   
+ 
+2   
+The “as-is” provision provides:  “Delivery of Premises.  Except as 
+expressly set forth in this Section 6.1, Landlord is delivering and Tenant 
+accepts the Premises “AS-IS”, “WHERE IS” and “WITH ALL FAULTS” 
+without any representations, warranties, or guaranties of any nature, express 
+or implied, oral or written, past, present or future regarding the Premises or 
+the Restroom Facilities.  Landlord shall complete the following work within a 
+commercially reasonable time following the full execution and delivery of this 
+Lease. . .: installation of a submeter for gas and electrical service to the 
+Premises.  Any other additions, alterations or improvements desired by 
+Tenant shall be at Tenant’s sole cost and expenses. . . .”   
+
+ 
+5 
+“10.1 Indemnification:  This Lease is made upon the express 
+condition that Landlord shall be free from all liability and 
+claims for damages by reason of any injury to any person or 
+persons, including the agents and employees of Tenant, or 
+property of any kind whatsoever and to whomsoever 
+belonging, including Tenant’s property, from any cause or 
+causes whatsoever, in, upon or in any way connected with 
+the Premises or its use or occupancy during the Term, 
+excepting only liability caused by the gross negligence or 
+intentional misconduct of Landlord.  Tenant shall 
+indemnify and hold Landlord harmless from all such 
+liability, loss, cost, expense, and obligations, including 
+reasonable attorneys’ fees, on account or arising out of any 
+cause in, on or about the Premises during the Term and/or 
+any acts, omissions or negligence of Tenant or of any person 
+claiming by, through or under Tenant, or of the contractors, 
+agents, employees, licensees or invitees of tenant or any 
+such person in, on or about the Project, however occurring 
+except as may be caused by the gross negligence or 
+intentional misconduct of Landlord.”  (Italics added.)   
+Plaintiff also agreed to a provision limiting defendants’ liability: 
+“10.6 Limitation of Liability:  Neither Landlord nor any 
+affiliate of Landlord nor their respective members, 
+principals, beneficiaries, partners, trustees, shareholders, 
+directors, officers, employees, contractors or agents shall 
+have any personal liability with respect to any of the 
+provisions of the Lease or the Premises.  If Landlord is in 
+breach or default with respect to Landlord’s obligations 
+under the Lease, Tenant shall look solely to the equity 
+interest of Landlord in the Project for the satisfaction of 
+Tenant’s remedies or judgments.  No other real, personal, 
+or mixed property of any Landlord, wherever situated, shall 
+be subject to levy to satisfy such judgment.  Upon any 
+transfer of Landlord’s interest in this Lease or in the 
+Project, the transferring Landlord shall have no liability or 
+obligation for matters arising under this Lease from and 
+after the date of such Transfer.  Landlord shall in no event 
+be liable for any consequential damages or loss of business 
+
+ 
+6 
+or profits and Tenant hereby waives any and all claims for 
+any such damages.”  (Italics added.)   
+ 
+After plaintiff moved into Range 9, Mr. Le started renovating the 
+property.  Sawyer knew plaintiff planned renovation of Range 9 would expose 
+asbestos to the elements and this “concern[ed]” him.  He does not recall ever 
+expressing this concern to Mr. Le.   
+C.  The Storm and Unlawful Detainer Action 
+In March or April 2016, a storm damaged Range 9.  After the storm, 
+Mr. Le saw a steam pipe spraying inside the greenhouse and informed 
+defendants.  He was told to leave the door open so defendants could send 
+people to clean the room.  The lease agreement stated plaintiff was 
+responsible for any repairs to the property.  Nonetheless, Sawyer had a 
+company that did asbestos remediation do the repair because the corner of 
+the valve had asbestos and he was concerned this might be a problem.  The 
+company defendants hired to make the repair never tested for asbestos but 
+treated the repair as “an asbestos job.”  Sawyer never informed plaintiff 
+about his concern that asbestos might have been released because the pipe 
+was in an area of the leased premises open to the air.  Defendants believed 
+they had no affirmative obligation to notify plaintiff of the release or 
+potential release of asbestos and claimed the company it hired to do the 
+remediation work could determine whether to advise plaintiff.   
+Plaintiff fell behind in rent payments, and in May 2016, defendants 
+sent a notice to quit or pay rent.  In December 2016, defendants filed an 
+unlawful detainer action against plaintiff.   
+In the meantime, after the repairs on the pipe, Mr. Le noticed some 
+debris remained.  Becoming concerned that the debris might contain 
+asbestos, he sent samples to a laboratory for testing.  Lab reports dated 
+February and March 2017, revealed asbestos and lead paint on the insulation 
+
+ 
+7 
+pipes running through Range 9.  In March 2017, the County of San Diego 
+quarantined Range 9 based on friable asbestos in the air and on the ground.  
+Friable asbestos is more of a health risk because it could be released further.   
+In April 2017, defendants obtained a default judgment in the unlawful 
+detainer action.  That same month, as part of the abatement plan, defendants 
+had the orchid plants and soils HEPA vacuumed.  After the vacuuming, 
+samples of the soil showed no asbestos.  In May 2017, defendants notified 
+plaintiff to retrieve its orchids, but plaintiff did not do so and abandoned its 
+inventory.   
+D.  Plaintiff’s Lawsuit 
+In June 2018, plaintiff filed this action based on defendants’ failure to 
+disclose asbestos and lead paint in Range 9.  It sought economic damages for 
+its orchid inventory.  The complaint alleged seven causes of action:  
+(1) premises liability; (2) negligence; (3) intentional misrepresentation; (4) 
+breach of contract rescission based on fraud; (5) unjust enrichment; (6) breach 
+of implied covenant of good faith and fair dealing; and (7) unfair business 
+practices.  Defendants filed a cross-complaint against plaintiff for breach of 
+lease.  The jury’s special verdict found defendants liable for premises liability 
+and negligence.  The jury also found defendants intentionally failed to 
+disclose facts plaintiff did not know, and could not reasonably have 
+discovered but the jury found no intent to deceive and therefore no liability 
+for concealment.  The jury awarded plaintiff $144,300 in “lost profits” and 
+$77,700 in “other past economic loss.”  On defendants’ counterclaim the jury 
+found plaintiff failed to pay the rent under the lease but that the failure did 
+not harm defendants.  The court entered judgment for plaintiff on its 
+complaint.   
+ 
+ 
+
+ 
+8 
+E.  Posttrial Proceedings 
+Defendants filed a motion for JNOV challenging the economic damage 
+award to plaintiff based on plaintiff’s contractual waiver of consequential 
+damages and the jury’s finding that defendants were only liable for 
+negligence.  Defendants also filed a partial request for JNOV regarding the 
+jury’s award of $77,700 for “other past economic loss” claiming plaintiff 
+submitted no damage evidence except for “lost profits,” and there is no 
+evidentiary support in the record supporting an award for “other past 
+economic loss.”  The trial court granted defendants’ motion for JNOV.  The 
+court concluded that the limitation of liability clause (lease section 10.6) 
+barred plaintiff’s recovery.  Although the trial court also addressed the 
+arguments regarding the indemnity provision (lease section 10.1) it stated, 
+“the ‘indemnification’ clause is separate from the ‘limitation of liability’ 
+clause. . . .  [T]he ‘limitation of liability’ clause applies to the damages at 
+issue here (which are economic in nature) and thus it is not clear why the 
+‘limitation of liability’ clause would stop applying just because the 
+‘indemnification’ clause does not.”   
+I.  GENERAL LEGAL PRINCIPLES 
+“ ‘The trial court’s discretion in granting a motion for [JNOV] is 
+severely limited.’  [Citation.]  ‘ “The trial judge’s power to grant a [JNOV] is 
+identical to his power to grant a directed verdict [citations].  The trial judge 
+cannot reweigh the evidence [citation], or judge the credibility of witnesses.  
+[Citation.]  If the evidence is conflicting or if several reasonable inferences 
+may be drawn, the motion for [JNOV] should be denied.  [Citations.]  ‘A 
+motion for [JNOV] of a jury may properly be granted only if it appears from 
+the evidence, viewed in the light most favorable to the party securing the 
+verdict, that there is no substantial evidence to support the verdict.  If there 
+
+ 
+9 
+is any substantial evidence, or reasonable inferences to be drawn therefrom, 
+in support of the verdict, the motion should be denied.’  [Citation.]” ’  
+[Citation]”  (Hansen v. Sunnyside Products, Inc. (1997) 55 Cal.App.4th 1497, 
+1510.)  “On review of an order granting JNOV, we ‘ “must resolve any conflict 
+in the evidence and draw all reasonable inferences therefrom in favor of the 
+jury's verdict.” ’ ”  (Ibid.)  We also “determine de novo whether there is 
+substantial evidence to support the verdict and whether the moving party is 
+entitled to judgment in its favor as a matter of law.”  (Paykar Constr. v. 
+Spilat Constr. Corp. (2001) 92 Cal.App.4th 488, 494.)   
+A “special verdict must present the conclusions of fact as established by 
+the evidence, and not the evidence to prove them; and those conclusions of 
+fact must be so presented as that nothing shall remain to the Court but to 
+draw from them conclusions of law.”  (Code Civ. Proc., § 624.)  “The elements 
+of a cause of action constitute the essential or ultimate facts in a civil 
+case . . . .”  (Stoner v. Williams (1996) 46 Cal.App.4th 986, 1002.)  To the 
+extent there is an ambiguity in the special verdict after the jury is 
+discharged, the trial court’s function is to interpret the verdict “ ‘from its 
+language considered in connection with the pleadings, evidence and 
+instructions.’ ”  (Woodcock v. Fontana Scaffolding & Equip. Co. (1968) 69 
+Cal.2d 452, 456 (Woodcock).)  If trial court’s interpretation is incorrect, we 
+will interpret the verdict if it is possible to give a correct interpretation.  (Id. 
+at p. 457.)  Because a “ ‘special verdict’s correctness must be analyzed as a 
+matter of law’ ” (City of San Diego v. D.R. Horton San Diego Holding Co., Inc. 
+(2005) 126 Cal.App.4th 668, 678), on appeal we review de novo the trial 
+court’s interpretation of the special verdict (Fuller v. Department of 
+Transportation (2019) 38 Cal.App.5th 1034, 1038).   
+ 
+
+ 
+10 
+II.  PLAINTIFF’S APPEAL 
+A.  The Indemnification Clause Does Not Bar Plaintiff’s Damages 
+ 
+Section 10.1 of the lease is an indemnification clause which provides 
+defendants are “free from all liability and claims for damages” except for 
+liability caused by defendants’ “gross negligence or intentional misconduct” 
+and that plaintiff “shall indemnify and hold [defendants] harmless” from 
+liability unless the liability is based on defendants’ “gross negligence or 
+intentional misconduct.”  Plaintiff’s first cause of action for premises 
+liability/negligence alleged defendants breached their duty to warn plaintiff 
+of any contamination hazards or warn plaintiff about the risks of exposure to 
+asbestos.  The second cause of action for negligence alleged defendants 
+breached their duty to plaintiff by leasing the property without informing 
+plaintiff of the risk and failed to comply with all state laws.   
+ 
+Anticipating defendants would rely on the indemnification clause 
+(section 10.1) to avoid liability except for “liability caused by [defendants’] 
+gross negligence or intentional misconduct,” plaintiff alleged that defendants’ 
+conduct constituted gross negligence.  Accordingly, the court instructed the 
+jury that defendants are “not responsible for [plaintiff’s] harm, unless you 
+find that [defendants were] grossly negligent, committed fraud, or 
+intentionally harmed [plaintiff].”  Based on this instruction, plaintiff 
+contends that by awarding damages the jury necessarily found defendants 
+grossly negligent.   
+ 
+Defendants argue plaintiff failed to obtain specific jury findings on 
+whether defendants committed gross negligence so as to take their conduct 
+outside the scope of the indemnification clause and this court cannot imply 
+findings from the jury’s special verdicts.  We disagree that plaintiff was 
+
+ 
+11 
+required to present to the jury a special verdict form asking whether 
+defendants committed gross negligence.   
+ 
+Gross negligence is defined as “either a ‘ “ ‘want of even scant care’ ” ’ or 
+‘ “ ‘an extreme departure from the ordinary standard of conduct.’ ” ’ ”  (City of 
+Santa Barbara v. Superior Court (2007) 41 Cal.4th 747, 754.)  Gross 
+negligence “connotes such a lack of care as may be presumed to indicate a 
+passive and indifferent attitude toward results.”  (Calvillo–Silva v. Home 
+Grocery (1998) 19 Cal.4th 714, 729, disapproved of on other grounds by 
+Aguilar v. Atlantic Richfield Co. (2001) 25 Cal.4th 826, 853, fn. 19.)  
+“California does not recognize a distinct common law cause of action for gross 
+negligence apart from negligence.”  (Jimenez v. 24 Hour Fitness USA, Inc. 
+(2015) 237 Cal.App.4th 546, 552, fn.3; City of Santa Barbara, at pp. 779–780 
+[“We do not view our holding . . . as recognizing a cause of action for gross 
+negligence.”].)  Gross negligence is different from ordinary negligence in 
+degree, not in kind.  (Anderson v. Fitness Internat., LLC (2016) 4 Cal.App.5th 
+867, 881.)  Because gross negligence is simply a degree of negligence, the 
+elements of a claim for gross negligence is the same as one for ordinary 
+negligence.  (Rosencrans v. Dover Images, Ltd. (2011) 192 Cal.App.4th 1072, 
+1082.)   
+ 
+“Where liability attaches only for gross negligence it is for the jury, 
+under proper instructions by the court, to pass upon the question whether 
+such negligence exists.”  (Krause v. Rarity (1930) 210 Cal. 644, 655.)  Here, 
+the trial court defined gross negligence (CACI No. 425) and instructed the 
+jury, consistent with the indemnification clause, that plaintiff could not 
+recover damages unless it found defendants were “grossly negligent, 
+committed fraud, or intentionally harmed [plaintiff].”  (CACI No. 451.)  As 
+relevant here, the jury received special verdict forms on plaintiff’s causes of 
+
+ 
+12 
+action for premises liability, negligence, and negligence (vicarious liability).  
+It found in plaintiff’s favor on all three causes of action, concluded defendants 
+intentionally failed to disclose facts plaintiff did not know and could not 
+reasonably have discovered, and awarded plaintiff damages.   
+ 
+We presume the jury followed the trial court’s instruction that plaintiff 
+could not recover damages unless it found defendants were “grossly 
+negligent, committed fraud, or intentionally harmed [plaintiff].”  (Cassim v. 
+Allstate Ins. Co. (2004) 33 Cal.4th 780, 803–804 (Cassim) [“[a]bsent some 
+contrary indication in the record, we presume the jury follows its instructions 
+[citations] ‘and that its verdict reflects the legal limitations those instructions 
+imposed’ ”]; see People v. Yeoman (2003) 31 Cal.4th 93, 139 [“the presumption 
+that jurors understand and follow instructions [is] ‘[t]he crucial assumption 
+underlying our constitutional system of trial by jury’ ”].)  Because the jury did 
+not find fraud or that defendants intended to deceive plaintiff, it necessarily 
+found defendants grossly negligent.   
+ 
+The record supports a finding that defendants acted with gross 
+negligence in that their conduct constituted “an extreme departure from what 
+a reasonably careful person would do in the same situation to prevent harm 
+to oneself or to others.”  (CACI No. 425.)  Sawyer, defendants’ employee, 
+knew exposing inert asbestos to the elements could make it friable and was 
+concerned that plaintiff’s renovation of Range 9 would expose asbestos to the 
+elements but never expressed his concerns to the principals.  After Range 9 
+suffered storm damage, Sawyer had an asbestos remediation company do the 
+repairs, even though the lease agreement made plaintiff responsible for the 
+repairs, but never informed plaintiff about his concern that asbestos might 
+have been released.  Ultimately, the County of San Diego quarantined Range 
+9 based on friable asbestos in the air and on the ground.  Sawyer’s failure to 
+
+ 
+13 
+inform plaintiff about his concerns necessarily resulted in plaintiff’s 
+employees and property being exposed to friable asbestos because plaintiff 
+continued to use Range 9 until the County of San Diego quarantined the 
+building.   
+The trial court concluded the jury did not find gross negligence because 
+plaintiff failed to put a special verdict before the jury to obtain such a finding.  
+The trial court cited no authority that a special verdict form is required for 
+gross negligence.  Defendants similarly fault plaintiff for not submitting a 
+special verdict form addressing gross negligence, arguing it was plaintiff who 
+raised gross negligence as a defense to the enforceability of the lease 
+agreement.  Defendants also failed to cite any authority that a special verdict 
+form addressing gross negligence was required and we found no such 
+authority.  Interpreting the special verdicts in connection with the pleadings, 
+evidence, and instructions, the jury understood it could not award damages to 
+plaintiff unless it found defendants grossly negligent.  By awarding plaintiff 
+damages the jury necessarily found defendants grossly negligent.  Thus, the 
+indemnification clause (section 10.1) does not bar plaintiff’s damages award.   
+B.  The Limitation of Liability Clause Does Not Bar Plaintiff’s Damages 
+1.  The Health and Safety Code 
+One of the primary purposes of the Carpenter-Presley-Tanner 
+Hazardous Substance Account Act (the Act; Health & Saf. Code, 3  § 25300 et 
+seq.) 4  was to “[e]stablish a program to provide for response authority for 
+ 
+3   
+All undesignated statutory reverences are to the Health and Safety 
+Code.   
+4   
+Effective January 1, 2024, the Legislature recodified and reorganized 
+the Act without substantive changes.  (2022 Cal. Legis. Serv. Ch. 257 (Assem. 
+Bill No. 2293).)  All references to the Act are to the statutes as they existed 
+prior to January 1, 2024.   
+
+ 
+14 
+releases of hazardous substances, . . . that pose a threat to the public health 
+or the environment.”  (§ 25301.)  Asbestos is a hazardous air pollutant 
+(§ 25316, subd. (e); see also, 42 USCA § 7412, (a)(6) & (b)) and a “known 
+carcinogen when inhaled.”  (McNeal v. Whittaker, Clark & Daniels, Inc. 
+(2022) 80 Cal.App.5th 853, 857.)  Any owner of nonresidential real property 
+who knows or has reasonable cause to believe that a release of hazardous 
+substance has come to be located on or below the property” must before 
+leasing the property, give the lessee written notice of the condition.  
+(§ 25359.7, subd. (a), italics added.)  “Failure of the owner to provide written 
+notice when required by this subdivision to the . . . lessee, or renter shall 
+subject the owner to actual damages and any other remedies provided by 
+law.”  (Ibid.)   
+Additionally, the Asbestos Notification Law (§ 25915 et seq.) sets forth 
+a scheme for notifying employees, contractors and other persons providing 
+services on a property of the presence of asbestos on that property.  When 
+construction, maintenance, or remodeling is to be conducted in an area of the 
+leased premises where there is the potential for employees to encounter 
+asbestos or asbestos-containing materials, the owner responsible for the 
+construction, maintenance, or remodeling must post a written warning.  
+(§§ 25915.5, subd. (a), 25916.)  The posted warning sign must state either: 
+“CAUTION.  ASBESTOS.  CANCER AND LUNG DISEASE HAZARD.  DO 
+NOT DISTURB WITHOUT PROPER TRAINING AND EQUIPMENT.”  Or 
+“DANGER.  ASBESTOS.  CANCER AND LUNG DISEASE HAZARD.  
+AUTHORIZED PERSONNEL ONLY.  RESPIRATORS AND PROTECTIVE 
+CLOTHING ARE REQUIRED IN THIS AREA.”  (§ 25916, subds. (a) & (b).)  
+“Any owner who knowingly or intentionally fails to comply with this chapter, 
+or who knowingly or intentionally presents any false or misleading 
+
+ 
+15 
+information to employees or any other owner, is guilty of a misdemeanor 
+punishable by a fine of up to one thousand dollars ($1,000) or up to one year 
+in the county jail, or both.”  (§ 25919.7.)   
+An “owner” includes any lessee of a building or part of a building.  
+(§ 25919.5.)  Accordingly, plaintiff and defendants qualify as owners.  An 
+“employee” includes “any person contracting with an owner who is required 
+or directed to perform services . . . in any building.”  (§ 25919.3.)  Thus, 
+plaintiff who “contract[ed] with an owner” through the lease agreement falls 
+within the statutory definition of employees working within the building 
+entitled to notice under section 25919.5.  (§ 25919.3.)   
+2.  The Jury Necessarily Found a Violation of Law 
+ 
+Negligence per se is a way to establish ordinary negligence by tying the 
+standard of care to a specific “statute, ordinance, or regulation of a public 
+entity.”  (Evid. Code, § 669, subd. (a)(1).)  “Negligence per se is an evidentiary 
+doctrine, rather than an independent cause of action.  [Citation.]  It can be 
+applied generally to establish a breach of due care under any negligence -
+related cause of action.”  (Jones v. Awad (2019) 39 Cal.App.5th 1200, 1210.)  
+Where the doctrine of negligence per se is applicable, the standard of conduct 
+established by a relevant statute or ordinance is adopted as the duty of care 
+for purposes of a negligence cause of action.  (Ibid.)  In such cases, where the 
+statute or ordinance is violated, the doctrine creates a rebuttable 
+presumption of negligence.  (Ibid.)   
+ 
+The trial court stated “[t]he parties seem to be in general agreement 
+that the negligence in this case was established via the doctrine of negligence 
+
+ 
+16 
+per se.” 5   We agree with this observation because the sole negligence theory 
+plaintiff presented was defendants’ alleged failure to comply with their 
+statutory duty to inform plaintiff of the existence of asbestos before entering 
+the lease, when plaintiff renovated the property, and when defendants hired 
+a company to repair the property.  The court noted, however, that “[t]he 
+actual verdict provided does not specify that [defendants] violated a statute.  
+It also does not specify that the jury applied the negligence per se doctrine.  
+All the verdict form specifies is that [defendants were] indeed ‘negligent in 
+the use or maintenance of the property.’ ”  The trial court cited no authority 
+that a special verdict form is required to address a negligence per se theory of 
+liability.  Defendants also failed to cite any authority that a special verdict 
+form addressing negligence per se was required and we found no such 
+authority.   
+ 
+Defendants’ reliance on Myers Building Industries, Ltd. v. Interface 
+Technology, Inc. (1993) 13 Cal.App.4th 949, for the proposition that plaintiff 
+was required to obtain special verdicts on negligence per se and gross 
+negligence is misplaced.  In Myers, by special verdict a jury found defendant 
+had breached its contract with plaintiff.  (Id. at p. 956.)  The jury also found, 
+by special verdict, that there had been “oppression, fraud or malice” in 
+defendant’s conduct toward plaintiff and awarded plaintiff punitive damages.  
+(Ibid.)  Although plaintiff had alleged a cause of action for fraud, no special 
+verdict findings were submitted to the jury on this cause of action.  (Id. at 
+p. 958.)  However, the law is clear that “[a]n award of punitive damages is not 
+supported by a verdict based on breach of contract, even where the 
+ 
+5   
+In their motion for JNOV, defendants stated the jury found they were 
+“negligent per se in not disclosing to [plaintiff] the presence of asbestos in 
+Range 9 as called for by the Health and Safety Code.”   
+
+ 
+17 
+defendant’s conduct in breaching the contract was wilful [sic], fraudulent, or 
+malicious.”  (Id. at p. 960; Civ. Code, § 3294.)  Accordingly, the appellate court 
+struck the punitive damages award.  (Myers, at p. 962; see also, Saxena v. 
+Goffney (2008) 159 Cal.App.4th 316, 324–329 [court could not speculate jury 
+found defendant committed battery where jury received no special verdict 
+form on battery cause of action and instructions did not address lack of 
+consent].)  Here, unlike the fraud claim in Myers, gross negligence and 
+negligence per se are not separate causes of action. 6   
+ 
+Interpreting the special verdicts in connection with the pleadings, 
+evidence, and instructions, the jury necessarily found defendants negligent 
+based on statutory violations under the doctrine of negligence per se because 
+this was the only theory upon which the jury could base its negligence 
+finding.  (Woodcock, supra, 69 Cal.2d at p. 456.)   
+C. The Limitation of Liability Clause Does Not Preclude the 
+Damages Award  
+“Generally, ‘a limitation of liability clause is intended to protect the 
+wrongdoer defendant from unlimited liability.’ ”  (Food Safety Net Services v. 
+Eco Safe Systems USA, Inc. (2012) 209 Cal.App.4th 1118, 1126.)  Such 
+clauses “have long been recognized as valid in California.”  (Markborough 
+Cal. v. Superior Court (1991) 227 Cal.App.3d 705, 714.)  Parties to a 
+commercial lease may agree to limit liability for breaches of covenants in the 
+lease.  (Frittelli, Inc. v. 350 North Canon Drive, LP (2011) 202 Cal.App.4th 
+35, 43 (Frittelli).)  To the extent an exculpatory provision also attempts to 
+ 
+6   
+We do not conclude that special verdict forms addressing gross 
+negligence or negligence per se are improper.  We only conclude the absence 
+of such special verdict forms does not constitute error on this record where 
+the pleadings, evidence, and jury instructions allowed the trial court to draw 
+conclusions of law based on the jury’s negligence finding.  (Code Civ. Proc., 
+§ 624.)   
+
+ 
+18 
+shield a party from tort liability, it is subject to the public policy expressed in 
+Civil Code section 1668 which provides that “ ‘ “[a]ll contracts which have for 
+their object, directly or indirectly, to exempt anyone from responsibility for 
+his [or her] own fraud, or willful injury to the person or property of another, 
+or violation of law, whether willful or negligent, are against the policy of the 
+law.” ’ ”  (See Frittelli, at p. 43, italics added.)  Civil Code section 1668 has 
+been construed to invalidate contractual provisions that purport to exempt 
+liability for future intentional wrongs and gross negligence and prohibits 
+provisions exempting ordinary negligence when the public interest is 
+involved or a statute expressly forbids it.  (Ibid.)  Civil Code section 1668 also 
+applies “to invalidate provisions that merely limit liability.”  (Health Net of 
+California, Inc. v. Department of Health Services (2003) 113 Cal.App.4th 224, 
+239.)  “[C]ontractual clauses seeking to limit liability will be strictly 
+construed and any ambiguities resolved against the party seeking to limit its 
+liability . . . .”  (Nunes Turfgrass, Inc. v. Vaughan–Jacklin Seed Co. (1988) 200 
+Cal.App.3d 1518, 1538.)   
+ 
+As we discussed, the jury necessarily found defendants liable for 
+damages based on their violations of the Health and Safety Code in failing to 
+disclose the existence of asbestos in Range 9 under a negligence per se theory.  
+(Ante, pt. II.B.2.)  This finding triggered Civil Code section 1668 which 
+invalidates “contracts which have for their object, directly or indirectly, to 
+exempt anyone from responsibility for his own . . . violation of law, whether 
+willful or negligent. . . .”  (Civ. Code, § 1668.)  Accordingly, the limitation of 
+liability clause (section 10.6) is void to the extent it purports to shield 
+defendants from liability for their willful or negligent statutory violations.   
+ 
+The trial court, however, concluded Civil Code section 1668 did not 
+apply to invalidate the limitation of liability clause because even assuming 
+
+ 
+19 
+the jury found defendants violated the Health and Safety Code, the 
+“ ‘violation of law’ prong set forth in . . . [Civil Code section] 1668 applies to 
+cases involving the public interest, injuries to persons, or the like—it is not 
+designed to prevent ‘two equal bargainers’ in a commercial setting from 
+allocating who ‘should bear the risk of economic loss in the event of a 
+particular mishap,’ and ‘there is no reason for the courts to intervene and 
+remake the parties’ agreement’ in such situations.”  We conclude the trial 
+court erred.   
+ 
+“Disclosure requirements are commonplace even for commercial 
+transactions between sophisticated business entities, and all such laws 
+reflect legislative judgments as to what information should be available for 
+market participants to consider when negotiating or agreeing to a contract, 
+even when one party ‘could easily contract to secure that information’ from 
+the other party.”  (Beeman v. Anthem Prescription Management, LLC (2013) 
+58 Cal.4th 329, 362 (Beeman).)  Disclosure statutes “simply require disclosure 
+of factual information in order to inform private or public decisionmaking in 
+the economic or political marketplace.  We may assume that the regulated 
+entities would prefer not to make these disclosures, many of which run 
+counter to their business interests.  But the Legislature has determined that 
+the information should be made available in order to promote informed choice 
+in the free market and in the development of sound public policy.”  (Id. at 
+p. 361.)   
+ 
+As examples of such disclosure statutes, in Beeman, the Supreme Court 
+cited several statutes, including subdivision (a) of section 25359.7 which 
+requires an owner of nonresidential real property to give written notice to 
+buyers, lessors, or renters regarding the presence of hazardous substances.  
+(Beeman, supra, 58 Cal.4th at p. 362.)  Accordingly, to the extent the 
+
+ 
+20 
+limitation of liability clause purports to release defendants for liability for 
+failing to disclose asbestos it violates public policy.   
+ 
+The trial court’s reliance on Tunkl v. Regents of University of Cal. 
+(1963) 60 Cal.2d 92 was misplaced because Tunkl only addressed the validity 
+of contractual clauses seeking to avoid responsibility for ordinary negligence.  
+(Id. at pp. 94, 101.)  As the court in Capri v. L.A. Fitness International, LLC 
+(2006) 136 Cal.App.4th 1078 (Capri) explained:  “Tunkl did not, however, add 
+a ‘public interest’ requirement where the contract purports to avoid liability 
+for fraud, willful injury, or violation of law, whether intentional or negligent.  
+The plain language of [Civil Code] section 1668 renders such exculpatory 
+provisions invalid as against public policy, and nothing in Tunkl alters that.  
+‘It is now settled—and in full accord with the language of the statute—that 
+notwithstanding its different treatment of ordinary negligence, under [Civil 
+Code] section 1668, “a party [cannot] contract away liability for his 
+fraudulent or intentional acts or for his negligent violations of statutory law,’ 
+regardless of whether the public interest is affected.’ ”  (Id. at p. 1084.)  Here, 
+because the jury found a violation of statutory law, Tunkl’s public interest 
+requirement does not apply.   
+ 
+The trial court similarly misplaced its reliance on CAZA Drilling 
+(California), Inc. v. TEG Oil & Gas U.S.A., Inc. (2006) 142 Cal.App.4th 453, 
+Farnham v. Superior Court (1997) 60 Cal.App.4th 69, and Peregrine Pharms., 
+Inc. v. Clinical Supplies Mgmt. (C.D. Cal. 2014) 2014 U.S. Dist. LEXIS 
+105756 (Peregrine).  Caza is distinguishable because appellants failed to 
+identify a specific statutory or regulatory violation that led to their injury 
+that would trigger the application of Civil Code section 1668.  (Caza, at 
+p. 476.)  Thus, no basis existed to invalidate the exculpatory provisions in the 
+parties’ contract.  (Ibid.)  In contrast here, plaintiff proved a violation of the 
+
+ 
+21 
+Health and Safety Code.  Farnham is distinguishable because the contract 
+limited the liability of corporate directors for defamation arising out of their 
+roles as directors while allowing the injured party to seek full redress from 
+the corporation.  (Farnham, at p. 77.)   
+ 
+In Peregrine, supra, 2014 U.S. Dist. LEXIS 105756, 7  the court 
+concluded the limitation on damages provisions shielded defendant for 
+passive negligence, not active negligence which includes “ ‘knowledge of or 
+acquiescence in negligent conduct, or failure to perform specific duties.’ ”  (Id. 
+at p. 42.)  In contrast, this case involves gross (active) negligence.  Peregrine 
+is also distinguishable because the parties, two pharmaceutical companies, 
+foresaw the importance of compliance with FDA regulations and apportioned 
+the risk for violations of law.  (Id. at p. 51.)  In contrast here, the limitation of 
+liability clause does not address asbestos and defendants do not explain how 
+two commercial actors can fairly allocate risk for asbestos where one of the 
+parties did not even know of the risk.   
+ 
+In summary, defendants’ failure to comply with disclosure 
+requirements contained in the Health and Safety Code prevented plaintiff 
+from knowing about latent hazardous materials at the premises which 
+plaintiff had no way of discovering on its own.  Defendants’ statutory 
+violations led directly to plaintiff’s financial losses.  Thus, to the extent the 
+limitation of liability clause exculpates defendants for their violations of the 
+Health and Safety Code, it is invalid under Civil Code section 1668.  
+Accordingly, the trial court erred in granting JNOV in defendants’ favor.   
+ 
+ 
+ 
+7  
+“Although not binding, unpublished federal district court cases are 
+citable as persuasive authority.”  (Aleman v. Airtouch Cellular (2012) 209 
+Cal.App.4th 556, 576, fn. 8.)   
+
+ 
+22 
+III.  DEFENDANTS’ APPEAL 
+A. Additional Background 
+ 
+Brian Brinig, a certified public accountant who specializes in forensic 
+accounting, testified regarding plaintiff’s alleged economic losses due to the 
+loss of its orchid inventory in March 2017.  He determined plaintiff generated 
+approximately $478,000 in gross sales income in 2015 and $485,000 in 2016.  
+Brinig assumed that in 2017, 2018, and 2019, the business would have 
+produced the same level of revenue it produced in the year prior to the 
+inventory loss.  He averaged the revenue amount for the prior two years and 
+estimated $480,000 in gross sales for these years.  Based on prior sales and 
+profits, Brinig subtracted 35 percent from lost revenue to calculate lost profit.  
+That resulted in net lost profit of $83,000 in 2017, $165,000 in 2018, and 
+$121,000 in 2019.”  Total net lost profit for “all three of those years is 
+$368,933” under Brinig’s preferred calculation method.   
+ 
+As a second method of calculating lost profits, Brinig multiplied the 
+number of plants lost by the value of each plant.  In March 2017, plaintiff had 
+approximately 16,200 orchid plants growing at Range 9 valued at $18.50 to 
+$22.50 each, of which, 50 percent were in bloom and ready for sale.  Mr. Le 
+lacked inventory records confirming this amount and indicated there may 
+have only been 12,000 plants at Range 9.  Brinig testified that if plaintiff had 
+12,000 plants at an average of $20 per plant, plaintiff lost $240,000.  If 
+plaintiff had 16,200 plants, then it lost $324,000.   
+ 
+Under a third approach, Brinig took the lost profit for each year “and 
+you add that calculation of lost profit back to the adjusted net income for the 
+business in each of the years 2017, ’18, and ’19.”  The adjusted net income in 
+2016 was $116,000, in 2017 it was around $50,000, or $133,000 when added 
+to Brinig’s estimate of the loss for that year ($82,000).  In 2018 the adjusted 
+
+ 
+23 
+net income was $135,000 and $161,000 for 2019.  Those three numbers add 
+up to over $400,000.   
+ 
+Mr. Le claimed plaintiff’s losses exceeded what Brinig calculated 
+because Brinig’s method only reflected profits and losses from plaintiff’s tax 
+returns.  Additionally, plaintiff sold orchid stems, which can take eight 
+months or so to fully bloom.  Mr. Le estimated that about 60 percent of the 
+plants cultivated get used multiple times for cut stems.  One cut stem, which 
+a single plant can produce multiple times, sells for $9 to $12 per stem.  
+Additionally, plaintiff had buyers for the asbestos-contaminated orchids and 
+had to replace these plants at almost triple the cost which also impacted 
+plaintiff’s net profit.   
+ 
+Defendants also presented a damages expert who reviewed Brinig’s 
+work product and testimony.  Defendants’ expert opined that Brinig’s 
+calculations were unsupported mathematical exercises that did not reflect 
+plaintiff’s actual damages.  He also opined that Brinig’s damage calculations 
+were not consistent with what he believed were plaintiff’s potential losses.  
+Finally, he concluded Brinig had not received “sufficient and accurate 
+accounting and financial information” to support his opinions regarding 
+plaintiff’s damages.  Defendants’ expert criticized Brinig for not taking into 
+account that some of the lost plants were intended to be retained for cut 
+stems.  As an example, if 50 percent of the lost plants were intended to be 
+retained, then the total lost sales would be about $125,000.  Defendants’ 
+expert also criticized Brinig for not analyzing whether plaintiff could have 
+mitigated its damages.   
+ 
+The trial court instructed the jury that plaintiff sought economic 
+damages resulting from lost profits.  In deciding lost profits, the jury was told 
+it needed to determine the gross amount plaintiff would have received but for 
+
+ 
+24 
+defendants’ conduct and subtract from that the amount of additional costs 
+plaintiff would have had if defendants’ conduct had not occurred.  
+Additionally, the jury was informed that “[t]he amount of the lost profits need 
+not be calculated with mathematical precision, but there must be a 
+reasonable basis for computing the loss.”  The verdict form contained blank 
+spaces for “[l]ost profits” and “[o]ther past economic loss.”  The jury awarded 
+damages $144,300 as lost profits and $77,700 as other past economic loss, for 
+a total damages award of $222,000.   
+ 
+Defendants requested a partial JNOV challenging the jury’s award of 
+$77,700 for “other past economic loss” on the ground plaintiff submitted no 
+damage evidence except for “lost profits,” and there is no evidentiary support 
+in the record for “other past economic loss.”  The trial court disagreed with 
+defendants’ argument but ruled the issue was moot based on the limitation of 
+liability clause.   
+B.  Substantial Evidence Supports the Damages Award 
+ 
+Defendants note that Brinig presented a lost profits model of damages 
+and the record contains no evidence of any damages besides lost profits.  
+Accordingly, they contend substantial evidence does not support the jury’s 
+award of $77,700 in “other past economic loss.”  Indulging all inferences in 
+favor of the jury’s verdict, plaintiff asserts the evidence supported the “other 
+past economic loss” damage award.  Because the record contains evidence 
+showing it suffered over $300,000 in damages, plaintiff argues the jury’s 
+$220,000 damages award should be affirmed.   
+ 
+Reduced to its essence, defendants argue that because the special 
+verdict form included two blanks, one for “[l]ost profits” and another for 
+“[o]ther past economic loss” that “[o]ther past economic loss” must be 
+something other than lost profits.  Stated differently, the special verdict form 
+
+ 
+25 
+is ambiguous as to whether “[o]ther past economic loss” is something 
+different than lost profits.  Defendants, however, did not object to the 
+question regarding “[o]ther past economic loss” in the trial court. 8   Moreover, 
+any confusion as to whether “[o]ther past economic loss” is something 
+different than lost profits could have been clarified after the jury returned its 
+verdict and before the jury was discharged.  (See Code Civ. Proc., § 619 
+[“When the verdict is announced, if it is informal or insufficient, in not 
+covering the issue submitted, it may be corrected by the jury under the advice 
+of the Court, or the jury may be again sent out.”].)  Instead, defendants 
+gained a tactical advantage by waiting to raise this issue for the first time in 
+its motion for JNOV.   
+ 
+In any event, any ambiguity as to whether “[o]ther past economic loss” 
+is something different than lost profits must be resolved considering the 
+pleadings, evidence, and instructions.  (Woodcock, supra, 69 Cal.2d at p. 456.)  
+As defendants correctly note, Brinig presented only a lost profits model of 
+damages and calculated plaintiff’s damages at a minimum of $240,000 and 
+over $360,000 using three different methods to determine plaintiff’s lost 
+profits.  The instructions informed the jurors that plaintiff sought only lost 
+profit damages.  We are required to presume the jury followed the trial 
+court’s instructions in the absence of contrary evidence.  (Cassim, supra, 33 
+Cal.4th at pp. 803–804.)  Neither party submitted a proposed jury instruction 
+defining “[o]ther past economic loss” and the jury received no such 
+instruction.  Thus, the jury could have reasonably concluded from the 
+ 
+8   
+The proposed damages verdict forms submitted by both plaintiff and 
+defendants included two blank spaces, one for “[l]ost profits” and another for 
+“[o]ther past economic loss.”   
+
+ 
+26 
+instructions that “[o]ther past economic loss” was simply a different form of 
+lost profits.   
+ 
+Significantly, under Brinig’s third approach, he calculated damages by 
+taking lost profits for 2017, 2018, and 2019 and adding that to the adjusted 
+net income for the business for each of these three years.  Under this 
+approach, and crediting the evidence that 60 percent of the plants plaintiff 
+grew were for cut stems, the jury could have reasonably interpreted “[o]ther 
+past economic loss” as being plaintiff’s lost profits for 2017 when plaintiff lost 
+its plant inventory and “[l]ost profits” as being plaintiff’s lost profits after 
+2017, or the value of the cut stems.   
+ 
+In summary, the evidence presented to the jury was sufficient to 
+provide a reasonable basis for calculating the amount of plaintiff’s lost 
+profits.  That defendants agreed to a special verdict form containing a blank 
+space for “other past economic loss” without requesting a jury instruction 
+defining this term is a problem of their own making.  Indulging in every 
+legitimate inference to support the verdict, as we must, substantial evidence 
+supports the damages awarded for “other past economic loss.”  Thus, the trial 
+court properly denied defendants’ motion for partial JNOV.   
+ 
+ 
+
+ 
+27 
+DISPOSITION 
+ 
+On plaintiff’s appeal, the order granting JNOV in defendants’ favor is 
+reversed.  On defendants’ cross-appeal, the order denying partial JNOV on the 
+issue of damages is affirmed.  The matter is remanded for further proceedings 
+consistent with this opinion.  Plaintiff is awarded its costs on appeal.   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+KELETY, J. 
+ 
+WE CONCUR: 
+ 
+ 
+ 
+HUFFMAN, Acting P. J. 
+ 
+ 
+ 
+O’ROURKE, J. 
+  
+
+Filed 1/25/24 
+CERTIFIED FOR PUBLICATION 
+ 
+COURT OF APPEAL, FOURTH APPELLATE DISTRICT 
+ 
+DIVISION ONE 
+ 
+STATE OF CALIFORNIA 
+ 
+ 
+ 
+EPOCHAL ENTERPRISES, INC., 
+ 
+Plaintiff, Cross-defendant and 
+Appellant, 
+ 
+v. 
+LF ENCINITAS PROPERTIES, LLC et 
+al., 
+ 
+Defendants, Cross-complainants 
+and Appellants. 
+D079905 
+ 
+ 
+(Super. Ct. No. 37-2018 - 
+00027797-CU-CO-NC) 
+ 
+     ORDER CERTIFYING  
+     OPINION FOR     
+PUBLICATION 
+THE COURT: 
+ 
+The opinion in this case filed on January 12, 2024, was not certified for 
+publication.  It appearing the opinion meets the standards for publication 
+specified in California Rules of Court, rule 8.1105(c), the request pursuant to 
+rule 8.1120(a) for publication is GRANTED. 
+ 
+IT IS HEREBY CERTIFIED that the opinion meets the standards for 
+publication specified in California Rules of Court, rule 8.1105(c); and 
+
+ 
+2 
+ 
+ORDERED that the words “Not to Be Published in the Official Reports” 
+appearing on page one of said opinion be deleted and the opinion herein be 
+published in the Official Reports. 
+ 
+HUFFMAN, Acting P. J. 
+ 
+Copies to:  All parties 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 

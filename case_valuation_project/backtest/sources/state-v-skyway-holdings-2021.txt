@@ -1,0 +1,514 @@
+TEXAS COURT OF APPEALS, THIRD DISTRICT, AT AUSTIN 
+ 
+ 
+NO.  03-19-00143-CV 
+ 
+ 
+The State of Texas, Appellant 
+ 
+v. 
+ 
+Skyway Holdings LLC and Anderson Auto Salvage a/k/a Anderson Towing Inc., Appellees 
+ 
+ 
+FROM THE COUNTY COURT AT LAW NO. 3 OF BELL COUNTY 
+NO. 76172, THE HONORABLE F. B. MCGREGOR, JR., JUDGE PRESIDING 
+ 
+ 
+M E M O R A N D U M   O P I N I O N 
+ 
+ 
+In this appeal, the State requests a new trial after the jury awarded $508,548 as 
+compensation for the State’s condemnation of a parcel from a tract of land that was owned and 
+operated as a salvage yard by Skyway Holdings and Anderson Auto Salvage (the Anderson 
+Companies).  The State argues that insufficient evidence supports the award because the trial 
+court abused its discretion in admitting unreliable and irrelevant testimony from expert witnesses 
+and in excluding relevant cross examination testimony.  We disagree and affirm. 
+BACKGROUND1 
+ 
+ 
+Since 1988, Harold and Sandra Anderson, through the Anderson Companies, have 
+owned and operated a salvage yard on 17.538 acres (the Property) located on IH-35 in Troy, 
+Texas (the City).  Harold owns and operates Anderson Auto Salvage, and the Andersons jointly 
+ 
+1  The background recital is taken from the evidence presented at trial. 
+
+2 
+ 
+own Skyway Holdings.  In 2006, the City annexed the Property, zoning it for light industrial use 
+but allowing the Property to continue operating as a salvage yard through a special use permit. 
+ 
+ 
+In 2013, the State sought to widen IH-35 and filed a petition for condemnation, 
+seeking to acquire 0.22 acres of the Property (the Parcel), leaving 17.318 acres of the Property 
+(the Remainder Property).  The special commissioners awarded $74,429 in damages, and the 
+Anderson Companies challenged the award and demanded a jury trial.  By agreement, the parties 
+set April 11, 2013, as the valuation date—i.e., the effective date of the taking.  Before trial, the 
+Anderson Companies designated Josh Korman as an appraisal expert, Charles Dunn as a real 
+estate expert, and Harold as a witness testifying under the Property Owner Rule, see Natural Gas 
+Pipeline Co. of Am. v. Justiss, 397 S.W.3d 150, 157 (Tex. 2012) (excepting property owners 
+from requirement that witnesses must otherwise establish qualifications to express opinion on 
+land values).  The State moved to exclude their opinions on various grounds, which the trial 
+court denied after a Texas Rule of Evidence 702 gatekeeper hearing.  The Anderson Companies 
+also filed a motion in limine to prevent reference to business income after the taking, which the 
+trial court granted. 
+ 
+ 
+The jury trial occurred over three days in October 2018 and primarily consisted of 
+the testimony of the parties’ experts.  Before the cross examination of Harold, the State’s counsel 
+again requested a ruling on whether he could question Harold as to increased business revenues 
+following the taking.  The trial court denied the request but allowed counsel to ask whether the 
+business is still ongoing.  At the close of trial, the Anderson Companies requested between 
+$508,548 and $1 million in compensation, and the State asked for between $74,875 and $96,206 
+to compensate the Andersons.  The charge presented the following question to the jury: 
+
+3 
+ 
+As of April 11, 2013, what do you find is the difference between the Market 
+Value of the Defendants’ Whole Property immediately before the condemnation 
+and the Market Value of the Defendants’ Remainder Property immediately after 
+the condemnation, taking into consideration the nature of any improvements and 
+the use of the part being acquired along with damages to the remaining property, 
+if any? 
+During deliberation, the jury asked the trial court the following question: 
+To clarify, the State recommends that amount of 74,875 to 96,206.  And the 
+Defense recommends an amount of 508,548 to 1 million.  Are we able to 
+award an amount between 74,875 and 1 million, or do we have to stay within 
+these ranges[?] 
+The trial court submitted the parties’ joint response:  “You are permitted to award any number 
+between $74,875 and $1 million as long as it is supported by the evidence.”  The jury returned 
+with a verdict of $508,548, and the trial court rendered judgment on the verdict.  The trial court 
+denied the State’s motion for new trial, and this appeal followed. 
+RELEVANT LAW AND STANDARD OF REVIEW 
+ 
+ 
+When real property is taken for public use, the Texas Constitution requires 
+adequate compensation.  See Tex. Const. art. I, § 17.  When only part of a tract is condemned, 
+“adequate compensation is required for both the part taken and any resulting damage to the 
+remainder.”  County of Bexar v. Santikos, 144 S.W.3d 455, 459 (Tex. 2004).  Damages “are 
+generally calculated by the difference between the market value of the remainder property 
+immediately before and after the condemnation, considering the nature of any improvements and 
+the use of the land taken.”  Id.  The trial court “must first determine if claimed damages are 
+compensable” and then “admit evidence accordingly.”  State v. Bristol Hotel Asset Co., 
+293 S.W.3d 170, 175 (Tex. 2009) (per curiam). 
+
+4 
+ 
+ 
+ 
+We review a trial court’s evidentiary rulings for abuse of discretion—e.g., acting 
+without regard for any guiding rules.  See Caffe Ribs, Inc. v. State, 487 S.W.3d 137, 142 (Tex. 
+2016).  “To testify as an expert, a witness must be qualified, and the proposed testimony must 
+be relevant to the issues in the case and based upon a reliable foundation.”  Gunn v. McCoy, 
+554 S.W.3d 645, 666 (Tex. 2018).  “The trial court’s role is not to determine the truth or falsity 
+of the expert’s opinion” but “to make the initial determination whether the expert’s opinion is 
+relevant and whether the methods and research upon which it is based are reliable.”  E.I. du Pont 
+de Nemours & Co. v. Robinson, 923 S.W.2d 549, 558 (Tex. 1995).  “To be relevant, the expert’s 
+opinion must be based on the facts; to be reliable, the opinion must be based on sound reasoning 
+and methodology.”  State v. Central Expressway Sign Assocs., 302 S.W.3d 866, 870 (Tex. 2009).  
+“To reverse a judgment based on a claimed error in admitting or excluding evidence,” we review 
+the entire record and “a party must show that the error probably resulted in an improper 
+judgment.”  Interstate Northborough P’ship v. State, 66 S.W.3d 213, 220 (Tex. 2001).  The 
+Texas Supreme Court has “recognized the impossibility of establishing a specific test for 
+determining harmful error,” thereby “entrust[ing] the matter to the sound discretion of the 
+reviewing court.”  Caffe Ribs, 487 S.W.3d at 145. 
+DISCUSSION 
+ 
+ 
+On appeal, the State raises five issues.  In its first three issues, the State challenges 
+the admission of Korman’s “unreliable damages opinion,” Dunn’s “unsupported opinions,” and 
+Harold’s “unsupported valuation opinion.”  In its fourth issue, the State challenges the exclusion 
+of “testimony concerning the lack of functional impact” on the business.  Finally, in its fifth 
+issue, the State challenges the sufficiency of the evidence to support the jury award. 
+
+5 
+ 
+Korman’s Testimony 
+ 
+ 
+The Anderson Companies designated Korman, a real estate appraiser who has 
+experience appraising salvage yards, as an expert appraiser.  Texas Rule of Evidence 702 applies 
+to the “testimony of expert appraisal witnesses in condemnation actions.”  Guadalupe-Blanco 
+River Auth. v. Kraft, 77 S.W.3d 805, 807 (Tex. 2002) (citing Tex. R. Evid. 702).  “Appraisal 
+expertise is a form of ‘specialized knowledge [used to] assist the trier of fact to . . . determine a 
+fact in issue’” and “is therefore subject to Gammill’s relevance and reliability requirements.”  Id. 
+(quoting Tex. R. Evid. 702; citing Gammill v. Jack Williams Chevrolet, Inc., 972 S.W.2d 713, 
+726 (Tex. 1998)). 
+ 
+ 
+The State does not contest Korman’s expert qualifications or the relevance of 
+Korman’s opinion; the State challenges only the reliability of Korman’s testimony.  In reviewing 
+reliability determinations, “the court ‘necessarily looks beyond what the expert said’ to evaluate 
+the reliability of the expert’s opinion.”  Coastal Transp. Co. v. Crown Cent. Petrol. Corp., 
+136 S.W.3d 227, 233 (Tex. 2004) (quoting Merrell Dow Pharms., Inc. v. Havner, 953 S.W.2d 706, 
+712 (Tex. 1997)).  “[W]e do not decide whether the expert’s opinions are correct; rather, 
+we determine whether the analysis used to form those opinions is reliable.”  Gharda USA, Inc. 
+v. Control Sols., Inc., 464 S.W.3d 338, 349 (Tex. 2015).  “Expert testimony is unreliable ‘if there 
+is too great an analytical gap between the data on which the expert relies and the opinion 
+offered’”—e.g., if “the expert unreliably applies otherwise sound principles and methodologies,” 
+“the expert’s opinion is based on assumed facts that vary materially from the facts in the record,” 
+or “the expert’s opinion is based on tests or data that do not support the conclusions reached.”  
+Id. (quoting Volkswagen of Am., Inc. v. Ramirez, 159 S.W.3d 897, 904–05 (Tex. 2004)). 
+
+6 
+ 
+ 
+ 
+Korman applied the cost approach, which the State does not challenge.  See 
+Central Expressway, 302 S.W.3d at 871 (“The cost approach looks to the cost of replacing the 
+condemned property minus depreciation.”); Williams v. State, 406 S.W.3d 273, 284 (Tex. 
+App.—San Antonio 2013, pet. denied) (“The first step in [the cost] approach is to determine the 
+market value of the underlying land, free of any structures, via the comparable-sales method.  
+That figure is then added to the cost of reproducing the existing structures less their 
+depreciation.” (citing State v. Whataburger, Inc., 60 S.W.3d 256, 262 (Tex. App.—Houston 
+[14th Dist.] 2001, pet. denied))).2  Applying the cost approach, Korman opined that the value of 
+the Remainder Property before the taking was $1,675,112; that the value after the taking was 
+$1,223,735; and that subtracting the latter number from the former produces $451,377 in 
+damages.  Korman then added $56,171 as the value for the Parcel taken to produce a value of 
+$508,548 as compensation—the same amount that the jury awarded.  The State does not contest 
+Korman’s calculations of $1,675,112 or $56,171; the State contests only the $1,223,735 
+valuation for the Remainder Property after the taking, which Korman arrived at as shown by the 
+following chart: 
+ 
+2  Korman noted in his expert report, “Because of the unique nature of the subject 
+property as an auto salvage yard with specific improvements, improved comparable sales figures 
+are lacking in the market area and the improved comparable sales methodology doesn’t 
+accurately measure market value for this particular property.”  See City of Harlingen v. Estate of 
+Sharboneau, 48 S.W.3d 177, 183 (Tex. 2001) (noting that cost approach “is best suited for 
+valuing improved property that is unique in character and not frequently exchanged on the 
+marketplace”; that “[w]hile the cost method takes the property’s depreciation into account, it still 
+‘tends to set the upper limit of true market value’”; and that “[w]hen comparable sales figures are 
+lacking or the method is otherwise inadequate as a measure of fair market value, courts have 
+accepted testimony based on the cost approach and the income approach” (quoting Polk County 
+v. Tenneco, Inc., 554 S.W.2d 918, 921 (Tex. 1977))). 
+
+7 
+ 
+ 
+Looking specifically at the “Depreciation” row, Korman explained that the “depreciation before 
+[the taking] was 28 percent” based on the age of the improvements but after the taking “[t]hat 
+has been increased [to] 75 percent because we believe there’s functional obsolescence.”  Korman 
+defined “functional obsolescence” as “caused by a flaw in the structure, materials, or design of 
+an improvement when the improvement is compared with the highest and best use and most cost 
+effective functional design requirements at the time of the appraisal.”3  At trial, he explained “the 
+math is once they’re physically depreciated 28 percent, we then depreciate another 65 percent” 
+for functional obsolescence and “just because you’re multiplying 28 percent, 65 percent roughly 
+comes out to be 75 percent.”  This 65% depreciation value was applied to all the improvements. 
+ 
+ 
+The State raises two challenges to the testimony.  First, the State complains that 
+“Korman employed no test to measure the site’s utility, either before or after, against market 
+standards” to calculate the 65% depreciation value.  Second, the State challenges the reliability 
+ 
+3  Relying on a real estate appraisal dictionary, Korman’s report defined “Functional 
+Utility” as “Impairment of the functional capacity of a property or building according to market 
+tastes and standards; equivalent to functional obsolescence when ongoing change makes layouts 
+and features obsolete and impairs value.” 
+
+8 
+ 
+of Korman’s application of a 65% depreciation value to “all improvements on the remainder, 
+including the gravel and fencing on the back seventeen acres of the salvage yard storage area, far 
+removed from the driveways and vehicular traffic” and argues that “there is no evidence the 
+gravel and fencing on the remaining seventeen acres suffered any loss of functionality.” 
+ 
+ 
+As to the first challenge, Korman testified that he first determined the effective 
+age of the improvements on April 11, 2013, right before the State’s taking.  He concluded that 
+“we were looking at an effective age that was between 23 and 25 years” based on “the actual age 
+of the improvements and how they were being used” and that “when you blend in all of the 
+improvements including the buildings, everything down to the gravel paving,” the overall 
+physical depreciation “was 28 percent roughly.”  Korman explained in his report that “based on 
+market participants, interviews with property owners and their representatives, and a review of 
+the site plans and documents provided by Hutson, the highest and best use remains for an auto 
+salvage facility, but at a diminished function”—in other words “functional obsolescence . . . 
+results in increased depreciation.”  He described the taking’s effect upon the improvements: 
+Due to the location of the taking the northern driveway will be relocated 
+approximately 110 feet south from its location before the taking.  The location of 
+the taking and the change in access (including the relocation of the northernmost 
+driveway which was the primary entrance for retail and truck traffic) create 
+material functionality, internal site circulation, safety, security, and operation 
+problems.  Traffic can no longer circulate from the northern driveway, pass the 
+primary building and drop-off area, and exit the southern driveway.  The primary 
+building is now isolated from the circulation pattern.  Ultimately the taking causes 
+site, circulation, and safety issues after the taking as demonstrated by the 2 
+operational options analyzed by Hutson Land Planners & Development 
+Consultants, LLC (Hutson).4 
+ 
+4  Korman considered the two cure options proposed by Hutson but concluded that these 
+options are not financially feasible.  The State does not challenge Korman’s opinion as to the 
+rejection of the cure options. 
+
+9 
+ 
+At trial, he discussed at length these issues that resulted from the taking—including those related 
+to “proximity,” “safety,” “security,” and “internal circulation”—explaining: 
+There’s circulation challenges where before you used to go in front of the office 
+and down by the dismantling area.  . . .  [Y]ou had a checkpoint there at the office.  
+You know there was security.  You have unloading challenges now.  You have 
+traffic flow issues with customers, you know -- you know, customers hitting cars 
+going left and trying to instruct trucks to go right.  . . .  [Y]ou have proximity 
+issues.  Rough numbers here, you were 70-plus feet away from the right-of-way 
+beforehand.  And now you’re roughly 45-ish feet -- 40 to 45 feet from the right-
+of-way now.  And that’s the dismantling area here, office here.  . . .  In this 
+situation, it’s not good. 
+He testified that for these reasons the “property doesn’t work the same” after the taking, the 
+depreciation “has been increased 75 percent because we believe there’s functional 
+obsolescence,” and what “the 75 percent represents is things are getting towards the end of their 
+useful life.”  Korman further explained that the “the increase from roughly 28 percent to 75 
+percent” for functional obsolescence includes “a continued risk” that the City would not provide 
+a permit if the Anderson Companies tried to fix the problems with the Property; a “risk factor 
+[of] maybe losing that 30 percent enhancement”; and “that you’re 40 percent closer to the right-
+of-way,” which “are things that the buyers and sellers are going to want to know.”  Cf. State 
+v. Little Elm Plaza, Ltd., No. 02-11-00037-CV, 2012 WL 5258695, at *12 (Tex. App.—Fort 
+Worth Oct. 25, 2012, pet. dism’d) (mem. op.) (“[A]n expert may testify about how an 
+uncertainty with regard to a governmental action may have affected the market value (in other 
+words, how potential buyers and sellers would weigh the risks related to the property) on the date 
+of the taking[.]”). 
+ 
+ 
+At trial, Korman explained that he used “the same methodology” as he did in 
+determining the depreciation before the taking, relying on the “Marshall & Swift Guide” (the 
+
+10 
+ 
+Guide) to calculate the improvement value, given the functional obsolescence the property had 
+following the taking.  Both Korman and the State’s appraiser testified that professional 
+appraisers often rely on the Guide to calculate depreciation.  Specifically, Korman testified that 
+he relied on a chart in the Guide called the “Depreciation Chart.”  The instructions for using the 
+chart in the Guide explain that “it is simply a matter of looking up the typical building life and 
+the calculated effective age.”  The “effective age” is “simply the number of years of apparent 
+age, which can be established by deducing estimated remaining life from typical life 
+expectancy.”  The depreciation percentage is then “determined by finding the typical life of the 
+building (top of the chart), the effective age (side of the chart):  the intersection of the two is the 
+depreciation percentage.”  In deposition testimony included in the record, Korman explained:  
+[W]e believe that [the taking] had a significant impact on the property, bringing it 
+closer to the end of its economic life.  And then we looked at the charts to see 
+what type of depreciation you see for properties at the end of their economic life. 
+. . .  [T]hrough the Marshall and Swift chart, yeah, at the end of the life, it’s in that 
+75 to 80 percent range as far as depreciation  . . . [and] that’s how we got there.   
+Thus, Korman “looked at what properties are depreciated at the end of their economic life, being 
+in that 75 to 80 percent range” and noted “[t]hat 75 percent is representative of 42-year-old 
+effective age building,” according to the chart.  He explained that “[p]hysically” the 
+improvements on the Remainder did not “age 21 years as a result of the State’s acquisition” but 
+“economically, it did.”  He testified that “[t]his is where the real difference is”:  “[t]he 
+depreciation [of the improvements] before was 28 percent” but after the taking “[t]hat has been 
+increased 75 percent because we believe there’s functional obsolescence” and “[w]hat that 75 
+percent represents is things are getting towards the end of their useful life.” 
+
+11 
+ 
+ 
+ 
+Korman testified that he visited the Property multiple times, that he has specific 
+experience appraising salvage yards throughout Texas, that neither he nor Harold were aware of 
+any salvage yard sales in this market area, and that salvage yards are “not a common property 
+type, not just in this marketplace but anywhere that transacts.”  In deposition testimony included 
+in the record, Korman explained that to determine the functional obsolescence value, “I went to 
+the marketplace, but, like I said, facilities that are like this, I was unable to find those types of 
+transactions of properties that function like this,” that “people don’t develop properties in the 
+manner that this one now sits,” and that “I’m not aware of there being something that I can test it 
+against.”  At the Texas Rule of Evidence 702 gatekeeper hearing, when asked whether he had 
+hard numbers that support the diminished value for functional obsolescence, Korman responded 
+that “[w]e have looked at other studies that look at other functional issues” but “[w]e just don’t 
+have any other properties like the subject that have actually traded where we can actually analyze 
+that just because that’s not the way they’re developed.”  Korman stated that he did look at other 
+appraisals that helped him determine the percentage for the functional obsolescence, but 
+he explained:  
+Well, we’ve looked at other properties that have -- I’ll kind of call it a greater 
+functional penalty that are put on them that I believe have been turned over to 
+you.  But other than that, you know, we’re looking to the Marshall evaluation 
+charts for properties that are at the end of their economic life.  . . .  There are other 
+ones that are in that range that were in that 75 to 100 percent diminution of value.  
+However, I thought the Marshall was the best guide for us for something being at 
+the end of their economic life.  So we have looked at other numbers -- 
+quantifiable numbers.  But I do feel that those were more extreme. 
+And Korman described in his deposition testimony in the record that he “was erring on the side 
+of 75 percent, which is on the low end of that range” for improvements towards the end of their 
+economic life. 
+
+12 
+ 
+ 
+ 
+Given Korman’s experience and the testimony as to the uniqueness of salvage 
+yard sales, we conclude that the trial court did not abuse its discretion in admitting his testimony, 
+including his expert opinion that the Remainder Property improvements were at the end of their 
+economic life and therefore had effectively aged economically due to functional obsolescence 
+the equivalent of physically aging 21 years as a result of the State’s acquisition.  Cf. Bombardier 
+Aerospace Corp. v. SPEP Aircraft Holdings, LLC, 572 S.W.3d 213, 227 (Tex. 2019) (“Although 
+valuation testimony in other industries may be more thorough, the aircraft appraisal industry 
+presents unique challenges in valuing specific aircraft.  . . .  We note that [the expert’s] 
+experience with aircraft alone may be a sufficient basis for his valuation, and coupled with the 
+engines’ issues, we conclude that he provided sufficient bases for his valuation opinion.”); 
+Gammill, 972 S.W.2d at 726 (holding that “[e]xperience alone may provide a sufficient basis for 
+an expert’s testimony in some cases”).  Korman identified facts and reasons as to why functional 
+obsolescence occurred and relied upon his experience and the Guide to calculate the value of that 
+functional obsolescence based upon his judgment that the improvements were at the end of their 
+economic life.  Even if Korman’s testimony could have been more thorough, the thoroughness of 
+the testimony goes to the weight of the evidence, not its admissibility.  See Bustamante v. Ponte, 
+529 S.W.3d 447, 465 (Tex. 2017) (noting experts’ “testimony could have been better” but that 
+“they did not simply state a conclusion without any explanation or ask the jurors to take their 
+word for it”); Williams, 406 S.W.3d at 284 (“Texas courts have given appraisers a wide degree 
+of latitude based on their experience when determining admissibility.”); see also Caffe Ribs, 
+487 S.W.3d at 144 (“When an expert’s opinion is predicated on a particular set of facts, those 
+facts need not be undisputed.  An expert’s opinion is only unreliable if it is contrary to actual, 
+undisputed facts.” (citations omitted)).  On this record, we conclude that the lack of a precise test 
+
+13 
+ 
+to calculate the specific 75 percent depreciation or to determine an effective age of 42 years for 
+the improvements that Korman already had determined to be at the end of their economic life did 
+not preclude the trial court from admitting Korman’s testimony.  Cf. Harris Cnty. Appraisal Dist. 
+v. Kempwood Plaza Ltd., 186 S.W.3d 155, 161 (Tex. App.—Houston [1st Dist.] 2006, no pet.) 
+(rejecting unreliability argument that expert did not “explain the math” behind adjustments 
+because although “there was no precise mathematical formulation that lead [sic] to [the expert] 
+using 15% as the rate of adjustment,” expert “did provide a rationale for the adjustments he 
+made,” precise mathematical formulation “was not required” because “[a]ppraising property is 
+not an exact science based on set mathematical formulas,” and “the lack of a mathematical 
+formula in this circumstance does not raise any suspicion of an analytical gap”). 
+ 
+ 
+A disagreement between experts as to the value and existence of depreciation is 
+part and parcel of trial, cf. Morale v. State, 557 S.W.3d 569, 574 (Tex. 2018) (per curiam) (“A 
+disagreement between experts as to the value of land after condemnation is part and parcel of 
+trial.”), and “[t]he trial court’s gatekeeping function under Rule 702 does not supplant 
+cross-examination as ‘the traditional and appropriate means of attacking shaky but admissible 
+evidence,’” Gammill, 972 S.W.2d at 728 (quoting Daubert v. Merrell Dow Pharms., Inc., 
+509 U.S. 579, 596 (1993)).  Certainly the State was entitled to, and did, cross examine Korman 
+on his assumptions and present evidence explaining to the jury why the State disagreed with 
+Korman’s opinions on functional obsolescence.  Cf. Morale, 557 S.W.3d at 574, 576 (noting that 
+“[c]ertainly the State was entitled to, and did, present evidence explaining to the jury” why 
+expert’s opinions were incorrect and that “the State was free to cross-examine [the expert] on his 
+assumptions, but [the assumptions] did not render his testimony wholly speculative and therefore 
+inadmissible”).  But it is not our province to determine whether the jury correctly weighed the 
+
+14 
+ 
+evidence.  See Gharda, 464 S.W.3d at 349 (“[W]e do not decide whether the expert’s opinions 
+are correct; rather, we determine whether the analysis used to form those opinions is reliable.”); 
+cf. Gammill, 972 S.W.2d at 728 (recognizing that “trial court’s task is sometimes a difficult one” 
+and that “the issue is a close one” before concluding that trial court did not abuse its discretion).  
+We conclude that on this record the trial court did not abuse its discretion in determining that 
+Korman’s analysis in his opinions was reliable and therefore admissible. 
+ 
+ 
+As to the State’s second challenge regarding Korman’s application of the 
+depreciation percentage for functional obsolescence to all the improvements, we also hold that 
+the trial court did not abuse its discretion in determining that Korman’s analysis was reliable.  
+The State claims that “Korman’s damage calculation included sixty-five percent depreciation for 
+functional obsolescence of all improvements on the remainder, including the gravel and fencing 
+on the back seventeen acres of the salvage yard storage area, far removed from the driveways 
+and vehicular traffic.”  At trial, Korman was asked, “So because of the State’s acquisition, the 
+value of the gravel out on the site has diminished in value from the $242,086 to $81,230?”  
+Korman responded, “Yeah.  I need to be clear.  I understand that’s the way the math works, but 
+we’re talking about the whole property scenario.  In other words, nobody comes and just buys 
+the canopy, just buys the building, just buys the gravel, for instance.  The whole property 
+diminishes.”  Accordingly, in calculating the depreciation of the improvements before the taking, 
+Korman “blend[ed] in all of the improvements including the buildings, everything down to the 
+gravel paving,” and did the same for calculating the depreciation after the taking.  As he 
+explained in his deposition testimony included in the record, the functional obsolescence is 
+because of “general functional problems that are on the subject property for being able to operate 
+the real estate the way it’s supposed to and what it was meant to do” including “because of the 
+
+15 
+ 
+right-of-way line moving closer, the drive moving to the south,” “proximity issues between the 
+building, customer interference, truck traffic interference, safety, security problems.”  Thus, his 
+testimony effectively was that the “general functional problems” affected the improvements on 
+the property as a whole and how the improvements interacted with each other as a whole.  The 
+State complains that “Korman did not explain how the gravel could function 65% less as gravel 
+due to the acquisition” and rhetorically asks, “[h]ow is land value not impacted” when “gravel is 
+impacted”?  But under the cost approach, the determination of land value is a different inquiry 
+than the determination of the value of improvements minus depreciation; it is the existing 
+structures and improvements that are depreciated, not the underlying land.  See Williams, 
+406 S.W.3d at 284 (“The first step in [the cost] approach is to determine the market value of the 
+underlying land, free of any structures, via the comparable-sales method.  That figure is then 
+added to the cost of reproducing the existing structures less their depreciation.” (citing 
+Whataburger, 60 S.W.3d at 262)).  We conclude that on this record, the trial court did not abuse 
+its discretion in allowing Korman’s expert testimony that applied the depreciation percentage to 
+all the improvements on the land. 
+ 
+ 
+Because we conclude that the trial court did not abuse its discretion in admitting 
+Korman’s expert testimony, we need not address the State’s challenges to the other experts or its 
+sufficiency challenge.  The amount of damages the jury awarded equaled the amount of damages 
+Korman calculated for compensation, which was lower than Dunn’s or Anderson’s calculated 
+amount.  Thus, even if the trial court had abused its discretion in admitting Dunn’s or Anderson’s 
+testimony, the State has not shown how the error was harmful and probably resulted in an 
+improper judgment given Korman’s admitted testimony.  See Caffe Ribs, 487 S.W.3d at 144–45.  
+And the State’s sufficiency challenge depends on the exclusion of the challenged evidence, 
+
+16 
+ 
+including Korman’s testimony.  We therefore overrule the State’s first three issues and its 
+fifth issue. 
+State’s Rebuttal Testimony 
+ 
+ 
+In the State’s remaining issue, the State challenges the trial court’s exclusion of its 
+rebuttal testimony.  Before Harold’s cross examination, the State’s counsel approached the bench 
+and requested a ruling on the Anderson Companies’ motion in limine related to the State’s ability 
+to address business revenues following the taking.  Specifically, the State’s counsel said, “I don’t 
+want to get into the specific profits.  All I want to do is ask one simple question, and that’s, Since 
+the date of value, your revenues have increased, correct?”  The trial court ruled from the bench:   
+This will be the order of the Court:  The Court finds that the request to get into or 
+ask the question that’s been proffered will be denied.  I will allow a question as to 
+whether or not the business is ongoing.  And then the Jury can determine from 
+that standpoint whatever value they want to give to that idea.  They may conclude 
+that if it’s not a viable business, it wouldn’t be ongoing five years later.  I don’t 
+think that’s -- that may relate to functionality.  You could argue that as to the 
+question that you proffered.  I will deny that. 
+The State then made an offer of proof, asking Harold, “Since the State’s acquisition, have your 
+revenues on that site actually increased?”  Harold responded affirmatively.  The Anderson 
+Companies’ counsel then asked Harold why the revenues have increased.  He responded, “we 
+really pushed the internet sales for one thing,” “we’re delivering a lot more parts,” and “the 
+economy is good right now.” 
+ 
+ 
+Generally, “Texas courts have refused to consider business income in making 
+condemnation awards.”  Central Expressway, 302 S.W.3d at 871.  But the State argues that it 
+was permitted to ask Harold a question about business revenues to rebut testimony on functional 
+obsolescence.  The State claims that the trial court abused its discretion because “the increase in 
+
+17 
+ 
+revenues shows the effect of the acquisition on the Property:  the existing, post-acquisition 
+configuration does not suffer from diminished utility, nor is it rendered less functional as a result 
+of the State’s acquisition.” 
+ 
+ 
+We need not consider whether the trial court abused its discretion in excluding the 
+question on whether business revenues increased, however, because the State has not established 
+harmful error—i.e., that the exclusion probably caused the rendition of an improper judgment.  
+See Tex. R. App. P. 44.1(a)(1); Central Expressway, 302 S.W.3d at 870.  The trial court 
+permitted a question on whether the business is ongoing.  Thus, the State would have to show 
+that evidence of increased revenues demonstrated something more than evidence that the 
+business is ongoing such that exclusion of the former probably caused the rendition of an 
+improper judgment or is “crucial to a key issue.”  Central Expressway, 302 S.W.3d at 870.  Our 
+review of the record does not reveal how the exclusion of evidence of increased revenues 
+probably caused the rendition of an improper judgment.  See id. (requiring review of record to 
+determine if excluded evidence probably resulted in rendition of improper judgment).  In the 
+offer of proof, Anderson explained that the revenues increased because the “economy is good 
+right now” and online sales have increased—factors that have minimal, if any, relevance to the 
+functionality of structures and improvements on the Property.  And the Texas Supreme Court has 
+noted that business profits are generally excluded in a condemnation award because they “are 
+speculative and often depend more upon the capital invested, general market conditions, and the 
+business skill of the person conducting it than it does on the business’s location.”  Id. at 871.  
+Thus, given that the trial court permitted a question as to whether the business was ongoing, we 
+conclude that the exclusion of additional rebuttal testimony regarding increased business 
+
+18 
+ 
+revenues did not probably cause the rendition of an improper judgment.  We overrule the State’s 
+fourth issue. 
+CONCLUSION 
+ 
+ 
+Having overruled the State’s issues on appeal, we affirm. 
+ 
+__________________________________________ 
+Melissa Goodwin, Justice 
+Before Justices Goodwin, Kelly, and Smith 
+Affirmed 
+Filed:   March 5, 2021 

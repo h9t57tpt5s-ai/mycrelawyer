@@ -1,0 +1,523 @@
+FOURTH DIVISION
+DILLARD, P. J.,
+BROWN and PADGETT, JJ.
+NOTICE: Motions for reconsideration must be
+physically received in our clerk’s office within ten
+days of the date of decision to be deemed timely filed.
+https://www.gaappeals.us/rules
+May 10, 2024
+In the Court of Appeals of Georgia
+A24A0115. WALMART STORES EAST, LP v. LEVERETTE.
+BROWN, Judge.
+Bettie Leverette sued Walmart Stores East, LP (“Walmart”), seeking damages
+for future medical expenses and past and present pain and suffering, after two
+Walmart employees moving a heavy load with a pallet jack ran into Leverette. The jury
+returned a verdict in favor of Leverette, awarding her $1,000,000 in nominal damages.
+The trial court entered judgment on the verdict, and Walmart filed a motion for new
+trial, which the trial court denied. Walmart appeals, contending that the nominal
+damages awarded were excessive as a matter of law and that Leverette’s allegedly
+improper cross-examination of Walmart’s expert tainted the jury’s verdict. For the
+reasons explained below, we affirm.
+
+The Incident
+Viewed in the light most favorable to the jury’s verdict, see Fassnacht v. Moler,
+358 Ga. App. 463 (855 SE2d 692) (2021), the evidence presented at trial showed that
+Leverette was shopping with her adult granddaughter and great-grandchildren at a
+Walmart in Covington on April 25, 2018. Leverette, who was 72 years old and suffered
+from a myriad of health issues, including chronic obstructive pulmonary disease
+(COPD), congestive heart failure, chronic kidney disease, emphysema, hypertension,
+and arthritis, was sitting in a motorized shopping cart. Two Walmart employees were
+using a manual pallet jack to move a 2,000-pound load down an aisle, with one
+employee pushing and the other pulling backward. It is undisputed that they ran into
+Leverette. The Walmart employee walking backward and pulling the pallet jack
+described the incident as follows: 
+I bumped into Ms. Leverette and I pushed back against the scorpion box
+to stop it from moving any further. Then I asked her if she was all right,
+if I had harmed her in any way. She told me she was fine, and I believe
+that’s all. I just continued on with pulling the scorpion box after she had
+moved out of the aisle. 
+
+When asked to describe the impact, the employee stated, “[v]ery light, not harsh at
+all,” and said his shoulder made contact with Leverette. The employee testified that
+as he was walking backward, he looked frequently over his shoulder to check the path,
+but he had not seen Leverette. 
+Leverette’s granddaughter was bending over and did not see the moment
+contact occurred. She asked Leverette if she was okay, and Leverette replied that she
+thought so but seemed “a little confused.” Before leaving the store, Leverette and her
+granddaughter filled out an incident report, in which Leverette stated that she had
+been “hit . . . full force in the back of [the] head and shoulder.” When asked by
+Walmart personnel whether she needed paramedics, Leverette declined. Later that
+evening, Leverette went to the emergency room for head pain and blurred vision.
+According to the treating physician at the emergency room, a head CT scan showed
+no sign of injury and he found no signs of a concussion. Leverette was discharged with
+a diagnosis of “non-specific head injury.” 
+Leverette’s Medical History Following the Incident
+Immediately following the incident, Leverette reported to her primary care
+provider, who referred her to a neurologist. One month after the incident, Leverette
+
+again presented to her primary care provider, complaining of a weeks-long, severe
+headache with blurred vision and that she “cries for no reason.” From June to July of
+2018, Leverette was in the hospital for renal failure, receiving dialysis. Leverette first
+saw a neurologist, Dr. Angela Ashley, on July 11, 2018, and was diagnosed with post-
+concussion syndrome. Shortly after, Leverette again was admitted to the hospital for
+cardiac complications. By December 2018, Leverette was reporting dizziness, loss of
+balance, lightheadedness, blurred vision, and difficulty walking with an ongoing
+headache in the back of the head. Leverette took Gabapentin and received injections
+to alleviate the headache pain, and wore Scopolamine transdermal patches to help
+with the dizziness. Leverette was hospitalized for five days in December 2018, for
+COPD and pneumonia. In January 2019, Leverette reported to her primary care
+provider that the headaches had become more frequent and more severe and that she
+had fallen twice in the last year, did not sleep much, and felt depressed. In August
+2019, Leverette reported that medication was not helping her headaches, and that she
+was continuing to experience sleep disturbance, vertigo, severe back pain, and “mood
+disturbance.” Leverette was hospitalized in November 2019, for acute COPD
+exacerbation and in January 2020, for pneumonia. In July 2020, Leverette reported
+
+to her primary care provider that her headache “pain level is 9/10” and that she was
+experiencing nausea with the headaches. A few months before the trial took place in
+2022, Leverette was admitted to the hospital for emphysema. 
+During her trial testimony, Leverette admitted that she had complained of
+headaches and neck pain prior to the incident at Walmart. Leverette’s daughter, a
+nurse, testified that after the Walmart incident, Leverette has had more severe
+headaches, gets dizzy quickly and has trouble walking, constantly complains of pain
+in her head and neck, and suffers from nausea. According to Leverette’s daughter,
+Leverette’s personality is not the same, she cries a lot, and seems depressed. 
+Leverette’s treating neurologist, Dr. Ashley, testified that her overall
+assessment is that Leverette sustained a concussion as a result of the injury at Walmart
+and developed post-concussion syndrome, meaning she is “in the very small
+percentage of patients who reach past the one[-]year mark and haven’t had complete
+recovery of their symptoms.” She further clarified that “post-concussion syndrome
+is a very specific diagnosis that means you had a concussion, your symptoms have
+been present for a prolonged period of time, and you continue to have things like
+headaches, dizziness, fatigue, problems with your mood, problems with your memory,
+
+difficulty tolerating stress, alcohol, or emotion[.]” When asked about Leverette’s
+preexisting medical conditions, Dr. Ashley testified,
+it was a slippery slope; and as a result of that [Walmart] injury and the
+medicines that she was given to treat the injury, she experienced a
+progressive decline that it would be very difficult to disentangle from
+that inciting event. . . . [S]he did have a decline in her overall health
+including complications of the problems that she already had. 
+As far as Leverette’s prognosis, Dr. Ashley testified as follows: 
+The fact that she has not made significant improvement in the entire . .
+. two years that I’ve been taking care of her, I do not believe that it is
+likely that she will get complete resolution of her headaches. I think it’s
+possible that she could get some improvement in her balance. . . . And
+the prognosis for significant cognitive recovery after two years is
+minimal. . . . [H]er current level of functioning is what we can expect
+from her here on out. 
+Dr. Sean Mahan, Leverette’s treating radiologist who reviewed MRIs of her
+brain from July 2018 and April 2019, testified that Leverette had “white spots in the
+brain [that] should not be there,” which “represent[ ] areas of brain injury.” He
+explained that “these are what they call nonspecific, meaning they could be caused by
+many things . . . [including] traumatic brain injury,” but that “this person needs to be
+
+evaluated by a clinical doctor [to] determine if the patient actually has [a] traumatic
+brain injury.” Dr. Mahan testified that the white matter lesions “are in the location
+that is commonly associated with traumatic brain injury,” and that based on the
+location of the lesions, “this patient may be manifesting symptoms that are being
+identified by other people as memory loss.” According to Dr. Mahan, “for
+[Leverette’s] age, the rest of her brain, except for these white matter lesions, is
+extremely healthy . . . [and] otherwise normal.” Dr. Mahan explained as a person ages,
+the “brain is . . . more susceptible to injury and it’s harder to heal from those
+injuries.” With regard to Leverette’s cervical MRI, Dr. Mahan noted an “acute,” as
+opposed to chronic, herniated disk pressing on Leverette’s spinal cord, indicating that
+the herniated disk had “occurred sometime recently” when the MRI was done.
+However, there was evidence of “degenerative change throughout her cervical spine
+. . . because that’s the normal aging process.” 
+The Lawsuit and Trial
+In August 2018, Leverette filed suit against Walmart,1 alleging claims of
+negligence and battery, seeking punitive damages, damages for past and present pain
+1 Leverette named other defendants in her complaint but subsequently
+dismissed them. 
+
+and suffering, medical expenses, and lost wages. Leverette later amended her
+complaint to allege negligence, negligent training and supervision, and punitive
+damages. Prior to trial, the trial court granted summary judgment in favor of Walmart
+on Leverette’s claim for punitive damages. 
+During the trial, Leverette also introduced the testimony of a life care planner,
+Sarah Lustig, admitted as an expert in nursing, rehabilitation care, and life care
+planning. Lustig testified that she formulates a plan that includes the charges for all
+of the care over the life expectancy of an individual for a particular injury. Lustig
+testified that she consulted with Leverette’s treating neurologist and collectively
+concluded that Leverette has “cognitive impairment and a need for 24/7
+supervision.” The plan formulated by the planner is only in relation to the incident
+and thus “there[ is] nothing in the plan about cardiology, neph[rology], or
+pulmonology needs.” The life care plan totaled from $2,242,896 on the lower end to
+$3,492,716 on the higher end, considering Leverette’s medication, therapy, medical
+equipment, and 24-hour attendant care, relating only to “her cognitive impairment,”
+for the estimated remainder of Leverette’s life. The planner testified that if the plan
+
+had taken into account Leverette’s “other medical conditions . . . it would be a lot
+more expensive.” 
+Walmart presented the testimony of three retained experts: (1) Dr. Matthews
+Gwynn, a neurologist, (2) Dr. Thomas Burns, a neuropsychologist, and (3) Audrey
+Cowart, a life care planner. 
+Dr. Gwynn performed an independent medical evaluation of Leverette in
+November 2019, and reviewed Leverette’s medical records, including her April 2019
+MRI, as well as video of the incident at Walmart.2 Based on the video, he concluded
+“there was very little, if any, trauma to her head from what I could tell.” With regard
+to Leverette’s MRI, Dr. Gwynn testified that Leverette’s brain looked “quite good”
+for her age with the only “abnormal” finding being “these white areas, that’s just
+signs of little bits of injury over the years from . . . not getting enough blood to that
+area[.]” He referred to it as “periventricular white matter disease” and “normal wear
+and tear.” He saw no evidence of any traumatic brain injury and concluded that
+Leverette had not sustained a concussion as a result of the Walmart incident. In
+reviewing Leverette’s cervical MRI, Dr. Gwynn saw “arthritis of the neck” but
+2 Videos of the incident also were played for the jury during the trial. 
+
+“nothing . . . convincing . . . me that there was any kind of major herniated disk . . .
+that would cause . . . severe complaints.” Dr. Gwynn also performed cognitive testing
+on Leverette in November 2019, but concluded that it was not a “valid” test because
+Leverette scored so poorly and Dr. Gwynn did not “think she was giving full effort”
+or was “[u]nderperforming.” His overall impression was that Leverette was
+“embellishing her symptomology.” 
+Dr. Burns, Walmart’s neuropsychologist, examined Leverette and testified that
+the results of the neurological testing he performed were not reliable because of
+“effort.” According to Dr. Burns, Leverette was unable to stay awake or pay attention
+so he was unable to reliably test and come to a conclusion regarding her cognitive
+impairment. Based on his review of Leverette’s medical records, he saw “a
+progression of a neurophysiological decline that was . . . present over a long period,”
+diagnosed Leverette with a cognitive disorder (not otherwise specified), and
+concluded that Leverette’s neurological decline relates to the progression of her
+medical conditions that existed regardless of the Walmart incident. When asked by
+Walmart’s counsel if he was saying that Leverette was “faking,” Dr. Burns answered
+that was not what he meant by “malingering,” but rather that “she’s ascribed most
+
+of her symptoms to what happened at Walmart when these symptoms . . . were there
+all along and have progressed.” 
+Walmart’s life care planner concluded that the life care plan prepared by Lustig
+was “unreasonable and unnecessary,” and that Lustig’s conclusion that Leverette
+needed 24-hour care, particularly related to a head injury, was unsupported by the
+medical records. She also questioned the failure of Leverette’s expert to review
+Leverette’s medical records from prior to the incident. 
+In closing, counsel for Leverette requested that the jury award her $3,679,200
+for future pain and suffering and $1,916,968 for future medical care for a total sum of
+$5,596,168 in damages. In its closing, Walmart argued:
+The law provides another remedy that you might consider, which is
+worth considering also. If you believe that [the Walmart employee]
+shouldn’t have backed into [Leverette] and if you believe that he wasn’t
+careful and if you believe that the injury was slight and not severe
+trauma, you know, with great force sufficient to cause a concussion, that
+it was just a bump, if nothing else it was an insult, then the law provides
+for what’s called nominal damages. . . . It can be $10, it can be $100, it
+could be $500, but it should not be [$]3 million. They haven’t proven
+anything beyond nominal damages. . . . Nominal damages is the only
+thing they would be entitled to, if even that. 
+
+The trial court charged the jury on nominal damages as follows:
+Damages are given as pay or compensation for injury done. When one
+party is required to pay damages to another, the law seeks to ensure that
+the damages awar[d]ed are fair to both parties. If you believe from a
+preponderance of the evidence that the plaintiff is entitled to recover,
+then you should award to plaintiff such sums as you believe are
+reasonable and just in this case. If the injury is small or mitigating
+circumstances are strong, only nominal damages are given. What would
+be the proper amount of nominal damages is a question for you to decide
+under all the facts and circumstances of the case. 
+Walmart requested that the verdict form include an option to award nominal damages.
+The trial court granted Walmart’s request over Leverette’s objection. The jury
+returned a verdict in favor of Leverette, awarding $1,000,000 in nominal damages.
+The jury did not award Leverette any damages for future medical expenses or past and
+present pain and suffering. 
+After the trial court entered judgment on the verdict, Walmart filed a motion
+for new trial. Walmart asserted that the “jury’s award of only nominal damages to the
+total exclusion of special or general damages was authorized by the evidence and
+instruction of the [c]ourt, but the amount of nominal damages of $1,000,000 was
+excessive as a matter of law and not a legal award of nominal damages.” In its
+
+amended motion, Walmart contended that the verdict was contrary to law and to the
+evidence and strongly against the weight of the evidence, and that the nominal
+damages award was legally excessive and resulted from bias, prejudice, or mistake.
+Walmart identified three “[o]ther errors during the trial [which] further induced
+prejudice, bias, or mistake on the part of the jury resulting in a legally excessive . . .
+award”: the admission of the opinions and life care plan offered by Lustig; the trial
+court’s exclusion of evidence concerning the business relationship of Dr. Ashley with
+Leverette’s counsel and a settlement advance company; and Leverette’s improper
+examination of Walmart’s expert, Dr. Gwynn. 
+While the trial court’s order addressed two of the three errors asserted by
+Walmart as evidence of bias, prejudice, or mistake on the part of the jury, the court’s
+order did not specifically address Walmart’s argument regarding the cross-
+examination of Dr. Gwynn. Its order states, “In this case, the [c]ourt finds that the
+record does not justify the inference that the verdict of the jury was the result of
+prejudice, bias, or gross mistake.” The order goes on to state:
+The verdict in this case was not contrary to the evidence or to the
+principles of justice and equity. The verdict in this case was not against
+the weight of evidence. No basis exists to warrant a new trial, on the
+
+grounds of excessive verdict, or on any of the “other special grounds”
+recognized by Georgia common law. 
+1. Walmart contends that the jury’s award of $1,000,000 in nominal damages
+is excessive as a matter of law and should be set aside. We disagree.
+“The question of damages is ordinarily one for the jury; and the court should
+not interfere with the jury’s verdict unless the damages awarded by the jury are clearly
+so inadequate or so excessive as to be inconsistent with the preponderance of the
+evidence in the case.” OCGA § 51-12-12 (a). 
+The focus of OCGA § 51-12-12, under which the award is being
+reviewed, is to allow the trial court to interfere with a jury verdict in two
+opposite situations — where the award is so inadequate or so excessive
+as to be contrary to the preponderance of the evidence. An excessive or
+inadequate verdict is a mistake of fact rather than of law and addresses
+itself to the discretion of the trial judge who, like the jury, saw the
+witnesses and heard the testimony.
+(Citations, punctuation and emphasis omitted.) Kohl v. Tirado, 256 Ga. App. 681, 682
+(1) (569 SE2d 576) (2002). See also Rockdale Hosp. v. Evans, 306 Ga. 847, 851 (2) (a)
+(834 SE2d 77) (2019) (“[b]y its plain text, OCGA § 51-12-12 pertains only to the
+discretion of the trial court . . . to review an award and to determine whether the
+
+damages awarded were within the range authorized by a preponderance of the
+evidence”). “In reviewing a trial court’s denial of a motion for new trial based on an
+excessive damages argument, we determine only whether the trial court abused its
+discretion.” Cavin v. Powell, 276 Ga. App. 60, 61 (1) (622 SE2d 415) (2005). See also
+Rockdale, 306 Ga. at 851-852 (2) (b) (“While trial courts have discretionary powers to
+set aside verdicts based on an analysis of the evidence they observed as described in
+OCGA § 51-12-12, appellate review is confined to the question of whether the trial
+court abused its discretion in deciding the motion for new trial on this ground.”).
+“The general rule on appeal of an award of damages is that a jury’s award cannot be
+successfully attacked so as to warrant a new trial unless it is so flagrantly excessive or
+inadequate, in light of the evidence, as to create a clear implication of bias, prejudice,
+or gross mistake on the part of the jurors.” (Citation and punctuation omitted.) Booker
+v. Older Americans Council of Middle Ga., 278 Ga. App. 407, 411 (4) (629 SE2d 69)
+(2006). See Rockdale, 306 Ga. at 852 (2) (b) (“a verdict that is so excessive or
+inadequate as to be irrational and thus the apparent result of jury bias, prejudice, or
+corruption has long been considered subject to appellate correction”). Thus, even if
+the evidence presented at trial would authorize a greater or lesser award than that
+
+actually made, we will not disturb the award “unless it is so flagrant as to shock the
+conscience. Moreover, the trial court’s approval of the verdict creates a presumption
+of correctness that will not be disturbed absent compelling evidence.”Booker, 278 Ga.
+App. at 411 (4).
+“Nominal damages are a form of ‘general damages,’ a term which refers to
+those which the law presumes to flow from a tortious act.” (Citation, punctuation and
+emphasis omitted.) Cotto Law Group v. Benevidez, 362 Ga. App. 850, 856 (1) (b) (iv)
+(870 SE2d 472) (2022). See also OCGA § 51-12-4 (“Damages are given as
+compensation for injury. . . . If an injury is small or the mitigating circumstances are
+strong, nominal damages only are given.”).
+[C]ase law makes clear nominal damages are awarded: (1) where no
+actual damage flows from the injury; or (2) where the violation of a right
+is shown, substantial damages claimed, and some actual loss proved, and
+yet the damages are not susceptible of reasonable certainty of proof as to
+their extent.
+ (Citation and punctuation omitted.) King v. Brock, 282 Ga. 56, 57 (646 SE2d 206)
+(2007).
+[I]n Georgia, the term “nominal damages” is purely relative, and carries
+with it no suggestion of certainty as to amount. Instead of being
+
+restricted to a very small amount, the sum awarded as nominal damages
+may, according to circumstances, vary almost indefinitely.
+(Citations and punctuation omitted.) First Fed.Sav. & Loan Assn. of Atlanta v. White,
+168 Ga. App. 516 (3) (309 SE2d 858) (1983). See also Brock v. King, 279 Ga. App. 335,
+344 (629 SE2d 829) (2006) (“‘nominal’ does not necessarily mean ‘small’”).
+According to our Supreme Court, “[i]n some cases, a very small amount might
+constitute the trivial sum contemplated by the term ‘nominal damages’; in others, a
+much larger amount might measure down to the same standard of triviality. It would
+depend largely upon the vastness of the amount involved what sum would be
+considered trivial.” Sellers v. Mann, 113 Ga. 643, 644 (39 SE 11) (1901). “Where
+nominal damages are authorized, the proper amount of the award is the prerogative
+of the trier of fact, whose determination is not to be disturbed on appeal, except in
+extreme cases.” (Citations and punctuation omitted.) Benevidez, 362 Ga. App. at 857
+(1) (b) (iv). It is well established that “even though a verdict for nominal damages may
+be apparently large in its amount, it cannot be set aside simply because the amount is
+large, absent evidence of prejudice or bias in any incident at trial or a mistake on the
+part of the jury.” Wright v. Wilcox, 262 Ga. App. 659, 663 (2) (586 SE2d 364) (2003)
+
+(an award of $22,000 in nominal damages not excessive as a matter of law). See also
+MTW Inv. Co. v. Alcovy Properties, 273 Ga. App. 830, 832 (1) (616 SE2d 166) (2005)
+(refusing to set aside jury’s award of $625,000 in nominal damages where appellant
+argued solely that the “excessive amount” justified this Court’s intervention);
+Atlantic Coast Line R. Co. v. Stephens, 14 Ga. App. 173 (80 SE 516) (1914); Western
+Union Tel. Co. v. Glenn, 8 Ga. App. 168 (68 SE 881) (1910). See also SIS, LLC v.
+Stoneridge Software, No. 21-13567, 2023 WL 164067, at *8 (III) (B)-(C) (11th Cir.
+2023) (rejecting appellant’s argument that $85,000 award of nominal damages failed
+to meet the “‘standard of triviality required by Georgia law’”).
+Given the conflicting expert testimony in this case as well as the evidence
+regarding the interplay of Leverette’s many preexisting conditions and her symptoms
+following the incident, the jury could have concluded that Leverette had proved
+“some actual loss” but that “the damages are not susceptible of reasonable certainty
+of proof as to their extent.”3 White, 168 Ga. App. at 516 (3) (“a recovery may be
+3 Walmart asserts that Leverette “never sought nominal damages on that
+theory, and the trial court never instructed the jury on it.” According to Walmart, the
+trial court’s instructions on nominal damages only permitted a nominal damages
+award if the jury determined that the injury was small or mitigating circumstances
+were strong. The trial court gave the pattern jury charge on nominal damages, which
+tracks the language of OCGA § 51-12-4. See Georgia Suggested Pattern Jury
+
+classified as coming under the definition of nominal damages where the violation of
+a right is shown, substantial damages claimed, and some actual loss proved, and yet
+the damages are not susceptible of reasonable certainty of proof as to their extent”)
+(citation and punctuation omitted). See also Miller & Meier & Assocs. v. Diedrich, 174
+Ga. App. 249, 254 (3) (329 SE2d 918) (1985) (“A plaintiff may recover nominal
+damages not only where his actual damages are minute, but also where he has not
+proved his actual damages by a preponderance of the evidence to the satisfaction of
+the jury.”), reversed in part on other grounds, Diedrich v. Miller & Meier & Assocs.,
+Architects & Planners, 254 Ga. 734 (334 SE2d 308) (1985); Duckworth v. Collier, 164
+Ga. App. 139, 140-141 (3) (296 SE2d 640) (1982) (affirming nominal damages award
+where the violation of a right is shown, substantial damages claimed, some actual loss
+proved, and “yet the damages are not susceptible of reasonable certainty of proof as
+to their extent”). As to the amount, Leverette sought $5,596,168 in damages and the
+jury awarded her $1,000,000 — less than one-fifth of the amount requested. See
+Instructions - Civil, 66.010 Tort Damages; Generally; Nominal Damages. See also
+Bond v. Davis, 194 Ga. App. 379, 380 (2) (390 SE2d 627) (1990). We have found
+nothing in our law requiring a party to elect a theory of nominal damages under which
+to proceed or to procure an additional jury charge separate from the pattern charge on
+nominal damages. 
+
+Miller, 174 Ga. App. at 254 (3), n.6. (“Georgia applies a test of relativity rather than
+limiting [nominal damages] to a trivial sum.”). “The [c]ourt below, did not think the
+damages excessive. And the [c]ourt trying the case, must ever receive more light on
+the question of excessive damages, than it can impart to any other [c]ourt. Considering
+all of the circumstances in this case, we do not find the trial court erred in declining
+to find the verdict excessive.” (Citation and punctuation omitted.) Smith, 247 Ga. at
+372 (3).
+Walmart contends that this Court’s decision in Fowler’s Holdings v. CLP Family
+Investments, 318 Ga. App. 73, 74 (1) (a) (732 SE2d 777) (2012), establishes that the size
+alone of a “large verdict” can establish excessiveness without any showing of bias,
+prejudice, or mistake, and controls in the instant case. In Fowler’s, we concluded that
+“[a]n award of nominal damages in the amount of $120,000 in a case in which actual
+damages amounted at most to five times that amount is neither absolutely nor
+relatively trivial,” and that “an award of nominal damages amounting to
+approximately one-fifth of an amount of total damages claimed, the latter not itself
+trivial, cannot meet the ‘standard of triviality’ set out in longstanding Georgia law.”
+Id. at 74-75 (1) (a).
+
+As already stated, “nominal damages” are “purely relative,” and depend on
+the circumstances of the case, and Fowler’s presented a different set of circumstances.
+First, it was a breach of contract case, not a personal injury tort suit. Cf. Western Union
+Telegraph Co., 8 Ga. App. at 169 (noting “there is a wide difference between the mere
+breach of a contract and a tort” in the context of excessiveness of a nominal damages
+award). See also OCGA § 13-6-6 (“In every case of breach of contract the injured
+party has a right to damages, but if there has been no actual damage, the injured party
+may recover nominal damages sufficient to cover the costs of bringing the action.”).
+But see Travelers Property Cas. Co. of America v. SRM Group, 348 Ga. App. 136, 140-
+141 (1) (b) (820 SE2d 261) (2018) (refusing to set aside award of $57,858 in nominal
+damages for breach of contract “simply because the amount is large”), reversed in
+part on other grounds, SRM Group v. Travelers Property Cas. Co., 308 Ga. 404 (841
+SE2d 729) (2020). More importantly, Fowler’s was not reviewing a jury verdict, but
+rather an award of nominal damages following a bench trial. Thus, the nominal
+damages award in Fowler’s did not enjoy the “presumption of correctness” created
+by a trial court’s approval of a jury verdict pursuant to OCGA § 51-12-12 (a). Booker,
+278 Ga. App. at 411 (4). See Rockdale, 306 Ga. at 852 (2) (b) (“the threshold for an
+
+appellate court to set aside a jury verdict approved by the trial court under OCGA §
+51-12-12 (a) is ‘extremely high’”) (citation omitted). Finally, this Court’s holding in
+Fowler’s was based on the fact that “[a]lthough the trial court found that ‘the damages
+suffered by [the plaintiff] are not trivial but are substantial,’ it awarded $120,000 as
+nominal rather than actual damages.” 318 Ga. App. at 73 (1) (a). For these reasons,
+Fowler’s does not control here. 
+2. While Walmart asserts that the unprecedented size of the award alone based
+on Fowler’s suffices to show that it resulted from jury bias, prejudice, or mistake, it
+also contends that Leverette’s “irrelevant, highly prejudicial cross-examination of
+Walmart’s expert added still further . . . force to the conclusion that . . . the nominal
+damages award was induced by bias, prejudice, or mistake.” Again, we disagree. 
+Walmart retained Dr. Gwynn to perform an independent medical examination
+of Leverette. Leverette was permitted to play the following testimony from Dr.
+Gwynn’s deposition for the jury over Walmart’s objection:
+[Leverette’s Counsel:] Now I want to talk to you about your prior work
+with Walmart. We discussed this in your prior deposition, the 2006 case
+of [Jane Doe] versus Walmart?
+[Dr. Gwynn:] Right.
+
+[Leverette’s Counsel:] Yeah. And you recall me asking about this case in
+your last deposition; right?
+[Dr. Gwynn:] I do. I reviewed that recently, last night.
+[Leverette’s Counsel:] Okay. So you still have that deposition transcript,
+don’t you? 
+[Dr. Gwynn:] Yes.
+[Leverette’s Counsel:] Okay. Now, a lady was shot in the breast at
+Walmart, and Walmart hired you to examine her; right?
+[Objection by Walmart’s counsel.]
+[Dr. Gwynn:] I believe that the attorneys who represented Walmart . . .
+asked me to review her — to do an [independent medical examination]
+on her, with her, just as I did with Ms. Leverette.
+[Leverette’s Counsel:] Right. Okay. And you concluded that the lady
+who was shot in her breast was exaggerating her symptoms; right?
+[Dr. Gwynn:] I don’t remember the — the final things about the case
+because I don’t have the report, but — and I haven’t reviewed it lately,
+ever since really that the case happened, and — but I think I did say that.
+[Leverette’s Counsel:] Okay. And during your medical exam of her, you
+went to touch her breast and she winced?
+[Dr. Gwynn:] I think — 
+[Leverette’s Counsel:] And based on that, you concluded that she was
+exaggerating her pain symptoms; right?
+[Dr. Gwynn:] I don’t — I don’t remember the case precisely, but I don’t
+think it was just that. I think there were other things, too. But as I said,
+I haven’t reviewed that case in a long time.
+
+[Leverette’s Counsel:] Okay. If you were shot in a sensitive part of your
+body, do you think you might wince if someone tried to touch you there?
+[Objection by Walmart’s counsel.]
+[Dr. Gwynn:] Well, it depends. If a — if a wound is well healed . . . and
+there’s nothing wrong with it anymore, then maybe yes, maybe no. 
+Walmart objected on the basis that the testimony was irrelevant, prejudicial, and
+lacked a proper foundation. Walmart also argued that it could be viewed as suggesting
+sexual impropriety on the part of Dr. Gwynn. Leverette’s counsel asserted that the
+purpose of the testimony was “to attack the bias and the methodology of this expert
+. . . by showing he’s used these similar improper techniques . . . when being paid by
+Walmart.” The trial court overruled the objection and admitted the evidence. 
+During opening statements, counsel for Leverette stated to the jury: 
+Walmart’s experts, Dr. Burns and Dr. Gwynn, they are going to say
+Bettie isn’t really hurt. But you’re going to hear about Dr. Gwynn and
+how he’s worked for Walmart in the past. You’re going to hear about a
+case from 2006 where a lady was shot at a Walmart and Dr. Gwynn was
+hired to examine her. She was shot in the breast. And at this medical
+exam, Dr. Gwynn went to grab her breast and she winced. Based on that,
+he concluded she wasn’t really hurt. 
+
+Walmart did not object. Leverette’s counsel subsequently reiterated in closing
+argument:
+Walmart brought you a doctor . . . who was hired by Walmart in the past
+when a lady was shot at a Walmart, and he accused her of exaggerating
+her pain when he tried to grab her breast and she winced because he tried
+to grab her breast. Dr. Gwynn is accusing [Leverette] of the same thing,
+embellishing. 
+Again, Walmart did not object to this argument.
+On appeal, Walmart does not assert that it is entitled to a new trial based on the
+admission of this evidence and/or improper argument by Leverette’s counsel. Instead,
+Walmart contends, as it did below, that this line of questioning along with counsel’s
+argument “insinuate[ed] that Dr. Gwynn had committed sexual impropriety in his
+examination of another patient in an unrelated case[, demonstrating] why the jury’s
+exorbitant nominal damage award was the result of bias, prejudice, or mistake[.]” 
+Our Supreme Court has explained that 
+witnesses’ compensation may be relevant and admissible to show bias
+under [OCGA §§ 24-4-401, 24-4-402, and 24-6-622], or for other
+permissible purposes, depending on the facts of the case. But . . . such
+evidence, like other evidence, may be excluded if its probative value is
+
+substantially outweighed by the danger of unfair prejudice, under
+[OCGA § 24-4-403].
+(Punctuation and emphasis omitted.) Chrysler Group v. Walden, 303 Ga. 358, 371 (II)
+(B) (812 SE2d 244) (2018). OCGA § 24-6-6224
+is a “holdover” from Georgia’s old Evidence Code with no federal
+counterpart, [and thus we] look . . . to Georgia cases decided under the
+former version of that rule — OCGA § 24-9-68 — for guidance. In
+Chrysler, [our Supreme Court] looked to cases decided under former
+OCGA § 24-9-68 and determined that proper applications of this rule of
+evidence included the ability to question an opposing party’s expert
+witness about how often he had been hired by the counsel in the case and
+how much he had been paid[.]
+(Citation and punctuation omitted.) Merritt v. State, 311 Ga. 875, 880 (3) (a) (i) (860
+SE2d 455) (2021). See Whitner v. State, 276 Ga. 742, 745 (4) (584 SE2d 247) (2003)
+(“cross-examination of [defense expert] concerning the number of times he has been
+hired by defense counsel and how much he was paid was appropriate to show that the
+objectivity of the witness may have been clouded”), disapproved on other grounds,
+4 This Code section provides: “The state of a witness’s feelings towards the
+parties and the witness’s relationship to the parties may always be proved for the
+consideration of the jury.”
+
+Ledford v. State, 289 Ga. 70 (709 SE2d 239) (2011). Finally, the “control of the nature
+and scope of cross-examination of a witness is a matter within the sound discretion of
+the trial court.” (Citation and punctuation omitted.) Hillman v. ALDI, 349 Ga. App.
+432, 440 (1) (825 SE2d 870) (2019).
+In light of the admissibility of a witness’ compensation and other like evidence,5
+we do not see this as “evidence of prejudice or bias . . . on the part of the jury” in its
+award of nominal damages. Wright, 262 Ga. App. at 663 (2). And, to the extent we can
+consider the unobjected-to argument by Leverette’s counsel — an issue we do not
+today decide — we conclude that it does not rise to the level of showing that the jury’s
+verdict, in light of the totality of the evidence presented at trial, was the product of
+bias, prejudice, or mistake.
+Judgment affirmed. Dillard, P. J., and Padgett, J., concur.
+5 In this vein, the trial court charged the jury: “When a witness is being paid for
+reviewing and testifying concerning the evidence, you may consider the possibility of
+bias and should view with caution the testimony of such witness where court
+testimony is given with regularity and represents a significant portion of the witness’s
+income.” 

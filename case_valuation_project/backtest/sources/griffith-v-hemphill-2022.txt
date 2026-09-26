@@ -1,0 +1,480 @@
+Notice:  This opinion is subject to correction before publication in the PACIFIC REPORTER. 
+Readers are requested to bring errors to the attention of the Clerk of the Appellate Courts,
+303 K Street, Anchorage, Alaska 99501, phone (907) 264-0608, fax (907) 264-0878, email
+corrections@akcourts.gov.
+THE SUPREME COURT OF THE STATE OF ALASKA
+DAVID GRIFFITH,
+Appellant,
+v.
+ROGER HEMPHILL and DONALD
+DAVIS,
+Appellees.
+)
+)
+)
+)
+)
+)
+)
+)
+)
+)
+)
+Supreme Court No. S-18041
+Superior Court No. 3AN-19-04477 CI
+O P I N I O N
+No. 7634 – December 16, 2022
+Appeal from the Superior Court of the State of Alaska, Third
+Judicial District, Anchorage, Andrew Guidi, Judge.
+Appearances:  David Griffith, pro se, Eagle River, Appellant. 
+Kendra E. Bowman, Jermain, Dunnagan & Owens,
+Anchorage, for Appellees.
+Before:  Winfree, Chief Justice, Maassen, Carney,
+Borghesan, and Henderson, Justices.
+BORGHESAN, Justice.
+I.
+INTRODUCTION
+A landlord leased a commercial building to two tenants who operated an
+automotive repair business on the property.  The landlord refused to adhere to provisions
+in the lease requiring him to maintain and repair the property and to cover the property
+insurance, so the tenants paid for the property insurance and for substantial repairs that
+
+were needed after the roof failed.  The landlord initiated a forcible entry and detainer
+action after the tenants held over at the end of the lease term; the tenants counterclaimed
+for breach of contract.  After trial, the superior court ruled that the landlord had breached
+the lease and awarded the tenants damages.  The superior court also awarded the tenants
+attorney’s fees.
+The landowner appeals, arguing that (1) the tenants did not file their
+counterclaim within the applicable statute of limitations, (2) the evidence did not support
+the damages award, and (3) the attorney’s fees award was an abuse of discretion.  Seeing
+no error, we affirm the superior court’s decisions.
+II.
+FACTS AND PROCEEDINGS
+A.
+Facts
+In November 2008 David Griffith entered into an agreement with Roger
+Hemphill and Donald Davis to lease a commercial building that Griffith owned.  In a
+separate agreement, Griffith sold his automotive repair business to Hemphill and Davis,
+who operated the business out of the leased property.
+The lease was for a ten-year term.  Among other things, the lease required
+Griffith to “maintain a policy of fire and other casualty insurance upon the premises” and
+to “maintain the premises . . . in reasonable good order and condition.”  It gave Hemphill
+and Davis the option, at the end of the lease term, to hold over under specified terms or
+to purchase the property for fair market value.
+In 2010 the roof of the building began leaking water, damaging Hemphill
+and Davis’s tire balancer.  Hemphill and Davis asked Griffith to repair the roof and pay
+for the balancer.  Griffith refused to pay for the roof repair or balancer replacement and
+told them the roof only needed a patch, which they could perform themselves.  The
+record does not indicate whether Hemphill and Davis performed this repair, but their
+attorney represented at trial that they did, and Griffith did not contradict that assertion. 
+In 2016 Hemphill and Davis discovered that the roof had failed in several
+places due to water accumulation; two scuppers1 had not been maintained, causing a
+clog.  In either August or November of that year, the parties met to discuss the damage
+and repairs.  At that meeting Hemphill and Davis maintained that the lease required
+Griffith to repair the damage.  Griffith refused to repair the damage and claimed the lease
+was “fraudulent,” threatening Hemphill and Davis with eviction, revocation of their
+option to purchase, and a lawsuit.  Hemphill and Davis eventually repaired the damage
+themselves.
+In November 2018 — the last month of their lease term — Hemphill and
+Davis sent written notice to Griffith attempting to exercise their option to purchase. 
+Griffith did not sell the property to Hemphill and Davis.  After the lease term expired,
+Hemphill and Davis held over on the property.  Griffith then brought a forcible entry and
+detainer (FED) action against Hemphill and Davis in district court in January 2019. 
+Hemphill and Davis ended their holdover in April 2019 and vacated the property.
+B.
+Proceedings
+1.
+Pleadings and offer of judgment
+Griffith’s complaint sought to evict Hemphill and Davis from the property
+and claimed $25,000 in damages due to the roof failure.  In February 2019 Hemphill and
+Davis answered the complaint, alleging that Griffith had breached the lease by refusing
+to maintain and repair the property and by refusing to honor their option to purchase. 
+Hemphill and Davis counterclaimed for over $100,000 in damages, pursuing claims of
+breach of contract, breach of the implied covenant of good faith and fair dealing, unjust
+enrichment, and specific performance.  The case was then removed to superior court. 
+1
+A “scupper” is an opening that permits water to run off from a roof. 
+Scupper, WEBSTER’S NEW WORLD DICTIONARY (2nd coll. ed. 1976).
+In April 2019 — less than a month after the parties agreed to exchange
+initial disclosures2 — Hemphill and Davis served Griffith with an offer of judgment
+pursuant to Alaska Civil Rule 68.3  Hemphill and Davis offered judgment to be entered
+in their favor in the amount of $20,000, “inclusive of costs, attorney’s fees, and interest,
+and in complete satisfaction of all claims asserted by all parties.”  Griffith did not
+respond to the offer of judgment.
+Griffith amended his complaint for FED to add three other claims: 
+fraudulent misrepresentation, promissory estoppel, and breach of implied-in-fact
+contract.  Griffith alleged that the written lease was fraudulent and that the parties had
+instead negotiated and followed an oral implied-in-fact “triple-net lease” requiring
+Hemphill and Davis to maintain the property and to pay for Griffith’s property taxes and
+insurance.4 
+2
+See Alaska R. Civ. P. 26(a)(1) (requiring parties to provide certain
+information to other parties “without awaiting a discovery request”).
+3
+See Alaska R. Civ. P. 68(a) (“At any time more than 10 days before the trial
+begins, either the party making a claim or the party defending against a claim may serve
+upon the adverse party an offer to allow judgment to be entered in complete satisfaction
+of the claim for the money or property or to the effect specified in the offer, with costs
+then accrued.  The offer may not be revoked in the 10 day period following service of
+the offer.  If within 10 days after service of the offer the adverse party serves written
+notice that the offer is accepted, either party may then file the offer and notice of
+acceptance together with proof of service, and the clerk shall enter judgment.”); Alaska
+R. Civ. P. 68(b)(1) (“[I]f the offer was served no later than 60 days after the date
+established in the pretrial order for initial disclosures required by Civil Rule 26, the
+offeree shall pay 75 percent of the offeror’s reasonable actual attorney’s fees.”).
+4
+See Lease:  net-net-net lease, BLACK’S LAW DICTIONARY (11th ed. 2019)
+(defining triple-net lease as “[a] lease in which the lessee pays all the expenses, including
+mortgage interest and amortization, leaving the lessor with an amount free of all
+claims”).
+2.
+Summary judgment order
+Griffith moved for summary judgment on Hemphill and Davis’s specific
+performance counterclaim.  Hemphill and Davis moved for voluntary dismissal of that
+claim, which the superior court granted.  Griffith proceeded to move for summary
+judgment on Hemphill and Davis’s breach of contract counterclaim, asserting a statute
+of limitations defense.  Hemphill and Davis then moved for summary judgment on their
+counterclaims and on Griffith’s claims. 
+In June 2020 the superior court issued an order on the parties’ cross-
+motions for summary judgment.  The court summarized its rulings as follows:
+(1) The alleged oral [triple-net] agreement is invalid under
+the Statute of Frauds.[5]
+(2) The 2008 written contract is enforceable but there are
+genuine issues of material fact as to whether certain key
+terms of the contract were modified [by] the parties’ course
+of dealing or subsequent agreements . . . .
+(3) There is an issue of fact as to whether the defendants
+waived the provision in the signed contract that requires the
+lessor to pay for maintenance and repairs.
+(4) There is an issue of fact as to whether the defendants
+attempted to perform the option pursuant to the contract
+terms.
+(5) There is an issue of fact as to whether the defendants were
+capable of exercising the option to purchase.
+The court’s order did not contain a ruling on Griffith’s statute of limitations defense. 
+5
+Alaska’s statute of frauds provides that a lease agreement for a period
+longer than one year is not enforceable unless the agreement is in writing. 
+AS 09.25.011(a)(6).
+3.
+Superior court’s findings and conclusions
+After a two-day bench trial at which Hemphill, Davis, and Griffith each
+testified, the superior court entered its findings and conclusions on the record.  The court
+made findings pertaining to the parties’ credibility, including that “the more reliable
+reporters in this case, with respect to the facts and circumstances and transactions, were
+Mr. Davis and Mr. Hemphill.”  The court added that Hemphill provided “the most
+accurate account” of the late 2016 meeting between the parties regarding repairs after the
+roof failure. 
+The court rejected Griffith’s argument that an oral triple-net lease modified
+the written contract, reiterating its ruling on summary judgment that any oral agreement
+between the parties was unenforceable due to the statute of frauds.  The court similarly
+rejected Griffith’s argument that the parties followed an implied-in-fact triple-net lease
+after signing the written contract, explaining that the parties’ actions were generally
+consistent with the terms of the written contract with respect to allocating costs.  The
+court also ruled that the affirmative defenses of waiver and promissory estoppel did not
+bar Hemphill and Davis’s breach of contract counterclaim, because waiver had not been
+“expressed in clear and uncertain terms” and because Griffith had not detrimentally
+relied on any promise made by Hemphill and Davis.
+The court determined that the lease required Griffith to pay for property
+insurance and found, based on Hemphill’s testimony, that Hemphill and Davis could
+recover the $1,173 they paid for that insurance in 2016 and the $243 they paid in 2017. 
+The court also determined that the lease required Griffith to maintain the property and
+that he was responsible for the repair costs associated with the 2016 roof failure.  The
+court found, again based on Hemphill’s testimony, that the roof failure had forced
+Hemphill and Davis to incur $6,500 in costs to repair an exterior wall and $11,450 to
+paint and perform miscellaneous repairs.  Citing the statute of limitations applicable to
+contract actions,6 the court limited damages to claims accruing within the three years
+prior to when Hemphill and Davis filed their counterclaims.  The court awarded
+Hemphill and Davis a total of $19,330 in damages.7
+The court dismissed Hemphill and Davis’s breach of contract claim
+involving the option to purchase, finding that they had not properly exercised the option. 
+Likewise, the court dismissed Hemphill and Davis’s claim for breach of the covenant of
+good faith and fair dealing.  The court also dismissed Griffith’s FED claim, explaining
+that Hemphill and Davis “had a right to remain holdover tenants for a limited reasonable
+period of time” and had not abused that right.  The court also dismissed Griffith’s unjust
+enrichment claim.
+4.
+Award of attorney’s fees
+The superior court awarded $59,604.75 in attorney’s fees to Hemphill and
+Davis under Civil Rule 68.  The court explained that the award was based on Griffith’s
+failure to “beat” Hemphill and Davis’s Rule 68 offer of judgment.8  The court entered
+6
+AS 09.10.053.
+7
+The superior court found at trial that Hemphill and Davis incurred $19,366
+in damages but awarded them $19,330 in its order entering final judgment.  The parties
+do not raise this minor discrepancy in their briefing, so it is waived and we do not
+address it.
+8
+Alaska R. Civ. P. 68(b) provides that “[i]f the judgment finally rendered by
+the court is at least 5 percent less favorable to the offeree than the offer [of judgment],
+. . . the offeree, whether the party making the claim or defending against the claim, shall
+pay all costs as allowed under the Civil Rules and shall pay reasonable actual attorney’s
+fees incurred by the offeror from the date the offer was made.”  The fees owed are
+calculated according to a schedule of percentages that varies according to the point in
+litigation at which the offer was made.
+final judgment in favor of Hemphill and Davis in the amount of $85,895.62, accounting
+for the damages award, prejudgment interest on the damages award, attorney’s fees, and
+costs.
+Griffith moved for reconsideration of the court’s findings and conclusions,
+which the superior court denied.  Griffith appeals.
+III.
+DISCUSSION
+A.
+The Superior Court Did Not Err By Ruling That Hemphill And
+Davis’s Breach Of Contract Claim Was Timely.
+The superior court ruled that Griffith had breached the lease by failing to
+pay for property insurance and by failing to maintain and repair the property.  The court
+awarded damages only for claims that had accrued within the three-year statute of
+limitations for contract actions:9  (1) the property insurance premiums that Hemphill and
+Davis paid in 2016 and 2017 and (2) damages flowing from the 2016 roof failure.
+Griffith appeals the denial of his statute of limitations defense.10  He argues
+9
+AS 09.10.053 (“Unless the action is commenced within three years, a
+person may not bring an action upon a contract or liability, express or implied, except
+as provided in AS 09.10.040, or as otherwise provided by law, or, except if the
+provisions of this section are waived by contract.”); see also Gefre v. Davis Wright
+Tremaine, LLP, 306 P.3d 1264, 1272 (Alaska 2013).
+10
+Griffith makes two procedural arguments related to this point.  First, he
+argues that the superior court “ignored” an earlier order in which Griffith claims the
+court “barred/dismissed [Hemphill and Davis’s] claim of breach of contract based on the
+statute of limitations.”  But the order Griffith references did not address the statute of
+limitations, let alone rule in his favor on that issue.  Instead, that order provided that the
+alleged oral triple-net lease was invalid under the Statute of Frauds and that the written
+lease was enforceable.  Second, Griffith argues that when the court rejected his statute
+of limitations defense at trial, it claimed to have already issued an order denying
+summary judgment on that ground, but never actually did so.  Although the appellate
+record and CourtView support Griffith’s assertion that the superior court did not issue
+(continued...)
+that Hemphill and Davis’s February 2019 counterclaim for damages based on Griffith’s
+failure to maintain and repair the property was untimely filed.  Griffith maintains that the
+limitations period for this claim began running in 2010, when he refused to repair the
+leaking roof or to compensate Hemphill and Davis for the resulting damage to their tire
+balancer.  We review de novo the legal standard used to determine the date on which a
+claim accrues and whether the applicable statute of limitations bars the claim.11
+Regardless of whether Griffith breached the lease’s covenant to maintain
+and repair the premises in 2010 when the roof leaked, a distinct cause of action accrued
+when clogged scuppers led the roof to fail in an unrelated incident six years later. 
+Contracts can contain promises that, although phrased as a single obligation, “provide
+for more than one performance by a promisor.”12  In this event “the nonperformance of
+each thing promised is a separate breach of contract” giving rise to a separate cause of
+action.13  Griffith’s promise to “maintain the premises” was such a promise.  Each time
+10
+(...continued)
+the order it referenced, this apparent procedural mistake is not relevant to our de novo
+review of whether the statute of limitations bars Hemphill and Davis’s counterclaim. 
+11
+Taffe v. First Nat’l Bank of Alaska, 450 P.3d 239, 243 n.14 (Alaska 2019)
+(quoting Gefre, 306 P.3d at 1271).
+12
+23 WILLISTON ON CONTRACTS § 63:13 (4th ed. May 2022 update) (listing
+covenant to repair in a lease as an example of a “single” promise that can effectively be
+multiple promises giving rise to multiple claims for breach).
+13
+Id.; see also Bibo v. Jeffrey’s Rest., 770 P.2d 290, 294 (Alaska 1989)
+(holding that each excessive payment made by corporation’s controlling shareholders to
+bookkeeping service in which controlling shareholders had majority interest was
+“separate wrongful act” for which plaintiffs could seek damages); Hanson v. Kake Tribal
+Corp., 939 P.2d 1320, 1325 (Alaska 1997) (holding that separate cause of action for
+breach of contract accrued with each unlawful payment made by corporation to favored
+shareholders, rejecting corporation’s argument that single cause of action accrues “when
+(continued...)
+the building needed a repair to keep the premises in good working order, Griffith was
+required to perform the repair.  Each time he failed to perform such a repair, he breached
+the contract anew, giving rise to a new cause of action.14  Griffith’s failure to maintain
+the scuppers or repair the resulting roof damage in 2016 was therefore a new breach
+giving rise to a new claim even if he had previously breached his repair obligations in
+2010.
+Griffith’s statute of limitations defense rested solely on the theory that
+Hemphill and Davis’s claim arose in 2010.  He never argued, either in the superior court
+or on appeal, that their claim was untimely because they were on notice of the 2016 roof
+failure or its cause more than three years before filing suit in 2019.15  Therefore Griffith
+has waived any such argument,16 and we affirm the superior court’s ruling that Hemphill
+13
+(...continued)
+the plaintiffs could have first maintained the action to a successful conclusion”).
+14
+Although Griffith does not challenge the damages attributable to his failure
+to maintain insurance on the property, we observe that his repeated failures to pay for
+property insurance are also separate breaches, with a new cause of action accruing each
+time Griffith failed to make the recurring payment.
+15
+See Gefre, 306 P.3d at 1273-74 (noting that claim generally accrues when
+the plaintiff “suffers the harm giving rise to it” but that when an element of the claim “is
+not immediately apparent” the common-law discovery rule may toll accrual of the
+claim); Hitt v. J.B. Coghill, Inc., 641 P.2d 211, 212 (Alaska 1982) (“Reliance on a statute
+of limitations is ordinarily an affirmative defense which must be pleaded and proved by
+the defendant.”).
+16
+See Wright v. Anding, 390 P.3d 1162, 1175 (Alaska 2017) (“[A]s a general
+matter, issues not briefed . . . are considered waived.” (quoting Shearer v. Mundt, 36
+P.3d 1196, 1199 (Alaska 2001))); Alex H. v. State, Dep’t of Health & Soc. Servs., Off.
+of Child.’s Servs., 389 P.3d 35, 46-47 (Alaska 2017) (“Where a party has failed to
+sufficiently raise an issue [in the superior court] we generally consider that argument
+waived.”); see also Barbara P. v. State, Dep’t of Health & Soc. Servs., 234 P.3d 1245,
+(continued...)
+and Davis’s breach of contract claim was timely filed.17
+B.
+The Superior Court Did Not Clearly Err By Awarding Hemphill And
+Davis $19,330 In Damages For Breach Of Contract.
+The superior court awarded $19,330 in damages to Hemphill and Davis,
+relying primarily on Hemphill’s trial testimony describing the costs he and Davis
+incurred from the roof failure and from paying property insurance in 2016 and 2017. 
+Griffith argues that Hemphill and Davis should have been precluded from offering this
+testimony and that it does not suffice to prove damages because it is not documentary
+evidence.  Neither argument has merit.
+Griffith first argues that Hemphill and Davis violated Alaska Civil
+Rule 26(a)(1)(G)18 by refusing to disclose evidence supporting a $19,330 damages
+award.  Griffith appears to contend that in light of this allegedly unjustified failure to
+disclose, the superior court should not have permitted Hemphill to testify on damages or
+awarded Hemphill and Davis damages based on this testimony.
+Griffith waived this argument by retracting it in the superior court.  The
+16
+(...continued)
+1258 (Alaska 2010) (holding that father’s failure to challenge ruling on appeal that child
+was in need of aid based on continuing drug addiction was “sufficient . . . to affirm the
+ruling”).
+17
+Although the record does not indicate precisely when Hemphill and Davis
+paid the 2016 and 2017 property insurance premiums, we affirm the superior court’s
+ruling that these damages fall within the three-year statute of limitations because, as
+noted above, Griffith does not challenge this aspect of the damages award.
+18
+Alaska R. Civ. P. 26(a)(1)(G) requires a party to describe in its initial
+disclosures “all categories of damages claimed . . . and a computation of each category
+of special damages, making available for inspection and copying as under Rule 34 the
+documents or other evidentiary material, not privileged or protected from disclosure, on
+which such claims are based, including materials bearing on the nature and extent of
+injuries suffered.”
+remedy for an unjustified failure to disclose information required by Rule 26 is exclusion
+of that information as evidence.19  Griffith filed a pretrial motion in limine to exclude
+certain evidence that he alleged Hemphill and Davis improperly withheld.  But Griffith
+later asked to withdraw this motion, explaining that he wished to use some of this
+evidence in presenting his case.  The superior court granted Griffith’s request to
+withdraw his motion to exclude; it does not appear that Griffith ever renewed the motion. 
+Griffith cannot now renew this argument on appeal.20
+Griffith next takes issue with the lack of “documentation” proving breach
+of contract damages.  He appears to argue that Hemphill’s oral testimony was insufficient
+to prove the amount of these damages.  Whether evidence is specific enough to support
+an economic damages award is a question of law that we review de novo.21  We review
+the superior court’s damages award for clear error, which exists “when[,] ‘after a
+thorough review of the record, we come to a definite and firm conviction that a mistake
+19
+Alaska R. Civ. P. 37(c)(1) (“A party that without substantial justification
+fails to disclose information required by Rules 26(a), 26(e)(1), or 26.1(b) shall not,
+unless such failure is harmless, be permitted to use as evidence at a trial, at a hearing, or
+on a motion any witness or information not so disclosed.”).
+20
+Cf. Wendt v. Bank of N.Y. Mellon Tr. Co., 487 P.3d 235, 240 (Alaska 2021)
+(“Arguments raised for the first time on appeal are generally waived . . . .”) (citing
+Adkins v. Collens, 444 P.3d 187, 195 (Alaska 2019)); Taylor v. Johnston, 985 P.2d 460,
+467 (Alaska 1999) (“To preserve a claim based on a superior court’s failure to rule on
+a motion, a party must make every effort to request and obtain a ruling before proceeding
+to trial.”); Roderer v. Dash, 233 P.3d 1101, 1107 n.13 (Alaska 2010) (holding that
+appellant did not waive argument despite attempting to withdraw motion for summary
+judgment and failing to renew it because superior court did not grant withdrawal of
+motion and appellant later renewed “the underlying argument” in motion for judgment
+notwithstanding the verdict).
+21
+See Cent. Bering Sea Fishermen’s Ass’n v. Anderson, 54 P.3d 271, 277
+(Alaska 2002). 
+has been made.’ ”22 
+Hemphill’s 
+testimony 
+supported 
+the 
+amount 
+of 
+the 
+award. 
+Hemphill — who was familiar with the business’s finances — testified that he and Davis
+spent $6,500 to repair the wall that had suffered water damage from the roof failure. 
+Hemphill also testified that he and Davis spent $11,450 in painting costs to finish those
+repairs, itemizing the costs of wood trim, supplies, paint, a paint sprayer, scaffolding, and
+labor.  Finally, Hemphill testified that he and Davis paid $1,173 for property insurance
+in 2016 and $242 in 2017.  Griffith did not present any evidence refuting the amount of
+these damages, choosing instead to focus on Hemphill and Davis’s failure to show
+receipts proving the expenses they incurred.
+Plaintiffs in a contract suit are not required to present documentary
+evidence to substantiate their damages.  Rather, the testimony of a single witness is
+enough to give the fact-finder a “reasonable basis upon which to calculate the amount
+of damages . . . ‘[o]nce actual damages are shown and there is a reasonable basis for
+computing an award.’ ”23  Hemphill’s specific testimony, which the superior court found
+credible, was a legally sufficient basis for the superior court to compute the damages
+award.  Giving due deference to the superior court’s “opportunity to judge the
+[witnesses’] credibility,” as we must when findings are largely dependent on oral
+22
+Burton v. Fountainhead Dev., Inc., 393 P.3d 387, 393 (Alaska 2017)
+(quoting Laybourn v. City of Wasilla, 362 P.3d 447, 453 (Alaska 2015)), as amended on
+reh’g (May 9, 2017).  
+23
+Conam Alaska v. Bell Lavalin, Inc., 842 P.2d 148, 154 n.10 (Alaska 1992)
+(quoting City of Whittier v. Whittier Fuel & Marine Corp., 577 P.2d 216, 224 (Alaska
+1978), disapproved on other grounds by Native Alaskan Reclamation & Pest Control,
+Inc. v. United Bank Alaska, 685 P.2d 1211 (Alaska 1984)).
+testimony, we conclude the amount of damages awarded was not clearly erroneous.24 
+C.
+The Superior Court Did Not Err By Awarding Hemphill And Davis
+Attorney’s Fees Under Civil Rule 68.
+The superior court granted Hemphill and Davis’s motion for $59,604.75
+in attorney’s fees, representing 75% of their claimed total reasonable attorney’s fees. 
+The court explained that Griffith failed to “beat” Hemphill and Davis’s Rule 68 offer of
+judgment totaling $20,000, inclusive of costs and interest.  The court also determined
+that Hemphill and Davis were the prevailing parties.25  The court entered final judgment
+in favor of Hemphill and Davis in the amount of $85,895.62.
+Griffith takes issue with the superior court’s prevailing party determination,
+arguing that the superior court abused its discretion by determining that Hemphill and
+Davis were the prevailing parties and arguing that Griffith, instead, is the prevailing
+party.  But Griffith’s focus on prevailing party status is beside the point.  Although the
+superior court determined that Hemphill and Davis were the prevailing parties for
+purposes of Alaska Civil Rule 82, the court ultimately awarded Hemphill and Davis
+attorney’s fees under Rule 68, not Rule 82.  Because prevailing party status did not
+influence the superior court’s Rule 68 attorney’s fees award,26 we need not review the
+superior court’s prevailing party determination.
+24
+See Kilmer v. Dillingham City Sch. Dist., 932 P.2d 757, 764 (Alaska 1997)
+(“When the trial judge’s decision is dependent largely upon oral testimony of the
+witnesses seen and heard by the court, this court must give due regard to the trial judge’s
+opportunity to judge the credibility of those witnesses.”).
+25
+See Alaska R. Civ. P. 82(a) (“Except as otherwise provided by law or
+agreed to by the parties, the prevailing party in a civil case shall be awarded attorney’s
+fees calculated under this rule.”).
+26
+See Alaska R. Civ. P. 68(c) (“A party who receives attorney’s fees under
+this rule may not also receive attorney’s fees under Civil Rule 82.”).
+The superior court did not err by awarding Hemphill and Davis attorney’s
+fees under Rule 68 because Griffith did not beat their $20,000 offer of judgment.27 
+“When a party declines an offer of judgment and then fares worse at trial than under the
+offer, Rule 68 allows the offering party to claim post-offer costs and attorney’s fees.”28 
+“To determine whether an offeree beat an offer of judgment, courts . . . [should] begin
+with the jury award and add prejudgment interest and costs incurred prior to the offer of
+judgment.  This sum is compared with the offer of judgment.”29  If the sum is “at least
+5 percent less favorable to the offeree than the offer,” the offeree is on the hook for Rule
+68 attorney’s fees.30
+One of Hemphill and Davis’s attorneys submitted an affidavit with their
+motion for attorney’s fees which calculated the damages award plus prejudgment interest
+and costs at $21,647.94.  Griffith did not challenge these calculations in the superior
+court.  Based on the unchallenged calculations of Hemphill and Davis’s attorney, the
+total judgement exceeded the offer of judgement by more than 5%.  Therefore Rule 68(b)
+required the superior court to grant Hemphill and Davis’s motion for attorney’s fees and
+costs.  Because Hemphill and Davis served their offer within 60 days of the parties’
+exchange of initial disclosures, their motion properly requested — and the superior court
+properly awarded — 75% of their total reasonable attorney’s fees incurred after the date
+27
+We review de novo whether a party beat a Rule 68 offer of judgment.  See
+Whittenton v. Peter Pan Seafoods, Inc., 421 P.3d  1133, 1135-36, 1138 (Alaska 2017);
+Andrus v. Lena, 975 P.2d 54, 57-58 (Alaska 1999).
+28
+Thomann v. Fouse, 93 P.3d 1048, 1050 (Alaska 2004).
+29
+Whittenton, 421 P.3d at 1138 (footnote omitted).
+30
+Alaska R. Civ. P. 68(b). 
+of the offer.31  We see no error in this award of attorney’s fees.
+IV.
+CONCLUSION
+We AFFIRM the judgment of the superior court.
+31
+See Alaska R. Civ. P. 68(b)(1).

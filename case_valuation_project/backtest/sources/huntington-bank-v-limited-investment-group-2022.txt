@@ -1,0 +1,1176 @@
+[Cite as Ltd. Invest. Group Corp. v. Huntington Natl. Bank, 2022-Ohio-3657.] 
+ 
+IN THE COURT OF APPEALS OF OHIO 
+ 
+TENTH APPELLATE DISTRICT 
+ 
+ 
+Limited Investment Group Corp., 
+: 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+Plaintiff-Appellant, 
+: 
+ 
+ 
+ 
+ 
+ 
+ 
+No. 21AP-61 
+v. 
+ 
+: 
+ 
+ 
+(C.P.C. No. 10CV-3000) 
+ 
+Huntington National Bank et al., 
+: 
+ 
+    (REGULAR CALENDAR) 
+ 
+ 
+Defendant-Appellee. 
+: 
+ 
+Franklin County Treasurer 
+: 
+[Cheryl Brooks Sullivan], 
+ 
+ 
+: 
+ 
+Plaintiff-Appellee, 
+ 
+ 
+: 
+ 
+ 
+ 
+No. 21AP-62 
+v. 
+ 
+ 
+ 
+    
+(C.P.C. No. 12CV-1454) 
+ 
+ 
+: 
+Limited Investment Group Corp. et al., 
+ 
+  
+   (REGULAR CALENDAR) 
+ 
+ 
+: 
+ 
+Defendant-Appellant. 
+ 
+ 
+: 
+Huntington National Bank, 
+ 
+ 
+: 
+ 
+Plaintiff-Appellee, 
+ 
+ 
+: 
+ 
+ 
+ 
+No. 21AP-63 
+v. 
+ 
+ 
+ 
+    
+(C.P.C. No. 12CV-1602) 
+ 
+ 
+: 
+Limited Investment Group Corp. et al., 
+ 
+ 
+   (REGULAR CALENDAR) 
+ 
+ 
+: 
+ 
+Defendant-Appellant. 
+ 
+ 
+: 
+Huntington National Bank, 
+ 
+ 
+: 
+ 
+Plaintiff-Appellee, 
+ 
+ 
+: 
+ 
+ 
+ 
+No. 21AP-64 
+v. 
+ 
+ 
+ 
+ 
+(C.P.C. No. 12CV-6175) 
+ 
+ 
+: 
+Limited Investment Group Corp. et al., 
+ 
+ 
+   (REGULAR CALENDAR) 
+ 
+ 
+: 
+ 
+Defendant-Appellant. 
+ 
+ 
+: 
+ 
+
+Nos. 21AP-61, 21AP-62, 21AP-63 and 21AP-64        
+2 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+D  E  C  I  S  I  O  N 
+ 
+Rendered on October 13, 2022 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+On brief:  Timothy J. Ryan; Kevin R. Nose; and Kevin E. 
+Humphreys, for appellant.  Argued:  Kevin E. Humphreys. 
+ 
+On brief:  Dinsmore & Shohl, LLP, William M. Mattes, 
+Katherine A. Rasmussen, and Justin M. Burns, for appellee 
+The Huntington National Bank.  Argued:  William M. 
+Mattes. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+APPEALS from the Franklin County Court of Common Pleas 
+ 
+KLATT, J. 
+{¶ 1} Appellant, The Limited Investment Group Corporation, appeals a judgment 
+of the Franklin County Court of Common Pleas in favor of appellee, The Huntington 
+National Bank.  For the following reasons, we affirm that judgment. 
+{¶ 2} In 2003, Ashraf Ettayem formed Limited to acquire and rehabilitate 
+commercial properties in Columbus, Ohio.  Ettayem was the president and sole shareholder 
+of Limited.  In 2005, Limited purchased a shopping center located at 3150 Allegheny 
+Avenue for approximately $400,000.  When Limited purchased the shopping center, four 
+tenants occupied it.  By 2007, only one remaining tenant rented 1,000 square feet of the 
+27,000 square feet of available space. 
+{¶ 3} In January 2008, Ettayem requested that Huntington extend a loan to 
+Limited for the purpose of rehabilitating and remodeling the Allegheny shopping center.  
+Huntington agreed to loan Limited $900,000.  On October 1, 2008, the parties executed 
+the loan documents.  Those documents included:  (1) a Business Loan Agreement; (2) a 
+Promissory Note in the original amount of $900,000; (3) Open-End Mortgages on the 
+Allegheny shopping center, and on a second property Limited owned, 329 South Central 
+Avenue; (4) a Disbursement Request and Authorization; and (5) an Agreement to Provide 
+Insurance. 
+
+Nos. 21AP-61, 21AP-62, 21AP-63 and 21AP-64        
+3 
+ 
+ 
+{¶ 4} The Promissory Note stated that it "evidence[d] a straight line of credit."  
+(Limited's Ex. 20.)  Although the principal amount of the loan was $900,000, Limited did 
+not have to request the disbursal of the entire $900,000.  The Promissory Note only 
+obligated Limited to repay "so much [of the principal amount] as may be outstanding, 
+together with interest on the unpaid principal balance of each advance."  Id. 
+{¶ 5} The Business Loan Agreement contemplated both initial and subsequent 
+advances of loan funds.  Each request for the advancement of funds had to satisfy the 
+conditions precedent contained in the Business Loan Agreement.  The conditions precedent 
+included the requirement that Limited provide Huntington specified documents, such as 
+security agreements and financing statements, as well as the requirement that Limited 
+provide "such other resolutions, authorizations, documents and instruments as Lender or 
+its counsel, may require." (Limited's Ex. 19.)     
+{¶ 6} After the signing of the loan documents, Huntington immediately disbursed 
+approximately $535,000 of loan funds.  The disbursed funds paid off a promissory note, 
+which was secured by a mortgage encumbering the Allegheny property; a second 
+promissory note, which was secured by a mortgage encumbering the Central Avenue 
+property; a line of credit with another bank; and credit card debt.  Because the principal 
+amount of the loan was $900,000, approximately $365,000 remained available to Limited 
+for the rehabilitation of the Allegheny shopping center.   
+{¶ 7} In November 2008, Ettayem sent Huntington loan officer Travis Sanders a 
+copy of a work proposal for the rehabilitation of the Allegheny shopping center in the 
+amount of $146,910.  Ettayem requested the disbursement of loan proceeds in the amount 
+of the proposal.  Sanders, however, informed Ettayem that Limited would have to submit 
+certain forms in order to receive a disbursement of funds for the rehabilitation of the 
+property.  Sanders had given Ettayem copies of the necessary forms on October 1, 2008 
+when the parties signed the loan documents.   
+{¶ 8} The required forms consisted of documents entitled "Application and 
+Certificate for Payment" and "Continuation Sheet,"1 as well as a mechanic's lien waiver 
+form.  (Huntington's Ex. U.)  The AIA forms allow a contractor to apply for partial payment 
+ 
+1  The American Institute of Architects ("AIA") created both of these forms, and the AIA designates them 
+"AIA Document G702" and "AIA Document G703."  We will refer to them as the "AIA forms."   
+
+Nos. 21AP-61, 21AP-62, 21AP-63 and 21AP-64        
+4 
+ 
+ 
+after completion of a phase of work by providing evidence of the percentage of 
+rehabilitation work completed.  Huntington required the mechanic's lien waiver form to 
+ensure that no mechanic's liens would affect the bank's collateral.   
+{¶ 9} Sanders told Ettayem that Huntington only disbursed funds based upon 
+rehabilitation work completed in phases throughout the project.  Consequently, 
+Huntington refused to advance to Limited $146,910 based solely upon a contractor's work 
+proposal. 
+{¶ 10} The Promissory Note established a draw period during which Limited could 
+request the disbursement of loan proceeds from Huntington.  Specifically, the Promissory 
+Note provided, "Draw period.  The proceeds of the loan evidenced hereby may be 
+advanced in partial amounts during the term hereof and prior to maturity, and no partial 
+advance shall be made after March 28, 2009."  (Emphasis sic.) (Limited's Ex. 20.)  Limited 
+never submitted to Huntington the necessary forms for an advance for rehabilitation work 
+prior to the expiration of the draw period on March 28, 2009.  Huntington, therefore, did 
+not disburse to Limited any funds for the rehabilitation of the Allegheny shopping center. 
+{¶ 11} The terms of the Promissory Note required Limited to begin making monthly 
+payments of both principal and interest beginning on April 28, 2009.  Limited made the 
+required payments for three months.  In July 2009, Ettayem attended a meeting with 
+Sanders and another Huntington representative.  The Huntington employees told Ettayem 
+that Huntington would not extend the draw period or disburse the remaining loan 
+proceeds.  After that meeting, Limited began submitting interest-only loan payments to 
+Huntington. 
+{¶ 12} Due to Limited's noncompliance with its payment obligations, Huntington 
+sent Limited monthly invoices reflecting a past due balance.  Huntington also transferred 
+responsibility for oversight of the loan to Scott Rudawsky in Huntington's Special Assets 
+Division in early October 2009.  Shortly after receiving oversight responsibility for 
+Limited's loan, Rudawsky discovered that a fire had significantly damaged the Allegheny 
+shopping center on or about May 6, 2009.  As a result of the fire, Ettayem had received an 
+insurance proceeds check from State Auto Insurance in the amount of $139,861.82 made 
+payable to Limited and Huntington.  In October 2009, Ettayem delivered that check to a 
+
+Nos. 21AP-61, 21AP-62, 21AP-63 and 21AP-64        
+5 
+ 
+ 
+local Huntington branch, and Rudawsky learned about the fire after the check landed on 
+his desk. 
+{¶ 13} Huntington had difficulties communicating with Ettayem concerning the fire 
+and the endorsement of the check.  Ultimately, Huntington endorsed the check on its own 
+behalf and as attorney in fact for Limited.  Huntington then applied the insurance proceeds 
+to Limited's outstanding indebtedness and reduced the principal amount due and owing on 
+the loan.   
+{¶ 14} On February 10, 2010, after Limited had failed to properly pay on the loan for 
+eight months, Huntington sought a cognovit judgment against Limited in case No. 10 CV 
+2264 in the Franklin County Court of Common Pleas.  The trial court granted Huntington 
+a cognovit judgment in the amount of $381,190.59, plus interest, late fees and charges, and 
+attorney fees, on February 17, 2010. 
+{¶ 15} On February 25, 2010, Limited filed suit against Huntington for breach of 
+contract, fraud, and conversion in case No. 10 CV 3000.  Limited alleged that Huntington: 
+(1) breached the loan documents by failing to disburse the totality of the loan funds, 
+(2) misrepresented that it would disburse the entire loan amount when it never intended to 
+do so, and (3) converted the $139,861.82 insurance proceeds check. 
+{¶ 16} At the same time it filed its complaint, Limited moved for a preliminary 
+injunction ordering Huntington to give Limited the fire insurance proceeds.  While the trial 
+court did not grant Limited the exact relief it sought, the trial court decided the motion in 
+Limited's favor.  In a judgment dated December 19, 2011, the trial court ordered Huntington 
+to deposit $139,851.822 with the Franklin County Clerk of Courts until the court could 
+resolve who the money belonged to. 
+{¶ 17} On February 6, 2012, the Franklin County Treasurer filed a foreclosure action 
+against Limited in case No. 12 CV 1454 with regard to the Allegheny property.  The 
+complaint named Huntington as a defendant.  Huntington filed a cross-claim against 
+Limited that also sought foreclosure and, in addition, asked for the appointment of a 
+ 
+2  This amount was $10 less than the amount of the insurance proceeds check but, apparently, no party 
+alerted the trial court to this discrepancy. 
+ 
+
+Nos. 21AP-61, 21AP-62, 21AP-63 and 21AP-64        
+6 
+ 
+ 
+receiver.3  The trial court appointed a receiver for the Allegheny property on February 26, 
+2012. 
+{¶ 18} On February 8, 2012, Huntington filed a foreclosure action against Limited 
+in case No. 12 CV 1602 with regard to the Central Avenue property.  Again, Huntington 
+requested a receiver.  The trial court appointed a receiver for the Central Avenue property 
+on February 15, 2012.  With the trial court's approval, the receiver sold the Central Avenue 
+property on August 29, 2012.  The receiver deposited the proceeds of the sale, $109,859.36, 
+into his escrow account.4 
+{¶ 19} On Limited's motion, the trial court consolidated Limited's action against 
+Huntington (No. 10 CV 3000) with the two foreclosure actions (case Nos. 12 CV 1454 and 
+12 CV 1602).  The consolidated case also included case No. 12 CV 6175, a creditor's bill 
+action Huntington filed against Limited to reach Limited's interest in a check in the amount 
+of $40,440.07 issued by State Auto Insurance as a result of the fire.  
+{¶ 20} On August 30, 2012, Limited moved to vacate the cognovit judgment granted 
+against it in case No. 10 CV 2264.  The trial court granted the motion because the attorney 
+confessing judgment failed to present the original warrant of attorney to the court at the 
+time the attorney made the confession pursuant to R.C. 2323.13(A).  After vacating the 
+February 17, 2010 judgment, the trial court granted the attorney confessing judgment 14 
+days to produce the original warrant of attorney.  The attorney complied with the trial 
+court's order.  Consequently, on February 27, 2013, the trial court granted Huntington a 
+cognovit judgment in the amount of $521,052.41, plus interest, late fees and charges, and 
+attorney fees.  The amount of damages owed increased from $381,190.59 to $521,052.41 
+because Huntington had to pay to the Franklin County Clerk of Courts the fire insurance 
+proceeds originally applied to the loan balance. 
+{¶ 21} The trial court tried the consolidated cases in a bench trial in late January 
+2017.  In the findings of fact and conclusions of law issued on November 13, 2017, the trial 
+ 
+3  On January 20, 2017, the treasurer voluntarily dismissed his complaint, leaving Huntington's cross-claim 
+pending. 
+ 
+4  In July 2017, the receiver admitted to the trial court that he had unlawfully removed funds from his escrow 
+account and loaned them to another individual.  The trial court found both the receiver and the borrower 
+of the funds in contempt of court and ordered them to repay the funds.  On the trial court's orders, they 
+deposited a total of $149,503.38 with the Franklin County Clerk of Courts.  
+
+Nos. 21AP-61, 21AP-62, 21AP-63 and 21AP-64        
+7 
+ 
+ 
+court awarded judgment in Huntington's favor in each of the four actions before it.  The 
+trial court further found that Huntington was entitled to reasonable attorney's fees under 
+the Promissory Note, but did not determine the amount of fees due.  Additionally, the trial 
+court concluded that Limited could not collaterally attack the cognovit judgment entered 
+in case No. 10 CV 2264, and that Huntington was "entitled to recover the full amount of the 
+Cognovit Note in the amount of $1,374,413.88 (interest per diem $97.69733)."  (Nov. 13, 
+2017 Findings of Fact and Conclusions of Law at ¶ 267.)     
+{¶ 22} Ultimately, the trial court awarded Huntington $928,593.73 in attorney's 
+fees and expenses.  Moreover, on June 4, 2020, the trial court issued an order confirming 
+the sale of the Allegheny property and distributing the proceeds of that sale. 
+{¶ 23} Limited now appeals to this court, and it assigns the following errors: 
+[1.]  THE TRIAL COURT ERRED IN ITS WHOLESALE 
+ADOPTION 
+OF 
+THE 
+268 
+PARAGRAPHS 
+OF 
+[HUNTINGTON]'S PROPOSED FINDINGS OF FACT AND 
+CONCLUSIONS OF LAW. 
+ 
+[2.]  THE TRIAL COURT ERRED IN THE INTERPRETATION 
+OF THE PARTIES' BUSINESS LOAN AGREEMENT. 
+ 
+[3.]  THE 
+TRIAL 
+COURT 
+ERRED 
+BY 
+EXCLUDING 
+EVIDENCE 
+AT 
+TRIAL 
+OF 
+THE 
+TERMS 
+WITHIN 
+[HUNTINGTON]'S CONSTRUCTION LOAN AGREEMENT 
+AND CONSTRUCTION MORTGAGE. 
+ 
+[4.]  THE TRIAL COURT ERRED IN ITS CONCLUSIONS 
+REGARDING 
+THE 
+EFFECT 
+OF 
+[HUNTINGTON]'S 
+COGNOVIT JUDGMENT. 
+ 
+[5.]  THE TRIAL COURT ERRED IN ENTERING JUDGMENT 
+IN 
+FAVOR 
+OF 
+[HUNTINGTON] 
+RATHER 
+THAN 
+AWARDING JUDGMENT AND DAMAGES IN FAVOR OF 
+[LIMITED] AGAINST [HUNTINGTON]. 
+ 
+{¶ 24} We will begin our analysis with Limited's second assignment of error.  By that 
+assignment of error, Limited argues that the trial court erred in interpreting the loan 
+documents to condition the disbursement of advances for rehabilitation work on the 
+submittal of forms specified by Huntington.  We disagree. 
+{¶ 25} The interpretation of a written contract is a matter of law that a court reviews 
+de novo.  Saunders v. Mortensen, 101 Ohio St.3d 86, 2004-Ohio-24, ¶ 9.  When confronted 
+
+Nos. 21AP-61, 21AP-62, 21AP-63 and 21AP-64        
+8 
+ 
+ 
+with a question of contractual interpretation, a court's principal objective is to ascertain and 
+give effect to the intent of the parties.  Hamilton Ins. Servs., Inc. v. Nationwide Ins. Cos., 
+86 Ohio St.3d 270, 273 (1999).  "The intent of the parties to a contract is presumed to reside 
+in the language they chose to employ in the agreement."  Kelly v. Med. Life Ins. Co., 31 Ohio 
+St.3d 130 (1987), paragraph one of the syllabus.  When that language is clear, a court may 
+look no further than the writing itself to find the intent of the parties.  Sunoco, Inc. (R&M) 
+v. Toledo Edison Co., 129 Ohio St.3d 397, 2011-Ohio-2720, ¶ 37.  However, when that 
+language is ambiguous, a court may consider extrinsic evidence to ascertain the parties' 
+intent.  Westfield Ins. Co. v. Galatis, 100 Ohio St.3d 216, 2003-Ohio-5849, ¶ 12. 
+{¶ 26} Whether contractual language is clear or ambiguous is a question of law for 
+the court.  Nationwide Life Ins. Co. v. Canton, 10th Dist. No. 09AP-939, 2010-Ohio-4088, 
+¶ 20.  In answering that question, a court restricts its review to the four corners of the 
+contract.  Id.  Contractual language is ambiguous if a court cannot determine its meaning 
+from the four corners of the contract, or if the language is susceptible of two or more 
+reasonable interpretations.  Covington v. Lucia, 151 Ohio App.3d 409, 2003-Ohio-346, ¶ 18 
+(10th Dist.).  Once a court finds ambiguity in a contract, a finder of fact generally undertakes 
+the role of resolving that ambiguity.  Galatis at ¶ 13.    
+{¶ 27} Courts interpret writings executed as part of the same transaction as a whole, 
+and gather the intent of each part from consideration of the whole.  Foster Wheeler 
+Enviresponse v. Franklin Cty. Convention Facilities Auth., 78 Ohio St.3d 353, 361 (1997).  
+Here, consequently, we must consider any relevant provisions of the Business Loan 
+Agreement, the Promissory Note, the Allegheny Open-End Mortgage, and the 
+Disbursement Request and Authorization. 
+{¶ 28} To determine whether the loan documents conditioned advances for 
+rehabilitation work on the receipt of certain forms, the trial court looked to the section of 
+the Business Loan Agreement entitled "Conditions Precedent to Each Advance."  
+(Emphasis and capitalization omitted.) (Limited's Ex. 19.)  That section provided: 
+CONDITIONS PRECEDENT TO EACH ADVANCE.  
+Lender's obligation to make the initial Advance and each 
+subsequent Advance under this Agreement shall be subject to 
+the fulfillment to Lender's satisfaction of all the conditions set 
+forth in this Agreement and in the Related Documents. 
+ 
+
+Nos. 21AP-61, 21AP-62, 21AP-63 and 21AP-64        
+9 
+ 
+ 
+* * * 
+ 
+* * * Borrower shall have provided such other 
+resolutions, 
+authorizations, 
+documents 
+and 
+instruments as Lender or its counsel, may require. 
+(Emphasis sic.)  Id.   
+{¶ 29} The trial court concluded that, based on this clear and unambiguous 
+language, Limited was only entitled to advances to pay for rehabilitation work if it first 
+submitted the documentation required by Huntington.  On appeal, Limited asserts no 
+argument attacking this interpretation of the contractual language.  We concur with the 
+trial court's conclusion that the provision at issue unambiguously conditions advances on 
+the submittal of documentation required by Huntington. 
+{¶ 30} While the contractual provision at issue allows Huntington to require certain 
+documents before disbursing loan funds for rehabilitation work, the provision does not 
+specify what documents Huntington required of Limited.  The provision, therefore, is 
+ambiguous on that point.  Consequently, the trial court could turn to extrinsic evidence to 
+determine the type of documents Huntington required from Limited before it would 
+advance loan funds to pay for rehabilitation work. 
+{¶ 31} Extrinsic evidence a trial court may consider in determining the meaning of 
+ambiguous contract language can include:  " '(1) the circumstances surrounding the parties 
+at the time the contract was made, (2) the objectives the parties intended to accomplish by 
+entering into the contract, and (3) any acts by the parties that demonstrate the construction 
+they gave to their agreement.' "  Lutz v. Chesapeake Appalachia, L.L.C., 148 Ohio St.3d 524, 
+2016-Ohio-7549, ¶ 9, quoting United States Fid. & Guar. Co. v. St. Elizabeth Med. Ctr., 129 
+Ohio App.3d 45, 56 (2d Dist.1998).  A trial court's interpretation of ambiguous contractual 
+language will not be overturned absent an abuse of discretion.  Campbell v. 1 Spring, LLC, 
+10th Dist. No. 19AP-368, 2020-Ohio-3190, ¶ 9. 
+{¶ 32} Here, Huntington loan officer Travis Sanders testified that the documents 
+Huntington required under the contractual provision at issue included the AIA forms and 
+a mechanic's lien waiver form.  Sanders testified that he gave Limited president Ashraf 
+Ettayem copies of these documents on October 1, 2008 when the parties executed the loan 
+documents.  Sanders also testified that, in November 2008, when Ettayem sought a 
+disbursal of loan funds to make a deposit for rehabilitation work, Sanders "reiterate[d] 
+
+Nos. 21AP-61, 21AP-62, 21AP-63 and 21AP-64        
+10 
+ 
+ 
+[Huntington's] position to [Limited] * * *, that [Limited] needed to have the AIA documents 
+filled out and work completed."  (Tr. at 327.)  Based upon this evidence, we conclude that 
+the trial court did not abuse its discretion in finding that the contractual provision at issue 
+conditioned advances of loan funds for the payment of rehabilitation work on the submittal 
+of completed AIA forms and a mechanic's lien waiver form. 
+{¶ 33} Limited ignores the "Conditions Precedent to Each Advance" section of the 
+Business Loan Agreement in favor of concentrating on a different loan document—the 
+Disbursement Request and Authorization.  Limited focuses on a section of that document 
+that reads: 
+DISBURSEMENT 
+INSTRUCTIONS. 
+Borrower 
+understands that no loan proceeds will be disbursed until all of 
+Lender's conditions for making the loan have been satisfied.  
+Please disburse the loan proceeds of $900,000 as follows: 
+ 
+Undisbursed Funds: 
+ 
+$900,000 
+_____________ 
+Note Principal: 
+ 
+ 
+$900,000 
+ 
+(Emphasis sic.) (Limited's Ex. 31.)   
+{¶ 34} According to Limited, under this provision, once it complied with the 
+conditions for the "making" of the loan, Huntington had an obligation to disburse the entire 
+$900,000 loan amount.  Limited maintains that the AIA forms and mechanic's lien waiver 
+form were not necessary to make the loan, and thus, the lack of those forms did not forestall 
+Huntington's contractual duty to advance the loan funds.   We decline to adopt Limited's 
+interpretation as it conflicts with the "Conditions Precedent to Each Advance" section.    
+{¶ 35} Courts must attempt to harmonize the provisions in writings executed as part 
+of the same transaction so that each provision has effect.  Kent State Univ. v. Bradley Univ., 
+11th Dist. No. 2017-P-0056, 2019-Ohio-2088, ¶ 39; Susany v. Guerrieri, 7th Dist. No. 15 
+MA 0079, 2016-Ohio-1062, ¶ 21.  Limited, however, interprets the acknowledgement that 
+"no loan proceeds will be disbursed until all of Lender's conditions for making the loan have 
+been satisfied" to curtail the "Conditions Precedent to Each Advance" section of the 
+Business Loan Agreement.  By the clear and unambiguous terms of the Business Loan 
+Agreement, "all" of the "Conditions Precedent to Each Advance" apply to "the initial 
+Advance and each subsequent Advance." (Limited's Ex. 20.) Under Limited's interpretation 
+
+Nos. 21AP-61, 21AP-62, 21AP-63 and 21AP-64        
+11 
+ 
+ 
+of the loan documents, Limited would be entitled to an advance by fulfilling only some of 
+the conditions precedent in the "Conditions Precedent to Each Advance" section because 
+not all of the listed conditions relate to the "making [of] the loan."   
+{¶ 36} Limited's interpretation of the loan documents contravenes the plain 
+language of the documents.  Limited was required to satisfy all the conditions precedent in 
+the "Conditions Precedent to Each Advance" section before Huntington's obligation to 
+make an advance arose.  Consistent with our above analysis, to satisfy the conditions 
+precedent, Limited had to submit the necessary forms before Huntington had to disburse 
+loan funds for the payment of rehabilitation work.  Accordingly, we conclude that the trial 
+court did not err in interpreting the loan documents.  We therefore overrule the second 
+assignment of error. 
+{¶ 37} By the third assignment of error, Limited argues that the trial court erred in 
+not admitting into evidence a construction loan agreement and mortgage executed by 
+Huntington and an unrelated third party in 2005.5  We disagree. 
+{¶ 38} Decisions regarding the admissibility of evidence are within the discretion of 
+the trial court.  Banford v. Aldrich Chem. Co., Inc., 126 Ohio St.3d 210, 2010-Ohio-2470, 
+¶ 38; Beard v. Meridia Huron Hosp., 106 Ohio St.3d 237, 2005-Ohio-4787, ¶ 20.  An 
+appellate court will uphold such a decision absent an abuse of discretion.  Banford at ¶ 38; 
+Beard at ¶ 20.  Moreover, even in the event of an abuse of discretion, an appellate court will 
+not reverse the judgment unless the abuse materially prejudiced the complaining party.  
+Banford at ¶ 38; Beard at ¶ 20. 
+{¶ 39}  Limited contends that the agreements it sought to admit, which include 
+explicit provisions addressing AIA forms, draw requests, and mechanic's lien waivers, 
+demonstrate that Huntington did not intend to require Limited to submit AIA forms or 
+mechanic's lien waiver forms to receive advances under the parties' Business Loan 
+Agreement.  However, as we explained above,  "[t]he intent of the parties to a contract is 
+presumed to reside in the language they chose to employ in the agreement."  Kelly, 31 Ohio 
+St.3d 130, at paragraph one of the syllabus.  Extraneous deals with unrelated third parties, 
+therefore, are generally irrelevant to determining the intent of the parties to the contract at 
+ 
+5  While Limited also argues in this assignment of error that the trial court erred in not admitting exhibits 
+41B, 41C, 41D, or 41E, we cannot address that argument because Limited failed to ensure that our record 
+contains those exhibits.  
+
+Nos. 21AP-61, 21AP-62, 21AP-63 and 21AP-64        
+12 
+ 
+ 
+issue.  Consequently, we conclude that the trial court did not abuse its discretion in 
+excluding from evidence a separate and unrelated construction loan agreement and 
+mortgage.  We therefore overrule the third assignment of error. 
+{¶ 40} By the fourth assignment of error, Limited argues that the trial court erred in 
+(1) allowing the cognovit judgment entered in case No. 10 CV 2264 to have a preclusive 
+effect on Limited's claims against Huntington in case No. 10 CV 3000, and (2) rejecting 
+Limited's collateral attack on the February 27, 2013 cognovit judgment.  We find both 
+arguments unavailing. 
+{¶ 41} "The preclusive effect of a judgment is defined by claim preclusion and issue 
+preclusion, which are collectively referred to as 'res judicata.' "  Taylor v. Sturgell, 553 U.S. 
+880, 892 (2008).  Under the doctrine of claim preclusion, a final judgment rendered on the 
+merits forecloses all subsequent actions, by the same parties or their privies, based on any 
+claim arising out of the transaction or occurrence that was the subject matter of the 
+previous action.  Grava v. Parkman Twp., 73 Ohio St.3d 379, 381 (1995).  Issue preclusion, 
+on the other hand, bars relitigation of any fact or point determined by a court of competent 
+jurisdiction in a previous action between the same parties or their privies.  O'Nesti v. 
+DeBartolo Realty Corp., 113 Ohio St.3d 59, 2007-Ohio-1102, ¶ 6. 
+{¶ 42} In case No. 10 CV 3000, Huntington moved for summary judgment on the 
+basis that res judicata barred Limited's claims.  According to Huntington, all Limited's 
+claims arose out of Limited's allegation that Huntington breached the Promissory Note.  
+Huntington argued that claim preclusion prevented Limited from asserting those claims 
+because the trial court had already issued a cognovit judgment in Huntington's favor on the 
+Promissory Note.  The trial court denied Huntington's summary judgment motion.  The 
+trial court declined to apply res judicata, finding that to do so would contravene fairness 
+and justice as Limited could not have raised its claims in the cognovit action. 
+{¶ 43} Because the trial court did not give the cognovit judgment any preclusive 
+effect in case No. 10 CV 3000, the trial court did not err as alleged by Limited.  
+Consequently, Limited has not provided a basis on which to reverse the trial court’s 
+judgment. 
+{¶ 44} Next, Limited argues that the trial court erred in concluding that Limited 
+could not collaterally attack the February 27, 2013 cognovit judgment.  A collateral attack 
+
+Nos. 21AP-61, 21AP-62, 21AP-63 and 21AP-64        
+13 
+ 
+ 
+is an attempt to defeat the operation of a judgment initiated in a proceeding where a new 
+right derived from or through the judgment is involved.  Ohio Pyro, Inc. v. Ohio Dept. of 
+Commerce, 115 Ohio St.3d 375, 2007-Ohio-5024, ¶ 16.  Although collateral attacks are not 
+inherently improper, Ohio law strongly disfavors them because the primary way to 
+challenge a final judgment is through a direct appeal.  Id. at ¶ 19, 22; Luper Neidenthal & 
+Logan v. Albany Station, LLC, 10th Dist. No. 13AP-651, 2014-Ohio-2906, ¶ 15.  Thus, a 
+party may maintain a collateral attack in only two circumstances:  "when the issuing court 
+lacked jurisdiction or when the order was the product of fraud (or of conduct in the nature 
+of fraud)."  Ohio Pyro, Inc. at ¶ 23.  "Absent either of those two grounds, a collateral attack 
+is improper."  Bell v. Nichols, 10th Dist. No. 10AP-1036, 2013-Ohio-2559, ¶ 21. 
+{¶ 45} Here, Limited contends that the February 27, 2013 cognovit judgment is void 
+because the court that entered it lacked jurisdiction.  Because Limited may mount a 
+collateral attack under that circumstance, we must consider the merits of Limited's 
+argument. 
+{¶ 46} To do so, we must review the court filings in case No. 10 CV 2264, which are 
+not part of the records in the cases currently on appeal before this court.  However, 
+appellate courts may take judicial notice of public court records available on the internet.  
+State v. Estridge, 2d Dist. No. 2021-CA-25, 2022-Ohio-208, ¶ 12, fn. 1; Johnson v. Levy, 
+10th Dist. No. 18AP-775, 2019-Ohio-3492, ¶ 5, fn. 1.  As the docket and filings in case No. 
+10 CV 2264 are publicly available on the internet, we take judicial notice of the docket and 
+filings in that case.   
+{¶ 47} According to Limited, the trial court found the February 17, 2010 cognovit 
+judgment void for lack of subject-matter jurisdiction, so the trial court did not have subject-
+matter jurisdiction to enter the February 27, 2013 cognovit judgment.  We disagree. 
+{¶ 48} Pursuant to R.C. 2323.13(A), "[a]n attorney who confesses judgment in a 
+case, at the time of making such confession, must produce the warrant of attorney for 
+making it to the court before which he makes the confession."  This statutory provision 
+requires the attorney confessing judgment to present the original warrant of attorney to the 
+trial court.  Huntington Natl. Bank v. 199 S. Fifth St. Co., LLC, 10th Dist. No. 10AP-1082, 
+2011-Ohio-3707, ¶ 21.  Because the requirements of R.C. 2323.13(A) are jurisdictional, the 
+
+Nos. 21AP-61, 21AP-62, 21AP-63 and 21AP-64        
+14 
+ 
+ 
+failure to present the original warrant of attorney renders any cognovit note entered void.  
+Id.  
+{¶ 49} In case No. 10 CV 2264, the trial court found that the attorney confessing 
+judgment had provided the court with a copied—not original—warrant of attorney at the 
+time of the confession.  Applying Huntington National Bank, the trial court vacated the 
+February 17, 2010 judgment. 
+{¶ 50} After vacating the final judgment, the trial court reinstated case No. 10 CV 
+2264 for further proceedings.  The trial court allowed the attorney confessing judgment to 
+file an amended answer and present the original warrant of attorney.  We find the trial 
+court's action appropriate.  See Bronisz v. Ashcroft, 378 F.3d 632, 637 (7th Cir.2004) 
+("When a [trial] court grants a Rule 60(b) motion, the effect is to vacate the previous 
+judgment in the case. * * * Consequently, the previously filed case is reinstated and goes 
+forward from that point."); Fobian v. Storage Technology Corp., 164 F.3d 887, 890 (4th 
+Cir.1998) ("When a [trial] court grants a Rule 60(b) motion, it must necessarily vacate the 
+underlying judgment and reopen the record.").     
+{¶ 51} Limited argues, however, that the trial court did not have subject-matter 
+jurisdiction to enter a cognovit judgment after the court reinstated the case.  We are not 
+persuaded by this argument.  Due to the absence of an original warrant of attorney, the trial 
+court lacked the authority necessary to enter the February 17, 2010 cognovit judgment.  
+Nevertheless, the trial court always possessed the subject-matter jurisdiction necessary to 
+adjudicate the cognovit action between Huntington and Limited.   
+{¶ 52} " 'Subject-matter jurisdiction refers to the constitutional or statutory power 
+of a court to adjudicate a particular class or type of case,' " * * * and * * * " 'the focus is on 
+whether the forum itself is competent to hear the controversy.' "  Ostanek v. Ostanek, 166 
+Ohio St.3d 1, 2021-Ohio-2319, ¶ 21, quoting Corder v. Ohio Edison Co., 162 Ohio St.3d 639, 
+2020-Ohio-5220, ¶ 14 (first part) and Bank of Am., N.A. v. Kuchta, 141 Ohio St.3d 75, 2014-
+Ohio-4275, ¶ 19 (second part).  The Ohio Constitution created the courts of common pleas 
+and gave them original subject-matter jurisdiction over all justiciable matters as may be 
+provided by law.  Ohio Constitution, Article IV, Section 4(A) and (B).  The courts of common 
+pleas are courts of general jurisdiction and, with narrow exceptions, possess subject-matter 
+
+Nos. 21AP-61, 21AP-62, 21AP-63 and 21AP-64        
+15 
+ 
+ 
+jurisdiction over "all civil cases in which the sum or matter in dispute exceeds the exclusive 
+original jurisdiction of county courts."6  R.C. 2305.01; accord Ostanek at ¶ 25.   
+{¶ 53} With regard to cognovit judgments, a "warrant of attorney shall be confessed 
+in the municipal court having jurisdiction * * * over the subject matter; otherwise, judgment 
+may be confessed in any court in the county where the maker or any of several makers 
+resides or signed the warrant of attorney."7  R.C 2323.13(A).  Here, given the amount of 
+damages sought and where the warrant of attorney was signed, the forum competent to 
+hear the parties' dispute was the Franklin County Court of Common Pleas.  That court, 
+therefore, had subject-matter jurisdiction over the cognovit action throughout the 
+proceedings before it. 
+{¶ 54} Limited also argues that case No. 10 CV 3000, which was already pending 
+when the trial court reinstated case No. 10 CV 2264, gained jurisdictional priority over case 
+No. 10 CV 2264.  Therefore, Limited maintains, when the trial court vacated the 
+February 17, 2010 cognovit judgment and reinstated the case, the jurisdiction-priority rule 
+mandated that Huntington assert any claims involving the Promissory Note in case No. 10 
+CV 3000.  According to Limited, the February 27, 2013 cognovit judgment is a nullity as it 
+was not issued by the judge presiding over the case with jurisdictional priority.  We 
+disagree. 
+{¶ 55} "The jurisdictional-priority rule provides that as between state courts of 
+concurrent jurisdiction, the tribunal whose power is first invoked acquires exclusive 
+jurisdiction to adjudicate the whole issue and settle the rights of the parties."  State ex rel. 
+Consortium for Economic & Community Dev. for Hough Ward 7 v. Russo, 151 Ohio St.3d 
+129, 2017-Ohio-8133, ¶ 8.  But that rule is not applicable to cases pending in the same court.  
+Id. at ¶ 10.  Consequently, the jurisdictional-priority rule did not require Huntington to 
+transfer its cognovit action from case No. 10 CV 2264 to case No. 10 CV 3000 because both 
+cases were pending in the Franklin County Court of Common Pleas. 
+ 
+6  Pursuant to R.C. 1907.03(A), county courts have exclusive original jurisdiction in civil actions where the 
+amount in controversy does not exceed $500. 
+ 
+7  A municipal court has original jurisdiction only in those cases in which the amount claimed by any party 
+does not exceed $15,000.  R.C. 1901.17. 
+
+Nos. 21AP-61, 21AP-62, 21AP-63 and 21AP-64        
+16 
+ 
+ 
+{¶ 56} In the end, Limited has not established that the February 27, 2013 cognovit 
+judgment is void nor that the trial court gave that judgment or the February 17, 2010 
+cognovit judgment any preclusive effect.  Accordingly, we overrule Limited's fourth 
+assignment of error. 
+{¶ 57} By Limited's fifth assignment of error, it argues that the manifest weight of 
+the evidence does not support the judgment in favor of Huntington on Huntington's 
+foreclosure action or Limited's claims for breach of contract, fraud, and conversion.  We 
+disagree. 
+{¶ 58}  Appellate courts will only reverse a judgment as being against the manifest 
+weight of the evidence if it is not supported by some competent, credible evidence.  C.E. 
+Morris Co. v. Foley Constr. Co., 54 Ohio St.2d 279, 280 (1978).  In determining whether 
+the record contains the necessary evidence, an appellate court weighs the evidence and all 
+reasonable inferences, considers the credibility of witnesses, and determines whether, in 
+resolving conflicts in the evidence, the finder of fact clearly lost its way.  Eastley v. Volkman, 
+132 Ohio St.3d 328, 2012-Ohio-2179, ¶ 20.  However, when conducting its review, an 
+appellate court "must always be mindful of the presumption in favor of the finder of fact."  
+Id. at ¶ 21.  Appellate courts give deference to the trial court's factual findings because "the 
+trial judge is best able to view the witnesses and observe their demeanor, gestures and voice 
+inflections, and use these observations in weighing the credibility of the proffered 
+testimony."  Seasons Coal Co. v. Cleveland, 10 Ohio St.3d 77, 80 (1984). 
+{¶ 59} First, Limited argues that Huntington failed to prove its entitlement to 
+foreclose on the Allegheny Open-End Mortgage because it did not establish that it met all 
+the conditions precedent to foreclosure.  Specifically, Limited contends that Huntington 
+failed to provide Limited with a written notice of default. 
+{¶ 60} Where a prior notice of default is required by a note or mortgage, the 
+provision of that notice is a condition precedent to foreclosure.  Huntington Natl. Bank v. 
+Haehn, 10th Dist. No. 17AP-342, 2018-Ohio-4837, ¶ 36; U.S. Bank N.A. v. Weber, 10th 
+Dist. No. 12AP-107, 2012-Ohio-6024, ¶ 12; Natl. City Mtge. v. Richards, 182 Ohio App.3d 
+534, 2009-Ohio-2556, ¶ 21 (10th Dist.).  In the case at bar, the only provision referring to a 
+notice of default appears in the Open-End Mortgage.  It states: 
+NOTICES.  Any notice required to be given under this 
+Mortgage, including without limitation any notice of default 
+
+Nos. 21AP-61, 21AP-62, 21AP-63 and 21AP-64        
+17 
+ 
+ 
+and any notice of sale shall be given in writing, and shall be 
+effective when actually delivered, when actually received by 
+telefacsimile (unless otherwise required by law), when 
+deposited with a nationally recognized overnight courier, or, if 
+mailed, when deposited in the United States mail, as first class, 
+certified or registered mail postage prepaid, directed to the 
+addresses shown near the beginning of this Mortgage. 
+ 
+(Emphasis sic.) (Limited's Ex. 21.)  Importantly, while this provision specifies the form a 
+notice must take and when a notice becomes effective, it does not actually require 
+Huntington to give any notice of default.  Limited has not directed this court to any other 
+provision in the loan documents that imposes on Huntington a duty to provide a notice of 
+default and we have not located any such provision.  We must conclude, therefore, that no 
+such provision exists.  Consequently, in this case, the provision of a notice of default was 
+not a condition precedent to foreclosure. 
+{¶ 61} Nonetheless, the trial court concluded that Huntington adduced evidence 
+that it provided Limited with a notice of default.   The trial court based its conclusion on the 
+testimony of Scott Rudawsky of Huntington's Special Assets Division that Huntington sent 
+Limited a notice of default, and the testimony of Ashraf Ettayem, Limited's president, that 
+Limited received a default letter.   
+{¶ 62} On appeal, Limited asserts that Huntington loan officer Travis Sanders 
+testified that "no default notice was ever prepared."  (Appellant's brief at 41.)  Actually, 
+Sanders testified that he did not provide Limited a notice of default, but then "[he] would 
+never give a notice of default" [because] "[t]hat [was] way above [him]."  (Tr. at 354.)  
+Limited also points to another Huntington witness, who, according to Limited, "admitted 
+that [Huntington] never called a default of [Limited's] Loan."  (Appellant's brief at 41-42.)  
+In fact, that witness testified that, to the best of her knowledge, Huntington did not send a 
+written notice of default to Limited.  Given the shortcomings in the testimony Limited relies 
+upon, we conclude that testimony does not outweigh Rudawsky's and Ettayem's testimony 
+that notice did occur. 
+{¶ 63} In sum, we conclude that the loan documents did not include a condition 
+precedent requiring that Huntington provide Limited with a notice of default prior to 
+foreclosing on the mortgage.  Nevertheless, had such a condition precedent existed, 
+
+Nos. 21AP-61, 21AP-62, 21AP-63 and 21AP-64        
+18 
+ 
+ 
+Huntington adduced competent, credible evidence that it satisfied that condition precedent 
+by giving Limited a written notice of default before filing for foreclosure. 
+{¶ 64} Second, Limited argues that it provided competent, credible evidence 
+establishing all elements of its claim for breach of contract.  We disagree.   
+{¶ 65} "A cause of action for breach of contract requires the claimant to establish the 
+existence of a contract, the failure without legal excuse of the other party to perform when 
+performance is due, and damages or loss resulting from the breach."  Lucarell v. 
+Nationwide Mut. Ins. Co., 152 Ohio St.3d 453, 2018-Ohio-15, ¶ 41.  Here, the trial court 
+found that Limited had not proven that Huntington failed to perform when performance 
+was due.  Limited, however, contends that the record contains evidence that Huntington 
+breached the Business Loan Agreement by not advancing loan funds to Limited for the 
+rehabilitation of the Allegheny shopping center.  According to Limited, it requested that 
+Huntington disburse all the loan proceeds—totaling $900,000—in the document entitled 
+"Disbursement Request and Authorization," which Ettayem signed at the loan closing.  
+Although Huntington disbursed approximately $535,000 of loan proceeds to pay off 
+Limited's debts, it did not disburse the remaining $365,000 to Limited to fund the 
+rehabilitation.  Limited claims this failure constitutes a breach of contract. 
+{¶ 66} In making its argument, Limited disregards the "Conditions Precedent to 
+Each Advance" section in the Business Loan Agreement.  A "condition precedent" is " 'a 
+condition that must be performed before obligations in a contract become effective.' "  
+Transtar Elec., Inc. v. A.E.M. Elec. Servs. Corp., 140 Ohio St.3d 193, 2014-Ohio-3095, ¶ 22, 
+quoting Coffman v. Ohio State Adult Parole Bd., 10th Dist. No. 12AP-267, 2013-Ohio-109, 
+¶ 11.  If a condition precedent is not fulfilled, a party is excused from performing the duty 
+promised under the contract.  Id.; accord Gilman v. Physna, LLC, 1st Dist. No. C-200457, 
+2021-Ohio-3575, ¶ 19 ("An unsatisfied condition precedent excuses performance under the 
+contract and is a defense to a breach-of-contract claim."); Little v. Real Living HER, 10th 
+Dist. No. 13AP-924, 2014-Ohio-5664, ¶ 12 ("[T]he general rule is that, without the 
+occurrence of conditions precedent, a promisor has no liability for breach of contract."). 
+{¶ 67} As we explained above, the "Conditions Precedent to Each Advance" section 
+conditioned advances of loan funds for the payment of rehabilitation work on the submittal 
+of completed AIA forms and a mechanic's lien waiver form.  In the absence of the relevant 
+
+Nos. 21AP-61, 21AP-62, 21AP-63 and 21AP-64        
+19 
+ 
+ 
+forms, Huntington had no obligation to release loan funds to Limited for the rehabilitation 
+of the Allegheny property.  Limited does not dispute that it did not submit the necessary 
+forms in conjunction with the Disbursement Request and Authorization.  Huntington, 
+therefore, did not breach the Business Loan Agreement in not advancing the $365,000 to 
+Limited to fund the rehabilitation. 
+{¶ 68} Limited directs us to testimony from Huntington witnesses that it claims 
+proves that it was entitled to the full $900,000 as requested in the Disbursement Request 
+and Authorization.  First, Limited points to the testimony of Lisa Hefflinger, a Huntington 
+vice president, that the documents "required for the loan" were the documents listed in a 
+part of the "Conditions Precedent to Each Advance" section that named specific documents 
+the borrower had to provide.  (Tr. at 751-53.)  Because the named documents did not 
+include the AIA forms or a mechanic's lien waiver form, Limited argues that submittal of 
+those particular documents was not a condition precedent to receiving the remaining 
+$365,000 to fund the Allegheny shopping center's rehabilitation.   
+{¶ 69} Limited, however, cannot use a witness' testimony to interpret the clear and 
+unambiguous terms of the Business Loan Agreement.  See Sunoco, Inc, 129 Ohio St.3d 397, 
+2011-Ohio-2720, at ¶ 37 ("When the language of a written contract is clear, a court may look 
+no further than the writing itself to find the intent of the parties.").  Moreover, Limited fails 
+to appreciate that the "Conditions Precedent to Each Advance" section contains multiple 
+conditions precedent.  Here, one condition precedent required Limited to turn over 
+specified documents, while another conditioned advances on the submittal of documents 
+required by Huntington.  As we held above, that latter provision necessitated the submittal 
+of the AIA forms and the mechanic's lien waiver form.  Hefflinger did not testify regarding 
+that provision. 
+{¶ 70} Next, Limited asserts that Scott Rudawsky testified that "the full amount of 
+the $900,000 was going to be disbursed at closing."  (Appellant's brief at 11.)  Limited draws 
+this testimony from the following exchange: 
+Q:  But it is your understanding, as I understand your 
+testimony, that the expectation was when the note was entered 
+into between the parties, that the full $900,000 was going to 
+be disbursed, correct? 
+ 
+
+Nos. 21AP-61, 21AP-62, 21AP-63 and 21AP-64        
+20 
+ 
+ 
+A:  Yes.  The note is for $900,000.  That was the agreed upon 
+loan amount. 
+ 
+(Tr. at 218.)   
+{¶ 71}  In isolation, this exchange could mean that the parties expected the disbursal 
+of $900,000 to occur on the date they executed the loan documents.  But we must consider 
+the context of the question and answer.  Rudawsky was testifying regarding how 
+Huntington had calculated the terms for the repayment of the loan, and he had just stated 
+that "[t]he payment is basically saying when the loan was originated, we are assuming that 
+$900,000 will be advanced.  We don't know if the full amount will or will not, but in order 
+to state a payment amount that is going to be due, it is assumed that the full $900,000 is 
+advanced, and that is how payment is calculated."  (Tr. at 216-17.)  Thus, when Rudawsky 
+agreed that "it [was his] understanding * * * that the expectation was when the note was 
+entered into between the parties, that the full $900,000 was going to be disbursed," 
+Rudawsky was affirming that, when the parties executed the loan documents, they expected 
+that Limited would draw down the entire $900,000 loan amount over the course of the 
+loan.  (Tr. at 218.)  Rudawsky did not testify that Huntington planned to disburse to Limited 
+$900,000 at the loan closing.   
+{¶ 72} Limited also contends that Robert Hiss, the team leader who supervised 
+Travis Sanders, testified that "the full amount of the loan was intended to be disbursed at 
+the beginning of the loan."  (Appellant's brief at 43.)  But Hiss did not testify to that.  Hiss 
+acknowledged that a disbursement of $900,000 in response to the request in the 
+Disbursement Request and Authorization would create an obligation to repay $900,000 in 
+note principal.  However, Hiss also stated that, "[t]o disburse [funds], [Huntington] would 
+follow the business loan agreement[,] note, mortgage, any of the other documents."  (Tr. at 
+821.) 
+{¶ 73} Finally, Limited argues that Huntington had to disburse the entire $900,000, 
+regardless of satisfaction of the conditions precedent, because the monthly principal and 
+interest payments due beginning on April 28, 2009 were calculated using the $900,000 
+amount.  The loan payment structure, however, did not mandate the disbursal of the entire 
+loan principal.  As Rudawsky explained, "[t]he principal and interest payment [was] 
+calculated on a full face value of the note, but [the monthly payment] would just pay off the 
+
+Nos. 21AP-61, 21AP-62, 21AP-63 and 21AP-64        
+21 
+ 
+ 
+note sooner if the full amount was not disbursed."  (Tr. at 216.)  Hefflinger further clarified 
+that interest only accrued on the amount disbursed, so surplus payment resulted when a 
+lender borrowed less than the full amount of the loan.  Huntington credited the surplus 
+between the amount of interest as calculated/paid and the amount of interest actually owed 
+to the principal balance.          
+{¶ 74} None of the evidence Limited points us to constitutes competent, credible 
+evidence that Huntington breached the Business Loan Agreement.  Huntington's duty to 
+disburse loan funds for rehabilitation work only arose if Limited submitted the necessary 
+forms.  According to the undisputed evidence, Limited never submitted those forms.  
+Huntington, therefore, did not have to disburse any funds.  Consequently, the manifest 
+weight of the evidence supports the trial court's conclusion that Huntington did not breach 
+the parties' agreement.   
+{¶ 75} Third, Limited argues that it provided competent, credible evidence 
+establishing all elements of its fraud claim.  We disagree. 
+{¶ 76} To establish a claim for fraud, a plaintiff must prove:  (1) a representation; 
+(2) that is material to the transaction at hand; (3) made falsely, with knowledge of its falsity, 
+or with such utter disregard and recklessness as to whether it is true or false that knowledge 
+may be inferred; (4) with the intent of misleading another into reliance upon it; 
+(5) justifiable reliance upon the representation; and (6) a resulting injury proximately 
+caused by the reliance.  Williams v. Aetna Fin. Co., 83 Ohio St.3d 464, 475 (1998).  As a 
+general matter, promises or representations concerning future actions or conduct cannot 
+serve as a basis for fraud.  Patel v. Univ. of Toledo, 10th Dist. No. 16AP-378, 2017-Ohio-
+7132, ¶ 41; Anderson v. Baker, 10th Dist. No. 08AP-438, 2008-Ohio-6919, ¶ 37; Deitrick v. 
+Am. Mtge. Solutions, Inc., 10th Dist. No. 05AP-154, 2007-Ohio-839, ¶ 16.  However, 
+liability for a claim of promissory fraud arises if a party makes a promise without the 
+present intent of performing.  Patel at ¶ 41; Anderson at ¶ 37; Deitrick at ¶ 16.  "When a 
+person 'makes [a] promise of future action, occurrence, or conduct, and * * * at the time he 
+makes it, has no intention of keeping his promise,' that person misrepresents his existing 
+state of mind and present intent."  (Emphasis sic.) Patel at ¶ 41, quoting Martin v. Ohio 
+State Univ. Found., 139 Ohio App.3d 89, 98 (10th Dist.2000) (further quotation omitted).  
+" ' "Since a promise necessarily carries with it the implied assertion of an intention to 
+
+Nos. 21AP-61, 21AP-62, 21AP-63 and 21AP-64        
+22 
+ 
+ 
+perform[,] it follows that a promise made without such an intention is fraudulent * * *.  This 
+is true whether or not the promise is enforceable as a contract." ' "  Deitrick at ¶ 16, quoting 
+Applegate v. Northwest Title Co., 10th Dist. No. 03AP-855, 2004-Ohio-1465, ¶ 22, quoting 
+4 Restatement of the Law 2d, Torts, Section 530, Comment c (1977). 
+{¶ 77} Here, Limited bases its fraud claim on a representation contained in the 
+February 12, 2008 letter in which Huntington informed Limited that it had approved 
+Limited for a loan.  In that letter, Huntington stated the purpose of the loan was to 
+"[r]efiance commercial property located at 3150 Allegheny Ave.[,] Columbus, Franklin 
+County, Ohio[,] and fund construction/rehab."  (Limited's Ex. 4.)  Limited argues that, at 
+the time the parties executed the loan agreement, Huntington did not intend to "fund" the 
+rehabilitation of the Allegheny shopping center with the loan proceeds.  Rather, Limited 
+contends, Huntington intended Limited to fund the rehabilitation and then seek 
+reimbursement from Huntington for the money spent paying for the rehabilitation work. 
+{¶ 78} Limited's argument ignores an obvious alternative:  Limited could hire a 
+contractor willing to accept partial payment for work completed in phases.  In such a 
+situation, payment to the contractor could come directly from loan funds upon the 
+submittal of the AIA forms and a mechanic's lien wavier form.  This is the type of payment 
+arrangement Huntington believed Limited would institute with its contractor, as illustrated 
+by Travis Sanders' testimony: 
+Q:  Now, * * * you had discussions with Mr. Ettayem * * * 
+relative to * * * [how] the project was going to be completed, 
+right? 
+ 
+A:  Yes. 
+ 
+Q:  At that time you were aware of [Limited]'s financial 
+situation, right? 
+ 
+A:  Yes. 
+ 
+Q:  And did you ask Mr. Ettayem during that conversation, 
+well, where are you going to get this money to do the work that 
+you are doing? 
+ 
+A:  I figured the contractor would do it, and then we would pay 
+them for it. 
+ 
+
+Nos. 21AP-61, 21AP-62, 21AP-63 and 21AP-64        
+23 
+ 
+ 
+Q:  And that is even though Mr. Ettayem had come to you and 
+said that the contractor required 25 percent up front? 
+ 
+A:  I told them we paid on completed work.  He said he would 
+find another contractor. 
+ 
+(Tr. at 352-53.)8   
+{¶ 79} Sanders further testified that he did not know of any representation made to 
+Ettayem with an intent to mislead Limited into entering the loan agreement.  Given 
+Sanders' testimony, we conclude that the manifest weight of the evidence supports a ruling 
+in Huntington's favor on the fraud claim.      
+{¶ 80} Fourth, Limited argues that it provided competent, credible evidence 
+establishing all elements of its conversion claim.  We disagree. 
+{¶ 81} "Conversion is 'the wrongful exercise of dominion over property to the 
+exclusion of the rights of the owner, or withholding it from his possession under a claim 
+inconsistent with his rights.' "  Allan Nott Ents., Inc. v. Nicholas Starr Auto, L.L.C., 110 
+Ohio St.3d 112, 2006-Ohio-3819, ¶ 36, quoting Joyce v. Gen. Motors Corp., 49 Ohio St.3d 
+93, 96 (1990).  To establish a claim for conversion, a plaintiff must prove:  (1) actual or 
+constructive possession, or an immediate right to possession of the property; (2) a 
+defendant's wrongful interference with the plaintiff's right to possession; and (3) damages.  
+Parmater v. Internet Brands, Inc., 10th Dist. No. 14AP-391, 2015-Ohio-253, ¶ 20. 
+{¶ 82} Here, Limited contends that Huntington wrongfully withheld from it the 
+$139,861.82 in insurance proceeds paid in October 2009.  To determine whether 
+Huntington's action constituted conversion, we must identify whether Limited or 
+Huntington had a right to possess the insurance proceeds.  To do that, we turn to the 
+language in the loan documents. 
+{¶ 83} Pursuant to the "Maintenance of Insurance" provision of the Allegheny 
+Open-End Mortgage, Limited had the duty to "procure and maintain policies of fire 
+insurance * * * with a standard mortgagee clause in favor of Lender."  (Limited's Ex. 21.)  
+The Agreement to Provide Insurance also obligated Limited to provide fire insurance for 
+the Allegheny property that included a "[s]tandard [m]ortgagee's clause in favor of The 
+ 
+8  This type of payment arrangement is common.  Although John Schilling, Limited's contractor, requested 
+a deposit from Limited, Schilling testified, "when [his company] did work on a lot of projects, actually, over 
+the years, the banks would pay out money as you did the job."  (Tr. at 626.)     
+
+Nos. 21AP-61, 21AP-62, 21AP-63 and 21AP-64        
+24 
+ 
+ 
+Huntington National Bank, its successors and/or assigns * * *."  (Limited's Ex. 25.)  The 
+Notice of Insurance Requirements, sent to Limited's insurer, detailed the insurance 
+Huntington required on the Allegheny property, including a "[s]tandard [m]ortgagee's 
+clause."  (Limited's Ex. 26.)  The Notice of Insurance Requirements requested that 
+Limited's insurer provide evidence that Limited had obtained the necessary insurance.  
+Finally, Limited's insurer provided a document entitled "Evidence of Property Insurance," 
+which indicated that insurance had been issued covering the Allegheny property and listing 
+Huntington as the mortgagee. 
+{¶ 84} A standard mortgage clause in a property insurance policy creates a separate 
+contract between the insurer and the mortgagee, which makes the mortgagee an 
+independent insured.  Pittsburgh Natl. Bank v. Motorists Mut. Ins. Co., 87 Ohio App.3d 
+82, 85 (9th Dist.1993); 4 Plitt, Maldonado, Rogers, & Plitt, Couch on Insurance, Section 
+65:36 (3d Ed.1997).  Under such a mortgage clause, the mortgagee is entitled to the 
+insurance proceeds to the extent that they are equal to the debt owed by the property owner 
+under the mortgage, with any surplus belonging to the property owner.  State ex rel. Squire 
+v. Royal Ins. Co., 58 Ohio App. 199, 202-03 (8th Dist.1938); accord Std. Fire Ins. Co. v. 
+Knowles, 129 F.Supp.3d 1271, 1278 (N.D.Ala.2015) ("As to between the mortgagor/insured 
+and the mortgagee, '[t]he mortgagee has the first right to the insurance proceeds to the 
+extent of the amount owing it by the insured, not exceeding the total liability of the insurer 
+under the policy; and the insured is entitled to the balance of the amount of such 
+liability.' "); In re Haas, 71 B.R. 335, 340 (Bankr.N.D.Ohio 1987) (applying Ohio law, 
+holding that under a standard mortgage clause, "the mortgagee has a prior right to the 
+proceeds over the competing claim of the mortgagor"); Jones v. Wesbanco Bank 
+Parkersburg, 194 W.Va. 381, 387 (1995) ("[U]nder a standard mortgage clause, the lender 
+* * * named as a mortgagee is entitled to insurance proceeds to the extent that they are 
+equal to the debt owed by the property owner * * *."); Hoosier Plastics v. Westfield S. & L. 
+Assn., 433 N.E.2d 24, 27 (Ind.App.1982) ("Where * * * the mortgage agreement requires 
+that the insurance policy contain a standard mortgage clause * * * the mortgagee is 
+generally entitled to the proceeds of the policy to the extent of his mortgage debt holding 
+the surplus for the mortgagor's benefit."); Grady v. Utica Mut. Ins. Co., 419 N.Y.S.2d 565, 
+569 (N.Y.App.1979) ("The effect of the standard mortgagee clause is simply to require that 
+
+Nos. 21AP-61, 21AP-62, 21AP-63 and 21AP-64        
+25 
+ 
+ 
+payment of the loss be first made to the mortgagee up to the extent of his interest and that 
+the balance be remitted to the mortgagor.").   In other words, " '[t]he standard mortgage 
+loss-payable clause gives the insurance proceeds to a mortgagee to the extent that they are 
+equal to or less than the mortgage debt and accords priority to insuring the mortgage debt 
+over the insured mortgagor's claim.' "  Brown v. Frankenmuth Mut. Ins. Co., 187 Mich.App. 
+375, 384 (1991).  Mortgagees require the inclusion of standard mortgage clauses in order to 
+indemnify themselves " 'against the diminution of the value of the security for [the] loan 
+due to loss from certain perils and thereby to make certain that in the event of such a loss, 
+the mortgagee would be protected up to the amount of [the] lien.' "  Jones at 388, quoting 
+Citizens S. & L. Assn. v. Proprietors Ins. Co., 435 N.Y.S.2d 303, 306 (N.Y.App.1981).    
+{¶ 85} Because the mortgagee has a right to the insurance proceeds to the extent of 
+the mortgage debt, the mortgagee "may decide whether the money is to be applied to the 
+mortgage obligation or is to be used to repair the premises."  Squire at syllabus; accord Gen. 
+G.M.C. Sales, Inc. v. Passarella, 195 N.J.Super. 614, 625 (N.J.App.1984), aff'd, 101 N.J. 12 
+(1985) (holding that under a standard mortgage clause, "the mortgagee had the right to 
+receive a portion of the insurance proceeds sufficient to satisfy the owners' debt. * * *  [The 
+property owners] did not have the right to use those proceeds to rebuild the damaged 
+buildings."); Hoosier Plastics at 27 ("A mortgagee named in a [standard mortgage] loss 
+payable clause will [ ] prevail over a mortgagor who wishes to use the proceeds for repair 
+and restoration."). 
+{¶ 86} To confirm its authority to determine the disposition of any insurance 
+proceeds, Huntington added the "Application of Proceeds" provision to the Allegheny 
+Open-End Mortgage.  That provision stated: 
+Lender may, at Lender's election, receive and retain the 
+proceeds of any insurance and apply the proceeds to the 
+reduction of the indebtedness, payment of any lien affecting the 
+Property, or the restoration and repair of the Property. * * * If 
+Lender holds any proceeds after payment in full of the 
+Indebtedness, such proceeds shall be paid to Grantor as 
+Grantor's Interests may appear. 
+ 
+(Limited's Ex. 21.)  Such a provision regarding the distribution of insurance proceeds is 
+enforceable in favor of the mortgagee.  Jones v. GE Capital Mtge. Co., 179 B.R. 450, 456 
+(Bankr.E.D.Penn.1995) (holding that the mortgagee had no obligation to turn over 
+
+Nos. 21AP-61, 21AP-62, 21AP-63 and 21AP-64        
+26 
+ 
+ 
+insurance proceeds to the property owner where the mortgage provided that "[t]he 
+insurance proceeds, or any part [t]hereof may be applied by Mortgagee at its option either 
+to the reduction of the indebtedness or to the restoration or repair of the property 
+damaged"). 
+{¶ 87} In the case at bar, Limited's mortgage debt exceeded $500,000 at the time of 
+the fire.  Huntington, therefore, was entitled to the $139,861.82 in insurance proceeds, 
+which it applied to reduce Limited's indebtedness.  As Huntington had a right to the 
+insurance proceeds and to apply them to the mortgage indebtedness, Limited cannot show 
+that Huntington wrongfully interfered with Limited's possession of the funds.  
+Consequently, Limited cannot prevail on its conversion claim. 
+{¶ 88} In sum, we conclude that the trial court did not err in entering judgment in 
+Huntington's favor on Huntington's action for foreclosure on the Allegheny mortgage or on 
+Limited's claims.  Accordingly, we overrule the fifth assignment of error.      
+{¶ 89} Finally, we return to Limited's first assignment of error, by which it argues 
+that the trial court erred in adopting virtually verbatim the findings of fact and conclusions 
+of law that Huntington proposed.  We disagree. 
+{¶ 90} Pursuant to Civ.R. 52, when questions of fact are tried by a court without a 
+jury, the court must provide written findings of fact and conclusions of law upon the request 
+of any party.  The rule permits a court to require the parties to submit proposed findings of 
+fact and conclusions of law. 
+{¶ 91} This court, as well as others, have expressed concern over the wholesale 
+adoption of one party's proposed findings of fact and conclusions of law.  State v. Stillman, 
+5th Dist. No. 2005-CA-55, 2005-Ohio-6299, ¶ 26; Kaechele v. Kaechele, 72 Ohio App.3d 
+267, 276-77 (10th Dist.1991).  Nevertheless, it is not per se error for a trial court to adopt, 
+verbatim, a party's proposed findings of fact and conclusions of law.  Estie Invest. Co. v. 
+Braff, 11th Dist. No. 2017-L-172, 2018-Ohio-4378, ¶ 22; Mulchin v. ZZZ Anesthesia, Inc., 
+6th Dist. No. E-05-045, 2006-Ohio-5773, ¶ 20.  Before doing so, a trial court must 
+thoroughly review the document to ensure that it is accurate in fact and law.  Watts v. 
+Fledderman, 1st Dist. No. C-170255, 2018-Ohio-2732, ¶ 22; Bluford v. Wells Fargo Fin. 
+Ohio 1, Inc., 176 Ohio App.3d 500, 2008-Ohio-686, ¶ 16 (8th Dist.); An v. Manson, 10th 
+Dist. No. 06AP-90, 2006-Ohio-6733, ¶ 15.  If the proposed findings of fact and conclusions 
+
+Nos. 21AP-61, 21AP-62, 21AP-63 and 21AP-64        
+27 
+ 
+ 
+of law are supported in the record and law, then the trial court does not err by adopting 
+them.  Watts at ¶ 22; Gottlieb v. Gottlieb, 10th Dist. No. 90AP-1131 (Mar. 19, 1991). 
+{¶ 92} In the case at bar, Limited criticizes the trial court for not making a number 
+of findings of fact.  However, the findings Limited faults the trial court for omitting are 
+either irrelevant or not supported by the manifest weight of the evidence.  A review of the 
+entirety of the trial court's findings shows that the court accurately recounted the evidence, 
+although it relied on evidence and drew inferences that Limited disputes.  We cannot fault 
+the trial court for finding Huntington's version of events more credible and convincing than 
+Limited's version.  Accordingly, we conclude that the trial court did not err in adopting 
+Huntington's proposed findings of fact and conclusions of law, and we overrule the first 
+assignment of error. 
+{¶ 93} For the foregoing reasons, we overrule Limited's five assignments of error, 
+and we affirm the judgment of the Franklin County Court of Common Pleas. 
+Judgment affirmed. 
+BEATTY BLUNT and MENTEL, JJ., concur. 
+ 
+ 
+ 
+ 
+ 

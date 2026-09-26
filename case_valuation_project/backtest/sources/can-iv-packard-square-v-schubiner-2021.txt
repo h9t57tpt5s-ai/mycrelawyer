@@ -1,0 +1,952 @@
+If this opinion indicates that it is “FOR PUBLICATION,” it is subject to 
+revision until final publication in the Michigan Appeals Reports. 
+ 
+ 
+ 
+ 
+-1- 
+S T A T E  O F  M I C H I G A N  
+ 
+C O U R T  O F  A P P E A L S  
+ 
+ 
+CAN IV PACKARD SQUARE, LLC, 
+Plaintiff/Counterdefendant-Appellee, 
+UNPUBLISHED 
+April 29, 2021 
+v 
+Nos. 352510; 354185; 354821 
+Oakland Circuit Court 
+CRAIG SCHUBINER, 
+LC No. 2018-167408-CB 
+Defendant/Counterplaintiff-Appellant. 
+ 
+CAN IV PACKARD SQUARE, LLC, 
+Plaintiff/Counterdefendant-Appellee, 
+ 
+v 
+No. 354186 
+Oakland Circuit Court 
+CRAIG SCHUBINER, 
+LC No. 2018-167408-CB 
+Defendant/Counterplaintiff, 
+and 
+BCL PROPERTIES LIMITED PARTNERSHIP and 
+305 ASSOCIATES, LLC, 
+Appellants. 
+ 
+ 
+Before:  O’BRIEN, P.J., and STEPHENS and BOONSTRA, JJ. 
+ 
+PER CURIAM. 
+ 
+In Docket No. 352510, defendant appeals as of right a December 17, 2019 judgment in 
+favor of plaintiff in this action for breach of a guaranty contract.  In Docket No. 354185, defendant 
+appeals as of right a June 23, 2020 order denying a motion of defendant and proposed intervenors, 
+BCL Properties Limited Partnership (“BCL”) and 305 Associates, LLC (“305”), to quash 
+
+-2- 
+subpoenas and granting plaintiff’s motion for proceedings supplementary to judgment.  In Docket 
+No. 354186, proposed intervenors appeal as of right the same June 23, 2020 order.1  In Docket No. 
+354821, defendant appeals by leave granted2 an August 31, 2020 order granting plaintiff’s motion 
+to compel postjudgment discovery.  The four appeals were consolidated.  Can IV Packard Square, 
+LLC v Schubiner, unpublished order of the Court of Appeals, entered October 16, 2020 (Docket 
+No. 354821).  In Docket Nos. 352510 and 354821, we affirm the trial court’s December 17, 2019 
+judgment and August 31, 2020 order, respectively, and in Docket Nos. 354185 and 354186, we 
+vacate the trial court’s June 23, 2020 order and remand for further proceedings. 
+I.  BACKGROUND 
+ 
+This case arises out of a nearly $54 million loan that plaintiff made to defendant’s company, 
+Packard Square, LLC (“Packard Square”), in October 2014 to finance the construction of a luxury 
+retail and residential development project in Ann Arbor, Michigan.  As Packard Square’s principal, 
+defendant signed a guaranty contract as security for the construction loan.  After multiple 
+construction delays, plaintiff sued Packard Square in Washtenaw Circuit Court in October 2016 
+(“the Washtenaw action” or “the Washtenaw case”); plaintiff requested the appointment of a 
+receiver to manage the construction project and sought foreclosure on the mortgage that Packard 
+Square had granted to plaintiff to secure the loan.  See Can IV Packard Square, LLC v Packard 
+Square, LLC, unpublished per curiam opinion of the Court of Appeals, issued January 23, 2018 
+(Docket No. 335512), pp 1-4 (summarizing the procedural history of the Washtenaw action).  
+ 
+At the outset of the Washtenaw action, the trial court granted plaintiff’s request for the 
+appointment of a receiver, and this Court affirmed the appointment of the receiver.  Id. at 4, 11.  
+Following the issuance of this Court’s opinion affirming the Washtenaw Circuit Court’s order 
+appointing the receiver, Packard Square applied for leave to appeal in our Supreme Court, which 
+denied the application for leave to appeal.  Can IV Packard Square, LLC v Packard Square, LLC, 
+503 Mich 860 (2018). 
+ 
+Meanwhile, during its appeal of the receivership order, Packard Square filed for 
+bankruptcy.  The bankruptcy court dismissed the bankruptcy case and noted that “[a] dismissal 
+will avoid any needless confusion or doubt about the ability of the Receiver and the state court in 
+the receivership case to carry on, as if no bankruptcy had been filed.”  In re Packard Square, LLC, 
+575 BR 768, 783 (Bankr ED Mich, 2017).  In affirming the bankruptcy court’s dismissal of the 
+bankruptcy petition, the United States District Court for the Eastern District of Michigan stated 
+that “the [Washtenaw Circuit Court] found, and the Michigan Court of Appeals affirmed those 
+findings, that [Packard Square] had mismanaged the Project in several different ways, leading to 
+delays and missed milestones.”  In re Packard Square, LLC, 586 BR 853, 867 (ED Mich, 2018). 
+ 
+                                                 
+1 Although the claim of appeal in Docket No. 354186 was filed by both proposed intervenors, the 
+appellant’s brief in that appeal was filed on behalf of 305 only. 
+2 See Can IV Packard Square, LLC v Schubiner, unpublished order of the Court of Appeals, 
+entered October 16, 2020 (Docket No. 354821).   
+
+-3- 
+ 
+After the appointment of the receiver, the Washtenaw case proceeded with discovery.  
+Plaintiff eventually moved for summary disposition on its foreclosure claim, seeking foreclosure 
+both on Packard Square’s mortgage and on a higher priority mortgage securing an additional loan 
+that plaintiff had made to the receiver to complete construction.  See Can IV Packard Square, LLC 
+v Packard Square, LLC, 328 Mich App 656, 658; 939 NW2d 454 (2019).  In September 2018, the 
+trial court granted summary disposition to plaintiff on its foreclosure claim and “entered a 
+judgment of foreclosure authorizing the sale of the property at a sheriff’s sale.”  Id. at 658.  The 
+property was sold to plaintiff for a $75 million credit bid at the November 15, 2018 foreclosure 
+sale, and Packard Square filed an appeal from the judgment of foreclosure.  See id. at 658-660.  
+This Court dismissed Packard Square’s appeal as moot after Packard Square failed to redeem the 
+property within the redemption period as provided in MCL 600.3140.  Can IV, 328 Mich App at 
+658, 666.  Following the issuance of this Court’s opinion dismissing the appeal, Packard Square 
+applied for leave to appeal in our Supreme Court, which denied the application for leave to appeal.  
+Can IV Packard Square, LLC v Packard Square, LLC, 505 Mich 1001 (2020). 
+ 
+On February 15, 2019, the Washtenaw Circuit Court entered an order granting summary 
+disposition to plaintiff regarding counterclaims that Packard Square had asserted against plaintiff 
+in the Washtenaw case.  Packard Square filed an appeal as of right from that order in Docket No. 
+348857.  On July 11, 2019, the Washtenaw Circuit Court entered an order approving the receiver’s 
+final report, discharging the receiver’s bond, and discharging the receiver, and Packard Square 
+filed an appeal as of right from that order in Docket No. 350519.  Those two appeals were 
+consolidated, Can IV Packard Square, LLC v Packard Square, LLC, unpublished order of the 
+Court of Appeals, entered December 10, 2019 (Docket No. 348857); Can IV Packard Square, LLC 
+v Packard Square, LLC, unpublished order of the Court of Appeals, entered December 10, 2019 
+(Docket No. 350519), and were submitted to a case call panel of this Court on January 6, 2021.3 
+ 
+On July 30, 2018, plaintiff filed the present action against defendant for breach of the 
+guaranty contract.  Plaintiff alleged that, under the terms of the guaranty contract, defendant had 
+agreed to be liable for the full amount of plaintiff’s loan to Packard Square upon the occurrence of 
+certain recourse triggers.  Among those recourse triggers were the filing by Packard Square or 
+defendant of a voluntary bankruptcy proceeding and opposition by Packard Square or defendant 
+to a motion of plaintiff for relief from the automatic bankruptcy stay.  Plaintiff asserted that, 
+through bankruptcy filings made by defendant on behalf of Packard Square, defendant breached 
+the guaranty contract and triggered the recourse provisions of the guaranty contract.  Those actions 
+made defendant liable to plaintiff for the full amount of the loan, including all principal, interest, 
+advances, fees, and charges.   
+ 
+On December 17, 2018, defendant filed an answer denying liability and asserted 
+affirmative defenses and counterclaims.  Among his affirmative defenses, defendant asserted that 
+plaintiff had breached the loan agreement with Packard Square first, making it impossible for 
+Packard Square and defendant to perform their contractual obligations.  Defendant further asserted 
+ 
+                                                 
+3 In addition to the appeals in the Washtenaw case that have already been discussed, there have 
+been many other appeals by Packard Square in the Washtenaw case, none of which are pertinent 
+to the instant appeals and none of which were successful. 
+
+-4- 
+that plaintiff had altered the loan agreement and impaired collateral.  In his counterclaims, 
+defendant alleged that, when the loan agreement was made in October 2014, he deposited $1 
+million into a City National Bank account in which plaintiff held a security interest in accordance 
+with ancillary agreements known as a deposit accounts control agreement (“DACA”) and a pledge 
+agreement.  Defendant also asserted that plaintiff’s refusal to pay certain subcontractors in August 
+2016 led to the filing of liens by those subcontractors.  Plaintiff’s refusal to pay construction costs 
+in the summer of 2016 made it impossible for Packard Square to continue construction.  On 
+February 21, 2017, months after the receiver had been appointed in the Washtenaw action, plaintiff 
+sent a letter to defendant asserting that defendant was responsible for paying or removing liens on 
+the construction project.  On February 24, 2017, plaintiff instructed City National Bank to wire the 
+funds in the DACA account to plaintiff, and City National Bank wired those funds, which 
+amounted to $1,000,885.33, to plaintiff on the same date.  Defendant asserted a breach of contract 
+counterclaim, alleging that plaintiff improperly declared defaults by Packard Square when there 
+were no defaults, that defendant had no obligation to pay off the liens, that plaintiff had caused the 
+liens by failing to fund the construction, and that plaintiff had no right to instruct City National 
+Bank to transfer the funds from the DACA account to plaintiff.4     
+ 
+The parties filed competing motions for summary disposition pursuant to MCR 
+2.116(C)(10) regarding both plaintiff’s breach of contract claim and defendant’s counterclaims.  
+On December 11, 2019, the trial court issued an opinion and order granting summary disposition 
+to plaintiff on both its breach of contract claim and defendant’s counterclaims.  On December 17, 
+2019, the trial court entered a judgment for plaintiff and against defendant in the amount of 
+$13,992,936.05, along with attorney fees, consultant fees, continuing interest, and costs.  
+ 
+Extensive postjudgment litigation ensued regarding plaintiff’s collection efforts against 
+defendant and entities associated with defendant.  On January 16, 2020, the trial court entered an 
+order enjoining defendant from transferring assets outside of the normal course of business 
+pending the satisfaction of the judgment.   
+ 
+On March 6, 2020, proposed intervenors, BCL and 305, filed trial court motions to 
+intervene, quash garnishments, set aside judgment liens, and vacate orders to seize property.  
+According to proposed intervenors, plaintiff had improperly attempted to execute the December 
+17, 2019 judgment in this case against multiple properties that are each owned by either BCL or 
+305 which are located in Birmingham, Michigan, or Ann Arbor, Michigan.  305 was owned by a 
+number of trusts of which defendant and members of his family were beneficiaries.  BCL was 
+owned by defendant as a general partner and a limited partner named Richard Rogel.  Proposed 
+intervenors sought to intervene in order to protect their ownership interests in the properties and 
+to prevent plaintiff from undertaking collection efforts against the properties owned by proposed 
+intervenors.  Defendant filed a concurrence in proposed intervenors’ motion.  
+ 
+On March 13, 2020, plaintiff filed a response opposing the motions.  Plaintiff argued that 
+defendant was attempting to obstruct lawful collection efforts.  With respect to each of the 
+properties at issue, defendant had historically transferred the property in and out of his name.  By 
+ 
+                                                 
+4 In addition to his breach of contract counterclaim, defendant also alleged other counterclaims, 
+which are not discussed here because defendant raises no issue on appeal about them. 
+
+-5- 
+way of example, defendant held the two properties located in Birmingham, 201 Linden and 200 
+Aspen, in his name up until January 20, 2020, but transferred them to 305, of which defendant was 
+a member, the resident agent, and manager, for the consideration of $1.  As of the date of the trial 
+court denial of the motion to quash, the Ann Arbor property, 702 Tappen, was titled in the 
+defendant’s name.  
+ 
+The trial court determined that the resolution of the question of who was the rightful owner 
+of the subject properties required an evidentiary hearing and, due to the Covid-19 pandemic, 
+scheduled an evidentiary hearing for May 14, 2020.  That date was later adjourned to June 25, 
+2020.  All collection efforts regarding the properties at issue were stayed pending the evidentiary 
+hearing.   
+ 
+In its collection efforts, plaintiff had issued subpoenas to four of 305’s past and current 
+lenders, seeking financial information about proposed intervenors and related entities not involved 
+in this case.  On June 9, 2020, defendant and proposed intervenors filed a joint motion to quash 
+subpoenas and for a protective order.  They asked that all collection efforts aimed at the subject 
+properties cease because plaintiff knew that defendant did not individually own the Aspen, Linden, 
+and Tappan properties.  Defendant and proposed intervenors asked the trial court to quash the 
+subpoenas and to enter a protective order to protect the confidential and proprietary financial 
+information of proposed intervenors and their related entities and to prevent plaintiff from 
+obtaining discovery from the third-party lenders.   
+ 
+On June 15, 2020, plaintiff filed a motion for proceedings supplementary to judgment.  
+Plaintiff argued that defendant’s transfer of the Aspen property to 305 on January 20, 2020, was 
+fraudulent, a violation of the January 16, 2020 order enjoining the transfer of defendant’s assets, 
+and a voidable transaction under the Uniform Voidable Transactions Act (UVTA), MCL 566.31 
+et seq.  As a consequence, plaintiff asked that the trial court enter an order to void the fraudulent 
+transfer.  Specifically, plaintiff asked the court to do the following: 
+(1) Set aside the January 20, 2020 transfer of the Aspen and Linden properties to 305 or 
+order 305 to show cause why the conveyance should not be set aside;  
+(2) Quiet title to the Aspen and Linden properties in plaintiff’s name;  
+(3) Order defendant to provide an accounting of all proceeds of a mortgage that defendant 
+took on the Aspen property in January 2020 and turn the proceeds over to plaintiff to the 
+extent necessary to satisfy the judgment; and 
+(4) Enjoin defendant and 305 from transferring or disposing of assets pending satisfaction 
+of the judgment. 
+ 
+On June 19, 2020, defendant and 305 filed a joint response to plaintiff’s motion for 
+proceedings supplementary to judgment.  They argued that plaintiff’s motion was an attempt to 
+circumvent the stay on collection proceedings that was in effect pending the evidentiary hearing 
+ordered by the trial court.  Defendant argued he did not violate the order enjoining transfers 
+because the property that was refinanced was owned by 305 and the transactions were part of the 
+ordinary course of refinancing the property.  He asserted that the Aspen property was nominally 
+
+-6- 
+put in his  name for only one business day in January 2020 in order to effectuate the routine 
+refinancing.  
+ 
+On June 23, 2020, the trial court entered an order denying the motion to quash subpoenas, 
+finding that they were another attempt by defendant to delay proceedings and avoid his obligations 
+under the judgment.  The court further found that the motion was made “without basis in law or 
+fact” and sanctioned both defendant and his attorney in the amount of $1,000.  The motion to allow 
+proceedings supplemental to judgment was granted.  
+ 
+On August 24, 2020, plaintiff filed in the trial court a motion to compel discovery from 
+defendant and for sanctions against defendant and his counsel.  The motion stated that, on July 10, 
+2020, plaintiff served on defendant a request for production of documents.  On August 7, 2020, 
+defendant filed his response to the discovery request, which consisted entirely of objections, and 
+defendant did not produce a single document.  As relevant to these appeals, one of defendant’s 
+objections was that plaintiff did not ask the trial court for leave to engage in discovery.  Plaintiff 
+argued that, as a judgment creditor, it was not required to seek leave to engage in discovery.  
+Plaintiff asked for an order compelling discovery as well as sanctions against defendant and his 
+counsel.  Defendant argued sanctions against him and his counsel would be improper because 
+defendant’s objection to the discovery request was justified.  On August 31, 2020, the trial court 
+issued an order granting the motion, ordering defendant to comply with discovery requests, and 
+sanctioning defendant by requiring him to pay plaintiff’s attorney fees of $2500 in bringing the 
+motion.  
+ 
+These consolidated appeals ensued from the respective judgment and orders as set forth in 
+the opening paragraph of this opinion. 
+II. DOCKET NO. 352510 
+A.  SUMMARY DISPOSITION 
+1.  STANDARD OF REVIEW 
+ 
+This Court reviews de novo a trial court’s decision regarding a motion for summary 
+disposition.  El-Khalil v Oakwood Healthcare, Inc, 504 Mich 152, 159; 934 NW2d 665 (2019).  
+When considering a motion under MCR 2.116(C)(10),  
+a trial court must consider all evidence submitted by the parties in the light most 
+favorable to the party opposing the motion.  A motion under MCR 2.116(C)(10) 
+may only be granted when there is no genuine issue of material fact.  A genuine 
+issue of material fact exists when the record leaves open an issue upon which 
+reasonable minds might differ.  [El-Khalil, 504 Mich at 160 (quotation marks and 
+citations omitted).] 
+ 
+This Court also reviews de novo the proper interpretation or application of a contract.  
+Yoches v Dearborn, 320 Mich App 461, 479; 904 NW2d 887 (2017).  Unambiguous contractual 
+language is applied as written.  Chestonia Twp v Star Twp, 266 Mich App 423, 432; 702 NW2d 
+631 (2005).  See also Comerica Bank v Cohen, 291 Mich App 40, 54-55; 805 NW2d 544 (2010) 
+(noting that guaranty contracts “are to be construed like other contracts” and that, “under ordinary 
+
+-7- 
+contract principles, if contractual language is clear, construction of the contract is a question of 
+law for the court[]”) (quotation marks, brackets, and citations omitted). 
+ 
+The proper interpretation and application of a statute are likewise reviewed de novo.  Wood 
+v Detroit, 323 Mich App 416, 419; 917 NW2d 709 (2018).  Unambiguous statutory language is 
+applied as written.  Mich Ass’n of Home Builders v Troy, 504 Mich 204, 212; 934 NW2d 713 
+(2019). 
+2.  PLAINTIFF’S BREACH OF CONTRACT CLAIM 
+ 
+Defendant argues that the trial court erred in granting summary disposition to plaintiff on 
+its claim that defendant breached his guaranty contract.  Defendant asserts  that plaintiff lacked 
+authority to make the receiver loan secured by the receiver mortgage.  According to defendant, the 
+receiver loan and mortgage constituted material alterations of Packard Square’s original debt, 
+thereby relieving defendant of his obligation as a guarantor of the original debt.  Defendant’s 
+argument is unavailing. 
+ 
+A material alteration of an underlying loan agreement releases a guarantor from his or her 
+obligation.  See Texaco, Inc v Clifton, 87 Mich App 546, 551-553; 274 NW2d 486 (1978).  But no 
+material alteration of the underlying loan agreement occurred here.  The appointment of a receiver 
+and the advancement of funds to the receiver to complete construction were anticipated as part of 
+the original loan agreement.  Under § 9.3 of the original mortgage, Packard Square agreed that, 
+“upon the occurrence of an Event of Default[,]” plaintiff “shall, as a matter of right, be entitled to 
+the appointment of a receiver for all or any part of the Property[.]”  And § 9.3 of the original 
+mortgage expressly noted the possibility that plaintiff would advance funds to the receiver; that 
+section referred to “[a]ny money advanced by [plaintiff] in connection with a receivership . . . .”  
+Defendant argues that § 9.3 did not authorize a separate receiver mortgage, instead making any 
+funds advanced to the receiver part of the original indebtedness, but § 9.3 contains no language 
+precluding plaintiff from exercising its rights under Michigan law, which, as explained later, 
+included the issuance of the receiver mortgage. 
+ 
+“It is a well-established rule that a variation of the principal’s contract which under the 
+terms of the original agreement should have been anticipated as a possibility will not discharge the 
+surety.”  Matter of Bluestone’s Estate, 121 Mich App 659, 667; 329 NW2d 446 (1982) (quotation 
+marks, brackets, and citation omitted).  In § 6(h) of the guaranty contract, defendant acknowledged 
+that he had received and approved the underlying loan documents.  In § 6(b) of the guaranty 
+contract, defendant acknowledged that “[t]he Loan Documents, and all dealings between Borrower 
+or Guarantor and Lender, and any of them, shall conclusively be deemed and presumed to have 
+been created, contracted, incurred, and consummated in reliance upon this Guaranty.”  It is beyond 
+dispute that the appointment of a receiver and the advancement of funds to the receiver by plaintiff 
+were anticipated as a possibility under the terms of the original loan documents and that these 
+events thus did not discharge defendant’s obligations as a guarantor. 
+ 
+Further, the receiver mortgage was authorized by Michigan law.  MCL 570.1123(1), a 
+provision of the Construction Lien Act (CLA), MCL 570.1101 et seq., provides, in relevant part: 
+
+-8- 
+The receiver may petition the court for authority to complete construction of 
+improvements to the real property in full or in part, to borrow money to complete 
+the construction, and to grant security, by way of mortgage or otherwise, for the 
+borrowings.  The priority of the security shall be determined by the court. 
+In its order appointing the receiver, the Washtenaw Circuit Court authorized the receiver to 
+present to the Court for approval a loan agreement, note, mortgage and other 
+security agreements securing the Receiver loan, which loan, secured by a senior, 
+first-priority mortgage on the Receivership Property, and all disbursements and 
+advancements under the loan shall be senior to all other liens and have a super 
+priority lien position on the Receivership Property . . . .  
+ 
+Also, MCL 570.1124(1) provides, in relevant part, that “[r]epayment of funds borrowed by 
+the receiver, under court authority, for the completion of improvements, or for any other purpose 
+shall have priority in the distribution, unless a different priority has been ordered by the court.”5  
+The Washtenaw Circuit Court did not order a different priority.  Rather, the Washtenaw Circuit 
+Court’s order appointing the receiver described the receiver mortgage as “a senior, first-priority 
+mortgage” that had “a super priority lien position on the Receivership Property . . . .”  And the 
+Washtenaw Circuit Court’s judgment of foreclosure stated, “Under the terms of the Order 
+Appointing Receiver, the Receiver Mortgage grants Plaintiff a super priority mortgage lien on the 
+Property[.]”6  
+ 
+In the guaranty contract, defendant agreed that Michigan law governed the original loan 
+documents.  Contracting parties are presumed to act with knowledge of the law.  Hyatt v Grand 
+Rapids Brewing Co, 168 Mich 360, 363; 134 NW 22 (1912).  Given the provisions of Michigan 
+ 
+                                                 
+5 Defendant suggests that this provision, which is part of the CLA, is inapplicable because the 
+foreclosure sale was not initiated by the receiver.  But provisions of the CLA apply when there is 
+an action to foreclose a mortgage on real property on which an incomplete improvement exists and 
+appointment of a receiver is sought, i.e., the precise circumstance that existed here.  See MCL 
+570.1122(1) (“If the improvement to the real property is not completed as of the date of 
+commencement of . . . any action to foreclose a mortgage on the real property on which the 
+incomplete improvement exists, any lien claimant or mortgagee may petition the court for the 
+appointment of a receiver.”).  Defendant has cited no authority establishing that the priority 
+provision of MCL 570.1124(1) is limited to receiver-initiated sales. 
+6 Defendant argues that, despite the language in the order appointing the receiver and the judgment 
+of foreclosure, the receiver loan agreement itself did not grant priority to the receiver mortgage 
+over Packard Square’s original mortgage.  But even if the receiver loan agreement itself did not 
+grant priority to the receiver mortgage over the original mortgage, this does not lead to the 
+conclusion that plaintiff was required to apply the foreclosure sale proceeds first to the original 
+loan rather than the receiver loan or that plaintiff’s failure to do so relieved defendant of his 
+obligation as a guarantor of the original loan.  As noted later, in the guaranty contract, defendant 
+waived any defense based on plaintiff’s election not to pursue any remedy against any collateral. 
+
+-9- 
+law discussed, the receiver mortgage with its priority status should have been anticipated as a 
+possibility, and defendant’s obligation as a guarantor was not extinguished.  
+ 
+Defendant’s argument fails for additional reasons.  In the guaranty contract, defendant 
+agreed that, without affecting defendant’s liability, plaintiff was authorized to “take and hold 
+security for the performance of [Packard Square’s] obligations under the Note or any of the other 
+Loan Documents and exchange, enforce, waive and release any such security”.  Defendant further 
+agreed that plaintiff was authorized to “apply such security and direct the order or manner of sale 
+thereof as [plaintiff] in its sole discretion may determine[.]”  Plaintiff, empowered to exercise its 
+sole discretion, acted within its contractual authority when it decided to apply the proceeds of the 
+foreclosure sale first to the receiver loan and then to the original loan.  See In re Dosker, 284 Mich 
+597, 602-603; 280 NW 61 (1938) (“The law is uniform that if collateral is pledged to secure a 
+number of different notes, one of which is also guaranteed by a surety, in the absence of an 
+agreement to the contrary, the proceeds of the collateral may be applied to notes not so 
+guaranteed.”); United States v Brown, 833 F Supp 625, 631 (ED Mich, 1993) (holding that a 
+guarantor was bound by the discretion granted to the lender with respect to determining the manner 
+of applying the proceeds of the sale of collateral).7  
+ 
+Pursuant to the guaranty, plaintiff was not required to take collateral or to enforce its rights 
+with respect to any collateral.  The guaranty contract provided that “[i]t is not a condition to 
+effectiveness or enforceability of this Guaranty . . . that any collateral or security interest be taken 
+or effective or perfected in respect of the Guaranteed Obligations . . . .”   Any defense premised 
+on plaintiff’s election not to pursue any remedy against any collateral was waived.  The contract 
+provided that “any defense whether otherwise available to [defendant] under any applicable Laws, 
+based upon [plaintiff’s] election to (or election not to) pursue any remedy against all or any of the 
+Collateral.”  Defendant argued at the trial court and here that plaintiff should be foreclosed from 
+recovery because it failed to pursue a remedy against the collateral.  Defendant waived that defense 
+in the guaranty contract.  See Quality Prod & Concepts Co v Nagel Precision, Inc, 469 Mich 362, 
+374; 666 NW2d 251 (2003) (“a waiver is a voluntary and intentional abandonment of a known 
+right[]”).  
+ 
+Finally, defendant’s reliance on equitable principles discussed in this Court’s recent 
+opinion in Fed Home Loan Mtg Corp v Werme, ___ Mich App ___; ___ NW2d ___ (2021) (Docket 
+No. 350981), is misplaced.  In his notice of supplemental authority to this Court, defendant notes 
+that in Werme, we relieved the defendant from a potential mortgage deficiency claim by applying 
+equitable principles against double recoveries as set forth in Bd of Trustees of the Gen Retirement 
+Sys of Detroit v Ren-Cen Indoor Tennis & Racquet Club, 145 Mich App 318; 377 NW2d 432 
+(1985).  Defendant says that, under the equitable principles applied in Werme and Ren-Cen, 
+plaintiff’s application of its $75 million credit bid to first pay off the receiver loan should have 
+fully discharged Packard Square’s original mortgage and relieved defendant of any liability for the 
+loan repayment deficiency.  Defendant argues  that plaintiff “now owns the property and stands to 
+recover even more money from selling the now completed development project.”  Defendant 
+ 
+                                                 
+7 Decisions of lower federal courts are not binding on this Court but may be persuasive.  
+Vanderpool v Pineview Estates, LC, 289 Mich App 119, 124 n 2; 808 NW2d 227 (2010). 
+
+-10- 
+identifies no support for this contention beyond mere conjecture and speculation.  A party may not 
+rely on mere conjecture and speculation at the summary disposition stage.  Libralter Plastics, Inc 
+v Chubb Group of Ins Cos, 199 Mich App 482, 486; 502 NW2d 742 (1993).   Defendant has not 
+established that the equitable principles barring double recovery set forth in Ren-Cen and Werme 
+apply here.  There is no record evidence that plaintiff’s $75 million credit bid constituted a 
+depressed purchase price in relation to the value of the property at the time of purchase.  The record 
+is also devoid of evidence that  plaintiff obtained a windfall in the form of a double recovery.  Cf. 
+Werme, ___ Mich App at ___; slip op at 10-12; Ren-Cen, 145 Mich App at 325-326.   
+3.  DEFENDANT’S BREACH OF CONTRACT COUNTERCLAIM 
+ 
+Defendant next argues that the trial court erred in granting summary disposition to plaintiff 
+on defendant’s counterclaim for breach of contract.  According to defendant, plaintiff breached the 
+guaranty contract, the pledge agreement, and the DACA when plaintiff swept $1 million that 
+defendant had deposited in the DACA account as collateral.  Defendant’s argument is unavailing. 
+ 
+In the guaranty contract, defendant guaranteed Packard Square’s obligations or liabilities 
+to plaintiff “for any actual loss, damage, liability, cost or expense incurred by” plaintiff relating to 
+the property which was a direct result of, as relevant here, “the failure to pay any . . . lienable 
+charges . . . .”  In the pledge agreement, defendant granted to plaintiff “a continuing and 
+unconditional security interest in” the DACA account (referred to in the pledge agreement as “the 
+Guarantor Account”) “maintained with City National Bank . . . .”  The pledge agreement further 
+provided: 
+ 
+This Pledge Agreement and the Security Interest created hereby secures 
+payment of all obligations of any kind owing by [defendant] to [plaintiff] in 
+connection with [defendant’s] payment and performance, as applicable, obligations 
+under the Guarantees (collectively, the “Guarantee Obligations”).  Upon an Event 
+of Default together with [defendant’s] failure to promptly satisfy, as determined by 
+[plaintiff] in its sole discretion, any Guarantee Obligation, [defendant] hereby 
+authorizes [plaintiff] to transfer and apply any and all Collateral to satisfy, in whole 
+or in part to the extent of Collateral available, the Guarantee Obligations.  
+[Emphasis added]. 
+The pledge agreement also stated that, “upon an Event of Default together with [defendant’s] 
+failure to promptly satisfy, as determined by [plaintiff] in its sole discretion, any Guarantee 
+Obligation, [plaintiff] shall have the right to” direct City National Bank “to transfer all or any of 
+the funds in the Guarantor Account, together with any interest thereon, to” plaintiff.  And in the 
+DACA, the parties agreed that plaintiff “shall be entitled . . . at any time to give [City National 
+Bank] instructions as to the withdrawal or disposition of funds . . . without further consent of 
+[defendant], and [City National Bank] shall comply with such instructions without further consent 
+of” defendant.  
+ 
+The application of collateral estoppel is reviewed de novo.  Radwan v Ameriprise Ins Co, 
+327 Mich App 159, 164; 933 NW2d 385 (2018).  “Collateral estoppel is a flexible rule intended to 
+relieve parties of multiple litigation, conserve judicial resources, and encourage reliance on 
+adjudication.”  Rental Props Owners Ass’n of Kent Co v Kent Co Treasurer, 308 Mich App 498, 
+
+-11- 
+529; 866 NW2d 817 (2014).  “Generally, application of collateral estoppel requires (1) that a 
+question of fact essential to the judgment was actually litigated and determined by a valid and final 
+judgment, (2) that the same parties had a full and fair opportunity to litigate the issue, and (3) 
+mutuality of estoppel.”  Id.  
+ 
+“The parties to the second action need be only substantially identical to the parties in the 
+first action, in that the rule applies to both parties and their privies.”  Peterson Novelties, Inc v 
+Berkley, 259 Mich App 1, 12; 672 NW2d 351 (2003).  “Regarding private parties, a privy includes 
+a person so identified in interest with another that he represents the same legal right, such as a 
+principal to an agent, a master to a servant, or an indemnitor to an indemnitee.”  Id. at 12-13.  “A 
+manager is an agent of the limited liability company for the purpose of its business[.]”  MCL 
+450.4406.  A shareholder of a closely held corporation is deemed in privity with that corporation.  
+See Wildfong v Fireman’s Fund Ins Co, 181 Mich App 110, 115-116; 448 NW2d 722 (1989).   
+ 
+“Mutuality of estoppel requires that in order for a party to estop an adversary from 
+relitigating an issue that party must have been a party, or in privy to a party, in the previous action.”  
+Monat v State Farm Ins Co, 469 Mich 679, 684; 677 NW2d 843 (2004) (quotation marks, brackets, 
+and citation omitted).  That is, “the estoppel is mutual if the one taking advantage of the earlier 
+adjudication would have been bound by it, had it gone against him.”  Id. at 684-685 (quotation 
+marks, brackets, and citations omitted). 
+ 
+The first element of collateral estoppel is satisfied because Packard Square’s responsibility 
+for two subcontractor liens was actually litigated and adjudicated in the Washtenaw action.  In the 
+Washtenaw case, plaintiff filed a complaint against Packard Square, seeking an order appointing 
+a receiver as well as a judgment of foreclosure.  Among the reasons why plaintiff sought such 
+relief was that Packard Square had failed to resolve certain subcontractor liens filed against the 
+property, including a lien recorded by Gaylor Electric, Inc. (“Gaylor”), on September 29, 2016, 
+for $916,312.91, and a lien recorded by Jermor Plumbing & Heating, Inc. (“Jermor”), on October 
+6, 2016, for $330,958.06.  In its answer to plaintiff’s complaint in the Washtenaw case, Packard 
+Square asserted that the liens were solely the result of plaintiff’s refusal to fund the construction.  
+Packard Square made the same argument in responding to plaintiff’s motion to appoint a receiver, 
+i.e., Packard Square contended that plaintiff’s refusal to provide funding led to the recording of 
+the Gaylor and Jermor liens.  
+ 
+The Washtenaw Circuit Court determined that Packard Square defaulted under the original 
+loan documents, and it thus entered an order appointing the receiver; this was a final order on 
+plaintiff’s claim for appointment of a receiver.  Packard Square filed an appeal as of right from the 
+order appointing the receiver.  In affirming that order, this Court addressed Packard Square’s 
+argument that plaintiff had unclean hands because it had purportedly “failed to release funds to 
+subcontractors for work that plaintiff approved and thereby failed to honor its loan commitments.”  
+Can IV, unpub op at 7.  That is, Packard Square contended that “plaintiff could not hold [Packard 
+Square] in default when plaintiff’s conduct obstructed [Packard Square’s] efforts to comply with 
+the contract.”  Id.  This Court explained that Packard Square’s argument lacked merit and was 
+based on a false premise: 
+Although plaintiff advised [Packard Square] that it approved certain 
+subcontractor’s pay applications, plaintiff informed [Packard Square] that before it 
+
+-12- 
+would pay those applications, [Packard Square] had to provide plaintiff 
+unconditional lien waivers.  Under Loan Agreement § 9.2, [Packard Square] had 
+the obligation to provide lien waivers before plaintiff’s obligation to disburse funds 
+arose.  The record contains no evidence that [Packard Square] ever obtained full 
+unconditional lien waivers from the subcontractor who recorded liens or presented 
+them to plaintiff.  Consequently, plaintiff had no obligation to make such payments 
+merely because it approved the work.  [Packard Square] had to fulfill the 
+contractual conditions precedent to payment.  [Packard Square] failed to do so.  
+Further, [Packard Square’s] commission of the other events of default as defined in 
+Loan Agreement § 10.1 triggered operation of Loan Agreement § 9.1(e) which 
+unequivocally provided that plaintiff had no obligation to disburse funds if any 
+default existed.  The record reflects that plaintiff complied with the terms of the 
+Loan Agreement and simply exercised its contractual rights.  Therefore, we hold 
+that the trial court did not abuse its discretion by appointing a receiver because 
+plaintiff did not come to the trial court with unclean hands.  [Id.] 
+Following the issuance of this Court’s opinion affirming the Washtenaw Circuit Court’s order 
+appointing the receiver, Packard Square applied for leave to appeal in our Supreme Court, which 
+denied the application for leave to appeal.  Can IV, 503 Mich at 860.  
+ 
+Plaintiff later sought summary disposition on its foreclosure claim in the Washtenaw case.  
+In granting summary disposition to plaintiff on its foreclosure claim, the Washtenaw Circuit Court 
+stated, in relevant part, that “[t]he loan documents obligated Packard Square to resolve any liens 
+that subcontractors might place on the property. . . .  Liens were filed and Packard Square did not 
+resolve/release those claims of lien in compliance with the loan document.”  The Washtenaw 
+Circuit Court therefore entered a judgment of foreclosure.  Packard Square filed an appeal as of 
+right from the judgment of foreclosure.  This Court dismissed Packard Square’s appeal as moot 
+after Packard Square failed to redeem the property within the redemption period as provided in 
+MCL 600.3140.  Can IV, 328 Mich App at 658, 666.  Following the issuance of this Court’s 
+opinion dismissing the appeal, Packard Square applied for leave to appeal in our Supreme Court, 
+which denied the application for leave to appeal.  Can IV, 505 Mich at 1001.  Therefore, Packard 
+Square’s responsibility for subcontractor liens was actually litigated and adjudicated in the 
+Washtenaw case.   
+ 
+The second element of collateral estoppel is satisfied.  The same parties or their privies had 
+a full and fair opportunity to litigate the issue of the subcontractor liens in the Washtenaw case.  
+Although defendant was not a party in the Washtenaw case, he is in privity with Packard Square; 
+his deposition testimony establishes that he owns and manages Packard Square and is the sole 
+decisionmaker for it.   
+ 
+The third element of collateral estoppel is likewise satisfied.  There is mutuality of estoppel 
+because plaintiff and Packard Square were both parties in the Washtenaw action, and plaintiff thus 
+would have been bound by the adjudication in the Washtenaw action if it had gone against plaintiff.  
+ 
+Accordingly, the trial court properly determined that defendant was collaterally estopped 
+from relitigating the facts that Packard Square defaulted in failing to resolve subcontractor liens 
+and that plaintiff could stop disbursing funds following Packard Square’s defaults.  Notably, 
+
+-13- 
+defendant’s brief on appeal does not address the trial court’s application of collateral estoppel.  
+“When an appellant fails to address the basis of a trial court’s decision, this Court need not even 
+consider granting relief.”  Seifeddine v Jaber, 327 Mich App 514, 522; 934 NW2d 64 (2019).8  
+Packard Square’s defaults triggered defendant’s obligations under the guaranty contract, and it is 
+beyond dispute that defendant never satisfied his obligations under the guaranty contract.  Plaintiff 
+was thus entitled to transfer funds from the DACA account pursuant to the earlier-quoted 
+provisions of the pledge agreement and the DACA.  In short, plaintiff acted within its contractual 
+rights when it obtained funds from the DACA account.  Defendant thus has not demonstrated a 
+genuine issue of material fact in support of his counterclaim for breach of contract, and the trial 
+court properly granted summary disposition to plaintiff on the breach-of-contract counterclaim. 
+3.  DAMAGES 
+ 
+Defendant next makes various arguments challenging the trial court’s award of damages.  
+Defendant’s arguments are unavailing. 
+ 
+An issue must be raised in or decided by the trial court in order to be preserved for appeal.  
+Glasker-Davis v Auvenshine, ___ Mich App ___, ___; ___ NW2d ___ (2020) (Docket No. 
+345238); slip op at 3.  The issue of plaintiff’s entitlement to damages at the summary disposition 
+stage was raised and decided below and is preserved.  However, defendant did not raise below his 
+arguments that an affidavit of plaintiff’s principal, Gerald Goldman, was based on hearsay or that 
+plaintiff failed to mitigate its damages by failing to seek immediate foreclosure.  Those arguments 
+are therefore unpreserved.  
+ 
+For the unpreserved aspects of the issue, any review is limited to plain error affecting 
+substantial rights.  Kloian v Schwartz, 272 Mich App 232, 242; 725 NW2d 671 (2006).  Defendant 
+must show that an error occurred, that the error was clear or obvious, and that the error affected 
+substantial rights.  In re Ferranti, 504 Mich 1, 29; 934 NW2d 610 (2019).  Generally, an error 
+affects substantial rights if it is prejudicial, i.e., it affected the outcome of the case.  In re Utrera, 
+281 Mich App 1, 9; 761 NW2d 253 (2008).   
+ 
+Damages may be awarded at the summary disposition stage if there is no genuine issue of 
+material fact with respect to the amount of damages.  See Batton-Jajuga v Farm Bureau Gen Ins 
+Co of Mich, 322 Mich App 422, 425, 428, 438; 913 NW2d 351 (2017) (affirming an order 
+awarding damages on summary disposition); Barnard Mfg Co, Inc v Gates Performance 
+Engineering, Inc, 285 Mich App 362, 363-364, 381; 775 NW2d 618 (2009) (same).  When moving 
+for summary disposition on its breach of contract claim, plaintiff presented an affidavit of its 
+corporate representative, Goldman, setting forth detailed calculations regarding the amount owed 
+under the loan documents.  The receiver reported the same amount to the Washtenaw Circuit Court, 
+which approved the receiver’s final report over Packard Square’s objections.  Goldman’s affidavit 
+indicated that, in accordance with the Washtenaw Circuit Court’s orders and Michigan law, 
+plaintiff applied its $75 million credit bid to the receiver indebtedness first, extinguishing 
+ 
+                                                 
+8 Defendant’s reply brief seems to address the collateral estoppel issue, but “[r]eply briefs must be 
+confined to rebuttal, and a party may not raise new or additional arguments in its reply brief.”  
+Kinder Morgan Mich, LLC v City of Jackson, 277 Mich App 159, 174; 744 NW2d 184 (2007). 
+
+-14- 
+$37,823,096.45 of indebtedness.  Plaintiff applied the remainder of the credit bid to the original 
+loan indebtedness, leaving a balance owed by defendant of $13,992,936.05, exclusive of collection 
+costs, attorney fees, consulting fees, and other applicable continuing interest, costs, fees, and 
+expenses.  Plaintiff asked for a judgment in accordance with the amounts, calculations, and 
+averments in Goldman’s affidavit.  Defendant provided no evidentiary basis to dispute the amounts 
+in Goldman’s affidavit.  Therefore, no genuine issue of material fact existed regarding the amount 
+of damages. 
+ 
+As for defendant’s unpreserved contention that the Goldman affidavit contains hearsay, 
+defendant fails to appreciate that evidence presented at the summary disposition stage need only 
+be substantively admissible.  See Barnard Mfg, 285 Mich App at 373 (although evidence presented 
+at the summary disposition stage “must be substantively admissible, it does not have to be in 
+admissible form[]”).  The damages calculations contained in Goldman’s affidavit were based on 
+business records.  The underlying business records would have been admissible under MRE 803(6) 
+if a proper foundation was laid.  A party is not required at the summary disposition stage to lay a 
+foundation for the admission of documents as long as a plausible basis for their admission exists.  
+Barnard Mfg, 285 Mich App at 373.  Although the Goldman affidavit itself was prepared in 
+anticipation of litigation and thus would not itself be admissible in form, there is no indication that 
+the underlying business records were prepared in anticipation of litigation.  Defendant relies on 
+inapposite cases in which business records themselves were prepared in anticipation of litigation 
+and were thus deemed inadmissible under MRE 803(6); see Solomon v Shuell, 435 Mich 104, 125-
+128; 457 NW2d 669 (1990) (opinion by ARCHER, J.); People v Huyser, 221 Mich App 293, 297-
+298; 561 NW2d 481 (1997); Attorney General v John A Biewer Co, Inc, 140 Mich App 1, 17-18; 
+363 NW2d 712 (1985).  In short, defendant has identified no basis to conclude that the substantive 
+contents of the Goldman affidavit were inadmissible.  Defendant thus has not shown that the trial 
+court plainly erred by considering that affidavit in awarding damages. 
+ 
+Next, defendant contends that Goldman’s affidavit improperly calculated accrued default 
+interest as beginning to run on September 15, 2014, contrary to the original promissory note which 
+did not provide for interest to begin running before a payment default.  However, the promissory 
+note expressly provides, “ ‘Interest Commencement Date’ shall mean September 15, 2014.”  The 
+calculation of interest in Goldman’s affidavit thus conformed with the plain language of the note. 
+ 
+Defendant further argues that he is entitled to offsets or credits for rent and tax increment 
+financing (“TIF”) reimbursements received by plaintiff.  Defendant fails to explain why he is 
+entitled to such offsets.  Plaintiff purchased the property at the foreclosure sale.  After the 
+redemption period expired, defendant lost any right in and to the property.  See Can IV, 328 Mich 
+App at 666.  As the owner of the property, plaintiff is entitled to collect rents, and because plaintiff 
+pays property taxes, it is entitled to any tax reimbursements from the government.  Defendant also 
+contends that he is entitled to a credit for $200,000 that the receiver transferred to plaintiff at the 
+end of the receivership, but defendant fails to explain precisely why he is entitled to an offset for 
+this amount.  Defendant “cannot leave it to this Court to make his arguments for him.  His failure 
+to adequately brief the issue constitutes abandonment.”  Seifeddine, 327 Mich App at 521 (citation 
+omitted). 
+ 
+Defendant makes an unpreserved argument that plaintiff failed to mitigate its damages 
+because plaintiff sought the appointment of a receiver to complete construction rather than 
+
+-15- 
+immediate foreclosure.  “[A] breach of contract imposes on the plaintiff a duty to mitigate 
+damages.  The defendant bears the burden of proving a failure to mitigate.”  Lorenz Supply Co v 
+American Standard, Inc, 100 Mich App 600, 610; 300 NW2d 335 (1980).  Defendant suggests that 
+plaintiff could have avoided its damages by seeking immediate foreclosure rather than the 
+appointment of a receiver to complete construction.  When plaintiff sought the appointment of a 
+receiver, Packard Square admitted the project was only 60% completed.  See Can IV, unpub op at 
+3.  Defendant has provided no evidentiary basis to support a claim that plaintiff would have 
+suffered less economic injury with a sale of an unfinished retail and residential development 
+project than from a completed construction.  Defendant has not shown any plain error in regard to 
+a failure to mitigate damages. 
+III. DOCKET NOS. 354185 AND 354186 
+ 
+Defendant and 305 argue that, in its June 23, 2020 order, the trial court committed various 
+errors regarding plaintiff’s motion for proceedings supplementary to judgment and the motion of 
+defendant and proposed intervenors to quash subpoenas and enter a protective order.  We agree 
+with some of defendant and 305’s arguments, and we thus vacate the trial court’s June 23, 2020 
+order and remand for further proceedings. 
+A.  MOTION FOR PROCEEDINGS SUPPLEMENTARY TO JUDGMENT 
+ 
+An issue must be raised in or decided by the trial court in order to be preserved for appeal.  
+Glasker-Davis, ___ Mich App at ___; slip op at 3.  The overall issue was raised and decided below.  
+Hence, the overall issue is preserved.  But defendant and 305 did not raise below their appellate 
+contention that plaintiff’s motion for supplementary proceedings had to be verified.  That aspect 
+of the issue is therefore unpreserved.  
+ 
+A trial court’s legal conclusions are reviewed de novo, while any factual findings are 
+reviewed for clear error.  Harbor Park Market, Inc v Gronda, 277 Mich App 126, 130; 743 NW2d 
+585 (2007).  Clear error exists when a reviewing court is definitely and firmly convinced that a 
+mistake was made.  Id.  The interpretation and application of court rules are reviewed de novo.  In 
+re DMK, 289 Mich App 246, 253; 796 NW2d 129 (2010).   
+ 
+A trial court’s decision whether to hold a hearing is reviewed for an abuse of discretion.  
+Fast Air, Inc v Knight, 235 Mich App 541, 550; 599 NW2d 489 (1999).  A trial court’s discovery 
+rulings are also reviewed for an abuse of discretion.  Truel v Dearborn, 291 Mich App 125, 131; 
+804 NW2d 744 (2010).  An abuse of discretion occurs when the trial court’s decision falls outside 
+the range of principled outcomes.  Rock v Crocker, 499 Mich 247, 255; 884 NW2d 227 (2016). 
+ 
+Also, for the unpreserved aspect of the issue, any review is limited to plain error affecting 
+substantial rights.  Kloian, 272 Mich App at 242.  Defendant and 305 must show that an error 
+occurred, that the error was clear or obvious, and that the error affected substantial rights.  In re 
+Ferranti, 504 Mich at 29.  Generally, an error affects substantial rights if it is prejudicial, i.e., it 
+affected the outcome of the case.  In re Utrera, 281 Mich App at 9.  
+ 
+Defendant and 305 contend that there were factual questions for which the trial court failed 
+to make fact-findings with respect to plaintiff’s request for relief under the UVTA due to 
+defendant’s alleged transfers of properties to 305.  We agree with defendant and 305 that the trial 
+
+-16- 
+court’s June 23, 2020 order did not include any factual findings.  Further, the trial court failed to 
+explain why it reversed its earlier ruling that an evidentiary hearing was required.  
+ 
+Initially, it must be noted that the trial court’s June 23, 2020 order failed to specify exactly 
+what relief was granted to plaintiff.  The order stated that plaintiff’s motion for proceedings 
+supplementary to judgment was granted.  The order did not specify the particular nature of the 
+relief being granted, i.e., whether each item of relief requested in the motion was granted.  This 
+omission is significant given the broad nature of the relief requested with respect to the properties 
+at issue.  The trial court’s order did not specify whether it was granting all of part of the broad 
+relief requested.  This omission alone warrants a remand to the trial court for clarification.  The 
+trial court did not make the fact-findings required by MCL 566.35(1), a provision of the UVTA, 
+provides, 
+A transfer made or obligation incurred by a debtor is voidable as to a creditor whose 
+claim arose before the transfer was made or the obligation was incurred if the debtor 
+made the transfer or incurred the obligation without receiving a reasonably 
+equivalent value in exchange for the transfer or obligation and the debtor was 
+insolvent at that time or the debtor became insolvent as a result of the transfer or 
+obligation. 
+To set aside a transfer under MCL 566.35(1), a creditor must show that “(1) the creditor’s claim 
+arose before the transfer, (2) the debtor was insolvent or became insolvent as a result of the transfer, 
+and (3) the debtor did not receive reasonably equivalent value in exchange for the transfer.”  
+Dillard v Schlussel, 308 Mich App 429, 446; 865 NW2d 648 (2014) (quotation marks and citation 
+omitted).  The moving party has the burden of proof by a preponderance of the evidence.  MCL 
+566.35(3).    
+ 
+With respect to defendant and 305’s unpreserved contention that plaintiff was required to 
+verify its motion for proceedings supplementary to judgment, it is impossible to resolve that issue 
+on the present record.  MCR 2.621(B)(1) provides that a motion for proceedings supplementary to 
+judgment must be verified if it “seeks to reach an equitable interest of a debtor[.]”  Plaintiff argues 
+that verification was not required because plaintiff was not seeking an equitable interest of 
+defendant but rather his legal title to the Aspen and Linden properties.  Plaintiff cites caselaw 
+referring to title by deed as legal in nature rather than equitable.  See, e.g., Graves v American 
+Acceptance Mtg Corp, 469 Mich 608, 614; 677 NW2d 829 (2004); Grand Lodge IOOF v Barker, 
+139 Mich 701, 705; 103 NW 193 (1905).  Resolution of this question thus arguably hinges on the 
+ownership issue, which the trial court has yet to resolve, making it premature to determine whether 
+the verification requirement applies here.  
+B.  MOTION TO INTERVENE 
+ 
+Next, 305 argues that the trial court did not formally rule on the motion to intervene.  
+Plaintiff responds that this omission was harmless because the trial court essentially treated 305 
+and BCL as intervenors and considered their briefing before ruling.  However, because the case is 
+being remanded for reasons already discussed, we direct the trial court on remand to formally rule 
+on the motion to intervene.  
+
+-17- 
+C.  MOTION TO QUASH SUBPOENAS AND FOR A PROTECTIVE ORDER 
+Defendant and proposed intervenors argue that the trial court failed to provide a sufficient 
+rationale for denying defendant and proposed intervenors’ motion to quash subpoenas and for a 
+protective order.  We agree.   
+“While Michigan is strongly committed to open and far-reaching discovery, a trial court 
+must also protect the interests of the party opposing discovery so as not to subject that party to 
+excessive, abusive, or irrelevant discovery requests.”  Planet Bingo, LLC v VKGS, LLC, 319 Mich 
+App 308, 327; 900 NW2d 680 (2017) (quotation marks and citation omitted).  “Michigan’s 
+commitment to open and far-reaching discovery does not encompass fishing expeditions.”  
+Augustine v Allstate Ins Co, 292 Mich App 408, 419; 807 NW2d 77 (2011) (quotation marks, 
+brackets, and citation omitted).  A trial court has authority to quash or modify a subpoena if it is 
+unreasonable or oppressive.  MCR 2.305(A)(4)(a).  If good cause is shown, a trial court “may issue 
+any order that justice requires to protect a party or person from annoyance, embarrassment, 
+oppression, or undue burden or expense[.]”  MCR 2.302(C).  A protective order may direct “that 
+the discovery not be had[.]”  MCR 2.302(C)(1).  
+ 
+In their joint motion to quash subpoenas and for a protective order, defendant and proposed 
+intervenors stated that plaintiff had issued subpoenas to four of 305’s past and current lenders, 
+seeking financial information about proposed intervenors and related entities not involved in this 
+case.  The third-party lenders had made loans secured by 305’s properties.  According to defendant 
+and proposed intervenors, none of this information was relevant to determining the ownership of 
+the properties at issue.  Also, the trial court’s March 17, 2020 order had stayed all collection efforts.  
+Defendant and proposed intervenors asked the trial court to quash the subpoenas and to enter a 
+protective order to protect the confidential and proprietary financial information of proposed 
+intervenors and their related entities and to prevent plaintiff from obtaining discovery from the 
+third-party lenders.  In response, plaintiff argued that the challenged subpoenas were seeking 
+documents that were relevant to the ownership, control, and use of assets that plaintiff believed 
+belonged to defendant and that this was material to plaintiff’s ongoing efforts to enforce the 
+judgment.  
+ 
+In denying defendant and proposed intervenors’ motion to quash subpoenas and for a 
+protective order, the trial court’s June 23, 2020 order stated that defendant had engaged in 
+obfuscation and delay and that he had used real estate transactions to avoid his obligations.  
+However, the trial court failed to address defendant and proposed intervenors’ contention that the 
+subpoenas to the four third-party lenders were overly broad in that they sought information about 
+entities unrelated to this case and which was irrelevant to determining ownership of the properties 
+at issue.  Because the trial court failed to provide a sufficient rationale, we vacate the court’s order 
+and remand for further consideration of defendant and proposed intervenors’ motion and for a 
+fuller explanation of the trial court’s ultimate ruling on this motion. 
+IV. DOCKET NO. 354821 
+A.  DISCOVERY 
+
+-18- 
+ 
+Defendant argues that the trial court erred in granting plaintiff’s motion to compel 
+postjudgment discovery.  Defendant contends that, under MCR 2.621(B)(2), plaintiff was not 
+entitled to seek discovery as a judgment creditor without obtaining permission or leave of the court 
+through a motion or separate action.  Defendant’s argument is unavailing. 
+ 
+A trial court’s discovery rulings are reviewed for an abuse of discretion.  Truel, 291 Mich 
+App at 131.  An abuse of discretion occurs when the trial court’s decision falls outside the range 
+of principled outcomes.  Rock, 499 Mich at 255.  The interpretation and application of court rules 
+and statutes are reviewed de novo.  In re DMK, 289 Mich App at 253.  Unambiguous language of 
+a court rule or statute is enforced as written.  In re Kerr, 323 Mich App 407, 411; 917 NW2d 408 
+(2018). 
+ 
+MCR 2.621(B)(2) provides, “The judgment creditor may obtain relief under MCL 
+600.6110, and discovery under subchapter 2.300 of these rules.”  This language is unambiguous 
+and must be enforced as written.  See Acorn Investment Co v Mich Basic Prop Ins Ass’n, 495 Mich 
+338, 350; 852 NW2d 22 (2014) (“When ascertaining the meaning of a court rule, the reviewing 
+court should focus first on the plain language of the rule in question, and when the language of the 
+rule is unambiguous, it must be enforced as written.”).  As a judgment creditor, plaintiff is entitled 
+to discovery under subchapter 2.300 of the Michigan Court Rules.  A judgment creditor is not 
+required to seek leave to pursue this type of postjudgment discovery.  See 3 Longhofer, Michigan 
+Court Rules Practice, Text (7th ed), § 2621.5 (“A judgment creditor may choose to take discovery 
+as to the debtor’s assets under the informal and flexible procedures established by subchapter 2.300 
+of the Michigan Court Rules.  In that event, the creditor need not apply to the court for 
+supplementary proceedings, but may pursue discovery upon notice alone.”) (citation omitted).9 
+ 
+Indeed, in other contexts, our Supreme Court has enacted court rule provisions explicitly 
+requiring a party to seek leave or take some other type of affirmative action before engaging in 
+discovery.  See, e.g., MCR 2.301(A)(4) (“After a post judgment motion is filed in a domestic 
+relations action as defined by subchapter 3.200 of these rules, parties may obtain discovery by any 
+means provided in subchapter 2.300 of these rules.”); MCR 2.301(A)(2) (“In actions in the district 
+court, no discovery is permitted before entry of judgment except by leave of the court or on the 
+stipulation of all parties.”).  Therefore, in the present context, if our Supreme Court had intended 
+to require a judgment creditor to obtain leave of the court before engaging in discovery under 
+subchapter 2.300 of the Michigan Court Rules, our Supreme Court could have included such 
+language in MCR 2.621(B)(2).  See Terra Energy, Ltd v Michigan, 241 Mich App 393, 401; 616 
+NW2d 691 (2000) (noting that, if our Supreme Court had wished to incorporate a certain provision 
+into a court rule, our Supreme Court could have expressly done so).   
+ 
+Defendant suggests that the proper interpretation of MCR 2.621(B) requires reference to 
+statutory provisions regarding motions for proceedings supplementary to judgment because the 
+catch line of MCR 2.621 states, “Proceedings Supplementary to Judgment.”  Our Supreme Court 
+has noted that “ ‘the catch lines of a rule are not part of the rule and may not be used to construe 
+the rule more broadly or more narrowly than the text indicates.’ ”  Schell v Baker Furniture Co, 
+ 
+                                                 
+9 Commentary on court rules is not binding but may be considered persuasive.  Trost v Buckstop 
+Lure Co, Inc, 249 Mich App 580, 585; 644 NW2d 54 (2002). 
+
+-19- 
+461 Mich 502, 514 n 11; 607 NW2d 358 (2000) (brackets omitted), quoting MCR 1.106.  The 
+catch line of MCR 2.621 is thus not pertinent to the interpretation of MCR 2.621(B)(2). 
+ 
+Next, in arguing that a judgment creditor must file a motion or separate action in order to 
+obtain discovery under MCR 2.621(B)(2), defendant relies on another provision of MCR 2.621.  
+In particular, defendant cites MCR 2.621(A), which provides, in relevant part: 
+When a party to a civil action obtains a money judgment, that party may, by motion 
+in that action or by a separate civil action: 
+*   *   * 
+(2) obtain relief supplementary to judgment under MCL 600.6101-600.6143 . . . . 
+MCL 600.6104 provides, in relevant part: 
+After judgment for money has been rendered in an action in any court of this state, 
+the judge may, on motion in that action or in a subsequent proceeding: 
+(1) Compel a discovery of any property or things in action belonging to a judgment 
+debtor, and of any property, money, or things in action due to him, or held in trust 
+for him . . . .  
+ 
+Defendant’s reliance on MCR 2.621(A)(2) is misplaced.  MCR 2.621(B)(2) provides for 
+discovery under subchapter 2.300 of the Michigan Court Rules and does not require seeking leave 
+of the court in order to engage in discovery.  By contrast, MCR 2.621(A)(2) allows a judgment 
+creditor, by motion or a separate civil action, to obtain relief supplementary to judgment under 
+statutory provisions, including MCL 600.6104(1), under which a judge may compel discovery.  
+MCR 2.621(B)(2) and MCR 2.621(A)(2) are not in conflict; they merely provide alternative ways 
+by which a judgment creditor may pursue discovery.  Indeed, this point has been made in 
+commentary explaining the differences between discovery under subchapter 2.300 of the Michigan 
+Court Rules and discovery under the statutory scheme for proceedings supplementary to judgment: 
+ 
+Despite the broad discovery available under the discovery rules, the 
+judgment creditor may find the specific advantages of the statutory discovery 
+proceedings more important than the greater flexibility and informality of discovery 
+under the rules.  The court may, in the statutory order for examination, issue an ex 
+parte restraining order forbidding transfer of property by the debtor or by a third 
+person.  The examination is had before a judge, which may inspire more 
+cooperative testimony.  The judgment debtor may be required to attend proceedings 
+outside its county of residence, if ordered by the court.  Under the discovery rules, 
+a deponent is required to attend an examination only in the county where he or she 
+lives, is employed or personally transacts business, although the court has power to 
+set a convenient place that may be none of these. 
+ 
+Upon a verified showing that satisfies the judge that the debtor probably has 
+some assets, the court has authority to subpoena either the debtor or a third party to 
+appear and be examined and to bring any records designated.  A judge holding the 
+
+-20- 
+examination may specify a particular officer of a corporation to attend. . . .  [3 
+Longhofer, Michigan Court Rules Practice, Text (7th ed), § 2621.5 (citations 
+omitted).] 
+In short, the discovery court rules and the statutory scheme for proceedings supplementary to 
+judgment provide different ways by which a judgment creditor may pursue discovery.  Defendant 
+thus errs in saying that the requirement in MCR 2.621(A) of filing a motion or a separate action 
+when seeking relief supplementary to judgment also applies when a judgment creditor seeks 
+discovery under subchapter 2.300 of the Michigan Court Rules pursuant to MCR 2.621(B)(2).   
+ 
+Defendant further argues that, if a judgment creditor may pursue discovery under MCR 
+2.621(B)(2) without first seeking leave of the court, the judgment creditor could engage in 
+discovery that is disproportionate or that seeks information that is not relevant to collection efforts.  
+Defendant is again mistaken.  Under subchapter 2.300, there are safeguards available to prevent 
+disproportionate or irrelevant discovery.  For example, a party or person from whom discovery is 
+sought may file a motion for a protective order under MCR 2.302(C).  There are also numerous 
+court rule provisions allowing objections to discovery requests, such as MCR 2.309(B)(1), MCR 
+2.310(C)(2), and MCR 2.312(B)(4), and a judgment creditor could then move to compel discovery.  
+See MCR 2.313(A)(2)(b).  The court rules thus provide avenues to challenge discovery requests. 
+B.  SANCTIONS 
+ 
+Defendant argues that the trial court erred in imposing sanctions against defendant for 
+objecting to plaintiff’s discovery requests.  We disagree. 
+ 
+A trial court’s decision regarding the imposition of sanctions is reviewed for clear error.  
+Schadewald v Brule, 225 Mich App 26, 41; 570 NW2d 788 (1997).  Clear error exists when the 
+reviewing court is definitely and firmly convinced that a mistake was made.  Id. 
+ 
+MCR 2.302(G)(3) provides, in relevant part: 
+The signature of the attorney or party constitutes a certification that he or she has 
+read the disclosure, request, response, or objection, and that to the best of the 
+signer’s knowledge, information, and belief formed after a reasonable inquiry: 
+*   *   * 
+(b) the discovery request, response, or objection is: 
+(i) consistent with these rules and warranted by existing law or a good faith 
+argument for the extension, modification, or reversal of existing law; 
+(ii) not interposed for any improper purpose, such as to harass or to cause 
+unnecessary delay or needless increase in the cost of litigation . . . . 
+MCR 2.302(G)(4) provides: 
+
+-21- 
+If a certification is made in violation of this rule, the court, on the motion of a party 
+or on its own initiative, may impose upon the person who made the certification, 
+the party on whose behalf the disclosure, request, response, or objection is made, 
+or both, an appropriate sanction, which may include an order to pay the amount of 
+the reasonable expenses incurred because of the violation, including reasonable 
+attorney fees. 
+As explained, defendant’s objection to the discovery requests was premised on an interpretation 
+of MCR 2.621(B)(2) that contravened the unambiguous language of the rule.  We discern no clear 
+error in the trial court’s determination that defendant’s objection lacked a legal basis and was 
+intended to obstruct the process.  The trial court properly awarded sanctions against defendant. 
+V.  CONCLUSION 
+ 
+In Docket Nos. 352510 and 354821, we affirm the trial court’s December 17, 2019 
+judgment and August 31, 2020 order, respectively, and in Docket Nos. 354185 and 354186, we 
+vacate the trial court’s June 23, 2020 order and remand for further proceedings consistent with this 
+opinion.  We do not retain jurisdiction. 
+ 
+/s/ Colleen A. O’Brien 
+/s/ Cynthia Diane Stephens 
+/s/ Mark T. Boonstra 
+ 

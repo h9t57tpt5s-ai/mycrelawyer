@@ -1,0 +1,685 @@
+[Cite as Speedy Maintenance Serv., L.L.C. v. Windsor Tower, L.L.C., 2024-Ohio-5841.] 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+IN THE COURT OF APPEALS OF OHIO 
+SECOND APPELLATE DISTRICT 
+MONTGOMERY COUNTY 
+ 
+SPEEDY MAINTENANCE SERVICE 
+LLC  
+ 
+     Appellant 
+ 
+v.  
+ 
+WINDSOR TOWER LLC et al.  
+ 
+     Appellee 
+: 
+: 
+: 
+: 
+: 
+: 
+: 
+: 
+: 
+: 
+ 
+ 
+C.A. No. 29996 
+ 
+Trial Court Case No. 2021 CV 01747 
+ 
+(Civil Appeal from Common Pleas 
+Court) 
+ 
+. . . . . . . . . . . 
+ 
+O P I N I O N 
+ 
+Rendered on December 13, 2024 
+ 
+. . . . . . . . . . .  
+ 
+BRADLEY R. HOYT, Attorney for Appellant  
+                                    
+ALEX J. CASTLE, Attorney for Appellee 
+ 
+  . . . . . . . . . . . . . 
+  
+LEWIS, J. 
+{¶ 1} Appellant Speedy Maintenance Service LLC (“Speedy”) appeals from a 
+judgment of the Montgomery County Common Pleas Court awarding $48,260 to 
+Appellees Windsor Tower LLC (“Windsor Tower”) and Windsor Construction Services 
+
+ 
+ 
+-2- 
+LLC (“Windsor Construction”) (collectively “Windsor”) on their counterclaims for breach of 
+contract and slander of title.  For the following reasons, the judgment of the trial court will 
+be affirmed.  
+I. 
+Procedural History and Facts 
+{¶ 2} On April 29, 2021, Speedy filed a complaint in the Montgomery County 
+Common Pleas Court against Windsor Tower, Windsor Construction, and the 
+Montgomery County Treasurer (“Treasurer”), asserting claims for: 1) breach of contract, 
+2) unjust enrichment, 3) foreclosure of mechanics lien, and 4) violation of R.C. 4113.61.  
+The fourth claim was withdrawn by Speedy during trial.   
+{¶ 3} The Treasurer filed an answer asserting its interest in real estate taxes and 
+assessments if the property were sold.  Windsor filed a Civ.R. 12(B)(6) motion to dismiss, 
+which the trial court overruled.  
+{¶ 4} On January 26, 2022, the parties filed an agreed application to approve a 
+bond to discharge the mechanics lien filed by Speedy related to the third claim for relief, 
+which the trial court approved.  On February 15, 2022, Windsor Tower and Windsor 
+Construction filed their answer and counterclaim, asserting counterclaims for breach of 
+contract and slander of title.   
+{¶ 5} The matter proceeded to a bench trial on June 15, 2023, and November 9, 
+2023.  The following testimony was presented at trial.  
+{¶ 6} Otis Stevens, the managing member of Speedy, testified that Speedy was a 
+restoration contractor that dealt with masonry and concrete restoration and had been in 
+business for about 30 years.  Stevens became acquainted with Windsor Construction 
+
+ 
+ 
+-3- 
+through Alexius Dorsey, the owner, whom Stevens knew as “Alex.”  Dorsey thought 
+Stevens might be interested in a renovation project, which later turned out to be a parking 
+structure at 40 West 4th Street in Dayton, Ohio.  The building project was a large 
+commercial building, about 14 stories tall, that had a parking garage at the rear with 6 
+parking levels.  The building was a concrete structure with a rain sweep veneer on the 
+exterior.  When Stevens and Dorsey walked through the garage, Stevens said he was 
+interested in doing the project and agreed to do it.  
+{¶ 7} Speedy was commissioned to restore the surface parking portion of the 
+garage structure.  The surface was made of concrete and rebar, and Speedy was 
+charged with removing the rusted steel and the spalling concrete as laid out by the 
+engineer in a project manual provided by Windsor.  Speedy received specification 
+sheets, and its employees took classes on how to install to the manufacturer’s 
+specifications.  Speedy and Windsor talked comprehensively about how to proceed, 
+including meeting with the product manufacturer to learn how to meet the manufacturer’s 
+standards.  Stevens explained that it was not uncommon to have product manufacturers 
+involved to ensure their products were installed correctly to certify the warranty on the 
+product.  Windsor provided several items needed for the construction because they 
+wanted to be involved in controlling multiple aspects of the project.  
+{¶ 8} No formal bid for the project was submitted by Speedy, although Stevens 
+stated he wrote up an estimate.  The purported estimate was never signed and was not 
+introduced at trial.  Speedy prepared a notice of furnishing, which identified the project 
+as 40 West 4th Street Garage Improvement and stated that Speedy would furnish or 
+
+ 
+ 
+-4- 
+perform the following: demolition and site protection, shoring and forming, steel repairs, 
+slab and joist repairs, column repairs, overhead repairs, and material removal and 
+disposal.  The notice did not give an estimate for the cost of the work.  Stevens stated 
+that he negotiated the terms of the contract with Dorsey, and they had an oral agreement.  
+According to Stevens, Speedy was expected to do what the engineer had reported and 
+repair all the concrete surfaces on each floor, which included the deck on the sixth floor 
+and repairs on the fifth, fourth, and possibly the third floors.  Stevens expected to be paid 
+$85,000 for the fifth floor, and then $75,000 for the other floors.  Stevens explained that 
+the extra $10,000 for the fifth floor was because of training and mobilization.  It was 
+anticipated the work would take about four to five weeks per floor, and Speedy was 
+expected to work six or seven days per week to meet the scheduling, which it did.  On 
+average, Speedy had five to six men on site daily.  Joe Circle, from Windsor, was also 
+on site daily.  
+{¶ 9} Speedy started working on the project on September 10, 2019, and ended 
+all work on November 6, 2019.  Speedy was supposed to follow the engineer’s layout of 
+specifications for restoring the concrete surfaces of the garage.  Speedy was to remove 
+patches of concrete, spall concrete and rebar, and replace the rebar that tied together.  
+The repairs included some of the ceilings, columns, and walls.  The engineer marked the 
+concrete surfaces of the areas in which the repairs were to occur, and those were the 
+primary areas in which Speedy worked.  However, sometimes there were areas that 
+needed work that had not been marked, and Speedy would check with the superintendent 
+and the engineer before moving forward with those repairs.  Both Speedy and Windsor 
+
+ 
+ 
+-5- 
+supplied equipment to perform the repairs. 
+{¶ 10} Stevens testified about several photographs that depicted some demolition 
+work done by Speedy as well as some of the completed repairs.  Speedy made cuts into 
+the old surfaces and removed damaged material that was then replaced.  The work 
+Speedy did on the garage was mainly on the fifth floor.  Stevens was not aware of why 
+Windsor wanted them to start on the fifth floor.  
+{¶ 11} On September 16, 2019, Speedy submitted invoice number 1713 to 
+Windsor, identified as services on “1 floor @ $75,000” for work performed on the fifth 
+floor.  Stevens testified that Windsor paid $5,000 for that invoice and then an additional 
+$10,000 later.   
+{¶ 12} In an email on September 20, 2019, Windsor requested that all shoring on 
+the fifth floor be completed that day according to the structural engineer’s project 
+requirements.  Shoring was the process of holding up the structural underpinning of a 
+surface.  Windsor also requested start and end times each day with the number of 
+personnel on site.  Stevens testified that Speedy provided daily manpower timesheets to 
+Windsor when requested.  
+{¶ 13} On September 24, 2019, Windsor advised that their target for completing 
+fifth floor saw cuts, shoring, prepping, and steel installation was September 27, 2019.  
+Windsor also inquired about daily time sheets and a labor proposal from Speedy for the 
+fifth floor, indicating there had been no contract signed.  Stevens responded that Speedy 
+was about halfway done with the work on the fifth floor but foresaw issues with Windsor’s 
+timeline.  Although Stevens provided a list of man hours, he clarified that Speedy was 
+
+ 
+ 
+-6- 
+not charging by man hours but rather “working off an evaluation given by Alex at $75,000 
+per floor.”  Pl. Ex. 11.    
+{¶ 14} By September 30, 2019, Speedy started working on the sixth floor of the 
+garage.  According to Stevens, there was no way to do the fifth floor without doing some 
+work on the fourth and sixth floors too.  Stevens could not recall if any new concrete had 
+been poured by September 30, 2019.  While Speedy was working on the project, a 
+product inspector verified that the products were being installed correctly to the 
+manufacturer’s specifications, and employees of Windsor took photos of the progress 
+Speedy completed.  Ed Baum, the engineer on the project, also checked on Speedy’s 
+work and approved of Speedy pouring concrete.   
+{¶ 15} On October 11, 2019, Speedy sent Windsor invoice number 1717 for 
+$23,007.60, which included additional services that Speedy had provided.  A change 
+order was submitted breaking down the $23,007.60 into labor hours and costs.  By that 
+time, there was another subcontractor, later identified as Juan Osario, involved in the 
+project doing masonry work.  Osario was working on floors one, two, and three of the 
+garage but was not doing any work on the upper floors.  Speedy removed concrete and 
+debris for Osario and also took a load or two to the dumpster, which Speedy billed as time 
+and material on the invoice.   
+{¶ 16} On October 15, 2019, Circle emailed Stevens stating that, before Windsor 
+would release any money, Speedy needed to complete the full slab and joint repair on 
+the fifth floor.  Circle expressed concerns that Speedy had invoiced for 44% of the total 
+agreed price but that only 10% of the work had been completed.  Stevens sent an email 
+
+ 
+ 
+-7- 
+response that same day explaining that they had an agreement “between 75 and 80,000 
+per floor” and Speedy had far exceeded Circle’s 10% estimate to be entitled to the money 
+billed.  According to Stevens, Speedy was about 80% done with the concrete slab and 
+ceiling deck, including the main vertical columns, which was the majority of the work.  
+Stevens claimed Speedy was eligible for a draw based on work completed, and he 
+demanded payment.   
+{¶ 17} On October 17, 2019, Circle emailed Stevens stating that Windsor expected 
+the entire fifth floor to be completed by October 31, 2019.  Stevens indicated Speedy 
+would aim for that completion date barring anything outside its control.  By October 24, 
+2019, Speedy had poured concrete in several areas of the garage on the fifth floor, but 
+Speedy did not complete the entire fifth floor before October 31, 2019.  
+{¶ 18} Stevens estimated that Speedy was about 80-90% finished with all the work 
+on the fifth floor as of October 29, 2019.  The progress reports indicated that 185 square 
+feet of demo slab joist had been cleaned and 831 square feet of completed slab joist had 
+been repaired.  Stevens estimated that the whole fifth floor was around 6,000-8,000 
+square feet.  
+{¶ 19} Invoice number 1720 was sent to Windsor on October 29, 2019, requesting 
+the amount of $15,000.  According to Stevens, this included additional work done by 
+Speedy, including cleanup and debris removal, that was not part of the agreed flat price 
+per floor.  A final invoice was sent to Windsor dated November 4, 2019, invoice number 
+1722, requesting a balance due of $8,000.  Stevens claimed this invoice was for work 
+done off the fifth-floor contract price.  
+
+ 
+ 
+-8- 
+{¶ 20} On November 6, 2019, Stevens received a letter stating that Speedy was 
+being terminated for cause.  The termination letter ordered Speedy to “cease all work on 
+both the DP&L and 40 West 4th Garage.”  According to Stevens, Speedy had been 
+working on more than one project for Windsor and there had been an issue with the DP&L 
+location, not the garage.  Stevens denied receiving any notification of default or notice to 
+cure default prior to receiving the termination letter.  The following day, Stevens 
+responded to the termination letter and indicated that Windsor had only paid $19,000 of 
+the $85,000 contract and demanded payment of $66,000.   
+{¶ 21} Stevens testified that as of November 6, 2019, he estimated Speedy had 
+invoiced Windsor for about $64,000, but Windsor had only paid somewhere between 
+$39,000-42,000.  Tr. 95.  For the final November 4, 2019 invoice, Windsor changed the 
+$8,000 invoiced amount to reflect approval for $4,444.44 of work completed with a 10% 
+reduction resulting in a payment of $4,000.  Speedy filed a mechanics lien on the 
+property for $66,000, which was recorded with the Montgomery County Recorder. 
+{¶ 22} Stevens testified that Speedy submitted an application for payment for the 
+dates of September 27, 2019, through October 11, 2019, indicating that the contract price 
+was $75,000, that $10,000 had previously been paid, and that Windsor owed $7,370.  A 
+second application for payment was submitted for the dates October 11, 2019, through 
+October 22, 2019, which indicated the original contract sum was $75,000, a net change 
+was added by a change order for $10,000, and the current amount owed was $17,550.  
+Stevens testified that the change order was not for additional work done but was for 
+“mobilization and training,” which was the additional $10,000 that made up the total of 
+
+ 
+ 
+-9- 
+$85,000 for the fifth floor.  A third application for payment was submitted for the dates of 
+October 22, 2019, through October 28, 2019, which indicated that no work had been 
+completed during that time frame.  Stevens testified he was certain that work was 
+performed during that time frame even though Speedy’s submission stated none had 
+occurred.  The third application indicated that only 46 percent of the project was 
+completed.  Stevens explained that the amounts listed in the applications were 
+requested amounts, but the engineer, architect, or owner would have to sign off on it 
+before it would be paid.  
+{¶ 23} Stevens testified the initial contract price did not include the change orders 
+when additional work was needed.  Stevens would approve a change with the engineer 
+and the owner and have an agreed price for the work.  Stevens initially claimed there 
+were discussions in emails with Circle regarding the change orders, but when questioned 
+where in the emails those discussions were, he stated that they had occurred by oral 
+communication.  Stevens testified that there had never been an agreement to send 
+invoices for time and materials, it was just the simplest way to keep costs down.  In total, 
+there were 674 hours of work for which Stevens submitted invoices that were above and 
+beyond the originally agreed contract price.  
+{¶ 24} Joseph Circle testified on behalf of Windsor.  Circle had a Master of 
+Science degree from Ohio State University and had more than 29 years of experience in 
+construction.  Circle was the director of preconstruction and a senior project manager for 
+Windsor.  His duties were to prepare a project for construction and support the 
+production process.   
+
+ 
+ 
+-10-
+{¶ 25} In 2011, the previous owners of 40 West 4th Street created a manual that 
+provided specifications for how to properly perform the repairs for the garage.  In July 
+2019, Windsor, as the current owner of 40 West 4th Street, worked with a structural 
+engineer to create permit plan drawings.  The garage was constructed of concrete and 
+steel, and, over time, water had infiltrated the concrete, which ultimately caused the loss 
+of structural integrity.  The drawings represented the garage in two dimensions and 
+provided plan notes for how to properly perform repairs.  
+{¶ 26} Circle was not involved in developing the July 2019 plans.  When he was 
+brought onto the project in September 2019, Speedy had already begun work on the 
+project.  The first time Circle met Stevens was at the garage while Dorsey introduced 
+Circle to the project and walked him through his responsibilities.  According to Circle, 
+Speedy had received a copy of the 2011 manual and the 2019 drawings before it started 
+working on the garage.        
+{¶ 27} Circle testified that Speedy never submitted a bid for the job.  Circle made 
+multiple requests of Speedy for a signed contract in order to continue working on the 
+project, but Speedy never signed the written contract.  Circle testified that Stevens was 
+reluctant to sign it.  The budget for the project was $75,000 per floor of the garage, and 
+the parties understood that to mean they were not to exceed $75,000.  This would have 
+included both cantilevered levels and the ramps for that floor.  They were proceeding 
+with the fifth floor as a trial level because Speedy’s personnel were getting trained to do 
+it.  The work itself was a bit ambiguous in scope because some defects were identified 
+as the work progressed.  
+
+ 
+ 
+-11-
+{¶ 28} According to Circle, Speedy’s work was not performed in a consistent and 
+timely manner.  Attendance was spotty, and Speedy failed to meet a single deadline.  
+Speedy’s workers were not consistently present, workers would show up at different 
+times, and they worked on different areas than were requested.  Circle repeatedly asked 
+for updates and tried to review the expected timelines with Stevens to no avail.  The 
+timeline was based on the need to put forms up, schedule the concrete, and schedule 
+special inspections.  There was a timeline of eight weeks per floor in the contract.  
+Speedy initially worked on the first half of the upper fifth floor parking deck surface.  By 
+the time Speedy was terminated from the project, more than eight weeks later, it had not 
+even completed the parking deck surface demolition on the upper level of the fifth floor.  
+{¶ 29} On October 15, 2019, Circle sent an email to Speedy stating that he was 
+“concerned about the rate of production.”  Circle was distressed that Speedy was both 
+overbilling them and behind schedule.  Circle and Dorsey were at the construction site 
+regularly working, training, and assisting Speedy.  Circle also had safety concerns for 
+the work performed by Speedy.  Due to the condition of the structure, sections of 
+columns, beams, and major sections of flooring had to be cut out to get repaired.  Based 
+on the engineered specifications regarding structural integrity, they needed to have 
+support from at least two levels below where they were working.  Failing to properly shore 
+up their work would have resulted in the building collapsing and destroying the structure.  
+Speedy did eventually correct the shoring issues.  
+{¶ 30} On October 29, 2019, Circle sent Stevens another email in which he had 
+measured and calculated the square footage that had been completed.  At that time, 
+
+ 
+ 
+-12-
+Circle measured 1,626 square feet of demoed slab joist that was not clean and 185 
+square feet of demoed slab joist that was clean.  Whether it was clean determined 
+whether it was ready for the bonding agent to be applied, which had to be done prior to 
+pouring the concrete.  There was 831 square feet of completed slab joist repaired, 
+meaning that the concrete had been poured back.  As of October 29, 2019, Speedy did 
+not pour any additional concrete.  The total surface area for the fifth floor was 10,000 
+square feet.  Circle estimated that Speedy completed only about 20% of the fifth floor.  
+However, after Speedy was terminated, Circle had to replace all of Speedy’s work.  
+{¶ 31} Speedy was sent a termination letter that related to multiple projects.  
+Circle testified that Speedy had been terminated for overall lack of performance, inability 
+to bid the work, no signed contract, and some egregious behaviors.  By the time it was 
+terminated, Speedy had billed about $38,000.  A final invoice dated November 4, 2019, 
+was received requesting an additional $8,000, some of which was paid.  The total 
+amount paid to Speedy by Windsor for this project was $44,300.  
+{¶ 32} After Speedy was terminated, Circle took photographs of the purported 
+repairs that Speedy had made to the garage.  Circle testified that the photographs 
+showed failed repairs on the fifth-floor slab and ceiling.  This included photographs 
+showing concrete repairs that did not cover the rebar or the slab and joists, areas where 
+rebar was protruding from the concrete, and areas where the concrete had already 
+chipped and failed.   
+{¶ 33} An independent third-party engineering firm questioned the integrity of all 
+the work Speedy had done on the upper fifth floor.  The firm had not been able to 
+
+ 
+ 
+-13-
+evaluate Speedy’s work until after Speedy was terminated because the concrete had not 
+yet cured.  Ed Baum, an engineer working on the project, had inspected Speedy’s work 
+prior to termination, and he had expressed concern to Circle about Speedy’s work.   
+{¶ 34} Juan Osorio, who had been working on different floors of the garage, redid 
+all the work that Speedy had done.  Windsor paid Osorio a total of $65,300 for the work 
+he completed on the fifth floor of the garage.  
+{¶ 35} Alexius Dorsey testified next as the owner of Windsor Construction Service 
+and Windsor Tower, LLC.  Dorsey was a developer and had been involved in the 
+construction industry his whole life.  He carried several licenses for the company, 
+including HVAC, electrical, plumbing, and asbestos.  Windsor would purchase adaptive 
+reuse buildings and develop them.  Windsor did the acquisition, development, 
+construction, and management of all of its own assets.  
+{¶ 36} Windsor purchased the property at 40 West 4th Street in early 2019.  When 
+Dorsey purchased the property, he knew it needed work, and he hired a company to 
+develop plans for redoing the tower.   
+{¶ 37} Dorsey met Stevens while working on a project at the Fire Blocks, another 
+property in Dayton, Ohio.  Stevens introduced himself as a mason and discussed the 
+project at 40 West 4th Street.  As Windsor received engineering reports, he kept Stevens 
+updated and they walked through the project together a few times.  He and Stevens went 
+over the scope of the work that Windsor had prepared with the engineers.  Through their 
+discussions, Dorsey discovered that Stevens was not comfortable giving a number for the 
+project.  Therefore, Dorsey offered the number $75,000 for one floor, which was to 
+
+ 
+ 
+-14-
+include the crash walls, columns, ramps, and both levels of each floor.  Stevens agreed 
+to that amount.  
+{¶ 38} Once Speedy started working on the project, Dorsey was at the job site two 
+or three days a week to help show Speedy’s crew how the process should work.  Dorsey 
+quickly learned that Speedy did not have the right equipment, so Dorsey purchased it to 
+help Speedy do the work.  After three or four weeks of work, Dorsey had safety concerns 
+with Speedy’s work, and it was behind schedule.  Dorsey had built the forms, the outlines 
+of the areas in which to support concrete, and provided those to Speedy, but they were 
+installed incorrectly and there was insufficient shoring.  He let Circle know about the 
+issues and said things needed to be corrected before pouring any concrete.  
+{¶ 39} Dorsey made the decision to terminate Speedy from the job based on how 
+far behind Speedy was in completing the project and Speedy’s inappropriate billing.  
+After Speedy was terminated, Dorsey inspected the work and concluded that nothing was 
+fully completed.  There were several things that were in the process of being completed, 
+but nothing was fully finished.  When Speedy was terminated, Windsor had paid Speedy 
+around $38,000.   
+{¶ 40} Dorsey was never served with a mechanics lien.  Rather, when Windsor 
+was closing on the loans for its property, a title agency discovered the mechanics lien.  
+The mechanics lien was dated November 6, 2019, and alleged that $66,000 was owed to 
+Speedy.  According to Dorsey, $66,000 was never a number that fit the work.  When 
+Dorsey learned of the mechanics lien, he contacted Stevens and demanded that the lien 
+be removed, which Stevens refused.  As a result of the mechanics lien, the closing did 
+
+ 
+ 
+-15-
+not go through, and Windsor lost a bridge lender for its loan.  Between the time that the 
+loan closing was to originally happen and the time that Windsor obtained a new bridge 
+lender and closed, the interest rate had increased markedly. Based on the increase in 
+interest on the loan, Dorsey had to pay over a million dollars more than he originally 
+anticipated.  In order to complete the closing, Dorsey had to bond the lien off because 
+Speedy refused to remove it and the lenders would not close with a lien on the property.  
+Windsor made two payments for a total of $3,960 to pay for the bond.  
+{¶ 41} Dorsey had worked with Osario on several prior ventures before the 40 
+West 4th Street project.  Once Dorsey determined that Speedy was unable to handle the 
+work on this project, Dorsey hired Osario to start work on the garage’s lower levels.  
+Osario started work on the lower floors while Speedy worked on the fifth floor.  When 
+inspections were done after Speedy was terminated, it was discovered that Speedy had 
+done the work incorrectly.  Baum had indicated it was poor craftsmanship and Speedy’s 
+work needed to be repaired and replaced.  Dorsey decided to have Osario redo the fifth 
+floor.  Because nothing Speedy had worked on was fully completed, it was hard for 
+Dorsey to estimate how much work Speedy had actually completed by the time it were 
+terminated.  However, Dorsey estimated it was probably around 20%.  Although 
+Windsor paid Speedy $44,300 to restore the fifth floor, it received no benefit from 
+Speedy’s work because everything had to be redone.  
+{¶ 42} Stevens testified on rebuttal that he had originally believed the project was 
+going to be for all six floors.  Then the agreement was that Speedy was going to only do 
+floors four, five, and six.  Stevens believed that eight weeks per floor was an aggressive 
+
+ 
+ 
+-16-
+schedule but Speedy tried to meet this deadline.  Stevens stated he brought his dump 
+truck, mixer, and Bobcat to do work on the garage and helped Osario do cleanup on his 
+floor.  Stevens explained that he had a base contract and then billed for additional things 
+a la carte or for time and materials.   
+{¶ 43} Stevens stated that Speedy worked on the fifth-floor slab, the ramps from 
+the fourth floor to the fifth floor and the fifth floor to the sixth floor, mock-up work on the 
+fifth-floor columns, patched some of the ceiling, and did the crash barriers.  Speedy used 
+man hours to justify the invoicing.  Although it invoiced for more, Speedy only received 
+$19,000 from Windsor.  
+{¶ 44} On cross-examination, Stevens conceded that it was possible one or two 
+payments from Windsor may not have been included in the $19,000 total.  According to 
+Stevens, the change order was the only documentation that Speedy was billing for time 
+and materials; there was no other agreement.  The $66,000 Speedy claimed Windsor 
+owed was based on the contract price and the time and materials billings.   
+{¶ 45} The trial court entered a final judgment on November 22, 2023, finding in 
+favor of Windsor.  The trial court awarded Windsor $44,300 plus prejudgment and 
+postjudgment interest on its breach of contract claim, declared the mechanics lien null 
+and void, discharged and released the bond, and awarded Windsor $3,960 on its slander 
+of title claim for insurance premiums paid to bond off the lien, plus postjudgment interest.  
+Finally, the trial court awarded Windsor the costs of the action.  Speedy filed a timely 
+notice of appeal.  
+{¶ 46} On appeal, Speedy raises a single assignment of error alleging that the trial 
+
+ 
+ 
+-17-
+court’s decision was against the manifest weight of the evidence.  We disagree.  
+II. 
+Manifest Weight of the Evidence 
+{¶ 47} The same manifest weight standard applies in both civil and criminal cases. 
+Eastley v. Volkman, 2012-Ohio-2179, ¶ 17.  “In a civil case, in which the burden of 
+persuasion is only by a preponderance of the evidence, rather than beyond a reasonable 
+doubt, evidence must still exist on each element (sufficiency) and the evidence on each 
+element must satisfy the burden of persuasion (weight).”  Id. at ¶ 19.  
+{¶ 48} “A weight of the evidence argument challenges the believability of the 
+evidence and asks which of the competing inferences suggested by the evidence is more 
+believable or persuasive.”  (Citation omitted.)  State v. Wilson, 2009-Ohio-525, ¶ 12 (2d 
+Dist.).  “Weight of the evidence concerns ‘the inclination of the greater amount of credible 
+evidence, offered in a trial, to support one side of the issue rather than the other.’ ”  
+(Emphasis in original.) State v. Thompkins, 78 Ohio St.3d 380, 387 (1997), quoting 
+Black’s Law Dictionary (6th Ed. 1990).  “ ‘Weight is not a question of mathematics, but 
+depends on its effect in inducing belief.’ ”  (Emphasis in original.)  Id., quoting Black’s 
+Law Dictionary (6th Ed. 1990).   
+{¶ 49} “This Court, in reviewing a weight of the evidence challenge, must consider 
+the entire record, weigh the evidence and all reasonable inferences, consider the 
+credibility of witnesses and determine whether in resolving conflicts in the evidence, the 
+jury clearly lost its way and created a manifest miscarriage of justice.”  Emswiler v. 
+Bodey, 2012-Ohio-5533, ¶ 43 (2d Dist.), citing Thompkins at 387.  The discretionary 
+power of a reviewing court to grant a new trial is to be exercised only in the exceptional 
+
+ 
+ 
+-18-
+case in which the evidence weighs heavily against the judgment.  State v. Lang, 2011-
+Ohio-4215, ¶ 220, citing Thompkins at 387.  We make every reasonable presumption in 
+favor of the judgment and any finding of fact; if the evidence is susceptible of more than 
+one construction, we are bound to interpret it in favor of the fact-finder's ruling.  Eastley 
+at ¶ 21, citing Seasons Coal Co., Inc. v. Cleveland, 10 Ohio St.3d 77, 80, fn. 3 (1984).  
+a. Breach of Contract 
+{¶ 50} In this case, the trial court found that Windsor had proven by a 
+preponderance of the evidence that Speedy had breached the contract.  The trial court 
+determined that 1) there was a contract between the parties to renovate the garage for 
+$75,000 for each floor; 2) Speedy breached the contract by failing to perform the work in 
+a workmanlike manner and in a timely fashion; and 3) as a result of the breach, Windsor 
+had to redo all of Speedy’s substandard work, which resulted in damages.  The record 
+supports the trial court’s decision.  
+{¶ 51} To prove a breach of contract claim, the claimant must establish by a 
+preponderance of the evidence “the existence of a contract, performance by the plaintiff, 
+breach by the defendant, and damage or loss to the plaintiff.”  Doner v. Snapp, 98 Ohio 
+App.3d 597, 600 (2d Dist. 1994).  A “preponderance of the evidence” is the greater 
+weight of the evidence that is not necessarily beyond all reasonable doubt but is “sufficient 
+to incline a fair and impartial mind to one side of the issue rather than the other.”  Black’s 
+Law Dictionary (12th Ed. 2024).     
+{¶ 52} It is undisputed that there was a contract for Speedy to renovate the fifth 
+floor of the 40 West 4th Street garage.  Stevens testified that the base contract was for 
+
+ 
+ 
+-19-
+$75,000 per floor but claimed the contract amount increased to $85,000 for the fifth floor 
+because of mobilization and training.  Both Circle and Dorsey testified that the 
+agreement was for Speedy to complete the renovation of the fifth floor for $75,000.  The 
+trial court found that the agreed contract was for Windsor to pay Speedy $75,000 for 
+reconstruction of the fifth floor.  In making this determination, the trial court explicitly 
+found the testimony of Circle and Dorsey credible and Stevens’s testimony not credible.  
+We defer to the credibility determinations of the trial court because “the trial judge is best 
+able to view the witnesses and observe their demeanor, gestures and voice inflections, 
+and use these observations in weighing the credibility of the proffered testimony.”  
+Seasons Coal Co., 10 Ohio St.3d at 80. 
+{¶ 53} Although each party relied on the written contract drafted by Windsor in 
+support of its position, Stevens asserted at trial that the contract was $85,000 for the fifth 
+floor.  The contract explicitly stated that “Payment will be $75,000.00 for both upper and 
+lower levels of each floor where work is performed including the underside of the floors 
+and both ramps.”  Joint Ex. III.  Dorsey testified that he and Stevens verbally reached 
+an agreement that Speedy would be paid $75,000 per floor.  Tr. 269-270.  Speedy’s 
+invoice for September 16, 2019, stated “Services 1 floor @ $75,000” and requested 
+payment for work performed on the fifth floor at 40 West 4th Street Garage.  Pl. Ex. 2.  
+In an email written by Stevens to Circle on September 24, 2019, Stevens wrote that 
+Speedy was “working off an evaluation given by Alex at $75,000 per floor.”  Pl. Ex. 11.  
+Speedy’s invoice for a payment period of September 27, 2019, through October 11, 2019, 
+again listed the contract sum as $75,000.  Joint Ex. VII; Def. Ex. D.  There is no 
+
+ 
+ 
+-20-
+documentation in the record showing that Windsor agreed to pay Speedy an additional 
+$10,000 for mobilization and training.  Accordingly, the greater amount of credible 
+evidence supported the trial court’s finding that the parties had agreed to a contract for 
+Speedy to complete renovations of the fifth floor at 40 West 4th Street garage in the 
+amount of $75,000.  
+{¶ 54} On November 6, 2019, Speedy was terminated from the 40 West 4th Street 
+garage project due to Speedy’s “lack of performance” and “failure to perform to standard.”  
+“Ohio common law imposes upon builders and contractors a duty to perform their services 
+in a workmanlike manner.”  (Citations omitted.)  Jarupan v. Hanna, 2007-Ohio-5081, 
+¶ 19 (10th Dist.).  “This implied duty ‘requires a construction professional to act 
+reasonably and to exercise that degree of care which a member of the construction trade 
+in good standing in that community would exercise under the same or similar 
+circumstances.’ ”  Id., quoting Seff v. Davis, 2003-Ohio-7029, ¶ 19 (10th Dist.).   
+{¶ 55} Although Speedy argues that it did not receive sufficient notice of any 
+defects prior to Speedy’s termination, Circle had had several email correspondences with 
+Stevens in which he identified the fact that Speedy was behind schedule as well as issues 
+with Speedy’s work.  Circle testified that Speedy had failed to meet a single deadline.  
+Stevens testified that each floor was expected to take only four to five weeks to complete, 
+while Dorsey testified it should not have taken more than four weeks to finish each floor.  
+The written contract indicated that completion of the fifth-floor renovations was expected 
+to take no longer than eight weeks and specifically included that time was of the essence 
+in performance of the contract.  Joint Ex. III.  Speedy started working on the garage 
+
+ 
+ 
+-21-
+project by at least September 10, 2019, and ended all work as of November 6, 2019, eight 
+weeks later.  After eight weeks, the fifth floor was not close to being finished.     
+{¶ 56} On October 15, 2019, Circle sent an email to Stevens stating that he was 
+“concerned about the rate of production.”  On October 17, 2019, Stevens was advised 
+that Windsor expected the entire fifth floor to be completed by October 31, 2019.  On 
+October 29, 2019, Circle measured and calculated the square footage that was 
+supposedly completed.  Of the 10,000 total square footage of the fifth floor, 1,626 square 
+feet of demoed slab joist was not clean, 185 square feet of demoed slab joist was clean, 
+and only 831 square feet of completed slab joist had been repaired, meaning that the 
+concrete had been poured back.  Stevens testified that by the end of October, Speedy 
+had completed 80-90% of the fifth floor.  The trial court found Steven’s testimony was 
+not credible.  Based on the testimony of Circle and Dorsey, as of November 6, 2019, 
+Speedy had only completed about 20% of the work on the fifth floor.  
+{¶ 57} There were also concerns about the quality of Speedy’s work.  Dorsey 
+testified that he had built the concrete forms himself and provided those to Speedy, but 
+they were installed incorrectly and there was insufficient shoring under them.  On 
+September 30, 2019, Circle advised that there were issues with the forms that had been 
+installed as there were “gaps on the bottom and on the sides.”  Pl. Ex. 11.  On October 
+4, 2019, Circle emailed Speedy that the engineer advised that the scaffold being used as 
+shoring was not sufficient; moreover, Speedy needed to expand the shoring and get some 
+“steel shims installed under the I beam shoring.”  Id.  Although Stevens claimed the 
+shoring was sufficient, on October 7, 2019, Circle forwarded to Stevens a message from 
+
+ 
+ 
+-22-
+Baum, an engineer on the project, which stated that the scaffolding was “No Good.”  Id.  
+Based on the engineered specifications to keep the building standing, Speedy needed to 
+have support from at least two levels below where they were working.  Failing to properly 
+shore up its work would have resulted in the collapse of the garage.  Circle testified that 
+Speedy did eventually correct the shoring issues. 
+{¶ 58} After the contract was terminated, Circle evaluated the work Speedy had 
+done to the garage, which was determined to be completely useless.  Photographs Circle 
+took showed the failed repairs on the fifth-floor slab and ceiling.  This included 
+photographs showing concrete repairs that did not cover the rebar or the slab and joists, 
+areas where the rebar was protruding from the concrete, and areas where the concrete 
+had already chipped and failed.  In November 2019, an independent third-party 
+engineering firm questioned the integrity of all the work Speedy had done on the upper 
+fifth floor.  The firm had not been able to evaluate Speedy’s concrete work until after 
+Speedy was terminated because the concrete had not yet cured.  Tr. 241-242.  The 
+entirety of the work that Speedy had completed on the fifth floor was redone by Osorio.  
+The total amount of money Windsor had paid Speedy for its work on the fifth floor was 
+$44,300.   
+{¶ 59} Based on the evidence submitted at trial, the trial court did not lose its way 
+in finding that there had been a contract, that Windsor had performed under the contract, 
+that Speedy had breached the contract, and that Windsor had been damaged as a result 
+of the breach.  Therefore, the trial court’s judgment with respect to Windsor’s breach of 
+contract claim was not against the manifest weight of the evidence.  Further, the trial 
+
+ 
+ 
+-23-
+court’s decision to not award Speedy anything on its claims was not against the manifest 
+weight of the evidence.  
+b. Slander of Title 
+{¶ 60} Slander of title to real estate “is a tort action against one who falsely and 
+maliciously defames title to property and causes some special pecuniary damages or 
+loss.”  (Citations omitted.) Acme Constr. Co. v. Continental Natl. Indemn. Co., 2003-
+Ohio-434, ¶ 46 (8th Dist.).  “Typically, slander-of-title cases involve documents filed 
+against a particular piece of property by parties who claim an interest in the property.”  
+Green v. Lemarr, 139 Ohio App.3d 414, 431 (2d Dist. 2000).  “ ‘The wrongful filing for the 
+record of a document which casts a cloud upon another's title to or interest in realty is 
+considered to be an act of publication which gives rise to an action for slander of title.’ ”  
+Gasper v. Bank of Am., N.A., 2019-Ohio-1150, ¶ 36 (9th Dist.), quoting Smith Elec. v. 
+Rehs, 1998 WL 103334, *2 (9th Dist. Feb. 18, 1998).  To prevail on a slander of title 
+claim, “a claimant must prove ‘(1) there was a publication of a slanderous statement 
+disparaging claimant's title; (2) the statement was false; (3) the statement was made with 
+malice or made with reckless disregard of its falsity; and (4) the statement caused actual 
+or special damages.’ ”  Green at 430-431, quoting Colquhoun v. Webber, 684 A.2d 405, 
+409 (Me. 1996).  “ ‘As a general rule, wrongfully recording an unfounded claim to the 
+property of another constitutes slander of title.’ ”  Cuspide Properties, Ltd. v. Earl 
+Mechanical Servs., 2015-Ohio-5019, ¶ 37 (6th Dist.), quoting McClure v. Fischer Attached 
+Homes, 145 Ohio Misc.2d 38, ¶ 21 (C.P. 2007).  
+{¶ 61} Both parties agree that Speedy filed a mechanics lien against Windsor.  
+
+ 
+ 
+-24-
+“The filing of a mechanic's lien satisfies the publication element.”  Prater v. Dashkovsky, 
+2007-Ohio-6785, ¶ 13 (10th Dist.), citing Prosser, The Law of Torts, § 122, at 939 (3d Ed. 
+1964).  The trial court found that Windsor had proven its slander of title claim by a 
+preponderance of the evidence based on its determination that: 1) Speedy was not owed 
+the claimed lien amount; 2) Speedy’s lien claim was reckless; and 3) Windsor had actual 
+damages for having to post a bond to discharge the lien.  Speedy argues on appeal that 
+“the mechanics lien field by Speedy was justified and he is entitled to payment of $66,000 
+owed on the contract breached by Windsor.”  Appellant’s Brief, p. 13.  We find Speedy’s 
+argument unpersuasive.  
+{¶ 62} The trial court found that the lien was false on its face considering that the 
+contract was for an agreed price of $75,000 for completion of the fifth floor and Windsor 
+had paid Speedy $44,300 for Speedy’s substandard performance.  On November 6, 
+2019, Windsor sent Speedy a letter terminating their contract for cause.  That same day, 
+Speedy’s employee signed the mechanics lien claim form, which was notarized, stating 
+that in accordance with the agreement of the parties, the value of the project at 40 West 
+4th Street was $85,000, of which $66,000 remained unpaid.  Although the mechanics 
+lien was not recorded until January 14, 2020, no changes were made before it was filed.  
+Stevens testified that the $66,000 amount was based on an $85,000 contract price and 
+that Windsor had only paid $19,000 for the 40 West 4th Street project.  Stevens admitted 
+during cross-examination that it was possible one or two payments from Windsor may not 
+have been included in the $19,000 total.  Stevens also testified that as of November 6, 
+2019, Windsor had paid $39,000-42,000, and Windsor paid an additional $4,000 after the 
+
+ 
+ 
+-25-
+termination.   
+{¶ 63} The record reflects that a slanderous statement disparaging Windsor’s title 
+was published when the mechanics lien was recorded, the statement was false or made 
+with reckless disregard of its falsity, and Windsor was damaged by having to pay $3,960 
+to bond off the lien.  We conclude that the trial court’s judgment finding that Windsor 
+proved its slander of title claim was not against the manifest weight of the evidence.  This 
+is not the exceptional case in which the evidence weighed heavily against the judgment.   
+{¶ 64} Speedy’s sole assignment of error is overruled.  
+III. 
+Conclusion 
+{¶ 65} Having overruled the assignment of error, the judgment of the trial court will 
+be affirmed.  
+. . . . . . . . . . . . . 
+ 
+WELBAUM, J. and TUCKER, J., concur.             
+ 
+ 
+ 
+ 

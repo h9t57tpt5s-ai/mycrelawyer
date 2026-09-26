@@ -1,0 +1,89 @@
+
+
+J. Nazzaro Partnership, L.P. v State of New York (2022 NY Slip Op 02984)
+
+
+
+
+
+J. Nazzaro Partnership, L.P. v State of New York
+
+
+2022 NY Slip Op 02984
+
+
+Decided on May 4, 2022
+
+
+Appellate Division, Second Department
+
+
+
+Published by New York State Law Reporting Bureau pursuant to Judiciary Law § 431.
+
+
+This opinion is uncorrected and subject to revision before publication in the Official Reports.
+
+
+
+Decided on May 4, 2022
+SUPREME COURT OF THE STATE OF NEW YORK
+Appellate Division, Second Judicial Department
+
+MARK C. DILLON, J.P.
+VALERIE BRATHWAITE NELSON
+REINALDO E. RIVERA
+PAUL WOOTEN, JJ.
+
+
+
+
+2019-07827
+
+
+
+[*1]J. Nazzaro Partnership, L.P., appellant, 
+
+
+v
+
+State of New York, respondent. (Claim No. 124118)
+
+
+
+
+
+Michael M. Fufidio, Kings Park, NY, for appellant.
+Letitia James, Attorney General, New York, NY (Anisha S. Dasgupta, Joshua M. Parker, and Elizabeth Brody of counsel), for respondent.
+
+
+
+DECISION & ORDER
+In a condemnation proceeding, the claimant appeals from a judgment of the Court of Claims (Gina M. Lopez-Summa, J.), dated April 30, 2019. The judgment, insofar as appealed from, upon a decision of the same court dated May 29, 2018, made after a nonjury trial, awarded the claimant the principal sum of only $113,730 as just compensation for the taking of the subject property.
+ORDERED that the judgment is affirmed insofar as appealed from, with costs.
+On November 22, 2010, the claimant purchased real property known as 705 Smithtown Bypass (hereinafter the property) for $1 million. The property, which encompassed 49,034 square feet, consisted of two tax lots which the Town of Smithtown regarded as a single parcel. Both lots were split-zoned and included both NB (neighborhood business) and R-10 (residential) areas (see Code of the Town of Smithtown § 322-7[C][4]). Pursuant to deed restrictions imposed as a result of the property's history of use as a gas station, the residential portion could not be improved with a home or certain other uses for 50 years (i.e., until 2060).
+On February 21, 2014, the New York State Department of Transportation (hereinafter the State) appropriated portions of the property consisting of 2,504 square feet and 1,248 square feet (3,752 total square feet), and a temporary easement of 3,775 square feet. The permanent taking, which amounted to 7.65% of the total area of the property, left a remaining parcel of 45,282 square feet.
+At the time of the taking, the property was occupied by JPMorgan Chase Bank, N.A. (hereinafter Chase), pursuant to a triple net ground lease at an initial rent of $225,000 annually with planned increases at five-year increments. Subject to its lease, Chase improved the property with a 4,120-square-foot one-story building. Chase also created 31 parking stalls which occupied portions of the NB-zoned area and, pursuant to a special exception granted by the Town, 50 feet of the R-10-zoned area (see Code of the Town of Smithtown § 322-82[C][3][c]).
+The claimant filed a notice of claim seeking just compensation for the portion of the property taken by the State. At a nonjury trial on the issue of compensation, the claimant's engineer [*2]and appraiser presented evidence that the highest and best use of the NB-zoned portion of the property was improvement with an 8,400-square-foot, two-story commercial building with parking and that the highest and best use of the R-10 portion was as additional parking to facilitate the expanded commercial use of the NB portion. Based upon that assessment, and employing an income capitalization approach that included the future anticipated income from the proposed improvements, the claimant's appraiser opined that the value of the property was $5.6 million before the taking and $3.9 million after the taking, resulting in damages of $1.7 million.
+In contrast, the State presented evidence that the current use of the NB portion as a one-story commercial establishment was also its highest and best use and that, notwithstanding the limitations on development, the highest and best use for the R-10 portion was residential development upon expiration of the restrictions in 2060. The State's appraiser accounted for the loss of value caused by the development restrictions by applying an 80% discount to the appraised value of the property. The State's appraiser valued the NB portion at $842,712 and the R-10 portion at $30,626 prior to the taking and at $789,240 and $27,273, respectively, after the taking, for total damages of $56,825.
+The Court of Claims rejected so much of the State's appraisal as reduced the value of the R-10 portion of the property by 80% due to the development restrictions on the ground that the State failed to offer any evidence supporting that reduction. However, the court otherwise adopted the State's appraisal on the grounds that the claimant failed to substantiate its proposed highest and best use and its appraiser had applied an impermissible valuation methodology in preparing her appraisal. The court therefore found that the claimant was entitled to $54,000 in damages for the NB portion of the property and $17,000 for the R-10 portion, for total direct damages of $71,000. A judgment, which accounted for other damages not challenged on appeal, was entered in the principal sum of $113,730. The claimant appeals, contending that the court erred in adopting the highest and best use and valuations offered by the State's appraiser. We affirm.
+"The bedrock of eminent domain law is the principle that, when private property is taken for public use, the condemning authority must compensate the owner so that he may be put in the same relative position, insofar as this is possible, as if the taking had not occurred" (Matter of Queens W. Dev. Corp. [Nixbot Realty Assoc.], 139 AD3d 863, 865 [internal quotation marks omitted]; see US Const, 5th Amend; NY Const, art I, § 7[a]; EDPL 101). "Just compensation for property taken in condemnation is determined by the property's market value at the time of the taking, that is, 'the price a willing buyer would have paid a willing seller for the property'" (Matter of New Cr. Bluebelt Phase 3, Staten Is. Land Corp. [City of New York], 168 AD3d 745, 746, quoting Matter of Town of Islip [Mascioli], 49 NY2d 354, 360). The property must be valued based on its highest and best use on the effective date of the taking, irrespective of whether it is being put to that use (see Matter of Town of Islip [Mascioli], 49 NY2d at 360; Matter of New Cr. Bluebelt Phase 3, Staten Is. Land Corp. [City of New York], 168 AD3d at 746; Matter of Queens W. Dev. Corp. [Nixbot Realty Assoc.], 139 AD3d at 865). "Where, as here, there is a partial taking of the condemnee's property, the measure of damages is the difference between the value of the whole before the taking and the value of the remainder after the taking" (Matter of Metropolitan Transp. Auth. [Washed Aggregate Resources, Inc.], 102 AD3d 787, 789; see Acme Theatres v State of New York, 26 NY2d 385, 388; Matter of Town of Oyster Bay v 55 Motor Ave. Co., LLC, 187 AD3d 760, 762).
+"[T]he potential uses the court may consider in determining value are limited to those uses permitted by the zoning regulations at the time of taking" unless the claimant can demonstrate that there is "a reasonable probability of rezoning" (Matter of Town of Islip [Mascioli], 49 NY2d at 360; see Matter of Town of Oyster Bay [55 Motor Ave. Co., LLC], 156 AD3d 704, 708). Here, although the claimant had obtained a special exception permitting parking in the first 50 feet of the R-10 portion of the property (see Code of the Town of Smithtown §§ 322-82[B], [C][3]; 322-94[G]), further expansion of parking would require a use variance, which is subject to different requirements (see id. §§ 322-4[E]; 322-5[B][4]; [C][4]; 322-6[F]; 322-83[A]). The claimant failed to demonstrate that it could satisfy these requirements or that a variance was likely to be granted. The claimant likewise failed to support its proposed use of constructing an 8,400-square-foot, two-story [*3]commercial building on the NB portion of the property since, besides being dependent on its ability to use the R-10 portion of the property for parking (see id. § 322-62), it failed to demonstrate that this was a physically or economically feasible use. Since the claimant failed to make this showing, the Court of Claims properly rejected its proposed highest and best use of the property (see Matter of Town of Oyster Bay [55 Motor Ave. Co., LLC], 156 AD3d at 708-709).
+"While a court, in determining a property's fair market value, should consider the effect of expected profits from planned development or exploitation of resources on the land's value, it may not award damages based upon projected profits minus projected expenses" (Matter of Metropolitan Transp. Auth. [Washed Aggregate Resources, Inc.], 102 AD3d at 791; see Matter of City of New York [Atl. Improvement Corp.], 28 NY2d 465, 470; Belott v State of New York, 26 AD2d 749, 750). Since the claimant's appraiser based her appraisal on "the capitalization of income . . . on future projections of unstarted plans" (Matter of City of New York [Atl. Improvement Corp.], 28 NY2d at 471), the Court of Claims properly rejected her valuation of the property.
+In determining the value of a parcel of real property, "the purchase price set in the course of an arm's length transaction of recent vintage, if not explained away as abnormal in any fashion, is evidence of the 'highest rank' to determine the true value of the property at that time" (Plaza Hotel Assoc. v Wellington Assoc., 37 NY2d 273, 277, quoting Matter of F.W. Woolworth Co. v Tax Commn. of City of N.Y., 20 NY2d 561, 565; see Matter of Metropolitan Transp. Auth. [Washed Aggregate Resources, Inc.], 102 AD3d at 790).
+Here, the claimant contends that its recent purchase of the property was abnormal due to concerns of possible environmental contamination, among other reasons. Where environmental contamination or hazards affect the sale price of a property, the court should consider that factor in determining its fair market value (see Matter of Roth v City of Syracuse, 21 NY3d 411, 418; Matter of City of New York v Mobil Oil Corp., 12 AD3d 77, 81-84; Matter of Landau v Assessor of Town of Carmel, 236 AD2d 403, 403-404). Where, for example, the condemnee offers evidence that, in purchasing the subject property, it assumed full responsibility for remediation of environmental contamination, that evidence casts doubt on the sale price as the best evidence of value (see Matter of G.R.J.H., Inc. v Otis, 79 AD3d 1488, 1490). Here, while it is undisputed that the property had a history of environmental contamination, the claimant offered no evidence that it bore any responsibility or expense for remediating that contamination. On the contrary, the record contained evidence that the prior owner undertook remediation at its own expense. Accordingly, the claimant failed to demonstrate that the Court of Claims should have viewed as abnormal the claimant's relatively recent purchase of the property for $1 million.
+"In determining an award to an owner of condemned property, the findings must either be within the range of the expert testimony or be supported by other evidence and adequately explained by the court" (Matter of City of New York [Reiss], 55 NY2d 885, 886; see Matter of Queens W. Dev. Corp. [Nixbot Realty Assoc.], 139 AD3d at 865; Matter of Village of Haverstraw [AAA Electricians, Inc.], 114 AD3d 955, 957). Although this Court's authority to review findings of fact after a nonjury trial is as broad as that of the trial court, where the trial court's explanation of its award is supported by the evidence, this Court will defer to its findings, acknowledging that it had the advantage of seeing and hearing the witnesses (see Matter of Queens W. Dev. Corp. [Nixbot Realty Assoc.], 139 AD3d at 866; Matter of Metropolitan Transp. Auth. [Washed Aggregate Resources, Inc.], 102 AD3d at 791; Matter of Board of Commr. of Great Neck Park Dist. of Town of N. Hempstead v Kings Point Hgts., LLC, 74 AD3d 804, 806). Here, the Court of Claims properly accepted the valuation proffered by the State's appraiser on the grounds that it employed an accepted method of valuation which produced an appraised value which was consistent with the purchase price paid by the claimant and properly calculated the claimant's damages on that basis.
+DILLON, J.P., BRATHWAITE NELSON, RIVERA and WOOTEN, JJ., concur.
+ENTER:
+Maria T. Fasulo
+Clerk of the Court
+
+
+
+
+
+
+
+
+
+

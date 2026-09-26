@@ -1,0 +1,1045 @@
+ 
+In the Missouri Court of Appeals  
+Eastern District 
+ 
+DIVISION TWO 
+ 
+ 
+LAND CLEARANCE FOR  
+)  
+REDEVELOPMENT AUTHORITY OF THE  
+) No. ED107081 
+CITY OF ST. LOUIS,   
+)  
+ 
+)  
+ 
+Respondent,  
+) Appeal from the Circuit Court of  
+ 
+) the City of St. Louis  
+vs. 
+)  
+ 
+) Honorable David L. Dowd   
+James Townsend Osher,  
+)  
+ 
+)  
+ 
+Appellant.  
+) Filed: April 21, 2020 
+ 
+Introduction  
+ 
+ 
+James Townsend Osher (“Appellant”) appeals from the trial court’s judgment awarding 
+him $573,000 as compensation for the Land Clearance Redevelopment Authority (“LCRA”) 
+condemning his property (“Property”) in the City of St. Louis and assessing $21,207.13 in costs 
+against him.  Appellant brings eight points on appeal.  First, Appellant argues the circuit court 
+erred in failing to assign his case to a general division once exceptions were filed.  Second, 
+Appellant argues the circuit court erred in denying his request for a new judge.  Third, Appellant 
+argues the circuit court erred in assessing costs against him.  Fourth, Appellant argues the circuit 
+court erred in denying his request for a homestead allowance.  Fifth, Appellant argues the circuit 
+court abused its discretion when it excluded evidence of the amount Appellant paid a leaseholder 
+ 
+
+ 
+2 
+for the extinguishment of its leasehold interest after the Property’s condemnation.  Sixth, 
+Appellant argues the circuit court abused its discretion when it excluded photographic evidence 
+of Appellant’s experience in the construction and hotel industry, excluded photographic evidence 
+of recent developments in the City of St. Louis, and criticized him in front of the jury.  Seventh, 
+Appellant argues the circuit court abused its discretion when it admitted photographs offered by 
+LCRA depicting his Property after the date of the taking.  Lastly, Appellant argues the circuit 
+court erred in allowing LCRA to cross-examine one of Appellant’s witnesses regarding an 
+alleged fraudulent tax credit scheme to purchase the Property and other properties and to call a 
+witness to give opinion testimony regarding the same.  We affirm.     
+Factual and Procedural Background  
+ 
+Pre-Trial  
+ 
+ 
+  
+In December 2015, LCRA brought a condemnation action to take Appellant’s Property, 
+known as the “Buster Brown Building,” located at 1516-1530 North Jefferson Avenue in the 
+City of St. Louis, and over 500 other properties, to construct a new facility for the National 
+Geospatial-Intelligence Agency (“NGA”).  The case was initially assigned to Judge David Dowd 
+in Division 2 of the St. Louis City Circuit Court, who set a condemnation hearing.  On December 
+30, 2015, the then-presiding judge of the St. Louis City Circuit Court issued an order 
+(“December 2015 Order”) stating Appellant’s case was “specially assigned to Division 2 for all 
+further proceedings.”  Appellant was served with process on March 18, 2016.  On April 4, 2016, 
+a commissioners’ hearing was held to determine the fair market value of the Property, which 
+neither Appellant nor his attorney attended.  In May 2016, the commissioners awarded 
+$817,589.59.  LCRA deposited the award, with interest, in the circuit court and took title to the 
+Property.  LCRA filed its exceptions to the commissioners’ award on May 31, 2016, and 
+
+ 
+3 
+Appellant filed his exceptions to the commissioners’ award on June 13, 2016.  On July 7, 2016, 
+LCRA took the Property.   
+ 
+In November 2016, Appellant requested the case be transferred to Division 1 and 
+assigned to a trial judge under Local Rule 66.3.11 because exceptions were filed in May and June 
+2016.  In December 2016, Appellant again requested the case be transferred to Division 1 and 
+assigned to a trial judge under Local Rule 66.3.1, seeking clarification from the circuit court 
+regarding the applicability of Local Rule 66.3.1 in condemnation proceedings.  The circuit court 
+denied Appellant’s requests, stating “trial of the exceptions had been previously assigned to 
+Judge David Dowd on December 30, 2015.”  On February 8, 2017, Appellant requested a change 
+of judge under Supreme Court Rules 55.01(b) and 55.01(d),2 which the circuit court denied.  
+Appellant then filed a Writ of Prohibition in this Court and the Missouri Supreme Court 
+challenging the circuit court’s denial of his requests for pre-assignment under Local Rule 66.3.1 
+and change of judge.3  Both writs were denied.  In September 2017, Appellant requested Judge 
+Dowd recuse himself, claiming Judge Dowd was “too invested in the Condemnation Case to 
+                                               
+1 All Local Rule references are to the St. Louis City Circuit Court’s Local Rules (2015), unless otherwise indicated.  
+Local Rule 66.3.1 provides: 
+ 
+In condemnation proceedings pursuant to general statutes where exceptions to the commissioners’ 
+report are filed, the case shall be transferred to Division 1 for assignment to a general division in   
+the same manner as any other civil jury case.   
+The trial shall be handled as to each sub-file in the same manner in which other civil jury causes   
+are handled. 
+   
+2 All Supreme Court Rule references are to the Missouri Supreme Court Rules (2015), unless otherwise indicated.  
+Appellant’s motion requesting a change of judge relied on Supreme Court Rule 55.01.  However, Supreme Court 
+Rule 55.01 governs the pleadings required in a case, not a change of judge.  See Supreme Court Rule 55.01 (“There 
+shall be a petition and an answer; and there shall be a reply to a counterclaim denominated as such; an answer to a 
+cross-claim, if the answer contains a cross-claim; a third-party petition, if a person who was not an original party is 
+summoned under the provisions of Rule 52.11; and there shall be a third-party answer, if a third-party petition is 
+served.  A defense consisting of an affirmative avoidance to any matter alleged in a preceding pleading must be 
+pleaded.  No other pleading shall be required except as ordered by the court.”).  To the extent Appellant relies on 
+Supreme Court Rule 55.01 in moving for a change of judge, he is mistaken.  Supreme Court Rule 51.05 governs 
+requests for a change of judge.  See Supreme Court Rule 51.05.  
+ 
+3 See State ex rel. Osher v. Mullen, ED105463 and State ex rel. Osher v. Mullen, No. SC96500.   
+
+ 
+4 
+have the appearance of independent judgment in the Exception Case” and exhibited an “inherent 
+bias” favoring LCRA.  Appellant’s request for recusal was also denied.   
+Trial  
+ 
+In May 2018, the exceptions filed by LCRA and Appellant proceeded to a jury trial, 
+which lasted seven days.   
+Appellant’s Evidence  
+ 
+Appellant testified on his own behalf.  He testified he began renting the Property in 1993 
+and bought the Property in 1996 for $200,000.  Appellant testified the Property’s highest and 
+best use was for redevelopment as a boutique hotel and the Property was worth $5.5 million on 
+the date of the taking.  Appellant testified he asked for the Property to be registered in the 
+National Historic Registry in 2005 to “sav[e] the structure if anything should ever happen.”  
+Appellant testified the Property was valuable to himself, the City, and the neighborhood because 
+of its history.  Appellant sought to admit photographic evidence of his experience in the 
+construction and hotel industry and nearby developments in the City of St. Louis during his 
+testimony, but the trial court excluded such evidence.   
+ 
+Appellant also testified regarding an earlier sale of the Property from JTO, LLC (“JTO”), 
+a company Appellant formed, to NorthSide Regeneration, LLC (“NSR”), a company owned by 
+Paul McKee, for $3.75 million in 2011 (the “2011 Sale”).  Appellant testified he transferred title 
+to the Property to JTO.  He testified NSR purchased the Property from JTO in an arms-length 
+transaction.  He testified the sale was structured as a “sale-leaseback” or “triple net lease,” where 
+NSR would own the Property but lease the Property to another company called Wilco Leasing, 
+which was created by Appellant’s then-wife.  Under the triple net lease, Wilco Leasing would 
+pay all insurance, taxes, repairs, and utility bills and NSR would collect $375,000 in rent 
+
+ 
+5 
+payments per year.  Appellant testified he self-financed the transaction and NSR agreed to pay 
+him $3.75 million over five years at a 10% interest rate.  Appellant would retain possession of 
+the Property.  He testified he did not consider the $3.75 million purchase price inflated.   
+ 
+On cross-examination, Appellant testified he received no payment from NSR on the 
+closing date.  He testified he knew McKee was going to receive “a lot” of tax credits for NSR’s 
+$3.75 million purchase of the Property.4  He testified he could not recall an email he sent to NSR 
+in November 2011 that stated NSR owed him a “[o]ne time principal payment of 50 percent of 
+tax credits in Q1 2012.”  Appellant testified he received $591,000 from NSR in January 2012 but 
+denied the source of the $591,000 was tax credits.  Appellant testified the Department of 
+Economic Development disqualified the tax credits it previously granted McKee in March 2013 
+and all payments from NSR to JTO stopped in March 2013.  Appellant testified he received 
+$733,000 from NSR as of March 2013.  Appellant agreed he and McKee thereafter “unwound” 
+the 2011 Sale and conveyed the Property back to Appellant.  On re-direct examination, Appellant 
+testified he did not recall the Department of Economic Development disapproving of the owner-
+financed, sale-leaseback structure of the transaction between JTO and NSR. 
+ 
+Appellant also sought to testify about a settlement he entered with AT&T Mobility 
+(“AT&T”), a company that rented a space for a cell tower on the Property’s roof, after the 
+Property was condemned.  Appellant sought to testify he paid AT&T $65,000 to resolve any 
+claims arising from the termination of AT&T’s lease with Appellant due to the Property’s 
+                                               
+4 Appellant, McKee, and various other witnesses testified that, in 2007, the General Assembly enacted the 
+“Distressed Areas Land Assemblage Tax Credit Act (“DALATC”).  See § 99.1205 (2007).  The DALATC provided 
+that developers who purchased land in an economically distressed area could apply to the Department of Economic 
+Development to gain access to tax credits, which would pay for “an amount equal to fifty percent of the acquisition 
+costs, and one hundred percent of the interest costs incurred for a period of five years after the acquisition of an 
+eligible parcel.”  § 99.1205.3.  The DALATC provided the funds generated from the use of the tax credit must be 
+used for redevelopment activities in the economically distressed area.  § 99.1205.2(b)(a).   
+
+ 
+6 
+condemnation and Appellant owed AT&T nothing further.  The circuit court disallowed this 
+testimony, stating “I think it is a matter that can be handled after the verdict in this trial.”   
+ 
+Appellant next called William Otto Spence, his appraiser, as a witness.  Spence testified 
+he conducted a lengthy inspection of the Property four times but observed the Property on 
+several other occasions.  Spence testified the fair market value of the Property at the time of the 
+taking was $4.93 million.  Like Appellant, Spence testified the highest and best use of the 
+Property was for conversion into a “lifestyle or boutique hotel.”  In valuing the Property, Spence 
+considered the 2011 Sale price of $3.75 million.  Spence testified he met with McKee to discuss 
+the 2011 Sale.  He testified McKee told him the sale was conducted at arms-length and 
+represented the market value of the Property.  Spence testified the 2011 Sale was not a “sham 
+sale” and he considered the source of NSR’s funding from tax credits irrelevant to his valuation 
+of the Property.  Spence testified he based his appraisal of the Property upon what was occurring 
+in the Property in 2016 before Appellant moved out.  He explained his appraisal included some 
+photographs taken of the Property after the date of the taking because Appellant requested he 
+wait until Appellant moved out of the Property to take photographs.  Spence also based his 
+valuation, in part, on the Property’s historic significance and its status in the National Historic 
+Registry.   
+ 
+Appellant also called McKee as a witness.  McKee testified NSR purchased the Property 
+from JTO in 2011 for $3.75 million with the triple net lease structure Appellant described in his 
+earlier testimony.  He testified he received tax credits from the 2011 Sale from the Department of 
+Economic Development, but they were later denied.  McKee testified NSR “unwound” the 
+transaction with JTO after NSR paid JTO approximately $700,000.  McKee testified the State 
+asked him and Appellant to unwind the transaction between NSR and JTO.  On 
+
+ 
+7 
+cross-examination, McKee denied he would have been willing to overpay for the Property if he 
+got 50% of the sale price back in tax credits.  McKee also testified NSR entered into other 
+transactions with Appellant to purchase other properties in the City of St. Louis.  McKee testified 
+these other transactions involved a million-dollar purchase price, no money exchanging hands at 
+the closing, and a large payout of tax credits.   
+LCRA’s Evidence  
+ 
+LCRA called Laura Costello, the Director of Real Estate for the St. Louis Development 
+Corporation, as a witness.  Costello testified she inspected the Property in September 2016.  She 
+testified she saw chipped paint, nonfunctioning windows, and holes in the floor during her 
+inspection.  Costello admitted her inspection took place after the date of the taking.  LCRA 
+admitted photographs of Costello’s inspection of the Property into evidence.  Costello testified 
+she never instructed McKee to unwind the transaction between NSR and JTO.   
+ 
+LCRA also called Kevin Schoenborn, an environmental company project manager, as a 
+witness.  Schoenborn testified he inspected the Property in March 2017 after Appellant moved 
+out.  He testified his inspection revealed damage around the skylights, chipped paint, 
+nonfunctioning windows, a spongy roof, and tuck pointing issues.  He also testified he observed 
+the Property had poor structural integrity.   
+ 
+LCRA also called Tom Mueller as a witness.  Mueller testified he previously owned the 
+Property and sold it to Appellant in 1996.  Mueller testified he saw the inside of the Property 
+after Appellant moved out.  He testified the Property had no chipped paint, non-functioning 
+windows, or water damage before he sold it to Appellant.  Mueller testified the Property was not 
+in better condition than when he sold it to Appellant.   
+
+ 
+8 
+ 
+LCRA called John Neff, its appraiser, who testified the fair market value of the Property 
+at the time of the taking was $573,000 and the Property’s highest and best use was as a 
+warehouse.  He testified he inspected the building in January and September 2016 and found it 
+was in fair to average condition.  He agreed with Schoenborn the Property had poor structural 
+integrity.  Neff testified the fact the Property belonged to the National Historic Register did not 
+factor into his appraisal.  LCRA also called several expert witnesses who testified the Property’s 
+highest and best use was not for a hotel, as it had a poor location that experienced little traffic 
+and would cost between $200,000-400,000 per room to convert the Property into a hotel.   
+ 
+Lastly, LCRA called Sallie Hemenway, the Division Director at the Missouri Department 
+of Economic Development, as a witness to discuss the 2011 Sale and the sales of other properties 
+between NSR and Appellant.  Hemenway testified the State initially issued tax credits to McKee 
+for his acquisition of the Property in the 2011 Sale.  Hemenway testified the State rescinded the 
+tax credits previously granted for the 2011 Sale after discovering the improper owner-financed, 
+sale-leaseback structure of the transaction between JTO and NSR.   
+Jury Verdict and Homestead Allowance 
+ 
+The jury returned a verdict awarding Appellant $573,000, the value suggested by LCRA; 
+$244,589.59 less than the commissioners’ award.  Following trial, Appellant asked the circuit 
+court to apply a homestead allowance under section 523.0395 to increase the jury’s verdict 
+because he alleged the Property was his primary residence.  The parties waived an evidentiary 
+hearing on the homestead allowance issue and filed a Joint Statement of Facts containing a 
+stipulation of the evidence that would have been presented at a hearing.  The Joint Statement of 
+                                               
+5 All statutory references are to RSMo (2015), unless otherwise indicated. 
+
+ 
+9 
+Facts asked the circuit court to “determine the issues based upon the evidence, the evidence 
+adduced at trial, and the arguments of counsel.”   
+ 
+The parties stipulated Appellant would have testified as follows.  He used the fourth floor 
+of the Property, which included a residential loft, as his primary residence since the summer of 
+2015.  From 2005 until the summer of 2015, his primary residence was in Florida.  His 
+residential loft in the Property was not in violation of any zoning laws.  He did not believe he 
+needed a permit to live in the Property.  He filed state income taxes in Missouri in 2015 and 
+2016: filed a city earnings tax in Missouri in 2015 and 2016; registered to vote in Missouri in 
+2015; obtained a Missouri non-driver’s license because he maintained a commercial driver’s 
+license in Florida; and listed the Property’s address on his health and car insurance.6  Appellant 
+did not own the Property when he moved into it in the summer of 2015 or when LCRA sent NSR 
+a sixty-day notice expressing its intent to acquire the Property by eminent domain in November 
+2015.  He owned the Property only after NSR and JTO agreed to “unwind” the 2011 Sale and 
+grant title to Appellant.  In the closing documents memorializing the “unwind” of the 2011 Sale, 
+Appellant listed his Florida address as his mailing address.   
+ 
+When Appellant moved to the Property in 2015, he did not abandon his Florida home or 
+certain aspects of his Florida residency.  He kept his Florida driver’s license and renewed it in 
+November 2017.  He listed his Florida address as his home address on his 2014 Federal Income 
+Tax Return, which was filed in September 2015 while he claimed to live in the Property.  The 
+Property was zoned for industrial use and was not approved for residential use.  The City of St. 
+Louis never issued an occupancy permit for anyone to reside at the Property.  Appellant was 
+aware the City of St. Louis’ zoning laws prohibited him from living at the Property, but he 
+                                               
+6 Appellant also produced these documents, and others, as exhibits and attached them to the Joint Statement of 
+Facts.   
+
+ 
+10 
+thought it was legal for him to do so because he was a security guard at the Property.  However, 
+there is no “security guard” exception in the City of St. Louis’ Municipal Code.  From July 2015 
+to January 2017, he repeatedly left town and spent more time in Florida than Missouri.   
+ 
+The parties also stipulated Costello would have testified she regularly drove by the 
+Property during the times Appellant claimed to reside there but saw no indication Appellant 
+occupied the Property.  She inspected the Property in September 2016 and observed some 
+appliances on the fourth floor were not plugged in to any power source.  The parties also 
+stipulated Jennifer Kaniecki, a Relocation Specialist with Development Resource Partners, LLC, 
+would have testified Appellant never provided her with any proof he was a full time resident at 
+the Property and, in her opinion, if Appellant ever did reside in the Property, he did so 
+purposefully to attempt to obtain a homestead allowance and/or other relocation benefits.   
+ 
+After considering the evidence presented by both parties, the circuit court denied 
+Appellant’s request for a homestead allowance, finding the Property was “not a dwelling within 
+the meaning of §523.039”; “[Appellant]’s testimony that the [Property] was his primary place of 
+residence [wa]s not credible”; and “the facts lead to the conclusion that the [Property] was not 
+his primary place of residence.”    
+Assessment of Costs  
+ 
+Following trial, LCRA also filed a Bill of Costs, which asked the circuit court to tax costs 
+incurred after the commissioners’ award was entered against Appellant.  LCRA’s Bill of Costs 
+requested $21,207.13 be taxed against Appellant “pursuant to Missouri Supreme Court Rule 
+77.01.”7  Appellant opposed LCRA’s Bill of Costs, arguing Supreme Court Rule 77.01 did not 
+                                               
+7 Supreme Court Rule 77.01 provides: “In civil actions, the party prevailing shall recover his costs against the other 
+party.”  
+ 
+
+ 
+11 
+apply in condemnation cases and Supreme Court Rule 86.098 controlled instead.  Appellant 
+argued, under either Rule, LCRA failed to justify its request that costs be taxed against 
+Appellant.  The circuit court ordered Appellant to pay costs in the amount of $21,207.13.   
+ 
+On July 18, 2018, the circuit court entered judgment on the verdict.    
+ 
+Appellant appeals.   
+Discussion 
+Point I: Assignment to a General Division After Filing Exceptions 
+ 
+ 
+Appellant’s first point argues the circuit court erred in failing to assign his case to a 
+general division once exceptions were filed.  He argues Local Rule 66.3.1 mandates that, once 
+exceptions to the commissioners’ report are filed, the circuit court must transfer the case to 
+Division 1 for assignment to a general division.  He argues the circuit court’s December 2015 
+Order specially assigning the case to Judge Dowd was issued before either party filed exceptions.  
+Therefore, he argues the circuit court’s December 2015 Order provided “no legitimate basis for 
+bypassing” Local Rule 66.3.1.   
+Standard of Review  
+ 
+ 
+On appeal, we defer to the circuit court’s construction of its local rules because “[t]he 
+court that enunciates a rule is the best judge of that rule.”  James v. James, 853 S.W.2d 425, 430 
+(Mo. App. S.D. 1993) (internal citation omitted) (quoting Mid. Materials Co. v. Village Dev. Co., 
+806 S.W.2d 477, 484 (Mo. App. S.D. 1991)).  “[A] higher court is reluctant to interfere with a 
+                                               
+8 Supreme Court Rule 86.09 provides:  
+ 
+The cost of the condemnation proceeding shall be paid by the condemner, up to and including the 
+filing and copying of the report of the commissioners; and the court, as to any costs made by 
+subsequent litigation, may make such order as in its discretion may be deemed just.  The court 
+shall allow the commissioners a reasonable compensation for their services, which shall be taxed 
+as costs in the proceeding. 
+
+ 
+12 
+court’s construction of its own rule.”  In re Transit Cas. Co., 900 S.W.2d 671, 674 (Mo. App. 
+W.D. 1995) (citing State ex rel. Logan v. Ellison, 267 Mo. 321, 184 S.W. 963, 964 (Mo. 1916)).   
+Analysis  
+ 
+ 
+Supreme Court Rule 50.01 authorizes circuit courts to adopt local rules to “govern[ ] the 
+administration of judicial business,” so long as they are not “inconsistent with the rules of [the 
+Supreme Court], the Constitution or statutory law in force.”  State ex rel. Burns v. Gillis, 102 
+S.W.3d 66, 70 (Mo. App. W.D. 2003) (alterations in original) (citing Supreme Court Rule 
+50.01).  The St. Louis City Circuit Court adopted Local Rule 66 to govern the administration of 
+judicial business in condemnation proceedings.  Local Rule 66.1 provides condemnation cases 
+shall be initially assigned to the equity division.  Local Rule 66.2 provides: “If exceptions are 
+filed, the clerk shall establish a sub-file for the particular parcel to which the exception relates . . 
+. and each sub-file shall remain assigned to the judge who entered the order of condemnation.”  
+Local Rule 66.3.1 then provides:  
+In condemnation proceedings pursuant to general statutes where exceptions to the 
+commissioners’ report are filed, the case shall be transferred to Division 1 for 
+assignment to a general division in the same manner as any other civil jury case.  
+The trial shall be handled as to each sub-file in the same manner in which other 
+civil jury causes are handled.   
+ 
+(emphasis added).  The St. Louis City Circuit Court has also adopted Local Rule 6.2.1, which 
+states: “From time to time and in the presiding judge’s discretion, the presiding judge may assign 
+extraordinary cases requiring individual and continuing attention to general divisions for trial 
+setting, pretrial motions and trial.”  Local Rule 6.2.1.   
+ 
+Here, the circuit court initially assigned the case to Judge Dowd in Division 2, the equity 
+division, when LCRA filed its condemnation petition.  On December 30, 2015, the then-
+presiding judge for the St. Louis City Circuit Court issued its order stating Appellant’s case was 
+
+ 
+13 
+“specially assigned to Division 2 for all further proceedings.”  On April 4, 2016, Judge Dowd 
+entered the order of condemnation.  On May 31, 2016, LCRA filed its exceptions, and on June 
+13, 2016, Appellant filed his exceptions.  Upon the filing of exceptions, the circuit court did not 
+transfer the case to Division 1 for assignment to a general division.  In December 2016, when 
+Appellant asked the circuit court to clarify the application of Local Rule 66.3.1 to his case, the 
+circuit court stated the “trial of the exceptions had been previously assigned to Judge David 
+Dowd on December 30, 2015.”   
+ 
+Appellant argues the circuit court violated Local Rule 66.3.1 when it failed to transfer the 
+case to Division 1 for assignment to a general division once exceptions were filed.  We disagree.  
+The circuit court construed its Local Rules and determined the case did not need to be assigned 
+when exceptions were filed because of the December 2015 Order.  We “defer[] to the trial court 
+with respect to its interpretation and application of its local rules relating to setting cases for 
+trial.”  James, 853 S.W.2d at 430.  Further, Appellant’s case was one part of a large, complicated 
+and extraordinary proceeding involving the acquisition of over 500 properties on an almost 100-
+acre site in the City of St. Louis.  It was within the authority of the then-presiding judge for the 
+City of St. Louis Circuit Court to specially assign Appellant’s case to Judge Dowd “for all 
+further proceedings” under the circumstances.  See Local Rule 6.2.1.   
+ 
+Point I is denied.   
+Point II: Application for Change of Judge  
+ 
+ 
+Appellant’s second point argues the circuit court erred in denying his application for a 
+change of judge without cause.  
+ 
+ 
+
+ 
+14 
+Standard of Review  
+ 
+ 
+“The denial of a motion for change of judge without cause is an issue of law that the 
+appellate court reviews de novo.”  Corozzo v. Wal-Mart Stores, Inc., 531 S.W.3d 566, 570 (Mo. 
+App. W.D. 2017) (citing Gordon ex rel. G.J.E. v. Epperly, 504 S.W.3d 836, 844 (Mo. App. W.D. 
+2016)).   
+Analysis  
+ 
+ 
+“A civil litigant has a ‘virtually unfettered right to disqualify a judge without cause on 
+one occasion.’  Thus, the presentation of a timely application for change of judge under 
+[Supreme Court] Rule 51.05 requires a prompt change of judge.”  State ex rel. Stockman v. 
+Frawley, 470 S.W.3d 401, 404 (Mo. App. E.D. 2015) (citing State ex rel. Walters v. 
+Schaeperkoetter, 22 S.W.3d 740, 742 (Mo. App. E.D. 2000)).  Under Supreme Court Rule 51.05, 
+an application for change of judge “must be filed within 60 days from service of process or 30 
+days from the designation of the trial judge, whichever time is longer.”  Supreme Court Rule 
+51.05(b).  When a party files an application for change of judge, the trial court must grant the 
+application and transfer the case if the application was timely filed and no other member of the 
+applicant’s “class” previously obtained a change of judge under Supreme Court Rule 51.05.  
+State ex rel. Manion v. Elliott, 305 S.W.3d 462, 464 (Mo. banc 2010).  In condemnation cases 
+involving multiple defendants, as to which separate trials are held, each separate trial to 
+determine damages shall be treated as a separate case for purposes of change of judge.”  
+Supreme Court Rule 51.05(d).9  
+                                               
+9 Here, both parties conceded during oral argument Appellant was the only defendant to request a trial to determine 
+damages and no other defendant requested a change of judge.  Therefore, Supreme Court Rule 51.05(d) is not in 
+issue.  
+ 
+
+ 
+15 
+Appellant’s request for a change of judge was untimely.  Judge Dowd was designated 
+trial judge on December 30, 2015, through the December 2015 Order.  Appellant was served 
+with process on March 18, 2016.  Therefore, Appellant must have filed his application for 
+change of judge by May 18, 2016, to avail himself of his right to disqualify Judge Dowd under 
+Supreme Court Rule 51.05.  He failed to do so.  Appellant argues his application for change of 
+judge was timely because it was filed “less than 30 days after the trial court made clear in its 
+final order that it was going to assume jurisdiction over this exceptions case in violation of Local 
+Rule 66.3.1” on January 9, 2017.  However, the fact Appellant did not realize Judge Dowd was 
+the judge designated to his case until January 9, 2017, is irrelevant and does not alter the 
+deadlines stated in Supreme Court Rule 51.05(b).  “The designation of the trial judge occurs 
+when the judicial transfer order is filed in the circuit court, not when the parties are notified of a 
+change in judge.”  Corozzo, 531 S.W.3d at 570-71 (internal quotations and citations omitted).  
+Because Appellant failed to timely apply for a change of judge, the circuit court did not err in 
+denying his request.   
+ 
+Point II is denied.   
+Point III: Assessment of Costs  
+ 
+ 
+Appellant’s third point argues the circuit court erred in assessing $21,207.13 in costs 
+against him.  He argues the circuit court erroneously relied on Supreme Court Rule 77.01 in 
+assessing costs, which provides, “[i]n civil actions, the party prevailing shall recover his costs 
+against the other party,” instead of Supreme Court Rule 86.09, which provides, in condemnation 
+proceedings, “the court, as to any costs made by subsequent litigation, may make such order as 
+in its discretion may be deemed just.”  He contends the circuit court must have erroneously relied 
+on Supreme Court Rule 77.01 because LCRA’s Bill of Costs motion requested costs be assessed 
+
+ 
+16 
+against him “pursuant to Missouri Supreme Court Rule 77.01” and the trial court overruled his 
+objection that Supreme Court Rule 77.01 does not apply in a condemnation proceeding.  He 
+further argues, even if the circuit court assessed costs against him under Supreme Court Rule 
+86.09, its award of costs was improper because LCRA had a duty to justify the award of costs 
+and failed to do so.   
+Standard of Review 
+ 
+A circuit court’s award of costs is a matter within its sound discretion, “and we will not 
+disturb the award absent a showing of an abuse of discretion.”  Green v. Plaza in Clayton Condo. 
+Ass’n, 410 S.W.3d 272, 284 (Mo. App. E.D. 2013) (internal citations omitted).  “A court abuses 
+its discretion when its action is so clearly against the logic of the circumstances and so arbitrary 
+and unreasonable as to shock one’s sense of justice and indicate a lack of careful consideration.”  
+Oliver v. Ford Motor Credit Co., LLC, 437 S.W.3d 352, 366 (Mo. App. W.D. 2014) (quoting 
+Kopp v. Home Furnishing Ctr., LLC, 210 S.W.3d 319, 329 (Mo. App. W.D. 2006)).   
+Analysis 
+ 
+Condemnation proceedings are governed by Supreme Court Rule 86.  See State ex rel. 
+Washington Univ. Med. Ctr. Redevelopment Corp. v. Gaertner, 626 S.W.2d 373, 377 (Mo. banc 
+1982), abrogated on other grounds by Clay Cty. Realty Co. v. City of Gladstone, 254 S.W.3d 859 
+(Mo. banc 2008).  “Other rules of civil procedure apply in condemnation proceedings only when 
+they are consistent with [Supreme Court] Rule 86.”  Id.  Supreme Court Rule 86.09 provides a 
+procedure for assessing costs in condemnation proceedings:  
+The cost of the condemnation proceeding shall be paid by the condemner, up to 
+and including the filing and copying of the report of the commissioners; and the 
+court, as to any costs made by subsequent litigation, may make such order as in its 
+discretion may be deemed just. The court shall allow the commissioners a 
+reasonable compensation for their services, which shall be taxed as costs in the 
+proceedings. 
+
+ 
+17 
+ 
+Supreme Court Rule 86.09. 
+ 
+Appellant argues the circuit court erroneously relied on Supreme Court Rule 77.01 
+instead of Supreme Court Rule 86.09 in assessing costs.  We disagree.  While LCRA’s Bill of 
+Costs requested costs be assessed against Appellant “pursuant to Missouri Supreme Court Rule 
+77.01,” the circuit court’s order makes no reference to Supreme Court Rule 77.01.  “We presume 
+that the trial court knew and followed the law unless its judgment clearly indicates otherwise.”  
+In re Marriage of Davis, 378 S.W.3d 426, 432 n.4 (Mo. App. S.D. 2012) (citing Panettiere v. 
+Pannetiere, 945 S.W.2d 533, 540 (Mo. App. W.D. 1997)).  Because the circuit court’s judgment 
+does not clearly indicate otherwise, we presume the circuit court assessed costs against Appellant 
+in a manner consistent with “the exercise of reasonable discretion” under Supreme Court Rule 
+86.09.    
+ 
+Appellant also argues that, even if the circuit court assessed costs against him under 
+Supreme Court Rule 86.09, LCRA had a duty to justify the circuit court’s award of costs and 
+failed to do so.  However, Appellant cites no rule or case, and we can find no rule or case, 
+imposing that requirement.  As Missouri courts have held, “All that we can read into . . . 
+[Supreme Court R]ule [86.09] is that it allows the trial court to assess costs in the trial of the 
+exceptions in the exercise of a reasonable discretion.”  State ex rel. Farris v. Clifford, 543 
+S.W.2d 811, 813 (Mo. App. 1976).  LCRA had no duty under Supreme Court Rule 86.09 to 
+justify the circuit court’s award of costs.   
+ 
+Point III is denied.  
+Point IV: Homestead Allowance  
+ 
+ 
+Appellant’s fourth point argues the circuit court erred in denying his request for a 
+homestead allowance.  
+
+ 
+18 
+Standard of Review  
+ 
+ 
+Decisions made by the circuit court without the aid of the jury are reviewed under 
+Murphy v. Carron, 536 S.W.2d 30, 32 (Mo. banc 1976).  “Under Murphy v. Carron, this Court 
+will affirm the judgment of the trial court ‘unless there is no substantial evidence to support it, it 
+is against the weight of the evidence, it erroneously declares the law, or it erroneously applies the 
+law.”  Cent. Parking Sys. of Mo., LLC v. Tucker Parking Holdings, LLC, 519 S.W.3d 485, 492 
+(Mo. App. E.D. 2017) (footnote omitted) (quoting Lambrich v. Kay, 507 S.W.3d 66, 74 (Mo. 
+App. E.D. 2016)).   
+Analysis  
+ 
+ 
+Section 523.039 sets forth the methods for determining just compensation for condemned 
+property.  See § 523.039; City of Cape Girardeau v. Elmwood Farms, L.P., 575 S.W.3d 280, 284 
+(Mo. App. E.D. 2019).  “Specifically, Section 523.039(1) through (3) determines just 
+compensation for condemned property by whichever yields the highest compensation applicable 
+to the property.”  Id.  Under section 523.039(1) through (3), just compensation for condemned 
+property is either:  
+(1) An amount equivalent to the fair market value of such property; 
+ 
+(2) For condemnations that result in a homestead taking, an amount equivalent to the 
+fair market value of such property multiplied by one hundred twenty-five percent; 
+or  
+ 
+(3) For condemnations of property that result in any taking that prevents the owner 
+from utilizing property in substantially the same manner as it was currently being 
+utilized on the day of the taking and involving property owned within the same 
+family for fifty or more years, an amount equivalent to the sum of the fair market 
+value and heritage value . . . .    
+ 
+ 
+
+ 
+19 
+§ 523.039(1)-(3).  Under section 523.039(2), a “homestead taking” is defined as “any taking of a 
+dwelling owned by the property owner and functioning as the owner’s primary place of 
+residence.”  § 523.001.   
+ 
+Appellant argues the circuit court erred in denying his request for a homestead allowance 
+because it improperly found his testimony the Property was his primary place of residence “not 
+credible,” even though both parties stipulated to the evidence before the circuit court regarding 
+Appellant’s entitlement to such an allowance and no live testimony was presented to the circuit 
+court.  Because the issue was tried upon stipulated facts, Appellant argues the circuit court “had 
+no basis for considering [his] credibility” and, therefore, the circuit court’s judgment denying his 
+request for a homestead allowance was erroneous.     
+ 
+Appellant’s argument is misguided.  It is true “we will not give deference to a trial 
+judge’s determination regarding credibility of witnesses” when an issue is tried solely upon 
+stipulated facts.  Thompson v. Chase Manhattan Mortg. Corp., 90 S.W.3d 194, 200 (Mo. App. 
+S.D. 2002) (citing Jarrell v. Dir. of Rev., 41 S.W.3d 42, 45 (Mo. App. S.D. 2001)).  However, 
+the fact we will not defer to a circuit court’s determination of witness credibility when an issue is 
+tried solely upon stipulated facts does not mean the circuit court has no basis to weigh the 
+credibility of the evidence before it in reaching a decision.  When confronted with conflicting 
+evidence, a circuit court must always weigh the credibility of that evidence in reaching its 
+decision.  See Griffitts v. Old Republic Ins. Co., 550 S.W.3d 474, 477 n.3 (Mo. banc 2018) 
+(alterations in original) (quoting State v. Lytle, 715 S.W.2d 910, 915 (Mo. banc 1986)) 
+(“[c]onflicts in the evidence [are] for the trial court to resolve.”).  
+ 
+In addition, the issue of Appellant’s entitlement to a homestead allowance was not tried 
+solely upon stipulated facts.  The Joint Statement of Facts filed with the circuit court stated the 
+
+ 
+20 
+parties agreed to “waive the opportunity to present live testimony and ask the Court to determine 
+the issues based upon t[he stipulated] evidence, the evidence adduced at trial, and the arguments 
+of counsel.”  (emphasis added).  As LCRA noted, Appellant repeatedly testified regarding his 
+alleged residency in the Property at trial.  On direct-examination, Appellant testified his primary 
+residence was on the fourth floor of the Property beginning in the summer of 2015.  He testified 
+he filed state income taxes in Missouri in 2015 and 2016: filed a city earnings tax in Missouri in 
+2015 and 2016; registered to vote in Missouri in 2015; and obtained a Missouri non-driver’s 
+license because he maintained a commercial driver’s license in Florida.  On cross-examination, 
+Appellant testified he never asked for an occupancy permit to live in the Property.    
+ 
+The circuit court “is free to believe or disbelieve all, part, or none of the testimony of any 
+witness” testifying at trial.  Tolliver v. 5 G Homes, LLC, 563 S.W.3d 827, 834 (Mo. App. E.D. 
+2018) (citing Watson v. Mense, 298 S.W.3d 521, 525-26 (Mo. banc 2009)).  We defer to the trial 
+court’s assessment of credibility of witnesses who testified at trial.  State ex rel. Family Support 
+Div. v. Steak’m Take’m LLC, 524 S.W.3d 584, 589 (Mo. App. W.D. 2017) (citing Roper Elec. 
+Co. v. Quality Castings, Inc., 60 S.W.3d 708, 710 (Mo. App. S.D. 2001)).   This deference is 
+appropriate because the trial court “is in a better position not only to judge the credibility of 
+witnesses and the persons directly, but also their sincerity and character and other trial 
+intangibles which may not be completely revealed by the record.”  Tolliver, 563 S.W.3d at 834 
+(quoting Essex Contracting Inc. v. Jefferson Cty., 277 S.W.3d 647, 653 (Mo. banc 2009)).  Thus, 
+the circuit court was free to disbelieve Appellant’s trial testimony he used the Property as his 
+primary residence.  The circuit court properly considered the credibility of Appellant’s trial 
+testimony in reaching its judgment.  We must defer to its determination.  Steak’m Take’m LLC, 
+524 S.W.3d at 589.  
+
+ 
+21 
+ 
+Further, the circuit court’s judgment denying Appellant’s request for a homestead 
+allowance is supported by substantial evidence derived from the parties’ Joint Statement of 
+Facts.  In the Joint Statement of Facts, the parties stipulated Appellant would testify he began 
+using the fourth floor of the Property as his primary residence in the summer of 2015.  Appellant 
+obtained a Missouri non-driver’s license; paid a city earnings tax; registered to vote in Missouri 
+in 2015; listed the Property as his address for his health and car insurance; and filed state income 
+taxes in Missouri in 2015 and 2016.  Appellant did not own the Property when he allegedly 
+moved into it in the summer of 2015 or when LCRA sent notice it intended to acquire the 
+Property by eminent domain in November 2015. 
+ 
+ 
+Appellant never abandoned his home in Florida; maintained his Florida driver’s license, 
+which he renewed in November 2017; and listed Florida as his home address on his 2014 Federal 
+Tax Income Return, which was filed in September 2015 when he claimed to be using the 
+Property as his primary residence.  The Property was zoned for industrial use and not approved 
+for residential use, the City of St. Louis never issued an occupancy permit for Appellant to reside 
+at the Property, and Appellant was aware the City of St. Louis’ zoning laws prohibited him from 
+living at the Property.  From July 2015 until January 2017, Appellant repeatedly left town and 
+spent more time in Florida than Missouri.  Inspections of the Property revealed some appliances 
+on the Property were not functioning during the time in which Appellant claimed to be living in 
+the Property.    
+ 
+The circuit court’s judgment states “the facts lead to the conclusion that the building was 
+not [Appellant]’s primary place of residence.”  “[W]here facts essential to an element of a case 
+are derived from non-live sources and are in conflict, appellate courts give deference to the trial 
+court’s conclusions about those facts.”  Thompson, 90 S.W.3d at 200 (citing Jarrell, 41 S.W.3d 
+
+ 
+22 
+at 46[9]).  Because we defer to the circuit court’s conclusions about the facts alleged in the Joint 
+Statement of Facts, and we defer to the circuit court’s determinations regarding credibility of 
+Appellant’s trial testimony, we find the circuit court’s judgment is supported by substantial 
+evidence and is not against the weight of the evidence.  
+ 
+Point IV is denied.   
+Point V: Exclusion of Evidence of Settlement Amount 
+ 
+ 
+Appellant’s fifth point argues the circuit court abused its discretion when it excluded 
+evidence of a settlement agreement between him and AT&T, a company that rented a space for a 
+cell tower on the Property’s roof from Appellant before the Property’s condemnation.  Under the 
+settlement agreement, Appellant paid AT&T $65,000 to resolve any claims arising from the 
+termination of AT&T’s lease with Appellant because of the Property’s condemnation.  Appellant 
+argues the circuit court improperly excluded this evidence because it erroneously believed 
+section 523.053 required the settlement amount be determined at a separate distribution after the 
+jury returned their verdict.   
+Standard of Review  
+ 
+ 
+“We review a trial court’s ruling on the admission or exclusion of evidence for abuse of 
+discretion.”  State v. Ecford, 198 S.W.3d 156, 158 (Mo. App. E.D. 2006) (citing State v. Nelson, 
+178 S.W.3d 638, 642 (Mo. App. E.D. 2005)).  “In condemnation cases, trial court errors in the 
+admission or exclusion of evidence will not typically result in our reversing a decision without a 
+showing of substantial or glaring injustice.”  Glaize Creek Sewer Dist. of Jefferson Cty. v. 
+Gorham, 335 S.W.3d 590, 593 (Mo. App. E.D. 2011) (internal citations omitted).   
+ 
+  
+
+ 
+23 
+Analysis  
+ 
+ 
+A tenant may be entitled to a portion of the proceeds of the commissioners’ award if he 
+or she establishes a “bonus value” of the unexpired term of the lease exists.  City of Riverside v. 
+Progressive Inv. Club of Kan. City, 45 S.W.3d 905, 911 (Mo. App. W.D. 2001) (internal 
+citations omitted).  However, if a condemned property is subject to a leasehold interest, a single 
+award of damages is made without regard to the lessee’s claim.  Santa Fe Trail Neighborhood 
+Redevelopment Corp. v. W.F. Coehn & Co., 154 S.W.3d 432, 442 (Mo. App. W.D. 2005) (citing 
+State ex rel. Mo. Highway & Transp. Comm’n v. Rantz, 43 S.W.3d 436, 440 (Mo. App. S.D. 
+2001)).  Once a single award of damages is made, section 523.053 governs the distribution of 
+condemnation awards among defendants.   
+ 
+Section 523.053(1) provides “those defendants claiming a determinable interest in the 
+proceeds of [the commissioners’] award may file with the court an agreement setting out the 
+manner and percentages in which said award is to be divided among them.”  § 523.053(1).  But 
+section 523.053(4) specifically provides “[a]ny evidence relating to the terms of said 
+determination of interest shall not be admissible as evidence before the jury on the trial of . . . 
+exceptions.”  § 523.053(4) (emphasis added).  At trial, the circuit court declined to admit 
+evidence regarding the settlement amount Appellant paid AT&T, stating “I think it is a matter 
+that can be handled after the verdict in this trial.”  Because section 523.053(4) mandates 
+evidence of other interests in the proceeds of the award be excluded in a jury trial on exceptions, 
+we cannot find the circuit court abused its discretion.    
+ 
+Point V is denied.  
+ 
+ 
+
+ 
+24 
+Point VI: Exclusion of Photographs and Criticism in Front of the Jury  
+ 
+ 
+Appellant’s sixth point argues the circuit court abused its discretion when it excluded 
+photographic evidence of Appellant’s experience in the construction and hotel industry and 
+nearby developments in the City of St. Louis.  He claims the photographs’ exclusion prejudiced 
+his ability to present his case in an effective manner.  Appellant also complains the circuit court 
+“compounded its error by criticizing [him] in front of the jury and directing [his] counsel ‘to 
+move forward’ on these matters.” 
+Standard of Review  
+ 
+ 
+“We review a trial court’s ruling on the admission or exclusion of evidence for abuse of 
+discretion.”  Ecford, 198 S.W.3d at 158 (citing Nelson, 178 S.W.3d at 642).  “In condemnation 
+cases, trial court errors in the admission or exclusion of evidence will not typically result in our 
+reversing a decision without a showing of substantial or glaring injustice.”  Gorham, 335 S.W.3d 
+at 593 (internal citations omitted).  
+Supreme Court Rule 84.04 and Preservation of Error 
+ 
+ 
+Initially, we note Appellant’s sixth point violates Supreme Court Rule 84.04(d).  
+Appellant’s sixth point argues the circuit court erred in three distinct ways: (1) by excluding 
+photographic evidence relating to his experience in the construction and hotel industry, (2) by 
+excluding photographic evidence relating to recent developments in the City of St. Louis; and (3) 
+by criticizing him in front of the jury for testifying in too much detail.10  “A single point relied on 
+that groups multiple, disparate claims is multifarious, does not comply with [Supreme Court] 
+                                               
+10 The argument portion of Appellant’s brief also challenges the circuit court’s exclusion of a briefcase containing 
+Buster Brown memorabilia from evidence.  However, the circuit court’s ruling excluding the briefcase containing 
+Buster Brown memorabilia from evidence is not challenged in Appellant’s sixth point relied on.  Issues developed 
+for the first time in the argument section that are different from those raised in the point relied on preserve nothing 
+on appeal.  See State v. Scott, 531 S.W.3d 639, 641 n.2 (Mo. App. S.D. 2017) and State v. Morrow, 541 S.W.2d 738, 
+740 (Mo. App. 1976).  Therefore, we will not address whether the circuit court abused its discretion in excluding the 
+briefcase containing Buster Brown memorabilia.   
+
+ 
+25 
+Rule 84.04, and generally preserves nothing for review.”  Simmons v. McCulloch, 501 S.W.3d 
+14, 16 (Mo. App. E.D. 2016) (internal quotations and citations omitted).  However, “[a]s a matter 
+of policy, the court prefers to decide cases on their merits whenever possible.”  Comp & Soft, 
+Inc. v. AT&T Corp., 252 S.W.3d 189, 194 (Mo. App. E.D. 2008).  Because the deficiencies in 
+Appellant’s point relied on do not impede our ability to discern his arguments or our disposition 
+on the merits, we review his sixth point ex gratia.  O’Gorman & Sandroni, P.C. v. Dodson, 478 
+S.W.3d 539, 543 n.1 (Mo. App. E.D. 2015).    
+ 
+We further note Appellant has waived his claimed error that the circuit court criticized 
+him in front of the jury because he failed to object to any of the circuit court’s comments of 
+which he now complains.  “To preserve a claim of error directed to remarks of a trial judge, an 
+objection must be made when they occur.”  State v. Massey, 990 S.W.2d 201, 205 (Mo. App. 
+S.D. 1999) (internal quotations and citations omitted).  When a party fails to object to a trial 
+judge’s remarks, his or her claim of error is waived “unless the conduct was erroneous and 
+amounted to conduct that affected the defendant’s substantial rights so as to result in manifest 
+injustice or miscarriage of justice.”  Id.  Therefore, we review Appellant’s claim of alleged error 
+regarding the circuit court’s alleged criticisms only for plain error.   
+Analysis  
+Exclusion of Photographic Evidence  
+ 
+Appellant summarily states “the trial court abused its discretion by improperly 
+prejudicing [him] in his ability to use photographs to present his case in an effective manner” and 
+lists several instances where the circuit court sustained objections to various photographs relating 
+to his experience in the construction and hotel industries and nearby developments in the City of 
+St. Louis.  However, Appellant failed to explain why such photographs were relevant or 
+
+ 
+26 
+necessary to presenting his case in an effective manner.  The sole issue before the jury in the trial 
+of exceptions was the value of the Property; that is, the just compensation Appellant was entitled 
+to for its taking or its “fair market value.”  “The fair market value of land is what a reasonable 
+buyer would give who was willing but did not have to purchase, and what a seller would take 
+who was willing but did not have to sell.”  St. Louis Cty. v. River Bend Estates Homeowners’ 
+Ass’n, 408 S.W.3d 116, 135 (Mo. banc 2013) (citing City of St. Louis v. Union Quarry, 394 
+S.W.2d 300, 305 (Mo. 1965)).   
+ 
+Appellant has failed to show how photographs of his personal experience in the 
+construction and hotel industries and photographs of nearby developments in the City of St. 
+Louis were relevant to helping the jury determine what a reasonable buyer would pay for the 
+Property and what a reasonable seller would accept in a sale of the Property.  The identity, 
+knowledge, and experience of a landowner is irrelevant to a determination of just compensation.  
+Photographs of nearby properties not being offered as comparable sales are similarly irrelevant.  
+The circuit court’s decision to exclude irrelevant evidence is not an abuse of discretion.  Bella v. 
+Turner, 30 S.W.3d 892, 897 (Mo. App. S.D. 2000).  Even if these photographs were relevant, 
+Appellant was allowed to testify at length about his experience in the construction and hotel 
+industries and other photographs portraying nearby properties were admitted into evidence.  
+Therefore, the photographs in question were cumulative at best and their exclusion was within 
+the discretion of the trial court.  See State, ex rel. Mo. Highway & Transp. Comm’n v. Conley 
+Devel. Co., 628 S.W.2d 683 (Mo. App. E.D. 1982).    
+Alleged Criticisms by the Circuit Court  
+ 
+Appellant also summarily states “[t]he trial court compounded the prejudicial effect of 
+excluding photographic evidence when it criticized [him] in front of the jury.”  Appellant argues 
+
+ 
+27 
+the trial court’s criticisms of him included interrupting Appellant’s testimony to caution that he 
+did not need so many details and instructing his counsel to “help move [the trial] forward.”  
+However, Appellant fails to explain how the circuit court’s remarks were erroneous.  “There is 
+no error if the circuit court does not express an opinion regarding the nature, content, or 
+truthfulness of evidence.”  State v. Jackson, 386 S.W.3d 810, 818 (Mo. App. S.D. 2012) (quoting 
+State v. Webber, 982 S.W.2d 317, 321 (Mo. App. S.D. 1998)).  We find no error, plain or 
+otherwise, in the conduct of the circuit court.  The circuit court’s comments asked Appellant to 
+refrain from giving too many details in his testimony “to move things along.”  These comments 
+expressed no opinion about the nature, content, or truthfulness of Appellant’s testimony.  See id.  
+Appellant has failed to demonstrate the circuit court’s remarks impacted so substantially upon 
+his rights that manifest injustice or a miscarriage of justice would result if left uncorrected.   
+ 
+Point VI is denied.   
+Point VII: Admission of LCRA’s Photographs of the Property 
+ 
+ 
+Appellant’s seventh point argues the circuit court abused its discretion when it admitted 
+photographs offered by LCRA depicting the Property after the date of the taking.  He argues 
+these photographs “confused the jury over whether [they] could consider the condition of the 
+building after [Appellant] moved out.”    
+Supreme Court Rule 84.04   
+ 
+Appellant’s seventh point challenges the admission of “LCRA’s photographs” without 
+specifically identifying the exhibits he contends were erroneously admitted.  His failure to do so 
+violates Supreme Court Rule 84.04(d)(1)(C), which provides each point relied on shall “explain 
+in a summary fashion why, in the context of the case, th[e] legal reasons support the claim of 
+reversible error,” and preserves nothing for review.  Supreme Court Rule 84.04(d)(1)(C) 
+
+ 
+28 
+(emphasis added); see also Herd v. Herd, 537 S.W.3d 414, 418 (Mo. App. S.D. 2018) (holding 
+that, where an appellant’s point relied on fails to identify the specific trial testimony or exhibits 
+supporting his or her claim, nothing is preserved for review).  The argument portion of 
+Appellant’s brief, however, challenges the admission of Exhibits 13, 19, 20, 34, and 338.  
+Because we prefer to review deficient points on their merits so long as the deficiencies do not 
+impede impartial review, we review Appellant’s seventh point ex gratia.  Stevens v. Cato, 549 
+S.W.3d 479, 483 (Mo. App. S.D. 2017).   
+Standard of Review  
+ 
+ 
+“The admission of photographs lies within the sound discretion of the trial judge and will 
+not be disturbed on appeal unless an abuse of discretion is shown.”  Lockwood v. Jackson Cty., 
+Mo., 951 S.W.2d 354, 358 (Mo. App. W.D. 1997) (citing Mo. Highway & Transp. Comm’n v. 
+Rockhill Dev. Corp., 865 S.W.2d 765, 770 (Mo. App. W.D. 1993)).  “In condemnation cases, 
+trial court errors in the admission or exclusion of evidence will not typically result in our 
+reversing a decision without a showing of substantial or glaring injustice.”  Gorham, 335 S.W.3d 
+at 593 (internal citations omitted).   
+Analysis  
+ 
+ 
+“A photograph will not be rendered inadmissible by the fact that it was taken before or 
+after an event or before or after changes occurred as long as the extent of the changes is 
+explained.”  Rockhill Dev. Corp., 865 S.W.2d at 770 (citing State ex rel. Mo. Highway & Transp. 
+Comm’n v. Vitt, 785 S.W.2d 708, 712 (Mo. App. E.D. 1990)).  Testimony that the photograph 
+did not depict the property as of the date of the taking adequately informs the jury the Property 
+changed after the taking.  See State ex rel. Mo. Highway & Transp. Comm’n v. Meramec Valley 
+Elevator, Inc., 782 S.W.2d 642, 645 (Mo. App. E.D. 1989).   
+
+ 
+29 
+ 
+The record reveals LCRA introduced Exhibits 13, 19, 20, 34, and 338 and elicited 
+testimony that each of the photographs depicted the Property either after or near the date of the 
+taking.  Shortly after LCRA admitted Exhibit 13 and before LCRA admitted Exhibit 34, Mueller 
+testified the photographs depicted the Property after Appellant moved out, but when he viewed 
+the Property he “had no idea that [Appellant] had moved out” and “thought [Appellant] had just 
+removed everything that was inside.”  Before admitting Exhibit 19, Schoenborn testified the 
+photograph clearly and accurately depicted the Property’s condition after Appellant moved out.  
+Before admitting Exhibit 20, Schoenborn testified the photograph clearly and accurately depicted 
+the way the Property looked when he inspected the building in March 2017, which was after the 
+date of the taking.  And Exhibit 338 was admitted after Appellant testified there were “places in 
+the [Property] that looked like” the photograph in July 2016, which was near or shortly after the 
+date the Property was taken.11  This testimony at trial adequately informed the jury the Property 
+changed after the taking.  Further, as LCRA notes, Appellant also offered photographs taken 
+after the taking on May 31, 2017, into evidence during trial, accompanied by a witness’ 
+explanation that the photographs were taken after the date of the taking.  Having done so, he is in 
+no position to object to the admission of LCRA’s photographs taken after the taking.  State ex 
+rel. State Highway Comm’n v. Howard, 315 S.W.2d 786, 791 (Mo. 1958).   
+ 
+Point VII is denied.  
+ 
+ 
+ 
+ 
+ 
+ 
+                                               
+11 The Property was taken July 7, 2016.  
+ 
+
+ 
+30 
+Point VIII: Admission of Evidence Regarding an Alleged Fraudulent Tax Credit Scheme12  
+ 
+ 
+Appellant’s last point argues the circuit court erred in allowing LCRA to cross-examine 
+McKee regarding an alleged fraudulent tax credit scheme used to acquire the Property and other 
+properties and call Hemenway as a witness to give opinion testimony regarding the same.  
+Appellant argues evidence relating to an alleged fraudulent tax credit scheme was irrelevant and 
+the circuit court erroneously allowed “a false issue to be injected in the trial.”   
+Standard of Review  
+ 
+ 
+“We review a trial court’s ruling on the admission or exclusion of evidence for abuse of 
+discretion.”  Ecford, 198 S.W.3d at 158 (citing Nelson, 178 S.W.3d at 642).  “In condemnation 
+cases, trial court errors in the admission or exclusion of evidence will not typically result in our 
+reversing a decision without a showing of substantial or glaring injustice.”  Gorham, 335 S.W.3d 
+at 593 (internal citations omitted).  
+ 
+ 
+                                               
+12 LCRA argues Appellant’s eighth point relied on fails to comply with Supreme Court Rule 84.04(d) by grouping 
+together numerous, unrelated incidents of alleged error into a single point relied on.  Although Appellant’s eighth 
+point argues the circuit court erred in allowing LCRA to cross-examine McKee and call Hemenway as a witness, we 
+find Appellant’s eighth point does not run afoul of Supreme Court Rule 84.04(d) because his challenges to both 
+witnesses revolve around a central issue: McKee’s alleged involvement in a fraudulent tax credit scheme used to 
+acquire the Property and other related properties.  Therefore, his eighth point is not waived for failure to comply 
+with Supreme Court Rule 84.04(d).  
+ 
+LCRA also argues Appellant failed to preserve his claim of error regarding the cross-examination of McKee because 
+this claim of error was not included in his motion for new trial.  Although Appellant did not use the term “cross-
+examination” in his motion for new trial, we find he has sufficiently preserved his claim of error.  Our rules for 
+preservation of error are applied to enable both the trial court and the appellate court “to define the precise claim 
+made by the defendant,” not “to enable the court to avoid the task of review, nor to make preservation of error 
+difficult for the appellant.”  State v. Amick, 462 S.W.3d 413, 415 (Mo. banc 2015) (quoting State v. Pointer, 887 
+S.W.2d 652, 654 (Mo. App. W.D. 1994)).  Appellant’s motion for new trial alleged “[t]he [circuit c]ourt erred in 
+allowing the jury trial to become a referendum about McKee and the alleged fraud committed against the state by 
+[NSR]. . . .  Th[e] [circuit c]ourt allowed, over objection and through plain error, evidence both hearsay and 
+otherwise, that was irrelevant to the valuation [of] the subject property.”  This allegation sufficiently preserved his 
+argument on appeal that the circuit court abused its discretion in permitting LCRA to cross-examine McKee about 
+the alleged fraudulent tax scheme used to purchase the Property and other related properties.  
+ 
+
+ 
+31 
+Analysis  
+ 
+ 
+Cross-Examination of McKee  
+ 
+Appellant argues he did not “open the door to a wide-ranging attack on McKee’s use of 
+tax credits for the [Property]” by calling McKee as a witness.  We disagree.  “A party who has 
+introduced evidence concerning a certain fact may not on appeal complain that his opponent was 
+allowed to introduce related evidence, in rebuttal or explanation.”  Eckerd v. Country Mut. Ins. 
+Co., 289 S.W.3d 738, 744 (Mo. App. E.D. 2009) (footnote omitted) (quoting Bowls v. 
+Scarborough, 950 S.W.2d 691, 702 (Mo. App. W.D. 1997)).   On direct-examination, McKee 
+testified at length about the 2011 Sale.  He testified about the promissory notes he signed in 
+connection with the 2011 Sale; the price he paid for the Property and whether it was inflated; the 
+structure of the triple net lease; the owner-financed, sale-leaseback structure of the transaction; 
+the fact the State issued and then denied tax credits associated with the transaction; and the 
+“unwinding” of the 2011 Sale.  Appellant concedes in his brief “McKee[‘s] testimony about the 
+2011 [S]ale to NSR and the later unwind transaction was relevant background for the valuation 
+opinion given by [Appellant]’s . . . appraiser, William Otto Spence.”  Appellant cannot now 
+complain LCRA was allowed to cross-examine McKee on the relevant issues he raised in his 
+direct-examination of McKee.  See id.   
+ 
+Appellant also contends evidence related to whether McKee, through NSR, and 
+Appellant defrauded the State in the purchase of other properties is “irrelevant.”  This argument 
+is also without merit.  “Evidence is relevant if it tends to prove or disprove a fact in issue or 
+corroborates other evidence in the case.”  Burrows v. Union Pac. R. Co., 218 S.W.3d 527, 534 
+(Mo. App. E.D. 2007) (citing Uxa ex rel. Uxa v. Marconi, 128 S.W.3d 121, 130 (Mo. App. E.D. 
+2003)).  “The trial court has substantial discretion in ruling on the admissibility of evidence.”  
+
+ 
+32 
+Urbach v. Okonite Co., 514 S.W.3d 653, 659 (Mo. App. E.D. 2017) (citing Danneman v. Pickett, 
+819 S.W.2d 770, 772 (Mo. App. E.D. 1991)).  “The admissibility of evidence in [condemnation 
+cases] depends on whether it tends to help the jury in resolving the issue of value and damages.”  
+State ex rel. Mo. Highway & Transp. Comm’n v. Edelen, 872 S.W.2d 551, 555 (Mo. App. E.D. 
+1994) (citing State ex rel. State Hwy. Comm’n v. Texaco, Inc., 502 S.W.2d 284, 288 (Mo. 1973)).   
+ 
+The evidence in question helped shed light on whether the 2011 Sale of the Property for 
+$3.75 million represented an accurate valuation of the Property.  The evidence demonstrated a 
+pattern of activity that is corroborative of LCRA’s position that the 2011 Sale of the Property did 
+not represent an accurate valuation of the Property because the sales of the other properties: (1) 
+were structured similarly to the 2011 Sale; (2) were between NSR/McKee and Appellant; and (3) 
+occurred before or close in time to the 2011 Sale.  See K.C. Roofing Ctr. v. On Top Roofing, Inc., 
+807 S.W.2d 545, 550 (Mo. App. W.D. 1991).  The circuit court did not abuse its discretion in 
+allowing cross-examination about McKee’s involvement with Appellant in purchasing other 
+properties.   
+Hemenway’s Testimony 
+ 
+Appellant maintains the circuit court abused its discretion in allowing Hemenway to 
+testify about her opinions regarding an alleged fraudulent tax credit scheme McKee and 
+Appellant used to purchase and sell the Property and other related properties because she was not 
+designated as an expert witness.  However, the record before us does not show Hemenway gave 
+opinion testimony.  A lay witness “may testify about facts within his or her personal 
+knowledge.”  Urbach, 514 S.W.3d at 660.   Here, Hemenway testified to facts she knew about 
+McKee‘s and Appellant’s alleged tax credit scheme to facilitate the purchase of the Property and 
+other related properties through first-hand knowledge she acquired as the Division Director at the 
+
+ 
+33 
+Missouri Department of Economic Development.  Hemenway testified tax credits were initially 
+issued to McKee for half of the $3.75 million used to purchase the Property.  Hemenway testified 
+the owner-financed, sale-leaseback structure of the transaction was improper.  Hemenway 
+testified the State denied tax credits for the sale of one of the other properties and rescinded the 
+tax credits given to McKee for the 2011 Sale.  Because none of Hemenway’s testimony 
+expressed an “opinion,” there was no need to designate her as an “expert” for her testimony to be 
+admissible.  And, as explained above, Hemenway’s testimony regarding the alleged fraudulent 
+tax credit scheme to purchase the Property and other properties was relevant to determine 
+whether the 2011 Sale of the Property for $3.75 million represented an accurate valuation of the 
+Property.  Accordingly, the circuit court did not abuse its discretion in allowing Hemenway’s 
+testimony about an alleged fraudulent tax credit scheme to purchase the Property.   
+ 
+Point VIII is denied.  
+Conclusion  
+ 
+ 
+The circuit court’s judgment is affirmed.    
+ 
+ 
+_______________________________ 
+ 
+ 
+ 
+ 
+ 
+ 
+Philip M. Hess, Presiding Judge 
+ 
+Kurt S. Odenwald, J. and  
+Lisa P. Page, J. concur.  

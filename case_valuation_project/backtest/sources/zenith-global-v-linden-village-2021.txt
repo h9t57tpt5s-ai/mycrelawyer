@@ -1,0 +1,540 @@
+ 
+ 
+ 
+ 
+ 
+IN THE COURT OF APPEALS OF THE STATE OF WASHINGTON 
+ 
+ZENITH GLOBAL SOLUTIONS, INC., 
+dba ZENITH CAPITAL, a Washington 
+corporation, 
+ 
+ 
+ 
+ 
+Respondent, 
+ 
+ 
+ 
+      v. 
+ 
+LINDEN VILLAGE ASSISTED LIVING 
+COMMUNITY, LLC, a Washington 
+limited liability company, 
+ 
+ 
+ 
+ 
+Appellant. 
+ 
+ 
+DIVISION ONE 
+ 
+ 
+No. 81490-7-I 
+ 
+ 
+UNPUBLISHED OPINION 
+ 
+ 
+ 
+ 
+ 
+DWYER, J. — Linden Village Assisted Living Community, LLC appeals from 
+a judgment entered against it following a bench trial.  The judgment resulted from 
+a finding that Linden had breached its contract with Zenith Global Solutions, Inc.  
+Linden contends that the trial court erred in awarding damages to Zenith because 
+Zenith also breached the contract at issue.  Further, Linden avers that the trial 
+court erred by not awarding damages to Linden.  Because Linden failed to prove 
+that (1) its nonperformance was excused, and (2) it suffered damages as a result 
+of Zenith’s breaches, we affirm the trial court.   
+I 
+In May 2013, Tribach Partners, LLC acquired a piece of real property at 
+13524 Linden Ave N., in Seattle, Washington.  Christopher Chen, a governor of 
+Tribach, intended for the development of the property to be used to create an 
+
+No. 81490-7-I/2 
+2 
+opportunity for Chinese nationals to obtain legal permanent residency in the 
+United States through the EB-5 program, which allows foreign nationals to obtain 
+legal permanent residency by investing in American companies.  See EB-5 
+Immigrant Investor Program, U.S. CITIZENSHIP & IMMIGR. SERVS., 
+https://www.uscis.gov/working-in-the-united-states/permanent-workers/eb-5-
+immigrant-investor-program [https://perma.cc/EEH6-VBNF]. 
+ 
+In October 2014, Chen, David Bovée of Zenith, and Stuart Brown of 
+Village Concepts, LLC signed a letter expressing their intent to put together a 
+team to construct an assisted living facility on the property utilizing EB-5 funding.  
+In 2015, Qiang “John” Tu, Bovée, and Chen formed Linden.  Linden then 
+acquired the property.   
+ 
+Zenith began providing Linden with project development reports (PDRs) in 
+November 2015.  Linden and Zenith entered into a Development Services 
+Agreement (DSA), effective August 1, 2016, which detailed the relationship 
+between Linden and Zenith for developing the project.  Bovée played a major 
+role in both organizations—he both served as general manager of Linden and 
+was the sole owner and president of Zenith.  This dispute arises from the DSA.   
+ 
+The DSA describes the services Zenith would provide as follows: 
+2. Scope of Services.  During the term of this Agreement, 
+Developer shall provide its respective expertise, and undertake the 
+performance of the development services reasonably requested by 
+Owner from time to time with respect to the Property and Project, 
+including the following: 
+ 
+(a) Oversight of the development of the Project at the 
+Property and oversight and preparation of feasibility and market 
+studies to determine the overall best use and senior housing 
+mix for the Project; 
+
+No. 81490-7-I/3 
+3 
+(b) Obtain all necessary entitlements for the Project and 
+coordinate with all necessary governmental and similar officials 
+and individuals; 
+(c) Obtain or cause to be obtained any and all required 
+permits and licenses (to operate the Project as an assisted 
+living or memory care facility or otherwise) from the City of 
+Seattle and the State of Washington (or other governmental 
+bodies or agencies), generally based on the plans (the “Project 
+Plans”) for the Project which have been or will be submitted to 
+the City of Seattle and, if required, to the State of Washington 
+(and coordinate such submittal if not already accomplished); 
+(d) Provide Owner with bi-monthly reports as to the 
+status of the development of the Project; and 
+(e) Such other developmental services (i) as are 
+customarily provided by developers of projects similar to the 
+Project and at locations similar to the Property or (ii) as Owner 
+and Developer shall agree. 
+ 
+ 
+In exchange, the agreement provided that Zenith was entitled to the 
+following compensation: 
+5. Compensation. For services rendered pursuant to this 
+Agreement, Owner shall pay the Developer a total development fee 
+of five hundred thousand dollars ($500,000.00) (the “Development 
+Fee”).  The Development Fee shall be paid in the following 
+installments: 
+ 
+(a) Owner shall pay Developer the sum of fifteen-
+thousand dollars ($15,000.00) per month beginning the month in 
+which the Effective Date occurs and ending the month in which 
+the construction phase begins, subject to a maximum of twelve 
+(12) such monthly payments. 
+(b) Owner shall pay Developer the sum of seven-
+thousand five-hundred dollars ($7,500.00) per month beginning 
+the first month following the month in which the construction 
+phase of the Project begins and ending the month in which a 
+certificate of occupancy is issued for the Project by the 
+applicable governmental entity, subject to a maximum of sixteen 
+(16) such monthly payments. 
+(c) Upon the issuance of a master use permit, Owner 
+shall pay Developer the sum of fifty-thousand dollars 
+($50,000.00). 
+
+No. 81490-7-I/4 
+4 
+(d) Upon the issuance of a HUD[1] commitment for a 
+Section 232 loan, Owner shall pay Developer the sum of fifty-
+thousand dollars ($50,000.00). 
+(e) Upon the commencement of the construction phase 
+of the Project, Owner shall pay Developer the sum of fifty-
+thousand dollars ($50,000.00). 
+(f) Upon the issuance of a certificate of occupancy, 
+Owner shall pay Developer any then unpaid balance of the 
+Development Fee.  
+ 
+ 
+The DSA provided that Linden could terminate the agreement under 
+certain conditions:  
+8. Term; Termination.  
+ 
+(a) The initial term of this Agreement shall commence on 
+the Effective Date and end upon the issuance of a Certificate of 
+Occupancy for the Project and payment of the Development 
+Fees, subject to earlier termination as provided in this 
+Agreement. 
+(b) Notwithstanding the term of this Agreement, this 
+Agreement may be terminated (without cost or penalty to 
+Owner) at any time by Owner for “cause” (as defined below).  
+This Agreement shall terminate automatically with no notice 
+required, upon (i) the sale of the Property or Project, (ii) if 
+required by any lender pursuant to loan documents entered into 
+by Owner, or (iii) upon foreclosure or transfer by deed-in-lieu of 
+foreclosure to the exiting lender or a successor lender.  For 
+purposes hereof, the phrase “cause” means the occurrence of 
+any one or more of the following: 
+(i) the gross negligence or willful, reckless or criminal 
+misconduct of Developer or any of its directors, officers, 
+employees, or agents in respect of the performance of 
+Developer’s duties hereunder, in which event Owner may 
+terminate this Agreement immediately upon notice to 
+Developer; 
+(ii) if Developer shall fail to comply with any provision 
+of this Agreement, and Developer shall fail either to (1) cure 
+such default within thirty (30) days after receipt of written 
+notice from Owner specifying the nature of the default, or (2) 
+commence to cure the default within thirty (30) days after 
+receipt of written notice from Owner specifying the nature of 
+the default if the default is of such a nature that it cannot 
+                                            
+1 United States Department of Housing and Urban Development (HUD). 
+
+No. 81490-7-I/5 
+5 
+reasonably be cured within thirty (30) days, and thereafter 
+proceeds with due diligence to cure the default; 
+(iii) Developer terminates the services of the persons 
+listed on Exhibit A hereto without Owner’s approval; or  
+(iv) any of the developing/permitting/financing, site 
+work, or construction phases of the Project are not 
+completed by the deadlines specified for each such phase 
+on Exhibit B hereto and Owner notifies Developer of Owner’s 
+termination of this Agreement as a result thereof within 
+fifteen (15) days thereafter. 
+(c) This Agreement shall be terminable by Owner if any 
+of the following events occur prior to the issuance of a 
+Certificate of Occupancy for the Project: 
+(i) Developer notifies Owner that “hard costs” for the 
+construction of the Project are expected to exceed nineteen 
+million dollars ($19,000,000); 
+(ii) Owner’s application for a HUD Section 232 loan 
+for the Project is denied; or  
+(iii) the Form I-526 immigrant petition filed with United 
+States Citizenship and Immigration Services by any EB-5 
+investor with respect to the Project is denied, provided that 
+such denial is not related to such investor’s qualification as 
+an EB-5 investor, including source of funds verification. 
+ 
+ 
+On August 12, 2016, while Zenith was developing the project, Linden 
+submitted its Master Use Permit (MUP) application to the City of Seattle.  In 
+December 2016, the City’s Design Review Board recommended approval with 
+minor changes.   
+ 
+Zenith failed to provide PDRs for August and September of 2016, as 
+required by the DSA.  Zenith resumed providing PDRs in October 2016.   
+ 
+On November 16, 2016, a general contractor, Exxel Pacific, provided 
+Zenith with a construction cost budget, estimating costs of $19,989,143 to build 
+the project.  Zenith’s general manager, Jason Higbee, testified that his 
+impression was that Exxel was not interested in working on a HUD project.  The 
+estimate was not reported to Linden.   
+
+No. 81490-7-I/6 
+6 
+ 
+In March 2017, another general contractor, Halvorson, provided a cost 
+estimate of $28,313,027.  This estimate was not provided to Linden.  Bovée 
+testified that, by this time, Zenith had already determined that it would use a 
+different general contractor, Wright HD.   
+ 
+In order to secure a HUD loan, Zenith recommended using a certain 
+vendor: CBRE.  In February 2017, CBRE submitted a loan application.  On 
+March 1, 2017, Bovée (on behalf of Zenith) requested a payment of $35,000 for 
+debt placement services associated with the HUD loan application.  That same 
+day, Bovée (on behalf of Linden) wrote a check payable to Zenith in the amount 
+of $35,000.  Initially, Bovée and Tu voted to approve the payment, with Chen 
+voting against it.  Tu later changed his vote to “reject.”   
+ 
+In mid-March, Linden instructed Zenith to return the $35,000 to Linden, 
+asserting that no agreement had been made with regard to milestone payments 
+for debt placement services.  Zenith refused to return the funds until a new debt 
+placement agreement was reached, and stated that it would suspend its debt 
+placement efforts.  About a week later, Bovée executed a contract entitled “Debt 
+Placement Agreement” between Linden and Zenith, on behalf of both Linden and 
+Zenith.  At trial, Bovée claimed that he conducted negotiations for this agreement 
+with himself, as manager for Linden and as president of Zenith.     
+  
+In an attempt to recoup the $35,000, Linden did not make the monthly 
+payment of $15,000 in June or July 2017.  As this dispute continued, Zenith 
+continued to provide Linden with PDRs.  On July 14, 2017, Linden removed 
+
+No. 81490-7-I/7 
+7 
+Bovée as general manger.  On July 17, 2017, Zenith filed this lawsuit against 
+Linden alleging breach of contract.   
+ 
+On July 27, 2017, the Seattle Department of Construction and Inspection 
+issued a Notice of Decision, conditionally granting the MUP application.  The 
+notice indicated that the decision could be appealed until 5:00 p.m. on August 10, 
+2017.   
+ 
+On the afternoon of August 10, hours before the appeal period ended, 
+Linden terminated the DSA with Zenith.  Linden explained that it was terminating 
+the agreement because of the dispute over the $35,000, Zenith’s suspension of 
+debt placement efforts, and Zenith’s failure to report that hard costs were 
+expected to exceed $19 million dollars.   
+ 
+Linden brought counterclaims of breach of contract when it filed its answer 
+to Zenith’s complaint.  In both its original and amended answers, Linden pleaded 
+material breach by Zenith as an affirmative defense.  Following a bench trial, the 
+trial court entered findings of fact and conclusions of law.  The trial court 
+concluded that Linden breached the DSA both by withholding monthly payments 
+and by withholding the $50,000 MUP progress payment.  It awarded $80,000 in 
+damages to Zenith.  The trial court also concluded that Zenith breached the DSA 
+in multiple instances, most significantly by violating its duty of good faith when it 
+ceased its debt placement efforts.  However, the trial court determined that 
+Linden failed to show that those breaches resulted in damages.  Accordingly, the 
+trial court dismissed the counterclaims.  The trial court did not enter findings as to 
+
+No. 81490-7-I/8 
+8 
+the materiality of Zenith’s breaches.  The trial court subsequently awarded Zenith 
+attorney fees and expenses.   
+ 
+Linden appeals.  
+II 
+A 
+ 
+When evaluating evidence in a bench trial, our review is limited to 
+determining whether the trial court’s factual findings are supported by substantial 
+evidence and whether those findings support the trial court’s conclusions of law.  
+Yorkston v. Whatcom County, 11 Wn. App. 2d 815, 831, 461 P.3d 392 (2020).  
+Substantial evidence is the “quantum of evidence sufficient to persuade a rational 
+fair-minded person the premise is true.”  Sunnyside Valley Irrig. Dist. v. Dickie, 
+149 Wn.2d 873, 879, 73 P.3d 369 (2003).  On review, the evidence and all 
+reasonable inferences therefrom must be viewed in the light most favorable to 
+the prevailing party.  Korst v. McMahon, 136 Wn. App. 202, 206, 148 P.3d 1081 
+(2006).  Although the trier of fact is free to believe or disbelieve any evidence 
+presented at trial, “[a]ppellate courts do not hear or weigh evidence, find facts, or 
+substitute their opinions for those of the trier-of-fact.”  Quinn v. Cherry Lane Auto 
+Plaza, Inc., 153 Wn. App. 710, 717, 225 P.3d 266 (2009) (citing Thorndike v. 
+Hesperian Orchards, Inc., 54 Wn.2d 570, 572, 343 P.2d 183 (1959)).   We review 
+questions of law de novo.  Sunnyside Valley, 149 Wn.2d at 880. 
+B   
+ 
+Linden contends that the trial court erred by awarding damages to Zenith.  
+This is so, Linden asserts, because Zenith was already in breach of contract 
+
+No. 81490-7-I/9 
+9 
+when Linden failed to perform its contractual obligations.  Because Linden did not 
+prove that Zenith’s breaches were material, we disagree.  
+ 
+A material breach can suspend the injured party’s contractual duties until 
+the breaching party cures the defect.  See DC Farms, LLC v. Conagra Foods 
+Lamb Weston, Inc., 179 Wn. App. 205, 220-22, 317 P.3d 543 (2014).  However, 
+material breach is an affirmative defense to a breach of contract claim.  See 
+Wlasiuk v. Whirlpool Corp., 81 Wn. App. 163, 179, 914 P.2d 102, 932 P.2d 1266 
+(1996).  Accordingly, it was Linden’s burden to demonstrate that Zenith’s 
+breaches were material and thus excused Linden’s nonperformance.  Wlasiuk, 
+81 Wn. App. at 179.  The trial court did not find that Zenith’s breaches of the DSA 
+were material.  Therefore, Linden failed to meet its burden of proof, was not 
+entitled to relief in the trial court, and is not entitled to relief on appeal. 
+ 
+To succeed in a breach of contract action, “the plaintiff must prove that a 
+valid agreement existed between the parties, the agreement was breached, and 
+the plaintiff was damaged.”  Univ. of Wash. v. Gov’t Emps. Ins. Co., 200 Wn. 
+App. 455, 467, 404 P.3d 559 (2017); accord RESTATEMENT (SECOND) OF 
+CONTRACTS § 235 cmt. b (AM. LAW INST. 1979) (breach of contract).   
+ 
+A breach of contract by one party “so material as to justify a refusal of the 
+other party to perform a contractual duty discharges that duty.”  DC Farms, 179 
+Wn. App. at 220 (citing Jacks v. Blazer, 39 Wn.2d 277, 285-86, 235 P.2d 187 
+(1951)).  However, 
+a breach of a contractual duty by one party does not always 
+discharge the duty of performance of the other party, even though 
+the nonperformance or breach is “wilful.”  As the term “breach” is 
+used, a party who commits a breach is guilty of a wrong for which 
+
+No. 81490-7-I/10 
+10 
+some remedy is available.  The remedy varies with the 
+circumstances of each case.  Being guilty of a wrong does not 
+make the breaching party an outlaw or deprive the breaching party 
+of all rights, even the rights created by the very contract that is 
+broken. 
+ 
+13 SARAH HOWARD JENKINS, CORBIN ON CONTRACTS § 68.2, at 157-58 (rev. ed. 
+2003) (footnotes omitted). 
+ 
+Whether a breach of contract is material and thus excuses further 
+performance by the other party is a question of fact.  DC Farms, 179 Wn. App. at 
+221; 224 Westlake, LLC v. Engstrom Props., LLC, 169 Wn. App. 700, 724, 281 
+P.3d 693 (2012).  Here, the trial court made no determination as to whether 
+Zenith’s breaches of the DSA were material.   
+ 
+We have previously determined that a claim of material breach excusing 
+performance under a contract is an affirmative defense and, accordingly, the 
+burden of proof is on the defendant.  Wlasiuk, 81 Wn. App. at 179.  The absence 
+of a finding is presumptively a negative finding against the party with the burden 
+of proof.  Taplett v. Khela, 60 Wn. App. 751, 759, 807 P.2d 885 (1991).  Thus, we 
+must presume that the trial court was not persuaded that Linden proved that any 
+of Zenith’s breaches were material.2  Such a determination is supported by the 
+record.  Indeed, there is no evidence in the record that Zenith’s breaches of the 
+DSA resulted in damages to Linden.  Hence, when the evidence is viewed in the 
+light most favorable to Zenith, a rational fair-minded person could conclude that 
+                                            
+2 At oral argument, Linden’s counsel asserted that the DSA itself defined material 
+breaches in section 8(c). Section 8(c) allowed Linden to terminate the DSA under certain 
+conditions. The DSA does not indicate that those conditions automatically excused further 
+performance by Linden. Rather, it allowed Linden the option of terminating the agreement. Linden 
+did not avail itself of this opportunity. The text of section 8(c) did not require the trial court to make 
+a factual finding that Zenith’s breaches were material.  
+
+No. 81490-7-I/11 
+11 
+the breach was not material.  See Sunnyside Valley, 149 Wn.2d at 879.  The trial 
+court was, accordingly, entitled to determine that Linden failed to meet its burden 
+of proof.  
+ 
+Linden argues otherwise. Citing Willener v. Sweeting, 107 Wn.2d 388, 
+394, 730 P.2d 45 (1986), Linden contends that Zenith, as the party claiming 
+nonperformance by Linden, “‘must establish as a matter of fact [its] own 
+performance.’”3 
+ 
+But the cited authority does not support this proposition.  In Willener, 
+neither the seller nor the purchaser of a piece of real property performed under 
+an earnest money agreement.  107 Wn.2d at 394.  The vendor did not deposit in 
+escrow the documents required to convey title and the buyer did not deposit in 
+escrow funds equal to the sale price.  Willener, 107 Wn.2d at 394.  The Willener 
+court explained that the parties’ duties were concurrent conditions and, therefore, 
+the prospective purchaser—who had failed to perform without excuse—had no 
+right to bring an action for contract damages.  Willener, 107 Wn.2d at 395-96; 
+accord Wallace Real Estate Inv., Inc. v. Groves, 124 Wn.2d 881, 897-98, 881 
+P.2d 1010 (1994) (letter constituting anticipatory breach by one party excused 
+performance by the other because parties are not required to perform useless 
+acts).  
+ 
+A condition is “an event, not certain to occur, which must occur . . . before 
+performance under a contract becomes due.”  RESTATEMENT § 224.  Not all duties 
+created by contract are conditions.  For example, the passage of time cannot 
+                                            
+3 Br. of Appellant at 36 (quoting Willener 107 Wn.2d at 394).  
+
+No. 81490-7-I/12 
+12 
+operate as a condition, because it is certain to occur, and conditions are only 
+events which are not certain to occur.  RESTATEMENT § 224 cmt. b.  Similarly, an 
+implied duty of good faith and fair dealing exists in every contract, Pierce v. Bill & 
+Melinda Gates Found., 15 Wn. App. 2d 419, 433, 475 P.3d 1011 (2020), review 
+denied, 197 Wn.2d 1006 (2021), but the manner in which a party engages (such 
+as “in good faith”) cannot logically be described as an event.    
+ 
+Linden does not identify a condition, precedent or concurrent, that was not 
+met when its monthly payments were due.  The only condition precedent for the 
+$50,000 progress payment was the issuance of the MUP, which the trial court 
+determined was inevitable by the time that Linden terminated the DSA.  Instead, 
+Linden asserts that it was not obligated to perform because  (1) Zenith’s breach 
+of its duty of good faith when it suspended its HUD loan efforts was material, (2) 
+Bovée breached his fiduciary duties as Linden’s manager,4 and (3) the quality of 
+Zenith’s PDRs were below the “first quality manner standard” required by the 
+DSA.  These are not failures of conditions upon which Linden’s duty to perform 
+relied.  Accordingly, Willener is inapplicable here.  See Wlasiuk, 81 Wn. App at 
+179 (“The burden would have been on [plaintiff] to prove his performance under 
+the contract only if his performance were a condition precedent.”).  
+Thus, the trial court did not err by awarding damages to Zenith, despite its 
+finding that Zenith had breached the DSA.  
+ 
+ 
+                                            
+4 Bovée is not a party to this lawsuit.  Moreover, Linden did not make a claim of breach of 
+fiduciary duties in the trial court.  We do not review a case on a different theory from that which 
+was raised and tried in the trial court.  Nat’l Indem. Co. v. Smith-Gandy, Inc., 50 Wn.2d 124, 130, 
+309 P.2d 742 (1957).  
+
+No. 81490-7-I/13 
+13 
+C 
+ 
+Linden next avers that, even if damages were correctly awarded to Zenith, 
+the amount should have been offset by the $35,000 disputed payment that Zenith 
+collected from Linden.  In support of this argument, Linden cites statutes—RCW 
+4.56.060 and RCW 4.56.070—that provide for setoffs in final judgments in 
+circumstances in which one party owes a debt to the other.  However, here, the 
+trial court concluded that Zenith’s collection of the $35,000 payment for debt 
+collection services was not a breach of the DSA.  The trial court did not find that 
+Zenith owes a debt of $35,000 to Linden.  Under these circumstances, a $35,000 
+setoff was not required.  Linden’s claim to the contrary fails.   
+III 
+ 
+Linden next contends that the trial court erred by concluding that Linden 
+was not entitled to recover damages.  Because the trial court’s conclusion was 
+supported by its factual findings, and those findings are supported by the record, 
+Linden’s claim of error fails. 
+ 
+To prevail in a breach of contract action, a party must prove that a valid 
+agreement existed between the parties, the agreement was breached, and the 
+party was damaged.  Univ. of Wash., 200 Wn. App. at 467; accord RESTATEMENT 
+§ 235 cmt. b (breach of contract).  Here, the trial court concluded that Linden 
+failed to prove damages.  This conclusion was based on its factual findings that 
+Linden did not proffer evidence that Zenith’s breaches of the DSA caused 
+damages, including damages for delay.5  Rather, Linden’s expert witness was 
+                                            
+5 See Findings of Fact 97, 98, and 99.  
+
+No. 81490-7-I/14 
+14 
+unable to pinpoint a reason for delays to the project beyond “general 
+mismanagement” by Zenith.   
+ 
+Linden asserts that it suffered damages as a result of Zenith’s breach 
+because, after Linden terminated the DSA, another partner (Village Concepts) 
+withdrew from the project and because Zenith’s poor performance delayed the 
+project.  However, Linden remains unable to point to any evidence in the record 
+that Zenith’s breaches of the DSA caused delays or other damages to Linden.  
+The trial court was entitled to conclude that Linden failed to meet its burden of 
+proof.  
+ 
+Linden also contends—for the first time on appeal—that Zenith owed 
+Linden a fiduciary duty that it breached by accepting the $35,000 debt placement 
+payment authorized by Bovée.   According to Linden, Zenith should thus be 
+required to disgorge the $35,000.  As this claim was not raised in the trial court, 
+there is no trial court determination for us to review.  We decline to review this 
+claim of error, raised for the first time on appeal.  Nat’l Indem. Co., 50 Wn.2d at 
+130.6 
+IV  
+ 
+ 
+Finally, Linden contends that the trial court erred by awarding attorney 
+fees to Zenith.  Because we affirm the trial court’s substantive determinations, 
+Zenith remains the prevailing party and was entitled to a fee award under the 
+DSA. 
+                                            
+6 Linden avers that this fiduciary duty existed prior to the effective date of the DSA.  
+Regardless, the trial court’s conclusion that as a matter of law the “Standards of the Performance” 
+created by the DSA did not apply prior to the effective date of the DSA is correct.   
+
+No. 81490-7-I/15 
+15 
+ 
+The DSA provides: 
+15. Attorneys’ Fees.  Should it become necessary for either 
+Party, because of a breach under this Agreement or any other 
+reason, to place the enforcement of this Agreement or any part 
+thereof in the hands of an attorney or to file suit upon same, it is 
+agreed that the non-prevailing Party shall pay all costs and 
+expenses, including reasonable attorney’s fees, incurred in 
+connection therewith.  
+ 
+ 
+Zenith was the prevailing party.  Accordingly, the trial court did not err by 
+awarding attorney fees to Zenith.7 
+ 
+Affirmed.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+WE CONCUR: 
+ 
+ 
+ 
+ 
+ 
+ 
+                                            
+7 Both parties seek an award of attorney fees on appeal pursuant to RAP 18.1.  Because 
+the DSA provides that the prevailing party is entitled to such an award, Zenith is entitled to an 
+award of fees on appeal.  Upon a proper application, a commissioner of our court will enter an 
+appropriate award.  

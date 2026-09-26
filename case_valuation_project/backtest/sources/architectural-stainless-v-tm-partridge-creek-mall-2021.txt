@@ -1,0 +1,587 @@
+If this opinion indicates that it is “FOR PUBLICATION,” it is subject to 
+revision until final publication in the Michigan Appeals Reports. 
+ 
+ 
+ 
+ 
+-1- 
+S T A T E  O F  M I C H I G A N  
+ 
+C O U R T  O F  A P P E A L S  
+ 
+ 
+ARCHITECTURAL STAINLESS, INC., doing 
+business as ASI EQUIPMENT, 
+Plaintiff-Appellant, 
+UNPUBLISHED 
+May 13, 2021 
+v 
+No. 353660 
+Macomb Circuit Court 
+KARET PROJECTS, LLC, and THOMAS 
+LEFEVRE, 
+LC No. 2018-002821-CB 
+Defendants/Cross-Defendants, 
+and 
+TM PARTRIDGE CREEK MALL, LP, 
+Defendant/Cross-Defendant/Cross-
+Plaintiff-Appellee, 
+and 
+ROBERT C. LEITHAUSER and GWENDOLYN 
+LEITHAUSER, 
+Defendants, 
+and 
+TOPLESS INTERIORS, LLC, 
+Cross-Plaintiff. 
+ 
+ 
+Before:  BOONSTRA, P.J., and CAVANAGH and GADOLA, JJ. 
+ 
+PER CURIAM. 
+
+-2- 
+ 
+Plaintiff appeals as of right the trial court’s opinion and order, issued following a bench 
+trial, entering a judgment of no cause of action in favor of defendant TM Partridge Creek Mall, LP 
+(defendant), in this action under the Construction Lien Act (CLA), MCL 570.1101 et seq., to 
+foreclose a lien for kitchen equipment fabricated and installed by plaintiff for use in a tenant’s 
+restaurant on defendant’s real property.  We affirm. 
+I.  BACKGROUND 
+ 
+Plaintiff designs, fabricates, and installs food service equipment for restaurant and 
+institutional use.  Defendant operates The Mall at Partridge Creek, which includes retail stores and 
+restaurants. 
+ 
+In July 2016 defendant executed a lease of space at the mall to Karet Projects, LLC (Karet), 
+for the purpose of operating a Muer Kitchens restaurant.  Karet’s chef approached plaintiff to 
+provide design and installation services for the restaurant’s kitchen.  Between August 28 and 
+December 6, 2017, plaintiff fabricated and installed stainless steel equipment, such as a 
+dishwashing area, a chef island, a cooking line, a salad prep station, cocktail serving stations, and 
+a sushi station, much of which was attached to the walls with anchors or pinned to the floor.  
+Plaintiff billed Karet $274,424.20 for the project, but Karet paid only $61,035.00 of that amount.  
+On December 11, 2017, plaintiff filed a construction lien in the amount of $213,389.20, naming 
+defendant as the owner of the property. 
+ 
+The restaurant opened for business, but failed to pay any rent.  This ill-fated project 
+spawned several legal actions, including summary proceedings by defendant in the 41B District 
+Court seeking possession of the premises, an appeal to the Macomb Circuit Court, and a breach-
+of-contract action by defendant against Karet and two individuals resulting in a consent judgment 
+for defendant.  Karet also filed an action in the Macomb Circuit Court challenging the validity of 
+plaintiff’s lien and asserting that the equipment fabricated and installed by plaintiff was not 
+covered by the CLA.  The court in that case initially declined to declare the lien invalid, but 
+ultimately dismissed Karet’s action. 
+ 
+Plaintiff filed the complaint in this case on July 26, 2018.  In Count I, plaintiff sought 
+foreclosure of its lien, alternatively requesting a sale of defendant’s property to satisfy the lien or 
+appointment of a receiver over the property to collect rents and profits to satisfy the lien.1  Five 
+days later, plaintiff filed a motion for summary disposition under MCR 2.116(C)(9) and (10), 
+requesting that the court foreclose its construction lien and enter judgment for plaintiff in the 
+amount of $213,389.20.  Defendant filed a response to the motion, asserting in part that under 
+MCL 570.1107(1), plaintiff’s lien attached only to Karet’s leasehold interest, and not to 
+defendant’s interest in the property.  Two days later, defendant answered the complaint, denying 
+ 
+                                                 
+1 Plaintiff also alleged various claims against defendants Karet and Lefevre, which are not relevant 
+to this appeal. 
+
+-3- 
+plaintiff’s entitlement to foreclosure against its property and asserting, as an affirmative defense, 
+that plaintiff’s lien attached only to Karet’s leasehold interest, and not to defendant’s property.2 
+ 
+On August 31, 2018, defendant’s counsel e-mailed plaintiff’s counsel, announcing 
+defendant’s intention to evict Karet from the premises and to allow Karet to remove its equipment 
+from the restaurant and inviting plaintiff to attend a potential walk-through of the premises to 
+“identify any equipment subject to its lien.”  On September 6, 2018, Karet was evicted from the 
+property.  In a letter to plaintiff’s counsel, dated October 4, 2018, defendant’s counsel noted that 
+plaintiff had not removed any of the items described in its lien from the premises, repeated 
+defendant’s intention to remove those items, and invited plaintiff to advise him if plaintiff wished 
+to recover any of those items from the premises.3  On October 23, 2018, Karet began removing 
+equipment and fixtures fabricated and installed by plaintiff from the premises; this removal process 
+continued until December 18, 2018. 
+ 
+On November 21, 2018, the trial court denied plaintiff’s motion for summary disposition.  
+Plaintiff thereafter filed an amended complaint alleging that it had made improvements to the 
+property pursuant to an agreement with Karet and with the knowledge and consent of defendant; 
+that Karet owed $213,389.20 for the improvements made by plaintiff; that plaintiff had filed a 
+claim of lien in that amount and had served a copy of the lien on defendant; and that plaintiff had 
+performed all the steps prescribed by the CLA to perfect its claim of lien.  Plaintiff again requested 
+a sale of defendant’s property or the appointment of a receiver to satisfy its lien claim.4  Answering 
+the complaint, defendant again denied plaintiff’s entitlement to relief sought from defendant 
+through foreclosure. 
+ 
+On February 15, 2019, defendant filed a motion for summary disposition of plaintiff’s 
+foreclosure claim, pursuant to MCR 2.116(C)(10), asserting that because Karet did not own the 
+property and there was no agency relationship between Karet and defendant, plaintiff’s lien 
+attached only to the alleged improvements.  Defendant also asserted that the equipment installed 
+by plaintiff comprised trade fixtures that remained the personal property of Karet, the lessee.  
+Finally, defendant noted that all of the equipment installed by plaintiff had been removed from the 
+property by Karet and argued that enforcing the lien against defendant would place it in the position 
+of guarantor of Karet’s obligations to plaintiff. 
+ 
+Responding to the motion, plaintiff asserted that the lease obligated Karet to make the 
+improvements, that the equipment installed by plaintiff was affixed to the premises and that, 
+pursuant to § 6.02 of the lease between Karet and defendant, all improvements became property 
+ 
+                                                 
+2 Defendant also filed a cross-claim alleging breach of contract against Karet. 
+3 On October 8, 2018, the default of Karet was entered for failure to plead or otherwise defend the 
+action. 
+4 The amended complaint named Topless Interiors, LLC, Robert Lighthauser, and Gwendolyn 
+Lighthauser as necessary parties under the CLA and repeated plaintiff’s claims for breach of 
+contract, unjust enrichment, account stated, and fraudulent misrepresentation against Karet and 
+Lefevre.  Topless Interiors also filed a cross-complaint against defendant and Karet.  The claims 
+against defendant were dismissed by a stipulated order entered before the trial of this matter. 
+
+-4- 
+of defendant upon attachment to the premises.  Thus, plaintiff reasoned, defendant became the 
+owner of the improvements after evicting Karet and the lien was enforceable against defendant’s 
+property.  Plaintiff disputed defendant’s characterization of the equipment as trade fixtures, noting 
+that the CLA contains no provisions regarding trade fixtures.  Plaintiff cited MCL 570.1107(2) in 
+support of its assertion that defendant had acquired all legal or equitable interest in the equipment, 
+requested that the court deny defendant’s motion for summary disposition, and requested summary 
+disposition pursuant to MCR 2.116(I)(2). 
+ 
+In a reply brief, defendant asserted that Karet was not its agent in law or in fact, citing 
+Rowen & Blair Electric Co v Flushing Operating Corp, 399 Mich 593; 250 NW2d 481 (1977), in 
+support of the proposition that where a tenant’s improvements are removed from the property, a 
+construction lien attaches only to the removed improvements.  Defendant also asserted that the 
+lien did not attach to the real property because defendant did not require the improvements and, 
+therefore, there was no agency relationship. 
+ 
+In an opinion and order issued on April 24, 2019, the trial court granted defendant’s motion 
+for summary disposition.  Citing MCL 570.1107(1) and (3), the court explained that a contractor 
+who contracts with a lessee generally has a construction lien only on the interest of the lessee and 
+that where a party with no legal title to the property contracts for an improvement to the property, 
+a lien attaches only to the improvement.  However, citing J & I Serv Station, Inc v Wash Wagon 
+of Mich, Inc, 120 Mich App 533, 537; 327 NW2d 518 (1982), the court recognized an exception 
+to the general rule: where a lease requires the lessee to make the improvements, the lessee becomes 
+an agent of the lessor, who is then bound by the improvements.  Applying this rule to the facts of 
+this case, the court held that plaintiff had cited no provision of the lease that required Karet to 
+install the equipment, and thus presented no evidence of an agency relationship between Karet and 
+defendant.  The court further held that Karet’s abandonment of the property did not expand the 
+scope of the lien, and that the CLA does not address whether an improvement is permanent or 
+removable.  Finding no evidence that defendant contracted for the equipment, the court granted 
+summary disposition for defendant. 
+ 
+Plaintiff filed a motion for reconsideration pursuant to MCR 2.119(F).  Citing Norcross Co 
+v Turner-Fisher Assoc, 165 Mich App 170; 418 NW2d 418 (1987), plaintiff asserted that the court 
+had erred by holding that an agency relationship could only be established if the lease required the 
+tenant to make improvements to the property.  Citing the lease between Karet and defendant, 
+plaintiff asserted that because the equipment it fabricated and installed was required by the lease 
+and the lease required Karet to obtain defendant’s approval of each step in the construction, there 
+was ample evidence of an agency relationship between Karet and defendant.  The trial court 
+granted plaintiff’s motion for reconsideration, holding that in light of the lease provisions cited in 
+plaintiff’s motion, a finder of fact could conclude that an agency relationship existed. 
+ 
+Thereafter, a bench trial was conducted on plaintiff’s foreclosure claim against defendant.  
+In his opening statement, defense counsel asserted, for the first time, that judgment must be entered 
+for defendant because plaintiff failed to provide a sworn statement as required by the CLA.  The 
+next day, plaintiff’s counsel noted that the issue of the sworn statement had not been raised earlier 
+and requested that the record reflect that a sworn statement was being presented to defendant’s 
+counsel.  Rather than address the issue, court continued hearing testimony.  At the conclusion of 
+plaintiff’s case, defendant moved for a directed verdict, premised on plaintiff’s failure to provide 
+
+-5- 
+a sworn statement before filing the complaint in this case.  The court took the motion under 
+advisement. 
+ 
+On May 20, 2020, the trial court issued its opinion and order.  The court concluded that the 
+services provided by plaintiff constituted an improvement and that plaintiff qualified as a 
+contractor, supplier, or laborer under the act.  Citing MCL 570.1107(1), the court observed that a 
+construction lien generally attaches to the interest of the party who contracted for the improvement, 
+in this case a lessee whose interest in the property had been terminated.  Noting plaintiff’s assertion 
+that its lien attached to the real property because the equipment was affixed to the property or 
+became the property of the defendant under the terms of the lease, the court found that plaintiff 
+cited no authority supporting that interpretation of the CLA. 
+ 
+The court recognized that the CLA does permit a contractor’s lien to reach the property 
+interest of a noncontracting owner where the owner required the improvement, but held that 
+plaintiff had not cited any provisions in the lease that required the improvements.  Noting that the 
+lease expressly disclaimed an agency relationship, the court found that the lease permitted, but did 
+not require, the improvements.  Moreover, the court found no significance in the provisions 
+deeming the improvements to be the property of the lessor, concluded that nothing in the lease 
+required Karet to install the various equipment fabricated by plaintiff, and held that plaintiff had 
+failed to show how its lien attached to defendant’s real property.  Thus, the court found no cause 
+of action and entered judgment for defendant.  The court did not address defendant’s motion for a 
+directed verdict, concluding that its decision rendered the motion moot. 
+ 
+Plaintiff appeals as of right, asserting that the trial court erred by finding that its lien did 
+not attach to defendant’s real property.  We disagree. 
+II.  STANDARD OF REVIEW 
+ 
+This Court reviews a trial court’s findings of fact at a bench trial for clear error.  A finding 
+of fact is clearly erroneous if it lacks evidentiary support or if this Court is left with a definite and 
+firm conviction that a mistake has been made.  Chelsea Inv Group LLC v City of Chelsea, 288 
+Mich App 239, 250-251; 792 NW2d 781 (2010).  The trial court’s conclusions of law are reviewed 
+de novo.  Id. at 250.  The proper interpretation of the CLA is also reviewed de novo, DLF Trucking, 
+Inc v Bach, 268 Mich App 306, 309; 707 NW2d 606 (2005), as is the proper interpretation of a 
+contract.  AFP Specialties, Inc v Vereyken, 303 Mich App 497, 504; 844 NW2d 470 (2014) 
+(citation omitted). 
+III.  ANALYSIS 
+ 
+The CLA, which took effect on January 1, 1982, replaced mechanics lien laws dating back 
+to 1891, and was “intended to protect the interests of contractors, workers, and suppliers through 
+construction liens, while protecting owners from excessive costs.”  Vugterveen Sys, Inc v Olde 
+Millpond Corp, 454 Mich 119, 121; 560 NW2d 43 (1997).  While the CLA must be liberally 
+construed to effectuate its purpose, “the act’s clear and unambiguous requirements should not be 
+ignored.”  Id.  Thus, where a statutory provision is unambiguous, “it needs no construction, liberal 
+or otherwise, to determine its meaning.”  AFP Specialties, 303 Mich App at 505. 
+
+-6- 
+ 
+Section 107(1) of the CLA provides that a “contractor, subcontractor, supplier, or laborer 
+who provides an improvement to real property has a construction lien upon the interest of the 
+owner or lessee who contracted for the improvement to the real property . . . .”  MCL 570.1107(1).  
+A construction lien also attaches to “the interest of an owner who has required the improvement.”  
+Id.  Moreover, the lien “attaches to the entire interest of the owner or lessee who contracted for the 
+improvement, including any subsequently acquired legal or equitable interest.”  MCL 570.1107(2).  
+Where the party contracting for the improvement has no legal title to the real property, a contractor 
+providing an improvement has a construction lien upon the improvement, and the termination of 
+the contracting party’s interest does not defeat the lien upon the improvement.  MCL 570.1107(3). 
+ 
+As this Court succinctly explained in Norcross, 165 Mich App at 179, under the CLA, a 
+lien attaches to the interest of an owner or lessee who contracted for the improvement, an owner 
+who subordinated the interest to a mortgage for the improvement, or an owner who has required 
+the improvement.  While the lien attaches to the entire interest of an owner or lessee who contracted 
+for the improvement, “if the party contracting for the improvement did not have legal title in the 
+property, the lien only attaches to the improvement.”  Id. at 180. 
+ 
+As an initial consideration, the CLA defines “improvement” to include, inter alia, 
+engineering and architectural planning, construction management, erecting, constructing, altering, 
+repairing, leasing equipment, and installing or affixing a fixture or material, pursuant to a contract.  
+MCL 570.1104(6).  The trial court concluded that plaintiff qualified as a contractor under the CLA 
+and that the services provided by plaintiff “constitute an improvement under the CLA.”  Neither 
+party challenges this conclusion. 
+ 
+Because plaintiff provided the improvements under a contract with defendant’s tenant,  
+under the express language of the CLA plaintiff’s lien could attach to defendant’s real property 
+interest if plaintiff established that defendant required the improvements.  MCL 570.1107(1).  In 
+addition, Michigan courts have repeatedly held that a construction lien may also attach to a lessor’s 
+property “where, in fact or law, the lessee becomes the lessor’s agent with authority to contract for 
+improvements which will be of substantial benefit to the reversion.”  Rowen & Blair Electric Co, 
+399 Mich at 600. 
+ 
+In the Rowen & Blair Electric case, which interpreted earlier mechanics lien laws, the 
+landlord leased land and a building to be used as a bakery and agreed to pay $45,000 “for 
+improvements to the leased property and for replacement of fixtures as may be required.”  Id. at 
+596.  The tenant then contracted with the plaintiff to provide labor and materials for the installation 
+of trade fixtures and equipment.  The landlord paid a number of invoices for improvements to the 
+property, including two of the plaintiff’s, but refused to pay any further invoices after the $45,000 
+total for the property was reached.  The plaintiff then filed a lien on the property, listing both the 
+landlord and the tenant as owners, and filed a complaint to foreclose the lien.  Id. at 597-600.  After 
+the trial court found that an agency relationship existed between the landlord and the tenant, this 
+Court affirmed.  Id. at 600. 
+ 
+On appeal from this Court, our Supreme Court explained that “an agency is not created by 
+the mere relationship of landlord and tenant.”  Id. at 601.  Rather, there must be the possibility for 
+unjust enrichment, and the primary focus must be “whether the lessee in fact was, or in equity 
+should be viewed as, the lessor’s agent in contracting for improvements.”  Id.  An important factor 
+
+-7- 
+in determining the existence of an agency relationship is whether the lessor required the lessee to 
+make improvements that benefited the lessor.  Id. at 602. 
+ 
+The Supreme Court noted that the parties did not contemplate the building of a permanent 
+structure on the property, but simply alterations and improvements to a vacant building “in order 
+to make the leased premises suitable for the operation of a wholesale bakery[.]”  Id. at 602.  The 
+Court observed that the alterations and improvements were of primary value to the lessee and that 
+the lessee was not obligated to make the improvements, which were essential to the operation of 
+the lessee’s business.  Finally, the Court noted that none of the improvements added any value to 
+the property, having been seized by the IRS or repossessed by other secured parties.  Id. at 603. 
+ 
+After engaging in this analysis, the Supreme Court held that “it is not necessary to the 
+proper disposition of this case that we pass upon the rulings of the lower courts that an agency 
+relationship was created by the terms of the lease,” id. at 604, but instead affirmed the judgment 
+of this Court because it found no evidence in the record to support binding the lessor beyond the 
+$45,000 limit stated in  the lease.  Id.  Thus, the Supreme Court’s discussion regarding the existence 
+of an agency relationship was not essential to its decision; it is dictum and does not constitute 
+binding precedent.  See Allison v AEW Capital Mgt, LLP, 481 Mich 419, 436-437; 751 NW2d 8 
+(2008). 
+ 
+Nevertheless, 10 years later, in Norcross, this Court adopted the Supreme Court’s dictum 
+in Rowen & Blair Electric to affirm a lower court’s finding of an implied agency relationship in a 
+case arising under the recently-enacted CLA.  In Norcross, a property owner entered into an option 
+agreement to sell real property for the purpose of making “alterations, renovations, and 
+improvements to the building,” which would then be sold or leased as office space.  Norcross, 165 
+Mich App at 173.  Even though the purchaser failed to make a lump-sum payment required by the 
+agreement, the seller subsequently acknowledged and approved past and future improvements by 
+the purchaser.  Id. at 174-175.  After the purchaser failed to make additional payments and filed 
+for Chapter 11 bankruptcy, the option agreement and the purchaser’s rights to the property were 
+terminated.  Various claimants filed construction liens against the purchaser and later filed suit 
+against the property owner.  Following a bench trial, the circuit court held that the CLA should be 
+liberally construed and found that the property owner was liable to the lien claimants because, after 
+the owner acknowledged and approved past and future improvements, an implied agency was 
+created between the property owner and the purchaser.  Id. at 175-177.  On appeal, the owner 
+argued that the trial court erred by construing the CLA liberally, that the liens attached only to the 
+improvements because the plaintiffs contracted with the purchaser and not the property owner, and 
+that no lien attached to the real property because the owner neither required nor assented to the 
+improvements.  Id. at 177-179. 
+ 
+This Court first agreed with the trial court’s liberal interpretation of the statute, finding that 
+“the language of the statute supports the court’s conclusion that the statute should receive a liberal 
+interpretation.”  Id. at 178.  Next, this Court explained that “a lien will not attach if the owner 
+merely authorizes the improvements but does not require them,” id. at 181, citing Rowen & Blair 
+Electric, 399 Mich at 602.  This Court noted that the lower court had recognized this limitation 
+and had instead premised its decision on a finding that there was an implied agency relationship 
+between the owner, as principal, and the purchaser, as agent, “for the construction of the 
+improvements.”  Norcross, 165 Mich App at 181.  Again citing Rowen & Blair Electric, this Court 
+
+-8- 
+then held that “the court’s finding that an implied agency existed . . . with respect to the 
+improvements was not clearly erroneous.”  Id. at 182.  In support of this finding, this Court noted 
+that the owner had acquiesced in the improvements even though the purchaser was in arrears on 
+payments, had made no efforts to limit the improvements to the property, and had even encouraged 
+future improvements.  Id. 
+ 
+More recently, in AFP Specialties, 303 Mich App 497, this Court applied the holdings in 
+both Rowen & Blair Electric and Norcross to reverse a trial court decision granting a lien 
+foreclosure premised on an implied agency.  In that case, the property owner entered into a land 
+contract for the sale of property, knowing that the purchaser intended to convert a vacant building 
+on the property into a restaurant.  AFP Specialties, 303 Mich App at 500.  The purchaser entered 
+into a contract with the plaintiff for the installation of a fire-suppression system in the building.  
+Id.  When the purchaser was unable to make payments on the land contract, the owner brought a 
+forfeiture action and obtained a judgment of possession.  Id. at 501.  The plaintiff then filed a 
+breach-of-contract action, obtained a partial summary disposition against the purchaser, and sought 
+to foreclose its construction lien on the property, alleging that the purchaser had acted as the 
+owner’s agent when he contracted for the installation of the fire-suppression system.  Id. at 501-
+502.  After finding that an implied agency existed between the owner and the purchaser, the trial 
+court granted summary disposition for the plaintiff, holding that the plaintiff’s lien attached to the 
+owner’s entire interest in the property, first, because the purchaser acted as the agent of the owner 
+when contracting for the installation of the fire-suppression system, and, second, because the land 
+contract required the installation of the system.  Id. at 502-503. 
+ 
+On appeal, this Court first held that the trial court “erred by applying the liberal rule of 
+construction for interpreting the CLA, set forth in MCL 570.1302(1), when considering whether 
+an implied agency existed,” both because the pertinent statutory provision is unambiguous and 
+needs no construction, and because “whether an implied agency arises is not a question of statutory 
+interpretation but a matter of fact, dependent on common-law principles.”  Id. at 505. 
+ 
+This Court then held that the trial court had erred by finding, as a matter of law, that the 
+purchaser was acting as the owner’s implied agent when contracting for the fire-suppression 
+system.  Id. at 511.  The Court explained that an agency relationship “cannot arise by implication 
+if the alleged principal expressly denies its existence,” but may arise from facts and circumstances 
+that are known to the alleged principal, that are within the control of the alleged principal, and that 
+are acknowledged or acquiesced in by the alleged principal.  Id. at 507.  Noting that under the land 
+contract the owner retained no control over the improvements made to the property, id. at 509, the 
+Court held that “because the improvements here were permitted but not required, no implied 
+agency arose,” id. at 510, citing Rowen & Blair Electric, 399 Mich at 602, 604.  Next, this Court 
+noted that while the land contract required the purchaser to comply with all government 
+regulations, nothing in the land contract required that the property be used as a restaurant; rather, 
+it was the purchaser’s decision to use the property as a restaurant that triggered the inspection that 
+caused the restaurant to close.  AFP Specialties, 303 Mich App at 515.  Thus, the trial court erred 
+by holding that the land contract required the installation of the fire-suppression system.  Id. at 
+515-516. 
+ 
+Although the Supreme Court’s explanation of the implied agency theory in Rowen & Blair 
+Electric is dictum, this Court’s holdings in Norcross and AFP Specialties clearly establish the 
+
+-9- 
+applicability of the implied agency rationale to cases arising under the CLA.  Moreover, AFP 
+Specialties, decided in 2014, is binding under MCR 7.215(J)(1).  In light of this precedent, the trial 
+court correctly held that “either under the express terms of MCL 570.1107(1), or under the 
+judicially created exception based on agency principles, the question becomes whether [defendant] 
+required the improvements [plaintiff] provided.” 
+A.  REQUIRED IMPROVEMENTS 
+ 
+The lease in this case, comprising more than 70 pages, is quite detailed in defining the 
+responsibilities of both Karet, as tenant, and defendant, as landlord, and plaintiff cites numerous 
+provisions of the lease to support its assertion that the improvements were required by the lease.  
+For example, plaintiff notes that the lease required that the premises were to be used “solely for 
+the purpose of a ‘Muer Kitchens’ restaurant.”  Plaintiff also observes that Exhibit B to the lease 
+defines “Tenant’s Work” to mean “Tenant’s total responsibilities (or any portion thereof) for the 
+construction and improvement of the Premises” and defines “Leasehold Improvements” as “all of 
+Tenant’s Work described and performed pursuant to this Exhibit B for the purpose of the Lease.”  
+Plaintiff also points to various lease provisions defining tenant’s work in detail, including 
+installation of furniture, fixtures, and equipment required to complete the premises, and requiring 
+the preparation and submission of preliminary and final drawings for defendant’s approval.  
+Plaintiff also refers to various provision of the lease requiring defendant’s approval, such as 
+§ II(A), which states that “Tenant’s Work shall be subject to Landlord’s prior approval and shall 
+be designed and constructed to comply with the requirements set forth in the most current edition 
+of Landlord’s criteria for the Shopping Center.”  Plaintiff asserts that these and other provisions 
+demonstrate that defendant “not only maintained control over what improvements Karet could 
+make, by requiring the approval of the Mall, but required Karet to make the improvements.” 
+ 
+The trial court disagreed with plaintiff’s interpretation of the lease, and instead interpreted 
+the lease as “not to mean what the landlord requires from tenant, but rather what Tenant’s business 
+needs requires.”  This finding is supported by the evidence.  Defendant’s operations director 
+testified that the tenant accepted the property “as is,” that “tenant’s work basically means anything 
+the tenant needs to run its business,” that he was not aware of any improvements that defendant 
+required Karet to make to the premises, and that the purpose of the lease provision describing the 
+permitted use of the premises is to show “what you’re going to be using the land for or the building 
+for, lease space.”  He testified that the leased space was not designated as a restaurant space and 
+may be used for different purposes by a subsequent tenant, and that Karet was allowed to remove 
+the equipment installed by plaintiff “[b]ecause it’s not going to be used.  A new tenant that would 
+move in would change everything.” 
+ 
+This evidence indicates that any improvements made to the premises by Karet were 
+primarily for the benefit of the tenant, rather than the landlord, and were improvements essential 
+to Karet’s business operations, as in Rowen & Blair, 399 Mich at 603.  Although the lease seems 
+to require that Karet make improvements necessary to conduct the business operations for which 
+the space was leased, the trial court’s finding that the lease did not require the improvements 
+installed by plaintiff within the meaning of MCL 570.1107(1) is not clearly erroneous. 
+ 
+
+-10- 
+B.  IMPLIED AGENCY 
+ 
+Although plaintiff argues that an agency relationship is not necessary to enforce its lien 
+against defendant’s property under the CLA, plaintiff asserts that an agency relationship was 
+nevertheless created in this case.  Plaintiff relies on the same lease provisions cited in support of 
+the argument that the lease required the improvements installed by Karet, including the 
+requirement that the premises be used solely for the purpose of a Muer Kitchens restaurant, the 
+definitions and requirements for tenant’s work, and the requirement that the tenant submit detailed 
+plans conforming to defendant’s construction requirements.  In addition, plaintiff cited the lease 
+addendum specifying a construction reimbursement allowance to Karet in the amount of $850,314. 
+ 
+The existence of an agency relationship “is not a question of statutory interpretation but a 
+matter of fact, dependent on common-law principles.”  AFP Specialties, 303 Mich App at 505.  
+The trial court’s finding that no agency relationship existed between defendant and Karet is correct, 
+for three reasons. 
+ 
+First, as the trial court noted, § 27.03 of the lease explicitly disclaims any agency 
+relationship between defendant and Karet, stating: 
+ 
+Nothing contained herein shall be deemed or construed by the parties 
+hereto, nor by any third party, as creating the relationship of principal and agent or 
+of partnership or of joint ventures between the parties hereto, it being understood 
+and agreed that neither the method of computation of Rental, nor any other 
+provision contained herein, nor any acts of the parties herein, shall be deemed to 
+create any relationship between the parties hereto other than the relationship of 
+landlord and tenant. 
+As this Court held in AFP Specialties, 303 Mich App at 507, “[a]n agency cannot arise by 
+implication if the alleged principal expressly denies its existence . . . .” 
+ 
+Second, as the trial court also noted, the lease provisions regarding tenant’s work referred 
+to Karet’s business requirements rather than improvements required for defendant’s purposes.  
+This finding is supported by the testimony of defendant’s operations manager, who stated that 
+defendant allowed Karet to remove the equipment because defendant did not want it and a new 
+tenant “would change everything.”  Moreover, as the trial court correctly held, requiring approval 
+of improvements is not tantamount to requiring that the improvements be made.  A lease that 
+permits, but does not require, improvements does not create a principal-agent relationship. 
+ 
+Third, a finding of implied agency requires a showing that the improvements are “of 
+substantial benefit to the lessor.”  Norcross, 165 Mich App at 181.  In this case, plaintiff has not 
+shown that the equipment it installed provided any benefit to defendant.  Again, as defendant’s 
+witness testified, defendant did not want the equipment installed by plaintiff to remain in the 
+premises and Karet was allowed to remove the equipment because it would not have been used by 
+a new tenant. 
+ 
+Plaintiff attempts to distinguish this case from AFP Specialties on the ground that in this 
+case, unlike AFP Specialties, “the lease specifically required Karet to use the leased premises as a 
+restaurant.”  However, AFP Specialties did not involve a lease, but rather the sale of property under 
+
+-11- 
+a land contract, an entirely different situation.  Because defendant is in the business of leasing 
+space to various tenants for various retail and restaurant purposes, the retention of a greater degree 
+of control by the landlord does not create an implied agency.  See AFP Specialties, 303 Mich App 
+509. 
+ 
+Plaintiff also attempts to establish an agency relationship with defendant through a lease 
+provision stating that “Tenant’s Architect and Engineers may act as Tenant’s agents for all Tenant 
+design and plan development purposes and obligations.”  From this, plaintiff reasons that it acted 
+as Karet’s agent when it installed the improvements to the premises and “therefore had an agency 
+relationship with the Mall.”  This assertion has no logical basis.  Even if plaintiff had acted as 
+Karet’s agent for design purposes, that does not create an agency relationship between plaintiff 
+and defendant.  Moreover, the only agency relationship that is relevant in this context is one in 
+which the landowner is the principal and the tenant is the agent. 
+ 
+Plaintiff also asserts that the trial court erred by concluding that the CLA requires an agency 
+relationship.  However, the court made no such holding, but merely cited Michigan law holding 
+that the existence of an agency relationship may result in the attachment of a lien to the principal’s 
+property.  The CLA unambiguously states that a construction lien attaches to the interest of the 
+party contracting for the improvement to real property, whether an owner or a lessee, or to the 
+interest of an owner who required the improvement.  MCL 570.1107(1).  “It is a longstanding legal 
+principle that a duly authorized agent has the power to act and bind the principal to the same extent 
+as if the principal acted.”  In re Capuzzi Estate, 470 Mich 399, 402; 684 NW2d 677 (2004).  Thus, 
+if a lessee is acting as an agent of the lessor when dealing with a contractor, the contractor’s lien 
+attaches to the property of the lessor under the CLA. 
+ 
+In a somewhat confusing argument, plaintiff contends that because the CLA provides that 
+“a construction lien attaches to the entire interest of the owner or lessee who contracted for the 
+improvement, including any subsequently acquired legal or equitable interest,” MCL 570.1107(2), 
+defendant remained the owner of the premises after Karet was evicted and owned all of the 
+improvements made by plaintiff and any other contractors.  Plaintiff reads this language to mean 
+that a “subsequently acquired legal or equitable interest” refers to defendant’s ownership of the 
+improvements themselves.  However, this provision only makes sense if it is read to refer to a legal 
+or equitable interest in the property to which the lien attaches, and not to the improvements.  
+Plaintiff has cited no authority to support the proposition that where the property owner acquires 
+ownership of the improvements through forfeiture or otherwise, the construction lien is then 
+extended to the entire property interest.  This interpretation places a landowner in the position of 
+guarantor of payment for improvements made by the tenant, clearly not the aim of the CLA. 
+ 
+Plaintiff’s assertion that the trial court’s interpretation would lead to the abuses described 
+in Rowen & Blair Electric, 399 Mich at 601, is incorrect.  The fraud described in Rowen & Blair 
+Electric occurs when a landowner contracts with a tenant to make improvements beneficial to the 
+property and then refuses to pay the contractor when the tenant is unwilling or unable to do so.  
+However, that situation is clearly addressed under the CLA: if the landowner requires the 
+improvements to the property, the construction lien attaches to the landowner’s interest in the 
+property.  Similarly, if the tenant contracts for improvements as an agent for the landowner, the 
+lien attaches to the landowner’s interest in the property.  MCL 570.1107(1).  Because the trial 
+
+-12- 
+court’s analysis is supported by the CLA and Michigan common law, plaintiff is not entitled to 
+appellate relief on these grounds. 
+ 
+Plaintiff also contends that the trial court erroneously relied on caselaw interpreting the 
+prior mechanics lien statutes.  Although the issue is phrased as a general challenge to the trial 
+court’s citation of caselaw predating the CLA, plaintiff’s own reliance on Rowen & Blair Electric, 
+which predated the CLA by five years, and Kolton v Nassar, 352 Mich 337; 89 NW2d 598 (1958), 
+decided 24 years before enactment of the CLA, indicates that plaintiff specifically objects only to 
+the trial court’s citation of J & I Serv Station, 120 Mich App 533. 
+ 
+In J & I Serv Station, the tenant leased property to operate a truck wash under a lease that 
+the tenant could terminate if unable to obtain the necessary permits within 90 days.  Id. at 535.  
+The tenant hired a contractor to convert the facility to a truck wash; when the tenant failed to pay 
+the balance, the contractor did not notify the landowner of its intent to file a mechanic’s lien on 
+the plaintiff’s property, but nevertheless recorded a lien on the property.  Id. at 536.  When the 
+landowner sued the contractor to quiet title in the property, the trial court granted the landowner’s 
+motion for summary disposition.  Id.  The contractor appealed to this Court, challenging the trial 
+court’s holding that notice was deficient under the mechanics lien statute.  The contractor asserted 
+that the tenant was an agent of the plaintiff, thus, notice to the tenant was sufficient under the 
+statute and the trial court erred by requiring strict compliance with the notice requirement.  Id. at 
+536-537. 
+ 
+Citing Rowen & Blair Electric, 399 Mich at 600-601, and Sewell v Nu Markets, Inc, 353 
+Mich 553, 558-559; 91 NW2d 861 (1958), this Court first held that because the tenant was not 
+required to make the improvements to the property, and the tenant could terminate the contract if 
+the improvements could not be made, the trial court correctly found that the tenant was not an 
+agent of the plaintiff.  J & I Serv Station, 120 Mich App at 537.  Second, this Court also held that 
+the trial court properly found that the plaintiff was entitled to summary disposition because the 
+contractor “did not strictly comply with the requirements of the statute when it did not send notice 
+of intention to claim a lien to [the landowner].”  Id. at 538. 
+ 
+In this appeal, plaintiff asserts that the trial court erroneously relied on J & I Serv Station 
+as authority for its conclusion that no agency was created because defendant did not require Karet 
+to make the improvements.  To support this assertion, plaintiff correctly observes that in Norcross, 
+165 Mich App at 179, this Court stated that J & I Serv Station was wrongly decided because the 
+Court improperly applied a strict construction of the mechanics lien statute.  However, plaintiff’s 
+argument is otherwise flawed.  The Court in J & I Serv Station employed a strict construction of 
+the mechanics lien statute only in the context of the notice requirements, and not in the analysis of 
+the agency relationship.  J & I Serv Station, 120 Mich App at 537-538.  When analyzing the agency 
+issue, id. at 537, the Court in J & I Serv Station relied on the Supreme Court’s decision in Rowen 
+& Blair Electric, not on a strict construction of the mechanics lien statute.  The Norcross Court’s 
+statement that J & I Serv Station was wrongly decided did not apply to its analysis of the agency 
+relationship.  Thus, the trial court’s citation of J & I Serv Station is not erroneous and does not 
+warrant reversal of the trial court’s judgment for defendant. 
+ 
+ 
+
+-13- 
+C.  SWORN STATEMENT 
+ 
+Defendant asserts that plaintiff’s failure to provide a sworn statement before filing the 
+complaint is a defect fatal to plaintiff’s foreclosure claim.  Accordingly, defendant requests that if 
+this Court remands this case to the trial court, it do so with instruction to grant defendant’s motion 
+for a directed verdict.  Because we affirm the entry of judgment for defendant, we decline to 
+address this issue. 
+IV.  CONCLUSION 
+ 
+Because the trial court’s findings that the lease did not require the improvements installed 
+by plaintiff and that no agency relationship was created between defendant and its tenant are not 
+clearly erroneous, we affirm the judgment for defendant of no cause of action. 
+Affirmed.  Defendant is entitled to tax costs as the prevailing party.  See MCR 7.219(A). 
+ 
+/s/ Mark T. Boonstra 
+/s/ Mark J. Cavanagh 
+/s/ Michael F. Gadola 
+ 

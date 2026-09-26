@@ -1,0 +1,1672 @@
+2025 UT App 98 
+THE UTAH COURT OF APPEALS 
+GLOBE CONTRACTING LLC, 
+Appellee, 
+v. 
+RAYMOND R. HOUR, KIMBERLY TAING, HOUR TAING ENTERPRISE 
+LLC, AND HOUR CHIROPRACTIC CLINIC INC., 
+Appellants. 
+Opinion 
+No. 20240058-CA 
+Filed July 3, 2025 
+Third District Court, Salt Lake Department 
+The Honorable Coral Sanchez 
+No. 170900003 
+Jeffrey T. Colemere, Tamara J. Hauge, and 
+Emily Adams, Attorneys for Appellants 
+Benjamin S. Ruesch, Tony G. Jones, 
+Travis Dunsmoor, and Jeannette Barney, 
+Attorneys for Appellee 
+JUDGE RYAN D. TENNEY authored this Opinion, in which 
+JUDGES GREGORY K. ORME and JOHN D. LUTHY concurred. 
+TENNEY, Judge: 
+¶1 
+Dr. Raymond Hour and Globe Contracting LLC (Globe) 
+entered into a contract in which Globe agreed to construct an 
+office building for Hour’s chiropractic clinic. After Hour failed to 
+make the last three payments that were due under the contract, 
+Globe sued, raising several causes of action relating to breach of 
+contract. Hour counterclaimed, asserting that Globe had breached 
+the contract first—and, as a result, that Hour had been justified in 
+not continuing to pay Globe for its work. At the close of a bench 
+trial, the district court ruled that Hour had breached the contract 
+and that he had no justification for doing so. In its findings of fact 
+
+Globe Contracting v. Hour 
+20240058-CA 
+2 
+2025 UT App 98 
+ 
+and conclusions of law, the district court awarded Globe 
+damages. And after several months of posttrial litigation, the 
+court ordered Hour to pay prejudgment interest, costs, and 
+attorney fees.  
+¶2 
+Hour raises several issues on appeal. For the reasons set 
+forth below, we rule as follows:  
+• First, we affirm the district court’s determinations that 
+Hour was liable for breach of contract (and the other 
+associated claims). 
+• Second, we affirm the district court’s calculation of 
+Globe’s damages. 
+• Third, we reverse the district court’s awards of 
+prejudgment interest and costs to Globe, and we remand 
+for further proceedings on those awards. 
+• Finally, we reverse the district court’s award of attorney 
+fees to Globe, and we remand for further proceedings on 
+that award. 
+BACKGROUND1 
+Contract and Dispute 
+¶3 
+Hour is a chiropractor, and Globe is a licensed general 
+contractor. In October 2015, Hour and Globe agreed to a contract 
+under which Globe would construct an office building for Hour’s 
+ 
+1. “On appeal from a bench trial, we view and recite the evidence 
+in the light most favorable to the trial court’s findings; we present 
+additional evidence only as necessary to understand the issues on 
+appeal.” Bountiful City v. Sisch, 2023 UT App 141, n.1, 540 P.3d 
+1164 (quotation simplified). 
+
+Globe Contracting v. Hour 
+20240058-CA 
+3 
+2025 UT App 98 
+ 
+chiropractic clinic. Under the terms of the contract, Hour was to 
+pay Globe $650,000 “subject to additions and deductions for 
+written change orders.” Hour was required to pay Globe through 
+monthly “progress payments” that were due 30 days after Globe 
+sent Hour an application for payment, and Globe’s applications 
+for payment were to be sent “on or before the 30th day of each 
+month for labor and materials delivered to the jobsite during the 
+month.” 
+¶4 
+The contract stated that the monthly progress payments 
+could be “withheld” under four delineated circumstances: 
+1. Work is found defective and not remedied; 
+2. [Globe] does not make prompt and proper 
+payments to subcontractor; 
+3. [Globe] does not make prompt and proper 
+payments for labor, materials, or equipment 
+furnished; 
+4. Another contractor is damaged by an act for 
+which [Globe] is responsible. 
+¶5 
+The contract provided that construction was to “begin 
+within seven (7) days after issuance of building permit,” that work 
+was to “be substantially completed two-hundred and ten (210) 
+days after issuance of building permit,” and that “[a]ny request 
+for additional days [was to] be treated as a request for a change 
+order, and must be in writing before it will be considered by” 
+Hour. The contract further provided that the “times stated in” the 
+contract could be “extended by a change order” by Hour or when 
+Globe was “delayed in work progress by changes ordered, . . . 
+weather, . . . or other causes beyond [Globe’s] control or which 
+justif[ied] the delay.” 
+
+Globe Contracting v. Hour 
+20240058-CA 
+4 
+2025 UT App 98 
+ 
+¶6 
+The contract also stated that if Globe “default[ed] in 
+performances of any provision” from the contract “or fail[ed] to 
+carry out the construction in accordance with the provision of the 
+contract documents,” Hour was entitled to “terminate” the 
+contract “on thirty (30) days written notice to” Globe, or to instead 
+not terminate the contract but “make good the deficiency of which 
+the default consists, and deduct the cost from the progress 
+payment then or to become due to” Globe. Finally, the contract 
+contained an attorney fee provision, which stated that if “any 
+action is filed in relation to this Agreement, the unsuccessful party 
+in the action shall pay to the successful party, in addition to all the 
+sums that either party may be called on to pay, a reasonable sum 
+for the successful party’s attorney fees.”  
+¶7 
+The city issued a building permit on December 1, 2015. As 
+a result, a construction expert later testified at trial (and no party 
+has disputed on appeal) that, under the contract’s 210-day 
+provision, construction was expected to begin on December 7, 
+2015, and be “substantially completed” by July 5, 2016. In late 2015 
+and early 2016, however, there were construction delays caused 
+by “abnormally cold weather,” “rain fall and subsequent mud,” 
+and the discovery of “[c]oncealed debris” on the building site. 
+¶8 
+On June 7, 2016, Hour, through his attorney, sent a letter to 
+Globe stating that “as of this time, it is apparent that there is no 
+way the work can be completed by [the required] date.” Hour 
+informed Globe that he was giving “notice pursuant to the 
+contract that [Globe was] in default” and that he was also giving 
+“30 days notice of his termination of the contract.” On July 18, 
+2016, Hour’s attorney sent another letter to Globe stating that 
+because “the building [was] not substantially completed within 
+two hundred and ten days as required” by the contract, Globe was 
+“in default” and the contract was “no longer binding on . . . 
+Hour.” 
+¶9 
+But although these letters spoke of “termination,” Hour 
+later informed Globe that he would give it “till the end of 
+
+Globe Contracting v. Hour 
+20240058-CA 
+5 
+2025 UT App 98 
+ 
+September” to complete the project.2 Moreover, during 
+construction, “Hour initiated 24 changes” to the project, “most of 
+which were substantial changes that affected the finished portions 
+of construction and were initiated after the date of Hour’s 30-day 
+notice to terminate” the contract “for lack of progress,” and at 
+least some of which were requested after the July 2016 letter. 
+¶10 
+Hour made timely payments for the first seven progress 
+payments, the seventh of which was linked to the June pay 
+application. But Hour did not make the eighth, ninth, or tenth 
+progress payments, which were due, respectively, at the end of 
+August, September, and October. Even though Hour stopped 
+paying, Globe continued with its construction work until the end 
+of September 2016. 
+¶11 
+On September 22, 2016, Hour notified Globe that he was 
+dissatisfied with the quality of the workmanship. On September 
+28, 2016, Hour terminated the contract. As of September 28, 
+however, both Hour and a new contractor that he had hired to 
+take over the project believed that the project “was substantially 
+complete.” The next day, the city performed a “scheduled” 
+inspection for temporary occupancy. The building did not pass 
+the inspection because, among other reasons, the stairwell doors 
+were not fire rated. 
+Complaint, Counterclaim, and Pretrial Litigation 
+¶12 
+In January 2017, Globe sued Hour, asserting a number of 
+claims. Those relevant to this appeal were claims for breach of 
+contract, breach of warranty, unjust enrichment, lien foreclosure, 
+breach of implied covenant of good faith and fair dealing, and 
+ 
+2. Hour has taken a similar view on appeal, agreeing that, after 
+the June and July letters, he “gave Globe an additional three 
+months—until September 2016—to finish” the project, and 
+further asserting that he finally “terminated” the contract on 
+September 28, 2016. 
+
+Globe Contracting v. Hour 
+20240058-CA 
+6 
+2025 UT App 98 
+ 
+intentional interference with contractual relations. In connection 
+with these claims, Globe requested damages, prejudgment and 
+postjudgment interest, and attorney fees. Globe filed the 
+complaint in the Third District Court, and it originally did so pro 
+se. A few months after Globe filed its complaint, attorneys who 
+were based in southern Utah filed a notice of appearance, and 
+those attorneys represented Globe throughout the ensuing several 
+years of litigation (and have continued to do so up through this 
+appeal).3 
+¶13 
+Hour filed an answer that included a counterclaim against 
+Globe. In his answer, Hour asserted that he was justified in not 
+paying Globe—indeed, for even “terminat[ing] . . . the contract”—
+because Globe itself had committed “material breaches of the 
+contract.” 
+Hour 
+elaborated 
+on 
+these 
+assertions 
+in 
+his 
+counterclaim, alleging there that Globe had breached the contract 
+by, among other things, “failing to complete the work on the 
+project within 210 days[] without good cause,” performing 
+substandard and defective work, “hiring subcontractors who 
+were not licensed to do the work and/or not qualified for the work 
+they were hired” to do, and “failing to pay several of its 
+subcontractors who worked on the project.” 
+ 
+3. Under settled principles, a corporation is not entitled to “self-
+representation because corporations are artificial entities that are 
+not allowed to represent themselves in court.” Hartford Leasing 
+Corp. v. State, 888 P.2d 694, 700 (Utah Ct. App. 1994); see also Tracy-
+Burke Assocs. v. Department of Emp. Sec., 699 P.2d 687, 688 (Utah 
+1985) (“It has long been the law of this jurisdiction that a corporate 
+litigant must be represented in court by a licensed attorney.”); 
+CoBon Energy, LLC v. AGTC, Inc., 2011 UT App 330, ¶ 9 n.1, 264 
+P.3d 219. But Globe’s initial violation of this rule seems to have 
+been cured in short order. 
+
+Globe Contracting v. Hour 
+20240058-CA 
+7 
+2025 UT App 98 
+ 
+¶14 
+After a series of pretrial rulings, the case went to a bench 
+trial on the claims and counterclaims listed above.4 
+¶15 
+At the close of discovery, and pursuant to court order, the 
+parties submitted direct examinations of their witnesses in written 
+form in early March 2020. Trial was scheduled to occur at the end 
+of March 2020, but it was delayed for nearly three years due to the 
+COVID-19 pandemic. A several-day bench trial was eventually 
+held in February and March 2023, at which time the parties were 
+able to cross-examine and then examine, on redirect, the witnesses 
+ 
+4. By way of background, there were several additional parties 
+and claims that did not make it to trial. These included the 
+following: 
+• Along with Globe, two individuals—Matthew Barlow and 
+Damir Alijagic—were listed as plaintiffs on the complaint. 
+Before trial, the district court dismissed all of the claims 
+asserted by Barlow and Alijagic in their individual 
+capacities. 
+• In addition to suing Hour, the plaintiffs sued Kimberly 
+Taing, Hour Taing Enterprise LLC, and Hour Chiropractic 
+Clinic Inc. With one exception, the district court dismissed 
+all of the claims against these additional defendants before 
+trial. The exception was the unjust enrichment claim, 
+which proceeded to trial against all of the defendants. 
+• Finally, this case was initially consolidated with a separate 
+construction lien case between Hour and Globe that also 
+involved one of Globe’s subcontractors. Before trial, the 
+district court granted summary judgment on behalf of 
+Globe, and no party has challenged that ruling in this 
+appeal. 
+Although the case involved, at various times, the additional 
+parties we’ve just identified, the parties on appeal have 
+consistently referred to the two sides as “Globe” and “Hour.” 
+We’ll follow suit throughout this opinion. 
+
+Globe Contracting v. Hour 
+20240058-CA 
+8 
+2025 UT App 98 
+ 
+whose direct examinations had been submitted years earlier in 
+written form.  
+¶16 
+As part of its submissions in 2020, Globe submitted a direct 
+examination of Matthew Barlow, who was Globe’s president and 
+a managing member.5 In that written examination, Barlow stated 
+that he had previously filed a construction lien on the project for 
+$55,533.17, and that, at the time, Globe seemed to have intended 
+for this to reflect the amount that Globe believed that Hour still 
+owed to Globe. Before trial resumed in 2023, however, Globe 
+submitted a damages exhibit that requested $61,901.92 in 
+damages. During a hearing, Hour’s counsel explained that the 
+two sides had “talked about” certain “change orders” and had 
+accordingly “changed” certain numbers by way of “stipulation[].” 
+In a posttrial filing, Globe explained that while it had been 
+preparing for the 2023 trial, it had become aware of “certain 
+change orders that were either undisputed or not properly 
+accounted for” in the earlier estimate of damages, thus resulting 
+in the change. 
+Trial and Ruling 
+¶17 
+As indicated, the district court heard several days of 
+testimony in the spring of 2023. The court subsequently issued 
+findings of fact and conclusions of law. There, the court concluded 
+that Hour had breached the contract by “withholding payment on 
+the July 2016, August 2016, and September 2016 pay 
+applications.” The court further concluded that this was a 
+“material breach,” reasoning that in “construction contracts, no 
+other breach is more material to contractors than the unjustified 
+nonpayment to contractors and suppliers.”  
+¶18 
+The court then concluded that Hour’s nonpayments were 
+“not justified under the [c]ontract or Utah law.” At trial, Hour’s 
+ 
+5. As noted, Barlow was originally listed as a plaintiff, but the 
+court dismissed his individual claims before trial. 
+
+Globe Contracting v. Hour 
+20240058-CA 
+9 
+2025 UT App 98 
+ 
+principal contention was that, as of July 2016, he was justified in 
+not paying because of Globe’s delays. But the court rejected this 
+contention for two main reasons. First, the court noted that the 
+contract had set forth four reasons that would allow Hour to 
+withhold payments but that delays were not one of them, and the 
+court saw no other provision in the contract that allowed him to 
+“withhold payment due to time delay.” And the court declined to 
+infer that time was of the essence for purposes of this contract 
+given that, among other things, there was no “time is of the 
+essence” provision in the contract, and because, until the June 
+2016 letter, “Hour had not communicated to Globe that it was 
+imperative for the work to be substantially completed within 210 
+days.” Second, the court also held that, even if timeliness could be 
+viewed as a material requirement under the contract, the delays 
+that had occurred at the time that Hour stopped paying were 
+attributable to both weather and “change orders by Hour,” those 
+delays “were not the fault of Globe,” and “the date of substantial 
+completion was extended to November 29, 2016”—which was 
+well past the point at which Hour had breached the contract by 
+stopping his payments.  
+¶19 
+The court also addressed Hour’s contention that he was 
+justified in no longer paying because of defects in Globe’s 
+workmanship. 
+The 
+court 
+specifically 
+found 
+that 
+the 
+workmanship issues Hour pointed to at trial did not 
+actually “arise until September 22, 2016, months after Hour 
+decided to withhold payment,” that Hour had not notified Globe 
+of his complaints until September 22, and that Hour believed the 
+project “was substantially complete by September 28.” The court 
+further found that, even if the alleged problems did “require[] 
+correction,” Hour had not given Globe the opportunity to remedy 
+them as contemplated by the contract.6 The court accordingly 
+concluded that the problems Hour identified “could not have 
+ 
+6. As noted, the contract allowed Hour to withhold payment if 
+work was “found defective and not remedied.” (Emphasis added.) 
+
+Globe Contracting v. Hour 
+20240058-CA 
+10 
+2025 UT App 98 
+ 
+been a basis for Hour withholding the progress payments in 
+earlier months.”  
+¶20 
+Given these determinations, the court concluded that Hour 
+was not justified in withholding payments. And for similar 
+reasons, the court also concluded that Hour had breached the 
+covenant of good faith and fair dealing. 
+¶21 
+Finally, the court determined that Globe’s claimed 
+damages were “reasonable,” awarded Globe $61,901.92 in 
+damages, held that Globe was entitled to foreclose on the property 
+based on its construction lien, and ruled that Globe was “entitled 
+to an award of reasonable attorney fees and costs as provided by 
+the [c]ontract and Utah Statute.”  
+Posttrial Litigation on Liability and Damages 
+¶22 
+Hour filed several posttrial motions and objections. In a 
+motion to alter or amend the court’s findings and conclusions, 
+Hour challenged the court’s conclusions that he was liable for 
+breach of contract and of the covenant of good faith and fair 
+dealing, arguing, among other things, that Globe had performed 
+defective work before Hour withheld any progress payments and 
+that Hour had given Globe notice and time to correct the defective 
+work in September 2016. Hour also argued that he was justified 
+in withholding progress payments due to Globe’s failure to pay 
+subcontractors. Hour additionally argued that the court’s 
+damages award was contrary to the evidence—namely, Barlow’s 
+initial testimony stating that Globe’s damages were only 
+$55,533.17.  
+¶23 
+ At a hearing on Hour’s motion, Globe argued that Hour 
+was attempting to “relitigate issues” that “were already ruled on 
+by the [c]ourt.” And it further argued that none of the court’s 
+findings “were clearly erroneous.” The court took the “motion[] 
+under advisement,” and it later issued a brief written ruling 
+denying Hour’s motion to alter or amend. In doing so, it simply 
+
+Globe Contracting v. Hour 
+20240058-CA 
+11 
+2025 UT App 98 
+ 
+stated that it was “adopt[ing] the arguments made at the hearing 
+. . . and the briefing submitted by the parties.” 
+Posttrial Litigation on Prejudgment Interest, Attorney Fees, and Costs 
+¶24 
+After the court issued its initial findings of fact and 
+conclusions of law, Globe filed a proposed judgment that 
+included an award of prejudgment interest pursuant to Utah 
+Code section 15-1-1. (As indicated earlier, the complaint itself had 
+likewise requested an award of prejudgment interest.) 
+¶25 
+Globe also filed separate requests for both attorney fees 
+and costs. In support of the request for attorney fees, Globe 
+explained that it was seeking fees for “the legal work performed 
+for the successful litigation for (1) breach of contract, (2) breach of 
+warranty, (3) lien foreclosure, and (4) breach of implied covenant 
+of good faith and fair dealing.” Globe also included an attorney 
+fee affidavit that detailed the billing rates of the attorneys 
+involved and the time that each attorney spent on various tasks. 
+Of some note for this appeal, that affidavit (and, by extension, the 
+request) included many entries for travel time from southern Utah 
+to court proceedings in northern Utah where the trial was held. In 
+this application, Globe requested $72,066.00 in attorney fees. 
+¶26 
+In the request for costs, Globe asserted that it was entitled 
+to costs under rule 54 of the Utah Rules of Civil Procedure. In an 
+accompanying affidavit of costs, Globe’s attorneys itemized and 
+requested costs associated with filing fees, expert witness and 
+mediator fees, subpoena service, and transcripts, and they also 
+itemized and requested costs for such things as food for the 
+attorneys, flights, a VRBO housing rental, and other travel 
+expenses for the attorneys. Altogether, Globe sought $32,179.97 in 
+costs. 
+¶27 
+Without awaiting a response from Hour, the court issued a 
+judgment that awarded Globe the prejudgment interest, attorney 
+fees, and costs that it had requested. 
+
+Globe Contracting v. Hour 
+20240058-CA 
+12 
+2025 UT App 98 
+ 
+¶28 
+Hour promptly objected. He first argued that there was no 
+basis for awarding prejudgment interest under either Utah Code 
+section 15-1-1 or the contract. Hour also argued that the attorney 
+fee request was unreasonable because, among other things, it 
+contained duplicative entries, asked for fees relating to motions 
+that Globe did not prevail on, and requested fees for time that the 
+attorneys had spent traveling. Hour also argued that “[w]here the 
+parties’ evidentiary submissions in support of a request for 
+attorney fees are deficient, so will be the court’s evaluation of 
+those fees.” (Quoting Foote v. Clark, 962 P.2d 52, 56 (Utah 1998).) 
+Finally, with respect to costs, Hour argued that the request was 
+improper because it asked for costs that are not allowable under 
+rule 54 of the Utah Rules of Civil Procedure. 
+¶29 
+Globe soon filed a detailed response to Hour’s objections. 
+As part of this response, Globe added an additional justification 
+for its requests for prejudgment interest, attorney fees, and costs—
+namely, that these were all justified under Utah Code section 13-
+8-5, which Globe broadly contended was applicable to “all 
+construction contracts relating to construction work or 
+improvements.”7 (Quoting Utah Code § 13-8-5(2)(a).) Relying on 
+this statute, Globe “revised” its earlier request for prejudgment 
+interest and now sought the higher interest rate that it contended 
+was awardable under section 13-8-5. With respect to costs, Globe 
+argued that even if costs were limited under rule 54, the court had 
+“sound discretion” to award additional costs under section 13-8-
+5. And with respect to attorney fees, Globe contended that it was 
+entitled to attorney fees under both the parties’ contract and the 
+“statute,” in an apparent reference to section 13-8-5. Finally, Globe 
+contended that its request for attorney fees—including fees 
+associated with travel time—was reasonable. 
+ 
+7. In a subsequent filing, Globe said that, while preparing this 
+response, it had “discovered” that its earlier request for 
+prejudgment interest had inadvertently been based on section 15-
+1-1, as opposed to section 13-8-5. 
+
+Globe Contracting v. Hour 
+20240058-CA 
+13 
+2025 UT App 98 
+ 
+¶30 
+The parties then engaged in substantial litigation about the 
+prejudgment interest, attorney fees, and costs issues. In the course 
+of this litigation, the parties took starkly contrasting views of 
+whether section 13-8-5 applied to this case: Hour argued that the 
+statute did not apply because Globe had not complied with 
+certain requirements set forth therein, while Globe argued that it 
+did apply and was in fact “created to deter the exact harm 
+suffered by Globe.” 
+¶31 
+The court held a hearing on the various outstanding 
+motions. It subsequently issued a short order stating that it was 
+ruling in Globe’s favor based on “the arguments made at the 
+hearing” and in “the briefing.” The court later issued an amended 
+judgment that expressly awarded prejudgment interest pursuant 
+to section 13-8-5, seemed to link the award of attorney fees and 
+costs to that statute as well, and now included additional time that 
+Globe’s attorneys had spent litigating the posttrial motions. This 
+award included the following: 
+• $61,901.92 in damages; 
+• $108,798.14 in prejudgment interest; 
+• $98,531.00 in attorney fees; and 
+• $32,179.97 in costs.  
+ISSUES AND STANDARDS OF REVIEW 
+¶32 
+On appeal, Hour first argues that the district court erred in 
+concluding that he breached the contract when he stopped paying 
+the progress payments. As detailed below, the arguments 
+presented on appeal involve the interpretation of the contract and 
+a review of the district court’s findings regarding the alleged 
+breaches. “The interpretation of a contract is a question of law, 
+which we review for correctness, giving no deference to the ruling 
+
+Globe Contracting v. Hour 
+20240058-CA 
+14 
+2025 UT App 98 
+ 
+of the district court.” Richman & Richman LLC v. Redmond, 2023 UT 
+App 158, ¶ 18, 542 P.3d 130 (quotation simplified). “Whether a 
+party performed under a contract or breached a contract is a 
+question of fact,” iDrive Logistics LLC v. IntegraCore LLC, 2018 UT 
+App 40, ¶ 43, 424 P.3d 970, and the district court’s fact findings 
+“enjoy a high degree of deference” and will be “overturned only 
+when clearly erroneous,” Randolph v. State, 2022 UT 34, ¶ 18, 515 
+P.3d 444 (quotation simplified).  
+¶33 
+Second, Hour argues that the district court’s damages 
+calculation was not supported by the evidence. “The award of 
+damages is a factual determination that we review for clear error.” 
+Saleh v. Farmers Ins. Exch., 2006 UT 20, ¶ 29, 133 P.3d 428. 
+¶34 
+Third, Hour argues that the district court erred in 
+determining that Globe was entitled to prejudgment interest and 
+costs. As a general matter, a district court’s “decision to award 
+prejudgment interest presents a question of law which we review 
+for correctness.” Encon Utah, LLC v. Fluor Ames Kraemer, LLC, 2009 
+UT 7, ¶ 11, 210 P.3d 263 (quotation simplified). As indicated, the 
+awards of both prejudgment interest and costs were based on the 
+court’s conclusion that Utah Code section 13-8-5 applied. 
+“Matters of statutory construction are questions of law that are 
+reviewed for correctness.” Id. (quotation simplified).8 
+ 
+8. Costs awards are generally “reviewed under an abuse of 
+discretion standard.” Jensen v. Sawyers, 2005 UT 81, ¶ 140, 130 P.3d 
+325 (quotation simplified). But “legal errors, such as the incorrect 
+interpretation of a statute or the application of an improper legal 
+standard, are usually an abuse of discretion,” Hillam v. Hillam, 
+2024 UT App 102, ¶ 26, 554 P.3d 1137 (quotation simplified), and 
+it’s axiomatic that legal errors are reviewed for correctness, see 
+ASC Utah, Inc. v. Wolf Mountain Resorts, LC, 2013 UT 24, ¶ 23, 309 
+P.3d 201. As discussed below, we conclude that the costs award 
+in this case was based on an incorrect interpretation of a statute, 
+(continued…) 
+
+Globe Contracting v. Hour 
+20240058-CA 
+15 
+2025 UT App 98 
+ 
+¶35 
+Finally, Hour argues that the district court awarded Globe 
+unreasonable attorney fees. As our supreme court has explained:  
+Attorney fees are awarded only when authorized by 
+statute or by contract. The award of attorney fees is 
+a matter of law, which we review for correctness. 
+However, a trial court has broad discretion in 
+determining what constitutes a reasonable fee, and 
+we will consider that determination against an 
+abuse-of-discretion standard. The standard of 
+review on appeal of the amount of a trial court’s 
+award of attorney fees is patent error or clear abuse 
+of discretion. 
+Jensen v. Sawyers, 2005 UT 81, ¶ 127, 130 P.3d 325 (quotation 
+simplified). 
+ANALYSIS 
+I. Breach of Contract 
+¶36 
+As noted, Globe sued Hour for breach of contract, and 
+Hour then counterclaimed, asserting that he was justified in 
+stopping payments by Globe’s own breaches of the contract. At 
+the close of trial, the district court ruled in Globe’s favor.  
+¶37 
+On appeal, Hour does not challenge the district court’s 
+finding that he did not pay the “July 2016, August 2016, and 
+September 2016 pay applications,” nor does he challenge its 
+conclusion that, without justification, his nonpayments would 
+have been a “material breach” of the contract. Instead, as he did 
+ 
+as opposed to a discretionary decision about how much in costs 
+to award under an applicable rule, so we regard the portion of the 
+ruling that we’re reviewing as being one that’s initially reviewed 
+for correctness. 
+
+Globe Contracting v. Hour 
+20240058-CA 
+16 
+2025 UT App 98 
+ 
+below, Hour argues that he was justified in his nonpayments 
+because of Globe’s own breaches of the contract. More 
+specifically, Hour claims that by the time he stopped paying, 
+Globe had already breached in four ways: (A) performing 
+defective work; (B) failing to timely pay subcontractors; (C) failing 
+to timely complete the project; and (D) hiring an unlicensed 
+subcontractor.  
+¶38 
+As indicated, “defective” work and failing to make 
+“prompt and proper payments” to subcontractors were two of the 
+four conditions set forth in the contract that would allow Hour to 
+“withhold” the progress payments. The remaining two 
+justifications that Hour advances on appeal (not timely 
+completing the project and hiring an unlicensed subcontractor) 
+were not included in that list. As a result, Hour invokes what has 
+sometimes been referred to as the “first breach rule.” Under that 
+rule, “when one party materially breaches a provision of a 
+contract, the other party’s subsequent failure to perform a specific 
+obligation is excused if the promises are mutually dependent.” 
+Larson v. Stauffer, 2022 UT App 108, ¶ 26, 518 P.3d 175 (quotation 
+simplified); see also Cross v. Olsen, 2013 UT App 135, ¶ 25, 303 P.3d 
+1030 (“Under the first breach rule a party first guilty of a 
+substantial or material breach of contract cannot complain if the 
+other party thereafter refuses to perform.” (quotation simplified)). 
+Hour thus argues that because “the undisputed evidence shows 
+Globe breached first,” he was entitled to stop paying his 
+obligations under the contract.  
+A.  
+Defective Work 
+¶39 
+Hour first argues that Globe breached the contract “by 
+performing noncompliant and defective work.” But the court took 
+evidence on this very issue throughout trial. In its ruling, the court 
+found that the workmanship issues Hour pointed to at trial did 
+not “arise until September 22, 2016, months after Hour decided to 
+withhold payment,” that Hour had not notified Globe of his 
+complaints until that same date, and that Hour still believed the 
+
+Globe Contracting v. Hour 
+20240058-CA 
+17 
+2025 UT App 98 
+ 
+project “was substantially complete by September 28.” The court 
+further found that, even if the alleged problems did “require[] 
+correction,” “Hour never gave Globe the ability to correct any 
+problems” related to the allegedly defective work “and therefore 
+was not justified in withholding the progress payments” on this 
+basis. 
+¶40 
+Hour challenges these findings on appeal, pointing to 
+evidence that, in his view, shows that the work was defective 
+before he stopped payments and that he gave Globe the 
+opportunity to remedy it. But in advancing these challenges, Hour 
+does not first marshal the evidence supporting the court’s 
+findings, much less account for that evidence. “A party 
+challenging a district court’s factual findings on appeal bears a 
+heavy burden of persuasion in demonstrating that the court’s 
+findings are clearly erroneous.” Pankhurst v. Pankhurst, 2022 UT 
+App 36, ¶ 15, 508 P.3d 612 (quotation simplified). The marshaling 
+obligation is properly understood as “a natural extension of an 
+appellant’s burden of persuasion.” State v. Nielsen, 2014 UT 10, 
+¶¶ 40–41, 326 P.3d 645, superseded by statute on other grounds as 
+recognized in State v. Richins, 2025 UT 10, 568 P.3d 1046. And a 
+party that is challenging a fact finding “will almost certainly fail 
+to carry its burden of persuasion on appeal if it fails to marshal 
+and respond to evidence or authority that could sustain the 
+decision under review.” In re Discipline of LaJeunesse, 2018 UT 6, 
+¶ 28, 416 P.3d 1122 (quotation simplified).  
+¶41 
+This was a complicated case that raised a host of fact-
+intensive issues and resulted in a lengthy record. Because Hour 
+failed to comply with his marshaling obligations, we conclude 
+that he failed to satisfy his burden of persuading us that, in light 
+of the whole record (as opposed to the evidence that supported 
+his view of things), the findings recounted above were clearly 
+erroneous. And accepting those findings as true, we see no basis 
+for concluding that, on account of defective workmanship, Hour 
+was justified in withholding payment for the July pay application 
+or those that followed, given that evidence shows that the issues 
+
+Globe Contracting v. Hour 
+20240058-CA 
+18 
+2025 UT App 98 
+ 
+did not arise until later and Hour had not provided Globe with 
+the opportunity to remedy the problems. We therefore reject this 
+claim.  
+B.  
+Payment to Subcontractors 
+¶42 
+Under the contract, Globe was required to “provide and 
+pay for all labor, materials, . . . and other services necessary for the 
+proper completion of work on the project in accordance with the 
+contract documents.” As indicated, one of the four conditions by 
+which Hour could withhold progress payments was a failure by 
+Globe to “make prompt and proper payments” to a subcontractor. 
+On appeal, Hour argues that Globe breached the contract by 
+failing to pay some of its subcontractors, thus justifying his 
+decision to stop paying. 
+¶43 
+As an initial matter, we note that the district court did not 
+specifically find, in its findings of fact and conclusions of law, that 
+Globe had not breached in this regard. But even so, “unstated 
+findings can be implied” if “it is reasonable to assume” that the 
+district court “actually considered the controverted evidence and 
+necessarily made a finding to resolve the controversy, but simply 
+failed to record the factual determination it made.” In re A.S., 2024 
+UT App 52, ¶ 20 n.6, 548 P.3d 181 (quotation simplified), cert. 
+denied, 554 P.3d 988 (Utah 2024); see also State v. Stewart, 2019 UT 
+39, ¶ 27, 449 P.3d 59 (noting that the supreme court has 
+“occasionally endorsed the propriety of a regime” in which an 
+appellate court may “assume that the trier of facts found facts in 
+accord with its decision despite the absence of express findings of 
+fact” (quotation simplified)). Here, it is reasonable to assume that 
+the district court impliedly found that Globe did not breach in this 
+regard. After all, Hour pleaded this issue in his counterclaim and 
+presented evidence on it at trial. At the close of trial, the district 
+court resolved the case through its mutually reinforcing 
+conclusions that (1) Hour breached and (2) Hour’s breach was not 
+justified by any breach from Globe. Moreover, after Hour again 
+raised the issue relating to nonpayment of subcontractors in his 
+
+Globe Contracting v. Hour 
+20240058-CA 
+19 
+2025 UT App 98 
+ 
+posttrial motion to amend, Globe’s response was that Hour was 
+attempting to “relitigate issues” that “were already ruled on by 
+the [c]ourt.” When the district court later denied that motion, it 
+did so based on its decision to “adopt[] the arguments” from the 
+parties. From all this, we think it clear enough that the district 
+court impliedly found that Globe did not breach by failing to pay 
+subcontractors.  
+¶44 
+So viewed, the record does not support Hour’s assertion 
+that he was justified in stopping payments based on any failure 
+by Globe to pay a subcontractor. To the contrary, the evidence 
+presented at trial showed that one of the particular subcontractors 
+in question didn’t even send an invoice for its work until August 
+24, 2016, and it further showed that Globe would have paid this 
+subcontractor out of the payment that was due to it at the end of 
+August, which, again, Hour never made. As Globe succinctly puts 
+it in its brief, it could not “pay subcontractors when Hour did not 
+pay Globe.” And it further shows that Globe did pay the other 
+subcontractors identified by Hour. 
+¶45 
+We therefore see no basis for concluding that, at the time 
+that Hour stopped paying, Globe had already materially breached 
+the contract by not paying any of the subcontractors.  
+C.  
+Timely Completion 
+¶46 
+ Hour next argues that by the time he stopped paying, 
+Globe had materially breached the contract by not timely 
+completing the building. As indicated, this seems to have been 
+the principal argument Hour made at trial. But at the close of 
+trial, the court rejected this argument for two reasons: first, it 
+held that Globe was not required to complete the project by July 
+2016, particularly given that time was not of the essence for 
+purposes of this contract; second, the court held that even if time 
+was of the essence, Globe had not violated its obligations at the 
+time that Hour stopped paying because the delays were 
+attributable to both weather and Hour’s own actions (namely, 
+
+Globe Contracting v. Hour 
+20240058-CA 
+20 
+2025 UT App 98 
+ 
+Hour’s change orders). We see no basis for overturning either 
+determination.  
+¶47 
+First, Hour challenges the court’s conclusion that time was 
+not of the essence for purposes of this contract. Hour 
+acknowledges that there was no such clause in the contract. But 
+he nevertheless points out that in Barker v. Francis, our supreme 
+court held that, even without such a clause, “the circumstances 
+surrounding the transaction can imply that the parties intended 
+timeliness of performance to be of paramount concern.” 741 P.2d 
+548, 552 (Utah 1987). 
+¶48 
+It’s not clear to us that Barker is as applicable here as Hour 
+claims it is. Barker involved a real estate purchase contract. Id. at 
+550. And we have since distinguished several time-of-the-essence 
+cases, in part, by noting that, like Barker, they involved the 
+“limited circumstances of a real estate escrow transaction.” iDrive 
+Logistics LLC v. IntegraCore LLC, 2018 UT App 40, ¶ 58 n.12, 424 
+P.3d 970. Hour has not pointed to any authority that arose outside 
+of the context of real estate contracts that allowed courts to imply 
+that time was of the essence. 
+¶49 
+Moreover, some authorities suggest that courts generally 
+do not imply that time was of the essence in the particular context 
+of construction contracts. See, e.g., 13 Am. Jur. 2d Building and 
+Construction Contracts § 49 (2025) (“As a general rule, time is not 
+of the essence of a building or construction contract in the absence 
+of a provision in the contract making it so; the mere statement of 
+a date in such a contract does not make time of the essence.”). As 
+explained by one respected treatise, because “[d]elays are 
+common in construction and building contracts for many 
+reasons,” “time is not ordinarily of the essence of a building or 
+construction contract,” and “[t]his rule holds true even where the 
+parties have expressly agreed to a specific time of performance in 
+their contract and even, according to some courts, where there is 
+a nonnegotiated boilerplate clause in the contract providing that 
+
+Globe Contracting v. Hour 
+20240058-CA 
+21 
+2025 UT App 98 
+ 
+time is of the essence.” 15 Williston on Contracts § 46:7 (4th ed. 
+2024).  
+¶50 
+Regardless, we have no need here to definitively determine 
+whether it can ever be legally possible to imply, from 
+circumstances alone, that time was of the essence for a particular 
+construction contract. This is so because we see no basis for 
+reversing the district court’s conclusion that it was not of the 
+essence here. Hour points to two circumstances that, in his view, 
+made time of the essence: (1) testimony suggesting that the lease 
+for the office building that he was using during the construction 
+was set to expire in October 2016, and (2) testimony that the 
+contractor he hired to replace Globe was aware of his anticipated 
+October 2016 move-in date. But Hour points to no testimony or 
+evidence showing that Globe was aware that Hour had to move 
+out of his prior building by October 2016, let alone testimony 
+showing that Globe was aware of this when the parties negotiated 
+the contract. Without such testimony or evidence, we see no basis 
+for concluding that there was a meeting of the minds on this 
+implied term. And in light of this, we cannot conclude that the 
+district court erred when it declined to recognize this as an 
+implied term.  
+¶51 
+Second, we also see no basis for reversing the district 
+court’s conclusion that, even if the 210-day provision could be 
+interpreted as a material provision, Globe did not breach 
+its obligations. As noted, with regard to the 210-day provision, 
+the 
+contract 
+expressly 
+provided 
+that 
+Globe’s 
+timing 
+obligations could be “extended by a change order” by Hour, 
+or instead when Globe was “delayed in work progress by 
+changes ordered” or by “weather.” In its ruling, the court 
+expressly held that, at the time that Hour stopped paying, the 
+delays in the project were attributable to both weather and 
+“change orders by Hour,” these delays “were not the fault of 
+Globe,” and “the date of substantial completion was extended to 
+November 29, 2016.”  
+
+Globe Contracting v. Hour 
+20240058-CA 
+22 
+2025 UT App 98 
+ 
+¶52 
+Hour challenges these determinations on appeal. But in 
+doing so, he fails to marshal the evidence supporting the court’s 
+findings about the weather delays—indeed, although this was 
+one of the district court’s express justifications for rejecting Hour’s 
+timing-related argument, the word “weather” appears just a 
+single time in Hour’s opening brief, and when it does, it’s in a 
+passing reference to the court’s ruling. Hour also fails to marshal 
+the evidence showing that Globe’s delays were attributable to his 
+own change orders. Regardless, we note that, marshaling 
+problems 
+aside, 
+there 
+was 
+evidence 
+to 
+support 
+both 
+determinations. At trial, there was testimony and evidence about 
+the weather associated delays, including “abnormally cold 
+weather below freezing” in December and January that 
+“prevent[ed] work” on nine days, as well as “rain fall and 
+subsequent mud in January to April [that] delayed the 
+construction 21 working days.” There was also substantial 
+testimony about Hour’s change orders during the project, 
+including, of note, in June and July 2016. In addition, Globe also 
+called a construction expert at trial, who opined that based on the 
+various delays, which were “outside of [Globe’s] control,” the 
+revised substantial completion date for construction was 
+“November 29, 2016.” The district court appears to have credited 
+this testimony. 
+¶53 
+As a result, on the basis of this record and the arguments 
+presented to us, we are not persuaded that the court erred in its 
+determination that, at the time Hour stopped paying, Globe was 
+justified in the delays and therefore had not breached the contract. 
+D.  
+Unlicensed Subcontractor  
+¶54 
+Under one of the terms of the contract, Globe “agree[d] not 
+to employ for work on the project any person unfit or without 
+sufficient skill to perform the job for which he or she was 
+employed.” At trial, the district court heard evidence that one of 
+the subcontractors who worked on the project did not “have a 
+license at the time of the construction.” The court also heard 
+
+Globe Contracting v. Hour 
+20240058-CA 
+23 
+2025 UT App 98 
+ 
+evidence suggesting that this subcontractor previously had a 
+“license for 20 years,” but the license had “expired” at some prior 
+point, and the court further heard evidence that Globe discovered 
+this “a little bit after” the work in question had been performed. 
+¶55 
+As with the issue relating to the nonpayment of 
+subcontractors, the district court did not specifically address this 
+in its findings of fact and conclusions of law. But for the same 
+reasons given above relating to that issue, we think it reasonable 
+to assume that the court impliedly found that Globe did not 
+breach in this regard. Again, the issue was tried and submitted to 
+the court, and the court’s ruling was premised on the reinforcing 
+notions that Hour had breached but Globe did not. 
+¶56 
+Contrary to the assertions advanced by Hour on appeal, we 
+see no basis for overturning the court’s implied determination 
+that Globe did not breach in this regard. This is so for two reasons.  
+¶57 
+First, we see no indication from this contract that this was 
+a breach. As indicated, the clause in question did not require all 
+subcontractors to have a “license.” Rather, it prohibited Globe 
+from employing subcontractors who were “unfit” and “without 
+sufficient skill.” Those terms were not further defined, and Hour 
+has not pointed to any evidence suggesting that the parties ever 
+agreed that these terms referred to a subcontractor’s licensing 
+status. If Hour had wanted to insist that all subcontractors must 
+be “licensed,” he could have negotiated that as a term of the 
+contract. Because he didn’t, “we decline to read such language 
+into the contract now.” Airstar Corp. v. Keystone Aviation LLC, 2022 
+UT App 73, ¶ 57, 514 P.3d 568; see also Bakowski v. Mountain States 
+Steel, Inc., 2002 UT 62, ¶ 19, 52 P.3d 1179 (“We will not make a 
+better contract for the parties than they have made for 
+themselves.”). 
+¶58 
+Second, we also note that the first breach rule is not 
+triggered by just any breach of the contract. Rather, it becomes 
+operative when the other party is “guilty of a substantial or 
+
+Globe Contracting v. Hour 
+20240058-CA 
+24 
+2025 UT App 98 
+ 
+material breach of contract,” Cross, 2013 UT App 135, ¶ 25 
+(quotation simplified), and “the promises are mutually 
+dependent,” Larson, 2022 UT App 108, ¶ 26 (quotation simplified).  
+¶59 
+On appeal, Hour points to a provision in the Utah 
+Construction Trades Licensing Act that requires contractors to be 
+licensed. And he likewise points to our decision in State v. Bohne, 
+where, in conjunction with a criminal prosecution of a contractor 
+for operating without a license, we held that the “legislative 
+purpose for the Construction Trades Licensing Act is to protect 
+the public from inept and financially irresponsible builders.” 2001 
+UT App 11, ¶ 11, 18 P.3d 514 (quotation simplified). We have no 
+quarrel here with the propositions that contractors and 
+subcontractors alike must comply with applicable licensing rules 
+and that any failure to do so can subject them to applicable 
+penalties. But this appeal does not involve a challenge to the 
+subcontractor’s licensing status, nor does it involve any discipline 
+that was or should have been imposed on Globe for unwittingly 
+employing an unlicensed subcontractor. Rather, this is an appeal 
+from a breach of contract action, and the more particular question 
+in front of us is whether it was somehow a material breach of the 
+contract for Globe to employ an unlicensed subcontractor.  
+¶60 
+While the record on this is somewhat sparse, it does 
+indicate that Hour was not even aware of the problem with the 
+subcontractor’s license until after he had stopped paying, and 
+while the record indicates that the subcontractor’s license had 
+lapsed, it does not indicate that this was due to some problem of 
+skill (as opposed to being for something like nonpayment of fees). 
+Having considered the matter, it seems to us that if the work 
+performed by the subcontractor was substandard in some 
+important way, this could have supported a claim of material 
+breach for defective work. As discussed above, however, Hour 
+has not persuaded us that there were any such problems of 
+workmanship at the time that he stopped paying. And Hour has 
+not separately persuaded us that the licensing status of the 
+subcontractors itself was so important to the parties that it would 
+
+Globe Contracting v. Hour 
+20240058-CA 
+25 
+2025 UT App 98 
+ 
+be a material breach of the contract for Globe to employ an 
+unlicensed subcontractor (even if the subcontractor was 
+otherwise providing capable work), particularly where the parties 
+didn’t think to include any language about the licensing status of 
+the subcontractors in the contract at all. Nor has he persuaded us 
+that his obligation to pay the monthly progress payments was in 
+any way “mutually dependent” on any unspoken understanding 
+that the subcontractors would have active licenses (as opposed to 
+simply being fit and capable of performing the work for which 
+they had been hired). 
+¶61 
+We therefore decline to reverse the judgment on this basis. 
+And because we have rejected each of Hour’s other challenges to 
+the court’s conclusion that he was liable for breach of contract, we 
+affirm that decision.9  
+II. Damages 
+¶62 
+Hour next challenges the damages award, arguing that it 
+was flawed in two respects: first, Hour claims that Globe did not 
+lay a sufficient foundation for the revised estimate that it 
+submitted during the 2023 portion of the trial; and second, Hour 
+claims that there was insufficient evidence to support the ultimate 
+award. We disagree on both fronts. 
+¶63 
+First, Hour claims that the revised damages estimate was 
+inadmissible under rule 1006 of the Utah Rules of Evidence 
+because Globe did not call “a competent witness to establish the 
+ 
+9. Hour also argues that the district court erred in concluding that 
+he breached the covenant of good faith and fair dealing. In doing 
+so, Hour repeats the same arguments he made relating to the 
+breach of contract claim. Put differently, Hour simply contends 
+that because he did not breach the contract, he likewise did not 
+breach the covenant of good faith and fair dealing either. We reject 
+this argument for the same reasons that we rejected Hour’s 
+arguments relating to the breach of contract itself.  
+
+Globe Contracting v. Hour 
+20240058-CA 
+26 
+2025 UT App 98 
+ 
+necessary foundation for the summary and the underlying 
+records.” (Quoting Sunridge Dev. Corp. v. RB & G Eng’g, Inc., 2013 
+UT App 146, ¶ 20, 305 P.3d 171.) But as noted above, Hour’s 
+counsel affirmatively stipulated that Globe could submit the 
+revised estimate at trial. And in context, it seems that the point of 
+this stipulation was to relieve Globe of the necessity of going 
+through certain steps such as calling a foundational witness. Hour 
+has provided us with no legal basis for relieving him of this 
+stipulation. In light of it, we reject his assertion that Globe was 
+required to call a foundational witness before submitting the 
+revised damages estimate. 
+¶64 
+Second, Hour argues that, even if the revised estimate 
+could be submitted, the district court erred in basing its damages 
+award on it. Hour claims that Globe’s submission was nothing 
+more than an “incomplete estimate of costs.” By contrast, he 
+claims that he provided the court with “reasonably certain” lists 
+of “expenses” and “offsets.” In his view, because his evidence was 
+more precise than Globe’s, the court should have based the 
+damages award on his evidence, not Globe’s.  
+¶65 
+But as we’ve recently explained, “a district court can rely 
+on estimates in awarding damages if the estimate is the most 
+direct, practical and accurate method that can be employed.” 
+Capozzoli v. Madden, 2024 UT App 176, ¶ 29, 561 P.3d 727 
+(quotation simplified). Moreover, in cases like this one, our 
+appellate courts have recognized that the district court is 
+empowered to decide what evidence to accept and what amount 
+is necessary to make the plaintiff whole. See, e.g., Bevan v. J.H. 
+Constr. Co., 669 P.2d 442, 444 (Utah 1983) (“[T]he general rule of 
+damages . . . arms the trial court with the discretion to place the 
+litigants as nearly as possible in the position they would have 
+enjoyed had the contract not been breached.”); Wagstaff v. Remco, 
+Inc., 540 P.2d 931, 934 (Utah 1975) (“The fact that [the defendant] 
+may have actually spent the money on some of these accounts for 
+labor and materials does not necessarily compel a finding that it 
+is entitled to reimbursement therefor. It is only entitled to 
+
+Globe Contracting v. Hour 
+20240058-CA 
+27 
+2025 UT App 98 
+ 
+reimbursement, and offset on the account, for whatever the trial 
+court believed upon competent evidence was the reasonable and 
+necessary amount for such labor and materials.”); see also 
+Yelderman v. Yelderman, 669 P.2d 406, 408 (Utah 1983) (noting that 
+“it is within the province of the fact finder to believe those 
+witnesses or evidence it chooses”); Knowlton v. Knowlton, 2023 UT 
+App 16, ¶¶ 59 n.13, 63, 525 P.3d 898 (noting that a district court 
+“is in the superior position to assess the weight of evidence” and, 
+in the context of a domestic case, affording discretion to district 
+courts in deciding which valuation of property to accept). And we 
+again note that the “award of damages is a factual determination 
+that we review for clear error.” Saleh v. Farmers Ins. Exch., 2006 UT 
+20, ¶ 29, 133 P.3d 428.  
+¶66 
+Here, the parties clearly disagreed about how much Globe 
+should be awarded in damages. But, by virtue of the stipulation, 
+Globe’s revised damages estimate was admissible. With that in 
+evidence, Hour has provided us with no persuasive support for 
+his assertion that the district court could not choose to credit it. 
+We therefore are not persuaded that the damages award was 
+clearly erroneous.  
+III. Prejudgment Interest and Costs 
+¶67 
+In its amended judgment, the district court awarded Globe 
+both prejudgment interest and costs pursuant to Utah Code 
+section 13-8-5. Hour now challenges those awards. In our view, 
+section 13-8-5 was inapplicable to this case, so we reverse those 
+awards and remand for further proceedings consistent with our 
+directions below.10 
+ 
+10. The court initially awarded both costs and attorney fees “as 
+provided by the [c]ontract and Utah Statute.” As will be discussed 
+in Part IV, there was a basis in the contract for an award of 
+attorney fees, so we separately address the attorney fee award 
+(continued…) 
+
+Globe Contracting v. Hour 
+20240058-CA 
+28 
+2025 UT App 98 
+ 
+A.  
+The Section 13-8-5 Scheme 
+¶68 
+Utah Code section 13-8-5 has received very little treatment 
+in the caselaw. It has been cited in only two decisions, both of 
+which came from federal district courts (and one of which was 
+unpublished). See Industrious Service Group, Inc. v. Henry F. 
+Teichmann, Inc., No. 23-cv-00389, 2023 WL 6444049, at *1 (D. Utah 
+Oct. 3, 2023); Cross Marine Projects, Inc. v. Morton Salt, Inc., 396 F. 
+Supp. 3d 1037, 1039 (D. Utah 2019). It has not yet been cited by 
+any Utah appellate decision.  
+¶69 
+But having considered the matter here, we conclude that 
+this statute simply does not apply in this case and therefore could 
+not be used as the legal justification for an award of either 
+prejudgment interest or costs. To explain why, we think it 
+instructive to first discuss how this statute operates as a whole. 
+After all, when we interpret a statutory provision, we do so “in 
+light of its linguistic, structural, and statutory context,” and we 
+also consider the provision “in the context of the overall statutory 
+scheme.” Utah Am. Energy Inc. v. Labor Comm’n, 2021 UT App 33, 
+¶ 15, 484 P.3d 1195 (quotation simplified); see also Orten v. Utah 
+County, 2024 UT App 132, ¶ 28, 558 P.3d 900 (noting that “when 
+interpreting statutory schemes, Utah courts often apply the 
+whole-text canon, which calls on the judicial interpreter to 
+consider the entire text, in view of its structure and of the physical 
+and logical relation of its many parts” (quotation simplified)).  
+¶70 
+Section 13-8-5 applies to “all construction contracts relating 
+to construction work or improvements entered into on or after 
+July 1, 1999,” between various kinds of construction-related 
+entities. Utah Code § 13-8-5(2)(a). And the statute is largely 
+ 
+there. But because there was not a provision in the contract 
+entitling either party to an award of costs, Globe’s request for the 
+costs award needed to instead be justified by either a statute or a 
+rule. As indicated, the only statute the court ultimately pointed to 
+in support of the costs award was Utah Code section 13-8-5. 
+
+Globe Contracting v. Hour 
+20240058-CA 
+29 
+2025 UT App 98 
+ 
+structured around provisions from contracts relating to “retention 
+proceeds”—that term or some variant thereof appears repeatedly 
+throughout the statute, and as a function of both substance and 
+even grammar, it’s the lynchpin to understanding the statute’s 
+various terms. Of note, the term “retention proceeds” is 
+statutorily defined in subsection 13-8-5(1)(i) as being the “money 
+earned by a contractor or subcontractor but retained by the owner 
+or public agency pursuant to the terms of a construction contract 
+to guarantee payment or performance by the contractor or 
+subcontractor of the construction contract.” Id. § 13-8-5(1)(i) 
+(emphases added).  
+¶71 
+Section 13-8-5 has eleven subparts. For purposes of 
+understanding why this statute is inapplicable to this case, the key 
+parts of the scheme are these:  
+• Subsection (3) places certain limits on the amount of 
+retention proceeds that can be withheld—namely, the 
+“total retention proceeds withheld may not exceed 5% of 
+the total construction price.” Id. § 13-8-5(3)(b).  
+• Subsection (4) states that if “payment on a contract . . . is 
+retained or withheld . . . as retention proceeds, it shall be 
+placed in an interest-bearing account and accounted for 
+separately from other amounts paid under the contract.” 
+Id. § 13-8-5(4)(a). Subsection (4) then states that the 
+interest accrued on these retention proceeds must be “for 
+the benefit of the contractor and subcontractors” and 
+must be “paid after the project is completed and accepted 
+by the owner.” Id. § 13-8-5(4)(b)(i)–(ii). And it further 
+states that the retention proceeds and interest “are 
+considered to be in a constructive trust for the benefit of 
+the contractor and subcontractors who have earned the 
+proceeds.” Id. § 13-8-5(4)(d)(i).  
+• Subsection (5) states that “[a]ny retention proceeds 
+retained or withheld pursuant to this section and any 
+
+Globe Contracting v. Hour 
+20240058-CA 
+30 
+2025 UT App 98 
+ 
+accrued interest shall be released pursuant to a billing 
+statement from the contractor” within 45 days of certain 
+defined events relating to the completion of the project. 
+Id. § 13-8-5(5). 
+• Subsection (7) states that the billing statement referred to 
+in subsection (5) must “include documentation of lien 
+releases or waivers.” Id. § 13-8-5(7).  
+• Finally, subsection (10)—which is the provision that the 
+district court ultimately invoked below—states that “[i]n 
+any action for the collection of the retained proceeds 
+withheld and retained in violation of this section, the 
+successful party is entitled to: (i) attorney fees; and 
+(ii) other allowable costs.” Id. § 13-8-5(10)(a). 
+¶72 
+Taken as a whole, section 13-8-5 thus sets forth a detailed 
+scheme under which, pursuant to the terms of a construction 
+contract, a party can retain certain funds, in certain amounts, 
+under certain delineated circumstances, and for the specific 
+purpose of guaranteeing performance by the other side. This 
+statute then contemplates that these retained funds will be released 
+to the contractor once work is completed. In this sense, this statute 
+essentially sets forth something of an escrow scheme for 
+construction contracts. Indeed, the title of the statute itself refers 
+to the creation of an “interest-bearing escrow account.”11  
+ 
+11. “We recognize that the title of a statute is not part of the text 
+of a statute, and absent ambiguity, it is generally not used to 
+determine a statute’s intent.” Clean Harbors Env’t Services v. Labor 
+Comm’n, 2019 UT App 52, ¶ 14 n.2, 440 P.3d 916 (quotation 
+simplified). That said, even if a statute is not ambiguous, courts 
+will sometimes note the title of a statute when it “is entirely 
+consistent with the plain meaning of the text.” Id. In such a 
+circumstance, the title essentially functions as something of a 
+(continued…) 
+
+Globe Contracting v. Hour 
+20240058-CA 
+31 
+2025 UT App 98 
+ 
+B.  
+The Applicability of Section 13-8-5 to This Case 
+¶73 
+Again, the district court awarded prejudgment interest and 
+costs under Utah Code section 13-8-5(10). In the parties’ initial 
+briefs on appeal, each party claimed that the other party failed to 
+take certain steps required by this statute. In his opening brief, 
+Hour faulted Globe for not providing him with “a complete 
+billing statement containing ‘lien releases or waivers’” as required 
+by section 13-8-5(7). In its responsive brief, Globe asserted that it 
+wasn’t required to submit a billing statement (or the 
+accompanying lien releases and waivers) because Hour had 
+“retained” more money than he was allowed under subsection 
+(3), and, perhaps more importantly, because Hour never put the 
+money in an interest-bearing account as required by subsection 
+(4). In his reply brief, Hour did not claim that Globe was mistaken 
+on these assertions; instead, Hour accepted them, and he then 
+asserted that these collective failures illustrate why Globe has “no 
+claim to prejudgment interest” or costs under this statute at all. 
+As discussed, this was the view Hour took below as well. 
+¶74 
+We agree with Hour that the statute did not apply to the 
+claims at issue in this case. Globe’s position seems to assume that 
+this statute is operative whenever a party to a construction-related 
+contract stops paying the contractor. But the plain language and 
+structure of the statute both belie this broad assertion. Instead, 
+they show that this statute is targeted at something more specific. 
+As discussed, this statute applies when money that is “earned by 
+a contractor” is “retained” in specifically defined amounts 
+“pursuant to the terms of a construction contract” in order “to 
+guarantee payment or performance,” when the owner places that 
+money in a specific kind of account that functions as a 
+“constructive trust for the benefit of the contractor,” and when it’s 
+ 
+corroborative data point. Here, we believe that the reference in the 
+title of this statute to an “interest-bearing escrow account” is 
+corroborative of the various provisions from the statutory text 
+that we’ve laid out. 
+
+Globe Contracting v. Hour 
+20240058-CA 
+32 
+2025 UT App 98 
+ 
+contemplated that this money will be “released” to the contractor 
+at the conclusion of the project pursuant to a defined process that 
+includes billing statements and lien releases or waivers. Id. § 13-8-
+5(1)(i), (3), (4)(a), (4)(d)(i), (5), (7). When this kind of contractual 
+provision relating to the retention of funds has been invoked, and 
+there is a subsequent “action for the collection of the retained 
+proceeds withheld and retained in violation of this section,” the 
+statute allows the “successful party” to receive an award of 
+prejudgment interest, attorney fees, and costs. Id. § 13-8-5(10)(a)–
+(b). 
+¶75 
+But no party has alleged that any of these predicates 
+occurred here. When Hour stopped paying the monthly progress 
+payments, he didn’t purport to “retain” the proceeds “pursuant 
+to the terms of the construction contract,” nor did he ever put the 
+“earned” monies into an interest-bearing account that would be 
+for the benefit of Globe once the project was completed. Rather, at 
+all relevant times in this case, Hour informed Globe of his intent 
+to terminate the contract. He initially did so in both the June and 
+July 2016 letters. And while he then apparently changed his mind 
+and gave Globe until September, he then officially “terminated” 
+the contract at the end of that month. It seems to be for precisely 
+this reason that Globe never submitted billing statements 
+accompanied by lien releases and waivers—Globe wouldn’t have 
+thought it needed to do so, because Hour had never claimed that 
+he was retaining funds pursuant to this statutory scheme at all. 
+Instead, Hour’s position had simply been that he could terminate 
+the contract because Globe had already breached it. Simply put, 
+terminating a contract outright is not the same thing as putting 
+funds into an escrow account pursuant to a process that is defined 
+by contract and regulated by statute for the purpose of ensuring 
+continued performance under the continued existence of that 
+contract.  
+¶76 
+We therefore agree with Hour’s assertion that the kinds of 
+claims that were litigated in this case weren’t covered by the 
+scheme set forth in section 13-8-5. Rather, because the claims that 
+
+Globe Contracting v. Hour 
+20240058-CA 
+33 
+2025 UT App 98 
+ 
+were litigated were essentially traditional breach of contract 
+claims, the remedies that Globe received when it prevailed 
+needed to be based on some source of authority other than this 
+statute.  
+¶77 
+As a result, the district court erred when it awarded 
+prejudgment interest and costs under section 13-8-5. We therefore 
+vacate those awards and remand with instructions for the district 
+court to determine, in the first instance, whether Globe is entitled 
+to prejudgment interest and costs under some other applicable 
+source of authority.12  
+IV. Attorney Fees 
+¶78 
+In its initial ruling, the district court awarded Globe 
+$98,531.00 as “an award of reasonable attorney fees . . . as 
+ 
+12. In conjunction with the costs portion of the award, the parties 
+spent much effort in the briefing addressing the question of 
+whether some of the expenses that seem to have been included in 
+the court’s order can be awarded as costs pursuant to Utah Code 
+section 13-8-5(10)(a)(ii). These included expenses relating to, 
+among other things, food, travel, and hotels. But we’ve now 
+concluded that this statute was inapplicable, so we’ve vacated 
+that award.  
+In its brief, Globe also argues that it is entitled to costs 
+pursuant to rule 54(d) of the Utah Rules of Civil Procedure. We 
+leave it up to the district court to determine, on remand, whether 
+and to what extent costs will be awarded under that rule. In doing 
+so, the court should pay attention to the “distinction between 
+legitimate and taxable costs and other expenses of litigation which 
+may be ever so necessary, but are not taxable as costs.” Stevensen 
+3rd East, LC v. Watts, 2009 UT App 137, ¶ 62, 210 P.3d 977 
+(quotation simplified); see also id. ¶ 63 (“Costs are defined as those 
+fees which are required to be paid to the court and to witnesses, 
+and for which the statutes authorize to be included in the 
+judgment.” (quotation simplified)). 
+
+Globe Contracting v. Hour 
+20240058-CA 
+34 
+2025 UT App 98 
+ 
+provided by the [c]ontract and Utah Statute.” It’s unclear which 
+statute the court was referring to when it issued this initial ruling. 
+While Globe has subsequently justified that award based on Utah 
+Code section 13-8-5(10), we’ve now held that section 13-8-5 is 
+inapplicable.  
+¶79 
+But as noted by the court, the contract itself also provided 
+for an award of attorney fees, stating that “[i]f any action is filed 
+in relation to this Agreement, the unsuccessful party in the action 
+shall pay to the successful party, in addition to all the sums that 
+either party may be called upon to pay, a reasonable sum for the 
+successful party’s attorney fees.” Based on this contractual 
+language, the court therefore had a proper basis for awarding a 
+“reasonable sum” in attorney fees. See Capozzoli, 2024 UT App 176, 
+¶ 48 (“In Utah, attorney fees are awarded only if authorized by 
+statute or contract. If provided for by contract, attorney fees are 
+awarded in accordance with the terms of the contract.” (quotation 
+simplified)). To the extent that this award was based on the 
+contractual language, Hour now challenges the award on two 
+bases. We disagree with Hour’s first contention, but we agree in 
+part with his second, so we accordingly remand on a limited basis.  
+¶80 
+First, Hour argues that the court erred by awarding 
+attorney fees that were based on time that Globe’s attorneys spent 
+litigating “unsuccessful motions, claims, causes of action and 
+regarding dismissed defendants.” But this assertion is at odds 
+with the record. In a sworn affidavit that was filed in support of 
+the application for attorney fees, one of Globe’s attorneys detailed 
+the work performed by the various attorneys at the firm in 
+conjunction with this case. Of note, this affidavit stated that the 
+attorney fee request included “detailed descriptions of the time 
+spent on, and the legal worked performed, for the successful 
+litigation for (1) breach of contract, (2) breach of warranty, (3) lien 
+foreclosure, and (4) breach of implied covenant of good faith and 
+fair dealing.” (Emphasis added.) On its face, the assertion that 
+Globe was requesting fees for the “successful litigation” suggests 
+that Globe was indeed limiting its request to fees incurred for the 
+
+Globe Contracting v. Hour 
+20240058-CA 
+35 
+2025 UT App 98 
+ 
+successful parts of the litigation. Moreover, counsel then provided 
+several pages of charts that contained itemized entries. Hour has 
+not pointed to any entry that appears linked to any unsuccessful 
+motion. On the basis of the record and arguments presented to us, 
+we see no basis for concluding that the attorney fee award was 
+improperly based on time spent litigating unsuccessful motions, 
+claims, causes of action or against dismissed defendants. See 
+generally Brown v. David K. Richards & Co., 1999 UT App 109, ¶ 19, 
+978 P.2d 470 (“We have awarded fees to a prevailing party even 
+though some of the fees may not have been incurred on strictly 
+compensable issues, because proof of the compensable and non-
+compensable claims overlapped.”). 
+¶81 
+Hour’s second argument has to do with attorney fees that 
+were awarded for travel time. As noted above, after Globe filed 
+suit in the Third District, it hired attorneys who were located in 
+southern Utah, and those attorneys then litigated the case 
+throughout. In the aforementioned attorney fee affidavit, Globe 
+requested fees for, among other things, time that its attorneys 
+spent traveling. Without differentiating between the various 
+items listed in the affidavit, the district court awarded the 
+requested fees, concluding that the fee request was “reasonable.” 
+On appeal, however, Hour argues that it was unreasonable for the 
+court to award fees associated with travel time, given that Globe 
+“voluntarily chose” to hire attorneys who lived several hours 
+away from the site of the litigation. 
+¶82 
+At the outset, we note that a district court “has broad 
+discretion in determining what constitutes a reasonable fee, and 
+we will consider that determination against an abuse-of-
+discretion standard.” Jensen v. Sawyers, 2005 UT 81, ¶ 127, 130 P.3d 
+325 (quotation simplified); see also Freight Tec Mgmt. Group Inc. v. 
+Chemex Inc., 2021 UT App 92, ¶ 20, 499 P.3d 894 (“The calculation 
+of reasonable attorney fees is in the sound discretion of the trial 
+court . . . .” (quotation simplified)). But there has been little Utah 
+appellate authority that has addressed the particular question of 
+whether there are limits to a district court’s discretion to award 
+
+Globe Contracting v. Hour 
+20240058-CA 
+36 
+2025 UT App 98 
+ 
+fees based on an attorney’s travel time. The one Utah case that 
+addressed travel time at all is Strohm v. ClearOne Communications, 
+Inc., 2013 UT 21, 308 P.3d 424. There, our supreme court affirmed 
+an attorney fee award that included travel time for out-of-town 
+attorneys, albeit at a “25 percent reduction.” Id. ¶ 59. Without 
+much elaboration, the supreme court suggested that while such 
+an award falls within the discretion of the district court, a district 
+court should account for work “actually performed” as well as 
+any other “circumstances which require consideration of 
+additional factors.” Id. (quotation simplified). 
+¶83 
+Surveying the legal landscape, we see no definitive rule 
+from other jurisdictions that have considered whether it’s 
+appropriate to include an attorney’s travel time in an attorney fee 
+award, particularly when one party chose to retain non-local 
+counsel. Some courts and authorities have allowed travel time to 
+be included simply on a showing that it would be “reasonable.” 
+See, e.g., Apple Corps. Ltd. v. International Collectors Society, 25 F. 
+Supp. 2d 480, 499 (D.N.J. 1998); 35B C.J.S. Federal Civil Proc. § 1359 
+(2025). This comports with other authority suggesting that this 
+kind of decision is best left to the discretion of the district court. 
+See, e.g., Texas Mutual Ins. Co. v. DeJaynes, 590 S.W.3d 654, 670 (Tex. 
+App. 2019). Some cases, however, have cautioned that travel time 
+for non-local counsel should be awarded at a reduced rate. See, 
+e.g., Smith v. Freeman, 921 F.2d 1120, 1122 (10th Cir. 1990); Maceira 
+v. Pagan, 698 F.2d 38, 40 (1st Cir. 1983); Clark v. Phillips, 965 F. 
+Supp. 331, 336 (N.D.N.Y. 1997). By contrast, some other courts 
+have held that it would be inappropriate to award travel time for 
+non-local counsel absent a showing of “special circumstances,” 
+such as proof that competent local counsel could not be obtained. 
+See Hahamovitch v. Hahamovitch, 133 So.3d 1062, 1063 (Fla. Dist. Ct. 
+App. 2014). And some courts have permitted such an award, but 
+only on a showing that this is consistent with the practice norm 
+from the local community. See, e.g., Planned Parenthood of Central 
+N.J. v. Attorney Gen. of State of N.J., 297 F.3d 253, 267–68 (3d Cir. 
+2002). 
+
+Globe Contracting v. Hour 
+20240058-CA 
+37 
+2025 UT App 98 
+ 
+¶84 
+Given the lack of Utah authority on this question, we 
+think it appropriate to offer some additional guidance. A party 
+is entitled to hire counsel of its choice, and whenever a 
+retained attorney is required to travel to court, the time the 
+attorney spends traveling is time that the attorney is spending on 
+the client’s behalf—and not, presumably, working for some other 
+paying client. On this basic level, this seems to be why our 
+supreme court in Strohm contemplated that a district court’s 
+discretion to award attorney fees includes the discretion to 
+include travel time.  
+¶85 
+But we also believe that if a party voluntarily chooses to 
+hire non-local counsel who lives and practices some distance 
+away, this may alter the district court’s calculus as to whether it 
+would still be reasonable to charge the other party for that travel 
+time as part of an attorney fee award. On the one hand, the party 
+who hired non-local counsel may have had compelling reasons 
+for hiring this attorney over others who were closer to the court, 
+such as subject-matter specialty, a longstanding relationship, or 
+perhaps even some favorable adjustment in the billing rates. On 
+the other hand, we also see some potential merit to Hour’s 
+suggestion that, depending on the circumstances and the strength 
+of those justifications, it may be unfair to compel a party to foot 
+the bill when the other side chooses to hire a non-local attorney 
+who then must spend many hours of billable time traveling to and 
+from court. 
+¶86 
+Given the number of potential considerations that are in 
+play in such a decision, this seems to be the kind of decision 
+that is best left to the discretion of the district court. A 
+district court is better equipped than an appellate court to 
+determine whether the party’s decision to employ non-local 
+counsel was reasonable under the particular circumstances, and 
+the district court is likewise better equipped to determine whether 
+the attorney’s rates for travel time should be charged in full or, as 
+was the decision of the district court in Strohm, at some reduced 
+rate.  
+
+Globe Contracting v. Hour 
+20240058-CA 
+38 
+2025 UT App 98 
+ 
+¶87 
+With this as the backdrop, we accordingly disagree with 
+Hour’s assertion that it was categorically unreasonable for the 
+district court in this case to have awarded travel time as part of 
+the attorney fee award. As indicated, our supreme court’s 
+decision in Strohm places this kind of decision within the district 
+court’s discretion. 
+¶88 
+In addition to challenging the court’s ability to make this 
+determination, however, Hour also argues that the district court 
+did not provide a sufficient explanation for why it thought it was 
+reasonable to award attorney fees for travel time in these 
+circumstances. In this sense, Hour is challenging the adequacy of 
+the court’s explanation for this award.13 Having reviewed the 
+court’s rulings, we see no clear explanation for why the court 
+believed it was reasonable under the circumstances to require 
+Hour to pay attorney fees associated with travel time, particularly 
+given that Globe hired attorneys who lived several hours away 
+from the district in which the case had been filed. In light of the 
+concerns expressed above, we think it appropriate to require a 
+district court to offer at least some explanation for such a decision 
+when the other party has opposed this kind of request. Such an 
+explanation is warranted, in part, because it facilitates the 
+appellate court’s review if the other party makes a reasonableness 
+challenge akin to the one advanced by Hour in this appeal.  
+¶89 
+Because we see no explanation from the court that would 
+allow us to review this decision for reasonableness, we reverse the 
+attorney fee award and remand with instructions for the district 
+court to give an explanation for this portion of the attorney fee 
+award. In so doing, we stress that our decision should not be 
+ 
+13. Globe has not argued in response that the inadequacy portion 
+of Hour’s claim was unpreserved, nor has it meaningfully 
+responded to the inadequacy argument itself. Instead, Globe’s 
+argument was simply that the court’s decision was reasonable. 
+
+Globe Contracting v. Hour 
+20240058-CA 
+39 
+2025 UT App 98 
+ 
+interpreted as preemptively putting our thumb on the scale either 
+way.14 
+ 
+14. Globe requests attorney fees incurred on appeal pursuant to 
+rule 24(a)(9) of the Utah Rules of Appellate Procedure. “As a 
+general matter, when a party who received attorney fees below 
+prevails on appeal, the party is also entitled to fees reasonably 
+incurred on appeal.” Elder v. Elder, 2024 UT App 68, ¶ 32, 550 P.3d 
+488 (quotation simplified); see also Maxwell Masonry Restoration 
+& Cleaning LLC v. North Ridge Constr. Inc., 2022 UT App 109, ¶ 52, 
+518 P.3d 164 (“A provision for payment of attorney fees in a 
+contract includes attorney fees incurred by the prevailing party 
+on appeal as well as at trial, if the action is brought to enforce the 
+contract.” (quotation simplified)).  
+ 
+As discussed above, Globe has prevailed on the portions of 
+this appeal relating to the contract and to the damages award. 
+Globe is therefore entitled to an award of attorney fees it incurred 
+in those portions of this appeal. But in Parts III and IV, we have 
+reversed the court’s decisions relating to prejudgment interest 
+and the fairly substantial costs and attorney fee awards. It’s 
+unclear whether the district court will award a similar costs award 
+on remand, and additional proceedings may result in some 
+change to the attorney fee award as well. In light of these 
+reversals, we conclude that Globe is not entitled to an award of 
+appellate fees relating to those issues. See, e.g., Diversified Striping 
+Sys. Inc. v. Kraus, 2022 UT App 91, ¶ 103, 516 P.3d 306 (“Because 
+the Kraus Parties were awarded attorney fees below but prevailed 
+only in part on appeal, they are entitled to only those appellate 
+attorney fees associated with the issues on which they have 
+prevailed. We remand for the district court to calculate those 
+reasonable fees.”); Macris v. Sevea Int’l, Inc., 2013 UT App 176, 
+¶ 53, 307 P.3d 625 (“We therefore award Macris partial attorney 
+fees on appeal. Because Macris prevailed only in part on appeal, 
+we remand to the trial court for a determination of the appropriate 
+(continued…) 
+
+Globe Contracting v. Hour 
+20240058-CA 
+40 
+2025 UT App 98 
+ 
+CONCLUSION 
+¶90 
+ We affirm the district court’s conclusion that Hour 
+breached the contract, including the covenant of good faith and 
+fair dealing, as well as the court’s award of damages. We vacate 
+the court’s awards of prejudgment interest, costs, and attorney 
+fees to Globe, and we remand for further proceedings on these 
+issues that are consistent with this opinion. 
+ 
+ 
+ 
+amount of attorney fees and costs incurred with respect to the 
+issues on which he was successful on the appeal.”). On remand, 
+the district court should accordingly award Globe only the 
+attorney fees that it reasonably incurred in the portions of the 
+appeal on which it prevailed.  

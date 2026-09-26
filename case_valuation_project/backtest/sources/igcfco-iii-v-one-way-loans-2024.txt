@@ -1,0 +1,373 @@
+If this opinion indicates that it is “FOR PUBLICATION,” it is subject to 
+revision until final publication in the Michigan Appeals Reports. 
+ 
+ 
+ 
+ 
+-1- 
+S T A T E  O F  M I C H I G A N  
+ 
+C O U R T  O F  A P P E A L S  
+ 
+ 
+IGCFCO III, LLC, 
+Plaintiff-Appellee, 
+FOR PUBLICATION 
+August 8, 2024 
+9:05 a.m. 
+ 
+ 
+v 
+No. 366535 
+Muskegon Circuit Court 
+ONE WAY LOANS, LLC, doing business as 
+POWERLEND, 
+LC No. 2021-001755-CB 
+Defendant, 
+and 
+P&G HOLDINGS, LLC, WATERMARK 
+BANQUET AND CONFERENCE CENTER, LLC, 
+THE COFFEE FACTORY, LLC, and MOSES 
+GROSS, 
+Defendants-Appellants. 
+ 
+ 
+Before:  RICK, P.J., and JANSEN and LETICA, JJ. 
+ 
+PER CURIAM. 
+ 
+Defendants, P&G Holdings, LLC, Watermark Banquet and Conference Center, LLC, the 
+Coffee Factory, LLC, and Moses Gross, appeal as of right an order memorializing a final 
+deficiency judgment against them and in favor of plaintiff, IGCFCO III, LLC.  We affirm. 
+I.  FACTUAL BACKGROUND 
+ 
+Defendant Gross is the owner of P&G, a holding company that in turn owned several 
+parcels of real property, including the Watermark Banquet and Conference Center, LLC, and the 
+Coffee Factory, LLC.  In March 2019, plaintiff gave defendants P & G and One Way Loans, LLC, 
+doing business as Powerlend, a loan of $6,575,000.  P & G put forth several of its properties, 
+including Watermark and the Coffee Factory, as collateral for the loan.  Additionally, to obtain the 
+
+-2- 
+loan, defendants signed a security agreement, a promissory note, a credit agreement, a mortgage, 
+and an assignment of all future leases, rents, and profits from the properties in favor of plaintiff. 
+ 
+Defendants defaulted on the loan in early 2021.  In May 2021, plaintiff estimated that it 
+was owed $9,183,920.  On May 4, 2021, plaintiff filed a complaint against defendants, alleging 
+one count of breach of contract against Powerlend and P&G as the borrowers on the loan and one 
+count of breach of contract against Watermark, the Coffee Factory, and Gross as guarantors on the 
+loan (Counts I and II).  Plaintiff further alleged that it was entitled to judicial foreclosure (Count 
+III) and requested that the trial court appoint a receiver for the property (Count IV).  Defendants, 
+excluding Powerlend,1 answered plaintiff’s complaint in June 2021 and generally denied liability. 
+ 
+In January 2022, plaintiff filed a motion for entry of a consent judgment.  The motion stated 
+that the parties entered into a settlement agreement that resolved all of the pending claims.  
+According to the settlement agreement, defendants were required to remit $8.4 million to plaintiff 
+by January 7, 2022.  “[I]f Defendants failed to make the required payments,” plaintiff explained, 
+“the Consent Judgment, which was executed as part of the Settlement Agreement would be 
+released from escrow and filed with this Court.”  Defendants paid plaintiff $100,000, but defaulted 
+on the remaining $8.3 million due as part of the agreement.  Consequently, plaintiff requested that 
+a default judgment for the remaining balance be entered by the court. 
+ 
+Plaintiff filed an amended motion to enter a consent judgment in February 2022.  Plaintiff 
+explained that on February 4, 2022, the parties signed an amended settlement agreement, under 
+which defendants were required to pay $175,000 to plaintiff and sign a new proposed consent 
+judgment.  Defendants failed to uphold the terms of the amended settlement agreement; thus, 
+plaintiff asked the trial court to enter the revised consent judgment.  The revised consent judgment 
+called for the court to enter a judgment in plaintiff’s favor in the amount of “$9,650,000 minus any 
+amounts properly paid by Defendants” and awarding plaintiff the right to take possession of the 
+subject properties.  The parties signed the consent judgment, and it was ultimately entered in March 
+2022. 
+ 
+In May 2022, plaintiff filed a motion to enforce the consent judgment.  Plaintiff explained 
+that as part of the terms of the judgment, defendants were supposed to remit a number of security 
+deposits to plaintiff that corresponded to various rental agreements in an apartment complex on 
+the Watermark property.  Despite repeated demands, defendants had failed to do so.  Plaintiff asked 
+the trial court to grant its motion and order defendants to turn over all of the outstanding security 
+ 
+                                                 
+1 The record indicates that in August 2021, plaintiff attempted to procure some kind of response 
+from Powerlend, going so far as to file a motion for a second summons and notice to appear.  
+Attached as appendices to the motion were several notarized affidavits of nonservice listing the 
+known addresses for Powerlend’s offices and the dates that a process server attempted to contact 
+Powerlend.  An order granting the motion was subsequently entered.  Powerlend never responded.  
+It is unclear from the record whether the trial court entered a default against Powerlend or took 
+some alternative action following the company’s complete failure to respond.  Suffice it to say, 
+however, that Powerlend does not participate in this appeal.  
+ 
+
+-3- 
+deposits.  On June 1, 2022, defendants filed a response to the motion to enforce the consent 
+judgment, stating that they would agree to turn over the security deposits if plaintiff would identify 
+the tenants who were allegedly moving out of the apartment complex.  On June 9, 2022, the trial 
+court entered an order granting the motion to enforce the consent judgment. 
+ 
+On June 21, 2022, plaintiff filed a motion to show cause, explaining that defendants had 
+failed to comply with the court’s order enforcing the consent judgment, and asking the court to 
+hold defendants in contempt.  On July 11, 2022, the court entered an order stating that “the Plaintiff 
+may submit an order directing each defendant to provide a representative to show cause at a court 
+hearing why an order of contempt with sanctions should not be entered.”  The order was submitted 
+by plaintiff and signed by the trial court on July 19, 2022.  A show-cause hearing was held in 
+August 2022.  Plaintiff’s counsel indicated that part of the reason the security deposits had not 
+been turned over was due to defendant Gross failing to maintain a separate account for tenant 
+security deposits in violation of state law.  Gross agreed that he had failed to do so and stated at 
+the hearing that he simply did not have the money to pay plaintiff the security deposits.  The court 
+noted that it sympathized with Gross’s situation but still found it troubling that he had “basically 
+absconded with security deposits[,]” and elected to hold defendants in contempt.  On September 2, 
+2022, the trial court entered an order granting the motion to show cause and ordering defendants 
+to pay plaintiff $27,377 in security deposits, along with $1,000 for attorney fees, within 30 days. 
+ 
+On September 27, 2022, plaintiff again filed a motion to show cause, noting that defendants 
+still had not turned over the security payments and asking that they be held in contempt.  A hearing 
+on the motion was held in December 2022.  The court held defendants in contempt once again, 
+and an order was subsequently entered directing defendants to pay plaintiff $28,377 in security 
+deposits and $1,623 in attorney fees. 
+ 
+In April 2023, plaintiff filed a motion for entry of a deficiency judgment.  The motion 
+stated that defendants still had not paid the money owed as directed by the court in its December 
+2022 order granting plaintiff’s show-cause motion.  Additionally, plaintiff explained that the 
+property had been sold on December 22, 2022, for $5,275,000, which resulted in a net profit to 
+plaintiff of $4,892,187.  According to plaintiff, “[i]nterest on the Judgment Amount from the date 
+of the Consent Judgment to the filing of this motion at the rate of thirteen percent (13%) per annum 
+totals $500,000.00.”  Plaintiff submitted an affidavit from Jeff Padden, plaintiff’s general counsel, 
+in support of this figure.  The proceeds of the sale, along with the $30,000 debt and the $500,000 
+in unpaid interest created a deficiency of $5,287,812, which plaintiffs claimed defendants were 
+required to pay to satisfy the consent judgment. 
+ 
+Defendants responded to plaintiff’s motion on May 23, 2023.  Defendants argued that 
+plaintiff was not entitled to a final deficiency judgment because it had not established that the sale 
+of the property was commercially reasonable under Article 9 of the Uniform Commercial Code 
+(UCC), MCL 440.9101 et seq.  Defendants contended that plaintiff intentionally sold the property 
+for a price far below market value and far below the asking price of $7,990,000.  Defendants 
+argued that plaintiff was only entitled to a deficiency judgment if the outstanding debt exceeded 
+“the fair market price for the Watermark Properties plus any other rent and other recoveries already 
+collected by plaintiff.”  Defendants further contended that the amount of any judgment awarded 
+plaintiff had to be reduced by the amount of any rents or recoveries received after plaintiff took 
+possession of the property, and asked that the court allow limited discovery into these issues.  
+
+-4- 
+Along with the motion, defendants submitted a lengthy list of exhibits discussing the property and 
+information about property market values, as well as an unsworn and unnotarized copy of an 
+affidavit from Moses Gross. 
+ 
+Plaintiff replied on May 25, 2023.  Plaintiff argued that it sold the property in a 
+commercially reasonable manner, using Coldwell Banker Richard Ellis (CBRE) as their real estate 
+broker.  CBRE engaged with AMN Group to list the property with a number of commercial real 
+estate listing companies, and relisted the property once the original posting expired.  When the 
+property was relisted, plaintiff alleged that CBRE sent out more than 54,000 advertising e-mails.  
+Plaintiff further stated that in late May 2022, CBRE received an offer on the property for $5.2 
+million, and made a higher counteroffer that was rejected by the prospective buyer.  Ultimately, a 
+collective of companies—Shaw Walker Opportunity Zone Business 1, LLC, Shaw Walker 
+Opportunity Zone Business 2, LLC, Shaw Walker Opportunity Zone Business 3, LLC, and Shaw 
+Walker Opportunity Zone Business 4, LLC (collectively “Shaw Walker”)—offered to buy the 
+property for $5,275,000.  Plaintiff accepted the offer.  According to plaintiff, “The offer to 
+purchase by Shaw Walker of $5,275,000.00 was the best offer received for the purchase of the 
+Property.  CBRE and Plaintiff used their best efforts to secure the best price for the sale of the 
+Property.” 
+ 
+Plaintiff additionally argued that the deficiency judgment should not be reduced by the 
+amount of rent received after it took possession of the property, noting that there was not an 
+industrial tenant renting the property from April through December 2022, causing a net loss of 
+$500,000 in income to plaintiff.  Plaintiff thus asked the court to enter the deficiency judgment as 
+requested.  Along with the response, plaintiff submitted an affidavit from James Barrons, senior 
+counsel for Balbec Capital, LP, a private equity firm that handled financial business for plaintiff.  
+Barrons attested to the amount of money plaintiff earned and lost after taking possession of the 
+property in March 2022.  Barrons further detailed the steps that plaintiff took to engage CBRE as 
+a real estate broker and to sell the property, which largely mirrored plaintiff’s explanation of its 
+efforts to sell the property. 
+ 
+The trial court held a hearing on the deficiency judgment on May 26, 2023.  Defendants 
+pointed out that it appeared that plaintiff sold the property quickly before the end of the year for 
+tax reasons, and argued that plaintiff therefore did not sell the property in a commercially 
+reasonable manner.  Defendants also argued that plaintiff’s accounting of what was owed in the 
+deficiency judgment was flawed.  Plaintiff responded that the deficiency judgment amount was 
+correctly calculated and that the property was sold in a commercially reasonable manner.  The trial 
+court ultimately agreed that plaintiff had presented sufficient evidence to support entering a 
+deficiency judgment.  It explained: 
+[T]he defendants in their response brief have attached exhibits.  A couple of them 
+are evaluations or assessments or appraisals of the property indicating a 7.9-
+million-dollar value and a 12-million-dollar value.  There’s also an unsigned 
+affidavit by Defendant Moses Gross. 
+ 
+The plaintiffs have replied, filed a reply brief within an affidavit by . . . 
+James Barrens [sic] that had several exhibits to it.  They argue that they have listed 
+the property with CBRE for 7.9 million in May of 2022.  They were unable to get 
+
+-5- 
+any offers until the 5.2 [million] from Shaw-Walker Group, who ultimately, I 
+believe, purchased the property here.  The Court would note that defendant was 
+trying to sell the property prior to the entry of the deficiency or the consent 
+judgement [sic].  The Court is going to apply or give significant weight to the James 
+Barrens’ [sic] affidavit.  It seems to have laid out fairly extensively all the steps that 
+were taken that laid out the method, the manner, the time, the place, and the terms 
+used to market the property. 
+ 
+So, the Court does find that the plaintiff complied with the requirements 
+using commercially reasonable means to sell the property, and that an extended 
+discovery period which plaintiff has requested would be futile.  That the sale price 
+of 2 point—of 5.275 million would be a fair market value . . . . 
+ 
+With regards to the issue as to the offset, with regards to the rent, there’s 
+been really insufficient evidence presented by defendant that this is actually even 
+part of the contemplated deficiency judgment.  The Court is somewhat limited to 
+the consent judgement [sic] of March 9th, 2022, so it’s not going to take it into 
+consideration.  And even if it did, I think that there’s been sufficient evidence 
+presented in the—the affidavits presented by the—by both the initial brief and the 
+reply brief of the plaintiff that the there was no probably [sic] profit earned during 
+the time period of possession by the plaintiff. 
+ 
+A final deficiency judgment was entered on May 26, 2023.  The trial court ordered 
+defendants to pay plaintiff $5,287,812 with an interest rate of 13%, with total interest to be capped 
+at $500,000.  This appeal followed. 
+II.  ANALYSIS 
+ 
+Defendants argue that the trial court abused its discretion by declining to grant an 
+evidentiary hearing on the subject of commercial reasonableness under Article 9 of the UCC.  They 
+further contend that the court erred by concluding that the properties were sold in a commercially 
+reasonable manner and that any rents received by plaintiff did not need to be factored into the 
+calculation of the deficiency judgment.  We disagree. 
+A.  STANDARD OF REVIEW 
+ 
+This Court reviews for an abuse of discretion a trial court’s decision that an evidentiary 
+hearing is not warranted.  Estate of Carlsen v Southwestern Mich Emergency Servs, PC, 338 Mich 
+App 678, 701; 980 NW2d 785 (2021).  “An abuse of discretion occurs when the decision resulted 
+in an outcome falling outside the range of principled outcomes.”  Id. at 693 (quotation marks and 
+citation omitted).  To the extent that this issue concerns questions of law, including whether the 
+sale of the property was commercially reasonable under Article 9 of the UCC and whether rents 
+received are factored into the calculation of a deficiency judgment, the Court’s review is de novo.  
+In re Moukalled Estate, 269 Mich App 708, 713; 714 NW2d 400 (2006). 
+
+-6- 
+B.  COMMERCIALLY REASONABLE SALE 
+ 
+Defendants first take issue with the court’s decision not to hold an evidentiary hearing in 
+this matter and its conclusion that the sale of the property was commercially reasonable under 
+Article 9 of the UCC.  On appeal, plaintiff challenges the application of Article 9, claiming that 
+the consent judgment in this matter controls.  We agree with plaintiff that Article 9 does not apply 
+to this case.  Article 9 was specifically intended to create a security interest in personal property 
+and fixtures on the land; it generally does not apply to transactions in which the collateral at issue 
+is real property, as is the case here.  See MCL 440.9109(4)(k); In re Estate of Moukalled, 269 Mich 
+App 708, 716; 714 NW2d 400 (1998) (stating that “[A]rticle 9 does not apply to the creation or 
+transfer of an interest in land.”); see also Berry v Main Street Bank, 977 F Supp 2d 766, 733 (ED 
+Mich, 2013) (recognizing that other federal courts have held that the UCC does not apply to 
+mortgage foreclosures, the court dismissed the plaintiff’s claims under Article 9 because it applies 
+to personal property rather than real property).  
+ 
+We therefore agree with plaintiff that the consent judgment controls.  According to the 
+terms of the consent judgment signed by the parties, the property was required to be sold in “any 
+commercially reasonable manner and means that [plaintiff] (or its designee) decides to use.”  This 
+Court has held that “[a] consent judgment is in the nature of a contract, and is to be construed and 
+applied as such.”  Laffin v Laffin, 280 Mich App 513, 517; 760 NW2d 738 (2008).  In determining 
+the meaning of a contract, this Court “give[s] the words used in the contract their plain and ordinary 
+meaning that would be apparent to a reader of the instrument.”  Rory v Continental Ins Co, 473 
+Mich 457, 464; 703 NW2d 23 (2005).  If the terms are ambiguous or undefined, this Court may 
+use dictionary definitions to ascertain their plain and ordinary meaning.  Auto-Owners Ins Co v 
+Seils, 310 Mich App 132, 145; 871 NW2d 530 (2015).  The consent judgment does not define the 
+term “commercially reasonable;” however, with regard to the sale of real property, the term 
+generally means that the sale was “conducted in good faith and in accordance with commonly 
+accepted commercial practice.”  Black’s Law Dictionary (11th ed). 
+ 
+Upon review of the record, we conclude that plaintiff’s proof that the sale was 
+commercially reasonable was sufficient to support the trial court’s decision to enter the deficiency 
+judgment.  In support of its original motion for entry of a deficiency judgment, plaintiff attached 
+an affidavit from its general counsel, Jeff Padden, regarding the sale of the property, as well as a 
+copy of a proposed deficiency judgment.  Padden’s affidavit states that the net proceeds of the sale 
+of the property amounted to $4,892,187.  Plaintiff was additionally permitted by the trial court to 
+file a reply to defendants’ response to the motion.  As evidence that the sale was commercially 
+reasonable, plaintiff submitted two show-cause orders previously entered by the court and 
+Barrons’s affidavit.  Attached to the affidavit is a series of documents from CBRE describing the 
+listing and indicating that the property was placed on the market for $7.9 million.  The affidavit 
+explains that plaintiff engaged CBRE, a highly esteemed real estate broker, to handle the sale.  The 
+property was previously listed with Core Realty for $12 million, but failed to sell at that price, so 
+the parties agreed to a list price of $7.9 million. 
+ 
+The affidavit goes on to explain that CBRE engaged in an intensive marketing campaign 
+in an effort to sell the property, but could not find a buyer interested in paying the $7.9 million list 
+price.  According to Barrons, prospective buyers declined to purchase the property for the list price 
+for a multitude of reasons.  He explained: 
+
+-7- 
+In CBRE’s opinion and experience, the factors leading to a lower price during the 
+engagement with AMN[] included, among other things, the size of the Property, the 
+mixed zoning, the vacancies, the costs of the necessary renovations (roughly 
+500,000 square feet of raw and aging industrial space which needed to be 
+renovated/demolished), and the weak demographics and slow growth of the 
+Muskegon market. 
+CBRE received an offer for $5.2 million and attempted to counteroffer with a higher sale price, 
+but the prospective buyer would not budge on the price.  Ultimately, plaintiff agreed to sell the 
+property to Shaw Walker for $5,275,000. 
+ 
+Plaintiff’s evidence shows that the property was placed on the market for $7.9 million by 
+agreement between the parties, and indicates that the property failed to sell at a higher price.  CBRE 
+clearly attempted to get the best price possible, but there was simply no strong interest in the 
+property given the amount of work that would have to be done on it in terms of renovation and 
+demolition.  Plaintiff provided objective proof that the sale was made in accordance with 
+commonly accepted commercial practice and conducted in good faith.   
+ 
+Defendants acknowledge that whether to hold an evidentiary hearing is an exercise of the 
+trial court’s discretion, see Williams v Williams, 214 Mich App 391, 399; 542 NW2d 892 (1995), 
+but nevertheless claim that an evidentiary hearing was necessary here because the trial court ruled 
+on the deficiency judgment solely on the basis of Barrons’s affidavit.  Defendants explain that the 
+court should not have assessed the affidavit’s credibility or based its decision to grant the 
+deficiency judgment on the affidavit alone.  They additionally cite a number of cases addressing a 
+trial court’s assessment of the credibility of affidavits at the summary disposition stage.  See, e.g., 
+SSC Assoc Ltd Partnership v Gen Retirement Sys of City of Detroit, 192 Mich App 360, 364-365; 
+480 NW2d 275 (1991) (standing for the proposition that “where the truth of a material factual 
+assertion of a moving party’s affidavit depends on the affiant’s credibility, there exists a genuine 
+issue to be decided at trial by the trier of fact.”).  Defendants acknowledge that the matter at hand 
+was not decided in a motion for summary disposition, but argue that the same rules should 
+generally apply. 
+ 
+Defendants present no authority to directly support the argument that they are entitled to 
+an evidentiary hearing here.  Absent any compelling legal authority, we thus conclude that the trial 
+court did not abuse its discretion when it determined an evidentiary hearing was unnecessary.  The 
+trial court need not hold an evidentiary hearing if it can sufficiently decide an issue on the basis of 
+evidence already presented.  Vittiglio v Vittiglio, 297 Mich App 391, 406; 824 NW2d 591 (2012).2  
+ 
+                                                 
+2 We further note that defendants did not present evidence that might have convinced the trial court 
+that an evidentiary hearing was required.  In support of their responsive brief, defendants submitted 
+two exhibits concerning the property—one news article about the sale and one set of documents 
+describing the property—and an unsworn, unnotarized affidavit from Gross.  The news article and 
+the property description do little to support the argument that the sale of the property was not 
+commercially reasonable.  Moreover, courts require affidavits to be sworn and notarized in order 
+to be valid.  Holmes v Mich Capital Med Ctr, 242 Mich App 703, 711; 620 NW2d 319 (2000).  
+
+-8- 
+Plaintiff’s evidence was sufficient to show that the sale was commercially reasonable for the 
+reasons stated; thus, defendants are not entitled to relief. 
+C.  OFFSET OF DEFICIENCY JUDGMENT 
+ 
+Defendants also argue that the deficiency judgment should have been offset by the amount 
+of rents and income received by plaintiff after plaintiff took possession of the property, and contend 
+that the trial court erred by requiring them to establish that the offset should have been permitted.  
+We find this argument unpersuasive.  Defendants are not entitled to relief because they have not 
+shown that they are entitled to an offset of the deficiency based on rents received by plaintiff. 
+ 
+While ruling on the motion for entry of a deficiency judgment, the trial court stated that 
+“with regards to the rent, there’s been really insufficient evidence presented by defendant that this 
+is actually even part of the contemplated deficiency judgment.”  It further stated that “there’s been 
+sufficient evidence presented in the  . . . affidavits  . . . that the there was no probably [sic] profit 
+earned during the time period of possession by the plaintiff.”  Defendants claim that the trial court 
+erroneously shifted the evidentiary burden by stating that they presented insufficient evidence to 
+show they were entitled to the offset.  In support of their argument, defendants cite 
+MCL 440.9626(b), which states that in a deficiency action, the secured party bears the “burden of 
+establishing that the collection, enforcement, disposition, or acceptance was conducted” in 
+accordance with Article 9 of the UCC. 
+ 
+We again note that Article 9 of the UCC does not apply to this case.  See 
+MCL 440.9109(4)(k) (“This article does not apply to . . . [t]he creation or transfer of an interest in 
+or lien on real property[.]”).  To prevail, defendants must instead demonstrate that the language of 
+the consent judgment entitles them to an offset of the deficiency judgment.  See Laffin, 280 Mich 
+at 517.  However, nowhere in the consent judgment signed by the parties is it stated that defendants 
+are entitled to an offset of the deficiency judgment.  The trial court thus did not err by finding that 
+the deficiency judgment should not be offset based on rents received by plaintiff, and reversal is 
+not required. 
+ 
+Affirmed. 
+/s/ Michelle M. Rick  
+/s/ Kathleen Jansen  
+ 
+                                                 
+After the trial court noted in its ruling that Gross’s affidavit was unsigned, defendants sought 
+clarification, stating that they had filed a signed affidavit.  The trial court responded, “whether it 
+was signed or unsigned, [it was] not going to change [its] ruling. . . .”  We agree. 

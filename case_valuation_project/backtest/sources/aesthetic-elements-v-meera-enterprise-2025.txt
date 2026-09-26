@@ -1,0 +1,644 @@
+IN THE COURT OF APPEALS OF IOWA 
+ 
+No. 23-1250 
+Filed January 9, 2025 
+ 
+ 
+AESTHETIC ELEMENTS, INC., 
+ 
+Plaintiff-Appellee, 
+ 
+vs. 
+ 
+MEERA ENTERPRISE, LLC, 
+ 
+Defendant-Appellant. 
+________________________________________________________________ 
+ 
+ 
+Appeal from the Iowa District Court for Linn County, David M. Cox, Judge. 
+ 
+ 
+A defendant appeals a jury verdict awarding liquidated damages to the 
+plaintiff on its breach-of-contract claim.  AFFIRMED. 
+ 
+ 
+Jodie C. McDougal, Brandon R. Underwood, and Sarah B. Golwitzer of 
+Fredrikson & Byron, P.A., Des Moines, for appellant. 
+ 
+Ryan J. Coufal and Gretchen L. McGill (Pro Hac Vice) of Dvorak Law Group, 
+LLC, Omaha, Nebraska, for appellee. 
+ 
+ 
+Heard by Greer, P.J., and Schumacher and Badding, JJ.
+
+ 
+2
+BADDING, Judge. 
+ 
+In the aftermath of the August 2020 derecho that tore through Iowa, Meera 
+Enterprise, LLC hired Aesthetic Elements, Inc. to evaluate its property damage and 
+submit a proposed scope of work to Meera’s insurer.  The parties dispute whether 
+they also agreed that Aesthetic Elements would perform the approved repairs.  
+When Meera retained a different contractor, Aesthetic Elements sued for breach.  
+A jury found in Aesthetic Elements’ favor and awarded the company liquidated 
+damages.  Meera appeals, challenging (1) whether there was an enforceable 
+contract; (2) the enforceability of a liquidated damages provision in that contract; 
+(3) the admission of lost-profits testimony from the owner of Aesthetic Elements; 
+and (4) the court’s refusal to submit a spoliation instruction to the jury.  We affirm. 
+I. 
+Background Facts and Proceedings 
+ 
+Meera Enterprise, LLC operates a hotel in Cedar Rapids, Iowa.  On August 
+10, 2020, a powerful windstorm carved a path of destruction through Cedar Rapids 
+and the surrounding area.  Among the affected properties was Meera’s hotel.  
+Meera promptly opened a claim with its insurer, West Bend Mutual Insurance 
+Company.  It then turned to coordinating repairs.  
+ 
+On August 13, Meera’s owners—Dheeraj Julka and Rajinder Singh—
+arranged a meeting with Aesthetic Elements, Inc., a contractor specializing in 
+“insurance restoration” projects.  Julka and Aesthetic Elements were working 
+together on a hail damage claim for another hotel owned by one of Julka’s other 
+entities.  During that meeting, representatives for Meera and Aesthetic Elements 
+executed a one-page, standardized “Service Agreement” prepared by Aesthetic 
+Elements.   
+
+ 
+3
+ 
+Under the service agreement, Meera retained Aesthetic Elements “as 
+general contractor of record for the purpose of inspecting, evaluating and creating 
+an estimate for the scope of work necessary to repair or replace the damage” to 
+Meera’s hotel.  The service agreement also provided:    
+If [Meera’s] insurance company (the “Insurer”) approves a claim for 
+the Work (the “Claim”), [Meera] acknowledges and agrees that 
+[Meera] shall promptly enter into a Construction Agreement with 
+[Aesthetic Elements] to set forth the terms and conditions upon which 
+[Aesthetic Elements] shall perform the Work.  The cost of the Work 
+shall be equal to the amount of the replacement cost value 
+authorized by the Insurer (including all overhead and profit), plus the 
+insurance deductible which shall be paid by [Meera] to [Aesthetic 
+Elements] (the “Agreed Price”). 
+If Meera failed to enter a construction agreement or authorize repairs following 
+approval of the claim, the service agreement required Meera to pay Aesthetic 
+Elements “twenty percent . . . of the replacement cost value of the Claim.”   
+ 
+According to Aesthetic Elements, these terms were designed to facilitate an 
+efficient relationship between contractor, customer, and insurer.  Project manager 
+Cody Langan testified that preparing an estimate and negotiating the scope of work 
+is “50 percent” of an insurance restoration project.  The scope of work, according 
+to Langan, sets out “what needs to be done . . . to put the property back to its pre-
+loss condition while maintaining current warranties, building code, [and] 
+manufacturer specifications.”  Langan testified that the structure of the service 
+agreement gave Aesthetic Elements flexibility to negotiate necessary repairs while 
+capping Meera’s out-of-pocket costs at the price of its deductible.  Julka testified 
+that, based on his review of the service agreement, he understood Meera was 
+hiring Aesthetic Elements to “fix the roof” on its hotel.   
+
+ 
+4
+  
+Immediately after the parties signed their service agreement, Aesthetic 
+Elements got to work evaluating the damage to the hotel.  Workers spent multiple 
+days inspecting the roof membrane and conducting temporary repairs.  On 
+September 4, Aesthetic Elements submitted an eighty-three-page inspection 
+report to West Bend comprised of pictures that Langan took the month before.  
+Although Langan began preparing a scope of work around the same time, he did 
+not complete it until October 15.   
+ 
+Meanwhile, Meera was talking to another contractor—North-West Roofing.  
+A lead generator from North-West had contacted Meera after the derecho and 
+arranged a meeting between Meera and one of North-West’s project managers.  
+On September 5, North-West started a scope of work for Meera, which it 
+completed five days later.  The scope of work was revised later in September as 
+North-West communicated with Meera’s claims representative at West Bend.  
+During this same time, Langan was also communicating with the claims 
+representative, emailing him on September 14 “to see where we are at with this 
+claim?”  The representative responded, “Cody[,] I know we . . . emailed back and 
+forth before and I know you’re a contractor.  What company are you with?”  Langan 
+answered, “I am with Aesthetic Elements, Inc.  [W]e have been contracted by the 
+insured to complete their repairs.  I will also re[-]attach a copy of our contract.”   
+ 
+On October 6, Meera signed an agreement with North-West to begin repairs 
+on the hotel.  Aesthetic Elements was unaware.  It proceeded to submit its 
+completed scope of work to a public adjuster identified by Julka the day before the 
+contract with North-West was signed.  Langan testified that once a public adjuster 
+is involved, the insurance company and contractor cannot communicate: “all 
+
+ 
+5
+correspondence from a contractor goes through that public adjuster.”  Langan 
+testified that he did not learn about North-West’s involvement until sometime in 
+November, when his brother and owner of Aesthetics Elements, Steven Langan, 
+saw people at work on the roof of the hotel.   
+ 
+West Bend ultimately approved a claim for $461,645 in wind damage to 
+Meera’s property.  Repairs were completed by North-West.1  Meera never signed 
+a construction agreement with Aesthetic Elements, and Aesthetic Elements was 
+never paid.  In November 2021, Aesthetic Elements sued for liquidated damages, 
+alleging Meera violated the terms of the service agreement by “failing to allow 
+Aesthetic Elements to perform any and all work to the [p]roperty as approved and 
+agreed to by West Bend.”  Aesthetic Elements also asserted a claim for unjust 
+enrichment.   
+ 
+Meera sought summary judgment, arguing, among other things, that the 
+service agreement was not supported by consideration and was an unenforceable 
+“agreement to agree.”  Meera also challenged the liquidated damages provision 
+as an invalid penalty.  The district court denied the motion.  Following a four-day 
+trial, the jury returned special verdicts finding the parties entered a valid contract; 
+Meera breached the contract; and Meera failed to prove its affirmative defenses, 
+including prior material breach.  It awarded Aesthetic Elements $93,329 in 
+liquidated damages, leaving a line for “Anticipated or Actual Damage” blank.  The 
+ 
+1 Julka testified that Meera paid North-West $195,000 to repair the “main roof” at 
+the hotel.  Meera spent some of the remaining insurance money to make other 
+repairs and pay off a loan on the hotel. 
+
+ 
+6
+jury also awarded damages for unjust enrichment, although the parties agreed that 
+Aesthetic Elements’ success on its contract claim precluded recovery in equity.   
+ 
+Meera moved for judgment notwithstanding the verdict, but the district court 
+found substantial evidence supported the jury’s findings.  This appeal followed. 
+II. 
+Standards of Review 
+ 
+Denial of a motion for directed verdict is reviewed for correction of errors at 
+law.  Royal Indem. Co. v. Factory Mut. Ins., 786 N.W.2d 839, 846 (Iowa 2010).  
+Exclusion of a requested jury instruction is also reviewed for correction of errors at 
+law, Lynch v. Saddler, 656 N.W.2d 104, 107 (Iowa 2003), while evidentiary rulings 
+are reviewed for abuse of discretion.  Konchar v. Pins, 989 N.W.2d 150, 162 (Iowa 
+2023). 
+III. 
+Analysis 
+A. 
+Preservation of Error 
+ 
+Meera frames several of its arguments as appealing the denial of its motion 
+for summary judgment.  Aesthetic Elements contends the court lacks jurisdiction 
+to review that interlocutory order.  “An order overruling a motion for summary 
+judgment is a nonreviewable order when the district court finds a genuine issue of 
+material fact exists and the case proceeds to final trial.”  Estes v. Progressive 
+Classic Ins., 809 N.W.2d 111, 114 (Iowa 2012).  Yet issues raised in an 
+unsuccessful motion for summary judgment may still be reviewed on appeal if they 
+are renewed in a motion for directed verdict and adjudicated on the trial evidence.  
+Jones v. Glenwood Golf Corp., 956 N.W.2d 138, 143 (Iowa 2021); accord Halbur 
+v. Larson, ____ N.W.3d ____, ____, 2024 WL 4996599, at *5 (Iowa 2024).   
+
+ 
+7
+ 
+At the close of Aesthetic Elements’ case, Meera moved for a directed 
+verdict, arguing that it was entitled to judgment as a matter of law on several 
+grounds it asserted at summary judgment and presented again on appeal—
+including that “an agreement to agree [at] some point in the future is not a contract.”  
+The district court denied the motion, concluding Aesthetic Elements had offered 
+sufficient evidence for a jury to find “a contract for a certain agreed price” with a 
+“certain scope of work.”   Meera unsuccessfully renewed its arguments in a motion 
+at the close of all evidence and in a post-trial motion for judgment notwithstanding 
+the verdict.  By reviving its summary judgment arguments through motions at trial, 
+Meera preserved them for appellate review on the record made at trial. 
+ 
+B. 
+Enforceability of the Service Agreement 
+ 
+Meera attacks the enforceability of the service agreement on several fronts, 
+contending that it is an unenforceable “agreement to agree,” lacking in mutual 
+assent and consideration.2  Upon viewing the evidence in the light most favorable 
+to the verdict, we find substantial evidence supports the jury’s verdict finding a valid 
+contract between the parties.  See Royal Indem. Co., 786 N.W.2d at 845–46.       
+ 
+“For a contract to be valid, the parties must express mutual assent to the 
+terms of the contract.”  Id. at 846 (citation omitted).  “Mutual assent is present when 
+it is clear from the objective evidence that there has been a meeting of the minds.”  
+Est. of Cox v. Dunakey & Klatt, P.C., 893 N.W.2d 295, 303 (Iowa 2017) (citation 
+omitted).  “[W]hen the parties agree to a contract on a basis to be settled in the 
+ 
+2 Meera also argues that the service agreement is unenforceable as a matter of 
+“public policy and common sense.”  Because Meera presents no authority in 
+support of this argument, we will not consider it on appeal.  See Iowa R. App. P. 
+6.903(2)(a)(8)(3). 
+
+ 
+8
+future,” the requirement of mutual assent is not satisfied.  Whalen v. Connelly, 545 
+N.W.2d 284, 293 (Iowa 1996) (“[A]n agreement to agree is not a contract.”). 
+ 
+A meeting of the minds typically will be found only if the terms of a contract 
+are “sufficiently definite for the court to determine the duty of each party and the 
+conditions of performance.”  Royal Indem. Co., 786 N.W.2d at 846; see also 
+Restatement (Second) of Contracts § 33 (Am. Law. Inst. 1981).  Definite terms are 
+“understandable or ascertainable” at the time the contract is entered.   Air Host 
+Cedar Rapids, Inc. v. Cedar Rapids Airport Comm’n, 464 N.W.2d 450, 453 (Iowa 
+1990).  Iowa courts “are reluctant to hold a contract unenforceable for uncertainty 
+and they bend every effort to avoid such a result.”  Palmer v. Albert, 310 N.W.2d 
+169, 172 (Iowa 1981).  
+ 
+Meera argues that the service agreement is unenforceable because it 
+required the parties to execute a separate contract upon approval of a claim by 
+Meera’s insurer.  The plain language of the service agreement undeniably 
+obligated the parties to enter a future “Construction Agreement.”  But contrary to 
+Meera’s position, the analysis does not end there.  A binding contract exists “where 
+the parties have agreed upon all essential facts . . . , notwithstanding the fact that 
+a more formal contract is to be prepared and signed later.”  McCarter v. Uban, 166 
+N.W.2d 910, 914 (Iowa 1969) (citation omitted); accord Kunz v. Kunz, No. 15-1711, 
+2016 WL 7403730, at *4 (Iowa Ct. App. Dec. 21, 2016).  Thus, the question before 
+us is not simply whether the parties planned to sign another document at some 
+future date; it is whether substantial evidence supports the jury’s determination that 
+
+ 
+9
+the parties “agreed upon all essential facts” at the time they entered the service 
+agreement.3  McCarter, 166 N.W.2d at 913 (citation omitted).   
+ 
+Aesthetic Elements alleges Meera breached a promise to either retain 
+Aesthetic Elements for the storm repairs or pay a 20% cancellation fee.  We must 
+consider whether that promise is enforceable under the service agreement.  See 
+Nw. Bank & Tr. Co. v. Pershing Hill Lofts, LLC, No. 22-1941, 2024 WL 4964594, 
+at *4 (Iowa Ct. App. Dec. 4, 2024) (“[W]hen an unenforceable agreement-to-agree 
+term is part of an otherwise valid contract, other terms in the contract may still be 
+enforced.”).  Meera contends there was no such enforceable contract because the 
+service agreement fails to define the essential terms of Aesthetic Elements’ 
+performance—particularly, the approved scope, price, and schedule for the repair 
+work.  According to Meera, these terms were all to be set forth in the construction 
+agreement, which “the parties never so much as discussed.”  We disagree.   
+ 
+The essential terms of the work Aesthetic Elements promised to perform 
+were “understandable or ascertainable” from the service agreement.  Air Host 
+Cedar Rapids, 464 N.W.2d at 453.  For starters, although the agreement does not 
+specify a total price for Aesthetic Elements’ work, it does fix the method by which 
+Aesthetic Elements’ compensation would be determined: “the amount of the 
+ 
+3 The jury was instructed: 
+ 
+An agreement to agree at some point in the future is not a 
+contract.  An agreement to agree to enter into a contract is of no 
+effect unless all of the terms and conditions of the contract are 
+agreed on and nothing is left to future negotiations.  A writing that 
+clearly contemplates the subsequent signing of a formal agreement 
+suggests that the parties to the writing did not intend to be bound 
+until the subsequent formal agreement is finalized. 
+
+ 
+10 
+replacement cost value authorized by the Insurer (including all overhead and 
+profit), plus the insurance deductible.”  Nothing about payment was left for further 
+negotiation.  Where a contract’s terms provide a reasonably certain basis for 
+determining price, the contract is enforceable.  See Arendt v. Vande Noord Const., 
+Inc., No. 02-1624, 2003 WL 21459025, at *2 (Iowa Ct. App. June 25, 2003) (finding 
+an oral contract to build a home on a “time and materials” basis was not fatally 
+indefinite with respect to price). 
+ 
+Likewise, the service agreement states that the scope of Aesthetic 
+Elements’ performance was for work “necessary to repair or replace the damage 
+to the Property.”  The agreement expressly defines that scope as “the Work” and 
+makes Aesthetic Elements’ performance contingent upon the insurer’s approval of 
+“a claim for the Work.”  In other words, the scope of Aesthetic Elements’ work 
+would consist of whatever repairs the insurer approved.  That an essential term 
+must be determined by reference to outside facts does not make a contract 
+indefinite.  See Butts v. Iowa Health Sys., No. 13-1034, 2015 WL 1046119, at *8 
+(Iowa Ct. App. March 11, 2015) (finding contract language referencing a hospital’s 
+“regular rates and terms” was not indefinite where those rates and terms could be 
+determined from extrinsic documents or facts). 
+ 
+Meera also highlights that the service agreement does not include a 
+schedule for Aesthetic Elements’ performance.  But that alone is not enough.  
+“When a contract fails to specify time for performance, the parties must perform 
+within a reasonable time.”  Fausel v. JRJ Enters., Inc., 603 N.W.2d 612, 619 (Iowa 
+1999); see also Shelby Cnty. Cookers, L.L.C. v. Util. Consultants Int’l, Inc., 857 
+N.W.2d 186, 192 (Iowa 2014); Restatement (Second) of Contracts § 33 cmt. d 
+
+ 
+11 
+(noting “contracts are often made which do not specify the time for performance,” 
+and that when “the contract calls for a single performance . . . , the time for 
+performance is a ‘reasonable time’”).   
+ 
+Meera relies on two out-of-state cases finding construction contracts 
+unenforceable for failure to define essential terms.  In LeMaster Construction, Inc. 
+v. Mahoney, the Minnesota Court of Appeals found that the terms of an agreement 
+for fire and water remediation services were “never fully settled” where the parties 
+signed a document providing for a scope of work to be “authorized by [the 
+homeowner’s] insurance company” and “specifically set forth in attached Exhibit 
+‘A.’”  No. A06-1202, 2007 WL 1599192, at *3 (Minn. Ct. App. June 5, 2007).  No 
+“Exhibit A” was ever prepared, and the parties were “still discussing” what work 
+would be performed one month later.  Id.   
+ 
+In Spokane Structures, Inc. v. Equitable Investment, LLC, the Idaho 
+Supreme Court found an agreement for a commercial renovation project was 
+unenforceable where the contractor agreed “to design, engineer, and draft plans 
+in preparation of all documents/drawings required to enable the owner and 
+contractor to agree on a final design and cost of construction to be performed.”  
+226 P.3d 1263, 1264 (Idaho 2010).  Noting “both parties admitted that the 
+[agreement] was not a binding contract because it was merely an agreement to 
+agree,” the court reversed an underlying determination that the contractor’s 
+equitable claims were barred.  Id. at 1268.   
+ 
+Meera’s authorities are not persuasive.  The question in Spokane Structures 
+was not whether definite terms could be ascertained, but whether an undisputedly 
+non-binding agreement undermined a contractor’s equitable claims.  Id.  And the 
+
+ 
+12 
+court in LeMaster Construction focused on the parties’ subsequent negotiations in 
+finding the “gap” created by a missing attachment had never in fact been closed.  
+2007 WL 1599192, at *3.  The Minnesota Court of Appeals later distinguished 
+LeMaster on its facts in a decision finding a nearly identical “insurance-proceeds” 
+contract was not fatally indefinite.  See Smart Constr. & Remodeling, Inc. v. Suchy, 
+No. A22-1524, 2023 WL 5525071, at *4 (Minn. Ct. App. Aug. 28, 2023) (upholding 
+a jury’s special verdict finding an enforceable contract where the agreement 
+provided the contractor would perform “all work approved” by the homeowner’s 
+insurance company, if the authorized payment was acceptable to the contractor).4 
+ 
+In this case, the parties’ intent to bind themselves under the service 
+agreement is clear.  As another panel of this court recently observed, “a contract 
+need not be lengthy or complex to be valid.  We need only to understand ‘the duty 
+of each party and the conditions of performance.’”  Nw. Bank & Trust Co., 2024 
+WL 4964594, at *5 (quoting Royal Indem. Co., 786 N.W.2d at 846).  We have that 
+understanding here.  As the district court succinctly put it, “we have a signed 
+service contract.”  Julka himself agreed.  See Kunz, 2016 WL 7403730, at *4 
+(finding “substantial objective evidence to support the jury’s finding of a binding 
+ 
+4 Nor do Meera’s authorities appear to reflect a national trend.  Cases from other 
+states have deemed similar insurance restoration agreements sufficiently definite 
+to enforce.  See, e.g., Cohen v. P&C Restoration Servs., LLC, No. 14-22-00907-
+CV, 2024 WL 1868620, at *3 (Tex. App. Apr. 30, 2024) (finding an insurance 
+restoration contract was not indefinite where “the scope of repairs agreed to by the 
+insurer at the prices agreed to by the insurer form the essential terms of the 
+agreement”); Helton v. U.S. Restoration & Remodeling, Inc., 61 N.E.3d 808, 821 
+(Ohio Ct. App. 2016) (rejecting a homeowner’s argument that an insurance 
+restoration agreement was fatally indefinite for lack of a fixed price, reasoning “the 
+parties agreed to be bound to a price term reflecting the amount agreed on by the 
+insurance company and [the contractor], with the provision that [the contractor] 
+would perform such repairs at no cost to [the homeowner]”). 
+
+ 
+13 
+contract” when the party challenging the contract testified “the parties had reached 
+an agreement”).  Julka testified that he reviewed the service agreement before it 
+was signed, and he understood that Meera was retaining Aesthetic Elements to 
+“fix the roof” on its hotel.  He stated that, “in [his] mind, it was very clear” Meera 
+had an agreement and was “under [a] contract” with Aesthetic Elements.  Indeed, 
+Julka testified that he believed Meera needed Aesthetic Elements’ permission 
+before hiring a replacement contractor to perform repairs. 
+ 
+“In analyzing issues of mutual assent, we are to look to what the parties did 
+and said, rather than to some secret, undisclosed intention.”  Higdon v. Rana, No. 
+23-1107, 2024 WL 4370048, at *6 (Iowa Ct. App. Oct. 2, 2024); accord Schaer v. 
+Webster Cnty., 644 N.W.2d 327, 338 (Iowa 2002).  Despite Julka’s testimony 
+otherwise, Meera contends that no reasonable juror could find the service 
+agreement reflected a meeting of the minds because it expressly references “terms 
+and conditions” of a construction agreement that Meera never saw, much less 
+signed.5  But, again, the question for the jury was not whether the parties reached 
+a meeting of the minds about what language would be set out in a future document.  
+The question was whether Meera agreed for Aesthetic Elements to perform the 
+repairs to the hotel roof.  Substantial evidence indicates that it did.  See Nw. Bank 
+& Trust Co., 2024 WL 4964594, at 4–5 (finding an “exclusivity clause” in a financing 
+ 
+5 In response, Aesthetic Elements suggests the terms of the construction 
+agreement were incorporated into the service agreement, pointing to the Langans’ 
+testimony that they considered the construction agreement to be a non-negotiable 
+addendum.  On that point, we disagree.  Nothing in the service agreement calls 
+the construction agreement an “addendum,” nor does it expressly incorporate the 
+construction agreement’s terms.  But because we find substantial evidence for a 
+meeting of the minds under the service agreement alone, it makes no difference 
+that the construction agreement was not incorporated. 
+
+ 
+14 
+proposal was not “an agreement to agree” where the clause prohibited the 
+borrower “from seeking financing from other lenders while the parties are engaged 
+in due diligence”). 
+ 
+We also find substantial evidence that the service agreement was 
+supported by consideration.  Consideration exists if the promisee “does or 
+promises to do something the promisee has no legal obligation to do” or “refrains, 
+or promises to refrain, from doing something the promisee has a legal right to do.”  
+Margeson v. Artis, 776 N.W.2d 652, 656 (Iowa 2009).  Meera contends that 
+consideration is lacking because the only promise it made to Aesthetic Elements 
+was an unenforceable promise to sign another agreement.  The district court 
+rejected this argument in its ruling on Meera’s motion for judgment notwithstanding 
+the verdict, finding substantial evidence that Meera promised to pay Aesthetic 
+Elements the claim proceeds and deductible in return for Aesthetic Elements’ 
+promise to perform repairs approved by Meera’s insurance company.  We agree.  
+For the reasons already discussed, substantial evidence supports the jury’s verdict 
+that Meera promised to do more than sign a construction agreement.   
+ 
+C. 
+Material Breach 
+  
+ 
+Meera briefly argues that any obligation it owed under the service 
+agreement was excused by a prior material breach: Aesthetic Elements’ failure to 
+submit a scope of work to Meera’s insurer.6  A material breach of contract 
+ 
+6 Meera also suggests that Aesthetic Elements breached by failing to present a 
+construction agreement for Meera’s signature.  But on the plain language of the 
+service agreement, any such duty would not come due until Meera’s insurer 
+approved Aesthetic Elements’ scope of work.  No one disputes that Aesthetic 
+Elements’ scope of work was never approved, although North-West’s was. 
+
+ 
+15 
+discharges the duties of the non-breaching party, but not automatically.  Dolly 
+Invs., LLC v. MMG Sioux City, LLC, 984 N.W.2d 168, 177 (Iowa 2023).  When the 
+contract is silent on the consequences of breach, a non-breaching party’s 
+performance is suspended pending the breaching party’s opportunity to cure.  Id. 
+Only when it is too late to cure will the non-breaching party’s obligations be finally 
+discharged.  Id.; see also Restatement (Second) of Contracts § 242 & cmt. a 
+(discussing the circumstances to be considered in determining the time after which 
+a party’s uncured breach discharges the other party’s remaining duties).   
+ 
+At trial, Cody Langan testified that he began preparing Aesthetic Elements’ 
+estimate for repairs to the hotel roof on September 3, 2020.  According to Langan, 
+Julka instructed him to send the completed scope of work to Jeff Martin, a public 
+adjuster.  Langan testified that he emailed the scope of work to Martin on October 
+15.  A screenshot of the email from Langan to Martin was admitted into evidence 
+over Meera’s objection.  Langan testified that he could not communicate directly 
+with West Bend so long as a public adjuster was involved with the claim. 
+ 
+Langan also testified that between September 3 and October 15, Julka 
+never asked Aesthetic Elements to speed up its work or stop altogether.  Langan 
+said that Aesthetic Elements was unaware Meera had hired a replacement 
+contractor until sometime in November 2020, when his brother Steven saw 
+workers on top of the hotel roof.  Julka, on the other hand, testified that he 
+complained to Cody Langan about Aesthetic Elements’ pace “almost every day” 
+and that he told Langan in September that Meera would be changing contractors.  
+Undisputedly, North-West was conducting repairs on the roof by November 7.   
+
+ 
+16 
+ 
+Suffice it to say, the trial record about the circumstances of Aesthetic 
+Elements’ performance is conflicted.  Meera offers no reason to disregard Cody 
+Langan’s testimony.  Crediting Langan’s account, a reasonable juror could find that 
+Aesthetic Elements submitted its scope of work to Meera’s preferred recipient,7 
+that Meera did not voice concerns about the timeliness of Aesthetic Elements’ 
+performance, and that Meera authorized North-West to proceed with the repairs 
+without offering Aesthetic Elements an opportunity to cure.  See Van Sickle Const. 
+Co. v. Wachovia Com. Mortg., Inc., 783 N.W.2d 684, 687 (Iowa 2010) (“Evidence 
+is substantial if a reasonable mind would find it adequate to support a finding,” 
+taking “into consideration all reasonable inferences that could fairly be made by 
+the jury.”).  We accordingly conclude there was substantial evidence for the jury to 
+conclude that Meera’s duties were not discharged.   
+ 
+D. 
+Liquidated Damages 
+ 
+Meera claims the district court erred in finding that the service agreement’s 
+liquidated-damages provision was enforceable.  We review a determination on the 
+enforceability of a liquidated-damages provision for correction of errors at law.  
+Rohlin Constr. Co. v. City of Hinton, 476 N.W.2d 78, 79 (Iowa 1991).   
+ 
+“[P]arties may fix damages by contract when the amount of damages is 
+uncertain and the amount fixed is fair.”  Id.  However, liquidated-damages 
+provisions that seek to punish for breach, rather than compensate for loss, are 
+ 
+7 Meera denies ever hiring Martin to handle its claim for the hotel roof.  But exhibits 
+admitted at trial show that Julka texted Langan with Martin’s contact information 
+on October 6, and that, five days earlier, Julka had informed West Bend that Meera 
+intended to hire a public adjuster.   
+
+ 
+17 
+unenforceable on public policy grounds.  Id. at 80.  Two factors guide courts in 
+determining whether liquidated damages are compensatory or penal: (1) whether 
+the amount of damages reasonably approximates “the anticipated or actual loss 
+caused 
+by 
+the 
+breach” 
+and 
+(2) 
+“the 
+difficulty 
+of 
+proof 
+of 
+loss.”  Id. (quoting Restatement (Second) of Contracts § 356 cmt. b). 
+ 
+The service agreement provides that Meera would pay Aesthetic Elements 
+a fee equal to 20% of the insurer-approved replacement costs if Meera declined to 
+proceed with Aesthetic Elements for performance of roof repairs.  The district court 
+found this fixed fee was appropriate given the profit margin Aesthetic Elements 
+anticipated for its repair work and the unknown scope of the project at the time the 
+service agreement was signed.  On appeal, Meera contends that Aesthetic 
+Elements failed to adequately explain why its standardized service agreement sets 
+liquidated damages at 20%.  According to Meera, it “defies reason to suggest 20% 
+of the replacement cost value of every single Construction Agreement Aesthetic 
+Elements enters into approximates the anticipated or actual losses of preparing an 
+estimate on any particular project.”   
+ 
+Meera’s arguments are unavailing.  Whether the service agreement’s 20% 
+fee would approximate Aesthetic Elements’ losses on other projects is irrelevant 
+to determining the reasonableness of liquidated damages here.  See id. (“The 
+amount fixed is reasonable to the extent that it approximates the actual loss that 
+has resulted from the particular breach, even though it may not approximate the 
+loss that might have been anticipated under other possible breaches.” (citation 
+omitted)).  And while Meera asserts that awarding liquidated damages in 
+proportion to ultimate replacement costs creates a “windfall for the contractor who 
+
+ 
+18 
+has maybe just taken some photographs and started to prepare a scope of loss,” 
+that position forgets that Aesthetic Elements is entitled to more than the value of 
+its inspection work.  “When a contract has been breached the nonbreaching party 
+is generally entitled to damages that will place that party in as good a position as 
+he or she would have occupied had the contract been performed.”  UE Loc. 
+893/IUP v. State, 997 N.W.2d 1, 11 (Iowa 2023) (cleaned up).  Liquidated damages 
+under the service agreement must be measured against the entire benefit of the 
+bargain Aesthetic Elements stood to receive, including the profits from its 
+anticipated repair work. 
+ 
+Steve Langan testified that Aesthetic Elements typically bakes in a 20% 
+profit margin when preparing estimates on insurance restoration projects.  His 
+brother concurred that 20% is the industry standard.  That said, the evidence 
+showed that Aesthetic Elements would have seen an even better margin on the 
+Meera project.  Accounting for Aesthetic Elements’ expected costs, Steve Langan 
+estimated profits of $179,945—a roughly 40% return on the claim approved by 
+West Bend and nearly double the liquidated damages amount of $93,329.14.  In 
+other words, Aesthetic Elements’ liquidated damages were not “unreasonably 
+large” in comparison to its expected profits.  Rohlin, 476 N.W.2d at 81.  And 
+although Meera disputes the reliability of Langan’s calculations, the district court 
+credited his testimony.  This court does not second-guess credibility 
+determinations on appeal.  See Tim O'Neill Chevrolet, Inc. v. Forristall, 551 N.W.2d 
+611, 614 (Iowa 1996) (“[O]ur task is to determine whether substantial evidence 
+supports the district court’s findings according to those witnesses whom the court 
+
+ 
+19 
+believed.”).  For these reasons, we conclude substantial evidence supports the 
+court’s determination that the liquidated damages provision is enforceable.  
+ 
+E. 
+Lost-profits Testimony 
+ 
+Meera next claims the district court abused its discretion in allowing Steve 
+Langan to testify about Aesthetic Elements’ lost profits.  It contends this evidence 
+should have been excluded because Aesthetic Elements failed to disclose it was 
+seeking lost-profit damages until after the close of written discovery.  It also argues 
+that Langan’s testimony about Aesthetic Elements’ damages strayed into the realm 
+of undesignated expert opinion.8   
+ 
+We need not decide these issues because the “the erroneous admission of 
+evidence does not require reversal unless a substantial right of the party is 
+affected.”  Konchar v. Pins, 989 N.W.2d 150, 162 (Iowa 2023) (internal quotation 
+marks omitted) (citation omitted).  “The burden rests upon the appellant not only 
+to establish error but to further show that prejudice resulted.”  Id. (cleaned up).  
+Meera has not made that showing.   
+ 
+The jury did not award lost-profit damages to Aesthetic Elements.  Meera 
+suggests that “perhaps” Langan’s lost-profits testimony encouraged the jury to 
+“compromise” by awarding liquidated damages, and that the jury might “have opted 
+for . . . a lower number of unjust enrichment damages” had it never heard evidence 
+about Aesthetic Elements’ actual damages.  But this argument is too speculative 
+ 
+8 In its reply brief, Meera also argues for the first time that Exhibit 35, which Steve 
+Langan relied on in his testimony about Aesthetic Elements’ damages, should 
+have been excluded as inadmissible hearsay and improper summary evidence.  
+Absent exceptional circumstances, we do not consider issues raised for the first 
+time in a reply brief.  Villa Magana v. State, 908 N.W.2d 255, 260 (Iowa 2018). 
+
+ 
+20 
+to carry Meera’s burden.  Further, even assuming Langan’s anticipated testimony 
+was inadequately disclosed, that did not stop Meera from examining Langan at 
+length about the reliability of his calculations at trial.  We accordingly reject this 
+assignment of error.     
+ 
+F. 
+Spoliation Instruction 
+ 
+ 
+Last, Meera challenges the district court’s rulings on Exhibit 34—a 
+screenshot of the October 15, 2020 email by which Cody Langan transmitted 
+Aesthetic Elements’ scope of work to Jeff Martin.  According to Meera, this 
+evidence should have been excluded because “Aesthetic Elements never 
+produced the original email or took reasonable steps to do so.”  Meera further 
+argues that Aesthetic Elements’ lack of “a satisfactory explanation” for why it could 
+not produce an original copy entitled Meera to a spoliation instruction.   
+ 
+On these issues, Meera fails to show any reversible error.  Cody Langan 
+testified that he could not forward or retrieve the email after Aesthetic Elements’ 
+web host made changes to its email service during the litigation.  Langan testified 
+he spent hours trying to retrieve the email from an old mailbox on his iPad, but a 
+screenshot was the best he could do.  Given this testimony, the district court 
+properly concluded that Aesthetic Elements’ failure to produce an original copy fell 
+short of spoliation.  See Lynch v. Saddler, 656 N.W.2d 104, 107 (Iowa 2003) 
+(explaining a party seeking a spoliation instruction must “show both intentional 
+destruction and control of the evidence,” and that a “spoliation inference should be 
+utilized prudently and sparingly” (citation omitted)).  And the court was within its 
+discretion to decline exclusion on discovery grounds. 
+
+ 
+21 
+IV. 
+Conclusion 
+ 
+Having considered all the challenges raised by Meera on appeal, we affirm 
+the jury’s verdict awarding Aesthetic Elements $93,329 in liquidated damages for 
+Meera’s breach of the parties’ enforceable service agreement. 
+ 
+AFFIRMED.   
+ 

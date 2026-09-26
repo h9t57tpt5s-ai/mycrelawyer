@@ -1,0 +1,2079 @@
+Opinion issued May 14, 2024 
+ 
+ 
+In The 
+Court of Appeals 
+For The 
+First District of Texas 
+———————————— 
+NO. 01-21-00602-CV 
+——————————— 
+SENIOR CARE LIVING VI, LLC AND MARK C. BOULDIN, Appellants 
+V. 
+PRESTON HOLLOW CAPITAL, LLC, UMB BANK N.A., AND TMI 
+TRUST COMPANY, Appellees 
+ 
+ 
+On Appeal from the 458th District Court 
+Fort Bend County, Texas 
+Trial Court Case No. 19-DCV-265897 
+ 
+ 
+OPINION ON REHEARING 
+Appellant Mark C. Bouldin has filed a motion for rehearing of our November 
+30, 2023, opinion and judgment. Additionally, appellee Preston Hollow Capital, 
+LLC (“Preston Hollow”) has filed a motion for rehearing and a motion for en banc 
+
+2 
+ 
+reconsideration. We deny the motions for rehearing, withdraw our November 30, 
+2023 opinion and judgment, and issue this opinion and judgment in their stead.1 
+This case arises out of financing arrangements for the construction of an 
+assisted living facility in Sugar Land, Texas. Appellant Senior Care Living VI, LLC 
+(“Senior Care”) borrowed proceeds from the sale of bonds to construct the facility, 
+and it signed a series of promissory notes reflecting this debt. Bouldin guaranteed 
+payment of the notes. 
+After appellees UMB Bank N.A. and TMI Trust Company, the purported 
+successor trustees under the relevant documents, threatened foreclosure following 
+Senior Care’s alleged default on the promissory notes, Senior Care sought a 
+temporary restraining order and asserted claims for affirmative relief. Preston 
+Hollow, the “Noteholder Representative” and “Series 2017A Majority 
+Representative” under the relevant documents, intervened and sought recovery of 
+the outstanding debt from Senior Care and from Bouldin on his guaranty. 
+ 
+1  
+Because we issue a new opinion, Preston Hollow’s motion for en banc 
+reconsideration is moot. See In re Wagner, 560 S.W.3d 309, 312 (Tex. App.—
+Houston [1st Dist.] 2017, orig. proceeding [mand. denied]) (“Because we issue a 
+new opinion in connection with the denial of rehearing, the motion for en banc 
+reconsideration is rendered moot.”); see also Poland v. Ott, 278 S.W.3d 39, 41 (Tex. 
+App.—Houston [1st Dist.] 2008, pet. denied) (noting that motion for en banc 
+reconsideration is rendered moot by withdrawal and reissuance of opinion and 
+judgment); Brookshire Bros., Inc. v. Smith, 176 S.W.3d 30, 41 n.4 (Tex. App.—
+Houston [1st Dist.] 2004, pet. denied) (supp. op. on reh’g) (noting that motion for 
+en banc reconsideration is moot when motion for rehearing is granted and new 
+opinion and judgment issue). 
+
+3 
+ 
+The trial court rendered summary judgment that UMB Bank and TMI Trust 
+Company were properly appointed as successor co-trustees. The trial court also 
+dismissed two of Senior Care’s affirmative claims pursuant to a Rule 166(g) pretrial 
+management order. After a bench trial, the trial court ruled for Preston Hollow on its 
+claim for breach of the “Bond Documents,” finding that Senior Care had defaulted, 
+the debt had been properly accelerated, and Bouldin was liable under his guaranty 
+agreement for the accelerated debt on the promissory notes. The trial court entered 
+judgment against Senior Care and Bouldin, jointly and severally, for $52,597,040.06 
+in outstanding principal on the accelerated debt and pre-judgment interest, $250,000 
+in trial-level attorney’s fees, and $520,000 in conditional appellate attorney’s fees. 
+The court also appointed a post-judgment receiver for Senior Care with authority to 
+sell the property. 
+Both Senior Care and Bouldin filed notices of appeal. Senior Care raises six 
+issues on appeal and contends that (1) the trial court erred in granting summary 
+judgment that UMB Bank and TMI had been properly appointed as co-Master 
+Trustees; (2) Preston Hollow lacked capacity to sue Senior Care because Preston 
+Hollow had not provided the required notice to the Master Trustee to do so; 
+(3) Preston Hollow failed to prove that Senior Care was liable for breach of the 
+“Bond Documents” because, among other reasons, Preston Hollow failed to prove 
+valid acceleration of the underlying debt; (4) Preston Hollow failed to prove the 
+
+4 
+ 
+amounts due under the promissory notes; (5) Preston Hollow was not entitled to a 
+receivership because it did not plead for this relief;2 and (6) the trial court erred by 
+dismissing Senior Care’s claims for conversion and money had and received 
+pursuant to a Rule 166(g) pretrial management order. 
+Bouldin raises five issues on appeal and contends that (1) Preston Hollow 
+lacked the capacity to sue Bouldin on his guaranty agreement; (2) Preston Hollow 
+cannot recover under the Master Indenture because that document had been 
+amended, but Preston Hollow did not offer the amended document into evidence; 
+(3) the evidence does not support the award of damages; (4) the “conditional” 
+assertion of claims by UMB Bank and TMI do not support the judgment; and (5) the 
+trial court erred by requiring Bouldin to pay attorney’s fees. 
+We affirm in part, reverse in part, and remand for further proceedings. 
+ 
+2  
+During the pendency of this appeal, the receiver moved for a final accounting and 
+sought to be discharged. On March 21, 2023, the trial court granted this request and, 
+among other things, discharged the receiver from all duties, responsibilities, and 
+obligations under the trial court’s post-judgment receivership order. We therefore 
+conclude that Senior Care’s fifth issue is moot. See Glassdoor, Inc. v. Andra Grp., 
+LP, 575 S.W.3d 523, 527 (Tex. 2019) (stating that case becomes moot during 
+pendency of litigation if issues presented are no longer “live” or parties lack legally 
+cognizable interest in outcome) (quoting Heckman v. Williamson Cnty., 369 S.W.3d 
+137, 162 (Tex. 2012)). 
+
+5 
+ 
+Background 
+A. 
+The Transaction to Finance Construction of an Assisted Living Facility 
+Mark Bouldin is the president and owner of Senior Care Ownership 3, Inc., 
+the entity that manages Senior Care. Bouldin is a real estate developer who has 
+developed numerous projects over the last twenty years, including several assisted 
+living facilities for seniors throughout the southern United States. 
+Around 2016, an engineer who works with Bouldin identified a property in 
+Sugar Land that he believed would be ideal for a new assisted living facility called 
+Inspired Living at Missouri City. Throughout the initial stages of development, 
+Bouldin was also having discussions with Piper Jaffray, a bond underwriter, about 
+the possibility of issuing bonds to raise funds to acquire the land and develop the 
+facility. Eventually, an agreement was reached concerning the financing of the 
+project through the issuance and sale of bonds, and the relevant parties executed a 
+series of documents that set out the various rights and obligations. 
+On January 1, 2017, Woodloch Health Facilities Development Corporation 
+(“Woodloch”) issued four tiers of over $44 million in bonds: (1) $30,320,000 in tax-
+exempt Series 2017A-1 bonds; (2) $2,580,000 in taxable Series 2017A-2 bonds; 
+(3) $2,025,000 in taxable Series 2017A-3 bonds; and (4) $9,750,000 in subordinate 
+Series 2017B bonds. Woodloch entered into a Trust Indenture and Security 
+Agreement (“the Bond Indenture”) with Branch Banking and Trust Company 
+
+6 
+ 
+(“BB&T”), which agreed to serve as the Bond Trustee. Woodloch and BB&T are 
+the only signatories to the Bond Indenture. Preston Hollow, which purchased over 
+$21 million in Series 2017A-1 bonds, was named the “Series 2017A Majority 
+Representative,” a position that had certain rights under the Bond Indenture, but it 
+did not sign this document. 
+The Bond Indenture contemplated that Woodloch would simultaneously enter 
+into a Loan Agreement with Senior Care, under which Woodloch would loan the 
+proceeds from the sale of the bonds to Senior Care. The Bond Indenture authorized 
+the sale of the bonds, authorized the issuance of promissory notes (“the Notes”) to 
+secure repayment of the loan to Senior Care, and assigned most of Woodloch’s rights 
+as issuer of the bonds to BB&T as the Bond Trustee. The rights assigned to BB&T 
+included Woodloch’s right to receive loan payments from Senior Care. 
+The Bond Indenture set out the interest rate and maturity date for each series 
+of bonds. This document also directed BB&T to establish several different funds 
+with specific purposes for the bond proceeds and stated that all proceeds “shall be 
+held by the Bond Trustee in trust and shall be applied only in accordance with the 
+provisions of this Bond Indenture.” The Bond Indenture contained provisions 
+describing what constitutes an “Event of Default,” and it allowed BB&T to 
+accelerate payment of the unpaid principal and interest on the bonds and to exercise 
+remedies upon default. The Bond Indenture also contained provisions authorizing 
+
+7 
+ 
+the appointment of co-Bond Trustees, allowing BB&T to resign as the Bond Trustee, 
+and authorizing the appointment of a successor Bond Trustee. 
+On the same date that Woodloch and BB&T signed the Bond Indenture, 
+Woodloch and Senior Care entered into a Loan Agreement. In this agreement, 
+Woodloch agreed to use the proceeds from the sale of the bonds to fund a loan to 
+Senior Care by depositing the proceeds with BB&T, as provided in the Bond 
+Indenture. Senior Care agreed to use the loan proceeds to “pay a portion of the costs 
+of acquiring, constructing, developing, furnishing[,] and equipping” the assisted 
+living facility. It also agreed to “make payments sufficient to pay the principal of, 
+premium, if any, and interest on the Series 2017 Bonds when due.” Senior Care 
+agreed to execute a series of promissory notes to secure payment of the loan, deliver 
+the Notes to BB&T, and make all payments required by the Notes. 
+In the Loan Agreement, Senior Care also agreed to promptly pay all lawful 
+taxes assessed against the property; promptly pay or satisfy all indebtedness, claims, 
+and demands against it; and ensure that no liens attached to the property. The Loan 
+Agreement defined several “Events of Default,” including Senior Care’s failure to 
+make any principal or interest payment on the Notes, Senior Care’s failure to 
+perform or comply with any covenant contained in the Loan Agreement, and the 
+occurrence of any “Event of Default” under another bond document. The agreement 
+
+8 
+ 
+allowed BB&T, upon the occurrence of an Event of Default, to declare all payments 
+due on the Notes to be immediately due and payable. 
+Senior Care signed four promissory notes, one for each of the bond series 
+issued by Woodloch. Each of the Notes required Senior Care to make interest 
+payments on June 1 and December 1 of each year, beginning in 2017 and ending in 
+the year the respective series of bonds matured. The Notes corresponding to the 
+Series 2017A-2 bonds and the Series 2017B bonds required Senior Care to make 
+yearly principal payments beginning December 1, 2021. For the Series 2017A-1 
+Note, the yearly principal payment would not begin until December 1, 2028. For the 
+Series 2017A-3 Note, the only principal payment would be on December 1, 2028, 
+the date that series of bonds matured. Woodloch assigned each of the Notes to 
+BB&T. 
+As part of this transaction, Senior Care and BB&T, as the “Master Trustee,” 
+signed a “Master Trust Indenture, Deed of Trust and Security Agreement” (“the 
+Master Indenture”). In the Master Indenture, Senior Care granted a security interest 
+to BB&T in “[a]ll revenue, Accounts (including any Blocked Account),3 accounts 
+ 
+3  
+Senior Care and BB&T as the Master Trustee also executed a “Blocked Account 
+Control Agreement.” Under this agreement, BB&T maintained a deposit account 
+for Senior Care’s benefit, and Senior Care granted BB&T, in its capacity as Master 
+Trustee, a security interest in the funds contained in the account. The Master 
+Indenture required Senior Care to “cause all Gross Revenues to be deposited into 
+the Blocked Account” within seven business days of receipt. 
+
+9 
+ 
+receivable, and Gross Revenues” of Senior Care, in any amounts on deposit in the 
+accounts required to be created under the Master Indenture and the Bond Indenture, 
+and the property with improvements. Under the Master Indenture, BB&T held this 
+property in trust “first, for the equal and proportionate benefit and security of the 
+Holders from time to time of all of the Outstanding Senior Obligations . . . .” Preston 
+Hollow, although not a signatory to the Master Indenture, was named the 
+“Noteholder Representative” in this document, and it was granted certain rights. 
+The Master Indenture contained extensive provisions governing all aspects of 
+the relationship between Senior Care as the obligor, BB&T as the Master Trustee, 
+and Preston Hollow as the Noteholder Representative. For example, the Master 
+Indenture required BB&T to establish several separate funds to be used for specific 
+purposes and directed the priority in which BB&T was to transfer funds to each 
+account. In several instances, Preston Hollow as the Noteholder Representative was 
+granted authority to direct BB&T to take certain actions. For example, if Preston 
+Hollow determined that the balance of the Insurance and Tax Escrow Fund was not 
+sufficient to pay Senior Care’s tax obligations, Senior Care could be ordered to 
+deposit additional amounts into that fund. 
+Senior Care’s obligations under the Master Indenture mirrored the obligations 
+imposed upon it in the other key documents. Senior Care agreed to “duly and 
+punctually pay the principal of (and premium, if any) and interest on the 
+
+10 
+ 
+Obligations.” It further agreed to pay or discharge all taxes before delinquency, as 
+well as “all lawful claims for labor, materials, and supplies which, if unpaid, might 
+by law become a lien upon its Property.” Senior Care also agreed that it “will not 
+create or permit to be created or remain and, at its cost and expense, [will] promptly 
+discharge or terminate all Liens on its Property.” Senior Care agreed that, during the 
+construction process, it would not accept any change orders without Preston 
+Hollow’s written consent, nor would it amend the terms of any construction 
+documents without Preston Hollow’s prior written consent. 
+“Events of Default” under the Master Indenture included: (1) “default in the 
+payment of any Senior Obligation when it becomes due and payable”; (2) failure to 
+make any required deposits under the Master Indenture; (3) failure to pay any debt 
+owed by Senior Care; (4) failure to cause gross revenues to be deposited into the 
+Blocked Account; and (5) failure to perform any covenant in the Master Indenture. 
+Upon an Event of Default, BB&T had the authority to accelerate the debt and declare 
+the principal of the Obligations due immediately. The Master Indenture also granted 
+Preston Hollow the ability to exercise remedies upon default “in lieu of the Master 
+Trustee.” The Master Indenture, like the Bond Indenture, contained provisions 
+allowing for the resignation of BB&T as Master Trustee and the appointment of a 
+successor Master Trustee. 
+
+11 
+ 
+Senior Care also entered into a “Construction Disbursement and Monitoring 
+Agreement” (“the CDMA”) with BB&T, Preston Hollow as the Series 2017A 
+Majority Representative, and Fulcrum, LLC, an entity that served as a “Construction 
+Monitor” during the building of the assisted living facility. Among other things, the 
+CDMA set out the process for Senior Care to make disbursement requests for the 
+payment of loan proceeds during construction. Preston Hollow played an active role 
+in this process, approving requests for disbursement and ordering BB&T to make 
+payments from specific accounts required under the Master Indenture and Bond 
+Indenture. The CDMA, like the Master Indenture, required Senior Care to submit 
+change orders over a certain amount to Preston Hollow for approval. Although the 
+CDMA could be amended, an amendment would only be effective if made by “a 
+written instrument signed by the parties.” 
+Finally, Bouldin executed a Guaranty Agreement (“the Guaranty”).4 Bouldin 
+“guarantee[d] to the Master Trustee (for the benefit of the Holders) (collectively, the 
+“Guaranteed Parties”), the full, complete and prompt payment of the principal and 
+redemption price, if any, of and interest on the Series 2017 Notes when due, whether 
+ 
+4  
+Bouldin also signed a “Completion Guaranty” in which he “guarantee[d] to the 
+Master Trustee (for the benefit of the Holders and the holders of the Series 2017 
+Bonds) the full, prompt and complete performance by [Senior Care] of all [Senior 
+Care’s] obligations with respect to the design, permitting, installation, construction 
+and completion of the Improvements, subject to the terms and conditions of the 
+Loan Documents.” The Completion Guaranty is not at issue in this appeal. 
+
+12 
+ 
+at stated maturity . . . acceleration or otherwise” upon the occurrence of certain 
+specified events. These events included: (1) the filing of a mechanic’s or 
+materialmen’s lien against the property; (2) Senior Care’s failure to pay any portion 
+of its Gross Revenues to the Master Trustee as required by the Master Indenture; and 
+(3) an action by Senior Care or Bouldin to contest, delay, interfere with, or fail to 
+cooperate with “the Master Trustee’s exercise of remedies provided under the Bond 
+Documents or any guaranty after the occurrence of an Event of Default.” 
+Bouldin also agreed to be liable to “the Guaranteed Parties in all instances for 
+any loss, damage, cost, expense, liability or claim incurred by Guaranteed Parties” 
+arising out of certain other events. These events included Senior Care’s failure to 
+pay “other charges required to be paid by [Senior Care] under the Bond Documents” 
+and “charges for labor or materials or other charges that can create liens on the 
+Property.” The Guaranty provided that “any Guaranteed Party,” following an Event 
+of Default, could proceed directly against Bouldin prior to making a demand upon 
+Senior Care. The Guaranty is the only document in connection with this transaction 
+that Bouldin signed in his individual capacity, and not in his capacity as the president 
+of the entity that manages Senior Care. 
+B. 
+Senior Care’s Alleged Default on the Promissory Notes 
+Senior Care contracted with an Iowa-based company, Baxter Construction 
+Company (“Baxter”), to build the assisted living facility. Bouldin had worked with 
+
+13 
+ 
+Baxter prior to the project that is the subject of this appeal. The “Guaranteed 
+Maximum Price” to which Baxter was entitled for construction costs was 
+$22,240,000. Baxter also served as the general contractor for another construction 
+project that occurred at roughly the same time as this project: the construction of an 
+Inspired Living assisted living facility in Lewisville, Texas, near Dallas. The owner 
+of that property and facility was Senior Care Living VII, LLC.  
+Construction on the Sugar Land facility proceeded throughout 2017 without 
+any major issues. With construction substantially complete, Senior Care obtained a 
+Certificate of Occupancy around December 2017. However, in 2018, a dispute arose 
+with Baxter over whether Baxter was entitled to more than $1 million in additional 
+funds based on change orders. Senior Care did not believe that these requests were 
+valid. Nevertheless, to settle the dispute, Senior Care, Bouldin, and Baxter entered 
+into a “Side Letter Agreement Regarding Payments to Baxter Construction 
+Company” (“the Side Letter Agreement”) in August 2018.5 
+In the Side Letter Agreement, Baxter agreed that it was still bound by 
+provisions in the CDMA that required it to obtain unconditional lien waivers from 
+each of its subcontractors prior to final payment. Senior Care agreed that, upon 
+receipt of these documents, it would “promptly seek payment to Baxter for all 
+ 
+5  
+This agreement also addressed a payment dispute that had arisen between Baxter 
+and Senior Care Living VII, the entity that owned the assisted living facility being 
+built in Lewisville, Texas. 
+
+14 
+ 
+amounts due Baxter pursuant to the Baxter Payment Documents” by delivering the 
+documents to Preston Hollow, which had the right to approve disbursement requests 
+under the CDMA. Baxter acknowledged that “the timing of payments” was 
+“partially dependent upon parties to the CDMA which are not under the control of 
+any party hereto.” 
+Senior Care and Baxter also agreed that, upon sale of the assisted living 
+facility, Senior Care would pay Baxter up to a maximum amount of $472,500. Senior 
+Care further agreed that, until that payment had been made, “any dividends or 
+distributions payable to Bouldin are secured by and must be forwarded . . . to 
+Baxter.” Bouldin agreed that “an amount equal to any dividends or distributions that 
+Bouldin directly or indirectly receives” is “deemed to be held in trust by Bouldin for 
+the benefit of Baxter and must be forwarded by Bouldin to Baxter.” Baxter agreed 
+that these specified payments “shall be deemed secured obligations and when timely 
+paid in the manner provided herein shall be in full satisfaction for all outstanding 
+amounts owed to Baxter for its work.” Baxter further acknowledged that its rights to 
+payment were subordinate to the rights of the Master Trustee and the bondholders. 
+Preston Hollow was aware that Senior Care and Baxter had an ongoing dispute 
+concerning payment, but it did not see the Side Letter Agreement until several 
+months after that agreement had been signed. In December 2018, Baxter submitted 
+its final payment request of $1,762,308.80 to Senior Care. It is undisputed that 
+
+15 
+ 
+Baxter had not obtained all lien waivers from its subcontractors. Despite this, Senior 
+Care submitted Baxter’s payment request to Preston Hollow. Preston Hollow 
+requested that Senior Care provide it with additional information, including the Side 
+Letter Agreement, and it also communicated directly with Baxter concerning the 
+payment dispute. Ultimately, Preston Hollow did not approve the disbursement 
+request to Baxter, and Baxter filed a lien against the property in March 2019.6 
+At the same time that Senior Care sought disbursement of $1.7 million to pay 
+Baxter, it also sought disbursement of approximately $574,000 to pay its property 
+taxes that were due on January 31, 2019. A Preston Hollow employee replied that 
+“there is not a line item in the project budget for [real estate taxes] and funding for 
+this line item via project fund appears to run contrary to the Master Trust Indenture.” 
+This employee stated, “[I]t appears that real estate taxes are to be funded by [Senior 
+ 
+6  
+Senior Care has consistently taken the position that Baxter’s lien is untimely 
+because Baxter finished construction in January 2018 but did not file a lien affidavit 
+until March 2019. Senior Care also filed a separate lawsuit against Baxter seeking 
+a declaratory judgment that the lien was void and asserting that the lien was an 
+unlawful cloud on Senior Care’s title. Baxter moved to dismiss Senior Care’s suit 
+under the Texas Citizen’s Participation Act. After the trial court denied the motion 
+to dismiss, Baxter filed an interlocutory appeal. Shortly before trial in the underlying 
+proceeding, this Court issued an opinion affirming the trial court’s denial of the 
+motion to dismiss. See Baxter Constr. Co. v. Senior Care Living VI, LLC, No. 01-
+19-00728-CV, 2021 WL 1916476, at *3–4 (Tex. App.—Houston [1st Dist.] May 
+13, 2021, no pet.) (mem. op.). 
+
+16 
+ 
+Care].” Preston Hollow did not agree to disburse funds to pay the property taxes, 
+and those taxes became delinquent.7 
+On March 25, 2019, at the direction of Preston Hollow, BB&T sent a “Notice 
+of Covenant Breaches and Events of Default and Demand Letter” to Bouldin and 
+Senior Care. This letter stated that Baxter alleged that it was owed over $2.2 million 
+for work performed on the project; Baxter had recorded a lien affidavit and claim in 
+the amount of $1,762,308.80 with the Fort Bend County Clerk; and Senior Care 
+owed approximately $614,000 in assessed and unpaid taxes to three Fort Bend 
+County taxing authorities. The letter informed Senior Care that its failure to pay 
+Baxter’s claim within 30 days of the notice would constitute an “Event of Default” 
+under the bond documents. BB&T demanded that Senior Care pay $852,777.11—
+representing the difference between the amount of Baxter’s claim and the amount of 
+funds currently on deposit in the Project Fund—within 30 days. BB&T also made a 
+demand upon Bouldin that he fully pay Baxter’s claim pursuant to the Completion 
+Guaranty that he signed. BB&T also stated that Senior Care’s failure to extinguish 
+Baxter’s lien within 30 days and pay the unpaid taxes within 30 days would also 
+constitute “Events of Default.” 
+ 
+7  
+Ultimately, Preston Hollow approved payment of the property taxes in June 2019 
+after BB&T had declared Senior Care in default on the Notes and accelerated the 
+balance of the loan. 
+
+17 
+ 
+On April 8, 2019, BB&T sent Senior Care and Bouldin a “Supplemental 
+Notice of Breaches and Events of Default and Notice of Intent to Accelerate.” In this 
+letter, BB&T referenced its March 25 letter and stated that if Senior Care failed to 
+timely cure the conditions set out in the previous letter, BB&T or Preston Hollow 
+“shall declare an Event of Default under each of the related Bond Documents and 
+accelerate (subject to further election and notice to you) and declare immediately 
+due and payable all amounts due and owing pursuant to” the various bond 
+documents. 
+On May 31, 2019, BB&T sent a “Notice of Events of Default under the Bond 
+Documents and Acceleration of Maturity of Notes and Bonds.”8 BB&T stated that 
+Senior Care had failed to cure the conditions set out in the two previous letters. 
+Therefore, BB&T, at Preston Hollow’s direction, declared that an “Event of Default” 
+had occurred under the Bond Indenture, the Master Indenture, and the Loan 
+Agreement. BB&T declared that the Notes and the bonds were accelerated and that 
+the entire principal of the Notes and the unpaid principal and interest on the bonds 
+were immediately due and payable in full. On June 3, 2019, Bouldin acknowledged 
+in an email to Gregory Yanok, a vice president at BB&T and Bouldin’s main point 
+ 
+8  
+The day after this notice, on June 1, 2019, an interest payment was due on the Notes. 
+BB&T applied proceeds from a reserve account to this payment, and therefore 
+Senior Care was able to meet this obligation. Senior Care has not, however, made 
+any further interest payments. 
+
+18 
+ 
+of contact, that Senior Care had received a copy of the acceleration notice. Bouldin 
+requested a payoff statement for the total outstanding amount owed. It is undisputed 
+that neither BB&T nor Preston Hollow provided a payoff statement to Senior Care. 
+In early July 2019, Yanok notified Bouldin via email that BB&T intended to 
+resign as the Master Trustee and Bond Trustee and that TMI “will succeed us as 
+Trustee.” Bouldin acknowledged BB&T’s resignation and stated that he would “take 
+a look at TMI . . . since [Senior Care] picks the Trustee and Successor Trustee” and 
+would “let [Yanok] know shortly who we’d like to go with.” In a later email, Bouldin 
+indicated that Senior Care’s management company was “looking into” who it 
+wanted as a successor trustee. Bouldin stated that he did not “think the appointment 
+of the successor is necessary before you resign.” Yanok responded, “We need to 
+appoint a successor for the sake of resignation. I [believe] you can appoint anyone 
+thereafter[.]” 
+On July 12, 2019, BB&T appointed TMI and UMB Bank as co-trustees under 
+the Master Indenture and the Bond Indenture. This notice stated that UMB Bank and 
+TMI “have agreed to assume the role of co-Trustee for each of these trusts,” and 
+stated that if BB&T resigns, “the co-Trustees shall succeed to all roles and 
+responsibilities of the predecessor Trustee.” 
+On July 17, 2019, BB&T sent Senior Care a written “Notice of Trustee 
+Resignation.” This notice informed Senior Care that BB&T was resigning as Master 
+
+19 
+ 
+Trustee and Bond Trustee. BB&T also “recognize[d] the authority of the duly-
+appointed co-Trustee(s), TMI Trust Company (‘TMI’) and UMB Financial 
+Corporation (‘UMB’)” to serve as successor Master Trustees and Bond Trustees. 
+Preston Hollow, as the Noteholder Representative and Series 2017A Majority 
+Representative, sent a notice to all parties on October 10, 2019, “further 
+memorializ[ing]” BB&T’s resignation as Master Trustee and Bond Trustee and the 
+appointment of UMB Bank and TMI as co-successor Master Trustee and Bond 
+Trustee. 
+Preston Hollow and UMB Bank sent notices of additional “Events of Default” 
+by Senior Care in October 2019, after the debt had already been accelerated and 
+Senior Care had filed suit. These alleged defaults included Senior Care’s failure to 
+deposit Gross Revenues into the Blocked Account; the transfer of over $300,000 
+from Senior Care to Senior Care Living VII, the owner of the Lewisville assisted 
+living facility; and Senior Care’s failure to replenish the debt service reserve fund 
+after money in that fund was used to make Senior Care’s June 1, 2019 interest 
+payment on the Notes. Preston Hollow and UMB Bank did not learn about these 
+alleged defaults until after the original default notices were sent in March, April, and 
+May 2019. 
+
+20 
+ 
+C. 
+Procedural Background 
+In August 2019, UMB Bank posted the property for a foreclosure sale in early 
+September. Senior Care then filed the underlying proceeding against UMB Bank and 
+TMI.9 Initially, neither Bouldin nor Preston Hollow were parties to this proceeding.10 
+Senior Care sought injunctive relief to halt the pending foreclosure sale and to 
+prohibit UMB Bank and TMI from taking any action under the bond documents. 
+Senior Care also sought a declaratory judgment that (1) the appointment of UMB 
+Bank and TMI as Bond Trustees “is void and of no effect”; (2) Senior Care was 
+entitled to select a successor Bond Trustee under the provisions of the Master 
+Indenture; and (3) Senior Care was not in default under the Loan Agreement or 
+Master Indenture. 
+UMB Bank, in its capacities as co-successor Master Trustee and co-successor 
+Bond Trustee, asserted a counterclaim for breach of contract, alleging that Senior 
+ 
+9  
+Senior Care also sued Wade Williams, the substitute trustee under the deed of trust 
+securing the property. Senior Care subsequently nonsuited its claims against 
+Williams. No judgment was rendered against Williams, and he is not a party to this 
+appeal. 
+ 
+10  
+Prior to Senior Care’s lawsuit, Preston Hollow filed suit against Bouldin in federal 
+district court. Bouldin argued that Senior Care was a necessary party and suit could 
+not proceed against him alone. After Preston Hollow added Senior Care as a 
+defendant, the federal district court dismissed the case due to lack of diversity of 
+citizenship. 
+ 
+
+21 
+ 
+Care had failed to comply with its obligations under the “Bond Documents.”11 As 
+damages, UMB Bank sought recovery of the outstanding amount of principal on the 
+bonds—$44,675,000—as well as interest, fees, and costs. UMB Bank also sought a 
+declaration that it and TMI had been appropriately appointed co-successor Bond 
+Trustees under the Bond Indenture and co-successor Master Trustees under the 
+Master Indenture. Additionally, UMB Bank sought appointment of a receiver for 
+Senior Care. 
+Preston Hollow filed a petition in intervention and adopted UMB Bank’s 
+counterclaims. Preston Hollow also filed a separate suit against Bouldin on the 
+Guaranty, and it requested that the trial court consolidate the two cases. The trial 
+court consolidated the cases, and Bouldin became a party to the underlying 
+proceeding. After Preston Hollow became a party and asserted claims, UMB Bank 
+and TMI “conditionally asserted” the same claims against Senior Care and Bouldin 
+that Preston Hollow asserted. These claims included a claim against Senior Care for 
+breach of contract and a claim against Bouldin under the Guaranty. 
+After the trial court granted Preston Hollow’s motion to consolidate, Senior 
+Care filed an amended petition. In this amended petition, Senior Care alleged that 
+ 
+11  
+The trial court’s Findings of Fact and Conclusions of Law defined “Bond 
+Documents” as the Bond Indenture, the Master Indenture, the Loan Agreement, the 
+Deed of Trust, the Guaranty Agreement, the Completion Guaranty, and “all other 
+documents executed in connection with the bonds.” 
+
+22 
+ 
+Preston Hollow had tortiously interfered with the Side Letter Agreement and the 
+bond documents by, among other things, wrongfully declaring default and 
+wrongfully refusing to authorize requested disbursements. Senior Care alleged that 
+UMB Bank and TMI had tortiously interfered with the bond documents by acting as 
+Master Trustees without authority to do so. It alleged that if Preston Hollow was a 
+party to the bond documents, Preston Hollow breached the documents by improperly 
+declaring a default and accelerating the debt. Senior Care also alleged that Preston 
+Hollow, UMB Bank, and TMI had converted its property by wrongfully exercising 
+control over money held by BB&T. In connection with the conversion claim, Senior 
+Care also asserted a claim for money had and received. Senior Care continued to 
+seek declaratory relief. 
+During the pendency of the proceedings, UMB Bank and TMI moved for the 
+appointment of a receiver. In July 2020, the trial court entered a consent order, noting 
+that UMB Bank, TMI, Preston Hollow, and Senior Care had all consented to the 
+appointment of Michael Morgan of Healthcare Management Partners, LLC, as the 
+receiver of Senior Care’s property. Morgan, as the receiver, was given complete 
+control over the property, as well as the right to operate the assisted living facility. 
+The parties also filed cross-motions for partial summary judgment. Senior 
+Care, in its motions, sought summary judgment that UMB Bank and TMI had not 
+properly been appointed as co-successor Master Trustees under the terms of the 
+
+23 
+ 
+Master Indenture, which contemplated that Senior Care, as the Obligor, should have 
+the first choice for appointing a successor Master Trustee upon BB&T’s resignation. 
+As a result, UMB Bank and TMI had no capacity or standing to bring any affirmative 
+claims against Senior Care and their claims should therefore be dismissed. With 
+respect to Preston Hollow, Senior Care argued in a separate summary judgment 
+motion that Preston Hollow lacked capacity to assert any claims against Senior Care 
+because the Master Indenture provided limited authority for Preston Hollow, as the 
+Noteholder Representative, to seek remedies in lieu of the Master Trustee, and it 
+could only do so if it had provided notice to the Master Trustee. 
+Bouldin moved for summary judgment against Preston Hollow, UMB Bank, 
+and TMI on their claims that he was liable to them under the Guaranty. Specifically, 
+Bouldin argued that the only parties to the Guaranty were Bouldin himself and 
+BB&T as Master Trustee; Preston Hollow was not a party to the Guaranty, and 
+therefore it could not sue him to enforce the Guaranty. He further argued that, to the 
+extent Preston Hollow relied on provisions in the Master Indenture that allowed it, 
+as the Noteholder Representative, to pursue certain remedies, Preston Hollow could 
+not pursue such remedies against Bouldin, who was not a party to the Master 
+Indenture. Bouldin also argued that even if Preston Hollow could enforce the 
+Guaranty, none of the events that would trigger Bouldin’s liability under the 
+Guaranty had occurred. 
+
+24 
+ 
+In response to Senior Care’s summary judgment motion, UMB Bank, and 
+TMI argued that the language of the Master Indenture allowed both the Master 
+Trustee and the Noteholder Representative to “undertake remedial action in 
+conjunction with one another.” UMB Bank and TMI also sought partial summary 
+judgment, arguing that they had been properly appointed as co-successor trustees 
+under the relevant bond documents, and therefore they had capacity to pursue claims 
+against Senior Care. 
+The trial court signed an order granting UMB Bank and TMI’s summary 
+judgment motion. The court granted declaratory judgment and ruled that UMB Bank 
+and TMI had been properly appointed as co-successor Master Trustees and co-
+successor Bond Trustees. The court denied Senior Care’s and Bouldin’s summary 
+judgment motions. 
+Preston Hollow, UMB Bank, and TMI also filed motions for a pretrial 
+determination of a legal matter under Rule of Civil Procedure 166(g) on several of 
+Senior Care’s claims. Relevant to this appeal, the defendants argued that the trial 
+court could rule as a matter of law that Senior Care’s claims for conversion and 
+money had and received should be dismissed because (1) UMB Bank and TMI were 
+properly appointed as co-successor Bond Trustees under the Bond Indenture and 
+therefore could exercise control over funds held by the trustee; (2) the Bond 
+Indenture provided that the funds were held in trust for the benefit of the 
+
+25 
+ 
+bondholders, and therefore the funds did not belong to Senior Care; (3) Preston 
+Hollow was expressly entitled to approve or disapprove of disbursement requests for 
+funds held by the trustee; and (4) the claims were barred by the economic loss rule. 
+The trial court granted this motion and dismissed Senior Care’s claims for 
+conversion and money had and received before trial. 
+Over the course of a week, the trial court heard testimony on the parties’ 
+claims in a bench trial. The parties also agreed to submit documentary evidence 
+concerning their attorney’s fees, and the trial court reviewed this evidence as well. 
+The court signed a final judgment on August 4, 2021. This judgment incorporated 
+the court’s pretrial summary judgment ruling granting a declaratory judgment that 
+UMB Bank and TMI were duly appointed as co-successor Bond Trustees under the 
+Bond Indenture and co-successor Master Trustees under the Master Indenture. The 
+court also incorporated its Rule 166(g) ruling dismissing Senior Care’s claims for 
+conversion and money had and received. 
+The court ordered that Senior Care take nothing on its affirmative claims. It 
+further ordered that Preston Hollow, in its capacities as the Noteholder 
+Representative under the Master Indenture and the Series 2017A Majority 
+Representative under the Bond Indenture, be granted judgment against Senior Care 
+on Preston Hollow’s breach of contract claim and against Bouldin under the 
+Guaranty. The court awarded Preston Hollow $52,597,040.06 in damages against 
+
+26 
+ 
+Senior Care and Bouldin, jointly and severally, with this amount consisting of 
+$44,675,000 in outstanding principal, $7,407,359.79 in pre-judgment interest 
+through the start date of the trial, and $514,680.27 in pre-judgment interest from the 
+second day of trial through the date of judgment. 
+The court further awarded Preston Hollow, UMB Bank, and TMI $250,000 in 
+unpaid attorney’s fees and litigation expenses, plus a total of $520,000 in conditional 
+appellate attorney’s fees. The court also re-appointed Michael Morgan as the post-
+judgment receiver and issued a separate order setting out his rights and duties. The 
+court denied “all other claims and causes of action.” The trial court also issued 
+extensive findings of fact and conclusions of law in support of its judgment.12 
+Senior Care and Bouldin moved for a new trial. These motions were overruled 
+by operation of law, and both Senior Care and Bouldin filed notices of appeal. 
+Appointment of Successor Trustees 
+In its first issue, Senior Care argues that the trial court erred by granting UMB 
+Bank and TMI’s summary judgment motion and ruling that UMB Bank and TMI 
+were properly appointed as co-successor Master Trustees under the Master 
+Indenture. Senior Care also argues that the trial court erroneously denied Senior 
+Care’s summary judgment motion on this issue. 
+ 
+12  
+Although Senior Care and Bouldin requested that the trial court enter additional and 
+amended findings of fact and conclusions of law, the trial court did not do so. 
+
+27 
+ 
+A. 
+Standard of Review 
+We review a trial court’s summary judgment ruling de novo. Hlavinka v. HSC 
+Pipeline P’ship, LLC, 650 S.W.3d 483, 491 (Tex. 2022). When parties file cross 
+motions for summary judgment, each party bears the burden of establishing that it is 
+entitled to judgment as a matter of law. City of Richardson v. Oncor Elec. Delivery 
+Co., 539 S.W.3d 252, 259 (Tex. 2018); TEX. R. CIV. P. 166a(c). When the trial court 
+grants one motion and denies the other, we must determine all questions presented 
+and render the judgment the trial court should have rendered. City of Richardson, 
+539 S.W.3d at 259. 
+Construction of a contract is also a question of law that we review de novo. 
+Sundown Energy LP v. HJSA No. 3, Ltd. P’ship, 622 S.W.3d 884, 888 (Tex. 2021) 
+(per curiam). When construing a contract, our primary concern is to give effect to 
+the “written expression of the parties’ intent.” Id. (quotations omitted). We must 
+construe words in the context in which they are used, but we cannot interpret a 
+contract to ignore clearly defined terms. Id. (quotations omitted); URI, Inc. v. 
+Kleberg Cnty., 543 S.W.3d 755, 764 (Tex. 2018) (stating that we interpret contract 
+language according to its plain, ordinary, and generally accepted meaning unless 
+instrument directs otherwise). We must also avoid construing contracts in a way that 
+renders the contractual language meaningless. Sundown Energy, 622 S.W.3d at 888. 
+
+28 
+ 
+B. 
+Whether UMB Bank and TMI Were Properly Appointed as Co-Successor 
+Master Trustees 
+Both the Master Indenture and the Bond Indenture contain provisions 
+governing the resignation of the initial Master Trustee and Bond Trustee and the 
+appointment of successor trustees. 
+Section 8.09 of the Master Indenture provides: 
+(a) 
+No resignation or removal of the Master Trustee and no 
+appointment of a successor Master Trustee pursuant to this Article shall 
+become effective until the acceptance of appointment by the successor 
+Master Trustee under Section 8.10. 
+ 
+(b) 
+The Master Trustee may resign at any time by giving written 
+notice thereof to the Obligor. If an instrument of acceptance by a 
+successor Master Trustee shall not have been delivered to the Master 
+Trustee within 30 days after the giving of such notice of resignation, 
+the resigning Master Trustee may petition any court of competent 
+jurisdiction for the appointment of a successor Master Trustee. 
+ 
+(c) 
+The Master Trustee may be removed at any time by Act of the 
+Majority Holders or the Noteholder Representative delivered to the 
+Master Trustee and to the Obligor. 
+ 
+Section 8.09(e) specifically governs appointment of a successor Master 
+Trustee and provides: 
+If the Master Trustee shall resign, be removed or become incapable of 
+acting, or if a vacancy shall occur in the office of Master Trustee for 
+any cause, the Obligor, by an Obligor Request, shall promptly appoint 
+a successor Master Trustee with the consent of the Noteholder 
+Representative (which consent shall not be unreasonably withheld). If, 
+within one year after such resignation, removal or incapability, or the 
+occurrence of such vacancy, a successor Master Trustee shall be 
+appointed by Act of the Noteholder Representative delivered to the 
+Obligor and the retiring Master Trustee, the successor Master Trustee 
+so appointed shall, forthwith upon its acceptance of such appointment, 
+
+29 
+ 
+become the successor Master Trustee and supersede the successor 
+Master Trustee appointed by the Obligor. If no successor Master 
+Trustee shall have been so appointed by the Obligor or the Noteholder 
+Representative and accepted appointment in the manner hereinafter 
+provided, the Master Trustee or any Holder of Obligations who has 
+been a bona fide Holder of an Obligation for at least 6 months may, on 
+behalf of itself and all others similarly situated, petition any court of 
+competent jurisdiction for the appointment of a successor Master 
+Trustee. 
+ 
+Section 8.10 requires every successor Master Trustee to execute an instrument 
+accepting the appointment and deliver the acceptance to the Obligor and the retiring 
+Master Trustee. The resignation of the retiring Master Trustee then becomes 
+effective, and the successor Master Trustee becomes “vested with all the rights, 
+powers, trusts, and duties of the retiring Master Trustee.” 
+ 
+Section 8.13 addresses the appointment of co-trustees. Under this section, 
+“[a]t any time or times . . . the Obligor and the Master Trustee shall have power to 
+appoint, one or more Persons to act as co-trustee jointly with the Master Trustee of 
+all or any part of the Trust Estate, with the power to file such proofs of claim and 
+take such other actions pursuant to Article VII herein to make such claims and 
+enforce such rights of action on behalf of the Holders . . . .” Section 8.13(b) directs 
+that Senior Care, as Obligor, “shall join with the Master Trustee in the execution, 
+delivery and performance of all instruments and agreements necessary or proper to 
+appoint a co-trustee,” but if it does not “join in such appointment” within 15 days of 
+
+30 
+ 
+being asked to do so, “the Master Trustee shall have power to make such 
+appointment on its own.” 
+ 
+The Bond Indenture also contains provisions governing the resignation of the 
+Bond Trustee and appointment of a successor. Section 906 allows the Bond Trustee 
+to resign at any time by providing 30 days’ notice to the Issuer, Obligor, and “each 
+Holder of Bonds then Outstanding.” The Bond Indenture provides as follows with 
+respect to the appointment of a successor Bond Trustee: 
+(a) 
+In case the Bond Trustee hereunder shall resign . . . a successor 
+may be appointed by the Series 2017A Majority Representative or, if 
+there is no Series 2017A Majority Representative, the Obligor, by an 
+instrument or concurrent instruments in writing signed by such 
+Holders; provided, however, that in case of such vacancy the Issuer by 
+an instrument signed by the President may appoint a temporary Bond 
+Trustee to fill such vacancy until a successor Bond Trustee shall be 
+appointed by the Series 2017A Majority Representative, or, if there is 
+no Series 2017A Majority Representative, the Obligor, in the manner 
+provided above; and any such temporary Bond Trustee so appointed 
+shall immediately and without further act be superseded by the Bond 
+Trustee so appointed by the Series 2017A Majority Representative or, 
+if there is no Series 2017A Majority Representative, the Obligor. 
+ 
+Section 916 of the Bond Indenture—like section 8.13 of the Master 
+Indenture—gives the Issuer (Woodloch) and the Bond Trustee the power to appoint 
+a co-trustee. The Issuer “shall join with the Bond Trustee” in executing all 
+instruments necessary to appoint a co-trustee, but if the Issuer does not join in such 
+appointment within 15 days, “the Bond Trustee shall have power to make such 
+appointment on its own.” In the summary judgment proceedings, Senior Care argued 
+
+31 
+ 
+only that UMB Bank’s and TMI’s appointments as Master Trustee under the Master 
+Indenture were improper. It did not challenge UMB Bank’s and TMI’s appointments 
+under the Bond Indenture. 
+ 
+The summary judgment evidence includes an email exchange between Yanok, 
+on behalf of BB&T, and Bouldin that occurred in early July 2019. At that point, 
+BB&T had already sent the notices declaring Senior Care in default and accelerating 
+the debt. On July 5, 2019, Yanok informed Bouldin that BB&T intended to resign 
+as trustee and “TMI Trust Company will succeed us as Trustee.” Yanok stated that 
+“[f]or the immediate future, we will maintain the present Agency duties (Registrar 
+and Paying Agent) until such time as we transition those functions to TMI.” On July 
+8, 2019, Bouldin responded and stated: “I’ll take a look at TMI (I’m unfamiliar with 
+them currently), since the Obligor picks the Trustee and Successor Trustee, I’ll let 
+you know shortly who we’d like to go with.” 
+On July 9, 2019, after Yanok asked Bouldin if he could send certain 
+information on Senior Care to TMI, Bouldin responded that Senior Care’s 
+management company was “looking into whom they want as a successor trustee.” 
+Bouldin then stated, “So it probably doesn’t make sense to get anyone else working 
+on it until they decide. I don’t think the appointment of the successor is necessary 
+before you resign though if you’re in a time crunch for some reason.” Yanok replied: 
+
+32 
+ 
+“We need to appoint a successor for the sake of resignation. I [believe] you can 
+appoint anyone thereafter[.]” 
+On July 12, 2019, three days after Yanok and Bouldin’s email exchange 
+concluded, Yanok, on behalf of BB&T, sent Senior Care a “Notice of Co-Trustee 
+Appointment.” This notice stated: 
+In accordance with the indentures (Indentures) for the referenced bond 
+trusts, Branch Banking and Trust Company (“BB&T[”]), as Trustee 
+(“Trustee”) has exercised its right to appoint co-Trustees for said trusts. 
+[TMI Trust Company (“TMI”) and UMB Financial Corporation 
+(“UMB”), collectively and severally] have agreed to assume the role of 
+co-Trustee for each of these trusts, thereby also assuming all rights and 
+responsibilities of the Trustee under the respective indentures and 
+respective governing documents. Furthermore and in the event that the 
+Trustee resigns or is removed, the co-Trustees shall succeed to all roles 
+and responsibilities of the predecessor Trustee. 
+ 
+Five days later, on July 17, 2019, Yanok sent Senior Care a “Notice of Trustee 
+Resignation.” In this document, BB&T gave notice of its intent to resign as “Trustee 
+for said trusts, effective immediately and in no event longer than the 30 days after 
+this notice as provided under the Indentures and governing documents.” BB&T also 
+“recognizes the authority of the duly-appointed co-Trustee(s), TMI Trust Company 
+(“TMI”) and UMB Financial Corporation (“UMB”), collectively and severally, to 
+also serve also as successor Trustee(s) and upon resignation or removal of the 
+Trustee to thereby assume to all rights and responsibilities of the Trustee under the 
+Indentures and governing documents.” 
+
+33 
+ 
+On October 10, 2019, Preston Hollow sent a notice memorializing BB&T’s 
+two prior notices. Preston Hollow stated that BB&T had resigned as Master Trustee 
+and Bond Trustee. Pursuant to a July 8, 2019 “Co-Trustee Appointment Agreement,” 
+TMI and UMB Bank had accepted the appointment as co-successor Master Trustees 
+and Bond Trustees, and Preston Hollow as the Noteholder Representative and Series 
+2017A Majority Representative consented. In a declaration included as an exhibit in 
+the summary judgment proceedings, Bouldin declared that Senior Care’s “consent 
+to the appointment of either UMB Bank or TMI Trust Company” was not obtained, 
+and Senior Care “was not given any right to select or approve the appointment of 
+any substitute trustee.” 
+ 
+The trial court granted summary judgment in favor of UMB Bank and TMI. 
+In its order, the court declared that UMB Bank and TMI are “duly appointed and 
+acting co-successor Bond Trustee[s] under the Bond Indenture” and are “duly 
+appointed and acting co-successor Master Trustee[s] under the Master Indenture, 
+made the subject of this lawsuit, respectively.” The court incorporated its ruling into 
+the final judgment and again declared that UMB Bank and TMI were duly appointed 
+and acting co-successor Bond Trustees and co-successor Master Trustees. In Finding 
+of Fact Number 8, the court found that “[i]n July 2019, UMB Bank, N.A. (‘UMB’) 
+and TMI Trust Company (‘TMI’) were properly appointed co-successor Master 
+
+34 
+ 
+Trustees under the Master Indenture and co-successor Bond Trustees under the Bond 
+Indenture, in place of BBT.”13 
+ 
+Senior Care argues that the Master Indenture contains plain language 
+concerning the appointment of a successor Master Trustee, but the language was not 
+followed here. Specifically, Section 8.09(e) of the Master Indenture contemplates 
+that Senior Care has the first choice of appointing a successor Master Trustee upon 
+BB&T’s resignation. Senior Care contends that because the Master Indenture was 
+not followed, UMB Bank’s and TMI’s appointments as successor Master Trustees 
+are void, and they may not maintain any cause of action against Senior Care. 
+ 
+UMB Bank and TMI, on the other hand, argue that BB&T permissibly 
+appointed UMB Bank and TMI as co-trustees under Section 8.13 of the Master 
+Indenture—an act which did not require Senior Care’s consent—and then resigned 
+as Master Trustee, leaving UMB Bank and TMI as its successors. 
+We agree with UMB Bank and TMI that their appointment as co-trustees by 
+BB&T under Section 8.13 was effective. The summary judgment evidence 
+demonstrates that on July 12, 2019, BB&T sent a notice appointing UMB Bank and 
+TMI as co-trustees under the Master Indenture and Bond Indenture. Section 8.13 of 
+ 
+13  
+In Conclusion of Law Number 72, the trial court concluded that UMB Bank and 
+TMI were appointed as co-successor Master Trustees and co-successor Bond 
+Trustees under the relevant indentures “and, therefore, have capacity and standing 
+to sue, as does the Representative [Preston Hollow] pursuant to section 7.20 of the 
+Master Indenture.” 
+
+35 
+ 
+the Master Indenture explicitly vests the Master Trustee with “power to appoint” one 
+or more persons to “act as co-trustee jointly with the Master Trustee.” 
+ 
+Senior Care argues that BB&T’s action of appointing UMB Bank and TMI as 
+co-trustees was a “nullity” because BB&T did not have the authority to act 
+unilaterally in making this appointment; instead, BB&T was required to obtain 
+Senior Care’s consent. The plain language of the contract refutes this argument. 
+Section 8.13 contemplates that the Obligor and the Master Trustee “shall join” in the 
+execution of instruments necessary for such an appointment, but this section also 
+gives the Master Trustee the power to make the appointment “on its own” if the 
+Obligor does not join. The Master Indenture itself thus allowed BB&T, as Master 
+Trustee, to appoint co-trustees, even if Senior Care did not consent to the 
+appointment. We therefore conclude that the trial court properly granted UMB Bank 
+and TMI’s motion for summary judgment on whether they had been properly 
+appointed as co-trustees under the Master Indenture. 
+ 
+We overrule Senior Care’s first issue. 
+Preston Hollow’s Capacity to Bring Suit 
+In its second issue, Senior Care argues that Preston Hollow lacked capacity to 
+sue Senior Care for breach of contract because Preston Hollow failed to satisfy the 
+condition precedent of providing the required notice to the Master Trustee of its 
+
+36 
+ 
+intent to exercise rights and remedies in lieu of the Master Trustee, as required by 
+the Master Indenture.14 
+A. 
+Preston Hollow’s Provision of Notice to Master Trustee 
+“A condition precedent is an event that must happen or be performed before 
+a right can accrue to enforce an obligation.” Solar Applications Eng’g, Inc. v. T.A. 
+Operating Co., 327 S.W.3d 104, 108 (Tex. 2010). If an express condition is not 
+satisfied, then the party whose performance is conditioned is excused from any 
+ 
+14  
+Both Bouldin and Senior Care argue—in their second and third issues, 
+respectively—that Preston Hollow cannot recover on its breach of contract claim 
+because the copy of the Master Indenture admitted at trial indicated that it had been 
+amended, but Preston Hollow did not introduce an amended version of the Master 
+Indenture into evidence, and therefore Preston Hollow “failed to prove up the 
+operative text of the Master Indenture—which is the only document that could 
+possibly allow [Preston Hollow] to sue.” We first note that Senior Care’s claims for 
+affirmative relief included a claim that Preston Hollow “breached the bond 
+documents.” At trial, Senior Care offered the original, unamended Master Indenture 
+into evidence during direct examination of Bouldin, and the trial court admitted the 
+exhibit. No party argued that this was an inoperable version of the Master Indenture 
+or sought to introduce an amended Master Indenture into evidence. 
+ 
+Regardless, Bouldin and Senior Care did not carry their burden on this issue. 
+“Parties have the power to modify their contracts.” Hathaway v. Gen. Mills, Inc., 
+711 S.W.2d 227, 228 (Tex. 1986). Whether a contract has been modified depends 
+on the parties’ intentions and is a question of fact. Id. at 228–29. A modification 
+must satisfy the elements of a contract: there must be a meeting of the minds 
+supported by consideration. Id. at 228. The party asserting the modification bears 
+the burden of proving modification. Id. at 229; Ifiesimama v. Haile, 522 S.W.3d 
+675, 685 (Tex. App.—Houston [1st Dist.] 2017, pet. denied). Senior Care did not 
+attempt to establish in the trial court that the Master Indenture had been amended, 
+and it obtained no fact findings on amendments modifying the Master Indenture. 
+We conclude that Senior Care and Bouldin may not argue, for the first time on 
+appeal, that the version of the Master Indenture that Senior Care introduced into 
+evidence is not the operative version of the Master Indenture. We overrule this 
+portion of Bouldin’s second issue and Senior Care’s third issue. 
+
+37 
+ 
+obligation to perform. Id.; see State Farm Lloyds v. Hanson, 500 S.W.3d 84, 96 
+(Tex. App.—Houston [14th Dist.] 2016, pet. denied) (“A condition precedent may 
+be either a condition to the formation of a contract or a condition to an obligation to 
+perform an existing agreement.”). 
+To determine whether a condition precedent exists, we must ascertain the 
+intention of the parties, which can only be done by looking at the entire contract. 
+Solar Applications Eng’g, 327 S.W.3d at 109. To make performance specifically 
+conditional, “a term such as ‘if,’ ‘provided that,’ ‘on condition that,’ or some similar 
+phrase of conditional language must normally be included.” Id. (quoting Criswell v. 
+European Crossroads Shopping Ctr., Ltd., 792 S.W.2d 945, 948 (Tex. 1990)). When 
+no conditional language is used and another reasonable interpretation of the contract 
+is possible, we construe the terms as a covenant to prevent a forfeiture. Id. 
+Under Rule of Civil Procedure 54, if the plaintiff pleads that all conditions 
+precedent have been performed, the plaintiff is required to prove only the conditions 
+precedent that the defendant has specifically denied. TEX. R. CIV. P. 54; Hanson, 500 
+S.W.3d at 96. Here, in its live pleading, Preston Hollow alleged that “[a]ll conditions 
+precedent to the causes of action and requests for relief asserted in this pleading have 
+occurred, been performed or waived.” Senior Care, in its amended answer, asserted 
+that Preston Hollow’s claims were barred by failure of condition precedent because 
+Preston Hollow failed to show that it provided written notice to the Master Trustee 
+
+38 
+ 
+that it would exercise the rights in Section 7.20 of the Master Indenture in lieu of the 
+Master Trustee. 
+Section 7.20 of the Master Indenture is entitled “Actions Taken by Noteholder 
+Representative in Lieu of the Master Trustee” and it provides: 
+Notwithstanding anything in this Indenture to the contrary, if an Event 
+of Default shall have occurred and be continuing, the Noteholder 
+Representative, in its sole discretion as evidenced by written notice 
+delivered to the Master Trustee, may (but shall not be required to), (i) in 
+lieu of the Master Trustee, exercise such one or more of the rights and 
+powers conferred on the Master Trustee by this Article VII or under any 
+Supplement; and (ii) in lieu of the Master Trustee, exercise such rights 
+and powers granted to Issuer under the Indenture, and such rights of the 
+Holders under this Article VII, either by a suit or suits in equity or in 
+law for the enforcement of any appropriate equitable or legal remedy 
+the Noteholder Representative shall deem most expedient in the 
+interests of the Holders. 
+ 
+(Emphasis added.) 
+Senior Care acknowledges that on August 29, 2019, Preston Hollow’s counsel 
+emailed several people, including Lorna Gleason at UMB Bank, and notified them 
+that counsel intended to file an amended complaint in the federal court action against 
+Bouldin that added Senior Care as a defendant. The amended complaint was attached 
+to the email. The email also noted that the amended filing “includes input from” 
+UMB Bank and TMI’s counsel. At trial, Gleason agreed that UMB Bank had been 
+informed in writing that Preston Hollow had elected to sue Senior Care before it 
+filed suit against Senior Care. 
+
+39 
+ 
+Preston Hollow also provided a “Supplemental Notice Pursuant to Section 
+7.20 of the MTI and Section 813 of the Trust Indenture” to UMB Bank and TMI on 
+April 23, 2021, approximately two months before trial. In this letter, Preston Hollow 
+“restat[ed its] election” to pursue claims against Senior Care and Bouldin. Preston 
+Hollow attached to this letter a “Trustee Notice Pursuant to Section 7.20 of the MTI 
+and Section 813 of the Trust Indenture” that it had provided to BB&T on May 31, 
+2019. In that prior notice, Preston Hollow informed BB&T that it intended to pursue 
+remedies in federal court against Bouldin under the Guaranty. In Finding of Fact 
+Number 33, the trial court found that “Preston Hollow elected to pursue remedies 
+against Senior Care and Bouldin and provided written notice of its election pursuant 
+to Section 7.20 of the Master Indenture.”15 
+Preston Hollow argues that section 7.20 does not make its “written notice a 
+prerequisite to proceeding in lieu of the Trustee”; instead, “[t]he provision merely 
+notes that [Preston Hollow’s] election to proceed will be ‘evidenced’ by written 
+notice.” We agree with Preston Hollow. Section 7.20 does not contain the hallmarks 
+of a condition precedent, even when read in context with the rest of the contract. 
+ 
+15  
+In Conclusion of Law Number 70, the trial court concluded that “[t]he notice 
+contemplated under Section 7.20 is to the Trustee—not Senior Care—and it is for 
+the Trustee’s benefit.” The court further concluded that Preston Hollow’s witnesses 
+“testified that written notice was provided by Preston Hollow to the Trustee, 
+including in the form of default notices, court pleadings and other documents. In 
+any event, the Representative [Preston Hollow] provided written notice of Preston 
+Hollow’s election under Section 7.20 of the Master Indenture.” 
+
+40 
+ 
+Section 7.20 contemplates that written notice will constitute contemporaneous or 
+after-the-fact proof that an election has taken place. To make Preston Hollow’s 
+capacity to sue specifically conditional on written notice, “a term such as ‘if,’ 
+‘provided that,’ ‘on condition that,’ or some similar phrase of conditional language 
+must normally be included.” See Solar Applications Eng’g, 327 S.W.3d at 109. 
+Section 7.20 contains no such language. 
+Regardless, the Texas Supreme Court has held that “substantial compliance is 
+the appropriate standard when evaluating whether a party complied with a 
+contractual notice condition.” James Constr. Grp., LLC v. Westlake Chem. Corp., 
+650 S.W.3d 392, 405 (Tex. 2022). However, “substantial compliance with a 
+condition precedent requiring written notice may not be achieved without a writing 
+in some form.” Id. In the Rule 11 context, courts have held that emails are sufficient 
+to meet that rule’s “in writing” requirement. See, e.g., Shamrock Psychiatric Clinic, 
+P.A. v. Tex. Dep’t of Health & Hum. Servs., 540 S.W.3d 553, 561 (Tex. 2018) (per 
+curiam); Green v. Midland Mortg. Co., 342 S.W.3d 686, 691–92 (Tex. App.—
+Houston [14th Dist.] 2011, no pet.). As such, even if section 7.20 were a condition 
+precedent, that condition may be satisfied by substantial compliance. See James 
+Constr. Grp., 650 S.W.3d at 405; see also Solar Applications Eng’g, 327 S.W.3d at 
+108 (“A condition precedent is an event that must happen or be performed before a 
+right can accrue to enforce an obligation.”). We conclude that the August 29, 2019 
+
+41 
+ 
+email from Preston Hollow’s counsel complied with Section 7.20’s notice 
+requirement. 
+B. 
+Preston Hollow’s Ability to Sue on Behalf of Junior Bondholders 
+Senior Care also argues in its second issue that Preston Hollow, as the 
+Noteholder Representative, can only exercise powers that the Master Trustee can 
+exercise under Article VII of the Master Indenture, but even the Master Trustee lacks 
+the authority to sue to recover sums due under the subordinated Series 2017B 
+bonds.16 
+In the final judgment, the trial court rendered judgment for Preston Hollow 
+for “the amounts due and owing pursuant to the Bonds and Notes made the subject 
+of this case” in the amount of $52,597,040.06, which included “outstanding principal 
+in the amount of $44,675,000.” In Finding of Fact Number 1, the trial court found 
+that Senior Care was the obligor on four classes of bonds, including $9,750,000 in 
+subordinate Series 2017B bonds, which the court collectively defined as “the 
+Bonds.” In Finding Number 2, the court found that “[t]he aggregate unpaid principal 
+amount due in respect of the Bonds is $44,675,000.” In Finding Number 9, the court 
+found that “[p]ursuant to the Master Indenture and the Bond Indenture, the 
+Representative [Preston Hollow] is granted the authority to exercise certain rights 
+ 
+16  
+In his third issue, Bouldin similarly argues that Preston Hollow does not have 
+authority to sue him under the Guaranty on behalf of the junior noteholders. 
+
+42 
+ 
+and remedies on behalf of the Trustee and the bondholders, including, without 
+limitation, the prosecution of claims and causes of action against the Obligor.” The 
+trial court did not make an express finding that Preston Hollow could exercise 
+remedies and recover damages on behalf of the subordinate bondholders, but that 
+finding is implicit. 
+Section 7.03(a) of the Master Indenture provides: 
+Notwithstanding any other provision to the contrary in this Master 
+Indenture or otherwise, the right of the Subordinate Obligations 
+[defined in the Master Indenture as including “the Subordinate Series 
+2017B-1 Note”] to be secured by the lien and security interests created 
+by this Master Indenture is subject in all respects to the prior payment 
+of the Senior Obligations [defined in the Master Indenture as the Series 
+2017A Notes], in each case as the same become due. . . . The Master 
+Trustee shall not exercise any remedial action under this Master 
+Indenture or otherwise on behalf of the Holders of any Subordinate 
+Obligations until such time as all amounts with respect to Senior 
+Obligations have been paid in full. 
+ 
+The Bond Indenture contains a similar provision in section 812(a) of that document: 
+The Bond Trustee and the Holders of the Series 2017B Bonds hereby 
+acknowledge and agree that the Series 2017B Bonds shall in all respects 
+and at all times be subject to and subordinate to the Series 2017A 
+Bonds, notwithstanding the occurrence of an Event of Default with 
+respect to the Series 2017B Bonds, and the rights and remedies of the 
+Holders of the Series 2017B Bonds shall be subject to the terms of this 
+Article VIII. . . . [T]he Bond Trustee will not exercise any remedial 
+action under this Bond Indenture or otherwise on behalf of such Holders 
+of the Series 2017B Bonds until such time as all amounts with respect 
+to Series 2017A Bonds have been paid in full. 
+ 
+Although the Master Indenture differentiates between “Senior” and 
+“Subordinate” Obligations, it also defines “Obligation” as “any promissory note, 
+
+43 
+ 
+guaranty, lease, contractual agreement to pay money or other obligation of the 
+Obligor which is authenticated and delivered pursuant to this Indenture and which 
+is entitled to the benefits of this Indenture.” (Emphasis added.) Section 7.02 of the 
+Master Indenture allows the Master Trustee, upon the occurrence of an Event of 
+Default, to “declare the principal of all the Obligations to be due and payable 
+immediately.” (Emphasis added.) Likewise, under section 802 of the Bond 
+Indenture, the Bond Trustee can “declare the entire unpaid principal of and interest 
+on the Bonds or any series thereof due and payable.” 
+Additionally, section 7.07 of the Master Indenture provides: 
+Subject to Section 7.03, the Obligor covenants (subject to any notice 
+and grace periods contained herein) that if (i) a default is made in the 
+payment of any installment of interest on any Obligation when such 
+interest becomes due and payable, or (ii) a default is made in the 
+payment of the principal of (or premium, if any, on) any Obligation at 
+the maturity or due date thereof, the Obligor will, upon demand of the 
+Master Trustee, pay to it, for the benefit of the Holders of such 
+Obligations, the whole amount then due and payable on such 
+Obligations for principal, redemption premium, if any, and interest . . . . 
+ 
+Subject to Section 7.03, if the Obligor fail[s] to pay any of the foregoing 
+amounts forthwith upon demand, the Master Trustee, in its own name 
+and as trustee of an express trust, may (subject in all respects to the 
+rights of the Noteholder Representative under Section 7.20) institute a 
+judicial proceeding for the collection of the sums so due and unpaid, 
+and may prosecute such  proceeding to judgment or final decree, and 
+may enforce the same against the Obligor or any other obligor upon the 
+Obligations and collect the moneys adjudged or decreed to be payable 
+in the manner provided by law out of the property of the Obligor or any 
+other obligor upon the Obligations, wherever situated. 
+ 
+
+44 
+ 
+Reading these contractual provisions together, we conclude that section 7.03 
+and section 812 ensure the priority of the senior Series 2017A Notes and Bonds. 
+Thus, if this series of Notes and Bonds is still outstanding, the Master Trustee or 
+Noteholder Representative cannot first take remedial actions on the subordinate 
+Series 2017B Note and Bonds before the senior obligations are fully satisfied. If, 
+however, an Event of Default occurs, the Master Trustee or Noteholder 
+Representative can accelerate the principal of “all the Obligations,” including the 
+subordinate obligations. Nothing in sections 7.03 and 812 provides that, when the 
+entire debt has been accelerated, the Master Trustee or Noteholder Representative 
+can pursue remedies only on behalf of the senior bondholders and cannot also pursue 
+remedies on behalf of the subordinate bondholders in the same proceeding. 
+Construing these provisions in this way maintains the priority of the Series 
+2017A Notes and Bonds while promoting judicial efficiency by not requiring the 
+Master Trustee or Noteholder Representative to pursue two separate proceedings on 
+behalf of the different classes of bondholders. We therefore conclude that the trial 
+court properly determined that Preston Hollow could maintain suit on the Series 
+2017B Note. 
+We overrule Senior Care’s second issue. 
+
+45 
+ 
+Enforcement of Guaranty Agreement 
+In his first issue, Bouldin argues that Preston Hollow lacks capacity to sue 
+him because he made the Guaranty to BB&T as Master Trustee, not to Preston 
+Hollow, and Preston Hollow therefore cannot establish that it owns the guaranty 
+contract. 
+A guaranty agreement creates a secondary obligation in which the guarantor 
+promises to be responsible for the debt of another and may be called upon to perform 
+if the primary obligor does not fulfill its debt. Wasserberg v. Flooring Servs. of Tex., 
+LLC, 376 S.W.3d 202, 205 (Tex. App.—Houston [14th Dist.] 2012, no pet.). To 
+recover under a guaranty agreement, the party must show proof of: (1) the existence 
+and ownership of the guaranty contract; (2) the terms of the underlying contract by 
+the holder; (3) the occurrence of the conditions upon which liability is based; and 
+(4) the guarantor’s failure or refusal to perform the promise. Chahadeh v. Jacinto 
+Med. Grp., P.A., 519 S.W.3d 242, 246 (Tex. App.—Houston [1st Dist.] 2017, no 
+pet.); Lee v. Martin Marietta Materials Sw., Ltd., 141 S.W.3d 719, 720 (Tex. App.—
+San Antonio 2004, no pet.). 
+A guarantor may require that the terms of his guaranty be strictly followed 
+and that the agreement not be extended beyond its precise terms by construction or 
+implication. Wasserberg, 376 S.W.3d at 206; Lee, 141 S.W.3d at 721; see McKnight 
+v. Va. Mirror Co., 463 S.W.2d 428, 430 (Tex. 1971); see also Chahadeh, 519 S.W.3d 
+
+46 
+ 
+at 247 (“We strictly construe a guaranty in favor of the guarantor.”). We must 
+examine the terms of the guaranty based on the language of the contract. 
+Wasserberg, 376 S.W.3d at 206; Lee, 141 S.W.3d at 721; see also Moayedi v. 
+Interstate 35/Chisam Rd., L.P., 438 S.W.3d 1, 7 (Tex. 2014) (“If the meaning of a 
+guaranty agreement is uncertain, its terms should be given a construction which is 
+most favorable to the guarantor.”) (quotations omitted). Our primary goal is to 
+ascertain and give effect to the parties’ intent. Chahadeh, 519 S.W.3d at 247. The 
+interpretation of a guaranty agreement is a question of law that we review de novo. 
+Wasserberg, 376 S.W.3d at 206; Lee, 141 S.W.3d at 720. 
+In the final judgment, the trial court ordered that Preston Hollow, as the 
+Noteholder Representative and the Series 2017A Majority Representative, “shall be 
+granted judgment against Bouldin for ‘Guaranty Obligations’ (Count III), jointly and 
+severally with Senior Care, for the amounts due and owing pursuant to the Bonds 
+and Notes made the subject of this case.” In Finding of Fact Number 7, the court 
+found that Bouldin executed the Guaranty “in favor of the Master Trustee.” In 
+Finding Number 30, the court found that “Preston Hollow presented formal demands 
+to Bouldin to pay Senior Care’s obligations as required by his Guaranties, but 
+Bouldin has not done so.” In Finding Number 31, the court found that “[t]he multiple 
+Bond Document defaults and Events of Default by Senior Care are recourse triggers 
+
+47 
+ 
+under the Bouldin Guaranty, making Bouldin jointly and severally liable for all 
+amounts owed to the Trustee on behalf of the bondholders.”17 
+The opening paragraph of the Guaranty provides that Bouldin, as Guarantor, 
+made the Guaranty “to the Guaranteed Parties (as herein defined).” Section 3.01 of 
+the Guaranty then states: 
+The Guarantor, as surety, absolutely, unconditionally, and irrevocably 
+guarantees to the Master Trustee (for the benefit of the Holders) 
+(collectively, the ‘Guaranteed Parties’), the full, complete and prompt 
+payment of the principal and redemption price, if any, of and interest 
+on the Series 2017 Notes when due, whether at stated maturity, by 
+optional tender, upon redemption . . . , acceleration or otherwise, 
+including any claim or other type of right arising from such principal 
+amount such as any deficiency judgment upon foreclosure or claim in 
+bankruptcy, and any other sums incurred by Guaranteed Parties in 
+enforcing this Guaranty and repayment of the Series 2017 Notes 
+(collectively, the ‘Guaranteed Obligations’), upon the occurrence of 
+any one of more of the following events of circumstances[.] 
+ 
+(Emphasis added.) 
+Under Section 3.01, the term “Guaranteed Parties” is broader than simply the 
+Master Trustee; instead, the term also includes “the Holders.” The Guaranty states 
+that “the holders of the Series 2017 Notes are referred to herein collectively as the 
+ 
+17  
+In Conclusions of Law Numbers 36 and 39, the court concluded that Bouldin 
+“guaranteed Senior Care’s obligations pursuant to the Guaranty Agreement” and 
+therefore Bouldin was “jointly and severally liable with Senior Care to the Trustee 
+and Preston Hollow, individually and [as] Representative for the benefit of all 
+bondholders, for all amounts Senior Care owes in respect of the Bonds, including 
+principal, accrued interest, attorneys’ fees and costs and the fees and expenses of 
+Preston Hollow and the Trustees.” 
+
+48 
+ 
+‘Holders.’” The Guaranty also provides that unless terms are defined in the Guaranty 
+itself, the terms “shall have the meanings set forth in the Master Indenture.” Under 
+the Master Indenture, a “Holder” is “the registered owner of any Obligation.” 
+“Obligation” is defined in the Master Indenture as “any promissory note, guaranty, 
+lease, contractual agreement to pay money or other obligation of the Obligor which 
+is authenticated and delivered pursuant to this Indenture and which is entitled to the 
+benefits of this Indenture. Obligations include Senior Obligations and Subordinate 
+Obligations.”18 
+ 
+The Master Indenture gives the “Majority Holders” the right to appoint a 
+representative—the Noteholder Representative—to take certain actions under the 
+Master Indenture to protect the Majority Holders’ rights.19 “A Noteholder 
+Representative may be a Holder.” The Master Indenture named Preston Hollow as 
+the initial Noteholder Representative, and the parties do not dispute that Preston 
+Hollow remained in this position during all periods relevant to this case. 
+ 
+18  
+The Master Indenture defines “Senior Obligations” as “the Series 2017A Notes and 
+any other Obligation issued hereunder on a pari passu basis with the Series 2017A 
+Notes.” “Subordinate Obligations” are defined as “any Obligation issued hereunder 
+on a basis subordinate to the Senior Obligations, including but not limited to the 
+Subordinate Series 2017B-1 Note.” 
+ 
+19  
+The Master Indenture defines “Majority Holders” as “the Holders of not less than a 
+majority in aggregate principal amount of the Outstanding Senior Obligations.” 
+
+49 
+ 
+The Notes do not specifically name any of the purchasers of the bonds, but 
+they do state that they were issued for the purpose of securing the payment of the 
+principal and interest on the bonds. They also include the following provisions: 
+Copies of the Master Indenture are on file at the corporate trust office 
+of the Master Trustee and reference is hereby made to the Master 
+Indenture for the provisions, among others, with respect to the nature 
+and extent of the rights of the holder of this Note, the terms and 
+conditions on which, and the purposes for which, this Note is issued 
+and the rights, duties and obligations of the Obligor and the Master 
+Trustee under the Master Indenture, to all of which the holder hereof, 
+by acceptance of this Note, assents. 
+ 
+. . . . 
+ 
+The holder of this Note shall have no right to enforce the provisions of 
+the Master Indenture, or to institute any action to enforce the covenants 
+therein, or to take any action with respect to any default under the 
+Master Indenture, or to institute, appear in or defend any suit or other 
+proceeding with respect thereto, except as provided in the Master 
+Indenture. 
+ 
+This Note shall be registered on the register to be maintained by the 
+Master Trustee and this Note shall be transferable only upon said 
+register at said office by the registered owner or by his duly authorized 
+attorney. . . . 
+ 
+The Obligor, the Master Trustee and any paying agent shall deem and 
+treat the person in whose name this Note is registered as the absolute 
+owner hereof for all purposes; and neither the Obligor, any paying 
+agent, the Master Trustee nor any Obligation registrar shall be affected 
+by any notice to the contrary. 
+ 
+ 
+In the Notes, Senior Care promised to pay certain sums to Woodloch. The 
+Series 2017A-1 Note includes the following “Assignment to Bond Trustee” signed 
+by Woodloch: 
+
+50 
+ 
+Pay to the order of BRANCH BANKING AND TRUST COMPANY, 
+as Bond Trustee for the owners of the Series 2017A-1 Bonds 
+hereinabove mentioned, without warranty and without recourse against 
+the undersigned except warranty of good title, warranty that the Issuer 
+has not assigned this Series 2017A-1 Note to a person or entity other 
+than the Bond Trustee, and that the original principal amount thereof 
+remains unpaid hereunder. 
+ 
+Each of the other Notes contains an identical assignment that references the specific 
+series of bonds and the Note to which the assignment applies. The Loan Agreement 
+also acknowledged that Senior Care “has executed and delivered to the Bond Trustee 
+[BB&T], the Series 2017 Notes (as hereinafter defined) to further secure the 
+payment of the Series 2017 Bonds.” 
+It is undisputed that Preston Hollow purchased bonds and is also both the 
+Noteholder Representative and the Series 2017A Majority Representative. However, 
+the record includes no documentary evidence or testimony that Preston Hollow was 
+a registered owner of the Notes, such that it qualifies as a “Holder” under the Master 
+Indenture. Although the Noteholder Representative “may” be a Holder, it is not 
+required to be. Thus, Preston Hollow’s status as the Noteholder Representative, 
+standing alone, does not constitute evidence that Preston Hollow was a registered 
+owner of the Notes. In the absence of evidence that Preston Hollow was a Holder of 
+the Notes, Preston Hollow does not qualify as one of the “Guaranteed Parties” 
+entitled to enforce the Guaranty. See Chahadeh, 519 S.W.3d at 246 (stating that to 
+
+51 
+ 
+recover under guaranty agreement, party must establish existence and ownership of 
+guaranty contract). 
+Preston Hollow argues that even if it cannot sue Bouldin under the terms of 
+the Guaranty itself, it has authority to do so as the Noteholder Representative under 
+the Master Indenture and as the Series 2017A Majority Representative under the 
+Bond Indenture. For support, Preston Hollow relies on sections 7.07 and 7.20 of the 
+Master Indenture to argue that, as the Noteholder Representative, it has the authority 
+to act in lieu of the Master Trustee to enforce certain obligations, including Bouldin’s 
+obligations under the Guaranty. Section 7.07 provides, in relevant part: 
+Subject to Section 7.03, if the Obligor [Senior Care] fail[s] to pay any 
+of the foregoing amounts forthwith upon demand, the Master Trustee, 
+in its own name and as trustee of an express trust, may (subject in all 
+respects to the rights of the Noteholder Representative under Section 
+7.20) institute a judicial proceeding for the collection of the sums so 
+due and unpaid, and may prosecute such proceeding to judgment or 
+final decree, and may enforce the same against the Obligor or any other 
+obligor upon the Obligations and collect the moneys adjudged or 
+decreed to be payable in the manner provided by law out of the property 
+of the Obligor or any other obligor upon the Obligations, wherever 
+situated. 
+ 
+Section 7.20 allows the Noteholder Representative, if an Event of Default has 
+occurred, to act in lieu of the Master Trustee by “exercis[ing] such one or more of 
+the rights and powers conferred on the Master Trustee by this Article VII [of the 
+Master Indenture] or under any Supplement” or by “exercis[ing] such rights and 
+
+52 
+ 
+powers granted to Issuer under the Indenture, and such rights of the Holders under 
+this Article VII . . . .” 
+Additionally, Preston Hollow points to similar provisions in the Bond 
+Indenture. Section 803(a) of the Bond Indenture allows “the Bond Trustee (or in lieu 
+thereof, pursuant to Section 813, the Series 2017A Majority Representative),” upon 
+an Event of Default, to “protect and enforce its rights as the holder of the Series 
+2017A Note and the rights of the Holders.” Section 813, like section 7.20 of the 
+Master Indenture, allows the Series 2017A Majority Representative, in lieu of the 
+Bond Trustee, to exercise “such one or more of the rights and powers conferred on 
+the Bond Trustee by this Article VIII or Section 405 hereof” or “such rights and 
+powers granted to Issuer under the Bond Indenture, and such rights of the Holders 
+under this Article VIII . . . .” Section 405 allows the Bond Trustee to “enforce all of 
+the rights of the Issuer . . . and all obligations of the Obligor under and pursuant to 
+the Loan Agreement and the Notes for and on behalf of the Holders.” 
+We disagree that Preston Hollow’s status as Noteholder Representative and 
+Series 2017A Majority Representative grant it authority to enforce the Guaranty 
+against Bouldin. The text of the Guaranty itself says nothing about allowing either 
+the Noteholder Representative or the Series 2017A Majority Representative to act 
+for the Master Trustee in pursuing remedies under the Guaranty. Instead, the 
+remedies provision of the Guaranty, section 4.05, states as follows: 
+
+53 
+ 
+Upon the occurrence of any Event of Default, the Master Trustee may, 
+or at the direction of the Noteholder Representative pursuant to Section 
+7.02 of the Master Indenture shall: (a) demand immediate payment in 
+full of all Guaranteed Obligations; or (b) exercise such rights and 
+remedies it may have under this Guaranty or any of the other Bond 
+Documents; or (c) exercise with respect to any collateral any one or 
+more of the rights and remedies provided a secured party under the 
+UCC; or (d) exercise from time to time any other rights and remedies 
+available to it at law, in equity or otherwise.20 
+ 
+This section references the Noteholder Representative,21 but it provides only that the 
+Noteholder Representative may direct the Master Trustee to take action after an 
+Event of Default. Contrary to the sections of the Master Indenture and the Bond 
+Indenture allowing the Noteholder Representative and the Series 2017A Majority 
+Representative to act “in lieu of” the Master Trustee or Bond Trustee, section 4.05 
+of the Guaranty does not allow the Noteholder Representative to step into the shoes 
+of the Master Trustee and act in lieu of it. 
+ 
+20  
+Section 7.02 of the Master Indenture allows the Master Trustee on its own 
+initiative—or at the direction of the Noteholder Representative—to accelerate the 
+payment of the principal of the Obligations upon an Event of Default. 
+ 
+21  
+In addition to section 4.05, the Noteholder Representative is mentioned four other 
+times in the Guaranty. Section 3.01 sets out 12 situations in which Bouldin agreed 
+to be liable for Senior Care’s obligations, including if any liens are filed against the 
+property “unless such claims or liens have been filed due to a default by the 
+Noteholder Representative in approving disbursements requests” or if Senior Care 
+or Bouldin closes the project or allows a change in the operator of the facility 
+without the Noteholder Representative’s prior consent. Section 3.06 grants the 
+Noteholder Representative the ability to direct Bouldin “to secure the Guaranteed 
+Obligations with certain collateral” if Bouldin becomes liable for payment under the 
+Guaranty. Finally, section 4.07 provides that either the Master Trustee or the 
+Noteholder Representative can waive “breach of any agreement contained in this 
+Guaranty,” but that waiver is limited to “the particular breach so expressly waived.” 
+
+54 
+ 
+ 
+In drafting the Guaranty, Bouldin and BB&T expressly referred to the Master 
+Indenture several times, including by providing that terms not defined in the 
+Guaranty itself “shall have the meanings set forth in the Master Indenture” and by 
+specifically referring to section 7.02 in the remedies provision of the Guaranty. No 
+such references to sections 7.07 or 7.20—or to sections 803 or 813 of the Bond 
+Indenture—exist in the Guaranty. Bouldin and BB&T could have drafted the 
+Guaranty in such a way to mirror the Master Indenture and Bond Indenture and 
+allow, upon an Event of Default, the Noteholder Representative or Series 2017A 
+Majority Representative to pursue remedies on behalf of the Guaranteed Parties and 
+enforce the Guaranty against Bouldin. However, they did not. 
+ 
+Longstanding Texas caselaw provides that “a guarantor may require that the 
+terms of his guaranty be strictly followed” and that the guaranty “may not be 
+extended beyond its precise terms by construction or implication.” Reece v. First 
+State Bank of Denton, 566 S.W.2d 296, 297 (Tex. 1978); Fed. Deposit Ins. Corp. v. 
+Attayi, 745 S.W.2d 939, 943 (Tex. App.—Houston [1st Dist.] 1988, no writ); 
+Wasserberg, 376 S.W.3d at 206; see also Chahadeh, 519 S.W.3d at 247 (“We 
+strictly construe a guaranty in favor of the guarantor.”). We therefore decline to look 
+to the language of two contracts to which Bouldin is not a party in his individual 
+capacity—the Master Indenture and the Bond Indenture—to provide that Preston 
+Hollow as the Noteholder Representative and the Series 2017A Majority 
+
+55 
+ 
+Representative can enforce the Guaranty against Bouldin when the language of the 
+Guaranty itself does not grant the Noteholder Representative or the Series 2017A 
+Majority Representative this power. See Reece, 566 S.W.2d at 297 (“We agree that 
+a guarantor may require that the terms of his guaranty be strictly followed and that 
+he is not bound by a new or different contract.”). 
+ 
+We sustain Bouldin’s first issue. 
+Acceleration of the Debt 
+In Senior Care’s fourth issue and in Bouldin’s third issue, both appellants 
+argue that the evidence presented at trial does not support the damages awarded by 
+the trial court. Although Senior Care and Bouldin raise some distinct arguments in 
+these issues, both argue that Preston Hollow did not prove that the debt was properly 
+accelerated. 
+A. 
+Standard of Review 
+In a bench trial, the trial court’s findings of fact have the same weight as a 
+jury’s verdict, and on appeal, we review the sufficiency of the evidence supporting 
+those findings by using the same standards for reviewing jury verdicts. Hall v. Lewis, 
+639 S.W.3d 197, 204–05 (Tex. App.—Houston [1st Dist.] 2021, no pet.); see Tex. 
+Outfitters Ltd., LLC v. Nicholson, 572 S.W.3d 647, 653 (Tex. 2019). When 
+challenged, the court’s findings of fact are not conclusive if, as here, there is a 
+complete reporter’s record on appeal. Hall, 639 S.W.3d at 205; Choice! Power, L.P. 
+
+56 
+ 
+v. Feeley, 501 S.W.3d 199, 208 (Tex. App.—Houston [1st Dist.] 2016, no pet.) 
+(citing BMC Software Belg., N.V. v. Marchand, 83 S.W.3d 789, 795 (Tex. 2002)). 
+We defer to unchallenged findings of fact that are supported by some evidence. 
+Tenaska Energy, Inc. v. Ponderosa Pine Energy, LLC, 437 S.W.3d 518, 523 (Tex. 
+2014). 
+When reviewing the legal sufficiency of the evidence, we consider whether 
+the evidence presented at trial would enable reasonable and fair-minded people to 
+reach the verdict under review. Wood v. Wiggins, 650 S.W.3d 533, 544 (Tex. App.—
+Houston [1st Dist.] 2021, pet. denied); see City of Keller v. Wilson, 168 S.W.3d 802, 
+827 (Tex. 2005). We credit favorable evidence if a reasonable factfinder could and 
+disregard contrary evidence unless a reasonable factfinder could not. Wood, 650 
+S.W.3d at 544. We consider the evidence in the light most favorable to the 
+challenged finding, indulging every reasonable inference that supports the finding. 
+Hall, 639 S.W.3d at 205. We may not disregard evidence that allows only one 
+inference. Puntarelli v. Peterson, 405 S.W.3d 131, 135 (Tex. App.—Houston [1st 
+Dist.] 2013, no pet.). If the evidence falls within the zone of reasonable 
+disagreement, we may not substitute our judgment for that of the factfinder. Wood, 
+650 S.W.3d at 544. The factfinder is the sole judge of the credibility of the witnesses 
+and the weight to give to their testimony. Hall, 639 S.W.3d at 205; Puntarelli, 405 
+S.W.3d at 135. 
+
+57 
+ 
+When we review the factual sufficiency of the evidence, we consider all the 
+evidence supporting and contradicting the challenged finding. Wood, 650 S.W.3d at 
+544; Puntarelli, 405 S.W.3d at 135. We will set aside the finding only if it is so 
+contrary to the overwhelming weight of the evidence as to be clearly wrong and 
+unjust. Hall, 639 S.W.3d at 205; Puntarelli, 405 S.W.3d at 135. 
+We review a trial court’s conclusions of law de novo. BMC Software, 83 
+S.W.3d at 794; Wood, 650 S.W.3d at 544. We will uphold conclusions of law if the 
+judgment can be sustained on any legal theory supported by the evidence. Wood, 
+650 S.W.3d at 544; Ferrara v. Nutt, 555 S.W.3d 227, 235–36 (Tex. App.—Houston 
+[1st Dist.] 2018, no pet.). Incorrect conclusions of law do not require reversal if the 
+controlling fact findings support the judgment under a correct legal theory. Ferrara, 
+555 S.W.3d at 236; see Wood, 650 S.W.3d at 544 (stating that erroneous conclusion 
+of law does not require reversal if trial court rendered proper judgment). 
+B. 
+Preservation of Error 
+ 
+Preston Hollow argues that Senior Care and Bouldin cannot challenge Preston 
+Hollow’s alleged failure to prove that the debt was properly accelerated because 
+Preston Hollow, UMB Bank, and TMI pleaded that all conditions precedent to suit 
+had been performed, but Senior Care and Bouldin did not specifically challenge the 
+failure to provide notice of intent to accelerate. See TEX. R. CIV. P. 54; Hanson, 500 
+S.W.3d at 96 (stating that if plaintiff pleads that all conditions precedent have been 
+
+58 
+ 
+performed, plaintiff is required to prove only conditions precedent that defendant 
+specifically denied). 
+ 
+Senior Care and Bouldin, however, both argue that they may permissibly raise 
+this issue because the trial court made express fact findings on whether the debt had 
+been properly accelerated, and parties may challenge the sufficiency of the evidence 
+supporting fact findings made after a bench trial for the first time on appeal. 
+ 
+The trial court admitted evidence of the notices of default, of intent to 
+accelerate the debt, and of acceleration. In Finding of Fact Number 18, the trial court 
+found: “Preston Hollow did not breach the Bond Documents. Senior Care defaulted 
+on its obligations under the Bond Documents. The Trustee gave a notice of the 
+defaults. The defaults were not timely cured. Senior Care’s indebtedness under the 
+Bond Documents was properly accelerated on May 31, 2019.” Additionally, in 
+Finding Number 29, the court found that “[o]n May 31, 2019, BBT the predecessor 
+Trustee, properly accelerated all amounts due and owing with respect to the Bonds 
+and provided Senior Care and Bouldin with notice of such acceleration.” 
+ 
+Following a bench trial, a party may make “a complaint regarding the legal or 
+factual insufficiency of the evidence—including a complaint that the damages found 
+by the court are excessive or inadequate” for the first time on appeal. TEX. R. APP. 
+P. 33.1(d); see Savoy v. Nat’l Collegiate Student Loan Tr. 2005-3, 557 S.W.3d 825, 
+839 (Tex. App.—Houston [1st Dist.] 2018, no pet.) (concluding, when record 
+
+59 
+ 
+contained no evidence that creditor provided debtors with either notice of intent to 
+accelerate debt or notice of acceleration, that evidence was legally and factually 
+insufficient to support full amount of damages awarded). Because evidence of 
+acceleration was admitted at the bench trial and the trial court made express fact 
+findings that the debt was properly accelerated, we conclude that Senior Care and 
+Bouldin can raise this sufficiency challenge on appeal. 
+C. 
+Whether the Debt Was Properly Accelerated 
+To prevail on a claim for breach of contract, the plaintiff must establish (1) the 
+existence of a valid contract; (2) the plaintiff performed or tendered performance as 
+contractually required; (3) the defendant breached the contract by failing to perform 
+or tender performance as contractually required; and (4) the plaintiff sustained 
+damages as a result of the breach. Pathfinder Oil & Gas, Inc. v. Great W. Drilling, 
+Ltd., 574 S.W.3d 882, 890 (Tex. 2019); Fortitude Energy, LLC v. Sooner Pipe LLC, 
+564 S.W.3d 167, 180 (Tex. App.—Houston [1st Dist.] 2018, no pet.). 
+A promissory note is a contract evincing an obligation to pay money. Jim 
+Maddox Props., LLC v. WEM Equity Cap. Invs., Ltd., 446 S.W.3d 126, 132 (Tex. 
+App.—Houston [1st Dist.] 2014, no pet.). To recover on a promissory note, the 
+plaintiff must prove (1) the note in question; (2) the defendant signed the note; (3) the 
+plaintiff is the owner or holder of the note; and (4) a certain balance is due and owing 
+on the note. Dorsett v. Hisp. Hous. & Educ. Corp., 389 S.W.3d 609, 613 (Tex. 
+
+60 
+ 
+App.—Houston [14th Dist.] 2012, no pet.) (quoting Geiselman v. Cramer Fin. Grp., 
+Inc., 965 S.W.2d 532, 536 (Tex. App.—Houston [14th Dist.] 1997, no writ)). 
+“Where the holder of a promissory note has the option to accelerate maturity 
+of the note upon the maker’s default, equity demands notice be given of the intent to 
+exercise the option.” Ogden v. Gibraltar Sav. Ass’n, 640 S.W.2d 232, 233 (Tex. 
+1982); Savoy, 557 S.W.3d at 839. Because a promissory note is “initially 
+contemplated to extend over a period of months or years,” the accelerated maturity 
+of a note “is an extremely harsh remedy.” Savoy, 557 S.W.3d at 839 (quoting Allen 
+Sales & Servicenter, Inc. v. Ryan, 525 S.W.2d 863, 866 (Tex. 1975)). 
+A creditor must give the debtor an opportunity to pay the past due installments 
+before accelerating the entire indebtedness; thus, the creditor must make a demand 
+for payment of past due amounts before exercising the option to accelerate. Id. 
+(quoting Williamson v. Dunlap, 693 S.W.2d 373, 374 (Tex. 1985) (per curiam)); see 
+Ogden, 640 S.W.2d at 234 (“Notice of intent to accelerate is necessary in order to 
+provide the debtor an opportunity to cure his default prior to harsh consequences of 
+acceleration and foreclosure.”). For acceleration to be effective, the holder of the 
+note must notify the maker of both its intent to accelerate and of the acceleration. 
+Savoy, 557 S.W.3d at 839; see Holy Cross Church of God in Christ v. Wolf, 44 
+S.W.3d 562, 566 (Tex. 2001); Ogden, 640 S.W.2d at 233–34. If, after notice of intent 
+to accelerate, the debtor fails to remedy the breach, then the creditor is authorized to 
+
+61 
+ 
+accelerate maturity. Ogden, 640 S.W.2d at 233; Karam v. Brown, 407 S.W.3d 464, 
+469–70 (Tex. App.—El Paso 2013, no pet.) (“If the default has not been cured by 
+the deadline established in the notice, the lender must then give notice of 
+acceleration.”). 
+ 
+Notice that the debt has been accelerated is ineffective unless preceded by 
+proper notice of intent to accelerate. Ogden, 640 S.W.2d at 234. In Ogden, the holder 
+of the promissory note and deed of trust lien provided the following notice after 
+Ogden’s default on the debt: 
+(1) You have breached the covenant to pay sums due under your 
+promissory note. 
+ 
+(2) To cure such breach you must pay to Gibraltar $1,315.08 no later 
+than September 16, 1978. A late charge of $3.68 will be due after 
+August 16, 1978. In addition, beginning September 1, 1978, the 
+September regular monthly payment will also be due. 
+ 
+(3) Your failure to cure such breach on or before said date may result 
+in acceleration of the sums secured by the Deed of Trust and sale of the 
+property standing as security thereunder. 
+ 
+Further, you are notified of your right to reinstate after acceleration and 
+the right to bring a court action to assert the nonexistence of a default 
+or any other defense you may have to acceleration and sale. 
+ 
+Id. at 233. The Texas Supreme Court held that this letter was insufficient to provide 
+notice that the creditor intended to exercise its option to accelerate the debt. Id. at 
+234. The deed of trust gave the creditor the option to accelerate the note upon default, 
+but it was not required to do so, and the letter “gave no clear and unequivocal notice 
+that [the creditor] would exercise the option.” Id. Instead, the letter “merely restated 
+
+62 
+ 
+the option conferred in the deed of trust.” Id. Because the creditor did not give proper 
+notice of its intent to accelerate the debt, the attempted acceleration was ineffective. 
+Id. 
+ 
+Since Ogden, Texas appellate courts have reaffirmed that a notice of intent to 
+accelerate must “clearly inform the [debtor] of each event that is considered by the 
+[creditor] to be a default.” Schuhardt Consulting Profit Sharing Plan v. Double 
+Knobs Mountain Ranch, Inc., 468 S.W.3d 557, 571 (Tex. App.—San Antonio 2014, 
+pet. denied). If the creditor intends to accelerate maturity of the debt, the notice must 
+“unequivocally” inform the debtor of the creditor’s intention. Id.; see Shumway v. 
+Horizon Credit Corp., 801 S.W.2d 890, 893 (Tex. 1991) (requiring notice of intent 
+to accelerate to be “clear and unequivocal” to be effective). Courts generally 
+construe unclear or equivocal language in a manner to avoid acceleration. Schuhardt 
+Consulting Profit Sharing Plan, 468 S.W.3d at 571; see Burns v. Stanton, 286 
+S.W.3d 657, 661 (Tex. App.—Texarkana 2009, pet. denied) (stating that because 
+acceleration of debt “is viewed as a harsh remedy,” courts will strictly construe 
+acceleration clauses in instruments). 
+ 
+Senior Care and Bouldin argue that the language in BB&T and Preston 
+Hollow’s notices, like the notice of intent to accelerate in Ogden, was not a clear and 
+unequivocal notice of intent to accelerate. On March 25, 2019, BB&T gave Senior 
+Care and Bouldin a “Notice of Covenant Breaches and Events of Default and 
+
+63 
+ 
+Demand Letter with Respect to the [four series of bonds that had been issued].” After 
+identifying the relevant governing documents, BB&T—at Preston Hollow’s 
+direction—notified Senior Care and Bouldin of five “conditions” that currently 
+existed with “respect to the Project and the indebtedness under the above-referenced 
+Bonds and loan documents”: two conditions that related to Baxter’s lien and claim 
+for payment, and three conditions that related to the unpaid ad valorem taxes 
+assessed by various Fort Bend County taxing authorities. 
+The notice stated that failure to resolve each condition within 30 days “will 
+constitute an Event of Default” under the Master Indenture, Bond Indenture, Loan 
+Agreement, and the Deed of Trust. BB&T demanded that Senior Care and Bouldin 
+take several actions, including that: (1) Senior Care remit $852,777.11 to BB&T, 
+representing the “difference between the amount of the [Baxter claim] and the 
+amount of funds currently on deposit in the Project Fund”; (2) Bouldin fully pay and 
+discharge all claims for labor, materials, and services for the Project pursuant to the 
+Completion Guaranty; (3) Senior Care take all actions and pay any funds necessary 
+to release or otherwise extinguish Baxter’s lien on the property; (4) Bouldin release 
+and discharge all construction and equitable liens pursuant to the Completion 
+Guaranty; and (5) remit the amount of unpaid taxes to the Fort Bend County taxing 
+authorities. 
+
+64 
+ 
+ 
+On April 8, 2019, BB&T gave Senior Care and Bouldin a “Supplemental 
+Notice of Breaches and Events of Default and Notice of Intent to Accelerate.” This 
+notice stated: 
+Enclosed, as Exhibit A, is our letter dated March 25, 2019. We 
+supplement our March 25 letter to provide the following information 
+and to provide notice of intent to accelerate. 
+ 
+In the event you should fail to timely pay or otherwise cure the 
+“Conditions” outlined in Section 1 of the March 25 letter, the Trustee 
+and/or Series 2017A Majority Representative shall declare an Event of 
+Default under each of the related Bond Documents and accelerate 
+(subject to further election and notice to you) and declare immediately 
+due and payable all amounts due and owing pursuant to the [Master 
+Indenture], the Loan Agreement, the Bonds, the Obligations and the 
+related Bond Documents. Your payment or cure should be made or 
+accomplished no later than thirty (30) calendar days from the date of 
+this Supplemental Notice. 
+ 
+The introductory paragraph of the March 25 letter is hereby restated in 
+its entirety to read as set forth in the introductory paragraph of this 
+Supplemental Notice. 
+ 
+Each of the Trustee and the Holders of the Series 2017A Bonds 
+expressly reserves the right, at any time, to exercise any rights, powers, 
+or remedies available to it or them under the Bond Documents. Please 
+be further advised that this notice and demand letter does not 
+(i) constitute an agreement by the Trustee or the Holders of the Series 
+2017A Bonds to enter into any amendment, waiver, or other 
+modification of the Bond Documents, (ii) waive any default or Event 
+of Default, (iii) establish a course of dealing, or (iv) waive, limit, 
+condition, or prejudice any of the Trustee’s or the Holders’ of the Series 
+2017A Bonds rights or remedies under the Bond Documents or 
+applicable law, all of which rights and remedies are expressly reserved. 
+ 
+(Emphasis added.) 
+
+65 
+ 
+In a May 31, 2019 notice entitled “Notice of Events of Default under the Bond 
+Documents and Acceleration of Maturity of Notes and Bonds,” BB&T stated that 
+Senior Care had failed to cure the conditions outlined in the March 25 letter and 
+April 8 notice, and it declared that an Event of Default had occurred under the Bond 
+Indenture, Master Indenture, and Loan Agreement. BB&T stated, in bold: 
+As directed by the Noteholder Representative and Series 2017A 
+Majority Representative and in accordance with Section 7.02 of the 
+[Master Indenture], Section 802 of the [Bond Indenture] and Section 
+602(e) of the Loan Agreement, the Trustee hereby declares the 
+Acceleration of the Notes and the Acceleration of the Bonds. 
+Accordingly, (i) the entire unpaid principal of and interest on the Bonds 
+has forthwith and immediately become due and payable, subject to 
+Section 812 of the [Bond Indenture] and (ii) the principal of all the 
+Notes has become immediately due and payable in full. 
+ 
+BB&T directed this notice to the holders of the bonds, posted the notice on the 
+Electronic Municipal Market Access (“EMMA”) website,22 and provided the notice 
+to Bouldin and Senior Care. 
+ 
+We agree with Senior Care and Bouldin that the language of BB&T’s April 8 
+notice was not unequivocal. As Bouldin points out, the Master Indenture gives the 
+Master Trustee the option to accelerate payment of the amounts owed by Senior Care 
+ 
+22  
+The EMMA website is maintained by the Municipal Securities Rulemaking Board, 
+and it provides extensive information about bond projects to the public. In the 
+summary judgment proceedings, UMB Bank and TMI included a printout of the 
+information relevant to this project that had been posted on EMMA. This 
+information included Senior Care’s financial statements and balance sheets, 
+monthly reports, notices of default, BB&T’s notice of resignation, the notice of the 
+co-trustee appointments, and notice of the foreclosure sale. 
+
+66 
+ 
+upon the occurrence of an Event of Default. By including the parenthetical “(subject 
+to further election and notice to you)” in the April 8 notice, BB&T failed to 
+unequivocally indicate that Senior Care’s failure to cure the alleged defaults would 
+automatically result in acceleration. Instead, the notice suggests that an additional 
+election and notice would need to be made in the future. 
+ 
+Due to the harsh consequences of acceleration, we “generally construe unclear 
+or equivocal language in a manner to avoid acceleration.” Schuhardt Consulting 
+Profit Sharing Plan, 468 S.W.3d at 571; Mastin v. Mastin, 70 S.W.3d 148, 154 (Tex. 
+App.—San Antonio 2001, no pet.) (“Acceleration is a harsh remedy with draconian 
+consequences for the debtor and Texas courts look with disfavor upon the exercise 
+of this power because great inequity may result.”). The April 8 notice, like the notice 
+at issue in Ogden, did not give “clear and unequivocal notice” to Senior Care that if 
+it failed to cure the alleged defaults, BB&T “would exercise the option” to accelerate 
+the debt automatically. See 640 S.W.2d at 234. Thus, BB&T’s May 31 notice of 
+acceleration was ineffective because it was not “preceded by proper notice of intent 
+to accelerate.” See id. We hold that the trial court’s Finding Number 18 and Finding 
+Number 29 were not supported by legally or factually sufficient evidence. 
+ 
+When acceleration is invalid, the plaintiff is entitled to judgment against the 
+defendant only for past due installments plus accumulated interest as provided in the 
+note. Savoy, 557 S.W.3d at 840 (quoting Williamson, 693 S.W.2d at 374). Here, 
+
+67 
+ 
+although Senior Care contests the trial court’s findings of breach with respect to 
+certain Events of Default, Senior Care has not contested several portions of Finding 
+of Fact Number 19, addressing individual breaches of the Master Indenture, 
+including: 
+• 
+“Failure by Senior Care to duly and punctually pay interest on the 
+Obligations in accordance with the terms of the Obligations and the 
+Master Indenture, as required by Section 4.04 of the Master Indenture”; 
+ 
+• 
+“Failure by Senior Care to cause all Gross Revenues to be transferred 
+from the Blocked Accounts to the Revenue Fund promptly as required 
+by Section 3.01(d) of the Master Indenture”; 
+ 
+• 
+“Senior Care[’s] impermissible transfers [of cash] to an Affiliate, in 
+violation of Section 2.3.5 of Schedule 4.26 (labelled therein as 
+“Schedule 6”) to the Master Indenture”; and 
+ 
+• 
+“Failure by Senior Care to deposit amounts into the Insurance and Tax 
+Escrow Fund sufficient to pay in a timely manner all required tax 
+payments, as required by Section 3.05 of the Master Indenture.” 
+ 
+Although we may suggest a remittitur when there is insufficient evidence to 
+support the full accelerated amount of damages awarded but sufficient evidence to 
+support a lesser award, see id. (citing Akin, Gump, Strauss, Hauer & Feld, L.L.P. v. 
+Nat’l Dev. & Rsch. Corp., 299 S.W.3d 106, 124 (Tex. 2009), and TEX. R. APP. P. 
+46.3), here no party has suggested an amount for a remittitur, Senior Care has not 
+challenged all breaches found by the trial court, and the trial court made no findings 
+that would identify an appropriate lesser amount of damages. Under these 
+
+68 
+ 
+circumstances, we reverse the award of damages in favor of Preston Hollow and 
+remand for a new trial on Preston Hollow’s breach of contract claim.23 
+ 
+We sustain Senior Care’s fourth issue in part and Bouldin’s third issue in part. 
+Dismissal of Claims Under Rule 166 
+In its sixth issue, Senior Care argues that the trial court erred by dismissing its 
+claims for conversion and money had and received via a Rule 166 pretrial-
+management order. 
+Rule of Civil Procedure 166 provides that the trial court “may in its discretion” 
+direct the parties to appear before it for a pretrial conference to consider, among 
+other things, “[t]he identification of legal matters to be ruled on or decided by the 
+court.” TEX. R. CIV. P. 166(g). The court “shall make an order that recites the action 
+taken at the pretrial conference . . . and which limits the issues for trial to those not 
+disposed of by admissions, agreements of counsel, or rulings of the court.” TEX. R. 
+CIV. P. 166. The purpose of this conference is to “assist in the disposition of the case 
+without undue expense or burden to the parties.” Id. 
+ 
+23  
+Because we are remanding for a new trial on Preston Hollow’s breach of contract 
+claim, we need not address Senior Care’s third issue, the remainder of Senior Care’s 
+fourth issue, and the remainder of Bouldin’s third issue, all of which concern either 
+their liability under the Notes or the amount of the damages award. See TEX. R. APP. 
+P. 44.1(b) (providing that if reversible error affects part, but not all, of matter in 
+controversy, appellate court must reverse judgment and order new trial “only as to 
+the part affected by the error,” but appellate court “may not order a separate trial 
+solely on unliquidated damages if liability is contested”). 
+
+69 
+ 
+Rule 166(g) thus “authorizes trial courts to decide matters that, though 
+ordinarily fact questions, have become questions of law because ‘reasonable minds 
+cannot differ on the outcome.’” JPMorgan Chase Bank, N.A. v. Orca Assets G.P., 
+L.L.C., 546 S.W.3d 648, 653 (Tex. 2018) (quoting Walden v. Affiliated Comput. 
+Servs., Inc., 97 S.W.3d 303, 322 (Tex. App.—Houston [14th Dist.] 2003, pet. 
+denied)). When a Rule 166(g) order disposes of claims in this fashion, the order is 
+akin to a summary judgment order, and we review the order de novo. Id. If the non-
+movant has raised a fact issue on the claim, dismissal under Rule 166(g) is not 
+proper. See McCreight v. City of Cleburne, 940 S.W.2d 285, 288 (Tex. App.—Waco 
+1997, writ denied); see also King Ranch, Inc. v. Chapman, 118 S.W.3d 742, 751 
+(Tex. 2003) (stating that more than scintilla of evidence exists to raise fact issue 
+when evidence “rises to a level that would enable reasonable and fair-minded people 
+to differ in their conclusions”). 
+ 
+Preston Hollow, UMB Bank, and TMI moved for dismissal of Senior Care’s 
+claims for conversion and money had and received under Rule 166(g), contending 
+that no fact issue existed on the claims and the trial court could dispose of the claims 
+as a matter of law. Specifically, Preston Hollow, UMB Bank, and TMI argued that 
+the claims could be dismissed as a matter of law because (1) UMB Bank and TMI 
+were properly appointed as co-successor Bond Trustees under the Bond Indenture 
+and therefore could exercise control over funds held by the trustee; (2) the Bond 
+
+70 
+ 
+Indenture provided that the funds were held in trust for the benefit of the 
+bondholders, and therefore the funds did not belong to Senior Care; (3) Preston 
+Hollow was expressly entitled to approve or disapprove of disbursement requests for 
+funds held by the trustee; and (4) the claims were barred by the economic loss rule. 
+Conversion is the unauthorized and unlawful assumption and exercise of 
+dominion and control over the personal property of another to the exclusion of, or 
+inconsistent with, the owner’s rights. Cypress Creek EMS v. Dolcefino, 548 S.W.3d 
+673, 684 (Tex. App.—Houston [1st Dist.] 2018, pet. denied). The elements of a 
+conversion claim are: (1) the plaintiff owned or had possession of the property or 
+entitlement to possession; (2) the defendant unlawfully and without authorization 
+assumed and exercised control over the property to the exclusion of, or inconsistent 
+with, the plaintiff’s rights as an owner; (3) the plaintiff demanded return of the 
+property; and (4) the defendant refused to return the property. Id. The plaintiff must 
+also prove damages that are the proximate result of the defendant’s conversion. Id. 
+at 685. 
+Money had and received is an equitable cause of action that “belongs 
+conceptually to the doctrine of unjust enrichment.” Ferrara, 555 S.W.3d at 244 
+(quoting Edwards v. Mid-Continent Off. Distribs., L.P., 252 S.W.3d 833, 837 (Tex. 
+App.—Dallas 2008, pet. denied)). “This cause of action is not premised on 
+wrongdoing, but instead seeks to restore money where equity and good conscience 
+
+71 
+ 
+require restitution.” Id. (quotations omitted); Nivens v. City of League City, 245 
+S.W.3d 470, 474 n.2 (Tex. App.—Houston [1st Dist.] 2007, pet. denied). To be 
+entitled to relief, the plaintiff must demonstrate that the defendant “holds money 
+which in equity and good conscience belongs to him.” Ferrara, 555 S.W.3d at 244 
+(quotations omitted). 
+Senior Care’s claims for conversion and money had and received have an 
+element in common: they both require Senior Care to prove that the money that has 
+been converted or held belongs to it. Senior Care, however, cannot do so. The 
+“Granting Clauses” of the Master Indenture provide that, to secure the payment of 
+the outstanding obligations, Senior Care as the Obligor “does hereby grant, bargain, 
+sell, alienate, remise, release, convey, assign, transfer, mortgage, hypothecate, 
+pledge, set over, and confirm to the Master Trustee” several described properties 
+including: (1) all revenue, accounts, accounts receivable, and gross revenues; (2) the 
+real property with improvements; and (3) “[a]ny amounts on deposit from time to 
+time in any fund or account created hereunder, subject to the provisions of this 
+Indenture permitting the application thereof for the purposes and on the terms and 
+conditions set forth herein.” Senior Care granted this property—known under the 
+Master Indenture as “the Trust Estate”—to BB&T as Master Trustee “TO HAVE 
+
+72 
+ 
+AND TO HOLD, IN TRUST, WITH THE POWER OF SALE . . . .”24 The Master 
+Indenture later states that “Trust Estate” “has the meaning given to such term in the 
+Granting Clauses hereof.” Senior Care also agreed that “as security for repayment 
+of the Obligations, all deposit accounts of the Obligor shall at all times be controlled 
+by the Master Trustee.” 
+Because Senior Care has not established in the trial court or on appeal that 
+(1) it owned or had possession of the funds or entitlement to possession, or (2) the 
+defendants held money that belonged to Senior Care, it did not raise a fact issue on 
+its claims for conversion and money had and received. See Cypress Creek EMS, 548 
+S.W.3d at 684 (stating elements of conversion); Ferrara, 555 S.W.3d at 244 (stating 
+elements of money had and received). Thus, because Senior Care did not raise a fact 
+issue on an essential element of these claims, the trial court properly dismissed the 
+claims for conversion and money had and received via a Rule 166(g) pretrial 
+management order. See TEX. R. CIV. P. 166(g); JPMorgan Chase Bank, 546 S.W.3d 
+ 
+24  
+The Bond Indenture likewise provides that the Bond Trustee holds the bond 
+proceeds in trust for the bondholders. Section 501 states: “All money deposited with 
+or paid to the Bond Trustee for the funds and accounts held under this Bond 
+Indenture shall be held by the Bond Trustee in trust and shall be applied only in 
+accordance with the provisions of this Bond Indenture, and, until used or applied as 
+herein provided, shall constitute part of the Trust Estate and be subject to the lien, 
+terms and provisions hereof . . . .” Section 516 states: “All moneys required to be 
+deposited with or paid to the Bond Trustee for the account of any of the funds or 
+accounts created by this Bond Indenture shall be held by the Bond Trustee in 
+trust . . . .” Both the Bond Indenture and the Master Indenture set out detailed 
+requirements for specific deposit accounts and uses for the bond proceeds. 
+
+73 
+ 
+at 653 (stating that Rule 166(g) “authorizes trial courts to decide matters that, though 
+ordinarily fact questions, have become questions of law because reasonable minds 
+cannot differ on the outcome”) (quotations omitted). 
+We overrule Senior Care’s sixth issue. 
+Attorney’s Fees 
+Finally, in his fifth issue, Bouldin argues that the trial court erred by ordering 
+him (jointly and severally with Senior Care) to pay the attorney’s fees of Preston 
+Hollow, UMB Bank, and TMI. In his fourth issue, Bouldin argues that neither UMB 
+Bank nor TMI can recover on the claims that they “conditionally asserted” against 
+him because the trial court rendered judgment solely in favor of Preston Hollow and 
+denied all other claims. We address these issues together. 
+In the final judgment, the trial court awarded Preston Hollow, UMB Bank, 
+and TMI “judgment against each of Senior Care and Bouldin, jointly and severally, 
+in the amount of $250,000 for unpaid attorneys’ fees and litigation expenses through 
+proceedings in this Court.” The court also ordered Bouldin and Senior Care, jointly 
+and severally, to pay $520,000 in conditional appellate attorney’s fees. 
+In its findings of fact and conclusions of law, the trial court identified several 
+provisions of the Master Indenture, the Bond Indenture, and the Loan Agreement 
+that allowed the Master Trustee, the Bond Trustee, the Noteholder Representative, 
+and the Series 2017A Majority Representative to recover reasonable expenses and 
+
+74 
+ 
+attorney’s fees from Senior Care. The court concluded that Bouldin is liable for 
+attorney’s fees and expenses under two provisions of the Guaranty, including the 
+provision making him liable for all amounts for which Senior Care is liable. The 
+court further concluded that Preston Hollow, UMB Bank, and TMI are entitled to 
+their reasonable attorney’s fees and expenses under both the Declaratory Judgments 
+Act (“DJA”) and Civil Practice and Remedies Code Chapter 38 because “Senior 
+Care and Bouldin have breached their contractual obligations to pay the amounts 
+owed.” The trial court did not award a specific amount of attorney’s fees for recovery 
+under the DJA or for recovery on the breach of contract claim. 
+In addition to guaranteeing to the “Guaranteed Parties” the “full, complete and 
+prompt payment of the principal and redemption price, if any, of and interest on the 
+Series 2017 Notes when due,” Bouldin also guaranteed payment of “any other sums 
+incurred by Guaranteed Parties in enforcing this Guaranty and repayment of the 
+Series 2017 Notes” upon the occurrence of certain specified events. Bouldin also 
+agreed: “To the extent that the Guaranteed Parties incur any costs or expenses in 
+protecting or enforcing its rights under this Guaranty, including reasonable 
+attorneys’ fees and the costs and expenses of litigation, such costs and expenses will 
+be due on demand, [and] will be included in the Guaranteed Obligations.” The 
+Guaranty—and the Completion Guaranty, which did not form part of the basis for 
+
+75 
+ 
+the trial court’s attorney’s fees award—is the only document that Bouldin signed in 
+his individual capacity. 
+We have already concluded that Preston Hollow is not a “Guaranteed Party” 
+under the Guaranty, and it may not enforce the Guaranty. Therefore, the Guaranty 
+cannot be used to justify requiring Bouldin to pay Preston Hollow’s attorney’s fees 
+and expenses. 
+Additionally, as Bouldin argues in his fourth issue, UMB Bank and TMI 
+“conditionally asserted” the same causes of action asserted by Preston Hollow—
+including a claim that Bouldin is liable under the Guaranty—in the event the court 
+determined that Preston Hollow’s authority to bring suit was limited. In the final 
+judgment, however, the trial court awarded damages against Bouldin under the 
+Guaranty only to Preston Hollow. The condition to trigger assertion of UMB Bank 
+and TMI’s claims—the trial court’s determination that Preston Hollow lacked 
+authority to sue Senior Care—therefore never occurred. Aside from incorporating 
+its earlier summary judgment ruling that UMB Bank and TMI were properly 
+appointed as co-successor Master Trustee and Bond Trustee and awarding attorney’s 
+fees and expenses, the court did not award relief to UMB Bank or TMI in the final 
+judgment. In the final paragraph of the judgment, the trial court ordered that “all 
+other claims and causes of action are denied.” 
+
+76 
+ 
+“A party who seeks to alter the trial court’s judgment or other appealable order 
+must file a notice of appeal.” TEX. R. APP. P. 25.1(c). We “may not grant a party who 
+does not file a notice of appeal more favorable relief than did the trial court except 
+for just cause.” Id. Neither UMB Bank nor TMI filed a notice of appeal from the 
+trial court’s judgment. We therefore cannot grant them greater relief than the trial 
+court granted them. The trial court did not grant UMB Bank or TMI judgment on 
+their conditional claims against Bouldin and instead expressly denied “all other 
+claims and causes of action.” In the absence of a notice of appeal from UMB Bank 
+or TMI seeking to alter this portion of the trial court’s judgment, we may not grant 
+them relief on their conditional claims against Bouldin.25 
+Without a judgment in their favor that Bouldin is liable to them under the 
+Guaranty, at this point, UMB Bank and TMI cannot recover attorney’s fees against 
+ 
+25  
+We agree with Bouldin that this is not a situation in which a party prevailed in the 
+trial court and had a judgment in its favor reversed on appeal, entitling the party to 
+elect a lesser remedy under an alternative theory of recovery. See Boyce Iron Works, 
+Inc. v. Sw. Bell Tel. Co., 747 S.W.2d 785, 787 (Tex. 1988) (“When the jury returns 
+favorable findings on two or more alternative theories, the prevailing party need not 
+formally waive the alternative findings. That party may seek recovery under an 
+alternative theory if the judgment is reversed on appeal.”). Aside from the trial 
+court’s declaratory judgment on the issue of appointment as successor Master 
+Trustee and Bond Trustee and the court’s ruling on attorney’s fees, the trial court 
+did not grant relief in favor of UMB Bank and TMI. UMB Bank and TMI did not 
+prevail on their conditional claims; instead, the condition to trigger these claims 
+never occurred. 
+
+77 
+ 
+Bouldin under the Guaranty. We therefore hold that the trial court erred by ordering 
+Bouldin to pay attorney’s fees to Preston Hollow, UMB Bank, and TMI.26 
+We sustain Bouldin’s fourth issue in part and his fifth issue. 
+ 
+ 
+ 
+26  
+Similarly, because we reverse the judgment of the trial court on Preston Hollow’s 
+breach of contract claim and remand that claim for a new trial and because the trial 
+court did not award a specific amount of attorney’s fees for Preston Hollow’s breach 
+of contract claim and a specific amount of attorney’s fees for UMB Bank and TMI’s 
+declaratory judgment claim, we vacate the portion of the judgment that awards 
+Preston Hollow, UMB Bank, and TMI attorney’s fees against Senior Care. 
+
+78 
+ 
+Conclusion 
+We reverse the portion of the trial court’s judgment that granted Preston 
+Hollow judgment against Bouldin under the Guaranty and render judgment that 
+Preston Hollow may not enforce the Guaranty against Bouldin. We also reverse the 
+portions of the judgment that granted Preston Hollow judgment against Senior Care 
+for breach of contract and awarded Preston Hollow $52,597,040.06 in damages and 
+pre-judgment interest against Senior Care. We remand Preston Hollow’s breach of 
+contract claim against Senior Care for a new trial. We also remand UMB Bank and 
+TMI’s claims against Bouldin under the Guaranty for further proceedings.27 We 
+further vacate the award of attorney’s fees in favor of Preston Hollow, UMB Bank, 
+and TMI. We affirm the remaining portions of the trial court’s judgment. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+April L. Farris 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Justice 
+ 
+Panel consists of Justices Hightower, Rivas-Molloy, and Farris. 
+ 
+ 
+27  
+Because the condition to trigger UMB Bank and TMI’s claims against Bouldin 
+under the Guaranty did not occur while the underlying proceeding was pending in 
+the trial court, these claims were not tried in the underlying trial. On appeal, 
+however, we have determined that Preston Hollow may not enforce the Guaranty 
+against Bouldin. We therefore remand not for a new trial on UMB Bank and TMI’s 
+claims against Bouldin, but for a trial in the first instance. 

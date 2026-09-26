@@ -1,0 +1,1441 @@
+ 
+I N  T H E  
+Indiana Supreme Court 
+Supreme Court Case No. 24S-PL-184 
+EdgeRock Development, LLC, ZPS Westfield, LLC, 
+and First Bank Richmond, 
+Appellants/Defendants, 
+–v– 
+C.H. Garmong & Son, Inc., Signworks, Inc.,  
+and Fox Contractors Corp., 
+Appellees/Plaintiffs. 
+Argued: September 5, 2024 | Decided: June 3, 2025 
+Appeal from the Hamilton Superior Court 5 
+No. 29D05-1912-PL-11500 
+The Honorable David K. Najjar, Judge 
+On Petition to Transfer from the Indiana Court of Appeals 
+No. 22A-PL-1968 
+Opinion by Justice Molter 
+Chief Justice Rush and Justices Massa, Slaughter, and Goff concur. 
+ 
+FILED
+C L E R K
+Indiana Supreme Court
+Court of Appeals
+and Tax Court
+Jun 03 2025, 2:16 pm
+
+Indiana Supreme Court | Case No. 24S-PL-184 | June 3, 2025 
+Page 2 of 41 
+Molter, Justice. 
+EdgeRock Development, LLC transformed five undeveloped lots into 
+the Trails of Westfield—a planned unit development in Westfield, 
+Indiana, comprising retail and residential projects. It still owns two of the 
+lots; it sold two lots to ZPS Westfield, LLC; and it sold one lot to a 
+nonparty. EdgeRock contracted with C.H. Garmong & Son, Inc. and Fox 
+Contractors Corp. to develop all five lots.  
+When EdgeRock first fell behind in its payments to Garmong, Garmong 
+recorded construction liens that EdgeRock satisfied by obtaining a loan 
+from First Bank Richmond, which the bank secured with a mortgage on 
+EdgeRock’s lots. Then, when EdgeRock fell behind again, Garmong and 
+Fox each recorded construction liens on all five lots in the development. 
+And the liens were redundant: Each lien stated a cumulative debt 
+covering the contractor’s work on all five lots, not just a debt for the work 
+benefiting the owner of the lot to which the lien attached. That meant the 
+contractors were using multiple properties with different owners to secure 
+the same debt.  
+Recording the liens didn’t prompt payment that time. So the 
+contractors sued EdgeRock for money damages on breach of contract 
+claims and sued the other property owners, including ZPS, to foreclose 
+the construction liens that secured the outstanding debts. Following a 
+bench trial, the trial court awarded the contractors most of the relief they 
+sought. But the Court of Appeals concluded the construction liens were 
+overstated because they were not limited to the debts for the 
+improvements directly benefiting the properties to which the liens 
+attached. And it reversed the portion of the judgment foreclosing the 
+construction liens.  
+We granted transfer to answer questions of first impression related to: 
+(1) the validity and scope of the contractors’ construction liens, and (2) the 
+priority between the construction liens and First Bank’s mortgage lien on 
+EdgeRock’s property. In short, we conclude that a construction lien 
+secures only the debt for improvements directly benefiting the property to 
+which the lien attaches. So the contractors can foreclose the liens on each 
+
+Indiana Supreme Court | Case No. 24S-PL-184 | June 3, 2025 
+Page 3 of 41 
+property to recover only those amounts, not amounts for work to improve 
+a different owner’s property.  
+We also conclude that First Bank’s mortgage lien is senior to the 
+construction liens for the amount the bank loaned to satisfy Garmong’s 
+prior construction lien. But the mortgage lien is junior for the remaining 
+amounts, including the amount the bank loaned EdgeRock to pay off a 
+prior mortgage held by the project’s investors.     
+Facts and Procedural History 
+I. 
+Trails of Westfield Development 
+EdgeRock undertook to commercially develop seventeen acres of 
+property on the southeast corner of State Road 32 and Oak Ridge Road in 
+Westfield, Indiana. The property began as one parcel, and then EdgeRock 
+subdivided it into five lots, which the parties refer to as Lots 1 through 5. 
+The project was to build a mixed use, planned unit development known 
+as the Trails of Westfield, with Lot 4 zoned for multi-family apartments 
+and the rest zoned for retail businesses. This is how the property appeared 
+before it was developed: 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+Indiana Supreme Court | Case No. 24S-PL-184 | June 3, 2025 
+Page 4 of 41 
+At that point, the land had no water or sanitary service, it had homes 
+on it that had to be demolished, and there was limited road access and 
+quality. The Anna Kendall Drain and stream ran through where 175th 
+Street was going to be built, and all five lots were in floodplains or 
+floodways. Thus, significant infrastructure and earthmoving work, 
+including moving the Anna Kendall Drain and stream, was required 
+before the property could be put to commercial use. 
+EdgeRock treated construction on all lots as one project with a single, 
+overarching infrastructure plan executed through a web of contracts.  
+EdgeRock-Garmong Contract (All Lots). EdgeRock hired C.H. 
+Garmong & Son, Inc. to construct common infrastructure (including 
+grading, sewer, and water) on all the lots and to construct buildings on 
+Lots 1 and 2. Fox Contractors Corp. was Garmong’s infrastructure 
+subcontractor for the EdgeRock-Garmong contract, enlisted to perform 
+earthwork and infrastructure installation. That entailed work on all five 
+lots, including utility work, earthwork on Lot 3 to raise its elevation, and 
+building a retention pond on Lot 5 to collect runoff from the area.  
+ZPS-EdgeRock Contract (Lots 1 and 2). ZPS Westfield, LLC bought 
+undeveloped Lots 1 and 2 from EdgeRock, and the parties entered a 
+development agreement requiring EdgeRock to construct retail buildings 
+and common infrastructure on those lots (which EdgeRock fulfilled 
+through a portion of its EdgeRock-Garmong contract). ZPS’s contract with 
+EdgeRock required work only on Lots 1 and 2, and ZPS agreed to pay 
+EdgeRock a total of $1,720,000, which ZPS did. After EdgeRock developed 
+Lot 1, ZPS leased it to Starbucks, and after EdgeRock developed Lot 2, 
+ZPS leased one portion to a Penn Station sandwich shop and another 
+portion to Forum Credit Union.  
+EdgeRock-Dahm Contract (Lot 3). EdgeRock sold Lot 3 to a nonparty, 
+Dahm No. 49, LLC, which Dahm developed into a Crew Carwash.  
+Lots 4 and 5. EdgeRock still owns Lots 4 and 5, which it intended to 
+develop into apartments and mixed-use retail shops, although it has not 
+yet done so.  
+
+Indiana Supreme Court | Case No. 24S-PL-184 | June 3, 2025 
+Page 5 of 41 
+EdgeRock-Fox Contract. EdgeRock also had a separate, direct contract 
+with Fox to move the Anna Kendall Drain, to construct 175th Street 
+between Lots 1–3 and Lots 4–5, and to install related infrastructure. Fox’s 
+work on the 175th Street Project stretched from the southern portion of 
+Lot 2 east, benefiting all lots adjoining 175th Street. The 175th Street 
+Project was to be funded by Road Impact Fee Credits (“RIF Funds”) 
+issued by the City of Westfield.  
+This is what the area looked like after development through these 
+contracts:  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+II. 
+First Bank Richmond Loan 
+As the project was progressing, EdgeRock stopped paying Garmong’s 
+invoices, leading Garmong to record a construction lien for $2,140,722.51. 
+At that point, Oak Ridge Investments, LLC owned Lots 4 and 5, and 
+EdgeRock was one of the company’s members, with Birch Dalton serving 
+as both companies’ manager. Oak Ridge’s investors held promissory notes 
+for the lots’ purchase price, which the investors secured through a 
+mortgage on the property.  
+EdgeRock satisfied Garmong’s lien by borrowing $4.9 million from 
+First Bank Richmond and using some of those funds to pay all of 
+Garmong’s overdue invoices. But EdgeRock used most of the loan 
+proceeds for its own general use or to pay the project’s investors, and it 
+
+Indiana Supreme Court | Case No. 24S-PL-184 | June 3, 2025 
+Page 6 of 41 
+did not put any of the rest of the loan into the project. It used 
+$2,028,443.62—most of the remaining loan proceeds—to pay Oak Ridge 
+investors for satisfaction of their mortgage on Lots 4 and 5, with First Bank 
+then recording its own mortgage on those lots to secure its loan (along 
+with other security, including a security interest in the RIF Funds).  
+III. Garmong’s and Fox’s Subsequent Construction 
+Liens 
+After EdgeRock satisfied Garmong’s first lien, more payment disputes 
+arose between EdgeRock, Garmong, and Fox related to work under the 
+EdgeRock-Garmong Contract, leading Garmong to record two liens—one 
+on EdgeRock’s lots, the other on ZPS’s lots—both for the same amount 
+($1,009,055.62) covering the same work. Fox recorded three liens related to 
+its subcontract work for Garmong—one each on lots owned by EdgeRock, 
+Dahm, and ZPS—all for the same amount ($500,053.42) for the same work. 
+Later, Garmong issued a partial payment to Fox, and Garmong and Fox 
+stipulated that this $500,053.42 debt was reduced to $202,623.56.  
+Fox also recorded three construction liens (one each on properties 
+owned by EdgeRock, Dahm, and ZPS), all in the same amount 
+($1,213,228.23) for the same work on the 175th Street Project under the 
+EdgeRock-Fox contract. Fox later released its liens on Dahm’s property, 
+leaving the liens on EdgeRock’s and ZPS’s property remaining.  
+IV. Litigation 
+Garmong, and then Fox in quick succession, sued for damages and to 
+foreclose the liens. First, Garmong filed a Complaint for Foreclosure of 
+Mechanic’s Liens, Breach of Contract, Unjust Enrichment and Damages 
+against EdgeRock, ZPS, First Bank, Fox, and Signworks (another 
+subcontractor). Then EdgeRock, Fox, and ZPS counterclaimed. Fox also 
+filed cross-claims against EdgeRock and ZPS, as well as a third-party 
+complaint against Dahm. Fox’s claims against EdgeRock, ZPS, and Dahm 
+sought money damages under several theories and to foreclose its 
+construction liens (although it later dismissed its claims against Dahm).  
+
+Indiana Supreme Court | Case No. 24S-PL-184 | June 3, 2025 
+Page 7 of 41 
+EdgeRock, ZPS, Garmong, and Fox all filed summary judgment 
+motions, which the trial court ruled on mid-trial. Also during the trial, the 
+City of Westfield interpleaded its RIF Funds totaling $938,322.40, in which 
+multiple parties claim an interest. Following an eight-day bench trial 
+(spread over several months), the court issued its Findings of Fact, 
+Conclusions of Law, and Judgment, which it later partially modified in an 
+order on motions to correct errors. Relevant to this appeal, the court’s 
+rulings were that Garmong prevailed on its breach of contract claim 
+against EdgeRock for $943,042.64 (plus interest and costs); Garmong could 
+foreclose its construction liens against EdgeRock’s lots for the same 
+amount (plus attorney fees); Garmong could foreclose its construction 
+liens against ZPS’s lots for the same amount (plus interest and costs); Fox 
+prevailed on its cross-claim for breach of contract against EdgeRock in the 
+amount of $1,301,531.37 (plus costs); Fox could foreclose its construction 
+liens on EdgeRock’s lots for $202,623.56 under the Garmong subcontract 
+and $1,166,728.23 under the EdgeRock-Fox contract (plus costs and 
+attorney fees); Fox could foreclose its construction liens on ZPS’s lots for 
+the same amounts (plus costs); the construction liens were senior to First 
+Bank’s mortgage lien except for the loan funds used to satisfy Garmong’s 
+previous lien; and EdgeRock was entitled to the RIF Funds.  
+EdgeRock, ZPS, and First Bank appealed, and Fox cross-appealed.1 The 
+Court of Appeals affirmed in part, reversed in part, and remanded with 
+instructions. The court held that by asserting duplicate liens on properties 
+with different owners and without segregating the debts by the 
+improvements attributable to each owner’s lots, Garmong and Fox 
+overstated their liens, rendering them invalid. EdgeRock Dev., LLC v. C.H. 
+Garmong & Son, Inc., 227 N.E.3d 907 (Ind. Ct. App. 2024). And because 
+those construction liens were invalid, there was no longer a priority 
+dispute with the bank’s mortgage lien. Id. at 931. The Court of Appeals 
+also held that the trial court erred by awarding the RIF Funds to 
+EdgeRock, instructing the trial court on remand to instead hold those 
+ 
+1 On appeal, Signworks and ZPS settled their claims with each other.  
+
+Indiana Supreme Court | Case No. 24S-PL-184 | June 3, 2025 
+Page 8 of 41 
+funds pending parallel litigation in the Hamilton County Commercial 
+Court, which will determine which party is entitled to the funds. Id. at 936. 
+The court noted that its holdings regarding the lien foreclosures and RIF 
+Funds do not disturb the trial court’s monetary, in personam judgments 
+against EdgeRock on Garmong’s and Fox’s breach-of-contract claims. Id. 
+at 938–39. 
+Garmong and Fox then sought transfer, which we granted, 235 N.E.3d 
+135 (Ind. 2024), thus vacating the opinion of the Court of Appeals, Ind. 
+Appellate Rule 58(A).2 
+Standard of Review 
+The parties appeal the trial court’s summary judgment rulings, its final 
+judgment with findings of fact and conclusions of law, and its rulings on 
+motions to correct error. We review the trial court’s summary judgment 
+rulings de novo. Gierek v. Anonymous 1, 250 N.E.3d 378, 384 (Ind. 2025). 
+We apply a two-tiered standard of review to the findings of fact and 
+conclusions of law—“first determining whether the evidence supports the 
+findings and, if so, whether the findings support the judgment.” Town of 
+Linden v. Birge, 204 N.E.3d 229, 233 (Ind. 2023). We apply a clearly 
+erroneous standard to the trial court’s findings of fact and a de novo 
+standard to the trial court’s conclusions of law. Id. at 234. And we review 
+rulings on motions to correct errors for an abuse of discretion. Expert Pool 
+Builders, LLC v. Vangundy, 224 N.E.3d 309, 312 (Ind. 2024). 
+ 
+2 The Indiana Bankers Association filed an amicus brief in support of First Bank. Indiana 
+Constructors, Inc., the Indiana Builders Association, and Associated General Contractors of 
+Indiana, Inc. filed an amicus brief in support of Garmong and Fox. The number of briefs in 
+this case is extraordinary; the associated record is voluminous; and we granted the parties’ 
+joint motion for an extended oral argument due to the number and complexity of the issues 
+on appeal. We commend all parties and amici for ensuring the quality of their arguments and 
+submissions matched the quantity.  
+
+Indiana Supreme Court | Case No. 24S-PL-184 | June 3, 2025 
+Page 9 of 41 
+Discussion and Decision 
+When a contractor supplies labor or materials to improve real property, 
+Indiana provides a statutory remedy to secure the resulting debt—a lien 
+on the improved property, which when enforced may compel the 
+property’s sale to pay the debt. Ind. Code § 32-28-3-1 et seq.; Mann v. 
+Schnarr, 95 N.E.2d 138, 141 (Ind. 1950). These liens—commonly referred to 
+as “mechanic’s liens” or “construction liens”—augment rather than 
+replace claims like breach of contract, unjust enrichment, quantum meruit, 
+and account stated. They are “simply a method of collecting a debt or a 
+means of receiving payment,” and they are “not the claim upon which the 
+lien is founded.” 53 Am. Jur. 2d Mechanics’ Liens § 1 (2025).  
+While these liens were unknown at common law and in equity, they 
+trace their lineage at least as far back as France’s Napoleonic Code. Moore-
+Mansfield Constr. Co. v. Indianapolis, New Castle & Toledo Ry. Co., 101 N.E. 
+296, 301 (Ind. 1913). They were first introduced in the United States as a 
+tool for developing the new capital city of Washington, D.C., and Indiana 
+enacted its first mechanic’s lien statute in 1834. Id.; see generally Note, 
+Mechanics Liens in Indiana—The Extent of the Property and Property Interests 
+Subject to the Lien, 36 Ind. L. J. 526, 529 (1961). “The historical origin and 
+purpose of mechanic’s lien statutes was to make a property owner an 
+involuntary guarantor of payments for the reasonable value of 
+improvements made to real estate by the physical labor or materials 
+furnished by laborers or materialmen.” Premier Invs. v. Suites of Am., Inc., 
+644 N.E.2d 124, 130 (Ind. 1994). This prevents “the inequity of a property 
+owner enjoying the benefits of the labor and materials furnished by others 
+without recompense.” Id. 
+Garmong and Fox contend they are entitled to foreclose their 
+construction liens on EdgeRock’s and ZPS’s properties because they 
+improved those properties through work and materials for which they 
+have not been paid. EdgeRock and ZPS both acknowledge the contractors 
+had statutory lien rights for unpaid work, but they argue the liens are 
+invalid here because, they contend, the liens were grossly overstated and 
+untimely. If, on the other hand, the contractors can foreclose their liens, 
+then First Bank argues any property sale proceeds must first go to repay 
+
+Indiana Supreme Court | Case No. 24S-PL-184 | June 3, 2025 
+Page 10 of 41 
+its $4.9 million loan because, either as a matter of statutory lien priority or 
+equitable subrogation, the bank’s mortgage lien is senior to the 
+contractors’ construction liens. 
+In Section I below, we analyze the scope and validity of Garmong’s and 
+Fox’s construction liens, concluding that the liens are valid for 
+improvements directly benefiting the properties to which they attach, but 
+not for improvements directly benefiting another owner’s property. Then, 
+in Section II, we analyze the lien priority between the construction liens 
+and the mortgage lien, concluding that the mortgage lien is senior as 
+security for the loan funds that went to satisfying Garmong’s previous 
+lien, but junior to the construction liens for the remaining funds.  
+I. 
+Scope and Validity of the Construction Liens 
+The trial court foreclosed Garmong’s and Fox’s construction liens 
+against ZPS’s and EdgeRock’s lots. On appeal, EdgeRock and ZPS pursue 
+a three-prong challenge to those liens. First, EdgeRock and ZPS argue the 
+liens are invalid because the statute did not permit Garmong and Fox to 
+secure their debts in duplicate (sometimes triplicate) by filing redundant 
+liens against multiple properties with different owners, all covering the 
+same labor and materials. Second, EdgeRock and ZPS argue the liens are 
+invalid because they were recorded too late. And third, they assert various 
+challenges to the underlying debts that the liens secure. 
+While we agree with EdgeRock and ZPS that each lien can secure no 
+more than the debt for the improvements to the property attached to the 
+lien, we otherwise affirm the trial court’s judgment as to the validity of the 
+liens and the debts they secure.  
+A. 
+Lien Duplication 
+Garmong and Fox contend they could assert duplicate liens on 
+properties with different owners because all their work was connected by 
+contracts through a single overarching development plan. That is, 
+Garmong contends it was proper to assert a lien against EdgeRock’s Lots 4 
+and 5 for the unpaid balance of $943,042.64, and then to assert another lien 
+
+Indiana Supreme Court | Case No. 24S-PL-184 | June 3, 2025 
+Page 11 of 41 
+for the same amount covering the same work against ZPS’s Lots 1 and 2. 
+Fox takes the same position: It was proper for Fox to assert a lien against 
+EdgeRock’s Lots 4 and 5 for the unpaid balance of $1,303,531.37, and then 
+to assert another lien for the same amount covering the same work against 
+ZPS’s Lots 1 and 2. Garmong and Fox’s position is based on the view that 
+“when there are multiple lots with multiple owners, the structure of the 
+contract is key and lien rights follow the contract even without common 
+ownership.” C.H. Garmong & Son, Inc.’s and Fox Contractors Corp.’s 
+Joint Pet. to Trans. at 15.  
+EdgeRock and ZPS disagree. They contend that when contractors work 
+on properties with different owners, the contractors must allocate the 
+debts between properties, or at least between property owners, even when 
+all the work stems from a single contract. Here, that would mean 
+Garmong’s and Fox’s liens against EdgeRock’s property could cover only 
+improvements to that property, and their liens against ZPS’s property 
+could cover only improvements to that property. 
+Four reasons lead us to agree with EdgeRock and ZPS that duplicate 
+liens are improper, which we discuss next. After that, we explain, as 
+Garmong and Fox argue, the remedy for the lien overstatement is to 
+reduce the liens, not, as EdgeRock and ZPS argue, to invalidate them in 
+their entirety.  
+1. 
+Statutory Language 
+The first reason we agree with EdgeRock and ZPS is that the statutory 
+language ties liens to property ownership, with no mention of contracts. 
+The statute says the lien attaches to (1) the structure or improvement itself 
+(for example, a building), and (2) “the interest of the owner of the lot or 
+parcel of land” on which the structure or improvement stands or to which 
+the structure or improvement is connected. I.C. § 32-28-3-1(b) (emphasis 
+added). “The entire land upon which the building, erection, or other 
+improvement is situated, including the part of the land not occupied by 
+the building, erection, or improvement, is subject to a lien to the extent of 
+the right, title, and interest of the owner for whose immediate use or 
+
+Indiana Supreme Court | Case No. 24S-PL-184 | June 3, 2025 
+Page 12 of 41 
+benefit the labor was done or material furnished.” I.C. § 32-28-3-2(a) 
+(emphasis added).  
+Despite these references to property ownership, Garmong and Fox 
+argue the statute links their lien rights to the contract compelling their 
+labor and materials, not to the ownership interest in the improved 
+property. For support, they point to other statutory language saying that 
+liens cover improvements “connected” to property. I.C. § 32-28-3-
+1(b)(2)(B). To say that something is “connected” to property generally 
+means that it is “joined or linked together” with the property. Connected, 
+Merriam-Webster, https://www.merriam-webster.com/dictionary/
+connected [https://perma.cc/JER5-B4R9] (last visited June 3, 2025). And 
+Garmong and Fox view a contract to improve multiple lots as joining or 
+linking each improvement to all the lots subject to the contract.  
+But this argument fails because the statutory context makes clear that is 
+not what the legislature meant by “connected,” and the legislature was 
+instead referring to a physical connection. See Hyland v. Rochelle, 100 N.E. 
+842, 849 (Ind. 1913) (explaining that the meaning of statutory terms “is to 
+be collected from the context” (quotations omitted)). The statutory term 
+“connected” is part of the provision establishing the scope of a lien:  
+A person described in subsection (a) may have a lien separately 
+or jointly: 
+(1) upon the house, mill, manufactory, or other building, 
+bridge, reservoir, system of waterworks, or other structure, 
+sidewalk, walk, stile, well, drain, drainage ditch, sewer, 
+cistern, or earth: 
+(A) that the person erected, altered, repaired, moved, or 
+removed; or 
+(B) for which the person furnished materials or 
+machinery of any description; and 
+(2) on the interest of the owner of the lot or parcel of land: 
+
+Indiana Supreme Court | Case No. 24S-PL-184 | June 3, 2025 
+Page 13 of 41 
+(A) on which the structure or improvement stands; or 
+(B) with which the structure or improvement is 
+connected; 
+to the extent of the value of any labor done or the material 
+furnished, or both, including any use of the leased equipment 
+and tools. 
+I.C. § 32-28-3-1(b) (emphasis added).  
+Subparts (2)(A) and (2)(B) above use different prepositional phrases so 
+that together they authorize liens for all categories of structures and 
+improvements listed in Subpart (1). Subpart (2)(A) authorizes a lien for the 
+property “on which the structure or improvement stands.” I.C. § 32-28-3-
+1(b)(2)(A). Those structures and improvements “on” the property would 
+include a “house, mill, manufactory, or other building” listed in 
+Subpart (1). Those same examples are also listed earlier in the statute 
+when establishing which vendors and which work qualify for a lien. 
+I.C. § 32-28-3-1(a)(1)(A) (allowing a lien for the “erection, alteration, 
+repair, or removal of . . . a house, mill, manufactory, or other building”).  
+But some structures or improvements do not necessarily stand “on” the 
+property, or at least not “on” the portion of property subject to the lien. So 
+Subpart (2)(B) authorizes a lien for property “with which the structure or 
+improvement is connected,” I.C. § 32-28-3-1(b)(2)(B), even if the structure 
+or improvement is not “on” the property, I.C. § 32-28-3-1(b)(2)(A). Again, 
+Subpart (1) gives examples of improvements that are physically connected 
+to a property: a “bridge, reservoir, system of waterworks, or other 
+structure, sidewalk, walk, stile, well, drain, drainage ditch, sewer, [or a] 
+cistern.” I.C. § 32-28-3-1(b)(1). And again, that list mirrors the examples 
+earlier in the statute establishing which vendors and which work qualify 
+for a lien. I.C. § 32-28-3-1(a) (allowing a lien for the “erection, alteration, 
+repair, or removal of . . . a bridge, reservoir, system of waterworks, or 
+other structure,” as well as “the construction, alteration, repair, or removal 
+of a walk or sidewalk located on the land or bordering the land, a stile, a 
+well, a drain, a drainage ditch, a sewer, or a cistern”). All these examples 
+
+Indiana Supreme Court | Case No. 24S-PL-184 | June 3, 2025 
+Page 14 of 41 
+either tie portions of the land together or link the property with other 
+property.  
+From the statutory context, then, we can see the term “connected” 
+denotes a physical connection, linking portions of the property together or 
+linking the property to other property. Nothing in the statute suggests the 
+term means something else, like a connection to the property through a 
+contract, as Garmong and Fox propose.  
+2. 
+Case Law 
+The case law confirms our interpretation, rejecting Garmong and Fox’s 
+view that a lien’s scope depends on whether all the work stems from a 
+single contract. See Shilling v. Templeton, 66 Ind. 585, 587 (1879) (“It is the 
+law and not the contract that gives the mechanic his lien.”). For example, 
+in Saint Joseph’s College v. Morrison, Inc., the Court of Appeals described as 
+“an erroneous conclusion of law” the view that “a valid mechanic’s lien 
+cannot embrace work done under two separate contracts.” 302 N.E.2d 865, 
+871 (Ind. Ct. App. 1973). The court explained that what has generally 
+mattered throughout the cases is not the number of contracts but whether 
+all the work subject to the lien (a) occurred “on one plot of real estate” and 
+(b) was “pursuant to a common plan of improvement” for that property. 
+Id. at 872; see also id. at 873 (recognizing that prior case law held that a joint 
+lien was proper for material furnished under “two distinct contracts” 
+because “all of the items were furnished for the same improvement upon 
+one piece of property”). The fact that work was performed pursuant to a 
+single contract may be evidence that the work was pursuant to a common 
+plan of improvement, but that does not mean all the work improved the 
+same plot of land, so the contract does not by itself determine whether a 
+joint lien is proper.  
+Garmong and Fox read the case law differently. The first category of 
+cases they rely on allows “joinder of claims in cases where such joinder 
+will not prejudice the rights of the property owner.” Id.  at 874. For 
+example, in Premier Steel Co. v. McElwaine-Richards Co., we affirmed the 
+foreclosure of McElwaine-Richards’s lien for the steam, gas, and water 
+pipes it supplied to Premier Steel Company for extensive renovations 
+
+Indiana Supreme Court | Case No. 24S-PL-184 | June 3, 2025 
+Page 15 of 41 
+throughout a steel plant even though the supplier didn’t separate the 
+orders by the “particular mill or building” that used the pipes. 43 N.E. 876, 
+877 (Ind. 1896). Our decision was based on the rule that:  
+Where labor is performed or materials furnished under one 
+contract upon several buildings, all situate upon one lot of land 
+belonging to the contracting owner, the lien attaches to all the 
+land for the whole value of the labor performed, and it is 
+immaterial whether the contract specifies one sum for all work 
+or separate amounts for each building. 
+ Id. at 877–78 (emphasis added) (quoting Jones, Liens, § 1313).  
+As later case law explained, the key takeaway from Premier Steel Co. is 
+that where all the work was done on a single piece of property, there is 
+“no valid public purpose in promoting multiple notices and foreclosures 
+in situations where a single lien would suffice.” Saint Joseph’s Coll., 302 
+N.E.2d at 874. Instead, the cases recognize “a policy of avoiding needless 
+multiplicity of proceedings.” Id. But as the bolded language above reflects, 
+it was critical to our holding in Premier Steel Co. that the multiple buildings 
+subject to a single lien all had the same owner. If the buildings had 
+different owners, then it would “prejudice the rights of the property 
+owner” to include in the lien the value of improvements to another 
+owner’s property. Id.  
+Another case in this category that Garmong and Fox cite is West v. 
+Dreher, 126 N.E. 688 (Ind. App. 1920). Dreher owned two adjoining lots, 
+and he built a house on each. The plaintiffs supplied labor and materials 
+for both houses and then recorded a single lien against both houses for the 
+unpaid balance. The Appellate Court (now the Court of Appeals) held: 
+“Where a contractor, under a single contract, has furnished materials and 
+performed labor in the construction of two separate dwelling houses, one 
+house on each of two contiguous lots, the labor and materials having gone 
+indiscriminately into the construction of both houses,” the contractor is 
+“entitled, by a single notice, to a lien on both houses and lots.” Id. at 689. 
+The court reasoned that “the two houses, within the mechanics’ lien law of 
+this state, are one piece of work” and therefore subject to a single lien. Id.  
+
+Indiana Supreme Court | Case No. 24S-PL-184 | June 3, 2025 
+Page 16 of 41 
+Again, and critically, both neighboring lots had the same owner, so 
+there was no need to require separate liens. The relevance of the contract 
+was just to establish that the property owner approved the improvements 
+and that they were all part of a common plan. Nothing in the case 
+suggests the court would have permitted a joint lien on both houses if 
+they had different owners.   
+The second category of cases on which Garmong and Fox rely 
+recognizes that property may be subject to a lien even when the 
+improvements are offsite. In Wells v. Christian, 76 N.E. 518 (Ind. 1906), a 
+boiler operator hired a contractor to install steam-distribution pipes under 
+a neighboring street, and the contractor sued to foreclose a lien on the 
+operator’s property for the unpaid balance. We held the lien could be 
+foreclosed, explaining that “[t]he mains and pipes laid down in the streets 
+and elsewhere to distribute the steam among those who are to enjoy the 
+beneficial use of it are clearly a part of the apparatus necessary to 
+accomplish the objects for which such heat plant was erected.” Id. at 519.  
+In other words, the steam pipes connected to the property “constitute a 
+part of the machinery by means of which the business of supplying heat to 
+others must be carried on.” Id. Because the work was “directly and 
+necessarily connected with the erection of the appellee’s heating system, 
+. . . it was an immaterial matter whether such work was performed upon 
+the particular premises to which the labor lien primarily attached.” Id.  
+Again, we affirmed the foreclosure because the lien covered the value 
+of improvements benefiting the property subject to the lien; we did not 
+approve a lien covering the value of improvements to someone else’s 
+property who did not consent to the debt. Wells also illustrates the 
+physical connection the statute requires. The steam pipes physically 
+linked customers to the heating plant. So in the statutory parlance, while 
+the pipes weren’t “on” the property with the heating plant, they were 
+“connected” to that property. I.C. § 32-28-3-1(b)(2)(A) & (B). 
+As Garmong and Fox acknowledge, “[n]o Indiana case has addressed 
+these facts where work was performed under one contract on multiple lots 
+with different owners” and a contractor asserted duplicate liens for all the 
+work against each improved property. C.H. Garmong & Son, Inc.’s and 
+
+Indiana Supreme Court | Case No. 24S-PL-184 | June 3, 2025 
+Page 17 of 41 
+Fox Contractors Corp.’s Joint Pet. to Trans. at 2. The cases to date suggest 
+a joint lien cannot cover property with different owners. And allowing a 
+joint lien to cover improvements to separate properties with separate 
+owners where one owner did not consent to the work benefiting another’s 
+property would conflict with a fundamental requirement of construction 
+liens, which leads to the next reason we agree with EdgeRock and ZPS’s 
+interpretation of the lien statute.  
+3. 
+Consent 
+One lien requirement is that the property owner must have consented 
+to the improvements to their property. Gill v. Pollert, 810 N.E.2d 1050, 1058 
+(Ind. 2004); see generally 19 Ind. Law Encyc. Mechanics’ Liens § 18 (2025) 
+(“The creation of a mechanic’s lien requires the authorization or consent of 
+the property owner to the improvement in question.”). This is consistent 
+with the lien’s theoretical underpinning as a tool to prevent unjust 
+enrichment, a claim which also includes consent as an element. See Kohl’s 
+Indiana, L.P. v. Owens, 979 N.E.2d 159, 167–68 (Ind. Ct. App. 2012) 
+(“Indiana courts articulate three elements for this claim: (1) a benefit 
+conferred upon another at the express or implied consent of such other 
+party; (2) allowing the other party to retain the benefit without restitution 
+would be unjust; and (3) the plaintiff expected payment.”); Lee & Mayfield, 
+Inc. v. Lykowski House Moving Eng’rs, Inc., 489 N.E.2d 603, 608 (Ind. Ct. 
+App. 1986) (“The statutory lien is equitable in nature and based upon the 
+theory of unjust enrichment.”).  
+For a lien, the “consent must be more than inactive or passive consent, 
+and the lien claimant’s burden to prove active consent is especially 
+important when the improvements are requested by someone other than 
+the landowner.” Gill, 810 N.E.2d at 1059 (quotations omitted). We’ve 
+acknowledged that “[t]he exact nature and content of the owner’s active 
+consent in this context will vary from case to case.” Id. (quotations 
+omitted). But “case law makes clear that the focus is not only on the 
+degree of the owner’s active participation in the decisions and the actual 
+construction.” Id. (quotations omitted). The focus is “also on how closely 
+
+Indiana Supreme Court | Case No. 24S-PL-184 | June 3, 2025 
+Page 18 of 41 
+the improvements in question resemble a directly bargained-for-benefit.” 
+Id. (quotations omitted).  
+Allowing duplicate liens that cover work directly benefiting other 
+owners’ properties would undermine this requirement. For example, a 
+homeowner might expressly or impliedly consent to work connecting 
+their lot to a development through a sidewalk, road, sewer, or other 
+utilities. And as a result, they may be required to shoulder through a lien 
+their portion of the cost of those improvements directly benefiting their 
+property. But it would be quite a stretch to suggest that single homeowner 
+consented to, and effectively bargained for, the development of the rest of 
+the broader network of sidewalks, roads, sewers, and utilities that connect 
+everyone else in the neighborhood along with their lot. See generally 53 
+Am. Jur. 2d Mechanics’ Liens § 46 (2025) (“As a general rule, a mechanic’s 
+lien attaches only to the estate or interest of the person who, directly or 
+through an agent, creates the lien by contracting for the labor or materials, 
+and accordingly only such party’s interest can be subjected to a sale to 
+satisfy the lien.”).  
+So each property owner must pay their own way, but that means 
+paying only for the improvements they effectively consented to and 
+bargained for, which takes us to our final point. 
+4. 
+Guarantor 
+Garmong and Fox’s statutory interpretation would convert property 
+owners to guarantors of other property owners’ debts. But that isn’t the 
+function of a construction lien under Indiana law.  
+To be sure, a lien makes “a property owner an involuntary guarantor of 
+payments for the reasonable value of improvements made to real estate by 
+the physical labor or materials furnished by laborers or materialmen.” 
+Premier Invs. v. Suites of Am., Inc., 644 N.E.2d 124, 130 (Ind. 1994). But that 
+is for improvements to the property owner’s own property, not someone 
+else’s property. Again, the scope of the lien is limited to “the right, title, 
+and interest of the owner for whose immediate use or benefit the labor 
+was done or material furnished.” I.C. § 32-28-3-2(a).   
+
+Indiana Supreme Court | Case No. 24S-PL-184 | June 3, 2025 
+Page 19 of 41 
+“A lien cannot exist without the existence of a debt which, under the 
+statute, it secures.” Mann v. Schnarr, 95 N.E.2d 138, 141 (Ind. 1950). 
+Garmong and Fox already obtained a money judgment against EdgeRock 
+for the money it owed them under the parties’ contract and failed to pay. 
+And ZPS already paid EdgeRock for the property improvements it 
+consented to. But ZPS never agreed to guarantee EdgeRock’s debts. So just 
+as ZPS isn’t a guarantor of EdgeRock’s money judgment, ZPS also isn’t a 
+guarantor of EdgeRock’s debts for improvements to EdgeRock’s property 
+through a lien on ZPS’s property. See McGrew v. McCarty, 78 Ind. 496, 498 
+(1881) (“[O]ne can no more be made to discharge the debt of another 
+building than one individual debtor can be made to pay a separate claim 
+owing by somebody else to the same creditor.”).  
+By analogy, consider again a typical housing development. Our lien 
+statute codifies a policy that a homeowner who actively consents to their 
+property being improved through a connection to the neighborhood’s 
+sidewalks, streets, sewer, and other utilities might be compelled to 
+guarantee the debt for the costs of their connection. But it does not follow 
+that the same homeowner should also shoulder the costs for 
+improvements to other homeowners’ properties. It is one thing to give a 
+contractor a security interest in property it has improved; it is quite 
+another to make that property owner the guarantor for the debts of all the 
+surrounding property owners.  
+Having concluded that EdgeRock and ZPS are correct that Garmong’s 
+and Fox’s duplicate liens are improper, we must turn to determining the 
+remedy.  
+B. 
+Lien Reduction  
+The trial court did not allocate the lien amounts between EdgeRock’s 
+and ZPS’s properties because the court mistakenly believed each 
+contractor could apply the entire debt to both property owners. EdgeRock 
+and ZPS argue, and the Court of Appeals agreed, that Garmong’s and 
+Fox’s overstatement of their liens renders them void. But no reported case 
+in Indiana has ever held that a lien was void because the vendor 
+overstated the amount owed, and this case should not be the first.  
+
+Indiana Supreme Court | Case No. 24S-PL-184 | June 3, 2025 
+Page 20 of 41 
+Our Court of Appeals has observed that where a party “intentionally or 
+through culpable negligence” overstates the lien amount, the 
+overstatement voids the whole lien. Abbey Villas Dev. Corp. v. Site 
+Contractors, Inc., 716 N.E.2d 91, 100–01 (Ind. Ct. App. 1999) (quotations 
+omitted). But that same authority recognizes that “a mere mistake in the 
+statement will not necessarily render the whole lien void when it is 
+evident that no fraud is intended, and where it has not misled the 
+defendant owner to his prejudice in making his defense.” Id. (quotations 
+omitted). Both sides accept these statements as accurate reflections of 
+Indiana law.  
+The trial court held that even if Garmong and Fox overstated the lien 
+amount, the overstatement does not void their liens because the 
+overstatement was based on a good faith dispute about Indiana law; it 
+was an open question whether the liens tracked the contract or property 
+ownership. Neither EdgeRock nor ZPS point to any basis on which we 
+could conclude the trial court misapprehended the law when concluding 
+that a lien is not void when an overstatement is based on a good faith legal 
+dispute, nor do they point to any evidence that Garmong or Fox acted 
+fraudulently.  
+We therefore conclude the trial court did not clearly err by declining to 
+void the liens based on overstatement. But the liens on each property still 
+need to be revised to reflect the materials and services directly improving 
+the property to which each lien attaches. Next, we apply that limitation to 
+the three pairs of liens. 
+1. 
+Garmong’s Liens for Improvements Under 
+the EdgeRock-Garmong Contract 
+The trial court approved $943,042.64 (plus fees and interest) for 
+Garmong’s duplicate liens against (a) ZPS’s Lots 1 and 2, and (b) 
+EdgeRock’s Lots 4 and 5. Those liens reflect Garmong’s final two unpaid 
+invoices (Invoices 6224-10 and 6224-11) for the EdgeRock-Garmong 
+contract, which was a contract (a) to construct buildings on Lots 1 and 2, 
+and (b) to construct common infrastructure (including grading, sewer, and 
+water) for all lots.  
+
+Indiana Supreme Court | Case No. 24S-PL-184 | June 3, 2025 
+Page 21 of 41 
+We start with the work related to constructing buildings on ZPS’s Lots 
+1 and 2. As we discussed above, the lien for those improvements can 
+attach only to the property directly benefited, so the lien amounts for 
+constructing buildings on ZPS’s lots can attach only to those lots, not 
+EdgeRock’s lots. And for the building construction on ZPS’s lots, there is 
+no dispute that ZPS approved the construction, that the construction 
+directly improved ZPS’s property, and that it was therefore proper for 
+Garmong to assert a lien for those improvements. As to ZPS, the dispute is 
+only over which charges on Invoices 6224-10 and 6224-11 relate to 
+constructing the buildings on ZPS’s lots instead of work and materials for 
+common infrastructure improving other owners’ properties.   
+The trial court examined the invoices and concluded that the line items 
+totaling “$520,509.70 for Masonry, Metal Panels, Membrane Roofing, Ipe 
+Siding, Entrances and Storefronts, Painting, Plumbing and HVAC, 
+Electrical, Asphalt Paving, Fences and Gates, Landscaping, and [Change 
+Order] #4” reflect work and materials that “went directly into ZPS’s 
+buildings and land.” App. Vol. 2 at 153, ¶ 48. ZPS does not claim these 
+charges were for work or materials that went somewhere other than to 
+directly improve its Lots 1 and 2. It instead argues there is no evidentiary 
+support for the trial court’s finding.  
+We disagree. The only building construction under the Garmong-
+EdgeRock contract was for the two buildings on ZPS’s Lots 1 and 2, so it 
+was reasonable for the trial court to infer that these building-related 
+construction charges were for ZPS’s lots. Thus, we affirm the trial court’s 
+judgment as to a lien on ZPS’s Lots 1 and 2 for $520,509.70.  
+Beyond that, though, the evidence does not support the trial court’s 
+conclusion that “the full $943,042.64 owed on invoices 6224-10 and 6224-11 
+directly benefited ZPS’s property.” App. Vol. 2 at 153, ¶ 52. Just the 
+opposite—Garmong’s Regional Manager, Mitch Hannum, who was 
+involved in calculating the lien amount, testified that the amounts were 
+not apportioned by lot, and the lien amounts include work on all five lots. 
+Similarly, Garmong’s Chief Financial Officer, Michael Preyss, who 
+executed the lien on Garmong’s behalf, testified he does not know the 
+allocation of the lien amounts between lots.  
+
+Indiana Supreme Court | Case No. 24S-PL-184 | June 3, 2025 
+Page 22 of 41 
+Despite this testimony, the trial court inferred from Fox’s pay 
+applications as a subcontractor that this work benefited ZPS. On appeal, 
+the closest Garmong comes to justifying the attribution of these remaining 
+expenses to ZPS is to say that the “bulk” of some of the categories of 
+charges should be attributable to ZPS, and that other charges benefited 
+ZPS in an unspecified “part.” Br. of Appellee C.H. Garmong & Sons, Inc. 
+at 46. But ZPS is responsible only for those improvements it consented to 
+for the direct benefit of its own property; it is not responsible for other 
+amounts merely because they include an unspecified portion that directly 
+benefited ZPS’s property. The lien on ZPS’s Lots 1 and 2 must therefore be 
+reduced to $520,509.70, reflecting the building expenses to which ZPS 
+consented and which directly benefited ZPS’s property.  
+Because there is no finding that the remaining amount is attributable to 
+improvements directly benefiting EdgeRock’s property—and the evidence 
+is that the work was across all five lots—EdgeRock’s Lots 4 and 5 are not 
+subject to a construction lien for any of the $943,042.64. That said, while 
+EdgeRock’s property is not subject to a construction lien for any of that 
+amount, the property remains subject to a judgment lien for the entire 
+amount based on Garmong’s successful breach of contract claim against 
+EdgeRock. (We recognize that a judgment lien has a lower priority than a 
+construction lien, though.)  
+Also, ZPS already paid EdgeRock for the improvements to its property 
+that are the subject of the liens against Lots 1 and 2, and it was EdgeRock 
+that failed to pass along ZPS’s payment to Garmong. So to minimize the 
+extent to which ZPS will otherwise pay for the same work twice, the trial 
+court ordered that EdgeRock’s Lots 4 and 5 must be sold first, and any 
+sums paid to Garmong from that sale will reduce the judgment against 
+ZPS in the same amount. No party has challenged that instruction on 
+appeal, and we leave it undisturbed.  
+The trial court also mistakenly included pre-judgment interest in its 
+award to Garmong against ZPS. Garmong argues pre-judgment interest 
+“is warranted if the contract terms make the claim ascertainable and the 
+amount rests upon mere calculation.” Br. of Appellee C.H. Garmong & 
+Son, Inc. at 52 (quoting Johnson v. Blankenship, 679 N.E.2d 505, 509 (Ind. Ct. 
+
+Indiana Supreme Court | Case No. 24S-PL-184 | June 3, 2025 
+Page 23 of 41 
+App. 1997), summarily aff’d, 688 N.E.2d 1250 (Ind. 1997)). But the claim did 
+not rest upon mere calculation because Garmong declined to allocate the 
+charges by lot, so it was only through trial that ZPS could learn how to 
+excise its debt from others’ debts for which ZPS was not a guarantor. 
+See Pichon v. Am. Heritage Banco, Inc., 983 N.E.2d 589, 601 (Ind. Ct. App. 
+2013) (“Damages that are the subject of a good faith dispute cannot allow 
+for an award of prejudgment interest.”), trans. denied. 
+In sum, although Garmong’s construction liens against EdgeRock’s Lots 
+4 and 5 are invalid, its judgment liens against EdgeRock remain valid. 
+Garmong’s construction liens on ZPS’s Lots 1 and 2 are valid only for the 
+amount of $520,509.70,3 and they may be enforced only if the sale of 
+EdgeRock’s Lots 4 and 5 does not satisfy the debt.4  
+2. 
+Fox-Garmong Subcontract 
+Garmong engaged Fox as a subcontractor under the EdgeRock-
+Garmong contract “to provide earthmoving and common utility and 
+private infrastructure work in the Project (the ‘Garmong Subcontract’).” 
+App. Vol. 2 at 128, ¶ 125. The subcontract price was $1,315,000, and 
+Garmong and Fox have stipulated that $202,623.56 of that amount remains 
+unpaid.  
+The trial court concluded that Fox could assert duplicate liens for this 
+debt against both EdgeRock’s and ZPS’s properties. It found that “[t]he 
+common utility and infrastructure work in the Project was phased across 
+the entire Project, and Fox performed this common infrastructure and 
+ 
+3 ZPS incorporates EdgeRock’s argument that Garmong’s liens were not timely, but the 
+arguments for these charges are specific to EdgeRock’s lots. ZPS does not make a timing 
+argument specific to the charges that we have concluded the trial court properly validated for 
+the liens on Lots 1 and 2. We therefore do not disturb the trial court’s conclusion that 
+Garmong’s liens were timely as to ZPS.  
+4 We summarily affirm the holding of the Court of Appeals that the trial court did not err in 
+concluding that factual disputes precluded summary judgment on EdgeRock’s claim that 
+Change Order #3 was invalid because it was not approved in writing. EdgeRock Dev., LLC v. 
+C.H. Garmong & Son, Inc., 227 N.E.3d 907, 931–32 (Ind. Ct. App. 2024). 
+
+Indiana Supreme Court | Case No. 24S-PL-184 | June 3, 2025 
+Page 24 of 41 
+utility work in accordance with the general phasing of the Project’s 
+infrastructure plans.” App. Vol. 2 at 154, ¶ 63(d). The trial court further 
+found that the work “benefit[s] the entire development.” Id. ¶ 64(e). 
+We affirm the trial court’s judgment for this amount as to EdgeRock but 
+not ZPS. The “trial court’s judgment comes to this court clothed with a 
+presumption of validity, and the appellant bears the burden of proving 
+that the trial court erred.” Consumer Att’y Servs., P.A. v. State, 71 N.E.3d 
+362, 364 (Ind. 2017) (quotation omitted). On appeal, EdgeRock does not 
+dispute that these specific remaining charges were for infrastructure 
+improvements on or connecting to its lots, that it requested these 
+improvements, and that the improvements directly benefited its property.  
+Instead, EdgeRock claims it was entitled to summary judgment based 
+on its argument that Fox did not record its lien within the statutorily 
+required ninety days. But as the trial court appropriately concluded, the 
+lien was timely because “Fox last performed common utility and 
+infrastructure work for the Project under the Edgerock Contract on June 3, 
+2019,” which was less than ninety days before Fox recorded its lien on 
+EdgeRock’s Lots 4 and 5 on August 30, 2019. App. Vol. 2 at 138, ¶ 150. 
+And we find no error in the trial court’s conclusion that the work fell 
+within the scope of the Garmong subcontract, rather than reflecting 
+merely incidental repair work as EdgeRock suggests.  
+EdgeRock also argues that Garmong’s and Fox’s liens are invalid 
+because Garmong expressly released “any and all claims and liens” 
+against EdgeRock “by reason of labor, materials or equipment furnished 
+by it in connection with” Garmong’s “installation of the water and 
+sanitary mains under the contract.” Br. of Appellant EdgeRock 
+Development, LLC at 62 (quoting Release of Liens, App. Vol. 5 at 142); 
+see also Br. of Appellant ZPS Westfield, LLC at 57 (joining EdgeRock’s 
+argument). But the parties’ briefing does not reveal what, if any, portion 
+of the liens relate to the water and sanitary mains. And if any portion 
+does, that would be a reason to reduce rather than invalidate the liens, as 
+discussed above. The trial court therefore did not err by declining to 
+invalidate the liens through summary judgment on this basis, and 
+
+Indiana Supreme Court | Case No. 24S-PL-184 | June 3, 2025 
+Page 25 of 41 
+EdgeRock does not challenge the trial court’s findings and conclusions on 
+this same basis.    
+ZPS is in a much different position than EdgeRock, though, because it 
+did not consent to the work on EdgeRock’s lots under the Garmong-Fox 
+subcontract. We therefore reverse the trial court’s judgment validating 
+these liens on ZPS’s Lots 1 and 2.  
+3. 
+175th Street Project 
+Lastly, the trial court approved Fox’s duplicate $1,166,728.23 liens 
+against EdgeRock’s and ZPS’s properties for outstanding debts stemming 
+from the 175th Street Project.5 For that project, Fox “entered into a direct 
+contract with Edgerock to construct 175th Street, to provide additional 
+common utility work for the Project, and to relocate the Anna Kendall 
+Drain.” App. Vol. 2 at 131, ¶ 133. This work consisted of: 
+• Clearing and demolition work and erosion control; 
+• Excavated existing Anna Kendall Drain, placed stone base 
+and then filled the area with B-Borrow; 
+• Relocated and stabilized Anna Kendall Drain; 
+• Installed stormwater infrastructure end along 175th Street, 
+including piping and [outlet] into detention pond; 
+• Excavated part of detention pond southeast of lift station; 
+ 
+5 EdgeRock argues this lien was also untimely. The trial court concluded that the lien was 
+timely because Fox’s work under this contract continued until June 3, 2019, less than ninety 
+days before Fox recorded its lien on EdgeRock’s Lots 4 and 5 on August 30, 2019. Again, we 
+find no error in the trial court’s conclusion.    
+ 
+
+Indiana Supreme Court | Case No. 24S-PL-184 | June 3, 2025 
+Page 26 of 41 
+• Installed box culvert extension on east side of Oakridge 
+Road – extended existing culvert with the relocation of the 
+Anna Kendall Drain; 
+• Graded and prepped roadway from first 200 feet east to 
+connect to Wheeler Road, and paved in front of Crew 
+Carwash area; 
+• Installed part of the waterline that was to continue on east to 
+connect into the main at the end to complete the loop all the 
+way to Wheeler Road. 
+App. Vol. 2 at 132–33, ¶ 137 (letters replaced with bullet points). 
+Some of the work was “actually performed on the Edgerock Real 
+Estate,” and the remainder “would benefit the entire Project” because it 
+“made the development of the entire Project possible,” which no party 
+disputes on appeal. App. Vol. 2 at 132–33, ¶¶ 136, 138. Those findings are 
+sufficient to support the trial court’s conclusion that the liens on 
+EdgeRock’s Lots 4 and 5 for these improvements are valid. EdgeRock 
+requested all this work; the work was for infrastructure physically 
+connected to EdgeRock’s lots; and all the work directly benefited 
+EdgeRock’s property and its commercial enterprise, much as physically 
+connecting the infrastructure to the boiler operation in Wells was 
+“necessary to accomplish the objects for which” the “plant was erected.” 
+76 N.E. at 519.6   
+But again, it is a different story with ZPS. While these improvements 
+indirectly benefited ZPS’s lots by making them amenable to development, 
+ZPS never bargained for or consented to this work, and there is no 
+ 
+6 We summarily affirm the holding of the Court of Appeals that the trial court did not err in 
+granting Garmong’s summary judgment motion (and denying EdgeRock’s competing 
+summary judgment motion) on EdgeRock’s claim that it was entitled to a credit for amounts 
+owed under the EdgeRock-Garmong contract for work related to the 175th Street Project and 
+the drain relocation. EdgeRock Dev., LLC, 227 N.E.3d at 932 (Ind. Ct. App. 2024). 
+
+Indiana Supreme Court | Case No. 24S-PL-184 | June 3, 2025 
+Page 27 of 41 
+evidence that ZPS would have agreed to develop Lots 1 and 2 had it 
+known it would be responsible for preparing the lots for development 
+along with preparing the surrounding lots for development too. In other 
+words, unlike EdgeRock, ZPS never agreed to be a guarantor of the debts 
+for this work.  
+Thus, for the amounts due under the EdgeRock-Fox contract, we affirm 
+the trial court’s foreclosure of Fox’s liens on EdgeRock’s property but 
+reverse Fox’s judgment against ZPS.  
+II. 
+Lien Priority 
+Because Garmong’s and Fox’s lien foreclosures force the sale of 
+EdgeRock’s Lots 4 and 5, we must next determine the order—the 
+priority—that those sale proceeds will be applied to (a) the debts that the 
+construction liens secure, and (b) the $4.9 million debt that First Bank’s 
+mortgage lien secures. To recap, this is the timeline of relevant events for 
+that dispute: 
+March 31, 2016 
+Oak Ridge Investments mortgaged Lots 4 and 5 to 
+secure the purchase of the lots. 
+Dec. 4, 2018 
+Garmong recorded a $2,140,722.51 lien on Lots 4 
+and 5. 
+Feb. 25, 2019 
+First Bank recorded a mortgage lien on Lots 4 
+and 5 to secure its $4.9 million loan to EdgeRock 
+after: (a) EdgeRock used some of the bank’s loan 
+proceeds to satisfy Garmong’s December 2018 
+lien; (b) EdgeRock used other of those loan 
+proceeds to satisfy the Oak Ridge Investments’ 
+mortgage; and (c) Oak Ridge Investments 
+quitclaimed Lots 4 and 5 to EdgeRock.  
+Aug. and Sept. 2019 Garmong and Fox recorded construction liens on 
+Lots 4 and 5 covering work that began before First 
+Bank recorded its mortgage lien. 
+
+Indiana Supreme Court | Case No. 24S-PL-184 | June 3, 2025 
+Page 28 of 41 
+The parties and the trial court all agree that the bank’s mortgage lien is 
+senior for the $2,140,722.51 the bank loaned EdgeRock to satisfy 
+Garmong’s December 2018 construction liens, but the trial court 
+concluded the construction liens were senior to the mortgage lien securing 
+the remainder of the loan proceeds. 
+On appeal, the bank argues its mortgage lien is senior for all the funds 
+its lien secures for three reasons. First, the bank recorded its lien before 
+Garmong and Fox recorded their liens. Second, even if the construction 
+liens would otherwise be senior, there is a statutory exception granting 
+seniority to a mortgage lien that secures construction project financing. 
+And the bank claims all the funds it loaned EdgeRock qualify under this 
+exception, not just the funds to satisfy Garmong’s prior lien. Third, the 
+bank argues that equitable subrogation puts its mortgage lien in the same 
+priority position as the previous mortgage that the bank’s loan funds 
+satisfied.  
+We address the bank’s three arguments in turn, ultimately agreeing 
+with Garmong and Fox as to each.  
+A. 
+Construction lien priority is determined by the 
+date work begins, not the date the lien is recorded. 
+Generally, “priority in time gives a lien priority in right.” Johnson v. 
+Johnson, 920 N.E.2d 253, 256 (Ind. 2010). So the bank’s first argument is 
+that its mortgage lien is senior because its lien was prior in time—the bank 
+recorded its lien before Garmong and Fox recorded their construction 
+liens. See I.C. § 32-21-4-1(c) (providing that a mortgage lien “takes priority 
+according to the time of its recording”). But that argument fails because 
+while the recording date establishes the priority date for a mortgage lien, 
+the recording date does not establish the priority date for a construction 
+lien.  
+Instead, when a lienholder records a construction lien, the priority date 
+relates back to the date when the lienholder began performing labor or 
+providing materials or machinery. The relevant statute provides:     
+
+Indiana Supreme Court | Case No. 24S-PL-184 | June 3, 2025 
+Page 29 of 41 
+The recorder shall record the statement and notice of intention 
+to hold a lien when presented under section 3 of this chapter in 
+the miscellaneous record book. The recorder shall charge a fee 
+for recording the statement and notice in accordance with IC 
+36-2-7-10. When the statement and notice of intention to hold a 
+lien is recorded, the lien is created. The recorded lien relates 
+back to the date the mechanic or other person began to 
+perform the labor or furnish the materials or machinery. 
+Except as provided in subsections (c) and (d), a lien created 
+under this chapter has priority over a lien created after it. 
+I.C. § 32-28-3-5(b) (emphasis added). Because the parties agree that 
+Garmong and Fox began their work before First Bank recorded its 
+mortgage lien, the trial court properly found that their construction liens 
+were prior in time and therefore generally have priority over the mortgage 
+lien.  
+First Bank argues the trial court’s conclusion reflects a legal error 
+because the bank reads the construction lien priority provision as 
+establishing priority based on the date of recording—just like a mortgage 
+lien—not the date the construction lienholder began performing work or 
+supplying materials or machinery. As First Bank reads the statute, the lien 
+is “created” when it is recorded, which establishes lien priority. I.C. § 32-
+28-3-5(b). And the relation-back provision refers to the scope of the debt 
+that the lien secures, allowing the lien to secure debt for work, materials, 
+and machinery provided before the lien was recorded.  
+But more than 150 years’ worth of cases from our Court and the Court 
+of Appeals say otherwise, interpreting similar statutory relation-back 
+provisions as establishing a construction lien’s priority, not just its scope. 
+See 5 Tiffany Real Prop. § 1578 (3d ed. 2024) (including Indiana among the 
+states where construction lien priority is established “when the person 
+asserting the lien first began to furnish the labor or materials for which the 
+
+Indiana Supreme Court | Case No. 24S-PL-184 | June 3, 2025 
+Page 30 of 41 
+lien is claimed”).7 And that case law mirrors how courts around the 
+country interpret these sorts of relation-back provisions in lien statutes. 
+See 1 Alvin L. Arnold and Myron Kove, Construction & Development 
+Financing § 4:247 (3d ed. 2024) (“Mechanics liens statutes often permit the 
+ 
+7 See also Ward v. Yarnelle, 91 N.E. 7, 14 (Ind. 1910) (stating that “where some labor is 
+performed, or material is furnished prior to the execution of a mortgage, in which event, upon 
+notice being filed within the statutory period, though after the mortgage is given, the lien 
+reaches back of the mortgage to the time when the work is begun or the material furnished, 
+and gains priority both as to the land and the building”), overruled on other grounds by Moore-
+Mansfield Constr. Co. v. Indianapolis, New Castle & Toledo Ry. Co., 101 N.E. 296 (Ind. 1913); 
+Jenckes v. Jenckes, 44 N.E. 632, 634 (Ind. 1896) (explaining that a mechanic’s lien’s priority was 
+measured by “the time when work was begun or material furnished”), overruled on other 
+grounds by Sulzer-Vogt Mach. Co. v. Rushville Water Co., 65 N.E. 583 (Ind. 1902); Fleming v. 
+Bumgarner, 29 Ind. 424, 425 (1868) (“A fair construction of the law is, that the lien of a 
+mechanic or material man relates to the time when the work commenced, or the materials 
+began to be furnished, as to subsequent conveyances as well as to other liens.”); Wells Fargo 
+Bank, N.A. v. Rieth-Riley Constr. Co., 38 N.E.3d 666, 671 (Ind. Ct. App. 2015) (explaining that 
+the priority of the mechanic’s lien was measured by when “the mechanic’s work was begun or 
+materials [were] furnished”); Provident Bank v. Tri-Cnty. Southside Asphalt, Inc., 804 N.E.2d 161, 
+163 (Ind. Ct. App. 2004) (measuring the mechanic’s lien priority from the date when the 
+lienholder “began paving the driveway”), on reh’g in part, 806 N.E.2d 802 (Ind. Ct. App. 2004); 
+Greyhound Fin. Corp. v. R.L.C., Inc., 637 N.E.2d 1325, 1327 (Ind. Ct. App. 1994) (“Before a 
+proper notice has been recorded, only a latent, unperfected mechanic’s lien exists. When the 
+notice is recorded, the lien is perfected and its priority is determined by the date the lien 
+claimant began work on the property.”); Beneficial Fin. Co. v. Wegmiller Bender Lumber Co., 402 
+N.E.2d 41, 43 (Ind. Ct. App. 1980) (holding that a mechanic’s lien had priority where materials 
+were furnished before the mortgage was recorded and the mechanic’s lien was recorded after 
+the mortgage); Stanray Corp. v. Horizon Constr., Inc., 342 N.E.2d 645, 650 (Ind. Ct. App. 1976) 
+(explaining that a mechanic’s lien has priority “where, for example, the mechanic’s earliest 
+work or delivery of materials antedates recordation of the competing mortgage”); Krotz v. 
+A.R. Beck Lumber Co., 73 N.E. 273, 278 (Ind. App. 1905) (explaining that a properly recorded 
+mechanic’s lien “would have been effective from the time the materials were furnished, and 
+would have had priority over all liens suffered or created thereafter, except the liens of other 
+mechanics and materialmen, as to which there is no priority”); Zehner v. Johnston, 53 N.E. 
+1080, 1082 (Ind. App. 1899) (measuring the priority of a mechanic’s lien based on “the time 
+when the work for which the lien is claimed was commenced, or to when the first material for 
+which the lien is claimed was furnished”). 
+
+Indiana Supreme Court | Case No. 24S-PL-184 | June 3, 2025 
+Page 31 of 41 
+liens, once recorded, to relate back to an earlier time for priority 
+purposes.”).8  
+To support its interpretation, First Bank cites Robert Neises Construction 
+Corp. v. Grand Innovations, Inc., 938 N.E.2d 1231, 1235 (Ind. Ct. App. 2010), 
+which held that a bank’s mortgage lien was senior to a later-recorded 
+mechanic’s lien even though the work underlying the mechanic’s lien 
+predated the bank recording its mortgage lien. The Court of Appeals 
+provided only a paragraph of analysis, stating in conclusory fashion that 
+this statutory construction was required “to avoid an absurd result,” but 
+the court did not provide any explanation of what absurd result it was 
+avoiding. See id. Of course, courts cannot override the legislature’s policy 
+choice based on their own view that a different policy would be better. 
+See R.R. v. State, 106 N.E.3d 1037, 1042 (Ind. 2018) (explaining that the 
+absurdity doctrine applies only when a contrary reading “truly is absurd, 
+and not merely unwise or unsound”).  
+The Court of Appeals also did not acknowledge all the prior case law 
+establishing that construction lien priority relates back to when the 
+lienholder began performing labor or furnishing materials or machinery 
+on the encumbered property. First Bank argues that Neises pivoted from 
+prior precedent because the legislature tweaked the statutory language 
+after those cases were decided, changing the reference from construction 
+liens “so created” by recording a notice to instead referring to a lien that 
+“is created” when it “is recorded.” Br. of Appellant First Bank Richmond 
+at 27–28. But Neises did not discuss any change in the statutory language, 
+ 
+8 See also 3 Bruner & O'Connor Construction Law § 8:177 (2024) (“In many jurisdictions, the 
+mechanics’ lien will relate back to an earlier time. A number of states treat the lien as taking 
+priority from the time of ‘commencement’ or ‘visible commencement’ of the improvement, 
+provided that the claimant records its lien within the statutorily required time after it 
+completes its work on the project.”); Greene v. Thompson, 554 So. 2d 376, 379 (Ala. 1989) 
+(holding that a mechanic’s lien has priority over any “encumbrances attaching after the 
+commencement of the work.”); Trustees of Mortg. Tr. of Am. v. Dist. Ct. In & For Routt Cnty., 621 
+P.2d 310, 312 (Colo. 1980) (explaining that “the mechanics’ lien statutes provide that an 
+effective mechanic’s lien relates back in time to the ‘commencement of work’ upon the 
+construction project at issue, thus gaining a preference over other liens and interests in land 
+which may have been recorded prior to the actual filing of the mechanic’s lien”). 
+
+Indiana Supreme Court | Case No. 24S-PL-184 | June 3, 2025 
+Page 32 of 41 
+and when the legislature recodified the statute with the tweaks First Bank 
+notes, the legislature instructed that it was not altering the substance of 
+the law. See I.C. § 32-16-1-5 (“[I]f the literal meaning of [the recodification] 
+(including a literal application of an erroneous change to an internal 
+reference) would result in a substantive change in the prior property law, 
+the difference shall be construed as a typographical, spelling, or other 
+clerical error”).  
+We therefore do not find Neises’s reasoning persuasive. And to the 
+extent Neises held that a construction lien’s priority is measured from its 
+recording date rather than from the date when the lienholder began 
+performing labor or furnishing materials or machinery, that holding was 
+mistaken, and we disavow it.  
+Because Garmong and Fox began providing their improvements before 
+First Bank recorded its mortgage lien, the construction liens generally 
+have priority over the mortgage lien, with one important exception we 
+discuss next.  
+B. 
+First Bank’s mortgage lien is senior for the money 
+it loaned to satisfy Garmong’s prior lien, but not 
+for the remainder of the loan funds. 
+Even where a construction lien would otherwise be senior to an earlier 
+recorded mortgage lien, there is a statutory exception for a mortgage lien 
+that secures project financing: “The mortgage of a lender has priority over 
+all liens created under this chapter that are recorded after the date the 
+mortgage was recorded, to the extent of the funds actually owed to the 
+lender for the specific project to which the lien rights relate.” I.C. § 32-
+28-3-5(d) (emphasis added); see also Harold McComb & Son, Inc. v. JPMorgan 
+Chase Bank, NA, 892 N.E.2d 1255, 1262 (Ind. Ct. App. 2008) (explaining that 
+“our legislature adopted Indiana Code section 32–28–3–5(d) to establish 
+that where the funds from the loan secured by the mortgage are for the 
+project which gave rise to the mechanic’s lien the mortgage lien has 
+priority over the mechanic’s liens recorded after the mortgage” (cleaned 
+up)). 
+
+Indiana Supreme Court | Case No. 24S-PL-184 | June 3, 2025 
+Page 33 of 41 
+First Bank loaned EdgeRock $4.9 million, and it is undisputed that the 
+bank recorded its mortgage lien before Garmong and Fox recorded the 
+construction liens in dispute. EdgeRock used $2,140,722.51 of the loan 
+funds to satisfy Garmong’s prior construction lien; $2,028,443.62 to pay 
+partners in Oak Ridge Investors; $300,000 for First Bank loan charges; 
+$15,000 for EdgeRock’s attorney fees; $9,269 for title charges; $5,000 for an 
+insurance premium; and $165 for recording charges. EdgeRock retained 
+the remaining $401,399.87 for its general use. The $2,028,443.62 EdgeRock 
+paid to Oak Ridge’s investors led to the release of the prior mortgage on 
+Lots 4 and 5, allowing EdgeRock to then mortgage the lots as security 
+(along with other security) for First Bank’s $4.9 million loan.  
+The parties and the trial court all agree that the statutory exception for 
+project financing makes First Bank’s mortgage lien senior to the 
+construction liens for the $2,140,722.51 that First Bank loaned EdgeRock to 
+pay off Garmong’s prior construction lien. That is because the funds to 
+satisfy the prior lien were used “for the specific project to which” the 
+construction lien rights relate. I.C. § 32-28-3-5(d). But the trial court 
+concluded that was the only portion of the mortgage lien that was senior 
+to the construction liens because none of the remaining “loan proceeds 
+went to future development.” App. Vol. 2 at 144, ¶ 178.  
+First Bank argues its entire mortgage lien is senior to the construction 
+liens, and, if not, at least all but the $401,399.87 for EdgeRock’s general use 
+should be senior. The bank contends the trial court made a legal error by 
+“inappropriately interpret[ing] the statutory phrase ‘for the specific 
+project’ to mean only loan proceeds earmarked for construction of 
+improvements, and not loan proceeds to acquire or satisfy preexisting 
+liens against the project’s land.” Br. of Appellant First Bank Richmond at 
+21 (citing I.C. § 32-28-3-5(d)). First Bank also worries this will “have a 
+chilling effect on refinance transactions.” Id.   
+We read the trial court’s order differently. As we read the order, the 
+trial court did not conclude that land acquisition costs or refinancing can 
+never be for the specific project to which construction lien rights relate; it 
+just found that in this case the payment to the partners in Oak Ridge 
+Investors was not for land acquisition or refinancing to support the 
+
+Indiana Supreme Court | Case No. 24S-PL-184 | June 3, 2025 
+Page 34 of 41 
+project. Instead, the court found that this portion of the loan was simply a 
+mechanism for the investors to retrieve their capital without paying the 
+contractors who had improved the properties composing the project in 
+which the investors had invested.  
+As the trial court explained, the bank’s loan was a “half after-the-fact 
+construction loan for an in-progress project” (the portion for which the 
+parties agree the bank’s lien is senior) and “half a mechanism to allow 
+Edgerock to move money from one related LLC to another” for uses that 
+had nothing to do with the project (the portion for which the trial court 
+held the bank’s lien is junior). Id. at 170–71, ¶¶ 137, 139. And the trial court 
+had many reasons for that finding.  
+One reason was that the description on the commercial loan application 
+was that the funds were for “non-purchase money collateral.” App. Vol. 2 
+at 141, ¶ 165. Left unchecked were boxes for “construction and permanent 
+loans, revolving draw construction line of credit,” and “draw construction 
+loan.” Id. Also left unchecked was a box where “the loan proceeds will be 
+for the purchase of collateral” along with a description left blank for 
+“purchase-money collateral.” Id. While EdgeRock used some of the loan 
+funds to satisfy Garmong’s prior lien, “none of the [First Bank] loan 
+proceeds were used to fund any construction or development costs 
+associated with Fox’s construction of the Project’s new public 
+infrastructure, i.e., the relocation of the Anna Kendall Drain and the 
+construction of 175th Street.” Id. at 142–43, ¶ 173. There was also “no 
+purchase agreement between Oak Ridge Investors and Edgerock for the 
+transfer of Lots 4 and 5.” Id. at 143. The “Oak Ridge Investors quitclaimed 
+the real estate to Edgerock” with the deed noting that there was no 
+consideration and that it was “a transfer between related LLCs with a 
+common principal for internal company purposes.” Id. at 143–44, ¶ 176.    
+Put simply, “[n]one of [the bank’s] loan proceeds went to future 
+development,” id. at 144, ¶ 178, and the “acquisition of Lots 4 and 5 by 
+Edgerock was unnecessary to complete this specific project,” id. at 171, 
+¶ 143. “The Bank knew that the lien it was paying off was for work 
+already completed” and that “it was not funding a traditional construction 
+
+Indiana Supreme Court | Case No. 24S-PL-184 | June 3, 2025 
+Page 35 of 41 
+loan where the bank provides acquisition funding that allows the project 
+to proceed.” Id. at 144, ¶ 180.   
+First Bank does not identify any findings that are unsupported by 
+evidence, and these findings support the trial court’s conclusion that the 
+loan funds beyond those to pay Garmong’s prior lien were not for the 
+specific project related to the lien.9 The bank itself says that its loan 
+enabled EdgeRock to “reorganize the finances[]” of “the whole 
+development company.” Reply Br. of Appellant First Bank Richmond 
+at 36. But the statute covers refinancing only for the project related to the 
+liens. 
+We therefore affirm the trial court’s judgment that the bank’s mortgage 
+lien is senior for the $2,140,722.51 of the loan funds EdgeRock used to 
+satisfy Garmong’s prior construction lien and junior to the construction 
+liens for the remainder of the loan funds. 
+C. 
+The trial court did not clearly err by declining to 
+apply equitable subrogation. 
+Lastly, First Bank argues that equitable subrogation allows the bank to 
+assume the senior position of the Oak Ridge investors’ earlier acquisition 
+mortgage that First Bank paid off. As First Bank sees it, the contractors’ 
+construction lien was already junior to the investors’ mortgage lien that 
+secured the purchase of Lots 4 and 5 before the contractors began working 
+on the lots, so the contractors are no worse off with First Bank assuming 
+that same senior mortgage priority position. If anything, First Bank 
+argues, the contractors are better off because it was First Bank’s loan that 
+enabled EdgeRock to pay Garmong’s outstanding invoices.  
+ 
+9 First Bank argues that Signworks is not on equal footing with Garmong and Fox because 
+Signworks performed work only on ZPS’s Lots 1 and 2, not EdgeRock’s Lots 4 and 5. So 
+Signworks’s only claim to an interest in Lots 4 and 5 is through its money judgment against 
+EdgeRock, which the bank argues is junior to its mortgage lien. Signworks does not respond 
+to this argument, which we treat as conceded.  
+
+Indiana Supreme Court | Case No. 24S-PL-184 | June 3, 2025 
+Page 36 of 41 
+Equitable subrogation is a common-law doctrine for avoiding the 
+“inequitable application of the general principle that priority in time gives 
+a lien priority in right.” Neu v. Gibson, 928 N.E.2d 556, 560 (Ind. 2010). 
+Under the doctrine, when a payor discharges the entire debt that a debtor 
+held subject to a mortgage, the payor succeeds to the previous 
+mortgagee’s rights, including the priority over junior liens, so long as 
+there is no prejudice to the interests of junior lienholders. Bank of New York 
+v. Nally, 820 N.E.2d 644, 651, 655 (Ind. 2005). The basis for the doctrine is 
+“the lender’s justified expectation of receiving a security interest in the 
+property.” Id. at 653 (brackets and quotations omitted). Otherwise, junior 
+lienholders would obtain a windfall through promotion in priority. Id. “In 
+considering whether to order subrogation and thus bypass the general 
+principle of priority, courts base their decisions on the equities, 
+particularly the avoidance of windfalls and the absence of any prejudice to 
+the interests of junior lienholders.” Neu, 928 N.E.2d at 560. 
+As we’ve previously explained:  
+We agree with the Restatement at least in the context of a 
+conventional refinancing. A lender providing funds to pay off 
+an existing mortgage expects to receive the same security as the 
+loan being paid off. Refinancings are commonplace in today’s 
+economy. Permitting a junior lienholder to leapfrog the priority 
+of the current senior mortgage would impair the owner’s access 
+to more favorable interest rates. Unless a junior lienholder is 
+disadvantaged by permitting subrogation, we see no reason to 
+give the junior lienholder in effect the right to block or object to 
+the refinancing. We conclude that a mortgagee who refinances 
+an existing mortgage is entitled to equitable subrogation even if 
+it had actual or constructive knowledge of an existing lien on 
+the property unless the junior lienholder is disadvantaged or 
+the mortgagee is “culpably negligent” . . . but this remedy is 
+subject to the rights and limitations of the subrogor. 
+Nally, 820 N.E.2d at 653–54. 
+
+Indiana Supreme Court | Case No. 24S-PL-184 | June 3, 2025 
+Page 37 of 41 
+First Bank argues equitable subrogation applies here because it paid off 
+the investors’ acquisition mortgage for Lots 4 and 5 expecting to receive 
+the same security—a mortgage on the property with senior priority—as 
+the investor loan that First Bank paid off. And, the bank argues, allowing 
+the contractors to leapfrog the priority of the mortgage security would 
+produce a windfall to them at First Bank’s expense. The bank also argues 
+this would put contractors in a position to block a project owner’s access 
+to refinancing options on more favorable lending terms. 
+The trial court found that the equities favored the contractors because 
+the portion of the loan in dispute was not a traditional refinancing but a 
+vehicle for the investors to retrieve their capital without paying the 
+contractors that had improved the properties composing the project in 
+which they had invested. As the court explained, “[t]he Bank knew it was 
+paying off an existing mechanic’s lien for an in-trouble project through an 
+unconventional financing arrangement,” including that “[t]he Bank knew 
+that it was not making a traditional construction loan or purchase-money 
+loan where it would finance the purchase of the properties and pay 
+additional draws as the construction progressed.” App. Vol. 2 at 169–70, 
+¶ 132. None of the disputed funds were spent on the project, and the loan 
+application noted that the loan was for non-purchase collateral.  
+“The Bank also knew the transaction between Oak Ridge Investors and 
+Edgerock was not an arm’s-length deal,” that “Edgerock had an interest in 
+Oak Ridge Investors,” and “that Birch Dalton was the manager of both 
+entities.” Id. at 170, ¶ 133. There was no purchase agreement for 
+transferring Lots 4 and 5 from Oak Ridge to EdgeRock, and the quitclaim 
+deed noted both that the transaction was for “no consideration” and that it 
+was “a transfer between related LLCs with a common principal for 
+internal company purposes.” Id. at 170, ¶ 134.  
+First Bank argues the trial court should have balanced the equities 
+differently and concluded that declining to apply equitable subrogation 
+gives the contractors “an unearned windfall” and places them “in a far 
+better position than they would have been without [the bank’s] loan.” 
+Br. of Appellant First Bank Richmond at 45. Without the loan, the bank 
+
+Indiana Supreme Court | Case No. 24S-PL-184 | June 3, 2025 
+Page 38 of 41 
+argues, “Garmong would not have received a sizeable payment for its 
+work.” Id. But there are two problems with this argument.  
+The first problem is that while it is certainly true that the bank’s loan 
+proceeds enabled EdgeRock to pay Garmong’s outstanding invoices, the 
+parties agree that the bank’s mortgage lien is senior as to those funds. But 
+those funds were less than half the loan. It is the rest of the loan proceeds 
+that are in dispute. And as to those proceeds, there was evidence 
+supporting the trial court’s finding that those funds were not for 
+refinancing a construction project but for returning capital to investors, 
+which then avoided paying the contractors for improvements they made 
+to the property in the project in which the investors had invested.  
+The second problem is that the argument contradicts our standard of 
+review. While the trial court could have weighed the equities as the bank 
+proposes, the court didn’t have to. We cannot second-guess the court’s 
+judgment because the evidence supports its findings, and its findings 
+support its conclusion.10  
+We therefore affirm the trial court’s judgment declining to apply 
+equitable subrogation.11 
+Conclusion  
+For these reasons, we affirm in part, reverse in part, and remand for the 
+trial court to amend the judgment consistent with this opinion. That 
+includes amending the judgment to reflect:  
+ 
+10 We summarily affirm the decision of the Court of Appeals reversing the trial court’s award 
+to EdgeRock of the Road Impact Fees and instructing the trial court to distribute the funds 
+consistent with the outcome of related litigation in the Hamilton County Commercial Court. 
+EdgeRock Dev., LLC, 227 N.E.3d at 936. We also summarily affirm the decision of the Court of 
+Appeals awarding First Bank its attorney fees. Id. at 938.  
+11 The trial court also concluded, and Garmong and Fox agree, that the legislature’s statutory 
+scheme for construction lien priority abrogated the doctrine of equitable subrogation in this 
+context. Because we affirm the trial court’s decision not to apply the doctrine, we need not 
+decide whether the lien statute has abrogated the doctrine in this context.   
+
+Indiana Supreme Court | Case No. 24S-PL-184 | June 3, 2025 
+Page 39 of 41 
+• Garmong’s construction liens against EdgeRock’s Lots 4 and 5 
+securing the $943,042.64 debt under the EdgeRock-Garmong 
+contract are invalid, but the related judgment liens against 
+EdgeRock remain valid.  
+ 
+• Garmong’s construction liens on ZPS’s Lots 1 and 2 securing the 
+debt under the EdgeRock-Garmong contract are valid only for the 
+amount of $520,509.70, and they may be enforced only if the sale of 
+EdgeRock’s Lots 4 and 5 does not satisfy the debt.  
+ 
+• Fox’s construction liens on EdgeRock’s Lots 4 and 5 securing the 
+$202,623.56 debt under the Fox-Garmong subcontract are valid, but 
+Fox’s liens for that amount on ZPS’s Lots 1 and 2 are not.  
+ 
+• Fox’s construction liens on EdgeRock’s Lots 4 and 5 securing the 
+$1,166,728.33 owed under the EdgeRock-Fox contract are valid, but 
+Fox’s liens on ZPS’s Lots 1 and 2 securing that debt are not.  
+ 
+• Signworks’s judgment lien on EdgeRock’s Lots 4 and 5 is junior to 
+First Bank’s mortgage lien on those lots. 
+In addition, we summarily affirm the holdings of the Court of Appeals: 
+(1) that the trial court did not err in concluding that factual disputes 
+precluded summary judgment on EdgeRock’s claim that Change Order #3 
+was invalid because it was not approved in writing; (2) that the trial court 
+did not err in granting Garmong’s summary judgment motion (and 
+denying EdgeRock’s competing summary judgment motion) on 
+EdgeRock’s claim that it was entitled to a credit for amounts owed under 
+the Garmong contract for work related to the 175th Street Project and the 
+drain relocation; (3) reversing the trial court’s award to EdgeRock of the 
+Road Impact Fees and instructing the trial court to distribute the funds 
+consistent with the outcome of related litigation in the Hamilton County 
+Commercial Court; and (4) that First Bank is entitled to recover attorney 
+fees from EdgeRock.  
+ 
+
+Indiana Supreme Court | Case No. 24S-PL-184 | June 3, 2025 
+Page 40 of 41 
+Finally, we affirm the trial court’s judgment in all respects not 
+appealed. Also, like the Court of Appeals, we note that our holdings do 
+not disturb the in personam judgments against EdgeRock on Garmong’s 
+and Fox’s breach-of-contract claims. 
+Rush, C.J., Massa, Slaughter, and Goff, JJ., concur. 
+ATTORNEYS FOR APPELLANT EDGEROCK DEVELOPMENT, LLC 
+Maggie L. Smith 
+Darren A. Craig 
+Frost Brown Todd LLP 
+Indianapolis, Indiana 
+ATTORNEYS FOR APPELLANT ZPS WESTFIELD, LLC 
+Nathaniel M. Uhl 
+Jenny R. Buchheit 
+Adam M. Alexander 
+Ice Miller LLP 
+Indianapolis, Indiana 
+ATTORNEYS FOR APPELLANT FIRST BANK RICHMOND 
+Scott J. Fandre 
+David M. Johnson 
+Krieg Devault LLP 
+Mishawaka, Indiana 
+ 
+Bryan H. Babb 
+James E. Carlberg 
+Nathan T. Danielson 
+Bose McKinney & Evans LLP 
+Indianapolis Indiana 
+Ronald L. Cross 
+Boston Bever Forrest Cross & Sickmann 
+Richmond, Indiana 
+
+Indiana Supreme Court | Case No. 24S-PL-184 | June 3, 2025 
+Page 41 of 41 
+ 
+ATTORNEYS FOR APPELLEES C.H. GARMONG & SON, INC., AND 
+SIGNWORKS, INC. 
+Peter S. French 
+Jeffrey D. Stemerick 
+Neil R. Peluchette 
+Taft Stettinius & Hollister LLP 
+Indianapolis, Indiana 
+ATTORNEYS FOR APPELLEE FOX CONTRACTORS CORP. 
+Robert W. Eherenman 
+Haller Colvin PC 
+Fort Wayne, Indiana 
+ATTORNEYS FOR AMICUS CURIAE INDIANA BANKERS ASSOCIATION 
+Thomas W. Dinwiddie 
+Daniel R. Kelley 
+Dinsmore & Shohl LLP 
+Indianapolis, Indiana 
+ATTORNEYS FOR AMICI CURIAE INDIANA CONSTRUCTORS, INC., 
+INDIANA BUILDERS ASSOCIATION, AND ASSOCIATED GENERAL 
+CONTRACTORS OF INDIANA, INC. 
+Joseph M. Leone 
+Michael F. Drewry 
+Sean T. Devenney 
+Drewry Simmons Vornehm, LLP 
+Carmel, Indiana 
+ 

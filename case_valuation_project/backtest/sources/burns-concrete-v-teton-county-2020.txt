@@ -1,0 +1,920 @@
+ 
+1 
+IN THE SUPREME COURT OF THE STATE OF IDAHO 
+ 
+Docket Nos. 46827/47496 
+ 
+ 
+BURNS CONCRETE, INC., an Idaho 
+Corporation, and BURNS HOLDINGS, LLC, 
+an Idaho limited liability company, 
+ 
+     Plaintiffs-Counterdefendants- 
+     Respondents-Cross Appellants, 
+ 
+v. 
+ 
+TETON COUNTY, a political subdivision of 
+the State of Idaho, 
+  
+     Defendant-Counterclaimant- 
+     Appellant-Cross Respondent. 
+_______________________________________ 
+)
+)
+)
+)
+)
+)
+)
+)
+)
+)
+)
+)
+)
+)
+) 
+Boise, June 2020 Term 
+ 
+Opinion Filed: November 2, 2020 
+ 
+Melanie Gagnepain, Clerk 
+ 
+Appeal from the District Court of the Seventh Judicial District of the State of Idaho, 
+Teton County. Dane H. Watkins, Jr., District Judge. 
+ 
+The district court’s grant of partial summary judgment on the issue of breach of 
+contract is affirmed. The judgment of the district court is vacated. The district court’s 
+orders on attorney fees are vacated. The case is remanded for a recalculation of 
+damages and an explanation of the attorney fee award. 
+ 
+Billie J. Siddoway, Teton County Prosecuting Attorney, Driggs, for appellant-cross 
+respondent. Billie Siddoway argued. 
+ 
+Parsons Behle & Latimer, Boise, for respondents-cross appellants. Robert Burns 
+argued. 
+___________________ 
+ 
+BRODY, Justice. 
+This appeal arises from a dispute over the construction of a ready-mix concrete 
+manufacturing facility in Teton County. In 2007, Burns Holdings entered into a development 
+agreement with Teton County regarding property owned by Burns Concrete. The development 
+agreement required the construction of a permanent concrete manufacturing facility on the property 
+within 18 months of the execution of the agreement, but allowed operation of a temporary facility in 
+the meantime. Burns Concrete, the concrete company that would operate the facility, and Burns 
+
+ 
+2 
+Holdings, a holding company that was to eventually take title to the property, wanted to build a 
+permanent facility that was 75-feet tall, but the applicable zoning ordinance limited building heights 
+to 45-feet. The County denied Burns Holdings’ application for a conditional use permit and its 
+subsequent application for a variance to exceed the height limit. The Burns Companies operated the 
+temporary facility for several years but never constructed the permanent facility.  
+In 2012, the County sent written notice revoking the authority to operate the temporary 
+facility and demanding that the temporary facility be removed. The Burns Companies subsequently 
+filed this action, stating claims for breach of contract, declaratory judgment, and unjust enrichment. 
+The County counterclaimed, alleging breach of contract and seeking declaratory judgment for the 
+removal of the temporary facility. This began a multi-year period of litigation that included two 
+appeals to this Court, each followed by a remand to the district court. This case has returned to us 
+again, this time as a result of the parties’ cross-appeals from the district court’s grant of partial 
+summary judgment in favor of the Burns Companies on their breach of contract claim, its award of 
+$1,049.250.90 in damages, and its award of attorney fees. We affirm the district court’s grant of 
+partial summary judgment on the issue of breach of contract, but vacate the district court’s judgment 
+for a recalculation of damages. In its recalculation of damages, the district court is instructed to 
+reverse its reduction of damages by the difference between the Temporary Facility’s sales and cost 
+of sales. We vacate the district court’s award of attorney fees and remand the matter for an 
+explanation of the district court’s reduction of requested attorney fees. 
+I. FACTUAL AND PROCEDURAL BACKROUND 
+A. Factual Background 
+Burns Holdings, LLC and Burns Concrete, Inc. are Idaho business entities. Kirk Burns is the 
+president of Burns Concrete and the manager of Burns Holdings. Burns Holdings and Burns 
+Concrete are referred to together as “the Burns Companies.”  
+In 2006, Burns Concrete purchased a 6.5-acre property (“the Property”) in Teton County. 
+Burns Holdings applied to change the zoning of the Property from C-3 (commercial) to M-1 (light 
+industrial) in order to build and operate a ready-mix concrete manufacturing facility on the Property. 
+On February 26, 2007, the County approved the zone change with certain conditions, including that 
+Burns Holdings enter into a development agreement with the County pursuant to Idaho Code section 
+67-6511A. 
+The Property was located within the City of Driggs’ impact area, where the County and 
+
+ 
+3 
+Driggs had agreed, pursuant to Idaho Code § 67-6526, that the Driggs zoning laws would apply. 
+Driggs’ zoning ordinance provided that “any building or structure or portion thereof” could not 
+exceed 45 feet in height unless approved by conditional use permit (CUP).  
+On June 13, 2007, Burns Holdings applied for a CUP to build a permanent facility (the 
+“Permanent Facility”) 75 feet in height. The application was first reviewed by Driggs’ planning and 
+zoning department, which unanimously recommended approval by the County. The application was 
+sent to the County.  
+On August 31, 2007, Burns Holdings and the County entered into a development agreement 
+(the “Development Agreement”). Paragraph 2.b of the Development Agreement required 
+construction of the Permanent Facility to commence immediately upon execution. Importantly, 
+Paragraph 2.b also required the construction of the Permanent Facility in accordance with elevation 
+schematics showing a building 75 feet in height. It further required construction to be completed 
+within 18 months, subject to acts of force majeure beyond Burns Holdings’ control. Paragraph 2.b 
+also required the construction of a temporary facility (the “Temporary Facility”). The County had the 
+authority to revoke the authority to operate the Temporary Facility if the Permanent Facility was not 
+completed within the allowable time period. Paragraph 9 provided that the Development Agreement 
+could be terminated, and the Property’s zoning reverted, if Burns Holdings or its successor failed to 
+comply with the terms of the Development Agreement. Paragraph 10 required Burns Holdings to 
+comply with all applicable laws. Paragraph 12 provided that the Development Agreement would run 
+with the land. 
+On November 15, 2007, the County denied Burns Holdings’ CUP application. Burns 
+Holdings sought judicial review of the denial. The district court upheld the County’s CUP denial and 
+Burns Holdings appealed. This Court affirmed on the alternative ground that the Local Land Use 
+Planning Act (“LLUPA”) required a variance, not a CUP, to modify the height requirements in a 
+zoning ordinance. Burns Holdings, LLC v. Teton Cnty. Bd. of Comm’rs, 152 Idaho 440, 272 P.3d 
+412 (2012) (“Burns 2012”). Subsequently, Burns Holdings applied for a zoning variance to build the 
+Permanent Facility to a height of 75 feet. The County denied this request as well.  
+By letter dated April 9, 2012, the County revoked the authority to operate the Temporary 
+Facility and demanded that the Temporary Facility be removed by July 1, 2012. On October 4, 2012, 
+the County sent another letter to Kirk Burns reminding him of the April 9 demand to remove the 
+Temporary Facility and requesting removal activity to begin immediately. In response, counsel for 
+
+ 
+4 
+the Burns Companies sent a letter to the County asserting that the County’s October 4 letter 
+constituted a breach of the Development Agreement because the Burns Companies’ time limit for 
+constructing the Permanent Facility was tolled by the Development Agreement’s force majeure 
+clause and the County had failed to provide the requisite notice of default and opportunity to cure. 
+By letter dated November 5, 2012, the County’s prosecuting attorney notified the Burns Companies’ 
+that the County rejected their demands, asserted that the force majeure clause was inapplicable, and 
+threatened to file suit to compel the Burns Companies’ removal of the Temporary Facility.  
+Subsequently, Burns Concrete executed a quitclaim deed in which it transferred 50% of its 
+interest in the Property to Burns Holdings. A few days later, Burns Concrete and Burns Holdings 
+executed an “Assignment and Assumption Agreement.” Through the Assignment and Assumption 
+Agreement, Burns Holdings transferred to Burns Concrete an undivided interest in all of Burns 
+Holdings’ rights arising from the Development Agreement. Similarly, Burns Concrete transferred to 
+Burns Holdings an undivided interest in all of Burns Concrete’s claims related to the Property 
+“and/or” the Development Agreement. 
+B. Procedural History 
+On May 21, 2013, the Burns Companies filed a complaint against the County that stated 
+causes of action for breach of contract and rescission, declaratory judgment, and unjust enrichment. 
+The County counterclaimed, alleging breach of contract and seeking declaratory judgment for the 
+removal of the Temporary Facility. The Burns Companies subsequently filed a motion for partial 
+summary judgment on the liability components of its claims, and the County filed a cross-motion for 
+summary judgment on each of its claims.  
+Following a hearing, the district court entered a memorandum decision and order on the 
+parties’ cross-motions for summary judgment (the “first summary judgment order”) denying the 
+Burns Companies’ motion for partial summary judgment and granting, in part, the County’s motion 
+for summary judgment. The district court held that because the County’s refusal to grant zoning 
+approval of a 75-foot structure was foreseeable, the force majeure clause did not excuse the Burns 
+Companies’ failure to complete construction of the Permanent Facility within 18 months. It then 
+entered a final judgment (the “first final judgment”) in accordance with its order. 
+The Burns Companies filed a timely notice of appeal from the first final judgment. This 
+Court vacated the judgment of the district court and remanded the case for further proceedings. 
+Burns Concrete, Inc. v. Teton Cnty., 161 Idaho 117, 384 P.3d 364 (2016) (“Burns 2016”). We held 
+
+ 
+5 
+that the force majeure clause applied because the County’s decision to withhold zoning approval for 
+a 75-foot Permanent Facility was not foreseeable given the terms of the Development Agreement 
+and not within the Burns Companies’ control. Id. at 121, 384 P.3d at 368.  
+Following remand, the Burns Companies filed a renewed motion for partial summary 
+judgment. They sought summary judgment on their declaratory judgment claim and on the liability 
+components of their breach of contract and rescission claims, leaving the issue of damages for trial. 
+The district court entered an order (its “second summary judgment decision”) granting the Burns 
+Companies’ renewed motion for partial summary judgment. The district court granted summary 
+judgment on the liability component of the Burns Companies’ breach of contract and rescission 
+claims. The Burns Companies had withdrawn their request for summary judgment on their 
+declaratory judgment claim and also, apparently, on their unjust enrichment claim. 
+The County then filed a motion in limine to exclude evidence of reliance damages at trial, 
+arguing that only expectation damages were appropriate in this case. On the same day, the County 
+filed a motion for reconsideration of the second summary judgment decision. The district court 
+entered a memorandum decision and order in which it granted in part and denied in part both 
+motions. Specifically, the district court denied the County’s motion to reconsider the grant of 
+summary judgment in favor of the Burns Companies on their breach of contract claim, but vacated 
+the portion of its previous order granting rescission of the Development Agreement. The district 
+court denied the County’s motion in limine to the extent it sought to exclude evidence of reliance 
+damages, but allowed the admission of evidence of losses Burns Holdings would have suffered if the 
+County had not breached the Development Agreement. Finally, it deferred any determination as to 
+prejudgment interest and whether Burns Holdings, as opposed to Burns Concrete, incurred all 
+claimed damages.  
+Trial was held on the issue of damages. Allen Barger, Burns Concrete’s controller, testified 
+regarding the various exhibits he had prepared in support of the Burns Companies’ damages claims. 
+He explained that Exhibit 8 was a summary all the expenditures that Burns Concrete had made in 
+order to “get the [Temporary Facility] up and running.” Exhibit 8 was admitted. It contained over 
+7,000 line items, each associated with a particular category of expense. Barger testified that the total 
+amount of damages listed on Exhibit 8 was $1,905,344.78, exclusive of prejudgment interest. 
+Kirk Burns testified that shortly before Kathy Rinaldi’s election to the Teton County Board 
+of County Commissioners, she wrote letters to concrete customers that effectively said, “[d]on’t use 
+
+ 
+6 
+Burns Concrete.” Kirk Burns testified that this had an adverse effect on his companies’ operations. 
+He also testified that following the County’s denial of the CUP request, newspapers ran articles that 
+effectively stated his concrete plant was “extinguished.” This “pretty much stopped all the 
+customers” because they thought he could no longer run the plant. The County’s expert witness 
+Richard Hoffman, a forensic accountant, testified that the Burns Companies would have suffered a 
+loss in operating the Temporary Facility even if the County had not breached the Development 
+Agreement. However, he also testified that the Burns Companies would have produced a net income 
+by 2017. 
+Following trial, but before the district court entered its findings of fact and conclusions of 
+law, the Burns Companies entered into a contingency fee agreement with Parsons Behle & Latimer 
+(“Parsons Behle”). The Burns Companies had initially contracted with their counsel on an hourly 
+basis, plus costs. However, by the time of trial, the Burns Companies allegedly were no longer able 
+to pay Parsons Behle “on a reasonably current basis.” Therefore, they entered into a contingency fee 
+agreement. The contingency fee agreement required the Burns Companies to pay triple the amount 
+of fees that were not paid within 120 days of their invoice dates, but only out of damages recovered 
+from the County.  
+Subsequently, each party filed proposed findings of fact and conclusions of law. The County 
+noted that it had abandoned its counterclaims prior to trial. The district court then issued its findings 
+of fact and conclusions of law. It found that “Burns Concrete’s decision to cease operations in 2010 
+was based, at least in part, on the existence of an unfavorable environment in Teton County, created 
+by the actions of [the County].” It also found that if Burns Concrete had been able to continue 
+operating the Temporary Facility, it would have made a net profit by 2017. It further found that only 
+$1,461,393.53 of the Burns Companies’ expenditures were made in reasonable reliance on the 
+Development Agreement, but it did not identify the specific line items of the expenditures it had 
+denied. Finally, the district court further reduced the amount of damages awardable by subtracting 
+the difference between Burns Concrete’s sales and the cost of sales arising from operation of the 
+Temporary Facility, arriving at a final damage award of $1,049,250.90. In relevant part, the district 
+court made the following conclusions of law: (1) the County was liable to both Burns Holdings and 
+Burns Concrete for its breach of the Development Agreement; (2) it would not revisit its previous 
+holding that rescission was not available as a matter of law; (3) the Burns Companies were entitled 
+to $1,049,250.90 in reliance damages; (4) the County did not establish that in the absence of its 
+
+ 
+7 
+breach, the Burns Companies would have suffered losses entitling the County to a reduction of 
+damages; and (5) the Burns Companies were not entitled to prejudgment interest.  
+The parties then each filed motions for additional and amended findings of fact and 
+conclusions of law, and the Burns Companies filed a motion for reconsideration on the issue of 
+rescission. The district court entered a memorandum decision and order: (1) denying the County’s 
+motion for additional findings of fact; (2) granting in part and denying in part the Burns Companies’ 
+motion for amended and additional findings of fact and conclusions of law; and (3) denying the 
+Burns Companies’ motion for reconsideration on the issue of rescission. The district court also 
+denied the Burns Companies’ claim for declaratory and injunctive relief on the grounds that they 
+were untried, but did agree that the 18-month time limit was tolled pursuant to this Court’s decision 
+in Burns 2016. The district court then entered a final judgment (the “second final judgment”) jointly 
+awarding the Burns Companies $1,049,250.90 in damages. The judgment also provided that the 
+running of the 18-month period for construction of the Permanent Facility would be tolled in 
+accordance with Burns 2016. The County filed a timely notice of appeal from the second final 
+judgment and the Burns Companies filed a timely notice of cross-appeal from the second final 
+judgment.  
+Around the same time that those appeals were filed, the Burns Companies filed a 
+memorandum of attorney fees and costs (the “first fee request”), which the County opposed. The 
+district court issued a memorandum decision and order on costs and fees (the “first fee order”) in 
+which it held, in relevant part, that the Development Agreement authorized an award of fees to both 
+Burns Concrete and Burns Holdings and the Burns Companies were entitled to $792,529.25 of their 
+requested $1,071,753.73 in attorney fees. While the district court’s decision walked through the 
+factors set forth in Rule 54(e) of the Idaho Rules of Civil Procedure, the district court’s decision did 
+not explain why a reduction of this amount was appropriate. The County filed a timely notice of 
+appeal from the first fee order, and the Burns Companies filed a motion seeking supplemental fees 
+based on legal services billed after it filed its first fee request, as well as fees that had become subject 
+to the contingency fee agreement.  
+The district court then filed its second fee order, in which it awarded the Burns Companies 
+$16,254.50 of their requested $88,603.50 in additional fees. Again, the district court did not explain 
+why a reduction of this amount was warranted. The Burns Companies filed a timely notice of cross-
+appeal from the district court’s first and second fee orders.  
+
+ 
+8 
+II. ANALYSIS 
+A. The district court did not err when it awarded damages to both Burns Concrete and 
+Burns Holdings. 
+The County contends the district court erred when it held the County liable to both Burns 
+Holdings and Burns Concrete. The County reasons that Burns Holdings was a party to the 
+Development Agreement, but did not suffer any damages. Conversely, Burns Concrete may have 
+incurred expenses to construct the Temporary Facility, but it was not a party to the Development 
+Agreement. In its findings of fact and conclusions of law, the district court concluded as a matter of 
+law that the County was liable to both companies, reasoning that the Burns Companies assigned to 
+each other an undivided interest in their claims arising from the Development Agreement and they 
+have had an equal ownership interest in the Property since 2013. We agree with the Burns 
+Companies that the district court did not err. 
+This Court’s review of a trial court’s conclusions following a bench trial is limited to 
+determining whether the evidence supports the findings of fact and whether the findings of fact 
+support the conclusions of law. Caldwell Land & Cattle, LLC v. Johnson Thermal Sys., Inc., 165 
+Idaho 787, 795, 452 P.3d 809, 817 (2019). We exercise free review over the trial court’s conclusions 
+of law to determine whether the trial court correctly stated the applicable law and whether its legal 
+conclusions are sustained by the facts found. Kunz v. Nield, Inc., 162 Idaho 432, 438, 398 P.3d 165, 
+171 (2017). 
+Paragraph 12.b of the Development Agreement specifically provides that the Development 
+Agreement inures to the benefit of and is enforceable by the parties and their assigns: “The parties 
+agree that this Agreement shall run with the land and bind the property in perpetuity, and shall inure 
+to the benefit of and be enforceable by the parties, and any of their respective legal representatives, 
+heirs, successors, and assigns.” In this case, Burns Holdings assigned to Burns Concrete an 
+undivided interest in Burns Holdings’ rights and benefits and duties and obligations in the 
+Development Agreement. The assignment stated: 
+2. Assignment and Assumption of Agreement and Claims. Burns Holdings hereby 
+assigns and delegates, respectively, to Burns Concrete an undivided interest in all of 
+Burns Holdings’ rights and benefits and duties and obligations in, to, and under the 
+Agreement, including all claims, causes of action, and rights of enforcement of Burns 
+Holdings related to the Agreement, that are now in existence or may hereafter arise; 
+and Burns Concrete hereby accepts and assumes, respectively, all such rights and 
+benefits and duties and obligations. 
+It is true that in order to be effective, an assignment must “confer a complete and present right on the 
+
+ 
+9 
+transferee.” First State Bank of Eldorado v. Rowe, 142 Idaho 608, 612, 130 P.3d 1146, 1150 (2006). 
+Here that requirement was satisfied. The language of the Assignment and Assumption Agreement 
+makes it clear that Burns Holdings effected a complete transfer of a present interest in the 
+Development Agreement. The fact that it was an undivided partial interest is of no moment. There is 
+nothing in our case law that precludes the assignment of a partial interest so long as the transfer is 
+complete. 
+Similarly, Burns Concrete assigned to Burns Holdings an undivided interest in all of Burns 
+Concrete’s present or future claims related to the Property and the Development Agreement. The 
+assignment stated: 
+3. Assignment of Claims. Burns Concrete hereby assigns to Burns Holdings an 
+undivided interest in all claims and causes of action of Burns Concrete, whether 
+sounding in or arising under contract, statute, ordinance, or otherwise, related to the 
+Property and/or the Agreement that are now in existence or may hereafter arise. 
+Like Burns Holdings’ assignment, this was a complete transfer of a partial interest. Again, nothing in 
+our case law precludes the assignment of a partial interest as long as the transfer is complete. 
+The district court correctly stated the applicable law and its legal conclusions regarding the 
+County’s liability to both Burns Companies are sustained by its findings. We are satisfied that both 
+Burns Holdings and Burns Concrete are the real parties in interest and that damages can properly be 
+awarded to both of them.  
+B. The district court did not err in granting summary judgment to the Burns Companies 
+on the issue of breach of contract. 
+The County contends that the district court erred in granting partial summary judgment to the 
+Burns Companies on the issue of breach of contract. The district court held that the County breached 
+the Development Agreement in two ways: (1) it revoked the Burns Companies’ authority to operate 
+the Temporary Facility in contravention of Paragraph 2.b of the Development Agreement and failed 
+to provide the Burns Companies with notice of default and opportunity to cure; and (2) it violated the 
+implied covenant of good faith and fair dealing. The County contends these determinations were 
+error for three reasons: (1) the County had alternative support for its demand that the Burns 
+Companies cease operations and remove the Temporary Facility, (2) its demand for removal of the 
+Temporary Facility did not violate the implied covenant of good faith and fair dealing, and (3) the 
+Burns Companies were given sufficient notice and opportunity to cure. 
+When reviewing rulings on summary judgment motions, this Court applies the same standard 
+that the trial court did. Sec. Inv’r Fund LLC v. Crumb, 165 Idaho 280, 285, 443 P.3d 1036, 1041 
+
+ 
+10 
+(2019). The trial court must grant summary judgment if the movant shows that there is no genuine 
+dispute as to any material fact and the movant is entitled to judgment as a matter of law. Id. at 286, 
+443 P.3d at 1042. The same standard of review applies, at both the trial and appellate levels, to 
+motions for reconsideration of summary judgment rulings. Id. 
+1. The County’s asserted alternative support for its revocation of authority to 
+operate the Temporary Facility is a new argument on appeal.  
+The district court held that the County breached the Development Agreement by ordering the 
+cessation of operations and removal of the Temporary Facility. It reasoned that Burns 2016 
+established that the 18-month time limit to construct the Permanent Facility had been tolled by the 
+County’s unforeseeable denial of required zoning approvals. As an alternative argument against the 
+district court’s conclusion regarding this breach, the County argues that it had other grounds 
+justifying its revocation of authority to operate the Temporary Facility. Specifically, it argues that 
+that the Temporary Facility violates the height restriction, like the proposed Permanent Facility, 
+because it is approximately 65-feet high. 
+This argument was not preserved. Our review is limited to the evidence, theories and 
+arguments that were presented below. Nelson v. Franklin Grp., Inc., 166 Idaho 702, ___, 462 P.3d 
+1166, 1169 (2020). The County previously raised this argument in a cross-motion for summary 
+judgment filed before Burns 2016. The district court agreed with the County, ruling that the 
+Temporary Facility was in violation of the height limitation and granting the County declaratory 
+judgment on that issue. That ruling was vacated in Burns 2016 and the County did not raise this 
+issue again on remand. Therefore, we will not consider this argument for the first time on appeal. 
+2. The district court correctly determined that the County breached the 
+implied covenant of good faith and fair dealing. 
+The district court determined that the County violated the implied covenant of good faith and 
+fair dealing. It reasoned that by denying Burns Holdings’ right to operate the Temporary Facility, the 
+County “violated, nullified and significantly impaired” one of the Development Agreement’s 
+benefits: that Burns Holdings could continue to operate the Temporary Facility beyond 18 months if 
+a delay outside of its control occurred. The County argues that it did not violate the implied covenant 
+of good faith and fair dealing because express terms of an agreement negate any conflicting implied 
+covenants, and here, the Development Agreement expressly required Burns Holdings to comply with 
+all relevant laws, including the applicable height restriction.  
+The district court did not err in its determination that the County violated the implied 
+
+ 
+11 
+covenant of good faith and fair dealing. A party violates this covenant when it “violates, nullifies or 
+significantly impairs any benefit of the contract.” River Range, LLC v. Citadel Storage, LLC, 166 
+Idaho 592, ___, 462 P.3d 120, 131 (2020) (ellipsis omitted). In Burns 2016, we held that the force 
+majeure clause in Paragraph 2.b excused the Burns Companies’ failure to complete construction of 
+the Permanent Facility within 18 months because the County’s decision to withhold required zoning 
+approvals was neither foreseeable nor within the Burns Companies’ control given the fact that the 
+Development Agreement expressly required the construction of a Permanent Facility that was 75 feet 
+in height. Burns 2016, 161 Idaho at 120–21, 384 P.3d at 367–68. In so doing, we noted that the 
+Development Agreement required the Burns Companies to construct and operate a temporary facility 
+and provided that if construction was not completed within the allowable time period, the County 
+could revoke the authority to operate the Temporary Facility. Id. at 119, 384 P.3d at 366.  
+For the Burns Companies, the Temporary Facility was not only a requirement of the 
+Development Agreement, but it was also one of the advantages they derived from the parties’ 
+contract. Paragraph 2.b provided that the purpose of the requirement to construct and operate the 
+Temporary Facility was to “facilitate and support the construction of the Permanent Facility and to 
+allow [the Burns Companies] to expedite commercial operations” and that the grant of authority to 
+operate the Temporary Facility was meant to allow the Burns Companies to “operate [their] business 
+until the Permanent Facility [was] constructed.” Thus, our decision in Burns 2016 essentially 
+established that the County’s unwarranted order to stop operating the Temporary Facility nullified 
+one of the key benefits afforded to the Burns Companies by the Development Agreement: the ability 
+to continue to operate the Temporary Facility, even if the Permanent Facility had not been 
+constructed within 18 months, if an unforeseeable delay outside of the Burns Companies’ control 
+occurred. Therefore, we uphold the district court’s conclusion that the County violated the implied 
+covenant of good faith and fair dealing. Because we hold that that the district court did not err in 
+granting partial summary judgment on the breach of the covenant of good faith and fair dealing, we 
+need not address the notice issue. 
+C. The district court did not err in its determination regarding causation. 
+The County argues that the district court erred in granting summary judgment on the issue of 
+causation. It cites Merry Gentleman, LLC v. George & Leona Prods., Inc., 76 F. Supp. 3d 756 (N.D. 
+Ill. 2014), aff’d, 799 F.3d 827 (7th Cir. 2015) for the proposition that even in a case where reliance 
+damages are sought, the plaintiff must show that the defendant’s breach of contract caused its 
+
+ 
+12 
+damages. It argues that because the Burns Companies stopped operating the Temporary Facility in 
+2010 and the breaches identified by the district court occurred in 2012, their breaches could not have 
+caused the Burns Companies’ damages and summary judgment should not have been granted. We 
+disagree with the County’s analysis. 
+To begin with, we must clarify that the district court did not decide the causation issue at the 
+summary judgment stage of the litigation. In its memorandum decision and order on reconsideration, 
+the district court only decided that a breach of contract occurred and that the Burns Companies were 
+not entitled to rescission; it did not decide whether the County’s breach caused the Burns 
+Companies’ damages.  
+The district court actually determined the issue of causation after hearing the evidence at 
+trial. The district court specifically found that the Burns Companies’ reliance damages would not 
+have been incurred but for the Development Agreement. It also found that cessation of the operation 
+of the Temporary Facility in 2010 was caused in part by the conduct of the County.  
+The district court correctly cited the standard applicable to reliance damages: “A party 
+aggrieved by a breach of contract may be entitled to reimbursement for losses caused by its reliance 
+on the contract . . . . Reliance damages include expenses reasonably related to the purposes of the 
+contract which would not have been incurred but for the contract’s existence.” Beco Const. Co. v. 
+Harper Contracting, Inc., 130 Idaho 4, 9, 936 P.2d 202, 207 (Ct. App. 1997) (citations omitted). It 
+then properly applied this standard to the facts of this case. The Burns Companies met the but-for 
+test articulated in Beco because of the district court’s finding that the Burns Companies would not 
+have incurred their expenses made in reliance on the Development Agreement “if not for the 
+Agreement’s existence,” and those expenses were reasonably related to the purpose of the 
+Development Agreement. Finally, the district court accurately concluded that the fact the County had 
+not yet breached the Development Agreement when many of the Burns Companies’ expenses were 
+incurred was “immaterial.” The district court found that the County had created a sufficiently hostile 
+environment to cause, at least in part, the Burns Companies’ decision to stop operating the 
+Temporary Facility. As a result, the fact that the Burns Companies stopped operating the Temporary 
+Facility in 2010 did not interrupt the causal link between the existence of the Development 
+Agreement and the expenditures made in reliance on the Development Agreement. Therefore, the 
+district court did not err in determining the Burns Companies had made a sufficient showing to 
+satisfy the causation requirement for reliance damages.  
+
+ 
+13 
+The fact that the issue of causation was determined after hearing the evidence at trial rather 
+than at the summary judgment stage is important because it changes our standard of review. When 
+reviewing summary judgment rulings, we consider whether the movant showed that there was no 
+genuine dispute as to any material fact and that the movant was entitled to judgment as a matter of 
+law. Crumb, 165 Idaho at 286, 443 P.3d at 1042. However, when reviewing a trial court’s 
+conclusions following a bench trial, we only review whether the evidence supports the findings of 
+fact and whether the findings of fact support the conclusions of law. Caldwell, 165 Idaho at 795, 452 
+P.3d at 817. We do not disturb a trial court’s findings of fact if they are supported by substantial and 
+competent evidence. Id. Here, substantial and competent evidence supports the district court’s trial 
+findings regarding causation. For example, Kirk Burns testified that a soon-to-be County 
+Commissioner wrote letters to concrete customers effectively telling them not to buy from Burns 
+Concrete. After the County denied the CUP, newspaper articles appeared in the local paper stating 
+that the plant could not be operated. This evidence supported the district court’s finding that the 
+County’s actions at least partly caused the Burns Companies’ decision to stop operations in 2010. 
+Therefore, we will not disturb the district court’s findings regarding causation on appeal.  
+Finally, we disagree with the County’s interpretation of Merry Gentlemen, a case decided by 
+the Seventh Circuit Court of Appeals which the County contends should guide the Court’s legal 
+analysis. In Merry Gentlemen, a production company sued Michael Keaton for $5.5 million when the 
+critically acclaimed movie he directed bombed at the box office. 799 F.3d at 828–29. Keaton filed a 
+motion for summary judgment on the issue of causation, arguing that the production company had 
+failed to produce sufficient evidence that his alleged breaches of the directing contract caused its 
+damages. Id. at 828. The production company’s only evidence of causation was an affidavit from the 
+movie’s executive producer stating that the production company spent over $5 million in reliance on 
+the directing contract. Id. at 829. In its opinion affirming the district court order granting Keaton’s 
+motion for summary judgment, the Seventh Circuit distinguished causation in typical reliance 
+damages cases from causation in unusual cases like the one before it: 
+In the typical case where reliance damages are sought, the defendant has simply 
+repudiated the contract and walked away from the deal. This causal link will be 
+straightforward in those cases. As the district court explained, in such cases the non-
+breaching plaintiff is left ‘holding the bag after having made its expenditures.’ In 
+those cases, it is appropriate for the injured party to claim as damages all 
+expenditures it made in preparation for performance because the other side failed to 
+perform at all. In such cases, the complete loss of investment will often be the 
+
+ 
+14 
+proximate result of the breach. 
+But in cases like this one, where the breaching party has substantially performed and 
+the alleged breaches have to do with the quality of the final product, the causal link 
+between reliance damages and the breach is not so direct. An injured party cannot 
+reasonably claim that all of its expenditures were caused by the other party’s breach 
+without some reason to think the breach destroyed the entire value of the breaching 
+party’s performance. In this context, the breach does not cause the complete loss of 
+investment. 
+Id. at 830-31 (citations omitted).  
+The County argues that this is an “unusual” case, but it is actually a typical one. The district 
+court found that the Development Agreement was a but-for cause of the Burns Companies’ reliance 
+damages. The Burns Companies’ decision to stop operating in 2010 did not cut off that but-for 
+causation because, as explained above, the district court found that this decision was at least partly 
+caused by the County’s creation of an unfavorable environment for the Burns Companies’ business. 
+Moreover, the County’s characterization of the holding in Merry Gentlemen is inaccurate. The 
+County does not actually quote the Seventh Circuit’s holding in its briefing, but instead paraphrases 
+the holding as: “In cases where the breaching party has substantially performed, the injured party 
+cannot claim all of its expenditures as damages, because the breach did not cause the complete loss 
+of the investment.” The actual holding, however, contained an important limiting factor: “But in 
+cases like this one, where the breaching party has substantially performed and the alleged breaches 
+have to do with the quality of the final product, the causal link between reliance damages and the 
+breach is not so direct.” Id. at 831 (emphasis added). The decision goes on to say: “An injured party 
+cannot reasonably claim that all of its expenditures were caused by the other party’s breach without 
+some reason to think the breach destroyed the entire value of the breaching party’s performance. In 
+this context, the breach does not cause the complete loss of investment.” Id.  The County never 
+addresses this important limiting language from Merry Gentlemen.  In this case, the County breached 
+the covenant of good faith and fair dealing and left the Burns Companies, in the words of the 
+Seventh Circuit, “holding the bag” after they made substantial expenditures.  For these reasons, we 
+affirm the district court’s determination on the issue of causation.  
+D. The district court erred in granting declaratory judgment to the Burns Companies. 
+In their supplemental proposed conclusions of law, the Burns Companies requested the 
+following declaratory relief: (1) estopping the County from rezoning the Property, (2) declaring the 
+18-month period for construction of the Permanent Facility was tolled, and (3) ordering the County 
+
+ 
+15 
+to rescind and withdraw its revocation of the Burns Companies’ authority to operate the Temporary 
+Facility. The district court rejected the first and third forms of requested declaratory relief, but 
+declared that the running of the 18-month time period was tolled in accordance with Burns 2016. 
+The County advances several arguments against the district court’s award of declaratory judgment, 
+including that the declaration could lead to confusion and double recovery. The Burns Companies 
+respond that any confusion can be cured by rescission of the Development Agreement. We agree 
+with the County that declaratory relief should not have been granted where reliance damages were 
+awarded. 
+The district court erred in declaring that the 18-month period was tolled as a matter of law. In 
+this case, that relief was inconsistent with an award of reliance damages, which included costs 
+related to demobilization of the Temporary Facility. Awarding reliance damages and allowing the 
+Burns Companies to continue to operate the Temporary Facility would provide a double recovery to 
+the Burns Companies for their losses. We are not holding that reliance and expectation damages can 
+never both be awarded. (Here, expectation damages would be in the form of continued operation of 
+the Temporary Facility.) However, in this case, the Burns Companies’ inclusion of demobilization 
+expenses makes it clear that the declaration tolling the 18-month period should not have been made. 
+Additionally, the Burns Companies seek rescission of their obligations under the 
+Development Agreement, seemingly because they believe that rescission is necessary. Rescission is 
+not necessary. The County breached the Development Agreement, the Burns Companies sued for 
+damages, and they have been awarded damages. Rescission is unnecessary because the County’s 
+breach excused the Burns Companies’ performance. One party’s material breach of a contract 
+suspends the other party’s obligation to perform. 14 Williston on Contracts § 43:5 (4th ed.). At this 
+point, the Development Agreement is of no further force or effect. 
+E. Damages Issues 
+Our review of a trial court’s conclusions following a bench trial is limited to determining 
+whether the evidence supports the findings of fact and whether the findings of fact support the 
+conclusions of law. Caldwell, 165 Idaho at 795, 452 P.3d at 817. This standard of review applies to 
+review of a trial court’s findings of fact regarding the amount of damages proven by a claimant. 
+Mortensen v. Berian, 163 Idaho 47, 53, 408 P.3d 45, 51 (2017). 
+1. It is unnecessary to address the issue of whether a party is entitled to choose 
+between reliance and expectation damages. 
+The County argues that this Court should adopt a rule that a party cannot recover reliance 
+
+ 
+16 
+damages when expectation damages are ascertainable. Applying that rule to this case, the County 
+argues, would mean that the district court’s award of damages should be reversed because the Burns 
+Companies’ expectation damages were ascertainable. In response, the Burns Companies argue that a 
+non-breaching party can choose either expectation or reliance damages, citing SilverWing at 
+Sandpoint, LLC v. Bonner Cnty., 164 Idaho 786, 797, 435 P.3d 1106, 1117 (2019). In any case, the 
+Burns Companies add, expectation damages were not ascertainable here. 
+ It is unnecessary for us to address the issue of whether a party is entitled to choose between 
+reliance and expectation damages. In SilverWing, another case involving a dispute between a 
+developer and a county, the trial court determined that the developer’s expectancy testimony was too 
+speculative. Id. at 796, 435 P.3d at 1116. Therefore, the developer had no choice but to ask for 
+reliance damages. Similarly, in this case, the trial testimony of Kirk Burns establishes that he could 
+not calculate lost profits because of the erosion of Burns Concrete’s customer base as a result of the 
+County’s actions. He was acknowledging that lost profits were too speculative. Therefore, the Burns 
+Companies were limited to seeking reliance damages, and could not choose to claim expectation 
+damages instead. There are many other cases involving nascent businesses in which courts have 
+denied lost profits because they were too speculative. See, e.g., Tipton v. Mill Creek Gravel, Inc., 
+373 F.3d 913, 920 (8th Cir. 2004) (new mining corporation’s lost profits too speculative where it had 
+sold only a small amount of the “paltry” quantity of gravel produced by the mine); Ciraolo v. Miller, 
+138 A.D.2d 443, 525 N.Y.S.2d 861 (1988) (commercial tenant’s twelve-month projection of lost 
+profits too speculative where they were based on a one-month profit history); Springwell Dispensers, 
+Inc. v. Hall China Co., 204 Ga. App. 245, 245, 419 S.E.2d 112, 113 (1992) (lost profits too 
+speculative where claimant “was a new business with no history of profits and, in fact, was operating 
+at a loss”). Therefore, it is unnecessary to address the issue of whether a party may choose between 
+reliance and expectation damages. 
+2. The district court did not misapply the law regarding capping of damages.  
+The County argues that the district court misapplied the law regarding capping of reliance 
+damages. When an injured party seeks reliance damages, those damages must be reduced by “any 
+loss that the party in breach can prove with reasonable certainty the injured party would have 
+suffered had the contract been performed.” Restatement (Second) of Contracts § 349 (1981). This 
+rule is sometimes referred to as the “losing contract limitation.” The County asserts that this Court’s 
+decision in King v. Beatrice Foods Co., 89 Idaho 52, 402 P.2d 966 (1965) set forth the correct 
+
+ 
+17 
+measure of reliance damages, and that if the district court had applied King’s methodology, the 
+Burns Companies could only recover reliance damages up to the amount of lost profits that they 
+were able to prove. In this case, the County asserts, that would mean the Burns Companies could 
+recover nothing for the period ending in 2016 and, at most, $115,602 for the period ending in 2017. 
+The County misreads King. King involved a milk deliverer who sought both reliance 
+damages and lost profits after a milk processor breached its contract with him. 89 Idaho at 56–57, 
+402 P.2d at 968. The Court explained that both reliance and expectation damages may be awarded, 
+but only to the extent that does not result in a double recovery for the plaintiff. As a result, the Court 
+held, the milk deliverer was entitled to his net reliance expenses plus any lost profits over and above 
+those expenses. Id. at 59, 402 P.2d at 970. Therefore, King stands for the proposition that when an 
+expense was both incurred in reliance on the contract and was a cost of performance, it cannot be 
+double counted in an award of reliance and expectation damages. See id. Nothing about King 
+suggests that the amount of lost profits a plaintiff can prove acts as a cap on the plaintiff’s allowable 
+reliance damages. This rule would run contrary to the general principle that a plaintiff can seek 
+reliance damages when expectation damages are not ascertainable. See, e.g., 24 Williston on 
+Contracts § 64:4 (4th ed.) (“[W]here the proof of lost profits is not reasonably certain, the promisee 
+may seek, as an alternative to protection of his or her expectation interest, damages based instead on 
+his or her reliance interest.”) (emphasis added). Therefore, the County’s argument that the district 
+court misapplied the losing contract limitation on reliance damages is unpersuasive. 
+3. The district court did not err in its determination of the appropriate time period 
+for reliance damages. 
+The district court allowed the Burns Companies to recover reliance damages actually 
+incurred from February 26, 2007, through the time of trial, along with demobilization costs to cover 
+the expense of removing their equipment. It cited French v. Nabob Silver-Lead Co., 82 Idaho 120, 
+350 P.2d 206 (1960) for the proposition that this Court has held that reliance damages may include 
+expenses incurred before the parties reach an agreement. The County argues that the district court 
+should have limited awardable damages to those incurred after August 31, 2007—the date of the 
+Development Agreement—and before February 26, 2011—the date on which it asserts that it was 
+statutorily authorized to rezone the Property. The County contends that damages incurred outside of 
+these dates may not be awarded because this was the only range of time in which reliance was 
+reasonable. In response, the Burns Companies argue that the County presents no persuasive reason 
+why French’s allowance of pre-contractual expenses is not controlling in this case. 
+
+ 
+18 
+We agree with the district court that pre-contractual expenses may be awarded in certain 
+cases, and were awardable here. The reliance period is best characterized as a foreseeability issue. 
+See, e.g., Bases for damages—Reliance interest, 24 Williston on Contracts § 64:4 (4th ed.) 
+(“Reliance damages are designed to compensate the plaintiff for any reasonably foreseeable costs 
+incurred or expenditures made in reliance on the promise that has now been broken.”) (emphasis 
+added). The district court found that that the Burns Companies’ expenditures were reasonably 
+foreseeable once the County approved their requested zone change. Furthermore, French is the law 
+in Idaho and the County has not persuaded us to reverse it. Therefore, we affirm the district court’s 
+decision to allow damages incurred from the time of the zone change approval until the date of 
+demobilization.  
+4. The district court did not err by declining to reduce the Burns Companies’ 
+damages by the amount of their purported losses during the damages period. 
+In its memorandum decision and order on the County’s motion for additional findings of fact 
+and the Burns Companies’ motion for amended additional findings of fact and conclusions of law, 
+the district court declined the County’s request to reduce the Burns Companies’ reliance damages 
+after determining that the County failed to prove the Burns Companies would have suffered a net 
+loss absent breach. The County argues that the district court erred by failing to reduce the Burns 
+Companies’ damages award by the amount the County claims it proved, through the testimony of its 
+expert witness Hoffman, that the Burns Companies would have lost absent the County’s breach. We 
+disagree. The County is arguing that the district court only had to look at losses sustained during the 
+four-year damages period. This argument is logically flawed and relies on a misreading of Section 
+349 of the Restatement (Second) of Contracts. Section 349 explains that an injured party has a right 
+to reliance damages “less any loss that the party in breach can prove with reasonable certainty the 
+injured party would have suffered had the contract been performed.” Restatement (Second) of 
+Contracts § 349 (1981). Therefore, under the Restatement, the breaching party is entitled to an offset 
+for losses that would have occurred had the contract been performed. The performance period is not 
+limited to the four-year damages period. There was evidence that no loss would have occurred if the 
+Burns Companies had been allowed to operate. Therefore, we affirm the district court’s 
+determination that the County failed to show it was entitled to a reduction of damages. 
+5. The district court erred in its reduction of the Burns Companies’ damages by 
+the difference between their sales and cost of sales. 
+In its findings of fact and conclusions of law, the district court determined that the Burns 
+
+ 
+19 
+Companies expended $1,461,393.53 in reasonable reliance on the Development Agreement. 
+However, it then subtracted $412,142.63: the difference between the Burns Companies’ sales 
+proceeds ($625,196.45) and cost of sales ($213,053.82) during their operation of the Temporary 
+Facility. The Burns Companies argue that this reduction was improper because they actually suffered 
+a net loss during their operation of the Temporary Facility. We agree that the record does not contain 
+substantial and competent evidence to support the district court’s reduction. 
+The district court’s reduction was based on the sales proceeds and cost of sales figures 
+included in the Burns Companies’ Exhibit 7, which was admitted at trial.  However, the Burns 
+Companies’ evidence established that they also incurred expenses for equipment and plant costs, the 
+write-off of uncollected receivables, labor costs, and fuel costs. Exhibit 7 actually reflected a 
+$325,606.72 net loss from operating the Temporary Facility, not a net profit as apparently found by 
+the district court. Both Allen Barger and Kirk Burns testified to that effect at trial. Moreover, the 
+district court itself expressly found that the Temporary Facility lost money after taking incremental 
+profits, debt service, and sunk costs into account. The district court’s reduction of reliance damages 
+by the difference between sales proceeds and costs of sales failed to account for those additional 
+costs incurred in operating the Temporary Facility. Therefore, the district court’s finding that the 
+Burns Companies’ damages should be reduced by $412,142.63 is unsupported by substantial and 
+competent evidence. We direct the district court to remove this improper subtraction from the Burns 
+Companies’ damages award.  
+6. The district court did not err by refusing to provide an itemization of the 
+reliance damages it declined to award. 
+ In its findings of fact and conclusions of law, the district court recognized that Burns 
+Concrete’s financial records showed net expenditures of $1,905,344.78 from December 2006 
+through the date of trial, but found that Burns Concrete expended only $1,461,393.53 in reasonable 
+reliance on the Agreement. Specifically, the district court found that several categories of 
+expenditures were not sufficiently proven or were not incurred in reliance on the Agreement. It 
+explained which categories these were and why it eliminated them, although it did not identify 
+specific line items of excluded expenditures: 
+The evidence in the record does not indicate how expenditures described as 
+“travel” were incurred. Plaintiffs did not persuade the Court that travel expenses 
+were reasonable or were incurred in reliance on the Agreement.  
+The record does not establish how each of the line entries for “Legal 
+Expenses” was incurred. Plaintiffs did not persuade the Court that the claimed legal 
+
+ 
+20 
+expenses were incurred in reliance on the Agreement.  
+Plaintiffs’ [sic] lost and were unable to recover the records verifying the cost 
+of consumables labeled as “truck alloc” on Exhibit 8. This Court finds those charges 
+to be speculative and does not include them in damages.  
+Costs incurred to prepare presentations to Teton County for a CUP or zone 
+variance were made for the purpose of complying with land use statutes and 
+ordinances and are not attributable to reliance on the Agreement.  
+… 
+This Court is not convinced . . . that Teton County did or could have foreseen 
+Plaintiffs’ expenditures, which arose prior to the zone change made on February 26, 
+2007. Plaintiffs’ expenditures, incurred in preparation for Plaintiffs’ performance 
+under the Agreement, shall be permitted from February 26, 2007, onward. 
+However, in a footnote, the district court noted that it had reviewed each line item: “For the sake of 
+clarity, this Court notes that in calculating this amount it reviewed each line item in Exhibit 8. Where 
+the Court eliminated certain claimed expenditures for reasons discussed above, it also eliminated any 
+corresponding credit (where applicable).” In its memorandum decision and order on the Burns 
+Companies’ motion for amended and additional findings of fact and conclusions of law, the district 
+court rejected the Burns Companies’ argument that it should have specified which Exhibit 8 line 
+items it eliminated in calculating damages. It stated that its findings provided a clear understanding 
+of the basis of its decision, and that it did not need to specifically identify each line item by number 
+or make findings specific to each column.  
+On appeal, the Burns Companies argue that the district court improperly reduced their 
+damages award by $443,951.25 because it did not identify the specific line items of costs that were 
+disallowed and because it did not point to any substantial evidence contradicting the trial testimony 
+of two witnesses supporting those costs. In response, the County argues that the district court 
+appropriately analyzed the Burns Companies’ claim by category rather than by line item because 
+given the large number of line items, conducting a line-by-line analysis would be unduly 
+burdensome. The County further argues that the categories identified by the district court correlate to 
+items described in Exhibit 8 with enough specificity to demonstrate the district court’s reasoning. 
+We agree with the County. 
+Several of the categories used by the district court were used by the Burns Companies 
+themselves in Exhibit 8, and the costs are easily identifiable. “Travel” is a term listed under the “JOB 
+PHASE DESC / NOTES” column for a series of line items on page 6 of Exhibit 8, among other 
+pages in Exhibit 8. “Legal Expenses” is a term listed under the “DESCRIPTION” column for a 
+series of line items on page 65 of Exhibit 8, among other pages in Exhibit 8.  “Truck Allocation” is a 
+
+ 
+21 
+term listed under the “RELATED PAYROLL TAX / INS / TRUCK” column for a series of line 
+items on page 62 of Exhibit 8, among other pages in Exhibit 8. There is not a label in Exhibit 8 for 
+costs incurred to prepare presentations to Teton County for a CUP or zone variance, but they were 
+likely included with the previously disallowed category of “Legal Expenses,” given that one of the 
+County’s reasons for arguing that legal expenses should be disallowed was that they included “fees 
+related to the failed application for a conditional use permit and appeal of its denial.” Finally, it is 
+easy to determine whether a particular line item was incurred before or after February 26, 2007, 
+because the Burns Companies included a column called “CHECK # / EFT DATE / FINANCED 
+DATE” in Exhibit 8. Barger testified that the date under this column was the date of payment and 
+that he had no reason to believe any expenses were paid before they were incurred. 
+Moreover, the Burns Companies do not sufficiently challenge the reasons for the district 
+court’s reduction of the award, as opposed to its failure to sufficiently identify what claimed 
+damages it was disallowing. They only make the conclusory statement that the district court did not 
+“identify any substantial evidence in the record supporting its determination to reject the trial 
+testimony of Allen Barger and Kirk Burns supporting those costs,” without citing to the parts of their 
+testimony that they view as supporting those costs. Our standard of review requires that a cogent 
+argument be presented.” Matter of Doe I, 166 Idaho 79, 454 P.3d 1162, 1167 (2019). Even if the 
+Court considers this statement to be a sufficient challenge to the evidence supporting the district 
+court’s decision, it is not persuasive. Neither Barger nor Kirk Burns testified regarding “travel” 
+expenses. The district court’s comment about the Burns Companies’ loss of records related to “truck 
+alloc” costs was likely based on Barger’s testimony about timecards that were not keyed in correctly. 
+As mentioned above, the district court’s disallowance of legal expenses is likely related to its 
+disallowance of costs incurred to prepare presentations to Teton County for a CUP or zone variance. 
+In its proposed findings of fact and conclusions of law, the County pointed out that the Burns 
+Companies’ claimed legal expenses included fees that predated the Agreement, fees related to their 
+failed CUP application, and others arguably unrelated to reliance on the Agreement. The County 
+supported this argument by citing to pages of supporting documentation in the 73 binders that the 
+Burns Companies brought to trial that it claimed supported its claims for legal expenses. These pages 
+were admitted as Defense Exhibit O. Finally, the district court’s disallowance of costs incurred 
+before the zone change is supported by the reasoning it gave: the County could not have foreseen 
+those expenditures that occurred before its zone change. The Burns Companies do not explain why 
+
+ 
+22 
+this reasoning is unsound. Therefore, even though Barger and Kirk Burns may have testified in 
+general support of the damages claimed in Exhibit 8, there was substantial evidence supporting the 
+district court’s disallowance of certain categories of expenditures. In these situations, our Court does 
+not second guess the district court’s determination. Dep't of Envtl. Quality v. Gibson, 166 Idaho 424, 
+432, 461 P.3d 706, 714 (2020) (“Findings of fact that are supported by substantial and competent 
+evidence are not clearly erroneous—even in the face of conflicting evidence in the record.”) 
+(emphasis added). As such, the district court did not err in its disallowance of these claimed reliance 
+damages. 
+7. The district court did not abuse its discretion by declining to award 
+prejudgment interest. 
+In its findings of fact and conclusions of law, the district court determined that the Burns 
+Companies were not entitled to prejudgment interest on their award of damages. It reasoned that the 
+County could not have ascertained the amount of damages prior to trial, given (1) the extensive work 
+Barger had to do to compute the Burns Companies’ damages, and (2) its finding that some of the 
+expenditures were not made in reliance on the Development Agreement. The Burns Companies 
+argue that the district court abused its discretion by disallowing prejudgment interest because at least 
+$1,049,250.90 of their damages were undisputed and therefore ascertainable. They also assert that 
+the County did not dispute either the amount or the date of any of Exhibit 8’s line items of costs.  
+Awards of prejudgment interest are reviewed for abuse of discretion. Med. Recovery Servs., 
+LLC v. Neumeier, 163 Idaho 504, 511, 415 P.3d 372, 379 (2018). When applying the abuse of 
+discretion standard, this Court asks whether the trial court: (1) correctly perceived the issue as one of 
+discretion; (2) acted within the outer boundaries of its discretion; (3) acted consistently with the legal 
+standards applicable to the specific choices available to it; and (4) reached its decision by the 
+exercise of reason. Lunneborg v. My Fun Life, 163 Idaho 856, 863, 421 P.3d 187, 194 (2018). 
+The district court did not abuse its discretion by disallowing prejudgment interest. 
+Prejudgment interest is only justified when the principal amount of liability is liquidated or 
+ascertainable by mere mathematical process. Kelly v. Wagner, 161 Idaho 906, 912, 393 P.3d 566, 
+572 (2017). The district court correctly applied this law in determining that the Burns Companies 
+were not entitled to prejudgment interest. For example, in order to create Exhibit 8, Barger testified 
+that he had to go through thousands of business records and determine what portion of the claimed 
+expenses were attributable to the Temporary Facility. Furthermore, the district court acted within the 
+outer boundaries of its discretion when it determined that the amount due was not determined until 
+
+ 
+23 
+trial. Therefore, we affirm the district court’s determination that the Burns Companies are not 
+entitled to prejudgment interest. 
+F. Attorney Fees Awarded Below 
+Both parties challenge the district court’s award of attorney fees to the Burns Companies. 
+The dispute centers around an unconventional fee agreement that the Burns Companies entered into 
+with Parsons Behle about 60 days after trial, but prior to the district court’s entry of findings of fact 
+and conclusions of law. The Burns Companies initially hired their attorneys at their regular hourly 
+rates. After years of litigation, however, the Burns Companies allege they were unable to keep their 
+financial obligations current and faced the prospect of their attorneys withdrawing. The Burns 
+Companies assert they entered into a new fee agreement with Parsons Behle to ensure continued 
+representation. The new fee agreement required the Burns Companies to pay the law firm three times 
+the regular hourly rate on any amounts more than 120 days past due. The fees were to be paid solely 
+out of funds received from the County and the risk of non-recovery or a shortfall rested with Parsons 
+Behle. The fee agreement provided in relevant part: 
+3. All future payments made by the Burns entities will be applied by the Firm so as to 
+bring the outstanding balances on the various matters for which the Firm is providing 
+legal services into compliance with the foregoing payment protocol before any 
+application is made to the fees owed for the Lawsuit, with the application of all 
+payments for fees owed for the Lawsuit being applied to the oldest fees outstanding 
+that have not been converted to the modified contingent-fee basis provided in the 
+following part 4. 
+4. All fees (but not costs) previously or subsequently billed for the Lawsuit that have 
+not yet been or are not hereafter, as applicable, paid within 120 days from the 
+respective invoice dates (of which there are currently $44,297.50 in such fees) shall 
+be converted to the following modified contingent-fee terms: 
+(a) Three times (300%) the total amount of such fees shall be payable to the 
+Firm out of the first dollars collected from Teton County with respect to the 
+Lawsuit, whether received on judgment entered against or upon settlement 
+with Teton County; and 
+(b) Payment of those fees not paid within 120 days from their respective 
+invoice dates is contingent upon the collection of money from Teton County 
+with respect to the Lawsuit, and none of such fees shall be payable by the 
+Burns entities other than out of any moneys collected from Teton County 
+with respect to the Lawsuit. 
+5. Excepting only those fees relating to the Lawsuit converted to the modified contingent-fee 
+terms provided in the foregoing part 4, the Burns entities will remain personally liable for the 
+payment of the Firm’s fees and costs previously or subsequently billed to them. 
+
+ 
+24 
+The Burns Companies submitted an initial attorney fee request to the district court totaling 
+$1,071,753.73. The fee request included $514,672.77 in hourly fees plus $557,080.96 in what they 
+called “supplemental contingency fees.” The supplemental contingency fees were calculated as 
+follows: $278,540.48 in fees more than 120 days past their invoice dates (and therefore subject to the 
+contingency fee agreement) x 2 = $557,080.96 in supplemental contingency fees. The district court 
+awarded the Burns Companies all of the hourly fees requested plus supplemental contingency fees 
+equal to one time the regular hourly rate. In other words, the district court awarded the Burns 
+Companies two times the regular hourly rate on fees more than 120 days old.  
+Following the initial award of attorney fees the Burns Companies filed a motion to 
+reconsider, seeking an additional award of $88,603.50. The request consisted of $16,254.50 in 
+hourly fees incurred after the initial award plus $72,349.00 in supplemental contingency fees for 
+additional amounts unpaid for more than 120 days past their invoice date. The district court awarded 
+the Burns Companies $16,254.50, thereby denying any supplemental contingency fees.  
+The Burns Companies argue that the district court erred by reducing their requested fees 
+without adequate explanation. The County argues that the district court erred by awarding any 
+“supplemental contingency fees” because the fee agreement imposed a fixed fee with a usurious rate 
+of interest designed to put an unreasonable burden on the County. We agree with the Burns 
+Companies and the County that the district court failed to provide an adequate explanation for its 
+awards and provide guidance on remand to address arguments made by the parties. 
+The district court correctly perceived the award of attorney fees as one of discretion and 
+analyzed the factors set forth in Idaho Rule of Civil Procedure 54(e)(3) in both of its decisions. See 
+Lunneborg, 163 Idaho at 863, 421 P.3d at 194 (describing this Court’s abuse of discretion standard 
+of review). What is missing from the decisions, however, is the link between the factors set forth in 
+Rule 54(e)(3) and the specific final awards that were made. Stated differently, the district court failed 
+to “explain[] the relationship between the [district] court’s evaluation of the Idaho Rule of Civil 
+Procedure 54(e)(3) factors and its decision regarding the amount to award for attorney[] fees.” H2O 
+Envtl., Inc. v. Farm Supply Distributors, Inc., 164 Idaho 295, 300, 429 P.3d 183, 188 (2018). As this 
+Court has explained, “[i]t is not enough for a trial court to acknowledge the existence of the Rule 
+54(e)(3) factors; rather, it must appear that there is a reasoned application of those factors in the trial 
+court’s decision regarding the amount of attorney[] fees to be awarded.” Id. Here, the reasoned 
+application of the Rule 54(e)(3) factors to the district court’s decision is missing. Thus, we vacate the 
+
+ 
+25 
+district court’s awards of attorney fees and remand the matter to the district court with instruction to 
+explain how the application of the factors in Idaho Rule of Civil Procedure 54(e)(3) logically lead to 
+the specific amount of fees awarded. 
+For purposes of remand we emphasize that all fees awarded under Rule 54(e) must be 
+reasonable, and whether a fee is fixed or contingent is a factor the district court must consider. 
+I.R.C.P. 54(e)(3)(E). The Rule does not further explain how the district court should weigh this 
+factor, but we observe that it must be weighed in light of the function of contingency fees in our 
+legal system—to enable those who are unable to pay hourly fees to secure representation and to 
+compensate attorneys reasonably for the risks they have taken in representing the client. 
+Contingency fee agreements involve risk and uncertainty for attorneys—the risk of not being paid if 
+the client does not prevail; uncertainty about the amount that will ultimately be recovered; 
+uncertainty about the amount of time and money that will be required to obtain recovery; and, 
+uncertainty about how much time will be required to obtain recovery. Herbert M. Kritzer, Seven 
+Dogged Myths Concerning Contingency Fees, 80 Wash. U. L.Q. 739, 748 (2002). Given these risks, 
+“the attorney’s client will sometimes pay more than he or she would have paid under an hourly fee 
+agreement . . . .” Parsons v. Mut. of Enumclaw Ins. Co., 143 Idaho 743, 748, 152 P.3d 614, 619 
+(2007). 
+To determine whether the attorney fees requested by the Burns Companies are reasonable, it 
+is necessary to assess several interrelated issues. What were the risks for the Burns Companies at the 
+time they entered into the contingency fee agreement given their alleged inability to pay Parsons 
+Behle? Similarly, what were the risks and uncertainties for Parsons Behle and the individual 
+attorneys responsible for the case? Given the fact that partial summary judgment on liability had 
+been granted and the case was to be tried solely on the issue of damages, was there a risk of a non-
+recovery or shortfall? Was that risk significant? Is the amount of the contingent fee commensurate 
+with the time and effort needed to obtain payment? These are all matters that the district court is 
+positioned to evaluate in its discretion. 
+G. Attorney Fees on Appeal 
+Both parties request attorney fees on appeal pursuant to Paragraph 12 of the Development 
+Agreement. Because both parties have prevailed in part, neither is awarded attorney fees on appeal. 
+Likewise, we decline to award costs. 
+ 
+
+ 
+26 
+III. CONCLUSION 
+The district court’s grant of partial summary judgment on the issue of breach of contract is 
+affirmed. The district court’s judgment is vacated for a recalculation of damages. In its recalculation 
+of damages, the district court should reverse its reduction of damages by the difference between the 
+Temporary Facility’s sales and cost of sales. The district court’s orders on attorney fees are vacated 
+and the issue is remanded with instruction to the district court to explain the basis of its attorney fee 
+awards. 
+ 
+Chief Justice BURDICK, and Justices BEVAN and STEGNER, and Justice Pro Tem 
+TROUT CONCUR.  

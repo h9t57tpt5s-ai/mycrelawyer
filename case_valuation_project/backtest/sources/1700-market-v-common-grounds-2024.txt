@@ -1,0 +1,397 @@
+2024 PA Super 63 
+ 
+  
+1700 MARKET STREET ASSOCIATES, 
+L.P. BY ITS GENERAL PARTNER, SRI 
+ELEVEN 1700 MARKET HOLDINGS 
+REIT LLC, AND 1700 PROPERTY 
+OWNER, LLC       
+ 
+ 
+ 
+ 
+Appellants 
+ 
+ 
+ 
+ 
+v. 
+ 
+ 
+COMMON GROUNDS 1700 MARKET 
+STREET, LLC AND COMMON 
+GROUNDS HOLDINGS, LLC 
+: 
+: 
+: 
+: 
+: 
+: 
+: 
+: 
+: 
+: 
+: 
+: 
+: 
+: 
+: 
+  IN THE SUPERIOR COURT OF 
+           PENNSYLVANIA 
+ 
+ 
+ 
+ 
+ 
+ 
+  No. 1314 EDA 2023 
+Appeal from the Order Entered April 20, 2023 
+In the Court of Common Pleas of Philadelphia County  
+Civil Division at No:  02451 May Term 2022 
+ 
+BEFORE:  OLSON, J., STABILE, J., and COLINS, J.* 
+OPINION BY STABILE, J.: 
+FILED APRIL 1, 2024 
+ 
+Appellants, 1700 Market Street Associates, L.P., SRI Eleven 1700 
+Market Holdings REIT, LLC, and 1700 Property Owner, LLC (collectively 
+“Appellants”) appeal from the award of $223,000 in damages entered in this 
+commercial lease case following a non-jury trial.  Appellants contend that the 
+trial court erred in finding Appellees, Common Grounds 1700 Market Street, 
+LLC and Common Grounds Holdings, LLC (collectively “Appellees”), were 
+evicted, and thus erred in not awarding Appellant its actual damages of 
+$2,149,435.75.  We affirm.   
+____________________________________________ 
+* Retired Senior Judge assigned to the Superior Court. 
+Appellants and Appellees entered into an Agreement of Lease (“Lease”) 
+dated July 2, 2019, whereby Appellees leased 62,428 square feet of 
+Appellants’ premises for use as a coworking space (“the premises”).1  The 
+initial term of the Lease was eleven years.  Lease, 7/1/19, ¶ 2(b).  Appellee 
+paid Appellants $2,500,000.00 for the security deposit and agreed to pay base 
+monthly rent of $171,677.00, increasing by 2.5% each year.  Id. ¶ 2(c), (d).  
+Additionally, Appellees were responsible for “additional rent” defined as 
+operating expenses and tax expenses.  Id. at ¶ 7(a), (b).  Under the terms of 
+the Lease, Appellants provided Appellees $4,588,030.00 as a tenant 
+improvement allowance, with the option for a supplemental allowance of 
+$2,010,340.00.  Id. at ¶ 55(a), (b).  If Appellees opted for the supplemental 
+allowance, it would be amortized into the monthly rent.  Id.  
+Initially, rent was abated for the first ten months of the first year.  Id. 
+at 2(c).  On December 9, 2020, the parties executed a First Amendment to 
+Agreement of Lease (“First Amendment”), which confirmed the Lease 
+commenced on February 20, 2020, and extended the abatement period to 
+January 20, 2021.  First Amendment, 12/9/20, ¶ B, D, 2.   
+ 
+The Lease provided that an event of default of the Lease would include, 
+inter alia, failure to pay rent timely.  Lease, 7/1/19, ¶ 25(a)(1).  If an event 
+of default occurred, the Lease provided for the following remedies: 
+ 
+____________________________________________ 
+1 The premises was defined as the 23rd and 24th floors of 1700 Market Street, 
+Philadelphia, Pennsylvania. 
+1. Landlord may terminate Tenant’s right to possession of the 
+Premises at any time by written notice to Tenant. . . . 
+ 
+Upon such termination in writing of Tenant’s right to possession 
+of the Premises, this Lease shall terminate and Landlord shall 
+be entitled to recover damages from Tenant as provided in any 
+applicable existing or future Legal Requirement providing for 
+recovery of damages for such breach, including but not limited 
+to the following: 
+ 
+(i) 
+The reasonable cost of recovering the Premises; plus 
+(ii) 
+The reasonable cost of removing Tenant’s Alterations, 
+trade fixtures and improvements; plus 
+(iii) 
+All unpaid rent due or earned hereunder prior to the 
+date of termination, less the proceeds of any reletting 
+or any rental received from subtenants prior to the 
+date of termination . . .; plus 
+(iv) 
+The amount by which the rent which would be payable 
+by Tenant hereunder, including Additional Rent . . . as 
+reasonably estimated by Landlord, from the date of 
+termination until the date of the award of damages. . 
+.; plus 
+(v) 
+The amount by which the rent which would be payable 
+by Tenant hereunder, including Additional Rent . . . as 
+reasonably estimated by Landlord, for the remainder 
+of the then term, after the date of the award of 
+damages . . .; plus 
+(vi) 
+Such other amounts in addition to or in lieu of the 
+foregoing as may be permitted from time to time by 
+applicable law, including without limitation any other 
+amount necessary to compensate Landlord for all the 
+detriment proximately caused by Tenant’s failure to 
+perform its obligations under this Lease or which in 
+the ordinary course of things would be likely to result 
+therefrom. 
+2. Landlord may continue this Lease in full force and effect and 
+may enforce all of its rights and remedies under this Lease, 
+including, but not limited to, the right to recover rent as it 
+becomes due.  After the occurrence of an Event of Default, 
+Landlord may enter the Premises without terminating this 
+Lease and sublet all or any part of the Premises for Tenant’s 
+account to any person, for such term (which may be a period 
+beyond the remaining term of the Lease), at such rents and on 
+such other terms and conditions as Landlord deems advisable. 
+* * * *  
+5. Landlord may cure the Event of Default at Tenant’s expense, it 
+being understood that such performance shall not waive or cure 
+the subject Event of Default.  If Landlord pays any sums or 
+incurs any expense in curing the Event of Default, Tenant shall 
+reimburse Landlord upon demand for the amount of such 
+payment or expense with interest at the Interest Rate from the 
+date the sum is paid or the expense is incurred until Landlord 
+is reimbursed by Tenant.  Any amount due Landlord under this 
+subsection shall constitute additional rent hereunder.  
+Lease, 7/1/19, ¶ 25(b).  The Lease also contained a confession of judgment 
+clause:  
+ 
+1. Tenant covenants and agrees that if there is an Event of Default 
+and this lease is terminated the term thereof is terminated or 
+expires, then, Landlord may, without limitation, cause 
+judgments in ejectment for possession of the premises 
+to be entered against Tenant and, for those purposes, Tenant 
+hereby grants the following warrant of attorney: (I) 
+Tenant hereby irrevocably authorizes and empowers any 
+prothonotary, clerk of court, attorney of any court of record 
+and/or Landlord (as well as some one [sic] acting for Landlord) 
+in any and all actions commenced for recovery of possession of 
+the premises to appear for Tenant and confess or otherwise 
+enter judgment in ejectment for possession of the premises 
+against Tenant and all persons claiming directly or indirectly 
+by, through or under Tenant, and thereupon a writ of 
+possession may forthwith issue and be served, without 
+any prior notice, writ or proceeding whatsoever; (II) if, for 
+any reason after the foregoing action or actions shall have been 
+commenced, it shall be determined that possession of the 
+premises should remain in or be restored to Tenant, Landlord 
+shall have the right to commence one or more further actions 
+as hereinbefore set forth to recover possession of the premises, 
+including, without limitation, appearing for Tenant and 
+confessing or otherwise entering judgment for possession of 
+the premises as hereinbefore set forth. 
+2. Tenant hereby acknowledges that by agreeing to the foregoing 
+confession of judgment and warrant of attorney, Tenant 
+waives the right to notice and a prior judicial proceeding 
+to determine its rights and liabilities, and further acknowledges 
+that Landlord may, on default by Tenant under the lease, 
+subject to such notice requirements, if any, as are herein 
+expressly provided, obtain a judgment against Tenant for 
+ejectment without any opportunity of Tenant to raise any 
+defense, setoff, counterclaim or other claim that Tenant may 
+have, and that Tenant knowingly, voluntarily and 
+intelligently grants Landlord the foregoing right to 
+confess judgment and warrant of attorney as an explicit 
+and material part of the consideration bargained for 
+between Tenant and Landlord.  Tenant certifies that it has been 
+represented by (or has had the opportunity to be represented) 
+at the signing of this lease and in the granting of this confession 
+of judgment and warrant of attorney by independent legal 
+counsel, selected of its own free will, and that it has had the 
+opportunity to discuss the confession of judgment and warrant 
+of attorney with counsel.  Tenant further certifies that it has 
+read and understands the meaning and effect of the foregoing 
+confession of judgment and warrant of attorney.  Tenant 
+further acknowledges that this lease is a commercial 
+transaction, and that the relationship between Landlord and 
+Tenant created hereunder is commercial in nature.  Tenant 
+further waives all rights under, and agrees that Landlord shall 
+have no obligations to tenant pursuant to, the provisions of 20 
+Pa.C.S. § 5601.3(b). 
+Lease, 7/1/19, ¶ 25(c) (emphasis added).2   
+ 
+On March 9, 2021, Appellants sent a written notice of default to 
+Appellees due to unpaid rent for March 2021.  N.T., 1/9/23, at 30-31.  
+Appellees were provided an opportunity to cure the default, and they did not.  
+Id. at 31.  A second notice of default was sent on February 3, 2022, and 
+____________________________________________ 
+2 The First Amendment included an identical confession of judgment clause.  
+First Amendment of Lease, 12/9/20, ¶ 6(c).   
+Appellees were again provided an opportunity to cure and they did not.  Id. 
+at 31-32. 
+On March 21, 2022, Appellants filed a Landlord and Tenant Complaint 
+in Philadelphia Municipal Court, seeking possession of the premises and money 
+judgment in the amount of $2,498,499.73, itemized as follows: 
+ 
+Unpaid Rent March 2021–Feb 2022 
+(calculated at $207,302.52 / month) 
+$2,487,630.24 
+Electric 
+$7,502.24 
+Attorney’s Fees 
+$1,500.00 
+Other 
+$1,740.00 
+Court Costs 
+$127.73 
+TOTAL 
+$2,498,499.73 
+ 
+Landlord and Tenant Complaint, 3/21/22.  On May 10, 2022, judgment was 
+entered in favor of Appellants in the amount of $3,065,058.72, as well as 
+judgment for possession of the premises.3  On May 26, 2022, Appellees filed 
+an appeal to the Court of Common Pleas of Philadelphia County.   
+ 
+Thereafter, on June 9, 2022, Appellants filed a complaint for breach of 
+contract seeking damages and possession of the premises.  Appellants sought 
+damages in the amount of $3,238,504.15 - $2,500,000.00 to replenish the 
+security deposit and $783,504.15 in unpaid rent and additional rent – plus 
+ongoing rent and additional rent as it accrues.  Complaint, 6/9/22, ¶ 11.  
+Appellants also requested judgment in ejection for possession of the premises.  
+Id. at ¶ 15.   
+____________________________________________ 
+3 The docket indicates Appellees’ counsel was present, but it does not indicate 
+if there was a hearing or argument prior to the entry of judgment.  
+Following a non-jury trial, the trial court entered judgment in favor of 
+Appellants in the amount of $223,000.00, the amount due to Appellants up to 
+July 1, 2022 when it regained possession of the premises.  Trial Court Opinion, 
+4/20/23, at 3.  Appellants filed a post-trial motion and asserted that the trial 
+court erred in determining Appellants were not entitled to actual damages 
+because it did not confess judgment or seek accelerated rent.  Post-Trial 
+Motion, 1/20/23, ¶ 10-13.  Specifically, Appellants argued they were entitled 
+to actual damages of $2,149,435.75, the amount of unpaid rent due at the 
+time judgment was entered.  Id., ¶ 7(f).  The trial court denied Appellants’ 
+post-trial motion, finding that Appellants ejected Appellees from the premises 
+and, therefore, were only entitled to unpaid rent until Appellants regained 
+possession of the premises.  Trial Court Opinion, 4/20/23, at 3.  Appellants 
+filed a motion for reconsideration, which was denied.  This appeal followed.   
+ 
+Appellants raise the following issues for our review: 
+1. Did the Trial Court err by not awarding Landlord damages 
+including both past due rent and rent as it accrues for the 
+remainder of the term of a commercial least until judgment, 
+less any mitigation if required, because contract law is 
+designed to put the non-breaching party in the same position 
+that it would be in if the breaching party had complied with the 
+lease without permitting any double recovery of damages? 
+2. Did the Trial Court misapply the law by limiting and capping 
+Landlord’s damages as of the date landlord obtained 
+possession rather than awarding Landlord its actual damages 
+that continued to accrue under the terms of the lease until 
+judgment after trial? 
+3. Did the Trial Court err in finding that the Tenant had been 
+evicted rather than voluntarily vacating the premises and erred 
+by not applying the law related to a tenant’s voluntarily 
+vacating a commercial premise? 
+ 
+Appellants’ Brief at 4.  We will address the issues together because they are 
+interrelated.  
+ 
+Our standard of review in a non-jury trial is 
+to assess whether the findings of facts by the trial court are 
+supported by the record and whether the trial court erred in 
+applying the law.  Upon appellate review[,] the appellate court 
+must consider the evidence in the light most favorable to the 
+verdict winner and reverse the trial court only where the findings 
+are not supported by the evidence of record or are based on an 
+error of law.  Our scope of review regarding questions of law is 
+plenary. 
+ 
+Woullard v. Sanner Concrete & Supply, 241 A.3d 1200, 1207 (Pa. Super. 
+2020) (internal citation omitted).  “Findings of the trial judge in a non-jury 
+case must be given the same weight and effect on appeal as a verdict of a 
+jury.”  Shaffer v. O’Toole, 964 A.2d 420, 422 (Pa. Super. 2009), appeal 
+denied, 981 A.2d 220 (Pa. 2009) (internal citation omitted). 
+This Court, almost 100 years ago, declared that a landlord cannot evict 
+a tenant and then recover both the possession of the property and the rent 
+for the balance of the term.  See Greco v. Woodlawn Furniture Co., 99 Pa. 
+Super. 290, 292 (1930).  However, if the tenant abandons the property, the 
+landlord is entitled to possession and accelerated rent: 
+The distinction must always be made between possession of 
+vacated premises taken by the landlord merely to protect the 
+property or minimize the damages that would follow the tenant’s 
+abandonment, and a possession which would be adverse to any 
+resumption of occupation by the tenant and thus amount to an 
+eviction. 
+Id. (internal quotation and citation omitted).  “[A] landlord must elect whether 
+to confess judgment for possession and for all monies then due, or to confess 
+judgment for all monies due for the entire term.”  Homart Dev. Co. v. 
+Sgrenci, 662 A.2d 1092, 1101 (Pa. Super. 1995) (en banc).  “The landlord . 
+. . cannot . . . enter judgment for possession and for all mon[ie]s which would 
+otherwise be due as rents through the end of the term.”  Id.  Thus,  
+[i]f the landlord terminates the lease and evicts the tenant before 
+the acceleration clause is enforced, the landlord cannot recover 
+rent for the post-eviction period.  If the landlord collects 
+accelerated rent and receives possession of the property by 
+abandonment, the landlord may keep the accelerated rent, but is 
+required to account to the tenant for rent received from a new 
+tenant.   
+ 
+Ferrick v. Bianchini, 69 A.3d 642, 656 (Pa. Super. 2013).  The legal crux of 
+this matter is whether Appellants evicted Appellees or whether Appellees 
+abandoned the premises.   
+ 
+Appellants argue that Appellees abandoned the premises, and no 
+evidence was presented to show Appellees were evicted.  Appellants’ Brief at 
+19.  Thus, Appellants contend they are entitled to actual damages, defined as 
+rent and additional rent due through the date of trial, less any applicable 
+mitigation.  Id. at 15-16.  Appellants attempt to distinguish Homart on the 
+ground that the case involved confessed judgments, and here, Appellants did 
+not file for a confessed judgment.  However, this is not a meaningful 
+distinction.  The basic tenet of our civil justice system remains the same 
+regardless of whether judgment was confessed – a plaintiff may not obtain a 
+double recovery for a single wrong.  Homart, 662 A.2d at 1100.   
+ 
+To establish abandonment of a lease, the landlord must prove: (1) an 
+intention to abandon; and (2) conduct by which the intention is carried 
+through.  See Ferrick, 69 A.3d at 656.  Conversely, an eviction is possession 
+of a property by a landlord “which would be adverse to any resumption of 
+occupation by the tenant.”  Greco, 99 Pa. Super. at 292.  Pennsylvania’s 
+Landlord Tenant Act, 68 P.S. §§ 250.101-250.602, was enacted in 1951 and 
+“is a comprehensive regulatory scheme governing the landlord and tenant 
+relationship.  It sets up a procedure whereby a landlord may repossess [the] 
+premises if he has a right to evict the tenant.”  Fraport Pittsburgh, Inc. v. 
+Allegheny Cnty. Airport Auth., 296 A.3d 9, 19 (Pa. Super. 2023) (internal 
+quotations and citations omitted).  “It is intended that [the Landlord Tenant 
+Act] shall furnish a complete and exclusive system in itself,” and repealed all 
+inconsistent acts.  68 P.S. § 250.602.   
+To evict a tenant, landlords must comply with the procedure established 
+in the Landlord Tenant Act.  A complaint for possession must be filed in a 
+municipal court or with the magistrate court, and “[i]f it appears that the 
+complaint has been sufficiently proven, the [judge] shall enter judgment 
+against the tenant that the real property be delivered up to the landlord.”  68 
+P.S. § 250.503(a)(1).  Five days after judgment is entered, the landlord may 
+request, and the judge shall issue, a writ of possession for the premises.  See 
+68 P.S. § 250.503(b).  “This writ is to be served within no later than forty-
+eight hours and executed on the eleventh day following service upon the 
+tenant of the leased premises.”  Id.   
+ 
+The record demonstrates that Appellants followed this procedure to 
+legally evict Appellees from the premises.  On March 21, 2022, Appellants filed 
+a landlord tenant complaint in Philadelphia Municipal Court seeking unpaid 
+rent and possession of the premises.  N.T., 1/9/23, at 48.  On May 10, 2022, 
+Appellants obtained a judgment for possession and a monetary judgment for 
+unpaid rent.  Id.  On May 31, 2022, Appellants obtained a writ of possession 
+that was posted on the premises.  Id. at 48-49.  The writ of possession 
+directed Appellees to vacate the premises within eleven days and warned that 
+a failure to vacate would result in an alias writ of possession, “and all force 
+necessary to eject you in order to execute the said Writ will be employed.”  
+Id., Exhibit D-1 (emphasis added).  The writ also included the following notice: 
+“Judgment was entered for non-payment of rent.  If the full amount of the 
+judgment plus court costs is paid on or prior to the eviction date, eviction 
+shall not proceed.”  Id. (emphasis added).   
+On June 16, 2022, Appellants obtained an alias writ of possession that 
+was also posted on the premises.  Id. at 49-50, 64.  Scott Anderson, chief 
+operating officer for Appellees, testified that when the alias writ of possession 
+was posted, the landlord tenant officer could come any day to padlock the 
+premises, thereby locking Appellees out.  Id. at 64.  As a result of the alias 
+writ of possession, on or about June 30, 2022, Appellees returned the keys to 
+the premises, and left all property inside.  Id.   
+Regardless of how Appellants want to characterize their actions, 
+Appellees were legally evicted from the premises.  Moreover, Appellants 
+followed the procedure set forth in the confession of judgment clause of the 
+Lease.  Thus, the trial court did not err or abuse its discretion in finding that 
+Appellees were evicted, and, therefore, Appellants are only entitled to 
+damages for unpaid rent through July 1, 2022, when Appellants obtained 
+possession of the property.  Homart, supra; Ferrick, supra. 
+Order affirmed.  
+ 
+ 
+ 
+Date: 4/1/2024 
+ 

@@ -1,0 +1,886 @@
+FOR PUBLICATION 
+ 
+UNITED STATES COURT OF APPEALS 
+FOR THE NINTH CIRCUIT 
+ 
+ 
+ASARCO LLC, a Delaware 
+corporation, 
+Plaintiff-Appellee, 
+ 
+v. 
+ 
+ATLANTIC RICHFIELD COMPANY, 
+LLC, a Delaware corporation, 
+Defendant-Appellant, 
+ 
+and 
+ 
+BRITISH PETROLEUM, PLC, a United 
+Kingdom Corporation; AMERICAN 
+CHEMET CORPORATION, a Montana 
+Corporation, 
+Defendants. 
+ 
+No. 18-35934 
+ 
+D.C. No. 
+6:12-cv-00053-
+DLC 
+ 
+ 
+OPINION 
+ 
+Appeal from the United States District Court 
+for the District of Montana 
+Dana L. Christensen, District Judge, Presiding 
+ 
+Argued and Submitted April 27, 2020 
+Seattle, Washington 
+ 
+Filed September 14, 2020 
+ 
+
+2 
+ASARCO V. ATLANTIC RICHFIELD 
+ 
+Before:  M. Margaret McKeown, N. Randy Smith, and 
+Jacqueline H. Nguyen, Circuit Judges. 
+ 
+Opinion by Judge Nguyen 
+ 
+ 
+SUMMARY* 
+ 
+  
+Environmental Law 
+ 
+ 
+The panel affirmed in part and vacated in part the district 
+court’s judgment, after a bench trial, in favor of the plaintiff 
+in a contribution action under the Comprehensive 
+Environmental Response, Compensation, and Liability Act. 
+ 
+ 
+Plaintiff ASARCO LLC entered into a consent decree 
+with the Environmental Protection Agency to clean up 
+environmental contamination at several sites, including a 
+Superfund Site in East Helena, Montana.  Asarco, former 
+operator of a lead smelting facility, then brought a CERCLA 
+contribution action against Atlantic Richfield Co., successor 
+in interest to the operator of a zinc fuming plant  The district 
+court found that Asarco had incurred $111.4 million in 
+necessary response costs for the cleanup of the Site and that 
+Atlantic Richfield was responsible for 25% of that sum. 
+ 
+ 
+Vacating and remanding in part, the panel held that the 
+district court erred in its determination of the necessary 
+response costs incurred by Asarco.  Specifically, the district 
+court erred when it counted the full settlement amount, 
+ 
+* This summary constitutes no part of the opinion of the court.  It 
+has been prepared by court staff for the convenience of the reader. 
+
+ 
+ASARCO V. ATLANTIC RICHFIELD 
+3 
+ 
+including about $50 million of funds that had not been, and 
+might never be, spent on the Site cleanup, as response costs 
+subject to contribution at this stage of the Site cleanup.  The 
+panel remanded for further consideration of what response 
+costs were sufficiently concrete and non-speculative such 
+that they would be eligible for contribution under CERCLA.  
+ 
+ 
+Affirming in part, the panel held that the district court 
+did not err in allocating responsibility for 25% of the 
+response costs to Atlantic Richfield.  The panel held that the 
+district court property exercised its discretion in its 
+consideration of appropriate equitable factors and did not 
+clearly err in its factual findings supporting its allocation 
+decision. 
+  
+ 
+COUNSEL 
+ 
+Shannon Wells Stevenson (argued), Benjamin B. Strawn, 
+and Kellen N. Wittkop, Davis Graham & Stubbs LLP, 
+Denver, Colorado; Elisabeth S. Theodore and Stephen K. 
+Wirth, Arnold & Porter Kaye Scholer LLP, Washington, 
+D.C.; for Defendant-Appellant. 
+ 
+Gregory Evans (argued), McGuireWoods LLP, Los 
+Angeles, California; Benjamin L. Hatch, McGuireWoods 
+LLP, Washington, D.C.; Kris A. McLean, Kris A. McLean 
+Law Firm PLLC, Missoula, Montana; Rachel H. Parkin, 
+Milodragovich Dale & Steinbrenner P.C., Missoula, 
+Montana; for Plaintiff-Appellee. 
+ 
+ 
+ 
+ 
+ 
+
+4 
+ASARCO V. ATLANTIC RICHFIELD 
+ 
+OPINION 
+NGUYEN, Circuit Judge: 
+In June 2009, ASARCO LLC (“Asarco”) agreed to settle 
+with the government and enter into a consent decree to clean 
+up environmental contamination at several sites, including a 
+Superfund Site in East Helena, Montana (the “Site”).  Asarco 
+then brought a contribution action under the Comprehensive 
+Environmental Response, Compensation, and Liability Act 
+of 1980 (“CERCLA”), 42 U.S.C. §§ 9601–9675, against 
+Atlantic Richfield Company, LLC (“Atlantic Richfield”).  
+Following a bench trial, the district court entered judgment 
+in favor of Asarco, finding that Asarco had incurred 
+$111.4 million in necessary response costs for the cleanup of 
+the Site and that Atlantic Richfield was responsible for 
+twenty-five percent of that sum.  Atlantic Richfield 
+appealed.  We have jurisdiction pursuant to 28 U.S.C. 
+§ 1291.  We hold that the district court erred in its 
+determination of the necessary response costs incurred by 
+Asarco, but the court did not err in allocating twenty-five 
+percent liability to Atlantic Richfield.  We therefore vacate 
+and remand in part, and affirm in part. 
+I.  BACKGROUND 
+A. Operations at the Site 
+Asarco and its predecessors owned and operated a lead 
+smelting facility at the Site from 1888 to 2001.  Asarco’s 
+lead smelting facility was the largest operation at the Site.  
+This operation recovered lead and other metals by smelting 
+a variety of foreign and domestic concentrates, ores, fluxes, 
+and other non-ferrous, 
+metalbearing 
+materials and 
+byproducts. 
+ 
+Those 
+materials 
+contained 
+arsenic 
+concentrations as high as 190,000 parts per million (“ppm”).  
+
+ 
+ASARCO V. ATLANTIC RICHFIELD 
+5 
+ 
+The smelting operation produced slag as a waste product, 
+which contained small residual quantities of metals and 
+arsenic.  It is undisputed that Asarco “released significant 
+amounts of arsenic into the environment” from its smelting 
+facility. 
+Atlantic Richfield is the successor in interest to 
+Anaconda, which leased a portion of the Site from Asarco to 
+construct and operate a zinc fuming plant.  Using a blast 
+furnace fueled with coal, Anaconda reprocessed slag that it 
+purchased from Asarco to recover zinc.  Anaconda used and 
+produced several arsenic-bearing materials in its fuming 
+operation, albeit with a lower arsenic concentration than 
+Asarco’s primary materials.  Anaconda operated the zinc 
+fuming plant from 1927 to 1972, at which point it sold the 
+plant to Asarco.  Asarco then operated the zinc fuming plant 
+for another decade. 
+B. EPA Involvement and Remediation 
+In 1984, the Environmental Protection Agency (“EPA”) 
+added the Site to the CERCLA National Priorities List, 
+targeting it for environmental remediation.  The primary 
+environmental concern at the Site was arsenic contamination 
+of the groundwater.  In the years that followed, Asarco 
+entered into a series of agreements with the EPA to begin the 
+process of remediation. 
+In 1990, Asarco and the EPA finalized a settlement 
+agreement and consent decree in CERCLA litigation 
+concerning the contamination of the process ponds at the 
+Site.  Pursuant to the consent decree, Asarco agreed to 
+undertake a cleanup of the process ponds, which it 
+substantially completed by 1997. 
+
+6 
+ASARCO V. ATLANTIC RICHFIELD 
+ 
+In 1998, Asarco and the EPA entered into another 
+settlement agreement and consent decree, this time resolving 
+claims brought by the EPA under the Resource Conservation 
+and Recovery Act and the Clean Water Act.  The settlement 
+did not raise any claims under CERCLA. 
+On August 9, 2005, Asarco filed a Chapter 11 
+bankruptcy petition.  In connection with the bankruptcy 
+proceedings, the United States, the State of Montana, and the 
+State of Montana Department of Environmental Quality all 
+filed proofs of claim for Asarco’s projected liability under 
+CERCLA.  Asarco, the United States, and the State of 
+Montana reached two complementary settlement agreements 
+and consent decrees in February and June 2009, resolving 
+Asarco’s outstanding environmental liabilities at several 
+Montana sites, including the Site at issue in this case. 
+The June 2009 consent decree established a custodial 
+trust for the affected sites, and the Montana Environmental 
+Trust Group (“METG”) was appointed as the custodial 
+trustee for the East Helena Site.  The June 2009 consent 
+decree also designated the EPA as the lead agency for the 
+Site, placing it in charge of selecting, approving, and 
+authorizing all work performed and funds expended by 
+METG.  Pursuant to the June 2009 consent decree, Asarco 
+paid approximately $111.4 million1 for cleanup of the East 
+Helena Site—accounting for comprehensive damage done to 
+the Site by all responsible parties.  That sum included: 
+(a) $99.294 million into the East Helena Custodial Trust 
+ 
+1 In total, Asarco paid $1.8 billion to settle environmental claims 
+related to hazardous waste in the bankruptcy proceedings. 
+
+ 
+ASARCO V. ATLANTIC RICHFIELD 
+7 
+ 
+Cleanup Account for a groundwater remedy;2 (b) 
+$6,403,743 toward the establishment of the Custodial Trust 
+and the funding of the Custodial Administrative Account to 
+be used for trust administration expenses; (c) $706,000 to the 
+U.S. Department of the Interior for natural resource 
+restoration and future oversight costs for the Site; and (d) $5 
+million to the State of Montana for compensatory natural 
+resource damages at the Site. 
+METG has begun its remediation work at the Site.  So 
+far, it has fully implemented three interim measures to curb 
+the spread of contaminants and further environmental 
+degradation at the Site.  METG also has implemented 
+institutional controls for the Site and the surrounding areas, 
+designed to prevent property owners from using their 
+domestic water wells to avoid contact with contaminated 
+groundwater.  METG proposes one additional future project: 
+capping the portion of the slag pile at the Site that consists 
+of unfumed slag.  METG has not instated and does not plan 
+to install a pump-and-treat system. 
+As of the most recent accounting available, METG had 
+spent a little less than half of the trust funds at its disposal, 
+leaving it with approximately $50 million for further 
+remediation efforts.  Atlantic Richfield’s expert estimated 
+the ongoing costs for operations and maintenance at 
+$9.2 million, and METG estimated the cost of covering the 
+unfumed slag at $3.7 million.  Adding those sums to the 
+dollar amount already expended by METG, the total cleanup 
+cost for the Site would approximate $61.4 million.  Asarco 
+contends that Atlantic Richfield’s expert vastly understates 
+ 
+2 This figure was based on estimates for a pump-and-treat system 
+recommended by the State of Montana’s experts, William Bucher and 
+Ann Maest. 
+
+8 
+ASARCO V. ATLANTIC RICHFIELD 
+ 
+how costly the cleanup would be.  Asarco’s expert opined 
+that METG’s proposed remedies would be insufficient to 
+address the groundwater contamination and that more 
+substantial remediation work would be necessary. 
+C.  Procedural History 
+In 2012, Asarco brought this contribution action against 
+Atlantic Richfield under CERCLA §§ 107 and 113.  The 
+district court granted summary judgment in favor of Atlantic 
+Richfield, finding the action barred by the statute of 
+limitations.  Asarco appealed, and we concluded that 
+Asarco’s contribution claim was, in fact, timely.  See Asarco 
+LLC v. Atlantic Richfield Co., 866 F.3d 1108 (9th Cir. 2017).  
+We vacated the district court’s summary judgment order and 
+remanded for further proceedings before the trial judge.  Id. 
+On remand, the district court conducted an eight-day 
+bench trial, weighted heavily toward expert testimony.  
+Following trial, the district court issued detailed findings of 
+fact and conclusions of law and entered judgment in favor of 
+Asarco.  The court found that Asarco had expended 
+$111,403,743 in necessary response costs for cleanup of the 
+Site3 and that Atlantic Richfield was liable for twenty-five 
+percent of those costs, i.e., $27,850,936.  The court also 
+granted an additional $1 million award to Asarco, based on 
+its findings as to Atlantic Richfield’s failure to cooperate 
+with the authorities and its misrepresentations to the EPA 
+and to Asarco.4  Atlantic Richfield moved to alter or amend 
+ 
+3 This figure is the amount paid by Asarco in connection with the 
+June 2009 consent decree. 
+4 Atlantic Richfield does not challenge on appeal the imposition of 
+this additional $1 million award. 
+
+ 
+ASARCO V. ATLANTIC RICHFIELD 
+9 
+ 
+the judgment, but the district court denied the motion.  This 
+appeal timely followed. 
+II.  ANALYSIS 
+A. The District Court Erred by Including Speculative 
+Future Costs in its Tabulation of Necessary Response 
+Costs Eligible for Contribution Under CERCLA. 
+Atlantic Richfield argues that the district court erred in 
+finding that Asarco incurred $111.4 million in necessary 
+response costs for the environmental cleanup of the Site, 
+because that sum improperly included (i) costs that had not 
+yet been, and might never be, incurred; and (ii) costs that 
+were not necessary to protect human health and the 
+environment.  Atlantic Richfield contends those costs are 
+unrecoverable under CERCLA, and that the response costs 
+eligible for contribution should be limited to the 
+$61.4 million that it represents have been incurred so far to 
+remediate the Site. 
+We review for clear error the district court’s findings of 
+fact following a bench trial, and we review de novo its 
+conclusions of law and mixed questions of law and fact.  
+OneBeacon Ins. Co. v. Haas Indus., Inc., 634 F.3d 1092, 
+1096 (9th Cir. 2011).  We hold that the district court erred 
+when it counted the full settlement amount—including about 
+$50 million of funds that had not been, and might never be, 
+spent on the Site cleanup—as response costs subject to 
+contribution at this stage of the Site cleanup.  We therefore 
+vacate and remand for further consideration of what 
+response costs are sufficiently concrete and non-speculative 
+such that they would be eligible for contribution under 
+CERCLA. 
+
+10 
+ASARCO V. ATLANTIC RICHFIELD 
+ 
+The parties agree on the initial premise that, pursuant to 
+the CERCLA contribution regime, Asarco is entitled to 
+recover an allocated proportion of the “necessary costs of 
+response incurred . . . consistent with the national 
+contingency plan.”  42 U.S.C. § 9607(a)(4)(B).  From that 
+point, their positions diverge. 
+Atlantic Richfield contends that those funds not yet spent 
+or earmarked for specific, imminent work cannot qualify as 
+costs “incurred.”  It relies on cases that prohibit recovery 
+under CERCLA for future response costs or the award of 
+speculative damages unmoored to concrete expenses.  See 
+Stanton Rd. Assocs. v. Lohrey Enters., 984 F.2d 1015, 1021–
+22 (9th Cir. 1993); In re Dant & Russell, Inc., 951 F.2d 246, 
+249–50 (9th Cir. 1991).  Atlantic Richfield asserts that 
+METG no longer expects to implement the costly pump-and-
+treat remedy, instead planning to carry out cheaper remedial 
+actions that would leave a large portion of the settlement 
+funds untouched.  It also cites to a reversion provision in the 
+settlement agreement, whereby unused settlement funds 
+would be redirected to remediate other sites for which 
+Atlantic Richfield has no liability. 
+Asarco responds that the costs for which it seeks 
+contribution were actually “incurred.”  It argues that the 
+entire sum paid in settlement, $111.4 million, was intended 
+to fund the environmental cleanup of the Site, as evidenced 
+by the fact that the reversion provision does not allow the 
+return of any funds to Asarco’s hands.  Based on its 
+irrevocable payment, Asarco says it “incurred” those 
+response costs within the meaning of the statute.  Asarco 
+attempts to distinguish the cases cited by Atlantic Richfield, 
+noting that they occurred in different contexts and lacked the 
+same type of firm monetary commitment that Asarco 
+undertook here.  And Asarco points to cases from other 
+
+ 
+ASARCO V. ATLANTIC RICHFIELD 
+11 
+ 
+circuits allowing recovery of future costs, arguing that 
+precluding recovery for such costs could undermine 
+CERCLA’s policy objective of incentivizing settlements and 
+early, accountable cleanup.  See RSR Corp. v. Commercial 
+Metals Co., 496 F.3d 552, 558–60 (6th Cir. 2007); Am. 
+Cyanamid Co. v. Capuano, 381 F.3d 6, 26–27 (1st Cir. 
+2004); Action Mfg., Co. v. Simon Wrecking Co., 287 Fed. 
+App’x 171, 174–76 (3d Cir. 2008); PCS Nitrogen, Inc. v. 
+Ross Dev. Corp., 104 F. Supp. 3d 729, 744 (D.S.C. 2015). 
+On this factual record, Atlantic Richfield has the better 
+argument.  We have held that the full dollar value of a 
+settlement agreement to discharge CERCLA liability is not 
+automatically subject to contribution.  AmeriPride Servs. 
+Inc. v. Texas E. Overseas Inc., 782 F.3d 474, 490 (9th Cir. 
+2015) (“[I]f a party who was liable under § 9607(a) entered 
+into a settlement agreement to discharge its CERCLA 
+liability to a third party, it can seek contribution under 
+§ 9613(f)(1) only for the settlement costs that were for 
+necessary response costs incurred consistent with the 
+NCP.”).  In many cases, the full settlement amount may 
+equate with the necessary response costs incurred—but that 
+is not inherently so.  Thus, funding a settlement obligation, 
+on its own, does not automatically render the entire sum 
+compensable in a contribution action, even if that payment 
+is irrevocable.  A party seeking contribution must still show 
+that the settlement amount represents “necessary response 
+costs incurred consistent with the NCP.”  Id.  Although the 
+meaning of “incur” is sufficiently broad that it does not 
+require that an expense already be paid, it is also not so broad 
+that it encompasses future expenses that are mere 
+potentialities.  See Trimble v. Asarco, Inc., 232 F.3d 946, 958 
+(8th Cir. 2000) (“We do not dispute plaintiffs’ point that a 
+party may be found to have ‘incurred’ a cost without having 
+actually paid for it[;] . . . a finding that a cost has been 
+
+12 
+ASARCO V. ATLANTIC RICHFIELD 
+ 
+‘incurred’ may be based upon an existing legal obligation.  
+However, the mere possibility, even the certainty, that an 
+obligation to pay will arise in the future does not establish 
+that a cost has been incurred, but rather establishes that a cost 
+may be incurred, or will be incurred.”), abrogated on other 
+grounds by Exxon Mobil Corp. v. Allapattah Servs., Inc., 
+545 U.S. 546 (2005); see also Chubb Custom Ins. Co. v. 
+Space Sys./Loral, Inc., 710 F.3d 946, 961 (9th Cir. 2013) 
+(explaining that courts apply the ordinary meaning of the 
+term “incur” in the CERCLA context, “which is ‘[t]o acquire 
+or come into,’ ‘[t]o become liable or subject to as a result of 
+one’s action,’ to ‘bring upon oneself’” (quoting Am. 
+Heritage Dictionary (4th ed. 2000)) (alterations in original)). 
+Reinforcing our focus on non-speculative costs actually 
+incurred, our circuit historically has refused to award future 
+response costs.  Stanton Rd., 984 F.2d at 1021–22 (holding 
+that “CERCLA prohibits awards of future response costs” 
+and finding error in the district court’s order requiring 
+defendants to place $1.1 million in escrow for future cleanup 
+costs); Dant & Russell, 951 F.2d at 249–50 (explaining that 
+response costs not yet incurred cannot be recovered under 
+CERCLA, and highlighting that “[s]ection 9607(a)(4)(B) 
+permits an action for response costs ‘incurred’—not ‘to be 
+incurred’”).  Likewise, we have found “no suggestion in the 
+statute that Congress intended CERCLA to create a general 
+federal right of contribution for damages and response costs 
+that are not otherwise cognizable under the statute.”  
+AmeriPride, 782 F.3d at 490 (quoting Cty. Line Inv. Co. v. 
+Tinney, 933 F.2d 1508, 1517 (10th Cir. 1991)).  Therefore, 
+we conclude that speculative, potential future response costs 
+are not recoverable in a CERCLA contribution action, even 
+if the party seeking contribution has already made an outlay 
+for such costs pursuant to a settlement.  Instead, a declaratory 
+judgment, whereby liability for future response costs would 
+
+ 
+ASARCO V. ATLANTIC RICHFIELD 
+13 
+ 
+be allocated at a set percentage across responsible parties, is 
+the proper mechanism for recouping future response costs in 
+the CERCLA regime.5  See Boeing Co. v. Cascade Corp., 
+207 F.3d 1177, 1191 (9th Cir. 2000) (holding that 
+declaratory judgments are appropriate not only in the context 
+of cost recovery actions brought under 42 U.S.C. § 9607, but 
+also in CERCLA contribution actions brought under 
+42 U.S.C. § 9613). 
+Here, based on the most recent accounting as of trial, 
+METG had spent only about $48.5 million of its allocated 
+funds, leaving it with another $50 million for further cleanup 
+efforts.  Although the settlement figure was based on the 
+estimated cost of a pump-and-treat remedy,6 METG does not 
+plan to implement a pump-and-treat remedy at this time.  It 
+considers a pump-and-treat remedy too costly, potentially 
+ineffective, and risky in that it could affect the stability of 
+the arsenic-contaminated groundwater plume.  Instead, 
+METG’s proposed final remedies are meaningfully less 
+costly—quoted to bring the full cleanup costs for the Site to 
+about $61.4 million. 
+Asarco challenges METG’s assessment and proffered 
+the expert testimony of Margaret Staub, who emphasized 
+that the original settlement contemplated implementation of 
+a pump-and-treat system at the Site.  Staub opined that the 
+ 
+5 We also do not intend to foreclose a settling party from seeking 
+contribution for costs not yet incurred in a future action, once those costs 
+have been incurred within the meaning of CERCLA, to the extent 
+otherwise permitted by law. 
+6 The settlement does not require that any particular remedial 
+measure be taken to clean up the Site.  Therefore, the settlement does not 
+specifically mandate a pump-and-treat remedy, even though it was 
+priced with such a remedy in mind. 
+
+14 
+ASARCO V. ATLANTIC RICHFIELD 
+ 
+measures proposed by METG likely would not restore the 
+groundwater to acceptable levels, and that, while she could 
+not say definitively what the final remedy would be, 
+“something at some point is going to have to be done.”  But 
+Staub’s opinion, upon which the district court relied, does 
+not provide sufficiently concrete evidence that the entire sum 
+would likely be expended to remediate the Site.  Not only is 
+Staub’s opinion steeped in speculation to begin with, but 
+there is a vast logical leap from the broad conclusion that 
+“something” further will need to be done to remediate the 
+Site, to the specific quantification of the necessary response 
+costs for the Site at $111.4 million or greater. 
+In short, Asarco relies on conjecture rather than firmly-
+grounded facts and figures.  As noted, METG has not paid 
+for or assumed an obligation to pay for a pump-and-treat 
+remedy, nor has it earmarked any funds for that purpose.  At 
+this stage, any such response costs remain speculative.  
+Further adding to the uncertainty surrounding total response 
+costs, the settlement contains a reversion provision that 
+redirects any unused Site cleanup funds to other causes, 
+including the other contaminated properties subject to the 
+broader settlement.  Although Asarco is liable for the 
+cleanup of all the covered properties, Atlantic Richfield is 
+not. 
+Asarco’s argument, which the district court adopted, 
+strays from CERCLA’s legal framework.  The district court 
+explained: 
+The Court . . . concludes that unless and until 
+the groundwater is restored to achieve 
+[maximum contaminant levels] and drinking 
+water standards, something more substantial 
+will need to be done.  Whether there remain[] 
+sufficient funds in the trust to accomplish this 
+
+ 
+ASARCO V. ATLANTIC RICHFIELD 
+15 
+ 
+task, and whether a pump and treat system is 
+the ultimate solution, are not the controlling 
+questions.  Regardless of the answer to those 
+two questions, and notwithstanding Atlantic 
+Richfield’s arguments to the contrary, the 
+Court is convinced that the balance of the 
+approximate $50 million in the trust will most 
+likely be expended to achieve the mandated 
+remediation results. 
+Working from that premise, the court found the full 
+$111.4 million settlement amount to be necessary response 
+costs eligible for contribution.  While we do not question the 
+district court’s finding that further remedial action may be 
+necessary in the future, its forecast was not adequately 
+tethered to any concrete evidence in the record. 
+If, as the district court concludes, “something more 
+substantial will need to be done,” a party in Asarco’s 
+position ultimately can recover the corresponding response 
+costs from its fellow responsible parties.  But until further 
+information is known about the nature and costs of that 
+“something more,” those future costs are not eligible for 
+contribution.  In the meantime, the contribution-seeker can 
+pursue (i) contribution for those necessary response costs 
+that have been incurred to date, and (ii) a declaratory 
+judgment to establish liability and a contribution allocation 
+for those costs that have not been incurred yet, but may be 
+incurred in the future. 
+We emphasize, however, that our holding is a narrow 
+one.  We are presented with a cash-out bankruptcy 
+settlement, reached as part of a global settlement of liability 
+for several contaminated sites, with a reversion provision 
+that diverts unused funds to other sites for which only one of 
+
+16 
+ASARCO V. ATLANTIC RICHFIELD 
+ 
+the parties is responsible.  We likewise face the unusual 
+scenario in which the projected costs of the remediation 
+process, as well as the proposed means of remediation, have 
+fluctuated dramatically since the time the settlement was 
+reached; significantly, one of the core facets of the initial 
+remediation plan, a pump-and-treat remedy, now appears 
+extremely unlikely to come to fruition.  On this record, 
+Asarco has failed to adequately support its asserted response 
+costs. 
+Finally, to the extent the parties disagree about whether 
+the costs of a pump-and-treat system (or other yet-to-be-
+incurred costs) would be “necessary,” we need not resolve 
+the parties’ dispute.  Because such costs have not been 
+incurred, they cannot be awarded even if they satisfy the 
+remaining requirements for contribution eligibility.  For 
+these reasons, we vacate the district court’s finding that the 
+full $111.4 million settlement amount was eligible for 
+contribution and remand for further consideration of what 
+necessary response costs were actually incurred within the 
+meaning of CERCLA. 
+B. The District Court Did Not Err in Allocating 
+Responsibility for Twenty-Five Percent of the 
+Response Costs to Atlantic Richfield. 
+Atlantic Richfield argues that the district court inflated 
+its liability far beyond its actual environmental impact and 
+ascribed to it a share of the response costs that bore little 
+relation to the evidence presented at trial.  Specifically, 
+Atlantic Richfield contends that the district court failed to 
+take account of the volume and toxicity of the waste each 
+party handled; failed to explain adequately what factors it 
+considered in reaching its allocation; and arrived at an 
+allocation that meaningfully outpaced the level of 
+contamination it could have caused.  We disagree, and we 
+
+ 
+ASARCO V. ATLANTIC RICHFIELD 
+17 
+ 
+hold that the district court did not err in devising an equitable 
+allocation of liability for the Site cleanup. 
+In a contribution action, CERCLA empowers a district 
+court to “allocate response costs among liable parties using 
+such equitable factors as the court determines are 
+appropriate.”  42 U.S.C. § 9613(f)(1).  On appeal, we then 
+“review for an abuse of discretion the equitable factors that 
+a district court considers in allocating CERCLA costs and 
+review for clear error the allocation according to the selected 
+factors.”  TDY Holdings, LLC v. United States, 885 F.3d 
+1142, 1146–47 (9th Cir. 2018). 
+As an initial matter, we conclude that the district court 
+properly exercised its discretion by anchoring its analysis 
+around the so-called “Gore factors.”7  See id. at 1147 
+(approving of the use of the Gore factors in CERCLA costs 
+allocation); United States v. Burlington N. & Santa Fe Ry. 
+Co., 520 F.3d 918, 940 n.26 (9th Cir. 2008) (same), rev’d on 
+other grounds, 556 U.S. 599 (2009).  The district court also 
+acted well within its discretion in its broader efforts to 
+tabulate the parties’ historical responsibility for the 
+contamination, its choice to ground that assessment in the 
+expert testimony offered by the parties, and its concern with 
+ 
+7 The Gore factors are: (i) the ability of the parties to demonstrate 
+that their contribution to a discharge, release, or disposal of a hazardous 
+waste can be distinguished; (ii) the amount of the hazardous waste 
+involved; (iii) the degree of toxicity of the hazardous waste involved; 
+(iv) the degree of involvement by the parties in the generation, 
+transportation, treatment, storage, or disposal of the hazardous waste; 
+(v) the degree of care exercised by the parties with respect to the 
+hazardous waste concerned, taking into account the characteristics of 
+such hazardous waste; and (vi) the degree of cooperation by the parties 
+with federal, state, or local officials to prevent any harm to public health 
+or the environment.  See TDY Holdings, 885 F.3d at 1146 n.1. 
+
+18 
+ASARCO V. ATLANTIC RICHFIELD 
+ 
+the duration of each party’s operations at the Site.8  Nor was 
+it improper for the court to determine that it could not and 
+need not allocate response costs to a mathematical certainty, 
+and that it could apply general principles of fairness and 
+equity in deciding whether to err on the side of over- or 
+under-compensation.  The district court was not required to 
+adopt the particular set of factors, or the weighting among 
+them, for which Atlantic Richfield advocated.  Because we 
+find no abuse of discretion at this step of the analysis, the 
+propriety of the district court’s allocation decision turns on 
+whether it committed clear error in its allocation of Atlantic 
+Richfield’s responsibility.  See TDY Holdings, 885 F.3d 
+at 1146–47. 
+We conclude that the district court did not clearly err in 
+its factual findings supporting its allocation decision.  The 
+district court, in a ninety-five page order, made extensive 
+findings about the historical use and contamination of the 
+Site by Asarco and Atlantic Richfield.  It described in detail 
+each party’s operations at the Site; their respective uses and 
+releases of arsenic, to the extent knowable from the historical 
+records; their efforts, and failures, to prevent environmental 
+contamination; and their interactions with the government 
+concerning accountability and remediation.  Although the 
+district court’s discussion of the nexus between its factual 
+findings and the Gore factors could have been clearer at 
+times, the court’s findings and overarching analysis were 
+ 
+8 We are not persuaded by Atlantic Richfield’s argument that the 
+comparative duration of the parties’ operations is “irrelevant” to an 
+appropriate allocation.  The number of years a polluter operates can be 
+tied to the amount of pollution it generates and its overall responsibility 
+for contamination.  Atlantic Richfield contends that other factors would 
+be superior, but that does not render the district court’s approach to be 
+an abuse of discretion. 
+
+ 
+ASARCO V. ATLANTIC RICHFIELD 
+19 
+ 
+sufficiently robust that we do not find reversible error on that 
+basis here. 
+The first Gore factor inquires into the ability of the 
+parties to demonstrate that their contribution to a discharge, 
+release, or disposal of a hazardous waste can be 
+distinguished.  Id. at 1146 n.1.  The district court explained 
+that the “sparse historical record” complicated the task of 
+distinguishing the parties’ contributions, noting a lack of 
+clarity as to “the precise nature and amount of pollutants” 
+historically emitted by each operator.  It noted that the 
+deficiencies in the record were partially attributable to 
+Atlantic Richfield’s longstanding denial of responsibility for 
+contamination at the Site.  Nonetheless, the court found that 
+the record generally “revealed enough information to 
+understand the history of operations . . . at the Site,” coupled 
+with the aid of expert testimony, such that it could make a 
+rough assessment of the parties’ respective contributions. 
+The second and third Gore factors ask how much 
+hazardous waste was involved, as well as the degree of 
+toxicity of that waste.  Id.  The fourth Gore factor considers 
+the degree of involvement by the parties in the generation, 
+transportation, treatment, storage, or disposal of the 
+hazardous waste.  Id.  To this end, the district court made 
+detailed findings about the historical operations of Asarco 
+and Atlantic Richfield, including the manners in which each 
+used and released arsenic at the Site.  It recognized, as do 
+both parties, that “the majority of the groundwater 
+contamination METG is remediating at the Site was caused 
+by Asarco’s operations.”  But the court noted that both 
+parties used vast quantities of arsenic-laden materials in their 
+everyday operations and generated substantial amounts of 
+arsenic-laden byproducts.  Although the court could not 
+quantify all of Atlantic Richfield’s past releases, given the 
+
+20 
+ASARCO V. ATLANTIC RICHFIELD 
+ 
+large gaps in the historical record, it noted that Atlantic 
+Richfield released so much toxic fly ash and coal dust that it 
+received complaints from the City of Helena.  The court 
+likewise made findings as to the relative toxicity of arsenic 
+in the various materials used by Asarco and Atlantic 
+Richfield, to the extent those toxicities could be ascertained. 
+The fifth Gore factor assesses the degree of care 
+exercised by the parties with respect to the hazardous waste 
+concerned.  Id.  The district court reviewed the precautions 
+taken by both Asarco and Atlantic Richfield to protect 
+against environmental contamination, as well as the failures 
+of certain preventive measures taken by each party—such as 
+leakages in the protective infrastructure and the careless 
+handling of contaminated wash-down water.  The court 
+further noted Asarco’s adoption of relatively intensive 
+preventive measures toward the later years of its operation, 
+including replacing Thornock Lake with a massive steel 
+holding tank, as well as broader remediation efforts 
+beginning in the 1990s. 
+The sixth Gore factor evaluates the degree of cooperation 
+by the parties with federal, state, or local officials to prevent 
+any harm to public health or the environment.  Id.  As to this 
+factor, the court explained that Atlantic Richfield had 
+repeatedly evaded responsibility for any environmental 
+contamination at the Site, flagrantly misled the EPA 
+regarding its releases at the Site, and made ongoing 
+misrepresentations throughout the course of the litigation.  
+Atlantic 
+Richfield 
+contends 
+the 
+district 
+court’s 
+misrepresentation findings are “irrelevant” to its appeal of 
+the twenty-five percent allocation because the court 
+separately awarded a $1 million uncertainty premium 
+pursuant to the sixth Gore factor.  However, it is not 
+inconsistent for the district court to award an uncertainty 
+
+ 
+ASARCO V. ATLANTIC RICHFIELD 
+21 
+ 
+premium based on the egregiousness of its findings as to the 
+sixth Gore factor, and also separately to consider Atlantic 
+Richfield’s non-cooperation when weighing the equities in 
+the context of reaching its baseline allocation. 
+In addition to its core factual findings, the district court 
+considered the expert testimony proffered by the parties in 
+arriving at its allocation.  Asarco’s expert proposed three 
+alternative liability allocation strategies, which apportioned 
+Atlantic Richfield’s responsibility at twenty-five percent to 
+forty-one percent depending on the method.  Atlantic 
+Richfield’s expert focused on challenging Atlantic 
+Richfield’s liability altogether and opined that Atlantic 
+Richfield should have zero responsibility for the Site 
+cleanup.  The court reviewed the testimony of the parties’ 
+dueling experts, discussing the merits and shortcomings of 
+each.  The court found the opinions of Asarco’s expert, Andy 
+Davis, “to be compelling and persuasive,” adding that he 
+“was the only witness at trial who was qualified by 
+education, training, experience, and the work he performed 
+in this case, to quantify the contribution of arsenic made by 
+Anaconda’s 45 years of operation at the Site.”  By contrast, 
+the court found that Atlantic Richfield’s expert, Brian 
+Hansen, focused too much on Asarco’s operations and tried 
+so hard to minimize Anaconda’s role that he failed to provide 
+a useful quantification of its contamination.  The court 
+further found that Hansen failed to account for several 
+material historical documents, and “le[ft] the majority of 
+expert Davis’s opinions largely unchallenged.” 
+The district court favored Davis’s most conservative 
+allocation, which ascribed twenty-five percent of the total 
+liability to Atlantic Richfield.  It rejected Asarco’s higher 
+proposed allocations, as well as Atlantic Richfield’s 
+
+22 
+ASARCO V. ATLANTIC RICHFIELD 
+ 
+proposed zero percent allocation.9  Davis’s conservative 
+allocation, i.e., “Strategy III,” assigned equal responsibility 
+to Asarco and Atlantic Richfield for discharges into the north 
+plume and the Thornock Pond and Lake area plume, adjusted 
+for the respective time periods the parties operated in each 
+region, and then adjusted for the square footage of the 
+contaminated groundwater in each area.  The court found 
+this strategy appealing, because it accounted for the parties’ 
+differential time periods of ownership—notably, a factor that 
+favored Atlantic Richfield due to its comparatively short-
+lived operations at the Site.  Particularly given the failure of 
+Atlantic Richfield’s expert to proffer a well-supported, 
+sensible alternative allocation, the district court reasonably 
+resorted to the most conservative of Asarco’s proposed 
+allocations.10 
+The district court acknowledged that all the allocation 
+strategies presented were imperfect and explained that it 
+would compensate for the mathematical uncertainties by 
+considering “such equitable factors as the court determines 
+are appropriate,” per the framework of CERCLA.  42 U.S.C. 
+ 
+9 The district court also rejected three alternative allocations 
+suggested by Atlantic Richfield in its proposed amended post-trial 
+findings of fact and conclusions of law.  Atlantic Richfield contests the 
+court’s cursory rejection of those alternatives.  However, Atlantic 
+Richfield devoted nearly all of its energy at trial—and all of its expert 
+testimony—to challenging any attribution of responsibility to Atlantic 
+Richfield, so it provided minimal support for these alternative 
+allocations.  Although the court’s rejection was terse, it was sufficient 
+under the circumstances—especially when coupled with the district 
+court’s explanation of the allocation it did choose. 
+10 Moreover, that allocation aligned with the overarching theme of 
+the court’s factual findings, i.e., that Asarco bore responsibility for the 
+vast majority of the Site’s contamination, but Atlantic Richfield was 
+more than a de minimis polluter. 
+
+ 
+ASARCO V. ATLANTIC RICHFIELD 
+23 
+ 
+§ 9613(f)(1).  Ultimately, the court used the Gore factors—
+as well as the general equitable principle that the 
+cooperating, settling party should receive the benefit of the 
+doubt—to support its decision to adopt an allocation that 
+erred on the side of over-compensation rather than under-
+compensation for the contamination emitted by Atlantic 
+Richfield.  Because these equitable factors weighed in 
+Asarco’s favor, and the court found Davis’s “Strategy III” to 
+be the most compelling of the proffered allocation strategies, 
+it decided to stand by a twenty-five percent allocation of 
+responsibility to Atlantic Richfield.  Because the district 
+court assessed the record evidence and underlying equities 
+with sufficient rigor and care, we affirm.11 
+Finally, Atlantic Richfield argues that the district court’s 
+decision provided an insufficient articulation of the 
+reasoning behind its allocation.  We conclude that the court 
+below made a sufficient record to inform our review.  The 
+court’s ninety-five page decision is expansive and detailed, 
+and it thoughtfully grapples with a challenging case.  A 
+decision need not be articulated with perfection to meet the 
+standards we have set forth in our case law.  See Traxler v. 
+Multnomah County, 596 F.3d 1007, 1016 (9th Cir. 2016) 
+(explaining that the district court must articulate its 
+reasoning in a manner sufficient to permit meaningful 
+appellate review, and remanding where the record “d[id] not 
+ 
+11 Atlantic Richfield further argues that a twenty-five percent 
+allocation exceeds its realistic share of the Site contamination.  But the 
+district court was not required to allocate response costs precisely along 
+the lines of the parties’ emissions.  Because consideration of “equitable 
+factors” is permissible, it is immaterial if the court did not apportion 
+response costs perfectly in line with emissions—especially where no 
+party has been able to quantify those emissions with precision. 
+
+24 
+ASARCO V. ATLANTIC RICHFIELD 
+ 
+permit [the court] to infer a rationale”).  For these reasons, 
+we affirm the district court’s allocation decision. 
+Each party shall bear its own costs. 
+AFFIRMED IN PART, VACATED IN PART, AND 
+REMANDED. 

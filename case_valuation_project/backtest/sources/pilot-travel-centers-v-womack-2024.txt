@@ -1,0 +1,850 @@
+IN THE COURT OF APPEALS OF THE STATE OF MISSISSIPPI
+NO. 2023-CA-00035-COA
+PILOT TRAVEL CENTERS, LLC AND GINA
+FRANKLIN, INDIVIDUALLY
+APPELLANTS
+v.
+WILLA WOMACK
+APPELLEE
+DATE OF JUDGMENT:
+05/26/2022
+TRIAL JUDGE:
+HON. WINSTON L. KIDD
+COURT FROM WHICH APPEALED:
+HINDS COUNTY CIRCUIT COURT,
+FIRST JUDICIAL DISTRICT
+ATTORNEYS FOR APPELLANTS:
+GREGORY TODD BUTLER 
+D. STERLING KIDD 
+MALLORY KAYE BLAND 
+JOHN PATRICK McMACKIN
+ATTORNEYS FOR APPELLEE:
+JAMES ASHLEY OGDEN 
+JAMES W. SMITH JR.
+NATURE OF THE CASE:
+CIVIL - PERSONAL INJURY
+DISPOSITION:
+AFFIRMED - 12/17/2024
+MOTION FOR REHEARING FILED:
+EN BANC.
+SMITH, J., FOR THE COURT:
+¶1. 
+Willa Womack sustained multiple injuries when she slipped and fell on a collapsed
+wet-floor sign lying flat on its side as she entered a Pilot Travel Center (Pilot) in Hinds
+County, Mississippi.  Womack filed a premises-liability lawsuit against Pilot Travel Centers
+LLC and Gina Franklin, individually, as the general manager of the Pilot where the incident
+occurred.  Following a trial in the Hinds County Circuit Court, a jury found that the
+Appellants’ negligence in maintaining the premises in a reasonably safe condition had solely
+
+and proximately caused Womack’s fall and subsequent injuries.  The jury awarded Womack
+$393,000 in economic damages and $3,000,000 in non-economic damages.  In accordance
+with the monetary limit set forth in Mississippi Code Annotated section 11-1-60(2)(b) (Rev.
+2019), the circuit court reduced Womack’s award of non-economic damages to $1,000,000,
+resulting in a total monetary award to Womack of $1,393,000.
+¶2. 
+On appeal, the Appellants assert the following: (1) the collapsed wet-floor sign failed
+to constitute an unreasonably dangerous condition; (2) Womack failed to prove that the
+Appellants had notice of the collapsed wet-floor sign; (3) the circuit court erred by denying
+the Appellants’ motion for a new trial; and (4) Womack’s monetary award for non-economic
+damages was excessive and should be further remitted.  Upon review, we find no reversible
+error.  We therefore affirm the circuit court’s amended final judgment.
+FACTS
+¶3. 
+Womack suffered injuries to her neck, back, and knee when she slipped and fell on
+a collapsed wet-floor sign as she entered Pilot around 11 a.m. on January 6, 2020.  According
+to the testimony of a former Pilot employee who was working at the time of Womack’s fall,
+employees usually mopped the convenience store’s floors each morning between 5:30 a.m.
+and 6 a.m.  To alert customers that the floor might be wet, employees would set out wet-floor
+signs.  On the morning of Womack’s fall, a wet-floor sign stood inside the store’s vestibule,
+which was a small enclosed area that separated the parking lot from the store’s interior.  The
+vestibule had a set of two glass doors on each side.  One set of glass doors led to the store’s
+parking lot and gas pumps, and the opposite set of glass doors led into the main area of the
+
+store.
+¶4. 
+At 10:50 a.m. on January 6, 2020, the wet-floor sign was still in place.  At that time,
+Pilot’s security cameras recorded a customer knocking over the sign as he exited the doors
+leading from the main part of the store and proceeded through the vestibule on his way to the
+parking lot.  Over the next ten minutes, the collapsed wet-floor sign remained on the
+vestibule floor as customers continued to enter and exit Pilot.  At several different points
+during the ten-minute interval, Pilot’s security cameras captured various customers stepping
+on, slipping on, or skirting around the collapsed sign.  The security cameras also captured
+Franklin, Pilot’s general manager, walking directly in front of, nearby, or facing the doors
+leading into the vestibule as she set up a hot dog station a few feet away.
+¶5. 
+Around 11 a.m., Womack entered Pilot from the parking lot.  As Womack walked
+diagonally across the vestibule to enter the main part of the store, she slipped on the
+collapsed wet-floor sign, hit her head on the glass doors leading into the store, and then
+struck her knees on the vestibule floor.  Ultimately, Womack required an ambulance to
+transport her to the hospital for treatment.
+¶6. 
+In August 2020, Womack filed a premises-liability lawsuit against the Appellants. 
+Following a trial, the jury found that the Appellants’ negligence was the sole and proximate
+cause of Womack’s fall and subsequent injuries and awarded damages as previously
+described.  After a reduction by the circuit court to comply with statutory guidelines,
+Womack’s monetary award totaled $1,393,000.  Following the circuit court’s entry of its
+amended final judgment, the Appellants unsuccessfully moved for judgment notwithstanding
+
+the verdict (JNOV) or, alternatively, a new trial.  Aggrieved, the Appellants appeal.
+DISCUSSION
+I.
+Dangerous Condition
+¶7. 
+The parties do not dispute that Womack was an invitee on Pilot’s premises.  Although
+we recognize that a business owner “is not an insurer against all injuries” on his premises,
+“the ‘owner still owes a duty to an invitee to exercise reasonable or ordinary care to keep the
+premises in a reasonably safe condition or warn of dangerous conditions not readily apparent,
+which [the] owner . . . knows of, or should know of, in the exercise of reasonable care.’” 
+Rhodes v. RL Stratton Props. LLC, 376 So. 3d 385, 389 (¶11) (Miss. Ct. App. 2023) (quoting
+Vu v. Clayton, 765 So. 2d 1253, 1255 (¶7) (Miss. 2000)).  “[M]ere proof that the invitee fell
+and was injured while on the premises is insufficient to establish liability.”  Carroll v.
+Singing River LLC, 309 So. 3d 567, 570 (¶6) (Miss. Ct. App. 2020) (quoting Patterson v. Mi
+Toro Mexican Inc., 270 So. 3d 19, 21 (¶7) (Miss. Ct. App. 2018)).  Rather, “in every
+premises-liability case, the plaintiff must show that a dangerous condition exists.”  Keckley
+v. Estes Equip. Co., 276 So. 3d 1230, 1236 (¶18) (Miss. Ct. App. 2018) (quoting McCullar
+v. Boyd Tunica Inc., 50 So. 3d 1009, 1012 (¶13) (Miss. Ct. App. 2010)).  “Proof that a
+dangerous condition actually caused the invitee’s injury ‘is an essential element of the claim’
+because ‘a property owner cannot be found liable for the plaintiff’s injury where no
+dangerous condition exists.’”  Carroll, 309 So. 3d at 570 (¶7) (quoting Patterson, 270 So.
+3d at 21 (¶7)).  “Whether a dangerous condition exists may be a question of fact for the jury.” 
+Keckley, 276 So. 3d at 1236 (¶18).
+
+¶8. 
+Here, the Appellants contend that a collapsed wet-floor sign fails to constitute an
+unreasonably dangerous condition sufficient to impose liability on them for Womack’s fall. 
+They instead argue that the collapsed wet-floor sign was “a safety feature, not an
+unreasonably dangerous condition” and that “it would turn premises-liability law on its head
+to find negligence based on items used to prevent injuries.”  According to the Appellants, the
+collapsed wet-floor sign inside Pilot’s vestibule amounted to one of the “usual dangers that
+customers normally expect to encounter on a business’s premises,” and therefore, the
+collapsed sign “fail[ed] to constitute [a] reasonably dangerous condition[.]”  Martin v.
+Trustmark Corp., 292 So. 3d 245, 248 (¶12) (Miss. Ct. App. 2019).
+¶9. 
+For support, the Appellants reference an unreported case from Michigan in which a
+woman “tripped over a collapsed wet[-]floor sign” that “was lying partially underneath a
+table and partially in the travel aisle of defendants’ Taco Bell.”  Salisbury v. Sundance Inc.,
+No. 271328, 2006 WL 3826753, at *1 (Mich. Ct. App. Dec. 28, 2006).  The trial court in
+Salisbury granted summary judgment to the defendants after finding “the collapsed
+wet[-]floor sign was an open and obvious danger, and . . . no special aspects existed.”  Id. 
+On appeal, the Michigan Court of Appeals explained that “the collapsed wet[-]floor sign was
+an open and obvious danger if it was reasonable to expect that an average person of ordinary
+intelligence would have discovered it upon casual inspection.”  Id. at *2.  The appellate court
+noted the plaintiff’s acknowledgment that the collapsed wet-floor sign was visible and that
+her companion had avoided tripping over it.  Id. at *3.  The Salisbury court concluded that
+“the sign was visible to anyone who looked in its general direction, the sign was
+
+avoidable[,]” and the plaintiff had failed to demonstrate otherwise.  Id.  As a result, the
+appellate court held that the open-and-obvious doctrine barred the plaintiff’s premises-
+liability claim.  Id.
+¶10. 
+While Salisbury considered a fall caused by a collapsed wet-floor sign, the parties
+here do not dispute that in Mississippi, the open-and-obvious doctrine no longer serves as
+either an absolute defense to or a complete bar to recovery in premises-liability claims.  See
+Vivians v. Baptist Healthplex, 234 So. 3d 304, 308 (¶¶17-18) (Miss. 2017).  Upon review of
+current Mississippi caselaw involving premises-liability claims, we find our analysis in
+Keckley to be particularly relevant to the circumstances of the present case.
+¶11. 
+In Keckley, we addressed a very similar argument to the one the Appellants proffer
+here.  The discussion in Keckley centered on yellow caution tape, another safety item
+intended to prevent injuries, and the defendants’ contention that the caution tape constituted
+the type of “normally encountered dangers” a customer must expect to find on a business’s
+premises.  Keckley, 276 So. 3d at 1236-37 (¶19).  Keckley, the injured customer, tripped over
+a piece of yellow caution tape that lay across a sidewalk outside a convenience store.  Id. at
+1233 (¶1).  Keckley stated that although the caution tape was lying flat on the ground as she
+approached, the wind suddenly blew the tape off the ground as she attempted to step over the
+tape.  Id.  Keckley asserted that the caution tape essentially acted as a tripwire, and she only
+realized after her fall “that the tape was tied to a pole on one side of the sidewalk and a brick
+pillar on the other.”  Id.  In granting summary judgment to the defendants, the circuit court
+found “that the open and obvious yellow caution tape at issue [wa]s not an unreasonably
+
+dangerous condition as a matter of law.  Id. at 1235 (¶13).
+¶12. 
+On appeal, this Court explained that we would have agreed with the defendants’
+argument that yellow caution tape constitutes the type of danger normally encountered on a
+business’s premises if Keckley had alleged that “ordinary caution tape . . . strung three or
+four feet off the ground for the purpose of limiting customers’ access to an area of the
+premises” had caused her injuries.  Id. at 1237 (¶21).  Keckley, however, testified that the
+caution tape “looked as though it was loose and had been discarded,” and “the sudden wind
+gust caused it to function as a tripwire.”  Id. (internal quotation marks omitted).  We noted
+that in Keckley that “the tripwire-like effect of the caution tape was hidden and surprising”
+and that customers do not normally “expect to encounter tripwires on a business[’s]
+premises.”  Id. at 1237-38 (¶¶22-23) (citation and internal quotation mark omitted).  We
+therefore held that the change in nature of “the alleged defective condition[,]” which
+occurred “suddenly and without warning[, was] sufficient for a reasonable jury to conclude
+that [the yellow caution tape] create[d] an unreasonable or unusually dangerous condition.” 
+Id. at 1238 (¶23) (quoting Cox v. Wal-Mart Stores East L.P., 755 F.3d 231, 235 (5th Cir.
+2014)).  Finding that genuine issues of material fact remained in dispute, we reversed the
+circuit court’s grant of summary judgment to the defendants and remanded the matter for
+further proceedings.  Id. at 1241 (¶37).
+¶13. 
+As with the caution tape at issue in Keckley, we agree here that the presence of a wet-
+floor sign in Pilot’s vestibule, without more, fails to present an inherently dangerous
+condition and poses the type of danger a customer could reasonably expect to encounter on
+
+a business’s premises.  We note, however, that as in Keckley, Womack did not allege that a
+safety feature in its expected and intended state of being caused her injuries.  Rather,
+Womack testified, and the video footage confirmed, that Womack slipped and fell on a
+collapsed sign in the middle of Pilot’s relatively small but highly trafficked vestibule.  The
+ten minutes of video footage admitted at trial showed that one customer knocked over the
+wet-floor sign, a second customer slipped on the collapsed sign and slid it to the middle of
+the vestibule, a third customer stepped on the collapsed sign, and a fourth customer narrowly
+avoided the collapsed sign before Womack entered the convenience store and actually tripped
+over the collapsed sign.
+¶14. 
+When reviewing a jury’s verdict in a civil case, this Court “will disturb [the] verdict
+only when convinced that . . . the final result will result in an unconscionable injustice.” 
+Hegman v. Adcock, 377 So. 3d 1020, 1030 (¶38) (Miss. Ct. App. 2024) (quoting Erves v.
+Hosemann, 335 So. 3d 603, 612 (¶18) (Miss. Ct. App. 2022)).  “In determining whether a
+verdict is against the overwhelming weight of the evidence, we must accept as true the
+evidence presented as supportive of the verdict.”  Id.  “Once a verdict has been returned in
+a civil case, we are not at liberty to direct that a judgment be entered contrary to that verdict
+short of a conclusion on our part that, given the evidence as a whole, taken in the light most
+favorable to the verdict, no reasonable, hypothetical finder of fact could have made the same
+finding.”  Id. (citation and internal quotation mark omitted).  As with the surprising “tripwire-
+like effect” of the caution tape in Keckley, which we held a reasonable jury could find to be
+a dangerous condition, the jury here could and did find that the unexpected position of the
+
+wet-floor sign in Pilot’s vestibule also “create[d] an unreasonable or unusually dangerous
+condition” under the circumstances presented.  Keckley, 276 So. 3d at 1238 (¶23).  And
+based on our review of the record and relevant caselaw, we cannot find a sufficient basis
+upon which to reverse the jury’s verdict with respect to this issue.
+II.
+Knowledge of the Condition
+¶15. 
+The Appellants next argue that even if Womack demonstrated the existence of a
+dangerous condition, another customer’s act of knocking over the wet-floor sign could not
+impute knowledge of the condition to them.  The Appellants also argue that the trial evidence
+failed to establish that they had either actual or constructive knowledge of the collapsed sign.
+¶16. 
+Included within a business owner’s duties “to keep the premises reasonably safe” and
+“warn of dangerous conditions not readily apparent” is the “duty to conduct reasonable
+inspections to discover dangerous conditions existing on the premises.”  Rhodes, 376 So. 3d
+at 389 (¶¶11-12) (citations omitted).  “[O]ur [Mississippi] Supreme Court has held that a
+premises owner’s liability for failure to conduct reasonable inspections is limited[,]”
+however, in that “[t]here is no liability for harm resulting from risks the occupier did not
+know and could not have discovered with reasonable care.”  Id. at (¶12) (internal quotation
+marks omitted).
+¶17. 
+In addition, where a business owner’s own negligence does not create the dangerous
+condition, “the plaintiff must prove that the [business owner] had actual or constructive
+knowledge of the condition.”  Id. at (¶13) (quoting Gillespie v. Lamey, 338 So. 3d 653, 657
+(¶13) (Miss. Ct. App. 2022)).  If “a dangerous condition on the premises is caused by a third
+
+person unconnected with the store operation, the burden is upon the plaintiff to show that the
+operator had actual or constructive knowledge of its presence.”  Carroll, 309 So. 3d at 570
+(¶6) (quoting Patterson, 270 So. 3d at 21 (¶7)).  “Constructive knowledge is established by
+proof that the condition existed for such a length of time that, in the exercise of reasonable
+care, the proprietor should have known of [the condition].”  Lasseter v. AWH-BP Jackson
+Hotel LLC, 380 So. 3d 232, 238 (¶22) (Miss. 2024) (quoting Waller v. Dixieland Food Stores
+Inc., 492 So. 2d 283, 285 (Miss. 1986)).
+¶18. 
+Here, the Appellants assert that Womack cannot “attribute the tripping hazard to Pilot”
+because it was “undisputed that a departing patron, not a Pilot employee, knocked over the
+sign.”  Moreover, the Appellants contend that ten minutes provided an insufficient length of
+time for Pilot to have known about the collapsed sign.  In support of their arguments, the
+Appellants cite a Georgia case involving a customer’s slip and fall in a bakery.  Warberg v.
+Saint Louis Bread Co., 565 S.E.2d 561, 562 (Ga. Ct. App. 2002).  As the customer, Warberg,
+walked to the bakery counter to place her order, she stepped on a collapsed wet-floor sign,
+slipped, and fell backward.  Id.  At the time of Warberg’s fall, there was a bakery employee
+(the cashier) standing behind the counter who operated the cash register and took customers’
+orders.  Id.  The cashier stated that she did not see Warberg fall.  Id.
+¶19. 
+In addition, the cashier stated that prior to Warberg’s fall, she had not seen the wet-
+floor sign either standing upright or lying flat on the ground in the area where the incident
+occurred.  Id.  The cashier testified that she only looked up when another customer
+mentioned the fall.  Id.  At that point, the cashier saw Warberg on the floor with the collapsed
+
+wet-floor sign on the ground beside her.  Id.  The cashier informed the bakery’s general
+manager of the accident.  Id.  According to the general manager, he had “checked the area
+around the bakery for debris on the floor and general cleanliness” a few minutes before
+learning of Warberg’s fall.  Id.  At the time of his inspection, the general manager noticed
+a wet-floor sign standing upright by a wall, but he did not see any debris on the floor.  Id.
+¶20. 
+On appeal from the trial court’s grant of summary judgment to the bakery, Warberg
+alleged that the proximity of the cashier and the general manager to the fallen sign provided
+the bakery with constructive knowledge of the hazard.  Id. at 563.  Warberg asserted that the
+cashier “was in the immediate vicinity of the collapsed sign and could have seen it.”  Id.  As
+the Georgia Court of Appeals noted, though, the cashier’s testimony reflected that she saw
+the collapsed sign next to Warberg only after the fall, and no evidence “raise[d] a question
+of fact as to whether [the cashier] could have easily seen this hazard” during the short time
+that the sign lay collapsed “and taken action to correct it before Mrs. Warberg slipped.”  Id.
+at 564.  As to the general manager, the appellate court pointed out that although he stated that
+he had seen an upright wet-floor sign prior to the incident, it was “[t]he collapsed” sign that
+had caused the fall, and Warberg had failed to present any evidence the general manager was
+either “in the immediate vicinity of or could have easily seen the flattened sign on which
+Mrs. Warberg fell.”  Id. at 563.  The appellate court also explained that Warberg had “not
+raised a question of fact regarding the reasonableness of the [bakery’s] inspection
+procedures[,]” and in previous cases “where a proprietor ha[d] shown that an inspection
+occurred within a brief period prior to an invitee’s fall,” the court had “held that the
+
+inspection procedure was adequate as a matter of law.”  Id. at 564 (footnotes omitted).
+¶21. 
+Upon review, we are not persuaded and find Warberg is distinguishable from the
+present case.  As the Georgia court specifically noted in Warberg, the bakery’s general
+manager stated that just prior to learning of Warberg’s fall, he had inspected the bakery floor
+for debris.  Id. at 562.  Although the general manager in Warberg observed an upright wet-
+floor sign, he indicated that he had not seen either a collapsed wet-floor sign or other
+potential hazards to customers during his inspection.  Id.  Here, however, the record reflects
+no similar testimony from Pilot’s employees that they performed a reasonable inspection in
+the period of time leading up to Womack’s fall “to discover dangerous conditions existing
+on the premises.”  Rhodes, 376 So. 3d at 389 (¶12).  Pilot’s general manager, Franklin,
+testified that she performed a safety walk of the premises when she first arrived at the store
+around 8 a.m.  Franklin provided no further testimony, though, that she performed additional
+safety inspections of the premises between the time she entered Pilot around 8 a.m. and when
+Womack entered the store almost three hours later around 11 a.m.
+¶22. 
+Also in contrast to Warberg, Womack provided sufficient evidence for a jury to find
+that if an inspection of Pilot’s premises had occurred, the employees reasonably could have
+discovered the collapsed wet-floor sign before she tripped over it.  Unlike the more open area
+generally encountered in front of a business’s counter and cash register area, Pilot’s vestibule
+presented a small enclosed space that comprised the main point of entry into and out of the
+store’s interior.  The vestibule received a high volume of foot traffic as various customers
+continuously—and sometimes simultaneously—entered and exited the store.  The video
+
+footage from Pilot’s cameras showed that although the doors on both sides of the vestibule
+were made of clear glass, the doors leading from the vestibule to the parking lot had large
+stickers across them that obstructed an approaching customer’s view into the vestibule.  In
+addition, Womack testified that at the time of her fall, sunlight shone on the vestibule doors
+facing the parking lot, which further decreased her ability to see inside the vestibule before
+she entered.
+¶23. 
+By contrast, the glass doors on the interior-store side of the vestibule were free of any
+stickers or signs and allowed a person standing nearby to look into the vestibule with an
+unobstructed view.  In fact, Franklin acknowledged during her testimony that her view into
+the vestibule was unobstructed and that she was close enough to the vestibule to be able to
+see the wet-floor sign.  Indeed, the video footage showed that at multiple points during the
+ten-minute interval between the collapse of the wet-floor sign and Womack’s accident,
+Franklin was in the vicinity of the doors leading to the vestibule.  The video footage reflected
+that Franklin walked directly back and forth in front of the glass doors, walked a few feet
+away from the doors, and stood facing directly toward the glass doors as she set up the hot
+dog station just inside the store.
+¶24. 
+Thus, unlike in Warberg, Womack presented evidence from which the jury reasonably
+could conclude that Pilot’s employees not only had the opportunity to observe the collapsed
+sign inside the vestibule but also to take action to correct the hazard before Womack’s fall. 
+And because the record contains evidence from which the jury reasonably could have
+imputed constructive knowledge of the collapsed wet-floor sign to Pilot, we find no basis for
+
+reversing the jury’s verdict as to this issue.
+III.
+Motion for a New Trial
+¶25. 
+The Appellants also assert that the circuit court erred by denying their post-trial
+motion for a new trial.  In reviewing this issue,
+we afford the trial court substantial deference to its determination on the
+weight of the evidence issue and whether to grant a new trial.  We will only
+reverse when such denial amounts to an abuse of that judge’s discretion. 
+Additionally, we give great deference to the jury verdict itself.  A new trial
+may be granted where the verdict is against the overwhelming weight of the
+evidence or when the jury has departed from its oath and its verdict is a result
+of bias, passion, and prejudice.  Our role as appellate court is to view the
+evidence in the light most favorable to the verdict and disturb the verdict only
+when it is so contrary to the overwhelming weight of the evidence that to allow
+it to stand would sanction an unconscionable injustice.  Reversal is only proper
+when this Court is convinced that the trial court has abused its discretion in
+failing to grant a new trial.  Thus, the scope of review on this issue is limited
+in that all evidence must be construed in the light most favorable to the verdict.
+Kirk v. Newton, 380 So. 3d 252, 266 (¶35) (Miss. Ct. App. 2023) (citations and internal
+quotation marks omitted).  Here, the Appellants contend that Womack’s safety expert, Ken
+Goodrum, and her expert in orthopedic surgery, Dr. Chad Hosemann, provided opinions that
+were “unqualified, unreliable, and ever-changing . . . .”  In addition, the Appellants allege
+that the closing argument Womack’s trial attorney made was intended to inflame the jury.
+A.
+Goodrum’s Expert Testimony
+¶26. 
+The Appellants challenge Goodrum’s statements regarding what Womack would have
+been able to see as she entered Pilot’s vestibule and what Pilot’s employees should have
+observed as they walked through the store’s interior.  The Appellants assert that such
+opinions constituted human-factors testimony but that Goodrum neither had training or
+
+expertise in that field nor was accepted as a human-factors expert.  As a result, the Appellants
+argue that Goodrum was unqualified to offer such opinions.  Moreover, the Appellants allege
+that Goodrum’s opinions were based on his everyday experience and his review of Pilot’s
+video footage rather than any specialized knowledge or accepted methodology.  As a result,
+they also challenge his human-factors testimony as unreliable.  With regard to any allegedly
+improper human-factors testimony that Goodrum may have offered, however, we note that
+the Appellants raised no contemporaneous objections at trial to such statements. 
+“Well-established precedent holds ‘that when a party fails to make a contemporaneous
+objection at trial, he waives any error on that issue on appeal.’”  Scott v. Boudreau, 375 So.
+3d 688, 697 (¶47) (Miss. Ct. App. 2023) (quoting McCullough v. McCullough, 52 So. 3d
+373, 379 (¶25) (Miss. Ct. App. 2009)).  Thus, with regard to the complained-of human-
+factors testimony, we find the Appellants failed to preserve this issue for appeal.
+¶27. 
+The Appellants also argue that the circuit court erroneously accepted Goodrum as an
+expert in premises safety.  Goodrum’s career in the military, law enforcement, and private
+security dealt primarily with security issues.  Thus, while the Appellants acknowledge that
+Goodrum’s professional experience may have qualified him to testify as an expert in security
+measures, they contend that his expertise failed to extend to such general safety issues as the
+negligent placement of safety signs.  As a result, the Appellants assert that Goodrum was
+unqualified to testify as a premises-safety expert.  In addition, the Appellants allege that
+many of Goodrum’s trial opinions were based not on specialized knowledge but on purported
+violations of Pilot’s own policies and procedures.  The Appellants therefore argue that
+
+Goodrum’s testimony as a premises-safety expert was not only unqualified but also unreliable
+and irrelevant.
+¶28. 
+When considering the admissibility of expert testimony, Mississippi Rule of Evidence
+702 provides that
+expert testimony should be admitted only when the trial court can affirmatively
+answer a two-fold inquiry.  The first prong mandates that a witness must be
+qualified by virtue of his or her knowledge, skill, experience, or education. 
+Second, the witness’s scientific, technical, or other specialized knowledge
+must assist the trier of fact to understand or decide a fact in issue.  Put simply,
+the expert’s proposed testimony must be both relevant to the case at hand and
+based on reliable methodology.
+Univ. of Miss. Med. Ctr. v. Kelly, 358 So. 3d 1054, 1057 (¶10) (Miss. 2023) (citation and
+internal quotation marks omitted).  The appellate courts review a trial court’s decision to
+admit or exclude expert testimony for abuse of discretion.  Id. at (¶9).  In so doing, we may
+only reverse a case based on the admission or exclusion of evidence if the decision “results
+in prejudice and harm or adversely affects a substantial right of a party.”  Chaupette v. State,
+136 So. 3d 1041, 1045 (¶7) (Miss. 2014) (footnote omitted).
+¶29. 
+Upon review, we agree that although Goodrum’s “knowledge, skill, experience,
+training, [and] education” may have qualified him to testify as an expert in security matters,
+nothing that he provided qualified him to testify as an expert in premises safety.  MRE 702. 
+We further agree with the Appellants’ argument that Goodrum’s expert testimony was based
+not on any “specialized knowledge” or accepted and “reliable principles and methods . . . .” 
+Id.  Instead, as the Appellants point out, Goodrum’s testimony about Pilot’s violations of
+safety measures was based on his review of Pilot’s internal policies and procedures and the
+
+testimony of Pilot’s employees.  We therefore conclude that the circuit court abused its
+discretion in allowing Goodrum to testify as an expert in premises safety.
+¶30. 
+We further conclude, though, that any error in admitting Goodrum’s expert testimony
+as to premises safety was harmless.  As discussed, Mississippi appellate courts “may reverse
+a case only if[] the admission or exclusion of evidence results in prejudice and harm or
+adversely affects a substantial right of a party.”  Chaupette, 136 So. 3d at 1045 (¶7) (citation
+and footnote omitted).  Goodrum’s testimony failed to prejudice the Appellants because the
+evidence Goodrum relied on had already been admitted into evidence during the testimony
+of other witnesses, and the opinions he gave were substantially similar to the testimony of
+those prior witnesses.  Thus, we find that any error in allowing Goodrum to also testify to
+those matters failed to harm or prejudice the Appellants.  See Tuggle v. State, 380 So. 3d 991,
+997 (¶13) (Miss. Ct. App. 2024) (finding that even if error had occurred by allowing a
+witness to testify as an expert, any wrongfully admitted testimony would result in “harmless
+error because of the bulk of evidence corroborating” the expert’s testimony).  As a result, we
+find no basis for reversing the jury’s verdict.
+B.
+Dr. Hosemann’s Expert Testimony
+¶31. 
+The Appellants contend that the circuit court also erred by admitting the expert
+testimony of Dr. Hosemann, the orthopedic surgeon who performed Womack’s independent
+medical examination (IME).  Although the Appellants raised no challenge to Dr. Hosemann’s
+qualifications to testify as an expert, they asserted that Dr. Hosemann’s testimony was
+unreliable and that he provided a new opinion shortly before trial.
+
+¶32. 
+Dr. Hosemann noted in his IME findings that Womack had reported experiencing
+“very minimal achy pain in her knees” prior to her fall inside Pilot’s vestibule.  As of the date
+of the IME, Dr. Hosemann found that Womack had meniscal tears in her right knee and
+“end-stage osteoarthritis” in both knees.  Dr. Hosemann opined that the “fall may have
+resulted in the meniscal tears” and had “dramatically aggravated” Womack’s preexisting
+knee conditions, which included her osteoarthritis and pain.  Most importantly, Dr.
+Hosemann found that Womack’s fall had “significantly altered the natural course of her 
+osteoarthritis” and had led “to the need for knee replacement much sooner than had she not
+fallen.”  Dr. Hosemann concluded that Womack would be unable to “gain any lasting relief
+without undergoing bilateral total knee replacement.”
+¶33. 
+Dr. Hosemann’s subsequent deposition testimony further reflected the opinions
+provided in his IME report.  According to the deposition excerpts contained in the record,
+when asked what led him to opine that Womack’s fall may have caused the meniscal tears
+in her right knee, Dr. Hosemann responded as follows: “Because meniscal tears can often
+times be caused from falls, and apparently, she had a fairly significant fall that resulted in her
+having to go to the hospital that day.  So certainly a twisting knee type injury can result in a
+meniscus tear.”  Because only an MRI of Womack’s right knee had been taken after her fall,
+Dr. Hosemann could not state whether Womack also had any meniscal tears in her left knee.
+¶34. 
+Regardless of when Womack’s meniscal tears occurred, Dr. Hosemann opined that
+Womack needed knee surgery because of the fall and its aggravation of her preexisting knee
+conditions.  At the time of Dr. Hosemann’s deposition, Womack had undergone surgery on
+
+her right knee but still awaited surgery on her left knee.  During his deposition, Dr.
+Hosemann was asked whether he could “tie the need for a left knee total knee procedure to”
+Womack’s fall.  He answered, “Yes . . . .”  He then explained that Womack “fell on both her
+knees, and they’re arthritic.  And she had to go to the ER, and she went to the doctor several
+times.  It sounds to me like [the fall] really made her symptoms dramatically worse.”  In
+response to additional questions from Womack’s attorney, Dr. Hosemann reiterated that
+Womack had preexisting osteoarthritis in both her knees that the fall aggravated, and based
+on the information Womack had provided to him, the fall was the reason she required knee
+surgery.
+¶35. 
+Prior to trial, the Appellants moved for partial summary judgment as to Womack’s
+knee injuries.  They argued that Dr. Hosemann’s testimony had failed to establish that
+Womack’s fall caused the meniscal tears in her right knee.  As a result, the Appellants
+asserted that Womack had failed to sufficiently prove that her fall caused injuries that
+required her to undergo knee-replacement surgery.
+¶36. 
+In responding to the Appellants’ motion, Womack provided an affidavit from Dr.
+Hosemann that stated the following:
+My opinions were and still are [that] Willa Womack had a fall on
+January 6, 2020[,] at the Pilot store where she landed on her knees.  It was my
+opinion that the fall caused trauma to her knees and aggravated her preexisting
+condition of osteoarthritis.
+As I previously stated in my report and deposition, it was and still is my
+opinion that the fall and injury to her knees was the cause of her knee pain and
+the cause for her needing a right knee and left knee bilateral total knee
+replacement.
+
+My opinion was that she also had medial and lateral meniscal tears in
+her knees.  I do not understand the legal terms attorneys use so I stated the fall
+“may have” caused the meniscal tears that then led to a surgery.  So that the
+record is clear on legal terminology[,] it is my opinion that Willa Womack’s
+fall on January 6, 2020[,] caused the meniscal tears.  Because Willa Womack
+reported she fell[,] I can say within a reasonable degree of medical probability
+that the fall caused the meniscal tears.
+¶37. 
+The Appellants then filed a reply to Womack’s response and argued that Dr.
+Hosemann’s affidavit attempted to change his testimony to include a new opinion about the
+meniscal tears.  The Appellants asserted that the circuit court should exclude any change to
+Dr. Hosemann’s opinions because the change lacked a reliable basis and had been untimely
+provided.
+¶38. 
+At a hearing on several pre-trial motions, the Appellants’ attorneys argued the issues
+with Dr. Hosemann’s opinions that they had raised in their reply to Womack’s response to
+their motion for partial summary judgment.  The Appellants again asserted that Dr.
+Hosemann’s affidavit had provided a new opinion as to Womack’s meniscal tears that was
+unreliable and untimely.  In its subsequent order, the circuit court found that genuine issues
+of material fact existed as to Womack’s alleged knee injuries.  As a result, the circuit court
+denied the Appellants’ motion for partial summary judgment as to that issue.
+¶39. 
+At trial, just before Dr. Hosemann testified, the Appellants stated that they wished to
+“renew [their] objection to his testimony based on the Daubert motion previously filed.” 
+When both the circuit judge and Womack’s attorneys requested clarification as to which
+motion the Appellants were referring, the Appellants’ attorney referenced the motion for
+partial summary judgment as to Womack’s knee injuries, in which the Appellants had argued
+
+that Womack’s evidence failed to prove the fall caused a need for her knee surgeries.  In
+making his argument, however, the Appellants’ attorney stated that he did not “believe Dr.
+Hosemann’s opinions were based on reliable methodology or otherwise helpful to the jury.” 
+The circuit judge again denied the motion.  Before the circuit judge accepted Dr. Hosemann
+as an expert in orthopedic surgery, the Appellants provided that they would “rest on the
+arguments already stated.”  The circuit judge then admitted Dr. Hosemann as an expert
+witness.
+¶40. 
+At trial, Dr. Hosemann gave testimony consistent with the findings contained in his
+IME report, which he had completed prior to the filing of the motion for partial summary
+judgment and the complained-of affidavit.  In addition, his trial testimony was consistent
+with the excerpts included in the appellate record from his deposition.  Dr. Hosemann stated
+at trial that prior to her fall, Womack had moderate arthritis in her knees.  Dr. Hosemann also
+stated that although Womack had meniscal tears in her right knee after her fall, he could not
+tell if the tears predated her fall.  Dr. Hosemann did testify, however, that meniscal tears were
+very common and that people continued to function with them all the time.  Thus, even if
+Womack had meniscal tears before her fall, Dr. Hosemann explained that their presence
+would not necessarily require her to imminently need knee surgery.  Rather, in his expert
+opinion, Dr. Hosemann testified that Womack’s need for knee surgery resulted from the
+trauma caused by her fall at Pilot on January 6, 2020.
+¶41. 
+Following trial, the Appellants filed a motion for a new trial that included a heading
+asserting they were “entitled to a new trial because Dr. Hosemann’s opinions were
+
+inadmissible.”  The Appellants then stated that “Dr. Hosemann’s testimony justifies a new
+trial for the same reasons that it justifies a JNOV.”  They further stated that they incorporated
+the arguments raised in their motion for JNOV.  In the motion for JNOV, the Appellants
+reasserted their pretrial argument that Womack’s evidence, particularly Dr. Hosemann’s
+testimony, had failed to prove “to a reasonable degree of medical certainty that the accident
+caused her to need knee surgery.”  The Appellants did not, however, reassert their pretrial
+claims that Dr. Hosemann’s affidavit opinion regarding Womack’s meniscal tears was either
+unreliable or untimely provided.  On appeal, the Appellants now contend that Dr.
+Hosemann’s testimony was unreliable under Rule 702 and changed shortly before trial.  They
+therefore allege that the circuit court erred by denying their motion to exclude Dr.
+Hosemann’s trial testimony and compounded the error by denying their motion for a new
+trial.
+¶42. 
+Despite the Appellants’ contentions on appeal, the record reflects that they raised a
+different argument as to Dr. Hosemann’s testimony in their motion for a new trial.  Our
+caselaw is clear that the failure to raise an issue in a motion for a new trial procedurally bars
+the claim on appeal.  Bradford v. State, 391 So. 3d 1254, 1268 (¶35) (Miss. Ct. App. 2024). 
+Procedural bar notwithstanding, we find that any error related to Dr. Hosemann’s expert
+testimony was harmless.  Dr. Hosemann’s trial testimony was based on and consistent with
+the original findings provided in his IME report.  Moreover, his testimony and any
+discrepancies with prior statements or other admissible trial evidence were subject to
+thorough cross-examination by the Appellants’ attorneys.  Viewing the evidence before us
+
+in a light most favorable to the verdict, and affording the circuit court substantial deference
+in its decision to deny the Appellants’ motion for a new trial, we remain unconvinced that
+the circuit court abused its discretion.  Kirk, 380 So. 3d at 266 (¶35).  We therefore decline
+to reverse the circuit court’s determination as to this issue.
+C.
+Closing Argument
+¶43. 
+The Appellants next allege that Womack’s trial attorneys improperly employed “us-
+versus-them,” “conscience-of-the-community,” “send-a-message,” and “golden-rule” themes
+throughout their closing argument.  With regard to claims of impermissible closing-argument
+comments,
+[i]t is well settled that to preserve an objection to alleged improper remarks by
+counsel during closing argument, the complaining party must not only make
+a contemporaneous and specific objection to the remarks, but [he] must also
+obtain a definitive ruling from the trial court on his objection and must request
+corrective action.
+Mai v. State, 384 So. 3d 1242, 1253 (¶34) (Miss. Ct. App. 2024) (quoting Rials v.
+Duckworth, 822 So. 2d 283, 287 (¶22) (Miss. 2002)).  “[W]here an objection is made and a
+definitive ruling is not obtained nor any corrective action requested[,]” the complaining party
+“waives his objection . . . .”  Rials, 822 So. 2d at 288 (¶22) (quoting Walters v. State, 720 So.
+2d 856, 864 (¶25) (Miss. 1998)).
+¶44. 
+Here, during Womack’s closing argument, one of the Appellants’ attorneys asked to
+approach the circuit judge.  In the bench conference that followed, the Appellants’ attorney
+told the circuit judge that he hated to interrupt closing argument but that he had allowed
+Womack’s attorney to go as far as he could.  The Appellants’ attorney then stated that the
+
+litigation was “not about us against them, Hinds County versus them.  This is about the facts
+of this case.”  The circuit judge ordered Womack’s attorney to move along in his argument,
+and the bench conference ended.  Based upon our review, even if we were to find that the
+Appellants raised “a contemporaneous and specific objection” to remarks made by
+Womack’s attorney during closing argument, the record fails to reflect that the Appellants
+“also obtain[ed] a definitive ruling from the trial court on [the] objection and . . . request[ed]
+corrective action.”  Mai, 384 So. 3d at 1253 (¶34) (quoting Rials, 822 So. 2d at 287 (¶22)). 
+We therefore find that the Appellants waived this issue for appellate review.  Rials, 822 So.
+2d at 288 (¶22).
+¶45. 
+Notwithstanding the waiver, we also find that this issue lacks merit.  “[A]ttorneys are
+to be given wide latitude in making their closing arguments.”  Carr v. State, 385 So. 3d 1300,
+1305 (¶14) (Miss. Ct. App. 2024) (quoting Spiers v. State, 361 So. 3d 643, 662 (¶71) (Miss.
+2023)).  “‘[W]ide latitude of discussion is allowed’ as long as the [attorney] ‘keeps fairly
+within the evidence and issues involved.’”  Id.  (quoting Spiers, 361 So. 3d at 662 (¶71)). 
+Our caselaw prohibits attorneys from using “tactics which are inflammatory, highly
+prejudicial, or reasonably calculated to unduly influence the jury.”  Id.  Error occurs when
+an attorney “departs entirely from the evidence in his arguments or makes statements
+intended solely to excite the passions or prejudices of the jury, or makes inflammatory and
+damaging statements of fact not found in the evidence.”  Id.  (quoting Spiers, 361 So. 3d at
+662-63 (¶71)).  When viewed in context, we can find no reason for reversal due to the
+allegedly improper closing-argument remarks made by Womack’s attorney.  Because we
+
+cannot conclude that the comments at issue entirely departed from the evidence, were
+intended solely to inflame the jury, or “create[d] such an unjust prejudice against the
+[Appellants] as to result in a decision influenced by the prejudice so created[,]” we will not
+reverse the jury’s verdict based on this issue.
+IV.
+Award of Non-Economic Damages
+¶46. 
+The jury considered Womack’s evidence that her past and future medical expenses
+amounted to $393,000 and awarded her that amount for economic damages.  The jury also
+awarded Womack $3,000,000 for non-economic damages.  In compliance with the statutory
+limit for non-economic damages, the circuit court reduced that portion of Womack’s award
+to $1,000,000.  See Miss. Code Ann. § 11-1-60(2)(b).   Thus, Womack received a total
+monetary award of $1,393,000.  On appeal, however, the Appellants argue that despite the
+circuit court’s remittitur of Womack’s non-economic-damages award, the amount remains
+excessive and requires further reduction.
+¶47. 
+We review for abuse of discretion the circuit court’s denial of the Appellants’ request
+for further remittitur of Womack’s non-economic-damages award.  See MIMG C Woodridge
+Sub LLC v. Course, 356 So. 3d 1246, 1251 (¶35) (Miss. Ct. App. 2023).  Regarding this
+issue, we have explained that
+we will not disturb the trier of fact’s award of damages unless its size, in
+comparison to the actual amount of damage, shocks the conscience.  A
+remittitur is appropriate when either (1) the trier of fact was influenced by bias,
+prejudice, or passion, or (2) the damages were contrary to the overwhelming
+weight of the evidence.  The bias, prejudice, or passion standard is purely a
+circumstantial standard.  Evidence of corruption, passion, prejudice, or bias on
+the part of the trier of fact (if any) is an inference to be drawn from contrasting
+the amount of the verdict with the amount of the damages.
+
+Miss. Dep’t of Rehab. Servs. v. Butler, 384 So. 3d 546, 557 (¶36) (Miss. Ct. App. 2024)
+(quoting MIMG C Woodridge Sub LLC, 356 So. 3d at 1251 (¶35)).
+¶48. 
+In addition,
+we proceed on a case-by-case basis in determining whether a jury award is
+excessive.  Even if we think the amount awarded in the verdict is liberal, we
+are not allowed to supplant our judgment for that of the jury unless we
+conclude that there was insufficient evidence to support the award of damages. 
+We are required to view the evidence in a light most favorable to the jury’s
+verdict, giving [the verdict] the benefit of all favorable inferences that may
+reasonably be drawn.
+Also, while pain and suffering is, to a large degree, not susceptible to
+monetary quantification, the jury necessarily has especially broad leeway.
+MIMG C Woodridge Sub LLC, 356 So. 3d at 1251 (¶¶36-37) (citations and internal quotation
+marks omitted).
+¶49. 
+Here, the jury’s award to Womack of $3,000,000 in non-economic damages amounted
+to about 7.6 times the total economic damages of $393,000 that Womack received for past
+and future medical expenses.  As we recently noted, however, throughout the years,
+Mississippi “appellate courts have examined this issue many times and approved verdicts in
+a great range.”  Id. at (¶38) (affirming jury’s verdict of non-economic damages for almost
+10.7 times the award for economic damages).
+¶50. 
+In addition to the evidence of her past and future medical expenses, Womack
+presented testimony—not only her own but also that of other witnesses—regarding the
+physical and emotional effects she had experienced due to her fall.  The evidence included
+testimony about the trauma to Womack’s neck, back, and knees; the permanent scarring to
+her right knee; the need for a knee brace on her left knee as well as injections and physical
+
+therapy for her various injuries; her reduced mobility and stability during daily activities; and
+her increased dizziness, anxiety, and depression.
+¶51. 
+“It is the jury who determines the weight of the testimony and the credibility of the
+witnesses at trial[,] and it is the primary province of the jury to determine the amount of
+damages to award.”  Robb v. McLaughlin, 371 So. 3d 761, 778 (¶48) (Miss. Ct. App. 2023)
+(quoting Colville v. Davidson, 934 So. 2d 1028, 1032 (¶14) (Miss. Ct. App. 2006)).  In light
+of the proof presented at trial and the deference afforded to the jury in reaching its verdict,
+we cannot say that the jury’s non-economic-damages award to Womack was so excessive as
+to be characterized as “beyond all measure, unreasonable in amount[,] and outrageous.” 
+MIMG C Woodridge Sub LLC, 356 So. 3d at 1254 (¶58) (quoting Miss. State Fed’n of
+Colored Women’s Club Hous. for Elderly in Clinton Inc. v. L.R., 62 So. 3d 351, 368 (¶58)
+(Miss. 2010)).  We therefore find no abuse of discretion in the circuit court’s denial of the
+Appellants’ request to further reduce Womack’s non-economic-damages award.
+CONCLUSION
+¶52. 
+Because we find no reversible error, we affirm the circuit court’s amended final
+judgment awarding Womack $1,393,000 in damages.
+¶53. 
+AFFIRMED.
+CARLTON, P.J., McDONALD, LAWRENCE, McCARTY AND WEDDLE, JJ.,
+CONCUR.  WESTBROOKS, J., CONCURS IN PART AND IN THE RESULT
+WITHOUT SEPARATE WRITTEN OPINION.  EMFINGER, J., CONCURS IN
+RESULT ONLY WITHOUT SEPARATE WRITTEN OPINION.  WILSON, P.J.,
+DISSENTS WITH SEPARATE WRITTEN OPINION, JOINED BY BARNES, C.J.;
+WESTBROOKS, J., JOINS IN PART. 
+WILSON, P.J., DISSENTING:
+
+¶54. 
+I concur with the majority that the trial court abused its discretion by allowing
+Kenneth Goodrum to testify “as a safety expert.”  However, I disagree that the error can be
+disregarded as harmless.  Accordingly, I respectfully dissent.
+¶55. 
+Under Mississippi Rule of Evidence 702, expert testimony is admissible only if the
+proponent shows that 
+(a) 
+[the witness possesses] scientific, technical, or other specialized
+knowledge [that] will help the trier of fact to understand the evidence
+or to determine a fact in issue; 
+(b) 
+the testimony is based on sufficient facts or data; 
+(c) 
+the testimony is the product of reliable principles and methods; and 
+(d) 
+the expert has reliably applied the principles and methods to the facts
+of the case.
+MRE 702.  Applying Rule 702, our Supreme Court has held that 
+expert testimony should be admitted only if it withstands a two-pronged
+inquiry.  First, the witness must be qualified by virtue of his or her knowledge,
+skill, experience or education.  Second, the witness’s scientific, technical or
+other specialized knowledge must assist the trier of fact in understanding or
+deciding a fact in issue.  In addition, Rule 702 does not relax the traditional
+standards for determining that the witness is indeed qualified to speak an
+opinion on a matter within a purported field of knowledge.
+Miss. Transp. Comm’n v. McLemore, 863 So. 2d 31, 35 (¶7) (Miss. 2003) (quotation marks
+and citations omitted).  Further, “[a]n expert is qualified only if the witness possesses
+scientific, technical, or specialized knowledge on the particular topic of his opinion.” 
+Hyundai Motor Am. v. Hutton, 328 So. 3d 592, 604 (¶47) (Miss. 2021) (quotation marks and
+brackets omitted).
+¶56. 
+“The proponent of expert testimony has the burden of establishing the admissibility
+
+of such testimony.”  Scarborough v. Logan, No. 2022-CA-00965-SCT, 2024 WL 4510804,
+at *4 (¶12) (Miss. Oct. 17, 2024) (quoting Univ. of Miss. Med. Ctr. v. Kelly, 358 So. 3d 1054,
+1058 (¶14) (Miss. 2023)).  Under Rule 702, “[t]he trial court is vested with a ‘gatekeeping
+responsibility.’” McLemore, 863 So. 2d at 36 (¶11) (quoting Daubert v. Merrell Dow
+Pharms. Inc., 509 U.S. 579, 589 (1993)).  The trial court has a “duty to determine whether
+or not a witness is qualified.”  Evans v. State, 25 So. 3d 1054, 1060 (¶15) (Miss. 2010).  The
+trial court also must determine whether the testimony will be helpful to the trier of fact and
+whether it is based on a reliable methodology reliably applied to the facts of the case. 
+Corrothers v. State, 148 So. 3d 278, 294-95 (¶¶24-26) (Miss. 2014).
+¶57. 
+In this case, Kenneth Goodrum testified that after high school, he served in the
+military on active duty for two years, worked as a private security guard for two years, and
+was a patrol officer for the University of Mississippi Medical Center for two years.  He then
+served with the Jackson Police Department (JPD) for twenty years, eventually earning a
+promotion to the rank of precinct commander.  Since retiring from JPD, Goodrum has owned
+a private security firm that provides patrol and security services for a subdivision in Jackson. 
+Goodrum has previously testified as an expert regarding security issues in premises liability
+cases involving violent crimes, but this is the first time he has testified as an expert in a slip-
+and-fall case.
+¶58. 
+Prior to trial, the defendants moved to exclude Goodrum from testifying as an expert,
+arguing that he “possesse[d] no scientific, technical, or other specialized knowledge as to
+warnings or wet floor signs.”  However, the trial court denied the defendants’ motion.  At
+
+trial, Womack tendered Goodrum “as a safety expert.”  Over the defendants’ renewed
+objection, the trial court allowed Goodrum to testify as a safety expert.  
+¶59. 
+At trial, Goodrum described his “methodology” as follows:
+A methodology is how you go about to look at an incident, plain and simple. 
+Different fields have their own different methodologies.  I use a group of
+books, as it relates to investigating, as well as looking at the floors and the
+policies, the procedures for the company.  I look at the codes that the city sets
+forth.  I, also, look at industry standards.  That means, for Pilot what do they
+use as their policy as it relates to safety.  I look at their policies and their
+standards.  And I go down a checklist, look at it, decide what’s going on, what
+happened, and I just follow a checklist to determine if anything was done right
+and anything was done wrong.  And then, I use all the information given to me,
+with the evidence that the lawyer has -- the defense and the plaintiff’s
+attorneys have given, and I use that to determine and give my opinions.
+Goodrum then testified that his methodology and opinions in this case did not depend on any
+codes or industry standards; rather, this case was about alleged violations of “[p]olicies and
+procedures that the company [(i.e., Pilot)] set forth.”
+¶60. 
+Goodrum then read from Pilot’s internal training materials and policies and opined
+that Pilot’s employees violated company policies by leaving the wet-floor sign out too long,
+placing a floor mat in the vestibule,1 failing to “regularly check key travel paths,” failing to
+“visually assess walk areas for slip and fall hazards,” and not “keeping the walkways clear
+from hazards.”  Goodrum testified that Pilot committed five different violations of its own
+1 Although Goodrum testified that Pilot’s policies prohibited placing a floor mat in the
+vestibule, there is no evidence that the floor mat had anything to do with the incident in this
+case.  On cross-examination, Goodrum acknowledged that standards promulgated by the
+American Society for Testing and Materials (ASTM) state that “[b]uilding entrances shall
+be provided with mats or runners, or other means to help remove foreign particles and other
+contaminants from the bottom of pedestrian footwear.”  However, Goodrum testified that he
+would put “more weight [on Pilot’s] policies than the [ASTM standards].”
+
+policies and that those violations caused Womack’s fall.
+¶61. 
+As the majority acknowledges, the trial court abused its discretion by allowing
+Goodrum to testify “as a safety expert” because nothing in his experience, training, or
+education qualified him as an expert in the proper placement of warning signs or slip-and-fall
+prevention.  In addition, as the majority acknowledges, Goodrum’s testimony also should
+have been excluded because he did not employ any reliable principles or methods.  As
+Goodrum himself explained, his “methodology” was simply to read Pilot’s policies and
+identify alleged violations.
+¶62. 
+I would add that Goodrum’s testimony also should have been excluded because it was
+utterly unhelpful to the jury.  See MRE 702 (providing expert testimony is inadmissible
+unless it “will help the trier of fact to understand the evidence or to determine a fact in
+issue”).  Again, Goodrum simply read Pilot’s policies and identified alleged violations.  The
+average juror is as every bit as capable and qualified as Goodrum to read convenience store
+policies and decide, as Goodrum put it, whether “anything was done wrong.”  “[T]he
+conclusion that [Goodrum] reached was one that could have been reached by the jury . . .
+without expert guidance.  It follows that the trial court erred in allowing this testimony . . .
+because the opinion rendered and explanation thereof demonstrated that it was not helpful
+to the trier of fact.”  Seal v. Miller, 605 So. 2d 240, 244 (Miss. 1992); see also Peters v. Five
+Star Marine Serv., 898 F.2d 448, 450 (5th Cir. 1990) (holding that “[e]xpert testimony was
+unnecessary” and properly excluded because “the jury could adeptly assess [the issues] using
+only their common experience and knowledge”).
+
+¶63. 
+While I agree with the majority that the trial court erred by admitting Goodrum’s
+testimony, I respectfully disagree that the error can be disregarded as “harmless.”  The trial
+court told the jury that “[t]he court [would] accept [Goodrum] as an expert.”  As other courts
+have recognized, “[t]here is often an inherent danger with expert testimony unduly biasing
+the jury because of its aura of special reliability and trust.”  United States v. Litzky, 18 F.4th
+1296, 1304 n.3 (11th Cir. 2021) (quoting United States v. Boney, 977 F.2d 624, 631 (D.C.
+Cir. 1992)).  As the United States Court of Appeals for the First Circuit has explained, 
+because of an expert’s stature qua expert, jurors may assign more weight to
+expert testimony than it deserves.  Because such testimony can carry with it an
+unwarranted aura of special reliability and trustworthiness, courts must guard
+against letting it intrude in areas that jurors, by dint of common experience, are
+uniquely competent to judge without the aid of experts.
+United States v. Pires, 642 F.3d 1, 12 (1st Cir. 2011) (citations and quotation marks omitted). 
+This is exactly what occurred here.  An unqualified “expert” was allowed to tell the jury that
+Pilot’s employees were negligent and that their negligence caused Womack’s injuries despite
+the fact that the jurors were “uniquely competent to judge” those issues based on their own
+“common experience” and “without the aid of experts.”  Id.  Moreover, Goodrum’s stature
+as a longtime JPD officer exacerbated the risk that the jury would give his “expert” opinions
+more weight than they deserved.  The Mississippi Supreme Court has held that “because the
+public hold police officers in great trust, the potential harm to the objecting party requires
+reversal where a police officer gives expert testimony without first being qualified as such.” 
+Kirk v. State, 160 So. 3d 685, 693 (¶19) (Miss. 2015) (brackets omitted) (quoting Roberts v.
+Grafe Auto Co., 701 So. 2d 1093, 1099 (Miss. 1997)).  Allowing such an unqualified
+
+“expert” to offer unreliable and unhelpful opinions on the ultimate issue in the case is
+“inconsistent with substantial justice” and “affect[ed]” the defendants’ “substantial rights.” 
+M.R.C.P. 61.  Accordingly, the error is not harmless and requires a new trial.2  Id.  Since the
+majority instead affirms, I respectfully dissent.
+BARNES, C.J., JOINS THIS OPINION.  WESTBROOKS, J., JOINS THIS
+OPINION IN PART.  
+2 It is true, as the majority notes, that the documents that Goodrum read from were
+already in evidence.  However, defendant Gina Franklin and Pilot employee Latosha
+McGriggs testified that they complied with applicable store policies on the day in question. 
+The evidence in this case was not overwhelming and could have supported a defense verdict
+on the issue of liability.  Goodrum’s improper “expert” opinion that Pilot’s employees were
+negligent and caused Womack’s injuries cannot be dismissed as merely cumulative.  Under
+these circumstances, it is impossible to say with confidence that the erroneous admission of
+the testimony of a purported expert was harmless.

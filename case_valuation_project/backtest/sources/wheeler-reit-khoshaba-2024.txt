@@ -1,0 +1,2123 @@
+UNITED STATES DISTRICT COURT
+EASTERN DISTRICT OF VIRGINIA
+Norfolk Division
+DANIEL KHOSHABA,
+Plaintiff,
+V. Civil Action No. 2:24cv237
+JOSEPH D. STILWELL, et al ● /
+Defendants.
+OPINION AND ORDER
+This matter is before the Court on two motions to dismiss.^
+The first motion, ECF No. 25, was filed collectively by Joseph D.
+Stilwell, E.J. Borrack, Kerry Campbell, Paula Poskon, Megan Parisi,
+Stefani Carter, Saverio Flemma, Michelle Bergman, Dennis Pollack,
+and M. Andrew Franklin (the \\ Individual Defendants"). The second
+motion, ECF No. 27, was filed collectively by Stilwell Value
+Partners VII, L.P., Stilwell Activist Fund, L.P., Stilwell Activist
+Investments, L.P., Stilwell Associates, L.P., and Stilwell Value
+LLC (the "Fund Defendants" or "Stilwell Fund Defendants") . Because
+the facts and legal questions are adequately presented in the
+motions and subsequent briefs, and oral argument would not aid in
+the decisional process. the Court finds that a hearing is
+unnecessary and thus declines the parties' joint request for oral
+argument. ECF No. 39. For the reasons stated below, the Individual
+Defendants' Motion to Dismiss is GRANTED in part and DENIED in
+part, ECF Nos. 23 Sc 24, and the Stilwell Fund Defendants' Motion
+to Dismiss is GRANTED in part and DENIED in part. ECF No. 26.
+I. BACKGROUND
+On April 10, 2024, Daniel Khoshaba {"Plaintiff") filed a
+Complaint against the Individual Defendants and the Stilwell Fund
+Defendants. The Complaint was filed both derivatively on behalf
+of Wheeler Real Investment Trust, Inc. ("Wheeler" or "the Company")
+and directly on behalf of Plaintiff and a putative class of Wheeler
+common stockholders.^ ECF No. 1, at 1. In his Complaint, Plaintiff
+challenges a series of business decisions and financial
+transactions made by members of Wheeler's Board of Directors (the
+Board") and corporate management from approximately 2021-2024.
+Id. at 2. All Individual Defendants are past or current members
+of Wheeler's Board, with the exception of M. Andrew Franklin
+("Franklin"), who is the current Chief Executive Officer ("CEO")
+of Wheeler. Id. at 8. The Stilwell Fund Defendants are investment
+funds allegedly owned and controlled by Joseph Stilwell
+("Stilwell"), an Individual Defendant and current member of
+Wheeler's Board. Id. at 7. The Court sets forth relevant factual
+background below.
+A. Wheeler's Financial History
+Established in 1999 and incorporated under Maryland law,
+Wheeler is a real estate investment trust that owns, leases, and
+operates commercial real estate. with a primary focus on grocery-
+anchored shopping centers. Id. at 9. Wheeler publicly trades on
+the NASDAQ Stock Market under the ticker "WHLR" and maintains its
+principal office in Virginia Beach, VA. Id.
+From 2016-2018, Wheeler registered and issued over three
+million shares of its Series D Preferred Stock ft ("D Stock")
+through two separate offerings.^ Id. at 9-10. Wheeler first
+registered and offered 1,600,000 shares of dividend-bearing D Stock
+in September of 2 016.^^ Id. at 9. Under the D Stock offering terms,
+for eligible years in which D Stock dividends were not paid in
+full, the dividend rate cumulatively accrued subject to a maximum
+annual rate. Id. Wheeler had the ability to redeem these shares
+of D Stock (i.e. buy them back at the Company's discretion) on or
+after September 21, 2021, for $25 per share in cash — plus all
+accrued and unpaid dividends until September 21, 2023 {the
+\\ Redemption Date"). Id. at 10. Critically, on or after the
+Redemption Date, the shareholder could cause Wheeler to redeem the
+holder's D Stock shares for $25 per share (plus accrued and unpaid
+dividends) in cash or shares of common stock. Id.
+In January of 2018, Wheeler issued an additional 1,552,392
+[shares of D Stock] for a price of $16.50, // a figure "well below //
+the $25 redemption price that D Stockholders would be able to
+trigger on or after the Redemption Date. Id. In December of 2018,
+Wheeler announced that it u would not pay its fourth quarter
+dividends for the [D Stock] shares. // Such dividends have been
+suspended, and thus accruing, since December 2018. Id.
+B. Stilwell's Investment
+Beginning in June of 2016, Stilwell and the Stilwell Fund
+Defendants made initial investments in Wheeler. Id. In
+Plaintiff's characterization, Stilwell is the principal and
+managing member of Stilwell Value LLC, an "activist hedge fund if
+(and Fund Defendant) that functions as the investment advisor to
+other investment funds that, together, comprise the "Stilwell
+Group. // Id. at 7. After Stilwell and funds within the Stilwell
+Group made investments in Wheeler, they launched "proxy fights" to
+change the membership of Wheeler's Board of Directors, first
+unsuccessfully in 2018, then successfully in 2019.^ Id. at 11-12.
+In the course of these proxy fights, Stilwell expressed concerns
+about Wheeler's issuance of D Stock, calling such issuances
+w dilutive and therefore harmful to Wheeler common stockholders. //
+and questioned why "the Board approved the issuance of additional
+preferred debt [at] such a deep discount to face value. t§ Id. at
+11.
+Stilwell's victorious proxy fight in 2019 resulted in the
+appointment of Stilwell and several of his nominees to Wheeler's
+Board, including Individual Defendants Paula Poskon ("Poskon") and
+Kerry Campbell ("Campbell"). Id. In Plaintiff's telling, Stilwell
+convinced stockholders to elect him and his nominees to the Board
+by criticizing Wheeler's poor capital allocation decisions. u
+specifically the issuance of D Stock which, in Stilwell's view.
+w expose[d] the common stockholders to great consequences in the
+future. II Id. at 12. These "great consequences. // in Stilwell's
+description, included the prospect of all Series D holders
+decid[ing] to redeem their . . . preferred shares. // Id. Should
+such redemption occur, Wheeler \\ would have to pay $90,015,900 in
+cash or issue the common stock equivalent, thereby significantly
+diluting existing common stockholders. // Id. To address this
+troubling eventuality, Stilwell recommended selling
+underperforming properties to generate cash to buy back the [D
+Stock]. // Id. Stilwell has now served as a Wheeler director since
+January of 2020. Id. at 7.
+Following his successful campaign to join Wheeler's Board, in
+February of 2020 Stilwell and his fellow directors filled a Board
+vacancy by adding Plaintiff as a director. Id. On April 13, 2020,
+the Board appointed Plaintiff as CEO of Wheeler. Id. at 12. Under
+his leadership as CEO, Plaintiff reports that Wheeler implemented
+a strategy of buying back outstanding shares of D Stock to "prevent
+a crisis at the Redemption Date. // Id. at 13. On July 5, 2021,
+Plaintiff resigned as CEO and withdrew from consideration for
+reelection to the Board. Id. From Plaintiff's perspective,
+Stilwell and his allies on the Board pushed [him] to resign as
+CEO" to expand their control over the Company" through the
+establishment of a u Stilwell-majority Board. // Id. Indeed,
+Plaintiff asserts that Stilwell and the Board members whose
+nominations Stilwell supported now viewed the [D Stock] as an
+opportunity to enrich themselves" and were thus \\ [u]nsatisfied with
+Plaintiff's judicious approach to handling the Company's capital. n
+Id.
+C. The Rights Offering
+On July 22, 2021 — approximately two weeks after Plaintiff's
+resignation as CEO — Wheeler published a press release announcing
+a "Rights Offering" designed to raise capital. Id. at 14. Under
+the terms of the Rights Offering, each of Wheeler's common
+stockholders became eligible to purchase senior subordinated
+convertible notes (the "Notes"), a form of debt security that was
+convertible at the holder's option to shares of Wheeler's common
+stock, ordinarily at a price of $6.25 per share of common stock
+(the Conversion Price"). Id. at 2-3; see 7 Tenn. Juris.
+Corporations § 18 (2024)
+Importantly, on or following the Redemption Date, if at least
+100,000 shares of D Stock were redeemed for common stock, the
+conversion rate for the Notes to common stock would be discounted
+below the Conversion Price to the lesser of two options: (1) 45
+percent below the original Conversion Price; or (2) 45 percent
+below the lowest price at which a D Stockholder had converted his
+D Stock shares to common stock. Id. at 14. Adding a final term
+to the Rights Offering, if the Offering was not fully subscribed.
+common stockholders who had otherwise fully exercised their rights
+would be permitted to also exercise an over-subscription
+privilege" to purchase additional, unsubscribed Notes at the same
+price. Id. The Rights Offering was set to expire on August 13,
+2021.
+In explaining the primary purpose behind the Board's approval
+of the Rights Offering, Plaintiff cites the Rights Offering
+Prospectus (the Prospectus") filed with the Securities and
+Exchange Commission (the SEC"), and highlights language suggesting
+that the Offering was intended to raise sufficient capital to fund
+future repurchases of . . . [D] Stock. // Id. at 14. To that end.
+the Prospectus acknowledges that there is a significant risk that
+[Wheeler] will not have sufficient cash to pay the aggregate
+redemption price, and would not be able to meet our redemption
+obligation without liquidating assets and/or substantial dilution
+of our Common Stock. // Id. at 15. Plaintiff thus observes that
+the Board and management "plainly understood the gravity of the
+potential consequences should the Company fail to reduce the amount
+of outstanding [D Stock] before the Redemption Date. // Id.
+D. The Challenged Decisions & Transactions
+After the Rights Offering closed on August 13, 2021, Plaintiff
+alleges that Individual Defendants Stilwell, Borrack, Campbell,
+Poskon, Paris! and Franklin (who was appointed CEO following
+Plaintiff's resignation) had collectively purchased over 90 percent
+of the available Notes. Id. Plaintiff refers to these Individual
+Defendants as the \\ Conflicted Insiders. Id. at 8. Importantly,
+Plaintiff claims that Stilwell purchased the vast majority of these
+Notes personally or through the Stilwell Fund Defendants. Id. at
+15 . Indeed, by Plaintiff's calculation, Stilwell and the Fund
+Defendants purchased 999,995 Notes for nearly $25 million. Id.
+Poskon is alleged to have purchased 6,275 Notes for $156,875
+{comprising half of her portfolio of Wheeler holdings) , while
+Defendant Campbell allegedly purchased 4,000 Notes for $100,000
+(which represented the entirety of Campbell's stock ownership in
+Wheeler), and Defendant Franklin supposedly purchased 1,069 Notes
+for $26,725, which represented "nearly all of Franklin's holdings
+in Wheeler. Id. at 15-16.
+Given the Board members' Notes ownership. Plaintiff contends
+that the foregoing directors (and the CEO, Franklin) were
+improperly incentivized to maximize the value of the Notes, no
+matter the effect on the common stock price. Id. at 16. To that
+end. Plaintiff alleges that the so-called Conflicted Insiders
+preserved the amount of outstanding shares of D stock in order to
+benefit from the Notes' discounted conversion rate that would be
+triggered by the eventual redemption of 100,000 D Stock shares.
+Id. at 16 . Plaintiff adds that these director defendants (and CEO
+Franklin) recognized that the preceding course of action would
+undermine the original purpose of the Rights Offering — to raise
+money to buy back outstanding shares of D Stock to reduce the
+redemption risk posed by such outstanding shares. Id.
+E. Wheeler Pays Interest on Notes in D Stock and Plaintiff
+P\iblishes Critical Letters
+In December of 2021, the Board elected to pay interest on all
+the Notes through the further issuance of D stock, thereby
+increasing the outstanding shares of D stock and the potential
+redemption exposure by over $2,842,725, Id, at 17. Responding to
+this interest payment decision in late 2021, Plaintiff submitted
+multiple public letters to Wheeler's Board criticizing the
+directors for "forcing [him] out as CEO if \\ act [ing] in their
+own self-interest and contrary to the best interests of the Company
+in breach of their fiduciary duties. // Id. The Boax'd acknowledged
+Plaintiff's public letters in a brief missive. writing that the
+directors were "saddened by [Plaintiff's] recent public letters. //
+befo'x-e adding that "while [Plaintiff's] shox-t 16-month tenux-e as
+CEO had its pluses and minuses, we respected your written decision
+to resign for personal reasons when confronted with some of these
+minuses. if Id.
+Two months later, on February 28, 2022, Wheeler filed its Form
+10-K annual report (with the for fiscal year 2021,
+acknowledging that \\ there is a significant risk that the Company
+will not have sufficient cash to pay the aggregate redemption
+prxce. and would not be able to meet its redemption obligation
+without substantial dilution of its common stock. ft Id. at IS. In
+June of 2022, the Board elected to pay interest on the Notes in
+discounted Series B preferred shares, rather than D Stock. Id.
+Five months later, in November of 2022, Wheeler attempted to
+buy back shares of D stock prior to the looming Redemption Date
+through an "Exchange Offer. // Id. at 19. In Plaintiff's appraisal,
+this Exchange Offer had "little appeal u to the D Stockholders
+because it asked them to accept reduced interest and \\ sacrifice
+roughly $9 in value" for each share of D Stock they held. Id. The
+Exchange Offer produced the valid tender of only 26.8 percent of
+the outstanding D Stock shares — less than the minimum number of
+shares necessary to effectuate the Exchange Offer — and therefore
+failed. leaving all shares of D stock outstanding. Id. at 19.
+Lamenting the unsuccessful Exchange Offer, Plaintiff insists that
+w there was no business justification for failing to buy back all
+or nearly all Series D shares with the Redemption Date fast
+approaching. n Id. at 20. Indeed, Plaintiff maintains that the
+failure to do so is attributable to select Individual Defendants'
+personal financial interests in preserving the amount of
+outstanding preferred stock so that they could profit from the
+discounted conversion rates on their Notes after the Redemption
+Date. // Id. at 19. The next month, in December of 2022, the Board
+again elected to pay interest on the Notes in discounted Series B
+shares, a decision that Plaintiff does not challenge. Id. at 18.
+At odds with Plaintiff's recommendation for Wheeler's capital
+management, the Company stated in its Form 10-K that it does not
+believe it is in its interests to liquidate assets or incur
+indebtedness to fund cash redemptions of the Series D Preferred
+Stock, // while also acknowledging that the aggregate liquidation
+value could reach $119.80 million on the Redemption Date. Id. at
+21. On April 11, 2023, Plaintiff submitted another letter to the
+Board, admonishing the directors that further issuances of
+discounted D Stock would be both substantially dilutive . .
+[and] contrary to the Board's fiduciary duties. Id. at 21. The
+Board responded through a letter from outside counsel. which
+acknowledged that \\ the Company continues to be afflicted by a
+capital structure problem n that it has tried to address through
+w two separate . . . tender offers and an Exchange Offer // that were
+not successful. ECF No . 25-4 , at 2 .
+On May 11, 2023, Plaintiff penned another public letter to
+the Board, urging both the Board and management to, among other
+things, \\ immediately begin negotiating a settlement with the
+holders of the Company's Series D preferred stock" and "stop
+issuing deeply discounted preferred securities in lieu of cash
+interest payments" on the Notes. Id. at 21. Plaintiff's letter
+continued, asserting that the strategy to pay interest on the Notes
+in discounted D Stock shares was \\ for the benefit of essentially
+one director" because it "dilutes stockholders, while allowing Mr.
+Stilwell to be the primary beneficiary n as w the beneficial owner
+of over 80%" of the Notes. Id. at 22.
+On May 19, 2023, eight days after receiving Plaintiff's
+letter, Wheeler's Board and management decided to again pay
+interest on the Notes in D Stock, increasing the number of
+outstanding D Stock shares as the Redemption Date approached. Id.
+at 22 . Separately, on June 1, 2023, the Board invested $3.5 million
+for w limited partnership interests // in Stilwell Activist
+Investments, L.P. , one of the Fund Defendants that is allegedly
+owned and controlled by Stilwell. Id. at 23. Plaintiff maintains
+that this investment explicitly enriched Stilwell and his fund
+with cash that should have been used to reduce the outstanding
+Series D shares. // Id.
+On June 12, 2023, Plaintiff sent another public letter to the
+Board, writing that directors should \\ stop disregarding
+stockholders' interests and making self-interested decisions that
+appear to insulate themselves from the Company's performance. // Id.
+To that end, Plaintiff questioned "who is Mr. Campbell running the
+Company for the common stockholders or the noteholders? Id.
+Plaintiff concluded with an exhortation: \\ the Company is now in
+crisis. Urgent action by the Board and management is necessary. //
+Id.
+On August 8, 2023, Wheeler filed its Form 10-Q for the second
+fiscal quarter of 2023. Id. at 24. In this public report, the
+Board and management again noted that the Company does not believe
+it is in its interests to liquidate assets or incur indebtedness
+to fund cash redemptions of the Series D Preferred Stock. tt Id.
+Instead, the report explained, \\ the Company intends to settle
+redemptions of Series D Preferred following the Series D Redemption
+Date in Common Stock, acknowledging that such course of action
+\\ will result in a substantial dilution of the outstanding Common
+Stock. n Id.
+Throughout 2023, Wheeler's stock price had materially
+declined, a downward trajectory that Plaintiff attributes to the
+impending dilutive event" recognized in the foregoing Form 10-Q.
+Id. By May of 2023, Wheeler's stock price had fallen below NASDAQ's
+minimum bid price of $1.00. To address the deterioration of its
+stock price, on August 17, 2023, the Board authorized a 1 for 10
+reverse stock split of shares of common stock. Id. This stock
+split reduced the conversion rate of Notes to common stock but did
+not eliminate the Notes' conversion discount that would be
+triggered by the redemption of 100,000 shares of D Stock. Id.
+Therefore, in Plaintiff's calculation, one important consequence
+of this stock split was that the Notes could become more valuable
+through common stock conversion after the Redemption Date. Id.
+On September 1, 2023, two Individual Defendants and Board
+members — Kerry Campbell and Stefani Carter, now acting in their
+capacity as members of a "Related Person Transactions Committee
+allegedly authorized Wheeler to make a second $3.5 million
+investment for limited partnership interests in Fund Defendant
+Stilwell Activist Investments, L.P. Id. at 25.
+F. D Stock Redemptions Begin
+Meanwhile, one month before the impending redemption in
+September 2023, Wheeler issued over 100 million shares of common
+stock at $0.01 par value per share to account for expected D Stock
+redemption. announcing that such redemptions would be processed
+monthly beginning in October. Id. In this first month of
+redemptions alone, Wheeler issued over two million shares of common
+stock to eligible D Stock shareholders, resulting in an aggregate
+redemption price of approximately $6.46 million. Id. Because
+100,000+ D Stock shares had been redeemed. the redemptions
+triggered the discount on the conversion price from Notes to common
+stock, which, in Plaintiff's estimation. more than doubled
+Stilwell's beneficial ownership of the Company to 83.7 percent of
+Wheeler's common stock by October 20, 2023 . Id. at 26. The
+putative class of common stockholders (who did not participate in
+the Rights Offering) suffered severe dilution, Plaintiff
+observes. Id.
+In November of 2023, the second month of redemptions, the
+Company was "forced" to issue over 14 million shares of common
+stock to settle the aggregate redemption price of approximately
+$12 million, driving down the common stock price while the Notes
+continued to enjoy dramatically improved common stock conversion
+rates under the terms of the Rights Offering. Id. As a result.
+the Noteholders who elected to convert their Notes to common stock
+amassed greater ownership of the Company. Id.
+On November 15, 2023, one day after Wheeler announced that it
+may not have sufficient common stock to cover continued redemption
+requests, the Board again issued discounted shares of D Stock as
+interest payment to Noteholders, further increasing the amount of
+D Stock shares eligible for immediate redemption. Id. In response
+to the challenges posed by the Company's shifting capital
+structure, on December 5, 2023, Wheeler entered into an agreement
+with Stilwell and the Stilwell Fund Defendants to create a "Capital
+Stock Excepted Holder Limit" (the "Stilwell Agreement"). Id. at
+27 . In summary, the Stilwell Agreement significantly increased
+the pre-existing aggregate stock ownership limit. thereby
+authorizing Stilwell's majority ownership of the Company in
+exchange for a short-term, one-year agreement by Stilwell and the
+Fund Defendants not to convert their Notes into shares of common
+stock beyond a set limit. Id. at 27-28.
+Over the course of the next four months, D Stock redemptions
+continued, and the common stock price continued to decline, while
+the Notes' common stock conversion rates grew significantly more
+attractive. Id. By April of 2024, Wheeler's common stock was
+trading at $0.14 per share, which, by Plaintiff's calculation.
+represents a decline in value of over 99 percent in under three
+years. Id. at 5. Indeed, Plaintiff reports that his common stock
+ownership dwindled from over 11 percent to 1.2 percent or less of
+outstanding shares. Id. at 6. Conversely, Stilwell managed to
+\\ parlay his Notes into an effective 80-plus percent ownership
+stake" in Wheeler. Id. Wheeler is still "far from paying off all
+of the Series D shareholders. n and will be \> unable to do so without
+further diluting the common stock. tt Id.
+Against this backdrop of shifting capital structures and
+ownership interests, on April 10, 2024, Plaintiff filed a three
+count Complaint in this Court against both the Individual
+Defendants and Fund Defendants. Count I alleges breach of
+fiduciary duty directly and derivatively against the Individual
+Defendants; Count II alleges, directly and derivatively against
+the Stilwell Fund Defendants, aiding and abetting the Individual
+Defendants' breaches of fiduciary duty; and Count III alleges
+Unjust Enrichment both directly and derivatively against the so-
+called Conflicted Insiders (certain Individual Defendants) and the
+Stilwell Fund Defendants. Id. at 40. Plaintiff seeks damages
+personally. on behalf of the putative shareholder class, and on
+behalf of Wheeler. Id. at 41-42. Plaintiff also seeks equitable
+relief, namely an injunction prohibiting further interest payment
+on the Notes in discounted D Stock shares. Id.
+On June 10, 2024, both the Individual Defendants and Fund
+Defendants filed separate, though interrelated, motions to dismiss
+Plaintiff's Complaint. ECF Nos . 23 , 24 , 26 . In addition to seeking
+dismissal of all counts under Rule 12(b)(6) for failure to state a
+claim. both sets of defendants seek dismissal under Rule 23.1 for
+failure to satisfy the prerequisites to bringing a derivative
+claim, and the Fund Defendants advance a challenge to this Court's
+personal jurisdiction under Rule 12(b)(2). ECF No. 27, at 15; Fed.
+R. Civ. P. 12(b)(6); Fed. R. Civ. P. 12(b)(2); Fed. R. Civ. P.
+23.1. After receiving a briefing extension, on July 25, 2024,
+Plaintiff filed a consolidated response in opposition to the
+motions to dismiss. ECF No. 32. On August 15, 2024, both the
+Individual and Fund Defendants filed separate reply briefs in
+support of their respective motions to dismiss. ECF Nos. 37, 38.
+The matter is thus fully briefed and ripe for disposition.
+II. LEGAL STANDARD
+A, Personal Jurisdiction Rule 12(b) (2)
+Rule 12(b)(2) of the Federal Rules of Civil Procedure permits
+an action to be dismissed for lack of personal jurisdiction. Fed.
+R. Civ. P. 12(b)(2). When resolving a Rule 12(b)(2) motion, a
+district court undertakes a two-step analysis. First, a reviewing
+court looks to whether personal jurisdiction is authorized by state
+law. Mitrano v. Hawes, 377 F.3d 402, 406 (4th Cir. 2004). If
+personal jurisdiction is authorized, then the district court
+determines whether the exercise of personal jurisdiction comports
+with the constitutional requirements of due process. Id. Because
+Virginia's "long-arm n statute extends personal jurisdiction to the
+constitutionally permissible limits of the Due Process Clause of
+the Fourteenth Amendment, the statutory inquiry merges with the
+constitutional inquiry. // Consulting Eng'rs Corp. v. Geometric
+Ltd., 561 F.3d 273, 277 (4th Cir. 2009).
+Controlling this inquiry, the Due Process Clause requires
+\\ \ minimum contacts' with the forum so that the exercise of
+jurisdiction 'does not offend traditional notions of fair play and
+substantial justice. t n Hawkins v. i-TV Digitalis Tavkozlesi zrt..
+935 F.3d 211, 228 (4th Cir. 2019) (quoting International Shoe Co.
+V. Washington, 326 U.S. 310, 316 (1945)). The nature and frequency
+of the forum-state contacts required to establish minimum
+contacts n depends on whether the case involves the exercise of
+specific" or "general" jurisdiction. Fidrych v. Marriott Int'l,
+Inc. , 952 F.3d 124, 131 (4th Cir. 2020). General jurisdiction
+permits the reviewing court to hear any and all claims against the
+defendant; therefore, to exercise general jurisdiction, a defendant
+must have contacts with the forum jurisdiction that are \\ SO
+constant and pervasive as to render it essentially at home in the
+forum State. tf Daimler AG v. Bauman, 571 U.S. 117, 122 (2014)
+(quoting Goodyear Dunlop Tires Operations, S.A. v. Brown, 564 U.S.
+915, 919 (2011) ) . If the defendant does not have sufficient
+contacts to be "at home" in the forum, the district court may
+exercise specific jurisdiction if the defendant has "purposefully
+established minimum contacts in the forum State n such that the
+defendant u should reasonably anticipate being haled into court
+there. u Perdue Foods LLC v. BRF S.A., 814 F.3d 185, 188-89 (4th
+cir. 2016). This "minimum contacts" analysis is "not mechanical, It
+and a reviewing court must weigh "the totality of the facts n before
+it. Id. (quoting Universal Leather, LLC v. Koro AR, S.A., 773 F.3d
+553, 561 (4th Cir. 2014)). To determine whether specific
+jurisdiction lies in the forum state, a district court considers
+(1) the extent to which the defendant purposefully availed itself
+of the privilege of conducting activities in the State; (2) whether
+the plaintiffs' claims arise out of those activities directed at
+the State; and (3) whether the exercise of personal jurisdiction
+would be constitutionally reasonable. n Id. (quoting ALS Scan,
+Inc. V. Digital Serv. Consultants, Inc., 293 F.3d 707, 712 (4th
+Cir. 2002)) . The plaintiff must prevail on each prong. Consulting
+Eng'rs. 561 F.3d at 278.
+Incorporating these background legal principles, when a
+district court reviews a pretrial challenge to personal
+jurisdiction without conducting an evidentiary hearing, as here,
+the plaintiff need only make a prima facie showing of personal
+jurisdiction. Carefirst of Maryland, Inc, v. Carefirst Pregnancy
+Centers, Inc., 334 F.3d 390, 396 (4th Cir. 2003) (citing Combs v.
+Bakker, 886 F.2d 673, 676 (4th Cir. 1989)). In considering whether
+a plaintiff has made the requisite showing, reviewing courts must
+construe all relevant pleading allegations in the light most
+favorable to the plaintiff, assume credibility, and draw the most
+favorable inferences for the existence of jurisdiction. Brooks
+V . Motsenbocker Advanced Devs., Inc., 242 F. App'x 889, 890 (4th
+Cir. 2007) (citing Combs, 886 F.2d at 676).
+If the plaintiff has made a prima facie showing, the defendant
+must present a compelling case that the presence of some other
+considerations would render jurisdiction [so] unreasonable as to
+offend traditional notions of fair play and substantial justice.
+Medmarc Cas. Ins. Co. v. GD Grp. USA Co., 669 F. Supp. 3d 555, 560-
+u motion papers, supporting legal memoranda, [and] the allegations
+in the complaint. // Consulting Eng'rs, 561 F.3d at 276; see 5B Alan
+Wright & Arthur Miller, Fed. P. & Proc. § 1351, at 305 (3d ed.
+2004) .
+B. Failure to State a Claim - Rule 12(b) (6)
+Federal Rule of Civil Procedure 12(b) (6) provides for the
+dismissal of a cause of action based on the plaintiff's failure to
+state a claim upon which relief can be granted. // Fed. R. Civ. P.
+12(b)(6). A motion to dismiss pursuant to Rule 12(b)(6) must be
+read in conjunction with Federal Rule of Civil Procedure 8(a)(2),
+which requires only \\ a short and plain statement of the claim
+showing that the pleader is entitled to relief" so as to "give the
+defendant fair notice of what the . . . claim is and the grounds
+upon which it rests. n Bell Atl. Corp. v. Twombly, 550 U.S. 544,
+555 (2007) (quoting Conley v. Gibson, 355 U.S. 41, 47 (1957)).
+Fair notice is provided by setting forth enough facts to >\ raise a
+right to relief above the speculative level on the assumption that
+all the allegations in the complaint are true (even if doubtful in
+fact). tt Id. at 555, 570.
+To survive a motion to dismiss under Rule 12(b) (6) , a
+complaint "must contain sufficient factual matter, accepted as
+true, to 'state a claim to relief that is plausible on its face. / n
+Ashcroft V. Iqbal, 556 U.S. 662, 678 (2009) (quoting Twombly, 550
+U.S. at 570) . The plausibility standard is not akin to a
+'probability requirement,' but it asks for more than a sheer
+possibility n that a defendant is liable. Id. (quoting Twombly,
+550 U.S. at 556) . Moreover, neither w [tjhreadbare recitals of the
+elements of a cause of action. supported by mere conclusory
+statements, tt nor \\ unadorned, the-defendant-unlawfully-harmed-me
+accusation [s] H suffice to meet the plausibility requirement. Id.
+(citing Twombly, 550 U.S, at 555).
+Because a motion to dismiss tests the sufficiency of a
+complaint without resolving factual disputes. a district court
+\\ \ must accept as true all of the factual allegations contained in
+the complaint' and 'draw all reasonable inferences in favor of the
+plaintiff. / n Kensington Volunteer Fire Dep't, Inc, v. Montgomery
+Cnty. , Md. , 684 F.3d 462, 467 (4th Cir. 2012) (quoting E. I. du Pont
+de Nemours & Co. v. Kolon Indus., Inc., 637 F.3d 435, 440 (4th Cir.
+2011)). Although the truth of the well-pled facts is presumed,
+district courts are not bound by the "legal conclusions drawn from
+the facts" and "need not accept as true unwarranted inferences,
+unreasonable conclusions, or arguments. u E. Shore Mkts., Inc, v.
+J.D. Assocs. Ltd. P'ship, 213 F.3d 175, 180 (4th Cir. 2000) .
+C. Derivative Action Requirements - Rule 23.1
+Rule 23.1 of the Federal Rules of Civil Procedure applies when
+\\ one or more shareholders or members of a corporation" bring a
+derivative action to enforce a right that the corporation
+.
+may properly assert but has failed to enforce. n Fed. R. Civ. P.
+23.1(a). Rule 23.1 provides, among other requirements, that the
+complaint must be verified and must . . . state with particularity:
+(A) any effort by the plaintiff to obtain the desired action from
+the directors or comparable authority and, if necessary, from the
+shareholders or members; and (B) the reasons for not obtaining the
+action or not making the effort. // Fed. R. Civ. P. 23.1(b) (3) .
+III. DISCUSSION
+In their respective motions, the Individual and Fund
+Defendants advance numerous grounds for dismissal. Because federal
+courts generally must first resolve questions of jurisdiction
+before addressing the merits of a case, the Court first addresses
+the Stilwell Fund Defendants' challenge to personal jurisdiction.
+Sinochem Int'l Co. v. Malaysia Int'l Shipping Corp., 549 U.S. 422,
+430-31 (2007) (citing Steel Co. v. Citizens for Better Environment,
+523 U.S. 83, 93-102 (1998)).
+A. Personal Jurisdiction over the Stilwell Fund Defendants
+The Stilwell Fund Defendants seek dismissal of the Complaint
+under Rule 12(b)(2), arguing that Plaintiff cannot establish that
+the Fund Defendants have sufficient contacts with Virginia to
+subject them to personal jurisdiction in the state. ECF No. 27,
+at 15. The parties appear to agree that general jurisdiction is
+not present, so the dispute centers on whether Plaintiff has made
+a prima facie showing of specific jurisdiction over the Stilwell
+Fund Defendants to survive the jurisdictional challenge.
+Carefirst, 334 F.3d at 396.
+As previously explained, for a district court to exercise
+specific personal jurisdiction, the defendant must have
+W purposefully established minimum contacts in the forum State such
+that it should reasonably anticipate being haled into court there. u
+Perdue Foods, 814 F.3d at 189. When analyzing a defendant's
+contacts with the forum state, a reviewing court considers (1)
+the extent to which the defendant purposefully availed itself of
+the privilege of conducting activities in the State; (2) whether
+the plaintiffs' claims arise out of those activities directed at
+the State; and (3) whether the exercise of personal jurisdiction
+would be constitutionally reasonable. n Id. (internal citations
+omitted). The plaintiff must prevail on each prong to demonstrate
+that jurisdiction is proper. Id.
+Applying this tripartite test, the Court first considers the
+extent to which the Stilwell Fund Defendants have purposefully
+availed themselves of the privilege of conducting activities in
+Virginia. While the "purposeful availment" requirement is not
+\\ susceptible of mechanical application. tf Consulting Eng'rs, 561
+F.3d at 278, district courts addressing a business-related suit
+consider the following factors: (1) \\ whether the defendant
+maintains offices or agents in the forum state; n (2) \\ whether the
+defendant owns property in the forum state; n (3) w whether the
+defendant reached into the forum state to solicit or initiate
+business; // (4) \\ whether the defendant deliberately engaged in
+significant or long-term business activities in the forum state; //
+(5) \\ whether the parties contractually agreed that the law of the
+forum state would govern disputes; It (6) \\ whether the defendant made
+in-person contact with the resident of the forum in the forum state
+regarding the business relationship; // (7) \\ the nature, quality and
+extent of the parties' communications about the business being
+transacted;" and (8) "whether the performance of contractual duties
+was to occur within the forum. // Id. (internal citations omitted).
+Considering the first factor (maintaining offices), while the
+Stilwell Fund Defendants do not maintain offices in Virginia,
+Plaintiff alleges that the Stilwell Fund Defendants are all
+controlled and managed by Stilwell. ECF No. 1, at 2. In his
+capacity as a Wheeler director, Stilwell routinely attends Wheeler
+board meetings in Virginia Beach, VA, Wheeler's principal place of
+business. Id. However, neither Stilwell nor the Stilwell Fund
+Defendants are based in Virginia, and Plaintiff does not allege
+that Stilwell should be considered an "agent tt of the Stilwell Fund
+Defendants in this context, so this first factor modestly counsels
+against finding purposeful availment. Addressing the second factor
+(property ownership), it is undisputed that the Stilwell Fund
+Defendants do not own physical property in Virginia, which has
+historically been the focus of reviewing courts addressing this
+factor. See Base Metal Trading, Ltd, v. QJSC, 283 F.3d 208, 213
+(4th Cir. 2002) . However, the Stilwell Fund Defendants are alleged
+(with Stilwell personally) to own over 80% of Wheeler's common
+stock (ECF No. 1, at 26-27), and Wheeler is headquartered in
+Virginia while incorporated in Maryland. See Lee Graham Shopping
+Ctr. V. Kirsch, No. I:13cvl89, 2013 WL 12097824, at *1 (E.D. Va.
+May 2, 2013) (finding personal jurisdiction where the defendant
+did not own physical property in Virginia but claimed an ownership
+interest in a Virginia LLC, and observing that the act of claiming
+an ownership interest in a closely-held Virginia business satisfies
+this Court that it may exercise personal jurisdiction over the
+entities"). This second factor thus lightly counsels in favor of
+finding personal jurisdiction.
+As to the third factor (soliciting business), Plaintiff
+alleges that the Stilwell Fund Defendants invested in Wheeler and
+then engaged in a year-long proxy fight over the composition of
+Wheeler's Board to appoint their own directors, implement their
+own financial plans. and ultimately profit on their investment.
+ECF No. 1, at 2-7. Indeed, the Fund Defendants are alleged to have
+purchased the majority of the available Notes (for nearly $25
+million), ultimately amassing a majority ownership stake Wheeler,
+a company with its principal place of business in Virginia. Id.
+at 15 . These facts are plainly indicative of the Stilwell Fund
+Defendants' initiation of business in Virginia (through their
+extensive engagement with and investment in a company with its
+principal place of business in Virginia), and counsel in favor of
+finding minimum contacts as Plaintiff has made a showing that the
+Fund Defendants' Wheeler transactions form the basis of this suit.
+Id. at 37-41; see Universal Leather, 773 F.3d at 562-63 (noting
+that a corporate defendant's business meetings and ongoing business
+dealings with the plaintiff counseled in favor of finding that the
+plaintiff had made a prima facie showing of personal jurisdiction
+in the state where the plaintiff was headquartered).
+Reviewing the fourth factor (business activities), it is
+evident that the Stilwell-controlled Fund Defendants have
+deliberately engaged in significant or long-term business
+activities with respect to the Virginia-headquartered Wheeler. As
+noted, over the span of five years, Stilwell and the Stilwell Fund
+Defendants allegedly accumulated a predominant ownership stake in
+Wheeler, won numerous seats on the board of directors, and have
+implemented various financial plans for the Company's capital
+structure, not to mention the allegation that one Stilwell Fund
+Defendant received two multi-million-dollar investments from
+Wheeler. Id. at 24-25; see Alterseekers, Inc, v. BrandForce SF,
+LLC, No. CV 12-5392, 2015 WL 5719759, at *5-7 (E.D.N.Y. Sept. 29,
+2015) (observing that personal jurisdiction is appropriately
+extended to a corporation without any contacts with the forum state
+when the corporation is sufficiently alleged to be so dominated
+by an individual // who is subject to personal jurisdiction in the
+forum state) ; see also Loc. 875 I.B.T. Pension Fund v. Pollack,
+992 F. Supp. 545, 557 {E.D.N.Y. 1998) {concluding that the
+plaintiffs had made a prima facie showing of personal jurisdiction
+over a foreign investment firm in part because personal
+jurisdiction existed over the individual manager of the investment
+firm) . This fourth factor thus counsels in favor of finding minimum
+contacts.^ Id. at 37-41. And after considering the remaining four
+factors and drawing the most favorable inferences for the
+existence of jurisdiction, n Brooks, 242 F. App'x at 890, the Court
+finds that the Stilwell Fund Defendants have purposefully availed
+themselves of the privilege of conducting activities in Virginia
+through establishing sufficient contacts with the state. 10
+® The Court has weighed the fifth factor (governing law) and recognizes that
+the investment agreement between Wheeler and one of the Stilwell Fund
+Defendants did not select Virginia law to govern disputes. Considering the
+sixth factor (in-person contacts) and drawing reasonable inferences in favor
+of jurisdiction, Stilwell, allegedly the controlling manager of the Stilwell
+Fund Defendants, has routinely made in-person contact with Wheeler in Virgina
+regarding his investment in Wheeler, through, among other activities,
+attending Wheeler board meetings. Regarding the seventh factor
+(communication) , when drawing the most favorable inferences for the existence
+of jurisdiction, the Court may infer that there has been communication between
+the Stilwell Fund Defendants and Wheeler regarding the Stilwell Fund
+Defendants' purchase of wheeler's debt and equity and their receipt of an
+investment from Virginia-headquarteredWheeler. Brooks, 242 F. App'x at 890.
+The final factor (location of performance of contractual duties) also cuts
+in favor of finding purposeful availment as the Stilwell Fund Defendants
+concede that the agreement governing Wheeler's investment in one of their
+funds "contemplate[s] some performance in Virginia." ECF No. 27, at 21.
+The Court next addresses the second requirement to exercise
+specific personal jurisdiction - whether Plaintiff's claims arise
+out of the Stilwell Fund Defendants' activities directed at
+Virginia. Plaintiff's claims against the Stilwell Fund Defendants
+can be summarized as follows. Count II alleges that as entities
+controlled and managed by Stilwell, the Stilwell Fund Defendants
+aided and abetted the Board and management's breach of fiduciary
+duties by purchasing substantial amounts of Wheeler's Notes and
+receiving shares of D Stock, thereby facilitating the increase in
+Stilwell's ownership of Wheeler at the expense of some common
+stockholders. ECF No. 1, at 39. Count III alleges that the
+Stilwell Fund Defendants were unjustly enriched by their receipt
+of discounted shares of D Stock, discounts on the Notes' common
+stock conversion price, and \\ at least $7 million in investments u
+by Wheeler. Id. at 40.
+securities in a corporation formed in Delaware 'impliedly consents' to
+subject himself to Delaware's . . . jurisdiction on any cause of action."
+Shaffer, 433 U.S. at 216 (emphasis added). There, the appellants had
+"nothing to do with the State of Delaware" besides accepting a directorship
+in a company incorporated in Delaware, and the Plaintiff did not allege "any
+act related to his cause of action as having taken place in Delaware." Id.
+at 213. By contrast, the Stilwell Fund Defendants are alleged to have
+robustly engaged with the Virginia-headquartered Wheeler by amassing a
+predominant ownership stake in the Company, engaging (by way of Stilwell)
+in a sustained proxy fight to change the composition of Wheeler's board, and
+accepting a multi-million-dollar investment from Wheeler, memorialized in
+an investment agreement which, the Fund Defendants concede, "contemplate[s]
+some performance in Virginia." ECF No. 27, at 21. Additionally, as
+discussed further below, the Stilwell Fund Defendants' preceding engagement
+with Wheeler does form the basis of Plaintiff's suit.
+Each of the preceding claims arises out of the Stilwell Fund
+Defendants' activities directed at Virginia because, drawing the
+most favorable inferences for the existence of jurisdiction, their
+investments in Wheeler facilitated the Individual Defendants'
+alleged breaches of fiduciary duty. The Stilwell Fund Defendants,
+through their Notes ownership, received the D Stock-based interest
+payments, one of the core decisions that Plaintiff challenges in
+his breach of fiduciary duty claim. Brooks, 242 F. App'x at 890;
+Id. at 38-39. The Individual Defendants plausibly engaged in the
+alleged breaches in Virginia, where Wheeler has its principal place
+of business and where its Board presumably convenes. Additionally,
+as the Stilwell Fund Defendants acknowledge, they did to some
+extent solicit a multi-million-dollar investment from the Virginia-
+headquartered Wheeler by sending marketing materials to the Company
+and entering into an investment agreement that contemplates some
+performance in Virginia. ECF No. 1, at 40. Indeed, this latter
+transaction serves as the partial factual predicate for Plaintiff's
+third count alleging unjust enrichment. ECF No. 1, at 40.
+Therefore, when viewed in the light most favorable to Plaintiff,
+the foregoing claims arise out of the Stilwell Fund Defendants'
+activities directed at the Virginia-headquartered Wheeler. Brooks,
+242 F. App'x at 890.
+In addressing the third requirement for the exercise of
+specific personal jurisdiction whether exercising personal
+jurisdiction would be constitutionally reasonable the Court
+considers the following factors: (1) the burden on the Stilwell
+Fund Defendants of litigating in Virginia; (2) Virginia's interest
+in adjudicating the instant dispute; (3) Plaintiff's interest in
+obtaining convenient and effective relief from this Court; (4) the
+shared interest of the states in obtaining efficient resolution of
+disputes; and (5) the interests of the states in furthering
+substantive social policies. Consulting Eng'rs, 561 F.3d at 279
+{citing Burger King, 471 U.S. at 477) .
+Considering these factors, the Stilwell Fund Defendants
+acknowledge that the burden of litigating in Virginia is
+concededly small, // and thus the first factor counsels in favor of
+finding jurisdiction reasonable. ECF No. 27, at 24. Addressing
+the second factor, Virginia has a legitimate interest in
+adjudicating disputes arising out of the corporate activities of a
+publicly traded company headquartered in Virginia. See Carfax,
+Inc. V. Accu-Trade, LLC, No. I:21cv361, 2022 WL 657976, at *9 (E.D.
+Va. March 4, 2022) (finding that Virginia had a legitimate interest
+in adjudicating the dispute in part because the company at issue
+was headquartered and principally operating in Virginia").
+Considering the third factor, Plaintiff does have an interest in
+obtaining relief from this Court — which is, of course, located
+near Wheeler's principal place of business — to prevent the filing
+of a separate suit against the Stilwell Fund Defendants that could
+produce a judgment inconsistent with this Court's disposition of
+the interrelated allegations against the Individual Defendants who
+have not contested this Court's personal jurisdiction. See
+Mussetter Distrib., Inc, v. DBI Beverage Inc., Civ. No. 09-1442,
+2009 WL 1992356, at *5 (E.D. Cal. July 8, 2009) {"Ultimately, the
+adjudication of th[e] common questions in a single forum will
+promote judicial economy, conserve the parties' resources, and
+avoid inconsistent judgments — all in furtherance of the interests
+of justice.")
+Finally, the Court's resolution of the instant dispute
+promotes efficiency by avoiding the delays associated with case
+transfer or refiling of dispositive motions that are currently
+fully briefed, and the parties have not addressed whether another
+state may have a greater interest in vindicating any social
+policies implicated by this securities litigation. See In re
+John's Overtime Litig., 877 F.3d 756, 762 (7th Cir. 2017)
+("Avoiding duplicative litigation is desirable to prevent the
+economic waste . . . [that] would have an adverse effect on the
+prompt and efficient administration of justice.") (internal
+quotation marks omitted).
+■k * *
+In sum, after applying the preceding three-part framework for
+review, viewing the facts in the light most favorable to Plaintiff,
+and drawing all reasonable inferences in favor of jurisdiction,
+the Court concludes that Plaintiff has made a prima facie showing
+sufficient to survive the Stilwell Fund Defendants' jurisdictional
+challenge. The exercise of specific personal jurisdiction over
+the Stilwell Fund Defendants is thus appropriate at this stage of
+the pretrial proceedings. Consulting Eng'rs, 561 F.3d at 277. To
+counter this prima facie showing and avoid the exercise of personal
+jurisdiction. the Stilwell Fund Defendants must present a
+compelling case that the \\ presence of some other considerations
+would render jurisdiction [so] unreasonable t! as to \\ offend
+traditional notions of fair play and substantial justice. u
+Medmarc, 669 F. Supp. 3d at 560-61. They have not identified any
+other considerations that would render jurisdiction so
+unreasonable, and thus the Fund Defendants' argument for personal
+jurisdiction-based dismissal under Rule 12(b)(2) is DENIED.
+B. Individual Defendants' Motion to Dismiss
+Having resolved the sole jurisdictional challenge, the Court
+now turns to the merits of the Individual Defendants' motion to
+dismiss. ECF No. 25. Plaintiff's first count alleges breach of
+fiduciary duty directly and derivatively against the Individual
+Defendants. ECF No. 1, at 37. In Count I, Plaintiff claims that
+the Individual Defendants each a Wheeler director except for
+Franklin, the CEO — breached their fiduciary duties owed to the
+Company, to Plaintiff, and to the putative Class, 13 Id. In Count
+III, Plaintiff alleges unjust enrichment directly and derivatively
+against certain Individual Defendants (the so-called w Conflicted
+Insiders"), namely directors Stilwell, Borrack, Campbell, Poskon,
+Parisi, and CEO Franklin. Id. at 40.
+The Individual Defendants seek dismissal on three grounds.
+First, they argue that Plaintiff cannot satisfy Rule 23.1 of the
+Federal Rules of Civil Procedure with respect to his derivative
+claims in Counts I and III because he failed to make an adequate
+[litigation] demand tt on Wheeler before filing suit. ECF No. 25,
+at 16, 23. And even if Plaintiff did make an adequate demand, the
+Individual Defendants maintain, Plaintiff does not fairly represent
+the interests of other similarly situated shareholders as required
+2022 or 2023 to repurchase Series D shares prior to the Redemption Date,
+despite the Company having adequate cash on hand and available assets to
+make such an offer to Series D shareholders, including at least $7 million
+in cash that was instead invested in [one Fund Defendant] , which resulted
+in the severe dilution and reduction in the price of Wheeler's common stock."
+ECF No. 1, at 38. Second, the Individual Defendants authorized Wheeler to
+pay interest to Noteholders in discounted D Stock shares instead of available
+cash, which increased the Company's exposure to D Stock redemptions in
+addition to diluting and reducing the price of Wheeler's common stock, Id.
+at 38.
+under Rule 23.1 to bring a derivative claim. Id. Second, to the
+extent Plaintiff purports to bring the Count I breach of fiduciary
+duty claim directly {thereby avoiding Rule 23.1's derivative suit
+requirements), such claim must be dismissed as it cannot form the
+basis for a direct cause of action. Id. at 25. Third, the
+Individual Defendants separately maintain that Counts I and III
+fail to state a claim under Rule 12(b)(6). Id. at 29. The Court
+addresses each contention in turn.
+1. Rule 23.1
+a. Demand Letter
+As previously noted. Rule 23.1 of the Federal Rules of Civil
+Procedure authorizes a shareholder to bring a derivative action
+to enforce a right that the corporation or association may properly
+assert but has failed to enforce. tt Fed. R. Civ. P. 23.1 (a) .
+However, Rule 23.1 requires that the named plaintiff fairly and
+adequately represent[s] the interests of shareholders or members
+who are similarly situated in enforcing the right of the
+corporation. tt Id. Additionally, Rule 23.1(b) provides heightened
+pleading standards, which require that the complaint state with
+particularity . . . (A) any effort by the plaintiff to obtain the
+desired action from the directors or comparable authority and, if
+necessary, from the shareholders or members; and (B) the reasons
+for not obtaining the action or not making the effort. tt Fed. R.
+Civ. P. 23.1(b)(3).
+Because Wheeler is incorporated under Maryland law, Maryland
+law defines the standard for evaluating the sufficiency of the
+Plaintiff's efforts to \\ obtain the desired action from the
+directors or comparable authority, II known as the "pre-suit demand //
+requirement of Rule 23.1(b) (3) . See Star v, TI Oldfield Dev. , LLC,
+962 F.3d 117, 134 (4th Cir. 2020) ("In evaluating a derivative
+claim. a federal court must determine the adequacy of pleading
+under federal law but determine the sufficiency of the pre-suit
+demand under the substantive law of the state of incorporation." )
+(citing Kamen v. Kemper Fin. Servs., Inc., 500 U.S. 90, 108-09
+(1991)).
+Drawing on this legal background, the Individual Defendants
+argue that Plaintiff failed to make the requisite pre-suit demand
+on Wheeler, and that the demand requirement was not excused under
+the circumstances of this suit. ECF No. 25, at 16. Before bringing
+a derivative suit in Maryland, the shareholder "must either make a
+demand on the board of directors that the corporation bring the
+suit, or show that demand is excused as futile. // Bender v.
+Schwartz, 172 Md. App. 648, 666, 917 A.2d 142, 152 (Md. Ct. App.
+2007) . Once a demand is made, the corporation's board of directors
+must investigate the allegations in the demand and \\ determine
+whether pursuing the demanded litigation is in the best interests
+of the corporation. H Id.; Werbowsky v. Collomb, 362 Md. 581, 602,
+766 A.2d 123, 135 (2001) {"[T]he complaining stockholder must make
+demand upon the corporation itself to commence the action.")
+Maryland's demand requirement is "strictly construed" and
+frequently leads to the dismissal of derivative actions. JFURTI,
+LLC V. Forum Partners Investment Management, LLC, No. 16 Civ. 8633,
+2017 WL 1753487, at *8 (S.D.N.Y. Apr. 27, 2017) (applying Maryland
+law and granting a motion to dismiss based on an insufficient
+demand letter); see also Burt Shearer Trustee v. Adams, No.
+3:09cv991, 2010 WL 3782162, at *5 (M.D. Tenn. Sept. 21, 2010)
+(same). For a communication to constitute a Rule 23.1 demand, the
+communication at a minimum must identify the alleged wrongdoers,
+describe the factual basis of the wrongful acts and the harm caused
+to the corporation, and request remedial relief. Bender, 172 Md.
+App. at 669, 917 A.2d at 154 (citing Allison on Behalf of General
+Motors Corporation v. General Motors Corp., 604 F. Supp. 1106, 1117
+(D. Del. 1985)) . In articulating the requirements for a
+communication to constitute a demand, the Bender Court further
+noted that [i]n most instances, the shareholder need not specify
+his legal theory, every fact in support of that theory, or the
+precise quantum of damages, before concluding that [e]ach claim
+must be articulated specifically enough to give directors a fair
+opportunity to initiate the action requested. Bender, 172 Md.
+App. at 670, 917 A.2d at 154.
+Measured against the requirements of Maryland law, Plaintiff's
+letters to the Wheeler Board are fatally devoid of any reference
+to prospective litigation and legal claims for corporate management
+to consider bringing on behalf of Wheeler. See ECF No. 33-1. For
+example, on April 11, 2023, Plaintiff sent a letter to the Board
+of Directors expressing his concerns that management and the Board
+are on a path toward pronounced value destruction. adding that he
+hopes the Board and management understand the importance of
+ceasing any issuance of deeply discounted Series D or Series B
+preferred stock to holders of the Convertible Notes. ECF No. 33-
+1.
+Wholly absent from Plaintiff's preceding critiques of the
+Company's capital decisions is any mention of a legal action that
+the Wheeler directors should consider pursuing on behalf of the
+Company, which is the purpose behind the pre-suit demand
+requirement. Werbowsky, 362 Md. at 602, 766 A.2d at 135 {" [T]he
+complaining stockholder must make demand upon the corporation
+itself to commence the action.") (emphasis added); Bender, 172 Md.
+App. at 669, 917 A. 2d at 154 ("Each claim must be articulated
+specifically enough to give directors a fair opportunity to
+initiate the action requested.") (emphasis added); Mona v. Mona
+Elec. Grp., Inc., 176 Md. App. 672, 706, 934 A.2d 450, 469-70 (Md.
+Ct. Spec. App. 2007) (dismissing derivative claim because the
+plaintiff did not demand, prior to filing suit, that the Board of
+Directors initiate litigation on behalf of the company"); Oliveira
+V. Sugarman, 226 Md. App. 524, 538-39, 130 A.3d 1085, 1094 (Md.
+Ct. Spec. App. 2016), aff ^ d, 451 Md. 208, 152 A.3d 728 (2017)
+(requiring derivative plaintiffs to at the outset, seek a
+corporate decision on whether to maintain a lawsuit, a prerequisite
+known as the demand requirement") (emphasis added); Hoecker v.
+Boynton Ocean, LLC, No. 05-80396-civ, 2005 WL 8156865, at *5 (S.D.
+Fla. Sept. 19, 2005) (applying Maryland law and finding that the
+letter at issue did not satisfy Rule 23.1's demand requirement
+because [t]he letter makes no threat of legal action stemming from
+any alleged wrongdoing").
+Plaintiff's letters' omission of any prospective legal claims
+for the directors to consider bringing on behalf of Wheeler is not
+merely a cosmetic deficiency, nor does the pre-suit demand
+requirement exalt form over substance. Rather, as the Maryland
+Court of Appeals explained in Werbowsky, the "function of the
+demand doctrine i [s] delimiting the respective powers of the
+individual shareholder and of the directors to control corporate
+litigation. [which] clearly is a matter of substance, not
+procedure. Werbowsky, 362 Md. at 601, 766 A.2d at 134 (internal
+quotation marks omitted). To that end, Maryland law requires that
+[e]ach claim must be articulated specifically enough [in the
+demand] to give directors a fair opportunity to initiate the action
+requested by the shareholder, a decision that directors often make
+after receiving the advice of a special litigation committee of
+independent directors" on whether to pursue claims against alleged
+wrongdoers. Werbowsky, 362 Md. at 619, 766 A.2d at 144; Bender,
+172 Md. App. at 669, 917 A.2d at 154. By failing to notify the
+directors of his prospective derivative claims. Plaintiff short-
+circuited the corporate machinery designed to promote "meaningful
+pre-litigation alternative dispute resolution. Werbowsky, 362
+Md. at 619, 766 A.2d at 144. Indeed, this right of the directors
+to first investigate and consider a derivative suit derives from a
+core principle of corporate law - that [gjenerally, the business
+and affairs of a corporation. including the decision to institute
+litigation. are managed under the direction of its board of
+directors. Bender, 172 Md. App. at 665, 917 A.2d at 152.
+In his arguments opposing Rule 23.1-based dismissal. Plaintiff
+first claims that he did make sufficient demands on previous
+Wheeler boards comprised of different directors. ECF No. 32, at
+27 . But this qualification does not change the fact that (1)
+Plaintiff's Complaint does not allege that he ever made a pre-suit
+demand on any Wheeler Board and (2) Plaintiffs' letters to previous
+Wheeler directors remain substantively deficient by failing to
+articulate the legal claims that the Board should consider bringing
+on behalf of the corporation. See ECF No. 1.
+Next, Plaintiff argues that his letters do assert that the
+Board breached its fiduciary duties by, among other actions,
+issuing shares of D Stock as interest payment on the Notes. ECF
+No. 32, at 19-20. However, Plaintiff's expression of his view that
+a corporate decision breached a fiduciary duty is not the
+equivalent of a shareholder . . . alleg[ing] and prov[ing] that
+he, she, or it requested the directors to sue in the name of the
+corporation. as required under Maryland law. Werbowsky, 362 Md.
+at 621, 766 A.2d at 145 {emphasis added) . This demand prerequisite
+requires that each claim be articulated specifically enough to
+give directors a fair opportunity to initiate the action. which
+in this case would have also required Plaintiff to articulate his
+derivative claim for unjust enrichment. Bender, 172 Md. App. at
+669, 917 A.2d at 154; see Mona, 176 Md. App. at 706, 934 A.2d at
+469-70 (dismissing a derivative claim where the demand letter
+failed to give the company notice of all of the plaintiff's bases
+for litigation) ; see also JFURTI, LLC v. F. Partners, 2017 WL
+1753487 at *8 (applying Maryland law and dismissing derivative suit
+for failure to satisfy pre-suit demand requirement). Indeed,
+insofar as Plaintiff's letters request any action. it is not the
+initiation of a lawsuit he seeks, but rather a genuine,
+constructive conversation to discuss Wheeler's financial position
+in the hope that the Board would implement Plaintiff's business
+plan for buying back outstanding D Stock. See ECF No. 33-1, at 4.
+In a final effort to combat Rule 23.1 dismissal. Plaintiff
+cites JFURTI, LLC v. Singal for the proposition that he did not
+need to u raise every cause of action he now alleges in the
+Complaint. u No. 17 Civ. 7206, 2018 WL 6332907, at *9 (S.D.N.Y.
+Nov. 12, 2018). But the plaintiff in JFURTI had U served a written
+demand on each member of the Board of Directors . . . [requesting
+that they] take legal action to recover damages and obtain relief
+. . for the fraud [and] breaches of fiduciary duty n in addition
+to several other legal claims. JFURTI, LLC V. Singal, No. 17 Civ.
+7206, ECF No. 36, at *2-3. Plaintiff's letters here are
+meaningfully different from the JFURTI plaintiff's letters' (and
+complaint's) express and expansive request for the initiation of
+legal action, as Plaintiff's letters here not only fail to request
+any legal action on behalf of Wheeler, but his Complaint does not
+even claim that a litigation demand was submitted. See ECF No. 1.
+Instead, Plaintiff's Complaint only describes the Wheeler
+directors' alleged conflicts of interest that supposedly justified
+Plaintiff's decision not to submit a demand letter. maintaining
+that he has not made a demand on the Demand Board to investigate
+or pursue the derivative claims herein because demand is excused
+as futile. tt ECF No. 1, at 30.
+At bottom. none of Plaintiff's letters to the Wheeler Board
+(when considered individually or together) meet the requirement
+for a pre-suit litigation demand letter under Rule 23.1, and thus
+Plaintiff's derivative claims may only survive dismissal if demand
+was excused as \s futile" under Maryland law. Werbowsky, 362 Md. at
+602, 766 A.2d at 135 .
+b. Futility Exception to the Demand Requirement
+The pre-suit demand requirement is subject to one \\ well-
+recognized H exception — that prior demand is not required when such
+demand would be futile. // Werbowsky, 362 Md. at 602, 766 A.2d at
+135; Laidlaw v. Beneficial Bancorp, Inc., No. 24-C-17-1057, 2017
+WL 8942454, at *3 {Md. Cir. Ct. Aug. 08, 2017) ("Futility is the
+only exception to Maryland's demand requirement."). However, this
+futility exception is unusually exacting under Maryland law. //
+JFURTI, LLC V. F. Partners, 2017 WL 1753487, at *8. In Werbowsky,
+the Maryland Court of Appeals explained the futility exception in
+great detail, observing that demand futility is:
+a very limited exception, to be applied only when the
+allegations or evidence clearly demonstrate, in a very
+particular manner, either that (1) a demand, or a delay
+in awaiting a response to a demand, would cause
+irreparable harm to the corporation, or (2) a majority
+of directors are so personally and directly conflicted
+or committed to the decision in dispute that they cannot
+reasonably be expected to respond to a demand in good
+faith and within the ambit of the business judgment rule.
+Werbowsky, 362 Md. at 602, 766 A.2d at 144. Consistent with this
+exacting standard, demand is not excused under Maryland law simply
+because \\ a majority of the directors approved or participated in
+some way in the challenged transaction or decision. // Id. at 618,
+143. Underscoring the "narrowness" of Maryland's demand futility
+exception, the Maryland Court of Appeals has explained that even a
+director that expects to derive a personal benefit from a
+corporate transaction — and is therefore not disinterested IS
+not necessarily so personally and directly conflicted or committed
+to the decision in dispute that they cannot reasonably be expected
+to respond to a demand in good faith and within the ambit of the
+business judgment rule. Oliveira v. Sugarman, 451 Md. 208, 229,
+152 A.3d 728, 741 (2017) (internal quotation marks omitted).
+Mindful of this exacting legal standard, the Court turns to
+Plaintiff's argument that demand was futile. Plaintiff does not
+claim that Werbowsky's first irreparable harm-based exception is
+applicable, but instead relies on the second exception, contending
+that a majority of Wheeler's directors are so personally and
+directly conflicted or committed to the decision in dispute to
+excuse a pre-suit demand. Werbowsky, 362 Md. at 620, 766 A.2d at
+144; ECF No. 1, at 30-34. Accordingly, the Court examines the
+allegations against each individual director to determine whether
+Plaintiff has adequately alleged that a majority are so conflicted.
+To start. Plaintiff alleges that Individual Defendant-
+directors Borrack and Parisi have disabling conflicts and financial
+interests, a claim based on the fact that both directors are
+employed by Stilwell, and thus purportedly stand to benefit
+financially from Stilwell and his Funds' financial interest in the
+challenged transactions (issuance of shares of D Stock and the
+Notes conversion). ECF No. 1, at 32. But this type of demand
+futility argument is directly undermined by the standards
+articulated in Oliveira and Werbowsky, the latter opinion noting
+that the demand requirement is not excused based on speculative
+allegations that [directors] are conflicted or are controlled by
+other conflicted persons . . . or would be hostile to the [remedial]
+action. ft Werbowsky, 362 Md. at 618, 766 A.2d at 143-44.
+Plaintiff's allegations of disabling conflict against Parisi and
+Borrack plainly rely on impermissible speculation that such
+directors could not respond to a demand in good faith because of
+Stilwell's controlling influence and u the[ir] expect[ation] to
+derive a personal benefit // as employees of his investment fund.
+Oliveira, 451 Md. at 229, 152 A. 3d at 741 (explaining that a
+u director that expects to derive a personal benefit from a
+corporate transaction If is not necessarily unable to respond
+reasonably to a pre-suit demand). At bottom. Plaintiff's
+allegations against directors Borrack and Parisi, without more,
+are insufficient to justify the \\ unusually exacting // futility
+exception to the demand requirement. JFURTI, LLC V. F. Partners,
+2017 WL 1753487, at *8-9.
+Next, Plaintiff alleges that Individual Defendant-director
+Campbell has a disabling conflict justifying the futility
+exception. Plaintiff's allegation is solely premised on the fact
+that Campbell owns $100,000 worth of the Notes, which represent
+w the entirety of Defendant Campbell's stock ownership" in Wheeler.
+ECF No. 1, at 15, 32-33. But the fact that Campbell participated
+in Wheeler's Rights Offering an opportunity offered to all common
+stockholders — and purchased Notes, without more, does not rise to
+the level of conflict required to excuse demand as futile. Indeed,
+under Maryland law, directors are w presumed to act properly and in
+the best interest of the corporation . . . and their control of
+corporate affairs should not be impinged based on non-specific or
+speculative allegations of wrongdoing. // Werbowsky, 362 Md. at 618-
+19, 766 A.2d at 144. Plaintiff offers little more than speculation
+that Campbell could not reasonably respond to a litigation demand,
+speculation that is based on the fact that Campbell owns Notes and
+approved or participated in some way in the challenged transaction
+or decision, a a type of pleading that Maryland courts have deemed
+insufficient to justify the futility exception. 14 Id.
+Given that the allegations against defendant directors
+Borrack, Parisi, and Campbell are insufficient to demonstrate the
+futility of a pre-suit demand, the Court need not reach the question
+of whether Stilwell is so conflicted. Plaintiff has only alleged
+that the preceding four directors are so conflicted, and since at
+least three of these allegations are insufficient. Plaintiff has
+not demonstrated that a majority of the Wheeler Board of seven
+cannot reasonably be expected to respond to a litigation demand in
+good faith. Werbowsky, 362 Md. at 620, 766 A.2d at 144. And even
+assuming arguendo that Stilwell so conflicted, Stilwell is only
+one of seven directors, and thus Plaintiff still fails to show that
+a majority of Board members were sufficiently conflicted.
+Accordingly, demand was not excused in this circumstance under the
+futility exception. 15
+* * ■*
+In summary, Plaintiff has plainly failed to submit a pre-suit
+litigation demand to the Wheeler Board as required by Rule 23.1,
+and Plaintiff has not demonstrated that the \\ very limited
+exception // of demand futility applies here. Werbowsky, 362 Md. at
+620, 766 A.2d at 144. Because Plaintiff's Complaint fails to
+allege sufficient facts which, if true, would demonstrate the
+futility of a demand, it is entirely appropriate to terminate the
+action on a motion to dismiss. f/ Id. at 145, 620; see Weinberg ex
+rel. BioMed Realty Tr., Inc, v. Gold, 838 F. Supp. 2d 355, 362 (D.
+Md. 2012) (dismissing shareholder derivative suit where the
+plaintiff failed to make a pre-suit demand and demand was not
+excused as futile). The Individual Defendants' motion to dismiss
+is thus GRANTED as to all of Plaintiff's derivative claims in
+Counts I, II, and III.^^
+2. Challenge to Plaintiff's Remaining Direct Claims
+In addition to the Individual Defendants' successful Rule
+23.1-based challenge to Plaintiff's derivative claims. the
+Individual Defendants argue that Plaintiff's direct claims should
+be dismissed because direct relief is not available when a
+plaintiff suffers the same harm as all other shareholders. ECF
+No. 25, at 29. While the Individual Defendants seek the dismissal
+of "the Complaint tf on this basis and thus presumably seek
+dismissal of both counts I and III alleged against the directors —
+the Individual Defendants' supporting arguments and authorities
+here focus on the viability of Count I, which addresses share
+dilution. The Court accordingly focuses its discussion on
+Plaintiff's first count, which alleges that breaches of fiduciary
+duties by Wheeler's Board and management led to the severe
+dilution and reduction in the price of Wheeler's common stock. ft
+ECF No. 1, at 38.
+Since Wheeler is incorporated in Maryland, the parties agree
+that Maryland law applies to Plaintiff's direct claim alleging
+breach of fiduciary duty. See Edgar v. MITE Corp., 457 U.S. 624,
+645 (1982) (noting that under the \\ internal affairs" doctrine,
+\\ only one State should have the authority to regulate a
+corporation's internal affairs"); see also 4D-Enterprises, LLC v.
+Aalto Hyperbaric Oxygen, Inc., No. 119cvl504, 2020 WL 13750856, at
+*8 n.8 (E.D. Va. July 10, 2020) (finding that the law of the state
+of incorporation applies to breach of fiduciary duty claims).
+Under Maryland law, a harm suffered by both the shareholders and
+the corporation alike can only support a shareholder derivative
+claim. Oliveira; 451 Md. at 240, 152 A.3d at 747. Generally, a
+decline in stock value does not give rise to a direct claim because
+both the shareholders and the corporation have suffered the same
+financial loss. Id. (citing Waller v. Waller, 187 Md. 185, 189-
+90, 49 A.2d 449, 449-50 (1946)). Instead, to maintain a direct
+action, the shareholder must allege that he has suffered \\ an injury
+that is separate and distinct from any injury suffered either
+directly by the corporation or indirectly by the stockholder
+because of the injury to the corporation. It Oliveira, 451 Md. at
+240, 152 A.3d at 748 (citing James J. Hanks, Jr., Maryland
+Corporation Law § 7.12(b), at 276.18 (1994, 2015 Supp.)).
+Though the foregoing principles limit the availability of
+direct shareholder claims. the Maryland Court of Appeals has
+recognized that share dilution in some circumstances can support
+a direct claim (emphasis added). 17 Oliveira, 451 Md. at 243, 152
+A.3d at 749; see St. Clair-Hibbard v. American Finance Trust, Inc.,
+812 F. App'x 36, 40 (2d Cir. 2020) (interpreting Maryland law and
+finding that Maryland courts have recognized ([that a dilution
+claim may]) sometimes be prosecuted directly"). In explaining the
+viability of a direct share dilution claim, the Oliveira Court
+listed the important elements for such claim that were missing from
+the plaintiff's complaint there. Oliveira thereby instructed that
+a plaintiff must \> allege share dilution in their complaint. n along
+with facts detailing the impact of such dilution" by W [indicating]
+how much [the plaintiff's] shares were allegedly diluted, what
+effect that dilution had on [the plaintiff's] voting power, if any,
+or what financial loss [the plaintiff] might have suffered due to
+such dilution. n Oliveira, 451 Md. at 243-44, 152 A.3d at 749-50;
+see also St. Clair-Hibbard, 812 F. App'x at 40.
+Applying the foregoing Oliveira standards here, Plaintiff's
+first count plainly alleges share dilution, claiming that the
+Board's failure to make any genuine offers ... to repurchase
+Series D shares" resulted in the "severe dilution and reduction in
+the price of Wheeler's common stock. ECF No. 1, at 3 7-38.
+Further, Count I alleges that the decision to pay interest to
+Noteholders in Series D shares caused further dilution and
+reduction in the price of Wheeler's common stock. H Id. Count I
+also "incorporates and realleges" all of the allegations of the
+Complaint, which expressly state the degree of dilution of
+Plaintiff's common shares and the attendant reduction in
+Plaintiff's voting power: \\ Plaintiff . . . had his stake diluted
+to 1.2 percent or less of outstanding shares, a dramatic reduction
+in his ownership and voting power of approximately 90 percent or
+more ● n ECF No. 1, at 6. In light of Count I's well-developed
+allegations of share dilution caused by the Individual Defendant-
+directors' supposed breach of fiduciary duty. the Individual
+Defendants have not carried their burden to demonstrate that Count
+I fails to state a direct claim. and thus have not demonstrated
+that dismissal is appropriate at this stage. 18
+3. 12(b)(6) Challenge to Counts I and III
+Because the Individual Defendants fail to carry their burden
+to demonstrate that Counts I and III cannot proceed as direct
+claims, the Court next considers their 12(b)(6) argument for
+dismissal, which contends that Plaintiff fails to state a
+cognizable claim. ECF No. 25, at 29. To that end, the Individual
+Defendants first maintain that Count I fails to state a claim for
+breach of fiduciary duty because Plaintiff does not allege
+sufficient facts to overcome Maryland's codified "business judgment
+rule, // and fails to allege sufficient facts to overcome the
+immunity extended to the Board by Wheeler's corporate charter.
+Second, the Individual Defendants argue that Count III fails to
+plead the facts necessary to state a claim for unjust enrichment.
+The Court addresses each argument in turn.
+a. Count One
+i. Business Judgment Rule
+The parties agree that Maryland substantive law applies to
+Plaintiff's first count alleging a direct claim for breach of
+fiduciary duty. See Edgar, 457 U.S. at 645. Additionally, the
+parties agree that the legal duties applicable to Wheeler's Board
+of Directors are set out in section 2-405.1 of the Maryland
+Corporations and Associations Code {the MCA"), which provides that
+a "director of a corporation shall act: (1) In good faith; (2) In
+a manner the director reasonably believes to be in the best
+interests of the corporation; and (3) With the care that an
+ordinarily prudent person in a like position would use under
+similar circumstances. // MCA § 2-405.1(c). Under § 2-405.1(g), an
+act of a director of a corporation is presumed to be in accordance u
+with the foregoing duties enumerated in § 2-405.1(c). Section 2-
+405.1 thus codifies the so-called business judgment rule. //
+Oliveira, 451 Md. at 222, 152 A. 3d at 736, a presumption that in
+making a business decision the directors of a corporation acted
+on an informed basis. in good faith and in the honest belief that
+the action taken was in the best interests of the company. //
+Cherington Condo, v. Kenney, 254 Md. App. 261, 278, 272 A.3d 852,
+862-63 {2022).
+While it is undisputed that most Individual Defendants, as
+Wheeler directors, will receive the benefit of the presumption
+codified in MCA 2-405.1, the parties disagree on the
+applicability of the business judgment rule at the 12(b)(6) stage
+of review. Plaintiff, seeking to avoid dismissal, cites Goldstein
+V. Berman for the proposition that the applicability of the
+business judgment rule is largely a question of fact that is not
+appropriate for determination based solely on the allegations of
+the complaint. // No. Civ. 12-2507, 2014 WL 824050, at *5 (D. Md.
+Feb. 28, 2014) . The Individual Defendants counter that the
+Goldstein court's preceding observation is limited to the facts of
+that case, and posit that the acceptance of such proposition would
+improperly allow plaintiffs to routinely avoid business judgment
+rule-based dismissal at the 12(b)(6) stage.
+In light of this dispute. this Court has canvassed legal
+authorities on the propriety of granting 12(b)(6) dismissal based
+on an application of the business judgment rule. The majority of
+federal courts across jurisdictions have cautioned that the
+business judgment rule is highly fact dependent and. therefore,
+inappropriate for consideration on a motion to dismiss. // F.D.I.C.
+V . Baldini, 983 F. Supp. 2d 772, 783 (S.D. W. Va. 2013); see
+Haworth, Inc, v. Janumpally, No. 5;17cv423, 2018 WL 3978173, at
+*15 (E.D.N.C. Aug. 20, 2018) ("[T]he court at this juncture
+declines to dismiss [the] plaintiff's remaining breach of fiduciary
+duty claim . . . [t]he moving defendants do not cite binding Fourth
+Circuit authority for the proposition that a plaintiff must 'plead
+around the business judgment rule. / /f {internal quotations
+omitted); In re Tower Air, Inc., 416 F.3d 229, 238 (3d. Cir. 2005)
+("Generally speaking, we will not rely on an affirmative defense
+such as the business judgment rule to trigger dismissal of a
+complaint under 12(b)(6)."); Court Appointed Receiver of Lancer
+Offshore, Inc, v. Citco Grp. Ltd., No. 05-60080, 2008 WL 926509,
+at *5 (S.D. Fla. Mar. 31, 2008) ("[T]he Court considers it unwise
+to evaluate conduct and determine whether or not it is protected
+by the business judgment rule at the motion to dismiss stage.");
+In re Luxottica Grp. S.p.A., Sec. Litig., 293 F. Supp. 2d 224, 238
+(E.D.N.Y. 2003) (finding that the exercise of business judgment by
+director defendants is a question of fact not to be considered on
+a dismissal motion) ; Federal Sav. and Loan Ins. Corp. V .
+Musacchio, 695 F. Supp. 1053, 1064 (N.D. Cal. 1988) {"[A] ruling on
+the applicability of the business judgment rule is peculiarly a
+question of fact, wholly inappropriate for consideration on a
+motion to dismiss.")
+Notwithstanding what has been characterized as "overwhelming
+authority counselling against the application of the business
+judgment rule at the 12(b) (6) stage of review, Baldini, 983 F.
+Supp. 2d at 783, a minority of reviewing courts have applied such
+rule at the 12 {b) (6) stage. See, e.g., Allyn v. CNL Lifestyle
+Properties, Inc., No. 6:13cvl32, 2013 WL 6439383, at *4 (M.D. Fla.
+Nov. 27, 2013) (applying Maryland law and granting motion to
+dismiss where the plaintiff's complaint did not contain factual
+allegations sufficient to rebut the presumption that the director
+defendants acted in accordance with Maryland's codified business
+judgment rule).
+The Court, for two principal reasons, finds more persuasive
+the former preponderant view cautioning against premature
+application. First, reviewing courts have described application
+of the business judgment rule as "highly fact intensive," and
+recognize that overcoming its presumptions on the merits can be "a
+near-Herculean" task. In re Tower Air, 416 F.3d at 238. Mandating
+such fact intensive pleading would arguably be in tension with Rule
+8 of the Federal Rules of Civil Procedure, which requires only a
+short and plain statement of the claim showing that the pleader
+is entitled to relief" so as to "give the defendant fair notice of
+what the . . . claim is and the grounds upon which it rests.
+Twombly, 550 U.S. at 555; see In re Tower Air, 416 F.3d at 236;
+see also Ad Hoc Comm, of Equity Holders of Tectonic Network, Inc.
+V. Wolford, 554 F. Supp. 2d 538, 556 (D. Del. 2008). Second, as
+the business judgment rule is often recognized as an affirmative
+defense, a motion to dismiss "generally cannot reach the merits of
+an affirmative defense unless >\ all facts necessary to
+the affirmative defense clearly appear on the face of the
+complaint. n Goodman v. Praxair, Inc., 494 F.3d 458, 464 {4th Cir.
+2007) (quoting Richmond, Fredericksburg & Potomac R.R. v. Forst, 4
+F.3d 244, 250 (4th Cir. 1993)). Here, the Individual Defendants
+have not demonstrated that Plaintiff's Complaint clearly
+articulates all the facts necessary to reach the merits of business
+judgment rule protections at this juncture, and thus have not
+carried their burden to win dismissal.
+In sum. to the extent the Individual Defendants seek dismissal
+of Count I's remaining direct claims based on purported business
+judgment rule protections. their motion to dismiss is denied on
+this ground.
+ii. Corporate Charter Immunity
+The Court next addresses the Individual Defendants' argument
+that Wheeler's corporate charter exculpates all directors and
+officers from liability for monetary damages, and considers whether
+Count I's breach of fiduciary duty claims (as alleged directly)
+should be dismissed based on such corporate charter-provided
+immunity. ECF No. 25, at 34.
+In Maryland, a corporation may include a provision in its
+charter limiting the liability of its directors and officers to
+the corporation or its shareholders for money damages. See Md.
+Code Ann., Corps. & Ass'ns § 2-4 05.2; Md. Code Ann., Cts & Jud.
+Proc. 5-418. wheeler's corporate charter does just that in
+Article VIII, reading: To the maximum extent that Maryland law in
+effect from time to time permits limitation of the liability of
+directors and officers of a corporation, no present or former
+director or officer of the Corporation shall be liable to the
+Corporation or its stockholders for money damages. // ECF No. 25,
+Ex. 5, at 21.
+Notwithstanding the robust limitation of liability permitted
+by Maryland law and invoked by the Wheeler charter, a charter's
+exculpation clause may not limit liability to the extent that a
+director or officer (1) actually received an \\ improper benefit, //
+or (2) engaged in u active and deliberate dishonesty. If Md. Code
+Ann., Cts & Jud. Proc. § 5-418; Hayes v. Crown Cent. Petroleum
+Corp. , 78 F. App'x 857, 865 (4th Cir. 2003) . Therefore, the
+Individual Defendants argue that because Plaintiff's Complaint
+fails to allege that the directors either received an improper
+benefit or engaged in active and deliberate dishonesty, Wheeler's
+exculpation clause forecloses Plaintiff's breach of fiduciary claim
+(Count I) to the extent it seeks monetary damages. ECF No. 25, at
+34 .
+Setting aside the merits of the Individual Defendants'
+preceding argument for dismissal, the Court observes that numerous
+district courts applying Maryland law have determined that it is
+imprudent to rule on corporate charter-based exculpation at the
+motion to dismiss stage. See Zucker, Tr. of Anita G. Zucker Tr,
+Dated Apr. 4, 2007 v. Bowl Am., Inc., No. cv-21-1967, 2022 WL
+7050991, at *3-4 {D. Md. Oct. 11, 2022); Kurlander v. Kaplan,
+No. 819CV644, 2019 WL 3944335, at *6 (M.D. Fla. Aug. 21, 2019)
+(applying Maryland law and declining to rule on corporate charter-
+based liability at the Rule 12(b)(6) stage); see also Malpiede v.
+Townson, 780 A.2d 1075, 1092 (Del. 2001) ("In the case of a Rule
+12(b)(6) motion, [if a charter provision limiting director
+liability] is raised for the first time in the [dismissal] motion
+or brief in support of the motion. it is a matter outside the
+pleading.")
+Considering the reasoning underlying these authorities, in
+Zucker, the District of Maryland observed that the "protection of
+an exculpatory charter provision appears to be in the nature of an
+affirmative defense. // and reviewing courts generally do not
+resolve contests surrounding . . . the applicability of defenses
+through a Rule 12(b)(6) motion. Zucker, 2022 WL 7050991, at *3-
+4 (quoting Edwards v. City of Goldsboro, 178 F.3d 231, 243 (4th
+Cir. 1999)) (internal quotation marks omitted). As noted, only in
+the relatively rare circumstances where facts sufficient to rule
+on an affirmative defense are alleged in the complaint // may the
+Court resolve the dispute at the 12(b) (6) stage. Goodman, 494 F.3d
+at 464. Accordingly, reviewing courts have declined to rule on
+the applicability of a charter exculpation provision when such
+provision is not referenced in the complaint, reasoning that
+without such provision, the w facts necessary to the affirmative
+defense of exculpation do not clearly appear on the face of the
+. . [c]omplaint. // Zucker, 2022 WL 7050991, at *4; see also
+Frederick v. Corcoran, No. 370685, 2013 Md. Cir. Ct. LEXIS 5, at
+*49 (Md. Cir. Ct. Aug. 14, 2013) ("The [charter immunity] issue is
+raised in the defendants' briefs but is not included in the
+plaintiffs' amended complaint. For that reason alone, the court
+declines to address it on a motion to dismiss.").
+With this guidance in mind. the Court notes that Plaintiff
+did not reference the exculpation provision in his Complaint, nor
+did he attach Wheeler's corporate charter to the Complaint.
+Accordingly, the Court is not prepared to find that \\ all facts
+necessary to the affirmative defense clearly appear on the face of
+the complaint, and thus declines to rule on the merits of the
+Individual Defendants' charter-exculpation argument at this stage
+of the litigation. Goodman, 494 F.3d at 464 (quoting Richmond, 4
+F.3d at 250) . Defendants \\ can of course re-raise the exculpation
+provision as an affirmative defense on a more fulsome factual
+record later in the proceeding. u Zucker, 2022 WL 7050991, at *4.
+★ * *
+In summary, the Individual Defendants have not carried their
+burden to demonstrate the procedural propriety of dismissing Count
+I's remaining direct claims based on either the business judgment
+rule or Wheeler's corporate charter immunity. The Court next
+addresses the Individual Defendants' challenges to Plaintiff's
+third count alleging unjust enrichment.
+b. Count III - Unjust Enrichment
+The Individual Defendants also seek dismissal of Count III,
+which alleges that the "Conflicted Insiders n (Individual Defendants
+Stilwell, Borrack, Campbell, Poskon, Paris!, and Franklin) and the
+Stilwell Fund Defendants were unjustly enriched through (1) their
+receipt of series D shares as interest on their Notes and (2) the
+discounts on the Conversion Price of their Notes. ECF No. 1, at
+40 . Moreover, Count III alleges that Stilwell and one of the
+Stilwell Fund Defendants were unjustly enriched in receiving at
+least $7 million in investments by the Company in lieu of buying
+back Series D Shares. // Id.
+To review. the Court earlier ruled that Plaintiff failed to
+satisfy Rule 23.1's prerequisites for bringing a derivative unjust
+enrichment claim, and thus the Court here addresses the Individual
+Defendants' challenge to Plaintiff's ability to pursue this claim
+directly. To that end, the Individual Defendants argue that
+Plaintiff has failed to plead facts sufficient to state a claim
+for unjust enrichment. 20 ECF No. 25, at 35-36.
+In Maryland, the elements of unjust enrichment are: (1) a
+benefit conferred upon the defendant by the plaintiff; (2) the
+defendant's knowledge of the benefit; and (3) the acceptance by
+the defendant of the benefit under such circumstances as to make
+it inequitable to retain the benefit without payment of its value.
+Froelich v. Erickson, 96 F. Supp. 2d 507, 524 (D. Md. 2000) (citing
+Klein v. Fidelity & Deposit Co., 117 Md. App. 317, 345, 700 A.2d
+262, 277 (Md. Spec. App. 1997)).
+Plaintiff's first theory of unjust enrichment maintains that
+either he or the putative class of Wheeler common stockholders
+conferred a benefit upon certain Individual Defendants because
+these defendant-directors (and one officer) received interest
+payments on their Notes through shares of D stock. As previously
+explained, some of these D Stock shares were eventually redeemed,
+leading to Wheeler's dilutive issuance of more common stock to the
+detriment of common stockholders. Id. For their part, the
+Individual Defendants contend that Plaintiff's allegations fail to
+state a claim for unjust enrichment because neither Plaintiff nor
+the putative class of common stockholders performed a service for
+or provided any benefits to the relevant Individual Defendants.
+ECF No. 25, at 36.
+After reviewing Plaintiff's Complaint and the 12(b)(6)
+briefing, the Court first observes that Plaintiff has not furnished
+any legal authority recognizing a direct claim for unjust
+enrichment based on a shareholder-plaintiff's equity dilution. 22
+See ECF No. 32. To be sure, it is not Plaintiff's obligation to
+provide such corroborative authority. But the omission of support
+for Plaintiff's unusual theory of unjust enrichment underscores
+the incongruities between Plaintiff's pleading and the unjust
+enrichment paradigm. Indeed, the "usual case" of unjust enrichment
+involves a "plaintiff who, absent an express contract, performs a
+service for, or provides a benefit to, the defendant, where the
+defendant then accepts the benefit of the service, but fails to
+compensate the plaintiff. Froelich, 96 F. Supp. 2d at 524. Under
+such circumstances, the theory of u quasi-contract" permits a
+plaintiff to receive compensation for the value of the benefit he
+provided to the defendant. Id.
+In view of this underlying rationale for unjust enrichment-
+based recovery, the Individual Defendants have persuasively argued
+that the Complaint fails to state that Plaintiff personally
+conferred any benefit on the Individual Defendants as required to
+state a direct claim for unjust enrichment. Neither the issuance
+of the shares of D Stock, nor the eventual dilutive issuance of
+common stock, constitutes a benefit conferred by Plaintiff (or the
+putative class) on the Noteholders. When drawing reasonable
+inferences in Plaintiff's favor, Wheeler's issuance of shares to
+Noteholders cannot plausibly be interpreted as a benefit or
+service n conferred by an individual shareholder-plaintiff (or a
+putative class of common stockholders) on other Noteholders who
+chose to purchase a debt security that was offered to all common
+stockholders. See Froelich, 96 F. Supp. 2d at 524-25 (granting
+summary judgment for defendants on the plaintiff's claim that the
+defendants unjustly enriched themselves by replacing the plaintiff
+as CEO and diluting his stock interests to nearly zero).
+Moreover, even if the issuance of D Stock did confer the
+requisite benefit on the Individual Defendants, Plaintiff has not
+pleaded facts sufficient to support the third element of unjust
+enrichment that the retention of the shares would be
+"inequitable ft under these circumstances. Id. The fact that
+certain Individual Defendants received shares of D Stock as
+interest payments, as authorized to be paid to any participating
+shareholder by the prospectus for the Rights Offering, is
+insufficient to state "inequitable" retention. See Stilwell Value
+Partners I, L.P. v. Prudential Mut. Holding Co., No. 06-4432, 2007
+WL 2345281, at *12 {E.D. Pa. Aug. 15, 2007) (dismissing
+shareholders' claim for unjust enrichment where the challenged
+transaction was warned of in the prospectus and was legal under
+the relevant regulations and could not be found to be unjust").
+Plaintiff's second theory of unjust enrichment fails for
+similar reasons. Plaintiff claims that certain Individual
+Defendants were unjustly enriched when they received discounts on
+the conversion price of their Notes to common stock. ECF No. 1,
+at 40. But Plaintiff again fails to provide any sufficient
+explanation as to how the Individual Defendants' discounted
+conversion of their Notes constituted a benefit conferred upon such
+directors (and one officer) by either Plaintiff or the putative
+class of Wheeler common stockholders. See Stilwell Value Partners,
+2007 WL 2345281, at *12. And even if the Court could find that
+Plaintiff had adequately stated that he or the putative class
+conferred the requisite benefit. Plaintiff has not pleaded
+sufficient facts to support the notion that the Individual
+Defendants' conversion of their Notes was inequitable or unjust
+under these circumstances, where conversion was available to all
+the common stockholders who chose to participate in the Rights
+Offering. See Carfagno ex rel. Centerline Holding Co. V .
+Schnitzer, 591 F. Supp. 2d 630, 636 {S.D.N.Y. 2008) (finding that
+because all shareholders were given the opportunity to participate
+in a rights offering, the defendant directors >v cannot be said to
+have manipulated the corporate processes in order to engineer a
+dilutive transaction whereby they received an exclusive benefit")
+(internal quotation marks omitted).
+Finally, Plaintiff claims that Stilwell and Stilwell Activist
+Investments, L.P. (one of the Stilwell Fund Defendants) were
+unjustly enriched by Wheeler's decision to invest \\ at least $7
+million // in such fund. ECF No. 1, at 40. However, Plaintiff's
+Complaint again fails to state that he or the putative class
+conferred this alleged financial benefit on Stilwell or the
+Stilwell Fund Defendant. Compounding the flaws in Count III,
+Plaintiff does not provide sufficient facts to support the notion
+that Individual Defendant-directors Borrack, Campbell, Poskon,
+Parisi, or Franklin were enriched by Wheeler's investment in one
+of Stilwell's investment funds. See Eastland Food Corp. v.
+Mekhaya, 486 Md. 1, 41, 301 A.3d 308, 332 (2023) (affirming
+dismissal of unjust enrichment claim in the context of stockholder
+suit because the benefits of excessive compensation and funds for
+personal use came at the corporation's expense, not [plaintiff's]
+directly").
+At bottom, in directly alleging unjust enrichment based on
+(1) the Board's issuance of D Stock shares for interest payments
+and (2) the Noteholders' discounted conversion of their Notes,
+Plaintiff has unconvincingly tried to shoehorn these allegations
+into an ill-suited theory of relief. See Transeo S.A.R.L. v.
+Bessemer Venture Partners VI L.P., 936 F. Supp. 2d 376, 410 n.l8
+(S.D.N.Y. 2013) {"To the extent that Plaintiffs allege that [the
+defendant's] actions with respect to the 2009 Stock Option Plan
+diluted the value of Plaintiffs' shares, this also fails to state
+a claim . . . [because a] prima facie unjust enrichment claim
+requires allegations that the defendant benefitted at
+Plaintiffs' expense.")/ Mina Inv. Holdings, Ltd, v. Lefkowitz, 51
+F. Supp. 2d 486, 489 (S.D.N.Y. 1999) (dismissing a claim for unjust
+enrichment, in the context of a capital offering that diluted the
+plaintiffs' equity, because the plaintiffs u failed to allege, in
+anything other than conclusory terms, the dilution of their equity
+interest in [the company], the enrichment sustained by [the
+defendant] , and the manner in which that enrichment was at
+Plaintiffs' expense"); see also Singer v. Dungan, No. 107888, 1992
+WL 884986, at *4 (Va. Cir. Ct. Oct. 28, 1992) (dismissing claim
+for unjust enrichment where the plaintiff asserted that the
+defendants w appropriated // the plaintiff's equity by purchasing
+newly issued shares for reduced value). Plaintiff thus has failed
+to plead facts sufficient to state a direct claim for unjust
+enrichment. Because Plaintiff's derivative unjust enrichment claim
+has already been dismissed, see supra Part III.B.l, the Individual
+Defendants' motion to dismiss Count III is granted as to all of
+the so-called w Conflicted Insiders u Individual Defendants
+Stilwell, Borrack, Campbell, Poskon, Parisi, and Franklin.
+C. stilwell Fund Defendants' Motion to Dismiss
+The Court next turns to the Stilwell Fund Defendants' separate
+motion to dismiss, ECF Nos. 26 & 27, which seeks dismissal of
+Counts II and III under Rule 12(b)(6).
+1. Count II
+Plaintiff's second count alleges, directly and derivatively,
+that the Stilwell Fund Defendants aided and abetted the Individual
+Defendants' breaches of fiduciary duty. The Stilwell Fund
+Defendants' challenge to the viability of Plaintiff's derivative
+claims is summarily granted for all the reasons described above in
+Part III.B.l. In short. Plaintiff fails to satisfy the notice
+requirements of Rule 23.1. As to the Fund Defendants' challenge
+to Plaintiff's direct claims alleging aider and abettor liability.
+because Plaintiff's first count directly alleging breach of
+fiduciary duty remains viable, the Court addresses below the Fund
+Defendants' challenge to Count II's assertion of aider and abettor
+liability.
+a. Applicable State Law
+The Stilwell Fund Defendants first argue that Virginia law
+should apply to Plaintiff's aiding and abetting claim and maintain
+that because Virginia law does not recognize such cause of action,
+Count II must be dismissed. To support this proposition, the Fund
+Defendants cite several district court opinions applying Virginia
+law to a plaintiff's claim for aiding and abetting a breach of
+fiduciary duty. See, e.g. , St. Paul Fire & Marine Ins. Co. v.
+Hoskins, No. 5:10cv087, 2012 WL 748574, at *4 {W.D. Va. Mar. 7,
+2012); AvalonBay Communities, Inc, v. Willden, No. I:08cv777, 2009
+WL 2431571, at *11 (E.D. Va. Aug. 7, 2009). However, as Plaintiff
+points out. the foregoing opinions considered claims that did not
+implicate the internal affairs doctrine. which here requires the
+application of Maryland law to Count I, the underlying claim for
+breach of fiduciary duty. See St. Paul Fire, 2012 WL 748574, at
+*1; see also AvalonBay Communities, 2009 WL 2431571, at *11.
+To analyze the appropriate choice of law, the Court begins
+with the fundamentals. This Court exercises its diversity
+jurisdiction over the instant suit, and a federal court sitting in
+diversity in Virginia should apply Virginia's choice of law rules,
+which respect the internal affairs doctrine. Klaxon Co. v. Stentor
+Electric Manufacturing Co., 313 U.S. 487, 496 {1941); 4D-
+Enterprises, 2020 WL 13750856, at *8 n.8; see also United States
+V. Kolon Indus., Inc., 926 F. Supp. 2d 794, 814 (E.D. Va. 2013)
+("As a general proposition, the law of the state of incorporation
+normally determines issues relating to the internal affairs of a
+corporation") (internal quotations omitted). To that end, the
+internal affairs doctrine counsels that the law of the state of
+incorporation should apply to matters peculiar to the
+relationships among or between the corporation and its current
+officers, directors, and shareholders. Edgar, 457 U.S. at 645.
+Here, Wheeler is incorporated under Maryland law, and thus it
+is uncontroverted that Maryland law applies to Plaintiff's first
+count alleging the underlying claim for breach of fiduciary duty.
+That said. the Fund Defendants are correct that federal district
+courts sitting in Virginia have applied Virginia law to claims for
+aiding and abetting a breach of fiduciary outside the context of
+the corporate internal affairs doctrine. See St. Paul Fire, 2012
+WL 748574, at *4; see also AvalonBay Communities, 2009 WL 2431571,
+at *6, n.5. In deciding to apply Virginia law in that context.
+another judge of this court reasoned that Virginia choice of law
+rules include the lex loci delicti doctrine. under which
+substantive rights are determined by the law of the jurisdiction
+where the alleged tort occurred (i.e. the tort of aiding and
+abetting a breach of fiduciary duty). AvalonBay Communities, 2009
+WL 2431571, at *6, n.5.
+Here, the application of the internal affairs doctrine
+complicates, and distinguishes, the choice of law analysis from
+that in AvalonBay and St. Paul Fire, The parties have not found,
+nor has the Court located, a case in which a court applied
+Virginia's choice of law rules in the context of a claim for aiding
+and abetting a breach of fiduciary duty when the underlying breach
+of fiduciary duty claim is governed by the law of a different state
+of incorporation pursuant to the internal affairs doctrine. In
+the absence of such guidance. this Court must predict how the
+Virginia Supreme Court would rule if presented with this issue.
+Priv. Mortg. Inv. Servs., Inc, v. Hotel & Club Assocs., Inc., 296
+F.3d 308, 312 (4th Cir. 2002). In so doing, the Court may consider
+Virginia state court opinions, restatements of the law, treatises,
+and well-considered dicta. Id.
+Incorporating these various authorities into the analysis.
+the Court first observes that Virginia-based district courts
+exercising diversity jurisdiction have repeatedly applied the
+internal affairs doctrine. and thus have applied the law of a
+different state of incorporation to a claim for breach of fiduciary
+duty. See Kolon Indus., Inc., 926 F. Supp. 2d at 814; 4D-
+Enterprises, 2020 WL 13750856, at *8 n.8. Claims for breach of
+fiduciary duty may sound in tort, and therefore the principle of
+lex loci delicti, or law of the place where the tort has been
+committed. has not been unfailingly adhered to in the corporate
+context. Id. Indeed, the parties here agree that under Virginia
+choice of law principles. Maryland law applies to Plaintiff's
+breach of fiduciary duty claims, ECF No. 25, at 22, notwithstanding
+that such alleged breaches were plausibly committed in Virginia
+where Wheeler holds its board meetings at its principal place of
+business. Further supporting Virginia courts' recognition of the
+importance of the internal affairs doctrine. in Taylor v. Mutual
+Reserve Fund Life Asso., the Virginia Supreme Court observed that
+[i]t seems to be well settled that courts will not interfere with
+the management of the internal affairs of a foreign corporation.
+Such questions are to be settled by the tribunals of the State
+which created the corporation. It 97 Va. 60, 67, 33 S.E.2d 385, 388
+(1899).
+Turning to secondary sources and treatises for additional
+guidance, the Restatement of Conflict of Laws counsels that when
+answering a choice-of-law question, reviewing courts should
+consider the u certainty, predictability, and uniformity of result. It
+Restatement (Second) of Conflict of Law § 6 (1971); 1 Moore's
+Manual Federal Practice and Procedure § 3.61 (2024) ("[T]he
+Restatement (Second) of Conflicts ... is an authoritative source
+of guidance for the federal courts [and] [i] n any
+determination, the court considers [t] he certainty.
+predictability, and uniformity of result. // ) ; 1 Connecticut Contract
+Litigation § 1.03 (2024) (recognizing that generally applicable
+choice of law principles include certainty, predictability, and
+uniformity of result"); 3 Florida Torts § 100.02 (2024) (same). 23
+Considering such guidance here, there are strong prudential reasons
+supporting the uniform application of one state's law to the two
+closely related claims. Otherwise, applying Maryland law to
+Plaintiff's breach of fiduciary duty claim and Virginia law to the
+claim that another defendant aided and abetted that same breach
+could produce mismatched results which would make it
+difficult for parties to anticipate what actions are tortious in
+any given situation. // In re AGNC Inv. Corp., No. CV-16-3215, 2018
+WL 3239476, at *11 (D. Md. July 3, 2018). This is especially true
+when the viability of one legal claim turns on the validity of
+another legal claim, as here. See Zucker, 2022 WL 1720151, at *12.
+Finally, the Court observes that myriad federal courts across
+jurisdictions have elected to apply the law of the state of
+incorporation to claims alleging aiding and abetting a breach of
+fiduciary duty, but also recognizes that such decisions are not
+controlling when analyzing Virginia law. See In re Am. Ambulette
+& Ambulance Serv., Inc., 560 B.R. 256, 263 (Bankr. E.D.N.C. 2016)
+(finding that North Carolina courts had not determined the conflict
+of law issue and concluding that, based on North Carolina law's
+application of the internal affairs doctrine, the claims for aiding
+and abetting a breach of fiduciary duty were properly considered
+under the law of the state of incorporation); In re AGNC, 2018 WL
+3239476, at *11; In re Fedders N. Am., Inc., 405 B.R. 527, 543
+(Bankr. D. Del. 2009) ("As with the breach of fiduciary duty claims.
+the internal affairs doctrine compels the Court to apply Delaware
+law to the claim for aiding and abetting breach of fiduciary
+duty."); Mukamal v. Bakes, 378 F. App'x 890, 896-97, 902 (11th Cir.
+2010) (same); City of Harper Woods Employees' Ret. Sys. v. Olver,
+589 F.3d 1292, 1294-95 (D.C. Cir. 2009) (same); Abrams v.
+McGuireWoods LLP, 518 B.R. 491, 499 (N.D. Ind. 2014) (same). 24
+Mindful of this doctrinal background, and in view of the
+Virginia Supreme Court's articulation of corporate law in Taylor
+and the guidance provided by the foregoing secondary sources, the
+Court concludes that the greater weight of authority suggests that
+the internal affairs doctrine applies to Plaintiff's aiding and
+abetting claim, and therefore determines that Maryland law is
+applicable to Count II. 25
+b. Viability of Count II under Maryland Law
+Next, the Fund Defendants argue that if Maryland law applies
+to Count II, Plaintiff has still failed to state a claim upon which
+relief can be granted. ECF No. 27, at 30. Considering this
+contention. to assert an aiding and abetting claim under Maryland
+law, a plaintiff must allege \\ (1) independent tortious conduct by
+the principal of the tort; (2) assistance, aid or encouragement to
+the principal of the tort; and (3) knowledge that the tortious act
+would be the natural consequence of their conduct. Zucker, 2022
+WL 1720151, at *12; Natarajan v. Raju, No. 16-1196, 2017 WL 386540,
+at *2 (D. Md. Jan. 27, 2 017) ; see also Alleco Inc, v. Harry &
+Jeanette Weinberg Found., Inc., 340 Md. 176, 199, 665 A.2d 1038,
+1049 (1995) (recognizing aider and abettor tort liability).
+Applying these elements here, Plaintiff's Complaint satisfies
+the first element of an aiding and abetting claim, alleging breach
+of fiduciary duty against the Individual Defendants. Plaintiff
+has alleged that the Individual Defendants, as the principals of
+the tort, breached their fiduciary duties as Wheeler directors by
+failing to make any genuine offers to repurchase outstanding shares
+of D Stock, investing at least $7 million in one of the Stilwell
+Fund Defendants, and paying interest to Noteholders in D Stock
+shares. ECF No. 1, at 38.
+Considering the second element, whether Plaintiff has
+adequately alleged that the Fund Defendants assisted. aided or
+encouraged the Individual Defendants' purported breaches of their
+fiduciary duties. Plaintiff alleges that the Fund Defendants
+purchased "nearly $25 million worth of the Notes issued (close to
+90 percent of the available Notes). ECF No. 1, at 15. Plaintiff
+has also alleged that one of the Fund Defendants received at least
+$7 million in cash through the previously described investment by
+Wheeler's Board. Id. at 38. Finally, Plaintiff has alleged that
+the Fund Defendants received discounted D Stock shares as interest
+payments on the Notes, and that Stilwell ultimately was able to
+increase his ownership and control over Wheeler (thereby severely
+diluting Plaintiff's ownership stake) through the Fund Defendants'
+purchases of Notes. Id. at 39. These allegations are sufficient
+at the pleading stage to satisfy the second element of aiding and
+abetting liability — taken as true, such allegations demonstrate
+that the Fund Defendants assisted and aided Stilwell's alleged
+breach of fiduciary duties by acquiring Notes among other
+transactions) to expand Stilwell's ownership in Wheeler while
+diluting the value of the Company's common stock.
+Turning to the third element required to state an aiding and
+abetting claim, Plaintiff must sufficiently plead that the Fund
+Defendants had "knowledge that [the Individual Defendants']
+tortious act[s] would be the natural consequence of their conduct.
+Zucker, 2022 WL 1720151, at *12. The Fund Defendants contend that
+Plaintiff has not adequately alleged that they had any involvement
+in Wheeler's decision to issue interest payments in D stock. ECF
+No. 27, at 33-34. However, confounding the Fund Defendants'
+position. Plaintiff alleges that "Defendant Stilwell's knowledge
+should be imputed to the Stilwell Fund Defendants, which he owned.
+controlled, and used to carry out his breaches of fiduciary duty.
+ECF No. 1, at 39.
+In light of this imputation dispute. and in the absence of
+directly applicable Maryland law, the Court has reviewed Delaware
+case law analyzing this third "knowledge element of an aiding and
+abetting claim given the "significant respect" Maryland courts
+accord to Delaware decisions on corporate law. See, e.g., Shenker,
+983 A.2d at 420; Werbowsky, 766 A.2d at 143; Jolly Roger Fund LP
+V. Sizeler Prop. Invs., Inc., No. Civ. 05-841, 2005 WL 2989343, at
+*3 (D. Md. Nov. 3, 2005) ("With respect to corporate governance
+issues, Maryland courts often look to Delaware caselaw.
+Accordingly, this Court's analysis must be guided by Maryland law,
+but will make reference to Delaware law in the absence of applicable
+Maryland law.") 26 To that end, in In re PLX Tech. Inc. S'holders
+Litig., the Delaware Court of Chancery analyzed the third element
+of a Delaware claim for aiding and abetting a breach of fiduciary
+duty — knowing participation in the underlying breach. No. cv
+9880, 2018 WL 5018535, at *49-50 (Del. Ch. Oct. 16, 2018). In so
+doing, the court observed that [w]hen the fiduciary and primary
+wrongdoer is also a representative of the secondary actor who
+either controls the actor or who occupies a sufficiently high
+position that his knowledge is imputed to the secondary actor, then
+the test is easier to satisfy. Id. The PLX Tech, court then
+provided examples of appropriate imputation of knowledge, noting
+that where a controlling stockholder uses acquisition entities to
+influence a merger, the controlling stockholder's knowledge is
+imputed to those entities for purposes of aiding and abetting
+liability. Id. (citing In re Emerging Commc'ns, Inc. Sholders
+Litig. , No. Civ. A. 16415, 2004 WL 1305745, at *38 (Del. Ch. May
+3, 2004)) .
+Moreover, the Delaware Court of Chancery employed similar
+reasoning to recognize that an investment fund can be liable for
+aiding and abetting when the same individuals who have made the
+Fund's investment decisions are also the fiduciaries who engaged
+in misconduct. Id. (internal quotation marks omitted) (citing
+Forsythe v. ESC Fund Mgmt. Co., No. 1091, 2007 WL 2982247, at *13
+(Del. Ch. Oct. 9, 2007)).
+Applying this persuasive reasoning here, Stilwell is alleged
+to own and control the Stilwell Fund Defendants and to have used
+at least one of the Fund Defendants to purchase millions of dollars'
+worth of Notes to increase his control over Wheeler, to say nothing
+of the $7 million dollar investment that one of the Fund Defendants
+allegedly received from Wheeler. Drawing all reasonable factual
+inferences in Plaintiff's favor as the Court must at the pleading
+stage, Stilwell plausibly controls the Stilwell Fund Defendants,
+and like the entities in Emerging Commc'ns, Stilwell used the funds
+to execute his corporate objectives, allegedly breaching his
+fiduciary duties in the process. Emerging Commc'ns, 2004 WL
+1305745, at *38. Additionally, like the investment fund at issue
+in Forsythe, Stilwell is alleged to have made the Fund Defendants'
+investment decisions. Therefore, Stilwell's knowledge may
+plausibly be imputed to the Stilwell Fund Defendants, and thus
+Plaintiff has sufficiently stated that the Fund Defendants had
+knowledge that their purchases of Notes, receipt of D Stock shares.
+and acceptance of an investment by Wheeler would effectuate the
+Individual Defendants' breach of fiduciary duty. As a result, the
+Court finds that the Stilwell Fund Defendants have not carried
+their burden to demonstrate that dismissal is warranted and
+therefore denies their motion to dismiss the direct claims advanced
+in Count II.
+2. Unjust Enrichment, Count III, as alleged against
+the Stilwell Fund Defendants
+The Stilwell Fund Defendants also seek dismissal of Count III
+as alleged against them. For the same reasons supporting the Rule
+23.1-based dismissal of Plaintiff's derivative claims against the
+Individual Defendants, the Court grants the Fund Defendants' motion
+to dismiss Count III to the extent it advances a derivative claim.
+Below, the Court reviews the direct unjust enrichment claim alleged
+against the Stilwell Fund Defendants.
+Given the common factual predicate for Plaintiff's unjust
+enrichment claim as alleged against both the Individual Defendants
+and the Fund Defendants, the Court reincorporates its earlier
+analysis and similarly finds that Plaintiff has not stated a direct
+claim for unjust enrichment against the Fund Defendants. Indeed,
+Plaintiff has not alleged that he personally (or the putative
+class) conferred a benefit on the Fund Defendants, the first
+element required to state a direct claim for unjust enrichment.
+The benefits that the Stilwell Fund Defendants are said to have
+received — discounted shares of D Stock as interest payment on the
+Notes, a discounted common stock conversion price for the Notes,
+and the investment from Wheeler — cannot plausibly be understood
+as conferred by Plaintiff or the putative class. See Integrated
+Direct Mktg. , 129 F. Supp. 3d at 374; Power Home Solar, LLC v.
+Sigora Solar, LLC, No. 3:20cv42, 2021 WL 3856459 at *14 (W.D. Va.
+Aug. 30, 2021) (dismissing unjust enrichment claim because the
+plaintiff "never allege[d] that it intentionally conferred a
+benefit on Defendants"); Arkansas Nursing Home Acquisition, LLC v.
+CFG Cmty. Bank, 460 F. Supp. 3d 621, 649 (D. Md. 2020) (granting
+dismissal because the Complaint does not allege that [the
+plaintiff] conferred a benefit to anyone"); see also Steinmetz v.
+Immy, Inc., No. 20-185307, 2021 Mich. Cir. LEXIS 1030, at *19-20
+(2021) (dismissing claim that the defendants were unjustly
+enriched at the expense of [the plaintiff] and other shareholders
+through a stock dilution scheme because the complaint failed to
+allege that the plaintiff directly conferred a benefit on the
+defendants).
+Moreover, while Plaintiff may have plausibly alleged that one
+Fund Defendant received a benefit through the investment from
+Wheeler, Plaintiff has failed to allege that the purported benefit
+rightfully belonged to Plaintiff or the putative class. See
+Arkansas Nursing Home Acquisition, 460 F. Supp. 3d at 649
+(dismissing unjust enrichment claim in part because the benefit
+conferred on the defendant — corporate assets — did not belong to
+the plaintiff and thus the plaintiff had no claim to the benefit).
+As a result. Plaintiff has not stated a direct claim for unjust
+enrichment against the Stilwell Fund Defendants, and the Fund
+Defendants' motion to dismiss Count III is thus granted as to
+Plaintiff's direct claim alleged against them. Because Plaintiff
+has failed to state a direct claim for unjust enrichment against
+both the Individual Defendants and the Stilwell Fund Defendants,
+and Plaintiff's unjust enrichment claim as alleged derivatively
+fails as to all Defendants, Count III is dismissed in its entirety.
+IV. Conclusion
+For the reasons explained above, the Individual Defendants'
+Motion to Dismiss is GRANTED in part and DENIED in part, ECF Nos.
+23 Sc 24, and the Stilwell Fund Defendants' Motion to Dismiss is
+GRANTED in part and DENIED in part. ECF No. 26. Accordingly, the
+Court DISMISSES the derivative claims alleged in Counts I and II
+with prejudice, and DISMISSES Count III in its entirety with
+prejudice.
+The Clerk is REQUESTED to send a copy of this Opinion and
+Order to all counsel of record.
+IT IS SO ORDERED.
+/sTDl^
+Mark S. Davis
+CHIEF UNITED STATES DISTRICT JUDGE
+Norfolk, Virginia
+September (3 ^ 2024
+
+FOOTNOTES
+1 While the Individual Defendants formally submitted two separate motions to
+dismiss, ECF Nos. 23 & 24, they supported both motions through one
+consolidated brief, ECF No. 25. For ease of readability and analysis, the
+Court considers the Individual Defendants' motions as one consolidated
+argument for dismissal and addresses each argument as presented in ECF No.
+25.
+2 All facts stated herein are drawn from Plaintiff's Complaint. ECF No. 1.
+When considering a motion to dismiss, the Court assumes that the facts
+alleged in a complaint are true and draws all reasonable factual inferences
+in the nonmovant's favor. Edwards v. City of Goldsboro, 178 F.3d 231, 244
+(4th Cir. 1999). The facts recited herein are not to be considered factual
+findings for any purpose other than consideration of the pending motions to
+dismiss. See Edwards v. Murphy-Brown, L.L.C., 760 F. Supp. 2d 607, 611 n.l
+(E.D. Va. 2011).
+3 The Series D Preferred Shares have no stated maturity date nor general
+voting rights. ECF No. 1, at 10.
+^ By way of background, while both preferred stock and common stock represent
+ownership or "equity" in a company, preferred stockholders typically receive
+dividend payments before common stockholders and enjoy priority over common
+stockholders if a company files for bankruptcy and liquidates its assets.
+Stocks, United States Securities and Exchange Commission (2024),
+https://www.investor.gov/introduction- investing/investing- basics/investm
+ent-products/stocks#Kinds.
+^ A proxy fight is a campaign to solicit votes (or proxies) in opposition to
+management, most commonly at a company's annual meeting, Shareholder
+activists often use proxy contests to change the composition of a company's
+board of directors to influence business decisions in favor of the activist's
+views. See 2024 LEXIS Practical Guidance - Proxy Contests: Process Overview
+and Strategy Considerations.
+61 (E.D. Va. 2023) (citing Int'1 Shoe, 326 U.S. at 316); Burger
+King Corp. v. Rudzewicz, 471 U.S. 462, 477 (1985). When analyzing
+the parties' respective burdens, a district court may rely on
+10 Seeking personal jurisdiction-based dismissal, the Stilwell Fund
+Defendants cite Shaffer v. Meitner, 433 U.S. 186, 216 (1977) for the
+proposition that merely purchasing an ownership interest in a company
+incorporated in the forum state is insufficient to confer personal
+jurisdiction over a nonresident. ECF No. 27. In Shaffer, the Supreme
+Court observed that it "strains reason . . . to suggest that anyone buying
+12 Plaintiff appears to allege that the Individual Defendants breached their
+fiduciary duties through two series of decisions. First, the Individual
+Defendants failed to authorize the Company to make any genuine offers in
+13 By way of clarification. Plaintiff's claims brought on behalf of the
+putative class (Wheeler common stockholders who did not participate in the
+Rights Offering and were allegedly harmed by the Defendants' actions) are
+part of his direct action, not his derivative action. ECF No. 1, at 35; ECF
+No. 32, at 25; see Shenker v. Laureate Educ., Inc., 411 Md. 317, 345, 983
+A.2d 408, 424 (2009) ("In contrast to a derivative action, a shareholder may
+bring a direct action, either individually or as a representative of a class,
+against alleged corporate wrongdoers" under certain circumstances.).
+14 Moreover, even assuming that the preceding three directors were
+conflicted, such conflicts alone do not excuse the demand requirement as it
+is "well established" under Maryland law that "an interested board of
+directors can utilize an SLC [Special Litigation Committee] to respond to a
+shareholder demand and avoid the demand being excused entirely." Oliveira,
+226 Md. App. at 542 n. 11 (citing Werbowsky, 362 Md. at 619, 766 A.2d at
+123). The Oliveira court cautioned that demand is excused only in "very
+extreme circumstances," and noted that it has become "a common practice" for
+interested, non-independent directors to seek the advice of a special
+litigation committee regarding a pre-suit demand. Id. Indeed, the Maryland
+Court of Appeals has observed that "one justification for the expanded demand
+requirement is to give the corporation ([encumbered by allegations or the
+existence of adverse interests]) an opportunity to engage an SLC." Boland
+V. Boland, 423 Md. 296, 331, 31 A.3d 529, 550 n.25 (2011). Therefore, to
+the extent that Plaintiff maintains that the existence of a conflicted board
+necessarily excuses the demand requirement, such position cannot prevail
+here.
+15 Plaintiff cites three cases where demand was deemed futile, but each case
+is distinguishable and ultimately unpersuasive. First, in Laidlaw v.
+Beneficial Bancorp, Inc., the Maryland trial court denied a motion to
+dismiss, finding that the plaintiff reasonably inferred that making demand
+upon the board would be futile because the board "voted themselves a
+windfall" of over $14 million in stock compensation, thereby creating an
+inference that the Board could not "reasonably be expected to respond in
+good faith to a demand that they relinquish [such] benefits." No. 24-C-17-
+1057, 2017 WL 8942454, at *5 (Md. Cir. Ct. Aug. 08, 2017). There, the
+directors provided themselves "more than a decade's typical compensation in
+a single transaction," a situation appreciably different from that alleged
+here, where directors Borrack and Parisi are not alleged to have received
+any direct financial benefit from the challenged transaction, and Campbell
+is alleged to have participated in a Rights Offering open to all common
+stockholders. Id. Second, Plaintiff cites Hibbard v. American Finance
+Trust, Inc., where a New York court applying Maryland law found that
+allegations that "directors received compensation from two [separate
+companies'] boards with opposing interests" was sufficient to excuse demand.
+No. 655339/2018, 2021 WL 6005261, at *7 (N.Y. Sup. Ct. Dec. 20, 2021). But
+a leading treatise on Maryland corporate law has called into question the
+strength of Hibbard's interpretation of Maryland's demand futility
+exception, limiting the opinion's persuasive value here. See James J. Hanks,
+16 As a result of such ruling, the Court need not address whether Plaintiff
+satisfies Rule 23.1(a)'s requirement that he fairly and adequately
+represent the interests of shareholders. Fed. R. Civ. P. 23.1(a).
+17 Numerous authorities on Maryland law have recognized the viability, under
+certain circumstances, of a shareholder's direct claim against directors for
+breach of fiduciary duties. Eastland Food Corp. v. Mekhaya, 486 Md. 1, 74,
+301 A.3d 308, 352 (2023) (Booth, J., concurring) ("[T]his case is the first
+instance in which this Court has considered the effect of the 2016
+legislative amendments to the directors' statutory standard of conduct,
+which now provides a stockholder with a right to bring a direct claim against
+corporate directors."}; see Bill Carson & Scott Wilson, The Director Duties
+Bill: Amendments to Section 2-405.1 of the Maryland General Corporation Law,
+49-OCT Md. B.J. 40, 41 (2016) (observing that "it is the legislative intent
+that the standard of conduct run directly to the stockholders of a Maryland
+corporation under limited circumstances and that the stockholders have a
+direct remedy for any breach of the standard of conduct in such
+circumstances"); see also Hanks, § 6.06B, 6-46 ("[A] stockholder's right to
+sue a director directly or derivatively for failure to comply with the
+statutory standard of conduct will be determined under applicable case law,
+which distinguishes between injury to the corporation (derivative claim
+available) and injury to the stockholder (derivative claim not
+available) ." ) .
+18 To the extent the Individual Defendants seek dismissal of Count III on
+the same basis (that Plaintiff cannot state Count III directly), such
+argument is underdeveloped, and the Court thus declines to dismiss Count
+Ill's direct claims on this basis.
+19 The issues raised by the affirmative defense of charter exculpation, to
+some extent, depend on motive and state of mind, and thus will benefit from
+further factual development in discovery.
+20 The Court here only addresses the Individual Defendants' arguments for
+dismissal and will later consider the Stilwell Fund Defendants' arguments
+for the dismissal of Count III (as articulated in a separate motion) as
+alleged against them. See ECF No. 27, at 34.
+21 The parties agree that the elements of an unjust enrichment cause of
+action are substantially the same in both Maryland and Virginia, and any
+differences between the two are immaterial for purposes of the resolution
+of the instant motion to dismiss Count III. See Integrated Direct Mktg.,
+LLC v. May, 129 F. Supp. 3d 336, 374 n.32 (E.D. Va. 2015) (observing that
+"the elements of an unjust enrichment cause of action are substantially the
+same" in Maryland and Virginia); ECF No. 32, at 48.
+22 In notional support of his unjust enrichment claim. Plaintiff cites the
+following excerpted language from the Second Circuit's opinion in Strougo
+V. Bassini; "[i]n terms of the dilution that resulted from the rights
+offering, the participating shareholders actually benefited from the non
+participating shareholder's injury." 282 F.3d 162, 175 (2d Cir. 2002). But
+Plaintiff has cited the preceding observation out of context. Strougo
+addressed claims for breach of fiduciary duties and violation of the
+Investment Company Act, and never considered nor suggested that share
+dilution could support a direct claim for unjust enrichment brought against
+the shareholders who participated in a widely available rights offering.
+Id.
+23 The Fund Defendants claim that the Virginia Supreme Court "rejected" the
+factors outlined in the Restatement (Second) of Conflicts of Laws in McMillan
+V . McMillan, 253 S.E.2d 662, 663-64, 219 Va. 1127, 1130-31 (1979). But the
+Fund Defendants have overstated McMillan^ s holding. There, the Virginia
+Supreme Court reaffirmed that "the settled rule in Virginia is that the
+substantive rights of the parties in a multistate tort action are governed
+by the law of the place of the wrong, Id. In that context, McMillan
+rejected the Restatement's so-called most significant relationship" test
+because Virginia's existing rule better promoted "uniformity.
+predictability, and ease of application." Id. Accordingly, McMillan did
+not reject the Restatement's general guidance that certainty.
+predictability, and uniformity of result are helpful considerations for a
+reviewing court addressing a choice-of-law issue. Nor did McMillan address
+Virginia choice-of-law principles in the context of the corporate internal
+affairs doctrine, which obtains here and presents different legal
+considerations from the car crash-based negligence action at issue in
+McMillan.
+24 Reviewing courts have also applied the internal affairs doctrine to claims
+for aiding and abetting breach of fiduciary duty when the defendants are
+"bound up in the corporation's internal affairs as corporate insiders. See,
+e■g■, Worley Claims Servs., LLC V. Jefferies, 429 F. Supp. 3d 146, 159-60
+(W.D.N.C. 2019). Such considerations would counsel in favor of the
+application of the internal affairs doctrine (and thus Maryland law) to the
+aiding and abetting claims here, where the Fund Defendants are alleged to
+have been significantly bound up in Wheeler's internal affairs through their
+proxy contest to influence Wheeler's Board, their eventual accumulation of
+a sizable ownership stake in Wheeler, and the fact that the Stilwell Funds
+are supposedly controlled by their namesake Stilwell, an influential
+corporate insider sitting on Wheeler's Board. Id.
+25 Even if Virginia law applied to Plaintiff's aiding and abetting claim,
+Virginia law remains unsettled as to whether aiding and abetting a breach
+of fiduciary duty may be pled as a separate cause of action. Keil V. Seth
+Corp. , No. 3:21cvl53, 2021 WL 5088242, at *12 (E.D. Va. Nov. 2, 2021) {"[T]he
+Supreme Court of Virginia has neither expressly recognized nor expressly
+rejected aiding and abetting a breach of fiduciary action as a separate
+cause of action, Instead, it has assumed the existence of the cause of
+action to evaluate whether a plaintiff had properly pled a claim."). The
+Fund Defendants thus overstate Virginia law to the extent they insist that
+Plaintiff's aiding and abetting claim would necessarily fail under Virginia
+law as non-cognizable.
+26 The Fund Defendants only cite Adobe Systems Incorporated v. Gardiner for
+the proposition that, under Maryland law, Stilwell's actions are not
+imputable to the Fund Defendants. 300 F. Supp. 3d 718, 728 (D. Md. 2018).
+In Adobe Systems, the court held that the plaintiff failed to state a claim
+for aiding and abetting a breach of fiduciary duty against a corporate entity
+solely owned by the individual defendant. In so holding, the court reasoned
+that the complaint failed to provide a clear link between the corporate
+entity's actions and the individual defendant's alleged breach, as the
+corporate entity was only alleged to have provided loans to another corporate
+entity supposedly involved in the breach. Id. In contrast, here, the
+Stilwell Fund Defendants are alleged to have been intimately involved in
+Stilwell's alleged breach of fiduciary duty, reportedly purchasing over $25
+million worth of Wheeler Notes on Stilwell's behalf in addition to receiving
+a multi-million-dollar investment from Wheeler. Moreover, Adobe Systems did
+not address Maryland law regarding the imputation of knowledge and does not
+provide any reasoning related to such issue. Id. Accordingly, the Fund
+Defendants' citation to Adobe Systems, without more, does not carry their
+burden to justify the dismissal of Count II, and the Court looks to well-
+developedDelaware law on imputation of knowledge to determine if Plaintiff's
+aiding and abetting claim may survive the Fund Defendants' challenge.
+® To further explain the terms of the Rights Offering, each common stockholder
+received one "right" for every eight shares of common stock they owned; one
+right, in turn, conferred on the stockholder the ability "to purchase $25
+principal amount of Notes, Id. at 2. The Notes bear interest at a rate
+of seven percent annually, which would be paid by Wheeler twice per year in
+either cash, discounted Series B Preferred Stock, or discounted D Stock.
+Id. at 14. Interest paid in either Series B Preferred Stock or D Stock
+would be substantially discounted from the respective securities' 15-day
+average closing prices on the open market. Id.
+while a 12(b) (6) motion focuses on the allegations of the complaint, it is
+well established that a document attached to a motion to dismiss may be
+considered when evaluating a motion to dismiss if the document was "integral
+to the complaint and authentic. Sec'y of State For Defence v. Trimble Nav.
+Ltd., 484 F.3d 700, 705 (4th Cir. 2007). Here, the response from outside
+counsel is integral (and its authenticity is unchallenged) as such response
+provides context for the subsequent analysis as to whether Plaintiff
+satisfied the prerequisites for bringing the instant derivative suit. Fed.
+R. Civ. P. 23.1.
+® A reverse stock split refers to a corporation's reduction in the number of
+shares outstanding by calling in all shares and issuing a smaller number
+while the overall corporate capital remains the same. The effect of a
+reverse stock split is to increase the value of each share while
+proportionally reducing the number of shares. See, e.g., FGS Enterprises,
+Inc. V. Shimala, 625 N.E.2d 1226, 1227 n.2 (Ind. 1993) ; see also Black's Law
+Dictionary 1320 (6th ed. 1990).
+n The Individual Defendants' 12(b)(6) motion (challenging Count I) requires
+resolution before the Fund Defendants' 12(b)(6) motion (challenging Count
+II) because the sufficiency of the allegations in Count II depend in part
+on the sufficiency of Count I.
+Jr., Maryland Corporation Law § 7.22, at C. Demand on Directors (1994, 2015
+Supp.) ("Contrary to the opinion of (Hibbard], where there are at least some
+disinterested directors, demand is not excused."). Plaintiff's final
+citation to Felker v. Anderson, No. 04 Civ. 0372, 2005 WL 602974 (W.D. Mo.
+Feb. 11, 2005) is not entitled to significant weight as Felker has been
+recognized by other courts as "an improper application of Maryland law and
+as generally unpersuasive." Seidl v. American Century Cos., 713 F. Supp.
+2d 249, 258 n.l3 (S.D.N.Y. 2010) (applying Maryland law).

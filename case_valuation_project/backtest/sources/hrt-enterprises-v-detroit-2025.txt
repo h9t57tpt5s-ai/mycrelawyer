@@ -1,0 +1,741 @@
+ 
+ 
+RECOMMENDED FOR PUBLICATION 
+Pursuant to Sixth Circuit I.O.P. 32.1(b) 
+ 
+File Name: 25a0353p.06 
+ 
+UNITED STATES COURT OF APPEALS 
+ 
+FOR THE SIXTH CIRCUIT 
+ 
+ 
+ 
+HRT ENTERPRISES,  
+Plaintiff-Appellee/Cross-Appellant, 
+ 
+ 
+v. 
+ 
+CITY OF DETROIT, MICHIGAN, 
+Defendant-Appellant/Cross-Appellee. 
+┐ 
+│ 
+│ 
+│ 
+│ 
+│ 
+│ 
+│ 
+┘ 
+ 
+ 
+ 
+Nos. 23-1847/1855 
+ 
+Appeal from the United States District Court for the Eastern District of Michigan at Detroit. 
+No. 2:12-cv-13710—David M. Lawson, District Judge. 
+ 
+Argued:  October 21, 2025 
+Decided and Filed:  December 22, 2025 
+Before:  GRIFFIN, THAPAR, and MATHIS, Circuit Judges. 
+_________________ 
+COUNSEL 
+ARGUED:  Mary Massaron, PLUNKETT COONEY, Bloomfield Hills, Michigan, for City of 
+Detroit.  Mark Granzotto, MARK GRANZOTTO, P.C., Berkley, Michigan, for HRT Enterprises.  
+ON BRIEF:  Mary Massaron, PLUNKETT COONEY, Bloomfield Hills, Michigan, for City of 
+Detroit.  Mark Granzotto, MARK GRANZOTTO, P.C., Berkley, Michigan, for HRT Enterprises. 
+ 
+GRIFFIN, J., delivered the opinion of the court in which MATHIS, J., concurred.  
+THAPAR, J. (pp. 18–21), delivered a separate dissenting opinion. 
+ 
+ 
+>
+
+Nos. 23-1847/1855 
+HRT Enters. v. City of Detroit, Mich. 
+Page 2 
+ 
+ 
+_________________ 
+OPINION 
+_________________ 
+GRIFFIN, Circuit Judge. 
+After losing in state court, HRT Enterprises sued the City of Detroit in federal court 
+under a de facto takings theory.  The district court held that the state court’s prior determinations 
+did not bar this suit and granted summary judgment in favor of HRT without deciding when the 
+taking had occurred.  The first jury determined the date of the taking and awarded HRT $4.25 
+million, but the district court granted the City’s motion for a remittitur and reduced the award to 
+$2 million.  The City rejected the remittitur and elected for a new trial on damages.  The second 
+jury awarded HRT $1.97 million.   
+On appeal, the City argues that the case is not ripe because HRT’s case rests on 
+hypothetical facts, not an actual taking, and even if it is ripe, the state court’s prior 
+determinations bar this suit.  The City also argues that the district court erred in finding as a 
+matter of law that its actions constituted a de facto taking and that it faced unfair prejudice at trial 
+because it had to concede that a taking occurred on a particular date even though it maintained 
+that no taking had ever occurred.  HRT cross-appeals, arguing that the district court’s remittitur 
+was an abuse of discretion because the evidence in the first trial supported that jury’s award of 
+damages.  We affirm.  
+I. 
+A. 
+In 1984, HRT bought an 11.8-acre parcel of land on the east side of Detroit.  The 
+property is next to Detroit’s Coleman A. Young International Airport, and the airport’s runway 
+“visibility zone” covers approximately 20 percent of the property.  A “visibility zone” is a 
+regulated area that ensures a surrounding land use does not pose risks to aircraft operations; here, 
+it limited HRT’s ability to build on its property.  The Federal Aviation Authority prohibits tall 
+structures within a runway’s visibility zone absent a waiver.  14 C.F.R. § 77.  The City must 
+
+Nos. 23-1847/1855 
+HRT Enters. v. City of Detroit, Mich. 
+Page 3 
+ 
+ 
+acquire HRT’s property to comply with FAA regulations without the waiver.  The City acquired 
+other properties near the airport in a residential area called the “Mini-Take” area but not HRT’s.  
+HRT’s property included an industrial building.  The four-acre building sat empty after the last 
+tenant vacated in late 2008.  Vandals run amok on the property, and much of the area rots. 
+B. 
+HRT argues that because of the City, HRT is no longer able to use, lease, or sell the 
+property.  In 2002, HRT and its tenants collectively filed suit against the City in state court and 
+asserted an inverse condemnation claim.  In 2005, a jury rejected the claim.  In 2007, the 
+Michigan Court of Appeals affirmed that jury verdict, and the Michigan Supreme Court denied 
+leave to appeal.  HRT Enters. v. City of Detroit, 745 N.W.2d 786 (Mich. 2008) (mem.).  
+Then, on October 20, 2008, HRT sued the City in federal court.  The district court found 
+that, although HRT pleaded new facts sufficient to circumvent res judicata based on the prior 
+state court suit, it had not sought just compensation through state procedures based on the new 
+facts.  Therefore, HRT was not yet entitled to a federal forum because it had not exhausted its 
+state-law remedies in state court.  See Williamson Cnty. Reg’l Plan. Comm’n v. Hamilton Bank 
+of Johnson City, 473 U.S. 172, 194–97 (1985) (requiring litigants to first exhaust state-law 
+remedies before bringing takings claims in federal court).  Thus, the district court dismissed 
+HRT’s federal action without prejudice.   
+On July 6, 2009, HRT accordingly filed a second suit in state court, claiming inverse 
+condemnation of its property.  The state trial court dismissed HRT’s claims on res judicata 
+grounds, finding the claims barred by the 2002 state court action.  HRT Enters. v. City of Detroit, 
+2012 WL 3055221, at *2 (Mich. Ct. App. July 26, 2012) (per curiam).  In 2012, the Michigan 
+Court of Appeals affirmed.  Id. at 3.  HRT did not seek leave to appeal to the Michigan Supreme 
+Court.   
+All told, HRT lost its 2002 state court suit after a jury rejected its inverse condemnation 
+claim.  Its 2008 suit in federal court was dismissed without prejudice under Williamson County.  
+And it lost its 2009 state court suit on res judicata grounds. 
+
+Nos. 23-1847/1855 
+HRT Enters. v. City of Detroit, Mich. 
+Page 4 
+ 
+ 
+C. 
+In August 2012, HRT filed this suit, alleging a de facto takings claim under 42 U.S.C. 
+§ 1983 against the City.  The City filed a hybrid motion to dismiss and motion for summary 
+judgment arguing that HRT had not exhausted its state-law remedies under Williamson County, 
+and that the case was barred by res judicata and collateral estoppel.  The district court found that 
+several factual developments since 2005 distinguished this action from the prior litigation in state 
+court:   
+1.  The last remaining tenant on the property went out of business in late 2008 and 
+the property is now vacant; 
+2.  The property has been looted by vandals who used adjacent City owned land to 
+gain access to the property.  Further, the City is not maintaining the land it owns 
+in the area, and it is being used as a dumping ground; 
+3.  HRT has been unable to lease or sell the property. The City, however, says that 
+it technically leases the property because it is paying rent to HRT; 
+4.  In December of 2006, Delbert Brown (Brown), manager of the Airport, 
+confirmed the City’s plan to construct a replacement runway, which requires 
+meeting FAA airport facility standards; 
+5.  In March of 2008, former City Mayor Kwame Kilpatrick stated that the City 
+would complete the acquisition of land near the Airport along French Road; 
+6.  In October of 2008, Brown, in a letter to the City Council’s Public Health and 
+Safety Standing Committee, stated that the Airport “will continue the land 
+acquisition program to facilitate safety areas, clear zones and ultimately the 
+replacement of the existing runway”; 
+7.  In March of 2010, the City’s Purchasing Division informed the public that it 
+intended to acquire all of the property necessary for building a replacement 
+runway; 
+8.  In October of 2008, Brown recommended to City Council against the 
+reopening of McNichols Road, which was approved to be closed for five years in 
+1987; 
+9.  The City has continued to purchase both residential and commercial properties 
+within, and outside of, the Mini-Take Area since 2005; 
+10. In February of 2007, the City entered into a grant agreement for another 
+airport project and accepted state and federal funds for land acquisition; 
+11. In January of 2008, the City submitted to the FAA a proposal for funding to 
+completely close French Road, the road on which HRT’s property is located, 
+between Lynch and McNichols; 
+
+Nos. 23-1847/1855 
+HRT Enters. v. City of Detroit, Mich. 
+Page 5 
+ 
+ 
+12. In 2008, the City requested $85 million in funding from the FAA to expand 
+the airport; 
+13. In 2009, the City constructed a left turn lane off of French Road, which leads 
+to HRT’s vacant property; and  
+14. In July of 2011, HRT hired Gilbert’s Trucking to construct an earthen berm on 
+the property to prevent trespassing.  The City arrested and prosecuted employees 
+of Gilbert’s Trucking for trespassing on City owned property.  Thus, the City has 
+held itself out to the public as owner of HRT’s land. 
+So the district court denied the City’s motion.   
+HRT then moved for partial summary judgment on the issue of liability.  The district 
+court found the following:  
+(1) the record “supports the City’s contention that there are no current plans to 
+fund a new runway at the airport, and that the current Capital Improvement Plan 
+is limited to maintaining and upgrading the existing runways and physical plant 
+and to reimbursing the City for the Mini-Take acquisitions”;  
+(2) the record “establishes that the City’s acquisitions in the Mini-Take Area is 
+intended to bring the airport in compliance of FAA safety standards—in 
+particular, the standard building restriction line”;  
+(3) that “line extends approximately one-third into the property, and limits 
+buildings within it to 35 feet high or less, depending on the distance from the 
+airport runway”; 
+(4) “there is no dispute that the runway visibility line extends into the southeast 
+corner of the property, and that the existing building requires an FAA waiver”;  
+(5) and “it was ‘probably not’ possible to get a permit to build a 40-foot high 
+building on the property within this building restriction line.” 
+Accordingly, the district court held that a taking had occurred and granted HRT’s motion, but it 
+did so without deciding when the taking occurred.   
+ 
+HRT moved to bifurcate the trial into two phases—one to determine the date of the 
+taking, and the other to determine just compensation.  The City opposed the motion to bifurcate, 
+arguing that it would face prejudice and two trials would be complex.  The district court granted 
+the motion but eventually reversed course and tried the two issues together.  The case proceeded 
+to trial to determine the date of the taking and just compensation.  
+
+Nos. 23-1847/1855 
+HRT Enters. v. City of Detroit, Mich. 
+Page 6 
+ 
+ 
+ 
+Trial began and HRT contended that the City committed a taking on January 1, 2009—
+the date its last tenant went out of business.  The City argued that the date of the taking was 
+August 13, 2015—the date the district court granted partial summary judgment in favor of HRT 
+on the issue of liability.  The jury found that the taking occurred on January 1, 2009, and 
+awarded HRT $4.25 million in just compensation.   
+The City then moved for a remittitur, which the district court granted after finding that 
+none of the proofs supported the $4.25 million award.  But the City did not accept the remittitur 
+of $2,008,000, so the district court ordered a new trial.   
+ 
+During the lead up to the second trial, the City moved to dismiss for lack of subject 
+matter jurisdiction, asserting that HRT’s claims were not ripe.  The district court denied that 
+motion.  At the second trial, the district court instructed the jury that the taking occurred on 
+January 1, 2009, the date found by the first jury.  The second jury awarded HRT $1,976,820 in 
+just compensation.  The City appealed.  HRT filed a cross-appeal.     
+II. 
+ 
+We first review de novo the district court’s determination of ripeness.  Ammex, Inc. v. 
+Cox, 351 F.3d 697, 706 (6th Cir. 2003).  
+A. 
+Federal courts are limited to hearing actual cases and controversies.  U.S. Const. art. III, 
+§ 2, cl. 1.  The ripeness doctrine “prevent[s] the courts, through premature adjudication, from 
+entangling themselves in abstract disagreements” over non-final claims.  Thomas v. Union 
+Carbide Agric. Prods. Co., 473 U.S. 568, 580 (1985) (quoting Abbott Lab’ys v. Gardner, 387 
+U.S. 136, 148 (1967)).  A claim is not final, or ripe, if it rests upon “contingent future events.”  
+Id. at 580–81 (quoting Charles Alan Wright, et al., Federal Practice and Procedure § 3532 
+(1984)).  Takings claims are ripe when “the permissible uses of the property are known to a 
+reasonable degree of certainty.”  Palazzolo v. Rhode Island, 533 U.S. 606, 620 (2001).  
+Governments cannot burden property owners with “repetitive or unfair land-use procedures in 
+
+Nos. 23-1847/1855 
+HRT Enters. v. City of Detroit, Mich. 
+Page 7 
+ 
+ 
+order to avoid a final decision.”  Id. at 621 (citing Monterey v. Del Monte Dunes at Monterey, 
+Ltd., 526 U.S. 687, 698 (1999)). 
+A federal court should not consider a takings claim “before the government has reached a 
+‘final’ decision” on the property.  Pakdel v. City & Cnty. of San Francisco, 594 U.S. 474, 475 
+(2021) (per curiam) (quoting Suitum v. Tahoe Reg’l Plan. Agency, 520 U.S. 725, 737 (1997)).  
+The finality requirement is “relatively modest.”  Id. at 478.  Finality ensures that a plaintiff is not 
+prematurely suing over a hypothetical harm.  Id.  So courts only need a “definitive position” 
+from the government as to “how the regulations at issue apply to the particular land in question.”  
+Id. (citation modified).   
+B. 
+The City contends that this matter is not ripe because HRT cannot show a final decision 
+from the City that amounted to a taking.  According to the City, HRT’s claims are based upon 
+future and hypothetical events.  HRT counters that its claim hinges on a series of concrete past 
+events that, when taken together, show that the City deprived HRT of all its property’s value.  
+Our ripeness inquiry turns on whether HRT’s claim rests on a sufficiently “final” set of facts.  It 
+does.  
+ HRT’s takings claim is ripe because the permissible uses of HRT’s property are known 
+to a reasonable degree of certainty, meaning its claim does not rest on purely hypothetical or 
+future events.  As the district court correctly found, all of the following occurred after 2005:  (1) 
+HRT lost all its tenants; (2) vandals looted the property; (3) the City did not maintain the area; 
+(4) others used it is a dumping ground; (5) in December 2006, the manager of the Airport 
+confirmed the City’s plan to construct a replacement runway; (6) in March 2008, former City 
+Mayor Kwame Kilpatrick stated that the City would complete the acquisition of land near the 
+Airport; (7) in March 2010, the City’s Purchasing Division informed the public that it intended to 
+acquire all of the property necessary for building a replacement runway; (8) the City voted 
+against reopening McNichols Road, which was originally approved to be closed for five years in 
+1987; and (9) the City continued to purchase residential and commercial properties both within, 
+
+Nos. 23-1847/1855 
+HRT Enters. v. City of Detroit, Mich. 
+Page 8 
+ 
+ 
+and outside of, the Mini-Take Area since 2005.  These facts are not speculative.  Based on this 
+record, the City has taken a definitive position:  it will not condemn the property. 
+We also find it unfair to employ the finality doctrine after years of protracted litigation, 
+multiple rounds of summary judgment briefing, and two jury trials.  See Lucas v. S.C. Coastal 
+Council, 505 U.S. 1003, 1012–13 (1992) (discussing finality as a prudential requirement, not a 
+jurisdictional one).  And requiring even more facts to establish finality in this case would allow 
+municipal abuse of the finality doctrine.  See Lilly Invs. v. City of Rochester, 674 F. App’x 523, 
+527 (6th Cir. 2017) (“[R]igid application of the finality requirement would allow states to avoid 
+the strictures of the Takings Clause by simply refusing to act or by imposing unfair conditions on 
+disfavored developments.”).  The district court appropriately rejected the City’s ninth-inning 
+finality argument.  
+III. 
+We review de novo a district court’s application of res judicata.  ABS Indus., Inc. ex rel. 
+ABS Litig. Tr. v. Fifth Third Bank, 333 F. App’x 994, 998 (6th Cir. 2009).  We also review de 
+novo a district court’s ruling on issue preclusion.  Georgia-Pac. Consumer Prods. LP v. Four-U-
+Packaging, Inc., 701 F.3d 1093, 1097 (6th Cir. 2012). 
+A. 
+The Full Faith and Credit Act “requires [a] federal court to ‘give the same preclusive 
+effect to a state-court judgment as another court of that State would give.’” Exxon Mobil Corp. v. 
+Saudi Basic Indus. Corp., 544 U.S. 280, 293 (2005) (quoting Parsons Steel, Inc. v. First Ala. 
+Bank, 474 U.S. 518, 523 (1986)); 28 U.S.C. § 1738.  Under the doctrine of res judicata, also 
+known as claim preclusion, “a final judgment on the merits bars further claims by parties or their 
+privies based on the same cause of action.”  Bragg v. Flint Bd. of Educ., 570 F.3d 775, 776 (6th 
+Cir. 2009) (quoting Montana v. United States, 440 U.S. 147, 153 (1979)).  Michigan law 
+precludes subsequent claims when (1) “the prior action was decided on the merits, (2) both 
+actions involve the same parties or their privies, and (3) the matter in the second case was, or 
+could have been, resolved in the first.”  Adair v. Michigan, 680 N.W.2d 386, 396 (Mich. 2004).  
+Claim preclusion will not apply, however, “if the facts change, or new facts develop.”  Lab. 
+
+Nos. 23-1847/1855 
+HRT Enters. v. City of Detroit, Mich. 
+Page 9 
+ 
+ 
+Council, Mich. Fraternal Ord. of Police v. City of Detroit, 525 N.W.2d 509, 511 (Mich. 1994) 
+(per curiam).  Nor will it “apply where a subsequent claim, based on new material facts, contains 
+allegations of ongoing unlawful conduct that could not have been litigated in the prior 
+proceeding.”  Stanislaw v. Thetford Twp., 2021 WL 3027195, at *3 (6th Cir. July 19, 2021). 
+ 
+Michigan courts apply issue preclusion, also known as collateral estoppel, when “(1) ‘a 
+question of fact essential to the judgment [was] actually litigated and determined by a valid and 
+final judgment’; (2) ‘the same parties [] had a full [and fair] opportunity to litigate the issue’; and 
+(3) ‘there [was] mutuality of estoppel.’”  Monat v. State Farm Ins. Co., 677 N.W.2d 843, 845–46 
+(Mich. 2004) (quoting Storey v. Meijer, Inc., 429 N.W.2d 169, 171 n.3 (Mich. 1988)).  
+In this case, the City’s claim preclusion and issue preclusion arguments turn on the 
+doctrines’ analogous elements:  whether HRT’s prior takings claim could have been resolved in 
+the prior suits (claim preclusion) and whether it had a full and fair opportunity to litigate the 
+same (issue preclusion).  
+B. 
+ 
+The City argues that HRT’s taking claim is barred by both res judicata (claim preclusion) 
+and collateral estoppel (issue preclusion) based on the prior state-court suits.  We disagree.  
+The 2002 state court suit cannot serve as a basis for claim or issue preclusion.  There 
+were substantial developments since 2002 that could not have been litigated in that proceeding.  
+In fact, the district court noted fourteen of these new developments.  Most notably, the district 
+court found that HRT had three tenants in 2002 but by 2009, it had none.  Considering all the 
+developments between 2002 and 2012, this action and the 2002 suit are distinct, and there was no 
+full and fair opportunity for HRT to litigate its instant takings theory in the 2002 state court 
+proceeding. 
+The 2009 state court action presents a closer question.  Recall that HRT had to exhaust its 
+state-court remedies before it could commence a federal action.  To this end, it filed its second 
+state-court action on July 6, 2009.  The state trial court dismissed HRT’s action on res judicata 
+grounds because it found that the 2002 state-court action involved a final judgment on the merits 
+
+Nos. 23-1847/1855 
+HRT Enters. v. City of Detroit, Mich. 
+Page 10 
+ 
+ 
+based on the same cause of action and the same parties.  The Michigan Court of Appeals 
+affirmed because it concluded that no new facts had developed between 2005 and 2009.  Right or 
+wrong, we must respect that ruling’s preclusive effect, assuming HRT asserts the same claim 
+here.  See San Remo Hotel, L.P. v. City & Cnty. of San Francisco, 545 U.S. 323, 347 (2005).  
+But HRT brought a different claim to federal court, one that included new facts.   
+At the district court, the City argued that the state appellate court decision barred HRT’s 
+suit under the doctrine of res judicata.  The district court rejected the City’s argument on two 
+grounds.  First, the district court held that the 2009 state-court action was not decided on the 
+merits, and thus it was not entitled to preclusive effect.  That was error.  Under Michigan law, a 
+decision is “on the merits” for res judicata purposes when disposed of at summary judgment.  
+Roberts v. City of Troy, 429 N.W.2d 206, 211 (Mich. Ct. App. 1988); Mich. Ct. R. 2.504(b)(3).   
+But the district court also found that the operative facts had changed between 2009 and 
+2012.  The Michigan Court of Appeals did not consider developments during this period because 
+the record before it ended as of July 6, 2009—when HRT filed its complaint in state court.  HRT 
+filed this action on August 21, 2012, which lengthened the window of time for new facts to 
+develop that were relevant to its de facto takings theory.  And even in its complaint, it pleaded 
+that “[a]dditional relevant events occurred even during the pendency of HRT’s appeal, but the 
+Michigan Court of Appeals refused to allow HRT to supplement the record to reflect these new 
+events.”   
+So the claim preclusion and issue preclusion questions presented to the district court, and 
+before us now, are whether any new material facts developed after July 6, 2009 that could 
+distinguish the prior actions (and issues) from the present one.   
+The district court referenced several:  (1) in March 2010, “the City’s Purchasing Division 
+informed the public that it intended to acquire all of the property necessary for building a 
+replacement runway”; and (2) in July 2011, the City held itself out to the public as the owner of 
+HRT’s property when it arrested several individuals hired by HRT to build a berm on the 
+property.  Neither the state trial court nor the court of appeals considered these facts. 
+
+Nos. 23-1847/1855 
+HRT Enters. v. City of Detroit, Mich. 
+Page 11 
+ 
+ 
+Sometimes, a few new facts are all it takes to present a fresh claim.  See, e.g., In re 
+Pardee, 475 N.W.2d 870, 874 (Mich. Ct. App. 1991) (per curiam) (“[R]es judicata should not be 
+a bar to ‘fresh litigation’ of issues that are appropriately the subject of periodic redetermination 
+as is the case with termination proceedings where new facts and changed circumstances alter the 
+status quo.”).  A contrary rule would unfairly prejudice plaintiffs pursuing de facto takings 
+claims, which by their nature often progress slowly over time.  That is to say, a municipality is 
+not forever free from takings litigation about a piece of property simply because it had prevailed 
+in a similar suit a decade prior.  
+Because the district court reviewed a different period of time and a distinct set of facts, it 
+did not err when it found it was not bound by the state-court decision.  The takings claim HRT 
+brought before the district court was not, and could not have been, resolved in the previous state-
+court proceedings.  The district court correctly rejected the City’s preclusion arguments.   
+IV. 
+Next, the City challenges the partial grant of summary judgment in favor of HRT as to 
+liability, which we review de novo.  Burley v. Gagacki, 729 F.3d 610, 618 (6th Cir. 2013).  
+A. 
+Private property shall not “be taken for public use, without just compensation.”  U.S. 
+Const. amend. V.  A taking can occur when a municipality engages in “a deliberate course of 
+conduct” designed to force the sale of private property at a reduced value.  Amen v. City of 
+Dearborn, 718 F.2d 789, 797 (6th Cir. 1983).  A de facto takings theory requires an “ad hoc 
+factual determination that the community, rather than the property owner, fairly should assume 
+the cost of the official action.” Id. at 794 (citing Penn Cent. Transp. Co. v. City of New York, 438 
+U.S. 104, 123–24 (1978)).  Governmental actions that merely burden a particular right do not 
+cross the takings threshold; the government must “deny the owner all or an essential use of his 
+property.”  Id. at 795. 
+ 
+In Amen, we found that the City of Dearborn engaged in a scheme designed to force 
+residents to sell their properties to the city.  Id. at 797–98.  Dearborn’s scheme included the 
+
+Nos. 23-1847/1855 
+HRT Enters. v. City of Detroit, Mich. 
+Page 12 
+ 
+ 
+following:  (1) Dearborn denied and delayed permits and discouraged repairs; (2) a city official 
+told residents that the prices paid by Dearborn for their properties would decrease; (3) Dearborn 
+required individuals to perform maintenance and install items not required by the building code; 
+(4) residents feared that they could not comply with the building code; (5) a city attorney told 
+residents that Dearborn would purchase the property; (6) the city held many meetings with 
+residents and repeatedly told them that the disputed area would be cleared; (7) the city made 
+press releases stating that parts of the area would be cleared; (8) Dearborn officials posted 
+various signs throughout these areas that encouraged people to sell; and (9) the city allowed 
+property it had acquired to remain vacant and unprotected.  Id. at 795. 
+On appeal, Dearborn argued that a taking could not have occurred because there was no 
+condemnation proceeding or physical intrusion, only the mere diminution in property value.  Id. 
+at 796.  We rejected that argument and explained that “governmental action short of acquisition 
+may constitute a constructive taking ‘if its effects are so complete as to deprive the owner of all 
+or most of his interest in the subject matter.’”  Id. (quoting United States v. Gen. Motors Corp., 
+323 U.S. 373, 378 (1945)).  Amen recognized that de facto takings are actionable when a 
+municipality regulates the value out of a property even though it stops short of exercising its 
+eminent domain authority.  Id. 
+B. 
+1.  
+HRT’s case resembles Amen.  The City of Detroit engaged in a series of activities that 
+diminished HRT’s property value.  The City acquired properties in the Mini-Take area, closed 
+access roads, and City officials announced plans to acquire property in the area.  The airport’s 
+runway visibility zone encroaches on HRT’s property and limits the property’s uses.  To comply 
+with the FAA requirements without a waiver, the City must purchase HRT’s property, but it 
+refuses to do so.  On HRT’s end, its loss of tenants and business illustrates that the City’s actions 
+had consequences. 
+The City’s reliance on our earlier takings jurisprudence is misplaced.  It is true that not all 
+government planning and regulation amounts to a taking.  See Woodland Mkt. Realty Co. v. City 
+
+Nos. 23-1847/1855 
+HRT Enters. v. City of Detroit, Mich. 
+Page 13 
+ 
+ 
+of Cleveland, 426 F.2d 955, 959 (6th Cir. 1970) (rejecting a de facto takings claim where the 
+urban renewal project “never included the plaintiff’s property”); Sayre v. City of Cleveland, 493 
+F.2d 64, 69 (6th Cir. 1974) (rejecting a de facto takings claim without some evidence of 
+“physical invasion”).  But unlike in Woodland Market and Sayre, HRT’s property fell within the 
+slated redevelopment zone and was altered by the City’s actions.  The airport’s runway vision 
+zone encroaches on HRT’s property and limits the property’s uses.  The district court correctly 
+concluded that the City’s activities amounted to a taking.   
+2. 
+The City next argues that the district court erred when it granted partial summary 
+judgment in favor of HRT without deciding when the taking occurred.  We acknowledge that, 
+typically, “a property owner has a claim for a violation of the Takings Clause as soon as a 
+government takes his property for public use without paying for it.”  Knick v. Twp. of Scott, 588 
+U.S. 180, 189 (2019).  “When a taking occurs by physical invasion, . . . the usual rule is that the 
+time of the invasion constitutes the act of taking.”  United States v. Clarke, 445 U.S. 253, 258 
+(1980) (emphasis added).  But when a party asserts a de facto taking—that is, gradual conduct by 
+a government that deprives the owner of all or most of its property interest—the exact moment of 
+the taking may be less clear.   
+But that does not mean takings plaintiffs are without recourse.  See United States v. 
+Dickinson, 331 U.S. 745, 746–49 (1947) (discussing accrual principles where a parcel of land 
+was flooded by a new dam and the government did not condemn the property).  When assessing 
+takings claims that arise under “diverse circumstances[,] procedural rigidities should be avoided” 
+so that an “owner is not required to resort either to piecemeal or to premature litigation to 
+ascertain the just compensation for what is really ‘taken.’”  Id. at 749.  Given the unique factual 
+contours here—that the takings theory relied on a factually dense ad hoc inquiry—it is no 
+surprise that genuine disputes of material facts precluded summary judgment on when the taking 
+occurred.  The City cites no analogous authority demonstrating that the district court erred by 
+holding a taking occurred but reserving the exact date for the jury.  See Fed. R. Civ. P. 56(a).  
+Under these circumstances, we find no error. 
+
+Nos. 23-1847/1855 
+HRT Enters. v. City of Detroit, Mich. 
+Page 14 
+ 
+ 
+3. 
+The City also asserts that the district court erred by relying on unsworn testimony at 
+summary judgment.  At a hearing on HRT’s motion for partial summary judgment regarding 
+liability, the district court requested to hear from individuals “fully familiar with the airport 
+expansion and its background.”  The court started by reviewing a map of the “Airport Layout 
+Plan [from] 1995.”  Michael Borta, a former planning consultant for the airport, testified at the 
+hearing.  With respect to the FAA regulations and the map, Borta explained that as “you move 
+toward the runway, for every seven feet you get closer to the runway, the allowable height [of a 
+structure] would be ten feet less.”  Jason Watt, the general manager of the airport, told the district 
+court during that hearing that it was “probably not” possible to get a permit to build a 40-foot-
+high building on the property within this building restriction line.  The district court then relied 
+on their testimony in its opinion. 
+ 
+Although it was error to rely on unsworn testimony at summary judgment, Dole v. Elliott 
+Travel & Tours, Inc., 942 F.2d 962, 968–69 (6th Cir. 1991), this error does not require reversal 
+because it was harmless, see Fed. R. Civ. P. 61.  The record reveals that the district court had 
+questions about a series of complex maps and the effect that the FAA regulations had on the 
+properties.  The City does not meaningfully contest the accuracy of the statements, and most of 
+the information merely described a map already in the record.  Nor does the City show that the 
+district court’s reliance on the unsworn testimony made any meaningful difference at summary 
+judgment.  De facto takings theories generally require a series of government actions, leaving no 
+one fact dispositive.  See Amen, 718 F.2d at 795.  
+V. 
+We review a district court’s decision to bifurcate triable issues for an abuse of discretion.  
+Craddock v. FedEx Corp. Servs., Inc., 102 F.4th 832, 839 (6th Cir. 2024).   
+A. 
+“For convenience, to avoid prejudice, or to expedite and economize, the court may order 
+a separate trial of one or more separate issues.”  Fed. R. Civ. P. 42(b).  And “[o]nly one of these 
+
+Nos. 23-1847/1855 
+HRT Enters. v. City of Detroit, Mich. 
+Page 15 
+ 
+ 
+criteria need be met to justify bifurcation.”  Saxion v. Titan-C-Mfg., Inc., 86 F.3d 553, 556 (6th 
+Cir. 1996).  “[M]any courts have upheld cases bifurcated between liability and damages because 
+the evidence pertinent to the two issues is wholly unrelated, and as a logical matter, liability must 
+be resolved before the question of damages.”  In re Bendectin Litig., 857 F.2d 290, 309 (6th Cir. 
+1988).  We review (1) whether the bifurcated issues were indeed separate, (2) whether the issues 
+could be tried separately without prejudice, and (3) “whether the separate trial would be 
+conducive to judicial economy.”  Id. at 320. 
+B. 
+The City argues that the district court’s determination of whether a taking occurred, while 
+leaving the issue of when it occurred to the jury, prejudiced its right to a fair trial.  We disagree.  
+The City received fair trials.  The City’s argument boils down to a rejection of an 
+unfriendly summary judgment ruling.  The City wanted to argue that no taking occurred.  But as 
+explained previously, the district court appropriately granted summary judgment in favor of HRT 
+on the issue of liability and declined to decide when the taking occurred.  This is because the 
+record was sufficient to prove that a taking had occurred as a matter of law, even if material 
+disputes persisted as to when it occurred.  These genuine disputes about timing created a 
+question of fact for a jury.  Additionally, the City does not explain how leaving the question to 
+the jury prejudiced it, other than asserting it was barred from discussing the earlier state-court 
+litigation at trial.  But that is irrelevant. 
+To the extent that the City asserts a bifurcation argument, the district court did not abuse 
+its discretion because the issues were indeed separate.  Saxion, 86 F.3d at 556. 
+VI. 
+We review a grant of remittitur for an abuse of discretion.  Smith v. John Swafford 
+Furniture Co., 614 F.2d 552, 553 (6th Cir. 1980). 
+A. 
+When a jury awards damages, it “must stand unless it is (1) beyond the range supportable 
+by proof; or (2) so excessive as to shock the conscience; or (3) the result of a mistake.”  Gregory 
+
+Nos. 23-1847/1855 
+HRT Enters. v. City of Detroit, Mich. 
+Page 16 
+ 
+ 
+v. Shelby Cnty., 220 F.3d 433, 443 (6th Cir. 2000).  So long as the damages award finds support 
+in the record, it “should not be disturbed by the court.”  Farber v. Massillon Bd. of Educ., 917 
+F.2d 1391, 1396 (6th Cir. 1990).  A trial court must review “all evidence in the light most 
+favorable to the awardee.”  Id. at 1395.   
+B. 
+After conducting the first trial, the district court reduced HRT’s award from $4.25 million 
+to $2 million.  In its cross-appeal, HRT contends that this was error and requests that we reinstate 
+the original award.  The question is whether the facts at trial supported the district court’s 
+decision to grant remittitur in the amount of $2 million.  We conclude that they did.   
+During the first trial, the parties presented conflicting testimony about the value of HRT’s 
+property.  HRT’s owner, Karl Thomas, testified that the property was worth $5 million.  Andrew 
+Reed, a real estate appraiser, testified on behalf of HRT and valued the property at $3,008,000 as 
+of January 1, 2009.  HRT also offered a document prepared by Michael Borta’s consulting 
+company on behalf of the airport, which labeled HRT’s property value with a “placeholder” 
+figure of $6 million to acquire.  But Borta disavowed that figure at trial:  “There is no specific 
+basis for those [placeholder] numbers.”  Finally, Peggy Young, the City’s expert, appraised the 
+property at $3 million in 2002, $3,190,000 in 2005, and $1.5 million in 2010.    
+In granting remittitur, the district court explained that the “opinion of Thomas should 
+have been given no weight by the jury” because “his opinion was not sound.”  The court did not 
+abuse its discretion in rejecting Thomas’s testimony.  Landowners may testify to the value of 
+their property.  Lee Shops, Inc. v. Schatten-Cypress Co., 350 F.2d 12, 17 (6th Cir. 1965).  At the 
+same time, it is not purely lay testimony.  See Fed. R. Evid. 702 advisory committee’s note to 
+proposed rule (“Thus within the scope of [Rule 702] are not only experts in the strictest sense of 
+the word, e.g., physicians, physicists, and architects, but also the large group sometimes called 
+‘skilled’ witnesses, such as bankers or landowners testifying to land values.”).  So some 
+foundation must be laid regarding how a landowner appraised his property.  See U.S. ex rel. 
+Tenn. Valley Auth. v. Easement & Right of Way Over a Tract of Land in Madison Cnty., 405 F.2d 
+305, 307 (6th Cir. 1968) (“[O]pinion evidence usually may be admitted from those who are not 
+
+Nos. 23-1847/1855 
+HRT Enters. v. City of Detroit, Mich. 
+Page 17 
+ 
+ 
+strictly experts, the test being whether it can be shown the witness knows the land and its 
+surroundings and has an opinion as to value based upon more than mere conjecture.”).  Although 
+Thomas testified at length about his background in aerospace and real estate, he did not explain 
+how he arrived at his $5 million valuation.  The district court did not err in rejecting Thomas’s 
+testimony. 
+The district court also did not err in finding Reed’s estimate to be “inflated” and correctly 
+rejected his $3,008,000 valuation because the “comparables” he used “consisted of land and 
+buildings” that were “improved.”  And the district court properly disregarded the $6 million 
+“placeholder” value from Micheal Borta because he later disavowed that figure.   
+The court therefore did not abuse its discretion when it rejected the two highest 
+valuations and determined that the proofs did not support the $4.25 million judgment.  Thus, a 
+remittitur was in order because it was beyond the range supportable by the proofs.  Gregory, 220 
+F.3d at 443. 
+Citing Wallace v. FedEx Corp., 764 F.3d 571 (6th Cir. 2014), HRT argues that even if 
+remittitur was proper, the district court was required to award the maximum figure that the 
+proofs would bear.  And according to HRT, that figure was Reed’s $3,008,000 valuation.  But 
+Wallace does not require a district court to automatically award the next highest figure.  Wallace 
+merely explains how a district court begins with assessing a remittitur.  764 F.3d at 592.  It does 
+not speak to how a district court should (let alone must) arrive at a certain figure after 
+determining a remittitur is required.  The district court therefore did not abuse its discretion when 
+it reasonably split the difference between the viable proofs.  
+VII. 
+ 
+For these reasons, we affirm the judgment of the district court. 
+ 
+ 
+
+Nos. 23-1847/1855 
+HRT Enters. v. City of Detroit, Mich. 
+Page 18 
+ 
+ 
+_________________ 
+DISSENT 
+_________________ 
+THAPAR, Circuit Judge, dissenting.  While the majority’s result is very appealing, 
+I believe that res judicata bars this suit.  Thus, I regretfully dissent. 
+I. 
+The saga of this litigation stretches back to 2002.  That’s when HRT Enterprises (HRT) 
+first sued the City of Detroit in Michigan state court.  HRT alleged that the City had engaged in a 
+de facto taking of HRT’s property located next to the Coleman A. Young International Airport.  
+HRT’s case proceeded to trial, and in 2005, a Michigan jury found that no taking had occurred.  
+The Michigan Court of Appeals affirmed that judgment, and in March 2008, the Michigan 
+Supreme Court denied leave to appeal.  A few months later, HRT brought a takings claim in 
+federal court, alleging that new factual developments had occurred after the 2005 jury verdict.  
+But under then-binding Supreme Court precedent, HRT was required to first present those new 
+facts to a state court.  See Williamson Cnty. Reg’l Planning Comm’n v. Hamilton Bank of 
+Johnson City, 473 U.S. 172, 194–97 (1985), overruled by Knick v. Township of Scott, 588 U.S. 
+180 (2019).  So the district court dismissed HRT’s complaint without prejudice. 
+In July 2009, HRT returned to state court to litigate its new takings claim.  But the 
+Michigan trial court dismissed HRT’s complaint because the 2005 jury verdict precluded this 
+new suit.  HRT appealed, and the Michigan Court of Appeals affirmed that finding of res 
+judicata because “there were no new facts in evidence.”  R. 9-2, Pg. ID 297.  HRT didn’t seek 
+leave to appeal to the Michigan Supreme Court. 
+Instead, HRT returned to federal court, again asserting the same takings theory.  The City 
+promptly moved to dismiss, or alternatively for summary judgment, arguing that the 2009 state-
+court dismissal precluded HRT’s new federal case.  The district court denied that motion, 
+concluding that the state-court dismissal wasn’t a decision on the merits.  The district court also 
+disagreed with the Michigan Court of Appeals and asserted that new factual developments had 
+occurred between the 2005 jury verdict and the 2009 dismissal, so res judicata didn’t bar HRT’s 
+
+Nos. 23-1847/1855 
+HRT Enters. v. City of Detroit, Mich. 
+Page 19 
+ 
+ 
+new federal suit.  As a result, this litigation continued.  But it should’ve ended there because the 
+district court misapplied res judicata principles. 
+II. 
+We review de novo a district court’s determination of res judicata.  Outdoor One 
+Commc’ns LLC v. Charter Township of Canton, 155 F.4th 776, 781 (6th Cir. 2025).  Under 28 
+U.S.C. § 1738, a federal court is required “to give the same preclusive effect to a state-court 
+judgment as another court of that State would give.”  Exxon Mobil Corp. v. Saudi Basic Indus. 
+Corp., 544 U.S. 280, 293 (2005) (quotation omitted).  So we apply Michigan law to determine 
+whether the state court’s 2009 dismissal precludes HRT’s federal suit. 
+Takings cases are no different from any other claims for purposes of res judicata.  In the 
+old days of Williamson County, a plaintiff asserting a takings claim was required to first litigate 
+in state court before filing a federal suit.  473 U.S. at 194.  But normal res judicata principles still 
+applied to the state court’s judgment.  San Remo Hotel, L.P. v. City & County of San Francisco, 
+545 U.S. 323, 347 (2005).  As a result, that judgment would preclude any later federal suit 
+asserting the same takings claim.  See id.  Even though the Supreme Court subsequently 
+overruled Williamson County’s exhaustion requirement, it didn’t overrule San Remo.  See Knick, 
+588 U.S. at 204–06.  So state-law preclusion principles continue to apply to plaintiffs like HRT 
+that were required to exhaust their claims in state court.  Rose v. Oakland Cnty., Mich. Treasurer, 
+No. 21-2626, 2023 WL 2823972, at *5–6 (6th Cir. Apr. 7, 2023). 
+Under Michigan law, “[t]he doctrine of res judicata bars a subsequent action when (1) the 
+first action was decided on the merits, (2) the matter contested in the second action was or could 
+have been resolved in the first, and (3) both actions involve the same parties or their privies.”  
+Estes v. Titus, 751 N.W.2d 493, 499 (Mich. 2008) (citation modified).  It applies to “all matters 
+that with due diligence should have been raised in the earlier action.”  Id.  Indeed, Michigan 
+courts have “taken a broad approach to the doctrine of res judicata.”  Washington v. Sinai Hosp. 
+of Greater Detroit, 733 N.W.2d 755, 759 (Mich. 2007) (quotation omitted).  The 2009 dismissal 
+of HRT’s second state-court lawsuit plainly satisfies this test. 
+
+Nos. 23-1847/1855 
+HRT Enters. v. City of Detroit, Mich. 
+Page 20 
+ 
+ 
+Start with the first element.  The district court concluded that the Michigan state court’s 
+dismissal of HRT’s 2009 complaint wasn’t a decision on the merits.  But that’s wrong.  Michigan 
+law treats an involuntary dismissal as “an adjudication on the merits” unless the court specifies 
+otherwise or the dismissal was for lack of jurisdiction or failure to join a party.  Id. at 757 
+(quoting Mich. Ct. R. 2.504(B)(3)).  Here, the Michigan trial court dismissed HRT’s complaint 
+based on res judicata and didn’t “specify that its order was without prejudice.”  Id. at 760.  So 
+that’s a decision on the merits. 
+With respect to the second element, the majority concludes that new facts developed 
+between when HRT filed a complaint in Michigan state court in July 2009 and when it filed a 
+complaint in federal court in 2012.  Maj. Op. at 10–11.  That may be true—but there’s a catch.  
+Throughout this federal litigation, HRT has consistently asserted that the taking occurred on 
+January 1, 2009, and it never argued that a taking occurred later.  In fact, HRT moved for 
+summary judgment on that basis, arguing there was no dispute the taking occurred on that date.  
+When the district court denied that motion, HRT repeated the same argument before the jury.  
+The jury agreed and calculated damages using that date.  So any developments that occurred 
+between July 2009 and 2012 have no bearing on whether a taking occurred on January 1, 2009.  
+A state court already decided that no taking occurred as of 2009, and that determination binds us. 
+Finally, the two actions involve identical parties.  Thus, with all three elements of res 
+judicata satisfied, this case should’ve ended over a decade ago when the City moved to dismiss 
+in 2012. 
+Perhaps for this reason, HRT conceded at oral argument that it would lose if we were to 
+apply the elements of res judicata under Michigan law.  See Oral Arg. at 30:30–30:41.  So HRT 
+instead argued that we should apply an equitable exception to res judicata.  It’s true that 
+Michigan courts have sometimes suggested they won’t enforce res judicata if doing so would 
+“offend public policy or result in manifest injustice.”  Storey v. Meijer, Inc., 429 N.W.2d 169, 
+173 n.9 (Mich. 1988) (quotation omitted).  HRT contends that because it was forced to litigate in 
+state court under Williamson County and the Supreme Court subsequently overturned that 
+exhaustion requirement in Knick, it “would be manifestly unjust” to now bar HRT’s federal suit.  
+Appellee’s Br. at 50. 
+
+Nos. 23-1847/1855 
+HRT Enters. v. City of Detroit, Mich. 
+Page 21 
+ 
+ 
+I’m sympathetic to HRT’s argument.  As the Supreme Court acknowledged, Williamson 
+County created a “Catch-22” for a takings plaintiff.  Knick, 588 U.S. at 184.  “He cannot go to 
+federal court without going to state court first; but if he goes to state court and loses, his claim 
+will be barred in federal court.”  Id. at 184–85.  So Williamson County effectively closed the 
+federal courthouse doors to a takings plaintiff asserting federal claims.  In my view, that’s 
+manifestly unjust. 
+But unfortunately for HRT, Michigan law takes a strict view of res judicata.  For starters, 
+I haven’t found a single Michigan state-court decision in the last fifteen years—nor has HRT 
+identified one—applying the supposed public-policy exception to res judicata.  In fact, just last 
+year, the Michigan Court of Appeals cast doubt on whether the exception still exists under 
+Michigan law.  See Neal v. Keefer, No. 365676, 2024 WL 1229849, at *3 (Mich. Ct. App. Mar. 
+21, 2024). 
+But even if it does, this situation wouldn’t qualify.  That’s because the Michigan Supreme 
+Court has made clear “the interests of finality and res judicata limit the retroactive applicability 
+of new legal decisions after a final judgment.”  Schafer v. Kent County, 515 Mich. 1, 27 (2024).  
+So even if there is a change in law like Knick, “[t]raditional procedural standards such as . . . res 
+judicata apply.”  Id. at 28.  This accords with the approach taken by every other circuit to have 
+considered whether Knick creates an exception to res judicata.  See Tejas Motel, L.L.C. v. City of 
+Mesquite ex rel. Bd. of Adjustment, 63 F.4th 323, 334–35 (5th Cir. 2023); Stensrud v. Rochester 
+Genesee Reg’l Transp. Auth., No. 23-765, 2024 WL 2104604, at *2–3 (2d Cir. May 10, 2024); 
+Bush v. Phila. Redevelopment Auth., No. 24-3070, 2025 WL 999080, at *1 n.1 (3d Cir. Apr. 3, 
+2025) (per curiam); Ocean Palm Golf Club P’ship v. City of Flagler Beach, 861 F. App’x 368, 
+371 (11th Cir. 2021) (per curiam).  In short, the Supreme Court’s intervening decision in Knick 
+doesn’t allow HRT to escape the res judicata effects of the 2009 state-court dismissal. 
+* 
+* 
+* 
+Because res judicata unfortunately bars HRT’s suit, I respectfully dissent. 

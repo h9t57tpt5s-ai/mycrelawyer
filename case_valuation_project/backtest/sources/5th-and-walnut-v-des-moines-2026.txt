@@ -1,0 +1,1666 @@
+ 
+ 
+ 
+In the Iowa Supreme Court 
+ 
+No. 24–1886 
+ 
+Submitted March 25, 2026—Filed June 12, 2026 
+ 
+5th and Walnut Parking LLC, 5th and Walnut Tower LLC, 5th and 
+Court LLC, Justin Mandelbaum, and Sean Mandelbaum, 
+ 
+Appellees, 
+ 
+vs. 
+ 
+City of Des Moines, 
+ 
+Appellant. 
+ 
+ 
+City of Des Moines, 
+ 
+Third-Party-Plaintiff Appellant, 
+ 
+vs. 
+ 
+John Mandelbaum, 
+ 
+Third-Party-Defendant Appellee. 
+ 
+ 
+Appeal from the Iowa District Court for Polk County, Lawrence P. 
+McLellan, Business Specialty Court Judge. 
+ 
+The City appeals and the developers cross-appeal from a judgment for 
+money damages on a failed real estate project. Appeal Affirmed in Part and 
+Reversed in Part; Cross-Appeal Affirmed. 
+ 
+Waterman, J., delivered the opinion of the court, in which all participating 
+justices joined. McDermott, J., took no part in the consideration or decision of 
+the case. 
+
+ 
+2 
+  
+ 
+Thomas G. Fisher Jr. (argued), Deputy City Attorney, and John O. 
+Haraldson, Assistant City Attorney, Des Moines, for appellant. 
+ 
+Todd M. Lantz (argued), Mark E. Weinhardt, William C. Admussen, and 
+Jason R. Smith of Weinhardt & Lantz, P.C., Des Moines, for appellee. 
+ 
+ 
+
+ 
+3 
+  
+Waterman, Justice. 
+The Tower at Fifth and Walnut in downtown Des Moines was supposed to 
+be a testament to modern design, with upscale residential lofts, a movie theater, 
+and ample parking, but what began as a promising urban development devolved 
+into a costly litigation quagmire. This breach of contract case was tried to the 
+court. The trial court’s factual findings are binding upon us if supported by 
+substantial evidence. CMT Highway, LLC v. Logan Contractors Supply, Inc., __ 
+N.W.3d ___, ___, 2026 WL 1108827, at *4 (Iowa Apr. 24, 2026). We view the 
+evidence in a light most favorable to the trial court’s judgment. Id. Our 
+dispositions of the fact-bound issues in this appeal are largely dictated by this 
+standard of review. 
+For the reasons explained below, we affirm the district court judgment 
+against the City of Des Moines for breach of contract and the damages awarded 
+for that breach in the amount of $4,353,677. We vacate its judgment against the 
+city for tortious interference with contract. And we affirm the district court 
+judgment rejecting the parties’ additional claims for relief. 
+I. Background Facts and Proceedings. 
+A. Early Stages of the Fifth and Walnut Development. In 2009, Justin 
+Mandelbaum, a real estate developer who had spent his career to that point 
+working internationally and on the East Coast of the United States, moved back 
+to his hometown of Des Moines. Justin was eager to ply his trade in the local 
+real estate market. He joined Mandelbaum Properties, his family’s real estate 
+development firm, and began hunting for development opportunities in 
+downtown Des Moines. 
+In 2013, Justin and his team began looking at property around Court 
+Avenue. When a property became available, Justin submitted a request for 
+
+ 
+4 
+  
+proposal (RFP), a document that outlines a development plan that a local 
+government can use to evaluate the benefits of a given project. Justin’s RFP 
+proposed constructing a movie theater and entertainment complex. Despite 
+interest in the RFP, the City of Des Moines (the City) rejected Justin’s proposal 
+in favor of a Hy-Vee grocery store by the Polk County Courthouse.  
+In 2014, Matt Anderson, the City’s economic development director, 
+approached Justin to discuss another lot near Court Avenue. Anderson told 
+Justin to submit a developer-initiated proposal—a means of streamlining the 
+sale of City land. Justin submitted his proposal. 
+In the summer of 2015, the Des Moines City Council (City Council) voted 
+to accept for consideration Justin’s proposal and to open a ninety-day 
+competition period, during which time other developers could make a pitch for 
+their projects. No developer submitted a counterproposal.  
+In December of 2015, Justin and his team submitted a pro forma for the 
+City’s consideration. The pro forma was notable for two reasons. First, part of 
+Justin’s pro forma—and a fly in the ointment throughout this litigation—was a 
+parking garage.  
+Second, the pro forma contained a 5% development fee for Justin and his 
+team’s work on the project. Pursuant to the pro forma, the City would pay that 
+fee upon completion of the parking garage. Parking garages typically are not 
+profitable on their own. So, to make the project work, Justin needed subsidies. 
+To begin, the City agreed to sell Justin and his team a site for $4 million 
+dollars, with a forgivable “economic development” loan for the same amount, 
+meaning that Justin would acquire the land for zero net cash outlay. The City 
+also offered tax incentives, bond financing, and shortfall loans to facilitate the 
+project. 
+
+ 
+5 
+  
+In early 2017, after months of negotiations, Justin and the City reached a 
+final development agreement (Development Agreement) for the project. The 
+project was to consist of three elements: a parking garage with space for 
+restaurants and retail stores, which was to be completed by August of 2020; a 
+forty-story tower with a high-end hotel and residential lofts (the Tower), and a 
+theater complex with an upscale dine-in movie theater and additional retail 
+space (the Theater)—both of which were to be completed by August of 2028. By 
+finishing the parking garage first, Justin and his team would provide parking 
+spaces for the City and revenue to pay off their forgivable loan.  
+Article 8, Section 8.2(E) of the Development Agreement provided: 
+E. Developer agrees that if the costs of constructing the 
+Parking Garage exceed the Stipulated Price due to no fault of the 
+City, then Developer shall be responsible for the increase in costs 
+associated with completing construction of the Parking Garage. City 
+acknowledges that City is not entitled to participate in any savings 
+realized 
+by 
+Developer 
+in 
+the 
+acquisition, 
+construction 
+or 
+development of the Parking Garage or Parking Parcel, and that any 
+savings or benefits realized shall accrue 100% to Developer. 
+This meant that if Justin and his team completed the garage under budget, then 
+they were entitled to keep the amount saved.  
+Under Article 10 of the Development Agreement, both the City and Justin 
+and his team had certain rights. Most importantly for this litigation, 
+Sections 10.1 and 10.4 of the Development Agreement provided the terms 
+governing a default by either party. 
+Section 10.1 stated: 
+A. Except as otherwise specifically provided in this Agreement, in 
+the event of a default by either party under this Agreement, the 
+aggrieved party may by written Notice of Default to the party in 
+default, demand that it proceed immediately to cure or remedy such 
+default, and, in any event, complete such cure or remedy within 
+forty-five (45) days (or such other time as may be specifically 
+provided herein) after receipt of such notice. Any default on an 
+
+ 
+6 
+  
+obligation to pay money shall be cured within five (5) business days 
+after receipt of such notice. Notwithstanding the foregoing, if any 
+non-monetary default reasonably requires more than forty-five (45) 
+days to cure, such default shall not constitute a breach of this 
+Agreement if the defaulting party commences to cure the default 
+promptly upon receipt of the notice of the default and with due 
+diligence 
+thereafter 
+continuously 
+prosecutes 
+such 
+cure 
+to 
+completion. 
+B. In the event that a Notice of Default is given as provided 
+above and action to cure or remedy the default is not promptly taken 
+or not diligently pursued, or the default is not cured or remedied 
+within the time allowed, then the party in default may be declared 
+to be in breach of this Agreement by the aggrieved party. In the event 
+of a breach of this Agreement, in addition to such other rights as the 
+aggrieved party may have hereunder, the aggrieved party may 
+institute proceedings for damages for breach of contract. In any 
+claim, action or civil proceeding wherein damages are sought for 
+breach of this Agreement, City shall have the same rights and 
+liabilities as a private non-governmental party for any breach of this 
+Agreement. 
+Section 10.4, which governed unforeseen, enforced delays in the project (called 
+force majeure or acts of God), provided:  
+Except for an obligation to pay money to the other pursuant to this 
+Agreement, neither City nor Developer shall be considered in breach 
+of, or in default of, its obligations with respect to this Agreement, or 
+any portion thereof, including redevelopment, or the beginning and 
+completion of construction of the Improvements, in the event of an 
+enforced delay in the performance of such obligations due to 
+unforeseeable causes beyond its control and without its fault or 
+negligence, including, but not restricted to, temporary injunctions, 
+acts of God, acts of the public enemy, war, or terrorism, acts of 
+government (provided City may not rely upon its own acts as reason 
+for delay), acts of the other party, fires, floods, epidemics, quarantine 
+restrictions, strikes or other labor disruptions, freight embargoes, 
+economic or financial market collapse causing a national loss of 
+available financing upon commercially reasonable terms, and 
+unusually severe weather or delays of subcontractors due to such 
+causes; it being the purpose and intent of this provision that in the 
+event of the occurrence of any such enforced delay, the time or times 
+for performance of the obligations of City or of Developer, as the case 
+may be, shall be extended for the period of the enforced delay: 
+Provided, that the party seeking the benefit of the provisions of this 
+
+ 
+7 
+  
+article shall: i) within twenty (20) days after the beginning of any 
+such enforced delay, have notified the other party thereof, in writing, 
+and of the cause or causes thereof, and setting forth the anticipated 
+extension required as a result of the enforced delay; and, ii) exercise 
+reasonable diligence to mitigate the event and the impact thereof. 
+While the parties later amended other sections of the Development Agreement, 
+Sections 10.1 and 10.4 remained unchanged.  
+Also in 2017, Justin formed three limited liability companies to manage 
+the various aspects of the development. For the parking garage, he formed 5th 
+and Walnut Parking LLC (Parking LLC). For the Tower, he formed 5th and Walnut 
+Tower LLC (Tower LLC). And, for the Theater, he formed 5th and Court LLC 
+(Court LLC). These entities, together with Justin and his brother Sean, will be 
+referred to collectively throughout this opinion as “the Developers.” 
+Once they finalized the terms of the Development Agreement, the 
+Developers were to submit their documents for City Council approval. Before the 
+council could adopt the proposal, Iowa law required a second bidding period 
+during which other developers could submit competing proposals. 
+In March, Blackbird Investments—another development firm—submitted 
+an alternative development proposal. Blackbird’s proposal included a larger 
+parking garage, low-income housing units, and a hotel. Its construction timeline 
+was also condensed compared with the Developers’. 
+The City remained interested in the Developers’ proposal, but Scott 
+Sanders, the City manager, asked the Developers to accelerate their project 
+timeline. Specifically, Sanders requested that the Developers complete the 
+parking garage by October 31, 2019, and that they begin construction on the 
+Tower on that same day. Justin reluctantly agreed to those dates, though he 
+warned the City that by accelerating the pace of construction, it was removing 
+
+ 
+8 
+  
+much of the cushion for delays. Ultimately Blackbird withdrew its proposal, and 
+the City approved the Development Agreement.  
+B. The Project Begins. Initially, the Developers financed the project with 
+money borrowed from Lincoln Savings Bank. The Mandelbaums personally 
+guaranteed loans amounting to about $5 million dollars. But they paid off the 
+Lincoln Savings’ loans when, after seeking a construction loan for the parking 
+garage, they borrowed money from Bankers Trust (the Bank). The Developers 
+would continue working with the Bank for the remainder of the project.  
+Almost immediately after the City and the Developers signed the 
+Development Agreement, they began negotiations to amend it. The amendment 
+was necessary because of issues related to the City’s skywalk system. The 
+Developers were also eager for an amendment because a hitch in the chain of 
+title for a six-and-a-half-foot alleyway abutting the development site prevented 
+them from beginning work. To resolve this problem, the Developers asked the 
+City to convey the alley to them. Meanwhile, the Developers’ architects were 
+unable to proceed with the project designs until the alley issue was resolved. 
+This delay lasted three and a half months, until the City approved an amendment 
+in July of 2017. Despite the delay, the Developers did not request an extension 
+of deadlines. 
+After the City finally resolved the alley issue, the Developers submitted 
+conceptual design plans for the entire project. These plans included several 
+major updates: they increased the number of parking spaces to be included in 
+the garage, they increased the number of rooms to be included in the hotel, and 
+they incorporated an aluminum screen façade to encompass the parking garage. 
+These updates necessitated a second amendment to the Development 
+Agreement. That amendment, which the City Council approved in December 
+
+ 
+9 
+  
+2017, extended the completion deadline for the parking garage to February 2020; 
+however, the deadline to begin construction on the Tower or Theater (October 31, 
+2019) remained unchanged. 
+In April 2018, the Developers and the City again discussed increasing the 
+garage’s parking capacity. This time, they agreed to add another sixty parking 
+spaces. The Bank wanted this update in writing. But when the Developers began 
+pressing for the third amendment, the City grew reticent. At root, the City was 
+unwilling to pay the Developers for additional parking spaces, despite previously 
+agreeing to a per-space price formula. 
+Months dragged on, and the parties could not reach an agreement about 
+the additional parking spaces. Finally, in September, the City Council and the 
+Developers agreed to a third amendment that incorporated the new parking 
+spaces. For the entirety of the April to September delay, the Developers’ 
+architects were unable to work on the development. While the Developers and 
+the City were discussing the third amendment, the deadline to commence 
+construction on the parking garage arrived. To avoid a default, the Developers 
+negotiated with Sanders to get an informal extension of deadlines. Under this 
+agreement, the Developers would reach a so-called “secondary closing”1 by 
+August 10, 2018, and would begin construction of the garage by August 24, 
+2018. The Developers met neither of these deadlines. The City did not issue a 
+notice of default for either of the missed deadlines. Ultimately, the third amended 
+Development Agreement formally extended the deadlines for the parking garage; 
+it left unchanged the October 31, 2019 deadline to begin construction on the 
+Tower or Theater. 
+ 
+1As used in this opinion, the “preliminary closing” occurred when the Developers 
+purchased the land from the City, and the “secondary closing” occurred when the Developers 
+fulfilled certain conditions that permitted them to begin construction of the project. 
+
+ 
+10 
+  
+Shortly after the parties agreed on the terms of the third amended 
+development agreement, the Developers began construction on the parking 
+garage. 
+C. More Delays. By May 2019, it became increasingly clear that the 
+Developers: (1) could not begin construction of the Theater on October 31, 2019, 
+and (2) that it would be difficult for them to begin construction of the Tower by 
+that date. The Developers communicated these facts to the City. The City initially 
+was receptive to an amendment that would extend the construction deadlines. 
+To that end, the Developers drafted a proposed extension of six months for the 
+Tower and twelve months for the Theater. 
+In August, The City responded to the Developers’ draft with its own 
+proposed amendment. In September, the parties bandied additional drafts back 
+and forth. But, because of political pressures, the City did not want to put an 
+amended development agreement to a vote during the month of October, 
+meaning that a formalized extension was delayed until November at the earliest. 
+In the interim, Sanders sent the Developers a letter in which he claimed 
+that Justin had admitted that the Developers would not be able to complete the 
+façade of the parking garage by the August 16, 2020 deadline. Justin disputed 
+this assertion. Sanders’s letter went on to say:  
+To allow for continued discussions on the text of the proposed 
+amendment, I agree that in the exercise of the authority delegated 
+to me by the City Council to administer the Agreement, I will refrain 
+from issuing any notice of default for the failure to timely satisfy the 
+obligations listed above before December 18, 2019. 
+The Developers understood this letter to mean that the City was extending their 
+deadlines. 
+At their meeting in November, the Developers told the City that SCB (the 
+architectural firm that the Developers had hired) was wrongfully withholding 
+
+ 
+11 
+  
+documents from the Developers. This, and other delays, led the Developers to 
+request a yearlong extension on the deadline to construct the Tower. The City’s 
+representatives were receptive to this proposal. 
+A few weeks after the meeting, Carrie Kruse, an economic development 
+coordinator working for the City, contacted the Developers and told them that 
+they would have to present some of the revisions to their project to the Urban 
+Design Review Board (UDRB). Justin presented the revisions, and, in December, 
+the UDRB approved the new plans, with some comments from board members.  
+Also in December, the Developers applied for a building permit for the 
+Tower and Theater. They needed to apply for the permit during 2019 because 
+the City was adopting a new building code in 2020, and the parties wanted to 
+grandfather in the project under the old code. 
+Still awaiting an amendment to the Development Agreement, the 
+Developers met with City representatives on December 5. Sanders told the 
+Developers that there was no political will to amend the Development Agreement 
+unless the City received something in return. Sanders proposed that the 
+Developers place $5 million dollars in an escrow account, which would serve as 
+an incentive for the Developers to advance the project in a timely manner. Justin 
+described this proposal as a shakedown. The meeting ended with the parties at 
+loggerheads. 
+On December 18, Sanders wrote a letter to Justin and to the Bank’s 
+representatives. That letter made several points: (1) Sanders was frustrated that 
+Justin was seeking an amendment to the Development Agreement, (2) Justin 
+admitted that he needed a year’s delay to meet the City’s requirements, (3) Justin 
+had told the City that he could not complete the west façade of the parking garage 
+by the deadline in the Development Agreement, (4) the Developers were insisting 
+
+ 
+12 
+  
+on design changes that were unacceptable to the City, and (5) the Developers’ 
+insistence on new terms had stymied any progress on an amendment to the 
+Development Agreement. Justin disputed each of these points. Importantly, 
+Sanders’s letter stated: “This letter IS NOT a Notice of Default pursuant to 
+Article 10 of the Agreement. This is instead a request to resolve and remedy the 
+existing deficiencies under the Agreement by a negotiated settlement and 
+amendment to the Agreement.” His letter then listed various problems with the 
+Developers’ proposed revisions to their project plans. According to the letter, the 
+UDRB had identified these problems at the initial hearing, and, upon 
+consideration, the City had rejected the proposed design revisions. Finally, 
+Sanders wrote: 
+If the Developers will formally request a continued deferral by 
+the City of further enforcement action to allow negotiations to 
+proceed on an amendment to the existing Agreement consistent with 
+the terms outlined above, I will submit and support that request to 
+the City Council at its next meeting on January 13, 2020. Such a 
+request would be interpreted as demonstrating the Developers’ 
+confidence that the Residential Building will be completed on the 
+delayed schedule. The absence of such a request will be interpreted 
+as evidence that the Developers have lost confidence in their ability 
+to timely perform under even a delayed schedule. In that event, the 
+City may immediately give formal notice of the existing defaults and 
+seek to enforce its legal remedies under the Agreement. If the 
+Developers will formally request a continued deferral as identified 
+above, the parties can immediately proceed with negotiations on an 
+amendment consistent with the terms identified above. The 
+Developers will also need to promptly seek an amendment to the 
+approved Conceptual Development Plan to accommodate the 
+current design of the Residential Building and South Building. 
+Meanwhile, the Developers paid their architects, SCB, about $800,000 to 
+release the design specifications that SCB had been withholding. This move freed 
+up the designs for review by the Developers and eventual submission as part of 
+the permitting process. 
+
+ 
+13 
+  
+In January 2020, Sanders asked Justin to draft a letter that Sanders could 
+send to the City Council. Justin began working on a draft. Sanders requested 
+that Justin send him a working draft before sending the formal letter. Justin 
+obliged. 
+In this draft, Justin explained the delays in construction and reassured 
+the City that the Developers were committed to completing the project. Justin 
+requested that the City extend the deadline for completion of the parking garage 
+to November 30, 2020. 
+After receiving the draft letter, Sanders sent two return drafts to Justin. 
+Sanders did not tell Justin that he had edited the document, but there were 
+numerous changes between the drafts and the original. The second draft (sent 
+January 16, 2020) included such changes as: (1) a statement that the 
+Developers would agree to escrow $4 million until the Tower was constructed; 
+and (2) an additional term that, if the Developers failed to execute a construction 
+contract and financing agreement for the Tower by January 15, 2021, then the 
+parking garage would pass into a receivership until the Developers began 
+construction of the Tower or until April 30, 2022, whichever came first. If 
+April 30, 2022, came and went without construction of the Tower and the 
+Developers did not timely remedy the default, then the City would have the 
+option to recover ownership of the entire project and the escrowed funds. 
+The Developers found the modified letter unacceptable. Justin called 
+Sanders and told him that they could not endorse the new draft. Sanders told 
+Justin to hold off on sending the original letter so that they could continue 
+discussions. 
+
+ 
+14 
+  
+On February 6, Sanders sent Justin a draft letter that he, Sanders, 
+intended to send at the end of that week. The letter stated in part: 
+By letter of October 14, 2019 and December 18, 2019, I 
+expressed my frustration that Justin Mandelbaum was seeking 
+amendments to the Amended and Restated Urban Renewal 
+Agreement for Sale of Land for Private Redevelopment that I could 
+not support. No amendment has been negotiated, and the 
+Developers continue to insist on new terms and design changes that 
+are not acceptable to the City. 
+This letter IS NOT a Notice of Default pursuant to Article 10 
+of the Agreement. This is instead a notice that the City will draft an 
+amendment to the Development Agreement for City Council that is 
+intended to operate as a negotiated settlement agreement to resolve 
+and remedy the Developers’ ongoing noncompliance with their 
+obligations under the Agreement. 
+The letter went on to state that the City would agree to an amendment to the 
+Development Agreement, including an extension of deadlines, so long as the 
+Developers agreed to escrow $4 million dollars and adopt the above-mentioned 
+receivership scheme, among other changes. The letter concluded with the 
+following paragraph: 
+I expect an amendment to the Development Agreement be 
+presented for council consideration on or before the March 23, 2020 
+City Council Meeting. In the event the City and Developer cannot 
+agree on an Amendment to the Development Agreement, the City 
+may immediately give formal notice of the existing defaults and seek 
+to enforce its legal remedies under the Agreement. As mentioned in 
+prior communications, the Developers will also need to promptly 
+seek an amendment to the approved Conceptual Development Plan 
+to accommodate the current design of the Residential Building and 
+South Building. 
+No amendment to the Development Agreement was presented to the City Council 
+in March 2020. Nor did the City give the Developers a Notice of Default. 
+D. The Pandemic. On March 11, 2020, the World Health Organization 
+declared that the spread of the COVID-19 virus had reached pandemic levels. 
+Two days later, the President of the United States declared a state of emergency. 
+
+ 
+15 
+  
+Two days after that, the mayor of Des Moines declared a city-wide state of 
+emergency. On March 17, the Governor of Iowa issued a proclamation declaring 
+a statewide emergency and mandating the closure of many businesses. On 
+March 18, Justin sent a letter to Sanders. The letter invoked the Developers’ 
+rights under Section 10.4 of the Development Agreement, stating: “Below is an 
+email Nate sent to Roger providing notice of an enforced delay. We are required 
+per the Development Agreement to provide this notice within 20 days of the onset 
+of the enforced delay.” 
+Just under a week later, Sanders responded to Justin’s letter. Near the top 
+of Sanders’s response, he wrote:  
+As with the prior letters, this letter IS NOT a Notice of Default 
+pursuant to Article 10 of the Agreement. However, pursuant to 
+Section 10.6 of the Agreement, the City’s delay in giving notice of 
+default is not a waiver of that right, and the City reserves the right 
+to give such notice at any time. 
+The letter continued, explaining that financial markets “have certainly not 
+collapsed,” and pointing out that the Developers had not identified specific 
+impediments resulting from the COVID-19 pandemic. 
+In response, the Developers wrote a follow-up letter providing Sanders with 
+additional evidence elaborating on the dire nature of the pandemic and the 
+specific negative consequences that it would have on the development. Sanders 
+never responded to this letter. 
+In April, the City sent the Developers the draft of the amended 
+Development Agreement that they had discussed back in February. The draft 
+amendment contained numerous additional conditions even beyond the escrow 
+and receivership terms that Sanders had previously floated. Justin called 
+Sanders to express his displeasure at the proposed amendment. Sanders asked 
+Justin to put his complaints into writing. Justin did so. 
+
+ 
+16 
+  
+On May 27, in response to Justin’s objections to the proposed amendment, 
+Sanders wrote another letter. In this letter, Sanders took umbrage at what he 
+perceived to be the Developers’ delay in reviewing the proposed amendment, and 
+he proposed additional changes to the development agreement. Near the bottom 
+of the letter, Sanders stated: 
+The City will issue a Notice of Default for all presently existing 
+defaults under the existing agreement unless each of the following 
+occur: 
+• On or by June 5, 2020, the developer and Bankers Trust 
+must agree to terms of the Second Substituted Agreement that are 
+acceptable to the City. 
+• On or by June 12, 2020, the Developer and Bankers Trust 
+must have executed the Second Substituted Agreement. 
+• On or by June 22, 2020, the Des Moines City Council must 
+have approved the Second Substituted Agreement. 
+On June 5, Justin carbon copied the City Council and responded to 
+Sanders. Justin argued that the Developers had complied with the Development 
+Agreement at least as to the parking garage. He argued that the Developers had 
+been diligently pursuing the project and that, because of the enforced delay 
+resulting from COVID-19, they were entitled to more time. And he argued that, 
+in the event of a default, the Development Agreement afforded the Developers a 
+right to cure. 
+On June 9, Justin met with Sanders and Kruse. During that meeting, 
+Justin explained that the pandemic had collapsed traditional financing markets, 
+and, therefore, the Developers’ original financing plan was no longer viable. 
+According to Sanders, it was at this meeting that he lost confidence in the 
+Developers’ ability to finance the remainder of the project. 
+On June 24, the City issued its first notices of default to the Developers. 
+The notices identified the act of default as the Developers’ failure to begin 
+
+ 
+17 
+  
+construction on the Tower or Theater by the October 31, 2019 deadline. The 
+default notices contained an election of remedies that stated: 
+The City of Des Moines hereby elects to acquire the Property 
+and all Improvements, as provided in the Development Agreement 
+pursuant to section 10.2(C) as an alternate remedy to the remedies 
+allowed by sections 10(D) and (E) of the Development Agreement, 
+without waiving any of its other available remedies. The City hereby 
+notifies [Parking LLC, Court LLC, and Tower LLC] that each are 
+obligated to convey Property as defined in the Development 
+Agreement to the City in accordance with their respective obligations 
+under section 10.2(C)(2) as agreed to or assumed. 
+On June 30, the Developers’ attorneys sent a letter to the City demanding 
+rescission of the default notices. They received no response. 
+The City’s decision to issue default notices jeopardized the remainder of 
+the development because the Bank, in funding the project, relied on the City’s 
+involvement to mitigate risk. Essentially, the Bank had trusted the City to cover 
+any debt service payments as they came due. When the City began to doubt the 
+Developers’ ability to bring the project to completion, the Bank feared for its 
+investment. This problem grew more acute as August 31—the maturity date of 
+the Developers’ first construction loan—approached.  
+When the Developers first realized, in spring 2020, that they would not be 
+able to complete the parking garage by August 31, they informed the Bank and 
+began discussing an extension. But although their past discussions indicated 
+that the Bank would be willing to grant the Developers an extension, the tenor 
+of the conversations changed as the likelihood that the City would issue default 
+notices increased. The Bank warned the Developers that it would not grant an 
+extension unless they were in compliance with the Development Agreement. 
+On August 6, Justin wrote a letter to City Attorney Thomas Fisher. In that 
+letter, he asked the City to rescind the default notices, and he explained that if 
+the City pursued default remedies, then the Developers’ construction loan with 
+
+ 
+18 
+  
+the Bank would come due and the Bank would commence foreclosure 
+proceedings. The City refused. On August 31, 2020, the Developers’ construction 
+loan matured. Neither the City nor Bankers Trust extended the Developers’ 
+deadlines. 
+E. The Litigation. On September 14, 2020, the Bank filed a petition to 
+foreclose its mortgage and a motion to appoint a receiver to take over the parking 
+garage project from Parking LLC. 
+Just over a week later, the Developers filed a cross-petition against the 
+City. The cross-petition brought claims for: (1) breach of contract on behalf of all 
+cross-claimants, (2) tortious interference with an existing contract with the Bank 
+on behalf of Parking LLC and the Mandelbaums, (3) indemnity on behalf of 
+Parking LLC and the Mandelbaums, (4) declaratory relief on behalf of all 
+cross-claimants, (5) interference with existing and prospective economic 
+advantage on behalf of all cross-claimants, (6) injunctive relief against the 
+default notices on behalf of all cross-claimants, and (7) injunctive relief against 
+the conveyance from Bankers Trust to the City. 
+On October 1, the district court appointed Christensen Development as 
+receiver for the parking garage. On January 25, 2021, the district court 
+authorized Christensen to sell the garage. The City purchased the property, 
+extinguishing the Developers’ debt to the Bank. This prevented the Developers 
+from completing the garage, earning the development fee, and collecting the 
+savings off the stipulated cost of construction. 
+On January 26, the City answered the Developers’ pleading and 
+counterclaimed for: (1) fraud in the inducement against Justin Mandelbaum, 
+(2) breach of contract (failure to perform) against all counterclaim defendants, 
+(3) breach of contract (default and failure to repay loan) against all counterclaim 
+
+ 
+19 
+  
+defendants, (4) breach of contract (specific performance) against all counterclaim 
+defendants, 
+(5) fraudulent 
+or 
+negligent 
+misrepresentation 
+against 
+all 
+cross-claimants, (6) unjust enrichment against all cross-claimants, (7) breach of 
+contract (default and failure to repay loan) against all counterclaim defendants, 
+and (8) a third-party claim against Justin Mandelbaum personally. 
+On March 10, Bankers Trust, satisfied because of the repayment of its 
+construction loan, dismissed without prejudice its petition against the 
+Developers and the City. This dismissal meant that the only active litigation was 
+between the Developers and the City. 
+On March 23, the Developers moved for partial summary judgment, asking 
+the court to resolve the following questions: (1) “Does Section 10.4 of the 
+Development Agreement apply to the deadline to commence construction of the 
+Tower and the South Building?” (2) “Can Section 10.4 of the Development 
+Agreement protect the Developer from being considered in default or breach of 
+the Development Agreement even though the enforced delay arose after the 
+deadlines 
+to 
+commence 
+construction?” 
+(3) “Does 
+Section 10.1 
+of 
+the 
+Development Agreement require the City to provide an opportunity to cure a 
+default for failure to commence construction by the deadlines stated in 
+Section 6.2?” (4) “Is the special remedy under Section 10.2(C) of the 
+Development Agreement available to the City before completion of the Garage 
+and conversion to permanent financing?” (5) “Aside from whether the special 
+remedy under Section 10.2(C) was properly elected, does that special remedy 
+eliminate the Developer’s obligations to the City under the Forgivable Loan?” 
+(6) “Can the City sue Justin Mandelbaum for fraud based on commitments to 
+complete buildings that were stated in the Development Agreement, as the City 
+has alleged in Counterclaim I?” (7) “Can the City use an equitable claim of unjust 
+
+ 
+20 
+  
+enrichment to create a property right in the Developer’s documents, designs, and 
+contracts and create a remedy requiring conveyance of that property that is 
+contrary to the parties’ express contract, as the City has alleged in 
+Counterclaim VI?” (8) “Can Justin Mandelbaum and Sean Mandelbaum be 
+personally liable for the Developer’s general obligations under the Development 
+Agreement . . .?” The City resisted the developers’ motion for partial summary 
+judgment. 
+On September 24, the district court granted in part and denied in part the 
+Developers’ motion for summary judgment. Specifically, the district court 
+determined that: (1) the special remedy under Section 10.2(C) of the 
+Development Agreement terminated the Developers’ obligation to make any 
+further payments to the City, and (2) a party cannot rely on the doctrine of unjust 
+enrichment where an express contract governs the same subject matter. The 
+district court granted the Developers’ motion for summary judgment as to 
+questions 5 and 7, and it dismissed the City’s counterclaim for unjust 
+enrichment. 
+On May 19, 2022, the City sought leave to amend its answer to add an 
+eighth counterclaim: foreclosure of a real estate mortgage. The district court 
+granted the City leave to amend, but the City never filed the amended 
+counterclaim. So, the district court never ruled on the City’s eighth counterclaim; 
+therefore, we will not address it in this appeal. 
+On July 15, the City moved for summary judgment on all the Developers’ 
+claims, and it sought summary judgment on its second, third, and fourth 
+counterclaims for breach of contract. The Developers resisted the City’s motion. 
+On October 6, the district court denied the City’s motion for summary judgment. 
+From October 17 to 31, the parties tried their case to the bench. The district 
+
+ 
+21 
+  
+court then allowed each side to submit proposed findings of fact and conclusions 
+of law. 
+The district court ultimately issued a 170-page decision captioned 
+“Findings of Fact, Conclusions of Law and Judgment,” which found that: (1) the 
+City breached the Development Agreement, (2) the City tortiously interfered with 
+the existing construction loan agreement between Parking LLC and Bankers 
+Trust, (3) the Developers’ claim for indemnity was moot, (4) the Developers’ 
+request for declaratory relief was moot, (5) the Developers failed to prove that the 
+City tortiously interfered with their prospective business advantage, (6) the 
+Developers’ claims for injunctive relief were moot, (7) Parking LLC was entitled 
+to judgment in the amount of $4,353,677 against the City, (8) the Developers 
+were not entitled to any additional claimed damages, (9) title to the parcel of land 
+on which the tower was to be constructed would remain with Tower LLC, (10) title 
+to the parcel of land on which the theater was to be built would remain with 
+Court LLC, (11) the Developers were entitled to judgment in their favor with 
+respect to the City’s breach of contract claims, and (12) the City dismissed its 
+counterclaims under counts I (fraud in the inducement against Justin 
+Mandelbaum) and V (fraudulent or negligent misrepresentation against all 
+cross-claimants). The court also reaffirmed its ruling granting summary 
+judgment to Parking LLC on the City’s count VI (unjust enrichment), reaffirmed 
+its ruling granting summary judgment to Parking LLC on the City’s count VII 
+(breach of contract (default and failure to repay the forgivable loan)), and taxed 
+all court costs to the City. 
+The Developers filed a motion to amend under Iowa Rule of Civil 
+Procedure 1.904(2). The district court granted the motion with respect to certain 
+factual issues in the case, but it declined to modify its legal conclusions. 
+
+ 
+22 
+  
+The City appealed and the Developers cross-appealed, each challenging 
+different aspects of the district court’s final judgment. The City argues that the 
+district court erred (1) in refusing to hold that statutory discretionary function 
+immunity protected the City from the Developers’ tort claims; (2) in finding that 
+the City, and not the Developers, had breached the Development Agreement; 
+(3) in holding that the City had tortiously interfered with the contract between 
+the Developers and the Bank; and (4) in awarding certain damages to the 
+Developers and refusing to return title of the property to the City. 
+Besides opposing the City’s appellate arguments, the Developers identified 
+their own challenges to the district court’s judgment. Specifically, the Developers 
+argue that the district court erred (1) in not awarding damages for the long-term 
+ownership and operation of the garage, (2) in failing to award reliance damages 
+already incurred for the development of the Tower and the Theater, (3) in 
+declining to give the Developers a so-called “tax true-up,” (4) in failing to award 
+damages for the value of a design error claim that would have belonged to 
+Parking LLC, and (5) in refusing to award damages for foreclosure defense costs. 
+We retained the case. 
+II. Standard of Review. 
+This appeal primarily turns on the district court’s resolution of claims and 
+counterclaims for breach of contract. Generally, such claims are tried at law. 
+Atl. Veneer Corp. v. Sears, 232 N.W.2d 499, 502 (Iowa 1975). As we have stated: 
+Where the basic rights of the parties derive from the nonperformance 
+of a contract, where the remedy is monetary, and where the damages 
+are “full and certain, remedies are usually provided by actions at 
+law, and equity has no jurisdiction.” “If . . . both legal relief and 
+equitable relief are demanded, the action is ordinarily classified 
+according to what appears to be its primary purpose or its 
+controlling issue.” 
+
+ 
+23 
+  
+Van Sloun v. Agans Bros., 778 N.W.2d 174, 179 (Iowa 2010) (omission in original) 
+(first quoting Berry Seed Co. v. Hutchings, 74 N.W.2d 233, 237 (Iowa 1956), and 
+then quoting Mosebach v. Blythe, 282 N.W.2d 755, 758 (Iowa Ct. App. 1979)). 
+Here, the primary purpose of the action was to adjudicate rights under the 
+Development Agreement. Although there were some equitable appendages to the 
+case, the question of which party breached the contract and the consequent 
+award of ascertainable monetary damages were the beating heart of the matter. 
+Also, the district court ruled on objections and, at the end of the case, issued an 
+order and judgment—as it would have in a law action—rather than a decree, 
+which it would have issued had the case been equitable in nature. See id. at 178–79. 
+Accordingly, our review is for correction of errors at law. See id.; Iowa R. App. P. 
+6.907. We are not bound by the district court’s legal conclusions. Id. at 179. 
+“The standard of review for a breach of contract action is for correction of 
+errors at law.” CMT Highway LLC, ___ N.W.3d at ___, 2026 WL 1108827, at *4 
+(quoting Iowa Mktg. Ctr. L.L.C. v. Baccam, 841 N.W.2d 107, 110 (Iowa 2013)). 
+“The trial court’s factual findings have the force of a special verdict because this 
+case was tried to the bench.” Id. “Those findings bind our review ‘if supported by 
+substantial evidence.’ ” Id. (quoting Iowa R. App. P. 6.904(3)(a)). “Evidence is 
+substantial if a reasonable mind would accept it as adequate to reach the same 
+findings.” Id. (quoting Meyers v. Delaney, 529 N.W.2d 288, 290 (Iowa 1995)). “We 
+view the evidence ‘in the light most favorable to the trial court judgment.’ ” Id. 
+(quoting Brokaw v. Winfield-Mt. Union Cmty. Sch. Dist., 788 N.W.2d 386, 388 
+(Iowa 2010)). “[W]e construe the evidence broadly to uphold, rather than defeat, 
+the trial court’s judgment.” Grall v. Meyer, 173 N.W.2d 61, 63 (Iowa 1969). We 
+review rulings on the remedies for breach of contract for correction of errors at 
+law. UE Loc. 893/IUP v. State, 997 N.W.2d 1, 11 (Iowa 2023).  
+
+ 
+24 
+  
+“We generally review a trial court’s decision to deny or award fees for an 
+abuse of discretion.” K.C. v. Iowa Dist. Ct., 6 N.W.3d 297, 301 (Iowa 2024). “An 
+abuse of discretion occurs when a court’s ruling is based on grounds that are 
+unreasonable or untenable, ‘or when the record lacks substantial evidence to 
+support the court’s conclusion.’ ” Id. (citation omitted) (quoting Pierce v. Nelson, 
+509 N.W.2d 471, 473 (Iowa 1993)). “We will presume the district court’s 
+discretionary decisions [on fee claims] are correct until the complaining party 
+shows the contrary.” Lee v. State, 906 N.W.2d 186, 194 (Iowa 2018). 
+III. Analysis. 
+We will first address the City’s appeal. We determine that the district 
+court’s factual findings are supported by substantial evidence and are binding 
+on appeal. We conclude that the district court correctly construed and applied 
+the terms of the Development Agreement. We affirm the judgment against the 
+City on the Developers’ breach of contract claim and the damages awarded on 
+that claim. We reverse the judgment against the City on the Developers’ claim 
+for tortious interference with their contract with the Bank. And we reject several 
+additional grounds for reversal that the City proposes.  
+We then address the Developers’ cross-appeal, which seeks additional 
+damages against the City. Again, we determine that the district court’s factual 
+findings are supported by substantial evidence and are binding on this 
+cross-appeal. We affirm the district court’s rejection of the Developers’ claims for 
+additional damages. 
+A. The City’s Appeal. 
+1. Did the Developers breach the Development Agreement? Or was the City 
+the breaching party? Because the meaning of the Development Agreement is the 
+focus of this case, we begin with the City’s argument that it was the Developers, 
+
+ 
+25 
+  
+and not the City, that breached the Development Agreement. The core of the 
+City’s argument is that the Development Agreement obligated the Developers to 
+begin construction on either the Tower or the Theater by October 31, 2019. The 
+Developers’ failure to meet that deadline, the City argues, constitutes a breach 
+of contract that excuses any alleged breach by the City. Not so, say the 
+Developers, because the City was in talks to extend that deadline and didn’t 
+issue any notice of default until after contractual deadlines were effectively 
+suspended by the COVID-19 pandemic. 
+The Developers argue that the district court correctly determined that the 
+City breached the Development Agreement when it issued default notices in the 
+summer of 2020, contrary to the force majeure clause and without affording the 
+Developers an opportunity to cure the alleged default. We agree with the 
+Developers. 
+To succeed on a breach of contract claim, the claimant must prove the 
+following:  
+(1) [T]he existence of a contract; (2) the terms and conditions of the 
+contract; (3) that it has performed all the terms and conditions 
+required under the contract; (4) the defendant’s breach of the 
+contract in some particular way; and (5) that plaintiff has suffered 
+damages as a result of the breach. 
+Molo Oil Co. v. River City Ford Truck Sales, Inc., 578 N.W.2d 222, 224 (Iowa 1998).  
+In this case, elements (1) and (2) are undisputed: both sides agree that the 
+contract was the Development Agreement, and they agree about its written terms 
+and conditions. The dispute is: which party first breached the Development 
+Agreement? If the first breach occurred when the Developers failed to begin 
+construction on the Tower or Theater by the original October 31, 2019 deadline, 
+then the City’s notices of default the following summer would not be actionable. 
+If, on the other hand, the contract required a notice of default and time to cure 
+
+ 
+26 
+  
+before establishing a material breach, and if the City failed to follow that process 
+before issuing the first default notice during the pandemic, then the district 
+court’s ruling that the City materially breached the Development agreement is 
+correct.  
+We begin our analysis with the operative text of the Development 
+Agreement. See Dolly Invs., LLC v. MMG Sioux City, LLC, 984 N.W.2d 168, 175 
+(Iowa 2023) (enforcing a lease contract provision requiring notice of default and 
+opportunity to cure to establish material breach); Genesis Equities, LLC v. 
+Duffield, No. 24–1105, 2025 WL 2924541, at *12 (Iowa Ct. App. Oct. 15, 2025) 
+(determining that a contract required written notice of default and failure to cure 
+before party could recover for material breach). Section 10.1 governs defaults 
+and provides: 
+A. Except as otherwise specifically provided in this Agreement, in 
+the event of a default by either party under this Agreement, the 
+aggrieved party may by written Notice of Default to the party in 
+default, demand that it proceed immediately to cure or remedy such 
+default, and, in any event, complete such cure or remedy within 
+forty-five (45) days (or such other time as may be specifically 
+provided herein) after receipt of such notice. Any default on an 
+obligation to pay money shall be cured within five (5) business days 
+after receipt of such notice. Notwithstanding the foregoing, if any 
+non-monetary default reasonably requires more than forty-five (45) 
+days to cure, such default shall not constitute a breach of this 
+Agreement if the defaulting party commences to cure the default 
+promptly upon receipt of the notice of the default and with due 
+diligence thereafter continuously prosecutes such cure to completion. 
+B. In the event that a Notice of Default is given as provided 
+above and action to cure or remedy the default is not promptly taken 
+or not diligently pursued, or the default is not cured or remedied 
+within the time allowed, then the party in default may be declared 
+to be in breach of this Agreement by the aggrieved party. In the event 
+of a breach of this Agreement, in addition to such other rights as the 
+aggrieved party may have hereunder, the aggrieved party may 
+institute proceedings for damages for breach of contract. In any 
+claim, action or civil proceeding wherein damages are sought for 
+breach of this Agreement, City shall have the same rights and 
+
+ 
+27 
+  
+liabilities as a private non-governmental party for any breach of this 
+Agreement. 
+(Emphasis added.) Section 10.4 of the Development Agreement provides: 
+Except for an obligation to pay money to the other pursuant to this 
+Agreement, neither City nor Developer shall be considered in breach 
+of, or in default of, its obligations with respect to this Agreement, or 
+any portion thereof, including redevelopment, or the beginning and 
+completion of construction of the Improvements, in the event of an 
+enforced delay in the performance of such obligations due to 
+unforeseeable causes beyond its control and without its fault or 
+negligence, including, but not restricted to, temporary injunctions, 
+acts of God, acts of the public enemy, war, or terrorism, acts of 
+government (provided City may not rely upon its own acts as reason 
+for delay), acts of the other party, fires, floods, epidemics, quarantine 
+restrictions, strikes or other labor disruptions, freight embargoes, 
+economic or financial market collapse causing a national loss of 
+available financing upon commercially reasonable terms, and 
+unusually severe weather or delays of subcontractors due to such 
+causes; it being the purpose and intent of this provision that in the 
+event of the occurrence of any such enforced delay, the time or times 
+for performance of the obligations of City or of Developer, as the case 
+may be, shall be extended for the period of the enforced delay: 
+Provided, that the party seeking the benefit of the provisions of this 
+article shall: i) within twenty (20) days after the beginning of any 
+such enforced delay, have notified the other party thereof, in writing, 
+and of the cause or causes thereof, and setting forth the anticipated 
+extension required as a result of the enforced delay; and, ii) exercise 
+reasonable diligence to mitigate the event and the impact thereof. 
+Section 10.4 insulates either party from being found in default or breach 
+of contract whenever one of the enumerated enforced delays occurs. To avail 
+itself of this provision, a party needs only to inform the other, in writing, within 
+twenty days, about the cause or causes of the enforced delay, and it must 
+exercise reasonable diligence to mitigate the event and its impact.  
+It is undisputed that the Developers failed to commence construction of 
+the Tower or Theater by October 31, 2019. The City argues that this date having 
+passed by June 24, 2020, the default was essentially incurable—there was no 
+way for the Developers to go back and do something they had failed to do. 
+
+ 
+28 
+  
+Alternatively, the City argues that once it had issued default notices and the cure 
+period had fully elapsed, then the Developers had breached the contract. The 
+City asserts that Section 10.4 does not apply to save the Developers from the 
+breach or default because the original delay—that is, the failure to begin 
+construction of the Tower or Theater on October 31, 2019—was solely 
+attributable to the Developers’ own actions and occurred before the COVID-19 
+pandemic began.  
+But the City’s arguments depend on its own interpretation of the contract. 
+The district court reached a different, more plausible interpretation based on the 
+contract terms and the extrinsic evidence presented. The missed October 31, 
+2019 deadline was not a trump card that the City had in its back pocket and 
+that it could play at any time and declare, “Game over.” Rather, once the City 
+issued the default notices, the Developers had forty-five days to cure (or 
+potentially longer, if they commenced the cure promptly). But that time period 
+was put on hold by the force majeure clause in 10.4. Indeed, it is undisputed 
+that the City failed to issue default notices until after the Developers had already 
+invoked the force majeure clause. Not only that, but the City also repeatedly 
+reassured the Developers before then that it was “NOT” issuing notices of default. 
+Indeed, Sanders testified at trial that no default existed until it was declared to 
+establish a breach and that “the Developers were entitled to an opportunity to 
+cure” after a missed deadline. The district court properly relied on the parties’ 
+course of performance that demonstrated a notice of default and opportunity to 
+cure was required before the Developers could be found in breach. See Pillsbury 
+Co. v. Wells Dairy, Inc., 752 N.W.2d 430, 436 (Iowa 2008) (“Another relevant rule 
+of 
+contract 
+interpretation 
+requires 
+that 
+‘[w]herever 
+reasonable, 
+the 
+manifestations of intention of the parties to a promise or agreement are 
+
+ 
+29 
+  
+interpreted as consistent with each other and with any relevant course of 
+performance . . . .’ ” (alteration in original) (quoting Restatement (Second) of 
+Contracts § 202(5) (A.L.I. 1979))). 
+We therefore affirm the district court’s determination that the City could 
+not pursue remedies for breach of contract unless the Developers failed, after 
+first receiving a notice of default, to take appropriate remedial action to cure the 
+default. But once the Developers invoked Section 10.4, the clock stopped on their 
+deadline to cure, and any notice of default could not trigger a breach. The City 
+concedes that the COVID-19 pandemic was a force majeure within the meaning 
+of the agreement. And the district court’s finding that the COVID-19 pandemic 
+qualified as an enforced delay is well supported by the record. The district court 
+could properly determine that it was the City, and not the Developers, who 
+breached the Development Agreement. We affirm the district court’s 
+determination that the City breached the Development Agreement. 
+2. Is the City liable for tortious interference with the contract between the 
+Developers and Bankers Trust? The Developers alleged that Sanders knew that, 
+by issuing the default notices, he would undermine the Developers’ loan 
+agreement with the Bank, souring the Bank on financing extensions or future 
+lending. The City argues that the Developers failed to prove tortious interference. 
+The district court found that the City had tortiously interfered with the 
+Developers’ existing contract with the Bank by issuing the notice of default in 
+the summer of 2020—the same conduct found to be a material breach of the 
+Development Agreement.  
+Generally, it is not “possible to tortiously interfere with a contract to which 
+one is a party,” and we have “decline[d] to recognize a tortious interference claim” 
+when “[n]o third parties were involved.” Klooster v. N. Iowa State Bank, 
+
+ 
+30 
+  
+404 N.W.2d 564, 570 (Iowa 1987). “In such cases a tort remedy is not necessary 
+as the plaintiff has an adequate remedy for breach of contract.” Baysden v. 
+Hitchcock, 553 N.W.2d 901, 904 (Iowa Ct. App. 1996); see also Tyler v. Percell, 
+506 N.W.2d 805, 808 (Iowa Ct. App. 1993) (“The rationale behind such a holding 
+is where both parties are parties to the contract, it is a breach of the agreement 
+and the proper remedy is a suit for breach of contract.”); Irons v. Cmty. State 
+Bank, 461 N.W.2d 849, 858 (Iowa Ct. App. 1990) (holding that the “trial court 
+erred by instructing the jury that a party may [tortiously] interfere [with] its own 
+contract”); Klooster, 404 N.W.2d at 570 (noting the adequacy of contract remedy). 
+We reiterate that “[t]his tort is not committed by parties to the contract; 
+the tortfeasor must interfere with a contract between another and a third 
+person.” Grahek v. Voluntary Hosp. Coop. Ass’n of Iowa, Inc., 473 N.W.2d 31, 35 
+(Iowa 1991). Here, the Bank is the third party. But is more required to recover 
+in tort than that the City breached its contract with the Developers? In Tyler v. 
+Percell, the court of appeals reinstated a tortious interference claim between 
+parties to a contract when the breaching defendant separately conspired with 
+third parties to withhold rents from the plaintiff. 506 N.W.2d at 807, 808. But 
+neither the Developers nor the district court cite a case where a tortious 
+interference claim between contracting parties was upheld based on a breach of 
+their contract alone, without additional improper actions to interfere with the 
+separate contract with a third party. 
+To recover for the tort of intentional interference with a contract, the 
+Developers had the burden to prove: “(1) the existence of a contract with a third 
+party, (2) the defendant knew about the contract, (3) the defendant intentionally 
+and improperly interfered with the contract, (4) the interference caused the 
+third-party not to perform or made performance more burdensome or expensive, 
+
+ 
+31 
+  
+and (5) the plaintiff suffered damages.” Larew v. Hope L. Firm, P.L.C., 977 N.W.2d 
+47, 63 (Iowa 2022). 
+It is undisputed that the Developers had a contract with the Bank and that 
+the City knew about that contract. The fighting issue is whether Sanders’s 
+actions in issuing the notice of default constituted intentional and improper 
+interference with the contract between the Developer and the Bank. We conclude 
+that it did not.  
+The Restatement (Third) of Torts, Liability for Economic Harm, provides 
+guidance. Section 17 states:  
+(1) A defendant is subject to liability for interference with 
+contract if: 
+(a) a valid contract existed between the plaintiff and a third 
+party; 
+(b) the defendant knew of the contract; 
+(c) the defendant engaged in wrongful conduct as defined in 
+Subsection (2); 
+(d) the defendant intended to cause a breach of the contract 
+or disruption of its performance; 
+(e) the defendant’s wrongful conduct caused a breach of the 
+contract or disruption of performance; and 
+(f) the plaintiff suffered economic loss as a result. 
+(2) Conduct is wrongful for purposes of this Section if: 
+(a) the defendant acted for the purpose of appropriating the 
+benefits of the plaintiff’s contract; 
+(b) the defendant’s conduct constituted an independent and 
+intentional legal wrong; or 
+(c) the defendant engaged in the conduct for the sole purpose 
+of causing harm to the plaintiff. 
+
+ 
+32 
+  
+Restatement (Third) of Torts: Liab. Econ. Harm § 17, at 127 (A.L.I. 2020) 
+(emphasis added). 
+When considering subsection (2), we note that the Developers do not argue 
+that the City acted with the intent to appropriate the Developers’ contractual 
+advantage or for the sole purpose of harming the Developers’ lending agreement 
+with the Bank. So, the City’s conduct—if it is to be the basis for liability—must 
+constitute an independent and intentional legal wrong.  
+Helpfully, Comment e provides guidance as to the meaning of independent 
+wrongs, stating: “An independent wrong, for purposes of this Section, can be 
+conduct regarded as culpable by the law of tort, by criminal law, by equity, or by 
+regulation. It does not include an act of negligence or breach of contract.” Id. § 17 
+cmt. e, at 130 (emphasis added). The problem, then, for the Developers is that 
+they rely on the City’s breach of the Development Agreement as the act that 
+interfered with their contract with the Bank. But the City’s breach of its contract 
+with the Developers, without more, cannot support their separate tort claim for 
+intentional interference with their contract with the Bank. See id.; see also 
+Berry & Gould, P.A. v. Berry, 757 A.2d 108, 115 (Md. App. Ct. 2000) (“Pertinent 
+to this case is the rule that breach of a contract between the plaintiff and the 
+defendant is not a basis for the interference tort, if the interference is simply 
+incidental to the breach.”).  
+Here, any interference with the Developers’ contract with the Bank was 
+merely incidental to the City’s breach of contract in issuing the notice of default 
+during the pandemic. The Developers do not identify, and the district court did 
+not find, any other actions by the City that interfered with the Developers’ 
+contract with the Bank. The City acted to protect its own interests under the 
+Development Agreement, not to maliciously interfere with the Developers’ 
+
+ 
+33 
+  
+lending agreement with the Bank. Iowa law does not support a recovery in tort 
+under these circumstances.  
+A contrary holding allowing a tort remedy for a breach of contract would 
+undermine the predictability and certainty that is vital to business law and 
+freedom of contract. In our view, awarding potentially open-ended tort damages 
+based on a breach of the parties’ contract is at odds with the contract law 
+principle of “efficient breach.” As the Delaware Supreme Court explains: 
+Efficient breach is a concept that recognizes that “properly 
+calculated expectation damages increase economic efficiency by 
+giving the other party an incentive to break the contract if, but only 
+if, he gains enough from the breach that he can compensate the 
+injured party for his losses and still retain some of the benefits from 
+the breach.” 
+Leaf Invenergy Co. v. Invenergy Renewables LLC, 210 A.3d 688, 703 (Del. 2019) 
+(en banc) (quoting Bhole, Inc. v. Shore Invs., Inc., 67 A.3d 444, 453 n.39 
+(Del. 2013)). “In other words, efficient breach is based on the idea that a party 
+might find it economically worthwhile to breach a contract because that breach 
+yields economic benefits that exceed the value of the damages it must pay to the 
+non-breaching party.” Id. In a similar vein, the United States Court of Appeals 
+for the Seventh Circuit noted that “[b]ecause, at least in theory, this kind of 
+[efficient] breach makes society better off, the law does not treat it as disfavored.” 
+Stop-N-Go of Madison, Inc. v. Uno-Ven Co., 184 F.3d 672, 680 (7th Cir. 1999) 
+(citing, inter alia, E. Allen Farnsworth, Contracts, § 12.8, at 194–95 (2d ed. 1990) 
+(“Most courts have not infringed on the freedom to keep or break a contract 
+traditionally afforded a party by the common law and endorsed by the notion of 
+efficient breach.”)); see also NACCO Indus., Inc. v. Applica Inc., 997 A.2d 1, 35 
+(Del. Ch. 2009) (“Delaware law generally elevates contract law over tort to allow 
+parties to order their affairs and bargain for specific results . . . . A claim of 
+
+ 
+34 
+  
+conspiracy to commit tortious interference against a party to the contract would 
+undercut these principles and replace the predictability of the parties’ agreement 
+with a far less certain, after-the-fact, judicially-fashioned tort remedy.” (citation 
+omitted)).  
+Applying efficient breach principles, the Delaware Supreme Court held 
+that a landlord suing its tenant for tortious interference with third-party 
+contracts must prove malice or bad faith. Bhole, 67 A.3d at 453. The court 
+determined that “there can be no non-contractual liability . . . unless the plaintiff 
+pleads and proves that the [defendant] sought not to achieve permissible 
+financial goals but sought maliciously or in bad faith to injure plaintiff.” Id. 
+(omission in original) (quoting Shearin v. E.F. Hutton Grp., Inc., 652 A.2d 578, 
+591 (Del. Ch. 1994)). Here, the district court made no findings that the City acted 
+maliciously or in bad faith when it issued the notice of default. 
+We decline to graft tort remedies onto the Developers’ remedies for the 
+City’s breach of contract. Contract law (including the recovery of foreseeable 
+consequential damages) provides the Developers’ sole remedy here. We vacate 
+the district court’s judgment that the City was liable for tortious interference 
+with the Developers’ contract with the Bank. 
+The district court’s monetary award remains unchanged, however, 
+because the district court awarded precisely the same damages for the City’s 
+breach of contract. Even if we were to affirm the judgment against the City for 
+its tortious interference with the Developers’ contract with the Bank, the 
+Developers are entitled to only one satisfaction of their damages and not a double 
+recovery. “A successful plaintiff is entitled to one, but only one, full recovery, no 
+matter how many theories support entitlement.” Clark-Peterson Co. v. Indep. Ins., 
+514 N.W.2d 912, 915 (Iowa 1994). Indeed, the purpose of damages is to restore 
+
+ 
+35 
+  
+an injured party to the position he occupied before the injury; we do not award 
+duplicative damages. Team Cent., Inc. v. Teamco, Inc., 271 N.W.2d 914, 925 (Iowa 
+1978) (en banc). We vacate the damages awarded for tortious interference but 
+affirm the identical damages awarded for breach of contract. 
+3. Does the discretionary function immunity in the Iowa Code § 670.4(1)(c) 
+protect the City from the Developers’ tort claims? Because we vacate the award for 
+tortious interference with contract, we do not reach the question of whether the 
+discretionary function immunity in Iowa Code § 670.4(1)(c) (2020) applies here. 
+4. Did the Development Agreement allow for damages outside of the special 
+fund? The City contends that the district court erred by awarding damages 
+outside of the so-called “special fund” established under Iowa Code § 403.19(2), 
+a statute governing the division of revenue from tax-increment financing. The 
+City relies on Section 9.8 of the Development Agreement, which provides in 
+relevant part: 
+A. The advances to be paid by the City on the Parking Grant, the 
+South Building Grant, the Residential Grant, and the Parking 
+Shortfall Loan, and all deposits to the Sinking Fund (collectively the 
+“Deferred Grants”) shall be paid by City solely from the special fund 
+financed by the division of revenue pursuant to Iowa Code 
+§ 403.19(2) from taxes levied on the Metro Center Urban Renewal 
+Project Area. The obligations of City under this Agreement shall not 
+constitute a general obligation of the City. 
+(Emphasis added.) The City interprets this section as a limitation on damages 
+for breach of contract. We disagree. Section 9.8, by its terms, only limits 
+payments from the economic development fund to “advances to be paid by the 
+City.” The Developers sued the City for breach of contract, not to compel 
+“payment of the City’s economic assistance commitments.” The district court 
+correctly found the following, 
+[Section 9.8], by its plain language, indicates that the funding the 
+City promised to provide under the development agreement comes 
+
+ 
+36 
+  
+from the taxes levied on the Metro Center Urban Renewal Project 
+Area. This means the parties agreed that if the tax revenue was not 
+sufficient to fund the Deferred Grants the City was not obligated to 
+make payments from its general fund to the Deferred Grants. It did 
+not limit the City’s payment of damages for a breach of the 
+development agreement. 
+We agree. Section 9.8 nowhere mentions the words “damages” or “breach.” The 
+City is a sophisticated party; it could have included language expressly limiting 
+recoverable damages for breach of the Development Agreement. It did not. We 
+enforce the unambiguous contract language as written. Iowa Fuel & Mins., Inc. v. 
+Iowa State Bd. of Regents, 471 N.W.2d 859, 862–63 (Iowa 1991) (“When a 
+contract is not ambiguous, it will be enforced as written . . . .”). We decline to 
+read into Section 9.8 any limitation on the City’s liability for breach of contract.  
+The district court correctly relied on Section 10.1(C), which the court 
+quoted and accurately found “specifically provides . . . that ‘[i]n any claim, action 
+or civil proceeding wherein damages are sought for breach of this Agreement, 
+City shall have the same rights and liabilities as a private non-governmental 
+party.’ ” (Alteration in original.) Section 10.1(C) is the more specific provision and 
+controls over any conflicting general language. See Iowa Code § 4.7. 
+Section 10.1(C) specifically addresses damages for breach of the Development 
+Agreement and provides that the City would be liable for such a breach “as a 
+private non-governmental party.” Private parties are not shielded from liability 
+under the statute governing tax-increment financing. Reading the Development 
+Agreement as a whole, as we must, we agree with the district court that no 
+provision of the contract limits “any damage a court may award against the City 
+for a breach of the development agreement.” 
+
+ 
+37 
+  
+5. Should the Developers retain title to the property? The City contends that 
+Section 10.2(C) of the Development Agreement permits the City to recover title 
+to the tower and theater parcels. Section 10.2(C) begins:  
+C. Failure to Timely Close on financing for both the South 
+Building and the Residential Building. If the owners of the South 
+Parcel and Residential Parcel are both determined to be in breach of 
+their individual obligation to cause construction of their respective 
+Buildings to be timely commenced pursuant to Section 6.2, then as 
+an alternative to the remedies set forth in paragraphs D and E below, 
+City may elect, in its sole discretion, to acquire the Property and all 
+improvements 
+thereon 
+upon 
+the 
+following 
+terms 
+and 
+conditions: . . . . 
+In our view, the district court’s findings preclude the City’s request for 
+return of those properties under the contract. The district court found the City 
+materially breached the Development Agreement. The district court further 
+found the following, 
+[T]he Developers did not breach the agreement as provided in 
+section 10.2(D)(1). Consequently, the City is not entitled to the remedy 
+provided under that section which is the return of the title to the theater 
+parcel by special warranty deed. The same result would occur under 
+section 10.2(E)(1) as it pertains to the title to the tower parcel. Because the 
+court determined that the Developers did not breach the development 
+agreement the City’s claim is not supported by any provision of the 
+development agreement. There is no basis for the court to order a return 
+of the titles to these parcels to the City.  
+The district court’s findings are supported by substantial evidence, and 
+the court correctly construed the contract to deny transfer of title to the City. We 
+affirm its ruling that leaves title to the tower and theater parcels with Tower LLC 
+and Court LLC, respectively. 
+6. The City’s challenge to the damages awarded for breach of contract. The 
+district court, after an extensive review of the Developers’ evidence including the 
+testimony of their expert, found that the Developers had proven damages of 
+$4,353,677 for the City’s breach of contract. The district court found that 
+
+ 
+38 
+  
+Parking LLC would have received that amount had it been allowed to complete 
+the garage shortly after the City’s breach.  
+Specifically, the district court found that the Developers were within 
+approximately four months of completing the garage when the Bank filed its 
+foreclosure action in response to the City’s June 2020 notice of default (the 
+breach). The breach and resulting foreclosure by the Bank prevented the 
+Developers from completing the garage and thereby earning the development fee 
+and related savings over the stipulated price. The foreclosure also triggered 
+higher default interest costs. The district court’s factual findings on the resulting 
+damages are supported by substantial evidence.  
+“[A]s a general matter, ‘[e]very breach of contract gives the injured party a 
+right to damages against the party in breach.’ ” UE Loc. 893/IUP, 997 N.W.2d 
+at 11 (second alteration in original) (quoting Restatement (Second) of Contracts 
+§ 346 cmt. a, at 110 (A.L.I. 1981)). “In particular, ‘when a contract has been 
+breached the nonbreaching party is generally entitled to’ damages that will place 
+that party ‘in as good a position as he or she would have occupied had the 
+contract been performed.’ ” Id. at 11–12 (quoting Midland Mut. Life Ins. v. Mercy 
+Clinics, Inc., 579 N.W.2d 823, 831 (Iowa 1998)). “This is sometimes called ‘benefit 
+of the bargain’ damages.” Id. at 12 (quoting Midland Mut. Life Ins., 579 N.W.2d 
+at 831). Based on the district court’s factual findings, we affirm its award of 
+benefit of the bargain (expectancy) damages of $4,353,677. 
+B. The Developers’ Cross-Appeal. The Developers challenge the district 
+court’s rejection of their claims for additional damages. At trial the Developers 
+divided their alleged damages into four overarching categories and numerous 
+subcategories. They are as follows:  
+• Category (1): Garage Completion Damages, and its subcategories:  
+
+ 
+39 
+  
+o (1-A) Development fee on the garage. 
+o (1-B) Savings on the garage.  
+o (1-C) Interest savings on the garage.  
+o (1-D) Jump ramp insurance claim on the garage.  
+In the City’s appeal, as noted above, we affirm the award to the Developers of 
+$4,353,677 in Category (1) across subcategories (1-A), (1-B), and (1-C). But the 
+district court rejected the Developers’ claims for additional damages under (1-D) 
+as well as for the following categories: 
+• Category (2): Lost Profits from Garage Operation and Ownership, and 
+its subcategories:  
+o (2-A) Net present value of residual equity value of garage.  
+o (2-B) Net present value of garage management fee. 
+o (2-C)2 Net present value of environmental expenses incentive 
+payment.  
+o (2-D) Market value of restaurant and retail space in garage (sales 
+approach).  
+• Category (3): Either:  
+o (I) Lost Development Opportunity for the Tower, which includes 
+reconciled profit calculation on residential development equity 
+investment and reconciled profit calculation on hotel development 
+equity investment; or  
+o (II) Alternative Claims—Losses Suffered Regardless of Developers’ 
+Equity Interest in Tower, which consists of four subcategories:  
+▪ (3-A) Architecture on tower paid by the Developers. 
+ 
+2The Developers do not appeal the district court’s denial of subcategory (2-C) damages.  
+
+ 
+40 
+  
+▪ (3-B) Predevelopment expenses on Tower paid by the Developers. 
+▪ (3-C) Tower hard costs funded by the Developer in the Garage 
+(excluding restaurant). 
+▪ (3-D) Development fee on the Tower.  
+• Category (4): Lost Development Opportunity for the Theater Building, 
+and its subcategories: 
+o (4-A) Architecture on the Theater paid by the Developers. 
+o (4-B) Predevelopment expenses on the Theater paid by the 
+Developers. 
+o (4-C) Theater hard costs funded by the Developers in the Garage. 
+o (4-D) Development fee on the Theater. 
+In addition to these primary damages, the Developers sought two categories of 
+ancillary damages: foreclosure defense costs and a so-called “tax gross-up.” 
+The district court determined, however, that the Developers failed to prove 
+any additional damages and that they were not entitled to foreclosure defense 
+costs or a tax gross-up. We agree. 
+We begin our review of the Developers’ cross-appeal by reiterating basic 
+principles:  
+A plaintiff is required to establish a claim of damages with some 
+reasonable certainty, showing a rational basis for ascertaining their 
+amount. On the other hand a plaintiff is not required to show the 
+amount with the same degree of certitude required for a showing of 
+the fact they were sustained.  
+Conley v. Warne, 236 N.W.2d 682, 687 (Iowa 1975). “If it is speculative and 
+uncertain whether damages have been sustained, recovery is denied. If the 
+uncertainty lies only in the amount of damages, recovery may be had if there is 
+proof of a reasonable basis from which the amount can be inferred or 
+approximated.” Id. at 687–88 (quoting Northrup v. Miles Homes, Inc. of Iowa, 
+
+ 
+41 
+  
+204 N.W.2d 850, 857 (Iowa 1973)); accord Conrad v. Dorweiler, 189 N.W.2d 537, 
+540 (Iowa 1971).  
+To recover for loss of profits, the claimant must meet three requirements: 
+(1) the damages must have been within the contemplation of the parties at the 
+time the contract was made, (2) the damages must be the natural and direct 
+result of the breach, and (3) the damages must be established with reasonable 
+certainty—they cannot be conjectural or speculative. See Dopheide v. 
+Schoeppner, 163 N.W.2d 360, 367 (Iowa 1968); see also Harsha v. State Sav. 
+Bank, 346 N.W.2d 791, 797 (Iowa 1984) (applying the lost profits analysis).  
+When evaluating a damage award for lost profits, our caselaw 
+distinguishes between two types of businesses. For established businesses, the 
+above-stated rule applies, and the district court may use the business’s historical 
+profits as a baseline for determining damages. For new businesses, though, the 
+analysis is more complicated. We apply Iowa’s “new business rule.” That rule is 
+predicated on the idea that the profits for an untested business venture are 
+necessarily more speculative than those of a going concern. We have long 
+recognized the following: 
+Expected profits from a new commercial enterprise [are] too remote 
+and speculative to warrant judgment for their loss because there are 
+no available data of past business from which the fact of anticipated 
+profits could have been established. But anticipated profits may be 
+recovered, if established with reasonable certainty, as damages for 
+the interruption of the use of an established business in actual 
+operation. 
+City of Corning v. Iowa-Neb. Light & Power Co., 282 N.W. 791, 796 (Iowa 1938). 
+“The new business rule is not absolute. If factual data are presented which 
+furnish a basis for compilation of probable loss of profits, evidence of future 
+profits should be admitted and its weight, if any, should be left to the jury.” 
+Harsha, 346 N.W.2d at 798. So, where there are projections of profitability based 
+
+ 
+42 
+  
+on expert experience in the industry and where the business proprietors have 
+relevant experience and are willing to exert the effort necessary to bring the 
+business to success, we have allowed an award of damages. See id. at 798–99. 
+With these luminaries marking our path, we turn to the Developers’ 
+individual claims. 
+1. Should the Developers have received damages for subcategory (1-D) the 
+jump ramp insurance claim on the garage? The Developers argue that the district 
+court should have awarded damages for their nascent claim against their 
+architect. According to the Developers, the design firm that worked on the 
+parking garage made numerous errors in designing the ramps that connect the 
+levels in the parking garage. These errors allegedly damaged the Developers in 
+an amount exceeding $1.3 million. The Developers claim they would have sued 
+the design firm, but when the City purchased the garage, it abandoned the claim. 
+Accordingly, the Developers seek damages for the potential damages they would 
+have acquired from a lawsuit against their design firm.  
+The district court rejected the Developers’ claim. It found that the 
+Developers failed to prove that they would have succeeded in obtaining an 
+insurance payout or other settlement from the design firm. The district court 
+noted that the receiver for the garage property sent the design firm a demand 
+letter, to which the firm never responded. The Developers had the burden to 
+prove their “case within a case” against the design firm. The district court found 
+that the potential recovery against the design firm was too speculative to support 
+a damage award against the City. That finding is supported by substantial 
+evidence, so we affirm the judgment on that issue.  
+2. Should the Developers have received damages for long-term ownership 
+and operation of the parking garage? The Developers argue that the district court 
+
+ 
+43 
+  
+erred when it refused to award damages for the long-term operation of the 
+parking garage. Essentially, under subcategory (2-A), they requested the net 
+present value of the cash flow from the operation of the parking garage, a sum 
+of $4,357,750. Under subcategory (2-B), they requested the net present value of 
+the management fee stipulated in the Development Agreement, a sum of 
+$3,289,859. And, under subcategory (2-D), they requested the lost rental value 
+of the retail and restaurant spaces built into the parking garage, a sum of 
+$3,381,702. 
+The district court denied the Developer recovery on these damages because 
+the claims lacked historical support—there was not sufficient data from the 
+parking garage itself or from similarly situated businesses to prove beyond 
+conjecture the amount of claimed damages.  
+The district court’s findings are supported by substantial evidence. When 
+a plaintiff claims damages for lost profits, the damages—not merely the fact of 
+damages but also the amount—must be proven with reasonable certainty. 
+Dopheide, 163 N.W.2d at 367. Here, all three subcategories (2-A, -B, and -D) 
+were contingent upon unrealized future events.  
+Subcategory (2-A) represents the lost profits that the Developers expected 
+to earn from owning and operating the garage. But, as the district court noted, 
+this revenue stream depended on several speculative contingencies. First, the 
+Developers assumed that the garage would have a useful life of 100 years. 
+Second, their revenue projections relied on the existence of the Tower and the 
+Theater, as well as a stream of revenue from parking for the Des Moines Farmers 
+Market. Finally, there was no testimony that the numbers provided were in any 
+way related to past operational income of similarly situated parking garages. For 
+a new and unique business, especially one as integrated as the development 
+
+ 
+44 
+  
+promised to be, it suffices to say that the district court’s finding that the damages 
+in subcategory (2-A) were too speculative is well supported by the record. 
+As for subcategory (2-B), the Developers claim that they are entitled to 
+recover a garage management fee that was contemplated in the Development 
+Agreement. But, as the district court aptly noted, the garage management was 
+anchored to a percentage of the projected garage revenue and expenses. Again, 
+the Developers failed to prove with reasonable certainty the expected revenue 
+from the garage; consequently, they cannot prove with reasonable certainty the 
+amount of the management fee. The district court’s refusal to award damages 
+under subcategory (2-B) is supported by substantial evidence. 
+Subcategory (2-D) comprises damages for the lost market value of the 
+restaurant and retail space in the garage. The district court found that the 
+Developers’ damages calculations were based on speculation, lacking any 
+historical data. We agree. The Developers were to establish a new business with 
+a unique structure of interlacing buildings and firms; their revenue projections 
+lacked comparators or a historical foundation. The district court found that the 
+damages were not ascertainable with reasonable certainty. That finding is 
+supported by substantial evidence. 
+Perceiving no error in the district court’s ruling, we conclude that the 
+Developers were not entitled to any of the damages enumerated under 
+subcategories (2-A, -B, or -D).  
+3. Should the Developers have received reliance damages for expenses 
+already incurred for the development of the Tower and the Theater? The 
+Developers argue the district court should have awarded them reliance damages 
+for expenses incurred toward the construction of the Tower and Theater. 
+
+ 
+45 
+  
+Reliance damages are intended to put the nonbreaching party in the same 
+position it would have occupied had it never formed the contract. Scott v. Grinnell 
+Mut. Reins., 653 N.W.2d 556, 562 (Iowa 2002). To recover for reliance damages, 
+the nonbreaching party must prove actual expenditures made or forbearance of 
+other opportunities prior to the repudiation of the contract. Id. But the plaintiffs’ 
+recovery for reliance damages can never exceed the contract price. Id. 
+Here, the Developers argue that they took certain actions in reliance on 
+the Development Agreement. Specifically, they spent money on architectural 
+drawings and pre-development expenses for the Tower and Theater and on 
+special features to integrate the parking garage with the Tower and Theater. For 
+the tower, these expenses comprised subcategories (3-A, -B, and -C), summing 
+to 
+$8,063,027; 
+and, 
+for 
+the 
+Theater, 
+these 
+expenses 
+comprised 
+subcategories (4-A, -B, and -C), summing to $528,884.  
+The district court found that the Developers were not entitled to recover 
+these damages because the damages were paid entirely by the construction loan, 
+meaning that, when the City purchased the garage from the Bank, it paid off the 
+construction loan. In short, the Developers suffered no actual out-of-pocket 
+reliance damages. 
+The Developers concede that they are not out of pocket for those 
+expenditures, but they argue that they were entitled to the difference between 
+the stipulated cost for the garage and the actual lower cost, or savings, which 
+the district court correctly awarded as expectancy damages. So, by including 
+Tower and Theater expenses in the construction loan, the “savings” to be 
+awarded the Developers fell by the same amount. The City does not challenge 
+the math, or the amount of the actual expenditures for the Tower and Theater. 
+Rather, the City argues that the Developers are not entitled to recover for 
+
+ 
+46 
+  
+amounts they never paid, because unlike the nearly completed garage, the 
+Developers never showed they would have built the Tower or Theater but for the 
+City’s breach.  
+The City in effect paid for the Tower and Theater expenses once it paid off 
+the construction loan that funded those expenses. In our view, the district court 
+was not required to force the City to pay twice for the same expenses. And here, 
+the district court allowed the Developers to retain title to the Tower and Theater 
+parcels without paying for them. The Developers would get a windfall if the 
+district court awarded reliance damages for expenses the Developers never 
+paid—i.e., expenses for the land on which the Tower and Theater were to sit, 
+land for projects the Developers were unlikely to complete even without the City’s 
+breach and that the Developers still own and that they acquired at no cost. 
+The district court found that the ultimate completion and successful 
+operation of the Tower and Theater was too speculative to support awarding 
+additional damages to the Developers. We agree. The district court correctly 
+treated expenditures for the nearly completed garage differently than costs 
+incurred by other parties on the Tower and Theater projects where the 
+Developers had not yet broken ground.  
+The district court also found that the Developers retained ownership of the 
+architectural drawings for the Tower and Theater. Those drawings have no value 
+to the City. So an additional award cannot be supported under a restitution 
+theory. We ordinarily do not award both expectancy and reliance or restitution 
+damages for the same breach of contract. See, e.g., Mobley v. Boyt Farms Co., 
+126 N.W.2d 280, 283–84 (Iowa 1964). See generally Restatement (Second) of 
+Contracts § 344, at 102–03 (A.L.I. 1981) (contrasting purposes of expectancy, 
+reliance, and restitution theories). The district court correctly declined to mix 
+
+ 
+47 
+  
+and match reliance and expectancy damages because those remedies are 
+mutually exclusive. The reliance remedy restores the nonbreaching party to “as 
+good a position as he would have been in had the contract not been made.” 
+Restatement (Second) of Contracts § 344(b), at 102 (A.L.I. 1981). By contrast, 
+expectancy damages provide the nonbreaching party with “the benefit of his 
+bargain by being put in as good a position as he would have been in had the 
+contract been performed.” Id. § 344(a), at 102. The Developers can’t have it both 
+ways. 
+Under the election of remedies doctrine, the injured party “may treat 
+the contract as void and seek the damages [known as ‘reliance 
+damages’] that will restore him to the position he was in immediately 
+prior to entering the contract,” or, alternatively, “he may elect to 
+affirm the contract, insist upon the benefit of his bargain, and seek 
+the damages [called ‘expectation damages’] that would place him in 
+the position he would have been in had the contract been completely 
+performed.” Significantly, these two distinct remedies are mutually 
+exclusive and, as such, may not both be recovered by the injured 
+party. 
+Tampa Pipeline Transp. Co. v. Chase Manhattan Serv. Corp., 928 F. Supp. 1568, 
+1584 (M.D. Fla. 1995) (alterations in original) (quoting Rector v. Larson’s Marine, 
+Inc., 479 So. 2d 783, 785 (Fla. Dist. Ct. App. 1985)). Thus, the Developers cannot 
+recover “for both [their] lost profits and [their] expenditures made in reliance 
+upon the contract.” Resorts Int’l, Inc. v. Charter Air Ctr., Inc., 503 So. 2d 1293, 
+1296 (Fla. Dist. Ct. App. 1987). 
+The district court’s factual findings are supported by substantial evidence, 
+and we discern no legal error. We affirm the district court’s judgment declining 
+to award damages for subcategories (3-A, B, and C) and (4-A, B, and C). 
+
+ 
+48 
+  
+4. Should the Developers have received a “tax gross-up”? The Developers 
+argue that they are entitled to a “tax gross-up” on the damages they received for 
+the City’s breach of contract. A tax gross-up is an equalization payment that 
+negates the tax burden applicable to an award of money damages. Because 
+damages awarded after a lawsuit are often taxable, sometimes a plaintiff stands 
+to lose in taxes some of the compensation to which he would otherwise be 
+entitled. This is especially true in cases where, but for the defendant’s breach of 
+contract, the plaintiff would have received a nontaxed asset. Some courts avoid 
+this eventuality by awarding additional monies to zero out the plaintiff’s tax 
+burden. See Anchor Sav. Bank, FSB v. United States, 123 Fed. Cl. 180, 183 
+(2015). The court calculates the amount of the tax gross-up by projecting the 
+plaintiff’s tax liability for the portion of the award that is subject to gross-up. Id. 
+The plaintiff’s tax rate must be reasonably certain. Id. As the United States Court 
+of Appeals for the Second Circuit wrote long ago: 
+To calculate such an item of damages permits of wide speculation. 
+If such damages are awarded, the amount of tax differential will 
+depend on the method by which appellee has kept his books—cash 
+or accrual basis. Damages would vary in each instance. Another 
+consideration would be the taxpayer’s financial position and other 
+earnings of the year which would enter into the calculations so that 
+it would be highly speculative to find the amount of the damages 
+due to appellee’s breach of contract. 
+Paris v. Remington Rand, Inc., 101 F.2d 64, 68 (2d Cir. 1939). Where, as here, 
+there is no evidence indicating against whom the taxes will be levied, or any 
+historical data indicating how the plaintiff-entity has been taxed, the plaintiff 
+fails to show with reasonable certainty the tax rate, and, therefore, the tax gross-
+up claim fails for want of proof.  
+Iowa courts routinely consider the tax consequences of property divisions 
+in marital dissolutions. See Iowa Code § 598.21(5)(j). The Developers 
+
+ 
+49 
+  
+acknowledge that our court has never upheld or otherwise addressed the 
+propriety of a tax gross-up award in commercial business litigation. In Guge v. 
+Kassel Enterprises, Inc., we recently declined to award damages for anticipated 
+future capital gains taxes as too speculative. 962 N.W.2d 764, 773 (Iowa 2021). 
+The Developers’ tax gross-up claim meets the same fate. 
+The Developers argue that, had the contract been fulfilled, they would have 
+received real estate instead of money. That real estate would have been taxed 
+differently from the lump sum payment that they received as damages. Therefore, 
+to make them whole, the court should have increased the monetary award to 
+zero out the future taxes. But the district court found that the amount of the tax 
+gross-up was too speculative. Parking LLC would receive the damages award. As 
+an LLC, it can choose to be taxed either as a corporation or as a partnership, 
+and that election would change who was taxed (either Justin and Sean 
+Mandelbaum or Parking LLC) and how they would be taxed (as a pass-through, 
+if a partnership, or as an entity, if a corporation). The Developers failed to offer 
+into evidence any tax returns for the individuals or entities. The district court 
+found the Developers failed to prove their entitlement to a tax gross-up and 
+denied recovery on that claim based on insufficient evidence. The district court’s 
+findings are supported by substantial evidence, and we affirm.  
+5. Should the Developers have been awarded damages for foreclosure 
+defense costs? Finally, the Developers argue that the district court should have 
+awarded them damages for the money they spent in defending against Bankers 
+Trust’s foreclosure action. According to the Developers, if the City had not 
+breached the Development Agreement, then they, the Developers, would not have 
+incurred legal fees to defend against the Bank’s foreclosure action. Therefore, the 
+
+ 
+50 
+  
+Developers conclude, the district court should have reimbursed them for the 
+amounts they spent on defending against the Bank’s claims. 
+The Developers had the burden to prove their entitlement to attorney fees 
+and the amount thereof. Lynch v. City of Des Moines, 464 N.W.2d 236, 238 (Iowa 
+1990) (en banc). “Iowa follows the American rule: ‘the losing litigant does not 
+normally pay the victor’s attorney’s fees.’ ” NCJC, Inc. v. WMG, L.C., 960 N.W.2d 
+58, 62 (Iowa 2021) (quoting In re Guardianship & Conservatorship of Radda v. 
+Wash. State Bank, 955 N.W.2d 203, 214 (Iowa 2021)). A party may obtain 
+attorney fees incurred in defending a “third-party suit” when the suit is “brought 
+about or caused by either the tortious conduct or breach of contract” of the 
+defendant. N.H. Ins. v. Christy, 200 N.W.2d 834, 840 (Iowa 1972); Turner v. Zip 
+Motors, 65 N.W.2d 427, 432 (Iowa 1954). But the Developers are not entitled to 
+recover fees incurred litigating against the City. Dier v. Peters, 815 N.W.2d 1, 10 
+(Iowa 2012). The district court did not allow the Developers to make an end run 
+around the American rule by seeking fees through their third-party litigation 
+with the Bank. 
+The district court determined that the Developers failed to prove that the 
+amount claimed for fees ($138,629) was spent on foreclosure defense rather than 
+on their litigation with the City. Notably, the Developers’ appellate briefing points 
+to no fee affidavit or itemized billing statement that properly segregated their fees 
+incurred exclusively on litigating the foreclosure action against the Bank. “[T]o 
+ensure that all necessary data is before the court, attorneys are generally 
+required to submit detailed affidavits which itemize their fee claims.” Boyle v. 
+Alum-Line, Inc., 773 N.W.2d 829, 832 (Iowa 2009) (per curiam) (alteration in 
+original) (quoting Grunin v. Int’l House of Pancakes, 513 F.2d 114, 127 (8th Cir. 
+1975)). The district court found the following: 
+
+ 
+51 
+  
+The development agreement does not provide attorney fees for the 
+prevailing party. While The Developers assert that these expenses 
+were for the foreclosure proceedings, they do not delineate the 
+services provided by their counsel. The foreclosure action was filed 
+on September 14, 2020, by Banker’s Trust. On September 23, 2020, 
+the Developers filed their cross-petition against the City for the 
+claims litigated in this matter and the subject of the trial. The 
+Developers began litigating these claims against the City 
+immediately upon being served with the foreclosure petition. The 
+court finds the Developers have failed to establish the amount 
+claimed was solely for the defense of the foreclosure action since that 
+defense entailed the immediate filing of a cross petition against the 
+City on the issues presently before the court. 
+The district court’s factual findings are supported by substantial evidence. 
+We are reviewing the district court’s denial of fees for abuse of discretion, and 
+we presume the district court acted within its discretion unless the Developers 
+show otherwise. Lee, 906 N.W.2d at 194. The Developers made no such showing. 
+We affirm the district court ruling denying the Developers’ request for foreclosure 
+defense fees. 
+IV. Disposition. 
+For those reasons, we affirm the district court judgment except for the 
+award for tortious interference with an existing contract.  
+Appeal Affirmed in Part and Reversed in Part; Cross-Appeal Affirmed. 
+All justices concur except McDermott, J., who takes no part. 

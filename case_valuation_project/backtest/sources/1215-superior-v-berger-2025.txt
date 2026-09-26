@@ -1,0 +1,284 @@
+[Cite as 1215 Superior, L.L.C. v. Berger, 2025-Ohio-645.] 
+ 
+COURT OF APPEALS OF OHIO 
+ 
+EIGHTH APPELLATE DISTRICT 
+COUNTY OF CUYAHOGA 
+ 
+1215 SUPERIOR, LLC, 
+: 
+ 
+ 
+Plaintiff-Appellee, 
+: 
+ 
+ 
+ 
+No. 113882 
+ 
+v. 
+: 
+ 
+  
+JACOB BERGER, 
+: 
+ 
+ 
+ 
+Defendant-Appellant. 
+: 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+JOURNAL ENTRY AND OPINION 
+ 
+ 
+ 
+JUDGMENT:  AFFIRMED 
+RELEASED AND JOURNALIZED:  February 27, 2025 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Civil Appeal from the Cuyahoga County Court of Common Pleas 
+Case No. CV-23-977211 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Appearances: 
+ 
+Benesch, Friedlander, Coplan & Arnoff LLP, Andrew G. 
+Fiorella, and Vincent J. Michalec, for appellee.   
+ 
+Singerman, Mills, Desberg & Kauntz Co., L.P.A., and 
+Christopher O’Connell, for appellant.   
+ 
+ 
+KATHLEEN ANN KEOUGH, J.: 
+ 
+ 
+Defendant-appellant, Jacob Berger (“Berger”), brings this appeal 
+challenging the trial court’s grant of summary judgment in favor of 1215 Superior, 
+LLC (“Lender”) premised upon a breach of a guaranty agreement and several 
+
+ 
+ 
+subsequent forbearance agreements.  After a thorough review of the law and record, 
+this court affirms.  
+I. Factual History 
+ Lender was the former owner of a commercial property located at 
+1215 Superior Avenue in Cleveland, Ohio.  On November 7, 2019, 1215 Superior 
+entered into a contract with Hampton Realties, LLC to sell the property.  Part of this 
+transaction included Lender making two loans to two different entities, 1215 
+Superior Holdings LLC and Superior GP Holdings.  These loans were reduced to 
+writing in the form of a subordinated promissory note with a principal of 
+$1,000,000 (“Loan A”) and a promissory note with a principal of $250,000 and 
+interest (“Loan B”) (collectively, “the Loans”).  Each of the Loans was set to mature 
+in March 2021.  
+ The day after the Loans were executed, Berger executed a document 
+titled “Unconditional Guaranty of Payment and Performance” (“the Guaranty”).  In 
+this document, Berger “unconditionally and absolutely guarantee[d] to Lender, the 
+full and prompt payment of any and all of [both borrowers of the Loan’s] liabilities, 
+obligations and debts to Lender in respect of the Loans . . . .”  The Guaranty provided 
+that if the Loans were not paid, the Loans “shall become the direct and primary 
+indebtedness and obligation of” Berger “as if [he] was the maker or principal obligor 
+under the Loan Documents.”   
+
+ 
+ 
+ The Guaranty also provided that Berger was responsible for all costs 
+and expenses, including attorney fees incurred by Lender in enforcing, modifying or 
+amending, or prosecuting any actions or proceedings arising out of the Guaranty.  
+ 
+In March 2021, when the Loans were set to mature, neither of the 
+borrowers nor Berger had paid Lender. 
+ In June 2021, Lender and Berger entered into a forbearance 
+agreement where Lender agreed that it would not exercise its rights and remedies 
+under the Guaranty until September 30, 2021.  Pertinently, the forbearance 
+agreement that Berger signed indicated that (1) the Loans are valid, binding, and 
+enforceable obligations; (2) the outstanding balance on the Loans owed to Lender 
+totaled $1,395,685.02; (3) Berger is obligated to pay all outstanding amounts 
+pursuant to the terms of the Guaranty; and (4) Berger has “no defenses, 
+counterclaims, rights of setoff, or rights of recoupment” with respect to the amount 
+owed to Lender.  Berger once again agreed to pay all legal fees, costs, and expenses 
+associated with the forbearance agreement.  
+ 
+By September 30, 2021, Lender had not received payment. In 
+November 2021, Lender and Berger entered into a first amended forbearance 
+agreement.  In the first amended agreement, Lender again agreed not to exercise its 
+rights and remedies under the Guaranty until March 31, 2022.  The agreement that 
+Berger signed indicated that (1) he was in default of his obligations under the Loans, 
+(2) the outstanding balance due to Lender was $1,487,043.87, (3) he would pay 
+Lender the total principal and accrued and unpaid interest with respect to Loan B.  
+
+ 
+ 
+ In February 2022, Berger tendered a lump sum payment of 
+$250,579.93, which paid off Loan B’s principal and interest per the terms of the 
+second amended forbearance agreement.  Berger also made several more partial 
+payments throughout 2022.  However, the entirety of the debt was not paid by 
+March 31, 2022, as agreed, and Berger remained in default of the Guaranty and first 
+amended forbearance agreement.  
+ The parties entered into a second amended forbearance agreement, 
+extending Berger’s time to pay until December 31, 2022.  This agreement, that 
+Berger signed, provided that (1) the original borrowers continued to be in default of 
+its obligations under the Loans, and (2) that Berger was now in default of his 
+obligations under the Guaranty, the forbearance agreement, and the first amended 
+forbearance agreement.  The agreement further provided that the outstanding 
+balance of Loan A was $1,258,517.92 and the outstanding balance of Loan B was 
+$147,869.84, and provided for lower interest rates that would be rendered null and 
+void should Berger not pay them before December 31, 2022.    
+ By December 31, 2022, however, Berger still had not paid all amounts 
+due with respect to Loan A.   
+ On March 28, 2023, Lender filed the underlying case, naming Berger 
+as the sole defendant, alleging breach of the Guaranty and forbearance agreements. 
+II. Procedural History 
+ Lender’s complaint named Berger as the sole defendant and asserted 
+claims for default of the Guaranty and forbearance agreements. 
+
+ 
+ 
+ Berger appeared and answered.  Lender filed its motion for summary 
+judgment that the court granted and subsequently ordered the parties to brief the 
+issues surrounding attorney fees.  After the court granted Lender’s motion for 
+attorney fees, Berger timely filed the instant appeal. 
+ While the appeal was pending, the parties stipulated that the trial 
+court made a clerical mistake and inadvertently granted interest on the judgment 
+twice.  This court then issued a limited remand order for the trial court to issue a 
+corrected judgment entry on the matter.  Based on this journal entry and the 
+previous award of attorney fees, the total judgment included: $1,091,479 due 
+Lenders for the outstanding principal, $419,226.93 due Lenders for the total interest 
+due, $36,211.50 due Lenders for its reasonable attorney fees, and $441.75 for 
+reasonable litigation expenses. 
+III. Law and Analysis 
+ In his sole assignment of error, Berger contests the trial court’s grant 
+of summary judgment.  
+ On appeal, summary judgment motions are reviewed de novo, 
+applying the same standard as the trial court.  Grafton v. Ohio Edison Co., 77 Ohio 
+St.3d 102, 105 (1996). The standard under Civ.R. 56 sets forth that summary 
+judgment is appropriate when (1) no genuine issue as to any material fact exists, (2) 
+the party moving for summary judgment is entitled to judgment as a matter of law, 
+and (3) viewing the evidence most strongly in favor of the nonmoving party, 
+reasonable minds can reach only one conclusion that is adverse to the nonmoving 
+
+ 
+ 
+party.  The party moving for summary judgment bears this burden and must set 
+forth specific facts that demonstrate its entitlement to summary judgment. Dresher 
+v. Burt, 75 Ohio St.3d 280, 292-293 (1996).  When responding to a motion for 
+summary judgment, the adverse party “must set forth specific facts showing that 
+there is a genuine issue for trial.”  Civ.R. 56(E). 
+ The sole basis for Berger’s assigned error is that the Guaranty was not 
+supported by consideration, which would render the contract not legally binding on 
+the parties.   
+ A contract includes the following elements: “an offer, an acceptance, 
+contractual capacity, consideration (the bargained-for legal benefit or detriment), a 
+manifestation of mutual assent, and legality of object and of consideration.”  Lake 
+Land Emp. Group of Akron, LLC v. Columber, 2004-Ohio-786, ¶ 14.  Unless 
+supported by consideration, a contract is not binding.  Id. at ¶ 16, citing Judy v. 
+Louderman, 48 Ohio St. 562 (1891), paragraph two of the syllabus.  Consideration 
+“may consist of either a detriment to the promisee or a benefit to the promisor.”  Id., 
+citing Irwin v. Lombard Univ., 56 Ohio St. 9, 19 (1897).  “A benefit may consist of 
+some right, interest, or profit accruing to the promisor, while a detriment may 
+consist of some forbearance, loss, or responsibility given, suffered, or undertaken by 
+the promise.”  Id., citing Irwin at 20.   
+ Berger argues that “to have a valid guaranty, there must be sufficient 
+consideration provided to the purported guarantor – i.e., Mr. Berger.”  This 
+contention is unsupported by Ohio law.  
+
+ 
+ 
+ “In the case of a guaranty . . . the benefit of the consideration need not 
+accrue to the promisor.”  FPC Fin. v. Wood, 2007-Ohio-1098, ¶ 11 (12th Dist.), citing 
+Restatement of Law 2d, Contracts, § 71(4) (1981).  “‘The performance or return 
+promise may be given to the promisor or to some other person.  It may be given by 
+the promisee or by some other person.  It matters not from whom the consideration 
+moves or to whom it goes.  If it is bargained for and given in exchange for the 
+promise, the promise is not gratuitous.’”  Wood at id., citing Restatement of Law 2d 
+at id.    
+ Berger relies heavily on Wood for the proposition that since he 
+purportedly has no ownership interest in the entities that borrowed Loan A and 
+Loan B, the Guaranty was not supported by consideration.  The Wood Court held 
+that the at-issue personal guaranty was not supported by consideration.  Id. at ¶ 41.  
+However, Wood presents an entirely distinguishable scenario wherein the court 
+examined several factors in making this determination, including whether the 
+guaranty was essential to the underlying agreement and that the evidence 
+demonstrated that the agreement was not bargained for or negotiated.  Id. at ¶ 49.  
+Wood’s lack of ownership interest in the company to which credit was being 
+extended was only one of many factors that the Wood Court considered. 
+ Here, Berger’s contention that his ownership, or lack thereof, in the 
+underlying borrowers of the Loans impacts the consideration in this matter is 
+without merit.  Ohio law provides that “‘consideration which supports the 
+underlying agreement is sufficient to bind the guarantor.  “The consideration 
+
+ 
+ 
+running from the creditor to the debtor is deemed sufficient to support the surety’s 
+promise to make the debt good.”’”  McInnis v. Spin Cycle-Euclid, LLC, 2009-Ohio-
+2370, ¶ 16 (8th Dist.), quoting Solon Family Physicians, Inc. v. Buckles, 96 Ohio 
+App.3d 460, 464 (8th Dist. 1994), quoting United States v. Tilleraas, 709 F.2d 1088, 
+1091 (6th Cir. 1983).  “‘The obligation of the surety rests upon a consideration as 
+adequate as that of the principal; for, though he received no pecuniary or other 
+benefit for his undertaking, credit is extended to the principal, and advantages are 
+obtained by him, upon the faith of the surety’s engagement.’”  McInnis at id., quoting 
+Medina Supply Co. v. Corrado, 116 Ohio App.3d 847, 853 (8th Dist. 1996).  
+ Here, Berger’s guaranty of the Loans constituted consideration, even 
+if the benefit was not conferred upon Berger.  His ownership or lack thereof need 
+not be considered to find that the Guaranty was supported by consideration.  Since 
+Berger does challenge any other aspect of the trial court’s decision granting 
+summary judgment in favor of Lender, we overrule Berger’s sole assignment of 
+error.  
+ Judgment affirmed.  
+It is ordered that appellee recover from appellant costs herein taxed. 
+The court finds there were reasonable grounds for this appeal. 
+It is ordered that a special mandate be sent to said court to carry this judgment 
+into execution. 
+ 
+ 
+
+ 
+ 
+A certified copy of this entry shall constitute the mandate pursuant to Rule 27 
+of the Rules of Appellate Procedure. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+KATHLEEN ANN KEOUGH, JUDGE 
+ 
+EILEEN A. GALLAGHER, A.J., and 
+MICHELLE J. SHEEHAN, J., CONCUR 
+ 
+ 
+
+ 
+ 
+ 
+ 

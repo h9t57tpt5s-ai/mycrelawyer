@@ -1,0 +1,1217 @@
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+NUMBER 13-18-00393-CV  
+ 
+COURT OF APPEALS 
+ 
+THIRTEENTH DISTRICT OF TEXAS 
+ 
+CORPUS CHRISTI - EDINBURG   
+                                                                                 
+ 
+DAVID KEITH BRANDON,     
+Appellant, 
+ 
+v. 
+ 
+WELLS FARGO BANK, N.A., AS  
+TRUSTEE FOR THE REGISTERED  
+HOLDERS OF LASALLE COMMERCIAL  
+MORTGAGE SECURITIES, INC. 2007-MF5,  
+COMMERCIAL MORTGAGE SERIES  
+2007-MF5, AND MIDLAND LOAN SERVICES,    
+Appellees. 
+                                                                                 
+ 
+On appeal from the 156th District Court 
+of San Patricio County, Texas. 
+                                                                                 
+ 
+MEMORANDUM OPINION 
+Before Chief Justice Contreras and Justices Longoria and Hinojosa 
+Memorandum Opinion by Justice Hinojosa 
+ 
+
+2 
+ 
+ 
+Appellee and cross-appellant, Wells Fargo Bank, N.A.1 (Wells Fargo), by and 
+through appellee and cross-appellant, Midland Loan Services (Midland), filed suit against 
+appellant and cross-appellee David Keith Brandon alleging that Brandon defaulted on 
+commercial notes held by Wells Fargo and serviced by Midland (collectively, the lenders). 
+While the case was pending, the trial court appointed a receiver, the collateral securing 
+the notes was sold, and the balances on the notes were paid with the sale proceeds. 
+Brandon later filed a counter-petition against Wells Fargo and a third-party petition against 
+Midland, disputing the lenders’ handling of the excess sale proceeds, and alleging various 
+causes of action. Following a bench trial, the trial court signed a final judgment awarding 
+Brandon $245,109.20 in actual damages, $245,109.20 in exemplary damages against 
+each Midland and Wells Fargo, and $125,000 in attorney’s fees plus additional contingent 
+appellate attorney’s fees. 
+ 
+In twelve issues, which we have grouped into four issues,2 Brandon argues that: 
+(1) the loan balances were not established by legally sufficient evidence and, therefore, 
+Brandon should have been awarded all of the proceeds from the sale of the collateral; (2 
+and 3) there was legally insufficient evidence supporting the trial court’s findings that 
+Brandon did not suffer consequential damages and that the excess sale proceeds were 
+ 
+1 The full name for this party is Wells Fargo Bank, N.A., as trustee for the registered holders of 
+LaSalle Commercial Mortgage Securities, Inc. 2007-MF5, Commercial Mortgage Pass-Through 
+Certificates, Series 2007-MF5. 
+ 
+2 Brandon assails several of the trial court’s findings of fact without contending that those findings 
+probably caused the rendition of an improper judgment—the standard for reversible error in civil cases. See 
+TEX. R. APP. P 44.1. While an erroneous finding of fact on an ultimate fact issue is harmful error, an 
+immaterial finding of fact is harmless and not grounds for reversal. Cooke Cty. Tax Appraisal Dist. v. Teel, 
+129 S.W.3d 724, 731 (Tex. App.—Fort Worth 2004, no pet.) (op. on reh’g). We address only those 
+challenged findings which are necessary to the disposition of the appeal. See TEX. R. APP. P. 47.1. 
+ 
+
+3 
+ 
+only $188,577.86; and (4) the trial court’s award of exemplary damages was insufficient.   
+ 
+In five issues, which we treat as six, the lenders argue: there is legally insufficient 
+evidence supporting Brandon’s causes of action for (1) conversion and (2) breach of 
+contract; (3) the trial court erred in finding that the lenders were alter egos of each other 
+and, therefore, the lenders cannot be jointly and severally liable; (4) the trial court’s 
+damages award constitutes an impermissible double recovery; and (5 and 6) the trial 
+court’s attorney’s fees and exemplary damages awards are erroneous. We affirm in part 
+and reverse and render in part. 
+I. 
+BACKGROUND 
+A. 
+The Notes, Deed of Trust, and Servicing Agreement 
+ 
+In December 2006, Brandon executed two promissory notes in favor of LaSalle 
+Bank which were secured by a deed of trust on the Sun Valley Apartments (the collateral) 
+located in Portland, Texas. The maturity date for the notes was January 1, 2012, at which 
+point Brandon was required to pay the remaining principal balance. The first note, which 
+the parties refer to as the A-Note, was in the amount of $2,640,000. The A-Note was later 
+assigned to Wells Fargo.3 The second note, or B-Note, was in the amount of $165,000 
+and was later assigned to CBA-Mezzanine Capital Finance, LLC (CBA-Mezzanine).  
+ 
+Both notes contained the following language concerning default: 
+If any installment under this [note] or any other loan agreements or financing 
+arrangements between the undersigned and the holder hereof now existing 
+or hereafter entered into is not paid when due, the entire principal amount 
+outstanding hereunder and accrued interest thereon shall at once become 
+due and payable, at the option of the holder hereof. The holder hereof may 
+exercise this option to accelerate during any default by the undersigned 
+ 
+3 The promissory notes permitted the holder of the notes to assign the notes without Brandon’s 
+consent. 
+
+4 
+ 
+regardless of any prior forbearance. In the event of any default in the 
+payment of this [note], and if the same is referred to an attorney at law for 
+collection or any action at law or in equity is brought with respect hereto, the 
+undersigned shall pay the holder hereof alI expenses and costs, including, 
+but not limited to, attorney’s fees. 
+ 
+If any installment under this [note] is not received by the holder hereof within 
+fifteen (15) calendar days after the Installment is due, the undersigned shall 
+pay to the holder hereof a late charge of five percent (5.00%) of such 
+installment, such late charge to be immediately due and payable without 
+demand by the holder hereof. If any installment under this [note] remains 
+past due for thirty (30) calendar days or more, the outstanding principal 
+balance of this [note] shall bear interest during the period in which the 
+undersigned is in default at a "Default Rate of Interest” equal to three 
+percent (3%) per annum over the Interest Rate in effect from time to time 
+during the period of default. If such Default Rate of Interest may not be 
+collected from the undersigned pursuant to applicable law, this [note] shall 
+bear interest during the period of default at the maximum per annum rate of 
+interest, if any, permitted pursuant to such applicable law. 
+ 
+The deed of trust instrument provided the following with respect to the options available 
+to the lenders in the event of default: 
+In the event Lender elects to seek the appointment of a receiver for the 
+Property upon Borrower’s breach of any covenant or agreement of Borrower 
+in this Instrument, Borrower hereby expressly consents to the appointment 
+of such receiver. Lender or the receiver shall be entitled to receive a 
+reasonable fee for so managing the Property. 
+ 
+. . . . 
+ 
+ACCELERATION; REMEDIES. Upon Borrower’s breach of any covenant or 
+agreement of Borrower in this Instrument, or in any other loan agreements 
+or financing arrangements now existing or hereafter entered into between 
+Borrower and Lender, the Note, [the Guaranty of Payment executed by 
+David Keith Brandon, in favor of Lender dated on or about the date hereof] 
+and the other agreements and documents executed by Borrower in favor of 
+lender in connection with the Note (the “Loan Documents”) including, but 
+not limited to, the covenants to pay when due any sums secured by this 
+Instrument, Lender at Lender’s option may declare all of the sums secured 
+by this Instrument to be immediately due and payable without further 
+demand and may invoke the power of sale and any other remedies 
+permitted by applicable law or provided herein. Borrower acknowledges that 
+
+5 
+ 
+the power of sale herein granted may be exercised by lender without prior 
+judicial hearing to the extent permitted by applicable law. Lender shall be 
+entitled to collect all costs and expenses incurred in pursuing such 
+remedies, including, but not limited to, attorney’s fees, costs of documentary 
+evidence, abstracts and title reports. Borrower acknowledges that this 
+Mortgage is granted to Lender with a power of sale to the extent permitted 
+by applicable law. 
+ 
+. . . .  
+ 
+The proceeds of the sale shall be applied in the following order; (a) to all 
+costs and expenses of the sale, including, but not limited to, attorney’s fees 
+and costs of title evidence; (b) to all sums secured by this Instrument in such 
+order as Lender, in Lender’s sole discretion, directs, and (c) the excess, if 
+any, to the clerk of the Circuit Court, of the county in which the sale is held. 
+ 
+ 
+Pursuant to a “Pooling and Servicing Agreement” (Servicing Agreement), the 
+duties of collecting note payments, holding and disbursing escrow funds, and performing 
+most of the routine administrative functions regarding the notes were delegated to a 
+Master Servicer and a Special Servicer. The Master Servicer for the A-Note was Midland, 
+and the Master Servicer for the B-Note was Wells Fargo. The Master Servicer services 
+the Note until there is a default or default is imminent, at which time the servicing duties 
+are transferred to the Special Servicer. Midland was the Special Servicer for both notes. 
+B. 
+Brandon Defaults 
+ 
+Midland sent Brandon notices in the months prior to the loan’s maturity date, 
+reminding him that he was required to pay the loan in full or he would be subject to interest 
+or other charges as specified by the loan documents. The December 2, 2011 notice 
+indicated an outstanding principal balance of $2,475,110.86. Brandon did not pay the 
+notes’ balances by the maturity date, at which time Midland became the Special Servicer 
+for both notes. Midland sent Brandon a notice of default for the A-Note on February 2, 
+
+6 
+ 
+2012, and it later communicated with Brandon concerning his default on the B-Note. 
+Midland instructed Brandon to continue sending payments as he had done prior to default, 
+by sending the A-Note payments to Midland and the B-Note payments to Wells Fargo.  
+ 
+In April 2012, Wells Fargo deposited Brandon’s $24,787.41 payment for the A-
+Note, but Brandon’s note was not credited. Wells Fargo maintained at trial that Brandon 
+mistakenly sent the check directly to it, rather than to Midland, the servicer of the note, 
+and that it did not discover the payment was for the A-Note until years after suit was filed. 
+Brandon testified that he sent the payment to Midland.   
+C. 
+Lawsuit 
+ 
+The lenders filed the instant suit on April 30, 2012, alleging that Brandon defaulted 
+on the notes by failing to pay all amounts due at maturity and by failing to maintain the 
+collateral in good condition and repair. The lenders requested that the trial court appoint 
+a receiver, contending that they had the right to do so pursuant to the loan documents.  
+ 
+The trial court signed an agreed order granting the lenders’ application for 
+appointment of a receiver. The order authorized the receiver to take control of the 
+collateral and to secure a buyer. In October 2012, the receiver filed a report of sale and 
+agreed motion to approve the sale of the collateral for $3,200,000. The motion prayed 
+that the trial court confirm the sale of the collateral and authorize the receiver to distribute 
+the net proceeds from the sale to the lenders by and through the receiver. The trial court 
+signed an agreed order granting the receiver’s motion, approving the sale, and providing 
+that “any net proceeds from the sale of the [collateral] would be distributed to [the 
+lenders].”  
+
+7 
+ 
+In March 2013, Brandon filed a counterclaim against Wells Fargo alleging that the 
+sale price of the collateral exceeded the “payoff balance owed to Wells Fargo” by 
+$600,000. Brandon alleged that Wells Fargo’s retention of those funds amounted to a 
+conversion of Brandon’s property. At this time, Brandon also filed a motion to terminate 
+the receivership and require distribution of the sale proceeds. 
+In June 2015, Brandon filed a third-party petition against Midland alleging that 
+Midland was jointly and severally liable with Wells Fargo for refusing to distribute the 
+excess sale proceeds. In his live pleading, which encompasses a petition and multiple 
+supplemental petitions, Brandon alleged causes of action for breach of contract, 
+negligence, conversion, and liability under the Theft Liability Act. Brandon further alleged 
+that he was entitled to consequential damages because his intended purchase of another 
+property fell through when he did not have sufficient cash to get a loan. As a result, 
+Brandon contended he was unable to defer certain income taxes and he lost out on the 
+income the property would have generated. Brandon also claimed that the lenders failed 
+to return the “escrow balances for taxes and insurance.” 
+The lenders later filed an amended pleading, alleging that they were entitled to an 
+offset of $103,160.89 for payments recently made to Brandon. The lenders contended 
+that this amount represented the net sale proceeds owed to Brandon, the amount of the 
+April 2012 payment for the A-Note, and accrued interest. 
+ 
+D. 
+Bench Trial 
+ 
+A two-day bench trial commenced on January 16, 2018. At the outset, the lenders 
+stated they were not proceeding on any affirmative claims for relief because Brandon’s 
+
+8 
+ 
+obligation on the notes was satisfied by application of the proceeds of the collateral. 
+Brandon argued that the funds he received as excess sale proceeds were inadequate, 
+and he intended to proceed on his claims.  
+ 
+1. 
+The Lenders’ Evidence 
+ 
+David Bornheimer, Midland’s vice president, testified based on his review of the 
+loan file and accounting records. He maintained that Midland allowed Brandon seven 
+months following the notes’ maturity dates to sell the collateral or refinance the notes. 
+When Brandon was unable to do so, the parties agreed to the receiver’s sale of the 
+collateral. 
+ 
+Bornheimer testified that there were a number of charges and deductions relating 
+to the sale. An exhibit titled “Seller’s Statement” prepared by the title company indicated 
+that the property sold for $3,200,000. After the deductions of charges and fees, which 
+included property tax payments, $3,005,915.44 was paid to Midland. Bornheimer testified 
+that any excess funds from the sale were not immediately available to Brandon because 
+the receiver was entitled to look to those funds for any expenses he may have. According 
+to Bornheimer, the lenders were required to wait for the receiver’s final accounting before 
+they were able to calculate the amount due to Brandon. Bornheimer testified that the 
+receiver continued to pay bills for the collateral through January 2013.  
+ 
+In March 2013, after receiving a final accounting from the receiver, Midland notified 
+Brandon that he was entitled to $58,293.35 of the net sale proceeds. Bornheimer was 
+questioned about Plaintiff’s Exhibit 3, which contained an accounting of the application of 
+the sale proceeds, and which we reproduce below: 
+
+9 
+ 
+A NOTE 
+ 
+$2,546,352.64 
+Payoff Quote  
+$123.060.77 
+Late Charge @ 5% of principal loan amount due 
+$9,667.43 
+Per diem interest @ $604.2142 x 16 days (10/15 to 10/30) 
+$20,000.00 
+Legal fees 
+$759.28 
+Protective Property Advances – Inspection 
+$9,942.27 
+Special Servicing Fees 
+$2,709,762.39 
+Subtotal 
+$51,726.40 
+Liquidation Fee @ 2% 
+$2,761,508.79 
+Payoff “A” note to 10/31/12 – funds received 11/1/12 
+ 
+ 
+ B NOTE 
+ 
+$184,807.36 
+Payoff B to 10/15/12 (interest through 10/14)  
+$1,235.39 
+Per diem interest @ $72.67 x 17 days (10/15 to 10/30) 
+$70.55 
+Special Servicing Fees 
+$186,113.30 
+Subtotal 
+$0.00 
+Liquidation Fee @ 1% (included above) 
+$186,113.30 
+Payoff “B note to 10/31/12 – funds received 11/1/12 
+ 
+ 
+$2,947,622.09 
+Payoff “A” & “B” Notes 
+$3,005,915.44 
+Net Sale Proceeds to Lender 
+$2,947,622.09 
+Lender Payoff 
+$0.00 
+Funds Held by Receiver 
+$58,293.35 
+Proceeds Due Borrower 
+ 
+Bornheimer provided explanations for each charge in Plaintiff’s Exhibit 3, stating that they 
+were justified by the loan documents. In particular, the deed of trust for the collateral 
+provided that in the event of Brandon’s default, the lenders would have the power to sell 
+the property, and the lenders would “be entitled to collect all costs and expenses incurred 
+in pursuing such remedies, including, but not limited to, attorney’s fees, costs of 
+documentary evidence, abstracts and title reports.” In addition, the promissory notes 
+authorized a five percent late charge and a three percent default rate of interest. 
+
+10 
+ 
+ 
+Bornheimer also discussed Plaintiff’s Exhibit 31, a Midland document that provided 
+a calculation for the payoff quote found in Plaintiff’s Exhibit 3. According to Bornheimer, 
+this document indicated that Midland deducted the amounts held in Brandon’s escrow 
+account from his debt. Bornheimer stated that on December 6, 2017, Midland paid 
+Brandon $72,196.31, which represented the proceeds he was due plus accrued interest 
+at the rate of 5%. Bornheimer testified that Midland paid Brandon $30,364.58 on October 
+27, 2017, which was intended to be a refund of Brandon’s April 2012 A-Note payment of 
+$24,787.41 plus accrued interest at the rate of 5%. Bornheimer contended that Midland 
+never received the payment because Brandon sent it directly to Wells Fargo. Because 
+Brandon insisted that he sent the check to Midland, the search for the payment focused 
+on Midland’s records. Bornheimer stated that Midland’s internal departments conducted 
+at least three extensive searches for the payment, but they could neither match the check 
+number nor check amount to any deposits. According to Bornheimer, Wells Fargo was 
+able to locate the payment after Midland provided Wells Fargo the amount of the check 
+and possible dates of receipt.   
+ 
+Brandon’s counsel questioned Bornheimer about Midland’s internal accounting 
+records, which were admitted into evidence. Those records indicated that Midland 
+deposited $3,005,915.44 for the sale of the collateral and $56,561.34 from the escrow 
+account. Midland’s accounting records provided that the payoff for the A-Note was 
+$2,498,812.40, and the payoff for the B-Note was $186,411.74. Bornheimer agreed that 
+these figures indicated approximately $377,000 in excess sale proceeds before the 
+deduction of any penalties, fees, or costs. Midland’s accounting records reflected that 
+
+11 
+ 
+there remained $245,109.20 in unapplied funds on March 6, 2013.  
+ 
+Bornheimer agreed that the deed of trust for the notes required the lender to 
+release the instrument upon payment of all sums secured by the instrument. A release of 
+the deed of trust was filed on November 2, 2012. When questioned why Midland did not 
+pay the excess funds to Brandon when the notes were satisfied, Bornheimer stated that 
+Midland was waiting for the receiver’s final accounting. He explained: 
+So the net sale proceeds were sent to Midland, pursuant to the 
+receivership—to the order, to the agreed order, that Mr. Brandon . . . agreed 
+to and told us to do—or told the receiver to do. And then the concern is we 
+would wait for the receiver to close out his books so he knows what all the 
+trailing expenses are. Because the receiver, if he was short of cash, would 
+be looking for those net sale proceeds to pay any final bills if he didn’t have 
+money. So it’s prudent and appropriate to wait until the receiver closes out 
+his books before any excess money is distributed. 
+ 
+The trial court admitted a Midland document dated October 31, 2012, calculating a payoff 
+amount for the notes of $2,826.320.28. When asked about the $121,000 discrepancy 
+between this and the payoff amount of $2,947,622.09 shown in Plaintiff’s Exhibit 3, 
+Bornheimer maintained that the October 31, 2012 document was a draft and did not 
+represent the final calculation.  
+ 
+Kris Degraff-Tully, a former Midland employee, testified that she recommended 
+that Midland pursue a receivership for the collateral because the loan had matured and 
+there were health and safety issues relating to the condition of the property. 
+ 
+2. 
+Brandon’s Evidence 
+ 
+Patricia Reed Constant, Brandon’s previous attorney in the case, testified that she 
+requested a payoff statement for Brandon in May 2012. The lenders’ counsel informed 
+her that it typically takes several days to a week “in order to get it done[.]” Constant 
+
+12 
+ 
+continuously requested the payoff amounts for the notes and asked what Brandon could 
+expect to receive following the sale of the collateral, but the lenders’ counsel never 
+responded. 
+ 
+Constant also communicated with the lenders’ counsel regarding the April 2012 
+payment. The trial court admitted a copy of the cleared check for the April 2012 payment, 
+which was made payable to Midland. The check contained an account number and the 
+reference “Mortgage-Sun Valley.” Constant testified that Brandon continued to make 
+payments through August 2012, and the trial court admitted exhibits to that effect.  
+ 
+Constant testified that Brandon intended to use the excess proceeds from the sale 
+of the collateral to invest in a separate piece of property and that she communicated 
+Brandon’s intentions to the lenders’ counsel. She provided wiring instructions to the 
+lenders’ counsel on January 28, 2013. At that time, the lenders had not provided Constant 
+a payoff statement. After getting no response from the lenders, Constant contacted 
+Brandon’s trial counsel, who filed a counterclaim in March 2013.   
+ 
+Brandon testified that he made the required monthly payments on both notes 
+through the maturity date. He used rental income from the collateral to make the 
+payments. Brandon anticipated that he would be able to refinance the notes prior to 
+maturity, but he was unable to do so. Following default, he stated that Degraff-Tully 
+instructed him to continue making payments, and he did so, believing that he would be 
+able to keep the property. According to Brandon, he mailed the April 2012 A-Note 
+payment to Midland, and he provided a copy of the cleared check to Degraff-Tully when 
+she said the payment was not received.  
+
+13 
+ 
+ 
+After a receiver was appointed to sell the property, Brandon intended to use the 
+excess sale proceeds to purchase a separate property which would allow him to defer tax 
+obligations on any realized profits. Brandon identified property in Inglewood, California 
+with a $1,900,000 purchase price. He anticipated he would receive $400,000 from the 
+sale of the collateral, which he would use to purchase the Inglewood property. Brandon 
+and the seller executed a purchase agreement for the property in October 2012. Brandon 
+testified that he was unable to obtain financing to purchase the property because he did 
+not have sufficient cash.  
+ 
+The trial court admitted an internal Midland report dated October 10, 2012, which 
+concerned the impending sale of the collateral. Through that report, Midland estimated 
+that the sale proceeds would pay off the notes’ balance and the excess proceeds due to 
+Brandon would be “approximately” $200,000. The report also indicated that Midland did 
+not intend to charge Brandon default interest on the notes. The trial court also admitted 
+an exhibit showing that Brandon had paid a total of $141,379.78 toward the notes 
+following default. 
+ 
+On cross-examination, Brandon conceded that he was never guaranteed by 
+anyone that the notes would be refinanced prior to maturity. He also acknowledged that 
+the loan documents provided the lenders the right upon default to take control of the 
+property through a court-appointed receiver. He further conceded that the loan for the 
+Inglewood property was declined for the additional reason that Brandon did not have 
+sufficient liquid assets.  
+ 
+Cornell Sandifer, the former owner of the Inglewood property, testified concerning 
+
+14 
+ 
+the income-producing capabilities of the property. The trial court admitted an income and 
+expense statement that indicated an annual profit of $67,000. Jonathan Meier Nikfarjam, 
+a California real estate broker, testified that the current market value for the Inglewood 
+property is $3,750,000. 
+ 
+Terry Dean Reigert, a Midland employee, testified that he reviewed Brandon’s loan 
+file in September 2013 and concluded Brandon was owed money at that time from the 
+sale of the collateral. Reigert stated that it generally takes five to ten days to compute a 
+“payoff request.”  
+E. 
+Trial Court’s Ruling  
+ 
+The trial court signed a final judgment awarding $245,109.20 in actual damages 
+recoverable from Wells Fargo and Midland, jointly and severally, $245,109.20 in 
+exemplary damages against each Wells Fargo and Midland, and $125,000 in attorney’s 
+fees, plus contingent appellate attorney’s fees, interest, and costs. 
+ 
+The trial court issued findings of fact and conclusions of law, which, in pertinent 
+part, provided as follows: 
+FINDINGS OF FACT: 
+ 
+ 
+. . . .  
+ 
+ 
+6. Both notes matured by their own terms on January 1, 2012 but Brandon 
+was directed by the loan servicer (Midland) to continue making payments 
+to the loan servicer as he had done prior to maturity. 
+ 
+7. David Brandon thought that the property would be re-financed but 
+Brandon was not able to secure re-financing prior to the balloon payment 
+due at maturity. 
+ 
+8. Brandon made timely loan payments for January, February, March and 
+April, 2012 as directed by the loan servicer (Midland). Payments were made 
+
+15 
+ 
+as they had been before maturity, but there was no action regarding re-
+financing. 
+ 
+9. The April, 2012 loan payment from Brandon to Midland was inexplicably 
+deposited in a bank account belonging to Wells Fargo and not properly 
+credited as a payment from David Brandon on the subject notes. 
+ 
+10. Also inexplicably, it took Midland and Wells Fargo over five (5) years to 
+trace David Brandon’s April, 2012 payment and properly apply / account for 
+those funds. 
+ 
+. . . .  
+ 
+13. On October 31, 2012 the Receiver sold the Sun Valley Apartments for 
+$3,200,000. After deduction of closing costs and brokerage fees, the title 
+company wired the net sales proceeds of $3,005,915.44 to Midland Loan 
+Services. 
+ 
+14. The net sales proceeds were more than enough to pay off both notes. 
+ 
+15. The net sales proceeds included escrow reserves of $56,531.34. 
+ 
+. . . .  
+ 
+17. During the time that the Receiver was actively endeavoring to sell the 
+Sun Valley Apartments, David Brandon began to negotiate for the purchase 
+of a similar apartment complex in Inglewood, California. Brandon intended 
+to utilize IRS sec. 1031 to defer payment of taxes on any profit that might 
+materialize from the sale of the Sun Valley Apartments. 
+ 
+18. The Inglewood, California transaction and contract (late October, 2012) 
+had a 30-day window for Brandon to secure financing. Brandon’s loan 
+application regarding financing for the purchase was some three (3) months 
+after the contract signing. 
+ 
+19. Brandon and the seller of the Inglewood, California property continued 
+to discuss the sale but Brandon’s financing through Chase was denied due 
+to insufficient cash to close. 
+ 
+20. Brandon never re-applied for financing with Chase and did not apply for 
+financing with any other entity. 
+ 
+21. The Court Finds that the Deeds of Trust obligated Wells Fargo Bank to 
+promptly deliver any excess sales proceeds to David Brandon. 
+
+16 
+ 
+ 
+22. On March 1, 2013 David Brandon filed his counterclaim against Wells 
+Fargo Bank to recover the excess proceeds from the Receiver’s sale of Sun 
+Valley Apartments. 
+ 
+23. Directly after the time that David Brandon filed his counterclaim there 
+was $245,109.20 in the account balance for the subject notes. This amount 
+includes the escrow funds of $56,531.34 which were on [sic] present at the 
+time of property sale and which were included in the net sales proceeds 
+wire to Midland Loan Services. 
+ 
+24. The Court Finds that Wells Fargo Bank and Midland Loan Services 
+refused to deliver excess sales proceeds to David Brandon unless Brandon 
+executed a release to Wells Fargo Bank and Midland Loan Services, 
+employees and agents and attorneys regarding the late-discovered April, 
+2012 note payment. 
+ 
+25. The Court Finds that by March 1, 2013 there had been more than 
+enough time for the Receiver and Wells Fargo Bank and Midland Loan 
+Services to wind up any matters after sale of the subject property. 
+ 
+26. The Court Finds that Wells Fargo Bank and Midland Loan Services 
+unreasonably delayed delivery of the excess sales proceeds to David 
+Brandon, and subjected Brandon to additional charges and fees without 
+substantial foundation. 
+ 
+27. The Court Finds that no reasonable or supportable legal fees, expenses 
+or charges due to [Wells Fargo] accrued related to this property and the sale 
+of this property after March 1, 2013. 
+ 
+28. The Court Finds that at the time of his Motion to Terminate Receivership 
+and distribute sales proceeds, David Brandon was entitled to all excess 
+proceeds that had not otherwise been properly applied by Wells Fargo Bank 
+and Midland Loan Services. 
+ 
+29. The Court Finds that after sale of the Sun Valley Apartments, Wells 
+Fargo Bank and Midland Loan Services wrongfully retained and withheld 
+escrow funds in the amount of $56,531.34 which belonged to David 
+Brandon and which had not been properly delivered to him. Said escrow 
+funds were held and wrongfully retained by Midland Loan Services and 
+Wells Fargo Bank, having been (1) delivered for safekeeping; (2) intended 
+to be kept segregated; (3) an intact fund; and (4) not the subject of a title 
+claim by either Midland Loan Services or Wells Fargo Bank. 
+ 
+
+17 
+ 
+30. The Court Finds that after March 1, 2013, Wells Fargo Bank and 
+Midland Loan Services wrongfully retained and withheld excess sales 
+proceeds in the amount of $188,577.86 in addition to the wrongfully withheld 
+escrow funds. Said excess sales proceeds were held and wrongfully 
+retained by Midland Loan Services and Wells Fargo Bank, having been (1) 
+delivered for safekeeping; (2) intended to be kept segregated; (3) an intact 
+fund; and (4) not the subject of a title claim by either Midland Loan Services 
+or Wells Fargo Bank. 
+ 
+. . . . 
+ 
+32. The Court finds that David Brandon has not suffered compensable 
+damages related to his claimed loss of purchase of the property in 
+Inglewood, California. 
+ 
+. . . .  
+ 
+36. The Court Finds that in all matters relevant to this lawsuit, Wells Fargo 
+Bank and Midland Loan Services were essentially alter egos of the other. 
+ 
+. . . .  
+ 
+CONCLUSIONS OF LAW: 
+ 
+1. When Wells Fargo received the assignment of the notes, it was granted 
+the rights of the creditor and it assumed the creditor’s obligations under the 
+Deed of Trust. 
+ 
+2. Neither the filing of the lawsuit nor the appointment of the Receiver 
+divested David Brandon of his ownership interest in the Sun Valley 
+Apartments. 
+ 
+3. The title company forwarding the net sales proceeds to Midland Loan 
+Services was not a transfer of title to or ownership of the excess proceeds 
+to either Midland Loan Services or Wells Fargo Bank. Transfer of the net 
+sales proceeds—including escrow balance—was a transfer of specific 
+chattel. 
+ 
+4. The Court determines that the appointment of a Receiver and the sale of 
+Sun Valley Apartments resulted in satisfaction of loans secured by the 
+Apartment property, and that the relief sought by Wells Fargo Bank and 
+Midland Loan Services has been achieved so that there is no further relief 
+to which those parties are entitled. 
+ 
+
+18 
+ 
+. . . . 
+ 
+9. The Court determines that the wrongful actions of Wells Fargo Bank and 
+Midland Loan Services constitute breaches of tort and breaches of contract. 
+ 
+10. The Court concludes that the conduct of Wells Fargo Bank and Midland 
+Loan Services is sufficiently egregious that exemplary damages should be 
+awarded to David Brandon in the amount of $245,109.20 against Wells 
+Fargo Bank and $245,109.20 against Midland Loan Services. Exemplary 
+damages award for harm to David Brandon by Wells Fargo Bank and 
+Midland Loan Services based on: 
+ 
+a. Failing to properly apply the April, 2012 note payment and failing 
+to locate such payment for over five (5) years—gross negligence: tort 
+and contract breach, including specific tort of conversion. 
+ 
+b. Intentionally failing to deliver to David Brandon the escrow funds 
+wired to Midland Loan Services after sale of the property—gross 
+negligence and malice: tort and contract breach, including specific 
+tort of conversion. 
+ 
+c. Refusing to deliver excess sales proceeds to David Brandon 
+unless Brandon executed a release to Wells Fargo Bank and Midland 
+Loan Services, employees and agents and attorneys—malice: tort 
+and contract breach, including specific tort of conversion. 
+ 
+d. Delaying final disposition of the excess sale proceeds for months 
+while additional expenses costs and fees were assessed—malice: 
+tort and contract breach, including specific tort of conversion. 
+ 
+e. Taking no action to safeguard the excess sales proceeds which 
+were the funds due to David Brandon under the notes and deeds of 
+trust; continued to assess fees and costs and charges and 
+Receivership expenses long after any reasonable need for same had 
+ended—gross negligence and malice: tort and contract breach, 
+including specific torts of conversion. 
+ 
+11. The Court concludes that Wells Fargo Bank and Midland Loan Services 
+both authorized and ratified the actions of their agents and vice principals, 
+and the actions of their agents and vice principals—for which they are jointly 
+and severally liable. 
+ 
+ 
+The lenders and Brandon appeal the trial court’s judgment. 
+
+19 
+ 
+II. 
+STANDARD OF REVIEW 
+ 
+In an appeal from a judgment rendered after a bench trial, the trial court’s findings 
+of fact have the same weight as a jury’s verdict. Catalina v. Blasdel, 881 S.W.2d 295, 297 
+(Tex. 1994). A legal sufficiency challenge will be sustained only if the record shows (1) a 
+complete absence of evidence of a vital fact, (2) the court is barred by the rules of law or 
+evidence from giving weight to the only evidence offered to prove a vital fact, (3) the 
+evidence offered to prove a vital fact is no more than a mere scintilla, or (4) the evidence 
+conclusively establishes the opposite of a vital fact. City of Keller v. Wilson, 168 S.W.3d 
+802, 810 (Tex. 2005). Evidence is more than a scintilla if it “rises to a level that would 
+enable reasonable and fair-minded people to differ in their conclusions.” Serv. Corp. Int’l 
+v. Guerra, 348 S.W.3d 221, 228 (Tex. 2011). Evidence is less than a scintilla if it is “so 
+weak as to do no more than create a mere surmise or suspicion that the fact exists.” 
+Regal Fin. Co. v. Tex. Star Motors, Inc., 355 S.W.3d 595, 603 (Tex. 2010). The final test 
+is whether the evidence would enable reasonable and fair-minded people to make the 
+finding. City of Keller, 168 S.W.3d at 822.  
+ 
+When a party challenges the legal sufficiency of an adverse finding for which it did 
+not have the burden of proof, it must demonstrate there is no evidence to support the 
+adverse finding. Croucher v. Croucher, 660 S.W.2d 55, 58 (Tex. 1983); Doyle v. 
+Kontemporary Builders, Inc., 370 S.W.3d 448, 453 (Tex. App.—Dallas 2012, pet. denied). 
+When a party challenges the legal sufficiency of an adverse finding on an issue on which 
+it had the burden of proof, it must demonstrate the evidence conclusively established all 
+vital facts in support of the issue. Dow Chem. Co. v. Francis, 46 S.W.3d 237, 241 (Tex. 
+
+20 
+ 
+2001); Doyle, 370 S.W.3d at 453. We first examine the record for evidence supporting 
+the finding. Id. If there is no evidence to support the finding, we then examine the entire 
+record to determine if the contrary proposition is established as a matter of law. Doyle, 
+370 S.W.3d at 453. 
+ 
+The fact finder is the sole judge of the weight and credibility of the evidence. City 
+of Keller, 168 S.W.3d at 819. When the evidence is conflicting, we must presume that the 
+fact finder resolved the inconsistency in favor of the challenged finding if a reasonable 
+person could do so. Id. at 821. We do not substitute our judgment for that of the fact finder 
+if the evidence falls within this zone of reasonable disagreement. Id. at 822. In an appeal 
+from a bench trial, we review a trial court’s conclusions of law de novo, and we will uphold 
+them on appeal if the judgment can be sustained on any legal theory supported by the 
+evidence. BMC Software Belg., N.V. v. Marchand, 83 S.W.3d 789, 794 (Tex. 2002); 
+Miranda v. Byles, 390 S.W.3d 543, 553 (Tex. App.—Houston [1st Dist.] 2012, pet. 
+denied). 
+III. 
+THE LENDERS’ AFFIRMATIVE CLAIMS 
+ 
+In his first issue, Brandon argues that there is legally insufficient evidence to 
+support the lenders’ recovery of any outstanding amounts on the notes. Specifically, 
+Brandon argues that: “(1) the payoff amounts were incorrect, (2) [the lenders] did not 
+prove the loan balances, and (3) Wells Fargo did not own the B-Note.”  
+ 
+The trial court issued the following pertinent conclusion of law concerning the 
+lenders’ affirmative claims: 
+The Court determines that the appointment of a Receiver and the sale of 
+Sun Valley Apartments resulted in satisfaction of loans secured by the 
+
+21 
+ 
+Apartment property, and that the relief sought by [the lenders] has been 
+achieved so that there is no further relief to which those parties are entitled.  
+ 
+We agree with the trial court’s conclusion that, at the time of trial, the lenders’ claims were 
+no longer at issue. It is undisputed that the balance on the notes was paid through the 
+application of the sale proceeds. The appointment of the receiver and the sale of the 
+collateral were both accomplished by the parties’ agreement. The parties further agreed 
+that the sale proceeds would be delivered by the receiver to the lenders. Having already 
+received all the funds to which they were entitled, the lenders did not pursue any 
+affirmative relief at trial. For instance, the lenders did not assert at trial that a deficiency 
+remained following the sale of the collateral. See Marhaba Partners Ltd. P’ship v. Kindron 
+Holdings, LLC, 457 S.W.3d 208, 215 (Tex. App.—Houston [14th Dist.] 2015, pet. denied) 
+(“When a loan is secured by a single piece of real estate collateral, a deficiency judgment 
+will impose personal liability upon the debtor for the unpaid amount of a debt after the 
+foreclosure sale.”).  
+ 
+To the extent Brandon’s issue can be construed as a challenge to the propriety of 
+the receiver’s actions in delivering the sale proceeds to the lenders, his issue is foreclosed 
+under the invited error doctrine. See Sentinel Integrity Sols., Inc. v. Mistras Grp., Inc., 414 
+S.W.3d 911, 919–20 (Tex. App.—Houston [1st Dist.] 2013, pet. denied) (concluding that 
+the invited error doctrine prevented a party who agreed that the trial court should enter 
+an order from complaining about the order on appeal); Keith v. Keith, 221 S.W.3d 156, 
+164 (Tex. App.—Houston [1st Dist.] 2006, no pet.) (concluding that a party who asked the 
+trial court to take a certain action could not complain on appeal that the action was wrong); 
+see also I-10 Colony, Inc. v. Lee, No. 01-14-00465-CV, 2015 WL 1869467, at *4 (Tex. 
+
+22 
+ 
+App.—Houston [1st Dist.] Apr. 23, 2015, no pet.) (mem. op.) (concluding that a party 
+waived its complaint regarding the appointment of a receiver and the scope of the 
+receiver’s authority when the receiver’s appointment was by agreement). 
+ 
+For the foregoing reasons, we overrule Brandon’s first issue. 
+IV. 
+ECONOMIC LOSS RULE AND CONVERSION 
+ 
+By their first issue, the lenders argue there is legally insufficient evidence 
+supporting the trial court’s conversion findings. Specifically, the lenders argue: (1) they 
+conclusively established a good-faith basis for a qualified refusal of Brandon’s demand 
+for payment of the proceeds of the sale; (2) the funds at issue were not “specific chattel” 
+subject to a conversion claim; and (3) the conversion claim is barred by the economic 
+loss rule. Because it is dispositive of the issue, we focus our discussion solely on the 
+application of the economic loss rule. 
+A. 
+Applicable Law 
+ 
+“The economic loss rule generally precludes recovery in tort for economic losses 
+resulting from a party’s failure to perform under a contract when the harm consists only 
+of the economic loss of a contractual expectancy.” Chapman Custom Homes, Inc. v. Dall. 
+Plumbing Co., 445 S.W.3d 716, 718 (Tex. 2014) (per curiam); see also Sw. Bell Tel. Co. 
+v. DeLanney, 809 S.W.2d 493, 495 (Tex. 1991) (same); Jim Walter Homes, Inc. v. Reed, 
+711 S.W.2d 617, 618 (Tex. 1986) (same). However, the rule does not prevent economic 
+losses from being recoverable under a variety of intentional tort theories absent a 
+contractual obligation. Dixie Carpet Installations, Inc. v. Residences at Riverdale, LP, ___ 
+S.W.3d ___, __, No. 05-18-01479-CV, 2020 WL 1547139, at *11 (Tex. App.—Dallas Apr. 
+
+23 
+ 
+1, 2020, no pet. h.); Eagle Oil & Gas Co. v. Shale Expl., LLC, 549 S.W.3d 256, 268 (Tex. 
+App.—Houston [1st Dist.] 2018, pet. dism’d). If the matter in dispute is the subject of a 
+contract, a party may elect a recovery in tort if the duty breached stands independent 
+from the contractual undertaking and the alleged damages are not solely the result of a 
+bargained-for contractual benefit. Shale Expl., 549 S.W.3d at 268. 
+ 
+Although the rule is inapplicable in certain cases involving intentional torts, the 
+emphasis is not on the tort alleged, but whether the duty breached is independent from 
+the underlying contractual undertaking and the harm suffered is not merely the lost 
+contract economic benefit. See Chapman, 445 S.W.3d at 718; Dixie Carpet, 2020 WL 
+1547139, at *11. For instance, the rule does not apply if a person negligently performs a 
+contract duty in a way that injures property or persons incidental to the contract work 
+being done. Dixie Carpet, 2020 WL 1547139, at *11; see Chapman, 445 S.W.3d at 718–
+719 (plumber hired to install a hot water heater negligently flooded the house). However, 
+the rule bars tort recovery where the defendant negligently performed or failed to perform 
+a contractual duty resulting in the plaintiff losing the benefit of the contract consideration. 
+Dixie Carpet, 2020 WL 1547139, at *11; see Crawford v. Ace Sign, Inc., 917 S.W.2d 12, 
+13–14 (Tex. 1996) (per curiam) (DTPA inapplicable to claim that a publisher omitted 
+promised advertising); DeLanney, 809 S.W.2d at 495 (negligent failure to publish a 
+promised advertising sounds only in contract); Jim Walter Homes, 711 S.W.2d at 618 
+(negligent poor home construction sounds only in contract). The application of the 
+economic loss rule is a legal conclusion which we review de novo. James J. Flanagan 
+Shipping Corp. v. Del Monte Fresh Produce N.A., Inc., 403 S.W.3d 360, 365 (Tex. App.—
+
+24 
+ 
+Houston [1st Dist.] 2013, no pet.). 
+B. 
+Analysis 
+ 
+The parties’ respective obligations and duties were contractual in nature, deriving 
+from the loan documents—the deed of trust and promissory note. See Hinton v. 
+Nationstar Mortg. LLC, 533 S.W.3d 44, 48 (Tex. App.—San Antonio 2017, no pet.) (“A 
+promissory note is a contract evincing an obligation to pay money.”); Adams v. First Nat’l 
+Bank of Bells/Savoy, 154 S.W.3d 859, 867 (Tex. App.—Dallas 2005, no pet.) (explaining 
+that a deed of trust is subject to the same rules of interpretation that apply to contracts); 
+see also Miller v. CitiMortgage, Inc., 970 F. Supp. 2d 568, 583 (N.D. Tex. 2013) (applying 
+the economic loss rule to plaintiff’s allegations regarding servicing of a loan which was 
+governed by a promissory note and deed of trust). The lenders asserted in their pleadings 
+and argued to the trial court that Brandon’s only possible injury was the economic loss of 
+the value of the contract. See Equistar Chems. L.P. v. Dresser-Rand Co., 240 S.W.3d 
+864, 868 (Tex. 2007) (applying traditional notions of error preservation in considering an 
+argument concerning the economic loss rule). The trial court concluded otherwise and 
+found the lenders liable for conversion. Specifically, the trial court found that the lenders 
+wrongfully withheld excess sale proceeds in the amount of $188,577.86 and escrow funds 
+in the amount of $56,531.34, and that the lenders failed to properly apply the April 2012 
+payment in the amount of $24,787.41. The trial court found that these actions all 
+amounted to conversion of Brandon’s property.  
+ 
+The losses identified by the trial court all arise from the lenders’ purported failure 
+to fulfill their contractual obligations concerning proper accounting for and application of 
+
+25 
+ 
+payments, sale proceeds, and escrow funds. These are economic injuries based on the 
+contract between the parties. Brandon presented no evidence of an independent injury 
+outside the economic loss associated with the contract. Therefore, the economic loss rule 
+bars recovery for conversion. See Chapman, 445 S.W.3d at 718; ConocoPhillips Co. v. 
+Koopmann, 542 S.W.3d 643, 666–67 (Tex. App.—Corpus Christi–Edinburg 2016), aff’d 
+on other grounds, 547 S.W.3d 858 (Tex. 2018); see also Rodriguez v. Wells Fargo Bank, 
+N.A., No. 7:18-CV-109, 2019 WL 528719, at *6 (S.D. Tex. Feb. 11, 2019) (concluding 
+that the economic loss rule precluded the plaintiff from recovering in tort where the only 
+loss was the economic injury based on the loan agreement between the parties); Dhanani 
+v. Giles, No. 10-07-00144-CV, 2008 WL 2210004, at *4 (Tex. App.—Waco May 28, 2008, 
+pet. denied) (mem. op.) (rejecting conversion claim where the defendant’s dominion and 
+control over the plaintiff’s property was tantamount to a breach of the governing contract); 
+Castle Tex. Prod. Ltd. P’ship v. Long Trusts, 134 S.W.3d 267, 275 (Tex. App.—Tyler 
+2003, pet. denied) (rejecting conversion claim where the only loss alleged was the 
+economic loss to the subject matter of the contract); Harrison v. Bass Enters. Prod. Co., 
+888 S.W.2d 532, 536 (Tex. App.—Corpus Christi–Edinburg 1994, no writ) (rejecting 
+negligence and negligence per se claims because the plaintiff’s only damage was unpaid 
+royalties under a contract). Conducting a de novo review, we hold the trial court erred in 
+implicitly concluding that the economic loss rule did not bar Brandon’s conversion claims. 
+See Marchand, 83 S.W.3d at 794; Del Monte, 403 S.W.3d at 365. We sustain the lenders’ 
+first issue. 
+
+26 
+ 
+V. 
+EXEMPLARY DAMAGES 
+ 
+In its sixth issue, the lenders contend that Brandon cannot recover exemplary 
+damages because there is no independent tort to support the award. In his fourth issue, 
+Brandon argues that the exemplary damage award is insufficient.  
+ 
+Our resolution of the lenders’ first issue controls our disposition of the parties’ 
+exemplary damages issues. When the injury is only the economic loss associated with 
+the contract itself, the action sounds in contract alone. Formosa Plastics Corp. USA v. 
+Presidio Eng’rs & Contractors, 960 S.W.2d 41, 45 (Tex. 1998); Jim Walter Homes, 711 
+S.W.2d at 618. A mere breach of contract cannot support recovery of exemplary 
+damages, even if the contract is intentionally breached. See Formosa Plastics, 960 
+S.W.2d at 45; Jim Walter Homes, 711 S.W. at 618; see also AVCO Corp., Textron 
+Lycoming Reciprocating Engine Div. of AVCO Corp. v. Interstate Sw., Ltd., 251 S.W.3d 
+632, 662 (Tex. App.—Houston [14th Dist.] 2007, pet. denied) (“Exemplary damages are 
+not available unless the plaintiff establishes that it sustained actual loss or injury as the 
+result of an underlying tort.”); UMLIC VP LLC v. T & M Sales & Envt’l Sys., Inc., 176 
+S.W.3d 595, 616 (Tex. App.—Corpus Christi–Edinburg 2005, pet. denied) (explaining that 
+absent an independent cause of action in tort the appellees could not recover exemplary 
+damages based on a wrongful foreclosure, even with a finding of malice). Because 
+Brandon did not prove a distinct tortious injury with actual damages, we conclude that the 
+trial court erred in awarding exemplary damages. We sustain the lenders’ sixth issue. We 
+overrule Brandon’s fourth issue.   
+
+27 
+ 
+VI. 
+BRANDON’S BREACH OF CONTRACT CLAIM 
+ 
+In its second issue, the lenders argue there is legally insufficient evidence 
+supporting the trial court’s breach of contract findings. Specifically, the lenders argue that: 
+(1) there is no evidence that the lenders breached the contract; and (2) Midland, in 
+particular, was not a party to the contract. 
+A. 
+Breach 
+ 
+The essential elements of a breach of contract claim are (1) the existence of a valid 
+contract; (2) performance or tendered performance by the plaintiff; (3) breach of the 
+contract by the defendant; and (4) damages sustained as a result of the breach. 
+Schlumberger Ltd. v. Rutherford, 472 S.W.3d 881, 892 (Tex. App.—Houston [1st Dist.] 
+2015, no pet.). The lenders argue there is no evidence that the lenders breached any 
+term of the contract with Brandon. Specifically, the lenders argue that “all of the interest, 
+fees, and charges to the loan account were permissible under the terms of the promissory 
+notes and deed of trust.” 
+ 
+Brandon’s theory at trial was that the lenders breached the contract between the 
+parties by failing to promptly deliver the excess sale proceeds and deducting fees and 
+expenses that were not authorized by the contract. The lenders do not independently 
+challenge findings 21 through 29, which support the trial court’s breach of contract award. 
+See supra part I.E. 
+ 
+We conclude that there is more than a scintilla of evidence to support these 
+findings. See City of Keller, 168 S.W.3d at 810, 822. For instance, the lenders maintained 
+that they were entitled to charge Brandon special servicing and liquidation fees totaling 
+
+28 
+ 
+$61,739.22. While this might represent charges that Wells Fargo agreed to pay Midland, 
+there is no provision in the loan documents requiring Brandon to pay these fees to Wells 
+Fargo. The trial court also found incredible the lenders’ explanation for not crediting 
+Brandon’s 2012 payment until five years after it was received by Wells Fargo. Finally, the 
+trial court evidently found incredible the lenders’ explanation for assessing fees, charges, 
+and attorney’s fees months after the notes were paid. The trial court’s finding that Brandon 
+was entitled to excess sale proceeds in the amount of $245,109.20 is supported by the 
+lenders’ own accounting records which established that this amount was attributable to 
+Brandon’s account almost five months after the property was sold and the notes were 
+paid.  
+We must defer to the trial court as the sole judge of the weight and credibility of 
+the evidence, while presuming that it resolved conflicting evidence in favor of its findings. 
+See id. at 819, 821. Affording the trial court proper deference, we conclude that there is 
+more than a scintilla of evidence supporting its breach of contract findings. See id. at 822. 
+For the foregoing reasons, we hold that Brandon established his breach of contract claim 
+by legally sufficient evidence.  
+B. 
+No Contract with Midland 
+ 
+Next, the lenders assert that to the extent the judgment “purport[s] to grant 
+Brandon a recovery against Midland for breach of contract, the judgment must be 
+reversed.” The lenders argue that there exists no contract between Brandon and Midland; 
+therefore, Brandon has failed to meet an essential element of his contract claim.  
+ 
+Midland was a party to the Servicing Agreement with Wells Fargo, which obligated 
+
+29 
+ 
+Midland to serve as an agent for Wells Fargo with respect to its obligations on the loan. 
+However, Midland was not a party to the promissory note or deed of trust. See Conder v. 
+Home Sav. of Am., 680 F. Supp. 2d 1168, 1174 (C.D. Cal. 2010) (collecting cases from 
+several jurisdictions for the proposition that a loan servicer is generally not a contractual 
+party to a mortgage); see also Perron v. JP Morgan Chase Bank, N.A., No. 12–CV–
+01853, 2014 WL 931897, at *4 (S.D. Ind. Mar. 10, 2014) (explaining that contractual privity 
+between the borrower and the holder of a note is not imputed to the loan servicer); Howard 
+v. First Horizon Home Loan Corp., No. 12–CV–05735, 2013 WL 3146792, at *2 (N.D. Cal. 
+June 18, 2013) (same); Pereira v. Ocwen Loan Servicing, LLC, No. 11–CV–2672, 2012 
+WL 1381193, at *3 (E.D.N.Y. Apr.18, 2012) (same); James v. Litton Loan Servicing, L.P., 
+No. 09–CV–147, 2011 WL 59737, at *11 (M.D. Ga. Jan. 4, 2011) (same); Kehoe v. Aurora 
+Loan Servs. LLC, No. 10–CV–00256, 2010 WL 4286331, at *8 (D. Nev. Oct. 20, 2010) 
+(same); Sanders v. Am. Home Mortg. Servicing, Inc., No. 04-13-00845-CV, 2015 WL 
+794494, at *4 (Tex. App.—San Antonio Feb. 25, 2015, no pet.) (mem. op.) (same). 
+Further, as an agent for Wells Fargo, a disclosed principal on the contract, Midland is not 
+liable for breach of contract. See Hull v. S. Coast Catamarans, L.P., 365 S.W.3d 35, 45 
+(Tex. App.—Houston [1st Dist.] 2011, pet. denied). We conclude there is no evidence of 
+a contract between Brandon and Midland. See Rutherford, 472 S.W.3d at 892. Therefore, 
+Brandon’s breach of contract claim against Midland is not supported by legally sufficient 
+evidence.4 See City of Keller, 168 S.W.3d at 810. 
+ 
+4 The fact that there is no contract between Brandon and Midland does not alter our earlier 
+conclusion that Brandon’s conversion claim against Midland is barred by the economic loss rule. The 
+economic-loss rule, when applicable, not only bars claims against those in a direct contractual relationship 
+but also precludes tort claims between parties who are not in contractual privity. See Sharyland Water 
+
+30 
+ 
+C. 
+Summary 
+ 
+We overrule the lenders’ second issue to the extent that it argues there is legally 
+insufficient evidence that Wells Fargo breached its contract with Brandon. However, we 
+sustain that part of the lenders’ second issue challenging Brandon’s breach of contract 
+claim against Midland.  
+VII. 
+BRANDON’S DAMAGES 
+A. 
+Excess Sale Proceeds 
+ 
+In his third issue, Brandon argues that the trial court’s actual damages award was 
+insufficient because the excess sale proceeds exceeded the amount found by the trial 
+court. Brandon bore the burden of proof at trial to establish the amount of damages. 
+Therefore, in order to successfully challenge the legal sufficiency of the evidence 
+regarding the trial court’s damages calculation, Brandon must demonstrate that the 
+evidence conclusively established all vital facts in support of his requested damages 
+amount. See Dow Chem. Co., 46 S.W.3d at 241; Doyle, 370 S.W.3d at 453.  
+ 
+For the reasons we discuss in part VI.A of this opinion, we conclude that there is 
+more than a scintilla of evidence supporting the trial court’s conclusion that Brandon 
+suffered actual damages in the amount of $245,109.20. This amount, which was 
+established by the lenders’ internal accounting records, represents the excess funds 
+ 
+Supply Corp. v. City of Alton, 354 S.W.3d 407, 419 (Tex. 2011); Clark v. PFPP Ltd. P'ship, 455 S.W.3d 
+283, 289 (Tex. App.—Dallas 2015, no pet.); Pugh v. Gen. Terrazzo Supplies, Inc., 243 S.W.3d 84, 94 (Tex. 
+App.—Houston [1st Dist.] 2007, pet. denied); Trans–Gulf Corp. v. Performance Aircraft Servs., Inc., 82 
+S.W.3d 691, 695 (Tex. App.—Eastland 2002, no pet.); Bass v. City of Dallas, 34 S.W.3d 1, 8–9 (Tex. App.—
+Amarillo 2000, no pet.); Hou–Tex, Inc. v. Landmark Graphics, 26 S.W.3d 103, 106–07 (Tex. App.—Houston 
+[14th Dist.] 2000, no pet.); see also Bowman v. CitiMortgage Inc., No. 3:14-CV-4036-B, 2015 WL 4867746, 
+at *4 (N.D. Tex. Aug. 12, 2015) (applying the economic loss rule to bar tort claims by borrower against a 
+loan servicer who was not in contractual privity with the borrower). 
+
+31 
+ 
+attributable to Brandon’s account five months after the collateral was sold and the notes 
+were paid. Because no additional amount was conclusively established by the evidence, 
+we overrule Brandon’s third issue. See Dow Chem. Co., 46 S.W.3d at 241; Doyle, 370 
+S.W.3d at 453.  
+B. 
+Consequential Damages 
+ 
+In his second issue, Brandon argues there was legally insufficient evidence 
+supporting the trial court’s findings that Brandon did not suffer consequential damages. 
+Brandon argues that the evidence establishes that he intended to purchase another 
+investment property using the proceeds from the sale of the collateral, and that he was 
+unable to do so due to the lenders’ failure to promptly deliver the funds he was due.  
+ 
+Like his third issue, Brandon bore the burden of proof at trial to establish 
+consequential damages. To successfully challenge the trial court’s finding, Brandon must 
+demonstrate that the evidence conclusively established all vital facts in support of his 
+claim for consequential damages. See Dow Chem. Co., 46 S.W.3d at 241; Doyle, 370 
+S.W.3d at 453. The trial court concluded that Brandon “has not suffered compensable 
+damages related to his claimed loss of purchase of the property in Inglewood, California.” 
+The trial court further found that Brandon’s purchase contract had a thirty-day window for 
+Brandon to secure financing, yet Brandon did not apply for a loan until three months later. 
+The trial court also found that Brandon never re-applied for financing after his loan 
+application was denied due to insufficient cash. These findings, which Brandon does not 
+independently challenge, support the trial court’s conclusion that Brandon did not suffer 
+compensable damages relating to his inability to purchase the California property. See 
+
+32 
+ 
+AZZ Inc. v. Morgan, 462 S.W.3d 284, 289 (Tex. App.—Fort Worth 2015, no pet.) (“To be 
+recoverable, consequential damages must be foreseeable and directly traceable to the 
+wrongful act and result from it.”). Because consequential damages were not conclusively 
+established by the evidence, we overrule Brandon’s second issue. See Dow Chem. Co., 
+46 S.W.3d at 241; Doyle, 370 S.W.3d at 453. 
+VIII. 
+OFFSET 
+ 
+In their fourth issue, the lenders argue that “the trial court’s damages award must 
+be reversed because it gives Brandon an impermissible double recovery.” Specifically, 
+the lenders maintain that the damages award should be reduced by the amount the 
+lenders paid to Brandon prior to trial. We construe the lenders’ argument as challenging 
+the legal sufficiency of the evidence supporting the trial court’s implicit finding that the 
+lenders failed to establish its right to an offset. 
+ 
+The right to an offset is an affirmative defense. Mays v. Bank One, N.A., 150 
+S.W.3d 897, 899 (Tex. App.—Dallas 2004, no pet.). The burden of pleading and proving 
+facts necessary to support an affirmative defense of offset rests on the party making the 
+assertion. Id. Although the lenders pleaded offset as an affirmative defense, there is no 
+mention of the defense in the trial court’s findings of fact. A party must request findings in 
+support of an affirmative defense to avoid waiver. See Trelltex, Inc. v. Intecx, LLC, 494 
+S.W.3d 781, 785 (Tex. App.—Houston [14th Dist.] 2016, no pet.); Cooper v. Cochran, 
+288 S.W.3d 522, 531 (Tex. App.—Dallas 2009, no pet.); Alma Invs., Inc. v. Bahia Mar 
+Co-Owners Ass’n, 999 S.W.2d 820, 822 (Tex. App.—Corpus Christi–Edinburg 1999, pet. 
+denied). If the trial court’s findings do not include any of the elements of the defense 
+
+33 
+ 
+asserted, the party must specifically request additional findings relevant to the defense. 
+See Trelltex, 494 S.W.3d at 785; Cochran, 288 S.W.3d at 531. The lenders requested 
+additional findings of fact and conclusions of law concerning several issues. However, 
+they did not specifically request findings relevant to their offset defense. Therefore, we 
+conclude that the lenders have waived any complaint concerning their affirmative defense 
+of offset. See Trelltex, 494 S.W.3d at 785; Cochran, 288 S.W.3d at 531. We overrule the 
+lenders’ fourth issue. 
+IX. 
+ATTORNEY’S FEES 
+In their fifth issue, the lenders argue there is no basis for the trial court’s award of 
+attorney’s fees. Specifically, the lenders argue that neither entity constitutes “an individual 
+or corporation” as required for recovery of attorney’s fees for breach of contract. See TEX. 
+CIV. PRAC. & REM. CODE ANN. § 38.001. 
+Under the “American Rule,” “litigants may recover attorney’s fees only if specifically 
+provided for by statute or contract.” Epps v. Fowler, 351 S.W.3d 862, 865 (Tex. 2011); 
+Alta Mesa Holdings, L.P. v. Ives, 488 S.W.3d 438, 452 (Tex. App.—Houston [14th Dist.] 
+2016, pet. denied). The parties agree that Chapter 38 of the Texas Civil Practice and 
+Remedies Code is the sole basis for Brandon’s recovery of attorney’s fees. See TEX. CIV. 
+PRAC. & REM. CODE ANN. ch. 38. Section 38.001 provides that “[a] person may recover 
+reasonable attorney’s fees from an individual or corporation, in addition to the amount of 
+a valid claim and costs, if the claim is for: . . . (8) an oral or written contract.” Id. 
+§ 38.001(8). The availability of attorney’s fees under a particular statute is a question of 
+law for the court. Holland v. Wal–Mart Stores, Inc., 1 S.W.3d 91, 94 (Tex. 1999); Ives, 
+
+34 
+ 
+488 S.W.3d at 453.  
+As a prerequisite to presenting a complaint for appellate review, a party generally 
+must have presented its complaint to the trial court by timely request, objection, or motion 
+with sufficient specificity to make the trial court aware of the complaint. See TEX. R. APP. 
+P. 33.1(a); Gipson-Jelks v. Gipson, 468 S.W.3d 600, 604 (Tex. App.—Houston [14th Dist.] 
+2015, no pet.). While a party appealing from a bench trial may raise a complaint regarding 
+the sufficiency of the evidence for the first time on appeal, a complaint that attorney’s fees 
+are not recoverable under a statute must be raised in the trial court to preserve error. See 
+Holland, 1 S.W.3d at 94; Gipson, 468 S.W.3d at 604; Tex. Dep’t of Pub. Safety v. Burrows, 
+976 S.W.2d 304, 307 (Tex. App.—Corpus Christi–Edinburg 1998, no pet.); see also 
+Jimoh v. Nwogo, No. 01-13-00675-CV, 2014 WL 7335158, at *4 (Tex. App.—Houston 
+[1st Dist.] Dec. 23, 2014, no pet.) (mem. op.).  
+The lenders never argued in the trial court that Brandon could not recover 
+attorney’s fees because neither entity was “an individual or corporation.” See TEX. CIV. 
+PRAC. & REM. CODE ANN. § 38.001. Therefore, they have not preserved error regarding 
+their complaint that there is no statutory basis for the award. See TEX. R. APP. P. 33.1(a); 
+Holland, 1 S.W.3d at 94, Gipson, 468 S.W.3d at 604; Burrows, 976 S.W.2d at 307; see 
+also Nwogo, 2014 WL 7335158, at *4. 
+X. 
+JOINT & SEVERAL LIABILITY AS ALTER EGOS 
+ 
+The trial court found that “in all matters relevant to this lawsuit, Wells Fargo Bank 
+and Midland Loan Services were essentially alter egos of the other.” In its third issue, the 
+lenders argue that “[t]he trial court’s alter-ego finding must be reversed” because Brandon 
+
+35 
+ 
+did not plead that Midland and Wells Fargo were alter egos and the trial court’s findings 
+do not sufficiently establish that the two were alter egos. The lenders further maintain that 
+without such a finding, the trial court’s finding that Midland and Wells Fargo were jointly 
+and severally liable also fails. We agree that the trial court’s alter-ego finding is not 
+supported by the pleadings. 
+ 
+The trial court’s judgment must conform to the pleadings or it is erroneous. TEX. R. 
+CIV. P. 301; Cunningham v. Parkdale Bank, 660 S.W.2d 810, 813 (Tex. 1983); Schlueter 
+v. Carey, 112 S.W.3d 164, 168 (Tex. App.—Fort Worth 2003, pet. denied). Texas law 
+presumes that separate corporations are distinct entities. Marchand, 83 S.W.3d at 798. 
+However, the alter ego doctrine provides a basis for disregarding the corporate fiction. 
+Wilson v. Davis, 305 S.W.3d 57, 69 (Tex. App.—Houston [1st Dist.] 2009, no pet.). 
+Nevertheless, “[a]lter ego must be specifically pleaded or it is waived, unless tried by 
+consent.” Richard Nugent & CAO, Inc. v. Estate of Ellickson, 543 S.W.3d 243, 264 (Tex. 
+App.—Houston [14th Dist.] 2018, no pet.).  
+ 
+Texas follows a fair notice pleading standard, which looks to whether the opposing 
+party can ascertain from the pleadings the nature and basic issues of the controversy and 
+what testimony will be relevant at trial. See Horizon/CMS Healthcare Corp. v. Auld, 34 
+S.W.3d 887, 896 (Tex. 2000); Reaves v. City of Corpus Christi, 518 S.W.3d 594, 599 
+(Tex. App.—Corpus Christi–Edinburg 2017, no pet.). “A petition is sufficient if it gives fair 
+and adequate notice of the facts upon which the pleader bases his claim.” Auld, 34 
+S.W.3d at 897 (quoting Roark v. Allen, 633 S.W.2d 804, 810 (Tex. 1982)). Brandon’s 
+pleadings demonstrate that he was alleging an agency relationship between Wells Fargo 
+
+36 
+ 
+and Midland. However, such allegations are insufficient to put the lenders on notice of 
+any intent to seek alter ego liability. See Ellickson, 543 S.W.3d at 264. Furthermore, we 
+find no support in the record that the alter ego issue was tried by consent. Because the 
+trial court’s alter ego finding is not supported by the pleadings, it is void. See In re Estate 
+of Gaines, 262 S.W.3d 50, 60 (Tex. App.—Houston [14th Dist.] 2008, no pet.).  
+ 
+Due to our resolution of the lenders’ first issue, we have concluded that the lenders 
+are not liable to Brandon in tort. Further, in the absence of an alter ego finding, joint and 
+several liability has not been established for Brandon’s breach of contract action. See 
+CTTI Priesmeyer, Inc. v. K & O Ltd. P’ship, 164 S.W.3d 675, 685 (Tex. App.—Austin 
+2005, no pet.) (“[T]ortfeasors cannot be jointly and severally liable for contract damages 
+and contract defendants are only jointly and severally liable for breaches of contracts to 
+which they are a party or that promise the same performance.”), disavowed on other 
+grounds by Elness Swenson Graham Architects, Inc. v. RLJ II-C Austin Air, LP, 520 
+S.W.3d 145 (Tex. App.—Austin 2017, pet. denied); see also LJ Charter, LLC. v. Air Am. 
+Jet Charter, Inc., No. 14-08-00534-CV, 2009 WL 4794242, at *9 (Tex. App.—Houston 
+[14th Dist.] Dec. 15, 2009, pet. denied) (mem. op.). Brandon identifies no other basis for 
+joint and several liability that is supported by the evidence, and, having examined the 
+record, we find no basis that would support joint and several liability. Therefore, we hold 
+that the trial court’s joint and several liability conclusion is erroneous. See Marchand, 83 
+S.W.3d at 794. We sustain the lenders’ third issue. 
+XI. 
+CONCLUSION 
+ 
+We reverse the trial court’s judgment against Midland in its entirety and render 
+
+37 
+ 
+judgment that Brandon take nothing on his claims against Midland. We reverse the trial 
+court’s award of exemplary damages and render judgment that Brandon recover no 
+exemplary damages. We affirm the remainder of the trial court’s judgment. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+LETICIA HINOJOSA 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Justice 
+ 
+Delivered and filed the 
+28th day of May, 2020.  

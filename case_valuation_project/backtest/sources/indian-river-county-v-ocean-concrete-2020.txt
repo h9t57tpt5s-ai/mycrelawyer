@@ -1,0 +1,418 @@
+DISTRICT COURT OF APPEAL OF THE STATE OF FLORIDA 
+FOURTH DISTRICT 
+ 
+INDIAN RIVER COUNTY, 
+Appellant, 
+ 
+v. 
+ 
+OCEAN CONCRETE, INC. and GEORGE MAIB, 
+Appellees. 
+ 
+No. 4D19-3611 
+ 
+[November 25, 2020] 
+ 
+Appeal from the Circuit Court for the Nineteenth Judicial Circuit, 
+Indian 
+River 
+County; 
+Janet 
+Croom, 
+Judge; 
+L.T. 
+Case 
+No. 
+312007CA011589. 
+ 
+Dylan Reingold, County Attorney, and Paul R. Berg of Vocelle & Berg, 
+L.L.P., Vero Beach, for appellant. 
+ 
+Geoffrey D. Smith, Susan C. Smith, and Stephen B. Burch of Smith & 
+Associates, Melbourne, for appellee George Maib. 
+ 
+FRINK, KEATHAN, Associate Judge. 
+ 
+Appellant, Indian River County Board of County Commissioners (“the 
+County”), raises several issues on appeal following the trial court’s entry 
+of final judgment in favor of Appellee, George Maib (“the landowner”), 
+stemming from a jury trial to determine damages under the Bert J. Harris, 
+Jr., Private Property Rights Protection Act (“Bert Harris Act”).1  We affirm 
+on all issues, but write to address the County’s arguments concerning the 
+exclusion of two of the County’s expert witnesses and the admission of the 
+landowner’s opinion testimony as to the value of his property. 
+ 
+Background 
+ 
+The landowner purchased approximately 8.5 acres of real estate in 
+Indian River County, intending to build a concrete batch plant.  When the 
+landowner bought the land, it was zoned as light industrial, and a concrete 
+batch plant was an allowable use under the then-existing land 
+ 
+1 The Bert Harris Act is codified in section 70.001, Florida Statutes (2008). 
+
+2 
+ 
+development regulations.  However, after the landowner took steps to 
+develop and build the concrete batch plant on his property, the County 
+amended the zoning regulations to exclude concrete batch plants as an 
+allowable use.  Doing so precluded the landowner from building a concrete 
+batch plant on the property as planned.  
+ 
+The landowner sued the County under the Bert Harris Act, seeking 
+compensation for the loss of his ability to construct the concrete batch 
+plant, attaching an appraisal report in support.  See § 70.001(4)(a), Fla. 
+Stat. (2008).  However, the County declined to settle, and the claim 
+ultimately proceeded to trial alongside the landowner’s Penn Central2 
+taking and procedural and substantive due process violation claims.  
+Importantly, the trial court limited trial to liability only, with a jury 
+considering the procedural due process claim and the trial court 
+considering the landowner’s Penn Central taking, Bert Harris Act, and 
+substantive due process violation claims.  Both the jury and the court 
+found in the County’s favor on all counts.   
+ 
+The landowner appealed, raising three issues, and this Court affirmed 
+on two and reversed on one.  Ocean Concrete, Inc. v. Indian River Cty., Bd. 
+of Cty. Comm’rs, 241 So. 3d 181, 183 (Fla. 4th DCA 2018).  Specifically, 
+this Court held that the trial court erred in concluding that the landowner 
+failed to prove entitlement to relief under the Bert Harris Act.  Id.  We held 
+that the landowner had a reasonable investment-backed expectation in 
+constructing a concrete batch plant and that the trial court erred in finding 
+that a concrete batch plant was not an “existing use” for the property.  Id. 
+at 188–90.  We therefore reversed and remanded to the trial court for a 
+trial on damages under the Bert Harris Act.  Id. at 190.  
+ 
+Prior to the trial on damages, both the landowner and the County filed 
+a multitude of motions in limine.  Specifically, the landowner sought to 
+exclude testimony from two of the County’s expert witnesses, Dr. Fishkind 
+(“economist”) and Mr. Underwood (“appraiser”).  The County intended to 
+offer the economist to testify on the market for concrete batch plants and 
+whether the proposed plant was economically feasible, and intended to 
+offer the appraiser to testify that the concrete batch plant was not the 
+highest and best use either before or after the change in land development 
+regulations.  The County, in turn, sought to exclude the landowner’s 
+opinion testimony as to his property’s value. 
+   
+The trial court granted the landowner’s motions in limine to exclude 
+the testimony of the economist and the appraiser.  The court ruled that 
+ 
+2 Penn Cent. Transp. Co. v. City of N.Y., 438 U.S. 104 (1978). 
+
+3 
+ 
+the economist’s proffered testimony was contrary to the Bert Harris Act, 
+which requires that the property be valued as though the owner had the 
+ability to attain his reasonable investment-backed expectation (in this case 
+as a concrete batch plant).  The court also ruled that the economist’s 
+testimony was contrary to this Court’s prior decision in Ocean Concrete 
+Inc., which found that a concrete batch plant was considered an “existing 
+use” that created a value in the property greater than the fair market value 
+of the actual, present use or activity on the real property as vacant land.  
+241 So. 3d at 188.  Similarly, the court excluded the appraiser’s testimony 
+because it sought to value the property as vacant land with a potential use 
+other than as a concrete batch plant.  The trial court also excluded the 
+appraiser’s testimony because it was based in part on the economist’s 
+testimony as to the economic feasibility of concrete batch plants. 
+ 
+The trial court, however, denied the County’s motion in limine to 
+exclude the landowner’s opinion testimony as to the value of his own 
+property.  The trial court reasoned that it is the general rule in Florida that 
+a property owner may testify as to the value of his or her own property. 
+  
+Subsequently, at trial, the court denied the County’s requests to 
+reconsider the exclusion of the economist and the appraiser.  After hearing 
+testimony from other witnesses—including the landowner’s opinion 
+testimony as to his property’s value—the jury found the landowner’s favor, 
+awarding him $2 million in damages.  The trial court thereafter denied the 
+County’s “Motion to Set Aside the Verdict and in the Alternative Motion for 
+new Trial,” and issued a Final Judgment, awarding the landowner $2 
+million plus $1,302,577.00 in prejudgment interest.  From this Final 
+Judgment, the County now seeks our review. 
+ 
+Analysis 
+ 
+The County mainly appeals the trial court’s exclusion of the economist 
+and the appraiser based on its interpretation of the Bert Harris Act.  The 
+County also appeals the trial court’s finding that the Bert Harris Act allows 
+a property owner to testify as to his or her property’s value.   
+ 
+We review an issue involving statutory interpretation de novo.  Bair v. 
+City of Clearwater, 196 So. 3d 577, 581 (Fla. 2d DCA 2016); City of 
+Jacksonville v. Smith, 159 So. 3d 888, 889 (Fla. 1st DCA 2015).  Further, 
+“[a] trial judge’s ruling on the admissibility of evidence will not be disturbed 
+absent an abuse of discretion . . . [and] is limited by the rules of evidence.”  
+Hayes v. Wal-Mart Stores, Inc., 933 So. 2d 124, 126 (Fla. 4th DCA 2006) 
+(quoting Johnston v. State, 863 So. 2d 271, 278 (Fla. 2003)).  We must 
+determine if the trial court’s exclusion or allowance of the witnesses was 
+
+4 
+ 
+based on an erroneous view of the law or a clearly erroneous assessment 
+of the evidence.  See Salazar v. State, 991 So. 2d 364, 373 (Fla. 2008).  We 
+do not reach that conclusion as to either issue.  
+ 
+A. The Exclusion of the Economist and the Appraiser 
+ 
+The Bert Harris Act addresses circumstances when the government 
+enacts laws, regulations or ordinances that “may inordinately burden, 
+restrict, or limit private property rights without amounting to a taking 
+under the State Constitution or the United States Constitution.”  § 
+70.001(1), Fla. Stat. (2008).  We previously held that the landowner’s 
+concrete batch plant was an “existing use,” that he had a reasonable, 
+investment-backed expectation in constructing the concrete batch plant, 
+and that the County inordinately burdened the property.  Ocean Concrete, 
+Inc., 241 So. 3d at 188–90.  Our holding became the law of the case. 
+ 
+Under the law of the case doctrine, questions of law that 
+have actually been decided on appeal “must govern the case 
+in the same court and the trial court, through all subsequent 
+stages of the proceedings.”  This doctrine includes not only 
+issues explicitly ruled upon by the court, but also those issues 
+which were “implicitly addressed or necessarily considered by 
+the appellate court’s decision.” 
+ 
+Langer v. Fels, 93 So. 3d 1069, 1072 (Fla. 4th DCA 2012) (quoting Fla. 
+Dep’t of Transp v. Juliano, 801 So. 2d 101, 105–06 (Fla. 2001)).  
+Accordingly, the only issue remaining following our holding was damages. 
+ 
+The Legislature, in enacting the Bert Harris Act, provided the method 
+and formula which courts must use to determine damages under the Act:   
+ 
+Following 
+its 
+determination 
+of 
+the 
+percentage 
+of 
+responsibility of each governmental entity, and following the 
+resolution of any interlocutory appeal, the court shall impanel 
+a jury to determine the total amount of compensation to the 
+property owner for the loss in value due to the inordinate 
+burden to the real property.  The award of compensation shall 
+be determined by calculating the difference in the fair market 
+value of the real property, as it existed at the time of the 
+governmental action at issue, as though the owner had the 
+ability to attain the reasonable investment-backed expectation 
+or was not left with uses that are unreasonable, whichever the 
+case may be, and the fair market value of the real property, as 
+it existed at the time of the governmental action at issue, as 
+
+5 
+ 
+inordinately burdened, considering the settlement offer 
+together with the ripeness decision, of the governmental entity 
+or entities.  In determining the award of compensation, 
+consideration may not be given to business damages relative 
+to any development, activity, or use that the action of the 
+governmental entity or entities, considering the settlement 
+offer together with the ripeness decision has restricted, 
+limited, or prohibited.  The award of compensation shall 
+include a reasonable award of prejudgment interest from the 
+date the claim was presented to the governmental entity or 
+entities as provided in subsection (4). 
+ 
+§ 70.001(6)(b), Fla. Stat. (2008) (emphasis added).   
+ 
+The County first argues the trial court misinterpreted the “as though 
+the owner had the ability to attain the reasonable investment-backed 
+expectation” language as an instruction on how to value the property and 
+not when to value the property.  The County maintains this language 
+requires the jury to determine the property’s fair market value when the 
+landowner had the ability to use the property for the intended use as a 
+concrete batch plant rather than, as the trial court ruled, an instruction 
+that the property must be valued with the landowner’s intended use as a 
+concrete batch plant as the highest and best use.  According to the County, 
+a concrete batch plant was not the property’s highest and best use before 
+it was inordinately burdened, resulting in no diminution in value. 
+ 
+A statute must be given its plain and obvious meaning when the 
+language “is clear and unambiguous and conveys a clear and definite 
+meaning.”  Rollins v. Pizzarelli, 761 So. 2d 294, 297 (Fla. 2000) (quoting 
+Modder v. Am. Nat’l Life Ins. Co., 688 So. 2d 330, 333 (Fla. 1997)).  “Every 
+statute must [also] be read as a whole with meaning ascribed to every 
+portion and due regard given to the semantic and contextual 
+interrelationship between its parts.”  Fla. Dep’t of Envtl. Prot. v. 
+ContractPoint Fla. Parks, LLC, 986 So. 2d 1260, 1265 (Fla. 2008) (quoting 
+Forsythe v. Longboat Key Beach Erosion Control Dist., 604 So. 2d 452, 455 
+(Fla. 1992)).   
+ 
+The Bert Harris Act’s plain meaning compels a rejection of the County’s 
+position.  The Bert Harris Act clearly provides that the calculation of the 
+loss in fair market value of a property that has been inordinately burdened 
+is the difference between: 1) “the fair market value of the real property, as 
+it existed at the time of the governmental action at issue, as though the 
+owner had the ability to attain the reasonable investment-backed 
+expectation”; and 2) “the fair market value of the real property, as it existed 
+
+6 
+ 
+at the time of the governmental action at issue, as inordinately burdened.”  
+§ 70.001(6)(b), Fla. Stat. (2008).  While both parts are similar, the 
+distinguishing clauses are “as though the owner had the ability to attain 
+the reasonable investment-backed expectation” and “as inordinately 
+burdened.”  We must read these clauses in conjunction with the rest of 
+the statute. 
+ 
+The Bert Harris Act defines an inordinate burden as: 
+ 
+an action of one or more governmental entities [that] has 
+directly restricted or limited the use of real property such that 
+the property owner is permanently unable to attain the 
+reasonable, investment-backed expectation for the existing use 
+of the real property or a vested right to a specific use of the 
+real property with respect to the real property as a whole, or 
+that the property owner is left with existing or vested uses that 
+are unreasonable such that the property owner bears 
+permanently a disproportionate share of a burden imposed for 
+the good of the public, which in fairness should be borne by 
+the public at large. 
+ 
+§ 70.001(3)(e) Fla. Stat. (2008) (emphasis added). 
+ 
+The damages provision under section 70.001(6)(b), Florida Statutes 
+(2008), read along with the definition of inordinate burden, tells us that 
+“as inordinately burdened” essentially means as though the owner did not 
+have the ability to attain the reasonable investment-backed expectation.  
+Thus, the statute’s damages provision anticipates a valuation before and 
+after the investment-backed expectation loss.  In other words, the 
+valuation is focused on the investment-backed expectation itself, rather 
+than a potentially higher value use.  It is important to remember that the 
+Bert Harris Act’s purpose is to determine the investment-backed 
+expectation loss.  To value the property otherwise would result in an 
+unnecessary and irrelevant valuation.   
+ 
+With that in mind, the trial court properly excluded the economist’s and 
+the appraiser’s testimony, in part, based upon the Bert Harris Act’s plain 
+meaning.  Doing so did not constitute an abuse of discretion.3  The 
+economist sought to testify as to the concrete batch plant’s economic 
+ 
+3 Because we hold that the trial court’s exclusion of these witnesses based on its 
+interpretation of the statute’s “as though the owner had the ability to attain the 
+reasonable investment-backed expectation” provision was appropriate, we do not 
+address whether the trial court misinterpreted “existing use.” 
+
+7 
+ 
+feasibility to demonstrate that it was not the highest and best use, and the 
+appraiser—whose testimony relied upon the the economist’s analysis—
+sought to value the property as something other than a concrete batch 
+plant.  Neither expert offered testimony complying with section 
+70.001(6)(b), Florida Statutes (2008).   
+ 
+We note that the County was not without remedy following the trial 
+court’s exclusion of the testimony of the economist and the appraiser.  The 
+motions in limine excluding these witnesses were initially heard and ruled 
+upon before the start of trial.4  The County could have requested leave 
+from the trial court to speak with its witnesses, or to inform them of the 
+trial court’s ruling and determine if they could offer testimony in 
+compliance therewith.  However, the record does not reflect any such 
+attempt by the County.   
+ 
+To the extent the County’s proffered testimony from the appraiser 
+concerning the property’s value as inordinately burdened would not have 
+violated the trial court’s interpretation of the statute’s “as though the 
+owner had the ability to attain the reasonable investment-backed 
+expectation” language, we further note that any such testimony would not 
+implicate the full damages calculation under section 70.001(6)(b), Florida 
+Statutes (2008).  Moreover, the appraiser’s proffered testimony 
+demonstrated that he sought to value the property, as inordinately 
+burdened, with a value lower than the value to which the landowner’s 
+expert testified.  Thus, any potential error in excluding this testimony was 
+harmless.  See Special v. W. Boca Med. Ctr., 160 So. 3d 1251, 1256 (Fla. 
+2014).  Accordingly, we hold the trial court correctly interpreted the Bert 
+Harris Act, and that the exclusion of both the economist and the appraiser 
+was therefore not based on an erroneous interpretation of the law. 
+ 
+B. The Landowner’s Opinion Testimony 
+ 
+The County also argues the trial court erred in permitting the 
+landowner to testify as to his property’s value because the Bert Harris Act 
+allegedly precludes such testimony.  We disagree. 
+   
+The statute requires a property owner, who is burdened by the action 
+of a governmental entity and thus seeking compensation, to first submit a 
+claim in writing to the head of the governmental entity along with a “valid 
+ 
+4 The four-day trial was held from September 23 through September 26, 2019.  
+The trial court first ruled on the motion in limine as to the economist during an 
+August 15, 2019 pretrial hearing and ruled on the motion in limine as to the 
+appraiser in a September 20, 2019 pretrial order. 
+
+8 
+ 
+appraisal that supports the claim and demonstrates the loss in fair market 
+value to the real property.”  § 70.001(4)(a), Fla. Stat. (2008).  While the 
+statute does not state who may testify as to the property’s fair market value 
+at trial, legal precedent allows a property owner to testify as to its value.  
+Craig v. Craig, 982 So. 2d 724, 729 (Fla. 1st DCA 2008) (“Generally, an 
+owner of property can testify as to its value, whether or not the owner is 
+qualified as an expert.”); Reliance Ins. Co. v. Pro-Tech Conditioning & 
+Heating, 866 So. 2d 700, 701 (Fla. 5th DCA 2003) (“Florida and other 
+jurisdictions permit an owner to testify as to property damages and 
+value.”).  However, this legal precedent is not without restriction. 
+  
+An owner is qualified to testify to the value of his property 
+based on a presumed familiarity with the characteristics of 
+the property, knowledge or acquaintance with its uses and 
+purposes, and experience in dealing with it.  An owner must 
+be shown to have knowledge regarding the property and its 
+value sufficient to qualify him. 
+   
+B & B Tree Serv., Inc. v. Tampa Crane & Body, Inc., 111 So. 3d 976, 978 
+(Fla. 2d DCA 2013) (internal quotation marks and alterations in original 
+omitted) (quoting Craig, 982 So. 2d at 729). 
+ 
+The County argues the Bert Harris Act requires that a property owner 
+submit only a valid appraisal in support of the claim demonstrating the 
+loss in fair market value, without allowing the property owner to testify at 
+trial concerning the property’s value.  But the County’s position conflicts 
+with the entire purpose of a trial on damages to determine the 
+compensation amount.  The statute references only that the appraisal 
+must demonstrate the loss in the fair market value.  § 70.001(4)(a), Fla. 
+Stat. (2008).  Nothing precludes the owner from testifying as to his or her 
+own knowledge of the property.  The statute did not override legal 
+precedent allowing the landowner to testify as to his property’s value.  See 
+Reliance Ins. Co., 866 So. 2d at 701. 
+ 
+Moreover, the landowner demonstrated familiarity with and knowledge 
+of the property that sufficiently qualified him to testify as to his property’s 
+value.  B & B Tree Serv., Inc., 111 So. 3d at 978.  The landowner testified 
+that after he purchased the property, he hired a team of professionals, 
+surveyors, and individuals to advise him on the property.  He testified that 
+he made physical alterations and improvements to the property after 
+purchasing it, such as clearing the land, re-sleeving an old well, putting in 
+two five-inch wells, installing another well for potable water, and relocating 
+473 palm trees to the property’s perimeter to act as a buffer.  He also 
+testified his concrete batch plant was going to be state of the art and the 
+
+9 
+ 
+property’s slope and triangular design along its rail side, plus its natural 
+buffer zones, added value for his intended use.  
+ 
+We further note the County was not prejudiced as a result of the 
+landowner’s testimony because it thoroughly cross-examined him, and the 
+jury had ample opportunity to weigh his testimony.  With these 
+considerations in mind, we hold the trial court did not abuse its discretion 
+in allowing the landowner to testify about his property’s value. 
+   
+Conclusion 
+ 
+Because we hold that the trial court properly interpreted the Bert Harris 
+Act to exclude the testimony of both the economist and the appraiser, and 
+because we hold the trial court did not abuse its discretion in allowing the 
+landowner to testify as to the value of his property both before and after 
+the inordinate burden, we affirm as to those issues.  We also affirm as to 
+all other issues on appeal. 
+ 
+Affirmed. 
+ 
+DAMOORGIAN and CIKLIN, JJ., concur. 
+ 
+*            *            * 
+ 
+Not final until disposition of timely filed motion for rehearing. 
+ 
+ 
+ 

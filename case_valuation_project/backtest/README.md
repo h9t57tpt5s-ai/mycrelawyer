@@ -70,3 +70,17 @@ Approved by Jeff after the version 2 re-test. Two changes:
 2. **One-sided backstop.** If the other side's claims are priced and none of the client's are, while the client has an unpriced affirmative claim, the calculator declines to give a net figure and names what is missing. Each issue now carries `kind` (claim or defense) so a defense-only case still gets its exposure figure.
 
 Results are in `results-v3/`. The range formula is unchanged from version 2, so range hits should move only through run-to-run variation and the backstop.
+
+## Version 5 expansion (2026-09-26)
+
+46 cases added, taking the backtest from 25 to 71 and covering all eight calculator categories (leases 27, eminent domain 12, construction 9, lending 9, premises 5, zoning 4, environmental 3, REIT securities 2, counting the original 25). Research agents found and prepared them; `scripts/intake_backtest_cases.py` admitted a case only if:
+
+- its source is the court's own opinion (or a court PDF copy), linked by a working https URL;
+- its side matches the category's fixed roles (`expectedRole`, `userSide`);
+- neither the trial nor the final amount appears in the input in any written form, unless it is a party's own stated demand or valuation (`amountIsTheRequestedAmount`);
+- every sentence of `documentText` is found word for word in the saved opinion text, allowing only PDF artifacts (page numbers, running headers, footnote markers) between pieces of a sentence, never an added word;
+- it is not a duplicate and not in the calculator's citation database.
+
+Ten candidates were excluded: nine whose excerpts could not be matched word for word without judgment calls (Service Steel, RSS MSBAM, two Marchbanks cases, LMMM Houston, Stapas, Wortham, Landis+Gyr, Hudson Holeyfield Banks), and Mimi's v. BAI Riverwalk, whose court link no longer resolves. The opinion text each case was checked against is in `sources/`.
+
+One case in five was held out by a hash of its id before any run (`holdout: true`). Outcome judgment calls are recorded in each case's `finalNote`: e.g. Exxon Mobil's final figure is pending because its appeal status could not be verified, Burns Concrete's is pending because the court remanded for recalculation, and Donegal's final is the tenant's net loss after the landlord's counterclaim.

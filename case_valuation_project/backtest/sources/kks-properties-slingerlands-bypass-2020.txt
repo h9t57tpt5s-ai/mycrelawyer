@@ -1,0 +1,82 @@
+
+
+Matter of Acquisition of Real Prop. by the State of New York  (2020 NY Slip Op 06185)
+
+
+
+
+
+Matter of Acquisition of Real Prop. by the State of New York 
+
+
+2020 NY Slip Op 06185
+
+
+Decided on October 29, 2020
+
+
+Appellate Division, Third Department
+
+
+
+Published by New York State Law Reporting Bureau pursuant to Judiciary Law § 431.
+
+
+This opinion is uncorrected and subject to revision before publication in the Official Reports.
+
+
+
+Decided and Entered: October 29, 2020
+
+
+
+529374
+
+
+
+[*1]In the Matter of the Acquisition of Real Property by the State of New York. State of New York, Respondent; KKS Properties, LLC, Appellant.
+
+
+
+
+Calendar Date: September 15, 2020
+
+Before: Egan Jr., J.P., Mulvey, Aarons, Pritzker and Colangelo, JJ.
+
+
+Harris, Conway & Donovan, PLLC, Albany (Patrick L. Seely Jr. of E. Stewart Jones Hacker Murphy LLP, Troy, of counsel), for appellant.
+Letitia James, Attorney General, Albany (Owen Demuth of counsel), for respondent.
+
+
+
+Egan Jr., J.P.
+Appeal from an amended judgment of the Court of Claims (Collins, J.), entered November 30, 2018, which, in a proceeding pursuant to EDPL articles 4 and 5, determined the compensation due claimant as a result of petitioner's acquisition of certain real property.
+In January 2006, claimant, KKS Properties, LLC, acquired title to a 31.77-acre parcel of real property located on New Scotland Road in the Town of Bethlehem, Albany County. In May 2006, as part of the construction of an extension to State Route 85 — also known as the Slingerlands Bypass (hereinafter the bypass) — petitioner, the State of New York, appropriated an approximately 9.5-acre strip of claimant's property pursuant to the EDPL, bifurcating the property from north to south and creating three individual parcels of property — the approximately 9.5-acre strip appropriated for the bypass, a 3.736-acre parcel to the east of the bypass (hereinafter the eastern parcel) and a 18.464-acre parcel to the west of the bypass (hereinafter the western parcel). Following the appropriation, the eastern parcel remained accessible via road frontage along New Scotland Avenue; however, access to the western parcel was reduced to a 43-meter legal right of access, as provided for in a reservation clause contained in petitioner's May 2006 appropriation map of the property.
+In 2007, claimant commenced a CPLR article 78 proceeding seeking, among other things, certain injunctive relief, alleging that the proposed construction of the bypass denied it suitable access to the western parcel. In 2008, Supreme Court (Devine, J.) dismissed the petition. In 2009, claimant commenced this proceeding seeking damages, alleging, among other things, that the conditional access to the western parcel resulting from petitioner's appropriation rendered said parcel unsuitable for any development in accord with its highest and best use. Following a trial, the Court of Claims (Weinstein, J.) awarded claimant $532,000 in damages. On appeal, this Court reversed the judgment, determining that the Court of Claims lacked competent proof on which to base its valuation and remitted the matter for a new trial (119 AD3d 1033, 1037 [2014]). Upon remittal, claimant moved for summary judgment, seeking a declaration that the western parcel was landlocked. Petitioner cross-moved for partial summary judgment, seeking a declaration that the western parcel was not landlocked, as claimant was explicitly granted a 43-meter legal right of access to the bypass. The Court of Claims (Collins, J.) denied claimant's motion and granted petitioner's cross motion, finding that claimant was collaterally estopped from litigating whether the western parcel was landlocked as this issue had previously been litigated and resolved against claimant in the prior CPLR article 78 proceeding. Claimant appealed, and this Court affirmed (149 AD3d 1317, 1319-1320 [2017]).
+In January 2018, a four-day trial ensued for purposes of determining the valuation of claimant's property and the appropriate amount of damages to which claimant was entitled as a result of petitioner's appropriation. At trial, the parties introduced, among other things, the appraisal reports of their respective experts and, following trial, the Court of Claims awarded claimant $744,500 in direct and consequential damages. An amended judgment was thereafter entered, and claimant appeals.
+It is well settled that "[w]hen private property is appropriated for public use, just compensation must be paid, which requires that the owner be placed in the financial position that he or she would have occupied had the property not been taken" (Matter of County of Warren [Forest Enters. Mgt., Inc.], 182 AD3d 729, 730-731 [2020] [internal quotation marks and citations omitted]; see US Const, 5th Amend; NY Const, art I, § 7 [a]; Matter of City of New York [Kaiser Woodcraft Corp.], 11 NY3d 353, 359 [2008]). As relevant here, where the subject appropriation "involves a partial taking of real property, the claimant is not only entitled to the value of the land taken — i.e., direct damages — but also to consequential damages, which consist of the diminution in value of the claimant's remaining land as a result of the taking or the use of the property taken" (DiGiacomo v State of New York, 182 AD3d 977, 979 [2020] [internal quotation marks, brackets and citations omitted]; see Matter of Eagle Cr. Land Resources, LLC [Woodstone Lake Dev., LLC], 149 AD3d 1324, 1326 [2017], lv denied 29 NY3d 916 [2017]). In ascertaining the appropriate measure of damages, the courts must consider "the fair market value of the property in its highest and best use on the date of the taking, regardless of whether the property is being put to such use at the time" (Matter of Eagle Cr. Land Resources, LLC [Woodstone Lake Dev., LLC], 149 AD3d at 1325-1326 [internal quotation marks and citations omitted]; see Matter of County of Warren [Forest Enters. Mgt., Inc.], 182 AD3d at 731). Ultimately, the court's final damages award "must either be within the range of the expert testimony, or be supported by other evidence and adequately explained by the court" (Woehrel v State of New York, 178 AD3d 1169, 1171 [2019] [internal quotation marks and citations omitted]; see Matter of City of New York [Reiss], 55 NY2d 885, 886 [1982]).
+Claimant contends that the Court of Claims' determination as to the preappropriation value of the property lacks factual support in the record. We disagree. The parties agree that the highest and best use of the property prior to the appropriation was mixed used development, comprising office, retail and residential development. To that end, each party's appraiser utilized the sales comparison approach to calculate the property's preappropriation value. Claimant offered the expert testimony and appraisal report of Kenneth Gardner, a real estate appraiser, who set forth two alternative valuation scenarios with respect to the preappropriation value of the property. The first scenario, Alternative A, entailed dividing the property into two parcels for purposes of valuation — an approximately 23.3-acre parcel that Gardner determined was commercially developable and an 8.47-acre parcel that he determined was "surplus acreage," not amenable to development. Gardner reviewed comparable sales and determined that the commercially developable portion of the property had a value of $92,000 per acre and the surplus acreage had a value of $9,500 per acre, resulting in a total preappropriation value of $2,224,065. The second scenario, Alternative B, entailed dividing the property into two separate parcels along the approximate boundary line between the zoning districts encompassed by the property, resulting in an 11-acre "hamlet" zoning parcel and a 20.77-acre "commercial-hamlet" zoning parcel. Gardner determined that the hamlet zoning parcel had a value of $136,000 per acre and the commercial-hamlet zoning parcel had a value of $35,000 per acre, resulting in a total preappropriation value of $2,223,000. In contrast, petitioner offered the expert testimony and appraisal report of Todd Thurston, a real estate appraiser. Thurston inspected the property, researched comparable sales and, after making certain adjustments for various constraints on the property, calculated the property's preappropriation value to be $45,000 per acre, for a total preappropriation valuation of approximately $1,430,000.
+In determining the property's preappropriation valuation, the Court of Claims largely rejected the two valuation scenarios that Gardner relied upon. With respect to Alterative A, the court determined, among other things, that certain comparable sales relied upon by Gardner were not relevant or comparable to the subject property and his allocations and adjustments for surplus land/acreage were subjective, unverified and not supported by facts in the record, rendering them unreliable. With respect to Alternative B, the court found said valuation to be unreliable because many of the comparable sales that Gardner relied upon were not located in either a hamlet or a commercial-hamlet zoning district — which was the underlying premise for dividing the property into two parcels based upon their respective zoning designations in the first instance. Comparatively, the court found Thurston's appraisal report, which relied upon four comparable sales within the Town of Bethlehem and his corresponding adjustments, to be fair, reasonable and largely reliable. After making its own adjustments to certain comparable sales relied upon by Thurston, the court ultimately calculated a preappropriation value for the property of $52,339 per acre, for a total preappropriation value of $1,662,810.[FN1]
+Having reviewed the evidence in support of the parties' respective appraisals and the Court of Claims' adjustments to certain comparable sales, we discern no basis upon which to disturb its determination as to the property's preappropriation valuation (see Woehrel v State of New York, 178 AD3d at 1172; Matter of 730 Equity Corp. v New York State Urban Dev. Corp., 142 AD3d 1087, 1089-1090 [2016]). The Court of Claims provided a thorough analysis of both Gardner's and Thurston's comparable sales, effectively explained how it formulated its various adjustments thereto — which are supported by the record — and was within its discretion and had a reasonable basis for crediting the expert testimony and appraisal report of Thurston over that of Gardner, and we defer to its determination in this regard (see Woehrel v State of New York, 178 AD3d at 1172; Matter of Eagle Cr. Land Resources, LLC [Woodstone Lake Dev., LLC], 149 AD3d at 1331; Matter of Albany County Airport Auth. [Buhrmaster], 265 AD2d 720, 722 [1999], lv denied 94 NY2d 758 [2000]). Accordingly, given that the Court of Claims' award of damages was adequately explained and falls within the range of expert testimony offered at trial, we decline to disturb it (see DiGiacomo v State of New York, 182 AD3d at 981; Woehrel v State of New York, 178 AD3d at 1172).
+Next, we are unpersuaded that the Court of Claims erred when it determined that the western parcel's postappropriation highest and best use was multifamily residential development. To that end, Thurston testified that a multifamily residential development was a legally permissible, physically possible and financially feasible use of the western parcel, and that said parcel could support the development of a 91 or 92-unit multifamily residential complex. In opposition, claimant argued that petitioner's appropriation rendered the western parcel surplus land or acreage such that it was unsuitable for any development in line with its highest and best use; however, it failed to establish that such was the case.
+As relevant here, as part of petitioner's May 2006 appropriation, claimant was granted a 43-meter legal right of access along the bypass to the western parcel (see 149 AD3d at 1320; see also Highway Law § 3 [2]). Claimant submitted the engineering report of Ransen Caola, a licensed professional engineer, who opined that the western parcel was rendered "undevelopable" as a result of the appropriation; however, his conclusion in this regard was belied by his trial testimony. Caola acknowledged that a 2009 traffic study conducted by Greenman-Pederson, Inc., a traffic consulting firm, which he relied upon in rendering his report, had concluded that a single right-in, right-out (hereinafter RIRO) access point could be constructed within claimant's 43-meter legal access that would support retail development and/or office space. He further acknowledged that there was nothing prohibiting claimant from pursuing development of a single RIRO access point within this right of access and admitted that he had not conducted any study nor did he render any conclusions with respect to the potential for development of such an access point.[FN2] Moreover, there is nothing in the record indicating that claimant has ever sought to obtain a permit from the Department of Transportation or the Town for the development and construction of a single RIRO access within its 43-meter right of access, and claimant failed to provide any reasonable basis to believe that such an application, if made, would be denied (see Knickerbocker Dev. Corp. v State of New York, 140 AD3d 1444, 1446 [2016], lv denied 28 NY3d 905 [2016])
+Although claimant also asserts that no commercial, retail or high-density residential developments have been approved in the Town where access to the property was limited to a single RIRO access, the Town's Director of Planning testified that nothing in the Town's zoning ordinance nor its comprehensive plan prohibited such development, and Thurston outlined various other high-density residential developments located within the Capital District that have been approved and constructed utilizing a similar single RIRO access point (see Matter of General Elec. Co. v Town of Salina, 69 NY2d 730, 731 [1986]). Contrary to claimant's assertion, the fact that the Court of Claims may have given more weight to Thurston's testimony and comparable sales in rendering its determination in this regard did not demonstrate that it was "predicated solely and simply on the subjective judgment of the court or that there was no evidence in the record to support [it]" (Woehrel v State of New York, 178 AD3d at 1172 [internal quotation marks and citation omitted]). Based on the foregoing, we find ample support in the record demonstrating that petitioner's appropriation did not render access to the western parcel unsuitable for development, and claimant failed to establish that its 43-meter right of access to the western parcel was incapable of providing reasonable ingress and egress to support a postappropriation highest and best use of high-density, multifamily residential development (see Matter of General Elec. Co. v Town of Salina, 69 NY2d at 731; Klein v State of New York, 187 AD2d 706, 707 [1992]; Sun Oil Co. of Penn. v State of New York, 50 AD2d 983, 984 [1975]). Claimant's remaining contentions, including that the Court of Claims failed to properly reconcile various other impacts to the western parcel caused by the appropriation and/or undervalued the eastern parcel, have been reviewed and found to be without merit.
+Mulvey, Aarons, Pritzker and Colangelo, JJ., concur.
+ORDERED that the amended judgment is affirmed, without costs.
+
+
+
+Footnotes
+
+
+Footnote 1: The Court of Claims explained that it adjusted the valuations of various comparable sales based upon a given property's superior access or certain other constraints on the land.
+
+Footnote 2: Caola only opined that the 14 to 16-foot curb cut presently existing along the bypass was insufficient for safe ingress and egress by construction vehicles.
+
+
+
+
+
+
+
+

@@ -1,0 +1,698 @@
+Judgment rendered January 16, 2019. 
+Application for rehearing may be filed 
+within the delay allowed by Art. 2166, 
+La. C.C.P. 
+ 
+No. 52,454-CA 
+ 
+COURT OF APPEAL 
+SECOND CIRCUIT 
+STATE OF LOUISIANA 
+ 
+ 
+* * * * * 
+ 
+YASHEKA JACK 
+ 
+Plaintiff-Appellee 
+ 
+versus 
+ 
+ELDORADO CASINO SHREVEPORT 
+JOINT VENTURE, L.L.C., ELDORADO 
+SHREVEPORT #1, L.L.C. AND 
+ELDORADO SHREVEPORT #2, L.L.C. 
+ 
+ 
+Defendants-Appellants 
+ 
+ 
+* * * * * 
+ 
+Appealed from the 
+First Judicial District Court for the 
+Parish of Caddo, Louisiana 
+Trial Court No. 580048 
+ 
+Honorable Ramon Lafitte, Judge 
+ 
+* * * * * 
+ 
+BLANCHARD, WALKER, O’QUIN 
+Counsel for Appellants 
+& ROBERTS, APLC 
+By:  Jerry Edwards 
+ 
+ERNEST R. PERRY, JR. 
+  
+ 
+ 
+Counsel for Appellee 
+ 
+FRISCHHERTZ, POULLIARD, 
+  
+FRISCHHERTZ & IMPASTATO, LLC 
+By:  Anthony Joseph Impastato 
+        Vincent P. Impastato, Sr. 
+        Dominick Frank Impastato, III 
+ 
+ 
+* * * * * 
+ 
+Before PITMAN, COX, and STEPHENS, JJ. 
+ 
+
+ 
+ 
+STEPHENS, J.   
+Defendants, Eldorado Casino Shreveport Joint Venture, L.L.C., 
+Eldorado Shreveport #1, L.L.C., and Eldorado Shreveport #2, L.L.C. 
+(collectively “Eldorado”), appeal the denial of a motion in limine and 
+judgment in the First Judicial District Court, Parish of Caddo, State of 
+Louisiana, awarding damages to plaintiff, Yasheka Jack (“Jack”).  For the 
+following reasons, we affirm the judgment of the trial court. 
+FACTS AND PROCEDURAL HISTORY 
+ 
+This matter arises out of injuries sustained by Jack at the Eldorado 
+Casino in Shreveport, Louisiana, and the subsequent suit for damages filed 
+against Eldorado.  Jack’s injury occurred on November 9, 2013, when a 
+beverage server employed by Eldorado, Denise Ramone, spilled hot coffee 
+on Jack, which caused Jack to twist suddenly out of the chair on which she 
+was seated and injure her back in the process.  Jack filed a petition for 
+damages against Eldorado on October 3, 2014.  Eldorado answered and 
+asserted several affirmative defenses, notably which Jack’s injuries were 
+proximately caused by a person or entity other than Eldorado.  
+Prior to trial, Eldorado filed a motion in limine seeking to exclude from 
+evidence the portions of Jack’s medical expenses that were written off, 
+claiming Jack never actually incurred or had an obligation to pay the full 
+amount of the expenses, and thus, the collateral source rule does not apply.  
+The trial court denied Eldorado’s motion, holding the collateral source rule 
+does apply to write-offs negotiated by Jack’s private insurance provider, to 
+whom she had paid monthly premiums.  Accordingly, Jack’s medical records 
+that were admitted into evidence during the trial were redacted to exclude the 
+
+ 
+amount of the insurance payments and write-offs and, thus, reflected the full 
+amount of medical expenses charged to Jack.  Following the ruling on its 
+motion, Eldorado failed to proffer into evidence any proof or information 
+regarding the specific amounts of the write-offs. 
+Trial commenced on September 11, 2017, wherein 11 witnesses 
+testified.  Following the conclusion of testimony, Jack moved for a directed 
+verdict on comparative fault regarding Eldorado’s affirmative defense of 
+negligence on the part of an unknown patron.  The motion was denied.  
+On September 14, 2017, a unanimous 12-person jury found Ramone 
+was negligent, her negligence was a proximate cause of Jack’s injuries, and 
+the unknown patron was not negligent.  The jury assessed 100% of the fault 
+to Ramone and made the following award to Jack:  
+Past medical expenses . . . . . . . . . . . .  $237,124.79 
+Future medical expenses . . . . . . . . . .    577,698.00 
+Past lost wages . . . . . . . . . . . . . . . . . .     51,646.00 
+Future lost wages . . . . . . . . . . . . . . . .    317,460.00 
+Past physical pain and suffering . . . . .     40,000.00 
+Future physical pain and suffering . . .     60,000.00 
+Past mental pain and suffering . . . . . .     75,000.00 
+Future mental pain and suffering . . . .     50,000.00 
+Past loss of enjoyment of life . . . . . . .     10,000.00 
+Future loss of enjoyment of life . . . . .     10,000.00 
+Disability . . . . . . . . . . . . . . . . . . . . . . .             0.00 
+Scarring . . . . . . . . . . . . . . . . . . . . . . . .      1,000.00 
+ 
+The trial court rendered judgment in the total amount of $1,429,928.70.1 
+Eldorado subsequently filed a motion for judgment notwithstanding 
+the verdict, which was denied.  In ruling on the motion, the trial court noted 
+that with regard to the issues of both fault and future lost wages, the jury had 
+                                          
+1The total amount of damages provided in the trial court’s judgment does not 
+mathematically align with the individual awards on the jury’s verdict form.  The correct 
+total sum of all the damages awarded to Jack is $1,429,928.79.  
+
+ 
+simply made a credibility call which it would not disturb on the basis of its 
+own opinion of the evidence.  Furthermore, in denying the portion of 
+Eldorado’s motion that requested a reduction to the jury’s award for past 
+medical expenses in an amount equal to the write-offs, the trial court noted 
+there was no evidence in the record regarding the specific amounts of the 
+write-offs; therefore, even if it were inclined to reduce the award by those 
+amounts, it would not “guestimate” what those written-off amounts would 
+be. 
+Eldorado now appeals the judgment of the trial court and asserts three 
+assignments of error pertaining to (1) the assessment of 100% fault to 
+Ramone; (2) the award for future lost wages; and (3) the trial court’s 
+application of the collateral source rule to the insurer-negotiated write-offs. 
+DISCUSSION 
+Eldorado’s first two assignments of error involve the jury’s 
+assessment of the credibility of witnesses.  When findings are based on 
+determinations regarding the credibility of witnesses, the manifest error 
+standard demands great deference to the trial court’s findings.  Robinson v. 
+Board of Supervisors for Univ. of La. Sys., 2016-2145 (La. 6/29/17), 225 So. 
+3d 424; Fuller v. Bissell, 51,759 (La. App. 2 Cir. 1/10/18), 245 So. 3d 1169.  
+Under manifest error review, the trial court’s factual findings can be 
+reversed only if the appellate court finds, based on the entire record, no 
+reasonable factual basis for the factual finding and the factfinder is clearly 
+wrong.  Baker v. PHC-Minden L.P., 2014-2243 (La. 5/5/15), 167 So. 3d 
+528; Fuller, supra.  Where documents or objective evidence so contradict 
+the witness’s story, or the story itself is so internally inconsistent or 
+implausible on its face, that a reasonable factfinder would not credit the 
+
+ 
+witness’s story, then the court of appeal may find manifest error or plain 
+wrongness even in a finding based on credibility.  But where such factors are 
+not present, and the factfinder’s finding is based on its decision to credit the 
+testimony of one of two or more witnesses, that finding can virtually never 
+be manifestly erroneous or clearly wrong.  Rosell v. ESCO, 549 So. 2d 840 
+(La. 1989); Johnson v. Tucker, 51,723 (La. App. 2 Cir. 11/15/17), 243 So. 
+3d 1237, writs denied, 2017-2075, 2017-2073 (La. 2/9/18), 236 So. 3d 1262 
+and 1266. 
+Assessment of Fault 
+In its first assignment of error, Eldorado asserts the jury erred in 
+assessing 100% of fault to Ramone, thereby refusing to accept as credible 
+the uncontradicted testimony of Ramone regarding the cause of the accident.  
+We disagree.  A trial court’s findings regarding percentages of fault are 
+factual, and will not be disturbed on appeal unless clearly wrong.  Purvis v. 
+Grant Parish School Bd., 2013-1424 (La. 2/14/14), 144 So. 3d 922, 926. 
+Overview of relevant testimony 
+Jack testified that on the night her injury occurred, she had met her 
+two aunts, Mary Williams and Tolonia Bryant, at the Eldorado Casino.  The 
+three were sitting in chairs at the penny slot machines.  Jack and Williams 
+were sitting side by side with an empty chair between them, while Bryant 
+was sitting across the aisle with her back to the machine, facing Jack and 
+Williams.  Jack stated there was suddenly a very hot sensation going down 
+her back, saturating her pants and chair.  She jumped out of the chair, turned 
+and threw her body out to get her back off the chair.  Jack identified the 
+Eldorado waitress seated at the defense table, Ramone, as the waitress who 
+spilled the hot coffee on her.  Jack stated Ramone gave no explanation 
+
+ 
+regarding what caused her to spill the drinks on Jack.  Ramone just kept 
+apologizing and asked if Jack wanted her to get her supervisor.  Jack 
+testified that no one who appeared to be a fellow Eldorado patron 
+approached afterwards.  On cross-examination, Jack testified that at the time 
+her injury occurred, she did not see what caused Ramone to spill the tray of 
+drinks because she was looking in the other direction and she does not know 
+if someone bumped into her or not.  
+ 
+Ramone then testified on cross-examination that it is part of her 
+responsibility as a cocktail waitress at the Eldorado Casino to organize 
+drinks on her tray using a certain method in order to ensure the tray is well 
+balanced and avoid spilling the drinks.  This method requires that in the 
+event there is hot coffee on the tray, it should be placed in the dead center 
+with the heavier drinks immediately around it and the lighter drinks along 
+the edges of the tray.  Ramone further testified it was her responsibility and 
+part of her training to be aware of rowdy patrons and prepared to avoid their 
+sudden movements.  She stated patrons were expected to be rowdy, and it 
+was normal and reasonable for them to make sudden movements such as 
+jumping out of their chair.  
+Regarding the moments leading up to Jack’s injury, Ramone testified 
+the coffee still had steam rolling off it, and while it started out in the center 
+of her tray, as is protocol, she was not sure whether it was still in the center 
+of the tray at the time of the accident because she had delivered several 
+drinks and picked up several empty glasses since originally organizing her 
+tray.  She testified that when she entered the aisle, Jack was seated on the 
+left side and there was another patron whose identity is unknown seated on 
+the right side.  Ramone testified the unknown patron stood from her chair 
+
+ 
+causing the chair to slide backward and the back of the chair to bump into 
+Ramone’s right hip.  This bump then caused her to lose her balance and the 
+balance of the tray and stumble forward, to the left, toward Jack.  This 
+movement caused the drinks on her tray to topple over in a domino effect 
+and the hot coffee to spill over the side of the tray onto Jack.  Ramone 
+explained that the unknown patron’s action of pushing her chair back was 
+neither unusual nor unreasonable, but there was no way for her to anticipate 
+the bump and avoid it.  She testified that following the accident, the 
+unknown patron attempted to help her clean up the mess made by the spilled 
+drinks.   
+Surveillance video of the incident was played for Ramone, and still 
+shots from the video were provided.  She testified that the video quality was 
+not clear, but she was able to identify the position of the parties leading up to 
+and after the accident.  However, Ramone testified the video did not show 
+the accident but showed both immediately before and after the accident; in 
+other words, the casino’s surveillance video does not contain the precise 
+footage which should have captured the incident.  On direct examination, 
+Ramone testified she did not get the name or contact information of the 
+unknown patron because she thought it was unnecessary.  
+ 
+Mary Williams testified that she was with Jack at the casino on the 
+night her injury occurred; Williams’ sister, Tolonia Bryant, was also with 
+them.  Williams identified the still shot of the Eldorado surveillance video 
+from before the accident and confirmed where she and Jack were sitting but 
+testified she could not recall exactly where Bryant was sitting and that the 
+quality of the photo was not clear enough to identify each individual.  
+Williams also testified she did not see anyone who was not an Eldorado 
+
+ 
+employee come up to the scene following the accident and indicate being the 
+cause of the accident.  On cross-examination, Williams confirmed she did 
+not see what caused Ramone to spill her tray of drinks. 
+ 
+Tolonia Bryant testified that she was at the Eldorado Casino with 
+Williams and Jack on the night Jack was injured, and she was sitting behind 
+them, across the aisle.  She had her back to the slot machine and was sitting 
+facing Williams and Jack.  Bryant testified she saw Ramone stumble and 
+spill the drinks on Jack.  Bryant further testified she did not see anyone 
+bump into Ramone or anyone come up after the accident and apologize or 
+indicate they caused Ramone to trip and fall.  She was reading a book while 
+talking with Jack and Williams and had looked down a little before the 
+accident, but when she looked up, she saw Ramone walking toward them 
+with a tray of drinks.  She never saw anyone bump into Ramone, whom she 
+described as just suddenly tripping.  On cross-examination, Bryant testified 
+that while she did not see anyone bump into Ramone, she does not know if 
+someone did. 
+Analysis 
+ 
+The record in this case demonstrates the jury was not manifestly 
+erroneous or clearly wrong when it determined Eldorado was 100% at fault 
+for the injuries sustained by Jack at the Eldorado Casino.  Eldorado asserts 
+Ramone’s testimony was uncontradicted and does not support a finding of 
+100% fault against Eldorado, yet the surveillance video and testimony of 
+other witnesses did contradict Ramone’s assertions—both that she was 
+bumped into by an unknown patron which caused her to lose her balance and 
+led to the accident and that an unknown patron attempted to help clean up 
+after Ramone’s tray spilled onto Jack.  Bryant and Williams both testified 
+
+ 
+that while they saw Ramone stumble and spill the coffee on Jack, they saw 
+no one bump into her.  Furthermore, they both, as well as Jack, testified they 
+saw no other patron take responsibility for causing Ramone to stumble or 
+attempt to assist after the accident.  Their testimony was not so implausible 
+on its face that a reasonable factfinder would not credit it, nor was it 
+contradicted by any objective evidence.  In fact, the theoretically objective 
+surveillance video provided by Eldorado that could have potentially 
+supported Ramone’s testimony, instead, further weighs against Eldorado’s 
+credibility due to its poor quality and suspicious omission of the accident 
+altogether.  
+We note Eldorado assigned error to the jury’s assessment of 100% 
+fault to Eldorado but did not assign error to the jury’s finding that the 
+unknown patron was not negligent.  Regardless, the jury clearly found Jack 
+and her witnesses to be more credible and resolved conflicts of testimony in 
+Jack’s favor.  Its finding that Eldorado was 100% at fault for the injuries 
+sustained by Jack, and that the unknown patron was not, is reasonable in 
+light of the record reviewed in its entirety.  This assignment of error is 
+without merit. 
+Award for Future Lost Wages 
+Eldorado asserts the jury erred in awarding future lost wages in light 
+of overwhelming evidence that Jack could return to work with 
+accommodations.  We disagree.  Awards for loss of earning capacity are 
+inherently speculative and insusceptible of calculation with mathematical 
+certainty.  Shephard v. AIX Energy, Inc., 51,965 (La. App. 2 Cir. 5/23/18), 
+249 So. 3d 194, 211, writ denied, 2018-1266 (La. 11/5/18), 255 So. 3d 1050.  
+The trier of fact is accorded great discretion in assessing damages for loss of 
+
+ 
+earning capacity, but there must be a factual basis in the record for the 
+award.  Id.  
+Overview of relevant testimony 
+Jack testified that at the time of her injury, she was the office manager 
+at Velocity Care, a medical office where she had been employed for two 
+years.  She earned a yearly salary of approximately $33,000 and was a single 
+mother of three.  Jack’s prior work history includes working in a hospital as 
+a unit clerk, patient care technician, and certified nursing assistant, as well as 
+a receptionist, medical coder, and customer service representative at a retail 
+store.  She has a high school diploma and at the time of her injury was 
+enrolled in community college pursuing an associate degree in business 
+administration.  Ultimately, however, Jack failed those classes due to the 
+pain she suffered from her injury at Eldorado.   
+Jack testified she worked 12-hour shifts at Velocity Care and had no 
+difficulty performing work duties prior to her injury.  Her duties included 
+working side-by-side with the front desk staff and managing them; meeting 
+and greeting patients; answering the phone and placing calls; sitting for long 
+periods of time to send out emails to billing companies, supervisors, and 
+owners; coordinating the staffing schedule; putting away supplies; moving 
+charts; retrieving patients from cars and helping them into a wheelchair; 
+taking vital signs; and making beds.  She testified she did whatever needed 
+to be done.  
+In November 2015, due to her continued pain and upon the 
+recommendation of Dr. Euby Kerr, M.D., at the Spine Institute, Jack 
+underwent a two-level, 360-degree lumbar fusion surgery.  Jack had three 
+discs removed from her spine, which were replaced with artificial discs that 
+
+ 
+were screwed into her spine.  Since the surgery, Jack continues to experience 
+pain and pressure in her lower back.  She explained her pain level increases 
+as her activity level increases and stated she continues to receive injections 
+in her sacroiliac joints.  Jack further testified that as of the date of trial, she 
+had not been released by her doctor to return to work but she would if she 
+could because she enjoyed her job, was good at it, and needed the income.  
+Jack testified that she currently experiences difficulty getting 
+comfortable, either sitting, standing, or lying down, and constantly has to 
+shift.  She testified her injury prevented her from performing her previous 
+duties at Velocity Care due to the extended periods of sitting, standing, 
+bending, lifting, and reaching that were required and the pain those activities 
+caused her.  In order to do her job at Velocity Care, Jack needed someone to 
+help with those tasks, which assistance, she testified, she probably would not 
+be able to get.  Jack stated it made no sense for her to be there, basically, 
+because Velocity Care would have to have someone shadow her when, 
+instead, they could just pay that one person to do the job. 
+ 
+On cross-examination, Jack testified she last worked in October 2015, 
+has not been released by Dr. Kerr to return to work, and had not seen Dr. 
+Kerr since December 2016.  She confirmed she never asked her employer 
+for any help or accommodations to continue work and had not applied for 
+any other jobs.  She did testify, however, that she had applied for Social 
+Security disability and had been denied.  
+ 
+The video deposition of Dr. Kerr was taken during litigation and 
+played for the jury at trial.  He was accepted as an expert in the field of 
+orthopedic surgery with a specialty in treatment of spine damage.  Dr. Kerr 
+testified he has treated Jack and first saw her as a patient in July 2014.  Dr. 
+
+ 
+Kerr reviewed MRIs of Jack’s spine, performed a physical examination and 
+diagnostic testing, and subsequently diagnosed her with a disk bulge at L5-
+S1 and an annular tear at L4-5.  Dr. Kerr explained his ultimate course of 
+treatment was to perform a 2-level 360-degree lumbar fusion on Jack, which 
+he accomplished on November 20, 2015.  He discussed the nature and 
+mechanism of the pain caused by Jack’s spinal injuries.  He testified the 
+surgery was successful and without it, Jack’s tear and bulge would not have 
+healed on its own, but normally this type of procedure only provides about 
+70-75% relief.  Following the procedure, Dr. Kerr recommended Jack 
+undergo sacroiliac injections and also referred her to pain management.  He 
+testified Jack was still experiencing pain associated with her injury at the 
+Eldorado Casino and she may need another surgery in the future to address 
+it. 
+The video deposition of Dr. Larry Stokes, Ph.D., was taken during 
+litigation and played for the jury at trial.  He was accepted as an expert in 
+both vocational rehabilitation counseling and life care planning.  Dr. Stokes 
+performed a vocational rehabilitation assessment and life care plan on Jack.  
+He conducted a two-hour interview with her and approximately two hours of 
+testing.  He testified regarding Jack’s education and job experience, as well 
+as her reported pain and mobility and the fact she has to rely on her children 
+for help completing activities of daily living, including personal care and 
+household work.  He reported he had reviewed Jack’s medical records, the 
+deposition of Dr. Kerr, and the report by the vocational rehabilitation 
+counselor hired by Eldorado.  Dr. Stokes testified he had spoken with Dr. 
+Kerr on the phone regarding Jack’s condition.  Dr. Stokes performed an 
+employability assessment to determine what kind of jobs Jack could perform 
+
+ 
+before and after the accident and concluded the job she had at Velocity Care, 
+where she earned $33,000 per year including benefits, was the highest form 
+of employment she had held and she was earning at her capability/capacity 
+while there.  He further testified that no doctor has released her to work, and 
+Dr. Kerr reported to him that Jack was in too much pain to work.  Dr. Stokes 
+testified he did not believe Jack was employable at the time of trial and more 
+likely than not, she would not be able to return to work in her capacity as an 
+office manager at Velocity Care.  He explained Jack currently has no earning 
+capacity because no one has said she can go back to any kind of work, so she 
+was looking at a 100% loss in earning for the remainder of her work life 
+expectancy.  
+When asked to look on the “bright side,” Dr. Stokes testified that 
+hopefully, the most Jack could probably do would be part-time, light office 
+management work, at approximately 20 hours per week.  He provided a list 
+of jobs he felt Jack could possibly perform part-time in the future, which 
+included an office clerk or receptionist, office manager, administrative 
+assistant, telephone clerk, and/or ticket taker.  He further testified her 
+earning capacity at any of these type of jobs would be between $8,507 and 
+$11,242, which would, at the most optimistic estimate, still give Jack a loss 
+of earning capacity between $21,757 and $24,492 per year.  Dr. Stokes 
+explained that since Jack was still in treatment and trying to improve as well 
+as get additional education, he did not know what Jack’s ultimate outcome 
+would be, particularly if she could get to a point to where she could work in 
+the future.  He further testified that upon reviewing the report of Dr. Carl 
+Goodman, the independent medical examiner hired by Eldorado, he noted 
+Dr. Goodman did not opine whether or not Jack could work.  Dr. Stokes 
+
+ 
+stated he had also reviewed the report of Steve Allison, the physical therapist 
+hired by Eldorado to perform the functional capacity evaluation (“FCE”) of 
+Jack, and the report ultimately concluded Jack did not have the residual 
+functional capacity to safely perform full or unrestricted light or sedentary 
+work.  He explained there are only five categories of work: sedentary, light, 
+medium, heavy, and very heavy, and that sedentary is the easiest physically 
+demanding work, mostly sitting, some standing and walking, with very little 
+lifting.  He explained Allison’s report confirmed the beliefs he already 
+had—Jack would have to have significant modifications to her work setting 
+to be able to work regularly and maintain work.  Dr. Stokes testified that 
+Allison’s report indicated he repeatedly had to stop the test he was 
+administrating on Jack because she could not safely perform the task.  Dr. 
+Stokes stated that ultimately both Allison’s and Dr. Goodman’s reports 
+supported his own position regarding Jack. 
+On cross-examination in his deposition, Dr. Stokes testified that he is 
+not a medical doctor and did not perform a physical examination of Jack.  
+He stated his opinion of Jack’s physical restrictions was based on the 
+information provided to him by Dr. Kerr and Jack and on the results of the 
+FCE performed by Allison, but he did not have an independent opinion 
+about how long Jack’s physical limitations may last.   
+The video deposition of John W. Theriot was taken during litigation 
+and played for the jury at trial.  Theriot was accepted as an expert in forensic 
+economics, forensic accounting, and economic loss valuation.  He testified 
+in his deposition that he had reviewed Jack’s earning records from 2008 to 
+2016, Dr. Stokes’ report, Jack’s deposition, and the deposition of Dr. Kerr, 
+and then compiled an economic loss report based on that information.  The 
+
+ 
+report calculated how much of her salary Jack lost and would lose in the 
+future due to her injury.  Theriot testified that to calculate Jack’s future lost 
+income, he used a generally accepted table that was published in the Journal 
+of Forensic Economics, which calculated work life expectancy based on 
+information provided.  Theriot testified that in Jack’s case, her work life 
+expectancy was 19.24 years, which he thought was very reasonable because 
+Jack was only 41 at the time of trial.  He then multiplied 19.24 by the base 
+wage of $39,766, which was the salary Dr. Stokes reported Jack would have 
+been able to earn had she not been injured and could have completed her 
+associate degree.   
+This method brought Theriot to the conclusion that if Jack was unable 
+to return to work, considering discounts to account for investment earnings 
+and inflation, her future lost earnings would be $692,802.  Using the same 
+method applied to the amount of $11,242 that Dr. Stokes had reported Jack 
+could earn working 20 hours a week, Theriot also calculated that Jack would 
+sustain a future loss of earnings totaling $496,945 if she were able to return 
+to work part time.  Likewise, Theriot testified that assuming Jack could 
+return to work full time making $22,485 per year, her future lost earnings 
+would be $301,069.  Using the base wage of $33,000 instead of the base 
+wage Jack could have earned had she completed her associate degree, 
+Theriot concluded Jack’s future lost wages would be: $574,925 if she did not 
+return to work; $379,067 if she returned part time making $11,242; and, 
+$183,192 if she returned full time earning $22,485.  Theriot testified the 
+work life table he used was the standard and most recent table, at five years 
+old.  Theriot took issue with Eldorado’s economist, who instead, used the 
+average of eight different tables, including the one Theriot used, but who 
+
+ 
+also included a table that was 20 years old and four others that ranged from 
+11 to 16 years old.  Theriot testified on cross-examination in his deposition 
+that when making his calculations for future lost wages, he deferred to the 
+vocational experts with regard to whether or not Jack could return to work. 
+ 
+The defense’s witnesses then testified.  Dr. Carl Goodman was 
+accepted as an expert in orthopedic medicine and testified he was hired by 
+Eldorado to perform an independent medical examination of Jack.  He 
+testified the methodology of his independent medical examinations consists 
+of taking a history from the patient, conducting a physical examination, and 
+reviewing medical records. He testified that it was his opinion Jack could 
+have suffered a small annular tear in her back as a result of the subject 
+incident.  He explained that while he believed Jack was obviously having 
+pain, other than medication for the pain, he did not believe she needed any 
+more treatment, including but not limited to a future surgery or steroid 
+injections. 
+ 
+On cross-examination, Dr. Goodman testified that due to the back 
+injuries Jack sustained at the Eldorado Casino, Jack would have difficulty 
+doing her job working as an office manager at Velocity Care, sitting or 
+standing for eight hours at a time, and turning quickly.  As a result, she 
+would likely miss time from work in the future.  He agreed that to a 
+reasonable medical probability, Jack sustained a permanent injury as a result 
+of the accident at the Eldorado Casino.  
+ 
+Dr. Steve Allison was accepted as an expert in functional capacity 
+evaluations and testified that his FCE of Jack included an interview 
+regarding how the injury occurred, symptoms, and treatment; a review of 
+multiple documents including medical records from Dr. Kerr and Dr. 
+
+ 
+Goodman, MRI, X-ray, and CT reports, a deposition report from Velocity 
+Care, and an economic loss report; a physical examination which consisted 
+of tests measuring range of motion, reflexes, muscle atrophy, and sensation; 
+and, a functional test which assessed safe tolerances to do things such as lift, 
+push, and pull objects of various weights.  Dr. Allison testified he found 
+Jack had a moderate limp, all four motions tested with the lumbar spine were 
+limited and painful, and she had diminished sensation in her left leg.   
+Dr. Allison further testified Jack did have some limitations evident in 
+the functional test, but he thought she could return to work full time 
+performing sedentary to light work with restrictions.  He testified Jack could 
+tolerate sitting a maximum of 5.25 hours a day but not for more than one 
+hour at a time without getting up and walking around.  Dr. Allison testified 
+that with accommodations, Jack could perform the job of office manager, 
+but the physical demands of a specific occupation often vary from job to job.  
+He testified that as Jack described her duties at Velocity Care, she was 
+performing medium work rather than sedentary or light, which he attributed, 
+in part, to her account that she was required to move boxes of paper.  He 
+testified that to return to her former job at Velocity Care, Jack would need 
+accommodations for sitting, standing, walking, carrying and lifting boxes of 
+paper, pushing and pulling a 4-wheel cart with boxes of files, and for 
+physical activities such as stooping, squatting, and kneeling.  He further 
+testified that Jack’s description of her duties at Velocity Care was consistent 
+neither with his own experience of the duties of an office manager nor with 
+how the dictionary of occupational titles classifies that occupation.  Dr. 
+Allison also testified Dr. Kerr typically accepted his recommendation as to 
+whether one of his patients was able to return to work. 
+
+ 
+ 
+On cross-examination, Dr. Allison testified that based on the physical 
+demands of office manager contained in the dictionary of occupational titles, 
+Jack did not have the functional ability to perform 33% of the general job of 
+office manager.  However, he testified that based on the information 
+provided by Jack regarding her duties as office manager at Velocity Care, 
+specifically, she did not have the functional ability to perform 60% of her 
+former duties at Velocity Care.  He testified that more likely than not, Jack 
+had reached maximum functional improvement with her injuries and the 
+work restrictions being placed on her should be considered permanent.  
+ 
+Kristan Gilliam testified that she was the Director of Oversight and 
+Management for Velocity Care.  She testified she worked with Jack and at 
+that time, she was the practice administrator and Jack’s direct supervisor.  
+She described Jack’s general duties to be helping to train the receptionists, 
+be there for the receptionists if they need anything, and taking care of any 
+patient-related issues which could involve billing with their insurance or 
+medical records.  On cross-examination, Gilliam testified Jack was a 
+reliable, prompt, well-respected employee who had good relationships with 
+other employees and had never been reprimanded or received an 
+unsatisfactory evaluation.  
+ 
+Kenneth Brister was accepted as an expert in vocational rehabilitation 
+and testified that he was hired by Eldorado to perform an assessment of 
+Jack.  He stated his assessment included a review of Jack’s medical records, 
+her Social Security Administration records, and multiple deposition 
+transcripts, including that of Jack.  He also interviewed Jack and obtained 
+information regarding her educational background, work history, hobbies, 
+special interests, details of the injury and medical treatment since, and 
+
+ 
+problems she was continuing to have from a physical standpoint.  After 
+gathering pertinent information and reviewing pertinent documents, Brister 
+then completed a transferable skills analysis to determine what types of jobs 
+Jack would be able to do in the future based on the information obtained.  
+Next, he conducted some limited vocational research to determine, based on 
+the transferable skills analysis, what types of wages would be available to 
+Jack in her geographical location.   
+Brister testified that based on his review of Dr. Allison’s report and 
+the medical information he understood to come from Dr. Kerr, it was his 
+opinion Jack should be able to return to work in job positions designated as 
+sedentary to light duty, with some limitations in both of those areas.  He 
+testified she could find a position that accommodated her limitations or 
+engage in self-accommodating activities such as asking a coworker for 
+assistance, or standing for a few minutes after sitting for a while.  Brister 
+testified the job of office manager typically would provide the flexibility to 
+assign certain activities to other coworkers or do self-accommodating 
+activities.  He also stated employers have become more willing to provide 
+accommodations to their employees.  He testified that other than office 
+manager, Jack could also perform the job of receptionist, unit clerk, and 
+medical coder, which are all jobs Jack held prior to working as an office 
+manager at Velocity Care.  Additionally, he testified Jack could work as a 
+medical secretary, general secretary, appointment clerk, information clerk, 
+hospital admitting clerk, billing clerk, insurance clerk, loan clerk, and in 
+dispatcher type positions. 
+ 
+On cross-examination, Brister testified he did not do a life care plan 
+for Jack and had no opinion as to her future medical needs.  He stated that 
+
+ 
+while he had reviewed Dr. Goodman’s deposition, he was not present for his 
+live testimony at trial and did not know specifically how Dr. Goodman 
+testified.  Brister stated he had reviewed Dr. Goodman’s report, but he did 
+not rely on it or include it in his own report because Dr. Goodman’s report 
+did not contain an opinion regarding whether Jack could return to work.  
+Furthermore, Brister testified Dr. Kerr’s indication that Jack may need 
+another surgery in the future was also not included in his report.  He stated 
+he was not sure if he had that information at the time of rendering his report, 
+but if he did, it should have been included and its absence was an oversight.  
+He testified his findings were also based on Dr. Allison’s FCE and agreed 
+that based on his findings, Jack had not been released to safely perform 
+unrestricted sedentary work, which is the lowest physically demanding type 
+of work.  
+He confirmed he had noted in his report that Jack had explained to 
+him that even with self-accommodations at Velocity Care, her pain level was 
+such that she could not perform her job.  Brister testified his opinion was 
+Jack had not suffered a loss of earning capacity.  However, he further 
+testified his opinion would likely change if both Jack’s treating physician 
+and the independent medical examiner indicated she could not return to 
+work, in which case, she would have a loss of earning capacity.  He also 
+testified that if Jack could not get her degree because of this accident, she 
+would have a loss of future earning capacity.  
+ 
+Tim Shaughnessy was accepted as an expert economist and testified 
+that he was hired by Eldorado to evaluate Jack’s claim for damages.  He 
+explained his method for determining Jack’s future lost wages required 
+taking the difference between Jack’s anticipated earning during her work life 
+
+ 
+expectancy in the earning path she was in prior to her injury and the earning 
+path that she was in after her injury.  He then translated that difference into a 
+present value that if put into a bank account where it would earn interest, 
+would equal that difference over the span of Jack’s work life.  He testified 
+that based on Brister’s report and testimony, Jack has no loss of earning 
+capacity; therefore, it was his opinion that she, accordingly, had no loss of 
+future earnings.   
+Analysis 
+ 
+A review of the record in its entirety shows the jury’s award for future 
+lost wages was not manifestly erroneous or clearly wrong.  Eldorado asserts 
+the jury’s award was in error due to the “overwhelming evidence” that Jack 
+could return to work.  The jury was in fact presented with an overwhelming 
+amount of evidence at this trial from very educated, qualified, and 
+experienced experts on both sides.  While only that testimony relevant to the 
+assignments of error has been summarized herein, we have reviewed the 
+record in its entirety.  The record clearly shows that Jack is still in treatment 
+and striving to resolve her pain.  There is simply no way for anyone to know 
+what type of work she will be able to perform in the future.  However, there 
+is clearly a reasonable factual basis in the record to support the jury’s award 
+of future lost wages.  
+First, we note there was uncontroverted testimony that Jack is still 
+experiencing pain, making it difficult, or impossible, for her to resume her 
+former employment duties.  There was no testimony showing Jack could 
+return to unrestricted, full-time work without the necessity of 
+accommodations in the form of self-accommodating activities, 
+accommodations made by her employer, or assistance from coworkers. 
+
+ 
+Instead, there was testimony from both sides that Jack can neither safely 
+perform all her previous duties as office manager at Velocity Care, nor can 
+she safely perform even the least physically demanding type of work—
+sedentary work—without restrictions and accommodations.  Likewise, 
+testimony from both sides showed that more likely than not, Jack’s injury is 
+permanent.  
+After hearing the ample expert testimony and relying on their 
+testimony, the jury had a choice between two permissible views of the 
+evidence: (1) Jack can go on to earn the same income she would have earned 
+had she not been injured at the Eldorado Casino; or (2) she cannot.  The jury 
+was permitted to credit the testimony of Jack’s experts over those of 
+Eldorado and was absolutely reasonable in determining Jack will suffer lost 
+wages in the future due to the effect her injuries sustained at the Eldorado 
+Casino will, more likely than not, continue to have on her ability to work.  
+We further note that the jury’s award was less than half of the amount of Dr. 
+Stokes’ highest estimation of Jack’s future lost earnings.  Loss of earning 
+capacity/future lost wages is an inherently speculative determination, thus 
+the jury is given particularly great discretion in assessing those damages.  In 
+light of the record reviewed in its entirety, the jury’s award of future lost 
+wages to Jack was not manifestly erroneous or clearly wrong.  This 
+assignment of error is without merit.  
+Application of Collateral Source Rule to  
+Insurer-Negotiated Write-Offs 
+ 
+In its third assignment of error, Eldorado asserts the trial court erred in 
+its application of the collateral source rule as to the written-off portion of 
+Jack’s past medical expenses.  When a trial court rules against the 
+
+ 
+admissibility of any evidence, it shall either permit the party offering such 
+evidence to make a complete record thereof, or permit the party to make a 
+statement setting forth the nature of the evidence.  La. C.C.P. art. 1636(A).  
+It is incumbent upon the party who contends its evidence was improperly 
+excluded to make a proffer, and if it fails to do so, it waives the right to 
+complain of the exclusion on appeal.  Murphy v. Savannah, 51,906 (La. 
+App. 2 Cir. 4/11/18), 246 So. 3d 785. 
+Following the trial court’s denial of its motion in limine, Eldorado 
+made no proffer of Jack’s unredacted medical bills or any other evidence of 
+the amounts of the write-offs.  Therefore, Eldorado waived its right to 
+complain of this exclusion on appeal, and the issue of the trial court’s 
+application of the collateral source rule to the insurer-negotiated write-offs is 
+not properly before this court.  This assignment of error is without merit.  
+CONCLUSION 
+ 
+For the foregoing reasons, we affirm the judgment of the trial court in 
+favor of the plaintiff, Yasheka Jack.  All costs of appeal are assessed to the 
+defendants, Eldorado Casino Shreveport Joint Venture, L.L.C., Eldorado 
+Shreveport #1, L.L.C., and Eldorado Shreveport #2, L.L.C. 
+ 
+AFFIRMED. 

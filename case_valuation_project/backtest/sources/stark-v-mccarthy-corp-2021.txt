@@ -1,0 +1,877 @@
+1 
+ 
+IN THE SUPREME COURT OF THE STATE OF IDAHO 
+ 
+Docket No. 47749 
+ 
+MCCARTHY CORPORATION, an Idaho 
+corporation, 
+ 
+     Plaintiff-Counterdefendant- 
+     Appellant, 
+ 
+v. 
+ 
+STARK INVESTMENT GROUP, LLC, an 
+Idaho limited liability company; CRAIG 
+STARK, a married man;  
+ 
+     Defendants-Counterclaimants- 
+     Respondents, 
+ 
+and 
+ 
+U.S. BANK, N.A., a national association, 
+ 
+     Defendant-Respondent. 
+)
+)
+)
+)
+)
+)
+)
+)
+) 
+) 
+) 
+) 
+) 
+) 
+) 
+) 
+) 
+) 
+) 
+) 
+ 
+ 
+Boise, May 2021 Term 
+ 
+Opinion filed: June 24, 2021 
+ 
+Melanie Gagnepain, Clerk  
+ 
+Appeal from the District Court of the First Judicial District of the State of Idaho, 
+Kootenai County. Richard S. Christensen, District Judge. 
+ 
+The judgment of the district court is affirmed. 
+ 
+Lukins & Annis, PS, Coeur d’Alene, for Appellant. 
+ 
+Ramsden, Marfice, Ealy & De Smet, LLP, Coeur d’Alene, for Respondents. 
+ 
+                     _______________________________________________ 
+ 
+MOELLER, Justice. 
+ 
+ 
+Craig Stark entered into a contract with McCarthy Corporation to construct a storage 
+facility for recreational vehicles and boats. The relationship began amicably but quickly turned 
+sour after McCarthy sent Stark an invoice for work Stark believed he had already paid for in full. 
+After the parties were unable to resolve their dispute, Stark terminated McCarthy’s contract.  
+McCarthy then filed a lien against Stark’s property and brought suit for breach of contract and to 
+
+2 
+ 
+foreclose its lien. Stark, Stark Investment Group, and U.S. Bank, Stark’s construction lender on 
+the project, counterclaimed for breach of contract, breach of the implied covenant of good faith 
+and fair dealing, fraudulent misrepresentation, slander of title by the recording of an unjust lien, 
+and breach of the Idaho Consumer Protection Act (“ICPA”).  
+After a lengthy bench trial, the district court largely agreed with Stark’s counterclaims 
+and dismissed McCarthy’s complaint. On the counterclaims, the district court found: (1) 
+McCarthy breached the contract; (2) McCarthy breached the implied covenant of good faith and 
+fair dealing through its erroneous billing practices, by not negotiating the billing dispute in good 
+faith, and by improperly requesting payment upfront for services; and, (3) McCarthy violated the 
+ICPA by engaging in misleading, false, or deceptive practices. The district court awarded 
+damages to Stark under the breach of contract counterclaim and the ICPA violation. It also 
+awarded Stark his reasonable attorney fees. McCarthy appealed the district court’s findings, 
+damages award, and attorney fees award.  
+I. FACTUAL AND PROCEDURAL BACKGROUND 
+Factual Background 
+Craig Stark (“Stark”) was employed at a nuclear power plant in Texas. As he neared 
+retirement in the summer of 2017, Stark decided to retire to Idaho. Stark had some experience in 
+real estate development, having built six homes, a storage facility in Iowa, and a Recreational 
+Vehicle (RV) park in Texas. In March of 2017, Stark purchased approximately twenty-five acres 
+in Kootenai County, Idaho. Stark planned to construct an RV and boat storage facility 
+(hereinafter “the Project”) to provide him with retirement income. Before Stark purchased the 
+property, he met with a civil engineer, Scott McArthur, from h2 Surveying and Engineering 
+(“h2”). Stark employed McArthur and h2 to survey the property, prepare a site disturbance plan, 
+assist with obtaining a conditional use permit (CUP), and prepare the Project’s plans and 
+specifications. Stark also contracted with McCarthy Corporation (“McCarthy”)—a registered 
+Idaho contractor relatively new to the excavating business—for the site preparation. McArthur 
+introduced Stark to Jason Cheyne, a project manager and heavy equipment operator for 
+McCarthy. Cheyne became McCarthy’s project manager on the Project.  
+Stark acted as his own general contractor. This created challenges because Stark resided 
+in Texas until August of 2017. As a result of the logistical challenges, Stark asked McArthur to 
+monitor the Project in his absence. This request resulted in dual responsibilities for McArthur 
+
+3 
+ 
+because he was already acting as the quantities engineer with h2 so that McCarthy could prepare 
+invoices for payment. Yet, at the same time, McArthur became Stark’s eyes, ears, and sometimes 
+voice on the Project.  
+The Project was divided into two “phases.”  Phase 1 consisted of preparing the land to 
+construct four buildings, an office, fencing, and parking. Phase 2 consisted of constructing five 
+additional storage facilities. The contract between Stark and McCarthy contained a typical 
+“change order” provision, which required any significant changes in the plans to be approved in 
+writing in advance by Stark:  
+Change Orders. Contractor agrees to verbal change orders provided the amount 
+does not exceed $1000 in value; the change order amount is emailed to the 
+Owner; and the Owner accepts the change Order amount by email or writing. The 
+parties agree that any change order exceeding $1000 in value shall be signed by 
+Owner and delivered to Contractor. 
+Prior to entering into the contract, Cheyne dug four test holes on the property for 
+McArthur to analyze and determine whether there was sufficient quantity and quality of earthen 
+materials on-site to be used for the Project’s site preparation. The test holes would also be used 
+to calculate an engineer’s estimated quantities of stripped waste and other materials necessary to 
+complete Phase 1 of the Project. Cheyne and McCarthy would also use these calculations to 
+prepare McCarthy’s bid on the Project. McCarthy’s bid on the entire Project entailed 35 
+individual bid items totaling $413,551.54. Much of the conflict in this case revolves around three 
+specific bid items, enumerated as items 3, 14, and 19: 
+ 
+Bid Item # 
+Bid Item Description 
+Estimated Units Unit Price 
+Total Item Price 
+3 
+Stripped Waste Material 
+18,878 cubic 
+yds. 
+$2.50 
+$47,195.69 
+4 
+Import/Suitable/Structural 
+Material (compacted in 
+place) 
+ 
+15,602 cubic 
+yds. 
+ 
+$4.03 
+ 
+$62,877.67 
+19 
+4” compacted base rock – 
+¾” crushed/angular rock 
+(placed and compacted) 
+ 
+2,867 tons 
+ 
+$17.70 
+ 
+$50,571.50 
+ 
+
+4 
+ 
+The Project plans called for McCarthy to first strip the waste material from the property (Bid 
+item 3), then replace it with fill material (Bid item 4), and finally, cover part of the area with 4 
+inches of compacted base rock and 3/4 inches of crushed angular rock (Bid item 19). Regarding 
+Bid item 4, it was anticipated that this would be accomplished by McCarthy taking material from 
+an on-site borrow pit to raise the building pad elevations to satisfy the CUP requirements. Bid 
+item 19 was intended to serve as the subbase layer for the asphalt.  
+The first step of the site preparation called for removing the trees on the property. 
+McCarthy subcontracted with Mendenhall Logging to complete this work, which was completed 
+by the beginning of April 2017. The next step entailed stripping the future building sites of 
+vegetation and topsoil and excavating an on-site borrow pit. The on-site borrow pit would be 
+used to mine materials that would, in turn, be used on the property to raise the building and 
+parking area elevations to meet the CUP requirements. Cheyne subcontracted this work to a 
+Montana excavating company, Basin Industrial Services, Inc., (“Basin”). Basin was not licensed 
+in Idaho.  
+On May 18, 2017, McCarthy sent Stark Invoice No. 2435 for the work performed on Bid 
+items 3 and 4. The invoice totaled $112,725.77, which closely resembled the original bid 
+amounts. Stark paid it in full on May 22, 2017.  
+During excavation of the on-site borrow pit, Cheyne and Basin came to the conclusion 
+that there would not be enough fill material generated from the on-site borrow pit to adequately 
+raise the elevations of the building sites and parking areas consistent with the CUP. Cheyne 
+started to import material from a nearby, alternative, off-site pit, known as the “Swartout Pit.” 
+Cheyne took this course of action because it was the least expensive option for obtaining 
+material and it would result in less delay than other options.  
+Cheyne claimed he told McArthur as of May 22, 2017, that he decided to use the 
+Swartout Pit for more fill material. Cheyne believed McArthur to be in agreement with this 
+decision and McArthur had authority from Stark. McArthur asserted otherwise. McArthur 
+testified at trial that he did not agree to, nor did he have knowledge that Cheyne was going to use 
+the Swartout Pit for more fill material. McArthur’s understanding was that there was enough 
+material at the on-site borrow pit to complete Phase 1 of the Project, i.e., bring the initial 
+building pad elevations up to CUP requirements. McArthur understood Cheyne’s concerns about 
+lack of material at the on-site borrow pit as referring to Phase 2 of the Project. McArthur further 
+
+5 
+ 
+testified that he had no knowledge that Cheyne used the Swartout Pit for material until after the 
+fact. Stark was not informed that Cheyne was importing material from the Swartout Pit.  
+On July 13, 2017, Stark received Invoice No. 2481, which entailed Bid items 19, 25, 30, 
+and 32. Bid item 19 closely resembled McCarthy’s original bid: 4 inches of compacted base rock 
+and ¾ inches of crushed angular rock, placed and compacted. McCarthy charged Bid Item 19 as 
+2,867 tons at $17.70206 per ton, for a total item cost of $50,751.80. Five days later, on July 18, 
+2017, Stark paid Invoice 2481 in full.  
+Despite Stark and McArthur not agreeing to import additional fill material from the 
+Swartout Pit, McArthur provided calculations for the volume of earthen material removed from 
+the site, the amount of material the on-site borrow pit provided, and for the volume of material 
+imported from the Swartout Pit. He provided these calculations to McCarthy on July 21, 2017. 
+McArthur calculated that McCarthy stripped 21,475 cubic yards of material from the property, 
+the on-site borrow pit provided 13,353 cubic yards of fill material, and McCarthy imported 3,584 
+cubic yards of material from the Swartout Pit. McArthur used a 12% material loss calculation 
+due to compaction for both the on-site fill material and the imported fill material. When 
+McArthur explained these calculations to McCarthy in an email, McArthur noted that the 3,584 
+cubic yards of imported material from the Swartout Pit was the number provided by McCarthy. 
+The calculations revealed the Project used a total of 16,937 cubic yards of fill material.  
+McCarthy then used McArthur’s calculations to generate Invoice No. 2488, which totaled 
+$158,980.00. Stark received Invoice 2488 on July 25, 2017. The invoice included a single line 
+item for 3,584 tons of “4 [inch] compacted base rock (concrete slab)—¾ [inch] crushed/angular 
+rock” at a unit rate of $30.00 for a total cost of $107,520.00. This line item charge concerned 
+Stark. He questioned this amount with Robert McCarthy (hereinafter individually “Robert”), 
+president of McCarthy, as Stark had already paid $65,530.08 for 15,602 cubic yards of import 
+material compacted in place (Bid Item 4) through Invoice No. 2435 and $50,751.80 for 2,867 
+tons of 4 inch compacted base rock and ¾ inch crushed angular rock (Bid Item 19) through 
+Invoice No. 2481. The new charge seemed identical to Bid item 19, which Stark had already paid 
+in full. Moreover, the unit price was higher than either Bid item 4 or 19 in the original contract.  
+Stark did not pay Invoice 2488. Stark testified that when he confronted Robert about 
+Invoice 2488, Robert responded by stating, “just pay it now and we’ll figure it out later.” Stark 
+explained that he did not pay Invoice 2488, because he was required by his lender, U.S. Bank, to 
+
+6 
+ 
+only submit accurate invoices for payment. As the district court noted, this “discrepancy in 
+billing became the irritation that became the boil that infected the parties’ heretofore positive 
+relationship.” McCarthy now concedes Invoice 2488 contained errors.  
+On August 22, 2017, McCarthy sent Stark Invoice No. 2504, totaling $121,620.55. This 
+invoice included a charge for 6,451.2 tons of “import converted to tons” at a unit rate of $9.00 
+for a total amount of $58,060.80. At this time, McCarthy also informed Stark that the paving 
+company McCarthy hired as a subcontractor required half of the paving cost—$99,000—upfront, 
+and Stark needed to pay McCarthy for this. The following day, Robert provided Stark with 
+another invoice but renumbered it as “Invoice 2488,” in the increased amount of $238,986.98. 
+This invoice included a similar “import converted to tons” charge, but also included a “to be 
+completed” charge of $99,000 for the paving company’s upfront fee.  
+After receiving the increased invoice, the notice to pay the paving costs upfront, and the 
+parties’ failure to resolve the billing discrepancies, Stark’s counsel sent McCarthy a termination 
+letter on August 25, 2017. The letter reasoned that Stark was terminating the contract for 
+McCarthy’s material breach of the contract, but the letter did not set forth the nature of the 
+material breach. Despite the termination, McCarthy continued to send Stark revised versions of 
+Invoice 2488. On September 1, 2017, Stark received an invoice for $162,087.56. This invoice 
+included a slight increase for “import converted to tons” in the amount of $58,060.80 and a not-
+before-seen, one line item charge for “6,554.95” cubic yards of “additional borrow” at a unit 
+price of $4.03 per cubic yard for a total of $26,416.45. On September 11, 2017, Stark received a 
+subsequent invoice in the lesser amount of $145,706.56. It included a slightly lesser charge for 
+“import converted to tons” at $55,000 but the same “additional borrow” charge of $26,416.45.  
+On September 22, 2017, Stark sent McCarthy a payment of $49,399.99 with the 
+condition that McCarthy execute an unconditional lien release for all labor, material, and 
+services rendered through September 22, 2017. Stark also included a detailed letter that 
+explained why he believed he owed McCarthy only $49,399.99 from the latest invoice of 
+$145,706.56. Stark agreed to pay McCarthy for the additional 3,200 cubic yards of fill material it 
+imported from the Swartout Pit, at the contract rate used for other fill material. McCarthy 
+rejected the payment and conditions. On this same day, McCarthy filed a Claim of Lien on 
+Stark’s property for $145,706.56 with the Kootenai County Recorder as Instrument No. 
+
+7 
+ 
+2612854000. On October 5, 2017, Stark sent McCarthy an identical payment of $49,399.99, but 
+without conditions. McCarthy accepted the payment.  
+On October 23, 2017, Stark received another invoice in the increased amount of 
+$176,691.71. The “import converted to tons” charge increased from 6,451.2 tons to 8,780.4 tons 
+with an increased unit rate of $10.95 per ton for a total charge of $96,145.38. The amount of 
+“additional borrow” in this invoice increased from 6,554.95 cubic yards to 17,612 cubic yards 
+for a total charge of $70,976.36. This invoice was practically identical to the last invoice, except 
+for the increase in “import converted to tons” and “additional borrow.” The total invoice 
+calculated at $226,031.70 but stated the amount due was $176,691.71; presumably because it 
+applied Stark’s final $49,399.99 payment generally instead of specifically to certain line items, 
+as stated in Stark’s letter. McCarthy had not performed any additional work or provided any 
+additional materials since its termination on August 25, 2017. Stark did not make another 
+payment.  
+After the dispute began between Stark and McCarthy, Robert took over direction of the 
+subsequent invoices, including the multiple renditions of Invoice 2488 and Invoice 2504. The 
+following is a summary of the invoices McCarthy sent to Stark:  
+Invoice Number 
+Invoice Date/Date Received 
+Invoice Amount 
+2488 
+07/25/2017 
+$158,980.00 
+2504 
+08/22/2017 
+$121,620.55 
+2488 
+08/23/2017 
+$238,986.98 
+2488 
+09/01/2017 
+$162,087.56 
+2488 
+09/11/2017 
+$145,706.56 
+2488 
+10/23/2017 
+$176,691.71 
+ 
+To complete the Project, Stark contracted with Waldo Construction, Inc., and other 
+subcontractors. Due to McCarthy’s lien on the property, Stark was required by U.S. Bank to 
+extend his construction loan at least three times.  
+Procedural History 
+McCarthy brought suit against Stark, Stark Investment Group, LLC, and U.S. Bank, 
+seeking to (1) foreclose the lien it placed against Stark’s property and (2) seek damages for 
+breach of contract. McCarthy also requested attorney fees pursuant to Idaho Code section 12-
+
+8 
+ 
+120(3). Stark answered McCarthy’s complaint and counterclaimed for breach of contract, breach 
+of the implied covenant of good faith and fair dealing, fraudulent misrepresentation, slander of 
+title and recordation of unjust lien claim, and breach of the Idaho Consumer Protection Act 
+(ICPA). Stark requested attorney fees under Idaho Code section 12-120(3), and under Idaho 
+Code section 48-608(1) of the ICPA. Before trial, Stark voluntarily dismissed his counterclaim 
+for fraudulent misrepresentation. The case proceeded to a seven-day bench trial.  
+Following trial, the district court determined that McCarthy (1) breached the contract by 
+failing to obtain a written and signed change order for importing materials from the Swartout Pit, 
+and (2) breached the covenant of good faith and fair dealing through McCarthy’s billing 
+practices and demand for the paving costs upfront. The district court found that McCarthy failed 
+to present a written change order at trial and that McCarthy did not meet its burden to show that 
+McArthur had knowledge of the use of materials from the Swartout Pit so that he could waive 
+the change order provision. “The only fact that is clear to the [district] [c]ourt is that there was no 
+change order approved, or even requested, as to the import and use of the materials from the 
+Swartout Pit.” Furthermore, the district court determined that McCarthy breached the implied 
+covenant of good faith and fair dealing in three ways: (1) over-billing through its multiple 
+invoices; (2) Robert’s “cavalier” comment to Stark to “just pay the invoice and work it out later”; 
+and (3) McCarthy’s demand for payment for paving services upfront when the work had not 
+started, the paving contractor did not require payment upfront, and the contract only required 
+payment for services actually performed.  
+The district court granted some of the breach of contract damages requested by Stark. 
+The district court found that Stark had met his burden by showing that completion of the Project 
+cost an additional $202,090.81. By terminating McCarthy’s employment, Stark avoided paying 
+$150,329.98 to McCarthy to complete the Project. Therefore, the district court concluded that 
+because the Project was completed at an additional $51,760.83, Stark was entitled to a judgment 
+in that amount.  
+Next, the district court addressed McCarthy’s claim to foreclose its lien on Stark’s 
+property. The district court noted that “the lien claimant bears the burden of presenting 
+substantial and competent evidence that the claimed labor and materials which are the subject of 
+the lien were actually incorporated into the land which is subjected to the lien.” The district court 
+concluded that McCarthy did not meet this burden by (1) failing to reconcile Invoice 2488 or the 
+
+9 
+ 
+four subsequent revised invoices, (2) not supporting or explaining the original lien amount, and 
+(3) failing to account for the increased amended lien amount after Stark made a payment of 
+almost $50,000. Although much of the trial testimony was in conflict, the district court stated: 
+“When comparing the testimony of Stark to the testimony of Rob McCarthy, the [district court] 
+finds the former to be more credible and convincing than the latter.” Accordingly, the district 
+court ordered McCarthy’s amended lien be “removed.”  
+Turning to Stark’s remaining counterclaims, the district court denied Stark’s 
+counterclaim for slander of title. The district court concluded that Stark’s action for slander of 
+title could only succeed if Stark proved that McCarthy had no basis for the entire amount of its 
+lien claim; it was not enough to show the lien claim was partially inaccurate. Although Stark was 
+successful in defending against McCarthy’s lien claim, he did not show the entire amount of the 
+lien claims were filed in bad faith and with a reckless disregard for the truth. The district court 
+concluded that Stark essentially needed to show the lien claim was done with malice as to the 
+entire amount. The district court noted that McCarthy was new to site-preparation work and had 
+never handled anything similar to this Project. “Although it may have been irresponsible for 
+McCarthy to take on the Stark project, its poor decision making; its failure to provide proper 
+invoices; and its customer neglect do not automatically translate into ‘malice’ for the entire sum 
+set forth in the claims of lien.” (Emphasis in original).  
+ 
+Finally, the district court addressed Stark’s counterclaim that McCarthy violated the 
+ICPA under Idaho Code section 48-603(17). The ICPA prohibits unfair methods and practices, 
+including “engaging in any act or practice which is otherwise misleading, false, or deceptive to 
+the consumer.” I.C. § 48-603(17). Stark alleged McCarthy’s false invoices, dishonest demand for 
+money upfront for paving work, and “bullying” of McArthur fall within the prohibited conduct 
+of the statute. The district court agreed with Stark only on the first two allegations.  
+As was shown by the numerous Invoice(s) No. 2488, McCarthy was billing for 
+items it didn’t properly quantify and was attempting by the same course of action 
+to bill for what Stark had already paid for. Compounding the deceit was Rob 
+McCarthy’s response and attitude of “just pay the bill and we’ll work it out later,” 
+when confronted by Stark about the overbilling. 
+Regarding McCarthy’s request to Stark to pay for the paving work upfront, McCarthy threatened 
+to hold up the Project unless Invoice 2488 was paid. Stark refused to pay Invoice 2488 because 
+of legitimate concerns that went unaddressed by McCarthy. Instead, McCarthy then concocted a 
+
+10 
+ 
+rouse that the paving company was requiring 50% upfront costs for the asphalt and that Stark 
+needed to pay for that. However, at trial, McCarthy presented no independent or corroborating 
+evidence that the asphalt company asked for a 50% down payment. The district court found 
+McCarthy’s actions to be a misleading or deceptive act, likely to entice Stark to pay McCarthy 
+more money.  
+ 
+The ICPA allows a person to recover ascertainable losses as damages due to an unlawful 
+practice. I.C. § 48-608(1). Here, the district court reasoned that McCarthy’s unfair billing 
+practices led to Stark’s ascertainable losses. The wrongful billing by McCarthy, and its 
+unwillingness to correct it, coupled with the misleading directive to Stark to pay for the paving 
+services upfront, led to Stark’s termination of McCarthy. The district court found that with the 
+billing issues unresolved, McCarthy placed a lien on Stark’s property and filed a lien foreclosure 
+suit against Stark and U.S. Bank. McCarthy’s action required Stark to defend U.S. Bank in this 
+matter, which caused it to incur additional construction loan costs, and additional inspection fees. 
+Furthermore, due to McCarthy’s lien, U.S. Bank required Stark to place $265,037.55 as 
+collateral, into a non-interest bearing account with U.S. Bank from November 10, 2017, through 
+trial.  
+At trial, Stark presented evidence that the costs to indemnify and defend U.S. Bank were 
+$4,646.70. The additional construction loan costs were $2,050.00 and the two inspection fees 
+totaled $900.00. Gavin Mobraten, a banker at U.S. Bank, testified at trial that the requirement of 
+Stark to deposit money into a collateral non-interest account, the indemnity and defense costs, 
+extra loan costs, and inspection fees could have been avoided but for McCarthy’s lien. Mobraten 
+also testified that if Stark had put $265,000.00 into an investment account in 2017, instead of the 
+non-interest account required by U.S. Bank, he could have reasonably expected an interest return 
+rate of 5-7%. The district court accepted Stark’s evidence on the defense and indemnification 
+costs, the extra construction loan costs, and the inspection fees as ascertainable damages under 
+the ICPA. The district court also found Mobraten’s testimony persuasive but used the lower 5% 
+return to calculate Stark’s missed interest opportunity because of the collateral non-interest 
+account requirement. The district court calculated that Stark missed the opportunity to earn 
+$26,503.76 in interest because of McCarthy’s lien. Therefore, the district court awarded Stark a 
+total of $34,100.46 in damages under the ICPA.  
+
+11 
+ 
+ 
+Stark timely requested attorney fees. McCarthy opposed his request. Initially, the district 
+court denied Stark’s request in part because it requested attorney fees on work performed on 
+behalf of U.S. Bank and Stark Investment Group, LLC. The district court reasoned that there was 
+no contract or commercial transaction between McCarthy and U.S. Bank or Stark Investment 
+Group, LLC. Therefore, the district court allowed Stark to resubmit a cost bill for just Stark’s 
+attorney fees and costs.  
+Stark timely filed an amended memorandum of costs and attorney fees. The district court 
+then awarded attorney fees under Idaho Code section 12-120(3) and Idaho Code section 48-
+608(5). First, the district court determined Stark was entitled to attorney fees under Idaho Code 
+section 12-120(3) because the case was a civil action to recover on a contract relating to the 
+purchase or sale of goods and professional services. The contract was a commercial transaction 
+not for household or personal purposes. Stark was also entitled to attorney fees under the ICPA 
+because of his successful counterclaim. The district court awarded Stark $129,434.00 in attorney 
+fees and $4,535.33 in costs.  
+McCarthy timely filed a notice of appeal, assigning error to the district court as follows: 
+(1) its conclusion that McCarthy failed to demonstrate it is owed any money by Stark to 
+foreclose its lien; (2) its finding that McCarthy breached the parties’ contract; (3) its finding that 
+McCarthy violated the ICPA; (4) its decision to award Stark damages under the ICPA; and, (5) 
+its decision to award Stark attorney fees.  
+II. STANDARD OF REVIEW 
+The applicable standard of review regarding a trial court’s factual findings and legal 
+conclusions after a bench trial was explained in Caldwell Land and Cattle, LLC v. Johnson 
+Thermal Systems, Inc.:  
+Review of a trial court’s conclusions following a bench trial is limited to 
+ascertaining whether the evidence supports the findings of fact, and whether the 
+findings of fact support the conclusions of law. Borah v. McCandles, 147 Idaho 
+73, 77, 205 P.3d 1209, 1213 (2009) (citing Benninger v. Derifield, 142 Idaho 486, 
+488-89, 129 P.3d 1235, 1237-38 (2006)). This Court will not set aside a trial 
+court’s findings of fact unless the findings are clearly erroneous. Id. Clear error 
+will not be deemed to exist if the findings are supported by substantial and 
+competent, though conflicting, evidence. Mortensen v. Berian, 163 Idaho 47, 50, 
+408 P.3d 45, 48 (2017) (quoting Pandrea v. Barrett, 160 Idaho 165, 171, 369 P.3d 
+943, 949 (2016)). Substantial and competent evidence exists [i]f there is evidence 
+in the record that a reasonable trier of fact could accept and rely upon in making 
+the factual finding challenged on appeal. . . . Id.  
+
+12 
+ 
+165 Idaho 787, 795, 452 P.3d 809, 817 (2019) (internal quotations omitted).  
+“ ‘An award of attorney fees and costs is within the discretion of the trial court and 
+subject to an abuse of discretion standard of review.’ ” Nye v. Katsilometes, 165 Idaho 455, 459, 
+447 P.3d 903 907 (2019) (quoting Ballard v. Kerr, 160 Idaho 674, 716, 378 P.3d 464, 506 
+(2016)). When this Court reviews a trial court’s discretionary decision, it applies a four-prong 
+test to determine whether there was an abuse of discretion: whether the trial court “(1) correctly 
+perceived the issue as one of discretion; (2) acted within the outer boundaries of its discretion; 
+(3) acted consistently with the legal standards applicable to the specific choice available to it; 
+and (4) reached its decision by the exercise of reason.” Lunneborg v. My Fun Life, 163 Idaho 
+856, 867, 421 P.3d 187, 198 (2018). 
+III. ANALYSIS 
+A. The district court’s finding that McCarthy failed to establish that it was owed money by 
+Stark for labor, materials, and services on the Project is supported by substantial and 
+competent evidence.  
+McCarthy asserts that it is owed $105,715.351—$96,145.38 for import material and 
+$9,570.00 for six specific items: (1) $500 for storm pipes; (2) $4,750.00 for dry utility trenching; 
+(3) $2,500 for the final mobilization payment; (4) $1,000 for compaction testing; (5) $330 for 
+compacted base rock; and, (6) $500 for a septic permit and test holes. McCarthy contends that 
+the district court erred by concluding that McCarthy failed to show it was owed money by Stark 
+for labor, materials, and services performed in order to foreclose its lien. We affirm the district 
+court’s finding that McCarthy failed to meet its burden. 
+“ ‘The right of a materialman to assert a lien against a structure for which materials have 
+been furnished is a right granted and therefore determined by statute.’ In Idaho, the right exists in 
+I.C. §§ 45-501 and 505.” Sims v. ACI Northwest, Inc., 157 Idaho 906, 342 P.3d 618, 621 (2014) 
+(quoting BMC W. Corp. v. Horkley, 144 Idaho 890, 893, 174 P.3d 399, 402 (2007)). The purpose 
+of the lien statute is to “compensate persons who perform labor upon or furnish materials to be 
+used in the construction alteration or repair of a building or structure.” Pierson v. Sewell, 97 
+Idaho 38, 41, 539 P.2d 590, 593 (1975). A lien claimant bears the burden to present substantial 
+and competent evidence that “the labor or materials were incorporated into the land or building 
+                                                 
+1 At trial, McCarthy partially abandoned its lien claim in the amount of $70,750.35—the “additional borrow” charge 
+in McCarthy’s latest invoice, leaving a requested amount of $105,750.35.  
+
+13 
+ 
+that is the subject of the claim.” Elec. Wholesale Supply Co. v. Neilson, 136 Idaho 814, 821-22, 
+41 P.3d 242, 249-50 (2001).  
+First, McCarthy claims that it is owed $96,145.38 for import material it hauled to the 
+Project from the Swartout Pit, as noted in Exhibit W.2 In its briefing, McCarthy maintains that it 
+presented substantial and competent evidence that it was owed money for the imported material. 
+It directs this Court to evidence in the record—but the evidentiary support it provided fails to 
+meet that burden. McCarthy cited to exhibits W, 111, 113, 121, and 124. Exhibit W is 
+McCarthy’s final invoice to Stark; Exhibit 111 is Stark’s detailed letter to McCarthy explaining 
+specifically how much he owes McCarthy; Exhibit 113 is McCarthy’s first lien recorded on 
+Stark’s property; Exhibit 121 is a map for “dry utility trenching” that contains some “borrow fill” 
+numbers; and, Exhibit 124 does not exist in the record. Looking at Exhibit W, the ninth row 
+down reads “import converted to tons” at 8,780.4 tons. Robert testified that he and Cheyne 
+calculated that amount by counting the number of truckloads from the Swartout Pit to the Project 
+site (271) multiplied by the number of tons of material per truckload (18) multiplied by a 1.8 tons 
+per cubic yard conversion factor to reach the final number (271 x 18 x 1.8 = 8,780.4). Robert 
+testified the hauling rate was $10.95 per ton, which resulted in the charge of $96,145.38 for the 
+import material from the Swartout Pit (8,780.4 x $10.95 = $96,145.38). Although a ticket or 
+invoice has been provided for each truckload, they were not admitted as evidence into the record. 
+The additional alleged support McCarthy cites from the record does not pertain to any of the 
+other items it claims it is owed. As the district court found, McCarthy was similarly unclear on 
+demonstrating what it was owed below: 
+Throughout his testimony Rob McCarthy did less to clarify what was owed and 
+why, and more to confound the issue for the trier of fact. When comparing the 
+testimony of Stark to the testimony of Rob McCarthy, the [district court] finds the 
+former to be more credible and convincing than the latter. This is especially so 
+when considering Stark’s testimony as to the line by line items in Exhibit T and 
+T-1. Therefore, the [district court] finds that McCarthy has not met its burden of 
+proof of presenting substantial and competent evidence that it was owed any 
+further sums by Stark.  
+On the other hand, the district court’s finding that Stark demonstrated it paid for everything it 
+owed is supported by the record. For example, Stark points to Exhibit 111, which is a detailed 
+                                                 
+2 It is worth noting that this was a constantly moving target: at one time McCarthy billed Stark $55,000.67 for 
+imported material on August 23, 2017. This figure changed to $58,060.80 on September 1, 2017. It changed again to 
+a flat $55,000 with the following invoice on September 11, 2017. On McCarthy’s final invoice, it billed Stark 
+$96,145.38 for import material.  
+
+14 
+ 
+letter he caused to be sent to McCarthy that explained exactly how much Stark owed McCarthy 
+and why. Stark explained the factual basis for this letter in detail during his trial testimony.  
+McArthur calculated the earthen material removed from the property to total 21,475 
+cubic yards based on a topographic survey. McArthur also calculated that the on-site borrow 
+provided 13,353 cubic yards of fill material, taking into consideration a 12% material loss due to 
+compaction. Finally, even though it was not approved, McArthur factored in Cheyne’s report of 
+3,584 cubic yards of material imported from the Swartout Pit, also taking into consideration a 
+12% material loss due to compaction. McArthur added the on-site borrow number (13,353 cubic 
+yards) and the imported material number (3,584 cubic yards) to arrive at a total of 16,937 cubic 
+yards of fill material.  
+Due to continuing conflict between McCarthy and Stark, with Stark’s permission Basin 
+hired a surveyor to survey the property to determine fill material amount used. Basin conducted 
+the survey three months after it completed its work and provided the results. The survey showed 
+that 20,037 cubic yards of material had been placed to fill the area for building pads, using a 1.2 
+percent fill compaction factor. Taking out the fill factor, the surveyor arrived at 16,697 cubic 
+yards of fill material. 
+Even though Stark already paid for 15,602 cubic yards of fill material through Invoice 
+2435, Stark paid McCarthy for the additional 3,200 cubic yards of fill material it imported from 
+the Swartout Pit at the contracted rate. McArthur’s calculations and Basin’s surveyor’s 
+calculations arrive at a similar number, showing McCarthy imported 3,200 cubic yards of import 
+material, using the contract rate for fill material of $4.03 per cubic yard. Therefore, Stark agreed 
+to pay an additional $12,896.00 for the imported fill material, as part of its final payment of 
+$49,399.99. This means that Stark paid McCarthy for 18,802 cubic yards of fill material even 
+though two surveys showed less than 17,000 cubic yards of fill material was used.  
+Furthermore, Stark went through each of the six specific items McCarthy claims it is still 
+owed. First, McCarthy does not explain where it billed Stark $500.00 for 6” SDR storm pipe. 
+However, on exhibit V line item 5, McCarthy billed Stark $500.00 for work performed under 
+“piping/drainage.” This item was not disputed by Stark and covered by his final payment of 
+$49,399.99. Second, Stark demonstrated that it does not owe McCarthy $4,740 for dry utility 
+trenching because it had already paid for that on Invoice 2481. Indeed, Invoice 2481 shows Stark 
+paid $3,900 for “dry utility trenching.” Third, Stark explained that it did not pay McCarthy the 
+
+15 
+ 
+final mobilization payment because McCarthy was terminated before the job was finished. The 
+mobilization bid item was intended to defray the initial start-up and overhead costs associated 
+with moving materials and equipment to the job site. The contract between Stark and McCarthy 
+stated that Stark would pay $5,000 down, $2,500 at 50% Project completion, and the final $2,500 
+at 100% Project completion. Because the job was not completed, Stark did not pay the final 
+$2,500 mobilization payment. In its post-trial brief, McCarthy alleged that it was owed the final 
+$2,500 payment for mobilization because McCarthy “had fully mobilized on the project site and 
+thus fully earned this fee.” However, it is clear the Project was not completed, as Stark had to 
+hire Waldo Construction, Inc., to finish the Project.  
+Next, Stark explained that he did not owe McCarthy an additional $1,000 for compaction 
+testing because compaction testing was only two-thirds complete. Therefore, because Stark had 
+already paid McCarthy $2,000 for compaction testing, he owed nothing further. Finally, Stark 
+asserted that Cheyne and McCarthy represented that they would not charge for septic test holes. 
+Because no change order was submitted, Stark only paid for the septic permit fee of $500 and not 
+the test holes charge of $1,000.  
+In sum, we find that the record supports the district court’s conclusion that McCarthy fell 
+short of its burden to demonstrate it was owed any money by Stark. On the other hand, Stark 
+demonstrated that it did not owe McCarthy any money because in its final $49,399.99 payment 
+to McCarthy, Stark paid for all fill material, including fill material from the Swartout Pit, storm 
+pipes, the appropriate mobilization and compaction testing amount, and for the septic permit fee. 
+Stark also showed that he had already paid McCarthy for trenching and, thus, owed it nothing 
+further. Therefore, we affirm the district court’s conclusion that McCarthy failed to meet its 
+burden that it was owed any monies. Accordingly, we also affirm its decision not to foreclose 
+McCarthy’s lien on Stark’s property.  
+B. Substantial and competent evidence supports the district court’s finding that McCarthy 
+breached the parties’ contract by not obtaining a change order for the additional fill.  
+McCarthy contends the district court erred by finding that McCarthy breached the parties’ 
+agreement by failing to obtain a change order for the additional fill. To sustain a cause of action 
+for breach of contract, one must show: (1) “the existence of the contract,” (2) “the breach of the 
+contract,” (3) “the breach caused damages,” and, (4) “the amount of those damages.” Mossell 
+Equities, LLC v. Berryhill & Co., 154 Idaho 269, 278, 297 P.3d 232, 241 (2013). McCarthy only 
+contends it did not breach the contract, it does not contest the other elements of a breach of 
+
+16 
+ 
+contract claim: that there was a contract, Stark’s calculation of damages, or the amount of the 
+district court’s awarded damages. McCarthy argues that Stark waived the change order provision 
+in the contract personally and through his agent McArthur so that McCarthy did not need a 
+written change order to import fill material from the Swartout Pit.  
+We begin by recognizing the well-known legal standard for modifying a written contract: 
+The rule is well recognized that the provision in a private building or construction 
+contract that alterations or extras must be ordered in writing can be avoided by the 
+parties to the contract where their words, acts or conduct amount to a waiver, 
+modification, rescission or abandonment of that provision or where the owner by 
+his acts or conduct is estopped to rely on it.  
+Obray v. Mitchell 98 Idaho 533, 536, 567 P.2d 1284, 1287 (1977) (quoting Harrington v. 
+McCarthy, 91 Idaho 307, 310, 420 P.2d 790, 793 (1966)). “[E]xpress terms of written contracts 
+may be later modified by terms implied in fact through the conduct of the parties.” Jones v. 
+Micron Tech., Inc., 129 Idaho 241, 245, 923 P.2d 486, 490 (Ct. App. 1996) (citing Harrington, 
+91 Idaho at 310, 420 P.2d at 793).  
+The evidence presented at trial was conflicting. McCarthy presented evidence that on 
+May 19, 2017, Cheyne called McArthur to inform him they were running out of material at the 
+on-site borrow pit. McArthur did not answer the phone so Cheyne immediately sent a text 
+message. Cheyne’s text message read, “We are running way over the 15,000 yards at Starks … 
+There isn’t close to enough borrow to fill the other end.” (Emphasis added). McArthur then 
+called Cheyne. Cheyne and McArthur discussed possible solutions to the problem: Cheyne 
+suggested (1) lowering the building pad elevations, (2) taking material from another on-site 
+borrow pit, or (3) importing material. McArthur told Cheyne that he would get back to him with 
+an answer after he discussed the situation with Stark. McArthur noted that lowering the building 
+elevations was not an option because it would violate the CUP. Also, McArthur was reluctant to 
+open a second on-site borrow pit.  Cheyne testified that “[w]e ended the conversation with [sic] 
+he would get back to me, but it sounded like importing material was the best option.”  
+Stark testified that the next day McArthur sent Cheyne a text message, “From Craig: 10-4 
+was hoping we may miss the rain. As long as there is enough phase-2 rock area to give us a good 
+layout for steel delivery we should be fine.” Then, on May 22, 2017, Cheyne sent Stark a text 
+message that read, “We should be mass graded by Thursday importing rock on Friday ready for 
+electricians by Friday of next week.” (Emphasis added). Cheyne also sent a text message that 
+
+17 
+ 
+stated he was eager to start “hauling material.” Cheyne sent an email to Stark and McArthur on 
+June 1, 2017, that stated “we will import material threw [sic] the weekend. . . .” (Emphasis 
+added). McCarthy argues that this evidence shows Stark and McArthur knew Cheyne’s plan was 
+to import material from the Swartout Pit, Stark agreed to it, and, if not, his agent McArthur 
+agreed to it. In the alternative, McCarthy suggests Stark and McArthur should have known from 
+Cheyne’s text messages and email that McCarthy was importing material and neither raised any 
+objection with Cheyne.  
+ 
+On the other hand, McArthur testified that he, Stark, and Cheyne initially estimated there 
+was enough material at the on-site borrow pit to satisfy phase 1 and phase 2 of the Project. Stark 
+testified that he believed Cheyne’s text messages about “importing material” to be in reference to 
+hauling in 3/4 inch crushed angular rock (Bid item 19). McArthur believed Cheyne’s notification 
+that there was not enough fill for “the other end” was in reference to phase 2 of the Project. 
+Consistent with this theory, after Cheyne notified McArthur of the lack of fill material at the on-
+site borrow pit, McArthur sent a text message to Stark: “Last night [Cheyne] said he was 
+concerned after we staked the buildings that he might not have as much material to build phase 2 
+as he thought. . . .” (Emphasis added). Stark’s response back to McArthur is the text McArthur 
+forwarded to Cheyne, mentioned above, that referenced phase 2. McArthur testified that he 
+would have expected Cheyne to contact him if there was not enough fill for phase 1. He never 
+recalled Cheyne reaching out to inform him there would not be enough fill material at the on-site 
+borrow pit to complete phase 1. McArthur believed the property was large enough to open a 
+second on-site borrow pit, rather than import material. McArthur testified that he did not learn 
+that Cheyne and McCarthy imported fill material from the Swartout Pit until after-the-fact. Stark 
+echoed this sentiment and testified that he did not know Cheyne was importing material from the 
+off-site Swartout Pit, stating, “[t]hey never asked permission for that.”  
+ 
+We conclude that McCarthy has not met its burden on appeal by showing that the district 
+court’s findings were not supported by substantial evidence. Even though some of the evidence 
+presented below is conflicting, this Court does not disturb a district court’s findings unless they 
+are clearly erroneous. Mortensen, 163 Idaho at 50, 408 P.3d at 48. When the district court 
+considered the conflicting evidence, it found: “[t]he only fact that is clear to the Court is that 
+there was no change order approved, or even requested, as to the import and use of the materials 
+from the Swartout Pit.” This finding has not been undercut by anything McCarthy has presented 
+
+18 
+ 
+on appeal. McCarthy has neither shown that there was a change order signed by Stark or 
+McArthur, nor that McArthur and Stark waived the change order provision through their actions. 
+Clearly, the parties were not on the same page: Cheyne intended to import material while 
+McArthur and Stark believed there was enough material to complete phase 1 of the Project. Even 
+if McArthur acted as an agent for Stark, McCarthy did not point to specific evidence presented at 
+trial showing Cheyne and McArthur were on the same page about importing material and 
+McArthur agreed to it. Even Cheyne’s testimony conceded that after speaking with McArthur, 
+there was no final decision until McArthur spoke to Stark. Cheyne’s text messages to Stark that 
+reference importing material were not specific enough to put Stark on notice that McCarthy was 
+importing fill material. In sum, without a written change order, or a clear action waiving the 
+change order provision, the district court’s findings are supported by competent and substantial 
+evidence. Accordingly, we affirm its conclusion that McCarthy breached the contract by not 
+obtaining a change order provision before importing material from the Swartout Pit.  
+ 
+In light of our ruling, we need not address whether McCarthy also breached the parties’ 
+contract by violating the implied covenant of good faith and fair dealing. This is because 
+McCarthy did not appeal the district court’s award of damages for breach of contract. Therefore, 
+it is irrelevant whether McCarthy further breached the contract under the implied covenant of 
+good faith and fair dealing because Stark was not awarded additional damages for Stark’s 
+counterclaim for breach of the implied covenant of good faith and fair dealing.  
+C. The district court’s finding that McCarthy breached the Idaho Consumer Protection 
+Act is supported by substantial and competent evidence.  
+ 
+McCarthy contends the district court erred by finding that it engaged in conduct that 
+violated the ICPA. The ICPA’s purpose is “to protect both consumers and businesses against 
+unfair methods of competition and unfair and deceptive practices in the conduct of trade or 
+commerce, and to provide efficient and economical procedures to secure such protection.” I.C. § 
+48-601. It achieves this purpose by declaring any acts or practice that are misleading, false, or 
+deceptive as unlawful. I.C. § 48-603(17).  
+The following unfair methods of competition and unfair or deceptive acts or 
+practices in the conduct of any trade or commerce are hereby declared to be 
+unlawful  
+. . . .  
+(17) Engaging in any act or practice that is otherwise misleading, false, or 
+deceptive to the consumer.  
+
+19 
+ 
+I.C. § 48-603(17).  
+ 
+First, McCarthy argues that the error in the initial Invoice 2488 was unintentional because 
+once the error was realized, it was corrected. McCarthy’s first argument mischaracterizes the 
+findings of the district court. McCarthy’s initial Invoice 2488 was not the sole basis for finding 
+McCarthy violated the ICPA. As shown above, McCarthy continued to submit invoices to Stark 
+for payment and the amount kept changing:  
+Invoice Number 
+Invoice Date/Date Received 
+Invoice Amount 
+2488 
+07/25/2017 
+$158,980.00 
+2504 
+08/22/2017 
+$121,620.55 
+2488 
+08/23/2017 
+$238,986.98 
+2488 
+09/01/2017 
+$162,087.56 
+2488 
+09/11/2017 
+$145,706.56 
+2488 
+10/23/2017 
+$176,691.71 
+ 
+The district court explicitly found:  
+As was shown by the numerous Invoice(s) No. 2488, McCarthy was billing for 
+items it didn’t properly quantify and was attempting by the same course of action 
+to bill for what Stark had already paid for. Compounding the deceit was Rob 
+McCarthy’s response and attitude of “just pay the bill and we’ll work it out later,” 
+when confronted by Stark about the overbilling. 
+(Emphasis added).  
+This clarifies that it was not merely McCarthy’s initial error on Invoice 2488 that 
+supported the district court’s finding, but it was the fact that McCarthy continued to erroneously 
+bill Stark for things Stark had already paid for. After the initial version of Invoice 2488 was 
+issued, McCarthy sent four revised invoices of Invoice 2488. Each subsequent invoice was sent 
+without any supporting documentation to explain how McCarthy arrived at the invoiced amount. 
+Each subsequent invoice billed Stark for “import converted to tons” and “additional borrow,” 
+charges seemingly related to Bid items 3, 4, and 19. McCarthy failed to explain how Stark owed 
+more money for Bid Items 3, 4, or 19 when Stark paid for those services, in full, through 
+Invoices 2435 and 2481. Moreover, McCarthy’s explanation in his appellate briefing about 
+Invoice 2488—“[u]pon discovery, it was corrected in a matter of days”—is another 
+mischaracterization. Clearly, the error was not fixed in a matter of days. McCarthy does not 
+
+20 
+ 
+attempt to rebut the evidence that McCarthy’s “fix” to the invoicing dispute was Robert’s 
+“cavalier” suggestion to Stark to “just pay the bill and we’ll work it out later.” Moreover, even 
+after receiving payment, McCarthy increased its lien on Stark’s property.  
+Second, McCarthy asserts its request for 50% payment upfront for the asphalt was not 
+misleading; it was merely a request, not a condition of the work to be done. However, 
+McCarthy’s email to Stark read, “[w]ould you mind 50% upfront for asphalt? Asphalt is 
+requesting it.” (Emphasis added). Despite McCarthy’s assertion, the second sentence in the email 
+makes it clear that it was a condition in order to get the work done, not a mere favor. Much more 
+troubling is that it was a clear attempt to deflect responsibility from McCarthy and falsely place 
+it on the asphalt provider. Cheyne testified that the paving company did not request 50% of the 
+cost upfront. Cheyne further testified that he heard Rob McCarthy say that paving would not get 
+completed “until we get all the other invoices resolved.” This, by definition, would make 
+McCarthy’s email to Stark a false or misleading statement under the ICPA.  
+In sum, there is substantial and competent evidence in the record to support the district 
+court’s findings that McCarthy violated the ICPA by deceptively billing Stark multiple times for 
+work Stark already paid for, by telling Stark to just pay the invoice and they can work it out later, 
+and by falsely misleading Stark by informing him that the asphalt subcontractor requested 50% 
+of the paving costs upfront. We affirm the district court’s determination that McCarthy violated 
+the ICPA.  
+D. The district court properly awarded damages under the Idaho Consumer Protection Act 
+because substantial and competent evidence supported its finding that Stark suffered an 
+ascertainable loss. 
+ 
+McCarthy contends the district court erred by awarding Stark damages for lost interest on 
+the money Stark deposited with U.S. Bank in the non-interest bearing collateral account. 
+McCarthy argues Stark had no intention to invest these funds because he borrowed most of the 
+money from his daughter, and otherwise would not have used the funds to earn interest. 
+McCarthy’s argument is made without citation to any authority to support its position. 
+ 
+Idaho Code section 48-608(1) provides that a consumer who suffers ascertainable losses 
+due to an unlawful act or practice is entitled to recover his actual damages. I.C. § 48-608(1). The 
+district court’s findings are well-supported. Stark was required by U.S. Bank to place 
+$265,037.55 into a non-interest bearing account with U.S. Bank after McCarthy filed its lien 
+against Stark’s property. McCarthy does not contest that the money was actually deposited, or 
+
+21 
+ 
+that the account was a non-interest bearing account. Mobraten, the vice president and 
+commercial banking manager with U.S. Bank, testified that this money could have reasonably 
+earned 5 to 7% in interest if invested. McCarthy did not contest this evidence. The district court 
+awarded the conservative end of that range—5%. Because Stark met his burden to prove an 
+ascertainable loss, we affirm the district court’s award of damages under the ICPA.  
+E. The district court did not abuse its discretion by allowing Stark to submit a new cost bill 
+with segregated fees.  
+ 
+McCarthy contends the district court erred by awarding Stark’s attorney fees. McCarthy 
+argues that Stark failed to segregate the fees from Stark, Stark Investment Group, and U.S. Bank. 
+McCarthy cites Hackett v. Streeter, 109 Idaho 261, 264, 706 P.2d 1372, 1375 (Ct. App. 1985) for 
+the proposition that where no effort is made to segregate fees between jointly represented parties, 
+Hackett mandates the denial of a request for fees. Instead, the district court allowed Stark to 
+submit a new cost bill. Essentially, McCarthy’s argument is narrow—it alleges the district court 
+abused its discretion by allowing Stark to submit a new cost bill with segregated fees. We find 
+Hackett distinguishable from this case and find the district court did not abuse its discretion by 
+allowing Stark to submit a revised cost bill with proper segregation of fees.  
+ 
+In Hackett, one attorney defended a subdivision developer and a contractor for the 
+alleged negligent construction of a subdivision water system. Hackett, 109 Idaho at 262-63, 706 
+P.2d at 1373-74. After a bench trial, only the contractor, not the subdivision developer, was 
+found liable. Id. The plaintiff sought fees against the contractor and the subdivision developer 
+sought fees against the plaintiff. Id. at 263, 706 P.2d at 1374. However, the attorney representing 
+the successful subdivision developer and the unsuccessful contractor did not distinguish between 
+the fees incurred by each party in its request against the plaintiff. Id. Therefore, the district court 
+denied the fee request altogether. Id. On appeal to the Idaho Court of Appeals, the court 
+affirmed. Id. at 265, 706 P.2d at 1376.  
+ 
+The Court of Appeals recognized that the attorney representing both the subdivision 
+developer and contractor submitted an affidavit with the fee request that essentially declined to 
+segregate the fees because the parties would be severally and jointly liable if the allegations in 
+plaintiff’s complaint were true. Id. at 264, 706 P.2d at 1375. Therefore, the district court was left 
+with a difficult decision: either award the entire fee request, requiring plaintiff to pay for the 
+unsuccessful defendant’s legal fees, or award no fees altogether. Id. The Court of Appeals held 
+
+22 
+ 
+that in this difficult situation, where the option to segregate the fees was declined, the district 
+court did not abuse its discretion by denying the attorney fee request altogether. Id.  
+ 
+Hackett is distinguishable from this case. Here, all defendants—Stark, Stark Investment 
+Group, and U.S. Bank—were successful against McCarthy. However, the district court denied 
+awarding attorney fees for any work performed on behalf of Stark Investment Group or U.S. 
+Bank because they had no contractual relationship with McCarthy. Therefore, it ordered a new 
+cost bill to be submitted with only Stark’s attorney fees. Stark obliged this request to segregate 
+the fees between the parties, instead of refusing to segregate fees like the defendants in Hackett. 
+Moreover, in a similar case, this Court has held Hackett is “not applicable” where jointly 
+represented defendants were successful and their fees were not segregated. See Taylor v. Riley, 
+162 Idaho 692, 403 P.3d 636 (2017). Here, by allowing Stark to cure the issue, and Stark 
+obliging, the district court did not abuse its discretion. Accordingly, we affirm the district court’s 
+award of attorney fees.  
+F. Stark is entitled to attorney fees on appeal under the contract with McCarthy. 
+ 
+Stark contends it is entitled to attorney fees on appeal pursuant to the contract between 
+the parties, the ICPA, and Idaho Code section 12-120(3).  
+ 
+The contract between McCarthy and Stark explicitly provides for attorney fees if a party 
+initiates judicial action to interpret the contract. This provision includes an appeal. “If a party 
+initiates an arbitration or judicial action, including an appeal, as to the interpretation or 
+enforcement of this agreement, including remedies upon default, the substantial prevailing party 
+shall be entitled to reimbursement of its reasonable fees and costs.” (Emphasis added). Stark has 
+prevailed on appeal: he succeeded on his breach of contract claim against McCarthy and 
+successfully defended against McCarthy’s claim that Stark waived the change order provision 
+under the contract. Therefore, we award Stark his reasonable attorney fees and costs under the 
+contract because the contract provided for attorney fees and costs to the prevailing party and 
+Stark is the prevailing party on appeal. I.A.R. 40(a) and 41(a); see also Alsco, Inc. v. Fatty’s Bar, 
+LLC, 166 Idaho 516, 535, 461 P.3d 798, 817 (2020) (Attorney fees on appeal awarded pursuant 
+to contract). 
+  
+VI. CONCLUSION 
+For the foregoing reasons, we affirm the district court’s holdings that McCarthy breached 
+the contract between the parties and McCarthy violated the ICPA. Further, we affirm the district 
+
+23 
+ 
+court’s award of damages to Stark under the ICPA and its award of attorney fees to Stark. Stark 
+is awarded his reasonable attorney fees and costs on appeal.  
+Chief Justice BEVAN, and Justices BURDICK, BRODY and STEGNER CONCUR. 
+ 
