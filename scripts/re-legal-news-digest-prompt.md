@@ -11,6 +11,24 @@ real estate entities. You are running directly inside the `/Users/jeffnovel/RELA
 git repository with normal local file and network access — use `git`, `curl`,
 `WebSearch`, and `WebFetch` freely.
 
+## STEP 1A — FRESH COURT EVENTS FIRST (added 2026-09-26)
+
+The owner's standing requirement: the tracker must carry events from the last day
+or two, every day. Start each run with `ops/fresh-filings.json` (real estate and
+construction Chapter 11 petitions filed in the last four days, written by the
+surveillance job from federal court records). Choose the significant commercial
+real estate debtors, find coverage with WebSearch, and add each as a matter dated
+to its filing date, with the file's `docketUrl` as a confirmed CourtListener
+docket. At most one petition per run may be added from the court record alone
+(summary limited to what the record shows). Aim for one to three per run; never
+duplicate a debtor already in `js/data.js`.
+
+**Freshness rules for every addition:** prefer events from the last 3 days, and
+add at least one such event every run (say so in the report if none could be
+verified). Events more than 14 days old only if significant and newly reported,
+and never as the featured flagship, which must be from the last 7 days. Put
+today's and yesterday's dates in search queries.
+
 ## STEP 1 — RESEARCH
 
 Before searching, read `js/data.js`'s `cases` array and compute today's actual
