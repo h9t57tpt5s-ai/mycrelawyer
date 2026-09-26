@@ -234,8 +234,13 @@
     // has real matters in a subset).
     const statesWithMatters = new Set(RELAW_DATA.cases.map((c) => c.state).filter(Boolean));
     if (statCategories) statCategories.textContent = RELAW_DATA.categories.length;
-    if (statStates) statStates.textContent = statesWithMatters.size;
-    if (heroMapSub) heroMapSub.textContent = `${statesWithMatters.size} states with tracked matters`;
+    // D.C. is not a state; count it separately (it had made "51 states").
+    const stateCount = [...statesWithMatters].filter((s) => s !== "DC").length;
+    const hasDC = statesWithMatters.has("DC");
+    if (statStates) statStates.textContent = stateCount;
+    const statStatesLabel = document.getElementById("hero-stat-states-label");
+    if (statStatesLabel) statStatesLabel.textContent = hasDC ? "States + D.C." : "States";
+    if (heroMapSub) heroMapSub.textContent = `Matters in ${stateCount} state${stateCount === 1 ? "" : "s"}${hasDC ? " and D.C." : ""}`;
 
     if (heroMapHost && window.RELAW_UTILS.renderUsMap) {
       window.RELAW_UTILS.renderUsMap("hero-usmap-host", (code) => {

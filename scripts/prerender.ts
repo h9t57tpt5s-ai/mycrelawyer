@@ -121,6 +121,11 @@ function setText(html: string, id: string, text: string, file: string): string {
 
 const cases = [...data.cases].sort(byDateDesc);
 const states = new Set(data.cases.map((c) => c.state).filter(Boolean));
+// D.C. is not a state: counting it as one produced "51 states" (Jeff,
+// 2026-09-26: "this make us look like complete idiots").
+const realStates = [...states].filter((s) => s !== "DC").length;
+const withDC = states.has("DC");
+const statesLabel = `${realStates} state${realStates === 1 ? "" : "s"}${withDC ? " and D.C." : ""}`;
 const written: string[] = [];
 
 // ---- index.html ---------------------------------------------------------
@@ -128,7 +133,8 @@ const written: string[] = [];
   const f = "index.html";
   let h = await Deno.readTextFile(f);
   h = h.replace(/(<span id="stat-matters" data-count=")\d+(">)\d*(<\/span>)/, `$1${data.cases.length}$2${data.cases.length}$3`);
-  h = setText(h, "hero-stat-states", String(states.size), f);
+  h = setText(h, "hero-stat-states", String(realStates), f);
+  h = setText(h, "hero-stat-states-label", withDC ? "States + D.C." : "States", f);
   h = setText(h, "hero-stat-categories", String(data.categories.length), f);
   h = fill(h, "featured-grid", cases.slice(0, 3).map(caseCard).join(""), f);
   const words: Record<number, string> = { 6: "Six", 7: "Seven", 8: "Eight", 9: "Nine", 10: "Ten", 11: "Eleven", 12: "Twelve" };
@@ -224,10 +230,10 @@ for await (const entry of Deno.readDir(".")) {
   const dense = topStates.slice(0, 8).map(([s, n]) => `${s} ${n}`).join(" · ");
   const thin = topStates.filter(([, n]) => n <= 2).length;
   h = fill(h, "cov-table", table, f);
-  h = fill(h, "cov-states", `<p style="font-size:14px; margin:0 0 8px;"><strong>${states.size} states</strong> have at least one matter. Densest: ${esc(dense)}.</p><p class="text-muted" style="font-size:13px; margin:0;">${thin} of those ${states.size} states have two matters or fewer, which is presence, not coverage.</p>`, f);
+  h = fill(h, "cov-states", `<p style="font-size:14px; margin:0 0 8px;"><strong>${statesLabel}</strong> have at least one matter. Densest: ${esc(dense)}.</p><p class="text-muted" style="font-size:13px; margin:0;">${thin} of those ${states.size} jurisdictions have two matters or fewer, which is presence, not coverage.</p>`, f);
   h = fill(h, "cov-categories", `<ul style="margin:0; padding-left:18px; font-size:14px;">${catCounts.map(([l, n]) => `<li>${esc(l)}: ${n}</li>`).join("")}</ul>`, f);
   h = setText(h, "cov-generated", `Figures computed from the live dataset on ${new Date().toISOString().slice(0, 10)}.`, f);
   await Deno.writeTextFile(f, h); written.push(f);
 }
 
-console.log(`prerendered ${written.length} files: ${data.cases.length} matters, ${states.size} states`);
+console.log(`prerendered ${written.length} files: ${data.cases.length} matters, ${statesLabel}`);
