@@ -21,7 +21,8 @@ RESULT_DIRS = {"v1": "case_valuation_project/backtest/results", "v2": "case_valu
 REPEAT_DIRS = {"v3": "case_valuation_project/backtest/results-v3b",
                "v4": "case_valuation_project/backtest/results-v4b"}
 # Chosen before the v2 revision was written; the revision was never tuned against them.
-HOLDOUTS = {"island-girl-outfitters-v-allied-development-2025", "udot-boggess-draper-2025", "dover-mall-v-tang-2023", "nco-montgomery-park-2025", "edgemere-lawal-2025", "navient-v-bpg-office-partners-2023"}
+HOLDOUTS = {  # original six; later additions are flagged in cases.json
+"island-girl-outfitters-v-allied-development-2025", "udot-boggess-draper-2025", "dover-mall-v-tang-2023", "nco-montgomery-park-2025", "edgemere-lawal-2025", "navient-v-bpg-office-partners-2023"}
 OUT = "js/backtest-results-data.js"
 # Only counsel-fee claims are set aside; "late fees" inside a rent claim stay.
 FEE_LABEL = re.compile(r"attorney|counsel|legal fees", re.I)
@@ -220,12 +221,43 @@ def consistency(first_rows, repeat_dir):
     }
 
 
+CASE_META = {}
+
+
+def load_case_meta():
+    """Held-out flags and categories come from cases.json: the first six
+    held-out cases are listed above; v5's additions carry holdout: true,
+    fixed at intake before any run."""
+    for c in json.load(open("case_valuation_project/backtest/cases.json")):
+        CASE_META[c["id"]] = c
+        if c.get("holdout"):
+            HOLDOUTS.add(c["id"])
+
+
+def by_category(rows):
+    out = {}
+    for r in rows:
+        if r["declined"] or r["error"]:
+            continue
+        cat = (CASE_META.get(r["id"]) or {}).get("category") or r.get("category") or "unknown"
+        b = out.setdefault(cat, {"cases": 0, "exFeesHits": 0, "exFeesScorable": 0, "finalHits": 0, "finalScorable": 0})
+        b["cases"] += 1
+        if r["exFees"]["hit"] is not None:
+            b["exFeesScorable"] += 1
+            b["exFeesHits"] += int(bool(r["exFees"]["hit"]))
+        if r["final"]["hit"] is not None:
+            b["finalScorable"] += 1
+            b["finalHits"] += int(bool(r["final"]["hit"]))
+    return out
+
+
 def main():
+    load_case_meta()
     versions = {}
     for v, d in RESULT_DIRS.items():
         rows = [score(json.load(open(f))) for f in sorted(glob.glob(d + "/*.json"))]
         if rows:
-            versions[v] = {"summary": summarize(rows), "cases": rows}
+            versions[v] = {"summary": summarize(rows), "cases": rows, "byCategory": by_category(rows)}
             if v in REPEAT_DIRS:
                 c = consistency(rows, REPEAT_DIRS[v])
                 if c:
