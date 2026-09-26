@@ -206,9 +206,19 @@
     // sort can and does leave it out entirely -- pin the most recently-
     // added featured case into the first slot instead of leaving that to
     // chance, then fill the rest with the usual recency sort.
+    //
+    // Two limits (Jeff, 2026-09-26: "why are there two today's top stories
+    // and both have dates that are months old?"): every digest run flags its
+    // flagship and never clears earlier flags, so only the ONE pinned case
+    // gets the badge; and a flagship whose underlying event is more than 30
+    // days old (news coverage sometimes lags a filing by months) is not
+    // presented as a top story at all.
+    const DAY_MS = 86400000;
     const featuredCase = [...RELAW_DATA.cases]
-      .filter((c) => c.featured)
+      .filter((c) => c.featured && (Date.now() - new Date(c.date + "T00:00:00")) <= 30 * DAY_MS)
       .sort((a, b) => new Date(b.addedDate || b.date) - new Date(a.addedDate || a.date))[0];
+    const addedToday = featuredCase && featuredCase.addedDate &&
+      featuredCase.addedDate === new Date().toISOString().slice(0, 10);
 
     const byRecentEvent = [...RELAW_DATA.cases]
       .filter((c) => !featuredCase || c.id !== featuredCase.id)
@@ -239,7 +249,7 @@
       return `
         <div class="hero-feed-row" data-case-id="${c.id}">
           <span class="hero-feed-row-no"><span class="dot" style="background:${status.color}"></span></span>
-          <span class="hero-feed-row-title">${c.featured ? `<span class="badge badge-live" style="margin-right:8px;">Today's Top Story</span>` : ""}${c.title}<span>${cat.label} · ${status.label}</span></span>
+          <span class="hero-feed-row-title">${featuredCase && c.id === featuredCase.id ? `<span class="badge badge-live" style="margin-right:8px;">${addedToday ? "Today's Top Story" : "Top Story"}</span>` : ""}${c.title}<span>${cat.label} · ${status.label}</span></span>
           <span class="hero-feed-row-date">${formatDate(c.date)}</span>
         </div>`;
     }).join("");
