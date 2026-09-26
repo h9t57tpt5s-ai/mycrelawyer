@@ -6213,6 +6213,144 @@ const RELAW_DATA = {
       amountBasis: "loan",
       propertyType: "Hospitality",
       tags: ["cmbs", "special servicing", "hospitality", "hotel", "oregon"]
+    },
+    {
+      id: "live-187",
+      addedDate: "2026-09-26",
+      featured: true,
+      title: "From $97.3M Default to Rebrand: ACORE Capital Repositions Salt Lake City's Industry SLC as Foundry43",
+      category: "lending-foreclosure",
+      status: "settled",
+      date: "2026-09-24",
+      jurisdiction: "Utah Business and Chancery Court",
+      state: "UT",
+      amount: "$97.3M loan default; $103.7M claimed owed in principal, interest and fees",
+      source: "live",
+      sourceUrl: "https://buildingsaltlake.com/foreclosed-industry-slc-rebrands-as-foundry43-under-lender-acore/",
+      summary: "San Francisco lender ACORE Capital completed foreclosure on a defaulted $97.3 million loan against Industry SLC, a 230,000-square-foot adaptive-reuse office campus in Salt Lake City's Granary District, taking title by special warranty deed on March 9, 2026. ACORE has since partnered with Lincoln Property Company to reposition and expand the campus under a new name, Foundry43, with JLL leading leasing.",
+      significance: "The case is a concluded, fully documented example of how a marquee adaptive-reuse project's construction-loan default actually resolves, from a specialized commercial court's complaint through a negotiated deed transfer to a lender-funded repositioning. It shows sophisticated CRE lenders increasingly choosing to take title and reinvest rather than force a contested auction sale when the underlying asset still has redevelopment upside.",
+      body: [
+        "Foundry43, the rebranded successor to Salt Lake City's Industry SLC office campus, relaunched this month under new ownership after lender ACORE Capital completed foreclosure on a defaulted $97.3 million loan and, together with Lincoln Property Company, repositioned the 230,000-square-foot Granary District property under a new name and expanded program. The relaunch closes out a saga that began with the collapse of the project's original developer in 2023, and gives commercial lenders and adaptive-reuse sponsors a concluded, fully documented example of how a construction-loan default on a marquee project actually gets resolved from complaint to repositioned asset.",
+        "Industry SLC opened in 2020 inside a converted 1943 foundry at 513 and 517 W. 600 South, and was widely credited as a catalyst for the surrounding Granary District's redevelopment, leasing up quickly as a flagship adaptive-reuse project. The campus's fortunes turned when its construction arm, Makers Line, an affiliate of developer Q Factor, collapsed in 2023 amid at least fifteen lawsuits from unpaid subcontractors seeking roughly $2.8 million combined -- a wave of litigation that is common when a general contractor's own capital structure fails mid-project, and an early signal of the deeper financial trouble that followed at the ownership level.",
+        "The ownership entity, referred to in litigation and reporting as Catalyst, had financed the campus with the $97.3 million ACORE Capital loan. When Catalyst defaulted, ACORE Capital Mortgage filed suit in Utah's Business and Chancery Court in November 2025, alleging that principal, accrued interest, and fees had grown the amount owed to roughly $103.7 million. The Business and Chancery Court is a relatively young, specialized division of Utah's court system created to handle complex commercial disputes -- a venue choice that reflects how large, multi-tranche commercial loan defaults increasingly get routed to specialized commercial dockets, mirroring similar business courts in Delaware, New York, and elsewhere.",
+        "A foreclosure sale was scheduled for early March 2026, but rather than proceeding to a contested public auction, ACORE took title by special warranty deed on March 9, 2026, with the property conveyed to Marwood Investment Trust. That negotiated deed transfer, rather than a fought-over courthouse-steps sale, let ACORE take control of the asset on a known timeline and immediately begin planning its repositioning, rather than remaining a mortgagee waiting on an auction outcome it could not fully control.",
+        "That repositioning is now public: ACORE partnered with Lincoln Property Company to stabilize and relaunch the campus, bringing on JLL to lead leasing under the new Foundry43 name, with plans for 64,000 square feet of additional creative office space, a 34,000-square-foot fitness center, 12,000 square feet of new retail, and a 1,000-stall parking garage. For lenders, borrowers, and adaptive-reuse sponsors, the significant twist is that the post-foreclosure playbook here looks less like liquidation and more like the sponsor role Catalyst originally occupied, executed by an institutional owner with the balance sheet to fund a buildout the original developer could not sustain -- a reminder that a construction lender's remedies do not end at loan enforcement, and that both borrowers and junior creditors negotiating a workout should assume a well-capitalized senior lender may prefer to take title and reposition rather than force a sale."
+      ],
+      timeline: [
+        { when: "2020", label: "Industry SLC opens in a converted 1943 foundry in Salt Lake City's Granary District" },
+        { when: "2023", label: "Construction arm Makers Line (an affiliate of developer Q Factor) collapses amid at least 15 unpaid-subcontractor lawsuits" },
+        { when: "November 2025", label: "ACORE Capital Mortgage sues Catalyst in Utah's Business and Chancery Court over the defaulted $97.3M loan" },
+        { when: "March 9, 2026", label: "ACORE Capital takes title by special warranty deed, conveyed to Marwood Investment Trust" },
+        { when: "September 24, 2026", label: "ACORE and Lincoln Property Company relaunch the campus as Foundry43", current: true }
+      ],
+      judge: null,
+      parties: [
+        { name: "ACORE Capital", role: "Lender" },
+        { name: "Catalyst", role: "Borrower" },
+        { name: "Marwood Investment Trust", role: "Owner" },
+        { name: "Lincoln Property Company", role: "Property Manager" }
+      ],
+      amountUsd: 97300000,
+      amountBasis: "loan",
+      propertyType: "Office",
+      tags: ["foreclosure", "office distress", "utah", "adaptive reuse", "private credit"]
+    },
+    {
+      id: "live-188",
+      addedDate: "2026-09-26",
+      title: "Joliet Residents for Responsible Growth v. City of Joliet (Joliet Technology Center Data Center Zoning Suit)",
+      category: "zoning-land-use",
+      status: "pending",
+      date: "2026-09-08",
+      jurisdiction: "Circuit Court of Will County, Illinois",
+      state: "IL",
+      amount: "$20 billion project value at stake",
+      source: "live",
+      sourceUrl: "https://www.shawlocal.com/the-herald-news/2026/08/18/lawsuit-against-joliet-data-center-heading-to-court-hearing/",
+      summary: "A nonprofit group, Joliet Residents for Responsible Growth, sued the City of Joliet and developers Powerhouse and Hillwood over the city's March 19, 2026 annexation and rezoning approval of the roughly $20 billion, 795-acre Joliet Technology Center data center campus, alleging defective public notice and Open Meetings Act violations. Will County Circuit Judge Victoria Breslan heard argument on the city's and developers' motions to dismiss on September 8, 2026; no ruling had been reported as of this entry.",
+      significance: "The suit is a procedural, rather than substantive, challenge to a major data center approval -- targeting public notice and open-meetings compliance instead of the underlying zoning judgment -- and is emerging as part of a national pattern of similar procedural challenges to hyperscale data center approvals, alongside comparable disputes in Edgerton, Kansas and Westlake, Texas. Developers and municipalities should treat notice and hearing procedure as a first-order legal risk for large rezoning and annexation approvals.",
+      body: [
+        "A lawsuit challenging the city of Joliet, Illinois's approval of the roughly $20 billion, 795-acre Joliet Technology Center data center campus survived its first substantive court test on September 8, 2026, when Will County Circuit Judge Victoria Breslan heard argument on motions to dismiss filed by the city and the project's developers rather than disposing of the case outright. The case, brought by the nonprofit Joliet Residents for Responsible Growth against the City of Joliet and developers Powerhouse and Hillwood, is one of a growing number of suits nationally in which neighbors of proposed hyperscale data center campuses are using procedural and open-government claims, rather than substantive land-use objections alone, to slow or unwind local approvals.",
+        "The underlying project is large by any measure: a 24-building, 1.8-gigawatt data center campus that the Joliet City Council approved by an 8-1 vote on March 19, 2026, after annexing roughly 795 acres of agricultural land and rezoning it to light industrial use. The plaintiffs, who filed suit on May 18, 2026, do not primarily argue that a data center is an inappropriate use for the site in the abstract; their complaint centers on the process by which the city got there, alleging that a February 2026 public notice failed to disclose that the rezoning under consideration involved a data center at all, and that a March 2026 city council meeting violated the Illinois Open Meetings Act by denying residents a meaningful opportunity to challenge testimony offered in support of the project.",
+        "That framing matters legally. Illinois law gives local governments considerable substantive discretion over zoning and annexation decisions, and an argument that a rezoning decision was simply wrong on the merits faces a deferential standard of review. Procedural and open-meetings claims are different: they do not ask a judge to second-guess a legislative body's policy judgment, only to enforce the notice-and-process rules imposed on how that judgment gets made -- and if a city loses on that basis, the remedy can be to unwind the approval and send the matter back through a compliant process, which is what the plaintiffs are seeking here by asking the court to void the March 19 annexation vote.",
+        "For an industry investing tens of billions of dollars annually in hyperscale data center campuses, procedural vulnerability of this kind is a growing legal-risk category. The Joliet case is not occurring in isolation: a comparable data center zoning fight in Edgerton, Kansas recently produced a ruling against the municipality on anti-SLAPP grounds, and a Texas dispute over the Circle T Data Center in Westlake, also involving Hillwood, has already produced a temporary restraining order over an alleged public-notice defect. Together, these cases suggest procedural rigor in the public approval process is becoming as important a risk-management priority for data center developers as the underlying zoning entitlement itself.",
+        "No ruling on the motions to dismiss had been reported as of this entry, and the case remains pending before Judge Breslan. Given the project's scale, and resident-cited concerns over its draw on a regional aquifer and power demand described as comparable to Hoover Dam-level output, a ruling either allowing the case to proceed to a merits challenge or dismissing it and clearing the project's path will be closely watched well beyond Will County. Developers and municipal counsel structuring similar large-scale rezonings should treat public notice language and open-meetings procedure as first-order legal risk, and lenders and equity partners financing data center developments should specifically diligence the adequacy of the public approval record before treating zoning risk as resolved."
+      ],
+      timeline: [
+        { when: "March 19, 2026", label: "Joliet City Council approves the annexation and rezoning 8-1" },
+        { when: "May 18, 2026", label: "Joliet Residents for Responsible Growth files suit against the City of Joliet, Powerhouse, and Hillwood" },
+        { when: "September 8, 2026", label: "Judge Victoria Breslan hears argument on motions to dismiss", current: true }
+      ],
+      judge: "Victoria Breslan",
+      parties: [
+        { name: "City of Joliet", role: "Defendant" },
+        { name: "Powerhouse", role: "Defendant" },
+        { name: "Hillwood", role: "Defendant" }
+      ],
+      amountUsd: 20000000000,
+      amountBasis: "other",
+      propertyType: "Data Center",
+      tags: ["data center", "zoning", "open meetings act", "illinois", "annexation"]
+    },
+    {
+      id: "live-189",
+      addedDate: "2026-09-26",
+      title: "City of Edgerton, Kansas v. Twente (Anti-SLAPP Dismissal of Municipal Suit Over Data Center Petition)",
+      category: "zoning-land-use",
+      status: "ruling",
+      date: "2026-09-03",
+      jurisdiction: "Johnson County District Court, Kansas",
+      state: "KS",
+      amount: "Not applicable (declaratory/zoning dispute; city ordered to pay defendants' legal expenses)",
+      source: "live",
+      sourceUrl: "https://johnsoncountypost.com/2026/09/10/judge-dismisses-city-of-edgertons-lawsuit-295865/",
+      summary: "Johnson County District Judge Stephanie Goodenow dismissed the City of Edgerton, Kansas's lawsuit against residents Kimberly Twente and Carrie Schmidt over their citizen petition to ban high-impact data centers, ruling on September 3, 2026 that the city's suit violated the Kansas Public Speech Protection Act (the state's anti-SLAPP law). The ruling clears the way for the 208-signature petition to proceed toward a public vote and requires Edgerton to pay the defendants' legal expenses.",
+      significance: "The ruling is a novel application of an anti-SLAPP statute against a municipal government itself, rather than a private plaintiff, and signals real litigation risk for other cities considering suits against citizen-led zoning petitions opposing data center development. It reinforces that recharacterizing a legislative zoning ordinance as merely administrative is unlikely to defeat citizen initiative rights.",
+      body: [
+        "A Johnson County, Kansas district judge has dismissed a lawsuit the City of Edgerton filed against two of its own residents over a citizen petition seeking to ban high-impact data centers, ruling on September 3, 2026 that the city's suit violated the residents' rights under the Kansas Public Speech Protection Act, the state's anti-SLAPP law. The decision, issued by Judge Stephanie Goodenow, is a notable data point for the fast-growing body of litigation surrounding hyperscale data center development: it applies an anti-SLAPP statute, typically invoked by private citizens or media defendants against corporate or individual plaintiffs, against a municipal government itself.",
+        "The dispute began when Edgerton residents Kimberly Twente and Carrie Schmidt, working with the nonprofit Public Trust Collective Inc., circulated a citizen petition calling for a local ban on high-impact data center development and gathered 208 signatures, enough under Kansas law to force the question toward a public vote. In August 2026, rather than allow the petition to proceed through the normal certification process, the City of Edgerton filed suit against Twente and Schmidt, characterizing the petition as void and invalid and asking the court to block the data-center ban from reaching an election, on a theory that the petition was administrative rather than legislative in character -- a distinction that matters because Kansas citizen initiative and referendum rights generally attach only to legislative acts.",
+        "Judge Goodenow rejected that framing, finding in granting the defendants' special motion to strike that the zoning ordinance the petition targeted met the standard of a legislative act, meaning the citizens' initiative rights validly attached and the city's suit was, in substance, an attempt to chill Twente and Schmidt's protected petitioning activity. The court found the city's evidentiary showing conclusory, and because Kansas's anti-SLAPP statute shifts attorney's fees to a prevailing defendant, the ruling also means Edgerton must cover the legal expenses Twente and Schmidt incurred defending the suit.",
+        "The ruling's significance extends past Edgerton's town limits. Anti-SLAPP statutes were drafted primarily to deter wealthy private plaintiffs from using litigation to silence individual critics; applying the same framework against a city government that sued its own citizens is a comparatively novel maneuver, one that other data-center-adjacent municipalities weighing similar suits against petition organizers should now take seriously as a live litigation risk. The underlying policy fight is not over -- the ruling clears the path for the petition to proceed toward a public vote, rather than resolving whether Edgerton will ultimately restrict data center development -- but for developers and municipalities involved in the current wave of siting disputes, including comparable fights in Joliet, Illinois and Westlake, Texas, the case is an early signal that a city suing its critics carries real financial and legal exposure of its own, and that the administrative-versus-legislative characterization of a challenged ordinance is likely to remain a recurring, outcome-determinative fight worth building a substantial factual record around well before litigation."
+      ],
+      timeline: [
+        { when: "August 2026", label: "City of Edgerton sues residents Kimberly Twente and Carrie Schmidt to void their data-center-ban petition" },
+        { when: "September 3, 2026", label: "Judge Stephanie Goodenow dismisses the city's suit under the Kansas Public Speech Protection Act", current: true }
+      ],
+      judge: "Stephanie Goodenow",
+      parties: [
+        { name: "City of Edgerton", role: "Plaintiff" },
+        { name: "Public Trust Collective Inc.", role: "Defendant" }
+      ],
+      amountUsd: null,
+      propertyType: "Data Center",
+      tags: ["data center", "anti-slapp", "zoning", "kansas", "citizen petition"]
+    },
+    {
+      id: "live-190",
+      addedDate: "2026-09-26",
+      title: "175 Nassau Road Holding, Inc. Chapter 11 Petition (E.D.N.Y.)",
+      category: "lending-foreclosure",
+      status: "filed",
+      date: "2026-09-22",
+      jurisdiction: "United States Bankruptcy Court, Eastern District of New York",
+      state: "NY",
+      amount: "Undisclosed (financial details not yet public)",
+      source: "live",
+      sourceUrl: "https://www.courtlistener.com/docket/74830187/175-nassau-road-holding-inc/",
+      summary: "175 Nassau Road Holding, Inc. filed a Chapter 11 petition on September 22, 2026 in the United States Bankruptcy Court for the Eastern District of New York, case number 8-26-73728. This entry reflects only what the federal court docket shows; no independent news coverage of the filing was available at the time it was added to this tracker.",
+      significance: "Single-asset real estate entities named for their property address, like this debtor, make up a meaningful share of the current wave of small commercial Chapter 11 filings tied to distressed acquisition or construction debt. This tracker will add further detail as public reporting or additional docket activity becomes available.",
+      body: [
+        "175 Nassau Road Holding, Inc. filed a Chapter 11 petition on September 22, 2026 in the United States Bankruptcy Court for the Eastern District of New York, docketed as case number 8-26-73728. As of this entry, no independent news coverage of the filing had been published, so this record reflects only what the federal court docket itself shows: the debtor's name, the court, the case number, and the filing date.",
+        "Single-asset real estate entities, commonly organized as a standalone LLC or corporation named for the property's own street address, file Chapter 11 petitions of this kind regularly, and they make up a meaningful share of the current wave of small commercial bankruptcy filings tied to distressed acquisition, construction, or maturity debt. Because the debtor's sole meaningful asset is typically the property itself, these cases often proceed on a more compressed timeline than an operating business's reorganization. This tracker will update this entry, or add a related one, if further docket activity or independent reporting clarifies the debtor's property, its lender, and the circumstances of the filing."
+      ],
+      judge: null,
+      parties: [
+        { name: "175 Nassau Road Holding, Inc.", role: "Debtor" }
+      ],
+      amountUsd: null,
+      docketUrl: "https://www.courtlistener.com/docket/74830187/175-nassau-road-holding-inc/",
+      docketLabel: "CourtListener docket",
+      tags: ["chapter-11", "bankruptcy", "single-asset-entity", "new-york"]
     }
   ],
 
@@ -6633,7 +6771,8 @@ const RELAW_DATA = {
     { jurisdiction: "Supreme Court of Ohio", url: "https://www.supremecourt.ohio.gov/" },
     { jurisdiction: "California Court of Appeal, First Appellate District, Division Two", url: "https://www.courts.ca.gov/1dca.htm" },
     { jurisdiction: "U.S. Bankruptcy Court, District of New Jersey", url: "https://www.njb.uscourts.gov/" },
-    { jurisdiction: "Montgomery County Court of Common Pleas, Pennsylvania", url: "https://www.montgomerycountypa.gov/departments/county-courts/court-common-pleas" }
+    { jurisdiction: "Montgomery County Court of Common Pleas, Pennsylvania", url: "https://www.montgomerycountypa.gov/departments/county-courts/court-common-pleas" },
+    { jurisdiction: "Circuit Court of Will County, Illinois", url: "https://judges.willcountyillinois.com/" }
   ],
 
   /* Judges — background on every judge named in our sourced reporting (never
@@ -6929,6 +7068,14 @@ const RELAW_DATA = {
       court: "U.S. Bankruptcy Court, District of New Jersey",
       background: "Appointed to the U.S. Bankruptcy Court for the District of New Jersey, assuming office October 15, 2024, after serving as a partner at Fox Rothschild LLP and, before that, Riker Danzig LLP, representing debtors, creditors' committees, and secured lenders in Chapter 11, 7, and 13 cases. Previously a judicial law clerk to the Honorable Novalyn L. Winfield, U.S. Bankruptcy Judge for the District of New Jersey.",
       bioUrl: "https://www.njb.uscourts.gov/content/honorable-mark-e-hall"
+    },
+    {
+      name: "Victoria Breslan",
+      slug: "victoria-breslan",
+      title: "Circuit Judge",
+      court: "Circuit Court of Will County, Illinois",
+      background: "Elected Circuit Judge of Illinois's 12th Judicial Circuit in November 2024, after serving as an Associate Judge in the same circuit since 2018. Previously worked as a Will County Assistant State's Attorney and in private practice in Joliet. Holds a J.D. from IIT Chicago-Kent College of Law.",
+      bioUrl: "https://www.circuitclerkofwillcounty.com/Judge-Rules/Judge-Breslan"
     }
   ],
 
