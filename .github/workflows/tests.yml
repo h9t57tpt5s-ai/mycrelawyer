@@ -9,6 +9,7 @@ on:
     paths:
       - "supabase/functions/ingest-court-filings/**"
       - "supabase/functions/case-valuation-analyze/valuation-math*.ts"
+      - "supabase/functions/case-valuation-analyze/state-rules*"
       - "js/lease-rejection-calculator.js"
       - "scripts/tests/**"
       - "js/data.js"
@@ -27,7 +28,7 @@ jobs:
       - uses: denoland/setup-deno@v2
         with:
           deno-version: v2.x
-      - run: deno test --no-config --allow-read supabase/functions/ingest-court-filings/ supabase/functions/case-valuation-analyze/valuation-math.test.ts scripts/tests/
+      - run: deno test --no-config --allow-read supabase/functions/ingest-court-filings/ supabase/functions/case-valuation-analyze/valuation-math.test.ts supabase/functions/case-valuation-analyze/state-rules.test.ts scripts/tests/
       # Tracker entries added from Oct 1 must record parties, judge and
       # amount; the research routine runs this before it pushes.
       - run: python3 scripts/check_case_fields.py
