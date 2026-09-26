@@ -49,7 +49,7 @@ jobs:
         # the public log too.
         if: always()
         run: |
-          git add alert-log.html ops/alert-runs.json ops/alert-audit.json 2>/dev/null || true
+          git add alert-log.html ops/alert-runs.json ops/alert-audit.json ops/fresh-filings.json 2>/dev/null || true
           if git diff --cached --quiet; then echo "Nothing to record."; exit 0; fi
           git config user.name "credocket-surveillance-bot"
           git config user.email "actions@users.noreply.github.com"

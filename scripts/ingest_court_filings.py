@@ -51,6 +51,10 @@ DEFAULT_FUNCTION_URL = "https://ribmcdyoydhmafnyfhpp.supabase.co/functions/v1/in
 # CourtListener documents 5 requests/minute; 13s keeps us under it.
 SECONDS_BETWEEN_REQUESTS = 13
 RUNS = pathlib.Path("ops/alert-runs.json")
+FRESH = pathlib.Path("ops/fresh-filings.json")
+# Same name test as bankruptcy-watch.html's RE_HINT, so this file lists only
+# what that public page already shows: real estate and construction debtors.
+RE_HINT = re.compile(r"^\d+(-\d+)?\s|\b(propert(y|ies)|realty|real estate|developments?|developers?|apartments?|plaza|towers?|land|estates?|homebuilders?|construction|builders?|contractors?|hotels?|lodging|mall|shopping center|condominium|self storage|storage|roofing|flooring|electric|plumbing|demolition)\b", re.I)
 MAX_RUNS_KEPT = 90
 MAX_CH11_PAGES = 10
 DESIGNATORS = {"llc", "inc", "incorporated", "corp", "corporation", "co", "company",
@@ -471,6 +475,16 @@ def main():
         run["errors"].append(f"CourtListener pull failed: {type(err).__name__}: {err}")
         print(f"::warning::CourtListener pull failed, continuing without the rest of it: {err}")
     run["sources"]["courtlistener"] = len(filings)
+    # Fresh court events for the research routine (Jeff, 2026-09-26: "the
+    # content needs to be fresh with information from daily events being
+    # added daily"). The routine cannot reach court sites from its cloud
+    # environment, so the day's real estate Chapter 11 petitions are handed
+    # to it through the repository.
+    FRESH_ROWS.extend(
+        {"caseName": f["case_name"], "court": f["court_name"], "docketNumber": f["docket_number"],
+         "dateFiled": f["date_filed"], "docketUrl": f["docket_url"], "type": "Chapter 11 petition"}
+        for f in filings.values()
+        if f["filing_type"] == "bankruptcy_ch11" and RE_HINT.search(f["case_name"]))
 
     try:
         sec_rows = pull_sec_8k(date_from, date_to)
@@ -554,6 +568,24 @@ def main():
     print(f"Done: {len(rows)} federal filings, {len(state_rows)} state-court cases and {len(sec_rows)} SEC disclosures sent, {run['newMatches']} new portfolio match(es).")
 
 
+FRESH_ROWS = []
+
+
+def write_fresh():
+    """ops/fresh-filings.json: real estate Chapter 11 petitions filed in the
+    last four days, newest first, merged with the previous file so a run
+    that pulls a narrow window does not drop yesterday's rows."""
+    cutoff = (dt.datetime.now(dt.timezone.utc).date() - dt.timedelta(days=4)).isoformat()
+    old = json.loads(FRESH.read_text()).get("filings", []) if FRESH.exists() else []
+    merged = {r["docketUrl"]: r for r in old + FRESH_ROWS if r.get("dateFiled", "") >= cutoff}
+    rows = sorted(merged.values(), key=lambda r: (r["dateFiled"], r["caseName"]), reverse=True)
+    FRESH.parent.mkdir(exist_ok=True)
+    FRESH.write_text(json.dumps({"updatedAt": dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds"),
+                                 "about": "Real estate and construction Chapter 11 petitions filed in the last four days, from federal court records via CourtListener. Same name test as bankruptcy-watch.html. Business debtors only.",
+                                 "filings": rows}, indent=1) + "\n")
+    print(f"Fresh filings file: {len(rows)} petition(s) since {cutoff}")
+
+
 def write_audit(function_url, anon_key, secret):
     """Append this run to ops/alert-runs.json and re-render alert-log.html.
 
@@ -593,6 +625,7 @@ if __name__ == "__main__":
         import traceback
         traceback.print_exc()
     if os.environ.get("WRITE_ALERT_LOG") == "1":
+        write_fresh()
         run["ok"] = not failed and not run["errors"]
         write_audit(os.environ.get("INGEST_FUNCTION_URL", DEFAULT_FUNCTION_URL),
                     os.environ.get("SUPABASE_ANON_KEY", ""), os.environ.get("AUTOMATION_SECRET", ""))
