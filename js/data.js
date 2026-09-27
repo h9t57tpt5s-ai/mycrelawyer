@@ -16,7 +16,7 @@ const RELAW_DATA = {
      Drives the homepage's "New Today" pill: it only shows when this
      equals the visitor's local today. Updated by the digest automation
      each time Step 4 successfully adds a case — never touched otherwise. */
-  lastUpdatedDate: "2026-09-26",
+  lastUpdatedDate: "2026-09-27",
   categories: [
     { id: "landlord-tenant", label: "Landlord–Tenant", color: "var(--cat-landlord)" },
     { id: "zoning-land-use", label: "Zoning & Land Use", color: "var(--cat-zoning)" },
@@ -6351,6 +6351,70 @@ const RELAW_DATA = {
       docketUrl: "https://www.courtlistener.com/docket/74830187/175-nassau-road-holding-inc/",
       docketLabel: "CourtListener docket",
       tags: ["chapter-11", "bankruptcy", "single-asset-entity", "new-york"]
+    },
+    {
+      id: "live-191",
+      addedDate: "2026-09-27",
+      title: "United Property Investments & Realty Services LLC Chapter 11 Petition (M.D. Fla.)",
+      category: "lending-foreclosure",
+      status: "filed",
+      date: "2026-09-25",
+      jurisdiction: "United States Bankruptcy Court, Middle District of Florida",
+      state: "FL",
+      amount: "Undisclosed (financial details not yet public)",
+      source: "live",
+      sourceUrl: "https://www.courtlistener.com/docket/74855344/united-property-investments-realty-services-llc/",
+      summary: "United Property Investments & Realty Services LLC filed a Chapter 11 petition on September 25, 2026 in the United States Bankruptcy Court for the Middle District of Florida, case number 6:26-bk-07478. This entry reflects only what the federal court docket shows; no independent news coverage of the filing was available at the time it was added to this tracker.",
+      significance: "The debtor's own name signals a real estate investment and property-management business rather than a single-asset holding entity, placing it among the commercial real estate operators swept up in the current wave of Chapter 11 filings tied to distressed acquisition or financing debt. This tracker will add further detail as public reporting or additional docket activity becomes available.",
+      body: [
+        "United Property Investments & Realty Services LLC filed a Chapter 11 petition on September 25, 2026 in the United States Bankruptcy Court for the Middle District of Florida, docketed as case number 6:26-bk-07478. As of this entry, no independent news coverage of the filing had been published, so this record reflects only what the federal court docket itself shows: the debtor's name, the court, the case number, and the filing date.",
+        "Unlike a single-asset entity named for one property's street address, this debtor's name points to a real estate investment and realty-services operation, suggesting a portfolio or management business rather than a single distressed parcel, though the docket does not yet disclose the scope of its holdings, its lender, or the circumstances behind the filing. This tracker will update this entry, or add a related one, if further docket activity or independent reporting clarifies the debtor's business and the filing's circumstances."
+      ],
+      judge: null,
+      parties: [
+        { name: "United Property Investments & Realty Services LLC", role: "Debtor" }
+      ],
+      amountUsd: null,
+      docketUrl: "https://www.courtlistener.com/docket/74855344/united-property-investments-realty-services-llc/",
+      docketLabel: "CourtListener docket",
+      tags: ["chapter-11", "bankruptcy", "florida"]
+    },
+    {
+      id: "live-192",
+      addedDate: "2026-09-27",
+      title: "A&F Williams Street LLC v. New York Power Authority ($3M+ Structural Damage Suit Over White Plains Garage Demolition)",
+      category: "premises-liability",
+      status: "filed",
+      date: "2026-09-15",
+      jurisdiction: "Supreme Court of the State of New York, Westchester County",
+      state: "NY",
+      amount: "$3 million+ in demanded damages and repair costs",
+      source: "live",
+      sourceUrl: "https://westfaironline.com/latest-news/white-plains-landlord-sues-new-york-power-authority-for-3m/",
+      summary: "A&F Williams Street LLC, owner of a five-story office building at 165 Main Street in White Plains, sued the New York Power Authority in Westchester County Supreme Court on September 15, 2026, alleging that vibration from NYPA's demolition of its adjacent parking garage cracked the building's roof parapet and detached its roofing membrane. The negligence-and-trespass suit seeks more than $3 million in damages and repair costs and asks the court to halt further demolition absent a reasonable access agreement.",
+      significance: "Illustrates how a commercial owner's short-term access accommodation to a neighboring developer, public or private, can become the flashpoint for a structural-damage claim once demolition work exceeds what the access agreement contemplated. Owners near infrastructure or redevelopment projects, and the authorities and developers doing that work, should take note of how monitoring, notice, and access-agreement drafting bear on liability once damage actually occurs.",
+      body: [
+        "A commercial landlord in downtown White Plains has sued the New York Power Authority for more than $3 million, alleging that demolition and construction work at NYPA's headquarters complex cracked the roof and damaged the structure of the office building next door. The case, filed September 15, 2026 in Supreme Court, Westchester County, is a reminder that a property owner's consent to let a neighboring landowner onto its site for one purpose does not necessarily protect that neighbor once the resulting work causes physical damage the owner never agreed to bear.",
+        "The plaintiff, A&F Williams Street LLC, has owned the five-story office building at 165 Main Street since 2014, when it was formed by Anthony and Frank Longhitano to hold the property. The building sits across from the site of the former Galleria mall and adjacent to NYPA's 123 Main Street headquarters, a 16-story tower built with an integrated six-story, 700-space parking structure. That garage closed in 2021 after reaching the end of its useful life, and NYPA subsequently began a demolition and construction project to remove it and redevelop the site.",
+        "According to the complaint, A&F agreed in 2025 to grant NYPA temporary access to its property for roughly seven months so the authority could conduct a survey and install vibration-monitoring equipment ahead of the demolition work. A&F's suit alleges that the access agreement did not anticipate, and A&F did not consent to, the level of physical damage that followed: the demolition generated excessive vibration that cracked the rooftop parapet of 165 Main Street and detached a section of roofing membrane, exposing the building to water intrusion. A&F says it has since had to install protective scaffolding at a cost of roughly $12,000 a month, and that repairs to the building are now estimated to run past $3 million.",
+        "The complaint asserts claims for negligence and trespass, arguing that NYPA should have known that demolition immediately adjacent to an occupied commercial structure carried a substantial risk of causing exactly this kind of structural harm, and that the authority failed to take precautions commensurate with that risk. A&F is asking the court not only for damages sufficient to cover the repair costs, but for an order requiring NYPA to fix the damage and to halt further demolition and construction activity unless and until the parties agree on reasonable terms for continued access to A&F's property. The pairing of trespass with negligence is a common response to this dynamic: if NYPA's conduct is found to have exceeded the scope of the access A&F actually granted, the authority's presence on or effect upon A&F's property may no longer be privileged, regardless of the original agreement's terms.",
+        "The dispute also highlights the practical asymmetry between a commercial landlord and a state public-benefit corporation acting as its own developer. NYPA does not need a private landlord's permission to demolish its own garage, but it does need some accommodation from neighbors to monitor and manage the effects of that demolition on adjoining structures, an accommodation that, once granted, can become the basis for litigation if the underlying project does not go as planned. For NYPA, which has separately been reported to be exploring redevelopment of its Main Street headquarters site with a private partner, the litigation adds a complicating factor to that process.",
+        "The case is a useful reminder for commercial owners on both sides of a construction fence. An owner granting a neighboring developer or public authority short-term access for monitoring or survey work should insist on a written scope-of-work and damage-allocation provision in the access agreement itself, document baseline building conditions before work begins, and give prompt written notice the moment vibration, cracking, or membrane damage appears, since contemporaneous notice strengthens both a negligence claim and any argument that consent to access never extended to the harm that resulted. Developers and public authorities running demolition near occupied structures should build vibration and structural monitoring into the project from the outset and treat any access agreement with a neighbor as a document that needs to address damage and remediation, not just entry rights, while confirming that general liability and builder's risk coverage actually responds to third-party structural damage claims of this kind, since litigation exposure like this can surface well after the work is underway."
+      ],
+      timeline: [
+        { when: "2014", label: "A&F Williams Street LLC acquires the five-story office building at 165 Main Street, White Plains" },
+        { when: "2021", label: "NYPA closes the integrated parking garage at its adjacent 123 Main Street headquarters" },
+        { when: "2025", label: "A&F grants NYPA roughly seven months of access to survey and install vibration-monitoring equipment ahead of demolition" },
+        { when: "September 15, 2026", label: "A&F sues NYPA in Westchester County Supreme Court for negligence and trespass, seeking over $3 million", current: true }
+      ],
+      judge: null,
+      parties: [
+        { name: "A&F Williams Street LLC", role: "Plaintiff" },
+        { name: "New York Power Authority", role: "Defendant" }
+      ],
+      amountUsd: 3000000,
+      amountBasis: "damages sought",
+      tags: ["premises-liability", "construction-damage", "trespass", "negligence", "white-plains"]
     }
   ],
 
