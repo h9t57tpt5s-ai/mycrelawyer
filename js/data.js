@@ -6415,6 +6415,99 @@ const RELAW_DATA = {
       amountUsd: 3000000,
       amountBasis: "damages sought",
       tags: ["premises-liability", "construction-damage", "trespass", "negligence", "white-plains"]
+    },
+    {
+      id: "live-193",
+      addedDate: "2026-09-27",
+      featured: true,
+      title: "Baltimore Residents Sue to Block MCB's $900M Harborplace Redevelopment",
+      category: "zoning-land-use",
+      status: "filed",
+      date: "2026-09-21",
+      jurisdiction: "Circuit Court for Baltimore City, Maryland",
+      state: "MD",
+      amount: "$900 million redevelopment; suit seeks to void enabling zoning/Charter legislation",
+      source: "live",
+      sourceUrl: "https://baltimorefishbowl.com/stories/seven-residents-file-suit-to-block-mcb-real-estates-900m-plan-to-demolish-and-replace-baltimores-harborplace-pavilions/",
+      summary: "Seven Baltimore residents and business owners sued the City of Baltimore, its City Council, the Board of Estimates, and developer MCB HP Baltimore LLC on September 21, 2026, seeking to void the 2024 City Charter amendment and zoning changes that cleared the way for MCB Real Estate's roughly $900 million plan to demolish the Harborplace pavilions and build two residential towers, office space, and retail along the Inner Harbor. The suit alleges the City violated procedural and charter requirements in approving the redevelopment, including reclassifying dedicated public parkland for private development. MCB publicly rejected the suit days later as an attempt to block the project's revitalization.",
+      significance: "The case tests how far a municipality can go, procedurally, to enable a marquee private redevelopment on formerly dedicated public parkland, and illustrates a broader pattern of opponents challenging the legislative mechanics behind a project's approval rather than its underlying zoning merits. Developers and municipalities structuring similar Charter or zoning packages around a specific project should treat the durability of the enabling legislation itself as a distinct legal-risk category from the zoning entitlement it produces.",
+      body: [
+        "Seven Baltimore residents and business owners filed suit on September 21, 2026 against the City of Baltimore, the City Council, the Board of Estimates, and developer MCB HP Baltimore LLC, seeking to unwind the legislative package that cleared the way for MCB Real Estate's roughly $900 million plan to demolish Harborplace's waterfront pavilions and replace them with two residential towers, office and retail buildings, and reconfigured public space along the Inner Harbor. The suit, filed in the Circuit Court for Baltimore City, does not principally argue that the redevelopment itself is a bad idea; it argues that the City got there by an unlawful process, and it asks the court to void the approvals as a result. Within two days, MCB fired back publicly, framing the plaintiffs as a small group trying to block long-overdue revitalization of a landmark that has struggled commercially for years.",
+        "The dispute traces back to March 2024, when the Baltimore City Council passed, and Mayor Brandon Scott signed, three interlocking pieces of legislation clearing MCB's plan for the Inner Harbor site. One amended the City Charter to permit multifamily housing and structured parking on a stretch of the harbor that had previously been dedicated as public parkland -- a designation with real legal weight, since public trust doctrine and dedicated-parkland restrictions can constrain what a city may permit private development to do on such land even when the city itself is the one authorizing it. A second measure rewrote applicable zoning, removing a 100-foot height limit and authorizing the mixed-use program MCB now proposes: two residential towers of 32 and 25 stories totaling roughly 900 units, two 200,000-square-foot commercial and retail buildings, and an additional freestanding 8,500-square-foot retail building, replacing the low-rise pavilions that have anchored the Inner Harbor since the early 1980s.",
+        "The plaintiffs' complaint does not ask the court to weigh whether that program is good planning. Instead, it alleges that the City's approval process failed to comply with procedural and substantive requirements attached to the Charter amendment and the zoning changes -- a claim that, if successful, does not require a court to second-guess the City Council's judgment about land use at all, only to enforce the rules the City itself was bound to follow in reaching that judgment. Maryland courts generally extend substantial deference to a municipality's substantive zoning and land-use decisions, but that deference has real limits when a plaintiff can show the decision-making process itself violated a charter or statutory requirement, particularly one -- like a change to the classification of dedicated public parkland -- that exists specifically to constrain what a city can too easily give away.",
+        "The Harborplace fight fits a pattern increasingly familiar in large urban redevelopment disputes nationally: opponents who cannot stop a project through ordinary public comment or the political process instead look to the legislative and procedural mechanics that enabled it, seeking a technical or structural defect a court can act on without relitigating the underlying planning merits. Its success here will likely turn on granular questions of Maryland municipal and charter law -- whether the 2024 legislation was adopted with the specific findings, hearings, or supermajorities a Charter amendment of this kind requires, and whether reclassifying dedicated parkland for private multifamily and commercial use exceeded what the City Council could accomplish through ordinary legislation at all. The case remains at an early stage, with no hearing date yet reported on dispositive motions.",
+        "For commercial developers, the case is a reminder that a politically popular, well-financed redevelopment remains vulnerable to a procedural challenge targeting the legislative mechanics of its own approval, and that community or council support is no substitute for a scrupulously documented approval record. For municipalities, it underscores that reclassifying dedicated public parkland or waterfront trust land for private development carries elevated legal risk distinct from ordinary rezoning, and that a Charter amendment or zoning package built around a specific, named project needs a hearing and findings record able to withstand a procedural challenge on its own terms, independent of the project's popularity. Developers financing or acquiring an interest in a project built on a recent legislative or charter change should diligence the durability of that enabling legislation, not just the zoning entitlement it produced, before treating land-use risk as resolved."
+      ],
+      timeline: [
+        { when: "March 2024", label: "Baltimore City Council passes, and Mayor Brandon Scott signs, the Charter amendment and zoning changes enabling MCB's Harborplace plan" },
+        { when: "September 21, 2026", label: "Seven residents and business owners sue the City of Baltimore and MCB HP Baltimore LLC to void the approvals", current: true },
+        { when: "September 23, 2026", label: "MCB Real Estate publicly rejects the suit as an attempt to block the project's revitalization" }
+      ],
+      judge: null,
+      parties: [
+        { name: "MCB HP Baltimore LLC", role: "Defendant/Developer" },
+        { name: "City of Baltimore", role: "Defendant" }
+      ],
+      amountUsd: 900000000,
+      amountBasis: "other",
+      propertyType: "Mixed-Use",
+      tags: ["zoning", "land use", "harborplace", "baltimore", "waterfront redevelopment"]
+    },
+    {
+      id: "live-194",
+      addedDate: "2026-09-27",
+      title: "7920 Riviera Beach Holdings LLC v. Riviera Beach Utility Special District (157% Water Impact Fee Suit)",
+      category: "zoning-land-use",
+      status: "filed",
+      date: "2026-09-18",
+      jurisdiction: "Circuit Court of the 15th Judicial Circuit, Palm Beach County, Florida",
+      state: "FL",
+      amount: "$1.6 million in added impact fees at issue",
+      source: "live",
+      sourceUrl: "https://www.bocaratontribune.com/bocaratonnews/2026/09/developer-sues-city-says-water-fees-violates-florida-law/",
+      summary: "7920 Riviera Beach Holdings LLC sued the Riviera Beach Utility Special District on or about September 18, 2026, alleging the district's 157% increase in water and wastewater impact fees was illegally applied to its already-pending 315-unit apartment permit at 7880 North Military Trail, in violation of the Florida Impact Fee Act's bar on retroactive fee increases. The developer says the increase, adopted in February 2025 and effective June 1, 2025, raised its per-unit charge from $3,940 to $10,126, adding roughly $1.6 million to the project's cost. The utility district reportedly argues the charges are not statutory 'impact fees' subject to the Act at all.",
+      significance: "The case tests a core protection of Florida's Impact Fee Act -- that a pending permit application is shielded from a subsequently adopted fee increase -- against a municipal utility's attempt to recharacterize the disputed charge outside the statute's coverage entirely. Developers and fast-growing Florida municipalities alike should treat both the timing of permit completeness and the statutory labeling of infrastructure fees as live litigation risk.",
+      body: [
+        "A developer planning a 315-unit apartment complex in Riviera Beach, Florida sued the city's water utility on or about September 18, 2026, accusing the Riviera Beach Utility Special District of illegally applying a 157% increase in water and wastewater impact fees to a project whose permits were already pending before the higher fees took effect. The plaintiff, 7920 Riviera Beach Holdings LLC, says the fee hike added roughly $1.6 million to the cost of its planned development at 7880 North Military Trail, and that applying it to an already-submitted application violates the Florida Impact Fee Act's protection against retroactive fee increases.",
+        "According to the complaint, the utility district's governing board approved the increased fees in February 2025, effective June 1, 2025. The developer says it had already submitted a complete permit application by April 24, 2025 -- weeks before the new schedule took effect -- and that the per-unit impact charge nonetheless jumped from $3,940 to $10,126. Florida's Impact Fee Act generally bars a local government from applying a newly adopted or increased impact fee to a permit application pending before the fee's effective date, and the developer's complaint leans directly on that protection. The utility district, notably, is reported to be arguing the disputed charges were never statutory 'impact fees' in the first place -- a threshold characterization fight that, if the district wins it, would sidestep the retroactivity question regardless of filing dates.",
+        "For developers, the case is a reminder that Florida's protection against a mid-application fee increase must be affirmatively invoked and litigated, including against a municipality's attempt to recharacterize a disputed charge outside the statute's coverage; documenting the date a permit application is deemed complete is essential to preserving that defense. For municipalities and utility districts, it is a caution that how a fee is labeled will be tested against the statute's substance, not just its own ordinance terminology, when a developer challenges a steep increase adopted mid-application."
+      ],
+      judge: null,
+      parties: [
+        { name: "7920 Riviera Beach Holdings LLC", role: "Plaintiff/Developer" },
+        { name: "Riviera Beach Utility Special District", role: "Defendant" }
+      ],
+      amountUsd: 1600000,
+      amountBasis: "claim",
+      propertyType: "Multifamily",
+      tags: ["impact fees", "zoning", "multifamily development", "florida", "municipal law"]
+    },
+    {
+      id: "live-195",
+      addedDate: "2026-09-27",
+      title: "Moyvane-Arabian Properties, LLC Chapter 11 Petition (E.D. La.)",
+      category: "lending-foreclosure",
+      status: "filed",
+      date: "2026-09-25",
+      jurisdiction: "United States Bankruptcy Court, Eastern District of Louisiana",
+      state: "LA",
+      amount: "Undisclosed (financial details not yet public)",
+      source: "live",
+      sourceUrl: "https://www.courtlistener.com/docket/74853746/moyvane-arabian-properties-llc/",
+      summary: "Moyvane-Arabian Properties, LLC filed a Chapter 11 petition on September 25, 2026 in the United States Bankruptcy Court for the Eastern District of Louisiana, case number 26-12472. This entry reflects only what the federal court docket shows; no independent news coverage of the filing was available at the time it was added to this tracker.",
+      significance: "Real-estate-named entities filing Chapter 11 in the current environment make up a meaningful share of small commercial bankruptcy filings tied to distressed acquisition, leasing, or financing debt. This tracker will add further detail as public reporting or additional docket activity becomes available.",
+      body: [
+        "Moyvane-Arabian Properties, LLC filed a Chapter 11 petition on September 25, 2026 in the United States Bankruptcy Court for the Eastern District of Louisiana, docketed as case number 26-12472. As of this entry, no independent news coverage of this specific filing's underlying circumstances had been published, so this record reflects only what the federal court docket itself shows: the debtor's name, the court, the case number, and the filing date.",
+        "This entry is added under CREdocket's standing practice of logging fresh commercial real estate Chapter 11 petitions directly from federal court records when filed by an entity whose name is consistent with real estate ownership or operation, even before independent reporting becomes available. This tracker will update the entry, or add a related one, if further docket activity or independent reporting clarifies the debtor's property, its creditors, and the circumstances of the filing."
+      ],
+      judge: null,
+      parties: [
+        { name: "Moyvane-Arabian Properties, LLC", role: "Debtor" }
+      ],
+      amountUsd: null,
+      docketUrl: "https://www.courtlistener.com/docket/74853746/moyvane-arabian-properties-llc/",
+      docketLabel: "CourtListener docket",
+      tags: ["chapter-11", "bankruptcy", "louisiana"]
     }
   ],
 
