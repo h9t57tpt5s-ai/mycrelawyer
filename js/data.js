@@ -6595,6 +6595,81 @@ const RELAW_DATA = {
       docketUrl: "https://www.courtlistener.com/docket/74856205/urban-development-group-llc/",
       docketLabel: "CourtListener docket",
       tags: ["chapter-11", "bankruptcy", "tennessee"]
+    },
+    {
+      id: "live-199",
+      addedDate: "2026-09-28",
+      featured: true,
+      title: "In re Brass Works Urban Renewal Company, LLC (Chapter 11 Dismissed 'For Cause' After Delaware Control Fight Loss)",
+      category: "lending-foreclosure",
+      status: "ruling",
+      date: "2026-09-28",
+      jurisdiction: "United States Bankruptcy Court, District of New Jersey",
+      state: "NJ",
+      propertyType: "Multifamily",
+      amount: "Debtor reported $50M–$100M in assets, $10M–$50M in liabilities; underlying preferred-equity investment was $18M",
+      source: "live",
+      sourceUrl: "https://www.law360.com/bankruptcy-authority/mid-cap/articles/2530821",
+      summary: "A New Jersey bankruptcy judge dismissed the Chapter 11 case of Brass Works Urban Renewal Company, LLC, the sponsor of a warehouse-to-residential loft conversion on Paterson Plank Road in Jersey City, finding the objecting creditor would be harmed more by the case continuing than the debtor would be by dismissal. Brass Works had filed Chapter 11 on May 22, 2026, roughly six months after losing a Delaware Court of Chancery fight in which preferred-equity investor ASVRF Paterson Plank RD J-C, LLC won the right to remove Brass Works as the project LLC's manager following a payment default.",
+      significance: "The case illustrates how quickly a single-asset Chapter 11 filed on the heels of a lost entity-control fight can draw a 'for cause' dismissal under 11 U.S.C. section 1112(b). Preferred-equity and mezzanine investors who have already won a removal or enforcement remedy in another forum should be prepared for a follow-on bankruptcy filing by the sponsor, and should document the harm continued delay would cause to support a swift dismissal motion.",
+      body: [
+        "A New Jersey bankruptcy judge on September 28, 2026 dismissed the Chapter 11 case of Brass Works Urban Renewal Company, LLC, the sponsor behind a warehouse-to-residential loft conversion on Paterson Plank Road in Jersey City, finding that the creditor who moved to dismiss stood to be harmed more by the case continuing than the debtor would be by having it tossed, according to Law360. The ruling closes out, at least for now, a Chapter 11 case that Brass Works filed on May 22, 2026 in the U.S. Bankruptcy Court for the District of New Jersey, case number 2:26-bk-15809, listing assets of $50 million to $100 million against liabilities of $10 million to $50 million.",
+        "The dismissal is notable less for its dollar figures than for its timing and posture. Brass Works arrived in bankruptcy court roughly six months after losing a fight in the Delaware Court of Chancery over control of the entity that owns the Jersey City property. In a post-trial opinion issued November 21, 2025 in ASVRF Paterson Plank RD J-C, LLC v. Brass Works Urban Renewal Company, LLC, the Chancery Court found that ASVRF, a preferred-equity investor that had put $18 million into the LLC formed to develop the property in exchange for a preferred monthly distribution, had validly exercised a contractual remedy to remove and replace Brass Works as manager after Brass Works defaulted on its payment obligations. The court held that Brass Works' refusal to cede control breached the operating agreement.",
+        "Law360's report on the September 28 dismissal does not identify by name the creditor whose objection persuaded the bankruptcy judge to dismiss for cause, so it is not confirmed in the public reporting that ASVRF itself was the moving party. But the timeline is difficult to read as coincidental: a sponsor ordered out of the manager's seat by a Chancery Court after defaulting on a preferred-equity investor's distributions, filing a single-asset Chapter 11 case less than half a year later, is a fact pattern bankruptcy judges see often enough to treat with skepticism. Courts applying 11 U.S.C. section 1112(b) routinely dismiss cases for cause where a Chapter 11 filing appears aimed less at reorganizing a viable business than at using the automatic stay to relitigate, or delay enforcement of, a state-law control dispute the debtor has already lost elsewhere.",
+        "For commercial real estate sponsors and their lenders and equity partners, the case is a useful data point on where that line tends to fall. A Chapter 11 filing automatically stays enforcement efforts the moment it is filed, making it an attractive tool for a sponsor facing imminent loss of control over a single-asset property vehicle. But that same single-asset character — one property, a thin creditor body, and a control dispute already litigated elsewhere — is precisely what makes these cases vulnerable to a quick for-cause dismissal motion.",
+        "The case also underscores the layered capital structures common in New Jersey urban renewal entity deals, where redevelopment agreements, PILOT tax arrangements, and preferred-equity joint ventures combine to create several distinct forums in which a single project's disputes can play out — Delaware for entity-control questions under the LLC agreement, New Jersey for any bankruptcy case, and the local redevelopment agency for compliance with the underlying urban renewal agreement. Sponsors and investors negotiating these structures should build coordinated default and remedy provisions across all of those layers rather than assuming any single forum will resolve a dispute completely. A Chapter 11 filing that follows closely on a lost control fight elsewhere invites a for-cause dismissal motion, and preferred-equity or mezzanine investors who win a removal or enforcement remedy in one forum should expect, and prepare for, a follow-on bankruptcy filing rather than treating their initial win as the end of the matter."
+      ],
+      judge: null,
+      parties: [
+        { name: "Brass Works Urban Renewal Company, LLC", role: "Debtor" },
+        { name: "ASVRF Paterson Plank RD J-C, LLC", role: "Preferred Equity Investor" }
+      ],
+      amountUsd: 18000000,
+      amountBasis: "other",
+      documentUrl: "https://www.courtlistener.com/opinion/10740485/asvrf-paterson-plank-rd-j-c-llc-v-brass-works-urban-renewal-company-llc/",
+      documentLabel: "Read the related Delaware Chancery opinion (ASVRF v. Brass Works)",
+      timeline: [
+        { when: "November 21, 2025", label: "Delaware Court of Chancery rules ASVRF Paterson Plank RD J-C, LLC validly removed Brass Works as manager of the project LLC after a payment default" },
+        { when: "May 22, 2026", label: "Brass Works Urban Renewal Company, LLC files Chapter 11 in the U.S. Bankruptcy Court for the District of New Jersey (Case No. 2:26-bk-15809)" },
+        { when: "September 28, 2026", label: "Bankruptcy judge dismisses the Chapter 11 case 'for cause,' finding the objecting creditor would be more harmed by continuation than the debtor by dismissal", current: true }
+      ],
+      tags: ["chapter-11", "preferred-equity", "urban-renewal", "new-jersey", "dismissal"]
+    },
+    {
+      id: "live-200",
+      addedDate: "2026-09-28",
+      title: "Lambiaso/TerraWatt v. City of St. Louis Board of Adjustment (Midtown Armory Data Center Zoning Cross-Suits)",
+      category: "zoning-land-use",
+      status: "filed",
+      date: "2026-09-16",
+      jurisdiction: "Circuit Court of the City of St. Louis, Missouri",
+      state: "MO",
+      propertyType: "Data Center",
+      amount: "$3.1 billion data center project (scale of underlying development)",
+      source: "live",
+      sourceUrl: "https://www.stlpr.org/news-briefs/2026-09-17/developer-st-louis-data-center-armory-files-lawsuit-against-city",
+      summary: "David Lambiaso, co-founder of data center developer TerraWatt, sued the St. Louis Board of Adjustment, arguing it exceeded its authority when it conditioned approval of a 120-megawatt data center near the historic Armory on the project supplying on-site renewable energy and on aldermen approving a related community benefits agreement. The suit follows an earlier one filed August 28, 2026 by the Missouri Coalition for the Environment, the Missouri Workers Center, and area residents seeking judicial review of the same Board of Adjustment approval of the $3.1 billion project, planned for the former Famous-Barr warehouse at 3728 and 3854-58 Market Street.",
+      significance: "The dispute presents a novel question about how far a municipal zoning board can go in attaching operational conditions — on-site renewable energy generation, aldermanic sign-off on a community benefits agreement — to a conditional use permit, and whether those conditions exceed statutory zoning authority. Data center developers and the local governments approving them are increasingly generating both permit-approval challenges from opponents and reverse challenges from developers contesting the conditions attached to their own approvals.",
+      body: [
+        "A developer and a coalition of neighborhood and environmental groups are now suing the City of St. Louis over the same zoning approval, from opposite directions. David Lambiaso, co-founder of data center developer TerraWatt, filed suit in mid-September 2026 arguing that the St. Louis Board of Adjustment exceeded its authority when it upheld a conditional use permit in July for a proposed 120-megawatt data center near the historic Armory building on Market Street, but attached conditions Lambiaso's complaint calls practically impossible to satisfy on the project's 11-acre site.",
+        "The core dispute concerns two conditions the Board attached to its approval. First, the Board required the project to supply at least 2.4 megawatts of renewable energy on-site, a figure the complaint argues cannot realistically be met on the available acreage even though TerraWatt had already committed, in a separate community benefits agreement, to sourcing at least 50% of the facility's energy load — roughly 60 megawatts — from renewable sources within five years of opening, largely through off-site power purchases rather than on-site generation. Second, the Board conditioned its approval on the Board of Aldermen separately approving that community benefits agreement, which the suit argues exceeds both the Board of Adjustment's and the aldermen's proper authority over a conditional use permit.",
+        "The developer's suit follows an earlier one filed August 28, 2026 in St. Louis Circuit Court by the Missouri Coalition for the Environment, the Missouri Workers Center, and more than a dozen individual residents and business owners, seeking judicial review of the same Board of Adjustment decision from the opposite direction — arguing the Board lacked authority to approve a data center as a conditional use in the applicable zoning district at all. That suit names the City of St. Louis, members of the Board of Adjustment, and Lambiaso himself as respondents.",
+        "Together, the two suits leave the $3.1 billion project, planned for the former Famous-Barr warehouse at 3728 and 3854-58 Market Street as part of a broader technology district, contesting its zoning approval from both sides simultaneously. For commercial developers and municipalities alike, the litigation is a reminder that a conditional use approval loaded with negotiated, project-specific conditions can generate exposure in both directions: neighbors and advocacy groups arguing the approval should never have issued, and the developer itself arguing the conditions attached to it exceed the approving body's authority. Municipalities attaching detailed operational or community-benefit conditions to zoning approvals for data centers and other large infrastructure projects should ensure those conditions are clearly grounded in the jurisdiction's own zoning code and delegate authority appropriately between the zoning board and elected officials, rather than relying on negotiated side agreements to fill gaps in that authority."
+      ],
+      judge: null,
+      parties: [
+        { name: "TerraWatt", role: "Petitioner/Developer" },
+        { name: "City of St. Louis", role: "Respondent" },
+        { name: "Missouri Coalition for the Environment", role: "Petitioner" },
+        { name: "Missouri Workers Center", role: "Petitioner" }
+      ],
+      amountUsd: null,
+      timeline: [
+        { when: "July 2026", label: "St. Louis Board of Adjustment upholds a conditional use permit for the data center with renewable-energy and community-benefits-agreement conditions attached" },
+        { when: "August 28, 2026", label: "Missouri Coalition for the Environment and area residents sue the city and Board of Adjustment seeking judicial review of the approval" },
+        { when: "September 16, 2026", label: "Developer David Lambiaso/TerraWatt sues the Board of Adjustment over the conditions attached to the same approval", current: true }
+      ],
+      tags: ["data-center", "zoning", "missouri", "community-benefits-agreement", "conditional-use-permit"]
     }
   ],
 
