@@ -16,7 +16,7 @@ const RELAW_DATA = {
      Drives the homepage's "New Today" pill: it only shows when this
      equals the visitor's local today. Updated by the digest automation
      each time Step 4 successfully adds a case — never touched otherwise. */
-  lastUpdatedDate: "2026-09-27",
+  lastUpdatedDate: "2026-09-28",
   categories: [
     { id: "landlord-tenant", label: "Landlord–Tenant", color: "var(--cat-landlord)" },
     { id: "zoning-land-use", label: "Zoning & Land Use", color: "var(--cat-zoning)" },
@@ -6508,6 +6508,93 @@ const RELAW_DATA = {
       docketUrl: "https://www.courtlistener.com/docket/74853746/moyvane-arabian-properties-llc/",
       docketLabel: "CourtListener docket",
       tags: ["chapter-11", "bankruptcy", "louisiana"]
+    },
+    {
+      id: "live-196",
+      addedDate: "2026-09-28",
+      featured: true,
+      title: "Murphy v. CBL & Associates Properties, Inc. (Negligent Security Suit Over Northwoods Mall Food Court Stabbing)",
+      category: "premises-liability",
+      status: "filed",
+      date: "2026-09-25",
+      jurisdiction: "South Carolina Court of Common Pleas, Charleston County",
+      state: "SC",
+      amount: "Unspecified damages sought",
+      source: "live",
+      sourceUrl: "https://www.live5news.com/2026/09/25/lawsuit-woman-stabbed-northwoods-mall-sues-mall-owners-security/",
+      summary: "A woman stabbed in the food court of Northwoods Mall in North Charleston, South Carolina on March 4, 2026 has sued the mall's owner, CBL & Associates Properties, Inc., along with its security contractors, alleging inadequate security let her attacker walk in with an open knife and attack her before anyone intervened. The suit, filed in late September 2026, is the latest in a series of premises-liability claims arising from security incidents at the same mall, including an earlier shooting that also produced litigation against the ownership and its security vendors.",
+      significance: "Negligent-security claims invite discovery into a property's entire security budget, staffing levels, and incident history, and courts are increasingly willing to let such claims reach a jury once a property has an established record of prior violent incidents. For CBL and other mall owners and REITs managing properties with documented security histories, each new incident makes the 'unforeseeable' defense harder to sustain and raises the practical stakes of security staffing and vendor-indemnification decisions.",
+      body: [
+        "A woman who was stabbed in the food court of Northwoods Mall in North Charleston, South Carolina, has sued the mall's owner, CBL & Associates Properties, Inc., along with the companies responsible for the property's security, alleging that inadequate security measures allowed her attacker to walk into the mall with an open blade and inflict serious injuries before anyone intervened. The case, filed in late September 2026, is the latest in a series of premises-liability suits arising out of security incidents at Northwoods Mall, and it illustrates a legal-risk pattern that commercial property owners and REITs ignore at their peril: once a shopping center accumulates a documented history of violent incidents, each new one becomes harder to defend as unforeseeable.",
+        "According to reporting on the complaint, the plaintiff was attacked by a stranger armed with a large kitchen knife inside the mall's food court on March 4, 2026, suffering stab wounds and lacerations that required hospital treatment. Her attacker has since been criminally charged with attempted murder and weapons offenses arising from the incident. The civil lawsuit alleges that mall security and staff failed to stop the assailant despite the visible, open blade, and that the food court area was not being adequately patrolled at the time of the attack. The suit names CBL & Associates Properties -- the Chattanooga, Tennessee-based real estate investment trust that owns and manages Northwoods Mall -- along with the mall's contracted security providers, as defendants.",
+        "The filing is notable less for its individual facts than for the pattern it extends. Northwoods Mall has been the site of prior violent incidents, including a mall shooting years earlier that itself produced litigation against the property's ownership and its security contractors. Plaintiffs' counsel in that earlier litigation argued that a mall's security posture must be judged against its own documented incident history -- a theory that gets considerably stronger with each subsequent event a landlord fails to prevent. For a shopping center with a recurring security record, a jury asked to decide whether an attack was foreseeable has an easier time answering yes when the property owner's own incident log already contains comparable episodes.",
+        "For commercial landlords and REITs, negligent-security claims sit at an uncomfortable intersection of tort law and asset management. Unlike a slip-and-fall claim turning on a single hazardous condition, a negligent-security case invites discovery into a property's entire security budget, staffing levels, incident reports, and any prior warnings -- documentary evidence plaintiffs' counsel can use to argue a landlord knew of an elevated risk and failed to respond. CBL & Associates, which owns and manages a national portfolio of malls and shopping centers, has faced this dynamic before as the retail industry works through a broader wave of security-related litigation tied to declining in-mall foot traffic, reduced on-site staffing at some centers, and the persistence of retail-crime concerns nationally.",
+        "Property owners and managers should treat a documented history of violent incidents as a legal-risk asset to be actively managed rather than just an operational record, and should reassess and document security staffing and patrol coverage in high-traffic, low-visibility areas like food courts whenever a property has experienced a prior violent incident, since the 'we didn't know' defense becomes harder to sustain with each subsequent event. Landlords should also review indemnification and insurance provisions with third-party security contractors before an incident occurs, since these suits typically name both the property owner and its security vendors as co-defendants, and retail and mixed-use owners facing declining foot traffic should be cautious about cutting on-site security spending, since the resulting litigation exposure can dwarf the operational savings."
+      ],
+      judge: null,
+      parties: [
+        { name: "CBL & Associates Properties, Inc.", role: "Defendant" }
+      ],
+      amountUsd: null,
+      propertyType: "Retail",
+      tags: ["premises-liability", "negligent-security", "shopping-mall", "south-carolina"]
+    },
+    {
+      id: "live-197",
+      addedDate: "2026-09-28",
+      title: "SDCL Tennessee Propco LLC v. Bradley County (Data Center Zoning Ordinance Challenge)",
+      category: "zoning-land-use",
+      status: "filed",
+      date: "2026-09-17",
+      jurisdiction: "Bradley County Chancery Court, Tennessee",
+      state: "TN",
+      amount: "$19.9M land purchase underlying a challenge to the county's data-center zoning ordinance (no damages sought)",
+      source: "live",
+      sourceUrl: "https://www.timesfreepress.com/news/2026/sep/21/global-firm-sues-bradley-county-to-build-300-acre/",
+      summary: "SDCL Tennessee Propco LLC sued Bradley County, Tennessee in Chancery Court on September 17, 2026, seeking to invalidate the county commission's April 2026 vote restricting data centers to a single industrial zoning district with a 3,000-foot setback from homes, schools and churches. SDCL, which paid $19,904,950 for roughly 306 acres in the county's Hiwassee River Industrial Park to build a large-scale data center, argues the county did not follow Tennessee's required procedure -- including planning-commission review and public notice -- before adopting the restrictions.",
+      significance: "As data-center developers face a growing wave of local zoning pushback nationwide, this case tests whether counties can tighten siting rules for large-scale computing facilities without first following state-mandated notice and planning-commission procedures. A ruling invalidating Bradley County's ordinance on procedural grounds would be a significant precedent for developers challenging similarly adopted data-center restrictions elsewhere, while a loss would validate an increasingly common local-government response to data-center siting fights: stricter, industrial-only zoning with large residential setbacks.",
+      body: [
+        "SDCL Tennessee Propco LLC, an entity of the London-based global investment firm SDCL, has sued Bradley County, Tennessee in Chancery Court, asking a judge to invalidate zoning restrictions the county commission adopted earlier this year that confine large-scale data centers to a single industrial district and impose a 3,000-foot buffer from residential areas, schools and churches. The company filed suit on September 17, 2026, escalating a fight over roughly 306 acres it purchased in the county's Hiwassee River Industrial Park, near Exit 33 off Interstate 75, for $19,904,950 to develop a data center behind Walker Valley High School.",
+        "According to the complaint, Bradley County commissioners voted 14-0 in April 2026 to restrict data centers to the county's I-2 Special Impact Industrial District and to impose the 3,000-foot setback. SDCL contends the county failed to follow Tennessee law's required process for adopting the amendment -- specifically, that the measure never went through the local planning commission for a recommendation, and that the county did not advertise a public hearing or publish a summary of the amendment beforehand. On that basis, SDCL is asking the court to declare the April vote invalid. The company separately argues that the restrictions themselves are arbitrary and discriminatory and violate its rights to equal protection and due process.",
+        "The dispute sits at the center of a fast-growing category of land-use litigation: as data-center developers compete for suitable industrial and rural sites nationwide, local governments have increasingly responded with new siting restrictions, setback requirements, and environmental conditions, prompting developers to challenge those restrictions both on substantive grounds and on procedural ones tied to how the ordinances were adopted. Similar fights have played out this year in Illinois, Missouri, and Michigan, with developers arguing that rezoning or new siting rules were adopted without following required local procedures or in ways that amount to exclusionary zoning.",
+        "For commercial developers generally, the case is a reminder that procedural defects in how a local government adopts a zoning change -- not just the substance of the restriction itself -- can be an independent and sometimes more reliable basis for a legal challenge. Developers evaluating a site facing new or proposed zoning restrictions should document the local government's own procedural process as closely as the substance of the rule, since a failure to follow state-mandated notice and planning-commission review requirements can undo a restriction regardless of whether the restriction would otherwise be defensible on the merits."
+      ],
+      judge: null,
+      parties: [
+        { name: "SDCL Tennessee Propco LLC", role: "Plaintiff" },
+        { name: "Bradley County, Tennessee", role: "Defendant" }
+      ],
+      amountUsd: 19904950,
+      amountBasis: "purchase price",
+      propertyType: "Data Center",
+      tags: ["data-center", "zoning", "land-use", "tennessee"]
+    },
+    {
+      id: "live-198",
+      addedDate: "2026-09-28",
+      title: "Urban Development Group, LLC Chapter 11 Petition (M.D. Tenn.)",
+      category: "lending-foreclosure",
+      status: "filed",
+      date: "2026-09-25",
+      jurisdiction: "United States Bankruptcy Court, Middle District of Tennessee",
+      state: "TN",
+      amount: "Undisclosed (financial details not yet public)",
+      source: "live",
+      sourceUrl: "https://www.courtlistener.com/docket/74856205/urban-development-group-llc/",
+      summary: "Urban Development Group, LLC filed a Chapter 11 petition on September 25, 2026 in the United States Bankruptcy Court for the Middle District of Tennessee, case number 3:26-bk-04686. This entry reflects only what the federal court docket shows; no independent news coverage of the filing was available at the time it was added to this tracker.",
+      significance: "Real-estate-named entities filing Chapter 11 in the current environment make up a meaningful share of small commercial bankruptcy filings tied to distressed acquisition, leasing, or financing debt. This tracker will add further detail as public reporting or additional docket activity becomes available.",
+      body: [
+        "Urban Development Group, LLC filed a Chapter 11 petition on September 25, 2026 in the United States Bankruptcy Court for the Middle District of Tennessee, docketed as case number 3:26-bk-04686. As of this entry, no independent news coverage of this specific filing's underlying circumstances had been published, so this record reflects only what the federal court docket itself shows: the debtor's name, the court, the case number, and the filing date.",
+        "This entry is added under CREdocket's standing practice of logging fresh commercial real estate Chapter 11 petitions directly from federal court records when filed by an entity whose name is consistent with real estate ownership or development, even before independent reporting becomes available. This tracker will update the entry, or add a related one, if further docket activity or independent reporting clarifies the debtor's property, its creditors, and the circumstances of the filing."
+      ],
+      judge: null,
+      parties: [
+        { name: "Urban Development Group, LLC", role: "Debtor" }
+      ],
+      amountUsd: null,
+      docketUrl: "https://www.courtlistener.com/docket/74856205/urban-development-group-llc/",
+      docketLabel: "CourtListener docket",
+      tags: ["chapter-11", "bankruptcy", "tennessee"]
     }
   ],
 
