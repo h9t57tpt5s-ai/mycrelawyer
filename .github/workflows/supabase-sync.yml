@@ -18,6 +18,8 @@ on:
     branches: [main]
     paths:
       - ".sync/*.json"
+  # Manual re-run for files a failed run left pending.
+  workflow_dispatch:
 
 permissions:
   contents: write
