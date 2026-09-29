@@ -1,0 +1,39 @@
+name: Daily health check
+
+# Runs scripts/health_check.py: every scheduled job's latest run, tracker
+# freshness, the Supabase sync backlog, the ops files' ages and the live
+# site. Any problem is emailed (ingest-court-filings "ops-alert", to the
+# owner inbox fixed in that function) and fails this run.
+
+on:
+  schedule:
+    - cron: "17 14 * * *" # ~9:15am Central, after the morning digest and surveillance
+  workflow_dispatch:
+    inputs:
+      test_email:
+        description: "Email the report even if nothing is wrong"
+        type: boolean
+        default: false
+
+permissions:
+  contents: read
+  actions: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 200 # git log dates for files waiting in .sync/
+      - uses: denoland/setup-deno@v2
+        with:
+          deno-version: v2.x
+      - name: Check
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          SUPABASE_ANON_KEY: sb_publishable_77xSJub0DOpnTSM4nzhVaQ_aztB5p3f
+          AUTOMATION_SECRET: ${{ secrets.AUTOMATION_SECRET }}
+          TEST_EMAIL: ${{ inputs.test_email && '--test-email' || '' }}
+        run: python3 scripts/health_check.py $TEST_EMAIL

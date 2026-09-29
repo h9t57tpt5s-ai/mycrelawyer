@@ -17,6 +17,10 @@ import { buildAlertEmail, buildSlackMessage, findMatches, isSlackWebhook, matcha
 const AUTOMATION_SECRET = Deno.env.get("AUTOMATION_SECRET") ?? "";
 const RESEND_API_KEY = Deno.env.get("RESEND_API_KEY") ?? "";
 const SENDER_EMAIL = "no-reply@credocket.com";
+// Where scripts/health_check.py's problem reports go -- the same inbox as
+// notify-new-signup's NOTIFY_EMAIL. Fixed here (an OPS_ALERT_EMAIL secret
+// overrides it), so a caller can choose the text but never the recipient.
+const OPS_ALERT_EMAIL = Deno.env.get("OPS_ALERT_EMAIL") || "jeffnovel@icloud.com";
 // Every accepted source, the filing types it may send, and the only URL
 // prefix its links may use. State-court sources reuse the "civil" type, so
 // they need no schema change; `source` is what tells them apart. They are
@@ -118,6 +122,25 @@ async function sendMatchEmail(toEmail: string, matches: NewMatch[], liveSources:
   } catch (err) {
     console.error("ingest-court-filings: fetch to Resend failed --", String(err));
     return false;
+  }
+}
+
+// Health-check problem report (action "ops-alert"). Plain text, capped.
+async function opsAlert(body: Record<string, unknown>): Promise<Response> {
+  const subject = String(body.subject ?? "").slice(0, 200).trim();
+  const text = String(body.text ?? "").slice(0, 20000).trim();
+  if (!subject || !text) return jsonResponse({ error: "subject and text are required" }, 400);
+  if (!RESEND_API_KEY || !OPS_ALERT_EMAIL) return jsonResponse({ error: "RESEND_API_KEY or OPS_ALERT_EMAIL is not set" }, 500);
+  try {
+    const resp = await fetch("https://api.resend.com/emails", {
+      method: "POST",
+      headers: { "Authorization": `Bearer ${RESEND_API_KEY}`, "Content-Type": "application/json" },
+      body: JSON.stringify({ from: `CREdocket health check <${SENDER_EMAIL}>`, to: [OPS_ALERT_EMAIL], subject, text }),
+    });
+    if (!resp.ok) return jsonResponse({ error: `Resend returned ${resp.status}`, detail: await resp.text().catch(() => "") }, 502);
+    return jsonResponse({ sent: true }, 200);
+  } catch (err) {
+    return jsonResponse({ error: "fetch to Resend failed", detail: String(err) }, 502);
   }
 }
 
@@ -428,5 +451,6 @@ Deno.serve(async (req) => {
   }
   if (body.action === "ingest") return await ingest(body);
   if (body.action === "audit") return await audit();
+  if (body.action === "ops-alert") return await opsAlert(body);
   return jsonResponse({ error: "Unknown action" }, 400);
 });
