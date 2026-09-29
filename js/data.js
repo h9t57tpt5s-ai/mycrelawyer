@@ -199,8 +199,9 @@ const RELAW_DATA = {
         "The case is explicitly modeled on the hub-and-spoke framework that reshaped multifamily algorithmic-pricing litigation against RealPage, just applied to commercial lease data instead of residential rents. If it survives a motion to dismiss, the RealPage litigation's own trajectory — where suits expanded from the software vendor to landlord-customers — suggests owners whose brokers submitted lease data to CoStar could become a second wave of defendants."
       ],
       timeline: [
-        { when: "June 12, 2026", label: "FitFactariDC LLC files proposed class action against CoStar and five major brokerages",  current: true },
-        { when: "August 19, 2026", label: "Initial status hearing scheduled",  upcoming: true }
+        { when: "June 12, 2026", label: "FitFactariDC LLC files proposed class action against CoStar and five major brokerages" },
+        { when: "August 19, 2026", label: "Initial status hearing scheduled",  upcoming: true },
+        { when: "September 24, 2026", label: "Court enters order on the motions to dismiss and sets a briefing schedule (docket entry 71)", current: true }
       ],
       tags: ["antitrust", "hub-and-spoke", "CoStar", "lease data", "brokerage"],
       docketUrl: "https://www.courtlistener.com/docket/73480976/fitfactaridc-llc-v-costar-group-inc/",
@@ -3086,7 +3087,8 @@ const RELAW_DATA = {
         { when: "December 26, 2025", label: "Solera Multifamily and Hickory Investors file suit against Jeffrey Tegethoff and affiliated entities" },
         { when: "June 1, 2026", label: "Tegethoff Development, LLC files Chapter 11 bankruptcy, listing roughly $540M in liabilities" },
         { when: "July 2026", label: "Bankruptcy creditors move to appoint an independent Chapter 11 trustee, citing insider transactions and commingled assets" },
-        { when: "July 13, 2026", label: "Judge Bodenhausen allows an amended fraud complaint against Tegethoff and non-debtor affiliates to proceed while claims against the bankrupt entities are stayed", current: true }
+        { when: "July 13, 2026", label: "Judge Bodenhausen allows an amended fraud complaint against Tegethoff and non-debtor affiliates to proceed while claims against the bankrupt entities are stayed" },
+        { when: "September 22, 2026", label: "Court enters order on a motion to dismiss the case and two motions to stay (docket entry 56)", current: true }
       ],
       docketUrl: "https://www.courtlistener.com/docket/72081019/solera-multifamily-llc-v-tegethoff/",
       docketLabel: "CourtListener docket"
@@ -6750,6 +6752,44 @@ const RELAW_DATA = {
         { when: "2022", label: "Anchor tenant CBRE vacates for Uptown Dallas; occupancy falls toward roughly 60%" },
         { when: "2026", label: "Loan matures as a nonperforming balloon loan; a Dallas County court appoints Trigild IVL as receiver", current: true },
         { when: "October 6, 2026", label: "Foreclosure auction scheduled", upcoming: true }
+      ]
+    },
+    {
+      id: "live-203",
+      addedDate: "2026-09-29",
+      title: "Slate Property Group and The Carlyle Group v. MG Developer (Metro Parc South Construction Loan Foreclosure)",
+      category: "lending-foreclosure",
+      status: "filed",
+      date: "2026-09-22",
+      jurisdiction: "Circuit Court of the 11th Judicial Circuit, Miami-Dade County, Florida",
+      state: "FL",
+      amount: "$31.1M alleged default on a $105M construction loan",
+      source: "live",
+      sourceUrl: "https://therealdeal.com/miami/2026/09/28/mg-developers-metro-parc-south-in-hialeah-faces-foreclosure/",
+      summary: "Construction lenders Slate Property Group and The Carlyle Group sued Coral Gables-based MG Developer on September 22, 2026 to foreclose on Metro Parc South, a planned 347-unit, 10-story apartment tower in Hialeah, Florida, alleging MG Developer defaulted on $31.1 million of a $105 million construction loan by allowing liens to attach to the property, missing required reserve deposits, and failing to pay 2025 property taxes. The lenders say they sent default notices in January, May, and June of 2026 and entered a forbearance agreement that has since expired without a cure.",
+      significance: "Shows how covenant-based defaults tied to liens, reserve deposits, and tax payments can trigger construction-loan foreclosure well before a loan's maturity date, independent of whether the borrower is current on debt service. MG Developer's principal, Alirio Torrealba, faces eight additional suits in Miami-Dade Circuit Court over promissory notes, illustrating how platform-wide sponsor distress can accelerate individual lenders' willingness to enforce.",
+      body: [
+        "A foreclosure lawsuit filed September 22, 2026 in Miami-Dade Circuit Court accuses Coral Gables-based MG Developer of defaulting on $31.1 million of a $105 million construction loan backing Metro Parc South, a planned 10-story, 347-unit apartment tower at 954 and 934 East 25th Street in Hialeah, Florida. The lenders, Slate Property Group and The Carlyle Group, say the default followed more than a year of warning signs — three separate default notices and an expired forbearance agreement — before they moved to foreclose on the project, which was meant to be the third phase of MG Developer's larger Metro Center development along East 24th and 25th streets.",
+        "The complaint alleges MG Developer breached the loan's covenants in three distinct ways: allowing mechanic's and materialman's liens to attach to the property from unpaid contractors and subcontractors, failing to make the reserve account deposits the loan agreement required, and failing to pay 2025 property taxes on the site. According to the suit, the lenders first sent a notice of default in January 2026, followed by additional notices in May and June as the borrower failed to cure the underlying breaches. The parties then entered into a forbearance agreement, but it has since expired without the debt being brought current, prompting the lenders to file suit.",
+        "The $105 million construction financing package closed in April 2025, and construction broke ground roughly two months later, in June 2025. The project's collapse into litigation barely more than a year after financing closed illustrates how quickly a construction loan can move from origination to enforcement once carrying costs, unpaid subcontractors, and property-tax obligations compound faster than a project can absorb them. Construction loans are particularly exposed to this kind of covenant slippage because they are typically funded in draws tied to construction milestones, meaning a developer who falls behind on paying trade contractors can trigger a lien-related default well before the loan's maturity date, independent of the underlying asset's stabilized performance.",
+        "The Metro Parc South foreclosure is not an isolated event for MG Developer or its principal, Alirio Torrealba. Court records show eight separate suits are pending in Miami-Dade Circuit Court alleging breaches of promissory notes across the developer's platform, seeking a combined $21.4 million in repayment, and reporting earlier this month disclosed that Torrealba is selling his stake in a separate development site in North Bay Village to another developer amid what was described as a pile-up of lender suits against his projects. Taken together, the pattern suggests a sponsor facing simultaneous liquidity pressure across a multi-project platform rather than an isolated default on a single troubled asset.",
+        "For construction lenders, special servicers, and multifamily developers watching the broader lending cycle, the case illustrates how a covenant-based default, rather than a missed principal or interest payment, can be enough to trigger enforcement on a construction loan once a lien, an unfunded reserve, or an unpaid tax bill signals a project's cost stack is no longer under the borrower's control. It's also a reminder that forbearance buys time rather than resolving anything: lenders and counsel should track whether the underlying breaches are actually being cured during a forbearance period rather than assuming resumed payments mean the default is fixed, and should look beyond any single asset to whether the same sponsor is showing distress elsewhere, since platform-wide liquidity trouble changes both negotiating leverage and realistic recovery scenarios compared with a one-off default on a single project."
+      ],
+      tags: ["construction loan", "foreclosure", "multifamily", "florida", "hialeah"],
+      parties: [
+        { name: "Slate Property Group", role: "Plaintiff/Lender" },
+        { name: "The Carlyle Group", role: "Plaintiff/Lender" },
+        { name: "MG Developer", role: "Defendant/Borrower" }
+      ],
+      judge: null,
+      amountUsd: 31100000,
+      amountBasis: "loan",
+      propertyType: "Multifamily",
+      timeline: [
+        { when: "April 2025", label: "MG Developer closes on a $105M construction loan from Slate Property Group and The Carlyle Group" },
+        { when: "June 2025", label: "Construction breaks ground on Metro Parc South" },
+        { when: "January-June 2026", label: "Lenders send three notices of default; parties enter a forbearance agreement that later expires" },
+        { when: "September 22, 2026", label: "Slate Property Group and The Carlyle Group sue to foreclose, alleging a $31.1M default", current: true }
       ]
     }
   ],
