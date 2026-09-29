@@ -28,6 +28,9 @@ Static HTML/CSS/JS site (no build step), auto-deployed by Vercel on every push t
 5. After pushing, verify live: `curl` or the Browser tool against `https://credocket.com/...`, confirm the change actually landed and `read_console_messages` shows no new errors. Never consider a change "done" without this — CDN cache and Vercel bot-challenge can both make `curl` look wrong when the Browser tool would show it's actually fine, and vice versa.
 6. One logical change per commit, with a clear message explaining what and why (not just what).
 
+- **Log every correction publicly.** When a published fact (a matter's party, figure, date, court, outcome or source, a Market Signal, a tool's legal claim, or a displayed count or label) is changed because it was wrong, or a matter is removed as out of scope or a duplicate, add an entry to `js/corrections.json` (newest first: date, scope, caseId, subject, kind, was, now, basis) in the same commit. prerender.yml renders it into `corrections.html` and the matter panel shows it. Outcome updates that follow a case forward are not corrections. Never edit or delete an old entry except to fix the entry itself.
+- **Market Signals are published only through source verification.** Draft into `ops/pending-signals/trend-NNN.json` with verbatim quotes; `scripts/verify_signals.py` (verify-signals.yml) opens each page and publishes only if every quote and figure matches. A hand-added trend must meet the same bar (every figure fetched and matched on the publisher's page).
+
 ## Content taxonomy
 
 - **Tracker categories** (`RELAW_DATA.categories` in `js/data.js`, 9 total): landlord-tenant, zoning-land-use, reit-securities, construction-defect, lending-foreclosure, environmental, eminent-domain, lease-disputes, premises-liability.

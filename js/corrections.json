@@ -1,0 +1,206 @@
+{
+ "note": "Public corrections log. Newest first. Rendered into corrections.html by scripts/render_corrections.py (run by prerender.yml) and shown on each corrected matter's panel (js/main.js). Add an entry whenever a published fact is changed because it was wrong, a matter is removed, or a published figure or label was misleading. Outcome updates that follow a case forward are not corrections and do not go here. Never edit or delete an old entry except to fix the entry itself.",
+ "startedOn": "2026-09-12",
+ "entries": [
+  {
+   "date": "2026-09-25",
+   "scope": "matter",
+   "caseId": "live-135",
+   "subject": "Soros Fund Management v. Eretz Group (224 West 57th Street Foreclosure & Tenant-Takeover)",
+   "kind": "Docket link restored",
+   "was": "The NYSCEF docket link was removed on September 24.",
+   "now": "Restored. The link is NYSCEF's case search with the index number (850134/2024) in its label, the form our docket-link rule allows because NYSCEF has no per-case link. Removing it was our error.",
+   "basis": "Our docket-link rule"
+  },
+  {
+   "date": "2026-09-25",
+   "scope": "matter",
+   "caseId": "live-155",
+   "subject": "Duplicate of MLP Ventures v. Upper Merion Township (Renaissance Park Data Center Denial Appeal)",
+   "kind": "Removed: duplicate",
+   "was": "The same September 16 filing was listed twice, from the same news article.",
+   "now": "The duplicate is removed. Two matters may no longer share a source article or a court docket; our publishing check now rejects it.",
+   "basis": "Same filing and source as the remaining entry"
+  },
+  {
+   "date": "2026-09-25",
+   "scope": "matter",
+   "caseId": null,
+   "subject": "Landlords' Article 78 challenge to New York City's rent freeze on rent-stabilized apartments",
+   "kind": "Removed: out of scope",
+   "was": "Listed as a tracked matter.",
+   "now": "Removed. It is a residential rent-regulation dispute, and CREdocket covers commercial real estate only.",
+   "basis": "Commercial-only scope rule"
+  },
+  {
+   "date": "2026-09-25",
+   "scope": "site",
+   "caseId": null,
+   "subject": "Homepage and coverage page state count",
+   "kind": "Correction",
+   "was": "\"51 states\" with tracked matters, counting the District of Columbia as a state.",
+   "now": "\"50 states and D.C.\" D.C. is counted and labeled separately everywhere a state count appears.",
+   "basis": "Label accuracy"
+  },
+  {
+   "date": "2026-09-25",
+   "scope": "site",
+   "caseId": null,
+   "subject": "Homepage top story",
+   "kind": "Correction",
+   "was": "Two stories carried a \"Today's Top Story\" badge, and both concerned events months old.",
+   "now": "One featured story at a time, never about an event more than 30 days old, and labeled \"Today's\" only when it was added that day.",
+   "basis": "Label accuracy"
+  },
+  {
+   "date": "2026-09-24",
+   "scope": "matter",
+   "caseId": "live-047",
+   "subject": "Access Point Financial, LLC v. Everhardt (Eve-of-Foreclosure Transfer and Bankruptcy Trigger Full Recourse Under Hotel Loan Guaranty)",
+   "kind": "Correction",
+   "was": "The guarantor was described as liable for $56.3 million, and the ruling as resting on the ownership transfer.",
+   "now": "The judgment is $3,954,244.04, the deficiency left on a $56.33 million loan after foreclosure sales, and the Eleventh Circuit rested on the borrower's bankruptcy filing alone.",
+   "basis": "Eleventh Circuit opinion"
+  },
+  {
+   "date": "2026-09-24",
+   "scope": "matter",
+   "caseId": "live-160",
+   "subject": "57th & 6th Ground LLC v. Carnegie House Tenants Corp. (Ground-Rent Arbitration Award Vacated for Arbitrator Non-Disclosure)",
+   "kind": "Correction",
+   "was": "The umpire's undisclosed conflict was described as a job offer.",
+   "now": "The umpire had undisclosed contact with the landowner's counsel about a paid appointment in another arbitration; the matter was remanded to a new panel. The document link now points to the Appellate Division decision. The same item in CREdocket Briefs Issue 1 was corrected to match.",
+   "basis": "Appellate Division decision"
+  },
+  {
+   "date": "2026-09-24",
+   "scope": "matter",
+   "caseId": "live-071",
+   "subject": "Wells Fargo Bank, N.A. v. 181 West Madison Property LLC ($240M Loan Foreclosure on Chicago Loop Office Tower)",
+   "kind": "Correction",
+   "was": "Titled as a SitusAMC foreclosure suit filed in April 2026.",
+   "now": "The plaintiff is Wells Fargo Bank, N.A., as trustee of the CMBS trust, acting through special servicer Situs Holdings, LLC; the suit was filed March 27, 2026.",
+   "basis": "Court docket"
+  },
+  {
+   "date": "2026-09-24",
+   "scope": "matter",
+   "caseId": "live-023",
+   "subject": "U.S. Bank National Association v. BOP Republic Plaza I LLC (Denver's Tallest Tower Receivership Suit)",
+   "kind": "Correction",
+   "was": "The borrower was named as Brookfield Republic Plaza LLC.",
+   "now": "The borrower is BOP Republic Plaza I LLC, a Brookfield Properties affiliate.",
+   "basis": "Primary source"
+  },
+  {
+   "date": "2026-09-24",
+   "scope": "matter",
+   "caseId": "live-115",
+   "subject": "Stewart v. Simon Property Group, L.P. (Greenwood Park Mall Shooting Negligent-Security Suit)",
+   "kind": "Correction",
+   "was": "The security contractor was named as Allied Universal Event Services, Inc.",
+   "now": "The security contractor is Universal Protection Service, LLC, d/b/a Allied Universal Security Services.",
+   "basis": "Primary source"
+  },
+  {
+   "date": "2026-09-24",
+   "scope": "matter",
+   "caseId": "live-149",
+   "subject": "OKO Group Affiliate v. Zurich American Insurance Co. et al. (Missoni Baia Builder's-Risk Coverage Suit)",
+   "kind": "Correction",
+   "was": "One insurer was named as National Fire Insurance Company of Hartford.",
+   "now": "The insurer is National Fire & Marine Insurance Company.",
+   "basis": "Primary source"
+  },
+  {
+   "date": "2026-09-24",
+   "scope": "matter",
+   "caseId": "live-163",
+   "subject": "Town of Marshfield v. Commonwealth (SJC Rejects Second Municipal Challenge to MBTA Communities Act)",
+   "kind": "Correction",
+   "was": "The plaintiffs were described as Marshfield and eight other municipalities, with an infrastructure-strain claim.",
+   "now": "The plaintiffs were the Town of Marshfield and its select board only. The claims were unfunded-mandate, Home Rule Amendment, Zoning Act and voters' constitutional rights, and the court held the town lacked standing to assert its town meeting voters' rights.",
+   "basis": "Supreme Judicial Court decision"
+  },
+  {
+   "date": "2026-09-24",
+   "scope": "matter",
+   "caseId": "live-062",
+   "subject": "United States, et al. v. LivCor, LLC (RealPage Algorithmic Pricing Antitrust Consent Judgment)",
+   "kind": "Correction",
+   "was": "A single final consent judgment was dated June 18, 2026.",
+   "now": "Two judgments: the Justice Department's on May 19, 2026 and the nine states' consent judgment on June 26, 2026. The states' filed judgment is now linked.",
+   "basis": "Court docket and filed judgment"
+  },
+  {
+   "date": "2026-09-24",
+   "scope": "matter",
+   "caseId": "live-109",
+   "subject": "Ready Capital Mortgage Financing 2023-FL 12, LLC v. Drexel Flats Acquisition LLC (Oklahoma City Apartment Foreclosure)",
+   "kind": "Correction",
+   "was": "The source link pointed to an earlier article about the foreclosure filing.",
+   "now": "The source link reports the May 20, 2026 receivership ruling the entry describes.",
+   "basis": "Source check"
+  },
+  {
+   "date": "2026-09-24",
+   "scope": "matter",
+   "caseId": null,
+   "subject": "U.S. Bank National Association v. Black Plaza Management, LLC (CPLR 3215(c) abandonment ruling)",
+   "kind": "Removed: out of scope",
+   "was": "Listed as a commercial mortgage foreclosure.",
+   "now": "Removed. Its source never shows a commercial mortgage, so it did not meet the commercial-only scope rule.",
+   "basis": "Commercial-only scope rule"
+  },
+  {
+   "date": "2026-09-24",
+   "scope": "matter",
+   "caseId": null,
+   "subject": "Fourteen matters outside commercial real estate",
+   "kind": "Removed: out of scope",
+   "was": "Listed as tracked matters: eight residential tenant-rights and habitability suits, three residential landlords' rent-cap and eviction-moratorium takings claims, a homeowners' pied-à-terre tax suit, a 1-4 unit investor loan-fraud case and a coal-mining penalty case.",
+   "now": "All removed. CREdocket covers commercial real estate only; borderline matters are left out.",
+   "basis": "Commercial-only scope rule"
+  },
+  {
+   "date": "2026-09-24",
+   "scope": "matter",
+   "caseId": "live-175",
+   "subject": "Duplicate of Hern v. Alexandria Real Estate Equities, Inc. (Securities Class Action Dismissed Over $2.2B Impairment Claims)",
+   "kind": "Removed: duplicate",
+   "was": "The same ruling was listed twice.",
+   "now": "The duplicate is removed; this entry carries the September 8 ruling.",
+   "basis": "Same ruling"
+  },
+  {
+   "date": "2026-09-24",
+   "scope": "matter",
+   "caseId": "live-088",
+   "subject": "Alder at Lake Park, LLC v. Town of Lake Park (Affordable Housing Code-Enforcement Extortion Suit)",
+   "kind": "Removed: duplicate; date corrected",
+   "was": "The suit was listed twice, and this entry's date was wrong.",
+   "now": "The duplicate is removed, its timeline and property type are merged here, and the filing date is August 27, 2026.",
+   "basis": "CourtListener docket"
+  },
+  {
+   "date": "2026-09-15",
+   "scope": "matter",
+   "caseId": "live-083",
+   "subject": "Copper Property CTL Pass Through Trust v. Onyx Partners (Countersuit Over Collapsed $947M JCPenney Portfolio Sale)",
+   "kind": "Correction",
+   "was": "Jurisdiction given as the Supreme Court of the State of New York, New York County, the court of an earlier related suit.",
+   "now": "The countersuit was filed in the Superior Court of Massachusetts, Suffolk County (Business Litigation Session, No. 2684CV02549-BLS1). The filed complaint is now linked.",
+   "basis": "The filed complaint"
+  },
+  {
+   "date": "2026-09-12",
+   "scope": "tool",
+   "caseId": null,
+   "subject": "ADA Risk Flagging tool, Colorado",
+   "kind": "Correction",
+   "was": "Stated that Colorado's HB21-1110 created a compliance safe harbor for businesses.",
+   "now": "Removed. HB21-1110 covers state and local government digital services, not private businesses, and creates liability rather than a safe harbor. The tool now says no Colorado overlay was confirmed.",
+   "basis": "The statute"
+  }
+ ]
+}

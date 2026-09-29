@@ -644,6 +644,27 @@
     });
   }
 
+  /* ---------- Corrections on a matter ----------
+     js/corrections.json is the public corrections log (corrections.html).
+     A corrected matter shows what changed, under its summary. */
+  let correctionsPromise = null;
+  function renderCorrections(c) {
+    if (!correctionsPromise) {
+      correctionsPromise = fetch("js/corrections.json", { cache: "no-cache" })
+        .then((r) => (r.ok ? r.json() : null))
+        .catch(() => null);
+    }
+    correctionsPromise.then((log) => {
+      const slot = document.getElementById("detail-corrections");
+      const mine = ((log && log.entries) || []).filter((e) => e.caseId === c.id);
+      // The panel may have moved on to another matter while this loaded.
+      const panelEl = document.getElementById("detail-panel");
+      if (!slot || !mine.length || !panelEl || panelEl.dataset.caseId !== c.id) return;
+      slot.innerHTML = mine.map((e) => `
+        <p class="detail-correction"><strong>Corrected ${formatDate(e.date)}.</strong> ${escapeHtml(e.now)} <a href="corrections.html">Corrections log</a></p>`).join("");
+    });
+  }
+
   /* ---------- Detail panel (shared across pages) ---------- */
   function buildDetailPanel() {
     if (document.getElementById("detail-panel")) return;
@@ -785,6 +806,7 @@
           <p class="body-text">${c.summary}</p>
           <h3 style="margin-bottom:10px;">Why it matters</h3>
           <p class="body-text">${c.significance}</p>
+          <div id="detail-corrections"></div>
         </div>
         <div id="detail-docket-activity"></div>
         <div class="rule mt-24" style="margin-bottom:24px;"></div>
@@ -802,7 +824,9 @@
         </div>
       `;
       document.getElementById("detail-close-btn").addEventListener("click", close);
+      panel.dataset.caseId = c.id;
       renderDocketActivity(c);
+      renderCorrections(c);
       overlay.classList.add("open");
       panel.classList.add("open");
       document.body.style.overflow = "hidden";

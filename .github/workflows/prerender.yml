@@ -10,7 +10,9 @@ on:
     branches: [main]
     paths:
       - "js/data.js"
+      - "js/corrections.json"
       - "scripts/prerender.ts"
+      - "scripts/render_corrections.py"
   workflow_dispatch:
 
 permissions:
@@ -29,9 +31,10 @@ jobs:
         with:
           deno-version: v2.x
       - run: deno run --allow-read --allow-write --allow-net scripts/prerender.ts
+      - run: python3 scripts/render_corrections.py
       - name: Commit prerendered pages
         run: |
-          git add index.html litigation.html coverage.html company-*.html
+          git add index.html litigation.html coverage.html company-*.html corrections.html
           if git diff --cached --quiet; then echo "Nothing changed."; exit 0; fi
           git config user.name "credocket-prerender-bot"
           git config user.email "actions@users.noreply.github.com"
