@@ -16,7 +16,7 @@ const RELAW_DATA = {
      Drives the homepage's "New Today" pill: it only shows when this
      equals the visitor's local today. Updated by the digest automation
      each time Step 4 successfully adds a case — never touched otherwise. */
-  lastUpdatedDate: "2026-09-28",
+  lastUpdatedDate: "2026-09-29",
   categories: [
     { id: "landlord-tenant", label: "Landlord–Tenant", color: "var(--cat-landlord)" },
     { id: "zoning-land-use", label: "Zoning & Land Use", color: "var(--cat-zoning)" },
@@ -6670,6 +6670,87 @@ const RELAW_DATA = {
         { when: "September 16, 2026", label: "Developer David Lambiaso/TerraWatt sues the Board of Adjustment over the conditions attached to the same approval", current: true }
       ],
       tags: ["data-center", "zoning", "missouri", "community-benefits-agreement", "conditional-use-permit"]
+    },
+    {
+      id: "live-201",
+      addedDate: "2026-09-29",
+      featured: true,
+      title: "U.S. Bank & Wells Fargo v. Wilmorite (Eastview Mall $210M Foreclosure and Eminent Domain 'Debt Evasion' Fight)",
+      category: "lending-foreclosure",
+      status: "pending",
+      date: "2026-09-25",
+      jurisdiction: "Supreme Court of the State of New York, New York County",
+      state: "NY",
+      amount: "$210 million CMBS mortgage in default",
+      source: "live",
+      sourceUrl: "https://rbj.net/2026/09/28/lenders-eminent-domain-plan-eastview-mall-debt-evasion/",
+      summary: "U.S. Bank National Association and Wells Fargo Bank, through special servicer Rialto Capital Advisors, filed a foreclosure action on September 8 against Eastview Mall owner Wilmorite in New York County Supreme Court after a $210 million CMBS loan went unpaid at its final extended maturity date. Days before a September 28 public hearing on a Town of Victor plan to acquire mortgaged mall parcels by eminent domain and convey them to a Wilmorite-affiliated entity, lenders' counsel filed objections calling the plan a 'debt evasion scheme' meant to strip their collateral out from under the pending foreclosure.",
+      significance: "The dispute tests whether a municipality can use eminent domain to help a defaulted borrower retain a property ahead of foreclosure, a maneuver that — if it succeeds — would give distressed CRE borrowers with cooperative local governments a novel way to defeat lender remedies. CMBS special servicers negotiating extensions with borrowers who have close ties to local officials should watch for this kind of parallel municipal action.",
+      body: [
+        "A foreclosure action filed earlier this month against the owners of Eastview Mall, one of upstate New York's largest shopping centers, has escalated into a sharp fight over whether the Town of Victor, New York is using its eminent domain authority to help the mall's owner dodge a $210 million debt. In objections filed September 25 ahead of a September 28 public hearing on the town's condemnation plan, counsel for lenders U.S. Bank National Association and Wells Fargo Bank, acting through special servicer Rialto Capital Advisors, called the plan a debt evasion scheme designed to serve the private interests of mall owner Wilmorite rather than any legitimate public purpose. The dispute is now playing out on two fronts at once: a foreclosure case pending in New York State Supreme Court, New York County, and a municipal eminent domain proceeding in Victor, a small Ontario County town best known as the mall's home.",
+        "The underlying debt dates to 2012, when Eastview Mall's owner refinanced the property with a $210 million CMBS loan. That loan matured in September 2022, and Wilmorite negotiated three separate extensions with its lenders over the following three years, pushing the maturity date out to September 6, 2026. When that final deadline passed without repayment or refinancing, U.S. Bank and Wells Fargo, as trustee and noteholder on the securitized loan, filed a foreclosure action on September 8 seeking not only to foreclose but also to have Spinoso Real Estate Group appointed receiver to operate the mall while the case proceeds.",
+        "What makes the case unusual is the parallel track that opened almost simultaneously in Victor's town government. According to lender filings and local reporting, Wilmorite and Victor Town Supervisor Jack Marren worked between July and early September on a plan under which the town would use its eminent domain power to acquire the mortgaged portions of the mall, five specific parcels, paying compensation pegged to assessed value, a figure lenders say would fall well short of what is owed on the loan. The town would then convey the acquired property to Victor 2040 LLC, an entity affiliated with Wilmorite, effectively returning control of the mall to its existing owner while stripping the lenders' collateral out from under the pending foreclosure action.",
+        "Lenders' counsel argues the arrangement fails eminent domain's most basic constitutional requirement: that a taking serve a genuine public use, not a private one. Their September 25 objection contends the town's proposal does not adequately identify which specific property rights it intends to acquire, was not preceded by the environmental review New York law requires for a condemnation of this scale, and, most pointedly, was conceived and timed specifically to interrupt the foreclosure case rather than to advance any independent municipal purpose. At the September 28 hearing, Victor officials heard extended public comment and lender objections but left the matter open rather than voting, meaning both the eminent domain question and the foreclosure case remain live.",
+        "For commercial real estate lenders and special servicers, the practical lesson is that borrowers facing loan maturity default sometimes look beyond the conventional playbook of deed-in-lieu negotiations, merits defenses, or bankruptcy protection. What Wilmorite and Victor allegedly attempted instead borrows the machinery of local government, condemnation ordinarily reserved for roads, schools, and public infrastructure, to extinguish a private lender's collateral rights on favorable terms. Lawyers advising either side of a distressed CRE loan should treat a borrower's close relationship with local officials as a real variable in extension negotiations, watch for zoning, tax, or condemnation action timed around a maturity date, and, if a public-use challenge becomes necessary, move quickly to build a record on the timing and intent behind the municipal action, much as the Eastview lenders did here. Because Eastview Mall is reportedly one of the larger private employers and sales-tax generators in the Rochester suburb, the case also shows how economically important local landmarks can pressure municipal officials to intervene on a struggling owner's behalf even where that intervention sits uneasily with eminent domain doctrine, and practitioners should watch closely how the New York County Supreme Court and the Town of Victor resolve these overlapping proceedings."
+      ],
+      tags: ["foreclosure", "eminent-domain", "cmbs", "shopping-mall", "new-york"],
+      parties: [
+        { name: "U.S. Bank National Association", role: "Lender/Trustee" },
+        { name: "Wells Fargo Bank, National Association", role: "Lender/Noteholder" },
+        { name: "Rialto Capital Advisors", role: "Special Servicer" },
+        { name: "Wilmorite Management Group", role: "Borrower/Owner" },
+        { name: "Town of Victor, New York", role: "Eminent Domain Proponent" }
+      ],
+      judge: null,
+      amountUsd: 210000000,
+      amountBasis: "loan",
+      propertyType: "Retail",
+      timeline: [
+        { when: "2012", label: "Eastview Mall ownership refinances the property with a $210 million CMBS loan" },
+        { when: "September 2022", label: "Loan reaches original maturity; the first of three extensions is negotiated" },
+        { when: "September 6, 2026", label: "Final extended maturity date passes without repayment or refinancing" },
+        { when: "September 8, 2026", label: "U.S. Bank and Wells Fargo file a foreclosure action in New York County Supreme Court, seeking appointment of a receiver" },
+        { when: "September 25, 2026", label: "Lenders' counsel files objections calling the Town of Victor's eminent domain plan a 'debt evasion scheme'", current: true },
+        { when: "September 28, 2026", label: "Town of Victor holds a public hearing on the eminent domain plan and leaves the matter open without a vote" }
+      ]
+    },
+    {
+      id: "live-202",
+      addedDate: "2026-09-29",
+      title: "Wells Fargo Moves Toward Foreclosure on Woods Capital's 2100 Ross Avenue Dallas Office Tower",
+      category: "lending-foreclosure",
+      status: "pending",
+      date: "2026-09-24",
+      jurisdiction: "Dallas County, Texas",
+      state: "TX",
+      amount: "$98 million original loan; reported as a $79 million nonperforming matured balloon balance",
+      source: "live",
+      sourceUrl: "https://therealdeal.com/texas/2026/09/24/woods-capital-faces-foreclosure-on-downtown-dallas-tower/",
+      summary: "A partnership affiliated with Woods Capital and Pacific Elm Properties is facing a foreclosure auction, scheduled for October 6, 2026, on 2100 Ross Avenue, a 33-story, 840,000-square-foot downtown Dallas office tower, after defaulting on a Wells Fargo-originated loan that Fitch Ratings classified as a nonperforming matured balloon loan. A Dallas County court has already appointed Trigild IVL as receiver to manage the property, which was roughly 53% occupied after anchor tenant CBRE relocated to Uptown Dallas.",
+      significance: "The case is a further data point in the office-sector debt overhang working through Dallas's CBD, where aging towers that have lost anchor tenants to newer Uptown product are increasingly unable to refinance maturing loans on their original terms, pushing lenders toward receivership and foreclosure rather than further extensions.",
+      body: [
+        "A prominent downtown Dallas office tower is headed toward a foreclosure auction after its ownership defaulted on the loan securing the building. 2100 Ross Avenue, a 33-story, roughly 840,000-square-foot tower in the Dallas Arts District built in 1982 and renovated in 2014, is owned by a partnership affiliated with Dallas-based Woods Capital and Pacific Elm Properties. Wells Fargo originated a $98 million loan against the property in 2016, and Fitch Ratings classified the loan, with a reported outstanding balance of roughly $79 million, as a nonperforming matured balloon loan after it reached maturity without being paid off or refinanced.",
+        "A Dallas County court has already appointed Trigild IVL, a receivership and asset-management firm, to manage the tower while the foreclosure process moves forward, and lenders have set an auction date of October 6, 2026. The building's occupancy has fallen to roughly 53% after anchor tenant CBRE, which had occupied a significant share of the tower's rentable area, relocated to Uptown Dallas, a submarket that has drawn a wave of downtown tenants in recent years with newer buildings and amenities.",
+        "The 2100 Ross Avenue default is one of a growing number of downtown Dallas office foreclosures and receiverships tied to loans originated before the pandemic-era shift in tenant preferences, when older CBD towers with strong occupancy could still support the debt loads their owners placed on them. As those loans have matured against a backdrop of falling CBD occupancy and higher capitalization rates, lenders have increasingly moved to receivership and foreclosure rather than granting further extensions, particularly where a building has lost a marquee tenant with no clear replacement in sight.",
+        "For CRE lenders and asset managers, the case underscores that anchor-tenant relocation risk in aging CBD office product is now translating directly into loan performance and workout decisions, and that receivership has become a standard first step for lenders looking to stabilize operations at a distressed office asset ahead of a contested or uncontested foreclosure sale."
+      ],
+      tags: ["foreclosure", "office", "cmbs", "dallas", "receivership"],
+      parties: [
+        { name: "Wells Fargo Bank, National Association", role: "Lender" },
+        { name: "Woods Capital", role: "Borrower/Owner" },
+        { name: "Pacific Elm Properties", role: "Borrower/Owner" },
+        { name: "Trigild IVL", role: "Court-Appointed Receiver" }
+      ],
+      judge: null,
+      amountUsd: 98000000,
+      amountBasis: "loan",
+      propertyType: "Office",
+      timeline: [
+        { when: "2016", label: "Wells Fargo originates a $98 million loan against 2100 Ross Avenue" },
+        { when: "2022", label: "Anchor tenant CBRE vacates for Uptown Dallas; occupancy falls toward roughly 60%" },
+        { when: "2026", label: "Loan matures as a nonperforming balloon loan; a Dallas County court appoints Trigild IVL as receiver", current: true },
+        { when: "October 6, 2026", label: "Foreclosure auction scheduled", upcoming: true }
+      ]
     }
   ],
 
