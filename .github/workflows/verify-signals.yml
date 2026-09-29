@@ -1,0 +1,42 @@
+name: Verify and publish Market Signals
+
+# The digest routine can search the web but cannot open pages, so it
+# queues each drafted Market Signal in ops/pending-signals/ with the exact
+# source sentences behind every figure. scripts/verify_signals.py opens
+# each source page, publishes the signal into js/data.js only if every
+# quote and every figure checks out, and moves the rest to
+# ops/pending-signals/rejected/ with the reasons.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "ops/pending-signals/*.json"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: verify-signals
+  cancel-in-progress: false
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - name: Check each queued signal against its source
+        run: python3 scripts/verify_signals.py
+      - name: Commit the results
+        run: |
+          git add -A ops/pending-signals js/data.js
+          if git diff --cached --quiet; then echo "Nothing to record."; exit 0; fi
+          git config user.name "credocket-signals-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git commit -m "Market signals: publish verified, record rejected"
+          git pull --rebase origin main
+          git push

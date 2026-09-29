@@ -19,3 +19,5 @@
 /case_valuation_project/*
 !/case_valuation_project/backtest
 !/case_valuation_project/registry
+# Drafts waiting for source verification; not part of the site.
+/ops/pending-signals

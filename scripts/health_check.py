@@ -39,6 +39,7 @@ WORKFLOWS = {
     "prerender.yml": "Prerender counts and matter lists into the HTML",
     "tests.yml": "Tests",
     "docket-activity.yml": "Follow tracked federal dockets",
+    "verify-signals.yml": "Verify and publish Market Signals",
 }
 # GitHub starts scheduled runs up to ~4 hours late, so allow for it.
 MAX_AGE_HOURS = {"surveillance": 18, "fresh filings": 18, "docket activity": 32}
@@ -92,11 +93,36 @@ def check_content(problems, notes):
         problems.append(f"Tracker is stale: newest event is dated {newest_event} ({lag} days ago)")
     else:
         notes.append(f"Newest event {newest_event} ({lag} days ago)")
+    # Market Signals get new items at least weekly (digest routine,
+    # Mondays and Thursdays; verified by verify-signals.yml).
+    trends = load_trends()
+    newest_trend = max((t.get("date") or "" for t in trends), default="")
+    if not newest_trend or (today - dt.date.fromisoformat(newest_trend)).days > 10:
+        problems.append(f"Market Signals: newest item is dated {newest_trend or 'never'}, more than 10 days ago")
+    else:
+        notes.append(f"Newest Market Signal {newest_trend}")
+    rejected = sorted(p.name for p in (ROOT / "ops/pending-signals/rejected").glob("*.json"))
+    if rejected:
+        problems.append(f"{len(rejected)} Market Signal draft(s) failed source verification and need review: {', '.join(rejected)}")
     if (today - dt.date.fromisoformat(newest_added)).days > 1:
         problems.append(f"Digest routine has not added a matter since {newest_added}")
     else:
         notes.append(f"Newest matter added {newest_added}")
     return cases
+
+
+def load_trends():
+    loader = LOADER_TRENDS
+    out = subprocess.run(["deno", "eval", "--no-config", loader, str(ROOT / "js/data.js")], capture_output=True, text=True, check=True)
+    return json.loads(out.stdout)
+
+
+LOADER_TRENDS = """
+const src = await Deno.readTextFile(Deno.args[0]);
+const w = {};
+new Function("window", src.replace(/^\\s*const RELAW_DATA/m, "window.RELAW_DATA"))(w);
+console.log(JSON.stringify(w.RELAW_DATA.trends || []));
+"""
 
 
 def check_sync_backlog(problems, notes):

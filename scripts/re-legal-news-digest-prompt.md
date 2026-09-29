@@ -312,36 +312,15 @@ otherwise.
    searches broadly — a run adding zero comprehensive-sweep entries is a signal to
    search more angles next time, not just an accepted quiet day.
 
-## STEP 4B — MARKET SIGNALS (RELAW_DATA.trends)
+## STEP 4B — MARKET SIGNALS (RELAW_DATA.trends; rewritten 2026-09-29: Monday and Thursday AM runs only)
 
-Distinct from the case tracker: `trends` tracks market-wide, data-driven developments
-(foreclosure/distress volume reports, CMBS delinquency reports, capital-markets/
-lending trend pieces) for the legal-risk signal they carry, not a single case or
-ruling. This updates far less often than `cases` — most days there is nothing new
-here, and that's expected.
-
-1. Watch for (or run one extra search for) a market-wide CRE data/trend story from a
-   reasonably authoritative source, published in roughly the last few days.
-2. Only proceed if it's genuinely new — not already substantially represented by an
-   existing `trends` entry (read the array first; find the highest `trend-NNN` id).
-   If nothing qualifies, skip this step entirely (the common case).
-3. If qualifying, add ONE new object to the end of `trends` (before its closing `]`):
-   ```
-   {
-     id: "trend-NNN",
-     title: "...",
-     category: "...",             // best-fit category id from Step 4.1's list
-     date: "YYYY-MM-DD",          // date of the report/data, not today
-     scope: "...",                // geographic/market scope
-     metric: "...",               // headline stat as a short phrase; omit if none
-     source: "live",
-     sourceUrl: "...",
-     summary: "...",              // 2-5 sentences
-     significance: "...",         // 2-4 sentences: why it's a legal-risk signal
-     tags: ["...", "...", "..."]
-   }
-   ```
-   Edit in place.
+The Market Signals page (the `trends` array in js/data.js) must get at least one new item every week. You cannot open web pages in this environment, so you draft each item and a GitHub job verifies it against the source before it is published.
+1. Read the `trends` array in js/data.js: note the highest trend-NNN id and every sourceUrl already used.
+2. WebSearch for one or two market-wide commercial real estate data reports published in the last 7 days that carry legal risk: CMBS and CRE CLO delinquency and special servicing (Trepp, CRED iQ, KBRA, Fitch, Moody's, MBA), bank CRE exposure (FDIC, Federal Reserve), distressed sales and foreclosure volumes, loan maturities and modifications, construction costs (AGC, ABC), ADA Title III filing counts (Seyfarth), local moratoria and zoning trends. Prefer the publisher's own page; these open reliably for the verifier: cred-iq.com, kbra.com, credaily.com, commercialobserver.com, connectcre.com, multifamilydive.com, agc.org, adatitleiii.com, fdic.gov. Skip any report already in `trends`. Commercial real estate only.
+3. For each, write ops/pending-signals/trend-NNN.json (next ids in sequence):
+   {"trend": {"id": "trend-NNN", "title": "...", "category": "<one of the 9 category ids>", "date": "YYYY-MM-DD (the report's publication date)", "scope": "...", "metric": "<headline stat as a short phrase>", "sourceUrl": "...", "summary": "<2-5 sentences of facts>", "significance": "<2-4 sentences on the legal-risk signal>", "tags": ["3-5 lowercase tags"]}, "verification": [{"claim": "...", "quote": "<the source's sentence, word for word, as it appears in the search result>", "url": "<the page it is on>"}]}
+   The verifier rejects the item unless: every quote appears word for word on its page; every figure in the title, metric, summary and significance (anything with $, %, a decimal point, a comma, or a number of 100 or more) appears in one of the verified quotes; and at least one quote comes from the sourceUrl itself. Write figures exactly as the source does, never join fragments with "..." inside a quote, and leave out any figure you cannot quote. Do NOT edit the `trends` array in js/data.js yourself.
+4. Stage the new files in Step 6 (ops/pending-signals/). The GitHub job publishes the items that pass and moves failures to ops/pending-signals/rejected/ with the reasons. List what you queued in the Step 5 report.
 
 ## STEP 4C — QUARTERLY REPORT REFRESH (quarterly.html)
 
@@ -398,7 +377,7 @@ until it passes.
 
 ```
 cd /Users/jeffnovel/RELAW
-git add js/data.js quarterly.html ops/docket-activity-handled.json
+git add js/data.js quarterly.html ops/docket-activity-handled.json ops/pending-signals/
 git commit -m "Digest: add N new matters (live-NNN through live-NNN)"
 git push origin main
 ```
