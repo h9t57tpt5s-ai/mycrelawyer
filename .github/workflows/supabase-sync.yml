@@ -75,7 +75,9 @@ jobs:
             cat /tmp/alert_resp.json || true
 
             if [[ "$upsert_status" =~ ^2 ]]; then
-              git mv "$f" "$f.done"
+              # -f: an id can be reused after a matter is removed (live-182
+              # was, 2026-09-26), and the old .done file must not block it.
+              git mv -f "$f" "$f.done"
               echo "Marked $f as done."
             else
               echo "::warning::case_data upsert for $id failed (HTTP $upsert_status) — leaving $f pending for the next run."
