@@ -1,5 +1,26 @@
 [
  {
+  "at": "2026-09-29T02:13:23+00:00",
+  "window": [
+   "2026-09-26",
+   "2026-09-29"
+  ],
+  "sources": {
+   "courtlistener": 19,
+   "sec_edgar": 3,
+   "Hillsborough FL": 1,
+   "Harris County TX justice courts": 2
+  },
+  "stored": 25,
+  "newMatches": 0,
+  "emailsSent": 0,
+  "emailsFailed": 0,
+  "slackSent": 0,
+  "slackFailed": 0,
+  "errors": [],
+  "ok": true
+ },
+ {
   "at": "2026-09-28T18:42:29+00:00",
   "window": [
    "2026-09-25",

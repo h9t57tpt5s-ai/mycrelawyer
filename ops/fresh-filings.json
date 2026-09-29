@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-09-28T18:43:33+00:00",
+ "updatedAt": "2026-09-29T02:14:04+00:00",
  "about": "Real estate and construction Chapter 11 petitions filed in the last four days, from federal court records via CourtListener. Same name test as bankruptcy-watch.html. Business debtors only.",
  "filings": [
   {
@@ -40,54 +40,6 @@
    "docketNumber": "1-26-44490",
    "dateFiled": "2026-09-25",
    "docketUrl": "https://www.courtlistener.com/docket/74854034/1344-croes-ave-llc/",
-   "type": "Chapter 11 petition"
-  },
-  {
-   "caseName": "New Flagler Development LLC",
-   "court": "United States Bankruptcy Court, D. New Jersey",
-   "docketNumber": "26-20884",
-   "dateFiled": "2026-09-24",
-   "docketUrl": "https://www.courtlistener.com/docket/74850183/new-flagler-development-llc/",
-   "type": "Chapter 11 petition"
-  },
-  {
-   "caseName": "Brightline Property Holdings LLC",
-   "court": "United States Bankruptcy Court, D. New Jersey",
-   "docketNumber": "26-20880",
-   "dateFiled": "2026-09-24",
-   "docketUrl": "https://www.courtlistener.com/docket/74850179/brightline-property-holdings-llc/",
-   "type": "Chapter 11 petition"
-  },
-  {
-   "caseName": "9619 Pulaski Hwy LLC",
-   "court": "United States Bankruptcy Court, D. Maryland",
-   "docketNumber": "26-20484",
-   "dateFiled": "2026-09-24",
-   "docketUrl": "https://www.courtlistener.com/docket/74844567/9619-pulaski-hwy-llc/",
-   "type": "Chapter 11 petition"
-  },
-  {
-   "caseName": "69 Central St LLC",
-   "court": "United States Bankruptcy Court, M.D. Florida",
-   "docketNumber": "8:26-bk-08622",
-   "dateFiled": "2026-09-24",
-   "docketUrl": "https://www.courtlistener.com/docket/74843985/69-central-st-llc/",
-   "type": "Chapter 11 petition"
-  },
-  {
-   "caseName": "3 Strand Holdings LLC",
-   "court": "United States Bankruptcy Court, M.D. Florida",
-   "docketNumber": "8:26-bk-08621",
-   "dateFiled": "2026-09-24",
-   "docketUrl": "https://www.courtlistener.com/docket/74843946/3-strand-holdings-llc/",
-   "type": "Chapter 11 petition"
-  },
-  {
-   "caseName": "2364A Properties Corporation",
-   "court": "United States Bankruptcy Court, E.D. New York",
-   "docketNumber": "1-26-44475",
-   "dateFiled": "2026-09-24",
-   "docketUrl": "https://www.courtlistener.com/docket/74846285/2364a-properties-corporation/",
    "type": "Chapter 11 petition"
   }
  ]
