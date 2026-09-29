@@ -29,6 +29,18 @@ verified). Events more than 14 days old only if significant and newly reported,
 and never as the featured flagship, which must be from the last 7 days. Put
 today's and yesterday's dates in search queries.
 
+## STEP 1C — FOLLOW TRACKED CASES TO THEIR OUTCOME (added 2026-09-29)
+
+1. Read ops/docket-activity.json. The site's docket tracker writes it daily from CourtListener for every matter in js/data.js with a CourtListener docket. Its `events` list rulings, dismissals, settlements, appeals and case closings: key, caseIds, date, kind ("ruling" or "closed"), text (the court's own short docket text), entry (docket entry number), url.
+2. Read ops/docket-activity-handled.json (create it as {"handled": {}} if it is missing). Skip every event whose key is already in "handled".
+3. Take up to three unhandled events, newest first. For each, WebSearch the case name plus what the docket shows (e.g. "<case name> motion to dismiss ruling", "<case name> settlement") for reporting that states what the court decided.
+4. Update the existing matter in js/data.js with a targeted edit (never add a new matter for it, and never change its `date`, `addedDate` or `featured`):
+   - If a source states the outcome: add a timeline entry {when: "<Month D, YYYY>", label: "<what the court did, as the source states it>", current: true}, remove `current` from the previous timeline entry, set `status` to "ruling", "settled" or "appeal" only if the source supports it, and add one sentence to the end of `summary` stating the outcome.
+   - If no source explains it: add only a timeline entry that restates the docket text, e.g. {when: "September 24, 2026", label: "Court enters order on the motion to dismiss (docket entry 71)", current: true}. Never guess whether a motion was granted or denied, and never change `status` on a docket label alone. A "closed" event shows the case ended, not how (settlement, dismissal or judgment), so status changes only when a source says which.
+5. Write the updated matter's .sync/live-NNN.json exactly as in STEP 4D (with the updated status and summary), so Supabase and the watchlist alerts get the change.
+6. Record every event you looked at in ops/docket-activity-handled.json: "handled": {"<key>": {"caseId": "live-NNN", "at": "<today YYYY-MM-DD>", "action": "outcome from <source domain>" or "docket text only" or "skipped: <reason>"}}.
+7. These are updates, not new matters: they do not satisfy the freshness requirement and never become the featured flagship. List them under "Case updates" in the Step 5 report.
+
 ## STEP 1 — RESEARCH
 
 Before searching, read `js/data.js`'s `cases` array and compute today's actual
@@ -386,7 +398,7 @@ until it passes.
 
 ```
 cd /Users/jeffnovel/RELAW
-git add js/data.js quarterly.html
+git add js/data.js quarterly.html ops/docket-activity-handled.json
 git commit -m "Digest: add N new matters (live-NNN through live-NNN)"
 git push origin main
 ```

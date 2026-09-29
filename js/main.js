@@ -599,6 +599,51 @@
     if (tag) tag.remove();
   }
 
+  /* ---------- Court activity on a matter ----------
+     ops/docket-activity.json is written daily by scripts/track_dockets.py
+     from CourtListener for every matter with a CourtListener docket: the
+     court's own short entry text, entry dates and the termination date.
+     Public court record, so shown outside the sign-in gate. */
+  let docketActivityPromise = null;
+  function loadDocketActivity() {
+    if (!docketActivityPromise) {
+      docketActivityPromise = fetch("ops/docket-activity.json", { cache: "no-cache" })
+        .then((r) => (r.ok ? r.json() : null))
+        .catch(() => null);
+    }
+    return docketActivityPromise;
+  }
+
+  function escapeHtml(s) {
+    return String(s == null ? "" : s).replace(/[&<>"']/g, (ch) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[ch]));
+  }
+
+  function renderDocketActivity(c) {
+    const m = /courtlistener\.com\/docket\/(\d+)\//.exec(c.docketUrl || "");
+    if (!m) return;
+    loadDocketActivity().then((data) => {
+      const slot = document.getElementById("detail-docket-activity");
+      const d = data && data.dockets && data.dockets[m[1]];
+      // The panel may have moved on to another matter while this loaded.
+      if (!slot || !d || (d.caseIds && d.caseIds.indexOf(c.id) === -1)) return;
+      const entries = (d.entries || []).slice(0, 5);
+      if (!entries.length && !d.dateTerminated) return;
+      const checked = data.updatedAt ? formatDate(data.updatedAt.slice(0, 10)) : "";
+      slot.innerHTML = `
+        <div class="rule mt-24" style="margin-bottom:24px;"></div>
+        <h3 style="margin-bottom:6px;">Latest court activity</h3>
+        <p class="text-secondary docket-activity-note">From the ${escapeHtml(d.court || "federal")} docket${d.docketNumber ? " (No. " + escapeHtml(d.docketNumber) + ")" : ""} via CourtListener, checked ${checked}. Entries reach CourtListener with some delay, and not every entry does.</p>
+        ${d.dateTerminated ? `<p class="docket-activity-closed">The docket shows this case closed on ${formatDate(d.dateTerminated)}.</p>` : ""}
+        <ul class="docket-activity-list">
+          ${entries.map((e) => `
+            <li>
+              <span class="docket-activity-date">${e.date ? formatDate(e.date) : ""}</span>
+              <span class="docket-activity-text">${e.ruling ? '<span class="docket-activity-flag">Ruling</span>' : ""}${e.url ? `<a href="${escapeHtml(e.url)}" target="_blank" rel="noopener">${escapeHtml(e.text || "Docket entry")}</a>` : escapeHtml(e.text || "Docket entry")}${e.number ? ` <span class="docket-activity-no">No. ${escapeHtml(e.number)}</span>` : ""}</span>
+            </li>`).join("")}
+        </ul>`;
+    });
+  }
+
   /* ---------- Detail panel (shared across pages) ---------- */
   function buildDetailPanel() {
     if (document.getElementById("detail-panel")) return;
@@ -741,6 +786,7 @@
           <h3 style="margin-bottom:10px;">Why it matters</h3>
           <p class="body-text">${c.significance}</p>
         </div>
+        <div id="detail-docket-activity"></div>
         <div class="rule mt-24" style="margin-bottom:24px;"></div>
         <div id="detail-gated-content"></div>
         <div class="tag-row">${c.tags.map((t) => `<span class="detail-tag">${t}</span>`).join("")}</div>
@@ -756,6 +802,7 @@
         </div>
       `;
       document.getElementById("detail-close-btn").addEventListener("click", close);
+      renderDocketActivity(c);
       overlay.classList.add("open");
       panel.classList.add("open");
       document.body.style.overflow = "hidden";

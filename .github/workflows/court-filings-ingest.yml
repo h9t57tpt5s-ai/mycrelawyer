@@ -42,8 +42,9 @@ jobs:
           COURTLISTENER_TOKEN: ${{ secrets.COURTLISTENER_TOKEN }}
           WINDOW_DAYS: ${{ inputs.window_days || '3' }}
           WRITE_ALERT_LOG: "1"
-        # Two runs a day share CourtListener's 125-request daily allowance.
-        run: python3 scripts/ingest_court_filings.py --budget 60
+        # Two runs a day share CourtListener's 125-request daily allowance
+        # with the docket tracker (docket-activity.yml, up to 12): 55+55+12.
+        run: python3 scripts/ingest_court_filings.py --budget 55
       - name: Commit the alert log
         # Runs even when the ingest step failed: a failed run belongs in
         # the public log too.

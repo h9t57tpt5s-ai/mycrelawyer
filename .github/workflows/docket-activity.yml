@@ -1,0 +1,45 @@
+name: Follow tracked federal dockets
+
+# Runs scripts/track_dockets.py: new docket entries and closings for every
+# tracker matter with a CourtListener docket, written to
+# ops/docket-activity.json. The site shows them on each matter, and the
+# digest routine (12:00 UTC) writes up the rulings, so this runs first.
+# About 8 CourtListener requests a day (budget 12), from the same 125/day token
+# allowance the surveillance workflow uses.
+
+on:
+  schedule:
+    - cron: "23 9 * * *" # ~4:30am Central
+  workflow_dispatch:
+
+permissions:
+  contents: write # commits ops/docket-activity.json
+
+concurrency:
+  group: docket-activity
+  cancel-in-progress: false
+
+jobs:
+  track:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - uses: denoland/setup-deno@v2
+        with:
+          deno-version: v2.x
+      - name: Pull new docket entries
+        env:
+          COURTLISTENER_TOKEN: ${{ secrets.COURTLISTENER_TOKEN }}
+        run: python3 scripts/track_dockets.py --budget 12
+      - name: Commit the docket activity
+        run: |
+          git add ops/docket-activity.json
+          if git diff --cached --quiet; then echo "Nothing new."; exit 0; fi
+          git config user.name "credocket-docket-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git commit -m "Docket activity: record daily pull"
+          git pull --rebase origin main
+          git push

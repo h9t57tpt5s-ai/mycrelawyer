@@ -1708,3 +1708,14 @@ h3, .h3 {
 .sb-row-top { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; flex-wrap: wrap; }
 .sb-row-top h4 { font-size: 1rem; margin: 0; }
 .sb-amount { font-family: var(--font-mono, monospace); font-weight: 700; color: var(--ui-success); white-space: nowrap; font-size: 1.05rem; }
+
+/* Latest court activity on a matter (js/main.js renderDocketActivity) */
+.docket-activity-note { font-size: 12.5px; line-height: 1.55; margin-bottom: 14px; }
+.docket-activity-closed { font-size: 13.5px; font-weight: 600; color: var(--text-primary); margin-bottom: 12px; }
+.docket-activity-list { list-style: none; margin: 0; padding: 0; display: grid; gap: 10px; }
+.docket-activity-list li { display: grid; grid-template-columns: 96px 1fr; gap: 12px; font-size: 13.5px; line-height: 1.5; }
+.docket-activity-date { font-family: var(--font-mono); font-size: 11.5px; color: var(--text-muted); padding-top: 2px; font-variant-numeric: tabular-nums; }
+.docket-activity-text a { color: var(--accent-deep); }
+.docket-activity-no { font-family: var(--font-mono); font-size: 11px; color: var(--text-muted); white-space: nowrap; }
+.docket-activity-flag { display: inline-block; font-family: var(--font-mono); font-size: 10px; text-transform: uppercase; letter-spacing: 0.06em; padding: 1px 7px; margin-right: 7px; border-radius: var(--radius-full); border: 1px solid var(--status-ruling); color: var(--status-ruling); vertical-align: 1px; }
+@media (max-width: 480px) { .docket-activity-list li { grid-template-columns: 1fr; gap: 2px; } }

@@ -1,0 +1,1391 @@
+{
+ "updatedAt": "2026-09-29T17:51:46+00:00",
+ "source": "CourtListener RECAP archive (federal courts only). Entries appear when CourtListener receives them, so some are late or missing.",
+ "requestsUsed": 5,
+ "errors": [],
+ "dockets": {
+  "63107484": {
+   "entries": [],
+   "caseIds": [
+    "live-104"
+   ],
+   "court": "D. Neb.",
+   "docketNumber": "8:22-cv-00070",
+   "dateTerminated": "2025-11-26",
+   "url": "https://www.courtlistener.com/docket/63107484/pioneer-hi-bred-international-inc-v-alten-llc/",
+   "lastEntryDate": null
+  },
+  "66581116": {
+   "entries": [],
+   "caseIds": [
+    "live-101"
+   ],
+   "court": "D.N.M.",
+   "docketNumber": "1:22-cv-00921",
+   "dateTerminated": null,
+   "url": "https://www.courtlistener.com/docket/66581116/dillard-store-services-inc-v-winrock-partners-llc/",
+   "lastEntryDate": null
+  },
+  "66730007": {
+   "entries": [],
+   "caseIds": [
+    "live-051"
+   ],
+   "court": "E.D. Pa.",
+   "docketNumber": "2:23-cv-00146",
+   "dateTerminated": null,
+   "url": "https://www.courtlistener.com/docket/66730007/wells-fargo-bank-national-association-as-trusteefor-the-benefit-of/",
+   "lastEntryDate": null
+  },
+  "67174489": {
+   "entries": [
+    {
+     "date": "2026-09-25",
+     "number": 1552,
+     "text": "Miscellaneous Relief",
+     "url": "https://www.courtlistener.com/docket/67174489/1552/in-re-realpage-inc-rental-software-antitrust-litigation-no-ii/",
+     "ruling": false
+    },
+    {
+     "date": "2026-09-22",
+     "number": 1545,
+     "text": "NOTICE by MDL 3071 Plaintiffs re",
+     "url": "https://www.courtlistener.com/docket/67174489/1545/in-re-realpage-inc-rental-software-antitrust-litigation-no-ii/",
+     "ruling": false
+    },
+    {
+     "date": "2026-09-22",
+     "number": 1544,
+     "text": "Notice (Other)",
+     "url": "https://www.courtlistener.com/docket/67174489/1544/in-re-realpage-inc-rental-software-antitrust-litigation-no-ii/",
+     "ruling": false
+    },
+    {
+     "date": "2026-09-18",
+     "number": 1543,
+     "text": "Notice (Other)",
+     "url": "https://www.courtlistener.com/docket/67174489/1543/in-re-realpage-inc-rental-software-antitrust-litigation-no-ii/",
+     "ruling": false
+    },
+    {
+     "date": "2026-09-17",
+     "number": 1542,
+     "text": "Notice (Other)",
+     "url": "https://www.courtlistener.com/docket/67174489/1542/in-re-realpage-inc-rental-software-antitrust-litigation-no-ii/",
+     "ruling": false
+    },
+    {
+     "date": "2026-09-16",
+     "number": 1541,
+     "text": "Appear Pro Hac Vice",
+     "url": "https://www.courtlistener.com/docket/67174489/1541/in-re-realpage-inc-rental-software-antitrust-litigation-no-ii/",
+     "ruling": false
+    },
+    {
+     "date": "2026-09-16",
+     "number": 1540,
+     "text": "Appear Pro Hac Vice",
+     "url": "https://www.courtlistener.com/docket/67174489/1540/in-re-realpage-inc-rental-software-antitrust-litigation-no-ii/",
+     "ruling": false
+    },
+    {
+     "date": "2026-09-16",
+     "number": 1539,
+     "text": "Appear Pro Hac Vice",
+     "url": "https://www.courtlistener.com/docket/67174489/1539/in-re-realpage-inc-rental-software-antitrust-litigation-no-ii/",
+     "ruling": false
+    }
+   ],
+   "caseIds": [
+    "live-069"
+   ],
+   "court": "M.D. Tenn.",
+   "docketNumber": "3:23-md-03071",
+   "dateTerminated": null,
+   "url": "https://www.courtlistener.com/docket/67174489/in-re-realpage-inc-rental-software-antitrust-litigation-no-ii/",
+   "lastEntryDate": "2026-09-25"
+  },
+  "67940311": {
+   "entries": [],
+   "caseIds": [
+    "live-058"
+   ],
+   "court": "M.D. Tenn.",
+   "docketNumber": "3:23-cv-01145",
+   "dateTerminated": "2025-08-04",
+   "url": "https://www.courtlistener.com/docket/67940311/oakworth-capital-bank-v-rc-nashville-development-partners-llc/",
+   "lastEntryDate": null
+  },
+  "68078274": {
+   "entries": [],
+   "caseIds": [
+    "live-056"
+   ],
+   "court": "Bankr. W.D. Wash.",
+   "docketNumber": "23-42180",
+   "dateTerminated": "2025-06-27",
+   "url": "https://www.courtlistener.com/docket/68078274/harbor-custom-development-inc-lead-case-consolidated-w-member-cases/",
+   "lastEntryDate": null
+  },
+  "69074245": {
+   "entries": [
+    {
+     "date": "2026-09-21",
+     "number": 222,
+     "text": "Order",
+     "url": "https://www.courtlistener.com/docket/69074245/222/united-states-of-america-v-realpage-inc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-09-16",
+     "number": 221,
+     "text": "Notice - Other",
+     "url": "https://www.courtlistener.com/docket/69074245/221/united-states-of-america-v-realpage-inc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-09-16",
+     "number": null,
+     "text": "CASE REFERRED RE: Responses to DE # 209, to JUDGE WILLIAM L. OSTEEN, JR",
+     "url": "https://www.courtlistener.com/docket/69074245/united-states-of-america-v-realpage-inc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-09-16",
+     "number": null,
+     "text": "Case Referred to Judge",
+     "url": "https://www.courtlistener.com/docket/69074245/united-states-of-america-v-realpage-inc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-09-15",
+     "number": 220,
+     "text": "Reply - non motion",
+     "url": "https://www.courtlistener.com/docket/69074245/220/united-states-of-america-v-realpage-inc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-09-15",
+     "number": 219,
+     "text": "Response",
+     "url": "https://www.courtlistener.com/docket/69074245/219/united-states-of-america-v-realpage-inc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-09-14",
+     "number": 218,
+     "text": "Notice - Other",
+     "url": "https://www.courtlistener.com/docket/69074245/218/united-states-of-america-v-realpage-inc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-09-08",
+     "number": 217,
+     "text": "Response",
+     "url": "https://www.courtlistener.com/docket/69074245/217/united-states-of-america-v-realpage-inc/",
+     "ruling": false
+    }
+   ],
+   "caseIds": [
+    "live-062"
+   ],
+   "court": "M.D.N.C.",
+   "docketNumber": "1:24-cv-00710",
+   "dateTerminated": null,
+   "url": "https://www.courtlistener.com/docket/69074245/united-states-of-america-v-realpage-inc/",
+   "lastEntryDate": "2026-09-21"
+  },
+  "69353264": {
+   "entries": [
+    {
+     "date": "2026-09-24",
+     "number": 39,
+     "text": "Amended Document (NOT Motion/Complaint)",
+     "url": "https://www.courtlistener.com/docket/69353264/39/ayer-v-lightstone-value-plus-reit-i-inc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-09-24",
+     "number": null,
+     "text": "Notice of Pro Hac Vice counsel added",
+     "url": "https://www.courtlistener.com/docket/69353264/ayer-v-lightstone-value-plus-reit-i-inc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-09-23",
+     "number": 38,
+     "text": "Notice of Pro Hac Vice to Receive NEF",
+     "url": "https://www.courtlistener.com/docket/69353264/38/ayer-v-lightstone-value-plus-reit-i-inc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-09-23",
+     "number": 37,
+     "text": "Notice of Pro Hac Vice to Receive NEF",
+     "url": "https://www.courtlistener.com/docket/69353264/37/ayer-v-lightstone-value-plus-reit-i-inc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-09-23",
+     "number": 36,
+     "text": "Notice of Pro Hac Vice to Receive NEF",
+     "url": "https://www.courtlistener.com/docket/69353264/36/ayer-v-lightstone-value-plus-reit-i-inc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-09-23",
+     "number": null,
+     "text": "Notice of Pro Hac Vice counsel added",
+     "url": "https://www.courtlistener.com/docket/69353264/ayer-v-lightstone-value-plus-reit-i-inc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-09-23",
+     "number": null,
+     "text": "QC - Pro Hac Vice request",
+     "url": "https://www.courtlistener.com/docket/69353264/ayer-v-lightstone-value-plus-reit-i-inc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-09-23",
+     "number": null,
+     "text": "1 - Terminate Hearings AND Text Order AND ~Util - Set Hearings",
+     "url": "https://www.courtlistener.com/docket/69353264/ayer-v-lightstone-value-plus-reit-i-inc/",
+     "ruling": false
+    }
+   ],
+   "caseIds": [
+    "live-013"
+   ],
+   "court": "D.N.J.",
+   "docketNumber": "3:24-cv-10371",
+   "dateTerminated": null,
+   "url": "https://www.courtlistener.com/docket/69353264/ayer-v-lightstone-value-plus-reit-i-inc/",
+   "lastEntryDate": "2026-09-24"
+  },
+  "69518085": {
+   "entries": [
+    {
+     "date": "2026-09-18",
+     "number": null,
+     "text": "Close Adversary Case",
+     "url": "https://www.courtlistener.com/docket/69518085/the-ruins-llc/",
+     "ruling": false
+    }
+   ],
+   "caseIds": [
+    "live-144"
+   ],
+   "court": "Bankr. D.N.D.",
+   "docketNumber": "25-30004",
+   "dateTerminated": null,
+   "url": "https://www.courtlistener.com/docket/69518085/the-ruins-llc/",
+   "lastEntryDate": "2026-09-18"
+  },
+  "69723262": {
+   "entries": [
+    {
+     "date": "2026-09-21",
+     "number": 78,
+     "text": "Appear Pro Hac Vice",
+     "url": "https://www.courtlistener.com/docket/69723262/78/scls-realty-llc-v-town-of-johnston-rhode-island/",
+     "ruling": false
+    },
+    {
+     "date": "2026-09-21",
+     "number": null,
+     "text": "Order on Motion to Appear Pro Hac Vice",
+     "url": "https://www.courtlistener.com/docket/69723262/scls-realty-llc-v-town-of-johnston-rhode-island/",
+     "ruling": false
+    },
+    {
+     "date": "2026-09-18",
+     "number": null,
+     "text": "Notice of Hearing on Motion",
+     "url": "https://www.courtlistener.com/docket/69723262/scls-realty-llc-v-town-of-johnston-rhode-island/",
+     "ruling": false
+    },
+    {
+     "date": "2026-09-18",
+     "number": null,
+     "text": "Order on Motion to Continue",
+     "url": "https://www.courtlistener.com/docket/69723262/scls-realty-llc-v-town-of-johnston-rhode-island/",
+     "ruling": false
+    },
+    {
+     "date": "2026-09-17",
+     "number": 77,
+     "text": "Continue",
+     "url": "https://www.courtlistener.com/docket/69723262/77/scls-realty-llc-v-town-of-johnston-rhode-island/",
+     "ruling": false
+    },
+    {
+     "date": "2026-09-16",
+     "number": null,
+     "text": "Notice of Hearing on Motion",
+     "url": "https://www.courtlistener.com/docket/69723262/scls-realty-llc-v-town-of-johnston-rhode-island/",
+     "ruling": false
+    }
+   ],
+   "caseIds": [
+    "live-009"
+   ],
+   "court": "D.R.I.",
+   "docketNumber": "1:25-cv-00088",
+   "dateTerminated": null,
+   "url": "https://www.courtlistener.com/docket/69723262/scls-realty-llc-v-town-of-johnston-rhode-island/",
+   "lastEntryDate": "2026-09-21"
+  },
+  "70189262": {
+   "entries": [
+    {
+     "date": "2026-09-28",
+     "number": 46,
+     "text": "Endorsed Letter AND ~Util - Set/Reset Deadlines/Hearings",
+     "url": "https://www.courtlistener.com/docket/70189262/46/united-states-v-schuster/",
+     "ruling": false
+    },
+    {
+     "date": "2026-09-24",
+     "number": 45,
+     "text": "Letter Motion",
+     "url": "https://www.courtlistener.com/docket/70189262/45/united-states-v-schuster/",
+     "ruling": false
+    },
+    {
+     "date": "2026-09-11",
+     "number": 44,
+     "text": "Notice of Filing Transcript",
+     "url": "https://www.courtlistener.com/docket/70189262/44/united-states-v-schuster/",
+     "ruling": false
+    },
+    {
+     "date": "2026-09-11",
+     "number": 43,
+     "text": "Transcript",
+     "url": "https://www.courtlistener.com/docket/70189262/43/united-states-v-schuster/",
+     "ruling": false
+    }
+   ],
+   "caseIds": [
+    "live-137"
+   ],
+   "court": "S.D.N.Y.",
+   "docketNumber": "1:25-cr-00204",
+   "dateTerminated": null,
+   "url": "https://www.courtlistener.com/docket/70189262/united-states-v-schuster/",
+   "lastEntryDate": "2026-09-28"
+  },
+  "70689952": {
+   "entries": [],
+   "caseIds": [
+    "live-028"
+   ],
+   "court": "4th Cir.",
+   "docketNumber": "25-1730",
+   "dateTerminated": "2026-08-06",
+   "url": "https://www.courtlistener.com/docket/70689952/pseg-renewable-transmission-llc-v-arentz-family-lp/",
+   "lastEntryDate": null
+  },
+  "71501133": {
+   "entries": [
+    {
+     "date": "2026-09-11",
+     "number": 416,
+     "text": "Non-Party Filing.",
+     "url": "https://www.courtlistener.com/docket/71501133/416/federal-trade-commission-v-zillow-group-inc/",
+     "ruling": false
+    }
+   ],
+   "caseIds": [
+    "live-042"
+   ],
+   "court": "E.D. Va.",
+   "docketNumber": "1:25-cv-01638",
+   "dateTerminated": null,
+   "url": "https://www.courtlistener.com/docket/71501133/federal-trade-commission-v-zillow-group-inc/",
+   "lastEntryDate": "2026-09-11"
+  },
+  "71746386": {
+   "entries": [
+    {
+     "date": "2026-09-17",
+     "number": 35,
+     "text": "Reply (Motion related)",
+     "url": "https://www.courtlistener.com/docket/71746386/35/the-mission-llc-v-the-state-of-california/",
+     "ruling": false
+    },
+    {
+     "date": "2026-09-09",
+     "number": 34,
+     "text": "Objection/Opposition (Motion related)",
+     "url": "https://www.courtlistener.com/docket/71746386/34/the-mission-llc-v-the-state-of-california/",
+     "ruling": false
+    }
+   ],
+   "caseIds": [
+    "live-125"
+   ],
+   "court": "C.D. Cal.",
+   "docketNumber": "2:25-cv-10231",
+   "dateTerminated": null,
+   "url": "https://www.courtlistener.com/docket/71746386/the-mission-llc-v-the-state-of-california/",
+   "lastEntryDate": "2026-09-17"
+  },
+  "71964352": {
+   "entries": [],
+   "caseIds": [
+    "live-022"
+   ],
+   "court": "S.D.N.Y.",
+   "docketNumber": "1:25-cv-09847",
+   "dateTerminated": null,
+   "url": "https://www.courtlistener.com/docket/71964352/realpage-inc-v-james/",
+   "lastEntryDate": null
+  },
+  "72081019": {
+   "entries": [
+    {
+     "date": "2026-09-22",
+     "number": 56,
+     "text": "Order on Motion to Dismiss Case AND Order on Motion to Stay AND Order on Motion to Stay",
+     "url": "https://www.courtlistener.com/docket/72081019/56/solera-multifamily-llc-v-tegethoff/",
+     "ruling": true
+    },
+    {
+     "date": "2026-09-21",
+     "number": 55,
+     "text": "Stay",
+     "url": "https://www.courtlistener.com/docket/72081019/55/solera-multifamily-llc-v-tegethoff/",
+     "ruling": false
+    },
+    {
+     "date": "2026-09-15",
+     "number": null,
+     "text": "Order on Motion for Extension",
+     "url": "https://www.courtlistener.com/docket/72081019/solera-multifamily-llc-v-tegethoff/",
+     "ruling": false
+    },
+    {
+     "date": "2026-09-14",
+     "number": 53,
+     "text": "Extension",
+     "url": "https://www.courtlistener.com/docket/72081019/53/solera-multifamily-llc-v-tegethoff/",
+     "ruling": false
+    }
+   ],
+   "caseIds": [
+    "live-093"
+   ],
+   "court": "E.D. Mo.",
+   "docketNumber": "4:25-cv-01877",
+   "dateTerminated": null,
+   "url": "https://www.courtlistener.com/docket/72081019/solera-multifamily-llc-v-tegethoff/",
+   "lastEntryDate": "2026-09-22"
+  },
+  "72337565": {
+   "entries": [],
+   "caseIds": [
+    "live-124"
+   ],
+   "court": "E.D. Cal.",
+   "docketNumber": "2:26-cv-00603",
+   "dateTerminated": null,
+   "url": "https://www.courtlistener.com/docket/72337565/ca-dept-of-toxic-substances-control-v-lyon/",
+   "lastEntryDate": null
+  },
+  "73105372": {
+   "entries": [],
+   "caseIds": [
+    "live-071"
+   ],
+   "court": "N.D. Ill.",
+   "docketNumber": "1:26-cv-03416",
+   "dateTerminated": null,
+   "url": "https://www.courtlistener.com/docket/73105372/wells-fargo-bank-na-v-181-west-madison-property-llc/",
+   "lastEntryDate": null
+  },
+  "73186724": {
+   "entries": [
+    {
+     "date": "2026-09-17",
+     "number": 54,
+     "text": "Text of Proposed Order",
+     "url": "https://www.courtlistener.com/docket/73186724/54/5/district-of-columbia-v-razjooyan/",
+     "ruling": false
+    },
+    {
+     "date": "2026-09-17",
+     "number": 54,
+     "text": "Exhibit 4: Jackson Declaration",
+     "url": "https://www.courtlistener.com/docket/73186724/54/4/district-of-columbia-v-razjooyan/",
+     "ruling": false
+    },
+    {
+     "date": "2026-09-17",
+     "number": 54,
+     "text": "Exhibit 3: Browning Declaration",
+     "url": "https://www.courtlistener.com/docket/73186724/54/3/district-of-columbia-v-razjooyan/",
+     "ruling": false
+    },
+    {
+     "date": "2026-09-17",
+     "number": 54,
+     "text": "Exhibit 2: Hamilton Declaration and Exhibits",
+     "url": "https://www.courtlistener.com/docket/73186724/54/2/district-of-columbia-v-razjooyan/",
+     "ruling": false
+    },
+    {
+     "date": "2026-09-17",
+     "number": 54,
+     "text": "Exhibit 1: Cruz Declaration and Exhibits",
+     "url": "https://www.courtlistener.com/docket/73186724/54/1/district-of-columbia-v-razjooyan/",
+     "ruling": false
+    },
+    {
+     "date": "2026-09-17",
+     "number": 54,
+     "text": "Show Cause",
+     "url": "https://www.courtlistener.com/docket/73186724/54/district-of-columbia-v-razjooyan/",
+     "ruling": false
+    },
+    {
+     "date": "2026-09-15",
+     "number": 53,
+     "text": "Text of Proposed Order",
+     "url": "https://www.courtlistener.com/docket/73186724/53/6/district-of-columbia-v-razjooyan/",
+     "ruling": false
+    },
+    {
+     "date": "2026-09-15",
+     "number": 53,
+     "text": "Exhibit",
+     "url": "https://www.courtlistener.com/docket/73186724/53/5/district-of-columbia-v-razjooyan/",
+     "ruling": false
+    }
+   ],
+   "caseIds": [
+    "live-074"
+   ],
+   "court": "D.D.C.",
+   "docketNumber": "1:26-cv-01210",
+   "dateTerminated": null,
+   "url": "https://www.courtlistener.com/docket/73186724/district-of-columbia-v-razjooyan/",
+   "lastEntryDate": "2026-09-17"
+  },
+  "73409172": {
+   "entries": [
+    {
+     "date": "2026-09-24",
+     "number": 31,
+     "text": "Complaint",
+     "url": "https://www.courtlistener.com/docket/73409172/31/silver-star-properties-reit-inc/",
+     "ruling": false
+    }
+   ],
+   "caseIds": [
+    "live-006"
+   ],
+   "court": "Bankr. N.D. Tex.",
+   "docketNumber": "26-42316",
+   "dateTerminated": null,
+   "url": "https://www.courtlistener.com/docket/73409172/silver-star-properties-reit-inc/",
+   "lastEntryDate": "2026-09-24"
+  },
+  "73457710": {
+   "entries": [],
+   "caseIds": [
+    "live-132"
+   ],
+   "court": "D. Me.",
+   "docketNumber": "2:26-cv-00304",
+   "dateTerminated": null,
+   "url": "https://www.courtlistener.com/docket/73457710/portland-music-holdings-llc-v-city-of-portland/",
+   "lastEntryDate": null
+  },
+  "73480976": {
+   "entries": [
+    {
+     "date": "2026-09-24",
+     "number": 71,
+     "text": "Order on Motion to Dismiss AND Order on Motion to Dismiss AND Order on Motion to Set a Briefing Schedule",
+     "url": "https://www.courtlistener.com/docket/73480976/71/fitfactaridc-llc-v-costar-group-inc/",
+     "ruling": true
+    },
+    {
+     "date": "2026-09-23",
+     "number": 70,
+     "text": "Briefing Schedule",
+     "url": "https://www.courtlistener.com/docket/73480976/70/fitfactaridc-llc-v-costar-group-inc/",
+     "ruling": false
+    }
+   ],
+   "caseIds": [
+    "live-004"
+   ],
+   "court": "N.D. Ill.",
+   "docketNumber": "1:26-cv-06997",
+   "dateTerminated": null,
+   "url": "https://www.courtlistener.com/docket/73480976/fitfactaridc-llc-v-costar-group-inc/",
+   "lastEntryDate": "2026-09-24"
+  },
+  "73568530": {
+   "entries": [
+    {
+     "date": "2026-09-11",
+     "number": 5,
+     "text": "Notice of Substitution of Counsel and Entry of Appearance - MT",
+     "url": "https://www.courtlistener.com/docket/73568530/5/united-states-of-america-v-columbia-falls-aluminum-company-llc/",
+     "ruling": false
+    }
+   ],
+   "caseIds": [
+    "live-019"
+   ],
+   "court": "D. Mont.",
+   "docketNumber": "9:26-cv-00099",
+   "dateTerminated": null,
+   "url": "https://www.courtlistener.com/docket/73568530/united-states-of-america-v-columbia-falls-aluminum-company-llc/",
+   "lastEntryDate": "2026-09-11"
+  },
+  "73578741": {
+   "entries": [
+    {
+     "date": "2026-09-17",
+     "number": 11,
+     "text": "Order on Motion for Extension of Time to File Response/Reply",
+     "url": "https://www.courtlistener.com/docket/73578741/11/keller-v-udr-inc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-09-14",
+     "number": 10,
+     "text": "Declaration",
+     "url": "https://www.courtlistener.com/docket/73578741/10/keller-v-udr-inc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-09-14",
+     "number": 9,
+     "text": "Extension of Time to File Response/Reply",
+     "url": "https://www.courtlistener.com/docket/73578741/9/keller-v-udr-inc/",
+     "ruling": false
+    }
+   ],
+   "caseIds": [
+    "live-014"
+   ],
+   "court": "S.D. Cal.",
+   "docketNumber": "3:26-cv-03865",
+   "dateTerminated": null,
+   "url": "https://www.courtlistener.com/docket/73578741/keller-v-udr-inc/",
+   "lastEntryDate": "2026-09-17"
+  },
+  "73684397": {
+   "entries": [
+    {
+     "date": "2026-09-28",
+     "number": 11,
+     "text": "Order on Motion for Miscellaneous Relief",
+     "url": "https://www.courtlistener.com/docket/73684397/11/wilmington-savings-fund-society-fsb-v-milton-90-pleasant-valley-street/",
+     "ruling": false
+    }
+   ],
+   "caseIds": [
+    "live-003"
+   ],
+   "court": "S.D.N.Y.",
+   "docketNumber": "1:26-cv-06435",
+   "dateTerminated": null,
+   "url": "https://www.courtlistener.com/docket/73684397/wilmington-savings-fund-society-fsb-v-milton-90-pleasant-valley-street/",
+   "lastEntryDate": "2026-09-28"
+  },
+  "73687065": {
+   "entries": [
+    {
+     "date": "2026-09-28",
+     "number": 17,
+     "text": "Disclosure Statement - LR 3.03 and FRCP 7.1",
+     "url": "https://www.courtlistener.com/docket/73687065/17/securities-and-exchange-commission-v-rad-diversified-reit-inc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-09-23",
+     "number": 15,
+     "text": "Extension of Time to File Answer / Respond to Complaint",
+     "url": "https://www.courtlistener.com/docket/73687065/15/securities-and-exchange-commission-v-rad-diversified-reit-inc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-09-23",
+     "number": 14,
+     "text": "Notice of appearance",
+     "url": "https://www.courtlistener.com/docket/73687065/14/securities-and-exchange-commission-v-rad-diversified-reit-inc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-09-23",
+     "number": null,
+     "text": "Order on Motion for Extension of Time to Answer",
+     "url": "https://www.courtlistener.com/docket/73687065/securities-and-exchange-commission-v-rad-diversified-reit-inc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-09-17",
+     "number": 13,
+     "text": "Notice of a Related Action",
+     "url": "https://www.courtlistener.com/docket/73687065/13/securities-and-exchange-commission-v-rad-diversified-reit-inc/",
+     "ruling": false
+    }
+   ],
+   "caseIds": [
+    "live-005"
+   ],
+   "court": "M.D. Fla.",
+   "docketNumber": "8:26-cv-02186",
+   "dateTerminated": null,
+   "url": "https://www.courtlistener.com/docket/73687065/securities-and-exchange-commission-v-rad-diversified-reit-inc/",
+   "lastEntryDate": "2026-09-28"
+  },
+  "73733742": {
+   "entries": [
+    {
+     "date": "2026-09-25",
+     "number": 30,
+     "text": "Pro Hac Vice (Credit Card Payment)",
+     "url": "https://www.courtlistener.com/docket/73733742/30/bank-midwest-a-division-of-nbh-bank-v-tig-queso-llc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-09-25",
+     "number": 29,
+     "text": "Pro Hac Vice (Credit Card Payment)",
+     "url": "https://www.courtlistener.com/docket/73733742/29/bank-midwest-a-division-of-nbh-bank-v-tig-queso-llc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-09-23",
+     "number": 28,
+     "text": "Notice of Withdrawal of Motion",
+     "url": "https://www.courtlistener.com/docket/73733742/28/bank-midwest-a-division-of-nbh-bank-v-tig-queso-llc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-09-21",
+     "number": 27,
+     "text": "Enforce",
+     "url": "https://www.courtlistener.com/docket/73733742/27/bank-midwest-a-division-of-nbh-bank-v-tig-queso-llc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-09-16",
+     "number": 26,
+     "text": "Notice (Other)",
+     "url": "https://www.courtlistener.com/docket/73733742/26/bank-midwest-a-division-of-nbh-bank-v-tig-queso-llc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-09-15",
+     "number": 25,
+     "text": "Notice (Other)",
+     "url": "https://www.courtlistener.com/docket/73733742/25/bank-midwest-a-division-of-nbh-bank-v-tig-queso-llc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-09-15",
+     "number": 24,
+     "text": "Order on Motion for Clarification",
+     "url": "https://www.courtlistener.com/docket/73733742/24/bank-midwest-a-division-of-nbh-bank-v-tig-queso-llc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-09-11",
+     "number": 23,
+     "text": "Clarification",
+     "url": "https://www.courtlistener.com/docket/73733742/23/bank-midwest-a-division-of-nbh-bank-v-tig-queso-llc/",
+     "ruling": false
+    }
+   ],
+   "caseIds": [
+    "live-025"
+   ],
+   "court": "E.D. Pa.",
+   "docketNumber": "5:26-cv-05612",
+   "dateTerminated": null,
+   "url": "https://www.courtlistener.com/docket/73733742/bank-midwest-a-division-of-nbh-bank-v-tig-queso-llc/",
+   "lastEntryDate": "2026-09-25"
+  },
+  "73738334": {
+   "entries": [
+    {
+     "date": "2026-09-29",
+     "number": null,
+     "text": "Order on Motion for Extension of Time",
+     "url": "https://www.courtlistener.com/docket/73738334/stines-v-primeblock-operations-llc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-09-24",
+     "number": 16,
+     "text": "Extension of Time",
+     "url": "https://www.courtlistener.com/docket/73738334/16/stines-v-primeblock-operations-llc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-09-21",
+     "number": 15,
+     "text": "Affidavit in Opposition to Motion",
+     "url": "https://www.courtlistener.com/docket/73738334/15/stines-v-primeblock-operations-llc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-09-21",
+     "number": 14,
+     "text": "Memorandum in Opposition to Motion",
+     "url": "https://www.courtlistener.com/docket/73738334/14/stines-v-primeblock-operations-llc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-09-21",
+     "number": null,
+     "text": "Order on Motion for Leave to Appear Pro Hac Vice",
+     "url": "https://www.courtlistener.com/docket/73738334/stines-v-primeblock-operations-llc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-09-21",
+     "number": null,
+     "text": "Notice - Out of State Counsel",
+     "url": "https://www.courtlistener.com/docket/73738334/stines-v-primeblock-operations-llc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-09-18",
+     "number": 13,
+     "text": "Appear Pro Hac Vice - one motion per atty",
+     "url": "https://www.courtlistener.com/docket/73738334/13/stines-v-primeblock-operations-llc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-09-18",
+     "number": 12,
+     "text": "Appear Pro Hac Vice - one motion per atty",
+     "url": "https://www.courtlistener.com/docket/73738334/12/stines-v-primeblock-operations-llc/",
+     "ruling": false
+    }
+   ],
+   "caseIds": [
+    "live-078"
+   ],
+   "court": "W.D.N.C.",
+   "docketNumber": "1:26-cv-00225",
+   "dateTerminated": null,
+   "url": "https://www.courtlistener.com/docket/73738334/stines-v-primeblock-operations-llc/",
+   "lastEntryDate": "2026-09-29"
+  },
+  "73740046": {
+   "entries": [
+    {
+     "date": "2026-09-08",
+     "number": 24,
+     "text": "PAPERLESS ORDER granting 18 Motion to Appear Pro Hac Vice on behalf of Joshua S. Levy. Directing attorney Joshua S. Levy to register for pro hac vice filing in ",
+     "url": "https://www.courtlistener.com/docket/73740046/24/uwm-holdings-corp-v-two-harbors-investment-corp/",
+     "ruling": false
+    },
+    {
+     "date": "2026-09-08",
+     "number": 23,
+     "text": "PAPERLESS ORDER granting 17 Motion to Appear Pro Hac Vice on behalf of Jeffrey B Korn. Directing attorney Jeffrey B Korn to register for pro hac vice filing in ",
+     "url": "https://www.courtlistener.com/docket/73740046/23/uwm-holdings-corp-v-two-harbors-investment-corp/",
+     "ruling": false
+    },
+    {
+     "date": "2026-09-08",
+     "number": 22,
+     "text": "PAPERLESS ORDER granting 16 Motion to Appear Pro Hac Vice on behalf of Tariq Mundiya. Directing attorney Tariq Mundiya to register for pro hac vice filing in th",
+     "url": "https://www.courtlistener.com/docket/73740046/22/uwm-holdings-corp-v-two-harbors-investment-corp/",
+     "ruling": false
+    }
+   ],
+   "caseIds": [
+    "live-020"
+   ],
+   "court": "D. Maryland",
+   "docketNumber": "1:26-cv-03125",
+   "dateTerminated": null,
+   "url": "https://www.courtlistener.com/docket/73740046/uwm-holdings-corp-v-two-harbors-investment-corp/",
+   "lastEntryDate": "2026-09-08"
+  },
+  "74638795": {
+   "entries": [
+    {
+     "date": "2026-09-28",
+     "number": 5,
+     "text": "Affidavit",
+     "url": "https://www.courtlistener.com/docket/74638795/5/us-bank-national-association-as-trustee-for-morgan-stanley-bank-of-america/",
+     "ruling": false
+    },
+    {
+     "date": "2026-09-14",
+     "number": 4,
+     "text": "Corporate Disclosure Statement (aty)",
+     "url": "https://www.courtlistener.com/docket/74638795/4/us-bank-national-association-as-trustee-for-morgan-stanley-bank-of-america/",
+     "ruling": false
+    },
+    {
+     "date": "2026-09-14",
+     "number": 3,
+     "text": "Corporate Disclosure Statement (aty)",
+     "url": "https://www.courtlistener.com/docket/74638795/3/us-bank-national-association-as-trustee-for-morgan-stanley-bank-of-america/",
+     "ruling": false
+    },
+    {
+     "date": "2026-09-14",
+     "number": null,
+     "text": "QC - Fillable PDF",
+     "url": "https://www.courtlistener.com/docket/74638795/us-bank-national-association-as-trustee-for-morgan-stanley-bank-of-america/",
+     "ruling": false
+    }
+   ],
+   "caseIds": [
+    "live-031"
+   ],
+   "court": "D.N.J.",
+   "docketNumber": "3:26-cv-10200",
+   "dateTerminated": null,
+   "url": "https://www.courtlistener.com/docket/74638795/us-bank-national-association-as-trustee-for-morgan-stanley-bank-of-america/",
+   "lastEntryDate": "2026-09-28"
+  },
+  "74701388": {
+   "entries": [],
+   "caseIds": [
+    "live-047"
+   ],
+   "court": "11th Cir.",
+   "docketNumber": "26-11169",
+   "dateTerminated": null,
+   "url": "https://www.courtlistener.com/docket/74701388/access-point-financial-llc-v-charles-everhardt/",
+   "lastEntryDate": null
+  },
+  "74712343": {
+   "entries": [
+    {
+     "date": "2026-09-16",
+     "number": 11,
+     "text": "Extension of Time to File Response/Reply/Answer",
+     "url": "https://www.courtlistener.com/docket/74712343/11/the-alder-at-lake-park-llc-v-town-of-lake-park/",
+     "ruling": false
+    },
+    {
+     "date": "2026-09-16",
+     "number": null,
+     "text": "Order on Motion for Extension of Time to File Response/Reply/Answer",
+     "url": "https://www.courtlistener.com/docket/74712343/the-alder-at-lake-park-llc-v-town-of-lake-park/",
+     "ruling": false
+    },
+    {
+     "date": "2026-09-11",
+     "number": 10,
+     "text": "Notice of Attorney Appearance",
+     "url": "https://www.courtlistener.com/docket/74712343/10/the-alder-at-lake-park-llc-v-town-of-lake-park/",
+     "ruling": false
+    },
+    {
+     "date": "2026-09-08",
+     "number": 9,
+     "text": "Summons (Affidavit) Returned Executed",
+     "url": "https://www.courtlistener.com/docket/74712343/9/the-alder-at-lake-park-llc-v-town-of-lake-park/",
+     "ruling": false
+    }
+   ],
+   "caseIds": [
+    "live-088"
+   ],
+   "court": "S.D. Fla.",
+   "docketNumber": "9:26-cv-81070",
+   "dateTerminated": null,
+   "url": "https://www.courtlistener.com/docket/74712343/the-alder-at-lake-park-llc-v-town-of-lake-park/",
+   "lastEntryDate": "2026-09-16"
+  },
+  "74830187": {
+   "entries": [
+    {
+     "date": "2026-09-29",
+     "number": 14,
+     "text": "Schedule Hearing (Generic)",
+     "url": "https://www.courtlistener.com/docket/74830187/14/175-nassau-road-holding-inc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-09-28",
+     "number": 13,
+     "text": "Exhibit",
+     "url": "https://www.courtlistener.com/docket/74830187/13/175-nassau-road-holding-inc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-09-25",
+     "number": 12,
+     "text": "Relief from Stay (Fee Due)",
+     "url": "https://www.courtlistener.com/docket/74830187/12/175-nassau-road-holding-inc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-09-25",
+     "number": 11,
+     "text": "Notice of Appearance and Request for Notice",
+     "url": "https://www.courtlistener.com/docket/74830187/11/175-nassau-road-holding-inc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-09-25",
+     "number": 10,
+     "text": "BNC Certificate of Mailing with Notice/Order",
+     "url": "https://www.courtlistener.com/docket/74830187/10/175-nassau-road-holding-inc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-09-25",
+     "number": 9,
+     "text": "BNC Certificate of Mailing with Notice of Deficient Filing",
+     "url": "https://www.courtlistener.com/docket/74830187/9/175-nassau-road-holding-inc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-09-25",
+     "number": 8,
+     "text": "BNC Certificate of Mailing - Meeting of Creditors",
+     "url": "https://www.courtlistener.com/docket/74830187/8/175-nassau-road-holding-inc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-09-25",
+     "number": null,
+     "text": "Automatic docket of credit card/debit card",
+     "url": "https://www.courtlistener.com/docket/74830187/175-nassau-road-holding-inc/",
+     "ruling": false
+    }
+   ],
+   "caseIds": [
+    "live-190"
+   ],
+   "court": "Bankr. E.D.N.Y.",
+   "docketNumber": "8-26-73728",
+   "dateTerminated": null,
+   "url": "https://www.courtlistener.com/docket/74830187/175-nassau-road-holding-inc/",
+   "lastEntryDate": "2026-09-29"
+  },
+  "74844567": {
+   "entries": [
+    {
+     "date": "2026-09-29",
+     "number": 13,
+     "text": "Notice of Appearance and Request for Notice",
+     "url": "https://www.courtlistener.com/docket/74844567/13/9619-pulaski-hwy-llc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-09-28",
+     "number": 12,
+     "text": "BNC Certificate of Mailing - BK (Auto-Docket)",
+     "url": "https://www.courtlistener.com/docket/74844567/12/9619-pulaski-hwy-llc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-09-28",
+     "number": 11,
+     "text": "BNC Certificate of Mailing - BK (Auto-Docket)",
+     "url": "https://www.courtlistener.com/docket/74844567/11/9619-pulaski-hwy-llc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-09-28",
+     "number": 10,
+     "text": "BNC Certificate of Mailing - Meeting of Creditors (Auto-Docket)",
+     "url": "https://www.courtlistener.com/docket/74844567/10/9619-pulaski-hwy-llc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-09-25",
+     "number": 9,
+     "text": "Statement of Corporate Ownership",
+     "url": "https://www.courtlistener.com/docket/74844567/9/9619-pulaski-hwy-llc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-09-25",
+     "number": 8,
+     "text": "Notice of Missing Corp Ownership Statement",
+     "url": "https://www.courtlistener.com/docket/74844567/8/9619-pulaski-hwy-llc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-09-24",
+     "number": 7,
+     "text": "Employ",
+     "url": "https://www.courtlistener.com/docket/74844567/7/9619-pulaski-hwy-llc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-09-24",
+     "number": 6,
+     "text": "Notice of Appearance and Request for Notice",
+     "url": "https://www.courtlistener.com/docket/74844567/6/9619-pulaski-hwy-llc/",
+     "ruling": false
+    }
+   ],
+   "caseIds": [
+    "live-185"
+   ],
+   "court": "Bankr. D. Md.",
+   "docketNumber": "26-20484",
+   "dateTerminated": null,
+   "url": "https://www.courtlistener.com/docket/74844567/9619-pulaski-hwy-llc/",
+   "lastEntryDate": "2026-09-29"
+  },
+  "74850183": {
+   "entries": [
+    {
+     "date": "2026-09-28",
+     "number": 5,
+     "text": "Order on Motion for Joint Administration - multi case",
+     "url": "https://www.courtlistener.com/docket/74850183/5/new-flagler-development-llc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-09-28",
+     "number": null,
+     "text": "Receipt of Case Filing Fee - Court Use Only",
+     "url": "https://www.courtlistener.com/docket/74850183/new-flagler-development-llc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-09-25",
+     "number": 4,
+     "text": "Notice of Appearance and Request",
+     "url": "https://www.courtlistener.com/docket/74850183/4/new-flagler-development-llc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-09-25",
+     "number": 3,
+     "text": "Motion for Joint Administration - Multi-Case",
+     "url": "https://www.courtlistener.com/docket/74850183/3/new-flagler-development-llc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-09-24",
+     "number": 1,
+     "text": "Voluntary Petition (Chapter 11)",
+     "url": "https://www.courtlistener.com/docket/74850183/1/new-flagler-development-llc/",
+     "ruling": false
+    }
+   ],
+   "caseIds": [
+    "live-181"
+   ],
+   "court": "Bankr. D.N.J.",
+   "docketNumber": "26-20884",
+   "dateTerminated": null,
+   "url": "https://www.courtlistener.com/docket/74850183/new-flagler-development-llc/",
+   "lastEntryDate": "2026-09-28"
+  },
+  "74853746": {
+   "entries": [
+    {
+     "date": "2026-09-28",
+     "number": 5,
+     "text": "06Employ with Affidavit of Disinterestedness (Do Not Use to Employ/Appoint an Examiner)",
+     "url": "https://www.courtlistener.com/docket/74853746/5/moyvane-arabian-properties-llc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-09-25",
+     "number": 3,
+     "text": "Corporate Resolution (PF)",
+     "url": "https://www.courtlistener.com/docket/74853746/3/moyvane-arabian-properties-llc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-09-25",
+     "number": 1,
+     "text": "Voluntary Petition (Chapter 11)",
+     "url": "https://www.courtlistener.com/docket/74853746/1/moyvane-arabian-properties-llc/",
+     "ruling": false
+    }
+   ],
+   "caseIds": [
+    "live-195"
+   ],
+   "court": "Bankr. E.D. La.",
+   "docketNumber": "26-12472",
+   "dateTerminated": null,
+   "url": "https://www.courtlistener.com/docket/74853746/moyvane-arabian-properties-llc/",
+   "lastEntryDate": "2026-09-28"
+  },
+  "74855344": {
+   "entries": [
+    {
+     "date": "2026-09-29",
+     "number": 11,
+     "text": "Order Prescribing Procedures - Ch. 11 SubV Case, Setting Deadline for Filing Plan, Set Status Conf",
+     "url": "https://www.courtlistener.com/docket/74855344/11/united-property-investments-realty-services-llc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-09-29",
+     "number": 10,
+     "text": "Notice of Appointment of Subchapter V Trustee",
+     "url": "https://www.courtlistener.com/docket/74855344/10/united-property-investments-realty-services-llc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-09-29",
+     "number": null,
+     "text": "Prepare Hearing Notice - Automation Use Only",
+     "url": "https://www.courtlistener.com/docket/74855344/united-property-investments-realty-services-llc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-09-29",
+     "number": null,
+     "text": "Emergency Matters Submission Notification",
+     "url": "https://www.courtlistener.com/docket/74855344/united-property-investments-realty-services-llc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-09-28",
+     "number": 9,
+     "text": "Certificate of Necessity (BK)",
+     "url": "https://www.courtlistener.com/docket/74855344/9/united-property-investments-realty-services-llc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-09-28",
+     "number": 8,
+     "text": "Motion to Use Cash Collateral",
+     "url": "https://www.courtlistener.com/docket/74855344/8/united-property-investments-realty-services-llc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-09-28",
+     "number": 7,
+     "text": "Chapter 11 Case Management Summary",
+     "url": "https://www.courtlistener.com/docket/74855344/7/united-property-investments-realty-services-llc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-09-28",
+     "number": 5,
+     "text": "Certificate of Authorization to File Bankruptcy Petition",
+     "url": "https://www.courtlistener.com/docket/74855344/5/united-property-investments-realty-services-llc/",
+     "ruling": false
+    }
+   ],
+   "caseIds": [
+    "live-191"
+   ],
+   "court": "Bankr. M.D. Fla.",
+   "docketNumber": "6:26-bk-07478",
+   "dateTerminated": null,
+   "url": "https://www.courtlistener.com/docket/74855344/united-property-investments-realty-services-llc/",
+   "lastEntryDate": "2026-09-29"
+  },
+  "74856205": {
+   "entries": [
+    {
+     "date": "2026-09-29",
+     "number": 14,
+     "text": "Exhibit and Witness List",
+     "url": "https://www.courtlistener.com/docket/74856205/14/urban-development-group-llc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-09-28",
+     "number": 13,
+     "text": "Order Setting Hearing on Shortened Notice",
+     "url": "https://www.courtlistener.com/docket/74856205/13/urban-development-group-llc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-09-28",
+     "number": 12,
+     "text": "Employ - BK Motion",
+     "url": "https://www.courtlistener.com/docket/74856205/12/urban-development-group-llc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-09-28",
+     "number": 11,
+     "text": "Declaration Under Penalty of Perjury",
+     "url": "https://www.courtlistener.com/docket/74856205/11/urban-development-group-llc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-09-28",
+     "number": 10,
+     "text": "Schedule Hearing Re: Chapter 11 First Day Motions - BK Motion",
+     "url": "https://www.courtlistener.com/docket/74856205/10/urban-development-group-llc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-09-28",
+     "number": 9,
+     "text": "Pay Prepetition Wages - BK Motion",
+     "url": "https://www.courtlistener.com/docket/74856205/9/urban-development-group-llc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-09-28",
+     "number": 8,
+     "text": "Generic Notice - BK Notice",
+     "url": "https://www.courtlistener.com/docket/74856205/8/urban-development-group-llc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-09-28",
+     "number": 7,
+     "text": "CH 11 Subchapter V Status Conference Hearing - BK Order (SA)",
+     "url": "https://www.courtlistener.com/docket/74856205/7/urban-development-group-llc/",
+     "ruling": false
+    }
+   ],
+   "caseIds": [
+    "live-198"
+   ],
+   "court": "Bankr. M.D. Tenn.",
+   "docketNumber": "3:26-bk-04686",
+   "dateTerminated": null,
+   "url": "https://www.courtlistener.com/docket/74856205/urban-development-group-llc/",
+   "lastEntryDate": "2026-09-29"
+  }
+ },
+ "events": [
+  {
+   "key": "73480976:71:2026-09-24:order on motion to dismiss and order on motion to dismiss and order on motion to set a briefing schedule",
+   "docketId": "73480976",
+   "caseIds": [
+    "live-004"
+   ],
+   "date": "2026-09-24",
+   "kind": "ruling",
+   "text": "Order on Motion to Dismiss AND Order on Motion to Dismiss AND Order on Motion to Set a Briefing Schedule",
+   "entry": 71,
+   "url": "https://www.courtlistener.com/docket/73480976/71/fitfactaridc-llc-v-costar-group-inc/",
+   "firstSeen": "2026-09-29"
+  },
+  {
+   "key": "72081019:56:2026-09-22:order on motion to dismiss case and order on motion to stay and order on motion to stay",
+   "docketId": "72081019",
+   "caseIds": [
+    "live-093"
+   ],
+   "date": "2026-09-22",
+   "kind": "ruling",
+   "text": "Order on Motion to Dismiss Case AND Order on Motion to Stay AND Order on Motion to Stay",
+   "entry": 56,
+   "url": "https://www.courtlistener.com/docket/72081019/56/solera-multifamily-llc-v-tegethoff/",
+   "firstSeen": "2026-09-29"
+  }
+ ]
+}
