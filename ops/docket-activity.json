@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-09-29T17:55:44+00:00",
+ "updatedAt": "2026-09-30T16:00:53+00:00",
  "source": "CourtListener RECAP archive (federal courts only). Entries appear when CourtListener receives them, so some are late or missing.",
  "requestsUsed": 6,
  "errors": [],
@@ -433,7 +433,15 @@
    "lastEntryDate": "2026-09-17"
   },
   "71964352": {
-   "entries": [],
+   "entries": [
+    {
+     "date": "2026-09-29",
+     "number": 52,
+     "text": "Memorandum & Opinion AND ~Util - Set Deadlines/Hearings",
+     "url": "https://www.courtlistener.com/docket/71964352/52/realpage-inc-v-james/",
+     "ruling": true
+    }
+   ],
    "caseIds": [
     "live-022"
    ],
@@ -441,7 +449,7 @@
    "docketNumber": "1:25-cv-09847",
    "dateTerminated": null,
    "url": "https://www.courtlistener.com/docket/71964352/realpage-inc-v-james/",
-   "lastEntryDate": null
+   "lastEntryDate": "2026-09-29"
   },
   "72081019": {
    "entries": [
@@ -818,6 +826,13 @@
   "73738334": {
    "entries": [
     {
+     "date": "2026-09-30",
+     "number": 17,
+     "text": "Notice (Other)",
+     "url": "https://www.courtlistener.com/docket/73738334/17/stines-v-primeblock-operations-llc/",
+     "ruling": false
+    },
+    {
      "date": "2026-09-29",
      "number": null,
      "text": "Order on Motion for Extension of Time",
@@ -865,13 +880,6 @@
      "text": "Appear Pro Hac Vice - one motion per atty",
      "url": "https://www.courtlistener.com/docket/73738334/13/stines-v-primeblock-operations-llc/",
      "ruling": false
-    },
-    {
-     "date": "2026-09-18",
-     "number": 12,
-     "text": "Appear Pro Hac Vice - one motion per atty",
-     "url": "https://www.courtlistener.com/docket/73738334/12/stines-v-primeblock-operations-llc/",
-     "ruling": false
     }
    ],
    "caseIds": [
@@ -881,7 +889,7 @@
    "docketNumber": "1:26-cv-00225",
    "dateTerminated": null,
    "url": "https://www.courtlistener.com/docket/73738334/stines-v-primeblock-operations-llc/",
-   "lastEntryDate": "2026-09-29"
+   "lastEntryDate": "2026-09-30"
   },
   "73740046": {
    "entries": [
@@ -1011,6 +1019,13 @@
    "entries": [
     {
      "date": "2026-09-29",
+     "number": 15,
+     "text": "Affidavit/Certificate of Service",
+     "url": "https://www.courtlistener.com/docket/74830187/15/175-nassau-road-holding-inc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-09-29",
      "number": 14,
      "text": "Schedule Hearing (Generic)",
      "url": "https://www.courtlistener.com/docket/74830187/14/175-nassau-road-holding-inc/",
@@ -1056,13 +1071,6 @@
      "number": 8,
      "text": "BNC Certificate of Mailing - Meeting of Creditors",
      "url": "https://www.courtlistener.com/docket/74830187/8/175-nassau-road-holding-inc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-09-25",
-     "number": null,
-     "text": "Automatic docket of credit card/debit card",
-     "url": "https://www.courtlistener.com/docket/74830187/175-nassau-road-holding-inc/",
      "ruling": false
     }
    ],
@@ -1295,6 +1303,13 @@
    "entries": [
     {
      "date": "2026-09-29",
+     "number": 15,
+     "text": "Pay Pre-petition Wages - BK Order",
+     "url": "https://www.courtlistener.com/docket/74856205/15/urban-development-group-llc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-09-29",
      "number": 14,
      "text": "Exhibit and Witness List",
      "url": "https://www.courtlistener.com/docket/74856205/14/urban-development-group-llc/",
@@ -1341,13 +1356,6 @@
      "text": "Generic Notice - BK Notice",
      "url": "https://www.courtlistener.com/docket/74856205/8/urban-development-group-llc/",
      "ruling": false
-    },
-    {
-     "date": "2026-09-28",
-     "number": 7,
-     "text": "CH 11 Subchapter V Status Conference Hearing - BK Order (SA)",
-     "url": "https://www.courtlistener.com/docket/74856205/7/urban-development-group-llc/",
-     "ruling": false
     }
    ],
    "caseIds": [
@@ -1358,9 +1366,83 @@
    "dateTerminated": null,
    "url": "https://www.courtlistener.com/docket/74856205/urban-development-group-llc/",
    "lastEntryDate": "2026-09-29"
+  },
+  "74866310": {
+   "entries": [
+    {
+     "date": "2026-09-30",
+     "number": 7,
+     "text": "Notice of Deficient Filing (BK)",
+     "url": "https://www.courtlistener.com/docket/74866310/7/mw-properties-orlando-llc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-09-29",
+     "number": 5,
+     "text": "Order Authorizing DIP to Operate Business",
+     "url": "https://www.courtlistener.com/docket/74866310/5/mw-properties-orlando-llc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-09-29",
+     "number": 4,
+     "text": "Certificate of Authorization to File Bankruptcy Petition",
+     "url": "https://www.courtlistener.com/docket/74866310/4/mw-properties-orlando-llc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-09-29",
+     "number": 3,
+     "text": "Certificate of Authorization to File Bankruptcy Petition",
+     "url": "https://www.courtlistener.com/docket/74866310/3/mw-properties-orlando-llc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-09-29",
+     "number": 2,
+     "text": "Statement of Corporate Ownership",
+     "url": "https://www.courtlistener.com/docket/74866310/2/mw-properties-orlando-llc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-09-29",
+     "number": 1,
+     "text": "Voluntary Petition (Chapter 11)",
+     "url": "https://www.courtlistener.com/docket/74866310/1/mw-properties-orlando-llc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-09-29",
+     "number": null,
+     "text": "ADI - Notice to Debtor(s) Attorney Regarding Local Rule 2081-1 (Paperless Entry)",
+     "url": "https://www.courtlistener.com/docket/74866310/mw-properties-orlando-llc/",
+     "ruling": false
+    }
+   ],
+   "caseIds": [
+    "live-204"
+   ],
+   "court": "Bankr. M.D. Fla.",
+   "docketNumber": "6:26-bk-07563",
+   "dateTerminated": null,
+   "url": "https://www.courtlistener.com/docket/74866310/mw-properties-orlando-llc/",
+   "lastEntryDate": "2026-09-30"
   }
  },
  "events": [
+  {
+   "key": "71964352:52:2026-09-29:memorandum & opinion and ~util - set deadlines/hearings",
+   "docketId": "71964352",
+   "caseIds": [
+    "live-022"
+   ],
+   "date": "2026-09-29",
+   "kind": "ruling",
+   "text": "Memorandum & Opinion AND ~Util - Set Deadlines/Hearings",
+   "entry": 52,
+   "url": "https://www.courtlistener.com/docket/71964352/52/realpage-inc-v-james/",
+   "firstSeen": "2026-09-30"
+  },
   {
    "key": "73480976:71:2026-09-24:order on motion to dismiss and order on motion to dismiss and order on motion to set a briefing schedule",
    "docketId": "73480976",
