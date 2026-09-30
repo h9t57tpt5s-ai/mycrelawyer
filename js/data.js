@@ -735,7 +735,7 @@ const RELAW_DATA = {
       addedDate: "2026-08-15",
       title: "RealPage, Inc. v. James (First Amendment Challenge to NY Algorithmic Rent-Pricing Law)",
       category: "landlord-tenant",
-      status: "pending",
+      status: "ruling",
       date: "2026-08-14",
       jurisdiction: "U.S. District Court, S.D.N.Y.",
       parties: [
@@ -747,7 +747,7 @@ const RELAW_DATA = {
       amount: "Preliminary injunction sought; no damages claimed",
       source: "live",
       sourceUrl: "https://www.law360.com/real-estate-authority/articles/2513580/ny-ag-says-2nd-circ-ruling-doesn-t-back-pricing-law-case",
-      summary: "RealPage told the S.D.N.Y. court weighing its First Amendment challenge to New York's algorithmic rent-pricing ban that an August 5 Second Circuit ruling striking down a NYC food-delivery data-sharing law as unconstitutional compelled speech supports its own case. The New York Attorney General's office pushed back within days, arguing the food-delivery ruling addressed forced disclosure of customer data and has no bearing on a statute that regulates how landlords may set rents rather than compelling any disclosure. The presiding judge has not yet ruled on RealPage's pending preliminary-injunction motion or the state's motion to dismiss.",
+      summary: "RealPage told the S.D.N.Y. court weighing its First Amendment challenge to New York's algorithmic rent-pricing ban that an August 5 Second Circuit ruling striking down a NYC food-delivery data-sharing law as unconstitutional compelled speech supports its own case. The New York Attorney General's office pushed back within days, arguing the food-delivery ruling addressed forced disclosure of customer data and has no bearing on a statute that regulates how landlords may set rents rather than compelling any disclosure. The presiding judge has not yet ruled on RealPage's pending preliminary-injunction motion or the state's motion to dismiss. On September 29, 2026, Judge Valerie Caproni granted RealPage's motion for a preliminary injunction and denied the state's motion to dismiss, finding RealPage \"marginally\" likely to succeed on the merits of its First Amendment claim.",
       significance: "The dispute over how far the Second Circuit's compelled-speech reasoning extends sits at the center of nearly every pending challenge to algorithmic-pricing bans nationwide, including the tenant suits against RealPage's landlord customers already tracked here in Philadelphia and San Diego. A ruling accepting RealPage's framing would hand software vendors and landlords a strong new constitutional defense against similar restrictions; a ruling siding with the Attorney General would leave New York's ban, and the broader legislative trend behind it, on firmer footing.",
       body: [
         "A First Amendment fight over whether software-generated rent recommendations are protected speech took an unexpected turn this week, when RealPage, Inc. told a Manhattan federal court that a Second Circuit ruling in an unrelated food-delivery data case bolsters its challenge to New York's ban on algorithmic rental pricing. The New York Attorney General's office quickly disputed that reading, and the dispute — playing out in supplemental filings rather than a new complaint — matters well beyond the two litigants: New York is among the first states to prohibit landlords from using pricing software at all, and how a federal court treats that prohibition under the First Amendment could shape whether a wave of similar municipal and state bans survive constitutional scrutiny.",
@@ -762,7 +762,8 @@ const RELAW_DATA = {
         { when: "November 2025", label: "RealPage sues NY Attorney General Letitia James, seeking to enjoin the state's algorithmic rent-pricing ban on First Amendment grounds" },
         { when: "December 15, 2025", label: "New York's algorithmic-pricing statute (Gen. Bus. Law § 340-b) takes effect; enforcement against RealPage and its customers stayed pending the injunction ruling" },
         { when: "August 5, 2026", label: "Second Circuit rules a NYC food-delivery data-sharing law unconstitutional as compelled speech" },
-        { when: "August 2026", label: "RealPage cites the Second Circuit ruling as supplemental authority; NY Attorney General's office disputes its relevance", current: true }
+        { when: "August 2026", label: "RealPage cites the Second Circuit ruling as supplemental authority; NY Attorney General's office disputes its relevance" },
+        { when: "September 29, 2026", label: "Judge Valerie Caproni grants RealPage's preliminary injunction motion and denies the state's motion to dismiss, finding RealPage \"marginally\" likely to succeed on its First Amendment claim", current: true }
       ],
       docketUrl: "https://www.courtlistener.com/docket/71964352/realpage-inc-v-james/",
       docketLabel: "CourtListener docket"
@@ -6856,6 +6857,68 @@ const RELAW_DATA = {
         { when: "September 8, 2026", label: "Judge Julie Selmon denies Bitdeer's motion to disqualify AHP's counsel, Quinn Emanuel, finding an advance conflict waiver and undue prejudice to AHP if the firm were removed", current: true }
       ],
       tags: ["data-center", "restrictive-covenant", "industrial-lease", "ohio", "port-authority"]
+    },
+    {
+      id: "live-206",
+      addedDate: "2026-09-30",
+      title: "63 Spring Lafayette, LLC Chapter 11 Petition (D. Del.)",
+      category: "lending-foreclosure",
+      status: "filed",
+      date: "2026-09-29",
+      jurisdiction: "United States Bankruptcy Court, District of Delaware",
+      state: "DE",
+      amount: "Undisclosed (financial details not yet public)",
+      source: "live",
+      sourceUrl: "https://www.courtlistener.com/docket/74867047/63-spring-lafayette-llc/",
+      summary: "63 Spring Lafayette, LLC filed a Chapter 11 petition on September 29, 2026 in the United States Bankruptcy Court for the District of Delaware, case number 26-11537. This entry reflects only what the federal court docket shows; no independent news coverage of the filing was available at the time it was added to this tracker.",
+      significance: "Single-asset real estate entities named for their property address, like this debtor, make up a meaningful share of the current wave of small commercial Chapter 11 filings tied to distressed acquisition or construction debt. This tracker will add further detail as public reporting or additional docket activity becomes available.",
+      body: [
+        "63 Spring Lafayette, LLC filed a Chapter 11 petition on September 29, 2026 in the United States Bankruptcy Court for the District of Delaware, docketed as case number 26-11537. As of this entry, no independent news coverage of the filing had been published, so this record reflects only what the federal court docket itself shows: the debtor's name, the court, the case number, and the filing date.",
+        "Single-asset real estate entities, commonly organized as a standalone LLC named for the property's own street address, file Chapter 11 petitions of this kind regularly, and they make up a meaningful share of the current wave of small commercial bankruptcy filings tied to distressed acquisition, construction, or maturity debt. Because the debtor's sole meaningful asset is typically the property itself, these cases often proceed on a more compressed timeline than an operating business's reorganization. This tracker will update this entry, or add a related one, if further docket activity or independent reporting clarifies the debtor's property, its lender, and the circumstances of the filing."
+      ],
+      judge: null,
+      parties: [
+        { name: "63 Spring Lafayette, LLC", role: "Debtor" }
+      ],
+      amountUsd: null,
+      docketUrl: "https://www.courtlistener.com/docket/74867047/63-spring-lafayette-llc/",
+      docketLabel: "CourtListener docket",
+      tags: ["chapter-11", "bankruptcy", "single-asset-entity", "delaware"]
+    },
+    {
+      id: "live-207",
+      addedDate: "2026-09-30",
+      title: "State of New Jersey v. RealPage, Inc. (NJ Revives Antitrust Claims Against AvalonBay)",
+      category: "landlord-tenant",
+      status: "ruling",
+      date: "2026-09-30",
+      jurisdiction: "U.S. District Court, District of New Jersey",
+      state: "NJ",
+      amount: "No specific dollar figure stated; rent-overcharge exposure across AvalonBay's New Jersey portfolio",
+      source: "live",
+      sourceUrl: "https://www.law360.com/real-estate-authority/commercial/articles/2531908",
+      summary: "U.S. District Judge Madeline Cox Arleo ruled on September 30, 2026 that New Jersey may proceed on an amended complaint reviving antitrust claims against AvalonBay Communities, Inc. in the state's algorithmic rent-pricing suit against RealPage, Inc. and its multifamily landlord customers. The ruling follows a March 31, 2026 order that dismissed the state's original federal and state antitrust claims against AvalonBay without prejudice while allowing a consumer-fraud claim to proceed, after which New Jersey sought leave to file a repleaded complaint.",
+      significance: "The order keeps one of the country's largest multifamily REITs inside a high-profile algorithmic-pricing antitrust case and confirms that an initial pleading-stage dismissal of RealPage-adjacent antitrust claims is not a final exit for landlord defendants who used the software, so long as a state or private plaintiff can fix the specific defects a court identifies and replead. Multifamily owners facing similar suits elsewhere should treat a without-prejudice dismissal as a pause, not a resolution.",
+      body: [
+        "A federal judge in New Jersey has ruled that the state may move forward with renewed antitrust claims against AvalonBay Communities, Inc., the multifamily real estate investment trust accused, alongside software vendor RealPage, Inc., of participating in a scheme to coordinate residential rents using algorithmic pricing software. The ruling, issued September 30, 2026 by U.S. District Judge Madeline Cox Arleo in the District of New Jersey, allows New Jersey Attorney General Matthew Platkin's office to proceed on an amended complaint after the court dismissed the state's original antitrust theories against AvalonBay without prejudice earlier this year.",
+        "The underlying case, State of New Jersey v. RealPage, Inc., No. 2:25-cv-03057, was filed on April 23, 2025 by the New Jersey Attorney General's office and the state's Division of Consumer Affairs against RealPage and a roster of the largest multifamily landlords operating in New Jersey, including AvalonBay, LeFrak, Bozzuto Management, and Veris Residential, among others. The complaint alleged that RealPage's revenue-management software functioned as a conduit for competing landlords to share non-public, competitively sensitive rent and occupancy data, allowing them to coordinate pricing in violation of the federal Sherman Act, the New Jersey Antitrust Act, and the New Jersey Consumer Fraud Act.",
+        "On March 31, 2026, Judge Arleo narrowed the case considerably, granting the defendants' motions to dismiss the federal and state antitrust claims without prejudice while allowing New Jersey's consumer-fraud claim to proceed. The dismissal did not end the antitrust theory outright -- because it was without prejudice, New Jersey retained the ability to replead -- but it required the state to go back and fix specific pleading deficiencies the court identified in how the original complaint alleged coordination and anticompetitive effect as to AvalonBay. New Jersey subsequently sought leave to file an amended complaint addressing those gaps, and Judge Arleo's September 30 ruling grants that request.",
+        "The order matters beyond the immediate parties because AvalonBay is one of the largest publicly traded apartment owner-operators in the country, and the algorithmic-pricing theory New Jersey is pursuing against it is functionally identical to the theory animating a much larger docket of litigation nationwide, including the multidistrict litigation consolidated in the Middle District of Tennessee and a parallel Department of Justice enforcement action against RealPage in North Carolina. A ruling permitting a revived complaint to survive, even on amendment rather than on the original pleading, reinforces that courts are willing to let these claims proceed against individual landlord defendants who used RealPage's software, not just against RealPage itself, so long as a plaintiff can plead the connection between the software's data-sharing function and a plausible anticompetitive effect on rents.",
+        "For multifamily owners and REITs facing RealPage-adjacent litigation elsewhere, the practical lesson is that a without-prejudice dismissal rarely ends the exposure: enforcement agencies with subpoena power and the resources to refine a complaint typically get a second opportunity to fix specific pleading defects rather than a final dismissal, and courts in this line of cases have generally been willing to let a repleaded complaint proceed. Individual landlord defendants continue to face a real risk of being held to their own conduct in adopting and using revenue-management software, separate from RealPage's own liability as the vendor, and any owner that used a third-party tool ingesting competitor-sourced, non-public data should expect that fact pattern to remain a live antitrust theory in multiple jurisdictions regardless of how this particular case is ultimately resolved on the merits."
+      ],
+      judge: "Madeline Cox Arleo",
+      parties: [
+        { name: "State of New Jersey", role: "Plaintiff" },
+        { name: "RealPage, Inc.", role: "Defendant" },
+        { name: "AvalonBay Communities, Inc.", role: "Defendant" }
+      ],
+      amountUsd: null,
+      timeline: [
+        { when: "April 23, 2025", label: "New Jersey Attorney General's office sues RealPage and multifamily landlords including AvalonBay over algorithmic rent-pricing coordination" },
+        { when: "March 31, 2026", label: "Judge Arleo dismisses the state's antitrust claims against AvalonBay without prejudice, allows the consumer-fraud claim to proceed" },
+        { when: "September 30, 2026", label: "Judge Arleo grants New Jersey leave to file an amended complaint, reviving the antitrust claims against AvalonBay", current: true }
+      ],
+      tags: ["realpage", "avalonbay", "antitrust", "algorithmic-pricing", "new-jersey"]
     }
   ],
 
@@ -7698,6 +7761,14 @@ const RELAW_DATA = {
       court: "Circuit Court of Will County, Illinois",
       background: "Elected Circuit Judge of Illinois's 12th Judicial Circuit in November 2024, after serving as an Associate Judge in the same circuit since 2018. Previously worked as a Will County Assistant State's Attorney and in private practice in Joliet. Holds a J.D. from IIT Chicago-Kent College of Law.",
       bioUrl: "https://www.circuitclerkofwillcounty.com/Judge-Rules/Judge-Breslan"
+    },
+    {
+      name: "Madeline Cox Arleo",
+      slug: "madeline-cox-arleo",
+      title: "U.S. District Judge",
+      court: "U.S. District Court, District of New Jersey",
+      background: "Nominated by President Obama on June 26, 2014 and confirmed by the Senate that November, after serving as a U.S. Magistrate Judge for the District of New Jersey since 2000. Previously in private practice in Newark, New Jersey, focusing on civil litigation in state and federal courts.",
+      bioUrl: "https://www.fjc.gov/history/judges/arleo-madeline-cox"
     }
   ],
 
