@@ -16,7 +16,7 @@ const RELAW_DATA = {
      Drives the homepage's "New Today" pill: it only shows when this
      equals the visitor's local today. Updated by the digest automation
      each time Step 4 successfully adds a case — never touched otherwise. */
-  lastUpdatedDate: "2026-09-29",
+  lastUpdatedDate: "2026-09-30",
   categories: [
     { id: "landlord-tenant", label: "Landlord–Tenant", color: "var(--cat-landlord)" },
     { id: "zoning-land-use", label: "Zoning & Land Use", color: "var(--cat-zoning)" },
@@ -5737,7 +5737,8 @@ const RELAW_DATA = {
       timeline: [
         { when: "2016", label: "Bart Blatstein purchases the shuttered former Showboat casino" },
         { when: "2024", label: "Interior landscaping contractor sues Blatstein over unpaid waterpark work; later resolved" },
-        { when: "June 30, 2026", label: "Computershare Trust Co. files CMBS foreclosure complaint in Atlantic County Superior Court", current: true }
+        { when: "June 30, 2026", label: "Computershare Trust Co. files CMBS foreclosure complaint in Atlantic County Superior Court" },
+        { when: "September 21, 2026", label: "Trustee's supplemental filing states Showboat Properties has made no loan payments since April 2025, owes roughly $223,000 in taxes, and has open contractor liens; Showboat's counsel asks the court to appoint a rent receiver instead of allowing foreclosure; court sets an October 9, 2026 hearing to decide the matter", current: true }
       ],
       parties: [
         { name: "Computershare Trust Co.", role: "Trustee/Plaintiff" },
@@ -6791,6 +6792,70 @@ const RELAW_DATA = {
         { when: "January-June 2026", label: "Lenders send three notices of default; parties enter a forbearance agreement that later expires" },
         { when: "September 22, 2026", label: "Slate Property Group and The Carlyle Group sue to foreclose, alleging a $31.1M default", current: true }
       ]
+    },
+    {
+      id: "live-204",
+      addedDate: "2026-09-30",
+      title: "MW Properties Orlando LLC Chapter 11 Petition (M.D. Fla.)",
+      category: "lending-foreclosure",
+      status: "filed",
+      date: "2026-09-29",
+      jurisdiction: "United States Bankruptcy Court, Middle District of Florida",
+      state: "FL",
+      amount: "Undisclosed (financial details not yet public)",
+      source: "live",
+      sourceUrl: "https://www.courtlistener.com/docket/74866310/mw-properties-orlando-llc/",
+      summary: "MW Properties Orlando LLC filed a Chapter 11 petition on September 29, 2026 in the United States Bankruptcy Court for the Middle District of Florida, case number 6:26-bk-07563. This entry reflects only what the federal court docket shows; no independent news coverage of the filing was available at the time it was added to this tracker.",
+      significance: "Single-asset and small-portfolio real estate entities carrying \"Properties\" in their name make up a meaningful share of the current wave of small commercial Chapter 11 filings tied to distressed acquisition or construction debt in Florida. This tracker will add further detail as public reporting or additional docket activity becomes available.",
+      body: [
+        "MW Properties Orlando LLC filed a Chapter 11 petition on September 29, 2026 in the United States Bankruptcy Court for the Middle District of Florida, docketed as case number 6:26-bk-07563. As of this entry, no news coverage of the filing's underlying circumstances -- the nature of the debtor's property, its lender, or the cause of the filing -- had been published, so this record is limited to what the court docket itself shows.",
+        "Chapter 11 filings by small commercial real estate ownership entities of this kind are common among owners facing a maturing or defaulted loan, and they typically proceed on a compressed timeline relative to operating-business reorganizations, since the debtor's only meaningful asset is often the property itself. This tracker will update this entry, or add a related one, if further docket activity or independent reporting clarifies the debtor's business and the filing's circumstances."
+      ],
+      judge: null,
+      parties: [
+        { name: "MW Properties Orlando LLC", role: "Debtor" }
+      ],
+      amountUsd: null,
+      docketUrl: "https://www.courtlistener.com/docket/74866310/mw-properties-orlando-llc/",
+      docketLabel: "CourtListener docket",
+      tags: ["chapter-11", "bankruptcy", "single-asset-entity", "orlando", "florida"]
+    },
+    {
+      id: "live-205",
+      addedDate: "2026-09-30",
+      title: "American Heavy Plate Solutions, LLC v. Bitdeer (Restrictive-Covenant Fight Over Ohio Data Center)",
+      category: "lease-disputes",
+      status: "pending",
+      date: "2026-09-08",
+      jurisdiction: "Court of Common Pleas, Monroe County, Ohio",
+      state: "OH",
+      amount: "Declaratory and injunctive relief sought; no dollar figure stated",
+      source: "live",
+      sourceUrl: "https://www.jdjournal.com/2026/09/13/quinn-emanuel-wins-data-center-case/",
+      summary: "American Heavy Plate Solutions, LLC (AHP), a steel manufacturer leasing 9.9 acres of the 100-acre Hannibal Industrial Park in Monroe County, Ohio, sued Bitdeer subsidiaries Erie Creek LLC and Whitetail Creek LLC, parent Bitdeer Inc., and the Monroe County Port Authority on February 2, 2026, alleging that Bitdeer's data center construction on adjoining port-authority land violates a restrictive covenant in AHP's 2018 lease barring the landlord from granting rights to a tenant that would adversely affect AHP's operations without its consent. In a September 8, 2026 order, Monroe County Court of Common Pleas Judge Julie Selmon denied Bitdeer's motion to disqualify AHP's law firm, Quinn Emanuel Urquhart & Sullivan, over an alleged conflict of interest, finding Bitdeer had signed an advance conflict waiver and that removing the firm would unduly prejudice AHP.",
+      significance: "Shows how legacy restrictive covenants written into industrial and port-authority ground leases are becoming a real obstacle to the rapid build-out of data center campuses, particularly on shared industrial parks where an existing tenant's consent rights can delay or reshape a large construction project. Port authorities and industrial landlords negotiating new data center leases should expect existing tenants to scrutinize, and litigate over, exclusivity and non-interference language written long before the AI infrastructure boom.",
+      body: [
+        "A restrictive covenant buried in a 2018 industrial lease has become the flashpoint in a fight over one of Ohio's largest announced data center projects. American Heavy Plate Solutions, LLC (AHP), a steel manufacturer that leases 9.9 acres of the 100-acre Hannibal Industrial Park in Monroe County from the Monroe County Port Authority, sued Bitdeer subsidiaries Erie Creek LLC and Whitetail Creek LLC, parent company Bitdeer Inc., and the Port Authority itself on February 2, 2026, in the Monroe County Court of Common Pleas. AHP's complaint seeks declaratory and injunctive relief, arguing that Bitdeer's construction of a high-performance-computing and AI data center campus on adjoining port authority land violates a clause in AHP's own lease. In a September 8, 2026 order, the court handed AHP an early procedural win, denying Bitdeer's bid to disqualify AHP's law firm from the case.",
+        "The dispute turns on language common in older industrial park leases but rarely tested in a fight this large: AHP's 2018 lease provides that the Port Authority, as landlord, will not grant any person or entity an easement, license, lease, or similar right of use or occupancy over any portion of the property that adversely affects AHP's use and occupancy during the lease term, without AHP's prior written consent. AHP contends Bitdeer's data center construction, and the accompanying power, cooling, and site infrastructure a large HPC campus requires, adversely affects its own manufacturing operations at the site, and that the Port Authority never obtained its consent before extending rights to Bitdeer's entities. Bitdeer has said it will vigorously defend the suit and has acknowledged that construction and power-delivery timing on the project may be affected by the litigation.",
+        "Before the underlying covenant dispute could move forward on the merits, it detoured into a fight over AHP's own counsel. Bitdeer moved to disqualify Quinn Emanuel Urquhart & Sullivan, AHP's law firm, arguing a conflict of interest because Quinn Emanuel also represents Bitdeer in a separate, unrelated matter in New York. Judge Selmon rejected that bid, finding that Bitdeer had signed an advance conflict waiver when it retained separate counsel in the New York matter, and that Quinn Emanuel had put in place an adequate ethical wall between the two engagements. Judge Selmon wrote that removing Quinn Emanuel at this stage would impose material duplication, delay, and substantial expense that would prejudice AHP, a ruling that keeps AHP's chosen litigation team in place as the restrictive-covenant claims proceed.",
+        "The underlying restrictive-covenant question, whether Bitdeer's data center construction actually adversely affects AHP's steel manufacturing operations in a way the 2018 lease was meant to prevent, remains unresolved and will need to be litigated on the facts: the nature and degree of interference AHP can show, what the Port Authority knew or approved before extending site rights to Bitdeer, and whether the covenant's broad language reaches something as significant as a new large-scale co-tenant's power draw and construction footprint. For an industry racing to secure power-ready industrial sites, and for the law firms serving repeat clients on both sides of it, the case is a reminder that legacy lease language and advance conflict waivers, both often treated as boilerplate at signing, can become genuinely contested ground once a fast-moving AI infrastructure project lands next door to an existing industrial tenant. Landlords and developers sharing industrial or port-authority sites with existing commercial tenants should diligence those tenants' consent and exclusivity rights before committing to a construction timeline, and law firms representing repeat institutional clients across unrelated matters should keep conflict waivers and ethical walls current and well documented, since that is what preserved AHP's chosen counsel here."
+      ],
+      judge: "Julie Selmon",
+      parties: [
+        { name: "American Heavy Plate Solutions, LLC", role: "Plaintiff/Tenant" },
+        { name: "Bitdeer Inc.", role: "Defendant" },
+        { name: "Erie Creek LLC", role: "Defendant" },
+        { name: "Whitetail Creek LLC", role: "Defendant" },
+        { name: "Monroe County Port Authority", role: "Defendant/Landlord" }
+      ],
+      amountUsd: null,
+      propertyType: "Industrial",
+      timeline: [
+        { when: "2018", label: "American Heavy Plate Solutions signs its lease with Monroe County Port Authority for 9.9 acres of the Hannibal Industrial Park, including a restrictive covenant on adjoining tenants" },
+        { when: "February 2, 2026", label: "AHP sues Bitdeer subsidiaries, Bitdeer Inc., and the Port Authority in Monroe County Court of Common Pleas, seeking declaratory and injunctive relief over the covenant" },
+        { when: "September 8, 2026", label: "Judge Julie Selmon denies Bitdeer's motion to disqualify AHP's counsel, Quinn Emanuel, finding an advance conflict waiver and undue prejudice to AHP if the firm were removed", current: true }
+      ],
+      tags: ["data-center", "restrictive-covenant", "industrial-lease", "ohio", "port-authority"]
     }
   ],
 
