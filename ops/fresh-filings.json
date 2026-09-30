@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-09-29T16:59:53+00:00",
+ "updatedAt": "2026-09-30T01:29:05+00:00",
  "about": "Real estate and construction Chapter 11 petitions filed in the last four days, from federal court records via CourtListener. Same name test as bankruptcy-watch.html. Business debtors only.",
  "filings": [
   {
@@ -11,51 +11,27 @@
    "type": "Chapter 11 petition"
   },
   {
+   "caseName": "63 Spring Lafayette, LLC",
+   "court": "United States Bankruptcy Court, D. Delaware",
+   "docketNumber": "26-11537",
+   "dateFiled": "2026-09-29",
+   "docketUrl": "https://www.courtlistener.com/docket/74867047/63-spring-lafayette-llc/",
+   "type": "Chapter 11 petition"
+  },
+  {
+   "caseName": "106 WASHINGTON AVE LIMITED LIABILITY COMPANY",
+   "court": "United States Bankruptcy Court, D. New Jersey",
+   "docketNumber": "26-21071",
+   "dateFiled": "2026-09-29",
+   "docketUrl": "https://www.courtlistener.com/docket/74871358/106-washington-ave-limited-liability-company/",
+   "type": "Chapter 11 petition"
+  },
+  {
    "caseName": "Petroleum Resources & Development, Inc",
    "court": "United States Bankruptcy Court, M.D. Florida",
    "docketNumber": "6:26-bk-07547",
    "dateFiled": "2026-09-28",
    "docketUrl": "https://www.courtlistener.com/docket/74863865/petroleum-resources-development-inc/",
-   "type": "Chapter 11 petition"
-  },
-  {
-   "caseName": "Urban Development Group, LLC",
-   "court": "United States Bankruptcy Court, M.D. Tennessee",
-   "docketNumber": "3:26-bk-04686",
-   "dateFiled": "2026-09-25",
-   "docketUrl": "https://www.courtlistener.com/docket/74856205/urban-development-group-llc/",
-   "type": "Chapter 11 petition"
-  },
-  {
-   "caseName": "United Property Investments & Realty Services LLC",
-   "court": "United States Bankruptcy Court, M.D. Florida",
-   "docketNumber": "6:26-bk-07478",
-   "dateFiled": "2026-09-25",
-   "docketUrl": "https://www.courtlistener.com/docket/74855344/united-property-investments-realty-services-llc/",
-   "type": "Chapter 11 petition"
-  },
-  {
-   "caseName": "Moyvane-Arabian Properties, LLC",
-   "court": "United States Bankruptcy Court, E.D. Louisiana",
-   "docketNumber": "26-12472",
-   "dateFiled": "2026-09-25",
-   "docketUrl": "https://www.courtlistener.com/docket/74853746/moyvane-arabian-properties-llc/",
-   "type": "Chapter 11 petition"
-  },
-  {
-   "caseName": "1669 Union St LLC",
-   "court": "United States Bankruptcy Court, E.D. New York",
-   "docketNumber": "1-26-44489",
-   "dateFiled": "2026-09-25",
-   "docketUrl": "https://www.courtlistener.com/docket/74851614/1669-union-st-llc/",
-   "type": "Chapter 11 petition"
-  },
-  {
-   "caseName": "1344 Croes Ave LLC",
-   "court": "United States Bankruptcy Court, E.D. New York",
-   "docketNumber": "1-26-44490",
-   "dateFiled": "2026-09-25",
-   "docketUrl": "https://www.courtlistener.com/docket/74854034/1344-croes-ave-llc/",
    "type": "Chapter 11 petition"
   }
  ]

@@ -1,21 +1,21 @@
 {
  "ok": true,
- "generatedAt": "2026-09-29T16:59:54.135Z",
+ "generatedAt": "2026-09-30T01:29:07.089Z",
  "days": 30,
  "portfolios": 1,
  "entitiesWatched": 1,
  "sources": {
   "courtlistener": {
-   "stored": 878,
+   "stored": 898,
    "liveSince": "2026-09-19",
-   "lagSample": 221,
+   "lagSample": 241,
    "medianLagDays": 1,
    "p90LagDays": 2
   },
   "sec_edgar": {
-   "stored": 181,
+   "stored": 183,
    "liveSince": "2026-09-19",
-   "lagSample": 27,
+   "lagSample": 29,
    "medianLagDays": 1,
    "p90LagDays": 2
   },
@@ -27,9 +27,9 @@
    "p90LagDays": 2
   },
   "harris_jp_tx": {
-   "stored": 18,
+   "stored": 21,
    "liveSince": "2026-09-20",
-   "lagSample": 12,
+   "lagSample": 15,
    "medianLagDays": 1,
    "p90LagDays": 2
   }
@@ -84,9 +84,24 @@
    "stored": 19,
    "alerts": 0,
    "emailed": 0
+  },
+  "2026-09-30": {
+   "stored": 25,
+   "alerts": 1,
+   "emailed": 1
   }
  },
  "alerts": [
+  {
+   "source": "courtlistener",
+   "filingType": "civil",
+   "dateFiled": "2026-09-29",
+   "storedAt": "2026-09-30T01:28:57.930456+00:00",
+   "matchedAt": "2026-09-30T01:28:59.02556+00:00",
+   "emailedAt": "2026-09-30T01:28:59.808+00:00",
+   "confidence": "exact",
+   "overdue": false
+  },
   {
    "source": "courtlistener",
    "filingType": "bankruptcy_ch11",
@@ -98,7 +113,7 @@
    "overdue": false
   }
  ],
- "alertsEmailed": 1,
+ "alertsEmailed": 2,
  "alertsOverdue": 0,
  "medianEmailMinutes": 0,
  "maxEmailMinutes": 0
