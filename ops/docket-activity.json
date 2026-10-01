@@ -1,7 +1,7 @@
 {
- "updatedAt": "2026-09-30T16:00:53+00:00",
+ "updatedAt": "2026-10-01T16:35:22+00:00",
  "source": "CourtListener RECAP archive (federal courts only). Entries appear when CourtListener receives them, so some are late or missing.",
- "requestsUsed": 6,
+ "requestsUsed": 9,
  "errors": [],
  "dockets": {
   "63107484": {
@@ -130,6 +130,13 @@
   "69074245": {
    "entries": [
     {
+     "date": "2026-09-30",
+     "number": 223,
+     "text": "Memorandum Opinion and Order",
+     "url": "https://www.courtlistener.com/docket/69074245/223/united-states-of-america-v-realpage-inc/",
+     "ruling": true
+    },
+    {
      "date": "2026-09-21",
      "number": 222,
      "text": "Order",
@@ -177,13 +184,6 @@
      "text": "Notice - Other",
      "url": "https://www.courtlistener.com/docket/69074245/218/united-states-of-america-v-realpage-inc/",
      "ruling": false
-    },
-    {
-     "date": "2026-09-08",
-     "number": 217,
-     "text": "Response",
-     "url": "https://www.courtlistener.com/docket/69074245/217/united-states-of-america-v-realpage-inc/",
-     "ruling": false
     }
    ],
    "caseIds": [
@@ -192,8 +192,8 @@
    "court": "M.D.N.C.",
    "docketNumber": "1:24-cv-00710",
    "dateTerminated": null,
-   "url": "https://www.courtlistener.com/docket/69074245/united-states-of-america-v-realpage-inc/",
-   "lastEntryDate": "2026-09-21"
+   "url": "https://www.courtlistener.com/docket/69074245/united-states-v-realpage-inc/",
+   "lastEntryDate": "2026-09-30"
   },
   "69353264": {
    "entries": [
@@ -1201,6 +1201,27 @@
   "74853746": {
    "entries": [
     {
+     "date": "2026-09-30",
+     "number": 8,
+     "text": "Certificate of Service",
+     "url": "https://www.courtlistener.com/docket/74853746/8/moyvane-arabian-properties-llc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-09-30",
+     "number": 7,
+     "text": "Scheduling Status Conference Chapter 11 SubChapterV (Order)",
+     "url": "https://www.courtlistener.com/docket/74853746/7/moyvane-arabian-properties-llc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-09-30",
+     "number": 6,
+     "text": "Interim Order (Sua Sponte) (Order)",
+     "url": "https://www.courtlistener.com/docket/74853746/6/moyvane-arabian-properties-llc/",
+     "ruling": false
+    },
+    {
      "date": "2026-09-28",
      "number": 5,
      "text": "06Employ with Affidavit of Disinterestedness (Do Not Use to Employ/Appoint an Examiner)",
@@ -1229,10 +1250,38 @@
    "docketNumber": "26-12472",
    "dateTerminated": null,
    "url": "https://www.courtlistener.com/docket/74853746/moyvane-arabian-properties-llc/",
-   "lastEntryDate": "2026-09-28"
+   "lastEntryDate": "2026-09-30"
   },
   "74855344": {
    "entries": [
+    {
+     "date": "2026-10-01",
+     "number": 17,
+     "text": "BNC Certificate of Mailing - Notice to Creditors and Parties in Interest",
+     "url": "https://www.courtlistener.com/docket/74855344/17/united-property-investments-realty-services-llc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-09-30",
+     "number": 16,
+     "text": "Generic Order",
+     "url": "https://www.courtlistener.com/docket/74855344/16/united-property-investments-realty-services-llc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-09-30",
+     "number": 15,
+     "text": "Z - Generic Motion (use only when there is no specific motion event) (BK)",
+     "url": "https://www.courtlistener.com/docket/74855344/15/united-property-investments-realty-services-llc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-09-30",
+     "number": 14,
+     "text": "341 Mtg. Notice - Ch 11 Corp w/Claim Deadline",
+     "url": "https://www.courtlistener.com/docket/74855344/14/united-property-investments-realty-services-llc/",
+     "ruling": false
+    },
     {
      "date": "2026-09-29",
      "number": 11,
@@ -1260,34 +1309,6 @@
      "text": "Emergency Matters Submission Notification",
      "url": "https://www.courtlistener.com/docket/74855344/united-property-investments-realty-services-llc/",
      "ruling": false
-    },
-    {
-     "date": "2026-09-28",
-     "number": 9,
-     "text": "Certificate of Necessity (BK)",
-     "url": "https://www.courtlistener.com/docket/74855344/9/united-property-investments-realty-services-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-09-28",
-     "number": 8,
-     "text": "Motion to Use Cash Collateral",
-     "url": "https://www.courtlistener.com/docket/74855344/8/united-property-investments-realty-services-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-09-28",
-     "number": 7,
-     "text": "Chapter 11 Case Management Summary",
-     "url": "https://www.courtlistener.com/docket/74855344/7/united-property-investments-realty-services-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-09-28",
-     "number": 5,
-     "text": "Certificate of Authorization to File Bankruptcy Petition",
-     "url": "https://www.courtlistener.com/docket/74855344/5/united-property-investments-realty-services-llc/",
-     "ruling": false
     }
    ],
    "caseIds": [
@@ -1297,10 +1318,17 @@
    "docketNumber": "6:26-bk-07478",
    "dateTerminated": null,
    "url": "https://www.courtlistener.com/docket/74855344/united-property-investments-realty-services-llc/",
-   "lastEntryDate": "2026-09-29"
+   "lastEntryDate": "2026-10-01"
   },
   "74856205": {
    "entries": [
+    {
+     "date": "2026-09-30",
+     "number": 16,
+     "text": "BNC Certificate of Notice",
+     "url": "https://www.courtlistener.com/docket/74856205/16/urban-development-group-llc/",
+     "ruling": false
+    },
     {
      "date": "2026-09-29",
      "number": 15,
@@ -1349,13 +1377,6 @@
      "text": "Pay Prepetition Wages - BK Motion",
      "url": "https://www.courtlistener.com/docket/74856205/9/urban-development-group-llc/",
      "ruling": false
-    },
-    {
-     "date": "2026-09-28",
-     "number": 8,
-     "text": "Generic Notice - BK Notice",
-     "url": "https://www.courtlistener.com/docket/74856205/8/urban-development-group-llc/",
-     "ruling": false
     }
    ],
    "caseIds": [
@@ -1365,10 +1386,24 @@
    "docketNumber": "3:26-bk-04686",
    "dateTerminated": null,
    "url": "https://www.courtlistener.com/docket/74856205/urban-development-group-llc/",
-   "lastEntryDate": "2026-09-29"
+   "lastEntryDate": "2026-09-30"
   },
   "74866310": {
    "entries": [
+    {
+     "date": "2026-10-01",
+     "number": 10,
+     "text": "Notice of Hearing / Status Conference / Reaffirmation Hearing",
+     "url": "https://www.courtlistener.com/docket/74866310/10/mw-properties-orlando-llc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-10-01",
+     "number": 9,
+     "text": "341 Mtg. Notice - Ch 11 Corp w/Claim Deadline",
+     "url": "https://www.courtlistener.com/docket/74866310/9/mw-properties-orlando-llc/",
+     "ruling": false
+    },
     {
      "date": "2026-09-30",
      "number": 7,
@@ -1410,13 +1445,6 @@
      "text": "Voluntary Petition (Chapter 11)",
      "url": "https://www.courtlistener.com/docket/74866310/1/mw-properties-orlando-llc/",
      "ruling": false
-    },
-    {
-     "date": "2026-09-29",
-     "number": null,
-     "text": "ADI - Notice to Debtor(s) Attorney Regarding Local Rule 2081-1 (Paperless Entry)",
-     "url": "https://www.courtlistener.com/docket/74866310/mw-properties-orlando-llc/",
-     "ruling": false
     }
    ],
    "caseIds": [
@@ -1426,10 +1454,152 @@
    "docketNumber": "6:26-bk-07563",
    "dateTerminated": null,
    "url": "https://www.courtlistener.com/docket/74866310/mw-properties-orlando-llc/",
+   "lastEntryDate": "2026-10-01"
+  },
+  "74867047": {
+   "entries": [
+    {
+     "date": "2026-09-30",
+     "number": 4,
+     "text": "Change Venue/Inter-district Transfer - Motion",
+     "url": "https://www.courtlistener.com/docket/74867047/4/63-spring-lafayette-llc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-09-29",
+     "number": 3,
+     "text": "Corporate Ownership Statement",
+     "url": "https://www.courtlistener.com/docket/74867047/3/63-spring-lafayette-llc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-09-29",
+     "number": 2,
+     "text": "Receipt of filing fee for Voluntary Petition",
+     "url": "https://www.courtlistener.com/docket/74867047/2/63-spring-lafayette-llc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-09-29",
+     "number": 1,
+     "text": "RETIRED - Voluntary Petition (Chapter 11)",
+     "url": "https://www.courtlistener.com/docket/74867047/1/63-spring-lafayette-llc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-09-29",
+     "number": null,
+     "text": "Filed by U.S. Trustee.",
+     "url": "https://www.courtlistener.com/docket/74867047/63-spring-lafayette-llc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-09-29",
+     "number": null,
+     "text": "Judge Brendan Linehan Shannon added to case",
+     "url": "https://www.courtlistener.com/docket/74867047/63-spring-lafayette-llc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-09-29",
+     "number": null,
+     "text": "Add Attorney",
+     "url": "https://www.courtlistener.com/docket/74867047/63-spring-lafayette-llc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-09-29",
+     "number": null,
+     "text": "Case Assigned",
+     "url": "https://www.courtlistener.com/docket/74867047/63-spring-lafayette-llc/",
+     "ruling": false
+    }
+   ],
+   "caseIds": [
+    "live-206"
+   ],
+   "court": "Bankr. D. Del.",
+   "docketNumber": "26-11537",
+   "dateTerminated": null,
+   "url": "https://www.courtlistener.com/docket/74867047/63-spring-lafayette-llc/",
    "lastEntryDate": "2026-09-30"
+  },
+  "74874313": {
+   "entries": [
+    {
+     "date": "2026-10-01",
+     "number": null,
+     "text": "Notice of Debtor's Prior Filings",
+     "url": "https://www.courtlistener.com/docket/74874313/6363-west-73rd-street-llc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-10-01",
+     "number": null,
+     "text": "Judge's Page",
+     "url": "https://www.courtlistener.com/docket/74874313/6363-west-73rd-street-llc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-09-30",
+     "number": 5,
+     "text": "Appearance",
+     "url": "https://www.courtlistener.com/docket/74874313/5/6363-west-73rd-street-llc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-09-30",
+     "number": 4,
+     "text": "Appearance",
+     "url": "https://www.courtlistener.com/docket/74874313/4/6363-west-73rd-street-llc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-09-30",
+     "number": 3,
+     "text": "Appearance",
+     "url": "https://www.courtlistener.com/docket/74874313/3/6363-west-73rd-street-llc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-09-30",
+     "number": 1,
+     "text": "Voluntary Petition (Chapter 11a)",
+     "url": "https://www.courtlistener.com/docket/74874313/1/6363-west-73rd-street-llc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-09-30",
+     "number": null,
+     "text": "none",
+     "url": "https://www.courtlistener.com/docket/74874313/6363-west-73rd-street-llc/",
+     "ruling": false
+    }
+   ],
+   "caseIds": [
+    "live-209"
+   ],
+   "court": "Bankr. N.D. Ill.",
+   "docketNumber": "26-16232",
+   "dateTerminated": null,
+   "url": "https://www.courtlistener.com/docket/74874313/6363-west-73rd-street-llc/",
+   "lastEntryDate": "2026-10-01"
   }
  },
  "events": [
+  {
+   "key": "69074245:223:2026-09-30:memorandum opinion and order",
+   "docketId": "69074245",
+   "caseIds": [
+    "live-062"
+   ],
+   "date": "2026-09-30",
+   "kind": "ruling",
+   "text": "Memorandum Opinion and Order",
+   "entry": 223,
+   "url": "https://www.courtlistener.com/docket/69074245/223/united-states-of-america-v-realpage-inc/",
+   "firstSeen": "2026-10-01"
+  },
   {
    "key": "71964352:52:2026-09-29:memorandum & opinion and ~util - set deadlines/hearings",
    "docketId": "71964352",
