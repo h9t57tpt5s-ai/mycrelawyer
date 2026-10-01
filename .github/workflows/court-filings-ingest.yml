@@ -55,5 +55,11 @@ jobs:
           git config user.name "credocket-surveillance-bot"
           git config user.email "actions@users.noreply.github.com"
           git commit -m "Alert log: record surveillance run"
-          git pull --rebase origin main
-          git push
+          # Rebase and retry: several jobs push to main around the same minutes
+          # (2026-10-01: a rejected push left live-208/209 looking unsynced).
+          ok=0
+          for i in 1 2 3; do
+            if git pull --rebase origin main && git push; then ok=1; break; fi
+            sleep $((i * 10))
+          done
+          [ "$ok" = 1 ]

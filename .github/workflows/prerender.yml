@@ -41,5 +41,11 @@ jobs:
           git commit -m "Prerender: bake current counts and matter lists into the HTML"
           # Other commits land on main while a long run is in flight; rebase
           # so the results push is never rejected and the API spend lost.
-          git pull --rebase origin main
-          git push
+          # Rebase and retry: several jobs push to main around the same minutes
+          # (2026-10-01: a rejected push left live-208/209 looking unsynced).
+          ok=0
+          for i in 1 2 3; do
+            if git pull --rebase origin main && git push; then ok=1; break; fi
+            sleep $((i * 10))
+          done
+          [ "$ok" = 1 ]
