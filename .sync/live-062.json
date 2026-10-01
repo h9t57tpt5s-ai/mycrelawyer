@@ -1,0 +1,16 @@
+{
+  "id": "live-062",
+  "title": "United States, et al. v. LivCor, LLC (RealPage Algorithmic Pricing Antitrust Consent Judgment)",
+  "category": "landlord-tenant",
+  "status": "settled",
+  "date": "2026-06-26",
+  "jurisdiction": "U.S. District Court, Middle District of North Carolina",
+  "state": "NC",
+  "amount": "$7M multistate settlement; LivCor controls ~3,500 apartment units in North Carolina",
+  "source": "live",
+  "source_url": "https://abc11.com/post/attorney-general-jeff-jackson-announces-7m-settlement-major-nc-apartment-landlord-livcor/19325116/",
+  "summary": "U.S. District Judge William Lindsay Osteen Jr. entered final judgments resolving DOJ (May 19, 2026) and nine-state (June 26, 2026) antitrust claims that Blackstone-backed landlord LivCor, LLC used RealPage's revenue-management software and shared competitor pricing data to coordinate apartment rents. LivCor will pay $7 million split among the participating states and is barred from using non-compliant algorithmic pricing tools, sharing competitively sensitive data with rival landlords, or attending RealPage-hosted landlord meetings. In the same consolidated docket, Judge Osteen issued a 71-page memorandum opinion and order on September 30, 2026 denying motions to dismiss filed by RealPage, Camden Property Trust, Pinnacle Property Management Services, and Willow Bridge Property Company, finding the government's allegations of a hub-and-spoke pricing conspiracy plausible as to the remaining non-settling defendants.",
+  "significance": "The settlement is a concrete template for how large landlord-defendants are resolving the sprawling RealPage antitrust litigation: a comparatively modest payment paired with detailed behavioral restrictions on data-sharing and algorithmic tools, rather than proceeding to trial. It also underscores that a federal antitrust settlement does not resolve separate exposure under municipal and state algorithmic-pricing bans, several of which carry independent statutory penalties.",
+  "judge": "William Lindsay Osteen Jr.",
+  "tags": ["algorithmic pricing", "RealPage", "antitrust", "multistate settlement", "consent decree"]
+}

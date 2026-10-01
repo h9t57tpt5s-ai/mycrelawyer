@@ -2124,7 +2124,7 @@ const RELAW_DATA = {
       sourceUrl: "https://abc11.com/post/attorney-general-jeff-jackson-announces-7m-settlement-major-nc-apartment-landlord-livcor/19325116/",
       documentUrl: "https://storage.courtlistener.com/recap/gov.uscourts.ncmd.99417/gov.uscourts.ncmd.99417.199.0.pdf",
       documentLabel: "Read the states' Final Consent Judgment (June 26, 2026)",
-      summary: "U.S. District Judge William Lindsay Osteen Jr. entered final judgments resolving DOJ (May 19, 2026) and nine-state (June 26, 2026) antitrust claims that Blackstone-backed landlord LivCor, LLC used RealPage's revenue-management software and shared competitor pricing data to coordinate apartment rents. LivCor will pay $7 million split among the participating states and is barred from using non-compliant algorithmic pricing tools, sharing competitively sensitive data with rival landlords, or attending RealPage-hosted landlord meetings.",
+      summary: "U.S. District Judge William Lindsay Osteen Jr. entered final judgments resolving DOJ (May 19, 2026) and nine-state (June 26, 2026) antitrust claims that Blackstone-backed landlord LivCor, LLC used RealPage's revenue-management software and shared competitor pricing data to coordinate apartment rents. LivCor will pay $7 million split among the participating states and is barred from using non-compliant algorithmic pricing tools, sharing competitively sensitive data with rival landlords, or attending RealPage-hosted landlord meetings. In the same consolidated docket, Judge Osteen issued a 71-page memorandum opinion and order on September 30, 2026 denying motions to dismiss filed by RealPage, Camden Property Trust, Pinnacle Property Management Services, and Willow Bridge Property Company, finding the government's allegations of a hub-and-spoke pricing conspiracy plausible as to the remaining non-settling defendants.",
       significance: "The settlement is a concrete template for how large landlord-defendants are resolving the sprawling RealPage antitrust litigation: a comparatively modest payment paired with detailed behavioral restrictions on data-sharing and algorithmic tools, rather than proceeding to trial. It also underscores that a federal antitrust settlement does not resolve separate exposure under municipal and state algorithmic-pricing bans, several of which carry independent statutory penalties.",
       body: [
         "A federal judge in North Carolina has approved settlements between LivCor, LLC, a large multifamily landlord owned by Blackstone, and both the U.S. Department of Justice and a coalition of nine state attorneys general, including a $7 million payment to the states, resolving claims that LivCor participated in a scheme to coordinate apartment rents using RealPage's revenue-management software and shared competitor data. U.S. District Judge William Lindsay Osteen Jr. of the Middle District of North Carolina entered the Justice Department's final judgment on May 19, 2026 and the states' final consent judgment on June 26, 2026.",
@@ -2137,7 +2137,8 @@ const RELAW_DATA = {
         { when: "January 7, 2025", label: "DOJ and state co-plaintiffs file complaint against LivCor and five other landlords" },
         { when: "December 2025", label: "DOJ Antitrust Division files proposed consent decree resolving claims against LivCor" },
         { when: "May 19, 2026", label: "Judge William Lindsay Osteen Jr. enters the DOJ's final judgment against LivCor" },
-        { when: "June 26, 2026", label: "Judge Osteen enters the nine states' final consent judgment approving the $7M settlement", current: true }
+        { when: "June 26, 2026", label: "Judge Osteen enters the nine states' final consent judgment approving the $7M settlement" },
+        { when: "September 30, 2026", label: "In the broader consolidated case, Judge Osteen denies motions to dismiss filed by RealPage, Camden Property Trust, Pinnacle Property Management Services, and Willow Bridge Property Company (docket entry 223)", current: true }
       ],
       judge: "William Lindsay Osteen Jr.",
       tags: ["algorithmic pricing", "RealPage", "antitrust", "multistate settlement", "consent decree"],
@@ -6983,6 +6984,79 @@ const RELAW_DATA = {
       docketUrl: "https://www.courtlistener.com/docket/74874313/6363-west-73rd-street-llc/",
       docketLabel: "CourtListener docket",
       tags: ["chapter-11", "bankruptcy", "single-asset-entity", "illinois", "industrial"]
+    },
+    {
+      id: "live-210",
+      addedDate: "2026-10-01",
+      title: "Rialto Capital Advisors Forecloses on 580 Market Street (San Francisco Financial District Office)",
+      category: "lending-foreclosure",
+      status: "filed",
+      date: "2026-09-30",
+      jurisdiction: "San Francisco County, California (non-judicial trustee's sale)",
+      state: "CA",
+      propertyType: "Office",
+      amount: "$17.5M unpaid debt; Rialto credit-bid $5M to take title",
+      amountUsd: 17500000,
+      amountBasis: "loan",
+      source: "live",
+      sourceUrl: "https://therealdeal.com/san-francisco/2026/09/30/rialto-capital-takes-san-francisco-offices-in-foreclosure/",
+      summary: "Special servicer Rialto Capital Advisors took title to 580 Market Street, a 35,000-square-foot, century-old mixed-use office and retail building in San Francisco's Financial District, after a non-judicial trustee's sale. Owner Paragon Company defaulted on a $15.7 million loan that matured in June 2025; by the July 2026 trustee's deed the unpaid debt had grown to roughly $17.5 million, and Rialto took the property with a $5 million credit bid.",
+      significance: "The sale is a fresh benchmark for how far San Francisco Financial District office values have fallen: an appraisal this year put the building at $9.9 million, nearly 60% below the $24.2 million Paragon paid in 2015, and even that discounted figure exceeds Rialto's winning credit bid. Owners and lenders with maturing office loans in the submarket should treat the pricing and Rialto's multi-year hold plan as a current data point for underwriting workouts and refinancings.",
+      body: [
+        "A century-old mixed-use office and retail building in the heart of San Francisco's Financial District has passed into the hands of its lender, in the latest sign that the city's office market distress has not yet bottomed out. Special servicer Rialto Capital Advisors took control of 580 Market Street through a non-judicial foreclosure sale, after the building's owner, an affiliate of La Jolla-based Paragon Company, failed to repay a $15.7 million loan that matured in June 2025.",
+        "The foreclosure followed a familiar pattern for maturity-default cases working through California's trustee-sale process. Rialto served Paragon with a notice of default in October 2025 after the loan went unpaid past maturity, setting the statutory clock running toward a public trustee's sale. By the time the trustee's deed was recorded this past July, the unpaid debt -- inflated by accrued default interest and fees on top of the original principal -- had grown to approximately $17.5 million. At the sale, Rialto submitted a credit bid of $5 million, well below the outstanding debt, and took title to the roughly 35,000-square-foot building, located a block from the Montgomery Street BART and Muni Metro station.",
+        "The gap between what Rialto bid and what it was owed illustrates just how far the property's value has fallen. Built in 1907 and long operated as a Class B office and ground-floor retail building, 580 Market last traded in 2015, when a Paragon affiliate paid roughly $24.2 million, or about $690 per square foot, for the property. An appraisal commissioned earlier this year valued the building at just $9.9 million -- a decline of nearly 60% in little more than a decade, and a figure that sits well below even the reduced $17.5 million payoff amount Rialto claimed at the sale. Occupancy had fallen to roughly 53% as of the most recent reporting available before the foreclosure, with several of the building's largest remaining tenants facing lease expirations clustered in a narrow window.",
+        "Rialto has signaled it is weighing whether to hold and lease up the building or market it for sale as-is, with any disposition not expected before the first quarter of 2028 -- a multi-year hold period reflecting both the depth of the city's office vacancy problem and special servicers' general reluctance to crystallize losses in a market still searching for a floor. A trustee's sale credit bid is not a market valuation, and borrowers and guarantors negotiating a pre-foreclosure workout elsewhere in the submarket should anticipate that a special servicer may bid well below both the outstanding debt and any third-party appraisal, while also clarifying whether the lender intends to pursue a deficiency claim after taking title; owners of other aging, partially leased Financial District office buildings should treat this sale, and the extended REO hold timeline behind it, as a fresh comparable for their own refinancing and workout negotiations."
+      ],
+      timeline: [
+        { when: "June 2025", label: "$15.7M loan secured by 580 Market Street matures unpaid" },
+        { when: "October 2025", label: "Rialto Capital Advisors serves Paragon Company with a notice of default" },
+        { when: "July 2026", label: "Trustee's deed records approximately $17.5M in unpaid debt" },
+        { when: "September 30, 2026", label: "Rialto Capital Advisors takes title at trustee's sale with a $5M credit bid", current: true }
+      ],
+      judge: null,
+      parties: [
+        { name: "Rialto Capital Advisors", role: "Special Servicer" },
+        { name: "Paragon Company", role: "Borrower" }
+      ],
+      tags: ["office", "foreclosure", "special-servicer", "san-francisco", "cmbs"]
+    },
+    {
+      id: "live-211",
+      addedDate: "2026-10-01",
+      title: "Criterion Real Estate Capital Affiliate Forecloses on Judiciary Plaza LLC ($166.6M D.C. Office Tower)",
+      category: "lending-foreclosure",
+      status: "filed",
+      date: "2026-09-28",
+      jurisdiction: "Washington, D.C. (non-judicial deed of trust foreclosure)",
+      state: "DC",
+      propertyType: "Office",
+      amount: "$166.6M owed on a $177.5M 2007 note",
+      amountUsd: 166600000,
+      amountBasis: "loan",
+      source: "live",
+      sourceUrl: "https://www.connectcre.com/stories/return-to-lender-week-of-oct-1-2026/",
+      summary: "An affiliate of noteholder Criterion Real Estate Capital filed a foreclosure notice against Judiciary Plaza LLC, owner of the 539,478-square-foot former Department of Justice office building at 450 Fifth Street NW near Judiciary Square in Washington, D.C. The notice states the owner owes approximately $166.6 million on a $177.5 million note originated in 2007, with a public foreclosure auction scheduled for October 28, 2026.",
+      significance: "The foreclosure derails a Commission of Fine Arts-approved plan to convert the Brutalist-style office tower into roughly 500 residential units, illustrating that an approved conversion plan does not protect a property from foreclosure if the underlying legacy debt is not restructured in parallel. Noteholders that acquire distressed commercial mortgage debt at a discount, as Criterion did in the secondary market, are often more willing to foreclose and capture redevelopment upside directly than to extend an existing owner further credit.",
+      body: [
+        "A large Brutalist-style office building near Judiciary Square in downtown Washington, D.C. is headed toward a foreclosure auction after an affiliate of noteholder Criterion Real Estate Capital filed a foreclosure notice against the property's owner, Judiciary Plaza LLC. According to the notice, the owner currently owes approximately $166.6 million on a $177.5 million note originated in 2007 -- a debt load that has survived nearly two decades, several changes in loan ownership, and a since-abandoned redevelopment plan.",
+        "The building at 450 Fifth Street NW spans roughly 539,478 square feet and was for years associated with office space leased to the U.S. Department of Justice. Property records still list an entity affiliated with Clark Enterprises as the building's owner of record, but the loan secured by the property has changed hands more than once since origination: Prudential Financial, an earlier holder of the debt, sold the note in December 2022 to an affiliate of Criterion Real Estate Capital, which appointed a substitute trustee under the deed of trust the following year, setting the stage for this foreclosure notice. The notice schedules a public auction for October 28 at the District of Columbia office of Alex Cooper Auctioneers, a firm frequently used to conduct non-judicial foreclosure sales on commercial properties in the District.",
+        "The foreclosure arrives just as the building's ownership had been pursuing a very different future for the property. Plans reviewed and approved by the U.S. Commission of Fine Arts in 2025 called for converting the aging office tower into approximately 500 residential units, part of a broader wave of office-to-residential conversion proposals aimed at downtown D.C.'s persistently high office vacancy and the federal government's own shrinking office footprint. That conversion plan has reportedly been shelved as a direct result of the building's slide into foreclosure, illustrating a pattern increasingly visible across gateway office markets: an aging, underleased building identified as a strong conversion candidate on paper, only to see the capital stack supporting its ownership collapse before redevelopment financing can be arranged.",
+        "The case also highlights the particular mechanics of commercial foreclosure in the District of Columbia, which permits non-judicial foreclosure under a deed of trust's power-of-sale provision, allowing a substituted trustee to notice and conduct a public auction without first obtaining a court judgment -- a process considerably faster than judicial foreclosure that leaves less room for a defaulting owner to contest the underlying debt calculation before the property changes hands. Owners facing a matured or underwater loan secured by a deed of trust in a power-of-sale jurisdiction should treat the appointment of a substitute trustee, a step that can occur quietly well before any public notice of sale, as an early warning sign that a loan sale or workout decision has already been made by the noteholder, and should engage lender counsel immediately rather than waiting for the formal notice."
+      ],
+      timeline: [
+        { when: "2007", label: "Original $177.5M note originated against 450 Fifth Street NW" },
+        { when: "December 2022", label: "Prudential Financial sells the note to an affiliate of Criterion Real Estate Capital" },
+        { when: "2023", label: "Criterion affiliate appoints a substitute trustee under the deed of trust" },
+        { when: "2025", label: "U.S. Commission of Fine Arts approves a 500-unit residential conversion plan for the building" },
+        { when: "September 28, 2026", label: "Criterion affiliate files a foreclosure notice against Judiciary Plaza LLC, scheduling an October 28 auction", current: true }
+      ],
+      judge: null,
+      parties: [
+        { name: "Criterion Real Estate Capital", role: "Noteholder" },
+        { name: "Judiciary Plaza LLC", role: "Borrower" }
+      ],
+      tags: ["office", "foreclosure", "washington-dc", "office-to-residential", "deed-of-trust"]
     }
   ],
 

@@ -2,6 +2,7 @@
  "handled": {
   "73480976:71:2026-09-24:order on motion to dismiss and order on motion to dismiss and order on motion to set a briefing schedule": {"caseId": "live-004", "at": "2026-09-29", "action": "docket text only"},
   "72081019:56:2026-09-22:order on motion to dismiss case and order on motion to stay and order on motion to stay": {"caseId": "live-093", "at": "2026-09-29", "action": "docket text only"},
-  "71964352:52:2026-09-29:memorandum & opinion and ~util - set deadlines/hearings": {"caseId": "live-022", "at": "2026-09-30", "action": "outcome from pymnts.com / mlex.com / law360.com"}
+  "71964352:52:2026-09-29:memorandum & opinion and ~util - set deadlines/hearings": {"caseId": "live-022", "at": "2026-09-30", "action": "outcome from pymnts.com / mlex.com / law360.com"},
+  "69074245:223:2026-09-30:memorandum opinion and order": {"caseId": "live-062", "at": "2026-10-01", "action": "outcome from mlex.com / law360.com / carolinajournal.com"}
  }
 }
