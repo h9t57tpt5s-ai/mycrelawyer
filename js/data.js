@@ -16,7 +16,7 @@ const RELAW_DATA = {
      Drives the homepage's "New Today" pill: it only shows when this
      equals the visitor's local today. Updated by the digest automation
      each time Step 4 successfully adds a case — never touched otherwise. */
-  lastUpdatedDate: "2026-09-30",
+  lastUpdatedDate: "2026-10-01",
   categories: [
     { id: "landlord-tenant", label: "Landlord–Tenant", color: "var(--cat-landlord)" },
     { id: "zoning-land-use", label: "Zoning & Land Use", color: "var(--cat-zoning)" },
@@ -6919,6 +6919,70 @@ const RELAW_DATA = {
         { when: "September 30, 2026", label: "Judge Arleo grants New Jersey leave to file an amended complaint, reviving the antitrust claims against AvalonBay", current: true }
       ],
       tags: ["realpage", "avalonbay", "antitrust", "algorithmic-pricing", "new-jersey"]
+    },
+    {
+      id: "live-208",
+      addedDate: "2026-10-01",
+      featured: true,
+      title: "Investors Allege $80M Fraud Against Kohan Properties Ltd. as Lender Completes UCC Sale of 345 Seventh Avenue",
+      category: "lending-foreclosure",
+      status: "filed",
+      date: "2026-09-29",
+      jurisdiction: "Supreme Court of the State of New York",
+      state: "NY",
+      amount: "$80 million+ (alleged fraud)",
+      source: "live",
+      sourceUrl: "https://therealdeal.com/new-york/2026/09/29/davis-companies-wins-ucc-sale-for-kohans-345-seventh-avenue/",
+      summary: "A group of 17 investors sued landlord Mike Kohan's entities in New York State Supreme Court, alleging he used fraudulent operating agreements to conceal their equity stakes in real estate holding companies -- including the entity that owns the Garment District office tower at 345 Seventh Avenue -- while pledging that same equity to lenders without disclosure. The same investors separately sued mezzanine lender The Davis Companies over the building's UCC Article 9 foreclosure sale process, which Davis completed anyway on September 29, 2026, the same week Kohan was removed from his executive and board roles at Kohan Properties Ltd. amid allegations of undisclosed loans and misused Israeli bond proceeds.",
+      significance: "The dispute is a pointed reminder that equity interests in a single-purpose property-holding LLC are not self-enforcing against a lender who was never told they existed, and that a UCC Article 9 secured-party sale can draw a commercially-reasonable-sale challenge once a competing equity claim surfaces, even when that claim's validity is itself contested. For sponsors tapping cross-border capital markets to fund U.S. acquisitions, the case shows how a bond-disclosure failure can cascade quickly into parallel private litigation from the sponsor's own equity investors.",
+      body: [
+        "A cluster of investors in real estate entities controlled by landlord Mike Kohan has gone to court alleging he defrauded them of more than $80 million, in a dispute that reached a head just as a mezzanine lender completed a foreclosure sale of the Manhattan office building at the center of the claims. The litigation, filed in New York State Supreme Court, accuses Kohan and his affiliated entities of creating fraudulent operating agreements that concealed investors' membership interests in real estate holding companies -- including the entity that owns 345 Seventh Avenue, a Garment District office tower -- while using those same interests as collateral to secure financing from third-party lenders who had no idea the equity was already spoken for.",
+        "According to the investors' allegations, Kohan solicited more than $80 million from them on the promise of real ownership interests in entities holding commercial property, including 345 Seventh Avenue. Rather than reflecting that ownership, the operating agreements Kohan prepared and used to negotiate financing allegedly omitted or concealed the investors' equity, allowing Kohan to represent to lenders that the properties carried cleaner capital stacks than they actually did. When investors later sought to understand their position after learning of a pending foreclosure, they say Kohan refused to turn over the records that would let them assess their own rights in the entities they had funded.",
+        "That foreclosure is itself now the subject of a second, related suit. The same investor group sued mezzanine lender The Davis Companies, arguing that the secured-party sale process for 345 Seventh Avenue under Article 9 of the Uniform Commercial Code was defective and risked selling the building for less than its value -- a claim that, if proven, could expose a foreclosing lender to liability for failing to conduct a commercially reasonable sale, the standard the UCC imposes on secured creditors disposing of collateral outside of a judicial foreclosure. Despite the investors' objection, The Davis Companies proceeded with the UCC auction and was the winning bidder, taking control of the Garment District building.",
+        "The disputes surfaced in the same week that Kohan was removed from his executive and board positions at Kohan Properties Ltd., the British Virgin Islands-incorporated entity he set up to raise capital on the Israeli bond market for a string of Chicago office tower acquisitions. An internal review by the company reportedly found that Kohan had secretly arranged an undisclosed $4.5 million loan against five Manhattan office properties owned by the BVI entity without informing its board, and had separately used roughly $7 million in proceeds from the company's publicly traded Israeli bonds to pay off a preferred-equity loan on 311 South Wacker Drive in Chicago -- a transaction that was not disclosed in the bond's offering prospectus.",
+        "Kohan Properties Ltd. is a separate entity from Kohan Retail Investment Group, the platform behind a string of distressed mall acquisitions nationally, including the twice-receivership Fairlane Town Center in Dearborn, Michigan. Taken together, the two platforms paint a consistent picture of a sponsor who has built a large, geographically dispersed commercial property portfolio while drawing recurring scrutiny from lenders, investors, and now a public bond market overseas for how the underlying capital stacks were actually structured and disclosed. For investors funding a sponsor's acquisition entity, the lesson is to independently confirm, through the property's title company or recorded UCC filings, that their interest is actually reflected wherever the sponsor goes to borrow against the asset, since waiting until a foreclosure notice arrives is too late to establish priority; for mezzanine and other secured lenders, it is to keep a clean, well-documented UCC sale process, because the commercially-reasonable-sale standard becomes a real vulnerability once a foreclosure draws a competing equity claim."
+      ],
+      judge: null,
+      parties: [
+        { name: "Kohan Properties Ltd.", role: "Defendant" },
+        { name: "The Davis Companies", role: "Lender" }
+      ],
+      amountUsd: 80000000,
+      amountBasis: "claim",
+      propertyType: "Office",
+      timeline: [
+        { when: "September 28, 2026", label: "17 investors sue Kohan-controlled entities alleging more than $80 million in fraud tied to 345 Seventh Avenue" },
+        { when: "September 29, 2026", label: "Investors separately sue mezzanine lender The Davis Companies over the 345 Seventh Avenue UCC foreclosure sale process; Davis Companies completes the sale the same day; Kohan is removed from his board and executive roles at Kohan Properties Ltd.", current: true }
+      ],
+      tags: ["office", "fraud", "ucc-foreclosure", "mezzanine-loan", "new-york"]
+    },
+    {
+      id: "live-209",
+      addedDate: "2026-10-01",
+      title: "6363 West 73rd Street, LLC Chapter 11 Petition (N.D. Ill.)",
+      category: "lending-foreclosure",
+      status: "filed",
+      date: "2026-09-30",
+      jurisdiction: "United States Bankruptcy Court, Northern District of Illinois",
+      state: "IL",
+      amount: "Undisclosed (financial details not yet public)",
+      source: "live",
+      sourceUrl: "https://www.courtlistener.com/docket/74874313/6363-west-73rd-street-llc/",
+      summary: "6363 West 73rd Street, LLC -- a single-asset entity tied to an industrial property in Bedford Park, Illinois -- filed a Chapter 11 petition on September 30, 2026 in the United States Bankruptcy Court for the Northern District of Illinois, case number 26-16232. This entry reflects only what the federal court docket shows; no independent news coverage of the filing was available at the time it was added to this tracker.",
+      significance: "Single-asset real estate entities named for their property address, like this debtor, continue to make up a meaningful share of the current wave of small commercial Chapter 11 filings tied to distressed acquisition or construction debt. This tracker will add further detail as public reporting or additional docket activity becomes available.",
+      body: [
+        "6363 West 73rd Street, LLC filed a Chapter 11 petition on September 30, 2026 in the United States Bankruptcy Court for the Northern District of Illinois, docketed as case number 26-16232. The debtor's name corresponds to an industrial property at 6363 West 73rd Street in Bedford Park, Illinois, a roughly 60,000-square-foot building that last traded in late 2021. As of this entry, no independent news coverage of the filing's underlying circumstances had been published, so this record reflects only what the federal court docket itself shows: the debtor's name, the court, the case number, and the filing date.",
+        "Single-asset real estate entities, commonly organized as a standalone LLC named for the property's own street address, file Chapter 11 petitions of this kind regularly, and they make up a meaningful share of the current wave of small commercial bankruptcy filings tied to distressed acquisition, construction, or maturity debt. Because the debtor's sole meaningful asset is typically the property itself, these cases often proceed on a more compressed timeline than an operating business's reorganization. This tracker will update this entry, or add a related one, if further docket activity or independent reporting clarifies the debtor's lender and the circumstances of the filing."
+      ],
+      judge: null,
+      parties: [
+        { name: "6363 West 73rd Street, LLC", role: "Debtor" }
+      ],
+      amountUsd: null,
+      propertyType: "Industrial",
+      docketUrl: "https://www.courtlistener.com/docket/74874313/6363-west-73rd-street-llc/",
+      docketLabel: "CourtListener docket",
+      tags: ["chapter-11", "bankruptcy", "single-asset-entity", "illinois", "industrial"]
     }
   ],
 
