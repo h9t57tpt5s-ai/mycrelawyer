@@ -1,0 +1,42 @@
+{
+ "trend": {
+  "id": "trend-016",
+  "title": "KBRA: CMBS Delinquency Rate Rises to 7.7% in September, Led by Office and Multifamily",
+  "category": "lending-foreclosure",
+  "date": "2026-09-30",
+  "scope": "KBRA-rated U.S. private label CMBS universe ($344.4 billion)",
+  "metric": "30+ day delinquency rate up 9 bps to 7.7%",
+  "sourceUrl": "https://www.kbra.com/publications/TXmxGCqk/cmbs-loan-performance-trends-september-2026?format=web",
+  "summary": "KBRA's September 2026 CMBS Loan Performance Trends report, published September 30, found the 30+ day delinquency rate on its rated U.S. private-label CMBS rose 9 basis points to 7.7% in September from 7.6% in August, while the distress rate, which adds current loans in special servicing, declined 4 bps. Loans totaling $1.6 billion were newly added to the distress rate, and 74.9% of that balance ($1.2 billion) involved imminent or actual maturity default. Office accounted for the largest share of newly distressed loans (47.7%, $757.5 million), followed by multifamily (14.6%, $231.5 million) and mixed-use (13.6%, $216 million). KBRA's rated universe covers $344.4 billion.",
+  "significance": "With nearly three-quarters of the newly distressed balance tied to imminent or actual maturity default, more borrowers are reaching maturity unable to refinance or sell, the direct precursor to the foreclosure, receivership and workout litigation this tracker follows. The concentration in office and multifamily points to where that litigation is most likely to surface next.",
+  "tags": [
+   "cmbs",
+   "delinquency",
+   "office",
+   "multifamily",
+   "maturity default"
+  ]
+ },
+ "verification": [
+  {
+   "claim": "delinquency 7.7% from 7.6%, +9 bps; distress declined 4 bps",
+   "quote": "The 30+ day delinquency rate among KBRA-rated U.S. private label commercial mortgage-backed securities (CMBS) increased 9 basis points (bps) to 7.7% in September from 7.6% in August, while the distress rate (reflecting delinquent plus current-but-specially-serviced loans) declined 4 bps.",
+   "url": "https://www.kbra.com/publications/TXmxGCqk/cmbs-loan-performance-trends-september-2026?format=web"
+  },
+  {
+   "claim": "$1.6B newly distressed, 74.9% ($1.2B) maturity default",
+   "quote": "Loans totaling $1.6 billion were newly added to the distress rate, of which 74.9% ($1.2 billion) involved imminent or actual maturity default.",
+   "url": "https://www.kbra.com/publications/TXmxGCqk/cmbs-loan-performance-trends-september-2026?format=web"
+  },
+  {
+   "claim": "office, multifamily, mixed-use shares",
+   "quote": "The office sector experienced the highest volume of newly distressed loans (47.7%, $757.5 million), followed by multifamily (14.6%, $231.5 million) and mixed-use (13.6%, $216 million).",
+   "url": "https://www.kbra.com/publications/TXmxGCqk/cmbs-loan-performance-trends-september-2026?format=web"
+  },
+  {
+   "claim": "$344.4B rated universe",
+   "quote": "In this report, KBRA provides observations across our $344.4 billion rated universe of U.S. private label CMBS, including conduits, single-asset single borrower (SASB), and large loan (LL) transactions.",
+   "url": "https://www.kbra.com/publications/TXmxGCqk/cmbs-loan-performance-trends-september-2026?format=web"
+  }
+ ]
+}
