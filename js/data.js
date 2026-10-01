@@ -7187,6 +7187,19 @@ const RELAW_DATA = {
       summary: "Across the 50 largest CMBS markets, CRED iQ counted $45.8 billion of $393.5 billion in outstanding balance as distressed, a balance-weighted rate of 11.6%, in a report published August 7, 2026. Multifamily distress more than doubled since February, from 6.0% to 13.0%, while office distress eased from 21.2% to 16.7%. In July, 180 loans totaling $992 million became newly distressed, 96% of it multifamily. Austin–Round Rock–San Marcos, Texas carried a 28.7% distress rate, and newly distressed apartment loans included Weston Medical Center Apartments in Houston ($84.0 million) and Hawthorne At Clairmont in Atlanta ($36.6 million).",
       significance: "In this data, apartments have replaced office as the fastest-growing source of CMBS distress. Expect more multifamily foreclosure and receivership actions by special servicers in high-distress markets such as Austin, disputes with syndicator borrowers over guaranties and cash-management sweeps, and claims by passive investors against sponsors; in Texas, where commercial foreclosure is typically non-judicial, rising distress also means more last-minute restraining-order requests and bankruptcy filings to stop trustee sales.",
       tags: ["multifamily", "sun belt", "cmbs", "texas", "distress"]
+    },
+    {
+      id: "trend-016",
+      title: "KBRA: CMBS Delinquency Rate Rises to 7.7% in September, Led by Office and Multifamily",
+      category: "lending-foreclosure",
+      date: "2026-09-30",
+      scope: "KBRA-rated U.S. private label CMBS universe ($344.4 billion)",
+      metric: "30+ day delinquency rate up 9 bps to 7.7%",
+      source: "live",
+      sourceUrl: "https://www.kbra.com/publications/TXmxGCqk/cmbs-loan-performance-trends-september-2026?format=web",
+      summary: "KBRA's September 2026 CMBS Loan Performance Trends report, published September 30, found the 30+ day delinquency rate on its rated U.S. private-label CMBS rose 9 basis points to 7.7% in September from 7.6% in August, while the distress rate, which adds current loans in special servicing, declined 4 bps. Loans totaling $1.6 billion were newly added to the distress rate, and 74.9% of that balance ($1.2 billion) involved imminent or actual maturity default. Office accounted for the largest share of newly distressed loans (47.7%, $757.5 million), followed by multifamily (14.6%, $231.5 million) and mixed-use (13.6%, $216 million). KBRA's rated universe covers $344.4 billion.",
+      significance: "With nearly three-quarters of the newly distressed balance tied to imminent or actual maturity default, more borrowers are reaching maturity unable to refinance or sell, the direct precursor to the foreclosure, receivership and workout litigation this tracker follows. The concentration in office and multifamily points to where that litigation is most likely to surface next.",
+      tags: ["cmbs", "delinquency", "office", "multifamily", "maturity default"]
     }
   ],
 
