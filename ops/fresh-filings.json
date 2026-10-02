@@ -1,13 +1,45 @@
 {
- "updatedAt": "2026-10-01T17:30:11+00:00",
+ "updatedAt": "2026-10-02T01:48:23+00:00",
  "about": "Real estate and construction Chapter 11 petitions filed in the last four days, from federal court records via CourtListener. Same name test as bankruptcy-watch.html. Business debtors only.",
  "filings": [
+  {
+   "caseName": "TSI Tower Services, Inc.",
+   "court": "United States Bankruptcy Court, D. Arizona",
+   "docketNumber": "2:26-bk-10025",
+   "dateFiled": "2026-10-01",
+   "docketUrl": "https://www.courtlistener.com/docket/74905375/tsi-tower-services-inc/",
+   "type": "Chapter 11 petition"
+  },
+  {
+   "caseName": "Sunset Properties, LLC",
+   "court": "United States Bankruptcy Court, W.D. Michigan",
+   "docketNumber": "26-03127",
+   "dateFiled": "2026-10-01",
+   "docketUrl": "https://www.courtlistener.com/docket/74904326/sunset-properties-llc/",
+   "type": "Chapter 11 petition"
+  },
   {
    "caseName": "PPW Realty 1414 W 3Rd St. LLC",
    "court": "United States Bankruptcy Court, D. New Jersey",
    "docketNumber": "26-21190",
    "dateFiled": "2026-10-01",
    "docketUrl": "https://www.courtlistener.com/docket/74903821/ppw-realty-1414-w-3rd-st-llc/",
+   "type": "Chapter 11 petition"
+  },
+  {
+   "caseName": "Lee Properties SC, LLC",
+   "court": "United States Bankruptcy Court, M.D. North Carolina",
+   "docketNumber": "26-10768",
+   "dateFiled": "2026-10-01",
+   "docketUrl": "https://www.courtlistener.com/docket/74904222/lee-properties-sc-llc/",
+   "type": "Chapter 11 petition"
+  },
+  {
+   "caseName": "Fagan Construction Services, LLC",
+   "court": "United States Bankruptcy Court, N.D. Florida",
+   "docketNumber": "26-40609",
+   "dateFiled": "2026-10-01",
+   "docketUrl": "https://www.courtlistener.com/docket/74904108/fagan-construction-services-llc/",
    "type": "Chapter 11 petition"
   },
   {
