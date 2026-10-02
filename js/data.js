@@ -7133,6 +7133,72 @@ const RELAW_DATA = {
         { name: "Namdar Realty Group", role: "Defendant" }
       ],
       tags: ["premises-liability", "mall", "default-judgment", "subrogation", "maine"]
+    },
+    {
+      id: "live-214",
+      addedDate: "2026-10-02",
+      title: "Tutelian v. City of Fresno (Grand 1401 Downtown Parking Dispute)",
+      category: "zoning-land-use",
+      status: "pending",
+      date: "2026-10-02",
+      jurisdiction: "Fresno County Superior Court, California",
+      state: "CA",
+      propertyType: "Office",
+      amount: "$7M+ in potential losses cited by developer",
+      amountUsd: 7000000,
+      amountBasis: "damages sought",
+      source: "live",
+      sourceUrl: "https://gvwire.com/2026/10/02/tutelian-lawsuit-against-fresno-over-downtown-parking-set-for-jury-trial/",
+      summary: "Commercial developer Cliff Tutelian's lawsuit against the City of Fresno and City Councilmember Miguel Arias has been set for a jury trial beginning October 12, 2026, in Fresno County Superior Court. Tutelian alleges the city reneged on a decade-old promise of 100 free parking spaces near his Grand 1401 building, made to help lure anchor tenant Tutor Perini downtown, as the city now pursues a competing parking garage project at the same site.",
+      significance: "The case shows that development inducements a city offers to attract an anchor tenant -- parking commitments, fee waivers, and similar arrangements -- may not survive a change in municipal administration or a conflicting municipal capital project, leaving the developer who relied on the original promise to litigate enforcement years later. Owners whose buildings depend on a single anchor tenant should treat erosion of tenant amenities, even one as specific as parking access, as a lease-retention risk.",
+      body: [
+        "A decade-old promise of free parking for a downtown Fresno office building is now set for an October jury trial, with the building's owner warning that losing the spaces could cost him his anchor tenant and more than $7 million. Commercial developer Cliff Tutelian's lawsuit against the City of Fresno and City Councilmember Miguel Arias has been set for a jury trial beginning October 12, 2026 in Fresno County Superior Court.",
+        "Tutelian owns the Grand 1401 building in downtown Fresno, whose anchor tenant is Tutor Perini, a national construction and engineering firm. According to Tutelian's complaint, the city -- under then-Mayor Ashley Swearengin -- agreed to provide 100 free parking spaces near the building as part of an effort to lure Tutor Perini's operations downtown. Tutelian alleges the city has since reneged on that commitment as it moves forward with a new parking garage at the site, one that current Mayor Jerry Dyer has described as central to downtown Fresno's broader revitalization efforts.",
+        "Tutelian has told the court that losing the promised spaces threatens to cost him Tutor Perini as a tenant altogether, and that the resulting losses could exceed $7 million. His suit names both the city and Councilmember Arias individually, and separately alleges that Arias's conduct toward Tutelian and the project involved discrimination and corruption -- allegations the city and Arias have not conceded.",
+        "The case sits at an uncomfortable intersection of municipal economic-development practice and ordinary contract and tort law. Cities routinely offer parking commitments, fee waivers, expedited entitlements, and other inducements to attract anchor tenants and catalyze private investment in struggling downtown cores -- informal or semi-formal arrangements that can span multiple mayoral administrations and city councils. When a later administration's priorities diverge from an earlier one's commitments, as appears to be happening here with Fresno's own competing parking garage plans, the developer who relied on the original promise is often left litigating a dispute that is as much about institutional memory and political accountability as it is about parking spaces.",
+        "The addition of individual discrimination and corruption allegations against a sitting councilmember raises the stakes and the visibility of the litigation beyond a garden-variety breach-of-promise dispute, and increases the likelihood the case proceeds to a full jury verdict rather than settling quietly, given the reputational exposure a settlement could be read to validate. For commercial owners and developers whose projects depend on a municipality's informal or quasi-contractual commitments, the dispute is a reminder to document any tenant-retention inducement in a binding, specifically enforceable instrument rather than relying on a political-era understanding, to monitor a city's own competing capital projects near their property, and to treat erosion of a single anchor tenant's operating conditions as a lease-retention risk warranting early legal and political engagement."
+      ],
+      timeline: [
+        { when: "October 2, 2026", label: "Fresno County Superior Court sets the case for jury trial", current: true },
+        { when: "October 12, 2026", label: "Jury trial scheduled to begin", upcoming: true }
+      ],
+      judge: null,
+      parties: [
+        { name: "City of Fresno", role: "Defendant" }
+      ],
+      tags: ["zoning", "parking", "fresno", "development-agreement", "municipal"]
+    },
+    {
+      id: "live-215",
+      addedDate: "2026-10-02",
+      title: "Oklahoma Department of Securities v. Vesta Realty, LLC (Subpoena Enforcement Action)",
+      category: "reit-securities",
+      status: "pending",
+      date: "2026-08-24",
+      jurisdiction: "Oklahoma County District Court, Oklahoma",
+      state: "OK",
+      propertyType: "Multifamily",
+      amount: "No damages sought; civil subpoena-enforcement action",
+      amountUsd: null,
+      source: "live",
+      sourceUrl: "https://oklahomawatch.org/2026/10/01/oklahoma-department-of-securities-sues-vesta-realty-for-failing-to-hand-over-subpoenaed-documents/",
+      summary: "The Oklahoma Department of Securities sued Vesta Realty, LLC on August 24, 2026, alleging the Tulsa-based multifamily platform failed to comply with a subpoena seeking investor identities and communications tied to several of its affiliated LLCs. The department, through trial attorney Shaun Mullins, is asking the court for an order compelling production of the records.",
+      significance: "A state securities regulator's willingness to litigate subpoena enforcement, rather than negotiate informally, signals it views the underlying investor-protection concerns as serious enough to build a formal investigative record. Court-compelled production in this case could surface investor-facing records relevant to the parallel private fraud and receivership litigation already pending against Vesta and CEO Marc Kulick.",
+      body: [
+        "The state agency charged with policing Oklahoma's securities markets has gone to court to force Tulsa-based multifamily platform Vesta Realty to turn over subpoenaed investor records, adding a regulatory enforcement track to a company already facing dozens of private lawsuits over its collapse. The Oklahoma Department of Securities filed suit against Vesta Realty, LLC on August 24, 2026, alleging the company failed to comply with a subpoena seeking documents that include the identities of, and communications with, investors in a number of the limited liability companies operated under the Vesta umbrella.",
+        "According to the department, Vesta -- founded and controlled by CEO Marc Kulick -- did not produce the records sought by the subpoena, prompting the department's trial attorney, Shaun Mullins, to tell the court the agency is now asking for a judicial order compelling production. The subpoenaed material centers on investor identity and communications tied to several of the LLCs that make up Vesta's roughly $1 billion, nearly 10,000-unit multifamily portfolio across Oklahoma, Kansas, and Arkansas. The case is a civil enforcement action rather than a criminal proceeding, though the department's governing statute allows it to refer findings to criminal authorities and share investigative material with other law enforcement agencies.",
+        "This is only the latest front in a rapidly multiplying set of legal problems for Kulick and the Vesta platform. Kulick faces at least 28 lawsuits filed in 2026 alone, including a civil racketeering suit filed by Kansas investor John Upperman in federal court in the Northern District of Oklahoma alleging mail and wire fraud and money laundering, and a separate fraud suit by former business partner Josef Loeffler accusing Kulick of diverting more than $37 million in investor and company funds. Multiple Vesta-affiliated properties have already changed hands through foreclosure, receivership, and deed-in-lieu transactions as the platform's finances have come apart.",
+        "A securities regulator's subpoena-enforcement suit is narrower and procedurally simpler than the private fraud litigation already pending against Vesta and Kulick -- it does not require the department to prove fraud, only that a validly issued subpoena was not honored. But that narrowness is what makes it a useful early signal: a state securities regulator does not typically invest the resources to pursue document-production litigation unless it believes the underlying investor-protection concerns are serious enough to warrant a formal investigative record, independent of whatever civil plaintiffs are separately alleging. Sponsors and syndicators raising capital through multiple affiliated LLCs should treat a state securities regulator's subpoena with the same urgency as a court-issued discovery request, investors and lenders already in litigation with a distressed sponsor should track parallel regulatory proceedings closely since compelled production can generate discovery useful well beyond the regulator's own case, and counsel advising CRE platforms under financial strain should recognize that a pattern of unanswered inquiries tends to accelerate rather than defer the consequences of a sponsor's distress."
+      ],
+      timeline: [
+        { when: "August 24, 2026", label: "Oklahoma Department of Securities files subpoena-enforcement suit against Vesta Realty, LLC", current: true }
+      ],
+      judge: null,
+      parties: [
+        { name: "Oklahoma Department of Securities", role: "Plaintiff" },
+        { name: "Vesta Realty, LLC", role: "Defendant" }
+      ],
+      tags: ["securities", "multifamily", "oklahoma", "subpoena-enforcement", "vesta realty"]
     }
   ],
 
@@ -8059,6 +8125,7 @@ const RELAW_DATA = {
     { name: "Verizon Wireless", matchTerm: "Verizon", slug: "verizon-wireless", description: "National wireless carrier that leases rooftop and site space from commercial landlords nationwide for communications and distributed-antenna equipment.", website: "https://www.verizon.com" },
     { name: "Fortress Investment Group", matchTerm: "Fortress", slug: "fortress-investment-group", description: "Multi-strategy alternative asset manager active as a CRE lender, frequently pursuing foreclosure and UCC Article 9 remedies against defaulted commercial borrowers.", website: "https://www.fortress.com" },
     { name: "Brightline", matchTerm: "Brightline", slug: "brightline", description: "Fortress Investment Group-backed private passenger railroad whose station-area real estate is held and developed through a network of affiliated holding and development entities.", website: "https://www.gobrightline.com" },
-    { name: "Namdar Realty Group", matchTerm: "Namdar", slug: "namdar-realty-group", description: "Great Neck, New York-based private owner of more than 100 shopping malls and retail centers nationally, frequently named in tenant, insurer, and municipal code-enforcement litigation over property conditions.", website: "https://namdarrealtygroup.com" }
+    { name: "Namdar Realty Group", matchTerm: "Namdar", slug: "namdar-realty-group", description: "Great Neck, New York-based private owner of more than 100 shopping malls and retail centers nationally, frequently named in tenant, insurer, and municipal code-enforcement litigation over property conditions.", website: "https://namdarrealtygroup.com" },
+    { name: "Vesta Realty, LLC", matchTerm: "Vesta Realty", slug: "vesta-realty", description: "Tulsa, Oklahoma-based private multifamily platform that controlled a roughly $1 billion, nearly 10,000-unit apartment portfolio across Oklahoma, Kansas, and Arkansas before its collapse into dozens of investor-fraud, foreclosure, receivership, and regulatory enforcement actions." }
   ]
 };
