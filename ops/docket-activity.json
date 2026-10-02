@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-01T16:35:22+00:00",
+ "updatedAt": "2026-10-02T15:56:41+00:00",
  "source": "CourtListener RECAP archive (federal courts only). Entries appear when CourtListener receives them, so some are late or missing.",
  "requestsUsed": 9,
  "errors": [],
@@ -601,7 +601,15 @@
    "lastEntryDate": "2026-09-24"
   },
   "73457710": {
-   "entries": [],
+   "entries": [
+    {
+     "date": "2026-09-30",
+     "number": 17,
+     "text": "Minute Entry for proceedings held before MAGISTRATE JUDGE JOHN C. NIVISON: Oral Argument Hearing held",
+     "url": "https://www.courtlistener.com/docket/73457710/17/portland-music-holdings-llc-v-city-of-portland/",
+     "ruling": false
+    }
+   ],
    "caseIds": [
     "live-132"
    ],
@@ -609,10 +617,17 @@
    "docketNumber": "2:26-cv-00304",
    "dateTerminated": null,
    "url": "https://www.courtlistener.com/docket/73457710/portland-music-holdings-llc-v-city-of-portland/",
-   "lastEntryDate": null
+   "lastEntryDate": "2026-09-30"
   },
   "73480976": {
    "entries": [
+    {
+     "date": "2026-10-01",
+     "number": 72,
+     "text": "Amended Complaint",
+     "url": "https://www.courtlistener.com/docket/73480976/72/fitfactaridc-llc-v-costar-group-inc/",
+     "ruling": false
+    },
     {
      "date": "2026-09-24",
      "number": 71,
@@ -635,7 +650,7 @@
    "docketNumber": "1:26-cv-06997",
    "dateTerminated": null,
    "url": "https://www.courtlistener.com/docket/73480976/fitfactaridc-llc-v-costar-group-inc/",
-   "lastEntryDate": "2026-09-24"
+   "lastEntryDate": "2026-10-01"
   },
   "73568530": {
    "entries": [
@@ -1018,6 +1033,13 @@
   "74830187": {
    "entries": [
     {
+     "date": "2026-10-02",
+     "number": 16,
+     "text": "BNC Certificate of Mailing with Application/Notice/Order",
+     "url": "https://www.courtlistener.com/docket/74830187/16/175-nassau-road-holding-inc/",
+     "ruling": false
+    },
+    {
      "date": "2026-09-29",
      "number": 15,
      "text": "Affidavit/Certificate of Service",
@@ -1065,13 +1087,6 @@
      "text": "BNC Certificate of Mailing with Notice of Deficient Filing",
      "url": "https://www.courtlistener.com/docket/74830187/9/175-nassau-road-holding-inc/",
      "ruling": false
-    },
-    {
-     "date": "2026-09-25",
-     "number": 8,
-     "text": "BNC Certificate of Mailing - Meeting of Creditors",
-     "url": "https://www.courtlistener.com/docket/74830187/8/175-nassau-road-holding-inc/",
-     "ruling": false
     }
    ],
    "caseIds": [
@@ -1081,7 +1096,7 @@
    "docketNumber": "8-26-73728",
    "dateTerminated": null,
    "url": "https://www.courtlistener.com/docket/74830187/175-nassau-road-holding-inc/",
-   "lastEntryDate": "2026-09-29"
+   "lastEntryDate": "2026-10-02"
   },
   "74844567": {
    "entries": [
@@ -1255,6 +1270,20 @@
   "74855344": {
    "entries": [
     {
+     "date": "2026-10-02",
+     "number": 19,
+     "text": "BNC Certificate of Mailing - Order",
+     "url": "https://www.courtlistener.com/docket/74855344/19/united-property-investments-realty-services-llc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-10-01",
+     "number": 18,
+     "text": "CHAP Pro Memo - Hearing Held",
+     "url": "https://www.courtlistener.com/docket/74855344/18/united-property-investments-realty-services-llc/",
+     "ruling": false
+    },
+    {
      "date": "2026-10-01",
      "number": 17,
      "text": "BNC Certificate of Mailing - Notice to Creditors and Parties in Interest",
@@ -1295,20 +1324,6 @@
      "text": "Notice of Appointment of Subchapter V Trustee",
      "url": "https://www.courtlistener.com/docket/74855344/10/united-property-investments-realty-services-llc/",
      "ruling": false
-    },
-    {
-     "date": "2026-09-29",
-     "number": null,
-     "text": "Prepare Hearing Notice - Automation Use Only",
-     "url": "https://www.courtlistener.com/docket/74855344/united-property-investments-realty-services-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-09-29",
-     "number": null,
-     "text": "Emergency Matters Submission Notification",
-     "url": "https://www.courtlistener.com/docket/74855344/united-property-investments-realty-services-llc/",
-     "ruling": false
     }
    ],
    "caseIds": [
@@ -1318,10 +1333,17 @@
    "docketNumber": "6:26-bk-07478",
    "dateTerminated": null,
    "url": "https://www.courtlistener.com/docket/74855344/united-property-investments-realty-services-llc/",
-   "lastEntryDate": "2026-10-01"
+   "lastEntryDate": "2026-10-02"
   },
   "74856205": {
    "entries": [
+    {
+     "date": "2026-10-01",
+     "number": 17,
+     "text": "BNC Certificate of Notice",
+     "url": "https://www.courtlistener.com/docket/74856205/17/urban-development-group-llc/",
+     "ruling": false
+    },
     {
      "date": "2026-09-30",
      "number": 16,
@@ -1370,13 +1392,6 @@
      "text": "Schedule Hearing Re: Chapter 11 First Day Motions - BK Motion",
      "url": "https://www.courtlistener.com/docket/74856205/10/urban-development-group-llc/",
      "ruling": false
-    },
-    {
-     "date": "2026-09-28",
-     "number": 9,
-     "text": "Pay Prepetition Wages - BK Motion",
-     "url": "https://www.courtlistener.com/docket/74856205/9/urban-development-group-llc/",
-     "ruling": false
     }
    ],
    "caseIds": [
@@ -1386,10 +1401,17 @@
    "docketNumber": "3:26-bk-04686",
    "dateTerminated": null,
    "url": "https://www.courtlistener.com/docket/74856205/urban-development-group-llc/",
-   "lastEntryDate": "2026-09-30"
+   "lastEntryDate": "2026-10-01"
   },
   "74866310": {
    "entries": [
+    {
+     "date": "2026-10-02",
+     "number": 11,
+     "text": "BNC Certificate of Mailing - PDF Document",
+     "url": "https://www.courtlistener.com/docket/74866310/11/mw-properties-orlando-llc/",
+     "ruling": false
+    },
     {
      "date": "2026-10-01",
      "number": 10,
@@ -1438,13 +1460,6 @@
      "text": "Statement of Corporate Ownership",
      "url": "https://www.courtlistener.com/docket/74866310/2/mw-properties-orlando-llc/",
      "ruling": false
-    },
-    {
-     "date": "2026-09-29",
-     "number": 1,
-     "text": "Voluntary Petition (Chapter 11)",
-     "url": "https://www.courtlistener.com/docket/74866310/1/mw-properties-orlando-llc/",
-     "ruling": false
     }
    ],
    "caseIds": [
@@ -1454,10 +1469,38 @@
    "docketNumber": "6:26-bk-07563",
    "dateTerminated": null,
    "url": "https://www.courtlistener.com/docket/74866310/mw-properties-orlando-llc/",
-   "lastEntryDate": "2026-10-01"
+   "lastEntryDate": "2026-10-02"
   },
   "74867047": {
    "entries": [
+    {
+     "date": "2026-10-01",
+     "number": 8,
+     "text": "Hearing - Notice",
+     "url": "https://www.courtlistener.com/docket/74867047/8/63-spring-lafayette-llc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-10-01",
+     "number": 7,
+     "text": "Pro Hac Vice Admission - Motion",
+     "url": "https://www.courtlistener.com/docket/74867047/7/63-spring-lafayette-llc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-10-01",
+     "number": 6,
+     "text": "Pro Hac Vice Admission - Motion",
+     "url": "https://www.courtlistener.com/docket/74867047/6/63-spring-lafayette-llc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-10-01",
+     "number": 5,
+     "text": "Appearance - Notice",
+     "url": "https://www.courtlistener.com/docket/74867047/5/63-spring-lafayette-llc/",
+     "ruling": false
+    },
     {
      "date": "2026-09-30",
      "number": 4,
@@ -1485,34 +1528,6 @@
      "text": "RETIRED - Voluntary Petition (Chapter 11)",
      "url": "https://www.courtlistener.com/docket/74867047/1/63-spring-lafayette-llc/",
      "ruling": false
-    },
-    {
-     "date": "2026-09-29",
-     "number": null,
-     "text": "Filed by U.S. Trustee.",
-     "url": "https://www.courtlistener.com/docket/74867047/63-spring-lafayette-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-09-29",
-     "number": null,
-     "text": "Judge Brendan Linehan Shannon added to case",
-     "url": "https://www.courtlistener.com/docket/74867047/63-spring-lafayette-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-09-29",
-     "number": null,
-     "text": "Add Attorney",
-     "url": "https://www.courtlistener.com/docket/74867047/63-spring-lafayette-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-09-29",
-     "number": null,
-     "text": "Case Assigned",
-     "url": "https://www.courtlistener.com/docket/74867047/63-spring-lafayette-llc/",
-     "ruling": false
     }
    ],
    "caseIds": [
@@ -1522,10 +1537,17 @@
    "docketNumber": "26-11537",
    "dateTerminated": null,
    "url": "https://www.courtlistener.com/docket/74867047/63-spring-lafayette-llc/",
-   "lastEntryDate": "2026-09-30"
+   "lastEntryDate": "2026-10-01"
   },
   "74874313": {
    "entries": [
+    {
+     "date": "2026-10-01",
+     "number": 8,
+     "text": "Transfer Case to Chief Judge for REASSIGNMENT to ANOTHER JUDGE",
+     "url": "https://www.courtlistener.com/docket/74874313/8/6363-west-73rd-street-llc/",
+     "ruling": false
+    },
     {
      "date": "2026-10-01",
      "number": null,
