@@ -16,7 +16,7 @@ const RELAW_DATA = {
      Drives the homepage's "New Today" pill: it only shows when this
      equals the visitor's local today. Updated by the digest automation
      each time Step 4 successfully adds a case — never touched otherwise. */
-  lastUpdatedDate: "2026-10-01",
+  lastUpdatedDate: "2026-10-02",
   categories: [
     { id: "landlord-tenant", label: "Landlord–Tenant", color: "var(--cat-landlord)" },
     { id: "zoning-land-use", label: "Zoning & Land Use", color: "var(--cat-zoning)" },
@@ -7057,6 +7057,82 @@ const RELAW_DATA = {
         { name: "Judiciary Plaza LLC", role: "Borrower" }
       ],
       tags: ["office", "foreclosure", "washington-dc", "office-to-residential", "deed-of-trust"]
+    },
+    {
+      id: "live-212",
+      addedDate: "2026-10-02",
+      title: "Colorado Apartment Association v. Ryan (Federal Preemption Challenge to Denver, Colorado Building-Emissions Mandates)",
+      category: "zoning-land-use",
+      status: "ruling",
+      date: "2026-10-01",
+      jurisdiction: "U.S. District Court, District of Colorado",
+      state: "CO",
+      amount: "No damages at issue; compliance-cost exposure for large buildings subject to Energize Denver and Regulation 28",
+      amountUsd: null,
+      source: "live",
+      docketUrl: "https://www.courtlistener.com/opinion/10368630/colorado-apartment-association-v-ryan/",
+      docketLabel: "CourtListener docket",
+      sourceUrl: "https://www.law360.com/articles/2532921/colo-energy-rules-can-t-shake-federal-preemption-suit",
+      summary: "U.S. District Judge Regina M. Rodriguez ruled that real estate industry trade groups' claim that Denver's Energize Denver ordinance and Colorado's Regulation 28 are preempted by the federal Energy Policy and Conservation Act can proceed past a renewed motion to dismiss, while dismissing a related claim about consumer appliances as untimely. The U.S. Department of Justice had filed a statement of interest on September 15, 2026 telling the court the local rules \"plausibly are preempted\" by EPCA.",
+      significance: "The ruling keeps alive one of the most closely watched legal challenges to municipal building-performance standards in the country, with direct relevance to owners of large apartment buildings, hotels, and commercial buildings facing energy-use and emissions targets in Denver and statewide under Regulation 28. A final decision favoring the industry groups could provide a template for challenging similar building-performance mandates in other jurisdictions nationally.",
+      body: [
+        "Commercial building owners across Colorado's largest city have spent the better part of two years watching a single piece of federal litigation that could determine whether some of the most aggressive municipal building-decarbonization rules in the country can stand. On the first order of October 2026, U.S. District Judge Regina M. Rodriguez gave them a partial answer: the real estate industry's core preemption theory survives a renewed motion to dismiss and may proceed toward the merits, even as a related claim about consumer appliances was dismissed as untimely.",
+        "The case, Colorado Apartment Association v. Ryan, was filed in April 2024 by four trade associations with members who own or manage large buildings in Colorado -- the Colorado Apartment Association, the Apartment Association of Metro Denver, the Colorado Hotel and Lodging Association, and the NAIOP Colorado Chapter, the commercial real estate development trade group. Their target is a pair of linked regulatory programs: Denver's Energize Denver ordinance and the state's parallel Regulation 28, both of which require owners of large buildings to cut energy use or greenhouse gas emissions by specified amounts on a fixed timetable, with financial penalties for buildings that miss their targets.",
+        "The plaintiffs' theory is not that building decarbonization is unlawful in the abstract, but that the specific mechanism Denver and Colorado chose runs into the Energy Policy and Conservation Act of 1975. EPCA sets uniform federal efficiency standards for a defined list of covered products -- furnaces, water heaters, central air conditioners, and similar equipment -- and expressly bars states and localities from imposing their own, different efficiency or energy-use standards on those same products. The trade groups argue that because many buildings can only hit their Energize Denver and Regulation 28 targets by replacing covered equipment with units that exceed the federal standard, the local rules function as exactly the kind of product-specific mandate EPCA forecloses, even though the ordinances are framed in building-level, not appliance-specific, terms.",
+        "The litigation has traveled a bruising procedural road. The district court dismissed the plaintiffs' original complaint without prejudice in March 2025, holding that the four associations had not adequately pleaded that their individual members had standing to sue. The plaintiffs filed an amended complaint in June 2025, and the state and city defendants, along with intervenor-defendants defending the programs, moved to dismiss again. That motion drew an unusual degree of federal attention: on September 15, 2026, the U.S. Department of Justice filed a statement of interest telling Judge Rodriguez that Energize Denver and Regulation 28 plausibly are preempted by EPCA, a position that does not make the United States a party but signals how the federal government's own lawyers read the preemption question.",
+        "The practical reality for Denver and statewide Colorado building owners is that compliance obligations under Energize Denver and Regulation 28 remain in force while the litigation continues; this ruling keeps the lawsuit alive, it does not enjoin the programs. Owners underwriting capital improvements, equipment replacements, or acquisitions of large buildings in Denver should budget for near-term compliance costs under the existing rules rather than assume the litigation will resolve before their own compliance deadlines arrive, while tracking the case closely given the Justice Department's intervention and the stakes for building-performance mandates nationally, since a final ruling in the industry's favor could hand owners, developers, and lenders a template for challenging similar emissions-based building mandates in other cities, while a loss would remove one of the industry's few remaining federal theories for resisting these compliance costs outright."
+      ],
+      timeline: [
+        { when: "April 2024", label: "Colorado Apartment Association, AAMD, CHLA, and NAIOP Colorado file suit against Colorado and Denver officials" },
+        { when: "March 2025", label: "District court dismisses the complaint without prejudice for lack of standing" },
+        { when: "June 2025", label: "Plaintiffs file an amended complaint; defendants and intervenors move to dismiss again" },
+        { when: "September 15, 2026", label: "U.S. Department of Justice files a statement of interest supporting the preemption theory" },
+        { when: "October 1, 2026", label: "Judge Rodriguez allows the EPCA preemption claim to proceed, dismisses the consumer-appliance claim as untimely", current: true }
+      ],
+      judge: "Regina M. Rodriguez",
+      parties: [
+        { name: "Colorado Apartment Association", role: "Plaintiff" },
+        { name: "Apartment Association of Metro Denver", role: "Plaintiff" },
+        { name: "Colorado Hotel and Lodging Association", role: "Plaintiff" },
+        { name: "NAIOP Colorado Chapter", role: "Plaintiff" },
+        { name: "City and County of Denver", role: "Defendant" }
+      ],
+      tags: ["zoning", "preemption", "building-emissions", "denver", "epca"]
+    },
+    {
+      id: "live-213",
+      addedDate: "2026-10-02",
+      title: "Tri-State Insurance Co. of Minnesota v. Namdar Realty Group (Bangor Mall Sprinkler-Failure Default Judgment)",
+      category: "premises-liability",
+      status: "pending",
+      date: "2026-09-22",
+      jurisdiction: "Penobscot County Superior Court, Maine",
+      state: "ME",
+      propertyType: "Retail",
+      amount: "$1.3M in destroyed tenant inventory sought",
+      amountUsd: 1300000,
+      amountBasis: "damages sought",
+      source: "live",
+      sourceUrl: "https://www.bangordailynews.com/2026/09/23/bangor/bangor-police-courts/judge-to-rule-another-bangor-mall-lawsuit/",
+      summary: "Tri-State Insurance Company of Minnesota's subrogation suit against Bangor Mall owner Namdar Realty Group is headed toward a default judgment in Maine state court after Namdar failed to respond to the complaint for roughly three months, including four unanswered letters from the insurer's counsel. The suit seeks to recover more than $1.3 million in inventory destroyed when a sprinkler pipe burst in a vacant former Sears space being used for storage.",
+      significance: "The case illustrates how a landlord's building-maintenance failures can generate direct subrogation exposure once a tenant's insurer has paid a claim, and how failing to engage with litigation converts a potentially defensible claim into a default judgment for the full amount sought. It arrives alongside separate city code-enforcement litigation against the same ownership over unresolved property conditions at the same mall.",
+      body: [
+        "A commercial property owner's failure to answer a lawsuit rarely ends well, and the owner of the Bangor Mall in Bangor, Maine is about to find that out the hard way. In Penobscot County Superior Court, Judge Bruce Mallonee is expected to sign a default judgment order against Namdar Realty Group and its subsidiaries in a subrogation suit brought by Tri-State Insurance Company of Minnesota, after the mall's ownership went unanswered through four separate letters and roughly three months of silence following the complaint.",
+        "The underlying claim traces back to February 2023, when a ceiling leak was discovered in a vacant former Sears space at the mall that was being used by a local furniture retailer, Furniture, Mattresses & More, to store inventory. According to the lawsuit, it took mall personnel roughly two hours to shut off the water once the leak was reported, and a sprinkler pipe in the ceiling subsequently burst, compounding the damage. Tri-State, which insured the furniture retailer's stored goods, paid out on the claim and filed suit against Namdar on June 30, 2026 as subrogee, seeking to recover more than $1.3 million in destroyed inventory directly from the landlord.",
+        "Subrogation suits like this one are a routine mechanism in commercial property litigation: once an insurer pays its policyholder's claim, it steps into the policyholder's shoes and can sue whoever it believes is legally responsible for the loss, here the landlord whose building system allegedly failed and whose response time, the complaint alleges, let an isolated leak become a six-figure-plus inventory loss. What makes this case notable is not the underlying liability theory, which is unremarkable, but Namdar's apparent failure to engage with it at all; at a hearing reported on September 22, 2026, counsel for Tri-State told the court that four separate letters to Namdar had gone unanswered, and that the insurer intended to submit a proposed default judgment order for the court's signature seeking the full amount of the alleged damages.",
+        "The sprinkler litigation does not arrive in isolation. Namdar Realty Group's ownership of the Bangor Mall has generated a parallel and increasingly expensive dispute with the city of Bangor itself over unresolved parking lot and roof conditions at the property; a Penobscot County judge ordered Namdar to pay the city more than $1.1 million in code-violation penalties earlier in 2026, and reporting indicates Namdar failed to meet the court-ordered deadline to pay that fine or complete the associated repairs. For portfolio landlords already managing multiple disputes at a single property, each additional unanswered suit adds to a cumulative judgment and enforcement burden that can affect the property's financing, insurability, and resale value, and tenants and their insurers should treat a landlord's slow or inadequate emergency response to a building-system failure as the kind of documented fact pattern that supports a subrogation claim."
+      ],
+      timeline: [
+        { when: "February 2023", label: "Ceiling leak and sprinkler pipe burst damage stored inventory in a vacant former Sears space" },
+        { when: "June 30, 2026", label: "Tri-State Insurance Co. of Minnesota files subrogation suit against Namdar Realty Group" },
+        { when: "September 22, 2026", label: "Court hears that Namdar has not responded to four letters; insurer to submit a proposed default judgment order", current: true }
+      ],
+      judge: "Bruce Mallonee",
+      parties: [
+        { name: "Tri-State Insurance Company of Minnesota", role: "Plaintiff" },
+        { name: "Namdar Realty Group", role: "Defendant" }
+      ],
+      tags: ["premises-liability", "mall", "default-judgment", "subrogation", "maine"]
     }
   ],
 
@@ -7608,7 +7684,9 @@ const RELAW_DATA = {
     { jurisdiction: "California Court of Appeal, First Appellate District, Division Two", url: "https://www.courts.ca.gov/1dca.htm" },
     { jurisdiction: "U.S. Bankruptcy Court, District of New Jersey", url: "https://www.njb.uscourts.gov/" },
     { jurisdiction: "Montgomery County Court of Common Pleas, Pennsylvania", url: "https://www.montgomerycountypa.gov/departments/county-courts/court-common-pleas" },
-    { jurisdiction: "Circuit Court of Will County, Illinois", url: "https://judges.willcountyillinois.com/" }
+    { jurisdiction: "Circuit Court of Will County, Illinois", url: "https://judges.willcountyillinois.com/" },
+    { jurisdiction: "U.S. District Court, District of Colorado", url: "https://www.cod.uscourts.gov/" },
+    { jurisdiction: "Penobscot County Superior Court, Maine", url: "https://www.courts.maine.gov/courts/superior/" }
   ],
 
   /* Judges — background on every judge named in our sourced reporting (never
@@ -7920,6 +7998,22 @@ const RELAW_DATA = {
       court: "U.S. District Court, District of New Jersey",
       background: "Nominated by President Obama on June 26, 2014 and confirmed by the Senate that November, after serving as a U.S. Magistrate Judge for the District of New Jersey since 2000. Previously in private practice in Newark, New Jersey, focusing on civil litigation in state and federal courts.",
       bioUrl: "https://www.fjc.gov/history/judges/arleo-madeline-cox"
+    },
+    {
+      name: "Regina M. Rodriguez",
+      slug: "regina-m-rodriguez",
+      title: "U.S. District Judge",
+      court: "U.S. District Court, District of Colorado",
+      background: "Nominated by President Biden on April 19, 2021 and confirmed by the Senate on June 8, 2021, to a seat vacated by Marcia S. Krieger. Previously served as an Assistant U.S. Attorney for the District of Colorado from 1995 to 2002 and in private practice in Denver.",
+      bioUrl: "https://www.fjc.gov/history/judges/rodriguez-regina-marie"
+    },
+    {
+      name: "Bruce Mallonee",
+      slug: "bruce-mallonee",
+      title: "Justice",
+      court: "Penobscot County Superior Court, Maine",
+      background: "Nominated to the Maine District Court by Governor John Baldacci in November 2010, then nominated to the Maine Superior Court by Governor Paul LePage in May 2015. Previously in private practice in Bangor, Maine.",
+      bioUrl: "https://www.courts.maine.gov/courts/superior/justices.html"
     }
   ],
 
@@ -7964,6 +8058,7 @@ const RELAW_DATA = {
     { name: "Simon Property Group", slug: "simon-property-group", description: "NYSE-listed REIT and the nation's largest owner of shopping malls and premium outlet centers.", website: "https://www.simon.com" },
     { name: "Verizon Wireless", matchTerm: "Verizon", slug: "verizon-wireless", description: "National wireless carrier that leases rooftop and site space from commercial landlords nationwide for communications and distributed-antenna equipment.", website: "https://www.verizon.com" },
     { name: "Fortress Investment Group", matchTerm: "Fortress", slug: "fortress-investment-group", description: "Multi-strategy alternative asset manager active as a CRE lender, frequently pursuing foreclosure and UCC Article 9 remedies against defaulted commercial borrowers.", website: "https://www.fortress.com" },
-    { name: "Brightline", matchTerm: "Brightline", slug: "brightline", description: "Fortress Investment Group-backed private passenger railroad whose station-area real estate is held and developed through a network of affiliated holding and development entities.", website: "https://www.gobrightline.com" }
+    { name: "Brightline", matchTerm: "Brightline", slug: "brightline", description: "Fortress Investment Group-backed private passenger railroad whose station-area real estate is held and developed through a network of affiliated holding and development entities.", website: "https://www.gobrightline.com" },
+    { name: "Namdar Realty Group", matchTerm: "Namdar", slug: "namdar-realty-group", description: "Great Neck, New York-based private owner of more than 100 shopping malls and retail centers nationally, frequently named in tenant, insurer, and municipal code-enforcement litigation over property conditions.", website: "https://namdarrealtygroup.com" }
   ]
 };
