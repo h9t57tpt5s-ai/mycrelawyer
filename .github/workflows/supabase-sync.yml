@@ -20,6 +20,11 @@ on:
       - ".sync/*.json"
   # Manual re-run for files a failed run left pending.
   workflow_dispatch:
+    inputs:
+      baseline:
+        description: "Record every existing alert match as already sent (no emails). Run once after the alert_sends migration."
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -31,6 +36,21 @@ jobs:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 1
+
+      - name: Record existing alert matches as already sent (no emails)
+        if: ${{ inputs.baseline }}
+        env:
+          SUPABASE_ANON_KEY: sb_publishable_77xSJub0DOpnTSM4nzhVaQ_aztB5p3f
+          AUTOMATION_SECRET: ${{ secrets.AUTOMATION_SECRET }}
+        run: |
+          status=$(curl -sS -o /tmp/baseline.json -w "%{http_code}" \
+            -X POST 'https://ribmcdyoydhmafnyfhpp.supabase.co/functions/v1/check-and-send-watchlist-alerts' \
+            -H "Authorization: Bearer $SUPABASE_ANON_KEY" \
+            -H "x-automation-secret: $AUTOMATION_SECRET" \
+            -H "Content-Type: application/json" \
+            --data '{"action":"baseline"}')
+          echo "baseline HTTP $status"; cat /tmp/baseline.json; echo
+          [[ "$status" =~ ^2 ]]
 
       - name: Sync each pending case to Supabase
         id: sync
@@ -66,7 +86,12 @@ jobs:
             cat /tmp/upsert_resp.json || true
 
             echo "-- Triggering watchlist alert check for $id --"
-            alert_payload=$(jq '{id, title, category, state, summary, significance, jurisdiction, date, parties}' "$f")
+            # resync: this matter was synced before (its .done marker exists),
+            # so the alert function labels it an update, never a new match,
+            # and skips alerts already sent at this status.
+            resync=false
+            if [ -e "$f.done" ]; then resync=true; fi
+            alert_payload=$(jq --argjson resync "$resync" '{id, title, category, state, summary, significance, jurisdiction, date, parties, status, resync: $resync}' "$f")
             alert_status=$(curl -sS -o /tmp/alert_resp.json -w "%{http_code}" \
               -X POST 'https://ribmcdyoydhmafnyfhpp.supabase.co/functions/v1/check-and-send-watchlist-alerts' \
               -H "Authorization: Bearer $SUPABASE_ANON_KEY" \

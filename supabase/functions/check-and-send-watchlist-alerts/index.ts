@@ -36,6 +36,18 @@
 // match. This does not change what counts as a match, only what the
 // recipient is told about it.
 //
+// ALSO (added 2026-10-01): no duplicate alerts. Every alert sent is
+// recorded in public.alert_sends (supabase/migrations/20261001_alert_
+// sends.sql) with the matter's status at the time. A re-sync of the same
+// matter at the same status sends nothing; a re-sync after its status
+// changed sends an update naming the old and new status, instead of a
+// second "new match" email. The sync job sends `status` and `resync`
+// (true when it has processed this matter before). POST {"action":
+// "baseline"} records every existing match without emailing, so turning
+// this on does not re-alert old matters. If the table does not exist yet,
+// alerts still go out as before (labeled by `resync`) and the response
+// says dedupe: false.
+//
 // Auth model: a single shared secret (AUTOMATION_SECRET), checked
 // against the x-automation-secret header the sync workflow already
 // sends -- this endpoint has no browser caller, so there's no user JWT
@@ -59,6 +71,7 @@
 // =========================================================
 
 import { createClient } from "npm:@supabase/supabase-js@2";
+import { type AlertDecision, decideAlert, statusLabel } from "./alert-dedupe.ts";
 
 const AUTOMATION_SECRET = Deno.env.get("AUTOMATION_SECRET") ?? "";
 const RESEND_API_KEY = Deno.env.get("RESEND_API_KEY") ?? "";
@@ -87,6 +100,8 @@ type NewCase = {
   id?: string; title?: string; category?: string; state?: string;
   summary?: string; significance?: string; jurisdiction?: string; date?: string;
   parties?: { name: string; role: string }[];
+  status?: string;
+  resync?: boolean;
 };
 
 type Watchlist = {
@@ -163,10 +178,10 @@ function matchesWatchlist(w: Watchlist, c: NewCase): boolean {
   return true;
 }
 
-async function sendEmail(toEmail: string, subject: string, bodyLines: (string | null)[], campaign: string) {
+async function sendEmail(toEmail: string, subject: string, bodyLines: (string | null)[], campaign: string): Promise<boolean> {
   if (!RESEND_API_KEY) {
     console.error("check-and-send-watchlist-alerts: RESEND_API_KEY is not set -- skipping email.");
-    return;
+    return false;
   }
   try {
     const resp = await fetch("https://api.resend.com/emails", {
@@ -182,10 +197,26 @@ async function sendEmail(toEmail: string, subject: string, bodyLines: (string | 
     if (!resp.ok) {
       const bodyText = await resp.text().catch(() => "(could not read response body)");
       console.error(`check-and-send-watchlist-alerts: Resend returned ${resp.status} for ${toEmail} (${campaign}) -- ${bodyText}`);
+      return false;
     }
+    return true;
   } catch (err) {
     console.error(`check-and-send-watchlist-alerts: fetch to Resend failed for ${toEmail} (${campaign}) —`, String(err));
+    return false;
   }
+}
+
+// Subject prefix and opening line for a new match vs. an update on a
+// matter the recipient may already have been told about.
+function updateLines(d: AlertDecision, c: NewCase): { prefix: string; intro: string | null } {
+  if (!d.send || d.kind === "new") return { prefix: "", intro: null };
+  if (d.kind === "status-change") {
+    return {
+      prefix: `Update (now ${statusLabel(c.status)}): `,
+      intro: `Status changed: ${statusLabel(d.previousStatus)} -> ${statusLabel(c.status)}.`,
+    };
+  }
+  return { prefix: "Update: ", intro: `This matter was already on CREdocket and has been updated. Current status: ${statusLabel(c.status)}.` };
 }
 
 // UTM params so each click shows up as its own traffic source in Vercel
@@ -200,7 +231,7 @@ function caseUrl(c: NewCase, campaign: string): string {
     : `${SITE_URL}/litigation.html?${utm}`;
 }
 
-async function sendWatchlistAlertEmail(toEmail: string, watchlistName: string, c: NewCase, usedKeywordMatch: boolean) {
+async function sendWatchlistAlertEmail(toEmail: string, watchlistName: string, c: NewCase, usedKeywordMatch: boolean, d: AlertDecision): Promise<boolean> {
   // A watchlist's state/category filters are exact matches against
   // structured fields -- no ambiguity there. Its optional keyword filter,
   // though, is a plain substring search against this matter's title/
@@ -211,11 +242,16 @@ async function sendWatchlistAlertEmail(toEmail: string, watchlistName: string, c
   const matchMethodLine = usedKeywordMatch
     ? `Match method: found via a text search for your watchlist's keyword in this matter's title/summary -- not checked against structured party data. Confirm the party/company is actually involved before treating this as confirmed.`
     : null;
-  await sendEmail(
+  const u = updateLines(d, c);
+  return await sendEmail(
     toEmail,
-    `New match on your "${watchlistName}" watchlist: ${c.title || "a tracked matter"}`,
+    u.prefix
+      ? `${u.prefix}${c.title || "a tracked matter"} (your "${watchlistName}" watchlist)`
+      : `New match on your "${watchlistName}" watchlist: ${c.title || "a tracked matter"}`,
     [
-      `A new matter matching your "${watchlistName}" watchlist was just added to CREdocket:`,
+      u.intro
+        ? `A matter matching your "${watchlistName}" watchlist has an update on CREdocket. ${u.intro}`
+        : `A new matter matching your "${watchlistName}" watchlist was just added to CREdocket:`,
       "",
       c.title || "(untitled matter)",
       c.jurisdiction ? `Jurisdiction: ${c.jurisdiction}` : null,
@@ -231,7 +267,7 @@ async function sendWatchlistAlertEmail(toEmail: string, watchlistName: string, c
   );
 }
 
-async function sendPortfolioAlertEmail(toEmail: string, entityName: string, c: NewCase, matchMethod: PortfolioMatchMethod) {
+async function sendPortfolioAlertEmail(toEmail: string, entityName: string, c: NewCase, matchMethod: PortfolioMatchMethod, d: AlertDecision): Promise<boolean> {
   // Match-confidence disclosure (see getPortfolioMatchMethod's comment
   // above): tells the recipient plainly whether this alert came from
   // this matter's structured party/role data (high confidence) or only
@@ -243,11 +279,16 @@ async function sendPortfolioAlertEmail(toEmail: string, entityName: string, c: N
   const confidenceLine = matchMethod === "structured"
     ? `Match confidence: High -- "${entityName}" appears in this matter's structured party/role data.`
     : `Match confidence: Lower -- "${entityName}" was found only as a text mention in this matter's title. This matter doesn't yet have structured party data, so this hasn't been verified as the same entity in the same role. Please confirm manually.`;
-  await sendEmail(
+  const u = updateLines(d, c);
+  return await sendEmail(
     toEmail,
-    `"${entityName}" was just named in a new CREdocket matter`,
+    u.prefix
+      ? `${u.prefix}a CREdocket matter naming "${entityName}"`
+      : `"${entityName}" was just named in a new CREdocket matter`,
     [
-      `A new matter naming "${entityName}" -- something in your CREdocket portfolio -- was just added:`,
+      u.intro
+        ? `A matter naming "${entityName}" -- something in your CREdocket portfolio -- has an update. ${u.intro}`
+        : `A new matter naming "${entityName}" -- something in your CREdocket portfolio -- was just added:`,
       "",
       c.title || "(untitled matter)",
       c.jurisdiction ? `Jurisdiction: ${c.jurisdiction}` : null,
@@ -274,12 +315,13 @@ Deno.serve(async (req) => {
     return jsonResponse({ error: "Invalid automation secret" }, 401);
   }
 
-  let newCase: NewCase;
+  let newCase: NewCase & { action?: string };
   try {
     newCase = await req.json();
   } catch {
     return jsonResponse({ error: "Invalid request body" }, 400);
   }
+  if (newCase.action === "baseline") return await baseline();
 
   const { data: watchlists, error: wErr } = await supabaseAdmin
     .from("watchlists")
@@ -289,17 +331,53 @@ Deno.serve(async (req) => {
     return jsonResponse({ error: "Could not load watchlists" }, 500);
   }
 
+  // What this matter has already been alerted (or baselined) at, per
+  // target, newest first. null = record table unavailable.
+  const status = newCase.status ?? "";
+  const resync = newCase.resync === true;
+  let prior: Map<string, string[]> | null = null;
+  if (newCase.id) {
+    const { data: sends, error: sErr } = await supabaseAdmin
+      .from("alert_sends")
+      .select("kind, target_id, case_status, sent_at")
+      .eq("case_id", newCase.id)
+      .order("sent_at", { ascending: false });
+    if (sErr) {
+      console.error("check-and-send-watchlist-alerts: alert_sends unavailable, sending without de-duplication —", sErr.message);
+    } else {
+      prior = new Map();
+      for (const r of (sends || []) as { kind: string; target_id: string; case_status: string }[]) {
+        const k = `${r.kind}:${r.target_id}`;
+        prior.set(k, [...(prior.get(k) || []), r.case_status]);
+      }
+    }
+  }
+  const decide = (kind: string, targetId: string) =>
+    decideAlert(prior ? (prior.get(`${kind}:${targetId}`) || []) : null, status, resync);
+  const record = async (userId: string, kind: string, targetId: string) => {
+    if (!prior || !newCase.id) return;
+    const { error } = await supabaseAdmin.from("alert_sends").upsert(
+      { user_id: userId, kind, target_id: targetId, case_id: newCase.id, case_status: status, emailed: true },
+      { onConflict: "kind,target_id,case_id,case_status", ignoreDuplicates: true },
+    );
+    if (error) console.error(`check-and-send-watchlist-alerts: could not record ${kind} alert for ${newCase.id} —`, error.message);
+  };
+
   const matched = ((watchlists || []) as Watchlist[]).filter((w) => matchesWatchlist(w, newCase));
-  let emailsSent = 0;
+  let emailsSent = 0, skipped = 0;
   for (const w of matched) {
+    const d = decide("watchlist", String(w.id));
+    if (!d.send) { skipped++; continue; }
     const { data: userData, error: uErr } = await supabaseAdmin.auth.admin.getUserById(w.user_id);
     if (uErr || !userData || !userData.user || !userData.user.email) {
       console.error(`check-and-send-watchlist-alerts: could not resolve email for user ${w.user_id} —`, uErr?.message);
       continue;
     }
     const usedKeywordMatch = Boolean(w.keyword && w.keyword.trim());
-    await sendWatchlistAlertEmail(userData.user.email, w.name, newCase, usedKeywordMatch);
-    emailsSent++;
+    if (await sendWatchlistAlertEmail(userData.user.email, w.name, newCase, usedKeywordMatch, d)) {
+      emailsSent++;
+      await record(w.user_id, "watchlist", String(w.id));
+    }
   }
 
   // Portfolio-entity matching -- a separate table/concept from
@@ -319,15 +397,58 @@ Deno.serve(async (req) => {
       .filter((m) => m.method !== null);
     matchedEntityCount = matchedEntities.length;
     for (const { entity: e, method } of matchedEntities) {
+      const d = decide("portfolio", String(e.id));
+      if (!d.send) { skipped++; continue; }
       const { data: userData, error: uErr } = await supabaseAdmin.auth.admin.getUserById(e.user_id);
       if (uErr || !userData || !userData.user || !userData.user.email) {
         console.error(`check-and-send-watchlist-alerts: could not resolve email for user ${e.user_id} —`, uErr?.message);
         continue;
       }
-      await sendPortfolioAlertEmail(userData.user.email, e.entity_name, newCase, method);
-      emailsSent++;
+      if (await sendPortfolioAlertEmail(userData.user.email, e.entity_name, newCase, method, d)) {
+        emailsSent++;
+        await record(e.user_id, "portfolio", String(e.id));
+      }
     }
   }
 
-  return jsonResponse({ ok: true, matchedWatchlists: matched.length, matchedPortfolioEntities: matchedEntityCount, emailsSent }, 200);
+  return jsonResponse({
+    ok: true, matchedWatchlists: matched.length, matchedPortfolioEntities: matchedEntityCount,
+    emailsSent, skippedAlreadySent: skipped, dedupe: prior !== null,
+  }, 200);
 });
+
+// One-time (and safe to repeat): record every current match of every
+// synced matter as already alerted, without emailing anyone.
+async function baseline(): Promise<Response> {
+  const cases: NewCase[] = [];
+  for (let from = 0; ; from += 1000) {
+    const { data, error } = await supabaseAdmin
+      .from("case_data")
+      .select("id, title, category, state, summary, significance, status")
+      .order("id")
+      .range(from, from + 999);
+    if (error) return jsonResponse({ error: "Could not load case_data", detail: error.message }, 500);
+    cases.push(...((data || []) as NewCase[]));
+    if (!data || data.length < 1000) break;
+  }
+  const { data: watchlists, error: wErr } = await supabaseAdmin.from("watchlists").select("id, user_id, name, states, categories, keyword");
+  if (wErr) return jsonResponse({ error: "Could not load watchlists", detail: wErr.message }, 500);
+  const { data: entities } = await supabaseAdmin.from("portfolio_entities").select("id, user_id, entity_name, entity_type");
+
+  const rows: Record<string, unknown>[] = [];
+  for (const c of cases) {
+    for (const w of (watchlists || []) as Watchlist[]) {
+      if (matchesWatchlist(w, c)) rows.push({ user_id: w.user_id, kind: "watchlist", target_id: String(w.id), case_id: c.id, case_status: c.status ?? "", emailed: false });
+    }
+    for (const e of (entities || []) as PortfolioEntity[]) {
+      if (getPortfolioMatchMethod(e, c)) rows.push({ user_id: e.user_id, kind: "portfolio", target_id: String(e.id), case_id: c.id, case_status: c.status ?? "", emailed: false });
+    }
+  }
+  for (let i = 0; i < rows.length; i += 500) {
+    const { error } = await supabaseAdmin.from("alert_sends").upsert(rows.slice(i, i + 500), {
+      onConflict: "kind,target_id,case_id,case_status", ignoreDuplicates: true,
+    });
+    if (error) return jsonResponse({ error: "Could not write alert_sends", detail: error.message, written: i }, 500);
+  }
+  return jsonResponse({ ok: true, cases: cases.length, baselineRows: rows.length }, 200);
+}
