@@ -15,6 +15,7 @@ on:
       - "scripts/render_corrections.py"
       - "scripts/build_matter_pages.ts"
       - "scripts/build_sitemap.py"
+      - "scripts/build_data_lite.ts"
   workflow_dispatch:
 
 permissions:
@@ -34,6 +35,8 @@ jobs:
       - uses: denoland/setup-deno@v2
         with:
           deno-version: v2.x
+      # The slim dataset pages load (write-ups and timelines split out).
+      - run: deno run --allow-read --allow-write scripts/build_data_lite.ts
       - run: deno run --allow-read --allow-write --allow-net scripts/prerender.ts
       - run: python3 scripts/render_corrections.py
       # One indexable page per matter, then the sitemap that lists them.
@@ -42,7 +45,7 @@ jobs:
       - name: Commit prerendered pages
         run: |
           git add -A matters
-          git add index.html litigation.html coverage.html company-*.html corrections.html sitemap.xml
+          git add index.html litigation.html coverage.html company-*.html corrections.html sitemap.xml js/data-lite.js js/matter-text.json
           if git diff --cached --quiet; then echo "Nothing changed."; exit 0; fi
           git config user.name "credocket-prerender-bot"
           git config user.email "actions@users.noreply.github.com"

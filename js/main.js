@@ -644,6 +644,26 @@
     });
   }
 
+  /* ---------- Write-up text for search ----------
+     js/matter-text.json ({id: text}) is fetched the first time someone
+     searches, so search and the tracker filter still match words that
+     appear only in a write-up. Fires "relaw:matter-text" when ready. */
+  let matterTextPromise = null;
+  window.RELAW_UTILS.loadMatterText = function () {
+    if (typeof RELAW_DATA === "undefined") return Promise.resolve(false);
+    if (!matterTextPromise) {
+      matterTextPromise = fetch("/js/matter-text.json")
+        .then((r) => (r.ok ? r.json() : {}))
+        .then((text) => {
+          RELAW_DATA.cases.forEach((c) => { if (text[c.id]) c.bodyText = text[c.id]; });
+          document.dispatchEvent(new Event("relaw:matter-text"));
+          return true;
+        })
+        .catch(() => { matterTextPromise = null; return false; });
+    }
+    return matterTextPromise;
+  };
+
   /* ---------- Corrections on a matter ----------
      js/corrections.json is the public corrections log (corrections.html).
      A corrected matter shows what changed, under its summary. */
@@ -718,7 +738,18 @@
           </div>`
         : "";
 
-      const hasGatedContent = !!((c.body && c.body.length) || (c.timeline && c.timeline.length));
+      // Pages load js/data-lite.js, which leaves out write-ups and
+      // timelines (hasFull marks a matter that has them); they are
+      // fetched from matters/data/<id>.json only when about to be shown.
+      const hasGatedContent = !!(c.hasFull || (c.body && c.body.length) || (c.timeline && c.timeline.length));
+      function withFull(render) {
+        if (!c.hasFull || c.body || c.timeline) { render(); return; }
+        fetch(`/matters/data/${encodeURIComponent(c.id)}.json`)
+          .then((r) => (r.ok ? r.json() : Promise.reject(new Error(String(r.status)))))
+          .then((full) => { c.body = full.body || []; c.timeline = full.timeline || []; })
+          .catch(() => { c.body = null; c.timeline = null; c.fullFailed = true; })
+          .then(() => { if (panel.dataset.caseId === c.id) render(); });
+      }
 
       function fullArticleInnerHtml() {
         let articleHtml;
@@ -728,6 +759,9 @@
             articleHtml += `<p class="body-text"><a href="${c.sourceUrl}" target="_blank" rel="noopener">Original source ↗</a></p>`;
           }
           articleHtml = primarySourceHtml + docketLinkHtml + articleHtml;
+        } else if (c.fullFailed) {
+          articleHtml = `<p class="body-text">The full write-up couldn't be loaded. Check your connection and reopen this matter.</p>`;
+          c.fullFailed = false; // try again next time it is opened
         } else if (isLive) {
           articleHtml = `
             <div class="article-pending">
@@ -842,14 +876,14 @@
         renderGated(fullArticleInnerHtml());
       } else if (!window.RELAW_AUTH) {
         // Auth system didn't load — fail open rather than block content.
-        renderGated(fullArticleInnerHtml());
+        withFull(() => renderGated(fullArticleInnerHtml()));
       } else {
         gatedSlot.innerHTML = `<div class="gate-card is-loading">Checking access…</div>`;
         window.RELAW_AUTH.checkGate(c.id).then((state) => {
           // Panel may have moved on to a different case by the time this resolves.
           if (!panel.classList.contains("open") || document.getElementById("detail-gated-content") !== gatedSlot) return;
           if (state.status === "ok") {
-            renderGated(fullArticleInnerHtml());
+            withFull(() => renderGated(fullArticleInnerHtml()));
           } else {
             gatedSlot.innerHTML = gateStateHtml(state);
             const signInBtn = document.getElementById("gate-signin-btn");

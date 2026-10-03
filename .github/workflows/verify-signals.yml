@@ -29,11 +29,18 @@ jobs:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 1
+      - uses: denoland/setup-deno@v2
+        with:
+          deno-version: v2.x
       - name: Check each queued signal against its source
         run: python3 scripts/verify_signals.py
+      # Pages load js/data-lite.js, and this job's push does not trigger
+      # the prerender workflow, so rebuild it here.
+      - name: Rebuild the slim dataset
+        run: deno run --allow-read --allow-write scripts/build_data_lite.ts
       - name: Commit the results
         run: |
-          git add -A ops/pending-signals js/data.js
+          git add -A ops/pending-signals js/data.js js/data-lite.js js/matter-text.json matters/data
           if git diff --cached --quiet; then echo "Nothing to record."; exit 0; fi
           git config user.name "credocket-signals-bot"
           git config user.email "actions@users.noreply.github.com"

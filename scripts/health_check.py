@@ -169,7 +169,8 @@ def check_live_site(cases, problems, notes):
     every push). A bot challenge is reported as unchecked, not as down."""
     newest = max(cases, key=lambda c: (c.get("addedDate") or "", c["id"]))
     stamp = int(now().timestamp())
-    for path in ("/", f"/js/data.js?hc={stamp}"):
+    # Pages load js/data-lite.js (rebuilt by prerender.yml from js/data.js).
+    for path in ("/", f"/js/data-lite.js?hc={stamp}"):
         try:
             req = urllib.request.Request(SITE + path, headers={"User-Agent": "Mozilla/5.0 (CREdocket health check)"})
             with urllib.request.urlopen(req, timeout=30) as r:
@@ -183,8 +184,8 @@ def check_live_site(cases, problems, notes):
         except Exception as err:
             problems.append(f"Live site {path} unreachable: {err}")
             return
-        if path.startswith("/js/data.js") and f'"{newest["id"]}"' not in body:
-            problems.append(f"Live site is behind the repo: deployed data.js lacks {newest['id']} (added {newest.get('addedDate')})")
+        if path.startswith("/js/data-lite.js") and f'"{newest["id"]}"' not in body:
+            problems.append(f"Live site is behind the repo: deployed data-lite.js lacks {newest['id']} (added {newest.get('addedDate')}); check the prerender run")
             return
     notes.append(f"Live site up and serving the newest matter ({newest['id']})")
 

@@ -116,7 +116,7 @@
       if (state.query) {
         const q = state.query.toLowerCase();
         const stateName = c.state ? RELAW_DATA.states[c.state] || "" : "";
-        const bodyText = c.body ? c.body.join(" ") : "";
+        const bodyText = c.body ? c.body.join(" ") : (c.bodyText || "");
         const hay = (
           c.title + " " + c.summary + " " + c.significance + " " + bodyText + " " +
           c.tags.join(" ") + " " + c.jurisdiction + " " + stateName
@@ -225,7 +225,10 @@
       state.query = e.target.value.trim();
       render();
     }, 160);
+    if (window.RELAW_UTILS.loadMatterText) window.RELAW_UTILS.loadMatterText();
   });
+  // Write-up text loads on the first search; re-filter when it arrives.
+  document.addEventListener("relaw:matter-text", () => { if (state.query) render(); });
   statusSelect.addEventListener("change", (e) => { state.status = e.target.value; render(); });
   if (stateSelect) stateSelect.addEventListener("change", (e) => { state.stateFilter = e.target.value; render(); });
   sortSelect.addEventListener("change", (e) => { state.sort = e.target.value; render(); });
@@ -326,6 +329,7 @@
   if (qParam) {
     state.query = qParam;
     searchInput.value = qParam;
+    if (window.RELAW_UTILS.loadMatterText) window.RELAW_UTILS.loadMatterText();
   }
   // ?case=<id> -- opens a specific matter's detail panel directly, e.g.
   // from a watchlist alert email, without the reader having to search

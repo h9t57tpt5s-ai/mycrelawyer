@@ -66,7 +66,7 @@
 
   function fieldsOf(c) {
     const stateName = c.state ? RELAW_DATA.states[c.state] || "" : "";
-    const bodyText = c.body ? c.body.join(" ") : "";
+    const bodyText = c.body ? c.body.join(" ") : (c.bodyText || "");
     return {
       title: c.title,
       summary: c.summary,
@@ -270,7 +270,10 @@
     input.addEventListener("input", (e) => {
       clearTimeout(debounceTimer);
       debounceTimer = setTimeout(() => renderResults(e.target.value), 120);
+      if (window.RELAW_UTILS && window.RELAW_UTILS.loadMatterText) window.RELAW_UTILS.loadMatterText();
     });
+    // Write-up text arrives after the first keystroke; re-run the search.
+    document.addEventListener("relaw:matter-text", () => { if (input.value.trim()) renderResults(input.value); });
     input.addEventListener("keydown", (e) => {
       if (e.key === "Enter") {
         const q = input.value.trim();
