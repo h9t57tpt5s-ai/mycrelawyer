@@ -13,6 +13,8 @@ on:
       - "js/corrections.json"
       - "scripts/prerender.ts"
       - "scripts/render_corrections.py"
+      - "scripts/build_matter_pages.ts"
+      - "scripts/build_sitemap.py"
   workflow_dispatch:
 
 permissions:
@@ -27,14 +29,20 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # build_sitemap.py dates each page by its last commit
       - uses: denoland/setup-deno@v2
         with:
           deno-version: v2.x
       - run: deno run --allow-read --allow-write --allow-net scripts/prerender.ts
       - run: python3 scripts/render_corrections.py
+      # One indexable page per matter, then the sitemap that lists them.
+      - run: deno run --allow-read --allow-write scripts/build_matter_pages.ts
+      - run: python3 scripts/build_sitemap.py
       - name: Commit prerendered pages
         run: |
-          git add index.html litigation.html coverage.html company-*.html corrections.html
+          git add -A matters
+          git add index.html litigation.html coverage.html company-*.html corrections.html sitemap.xml
           if git diff --cached --quiet; then echo "Nothing changed."; exit 0; fi
           git config user.name "credocket-prerender-bot"
           git config user.email "actions@users.noreply.github.com"

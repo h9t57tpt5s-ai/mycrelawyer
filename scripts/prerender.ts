@@ -46,7 +46,7 @@ function caseCard(c: Case): string {
             <span class="dot" style="background:${s.color}"></span>${esc(s.label)}
           </span>
         </div>
-        <h3>${c.title}</h3>
+        <h3><a class="case-link" href="/matters/${esc(c.id)}.html">${c.title}</a></h3>
         <p class="summary">${c.summary}</p>
         ${c.amount ? `<div class="detail-tag" style="display:inline-block; margin-bottom:14px;">${esc(c.amount)}</div>` : ""}
         <div class="case-card-meta">

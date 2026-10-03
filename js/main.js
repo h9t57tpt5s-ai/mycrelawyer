@@ -300,7 +300,7 @@
             <span class="dot" style="background:${status.color}"></span>${status.label}
           </span>
         </div>
-        <h3>${c.title}</h3>
+        <h3><a class="case-link" href="/matters/${c.id}.html">${c.title}</a></h3>
         <p class="summary">${c.summary}</p>
         ${c.amount ? `<div class="detail-tag" style="display:inline-block; margin-bottom:14px;">${c.amount}</div>` : ""}
         <div class="case-card-meta">
@@ -788,6 +788,7 @@
           <span class="badge-dot" style="background:${cat.color}"></span>${cat.label}
         </span>
         <h2>${c.title}</h2>
+        <a class="detail-permalink" href="/matters/${c.id}.html">Matter page and share link &#8599;</a>
         <!-- Visible byline intentionally not rendered yet — the invisible
              JSON-LD authorship schema below ships first; bylineHtml() stays
              defined in RELAW_UTILS, ready to wire in here later. -->
@@ -862,6 +863,11 @@
   if (typeof RELAW_DATA !== "undefined") {
     buildDetailPanel();
     document.addEventListener("click", (e) => {
+      // Card titles are real links to matters/<id>.html (for search
+      // engines and new tabs); a plain click still opens the panel here.
+      const link = e.target.closest("a.case-link");
+      if (link && (e.metaKey || e.ctrlKey || e.shiftKey || e.altKey || e.button !== 0)) return;
+      if (link) e.preventDefault();
       const cardEl = e.target.closest("[data-case-id]");
       if (cardEl) window.RELAW_UTILS.openCaseDetail(cardEl.getAttribute("data-case-id"));
     });
