@@ -58,10 +58,10 @@ const tpl = await Deno.readTextFile("alert-log.html");
 const absolutize = (h: string) => h.replace(/(href|src)="(?!https?:|\/|#|mailto:|tel:|data:)([^"]+)"/g, '$1="/$2"');
 let head = tpl.slice(0, tpl.indexOf('<main id="main-content"'));
 let tail = tpl.slice(tpl.indexOf("</main>") + "</main>".length);
-tail = tail.replace(/<script src="js\/data\.js"><\/script>\s*<script>[\s\S]*?<\/script>/, "")
+tail = tail.replace(/<script src="js\/data(?:-lite)?\.js"><\/script>\s*<script>[\s\S]*?<\/script>/, "")
   .replace(/<script src="js\/(glossary-tooltip|trending|search)\.js"><\/script>\s*/g, "")
   .replace(/\s*<a href="alert-log\.html" class="active">/, '\n        <a href="alert-log.html">');
-if (tail.includes("js/data.js")) throw new Error("template tail still loads js/data.js");
+if (/js\/data(?:-lite)?\.js/.test(tail)) throw new Error("template tail still loads the dataset");
 tail = tail.replace("<script src=\"js/main.js\"></script>", '<script src="js/main.js"></script>\n<script src="js/matter-page.js"></script>');
 head = absolutize(head);
 tail = absolutize(tail);
