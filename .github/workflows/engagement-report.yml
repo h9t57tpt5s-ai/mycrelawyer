@@ -1,0 +1,31 @@
+name: Weekly engagement report
+
+# Emails the owner last week's visits and funnel from public.site_events
+# (js/track.js), via the site-metrics Edge Function. Manual runs allowed.
+
+on:
+  schedule:
+    - cron: "47 13 * * 1" # Mondays ~8:45am Central
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  report:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Send the report
+        env:
+          SUPABASE_ANON_KEY: sb_publishable_77xSJub0DOpnTSM4nzhVaQ_aztB5p3f
+          AUTOMATION_SECRET: ${{ secrets.AUTOMATION_SECRET }}
+        run: |
+          status=$(curl -sS -o /tmp/report.json -w "%{http_code}" \
+            -X POST 'https://ribmcdyoydhmafnyfhpp.supabase.co/functions/v1/site-metrics' \
+            -H "Authorization: Bearer $SUPABASE_ANON_KEY" \
+            -H "x-automation-secret: $AUTOMATION_SECRET" \
+            -H "Content-Type: application/json" \
+            --data '{"action":"email"}')
+          echo "site-metrics HTTP $status"; head -c 1500 /tmp/report.json; echo
+          [[ "$status" =~ ^2 ]]

@@ -221,10 +221,12 @@
           statusEl.textContent = error.message || "Something went wrong — try again.";
           statusEl.className = "auth-modal-status is-error";
         } else if (data.session) {
+          if (window.RELAW_TRACK) window.RELAW_TRACK("signup", { detail: "signed-in" });
           statusEl.textContent = "Account created — you're signed in.";
           statusEl.className = "auth-modal-status is-success";
           setTimeout(closeSignInModal, 700);
         } else {
+          if (window.RELAW_TRACK) window.RELAW_TRACK("signup", { detail: "confirm-email" });
           statusEl.textContent = `Check ${email} to confirm your account, then come back and sign in.`;
           statusEl.className = "auth-modal-status is-success";
         }
@@ -234,6 +236,7 @@
           statusEl.textContent = error.message || "Incorrect email or password.";
           statusEl.className = "auth-modal-status is-error";
         } else {
+          if (window.RELAW_TRACK) window.RELAW_TRACK("signin", { detail: "password" });
           statusEl.textContent = "Signed in.";
           statusEl.className = "auth-modal-status is-success";
           setTimeout(closeSignInModal, 500);
@@ -279,6 +282,7 @@
         statusEl.textContent = error.message || "Something went wrong — try again.";
         statusEl.className = "auth-modal-status is-error";
       } else {
+        if (window.RELAW_TRACK) window.RELAW_TRACK("magic_link_sent");
         statusEl.textContent = `Check ${email} for a sign-in link. You can close this and come back after you click it.`;
         statusEl.className = "auth-modal-status is-success";
       }
@@ -289,6 +293,7 @@
 
   function openSignInModal(pendingCaseId) {
     if (pendingCaseId) setPendingCase(pendingCaseId);
+    if (window.RELAW_TRACK) window.RELAW_TRACK("signin_open", { caseId: pendingCaseId || null });
     const m = buildModal();
     setActiveTab("password");
     setPasswordMode("signin");

@@ -218,12 +218,17 @@
     });
   }
 
-  let debounceTimer;
+  let debounceTimer, searchLogTimer;
   searchInput.addEventListener("input", (e) => {
     clearTimeout(debounceTimer);
     debounceTimer = setTimeout(() => {
       state.query = e.target.value.trim();
       render();
+      clearTimeout(searchLogTimer);
+      if (state.query.length >= 3 && window.RELAW_TRACK) {
+        // Count only, never the words typed; logged once typing pauses.
+        searchLogTimer = setTimeout(() => window.RELAW_TRACK("search", { detail: `tracker: ${getFiltered().length} results` }), 1500);
+      }
     }, 160);
     if (window.RELAW_UTILS.loadMatterText) window.RELAW_UTILS.loadMatterText();
   });

@@ -35,9 +35,15 @@
     });
   }
 
+  const track = (event, opts) => { if (window.RELAW_TRACK) window.RELAW_TRACK(event, opts); };
+  const matterId = (document.getElementById("matter-corrections") || {}).dataset ? document.getElementById("matter-corrections").dataset.matterId : null;
+  document.querySelectorAll(".matter-share a").forEach((a) => a.addEventListener("click", () => track("share", { caseId: matterId, detail: a.textContent.trim().toLowerCase() })));
+  document.querySelectorAll('.matter-cta a[href^="/account.html"]').forEach((a) => a.addEventListener("click", () => track("watchlist_cta", { caseId: matterId })));
+
   const copy = document.getElementById("matter-copy");
   if (copy) {
     copy.addEventListener("click", async () => {
+      track("share", { caseId: matterId, detail: "copy" });
       try { await navigator.clipboard.writeText(copy.dataset.url); copy.textContent = "Link copied"; }
       catch (e) { window.prompt("Copy this link:", copy.dataset.url); }
       setTimeout(() => { copy.textContent = "Copy link"; }, 2500);

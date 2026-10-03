@@ -860,6 +860,9 @@
       `;
       document.getElementById("detail-close-btn").addEventListener("click", close);
       panel.dataset.caseId = c.id;
+      if (window.RELAW_TRACK) window.RELAW_TRACK("panel_open", { caseId: c.id });
+      const permalink = panel.querySelector(".detail-permalink");
+      if (permalink) permalink.addEventListener("click", () => { if (window.RELAW_TRACK) window.RELAW_TRACK("permalink", { caseId: c.id }); });
       renderDocketActivity(c);
       renderCorrections(c);
       overlay.classList.add("open");
@@ -876,16 +879,17 @@
         renderGated(fullArticleInnerHtml());
       } else if (!window.RELAW_AUTH) {
         // Auth system didn't load — fail open rather than block content.
-        withFull(() => renderGated(fullArticleInnerHtml()));
+        withFull(() => { renderGated(fullArticleInnerHtml()); if (window.RELAW_TRACK) window.RELAW_TRACK("full_read", { caseId: c.id }); });
       } else {
         gatedSlot.innerHTML = `<div class="gate-card is-loading">Checking access…</div>`;
         window.RELAW_AUTH.checkGate(c.id).then((state) => {
           // Panel may have moved on to a different case by the time this resolves.
           if (!panel.classList.contains("open") || document.getElementById("detail-gated-content") !== gatedSlot) return;
           if (state.status === "ok") {
-            withFull(() => renderGated(fullArticleInnerHtml()));
+            withFull(() => { renderGated(fullArticleInnerHtml()); if (window.RELAW_TRACK) window.RELAW_TRACK("full_read", { caseId: c.id }); });
           } else {
             gatedSlot.innerHTML = gateStateHtml(state);
+            if (window.RELAW_TRACK) window.RELAW_TRACK("gate_shown", { caseId: c.id, detail: state.status });
             const signInBtn = document.getElementById("gate-signin-btn");
             if (signInBtn) signInBtn.addEventListener("click", () => window.RELAW_AUTH.openSignInModal(c.id));
           }
