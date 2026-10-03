@@ -1,7 +1,7 @@
 {
- "updatedAt": "2026-10-02T15:56:41+00:00",
+ "updatedAt": "2026-10-03T14:23:02+00:00",
  "source": "CourtListener RECAP archive (federal courts only). Entries appear when CourtListener receives them, so some are late or missing.",
- "requestsUsed": 9,
+ "requestsUsed": 8,
  "errors": [],
  "dockets": {
   "63107484": {
@@ -40,59 +40,59 @@
   "67174489": {
    "entries": [
     {
-     "date": "2026-09-25",
-     "number": 1552,
+     "date": "2026-10-02",
+     "number": 1577,
+     "text": "Leave to File Document under Seal",
+     "url": "https://www.courtlistener.com/docket/67174489/1577/in-re-realpage-inc-rental-software-antitrust-litigation-no-ii/",
+     "ruling": false
+    },
+    {
+     "date": "2026-10-02",
+     "number": 1575,
+     "text": "Exclude",
+     "url": "https://www.courtlistener.com/docket/67174489/1575/in-re-realpage-inc-rental-software-antitrust-litigation-no-ii/",
+     "ruling": false
+    },
+    {
+     "date": "2026-10-02",
+     "number": 1574,
+     "text": "Exclude",
+     "url": "https://www.courtlistener.com/docket/67174489/1574/in-re-realpage-inc-rental-software-antitrust-litigation-no-ii/",
+     "ruling": false
+    },
+    {
+     "date": "2026-10-02",
+     "number": 1572,
+     "text": "Leave to File Document under Seal",
+     "url": "https://www.courtlistener.com/docket/67174489/1572/in-re-realpage-inc-rental-software-antitrust-litigation-no-ii/",
+     "ruling": false
+    },
+    {
+     "date": "2026-10-02",
+     "number": 1571,
      "text": "Miscellaneous Relief",
-     "url": "https://www.courtlistener.com/docket/67174489/1552/in-re-realpage-inc-rental-software-antitrust-litigation-no-ii/",
+     "url": "https://www.courtlistener.com/docket/67174489/1571/in-re-realpage-inc-rental-software-antitrust-litigation-no-ii/",
      "ruling": false
     },
     {
-     "date": "2026-09-22",
-     "number": 1545,
-     "text": "NOTICE by MDL 3071 Plaintiffs re",
-     "url": "https://www.courtlistener.com/docket/67174489/1545/in-re-realpage-inc-rental-software-antitrust-litigation-no-ii/",
+     "date": "2026-10-02",
+     "number": 1567,
+     "text": "Exclude",
+     "url": "https://www.courtlistener.com/docket/67174489/1567/in-re-realpage-inc-rental-software-antitrust-litigation-no-ii/",
      "ruling": false
     },
     {
-     "date": "2026-09-22",
-     "number": 1544,
-     "text": "Notice (Other)",
-     "url": "https://www.courtlistener.com/docket/67174489/1544/in-re-realpage-inc-rental-software-antitrust-litigation-no-ii/",
+     "date": "2026-10-02",
+     "number": 1565,
+     "text": "Leave to File Document under Seal",
+     "url": "https://www.courtlistener.com/docket/67174489/1565/in-re-realpage-inc-rental-software-antitrust-litigation-no-ii/",
      "ruling": false
     },
     {
-     "date": "2026-09-18",
-     "number": 1543,
-     "text": "Notice (Other)",
-     "url": "https://www.courtlistener.com/docket/67174489/1543/in-re-realpage-inc-rental-software-antitrust-litigation-no-ii/",
-     "ruling": false
-    },
-    {
-     "date": "2026-09-17",
-     "number": 1542,
-     "text": "Notice (Other)",
-     "url": "https://www.courtlistener.com/docket/67174489/1542/in-re-realpage-inc-rental-software-antitrust-litigation-no-ii/",
-     "ruling": false
-    },
-    {
-     "date": "2026-09-16",
-     "number": 1541,
+     "date": "2026-10-02",
+     "number": 1564,
      "text": "Appear Pro Hac Vice",
-     "url": "https://www.courtlistener.com/docket/67174489/1541/in-re-realpage-inc-rental-software-antitrust-litigation-no-ii/",
-     "ruling": false
-    },
-    {
-     "date": "2026-09-16",
-     "number": 1540,
-     "text": "Appear Pro Hac Vice",
-     "url": "https://www.courtlistener.com/docket/67174489/1540/in-re-realpage-inc-rental-software-antitrust-litigation-no-ii/",
-     "ruling": false
-    },
-    {
-     "date": "2026-09-16",
-     "number": 1539,
-     "text": "Appear Pro Hac Vice",
-     "url": "https://www.courtlistener.com/docket/67174489/1539/in-re-realpage-inc-rental-software-antitrust-litigation-no-ii/",
+     "url": "https://www.courtlistener.com/docket/67174489/1564/in-re-realpage-inc-rental-software-antitrust-litigation-no-ii/",
      "ruling": false
     }
    ],
@@ -103,7 +103,7 @@
    "docketNumber": "3:23-md-03071",
    "dateTerminated": null,
    "url": "https://www.courtlistener.com/docket/67174489/in-re-realpage-inc-rental-software-antitrust-litigation-no-ii/",
-   "lastEntryDate": "2026-09-25"
+   "lastEntryDate": "2026-10-02"
   },
   "67940311": {
    "entries": [],
@@ -339,6 +339,13 @@
   "70189262": {
    "entries": [
     {
+     "date": "2026-10-02",
+     "number": 47,
+     "text": "Letter",
+     "url": "https://www.courtlistener.com/docket/70189262/47/united-states-v-schuster/",
+     "ruling": false
+    },
+    {
      "date": "2026-09-28",
      "number": 46,
      "text": "Endorsed Letter AND ~Util - Set/Reset Deadlines/Hearings",
@@ -374,7 +381,7 @@
    "docketNumber": "1:25-cr-00204",
    "dateTerminated": null,
    "url": "https://www.courtlistener.com/docket/70189262/united-states-v-schuster/",
-   "lastEntryDate": "2026-09-28"
+   "lastEntryDate": "2026-10-02"
   },
   "70689952": {
    "entries": [],
@@ -674,6 +681,13 @@
   "73578741": {
    "entries": [
     {
+     "date": "2026-10-02",
+     "number": 12,
+     "text": "Request to Appear Pro Hac Vice",
+     "url": "https://www.courtlistener.com/docket/73578741/12/keller-v-udr-inc/",
+     "ruling": false
+    },
+    {
      "date": "2026-09-17",
      "number": 11,
      "text": "Order on Motion for Extension of Time to File Response/Reply",
@@ -702,7 +716,7 @@
    "docketNumber": "3:26-cv-03865",
    "dateTerminated": null,
    "url": "https://www.courtlistener.com/docket/73578741/keller-v-udr-inc/",
-   "lastEntryDate": "2026-09-17"
+   "lastEntryDate": "2026-10-02"
   },
   "73684397": {
    "entries": [
@@ -1270,6 +1284,20 @@
   "74855344": {
    "entries": [
     {
+     "date": "2026-10-03",
+     "number": 22,
+     "text": "BNC Certificate of Mailing - Meeting of Creditors",
+     "url": "https://www.courtlistener.com/docket/74855344/22/united-property-investments-realty-services-llc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-10-02",
+     "number": 21,
+     "text": "Certificate Of Service (BK)",
+     "url": "https://www.courtlistener.com/docket/74855344/21/united-property-investments-realty-services-llc/",
+     "ruling": false
+    },
+    {
      "date": "2026-10-02",
      "number": 19,
      "text": "BNC Certificate of Mailing - Order",
@@ -1310,20 +1338,6 @@
      "text": "341 Mtg. Notice - Ch 11 Corp w/Claim Deadline",
      "url": "https://www.courtlistener.com/docket/74855344/14/united-property-investments-realty-services-llc/",
      "ruling": false
-    },
-    {
-     "date": "2026-09-29",
-     "number": 11,
-     "text": "Order Prescribing Procedures - Ch. 11 SubV Case, Setting Deadline for Filing Plan, Set Status Conf",
-     "url": "https://www.courtlistener.com/docket/74855344/11/united-property-investments-realty-services-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-09-29",
-     "number": 10,
-     "text": "Notice of Appointment of Subchapter V Trustee",
-     "url": "https://www.courtlistener.com/docket/74855344/10/united-property-investments-realty-services-llc/",
-     "ruling": false
     }
    ],
    "caseIds": [
@@ -1333,7 +1347,7 @@
    "docketNumber": "6:26-bk-07478",
    "dateTerminated": null,
    "url": "https://www.courtlistener.com/docket/74855344/united-property-investments-realty-services-llc/",
-   "lastEntryDate": "2026-10-02"
+   "lastEntryDate": "2026-10-03"
   },
   "74856205": {
    "entries": [
@@ -1406,6 +1420,20 @@
   "74866310": {
    "entries": [
     {
+     "date": "2026-10-03",
+     "number": 14,
+     "text": "BNC Certificate of Mailing - Notice to Creditors and Parties in Interest",
+     "url": "https://www.courtlistener.com/docket/74866310/14/mw-properties-orlando-llc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-10-02",
+     "number": 13,
+     "text": "Chapter 11 Case Management Summary",
+     "url": "https://www.courtlistener.com/docket/74866310/13/mw-properties-orlando-llc/",
+     "ruling": false
+    },
+    {
      "date": "2026-10-02",
      "number": 11,
      "text": "BNC Certificate of Mailing - PDF Document",
@@ -1446,20 +1474,6 @@
      "text": "Certificate of Authorization to File Bankruptcy Petition",
      "url": "https://www.courtlistener.com/docket/74866310/4/mw-properties-orlando-llc/",
      "ruling": false
-    },
-    {
-     "date": "2026-09-29",
-     "number": 3,
-     "text": "Certificate of Authorization to File Bankruptcy Petition",
-     "url": "https://www.courtlistener.com/docket/74866310/3/mw-properties-orlando-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-09-29",
-     "number": 2,
-     "text": "Statement of Corporate Ownership",
-     "url": "https://www.courtlistener.com/docket/74866310/2/mw-properties-orlando-llc/",
-     "ruling": false
     }
    ],
    "caseIds": [
@@ -1469,10 +1483,31 @@
    "docketNumber": "6:26-bk-07563",
    "dateTerminated": null,
    "url": "https://www.courtlistener.com/docket/74866310/mw-properties-orlando-llc/",
-   "lastEntryDate": "2026-10-02"
+   "lastEntryDate": "2026-10-03"
   },
   "74867047": {
    "entries": [
+    {
+     "date": "2026-10-02",
+     "number": 11,
+     "text": "Pro Hac Vice Admission - Motion",
+     "url": "https://www.courtlistener.com/docket/74867047/11/63-spring-lafayette-llc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-10-02",
+     "number": 10,
+     "text": "Appear pro hac vice",
+     "url": "https://www.courtlistener.com/docket/74867047/10/63-spring-lafayette-llc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-10-02",
+     "number": 9,
+     "text": "Appear pro hac vice",
+     "url": "https://www.courtlistener.com/docket/74867047/9/63-spring-lafayette-llc/",
+     "ruling": false
+    },
     {
      "date": "2026-10-01",
      "number": 8,
@@ -1507,27 +1542,6 @@
      "text": "Change Venue/Inter-district Transfer - Motion",
      "url": "https://www.courtlistener.com/docket/74867047/4/63-spring-lafayette-llc/",
      "ruling": false
-    },
-    {
-     "date": "2026-09-29",
-     "number": 3,
-     "text": "Corporate Ownership Statement",
-     "url": "https://www.courtlistener.com/docket/74867047/3/63-spring-lafayette-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-09-29",
-     "number": 2,
-     "text": "Receipt of filing fee for Voluntary Petition",
-     "url": "https://www.courtlistener.com/docket/74867047/2/63-spring-lafayette-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-09-29",
-     "number": 1,
-     "text": "RETIRED - Voluntary Petition (Chapter 11)",
-     "url": "https://www.courtlistener.com/docket/74867047/1/63-spring-lafayette-llc/",
-     "ruling": false
     }
    ],
    "caseIds": [
@@ -1537,10 +1551,24 @@
    "docketNumber": "26-11537",
    "dateTerminated": null,
    "url": "https://www.courtlistener.com/docket/74867047/63-spring-lafayette-llc/",
-   "lastEntryDate": "2026-10-01"
+   "lastEntryDate": "2026-10-02"
   },
   "74874313": {
    "entries": [
+    {
+     "date": "2026-10-02",
+     "number": null,
+     "text": "U - Corrective Entry",
+     "url": "https://www.courtlistener.com/docket/74874313/6363-west-73rd-street-llc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-10-02",
+     "number": null,
+     "text": "Reassignment of Chapter 11 Case Local Rule 1072",
+     "url": "https://www.courtlistener.com/docket/74874313/6363-west-73rd-street-llc/",
+     "ruling": false
+    },
     {
      "date": "2026-10-01",
      "number": 8,
@@ -1582,20 +1610,6 @@
      "text": "Appearance",
      "url": "https://www.courtlistener.com/docket/74874313/3/6363-west-73rd-street-llc/",
      "ruling": false
-    },
-    {
-     "date": "2026-09-30",
-     "number": 1,
-     "text": "Voluntary Petition (Chapter 11a)",
-     "url": "https://www.courtlistener.com/docket/74874313/1/6363-west-73rd-street-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-09-30",
-     "number": null,
-     "text": "none",
-     "url": "https://www.courtlistener.com/docket/74874313/6363-west-73rd-street-llc/",
-     "ruling": false
     }
    ],
    "caseIds": [
@@ -1605,7 +1619,33 @@
    "docketNumber": "26-16232",
    "dateTerminated": null,
    "url": "https://www.courtlistener.com/docket/74874313/6363-west-73rd-street-llc/",
-   "lastEntryDate": "2026-10-01"
+   "lastEntryDate": "2026-10-02"
+  },
+  "74911571": {
+   "entries": [
+    {
+     "date": "2026-10-02",
+     "number": 1,
+     "text": "Voluntary Petition (Chapter 11)",
+     "url": "https://www.courtlistener.com/docket/74911571/1/university-campus-hotel-fund-lp-a-california-l/",
+     "ruling": false
+    },
+    {
+     "date": "2026-10-02",
+     "number": null,
+     "text": "Notice to Filer of Correction Made/No Action Required",
+     "url": "https://www.courtlistener.com/docket/74911571/university-campus-hotel-fund-lp-a-california-l/",
+     "ruling": false
+    }
+   ],
+   "caseIds": [
+    "live-216"
+   ],
+   "court": "Bankr. C.D. Cal.",
+   "docketNumber": "6:26-bk-18337",
+   "dateTerminated": null,
+   "url": "https://www.courtlistener.com/docket/74911571/university-campus-hotel-fund-lp-a-california-l/",
+   "lastEntryDate": "2026-10-02"
   }
  },
  "events": [
