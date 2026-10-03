@@ -1,0 +1,16 @@
+{
+  "id": "live-218",
+  "title": "PPW Realty 1414 W 3rd St. LLC Chapter 11 Petition (D.N.J.)",
+  "category": "lending-foreclosure",
+  "status": "filed",
+  "date": "2026-10-01",
+  "jurisdiction": "United States Bankruptcy Court, District of New Jersey",
+  "state": "NJ",
+  "amount": "Undisclosed (assets and liabilities each reported in the $500,001-$1,000,000 range)",
+  "source": "live",
+  "source_url": "https://www.courtlistener.com/docket/74903821/ppw-realty-1414-w-3rd-st-llc/",
+  "summary": "PPW Realty 1414 W 3rd St. LLC filed a Chapter 11 petition on October 1, 2026 in the United States Bankruptcy Court for the District of New Jersey, case number 26-21190. The debtor's name identifies it as a single-asset entity tied to a specific address; no independent news coverage of the filing was available at the time it was added to this tracker.",
+  "significance": "Single-asset real estate entities named for a specific address continue to make up a meaningful share of the current wave of small commercial Chapter 11 filings tied to distressed acquisition or construction debt. This tracker will add further detail as public reporting or additional docket activity becomes available.",
+  "judge": null,
+  "tags": ["chapter-11", "bankruptcy", "single-asset-entity", "new-jersey"]
+}

@@ -7263,6 +7263,70 @@ const RELAW_DATA = {
         { when: "October 1, 2026", label: "Massachusetts Appeals Court holds the Damianidises bound to pay $100,000 under the settlement", current: true }
       ],
       tags: ["zoning", "settlement-agreement", "contract-formation", "massachusetts", "apartment-development"]
+    },
+    {
+      id: "live-218",
+      addedDate: "2026-10-03",
+      title: "PPW Realty 1414 W 3rd St. LLC Chapter 11 Petition (D.N.J.)",
+      category: "lending-foreclosure",
+      status: "filed",
+      date: "2026-10-01",
+      jurisdiction: "United States Bankruptcy Court, District of New Jersey",
+      state: "NJ",
+      amount: "Undisclosed (assets and liabilities each reported in the $500,001-$1,000,000 range)",
+      source: "live",
+      sourceUrl: "https://www.courtlistener.com/docket/74903821/ppw-realty-1414-w-3rd-st-llc/",
+      summary: "PPW Realty 1414 W 3rd St. LLC filed a Chapter 11 petition on October 1, 2026 in the United States Bankruptcy Court for the District of New Jersey, case number 26-21190. The debtor's name identifies it as a single-asset entity tied to a specific address; no independent news coverage of the filing was available at the time it was added to this tracker.",
+      significance: "Single-asset real estate entities named for a specific address continue to make up a meaningful share of the current wave of small commercial Chapter 11 filings tied to distressed acquisition or construction debt. This tracker will add further detail as public reporting or additional docket activity becomes available.",
+      body: [
+        "PPW Realty 1414 W 3rd St. LLC filed a Chapter 11 petition on October 1, 2026 in the United States Bankruptcy Court for the District of New Jersey, docketed as case number 26-21190. As of this entry, no news coverage of the filing's underlying circumstances -- the nature of the debtor's property, its lender, or the cause of the filing -- had been published, so this record is limited to what the court docket itself shows.",
+        "The debtor's name follows a common naming convention for single-asset real estate entities organized around one specific property address, a structure frequently used by small commercial owners to isolate a single asset's liabilities. These filings make up a meaningful share of the current wave of small commercial bankruptcy filings tied to distressed acquisition, construction, or maturity debt. This tracker will update this entry, or add a related one, if further docket activity or independent reporting clarifies the debtor's property, its lender, and the circumstances of the filing."
+      ],
+      judge: null,
+      parties: [
+        { name: "PPW Realty 1414 W 3rd St. LLC", role: "Debtor" }
+      ],
+      amountUsd: null,
+      docketUrl: "https://www.courtlistener.com/docket/74903821/ppw-realty-1414-w-3rd-st-llc/",
+      docketLabel: "CourtListener docket",
+      tags: ["chapter-11", "bankruptcy", "single-asset-entity", "new-jersey"]
+    },
+    {
+      id: "live-219",
+      addedDate: "2026-10-03",
+      featured: true,
+      title: "N17 Development v. City of Menlo Park (Willow Park Towers Builder's Remedy Suit)",
+      category: "zoning-land-use",
+      status: "filed",
+      date: "2026-10-02",
+      jurisdiction: "San Mateo County Superior Court",
+      state: "CA",
+      propertyType: "Mixed-Use",
+      amount: "$303,000 in legal fees sought; city faces up to $33 million in potential state penalty exposure",
+      amountUsd: 33000000,
+      amountBasis: "other",
+      source: "live",
+      sourceUrl: "https://news.theregistrysf.com/n17-sues-menlo-park-over-rejected-665-unit-willow-park-towers-putting-up-to-33mm-in-state-penalties-in-play/",
+      summary: "Developer N17 Development sued the City of Menlo Park on October 2, 2026 in San Mateo County Superior Court, alleging the city strung out review of its 665-unit, three-tower Willow Park project on the former Sunset Magazine campus for years through shifting objections rather than issuing an approval or denial N17 could challenge directly. N17 invoked California's Builder's Remedy, which lets qualifying housing projects bypass local zoning in cities lacking a state-certified housing element, and the suit follows an August 2026 warning letter from California Attorney General Rob Bonta accusing Menlo Park of violating state housing-accountability law.",
+      significance: "Because Menlo Park received an Attorney General warning letter before this suit was filed, a loss exposes the city to the Housing Accountability Act's enhanced penalty track -- mandatory fee-shifting plus fines of up to $10,000 per unit -- putting as much as $33 million at stake on a 665-unit project. A ruling that indefinite procedural delay (rather than an outright denial) can itself trigger those penalties would narrow how much room cities have to slow-walk disfavored Builder's Remedy projects without a formal rejection.",
+      body: [
+        "A San Francisco-based developer has taken the city of Menlo Park to court over its handling of a proposed 665-unit mixed-use high-rise, in a case that tests both the reach of California's Builder's Remedy housing law and the steep financial penalties the state has attached to cities that resist it. N17 Development filed suit against Menlo Park on October 2, 2026, in San Mateo County Superior Court, alleging the city strung out its review of the Willow Park project at 80 Willow Road for years through shifting objections rather than issuing a timely approval or denial the developer could challenge directly.",
+        "The project traces back to December 2023, when N17 proposed redeveloping the former Sunset Magazine campus into three towers, the tallest reaching 39 stories, containing 665 residential units, 100 of them income-restricted, alongside a 130-room hotel, office space, and ground-floor retail. N17 submitted the application under the Builder's Remedy, a state law that allows qualifying housing developments to bypass local zoning and density rules in any city that lacks a state-certified housing element. Menlo Park had been operating without a compliant housing element at the time, which N17 argues made the project eligible for streamlined review regardless of the city's underlying zoning for the site.",
+        "What followed, according to the complaint, was not a denial N17 could appeal, but a protracted cycle of incomplete-application findings and shifting technical objections that effectively prevented the project from ever reaching a final up-or-down vote. That dynamic drew the attention of California Attorney General Rob Bonta, whose office sent Menlo Park a letter in August 2026 accusing the city of violating state housing-accountability laws in its handling of the application -- a formal warning that matters enormously to the case now before the San Mateo County court. Menlo Park has pushed back publicly, with the city attorney maintaining that staff carefully reviewed the application at every stage and applied state housing law in good faith.",
+        "The immediate relief N17 is seeking is comparatively modest: a court order directing Menlo Park to approve the project, plus a refund of roughly $303,000 in fees N17 says it was forced to spend pursuing the application. The real financial stakes sit elsewhere. Under the Housing Accountability Act and related state housing-enforcement statutes, a city that is sued for violating housing law after having already received a warning letter from the Attorney General's office faces mandatory fee-shifting in the developer's favor and, if a court finds the violation egregious enough, fines that can run as high as $10,000 per rejected or indefinitely delayed housing unit -- a formula that puts Menlo Park's potential exposure at up to $33 million on this project alone.",
+        "The case matters well beyond Menlo Park's borders. Builder's Remedy litigation has so far mostly turned on whether a project qualifies for the exemption and whether an outright denial can be set aside. N17's suit instead targets a city's indefinite, non-committal delay as its own form of unlawful obstruction, a theory that, if it succeeds, would narrow the room cities have to slow-walk disfavored projects without ever formally rejecting them. For developers pursuing Builder's Remedy projects elsewhere, the litigation underscores the value of documenting every shifting or incomplete-application finding contemporaneously, since that record is precisely what N17's theory depends on, and it signals to any city sitting on an unresolved application -- particularly one that has already drawn the Attorney General's attention -- that continued delay now carries real, quantifiable financial risk."
+      ],
+      judge: null,
+      parties: [
+        { name: "N17 Development", role: "Plaintiff/Developer" },
+        { name: "City of Menlo Park", role: "Defendant" }
+      ],
+      timeline: [
+        { when: "December 2023", label: "N17 submits the Willow Park application under California's Builder's Remedy" },
+        { when: "August 2026", label: "California Attorney General Rob Bonta sends Menlo Park a warning letter alleging housing-law violations" },
+        { when: "October 2, 2026", label: "N17 sues the City of Menlo Park in San Mateo County Superior Court", current: true }
+      ],
+      tags: ["zoning", "builders-remedy", "housing-law", "california", "mixed-use-development"]
     }
   ],
 
