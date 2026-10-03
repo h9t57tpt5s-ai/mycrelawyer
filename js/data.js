@@ -16,7 +16,7 @@ const RELAW_DATA = {
      Drives the homepage's "New Today" pill: it only shows when this
      equals the visitor's local today. Updated by the digest automation
      each time Step 4 successfully adds a case — never touched otherwise. */
-  lastUpdatedDate: "2026-10-02",
+  lastUpdatedDate: "2026-10-03",
   categories: [
     { id: "landlord-tenant", label: "Landlord–Tenant", color: "var(--cat-landlord)" },
     { id: "zoning-land-use", label: "Zoning & Land Use", color: "var(--cat-zoning)" },
@@ -7199,6 +7199,70 @@ const RELAW_DATA = {
         { name: "Vesta Realty, LLC", role: "Defendant" }
       ],
       tags: ["securities", "multifamily", "oklahoma", "subpoena-enforcement", "vesta realty"]
+    },
+    {
+      id: "live-216",
+      addedDate: "2026-10-03",
+      title: "University Campus Hotel Fund, L.P. Chapter 11 Petition (C.D. Cal.)",
+      category: "lending-foreclosure",
+      status: "filed",
+      date: "2026-10-02",
+      jurisdiction: "United States Bankruptcy Court, Central District of California",
+      state: "CA",
+      amount: "Undisclosed (financial details not yet public)",
+      source: "live",
+      sourceUrl: "https://www.courtlistener.com/docket/74911571/university-campus-hotel-fund-lp-a-california-l/",
+      summary: "University Campus Hotel Fund, L.P. filed a Chapter 11 petition on October 2, 2026 in the United States Bankruptcy Court for the Central District of California, case number 6:26-bk-18337. This entry reflects only what the federal court docket shows; no independent news coverage of the filing was available at the time it was added to this tracker.",
+      significance: "Single-asset and small-fund real estate entities carrying \"Hotel Fund\" or \"Properties\" in their name make up a meaningful share of the current wave of small commercial Chapter 11 filings tied to distressed acquisition or construction debt. This tracker will add further detail as public reporting or additional docket activity becomes available.",
+      body: [
+        "University Campus Hotel Fund, L.P. filed a Chapter 11 petition on October 2, 2026 in the United States Bankruptcy Court for the Central District of California, docketed as case number 6:26-bk-18337. As of this entry, no news coverage of the filing's underlying circumstances -- the nature of the debtor's property, its lender, or the cause of the filing -- had been published, so this record is limited to what the court docket itself shows.",
+        "California limited partnerships organized around a single hotel or hospitality-adjacent project file Chapter 11 petitions of this kind regularly, and they make up a meaningful share of the current wave of small commercial bankruptcy filings tied to distressed acquisition, construction, or maturity debt. This tracker will update this entry, or add a related one, if further docket activity or independent reporting clarifies the debtor's property, its lender, and the circumstances of the filing."
+      ],
+      judge: null,
+      parties: [
+        { name: "University Campus Hotel Fund, L.P.", role: "Debtor" }
+      ],
+      amountUsd: null,
+      propertyType: "Hospitality",
+      docketUrl: "https://www.courtlistener.com/docket/74911571/university-campus-hotel-fund-lp-a-california-l/",
+      docketLabel: "CourtListener docket",
+      tags: ["chapter-11", "bankruptcy", "single-asset-entity", "california", "hospitality"]
+    },
+    {
+      id: "live-217",
+      addedDate: "2026-10-03",
+      featured: true,
+      title: "Zammuto v. Damianidis (Massachusetts Appeals Court Holds Emailed Settlement Binding, Orders $100K Paid)",
+      category: "zoning-land-use",
+      status: "ruling",
+      date: "2026-10-01",
+      jurisdiction: "Massachusetts Appeals Court",
+      state: "MA",
+      propertyType: "Multifamily",
+      amount: "$100,000 settlement payment enforced",
+      amountUsd: 100000,
+      amountBasis: "settlement",
+      source: "live",
+      sourceUrl: "https://www.law360.com/real-estate-authority/other/articles/2532698/developer-bound-by-emailed-settlement-offer-court-says",
+      documentUrl: "https://caselaw.findlaw.com/court/ma-court-of-appeals/119399.html",
+      documentLabel: "Read the Appeals Court's opinion",
+      summary: "The Massachusetts Appeals Court ruled on October 1, 2026 that two property owners were bound by a settlement reached almost entirely through email exchanges between counsel, and must pay $100,000 to the developer who had agreed to buy their land for an apartment project before a title dispute derailed the sale. The court held the sellers could not avoid the payment by withdrawing from a related sale to a third-party buyer that the settlement's payment term depended on, since the sellers themselves caused that sale to fail.",
+      significance: "The decision confirms that settlement terms confirmed by email between counsel -- without a final, fully executed multi-party document -- can be binding once the parties' conduct shows mutual assent, a practical risk for any real estate litigator negotiating a multi-party settlement informally. It also shows that a party who controls whether a dependent transaction closes cannot rely on that transaction's failure, if self-inflicted, as an excuse to avoid a settlement payment built around it.",
+      body: [
+        "A Massachusetts Appeals Court ruling handed down October 1, 2026, in Zammuto v. Damianidis, held that two property owners were bound to pay $100,000 under a settlement reached almost entirely through back-and-forth emails between counsel, and that they could not escape that obligation simply by declining to go through with the underlying real estate sale the settlement was built around.",
+        "The case began as a failed development deal. Paul and Irene Damianidis owned two adjacent parcels in Ashland, Massachusetts, each held through a separate realty trust. Charles Zammuto agreed to buy both properties to build an apartment building, and in the course of that deal obtained the special permits the project needed. Before closing, a title defect surfaced: a 12-foot strip of land between the two parcels had an unresolved ownership question. Zammuto offered to split the cost of clearing the title problem so the sale could proceed; the Damianidises instead walked away from the transaction, and Zammuto sued.",
+        "Litigation produced a three-way settlement rather than a simple damages award: a third entity, Evolution, would purchase the properties from the Damianidises; Zammuto's special permits for the apartment project would transfer to Evolution; and Zammuto would be paid $100,000 out of the sale proceeds at closing in exchange for dismissing his claims. The record shows that deal moving forward almost entirely over email -- Evolution's principal's attorney approved the terms by email on November 12, 2021; the Damianidises signed and emailed on November 16 asking how to handle execution; and Zammuto signed in person on November 23, with Hanzi's attorney emailing that same morning to show he had already begun preparing the paperwork to transfer the site plan approval. The one signature still missing was Evolution's own, and before it was obtained, the Damianidises pulled out of the sale to Evolution altogether.",
+        "The Appeals Court rejected the Damianidises' position that nothing had been agreed without a fully executed four-party document. It held that the email exchanges, the Damianidises' own signature, and the parties' conduct afterward were enough to establish mutual assent to a settlement with definite terms. The court also found the Damianidises bore an implied obligation to make a good-faith effort to see the underlying sale through, since the $100,000 payment was structured to come from its proceeds -- and having undermined that sale themselves, they could not point to its failure as an excuse to avoid paying.",
+        "For commercial real estate practitioners, the ruling is a reminder that courts increasingly treat email exchanges between counsel as capable of forming binding settlement agreements once core terms are confirmed and the parties begin acting consistently with them, so a party that wants to preserve a right to walk away before formal signing needs to say so explicitly in the correspondence itself rather than assume the formalities will protect it later; the decision also cautions sellers in multi-party settlements against assuming that killing a related, dependent transaction they themselves control will excuse a payment obligation the settlement was built around."
+      ],
+      judge: null,
+      parties: [],
+      timeline: [
+        { when: "November 2021", label: "Parties negotiate a settlement agreement by email after a title dispute derails Zammuto's planned apartment-building purchase" },
+        { when: "November 23, 2021", label: "Zammuto signs the settlement agreement; the Damianidises later withdraw from the dependent sale to third-party buyer Evolution before it is completed" },
+        { when: "October 1, 2026", label: "Massachusetts Appeals Court holds the Damianidises bound to pay $100,000 under the settlement", current: true }
+      ],
+      tags: ["zoning", "settlement-agreement", "contract-formation", "massachusetts", "apartment-development"]
     }
   ],
 
