@@ -1,7 +1,15 @@
 {
- "updatedAt": "2026-10-04T01:56:34+00:00",
+ "updatedAt": "2026-10-04T15:58:42+00:00",
  "about": "Real estate and construction Chapter 11 petitions filed in the last four days, from federal court records via CourtListener. Same name test as bankruptcy-watch.html. Business debtors only.",
  "filings": [
+  {
+   "caseName": "KYLE PLUMBING II, INC.",
+   "court": "United States Bankruptcy Court, S.D. Florida.",
+   "docketNumber": "26-23297",
+   "dateFiled": "2026-10-04",
+   "docketUrl": "https://www.courtlistener.com/docket/74914230/kyle-plumbing-ii-inc/",
+   "type": "Chapter 11 petition"
+  },
   {
    "caseName": "Welco Electrical Contractors, LLC",
    "court": "United States Bankruptcy Court, W.D. Arkansas",
