@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-03T14:23:02+00:00",
+ "updatedAt": "2026-10-04T14:54:45+00:00",
  "source": "CourtListener RECAP archive (federal courts only). Entries appear when CourtListener receives them, so some are late or missing.",
  "requestsUsed": 8,
  "errors": [],
@@ -103,6 +103,25 @@
    "docketNumber": "3:23-md-03071",
    "dateTerminated": null,
    "url": "https://www.courtlistener.com/docket/67174489/in-re-realpage-inc-rental-software-antitrust-litigation-no-ii/",
+   "lastEntryDate": "2026-10-02"
+  },
+  "67356054": {
+   "entries": [
+    {
+     "date": "2026-10-02",
+     "number": 148,
+     "text": "Order on Motion for Leave to Appear Pro Hac Vice",
+     "url": "https://www.courtlistener.com/docket/67356054/148/cornish-adebiyi-v-caesars-entertainment-inc/",
+     "ruling": false
+    }
+   ],
+   "caseIds": [
+    "live-220"
+   ],
+   "court": "D.N.J.",
+   "docketNumber": "1:23-cv-02536",
+   "dateTerminated": "2024-09-30",
+   "url": "https://www.courtlistener.com/docket/67356054/cornish-adebiyi-v-caesars-entertainment-inc/",
    "lastEntryDate": "2026-10-02"
   },
   "67940311": {
@@ -339,6 +358,13 @@
   "70189262": {
    "entries": [
     {
+     "date": "2026-10-03",
+     "number": 48,
+     "text": "Letter Motion",
+     "url": "https://www.courtlistener.com/docket/70189262/48/united-states-v-schuster/",
+     "ruling": false
+    },
+    {
      "date": "2026-10-02",
      "number": 47,
      "text": "Letter",
@@ -381,7 +407,7 @@
    "docketNumber": "1:25-cr-00204",
    "dateTerminated": null,
    "url": "https://www.courtlistener.com/docket/70189262/united-states-v-schuster/",
-   "lastEntryDate": "2026-10-02"
+   "lastEntryDate": "2026-10-03"
   },
   "70689952": {
    "entries": [],
@@ -1230,6 +1256,13 @@
   "74853746": {
    "entries": [
     {
+     "date": "2026-10-03",
+     "number": 9,
+     "text": "BNC Certificate of Mailing - Meeting of Creditors",
+     "url": "https://www.courtlistener.com/docket/74853746/9/moyvane-arabian-properties-llc/",
+     "ruling": false
+    },
+    {
      "date": "2026-09-30",
      "number": 8,
      "text": "Certificate of Service",
@@ -1279,7 +1312,7 @@
    "docketNumber": "26-12472",
    "dateTerminated": null,
    "url": "https://www.courtlistener.com/docket/74853746/moyvane-arabian-properties-llc/",
-   "lastEntryDate": "2026-09-30"
+   "lastEntryDate": "2026-10-03"
   },
   "74855344": {
    "entries": [
@@ -1420,6 +1453,20 @@
   "74866310": {
    "entries": [
     {
+     "date": "2026-10-04",
+     "number": 16,
+     "text": "BNC Certificate of Mailing - Hearing Notice (BK)",
+     "url": "https://www.courtlistener.com/docket/74866310/16/mw-properties-orlando-llc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-10-04",
+     "number": 15,
+     "text": "BNC Certificate of Mailing - Meeting of Creditors",
+     "url": "https://www.courtlistener.com/docket/74866310/15/mw-properties-orlando-llc/",
+     "ruling": false
+    },
+    {
      "date": "2026-10-03",
      "number": 14,
      "text": "BNC Certificate of Mailing - Notice to Creditors and Parties in Interest",
@@ -1460,20 +1507,6 @@
      "text": "Notice of Deficient Filing (BK)",
      "url": "https://www.courtlistener.com/docket/74866310/7/mw-properties-orlando-llc/",
      "ruling": false
-    },
-    {
-     "date": "2026-09-29",
-     "number": 5,
-     "text": "Order Authorizing DIP to Operate Business",
-     "url": "https://www.courtlistener.com/docket/74866310/5/mw-properties-orlando-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-09-29",
-     "number": 4,
-     "text": "Certificate of Authorization to File Bankruptcy Petition",
-     "url": "https://www.courtlistener.com/docket/74866310/4/mw-properties-orlando-llc/",
-     "ruling": false
     }
    ],
    "caseIds": [
@@ -1483,7 +1516,7 @@
    "docketNumber": "6:26-bk-07563",
    "dateTerminated": null,
    "url": "https://www.courtlistener.com/docket/74866310/mw-properties-orlando-llc/",
-   "lastEntryDate": "2026-10-03"
+   "lastEntryDate": "2026-10-04"
   },
   "74867047": {
    "entries": [
@@ -1620,6 +1653,32 @@
    "dateTerminated": null,
    "url": "https://www.courtlistener.com/docket/74874313/6363-west-73rd-street-llc/",
    "lastEntryDate": "2026-10-02"
+  },
+  "74903821": {
+   "entries": [
+    {
+     "date": "2026-10-01",
+     "number": 3,
+     "text": "Impose Automatic Stay",
+     "url": "https://www.courtlistener.com/docket/74903821/3/ppw-realty-1414-w-3rd-st-llc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-10-01",
+     "number": 1,
+     "text": "Voluntary Petition (Chapter 11)",
+     "url": "https://www.courtlistener.com/docket/74903821/1/ppw-realty-1414-w-3rd-st-llc/",
+     "ruling": false
+    }
+   ],
+   "caseIds": [
+    "live-218"
+   ],
+   "court": "Bankr. D.N.J.",
+   "docketNumber": "26-21190",
+   "dateTerminated": null,
+   "url": "https://www.courtlistener.com/docket/74903821/ppw-realty-1414-w-3rd-st-llc/",
+   "lastEntryDate": "2026-10-01"
   },
   "74911571": {
    "entries": [
