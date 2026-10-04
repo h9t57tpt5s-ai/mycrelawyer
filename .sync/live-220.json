@@ -1,0 +1,16 @@
+{
+  "id": "live-220",
+  "title": "Cornish-Adebiyi v. Caesars Entertainment, Inc. (Atlantic City Hotel-Casino Algorithmic Price-Fixing Antitrust Suit)",
+  "category": "landlord-tenant",
+  "status": "appeal",
+  "date": "2026-10-02",
+  "jurisdiction": "U.S. Court of Appeals for the Third Circuit; U.S. District Court, District of New Jersey (Camden Vicinage)",
+  "state": "NJ",
+  "amount": "Putative consumer class action over room rates at 5 Atlantic City casino-hotels",
+  "source": "live",
+  "source_url": "https://www.mlex.com/mlex/antitrust/articles/2533478",
+  "summary": "The Third Circuit denied a petition for rehearing en banc on October 2, 2026, leaving in place its July 29, 2026 ruling that revived a putative antitrust class action alleging Caesars Entertainment, MGM Resorts, Hard Rock, Tropicana, Borgata operator Marina District Development, and software vendor Cendyn Group used Cendyn's Rainmaker revenue-management platform to coordinate Atlantic City hotel room rates. The case, filed by a class of hotel guests, had been dismissed with prejudice by the district court in September 2024 before the Third Circuit reversed and remanded it for further proceedings.",
+  "significance": "Extends the RealPage-style hub-and-spoke algorithmic pricing theory from multifamily rent-setting into hospitality room-rate pricing, giving plaintiffs a precedential circuit-court win they can cite against any commercial property sector that relies on shared, vendor-provided pricing software. The Third Circuit's approach also deepens a circuit split with the Ninth Circuit on a comparable Las Vegas pricing-algorithm case, meaning litigation risk for operators using shared revenue-management tools may now turn heavily on which circuit a case is filed in.",
+  "judge": "Theodore A. McKee",
+  "tags": ["antitrust", "hub-and-spoke", "algorithmic-pricing", "hospitality", "cendyn"]
+}

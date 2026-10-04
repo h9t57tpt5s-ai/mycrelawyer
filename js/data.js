@@ -16,7 +16,7 @@ const RELAW_DATA = {
      Drives the homepage's "New Today" pill: it only shows when this
      equals the visitor's local today. Updated by the digest automation
      each time Step 4 successfully adds a case — never touched otherwise. */
-  lastUpdatedDate: "2026-10-03",
+  lastUpdatedDate: "2026-10-04",
   categories: [
     { id: "landlord-tenant", label: "Landlord–Tenant", color: "var(--cat-landlord)" },
     { id: "zoning-land-use", label: "Zoning & Land Use", color: "var(--cat-zoning)" },
@@ -7327,6 +7327,51 @@ const RELAW_DATA = {
         { when: "October 2, 2026", label: "N17 sues the City of Menlo Park in San Mateo County Superior Court", current: true }
       ],
       tags: ["zoning", "builders-remedy", "housing-law", "california", "mixed-use-development"]
+    },
+    {
+      id: "live-220",
+      addedDate: "2026-10-04",
+      title: "Cornish-Adebiyi v. Caesars Entertainment, Inc. (Atlantic City Hotel-Casino Algorithmic Price-Fixing Antitrust Suit)",
+      category: "landlord-tenant",
+      status: "appeal",
+      date: "2026-10-02",
+      jurisdiction: "U.S. Court of Appeals for the Third Circuit; U.S. District Court, District of New Jersey (Camden Vicinage)",
+      state: "NJ",
+      amount: "Putative consumer class action over room rates at 5 Atlantic City casino-hotels",
+      amountUsd: null,
+      source: "live",
+      sourceUrl: "https://www.mlex.com/mlex/antitrust/articles/2533478",
+      summary: "The Third Circuit denied a petition for rehearing en banc on October 2, 2026, leaving in place its July 29, 2026 ruling that revived a putative antitrust class action alleging Caesars Entertainment, MGM Resorts, Hard Rock, Tropicana, Borgata operator Marina District Development, and software vendor Cendyn Group used Cendyn's Rainmaker revenue-management platform to coordinate Atlantic City hotel room rates. The case, filed by a class of hotel guests, had been dismissed with prejudice by the district court in September 2024 before the Third Circuit reversed and remanded it for further proceedings.",
+      significance: "Extends the RealPage-style hub-and-spoke algorithmic pricing theory from multifamily rent-setting into hospitality room-rate pricing, giving plaintiffs a precedential circuit-court win they can cite against any commercial property sector that relies on shared, vendor-provided pricing software. The Third Circuit's approach also deepens a circuit split with the Ninth Circuit on a comparable Las Vegas pricing-algorithm case, meaning litigation risk for operators using shared revenue-management tools may now turn heavily on which circuit a case is filed in.",
+      body: [
+        "Atlantic City's largest casino-hotel operators have lost their bid to have the full U.S. Court of Appeals for the Third Circuit reconsider a decision that revived a price-fixing lawsuit over how they set hotel room rates. On October 2, 2026, the Third Circuit denied a petition for rehearing en banc in Cornish-Adebiyi v. Caesars Entertainment, Inc., leaving intact a July 29, 2026 panel ruling that reversed dismissal of the case and remanded it to the district court for further proceedings.",
+        "The case, filed in May 2023 in the U.S. District Court for the District of New Jersey, accuses Caesars Entertainment, Inc., Boardwalk Regency LLC, Harrah's Atlantic City Operating Company, LLC, Tropicana Atlantic City Corporation, MGM Resorts International, Marina District Development Company, LLC (operator of the Borgata Hotel Casino & Spa), Hard Rock International, Inc., Seminole Hard Rock Support Services, LLC, and Boardwalk 1000, LLC of conspiring to fix hotel room rates in violation of Section 1 of the Sherman Act. The alleged mechanism is Cendyn Group, LLC's Rainmaker revenue-management platform, which the complaint says collected non-public pricing and occupancy data from the participating casino-hotels and used it to generate room-rate recommendations the properties then adopted roughly 90% of the time, departing from a recommended price only through a documented internal override process.",
+        "A putative class of hotel guests who rented rooms at the defendant properties alleged the arrangement functioned as a hub-and-spoke conspiracy, with Cendyn's software as the hub coordinating pricing among casino-hotel spokes that would otherwise compete independently. U.S. District Judge Karen M. Williams dismissed the complaint with prejudice on September 30, 2024, holding that plaintiffs had not plausibly alleged the parallel pricing conduct or pooled proprietary data needed to distinguish lawful, independent use of a common vendor from an unlawful agreement to restrain trade.",
+        "On appeal, a Third Circuit panel of Circuit Judges Restrepo, McKee, and Smith disagreed. In a precedential opinion authored by Judge McKee, the panel held that the complaint's allegations, taken as true, plausibly supported a horizontal price-fixing conspiracy facilitated by the shared pricing algorithm, pointing in particular to the roughly 90% adoption rate of Rainmaker's recommendations combined with the exchange of competitively sensitive data through a common platform. Commentators have noted the ruling places the Third Circuit at odds with a Ninth Circuit decision reaching a different result in a comparable Las Vegas algorithmic-pricing case, deepening a circuit split over how courts treat shared revenue-management software under antitrust law.",
+        "With rehearing now denied, the case returns to the District of New Jersey for further proceedings on the merits, including discovery into how widely Rainmaker's recommendations were followed and what data flowed into the algorithm from each defendant. For owners and operators of any commercial property that prices space, rooms, or units using a shared or third-party algorithmic tool, the ruling is a reminder that legal risk in these arrangements turns less on whether the software itself is lawful and more on how much non-public, competitively sensitive data flows into it and how mechanically an operator follows its output -- and that, given the emerging circuit split, that risk can vary sharply depending on where a case is filed, making a now-routine antitrust audit of any revenue-management vendor relationship worth doing regardless of property type."
+      ],
+      judge: "Theodore A. McKee",
+      parties: [
+        { name: "Caesars Entertainment, Inc.", role: "Defendant" },
+        { name: "Boardwalk Regency LLC", role: "Defendant" },
+        { name: "Harrah's Atlantic City Operating Company, LLC", role: "Defendant" },
+        { name: "Tropicana Atlantic City Corporation", role: "Defendant" },
+        { name: "MGM Resorts International", role: "Defendant" },
+        { name: "Marina District Development Company, LLC", role: "Defendant" },
+        { name: "Hard Rock International, Inc.", role: "Defendant" },
+        { name: "Seminole Hard Rock Support Services, LLC", role: "Defendant" },
+        { name: "Boardwalk 1000, LLC", role: "Defendant" },
+        { name: "Cendyn Group, LLC", role: "Defendant" }
+      ],
+      timeline: [
+        { when: "May 9, 2023", label: "Putative class of hotel guests files suit in the District of New Jersey" },
+        { when: "September 30, 2024", label: "District court dismisses the complaint with prejudice" },
+        { when: "July 29, 2026", label: "Third Circuit reverses dismissal and remands the case" },
+        { when: "October 2, 2026", label: "Third Circuit denies rehearing en banc, leaving the revival in place", current: true }
+      ],
+      tags: ["antitrust", "hub-and-spoke", "algorithmic-pricing", "hospitality", "cendyn"],
+      docketUrl: "https://www.courtlistener.com/docket/67356054/cornish-adebiyi-v-caesars-entertainment-inc/",
+      docketLabel: "CourtListener docket"
     }
   ],
 
@@ -7873,6 +7918,7 @@ const RELAW_DATA = {
     { jurisdiction: "Supreme Court of Wyoming", url: "https://www.wyocourts.gov/supreme-court/" },
     { jurisdiction: "Delaware Court of Chancery", url: "https://courts.delaware.gov/chancery/" },
     { jurisdiction: "U.S. Court of Appeals for the Fourth Circuit", url: "https://www.ca4.uscourts.gov/" },
+    { jurisdiction: "U.S. Court of Appeals for the Third Circuit", url: "https://www.ca3.uscourts.gov/" },
     { jurisdiction: "U.S. Court of Federal Claims", url: "https://www.uscfc.uscourts.gov/" },
     { jurisdiction: "Supreme Court of Ohio", url: "https://www.supremecourt.ohio.gov/" },
     { jurisdiction: "California Court of Appeal, First Appellate District, Division Two", url: "https://www.courts.ca.gov/1dca.htm" },
@@ -7889,6 +7935,14 @@ const RELAW_DATA = {
      court's own biography page, or for federal Article III judges, the
      Federal Judicial Center's Biographical Directory. */
   judges: [
+    {
+      name: "Theodore A. McKee",
+      slug: "theodore-a-mckee",
+      title: "Senior Circuit Judge — authored the panel opinion",
+      court: "U.S. Court of Appeals for the Third Circuit",
+      background: "Nominated by President Clinton in March 1994 to a seat vacated by Judge A. Leon Higginbotham Jr., confirmed that June. Served as Chief Judge of the Third Circuit from 2010 to 2016 and assumed senior status in October 2022. Previously a Pennsylvania state trial judge and an Assistant U.S. Attorney.",
+      bioUrl: "https://www.fjc.gov/history/judges/mckee-theodore-alexander"
+    },
     {
       name: "Melissa R. DuBose",
       slug: "melissa-r-dubose",
