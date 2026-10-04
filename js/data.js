@@ -7104,17 +7104,17 @@ const RELAW_DATA = {
       addedDate: "2026-10-02",
       title: "Tri-State Insurance Co. of Minnesota v. Namdar Realty Group (Bangor Mall Sprinkler-Failure Default Judgment)",
       category: "premises-liability",
-      status: "pending",
+      status: "ruling",
       date: "2026-09-22",
       jurisdiction: "Penobscot County Superior Court, Maine",
       state: "ME",
       propertyType: "Retail",
-      amount: "$1.3M in destroyed tenant inventory sought",
-      amountUsd: 1300000,
-      amountBasis: "damages sought",
+      amount: "$1.1M default judgment entered",
+      amountUsd: 1100000,
+      amountBasis: "judgment",
       source: "live",
-      sourceUrl: "https://www.bangordailynews.com/2026/09/23/bangor/bangor-police-courts/judge-to-rule-another-bangor-mall-lawsuit/",
-      summary: "Tri-State Insurance Company of Minnesota's subrogation suit against Bangor Mall owner Namdar Realty Group is headed toward a default judgment in Maine state court after Namdar failed to respond to the complaint for roughly three months, including four unanswered letters from the insurer's counsel. The suit seeks to recover more than $1.3 million in inventory destroyed when a sprinkler pipe burst in a vacant former Sears space being used for storage.",
+      sourceUrl: "https://www.bangordailynews.com/2026/10/02/bangor/bangor-police-courts/bangor-mall-owner-must-pay-1-1m-in-another-lawsuit/",
+      summary: "Tri-State Insurance Company of Minnesota's subrogation suit against Bangor Mall owner Namdar Realty Group is headed toward a default judgment in Maine state court after Namdar failed to respond to the complaint for roughly three months, including four unanswered letters from the insurer's counsel. The suit seeks to recover more than $1.3 million in inventory destroyed when a sprinkler pipe burst in a vacant former Sears space being used for storage. On September 24, 2026, Judge Mallonee signed a default judgment ordering Namdar to pay just over $1.1 million to Tri-State; the judgment does not reach sprinkler contractor Maine Fire Protection Systems, which appeared and defended the suit, so that portion of the litigation continues.",
       significance: "The case illustrates how a landlord's building-maintenance failures can generate direct subrogation exposure once a tenant's insurer has paid a claim, and how failing to engage with litigation converts a potentially defensible claim into a default judgment for the full amount sought. It arrives alongside separate city code-enforcement litigation against the same ownership over unresolved property conditions at the same mall.",
       body: [
         "A commercial property owner's failure to answer a lawsuit rarely ends well, and the owner of the Bangor Mall in Bangor, Maine is about to find that out the hard way. In Penobscot County Superior Court, Judge Bruce Mallonee is expected to sign a default judgment order against Namdar Realty Group and its subsidiaries in a subrogation suit brought by Tri-State Insurance Company of Minnesota, after the mall's ownership went unanswered through four separate letters and roughly three months of silence following the complaint.",
@@ -7125,7 +7125,8 @@ const RELAW_DATA = {
       timeline: [
         { when: "February 2023", label: "Ceiling leak and sprinkler pipe burst damage stored inventory in a vacant former Sears space" },
         { when: "June 30, 2026", label: "Tri-State Insurance Co. of Minnesota files subrogation suit against Namdar Realty Group" },
-        { when: "September 22, 2026", label: "Court hears that Namdar has not responded to four letters; insurer to submit a proposed default judgment order", current: true }
+        { when: "September 22, 2026", label: "Court hears that Namdar has not responded to four letters; insurer to submit a proposed default judgment order" },
+        { when: "September 24, 2026", label: "Judge Mallonee signs default judgment ordering Namdar to pay roughly $1.1 million to Tri-State", current: true }
       ],
       judge: "Bruce Mallonee",
       parties: [
@@ -7372,6 +7373,41 @@ const RELAW_DATA = {
       tags: ["antitrust", "hub-and-spoke", "algorithmic-pricing", "hospitality", "cendyn"],
       docketUrl: "https://www.courtlistener.com/docket/67356054/cornish-adebiyi-v-caesars-entertainment-inc/",
       docketLabel: "CourtListener docket"
+    },
+    {
+      id: "live-221",
+      addedDate: "2026-10-04",
+      title: "Republic Bank of Chicago v. Addison Ice, LLC (Ice Arena Receivership Over Alleged Fund Diversion)",
+      category: "lending-foreclosure",
+      status: "pending",
+      date: "2026-09-01",
+      jurisdiction: "18th Judicial Circuit Court (DuPage County), Illinois",
+      state: "IL",
+      amount: "~$9.5M defaulted loan",
+      amountUsd: 9500000,
+      amountBasis: "loan",
+      source: "live",
+      sourceUrl: "https://therealdeal.com/chicago/2026/10/03/receiver-takes-over-addison-ice-arena-amid-10m-foreclosure/",
+      summary: "Republic Bank of Chicago sued Addison Ice, LLC on September 1, 2026 in DuPage County Chancery Court to foreclose on a $9.5 million loan secured by the Addison Ice Arena, a 73,000-square-foot twin-rink complex in suburban Chicago, alleging the owner diverted more than $1 million in facility revenue to family members while leaving rink equipment broken and the roof leaking. Judge Robert G. Gibson has since placed the property into receivership, appointing Matthew Brash of Newpoint Advisors Corporation to take over its operation while the foreclosure case proceeds.",
+      significance: "The case shows how allegations of related-party fund diversion and deferred maintenance can move a lender from a routine foreclosure filing to a fast-tracked receivership that strips an owner of operational control well before any judicial sale. It is also a reminder that commercial real estate distress extends beyond office and multifamily assets into single-purpose recreational and sports facilities, where thin margins and continuous capital needs make diverted revenue especially damaging to collateral value.",
+      body: [
+        "A DuPage County, Illinois judge has placed the Addison Ice Arena, a 73,000-square-foot twin-rink sports complex in suburban Chicago, into court-ordered receivership after its lender accused the property's owner of diverting more than $1 million in facility revenue to family members while the building's roof leaked and its rink equipment fell into disrepair. The order, entered by Judge Robert G. Gibson of the 18th Judicial Circuit Court's Chancery Division, hands day-to-day control of the facility to a court-appointed receiver while a nearly $10 million foreclosure lawsuit filed by Republic Bank of Chicago plays out.",
+        "Republic Bank filed its foreclosure complaint on September 1, 2026, against Addison Ice, LLC, the entity that owns and operates the arena at 475 South Grace Street, alleging that the company defaulted on a $9.5 million commercial loan. The bank's complaint states that roughly $9.5 million remains outstanding in principal, interest, and fees, with additional costs accruing daily until the debt is satisfied. Beyond the bare default, the bank's filings allege a pattern of self-dealing by the property's operator: more than $1 million in facility revenue was allegedly funneled to family members even as the arena's physical condition deteriorated, with broken rink equipment and a leaking roof left unaddressed as the loan approached maturity default.",
+        "Judge Gibson's response was to move quickly to receivership rather than wait for a final foreclosure judgment and sale. He appointed Matthew Brash of Newpoint Advisors Corporation to take over operational and financial control of the arena, which features one Olympic-sized rink and one NHL-sized rink across its 73,000 square feet. That appointment follows a pattern increasingly familiar to distressed commercial real estate: when a lender's counsel can show a secured asset is actively losing value under its current operator's stewardship, a receivership motion is frequently faster and more consequential for the borrower than the foreclosure complaint itself.",
+        "For lenders, the case illustrates why receivership has become such a popular tool in commercial loan workouts. A foreclosure judgment and judicial sale can take months or years to complete, particularly in a state like Illinois where borrowers retain redemption rights, but a receivership motion can be heard and granted in a matter of weeks when a lender can document waste, diversion of collateral proceeds, or deferred maintenance that threatens the collateral's value. Here, the specific allegations against Addison Ice's ownership are precisely the kind of fact pattern courts find persuasive when deciding whether to strip an owner of operational control before a foreclosure sale even reaches the calendar.",
+        "The dispute also reflects the broader reality that commercial real estate distress is not confined to downtown office towers and institutional portfolios. Recreational and sports-facility real estate carries its own operating risk profile: revenue is often seasonal, margins are thin, and physical plant such as ice-making equipment, roofing, and HVAC requires continuous capital investment that a cash-strapped or self-dealing operator may be tempted to defer or divert. Lenders financing owner-operated commercial assets, and the owners who run them, should treat any related-party distributions or deferred capital maintenance as a serious litigation risk once a loan is in or near default: that evidence is frequently what separates a routine foreclosure filing from a fast-tracked receivership that removes the owner from the business long before any foreclosure judgment is entered."
+      ],
+      judge: "Robert G. Gibson",
+      parties: [
+        { name: "Republic Bank of Chicago", role: "Plaintiff" },
+        { name: "Addison Ice, LLC", role: "Defendant" },
+        { name: "Newpoint Advisors Corporation", role: "Receiver" }
+      ],
+      timeline: [
+        { when: "September 1, 2026", label: "Republic Bank of Chicago files foreclosure complaint against Addison Ice, LLC" },
+        { when: "October 3, 2026", label: "Court places the arena into receivership, appointing Matthew Brash of Newpoint Advisors Corporation", current: true }
+      ],
+      tags: ["foreclosure", "receivership", "fund-diversion", "recreational", "illinois"]
     }
   ],
 
