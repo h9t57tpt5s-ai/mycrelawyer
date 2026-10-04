@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-03T15:14:44+00:00",
+ "updatedAt": "2026-10-04T01:56:34+00:00",
  "about": "Real estate and construction Chapter 11 petitions filed in the last four days, from federal court records via CourtListener. Same name test as bankruptcy-watch.html. Business debtors only.",
  "filings": [
   {
@@ -128,30 +128,6 @@
    "docketNumber": "26-16232",
    "dateFiled": "2026-09-30",
    "docketUrl": "https://www.courtlistener.com/docket/74874313/6363-west-73rd-street-llc/",
-   "type": "Chapter 11 petition"
-  },
-  {
-   "caseName": "MW Properties Orlando LLC",
-   "court": "United States Bankruptcy Court, M.D. Florida",
-   "docketNumber": "6:26-bk-07563",
-   "dateFiled": "2026-09-29",
-   "docketUrl": "https://www.courtlistener.com/docket/74866310/mw-properties-orlando-llc/",
-   "type": "Chapter 11 petition"
-  },
-  {
-   "caseName": "63 Spring Lafayette, LLC",
-   "court": "United States Bankruptcy Court, D. Delaware",
-   "docketNumber": "26-11537",
-   "dateFiled": "2026-09-29",
-   "docketUrl": "https://www.courtlistener.com/docket/74867047/63-spring-lafayette-llc/",
-   "type": "Chapter 11 petition"
-  },
-  {
-   "caseName": "106 WASHINGTON AVE LIMITED LIABILITY COMPANY",
-   "court": "United States Bankruptcy Court, D. New Jersey",
-   "docketNumber": "26-21071",
-   "dateFiled": "2026-09-29",
-   "docketUrl": "https://www.courtlistener.com/docket/74871358/106-washington-ave-limited-liability-company/",
    "type": "Chapter 11 petition"
   }
  ]
