@@ -16,7 +16,7 @@ const RELAW_DATA = {
      Drives the homepage's "New Today" pill: it only shows when this
      equals the visitor's local today. Updated by the digest automation
      each time Step 4 successfully adds a case — never touched otherwise. */
-  lastUpdatedDate: "2026-10-04",
+  lastUpdatedDate: "2026-10-05",
   categories: [
     { id: "landlord-tenant", label: "Landlord–Tenant", color: "var(--cat-landlord)" },
     { id: "zoning-land-use", label: "Zoning & Land Use", color: "var(--cat-zoning)" },
@@ -7408,6 +7408,46 @@ const RELAW_DATA = {
         { when: "October 3, 2026", label: "Court places the arena into receivership, appointing Matthew Brash of Newpoint Advisors Corporation", current: true }
       ],
       tags: ["foreclosure", "receivership", "fund-diversion", "recreational", "illinois"]
+    },
+    {
+      id: "live-222",
+      addedDate: "2026-10-05",
+      featured: true,
+      title: "In re American Hospitality Properties REIT, Inc. (Hilton/Marriott Hotel REIT Family's Chapter 11 Filing)",
+      category: "reit-securities",
+      status: "filed",
+      date: "2026-10-04",
+      jurisdiction: "U.S. Bankruptcy Court, N.D. Texas",
+      state: "TX",
+      amount: "$86M underlying Regulation A fraud scheme; 16 jointly administered debtors",
+      amountUsd: 86000000,
+      amountBasis: "other",
+      source: "live",
+      sourceUrl: "https://whatnow.com/news/trending/u-s-hotel-investment-company-files-for-chapter-11-alongside-15-affiliates/",
+      summary: "American Hospitality Properties REIT, Inc. and American Hospitality Properties REIT II, Inc. filed Chapter 11 petitions on October 4, 2026 in the U.S. Bankruptcy Court for the Northern District of Texas, together with 14 other affiliated entities, bringing the jointly administered case to 16 debtors. The filing comes less than four months after the REITs' former external manager, Phoenix American Hospitality, LLC, settled SEC fraud charges tied to an $86 million Regulation A hotel-fund offering, and less than three weeks after investors filed a parallel securities class action over the same conduct. Alan Tantleff was named chief restructuring officer, with Vinson & Elkins LLP as bankruptcy counsel and FTI Consulting as financial advisor.",
+      significance: "The filing shows how quickly SEC enforcement against a non-traded REIT's external manager can cascade into a full Chapter 11 of the REIT entities themselves, with retail investors who bought into the Regulation A offering now facing bankruptcy recovery alongside brand-franchisor creditors. Lenders, hotel brand companies, and investors in similarly structured non-traded REITs should treat a manager-level SEC settlement as an early warning sign of entity-level distress rather than a resolution.",
+      body: [
+        "American Hospitality Properties REIT, Inc. and American Hospitality Properties REIT II, Inc. — two non-traded real estate investment trusts that own a portfolio of Hilton- and Marriott-branded \"premium select business\" hotels — filed Chapter 11 petitions on October 4, 2026 in the U.S. Bankruptcy Court for the Northern District of Texas. They did not file alone: 14 additional affiliated entities, including property-owning and master-lease subsidiaries, filed alongside them, bringing the total number of debtors in the jointly administered proceeding to 16. The filing lands at a particularly fraught moment for the REIT family, coming less than four months after its former external manager settled Securities and Exchange Commission fraud charges and less than three weeks after a private securities class action was filed over the same underlying conduct.",
+        "The REITs' board authorized Alan Tantleff, who has been installed as chief restructuring officer, to guide the Chapter 11 process, with Vinson & Elkins LLP serving as bankruptcy counsel and FTI Consulting acting as financial advisor. That combination of a dedicated restructuring officer and experienced national counsel signals an entity preparing for a contested, multi-party case rather than a quick administrative wind-down, given the overlapping securities exposure already hanging over the same corporate family.",
+        "The roots of the filing trace back to Phoenix American Hospitality, LLC (PAH), the Dallas-based manager that externally managed both REITs. On June 4, 2026, the SEC filed a settled enforcement action against PAH and its president, William Lee \"Perch\" Nelson, alleging the pair raised approximately $86 million from more than 2,000 retail investors between March 2022 and July 2024 through two hotel-focused Regulation A offerings. According to the SEC's complaint, neither fund was ever profitable, investor distributions were largely funded out of returns of their own capital rather than operating income, and one fund held only a preferred equity interest in a single hotel, not the eleven hotels PAH had represented to investors. PAH agreed to pay a $591,127 civil penalty and Nelson agreed to pay $118,225, along with a five-year bar from serving as an officer or director of a public company, without either admitting or denying the SEC's allegations.",
+        "The SEC's settlement did not end the REITs' legal exposure; it set up the next round. On September 16, 2026, the plaintiffs' firm Federman & Sherwood filed Proven Business Skills v. Phoenix American Hospitality, LLC, et al. in the same federal district, naming PAH, Nelson, and both REITs as defendants in a private securities class action seeking damages on behalf of the same investor class the SEC had already found was misled. That suit remains pending and is legally distinct from the REITs' own bankruptcy case, but the two proceedings now run on parallel tracks against an overlapping set of facts and a shrinking pool of assets.",
+        "The Chapter 11 filings reflect a REIT structure now straining under both legacy debt and brand-franchise obligations tied to its hotel operations. Court filings reference claims from Marriott International, Inc., for roughly $1.94 million in outstanding franchise fees, and Hilton Hotels Corporation, for roughly $191,364, underscoring that a non-traded hotel REIT's creditor base extends well beyond its direct lenders to the global brand companies whose flags appear on its properties and whose franchise agreements carry their own strict performance and payment covenants.",
+        "For institutional lenders, hotel brand licensors, and investors working with non-traded REIT structures, this filing is a useful case study in how quickly a Regulation A retail-investor vehicle's legal troubles can cascade: a single SEC enforcement action against an external manager did not resolve the underlying REITs' exposure, it instead triggered a follow-on class action and, within months, a 16-debtor bankruptcy filing that will now determine how much, if anything, retail investors recover. Lenders and franchisors doing business with non-traded, retail-marketed REITs should treat an external manager's SEC settlement as an early warning sign rather than a closing chapter, since the underlying entities' own balance sheets and franchise relationships often remain exposed long after the manager's individual liability is resolved, and investors in similar offerings should scrutinize whether fund-level distributions are being paid from operations or from investor capital itself, a pattern the SEC identified as a central red flag here well before the bankruptcy filing confirmed the funds' distress."
+      ],
+      judge: null,
+      parties: [
+        { name: "American Hospitality Properties REIT, Inc.", role: "Debtor" },
+        { name: "American Hospitality Properties REIT II, Inc.", role: "Debtor" },
+        { name: "Phoenix American Hospitality, LLC", role: "Former External Manager" },
+        { name: "Marriott International, Inc.", role: "Creditor (franchise fees)" },
+        { name: "Hilton Hotels Corporation", role: "Creditor (franchise fees)" }
+      ],
+      timeline: [
+        { when: "June 4, 2026", label: "SEC settles fraud charges against Phoenix American Hospitality and president William Lee Nelson over the $86M Regulation A offering" },
+        { when: "September 16, 2026", label: "Federman & Sherwood files Proven Business Skills v. Phoenix American Hospitality, LLC, et al., a parallel securities class action" },
+        { when: "October 4, 2026", label: "American Hospitality Properties REIT, Inc. and REIT II, plus 14 affiliates, file Chapter 11 in the N.D. Texas bankruptcy court", current: true }
+      ],
+      tags: ["reit", "chapter-11", "hospitality", "sec-fraud", "securities"]
     }
   ],
 
@@ -8344,6 +8384,7 @@ const RELAW_DATA = {
     { name: "Fortress Investment Group", matchTerm: "Fortress", slug: "fortress-investment-group", description: "Multi-strategy alternative asset manager active as a CRE lender, frequently pursuing foreclosure and UCC Article 9 remedies against defaulted commercial borrowers.", website: "https://www.fortress.com" },
     { name: "Brightline", matchTerm: "Brightline", slug: "brightline", description: "Fortress Investment Group-backed private passenger railroad whose station-area real estate is held and developed through a network of affiliated holding and development entities.", website: "https://www.gobrightline.com" },
     { name: "Namdar Realty Group", matchTerm: "Namdar", slug: "namdar-realty-group", description: "Great Neck, New York-based private owner of more than 100 shopping malls and retail centers nationally, frequently named in tenant, insurer, and municipal code-enforcement litigation over property conditions.", website: "https://namdarrealtygroup.com" },
-    { name: "Vesta Realty, LLC", matchTerm: "Vesta Realty", slug: "vesta-realty", description: "Tulsa, Oklahoma-based private multifamily platform that controlled a roughly $1 billion, nearly 10,000-unit apartment portfolio across Oklahoma, Kansas, and Arkansas before its collapse into dozens of investor-fraud, foreclosure, receivership, and regulatory enforcement actions." }
+    { name: "Vesta Realty, LLC", matchTerm: "Vesta Realty", slug: "vesta-realty", description: "Tulsa, Oklahoma-based private multifamily platform that controlled a roughly $1 billion, nearly 10,000-unit apartment portfolio across Oklahoma, Kansas, and Arkansas before its collapse into dozens of investor-fraud, foreclosure, receivership, and regulatory enforcement actions." },
+    { name: "Phoenix American Hospitality", matchTerm: "Phoenix American Hospitality", slug: "phoenix-american-hospitality", description: "Dallas-based external manager of two non-traded hospitality REITs, which settled SEC fraud charges in 2026 over an $86 million Regulation A hotel-fund offering before the REITs themselves filed Chapter 11." }
   ]
 };
