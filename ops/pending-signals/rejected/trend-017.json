@@ -1,0 +1,35 @@
+{
+ "trend": {
+  "id": "trend-017",
+  "title": "CMBS Delinquencies Climb to 8.02% in September as Multifamily Leads Rate Increase",
+  "category": "lending-foreclosure",
+  "date": "2026-10-02",
+  "scope": "National CMBS market",
+  "metric": "8.02% delinquency rate; $48.65 billion past due",
+  "sourceUrl": "https://crenews.com/2026/10/02/large-delinquencies-push-cmbs-late-pays-higher-in-september/",
+  "summary": "Trepp's monthly CMBS surveillance found that the volume of loans more than 30 days delinquent rose $1.23 billion, or 2.6%, in September 2026 to $48.65 billion, pushing the overall delinquency rate to 8.02% of the $606.58 billion universe tracked. The multifamily sector's delinquency rate rose 35 basis points in September, the largest increase of any property type tracked, continuing to drive the broader increase in late payments across the CMBS market.",
+  "significance": "Lenders, special servicers, and borrowers' counsel should treat the continued climb in delinquencies as a leading indicator of more contested foreclosure and workout litigation across property types, not just the office sector that has dominated distress headlines this year. A rising multifamily delinquency rate in particular signals that loan-default litigation risk, long concentrated in office, is broadening into other asset classes.",
+  "tags": [
+   "cmbs",
+   "delinquency",
+   "foreclosure",
+   "multifamily",
+   "lending"
+  ]
+ },
+ "verification": [
+  {
+   "claim": "CMBS delinquency volume rose $1.23 billion, or 2.6%, to $48.65 billion in September 2026, or 8.02% of the $606.58 billion universe tracked",
+   "quote": "The volume of CMBS loans that are more than 30 days late with their payments increased in September by $1.23 billion, or 2.6%, to $48.65 billion, which amounts to 8.02% of the $606.58 billion universe tracked.",
+   "url": "https://crenews.com/2026/10/02/large-delinquencies-push-cmbs-late-pays-higher-in-september/"
+  }
+ ],
+ "rejected": [
+  "could not open https://crenews.com/2026/10/02/large-delinquencies-push-cmbs-late-pays-higher-in-september/: HTTP Error 403: Forbidden",
+  "figure 123 is not in any verified quote",
+  "figure 26 is not in any verified quote",
+  "figure 4865 is not in any verified quote",
+  "figure 60658 is not in any verified quote",
+  "figure 802 is not in any verified quote"
+ ]
+}
