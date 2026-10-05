@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-04T15:58:42+00:00",
+ "updatedAt": "2026-10-05T01:10:10+00:00",
  "about": "Real estate and construction Chapter 11 petitions filed in the last four days, from federal court records via CourtListener. Same name test as bankruptcy-watch.html. Business debtors only.",
  "filings": [
   {
@@ -120,22 +120,6 @@
    "docketNumber": "26-14140",
    "dateFiled": "2026-10-01",
    "docketUrl": "https://www.courtlistener.com/docket/74903158/bell-business-development-llc/",
-   "type": "Chapter 11 petition"
-  },
-  {
-   "caseName": "Anastasi Masonry Construction LLC",
-   "court": "United States Bankruptcy Court, S.D. Florida.",
-   "docketNumber": "26-23054",
-   "dateFiled": "2026-09-30",
-   "docketUrl": "https://www.courtlistener.com/docket/74873422/anastasi-masonry-construction-llc/",
-   "type": "Chapter 11 petition"
-  },
-  {
-   "caseName": "6363 West 73rd Street, LLC",
-   "court": "United States Bankruptcy Court, N.D. Illinois",
-   "docketNumber": "26-16232",
-   "dateFiled": "2026-09-30",
-   "docketUrl": "https://www.courtlistener.com/docket/74874313/6363-west-73rd-street-llc/",
    "type": "Chapter 11 petition"
   }
  ]
