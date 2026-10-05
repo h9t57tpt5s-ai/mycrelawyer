@@ -1,13 +1,53 @@
 {
- "updatedAt": "2026-10-05T01:10:10+00:00",
+ "updatedAt": "2026-10-05T19:49:52+00:00",
  "about": "Real estate and construction Chapter 11 petitions filed in the last four days, from federal court records via CourtListener. Same name test as bankruptcy-watch.html. Business debtors only.",
  "filings": [
+  {
+   "caseName": "Simple Realty Services, LLC",
+   "court": "United States Bankruptcy Court, W.D. Texas",
+   "docketNumber": "26-52815",
+   "dateFiled": "2026-10-05",
+   "docketUrl": "https://www.courtlistener.com/docket/74917933/simple-realty-services-llc/",
+   "type": "Chapter 11 petition"
+  },
+  {
+   "caseName": "PKC Construction Co.",
+   "court": "United States Bankruptcy Court, D. Kansas",
+   "docketNumber": "26-21551",
+   "dateFiled": "2026-10-05",
+   "docketUrl": "https://www.courtlistener.com/docket/74918737/pkc-construction-co/",
+   "type": "Chapter 11 petition"
+  },
+  {
+   "caseName": "DMK Real Estate Holdings LLC",
+   "court": "United States Bankruptcy Court, M.D. Pennsylvania",
+   "docketNumber": "5:26-bk-02893",
+   "dateFiled": "2026-10-05",
+   "docketUrl": "https://www.courtlistener.com/docket/74919063/dmk-real-estate-holdings-llc/",
+   "type": "Chapter 11 petition"
+  },
+  {
+   "caseName": "200 Arpeggio Way LLC",
+   "court": "United States Bankruptcy Court, N.D. Georgia",
+   "docketNumber": "26-63452",
+   "dateFiled": "2026-10-05",
+   "docketUrl": "https://www.courtlistener.com/docket/74919314/200-arpeggio-way-llc/",
+   "type": "Chapter 11 petition"
+  },
   {
    "caseName": "KYLE PLUMBING II, INC.",
    "court": "United States Bankruptcy Court, S.D. Florida.",
    "docketNumber": "26-23297",
    "dateFiled": "2026-10-04",
    "docketUrl": "https://www.courtlistener.com/docket/74914230/kyle-plumbing-ii-inc/",
+   "type": "Chapter 11 petition"
+  },
+  {
+   "caseName": "American Hospitality Properties REIT II, Inc.",
+   "court": "United States Bankruptcy Court, N.D. Texas",
+   "docketNumber": "26-80072",
+   "dateFiled": "2026-10-04",
+   "docketUrl": "https://www.courtlistener.com/docket/74914157/american-hospitality-properties-reit-ii-inc/",
    "type": "Chapter 11 petition"
   },
   {
