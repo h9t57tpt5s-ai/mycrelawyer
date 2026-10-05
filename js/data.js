@@ -7448,6 +7448,41 @@ const RELAW_DATA = {
         { when: "October 4, 2026", label: "American Hospitality Properties REIT, Inc. and REIT II, plus 14 affiliates, file Chapter 11 in the N.D. Texas bankruptcy court", current: true }
       ],
       tags: ["reit", "chapter-11", "hospitality", "sec-fraud", "securities"]
+    },
+    {
+      id: "live-223",
+      addedDate: "2026-10-05",
+      title: "Greater DC Diaper Bank v. WWDC Industrial Park, LLC (Industrial Warehouse Roof-Maintenance Breach Suit)",
+      category: "lease-disputes",
+      status: "pending",
+      date: "2026-08-17",
+      jurisdiction: "U.S. District Court for the District of Columbia",
+      state: "MD",
+      amount: "$775,000+ sought",
+      amountUsd: 775000,
+      amountBasis: "damages sought",
+      source: "live",
+      sourceUrl: "https://wjla.com/news/local/greater-dc-diaper-bank-sues-maryland-silver-spring-landlord-over-leaking-warehouse-roof-seeks-775k-wwdc-industrial-park-llc-donohoe-real-estate-services-inc-legal-court-cases",
+      summary: "The Greater DC Diaper Bank sued its former industrial landlord, WWDC Industrial Park, LLC, and property manager Donohoe Real Estate Services, Inc. on August 17, 2026 in the U.S. District Court for the District of Columbia, alleging a persistently leaking roof at its Silver Spring, Maryland warehouse went unrepaired for years despite more than a dozen notices, damaging inventory and forcing the nonprofit to shut down a donor-funded distribution program and vacate the building. The complaint seeks more than $775,000 in damages for breach of contract; WWDC Industrial Park has counterclaimed for unpaid rent, and both defendants have moved to dismiss.",
+      significance: "The case is a standard illustration of commercial lease maintenance litigation: a landlord's deferred response to a documented, recurring building defect can expose it to damages well beyond repair costs once a tenant can tie the delay to specific operational and financial harm. It also shows the defensive playbook landlords commonly use in response — a rent-based counterclaim paired with a motion to dismiss — to reframe the dispute around the tenant's own lease performance.",
+      body: [
+        "A commercial tenant's breach-of-contract suit against its industrial landlord, now pending in the U.S. District Court for the District of Columbia, shows how a maintenance dispute under a commercial lease can escalate into six-figure litigation long after the underlying defect first appears. The Greater DC Diaper Bank, a nonprofit that distributes diapers and baby supplies across the Washington region, sued WWDC Industrial Park, LLC and its property manager, Donohoe Real Estate Services, Inc., alleging that a persistently leaking roof at its distribution warehouse on Monard Drive in Silver Spring, Maryland went unrepaired for years, ultimately forcing the organization to abandon the space it had occupied since 2013. The case, filed August 17, 2026 and docketed as 1:2026cv02900, asserts diversity-jurisdiction breach-of-contract claims and seeks more than $775,000 in damages.",
+        "Although the plaintiff is a nonprofit rather than a for-profit enterprise, the dispute is a straightforward commercial real estate matter: a business tenant's claims against the owner and manager of an industrial property over the landlord's maintenance obligations under a negotiated commercial lease. According to the complaint, water intruded through the warehouse roof for years despite the Diaper Bank notifying WWDC Industrial Park and Donohoe more than a dozen times. The tenant alleges that whatever repairs were made were either delayed or amounted to temporary patches that failed to stop the leaks permanently, eventually damaging tens of thousands of dollars in stored inventory. The damage proved consequential beyond the physical losses: to avoid health code violations from water intrusion near stored consumables, the Diaper Bank says it was forced to shut down its \"Baby Pantry\" program, which provided food, formula, diapers, wipes, and bathtubs to families in need, costing the organization more than $600,000 in associated donor contributions.",
+        "The defendants have pushed back. WWDC Industrial Park has filed a counterclaim alleging that the Diaper Bank itself breached the lease by failing to pay rent, and both WWDC Industrial Park and Donohoe have moved to dismiss the complaint outright. Those pending motions mean the case's ultimate trajectory — whether it proceeds to discovery on the merits of the maintenance claims, gets narrowed, or is dismissed in whole or part — remains unresolved.",
+        "Commercial leases routinely allocate roof and structural maintenance responsibility to the landlord while shifting day-to-day upkeep to the tenant, but disputes over where that line falls, and over how long a landlord can take to address a known, recurring defect, are among the most common sources of commercial lease litigation nationally. A pattern of repeated tenant notices without a permanent fix can become powerful evidence in later litigation: more than a dozen documented complaints create a paper trail that will be difficult for a landlord to characterize as an isolated or unforeseeable problem. Consequential damages, here the loss of a specific program and its associated donor revenue rather than just the value of damaged inventory, can meaningfully expand a landlord's exposure beyond simple repair-cost reimbursement if a tenant can tie those losses to the landlord's delay with sufficient specificity. The landlord's decision to counterclaim for unpaid rent is also a familiar defensive posture in commercial lease litigation, intended to offset or complicate a tenant's damages claim by putting the tenant's own performance at issue.",
+        "For industrial landlords and third-party property managers, the case is a reminder that deferring a maintenance fix to save money in the short term can generate liability well beyond the cost of the repair itself once a tenant's operations are disrupted, and that commercial tenants evaluating a maintenance-failure claim should build a contemporaneous record of written notices, repair invoices, and documentation tying a landlord's delay to specific, quantifiable operational losses, since consequential-damages claims typically demand more specificity than a simple property-damage claim. A landlord facing such a suit should weigh early whether a rent-based counterclaim is viable, both to offset exposure and to shift the litigation's focus onto the tenant's own performance, while all parties to a similar dispute should treat the outcome here as unsettled until the pending motions to dismiss are resolved, since the case so far reflects only the parties' competing allegations rather than any judicial finding on the merits."
+      ],
+      judge: null,
+      parties: [
+        { name: "Greater DC Diaper Bank", role: "Plaintiff" },
+        { name: "WWDC Industrial Park, LLC", role: "Defendant/Landlord" },
+        { name: "Donohoe Real Estate Services, Inc.", role: "Defendant/Property Manager" }
+      ],
+      timeline: [
+        { when: "2013", label: "Greater DC Diaper Bank begins leasing warehouse space at the Silver Spring, MD industrial park" },
+        { when: "August 17, 2026", label: "Diaper Bank files breach-of-contract suit in U.S. District Court for the District of Columbia", current: true }
+      ],
+      tags: ["commercial-lease", "industrial", "breach-of-contract", "maryland", "property-maintenance"]
     }
   ],
 
