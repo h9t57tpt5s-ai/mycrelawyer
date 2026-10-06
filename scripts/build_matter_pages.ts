@@ -134,6 +134,12 @@ function mainFor(c: Case): string {
   const hasMore = (c.body && c.body.length) || (c.timeline && c.timeline.length);
   const sameCat = related(c, (x) => x.category === c.category, 5);
   const sameState = c.state ? related(c, (x) => x.state === c.state && !sameCat.includes(x), 5) : [];
+  const recent = data.cases.filter((x) => x.id !== c.id)
+    .sort((a, b) => ((b.addedDate || b.date) > (a.addedDate || a.date) ? 1 : -1)).slice(0, 5);
+  const first = c.body && c.body.length ? c.body[0] : "";
+  const tl = (c.timeline || []) as { when: string; label: string; current?: boolean }[];
+  const latest = tl.length ? (tl.find((ev) => ev.current) || tl[tl.length - 1]) : null;
+  const watch = { name: `${k.label}${stateName ? ` — ${stateName}` : ""}`, categories: [c.category], states: c.state ? [c.state] : [] };
   const share = encodeURIComponent(url(c));
   return `<main id="main-content" tabindex="-1">
 
@@ -162,18 +168,31 @@ function mainFor(c: Case): string {
 
     <div id="matter-court" data-docket-url="${esc(c.docketUrl || "")}" data-matter-id="${esc(c.id)}"></div>
 
+    ${hasMore ? `${first ? `<div class="gate-teaser matter-teaser"><p class="body-text">${first}</p></div>` : ""}
+    ${latest ? `<p class="gate-timeline-peek"><span>Case timeline · ${tl.length} ${tl.length === 1 ? "entry" : "entries"}</span> Latest: ${latest.when} — ${latest.label}</p>` : ""}` : ""}
+
     <div class="matter-cta-row">
-      ${hasMore ? `<div class="card matter-cta">
-        <div class="eyebrow">Free with an account</div>
-        <h2 class="matter-h2">Read the full write-up${c.timeline && c.timeline.length ? " and case timeline" : ""}</h2>
-        <p class="text-secondary">The complete analysis of this matter, with its procedural history and practical takeaways.</p>
-        <a class="btn btn-primary btn-sm" href="/litigation.html?case=${esc(c.id)}">Open the full matter</a>
+      ${hasMore ? `<div class="card matter-cta" id="matter-keep-reading" data-case-id-target="${esc(c.id)}">
+        <div class="eyebrow">Free account · no password needed</div>
+        <h2 class="matter-h2">Keep reading</h2>
+        <p class="text-secondary">A free account unlocks every full write-up and case timeline on CREdocket, plus email alerts when matters like this are filed.</p>
+        <form class="gate-form" id="matter-gate-form" novalidate>
+          <label class="sr-only" for="matter-gate-email">Email address</label>
+          <input type="email" id="matter-gate-email" autocomplete="email" placeholder="you@company.com" />
+          <button type="submit" class="btn btn-primary btn-sm">Email me a sign-in link</button>
+        </form>
+        <p class="gate-form-status" id="matter-gate-status" role="status"></p>
+        <p class="gate-alt">Already have an account? <a href="/litigation.html?case=${esc(c.id)}" id="matter-open-full">Open the full matter</a></p>
       </div>` : ""}
-      <div class="card matter-cta">
+      <div class="card matter-cta alert-box" data-alert-box data-watchlist="${esc(JSON.stringify(watch))}">
         <div class="eyebrow">Alerts</div>
-        <h2 class="matter-h2">Get an email when a matter like this is filed</h2>
-        <p class="text-secondary">Set up a free watchlist for ${esc(k.label.toLowerCase())}${stateName ? ` matters in ${esc(stateName)}` : " matters"}, or for the tenants, borrowers and guarantors in your portfolio.</p>
-        <a class="btn btn-ghost btn-sm" href="/account.html#watchlists">Create a watchlist</a>
+        <h2 class="matter-h2">Get an email when new ${esc(k.label.toLowerCase())} matters${stateName ? ` in ${esc(stateName)}` : ""} are filed</h2>
+        <form class="gate-form" data-alert-form novalidate>
+          <label class="sr-only" for="matter-alert-email">Email address</label>
+          <input type="email" id="matter-alert-email" autocomplete="email" placeholder="you@company.com" />
+          <button type="submit" class="btn btn-ghost btn-sm">Create alert</button>
+        </form>
+        <p class="gate-form-status" data-alert-status role="status"></p>
       </div>
     </div>
 
@@ -190,6 +209,9 @@ function mainFor(c: Case): string {
     ${sameState.length ? `<h2 class="matter-h2" style="margin-top:32px;">Other matters in ${esc(stateName)}</h2>
     <ul class="matter-related">${relatedList(sameState)}
     </ul>` : ""}
+    <h2 class="matter-h2" style="margin-top:32px;">Recently added</h2>
+    <ul class="matter-related">${relatedList(recent)}
+    </ul>
     <p class="text-muted matter-foot">CREdocket summarizes public court records and reporting; see our <a href="/methodology.html#standards">sourcing standards</a> and <a href="/corrections.html">corrections log</a>. Not legal advice. Facing something similar? <a href="/contact.html?matter=${encodeURIComponent(plain(c.title))}">Contact us</a>.</p>
   </div>
 </section>

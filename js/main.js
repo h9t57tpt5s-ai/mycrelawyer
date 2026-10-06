@@ -644,6 +644,80 @@
     });
   }
 
+  /* ---------- Keep reading: related, new this week, one-field alerts ----------
+     Shown under every matter in the panel (2026-10-06: 11 of ~460 visits
+     looked at a second page). Matter pages build the same lists at build
+     time (scripts/build_matter_pages.ts). */
+  function relatedMatters(c, n) {
+    const same = RELAW_DATA.cases.filter((x) => x.id !== c.id && x.category === c.category);
+    const byDate = (a, b) => (b.date > a.date ? 1 : -1);
+    const local = same.filter((x) => c.state && x.state === c.state).sort(byDate);
+    const rest = same.filter((x) => !local.includes(x)).sort(byDate);
+    return [...local, ...rest].slice(0, n);
+  }
+  function newThisWeek(c, n) {
+    return RELAW_DATA.cases.filter((x) => x.id !== c.id)
+      .sort((a, b) => ((b.addedDate || b.date) > (a.addedDate || a.date) ? 1 : -1)).slice(0, n);
+  }
+  function chipList(list) {
+    return `<ul class="keep-list">${list.map((x) => `<li><a class="case-link" href="/matters/${x.id}.html" data-case-id="${x.id}">${x.title}</a><span>${formatDate(x.date)}</span></li>`).join("")}</ul>`;
+  }
+  function alertTarget(c) {
+    const cat = categoryById(c.category);
+    const stateName = c.state && RELAW_DATA.states ? RELAW_DATA.states[c.state] : "";
+    return {
+      label: `${cat ? cat.label : "these"} matters${stateName ? ` in ${stateName}` : ""}`,
+      watchlist: { name: `${cat ? cat.label : c.category}${stateName ? ` — ${stateName}` : ""}`, categories: [c.category], states: c.state ? [c.state] : [] },
+    };
+  }
+  function keepReadingHtml(c) {
+    const t = alertTarget(c);
+    return `
+        <div class="keep-reading">
+          <div class="alert-box" data-alert-box>
+            <div class="eyebrow">Alerts</div>
+            <h3>Get an email when new ${escapeHtml(t.label)} are filed</h3>
+            <form class="gate-form" data-alert-form novalidate>
+              <label class="sr-only" for="alert-email-${c.id}">Email address</label>
+              <input type="email" id="alert-email-${c.id}" autocomplete="email" placeholder="you@company.com" />
+              <button type="submit" class="btn btn-ghost btn-sm">Create alert</button>
+            </form>
+            <p class="gate-form-status" data-alert-status role="status"></p>
+          </div>
+          <h3>Related matters</h3>
+          ${chipList(relatedMatters(c, 4))}
+          <h3>Recently added</h3>
+          ${chipList(newThisWeek(c, 4))}
+        </div>`;
+  }
+  // Signed in: one click creates the watchlist. Signed out: the email gets a
+  // sign-in link, and the watchlist is created when they come back.
+  function wireAlertBox(root, c) {
+    const box = root.querySelector("[data-alert-box]");
+    if (!box || !window.RELAW_AUTH) return;
+    const t = alertTarget(c);
+    const form = box.querySelector("[data-alert-form]");
+    const input = form.querySelector("input");
+    const status = box.querySelector("[data-alert-status]");
+    const signedIn = !!window.RELAW_AUTH.getSession();
+    if (signedIn) { input.hidden = true; form.querySelector("button").textContent = "Create this alert"; }
+    form.addEventListener("submit", async (e) => {
+      e.preventDefault();
+      status.className = "gate-form-status"; status.textContent = "Saving…";
+      if (window.RELAW_AUTH.getSession()) {
+        const res = await window.RELAW_AUTH.createWatchlist(t.watchlist);
+        status.textContent = res.ok ? (res.existed ? "You already have this alert." : "Alert created. Manage it on your account page.") : res.error;
+      } else {
+        if (window.RELAW_TRACK) window.RELAW_TRACK("watchlist_cta", { caseId: c.id, detail: "email" });
+        const res = await window.RELAW_AUTH.sendMagicLink(input.value, { watchlist: t.watchlist });
+        status.textContent = res.ok ? "Check your inbox. Your alert is created when you click the sign-in link." : res.error;
+        status.className = "gate-form-status " + (res.ok ? "is-success" : "is-error");
+        return;
+      }
+      status.className = "gate-form-status is-success";
+    });
+  }
+
   /* ---------- Write-up text for search ----------
      js/matter-text.json ({id: text}) is fetched the first time someone
      searches, so search and the tracker filter still match words that
@@ -791,11 +865,25 @@
 
       function gateStateHtml(state) {
         if (state.status === "not-logged-in") {
-          return `<div class="gate-card">
-            <div class="eyebrow" style="margin-bottom:8px;">Free account required</div>
-            <h3 style="margin-bottom:8px;">Sign in to read the full write-up</h3>
-            <p class="text-secondary" style="font-size:13.5px; line-height:1.6; margin-bottom:16px;">Case Timeline and the full article are free with an account — no card required.${window.RELAW_AUTH.ENFORCE_MONTHLY_LIMIT ? ` First ${window.RELAW_AUTH.MONTHLY_LIMIT} matters each month are on us.` : ""}</p>
-            <button type="button" class="btn btn-primary btn-sm" id="gate-signin-btn">Sign in to continue</button>
+          // A preview of what the account unlocks: the write-up's first
+          // paragraph and the timeline's latest entry (2026-10-06; the old
+          // bare prompt converted ~3% of the readers who reached it).
+          const first = c.body && c.body.length ? c.body[0] : "";
+          const tl = c.timeline && c.timeline.length ? c.timeline : null;
+          const latest = tl ? (tl.find((ev) => ev.current) || tl[tl.length - 1]) : null;
+          return `${first ? `<div class="gate-teaser"><p class="body-text">${first}</p></div>` : ""}
+          ${latest ? `<p class="gate-timeline-peek"><span>Case timeline · ${tl.length} ${tl.length === 1 ? "entry" : "entries"}</span> Latest: ${latest.when} — ${latest.label}</p>` : ""}
+          <div class="gate-card">
+            <div class="eyebrow" style="margin-bottom:8px;">Free account · no password needed</div>
+            <h3 style="margin-bottom:8px;">Keep reading</h3>
+            <p class="text-secondary" style="font-size:13.5px; line-height:1.6; margin-bottom:14px;">A free account unlocks every full write-up and case timeline on CREdocket, plus email alerts when matters like this are filed.${window.RELAW_AUTH.ENFORCE_MONTHLY_LIMIT ? ` ${window.RELAW_AUTH.MONTHLY_LIMIT} full write-ups a month are free.` : ""}</p>
+            <form class="gate-form" id="gate-email-form" novalidate>
+              <label for="gate-email" class="sr-only">Email address</label>
+              <input type="email" id="gate-email" autocomplete="email" placeholder="you@company.com" required />
+              <button type="submit" class="btn btn-primary btn-sm">Email me a sign-in link</button>
+            </form>
+            <p class="gate-form-status" id="gate-email-status" role="status"></p>
+            <p class="gate-alt">Have a password? <button type="button" class="link-btn" id="gate-signin-btn">Sign in</button></p>
           </div>`;
         }
         if (state.status === "limit-reached") {
@@ -847,6 +935,7 @@
         <div class="rule mt-24" style="margin-bottom:24px;"></div>
         <div id="detail-gated-content"></div>
         <div class="tag-row">${c.tags.map((t) => `<span class="detail-tag">${t}</span>`).join("")}</div>
+        ${keepReadingHtml(c)}
         <div class="detail-cta">
           <div class="detail-cta-text">
             <strong>Facing something similar?</strong>
@@ -859,6 +948,7 @@
         </div>
       `;
       document.getElementById("detail-close-btn").addEventListener("click", close);
+      wireAlertBox(panel, c);
       panel.dataset.caseId = c.id;
       if (window.RELAW_TRACK) window.RELAW_TRACK("panel_open", { caseId: c.id });
       const permalink = panel.querySelector(".detail-permalink");
@@ -888,10 +978,23 @@
           if (state.status === "ok") {
             withFull(() => { renderGated(fullArticleInnerHtml()); if (window.RELAW_TRACK) window.RELAW_TRACK("full_read", { caseId: c.id }); });
           } else {
-            gatedSlot.innerHTML = gateStateHtml(state);
-            if (window.RELAW_TRACK) window.RELAW_TRACK("gate_shown", { caseId: c.id, detail: state.status });
-            const signInBtn = document.getElementById("gate-signin-btn");
-            if (signInBtn) signInBtn.addEventListener("click", () => window.RELAW_AUTH.openSignInModal(c.id));
+            withFull(() => {
+              gatedSlot.innerHTML = gateStateHtml(state);
+              if (window.RELAW_TRACK) window.RELAW_TRACK("gate_shown", { caseId: c.id, detail: state.status });
+              const signInBtn = document.getElementById("gate-signin-btn");
+              if (signInBtn) signInBtn.addEventListener("click", () => window.RELAW_AUTH.openSignInModal(c.id));
+              const form = document.getElementById("gate-email-form");
+              if (form) form.addEventListener("submit", async (e) => {
+                e.preventDefault();
+                const status = document.getElementById("gate-email-status");
+                const btn = form.querySelector("button");
+                btn.disabled = true; status.textContent = "Sending…"; status.className = "gate-form-status";
+                const res = await window.RELAW_AUTH.sendMagicLink(document.getElementById("gate-email").value, { caseId: c.id });
+                btn.disabled = false;
+                status.textContent = res.ok ? "Check your inbox. The link brings you straight back to this matter." : res.error;
+                status.className = "gate-form-status " + (res.ok ? "is-success" : "is-error");
+              });
+            });
           }
         });
       }

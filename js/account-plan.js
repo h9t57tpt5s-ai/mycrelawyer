@@ -36,12 +36,8 @@
 
     if (FREE_MODE) {
       nameEl.textContent = "Free";
-      const { count: viewsThisMonth } = await sb
-        .from("case_views")
-        .select("id", { count: "exact", head: true })
-        .eq("user_id", userId)
-        .gte("viewed_at", new Date(new Date().getFullYear(), new Date().getMonth(), 1).toISOString());
-      detailEl.innerHTML = `The Case Value Calculator and Lease Clause Redline Checker are free for everyone right now while we build out the product — no credits needed. ${viewsThisMonth || 0} of 3 full write-ups viewed this month.`;
+      // Every full write-up is free with an account (2026-10-06).
+      detailEl.innerHTML = `Everything on CREdocket is free with your account right now while we build out the product: every full write-up, watchlists and alerts, plus the Case Value Calculator and Lease Clause Redline Checker with no credits needed.`;
       return;
     }
 

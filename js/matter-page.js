@@ -38,7 +38,59 @@
   const track = (event, opts) => { if (window.RELAW_TRACK) window.RELAW_TRACK(event, opts); };
   const matterId = (document.getElementById("matter-corrections") || {}).dataset ? document.getElementById("matter-corrections").dataset.matterId : null;
   document.querySelectorAll(".matter-share a").forEach((a) => a.addEventListener("click", () => track("share", { caseId: matterId, detail: a.textContent.trim().toLowerCase() })));
-  document.querySelectorAll('.matter-cta a[href^="/account.html"]').forEach((a) => a.addEventListener("click", () => track("watchlist_cta", { caseId: matterId })));
+
+  // Sign-in prompt and alert box. auth.js loads after this script, so
+  // RELAW_AUTH is looked up when the reader acts, not at load.
+  const auth = () => window.RELAW_AUTH || null;
+  const setStatus = (el, text, kind) => { el.textContent = text; el.className = "gate-form-status" + (kind ? " is-" + kind : ""); };
+
+  const gateForm = document.getElementById("matter-gate-form");
+  if (gateForm) {
+    gateForm.addEventListener("submit", async (e) => {
+      e.preventDefault();
+      const status = document.getElementById("matter-gate-status");
+      if (!auth()) { setStatus(status, "Sign-in isn't available right now. Try again in a moment.", "error"); return; }
+      const btn = gateForm.querySelector("button"); btn.disabled = true; setStatus(status, "Sending…");
+      const res = await auth().sendMagicLink(document.getElementById("matter-gate-email").value, {
+        caseId: matterId, redirectTo: location.origin + "/litigation.html?case=" + encodeURIComponent(matterId),
+      });
+      btn.disabled = false;
+      setStatus(status, res.ok ? "Check your inbox. The link opens the full write-up of this matter." : res.error, res.ok ? "success" : "error");
+    });
+  }
+
+  const alertBox = document.querySelector("[data-alert-box]");
+  if (alertBox) {
+    let watch = null;
+    try { watch = JSON.parse(alertBox.dataset.watchlist); } catch (e) { watch = null; }
+    const form = alertBox.querySelector("[data-alert-form]");
+    const input = form.querySelector("input");
+    const status = alertBox.querySelector("[data-alert-status]");
+    form.addEventListener("submit", async (e) => {
+      e.preventDefault();
+      if (!auth() || !watch) { setStatus(status, "Alerts aren't available right now. Try again in a moment.", "error"); return; }
+      setStatus(status, "Saving…");
+      if (auth().getSession()) {
+        const res = await auth().createWatchlist(watch);
+        setStatus(status, res.ok ? (res.existed ? "You already have this alert." : "Alert created. Manage it on your account page.") : res.error, res.ok ? "success" : "error");
+      } else {
+        track("watchlist_cta", { caseId: matterId, detail: "email" });
+        const res = await auth().sendMagicLink(input.value, { watchlist: watch });
+        setStatus(status, res.ok ? "Check your inbox. Your alert is created when you click the sign-in link." : res.error, res.ok ? "success" : "error");
+      }
+    });
+    // Signed-in readers: no email field, one-click alert, straight to the full matter.
+    let tries = 0;
+    const adapt = () => {
+      const session = auth() && auth().getSession();
+      if (session) {
+        input.hidden = true; form.querySelector("button").textContent = "Create this alert";
+        const keep = document.getElementById("matter-keep-reading");
+        if (keep) keep.innerHTML = `<div class="eyebrow">Signed in</div><h2 class="matter-h2">Read the full write-up</h2><a class="btn btn-primary btn-sm" href="/litigation.html?case=${encodeURIComponent(matterId)}">Open the full matter</a>`;
+      } else if (tries++ < 10) setTimeout(adapt, 500);
+    };
+    window.addEventListener("load", adapt);
+  }
 
   const copy = document.getElementById("matter-copy");
   if (copy) {

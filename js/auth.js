@@ -3,9 +3,10 @@
    - Free to browse: all case titles, summaries, "why it matters",
      filters, Market Signals, Regulatory Tracker.
    - Requires a free account: reading a case's full write-up
-     (Case Timeline + Full Article). First 3 distinct matters read
-     per calendar month are free per account; the 4th+ is gated
-     until the monthly reset (paid tier not live yet).
+     (Case Timeline + Full Article). Since 2026-10-06 a free account
+     gets every full write-up with no monthly limit (Jeff: "everything
+     is free now"); ENFORCE_MONTHLY_LIMIT below is off and reads are no
+     longer recorded. The metering code stays for a possible later tier.
    ========================================================= */
 
 (function () {
@@ -22,13 +23,65 @@
     currentSession = data.session || null;
     renderNavWidget();
     resumePendingCaseIfAny();
+    resumePendingWatchlistIfAny();
   });
 
   sb.auth.onAuthStateChange((_event, session) => {
     currentSession = session;
     renderNavWidget();
     resumePendingCaseIfAny();
+    resumePendingWatchlistIfAny();
   });
+
+  /* ---------- One-field sign-up from the sign-in prompt or an alert box ----------
+     Sends a sign-in link (no password). Remembers what the reader was doing
+     -- the matter they were reading, a watchlist they asked for -- so the
+     link brings them back to it. Pending state lives in this browser's
+     localStorage; a link opened on another device just signs them in. */
+  const PENDING_WATCHLIST_KEY = "credocket_pending_watchlist";
+
+  async function sendMagicLink(email, opts) {
+    opts = opts || {};
+    email = String(email || "").trim();
+    if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) return { ok: false, error: "Enter a valid email address." };
+    if (opts.caseId) setPendingCase(opts.caseId);
+    if (opts.watchlist) {
+      try { localStorage.setItem(PENDING_WATCHLIST_KEY, JSON.stringify({ ...opts.watchlist, savedAt: Date.now() })); } catch (e) { /* private window */ }
+    }
+    const { error } = await sb.auth.signInWithOtp({ email, options: { emailRedirectTo: opts.redirectTo || window.location.href } });
+    if (error) return { ok: false, error: error.message || "Something went wrong. Try again." };
+    if (window.RELAW_TRACK) window.RELAW_TRACK("magic_link_sent", { caseId: opts.caseId || null, detail: opts.watchlist ? "watchlist" : "prompt" });
+    return { ok: true };
+  }
+
+  async function createWatchlist(w) {
+    if (!currentSession || !currentSession.user) return { ok: false, error: "Not signed in." };
+    const { data: existing } = await sb.from("watchlists").select("id").eq("user_id", currentSession.user.id).eq("name", w.name).limit(1);
+    if (existing && existing.length) return { ok: true, existed: true };
+    const { error } = await sb.from("watchlists").insert({
+      user_id: currentSession.user.id, name: w.name,
+      states: w.states || [], categories: w.categories || [], keyword: null,
+    });
+    if (error) return { ok: false, error: error.message || "Couldn't save the watchlist." };
+    if (window.RELAW_TRACK) window.RELAW_TRACK("watchlist_cta", { detail: "created" });
+    return { ok: true };
+  }
+
+  let resumingWatchlist = false;
+  async function resumePendingWatchlistIfAny() {
+    if (!currentSession || resumingWatchlist) return;
+    let pending = null;
+    try { pending = JSON.parse(localStorage.getItem(PENDING_WATCHLIST_KEY) || "null"); } catch (e) { pending = null; }
+    if (!pending || !pending.name) return;
+    resumingWatchlist = true;
+    try { localStorage.removeItem(PENDING_WATCHLIST_KEY); } catch (e) { /* ignore */ }
+    if (Date.now() - (pending.savedAt || 0) > 24 * 60 * 60 * 1000) { resumingWatchlist = false; return; }
+    const res = await createWatchlist(pending);
+    resumingWatchlist = false;
+    if (res.ok && window.RELAW_UTILS && window.RELAW_UTILS.showToast) {
+      window.RELAW_UTILS.showToast(`Watchlist "${pending.name}" is set. You'll get an email when a new matter like this is filed.`);
+    }
+  }
 
   function setPendingCase(caseId) {
     // localStorage (not sessionStorage) because the magic-link email is
@@ -324,7 +377,8 @@
   // subscription-pricing-recommendation.md, Section 4) -- now that
   // Practitioner/Firm exist as a real upgrade path, that reasoning holds.
   const MONTHLY_LIMIT = 3;
-  const ENFORCE_MONTHLY_LIMIT = true;
+  // Off since 2026-10-06: a free account reads everything.
+  const ENFORCE_MONTHLY_LIMIT = false;
 
   function startOfMonthIso() {
     const d = new Date();
@@ -345,6 +399,8 @@
     if (!currentSession || !currentSession.user) {
       return { status: "not-logged-in" };
     }
+    // No limit to enforce, so nothing to count or record.
+    if (!ENFORCE_MONTHLY_LIMIT) return { status: "ok" };
     const userId = currentSession.user.id;
     try {
       const { data: existing, error: existingErr } = await sb
@@ -401,6 +457,8 @@
 
   window.RELAW_AUTH = {
     getSession: () => currentSession,
+    sendMagicLink,
+    createWatchlist,
     openSignInModal,
     checkGate,
     MONTHLY_LIMIT,
