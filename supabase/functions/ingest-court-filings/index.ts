@@ -17,6 +17,8 @@ import { buildAlertEmail, buildSlackMessage, findMatches, isSlackWebhook, matcha
 const AUTOMATION_SECRET = Deno.env.get("AUTOMATION_SECRET") ?? "";
 const RESEND_API_KEY = Deno.env.get("RESEND_API_KEY") ?? "";
 const SENDER_EMAIL = "no-reply@credocket.com";
+// Replies to subscriber alerts reach a monitored iCloud mailbox.
+const REPLY_TO_EMAIL = "admin@credocket.com";
 // Where scripts/health_check.py's problem reports go -- the same inbox as
 // notify-new-signup's NOTIFY_EMAIL. Fixed here (an OPS_ALERT_EMAIL secret
 // overrides it), so a caller can choose the text but never the recipient.
@@ -112,7 +114,7 @@ async function sendMatchEmail(toEmail: string, matches: NewMatch[], liveSources:
     const resp = await fetch("https://api.resend.com/emails", {
       method: "POST",
       headers: { "Authorization": `Bearer ${RESEND_API_KEY}`, "Content-Type": "application/json" },
-      body: JSON.stringify({ from: `CREdocket <${SENDER_EMAIL}>`, to: [toEmail], subject, text }),
+      body: JSON.stringify({ from: `CREdocket <${SENDER_EMAIL}>`, reply_to: REPLY_TO_EMAIL, to: [toEmail], subject, text }),
     });
     if (!resp.ok) {
       console.error(`ingest-court-filings: Resend returned ${resp.status} -- ${await resp.text().catch(() => "")}`);

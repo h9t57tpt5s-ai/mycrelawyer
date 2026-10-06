@@ -115,7 +115,7 @@ async function sendEmail(to: string, subject: string, html: string) {
   const res = await fetch("https://api.resend.com/emails", {
     method: "POST",
     headers: { Authorization: `Bearer ${RESEND_API_KEY}`, "Content-Type": "application/json" },
-    body: JSON.stringify({ from: "CREdocket <no-reply@credocket.com>", to, subject, html })
+    body: JSON.stringify({ from: "CREdocket <no-reply@credocket.com>", reply_to: "admin@credocket.com", to, subject, html })
   });
   return res.ok;
 }

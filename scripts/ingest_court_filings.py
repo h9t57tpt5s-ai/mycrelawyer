@@ -32,8 +32,8 @@ import urllib.request
 CL_SEARCH = "https://www.courtlistener.com/api/rest/v4/search/"
 EDGAR_SEARCH = "https://efts.sec.gov/LATEST/search-index"
 # The SEC asks automated callers to identify themselves with a contact
-# address; set SEC_USER_AGENT to a monitored mailbox.
-SEC_USER_AGENT = os.environ.get("SEC_USER_AGENT", "CREdocket no-reply@credocket.com")
+# address; admin@credocket.com is a monitored iCloud mailbox (2026-10-05).
+SEC_USER_AGENT = os.environ.get("SEC_USER_AGENT", "CREdocket admin@credocket.com")
 # Form 8-K items worth a counterparty's attention, under the SEC's own item
 # titles. An item code names the TYPE of event, not its cause: 2.04 also
 # covers a healthy company redeeming its own notes early, and 3.01 also

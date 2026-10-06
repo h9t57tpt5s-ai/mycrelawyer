@@ -189,6 +189,7 @@ async function sendEmail(toEmail: string, subject: string, bodyLines: (string | 
       headers: { "Authorization": `Bearer ${RESEND_API_KEY}`, "Content-Type": "application/json" },
       body: JSON.stringify({
         from: `CREdocket <${SENDER_EMAIL}>`,
+        reply_to: "admin@credocket.com", // monitored iCloud mailbox
         to: [toEmail],
         subject,
         text: bodyLines.filter((line) => line !== null).join("\n"),
