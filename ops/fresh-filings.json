@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-05T19:49:52+00:00",
+ "updatedAt": "2026-10-06T02:27:33+00:00",
  "about": "Real estate and construction Chapter 11 petitions filed in the last four days, from federal court records via CourtListener. Same name test as bankruptcy-watch.html. Business debtors only.",
  "filings": [
   {
@@ -8,6 +8,14 @@
    "docketNumber": "26-52815",
    "dateFiled": "2026-10-05",
    "docketUrl": "https://www.courtlistener.com/docket/74917933/simple-realty-services-llc/",
+   "type": "Chapter 11 petition"
+  },
+  {
+   "caseName": "Realty Solutions Systems",
+   "court": "United States Bankruptcy Court, N.D. Georgia",
+   "docketNumber": "26-63461",
+   "dateFiled": "2026-10-05",
+   "docketUrl": "https://www.courtlistener.com/docket/74919734/realty-solutions-systems/",
    "type": "Chapter 11 petition"
   },
   {
@@ -27,6 +35,14 @@
    "type": "Chapter 11 petition"
   },
   {
+   "caseName": "Cornerstone Development, LLC",
+   "court": "United States Bankruptcy Court, N.D. Georgia",
+   "docketNumber": "26-63513",
+   "dateFiled": "2026-10-05",
+   "docketUrl": "https://www.courtlistener.com/docket/74922018/cornerstone-development-llc/",
+   "type": "Chapter 11 petition"
+  },
+  {
    "caseName": "200 Arpeggio Way LLC",
    "court": "United States Bankruptcy Court, N.D. Georgia",
    "docketNumber": "26-63452",
@@ -40,6 +56,14 @@
    "docketNumber": "26-23297",
    "dateFiled": "2026-10-04",
    "docketUrl": "https://www.courtlistener.com/docket/74914230/kyle-plumbing-ii-inc/",
+   "type": "Chapter 11 petition"
+  },
+  {
+   "caseName": "American Hospitality Properties REIT, Inc.",
+   "court": "United States Bankruptcy Court, N.D. Texas",
+   "docketNumber": "26-80071",
+   "dateFiled": "2026-10-04",
+   "docketUrl": "https://www.courtlistener.com/docket/74914151/american-hospitality-properties-reit-inc/",
    "type": "Chapter 11 petition"
   },
   {
@@ -112,54 +136,6 @@
    "docketNumber": "26-10874",
    "dateFiled": "2026-10-02",
    "docketUrl": "https://www.courtlistener.com/docket/74908816/augusta-construction-llc/",
-   "type": "Chapter 11 petition"
-  },
-  {
-   "caseName": "TSI Tower Services, Inc.",
-   "court": "United States Bankruptcy Court, D. Arizona",
-   "docketNumber": "2:26-bk-10025",
-   "dateFiled": "2026-10-01",
-   "docketUrl": "https://www.courtlistener.com/docket/74905375/tsi-tower-services-inc/",
-   "type": "Chapter 11 petition"
-  },
-  {
-   "caseName": "Sunset Properties, LLC",
-   "court": "United States Bankruptcy Court, W.D. Michigan",
-   "docketNumber": "26-03127",
-   "dateFiled": "2026-10-01",
-   "docketUrl": "https://www.courtlistener.com/docket/74904326/sunset-properties-llc/",
-   "type": "Chapter 11 petition"
-  },
-  {
-   "caseName": "PPW Realty 1414 W 3Rd St. LLC",
-   "court": "United States Bankruptcy Court, D. New Jersey",
-   "docketNumber": "26-21190",
-   "dateFiled": "2026-10-01",
-   "docketUrl": "https://www.courtlistener.com/docket/74903821/ppw-realty-1414-w-3rd-st-llc/",
-   "type": "Chapter 11 petition"
-  },
-  {
-   "caseName": "Lee Properties SC, LLC",
-   "court": "United States Bankruptcy Court, M.D. North Carolina",
-   "docketNumber": "26-10768",
-   "dateFiled": "2026-10-01",
-   "docketUrl": "https://www.courtlistener.com/docket/74904222/lee-properties-sc-llc/",
-   "type": "Chapter 11 petition"
-  },
-  {
-   "caseName": "Fagan Construction Services, LLC",
-   "court": "United States Bankruptcy Court, N.D. Florida",
-   "docketNumber": "26-40609",
-   "dateFiled": "2026-10-01",
-   "docketUrl": "https://www.courtlistener.com/docket/74904108/fagan-construction-services-llc/",
-   "type": "Chapter 11 petition"
-  },
-  {
-   "caseName": "Bell Business Development LLC",
-   "court": "United States Bankruptcy Court, E.D. Pennsylvania",
-   "docketNumber": "26-14140",
-   "dateFiled": "2026-10-01",
-   "docketUrl": "https://www.courtlistener.com/docket/74903158/bell-business-development-llc/",
    "type": "Chapter 11 petition"
   }
  ]
