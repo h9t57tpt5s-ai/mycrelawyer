@@ -7700,6 +7700,19 @@ const RELAW_DATA = {
       summary: "KBRA's September 2026 CMBS Loan Performance Trends report, published September 30, found the 30+ day delinquency rate on its rated U.S. private-label CMBS rose 9 basis points to 7.7% in September from 7.6% in August, while the distress rate, which adds current loans in special servicing, declined 4 bps. Loans totaling $1.6 billion were newly added to the distress rate, and 74.9% of that balance ($1.2 billion) involved imminent or actual maturity default. Office accounted for the largest share of newly distressed loans (47.7%, $757.5 million), followed by multifamily (14.6%, $231.5 million) and mixed-use (13.6%, $216 million). KBRA's rated universe covers $344.4 billion.",
       significance: "With nearly three-quarters of the newly distressed balance tied to imminent or actual maturity default, more borrowers are reaching maturity unable to refinance or sell, the direct precursor to the foreclosure, receivership and workout litigation this tracker follows. The concentration in office and multifamily points to where that litigation is most likely to surface next.",
       tags: ["cmbs", "delinquency", "office", "multifamily", "maturity default"]
+    },
+    {
+      id: "trend-017",
+      title: "Multifamily CMBS Delinquency Climbs to 8.04%, Topping the Overall 8.02% Rate for the First Time Since Covid",
+      category: "lending-foreclosure",
+      date: "2026-10-02",
+      scope: "U.S. CMBS, all property types (Trepp data, September 2026)",
+      metric: "Multifamily delinquency 8.04% (+35 bps) vs. overall 8.02% (+17 bps)",
+      source: "live",
+      sourceUrl: "https://yieldpro.com/2026/10/multifamily-cmbs-delinquency-rate-leads-overall-rate-higher-in-september/",
+      summary: "Trepp's September 2026 delinquency report puts the multifamily CMBS delinquency rate at 8.04 percent after a 35 basis point monthly rise, the largest increase of any property type Trepp tracks, and above the overall CMBS rate for the first time since the Covid shutdowns. The overall rate rose 17 basis points to 8.02 percent. A year ago the multifamily rate stood at 6.59 percent, and two years ago at 3.33 percent. Office remained the weakest sector at 12.16 percent, and counting loans past maturity but still current on interest would lift the overall rate to 9.66 percent.",
+      significance: "Apartments, long treated as the safe CRE asset class, are now delinquent at a higher rate than the CMBS market as a whole, which points to more special-servicing transfers, receiverships and foreclosure filings against multifamily borrowers, and more guaranty enforcement against sponsors who signed carve-out guaranties. Borrowers negotiating workouts should expect servicers to press on cash management, reserve sweeps and recourse triggers, and investors in syndicated multifamily deals should watch for disputes over capital calls and sponsor disclosures.",
+      tags: ["cmbs", "multifamily", "delinquency", "trepp", "special servicing"]
     }
   ],
 
