@@ -23,7 +23,7 @@ import urllib.request
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 SITE = "https://credocket.com"
-KEY = "69f48063363d4d0eb2122e494da950a2"
+KEY = "66c0f4102a8220ab258d5282c163966f"
 
 
 def sitemap_urls():
