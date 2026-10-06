@@ -60,3 +60,10 @@ jobs:
             sleep $((i * 10))
           done
           [ "$ok" = 1 ]
+      # Tell Bing and the other IndexNow engines which pages changed, once
+      # Vercel has deployed them. Google reads the sitemap instead.
+      - name: Announce changed pages (IndexNow)
+        if: github.event_name == 'push'
+        run: |
+          sleep 90
+          python3 scripts/indexnow.py "${{ github.event.before }}..HEAD" || echo "::warning::IndexNow submission failed"
