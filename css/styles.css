@@ -1786,3 +1786,5 @@ h3, .h3 {
 .keep-list span { font-family: var(--font-mono); font-size: 11px; color: var(--text-muted); white-space: nowrap; }
 .alert-box { padding: 18px 20px; border: 1px solid var(--border); border-radius: var(--radius-md, 12px); background: var(--accent-wash); }
 .alert-box h3 { margin: 4px 0 12px !important; font-size: 1rem; }
+.free-read-note { font-size: 13px; line-height: 1.5; color: var(--text-secondary); background: var(--accent-wash); border-radius: var(--radius-sm, 6px); padding: 10px 14px; margin-bottom: 20px; }
+.free-read-note span { font-weight: 600; color: var(--text-primary); }

@@ -874,7 +874,7 @@
           return `${first ? `<div class="gate-teaser"><p class="body-text">${first}</p></div>` : ""}
           ${latest ? `<p class="gate-timeline-peek"><span>Case timeline · ${tl.length} ${tl.length === 1 ? "entry" : "entries"}</span> Latest: ${latest.when} — ${latest.label}</p>` : ""}
           <div class="gate-card">
-            <div class="eyebrow" style="margin-bottom:8px;">Free account · no password needed</div>
+            <div class="eyebrow" style="margin-bottom:8px;">${state.reason === "free-reads-used" ? `You've used your ${state.limit} free reads this month` : "Free account · no password needed"}</div>
             <h3 style="margin-bottom:8px;">Keep reading</h3>
             <p class="text-secondary" style="font-size:13.5px; line-height:1.6; margin-bottom:14px;">A free account unlocks every full write-up and case timeline on CREdocket, plus email alerts when matters like this are filed.${window.RELAW_AUTH.ENFORCE_MONTHLY_LIMIT ? ` ${window.RELAW_AUTH.MONTHLY_LIMIT} full write-ups a month are free.` : ""}</p>
             <form class="gate-form" id="gate-email-form" novalidate>
@@ -976,11 +976,17 @@
           // Panel may have moved on to a different case by the time this resolves.
           if (!panel.classList.contains("open") || document.getElementById("detail-gated-content") !== gatedSlot) return;
           if (state.status === "ok") {
-            withFull(() => { renderGated(fullArticleInnerHtml()); if (window.RELAW_TRACK) window.RELAW_TRACK("full_read", { caseId: c.id }); });
+            withFull(() => {
+              const note = state.anonymous ? `<div class="free-read-note"><span>${state.used} of ${state.limit} free reads used this month.</span> <button type="button" class="link-btn" id="free-read-signup">Create a free account</button> for unlimited reading and email alerts.</div>` : "";
+              renderGated(note + fullArticleInnerHtml());
+              const su = document.getElementById("free-read-signup");
+              if (su) su.addEventListener("click", () => window.RELAW_AUTH.openSignInModal(c.id));
+              if (window.RELAW_TRACK) window.RELAW_TRACK("full_read", { caseId: c.id, detail: state.anonymous ? `free ${state.used}/${state.limit}` : "account" });
+            });
           } else {
             withFull(() => {
               gatedSlot.innerHTML = gateStateHtml(state);
-              if (window.RELAW_TRACK) window.RELAW_TRACK("gate_shown", { caseId: c.id, detail: state.status });
+              if (window.RELAW_TRACK) window.RELAW_TRACK("gate_shown", { caseId: c.id, detail: state.reason || state.status });
               const signInBtn = document.getElementById("gate-signin-btn");
               if (signInBtn) signInBtn.addEventListener("click", () => window.RELAW_AUTH.openSignInModal(c.id));
               const form = document.getElementById("gate-email-form");

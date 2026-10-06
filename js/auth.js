@@ -7,6 +7,8 @@
      gets every full write-up with no monthly limit (Jeff: "everything
      is free now"); ENFORCE_MONTHLY_LIMIT below is off and reads are no
      longer recorded. The metering code stays for a possible later tier.
+   - Without an account: 10 full write-ups a month, counted in the
+     browser (anonRead below), then a free account is required.
    ========================================================= */
 
 (function () {
@@ -395,9 +397,32 @@
   //   { status: "ok" }                                  (already read, or a fresh read just recorded)
   //   { status: "limit-reached", resetLabel, limit }
   //   { status: "error", message }
+  /* ---------- Free reads without an account ----------
+     Jeff, 2026-10-06: up to 10 full write-ups a month without signing up;
+     after that a free account (unlimited) is required. Counted per browser
+     in localStorage only -- never sent to the server. A re-read of a matter
+     already counted is free. If storage is unavailable (private mode),
+     reading is allowed rather than blocked. */
+  const ANON_MONTHLY_READS = 10;
+  const ANON_READS_KEY = "credocket_free_reads";
+  function anonRead(caseId) {
+    const month = new Date().toISOString().slice(0, 7);
+    let state;
+    try { state = JSON.parse(localStorage.getItem(ANON_READS_KEY) || "null"); } catch (e) { return { allowed: true, used: 0 }; }
+    if (!state || state.month !== month || !Array.isArray(state.ids)) state = { month, ids: [] };
+    if (state.ids.includes(caseId)) return { allowed: true, used: state.ids.length };
+    if (state.ids.length >= ANON_MONTHLY_READS) return { allowed: false, used: state.ids.length };
+    state.ids.push(caseId);
+    try { localStorage.setItem(ANON_READS_KEY, JSON.stringify(state)); } catch (e) { /* allow anyway */ }
+    return { allowed: true, used: state.ids.length };
+  }
+
   async function checkGate(caseId) {
     if (!currentSession || !currentSession.user) {
-      return { status: "not-logged-in" };
+      const r = anonRead(caseId);
+      return r.allowed
+        ? { status: "ok", anonymous: true, used: r.used, limit: ANON_MONTHLY_READS }
+        : { status: "not-logged-in", reason: "free-reads-used", used: r.used, limit: ANON_MONTHLY_READS };
     }
     // No limit to enforce, so nothing to count or record.
     if (!ENFORCE_MONTHLY_LIMIT) return { status: "ok" };
