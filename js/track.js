@@ -10,7 +10,9 @@
 (function () {
   const ENDPOINT = "https://ribmcdyoydhmafnyfhpp.supabase.co/rest/v1/site_events";
   const KEY = "sb_publishable_77xSJub0DOpnTSM4nzhVaQ_aztB5p3f";
-  const off = navigator.webdriver || /bot|crawl|spider|slurp|headless/i.test(navigator.userAgent) ||
+  // Crawlers that render pages but do not say "bot" (Google's inspection
+  // and sitemap tools inflated the first days' counts, 2026-10-03).
+  const off = navigator.webdriver || /bot|crawl|spider|slurp|headless|google-|googleother|inspectiontool|lighthouse|pagespeed|preview|facebookexternalhit|embedly|quora link|vercel|screenshot|prerender/i.test(navigator.userAgent) ||
     !/(^|\.)credocket\.com$/.test(location.hostname);
 
   let session = "";
