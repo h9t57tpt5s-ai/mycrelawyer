@@ -1,0 +1,46 @@
+{
+ "trend": {
+  "id": "trend-017",
+  "title": "Multifamily CMBS Delinquency Climbs to 8.04%, Topping the Overall 8.02% Rate for the First Time Since Covid",
+  "category": "lending-foreclosure",
+  "date": "2026-10-02",
+  "scope": "U.S. CMBS, all property types (Trepp data, September 2026)",
+  "metric": "Multifamily delinquency 8.04% (+35 bps) vs. overall 8.02% (+17 bps)",
+  "sourceUrl": "https://yieldpro.com/2026/10/multifamily-cmbs-delinquency-rate-leads-overall-rate-higher-in-september/",
+  "summary": "Trepp's September 2026 delinquency report puts the multifamily CMBS delinquency rate at 8.04 percent after a 35 basis point monthly rise, the largest increase of any property type Trepp tracks, and above the overall CMBS rate for the first time since the Covid shutdowns. The overall rate rose 17 basis points to 8.02 percent. A year ago the multifamily rate stood at 6.59 percent, and two years ago at 3.33 percent. Office remained the weakest sector at 12.16 percent, and counting loans past maturity but still current on interest would lift the overall rate to 9.66 percent.",
+  "significance": "Apartments, long treated as the safe CRE asset class, are now delinquent at a higher rate than the CMBS market as a whole, which points to more special-servicing transfers, receiverships and foreclosure filings against multifamily borrowers, and more guaranty enforcement against sponsors who signed carve-out guaranties. Borrowers negotiating workouts should expect servicers to press on cash management, reserve sweeps and recourse triggers, and investors in syndicated multifamily deals should watch for disputes over capital calls and sponsor disclosures.",
+  "tags": ["cmbs", "multifamily", "delinquency", "trepp", "special servicing"]
+ },
+ "verification": [
+  {
+   "claim": "Multifamily CMBS delinquency rate 8.04%, above the overall rate for the first time since Covid",
+   "quote": "The delinquency rate for loans on multifamily property was 8.04 percent. This is higher than the overall CMBS delinquency rate, the first time this has happened since the Covid shutdowns roiled the real estate markets.",
+   "url": "https://yieldpro.com/2026/10/multifamily-cmbs-delinquency-rate-leads-overall-rate-higher-in-september/"
+  },
+  {
+   "claim": "Multifamily rose 35 bps in September, the largest increase of any property type",
+   "quote": "rose 35 basis points in September, the largest increase of the property types that Trepp tracks",
+   "url": "https://yieldpro.com/2026/10/multifamily-cmbs-delinquency-rate-leads-overall-rate-higher-in-september/"
+  },
+  {
+   "claim": "Overall rate 8.02%, up 17 bps (the article says 'June' but its headline, report link and every other figure are the September report; August was 7.85%)",
+   "quote": "Trepp found that the overall CMBS delinquency rate in June was 8.02 percent, up 17 basis point for the month.",
+   "url": "https://yieldpro.com/2026/10/multifamily-cmbs-delinquency-rate-leads-overall-rate-higher-in-september/"
+  },
+  {
+   "claim": "Multifamily rate one year ago 6.59%, two years ago 3.33%",
+   "quote": "One year ago, the delinquency rate for CMBS loans on multifamily property was 145 basis points lower at 6.59 percent while 2 years ago it was 471 basis points lower at 3.33 percent.",
+   "url": "https://yieldpro.com/2026/10/multifamily-cmbs-delinquency-rate-leads-overall-rate-higher-in-september/"
+  },
+  {
+   "claim": "Office at 12.16%",
+   "quote": "The delinquency rate for office property rose 16 basis points to 12.16 percent.",
+   "url": "https://yieldpro.com/2026/10/multifamily-cmbs-delinquency-rate-leads-overall-rate-higher-in-september/"
+  },
+  {
+   "claim": "Including performing matured balloon loans, overall rate 9.66%",
+   "quote": "if they were included, the overall delinquency rate on CMBS loans would be 9.66 percent",
+   "url": "https://yieldpro.com/2026/10/multifamily-cmbs-delinquency-rate-leads-overall-rate-higher-in-september/"
+  }
+ ]
+}
