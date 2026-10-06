@@ -1,7 +1,63 @@
 {
- "updatedAt": "2026-10-06T02:27:33+00:00",
+ "updatedAt": "2026-10-06T17:24:27+00:00",
  "about": "Real estate and construction Chapter 11 petitions filed in the last four days, from federal court records via CourtListener. Same name test as bankruptcy-watch.html. Business debtors only.",
  "filings": [
+  {
+   "caseName": "ZAP REALTY CORP",
+   "court": "United States Bankruptcy Court, E.D. New York",
+   "docketNumber": "1-26-44683",
+   "dateFiled": "2026-10-06",
+   "docketUrl": "https://www.courtlistener.com/docket/74922668/zap-realty-corp/",
+   "type": "Chapter 11 petition"
+  },
+  {
+   "caseName": "Savage Squad Properties LLC",
+   "court": "United States Bankruptcy Court, S.D. Texas",
+   "docketNumber": "26-37555",
+   "dateFiled": "2026-10-06",
+   "docketUrl": "https://www.courtlistener.com/docket/74923616/savage-squad-properties-llc/",
+   "type": "Chapter 11 petition"
+  },
+  {
+   "caseName": "Momentum Development & Construction LLC",
+   "court": "United States Bankruptcy Court, N.D. Georgia",
+   "docketNumber": "26-63524",
+   "dateFiled": "2026-10-06",
+   "docketUrl": "https://www.courtlistener.com/docket/74922733/momentum-development-construction-llc/",
+   "type": "Chapter 11 petition"
+  },
+  {
+   "caseName": "Lesam Realty LLC",
+   "court": "United States Bankruptcy Court, N.D. Georgia",
+   "docketNumber": "26-63571",
+   "dateFiled": "2026-10-06",
+   "docketUrl": "https://www.courtlistener.com/docket/74923337/lesam-realty-llc/",
+   "type": "Chapter 11 petition"
+  },
+  {
+   "caseName": "LZA Real Properties East, LLC",
+   "court": "United States Bankruptcy Court, W.D. Texas",
+   "docketNumber": "26-12003",
+   "dateFiled": "2026-10-06",
+   "docketUrl": "https://www.courtlistener.com/docket/74924804/lza-real-properties-east-llc/",
+   "type": "Chapter 11 petition"
+  },
+  {
+   "caseName": "Fortapache Realty LLC",
+   "court": "United States Bankruptcy Court, N.D. Georgia",
+   "docketNumber": "26-63569",
+   "dateFiled": "2026-10-06",
+   "docketUrl": "https://www.courtlistener.com/docket/74923336/fortapache-realty-llc/",
+   "type": "Chapter 11 petition"
+  },
+  {
+   "caseName": "Cornerstone Townhome Development, LLC",
+   "court": "United States Bankruptcy Court, N.D. Georgia",
+   "docketNumber": "26-63596",
+   "dateFiled": "2026-10-06",
+   "docketUrl": "https://www.courtlistener.com/docket/74924786/cornerstone-townhome-development-llc/",
+   "type": "Chapter 11 petition"
+  },
   {
    "caseName": "Simple Realty Services, LLC",
    "court": "United States Bankruptcy Court, W.D. Texas",
@@ -24,6 +80,14 @@
    "docketNumber": "26-21551",
    "dateFiled": "2026-10-05",
    "docketUrl": "https://www.courtlistener.com/docket/74918737/pkc-construction-co/",
+   "type": "Chapter 11 petition"
+  },
+  {
+   "caseName": "Janam Taccoa Lodging LLC",
+   "court": "United States Bankruptcy Court, N.D. Georgia",
+   "docketNumber": "26-63515",
+   "dateFiled": "2026-10-05",
+   "docketUrl": "https://www.courtlistener.com/docket/74922099/janam-taccoa-lodging-llc/",
    "type": "Chapter 11 petition"
   },
   {
