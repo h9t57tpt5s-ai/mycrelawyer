@@ -16,7 +16,7 @@ const RELAW_DATA = {
      Drives the homepage's "New Today" pill: it only shows when this
      equals the visitor's local today. Updated by the digest automation
      each time Step 4 successfully adds a case — never touched otherwise. */
-  lastUpdatedDate: "2026-10-05",
+  lastUpdatedDate: "2026-10-06",
   categories: [
     { id: "landlord-tenant", label: "Landlord–Tenant", color: "var(--cat-landlord)" },
     { id: "zoning-land-use", label: "Zoning & Land Use", color: "var(--cat-zoning)" },
@@ -7483,6 +7483,45 @@ const RELAW_DATA = {
         { when: "August 17, 2026", label: "Diaper Bank files breach-of-contract suit in U.S. District Court for the District of Columbia", current: true }
       ],
       tags: ["commercial-lease", "industrial", "breach-of-contract", "maryland", "property-maintenance"]
+    },
+    {
+      id: "live-224",
+      addedDate: "2026-10-06",
+      featured: true,
+      title: "Federal National Mortgage Association v. Reserve Apartments, Ltd. (Reserve Square Foreclosure — City of Cleveland Intervention)",
+      category: "lending-foreclosure",
+      status: "pending",
+      date: "2026-09-29",
+      jurisdiction: "U.S. District Court, Northern District of Ohio",
+      state: "OH",
+      propertyType: "Multifamily",
+      amount: "$78M+ defaulted mortgage",
+      amountUsd: 78000000,
+      amountBasis: "loan",
+      source: "live",
+      sourceUrl: "https://www.news5cleveland.com/news/local-news/cleveland-tries-to-intervene-in-reserve-square-foreclosure-case-with-property-up-for-sale",
+      summary: "The City of Cleveland moved in late September 2026 to intervene in Fannie Mae's federal foreclosure case against Reserve Apartments, Ltd. and owner K&D Group over Reserve Square, downtown Cleveland's largest apartment complex, which defaulted on a mortgage carrying more than $78 million in principal, interest and costs after occupancy collapsed. The city argues the court-appointed receiver has not adequately addressed 19 open code-violation notices covering 52 issues, including elevator outages, water intrusion and parking-garage deterioration, and wants a voice in the case before any sale is approved.",
+      significance: "Shows cities increasingly seeking party status directly in federal foreclosure dockets, rather than relying solely on separate municipal code enforcement, to keep repair obligations attached to a distressed asset through a receivership sale. Lenders and prospective buyers of distressed multifamily assets should expect municipalities to press for enforceable repair conditions before a court approves a transfer, and should stress-test occupancy assumptions for assets with a concentrated, narrow tenant base.",
+      body: [
+        "The City of Cleveland has asked a federal judge for a seat at the table in a foreclosure case it is not a party to, filing a motion in late September 2026 to intervene in Federal National Mortgage Association v. Reserve Apartments, Ltd., the foreclosure action pending in the U.S. District Court for the Northern District of Ohio over Reserve Square, downtown Cleveland's largest apartment complex. Lawyers for Mayor Justin Bibb's administration argue that the receiver appointed to run the 23-story, roughly 1-million-square-foot tower at 1701 E. 12th Street is not moving quickly enough on dozens of outstanding code violations, and want the court to ensure those issues are addressed regardless of what happens to the property next.",
+        "The underlying case is a commercial mortgage default. Fannie Mae sued in July 2025 after Willoughby-based owner K&D Group failed to pay off or refinance a mortgage that had matured carrying more than $78 million in principal, interest, and other costs. The default followed a steep occupancy collapse tied largely to the loss of international-student tenants, a population K&D has said was affected by federal immigration-policy shifts; occupancy fell from roughly 93% in 2024 as more than 400 units turned over within months. By August 2025, K&D had ceded day-to-day control to a court-appointed receiver, Andrew Hayman of the Southfield, Michigan-based Hayman Company, tasked with stabilizing the asset and shepherding it toward a sale. Judge Bridget Meehan Brennan is presiding. The property, now reported to be roughly 80% vacant, remains listed for sale.",
+        "What makes the filing significant beyond Cleveland is the legal mechanism the city chose. Rather than pursuing enforcement solely through municipal housing court, a venue that can be slow against a property already in receivership, the city is seeking to intervene directly in the federal foreclosure docket. City lawyers point to 19 open violation notices covering 52 distinct issues, including elevator outages, water intrusion, and parking-garage deterioration, arguing the receiver has not adequately addressed them. The relief sought is narrow but consequential: give the city standing to be heard before the court approves any transfer of the property, so a sale cannot pass the building, and its violations, to a new owner without those issues being confronted first.",
+        "For commercial property owners and their lenders, the filing underscores that a receivership does not insulate a distressed asset from municipal oversight, and that cities are increasingly willing to seek party status in federal proceedings rather than wait for separate state-court code enforcement to run its course. A receiver's mandate to preserve asset value for creditors is not always aligned with the capital-intensive repairs a municipality wants prioritized; intervention lets a city argue directly to the supervising judge that life-safety and habitability issues deserve priority alongside, or even ahead of, a clean sale process. If the court grants intervention, it could also shape how a buyer underwrites the deal, since any purchaser would need to factor in enforceable repair obligations rather than inheriting a distressed building free of that overhang.",
+        "The case is also a reminder of how quickly a concentrated tenant base can turn a high-occupancy asset into a rapid default once that tenant pool evaporates. Lenders underwriting multifamily loans secured by properties with a narrow, concentrated tenant base — international students, a single corporate tenant, or another university-adjacent population — should treat this case as evidence of how fast occupancy, and debt-service coverage with it, can collapse when that source dries up, and should build that concentration risk into their underwriting and loan-covenant structures rather than treating a high historical occupancy rate as a durable baseline. A receiver and lender group facing municipal intervention should also expect the process to add time and cost to an otherwise straightforward distressed-asset sale, since resolving or accommodating code-violation conditions before a court-approved transfer can delay closing beyond what a purely creditor-driven sale timeline would anticipate."
+      ],
+      judge: "Bridget Meehan Brennan",
+      parties: [
+        { name: "Federal National Mortgage Association", role: "Plaintiff/Lender" },
+        { name: "Reserve Apartments, Ltd.", role: "Defendant/Borrower" },
+        { name: "K&D Group", role: "Defendant/Owner" },
+        { name: "City of Cleveland", role: "Intervenor" }
+      ],
+      timeline: [
+        { when: "July 21, 2025", label: "Fannie Mae sues Reserve Apartments, Ltd. and K&D Group in federal court after the $78 million mortgage on Reserve Square matures unpaid" },
+        { when: "August 2025", label: "K&D Group cedes control of the property to court-appointed receiver Andrew Hayman" },
+        { when: "September 29, 2026", label: "City of Cleveland moves to intervene, citing 19 open code-violation notices covering 52 issues", current: true }
+      ],
+      tags: ["foreclosure", "multifamily", "municipal-intervention", "receivership", "code-enforcement"]
     }
   ],
 
@@ -8050,7 +8089,8 @@ const RELAW_DATA = {
     { jurisdiction: "Montgomery County Court of Common Pleas, Pennsylvania", url: "https://www.montgomerycountypa.gov/departments/county-courts/court-common-pleas" },
     { jurisdiction: "Circuit Court of Will County, Illinois", url: "https://judges.willcountyillinois.com/" },
     { jurisdiction: "U.S. District Court, District of Colorado", url: "https://www.cod.uscourts.gov/" },
-    { jurisdiction: "Penobscot County Superior Court, Maine", url: "https://www.courts.maine.gov/courts/superior/" }
+    { jurisdiction: "Penobscot County Superior Court, Maine", url: "https://www.courts.maine.gov/courts/superior/" },
+    { jurisdiction: "U.S. District Court, Northern District of Ohio", url: "https://www.ohnd.uscourts.gov/" }
   ],
 
   /* Judges — background on every judge named in our sourced reporting (never
@@ -8386,6 +8426,14 @@ const RELAW_DATA = {
       court: "Penobscot County Superior Court, Maine",
       background: "Nominated to the Maine District Court by Governor John Baldacci in November 2010, then nominated to the Maine Superior Court by Governor Paul LePage in May 2015. Previously in private practice in Bangor, Maine.",
       bioUrl: "https://www.courts.maine.gov/courts/superior/justices.html"
+    },
+    {
+      name: "Bridget Meehan Brennan",
+      slug: "bridget-meehan-brennan",
+      title: "U.S. District Judge",
+      court: "U.S. District Court, Northern District of Ohio",
+      background: "Nominated by President Biden on January 3, 2022 to a seat vacated by Judge Dan A. Polster, confirmed by the Senate on February 1, 2022, and commissioned that February. Previously an Assistant U.S. Attorney for the Northern District of Ohio from 2007 to 2022, including service as First Assistant U.S. Attorney from 2018 to 2021.",
+      bioUrl: "https://www.fjc.gov/history/judges/brennan-bridget-meehan"
     }
   ],
 
@@ -8433,6 +8481,7 @@ const RELAW_DATA = {
     { name: "Brightline", matchTerm: "Brightline", slug: "brightline", description: "Fortress Investment Group-backed private passenger railroad whose station-area real estate is held and developed through a network of affiliated holding and development entities.", website: "https://www.gobrightline.com" },
     { name: "Namdar Realty Group", matchTerm: "Namdar", slug: "namdar-realty-group", description: "Great Neck, New York-based private owner of more than 100 shopping malls and retail centers nationally, frequently named in tenant, insurer, and municipal code-enforcement litigation over property conditions.", website: "https://namdarrealtygroup.com" },
     { name: "Vesta Realty, LLC", matchTerm: "Vesta Realty", slug: "vesta-realty", description: "Tulsa, Oklahoma-based private multifamily platform that controlled a roughly $1 billion, nearly 10,000-unit apartment portfolio across Oklahoma, Kansas, and Arkansas before its collapse into dozens of investor-fraud, foreclosure, receivership, and regulatory enforcement actions." },
-    { name: "Phoenix American Hospitality", matchTerm: "Phoenix American Hospitality", slug: "phoenix-american-hospitality", description: "Dallas-based external manager of two non-traded hospitality REITs, which settled SEC fraud charges in 2026 over an $86 million Regulation A hotel-fund offering before the REITs themselves filed Chapter 11." }
+    { name: "Phoenix American Hospitality", matchTerm: "Phoenix American Hospitality", slug: "phoenix-american-hospitality", description: "Dallas-based external manager of two non-traded hospitality REITs, which settled SEC fraud charges in 2026 over an $86 million Regulation A hotel-fund offering before the REITs themselves filed Chapter 11." },
+    { name: "Fannie Mae", matchTerm: "Fannie Mae", slug: "fannie-mae", description: "Federally chartered mortgage finance enterprise that purchases and guarantees multifamily and single-family mortgage loans, and frequently appears as plaintiff or loan-purchaser in commercial mortgage foreclosure litigation.", website: "https://www.fanniemae.com" }
   ]
 };
