@@ -7522,6 +7522,69 @@ const RELAW_DATA = {
         { when: "September 29, 2026", label: "City of Cleveland moves to intervene, citing 19 open code-violation notices covering 52 issues", current: true }
       ],
       tags: ["foreclosure", "multifamily", "municipal-intervention", "receivership", "code-enforcement"]
+    },
+    {
+      id: "live-225",
+      addedDate: "2026-10-06",
+      title: "Janam Taccoa Lodging LLC Chapter 11 Petition (N.D. Ga.)",
+      category: "lending-foreclosure",
+      status: "filed",
+      date: "2026-10-05",
+      jurisdiction: "United States Bankruptcy Court, Northern District of Georgia",
+      state: "GA",
+      propertyType: "Hospitality",
+      amount: "Undisclosed (financial details not yet public)",
+      source: "live",
+      sourceUrl: "https://www.courtlistener.com/docket/74922099/janam-taccoa-lodging-llc/",
+      summary: "Janam Taccoa Lodging LLC filed a Chapter 11 petition on October 5, 2026 in the United States Bankruptcy Court for the Northern District of Georgia, case number 26-63515. This entry reflects only what the federal court docket shows; no independent news coverage of the filing was available at the time it was added to this tracker.",
+      significance: "Single-asset hotel ownership entities continue to make up a meaningful share of the current wave of small commercial Chapter 11 filings tied to distressed acquisition or construction debt. This tracker will add further detail as public reporting or additional docket activity becomes available.",
+      body: [
+        "Janam Taccoa Lodging LLC filed a Chapter 11 petition on October 5, 2026 in the United States Bankruptcy Court for the Northern District of Georgia, docketed as case number 26-63515. As of this entry, no news coverage of the filing's underlying circumstances -- the nature of the debtor's property, its lender, or the cause of the filing -- had been published, so this record is limited to what the court docket itself shows.",
+        "The debtor's name pairs \"Lodging\" with a Georgia place name, a naming convention commonly used by single-asset hotel ownership entities to identify the property tied to a single mortgage or operating structure. Hotel and hospitality-adjacent single-asset entities make up a meaningful share of the current wave of small commercial Chapter 11 filings tied to distressed acquisition, construction, or maturity debt. This tracker will update this entry, or add a related one, if further docket activity or independent reporting clarifies the debtor's property, its lender, and the circumstances of the filing."
+      ],
+      judge: null,
+      parties: [
+        { name: "Janam Taccoa Lodging LLC", role: "Debtor" }
+      ],
+      amountUsd: null,
+      docketUrl: "https://www.courtlistener.com/docket/74922099/janam-taccoa-lodging-llc/",
+      docketLabel: "CourtListener docket",
+      tags: ["chapter-11", "bankruptcy", "single-asset-entity", "georgia", "hospitality"]
+    },
+    {
+      id: "live-226",
+      addedDate: "2026-10-06",
+      title: "Oak Land and Development LLC v. Simon Property Group Inc. (Penn Square Mall Antitrust Tying Suit)",
+      category: "lease-disputes",
+      status: "pending",
+      date: "2025-12-03",
+      jurisdiction: "U.S. District Court, Western District of Oklahoma",
+      state: "OK",
+      amount: "Unspecified damages and injunctive relief sought over alleged antitrust tying",
+      amountUsd: null,
+      source: "live",
+      sourceUrl: "https://www.news9.com/oklahoma-city-news/oak-developers-sue-penn-square-mall-owner-antitrust-claims",
+      summary: "Oak Land and Development LLC and other developers of OAK, a competing Oklahoma City mixed-use retail project, sued Simon Property Group in December 2025 in the U.S. District Court for the Western District of Oklahoma, alleging Simon illegally tied favorable lease terms across its national mall portfolio to tenants' agreement to avoid leasing space at OAK. The complaint alleges Simon used this leverage, plus direct threats and incentives, to block prospective tenants including restaurant chain North Italia from opening at OAK in favor of Simon's nearby Penn Square Mall. Simon has called the suit meritless and, in June 2026, moved to dismiss the amended complaint as an improper attempt to use antitrust law to shield OAK from ordinary competition; the motion remains pending.",
+      significance: "The case tests whether a dominant landlord's national portfolio leverage -- rather than any single lease term -- can itself support Sherman Act tying liability, a theory with particular relevance for REITs and mall owners with multi-market footprints. A ruling allowing the claims to proceed would signal materially higher antitrust exposure for large landlords using cross-portfolio concessions to influence tenant decisions in contested local submarkets.",
+      body: [
+        "A federal antitrust case pending in the Western District of Oklahoma is shaping up as a significant test of how far a dominant mall owner can go in using its national real estate portfolio to pressure retailers away from a competing project. In Oak Land and Development LLC, et al. v. Simon Property Group Inc., et al., Case No. 5:25-cv-01444, a group of Oklahoma City developers accuses Simon Property Group -- the nation's largest owner of shopping malls and premium outlet centers -- of illegally tying favorable lease terms across its national property portfolio to a tenant's agreement to avoid leasing space at a rival mixed-use development. With Simon's motion to dismiss the amended complaint now before U.S. District Judge Patrick R. Wyrick, the case tests whether ordinary competitive hardball crosses into antitrust liability once a landlord's market power is large enough.",
+        "Oak Land and Development LLC, joined by Veritas Development and other affiliated plaintiffs, filed suit in December 2025 to stop what the complaint calls an anticompetitive campaign by Simon Property Group and its chairman and chief executive to destroy OAK, a new lifestyle retail and mixed-use project the plaintiffs are developing in Oklahoma City. OAK competes directly with Simon's nearby Penn Square Mall, long an anchor of Oklahoma City retail.",
+        "The complaint's core theory is illegal tying under Section 1 of the Sherman Act. According to the plaintiffs, Simon leverages its coast-to-coast portfolio of malls and outlet centers to offer prospective tenants preferential terms -- discounted rent, favorable co-tenancy clauses, or other concessions across unrelated Simon properties -- conditioned on the tenant either leasing space at Penn Square or declining to lease space at any competing Oklahoma City shopping center, including OAK. The plaintiffs allege Simon used this leverage, along with direct threats and incentives, to block at least three prospective tenants from signing leases at OAK, most notably the upscale restaurant chain North Italia, which the complaint says was induced to choose a Simon-controlled location instead.",
+        "Simon Property Group has publicly called the suit meritless and fictional, and has pushed back hard in the litigation itself. In June 2026, Simon moved to dismiss the amended complaint, arguing that Oak Land is attempting to use antitrust law to shield itself from ordinary competition. Simon's position is that offering better lease terms to attract or retain tenants, even terms tied to a tenant's decision not to locate at a nearby competitor, reflects the procompetitive result of vigorous competition for tenants rather than an antitrust injury the Sherman Act was designed to remedy. As of this writing, Judge Wyrick has not ruled on the motion, and no trial date has been set; the plaintiffs have demanded a jury.",
+        "Tying claims are not new to antitrust law, but they are relatively uncommon in the context of commercial leasing, where bundling typically takes the form of portfolio-wide pricing or co-tenancy concessions rather than a single tied product. What makes this case notable for the commercial real estate industry is the premise that a landlord's size and geographic reach -- rather than any single lease term -- can itself be the instrument of anticompetitive conduct. If the court allows the claims to proceed past the pleading stage, the decision would signal that mall owners and other large landlords with national or regional footprints face a meaningfully different, and potentially higher, antitrust exposure than single-market landlords when they use portfolio-wide leverage to influence a tenant's decisions in a specific, contested submarket. The case also sits alongside a broader pattern of antitrust scrutiny of real estate and hospitality pricing practices, including recent litigation over algorithmic rent-setting software in the multifamily and hospitality sectors, suggesting courts and plaintiffs' counsel are increasingly willing to treat large, cross-market real estate ownership itself as a potential antitrust lever, not just a business efficiency.",
+        "For REITs, mall owners, and other landlords with multi-property portfolios, the case is worth tracking closely regardless of its outcome. Lease negotiations that explicitly or implicitly condition portfolio-wide concessions on a tenant avoiding a competing project deserve antitrust counsel's review before they are offered, particularly where the landlord holds significant market share in the relevant submarket, and internal communications describing competitive strategy toward a specific rival development -- especially language framing a goal as blocking or destroying a competitor rather than simply winning tenants on the merits -- can become central exhibits in litigation like this one. Developers facing similar pressure from a dominant competitor, meanwhile, would do well to document specific instances where a landlord's portfolio-wide leverage, rather than ordinary price or amenity competition, appears to have induced a prospective tenant to walk away, since that kind of granular factual record is precisely what carried the Oak Land plaintiffs' tying theory past Simon's initial dismissal arguments and into the current, more developed motion practice."
+      ],
+      judge: "Patrick R. Wyrick",
+      parties: [
+        { name: "Oak Land and Development LLC", role: "Plaintiff/Developer" },
+        { name: "Veritas Development", role: "Plaintiff/Developer" },
+        { name: "Simon Property Group Inc.", role: "Defendant" }
+      ],
+      timeline: [
+        { when: "December 3, 2025", label: "Oak Land and Development LLC and affiliated plaintiffs sue Simon Property Group in the Western District of Oklahoma" },
+        { when: "June 2026", label: "Simon Property Group moves to dismiss the amended antitrust complaint", current: true }
+      ],
+      tags: ["antitrust", "tying", "shopping-mall", "oklahoma", "simon-property-group"]
     }
   ],
 
