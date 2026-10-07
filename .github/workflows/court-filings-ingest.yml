@@ -22,6 +22,7 @@ on:
 
 permissions:
   contents: write # commits the public alert log after every run
+  actions: write # starts the prerender job (Chapter 11 pages)
 
 concurrency:
   group: court-filings-ingest
@@ -43,14 +44,15 @@ jobs:
           WINDOW_DAYS: ${{ inputs.window_days || '3' }}
           WRITE_ALERT_LOG: "1"
         # Two runs a day share CourtListener's 125-request daily allowance
-        # with the docket tracker (docket-activity.yml, up to 12): 55+55+12.
-        run: python3 scripts/ingest_court_filings.py --budget 55
+        # with the docket tracker (docket-activity.yml, up to 30): 45+45+30.
+        # A run actually uses about 8 (2026-10-06 logs); this is the ceiling.
+        run: python3 scripts/ingest_court_filings.py --budget 45
       - name: Commit the alert log
         # Runs even when the ingest step failed: a failed run belongs in
         # the public log too.
         if: always()
         run: |
-          git add alert-log.html ops/alert-runs.json ops/alert-audit.json ops/fresh-filings.json 2>/dev/null || true
+          git add alert-log.html ops/alert-runs.json ops/alert-audit.json ops/fresh-filings.json ops/ch11-petitions.json 2>/dev/null || true
           if git diff --cached --quiet; then echo "Nothing to record."; exit 0; fi
           git config user.name "credocket-surveillance-bot"
           git config user.email "actions@users.noreply.github.com"
@@ -63,3 +65,10 @@ jobs:
             sleep $((i * 10))
           done
           [ "$ok" = 1 ]
+      # Commits pushed by this job do not start other workflows, so ask the
+      # prerender job to rebuild Chapter 11 Watch and the chapter-11/ pages.
+      - name: Rebuild the Chapter 11 pages
+        if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run prerender.yml --ref main || echo "::warning::Could not start the prerender job"

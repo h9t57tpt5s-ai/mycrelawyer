@@ -52,9 +52,28 @@ DEFAULT_FUNCTION_URL = "https://ribmcdyoydhmafnyfhpp.supabase.co/functions/v1/in
 SECONDS_BETWEEN_REQUESTS = 13
 RUNS = pathlib.Path("ops/alert-runs.json")
 FRESH = pathlib.Path("ops/fresh-filings.json")
-# Same name test as bankruptcy-watch.html's RE_HINT, so this file lists only
-# what that public page already shows: real estate and construction debtors.
-RE_HINT = re.compile(r"^\d+(-\d+)?\s|\b(propert(y|ies)|realty|real estate|developments?|developers?|apartments?|plaza|towers?|land|estates?|homebuilders?|construction|builders?|contractors?|hotels?|lodging|mall|shopping center|condominium|self storage|storage|roofing|flooring|electric|plumbing|demolition)\b", re.I)
+PETITIONS = pathlib.Path("ops/ch11-petitions.json")
+PETITION_DAYS_KEPT = 365
+# Which Chapter 11 debtors are shown PUBLICLY (Chapter 11 Watch, the
+# chapter-11/ pages, ops/fresh-filings.json for the research routine).
+# Jeff's rule: commercial real estate on its face, nothing else. Read from
+# the debtor's name only: real estate words, or a name that opens with a
+# street number ("701 Bay LLC", "110-09 101 AVE LLC"); a bare leading digit
+# ("3pm Group") does not count. EXCLUDE wins: trade contractors, home
+# builders, residential and condominium names, service firms, restaurants
+# and energy companies stay out (2026-10-07: plumbing and electrical
+# contractors had been listed). Private portfolio matching is unaffected:
+# every business petition is still checked against users' own names.
+CRE_INCLUDE = re.compile(
+    r"^\d+(-\d+)?\s|\b(propert(y|ies)|realty|real estate|reits?|developments?|developers?|apartments?|plaza|towers?|land"
+    r"|hotels?|motels?|lodging|resorts?|mall|shopping (center|centre)|office (park|building|center|plaza)|business park"
+    r"|industrial park|self[- ]storage|mini[- ]storage)\b", re.I)
+CRE_EXCLUDE = re.compile(
+    r"\b(construction|contractors?|contracting|builders?|homebuilders?|homes?|townhomes?|town ?houses?|residential"
+    r"|condominiums?|condos?|units?|roofing|flooring|electric(al)?|plumbing|demolition|hvac|mechanical|excavating|paving"
+    r"|landscaping|services?|solutions|systems|management|brokerage|mortgage|title|insurance|restaurants?|cafe|grill|bar"
+    r"|pizza|eatery|kitchen|tavern|d/?b/?a|petroleum|oil|gas|energy|mining|resources|business development|software"
+    r"|consulting)\b", re.I)
 MAX_RUNS_KEPT = 90
 MAX_CH11_PAGES = 10
 DESIGNATORS = {"llc", "inc", "incorporated", "corp", "corporation", "co", "company",
@@ -293,6 +312,25 @@ def is_business_name(name):
     return bool(name) and bool(BUSINESS_NAME.search(name)) and not NOT_A_BUSINESS.search(name)
 
 
+def is_cre_debtor(name):
+    return is_business_name(name) and bool(CRE_INCLUDE.search(name)) and not CRE_EXCLUDE.search(name)
+
+
+def slugify(text):
+    return re.sub(r"[^a-z0-9]+", "-", text.lower()).strip("-")
+
+
+def petition_row(f):
+    """One public Chapter 11 Watch row: the debtor and the court record only."""
+    docket_id = re.search(r"/docket/(\d+)/", f["docket_url"])
+    name = re.sub(r"\s+", " ", f["case_name"]).strip()
+    return {"caseName": name, "court": f["court_name"], "courtId": f.get("court_id") or "",
+            "docketNumber": f["docket_number"], "dateFiled": f["date_filed"], "docketUrl": f["docket_url"],
+            "docketId": int(docket_id.group(1)) if docket_id else None,
+            "slug": f"{slugify(name)[:60].strip('-')}-{f.get('court_id') or 'court'}-{slugify(f['docket_number'] or str(f.get('source_docket_id', '')))}",
+            "type": "Chapter 11 petition"}
+
+
 def stable_id(source, case_number):
     # court_filings keys on an integer; 52 bits stays exact in JSON numbers.
     return int(hashlib.sha256(f"{source}:{case_number}".encode()).hexdigest()[:13], 16)
@@ -480,11 +518,8 @@ def main():
     # added daily"). The routine cannot reach court sites from its cloud
     # environment, so the day's real estate Chapter 11 petitions are handed
     # to it through the repository.
-    FRESH_ROWS.extend(
-        {"caseName": f["case_name"], "court": f["court_name"], "docketNumber": f["docket_number"],
-         "dateFiled": f["date_filed"], "docketUrl": f["docket_url"], "type": "Chapter 11 petition"}
-        for f in filings.values()
-        if f["filing_type"] == "bankruptcy_ch11" and RE_HINT.search(f["case_name"]))
+    FRESH_ROWS.extend(petition_row(f) for f in filings.values()
+                      if f["filing_type"] == "bankruptcy_ch11" and is_cre_debtor(f["case_name"]))
 
     try:
         sec_rows = pull_sec_8k(date_from, date_to)
@@ -572,18 +607,26 @@ FRESH_ROWS = []
 
 
 def write_fresh():
-    """ops/fresh-filings.json: real estate Chapter 11 petitions filed in the
-    last four days, newest first, merged with the previous file so a run
-    that pulls a narrow window does not drop yesterday's rows."""
-    cutoff = (dt.datetime.now(dt.timezone.utc).date() - dt.timedelta(days=4)).isoformat()
-    old = json.loads(FRESH.read_text()).get("filings", []) if FRESH.exists() else []
-    merged = {r["docketUrl"]: r for r in old + FRESH_ROWS if r.get("dateFiled", "") >= cutoff}
-    rows = sorted(merged.values(), key=lambda r: (r["dateFiled"], r["caseName"]), reverse=True)
-    FRESH.parent.mkdir(exist_ok=True)
-    FRESH.write_text(json.dumps({"updatedAt": dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds"),
-                                 "about": "Real estate and construction Chapter 11 petitions filed in the last four days, from federal court records via CourtListener. Same name test as bankruptcy-watch.html. Business debtors only.",
-                                 "filings": rows}, indent=1) + "\n")
-    print(f"Fresh filings file: {len(rows)} petition(s) since {cutoff}")
+    """ops/fresh-filings.json: commercial real estate Chapter 11 petitions
+    filed in the last four days (for the research routine), and
+    ops/ch11-petitions.json: every one from the last year (Chapter 11 Watch
+    and its chapter-11/ pages). Both merge with the previous file, so a run
+    that pulls a narrow window does not drop earlier rows, and both re-apply
+    the current name test, so tightening it removes rows too."""
+    today = dt.datetime.now(dt.timezone.utc).date()
+    stamp = dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds")
+    for path, days, about in (
+        (FRESH, 4, "Commercial real estate Chapter 11 petitions filed in the last four days, from federal court records via CourtListener. Same name test as Chapter 11 Watch (is_cre_debtor in scripts/ingest_court_filings.py). Business debtors only."),
+        (PETITIONS, PETITION_DAYS_KEPT, "Commercial real estate Chapter 11 petitions filed in the last year, from federal court records via CourtListener; is_cre_debtor in scripts/ingest_court_filings.py decides which. Business debtors only. Builds bankruptcy-watch.html and chapter-11/<slug>.html (scripts/build_ch11_pages.ts)."),
+    ):
+        cutoff = (today - dt.timedelta(days=days)).isoformat()
+        old = json.loads(path.read_text()).get("filings", []) if path.exists() else []
+        merged = {r["docketUrl"]: r for r in old + FRESH_ROWS
+                  if r.get("dateFiled", "") >= cutoff and is_cre_debtor(r.get("caseName", ""))}
+        rows = sorted(merged.values(), key=lambda r: (r["dateFiled"], r["caseName"]), reverse=True)
+        path.parent.mkdir(exist_ok=True)
+        path.write_text(json.dumps({"updatedAt": stamp, "about": about, "filings": rows}, indent=1) + "\n")
+        print(f"{path}: {len(rows)} petition(s) since {cutoff}")
 
 
 def write_audit(function_url, anon_key, secret):

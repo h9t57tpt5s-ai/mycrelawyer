@@ -3,6 +3,16 @@
  "startedOn": "2026-09-12",
  "entries": [
   {
+   "date": "2026-10-07",
+   "scope": "site",
+   "caseId": null,
+   "subject": "Chapter 11 Watch: which debtors are listed",
+   "kind": "Removed: out of scope",
+   "was": "The list included Chapter 11 debtors whose names indicated construction trades, home building, residential or service businesses, such as plumbing, electrical and roofing contractors.",
+   "now": "Removed. Chapter 11 Watch now lists only business debtors whose name indicates a commercial real estate owner, developer or single-property company, because CREdocket covers commercial real estate only.",
+   "basis": "Commercial-only scope rule"
+  },
+  {
    "date": "2026-09-25",
    "scope": "matter",
    "caseId": "live-135",
