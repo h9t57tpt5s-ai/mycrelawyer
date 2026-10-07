@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-06T17:24:27+00:00",
+ "updatedAt": "2026-10-07T01:46:49+00:00",
  "about": "Real estate and construction Chapter 11 petitions filed in the last four days, from federal court records via CourtListener. Same name test as bankruptcy-watch.html. Business debtors only.",
  "filings": [
   {
@@ -40,6 +40,30 @@
    "docketNumber": "26-12003",
    "dateFiled": "2026-10-06",
    "docketUrl": "https://www.courtlistener.com/docket/74924804/lza-real-properties-east-llc/",
+   "type": "Chapter 11 petition"
+  },
+  {
+   "caseName": "Keinan Properties, LLC",
+   "court": "United States Bankruptcy Court, D. Kansas",
+   "docketNumber": "26-21557",
+   "dateFiled": "2026-10-06",
+   "docketUrl": "https://www.courtlistener.com/docket/74925931/keinan-properties-llc/",
+   "type": "Chapter 11 petition"
+  },
+  {
+   "caseName": "JRM Real Estate Holdings LLC",
+   "court": "United States Bankruptcy Court, D. New Jersey",
+   "docketNumber": "26-21388",
+   "dateFiled": "2026-10-06",
+   "docketUrl": "https://www.courtlistener.com/docket/74928132/jrm-real-estate-holdings-llc/",
+   "type": "Chapter 11 petition"
+  },
+  {
+   "caseName": "Integrity Roofing and Painting, LLC",
+   "court": "United States Bankruptcy Court, D. Colorado",
+   "docketNumber": "26-17374",
+   "dateFiled": "2026-10-06",
+   "docketUrl": "https://www.courtlistener.com/docket/74926342/integrity-roofing-and-painting-llc/",
    "type": "Chapter 11 petition"
   },
   {
@@ -136,70 +160,6 @@
    "docketNumber": "26-80072",
    "dateFiled": "2026-10-04",
    "docketUrl": "https://www.courtlistener.com/docket/74914157/american-hospitality-properties-reit-ii-inc/",
-   "type": "Chapter 11 petition"
-  },
-  {
-   "caseName": "Welco Electrical Contractors, LLC",
-   "court": "United States Bankruptcy Court, W.D. Arkansas",
-   "docketNumber": "6:26-bk-71967",
-   "dateFiled": "2026-10-02",
-   "docketUrl": "https://www.courtlistener.com/docket/74910461/welco-electrical-contractors-llc/",
-   "type": "Chapter 11 petition"
-  },
-  {
-   "caseName": "University Campus Hotel Fund, L.P., a California l",
-   "court": "United States Bankruptcy Court, C.D. California",
-   "docketNumber": "6:26-bk-18337",
-   "dateFiled": "2026-10-02",
-   "docketUrl": "https://www.courtlistener.com/docket/74911571/university-campus-hotel-fund-lp-a-california-l/",
-   "type": "Chapter 11 petition"
-  },
-  {
-   "caseName": "Maxkar Properties LLC",
-   "court": "United States Bankruptcy Court, E.D. Virginia",
-   "docketNumber": "26-34099",
-   "dateFiled": "2026-10-02",
-   "docketUrl": "https://www.courtlistener.com/docket/74911967/maxkar-properties-llc/",
-   "type": "Chapter 11 petition"
-  },
-  {
-   "caseName": "LVLM Murray Properties LLC",
-   "court": "United States Bankruptcy Court, W.D. Pennsylvania",
-   "docketNumber": "26-22766",
-   "dateFiled": "2026-10-02",
-   "docketUrl": "https://www.courtlistener.com/docket/74910883/lvlm-murray-properties-llc/",
-   "type": "Chapter 11 petition"
-  },
-  {
-   "caseName": "John Ciampoli Plumbing, Inc.",
-   "court": "United States Bankruptcy Court, S.D. California",
-   "docketNumber": "26-04373",
-   "dateFiled": "2026-10-02",
-   "docketUrl": "https://www.courtlistener.com/docket/74911703/john-ciampoli-plumbing-inc/",
-   "type": "Chapter 11 petition"
-  },
-  {
-   "caseName": "Davis Construction Services, LLC",
-   "court": "United States Bankruptcy Court, W.D. North Carolina",
-   "docketNumber": "26-31370",
-   "dateFiled": "2026-10-02",
-   "docketUrl": "https://www.courtlistener.com/docket/74910214/davis-construction-services-llc/",
-   "type": "Chapter 11 petition"
-  },
-  {
-   "caseName": "Current Electric Company",
-   "court": "United States Bankruptcy Court, E.D. North Carolina",
-   "docketNumber": "26-04482",
-   "dateFiled": "2026-10-02",
-   "docketUrl": "https://www.courtlistener.com/docket/74911096/current-electric-company/",
-   "type": "Chapter 11 petition"
-  },
-  {
-   "caseName": "Augusta Construction, LLC",
-   "court": "United States Bankruptcy Court, S.D. Georgia",
-   "docketNumber": "26-10874",
-   "dateFiled": "2026-10-02",
-   "docketUrl": "https://www.courtlistener.com/docket/74908816/augusta-construction-llc/",
    "type": "Chapter 11 petition"
   }
  ]
