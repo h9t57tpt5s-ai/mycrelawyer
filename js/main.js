@@ -705,10 +705,30 @@
       watchlist: { name: `${cat ? cat.label : c.category}${stateName ? ` — ${stateName}` : ""}`, categories: [c.category], states: c.state ? [c.state] : [] },
     };
   }
+  // Matters with a CourtListener docket can be followed (same box as the
+  // matter pages, js/matter-page.js): the daily docket job emails each new
+  // ruling or closing.
+  function followTarget(c) {
+    const m = /courtlistener\.com\/docket\/(\d+)\//.exec(c.docketUrl || "");
+    if (!m) return null;
+    const label = String(c.title || "").replace(/<[^>]+>/g, "").replace(/&amp;/g, "&").slice(0, 200);
+    return { docketId: Number(m[1]), label, path: `/matters/${c.id}.html` };
+  }
   function keepReadingHtml(c) {
     const t = alertTarget(c);
+    const f = followTarget(c);
     return `
         <div class="keep-reading">
+          ${f ? `<div class="alert-box" data-follow-box>
+            <div class="eyebrow">Alerts</div>
+            <h3>Email me when the court rules in this case</h3>
+            <form class="gate-form" data-follow-form novalidate>
+              <label class="sr-only" for="follow-email-${c.id}">Email address</label>
+              <input type="email" id="follow-email-${c.id}" autocomplete="email" placeholder="you@company.com" />
+              <button type="submit" class="btn btn-primary btn-sm">Follow this case</button>
+            </form>
+            <p class="gate-form-status" data-follow-status role="status"></p>
+          </div>` : ""}
           <div class="alert-box" data-alert-box>
             <div class="eyebrow">Alerts</div>
             <h3>Get an email when new ${escapeHtml(t.label)} are filed</h3>
@@ -752,6 +772,41 @@
         return;
       }
       status.className = "gate-form-status is-success";
+    });
+  }
+
+  function wireFollowBox(root, c) {
+    const box = root.querySelector("[data-follow-box]");
+    const f = followTarget(c);
+    if (!box || !f || !window.RELAW_AUTH) return;
+    const auth = window.RELAW_AUTH;
+    const form = box.querySelector("[data-follow-form]");
+    const input = form.querySelector("input");
+    const btn = form.querySelector("button");
+    const status = box.querySelector("[data-follow-status]");
+    let following = false;
+    const say = (text, kind) => { status.textContent = text; status.className = "gate-form-status" + (kind ? " is-" + kind : ""); };
+    const show = () => {
+      input.hidden = !!auth.getSession();
+      btn.textContent = following ? "Stop following" : "Follow this case";
+      btn.className = following ? "btn btn-ghost btn-sm" : "btn btn-primary btn-sm";
+    };
+    show();
+    if (auth.getSession()) auth.isFollowing(f.docketId).then((yes) => { following = yes; show(); if (yes) say("You're following this case. We'll email you when the court rules.", "success"); });
+    form.addEventListener("submit", async (e) => {
+      e.preventDefault();
+      btn.disabled = true;
+      if (auth.getSession()) {
+        const res = following ? await auth.unfollowDocket(f.docketId) : await auth.followDocket(f);
+        if (res.ok) { following = !following; say(following ? "You're following this case. We'll email you when the court rules." : "You've stopped following this case.", "success"); }
+        else say(res.error, "error");
+        show();
+      } else {
+        say("Sending…");
+        const res = await auth.sendMagicLink(input.value, { follow: f, caseId: c.id, redirectTo: location.origin + "/litigation.html?case=" + encodeURIComponent(c.id) });
+        say(res.ok ? "Check your inbox. You'll be following this case once you click the sign-in link." : res.error, res.ok ? "success" : "error");
+      }
+      btn.disabled = false;
     });
   }
 
@@ -986,6 +1041,7 @@
       `;
       document.getElementById("detail-close-btn").addEventListener("click", close);
       wireAlertBox(panel, c);
+      wireFollowBox(panel, c);
       panel.dataset.caseId = c.id;
       if (window.RELAW_TRACK) window.RELAW_TRACK("panel_open", { caseId: c.id });
       const permalink = panel.querySelector(".detail-permalink");

@@ -4,8 +4,11 @@ name: Follow tracked federal dockets
 # tracker matter with a CourtListener docket, written to
 # ops/docket-activity.json. The site shows them on each matter, and the
 # digest routine (12:00 UTC) writes up the rulings, so this runs first.
-# About 8 CourtListener requests a day (budget 12), from the same 125/day token
-# allowance the surveillance workflow uses.
+# Also checks recent commercial real estate Chapter 11 dockets
+# (ops/ch11-activity.json) and every docket a reader follows, and hands new
+# rulings to the docket-follows function, which emails the followers.
+# Budget 30 CourtListener requests (about 15 used), from the same 125/day
+# token allowance the surveillance workflow uses (45 + 45).
 
 on:
   schedule:
@@ -13,7 +16,8 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: write # commits ops/docket-activity.json
+  contents: write # commits ops/docket-activity.json and ops/ch11-activity.json
+  actions: write # starts the prerender job (Chapter 11 pages)
 
 concurrency:
   group: docket-activity
@@ -33,10 +37,13 @@ jobs:
       - name: Pull new docket entries
         env:
           COURTLISTENER_TOKEN: ${{ secrets.COURTLISTENER_TOKEN }}
-        run: python3 scripts/track_dockets.py --budget 12
+          AUTOMATION_SECRET: ${{ secrets.AUTOMATION_SECRET }}
+          SUPABASE_ANON_KEY: sb_publishable_77xSJub0DOpnTSM4nzhVaQ_aztB5p3f
+        run: python3 scripts/track_dockets.py --budget 30
       - name: Commit the docket activity
         run: |
           git add ops/docket-activity.json
+          git add ops/ch11-activity.json 2>/dev/null || true
           if git diff --cached --quiet; then echo "Nothing new."; exit 0; fi
           git config user.name "credocket-docket-bot"
           git config user.email "actions@users.noreply.github.com"
@@ -49,3 +56,8 @@ jobs:
             sleep $((i * 10))
           done
           [ "$ok" = 1 ]
+      # Commits pushed by this job do not start other workflows.
+      - name: Rebuild the Chapter 11 pages
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run prerender.yml --ref main || echo "::warning::Could not start the prerender job"

@@ -92,6 +92,54 @@
     window.addEventListener("load", adapt);
   }
 
+  // "Email me when the court rules in this case" (matter pages with a
+  // CourtListener docket, and chapter-11/ pages). Needs the free account;
+  // signed-out readers get a sign-in link and the follow is saved on return.
+  const followBox = document.querySelector("[data-follow-box]");
+  if (followBox) {
+    let follow = null;
+    try { follow = JSON.parse(followBox.dataset.follow); } catch (e) { follow = null; }
+    const form = followBox.querySelector("[data-follow-form]");
+    const input = form.querySelector("input");
+    const btn = form.querySelector("button");
+    const status = followBox.querySelector("[data-follow-status]");
+    let following = false;
+    const show = () => {
+      const signedIn = !!(auth() && auth().getSession());
+      input.hidden = signedIn;
+      btn.textContent = following ? "Stop following" : "Follow this case";
+      btn.className = following ? "btn btn-ghost btn-sm" : "btn btn-primary btn-sm";
+    };
+    const refresh = async () => {
+      if (auth() && auth().getSession() && follow) following = await auth().isFollowing(follow.docketId);
+      show();
+      if (following && !status.textContent) setStatus(status, "You're following this case. We'll email you when the court rules.", "success");
+    };
+    if (/[?&]unfollowed=1\b/.test(location.search)) setStatus(status, "You've stopped following this case.", "success");
+    form.addEventListener("submit", async (e) => {
+      e.preventDefault();
+      if (!auth() || !follow) { setStatus(status, "Following isn't available right now. Try again in a moment.", "error"); return; }
+      btn.disabled = true;
+      if (auth().getSession()) {
+        const res = following ? await auth().unfollowDocket(follow.docketId) : await auth().followDocket(follow);
+        if (res.ok) {
+          following = !following;
+          setStatus(status, following ? "You're following this case. We'll email you when the court rules." : "You've stopped following this case.", "success");
+        } else setStatus(status, res.error, "error");
+        show();
+      } else {
+        setStatus(status, "Sending…");
+        const res = await auth().sendMagicLink(input.value, { follow, redirectTo: location.origin + location.pathname });
+        setStatus(status, res.ok ? "Check your inbox. You'll be following this case once you click the sign-in link." : res.error, res.ok ? "success" : "error");
+      }
+      btn.disabled = false;
+    });
+    document.addEventListener("relaw:follows-changed", refresh);
+    let tries = 0;
+    const wait = () => { if (auth() && auth().getSession()) refresh(); else if (tries++ < 10) setTimeout(wait, 500); };
+    window.addEventListener("load", wait);
+  }
+
   const copy = document.getElementById("matter-copy");
   if (copy) {
     copy.addEventListener("click", async () => {

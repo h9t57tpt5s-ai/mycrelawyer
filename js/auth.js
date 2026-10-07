@@ -26,6 +26,7 @@
     renderNavWidget();
     resumePendingCaseIfAny();
     resumePendingWatchlistIfAny();
+    resumePendingFollowIfAny();
   });
 
   sb.auth.onAuthStateChange((_event, session) => {
@@ -33,6 +34,7 @@
     renderNavWidget();
     resumePendingCaseIfAny();
     resumePendingWatchlistIfAny();
+    resumePendingFollowIfAny();
   });
 
   /* ---------- One-field sign-up from the sign-in prompt or an alert box ----------
@@ -50,9 +52,12 @@
     if (opts.watchlist) {
       try { localStorage.setItem(PENDING_WATCHLIST_KEY, JSON.stringify({ ...opts.watchlist, savedAt: Date.now() })); } catch (e) { /* private window */ }
     }
+    if (opts.follow) {
+      try { localStorage.setItem(PENDING_FOLLOW_KEY, JSON.stringify({ ...opts.follow, savedAt: Date.now() })); } catch (e) { /* private window */ }
+    }
     const { error } = await sb.auth.signInWithOtp({ email, options: { emailRedirectTo: opts.redirectTo || window.location.href } });
     if (error) return { ok: false, error: error.message || "Something went wrong. Try again." };
-    if (window.RELAW_TRACK) window.RELAW_TRACK("magic_link_sent", { caseId: opts.caseId || null, detail: opts.watchlist ? "watchlist" : "prompt" });
+    if (window.RELAW_TRACK) window.RELAW_TRACK("magic_link_sent", { caseId: opts.caseId || null, detail: opts.follow ? "follow" : opts.watchlist ? "watchlist" : "prompt" });
     return { ok: true };
   }
 
@@ -67,6 +72,48 @@
     if (error) return { ok: false, error: error.message || "Couldn't save the watchlist." };
     if (window.RELAW_TRACK) window.RELAW_TRACK("watchlist_cta", { detail: "created" });
     return { ok: true };
+  }
+
+  /* ---------- Follow one case ("Email me when the court rules") ----------
+     A follow is one CourtListener docket (a matter's, or a Chapter 11
+     petition's). The daily docket job emails followers each new ruling or
+     closing (supabase/functions/docket-follows). */
+  const PENDING_FOLLOW_KEY = "credocket_pending_follow";
+  async function followDocket(f) {
+    if (!currentSession || !currentSession.user) return { ok: false, error: "Not signed in." };
+    const { error } = await sb.from("docket_follows").insert({
+      user_id: currentSession.user.id, docket_id: f.docketId, label: String(f.label || "").slice(0, 200), page_path: f.path,
+    });
+    if (error && error.code === "23505") return { ok: true, existed: true };
+    if (error) return { ok: false, error: error.message || "Couldn't follow this case." };
+    if (window.RELAW_TRACK) window.RELAW_TRACK("docket_follow", { detail: "created" });
+    return { ok: true };
+  }
+  async function isFollowing(docketId) {
+    if (!currentSession || !currentSession.user) return false;
+    const { data } = await sb.from("docket_follows").select("id").eq("docket_id", docketId).limit(1);
+    return !!(data && data.length);
+  }
+  async function unfollowDocket(docketId) {
+    if (!currentSession || !currentSession.user) return { ok: false, error: "Not signed in." };
+    const { error } = await sb.from("docket_follows").delete().eq("docket_id", docketId).eq("user_id", currentSession.user.id);
+    return error ? { ok: false, error: error.message } : { ok: true };
+  }
+  let resumingFollow = false;
+  async function resumePendingFollowIfAny() {
+    if (!currentSession || resumingFollow) return;
+    let pending = null;
+    try { pending = JSON.parse(localStorage.getItem(PENDING_FOLLOW_KEY) || "null"); } catch (e) { pending = null; }
+    if (!pending || !pending.docketId) return;
+    resumingFollow = true;
+    try { localStorage.removeItem(PENDING_FOLLOW_KEY); } catch (e) { /* ignore */ }
+    if (Date.now() - (pending.savedAt || 0) > 24 * 60 * 60 * 1000) { resumingFollow = false; return; }
+    const res = await followDocket(pending);
+    resumingFollow = false;
+    if (res.ok && window.RELAW_UTILS && window.RELAW_UTILS.showToast) {
+      window.RELAW_UTILS.showToast(`You're following ${pending.label}. We'll email you when the court rules.`);
+    }
+    document.dispatchEvent(new CustomEvent("relaw:follows-changed"));
   }
 
   let resumingWatchlist = false;
@@ -484,6 +531,9 @@
     getSession: () => currentSession,
     sendMagicLink,
     createWatchlist,
+    followDocket,
+    isFollowing,
+    unfollowDocket,
     openSignInModal,
     checkGate,
     MONTHLY_LIMIT,

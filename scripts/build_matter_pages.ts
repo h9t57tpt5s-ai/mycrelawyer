@@ -180,6 +180,10 @@ function mainFor(c: Case): string {
   const latest = tl.length ? (tl.find((ev) => ev.current) || tl[tl.length - 1]) : null;
   const watch = { name: `${k.label}${stateName ? ` — ${stateName}` : ""}`, categories: [c.category], states: c.state ? [c.state] : [] };
   const share = encodeURIComponent(url(c));
+  // Matters with a CourtListener docket can be followed: the daily docket
+  // job emails followers each new ruling or closing.
+  const docketId = /courtlistener\.com\/docket\/(\d+)\//.exec(c.docketUrl || "")?.[1];
+  const follow = docketId ? { docketId: Number(docketId), label: clip(plain(c.title), 200), path: `/matters/${c.id}.html` } : null;
   return `<main id="main-content" tabindex="-1">
 
 <header class="page-header matter-header">
@@ -211,6 +215,17 @@ function mainFor(c: Case): string {
     ${latest ? `<p class="gate-timeline-peek"><span>Case timeline · ${tl.length} ${tl.length === 1 ? "entry" : "entries"}</span> Latest: ${latest.when} — ${latest.label}</p>` : ""}` : ""}
 
     <div class="matter-cta-row">
+      ${follow ? `<div class="card matter-cta" data-follow-box data-follow="${esc(JSON.stringify(follow))}">
+        <div class="eyebrow">Alerts</div>
+        <h2 class="matter-h2">Email me when the court rules in this case</h2>
+        <p class="text-secondary">We check this federal docket every day. One email when an order, judgment, dismissal or closing appears. Free account; stop any time.</p>
+        <form class="gate-form" data-follow-form novalidate>
+          <label class="sr-only" for="follow-email">Email address</label>
+          <input type="email" id="follow-email" autocomplete="email" placeholder="you@company.com" />
+          <button type="submit" class="btn btn-primary btn-sm">Follow this case</button>
+        </form>
+        <p class="gate-form-status" data-follow-status role="status"></p>
+      </div>` : ""}
       ${hasMore ? `<div class="card matter-cta" id="matter-keep-reading" data-case-id-target="${esc(c.id)}">
         <div class="eyebrow">Free · no account needed</div>
         <h2 class="matter-h2">Keep reading</h2>
