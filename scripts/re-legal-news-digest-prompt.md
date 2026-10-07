@@ -19,8 +19,13 @@ construction Chapter 11 petitions filed in the last four days, written by the
 surveillance job from federal court records). Choose the significant commercial
 real estate debtors, find coverage with WebSearch, and add each as a matter dated
 to its filing date, with the file's `docketUrl` as a confirmed CourtListener
-docket. At most one petition per run may be added from the court record alone
-(summary limited to what the record shows). Aim for one to three per run; never
+docket. Up to three petitions per run may be added from the court record alone
+(raised from one on 2026-10-07: these pages draw searches for the debtor's name
+because few others cover them), but only debtors that are commercial real estate
+on their face (a property owner, developer or single-asset entity named for an
+address or project), never an individual or a non-real-estate business; the
+summary is limited to what the record shows (debtor, court, case number, date
+filed, chapter). Aim for one to three per run, record-only ones included; never
 duplicate a debtor already in `js/data.js`.
 
 **Freshness rules for every addition:** prefer events from the last 3 days, and
