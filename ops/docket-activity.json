@@ -1,7 +1,7 @@
 {
- "updatedAt": "2026-10-07T02:46:23+00:00",
+ "updatedAt": "2026-10-07T16:42:47+00:00",
  "source": "CourtListener RECAP archive (federal courts only). Entries appear when CourtListener receives them, so some are late or missing.",
- "requestsUsed": 18,
+ "requestsUsed": 16,
  "errors": [],
  "dockets": {
   "63107484": {
@@ -118,6 +118,13 @@
      "date": "2026-10-05",
      "number": null,
      "text": "Notice of Pro Hac Vice counsel added",
+     "url": "https://www.courtlistener.com/docket/67356054/cornish-adebiyi-v-caesars-entertainment-inc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-10-05",
+     "number": null,
+     "text": "Pro Hac Vice counsel, DIANA J. ZINSER for MONICA BLAIR-SMITH, has been added to receive Notices of Electronic Filing. Pursuant to L.Civ.R. 101.1, only local cou",
      "url": "https://www.courtlistener.com/docket/67356054/cornish-adebiyi-v-caesars-entertainment-inc/",
      "ruling": false
     },
@@ -801,6 +808,27 @@
   "73687065": {
    "entries": [
     {
+     "date": "2026-10-07",
+     "number": 19,
+     "text": "Extension of Time to File Answer / Respond to Complaint",
+     "url": "https://www.courtlistener.com/docket/73687065/19/securities-and-exchange-commission-v-rad-diversified-reit-inc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-10-07",
+     "number": 18,
+     "text": "Extension of Time to File Answer / Respond to Complaint",
+     "url": "https://www.courtlistener.com/docket/73687065/18/securities-and-exchange-commission-v-rad-diversified-reit-inc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-10-07",
+     "number": null,
+     "text": "Order on Motion for Extension of Time to Answer AND Order on Motion for Extension of Time to Answer",
+     "url": "https://www.courtlistener.com/docket/73687065/securities-and-exchange-commission-v-rad-diversified-reit-inc/",
+     "ruling": false
+    },
+    {
      "date": "2026-09-28",
      "number": 17,
      "text": "Disclosure Statement - LR 3.03 and FRCP 7.1",
@@ -843,7 +871,7 @@
    "docketNumber": "8:26-cv-02186",
    "dateTerminated": null,
    "url": "https://www.courtlistener.com/docket/73687065/securities-and-exchange-commission-v-rad-diversified-reit-inc/",
-   "lastEntryDate": "2026-09-28"
+   "lastEntryDate": "2026-10-07"
   },
   "73733742": {
    "entries": [
@@ -1807,6 +1835,20 @@
   "74922099": {
    "entries": [
     {
+     "date": "2026-10-07",
+     "number": 5,
+     "text": "Order Setting Deadlines for Debtor to Correct Filing Deficiencies (Non-Individual)",
+     "url": "https://www.courtlistener.com/docket/74922099/5/janam-taccoa-lodging-llc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-10-07",
+     "number": 4,
+     "text": "03-Meeting of Creditors (Chapter 11)",
+     "url": "https://www.courtlistener.com/docket/74922099/4/janam-taccoa-lodging-llc/",
+     "ruling": false
+    },
+    {
      "date": "2026-10-06",
      "number": 3,
      "text": "Notice of Appearance",
@@ -1842,7 +1884,7 @@
    "docketNumber": "26-63515",
    "dateTerminated": null,
    "url": "https://www.courtlistener.com/docket/74922099/janam-taccoa-lodging-llc/",
-   "lastEntryDate": "2026-10-06"
+   "lastEntryDate": "2026-10-07"
   }
  },
  "events": [

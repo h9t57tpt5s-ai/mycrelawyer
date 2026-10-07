@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-07T02:50:17+00:00",
+ "updatedAt": "2026-10-07T16:45:56+00:00",
  "source": "CourtListener RECAP archive (federal courts only): orders, judgments, dismissals and closings on recent commercial real estate Chapter 11 dockets. Entries appear when CourtListener receives them, so some are late or missing.",
  "errors": [],
  "dockets": {
@@ -59,6 +59,13 @@
   "74765847": {
    "entries": [
     {
+     "date": "2026-10-07",
+     "number": 27,
+     "text": "Vacate/Reconsider/Set Aside Dismissal of Case - Including Amended Motion",
+     "url": "https://www.courtlistener.com/docket/74765847/27/3n-land-and-building-fund-reit-inc/",
+     "ruling": true
+    },
+    {
      "date": "2026-10-06",
      "number": 26,
      "text": "Order Dismissing Case for Failure to Timely File Documents (on NOI) BNC",
@@ -107,7 +114,7 @@
    "docketNumber": "26-25238",
    "dateTerminated": null,
    "url": "https://www.courtlistener.com/docket/74765847/3n-land-and-building-fund-reit-inc/",
-   "lastEntryDate": "2026-10-06"
+   "lastEntryDate": "2026-10-07"
   },
   "74768386": {
    "entries": [
@@ -839,6 +846,13 @@
   "74843946": {
    "entries": [
     {
+     "date": "2026-10-07",
+     "number": 38,
+     "text": "Amended Order",
+     "url": "https://www.courtlistener.com/docket/74843946/38/3-strand-holdings-llc/",
+     "ruling": false
+    },
+    {
      "date": "2026-10-05",
      "number": 36,
      "text": "Order (Generic)",
@@ -859,7 +873,7 @@
    "docketNumber": "8:26-bk-08621",
    "dateTerminated": null,
    "url": "https://www.courtlistener.com/docket/74843946/3-strand-holdings-llc/",
-   "lastEntryDate": "2026-10-05"
+   "lastEntryDate": "2026-10-07"
   },
   "74843985": {
    "entries": [
@@ -1349,14 +1363,22 @@
    "lastEntryDate": "2026-10-06"
   },
   "74922099": {
-   "entries": [],
+   "entries": [
+    {
+     "date": "2026-10-07",
+     "number": 5,
+     "text": "Order Setting Deadlines for Debtor to Correct Filing Deficiencies (Non-Individual)",
+     "url": "https://www.courtlistener.com/docket/74922099/5/janam-taccoa-lodging-llc/",
+     "ruling": false
+    }
+   ],
    "checkedAt": "2026-10-07",
    "slug": "janam-taccoa-lodging-llc-ganb-26-63515",
    "court": "Bankr. N.D. Ga.",
    "docketNumber": "26-63515",
    "dateTerminated": null,
    "url": "https://www.courtlistener.com/docket/74922099/janam-taccoa-lodging-llc/",
-   "lastEntryDate": null
+   "lastEntryDate": "2026-10-07"
   },
   "74922668": {
    "entries": [],
@@ -1379,14 +1401,36 @@
    "lastEntryDate": null
   },
   "74923337": {
-   "entries": [],
+   "entries": [
+    {
+     "date": "2026-10-07",
+     "number": 6,
+     "text": "Order Setting Deadlines for Debtor to Correct Filing Deficiencies (Non-Individual)",
+     "url": "https://www.courtlistener.com/docket/74923337/6/lesam-realty-llc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-10-07",
+     "number": 5,
+     "text": "Order Regarding Unpaid Case Filing Fees",
+     "url": "https://www.courtlistener.com/docket/74923337/5/lesam-realty-llc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-10-07",
+     "number": 4,
+     "text": "Order Regarding Pro Se Entity Filing",
+     "url": "https://www.courtlistener.com/docket/74923337/4/lesam-realty-llc/",
+     "ruling": false
+    }
+   ],
    "checkedAt": "2026-10-07",
    "slug": "lesam-realty-llc-ganb-26-63571",
    "court": "Bankr. N.D. Ga.",
    "docketNumber": "26-63571",
    "dateTerminated": null,
    "url": "https://www.courtlistener.com/docket/74923337/lesam-realty-llc/",
-   "lastEntryDate": null
+   "lastEntryDate": "2026-10-07"
   },
   "74923616": {
    "entries": [],
@@ -1438,6 +1482,16 @@
   }
  },
  "events": [
+  {
+   "key": "74765847:27:2026-10-07:vacate/reconsider/set aside dismissal of case - including amended motion",
+   "docketId": "74765847",
+   "date": "2026-10-07",
+   "kind": "ruling",
+   "text": "Vacate/Reconsider/Set Aside Dismissal of Case - Including Amended Motion",
+   "entry": 27,
+   "url": "https://www.courtlistener.com/docket/74765847/27/3n-land-and-building-fund-reit-inc/",
+   "firstSeen": "2026-10-07"
+  },
   {
    "key": "74914151:16:2026-10-05:order granting complex chapter 11 treatment",
    "docketId": "74914151",
