@@ -40,6 +40,8 @@ WORKFLOWS = {
     "tests.yml": "Tests",
     "docket-activity.yml": "Follow tracked federal dockets",
     "verify-signals.yml": "Verify and publish Market Signals",
+    "weekly-newsletter.yml": "Weekly newsletter (New on CREdocket)",
+    "engagement-report.yml": "Weekly engagement report",
 }
 # GitHub starts scheduled runs up to ~4 hours late, so allow for it.
 MAX_AGE_HOURS = {"surveillance": 18, "fresh filings": 18, "docket activity": 32}
