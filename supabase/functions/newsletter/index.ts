@@ -24,8 +24,8 @@ import { createClient } from "npm:@supabase/supabase-js@2";
 const AUTOMATION_SECRET = Deno.env.get("AUTOMATION_SECRET") ?? "";
 const RESEND_API_KEY = Deno.env.get("RESEND_API_KEY") ?? "";
 const OWNER_EMAIL = Deno.env.get("OPS_ALERT_EMAIL") || "jeffnovel@icloud.com";
-// Set when Jeff provides it (CAN-SPAM requires a valid postal address).
-const POSTAL_ADDRESS = Deno.env.get("NEWSLETTER_POSTAL_ADDRESS") || "";
+// CAN-SPAM requires a valid postal address in every issue (Jeff, 2026-10-06).
+const POSTAL_ADDRESS = Deno.env.get("NEWSLETTER_POSTAL_ADDRESS") || "CREdocket · 901 Main Street, Suite 5200, Dallas, TX 75202";
 const SITE = "https://credocket.com";
 const FN_URL = "https://ribmcdyoydhmafnyfhpp.supabase.co/functions/v1/newsletter";
 const UTM = "utm_source=credocket&utm_medium=email&utm_campaign=weekly-newsletter";
