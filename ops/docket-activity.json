@@ -1,7 +1,7 @@
 {
- "updatedAt": "2026-10-06T16:04:20+00:00",
+ "updatedAt": "2026-10-07T02:46:23+00:00",
  "source": "CourtListener RECAP archive (federal courts only). Entries appear when CourtListener receives them, so some are late or missing.",
- "requestsUsed": 6,
+ "requestsUsed": 18,
  "errors": [],
  "dockets": {
   "63107484": {
@@ -1488,6 +1488,27 @@
   "74866310": {
    "entries": [
     {
+     "date": "2026-10-06",
+     "number": 20,
+     "text": "Statement (BK)",
+     "url": "https://www.courtlistener.com/docket/74866310/20/mw-properties-orlando-llc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-10-06",
+     "number": 19,
+     "text": "Statement (BK)",
+     "url": "https://www.courtlistener.com/docket/74866310/19/mw-properties-orlando-llc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-10-06",
+     "number": 18,
+     "text": "Application to Employ/Retain",
+     "url": "https://www.courtlistener.com/docket/74866310/18/mw-properties-orlando-llc/",
+     "ruling": false
+    },
+    {
      "date": "2026-10-04",
      "number": 16,
      "text": "BNC Certificate of Mailing - Hearing Notice (BK)",
@@ -1521,27 +1542,6 @@
      "text": "BNC Certificate of Mailing - PDF Document",
      "url": "https://www.courtlistener.com/docket/74866310/11/mw-properties-orlando-llc/",
      "ruling": false
-    },
-    {
-     "date": "2026-10-01",
-     "number": 10,
-     "text": "Notice of Hearing / Status Conference / Reaffirmation Hearing",
-     "url": "https://www.courtlistener.com/docket/74866310/10/mw-properties-orlando-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-01",
-     "number": 9,
-     "text": "341 Mtg. Notice - Ch 11 Corp w/Claim Deadline",
-     "url": "https://www.courtlistener.com/docket/74866310/9/mw-properties-orlando-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-09-30",
-     "number": 7,
-     "text": "Notice of Deficient Filing (BK)",
-     "url": "https://www.courtlistener.com/docket/74866310/7/mw-properties-orlando-llc/",
-     "ruling": false
     }
    ],
    "caseIds": [
@@ -1551,10 +1551,24 @@
    "docketNumber": "6:26-bk-07563",
    "dateTerminated": null,
    "url": "https://www.courtlistener.com/docket/74866310/mw-properties-orlando-llc/",
-   "lastEntryDate": "2026-10-04"
+   "lastEntryDate": "2026-10-06"
   },
   "74867047": {
    "entries": [
+    {
+     "date": "2026-10-06",
+     "number": 14,
+     "text": "Notice of Zoom Hearing",
+     "url": "https://www.courtlistener.com/docket/74867047/14/63-spring-lafayette-llc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-10-06",
+     "number": 13,
+     "text": "Request to Schedule Section 341 Meeting",
+     "url": "https://www.courtlistener.com/docket/74867047/13/63-spring-lafayette-llc/",
+     "ruling": false
+    },
     {
      "date": "2026-10-05",
      "number": 12,
@@ -1596,20 +1610,6 @@
      "text": "Pro Hac Vice Admission - Motion",
      "url": "https://www.courtlistener.com/docket/74867047/7/63-spring-lafayette-llc/",
      "ruling": false
-    },
-    {
-     "date": "2026-10-01",
-     "number": 6,
-     "text": "Pro Hac Vice Admission - Motion",
-     "url": "https://www.courtlistener.com/docket/74867047/6/63-spring-lafayette-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-01",
-     "number": 5,
-     "text": "Appearance - Notice",
-     "url": "https://www.courtlistener.com/docket/74867047/5/63-spring-lafayette-llc/",
-     "ruling": false
     }
    ],
    "caseIds": [
@@ -1619,10 +1619,17 @@
    "docketNumber": "26-11537",
    "dateTerminated": null,
    "url": "https://www.courtlistener.com/docket/74867047/63-spring-lafayette-llc/",
-   "lastEntryDate": "2026-10-05"
+   "lastEntryDate": "2026-10-06"
   },
   "74874313": {
    "entries": [
+    {
+     "date": "2026-10-06",
+     "number": 15,
+     "text": "Proof of Service",
+     "url": "https://www.courtlistener.com/docket/74874313/15/6363-west-73rd-street-llc/",
+     "ruling": false
+    },
     {
      "date": "2026-10-06",
      "number": 14,
@@ -1671,13 +1678,6 @@
      "text": "Transfer Case to Chief Judge for REASSIGNMENT to ANOTHER JUDGE",
      "url": "https://www.courtlistener.com/docket/74874313/8/6363-west-73rd-street-llc/",
      "ruling": false
-    },
-    {
-     "date": "2026-10-01",
-     "number": null,
-     "text": "Notice of Debtor's Prior Filings",
-     "url": "https://www.courtlistener.com/docket/74874313/6363-west-73rd-street-llc/",
-     "ruling": false
     }
    ],
    "caseIds": [
@@ -1691,6 +1691,13 @@
   },
   "74903821": {
    "entries": [
+    {
+     "date": "2026-10-06",
+     "number": 6,
+     "text": "Notice of Appearance and Request",
+     "url": "https://www.courtlistener.com/docket/74903821/6/ppw-realty-1414-w-3rd-st-llc/",
+     "ruling": false
+    },
     {
      "date": "2026-10-05",
      "number": 5,
@@ -1727,10 +1734,31 @@
    "docketNumber": "26-21190",
    "dateTerminated": null,
    "url": "https://www.courtlistener.com/docket/74903821/ppw-realty-1414-w-3rd-st-llc/",
-   "lastEntryDate": "2026-10-05"
+   "lastEntryDate": "2026-10-06"
   },
   "74911571": {
    "entries": [
+    {
+     "date": "2026-10-06",
+     "number": 10,
+     "text": "Request for courtesy Notice of Electronic Filing (NEF)",
+     "url": "https://www.courtlistener.com/docket/74911571/10/university-campus-hotel-fund-lp-a-california-l/",
+     "ruling": false
+    },
+    {
+     "date": "2026-10-06",
+     "number": 8,
+     "text": "Order setting initial status conference in chapter 11 case (BNC-PDF)",
+     "url": "https://www.courtlistener.com/docket/74911571/8/university-campus-hotel-fund-lp-a-california-l/",
+     "ruling": false
+    },
+    {
+     "date": "2026-10-06",
+     "number": null,
+     "text": "Hearing Set (Other) (BK Case - BNC Option)",
+     "url": "https://www.courtlistener.com/docket/74911571/university-campus-hotel-fund-lp-a-california-l/",
+     "ruling": false
+    },
     {
      "date": "2026-10-05",
      "number": 6,
@@ -1765,20 +1793,6 @@
      "text": "BNC Certificate of Notice",
      "url": "https://www.courtlistener.com/docket/74911571/3/university-campus-hotel-fund-lp-a-california-l/",
      "ruling": false
-    },
-    {
-     "date": "2026-10-02",
-     "number": 1,
-     "text": "Voluntary Petition (Chapter 11)",
-     "url": "https://www.courtlistener.com/docket/74911571/1/university-campus-hotel-fund-lp-a-california-l/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-02",
-     "number": null,
-     "text": "Notice to Filer of Correction Made/No Action Required",
-     "url": "https://www.courtlistener.com/docket/74911571/university-campus-hotel-fund-lp-a-california-l/",
-     "ruling": false
     }
    ],
    "caseIds": [
@@ -1788,7 +1802,47 @@
    "docketNumber": "6:26-bk-18337",
    "dateTerminated": null,
    "url": "https://www.courtlistener.com/docket/74911571/university-campus-hotel-fund-lp-a-california-l/",
-   "lastEntryDate": "2026-10-05"
+   "lastEntryDate": "2026-10-06"
+  },
+  "74922099": {
+   "entries": [
+    {
+     "date": "2026-10-06",
+     "number": 3,
+     "text": "Notice of Appearance",
+     "url": "https://www.courtlistener.com/docket/74922099/3/janam-taccoa-lodging-llc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-10-06",
+     "number": 2,
+     "text": "Notice of Appearance",
+     "url": "https://www.courtlistener.com/docket/74922099/2/janam-taccoa-lodging-llc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-10-05",
+     "number": 1,
+     "text": "Initial Docs01: Voluntary Petition (Chapter 11)",
+     "url": "https://www.courtlistener.com/docket/74922099/1/janam-taccoa-lodging-llc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-10-05",
+     "number": null,
+     "text": "Autodocket of Credit Card",
+     "url": "https://www.courtlistener.com/docket/74922099/janam-taccoa-lodging-llc/",
+     "ruling": false
+    }
+   ],
+   "caseIds": [
+    "live-225"
+   ],
+   "court": "Bankr. N.D. Ga.",
+   "docketNumber": "26-63515",
+   "dateTerminated": null,
+   "url": "https://www.courtlistener.com/docket/74922099/janam-taccoa-lodging-llc/",
+   "lastEntryDate": "2026-10-06"
   }
  },
  "events": [
