@@ -58,14 +58,17 @@ function partyKey(name: string): string {
 }
 const familyKey = (name: string) => partyKey(name).replace(/\s+(i{1,3}|iv|vi{0,3}|ix|x{1,3}|\d{1,3})$/, "");
 
-// A tracker write-up of the same case: same CourtListener docket, or the
-// debtor named as a party.
+// Tracker coverage: a write-up of this same case (same CourtListener
+// docket), and other matters that name the debtor as a party (live-145, a
+// securities suit, names the American Hospitality Properties REITs).
 const docketIdRe = /courtlistener\.com\/docket\/(\d+)\//;
-function writeUp(p: Petition): Case | undefined {
+function coverage(p: Petition): { sameCase?: Case; involving: Case[] } {
   const k = partyKey(p.caseName);
-  return cases.find((c) => (p.docketId && docketIdRe.exec(c.docketUrl || "")?.[1] === String(p.docketId)) ||
-    (c.parties || []).some((x) => partyKey(x.name) === k));
+  const sameCase = cases.find((c) => !!p.docketId && docketIdRe.exec(c.docketUrl || "")?.[1] === String(p.docketId));
+  const involving = cases.filter((c) => c !== sameCase && (c.parties || []).some((x) => partyKey(x.name) === k));
+  return { sameCase, involving };
 }
+const plainTitle = (t: string) => t.replace(/<[^>]+>/g, "").replace(/&amp;/g, "&").replace(/&#39;|&apos;/g, "'").replace(/&quot;/g, '"');
 
 // Page shell: the same one the matter pages use (alert log's head, nav,
 // footer), links made absolute, the dataset loader removed.
@@ -130,7 +133,7 @@ function mainFor(p: Petition): string {
   const family = petitions.filter((x) => x !== p && familyKey(x.caseName) === fam).sort(byDate).slice(0, 8);
   const sameCourt = petitions.filter((x) => x !== p && x.courtId === p.courtId && !family.includes(x)).sort(byDate).slice(0, 5);
   const recent = petitions.filter((x) => x !== p && !family.includes(x) && !sameCourt.includes(x)).sort(byDate).slice(0, 6);
-  const w = writeUp(p);
+  const cov = coverage(p);
   const follow = p.docketId ? { docketId: p.docketId, label: `${p.caseName} (Chapter 11, ${district(p.court)})`.slice(0, 200), path: `/chapter-11/${p.slug}.html` } : null;
   const share = encodeURIComponent(pageUrl(p));
   const meta: [string, string][] = [
@@ -162,7 +165,8 @@ function mainFor(p: Petition): string {
 
     <p class="body-text">A Chapter 11 bankruptcy case for ${esc(p.caseName)} was opened in the ${esc(courtLabel(p.court))} on ${esc(fmtDate(p.dateFiled))}, case no. ${esc(p.docketNumber)}, according to the federal court record.</p>
     <p class="body-text">It is on CREdocket's <a href="/bankruptcy-watch.html">Chapter 11 Watch</a> because the debtor's name indicates a commercial real estate owner, developer or single-property company. That is a reading of the name only; the docket shows the property, the lenders and the debts. If this debtor is your borrower, tenant, landlord or counterparty, the automatic stay generally took effect when the petition was filed.</p>
-    ${w ? `<p class="body-text"><strong>CREdocket write-up:</strong> <a href="/matters/${esc(w.id)}.html">${esc(w.title.replace(/<[^>]+>/g, "").replace(/&amp;/g, "&").replace(/&#39;|&apos;/g, "'").replace(/&quot;/g, '"'))}</a></p>` : ""}
+    ${cov.sameCase ? `<p class="body-text"><strong>CREdocket write-up of this case:</strong> <a href="/matters/${esc(cov.sameCase.id)}.html">${esc(plainTitle(cov.sameCase.title))}</a></p>` : ""}
+    ${cov.involving.length ? `<p class="body-text"><strong>Other CREdocket matters naming ${esc(p.caseName)}:</strong> ${cov.involving.map((c) => `<a href="/matters/${esc(c.id)}.html">${esc(plainTitle(c.title))}</a>`).join("; ")}</p>` : ""}
     <div class="matter-sources">${isCourtListener(p.docketUrl) ? `<a href="${esc(p.docketUrl)}" target="_blank" rel="noopener">Court docket (CourtListener) ↗</a>` : ""}</div>
 
     <h2 class="matter-h2" style="margin-top:32px;">Latest orders and rulings</h2>
