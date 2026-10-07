@@ -648,6 +648,41 @@
      Shown under every matter in the panel (2026-10-06: 11 of ~460 visits
      looked at a second page). Matter pages build the same lists at build
      time (scripts/build_matter_pages.ts). */
+  // Same rule as scripts/build_matter_pages.ts partyKey: case, punctuation,
+  // "The" and corporate suffixes ignored; parties in 2+ matters are linked.
+  function partyKey(name) {
+    let s = String(name || "").toLowerCase().replace(/&/g, "and").replace(/\(.*?\)/g, "").replace(/[.,']/g, "").replace(/\s+/g, " ").trim();
+    let prev = "";
+    while (prev !== s) {
+      prev = s;
+      s = s.replace(/\s+(llc|inc|incorporated|corp|corporation|co|company|lp|llp|ltd|na|national association|plc)$/, "").trim();
+    }
+    return s.replace(/^the\s+/, "");
+  }
+  let partyIndex = null;
+  function sharedParties(c) {
+    if (!partyIndex) {
+      partyIndex = new Map();
+      RELAW_DATA.cases.forEach((x) => (x.parties || []).forEach((p) => {
+        const k = partyKey(p.name);
+        if (k.length < 4) return;
+        const e = partyIndex.get(k) || { names: new Map(), ids: new Set() };
+        e.names.set(p.name, (e.names.get(p.name) || 0) + 1);
+        e.ids.add(x.id);
+        partyIndex.set(k, e);
+      }));
+    }
+    const seen = new Set(), out = [];
+    (c.parties || []).forEach((p) => {
+      const k = partyKey(p.name), e = partyIndex.get(k);
+      if (!e || seen.has(k) || e.ids.size < 2) return;
+      seen.add(k);
+      const name = [...e.names.entries()].sort((a, b) => b[1] - a[1])[0][0];
+      const others = RELAW_DATA.cases.filter((x) => x.id !== c.id && e.ids.has(x.id)).sort((a, b) => (b.date > a.date ? 1 : -1)).slice(0, 5);
+      out.push({ name, others });
+    });
+    return out;
+  }
   function relatedMatters(c, n) {
     const same = RELAW_DATA.cases.filter((x) => x.id !== c.id && x.category === c.category);
     const byDate = (a, b) => (b.date > a.date ? 1 : -1);
@@ -684,6 +719,8 @@
             </form>
             <p class="gate-form-status" data-alert-status role="status"></p>
           </div>
+          ${sharedParties(c).map((p) => `<h3>Other matters involving ${escapeHtml(p.name)}</h3>
+          ${chipList(p.others)}`).join("")}
           <h3>Related matters</h3>
           ${chipList(relatedMatters(c, 4))}
           <h3>Recently added</h3>

@@ -107,6 +107,44 @@ function headFor(c: Case): string {
     .replace("</head>", `<script type="application/ld+json">${JSON.stringify(ld).replace(/</g, "\\u003c")}</script>\n  </head>`);
 }
 
+// Parties named in more than one matter link those matters together
+// ("Other matters involving Rialto Capital Advisors"). Names are compared
+// with case, punctuation, "The" and corporate suffixes ignored, so
+// "RealPage, Inc." and "RealPage Inc." match; anything else stays apart.
+// Same rule as js/main.js partyKey.
+export function partyKey(name: string): string {
+  let s = name.toLowerCase().replace(/&/g, "and").replace(/\(.*?\)/g, "").replace(/[.,']/g, "").replace(/\s+/g, " ").trim();
+  let prev = "";
+  while (prev !== s) {
+    prev = s;
+    s = s.replace(/\s+(llc|inc|incorporated|corp|corporation|co|company|lp|llp|ltd|na|national association|plc)$/, "").trim();
+  }
+  return s.replace(/^the\s+/, "");
+}
+const byParty = new Map<string, { names: Map<string, number>; ids: Set<string> }>();
+for (const x of data.cases) {
+  for (const p of x.parties || []) {
+    const k = partyKey(p.name);
+    if (k.length < 4) continue;
+    const e = byParty.get(k) || { names: new Map(), ids: new Set() };
+    e.names.set(p.name, (e.names.get(p.name) || 0) + 1);
+    e.ids.add(x.id);
+    byParty.set(k, e);
+  }
+}
+function sharedParties(c: Case): { name: string; others: Case[] }[] {
+  const seen = new Set<string>(), out: { name: string; others: Case[] }[] = [];
+  for (const p of c.parties || []) {
+    const k = partyKey(p.name), e = byParty.get(k);
+    if (!e || seen.has(k) || e.ids.size < 2) continue;
+    seen.add(k);
+    const name = [...e.names.entries()].sort((a, b) => b[1] - a[1])[0][0];
+    const others = data.cases.filter((x) => x.id !== c.id && e.ids.has(x.id)).sort((a, b) => (b.date > a.date ? 1 : -1)).slice(0, 5);
+    out.push({ name, others });
+  }
+  return out;
+}
+
 function related(c: Case, pick: (x: Case) => boolean, n: number): Case[] {
   return data.cases.filter((x) => x.id !== c.id && pick(x)).sort((a, b) => (b.date > a.date ? 1 : -1)).slice(0, n);
 }
@@ -132,6 +170,7 @@ function mainFor(c: Case): string {
     c.docketUrl ? `<a href="${esc(c.docketUrl)}" target="_blank" rel="noopener">${esc(c.docketLabel || "Court docket")} ↗</a>` : "",
   ].filter(Boolean).join("");
   const hasMore = (c.body && c.body.length) || (c.timeline && c.timeline.length);
+  const shared = sharedParties(c);
   const sameCat = related(c, (x) => x.category === c.category, 5);
   const sameState = c.state ? related(c, (x) => x.state === c.state && !sameCat.includes(x), 5) : [];
   const recent = data.cases.filter((x) => x.id !== c.id)
@@ -204,6 +243,9 @@ function mainFor(c: Case): string {
       <a class="btn btn-ghost btn-sm" href="mailto:?subject=${encodeURIComponent(plain(c.title))}&amp;body=${share}">Email</a>
     </div>
 
+    ${shared.map((p) => `<h2 class="matter-h2" style="margin-top:40px;">Other matters involving ${esc(p.name)}</h2>
+    <ul class="matter-related">${relatedList(p.others)}
+    </ul>`).join("\n    ")}
     ${sameCat.length ? `<h2 class="matter-h2" style="margin-top:40px;">More ${esc(k.label.toLowerCase())} matters</h2>
     <ul class="matter-related">${relatedList(sameCat)}
     </ul>` : ""}
