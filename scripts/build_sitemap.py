@@ -7,7 +7,9 @@ Root pages: every *.html except account.html and pages marked
 priority each page already had. Matter pages (matters/<id>.html, built by
 scripts/build_matter_pages.ts): lastmod is the date the matter was added
 or last corrected, so a daily rebuild of an unchanged page does not look
-like new content.
+like new content. Chapter 11 pages (chapter-11/<slug>.html, built by
+scripts/build_ch11_pages.ts): lastmod is the latest of the filing date and
+the newest docket entry shown.
 
 Run by .github/workflows/prerender.yml; locally: python3 scripts/build_sitemap.py
 """
@@ -57,12 +59,22 @@ def main():
             last = max(c.get("addedDate") or c.get("date") or today, fixed.get(c["id"], ""))
             urls.append((f"matters/{c['id']}.html", last, "0.6"))
 
+    petitions = json.loads((ROOT / "ops" / "ch11-petitions.json").read_text()).get("filings", []) \
+        if (ROOT / "ops" / "ch11-petitions.json").exists() else []
+    activity = json.loads((ROOT / "ops" / "ch11-activity.json").read_text()).get("dockets", {}) \
+        if (ROOT / "ops" / "ch11-activity.json").exists() else {}
+    for r in petitions:
+        if (ROOT / "chapter-11" / f"{r['slug']}.html").exists():
+            last = max(r["dateFiled"], (activity.get(str(r.get("docketId"))) or {}).get("lastEntryDate") or "")
+            urls.append((f"chapter-11/{r['slug']}.html", last, "0.5"))
+
     lines = ['<?xml version="1.0" encoding="UTF-8"?>', '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
     for loc, last, pri in urls:
         lines += ["  <url>", f"    <loc>{SITE}/{loc}</loc>", f"    <lastmod>{last}</lastmod>", f"    <priority>{pri}</priority>", "  </url>"]
     lines.append("</urlset>")
     (ROOT / "sitemap.xml").write_text("\n".join(lines) + "\n")
-    print(f"{len(urls)} urls ({sum(1 for u in urls if u[0].startswith('matters/'))} matter pages)")
+    print(f"{len(urls)} urls ({sum(1 for u in urls if u[0].startswith('matters/'))} matter pages, "
+          f"{sum(1 for u in urls if u[0].startswith('chapter-11/'))} Chapter 11 pages)")
 
 
 if __name__ == "__main__":

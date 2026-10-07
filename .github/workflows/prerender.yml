@@ -16,6 +16,11 @@ on:
       - "scripts/build_matter_pages.ts"
       - "scripts/build_sitemap.py"
       - "scripts/build_data_lite.ts"
+      - "scripts/build_ch11_pages.ts"
+      - "bankruptcy-watch.html"
+  # Also started by court-filings-ingest.yml and docket-activity.yml after
+  # they commit new petitions or docket entries (their own pushes cannot
+  # trigger this workflow).
   workflow_dispatch:
 
 permissions:
@@ -41,10 +46,13 @@ jobs:
       - run: python3 scripts/render_corrections.py
       # One indexable page per matter, then the sitemap that lists them.
       - run: deno run --allow-read --allow-write scripts/build_matter_pages.ts
+      # Chapter 11 Watch's list and one page per commercial real estate petition.
+      - run: deno run --allow-read --allow-write scripts/build_ch11_pages.ts
       - run: python3 scripts/build_sitemap.py
       - name: Commit prerendered pages
         run: |
-          git add -A matters
+          git add -A matters chapter-11
+          git add bankruptcy-watch.html
           git add index.html litigation.html coverage.html company-*.html corrections.html sitemap.xml js/data-lite.js js/matter-text.json
           if git diff --cached --quiet; then echo "Nothing changed."; exit 0; fi
           git config user.name "credocket-prerender-bot"
@@ -60,10 +68,18 @@ jobs:
             sleep $((i * 10))
           done
           [ "$ok" = 1 ]
+          # After the rebase, HEAD is this job's commit; IndexNow announces its pages.
+          echo "BUILT=$(git rev-parse HEAD)" >> "$GITHUB_ENV"
       # Tell Bing and the other IndexNow engines which pages changed, once
       # Vercel has deployed them. Google reads the sitemap instead.
       - name: Announce changed pages (IndexNow)
-        if: github.event_name == 'push'
         run: |
           sleep 90
-          python3 scripts/indexnow.py "${{ github.event.before }}..HEAD" || echo "::warning::IndexNow submission failed"
+          if [ "${{ github.event_name }}" = "push" ]; then
+            range="${{ github.event.before }}..HEAD"
+          elif [ -n "${BUILT:-}" ]; then
+            range="${BUILT}~1..${BUILT}"
+          else
+            echo "Nothing rebuilt; nothing to announce."; exit 0
+          fi
+          python3 scripts/indexnow.py "$range" || echo "::warning::IndexNow submission failed"

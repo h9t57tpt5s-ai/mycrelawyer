@@ -1797,3 +1797,11 @@ h3, .h3 {
 .nl-inline .eyebrow { margin-bottom: 6px; }
 .nl-inline-title { font-family: var(--font-display, Georgia, serif); font-size: 1.25rem; font-weight: 600; color: var(--text-primary); margin: 0 0 6px; }
 .nl-inline-sub { font-size: 13.5px; line-height: 1.55; color: var(--text-secondary); margin: 0 0 14px; }
+
+/* Chapter 11 Watch list (bankruptcy-watch.html, built by scripts/build_ch11_pages.ts) */
+.ch11-day { font-size: 12px; text-transform: uppercase; letter-spacing: 0.04em; color: var(--text-muted); padding: 16px 24px 8px; }
+.ch11-row { display: flex; align-items: baseline; justify-content: space-between; gap: 16px; padding: 12px 24px; border-bottom: 1px solid var(--border-soft); }
+.ch11-name { font-size: 14px; font-weight: 600; color: var(--text-primary); text-decoration: none; }
+.ch11-name:hover { color: var(--accent); text-decoration: underline; }
+.ch11-court { font-size: 12.5px; color: var(--text-secondary); }
+.ch11-docket { font-size: 12.5px; white-space: nowrap; }
