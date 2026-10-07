@@ -201,7 +201,7 @@
           <div class="icon"><svg viewBox="0 0 24 24" fill="none"><path d="M4 4h16v16H4V4zm0 0l8 8 8-8" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
           <div>
             <div style="font-weight:600; font-size:14.5px;">Email</div>
-            <a href="mailto:admin@credocket.com" class="text-secondary" style="margin:0;">Send an email</a>
+            <a href="mailto:admin@credocket.com" class="text-secondary" style="margin:0;" onclick="if (window.RELAW_TRACK) window.RELAW_TRACK('contact_email_click')">Send an email</a>
           </div>
         </div>
         <div class="contact-info-item">
@@ -389,6 +389,9 @@
     const matter = params.get("matter");
     const body = `Name: ${name}\nEmail: ${email}\nOrganization: ${org}\nRole: ${role}\n\n${message}`;
     const subject = matter ? `CREdocket inquiry re: ${matter}` : "CREdocket inquiry from " + name;
+    // Counts the send (it opens the visitor's email app); records only
+    // whether it came from a matter, never what was typed.
+    if (window.RELAW_TRACK) window.RELAW_TRACK("contact_submit", { detail: matter ? "from-matter" : "general" });
     window.location.href = `mailto:admin@credocket.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
   });
 </script>
