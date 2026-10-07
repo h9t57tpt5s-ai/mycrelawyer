@@ -16,7 +16,7 @@ const RELAW_DATA = {
      Drives the homepage's "New Today" pill: it only shows when this
      equals the visitor's local today. Updated by the digest automation
      each time Step 4 successfully adds a case — never touched otherwise. */
-  lastUpdatedDate: "2026-10-06",
+  lastUpdatedDate: "2026-10-07",
   categories: [
     { id: "landlord-tenant", label: "Landlord–Tenant", color: "var(--cat-landlord)" },
     { id: "zoning-land-use", label: "Zoning & Land Use", color: "var(--cat-zoning)" },
@@ -7585,6 +7585,200 @@ const RELAW_DATA = {
         { when: "June 2026", label: "Simon Property Group moves to dismiss the amended antitrust complaint", current: true }
       ],
       tags: ["antitrust", "tying", "shopping-mall", "oklahoma", "simon-property-group"]
+    },
+    {
+      id: "live-227",
+      addedDate: "2026-10-07",
+      featured: true,
+      title: "HS148SST LLC v. City of Boston (Commercial Property Tax Retaliation Class Action)",
+      category: "zoning-land-use",
+      status: "pending",
+      date: "2026-05-12",
+      jurisdiction: "Suffolk County Superior Court, Massachusetts",
+      state: "MA",
+      amount: "$41,351 single-year overcharge alleged for lead plaintiff; proposed class of 60+ commercial properties",
+      amountUsd: 41351,
+      amountBasis: "claim",
+      source: "live",
+      sourceUrl: "https://www.bostonglobe.com/2026/05/12/business/boston-property-tax-lawsuit/",
+      summary: "HS148SST LLC, owner of the office building at 148 State Street in Boston, sued the City of Boston in Suffolk Superior Court alleging the Assessor's Office ran an undisclosed 'Add-Back Policy' that restored a prior year's higher valuation for commercial properties that had appealed their assessments to the state Appellate Tax Board. Judge Peter Krupp denied the city's motion to dismiss on May 12, 2026, finding the allegations -- which the complaint says affected at least 60 properties -- serious enough to require discovery before deciding whether equitable relief is warranted.",
+      significance: "The suit advances a First Amendment retaliation theory against a municipal assessor's office, arguing that conditioning a property's valuation on whether its owner exercised its legal right to appeal is itself unlawful. Surviving a motion to dismiss on that theory, with class claims and a request for repayment of excess taxes across dozens of properties, gives commercial owners elsewhere a potential template for challenging similar post-appeal valuation patterns.",
+      body: [
+        "A lawsuit accusing the City of Boston of quietly punishing commercial property owners for appealing their tax assessments has survived the city's motion to dismiss and is now moving into discovery, a development that commercial owners and tax counsel well outside Massachusetts have reason to watch. The case, filed in Suffolk Superior Court by HS148SST LLC, owner of the 11-story office building at 148 State Street in Boston's Financial District, accuses the city's Assessor's Office of running what the complaint calls an 'Add-Back Policy.'",
+        "According to the filing, prepared by the Pioneer New England Legal Foundation together with Sullivan & Worcester LLP, assessors began in 2024 flagging commercial properties with open appeals before the state Appellate Tax Board and then overriding their own fair-market-value determinations for those properties, effectively restoring the prior year's higher assessment instead of applying the figure the city's own valuation process would otherwise have produced. The complaint alleges the practice touched at least 60 commercial properties and, for 148 State Street alone, produced a $41,351 overcharge in a single fiscal year.",
+        "What elevates the case above a routine assessment dispute is the legal theory behind it: that conditioning a property's assessed value on whether its owner challenged a prior valuation amounts to government retaliation against the exercise of a legal right, implicating the First Amendment's protection against retaliation for petitioning activity -- here, petitioning the Appellate Tax Board. Judge Peter Krupp's ruling did not decide whether the city actually did what the complaint describes, but he found the allegations serious enough to warrant limited discovery into the existence and extent of the alleged policy before any decision on equitable relief.",
+        "The remedy sought is injunctive and declaratory relief barring the practice, a declaration that it is unlawful, and repayment of excess taxes collected for fiscal years 2024 and 2025 across the proposed class, in addition to the $41,351 at issue for the named plaintiff. Discovery will likely probe assessor work papers, internal notes referencing parcels' appeal status, and any communications describing the add-back methodology, records that could either substantiate or undercut the class-wide allegations.",
+        "Boston is unlikely to be the only jurisdiction where assessors face scrutiny over how they treat appealed properties, and commercial owners and REIT asset managers elsewhere have increasingly turned to litigation discovery to obtain internal assessment records that public-records requests alone do not reach. A ruling on the merits here, whichever way it goes, is likely to be cited in similar disputes. For now, owners who have successfully appealed an assessment should watch for unexplained increases in a later year's valuation that track back toward the prior, higher figure, and should preserve correspondence with assessors that could later support or rebut a retaliation claim; multi-property asset managers in jurisdictions with active abatement-appeal processes should consider whether a similar pattern across their own holdings would support a comparable claim, since this case's eventual discovery record may become a template for proving systemic retaliation elsewhere."
+      ],
+      judge: "Peter Krupp",
+      parties: [
+        { name: "HS148SST LLC", role: "Plaintiff" },
+        { name: "City of Boston", role: "Defendant" }
+      ],
+      timeline: [
+        { when: "December 2025", label: "HS148SST LLC files a class action in Suffolk Superior Court alleging a retaliatory 'Add-Back Policy' by the Boston Assessor's Office" },
+        { when: "May 12, 2026", label: "Judge Peter Krupp denies the city's motion to dismiss and orders limited discovery into the alleged policy", current: true }
+      ],
+      propertyType: "Office",
+      tags: ["property-tax", "massachusetts", "first-amendment", "class-action", "assessor-retaliation"]
+    },
+    {
+      id: "live-228",
+      addedDate: "2026-10-07",
+      title: "76 Commerce Center LLC v. BroadRange Logistics LLC (Denver-Area Industrial Lease Default)",
+      category: "lease-disputes",
+      status: "filed",
+      date: "2026-05-29",
+      jurisdiction: "Colorado District Court, Adams County",
+      state: "CO",
+      amount: "$32M sought: $8.9M back rent, $17.4M discretionary-allowance clawback, $3M rent-abatement repayment, plus interest and fees",
+      amountUsd: 32000000,
+      amountBasis: "damages sought",
+      source: "live",
+      sourceUrl: "https://businessden.com/logistics-firm-owes-32m-for-breaking-record-setting-lease-landlord-says/",
+      summary: "Landlords Hyde Development and Mortenson Properties, through entities 76 Commerce Center LLC and 76 Commerce Center 3 LLC, sued third-party logistics operator BroadRange Logistics LLC on May 29, 2026 in Colorado state court, alleging the Georgia-based tenant owes $32 million after defaulting on what was billed as the largest speculative industrial lease in Colorado history. BroadRange signed a long-term lease for more than 1.1 million square feet at the 76 Commerce Center in Brighton in 2024, began missing its $590,000 monthly rent within six months of its free-rent period ending, and had its leases terminated on March 13, 2026 after further defaults following an amended lease.",
+      significance: "The default of a tenant that had signed the state's largest speculative industrial lease only two years earlier illustrates how quickly a marquee logistics deal can unravel once a 3PL tenant's own volumes soften, leaving landlords to absorb both unpaid rent and sunk tenant-improvement allowances. Owners underwriting large speculative industrial leases to growth-stage logistics operators should treat this default, and a similar one the same tenant faces in Pennsylvania, as a signal to stress-test concentration risk in big single-tenant industrial deals.",
+      body: [
+        "Hyde Development and Mortenson Properties, the landlords behind 76 Commerce Center in Brighton, Colorado, have sued their anchor tenant, BroadRange Logistics LLC, for $32 million after the Georgia-based third-party logistics operator defaulted on what was billed as the largest speculative industrial lease in Colorado history. The suit, filed through entities 76 Commerce Center LLC and 76 Commerce Center 3 LLC, follows a rapid collapse of a lease relationship that began with considerable fanfare less than two years earlier.",
+        "BroadRange's tenancy at the two buildings, totaling more than 1.1 million square feet at 22250 and 22500 E. I-76 Frontage Road, began in September 2024 with six months of free rent as part of the original deal. By August 2025, just six months after BroadRange started paying its roughly $590,000 monthly rent, the company began missing payments. By October 2025, its past-due balance had grown to $3.6 million. In November 2025, the parties signed an amended lease in an apparent attempt to work out the arrears, but further defaults continued into early 2026 until the tenant's leases at 76 Commerce Center were terminated on March 13, 2026.",
+        "The landlords' complaint, filed in Colorado state court on May 29, 2026, seeks roughly $8.9 million in back rent, $17.4 million tied to clawing back a discretionary tenant-improvement allowance, and $3 million in rent abatement that becomes repayable upon default, plus interest and late fees -- a damages structure that illustrates how heavily front-loaded landlord concessions can convert into direct financial exposure once a large single tenant fails.",
+        "The case is one of at least two BroadRange is currently facing from landlords over defaulted industrial leases; a Brooklyn-based landlord has separately sued the company in New York state court over an allegedly misused tenant-improvement allowance at a Pennsylvania warehouse. Taken together, the two suits suggest a logistics operator that expanded aggressively into large, newly built distribution space may have taken on more leased square footage, and more landlord-funded buildout, than its underlying freight volumes could support.",
+        "For industrial landlords, the episode is a reminder that a record-setting speculative lease with a growth-stage 3PL tenant carries concentration risk that a strong initial credit picture does not always capture, particularly when a large discretionary allowance is advanced up front. Owners negotiating similarly large single-tenant industrial deals should consider structuring allowances with performance-based release conditions rather than lump-sum disbursement, build in earlier default-notice and cure triggers tied to rent-coverage covenants, and monitor a tenant's broader portfolio of leases nationally, since a single large 3PL's distress at one site, as this case shows, is often a leading indicator of distress at others."
+      ],
+      judge: null,
+      parties: [
+        { name: "76 Commerce Center LLC", role: "Plaintiff/Landlord" },
+        { name: "76 Commerce Center 3 LLC", role: "Plaintiff/Landlord" },
+        { name: "BroadRange Logistics LLC", role: "Defendant/Tenant" }
+      ],
+      propertyType: "Industrial",
+      tags: ["industrial", "colorado", "lease-default", "logistics", "landlord"]
+    },
+    {
+      id: "live-229",
+      addedDate: "2026-10-07",
+      title: "KSG v. BroadRange Logistics LLC (Pocono Warehouse Tenant-Improvement Allowance Suit)",
+      category: "lease-disputes",
+      status: "filed",
+      date: "2026-07-10",
+      jurisdiction: "New York State Supreme Court",
+      state: "NY",
+      amount: "$11M tenant-improvement allowance clawback sought, plus unpaid rent and additional damages",
+      amountUsd: 11000000,
+      amountBasis: "damages sought",
+      source: "live",
+      sourceUrl: "https://therealdeal.com/new-york/2026/07/10/ksg-sued-broadrange-for-11m-tenant-improvement-allowance/",
+      summary: "KSG, an entity led by Brooklyn-based landlord Leah Weiss, sued BroadRange Logistics LLC in New York state court, alleging the logistics operator pocketed an $11 million tenant-improvement allowance tied to a 600,000-square-foot warehouse in Mount Pocono, Pennsylvania and then stopped paying rent. The $32 million allowance underlying the deal was funded in part through a commercial mortgage-backed securities loan KSG obtained from Ocean First Bank, and the complaint also names New Jersey investor Josh Malka and the deal's Mount Pocono attorney, seeking to claw back the allowance along with other damages.",
+      significance: "The allegation that a tenant-improvement allowance was diverted rather than used for its intended buildout, paired with the tenant's subsequent rent defaults, raises fraud exposure beyond an ordinary lease-default dispute and highlights the risk landlords take on when a large allowance is advanced to a single tenant ahead of lease performance. Lenders who financed the allowance through a CMBS loan also have a direct stake in how the allegations play out, since any clawback or fraud finding could affect the collateral's underwriting basis.",
+      body: [
+        "A Brooklyn-based landlord has accused third-party logistics operator BroadRange Logistics LLC of pocketing an $11 million tenant-improvement allowance at a Pennsylvania warehouse and then simply stopping rent payments, in a lawsuit that extends a pattern of landlord disputes with the fast-growing logistics company. The suit, brought by KSG, an entity led by landlord Leah Weiss, was filed in New York state court and centers on a roughly 600,000-square-foot distribution facility in Mount Pocono, Pennsylvania that BroadRange leased as a distribution hub.",
+        "According to the complaint, the landlord secured a $32 million commercial mortgage-backed securities loan from Ocean First Bank, with a portion of the loan proceeds earmarked to fund an $11 million tenant-improvement allowance for BroadRange's buildout of the space. KSG alleges BroadRange took the allowance and then failed to use it as intended before falling behind on rent, prompting the landlord to seek to claw back the full allowance along with additional rent and damages.",
+        "The complaint does not name only BroadRange: it also names New Jersey-based investor Josh Malka and the attorney who handled the Mount Pocono transaction, suggesting the landlord views the alleged misuse of the allowance as involving more than just the tenant's own internal decisions about how to spend the funds. The suit asks the court to order the allowance returned along with other damages tied to the unpaid rent.",
+        "The case lands just weeks after a separate Colorado landlord, Hyde Development, sued BroadRange for $32 million over a defaulted industrial lease at 76 Commerce Center in Brighton, Colorado -- a case with a strikingly similar fact pattern of an initially large, fast-growing industrial tenancy followed by missed rent and landlord litigation over allowance and lease terms. Landlords and their lenders evaluating prospective leases with BroadRange, or structurally similar growth-stage 3PL operators, should treat the combination of these two suits as a warning sign about the tenant's broader financial condition, not an isolated dispute.",
+        "For landlords generally, the case underscores the value of disbursing large tenant-improvement allowances in tranches tied to verified buildout milestones rather than as a lump sum, and of requiring contractor lien waivers and buildout documentation before any allowance funds are released. Lenders financing an allowance through a CMBS loan have an independent interest in the underlying buildout actually occurring, since a diverted allowance undermines the implicit collateral value the loan was underwritten against, and loan servicers should consider whether their own documentation requires proof of use before allowance funds are released on future deals of this kind."
+      ],
+      judge: null,
+      parties: [
+        { name: "KSG", role: "Plaintiff/Landlord" },
+        { name: "BroadRange Logistics LLC", role: "Defendant/Tenant" }
+      ],
+      propertyType: "Industrial",
+      tags: ["industrial", "tenant-improvement", "pennsylvania", "logistics", "fraud-allegations"]
+    },
+    {
+      id: "live-230",
+      addedDate: "2026-10-07",
+      title: "Eagan Capital v. City of Eagan (Minnesota Data Center Moratorium Challenge)",
+      category: "zoning-land-use",
+      status: "filed",
+      date: "2026-06-15",
+      jurisdiction: "Minnesota District Court, Dakota County",
+      state: "MN",
+      amount: "$50,000 in damages sought; challenges a one-year moratorium on data centers using more than 20 megawatts within 500 feet of homes",
+      amountUsd: 50000,
+      amountBasis: "damages sought",
+      source: "live",
+      sourceUrl: "https://www.mprnews.org/story/2026/07/07/city-of-eagan-faces-lawsuit-over-data-center-moratorium",
+      summary: "Eagan Capital sued the City of Eagan, Minnesota, alleging the city lacked authority to enact a one-year moratorium, adopted in February 2026, on new or expanded data centers using more than 20 megawatts of electricity within 500 feet of homes. The complaint, filed June 15, 2026, argues the Minnesota Public Utilities Commission has exclusive authority to regulate electricity demand in the state and seeks $50,000 in damages; the city has said it separately denied the company an interim use permit after unpermitted trailer-mounted chiller units were installed and operated at the site.",
+      significance: "The suit is part of a wave of litigation nationally over local moratoria aimed at data centers' outsized electricity and land-use footprint, testing whether cities can regulate data center development directly or whether that authority is preempted by state utility regulators. A ruling curbing municipal moratorium power would materially affect how data center developers site large power-intensive projects near residential areas in jurisdictions without existing zoning frameworks for the use.",
+      body: [
+        "A Minnesota data center developer has sued the City of Eagan over a one-year moratorium the city adopted in February 2026 on new or expanded data centers that would draw more than 20 megawatts of electricity within 500 feet of homes, arguing the city lacks the legal authority to impose the pause at all. The lawsuit, filed by Eagan Capital on June 15, 2026 in Dakota County District Court, is part of a broader pattern of Minnesota communities pushing back against data center development through zoning and moratorium tools.",
+        "Eagan Capital's central legal argument is one of preemption: the complaint contends that the Minnesota Public Utilities Commission holds exclusive authority to regulate electricity demand in the state, and that a city moratorium aimed specifically at large electricity-consuming data center uses intrudes on that state-level regulatory domain rather than exercising ordinary local land-use authority. The company is seeking $50,000 in damages alongside relief striking down the moratorium.",
+        "The City of Eagan has pushed back on the company's underlying conduct, telling Minnesota Public Radio that it denied Eagan Capital an interim use permit after city staff discovered that temporary, trailer-mounted chiller units tied to the data center use had been installed and placed into operation without the required permits -- suggesting the dispute may also turn on whether the company's own pre-moratorium conduct undercuts its claim to a vested right to proceed.",
+        "The case sits within a fast-growing body of data center siting litigation nationally, as the sector's enormous power demands increasingly collide with residential proximity concerns, grid capacity constraints, and municipalities' desire to control where and how quickly such facilities are built. Minnesota communities beyond Eagan have adopted or considered similar pauses, making this case an early test of how much local regulatory room exists once a state utility commission's jurisdiction over electricity demand is invoked as a preemption defense against local zoning control.",
+        "Developers and investors in data center projects should treat municipal electricity-focused moratoria as a distinct and separately challengeable category of local regulation from conventional zoning moratoria, and should document compliance with permitting requirements for any interim equipment -- such as temporary chillers -- before a dispute over a project's vested rights arises, since the city's permitting objection here could end up mattering as much to the outcome as the preemption question itself. Utilities and regulators watching the preemption theory should also expect it to be tested in other states as data center moratoria proliferate, given how directly it could reshape which level of government controls siting decisions for high-power-demand uses."
+      ],
+      judge: null,
+      parties: [
+        { name: "Eagan Capital", role: "Plaintiff" },
+        { name: "City of Eagan", role: "Defendant" }
+      ],
+      propertyType: "Data Center",
+      tags: ["data-center", "minnesota", "zoning-moratorium", "municipal-authority", "electricity-regulation"]
+    },
+    {
+      id: "live-231",
+      addedDate: "2026-10-07",
+      title: "DC Blox, Inc. v. Metro Government of Nashville and Davidson County (Nashville Zoo-Area Data Center Moratorium Suit)",
+      category: "zoning-land-use",
+      status: "filed",
+      date: "2026-08-11",
+      jurisdiction: "U.S. District Court, Middle District of Tennessee",
+      state: "TN",
+      amount: "$23M data center site; moratorium-driven permit freeze, specific damages amount unspecified",
+      amountUsd: 23000000,
+      amountBasis: "purchase price",
+      source: "live",
+      sourceUrl: "https://www.axios.com/local/nashville/2026/08/11/dc-blox-sues-over-metros-data-center-moratorium",
+      summary: "DC Blox, Inc. sued Metro Nashville and Davidson County in federal court on August 11, 2026, alleging the city's new data-center zoning restrictions and moratorium were enacted specifically to block DC Blox's already-permitted data center project on more than 23 acres it purchased for $23 million next to the Nashville Zoo. The complaint cites public comments from the mayor and a Metro council member as evidence the moratorium targeted DC Blox's vested project rather than data centers generally, and alleges violations of due process, equal protection, and the takings clause.",
+      significance: "The case is a notable test of whether a municipality can use a facially neutral moratorium to halt a specific, previously permitted project once public opposition mounts, and whether prior public statements by officials can be used to prove targeted intent. A ruling for DC Blox would raise the bar for municipalities seeking to slow down data center projects that have already cleared permitting, while a ruling for Metro would reinforce broad local authority to pause a land use category even after individual permits have issued.",
+      body: [
+        "DC Blox, Inc., the company whose planned data center next to the Nashville Zoo touched off intense neighborhood opposition, has sued Metro Nashville and Davidson County in federal court, accusing the city of what the complaint calls 'relentless efforts' to block the project specifically rather than regulating data centers as a category. The lawsuit, filed August 11, 2026 in the U.S. District Court for the Middle District of Tennessee, challenges a moratorium and related zoning changes Metro adopted after DC Blox had already secured permits for the site.",
+        "DC Blox purchased more than 23 acres adjacent to the Nashville Zoo for $23 million in late July, land the complaint says had previously operated as a data center under prior tenant Asurion, giving the company a basis to argue its proposed use was a continuation of an existing use rather than a new one requiring fresh zoning approval. The company alleges Metro's zoning administrator had determined the project's permit applications had vested before the city later froze further processing under the new moratorium.",
+        "Central to DC Blox's complaint is an argument that the moratorium was not a neutral, generally applicable pause on data center development but a targeted response to public backlash against its specific project. The complaint cites public comments by Nashville Mayor Freddie O'Connell and Metro Councilmember Courtney Johnston as evidence that the council acted to stop DC Blox's development in particular, arguing that 'the Data Center Moratorium is a targeted attack against DC BLOX' despite its facially prohibitive language covering all data centers.",
+        "The company asks the court to block Metro from enforcing the new data center ordinances against its project, declare the ordinances unlawful as applied, and award financial damages, framing its claims around due process, equal protection, and uncompensated taking of its vested property rights. Because the company is a sitting owner with a purchased, previously-permitted site rather than merely a prospective bidder, the vested-rights and targeting theories here are more concrete than in many general zoning challenges.",
+        "The case adds to a fast-growing docket of litigation nationally over data center siting, joining disputes in Minnesota and elsewhere where developers are testing the limits of municipal moratorium power once a project has already obtained some measure of permitting approval. Developers pursuing data center sites in politically sensitive locations should document every stage of permit vesting carefully and preserve public statements by officials that could later support -- or undercut -- a claim that a subsequent moratorium was targeted rather than general; municipalities, for their part, should be cautious about public commentary singling out a specific project while a moratorium ordinance is being drafted, since such statements are now squarely being used as evidence of improper targeting in federal court."
+      ],
+      judge: null,
+      parties: [
+        { name: "DC Blox, Inc.", role: "Plaintiff" },
+        { name: "Metro Government of Nashville and Davidson County", role: "Defendant" }
+      ],
+      propertyType: "Data Center",
+      tags: ["data-center", "tennessee", "zoning-moratorium", "vested-rights", "constitutional-claims"]
+    },
+    {
+      id: "live-232",
+      addedDate: "2026-10-07",
+      title: "Fox Investments LLC v. City of Kaukauna (Wisconsin Direct-Action Contamination Cost-Recovery Suit)",
+      category: "environmental",
+      status: "filed",
+      date: "2026-07-23",
+      jurisdiction: "U.S. District Court, Eastern District of Wisconsin",
+      state: "WI",
+      amount: "$235,683.63 in investigation and remediation costs sought via Wisconsin's direct-action statute",
+      amountUsd: 235683.63,
+      amountBasis: "claim",
+      source: "live",
+      sourceUrl: "https://www.insurancebusinessmag.com/us/news/risk-compliance-legal/property-owner-pulls-three-insurers-into-sixfigure-site-cleanup-suit-583623.aspx",
+      summary: "Fox Investments LLC filed a complaint on July 23, 2026 in the U.S. District Court for the Eastern District of Wisconsin against the City of Kaukauna and the city's historic liability insurers -- Sentry, The Travelers Indemnity Company, and Employers Insurance Company of Wausau -- seeking to recover $235,683.63 in costs it incurred investigating and remediating heavy-metal and PAH contamination discovered on its property in 2018. Fox invoked Wisconsin's direct-action statute, which allows a plaintiff to sue a defendant's insurer directly, after the Department of Natural Resources named Fox a responsible party in 2019 and closed the site in May 2022 once Fox completed the DNR-directed cleanup.",
+      significance: "Suing a prior owner's or responsible party's historic insurers directly, rather than first obtaining a judgment against the underlying defendant, lets a current commercial owner pursue environmental cost recovery without waiting on a municipality's own ability or willingness to pay. The case is a useful template for other owners who inherit legacy contamination tied to a municipal predecessor or government actor whose own insurance history may be the most realistic source of recovery.",
+      body: [
+        "A Wisconsin commercial property owner has pulled three insurance carriers directly into a contamination cost-recovery suit against the City of Kaukauna, using a state law that lets plaintiffs sue a defendant's insurers without first securing a judgment against the insured itself. Fox Investments LLC filed the complaint on July 23, 2026 in the U.S. District Court for the Eastern District of Wisconsin, naming the city along with Sentry, The Travelers Indemnity Company, and Employers Insurance Company of Wausau as defendants, plus a fictitious 'ABC Insurance Company' placeholder for any carrier not yet identified.",
+        "The contamination traces back to 2018, when a lender's Phase II Environmental Site Assessment, conducted in connection with Fox's financing on the property, detected heavy metals -- arsenic, cadmium, lead, selenium, and mercury -- in the soil, along with polycyclic aromatic hydrocarbon constituents including benzo(b)fluoranthene, fluoranthene, benzo(a)pyrene, and chrysene in the groundwater, at levels the complaint says exceeded Wisconsin standards.",
+        "Fox reported the contamination to the Wisconsin Department of Natural Resources under the state's Spill Law, and on January 17, 2019 the DNR formally named Fox a responsible party and directed it to investigate and remediate the site. Fox retained Stantec Consulting to carry out the required work, and the DNR closed the site on May 10, 2022 after the cleanup was completed, by which point Fox had incurred $235,683.63 in investigation and remediation costs.",
+        "Rather than pursue the City of Kaukauna alone for reimbursement, Fox invoked Wisconsin's direct-action statute to sue the city's insurers directly, a strategic choice that lets a plaintiff reach insurance proceeds without first litigating liability to judgment against the insured municipality and then separately pursuing coverage. The approach is particularly useful where the underlying defendant is a government entity whose own ability or willingness to satisfy a judgment promptly may be limited, or where historic insurance policies predate records the defendant itself retains.",
+        "For commercial owners who inherit legacy contamination on property with a municipal or other government-linked chain of title, the case illustrates a practical cost-recovery path: document DNR or equivalent state-agency responsible-party determinations and remediation directives carefully, retain complete invoices from environmental consultants for all investigation and cleanup work, and identify, where possible, the historic insurers that covered the responsible government entity during the period contamination is believed to have occurred, since a state direct-action statute can convert that insurance history into a viable recovery target even when the underlying government defendant is otherwise a difficult collection source."
+      ],
+      judge: null,
+      parties: [
+        { name: "Fox Investments LLC", role: "Plaintiff" },
+        { name: "City of Kaukauna", role: "Defendant" },
+        { name: "Sentry", role: "Defendant/Insurer" },
+        { name: "The Travelers Indemnity Company", role: "Defendant/Insurer" },
+        { name: "Employers Insurance Company of Wausau", role: "Defendant/Insurer" }
+      ],
+      tags: ["environmental", "wisconsin", "contamination", "direct-action-statute", "insurance-coverage"]
     }
   ],
 
@@ -8545,6 +8739,7 @@ const RELAW_DATA = {
     { name: "Namdar Realty Group", matchTerm: "Namdar", slug: "namdar-realty-group", description: "Great Neck, New York-based private owner of more than 100 shopping malls and retail centers nationally, frequently named in tenant, insurer, and municipal code-enforcement litigation over property conditions.", website: "https://namdarrealtygroup.com" },
     { name: "Vesta Realty, LLC", matchTerm: "Vesta Realty", slug: "vesta-realty", description: "Tulsa, Oklahoma-based private multifamily platform that controlled a roughly $1 billion, nearly 10,000-unit apartment portfolio across Oklahoma, Kansas, and Arkansas before its collapse into dozens of investor-fraud, foreclosure, receivership, and regulatory enforcement actions." },
     { name: "Phoenix American Hospitality", matchTerm: "Phoenix American Hospitality", slug: "phoenix-american-hospitality", description: "Dallas-based external manager of two non-traded hospitality REITs, which settled SEC fraud charges in 2026 over an $86 million Regulation A hotel-fund offering before the REITs themselves filed Chapter 11." },
-    { name: "Fannie Mae", matchTerm: "Fannie Mae", slug: "fannie-mae", description: "Federally chartered mortgage finance enterprise that purchases and guarantees multifamily and single-family mortgage loans, and frequently appears as plaintiff or loan-purchaser in commercial mortgage foreclosure litigation.", website: "https://www.fanniemae.com" }
+    { name: "Fannie Mae", matchTerm: "Fannie Mae", slug: "fannie-mae", description: "Federally chartered mortgage finance enterprise that purchases and guarantees multifamily and single-family mortgage loans, and frequently appears as plaintiff or loan-purchaser in commercial mortgage foreclosure litigation.", website: "https://www.fanniemae.com" },
+    { name: "BroadRange Logistics LLC", matchTerm: "BroadRange", slug: "broadrange-logistics", description: "Georgia-based third-party logistics (3PL) operator leasing large warehouse and distribution space across multiple states, named as defendant in separate landlord lawsuits over defaulted industrial leases." }
   ]
 };
