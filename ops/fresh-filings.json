@@ -1,109 +1,170 @@
 {
- "updatedAt": "2026-10-07T02:43:02+00:00",
+ "updatedAt": "2026-10-07T17:58:37+00:00",
  "about": "Commercial real estate Chapter 11 petitions filed in the last four days, from federal court records via CourtListener. Same name test as Chapter 11 Watch (is_cre_debtor in scripts/ingest_court_filings.py). Business debtors only.",
  "filings": [
   {
+   "caseName": "Limo Realty Corp",
+   "court": "United States Bankruptcy Court, E.D. New York",
+   "courtId": "nyeb",
+   "docketNumber": "1-26-44694",
+   "dateFiled": "2026-10-07",
+   "docketUrl": "https://www.courtlistener.com/docket/74929738/limo-realty-corp/",
+   "docketId": 74929738,
+   "slug": "limo-realty-corp-nyeb-1-26-44694",
+   "type": "Chapter 11 petition"
+  },
+  {
    "caseName": "ZAP REALTY CORP",
    "court": "United States Bankruptcy Court, E.D. New York",
+   "courtId": "nyeb",
    "docketNumber": "1-26-44683",
    "dateFiled": "2026-10-06",
    "docketUrl": "https://www.courtlistener.com/docket/74922668/zap-realty-corp/",
+   "docketId": 74922668,
+   "slug": "zap-realty-corp-nyeb-1-26-44683",
    "type": "Chapter 11 petition"
   },
   {
    "caseName": "Savage Squad Properties LLC",
    "court": "United States Bankruptcy Court, S.D. Texas",
+   "courtId": "txsb",
    "docketNumber": "26-37555",
    "dateFiled": "2026-10-06",
    "docketUrl": "https://www.courtlistener.com/docket/74923616/savage-squad-properties-llc/",
+   "docketId": 74923616,
+   "slug": "savage-squad-properties-llc-txsb-26-37555",
    "type": "Chapter 11 petition"
   },
   {
    "caseName": "Lesam Realty LLC",
    "court": "United States Bankruptcy Court, N.D. Georgia",
+   "courtId": "ganb",
    "docketNumber": "26-63571",
    "dateFiled": "2026-10-06",
    "docketUrl": "https://www.courtlistener.com/docket/74923337/lesam-realty-llc/",
+   "docketId": 74923337,
+   "slug": "lesam-realty-llc-ganb-26-63571",
    "type": "Chapter 11 petition"
   },
   {
    "caseName": "LZA Real Properties East, LLC",
    "court": "United States Bankruptcy Court, W.D. Texas",
+   "courtId": "txwb",
    "docketNumber": "26-12003",
    "dateFiled": "2026-10-06",
    "docketUrl": "https://www.courtlistener.com/docket/74924804/lza-real-properties-east-llc/",
+   "docketId": 74924804,
+   "slug": "lza-real-properties-east-llc-txwb-26-12003",
    "type": "Chapter 11 petition"
   },
   {
    "caseName": "Keinan Properties, LLC",
    "court": "United States Bankruptcy Court, D. Kansas",
+   "courtId": "ksb",
    "docketNumber": "26-21557",
    "dateFiled": "2026-10-06",
    "docketUrl": "https://www.courtlistener.com/docket/74925931/keinan-properties-llc/",
+   "docketId": 74925931,
+   "slug": "keinan-properties-llc-ksb-26-21557",
    "type": "Chapter 11 petition"
   },
   {
    "caseName": "JRM Real Estate Holdings LLC",
    "court": "United States Bankruptcy Court, D. New Jersey",
+   "courtId": "njb",
    "docketNumber": "26-21388",
    "dateFiled": "2026-10-06",
    "docketUrl": "https://www.courtlistener.com/docket/74928132/jrm-real-estate-holdings-llc/",
+   "docketId": 74928132,
+   "slug": "jrm-real-estate-holdings-llc-njb-26-21388",
    "type": "Chapter 11 petition"
   },
   {
    "caseName": "Fortapache Realty LLC",
    "court": "United States Bankruptcy Court, N.D. Georgia",
+   "courtId": "ganb",
    "docketNumber": "26-63569",
    "dateFiled": "2026-10-06",
    "docketUrl": "https://www.courtlistener.com/docket/74923336/fortapache-realty-llc/",
+   "docketId": 74923336,
+   "slug": "fortapache-realty-llc-ganb-26-63569",
+   "type": "Chapter 11 petition"
+  },
+  {
+   "caseName": "4210 W CARMEN ST, LLC",
+   "court": "United States Bankruptcy Court, M.D. Florida",
+   "courtId": "flmb",
+   "docketNumber": "8:26-bk-09102",
+   "dateFiled": "2026-10-06",
+   "docketUrl": "https://www.courtlistener.com/docket/74928372/4210-w-carmen-st-llc/",
+   "docketId": 74928372,
+   "slug": "4210-w-carmen-st-llc-flmb-8-26-bk-09102",
    "type": "Chapter 11 petition"
   },
   {
    "caseName": "Janam Taccoa Lodging LLC",
    "court": "United States Bankruptcy Court, N.D. Georgia",
+   "courtId": "ganb",
    "docketNumber": "26-63515",
    "dateFiled": "2026-10-05",
    "docketUrl": "https://www.courtlistener.com/docket/74922099/janam-taccoa-lodging-llc/",
+   "docketId": 74922099,
+   "slug": "janam-taccoa-lodging-llc-ganb-26-63515",
    "type": "Chapter 11 petition"
   },
   {
    "caseName": "DMK Real Estate Holdings LLC",
    "court": "United States Bankruptcy Court, M.D. Pennsylvania",
+   "courtId": "pamb",
    "docketNumber": "5:26-bk-02893",
    "dateFiled": "2026-10-05",
    "docketUrl": "https://www.courtlistener.com/docket/74919063/dmk-real-estate-holdings-llc/",
+   "docketId": 74919063,
+   "slug": "dmk-real-estate-holdings-llc-pamb-5-26-bk-02893",
    "type": "Chapter 11 petition"
   },
   {
    "caseName": "Cornerstone Development, LLC",
    "court": "United States Bankruptcy Court, N.D. Georgia",
+   "courtId": "ganb",
    "docketNumber": "26-63513",
    "dateFiled": "2026-10-05",
    "docketUrl": "https://www.courtlistener.com/docket/74922018/cornerstone-development-llc/",
+   "docketId": 74922018,
+   "slug": "cornerstone-development-llc-ganb-26-63513",
    "type": "Chapter 11 petition"
   },
   {
    "caseName": "200 Arpeggio Way LLC",
    "court": "United States Bankruptcy Court, N.D. Georgia",
+   "courtId": "ganb",
    "docketNumber": "26-63452",
    "dateFiled": "2026-10-05",
    "docketUrl": "https://www.courtlistener.com/docket/74919314/200-arpeggio-way-llc/",
+   "docketId": 74919314,
+   "slug": "200-arpeggio-way-llc-ganb-26-63452",
    "type": "Chapter 11 petition"
   },
   {
    "caseName": "American Hospitality Properties REIT, Inc.",
    "court": "United States Bankruptcy Court, N.D. Texas",
+   "courtId": "txnb",
    "docketNumber": "26-80071",
    "dateFiled": "2026-10-04",
    "docketUrl": "https://www.courtlistener.com/docket/74914151/american-hospitality-properties-reit-inc/",
+   "docketId": 74914151,
+   "slug": "american-hospitality-properties-reit-inc-txnb-26-80071",
    "type": "Chapter 11 petition"
   },
   {
    "caseName": "American Hospitality Properties REIT II, Inc.",
    "court": "United States Bankruptcy Court, N.D. Texas",
+   "courtId": "txnb",
    "docketNumber": "26-80072",
    "dateFiled": "2026-10-04",
    "docketUrl": "https://www.courtlistener.com/docket/74914157/american-hospitality-properties-reit-ii-inc/",
+   "docketId": 74914157,
+   "slug": "american-hospitality-properties-reit-ii-inc-txnb-26-80072",
    "type": "Chapter 11 petition"
   }
  ]

@@ -1,7 +1,18 @@
 {
- "updatedAt": "2026-10-07T02:43:02+00:00",
+ "updatedAt": "2026-10-07T17:58:37+00:00",
  "about": "Commercial real estate Chapter 11 petitions filed in the last year, from federal court records via CourtListener; is_cre_debtor in scripts/ingest_court_filings.py decides which. Business debtors only. Builds bankruptcy-watch.html and chapter-11/<slug>.html (scripts/build_ch11_pages.ts).",
  "filings": [
+  {
+   "caseName": "Limo Realty Corp",
+   "court": "United States Bankruptcy Court, E.D. New York",
+   "courtId": "nyeb",
+   "docketNumber": "1-26-44694",
+   "dateFiled": "2026-10-07",
+   "docketUrl": "https://www.courtlistener.com/docket/74929738/limo-realty-corp/",
+   "docketId": 74929738,
+   "slug": "limo-realty-corp-nyeb-1-26-44694",
+   "type": "Chapter 11 petition"
+  },
   {
    "caseName": "ZAP REALTY CORP",
    "court": "United States Bankruptcy Court, E.D. New York",
@@ -77,6 +88,17 @@
    "docketUrl": "https://www.courtlistener.com/docket/74923336/fortapache-realty-llc/",
    "docketId": 74923336,
    "slug": "fortapache-realty-llc-ganb-26-63569",
+   "type": "Chapter 11 petition"
+  },
+  {
+   "caseName": "4210 W CARMEN ST, LLC",
+   "court": "United States Bankruptcy Court, M.D. Florida",
+   "courtId": "flmb",
+   "docketNumber": "8:26-bk-09102",
+   "dateFiled": "2026-10-06",
+   "docketUrl": "https://www.courtlistener.com/docket/74928372/4210-w-carmen-st-llc/",
+   "docketId": 74928372,
+   "slug": "4210-w-carmen-st-llc-flmb-8-26-bk-09102",
    "type": "Chapter 11 petition"
   },
   {
