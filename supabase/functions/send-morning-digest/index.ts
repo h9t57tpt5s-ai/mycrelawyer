@@ -173,8 +173,16 @@ Deno.serve(async (req) => {
   }
 
   const { data: watchlists } = await admin.from("watchlists").select("*");
-  const { data: usersPage } = await admin.auth.admin.listUsers();
-  const users = (usersPage?.users || []).filter((u) => wantsPeriod(u, period));
+  // listUsers() returns 50 accounts per page by default; page through all
+  // of them (until 2026-10-06 only the first 50 ever got a digest).
+  const allUsers: any[] = [];
+  for (let page = 1; page < 50; page++) {
+    const { data: usersPage, error: usersErr } = await admin.auth.admin.listUsers({ page, perPage: 1000 });
+    if (usersErr || !usersPage?.users?.length) break;
+    allUsers.push(...usersPage.users);
+    if (usersPage.users.length < 1000) break;
+  }
+  const users = allUsers.filter((u) => wantsPeriod(u, period));
 
   let sent = 0;
   for (const user of users) {

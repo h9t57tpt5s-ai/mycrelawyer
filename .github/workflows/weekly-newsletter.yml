@@ -1,0 +1,39 @@
+name: Weekly newsletter (New on CREdocket)
+
+# Mondays: emails confirmed newsletter subscribers the week's new matters,
+# rulings in tracked cases and market signals, via the newsletter Edge
+# Function. Account holders are skipped (they get the weekly-digest).
+# The function refuses to send until a postal address is set (CAN-SPAM).
+# Manual runs default to a test issue sent only to the owner.
+
+on:
+  schedule:
+    - cron: "23 13 * * 1" # Mondays ~8:20am Central, after the account digest
+  workflow_dispatch:
+    inputs:
+      action:
+        description: "send-test (owner only) or send-weekly (all subscribers)"
+        type: choice
+        options: [send-test, send-weekly]
+        default: send-test
+
+permissions:
+  contents: read
+
+jobs:
+  send:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Send
+        env:
+          AUTOMATION_SECRET: ${{ secrets.AUTOMATION_SECRET }}
+          ACTION: ${{ inputs.action || 'send-weekly' }}
+        run: |
+          status=$(curl -sS -o /tmp/nl.json -w "%{http_code}" \
+            -X POST 'https://ribmcdyoydhmafnyfhpp.supabase.co/functions/v1/newsletter' \
+            -H "x-automation-secret: $AUTOMATION_SECRET" \
+            -H "Content-Type: application/json" \
+            --data "{\"action\":\"$ACTION\"}")
+          echo "newsletter $ACTION HTTP $status"; cat /tmp/nl.json; echo
+          [[ "$status" =~ ^2 ]]
