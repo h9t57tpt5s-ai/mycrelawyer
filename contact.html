@@ -187,11 +187,16 @@
             <label for="message">Message</label>
             <textarea id="message" name="message" required placeholder="Tell us what you're looking for…"></textarea>
           </div>
+          <div aria-hidden="true" style="position:absolute; left:-9999px; width:1px; height:1px; overflow:hidden;">
+            <label for="website">Leave this field empty</label>
+            <input type="text" id="website" name="website" tabindex="-1" autocomplete="off" />
+          </div>
           <button type="submit" class="btn btn-primary">
             Send message
             <svg viewBox="0 0 24 24" fill="none"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
           </button>
-          <p class="text-muted mt-16" style="font-size:12.5px; line-height:1.6;" id="form-note">This form opens your email client with the message pre-filled — it isn't wired to a backend yet. Connect a service like Formspree or Netlify Forms to collect submissions automatically.</p>
+          <p class="gate-form-status" id="contact-status" role="status"></p>
+          <p class="text-muted mt-16" style="font-size:12.5px; line-height:1.6;" id="form-note">Your message goes straight to admin@credocket.com, and our reply comes to the email address you enter above.</p>
         </form>
       </div>
 
@@ -378,21 +383,53 @@
     }
   })();
 
-  document.getElementById("contact-form").addEventListener("submit", function (e) {
+  const contactOpenedAt = Date.now();
+  document.getElementById("contact-form").addEventListener("submit", async function (e) {
     e.preventDefault();
-    const name = document.getElementById("name").value;
-    const email = document.getElementById("email").value;
-    const org = document.getElementById("org").value;
-    const role = document.getElementById("role").value;
-    const message = document.getElementById("message").value;
+    const form = this;
+    const val = (id) => document.getElementById(id).value;
     const params = new URLSearchParams(window.location.search);
-    const matter = params.get("matter");
-    const body = `Name: ${name}\nEmail: ${email}\nOrganization: ${org}\nRole: ${role}\n\n${message}`;
-    const subject = matter ? `CREdocket inquiry re: ${matter}` : "CREdocket inquiry from " + name;
-    // Counts the send (it opens the visitor's email app); records only
-    // whether it came from a matter, never what was typed.
-    if (window.RELAW_TRACK) window.RELAW_TRACK("contact_submit", { detail: matter ? "from-matter" : "general" });
-    window.location.href = `mailto:admin@credocket.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+    const matter = params.get("matter") || "";
+    const status = document.getElementById("contact-status");
+    const btn = form.querySelector("button[type=submit]");
+    const payload = {
+      name: val("name"), email: val("email"), org: val("org"), role: val("role"), message: val("message"),
+      matter, jurisdiction: params.get("jurisdiction") || "", page: location.pathname + location.search,
+      hp: val("website"), elapsedMs: Date.now() - contactOpenedAt,
+    };
+    // Shown only if the server can't take the message: the old way, through
+    // the visitor's own email app.
+    const mailto = () => {
+      const body = `Name: ${payload.name}\nEmail: ${payload.email}\nOrganization: ${payload.org}\nRole: ${payload.role}\n\n${payload.message}`;
+      const subject = matter ? `CREdocket inquiry re: ${matter}` : "CREdocket inquiry from " + payload.name;
+      return `mailto:admin@credocket.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+    };
+    btn.disabled = true;
+    status.className = "gate-form-status";
+    status.textContent = "Sending…";
+    try {
+      const r = await fetch("https://ribmcdyoydhmafnyfhpp.supabase.co/functions/v1/contact", {
+        method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(payload),
+      });
+      const d = await r.json().catch(() => ({}));
+      if (d.ok) {
+        // Records only whether it came from a matter, never what was typed.
+        if (window.RELAW_TRACK) window.RELAW_TRACK("contact_submit", { detail: matter ? "from-matter" : "general" });
+        form.reset();
+        status.className = "gate-form-status is-success";
+        status.textContent = "Message sent. We'll reply to " + payload.email + ".";
+      } else if (r.status === 400) {
+        status.className = "gate-form-status is-error";
+        status.textContent = d.error || "Check the form and try again.";
+      } else {
+        throw new Error(d.error || "send failed");
+      }
+    } catch (err) {
+      status.className = "gate-form-status is-error";
+      status.innerHTML = 'The message couldn\'t be sent from here. <a href="#" id="contact-mailto">Send it from your email app instead</a>.';
+      document.getElementById("contact-mailto").setAttribute("href", mailto());
+    }
+    btn.disabled = false;
   });
 </script>
 </body>
