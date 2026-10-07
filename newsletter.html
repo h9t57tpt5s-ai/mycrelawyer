@@ -269,6 +269,9 @@
     const out = document.getElementById("nl-form-status");
     form.addEventListener("submit", async (e) => {
       e.preventDefault();
+      if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(document.getElementById("nl-email").value.trim())) {
+        out.className = "gate-form-status is-error"; out.textContent = "Enter a valid email address."; return;
+      }
       const btn = form.querySelector("button"); btn.disabled = true;
       out.className = "gate-form-status"; out.textContent = "Sending…";
       try {

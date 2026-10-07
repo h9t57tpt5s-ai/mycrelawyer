@@ -144,7 +144,7 @@
 
       <p><strong>Contact form.</strong> If you use the form on our <a href="contact.html">Contact</a> page, the fields you fill in (name, email address, organization, role, and message) are sent directly to us via your own email client — this information is not transmitted to or stored on a CREdocket server or database.</p>
 
-      <p><strong>Newsletter.</strong> The newsletter sign-up shown on this site is a form embedded from Beehiiv, our third-party email newsletter platform. When you submit your email address there, it goes directly to Beehiiv, not to a CREdocket server — Beehiiv's own <a href="https://www.beehiiv.com/privacy" target="_blank" rel="noopener">privacy policy</a> governs how they handle it. We use the emails Beehiiv collects to send our newsletter and can see aggregate delivery/open statistics, but we do not separately store your newsletter email address ourselves.</p>
+      <p><strong>Newsletter.</strong> If you subscribe to our weekly email, we store your email address, when you subscribed and confirmed, and when we last sent you an issue, in our database (hosted by Supabase). We send it through Resend. We use your address only to send that email and the confirmation and unsubscribe messages that go with it. Every issue has a one-click unsubscribe link; after you unsubscribe we keep your address marked as unsubscribed so you are not emailed again. Subscriptions made before October 6, 2026 were collected through Beehiiv, our previous newsletter provider, under its own <a href="https://www.beehiiv.com/privacy" target="_blank" rel="noopener">privacy policy</a>.</p>
 
       <p><strong>Account information.</strong> Creating a free CREdocket account requires an email address and password, handled by our backend provider, Supabase. Your session is kept signed-in using your browser's local storage (not a cookie) so you don't have to sign in again on return visits. Depending on which features you use, your account may also be associated with:</p>
       <ul style="margin:0 0 16px 20px; padding:0; list-style:disc;">
@@ -169,7 +169,7 @@
       <p><strong>Free reads without an account.</strong> Without an account you can read up to 10 full write-ups a month. To count them, your browser stores a list of the matters you've read this month in its local storage, on your device only. It is never sent to us, and clearing this site's data in your browser removes it.</p>
 
       <h2>Third-Party Services</h2>
-      <p>Beyond what's described above, this site relies on: <strong>Supabase</strong> (hosts our database and handles account sign-in); <strong>Resend</strong> (delivers account-related and digest emails); <strong>Google Fonts</strong> (loading a page may send your browser's IP address and user-agent to Google's servers as part of loading our typefaces); and <strong>Pexels</strong> (source of our photography, which is hosted directly on our own site — no separate request is made to Pexels when you view a page).</p>
+      <p>Beyond what's described above, this site relies on: <strong>Supabase</strong> (hosts our database and handles account sign-in); <strong>Resend</strong> (delivers account-related, digest and newsletter emails); <strong>Google Fonts</strong> (loading a page may send your browser's IP address and user-agent to Google's servers as part of loading our typefaces); and <strong>Pexels</strong> (source of our photography, which is hosted directly on our own site — no separate request is made to Pexels when you view a page).</p>
 
       <h2>How We Use Information</h2>
       <p>We use the information described above to operate the site and its paid tools, respond to inquiries, evaluate potential legal matters you raise with us, send the newsletter and digest emails you've opted into, process payments, and enforce usage limits and our Terms of Service. We do not sell or rent your information to third parties.</p>
@@ -200,7 +200,17 @@
   <div class="container">
     <div class="newsletter-card">
       <div class="newsletter-embed">
-        <script async src="https://subscribe-forms.beehiiv.com/v3/loader.js" data-beehiiv-form="6fe66572-cbbf-4d3d-9c0e-1aafbf2857ca"></script>
+        <form class="nl-inline" data-newsletter-form novalidate>
+          <div class="eyebrow">Weekly email</div>
+          <p class="nl-inline-title">New on CREdocket, every Monday</p>
+          <p class="nl-inline-sub">The week's new commercial real estate lawsuits, rulings in cases we follow, and market signals. Free; unsubscribe in one click.</p>
+          <div class="gate-form">
+            <label class="sr-only" for="nl-inline-email">Email address</label>
+            <input type="email" id="nl-inline-email" autocomplete="email" placeholder="you@company.com" />
+            <button type="submit" class="btn btn-primary btn-sm">Subscribe</button>
+          </div>
+          <p class="gate-form-status" data-newsletter-status role="status"></p>
+        </form>
       </div>
     </div>
   </div>
@@ -303,6 +313,7 @@
   }
 </script>
 <script src="js/main.js"></script>
+<script src="js/newsletter-form.js"></script>
 <script src="js/track.js"></script>
 <script src="js/glossary-tooltip.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script>

@@ -175,7 +175,17 @@
   <div class="container">
     <div class="newsletter-card">
       <div class="newsletter-embed">
-        <script async src="https://subscribe-forms.beehiiv.com/v3/loader.js" data-beehiiv-form="6fe66572-cbbf-4d3d-9c0e-1aafbf2857ca"></script>
+        <form class="nl-inline" data-newsletter-form novalidate>
+          <div class="eyebrow">Weekly email</div>
+          <p class="nl-inline-title">New on CREdocket, every Monday</p>
+          <p class="nl-inline-sub">The week's new commercial real estate lawsuits, rulings in cases we follow, and market signals. Free; unsubscribe in one click.</p>
+          <div class="gate-form">
+            <label class="sr-only" for="nl-inline-email">Email address</label>
+            <input type="email" id="nl-inline-email" autocomplete="email" placeholder="you@company.com" />
+            <button type="submit" class="btn btn-primary btn-sm">Subscribe</button>
+          </div>
+          <p class="gate-form-status" data-newsletter-status role="status"></p>
+        </form>
       </div>
     </div>
   </div>
@@ -263,6 +273,7 @@
 </script>
 <script src="js/prediction-registry-data.js"></script>
 <script src="js/main.js"></script>
+<script src="js/newsletter-form.js"></script>
 <script src="js/track.js"></script>
 <script src="js/glossary-tooltip.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script>
