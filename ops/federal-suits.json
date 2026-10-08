@@ -1,7 +1,20 @@
 {
- "updatedAt": "2026-10-08T14:31:50+00:00",
+ "updatedAt": "2026-10-08T18:01:12+00:00",
  "about": "New federal civil cases between businesses or governments that name a commercial real estate business, or are real property foreclosure or lease cases between businesses, from federal court records via CourtListener; is_cre_suit in scripts/ingest_court_filings.py decides which. Builds lawsuit-watch.html and federal-cases/<slug>.html (scripts/build_record_pages.ts).",
  "filings": [
+  {
+   "caseName": "BetMGM, LLC v. Greenbrier Hotel Corporation",
+   "court": "District Court, D. Delaware",
+   "courtId": "ded",
+   "docketNumber": "1:26-cv-01296",
+   "dateFiled": "2026-10-08",
+   "docketUrl": "https://www.courtlistener.com/docket/74935610/betmgm-llc-v-greenbrier-hotel-corporation/",
+   "docketId": 74935610,
+   "suitNature": "",
+   "cause": "",
+   "slug": "betmgm-llc-v-greenbrier-hotel-corporation-ded-1-26-cv-01296",
+   "type": "Federal civil case"
+  },
   {
    "caseName": "The Huntington National Bank v. R&R Express Properties, LLC",
    "court": "District Court, W.D. Pennsylvania",
@@ -10,8 +23,8 @@
    "dateFiled": "2026-10-07",
    "docketUrl": "https://www.courtlistener.com/docket/74930487/the-huntington-national-bank-v-rr-express-properties-llc/",
    "docketId": 74930487,
-   "suitNature": "",
-   "cause": "",
+   "suitNature": "140 Negotiable Instrument",
+   "cause": "28:1332 Diversity-Negotiable Instrument",
    "slug": "the-huntington-national-bank-v-r-r-express-properties-llc-pawd-2-26-mc-01053",
    "type": "Federal civil case"
   },
@@ -36,8 +49,8 @@
    "dateFiled": "2026-10-07",
    "docketUrl": "https://www.courtlistener.com/docket/74930438/pnc-bank-na-v-wb-real-estate-development-llc-et-al/",
    "docketId": 74930438,
-   "suitNature": "",
-   "cause": "",
+   "suitNature": "190 Contract: Other",
+   "cause": "28:1332 Diversity-Breach of Contract",
    "slug": "pnc-bank-n-a-v-wb-real-estate-development-llc-et-al-flsd-1-26-cv-27042",
    "type": "Federal civil case"
   },
@@ -55,6 +68,19 @@
    "type": "Federal civil case"
   },
   {
+   "caseName": "NEWCASTLE APARTMENTS, A LIMITED PARTNERSHIP v. United States",
+   "court": "United States Court of Federal Claims",
+   "courtId": "uscfc",
+   "docketNumber": "1:26-cv-01496",
+   "dateFiled": "2026-10-07",
+   "docketUrl": "https://www.courtlistener.com/docket/74936135/newcastle-apartments-a-limited-partnership-v-united-states/",
+   "docketId": 74936135,
+   "suitNature": "",
+   "cause": "",
+   "slug": "newcastle-apartments-a-limited-partnership-v-united-states-uscfc-1-26-cv-01496",
+   "type": "Federal civil case"
+  },
+  {
    "caseName": "Amherst Specialty Insurance Company v. Tower 732 Realty LLC",
    "court": "District Court, E.D. New York",
    "courtId": "nyed",
@@ -65,6 +91,19 @@
    "suitNature": "",
    "cause": "",
    "slug": "amherst-specialty-insurance-company-v-tower-732-realty-llc-nyed-1-26-cv-06427",
+   "type": "Federal civil case"
+  },
+  {
+   "caseName": "Trident Realty Investments, LLC v. 75 Victoria, LLC",
+   "court": "District Court, N.D. Georgia",
+   "courtId": "gand",
+   "docketNumber": "1:26-cv-05753",
+   "dateFiled": "2026-10-05",
+   "docketUrl": "https://www.courtlistener.com/docket/74935797/trident-realty-investments-llc-v-75-victoria-llc/",
+   "docketId": 74935797,
+   "suitNature": "",
+   "cause": "",
+   "slug": "trident-realty-investments-llc-v-75-victoria-llc-gand-1-26-cv-05753",
    "type": "Federal civil case"
   },
   {

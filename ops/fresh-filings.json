@@ -1,7 +1,29 @@
 {
- "updatedAt": "2026-10-08T14:31:50+00:00",
+ "updatedAt": "2026-10-08T18:01:12+00:00",
  "about": "Commercial real estate Chapter 11 petitions filed in the last four days, from federal court records via CourtListener. Same name test as Chapter 11 Watch (is_cre_debtor in scripts/ingest_court_filings.py). Business debtors only.",
  "filings": [
+  {
+   "caseName": "148 Bay 43rd, LLC",
+   "court": "United States Bankruptcy Court, E.D. New York",
+   "courtId": "nyeb",
+   "docketNumber": "1-26-44720",
+   "dateFiled": "2026-10-08",
+   "docketUrl": "https://www.courtlistener.com/docket/74937404/148-bay-43rd-llc/",
+   "docketId": 74937404,
+   "slug": "148-bay-43rd-llc-nyeb-1-26-44720",
+   "type": "Chapter 11 petition"
+  },
+  {
+   "caseName": "Total Care Medical Center LLC",
+   "court": "United States Bankruptcy Court, D. South Carolina",
+   "courtId": "scb",
+   "docketNumber": "26-04676",
+   "dateFiled": "2026-10-07",
+   "docketUrl": "https://www.courtlistener.com/docket/74929746/total-care-medical-center-llc/",
+   "docketId": 74929746,
+   "slug": "total-care-medical-center-llc-scb-26-04676",
+   "type": "Chapter 11 petition"
+  },
   {
    "caseName": "Limo Realty Corp",
    "court": "United States Bankruptcy Court, E.D. New York",
@@ -33,6 +55,17 @@
    "docketUrl": "https://www.courtlistener.com/docket/74922581/travis-property-owner-llc/",
    "docketId": 74922581,
    "slug": "travis-property-owner-llc-txnb-26-90220",
+   "type": "Chapter 11 petition"
+  },
+  {
+   "caseName": "Teas Ridge Retail Center I LLC",
+   "court": "United States Bankruptcy Court, S.D. Texas",
+   "courtId": "txsb",
+   "docketNumber": "26-37551",
+   "dateFiled": "2026-10-06",
+   "docketUrl": "https://www.courtlistener.com/docket/74923277/teas-ridge-retail-center-i-llc/",
+   "docketId": 74923277,
+   "slug": "teas-ridge-retail-center-i-llc-txsb-26-37551",
    "type": "Chapter 11 petition"
   },
   {
