@@ -16,8 +16,9 @@ on:
       - "scripts/build_matter_pages.ts"
       - "scripts/build_sitemap.py"
       - "scripts/build_data_lite.ts"
-      - "scripts/build_ch11_pages.ts"
+      - "scripts/build_record_pages.ts"
       - "bankruptcy-watch.html"
+      - "lawsuit-watch.html"
   # Also started by court-filings-ingest.yml and docket-activity.yml after
   # they commit new petitions or docket entries (their own pushes cannot
   # trigger this workflow).
@@ -46,13 +47,13 @@ jobs:
       - run: python3 scripts/render_corrections.py
       # One indexable page per matter, then the sitemap that lists them.
       - run: deno run --allow-read --allow-write scripts/build_matter_pages.ts
-      # Chapter 11 Watch's list and one page per commercial real estate petition.
-      - run: deno run --allow-read --allow-write scripts/build_ch11_pages.ts
+      # Chapter 11 Watch and Federal Lawsuit Watch, and one page per petition or case.
+      - run: deno run --allow-read --allow-write scripts/build_record_pages.ts
       - run: python3 scripts/build_sitemap.py
       - name: Commit prerendered pages
         run: |
-          git add -A matters chapter-11
-          git add bankruptcy-watch.html
+          git add -A matters chapter-11 federal-cases
+          git add bankruptcy-watch.html lawsuit-watch.html
           git add index.html litigation.html coverage.html company-*.html corrections.html sitemap.xml js/data-lite.js js/matter-text.json
           if git diff --cached --quiet; then echo "Nothing changed."; exit 0; fi
           git config user.name "credocket-prerender-bot"

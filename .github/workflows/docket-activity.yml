@@ -7,8 +7,9 @@ name: Follow tracked federal dockets
 # Also checks recent commercial real estate Chapter 11 dockets
 # (ops/ch11-activity.json) and every docket a reader follows, and hands new
 # rulings to the docket-follows function, which emails the followers.
-# Budget 30 CourtListener requests (about 15 used), from the same 125/day
-# token allowance the surveillance workflow uses (45 + 45).
+# Also the federal lawsuits on Federal Lawsuit Watch (ops/suit-activity.json).
+# Budget 40 CourtListener requests (about 25 used), from the same 125/day
+# token allowance the surveillance workflow uses (40 + 40).
 
 on:
   schedule:
@@ -39,11 +40,11 @@ jobs:
           COURTLISTENER_TOKEN: ${{ secrets.COURTLISTENER_TOKEN }}
           AUTOMATION_SECRET: ${{ secrets.AUTOMATION_SECRET }}
           SUPABASE_ANON_KEY: sb_publishable_77xSJub0DOpnTSM4nzhVaQ_aztB5p3f
-        run: python3 scripts/track_dockets.py --budget 30
+        run: python3 scripts/track_dockets.py --budget 40
       - name: Commit the docket activity
         run: |
           git add ops/docket-activity.json
-          git add ops/ch11-activity.json 2>/dev/null || true
+          git add ops/ch11-activity.json ops/suit-activity.json 2>/dev/null || true
           if git diff --cached --quiet; then echo "Nothing new."; exit 0; fi
           git config user.name "credocket-docket-bot"
           git config user.email "actions@users.noreply.github.com"

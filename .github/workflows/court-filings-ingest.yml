@@ -44,15 +44,16 @@ jobs:
           WINDOW_DAYS: ${{ inputs.window_days || '3' }}
           WRITE_ALERT_LOG: "1"
         # Two runs a day share CourtListener's 125-request daily allowance
-        # with the docket tracker (docket-activity.yml, up to 30): 45+45+30.
-        # A run actually uses about 8 (2026-10-06 logs); this is the ceiling.
-        run: python3 scripts/ingest_court_filings.py --budget 45
+        # with the docket tracker (docket-activity.yml, up to 40): 40+40+40.
+        # A run actually uses about 8, plus 2-4 for the federal suits pull;
+        # this is the ceiling.
+        run: python3 scripts/ingest_court_filings.py --budget 40
       - name: Commit the alert log
         # Runs even when the ingest step failed: a failed run belongs in
         # the public log too.
         if: always()
         run: |
-          git add alert-log.html ops/alert-runs.json ops/alert-audit.json ops/fresh-filings.json ops/ch11-petitions.json 2>/dev/null || true
+          git add alert-log.html ops/alert-runs.json ops/alert-audit.json ops/fresh-filings.json ops/ch11-petitions.json ops/federal-suits.json 2>/dev/null || true
           if git diff --cached --quiet; then echo "Nothing to record."; exit 0; fi
           git config user.name "credocket-surveillance-bot"
           git config user.email "actions@users.noreply.github.com"

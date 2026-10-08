@@ -12,11 +12,12 @@ Cost: one CourtListener search covers up to 20 dockets, so a daily run
 over ~40 dockets takes about 8 requests (budget 12) out of the token's
 125/day, which the surveillance workflow also draws on.
 
-Chapter 11 petitions (added 2026-10-07): commercial real estate petitions
-from ops/ch11-petitions.json filed in the last 30 days, plus any petition a
-reader follows, get the same check, limited to orders, judgments,
-dismissals and closings so a busy new case does not page through every
-filing. Written to ops/ch11-activity.json for the chapter-11/ pages.
+Chapter 11 petitions and federal lawsuits (added 2026-10-07): records in
+ops/ch11-petitions.json and ops/federal-suits.json filed in the last 30
+days, plus any a reader follows, get the same check, limited to orders,
+judgments, dismissals and closings so a busy new case does not page
+through every filing. Written to ops/ch11-activity.json and
+ops/suit-activity.json for the chapter-11/ and federal-cases/ pages.
 
 Followers ("Email me when the court rules in this case"): the docket ids
 readers follow come from the docket-follows Edge Function, are checked
@@ -50,6 +51,8 @@ ROOT = pathlib.Path(__file__).resolve().parent.parent
 OUT = ROOT / "ops" / "docket-activity.json"
 CH11_OUT = ROOT / "ops" / "ch11-activity.json"
 PETITIONS = ROOT / "ops" / "ch11-petitions.json"
+SUITS = ROOT / "ops" / "federal-suits.json"
+SUIT_OUT = ROOT / "ops" / "suit-activity.json"
 PETITION_TRACK_DAYS = 30
 NOTIFY_DAYS = 3       # events first seen this recently are (re)sent; the function sends each once
 FOLLOWS_FN = "https://ribmcdyoydhmafnyfhpp.supabase.co/functions/v1/docket-follows"
@@ -146,10 +149,12 @@ def call_follows(payload):
         return None
 
 
-def track_petitions(cl, today, followed, dry_run):
-    """Orders and outcomes on recent commercial real estate Chapter 11 dockets."""
-    rows = json.loads(PETITIONS.read_text()).get("filings", []) if PETITIONS.exists() else []
-    prev = json.loads(CH11_OUT.read_text()) if CH11_OUT.exists() else {}
+def track_records(cl, today, followed, dry_run, data_path, out_path, label, source):
+    """Orders and outcomes on recent court-record dockets (Chapter 11
+    petitions, or federal lawsuits), for the chapter-11/ and federal-cases/
+    pages and for readers following them."""
+    rows = json.loads(data_path.read_text()).get("filings", []) if data_path.exists() else []
+    prev = json.loads(out_path.read_text()) if out_path.exists() else {}
     recent = (today - dt.timedelta(days=PETITION_TRACK_DAYS)).isoformat()
     by_id = {str(r["docketId"]): r for r in rows if r.get("docketId")}
     wanted = [k for k, r in by_id.items() if r["dateFiled"] >= recent or int(k) in followed]
@@ -158,7 +163,7 @@ def track_petitions(cl, today, followed, dry_run):
     dockets = {k: v for k, v in (prev.get("dockets") or {}).items() if k in by_id}
     events = {e["key"]: e for e in prev.get("events") or []}
     errors = []
-    print(f"{len(wanted)} Chapter 11 dockets to check ({sum(1 for k in wanted if int(k) in followed)} followed)")
+    print(f"{len(wanted)} {label} dockets to check ({sum(1 for k in wanted if int(k) in followed)} followed)")
     for i in range(0, len(wanted), BATCH):
         chunk = wanted[i:i + BATCH]
         # A docket seen before needs only the last few days; a new one, everything since filing.
@@ -207,14 +212,14 @@ def track_petitions(cl, today, followed, dry_run):
     cutoff = (today - dt.timedelta(days=KEEP_EVENT_DAYS)).isoformat()
     kept = sorted((e for e in events.values() if (e["date"] or "") >= cutoff and e["docketId"] in by_id), key=lambda e: e["date"] or "", reverse=True)
     out = {"updatedAt": dt.datetime.now(dt.timezone.utc).replace(microsecond=0).isoformat(),
-           "source": "CourtListener RECAP archive (federal courts only): orders, judgments, dismissals and closings on recent commercial real estate Chapter 11 dockets. Entries appear when CourtListener receives them, so some are late or missing.",
+           "source": source,
            "errors": errors, "dockets": dict(sorted(dockets.items())), "events": kept}
     new = [e for e in kept if e["key"] not in {x["key"] for x in prev.get("events") or []}]
-    print(f"Chapter 11: {len(dockets)} dockets with data, {len(kept)} events kept, {len(new)} new, {len(errors)} errors")
+    print(f"{label}: {len(dockets)} dockets with data, {len(kept)} events kept, {len(new)} new, {len(errors)} errors")
     for e in errors:
         print(f"  ERROR {e}")
-    if not dry_run and (dockets or not CH11_OUT.exists()):
-        CH11_OUT.write_text(json.dumps(out, indent=1) + "\n")
+    if not dry_run and (dockets or not out_path.exists()):
+        out_path.write_text(json.dumps(out, indent=1) + "\n")
     return kept
 
 
@@ -324,11 +329,16 @@ def main():
     all_failed = ids and len(errors) == -(-len(ids) // BATCH)
     if not args.dry_run and not all_failed:
         OUT.write_text(json.dumps(out, indent=1) + "\n")
-    try:
-        ch11_events = track_petitions(cl, today, followed, args.dry_run)
-    except Exception as err:  # never lose the matters file over the petitions pass
-        print(f"::warning::Chapter 11 pass failed: {err}")
-        ch11_events = []
+    ch11_events = []
+    for data_path, out_path, label, what in (
+        (PETITIONS, CH11_OUT, "Chapter 11", "recent commercial real estate Chapter 11 dockets"),
+        (SUITS, SUIT_OUT, "Federal suits", "recent federal lawsuits over commercial real estate"),
+    ):
+        try:
+            ch11_events += track_records(cl, today, followed, args.dry_run, data_path, out_path, label,
+                                         f"CourtListener RECAP archive (federal courts only): orders, judgments, dismissals and closings on {what}. Entries appear when CourtListener receives them, so some are late or missing.")
+        except Exception as err:  # never lose the matters file over these passes
+            print(f"::warning::{label} pass failed: {err}")
     out["requestsUsed"] = args.budget - cl.remaining
     if not args.dry_run and not all_failed:
         OUT.write_text(json.dumps(out, indent=1) + "\n")

@@ -23,6 +23,7 @@ import json
 import os
 import pathlib
 import re
+import socket
 import sys
 import time
 import urllib.error
@@ -53,6 +54,8 @@ SECONDS_BETWEEN_REQUESTS = 13
 RUNS = pathlib.Path("ops/alert-runs.json")
 FRESH = pathlib.Path("ops/fresh-filings.json")
 PETITIONS = pathlib.Path("ops/ch11-petitions.json")
+SUITS = pathlib.Path("ops/federal-suits.json")
+MAX_SUIT_PAGES = 12
 PETITION_DAYS_KEPT = 365
 # Which Chapter 11 debtors are shown PUBLICLY (Chapter 11 Watch, the
 # chapter-11/ pages, ops/fresh-filings.json for the research routine).
@@ -67,11 +70,13 @@ PETITION_DAYS_KEPT = 365
 CRE_INCLUDE = re.compile(
     r"^\d+(-\d+)?\s|\b(propert(y|ies)|realty|real estate|reits?|developments?|developers?|apartments?|plaza|towers?|land"
     r"|hotels?|motels?|lodging|resorts?|mall|shopping (center|centre)|office (park|building|center|plaza)|business park"
-    r"|industrial park|self[- ]storage|mini[- ]storage)\b", re.I)
+    r"|industrial park|self[- ]storage|mini[- ]storage"
+    r"|(executive|office|business|medical|commerce|corporate|trade|outlet|retail|industrial|logistics|distribution) (center|centre|park|plaza|campus))\b", re.I)
 CRE_EXCLUDE = re.compile(
     r"\b(construction|contractors?|contracting|builders?|homebuilders?|homes?|townhomes?|town ?houses?|residential"
     r"|condominiums?|condos?|units?|roofing|flooring|electric(al)?|plumbing|demolition|hvac|mechanical|excavating|paving"
-    r"|landscaping|services?|solutions|systems|management|brokerage|mortgage|title|insurance|restaurants?|cafe|grill|bar"
+    r"|landscaping|services?|solutions|systems|management|brokerage|mortgage|title|insurance|casualty|surety|indemnity"
+    r"|assurance|underwriters|reinsurance|research|restaurants?|cafe|grill|bar"
     r"|pizza|eatery|kitchen|tavern|d/?b/?a|petroleum|oil|gas|energy|mining|resources|business development|software"
     r"|consulting)\b", re.I)
 MAX_RUNS_KEPT = 90
@@ -167,7 +172,7 @@ class CourtListener:
                     raise BudgetExhausted() from err
                 if err.code < 500 or attempt == 2:
                     raise
-            except (TimeoutError, urllib.error.URLError, ConnectionError) as err:
+            except (TimeoutError, socket.timeout, urllib.error.URLError, ConnectionError) as err:
                 if attempt == 2:
                     raise
                 print(f"CourtListener {type(err).__name__}; retry {attempt + 1}/2", file=sys.stderr)
@@ -220,6 +225,41 @@ def pull_chapter_11(cl, date_from, date_to, max_pages=MAX_CH11_PAGES):
     else:
         print(f"Chapter 11: stopped at {max_pages} pages; window may be incomplete.", file=sys.stderr)
     return filings, expected
+
+
+def pull_property_suits(cl, date_from, date_to, max_pages=MAX_SUIT_PAGES):
+    """New federal civil cases naming a real estate business, or filed as a
+    real property case. Only cases that pass is_cre_suit are kept."""
+    # Narrower than the full name test (no bare "property", "land" or
+    # "development", which mostly match insurers and agencies) so a day's
+    # results stay at a few pages; is_cre_suit still decides.
+    words = ("realty OR properties OR \"real estate\" OR reit OR apartments OR hotel OR hotels OR motel "
+             "OR plaza OR tower OR towers OR developers OR lodging OR mall OR \"shopping center\" "
+             "OR \"office park\" OR \"business park\" OR \"industrial park\" OR \"self storage\" OR \"executive center\"")
+    query = (f"(caseName:({words}) OR suitNature:\"Real Property\" OR suitNature:\"Rent Lease\") "
+             f"AND dateFiled:[{date_from} TO {date_to}] AND NOT chapter:*")
+    rows, seen, page = [], 0, cl.search(query)
+    for _ in range(max_pages):
+        for r in page.get("results", []):
+            seen += 1
+            name = re.sub(r"\s+", " ", (r.get("caseName") or "")).strip()
+            date_filed, path = r.get("dateFiled") or "", r.get("docket_absolute_url") or ""
+            if not (date_from <= date_filed <= date_to) or not path.startswith("/docket/") or not name:
+                continue
+            if not is_cre_suit(name, r.get("suitNature") or "", r.get("court_id") or ""):
+                continue
+            court_id, number = r.get("court_id") or "", r.get("docketNumber") or ""
+            rows.append({"caseName": name, "court": r.get("court") or "", "courtId": court_id, "docketNumber": number,
+                         "dateFiled": date_filed, "docketUrl": CL_SITE + path, "docketId": r.get("docket_id"),
+                         "suitNature": r.get("suitNature") or "", "cause": r.get("cause") or "",
+                         "slug": f"{slugify(name)[:70].strip('-')}-{court_id}-{slugify(number)}",
+                         "type": "Federal civil case"})
+        if not page.get("next"):
+            break
+        page = cl.get(page["next"])
+    else:
+        print(f"Federal suits: stopped at {max_pages} pages; window may be incomplete.", file=sys.stderr)
+    return rows, seen
 
 
 def search_phrase(entity_name):
@@ -314,6 +354,68 @@ def is_business_name(name):
 
 def is_cre_debtor(name):
     return is_business_name(name) and bool(CRE_INCLUDE.search(name)) and not CRE_EXCLUDE.search(name)
+
+
+# Federal lawsuits (added 2026-10-07): commercial real estate on its face
+# means a business or government on BOTH sides of the caption (an
+# individual on either side is almost always a residential, consumer or
+# personal-injury case, and individuals are never published), and at least
+# one side named like a real estate business, or a real property foreclosure
+# or lease case between two businesses.
+GOVERNMENT_NAME = re.compile(
+    r"^(the )?(united states|usa\b|state of|commonwealth of|city of|county of|town of|township of|village of|borough of|"
+    r"people of)|\b(county|department|authority|commission|board|district|agency|administration|"
+    r"federal deposit insurance|fdic|fannie mae|freddie mac|small business administration)\b", re.I)
+REAL_PROPERTY_NOS = re.compile(r"\b(220|230)\b|foreclosure|rent,? lease", re.I)
+# Nature-of-suit categories that are never a real estate dispute, whatever the names.
+NOT_CRE_NOS = re.compile(r"patent|trademark|copyright|labor|erisa|employ|civil rights|prisoner|habeas|social security|"
+                         r"immigration|tax suits|forfeiture|drug|antitrust|securities|commodities|p\.i\.|personal inj|"
+                         r"franchise", re.I)
+# Parties whose presence means the case is not commercial real estate:
+# employment enforcers, health care and pharma, residential mortgage
+# servicers, homeowners' associations, and hotel brands suing franchisees for
+# unpaid fees (commercial debt collection, which stays out).
+NOT_CRE_PARTY = re.compile(
+    r"equal employment|labor relations|secretary of labor|department of labor|pharmaceutical|therapeutics|biotech|"
+    r"biosciences|pharmacy|clinic|dental|worldwide|franchis|travelodge hotels|choice hotels|hotels international|"
+    r"owners association|homeowners|nationstar|rocket mortgage|newrez|shellpoint|carrington mortgage|pennymac|"
+    r"freedom mortgage|ocwen|onity|loancare|lakeview loan|select portfolio|mr\.? cooper|specialized loan servicing", re.I)
+
+
+def caption_sides(case_name):
+    parts = re.split(r"\s+v(?:s)?\.?\s+", case_name, maxsplit=1, flags=re.I)
+    if len(parts) != 2:
+        return None
+    clean = lambda x: re.sub(r",?\s+et\.?\s*al\.?$", "", x.strip(" ,;"), flags=re.I).strip()
+    return clean(parts[0]), clean(parts[1])
+
+
+FOREIGN_BUSINESS = re.compile(r"\b(ltda|s\.a\.?|s\.a\.s|gmbh|b\.v\.|n\.v\.|s\.r\.l|s\.p\.a|pty|ag)\b", re.I)
+
+
+def is_org(side):
+    return bool(side) and (is_business_name(side) or bool(FOREIGN_BUSINESS.search(side)) or bool(GOVERNMENT_NAME.search(side)))
+
+
+def is_cre_side(side):
+    return bool(CRE_INCLUDE.search(side)) and not CRE_EXCLUDE.search(side) and not GOVERNMENT_NAME.search(side)
+
+
+def is_cre_suit(case_name, suit_nature="", court_id=""):
+    """Federal civil case shown on Federal Lawsuit Watch: district courts and
+    the Court of Federal Claims only (no bankruptcy adversary cases)."""
+    if not (court_id.endswith("d") or court_id == "uscfc") or court_id.endswith("bd"):
+        return False
+    if NOT_CRE_NOS.search(suit_nature or "") or re.match(r"\s*in (re|the matter)\b", case_name, re.I):
+        return False
+    sides = caption_sides(case_name)
+    if not sides or not all(is_org(x) for x in sides) or any(NOT_CRE_PARTY.search(x) for x in sides):
+        return False
+    if any(re.fullmatch(r"(?:[A-Z]\.){2,4}", x.replace(" ", "")) for x in sides):  # initials stand for a person
+        return False
+    if any(is_cre_side(x) for x in sides):
+        return True
+    return bool(REAL_PROPERTY_NOS.search(suit_nature or "")) and all(is_business_name(x) for x in sides)
 
 
 def slugify(text):
@@ -513,6 +615,17 @@ def main():
         run["errors"].append(f"CourtListener pull failed: {type(err).__name__}: {err}")
         print(f"::warning::CourtListener pull failed, continuing without the rest of it: {err}")
     run["sources"]["courtlistener"] = len(filings)
+    # Federal Lawsuit Watch: new federal civil cases between businesses that
+    # name a real estate business (public pages; never sent to Supabase).
+    try:
+        suits, seen = pull_property_suits(cl, date_from, date_to)
+        SUIT_ROWS.extend(suits)
+        print(f"Federal suits: kept {len(suits)} of {seen} checked")
+    except BudgetExhausted:
+        print("Request budget used up before the federal suits pull; it runs again next time.")
+    except (urllib.error.URLError, TimeoutError, ConnectionError, ValueError) as err:
+        run["errors"].append(f"Federal suits pull failed: {type(err).__name__}: {err}")
+        print(f"::warning::Federal suits pull failed: {err}")
     # Fresh court events for the research routine (Jeff, 2026-09-26: "the
     # content needs to be fresh with information from daily events being
     # added daily"). The routine cannot reach court sites from its cloud
@@ -604,6 +717,7 @@ def main():
 
 
 FRESH_ROWS = []
+SUIT_ROWS = []
 
 
 def write_fresh():
@@ -617,7 +731,7 @@ def write_fresh():
     stamp = dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds")
     for path, days, about in (
         (FRESH, 4, "Commercial real estate Chapter 11 petitions filed in the last four days, from federal court records via CourtListener. Same name test as Chapter 11 Watch (is_cre_debtor in scripts/ingest_court_filings.py). Business debtors only."),
-        (PETITIONS, PETITION_DAYS_KEPT, "Commercial real estate Chapter 11 petitions filed in the last year, from federal court records via CourtListener; is_cre_debtor in scripts/ingest_court_filings.py decides which. Business debtors only. Builds bankruptcy-watch.html and chapter-11/<slug>.html (scripts/build_ch11_pages.ts)."),
+        (PETITIONS, PETITION_DAYS_KEPT, "Commercial real estate Chapter 11 petitions filed in the last year, from federal court records via CourtListener; is_cre_debtor in scripts/ingest_court_filings.py decides which. Business debtors only. Builds bankruptcy-watch.html and chapter-11/<slug>.html (scripts/build_record_pages.ts)."),
     ):
         cutoff = (today - dt.timedelta(days=days)).isoformat()
         old = json.loads(path.read_text()).get("filings", []) if path.exists() else []
@@ -627,6 +741,13 @@ def write_fresh():
         path.parent.mkdir(exist_ok=True)
         path.write_text(json.dumps({"updatedAt": stamp, "about": about, "filings": rows}, indent=1) + "\n")
         print(f"{path}: {len(rows)} petition(s) since {cutoff}")
+    cutoff = (today - dt.timedelta(days=PETITION_DAYS_KEPT)).isoformat()
+    old = json.loads(SUITS.read_text()).get("filings", []) if SUITS.exists() else []
+    merged = {r["docketUrl"]: r for r in old + SUIT_ROWS
+              if r.get("dateFiled", "") >= cutoff and is_cre_suit(r["caseName"], r.get("suitNature", ""), r.get("courtId", ""))}
+    rows = sorted(merged.values(), key=lambda r: (r["dateFiled"], r["caseName"]), reverse=True)
+    SUITS.write_text(json.dumps({"updatedAt": stamp, "about": "New federal civil cases between businesses or governments that name a commercial real estate business, or are real property foreclosure or lease cases between businesses, from federal court records via CourtListener; is_cre_suit in scripts/ingest_court_filings.py decides which. Builds lawsuit-watch.html and federal-cases/<slug>.html (scripts/build_record_pages.ts).", "filings": rows}, indent=1) + "\n")
+    print(f"{SUITS}: {len(rows)} case(s) since {cutoff}")
 
 
 def write_audit(function_url, anon_key, secret):

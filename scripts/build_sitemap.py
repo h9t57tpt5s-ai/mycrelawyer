@@ -59,14 +59,16 @@ def main():
             last = max(c.get("addedDate") or c.get("date") or today, fixed.get(c["id"], ""))
             urls.append((f"matters/{c['id']}.html", last, "0.6"))
 
-    petitions = json.loads((ROOT / "ops" / "ch11-petitions.json").read_text()).get("filings", []) \
-        if (ROOT / "ops" / "ch11-petitions.json").exists() else []
-    activity = json.loads((ROOT / "ops" / "ch11-activity.json").read_text()).get("dockets", {}) \
-        if (ROOT / "ops" / "ch11-activity.json").exists() else {}
-    for r in petitions:
-        if (ROOT / "chapter-11" / f"{r['slug']}.html").exists():
-            last = max(r["dateFiled"], (activity.get(str(r.get("docketId"))) or {}).get("lastEntryDate") or "")
-            urls.append((f"chapter-11/{r['slug']}.html", last, "0.5"))
+    for data_file, activity_file, folder in (("ch11-petitions.json", "ch11-activity.json", "chapter-11"),
+                                             ("federal-suits.json", "suit-activity.json", "federal-cases")):
+        records = json.loads((ROOT / "ops" / data_file).read_text()).get("filings", []) \
+            if (ROOT / "ops" / data_file).exists() else []
+        activity = json.loads((ROOT / "ops" / activity_file).read_text()).get("dockets", {}) \
+            if (ROOT / "ops" / activity_file).exists() else {}
+        for r in records:
+            if (ROOT / folder / f"{r['slug']}.html").exists():
+                last = max(r["dateFiled"], (activity.get(str(r.get("docketId"))) or {}).get("lastEntryDate") or "")
+                urls.append((f"{folder}/{r['slug']}.html", last, "0.5"))
 
     lines = ['<?xml version="1.0" encoding="UTF-8"?>', '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
     for loc, last, pri in urls:
@@ -74,7 +76,8 @@ def main():
     lines.append("</urlset>")
     (ROOT / "sitemap.xml").write_text("\n".join(lines) + "\n")
     print(f"{len(urls)} urls ({sum(1 for u in urls if u[0].startswith('matters/'))} matter pages, "
-          f"{sum(1 for u in urls if u[0].startswith('chapter-11/'))} Chapter 11 pages)")
+          f"{sum(1 for u in urls if u[0].startswith('chapter-11/'))} Chapter 11 pages, "
+          f"{sum(1 for u in urls if u[0].startswith('federal-cases/'))} federal case pages)")
 
 
 if __name__ == "__main__":
