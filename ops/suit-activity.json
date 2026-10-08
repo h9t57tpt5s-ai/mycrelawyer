@@ -1,0 +1,920 @@
+{
+ "updatedAt": "2026-10-08T14:40:34+00:00",
+ "source": "CourtListener RECAP archive (federal courts only): orders, judgments, dismissals and closings on recent federal lawsuits over commercial real estate. Entries appear when CourtListener receives them, so some are late or missing.",
+ "errors": [],
+ "dockets": {
+  "74760727": {
+   "entries": [
+    {
+     "date": "2026-09-29",
+     "number": 7,
+     "text": "Dismiss",
+     "url": "https://www.courtlistener.com/docket/74760727/7/property-investments-llc-v-jxn-water-inc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-09-15",
+     "number": null,
+     "text": "Order on Motion for Extension of Time to Answer",
+     "url": "https://www.courtlistener.com/docket/74760727/property-investments-llc-v-jxn-water-inc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-09-09",
+     "number": 3,
+     "text": "Dismiss",
+     "url": "https://www.courtlistener.com/docket/74760727/3/property-investments-llc-v-jxn-water-inc/",
+     "ruling": false
+    }
+   ],
+   "checkedAt": "2026-10-08",
+   "slug": "property-investments-llc-v-jxn-water-inc-mssd-3-26-cv-00728",
+   "court": "S.D. Miss.",
+   "docketNumber": "3:26-cv-00728",
+   "dateTerminated": null,
+   "url": "https://www.courtlistener.com/docket/74760727/property-investments-llc-v-jxn-water-inc/",
+   "lastEntryDate": "2026-09-29"
+  },
+  "74762391": {
+   "entries": [
+    {
+     "date": "2026-09-17",
+     "number": 5,
+     "text": "Order for Scheduling Order Proposal",
+     "url": "https://www.courtlistener.com/docket/74762391/5/provident-group-irving-properties-llc-v-johnson-controls-inc/",
+     "ruling": false
+    }
+   ],
+   "checkedAt": "2026-10-08",
+   "slug": "provident-group-irving-properties-llc-v-johnson-controls-inc-txnd-3-26-cv-03050",
+   "court": "N.D. Tex.",
+   "docketNumber": "3:26-cv-03050",
+   "dateTerminated": null,
+   "url": "https://www.courtlistener.com/docket/74762391/provident-group-irving-properties-llc-v-johnson-controls-inc/",
+   "lastEntryDate": "2026-09-17"
+  },
+  "74763684": {
+   "entries": [
+    {
+     "date": "2026-09-22",
+     "number": null,
+     "text": "Order on Motion to Change Venue",
+     "url": "https://www.courtlistener.com/docket/74763684/exodus-transport-ltd-v-rsbc-real-estate-company-lllp/",
+     "ruling": false
+    },
+    {
+     "date": "2026-09-09",
+     "number": null,
+     "text": "- Order (PAPERLESS or pdf attached)",
+     "url": "https://www.courtlistener.com/docket/74763684/exodus-transport-ltd-v-rsbc-real-estate-company-lllp/",
+     "ruling": false
+    }
+   ],
+   "checkedAt": "2026-10-08",
+   "slug": "exodus-transport-ltd-v-rsbc-real-estate-company-lllp-flsd-1-26-cv-26186",
+   "court": "S.D. Fla.",
+   "docketNumber": "1:26-cv-26186",
+   "dateTerminated": null,
+   "url": "https://www.courtlistener.com/docket/74763684/exodus-transport-ltd-v-rsbc-real-estate-company-lllp/",
+   "lastEntryDate": "2026-09-22"
+  },
+  "74763773": {
+   "entries": [
+    {
+     "date": "2026-09-18",
+     "number": 4,
+     "text": "Temporary Restraining Order",
+     "url": "https://www.courtlistener.com/docket/74763773/4/ngu-properties-llc-v-city-of-eastpointe/",
+     "ruling": true
+    }
+   ],
+   "checkedAt": "2026-10-08",
+   "slug": "ngu-properties-llc-v-city-of-eastpointe-mied-2-26-cv-13397",
+   "court": "E.D. Mich.",
+   "docketNumber": "2:26-cv-13397",
+   "dateTerminated": null,
+   "url": "https://www.courtlistener.com/docket/74763773/ngu-properties-llc-v-city-of-eastpointe/",
+   "lastEntryDate": "2026-09-18"
+  },
+  "74764352": {
+   "entries": [],
+   "checkedAt": "2026-10-08",
+   "slug": "fam-jam-01-properties-llc-v-united-states-of-america-the-alnd-5-26-cv-01613",
+   "court": "N.D. Ala.",
+   "docketNumber": "5:26-cv-01613",
+   "dateTerminated": null,
+   "url": "https://www.courtlistener.com/docket/74764352/fam-jam-01-properties-llc-v-united-states-of-america-the/",
+   "lastEntryDate": null
+  },
+  "74773421": {
+   "entries": [
+    {
+     "date": "2026-09-15",
+     "number": null,
+     "text": "Order",
+     "url": "https://www.courtlistener.com/docket/74773421/empire-pipe-supply-company-inc-v-plaza-mexico-holdings-llc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-09-10",
+     "number": 1,
+     "text": "Complaint",
+     "url": "https://www.courtlistener.com/docket/74773421/1/empire-pipe-supply-company-inc-v-plaza-mexico-holdings-llc/",
+     "ruling": false
+    }
+   ],
+   "checkedAt": "2026-10-08",
+   "slug": "empire-pipe-supply-company-inc-v-plaza-mexico-holdings-llc-flmd-8-26-cv-02643",
+   "court": "M.D. Fla.",
+   "docketNumber": "8:26-cv-02643",
+   "dateTerminated": null,
+   "url": "https://www.courtlistener.com/docket/74773421/empire-pipe-supply-company-inc-v-plaza-mexico-holdings-llc/",
+   "lastEntryDate": "2026-09-15"
+  },
+  "74774383": {
+   "entries": [
+    {
+     "date": "2026-09-11",
+     "number": 4,
+     "text": "Order for Initial Conference - FORM",
+     "url": "https://www.courtlistener.com/docket/74774383/4/federal-national-mortgage-association-v-silver-maples-apartments-llc/",
+     "ruling": false
+    }
+   ],
+   "checkedAt": "2026-10-08",
+   "slug": "federal-national-mortgage-association-v-silver-maples-apartments-llc-txsd-3-26-cv-00303",
+   "court": "S.D. Tex.",
+   "docketNumber": "3:26-cv-00303",
+   "dateTerminated": null,
+   "url": "https://www.courtlistener.com/docket/74774383/federal-national-mortgage-association-v-silver-maples-apartments-llc/",
+   "lastEntryDate": "2026-09-11"
+  },
+  "74775654": {
+   "entries": [],
+   "checkedAt": "2026-10-08",
+   "slug": "federal-national-mortgage-association-v-cap-159-w-228-property-owner-l-nysd-1-26-cv-07909",
+   "court": "S.D.N.Y.",
+   "docketNumber": "1:26-cv-07909",
+   "dateTerminated": null,
+   "url": "https://www.courtlistener.com/docket/74775654/federal-national-mortgage-association-v-cap-159-w-228-property-owner-llc/",
+   "lastEntryDate": null
+  },
+  "74781921": {
+   "entries": [],
+   "checkedAt": "2026-10-08",
+   "slug": "lument-real-estate-capital-llc-v-lansing-riverwood-llc-ilnd-1-26-cv-11144",
+   "court": "N.D. Ill.",
+   "docketNumber": "1:26-cv-11144",
+   "dateTerminated": null,
+   "url": "https://www.courtlistener.com/docket/74781921/lument-real-estate-capital-llc-v-lansing-riverwood-llc/",
+   "lastEntryDate": null
+  },
+  "74781923": {
+   "entries": [
+    {
+     "date": "2026-09-11",
+     "number": 1,
+     "text": "Complaint",
+     "url": "https://www.courtlistener.com/docket/74781923/1/blue-sky-towers-iv-llc-v-town-of-waldoboro/",
+     "ruling": false
+    }
+   ],
+   "checkedAt": "2026-10-08",
+   "slug": "blue-sky-towers-iv-llc-v-town-of-waldoboro-med-2-26-cv-00440",
+   "court": "D. Me.",
+   "docketNumber": "2:26-cv-00440",
+   "dateTerminated": null,
+   "url": "https://www.courtlistener.com/docket/74781923/blue-sky-towers-iv-llc-v-town-of-waldoboro/",
+   "lastEntryDate": "2026-09-11"
+  },
+  "74793540": {
+   "entries": [],
+   "checkedAt": "2026-10-08",
+   "slug": "oriskany-lodging-associates-llc-v-g6-hospitality-llc-nynd-6-26-cv-01740",
+   "court": "N.D.N.Y.",
+   "docketNumber": "6:26-cv-01740",
+   "dateTerminated": null,
+   "url": "https://www.courtlistener.com/docket/74793540/oriskany-lodging-associates-llc-v-g6-hospitality-llc/",
+   "lastEntryDate": null
+  },
+  "74806634": {
+   "entries": [
+    {
+     "date": "2026-09-30",
+     "number": null,
+     "text": "Order on Motion for Admission Pro Hac Vice",
+     "url": "https://www.courtlistener.com/docket/74806634/the-towers-llc-v-village-of-roca/",
+     "ruling": false
+    }
+   ],
+   "checkedAt": "2026-10-08",
+   "slug": "the-towers-llc-v-village-of-roca-ned-4-26-cv-03287",
+   "court": "D. Neb.",
+   "docketNumber": "4:26-cv-03287",
+   "dateTerminated": null,
+   "url": "https://www.courtlistener.com/docket/74806634/the-towers-llc-v-village-of-roca/",
+   "lastEntryDate": "2026-09-30"
+  },
+  "74809789": {
+   "entries": [
+    {
+     "date": "2026-10-06",
+     "number": null,
+     "text": "Order AND ~Util - Set Deadlines/Hearings",
+     "url": "https://www.courtlistener.com/docket/74809789/elegant-views-office-properties-llc-v-selective-insurance-company-of-the/",
+     "ruling": false
+    },
+    {
+     "date": "2026-10-01",
+     "number": 9,
+     "text": "Initial Scheduling Order",
+     "url": "https://www.courtlistener.com/docket/74809789/9/elegant-views-office-properties-llc-v-selective-insurance-company-of-the/",
+     "ruling": false
+    },
+    {
+     "date": "2026-09-17",
+     "number": 4,
+     "text": "Dismiss",
+     "url": "https://www.courtlistener.com/docket/74809789/4/elegant-views-office-properties-llc-v-selective-insurance-company-of-the/",
+     "ruling": false
+    }
+   ],
+   "checkedAt": "2026-10-08",
+   "slug": "elegant-views-office-properties-llc-v-selective-insurance-company-of-t-nmd-2-26-cv-03099",
+   "court": "D.N.M.",
+   "docketNumber": "2:26-cv-03099",
+   "dateTerminated": null,
+   "url": "https://www.courtlistener.com/docket/74809789/elegant-views-office-properties-llc-v-selective-insurance-company-of-the/",
+   "lastEntryDate": "2026-10-06"
+  },
+  "74814818": {
+   "entries": [
+    {
+     "date": "2026-09-18",
+     "number": 3,
+     "text": "STANDING ORDER REGARDING CIVIL LITIGATION Signed by Judge Leigh Martin May on 09/18/2026.",
+     "url": "https://www.courtlistener.com/docket/74814818/3/orly-covington-llc-v-m-g-properties-llc/",
+     "ruling": false
+    }
+   ],
+   "checkedAt": "2026-10-08",
+   "slug": "orly-covington-llc-v-m-g-properties-llc-gand-1-26-cv-05394",
+   "court": "N.D. Ga.",
+   "docketNumber": "1:26-cv-05394",
+   "dateTerminated": null,
+   "url": "https://www.courtlistener.com/docket/74814818/orly-covington-llc-v-m-g-properties-llc/",
+   "lastEntryDate": "2026-09-18"
+  },
+  "74828292": {
+   "entries": [
+    {
+     "date": "2026-10-02",
+     "number": 9,
+     "text": "Order Dismissing Case",
+     "url": "https://www.courtlistener.com/docket/74828292/9/minnetonka-lodging-group-llc-v-westfield-national-insurance-company/",
+     "ruling": false
+    },
+    {
+     "date": "2026-10-01",
+     "number": 6,
+     "text": "Order on Motion for Extension of Time to Answer",
+     "url": "https://www.courtlistener.com/docket/74828292/6/minnetonka-lodging-group-llc-v-westfield-national-insurance-company/",
+     "ruling": false
+    }
+   ],
+   "checkedAt": "2026-10-08",
+   "slug": "minnetonka-lodging-group-llc-v-westfield-national-insurance-company-mnd-0-26-cv-04079",
+   "court": "D. Minnesota",
+   "docketNumber": "0:26-cv-04079",
+   "dateTerminated": null,
+   "url": "https://www.courtlistener.com/docket/74828292/minnetonka-lodging-group-llc-v-westfield-national-insurance-company/",
+   "lastEntryDate": "2026-10-02"
+  },
+  "74828864": {
+   "entries": [],
+   "checkedAt": "2026-10-08",
+   "slug": "auto-owners-insurance-company-v-calwood-properties-llc-gamd-3-26-cv-00109",
+   "court": "M.D. Ga.",
+   "docketNumber": "3:26-cv-00109",
+   "dateTerminated": null,
+   "url": "https://www.courtlistener.com/docket/74828864/auto-owners-insurance-company-v-calwood-properties-llc/",
+   "lastEntryDate": null
+  },
+  "74830440": {
+   "entries": [
+    {
+     "date": "2026-09-22",
+     "number": null,
+     "text": "Order on Motion to Change Venue",
+     "url": "https://www.courtlistener.com/docket/74830440/exodus-transport-ltd-v-rsbc-real-estate-company-lllp/",
+     "ruling": false
+    }
+   ],
+   "checkedAt": "2026-10-08",
+   "slug": "exodus-transport-ltd-v-rsbc-real-estate-company-lllp-flsd-9-26-cv-81205",
+   "court": "S.D. Fla.",
+   "docketNumber": "9:26-cv-81205",
+   "dateTerminated": null,
+   "url": "https://www.courtlistener.com/docket/74830440/exodus-transport-ltd-v-rsbc-real-estate-company-lllp/",
+   "lastEntryDate": "2026-09-22"
+  },
+  "74833102": {
+   "entries": [],
+   "checkedAt": "2026-10-08",
+   "slug": "krp-properties-v-of-valdosta-llc-v-northfield-insurance-company-gamd-7-26-cv-00282",
+   "court": "M.D. Ga.",
+   "docketNumber": "7:26-cv-00282",
+   "dateTerminated": null,
+   "url": "https://www.courtlistener.com/docket/74833102/krp-properties-v-of-valdosta-llc-v-northfield-insurance-company/",
+   "lastEntryDate": null
+  },
+  "74834118": {
+   "entries": [
+    {
+     "date": "2026-09-24",
+     "number": 4,
+     "text": "LK Standing Order for All Civil Cases (FORM)",
+     "url": "https://www.courtlistener.com/docket/74834118/4/kinsale-insurance-company-v-mietzner-brothers-properties-llc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-09-24",
+     "number": 3,
+     "text": "LK Standing Order re 28 USC 455 (FORM)",
+     "url": "https://www.courtlistener.com/docket/74834118/3/kinsale-insurance-company-v-mietzner-brothers-properties-llc/",
+     "ruling": false
+    }
+   ],
+   "checkedAt": "2026-10-08",
+   "slug": "kinsale-insurance-company-v-mietzner-brothers-properties-llc-wawd-2-26-cv-03566",
+   "court": "W.D. Wash.",
+   "docketNumber": "2:26-cv-03566",
+   "dateTerminated": null,
+   "url": "https://www.courtlistener.com/docket/74834118/kinsale-insurance-company-v-mietzner-brothers-properties-llc/",
+   "lastEntryDate": "2026-09-24"
+  },
+  "74835036": {
+   "entries": [],
+   "checkedAt": "2026-10-08",
+   "slug": "paradigm-business-park-llc-v-liebherr-america-inc-sdd-4-26-cv-04177",
+   "court": "D.S.D.",
+   "docketNumber": "4:26-cv-04177",
+   "dateTerminated": null,
+   "url": "https://www.courtlistener.com/docket/74835036/paradigm-business-park-llc-v-liebherr-america-inc/",
+   "lastEntryDate": null
+  },
+  "74835600": {
+   "entries": [
+    {
+     "date": "2026-10-05",
+     "number": 12,
+     "text": "Order on Motion to Seal",
+     "url": "https://www.courtlistener.com/docket/74835600/12/cooperstown-properties-llc-v-redbird-capital-partners-management-llc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-09-29",
+     "number": null,
+     "text": "Notice to Court Regarding Proposed Order",
+     "url": "https://www.courtlistener.com/docket/74835600/cooperstown-properties-llc-v-redbird-capital-partners-management-llc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-09-22",
+     "number": 9,
+     "text": "Proposed Order",
+     "url": "https://www.courtlistener.com/docket/74835600/9/cooperstown-properties-llc-v-redbird-capital-partners-management-llc/",
+     "ruling": false
+    }
+   ],
+   "checkedAt": "2026-10-08",
+   "slug": "cooperstown-properties-llc-v-redbird-capital-partners-management-llc-nysd-1-26-mc-00467",
+   "court": "S.D.N.Y.",
+   "docketNumber": "1:26-mc-00467",
+   "dateTerminated": null,
+   "url": "https://www.courtlistener.com/docket/74835600/cooperstown-properties-llc-v-redbird-capital-partners-management-llc/",
+   "lastEntryDate": "2026-10-05"
+  },
+  "74842652": {
+   "entries": [
+    {
+     "date": "2026-09-23",
+     "number": 1,
+     "text": "Complaint",
+     "url": "https://www.courtlistener.com/docket/74842652/1/radial-power-llc-v-scale-development-holdings-llc/",
+     "ruling": false
+    }
+   ],
+   "checkedAt": "2026-10-08",
+   "slug": "radial-power-l-l-c-v-scale-development-holdings-llc-nysd-1-26-cv-08320",
+   "court": "S.D.N.Y.",
+   "docketNumber": "1:26-cv-08320",
+   "dateTerminated": null,
+   "url": "https://www.courtlistener.com/docket/74842652/radial-power-llc-v-scale-development-holdings-llc/",
+   "lastEntryDate": "2026-09-23"
+  },
+  "74845857": {
+   "entries": [],
+   "checkedAt": "2026-10-08",
+   "slug": "clermont-county-board-of-commissioners-v-new-richmond-development-corp-ohsd-1-26-cv-00975",
+   "court": "S.D. Ohio",
+   "docketNumber": "1:26-cv-00975",
+   "dateTerminated": null,
+   "url": "https://www.courtlistener.com/docket/74845857/clermont-county-board-of-commissioners-v-new-richmond-development/",
+   "lastEntryDate": null
+  },
+  "74847872": {
+   "entries": [],
+   "checkedAt": "2026-10-08",
+   "slug": "jao-properties-v-owners-insurance-company-gand-4-26-cv-00286",
+   "court": "N.D. Ga.",
+   "docketNumber": "4:26-cv-00286",
+   "dateTerminated": null,
+   "url": "https://www.courtlistener.com/docket/74847872/jao-properties-v-owners-insurance-company/",
+   "lastEntryDate": null
+  },
+  "74850708": {
+   "entries": [],
+   "checkedAt": "2026-10-08",
+   "slug": "starwivok-llc-v-batis-development-company-okwd-5-26-cv-02647",
+   "court": "W.D. Okla.",
+   "docketNumber": "5:26-cv-02647",
+   "dateTerminated": null,
+   "url": "https://www.courtlistener.com/docket/74850708/starwivok-llc-v-batis-development-company/",
+   "lastEntryDate": null
+  },
+  "74851362": {
+   "entries": [],
+   "checkedAt": "2026-10-08",
+   "slug": "p-and-m-properties-ky-llc-v-encova-mutual-insurance-group-inc-kywd-3-26-cv-00769",
+   "court": "W.D. Ky.",
+   "docketNumber": "3:26-cv-00769",
+   "dateTerminated": null,
+   "url": "https://www.courtlistener.com/docket/74851362/p-and-m-properties-ky-llc-v-encova-mutual-insurance-group-inc/",
+   "lastEntryDate": null
+  },
+  "74851640": {
+   "entries": [],
+   "checkedAt": "2026-10-08",
+   "slug": "national-realty-investment-advisors-llc-v-airn-liquidation-trust-co-ll-njd-2-26-cv-12657",
+   "court": "D.N.J.",
+   "docketNumber": "2:26-cv-12657",
+   "dateTerminated": null,
+   "url": "https://www.courtlistener.com/docket/74851640/national-realty-investment-advisors-llc-v-airn-liquidation-trust-co-llc/",
+   "lastEntryDate": null
+  },
+  "74852505": {
+   "entries": [
+    {
+     "date": "2026-09-28",
+     "number": 6,
+     "text": "Order on Motion to Seal Document",
+     "url": "https://www.courtlistener.com/docket/74852505/6/betmgm-llc-v-greenbrier-hotel-corporation/",
+     "ruling": false
+    }
+   ],
+   "checkedAt": "2026-10-08",
+   "slug": "betmgm-llc-v-greenbrier-hotel-corporation-ded-1-26-cv-01196",
+   "court": "D. Del.",
+   "docketNumber": "1:26-cv-01196",
+   "dateTerminated": null,
+   "url": "https://www.courtlistener.com/docket/74852505/betmgm-llc-v-greenbrier-hotel-corporation/",
+   "lastEntryDate": "2026-09-28"
+  },
+  "74854822": {
+   "entries": [
+    {
+     "date": "2026-09-25",
+     "number": 3,
+     "text": "Praecipe for issuance of Original Summons",
+     "url": "https://www.courtlistener.com/docket/74854822/3/erie-insurance-company-v-kinsman-grand-avenue-development-group-llc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-09-25",
+     "number": 2,
+     "text": "Magistrate Consent Form issued. Summons was not provided and was not issued.",
+     "url": "https://www.courtlistener.com/docket/74854822/2/erie-insurance-company-v-kinsman-grand-avenue-development-group-llc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-09-25",
+     "number": 1,
+     "text": "Exhibit 1 - Erie Policy",
+     "url": "https://www.courtlistener.com/docket/74854822/1/2/erie-insurance-company-v-kinsman-grand-avenue-development-group-llc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-09-25",
+     "number": 1,
+     "text": "Civil Cover Sheet",
+     "url": "https://www.courtlistener.com/docket/74854822/1/1/erie-insurance-company-v-kinsman-grand-avenue-development-group-llc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-09-25",
+     "number": 1,
+     "text": "Complaint",
+     "url": "https://www.courtlistener.com/docket/74854822/1/erie-insurance-company-v-kinsman-grand-avenue-development-group-llc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-09-25",
+     "number": null,
+     "text": "Random Assignment of Magistrate Judge pursuant to Local Rule 3.1. In the event of a referral, case will be assigned to Magistrate Judge Jonathan D. Greenberg.",
+     "url": "https://www.courtlistener.com/docket/74854822/erie-insurance-company-v-kinsman-grand-avenue-development-group-llc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-09-25",
+     "number": null,
+     "text": "District Judge Michael J. Hendershot assigned to case.",
+     "url": "https://www.courtlistener.com/docket/74854822/erie-insurance-company-v-kinsman-grand-avenue-development-group-llc/",
+     "ruling": false
+    }
+   ],
+   "checkedAt": "2026-10-08",
+   "slug": "erie-insurance-company-v-kinsman-grand-avenue-development-group-llc-ohnd-1-26-cv-02524",
+   "court": "N.D. Ohio",
+   "docketNumber": "1:26-cv-02524",
+   "dateTerminated": null,
+   "url": "https://www.courtlistener.com/docket/74854822/erie-insurance-company-v-kinsman-grand-avenue-development-group-llc/",
+   "lastEntryDate": "2026-09-25"
+  },
+  "74854890": {
+   "entries": [],
+   "checkedAt": "2026-10-08",
+   "slug": "sandra-doyle-properties-llc-v-owners-insurance-company-gand-4-26-cv-00289",
+   "court": "N.D. Ga.",
+   "docketNumber": "4:26-cv-00289",
+   "dateTerminated": null,
+   "url": "https://www.courtlistener.com/docket/74854890/sandra-doyle-properties-llc-v-owners-insurance-company/",
+   "lastEntryDate": null
+  },
+  "74859119": {
+   "entries": [],
+   "checkedAt": "2026-10-08",
+   "slug": "mesa-underwriters-specialty-insurance-company-v-greenfield-properties-mtd-9-26-cv-00146",
+   "court": "D. Mont.",
+   "docketNumber": "9:26-cv-00146",
+   "dateTerminated": null,
+   "url": "https://www.courtlistener.com/docket/74859119/mesa-underwriters-specialty-insurance-company-v-greenfield-properties-llc/",
+   "lastEntryDate": null
+  },
+  "74860941": {
+   "entries": [
+    {
+     "date": "2026-09-30",
+     "number": 33,
+     "text": "Order on Motion to Appear Pro Hac Vice",
+     "url": "https://www.courtlistener.com/docket/74860941/33/greater-dc-diaper-bank-v-wwdc-industrial-park-llc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-09-30",
+     "number": 32,
+     "text": "Order on Motion to Appear Pro Hac Vice",
+     "url": "https://www.courtlistener.com/docket/74860941/32/greater-dc-diaper-bank-v-wwdc-industrial-park-llc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-09-30",
+     "number": 31,
+     "text": "Order on Motion to Appear Pro Hac Vice",
+     "url": "https://www.courtlistener.com/docket/74860941/31/greater-dc-diaper-bank-v-wwdc-industrial-park-llc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-09-30",
+     "number": 30,
+     "text": "Order on Motion to Appear Pro Hac Vice",
+     "url": "https://www.courtlistener.com/docket/74860941/30/greater-dc-diaper-bank-v-wwdc-industrial-park-llc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-09-28",
+     "number": 22,
+     "text": "Case Transferred In - District Transfer",
+     "url": "https://www.courtlistener.com/docket/74860941/22/greater-dc-diaper-bank-v-wwdc-industrial-park-llc/",
+     "ruling": false
+    }
+   ],
+   "checkedAt": "2026-10-08",
+   "slug": "greater-dc-diaper-bank-v-wwdc-industrial-park-llc-mdd-8-26-cv-03821",
+   "court": "D. Maryland",
+   "docketNumber": "8:26-cv-03821",
+   "dateTerminated": null,
+   "url": "https://www.courtlistener.com/docket/74860941/greater-dc-diaper-bank-v-wwdc-industrial-park-llc/",
+   "lastEntryDate": "2026-09-30"
+  },
+  "74861790": {
+   "entries": [],
+   "checkedAt": "2026-10-08",
+   "slug": "mount-vernon-fire-insurance-company-v-riverside-apartments-llp-flnd-4-26-cv-00513",
+   "court": "N.D. Fla.",
+   "docketNumber": "4:26-cv-00513",
+   "dateTerminated": null,
+   "url": "https://www.courtlistener.com/docket/74861790/mount-vernon-fire-insurance-company-v-riverside-apartments-llp/",
+   "lastEntryDate": null
+  },
+  "74862805": {
+   "entries": [
+    {
+     "date": "2026-09-28",
+     "number": 1,
+     "text": "Complaint",
+     "url": "https://www.courtlistener.com/docket/74862805/1/westlake-properties-inc-v-united-states-small-business-administration/",
+     "ruling": false
+    }
+   ],
+   "checkedAt": "2026-10-08",
+   "slug": "westlake-properties-inc-v-united-states-small-business-administration-dcd-1-26-cv-03385",
+   "court": "D.D.C.",
+   "docketNumber": "1:26-cv-03385",
+   "dateTerminated": null,
+   "url": "https://www.courtlistener.com/docket/74862805/westlake-properties-inc-v-united-states-small-business-administration/",
+   "lastEntryDate": "2026-09-28"
+  },
+  "74863117": {
+   "entries": [],
+   "checkedAt": "2026-10-08",
+   "slug": "oak-tree-executive-center-a-llc-v-t-mobile-central-llc-ohnd-1-26-cv-02543",
+   "court": "N.D. Ohio",
+   "docketNumber": "1:26-cv-02543",
+   "dateTerminated": null,
+   "url": "https://www.courtlistener.com/docket/74863117/oak-tree-executive-center-a-llc-v-t-mobile-central-llc/",
+   "lastEntryDate": null
+  },
+  "74867120": {
+   "entries": [],
+   "checkedAt": "2026-10-08",
+   "slug": "madison-leigh-properties-llc-v-city-of-woonsocket-rhode-island-rid-1-26-cv-00711",
+   "court": "D.R.I.",
+   "docketNumber": "1:26-cv-00711",
+   "dateTerminated": null,
+   "url": "https://www.courtlistener.com/docket/74867120/madison-leigh-properties-llc-v-city-of-woonsocket-rhode-island/",
+   "lastEntryDate": null
+  },
+  "74867205": {
+   "entries": [
+    {
+     "date": "2026-10-04",
+     "number": 8,
+     "text": "Order for Initial Conference - FORM",
+     "url": "https://www.courtlistener.com/docket/74867205/8/federal-national-mortgage-association-v-saf-texas-properties-llc/",
+     "ruling": false
+    }
+   ],
+   "checkedAt": "2026-10-08",
+   "slug": "federal-national-mortgage-association-v-saf-texas-properties-llc-txsd-4-26-cv-08491",
+   "court": "S.D. Tex.",
+   "docketNumber": "4:26-cv-08491",
+   "dateTerminated": null,
+   "url": "https://www.courtlistener.com/docket/74867205/federal-national-mortgage-association-v-saf-texas-properties-llc/",
+   "lastEntryDate": "2026-10-04"
+  },
+  "74876500": {
+   "entries": [
+    {
+     "date": "2026-10-06",
+     "number": 8,
+     "text": "Case Management Conference Scheduling Order",
+     "url": "https://www.courtlistener.com/docket/74876500/8/oak-tree-executive-center-a-llc-v-t-mobile-central-llc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-10-05",
+     "number": 7,
+     "text": "Order on Motion for extension of time (other)",
+     "url": "https://www.courtlistener.com/docket/74876500/7/oak-tree-executive-center-a-llc-v-t-mobile-central-llc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-10-05",
+     "number": 6,
+     "text": "Order on Motion for leave",
+     "url": "https://www.courtlistener.com/docket/74876500/6/oak-tree-executive-center-a-llc-v-t-mobile-central-llc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-09-30",
+     "number": 1,
+     "text": "Notice of Removal from Cuyahoga County Court of Common Pleas, 26-cv-145312 with jury demand, Filing fee paid $405.00, receipt number AOHNDC-13910142..",
+     "url": "https://www.courtlistener.com/docket/74876500/1/1/oak-tree-executive-center-a-llc-v-t-mobile-central-llc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-09-30",
+     "number": 1,
+     "text": "Notice of Removal",
+     "url": "https://www.courtlistener.com/docket/74876500/1/oak-tree-executive-center-a-llc-v-t-mobile-central-llc/",
+     "ruling": false
+    }
+   ],
+   "checkedAt": "2026-10-08",
+   "slug": "oak-tree-executive-center-a-llc-v-t-mobile-central-llc-ohnd-1-26-cv-02559",
+   "court": "N.D. Ohio",
+   "docketNumber": "1:26-cv-02559",
+   "dateTerminated": null,
+   "url": "https://www.courtlistener.com/docket/74876500/oak-tree-executive-center-a-llc-v-t-mobile-central-llc/",
+   "lastEntryDate": "2026-10-06"
+  },
+  "74877217": {
+   "entries": [],
+   "checkedAt": "2026-10-08",
+   "slug": "bossier-village-lane-properties-llc-v-twin-city-fire-insurance-company-lawd-1-26-cv-03847",
+   "court": "W.D. La.",
+   "docketNumber": "1:26-cv-03847",
+   "dateTerminated": null,
+   "url": "https://www.courtlistener.com/docket/74877217/bossier-village-lane-properties-llc-v-twin-city-fire-insurance-company/",
+   "lastEntryDate": null
+  },
+  "74879500": {
+   "entries": [
+    {
+     "date": "2026-10-06",
+     "number": 15,
+     "text": "Order on Motion for Extension of Time to Answer",
+     "url": "https://www.courtlistener.com/docket/74879500/15/bossier-village-lane-properties-l-l-c-v-twin-city-fire-insurance-co/",
+     "ruling": false
+    },
+    {
+     "date": "2026-10-01",
+     "number": 11,
+     "text": "Removal Order",
+     "url": "https://www.courtlistener.com/docket/74879500/11/bossier-village-lane-properties-l-l-c-v-twin-city-fire-insurance-co/",
+     "ruling": false
+    },
+    {
+     "date": "2026-09-30",
+     "number": 9,
+     "text": "Proposed Order (Court User Only/Public Entry No NEF)",
+     "url": "https://www.courtlistener.com/docket/74879500/9/bossier-village-lane-properties-l-l-c-v-twin-city-fire-insurance-co/",
+     "ruling": false
+    }
+   ],
+   "checkedAt": "2026-10-08",
+   "slug": "bossier-village-lane-properties-l-l-c-v-twin-city-fire-insurance-co-lawd-5-26-cv-03847",
+   "court": "W.D. La.",
+   "docketNumber": "5:26-cv-03847",
+   "dateTerminated": null,
+   "url": "https://www.courtlistener.com/docket/74879500/bossier-village-lane-properties-l-l-c-v-twin-city-fire-insurance-co/",
+   "lastEntryDate": "2026-10-06"
+  },
+  "74905187": {
+   "entries": [],
+   "checkedAt": "2026-10-08",
+   "slug": "rescue-properties-llc-v-jert-painting-inc-ncmd-1-26-cv-01159",
+   "court": "M.D.N.C.",
+   "docketNumber": "1:26-cv-01159",
+   "dateTerminated": null,
+   "url": "https://www.courtlistener.com/docket/74905187/rescue-properties-llc-v-jert-painting-inc/",
+   "lastEntryDate": null
+  },
+  "74921300": {
+   "entries": [],
+   "checkedAt": "2026-10-08",
+   "slug": "lakeport-hotel-gp-llc-v-tegethoff-development-llc-mowd-4-26-cv-00863",
+   "court": "W.D. Mo.",
+   "docketNumber": "4:26-cv-00863",
+   "dateTerminated": null,
+   "url": "https://www.courtlistener.com/docket/74921300/lakeport-hotel-gp-llc-v-tegethoff-development-llc/",
+   "lastEntryDate": null
+  },
+  "74921855": {
+   "entries": [],
+   "checkedAt": "2026-10-08",
+   "slug": "travelers-casualty-and-surety-company-of-america-v-pasadena-oaks-life-cacd-2-26-cv-11586",
+   "court": "C.D. Cal.",
+   "docketNumber": "2:26-cv-11586",
+   "dateTerminated": null,
+   "url": "https://www.courtlistener.com/docket/74921855/travelers-casualty-and-surety-company-of-america-v-pasadena-oaks-life/",
+   "lastEntryDate": null
+  },
+  "74923770": {
+   "entries": [],
+   "checkedAt": "2026-10-08",
+   "slug": "first-interstate-bank-v-wall-street-apartments-llc-waed-2-26-cv-00445",
+   "court": "E.D. Wash.",
+   "docketNumber": "2:26-cv-00445",
+   "dateTerminated": null,
+   "url": "https://www.courtlistener.com/docket/74923770/first-interstate-bank-v-wall-street-apartments-llc/",
+   "lastEntryDate": null
+  },
+  "74924818": {
+   "entries": [],
+   "checkedAt": "2026-10-08",
+   "slug": "amherst-specialty-insurance-company-v-tower-732-realty-llc-nyed-1-26-cv-06427",
+   "court": "E.D.N.Y",
+   "docketNumber": "1:26-cv-06427",
+   "dateTerminated": null,
+   "url": "https://www.courtlistener.com/docket/74924818/amherst-specialty-insurance-company-v-tower-732-realty-llc/",
+   "lastEntryDate": null
+  },
+  "74929407": {
+   "entries": [
+    {
+     "date": "2026-10-07",
+     "number": 1,
+     "text": "ATTORNEY Complaint in Confession of Judgment (Credit Card Required)",
+     "url": "https://www.courtlistener.com/docket/74929407/1/the-huntington-national-bank-v-rr-express-properties-llc/",
+     "ruling": true
+    }
+   ],
+   "checkedAt": "2026-10-08",
+   "slug": "the-huntington-national-bank-v-r-r-express-properties-llc-pawd-2-26-cv-02184",
+   "court": "W.D. Pa.",
+   "docketNumber": "2:26-cv-02184",
+   "dateTerminated": null,
+   "url": "https://www.courtlistener.com/docket/74929407/the-huntington-national-bank-v-rr-express-properties-llc/",
+   "lastEntryDate": "2026-10-07"
+  },
+  "74930438": {
+   "entries": [],
+   "checkedAt": "2026-10-08",
+   "slug": "pnc-bank-n-a-v-wb-real-estate-development-llc-et-al-flsd-1-26-cv-27042",
+   "court": "S.D. Fla.",
+   "docketNumber": "1:26-cv-27042",
+   "dateTerminated": null,
+   "url": "https://www.courtlistener.com/docket/74930438/pnc-bank-na-v-wb-real-estate-development-llc-et-al/",
+   "lastEntryDate": null
+  },
+  "74930487": {
+   "entries": [
+    {
+     "date": "2026-10-07",
+     "number": 1,
+     "text": "Confession of Judgment",
+     "url": "https://www.courtlistener.com/docket/74930487/1/4/the-huntington-national-bank-v-rr-express-properties-llc/",
+     "ruling": true
+    },
+    {
+     "date": "2026-10-07",
+     "number": 1,
+     "text": "Complaint in Confession of Judgment",
+     "url": "https://www.courtlistener.com/docket/74930487/1/the-huntington-national-bank-v-rr-express-properties-llc/",
+     "ruling": true
+    }
+   ],
+   "checkedAt": "2026-10-08",
+   "slug": "the-huntington-national-bank-v-r-r-express-properties-llc-pawd-2-26-mc-01053",
+   "court": "W.D. Pa.",
+   "docketNumber": "2:26-mc-01053",
+   "dateTerminated": null,
+   "url": "https://www.courtlistener.com/docket/74930487/the-huntington-national-bank-v-rr-express-properties-llc/",
+   "lastEntryDate": "2026-10-07"
+  },
+  "74932772": {
+   "entries": [],
+   "checkedAt": "2026-10-08",
+   "slug": "payson-apartments-a-limited-partnership-v-united-states-uscfc-1-26-cv-01491",
+   "court": "Fed. Cl.",
+   "docketNumber": "1:26-cv-01491",
+   "dateTerminated": null,
+   "url": "https://www.courtlistener.com/docket/74932772/payson-apartments-a-limited-partnership-v-united-states/",
+   "lastEntryDate": null
+  }
+ },
+ "events": [
+  {
+   "key": "74930487:1:2026-10-07:confession of judgment",
+   "docketId": "74930487",
+   "date": "2026-10-07",
+   "kind": "ruling",
+   "text": "Confession of Judgment",
+   "entry": 1,
+   "url": "https://www.courtlistener.com/docket/74930487/1/4/the-huntington-national-bank-v-rr-express-properties-llc/",
+   "firstSeen": "2026-10-08"
+  },
+  {
+   "key": "74930487:1:2026-10-07:complaint in confession of judgment",
+   "docketId": "74930487",
+   "date": "2026-10-07",
+   "kind": "ruling",
+   "text": "Complaint in Confession of Judgment",
+   "entry": 1,
+   "url": "https://www.courtlistener.com/docket/74930487/1/the-huntington-national-bank-v-rr-express-properties-llc/",
+   "firstSeen": "2026-10-08"
+  },
+  {
+   "key": "74929407:1:2026-10-07:attorney complaint in confession of judgment (credit card required)",
+   "docketId": "74929407",
+   "date": "2026-10-07",
+   "kind": "ruling",
+   "text": "ATTORNEY Complaint in Confession of Judgment (Credit Card Required)",
+   "entry": 1,
+   "url": "https://www.courtlistener.com/docket/74929407/1/the-huntington-national-bank-v-rr-express-properties-llc/",
+   "firstSeen": "2026-10-08"
+  },
+  {
+   "key": "74763773:4:2026-09-18:temporary restraining order",
+   "docketId": "74763773",
+   "date": "2026-09-18",
+   "kind": "ruling",
+   "text": "Temporary Restraining Order",
+   "entry": 4,
+   "url": "https://www.courtlistener.com/docket/74763773/4/ngu-properties-llc-v-city-of-eastpointe/",
+   "firstSeen": "2026-10-08"
+  }
+ ]
+}
