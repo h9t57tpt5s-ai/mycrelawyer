@@ -36,7 +36,7 @@ const CORS = {
 const json = (b: unknown, status = 200) => new Response(JSON.stringify(b), { status, headers: { ...CORS, "Content-Type": "application/json" } });
 const esc = (s: unknown) => String(s ?? "").replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" })[c]!);
 const fmt = (iso: string | null) => iso ? new Date(iso + "T00:00:00Z").toLocaleDateString("en-US", { month: "long", day: "numeric", year: "numeric", timeZone: "UTC" }) : "Date not shown";
-const safePath = (p: string) => /^\/(matters|chapter-11)\/[A-Za-z0-9._-]+\.html$/.test(p) ? p : "/litigation.html";
+const safePath = (p: string) => /^\/(matters|chapter-11|federal-cases)\/[A-Za-z0-9._-]+\.html$/.test(p) ? p : "/litigation.html";
 
 async function unfollow(token: string): Promise<Response> {
   let path = "/litigation.html";

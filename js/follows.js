@@ -7,7 +7,7 @@
   const count = document.getElementById("follows-count");
   if (!sb || !list) return;
   const esc = (v) => String(v == null ? "" : v).replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c]);
-  const safePath = (p) => (/^\/(matters|chapter-11)\/[A-Za-z0-9._-]+\.html$/.test(p) ? p : "/litigation.html");
+  const safePath = (p) => (/^\/(matters|chapter-11|federal-cases)\/[A-Za-z0-9._-]+\.html$/.test(p) ? p : "/litigation.html");
 
   async function render(session) {
     if (!session) { list.innerHTML = ""; count.textContent = "0"; return; }
