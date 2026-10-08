@@ -46,6 +46,15 @@ today's and yesterday's dates in search queries.
 6. Record every event you looked at in ops/docket-activity-handled.json: "handled": {"<key>": {"caseId": "live-NNN", "at": "<today YYYY-MM-DD>", "action": "outcome from <source domain>" or "docket text only" or "skipped: <reason>"}}.
 7. These are updates, not new matters: they do not satisfy the freshness requirement and never become the featured flagship. List them under "Case updates" in the Step 5 report.
 
+## STEP 1D — LEADS FROM FEDERAL LAWSUITS, SEC FILINGS AND PRESS RELEASES (added 2026-10-07)
+
+Three files in the repo, written by the site's own jobs, point to disputes the news has not covered yet. Use them after Step 1C, before Step 1.
+1. ops/federal-suits.json: new federal lawsuits where both sides are businesses or governments and a party is named like a commercial real estate business (caseName, court, docketNumber, dateFiled, docketUrl, suitNature, cause). Each already has its own public page with the court record only, so do NOT write a matter from the caption alone. From cases filed in the last 3 days, pick the significant ones (a large lender, a known owner, REIT, hotel or developer, a notable property) and WebSearch the parties for reporting that explains the dispute. Write a matter only when a source does, with docketUrl = the case's docketUrl and docketLabel "CourtListener docket".
+2. ops/sec-litigation-leads.json: litigation that public real estate companies disclosed in their own SEC filings (company, form, filed, url, excerpts quoted verbatim from the filing, captions, courts). For leads first seen in the last 3 days, decide whether an excerpt describes a commercial real estate dispute (a lender, tenant, partner, contractor or government suit over property) that is not already in js/data.js. The SEC filing is a primary source: you may write the matter from it, with sourceUrl = the lead's url, stating only what the excerpt says (add press coverage if WebSearch finds any). Skip risk-factor boilerplate, generic "we are party to ordinary litigation" text, and disputes already tracked. Use the date of the event the excerpt describes, not the filing date, unless the excerpt gives none.
+3. ops/securities-suit-leads.json: press-release headlines announcing securities suits or investigations against public real estate companies (title, url, ticker, company, firm). A headline is not a source and its text must not be copied. Only a headline saying a class action was FILED is a lead: WebSearch for the complaint or reporting that gives the case name and court, and write a matter (category reit-securities) only when you find them. "Investigation" and "reminder" announcements are not lawsuits; skip them, and treat repeated reminders about the same case as one lead.
+4. Record every lead you looked at in ops/leads-handled.json (create it as {"handled": {}} if missing): "handled": {"<key>": {"at": "<today YYYY-MM-DD>", "action": "matter live-NNN" or "skipped: <reason>"}}, where key is the lead's "key" (for federal-suits.json, the docketUrl). Skip any key already handled.
+5. Business and government names only: never write an individual's name taken from these files. A matter from these leads counts toward the freshness rules only if its event date is within the last 3 days.
+
 ## STEP 1 — RESEARCH
 
 Before searching, read `js/data.js`'s `cases` array and compute today's actual
@@ -382,7 +391,7 @@ until it passes.
 
 ```
 cd /Users/jeffnovel/RELAW
-git add js/data.js quarterly.html ops/docket-activity-handled.json ops/pending-signals/
+git add js/data.js quarterly.html ops/docket-activity-handled.json ops/leads-handled.json ops/pending-signals/
 git commit -m "Digest: add N new matters (live-NNN through live-NNN)"
 git push origin main
 ```
