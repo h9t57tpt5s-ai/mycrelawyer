@@ -1,0 +1,8 @@
+{
+  "handled": {
+    "https://www.courtlistener.com/docket/74935610/betmgm-llc-v-greenbrier-hotel-corporation/": {"at": "2026-10-08", "action": "skipped: no reporting found explaining the dispute"},
+    "https://www.courtlistener.com/docket/74930438/pnc-bank-na-v-wb-real-estate-development-llc-et-al/": {"at": "2026-10-08", "action": "skipped: no reporting found explaining the dispute"},
+    "0001437749-26-032287:pscr20250630_10q.htm": {"at": "2026-10-08", "action": "matter live-237"},
+    "https://www.globenewswire.com/news-release/2026/10/07/3376777/937/en/millrose-properties-inc-investigation-mrp-securities-investors-encouraged-to-contact-kirby-mcinerney-llp-about-their-rights.html": {"at": "2026-10-08", "action": "skipped: investigation announcement, not a filed lawsuit"}
+  }
+}

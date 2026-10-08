@@ -7901,6 +7901,185 @@ const RELAW_DATA = {
         { name: "City of Wixom", role: "Defendant" }
       ],
       tags: ["data-center", "michigan", "zoning-moratorium", "municipal-authority", "vested-rights"]
+    },
+    {
+      id: "live-237",
+      addedDate: "2026-10-08",
+      featured: true,
+      title: "In re Pillarstone Capital REIT: Fifth Circuit Denies Whitestone Uptown Tower's Rehearing Petition",
+      category: "reit-securities",
+      status: "ruling",
+      date: "2026-10-05",
+      jurisdiction: "U.S. Court of Appeals for the Fifth Circuit",
+      state: "TX",
+      amount: "$33.4M related Rule 9019 bankruptcy settlement reached Dec. 2025 between the same parties; the dollar amount at stake in this specific appeal is not disclosed",
+      amountUsd: null,
+      source: "live",
+      sourceUrl: "https://www.sec.gov/Archives/edgar/data/928953/000143774926032287/pscr20250630_10q.htm",
+      summary: "The Fifth Circuit denied Whitestone Uptown Tower, LLC's petition for rehearing en banc on October 5, 2026, following the panel's September 4, 2026 affirmance of a district court ruling that had itself affirmed a bankruptcy-court decision against Whitestone Uptown Tower in the Pillarstone Capital REIT bankruptcy case. Pillarstone disclosed the ruling in its October 7, 2026 Form 10-Q. The appeal is the latest chapter in a multi-forum dispute between Pillarstone Capital REIT and Whitestone REIT dating to a 2021 shareholder rights plan, spanning Delaware Chancery Court, Harris County, Texas district court, and the Northern District of Texas bankruptcy court.",
+      significance: "The ruling effectively closes out, absent a certiorari petition, a discrete piece of bankruptcy-court litigation that survived a broader $33.4 million Rule 9019 settlement the two REIT families reached in December 2025. It illustrates how a shareholder rights plan adopted against a counterparty that also holds a limited-partnership stake can generate years of parallel litigation across state chancery, state trial, and federal bankruptcy/appellate forums, and how a global settlement in one forum may not reach claims already on appeal in another.",
+      body: [
+        "The U.S. Court of Appeals for the Fifth Circuit has denied a petition for rehearing en banc filed by Whitestone Uptown Tower, LLC, closing out -- absent a petition for certiorari -- one of the last open fronts in a years-long partnership and bankruptcy dispute between Pillarstone Capital REIT and Whitestone REIT. The denial, entered October 5, 2026, follows the panel's September 4, 2026 affirmance of a district court ruling that had itself affirmed a bankruptcy-court decision adverse to Whitestone Uptown Tower's position. Pillarstone disclosed the sequence of events in its Form 10-Q filed with the SEC on October 7, 2026.",
+        "The litigation traces back to a shareholder rights plan Pillarstone Capital REIT adopted on December 27, 2021, with American Stock Transfer & Trust Company serving as rights agent. Whitestone REIT Operating Partnership, L.P., which holds the sole limited-partner interest in Pillarstone's operating partnership, took the position that the rights plan breached the partnership's Amended and Restated Agreement of Limited Partnership and the implied covenant of good faith and fair dealing. Whitestone OP sued in the Delaware Court of Chancery, and on January 25, 2024 the court ruled in Whitestone's favor, finding the rights plan breached the implied covenant and clearing the way for Whitestone to exercise a contractual redemption right.",
+        "Pillarstone, in turn, sued in Texas: on September 16, 2022, Pillarstone Capital REIT and its operating partnership filed Cause No. 2022-59478 in the 189th Judicial District Court of Harris County, alleging the Whitestone entities breached the limited partnership agreement, related management agreements, and their fiduciary duties. The dispute then migrated into bankruptcy court -- Chapter 11 cases were filed for Pillarstone Capital REIT and its operating partnership on March 4, 2024 -- where Whitestone Uptown Tower, LLC pressed a claim the bankruptcy court ruled against. A federal district court affirmed that ruling, Whitestone Uptown Tower appealed to the Fifth Circuit on August 13, 2025, the panel affirmed on September 4, 2026, and the full court denied rehearing en banc on October 5, 2026. Pillarstone's filing states Whitestone Uptown Tower 'is considering its available options.'",
+        "This appellate fight proceeded on a separate track from the broader monetary settlement the two REIT families reached in December 2025 under Bankruptcy Rule 9019, in which Pillarstone's operating partnership paid Whitestone approximately $33.4 million tied to a guaranty obligation connected to the Uptown Tower property, with Pillarstone Capital REIT itself recovering roughly $4.05 million. That settlement resolved the bulk of the parties' monetary claims; the appeal decided this month addressed a bankruptcy-court ruling that fell outside its scope.",
+        "For REIT boards and general counsel, the case is a reminder that a shareholder rights plan adopted against a counterparty that also holds a governance or partnership stake can trigger years of derivative litigation spanning state chancery court, state trial court, and the federal bankruptcy and appellate systems at once -- and that a global settlement rarely closes every open issue when the same parties are tied together through multiple, overlapping legal instruments. Boards should track the full appellate chain independently of any settlement reached elsewhere in a dispute, since release language negotiated in one forum may not reach a claim already pending on appeal in another, and a denial of rehearing en banc does not itself end a case so long as a certiorari petition remains available."
+      ],
+      judge: null,
+      parties: [
+        { name: "Pillarstone Capital REIT", role: "Debtor / Appellee" },
+        { name: "Pillarstone Capital REIT Operating Partnership LP", role: "Debtor / Appellee" },
+        { name: "Whitestone Uptown Tower, LLC", role: "Appellant" },
+        { name: "Whitestone REIT", role: "Related Party" },
+        { name: "Whitestone REIT Operating Partnership, L.P.", role: "Related Party" }
+      ],
+      timeline: [
+        { when: "December 27, 2021", label: "Pillarstone Capital REIT adopts shareholder rights plan" },
+        { when: "January 25, 2024", label: "Delaware Court of Chancery rules the rights plan breached the implied covenant of good faith and fair dealing" },
+        { when: "March 4, 2024", label: "Pillarstone Capital REIT and its operating partnership file Chapter 11" },
+        { when: "December 2025", label: "Rule 9019 settlement: Pillarstone OP pays Whitestone approximately $33.4 million" },
+        { when: "September 4, 2026", label: "Fifth Circuit affirms district court's affirmance of the bankruptcy court ruling against Whitestone Uptown Tower" },
+        { when: "October 5, 2026", label: "Fifth Circuit denies Whitestone Uptown Tower's petition for rehearing en banc", current: true }
+      ],
+      tags: ["reit", "bankruptcy-appeal", "fifth-circuit", "partnership-dispute", "texas"]
+    },
+    {
+      id: "live-238",
+      addedDate: "2026-10-08",
+      title: "Bravera Bank v. Henry Land Holding LLC (North Dakota Commercial Development-Loan Foreclosure)",
+      category: "lending-foreclosure",
+      status: "pending",
+      date: "2026-02-02",
+      jurisdiction: "District Court, Ward County, North Dakota",
+      state: "ND",
+      amount: "Approximately $3 million development loan at issue (approximate figure per reporting)",
+      amountUsd: null,
+      source: "live",
+      sourceUrl: "https://www.grandforksherald.com/news/north-dakota/foreclosure-suit-on-minot-epic-property-heading-to-trial",
+      summary: "Bravera Bank sued former EPIC Companies CEO Todd Berning and associated entities, including Henry Land Holding LLC, alleging roughly $3 million owed on a development loan for nine commercial lots adjacent to the Minot, North Dakota 'The Tracks' development. Several contractors holding subordinate mechanics' liens on the property are also named. A trial was set for February 2, 2026; the outcome was not confirmed in reporting available at the time this entry was added.",
+      significance: "The case is a reminder that a developer's personal and affiliated-entity exposure on a commercial land loan can persist, and proceed to trial, even after the developer's primary operating company has already gone through its own Chapter 11 case -- EPIC Companies filed for bankruptcy in July 2024 -- and that mechanics'-lien claimants frequently end up as co-defendants in a lender's foreclosure action on the same parcel.",
+      body: [
+        "A North Dakota bank has taken a commercial land foreclosure dispute to trial against the former CEO of a defunct development company and several affiliated entities, over roughly $3 million the bank says is owed on a loan for nine commercial lots in Minot, North Dakota. Bravera Bank's suit names Todd Berning, the former chief executive of EPIC Companies, along with Henry Land Holding LLC and other associated parties, including principals Brian Kounovsky and William Gokey II.",
+        "The disputed lots sit adjacent to The Tracks, a mixed-use commercial development in Minot, and the bank's foreclosure complaint names several contractors holding mechanics' liens on the property as additional defendants, since those liens are subordinate to the bank's mortgage interest but must still be addressed to clear title. A trial in Ward County District Court was set for February 2, 2026.",
+        "The foreclosure follows EPIC Companies' own Chapter 11 bankruptcy filing in July 2024, illustrating how a development company's collapse can leave both the company itself and its individual principals and affiliated single-purpose entities exposed to separate creditor actions on the same underlying commercial parcels, proceeding on their own timeline well after the main corporate bankruptcy has been filed.",
+        "For regional commercial lenders, the case underscores the value of naming every lien claimant with an interest in the collateral at the outset of a foreclosure action, rather than litigating title issues piecemeal, and for developers it is a reminder that personal guaranties and affiliated-entity ownership structures on a commercial land loan do not necessarily insulate a company's principals once the primary corporate borrower is in bankruptcy."
+      ],
+      judge: null,
+      parties: [
+        { name: "Bravera Bank", role: "Plaintiff" },
+        { name: "Henry Land Holding LLC", role: "Defendant" }
+      ],
+      tags: ["foreclosure", "development-loan", "north-dakota", "mechanics-lien", "bankruptcy-fallout"]
+    },
+    {
+      id: "live-239",
+      addedDate: "2026-10-08",
+      title: "Aquino v. Schanzer (Cedar Realty Trust Preferred Stockholder Settlement)",
+      category: "reit-securities",
+      status: "pending",
+      date: "2026-06-10",
+      jurisdiction: "Circuit Court for Montgomery County, Maryland",
+      state: "MD",
+      amount: "$8.5 million proposed cash settlement",
+      amountUsd: 8500000,
+      amountBasis: "settlement",
+      source: "live",
+      sourceUrl: "https://www.sahmcapital.com/news/content/levi-korsinsky-llp-and-wohl-fruchter-llp-announce-pendency-and-proposed-settlement-of-class-action-affecting-preferred-stockholders-of-cedar-realty-trust-inc-2026-08-03",
+      summary: "Preferred (Series B and C) stockholders of Cedar Realty Trust, Inc. sued CEO Bruce Schanzer, Cedar, and Wheeler Real Estate Investment Trust over the liquidation process following Wheeler's acquisition of Cedar, in a class action pending in the Circuit Court for Montgomery County, Maryland (Case No. C-15-cv-25-000731). A stipulation of settlement proposing an $8.5 million cash payment to the preferred-stockholder class was executed June 10, 2026, with notice of the proposed settlement published August 3, 2026; final court approval remained pending as of this entry.",
+      significance: "The case is part of a recurring pattern of litigation over how REIT preferred stockholders are treated in a merger or liquidation, when common-stock sponsors and acquirers structure a transaction in a way preferred holders allege shortchanges their liquidation preference. The proposed settlement offers a benchmark figure for resolving this category of claim short of trial.",
+      body: [
+        "Preferred stockholders of Cedar Realty Trust, Inc. have reached a proposed $8.5 million cash settlement in a class action accusing the REIT's former chief executive, Bruce Schanzer, along with Cedar and its acquirer, Wheeler Real Estate Investment Trust, of mishandling the liquidation process tied to Wheeler's acquisition of Cedar.",
+        "The suit, captioned Aquino v. Schanzer and pending in the Circuit Court for Montgomery County, Maryland, was brought by holders of Cedar's Series B and Series C preferred stock, who alleged the liquidation process surrounding the Wheeler transaction failed to properly protect their liquidation preference relative to common stockholders.",
+        "The parties executed a stipulation of settlement on June 10, 2026, proposing an $8.5 million cash payment to the certified class of preferred stockholders, with notice of the proposed settlement published August 3, 2026. As of this entry, the settlement remained subject to final court approval.",
+        "For REIT sponsors and acquirers structuring a merger or liquidation involving multiple classes of preferred stock, the case is a reminder that preferred stockholders retain contractual liquidation-preference rights that survive a change-of-control transaction, and that disputes over how those rights are honored during a wind-down can generate class exposure resolved, as here, through a negotiated cash settlement rather than a liquidation-preference ruling on the merits."
+      ],
+      judge: null,
+      parties: [
+        { name: "Cedar Realty Trust, Inc.", role: "Defendant" },
+        { name: "Wheeler Real Estate Investment Trust, Inc.", role: "Defendant" }
+      ],
+      tags: ["reit", "preferred-stock", "class-action", "settlement", "maryland"]
+    },
+    {
+      id: "live-240",
+      addedDate: "2026-10-08",
+      title: "Keinan Properties, LLC Chapter 11 Petition (D. Kan.)",
+      category: "lending-foreclosure",
+      status: "filed",
+      date: "2026-10-06",
+      jurisdiction: "United States Bankruptcy Court, District of Kansas",
+      state: "KS",
+      amount: "Undisclosed (financial details not yet public)",
+      amountUsd: null,
+      source: "live",
+      sourceUrl: "https://www.courtlistener.com/docket/74925931/keinan-properties-llc/",
+      summary: "Keinan Properties, LLC filed a Chapter 11 petition on October 6, 2026 in the United States Bankruptcy Court for the District of Kansas, case number 26-21557. This entry reflects only what the federal court docket shows; no independent news coverage of the filing was available at the time it was added to this tracker.",
+      significance: "Single-asset and small-platform real estate holding entities filing Chapter 11 make up a meaningful share of the current wave of small commercial bankruptcy filings tied to distressed acquisition or construction debt. This tracker will add further detail as public reporting or additional docket activity becomes available.",
+      body: [
+        "Keinan Properties, LLC filed a Chapter 11 petition on October 6, 2026 in the United States Bankruptcy Court for the District of Kansas, docketed as case number 26-21557. As of this entry, no news coverage of the filing's underlying circumstances -- the nature of the debtor's property, its lender, or the cause of the filing -- had been published, so this record is limited to what the court docket itself shows.",
+        "Real estate holding entities organized around a single property or small portfolio file Chapter 11 petitions of this kind regularly, and they make up a meaningful share of the current wave of small commercial bankruptcy filings tied to distressed acquisition, construction, or maturity debt. This tracker will update this entry, or add a related one, if further docket activity or independent reporting clarifies the debtor's property, its lender, and the circumstances of the filing."
+      ],
+      judge: null,
+      parties: [
+        { name: "Keinan Properties, LLC", role: "Debtor" }
+      ],
+      docketUrl: "https://www.courtlistener.com/docket/74925931/keinan-properties-llc/",
+      docketLabel: "CourtListener docket",
+      tags: ["chapter-11", "bankruptcy", "single-asset-entity", "kansas"]
+    },
+    {
+      id: "live-241",
+      addedDate: "2026-10-08",
+      title: "Teas Ridge Retail Center I LLC Chapter 11 Petition (S.D. Tex.)",
+      category: "lending-foreclosure",
+      status: "filed",
+      date: "2026-10-06",
+      jurisdiction: "United States Bankruptcy Court, Southern District of Texas",
+      state: "TX",
+      amount: "Undisclosed (financial details not yet public)",
+      amountUsd: null,
+      source: "live",
+      sourceUrl: "https://www.courtlistener.com/docket/74923277/teas-ridge-retail-center-i-llc/",
+      summary: "Teas Ridge Retail Center I LLC filed a Chapter 11 petition on October 6, 2026 in the United States Bankruptcy Court for the Southern District of Texas, case number 26-37551. This entry reflects only what the federal court docket shows; no independent news coverage of the filing was available at the time it was added to this tracker.",
+      significance: "Single-asset retail-center ownership entities filing Chapter 11 make up a meaningful share of the current wave of small commercial bankruptcy filings tied to distressed acquisition or construction debt. This tracker will add further detail as public reporting or additional docket activity becomes available.",
+      body: [
+        "Teas Ridge Retail Center I LLC filed a Chapter 11 petition on October 6, 2026 in the United States Bankruptcy Court for the Southern District of Texas, docketed as case number 26-37551. As of this entry, no news coverage of the filing's underlying circumstances -- the nature of the debtor's property, its lender, or the cause of the filing -- had been published, so this record is limited to what the court docket itself shows.",
+        "Single-asset retail-center entities of this kind file Chapter 11 petitions regularly, and they make up a meaningful share of the current wave of small commercial bankruptcy filings tied to distressed acquisition, construction, or maturity debt. This tracker will update this entry, or add a related one, if further docket activity or independent reporting clarifies the debtor's property, its lender, and the circumstances of the filing."
+      ],
+      judge: null,
+      parties: [
+        { name: "Teas Ridge Retail Center I LLC", role: "Debtor" }
+      ],
+      docketUrl: "https://www.courtlistener.com/docket/74923277/teas-ridge-retail-center-i-llc/",
+      docketLabel: "CourtListener docket",
+      tags: ["chapter-11", "bankruptcy", "single-asset-entity", "retail", "texas"]
+    },
+    {
+      id: "live-242",
+      addedDate: "2026-10-08",
+      title: "148 Bay 43rd, LLC Chapter 11 Petition (E.D.N.Y.)",
+      category: "lending-foreclosure",
+      status: "filed",
+      date: "2026-10-08",
+      jurisdiction: "United States Bankruptcy Court, Eastern District of New York",
+      state: "NY",
+      amount: "Undisclosed (financial details not yet public)",
+      amountUsd: null,
+      source: "live",
+      sourceUrl: "https://www.courtlistener.com/docket/74937404/148-bay-43rd-llc/",
+      summary: "148 Bay 43rd, LLC filed a Chapter 11 petition on October 8, 2026 in the United States Bankruptcy Court for the Eastern District of New York, case number 1-26-44720. This entry reflects only what the federal court docket shows; no independent news coverage of the filing was available at the time it was added to this tracker.",
+      significance: "Single-asset, address-named real estate entities filing Chapter 11 make up a meaningful share of the current wave of small commercial bankruptcy filings in New York tied to distressed acquisition or maturity debt. This tracker will add further detail as public reporting or additional docket activity becomes available.",
+      body: [
+        "148 Bay 43rd, LLC filed a Chapter 11 petition on October 8, 2026 in the United States Bankruptcy Court for the Eastern District of New York, docketed as case number 1-26-44720. As of this entry, no news coverage of the filing's underlying circumstances -- the nature of the debtor's property, its lender, or the cause of the filing -- had been published, so this record is limited to what the court docket itself shows.",
+        "New York single-asset entities named for a property's street address file Chapter 11 petitions of this kind regularly, and they make up a meaningful share of the current wave of small commercial bankruptcy filings tied to distressed acquisition, construction, or maturity debt. This tracker will update this entry, or add a related one, if further docket activity or independent reporting clarifies the debtor's property, its lender, and the circumstances of the filing."
+      ],
+      judge: null,
+      parties: [
+        { name: "148 Bay 43rd, LLC", role: "Debtor" }
+      ],
+      docketUrl: "https://www.courtlistener.com/docket/74937404/148-bay-43rd-llc/",
+      docketLabel: "CourtListener docket",
+      tags: ["chapter-11", "bankruptcy", "single-asset-entity", "new-york"]
     }
   ],
 
