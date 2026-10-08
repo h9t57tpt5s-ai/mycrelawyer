@@ -1,7 +1,7 @@
 {
- "updatedAt": "2026-10-08T14:35:42+00:00",
+ "updatedAt": "2026-10-08T16:42:59+00:00",
  "source": "CourtListener RECAP archive (federal courts only). Entries appear when CourtListener receives them, so some are late or missing.",
- "requestsUsed": 24,
+ "requestsUsed": 25,
  "errors": [],
  "dockets": {
   "63107484": {
@@ -1694,6 +1694,13 @@
   "74874313": {
    "entries": [
     {
+     "date": "2026-10-08",
+     "number": 17,
+     "text": "Notice of Withdrawal",
+     "url": "https://www.courtlistener.com/docket/74874313/17/6363-west-73rd-street-llc/",
+     "ruling": false
+    },
+    {
      "date": "2026-10-07",
      "number": 16,
      "text": "BNC Certificate of Notice - Meeting of Creditors",
@@ -1741,13 +1748,6 @@
      "text": "U - Corrective Entry",
      "url": "https://www.courtlistener.com/docket/74874313/6363-west-73rd-street-llc/",
      "ruling": false
-    },
-    {
-     "date": "2026-10-02",
-     "number": null,
-     "text": "Reassignment of Chapter 11 Case Local Rule 1072",
-     "url": "https://www.courtlistener.com/docket/74874313/6363-west-73rd-street-llc/",
-     "ruling": false
     }
    ],
    "caseIds": [
@@ -1757,7 +1757,7 @@
    "docketNumber": "26-16232",
    "dateTerminated": null,
    "url": "https://www.courtlistener.com/docket/74874313/6363-west-73rd-street-llc/",
-   "lastEntryDate": "2026-10-07"
+   "lastEntryDate": "2026-10-08"
   },
   "74903821": {
    "entries": [
