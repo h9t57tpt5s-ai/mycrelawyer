@@ -1,0 +1,3270 @@
+{
+ "updatedAt": "2026-10-08T11:44:32+00:00",
+ "about": "Listed companies filing under real estate SIC codes 6798, 6500, 6510, 6512, 6513, 6519, 6531, 6552, 7011 (EDGAR). Used to pick real estate companies out of press-release feeds.",
+ "companies": [
+  {
+   "cik": 1500217,
+   "ticker": "AAT",
+   "name": "American Assets Trust, Inc.",
+   "sic": "6798"
+  },
+  {
+   "cik": 20639,
+   "ticker": "ABCP",
+   "name": "AmBase Corp",
+   "sic": "6512"
+  },
+  {
+   "cik": 1253986,
+   "ticker": "ABR",
+   "name": "ARBOR REALTY TRUST INC",
+   "sic": "6798"
+  },
+  {
+   "cik": 1253986,
+   "ticker": "ABR-PD",
+   "name": "ARBOR REALTY TRUST INC",
+   "sic": "6798"
+  },
+  {
+   "cik": 1253986,
+   "ticker": "ABR-PE",
+   "name": "ARBOR REALTY TRUST INC",
+   "sic": "6798"
+  },
+  {
+   "cik": 1253986,
+   "ticker": "ABR-PF",
+   "name": "ARBOR REALTY TRUST INC",
+   "sic": "6798"
+  },
+  {
+   "cik": 1332551,
+   "ticker": "ACR",
+   "name": "ACRES Commercial Realty Corp.",
+   "sic": "6798"
+  },
+  {
+   "cik": 1332551,
+   "ticker": "ACR-PC",
+   "name": "ACRES Commercial Realty Corp.",
+   "sic": "6798"
+  },
+  {
+   "cik": 1332551,
+   "ticker": "ACR-PD",
+   "name": "ACRES Commercial Realty Corp.",
+   "sic": "6798"
+  },
+  {
+   "cik": 1529377,
+   "ticker": "ACRE",
+   "name": "Ares Commercial Real Estate Corp",
+   "sic": "6798"
+  },
+  {
+   "cik": 1273685,
+   "ticker": "ADAM",
+   "name": "ADAMAS TRUST, INC.",
+   "sic": "6798"
+  },
+  {
+   "cik": 1273685,
+   "ticker": "ADAMG",
+   "name": "ADAMAS TRUST, INC.",
+   "sic": "6798"
+  },
+  {
+   "cik": 1273685,
+   "ticker": "ADAMH",
+   "name": "ADAMAS TRUST, INC.",
+   "sic": "6798"
+  },
+  {
+   "cik": 1273685,
+   "ticker": "ADAMI",
+   "name": "ADAMAS TRUST, INC.",
+   "sic": "6798"
+  },
+  {
+   "cik": 1273685,
+   "ticker": "ADAMK",
+   "name": "ADAMAS TRUST, INC.",
+   "sic": "6798"
+  },
+  {
+   "cik": 1273685,
+   "ticker": "ADAML",
+   "name": "ADAMAS TRUST, INC.",
+   "sic": "6798"
+  },
+  {
+   "cik": 1273685,
+   "ticker": "ADAMM",
+   "name": "ADAMAS TRUST, INC.",
+   "sic": "6798"
+  },
+  {
+   "cik": 1273685,
+   "ticker": "ADAMN",
+   "name": "ADAMAS TRUST, INC.",
+   "sic": "6798"
+  },
+  {
+   "cik": 1273685,
+   "ticker": "ADAMO",
+   "name": "ADAMAS TRUST, INC.",
+   "sic": "6798"
+  },
+  {
+   "cik": 1273685,
+   "ticker": "ADAMZ",
+   "name": "ADAMAS TRUST, INC.",
+   "sic": "6798"
+  },
+  {
+   "cik": 917251,
+   "ticker": "ADC",
+   "name": "AGREE REALTY CORP",
+   "sic": "6798"
+  },
+  {
+   "cik": 917251,
+   "ticker": "ADC-PA",
+   "name": "AGREE REALTY CORP",
+   "sic": "6798"
+  },
+  {
+   "cik": 2032732,
+   "ticker": "AEHGS",
+   "name": "Arrived Homes 5, LLC",
+   "sic": "6500"
+  },
+  {
+   "cik": 1750106,
+   "ticker": "AEI",
+   "name": "Alset Inc.",
+   "sic": "6500"
+  },
+  {
+   "cik": 1423689,
+   "ticker": "AGNC",
+   "name": "AGNC Investment Corp.",
+   "sic": "6798"
+  },
+  {
+   "cik": 1423689,
+   "ticker": "AGNCL",
+   "name": "AGNC Investment Corp.",
+   "sic": "6798"
+  },
+  {
+   "cik": 1423689,
+   "ticker": "AGNCM",
+   "name": "AGNC Investment Corp.",
+   "sic": "6798"
+  },
+  {
+   "cik": 1423689,
+   "ticker": "AGNCN",
+   "name": "AGNC Investment Corp.",
+   "sic": "6798"
+  },
+  {
+   "cik": 1423689,
+   "ticker": "AGNCO",
+   "name": "AGNC Investment Corp.",
+   "sic": "6798"
+  },
+  {
+   "cik": 1423689,
+   "ticker": "AGNCP",
+   "name": "AGNC Investment Corp.",
+   "sic": "6798"
+  },
+  {
+   "cik": 1423689,
+   "ticker": "AGNCZ",
+   "name": "AGNC Investment Corp.",
+   "sic": "6798"
+  },
+  {
+   "cik": 1495932,
+   "ticker": "AGNT",
+   "name": "AGNT, Inc.",
+   "sic": "6531"
+  },
+  {
+   "cik": 1632970,
+   "ticker": "AHR",
+   "name": "American Healthcare REIT, Inc.",
+   "sic": "6798"
+  },
+  {
+   "cik": 1569187,
+   "ticker": "AHRT",
+   "name": "AH Realty Trust, Inc.",
+   "sic": "6500"
+  },
+  {
+   "cik": 1569187,
+   "ticker": "AHRT-PA",
+   "name": "AH Realty Trust, Inc.",
+   "sic": "6500"
+  },
+  {
+   "cik": 1232582,
+   "ticker": "AHT",
+   "name": "ASHFORD HOSPITALITY TRUST INC",
+   "sic": "6798"
+  },
+  {
+   "cik": 1232582,
+   "ticker": "AHT-PD",
+   "name": "ASHFORD HOSPITALITY TRUST INC",
+   "sic": "6798"
+  },
+  {
+   "cik": 1232582,
+   "ticker": "AHT-PF",
+   "name": "ASHFORD HOSPITALITY TRUST INC",
+   "sic": "6798"
+  },
+  {
+   "cik": 1232582,
+   "ticker": "AHT-PG",
+   "name": "ASHFORD HOSPITALITY TRUST INC",
+   "sic": "6798"
+  },
+  {
+   "cik": 1232582,
+   "ticker": "AHT-PH",
+   "name": "ASHFORD HOSPITALITY TRUST INC",
+   "sic": "6798"
+  },
+  {
+   "cik": 1232582,
+   "ticker": "AHT-PI",
+   "name": "ASHFORD HOSPITALITY TRUST INC",
+   "sic": "6798"
+  },
+  {
+   "cik": 1859199,
+   "ticker": "AIRE",
+   "name": "reAlpha Tech Corp.",
+   "sic": "6500"
+  },
+  {
+   "cik": 922864,
+   "ticker": "AIV",
+   "name": "APARTMENT INVESTMENT & MANAGEMENT CO",
+   "sic": "6798"
+  },
+  {
+   "cik": 899629,
+   "ticker": "AKR",
+   "name": "ACADIA REALTY TRUST",
+   "sic": "6798"
+  },
+  {
+   "cik": 3545,
+   "ticker": "ALCO",
+   "name": "ALICO, INC.",
+   "sic": "6519"
+  },
+  {
+   "cik": 2032732,
+   "ticker": "ALOIS",
+   "name": "Arrived Homes 5, LLC",
+   "sic": "6500"
+  },
+  {
+   "cik": 3499,
+   "ticker": "ALX",
+   "name": "ALEXANDERS INC",
+   "sic": "6798"
+  },
+  {
+   "cik": 1562401,
+   "ticker": "AMH",
+   "name": "American Homes 4 Rent",
+   "sic": "6798"
+  },
+  {
+   "cik": 1562401,
+   "ticker": "AMH-PG",
+   "name": "American Homes 4 Rent",
+   "sic": "6798"
+  },
+  {
+   "cik": 1562401,
+   "ticker": "AMH-PH",
+   "name": "American Homes 4 Rent",
+   "sic": "6798"
+  },
+  {
+   "cik": 1053507,
+   "ticker": "AMT",
+   "name": "AMERICAN TOWER CORP /MA/",
+   "sic": "6798"
+  },
+  {
+   "cik": 1766478,
+   "ticker": "AOMD",
+   "name": "Angel Oak Mortgage REIT, Inc.",
+   "sic": "6500"
+  },
+  {
+   "cik": 1766478,
+   "ticker": "AOMN",
+   "name": "Angel Oak Mortgage REIT, Inc.",
+   "sic": "6500"
+  },
+  {
+   "cik": 1766478,
+   "ticker": "AOMR",
+   "name": "Angel Oak Mortgage REIT, Inc.",
+   "sic": "6500"
+  },
+  {
+   "cik": 352991,
+   "ticker": "AOXY",
+   "name": "ADVANCED OXYGEN TECHNOLOGIES INC",
+   "sic": "6500"
+  },
+  {
+   "cik": 1418121,
+   "ticker": "APLE",
+   "name": "Apple Hospitality REIT, Inc.",
+   "sic": "6798"
+  },
+  {
+   "cik": 1035443,
+   "ticker": "ARE",
+   "name": "ALEXANDRIA REAL ESTATE EQUITIES, INC.",
+   "sic": "6798"
+  },
+  {
+   "cik": 1467760,
+   "ticker": "ARI",
+   "name": "Apollo Commercial Real Estate Finance, Inc.",
+   "sic": "6798"
+  },
+  {
+   "cik": 1102238,
+   "ticker": "ARL",
+   "name": "AMERICAN REALTY INVESTORS INC",
+   "sic": "6510"
+  },
+  {
+   "cik": 1428205,
+   "ticker": "ARR",
+   "name": "Armour Residential REIT, Inc.",
+   "sic": "6798"
+  },
+  {
+   "cik": 1428205,
+   "ticker": "ARR-PC",
+   "name": "Armour Residential REIT, Inc.",
+   "sic": "6798"
+  },
+  {
+   "cik": 1853717,
+   "ticker": "ATAT",
+   "name": "Atour Lifestyle Holdings Ltd",
+   "sic": "7011"
+  },
+  {
+   "cik": 2032732,
+   "ticker": "AVPKS",
+   "name": "Arrived Homes 5, LLC",
+   "sic": "6500"
+  },
+  {
+   "cik": 2032732,
+   "ticker": "AVSBS",
+   "name": "Arrived Homes 5, LLC",
+   "sic": "6500"
+  },
+  {
+   "cik": 1021917,
+   "ticker": "AWCA",
+   "name": "Awaysis Capital, Inc.",
+   "sic": "6512"
+  },
+  {
+   "cik": 6207,
+   "ticker": "AXR",
+   "name": "AMREP CORP.",
+   "sic": "6552"
+  },
+  {
+   "cik": 1747079,
+   "ticker": "BALY",
+   "name": "Bally's Corp",
+   "sic": "7011"
+  },
+  {
+   "cik": 1001085,
+   "ticker": "BAMGF",
+   "name": "BROOKFIELD Corp /ON/",
+   "sic": "6512"
+  },
+  {
+   "cik": 1001085,
+   "ticker": "BAMKF",
+   "name": "BROOKFIELD Corp /ON/",
+   "sic": "6512"
+  },
+  {
+   "cik": 790816,
+   "ticker": "BDN",
+   "name": "BRANDYWINE REALTY TRUST",
+   "sic": "6798"
+  },
+  {
+   "cik": 1847874,
+   "ticker": "BEEP",
+   "name": "Mobile Infrastructure Corp",
+   "sic": "6500"
+  },
+  {
+   "cik": 1809587,
+   "ticker": "BEKE",
+   "name": "KE Holdings Inc.",
+   "sic": "6531"
+  },
+  {
+   "cik": 907254,
+   "ticker": "BFS",
+   "name": "SAUL CENTERS, INC.",
+   "sic": "6798"
+  },
+  {
+   "cik": 907254,
+   "ticker": "BFS-PD",
+   "name": "SAUL CENTERS, INC.",
+   "sic": "6798"
+  },
+  {
+   "cik": 907254,
+   "ticker": "BFS-PE",
+   "name": "SAUL CENTERS, INC.",
+   "sic": "6798"
+  },
+  {
+   "cik": 1903382,
+   "ticker": "BHM",
+   "name": "Bluerock Homes Trust, Inc.",
+   "sic": "6798"
+  },
+  {
+   "cik": 1574085,
+   "ticker": "BHR",
+   "name": "Braemar Hotels & Resorts Inc.",
+   "sic": "6798"
+  },
+  {
+   "cik": 1574085,
+   "ticker": "BHR-PB",
+   "name": "Braemar Hotels & Resorts Inc.",
+   "sic": "6798"
+  },
+  {
+   "cik": 1574085,
+   "ticker": "BHR-PD",
+   "name": "Braemar Hotels & Resorts Inc.",
+   "sic": "6798"
+  },
+  {
+   "cik": 1001085,
+   "ticker": "BKAMF",
+   "name": "BROOKFIELD Corp /ON/",
+   "sic": "6512"
+  },
+  {
+   "cik": 1001085,
+   "ticker": "BKFAF",
+   "name": "BROOKFIELD Corp /ON/",
+   "sic": "6512"
+  },
+  {
+   "cik": 1001085,
+   "ticker": "BKFDF",
+   "name": "BROOKFIELD Corp /ON/",
+   "sic": "6512"
+  },
+  {
+   "cik": 1001085,
+   "ticker": "BKFOF",
+   "name": "BROOKFIELD Corp /ON/",
+   "sic": "6512"
+  },
+  {
+   "cik": 1001085,
+   "ticker": "BKFPF",
+   "name": "BROOKFIELD Corp /ON/",
+   "sic": "6512"
+  },
+  {
+   "cik": 1001085,
+   "ticker": "BKPA",
+   "name": "BROOKFIELD Corp /ON/",
+   "sic": "6512"
+  },
+  {
+   "cik": 1275477,
+   "ticker": "BMNM",
+   "name": "BIMINI CAPITAL MANAGEMENT, INC.",
+   "sic": "6798"
+  },
+  {
+   "cik": 1001085,
+   "ticker": "BN",
+   "name": "BROOKFIELD Corp /ON/",
+   "sic": "6512"
+  },
+  {
+   "cik": 1001085,
+   "ticker": "BNH",
+   "name": "BROOKFIELD Corp /ON/",
+   "sic": "6512"
+  },
+  {
+   "cik": 1001085,
+   "ticker": "BNJ",
+   "name": "BROOKFIELD Corp /ON/",
+   "sic": "6512"
+  },
+  {
+   "cik": 1424182,
+   "ticker": "BNL",
+   "name": "Broadstone Net Lease, Inc.",
+   "sic": "6798"
+  },
+  {
+   "cik": 1494582,
+   "ticker": "BOC",
+   "name": "BOSTON OMAHA Corp",
+   "sic": "6510"
+  },
+  {
+   "cik": 1545772,
+   "ticker": "BPYPM",
+   "name": "Brookfield Property Partners L.P.",
+   "sic": "6500"
+  },
+  {
+   "cik": 1545772,
+   "ticker": "BPYPN",
+   "name": "Brookfield Property Partners L.P.",
+   "sic": "6500"
+  },
+  {
+   "cik": 1545772,
+   "ticker": "BPYPO",
+   "name": "Brookfield Property Partners L.P.",
+   "sic": "6500"
+  },
+  {
+   "cik": 1545772,
+   "ticker": "BPYPP",
+   "name": "Brookfield Property Partners L.P.",
+   "sic": "6500"
+  },
+  {
+   "cik": 1001085,
+   "ticker": "BRCFF",
+   "name": "BROOKFIELD Corp /ON/",
+   "sic": "6512"
+  },
+  {
+   "cik": 1001085,
+   "ticker": "BRFAF",
+   "name": "BROOKFIELD Corp /ON/",
+   "sic": "6512"
+  },
+  {
+   "cik": 1001085,
+   "ticker": "BRFCF",
+   "name": "BROOKFIELD Corp /ON/",
+   "sic": "6512"
+  },
+  {
+   "cik": 1001085,
+   "ticker": "BROXF",
+   "name": "BROOKFIELD Corp /ON/",
+   "sic": "6512"
+  },
+  {
+   "cik": 1001085,
+   "ticker": "BRPSF",
+   "name": "BROOKFIELD Corp /ON/",
+   "sic": "6512"
+  },
+  {
+   "cik": 1717547,
+   "ticker": "BRSP",
+   "name": "BrightSpire Capital, Inc.",
+   "sic": "6798"
+  },
+  {
+   "cik": 14846,
+   "ticker": "BRT",
+   "name": "BRT Apartments Corp.",
+   "sic": "6798"
+  },
+  {
+   "cik": 1581068,
+   "ticker": "BRX",
+   "name": "Brixmor Property Group Inc.",
+   "sic": "6798"
+  },
+  {
+   "cik": 1662972,
+   "ticker": "BSTT",
+   "name": "Blackstone Real Estate Income Trust, Inc.",
+   "sic": "6798"
+  },
+  {
+   "cik": 2100161,
+   "ticker": "BXDC",
+   "name": "Blackstone Digital Infrastructure Trust Inc.",
+   "sic": "6500"
+  },
+  {
+   "cik": 1001085,
+   "ticker": "BXDIF",
+   "name": "BROOKFIELD Corp /ON/",
+   "sic": "6512"
+  },
+  {
+   "cik": 1061630,
+   "ticker": "BXMT",
+   "name": "BLACKSTONE MORTGAGE TRUST, INC.",
+   "sic": "6798"
+  },
+  {
+   "cik": 1037540,
+   "ticker": "BXP",
+   "name": "BXP, Inc.",
+   "sic": "6798"
+  },
+  {
+   "cik": 906553,
+   "ticker": "BYD",
+   "name": "BOYD GAMING CORP",
+   "sic": "7011"
+  },
+  {
+   "cik": 2066925,
+   "ticker": "CAPI",
+   "name": "CAPSTONE 72, INC.",
+   "sic": "6500"
+  },
+  {
+   "cik": 910612,
+   "ticker": "CBL",
+   "name": "CBL & ASSOCIATES PROPERTIES INC",
+   "sic": "6798"
+  },
+  {
+   "cik": 1138118,
+   "ticker": "CBRE",
+   "name": "CBRE GROUP, INC.",
+   "sic": "6500"
+  },
+  {
+   "cik": 1051470,
+   "ticker": "CCI",
+   "name": "CROWN CASTLE INC.",
+   "sic": "6798"
+  },
+  {
+   "cik": 860546,
+   "ticker": "CDP",
+   "name": "COPT DEFENSE PROPERTIES",
+   "sic": "6798"
+  },
+  {
+   "cik": 761648,
+   "ticker": "CDR-PB",
+   "name": "CEDAR REALTY TRUST, INC.",
+   "sic": "6798"
+  },
+  {
+   "cik": 761648,
+   "ticker": "CDR-PC",
+   "name": "CEDAR REALTY TRUST, INC.",
+   "sic": "6798"
+  },
+  {
+   "cik": 1666244,
+   "ticker": "CFTR-PA",
+   "name": "Cantor Fitzgerald Income Trust, Inc.",
+   "sic": "6798"
+  },
+  {
+   "cik": 1299969,
+   "ticker": "CHCI",
+   "name": "Comstock Holding Companies, Inc.",
+   "sic": "6500"
+  },
+  {
+   "cik": 1631569,
+   "ticker": "CHCT",
+   "name": "Community Healthcare Trust Inc",
+   "sic": "6798"
+  },
+  {
+   "cik": 1046311,
+   "ticker": "CHH",
+   "name": "CHOICE HOTELS INTERNATIONAL INC /DE",
+   "sic": "7011"
+  },
+  {
+   "cik": 1571776,
+   "ticker": "CHMI",
+   "name": "Cherry Hill Mortgage Investment Corp",
+   "sic": "6798"
+  },
+  {
+   "cik": 1571776,
+   "ticker": "CHMI-PA",
+   "name": "Cherry Hill Mortgage Investment Corp",
+   "sic": "6798"
+  },
+  {
+   "cik": 1571776,
+   "ticker": "CHMI-PB",
+   "name": "Cherry Hill Mortgage Investment Corp",
+   "sic": "6798"
+  },
+  {
+   "cik": 913353,
+   "ticker": "CIGI",
+   "name": "Colliers International Group Inc.",
+   "sic": "6500"
+  },
+  {
+   "cik": 1409493,
+   "ticker": "CIM",
+   "name": "CHIMERA INVESTMENT CORP",
+   "sic": "6798"
+  },
+  {
+   "cik": 1409493,
+   "ticker": "CIM-PA",
+   "name": "CHIMERA INVESTMENT CORP",
+   "sic": "6798"
+  },
+  {
+   "cik": 1409493,
+   "ticker": "CIM-PB",
+   "name": "CHIMERA INVESTMENT CORP",
+   "sic": "6798"
+  },
+  {
+   "cik": 1409493,
+   "ticker": "CIM-PC",
+   "name": "CHIMERA INVESTMENT CORP",
+   "sic": "6798"
+  },
+  {
+   "cik": 1409493,
+   "ticker": "CIM-PD",
+   "name": "CHIMERA INVESTMENT CORP",
+   "sic": "6798"
+  },
+  {
+   "cik": 1409493,
+   "ticker": "CIMN",
+   "name": "CHIMERA INVESTMENT CORP",
+   "sic": "6798"
+  },
+  {
+   "cik": 1409493,
+   "ticker": "CIMO",
+   "name": "CHIMERA INVESTMENT CORP",
+   "sic": "6798"
+  },
+  {
+   "cik": 1409493,
+   "ticker": "CIMP",
+   "name": "CHIMERA INVESTMENT CORP",
+   "sic": "6798"
+  },
+  {
+   "cik": 2050338,
+   "ticker": "CLBZ",
+   "name": "Collab Z Inc.",
+   "sic": "6500"
+  },
+  {
+   "cik": 1476045,
+   "ticker": "CLDT",
+   "name": "Chatham Lodging Trust",
+   "sic": "6798"
+  },
+  {
+   "cik": 1476045,
+   "ticker": "CLDT-PA",
+   "name": "Chatham Lodging Trust",
+   "sic": "6798"
+  },
+  {
+   "cik": 1649096,
+   "ticker": "CLPR",
+   "name": "Clipper Realty Inc.",
+   "sic": "6798"
+  },
+  {
+   "cik": 908311,
+   "ticker": "CMCT",
+   "name": "Creative Media & Community Trust Corp",
+   "sic": "6798"
+  },
+  {
+   "cik": 1498547,
+   "ticker": "CMRF",
+   "name": "CIM GROUP, INC.",
+   "sic": "6798"
+  },
+  {
+   "cik": 1666291,
+   "ticker": "CMTG",
+   "name": "Claros Mortgage Trust, Inc.",
+   "sic": "6500"
+  },
+  {
+   "cik": 911147,
+   "ticker": "CNTY",
+   "name": "CENTURY CASINOS INC /CO/",
+   "sic": "7011"
+  },
+  {
+   "cik": 1455863,
+   "ticker": "COLD",
+   "name": "AMERICOLD REALTY TRUST",
+   "sic": "6798"
+  },
+  {
+   "cik": 1563190,
+   "ticker": "COMP",
+   "name": "Compass, Inc.",
+   "sic": "6531"
+  },
+  {
+   "cik": 1837671,
+   "ticker": "CPPTL",
+   "name": "Copper Property CTL Pass Through Trust",
+   "sic": "6500"
+  },
+  {
+   "cik": 906345,
+   "ticker": "CPT",
+   "name": "CAMDEN PROPERTY TRUST",
+   "sic": "6798"
+  },
+  {
+   "cik": 202947,
+   "ticker": "CPTP",
+   "name": "CAPITAL PROPERTIES INC /RI/",
+   "sic": "6519"
+  },
+  {
+   "cik": 1084551,
+   "ticker": "CRDV",
+   "name": "Community Redevelopment Inc.",
+   "sic": "6552"
+  },
+  {
+   "cik": 1034957,
+   "ticker": "CRESY",
+   "name": "CRESUD INC",
+   "sic": "6500"
+  },
+  {
+   "cik": 798359,
+   "ticker": "CSR",
+   "name": "CENTERSPACE",
+   "sic": "6798"
+  },
+  {
+   "cik": 1680132,
+   "ticker": "CSUI",
+   "name": "CANNABIS SUISSE CORP.",
+   "sic": "6500"
+  },
+  {
+   "cik": 23795,
+   "ticker": "CTO",
+   "name": "CTO Realty Growth, Inc.",
+   "sic": "6798"
+  },
+  {
+   "cik": 23795,
+   "ticker": "CTO-PA",
+   "name": "CTO Realty Growth, Inc.",
+   "sic": "6798"
+  },
+  {
+   "cik": 1590717,
+   "ticker": "CTRE",
+   "name": "CareTrust REIT, Inc.",
+   "sic": "6798"
+  },
+  {
+   "cik": 1298675,
+   "ticker": "CUBE",
+   "name": "CubeSmart",
+   "sic": "6798"
+  },
+  {
+   "cik": 2027317,
+   "ticker": "CURB",
+   "name": "Curbline Properties Corp.",
+   "sic": "6500"
+  },
+  {
+   "cik": 25232,
+   "ticker": "CUZ",
+   "name": "COUSINS PROPERTIES INC",
+   "sic": "6798"
+  },
+  {
+   "cik": 1627282,
+   "ticker": "CWD",
+   "name": "CaliberCos Inc.",
+   "sic": "6500"
+  },
+  {
+   "cik": 1628369,
+   "ticker": "CWK",
+   "name": "Cushman & Wakefield Ltd.",
+   "sic": "6500"
+  },
+  {
+   "cik": 1070985,
+   "ticker": "CXW",
+   "name": "CoreCivic, Inc.",
+   "sic": "6798"
+  },
+  {
+   "cik": 1590895,
+   "ticker": "CZR",
+   "name": "Caesars Entertainment, Inc.",
+   "sic": "7011"
+  },
+  {
+   "cik": 1622194,
+   "ticker": "DEA",
+   "name": "Easterly Government Properties, Inc.",
+   "sic": "6798"
+  },
+  {
+   "cik": 1364250,
+   "ticker": "DEI",
+   "name": "Douglas Emmett Inc",
+   "sic": "6798"
+  },
+  {
+   "cik": 1075415,
+   "ticker": "DHC",
+   "name": "DIVERSIFIED HEALTHCARE TRUST",
+   "sic": "6798"
+  },
+  {
+   "cik": 1075415,
+   "ticker": "DHCNI",
+   "name": "DIVERSIFIED HEALTHCARE TRUST",
+   "sic": "6798"
+  },
+  {
+   "cik": 1075415,
+   "ticker": "DHCNL",
+   "name": "DIVERSIFIED HEALTHCARE TRUST",
+   "sic": "6798"
+  },
+  {
+   "cik": 1297996,
+   "ticker": "DLR",
+   "name": "DIGITAL REALTY TRUST, INC.",
+   "sic": "6798"
+  },
+  {
+   "cik": 1297996,
+   "ticker": "DLR-PJ",
+   "name": "DIGITAL REALTY TRUST, INC.",
+   "sic": "6798"
+  },
+  {
+   "cik": 1297996,
+   "ticker": "DLR-PK",
+   "name": "DIGITAL REALTY TRUST, INC.",
+   "sic": "6798"
+  },
+  {
+   "cik": 1297996,
+   "ticker": "DLR-PL",
+   "name": "DIGITAL REALTY TRUST, INC.",
+   "sic": "6798"
+  },
+  {
+   "cik": 765880,
+   "ticker": "DOC",
+   "name": "HEALTHPEAK PROPERTIES, INC.",
+   "sic": "6798"
+  },
+  {
+   "cik": 1878897,
+   "ticker": "DOUG",
+   "name": "Douglas Elliman Inc.",
+   "sic": "6531"
+  },
+  {
+   "cik": 1298946,
+   "ticker": "DRH",
+   "name": "DiamondRock Hospitality Co",
+   "sic": "6798"
+  },
+  {
+   "cik": 1750593,
+   "ticker": "DUO",
+   "name": "Fangdd Network Group Ltd.",
+   "sic": "6500"
+  },
+  {
+   "cik": 826675,
+   "ticker": "DX",
+   "name": "DYNEX CAPITAL INC",
+   "sic": "6798"
+  },
+  {
+   "cik": 826675,
+   "ticker": "DX-PC",
+   "name": "DYNEX CAPITAL INC",
+   "sic": "6798"
+  },
+  {
+   "cik": 826675,
+   "ticker": "DX-PD",
+   "name": "DYNEX CAPITAL INC",
+   "sic": "6798"
+  },
+  {
+   "cik": 1560672,
+   "ticker": "EARN",
+   "name": "Ellington Credit Co",
+   "sic": "6798"
+  },
+  {
+   "cik": 1411342,
+   "ticker": "EFC",
+   "name": "Ellington Financial Inc.",
+   "sic": "6500"
+  },
+  {
+   "cik": 1411342,
+   "ticker": "EFC-PB",
+   "name": "Ellington Financial Inc.",
+   "sic": "6500"
+  },
+  {
+   "cik": 1411342,
+   "ticker": "EFC-PC",
+   "name": "Ellington Financial Inc.",
+   "sic": "6500"
+  },
+  {
+   "cik": 1411342,
+   "ticker": "EFC-PD",
+   "name": "Ellington Financial Inc.",
+   "sic": "6500"
+  },
+  {
+   "cik": 49600,
+   "ticker": "EGP",
+   "name": "EASTGROUP PROPERTIES INC",
+   "sic": "6798"
+  },
+  {
+   "cik": 1560672,
+   "ticker": "ELLA",
+   "name": "Ellington Credit Co",
+   "sic": "6798"
+  },
+  {
+   "cik": 104894,
+   "ticker": "ELME",
+   "name": "Elme Communities",
+   "sic": "6798"
+  },
+  {
+   "cik": 895417,
+   "ticker": "ELS",
+   "name": "EQUITY LIFESTYLE PROPERTIES INC",
+   "sic": "6798"
+  },
+  {
+   "cik": 1045450,
+   "ticker": "EPR",
+   "name": "EPR PROPERTIES",
+   "sic": "6798"
+  },
+  {
+   "cik": 1045450,
+   "ticker": "EPR-PC",
+   "name": "EPR PROPERTIES",
+   "sic": "6798"
+  },
+  {
+   "cik": 1045450,
+   "ticker": "EPR-PE",
+   "name": "EPR PROPERTIES",
+   "sic": "6798"
+  },
+  {
+   "cik": 1045450,
+   "ticker": "EPR-PG",
+   "name": "EPR PROPERTIES",
+   "sic": "6798"
+  },
+  {
+   "cik": 1728951,
+   "ticker": "EPRT",
+   "name": "ESSENTIAL PROPERTIES REALTY TRUST, INC.",
+   "sic": "6798"
+  },
+  {
+   "cik": 1101239,
+   "ticker": "EQIX",
+   "name": "EQUINIX INC",
+   "sic": "6798"
+  },
+  {
+   "cik": 1553079,
+   "ticker": "ESBA",
+   "name": "Empire State Realty OP, L.P.",
+   "sic": "6798"
+  },
+  {
+   "cik": 1541401,
+   "ticker": "ESRT",
+   "name": "Empire State Realty Trust, Inc.",
+   "sic": "6798"
+  },
+  {
+   "cik": 920522,
+   "ticker": "ESS",
+   "name": "ESSEX PROPERTY TRUST, INC.",
+   "sic": "6798"
+  },
+  {
+   "cik": 1289490,
+   "ticker": "EXR",
+   "name": "Extra Space Storage Inc.",
+   "sic": "6798"
+  },
+  {
+   "cik": 1562528,
+   "ticker": "FBRT",
+   "name": "Franklin BSP Realty Trust, Inc.",
+   "sic": "6798"
+  },
+  {
+   "cik": 1562528,
+   "ticker": "FBRT-PE",
+   "name": "Franklin BSP Realty Trust, Inc.",
+   "sic": "6798"
+  },
+  {
+   "cik": 1650132,
+   "ticker": "FCPT",
+   "name": "Four Corners Property Trust, Inc.",
+   "sic": "6798"
+  },
+  {
+   "cik": 1553079,
+   "ticker": "FISK",
+   "name": "Empire State Realty OP, L.P.",
+   "sic": "6798"
+  },
+  {
+   "cik": 891482,
+   "ticker": "FLL",
+   "name": "FULL HOUSE RESORTS INC",
+   "sic": "7011"
+  },
+  {
+   "cik": 1406587,
+   "ticker": "FOR",
+   "name": "Forestar Group Inc.",
+   "sic": "6500"
+  },
+  {
+   "cik": 1574197,
+   "ticker": "FPH",
+   "name": "Five Point Holdings, LLC",
+   "sic": "6500"
+  },
+  {
+   "cik": 1591670,
+   "ticker": "FPI",
+   "name": "Farmland Partners Inc.",
+   "sic": "6798"
+  },
+  {
+   "cik": 921825,
+   "ticker": "FR",
+   "name": "FIRST INDUSTRIAL REALTY TRUST INC",
+   "sic": "6798"
+  },
+  {
+   "cik": 36840,
+   "ticker": "FREVS",
+   "name": "FIRST REAL ESTATE INVESTMENT TRUST OF NEW JERSEY, INC.",
+   "sic": "6798"
+  },
+  {
+   "cik": 2071778,
+   "ticker": "FRMI",
+   "name": "Fermi Inc.",
+   "sic": "6798"
+  },
+  {
+   "cik": 844059,
+   "ticker": "FRPH",
+   "name": "FRP HOLDINGS, INC.",
+   "sic": "6500"
+  },
+  {
+   "cik": 34903,
+   "ticker": "FRT",
+   "name": "FEDERAL REALTY INVESTMENT TRUST",
+   "sic": "6798"
+  },
+  {
+   "cik": 34903,
+   "ticker": "FRT-PC",
+   "name": "FEDERAL REALTY INVESTMENT TRUST",
+   "sic": "6798"
+  },
+  {
+   "cik": 1031316,
+   "ticker": "FSP",
+   "name": "FRANKLIN STREET PROPERTIES CORP /MA/",
+   "sic": "6798"
+  },
+  {
+   "cik": 1637810,
+   "ticker": "FSV",
+   "name": "FirstService Corp",
+   "sic": "6500"
+  },
+  {
+   "cik": 1753162,
+   "ticker": "FTHM",
+   "name": "Fathom Holdings Inc.",
+   "sic": "6531"
+  },
+  {
+   "cik": 1988494,
+   "ticker": "FVR",
+   "name": "FrontView REIT, Inc.",
+   "sic": "6798"
+  },
+  {
+   "cik": 727346,
+   "ticker": "GBCS",
+   "name": "SELECTIS HEALTH, INC.",
+   "sic": "6798"
+  },
+  {
+   "cik": 1570843,
+   "ticker": "GEBRF",
+   "name": "Greenbriar Sustainable Living Inc.",
+   "sic": "6500"
+  },
+  {
+   "cik": 1174891,
+   "ticker": "GEDC",
+   "name": "TerraVolt Holdings, Inc.",
+   "sic": "6798"
+  },
+  {
+   "cik": 1616736,
+   "ticker": "GGBY",
+   "name": "Alpha Investment Inc.",
+   "sic": "6500"
+  },
+  {
+   "cik": 1724755,
+   "ticker": "GHG",
+   "name": "GreenTree Hospitality Group Ltd.",
+   "sic": "7011"
+  },
+  {
+   "cik": 1651721,
+   "ticker": "GIPR",
+   "name": "GENERATION INCOME PROPERTIES, INC.",
+   "sic": "6798"
+  },
+  {
+   "cik": 1871890,
+   "ticker": "GLEI",
+   "name": "Galaxy Enterprises Inc. /WY/",
+   "sic": "6531"
+  },
+  {
+   "cik": 1575965,
+   "ticker": "GLPI",
+   "name": "Gaming & Leisure Properties, Inc.",
+   "sic": "6798"
+  },
+  {
+   "cik": 1526113,
+   "ticker": "GNL",
+   "name": "Global Net Lease, Inc.",
+   "sic": "6798"
+  },
+  {
+   "cik": 1526113,
+   "ticker": "GNL-PA",
+   "name": "Global Net Lease, Inc.",
+   "sic": "6798"
+  },
+  {
+   "cik": 1526113,
+   "ticker": "GNL-PB",
+   "name": "Global Net Lease, Inc.",
+   "sic": "6798"
+  },
+  {
+   "cik": 1526113,
+   "ticker": "GNL-PD",
+   "name": "Global Net Lease, Inc.",
+   "sic": "6798"
+  },
+  {
+   "cik": 1526113,
+   "ticker": "GNL-PE",
+   "name": "Global Net Lease, Inc.",
+   "sic": "6798"
+  },
+  {
+   "cik": 1234006,
+   "ticker": "GOOD",
+   "name": "GLADSTONE COMMERCIAL CORP",
+   "sic": "6519"
+  },
+  {
+   "cik": 1234006,
+   "ticker": "GOODN",
+   "name": "GLADSTONE COMMERCIAL CORP",
+   "sic": "6519"
+  },
+  {
+   "cik": 1234006,
+   "ticker": "GOODO",
+   "name": "GLADSTONE COMMERCIAL CORP",
+   "sic": "6519"
+  },
+  {
+   "cik": 1703644,
+   "ticker": "GPMT",
+   "name": "Granite Point Mortgage Trust Inc.",
+   "sic": "6798"
+  },
+  {
+   "cik": 1703644,
+   "ticker": "GPMT-PA",
+   "name": "Granite Point Mortgage Trust Inc.",
+   "sic": "6798"
+  },
+  {
+   "cik": 1564538,
+   "ticker": "GRTUF",
+   "name": "GRANITE REAL ESTATE INVESTMENT TRUST",
+   "sic": "6798"
+  },
+  {
+   "cik": 1437476,
+   "ticker": "GSFI",
+   "name": "Green Stream Holdings Inc.",
+   "sic": "6500"
+  },
+  {
+   "cik": 1052752,
+   "ticker": "GTY",
+   "name": "GETTY REALTY CORP /MD/",
+   "sic": "6500"
+  },
+  {
+   "cik": 1589061,
+   "ticker": "GYRO",
+   "name": "Gyrodyne, LLC",
+   "sic": "6512"
+  },
+  {
+   "cik": 1468174,
+   "ticker": "H",
+   "name": "Hyatt Hotels Corp",
+   "sic": "7011"
+  },
+  {
+   "cik": 2054507,
+   "ticker": "HBNB",
+   "name": "Hotel101 Global Holdings Corp.",
+   "sic": "7011"
+  },
+  {
+   "cik": 1639068,
+   "ticker": "HBUV",
+   "name": "Hubilu Venture Corp",
+   "sic": "6510"
+  },
+  {
+   "cik": 1585101,
+   "ticker": "HGIT",
+   "name": "HINES GLOBAL INCOME TRUST, INC.",
+   "sic": "6798"
+  },
+  {
+   "cik": 1981792,
+   "ticker": "HHH",
+   "name": "Howard Hughes Holdings Inc.",
+   "sic": "6798"
+  },
+  {
+   "cik": 1807616,
+   "ticker": "HIGR",
+   "name": "Hi-Great Group Holding Co",
+   "sic": "7011"
+  },
+  {
+   "cik": 921082,
+   "ticker": "HIW",
+   "name": "HIGHWOODS PROPERTIES, INC.",
+   "sic": "6798"
+  },
+  {
+   "cik": 1585689,
+   "ticker": "HLT",
+   "name": "Hilton Worldwide Holdings Inc.",
+   "sic": "7011"
+  },
+  {
+   "cik": 1561032,
+   "ticker": "HLTC",
+   "name": "National Healthcare Properties, Inc.",
+   "sic": "6798"
+  },
+  {
+   "cik": 1482512,
+   "ticker": "HPP",
+   "name": "Hudson Pacific Properties, Inc.",
+   "sic": "6500"
+  },
+  {
+   "cik": 1482512,
+   "ticker": "HPP-PC",
+   "name": "Hudson Pacific Properties, Inc.",
+   "sic": "6500"
+  },
+  {
+   "cik": 1360604,
+   "ticker": "HR",
+   "name": "Healthcare Realty Trust Inc",
+   "sic": "6798"
+  },
+  {
+   "cik": 1070750,
+   "ticker": "HST",
+   "name": "HOST HOTELS & RESORTS, INC.",
+   "sic": "6798"
+  },
+  {
+   "cik": 1483994,
+   "ticker": "HTHT",
+   "name": "H World Group Ltd",
+   "sic": "7011"
+  },
+  {
+   "cik": 1483994,
+   "ticker": "HWLDF",
+   "name": "H World Group Ltd",
+   "sic": "7011"
+  },
+  {
+   "cik": 858446,
+   "ticker": "ICHGF",
+   "name": "INTERCONTINENTAL HOTELS GROUP PLC /NEW/",
+   "sic": "7011"
+  },
+  {
+   "cik": 1690012,
+   "ticker": "ICR-PA",
+   "name": "InPoint Commercial Real Estate Income, Inc.",
+   "sic": "6798"
+  },
+  {
+   "cik": 1690012,
+   "ticker": "ICRL",
+   "name": "InPoint Commercial Real Estate Income, Inc.",
+   "sic": "6798"
+  },
+  {
+   "cik": 1690012,
+   "ticker": "ICRP",
+   "name": "InPoint Commercial Real Estate Income, Inc.",
+   "sic": "6798"
+  },
+  {
+   "cik": 858446,
+   "ticker": "IHG",
+   "name": "INTERCONTINENTAL HOTELS GROUP PLC /NEW/",
+   "sic": "7011"
+  },
+  {
+   "cik": 82473,
+   "ticker": "IHT",
+   "name": "INNSUITES HOSPITALITY TRUST",
+   "sic": "6798"
+  },
+  {
+   "cik": 1677576,
+   "ticker": "IIPR",
+   "name": "INNOVATIVE INDUSTRIAL PROPERTIES INC",
+   "sic": "6500"
+  },
+  {
+   "cik": 1677576,
+   "ticker": "IIPR-PA",
+   "name": "INNOVATIVE INDUSTRIAL PROPERTIES INC",
+   "sic": "6500"
+  },
+  {
+   "cik": 1657214,
+   "ticker": "ILAL",
+   "name": "International Land Alliance Inc.",
+   "sic": "6552"
+  },
+  {
+   "cik": 1717307,
+   "ticker": "ILPT",
+   "name": "Industrial Logistics Properties Trust",
+   "sic": "6798"
+  },
+  {
+   "cik": 1497645,
+   "ticker": "INN",
+   "name": "Summit Hotel Properties, Inc.",
+   "sic": "6798"
+  },
+  {
+   "cik": 1497645,
+   "ticker": "INN-PE",
+   "name": "Summit Hotel Properties, Inc.",
+   "sic": "6798"
+  },
+  {
+   "cik": 1497645,
+   "ticker": "INN-PF",
+   "name": "Summit Hotel Properties, Inc.",
+   "sic": "6798"
+  },
+  {
+   "cik": 1528985,
+   "ticker": "INRE",
+   "name": "Inland Real Estate Income Trust, Inc.",
+   "sic": "6798"
+  },
+  {
+   "cik": 69422,
+   "ticker": "INTG",
+   "name": "INTERGROUP CORP",
+   "sic": "6513"
+  },
+  {
+   "cik": 1687229,
+   "ticker": "INVH",
+   "name": "Invitation Homes Inc.",
+   "sic": "6510"
+  },
+  {
+   "cik": 949961,
+   "ticker": "IOR",
+   "name": "INCOME OPPORTUNITY REALTY INVESTORS INC /TX/",
+   "sic": "6798"
+  },
+  {
+   "cik": 1020569,
+   "ticker": "IRM",
+   "name": "IRON MOUNTAIN INC",
+   "sic": "6798"
+  },
+  {
+   "cik": 933267,
+   "ticker": "IRS",
+   "name": "IRSA INVESTMENTS & REPRESENTATIONS INC",
+   "sic": "6552"
+  },
+  {
+   "cik": 1466085,
+   "ticker": "IRT",
+   "name": "INDEPENDENCE REALTY TRUST, INC.",
+   "sic": "6798"
+  },
+  {
+   "cik": 1437071,
+   "ticker": "IVR",
+   "name": "Invesco Mortgage Capital Inc.",
+   "sic": "6798"
+  },
+  {
+   "cik": 1437071,
+   "ticker": "IVR-PC",
+   "name": "Invesco Mortgage Capital Inc.",
+   "sic": "6798"
+  },
+  {
+   "cik": 1307748,
+   "ticker": "IVT",
+   "name": "InvenTrust Properties Corp.",
+   "sic": "6798"
+  },
+  {
+   "cik": 2100805,
+   "ticker": "JAN",
+   "name": "Janus Living, Inc.",
+   "sic": "6798"
+  },
+  {
+   "cik": 1689796,
+   "ticker": "JBGS",
+   "name": "JBG SMITH Properties",
+   "sic": "6798"
+  },
+  {
+   "cik": 1037976,
+   "ticker": "JLL",
+   "name": "JONES LANG LASALLE INC",
+   "sic": "6531"
+  },
+  {
+   "cik": 745308,
+   "ticker": "JOE",
+   "name": "ST JOE Co",
+   "sic": "6552"
+  },
+  {
+   "cik": 1230058,
+   "ticker": "KANP",
+   "name": "KAANAPALI LAND LLC",
+   "sic": "6552"
+  },
+  {
+   "cik": 1482430,
+   "ticker": "KBSR",
+   "name": "KBS Real Estate Investment Trust III, Inc.",
+   "sic": "6798"
+  },
+  {
+   "cik": 879101,
+   "ticker": "KIM",
+   "name": "KIMCO REALTY CORP",
+   "sic": "6798"
+  },
+  {
+   "cik": 879101,
+   "ticker": "KIM-PL",
+   "name": "KIMCO REALTY CORP",
+   "sic": "6798"
+  },
+  {
+   "cik": 879101,
+   "ticker": "KIM-PM",
+   "name": "KIMCO REALTY CORP",
+   "sic": "6798"
+  },
+  {
+   "cik": 879101,
+   "ticker": "KIM-PN",
+   "name": "KIMCO REALTY CORP",
+   "sic": "6798"
+  },
+  {
+   "cik": 1025996,
+   "ticker": "KRC",
+   "name": "KILROY REALTY CORP",
+   "sic": "6798"
+  },
+  {
+   "cik": 1631596,
+   "ticker": "KREF",
+   "name": "KKR Real Estate Finance Trust Inc.",
+   "sic": "6798"
+  },
+  {
+   "cik": 1631596,
+   "ticker": "KREF-PA",
+   "name": "KKR Real Estate Finance Trust Inc.",
+   "sic": "6798"
+  },
+  {
+   "cik": 1286043,
+   "ticker": "KRG",
+   "name": "KITE REALTY GROUP TRUST",
+   "sic": "6798"
+  },
+  {
+   "cik": 1577670,
+   "ticker": "LADR",
+   "name": "Ladder Capital Corp",
+   "sic": "6798"
+  },
+  {
+   "cik": 1090425,
+   "ticker": "LAMR",
+   "name": "LAMAR ADVERTISING CO/NEW",
+   "sic": "6798"
+  },
+  {
+   "cik": 1495240,
+   "ticker": "LAND",
+   "name": "GLADSTONE LAND Corp",
+   "sic": "6798"
+  },
+  {
+   "cik": 1495240,
+   "ticker": "LANDO",
+   "name": "GLADSTONE LAND Corp",
+   "sic": "6798"
+  },
+  {
+   "cik": 1495240,
+   "ticker": "LANDP",
+   "name": "GLADSTONE LAND Corp",
+   "sic": "6798"
+  },
+  {
+   "cik": 1547546,
+   "ticker": "LFT",
+   "name": "Lument Finance Trust, Inc.",
+   "sic": "6798"
+  },
+  {
+   "cik": 1547546,
+   "ticker": "LFT-PA",
+   "name": "Lument Finance Trust, Inc.",
+   "sic": "6798"
+  },
+  {
+   "cik": 2017758,
+   "ticker": "LHAI",
+   "name": "Linkhome Holdings Inc.",
+   "sic": "6531"
+  },
+  {
+   "cik": 1868159,
+   "ticker": "LINE",
+   "name": "Lineage, Inc.",
+   "sic": "6798"
+  },
+  {
+   "cik": 1080340,
+   "ticker": "LOAN",
+   "name": "MANHATTAN BRIDGE CAPITAL, INC",
+   "sic": "6798"
+  },
+  {
+   "cik": 1997711,
+   "ticker": "LPA",
+   "name": "Logistic Properties of the Americas",
+   "sic": "6500"
+  },
+  {
+   "cik": 1879403,
+   "ticker": "LRHC",
+   "name": "La Rosa Holdings Corp.",
+   "sic": "6531"
+  },
+  {
+   "cik": 887905,
+   "ticker": "LTC",
+   "name": "LTC PROPERTIES INC",
+   "sic": "6798"
+  },
+  {
+   "cik": 1619312,
+   "ticker": "LTSV",
+   "name": "Lightstone Value Plus REIT IV, Inc.",
+   "sic": "6798"
+  },
+  {
+   "cik": 1300514,
+   "ticker": "LVS",
+   "name": "LAS VEGAS SANDS CORP",
+   "sic": "7011"
+  },
+  {
+   "cik": 910108,
+   "ticker": "LXP",
+   "name": "LXP Industrial Trust",
+   "sic": "6798"
+  },
+  {
+   "cik": 910108,
+   "ticker": "LXP-PC",
+   "name": "LXP Industrial Trust",
+   "sic": "6798"
+  },
+  {
+   "cik": 912595,
+   "ticker": "MAA",
+   "name": "MID AMERICA APARTMENT COMMUNITIES INC.",
+   "sic": "6798"
+  },
+  {
+   "cik": 912595,
+   "ticker": "MAA-PI",
+   "name": "MID AMERICA APARTMENT COMMUNITIES INC.",
+   "sic": "6798"
+  },
+  {
+   "cik": 912242,
+   "ticker": "MAC",
+   "name": "MACERICH CO",
+   "sic": "6798"
+  },
+  {
+   "cik": 1048286,
+   "ticker": "MAR",
+   "name": "MARRIOTT INTERNATIONAL INC /MD/",
+   "sic": "7011"
+  },
+  {
+   "cik": 54187,
+   "ticker": "MAYS",
+   "name": "MAYS J W INC",
+   "sic": "6512"
+  },
+  {
+   "cik": 907242,
+   "ticker": "MCRI",
+   "name": "MONARCH CASINO & RESORT INC",
+   "sic": "7011"
+  },
+  {
+   "cik": 1654595,
+   "ticker": "MDRR",
+   "name": "Medalist Diversified, Inc.",
+   "sic": "6798"
+  },
+  {
+   "cik": 1055160,
+   "ticker": "MFA",
+   "name": "MFA FINANCIAL, INC.",
+   "sic": "6798"
+  },
+  {
+   "cik": 1055160,
+   "ticker": "MFA-PB",
+   "name": "MFA FINANCIAL, INC.",
+   "sic": "6798"
+  },
+  {
+   "cik": 1055160,
+   "ticker": "MFA-PC",
+   "name": "MFA FINANCIAL, INC.",
+   "sic": "6798"
+  },
+  {
+   "cik": 1055160,
+   "ticker": "MFAN",
+   "name": "MFA FINANCIAL, INC.",
+   "sic": "6798"
+  },
+  {
+   "cik": 1055160,
+   "ticker": "MFAO",
+   "name": "MFA FINANCIAL, INC.",
+   "sic": "6798"
+  },
+  {
+   "cik": 789570,
+   "ticker": "MGM",
+   "name": "MGM Resorts International",
+   "sic": "7011"
+  },
+  {
+   "cik": 1514281,
+   "ticker": "MITN",
+   "name": "TPG Mortgage Investment Trust, Inc.",
+   "sic": "6798"
+  },
+  {
+   "cik": 1514281,
+   "ticker": "MITP",
+   "name": "TPG Mortgage Investment Trust, Inc.",
+   "sic": "6798"
+  },
+  {
+   "cik": 1514281,
+   "ticker": "MITT",
+   "name": "TPG Mortgage Investment Trust, Inc.",
+   "sic": "6798"
+  },
+  {
+   "cik": 1514281,
+   "ticker": "MITT-PA",
+   "name": "TPG Mortgage Investment Trust, Inc.",
+   "sic": "6798"
+  },
+  {
+   "cik": 1514281,
+   "ticker": "MITT-PB",
+   "name": "TPG Mortgage Investment Trust, Inc.",
+   "sic": "6798"
+  },
+  {
+   "cik": 1514281,
+   "ticker": "MITT-PC",
+   "name": "TPG Mortgage Investment Trust, Inc.",
+   "sic": "6798"
+  },
+  {
+   "cik": 1550913,
+   "ticker": "MKZR",
+   "name": "MacKenzie Realty Capital, Inc.",
+   "sic": "6798"
+  },
+  {
+   "cik": 1381640,
+   "ticker": "MLCO",
+   "name": "Melco Resorts & Entertainment LTD",
+   "sic": "7011"
+  },
+  {
+   "cik": 63330,
+   "ticker": "MLP",
+   "name": "MAUI LAND & PINEAPPLE CO INC",
+   "sic": "6500"
+  },
+  {
+   "cik": 1578732,
+   "ticker": "MMI",
+   "name": "Marcus & Millichap, Inc.",
+   "sic": "6531"
+  },
+  {
+   "cik": 1287865,
+   "ticker": "MPT",
+   "name": "MEDICAL PROPERTIES TRUST INC",
+   "sic": "6798"
+  },
+  {
+   "cik": 1988776,
+   "ticker": "MRNO",
+   "name": "Murano Global Investments Plc",
+   "sic": "7011"
+  },
+  {
+   "cik": 1988776,
+   "ticker": "MRNOW",
+   "name": "Murano Global Investments Plc",
+   "sic": "7011"
+  },
+  {
+   "cik": 2017206,
+   "ticker": "MRP",
+   "name": "Millrose Properties, Inc.",
+   "sic": "6500"
+  },
+  {
+   "cik": 1713334,
+   "ticker": "MSC",
+   "name": "STUDIO CITY INTERNATIONAL HOLDINGS Ltd",
+   "sic": "7011"
+  },
+  {
+   "cik": 1556801,
+   "ticker": "MYCB",
+   "name": "My City Builders, Inc.",
+   "sic": "6500"
+  },
+  {
+   "cik": 746514,
+   "ticker": "NEN",
+   "name": "NEW ENGLAND REALTY ASSOCIATES LIMITED PARTNERSHIP",
+   "sic": "6513"
+  },
+  {
+   "cik": 877860,
+   "ticker": "NHI",
+   "name": "NATIONAL HEALTH INVESTORS INC",
+   "sic": "6798"
+  },
+  {
+   "cik": 1561032,
+   "ticker": "NHP",
+   "name": "National Healthcare Properties, Inc.",
+   "sic": "6798"
+  },
+  {
+   "cik": 1561032,
+   "ticker": "NHPBP",
+   "name": "National Healthcare Properties, Inc.",
+   "sic": "6798"
+  },
+  {
+   "cik": 1084475,
+   "ticker": "NIHK",
+   "name": "Video River Networks, Inc.",
+   "sic": "6500"
+  },
+  {
+   "cik": 1854964,
+   "ticker": "NLCP",
+   "name": "NewLake Capital Partners, Inc.",
+   "sic": "6798"
+  },
+  {
+   "cik": 1952976,
+   "ticker": "NLOP",
+   "name": "Net Lease Office Properties",
+   "sic": "6798"
+  },
+  {
+   "cik": 1043219,
+   "ticker": "NLY",
+   "name": "ANNALY CAPITAL MANAGEMENT INC",
+   "sic": "6798"
+  },
+  {
+   "cik": 1043219,
+   "ticker": "NLY-PF",
+   "name": "ANNALY CAPITAL MANAGEMENT INC",
+   "sic": "6798"
+  },
+  {
+   "cik": 1043219,
+   "ticker": "NLY-PG",
+   "name": "ANNALY CAPITAL MANAGEMENT INC",
+   "sic": "6798"
+  },
+  {
+   "cik": 1043219,
+   "ticker": "NLY-PI",
+   "name": "ANNALY CAPITAL MANAGEMENT INC",
+   "sic": "6798"
+  },
+  {
+   "cik": 1043219,
+   "ticker": "NLY-PJ",
+   "name": "ANNALY CAPITAL MANAGEMENT INC",
+   "sic": "6798"
+  },
+  {
+   "cik": 1690680,
+   "ticker": "NMRK",
+   "name": "NEWMARK GROUP, INC.",
+   "sic": "6531"
+  },
+  {
+   "cik": 751364,
+   "ticker": "NNN",
+   "name": "NNN REIT, INC.",
+   "sic": "6798"
+  },
+  {
+   "cik": 1786248,
+   "ticker": "NREF",
+   "name": "NexPoint Real Estate Finance, Inc.",
+   "sic": "6798"
+  },
+  {
+   "cik": 1786248,
+   "ticker": "NREF-PA",
+   "name": "NexPoint Real Estate Finance, Inc.",
+   "sic": "6798"
+  },
+  {
+   "cik": 829365,
+   "ticker": "NTPIF",
+   "name": "NAM TAI PROPERTY INC.",
+   "sic": "6500"
+  },
+  {
+   "cik": 1798100,
+   "ticker": "NTST",
+   "name": "NETSTREIT Corp.",
+   "sic": "6798"
+  },
+  {
+   "cik": 1356115,
+   "ticker": "NXDT",
+   "name": "NEXPOINT DIVERSIFIED REAL ESTATE TRUST",
+   "sic": "6798"
+  },
+  {
+   "cik": 1356115,
+   "ticker": "NXDT-PA",
+   "name": "NEXPOINT DIVERSIFIED REAL ESTATE TRUST",
+   "sic": "6798"
+  },
+  {
+   "cik": 1620393,
+   "ticker": "NXRT",
+   "name": "NexPoint Residential Trust, Inc.",
+   "sic": "6798"
+  },
+  {
+   "cik": 1595527,
+   "ticker": "NYC",
+   "name": "American Strategic Investment Co.",
+   "sic": "6798"
+  },
+  {
+   "cik": 726728,
+   "ticker": "O",
+   "name": "REALTY INCOME CORP",
+   "sic": "6798"
+  },
+  {
+   "cik": 1553079,
+   "ticker": "OGCP",
+   "name": "Empire State Realty OP, L.P.",
+   "sic": "6798"
+  },
+  {
+   "cik": 888491,
+   "ticker": "OHI",
+   "name": "OMEGA HEALTHCARE INVESTORS INC",
+   "sic": "6798"
+  },
+  {
+   "cik": 712770,
+   "ticker": "OLP",
+   "name": "ONE LIBERTY PROPERTIES INC",
+   "sic": "6798"
+  },
+  {
+   "cik": 1944902,
+   "ticker": "OMH",
+   "name": "Ohmyhome Ltd",
+   "sic": "6531"
+  },
+  {
+   "cik": 1873923,
+   "ticker": "ONL",
+   "name": "Orion Properties Inc.",
+   "sic": "6798"
+  },
+  {
+   "cik": 1825024,
+   "ticker": "OPAD",
+   "name": "Offerpad Solutions Inc.",
+   "sic": "6531"
+  },
+  {
+   "cik": 1801169,
+   "ticker": "OPEN",
+   "name": "Opendoor Technologies Inc.",
+   "sic": "6531"
+  },
+  {
+   "cik": 1801169,
+   "ticker": "OPENL",
+   "name": "Opendoor Technologies Inc.",
+   "sic": "6531"
+  },
+  {
+   "cik": 1801169,
+   "ticker": "OPENW",
+   "name": "Opendoor Technologies Inc.",
+   "sic": "6531"
+  },
+  {
+   "cik": 1801169,
+   "ticker": "OPENZ",
+   "name": "Opendoor Technologies Inc.",
+   "sic": "6531"
+  },
+  {
+   "cik": 1456772,
+   "ticker": "OPI",
+   "name": "OFFICE PROPERTIES INCOME TRUST",
+   "sic": "6500"
+  },
+  {
+   "cik": 1518621,
+   "ticker": "ORC",
+   "name": "Orchid Island Capital, Inc.",
+   "sic": "6798"
+  },
+  {
+   "cik": 1579877,
+   "ticker": "OUT",
+   "name": "OUTFRONT Media Inc.",
+   "sic": "6798"
+  },
+  {
+   "cik": 1807046,
+   "ticker": "OZ",
+   "name": "Belpointe PREP, LLC",
+   "sic": "6500"
+  },
+  {
+   "cik": 1042776,
+   "ticker": "PDM",
+   "name": "Piedmont Realty Trust, Inc.",
+   "sic": "6512"
+  },
+  {
+   "cik": 1474098,
+   "ticker": "PEB",
+   "name": "Pebblebrook Hotel Trust",
+   "sic": "6798"
+  },
+  {
+   "cik": 1474098,
+   "ticker": "PEB-PE",
+   "name": "Pebblebrook Hotel Trust",
+   "sic": "6798"
+  },
+  {
+   "cik": 1474098,
+   "ticker": "PEB-PF",
+   "name": "Pebblebrook Hotel Trust",
+   "sic": "6798"
+  },
+  {
+   "cik": 1474098,
+   "ticker": "PEB-PG",
+   "name": "Pebblebrook Hotel Trust",
+   "sic": "6798"
+  },
+  {
+   "cik": 1474098,
+   "ticker": "PEB-PH",
+   "name": "Pebblebrook Hotel Trust",
+   "sic": "6798"
+  },
+  {
+   "cik": 1476204,
+   "ticker": "PECO",
+   "name": "Phillips Edison & Company, Inc.",
+   "sic": "6798"
+  },
+  {
+   "cik": 921738,
+   "ticker": "PENN",
+   "name": "PENN Entertainment, Inc.",
+   "sic": "7011"
+  },
+  {
+   "cik": 1684425,
+   "ticker": "PETZ",
+   "name": "TDH Holdings, Inc.",
+   "sic": "6531"
+  },
+  {
+   "cik": 1786117,
+   "ticker": "PINE",
+   "name": "Alpine Income Property Trust, Inc.",
+   "sic": "6798"
+  },
+  {
+   "cik": 1786117,
+   "ticker": "PINE-PA",
+   "name": "Alpine Income Property Trust, Inc.",
+   "sic": "6798"
+  },
+  {
+   "cik": 1617406,
+   "ticker": "PK",
+   "name": "Park Hotels & Resorts Inc.",
+   "sic": "7011"
+  },
+  {
+   "cik": 1045609,
+   "ticker": "PLD",
+   "name": "Prologis, Inc.",
+   "sic": "6798"
+  },
+  {
+   "cik": 1045609,
+   "ticker": "PLDGP",
+   "name": "Prologis, Inc.",
+   "sic": "6798"
+  },
+  {
+   "cik": 1464423,
+   "ticker": "PMT",
+   "name": "PennyMac Mortgage Investment Trust",
+   "sic": "6798"
+  },
+  {
+   "cik": 1464423,
+   "ticker": "PMT-PA",
+   "name": "PennyMac Mortgage Investment Trust",
+   "sic": "6798"
+  },
+  {
+   "cik": 1464423,
+   "ticker": "PMT-PB",
+   "name": "PennyMac Mortgage Investment Trust",
+   "sic": "6798"
+  },
+  {
+   "cik": 1464423,
+   "ticker": "PMT-PC",
+   "name": "PennyMac Mortgage Investment Trust",
+   "sic": "6798"
+  },
+  {
+   "cik": 1464423,
+   "ticker": "PMTU",
+   "name": "PennyMac Mortgage Investment Trust",
+   "sic": "6798"
+  },
+  {
+   "cik": 1464423,
+   "ticker": "PMTV",
+   "name": "PennyMac Mortgage Investment Trust",
+   "sic": "6798"
+  },
+  {
+   "cik": 1464423,
+   "ticker": "PMTW",
+   "name": "PennyMac Mortgage Investment Trust",
+   "sic": "6798"
+  },
+  {
+   "cik": 79661,
+   "ticker": "PRSI",
+   "name": "PORTSMOUTH SQUARE INC",
+   "sic": "6552"
+  },
+  {
+   "cik": 1692345,
+   "ticker": "PRXA",
+   "name": "PROCACCIANTI HOTEL REIT, INC.",
+   "sic": "6798"
+  },
+  {
+   "cik": 1393311,
+   "ticker": "PSA",
+   "name": "Public Storage",
+   "sic": "6798"
+  },
+  {
+   "cik": 1393311,
+   "ticker": "PSA-PF",
+   "name": "Public Storage",
+   "sic": "6798"
+  },
+  {
+   "cik": 1393311,
+   "ticker": "PSA-PG",
+   "name": "Public Storage",
+   "sic": "6798"
+  },
+  {
+   "cik": 1393311,
+   "ticker": "PSA-PH",
+   "name": "Public Storage",
+   "sic": "6798"
+  },
+  {
+   "cik": 1393311,
+   "ticker": "PSA-PI",
+   "name": "Public Storage",
+   "sic": "6798"
+  },
+  {
+   "cik": 1393311,
+   "ticker": "PSA-PJ",
+   "name": "Public Storage",
+   "sic": "6798"
+  },
+  {
+   "cik": 1393311,
+   "ticker": "PSA-PK",
+   "name": "Public Storage",
+   "sic": "6798"
+  },
+  {
+   "cik": 1393311,
+   "ticker": "PSA-PL",
+   "name": "Public Storage",
+   "sic": "6798"
+  },
+  {
+   "cik": 1393311,
+   "ticker": "PSA-PM",
+   "name": "Public Storage",
+   "sic": "6798"
+  },
+  {
+   "cik": 1393311,
+   "ticker": "PSA-PN",
+   "name": "Public Storage",
+   "sic": "6798"
+  },
+  {
+   "cik": 1393311,
+   "ticker": "PSA-PO",
+   "name": "Public Storage",
+   "sic": "6798"
+  },
+  {
+   "cik": 1393311,
+   "ticker": "PSA-PP",
+   "name": "Public Storage",
+   "sic": "6798"
+  },
+  {
+   "cik": 1393311,
+   "ticker": "PSA-PQ",
+   "name": "Public Storage",
+   "sic": "6798"
+  },
+  {
+   "cik": 1393311,
+   "ticker": "PSA-PR",
+   "name": "Public Storage",
+   "sic": "6798"
+  },
+  {
+   "cik": 1393311,
+   "ticker": "PSA-PS",
+   "name": "Public Storage",
+   "sic": "6798"
+  },
+  {
+   "cik": 1393311,
+   "ticker": "PSA-PT",
+   "name": "Public Storage",
+   "sic": "6798"
+  },
+  {
+   "cik": 1393311,
+   "ticker": "PSA-PU",
+   "name": "Public Storage",
+   "sic": "6798"
+  },
+  {
+   "cik": 1759774,
+   "ticker": "PSTL",
+   "name": "Postal Realty Trust, Inc.",
+   "sic": "6798"
+  },
+  {
+   "cik": 1824204,
+   "ticker": "PVOZ",
+   "name": "Park View OZ REIT Inc",
+   "sic": "6798"
+  },
+  {
+   "cik": 1532619,
+   "ticker": "PW",
+   "name": "Power REIT",
+   "sic": "6798"
+  },
+  {
+   "cik": 1532619,
+   "ticker": "PW-PA",
+   "name": "Power REIT",
+   "sic": "6798"
+  },
+  {
+   "cik": 1527590,
+   "ticker": "RC",
+   "name": "Ready Capital Corp",
+   "sic": "6798"
+  },
+  {
+   "cik": 1527590,
+   "ticker": "RC-PC",
+   "name": "Ready Capital Corp",
+   "sic": "6798"
+  },
+  {
+   "cik": 1527590,
+   "ticker": "RC-PE",
+   "name": "Ready Capital Corp",
+   "sic": "6798"
+  },
+  {
+   "cik": 1527590,
+   "ticker": "RCD",
+   "name": "Ready Capital Corp",
+   "sic": "6798"
+  },
+  {
+   "cik": 2136387,
+   "ticker": "REAX",
+   "name": "Real REMAX Group Inc.",
+   "sic": "6531"
+  },
+  {
+   "cik": 1867949,
+   "ticker": "REFI",
+   "name": "Chicago Atlantic Real Estate Finance, Inc.",
+   "sic": "6798"
+  },
+  {
+   "cik": 910606,
+   "ticker": "REG",
+   "name": "REGENCY CENTERS CORP",
+   "sic": "6798"
+  },
+  {
+   "cik": 910606,
+   "ticker": "REGCO",
+   "name": "REGENCY CENTERS CORP",
+   "sic": "6798"
+  },
+  {
+   "cik": 910606,
+   "ticker": "REGCP",
+   "name": "REGENCY CENTERS CORP",
+   "sic": "6798"
+  },
+  {
+   "cik": 1571283,
+   "ticker": "REXR",
+   "name": "Rexford Industrial Realty, Inc.",
+   "sic": "6798"
+  },
+  {
+   "cik": 1571283,
+   "ticker": "REXR-PB",
+   "name": "Rexford Industrial Realty, Inc.",
+   "sic": "6798"
+  },
+  {
+   "cik": 1571283,
+   "ticker": "REXR-PC",
+   "name": "Rexford Industrial Realty, Inc.",
+   "sic": "6798"
+  },
+  {
+   "cik": 1004724,
+   "ticker": "RHEP",
+   "name": "REGIONAL HEALTH PROPERTIES, INC",
+   "sic": "6519"
+  },
+  {
+   "cik": 1004724,
+   "ticker": "RHEPA",
+   "name": "REGIONAL HEALTH PROPERTIES, INC",
+   "sic": "6519"
+  },
+  {
+   "cik": 1004724,
+   "ticker": "RHEPB",
+   "name": "REGIONAL HEALTH PROPERTIES, INC",
+   "sic": "6519"
+  },
+  {
+   "cik": 1004724,
+   "ticker": "RHEPZ",
+   "name": "REGIONAL HEALTH PROPERTIES, INC",
+   "sic": "6519"
+  },
+  {
+   "cik": 1040829,
+   "ticker": "RHP",
+   "name": "Ryman Hospitality Properties, Inc.",
+   "sic": "6798"
+  },
+  {
+   "cik": 1556593,
+   "ticker": "RITM",
+   "name": "Rithm Capital Corp.",
+   "sic": "6798"
+  },
+  {
+   "cik": 1556593,
+   "ticker": "RITM-PA",
+   "name": "Rithm Capital Corp.",
+   "sic": "6798"
+  },
+  {
+   "cik": 1556593,
+   "ticker": "RITM-PB",
+   "name": "Rithm Capital Corp.",
+   "sic": "6798"
+  },
+  {
+   "cik": 1556593,
+   "ticker": "RITM-PC",
+   "name": "Rithm Capital Corp.",
+   "sic": "6798"
+  },
+  {
+   "cik": 1556593,
+   "ticker": "RITM-PD",
+   "name": "Rithm Capital Corp.",
+   "sic": "6798"
+  },
+  {
+   "cik": 1556593,
+   "ticker": "RITM-PE",
+   "name": "Rithm Capital Corp.",
+   "sic": "6798"
+  },
+  {
+   "cik": 1556593,
+   "ticker": "RITM-PF",
+   "name": "Rithm Capital Corp.",
+   "sic": "6798"
+  },
+  {
+   "cik": 1951229,
+   "ticker": "RITRF",
+   "name": "Reitar Logtech Holdings Ltd",
+   "sic": "6510"
+  },
+  {
+   "cik": 1511337,
+   "ticker": "RLJ",
+   "name": "RLJ Lodging Trust",
+   "sic": "6798"
+  },
+  {
+   "cik": 1511337,
+   "ticker": "RLJ-PA",
+   "name": "RLJ Lodging Trust",
+   "sic": "6798"
+  },
+  {
+   "cik": 1614806,
+   "ticker": "RPT",
+   "name": "Rithm Property Trust Inc.",
+   "sic": "6798"
+  },
+  {
+   "cik": 1614806,
+   "ticker": "RPT-PC",
+   "name": "Rithm Property Trust Inc.",
+   "sic": "6798"
+  },
+  {
+   "cik": 1653653,
+   "ticker": "RRR",
+   "name": "Red Rock Resorts, Inc.",
+   "sic": "7011"
+  },
+  {
+   "cik": 1448038,
+   "ticker": "RWDMU",
+   "name": "Redwood Mortgage Investors IX",
+   "sic": "6500"
+  },
+  {
+   "cik": 930236,
+   "ticker": "RWT",
+   "name": "REDWOOD TRUST INC",
+   "sic": "6798"
+  },
+  {
+   "cik": 930236,
+   "ticker": "RWT-PA",
+   "name": "REDWOOD TRUST INC",
+   "sic": "6798"
+  },
+  {
+   "cik": 930236,
+   "ticker": "RWTN",
+   "name": "REDWOOD TRUST INC",
+   "sic": "6798"
+  },
+  {
+   "cik": 930236,
+   "ticker": "RWTO",
+   "name": "REDWOOD TRUST INC",
+   "sic": "6798"
+  },
+  {
+   "cik": 930236,
+   "ticker": "RWTP",
+   "name": "REDWOOD TRUST INC",
+   "sic": "6798"
+  },
+  {
+   "cik": 930236,
+   "ticker": "RWTQ",
+   "name": "REDWOOD TRUST INC",
+   "sic": "6798"
+  },
+  {
+   "cik": 930236,
+   "ticker": "RWTS",
+   "name": "REDWOOD TRUST INC",
+   "sic": "6798"
+  },
+  {
+   "cik": 52827,
+   "ticker": "RYN",
+   "name": "RAYONIER INC",
+   "sic": "6798"
+  },
+  {
+   "cik": 1682220,
+   "ticker": "SACH",
+   "name": "Sachem Capital Corp.",
+   "sic": "6798"
+  },
+  {
+   "cik": 1682220,
+   "ticker": "SACH-PA",
+   "name": "Sachem Capital Corp.",
+   "sic": "6798"
+  },
+  {
+   "cik": 1095651,
+   "ticker": "SAFE",
+   "name": "Safehold Inc.",
+   "sic": "6798"
+  },
+  {
+   "cik": 1034054,
+   "ticker": "SBAC",
+   "name": "SBA COMMUNICATIONS CORP",
+   "sic": "6798"
+  },
+  {
+   "cik": 1492298,
+   "ticker": "SBRA",
+   "name": "Sabra Health Care REIT, Inc.",
+   "sic": "6798"
+  },
+  {
+   "cik": 1682220,
+   "ticker": "SCCD",
+   "name": "Sachem Capital Corp.",
+   "sic": "6798"
+  },
+  {
+   "cik": 1682220,
+   "ticker": "SCCE",
+   "name": "Sachem Capital Corp.",
+   "sic": "6798"
+  },
+  {
+   "cik": 1682220,
+   "ticker": "SCCF",
+   "name": "Sachem Capital Corp.",
+   "sic": "6798"
+  },
+  {
+   "cik": 1682220,
+   "ticker": "SCCG",
+   "name": "Sachem Capital Corp.",
+   "sic": "6798"
+  },
+  {
+   "cik": 1031235,
+   "ticker": "SELF",
+   "name": "Global Self Storage, Inc.",
+   "sic": "6798"
+  },
+  {
+   "cik": 1452477,
+   "ticker": "SEVN",
+   "name": "Seven Hills Realty Trust",
+   "sic": "6798"
+  },
+  {
+   "cik": 1852575,
+   "ticker": "SGST",
+   "name": "Strategic Storage Trust VI, Inc.",
+   "sic": "6798"
+  },
+  {
+   "cik": 1295810,
+   "ticker": "SHO",
+   "name": "Sunstone Hotel Investors, Inc.",
+   "sic": "7011"
+  },
+  {
+   "cik": 1295810,
+   "ticker": "SHO-PH",
+   "name": "Sunstone Hotel Investors, Inc.",
+   "sic": "7011"
+  },
+  {
+   "cik": 1295810,
+   "ticker": "SHO-PI",
+   "name": "Sunstone Hotel Investors, Inc.",
+   "sic": "7011"
+  },
+  {
+   "cik": 894315,
+   "ticker": "SITC",
+   "name": "SITE Centers Corp.",
+   "sic": "6798"
+  },
+  {
+   "cik": 899715,
+   "ticker": "SKT",
+   "name": "TANGER INC.",
+   "sic": "6798"
+  },
+  {
+   "cik": 1823587,
+   "ticker": "SKYH",
+   "name": "Sky Harbour Group Corp",
+   "sic": "6500"
+  },
+  {
+   "cik": 1823587,
+   "ticker": "SKYH-WT",
+   "name": "Sky Harbour Group Corp",
+   "sic": "6500"
+  },
+  {
+   "cik": 1040971,
+   "ticker": "SLG",
+   "name": "SL GREEN REALTY CORP",
+   "sic": "6798"
+  },
+  {
+   "cik": 1040971,
+   "ticker": "SLG-PI",
+   "name": "SL GREEN REALTY CORP",
+   "sic": "6798"
+  },
+  {
+   "cik": 1585389,
+   "ticker": "SMA",
+   "name": "SmartStop Self Storage REIT, Inc.",
+   "sic": "6798"
+  },
+  {
+   "cik": 1063761,
+   "ticker": "SPG",
+   "name": "SIMON PROPERTY GROUP INC.",
+   "sic": "6798"
+  },
+  {
+   "cik": 1063761,
+   "ticker": "SPG-PJ",
+   "name": "SIMON PROPERTY GROUP INC.",
+   "sic": "6798"
+  },
+  {
+   "cik": 1080657,
+   "ticker": "SQFT",
+   "name": "Presidio Property Trust, Inc.",
+   "sic": "6798"
+  },
+  {
+   "cik": 1080657,
+   "ticker": "SQFTP",
+   "name": "Presidio Property Trust, Inc.",
+   "sic": "6798"
+  },
+  {
+   "cik": 1080657,
+   "ticker": "SQFTW",
+   "name": "Presidio Property Trust, Inc.",
+   "sic": "6798"
+  },
+  {
+   "cik": 2006028,
+   "ticker": "SRAV",
+   "name": "Source Agriventures Inc.",
+   "sic": "6500"
+  },
+  {
+   "cik": 1628063,
+   "ticker": "SRG",
+   "name": "Seritage Growth Properties",
+   "sic": "6500"
+  },
+  {
+   "cik": 1628063,
+   "ticker": "SRG-PA",
+   "name": "Seritage Growth Properties",
+   "sic": "6500"
+  },
+  {
+   "cik": 1083490,
+   "ticker": "SRRE",
+   "name": "SUNRISE REAL ESTATE GROUP INC",
+   "sic": "6513"
+  },
+  {
+   "cik": 1479094,
+   "ticker": "STAG",
+   "name": "STAG Industrial, Inc.",
+   "sic": "6798"
+  },
+  {
+   "cik": 1953366,
+   "ticker": "STHO",
+   "name": "Star Holdings",
+   "sic": "6519"
+  },
+  {
+   "cik": 797465,
+   "ticker": "STLY",
+   "name": "HG Holdings, Inc.",
+   "sic": "6798"
+  },
+  {
+   "cik": 2089160,
+   "ticker": "STNF",
+   "name": "Santa Ana Global Enterprises, S.A.",
+   "sic": "6500"
+  },
+  {
+   "cik": 885508,
+   "ticker": "STRS",
+   "name": "STRATUS PROPERTIES INC",
+   "sic": "6552"
+  },
+  {
+   "cik": 1782430,
+   "ticker": "STRW",
+   "name": "Strawberry Fields REIT, Inc.",
+   "sic": "6798"
+  },
+  {
+   "cik": 1698538,
+   "ticker": "STSR",
+   "name": "Strategic Student & Senior Housing Trust, Inc.",
+   "sic": "6798"
+  },
+  {
+   "cik": 1465128,
+   "ticker": "STWD",
+   "name": "STARWOOD PROPERTY TRUST, INC.",
+   "sic": "6798"
+  },
+  {
+   "cik": 912593,
+   "ticker": "SUI",
+   "name": "SUN COMMUNITIES INC",
+   "sic": "6798"
+  },
+  {
+   "cik": 2012706,
+   "ticker": "SUNS",
+   "name": "Sunrise Realty Trust, Inc.",
+   "sic": "6798"
+  },
+  {
+   "cik": 945394,
+   "ticker": "SVC",
+   "name": "Service Properties Trust",
+   "sic": "6798"
+  },
+  {
+   "cik": 1711929,
+   "ticker": "SWDR",
+   "name": "Starwood Real Estate Income Trust, Inc.",
+   "sic": "6798"
+  },
+  {
+   "cik": 1711929,
+   "ticker": "SWDS",
+   "name": "Starwood Real Estate Income Trust, Inc.",
+   "sic": "6798"
+  },
+  {
+   "cik": 733590,
+   "ticker": "TCI",
+   "name": "TRANSCONTINENTAL REALTY INVESTORS INC",
+   "sic": "6798"
+  },
+  {
+   "cik": 1361658,
+   "ticker": "TNL",
+   "name": "Travel & Leisure Co.",
+   "sic": "7011"
+  },
+  {
+   "cik": 724742,
+   "ticker": "TPHS",
+   "name": "Trinity Place Holdings Inc.",
+   "sic": "6512"
+  },
+  {
+   "cik": 1674356,
+   "ticker": "TPTS",
+   "name": "Terra Property Trust, Inc.",
+   "sic": "6798"
+  },
+  {
+   "cik": 96869,
+   "ticker": "TRC",
+   "name": "TEJON RANCH CO",
+   "sic": "6500"
+  },
+  {
+   "cik": 1476150,
+   "ticker": "TRNO",
+   "name": "Terreno Realty Corp",
+   "sic": "6500"
+  },
+  {
+   "cik": 1630472,
+   "ticker": "TRTX",
+   "name": "TPG RE Finance Trust, Inc.",
+   "sic": "6798"
+  },
+  {
+   "cik": 1630472,
+   "ticker": "TRTX-PC",
+   "name": "TPG RE Finance Trust, Inc.",
+   "sic": "6798"
+  },
+  {
+   "cik": 1465740,
+   "ticker": "TWO-PA",
+   "name": "TWO HARBORS INVESTMENT CORP.",
+   "sic": "6798"
+  },
+  {
+   "cik": 1465740,
+   "ticker": "TWO-PB",
+   "name": "TWO HARBORS INVESTMENT CORP.",
+   "sic": "6798"
+  },
+  {
+   "cik": 1465740,
+   "ticker": "TWO-PC",
+   "name": "TWO HARBORS INVESTMENT CORP.",
+   "sic": "6798"
+  },
+  {
+   "cik": 1465740,
+   "ticker": "TWOD",
+   "name": "TWO HARBORS INVESTMENT CORP.",
+   "sic": "6798"
+  },
+  {
+   "cik": 74208,
+   "ticker": "UDR",
+   "name": "UDR, Inc.",
+   "sic": "6798"
+  },
+  {
+   "cik": 1611547,
+   "ticker": "UE",
+   "name": "Urban Edge Properties",
+   "sic": "6500"
+  },
+  {
+   "cik": 798783,
+   "ticker": "UHT",
+   "name": "UNIVERSAL HEALTH REALTY INCOME TRUST",
+   "sic": "6798"
+  },
+  {
+   "cik": 752642,
+   "ticker": "UMH",
+   "name": "UMH PROPERTIES, INC.",
+   "sic": "6798"
+  },
+  {
+   "cik": 752642,
+   "ticker": "UMH-PD",
+   "name": "UMH PROPERTIES, INC.",
+   "sic": "6798"
+  },
+  {
+   "cik": 1741534,
+   "ticker": "UOKAF",
+   "name": "MDJM LTD",
+   "sic": "6531"
+  },
+  {
+   "cik": 1524358,
+   "ticker": "VAC",
+   "name": "MARRIOTT VACATIONS WORLDWIDE Corp",
+   "sic": "6531"
+  },
+  {
+   "cik": 1705696,
+   "ticker": "VICI",
+   "name": "VICI PROPERTIES INC.",
+   "sic": "6798"
+  },
+  {
+   "cik": 906107,
+   "ticker": "VMRK",
+   "name": "VIVMARK RESIDENTIAL",
+   "sic": "6798"
+  },
+  {
+   "cik": 899689,
+   "ticker": "VNO",
+   "name": "VORNADO REALTY TRUST",
+   "sic": "6798"
+  },
+  {
+   "cik": 899689,
+   "ticker": "VNO-PL",
+   "name": "VORNADO REALTY TRUST",
+   "sic": "6798"
+  },
+  {
+   "cik": 899689,
+   "ticker": "VNO-PM",
+   "name": "VORNADO REALTY TRUST",
+   "sic": "6798"
+  },
+  {
+   "cik": 899689,
+   "ticker": "VNO-PN",
+   "name": "VORNADO REALTY TRUST",
+   "sic": "6798"
+  },
+  {
+   "cik": 899689,
+   "ticker": "VNO-PO",
+   "name": "VORNADO REALTY TRUST",
+   "sic": "6798"
+  },
+  {
+   "cik": 899689,
+   "ticker": "VNORP",
+   "name": "VORNADO REALTY TRUST",
+   "sic": "6798"
+  },
+  {
+   "cik": 931182,
+   "ticker": "VRMK",
+   "name": "ERP OPERATING LTD PARTNERSHIP",
+   "sic": "6798"
+  },
+  {
+   "cik": 1969373,
+   "ticker": "VTMX",
+   "name": "Vesta Real Estate Corporation, S.A.B. de C.V.",
+   "sic": "6500"
+  },
+  {
+   "cik": 740260,
+   "ticker": "VTR",
+   "name": "Ventas, Inc.",
+   "sic": "6798"
+  },
+  {
+   "cik": 1785494,
+   "ticker": "WBQNL",
+   "name": "Woodbridge Liquidation Trust",
+   "sic": "6500"
+  },
+  {
+   "cik": 766704,
+   "ticker": "WELL",
+   "name": "WELLTOWER INC.",
+   "sic": "6798"
+  },
+  {
+   "cik": 1722684,
+   "ticker": "WH",
+   "name": "WYNDHAM HOTELS & RESORTS, INC.",
+   "sic": "7011"
+  },
+  {
+   "cik": 1527541,
+   "ticker": "WHLR",
+   "name": "Wheeler Real Estate Investment Trust, Inc.",
+   "sic": "6798"
+  },
+  {
+   "cik": 1527541,
+   "ticker": "WHLRD",
+   "name": "Wheeler Real Estate Investment Trust, Inc.",
+   "sic": "6798"
+  },
+  {
+   "cik": 1527541,
+   "ticker": "WHLRL",
+   "name": "Wheeler Real Estate Investment Trust, Inc.",
+   "sic": "6798"
+  },
+  {
+   "cik": 1527541,
+   "ticker": "WHLRP",
+   "name": "Wheeler Real Estate Investment Trust, Inc.",
+   "sic": "6798"
+  },
+  {
+   "cik": 1503658,
+   "ticker": "WNHK",
+   "name": "Winning Catering Group, Inc.",
+   "sic": "6500"
+  },
+  {
+   "cik": 1025378,
+   "ticker": "WPC",
+   "name": "W. P. Carey Inc.",
+   "sic": "6798"
+  },
+  {
+   "cik": 106535,
+   "ticker": "WY",
+   "name": "WEYERHAEUSER CO",
+   "sic": "6798"
+  },
+  {
+   "cik": 1174922,
+   "ticker": "WYNN",
+   "name": "WYNN RESORTS LTD",
+   "sic": "7011"
+  },
+  {
+   "cik": 1023458,
+   "ticker": "XAEIU",
+   "name": "AEI INCOME & GROWTH FUND XXII LTD PARTNERSHIP",
+   "sic": "6500"
+  },
+  {
+   "cik": 1616000,
+   "ticker": "XHR",
+   "name": "Xenia Hotels & Resorts, Inc.",
+   "sic": "7011"
+  },
+  {
+   "cik": 1533615,
+   "ticker": "XRN",
+   "name": "Chiron Real Estate Inc.",
+   "sic": "6798"
+  },
+  {
+   "cik": 1533615,
+   "ticker": "XRN-PA",
+   "name": "Chiron Real Estate Inc.",
+   "sic": "6798"
+  },
+  {
+   "cik": 1533615,
+   "ticker": "XRN-PB",
+   "name": "Chiron Real Estate Inc.",
+   "sic": "6798"
+  },
+  {
+   "cik": 1327978,
+   "ticker": "ZARE",
+   "name": "Ares Real Estate Income Trust Inc.",
+   "sic": "6798"
+  },
+  {
+   "cik": 1279620,
+   "ticker": "ZDPY",
+   "name": "Zoned Properties, Inc.",
+   "sic": "6512"
+  }
+ ]
+}

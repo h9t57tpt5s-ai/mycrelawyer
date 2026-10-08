@@ -1,0 +1,33 @@
+{
+ "updatedAt": "2026-10-08T13:38:21+00:00",
+ "about": "Litigation that public real estate companies disclosed in SEC filings (full-text search, real estate SIC codes). Excerpts are verbatim from the filing at url. Leads for the digest routine's STEP 1D; not published as is.",
+ "leads": [
+  {
+   "key": "0001437749-26-032287:pscr20250630_10q.htm",
+   "company": "PILLARSTONE CAPITAL REIT",
+   "cik": "928953",
+   "sic": "6798",
+   "form": "10-Q",
+   "filed": "2026-10-07",
+   "periodEnding": "2025-06-30",
+   "url": "https://www.sec.gov/Archives/edgar/data/928953/000143774926032287/pscr20250630_10q.htm",
+   "phrases": [
+    "filed a lawsuit",
+    "filed a petition"
+   ],
+   "excerpts": [
+    "The suit challenged our rights agreement, dated as of December 27, 2021 (as the same may be amended from time to time, the \u201cRights Agreement\u201d), between us and American Stock Transfer & Trust Company, LLC, as rights agent, and claimed that our adoption of the Rights Agreement breached the Pillarstone OP Amended and Restated Agreement of Limited Partnership, and that we breached our fiduciary duties as general partner of Pillarstone OP to Whitestone OP and breached the implied covenant of good faith and fair dealing under the Amended and Restated Agreement of Limited Partnership. Based upon various issues, including those discussed in this report, we filed a lawsuit on September 16, 2022, in district court in Harris County, Texas, against Whitestone and related parties alleging, among other things, breach of the Pillarstone OP Amended and Restated Agreement of Limited Partnership and fiduciary duty and breach of the Management Agreements. 12 On July 21, 2022, Whitestone OP filed a Motion to Preserve the Status Quo in the Delaware lawsuit requesting broad restrictions on our ability to conduct our business, including buying properties, enforcing the Rights Agreement, incurring expense",
+    "Our efforts to address these matters were in some cases stymied by Whitestone\u2019s litigation against us in Delaware where the court limited our ability to incur expenses above low threshold amounts for the types of expenses a company in our industry could expect to incur in the ordinary course of business. Our legal and professional fees have increased substantially as we address the internalization of management and the litigation matters discussed above. On September 16, 2022, we filed a lawsuit styled Pillarstone Capital REIT and Pillarstone Capital REIT Operating Partnership LP v. Whitestone TRS, Inc., Whitestone REIT, Whitestone REIT Operating Partnership, L.P., Cause No. 2022-59478, in the District Court, Harris County, Texas, 189th Judicial District alleging, among other things, breach of the Pillarstone OP limited partnership agreement and the Management Agreements for the Real Estate Assets by the Whitestone defendants and breach of fiduciary duties relating to Pillarstone OP by Whitestone OP going outside the role of limited partner and harming us and Pillarstone OP.",
+    "The Pillarstone OP Amended and Restated Agreement of Limited Partnership expressly provides that in the event of a conflict between the interests of the limited partners (Whitestone OP as the sole limited partner) and our shareholders, we shall act in the interests of our shareholders, and we shall not be liable for monetary or other losses sustained, liabilities incurred or benefits not derived by the limited partners in connection therewith. On September 16, 2022, we filed a lawsuit styled Pillarstone Capital REIT and Pillarstone Capital REIT Operating Partnership LP v. Whitestone TRS, Inc., Whitestone REIT, Whitestone REIT Operating Partnership, L.P., Cause No. 2022-59478, in the District Court, Harris County, Texas, 189th Judicial District alleging, among other things, breach of the Pillarstone OP limited partnership agreement and the Management Agreements for the Real Estate Assets by the Whitestone defendants and breach of fiduciary duties relating to Pillarstone OP by Whitestone OP going outside the role of limited partner and harming us and Pillarstone OP.",
+    "The District Court affirmed the bankruptcy court ruling, and Whitestone Uptown Tower, LLC appealed the District Court\u2019s ruling to the United States Court of Appeals for the Fifth Circuit on August 13, 2025. On September 4, 2026, the Court of Appeals affirmed the District Court\u2019s ruling. On September 18, 2026, Whitestone Uptown Tower, LLC filed a petition with the Court of Appeals for a rehearing en banc, which was denied on October 5, 2026. Whitestone Uptown Tower, LLC is considering its available options in this matter. Jointly Administered Bankruptcy Cases On March 4, 2024, bankruptcy cases were filed for us and Pillarstone OP, as well as Whitestone CP Woodland Ph."
+   ],
+   "captions": [
+    "Capital REIT and Pillarstone Capital REIT Operating Partnership LP v. Whitestone TRS, Inc., Whitestone REIT, Whitestone REIT Operating Partnership"
+   ],
+   "courts": [
+    "District Court"
+   ],
+   "firstSeen": "2026-10-08"
+  }
+ ]
+}

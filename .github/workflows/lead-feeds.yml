@@ -1,0 +1,44 @@
+name: SEC litigation and class-action leads
+
+# Runs scripts/pull_leads.py: litigation that public real estate companies
+# disclose in SEC filings (EDGAR full-text search) and press-release
+# headlines announcing securities suits against them (GlobeNewswire feeds).
+# Writes ops/sec-litigation-leads.json and ops/securities-suit-leads.json,
+# which the digest routine (STEP 1D) reads; nothing here is published as is.
+# Every 6 hours, because a wire feed only shows its latest 20 releases.
+
+on:
+  schedule:
+    - cron: "17 1,7,13,19 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write # commits the lead files
+
+concurrency:
+  group: lead-feeds
+  cancel-in-progress: false
+
+jobs:
+  leads:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - name: Pull leads
+        run: python3 scripts/pull_leads.py --days 3 --max-docs 25
+      - name: Commit the leads
+        run: |
+          git add ops/sec-litigation-leads.json ops/securities-suit-leads.json ops/re-public-companies.json
+          if git diff --cached --quiet; then echo "Nothing new."; exit 0; fi
+          git config user.name "credocket-leads-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git commit -m "Leads: record SEC and press-release leads"
+          ok=0
+          for i in 1 2 3; do
+            if git pull --rebase origin main && git push; then ok=1; break; fi
+            sleep $((i * 10))
+          done
+          [ "$ok" = 1 ]
