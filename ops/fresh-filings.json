@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-07T17:58:37+00:00",
+ "updatedAt": "2026-10-08T02:14:55+00:00",
  "about": "Commercial real estate Chapter 11 petitions filed in the last four days, from federal court records via CourtListener. Same name test as Chapter 11 Watch (is_cre_debtor in scripts/ingest_court_filings.py). Business debtors only.",
  "filings": [
   {
@@ -22,6 +22,17 @@
    "docketUrl": "https://www.courtlistener.com/docket/74922668/zap-realty-corp/",
    "docketId": 74922668,
    "slug": "zap-realty-corp-nyeb-1-26-44683",
+   "type": "Chapter 11 petition"
+  },
+  {
+   "caseName": "Travis Property Owner LLC",
+   "court": "United States Bankruptcy Court, N.D. Texas",
+   "courtId": "txnb",
+   "docketNumber": "26-90220",
+   "dateFiled": "2026-10-06",
+   "docketUrl": "https://www.courtlistener.com/docket/74922581/travis-property-owner-llc/",
+   "docketId": 74922581,
+   "slug": "travis-property-owner-llc-txnb-26-90220",
    "type": "Chapter 11 petition"
   },
   {
