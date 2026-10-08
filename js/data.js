@@ -16,7 +16,7 @@ const RELAW_DATA = {
      Drives the homepage's "New Today" pill: it only shows when this
      equals the visitor's local today. Updated by the digest automation
      each time Step 4 successfully adds a case — never touched otherwise. */
-  lastUpdatedDate: "2026-10-07",
+  lastUpdatedDate: "2026-10-08",
   categories: [
     { id: "landlord-tenant", label: "Landlord–Tenant", color: "var(--cat-landlord)" },
     { id: "zoning-land-use", label: "Zoning & Land Use", color: "var(--cat-zoning)" },
@@ -7779,6 +7779,128 @@ const RELAW_DATA = {
         { name: "Employers Insurance Company of Wausau", role: "Defendant/Insurer" }
       ],
       tags: ["environmental", "wisconsin", "contamination", "direct-action-statute", "insurance-coverage"]
+    },
+    {
+      id: "live-233",
+      addedDate: "2026-10-08",
+      title: "Cornerstone Development, LLC Chapter 11 Petition (N.D. Ga.)",
+      category: "lending-foreclosure",
+      status: "filed",
+      date: "2026-10-05",
+      jurisdiction: "United States Bankruptcy Court, Northern District of Georgia",
+      state: "GA",
+      amount: "Undisclosed (financial details not yet public)",
+      source: "live",
+      sourceUrl: "https://www.courtlistener.com/docket/74922018/cornerstone-development-llc/",
+      summary: "Cornerstone Development, LLC filed a Chapter 11 petition on October 5, 2026 in the United States Bankruptcy Court for the Northern District of Georgia, case number 26-63513. This entry reflects only what the federal court docket shows; no independent news coverage of the filing was available at the time it was added to this tracker.",
+      significance: "Single-asset and small-platform real estate development entities filing Chapter 11 make up a meaningful share of the current wave of small commercial bankruptcy filings tied to distressed acquisition or construction debt. This tracker will add further detail as public reporting or additional docket activity becomes available.",
+      body: [
+        "Cornerstone Development, LLC filed a Chapter 11 petition on October 5, 2026 in the United States Bankruptcy Court for the Northern District of Georgia, docketed as case number 26-63513. As of this entry, no news coverage of the filing's underlying circumstances -- the nature of the debtor's property, its lender, or the cause of the filing -- had been published, so this record is limited to what the court docket itself shows.",
+        "Georgia limited liability companies organized around a single development project file Chapter 11 petitions of this kind regularly, and they make up a meaningful share of the current wave of small commercial bankruptcy filings tied to distressed acquisition, construction, or maturity debt. This tracker will update this entry, or add a related one, if further docket activity or independent reporting clarifies the debtor's property, its lender, and the circumstances of the filing."
+      ],
+      judge: null,
+      parties: [
+        { name: "Cornerstone Development, LLC", role: "Debtor" }
+      ],
+      amountUsd: null,
+      docketUrl: "https://www.courtlistener.com/docket/74922018/cornerstone-development-llc/",
+      docketLabel: "CourtListener docket",
+      tags: ["chapter-11", "bankruptcy", "single-asset-entity", "georgia", "development"]
+    },
+    {
+      id: "live-234",
+      addedDate: "2026-10-08",
+      title: "Travis Property Owner LLC Chapter 11 Petition (N.D. Tex.)",
+      category: "lending-foreclosure",
+      status: "filed",
+      date: "2026-10-06",
+      jurisdiction: "United States Bankruptcy Court, Northern District of Texas",
+      state: "TX",
+      amount: "Undisclosed (financial details not yet public)",
+      source: "live",
+      sourceUrl: "https://www.courtlistener.com/docket/74922581/travis-property-owner-llc/",
+      summary: "Travis Property Owner LLC filed a Chapter 11 petition on October 6, 2026 in the United States Bankruptcy Court for the Northern District of Texas, case number 26-90220. This entry reflects only what the federal court docket shows; no independent news coverage of the filing was available at the time it was added to this tracker.",
+      significance: "Single-asset real estate entities carrying \"Property Owner\" in their name -- typically formed to hold one commercial or multifamily asset -- make up a meaningful share of the current wave of small commercial Chapter 11 filings tied to distressed acquisition or maturity debt. This tracker will add further detail as public reporting or additional docket activity becomes available.",
+      body: [
+        "Travis Property Owner LLC filed a Chapter 11 petition on October 6, 2026 in the United States Bankruptcy Court for the Northern District of Texas, docketed as case number 26-90220. As of this entry, no news coverage of the filing's underlying circumstances -- the nature of the debtor's property, its lender, or the cause of the filing -- had been published, so this record is limited to what the court docket itself shows.",
+        "Single-asset Texas entities organized under a \"Property Owner\" naming convention file Chapter 11 petitions of this kind regularly, and they make up a meaningful share of the current wave of small commercial bankruptcy filings tied to distressed acquisition, construction, or maturity debt. This tracker will update this entry, or add a related one, if further docket activity or independent reporting clarifies the debtor's property, its lender, and the circumstances of the filing."
+      ],
+      judge: null,
+      parties: [
+        { name: "Travis Property Owner LLC", role: "Debtor" }
+      ],
+      amountUsd: null,
+      docketUrl: "https://www.courtlistener.com/docket/74922581/travis-property-owner-llc/",
+      docketLabel: "CourtListener docket",
+      tags: ["chapter-11", "bankruptcy", "single-asset-entity", "texas"]
+    },
+    {
+      id: "live-235",
+      addedDate: "2026-10-08",
+      title: "Girolametti v. City of Danbury (Connecticut Appellate Court Affirms $16.8M Reckless-Permitting Verdict)",
+      category: "zoning-land-use",
+      status: "ruling",
+      date: "2026-03-17",
+      jurisdiction: "Connecticut Appellate Court",
+      state: "CT",
+      propertyType: "Retail",
+      amount: "$16,843,750 verdict affirmed (less a $280,000 remittitur), plus statutory interest",
+      amountUsd: 16843750,
+      amountBasis: "judgment",
+      source: "live",
+      sourceUrl: "https://www.barclaydamon.com/press-releases/connecticut-appellate-court-upholds-168-million-jury-verdict-for-party-depot-owners",
+      documentUrl: "https://www.leagle.com/decision/inctco20260317053",
+      documentLabel: "Read the Appellate Court's opinion",
+      summary: "The Connecticut Appellate Court, in Girolametti v. Larrabee, 238 Conn. App. 1 (2026), largely affirmed a $16.8 million jury verdict against the City of Danbury and a city building official, finding they acted with reckless disregard for public health and safety in the permitting, construction, and inspection of a 30,000-square-foot commercial addition to the Party Depot retail business. The court ordered a $280,000 remittitur for amounts already recovered from a settling party, but left the recklessness finding and the balance of the award intact; Danbury has said it intends to seek review by the Connecticut Supreme Court.",
+      significance: "The decision confirms that a municipality's discretionary-function immunity for building permitting and inspection decisions does not protect conduct a jury finds reckless, exposing cities to substantial damages exposure when a permitting process for a commercial project goes badly wrong. Commercial owners in protracted disputes with a local building department should take note of how much documentation and litigation it took to sustain this result on appeal.",
+      body: [
+        "A Connecticut Appellate Court decision released March 17, 2026 has largely upheld a $16.8 million jury verdict against the City of Danbury and one of its building officials, arising out of the permitting, construction, and inspection of a 30,000-square-foot commercial addition built by Party Depot, Inc. and its owners, John and Cindy Girolametti.",
+        "The case, Girolametti v. Larrabee, followed a five-week jury trial in Connecticut Superior Court that concluded in October 2023 with a finding that the City of Danbury and building official Edward Schullery had acted with reckless disregard for the health and safety of the public in handling the project's permitting, construction, and inspection. The trial court entered final judgment on the verdict in March 2024, totaling $16,843,750 plus $37,648.88 in taxable costs, with statutory post-judgment interest continuing to accrue.",
+        "On appeal, a three-judge panel of the Connecticut Appellate Court -- Judges Seeley, Wilson, and Keller -- rejected nearly all of the city's arguments, ordering only a $280,000 remittitur tied to amounts the plaintiffs had already recovered from a settling party before trial. The panel otherwise left the jury's recklessness finding and the resulting damages award intact and remanded the case to the trial court to apply the remittitur and recalculate statutory interest. Danbury officials have said they intend to ask the Connecticut Supreme Court to take up the case, arguing the ruling could expose municipalities to liability for the reckless conduct of individual building department employees.",
+        "The ruling matters because Connecticut, like most states, generally shields municipalities and their employees with governmental immunity for discretionary acts such as permitting and inspection decisions, on the theory that those decisions involve judgment calls courts should be reluctant to second-guess after the fact. That immunity has long had a narrow exception for conduct rising to the level of recklessness, and this case shows a jury and an appellate court willing to sustain that exception on a full trial record covering a project's entire permitting history.",
+        "For commercial property owners and developers, the case is a reminder that a dispute with a municipal building department is not always confined to administrative appeals or injunctions compelling a city to act; where a city's own conduct causes substantial, provable damages and can be shown to go beyond good-faith discretionary error, a jury may be willing to award damages rivaling or exceeding the cost of the underlying project. Municipalities and building departments, for their part, should treat the decision as confirmation that discretionary-function immunity is not a blanket shield, particularly on a contentious project where a documented pattern of departure from normal permitting and inspection practice could later be characterized as reckless rather than merely mistaken."
+      ],
+      judge: null,
+      parties: [
+        { name: "Party Depot, Inc.", role: "Plaintiff" },
+        { name: "City of Danbury", role: "Defendant" }
+      ],
+      timeline: [
+        { when: "October 2023", label: "Jury returns verdict finding the City of Danbury and a building official acted with reckless disregard for public safety during permitting and inspection of the Party Depot addition" },
+        { when: "March 27, 2024", label: "Trial court enters final judgment on the verdict, totaling $16,843,750 plus costs" },
+        { when: "March 17, 2026", label: "Connecticut Appellate Court affirms the verdict, ordering only a $280,000 remittitur", current: true }
+      ],
+      tags: ["municipal-liability", "connecticut", "building-permit", "governmental-immunity", "jury-verdict"]
+    },
+    {
+      id: "live-236",
+      addedDate: "2026-10-08",
+      title: "Wixom Industrial One, LLC v. City of Wixom (Michigan Data Center Moratorium Suit)",
+      category: "zoning-land-use",
+      status: "filed",
+      date: "2026-08-07",
+      jurisdiction: "U.S. District Court, Eastern District of Michigan",
+      state: "MI",
+      propertyType: "Data Center",
+      amount: "55-acre, 519,000+ sq. ft. data center project blocked by moratorium; damages amount unspecified",
+      amountUsd: null,
+      source: "live",
+      sourceUrl: "https://whmi.com/news/article/developer-sues-city-of-wixom-over-data-center-moratorium",
+      summary: "Wixom Industrial One, LLC sued the City of Wixom, Michigan on August 7, 2026 in the U.S. District Court for the Eastern District of Michigan (case no. 2:26-cv-12754), alleging the city's six-month data center moratorium -- adopted after public opposition to the developer's project emerged -- violates Michigan's zoning enabling act. The complaint targets a planned 55-acre, more than 519,000-square-foot data center development at 30625 S. Wixom Road, developed with Missouri-based Sansone Group, on land currently zoned M-1 light industrial.",
+      significance: "The case joins a fast-growing wave of federal litigation nationally in which data center developers are challenging municipal moratoria as exceeding local zoning authority or improperly targeting a specific project once it drew public opposition. A ruling curbing municipal moratorium power in Michigan would affect how data center developers approach siting disputes with local governments throughout the state.",
+      body: [
+        "A Michigan data center developer has sued the City of Wixom over a six-month moratorium on data center development, arguing the city lacked the authority under state law to impose the pause after public sentiment turned against the company's planned project. Wixom Industrial One, LLC filed the lawsuit on August 7, 2026 in the U.S. District Court for the Eastern District of Michigan, captioned as case number 2:26-cv-12754.",
+        "The dispute centers on a 55-acre parcel at 30625 S. Wixom Road in Oakland County, zoned M-1 light industrial, where the developer -- working with Missouri-based commercial real estate firm Sansone Group -- had proposed a data center campus of more than 519,000 square feet across multiple buildings, each exceeding 200,000 square feet. The complaint alleges that after the developer submitted a rough site plan, the city used the details of that plan to draft a restrictive moratorium ordinance aimed specifically at halting the project, rather than adopting a neutral pause on the use generally.",
+        "The Wixom City Council has since taken steps toward adopting permanent zoning regulations specific to data centers as the six-month moratorium nears its end, and the council separately and unanimously rejected the developer's request to lift the moratorium early, citing potential health, safety, and welfare impacts. The lawsuit seeks to invalidate the moratorium as an unlawful exercise of the city's police power under Michigan's zoning enabling act.",
+        "The case is part of a broader, fast-moving pattern of data center developers suing municipalities over moratoria and zoning bans once a specific project draws local opposition, with comparable suits filed in 2026 against municipalities in Ohio, Kentucky, New Jersey, Minnesota, and Tennessee. Developers in these cases generally argue that a municipality either lacked authority to enact the pause, acted in bad faith by targeting a specific pending application, or violated due process and equal protection by treating one project differently from how the zoning code would otherwise apply.",
+        "For data center developers, the case underscores the risk of submitting detailed site plans to a municipality before confirming the durability of the zoning classification under which a project is proposed, since that same site plan can become the basis for a tailored moratorium ordinance once opposition mounts. Municipalities, in turn, should be cautious about adopting moratorium language that tracks the specifics of a single pending application too closely, since courts are increasingly asked to treat that overlap as evidence the moratorium was targeted at one project rather than a neutral, generally applicable zoning pause."
+      ],
+      judge: null,
+      parties: [
+        { name: "Wixom Industrial One, LLC", role: "Plaintiff" },
+        { name: "City of Wixom", role: "Defendant" }
+      ],
+      tags: ["data-center", "michigan", "zoning-moratorium", "municipal-authority", "vested-rights"]
     }
   ],
 
