@@ -1,7 +1,59 @@
 {
- "updatedAt": "2026-10-09T02:31:14+00:00",
+ "updatedAt": "2026-10-09T17:35:22+00:00",
  "about": "New federal civil cases between businesses or governments that name a commercial real estate business, or are real property foreclosure or lease cases between businesses, from federal court records via CourtListener; is_cre_suit in scripts/ingest_court_filings.py decides which. Builds lawsuit-watch.html and federal-cases/<slug>.html (scripts/build_record_pages.ts).",
  "filings": [
+  {
+   "caseName": "U.S. BANK TRUST NATIONAL ASSOCIATION NOT IN ITS INDIVIDUAL CAPACITY BUT SOLELY AS TRUSTEE OF GREENE STREET FUNDING TRUST II v. NORRIS AVENUE ESTATES LLC",
+   "court": "District Court, E.D. Pennsylvania",
+   "courtId": "paed",
+   "docketNumber": "2:26-cv-07772",
+   "dateFiled": "2026-10-09",
+   "docketUrl": "https://www.courtlistener.com/docket/74942348/us-bank-trust-national-association-not-in-its-individual-capacity-but/",
+   "docketId": 74942348,
+   "suitNature": "220 Real Property: Foreclosure",
+   "cause": "28:1345 Foreclosure",
+   "slug": "u-s-bank-trust-national-association-not-in-its-individual-capacity-but-paed-2-26-cv-07772",
+   "type": "Federal civil case"
+  },
+  {
+   "caseName": "U.S. BANK NATIONAL ASSOCIATION, NOT IN ITS INDIVIDUAL CAPACITY BUT SOLELY AS TRUSTEE OF GREENE STREET FUNDING TRUST II v. DINERO VIEJO LLC",
+   "court": "District Court, E.D. Pennsylvania",
+   "courtId": "paed",
+   "docketNumber": "2:26-cv-07769",
+   "dateFiled": "2026-10-09",
+   "docketUrl": "https://www.courtlistener.com/docket/74942188/us-bank-national-association-not-in-its-individual-capacity-but-solely/",
+   "docketId": 74942188,
+   "suitNature": "220 Real Property: Foreclosure",
+   "cause": "28:1345 Foreclosure",
+   "slug": "u-s-bank-national-association-not-in-its-individual-capacity-but-solel-paed-2-26-cv-07769",
+   "type": "Federal civil case"
+  },
+  {
+   "caseName": "Natural, Nydegger Transport Corporation v. Power and Process Developments, Inc.",
+   "court": "District Court, S.D. Texas",
+   "courtId": "txsd",
+   "docketNumber": "4:26-cv-08864",
+   "dateFiled": "2026-10-09",
+   "docketUrl": "https://www.courtlistener.com/docket/74941787/natural-nydegger-transport-corporation-v-power-and-process-developments/",
+   "docketId": 74941787,
+   "suitNature": "",
+   "cause": "",
+   "slug": "natural-nydegger-transport-corporation-v-power-and-process-development-txsd-4-26-cv-08864",
+   "type": "Federal civil case"
+  },
+  {
+   "caseName": "K&S Hotel, LLC v. State Farm Fire and Casualty Insurance",
+   "court": "District Court, E.D. Louisiana",
+   "courtId": "laed",
+   "docketNumber": "2:26-cv-02345",
+   "dateFiled": "2026-10-09",
+   "docketUrl": "https://www.courtlistener.com/docket/74943194/ks-hotel-llc-v-state-farm-fire-and-casualty-insurance/",
+   "docketId": 74943194,
+   "suitNature": "",
+   "cause": "",
+   "slug": "k-s-hotel-llc-v-state-farm-fire-and-casualty-insurance-laed-2-26-cv-02345",
+   "type": "Federal civil case"
+  },
   {
    "caseName": "US BANK TRUST NATIONAL ASSOCIATION, NOT IN ITS INDIVIDUAL CAPACITY BUT SOLELY AS TRUSTEE OF GREENE STREET FUNDING TRUST II v. 18TH STREET HOLDINGS LLC",
    "court": "District Court, E.D. Pennsylvania",
@@ -29,6 +81,19 @@
    "type": "Federal civil case"
   },
   {
+   "caseName": "Byblos Development, Inc. v. First-Citizens Bank & Trust Company",
+   "court": "District Court, M.D. Florida",
+   "courtId": "flmd",
+   "docketNumber": "6:26-cv-02348",
+   "dateFiled": "2026-10-08",
+   "docketUrl": "https://www.courtlistener.com/docket/74940389/byblos-development-inc-v-first-citizens-bank-trust-company/",
+   "docketId": 74940389,
+   "suitNature": "190 Contract: Other",
+   "cause": "28:1332 Diversity-Other Contract",
+   "slug": "byblos-development-inc-v-first-citizens-bank-trust-company-flmd-6-26-cv-02348",
+   "type": "Federal civil case"
+  },
+  {
    "caseName": "BetMGM, LLC v. Greenbrier Hotel Corporation",
    "court": "District Court, D. Delaware",
    "courtId": "ded",
@@ -39,19 +104,6 @@
    "suitNature": "",
    "cause": "",
    "slug": "betmgm-llc-v-greenbrier-hotel-corporation-ded-1-26-cv-01296",
-   "type": "Federal civil case"
-  },
-  {
-   "caseName": "BYBLOS DEVELOPMENT, INC. v. First-Citizens Bank & Trust Company",
-   "court": "District Court, M.D. Florida",
-   "courtId": "flmd",
-   "docketNumber": "6:26-cv-02348",
-   "dateFiled": "2026-10-08",
-   "docketUrl": "https://www.courtlistener.com/docket/74940389/byblos-development-inc-v-first-citizens-bank-trust-company/",
-   "docketId": 74940389,
-   "suitNature": "",
-   "cause": "",
-   "slug": "byblos-development-inc-v-first-citizens-bank-trust-company-flmd-6-26-cv-02348",
    "type": "Federal civil case"
   },
   {
