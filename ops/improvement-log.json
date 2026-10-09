@@ -1,4 +1,18 @@
 {
  "about": "One entry per self-improvement run (scripts: ops/improvement-playbook.md). status: watching -> helped | no clear effect | hurt | reverted; no-op runs are logged too.",
- "entries": []
+ "entries": [
+  {
+   "id": "imp-001",
+   "date": "2026-10-09",
+   "title": "Added static A-Z link lists to companies.html and judges.html",
+   "why": "site_audit.py (ops/metrics/audit.json, 2026-10-09 snapshot) found 92 orphan root pages. 76 of them were the company-*.html and judge-*.html profile pages, which companies.html and judges.html only ever link to from JavaScript-built cards, invisible to site_audit and to any crawler that doesn't execute JS. This was backlog item 1, ranked top because it was the audit's largest single finding category.",
+   "files": ["companies.html", "judges.html"],
+   "commit": "58da97b4f47415e5d09011be05364d8f8ba023f3",
+   "metric": "audit.summary.orphanPages",
+   "window": "next day's audit snapshot",
+   "baseline": 92,
+   "checkAfter": "2026-10-10",
+   "status": "watching"
+  }
+ ]
 }
