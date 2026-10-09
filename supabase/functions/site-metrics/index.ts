@@ -93,7 +93,7 @@ async function titles(ids: string[]): Promise<Record<string, string>> {
 function pct(a: number, b: number) { return b ? ` (${Math.round((100 * a) / b)}%)` : ""; }
 function delta(a: number, b: number) { return b ? ` vs ${b} the week before` : ""; }
 
-async function emailReport() {
+async function emailReport(improvements: string[] = []) {
   const now = new Date();
   const d7 = new Date(now.getTime() - 7 * 864e5), d14 = new Date(now.getTime() - 14 * 864e5);
   const cur = summarize(await events(d7.toISOString(), now.toISOString()));
@@ -131,8 +131,9 @@ async function emailReport() {
     `- Newsletter sign-ups started: ${cur.newsletterSignups}`,
     "  (The contact form opens the visitor's own email app, so a send click is intent; it doesn't confirm the email went out.)",
     "",
-    `Searches: ${cur.searches}   Source and docket clicks: ${cur.sourceClicks}`,
+    `Searches: ${cur.searches}   Source and docket clicks: ${cur.sourceClicks}   Cases followed: ${(cur.byEvent.find(([k]) => k === "docket_follow") || [, 0])[1]}`,
     "",
+    ...(improvements.length ? ["WHAT THE SITE CHANGED THIS WEEK (self-improvement routine; details in ops/improvement-log.json)", ...improvements.map((x) => `- ${x}`), ""] : []),
     "Counts come from js/track.js: no cookies, IPs or names; a visit is one browser tab. Bots that announce themselves are excluded.",
   ];
   if (!RESEND_API_KEY) return json({ error: "RESEND_API_KEY not set" }, 500);
@@ -148,10 +149,13 @@ async function emailReport() {
 Deno.serve(async (req) => {
   if (req.method !== "POST") return json({ error: "Method not allowed" }, 405);
   if (!AUTOMATION_SECRET || req.headers.get("x-automation-secret") !== AUTOMATION_SECRET) return json({ error: "Invalid automation secret" }, 401);
-  let body: { action?: string; days?: number } = {};
+  let body: { action?: string; days?: number; improvements?: unknown } = {};
   try { body = await req.json(); } catch { /* empty body = report */ }
   try {
-    if (body.action === "email") return await emailReport();
+    if (body.action === "email") {
+      const notes = Array.isArray(body.improvements) ? body.improvements.filter((x) => typeof x === "string").slice(0, 25).map((x) => String(x).slice(0, 300)) : [];
+      return await emailReport(notes);
+    }
     const days = Math.min(Math.max(Number(body.days) || 7, 1), 90);
     const now = new Date();
     return json(summarize(await events(new Date(now.getTime() - days * 864e5).toISOString(), now.toISOString())));

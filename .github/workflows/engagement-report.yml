@@ -21,12 +21,36 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 5
     steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      # What the self-improvement routine changed or judged in the last 7 days.
+      - name: Collect this week's site changes
+        run: |
+          python3 - <<'PY' > /tmp/improvements.json
+          import json, datetime as dt
+          try:
+              entries = json.load(open("ops/improvement-log.json")).get("entries", [])
+          except (FileNotFoundError, ValueError):
+              entries = []
+          since = (dt.date.today() - dt.timedelta(days=7)).isoformat()
+          out = []
+          for e in entries:
+              if (e.get("date") or "") >= since:
+                  out.append(f"{e.get('date')}: {e.get('title')} ({e.get('status')})")
+              v = e.get("verdict") or {}
+              if (v.get("date") or "") >= since:
+                  out.append(f"{v.get('date')}: judged {e.get('id')} '{e.get('title')}': {e.get('status')}. {v.get('note', '')}".strip())
+          print(json.dumps(out[:25]))
+          PY
+          cat /tmp/improvements.json
       - name: Send the report
         env:
           SUPABASE_ANON_KEY: sb_publishable_77xSJub0DOpnTSM4nzhVaQ_aztB5p3f
           AUTOMATION_SECRET: ${{ secrets.AUTOMATION_SECRET }}
           PAYLOAD: ${{ (github.event_name == 'workflow_dispatch' && !inputs.send_email) && '{"action":"report","days":7}' || '{"action":"email"}' }}
         run: |
+          PAYLOAD=$(python3 -c "import json,os; p=json.loads(os.environ['PAYLOAD']); p['improvements']=json.load(open('/tmp/improvements.json')) if p.get('action')=='email' else []; print(json.dumps(p))")
           status=$(curl -sS -o /tmp/report.json -w "%{http_code}" \
             -X POST 'https://ribmcdyoydhmafnyfhpp.supabase.co/functions/v1/site-metrics' \
             -H "Authorization: Bearer $SUPABASE_ANON_KEY" \

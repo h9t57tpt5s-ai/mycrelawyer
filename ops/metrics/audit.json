@@ -1,0 +1,119 @@
+{
+ "generatedAt": "2026-10-09T01:35:33+00:00",
+ "pagesChecked": 540,
+ "pagesByFolder": {
+  "root": 164,
+  "matters": 218,
+  "chapter-11": 109,
+  "federal-cases": 49
+ },
+ "summary": {
+  "brokenLinks": 0,
+  "missingTitle": 0,
+  "longTitle": 0,
+  "missingDescription": 2,
+  "weakDescription": 10,
+  "missingCanonical": 0,
+  "duplicateTitles": 0,
+  "orphanPages": 92,
+  "missingFromSitemap": 0,
+  "sitemapUrlsWithoutFile": 0,
+  "imagesWithoutAlt": 0,
+  "heavyPages": 0
+ },
+ "freshness": {
+  "matters": 218,
+  "newestMatterAdded": "2026-10-08",
+  "daysSinceNewestMatter": 0,
+  "ch11Petitions": 109,
+  "newestCh11Petition": "2026-10-07",
+  "daysSinceNewestCh11": 1,
+  "federalSuits": 49,
+  "newestFederalSuit": "2026-10-07",
+  "daysSinceNewestSuit": 1
+ },
+ "findings": {
+  "brokenLinks": [],
+  "missingTitle": [],
+  "longTitle": [],
+  "missingDescription": [
+   "admin-settlement-review.html",
+   "handbook.html"
+  ],
+  "weakDescription": [
+   {
+    "page": "contact.html",
+    "chars": 37
+   },
+   {
+    "page": "handbook-success.html",
+    "chars": 65
+   },
+   {
+    "page": "reset-password.html",
+    "chars": 46
+   },
+   {
+    "page": "matters/live-091.html",
+    "chars": 55
+   },
+   {
+    "page": "matters/live-102.html",
+    "chars": 56
+   },
+   {
+    "page": "matters/live-135.html",
+    "chars": 42
+   },
+   {
+    "page": "matters/live-137.html",
+    "chars": 2
+   },
+   {
+    "page": "matters/live-203.html",
+    "chars": 11
+   },
+   {
+    "page": "matters/live-210.html",
+    "chars": 38
+   },
+   {
+    "page": "matters/live-221.html",
+    "chars": 29
+   }
+  ],
+  "missingCanonical": [],
+  "duplicateTitles": {},
+  "orphanPages": [
+   "author-jeff-novel.html",
+   "california-landlord-tenant.html",
+   "california-zoning-land-use.html",
+   "company-apollo-global-management.html",
+   "company-blackstone.html",
+   "company-brightline.html",
+   "company-broadrange-logistics.html",
+   "company-cbre-group.html",
+   "company-columbia-falls-aluminum.html",
+   "company-costar-group.html",
+   "company-cushman-wakefield.html",
+   "company-deutsche-bank.html",
+   "company-dr-horton.html",
+   "company-fannie-mae.html",
+   "company-fortress-investment-group.html",
+   "company-goldman-sachs.html",
+   "company-jll.html",
+   "company-lightstone-group.html",
+   "company-metro-loft.html",
+   "company-namdar-realty-group.html",
+   "company-penn-florida-companies.html",
+   "company-phoenix-american-hospitality.html",
+   "company-rad-diversified-reit.html",
+   "company-realpage.html",
+   "company-rialto-capital-advisors.html"
+  ],
+  "missingFromSitemap": [],
+  "sitemapUrlsWithoutFile": [],
+  "imagesWithoutAlt": [],
+  "heavyPages": []
+ }
+}

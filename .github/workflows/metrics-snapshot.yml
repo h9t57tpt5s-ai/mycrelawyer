@@ -1,0 +1,59 @@
+name: Daily metrics snapshot and site audit
+
+# Feeds the daily self-improvement routine: saves the last 1, 7 and 28 days
+# of engagement (site-metrics Edge Function, public.site_events; no personal
+# data) and a full site audit (scripts/site_audit.py) into ops/metrics/.
+# Runs before the routine (15:30 UTC) so it always reads today's numbers.
+
+on:
+  schedule:
+    - cron: "41 14 * * *" # ~9:40am Central
+  workflow_dispatch:
+
+permissions:
+  contents: write # commits ops/metrics/
+
+concurrency:
+  group: metrics-snapshot
+  cancel-in-progress: false
+
+jobs:
+  snapshot:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - name: Pull engagement reports
+        env:
+          SUPABASE_ANON_KEY: sb_publishable_77xSJub0DOpnTSM4nzhVaQ_aztB5p3f
+          AUTOMATION_SECRET: ${{ secrets.AUTOMATION_SECRET }}
+        run: |
+          for d in 1 7 28; do
+            status=$(curl -sS -o /tmp/m$d.json -w "%{http_code}" \
+              -X POST 'https://ribmcdyoydhmafnyfhpp.supabase.co/functions/v1/site-metrics' \
+              -H "Authorization: Bearer $SUPABASE_ANON_KEY" \
+              -H "x-automation-secret: $AUTOMATION_SECRET" \
+              -H "Content-Type: application/json" \
+              --data "{\"action\":\"report\",\"days\":$d}")
+            echo "site-metrics days=$d HTTP $status"
+            [[ "$status" =~ ^2 ]] || echo "::warning::site-metrics days=$d returned $status"
+          done
+      - name: Audit the site
+        run: python3 scripts/site_audit.py
+      - name: Write the snapshot
+        run: python3 scripts/metrics_snapshot.py /tmp/m1.json /tmp/m7.json /tmp/m28.json
+      - name: Commit the snapshot
+        run: |
+          git add ops/metrics
+          if git diff --cached --quiet; then echo "Nothing changed."; exit 0; fi
+          git config user.name "credocket-metrics-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git commit -m "Metrics: daily snapshot and site audit"
+          ok=0
+          for i in 1 2 3; do
+            if git pull --rebase origin main && git push; then ok=1; break; fi
+            sleep $((i * 10))
+          done
+          [ "$ok" = 1 ]
