@@ -1067,7 +1067,8 @@ const RELAW_DATA = {
       timeline: [
         { when: "December 2015", label: "Morgan Stanley Bank, N.A. originates the $130M loan, later securitized into the 2016-C28 trust" },
         { when: "January 1, 2026", label: "Loan reaches maturity and is not paid off" },
-        { when: "August 12, 2026", label: "U.S. Bank National Association sues to foreclose and seeks appointment of a receiver", current: true }
+        { when: "August 12, 2026", label: "U.S. Bank National Association sues to foreclose and seeks appointment of a receiver" },
+        { when: "October 8, 2026", label: "Plaintiff requests entry of default judgment by the clerk (docket entry 6)", current: true }
       ],
       tags: ["cmbs", "foreclosure", "receivership", "office", "maturity default"],
       docketUrl: "https://www.courtlistener.com/docket/74638795/us-bank-national-association-as-trustee-for-morgan-stanley-bank-of-america/",
@@ -8197,6 +8198,87 @@ const RELAW_DATA = {
       docketUrl: "https://www.courtlistener.com/docket/74919063/dmk-real-estate-holdings-llc/",
       docketLabel: "CourtListener docket",
       tags: ["chapter-11", "bankruptcy", "single-asset-entity", "pennsylvania"]
+    },
+    {
+      id: "live-247",
+      addedDate: "2026-10-09",
+      title: "LZA Real Properties East, LLC Chapter 11 Petition (W.D. Tex.)",
+      category: "lending-foreclosure",
+      status: "filed",
+      date: "2026-10-06",
+      jurisdiction: "United States Bankruptcy Court, Western District of Texas",
+      state: "TX",
+      amount: "Undisclosed (financial details not yet public)",
+      amountUsd: null,
+      source: "live",
+      sourceUrl: "https://www.courtlistener.com/docket/74924804/lza-real-properties-east-llc/",
+      summary: "LZA Real Properties East, LLC filed a Chapter 11 petition on October 6, 2026 in the United States Bankruptcy Court for the Western District of Texas, case number 26-12003. This entry reflects only what the federal court docket shows; no independent news coverage of the filing was available at the time it was added to this tracker.",
+      significance: "Single-asset real estate entities filing Chapter 11 make up a meaningful share of the current wave of small commercial bankruptcy filings in Texas tied to distressed acquisition or maturity debt. This tracker will add further detail as public reporting or additional docket activity becomes available.",
+      body: [
+        "LZA Real Properties East, LLC filed a Chapter 11 petition on October 6, 2026 in the United States Bankruptcy Court for the Western District of Texas, docketed as case number 26-12003. As of this entry, no news coverage of the filing's underlying circumstances -- the nature of the debtor's property, its lender, or the cause of the filing -- had been published, so this record is limited to what the court docket itself shows.",
+        "Real estate holding entities of this kind file Chapter 11 petitions regularly, and they make up a meaningful share of the current wave of small commercial bankruptcy filings tied to distressed acquisition, construction, or maturity debt. This tracker will update this entry, or add a related one, if further docket activity or independent reporting clarifies the debtor's property, its lender, and the circumstances of the filing."
+      ],
+      judge: null,
+      parties: [
+        { name: "LZA Real Properties East, LLC", role: "Debtor" }
+      ],
+      docketUrl: "https://www.courtlistener.com/docket/74924804/lza-real-properties-east-llc/",
+      docketLabel: "CourtListener docket",
+      tags: ["chapter-11", "bankruptcy", "single-asset-entity", "texas"]
+    },
+    {
+      id: "live-248",
+      addedDate: "2026-10-09",
+      title: "Fortapache Realty LLC Chapter 11 Petition (N.D. Ga.)",
+      category: "lending-foreclosure",
+      status: "filed",
+      date: "2026-10-06",
+      jurisdiction: "United States Bankruptcy Court, Northern District of Georgia",
+      state: "GA",
+      amount: "Undisclosed (financial details not yet public)",
+      amountUsd: null,
+      source: "live",
+      sourceUrl: "https://www.courtlistener.com/docket/74923336/fortapache-realty-llc/",
+      summary: "Fortapache Realty LLC filed a Chapter 11 petition on October 6, 2026 in the United States Bankruptcy Court for the Northern District of Georgia, case number 26-63569. This entry reflects only what the federal court docket shows; no independent news coverage of the filing was available at the time it was added to this tracker.",
+      significance: "Single-asset realty entities filing Chapter 11 make up a meaningful share of the current wave of small commercial bankruptcy filings in Georgia tied to distressed acquisition or maturity debt. This tracker will add further detail as public reporting or additional docket activity becomes available.",
+      body: [
+        "Fortapache Realty LLC filed a Chapter 11 petition on October 6, 2026 in the United States Bankruptcy Court for the Northern District of Georgia, docketed as case number 26-63569. As of this entry, no news coverage of the filing's underlying circumstances -- the nature of the debtor's property, its lender, or the cause of the filing -- had been published, so this record is limited to what the court docket itself shows.",
+        "Realty holding entities of this kind file Chapter 11 petitions regularly, and they make up a meaningful share of the current wave of small commercial bankruptcy filings tied to distressed acquisition, construction, or maturity debt. This tracker will update this entry, or add a related one, if further docket activity or independent reporting clarifies the debtor's property, its lender, and the circumstances of the filing."
+      ],
+      judge: null,
+      parties: [
+        { name: "Fortapache Realty LLC", role: "Debtor" }
+      ],
+      docketUrl: "https://www.courtlistener.com/docket/74923336/fortapache-realty-llc/",
+      docketLabel: "CourtListener docket",
+      tags: ["chapter-11", "bankruptcy", "single-asset-entity", "georgia"]
+    },
+    {
+      id: "live-249",
+      addedDate: "2026-10-09",
+      title: "200 Arpeggio Way LLC Chapter 11 Petition (N.D. Ga.)",
+      category: "lending-foreclosure",
+      status: "filed",
+      date: "2026-10-05",
+      jurisdiction: "United States Bankruptcy Court, Northern District of Georgia",
+      state: "GA",
+      amount: "Undisclosed (financial details not yet public)",
+      amountUsd: null,
+      source: "live",
+      sourceUrl: "https://www.courtlistener.com/docket/74919314/200-arpeggio-way-llc/",
+      summary: "200 Arpeggio Way LLC filed a Chapter 11 petition on October 5, 2026 in the United States Bankruptcy Court for the Northern District of Georgia, case number 26-63452. This entry reflects only what the federal court docket shows; no independent news coverage of the filing was available at the time it was added to this tracker.",
+      significance: "Single-asset, address-named real estate entities filing Chapter 11 make up a meaningful share of the current wave of small commercial bankruptcy filings in Georgia tied to distressed acquisition or maturity debt. This tracker will add further detail as public reporting or additional docket activity becomes available.",
+      body: [
+        "200 Arpeggio Way LLC filed a Chapter 11 petition on October 5, 2026 in the United States Bankruptcy Court for the Northern District of Georgia, docketed as case number 26-63452. As of this entry, no news coverage of the filing's underlying circumstances -- the nature of the debtor's property, its lender, or the cause of the filing -- had been published, so this record is limited to what the court docket itself shows.",
+        "Single-asset, address-named real estate entities of this kind file Chapter 11 petitions regularly, and they make up a meaningful share of the current wave of small commercial bankruptcy filings tied to distressed acquisition, construction, or maturity debt. This tracker will update this entry, or add a related one, if further docket activity or independent reporting clarifies the debtor's property, its lender, and the circumstances of the filing."
+      ],
+      judge: null,
+      parties: [
+        { name: "200 Arpeggio Way LLC", role: "Debtor" }
+      ],
+      docketUrl: "https://www.courtlistener.com/docket/74919314/200-arpeggio-way-llc/",
+      docketLabel: "CourtListener docket",
+      tags: ["chapter-11", "bankruptcy", "single-asset-entity", "georgia"]
     }
   ],
 
