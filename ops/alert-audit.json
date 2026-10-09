@@ -1,14 +1,14 @@
 {
  "ok": true,
- "generatedAt": "2026-10-08T18:01:13.593Z",
+ "generatedAt": "2026-10-09T02:31:16.667Z",
  "days": 30,
  "portfolios": 1,
  "entitiesWatched": 1,
  "sources": {
   "courtlistener": {
-   "stored": 1122,
+   "stored": 1134,
    "liveSince": "2026-09-19",
-   "lagSample": 465,
+   "lagSample": 477,
    "medianLagDays": 1,
    "p90LagDays": 2
   },
@@ -27,9 +27,9 @@
    "p90LagDays": 2
   },
   "harris_jp_tx": {
-   "stored": 26,
+   "stored": 31,
    "liveSince": "2026-09-20",
-   "lagSample": 20,
+   "lagSample": 25,
    "medianLagDays": 1,
    "p90LagDays": 2
   }
@@ -127,6 +127,11 @@
   },
   "2026-10-08": {
    "stored": 33,
+   "alerts": 0,
+   "emailed": 0
+  },
+  "2026-10-09": {
+   "stored": 17,
    "alerts": 0,
    "emailed": 0
   }
