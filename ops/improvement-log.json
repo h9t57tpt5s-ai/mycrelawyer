@@ -13,6 +13,19 @@
    "baseline": 92,
    "checkAfter": "2026-10-10",
    "status": "watching"
+  },
+  {
+   "id": "imp-002",
+   "date": "2026-10-09",
+   "title": "Cleared the remaining 16 orphan root pages (state guides, author bio, newsletter, handbook redirect)",
+   "why": "site_audit.py (--print, re-run live this session) showed orphanPages still at 16 after imp-001: the 13 state-guide deep-dive pages, only linked from state-guides.html's JS-built state picker (same shape as imp-001's company/judge pages); author-jeff-novel.html and newsletter.html, with zero static inbound links anywhere on the site; and handbook.html, a pure client-side redirect stub to eviction-guide.html that a crawler would never follow in. This was backlog item 2.",
+   "files": ["state-guides.html", "about.html", "index.html", "handbook.html", "sitemap.xml"],
+   "commit": "ed58fe60d636ef28c3aca63eae7d578548e0308b",
+   "metric": "audit.summary.orphanPages",
+   "window": "next day's audit snapshot",
+   "baseline": 16,
+   "checkAfter": "2026-10-10",
+   "status": "watching"
   }
  ]
 }
