@@ -362,7 +362,7 @@
   </url>
   <url>
     <loc>https://credocket.com/index.html</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-09</lastmod>
     <priority>1.0</priority>
   </url>
   <url>
@@ -617,7 +617,7 @@
   </url>
   <url>
     <loc>https://credocket.com/litigation.html</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-09</lastmod>
     <priority>0.9</priority>
   </url>
   <url>
@@ -1913,6 +1913,26 @@
   <url>
     <loc>https://credocket.com/matters/live-242.html</loc>
     <lastmod>2026-10-08</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://credocket.com/matters/live-243.html</loc>
+    <lastmod>2026-10-09</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://credocket.com/matters/live-244.html</loc>
+    <lastmod>2026-10-09</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://credocket.com/matters/live-245.html</loc>
+    <lastmod>2026-10-09</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://credocket.com/matters/live-246.html</loc>
+    <lastmod>2026-10-09</lastmod>
     <priority>0.6</priority>
   </url>
   <url>
