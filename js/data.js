@@ -16,7 +16,7 @@ const RELAW_DATA = {
      Drives the homepage's "New Today" pill: it only shows when this
      equals the visitor's local today. Updated by the digest automation
      each time Step 4 successfully adds a case — never touched otherwise. */
-  lastUpdatedDate: "2026-10-08",
+  lastUpdatedDate: "2026-10-09",
   categories: [
     { id: "landlord-tenant", label: "Landlord–Tenant", color: "var(--cat-landlord)" },
     { id: "zoning-land-use", label: "Zoning & Land Use", color: "var(--cat-zoning)" },
@@ -8080,6 +8080,123 @@ const RELAW_DATA = {
       docketUrl: "https://www.courtlistener.com/docket/74937404/148-bay-43rd-llc/",
       docketLabel: "CourtListener docket",
       tags: ["chapter-11", "bankruptcy", "single-asset-entity", "new-york"]
+    },
+    {
+      id: "live-243",
+      addedDate: "2026-10-09",
+      featured: true,
+      title: "Puerto Rico Court Dismisses DBR Dorado's Bid to Block Hilton-Branded Hotel",
+      category: "zoning-land-use",
+      status: "ruling",
+      date: "2026-10-06",
+      jurisdiction: "Bayamón Court of First Instance, Puerto Rico",
+      amount: "$48 million development at stake",
+      amountUsd: 48000000,
+      amountBasis: "other",
+      source: "live",
+      sourceUrl: "https://www.elnuevodia.com/english/business/story/court-dismisses-lawsuit-seeking-to-block-hiltons-new-hotel-in-dorado/",
+      summary: "The Bayamón Court of First Instance dismissed, with prejudice, a lawsuit by DBR Dorado Owner LLC seeking to halt construction of the 171-room Casa Dorado hotel, a Tapestry Collection by Hilton project developed by The Dawn Hotel at Dorado LLC. DBR had argued the project violated land-use restrictions barring lodging facilities and buildings over two stories, but the court found DBR had known of the development since 2020 and waited more than five years to challenge it.",
+      significance: "The ruling shows how laches and delay doctrines can defeat a restrictive-covenant or land-use challenge regardless of its substantive merit, a risk relevant to any commercial landowner holding enforcement rights over a neighboring parcel under a recorded master declaration or covenant. Developers in resort and mixed-use markets facing a dormant but plausible restrictive-rights claim from a neighboring owner can draw on the same delay defense if that owner waits years to object while construction proceeds.",
+      body: [
+        "A Puerto Rico trial court has dismissed, with prejudice, a lawsuit that sought to halt construction of a 171-room hotel in Dorado on the grounds that the project violated land-use restrictions governing the surrounding development. The ruling, entered by the Bayamón Court of First Instance and reported October 6, 2026, closes out, at least at the trial level, a dispute that pitted one commercial property owner against a competing hotel developer over restrictive conditions recorded against a shared parcel of land, and offers a pointed reminder to commercial landowners that the right to enforce land-use restrictions can expire long before the underlying document does.",
+        "The plaintiff, DBR Dorado Owner LLC, which holds the land underlying the Dorado Beach Resort complex, sued to stop construction of the Casa Dorado project, a 171-room hotel operating under Hilton's Tapestry Collection brand and developed by The Dawn Hotel at Dorado LLC. DBR's theory was straightforward: in a notice to its own residents and in its pleadings, the company asserted that land-use restrictions applicable to the site barred lodging facilities altogether and capped any structure at two stories. A 171-room hotel, DBR argued, exceeded both limits, and DBR said it had never been asked to evaluate or approve the project's plans.",
+        "The Dawn, for its part, framed the stakes in stark financial terms, telling the court that DBR's claim put a $48 million investment and hundreds of construction and hospitality jobs at risk. The company asked the Bayamón court to dismiss the suit outright rather than litigate the merits of the land-use restrictions, and the court agreed, but not on the substantive question of what the restrictions actually permit. Instead, the court's dismissal turned on timing: the judge found that DBR had been aware of the Casa Dorado development since 2020, yet waited more than five years to bring a legal challenge to it. By the time DBR sued, in the court's assessment, the delay had itself become fatal to the claim, and the dismissal was entered with prejudice, foreclosing DBR from refiling the same claim. Press accounts indicate the hotel, already substantially built out by the time of the ruling, remains on track to open during Thanksgiving week in 2027.",
+        "For commercial real estate owners and developers, the decision is a useful illustration of how delay doctrines, laches, waiver, and analogous timeliness defenses operate independently of the underlying merits of a land-use or restrictive-covenant dispute. A restriction can be real, specific, and even plainly violated on its face, and a challenge to it can still fail if the party seeking to enforce it sat on its rights while the opposing party invested capital and broke ground in reliance on the status quo. The case also underscores that in resort and hospitality markets, where adjacent landowners frequently operate under decades-old master declarations negotiated long before any particular project was contemplated, disputes over what those documents actually permit often surface only after a competing project is well underway.",
+        "The practical upshot cuts both ways. Commercial landowners who hold enforcement rights under restrictive covenants, deed restrictions, or land-use agreements should treat any competing development they believe violates those terms as requiring prompt action, sending objection notices and, if necessary, filing suit well before a project reaches substantial completion, since years of visible inaction can support a laches-based dismissal regardless of the covenant's substantive merits. Developers facing a neighbor with plausible but dormant restrictive rights should document that neighbor's actual or constructive knowledge of the project from its earliest stages, since that record becomes the foundation of a delay defense if litigation follows later, and parties on both sides of recorded land-use restrictions in multi-owner developments should periodically reassess whether those restrictions remain enforceable against current development plans rather than assuming a decades-old document will be read and enforced exactly as written whenever a dispute eventually arises."
+      ],
+      judge: null,
+      propertyType: "Hospitality",
+      parties: [
+        { name: "DBR Dorado Owner LLC", role: "Plaintiff" },
+        { name: "The Dawn Hotel at Dorado LLC", role: "Defendant" }
+      ],
+      tags: ["hotel-development", "land-use-restrictions", "puerto-rico", "hilton", "laches"],
+      timeline: [
+        { when: "2020", label: "DBR Dorado Owner LLC becomes aware of the Casa Dorado hotel development" },
+        { when: "August 2026", label: "The Dawn Hotel at Dorado LLC moves to dismiss DBR's suit seeking to halt construction" },
+        { when: "October 6, 2026", label: "Bayamón Court of First Instance dismisses DBR's suit with prejudice on delay grounds", current: true }
+      ]
+    },
+    {
+      id: "live-244",
+      addedDate: "2026-10-09",
+      title: "315 South Beverly Drive, LLC Chapter 11 Petition (C.D. Cal.)",
+      category: "lending-foreclosure",
+      status: "filed",
+      date: "2026-10-08",
+      jurisdiction: "United States Bankruptcy Court, Central District of California",
+      state: "CA",
+      amount: "Undisclosed (financial details not yet public)",
+      amountUsd: null,
+      source: "live",
+      sourceUrl: "https://www.courtlistener.com/docket/74941502/315-south-beverly-drive-llc/",
+      summary: "315 South Beverly Drive, LLC filed a Chapter 11 petition on October 8, 2026 in the United States Bankruptcy Court for the Central District of California, case number 2:26-bk-20221. This entry reflects only what the federal court docket shows; no independent news coverage of the filing was available at the time it was added to this tracker.",
+      significance: "Single-asset, address-named real estate entities filing Chapter 11 make up a meaningful share of the current wave of small commercial bankruptcy filings in Southern California tied to distressed acquisition or maturity debt. This tracker will add further detail as public reporting or additional docket activity becomes available.",
+      body: [
+        "315 South Beverly Drive, LLC filed a Chapter 11 petition on October 8, 2026 in the United States Bankruptcy Court for the Central District of California, docketed as case number 2:26-bk-20221. As of this entry, no news coverage of the filing's underlying circumstances -- the nature of the debtor's property, its lender, or the cause of the filing -- had been published, so this record is limited to what the court docket itself shows.",
+        "Beverly Hills single-asset entities named for a property's street address file Chapter 11 petitions of this kind regularly, and they make up a meaningful share of the current wave of small commercial bankruptcy filings tied to distressed acquisition, construction, or maturity debt. This tracker will update this entry, or add a related one, if further docket activity or independent reporting clarifies the debtor's property, its lender, and the circumstances of the filing."
+      ],
+      judge: null,
+      parties: [
+        { name: "315 South Beverly Drive, LLC", role: "Debtor" }
+      ],
+      docketUrl: "https://www.courtlistener.com/docket/74941502/315-south-beverly-drive-llc/",
+      docketLabel: "CourtListener docket",
+      tags: ["chapter-11", "bankruptcy", "single-asset-entity", "california"]
+    },
+    {
+      id: "live-245",
+      addedDate: "2026-10-09",
+      title: "JRM Real Estate Holdings LLC Chapter 11 Petition (D.N.J.)",
+      category: "lending-foreclosure",
+      status: "filed",
+      date: "2026-10-06",
+      jurisdiction: "United States Bankruptcy Court, District of New Jersey",
+      state: "NJ",
+      amount: "Undisclosed (financial details not yet public)",
+      amountUsd: null,
+      source: "live",
+      sourceUrl: "https://www.courtlistener.com/docket/74928132/jrm-real-estate-holdings-llc/",
+      summary: "JRM Real Estate Holdings LLC filed a Chapter 11 petition on October 6, 2026 in the United States Bankruptcy Court for the District of New Jersey, case number 26-21388. This entry reflects only what the federal court docket shows; no independent news coverage of the filing was available at the time it was added to this tracker.",
+      significance: "Single-asset real estate holding entities filing Chapter 11 make up a meaningful share of the current wave of small commercial bankruptcy filings in New Jersey tied to distressed acquisition or maturity debt. This tracker will add further detail as public reporting or additional docket activity becomes available.",
+      body: [
+        "JRM Real Estate Holdings LLC filed a Chapter 11 petition on October 6, 2026 in the United States Bankruptcy Court for the District of New Jersey, docketed as case number 26-21388. As of this entry, no news coverage of the filing's underlying circumstances -- the nature of the debtor's property, its lender, or the cause of the filing -- had been published, so this record is limited to what the court docket itself shows.",
+        "Real estate holding entities of this kind file Chapter 11 petitions regularly, and they make up a meaningful share of the current wave of small commercial bankruptcy filings tied to distressed acquisition, construction, or maturity debt. This tracker will update this entry, or add a related one, if further docket activity or independent reporting clarifies the debtor's property, its lender, and the circumstances of the filing."
+      ],
+      judge: null,
+      parties: [
+        { name: "JRM Real Estate Holdings LLC", role: "Debtor" }
+      ],
+      docketUrl: "https://www.courtlistener.com/docket/74928132/jrm-real-estate-holdings-llc/",
+      docketLabel: "CourtListener docket",
+      tags: ["chapter-11", "bankruptcy", "single-asset-entity", "new-jersey"]
+    },
+    {
+      id: "live-246",
+      addedDate: "2026-10-09",
+      title: "DMK Real Estate Holdings LLC Chapter 11 Petition (M.D. Pa.)",
+      category: "lending-foreclosure",
+      status: "filed",
+      date: "2026-10-05",
+      jurisdiction: "United States Bankruptcy Court, Middle District of Pennsylvania",
+      state: "PA",
+      amount: "Undisclosed (financial details not yet public)",
+      amountUsd: null,
+      source: "live",
+      sourceUrl: "https://www.courtlistener.com/docket/74919063/dmk-real-estate-holdings-llc/",
+      summary: "DMK Real Estate Holdings LLC filed a Chapter 11 petition on October 5, 2026 in the United States Bankruptcy Court for the Middle District of Pennsylvania, case number 5:26-bk-02893. This entry reflects only what the federal court docket shows; no independent news coverage of the filing was available at the time it was added to this tracker.",
+      significance: "Single-asset real estate holding entities filing Chapter 11 make up a meaningful share of the current wave of small commercial bankruptcy filings in Pennsylvania tied to distressed acquisition or maturity debt. This tracker will add further detail as public reporting or additional docket activity becomes available.",
+      body: [
+        "DMK Real Estate Holdings LLC filed a Chapter 11 petition on October 5, 2026 in the United States Bankruptcy Court for the Middle District of Pennsylvania, docketed as case number 5:26-bk-02893. As of this entry, no news coverage of the filing's underlying circumstances -- the nature of the debtor's property, its lender, or the cause of the filing -- had been published, so this record is limited to what the court docket itself shows.",
+        "Real estate holding entities of this kind file Chapter 11 petitions regularly, and they make up a meaningful share of the current wave of small commercial bankruptcy filings tied to distressed acquisition, construction, or maturity debt. This tracker will update this entry, or add a related one, if further docket activity or independent reporting clarifies the debtor's property, its lender, and the circumstances of the filing."
+      ],
+      judge: null,
+      parties: [
+        { name: "DMK Real Estate Holdings LLC", role: "Debtor" }
+      ],
+      docketUrl: "https://www.courtlistener.com/docket/74919063/dmk-real-estate-holdings-llc/",
+      docketLabel: "CourtListener docket",
+      tags: ["chapter-11", "bankruptcy", "single-asset-entity", "pennsylvania"]
     }
   ],
 
