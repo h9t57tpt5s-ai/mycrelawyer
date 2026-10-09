@@ -1,18 +1,18 @@
 {
  "date": "2026-10-09",
- "generatedAt": "2026-10-09T01:36:00+00:00",
+ "generatedAt": "2026-10-09T19:43:09+00:00",
  "note": "Visits are tab sessions from js/track.js (crawlers filtered); the site is small, so read 7- and 28-day windows, not single days.",
  "last1Day": {
-  "visits": 29,
-  "pageViews": 37,
-  "multiPageVisits": 2,
-  "multiPageRate": 0.069,
+  "visits": 17,
+  "pageViews": 17,
+  "multiPageVisits": 0,
+  "multiPageRate": 0.0,
   "funnel": {
-   "viewedAMatter": 19,
+   "viewedAMatter": 14,
    "sawSignInPrompt": 0,
-   "openedSignIn": 1,
-   "signedUpOrIn": 1,
-   "readFullWriteUp": 4,
+   "openedSignIn": 0,
+   "signedUpOrIn": 0,
+   "readFullWriteUp": 1,
    "clickedWatchlist": 0,
    "shared": 0
   },
@@ -20,48 +20,34 @@
   "follows": 0,
   "newsletterSignups": 0,
   "contactSends": 0,
-  "sourceClicks": 2,
+  "sourceClicks": 3,
   "searches": 0,
   "byEvent": {
-   "matter_page_view": 22,
-   "page_view": 15,
-   "panel_open": 8,
-   "full_read": 8,
-   "magic_link_sent": 2,
-   "source_click": 2,
-   "signin_open": 1
+   "matter_page_view": 13,
+   "page_view": 4,
+   "source_click": 3,
+   "panel_open": 1,
+   "full_read": 1
   },
   "topPages": [
    [
     "/matters/live-208.html",
-    14
-   ],
-   [
-    "/litigation.html",
-    7
+    5
    ],
    [
     "/",
-    7
-   ],
-   [
-    "/matters/live-166.html",
     2
    ],
    [
-    "/matters/live-048.html",
-    1
+    "/matters/live-148.html",
+    2
    ],
    [
-    "/matters/live-067.html",
-    1
+    "/matters/live-188.html",
+    2
    ],
    [
-    "/matters/live-132.html",
-    1
-   ],
-   [
-    "/lawsuit-watch.html",
+    "/matters/live-025.html",
     1
    ],
    [
@@ -69,51 +55,59 @@
     1
    ],
    [
-    "/matters/live-202.html",
+    "/litigation.html",
+    1
+   ],
+   [
+    "/matters/live-221.html",
+    1
+   ],
+   [
+    "/matters/live-116.html",
+    1
+   ],
+   [
+    "/updates.html",
     1
    ]
   ],
   "landingReferrers": [
    [
-    "direct or unknown",
-    16
+    "google.com",
+    7
    ],
    [
-    "google.com",
-    12
+    "direct or unknown",
+    7
    ],
    [
     "vercel.com",
+    1
+   ],
+   [
+    "utm:chatgpt.com",
+    1
+   ],
+   [
+    "vertexaisearch.cloud.google",
     1
    ]
   ],
   "topMatters": [
    [
     "live-208",
-    14
+    5
    ],
    [
-    "live-202",
-    6
-   ],
-   [
-    "live-222",
-    3
-   ],
-   [
-    "live-166",
+    "live-148",
     2
    ],
    [
-    "live-048",
-    1
+    "live-188",
+    2
    ],
    [
-    "live-067",
-    1
-   ],
-   [
-    "live-132",
+    "live-025",
     1
    ],
    [
@@ -121,22 +115,30 @@
     1
    ],
    [
-    "live-025",
+    "live-069",
+    1
+   ],
+   [
+    "live-221",
+    1
+   ],
+   [
+    "live-116",
     1
    ]
   ]
  },
  "last7Days": {
-  "visits": 550,
-  "pageViews": 593,
-  "multiPageVisits": 21,
-  "multiPageRate": 0.0382,
+  "visits": 561,
+  "pageViews": 606,
+  "multiPageVisits": 22,
+  "multiPageRate": 0.0392,
   "funnel": {
-   "viewedAMatter": 390,
+   "viewedAMatter": 399,
    "sawSignInPrompt": 84,
    "openedSignIn": 4,
    "signedUpOrIn": 4,
-   "readFullWriteUp": 11,
+   "readFullWriteUp": 12,
    "clickedWatchlist": 0,
    "shared": 1
   },
@@ -144,15 +146,15 @@
   "follows": 0,
   "newsletterSignups": 0,
   "contactSends": 0,
-  "sourceClicks": 18,
+  "sourceClicks": 19,
   "searches": 0,
   "byEvent": {
-   "matter_page_view": 324,
-   "page_view": 269,
-   "panel_open": 109,
+   "matter_page_view": 334,
+   "page_view": 272,
+   "panel_open": 110,
    "gate_shown": 87,
-   "full_read": 22,
-   "source_click": 18,
+   "full_read": 23,
+   "source_click": 19,
    "signin_open": 4,
    "signup": 2,
    "magic_link_sent": 2,
@@ -162,15 +164,15 @@
   "topPages": [
    [
     "/litigation.html",
-    162
+    163
    ],
    [
     "/matters/live-208.html",
-    63
+    66
    ],
    [
     "/",
-    37
+    38
    ],
    [
     "/contact.html",
@@ -178,7 +180,7 @@
    ],
    [
     "/matters/live-221.html",
-    20
+    21
    ],
    [
     "/matters/live-198.html",
@@ -204,11 +206,11 @@
   "landingReferrers": [
    [
     "direct or unknown",
-    425
+    430
    ],
    [
     "google.com",
-    114
+    118
    ],
    [
     "vercel.com",
@@ -216,7 +218,7 @@
    ],
    [
     "utm:chatgpt.com",
-    3
+    4
    ],
    [
     "test",
@@ -229,16 +231,20 @@
    [
     "utm:credocket",
     1
+   ],
+   [
+    "vertexaisearch.cloud.google",
+    1
    ]
   ],
   "topMatters": [
    [
     "live-208",
-    72
+    75
    ],
    [
     "live-221",
-    20
+    21
    ],
    [
     "live-198",
@@ -257,6 +263,10 @@
     6
    ],
    [
+    "live-148",
+    6
+   ],
+   [
     "live-166",
     5
    ],
@@ -266,25 +276,21 @@
    ],
    [
     "live-201",
-    4
-   ],
-   [
-    "live-200",
     4
    ]
   ]
  },
  "last28Days": {
-  "visits": 550,
-  "pageViews": 593,
-  "multiPageVisits": 21,
-  "multiPageRate": 0.0382,
+  "visits": 561,
+  "pageViews": 606,
+  "multiPageVisits": 22,
+  "multiPageRate": 0.0392,
   "funnel": {
-   "viewedAMatter": 390,
+   "viewedAMatter": 399,
    "sawSignInPrompt": 84,
    "openedSignIn": 4,
    "signedUpOrIn": 4,
-   "readFullWriteUp": 11,
+   "readFullWriteUp": 12,
    "clickedWatchlist": 0,
    "shared": 1
   },
@@ -292,15 +298,15 @@
   "follows": 0,
   "newsletterSignups": 0,
   "contactSends": 0,
-  "sourceClicks": 18,
+  "sourceClicks": 19,
   "searches": 0,
   "byEvent": {
-   "matter_page_view": 324,
-   "page_view": 269,
-   "panel_open": 109,
+   "matter_page_view": 334,
+   "page_view": 272,
+   "panel_open": 110,
    "gate_shown": 87,
-   "full_read": 22,
-   "source_click": 18,
+   "full_read": 23,
+   "source_click": 19,
    "signin_open": 4,
    "signup": 2,
    "magic_link_sent": 2,
@@ -310,15 +316,15 @@
   "topPages": [
    [
     "/litigation.html",
-    162
+    163
    ],
    [
     "/matters/live-208.html",
-    63
+    66
    ],
    [
     "/",
-    37
+    38
    ],
    [
     "/contact.html",
@@ -326,7 +332,7 @@
    ],
    [
     "/matters/live-221.html",
-    20
+    21
    ],
    [
     "/matters/live-198.html",
@@ -352,11 +358,11 @@
   "landingReferrers": [
    [
     "direct or unknown",
-    425
+    430
    ],
    [
     "google.com",
-    114
+    118
    ],
    [
     "vercel.com",
@@ -364,7 +370,7 @@
    ],
    [
     "utm:chatgpt.com",
-    3
+    4
    ],
    [
     "test",
@@ -377,16 +383,20 @@
    [
     "utm:credocket",
     1
+   ],
+   [
+    "vertexaisearch.cloud.google",
+    1
    ]
   ],
   "topMatters": [
    [
     "live-208",
-    72
+    75
    ],
    [
     "live-221",
-    20
+    21
    ],
    [
     "live-198",
@@ -405,6 +415,10 @@
     6
    ],
    [
+    "live-148",
+    6
+   ],
+   [
     "live-166",
     5
    ],
@@ -414,10 +428,6 @@
    ],
    [
     "live-201",
-    4
-   ],
-   [
-    "live-200",
     4
    ]
   ]
@@ -431,30 +441,30 @@
    "weakDescription": 10,
    "missingCanonical": 0,
    "duplicateTitles": 0,
-   "orphanPages": 92,
+   "orphanPages": 0,
    "missingFromSitemap": 0,
    "sitemapUrlsWithoutFile": 0,
    "imagesWithoutAlt": 0,
    "heavyPages": 0
   },
   "freshness": {
-   "matters": 224,
-   "newestMatterAdded": "2026-10-08",
-   "daysSinceNewestMatter": 1,
-   "ch11Petitions": 112,
+   "matters": 228,
+   "newestMatterAdded": "2026-10-09",
+   "daysSinceNewestMatter": 0,
+   "ch11Petitions": 113,
    "newestCh11Petition": "2026-10-08",
    "daysSinceNewestCh11": 1,
-   "federalSuits": 52,
-   "newestFederalSuit": "2026-10-08",
-   "daysSinceNewestSuit": 1
+   "federalSuits": 59,
+   "newestFederalSuit": "2026-10-09",
+   "daysSinceNewestSuit": 0
   },
-  "pagesChecked": 552
+  "pagesChecked": 564
  },
  "pipelines": {
-  "chapter11Petitions": 112,
-  "federalSuits": 52,
+  "chapter11Petitions": 113,
+  "federalSuits": 59,
   "secLeads": 1,
   "wireLeads": 1,
-  "leadsHandled": 4
+  "leadsHandled": 8
  }
 }
