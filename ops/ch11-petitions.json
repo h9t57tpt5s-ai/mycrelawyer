@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-09T17:35:22+00:00",
+ "updatedAt": "2026-10-10T01:55:53+00:00",
  "about": "Commercial real estate Chapter 11 petitions filed in the last year, from federal court records via CourtListener; is_cre_debtor in scripts/ingest_court_filings.py decides which. Business debtors only. Builds bankruptcy-watch.html and chapter-11/<slug>.html (scripts/build_record_pages.ts).",
  "filings": [
   {

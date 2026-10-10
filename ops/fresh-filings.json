@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-09T17:35:22+00:00",
+ "updatedAt": "2026-10-10T01:55:53+00:00",
  "about": "Commercial real estate Chapter 11 petitions filed in the last four days, from federal court records via CourtListener. Same name test as Chapter 11 Watch (is_cre_debtor in scripts/ingest_court_filings.py). Business debtors only.",
  "filings": [
   {
@@ -154,50 +154,6 @@
    "docketUrl": "https://www.courtlistener.com/docket/74928372/4210-w-carmen-st-llc/",
    "docketId": 74928372,
    "slug": "4210-w-carmen-st-llc-flmb-8-26-bk-09102",
-   "type": "Chapter 11 petition"
-  },
-  {
-   "caseName": "Janam Taccoa Lodging LLC",
-   "court": "United States Bankruptcy Court, N.D. Georgia",
-   "courtId": "ganb",
-   "docketNumber": "26-63515",
-   "dateFiled": "2026-10-05",
-   "docketUrl": "https://www.courtlistener.com/docket/74922099/janam-taccoa-lodging-llc/",
-   "docketId": 74922099,
-   "slug": "janam-taccoa-lodging-llc-ganb-26-63515",
-   "type": "Chapter 11 petition"
-  },
-  {
-   "caseName": "DMK Real Estate Holdings LLC",
-   "court": "United States Bankruptcy Court, M.D. Pennsylvania",
-   "courtId": "pamb",
-   "docketNumber": "5:26-bk-02893",
-   "dateFiled": "2026-10-05",
-   "docketUrl": "https://www.courtlistener.com/docket/74919063/dmk-real-estate-holdings-llc/",
-   "docketId": 74919063,
-   "slug": "dmk-real-estate-holdings-llc-pamb-5-26-bk-02893",
-   "type": "Chapter 11 petition"
-  },
-  {
-   "caseName": "Cornerstone Development, LLC",
-   "court": "United States Bankruptcy Court, N.D. Georgia",
-   "courtId": "ganb",
-   "docketNumber": "26-63513",
-   "dateFiled": "2026-10-05",
-   "docketUrl": "https://www.courtlistener.com/docket/74922018/cornerstone-development-llc/",
-   "docketId": 74922018,
-   "slug": "cornerstone-development-llc-ganb-26-63513",
-   "type": "Chapter 11 petition"
-  },
-  {
-   "caseName": "200 Arpeggio Way LLC",
-   "court": "United States Bankruptcy Court, N.D. Georgia",
-   "courtId": "ganb",
-   "docketNumber": "26-63452",
-   "dateFiled": "2026-10-05",
-   "docketUrl": "https://www.courtlistener.com/docket/74919314/200-arpeggio-way-llc/",
-   "docketId": 74919314,
-   "slug": "200-arpeggio-way-llc-ganb-26-63452",
    "type": "Chapter 11 petition"
   }
  ]
