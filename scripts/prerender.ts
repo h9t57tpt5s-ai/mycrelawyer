@@ -19,6 +19,7 @@ type Data = {
   statuses: { id: string; label: string; color: string }[];
   cases: Case[];
   trackedParties?: { name: string; slug?: string; matchTerm?: string }[];
+  judges?: { name: string; slug?: string }[];
 };
 
 const src = await Deno.readTextFile("js/data.js");
@@ -127,6 +128,37 @@ const realStates = [...states].filter((s) => s !== "DC").length;
 const withDC = states.has("DC");
 const statesLabel = `${realStates} state${realStates === 1 ? "" : "s"}${withDC ? " and D.C." : ""}`;
 const written: string[] = [];
+
+// ---- companies.html / judges.html: A-Z link lists -----------------------
+// Backlog item 0 (2026-10-09): these lists used to be hand-written, so a
+// company or judge the digest added later had no static link and site_audit
+// counted its profile page as an orphan (imp-001/imp-002 fixed the lists as
+// they stood then; imp-003 moved generation here so a new entry is linked
+// automatically as soon as its profile page exists).
+async function fileExists(path: string): Promise<boolean> {
+  try { await Deno.stat(path); return true; } catch { return false; }
+}
+async function azList(entries: { name: string; slug?: string }[], prefix: string): Promise<string> {
+  const withPages: { name: string; slug: string }[] = [];
+  for (const e of entries) {
+    if (!e.slug) continue;
+    if (await fileExists(`${prefix}-${e.slug}.html`)) withPages.push({ name: e.name, slug: e.slug });
+  }
+  withPages.sort((a, b) => a.name.localeCompare(b.name));
+  return withPages.map((e) => `<a href="${prefix}-${e.slug}.html" style="font-size:12.5px;">${esc(e.name)}</a>`).join("\n      ");
+}
+{
+  const f = "companies.html";
+  let h = await Deno.readTextFile(f);
+  h = fill(h, "companies-az-list", await azList(data.trackedParties ?? [], "company"), f);
+  await Deno.writeTextFile(f, h); written.push(f);
+}
+{
+  const f = "judges.html";
+  let h = await Deno.readTextFile(f);
+  h = fill(h, "judges-az-list", await azList(data.judges ?? [], "judge"), f);
+  await Deno.writeTextFile(f, h); written.push(f);
+}
 
 // ---- index.html ---------------------------------------------------------
 {
