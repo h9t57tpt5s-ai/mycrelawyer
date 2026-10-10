@@ -12,7 +12,8 @@
    "window": "next day's audit snapshot",
    "baseline": 92,
    "checkAfter": "2026-10-10",
-   "status": "watching"
+   "status": "helped",
+   "verdict": {"date": "2026-10-10", "value": 1, "note": "Live site_audit.py run: orphanPages 92 -> 1 (98%+ drop); the one remaining orphan, judge-frank-volk.html, is a judge added to js/data.js after this change shipped, not a return of the original 92."}
   },
   {
    "id": "imp-002",
@@ -25,6 +26,20 @@
    "window": "next day's audit snapshot",
    "baseline": 16,
    "checkAfter": "2026-10-10",
+   "status": "helped",
+   "verdict": {"date": "2026-10-10", "value": 0, "note": "Live site_audit.py run: all of imp-002's targets (state guides, author bio, newsletter, handbook) remain linked; the one orphan present today (a judge page) is outside this change's scope."}
+  },
+  {
+   "id": "imp-003",
+   "date": "2026-10-10",
+   "title": "Moved companies.html/judges.html A-Z lists into scripts/prerender.ts",
+   "why": "Judging imp-001/imp-002 today (live site_audit.py, since no fresh ops/metrics snapshot had landed) found orphanPages at 1: judge-frank-volk.html, added to js/data.js after imp-001's hand-written A-Z list was last updated. This confirms backlog item 0 (Jeff's session, 2026-10-09): the hand-written lists go stale whenever the digest adds a party or judge. Generated the lists in scripts/prerender.ts from RELAW_DATA.trackedParties and RELAW_DATA.judges instead, filtered to slugs whose profile page exists, between prerender:companies-az-list/judges-az-list markers (same pattern as featured-grid). Baked the current output by hand since deno is unavailable in this cloud session; the prerender workflow regenerates it on future pushes.",
+   "files": ["companies.html", "judges.html", "scripts/prerender.ts"],
+   "commit": "de02843fa29d784d43e234b8b2bd499ec0e89fbe",
+   "metric": "audit.summary.orphanPages",
+   "window": "next day's audit snapshot",
+   "baseline": 1,
+   "checkAfter": "2026-10-11",
    "status": "watching"
   }
  ]
