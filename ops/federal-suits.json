@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-10T01:55:53+00:00",
+ "updatedAt": "2026-10-10T16:23:39+00:00",
  "about": "New federal civil cases between businesses or governments that name a commercial real estate business, or are real property foreclosure or lease cases between businesses, from federal court records via CourtListener; is_cre_suit in scripts/ingest_court_filings.py decides which. Builds lawsuit-watch.html and federal-cases/<slug>.html (scripts/build_record_pages.ts).",
  "filings": [
   {
