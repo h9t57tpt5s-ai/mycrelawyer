@@ -2383,8 +2383,9 @@ const RELAW_DATA = {
       timeline: [
         { when: "Late 2022–2023", label: "Individual suits accusing multifamily owners of RealPage-enabled rent coordination are filed and later consolidated into MDL No. 3071" },
         { when: "November 2025", label: "Court grants preliminary approval to an initial batch of RealPage MDL settlements" },
-        { when: "April 13, 2026", label: "Equity Residential discloses its $56M settlement in an SEC filing", current: true },
+        { when: "April 13, 2026", label: "Equity Residential discloses its $56M settlement in an SEC filing" },
         { when: "May 2026", label: "Court grants preliminary approval to eleven additional settlements, including Equity Residential's" },
+        { when: "October 9, 2026", label: "Court issues a Memorandum Opinion of the Court (docket entry 1587)", current: true },
         { when: "October 15, 2026", label: "Final fairness hearing before Judge Waverly D. Crenshaw Jr. in Nashville", upcoming: true }
       ],
       judge: "Waverly D. Crenshaw Jr.",
@@ -8317,6 +8318,119 @@ const RELAW_DATA = {
         { when: "July 21, 2026", label: "Federal judge's show-cause deadline passes after a July 16 refinancing-closing target is missed; $500M refinancing remains unclosed", current: true }
       ],
       tags: ["hospitality", "receivership", "west-virginia", "loan-default", "forbearance"]
+    },
+    {
+      id: "live-251",
+      addedDate: "2026-10-10",
+      featured: true,
+      title: "Deutsche Bank National Trust Co. v. Pembroke Lakes Mall LLC (CMBS Foreclosure & Receivership)",
+      category: "lending-foreclosure",
+      status: "filed",
+      date: "2026-10-08",
+      jurisdiction: "Circuit Court of the 17th Judicial Circuit, Broward County, Florida",
+      state: "FL",
+      amount: "$263.8M owed (principal, interest, and default interest) on a $260M loan",
+      amountUsd: 263800000,
+      amountBasis: "loan",
+      propertyType: "Retail",
+      source: "live",
+      sourceUrl: "https://therealdeal.com/miami/2026/10/08/pembroke-lakes-mall-faces-260-million-foreclosure/",
+      summary: "Deutsche Bank National Trust Company, as trustee for the GSMS 2013-PEMB CMBS trust, sued Pembroke Lakes Mall LLC in Broward County Circuit Court to foreclose on the roughly 750,000-square-foot Pembroke Pines, Florida mall owned by Brookfield's BGRE platform, after the $260 million loan matured unpaid on March 1, 2025. Deutsche Bank says the borrower now owes approximately $263.8 million as of September 1, 2026, and is separately asking the court to immediately appoint Carmen Spinoso of Spinoso Real Estate Group as receiver over the property.",
+      significance: "The mall's April 2026 appraisal of $112 million, down 73% from its $427 million value at the loan's 2013 closing, left the lender severely undersecured once a three-year extension request was denied -- illustrating how special servicers are moving quickly to foreclosure and receivership, rather than continued forbearance, once a valuation gap of this size is documented on legacy retail CMBS debt nationally.",
+      body: [
+        "Deutsche Bank National Trust Company has filed suit in Broward County Circuit Court to foreclose on Pembroke Lakes Mall, a roughly 750,000-square-foot regional mall in Pembroke Pines, Florida owned by an affiliate of Brookfield's real estate platform, BGRE (formerly Brookfield Properties). The suit, reported October 8, 2026, seeks both a foreclosure judgment against borrower Pembroke Lakes Mall LLC and the immediate appointment of a receiver, Carmen Spinoso of Spinoso Real Estate Group, to take control of the property while the case proceeds.",
+        "Deutsche Bank brings the suit as trustee for a 2013-vintage, single-asset, single-borrower CMBS trust, GSMS 2013-PEMB, sponsored by Goldman Sachs, that holds the $260 million, 12-year, interest-only, non-recourse loan secured by the mall. The loan matured on March 1, 2025, and the complaint alleges the borrower failed to repay it, triggering a maturity default. Deutsche Bank says it notified the borrower of default in April 2025 and again in April 2026, and that the total amount now due -- principal, accrued interest, and default interest -- stood at approximately $263.8 million as of September 1, 2026.",
+        "According to Kroll Bond Rating Agency, which rates the GSMS 2013-PEMB securitization and affirmed its ratings as recently as September 30, 2026, BGRE requested a three-year extension of the maturity date, which was not granted. The loan was transferred to special servicing following the 2025 maturity default. The valuation collapse underlying the default is stark: the property was appraised at $427 million when the loan closed in 2013, but a more recent appraisal, dated April 2026, values the mall at just $112 million, a decline of roughly 73 percent, leaving the lender meaningfully undersecured.",
+        "Procedurally, the case follows the standard playbook for a defaulted CMBS loan secured by Florida commercial real estate: Florida permits a mortgagee to seek appointment of a receiver concurrently with a foreclosure action, particularly where the lender can show the collateral's income stream or physical condition is at risk without independent management. By asking the court to install a receiver immediately, rather than waiting for a final foreclosure judgment, Deutsche Bank is seeking to secure control over leasing decisions, operating expenses, and tenant relationships at the mall while the underlying foreclosure claim is litigated.",
+        "For mall owners and other retail sponsors carrying 2012-2013-vintage CMBS debt now reaching maturity after a decade-plus of structural retail headwinds, the case illustrates the arithmetic that special servicers and courts are increasingly confronting: when a decade-old appraisal no longer bears any relationship to current value, extension requests become far harder to justify economically, and lenders have strong incentive to move quickly into receivership rather than continue carrying a severely impaired loan. Borrowers facing a similar maturity default should assume a wide valuation gap will make servicers and trustees far less receptive to extension requests and should expect foreclosure and receivership filings to follow quickly once an extension is denied, since lenders increasingly pursue receivership as an independent, faster remedy alongside -- not merely following -- a foreclosure claim, shifting operational control of a distressed asset away from the sponsor well before any final judgment."
+      ],
+      judge: null,
+      parties: [
+        { name: "Deutsche Bank National Trust Company", role: "Plaintiff/Trustee" },
+        { name: "Pembroke Lakes Mall LLC", role: "Defendant/Borrower" }
+      ],
+      tags: ["cmbs", "commercial-mortgage-foreclosure", "retail", "receivership", "florida"]
+    },
+    {
+      id: "live-252",
+      addedDate: "2026-10-10",
+      title: "Savage Squad Properties LLC Chapter 11 Petition (S.D. Tex.)",
+      category: "lending-foreclosure",
+      status: "filed",
+      date: "2026-10-06",
+      jurisdiction: "United States Bankruptcy Court, Southern District of Texas",
+      state: "TX",
+      amount: "Undisclosed (financial details not yet public)",
+      amountUsd: null,
+      source: "live",
+      sourceUrl: "https://www.courtlistener.com/docket/74923616/savage-squad-properties-llc/",
+      summary: "Savage Squad Properties LLC filed a Chapter 11 petition on October 6, 2026 in the United States Bankruptcy Court for the Southern District of Texas, case number 26-37555. This entry reflects only what the federal court docket shows; no independent news coverage of the filing was available at the time it was added to this tracker.",
+      significance: "Single-asset and small-portfolio real estate entities filing Chapter 11 continue to make up a meaningful share of the current wave of commercial bankruptcy filings in the Southern District of Texas tied to distressed acquisition or maturity debt. This tracker will add further detail as public reporting or additional docket activity becomes available.",
+      body: [
+        "Savage Squad Properties LLC filed a Chapter 11 petition on October 6, 2026 in the United States Bankruptcy Court for the Southern District of Texas, docketed as case number 26-37555. As of this entry, no news coverage of the filing's underlying circumstances -- the nature of the debtor's property, its lender, or the cause of the filing -- had been published, so this record is limited to what the court docket itself shows.",
+        "Texas property-holding entities of this kind file Chapter 11 petitions regularly, and they make up a meaningful share of the current wave of small commercial bankruptcy filings tied to distressed acquisition, construction, or maturity debt. This tracker will update this entry, or add a related one, if further docket activity or independent reporting clarifies the debtor's property, its lender, and the circumstances of the filing."
+      ],
+      judge: null,
+      parties: [
+        { name: "Savage Squad Properties LLC", role: "Debtor" }
+      ],
+      docketUrl: "https://www.courtlistener.com/docket/74923616/savage-squad-properties-llc/",
+      docketLabel: "CourtListener docket",
+      tags: ["chapter-11", "bankruptcy", "single-asset-entity", "texas"]
+    },
+    {
+      id: "live-253",
+      addedDate: "2026-10-10",
+      title: "Lesam Realty LLC Chapter 11 Petition (N.D. Ga.)",
+      category: "lending-foreclosure",
+      status: "filed",
+      date: "2026-10-06",
+      jurisdiction: "United States Bankruptcy Court, Northern District of Georgia",
+      state: "GA",
+      amount: "Undisclosed (financial details not yet public)",
+      amountUsd: null,
+      source: "live",
+      sourceUrl: "https://www.courtlistener.com/docket/74923337/lesam-realty-llc/",
+      summary: "Lesam Realty LLC filed a Chapter 11 petition on October 6, 2026 in the United States Bankruptcy Court for the Northern District of Georgia, case number 26-63571. This entry reflects only what the federal court docket shows; no independent news coverage of the filing was available at the time it was added to this tracker.",
+      significance: "Single-asset and small-portfolio realty entities filing Chapter 11 continue to make up a meaningful share of the current wave of commercial bankruptcy filings in the Northern District of Georgia tied to distressed acquisition or maturity debt. This tracker will add further detail as public reporting or additional docket activity becomes available.",
+      body: [
+        "Lesam Realty LLC filed a Chapter 11 petition on October 6, 2026 in the United States Bankruptcy Court for the Northern District of Georgia, docketed as case number 26-63571. As of this entry, no news coverage of the filing's underlying circumstances -- the nature of the debtor's property, its lender, or the cause of the filing -- had been published, so this record is limited to what the court docket itself shows.",
+        "Georgia realty-holding entities of this kind file Chapter 11 petitions regularly, and they make up a meaningful share of the current wave of small commercial bankruptcy filings tied to distressed acquisition, construction, or maturity debt. This tracker will update this entry, or add a related one, if further docket activity or independent reporting clarifies the debtor's property, its lender, and the circumstances of the filing."
+      ],
+      judge: null,
+      parties: [
+        { name: "Lesam Realty LLC", role: "Debtor" }
+      ],
+      docketUrl: "https://www.courtlistener.com/docket/74923337/lesam-realty-llc/",
+      docketLabel: "CourtListener docket",
+      tags: ["chapter-11", "bankruptcy", "single-asset-entity", "georgia"]
+    },
+    {
+      id: "live-254",
+      addedDate: "2026-10-10",
+      title: "4210 W Carmen St, LLC Chapter 11 Petition (M.D. Fla.)",
+      category: "lending-foreclosure",
+      status: "filed",
+      date: "2026-10-06",
+      jurisdiction: "United States Bankruptcy Court, Middle District of Florida",
+      state: "FL",
+      amount: "Undisclosed (financial details not yet public)",
+      amountUsd: null,
+      source: "live",
+      sourceUrl: "https://www.courtlistener.com/docket/74928372/4210-w-carmen-st-llc/",
+      summary: "4210 W Carmen St, LLC, a single-asset entity named for its Tampa address, filed a Chapter 11 petition on October 6, 2026 in the United States Bankruptcy Court for the Middle District of Florida, case number 8:26-bk-09102. This entry reflects only what the federal court docket shows; no independent news coverage of the filing was available at the time it was added to this tracker.",
+      significance: "Single-asset, address-named real estate entities filing Chapter 11 make up a meaningful share of the current wave of small commercial bankruptcy filings in Florida tied to distressed acquisition or maturity debt. This tracker will add further detail as public reporting or additional docket activity becomes available.",
+      body: [
+        "4210 W Carmen St, LLC filed a Chapter 11 petition on October 6, 2026 in the United States Bankruptcy Court for the Middle District of Florida, docketed as case number 8:26-bk-09102. As of this entry, no news coverage of the filing's underlying circumstances -- the nature of the debtor's property, its lender, or the cause of the filing -- had been published, so this record is limited to what the court docket itself shows.",
+        "Tampa-area single-asset entities named for a property's street address file Chapter 11 petitions of this kind regularly, and they make up a meaningful share of the current wave of small commercial bankruptcy filings tied to distressed acquisition, construction, or maturity debt. This tracker will update this entry, or add a related one, if further docket activity or independent reporting clarifies the debtor's property, its lender, and the circumstances of the filing."
+      ],
+      judge: null,
+      parties: [
+        { name: "4210 W Carmen St, LLC", role: "Debtor" }
+      ],
+      docketUrl: "https://www.courtlistener.com/docket/74928372/4210-w-carmen-st-llc/",
+      docketLabel: "CourtListener docket",
+      tags: ["chapter-11", "bankruptcy", "single-asset-entity", "florida"]
     }
   ],
 
