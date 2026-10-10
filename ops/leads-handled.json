@@ -8,6 +8,12 @@
     "https://www.courtlistener.com/docket/74940389/byblos-development-inc-v-first-citizens-bank-trust-company/": {"at": "2026-10-09", "action": "skipped: no reporting found explaining the dispute"},
     "https://www.courtlistener.com/docket/74930487/the-huntington-national-bank-v-rr-express-properties-llc/": {"at": "2026-10-09", "action": "skipped: underlying property is a residential home, not commercial real estate"},
     "https://www.courtlistener.com/docket/74929407/the-huntington-national-bank-v-rr-express-properties-llc/": {"at": "2026-10-09", "action": "skipped: underlying property is a residential home, not commercial real estate"},
-    "https://www.courtlistener.com/docket/74943194/ks-hotel-llc-v-state-farm-fire-and-casualty-insurance/": {"at": "2026-10-09", "action": "skipped: no reporting found explaining the dispute"}
+    "https://www.courtlistener.com/docket/74943194/ks-hotel-llc-v-state-farm-fire-and-casualty-insurance/": {"at": "2026-10-09", "action": "skipped: no reporting found explaining the dispute"},
+    "https://www.courtlistener.com/docket/74942348/us-bank-trust-national-association-not-in-its-individual-capacity-but/": {"at": "2026-10-10", "action": "skipped: no reporting found explaining the dispute"},
+    "https://www.courtlistener.com/docket/74942188/us-bank-national-association-not-in-its-individual-capacity-but-solely/": {"at": "2026-10-10", "action": "skipped: no reporting found explaining the dispute"},
+    "https://www.courtlistener.com/docket/74941787/natural-nydegger-transport-corporation-v-power-and-process-developments/": {"at": "2026-10-10", "action": "skipped: caption does not show a commercial real estate dispute on its face and no reporting found"},
+    "https://www.courtlistener.com/docket/74940024/heritage-properties-llp-v-auto-owners-insurance-company/": {"at": "2026-10-10", "action": "skipped: no reporting found explaining the dispute"},
+    "https://www.courtlistener.com/docket/74932772/payson-apartments-a-limited-partnership-v-united-states/": {"at": "2026-10-10", "action": "skipped: no reporting found explaining the dispute"},
+    "https://www.courtlistener.com/docket/74936135/newcastle-apartments-a-limited-partnership-v-united-states/": {"at": "2026-10-10", "action": "skipped: no reporting found explaining the dispute"}
   }
 }

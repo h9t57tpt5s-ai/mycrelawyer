@@ -5,6 +5,7 @@
   "71964352:52:2026-09-29:memorandum & opinion and ~util - set deadlines/hearings": {"caseId": "live-022", "at": "2026-09-30", "action": "outcome from pymnts.com / mlex.com / law360.com"},
   "69074245:223:2026-09-30:memorandum opinion and order": {"caseId": "live-062", "at": "2026-10-01", "action": "outcome from mlex.com / law360.com / carolinajournal.com"},
   "74638795:6:2026-10-08:request for default judgment by clerk": {"caseId": "live-031", "at": "2026-10-09", "action": "docket text only"},
-  "74941502:null:2026-10-09:notice of dismissal of case if required documents are not filed within 72 hours (van-197)": {"caseId": "live-244", "at": "2026-10-09", "action": "skipped: routine administrative deficiency notice, not a substantive ruling or outcome"}
+  "74941502:null:2026-10-09:notice of dismissal of case if required documents are not filed within 72 hours (van-197)": {"caseId": "live-244", "at": "2026-10-09", "action": "skipped: routine administrative deficiency notice, not a substantive ruling or outcome"},
+  "74941502::2026-10-09:notice of dismissal of case if required documents are not filed within 72 hours (van-197)": {"caseId": "live-244", "at": "2026-10-10", "action": "skipped: same event as above under the current key format (entry number now serializes as empty, not \"null\"); routine administrative deficiency notice, not a substantive ruling or outcome"}
  }
 }

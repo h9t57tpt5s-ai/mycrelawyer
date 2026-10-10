@@ -16,7 +16,7 @@ const RELAW_DATA = {
      Drives the homepage's "New Today" pill: it only shows when this
      equals the visitor's local today. Updated by the digest automation
      each time Step 4 successfully adds a case — never touched otherwise. */
-  lastUpdatedDate: "2026-10-09",
+  lastUpdatedDate: "2026-10-10",
   categories: [
     { id: "landlord-tenant", label: "Landlord–Tenant", color: "var(--cat-landlord)" },
     { id: "zoning-land-use", label: "Zoning & Land Use", color: "var(--cat-zoning)" },
@@ -8279,6 +8279,44 @@ const RELAW_DATA = {
       docketUrl: "https://www.courtlistener.com/docket/74919314/200-arpeggio-way-llc/",
       docketLabel: "CourtListener docket",
       tags: ["chapter-11", "bankruptcy", "single-asset-entity", "georgia"]
+    },
+    {
+      id: "live-250",
+      addedDate: "2026-10-10",
+      title: "White Sulphur Springs Holdings LLC v. Greenbrier Hotel Corporation (The Greenbrier Receivership Fight)",
+      category: "lending-foreclosure",
+      status: "pending",
+      date: "2026-07-21",
+      jurisdiction: "U.S. District Court for the Southern District of West Virginia",
+      state: "WV",
+      amount: "$289M in disputed loan debt; borrower has proposed a $500M refinancing to retire it",
+      amountUsd: 289000000,
+      amountBasis: "loan",
+      source: "live",
+      sourceUrl: "https://westvirginiawatch.com/2026/04/30/wv-sen-jim-justice-family-allege-conspiracy-by-bank-hotel-chain-to-snatch-the-greenbrier-resort/",
+      summary: "White Sulphur Springs Holdings LLC ('WSSH'), an entity backed by TRT Holdings Inc. (Omni Hotels' parent), sued Greenbrier Hotel Corporation in federal court in West Virginia seeking a receiver over The Greenbrier resort after a forbearance agreement on roughly $289 million in loans -- purchased at a discount from Carter Bank & Trust -- lapsed. Greenbrier Hotel Corporation countersued WSSH in state court and sought to stay the federal case, while the resort's ownership pursued a $500 million refinancing to pay off the WSSH debt; an initial July 16, 2026 closing deadline passed without a deal, and the federal judge ordered the borrower to show cause by July 21 why the receivership litigation should not resume.",
+      significance: "The dispute shows how a secured lender that buys distressed commercial debt at a discount can gain outsized leverage to force a receivership, and how a borrower with resources can fight the sequence of litigation across state and federal court while racing to close a refinancing. The resort's casino license and roughly $4.4 million in disputed state taxes are also entangled in the outcome, illustrating how a receivership fight over a licensed hospitality asset pulls in regulators and other creditors well beyond the named lender.",
+      body: [
+        "A legal fight over control of The Greenbrier, the historic luxury resort in White Sulphur Springs, West Virginia, has escalated from a loan dispute into a full test of a secured lender's remedies against a marquee commercial borrower. The case turns on roughly $289 million in debt that Carter Bank & Trust sold earlier this year to White Sulphur Springs Holdings LLC, an entity backed by TRT Holdings Inc., the parent company of Omni Hotels. After a forbearance agreement with the resort's owner, Greenbrier Hotel Corporation, lapsed, WSSH asked the U.S. District Court for the Southern District of West Virginia to install a receiver, hospitality executive Michelle Russo, with authority to take operational control of the property and, if necessary, pursue a sale or bankruptcy filing.",
+        "Greenbrier Hotel Corporation did not simply answer the federal complaint. Within days it filed its own suit against WSSH in Greenbrier County Circuit Court, and its attorneys separately asked the federal judge, Frank Volk, to stay the receivership case while the state action proceeds first. The state complaint accuses the bank and the hotel company of conspiring to acquire the discounted debt rather than negotiate a workout in good faith. West Virginia's state tax department has also moved to intervene in the federal case, seeking to recover roughly $4.4 million in unpaid consumer sales and service taxes tied to the property, illustrating how a receivership dispute over a large hospitality asset pulls in creditors well beyond the named lender.",
+        "The procedural posture is itself instructive: rather than litigating the merits of default in one forum, the borrower tried to control the sequence of litigation by filing first in a court it may view as more favorable, then asking the federal judge to pause his own case in deference to it. As that played out, the ownership announced a proposed $500 million refinancing, reportedly from New York-based lender Kennedy Lewis, intended to retire the WSSH debt outright and moot the receivership fight entirely.",
+        "That refinancing has not gone smoothly. An initial July 16, 2026 target for closing passed without a deal, prompting Judge Volk to order the borrower to show cause by July 21 why the receivership litigation should not simply resume. Filings around that deadline indicated the $500 million facility, secured by Greenbrier assets and by equity in the borrowing entity, was close but not yet finalized, with an August 7 outside date floated by the ownership side. The resort's casino license added another layer of exposure, since the West Virginia Lottery Commission's review of the ownership change led to a brief threat in mid-August that the casino could close and lay off roughly 90 employees before regulators confirmed it could keep operating during the review.",
+        "For commercial real estate lenders and borrowers, the case is a live reminder that a forbearance deadline will eventually be enforced by a court rather than extended indefinitely, and that a lender who bought distressed debt at a discount may be readier to pursue receivership than the originating bank would have been; owners facing a maturity default on a trophy asset should build realistic, not aspirational, timelines into any forbearance-to-refinancing bridge, lenders and special servicers evaluating a loan sale into a distressed situation should expect a well-resourced borrower to fight in multiple forums at once, both sides should loop in relevant state regulators early when a licensed hospitality property's gaming or liquor license is a collateral consequence of the fight, and counsel should recognize that a parallel state-court filing aimed at staying a federal receivership motion is a recognized defensive tactic whose success still depends on showing a credible, time-bound path to resolving the underlying default."
+      ],
+      judge: "Frank Volk",
+      parties: [
+        { name: "White Sulphur Springs Holdings LLC", role: "Plaintiff/Lender" },
+        { name: "TRT Holdings, Inc.", role: "Parent of Plaintiff" },
+        { name: "Greenbrier Hotel Corporation", role: "Defendant/Borrower" },
+        { name: "Carter Bank & Trust", role: "Original Lender" }
+      ],
+      propertyType: "Hospitality",
+      timeline: [
+        { when: "April 9, 2026", label: "White Sulphur Springs Holdings LLC files federal receivership complaint seeking appointment of a receiver over The Greenbrier" },
+        { when: "April 13, 2026", label: "Greenbrier Hotel Corporation sues WSSH in Greenbrier County Circuit Court and moves to stay the federal case" },
+        { when: "July 21, 2026", label: "Federal judge's show-cause deadline passes after a July 16 refinancing-closing target is missed; $500M refinancing remains unclosed", current: true }
+      ],
+      tags: ["hospitality", "receivership", "west-virginia", "loan-default", "forbearance"]
     }
   ],
 
@@ -8847,7 +8885,8 @@ const RELAW_DATA = {
     { jurisdiction: "Circuit Court of Will County, Illinois", url: "https://judges.willcountyillinois.com/" },
     { jurisdiction: "U.S. District Court, District of Colorado", url: "https://www.cod.uscourts.gov/" },
     { jurisdiction: "Penobscot County Superior Court, Maine", url: "https://www.courts.maine.gov/courts/superior/" },
-    { jurisdiction: "U.S. District Court, Northern District of Ohio", url: "https://www.ohnd.uscourts.gov/" }
+    { jurisdiction: "U.S. District Court, Northern District of Ohio", url: "https://www.ohnd.uscourts.gov/" },
+    { jurisdiction: "U.S. District Court for the Southern District of West Virginia", url: "https://www.wvsd.uscourts.gov/" }
   ],
 
   /* Judges — background on every judge named in our sourced reporting (never
@@ -9191,6 +9230,14 @@ const RELAW_DATA = {
       court: "U.S. District Court, Northern District of Ohio",
       background: "Nominated by President Biden on January 3, 2022 to a seat vacated by Judge Dan A. Polster, confirmed by the Senate on February 1, 2022, and commissioned that February. Previously an Assistant U.S. Attorney for the Northern District of Ohio from 2007 to 2022, including service as First Assistant U.S. Attorney from 2018 to 2021.",
       bioUrl: "https://www.fjc.gov/history/judges/brennan-bridget-meehan"
+    },
+    {
+      name: "Frank Volk",
+      slug: "frank-volk",
+      title: "Chief U.S. District Judge",
+      court: "U.S. District Court for the Southern District of West Virginia",
+      background: "Nominated by President Trump on April 4, 2019 to a seat vacated by Judge John Thomas Copenhaver, Jr., confirmed by the Senate on October 16, 2019. Previously served as a U.S. Bankruptcy Judge, and as chief bankruptcy judge, for the Southern District of West Virginia from 2015 to 2019.",
+      bioUrl: "https://www.fjc.gov/history/judges/volk-frank-william"
     }
   ],
 
