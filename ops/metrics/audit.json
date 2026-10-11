@@ -1,9 +1,9 @@
 {
- "generatedAt": "2026-10-10T18:49:23+00:00",
- "pagesChecked": 569,
+ "generatedAt": "2026-10-11T19:09:27+00:00",
+ "pagesChecked": 579,
  "pagesByFolder": {
   "root": 165,
-  "matters": 232,
+  "matters": 242,
   "chapter-11": 113,
   "federal-cases": 59
  },
@@ -12,7 +12,7 @@
   "missingTitle": 0,
   "longTitle": 0,
   "missingDescription": 2,
-  "weakDescription": 10,
+  "weakDescription": 3,
   "missingCanonical": 0,
   "duplicateTitles": 0,
   "orphanPages": 0,
@@ -22,15 +22,15 @@
   "heavyPages": 0
  },
  "freshness": {
-  "matters": 232,
-  "newestMatterAdded": "2026-10-10",
+  "matters": 242,
+  "newestMatterAdded": "2026-10-11",
   "daysSinceNewestMatter": 0,
   "ch11Petitions": 113,
   "newestCh11Petition": "2026-10-08",
-  "daysSinceNewestCh11": 2,
+  "daysSinceNewestCh11": 3,
   "federalSuits": 59,
   "newestFederalSuit": "2026-10-09",
-  "daysSinceNewestSuit": 1
+  "daysSinceNewestSuit": 2
  },
  "findings": {
   "brokenLinks": [],
@@ -52,34 +52,6 @@
    {
     "page": "reset-password.html",
     "chars": 46
-   },
-   {
-    "page": "matters/live-091.html",
-    "chars": 55
-   },
-   {
-    "page": "matters/live-102.html",
-    "chars": 56
-   },
-   {
-    "page": "matters/live-135.html",
-    "chars": 42
-   },
-   {
-    "page": "matters/live-137.html",
-    "chars": 2
-   },
-   {
-    "page": "matters/live-203.html",
-    "chars": 11
-   },
-   {
-    "page": "matters/live-210.html",
-    "chars": 38
-   },
-   {
-    "page": "matters/live-221.html",
-    "chars": 29
    }
   ],
   "missingCanonical": [],
