@@ -54,7 +54,8 @@
    "window": "next day's audit snapshot",
    "baseline": 10,
    "checkAfter": "2026-10-12",
-   "status": "watching"
+   "status": "helped",
+   "verdict": {"date": "2026-10-11", "value": 3, "note": "Confirmed same-day: the prerender workflow rebuilt all matter/record pages from the fixed builder (commit 0c21e23) within minutes of the push. Live site_audit.py: weakDescription 10 -> 3, and the 3 remaining are exactly the pages flagged as a separate, still-open issue (contact.html, handbook-success.html, reset-password.html), not this fix's targets. Judged now rather than at checkAfter since the result was already unambiguous."}
   }
  ]
 }
