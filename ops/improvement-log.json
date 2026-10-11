@@ -40,6 +40,20 @@
    "window": "next day's audit snapshot",
    "baseline": 1,
    "checkAfter": "2026-10-11",
+   "status": "helped",
+   "verdict": {"date": "2026-10-11", "value": 0, "note": "Live site_audit.py run: orphanPages 0 despite freshness.matters rising 232 -> 242 since imp-003 shipped, so the new judges/companies in that window linked themselves automatically instead of re-orphaning."}
+  },
+  {
+   "id": "imp-004",
+   "date": "2026-10-11",
+   "title": "Fixed dollar-figure text corrupting meta tags on matter/record pages",
+   "why": "audit.json's weakDescription list (10 pages) included 7 matter pages with implausibly short char counts (live-137: 2, live-203: 11). `grep -rl 'content=\"[^\"]*<meta ' matters/ chapter-11/ federal-cases/` found 31 published pages where a second <meta name=\"description\" content=\"...\"> fragment was spliced into the first one's attribute value. Root cause: build_matter_pages.ts/build_record_pages.ts build title/description/OG/Twitter/canonical tags with .replace(regex, templateString) using a literal \"$1\" to reinsert the matched opening tag; \"$1\" is special to String.replace, so a summary containing a dollar figure like \"$170M\" has its digit read as a second backreference. This was backlog item 5's real cause, not thin content.",
+   "files": ["scripts/build_matter_pages.ts", "scripts/build_record_pages.ts", "scripts/prerender.ts"],
+   "commit": "3d2a1a056a1544bca4f1c68a5525dfe3d01fd86b",
+   "metric": "audit.summary.weakDescription",
+   "window": "next day's audit snapshot",
+   "baseline": 10,
+   "checkAfter": "2026-10-12",
    "status": "watching"
   }
  ]
