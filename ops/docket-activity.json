@@ -1,7 +1,7 @@
 {
- "updatedAt": "2026-10-10T15:31:45+00:00",
+ "updatedAt": "2026-10-11T15:52:52+00:00",
  "source": "CourtListener RECAP archive (federal courts only). Entries appear when CourtListener receives them, so some are late or missing.",
- "requestsUsed": 28,
+ "requestsUsed": 25,
  "errors": [],
  "dockets": {
   "63107484": {
@@ -2294,6 +2294,72 @@
    "url": "https://www.courtlistener.com/docket/74923336/fortapache-realty-llc/",
    "lastEntryDate": "2026-10-08"
   },
+  "74923337": {
+   "entries": [
+    {
+     "date": "2026-10-07",
+     "number": 6,
+     "text": "Order Setting Deadlines for Debtor to Correct Filing Deficiencies (Non-Individual)",
+     "url": "https://www.courtlistener.com/docket/74923337/6/lesam-realty-llc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-10-07",
+     "number": 5,
+     "text": "Order Regarding Unpaid Case Filing Fees",
+     "url": "https://www.courtlistener.com/docket/74923337/5/lesam-realty-llc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-10-07",
+     "number": 4,
+     "text": "Order Regarding Pro Se Entity Filing",
+     "url": "https://www.courtlistener.com/docket/74923337/4/lesam-realty-llc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-10-07",
+     "number": 3,
+     "text": "03-Meeting of Creditors (Chapter 11)",
+     "url": "https://www.courtlistener.com/docket/74923337/3/lesam-realty-llc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-10-07",
+     "number": null,
+     "text": "Deadline for Filing Pre-Status Conference Report",
+     "url": "https://www.courtlistener.com/docket/74923337/lesam-realty-llc/",
+     "ruling": false
+    }
+   ],
+   "caseIds": [
+    "live-253"
+   ],
+   "court": "Bankr. N.D. Ga.",
+   "docketNumber": "26-63571",
+   "dateTerminated": null,
+   "url": "https://www.courtlistener.com/docket/74923337/lesam-realty-llc/",
+   "lastEntryDate": "2026-10-07"
+  },
+  "74923616": {
+   "entries": [
+    {
+     "date": "2026-10-08",
+     "number": 5,
+     "text": "Notice of Appearance and Request for Notice",
+     "url": "https://www.courtlistener.com/docket/74923616/5/savage-squad-properties-llc/",
+     "ruling": false
+    }
+   ],
+   "caseIds": [
+    "live-252"
+   ],
+   "court": "Bankr. S.D. Tex.",
+   "docketNumber": "26-37555",
+   "dateTerminated": null,
+   "url": "https://www.courtlistener.com/docket/74923616/savage-squad-properties-llc/",
+   "lastEntryDate": "2026-10-08"
+  },
   "74924804": {
    "entries": [
     {
@@ -2469,6 +2535,135 @@
    "dateTerminated": null,
    "url": "https://www.courtlistener.com/docket/74928132/jrm-real-estate-holdings-llc/",
    "lastEntryDate": "2026-10-07"
+  },
+  "74928372": {
+   "entries": [
+    {
+     "date": "2026-10-09",
+     "number": 12,
+     "text": "341 Mtg. Notice - Ch 11 Corp w/Claim Deadline",
+     "url": "https://www.courtlistener.com/docket/74928372/12/4210-w-carmen-st-llc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-10-07",
+     "number": 9,
+     "text": "20 Largest Unsecured Creditors",
+     "url": "https://www.courtlistener.com/docket/74928372/9/4210-w-carmen-st-llc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-10-07",
+     "number": 8,
+     "text": "Certificate of Authorization to File Bankruptcy Petition",
+     "url": "https://www.courtlistener.com/docket/74928372/8/4210-w-carmen-st-llc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-10-07",
+     "number": 7,
+     "text": "Statement of Corporate Ownership",
+     "url": "https://www.courtlistener.com/docket/74928372/7/4210-w-carmen-st-llc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-10-07",
+     "number": 6,
+     "text": "Chapter 11 Case Management Summary",
+     "url": "https://www.courtlistener.com/docket/74928372/6/4210-w-carmen-st-llc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-10-07",
+     "number": 4,
+     "text": "Order Authorizing DIP to Operate Business",
+     "url": "https://www.courtlistener.com/docket/74928372/4/4210-w-carmen-st-llc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-10-07",
+     "number": 3,
+     "text": "Notice of Deficient Filing (BK)",
+     "url": "https://www.courtlistener.com/docket/74928372/3/4210-w-carmen-st-llc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-10-07",
+     "number": null,
+     "text": "ADI - Notice to Debtor(s) Attorney Regarding Local Rule 2081-1 (Paperless Entry)",
+     "url": "https://www.courtlistener.com/docket/74928372/4210-w-carmen-st-llc/",
+     "ruling": false
+    }
+   ],
+   "caseIds": [
+    "live-254"
+   ],
+   "court": "Bankr. M.D. Fla.",
+   "docketNumber": "8:26-bk-09102",
+   "dateTerminated": null,
+   "url": "https://www.courtlistener.com/docket/74928372/4210-w-carmen-st-llc/",
+   "lastEntryDate": "2026-10-09"
+  },
+  "74929738": {
+   "entries": [
+    {
+     "date": "2026-10-09",
+     "number": 5,
+     "text": "Meeting of Creditors Chapter 11 - US Trustee",
+     "url": "https://www.courtlistener.com/docket/74929738/5/limo-realty-corp/",
+     "ruling": false
+    },
+    {
+     "date": "2026-10-09",
+     "number": null,
+     "text": "Meeting of Creditors Chapter 11 - US Trustee",
+     "url": "https://www.courtlistener.com/docket/74929738/limo-realty-corp/",
+     "ruling": false
+    },
+    {
+     "date": "2026-10-08",
+     "number": 4,
+     "text": "Notice of Appearance and Request for Notice",
+     "url": "https://www.courtlistener.com/docket/74929738/4/limo-realty-corp/",
+     "ruling": false
+    },
+    {
+     "date": "2026-10-07",
+     "number": 3,
+     "text": "Deficient Filing Chapter 11",
+     "url": "https://www.courtlistener.com/docket/74929738/3/limo-realty-corp/",
+     "ruling": false
+    },
+    {
+     "date": "2026-10-07",
+     "number": 2,
+     "text": "List of Creditors",
+     "url": "https://www.courtlistener.com/docket/74929738/2/limo-realty-corp/",
+     "ruling": false
+    },
+    {
+     "date": "2026-10-07",
+     "number": 1,
+     "text": "Voluntary Petition (Chapter 11)",
+     "url": "https://www.courtlistener.com/docket/74929738/1/limo-realty-corp/",
+     "ruling": false
+    },
+    {
+     "date": "2026-10-07",
+     "number": null,
+     "text": "Automatic docket of credit card/debit card",
+     "url": "https://www.courtlistener.com/docket/74929738/limo-realty-corp/",
+     "ruling": false
+    }
+   ],
+   "caseIds": [
+    "live-255"
+   ],
+   "court": "Bankr. E.D.N.Y.",
+   "docketNumber": "1-26-44694",
+   "dateTerminated": null,
+   "url": "https://www.courtlistener.com/docket/74929738/limo-realty-corp/",
+   "lastEntryDate": "2026-10-09"
   },
   "74937404": {
    "entries": [
