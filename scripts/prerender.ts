@@ -117,7 +117,11 @@ function fill(html: string, id: string, inner: string, file: string): string {
 function setText(html: string, id: string, text: string, file: string): string {
   const re = new RegExp(`(<(\\w+)[^>]*\\bid="${id}"[^>]*>)([^<]*)(</\\2>)`);
   if (!re.test(html)) throw new Error(`${file}: no simple text element with id="${id}"`);
-  return html.replace(re, `$1${esc(text)}$4`);
+  // A replacement function, not a string: "$1".."$4" are special to
+  // String.replace and a text containing e.g. "$170M" would be misread as
+  // a backreference (the exact bug found in build_matter_pages.ts /
+  // build_record_pages.ts on 2026-10-11, fixed the same way there).
+  return html.replace(re, (_, p1, _tag, _inner, p4) => `${p1}${esc(text)}${p4}`);
 }
 
 const cases = [...data.cases].sort(byDateDesc);

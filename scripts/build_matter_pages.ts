@@ -94,16 +94,21 @@ function headFor(c: Case): string {
       },
     ],
   };
+  // Replacement STRINGS are not safe here: "$1" etc. are special to
+  // String.replace, and a summary containing a dollar figure like "$170M"
+  // gets misread as a backreference, splicing a second meta tag into the
+  // attribute value (found in 31 published pages, 2026-10-11). Replacement
+  // FUNCTIONS return their value verbatim, with no such reinterpretation.
   return head
-    .replace(/<title>[^<]*<\/title>/, `<title>${esc(title)}</title>`)
-    .replace(/(<meta name="description" content=")[^"]*"/, `$1${esc(desc)}"`)
-    .replace(/(<meta property="og:title" content=")[^"]*"/, `$1${esc(title)}"`)
-    .replace(/(<meta property="og:description" content=")[^"]*"/, `$1${esc(desc)}"`)
-    .replace(/(<meta name="twitter:title" content=")[^"]*"/, `$1${esc(title)}"`)
-    .replace(/(<meta name="twitter:description" content=")[^"]*"/, `$1${esc(desc)}"`)
-    .replace(/(<meta property="og:type" content=")[^"]*"/, `$1article"`)
-    .replace(/(<meta property="og:url" content=")[^"]*"/, `$1${url(c)}"`)
-    .replace(/(<link rel="canonical" href=")[^"]*"/, `$1${url(c)}"`)
+    .replace(/<title>[^<]*<\/title>/, () => `<title>${esc(title)}</title>`)
+    .replace(/(<meta name="description" content=")[^"]*"/, (_, p1) => `${p1}${esc(desc)}"`)
+    .replace(/(<meta property="og:title" content=")[^"]*"/, (_, p1) => `${p1}${esc(title)}"`)
+    .replace(/(<meta property="og:description" content=")[^"]*"/, (_, p1) => `${p1}${esc(desc)}"`)
+    .replace(/(<meta name="twitter:title" content=")[^"]*"/, (_, p1) => `${p1}${esc(title)}"`)
+    .replace(/(<meta name="twitter:description" content=")[^"]*"/, (_, p1) => `${p1}${esc(desc)}"`)
+    .replace(/(<meta property="og:type" content=")[^"]*"/, (_, p1) => `${p1}article"`)
+    .replace(/(<meta property="og:url" content=")[^"]*"/, (_, p1) => `${p1}${url(c)}"`)
+    .replace(/(<link rel="canonical" href=")[^"]*"/, (_, p1) => `${p1}${url(c)}"`)
     .replace("</head>", `<script type="application/ld+json">${JSON.stringify(ld).replace(/</g, "\\u003c")}</script>\n  </head>`);
 }
 
