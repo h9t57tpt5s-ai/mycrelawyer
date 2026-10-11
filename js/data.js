@@ -16,7 +16,7 @@ const RELAW_DATA = {
      Drives the homepage's "New Today" pill: it only shows when this
      equals the visitor's local today. Updated by the digest automation
      each time Step 4 successfully adds a case — never touched otherwise. */
-  lastUpdatedDate: "2026-10-10",
+  lastUpdatedDate: "2026-10-11",
   categories: [
     { id: "landlord-tenant", label: "Landlord–Tenant", color: "var(--cat-landlord)" },
     { id: "zoning-land-use", label: "Zoning & Land Use", color: "var(--cat-zoning)" },
@@ -8431,6 +8431,198 @@ const RELAW_DATA = {
       docketUrl: "https://www.courtlistener.com/docket/74928372/4210-w-carmen-st-llc/",
       docketLabel: "CourtListener docket",
       tags: ["chapter-11", "bankruptcy", "single-asset-entity", "florida"]
+    },
+    {
+      id: "live-255",
+      addedDate: "2026-10-11",
+      title: "Limo Realty Corp Chapter 11 Petition (E.D.N.Y.)",
+      category: "lending-foreclosure",
+      status: "filed",
+      date: "2026-10-07",
+      jurisdiction: "United States Bankruptcy Court, Eastern District of New York",
+      state: "NY",
+      amount: "Undisclosed (financial details not yet public)",
+      amountUsd: null,
+      source: "live",
+      sourceUrl: "https://www.courtlistener.com/docket/74929738/limo-realty-corp/",
+      summary: "Limo Realty Corp filed a Chapter 11 petition on October 7, 2026 in the United States Bankruptcy Court for the Eastern District of New York, case number 1-26-44694. This entry reflects only what the federal court docket shows; no independent news coverage of the filing was available at the time it was added to this tracker.",
+      significance: "Real-estate-named entities filing Chapter 11 in the Eastern District of New York make up a meaningful share of the current wave of small commercial bankruptcy filings tied to distressed acquisition or maturity debt. This tracker will add further detail as public reporting or additional docket activity becomes available.",
+      body: [
+        "Limo Realty Corp filed a Chapter 11 petition on October 7, 2026 in the United States Bankruptcy Court for the Eastern District of New York, docketed as case number 1-26-44694. As of this entry, no news coverage of the filing's underlying circumstances -- the nature of the debtor's property, its lender, or the cause of the filing -- had been published, so this record is limited to what the court docket itself shows.",
+        "New York real-estate-named entities file Chapter 11 petitions of this kind regularly, and they make up a meaningful share of the current wave of small commercial bankruptcy filings tied to distressed acquisition, construction, or maturity debt. This tracker will update this entry, or add a related one, if further docket activity or independent reporting clarifies the debtor's property, its lender, and the circumstances of the filing."
+      ],
+      judge: null,
+      parties: [
+        { name: "Limo Realty Corp", role: "Debtor" }
+      ],
+      docketUrl: "https://www.courtlistener.com/docket/74929738/limo-realty-corp/",
+      docketLabel: "CourtListener docket",
+      tags: ["chapter-11", "bankruptcy", "single-asset-entity", "new-york"]
+    },
+    {
+      id: "live-256",
+      addedDate: "2026-10-11",
+      featured: true,
+      title: "H-E-B, LP v. Peterson: Texas Supreme Court Tightens Constructive-Notice Proof in Slip-and-Fall Claims",
+      category: "premises-liability",
+      status: "ruling",
+      date: "2026-04-10",
+      jurisdiction: "Supreme Court of Texas",
+      state: "TX",
+      amount: "N/A — summary judgment reinstated for defendant",
+      amountUsd: null,
+      source: "live",
+      sourceUrl: "https://www.jdsupra.com/legalnews/supreme-court-of-texas-reaffirms-strict-3738536",
+      documentUrl: "https://www.leagle.com/decision/intxco20260410542",
+      documentLabel: "Read the official opinion",
+      summary: "The Supreme Court of Texas reversed an intermediate appellate ruling and reinstated summary judgment for H-E-B, LP in a customer's slip-and-fall suit, holding that evidence of unrelated maintenance issues elsewhere in a store cannot establish constructive notice of the specific hazard that caused an injury. The plaintiff, who slipped on an unidentified liquid in a toy aisle, had relied on evidence of prior roof leaks elsewhere in the store rather than any evidence tied to the puddle itself.",
+      significance: "The ruling sharpens Texas's already demanding constructive-notice standard for premises-liability claims, giving retail, hospitality, and other commercial property owners a stronger, citable basis to defeat transient-hazard slip-and-fall claims at summary judgment rather than at trial. It forecloses a common plaintiff workaround -- substituting a property's general maintenance history for proof specific to the hazard at issue -- across any Texas commercial property open to the public.",
+      body: [
+        "Commercial landowners in Texas picked up a significant defense-side precedent this year when the Supreme Court of Texas reversed an appellate ruling that had allowed a customer's slip-and-fall claim against grocery chain H-E-B to proceed to trial on what the court found was the wrong kind of evidence. The decision, H-E-B, LP v. Peterson, No. 24-0310, sharpens an already demanding evidentiary bar for premises-liability plaintiffs in Texas and gives retail, office, and other publicly accessible commercial property owners a stronger, citable tool for defeating transient-hazard claims before they ever reach a jury.",
+        "The underlying facts were unremarkable, which is part of what makes the ruling useful: a customer, Marissa Peterson, slipped on a puddle of unidentified liquid in a toy aisle at an H-E-B store. She was unable to say how the liquid got there or how long it had been on the floor before she fell -- a gap that matters a great deal under Texas premises-liability law, which requires a plaintiff suing a property owner over a transient hazard to prove the owner had actual or constructive knowledge of the condition. Constructive knowledge generally requires some evidence of how long the hazard existed, because a property owner cannot reasonably be expected to discover and remedy a spill that appeared moments before an accident.",
+        "Unable to produce direct evidence of how long the puddle had been there, Peterson's case survived at the intermediate appellate level on a different theory. The Thirteenth Court of Appeals pointed to evidence of unrelated roof leaks elsewhere in the store as circumstantial support for an inference that H-E-B had general maintenance problems, and held that evidence sufficient to let a jury infer constructive notice of the specific puddle that caused Peterson's fall. H-E-B petitioned the Texas Supreme Court for review, arguing that generalized evidence about a store's overall maintenance record cannot substitute for evidence tied to the specific hazard at issue.",
+        "The Supreme Court agreed with H-E-B and reversed. In an opinion issued April 10, 2026, the court held that constructive-notice evidence must be specific to the hazard that actually caused the plaintiff's injury -- proof that a store had problems with its roof, its parking lot, or some other unrelated part of the premises does not support an inference that an employee knew or should have known about a particular puddle in a particular aisle. Because Peterson could point to no evidence tying the duration of the spill itself to any period long enough to charge H-E-B with constructive knowledge, the court reinstated the trial court's original summary judgment in H-E-B's favor, ending the case.",
+        "For commercial property owners, the significance of the ruling lies less in its facts than in its method. Texas courts have long required timeliness evidence in slip-and-fall cases -- some basis for estimating how long a hazard existed before the accident -- and plaintiffs have periodically tried to satisfy that requirement with looser, more general proof of a defendant's housekeeping or maintenance practices. Peterson forecloses that workaround cleanly: evidence of unrelated maintenance issues elsewhere on a property is simply irrelevant to constructive notice of the specific condition that caused a specific fall, a holding that will matter well beyond grocery stores to any landlord, retailer, or operator defending a floor-hazard claim.",
+        "The practical upshot for risk managers and defense counsel is straightforward: when a transient-hazard claim comes in, the first question should be whether the plaintiff's constructive-notice evidence is actually tied to the specific condition that caused the injury, since Peterson now gives a clean basis to move for summary judgment when it is not; routine floor-inspection logs and video coverage of high-traffic areas remain the most direct way to rebut a constructive-notice theory regardless of how the plaintiff frames the evidence; and counsel litigating similar claims outside Texas should watch for other states' courts citing Peterson, since its underlying evidentiary logic -- hazard-specific proof over generalized maintenance history -- is not unique to Texas law."
+      ],
+      judge: null,
+      propertyType: "Retail",
+      parties: [
+        { name: "H-E-B, LP", role: "Defendant-Petitioner" }
+      ],
+      tags: ["premises-liability", "slip-and-fall", "constructive-notice", "texas", "retail"],
+      timeline: [
+        { when: "April 10, 2026", label: "Texas Supreme Court reverses the Thirteenth Court of Appeals and reinstates summary judgment for H-E-B, LP", current: true }
+      ]
+    },
+    {
+      id: "live-257",
+      addedDate: "2026-10-11",
+      title: "Hexa Builders, LLC v. Monroe Township: Developer Challenges Retroactive Data Center Zoning Ban",
+      category: "zoning-land-use",
+      status: "pending",
+      date: "2026-07-06",
+      jurisdiction: "United States District Court, District of New Jersey",
+      state: "NJ",
+      amount: "$300 million sought in damages",
+      amountUsd: 300000000,
+      amountBasis: "claim",
+      source: "live",
+      sourceUrl: "https://newjerseymonitor.com/2026/08/20/nj-data-center-bans-courts/",
+      summary: "Hexa Builders, LLC sued Monroe Township, New Jersey after the township passed ordinances stripping data centers as a permitted use at Hexa's site and banning them township-wide, then rejected Hexa's data-center application for two previously approved warehouse buildings. The suit, removed to federal court on July 6, 2026, alleges violations of New Jersey's Municipal Land Use Law and federal equal-protection and First Amendment claims, and seeks the ban's repeal plus $300 million in damages.",
+      significance: "The case tests whether a municipality can retroactively strip or ban a previously permitted, capital-intensive use once a specific project is already in the approval pipeline. A plaintiff win would expose municipalities nationally that enact late-stage, project-targeted zoning changes to major damages exposure, raising the stakes of local political opposition to data center development well beyond a simple permit denial.",
+      body: [
+        "Hexa Builders, LLC received preliminary site-plan approval from Monroe Township, New Jersey in January 2026 for two warehouse buildings on Black Horse Pike in Williamstown. After neighbors raised concerns that the buildings could ultimately be used as an AI data center, the township's council passed two ordinances in 2026 -- one stripping data centers as a permitted use specifically at Hexa's site, and a second banning data centers township-wide -- and then rejected Hexa's follow-on application to use the buildings as a data center.",
+        "Hexa filed a twenty-count complaint in Gloucester County Superior Court on June 5, 2026, alleging violations of New Jersey's Municipal Land Use Law along with federal equal-protection and First Amendment claims, and seeking both repeal of the ban and $300 million in damages. Monroe Township removed the case to the United States District Court for the District of New Jersey on July 6, 2026, where it remains pending. A nearly identical suit is pending against Andover Township, New Jersey, filed by Hexa in July 2026.",
+        "The dispute is part of a fast-growing wave of developer suits challenging late-stage municipal data-center bans and moratoria, as communities around the country move to restrict a use that was, in many cases, not separately zoned or regulated until a specific project drew local opposition. For commercial developers, the case underscores the legal risk of proceeding on preliminary approvals that a municipality may later attempt to unwind once a project's ultimate use becomes politically contentious, and for municipalities, it illustrates the damages exposure that can follow a zoning change targeted at a specific, already-approved project rather than adopted as a general, prospective land-use policy."
+      ],
+      judge: null,
+      propertyType: "Data Center",
+      parties: [
+        { name: "Hexa Builders, LLC", role: "Plaintiff" },
+        { name: "Monroe Township", role: "Defendant" }
+      ],
+      tags: ["data-center", "zoning", "land-use", "new-jersey", "municipal-ban"],
+      timeline: [
+        { when: "January 2026", label: "Monroe Township grants Hexa Builders preliminary site-plan approval for two warehouse buildings" },
+        { when: "June 5, 2026", label: "Hexa Builders files suit in Gloucester County Superior Court challenging the township's data-center ban" },
+        { when: "July 6, 2026", label: "Monroe Township removes the case to the U.S. District Court for the District of New Jersey", current: true }
+      ]
+    },
+    {
+      id: "live-258",
+      addedDate: "2026-10-11",
+      title: "Wiggins v. Cedar Christina Crossing, LLC: Delaware Supreme Court Affirms Summary Judgment in Parking-Lot Ice Fall",
+      category: "premises-liability",
+      status: "ruling",
+      date: "2026-03-23",
+      jurisdiction: "Supreme Court of Delaware",
+      state: "DE",
+      amount: "N/A — summary judgment affirmed for defendants",
+      amountUsd: null,
+      source: "live",
+      sourceUrl: "https://www.jdsupra.com/legalnews/delaware-supreme-court-affirms-summary-7450947/",
+      summary: "The Delaware Supreme Court affirmed summary judgment for a shopping-center owner and its snow-removal contractor in a suit over a black-ice fall in a parking lot, holding that a plaintiff cannot rely on self-contradicted testimony to defeat summary judgment once the record shows reasonable snow-and-ice care. Security video showed the lot clear and dry on the day in question, directly contradicting the plaintiff's own deposition testimony describing unplowed snow.",
+      significance: "The ruling confirms that Delaware shopping-center owners and their maintenance contractors can defeat weather-related slip-and-fall claims at summary judgment using objective video evidence, reinforcing the litigation-risk value of parking-lot camera coverage and routine snow-and-ice documentation for commercial landlords.",
+      body: [
+        "The plaintiff sued Cedar Christina Crossing, LLC, the owner of a Delaware shopping center, and Eastern LLC, the center's snow-removal contractor, over a fall on black ice in the shopping center's parking lot. His deposition testimony described unplowed, accumulated snow in the lot at the time of his fall, but security video from the property showed the lot clear and dry that day, with no snow, ice, or treatment activity visible.",
+        "Delaware's Supreme Court, applying the state's governing snow-and-ice premises-liability standard from Ridgeway v. Acme Markets, held that a plaintiff cannot defeat summary judgment by relying on testimony that is directly and objectively contradicted by the record, once the property owner and its contractor have shown reasonable care was taken with respect to snow and ice conditions. The court affirmed summary judgment for both defendants on March 23, 2026.",
+        "For commercial landlords and their snow-removal vendors, the decision reinforces that contemporaneous, objective documentation -- parking-lot video, inspection logs, and service records -- remains the most reliable defense against weather-related slip-and-fall claims, particularly where a plaintiff's own account of conditions can be checked against a visual record rather than taken at face value."
+      ],
+      judge: null,
+      propertyType: "Retail",
+      parties: [
+        { name: "Cedar Christina Crossing, LLC", role: "Defendant-Appellee" },
+        { name: "Eastern LLC", role: "Defendant-Appellee" }
+      ],
+      tags: ["premises-liability", "slip-and-fall", "snow-and-ice", "delaware", "summary-judgment"],
+      timeline: [
+        { when: "March 23, 2026", label: "Delaware Supreme Court affirms summary judgment for the shopping-center owner and snow-removal contractor", current: true }
+      ]
+    },
+    {
+      id: "live-259",
+      addedDate: "2026-10-11",
+      title: "Moses v. Franklin BSP Realty Trust, Inc.: Shareholders Sue Mortgage REIT Over Dividend Disclosures",
+      category: "reit-securities",
+      status: "pending",
+      date: "2026-02-26",
+      jurisdiction: "United States District Court, Eastern District of New York",
+      state: "NY",
+      amount: "Putative class action; damages not yet quantified",
+      amountUsd: null,
+      source: "live",
+      sourceUrl: "https://www.sec.gov/Archives/edgar/data/0001562528/000156252826000024/bsprt-20260630.htm",
+      summary: "Shareholders filed a putative securities class action against Franklin BSP Realty Trust, Inc. (NYSE: FBRT) and certain officers, alleging the commercial mortgage REIT misrepresented dividend sustainability and overstated its business prospects ahead of disappointing fourth-quarter and full-year 2025 results announced February 11, 2026. The suit alleges violations of Sections 10(b) and 20(a) of the Securities Exchange Act; a related shareholder derivative suit alleging breach of fiduciary duty was filed in the same court in May 2026.",
+      significance: "The case illustrates a recurring exposure pattern for commercial mortgage REITs: dividend-sustainability disclosures becoming the basis for securities-fraud claims once credit quality or interest-rate conditions force a dividend cut. It is a disclosure-controls warning for any CRE lender-REIT board, particularly one weighing an internal dividend reduction against public guidance already given to investors.",
+      body: [
+        "Shareholders of Franklin BSP Realty Trust, Inc., a publicly traded commercial mortgage REIT trading as NYSE: FBRT, filed a putative securities class action in the United States District Court for the Eastern District of New York on February 26, 2026. The complaint alleges that the company and certain of its officers misrepresented the sustainability of its dividend and overstated its business prospects in the period leading up to disappointing fourth-quarter and full-year 2025 results, which the company announced on February 11, 2026.",
+        "The complaint asserts claims under Sections 10(b) and 20(a) of the Securities Exchange Act of 1934 on behalf of a putative class of investors who purchased FBRT securities during the relevant class period. A related derivative suit, filed in the same court in May 2026, alleges that the company's board breached its fiduciary duties by permitting the challenged statements to be made. Franklin BSP Realty Trust has stated that it considers the claims meritless and immaterial to its financial results.",
+        "For commercial mortgage REIT boards and management teams, the suit is a reminder that dividend-sustainability messaging carries securities-law exposure distinct from the underlying credit risk in a loan book. Where a REIT's public guidance on distributions diverges from its internal view of portfolio performance, shareholders have shown a willingness to pursue both direct securities claims and parallel derivative claims against the board once that gap becomes public."
+      ],
+      judge: null,
+      parties: [
+        { name: "Franklin BSP Realty Trust, Inc.", role: "Defendant" }
+      ],
+      tags: ["reit", "securities-fraud", "mortgage-reit", "class-action", "disclosure"],
+      timeline: [
+        { when: "February 26, 2026", label: "Shareholders file putative securities class action against Franklin BSP Realty Trust in the Eastern District of New York", current: true },
+        { when: "May 8, 2026", label: "Related shareholder derivative suit filed in the same court alleging breach of fiduciary duty" }
+      ]
+    },
+    {
+      id: "live-260",
+      addedDate: "2026-10-11",
+      title: "Port of Tacoma v. PQ LLC: Successor-Liability Fight Over Legacy Industrial Contamination",
+      category: "environmental",
+      status: "pending",
+      date: "2026-03-27",
+      jurisdiction: "United States District Court, Western District of Washington",
+      state: "WA",
+      amount: "~$10 million in remediation costs sought",
+      amountUsd: 10000000,
+      amountBasis: "claim",
+      source: "live",
+      sourceUrl: "https://usaherald.com/port-of-tacoma-sues-chemical-manufacturer-pq-llc-over-alleged-environmental-contamination/",
+      summary: "The Port of Tacoma sued PQ LLC, as successor to prior operators of a sodium-silicate production facility on Port-owned Tideflats property, seeking to recover close to $10 million in cleanup costs after a 2016 cost-sharing agreement between the parties collapsed in April 2025. PQ LLC has countersued, arguing the Port's claimed costs improperly include contamination unrelated to PQ's own historical operations at the site.",
+      significance: "The dispute is a direct successor-liability fight over legacy industrial contamination on port-adjacent land, and PQ's countersuit highlights the recurring causation-allocation fight at sites with multiple historical operators and mixed contamination sources. It is a cautionary example for industrial and port-adjacent landowners negotiating cost-sharing arrangements with historic site operators to build clearer causation-allocation terms into those agreements up front.",
+      body: [
+        "The Port of Tacoma filed suit against PQ LLC as successor to prior operators of a sodium-silicate production facility located on Port-owned property in Tacoma's Tideflats industrial area, seeking to recover close to $10 million in costs the Port has incurred remediating contamination at the site. The suit follows the collapse, in April 2025, of a cost-sharing agreement the parties had entered in 2016 to allocate cleanup responsibility.",
+        "PQ LLC has countersued, disputing the scope of the costs the Port attributes to it. According to reporting on the dispute, PQ argues that the Port's claimed remediation costs improperly sweep in contamination from sources and time periods unrelated to PQ's own historical operations at the facility, making the allocation of cleanup costs between the parties the central disputed issue in the case.",
+        "For industrial and port-adjacent landowners, the case is a pointed illustration of how successor-liability and cost-allocation disputes can resurface years after a negotiated cost-sharing arrangement, particularly at sites with a long operating history and multiple successive operators. Parties entering into similar agreements should build in clearer mechanisms for allocating costs by source and time period at the outset, since ambiguity on that point is precisely what has put the Port of Tacoma and PQ LLC back in court nearly a decade after their original agreement."
+      ],
+      judge: null,
+      propertyType: "Industrial",
+      parties: [
+        { name: "Port of Tacoma", role: "Plaintiff" },
+        { name: "PQ LLC", role: "Defendant" }
+      ],
+      tags: ["environmental", "contamination", "successor-liability", "remediation", "industrial"],
+      timeline: [
+        { when: "2016", label: "Port of Tacoma and PQ LLC's predecessor enter a cost-sharing agreement for site remediation" },
+        { when: "April 2025", label: "Cost-sharing agreement collapses" },
+        { when: "March 27, 2026", label: "PQ LLC countersues, disputing the scope of contamination costs attributed to it", current: true }
+      ]
     }
   ],
 
