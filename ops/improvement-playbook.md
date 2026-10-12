@@ -51,6 +51,7 @@ internal links, page quality, accuracy, speed and clarity.
   "no clear effect". Keep "no clear effect" changes that are plainly good for
   readers (accuracy, broken links, clarity); revert ones that added clutter.
 - Never revert someone else's change (only entries in ops/improvement-log.json).
+- The routine runs twice a day (15:30 and 03:30 UTC) but ops/metrics/ is written once a day (14:41 UTC). Start every run with `python3 scripts/site_audit.py --print` for current audit counts, since the morning run may already have fixed what audit.json lists. Engagement numbers only change once a day, so the evening run should prefer audit fixes and backlog items over judging traffic, and two changes in one day share one measurement window: say so in the second entry's "why".
 
 ## What we have learned
 
