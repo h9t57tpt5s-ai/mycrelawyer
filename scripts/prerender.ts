@@ -233,6 +233,42 @@ for await (const entry of Deno.readDir(".")) {
   if (h !== h0) { await Deno.writeTextFile(f, h); written.push(f); }
 }
 
+// ---- "From the court record" block: index.html + litigation.html -------
+// Backlog item 3 (playbook, added 2026-10-09): homepage and litigation.html
+// never linked Chapter 11 Watch / Federal Lawsuit Watch outside the nav
+// menu. Built from the same JSON the digest writes, so the counts and the
+// three newest filings shown are always literally right.
+type Filing = { caseName: string; court: string; dateFiled: string; slug: string };
+async function newestFilings(path: string): Promise<{ all: Filing[]; newest: Filing[] }> {
+  const j = JSON.parse(await Deno.readTextFile(path)) as { filings: Filing[] };
+  const newest = [...j.filings].sort((a, b) => b.dateFiled.localeCompare(a.dateFiled)).slice(0, 3);
+  return { all: j.filings, newest };
+}
+function filingCard(label: string, noun: string, newest: Filing[], total: number, prefix: string, href: string): string {
+  const items = newest.map((f) => `
+      <li style="padding:9px 0; border-bottom:1px solid var(--border-soft);">
+        <a href="${prefix}/${esc(f.slug)}.html" style="font-size:13.5px; display:block; overflow:hidden; text-overflow:ellipsis; white-space:nowrap;">${esc(f.caseName)}</a>
+        <div class="text-muted" style="font-size:12px; margin-top:2px;">${esc(f.court)} &middot; filed ${fmtDate(f.dateFiled)}</div>
+      </li>`).join("");
+  return `
+    <div class="card reveal in-view" style="padding:24px;">
+      <div class="text-muted" style="font-size:12px; text-transform:uppercase; letter-spacing:0.04em; margin-bottom:10px;">${esc(label)}</div>
+      <ul style="list-style:none; margin:0 0 14px; padding:0;">${items}</ul>
+      <a href="${href}" class="text-accent" style="display:inline; font-size:13.5px;">See all ${total} ${esc(noun)} &rarr;</a>
+    </div>`;
+}
+{
+  const ch11 = await newestFilings("ops/ch11-petitions.json");
+  const suits = await newestFilings("ops/federal-suits.json");
+  const html = filingCard("Chapter 11 Watch", "Chapter 11 petitions", ch11.newest, ch11.all.length, "chapter-11", "bankruptcy-watch.html") +
+    filingCard("Federal Lawsuit Watch", "federal lawsuits", suits.newest, suits.all.length, "federal-cases", "lawsuit-watch.html");
+  for (const f of ["index.html", "litigation.html"]) {
+    let h = await Deno.readTextFile(f);
+    h = fill(h, "court-record-today", html, f);
+    await Deno.writeTextFile(f, h); written.push(f);
+  }
+}
+
 // ---- coverage.html: the coverage math -----------------------------------
 {
   const f = "coverage.html";
