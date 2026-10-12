@@ -17,7 +17,7 @@
   </url>
   <url>
     <loc>https://credocket.com/alert-log.html</loc>
-    <lastmod>2026-10-11</lastmod>
+    <lastmod>2026-10-12</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
@@ -37,7 +37,7 @@
   </url>
   <url>
     <loc>https://credocket.com/bankruptcy-watch.html</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-12</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
@@ -292,7 +292,7 @@
   </url>
   <url>
     <loc>https://credocket.com/coverage.html</loc>
-    <lastmod>2026-10-11</lastmod>
+    <lastmod>2026-10-12</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
@@ -2004,6 +2004,11 @@
     <loc>https://credocket.com/matters/live-260.html</loc>
     <lastmod>2026-10-11</lastmod>
     <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://credocket.com/chapter-11/access-real-estate-holdings-llc-flmb-8-26-bk-09241.html</loc>
+    <lastmod>2026-10-11</lastmod>
+    <priority>0.5</priority>
   </url>
   <url>
     <loc>https://credocket.com/chapter-11/315-south-beverly-drive-llc-cacb-2-26-bk-20221.html</loc>
