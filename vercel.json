@@ -1,10 +1,169 @@
 {
   "redirects": [
-    { "source": "/glossary.html", "destination": "/litigation.html", "permanent": true },
-    { "source": "/glossary", "destination": "/litigation.html", "permanent": true },
-    { "source": "/ada-serial-plaintiffs.html", "destination": "/ada-litigation-patterns.html", "permanent": false },
-    { "source": "/ada-plaintiff-:slug.html", "destination": "/ada-litigation-patterns.html", "permanent": false },
-    { "source": "/coverage-map.html", "destination": "/litigation.html", "permanent": false },
-    { "source": "/coverage-map", "destination": "/litigation.html", "permanent": false }
+    {
+      "source": "/glossary.html",
+      "destination": "/litigation.html",
+      "permanent": true
+    },
+    {
+      "source": "/glossary",
+      "destination": "/litigation.html",
+      "permanent": true
+    },
+    {
+      "source": "/ada-serial-plaintiffs.html",
+      "destination": "/ada-litigation-patterns.html",
+      "permanent": false
+    },
+    {
+      "source": "/ada-plaintiff-:slug.html",
+      "destination": "/ada-litigation-patterns.html",
+      "permanent": false
+    },
+    {
+      "source": "/coverage-map.html",
+      "destination": "/litigation.html",
+      "permanent": false
+    },
+    {
+      "source": "/coverage-map",
+      "destination": "/litigation.html",
+      "permanent": false
+    },
+    {
+      "source": "/matters/live-185.html",
+      "destination": "/chapter-11/9619-pulaski-hwy-llc-mdb-26-20484.html",
+      "permanent": true
+    },
+    {
+      "source": "/matters/live-190.html",
+      "destination": "/chapter-11/175-nassau-road-holding-inc-nyeb-8-26-73728.html",
+      "permanent": true
+    },
+    {
+      "source": "/matters/live-191.html",
+      "destination": "/bankruptcy-watch.html",
+      "permanent": true
+    },
+    {
+      "source": "/matters/live-195.html",
+      "destination": "/chapter-11/moyvane-arabian-properties-llc-laeb-26-12472.html",
+      "permanent": true
+    },
+    {
+      "source": "/matters/live-198.html",
+      "destination": "/chapter-11/urban-development-group-llc-tnmb-3-26-bk-04686.html",
+      "permanent": true
+    },
+    {
+      "source": "/matters/live-204.html",
+      "destination": "/chapter-11/mw-properties-orlando-llc-flmb-6-26-bk-07563.html",
+      "permanent": true
+    },
+    {
+      "source": "/matters/live-206.html",
+      "destination": "/chapter-11/63-spring-lafayette-llc-deb-26-11537.html",
+      "permanent": true
+    },
+    {
+      "source": "/matters/live-209.html",
+      "destination": "/chapter-11/6363-west-73rd-street-llc-ilnb-26-16232.html",
+      "permanent": true
+    },
+    {
+      "source": "/matters/live-216.html",
+      "destination": "/chapter-11/university-campus-hotel-fund-l-p-a-california-l-cacb-6-26-bk-18337.html",
+      "permanent": true
+    },
+    {
+      "source": "/matters/live-218.html",
+      "destination": "/chapter-11/ppw-realty-1414-w-3rd-st-llc-njb-26-21190.html",
+      "permanent": true
+    },
+    {
+      "source": "/matters/live-225.html",
+      "destination": "/chapter-11/janam-taccoa-lodging-llc-ganb-26-63515.html",
+      "permanent": true
+    },
+    {
+      "source": "/matters/live-233.html",
+      "destination": "/chapter-11/cornerstone-development-llc-ganb-26-63513.html",
+      "permanent": true
+    },
+    {
+      "source": "/matters/live-234.html",
+      "destination": "/chapter-11/travis-property-owner-llc-txnb-26-90220.html",
+      "permanent": true
+    },
+    {
+      "source": "/matters/live-240.html",
+      "destination": "/chapter-11/keinan-properties-llc-ksb-26-21557.html",
+      "permanent": true
+    },
+    {
+      "source": "/matters/live-241.html",
+      "destination": "/chapter-11/teas-ridge-retail-center-i-llc-txsb-26-37551.html",
+      "permanent": true
+    },
+    {
+      "source": "/matters/live-242.html",
+      "destination": "/chapter-11/148-bay-43rd-llc-nyeb-1-26-44720.html",
+      "permanent": true
+    },
+    {
+      "source": "/matters/live-244.html",
+      "destination": "/chapter-11/315-south-beverly-drive-llc-cacb-2-26-bk-20221.html",
+      "permanent": true
+    },
+    {
+      "source": "/matters/live-245.html",
+      "destination": "/chapter-11/jrm-real-estate-holdings-llc-njb-26-21388.html",
+      "permanent": true
+    },
+    {
+      "source": "/matters/live-246.html",
+      "destination": "/chapter-11/dmk-real-estate-holdings-llc-pamb-5-26-bk-02893.html",
+      "permanent": true
+    },
+    {
+      "source": "/matters/live-247.html",
+      "destination": "/chapter-11/lza-real-properties-east-llc-txwb-26-12003.html",
+      "permanent": true
+    },
+    {
+      "source": "/matters/live-248.html",
+      "destination": "/chapter-11/fortapache-realty-llc-ganb-26-63569.html",
+      "permanent": true
+    },
+    {
+      "source": "/matters/live-249.html",
+      "destination": "/chapter-11/200-arpeggio-way-llc-ganb-26-63452.html",
+      "permanent": true
+    },
+    {
+      "source": "/matters/live-252.html",
+      "destination": "/chapter-11/savage-squad-properties-llc-txsb-26-37555.html",
+      "permanent": true
+    },
+    {
+      "source": "/matters/live-253.html",
+      "destination": "/chapter-11/lesam-realty-llc-ganb-26-63571.html",
+      "permanent": true
+    },
+    {
+      "source": "/matters/live-254.html",
+      "destination": "/chapter-11/4210-w-carmen-st-llc-flmb-8-26-bk-09102.html",
+      "permanent": true
+    },
+    {
+      "source": "/matters/live-255.html",
+      "destination": "/chapter-11/limo-realty-corp-nyeb-1-26-44694.html",
+      "permanent": true
+    },
+    {
+      "source": "/matters/live-261.html",
+      "destination": "/chapter-11/access-real-estate-holdings-llc-flmb-8-26-bk-09241.html",
+      "permanent": true
+    }
   ]
 }

@@ -6162,33 +6162,6 @@ const RELAW_DATA = {
       tags: ["cmbs", "foreclosure", "office distress", "power of sale", "boston"]
     },
     {
-      id: "live-185",
-      addedDate: "2026-09-26",
-      title: "9619 Pulaski Hwy LLC Chapter 11 Petition (D. Md.)",
-      category: "lending-foreclosure",
-      status: "filed",
-      date: "2026-09-24",
-      jurisdiction: "United States Bankruptcy Court, District of Maryland",
-      state: "MD",
-      amount: "Undisclosed (financial details not yet public)",
-      source: "live",
-      sourceUrl: "https://www.courtlistener.com/docket/74844567/9619-pulaski-hwy-llc/",
-      summary: "9619 Pulaski Hwy LLC filed a Chapter 11 petition on September 24, 2026 in the United States Bankruptcy Court for the District of Maryland, case number 26-20484. This entry reflects only what the federal court docket shows; no independent news coverage of the filing was available at the time it was added to this tracker.",
-      significance: "Single-asset real estate entities named for their property address, like this debtor, make up a meaningful share of the current wave of small commercial Chapter 11 filings tied to distressed acquisition or construction debt. This tracker will add further detail as public reporting or additional docket activity becomes available.",
-      body: [
-        "9619 Pulaski Hwy LLC, a single-asset entity named for its property address on Pulaski Highway, filed a Chapter 11 petition on September 24, 2026 in the United States Bankruptcy Court for the District of Maryland, docketed as case number 26-20484. As of this entry, no news coverage of the filing's underlying circumstances -- the nature of the debtor's property, its lender, or the cause of the filing -- had been published, so this record is limited to what the court docket itself shows.",
-        "Single-asset real estate Chapter 11 filings of this kind are common among small commercial property owners facing a maturing or defaulted loan, and they typically proceed on a compressed timeline relative to operating-business reorganizations, since the debtor's only meaningful asset is the property itself. This tracker will update this entry, or add a related one, if further docket activity or independent reporting clarifies the debtor's business and the filing's circumstances."
-      ],
-      judge: null,
-      parties: [
-        { name: "9619 Pulaski Hwy LLC", role: "Debtor" }
-      ],
-      amountUsd: null,
-      docketUrl: "https://www.courtlistener.com/docket/74844567/9619-pulaski-hwy-llc/",
-      docketLabel: "CourtListener docket",
-      tags: ["chapter-11", "bankruptcy", "single-asset-entity", "maryland"]
-    },
-    {
       id: "live-186",
       addedDate: "2026-09-26",
       title: "Embassy Suites Portland Airport Hotel Loan Hits Special Servicing After Missed $49.7M Maturity",
@@ -6333,60 +6306,6 @@ const RELAW_DATA = {
       tags: ["data center", "anti-slapp", "zoning", "kansas", "citizen petition"]
     },
     {
-      id: "live-190",
-      addedDate: "2026-09-26",
-      title: "175 Nassau Road Holding, Inc. Chapter 11 Petition (E.D.N.Y.)",
-      category: "lending-foreclosure",
-      status: "filed",
-      date: "2026-09-22",
-      jurisdiction: "United States Bankruptcy Court, Eastern District of New York",
-      state: "NY",
-      amount: "Undisclosed (financial details not yet public)",
-      source: "live",
-      sourceUrl: "https://www.courtlistener.com/docket/74830187/175-nassau-road-holding-inc/",
-      summary: "175 Nassau Road Holding, Inc. filed a Chapter 11 petition on September 22, 2026 in the United States Bankruptcy Court for the Eastern District of New York, case number 8-26-73728. This entry reflects only what the federal court docket shows; no independent news coverage of the filing was available at the time it was added to this tracker.",
-      significance: "Single-asset real estate entities named for their property address, like this debtor, make up a meaningful share of the current wave of small commercial Chapter 11 filings tied to distressed acquisition or construction debt. This tracker will add further detail as public reporting or additional docket activity becomes available.",
-      body: [
-        "175 Nassau Road Holding, Inc. filed a Chapter 11 petition on September 22, 2026 in the United States Bankruptcy Court for the Eastern District of New York, docketed as case number 8-26-73728. As of this entry, no independent news coverage of the filing had been published, so this record reflects only what the federal court docket itself shows: the debtor's name, the court, the case number, and the filing date.",
-        "Single-asset real estate entities, commonly organized as a standalone LLC or corporation named for the property's own street address, file Chapter 11 petitions of this kind regularly, and they make up a meaningful share of the current wave of small commercial bankruptcy filings tied to distressed acquisition, construction, or maturity debt. Because the debtor's sole meaningful asset is typically the property itself, these cases often proceed on a more compressed timeline than an operating business's reorganization. This tracker will update this entry, or add a related one, if further docket activity or independent reporting clarifies the debtor's property, its lender, and the circumstances of the filing."
-      ],
-      judge: null,
-      parties: [
-        { name: "175 Nassau Road Holding, Inc.", role: "Debtor" }
-      ],
-      amountUsd: null,
-      docketUrl: "https://www.courtlistener.com/docket/74830187/175-nassau-road-holding-inc/",
-      docketLabel: "CourtListener docket",
-      tags: ["chapter-11", "bankruptcy", "single-asset-entity", "new-york"]
-    },
-    {
-      id: "live-191",
-      addedDate: "2026-09-27",
-      title: "United Property Investments & Realty Services LLC Chapter 11 Petition (M.D. Fla.)",
-      category: "lending-foreclosure",
-      status: "filed",
-      date: "2026-09-25",
-      jurisdiction: "United States Bankruptcy Court, Middle District of Florida",
-      state: "FL",
-      amount: "Undisclosed (financial details not yet public)",
-      source: "live",
-      sourceUrl: "https://www.courtlistener.com/docket/74855344/united-property-investments-realty-services-llc/",
-      summary: "United Property Investments & Realty Services LLC filed a Chapter 11 petition on September 25, 2026 in the United States Bankruptcy Court for the Middle District of Florida, case number 6:26-bk-07478. This entry reflects only what the federal court docket shows; no independent news coverage of the filing was available at the time it was added to this tracker.",
-      significance: "The debtor's own name signals a real estate investment and property-management business rather than a single-asset holding entity, placing it among the commercial real estate operators swept up in the current wave of Chapter 11 filings tied to distressed acquisition or financing debt. This tracker will add further detail as public reporting or additional docket activity becomes available.",
-      body: [
-        "United Property Investments & Realty Services LLC filed a Chapter 11 petition on September 25, 2026 in the United States Bankruptcy Court for the Middle District of Florida, docketed as case number 6:26-bk-07478. As of this entry, no independent news coverage of the filing had been published, so this record reflects only what the federal court docket itself shows: the debtor's name, the court, the case number, and the filing date.",
-        "Unlike a single-asset entity named for one property's street address, this debtor's name points to a real estate investment and realty-services operation, suggesting a portfolio or management business rather than a single distressed parcel, though the docket does not yet disclose the scope of its holdings, its lender, or the circumstances behind the filing. This tracker will update this entry, or add a related one, if further docket activity or independent reporting clarifies the debtor's business and the filing's circumstances."
-      ],
-      judge: null,
-      parties: [
-        { name: "United Property Investments & Realty Services LLC", role: "Debtor" }
-      ],
-      amountUsd: null,
-      docketUrl: "https://www.courtlistener.com/docket/74855344/united-property-investments-realty-services-llc/",
-      docketLabel: "CourtListener docket",
-      tags: ["chapter-11", "bankruptcy", "florida"]
-    },
-    {
       id: "live-192",
       addedDate: "2026-09-27",
       title: "A&F Williams Street LLC v. New York Power Authority ($3M+ Structural Damage Suit Over White Plains Garage Demolition)",
@@ -6490,33 +6409,6 @@ const RELAW_DATA = {
       tags: ["impact fees", "zoning", "multifamily development", "florida", "municipal law"]
     },
     {
-      id: "live-195",
-      addedDate: "2026-09-27",
-      title: "Moyvane-Arabian Properties, LLC Chapter 11 Petition (E.D. La.)",
-      category: "lending-foreclosure",
-      status: "filed",
-      date: "2026-09-25",
-      jurisdiction: "United States Bankruptcy Court, Eastern District of Louisiana",
-      state: "LA",
-      amount: "Undisclosed (financial details not yet public)",
-      source: "live",
-      sourceUrl: "https://www.courtlistener.com/docket/74853746/moyvane-arabian-properties-llc/",
-      summary: "Moyvane-Arabian Properties, LLC filed a Chapter 11 petition on September 25, 2026 in the United States Bankruptcy Court for the Eastern District of Louisiana, case number 26-12472. This entry reflects only what the federal court docket shows; no independent news coverage of the filing was available at the time it was added to this tracker.",
-      significance: "Real-estate-named entities filing Chapter 11 in the current environment make up a meaningful share of small commercial bankruptcy filings tied to distressed acquisition, leasing, or financing debt. This tracker will add further detail as public reporting or additional docket activity becomes available.",
-      body: [
-        "Moyvane-Arabian Properties, LLC filed a Chapter 11 petition on September 25, 2026 in the United States Bankruptcy Court for the Eastern District of Louisiana, docketed as case number 26-12472. As of this entry, no independent news coverage of this specific filing's underlying circumstances had been published, so this record reflects only what the federal court docket itself shows: the debtor's name, the court, the case number, and the filing date.",
-        "This entry is added under CREdocket's standing practice of logging fresh commercial real estate Chapter 11 petitions directly from federal court records when filed by an entity whose name is consistent with real estate ownership or operation, even before independent reporting becomes available. This tracker will update the entry, or add a related one, if further docket activity or independent reporting clarifies the debtor's property, its creditors, and the circumstances of the filing."
-      ],
-      judge: null,
-      parties: [
-        { name: "Moyvane-Arabian Properties, LLC", role: "Debtor" }
-      ],
-      amountUsd: null,
-      docketUrl: "https://www.courtlistener.com/docket/74853746/moyvane-arabian-properties-llc/",
-      docketLabel: "CourtListener docket",
-      tags: ["chapter-11", "bankruptcy", "louisiana"]
-    },
-    {
       id: "live-196",
       addedDate: "2026-09-28",
       featured: true,
@@ -6575,33 +6467,6 @@ const RELAW_DATA = {
       amountBasis: "purchase price",
       propertyType: "Data Center",
       tags: ["data-center", "zoning", "land-use", "tennessee"]
-    },
-    {
-      id: "live-198",
-      addedDate: "2026-09-28",
-      title: "Urban Development Group, LLC Chapter 11 Petition (M.D. Tenn.)",
-      category: "lending-foreclosure",
-      status: "filed",
-      date: "2026-09-25",
-      jurisdiction: "United States Bankruptcy Court, Middle District of Tennessee",
-      state: "TN",
-      amount: "Undisclosed (financial details not yet public)",
-      source: "live",
-      sourceUrl: "https://www.courtlistener.com/docket/74856205/urban-development-group-llc/",
-      summary: "Urban Development Group, LLC filed a Chapter 11 petition on September 25, 2026 in the United States Bankruptcy Court for the Middle District of Tennessee, case number 3:26-bk-04686. This entry reflects only what the federal court docket shows; no independent news coverage of the filing was available at the time it was added to this tracker.",
-      significance: "Real-estate-named entities filing Chapter 11 in the current environment make up a meaningful share of small commercial bankruptcy filings tied to distressed acquisition, leasing, or financing debt. This tracker will add further detail as public reporting or additional docket activity becomes available.",
-      body: [
-        "Urban Development Group, LLC filed a Chapter 11 petition on September 25, 2026 in the United States Bankruptcy Court for the Middle District of Tennessee, docketed as case number 3:26-bk-04686. As of this entry, no independent news coverage of this specific filing's underlying circumstances had been published, so this record reflects only what the federal court docket itself shows: the debtor's name, the court, the case number, and the filing date.",
-        "This entry is added under CREdocket's standing practice of logging fresh commercial real estate Chapter 11 petitions directly from federal court records when filed by an entity whose name is consistent with real estate ownership or development, even before independent reporting becomes available. This tracker will update the entry, or add a related one, if further docket activity or independent reporting clarifies the debtor's property, its creditors, and the circumstances of the filing."
-      ],
-      judge: null,
-      parties: [
-        { name: "Urban Development Group, LLC", role: "Debtor" }
-      ],
-      amountUsd: null,
-      docketUrl: "https://www.courtlistener.com/docket/74856205/urban-development-group-llc/",
-      docketLabel: "CourtListener docket",
-      tags: ["chapter-11", "bankruptcy", "tennessee"]
     },
     {
       id: "live-199",
@@ -6798,33 +6663,6 @@ const RELAW_DATA = {
       ]
     },
     {
-      id: "live-204",
-      addedDate: "2026-09-30",
-      title: "MW Properties Orlando LLC Chapter 11 Petition (M.D. Fla.)",
-      category: "lending-foreclosure",
-      status: "filed",
-      date: "2026-09-29",
-      jurisdiction: "United States Bankruptcy Court, Middle District of Florida",
-      state: "FL",
-      amount: "Undisclosed (financial details not yet public)",
-      source: "live",
-      sourceUrl: "https://www.courtlistener.com/docket/74866310/mw-properties-orlando-llc/",
-      summary: "MW Properties Orlando LLC filed a Chapter 11 petition on September 29, 2026 in the United States Bankruptcy Court for the Middle District of Florida, case number 6:26-bk-07563. This entry reflects only what the federal court docket shows; no independent news coverage of the filing was available at the time it was added to this tracker.",
-      significance: "Single-asset and small-portfolio real estate entities carrying \"Properties\" in their name make up a meaningful share of the current wave of small commercial Chapter 11 filings tied to distressed acquisition or construction debt in Florida. This tracker will add further detail as public reporting or additional docket activity becomes available.",
-      body: [
-        "MW Properties Orlando LLC filed a Chapter 11 petition on September 29, 2026 in the United States Bankruptcy Court for the Middle District of Florida, docketed as case number 6:26-bk-07563. As of this entry, no news coverage of the filing's underlying circumstances -- the nature of the debtor's property, its lender, or the cause of the filing -- had been published, so this record is limited to what the court docket itself shows.",
-        "Chapter 11 filings by small commercial real estate ownership entities of this kind are common among owners facing a maturing or defaulted loan, and they typically proceed on a compressed timeline relative to operating-business reorganizations, since the debtor's only meaningful asset is often the property itself. This tracker will update this entry, or add a related one, if further docket activity or independent reporting clarifies the debtor's business and the filing's circumstances."
-      ],
-      judge: null,
-      parties: [
-        { name: "MW Properties Orlando LLC", role: "Debtor" }
-      ],
-      amountUsd: null,
-      docketUrl: "https://www.courtlistener.com/docket/74866310/mw-properties-orlando-llc/",
-      docketLabel: "CourtListener docket",
-      tags: ["chapter-11", "bankruptcy", "single-asset-entity", "orlando", "florida"]
-    },
-    {
       id: "live-205",
       addedDate: "2026-09-30",
       title: "American Heavy Plate Solutions, LLC v. Bitdeer (Restrictive-Covenant Fight Over Ohio Data Center)",
@@ -6860,33 +6698,6 @@ const RELAW_DATA = {
         { when: "September 8, 2026", label: "Judge Julie Selmon denies Bitdeer's motion to disqualify AHP's counsel, Quinn Emanuel, finding an advance conflict waiver and undue prejudice to AHP if the firm were removed", current: true }
       ],
       tags: ["data-center", "restrictive-covenant", "industrial-lease", "ohio", "port-authority"]
-    },
-    {
-      id: "live-206",
-      addedDate: "2026-09-30",
-      title: "63 Spring Lafayette, LLC Chapter 11 Petition (D. Del.)",
-      category: "lending-foreclosure",
-      status: "filed",
-      date: "2026-09-29",
-      jurisdiction: "United States Bankruptcy Court, District of Delaware",
-      state: "DE",
-      amount: "Undisclosed (financial details not yet public)",
-      source: "live",
-      sourceUrl: "https://www.courtlistener.com/docket/74867047/63-spring-lafayette-llc/",
-      summary: "63 Spring Lafayette, LLC filed a Chapter 11 petition on September 29, 2026 in the United States Bankruptcy Court for the District of Delaware, case number 26-11537. This entry reflects only what the federal court docket shows; no independent news coverage of the filing was available at the time it was added to this tracker.",
-      significance: "Single-asset real estate entities named for their property address, like this debtor, make up a meaningful share of the current wave of small commercial Chapter 11 filings tied to distressed acquisition or construction debt. This tracker will add further detail as public reporting or additional docket activity becomes available.",
-      body: [
-        "63 Spring Lafayette, LLC filed a Chapter 11 petition on September 29, 2026 in the United States Bankruptcy Court for the District of Delaware, docketed as case number 26-11537. As of this entry, no independent news coverage of the filing had been published, so this record reflects only what the federal court docket itself shows: the debtor's name, the court, the case number, and the filing date.",
-        "Single-asset real estate entities, commonly organized as a standalone LLC named for the property's own street address, file Chapter 11 petitions of this kind regularly, and they make up a meaningful share of the current wave of small commercial bankruptcy filings tied to distressed acquisition, construction, or maturity debt. Because the debtor's sole meaningful asset is typically the property itself, these cases often proceed on a more compressed timeline than an operating business's reorganization. This tracker will update this entry, or add a related one, if further docket activity or independent reporting clarifies the debtor's property, its lender, and the circumstances of the filing."
-      ],
-      judge: null,
-      parties: [
-        { name: "63 Spring Lafayette, LLC", role: "Debtor" }
-      ],
-      amountUsd: null,
-      docketUrl: "https://www.courtlistener.com/docket/74867047/63-spring-lafayette-llc/",
-      docketLabel: "CourtListener docket",
-      tags: ["chapter-11", "bankruptcy", "single-asset-entity", "delaware"]
     },
     {
       id: "live-207",
@@ -6958,34 +6769,6 @@ const RELAW_DATA = {
         { when: "September 29, 2026", label: "Investors separately sue mezzanine lender The Davis Companies over the 345 Seventh Avenue UCC foreclosure sale process; Davis Companies completes the sale the same day; Kohan is removed from his board and executive roles at Kohan Properties Ltd.", current: true }
       ],
       tags: ["office", "fraud", "ucc-foreclosure", "mezzanine-loan", "new-york"]
-    },
-    {
-      id: "live-209",
-      addedDate: "2026-10-01",
-      title: "6363 West 73rd Street, LLC Chapter 11 Petition (N.D. Ill.)",
-      category: "lending-foreclosure",
-      status: "filed",
-      date: "2026-09-30",
-      jurisdiction: "United States Bankruptcy Court, Northern District of Illinois",
-      state: "IL",
-      amount: "Undisclosed (financial details not yet public)",
-      source: "live",
-      sourceUrl: "https://www.courtlistener.com/docket/74874313/6363-west-73rd-street-llc/",
-      summary: "6363 West 73rd Street, LLC -- a single-asset entity tied to an industrial property in Bedford Park, Illinois -- filed a Chapter 11 petition on September 30, 2026 in the United States Bankruptcy Court for the Northern District of Illinois, case number 26-16232. This entry reflects only what the federal court docket shows; no independent news coverage of the filing was available at the time it was added to this tracker.",
-      significance: "Single-asset real estate entities named for their property address, like this debtor, continue to make up a meaningful share of the current wave of small commercial Chapter 11 filings tied to distressed acquisition or construction debt. This tracker will add further detail as public reporting or additional docket activity becomes available.",
-      body: [
-        "6363 West 73rd Street, LLC filed a Chapter 11 petition on September 30, 2026 in the United States Bankruptcy Court for the Northern District of Illinois, docketed as case number 26-16232. The debtor's name corresponds to an industrial property at 6363 West 73rd Street in Bedford Park, Illinois, a roughly 60,000-square-foot building that last traded in late 2021. As of this entry, no independent news coverage of the filing's underlying circumstances had been published, so this record reflects only what the federal court docket itself shows: the debtor's name, the court, the case number, and the filing date.",
-        "Single-asset real estate entities, commonly organized as a standalone LLC named for the property's own street address, file Chapter 11 petitions of this kind regularly, and they make up a meaningful share of the current wave of small commercial bankruptcy filings tied to distressed acquisition, construction, or maturity debt. Because the debtor's sole meaningful asset is typically the property itself, these cases often proceed on a more compressed timeline than an operating business's reorganization. This tracker will update this entry, or add a related one, if further docket activity or independent reporting clarifies the debtor's lender and the circumstances of the filing."
-      ],
-      judge: null,
-      parties: [
-        { name: "6363 West 73rd Street, LLC", role: "Debtor" }
-      ],
-      amountUsd: null,
-      propertyType: "Industrial",
-      docketUrl: "https://www.courtlistener.com/docket/74874313/6363-west-73rd-street-llc/",
-      docketLabel: "CourtListener docket",
-      tags: ["chapter-11", "bankruptcy", "single-asset-entity", "illinois", "industrial"]
     },
     {
       id: "live-210",
@@ -7204,34 +6987,6 @@ const RELAW_DATA = {
       tags: ["securities", "multifamily", "oklahoma", "subpoena-enforcement", "vesta realty"]
     },
     {
-      id: "live-216",
-      addedDate: "2026-10-03",
-      title: "University Campus Hotel Fund, L.P. Chapter 11 Petition (C.D. Cal.)",
-      category: "lending-foreclosure",
-      status: "filed",
-      date: "2026-10-02",
-      jurisdiction: "United States Bankruptcy Court, Central District of California",
-      state: "CA",
-      amount: "Undisclosed (financial details not yet public)",
-      source: "live",
-      sourceUrl: "https://www.courtlistener.com/docket/74911571/university-campus-hotel-fund-lp-a-california-l/",
-      summary: "University Campus Hotel Fund, L.P. filed a Chapter 11 petition on October 2, 2026 in the United States Bankruptcy Court for the Central District of California, case number 6:26-bk-18337. This entry reflects only what the federal court docket shows; no independent news coverage of the filing was available at the time it was added to this tracker.",
-      significance: "Single-asset and small-fund real estate entities carrying \"Hotel Fund\" or \"Properties\" in their name make up a meaningful share of the current wave of small commercial Chapter 11 filings tied to distressed acquisition or construction debt. This tracker will add further detail as public reporting or additional docket activity becomes available.",
-      body: [
-        "University Campus Hotel Fund, L.P. filed a Chapter 11 petition on October 2, 2026 in the United States Bankruptcy Court for the Central District of California, docketed as case number 6:26-bk-18337. As of this entry, no news coverage of the filing's underlying circumstances -- the nature of the debtor's property, its lender, or the cause of the filing -- had been published, so this record is limited to what the court docket itself shows.",
-        "California limited partnerships organized around a single hotel or hospitality-adjacent project file Chapter 11 petitions of this kind regularly, and they make up a meaningful share of the current wave of small commercial bankruptcy filings tied to distressed acquisition, construction, or maturity debt. This tracker will update this entry, or add a related one, if further docket activity or independent reporting clarifies the debtor's property, its lender, and the circumstances of the filing."
-      ],
-      judge: null,
-      parties: [
-        { name: "University Campus Hotel Fund, L.P.", role: "Debtor" }
-      ],
-      amountUsd: null,
-      propertyType: "Hospitality",
-      docketUrl: "https://www.courtlistener.com/docket/74911571/university-campus-hotel-fund-lp-a-california-l/",
-      docketLabel: "CourtListener docket",
-      tags: ["chapter-11", "bankruptcy", "single-asset-entity", "california", "hospitality"]
-    },
-    {
       id: "live-217",
       addedDate: "2026-10-03",
       featured: true,
@@ -7266,33 +7021,6 @@ const RELAW_DATA = {
         { when: "October 1, 2026", label: "Massachusetts Appeals Court holds the Damianidises bound to pay $100,000 under the settlement", current: true }
       ],
       tags: ["zoning", "settlement-agreement", "contract-formation", "massachusetts", "apartment-development"]
-    },
-    {
-      id: "live-218",
-      addedDate: "2026-10-03",
-      title: "PPW Realty 1414 W 3rd St. LLC Chapter 11 Petition (D.N.J.)",
-      category: "lending-foreclosure",
-      status: "filed",
-      date: "2026-10-01",
-      jurisdiction: "United States Bankruptcy Court, District of New Jersey",
-      state: "NJ",
-      amount: "Undisclosed (assets and liabilities each reported in the $500,001-$1,000,000 range)",
-      source: "live",
-      sourceUrl: "https://www.courtlistener.com/docket/74903821/ppw-realty-1414-w-3rd-st-llc/",
-      summary: "PPW Realty 1414 W 3rd St. LLC filed a Chapter 11 petition on October 1, 2026 in the United States Bankruptcy Court for the District of New Jersey, case number 26-21190. The debtor's name identifies it as a single-asset entity tied to a specific address; no independent news coverage of the filing was available at the time it was added to this tracker.",
-      significance: "Single-asset real estate entities named for a specific address continue to make up a meaningful share of the current wave of small commercial Chapter 11 filings tied to distressed acquisition or construction debt. This tracker will add further detail as public reporting or additional docket activity becomes available.",
-      body: [
-        "PPW Realty 1414 W 3rd St. LLC filed a Chapter 11 petition on October 1, 2026 in the United States Bankruptcy Court for the District of New Jersey, docketed as case number 26-21190. As of this entry, no news coverage of the filing's underlying circumstances -- the nature of the debtor's property, its lender, or the cause of the filing -- had been published, so this record is limited to what the court docket itself shows.",
-        "The debtor's name follows a common naming convention for single-asset real estate entities organized around one specific property address, a structure frequently used by small commercial owners to isolate a single asset's liabilities. These filings make up a meaningful share of the current wave of small commercial bankruptcy filings tied to distressed acquisition, construction, or maturity debt. This tracker will update this entry, or add a related one, if further docket activity or independent reporting clarifies the debtor's property, its lender, and the circumstances of the filing."
-      ],
-      judge: null,
-      parties: [
-        { name: "PPW Realty 1414 W 3rd St. LLC", role: "Debtor" }
-      ],
-      amountUsd: null,
-      docketUrl: "https://www.courtlistener.com/docket/74903821/ppw-realty-1414-w-3rd-st-llc/",
-      docketLabel: "CourtListener docket",
-      tags: ["chapter-11", "bankruptcy", "single-asset-entity", "new-jersey"]
     },
     {
       id: "live-219",
@@ -7526,34 +7254,6 @@ const RELAW_DATA = {
       tags: ["foreclosure", "multifamily", "municipal-intervention", "receivership", "code-enforcement"]
     },
     {
-      id: "live-225",
-      addedDate: "2026-10-06",
-      title: "Janam Taccoa Lodging LLC Chapter 11 Petition (N.D. Ga.)",
-      category: "lending-foreclosure",
-      status: "filed",
-      date: "2026-10-05",
-      jurisdiction: "United States Bankruptcy Court, Northern District of Georgia",
-      state: "GA",
-      propertyType: "Hospitality",
-      amount: "Undisclosed (financial details not yet public)",
-      source: "live",
-      sourceUrl: "https://www.courtlistener.com/docket/74922099/janam-taccoa-lodging-llc/",
-      summary: "Janam Taccoa Lodging LLC filed a Chapter 11 petition on October 5, 2026 in the United States Bankruptcy Court for the Northern District of Georgia, case number 26-63515. This entry reflects only what the federal court docket shows; no independent news coverage of the filing was available at the time it was added to this tracker.",
-      significance: "Single-asset hotel ownership entities continue to make up a meaningful share of the current wave of small commercial Chapter 11 filings tied to distressed acquisition or construction debt. This tracker will add further detail as public reporting or additional docket activity becomes available.",
-      body: [
-        "Janam Taccoa Lodging LLC filed a Chapter 11 petition on October 5, 2026 in the United States Bankruptcy Court for the Northern District of Georgia, docketed as case number 26-63515. As of this entry, no news coverage of the filing's underlying circumstances -- the nature of the debtor's property, its lender, or the cause of the filing -- had been published, so this record is limited to what the court docket itself shows.",
-        "The debtor's name pairs \"Lodging\" with a Georgia place name, a naming convention commonly used by single-asset hotel ownership entities to identify the property tied to a single mortgage or operating structure. Hotel and hospitality-adjacent single-asset entities make up a meaningful share of the current wave of small commercial Chapter 11 filings tied to distressed acquisition, construction, or maturity debt. This tracker will update this entry, or add a related one, if further docket activity or independent reporting clarifies the debtor's property, its lender, and the circumstances of the filing."
-      ],
-      judge: null,
-      parties: [
-        { name: "Janam Taccoa Lodging LLC", role: "Debtor" }
-      ],
-      amountUsd: null,
-      docketUrl: "https://www.courtlistener.com/docket/74922099/janam-taccoa-lodging-llc/",
-      docketLabel: "CourtListener docket",
-      tags: ["chapter-11", "bankruptcy", "single-asset-entity", "georgia", "hospitality"]
-    },
-    {
       id: "live-226",
       addedDate: "2026-10-06",
       title: "Oak Land and Development LLC v. Simon Property Group Inc. (Penn Square Mall Antitrust Tying Suit)",
@@ -7783,60 +7483,6 @@ const RELAW_DATA = {
       tags: ["environmental", "wisconsin", "contamination", "direct-action-statute", "insurance-coverage"]
     },
     {
-      id: "live-233",
-      addedDate: "2026-10-08",
-      title: "Cornerstone Development, LLC Chapter 11 Petition (N.D. Ga.)",
-      category: "lending-foreclosure",
-      status: "filed",
-      date: "2026-10-05",
-      jurisdiction: "United States Bankruptcy Court, Northern District of Georgia",
-      state: "GA",
-      amount: "Undisclosed (financial details not yet public)",
-      source: "live",
-      sourceUrl: "https://www.courtlistener.com/docket/74922018/cornerstone-development-llc/",
-      summary: "Cornerstone Development, LLC filed a Chapter 11 petition on October 5, 2026 in the United States Bankruptcy Court for the Northern District of Georgia, case number 26-63513. This entry reflects only what the federal court docket shows; no independent news coverage of the filing was available at the time it was added to this tracker.",
-      significance: "Single-asset and small-platform real estate development entities filing Chapter 11 make up a meaningful share of the current wave of small commercial bankruptcy filings tied to distressed acquisition or construction debt. This tracker will add further detail as public reporting or additional docket activity becomes available.",
-      body: [
-        "Cornerstone Development, LLC filed a Chapter 11 petition on October 5, 2026 in the United States Bankruptcy Court for the Northern District of Georgia, docketed as case number 26-63513. As of this entry, no news coverage of the filing's underlying circumstances -- the nature of the debtor's property, its lender, or the cause of the filing -- had been published, so this record is limited to what the court docket itself shows.",
-        "Georgia limited liability companies organized around a single development project file Chapter 11 petitions of this kind regularly, and they make up a meaningful share of the current wave of small commercial bankruptcy filings tied to distressed acquisition, construction, or maturity debt. This tracker will update this entry, or add a related one, if further docket activity or independent reporting clarifies the debtor's property, its lender, and the circumstances of the filing."
-      ],
-      judge: null,
-      parties: [
-        { name: "Cornerstone Development, LLC", role: "Debtor" }
-      ],
-      amountUsd: null,
-      docketUrl: "https://www.courtlistener.com/docket/74922018/cornerstone-development-llc/",
-      docketLabel: "CourtListener docket",
-      tags: ["chapter-11", "bankruptcy", "single-asset-entity", "georgia", "development"]
-    },
-    {
-      id: "live-234",
-      addedDate: "2026-10-08",
-      title: "Travis Property Owner LLC Chapter 11 Petition (N.D. Tex.)",
-      category: "lending-foreclosure",
-      status: "filed",
-      date: "2026-10-06",
-      jurisdiction: "United States Bankruptcy Court, Northern District of Texas",
-      state: "TX",
-      amount: "Undisclosed (financial details not yet public)",
-      source: "live",
-      sourceUrl: "https://www.courtlistener.com/docket/74922581/travis-property-owner-llc/",
-      summary: "Travis Property Owner LLC filed a Chapter 11 petition on October 6, 2026 in the United States Bankruptcy Court for the Northern District of Texas, case number 26-90220. This entry reflects only what the federal court docket shows; no independent news coverage of the filing was available at the time it was added to this tracker.",
-      significance: "Single-asset real estate entities carrying \"Property Owner\" in their name -- typically formed to hold one commercial or multifamily asset -- make up a meaningful share of the current wave of small commercial Chapter 11 filings tied to distressed acquisition or maturity debt. This tracker will add further detail as public reporting or additional docket activity becomes available.",
-      body: [
-        "Travis Property Owner LLC filed a Chapter 11 petition on October 6, 2026 in the United States Bankruptcy Court for the Northern District of Texas, docketed as case number 26-90220. As of this entry, no news coverage of the filing's underlying circumstances -- the nature of the debtor's property, its lender, or the cause of the filing -- had been published, so this record is limited to what the court docket itself shows.",
-        "Single-asset Texas entities organized under a \"Property Owner\" naming convention file Chapter 11 petitions of this kind regularly, and they make up a meaningful share of the current wave of small commercial bankruptcy filings tied to distressed acquisition, construction, or maturity debt. This tracker will update this entry, or add a related one, if further docket activity or independent reporting clarifies the debtor's property, its lender, and the circumstances of the filing."
-      ],
-      judge: null,
-      parties: [
-        { name: "Travis Property Owner LLC", role: "Debtor" }
-      ],
-      amountUsd: null,
-      docketUrl: "https://www.courtlistener.com/docket/74922581/travis-property-owner-llc/",
-      docketLabel: "CourtListener docket",
-      tags: ["chapter-11", "bankruptcy", "single-asset-entity", "texas"]
-    },
-    {
       id: "live-235",
       addedDate: "2026-10-08",
       title: "Girolametti v. City of Danbury (Connecticut Appellate Court Affirms $16.8M Reckless-Permitting Verdict)",
@@ -8003,87 +7649,6 @@ const RELAW_DATA = {
       tags: ["reit", "preferred-stock", "class-action", "settlement", "maryland"]
     },
     {
-      id: "live-240",
-      addedDate: "2026-10-08",
-      title: "Keinan Properties, LLC Chapter 11 Petition (D. Kan.)",
-      category: "lending-foreclosure",
-      status: "filed",
-      date: "2026-10-06",
-      jurisdiction: "United States Bankruptcy Court, District of Kansas",
-      state: "KS",
-      amount: "Undisclosed (financial details not yet public)",
-      amountUsd: null,
-      source: "live",
-      sourceUrl: "https://www.courtlistener.com/docket/74925931/keinan-properties-llc/",
-      summary: "Keinan Properties, LLC filed a Chapter 11 petition on October 6, 2026 in the United States Bankruptcy Court for the District of Kansas, case number 26-21557. This entry reflects only what the federal court docket shows; no independent news coverage of the filing was available at the time it was added to this tracker.",
-      significance: "Single-asset and small-platform real estate holding entities filing Chapter 11 make up a meaningful share of the current wave of small commercial bankruptcy filings tied to distressed acquisition or construction debt. This tracker will add further detail as public reporting or additional docket activity becomes available.",
-      body: [
-        "Keinan Properties, LLC filed a Chapter 11 petition on October 6, 2026 in the United States Bankruptcy Court for the District of Kansas, docketed as case number 26-21557. As of this entry, no news coverage of the filing's underlying circumstances -- the nature of the debtor's property, its lender, or the cause of the filing -- had been published, so this record is limited to what the court docket itself shows.",
-        "Real estate holding entities organized around a single property or small portfolio file Chapter 11 petitions of this kind regularly, and they make up a meaningful share of the current wave of small commercial bankruptcy filings tied to distressed acquisition, construction, or maturity debt. This tracker will update this entry, or add a related one, if further docket activity or independent reporting clarifies the debtor's property, its lender, and the circumstances of the filing."
-      ],
-      judge: null,
-      parties: [
-        { name: "Keinan Properties, LLC", role: "Debtor" }
-      ],
-      docketUrl: "https://www.courtlistener.com/docket/74925931/keinan-properties-llc/",
-      docketLabel: "CourtListener docket",
-      tags: ["chapter-11", "bankruptcy", "single-asset-entity", "kansas"]
-    },
-    {
-      id: "live-241",
-      addedDate: "2026-10-08",
-      title: "Teas Ridge Retail Center I LLC Chapter 11 Petition (S.D. Tex.)",
-      category: "lending-foreclosure",
-      status: "filed",
-      date: "2026-10-06",
-      jurisdiction: "United States Bankruptcy Court, Southern District of Texas",
-      state: "TX",
-      amount: "Undisclosed (financial details not yet public)",
-      amountUsd: null,
-      source: "live",
-      sourceUrl: "https://www.courtlistener.com/docket/74923277/teas-ridge-retail-center-i-llc/",
-      summary: "Teas Ridge Retail Center I LLC filed a Chapter 11 petition on October 6, 2026 in the United States Bankruptcy Court for the Southern District of Texas, case number 26-37551. This entry reflects only what the federal court docket shows; no independent news coverage of the filing was available at the time it was added to this tracker.",
-      significance: "Single-asset retail-center ownership entities filing Chapter 11 make up a meaningful share of the current wave of small commercial bankruptcy filings tied to distressed acquisition or construction debt. This tracker will add further detail as public reporting or additional docket activity becomes available.",
-      body: [
-        "Teas Ridge Retail Center I LLC filed a Chapter 11 petition on October 6, 2026 in the United States Bankruptcy Court for the Southern District of Texas, docketed as case number 26-37551. As of this entry, no news coverage of the filing's underlying circumstances -- the nature of the debtor's property, its lender, or the cause of the filing -- had been published, so this record is limited to what the court docket itself shows.",
-        "Single-asset retail-center entities of this kind file Chapter 11 petitions regularly, and they make up a meaningful share of the current wave of small commercial bankruptcy filings tied to distressed acquisition, construction, or maturity debt. This tracker will update this entry, or add a related one, if further docket activity or independent reporting clarifies the debtor's property, its lender, and the circumstances of the filing."
-      ],
-      judge: null,
-      parties: [
-        { name: "Teas Ridge Retail Center I LLC", role: "Debtor" }
-      ],
-      docketUrl: "https://www.courtlistener.com/docket/74923277/teas-ridge-retail-center-i-llc/",
-      docketLabel: "CourtListener docket",
-      tags: ["chapter-11", "bankruptcy", "single-asset-entity", "retail", "texas"]
-    },
-    {
-      id: "live-242",
-      addedDate: "2026-10-08",
-      title: "148 Bay 43rd, LLC Chapter 11 Petition (E.D.N.Y.)",
-      category: "lending-foreclosure",
-      status: "filed",
-      date: "2026-10-08",
-      jurisdiction: "United States Bankruptcy Court, Eastern District of New York",
-      state: "NY",
-      amount: "Undisclosed (financial details not yet public)",
-      amountUsd: null,
-      source: "live",
-      sourceUrl: "https://www.courtlistener.com/docket/74937404/148-bay-43rd-llc/",
-      summary: "148 Bay 43rd, LLC filed a Chapter 11 petition on October 8, 2026 in the United States Bankruptcy Court for the Eastern District of New York, case number 1-26-44720. This entry reflects only what the federal court docket shows; no independent news coverage of the filing was available at the time it was added to this tracker.",
-      significance: "Single-asset, address-named real estate entities filing Chapter 11 make up a meaningful share of the current wave of small commercial bankruptcy filings in New York tied to distressed acquisition or maturity debt. This tracker will add further detail as public reporting or additional docket activity becomes available.",
-      body: [
-        "148 Bay 43rd, LLC filed a Chapter 11 petition on October 8, 2026 in the United States Bankruptcy Court for the Eastern District of New York, docketed as case number 1-26-44720. As of this entry, no news coverage of the filing's underlying circumstances -- the nature of the debtor's property, its lender, or the cause of the filing -- had been published, so this record is limited to what the court docket itself shows.",
-        "New York single-asset entities named for a property's street address file Chapter 11 petitions of this kind regularly, and they make up a meaningful share of the current wave of small commercial bankruptcy filings tied to distressed acquisition, construction, or maturity debt. This tracker will update this entry, or add a related one, if further docket activity or independent reporting clarifies the debtor's property, its lender, and the circumstances of the filing."
-      ],
-      judge: null,
-      parties: [
-        { name: "148 Bay 43rd, LLC", role: "Debtor" }
-      ],
-      docketUrl: "https://www.courtlistener.com/docket/74937404/148-bay-43rd-llc/",
-      docketLabel: "CourtListener docket",
-      tags: ["chapter-11", "bankruptcy", "single-asset-entity", "new-york"]
-    },
-    {
       id: "live-243",
       addedDate: "2026-10-09",
       featured: true,
@@ -8118,168 +7683,6 @@ const RELAW_DATA = {
         { when: "August 2026", label: "The Dawn Hotel at Dorado LLC moves to dismiss DBR's suit seeking to halt construction" },
         { when: "October 6, 2026", label: "Bayamón Court of First Instance dismisses DBR's suit with prejudice on delay grounds", current: true }
       ]
-    },
-    {
-      id: "live-244",
-      addedDate: "2026-10-09",
-      title: "315 South Beverly Drive, LLC Chapter 11 Petition (C.D. Cal.)",
-      category: "lending-foreclosure",
-      status: "filed",
-      date: "2026-10-08",
-      jurisdiction: "United States Bankruptcy Court, Central District of California",
-      state: "CA",
-      amount: "Undisclosed (financial details not yet public)",
-      amountUsd: null,
-      source: "live",
-      sourceUrl: "https://www.courtlistener.com/docket/74941502/315-south-beverly-drive-llc/",
-      summary: "315 South Beverly Drive, LLC filed a Chapter 11 petition on October 8, 2026 in the United States Bankruptcy Court for the Central District of California, case number 2:26-bk-20221. This entry reflects only what the federal court docket shows; no independent news coverage of the filing was available at the time it was added to this tracker.",
-      significance: "Single-asset, address-named real estate entities filing Chapter 11 make up a meaningful share of the current wave of small commercial bankruptcy filings in Southern California tied to distressed acquisition or maturity debt. This tracker will add further detail as public reporting or additional docket activity becomes available.",
-      body: [
-        "315 South Beverly Drive, LLC filed a Chapter 11 petition on October 8, 2026 in the United States Bankruptcy Court for the Central District of California, docketed as case number 2:26-bk-20221. As of this entry, no news coverage of the filing's underlying circumstances -- the nature of the debtor's property, its lender, or the cause of the filing -- had been published, so this record is limited to what the court docket itself shows.",
-        "Beverly Hills single-asset entities named for a property's street address file Chapter 11 petitions of this kind regularly, and they make up a meaningful share of the current wave of small commercial bankruptcy filings tied to distressed acquisition, construction, or maturity debt. This tracker will update this entry, or add a related one, if further docket activity or independent reporting clarifies the debtor's property, its lender, and the circumstances of the filing."
-      ],
-      judge: null,
-      parties: [
-        { name: "315 South Beverly Drive, LLC", role: "Debtor" }
-      ],
-      docketUrl: "https://www.courtlistener.com/docket/74941502/315-south-beverly-drive-llc/",
-      docketLabel: "CourtListener docket",
-      tags: ["chapter-11", "bankruptcy", "single-asset-entity", "california"]
-    },
-    {
-      id: "live-245",
-      addedDate: "2026-10-09",
-      title: "JRM Real Estate Holdings LLC Chapter 11 Petition (D.N.J.)",
-      category: "lending-foreclosure",
-      status: "filed",
-      date: "2026-10-06",
-      jurisdiction: "United States Bankruptcy Court, District of New Jersey",
-      state: "NJ",
-      amount: "Undisclosed (financial details not yet public)",
-      amountUsd: null,
-      source: "live",
-      sourceUrl: "https://www.courtlistener.com/docket/74928132/jrm-real-estate-holdings-llc/",
-      summary: "JRM Real Estate Holdings LLC filed a Chapter 11 petition on October 6, 2026 in the United States Bankruptcy Court for the District of New Jersey, case number 26-21388. This entry reflects only what the federal court docket shows; no independent news coverage of the filing was available at the time it was added to this tracker.",
-      significance: "Single-asset real estate holding entities filing Chapter 11 make up a meaningful share of the current wave of small commercial bankruptcy filings in New Jersey tied to distressed acquisition or maturity debt. This tracker will add further detail as public reporting or additional docket activity becomes available.",
-      body: [
-        "JRM Real Estate Holdings LLC filed a Chapter 11 petition on October 6, 2026 in the United States Bankruptcy Court for the District of New Jersey, docketed as case number 26-21388. As of this entry, no news coverage of the filing's underlying circumstances -- the nature of the debtor's property, its lender, or the cause of the filing -- had been published, so this record is limited to what the court docket itself shows.",
-        "Real estate holding entities of this kind file Chapter 11 petitions regularly, and they make up a meaningful share of the current wave of small commercial bankruptcy filings tied to distressed acquisition, construction, or maturity debt. This tracker will update this entry, or add a related one, if further docket activity or independent reporting clarifies the debtor's property, its lender, and the circumstances of the filing."
-      ],
-      judge: null,
-      parties: [
-        { name: "JRM Real Estate Holdings LLC", role: "Debtor" }
-      ],
-      docketUrl: "https://www.courtlistener.com/docket/74928132/jrm-real-estate-holdings-llc/",
-      docketLabel: "CourtListener docket",
-      tags: ["chapter-11", "bankruptcy", "single-asset-entity", "new-jersey"]
-    },
-    {
-      id: "live-246",
-      addedDate: "2026-10-09",
-      title: "DMK Real Estate Holdings LLC Chapter 11 Petition (M.D. Pa.)",
-      category: "lending-foreclosure",
-      status: "filed",
-      date: "2026-10-05",
-      jurisdiction: "United States Bankruptcy Court, Middle District of Pennsylvania",
-      state: "PA",
-      amount: "Undisclosed (financial details not yet public)",
-      amountUsd: null,
-      source: "live",
-      sourceUrl: "https://www.courtlistener.com/docket/74919063/dmk-real-estate-holdings-llc/",
-      summary: "DMK Real Estate Holdings LLC filed a Chapter 11 petition on October 5, 2026 in the United States Bankruptcy Court for the Middle District of Pennsylvania, case number 5:26-bk-02893. This entry reflects only what the federal court docket shows; no independent news coverage of the filing was available at the time it was added to this tracker.",
-      significance: "Single-asset real estate holding entities filing Chapter 11 make up a meaningful share of the current wave of small commercial bankruptcy filings in Pennsylvania tied to distressed acquisition or maturity debt. This tracker will add further detail as public reporting or additional docket activity becomes available.",
-      body: [
-        "DMK Real Estate Holdings LLC filed a Chapter 11 petition on October 5, 2026 in the United States Bankruptcy Court for the Middle District of Pennsylvania, docketed as case number 5:26-bk-02893. As of this entry, no news coverage of the filing's underlying circumstances -- the nature of the debtor's property, its lender, or the cause of the filing -- had been published, so this record is limited to what the court docket itself shows.",
-        "Real estate holding entities of this kind file Chapter 11 petitions regularly, and they make up a meaningful share of the current wave of small commercial bankruptcy filings tied to distressed acquisition, construction, or maturity debt. This tracker will update this entry, or add a related one, if further docket activity or independent reporting clarifies the debtor's property, its lender, and the circumstances of the filing."
-      ],
-      judge: null,
-      parties: [
-        { name: "DMK Real Estate Holdings LLC", role: "Debtor" }
-      ],
-      docketUrl: "https://www.courtlistener.com/docket/74919063/dmk-real-estate-holdings-llc/",
-      docketLabel: "CourtListener docket",
-      tags: ["chapter-11", "bankruptcy", "single-asset-entity", "pennsylvania"]
-    },
-    {
-      id: "live-247",
-      addedDate: "2026-10-09",
-      title: "LZA Real Properties East, LLC Chapter 11 Petition (W.D. Tex.)",
-      category: "lending-foreclosure",
-      status: "filed",
-      date: "2026-10-06",
-      jurisdiction: "United States Bankruptcy Court, Western District of Texas",
-      state: "TX",
-      amount: "Undisclosed (financial details not yet public)",
-      amountUsd: null,
-      source: "live",
-      sourceUrl: "https://www.courtlistener.com/docket/74924804/lza-real-properties-east-llc/",
-      summary: "LZA Real Properties East, LLC filed a Chapter 11 petition on October 6, 2026 in the United States Bankruptcy Court for the Western District of Texas, case number 26-12003. This entry reflects only what the federal court docket shows; no independent news coverage of the filing was available at the time it was added to this tracker.",
-      significance: "Single-asset real estate entities filing Chapter 11 make up a meaningful share of the current wave of small commercial bankruptcy filings in Texas tied to distressed acquisition or maturity debt. This tracker will add further detail as public reporting or additional docket activity becomes available.",
-      body: [
-        "LZA Real Properties East, LLC filed a Chapter 11 petition on October 6, 2026 in the United States Bankruptcy Court for the Western District of Texas, docketed as case number 26-12003. As of this entry, no news coverage of the filing's underlying circumstances -- the nature of the debtor's property, its lender, or the cause of the filing -- had been published, so this record is limited to what the court docket itself shows.",
-        "Real estate holding entities of this kind file Chapter 11 petitions regularly, and they make up a meaningful share of the current wave of small commercial bankruptcy filings tied to distressed acquisition, construction, or maturity debt. This tracker will update this entry, or add a related one, if further docket activity or independent reporting clarifies the debtor's property, its lender, and the circumstances of the filing."
-      ],
-      judge: null,
-      parties: [
-        { name: "LZA Real Properties East, LLC", role: "Debtor" }
-      ],
-      docketUrl: "https://www.courtlistener.com/docket/74924804/lza-real-properties-east-llc/",
-      docketLabel: "CourtListener docket",
-      tags: ["chapter-11", "bankruptcy", "single-asset-entity", "texas"]
-    },
-    {
-      id: "live-248",
-      addedDate: "2026-10-09",
-      title: "Fortapache Realty LLC Chapter 11 Petition (N.D. Ga.)",
-      category: "lending-foreclosure",
-      status: "filed",
-      date: "2026-10-06",
-      jurisdiction: "United States Bankruptcy Court, Northern District of Georgia",
-      state: "GA",
-      amount: "Undisclosed (financial details not yet public)",
-      amountUsd: null,
-      source: "live",
-      sourceUrl: "https://www.courtlistener.com/docket/74923336/fortapache-realty-llc/",
-      summary: "Fortapache Realty LLC filed a Chapter 11 petition on October 6, 2026 in the United States Bankruptcy Court for the Northern District of Georgia, case number 26-63569. This entry reflects only what the federal court docket shows; no independent news coverage of the filing was available at the time it was added to this tracker.",
-      significance: "Single-asset realty entities filing Chapter 11 make up a meaningful share of the current wave of small commercial bankruptcy filings in Georgia tied to distressed acquisition or maturity debt. This tracker will add further detail as public reporting or additional docket activity becomes available.",
-      body: [
-        "Fortapache Realty LLC filed a Chapter 11 petition on October 6, 2026 in the United States Bankruptcy Court for the Northern District of Georgia, docketed as case number 26-63569. As of this entry, no news coverage of the filing's underlying circumstances -- the nature of the debtor's property, its lender, or the cause of the filing -- had been published, so this record is limited to what the court docket itself shows.",
-        "Realty holding entities of this kind file Chapter 11 petitions regularly, and they make up a meaningful share of the current wave of small commercial bankruptcy filings tied to distressed acquisition, construction, or maturity debt. This tracker will update this entry, or add a related one, if further docket activity or independent reporting clarifies the debtor's property, its lender, and the circumstances of the filing."
-      ],
-      judge: null,
-      parties: [
-        { name: "Fortapache Realty LLC", role: "Debtor" }
-      ],
-      docketUrl: "https://www.courtlistener.com/docket/74923336/fortapache-realty-llc/",
-      docketLabel: "CourtListener docket",
-      tags: ["chapter-11", "bankruptcy", "single-asset-entity", "georgia"]
-    },
-    {
-      id: "live-249",
-      addedDate: "2026-10-09",
-      title: "200 Arpeggio Way LLC Chapter 11 Petition (N.D. Ga.)",
-      category: "lending-foreclosure",
-      status: "filed",
-      date: "2026-10-05",
-      jurisdiction: "United States Bankruptcy Court, Northern District of Georgia",
-      state: "GA",
-      amount: "Undisclosed (financial details not yet public)",
-      amountUsd: null,
-      source: "live",
-      sourceUrl: "https://www.courtlistener.com/docket/74919314/200-arpeggio-way-llc/",
-      summary: "200 Arpeggio Way LLC filed a Chapter 11 petition on October 5, 2026 in the United States Bankruptcy Court for the Northern District of Georgia, case number 26-63452. This entry reflects only what the federal court docket shows; no independent news coverage of the filing was available at the time it was added to this tracker.",
-      significance: "Single-asset, address-named real estate entities filing Chapter 11 make up a meaningful share of the current wave of small commercial bankruptcy filings in Georgia tied to distressed acquisition or maturity debt. This tracker will add further detail as public reporting or additional docket activity becomes available.",
-      body: [
-        "200 Arpeggio Way LLC filed a Chapter 11 petition on October 5, 2026 in the United States Bankruptcy Court for the Northern District of Georgia, docketed as case number 26-63452. As of this entry, no news coverage of the filing's underlying circumstances -- the nature of the debtor's property, its lender, or the cause of the filing -- had been published, so this record is limited to what the court docket itself shows.",
-        "Single-asset, address-named real estate entities of this kind file Chapter 11 petitions regularly, and they make up a meaningful share of the current wave of small commercial bankruptcy filings tied to distressed acquisition, construction, or maturity debt. This tracker will update this entry, or add a related one, if further docket activity or independent reporting clarifies the debtor's property, its lender, and the circumstances of the filing."
-      ],
-      judge: null,
-      parties: [
-        { name: "200 Arpeggio Way LLC", role: "Debtor" }
-      ],
-      docketUrl: "https://www.courtlistener.com/docket/74919314/200-arpeggio-way-llc/",
-      docketLabel: "CourtListener docket",
-      tags: ["chapter-11", "bankruptcy", "single-asset-entity", "georgia"]
     },
     {
       id: "live-250",
@@ -8350,114 +7753,6 @@ const RELAW_DATA = {
         { name: "Pembroke Lakes Mall LLC", role: "Defendant/Borrower" }
       ],
       tags: ["cmbs", "commercial-mortgage-foreclosure", "retail", "receivership", "florida"]
-    },
-    {
-      id: "live-252",
-      addedDate: "2026-10-10",
-      title: "Savage Squad Properties LLC Chapter 11 Petition (S.D. Tex.)",
-      category: "lending-foreclosure",
-      status: "filed",
-      date: "2026-10-06",
-      jurisdiction: "United States Bankruptcy Court, Southern District of Texas",
-      state: "TX",
-      amount: "Undisclosed (financial details not yet public)",
-      amountUsd: null,
-      source: "live",
-      sourceUrl: "https://www.courtlistener.com/docket/74923616/savage-squad-properties-llc/",
-      summary: "Savage Squad Properties LLC filed a Chapter 11 petition on October 6, 2026 in the United States Bankruptcy Court for the Southern District of Texas, case number 26-37555. This entry reflects only what the federal court docket shows; no independent news coverage of the filing was available at the time it was added to this tracker.",
-      significance: "Single-asset and small-portfolio real estate entities filing Chapter 11 continue to make up a meaningful share of the current wave of commercial bankruptcy filings in the Southern District of Texas tied to distressed acquisition or maturity debt. This tracker will add further detail as public reporting or additional docket activity becomes available.",
-      body: [
-        "Savage Squad Properties LLC filed a Chapter 11 petition on October 6, 2026 in the United States Bankruptcy Court for the Southern District of Texas, docketed as case number 26-37555. As of this entry, no news coverage of the filing's underlying circumstances -- the nature of the debtor's property, its lender, or the cause of the filing -- had been published, so this record is limited to what the court docket itself shows.",
-        "Texas property-holding entities of this kind file Chapter 11 petitions regularly, and they make up a meaningful share of the current wave of small commercial bankruptcy filings tied to distressed acquisition, construction, or maturity debt. This tracker will update this entry, or add a related one, if further docket activity or independent reporting clarifies the debtor's property, its lender, and the circumstances of the filing."
-      ],
-      judge: null,
-      parties: [
-        { name: "Savage Squad Properties LLC", role: "Debtor" }
-      ],
-      docketUrl: "https://www.courtlistener.com/docket/74923616/savage-squad-properties-llc/",
-      docketLabel: "CourtListener docket",
-      tags: ["chapter-11", "bankruptcy", "single-asset-entity", "texas"]
-    },
-    {
-      id: "live-253",
-      addedDate: "2026-10-10",
-      title: "Lesam Realty LLC Chapter 11 Petition (N.D. Ga.)",
-      category: "lending-foreclosure",
-      status: "filed",
-      date: "2026-10-06",
-      jurisdiction: "United States Bankruptcy Court, Northern District of Georgia",
-      state: "GA",
-      amount: "Undisclosed (financial details not yet public)",
-      amountUsd: null,
-      source: "live",
-      sourceUrl: "https://www.courtlistener.com/docket/74923337/lesam-realty-llc/",
-      summary: "Lesam Realty LLC filed a Chapter 11 petition on October 6, 2026 in the United States Bankruptcy Court for the Northern District of Georgia, case number 26-63571. This entry reflects only what the federal court docket shows; no independent news coverage of the filing was available at the time it was added to this tracker.",
-      significance: "Single-asset and small-portfolio realty entities filing Chapter 11 continue to make up a meaningful share of the current wave of commercial bankruptcy filings in the Northern District of Georgia tied to distressed acquisition or maturity debt. This tracker will add further detail as public reporting or additional docket activity becomes available.",
-      body: [
-        "Lesam Realty LLC filed a Chapter 11 petition on October 6, 2026 in the United States Bankruptcy Court for the Northern District of Georgia, docketed as case number 26-63571. As of this entry, no news coverage of the filing's underlying circumstances -- the nature of the debtor's property, its lender, or the cause of the filing -- had been published, so this record is limited to what the court docket itself shows.",
-        "Georgia realty-holding entities of this kind file Chapter 11 petitions regularly, and they make up a meaningful share of the current wave of small commercial bankruptcy filings tied to distressed acquisition, construction, or maturity debt. This tracker will update this entry, or add a related one, if further docket activity or independent reporting clarifies the debtor's property, its lender, and the circumstances of the filing."
-      ],
-      judge: null,
-      parties: [
-        { name: "Lesam Realty LLC", role: "Debtor" }
-      ],
-      docketUrl: "https://www.courtlistener.com/docket/74923337/lesam-realty-llc/",
-      docketLabel: "CourtListener docket",
-      tags: ["chapter-11", "bankruptcy", "single-asset-entity", "georgia"]
-    },
-    {
-      id: "live-254",
-      addedDate: "2026-10-10",
-      title: "4210 W Carmen St, LLC Chapter 11 Petition (M.D. Fla.)",
-      category: "lending-foreclosure",
-      status: "filed",
-      date: "2026-10-06",
-      jurisdiction: "United States Bankruptcy Court, Middle District of Florida",
-      state: "FL",
-      amount: "Undisclosed (financial details not yet public)",
-      amountUsd: null,
-      source: "live",
-      sourceUrl: "https://www.courtlistener.com/docket/74928372/4210-w-carmen-st-llc/",
-      summary: "4210 W Carmen St, LLC, a single-asset entity named for its Tampa address, filed a Chapter 11 petition on October 6, 2026 in the United States Bankruptcy Court for the Middle District of Florida, case number 8:26-bk-09102. This entry reflects only what the federal court docket shows; no independent news coverage of the filing was available at the time it was added to this tracker.",
-      significance: "Single-asset, address-named real estate entities filing Chapter 11 make up a meaningful share of the current wave of small commercial bankruptcy filings in Florida tied to distressed acquisition or maturity debt. This tracker will add further detail as public reporting or additional docket activity becomes available.",
-      body: [
-        "4210 W Carmen St, LLC filed a Chapter 11 petition on October 6, 2026 in the United States Bankruptcy Court for the Middle District of Florida, docketed as case number 8:26-bk-09102. As of this entry, no news coverage of the filing's underlying circumstances -- the nature of the debtor's property, its lender, or the cause of the filing -- had been published, so this record is limited to what the court docket itself shows.",
-        "Tampa-area single-asset entities named for a property's street address file Chapter 11 petitions of this kind regularly, and they make up a meaningful share of the current wave of small commercial bankruptcy filings tied to distressed acquisition, construction, or maturity debt. This tracker will update this entry, or add a related one, if further docket activity or independent reporting clarifies the debtor's property, its lender, and the circumstances of the filing."
-      ],
-      judge: null,
-      parties: [
-        { name: "4210 W Carmen St, LLC", role: "Debtor" }
-      ],
-      docketUrl: "https://www.courtlistener.com/docket/74928372/4210-w-carmen-st-llc/",
-      docketLabel: "CourtListener docket",
-      tags: ["chapter-11", "bankruptcy", "single-asset-entity", "florida"]
-    },
-    {
-      id: "live-255",
-      addedDate: "2026-10-11",
-      title: "Limo Realty Corp Chapter 11 Petition (E.D.N.Y.)",
-      category: "lending-foreclosure",
-      status: "filed",
-      date: "2026-10-07",
-      jurisdiction: "United States Bankruptcy Court, Eastern District of New York",
-      state: "NY",
-      amount: "Undisclosed (financial details not yet public)",
-      amountUsd: null,
-      source: "live",
-      sourceUrl: "https://www.courtlistener.com/docket/74929738/limo-realty-corp/",
-      summary: "Limo Realty Corp filed a Chapter 11 petition on October 7, 2026 in the United States Bankruptcy Court for the Eastern District of New York, case number 1-26-44694. This entry reflects only what the federal court docket shows; no independent news coverage of the filing was available at the time it was added to this tracker.",
-      significance: "Real-estate-named entities filing Chapter 11 in the Eastern District of New York make up a meaningful share of the current wave of small commercial bankruptcy filings tied to distressed acquisition or maturity debt. This tracker will add further detail as public reporting or additional docket activity becomes available.",
-      body: [
-        "Limo Realty Corp filed a Chapter 11 petition on October 7, 2026 in the United States Bankruptcy Court for the Eastern District of New York, docketed as case number 1-26-44694. As of this entry, no news coverage of the filing's underlying circumstances -- the nature of the debtor's property, its lender, or the cause of the filing -- had been published, so this record is limited to what the court docket itself shows.",
-        "New York real-estate-named entities file Chapter 11 petitions of this kind regularly, and they make up a meaningful share of the current wave of small commercial bankruptcy filings tied to distressed acquisition, construction, or maturity debt. This tracker will update this entry, or add a related one, if further docket activity or independent reporting clarifies the debtor's property, its lender, and the circumstances of the filing."
-      ],
-      judge: null,
-      parties: [
-        { name: "Limo Realty Corp", role: "Debtor" }
-      ],
-      docketUrl: "https://www.courtlistener.com/docket/74929738/limo-realty-corp/",
-      docketLabel: "CourtListener docket",
-      tags: ["chapter-11", "bankruptcy", "single-asset-entity", "new-york"]
     },
     {
       id: "live-256",
@@ -8623,33 +7918,6 @@ const RELAW_DATA = {
         { when: "April 2025", label: "Cost-sharing agreement collapses" },
         { when: "March 27, 2026", label: "PQ LLC countersues, disputing the scope of contamination costs attributed to it", current: true }
       ]
-    },
-    {
-      id: "live-261",
-      addedDate: "2026-10-12",
-      title: "Access Real Estate Holdings, LLC Chapter 11 Petition (M.D. Fla.)",
-      category: "lending-foreclosure",
-      status: "filed",
-      date: "2026-10-11",
-      jurisdiction: "United States Bankruptcy Court, Middle District of Florida",
-      state: "FL",
-      amount: "Undisclosed (financial details not yet public)",
-      amountUsd: null,
-      source: "live",
-      sourceUrl: "https://www.courtlistener.com/docket/74949021/access-real-estate-holdings-llc/",
-      summary: "Access Real Estate Holdings, LLC filed a Chapter 11 petition on October 11, 2026 in the United States Bankruptcy Court for the Middle District of Florida, case number 8:26-bk-09241. This entry reflects only what the federal court docket shows; no independent news coverage of the filing was available at the time it was added to this tracker.",
-      significance: "Real-estate holding entities filing Chapter 11 in the Middle District of Florida make up a meaningful share of the current wave of small commercial bankruptcy filings in the state tied to distressed acquisition or maturity debt. This tracker will add further detail as public reporting or additional docket activity becomes available.",
-      body: [
-        "Access Real Estate Holdings, LLC filed a Chapter 11 petition on October 11, 2026 in the United States Bankruptcy Court for the Middle District of Florida, docketed as case number 8:26-bk-09241. As of this entry, no news coverage of the filing's underlying circumstances -- the nature of the debtor's property, its lender, or the cause of the filing -- had been published, so this record is limited to what the court docket itself shows.",
-        "Florida real-estate holding entities file Chapter 11 petitions of this kind regularly, and they make up a meaningful share of the current wave of small commercial bankruptcy filings in the state tied to distressed acquisition, construction, or maturity debt. This tracker will update this entry, or add a related one, if further docket activity or independent reporting clarifies the debtor's property, its lender, and the circumstances of the filing."
-      ],
-      judge: null,
-      parties: [
-        { name: "Access Real Estate Holdings, LLC", role: "Debtor" }
-      ],
-      docketUrl: "https://www.courtlistener.com/docket/74949021/access-real-estate-holdings-llc/",
-      docketLabel: "CourtListener docket",
-      tags: ["chapter-11", "bankruptcy", "florida"]
     }
   ],
 

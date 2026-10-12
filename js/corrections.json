@@ -3,6 +3,16 @@
  "startedOn": "2026-09-12",
  "entries": [
   {
+   "date": "2026-10-12",
+   "scope": "site",
+   "caseId": null,
+   "subject": "Chapter 11 petitions listed as tracker matters without a write-up",
+   "kind": "Removed: duplicate",
+   "was": "27 Chapter 11 petitions were listed as Litigation Tracker matters with only what the court record shows (debtor, court, case number, filing date): live-185, 190, 191, 195, 198, 204, 206, 209, 216, 218, 225, 233, 234, 240, 241, 242, 244, 245, 246, 247, 248, 249, 252, 253, 254, 255 and 261.",
+   "now": "Removed from the tracker. Each petition already has its own page on Chapter 11 Watch with the same court record and the latest orders, and the old matter links now go there. A petition becomes a tracker matter only when reporting explains the case.",
+   "basis": "Duplicates of the Chapter 11 Watch pages; no information beyond the court record"
+  },
+  {
    "date": "2026-10-07",
    "scope": "site",
    "caseId": null,
