@@ -56,6 +56,19 @@
    "checkAfter": "2026-10-12",
    "status": "helped",
    "verdict": {"date": "2026-10-11", "value": 3, "note": "Confirmed same-day: the prerender workflow rebuilt all matter/record pages from the fixed builder (commit 0c21e23) within minutes of the push. Live site_audit.py: weakDescription 10 -> 3, and the 3 remaining are exactly the pages flagged as a separate, still-open issue (contact.html, handbook-success.html, reset-password.html), not this fix's targets. Judged now rather than at checkAfter since the result was already unambiguous."}
+  },
+  {
+   "id": "imp-005",
+   "date": "2026-10-12",
+   "title": "Wrote real meta descriptions for the 3 remaining weakDescription pages",
+   "why": "imp-004's verdict named contact.html (37 chars), handbook-success.html (65 chars) and reset-password.html (46 chars) as genuinely thin hand-written descriptions, separate from the builder bug -- backlog item 5's still-open remainder. contact.html is indexable (no noindex), so its thin description had real SEO/SERP-snippet impact; the other two are noindex but still read truncated/generic when shared or inspected. Replaced each with copy drawn from the page's own actual content (contact page's real pitch: evaluate the tracker for your team or flag a matter; handbook-success's real coverage: all 50 states + DC, access unlocked on the matching account; reset-password's real flow: new password saved, signed in automatically), 120-152 chars each, within site_audit.py's 70-320 char window.",
+   "files": ["contact.html", "handbook-success.html", "reset-password.html"],
+   "commit": "406d87412732569bca1df1d7b37b4e73004e2646",
+   "metric": "audit.summary.weakDescription",
+   "window": "next day's audit snapshot",
+   "baseline": 3,
+   "checkAfter": "2026-10-13",
+   "status": "watching"
   }
  ]
 }
