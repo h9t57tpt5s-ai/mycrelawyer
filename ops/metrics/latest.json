@@ -1,217 +1,212 @@
 {
- "date": "2026-10-11",
- "generatedAt": "2026-10-11T19:09:27+00:00",
+ "date": "2026-10-12",
+ "generatedAt": "2026-10-12T22:13:37+00:00",
  "note": "Visits are tab sessions from js/track.js (crawlers filtered); the site is small, so read 7- and 28-day windows, not single days.",
  "last1Day": {
-  "visits": 40,
-  "pageViews": 49,
-  "multiPageVisits": 7,
-  "multiPageRate": 0.175,
+  "visits": 49,
+  "pageViews": 56,
+  "multiPageVisits": 4,
+  "multiPageRate": 0.0816,
   "funnel": {
-   "viewedAMatter": 31,
+   "viewedAMatter": 32,
    "sawSignInPrompt": 0,
-   "openedSignIn": 1,
-   "signedUpOrIn": 1,
-   "readFullWriteUp": 8,
+   "openedSignIn": 0,
+   "signedUpOrIn": 0,
+   "readFullWriteUp": 4,
    "clickedWatchlist": 0,
    "shared": 0
   },
-  "signUps": 1,
+  "signUps": 0,
   "follows": 0,
   "newsletterSignups": 0,
   "contactSends": 0,
-  "sourceClicks": 1,
-  "searches": 4,
+  "sourceClicks": 7,
+  "searches": 0,
   "byEvent": {
    "matter_page_view": 31,
-   "page_view": 18,
-   "panel_open": 17,
-   "full_read": 17,
-   "search": 4,
-   "source_click": 1,
-   "signin_open": 1,
-   "signup": 1,
-   "permalink": 1
+   "page_view": 25,
+   "panel_open": 10,
+   "full_read": 10,
+   "source_click": 7
   },
   "topPages": [
    [
     "/matters/live-208.html",
-    15
+    24
    ],
    [
     "/litigation.html",
-    12
-   ],
-   [
-    "/matters/live-087.html",
-    8
+    9
    ],
    [
     "/",
-    4
+    5
    ],
    [
-    "/matters/live-200.html",
-    3
+    "/updates.html",
+    2
    ],
    [
-    "/case-valuation-calibration.html",
+    "/chapter-11/access-real-estate-holdings-llc-flmb-8-26-bk-09241.html",
+    2
+   ],
+   [
+    "/matters/live-133.html",
     1
    ],
    [
-    "/matters/live-240.html",
+    "/company-dr-horton.html",
     1
    ],
    [
-    "/matters/live-216.html",
+    "/company-costar-group.html",
     1
    ],
    [
-    "/matters/live-090.html",
+    "/minnesota-lending-foreclosure.html",
     1
    ],
    [
-    "/matters/live-197.html",
+    "/matters/live-173.html",
     1
    ]
   ],
   "landingReferrers": [
    [
     "direct or unknown",
-    22
+    26
    ],
    [
     "google.com",
-    16
+    22
    ],
    [
     "utm:chatgpt.com",
-    2
+    1
    ]
   ],
   "topMatters": [
    [
     "live-208",
-    16
-   ],
-   [
-    "live-087",
-    10
-   ],
-   [
-    "live-090",
-    6
-   ],
-   [
-    "live-200",
-    6
+    25
    ],
    [
     "live-164",
-    3
+    7
    ],
    [
-    "live-137",
-    2
-   ],
-   [
-    "live-240",
+    "live-133",
     1
    ],
    [
-    "live-216",
+    "live-173",
     1
    ],
    [
-    "live-197",
+    "live-052",
     1
    ],
    [
-    "live-245",
+    "live-154",
+    1
+   ],
+   [
+    "live-188",
+    1
+   ],
+   [
+    "live-131",
+    1
+   ],
+   [
+    "live-034",
+    1
+   ],
+   [
+    "live-068",
     1
    ]
   ]
  },
  "last7Days": {
-  "visits": 261,
-  "pageViews": 314,
-  "multiPageVisits": 27,
-  "multiPageRate": 0.1034,
+  "visits": 252,
+  "pageViews": 306,
+  "multiPageVisits": 26,
+  "multiPageRate": 0.1032,
   "funnel": {
-   "viewedAMatter": 196,
-   "sawSignInPrompt": 12,
-   "openedSignIn": 5,
-   "signedUpOrIn": 5,
-   "readFullWriteUp": 20,
+   "viewedAMatter": 183,
+   "sawSignInPrompt": 5,
+   "openedSignIn": 3,
+   "signedUpOrIn": 3,
+   "readFullWriteUp": 23,
    "clickedWatchlist": 0,
    "shared": 0
   },
-  "signUps": 3,
+  "signUps": 2,
   "follows": 0,
   "newsletterSignups": 0,
   "contactSends": 0,
-  "sourceClicks": 21,
+  "sourceClicks": 18,
   "searches": 4,
   "byEvent": {
-   "matter_page_view": 203,
-   "page_view": 111,
-   "panel_open": 55,
-   "full_read": 40,
-   "source_click": 21,
-   "gate_shown": 15,
-   "signin_open": 5,
+   "matter_page_view": 191,
+   "page_view": 115,
+   "panel_open": 54,
+   "full_read": 47,
+   "source_click": 18,
+   "gate_shown": 7,
    "search": 4,
-   "signup": 3,
+   "signin_open": 3,
+   "signup": 2,
    "magic_link_sent": 2,
-   "signin": 1,
    "permalink": 1
   },
   "topPages": [
    [
     "/matters/live-208.html",
-    84
-   ],
-   [
-    "/litigation.html",
-    49
+    89
    ],
    [
     "/",
-    42
+    44
+   ],
+   [
+    "/litigation.html",
+    44
    ],
    [
     "/matters/live-221.html",
     23
    ],
    [
-    "/matters/live-198.html",
-    8
-   ],
-   [
     "/matters/live-087.html",
     8
    ],
    [
+    "/matters/live-198.html",
+    7
+   ],
+   [
+    "/updates.html",
+    6
+   ],
+   [
     "/matters/live-200.html",
-    5
-   ],
-   [
-    "/matters/live-067.html",
     4
    ],
    [
-    "/contact.html",
-    4
+    "/matters/live-197.html",
+    3
    ],
    [
-    "/matters/live-209.html",
-    4
+    "/matters/live-166.html",
+    3
    ]
   ],
   "landingReferrers": [
    [
     "google.com",
-    138
+    128
    ],
    [
     "direct or unknown",
@@ -241,27 +236,27 @@
   "topMatters": [
    [
     "live-208",
-    93
+    99
    ],
    [
     "live-221",
     23
    ],
    [
-    "live-087",
-    11
+    "live-164",
+    12
    ],
    [
-    "live-209",
+    "live-087",
     10
    ],
    [
     "live-198",
-    8
+    7
    ],
    [
     "live-200",
-    8
+    7
    ],
    [
     "live-202",
@@ -272,26 +267,26 @@
     6
    ],
    [
-    "live-164",
+    "live-148",
     5
    ],
    [
-    "live-148",
-    5
+    "live-222",
+    4
    ]
   ]
  },
  "last28Days": {
-  "visits": 618,
-  "pageViews": 672,
-  "multiPageVisits": 29,
-  "multiPageRate": 0.0469,
+  "visits": 671,
+  "pageViews": 732,
+  "multiPageVisits": 33,
+  "multiPageRate": 0.0492,
   "funnel": {
-   "viewedAMatter": 441,
+   "viewedAMatter": 476,
    "sawSignInPrompt": 84,
    "openedSignIn": 5,
    "signedUpOrIn": 5,
-   "readFullWriteUp": 20,
+   "readFullWriteUp": 24,
    "clickedWatchlist": 0,
    "shared": 1
   },
@@ -299,15 +294,15 @@
   "follows": 0,
   "newsletterSignups": 0,
   "contactSends": 0,
-  "sourceClicks": 21,
+  "sourceClicks": 28,
   "searches": 4,
   "byEvent": {
-   "matter_page_view": 376,
-   "page_view": 296,
-   "panel_open": 127,
+   "matter_page_view": 410,
+   "page_view": 322,
+   "panel_open": 137,
    "gate_shown": 87,
-   "full_read": 40,
-   "source_click": 21,
+   "full_read": 50,
+   "source_click": 28,
    "signin_open": 5,
    "search": 4,
    "signup": 3,
@@ -319,15 +314,15 @@
   "topPages": [
    [
     "/litigation.html",
-    175
+    184
    ],
    [
     "/matters/live-208.html",
-    86
+    112
    ],
    [
     "/",
-    48
+    54
    ],
    [
     "/matters/live-221.html",
@@ -350,26 +345,26 @@
     6
    ],
    [
-    "/matters/live-145.html",
-    5
+    "/updates.html",
+    6
    ],
    [
-    "/matters/live-067.html",
+    "/matters/live-145.html",
     5
    ]
   ],
   "landingReferrers": [
    [
     "direct or unknown",
-    459
+    487
    ],
    [
     "google.com",
-    144
+    168
    ],
    [
     "utm:chatgpt.com",
-    6
+    7
    ],
    [
     "vercel.com",
@@ -395,11 +390,15 @@
   "topMatters": [
    [
     "live-208",
-    96
+    123
    ],
    [
     "live-221",
     23
+   ],
+   [
+    "live-164",
+    13
    ],
    [
     "live-198",
@@ -426,10 +425,6 @@
     8
    ],
    [
-    "live-164",
-    6
-   ],
-   [
     "live-145",
     6
    ]
@@ -441,7 +436,7 @@
    "missingTitle": 0,
    "longTitle": 0,
    "missingDescription": 2,
-   "weakDescription": 3,
+   "weakDescription": 0,
    "missingCanonical": 0,
    "duplicateTitles": 0,
    "orphanPages": 0,
@@ -451,20 +446,20 @@
    "heavyPages": 0
   },
   "freshness": {
-   "matters": 242,
-   "newestMatterAdded": "2026-10-11",
+   "matters": 243,
+   "newestMatterAdded": "2026-10-12",
    "daysSinceNewestMatter": 0,
-   "ch11Petitions": 113,
-   "newestCh11Petition": "2026-10-08",
-   "daysSinceNewestCh11": 3,
+   "ch11Petitions": 115,
+   "newestCh11Petition": "2026-10-12",
+   "daysSinceNewestCh11": 0,
    "federalSuits": 59,
    "newestFederalSuit": "2026-10-09",
-   "daysSinceNewestSuit": 2
+   "daysSinceNewestSuit": 3
   },
-  "pagesChecked": 579
+  "pagesChecked": 582
  },
  "pipelines": {
-  "chapter11Petitions": 113,
+  "chapter11Petitions": 115,
   "federalSuits": 59,
   "secLeads": 1,
   "wireLeads": 1,

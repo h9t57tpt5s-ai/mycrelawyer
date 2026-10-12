@@ -1,10 +1,10 @@
 {
- "generatedAt": "2026-10-11T19:09:27+00:00",
- "pagesChecked": 579,
+ "generatedAt": "2026-10-12T22:13:37+00:00",
+ "pagesChecked": 582,
  "pagesByFolder": {
   "root": 165,
-  "matters": 242,
-  "chapter-11": 113,
+  "matters": 243,
+  "chapter-11": 115,
   "federal-cases": 59
  },
  "summary": {
@@ -12,7 +12,7 @@
   "missingTitle": 0,
   "longTitle": 0,
   "missingDescription": 2,
-  "weakDescription": 3,
+  "weakDescription": 0,
   "missingCanonical": 0,
   "duplicateTitles": 0,
   "orphanPages": 0,
@@ -22,15 +22,15 @@
   "heavyPages": 0
  },
  "freshness": {
-  "matters": 242,
-  "newestMatterAdded": "2026-10-11",
+  "matters": 243,
+  "newestMatterAdded": "2026-10-12",
   "daysSinceNewestMatter": 0,
-  "ch11Petitions": 113,
-  "newestCh11Petition": "2026-10-08",
-  "daysSinceNewestCh11": 3,
+  "ch11Petitions": 115,
+  "newestCh11Petition": "2026-10-12",
+  "daysSinceNewestCh11": 0,
   "federalSuits": 59,
   "newestFederalSuit": "2026-10-09",
-  "daysSinceNewestSuit": 2
+  "daysSinceNewestSuit": 3
  },
  "findings": {
   "brokenLinks": [],
@@ -40,20 +40,7 @@
    "admin-settlement-review.html",
    "handbook.html"
   ],
-  "weakDescription": [
-   {
-    "page": "contact.html",
-    "chars": 37
-   },
-   {
-    "page": "handbook-success.html",
-    "chars": 65
-   },
-   {
-    "page": "reset-password.html",
-    "chars": 46
-   }
-  ],
+  "weakDescription": [],
   "missingCanonical": [],
   "duplicateTitles": {},
   "orphanPages": [],
