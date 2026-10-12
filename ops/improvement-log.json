@@ -69,6 +69,19 @@
    "baseline": 3,
    "checkAfter": "2026-10-13",
    "status": "watching"
+  },
+  {
+   "id": "imp-006",
+   "date": "2026-10-12",
+   "title": "Added a \"From the court record\" block linking Chapter 11 Watch and Federal Lawsuit Watch from index.html and litigation.html",
+   "why": "Playbook backlog item 3: homepage and litigation.html linked Chapter 11 Watch (ops/ch11-petitions.json, 114 filings) and Federal Lawsuit Watch (ops/federal-suits.json, 59 filings) only from the nav dropdown, never on the page itself, even though both feed real record pages at chapter-11/<slug>.html and federal-cases/<slug>.html. Audit was otherwise clean this run (brokenLinks/orphanPages/weakDescription all 0; the 2 remaining missingDescription pages are both already noindex), so this was the top open backlog item.",
+   "files": ["index.html", "litigation.html", "scripts/prerender.ts", "css/styles.css"],
+   "commit": "f7f4b43a1c3820351b60f03fda9b5fa2c1f73574",
+   "metric": "last7Days.multiPageRate",
+   "window": "7 days",
+   "baseline": 0.1034,
+   "checkAfter": "2026-10-19",
+   "status": "watching"
   }
  ]
 }
