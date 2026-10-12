@@ -16,7 +16,7 @@ const RELAW_DATA = {
      Drives the homepage's "New Today" pill: it only shows when this
      equals the visitor's local today. Updated by the digest automation
      each time Step 4 successfully adds a case — never touched otherwise. */
-  lastUpdatedDate: "2026-10-11",
+  lastUpdatedDate: "2026-10-12",
   categories: [
     { id: "landlord-tenant", label: "Landlord–Tenant", color: "var(--cat-landlord)" },
     { id: "zoning-land-use", label: "Zoning & Land Use", color: "var(--cat-zoning)" },
@@ -8623,6 +8623,33 @@ const RELAW_DATA = {
         { when: "April 2025", label: "Cost-sharing agreement collapses" },
         { when: "March 27, 2026", label: "PQ LLC countersues, disputing the scope of contamination costs attributed to it", current: true }
       ]
+    },
+    {
+      id: "live-261",
+      addedDate: "2026-10-12",
+      title: "Access Real Estate Holdings, LLC Chapter 11 Petition (M.D. Fla.)",
+      category: "lending-foreclosure",
+      status: "filed",
+      date: "2026-10-11",
+      jurisdiction: "United States Bankruptcy Court, Middle District of Florida",
+      state: "FL",
+      amount: "Undisclosed (financial details not yet public)",
+      amountUsd: null,
+      source: "live",
+      sourceUrl: "https://www.courtlistener.com/docket/74949021/access-real-estate-holdings-llc/",
+      summary: "Access Real Estate Holdings, LLC filed a Chapter 11 petition on October 11, 2026 in the United States Bankruptcy Court for the Middle District of Florida, case number 8:26-bk-09241. This entry reflects only what the federal court docket shows; no independent news coverage of the filing was available at the time it was added to this tracker.",
+      significance: "Real-estate holding entities filing Chapter 11 in the Middle District of Florida make up a meaningful share of the current wave of small commercial bankruptcy filings in the state tied to distressed acquisition or maturity debt. This tracker will add further detail as public reporting or additional docket activity becomes available.",
+      body: [
+        "Access Real Estate Holdings, LLC filed a Chapter 11 petition on October 11, 2026 in the United States Bankruptcy Court for the Middle District of Florida, docketed as case number 8:26-bk-09241. As of this entry, no news coverage of the filing's underlying circumstances -- the nature of the debtor's property, its lender, or the cause of the filing -- had been published, so this record is limited to what the court docket itself shows.",
+        "Florida real-estate holding entities file Chapter 11 petitions of this kind regularly, and they make up a meaningful share of the current wave of small commercial bankruptcy filings in the state tied to distressed acquisition, construction, or maturity debt. This tracker will update this entry, or add a related one, if further docket activity or independent reporting clarifies the debtor's property, its lender, and the circumstances of the filing."
+      ],
+      judge: null,
+      parties: [
+        { name: "Access Real Estate Holdings, LLC", role: "Debtor" }
+      ],
+      docketUrl: "https://www.courtlistener.com/docket/74949021/access-real-estate-holdings-llc/",
+      docketLabel: "CourtListener docket",
+      tags: ["chapter-11", "bankruptcy", "florida"]
     }
   ],
 
