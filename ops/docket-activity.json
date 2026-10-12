@@ -1,7 +1,7 @@
 {
- "updatedAt": "2026-10-11T15:52:52+00:00",
+ "updatedAt": "2026-10-12T19:12:18+00:00",
  "source": "CourtListener RECAP archive (federal courts only). Entries appear when CourtListener receives them, so some are late or missing.",
- "requestsUsed": 25,
+ "requestsUsed": 23,
  "errors": [],
  "dockets": {
   "63107484": {
@@ -1980,6 +1980,13 @@
   "74919314": {
    "entries": [
     {
+     "date": "2026-10-12",
+     "number": 6,
+     "text": "06-Motion to Extend Time",
+     "url": "https://www.courtlistener.com/docket/74919314/6/200-arpeggio-way-llc/",
+     "ruling": false
+    },
+    {
      "date": "2026-10-08",
      "number": 5,
      "text": "Order Setting Deadlines for Debtor to Correct Filing Deficiencies (Non-Individual)",
@@ -2015,7 +2022,7 @@
    "docketNumber": "26-63452",
    "dateTerminated": null,
    "url": "https://www.courtlistener.com/docket/74919314/200-arpeggio-way-llc/",
-   "lastEntryDate": "2026-10-08"
+   "lastEntryDate": "2026-10-12"
   },
   "74922018": {
    "entries": [
@@ -2800,6 +2807,46 @@
    "dateTerminated": null,
    "url": "https://www.courtlistener.com/docket/74941502/315-south-beverly-drive-llc/",
    "lastEntryDate": "2026-10-09"
+  },
+  "74949021": {
+   "entries": [
+    {
+     "date": "2026-10-12",
+     "number": 3,
+     "text": "Order Authorizing DIP to Operate Business",
+     "url": "https://www.courtlistener.com/docket/74949021/3/access-real-estate-holdings-llc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-10-12",
+     "number": 2,
+     "text": "Motion for Joint Administration",
+     "url": "https://www.courtlistener.com/docket/74949021/2/access-real-estate-holdings-llc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-10-11",
+     "number": 1,
+     "text": "Voluntary Petition (Chapter 11)",
+     "url": "https://www.courtlistener.com/docket/74949021/1/access-real-estate-holdings-llc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-10-11",
+     "number": null,
+     "text": "ADI - Notice to Debtor(s) Attorney Regarding Local Rule 2081-1 (Paperless Entry)",
+     "url": "https://www.courtlistener.com/docket/74949021/access-real-estate-holdings-llc/",
+     "ruling": false
+    }
+   ],
+   "caseIds": [
+    "live-261"
+   ],
+   "court": "Bankr. M.D. Fla.",
+   "docketNumber": "8:26-bk-09241",
+   "dateTerminated": null,
+   "url": "https://www.courtlistener.com/docket/74949021/access-real-estate-holdings-llc/",
+   "lastEntryDate": "2026-10-12"
   }
  },
  "events": [
