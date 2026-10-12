@@ -14,23 +14,23 @@ git repository with normal local file and network access — use `git`, `curl`,
 ## STEP 1A — FRESH COURT EVENTS FIRST (added 2026-09-26)
 
 The owner's standing requirement: the tracker must carry events from the last day
-or two, every day. Start each run with `ops/fresh-filings.json` (real estate and
-construction Chapter 11 petitions filed in the last four days, written by the
+or two, every day. Start each run with `ops/fresh-filings.json` (commercial real estate
+Chapter 11 petitions filed in the last four days, written by the
 surveillance job from federal court records). Choose the significant commercial
 real estate debtors, find coverage with WebSearch, and add each as a matter dated
 to its filing date, with the file's `docketUrl` as a confirmed CourtListener
-docket. Up to three petitions per run may be added from the court record alone
-(raised from one on 2026-10-07: these pages draw searches for the debtor's name
-because few others cover them), but only debtors that are commercial real estate
-on their face (a property owner, developer or single-asset entity named for an
-address or project), never an individual or a non-real-estate business; the
-summary is limited to what the record shows (debtor, court, case number, date
-filed, chapter). Aim for one to three per run, record-only ones included; never
-duplicate a debtor already in `js/data.js`.
+docket. A petition with no coverage is NOT added as a matter: every commercial
+real estate petition already has its own page on Chapter 11 Watch with the
+court record, and on 2026-10-12 the owner removed 27 record-only petition
+matters because they told readers nothing. A petition becomes a matter only
+when a source explains the case (the property, the lender or the debt, or why
+it filed). A run that adds no petitions is fine; never duplicate a debtor
+already in `js/data.js`.
 
 **Freshness rules for every addition:** prefer events from the last 3 days, and
 add at least one such event every run (say so in the report if none could be
-verified). Events more than 14 days old only if significant and newly reported,
+verified). Never meet this with a thin entry: every matter needs a source that
+explains the dispute, and adding nothing beats adding an empty listing. Events more than 14 days old only if significant and newly reported,
 and never as the featured flagship, which must be from the last 7 days. Put
 today's and yesterday's dates in search queries.
 
