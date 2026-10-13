@@ -30,6 +30,25 @@ estate only, no individuals' names, no record-only matters, verified figures).
    headlines, plus the regional business journal for one under-covered state.
 4. Only then, older stories that are newly reported and significant.
 
+## Beat for each run (four runs a day since 2026-10-13)
+
+Do the leads and fresh-filings steps every run, then spend most of the search
+effort on this run's beat (by the UTC hour the run starts), so the four runs
+cover the whole market instead of repeating the same national searches:
+
+- 06:00 UTC: lending and distress. CMBS and bank foreclosures, receiverships,
+  guaranty suits, special servicers, bankruptcies with real coverage.
+- 12:00 UTC: court rulings issued in the last 3 days. State supreme courts,
+  courts of appeals, federal courts, business courts (Texas, North Carolina,
+  New York Commercial Division, Delaware), on leases, guaranties, foreclosure,
+  liens, condemnation, zoning, tax appeals and property insurance.
+- 17:00 UTC: leasing and development. Landlord-tenant fights with businesses,
+  ground leases, data center and warehouse zoning, moratoria, eminent domain,
+  construction and mechanics' lien suits on commercial projects.
+- 22:00 UTC: the big players. REIT securities suits actually filed, sponsor
+  and fund disputes, JV fights at major owners, brokerage and proptech suits,
+  SEC and state enforcement, plus this run's geographic-diversity search.
+
 ## How to judge a candidate
 
 - Prefer the event date (filing, ruling, settlement) within 7 days.
