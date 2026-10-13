@@ -1,0 +1,22 @@
+{
+ "id": "live-272",
+ "title": "Southridge Mall Foreclosure: Milwaukee County Court Approves Sale of Simon-Affiliated Mall to Receiver-Linked Buyer Assuming $101.9M Loan",
+ "category": "lending-foreclosure",
+ "status": "ruling",
+ "date": "2026-10-06",
+ "jurisdiction": "Wisconsin Circuit Court, Milwaukee County",
+ "state": "WI",
+ "amount": "$101.9 million loan assumption plus $7 million cash",
+ "source": "live",
+ "source_url": "https://dailyreporter.com/2026/10/12/after-southridge-mall-sale-demolition-soon-for-boston-store/",
+ "summary": "On October 6, 2026, a Milwaukee County Circuit Court judge entered an order approving the sale of Southridge Mall in Greendale, Wisconsin. The sale ends a CMBS foreclosure that began in December 2020. The 560,000-square-foot mall core is going from a Simon Property Group affiliate to Southridge Mall Member LLC, a newly formed buyer tied to the court-appointed receiver. The buyer will assume the mall's $101.9 million loan and pay $7 million in cash.",
+ "significance": "The case shows how long a contested regional-mall foreclosure can take: almost six years from complaint to an approved sale, even after the borrower agreed to a foreclosure judgment in 2021. The structure is also notable. A receiver's affiliate buys the asset by assuming the securitized debt instead of the lender taking title or holding an open auction, which gives CMBS holders and special servicers a model for exiting long-stalled retail loans.",
+ "judge": "William S. Pocan Jr.",
+ "tags": [
+  "cmbs",
+  "mall foreclosure",
+  "receivership",
+  "loan assumption",
+  "retail"
+ ]
+}

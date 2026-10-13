@@ -8299,6 +8299,50 @@ const RELAW_DATA = {
         { when: "September 4, 2026", label: "Trustee sues in New York Supreme Court, New York County (Index No. 655096/2026)" },
         { when: "October 9, 2026", label: "Starwood removes case to S.D.N.Y. (No. 1:26-cv-08961)", current: true }
       ]
+    },
+    {
+      id: "live-272",
+      addedDate: "2026-10-13",
+      title: "Southridge Mall Foreclosure: Milwaukee County Court Approves Sale of Simon-Affiliated Mall to Receiver-Linked Buyer Assuming $101.9M Loan",
+      category: "lending-foreclosure",
+      status: "ruling",
+      date: "2026-10-06",
+      jurisdiction: "Wisconsin Circuit Court, Milwaukee County",
+      state: "WI",
+      amount: "$101.9 million loan assumption plus $7 million cash",
+      source: "live",
+      sourceUrl: "https://dailyreporter.com/2026/10/12/after-southridge-mall-sale-demolition-soon-for-boston-store/",
+      propertyType: "Retail",
+      summary: "On October 6, 2026, a Milwaukee County Circuit Court judge entered an order approving the sale of Southridge Mall in Greendale, Wisconsin. The sale ends a CMBS foreclosure that began in December 2020. The 560,000-square-foot mall core is going from a Simon Property Group affiliate to Southridge Mall Member LLC, a newly formed buyer tied to the court-appointed receiver. The buyer will assume the mall's $101.9 million loan and pay $7 million in cash.",
+      significance: "The case shows how long a contested regional-mall foreclosure can take: almost six years from complaint to an approved sale, even after the borrower agreed to a foreclosure judgment in 2021. The structure is also notable. A receiver's affiliate buys the asset by assuming the securitized debt instead of the lender taking title or holding an open auction, which gives CMBS holders and special servicers a model for exiting long-stalled retail loans.",
+      body: [
+        "A Milwaukee County Circuit Court judge approved a motion on Tuesday, October 6, 2026, to enter an order approving the sale of Southridge Mall in Greendale, a Milwaukee suburb. The order ends a foreclosure that had been pending for years. The sale covers the roughly 560,000-square-foot core of the mall at 5300 S. 76th St. It does not include the department store anchor parcels, which are owned separately.",
+        "Under the approved terms, an affiliate of Simon Property Group Inc. is selling the mall to Southridge Mall Member LLC, a newly formed entity. According to court documents cited in the Milwaukee Journal Sentinel's reporting, the buyer will assume the mall's $101.9 million loan and also pay $7 million in cash. The buyer is tied to Syracuse-based Spinoso Management Group LLC, which a judge appointed in 2020 as receiver to run the property. A joint venture of affiliate Spinoso Real Estate Group LLC and Denver-based Wynkoop Financial is taking over repayment of the loan as part of the deal.",
+        "The debt goes back to 2013, when Barclays Bank PLC made a $125 million loan to mall owner Southridge LP, a Simon affiliate. Market data cited by Connect CRE places the loan in two CMBS deals, JPMBB 2013-C14 and JPMBB 2013-C12. The mall's vacancy rose as former anchors, including Kohl's and Boston Store, went dark, and a foreclosure suit was filed in December 2020. About a year later, the Simon affiliate and a JPMorgan Chase affiliate that had taken over the Barclays loan agreed to a foreclosure judgment and sale. Several legal complications then delayed the sale for years.",
+        "In court filings supporting the sale, the JPMorgan Chase affiliate that brought the foreclosure pointed to the receiver group's working relationship with the Village of Greendale and its understanding of the local market. The village has said mall operations and management will continue as before in the near term. The separately owned former Boston Store parcel was bought in May for $3.3 million by an affiliate of Barrett Lo Visionary Development, which plans apartments and retail there and expects demolition to begin in October.",
+        "Reported loan figures differ slightly. The Journal Sentinel cites court documents for a $101.9 million loan being assumed, while the Morningstar Credit data cited by Connect CRE lists the loan at $100.9 million. This entry uses the court-document figure.",
+        "For lenders and special servicers holding legacy mall loans, Southridge shows that a court-supervised sale to a buyer connected to the receiver, assuming the existing debt, can be a workable exit when no third-party buyer will pay off the loan. For borrowers and their sponsors, it shows that agreeing to a foreclosure judgment does not guarantee a quick resolution, because entitlement, covenant and redevelopment issues can stall a sale for years. Municipalities and anchor-parcel owners should also note that a receiver's long tenure can shape who ends up owning the asset."
+      ],
+      tags: ["cmbs", "mall foreclosure", "receivership", "loan assumption", "retail"],
+      parties: [
+        { name: "Southridge LP", role: "Borrower/Defendant (Seller)" },
+        { name: "Simon Property Group Inc.", role: "Borrower's Parent" },
+        { name: "Southridge Mall Member LLC", role: "Buyer" },
+        { name: "Spinoso Management Group LLC", role: "Receiver" },
+        { name: "Spinoso Real Estate Group LLC", role: "Buyer Joint Venture Member" },
+        { name: "Wynkoop Financial", role: "Buyer Joint Venture Member" },
+        { name: "Barclays Bank PLC", role: "Original Lender" }
+      ],
+      judge: "William S. Pocan Jr.",
+      amountUsd: 101900000,
+      amountBasis: "loan",
+      timeline: [
+        { when: "2013", label: "Barclays Bank PLC makes a $125 million loan to Southridge LP, a Simon affiliate" },
+        { when: "December 2020", label: "Foreclosure suit filed against the mall" },
+        { when: "2020", label: "Court appoints Spinoso Management Group LLC as receiver" },
+        { when: "2021", label: "Simon affiliate and the JPMorgan Chase affiliate holding the loan agree to a foreclosure judgment and sale" },
+        { when: "October 6, 2026", label: "Milwaukee County Circuit Court enters order approving the sale to Southridge Mall Member LLC", current: true }
+      ]
     }
   ],
 
