@@ -1,11 +1,11 @@
 {
- "date": "2026-10-12",
- "generatedAt": "2026-10-13T02:35:53+00:00",
+ "date": "2026-10-13",
+ "generatedAt": "2026-10-13T15:44:54+00:00",
  "mostBehind": [
   "conversion",
   "calculator",
-  "news",
-  "traffic"
+  "traffic",
+  "news"
  ],
  "goals": {
   "traffic": {
@@ -50,16 +50,15 @@
   "news": {
    "status": "behind",
    "behind": [
-    "freshSourcedMatters7",
     "medianDaysEventToAdded"
    ],
-   "gap": 0.38,
+   "gap": 0.251,
    "metrics": {
-    "sourcedMatters7": 23,
-    "freshSourcedMatters7": 5,
-    "medianDaysEventToAdded": 97,
-    "leadsReviewedTotal": 15,
-    "leadsToMattersTotal": 1
+    "sourcedMatters7": 33,
+    "freshSourcedMatters7": 15,
+    "medianDaysEventToAdded": 57,
+    "leadsReviewedTotal": 23,
+    "leadsToMattersTotal": 2
    },
    "targets": {
     "freshSourcedMatters7": 7,
