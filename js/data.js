@@ -8148,6 +8148,19 @@ const RELAW_DATA = {
       summary: "Trepp's September 2026 delinquency report puts the multifamily CMBS delinquency rate at 8.04 percent after a 35 basis point monthly rise, the largest increase of any property type Trepp tracks, and above the overall CMBS rate for the first time since the Covid shutdowns. The overall rate rose 17 basis points to 8.02 percent. A year ago the multifamily rate stood at 6.59 percent, and two years ago at 3.33 percent. Office remained the weakest sector at 12.16 percent, and counting loans past maturity but still current on interest would lift the overall rate to 9.66 percent.",
       significance: "Apartments, long treated as the safe CRE asset class, are now delinquent at a higher rate than the CMBS market as a whole, which points to more special-servicing transfers, receiverships and foreclosure filings against multifamily borrowers, and more guaranty enforcement against sponsors who signed carve-out guaranties. Borrowers negotiating workouts should expect servicers to press on cash management, reserve sweeps and recourse triggers, and investors in syndicated multifamily deals should watch for disputes over capital calls and sponsor disclosures.",
       tags: ["cmbs", "multifamily", "delinquency", "trepp", "special servicing"]
+    },
+    {
+      id: "trend-018",
+      title: "Large Commercial Property Insurance Rates Fall 14.5% in Q2 as the Soft Market Widens",
+      category: "lease-disputes",
+      date: "2026-10-05",
+      scope: "U.S. large and complex commercial property insurance (Willis portfolio, Q2 2026)",
+      metric: "Large property rates -14.5% year over year; 5+ carrier layered programs -23.4%",
+      source: "live",
+      sourceUrl: "https://www.insurancejournal.com/news/national/2026/10/05/887978.htm",
+      summary: "Willis, a WTW business, reports in its fall 2026 Insurance Marketplace Realities that rates for large and complex commercial property programs fell 14.5 percent in the second quarter of 2026 versus a year earlier, compared with an 8.4 percent decline a year ago. Layered programs spread across five or more carriers saw reductions of about 23.4 percent, and treaty reinsurance renewals softened. First-half 2026 catastrophe losses of $42 billion were the lowest since 2020. Casualty rate increases are moderating rather than reversing, and cyber rates are flat within a 5 percent band.",
+      significance: "Falling premiums tempt owners to restructure programs with higher deductibles, sublimits and more carriers, which can put them out of step with insurance covenants in loan documents and leases written in a tight market, handing distressed-loan servicers an additional default theory. Tenants are likely to audit past operating-expense pass-throughs for insurance overcharges, and layered programs raise the odds of claim-allocation disputes after a loss. Owners, REITs and lenders should review covenant compliance and insured values before capturing the savings.",
+      tags: ["insurance", "property rates", "covenants", "cam audits", "willis"]
     }
   ],
 
