@@ -3,6 +3,8 @@
 node_modules/
 scripts/logs/
 supabase/.temp/
+__pycache__/
+*.pyc
 
 # Proprietary case-citation research (the paid Case Value Calculator's
 # actual "hard-won dataset" -- real settlement/verdict citations with
