@@ -1,6 +1,6 @@
 {
  "date": "2026-10-13",
- "generatedAt": "2026-10-13T15:44:54+00:00",
+ "generatedAt": "2026-10-13T20:20:29+00:00",
  "mostBehind": [
   "conversion",
   "calculator",
@@ -14,11 +14,11 @@
     "visits7",
     "googleLandings7"
    ],
-   "gap": 0.32,
+   "gap": 0.336,
    "metrics": {
-    "visits7": 252,
-    "googleLandings7": 128,
-    "visits28": 671
+    "visits7": 258,
+    "googleLandings7": 118,
+    "visits28": 723
    },
    "targets": {
     "visits7": 350,
@@ -32,12 +32,12 @@
     "follows7",
     "newsletterSignups7"
    ],
-   "gap": 0.65,
+   "gap": 0.7,
    "metrics": {
-    "signUps7": 2,
+    "signUps7": 1,
     "follows7": 0,
     "newsletterSignups7": 0,
-    "multiPageRate7": 0.1032,
+    "multiPageRate7": 0.1008,
     "contactSends7": 0
    },
    "targets": {
