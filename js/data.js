@@ -8343,6 +8343,46 @@ const RELAW_DATA = {
         { when: "2021", label: "Simon affiliate and the JPMorgan Chase affiliate holding the loan agree to a foreclosure judgment and sale" },
         { when: "October 6, 2026", label: "Milwaukee County Circuit Court enters order approving the sale to Southridge Mall Member LLC", current: true }
       ]
+    },
+    {
+      id: "live-273",
+      addedDate: "2026-10-13",
+      title: "Stop 65, LLC v. Beach Park Railway, LLC: Ohio Appeals Court Upholds Shopping-Center Eviction of Museum Tenant Over Unapproved Sublease",
+      category: "landlord-tenant",
+      status: "ruling",
+      date: "2026-10-05",
+      jurisdiction: "Ohio Court of Appeals, Ninth Appellate District",
+      state: "OH",
+      amount: "Possession of a 15,000 sq. ft. space renting for $583 a month",
+      source: "live",
+      sourceUrl: "https://www.supremecourt.ohio.gov/rod/docs/pdf/9/2026/2026-Ohio-3908.pdf",
+      propertyType: "Retail",
+      summary: "On October 5, 2026, Ohio's Ninth District Court of Appeals affirmed an Avon Lake Municipal Court judgment evicting Beach Park Railway, LLC, a state-funded museum operator, from shopping-center space owned by Stop 65, LLC. The court held that letting an outside motorcycle-repair operation occupy dedicated space in the premises was an unauthorized sublease, not a mere license, and that a commercial landlord needed no separate 30-day termination notice before its statutory three-day notice to vacate.",
+      significance: "The decision gives commercial landlords a clear test for when a tenant's informal side arrangement becomes a sublease that breaches an anti-subletting clause, and it confirms that Ohio's residential 30-day termination rule does not apply to commercial leases. It also shows how a non-disturbance agreement with a public funder can add notice-of-default conditions that complicate a tenant's own damages counterclaims.",
+      body: [
+        "The premises are Suite A at 33501 Lake Road in Avon Lake, Ohio, a roughly 15,000-square-foot space in a shopping center. Beach Park Railway, LLC used the space to operate a museum it established with state grant money, and in 2019 it signed a non-disturbance and estoppel agreement with the Ohio Facilities Commission and the then-owner protecting the Commission's interest. The tenant originally occupied as a subtenant of TBP Avon Lake, LLC, paying $583 a month. After TBP sold the property and leased it back, Stop 65, LLC acquired the shopping center, evicted TBP in a separate Lorain County case decided in March 2024, and became the museum operator's direct landlord.",
+        "Inspecting the space after that case ended, the landlord's representative concluded the museum occupied only about a quarter of it. Deposition testimony and photographs showed an individual running a private motorcycle-repair business out of the warehouse area, storing large quantities of parts, and apparently living on site, with the tenant's board member acknowledging the arrangement and payments toward utilities of at least $1,100. On March 22, 2024 the landlord served a contractual 30-day notice of default for unauthorized subleasing and storing items outside the leased area. The tenant responded that it had ended subleases with two entities and cured, but the landlord served a statutory three-day notice to vacate on April 29 and filed a forcible entry and detainer action on May 3, 2024.",
+        "The tenant counterclaimed on six counts, including retaliatory eviction, failure to repair with rent abatement, tortious interference, breach of quiet enjoyment and breach of the lease's maintenance duties. The municipal court dismissed the counterclaim in July 2024, granted the landlord summary judgment on the unauthorized-sublease breach in April 2025, and issued a writ of restitution, which was stayed on bond pending appeal.",
+        "A panel of Seventh District judges sitting by assignment affirmed on every assignment of error. On the central question, the court held that the arrangement was a sublease as a matter of law: the occupant had exclusive possession of dedicated space, used it for a business unrelated to the museum and as a residence, and kept it month after month, so the parties' own labels did not matter. The court rejected the tenant's waiver and estoppel arguments. It held that Ohio's statutory 30-day notice to terminate a tenancy does not govern commercial leases, and that the lease's 30-day language attached to the landlord's optional self-help remedy, not to a court eviction. On the counterclaims, it upheld dismissal of the repair and quiet-enjoyment counts, largely because the arguments the tenant pressed on appeal, including those about the non-disturbance agreement's written notice-of-default requirement, had not been preserved in its response to the dismissal motion. Finally, the municipal court did not have to transfer the case to common pleas court merely because the counterclaim demanded more than its $15,000 limit, once the counts offered to justify that demand were dismissed.",
+        "The opinion is long and fact-specific, but its holdings travel well. Anti-subletting clauses in shopping-center and industrial leases often collide with informal uses by a tenant's affiliates, volunteers or friends, and the court's focus on exclusive, dedicated and ongoing occupancy gives both sides a workable line between a license and a sublease.",
+        "Landlords enforcing use or subletting covenants should document actual occupancy with inspections and photographs, follow the lease's cure procedure first, and then use the statutory eviction notice. Where public grant money or a lender sits behind the tenancy, landlords and tenants alike should read any non-disturbance agreement for notice and cure conditions, because here the agreement's notice requirement was central to the fight over the tenant's repair claim. Tenants defending an eviction should also expect a court to look past a large counterclaim demand when deciding whether a small-claims-level court keeps the case."
+      ],
+      tags: ["commercial eviction", "sublease", "shopping center", "ohio", "non-disturbance agreement"],
+      parties: [
+        { name: "Stop 65, LLC", role: "Plaintiff-Appellee / Landlord" },
+        { name: "Beach Park Railway, LLC", role: "Defendant-Appellant / Tenant" },
+        { name: "Ohio Facilities Commission", role: "Non-disturbance agreement party (originally named, dismissed by stipulation)" }
+      ],
+      judge: "Carol Ann Robb",
+      amountUsd: null,
+      timeline: [
+        { when: "2019", label: "Non-disturbance and estoppel agreement signed with the Ohio Facilities Commission" },
+        { when: "March 22, 2024", label: "Landlord serves 30-day notice of default for unauthorized subleasing" },
+        { when: "April 29, 2024", label: "Statutory three-day notice to vacate served" },
+        { when: "May 3, 2024", label: "Forcible entry and detainer action filed in Avon Lake Municipal Court" },
+        { when: "April 7, 2025", label: "Summary judgment for landlord; writ of restitution follows" },
+        { when: "October 5, 2026", label: "Ninth District Court of Appeals affirms", current: true }
+      ]
     }
   ],
 

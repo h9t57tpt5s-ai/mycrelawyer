@@ -132,8 +132,8 @@ def main():
         terms = sorted({m.group(0).lower() for m in CRE_TERMS.finditer(text[:60000])})
         noise = len(NOT_CRE.findall(text[:20000]))
         print(f"  {h.get('dateFiled')} {h.get('court_id')} | {(h.get('caseName') or '')[:70]} | {len(text)} chars, "
-              f"{len(terms)} CRE terms, {noise} non-CRE -> {'keep' if len(terms) >= 3 and noise <= 3 else 'drop'}")
-        if len(terms) < 3 or noise > 3:
+              f"{len(terms)} CRE terms, {noise} non-CRE -> {'keep' if len(terms) >= 2 and noise <= 3 else 'drop'}")
+        if len(terms) < 2 or noise > 3:
             continue
         new.append({
             "key": key, "caseName": h.get("caseName"), "court": h.get("court"), "courtId": h.get("court_id"),
