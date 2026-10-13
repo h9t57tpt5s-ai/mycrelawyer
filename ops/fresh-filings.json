@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-12T20:25:54+00:00",
+ "updatedAt": "2026-10-13T03:08:34+00:00",
  "about": "Commercial real estate Chapter 11 petitions filed in the last four days, from federal court records via CourtListener. Same name test as Chapter 11 Watch (is_cre_debtor in scripts/ingest_court_filings.py). Business debtors only.",
  "filings": [
   {
@@ -22,28 +22,6 @@
    "docketUrl": "https://www.courtlistener.com/docket/74949021/access-real-estate-holdings-llc/",
    "docketId": 74949021,
    "slug": "access-real-estate-holdings-llc-flmb-8-26-bk-09241",
-   "type": "Chapter 11 petition"
-  },
-  {
-   "caseName": "315 South Beverly Drive, LLC",
-   "court": "United States Bankruptcy Court, C.D. California",
-   "courtId": "cacb",
-   "docketNumber": "2:26-bk-20221",
-   "dateFiled": "2026-10-08",
-   "docketUrl": "https://www.courtlistener.com/docket/74941502/315-south-beverly-drive-llc/",
-   "docketId": 74941502,
-   "slug": "315-south-beverly-drive-llc-cacb-2-26-bk-20221",
-   "type": "Chapter 11 petition"
-  },
-  {
-   "caseName": "148 Bay 43rd, LLC",
-   "court": "United States Bankruptcy Court, E.D. New York",
-   "courtId": "nyeb",
-   "docketNumber": "1-26-44720",
-   "dateFiled": "2026-10-08",
-   "docketUrl": "https://www.courtlistener.com/docket/74937404/148-bay-43rd-llc/",
-   "docketId": 74937404,
-   "slug": "148-bay-43rd-llc-nyeb-1-26-44720",
    "type": "Chapter 11 petition"
   }
  ]
