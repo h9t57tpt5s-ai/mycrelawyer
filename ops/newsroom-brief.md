@@ -50,3 +50,9 @@ If you find nothing that meets the bar, return [] (an empty list is fine; paddin
 - Skip suits whose real defendants or plaintiffs are individuals (e.g. RICO suits against a founder by family trusts), even if the write-up avoids names.
 - Do not repeat allegations from an individual's personal bankruptcy or other personal case.
 - Court opinion pages (nycourts.gov/reporter "current" lists, supremecourt.ohio.gov/rod, txcourts.gov Business Court opinions, CourtListener opinions) produced four solid rulings in one pass; work them every day.
+- Court PDFs (ca9 BAP, ca6, courts.delaware.gov, pacourts.us) come back from WebFetch as unreadable binary; save the PDF and extract text (pypdf) to verify. courts.delaware.gov blocks curl, so use WebFetch's saved copy.
+- The Ninth Circuit BAP opinion list (bap9.uscourts.gov/opinions) yielded two CRE bankruptcy rulings in one week; work it alongside the state lists.
+- Agents fill unknown days with "1" ("January 1, 2025 (month reported; day not stated)"); write the month alone instead.
+- A preferred-equity investment is not a "loan"; use amountBasis "other".
+- When an appeal's only appellant is an individual (e.g. a foreclosure bidder), describe them generically and cut any finding aimed at a named individual.
+- Lending beat came back empty: federal-suits.json lender suits this week were already covered or lacked explanatory reporting.
