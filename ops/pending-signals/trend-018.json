@@ -1,0 +1,57 @@
+{
+ "trend": {
+  "id": "trend-018",
+  "title": "Large Commercial Property Insurance Rates Fall 14.5% in Q2 as the Soft Market Widens",
+  "category": "lease-disputes",
+  "date": "2026-10-05",
+  "scope": "U.S. large and complex commercial property insurance (Willis portfolio, Q2 2026)",
+  "metric": "Large property rates -14.5% year over year; 5+ carrier layered programs -23.4%",
+  "sourceUrl": "https://www.insurancejournal.com/news/national/2026/10/05/887978.htm",
+  "summary": "Willis, a WTW business, reports in its fall 2026 Insurance Marketplace Realities that rates for large and complex commercial property programs fell 14.5 percent in the second quarter of 2026 versus a year earlier, compared with an 8.4 percent decline a year ago. Layered programs spread across five or more carriers saw reductions of about 23.4 percent, and treaty reinsurance renewals softened. First-half 2026 catastrophe losses of $42 billion were the lowest since 2020. Casualty rate increases are moderating rather than reversing, and cyber rates are flat within a 5 percent band.",
+  "significance": "Falling premiums tempt owners to restructure programs with higher deductibles, sublimits and more carriers, which can put them out of step with insurance covenants in loan documents and leases written in a tight market, handing distressed-loan servicers an additional default theory. Tenants are likely to audit past operating-expense pass-throughs for insurance overcharges, and layered programs raise the odds of claim-allocation disputes after a loss. Owners, REITs and lenders should review covenant compliance and insured values before capturing the savings.",
+  "tags": [
+   "insurance",
+   "property rates",
+   "covenants",
+   "cam audits",
+   "willis"
+  ]
+ },
+ "verification": [
+  {
+   "claim": "Large property rates fell 14.5% in Q2 2026",
+   "quote": "Large and complex property rates with WTW’s portfolio dropped 14.5% in the second quarter 2026, according to the fall 2026 edition of its Insurance Marketplace Realities report.",
+   "url": "https://www.insurancejournal.com/news/national/2026/10/05/887978.htm"
+  },
+  {
+   "claim": "A year earlier the decline was 8.4%",
+   "quote": "This is compared to a decline in rates of 8.4% during the same time a year ago.",
+   "url": "https://www.insurancejournal.com/news/national/2026/10/05/887978.htm"
+  },
+  {
+   "claim": "Programs with five or more carriers fell about 23.4%",
+   "quote": "Shared a layer programs with five or more carriers involved saw reductions during Q2 2026 of about 23.4%.",
+   "url": "https://www.insurancejournal.com/news/national/2026/10/05/887978.htm"
+  },
+  {
+   "claim": "Treaty reinsurance renewals softened",
+   "quote": "WTW also reported softening treaty reinsurance renewals, signaling abundant primary capacity.",
+   "url": "https://www.insurancejournal.com/news/national/2026/10/05/887978.htm"
+  },
+  {
+   "claim": "First-half 2026 catastrophe losses were $42 billion, lowest since 2020",
+   "quote": "Additionally, catastrophe losses for the first half 2026 were $42 billion – the lowest total since 2020.",
+   "url": "https://www.insurancejournal.com/news/national/2026/10/05/887978.htm"
+  },
+  {
+   "claim": "Cyber rates are within a 5% band",
+   "quote": "Of note, cyber rates are holding between a 5% decrease and a 5% increase.",
+   "url": "https://www.insurancejournal.com/news/national/2026/10/05/887978.htm"
+  },
+  {
+   "claim": "Casualty rate increases are moderating",
+   "quote": "Rate increases in casualty are generally moderating, the report highlighted.",
+   "url": "https://www.insurancejournal.com/news/national/2026/10/05/887978.htm"
+  }
+ ]
+}
