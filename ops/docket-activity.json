@@ -1,7 +1,7 @@
 {
- "updatedAt": "2026-10-12T19:12:18+00:00",
+ "updatedAt": "2026-10-13T17:02:39+00:00",
  "source": "CourtListener RECAP archive (federal courts only). Entries appear when CourtListener receives them, so some are late or missing.",
- "requestsUsed": 23,
+ "requestsUsed": 17,
  "errors": [],
  "dockets": {
   "63107484": {
@@ -108,6 +108,13 @@
   "67356054": {
    "entries": [
     {
+     "date": "2026-10-13",
+     "number": 150,
+     "text": "USCA Mandate (Terminates Appeal)",
+     "url": "https://www.courtlistener.com/docket/67356054/150/cornish-adebiyi-v-caesars-entertainment-inc/",
+     "ruling": false
+    },
+    {
      "date": "2026-10-05",
      "number": 149,
      "text": "Notice of Pro Hac Vice to Receive NEF",
@@ -143,7 +150,7 @@
    "docketNumber": "1:23-cv-02536",
    "dateTerminated": "2024-09-30",
    "url": "https://www.courtlistener.com/docket/67356054/cornish-adebiyi-v-caesars-entertainment-inc/",
-   "lastEntryDate": "2026-10-05"
+   "lastEntryDate": "2026-10-13"
   },
   "67940311": {
    "entries": [],
@@ -739,6 +746,13 @@
   "73480976": {
    "entries": [
     {
+     "date": "2026-10-13",
+     "number": 73,
+     "text": "Withdraw as Attorney",
+     "url": "https://www.courtlistener.com/docket/73480976/73/fitfactaridc-llc-v-costar-group-inc/",
+     "ruling": false
+    },
+    {
      "date": "2026-10-01",
      "number": 72,
      "text": "Amended Complaint",
@@ -767,7 +781,7 @@
    "docketNumber": "1:26-cv-06997",
    "dateTerminated": null,
    "url": "https://www.courtlistener.com/docket/73480976/fitfactaridc-llc-v-costar-group-inc/",
-   "lastEntryDate": "2026-10-01"
+   "lastEntryDate": "2026-10-13"
   },
   "73568530": {
    "entries": [
@@ -993,6 +1007,48 @@
   "73738334": {
    "entries": [
     {
+     "date": "2026-10-13",
+     "number": 23,
+     "text": "Affidavit of Service",
+     "url": "https://www.courtlistener.com/docket/73738334/23/stines-v-primeblock-operations-llc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-10-13",
+     "number": 22,
+     "text": "Affidavit of Service",
+     "url": "https://www.courtlistener.com/docket/73738334/22/stines-v-primeblock-operations-llc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-10-13",
+     "number": 21,
+     "text": "Affidavit of Service",
+     "url": "https://www.courtlistener.com/docket/73738334/21/stines-v-primeblock-operations-llc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-10-13",
+     "number": 20,
+     "text": "Affidavit of Service",
+     "url": "https://www.courtlistener.com/docket/73738334/20/stines-v-primeblock-operations-llc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-10-13",
+     "number": 19,
+     "text": "Affidavit of Service",
+     "url": "https://www.courtlistener.com/docket/73738334/19/stines-v-primeblock-operations-llc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-10-12",
+     "number": 18,
+     "text": "Reply to Response to Motion",
+     "url": "https://www.courtlistener.com/docket/73738334/18/stines-v-primeblock-operations-llc/",
+     "ruling": false
+    },
+    {
      "date": "2026-09-30",
      "number": 17,
      "text": "Notice (Other)",
@@ -1005,48 +1061,6 @@
      "text": "Order on Motion for Extension of Time",
      "url": "https://www.courtlistener.com/docket/73738334/stines-v-primeblock-operations-llc/",
      "ruling": false
-    },
-    {
-     "date": "2026-09-24",
-     "number": 16,
-     "text": "Extension of Time",
-     "url": "https://www.courtlistener.com/docket/73738334/16/stines-v-primeblock-operations-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-09-21",
-     "number": 15,
-     "text": "Affidavit in Opposition to Motion",
-     "url": "https://www.courtlistener.com/docket/73738334/15/stines-v-primeblock-operations-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-09-21",
-     "number": 14,
-     "text": "Memorandum in Opposition to Motion",
-     "url": "https://www.courtlistener.com/docket/73738334/14/stines-v-primeblock-operations-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-09-21",
-     "number": null,
-     "text": "Order on Motion for Leave to Appear Pro Hac Vice",
-     "url": "https://www.courtlistener.com/docket/73738334/stines-v-primeblock-operations-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-09-21",
-     "number": null,
-     "text": "Notice - Out of State Counsel",
-     "url": "https://www.courtlistener.com/docket/73738334/stines-v-primeblock-operations-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-09-18",
-     "number": 13,
-     "text": "Appear Pro Hac Vice - one motion per atty",
-     "url": "https://www.courtlistener.com/docket/73738334/13/stines-v-primeblock-operations-llc/",
-     "ruling": false
     }
    ],
    "caseIds": [
@@ -1056,7 +1070,7 @@
    "docketNumber": "1:26-cv-00225",
    "dateTerminated": null,
    "url": "https://www.courtlistener.com/docket/73738334/stines-v-primeblock-operations-llc/",
-   "lastEntryDate": "2026-09-30"
+   "lastEntryDate": "2026-10-13"
   },
   "73740046": {
    "entries": [
@@ -1203,142 +1217,6 @@
    "url": "https://www.courtlistener.com/docket/74712343/the-alder-at-lake-park-llc-v-town-of-lake-park/",
    "lastEntryDate": "2026-10-09"
   },
-  "74830187": {
-   "entries": [
-    {
-     "date": "2026-10-08",
-     "number": 17,
-     "text": "Relief from Stay",
-     "url": "https://www.courtlistener.com/docket/74830187/17/175-nassau-road-holding-inc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-02",
-     "number": 16,
-     "text": "BNC Certificate of Mailing with Application/Notice/Order",
-     "url": "https://www.courtlistener.com/docket/74830187/16/175-nassau-road-holding-inc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-09-29",
-     "number": 15,
-     "text": "Affidavit/Certificate of Service",
-     "url": "https://www.courtlistener.com/docket/74830187/15/175-nassau-road-holding-inc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-09-29",
-     "number": 14,
-     "text": "Schedule Hearing (Generic)",
-     "url": "https://www.courtlistener.com/docket/74830187/14/175-nassau-road-holding-inc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-09-28",
-     "number": 13,
-     "text": "Exhibit",
-     "url": "https://www.courtlistener.com/docket/74830187/13/175-nassau-road-holding-inc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-09-25",
-     "number": 12,
-     "text": "Relief from Stay (Fee Due)",
-     "url": "https://www.courtlistener.com/docket/74830187/12/175-nassau-road-holding-inc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-09-25",
-     "number": 11,
-     "text": "Notice of Appearance and Request for Notice",
-     "url": "https://www.courtlistener.com/docket/74830187/11/175-nassau-road-holding-inc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-09-25",
-     "number": 10,
-     "text": "BNC Certificate of Mailing with Notice/Order",
-     "url": "https://www.courtlistener.com/docket/74830187/10/175-nassau-road-holding-inc/",
-     "ruling": false
-    }
-   ],
-   "caseIds": [
-    "live-190"
-   ],
-   "court": "Bankr. E.D.N.Y.",
-   "docketNumber": "8-26-73728",
-   "dateTerminated": null,
-   "url": "https://www.courtlistener.com/docket/74830187/175-nassau-road-holding-inc/",
-   "lastEntryDate": "2026-10-08"
-  },
-  "74844567": {
-   "entries": [
-    {
-     "date": "2026-10-09",
-     "number": 15,
-     "text": "Extend Time",
-     "url": "https://www.courtlistener.com/docket/74844567/15/9619-pulaski-hwy-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-08",
-     "number": 14,
-     "text": "Extend Time",
-     "url": "https://www.courtlistener.com/docket/74844567/14/9619-pulaski-hwy-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-09-29",
-     "number": 13,
-     "text": "Notice of Appearance and Request for Notice",
-     "url": "https://www.courtlistener.com/docket/74844567/13/9619-pulaski-hwy-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-09-28",
-     "number": 12,
-     "text": "BNC Certificate of Mailing - BK (Auto-Docket)",
-     "url": "https://www.courtlistener.com/docket/74844567/12/9619-pulaski-hwy-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-09-28",
-     "number": 11,
-     "text": "BNC Certificate of Mailing - BK (Auto-Docket)",
-     "url": "https://www.courtlistener.com/docket/74844567/11/9619-pulaski-hwy-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-09-28",
-     "number": 10,
-     "text": "BNC Certificate of Mailing - Meeting of Creditors (Auto-Docket)",
-     "url": "https://www.courtlistener.com/docket/74844567/10/9619-pulaski-hwy-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-09-25",
-     "number": 9,
-     "text": "Statement of Corporate Ownership",
-     "url": "https://www.courtlistener.com/docket/74844567/9/9619-pulaski-hwy-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-09-25",
-     "number": 8,
-     "text": "Notice of Missing Corp Ownership Statement",
-     "url": "https://www.courtlistener.com/docket/74844567/8/9619-pulaski-hwy-llc/",
-     "ruling": false
-    }
-   ],
-   "caseIds": [
-    "live-185"
-   ],
-   "court": "Bankr. D. Md.",
-   "docketNumber": "26-20484",
-   "dateTerminated": null,
-   "url": "https://www.courtlistener.com/docket/74844567/9619-pulaski-hwy-llc/",
-   "lastEntryDate": "2026-10-09"
-  },
   "74850183": {
    "entries": [
     {
@@ -1386,768 +1264,22 @@
    "url": "https://www.courtlistener.com/docket/74850183/new-flagler-development-llc/",
    "lastEntryDate": "2026-09-28"
   },
-  "74853746": {
-   "entries": [
-    {
-     "date": "2026-10-03",
-     "number": 9,
-     "text": "BNC Certificate of Mailing - Meeting of Creditors",
-     "url": "https://www.courtlistener.com/docket/74853746/9/moyvane-arabian-properties-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-09-30",
-     "number": 8,
-     "text": "Certificate of Service",
-     "url": "https://www.courtlistener.com/docket/74853746/8/moyvane-arabian-properties-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-09-30",
-     "number": 7,
-     "text": "Scheduling Status Conference Chapter 11 SubChapterV (Order)",
-     "url": "https://www.courtlistener.com/docket/74853746/7/moyvane-arabian-properties-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-09-30",
-     "number": 6,
-     "text": "Interim Order (Sua Sponte) (Order)",
-     "url": "https://www.courtlistener.com/docket/74853746/6/moyvane-arabian-properties-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-09-28",
-     "number": 5,
-     "text": "06Employ with Affidavit of Disinterestedness (Do Not Use to Employ/Appoint an Examiner)",
-     "url": "https://www.courtlistener.com/docket/74853746/5/moyvane-arabian-properties-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-09-25",
-     "number": 3,
-     "text": "Corporate Resolution (PF)",
-     "url": "https://www.courtlistener.com/docket/74853746/3/moyvane-arabian-properties-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-09-25",
-     "number": 1,
-     "text": "Voluntary Petition (Chapter 11)",
-     "url": "https://www.courtlistener.com/docket/74853746/1/moyvane-arabian-properties-llc/",
-     "ruling": false
-    }
-   ],
-   "caseIds": [
-    "live-195"
-   ],
-   "court": "Bankr. E.D. La.",
-   "docketNumber": "26-12472",
-   "dateTerminated": null,
-   "url": "https://www.courtlistener.com/docket/74853746/moyvane-arabian-properties-llc/",
-   "lastEntryDate": "2026-10-03"
-  },
-  "74855344": {
-   "entries": [
-    {
-     "date": "2026-10-08",
-     "number": 27,
-     "text": "Statement (BK)",
-     "url": "https://www.courtlistener.com/docket/74855344/27/united-property-investments-realty-services-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-08",
-     "number": 26,
-     "text": "Statement (BK)",
-     "url": "https://www.courtlistener.com/docket/74855344/26/united-property-investments-realty-services-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-08",
-     "number": 25,
-     "text": "Application to Employ/Retain",
-     "url": "https://www.courtlistener.com/docket/74855344/25/united-property-investments-realty-services-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-08",
-     "number": 24,
-     "text": "Motion to Extend Deadline to File Schedules, Statements, Ch. 12 or Ch. 13 Plan",
-     "url": "https://www.courtlistener.com/docket/74855344/24/united-property-investments-realty-services-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-03",
-     "number": 22,
-     "text": "BNC Certificate of Mailing - Meeting of Creditors",
-     "url": "https://www.courtlistener.com/docket/74855344/22/united-property-investments-realty-services-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-02",
-     "number": 21,
-     "text": "Certificate Of Service (BK)",
-     "url": "https://www.courtlistener.com/docket/74855344/21/united-property-investments-realty-services-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-02",
-     "number": 19,
-     "text": "BNC Certificate of Mailing - Order",
-     "url": "https://www.courtlistener.com/docket/74855344/19/united-property-investments-realty-services-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-01",
-     "number": 18,
-     "text": "CHAP Pro Memo - Hearing Held",
-     "url": "https://www.courtlistener.com/docket/74855344/18/united-property-investments-realty-services-llc/",
-     "ruling": false
-    }
-   ],
-   "caseIds": [
-    "live-191"
-   ],
-   "court": "Bankr. M.D. Fla.",
-   "docketNumber": "6:26-bk-07478",
-   "dateTerminated": null,
-   "url": "https://www.courtlistener.com/docket/74855344/united-property-investments-realty-services-llc/",
-   "lastEntryDate": "2026-10-08"
-  },
-  "74856205": {
-   "entries": [
-    {
-     "date": "2026-10-09",
-     "number": 19,
-     "text": "2004 Motion for Examination - BK Motion",
-     "url": "https://www.courtlistener.com/docket/74856205/19/urban-development-group-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-07",
-     "number": 18,
-     "text": "Notice of Appearance and Request for Service - BK Notice",
-     "url": "https://www.courtlistener.com/docket/74856205/18/urban-development-group-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-01",
-     "number": 17,
-     "text": "BNC Certificate of Notice",
-     "url": "https://www.courtlistener.com/docket/74856205/17/urban-development-group-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-09-30",
-     "number": 16,
-     "text": "BNC Certificate of Notice",
-     "url": "https://www.courtlistener.com/docket/74856205/16/urban-development-group-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-09-29",
-     "number": 15,
-     "text": "Pay Pre-petition Wages - BK Order",
-     "url": "https://www.courtlistener.com/docket/74856205/15/urban-development-group-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-09-29",
-     "number": 14,
-     "text": "Exhibit and Witness List",
-     "url": "https://www.courtlistener.com/docket/74856205/14/urban-development-group-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-09-28",
-     "number": 13,
-     "text": "Order Setting Hearing on Shortened Notice",
-     "url": "https://www.courtlistener.com/docket/74856205/13/urban-development-group-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-09-28",
-     "number": 12,
-     "text": "Employ - BK Motion",
-     "url": "https://www.courtlistener.com/docket/74856205/12/urban-development-group-llc/",
-     "ruling": false
-    }
-   ],
-   "caseIds": [
-    "live-198"
-   ],
-   "court": "Bankr. M.D. Tenn.",
-   "docketNumber": "3:26-bk-04686",
-   "dateTerminated": null,
-   "url": "https://www.courtlistener.com/docket/74856205/urban-development-group-llc/",
-   "lastEntryDate": "2026-10-09"
-  },
-  "74866310": {
-   "entries": [
-    {
-     "date": "2026-10-06",
-     "number": 20,
-     "text": "Statement (BK)",
-     "url": "https://www.courtlistener.com/docket/74866310/20/mw-properties-orlando-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-06",
-     "number": 19,
-     "text": "Statement (BK)",
-     "url": "https://www.courtlistener.com/docket/74866310/19/mw-properties-orlando-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-06",
-     "number": 18,
-     "text": "Application to Employ/Retain",
-     "url": "https://www.courtlistener.com/docket/74866310/18/mw-properties-orlando-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-04",
-     "number": 16,
-     "text": "BNC Certificate of Mailing - Hearing Notice (BK)",
-     "url": "https://www.courtlistener.com/docket/74866310/16/mw-properties-orlando-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-04",
-     "number": 15,
-     "text": "BNC Certificate of Mailing - Meeting of Creditors",
-     "url": "https://www.courtlistener.com/docket/74866310/15/mw-properties-orlando-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-03",
-     "number": 14,
-     "text": "BNC Certificate of Mailing - Notice to Creditors and Parties in Interest",
-     "url": "https://www.courtlistener.com/docket/74866310/14/mw-properties-orlando-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-02",
-     "number": 13,
-     "text": "Chapter 11 Case Management Summary",
-     "url": "https://www.courtlistener.com/docket/74866310/13/mw-properties-orlando-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-02",
-     "number": 11,
-     "text": "BNC Certificate of Mailing - PDF Document",
-     "url": "https://www.courtlistener.com/docket/74866310/11/mw-properties-orlando-llc/",
-     "ruling": false
-    }
-   ],
-   "caseIds": [
-    "live-204"
-   ],
-   "court": "Bankr. M.D. Fla.",
-   "docketNumber": "6:26-bk-07563",
-   "dateTerminated": null,
-   "url": "https://www.courtlistener.com/docket/74866310/mw-properties-orlando-llc/",
-   "lastEntryDate": "2026-10-06"
-  },
-  "74867047": {
-   "entries": [
-    {
-     "date": "2026-10-09",
-     "number": 17,
-     "text": "Shorten - Motion",
-     "url": "https://www.courtlistener.com/docket/74867047/17/63-spring-lafayette-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-08",
-     "number": 16,
-     "text": "Declaration in Support",
-     "url": "https://www.courtlistener.com/docket/74867047/16/63-spring-lafayette-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-08",
-     "number": 15,
-     "text": "Approve - Motion",
-     "url": "https://www.courtlistener.com/docket/74867047/15/63-spring-lafayette-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-06",
-     "number": 14,
-     "text": "Notice of Zoom Hearing",
-     "url": "https://www.courtlistener.com/docket/74867047/14/63-spring-lafayette-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-06",
-     "number": 13,
-     "text": "Request to Schedule Section 341 Meeting",
-     "url": "https://www.courtlistener.com/docket/74867047/13/63-spring-lafayette-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-05",
-     "number": 12,
-     "text": "Appear pro hac vice",
-     "url": "https://www.courtlistener.com/docket/74867047/12/63-spring-lafayette-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-02",
-     "number": 11,
-     "text": "Pro Hac Vice Admission - Motion",
-     "url": "https://www.courtlistener.com/docket/74867047/11/63-spring-lafayette-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-02",
-     "number": 10,
-     "text": "Appear pro hac vice",
-     "url": "https://www.courtlistener.com/docket/74867047/10/63-spring-lafayette-llc/",
-     "ruling": false
-    }
-   ],
-   "caseIds": [
-    "live-206"
-   ],
-   "court": "Bankr. D. Del.",
-   "docketNumber": "26-11537",
-   "dateTerminated": null,
-   "url": "https://www.courtlistener.com/docket/74867047/63-spring-lafayette-llc/",
-   "lastEntryDate": "2026-10-09"
-  },
-  "74874313": {
-   "entries": [
-    {
-     "date": "2026-10-08",
-     "number": 17,
-     "text": "Notice of Withdrawal",
-     "url": "https://www.courtlistener.com/docket/74874313/17/6363-west-73rd-street-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-07",
-     "number": 16,
-     "text": "BNC Certificate of Notice - Meeting of Creditors",
-     "url": "https://www.courtlistener.com/docket/74874313/16/6363-west-73rd-street-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-06",
-     "number": 15,
-     "text": "Proof of Service",
-     "url": "https://www.courtlistener.com/docket/74874313/15/6363-west-73rd-street-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-06",
-     "number": 14,
-     "text": "Order and Notice",
-     "url": "https://www.courtlistener.com/docket/74874313/14/6363-west-73rd-street-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-06",
-     "number": 13,
-     "text": "Notice",
-     "url": "https://www.courtlistener.com/docket/74874313/13/6363-west-73rd-street-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-05",
-     "number": 12,
-     "text": "Appearance",
-     "url": "https://www.courtlistener.com/docket/74874313/12/6363-west-73rd-street-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-05",
-     "number": 11,
-     "text": "Meeting of Creditors Chapter 11",
-     "url": "https://www.courtlistener.com/docket/74874313/11/6363-west-73rd-street-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-02",
-     "number": null,
-     "text": "U - Corrective Entry",
-     "url": "https://www.courtlistener.com/docket/74874313/6363-west-73rd-street-llc/",
-     "ruling": false
-    }
-   ],
-   "caseIds": [
-    "live-209"
-   ],
-   "court": "Bankr. N.D. Ill.",
-   "docketNumber": "26-16232",
-   "dateTerminated": null,
-   "url": "https://www.courtlistener.com/docket/74874313/6363-west-73rd-street-llc/",
-   "lastEntryDate": "2026-10-08"
-  },
-  "74903821": {
-   "entries": [
-    {
-     "date": "2026-10-08",
-     "number": 7,
-     "text": "BNC Certificate of Notice - Meeting of Creditors",
-     "url": "https://www.courtlistener.com/docket/74903821/7/ppw-realty-1414-w-3rd-st-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-06",
-     "number": 6,
-     "text": "Notice of Appearance and Request",
-     "url": "https://www.courtlistener.com/docket/74903821/6/ppw-realty-1414-w-3rd-st-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-05",
-     "number": 5,
-     "text": "Meeting of Creditors Chapter 11",
-     "url": "https://www.courtlistener.com/docket/74903821/5/ppw-realty-1414-w-3rd-st-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-05",
-     "number": 4,
-     "text": "Notice of Appearance and Request",
-     "url": "https://www.courtlistener.com/docket/74903821/4/ppw-realty-1414-w-3rd-st-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-01",
-     "number": 3,
-     "text": "Impose Automatic Stay",
-     "url": "https://www.courtlistener.com/docket/74903821/3/ppw-realty-1414-w-3rd-st-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-01",
-     "number": 1,
-     "text": "Voluntary Petition (Chapter 11)",
-     "url": "https://www.courtlistener.com/docket/74903821/1/ppw-realty-1414-w-3rd-st-llc/",
-     "ruling": false
-    }
-   ],
-   "caseIds": [
-    "live-218"
-   ],
-   "court": "Bankr. D.N.J.",
-   "docketNumber": "26-21190",
-   "dateTerminated": null,
-   "url": "https://www.courtlistener.com/docket/74903821/ppw-realty-1414-w-3rd-st-llc/",
-   "lastEntryDate": "2026-10-08"
-  },
-  "74911571": {
-   "entries": [
-    {
-     "date": "2026-10-08",
-     "number": 11,
-     "text": "BNC Certificate of Notice - PDF Document",
-     "url": "https://www.courtlistener.com/docket/74911571/11/university-campus-hotel-fund-lp-a-california-l/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-06",
-     "number": 10,
-     "text": "Request for courtesy Notice of Electronic Filing (NEF)",
-     "url": "https://www.courtlistener.com/docket/74911571/10/university-campus-hotel-fund-lp-a-california-l/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-06",
-     "number": 8,
-     "text": "Order setting initial status conference in chapter 11 case (BNC-PDF)",
-     "url": "https://www.courtlistener.com/docket/74911571/8/university-campus-hotel-fund-lp-a-california-l/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-06",
-     "number": null,
-     "text": "Hearing Set (Other) (BK Case - BNC Option)",
-     "url": "https://www.courtlistener.com/docket/74911571/university-campus-hotel-fund-lp-a-california-l/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-05",
-     "number": 6,
-     "text": "Request for courtesy Notice of Electronic Filing (NEF)",
-     "url": "https://www.courtlistener.com/docket/74911571/6/university-campus-hotel-fund-lp-a-california-l/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-05",
-     "number": null,
-     "text": "Process Paid Request for Certified Copy",
-     "url": "https://www.courtlistener.com/docket/74911571/university-campus-hotel-fund-lp-a-california-l/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-05",
-     "number": null,
-     "text": "Request for a Certified Copy",
-     "url": "https://www.courtlistener.com/docket/74911571/university-campus-hotel-fund-lp-a-california-l/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-04",
-     "number": 4,
-     "text": "BNC Certificate of Notice",
-     "url": "https://www.courtlistener.com/docket/74911571/4/university-campus-hotel-fund-lp-a-california-l/",
-     "ruling": false
-    }
-   ],
-   "caseIds": [
-    "live-216"
-   ],
-   "court": "Bankr. C.D. Cal.",
-   "docketNumber": "6:26-bk-18337",
-   "dateTerminated": null,
-   "url": "https://www.courtlistener.com/docket/74911571/university-campus-hotel-fund-lp-a-california-l/",
-   "lastEntryDate": "2026-10-08"
-  },
-  "74919063": {
-   "entries": [
-    {
-     "date": "2026-10-09",
-     "number": 11,
-     "text": "Meeting of Creditors (Ch. 11)",
-     "url": "https://www.courtlistener.com/docket/74919063/11/dmk-real-estate-holdings-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-09",
-     "number": 10,
-     "text": "BNC Certificate of Notice (Ch 11 document sent to the Securities and Exchange Commission)",
-     "url": "https://www.courtlistener.com/docket/74919063/10/dmk-real-estate-holdings-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-09",
-     "number": 9,
-     "text": "BNC Certificate of Notice (Order regarding filing fee due)",
-     "url": "https://www.courtlistener.com/docket/74919063/9/dmk-real-estate-holdings-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-08",
-     "number": 8,
-     "text": "Amendment to Petition/List of Creditors/Schedules/Statements",
-     "url": "https://www.courtlistener.com/docket/74919063/8/dmk-real-estate-holdings-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-08",
-     "number": 6,
-     "text": "Objection",
-     "url": "https://www.courtlistener.com/docket/74919063/6/dmk-real-estate-holdings-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-08",
-     "number": null,
-     "text": "Meeting of Creditors Scheduled (Ch. 11)",
-     "url": "https://www.courtlistener.com/docket/74919063/dmk-real-estate-holdings-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-06",
-     "number": 5,
-     "text": "Filing Fee Due",
-     "url": "https://www.courtlistener.com/docket/74919063/5/dmk-real-estate-holdings-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-06",
-     "number": 4,
-     "text": "Incomplete and/or Deficient Filing (f/k/a Missing documents)",
-     "url": "https://www.courtlistener.com/docket/74919063/4/dmk-real-estate-holdings-llc/",
-     "ruling": false
-    }
-   ],
-   "caseIds": [
-    "live-246"
-   ],
-   "court": "Bankr. M.D. Penn.",
-   "docketNumber": "5:26-bk-02893",
-   "dateTerminated": null,
-   "url": "https://www.courtlistener.com/docket/74919063/dmk-real-estate-holdings-llc/",
-   "lastEntryDate": "2026-10-09"
-  },
-  "74919314": {
-   "entries": [
-    {
-     "date": "2026-10-12",
-     "number": 6,
-     "text": "06-Motion to Extend Time",
-     "url": "https://www.courtlistener.com/docket/74919314/6/200-arpeggio-way-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-08",
-     "number": 5,
-     "text": "Order Setting Deadlines for Debtor to Correct Filing Deficiencies (Non-Individual)",
-     "url": "https://www.courtlistener.com/docket/74919314/5/200-arpeggio-way-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-08",
-     "number": 4,
-     "text": "03-Meeting of Creditors (Chapter 11)",
-     "url": "https://www.courtlistener.com/docket/74919314/4/200-arpeggio-way-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-06",
-     "number": 3,
-     "text": "Notice of Appearance",
-     "url": "https://www.courtlistener.com/docket/74919314/3/200-arpeggio-way-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-06",
-     "number": 2,
-     "text": "Notice of Appearance",
-     "url": "https://www.courtlistener.com/docket/74919314/2/200-arpeggio-way-llc/",
-     "ruling": false
-    }
-   ],
-   "caseIds": [
-    "live-249"
-   ],
-   "court": "Bankr. N.D. Ga.",
-   "docketNumber": "26-63452",
-   "dateTerminated": null,
-   "url": "https://www.courtlistener.com/docket/74919314/200-arpeggio-way-llc/",
-   "lastEntryDate": "2026-10-12"
-  },
-  "74922018": {
-   "entries": [
-    {
-     "date": "2026-10-10",
-     "number": null,
-     "text": "Autodocket of Credit Card",
-     "url": "https://www.courtlistener.com/docket/74922018/cornerstone-development-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-09",
-     "number": 8,
-     "text": "Certificate of Mailing by BNC of Order Regarding Unpaid Filing Fees",
-     "url": "https://www.courtlistener.com/docket/74922018/8/cornerstone-development-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-09",
-     "number": 7,
-     "text": "Certificate of Mailing by BNC of Order on Deadlines to Correct New Case Deficiency - Non-Individual",
-     "url": "https://www.courtlistener.com/docket/74922018/7/cornerstone-development-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-09",
-     "number": 6,
-     "text": "Certificate of Mailing by BNC of Meeting of Creditors",
-     "url": "https://www.courtlistener.com/docket/74922018/6/cornerstone-development-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-06",
-     "number": 5,
-     "text": "Order Setting Deadlines for Debtor to Correct Filing Deficiencies (Non-Individual)",
-     "url": "https://www.courtlistener.com/docket/74922018/5/cornerstone-development-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-06",
-     "number": 4,
-     "text": "Order Regarding Unpaid Case Filing Fees",
-     "url": "https://www.courtlistener.com/docket/74922018/4/cornerstone-development-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-06",
-     "number": 3,
-     "text": "03-Meeting of Creditors (Chapter 11)",
-     "url": "https://www.courtlistener.com/docket/74922018/3/cornerstone-development-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-06",
-     "number": 2,
-     "text": "Notice of Appearance",
-     "url": "https://www.courtlistener.com/docket/74922018/2/cornerstone-development-llc/",
-     "ruling": false
-    }
-   ],
-   "caseIds": [
-    "live-233"
-   ],
-   "court": "Bankr. N.D. Ga.",
-   "docketNumber": "26-63513",
-   "dateTerminated": null,
-   "url": "https://www.courtlistener.com/docket/74922018/cornerstone-development-llc/",
-   "lastEntryDate": "2026-10-10"
-  },
-  "74922099": {
-   "entries": [
-    {
-     "date": "2026-10-07",
-     "number": 5,
-     "text": "Order Setting Deadlines for Debtor to Correct Filing Deficiencies (Non-Individual)",
-     "url": "https://www.courtlistener.com/docket/74922099/5/janam-taccoa-lodging-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-07",
-     "number": 4,
-     "text": "03-Meeting of Creditors (Chapter 11)",
-     "url": "https://www.courtlistener.com/docket/74922099/4/janam-taccoa-lodging-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-06",
-     "number": 3,
-     "text": "Notice of Appearance",
-     "url": "https://www.courtlistener.com/docket/74922099/3/janam-taccoa-lodging-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-06",
-     "number": 2,
-     "text": "Notice of Appearance",
-     "url": "https://www.courtlistener.com/docket/74922099/2/janam-taccoa-lodging-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-05",
-     "number": 1,
-     "text": "Initial Docs01: Voluntary Petition (Chapter 11)",
-     "url": "https://www.courtlistener.com/docket/74922099/1/janam-taccoa-lodging-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-05",
-     "number": null,
-     "text": "Autodocket of Credit Card",
-     "url": "https://www.courtlistener.com/docket/74922099/janam-taccoa-lodging-llc/",
-     "ruling": false
-    }
-   ],
-   "caseIds": [
-    "live-225"
-   ],
-   "court": "Bankr. N.D. Ga.",
-   "docketNumber": "26-63515",
-   "dateTerminated": null,
-   "url": "https://www.courtlistener.com/docket/74922099/janam-taccoa-lodging-llc/",
-   "lastEntryDate": "2026-10-07"
-  },
   "74922581": {
    "entries": [
+    {
+     "date": "2026-10-13",
+     "number": 17,
+     "text": "Objection",
+     "url": "https://www.courtlistener.com/docket/74922581/17/travis-property-owner-llc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-10-13",
+     "number": 16,
+     "text": "Notice of appearance and request for notice",
+     "url": "https://www.courtlistener.com/docket/74922581/16/travis-property-owner-llc/",
+     "ruling": false
+    },
     {
      "date": "2026-10-10",
      "number": 15,
@@ -2189,664 +1321,84 @@
      "text": "Leave (Not for Appeal use)",
      "url": "https://www.courtlistener.com/docket/74922581/10/travis-property-owner-llc/",
      "ruling": false
-    },
-    {
-     "date": "2026-10-08",
-     "number": 9,
-     "text": "Cash collateral",
-     "url": "https://www.courtlistener.com/docket/74922581/9/travis-property-owner-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-08",
-     "number": 8,
-     "text": "Notice of appearance and request for notice",
-     "url": "https://www.courtlistener.com/docket/74922581/8/travis-property-owner-llc/",
-     "ruling": false
     }
    ],
    "caseIds": [
-    "live-234"
+    "live-266"
    ],
    "court": "Bankr. N.D. Tex.",
    "docketNumber": "26-90220",
    "dateTerminated": null,
    "url": "https://www.courtlistener.com/docket/74922581/travis-property-owner-llc/",
-   "lastEntryDate": "2026-10-10"
+   "lastEntryDate": "2026-10-13"
   },
-  "74923277": {
+  "74927117": {
    "entries": [
     {
-     "date": "2026-10-08",
-     "number": 4,
+     "date": "2026-10-13",
+     "number": 29,
+     "text": "Order on Motion to Appear pro hac vice",
+     "url": "https://www.courtlistener.com/docket/74927117/29/southbridge-associates-llc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-10-12",
+     "number": 28,
+     "text": "Statement",
+     "url": "https://www.courtlistener.com/docket/74927117/28/southbridge-associates-llc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-10-12",
+     "number": 27,
+     "text": "Objection",
+     "url": "https://www.courtlistener.com/docket/74927117/27/southbridge-associates-llc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-10-12",
+     "number": 26,
      "text": "Notice of Appearance and Request for Notice",
-     "url": "https://www.courtlistener.com/docket/74923277/4/teas-ridge-retail-center-i-llc/",
-     "ruling": false
-    }
-   ],
-   "caseIds": [
-    "live-241"
-   ],
-   "court": "Bankr. S.D. Tex.",
-   "docketNumber": "26-37551",
-   "dateTerminated": null,
-   "url": "https://www.courtlistener.com/docket/74923277/teas-ridge-retail-center-i-llc/",
-   "lastEntryDate": "2026-10-08"
-  },
-  "74923336": {
-   "entries": [
-    {
-     "date": "2026-10-08",
-     "number": 6,
-     "text": "Order Setting Deadlines for Debtor to Correct Filing Deficiencies (Non-Individual)",
-     "url": "https://www.courtlistener.com/docket/74923336/6/fortapache-realty-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-08",
-     "number": 5,
-     "text": "Order Regarding Unpaid Case Filing Fees",
-     "url": "https://www.courtlistener.com/docket/74923336/5/fortapache-realty-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-08",
-     "number": 4,
-     "text": "Order Regarding Pro Se Entity Filing",
-     "url": "https://www.courtlistener.com/docket/74923336/4/fortapache-realty-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-08",
-     "number": 3,
-     "text": "03-Meeting of Creditors (Chapter 11)",
-     "url": "https://www.courtlistener.com/docket/74923336/3/fortapache-realty-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-08",
-     "number": 2,
-     "text": "Notice of Appointment of Chapter 11 Subchapter V Trustee",
-     "url": "https://www.courtlistener.com/docket/74923336/2/fortapache-realty-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-08",
-     "number": null,
-     "text": "Deadline for Filing Pre-Status Conference Report",
-     "url": "https://www.courtlistener.com/docket/74923336/fortapache-realty-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-06",
-     "number": 1,
-     "text": "Initial Docs01: Voluntary Petition (Chapter 11)",
-     "url": "https://www.courtlistener.com/docket/74923336/1/fortapache-realty-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-06",
-     "number": null,
-     "text": "Initial Docs01: Voluntary Petition (Chapter 11)",
-     "url": "https://www.courtlistener.com/docket/74923336/fortapache-realty-llc/",
-     "ruling": false
-    }
-   ],
-   "caseIds": [
-    "live-248"
-   ],
-   "court": "Bankr. N.D. Ga.",
-   "docketNumber": "26-63569",
-   "dateTerminated": null,
-   "url": "https://www.courtlistener.com/docket/74923336/fortapache-realty-llc/",
-   "lastEntryDate": "2026-10-08"
-  },
-  "74923337": {
-   "entries": [
-    {
-     "date": "2026-10-07",
-     "number": 6,
-     "text": "Order Setting Deadlines for Debtor to Correct Filing Deficiencies (Non-Individual)",
-     "url": "https://www.courtlistener.com/docket/74923337/6/lesam-realty-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-07",
-     "number": 5,
-     "text": "Order Regarding Unpaid Case Filing Fees",
-     "url": "https://www.courtlistener.com/docket/74923337/5/lesam-realty-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-07",
-     "number": 4,
-     "text": "Order Regarding Pro Se Entity Filing",
-     "url": "https://www.courtlistener.com/docket/74923337/4/lesam-realty-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-07",
-     "number": 3,
-     "text": "03-Meeting of Creditors (Chapter 11)",
-     "url": "https://www.courtlistener.com/docket/74923337/3/lesam-realty-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-07",
-     "number": null,
-     "text": "Deadline for Filing Pre-Status Conference Report",
-     "url": "https://www.courtlistener.com/docket/74923337/lesam-realty-llc/",
-     "ruling": false
-    }
-   ],
-   "caseIds": [
-    "live-253"
-   ],
-   "court": "Bankr. N.D. Ga.",
-   "docketNumber": "26-63571",
-   "dateTerminated": null,
-   "url": "https://www.courtlistener.com/docket/74923337/lesam-realty-llc/",
-   "lastEntryDate": "2026-10-07"
-  },
-  "74923616": {
-   "entries": [
-    {
-     "date": "2026-10-08",
-     "number": 5,
-     "text": "Notice of Appearance and Request for Notice",
-     "url": "https://www.courtlistener.com/docket/74923616/5/savage-squad-properties-llc/",
-     "ruling": false
-    }
-   ],
-   "caseIds": [
-    "live-252"
-   ],
-   "court": "Bankr. S.D. Tex.",
-   "docketNumber": "26-37555",
-   "dateTerminated": null,
-   "url": "https://www.courtlistener.com/docket/74923616/savage-squad-properties-llc/",
-   "lastEntryDate": "2026-10-08"
-  },
-  "74924804": {
-   "entries": [
-    {
-     "date": "2026-10-09",
-     "number": 4,
-     "text": "Notice of Appearance and Request",
-     "url": "https://www.courtlistener.com/docket/74924804/4/lza-real-properties-east-llc/",
+     "url": "https://www.courtlistener.com/docket/74927117/26/southbridge-associates-llc/",
      "ruling": false
     },
     {
      "date": "2026-10-09",
-     "number": null,
-     "text": "Declaration for Electronic Filing (Restricted Document)",
-     "url": "https://www.courtlistener.com/docket/74924804/lza-real-properties-east-llc/",
+     "number": 25,
+     "text": "Notice of Withdrawal of Appearance/Representation",
+     "url": "https://www.courtlistener.com/docket/74927117/25/southbridge-associates-llc/",
      "ruling": false
     },
     {
-     "date": "2026-10-07",
-     "number": 2,
-     "text": "341 Meeting of Creditors Chapter 11 (F)",
-     "url": "https://www.courtlistener.com/docket/74924804/2/lza-real-properties-east-llc/",
+     "date": "2026-10-09",
+     "number": 24,
+     "text": "Notice of Appearance and Request for Notice",
+     "url": "https://www.courtlistener.com/docket/74927117/24/southbridge-associates-llc/",
      "ruling": false
     },
     {
-     "date": "2026-10-06",
-     "number": 1,
-     "text": "Voluntary Petition Chapter 11",
-     "url": "https://www.courtlistener.com/docket/74924804/1/lza-real-properties-east-llc/",
+     "date": "2026-10-09",
+     "number": 23,
+     "text": "Notice of Fee Due (Pro Hac Vice)",
+     "url": "https://www.courtlistener.com/docket/74927117/23/southbridge-associates-llc/",
      "ruling": false
     },
     {
-     "date": "2026-10-06",
-     "number": null,
-     "text": "Notice of Appearance and Request for Notice (no PDF)",
-     "url": "https://www.courtlistener.com/docket/74924804/lza-real-properties-east-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-06",
-     "number": null,
-     "text": "ICC-Fee Paid",
-     "url": "https://www.courtlistener.com/docket/74924804/lza-real-properties-east-llc/",
-     "ruling": false
-    }
-   ],
-   "caseIds": [
-    "live-247"
-   ],
-   "court": "Bankr. W.D. Tex.",
-   "docketNumber": "26-12003",
-   "dateTerminated": null,
-   "url": "https://www.courtlistener.com/docket/74924804/lza-real-properties-east-llc/",
-   "lastEntryDate": "2026-10-09"
-  },
-  "74925931": {
-   "entries": [
-    {
-     "date": "2026-10-08",
-     "number": 16,
+     "date": "2026-10-09",
+     "number": 22,
      "text": "Certificate of Service",
-     "url": "https://www.courtlistener.com/docket/74925931/16/keinan-properties-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-08",
-     "number": 15,
-     "text": "Notice of Appearance and Request for Notice",
-     "url": "https://www.courtlistener.com/docket/74925931/15/keinan-properties-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-08",
-     "number": 14,
-     "text": "Meeting of Creditors Chapter 11",
-     "url": "https://www.courtlistener.com/docket/74925931/14/keinan-properties-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-07",
-     "number": 13,
-     "text": "Correct Defective Pleading(s)",
-     "url": "https://www.courtlistener.com/docket/74925931/13/keinan-properties-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-07",
-     "number": 12,
-     "text": "Clerk's Notice of Hearing (with form)",
-     "url": "https://www.courtlistener.com/docket/74925931/12/keinan-properties-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-07",
-     "number": 11,
-     "text": "Debtor-In-Possession To Pay Taxes",
-     "url": "https://www.courtlistener.com/docket/74925931/11/keinan-properties-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-07",
-     "number": null,
-     "text": "Case Reassigned",
-     "url": "https://www.courtlistener.com/docket/74925931/keinan-properties-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-06",
-     "number": 10,
-     "text": "Expediting Hearing",
-     "url": "https://www.courtlistener.com/docket/74925931/10/keinan-properties-llc/",
+     "url": "https://www.courtlistener.com/docket/74927117/22/southbridge-associates-llc/",
      "ruling": false
     }
    ],
    "caseIds": [
-    "live-240"
+    "live-265"
    ],
-   "court": "Bankr. D. Kan.",
-   "docketNumber": "26-21557",
+   "court": "Bankr. D. Mass.",
+   "docketNumber": "26-41208",
    "dateTerminated": null,
-   "url": "https://www.courtlistener.com/docket/74925931/keinan-properties-llc/",
-   "lastEntryDate": "2026-10-08"
-  },
-  "74928132": {
-   "entries": [
-    {
-     "date": "2026-10-07",
-     "number": 6,
-     "text": "Notice of Appearance and Request",
-     "url": "https://www.courtlistener.com/docket/74928132/6/jrm-real-estate-holdings-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-07",
-     "number": 5,
-     "text": "Notice of Hearing (Upload)",
-     "url": "https://www.courtlistener.com/docket/74928132/5/jrm-real-estate-holdings-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-07",
-     "number": 4,
-     "text": "Notice of Appearance and Request",
-     "url": "https://www.courtlistener.com/docket/74928132/4/jrm-real-estate-holdings-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-07",
-     "number": 3,
-     "text": "Show Cause",
-     "url": "https://www.courtlistener.com/docket/74928132/3/jrm-real-estate-holdings-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-07",
-     "number": 2,
-     "text": "Retention (Do Not Use to Employ/Appoint an Examiner)",
-     "url": "https://www.courtlistener.com/docket/74928132/2/jrm-real-estate-holdings-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-06",
-     "number": 1,
-     "text": "Voluntary Petition (Chapter 11)",
-     "url": "https://www.courtlistener.com/docket/74928132/1/jrm-real-estate-holdings-llc/",
-     "ruling": false
-    }
-   ],
-   "caseIds": [
-    "live-245"
-   ],
-   "court": "Bankr. D.N.J.",
-   "docketNumber": "26-21388",
-   "dateTerminated": null,
-   "url": "https://www.courtlistener.com/docket/74928132/jrm-real-estate-holdings-llc/",
-   "lastEntryDate": "2026-10-07"
-  },
-  "74928372": {
-   "entries": [
-    {
-     "date": "2026-10-09",
-     "number": 12,
-     "text": "341 Mtg. Notice - Ch 11 Corp w/Claim Deadline",
-     "url": "https://www.courtlistener.com/docket/74928372/12/4210-w-carmen-st-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-07",
-     "number": 9,
-     "text": "20 Largest Unsecured Creditors",
-     "url": "https://www.courtlistener.com/docket/74928372/9/4210-w-carmen-st-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-07",
-     "number": 8,
-     "text": "Certificate of Authorization to File Bankruptcy Petition",
-     "url": "https://www.courtlistener.com/docket/74928372/8/4210-w-carmen-st-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-07",
-     "number": 7,
-     "text": "Statement of Corporate Ownership",
-     "url": "https://www.courtlistener.com/docket/74928372/7/4210-w-carmen-st-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-07",
-     "number": 6,
-     "text": "Chapter 11 Case Management Summary",
-     "url": "https://www.courtlistener.com/docket/74928372/6/4210-w-carmen-st-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-07",
-     "number": 4,
-     "text": "Order Authorizing DIP to Operate Business",
-     "url": "https://www.courtlistener.com/docket/74928372/4/4210-w-carmen-st-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-07",
-     "number": 3,
-     "text": "Notice of Deficient Filing (BK)",
-     "url": "https://www.courtlistener.com/docket/74928372/3/4210-w-carmen-st-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-07",
-     "number": null,
-     "text": "ADI - Notice to Debtor(s) Attorney Regarding Local Rule 2081-1 (Paperless Entry)",
-     "url": "https://www.courtlistener.com/docket/74928372/4210-w-carmen-st-llc/",
-     "ruling": false
-    }
-   ],
-   "caseIds": [
-    "live-254"
-   ],
-   "court": "Bankr. M.D. Fla.",
-   "docketNumber": "8:26-bk-09102",
-   "dateTerminated": null,
-   "url": "https://www.courtlistener.com/docket/74928372/4210-w-carmen-st-llc/",
-   "lastEntryDate": "2026-10-09"
-  },
-  "74929738": {
-   "entries": [
-    {
-     "date": "2026-10-09",
-     "number": 5,
-     "text": "Meeting of Creditors Chapter 11 - US Trustee",
-     "url": "https://www.courtlistener.com/docket/74929738/5/limo-realty-corp/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-09",
-     "number": null,
-     "text": "Meeting of Creditors Chapter 11 - US Trustee",
-     "url": "https://www.courtlistener.com/docket/74929738/limo-realty-corp/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-08",
-     "number": 4,
-     "text": "Notice of Appearance and Request for Notice",
-     "url": "https://www.courtlistener.com/docket/74929738/4/limo-realty-corp/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-07",
-     "number": 3,
-     "text": "Deficient Filing Chapter 11",
-     "url": "https://www.courtlistener.com/docket/74929738/3/limo-realty-corp/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-07",
-     "number": 2,
-     "text": "List of Creditors",
-     "url": "https://www.courtlistener.com/docket/74929738/2/limo-realty-corp/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-07",
-     "number": 1,
-     "text": "Voluntary Petition (Chapter 11)",
-     "url": "https://www.courtlistener.com/docket/74929738/1/limo-realty-corp/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-07",
-     "number": null,
-     "text": "Automatic docket of credit card/debit card",
-     "url": "https://www.courtlistener.com/docket/74929738/limo-realty-corp/",
-     "ruling": false
-    }
-   ],
-   "caseIds": [
-    "live-255"
-   ],
-   "court": "Bankr. E.D.N.Y.",
-   "docketNumber": "1-26-44694",
-   "dateTerminated": null,
-   "url": "https://www.courtlistener.com/docket/74929738/limo-realty-corp/",
-   "lastEntryDate": "2026-10-09"
-  },
-  "74937404": {
-   "entries": [
-    {
-     "date": "2026-10-09",
-     "number": 11,
-     "text": "Statement",
-     "url": "https://www.courtlistener.com/docket/74937404/11/148-bay-43rd-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-09",
-     "number": null,
-     "text": "Meeting of Creditors Chapter 11 - US Trustee",
-     "url": "https://www.courtlistener.com/docket/74937404/148-bay-43rd-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-08",
-     "number": 10,
-     "text": "Statement",
-     "url": "https://www.courtlistener.com/docket/74937404/10/148-bay-43rd-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-08",
-     "number": 9,
-     "text": "Deficient Filing Chapter 11",
-     "url": "https://www.courtlistener.com/docket/74937404/9/148-bay-43rd-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-08",
-     "number": 8,
-     "text": "Statement",
-     "url": "https://www.courtlistener.com/docket/74937404/8/148-bay-43rd-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-08",
-     "number": 7,
-     "text": "Statement",
-     "url": "https://www.courtlistener.com/docket/74937404/7/148-bay-43rd-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-08",
-     "number": 6,
-     "text": "Statement",
-     "url": "https://www.courtlistener.com/docket/74937404/6/148-bay-43rd-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-08",
-     "number": 5,
-     "text": "Statement",
-     "url": "https://www.courtlistener.com/docket/74937404/5/148-bay-43rd-llc/",
-     "ruling": false
-    }
-   ],
-   "caseIds": [
-    "live-242"
-   ],
-   "court": "Bankr. E.D.N.Y.",
-   "docketNumber": "1-26-44720",
-   "dateTerminated": null,
-   "url": "https://www.courtlistener.com/docket/74937404/148-bay-43rd-llc/",
-   "lastEntryDate": "2026-10-09"
-  },
-  "74941502": {
-   "entries": [
-    {
-     "date": "2026-10-09",
-     "number": 16,
-     "text": "List of Creditors (Master Mailing List of Creditors)",
-     "url": "https://www.courtlistener.com/docket/74941502/16/315-south-beverly-drive-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-09",
-     "number": 15,
-     "text": "Corp Resolution Auth Filing",
-     "url": "https://www.courtlistener.com/docket/74941502/15/315-south-beverly-drive-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-09",
-     "number": 14,
-     "text": "Case Commencement Deficiency Notice (manual - ccdn) (BNC)",
-     "url": "https://www.courtlistener.com/docket/74941502/14/315-south-beverly-drive-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-09",
-     "number": 13,
-     "text": "Deficiency Notice (11 U.S.C. Sec. 521 & Rule 1007) (Ch 11/12) (manual - def) (BNC)",
-     "url": "https://www.courtlistener.com/docket/74941502/13/315-south-beverly-drive-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-09",
-     "number": null,
-     "text": "Notice to Filer of Error and/or Deficient Document",
-     "url": "https://www.courtlistener.com/docket/74941502/315-south-beverly-drive-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-09",
-     "number": null,
-     "text": "Notice of Dismissal of Case If Required Documents Are Not Filed Within 72 Hours (VAN-197)",
-     "url": "https://www.courtlistener.com/docket/74941502/315-south-beverly-drive-llc/",
-     "ruling": true
-    },
-    {
-     "date": "2026-10-09",
-     "number": null,
-     "text": "Set Case Commencement Deficiency Deadlines (def/deforco)",
-     "url": "https://www.courtlistener.com/docket/74941502/315-south-beverly-drive-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-09",
-     "number": null,
-     "text": "Set Case Commencement Deficiency Deadlines (ccdn)",
-     "url": "https://www.courtlistener.com/docket/74941502/315-south-beverly-drive-llc/",
-     "ruling": false
-    }
-   ],
-   "caseIds": [
-    "live-244"
-   ],
-   "court": "Bankr. C.D. Cal.",
-   "docketNumber": "2:26-bk-20221",
-   "dateTerminated": null,
-   "url": "https://www.courtlistener.com/docket/74941502/315-south-beverly-drive-llc/",
-   "lastEntryDate": "2026-10-09"
-  },
-  "74949021": {
-   "entries": [
-    {
-     "date": "2026-10-12",
-     "number": 3,
-     "text": "Order Authorizing DIP to Operate Business",
-     "url": "https://www.courtlistener.com/docket/74949021/3/access-real-estate-holdings-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-12",
-     "number": 2,
-     "text": "Motion for Joint Administration",
-     "url": "https://www.courtlistener.com/docket/74949021/2/access-real-estate-holdings-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-11",
-     "number": 1,
-     "text": "Voluntary Petition (Chapter 11)",
-     "url": "https://www.courtlistener.com/docket/74949021/1/access-real-estate-holdings-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-11",
-     "number": null,
-     "text": "ADI - Notice to Debtor(s) Attorney Regarding Local Rule 2081-1 (Paperless Entry)",
-     "url": "https://www.courtlistener.com/docket/74949021/access-real-estate-holdings-llc/",
-     "ruling": false
-    }
-   ],
-   "caseIds": [
-    "live-261"
-   ],
-   "court": "Bankr. M.D. Fla.",
-   "docketNumber": "8:26-bk-09241",
-   "dateTerminated": null,
-   "url": "https://www.courtlistener.com/docket/74949021/access-real-estate-holdings-llc/",
-   "lastEntryDate": "2026-10-12"
+   "url": "https://www.courtlistener.com/docket/74927117/southbridge-associates-llc/",
+   "lastEntryDate": "2026-10-13"
   }
  },
  "events": [
