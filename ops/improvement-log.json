@@ -68,7 +68,8 @@
    "window": "next day's audit snapshot",
    "baseline": 3,
    "checkAfter": "2026-10-13",
-   "status": "watching"
+   "status": "helped",
+   "verdict": {"date": "2026-10-13", "value": 0, "note": "Live site_audit.py run today confirms weakDescription still at 0: all three rewritten descriptions (contact.html, handbook-success.html, reset-password.html) remain in place and no new weak descriptions appeared."}
   },
   {
    "id": "imp-006",
@@ -81,6 +82,20 @@
    "window": "7 days",
    "baseline": 0.1034,
    "checkAfter": "2026-10-19",
+   "status": "watching"
+  },
+  {
+   "id": "imp-007",
+   "date": "2026-10-13",
+   "track": "conversion",
+   "title": "Added one primary CTA (follow or the Monday email) above the write-up preview on matter pages",
+   "why": "ops/metrics/goals.json (2026-10-13): conversion is the goal furthest behind (gap 0.65, signUps7=2/target 5, follows7=0/target 3, newsletterSignups7=0/target 3), and audit was clean (no breakage), so per the playbook this run worked conversion. Backlog item G6: matter pages had no newsletter capture at all (alert-log.html, the template every matter page is built from, loads no newsletter form or script) and the docket-follow box sat below the write-up-preview teaser, sharing a 3-card row with two other asks. Moved the follow box above the teaser for matters with a CourtListener docket, and added a self-contained newsletter signup (reusing the site's existing nl-inline/data-newsletter-form pattern and js/newsletter-form.js, already proven on about.html etc.) above the teaser for matters without one, so every matter page now leads with exactly one clear ask before the fold.",
+   "files": ["scripts/build_matter_pages.ts", "css/styles.css"],
+   "commit": "eacbbb5dc3977c919857bd3a32884f77fb2c615a",
+   "metric": "goals.json conversion.metrics.follows7 and conversion.metrics.newsletterSignups7",
+   "window": "7 days",
+   "baseline": {"follows7": 0, "newsletterSignups7": 0},
+   "checkAfter": "2026-10-20",
    "status": "watching"
   }
  ]
