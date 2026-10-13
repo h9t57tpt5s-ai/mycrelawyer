@@ -1,0 +1,22 @@
+{
+ "id": "live-267",
+ "title": "Wilmington Trust v. Stradtman Park, LLC: Fourth Department Upholds Trial Court's Cut to CMBS Special Servicer's Foreclosure Fees and Interest",
+ "category": "lending-foreclosure",
+ "status": "ruling",
+ "date": "2026-10-09",
+ "jurisdiction": "New York Supreme Court, Appellate Division, Fourth Department",
+ "state": "NY",
+ "amount": "$3.6 million CMBS loan; $588,000 fee request cut to $250,000",
+ "source": "live",
+ "source_url": "https://www.nycourts.gov/reporter/current/3dseries/2026/2026_05883.shtml",
+ "summary": "On October 9, 2026, New York's Appellate Division, Fourth Department unanimously affirmed an Erie County damages judgment in a commercial mortgage foreclosure brought by the trustee of the JPMBB Commercial Mortgage Securities Trust 2014-C24, acting through special servicer LNR Partners, LLC, against borrower Stradtman Park, LLC. The trust had asked for roughly $588,000 in attorneys' fees and got $250,000, and it was refused note-rate interest of $120,882.59 on top of $583,938.25 in default-rate interest. The appellate panel found both rulings supported by a fair interpretation of the evidence.",
+ "significance": "The decision is a reminder that a foreclosure is an equitable proceeding, so contractual fee and interest provisions in CMBS loan documents are enforced only to the extent a court finds them reasonable and proven. Special servicers that bill out-of-market rates or stack default interest on top of note-rate interest without documenting the math risk a substantial haircut. Borrowers in smaller markets gain a template: local expert testimony on customary foreclosure rates can cap what a securitized lender recovers.",
+ "judge": "Emilio Colaiacovo",
+ "tags": [
+  "cmbs",
+  "special servicer",
+  "attorneys fees",
+  "default interest",
+  "foreclosure"
+ ]
+}

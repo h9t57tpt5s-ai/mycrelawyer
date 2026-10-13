@@ -8112,6 +8112,154 @@ const RELAW_DATA = {
         { when: "October 8, 2026", label: "Cash collateral motion and request for expedited hearing docketed" },
         { when: "October 9, 2026", label: "Court approves expedited hearing request; notice of hearing issued October 10", current: true }
       ]
+    },
+    {
+      id: "live-267",
+      addedDate: "2026-10-13",
+      title: "Wilmington Trust v. Stradtman Park, LLC: Fourth Department Upholds Trial Court's Cut to CMBS Special Servicer's Foreclosure Fees and Interest",
+      category: "lending-foreclosure",
+      status: "ruling",
+      date: "2026-10-09",
+      jurisdiction: "New York Supreme Court, Appellate Division, Fourth Department",
+      state: "NY",
+      amount: "$3.6 million CMBS loan; $588,000 fee request cut to $250,000",
+      source: "live",
+      sourceUrl: "https://www.nycourts.gov/reporter/current/3dseries/2026/2026_05883.shtml",
+      summary: "On October 9, 2026, New York's Appellate Division, Fourth Department unanimously affirmed an Erie County damages judgment in a commercial mortgage foreclosure brought by the trustee of the JPMBB Commercial Mortgage Securities Trust 2014-C24, acting through special servicer LNR Partners, LLC, against borrower Stradtman Park, LLC. The trust had asked for roughly $588,000 in attorneys' fees and got $250,000, and it was refused note-rate interest of $120,882.59 on top of $583,938.25 in default-rate interest. The appellate panel found both rulings supported by a fair interpretation of the evidence.",
+      significance: "The decision is a reminder that a foreclosure is an equitable proceeding, so contractual fee and interest provisions in CMBS loan documents are enforced only to the extent a court finds them reasonable and proven. Special servicers that bill out-of-market rates or stack default interest on top of note-rate interest without documenting the math risk a substantial haircut. Borrowers in smaller markets gain a template: local expert testimony on customary foreclosure rates can cap what a securitized lender recovers.",
+      body: [
+        "The loan dates to July 2014, when Stradtman Park, LLC borrowed $3.6 million from KeyBank National Association against a commercial property that the court described as worth about $7 million. The loan documents allowed KeyBank to assign and securitize the loan, and in October 2014 it was assigned to Wilmington Trust, National Association, as trustee for the holders of JPMBB Commercial Mortgage Securities Trust 2014-C24, and pooled into a commercial mortgage-backed security under a pooling and servicing agreement. The borrower never signed that agreement. LNR Partners, LLC was designated special servicer for the loan if it became distressed or defaulted.",
+        "According to the opinion, the borrower paid as agreed from 2014 into early 2020: $18,779.30 a month in principal and interest plus $20,300.39 a month into reserve accounts for taxes, insurance, maintenance and repairs, for a total monthly payment of $39,079.69. In 2019 the borrower sought approvals and reserve draws for lease renewals, expansions and contractor payments. Although the loan was performing, LNR became the point of contact, and the borrower contends LNR stalled its requests and forced it to cover costs out of pocket despite ample reserves. Starting in May 2020 the borrower paid only principal and interest and told the servicer to apply the payments that way. The lender side instead spread the payments across principal, interest and reserves, which produced a default. In November 2020 the borrower stopped turning over rents, and the trustee sued to foreclose.",
+        "The trial court, Erie County Supreme Court Justice Emilio Colaiacovo, granted partial summary judgment to the trustee on foreclosure and on its right to the rents, a ruling the borrower did not appeal. Skeptical of the fees claimed, the court then held a damages hearing. It awarded the full $583,938.25 in default-rate interest the trustee asked for but refused another $120,882.59 in note-rate interest, reasoning that the default rate was set five percentage points above the note rate and that the trustee had not documented how its default-interest figure was calculated, so awarding both would double count. On attorneys' fees, the borrower's expert testified that a customary rate for experienced commercial foreclosure counsel in Western New York ran $350 to $450 an hour, while the trustee's witness testified that LNR was paying $650 to $800 an hour for partners and $350 to $575 for associates. The invoices did not break out rates by entry. The court cut the roughly $588,000 request to $250,000 and remarked that the trustee had come \"perilously close\" to losing the whole judgment over its fee demand.",
+        "On appeal, the trustee argued the trial court misread the loan documents. The Fourth Department acknowledged that unambiguous contracts are enforced as written, but stressed that a foreclosure invokes the court's equitable powers, which reach as far as fairness requires. It held that the plaintiff bears the burden of proving damages at an inquest, that the duplicative-interest ruling rested on a fair view of the evidence, and that contractual fee-shifting is enforceable only for reasonable fees for services actually rendered, measured against hours, rates and what comparable local lawyers charge. The court found no abuse of discretion in the $250,000 award and rejected the trustee's remaining challenges.",
+        "For lenders and servicers, the practical lesson is documentation. A default-interest claim should show its own arithmetic, and a fee petition should identify the rate for each timekeeper and entry, especially where the servicer uses big-city counsel in a smaller market. Courts will compare those rates to local norms, and an aggressive request can damage credibility on the rest of the judgment. For borrowers, the case shows the value of contesting fee and interest components at the damages stage even after losing on liability: here, a borrower that conceded foreclosure still held the securitized lender to well under half of its claimed fees."
+      ],
+      tags: ["cmbs", "special servicer", "attorneys fees", "default interest", "foreclosure"],
+      parties: [
+        { name: "Wilmington Trust, National Association, as Trustee for the benefit of the registered holders of JPMBB Commercial Mortgage Securities Trust 2014-C24, Commercial Mortgage Pass-Through Certificates, Series 2014-C24", role: "Plaintiff-Appellant (Lender/Trustee)" },
+        { name: "LNR Partners, LLC", role: "Special Servicer" },
+        { name: "Stradtman Park, LLC", role: "Defendant-Respondent (Borrower)" },
+        { name: "KeyBank National Association", role: "Original Lender (nonparty)" }
+      ],
+      judge: "Emilio Colaiacovo",
+      amountUsd: 3600000,
+      amountBasis: "loan",
+      timeline: [
+        { when: "July 2014", label: "Stradtman Park, LLC takes a $3.6 million loan from KeyBank on a commercial property" },
+        { when: "October 2014", label: "Loan assigned to the JPMBB 2014-C24 CMBS trust; LNR Partners named special servicer" },
+        { when: "May 2020", label: "Borrower begins paying principal and interest only, withholding reserve deposits" },
+        { when: "November 2020", label: "Borrower stops remitting rents; trustee later sues to foreclose" },
+        { when: "May 21, 2025", label: "Erie County Supreme Court enters amended order and judgment awarding $250,000 of about $588,000 in requested fees and denying duplicative note-rate interest" },
+        { when: "October 9, 2026", label: "Appellate Division, Fourth Department unanimously affirms", current: true }
+      ]
+    },
+    {
+      id: "live-268",
+      addedDate: "2026-10-13",
+      title: "Long Street Associates, LLP v. YMCA of Central Ohio: Ohio Appeals Court Upholds Tenant's Lease Termination Over $1.04M Build-Out Budget",
+      category: "lease-disputes",
+      status: "ruling",
+      date: "2026-10-06",
+      jurisdiction: "Ohio Court of Appeals, Tenth Appellate District",
+      state: "OH",
+      amount: "$1.04 million tenant-improvement budget vs. ~$523,100 termination threshold",
+      source: "live",
+      sourceUrl: "https://www.supremecourt.ohio.gov/rod/docs/pdf/10/2026/2026-Ohio-3942.pdf",
+      summary: "On October 6, 2026, Ohio's Tenth District Court of Appeals affirmed summary judgment for the Young Men's Christian Association of Central Ohio in a suit by landlord Long Street Associates, LLP over the YMCA's 2020 termination of its lease at 31-55 West Long Street in Columbus. The lease let the tenant walk away once if the construction budget for its improvements exceeded a fixed threshold of roughly $523,100, and the budget delivered came to $1,036,697.38. The court held the landlord's own complaint admitted the final plans were agreed and the budget was the one the lease contemplated, and that an oral offer to absorb the overage could not defeat the termination right.",
+      significance: "Budget-based termination options are common in leases of unfinished or historic space, and this decision shows how literally courts will read them: once the triggering budget is delivered, the option is live, whatever the landlord calls the document. Landlords also learn that statements in their own pleadings can be treated as binding admissions, and that a no-oral-modification clause will block a phone-call fix to a cost overrun. Tenants gain confidence that a clearly drafted cost-overrun exit will be enforced.",
+      body: [
+        "Long Street Associates, LLP owns the building at 31-55 West Long Street in Columbus, which the lease acknowledged is listed on the national register of historic buildings. On December 9, 2019, it leased the unfinished space to the Young Men's Christian Association of Central Ohio. The lease set out a process for building out the premises: the landlord would furnish preliminary plans, the parties would work in good faith toward final plans, and the landlord would then prepare a construction budget. The landlord was to contribute a tenant-improvement allowance of $30 per square foot, about $323,100, and the YMCA agreed to fund up to $200,000 more, amortized over the initial term at five percent interest, and to pay any excess beyond that.",
+        "The key provision, Section 10.10, gave the tenant a one-time right to terminate if the construction budget showed improvement costs above a fixed threshold of roughly $523,100, exercisable by written notice within seven days of receiving the budget. On July 30, 2020, the YMCA received a budget showing costs of $1,036,697.38, nearly double the threshold. On August 6, 2020, it gave written notice that it was terminating under Section 10.10. The landlord asked it to withdraw the notice and proposed in writing to share the overrun costs, but no written modification was ever signed. The landlord sued in November 2020 in the Franklin County Court of Common Pleas for declaratory judgment, breach of contract and anticipatory breach, and argued on appeal that the tenant had used the clause to escape the lease because of pandemic-era financial strain.",
+        "The trial court granted the YMCA summary judgment in May 2024, finding that final plans had been reached and that a budget exceeding the threshold had been delivered, which triggered the termination right. After a remand to resolve the YMCA's claim for attorneys' fees under the lease, the parties entered an agreed fee judgment in January 2026, and the landlord appealed again.",
+        "Writing for the panel, the court rejected each of the landlord's arguments. The landlord said the spreadsheet sent on July 30 was not the lease's construction budget and that final plans had not been agreed, but its own complaint alleged that it sent the budget in accordance with Section 10.10 after the final plans were finalized. The court treated those allegations as judicial admissions and noted the lease draws no line between an initial and a final budget. The landlord next said it had orally offered on August 6 to cover costs above the threshold, so the budget never really exceeded it. The court held that such an offer would be a material change to price terms, and the lease's no-oral-modification clause required any change to be in a signed writing. Finally, the court found that approvals from the Ohio Historic Preservation Office and the National Park Service, which bore on historic tax credits, were not a condition precedent to the final plans.",
+        "The takeaways for owners are concrete. If a lease gives the tenant an exit when build-out costs exceed a cap, the landlord should control when and how the budget is delivered, label preliminary numbers clearly, and recognize that any budget sent after plans are settled may start the clock. Fixes to a cost overrun need to be papered and signed before the option window closes, not negotiated by phone afterward. Pleadings matter too: describing a document in a complaint as the one the lease requires can foreclose arguing otherwise later. For tenants, the decision confirms that a cleanly drafted cost-overrun termination right, exercised on time and in writing, will hold up."
+      ],
+      tags: ["commercial lease", "termination option", "tenant improvements", "judicial admission", "historic building"],
+      parties: [
+        { name: "Long Street Associates, LLP", role: "Plaintiff-Appellant (Landlord)" },
+        { name: "The Young Men's Christian Association of Central Ohio", role: "Defendant-Appellee (Tenant)" }
+      ],
+      judge: null,
+      amountUsd: null,
+      timeline: [
+        { when: "December 9, 2019", label: "YMCA of Central Ohio signs lease for unfinished space at 31-55 West Long Street, Columbus" },
+        { when: "July 30, 2020", label: "YMCA receives construction budget of $1,036,697.38" },
+        { when: "August 6, 2020", label: "YMCA gives written notice terminating the lease under Section 10.10" },
+        { when: "November 20, 2020", label: "Landlord sues in Franklin County Court of Common Pleas" },
+        { when: "May 16, 2024", label: "Trial court grants summary judgment to the YMCA" },
+        { when: "January 5, 2026", label: "Agreed judgment entry on the YMCA's attorneys' fees" },
+        { when: "October 6, 2026", label: "Tenth District Court of Appeals affirms", current: true }
+      ]
+    },
+    {
+      id: "live-269",
+      addedDate: "2026-10-13",
+      title: "H. Roske & Associates LLP v. ESRT Empire State Building LLC: First Department Enforces Tenant's Waiver of Constructive Eviction",
+      category: "lease-disputes",
+      status: "ruling",
+      date: "2026-10-06",
+      jurisdiction: "New York Supreme Court, Appellate Division, First Department",
+      state: "NY",
+      amount: "Dismissal affirmed",
+      source: "live",
+      sourceUrl: "https://www.nycourts.gov/reporter/current/3dseries/2026/2026_05723.shtml",
+      summary: "On October 6, 2026, New York's Appellate Division, First Department unanimously affirmed the dismissal of a commercial tenant's suit against its landlord, ESRT Empire State Building LLC. The court held that H. Roske & Associates LLP had expressly waived constructive eviction rights in its lease, and that even without the waiver its pleadings did not show the substantial loss of use the claim requires. Its breach-of-lease claim also failed because it identified no lease provision that was breached.",
+      significance: "The ruling reaffirms that New York courts will enforce a commercial tenant's lease waiver of constructive eviction, one of the few self-help defenses tenants use to stop paying rent or exit a space. For office landlords, a clearly drafted waiver can end such a claim at the pleading stage. For tenants, the decision is a reminder to negotiate those waivers before signing and to plead the specific lease clauses a landlord has violated.",
+      body: [
+        "H. Roske & Associates LLP was a commercial tenant of ESRT Empire State Building LLC. It sued its landlord in New York County Supreme Court (Index No. 655283/24), asserting a claim for constructive eviction and a claim that the landlord had breached the lease. Justice Lyle E. Frank granted the landlord's motion to dismiss the complaint, and judgment was entered on June 6, 2025. The tenant appealed.",
+        "In a short unanimous decision dated October 6, 2026, a four-justice panel of the First Department affirmed on several independent grounds. First, the court found that the tenant had expressly waived its constructive eviction rights in the lease, which by itself barred the claim. The panel relied on recent and older First Department precedent holding that a commercial tenant who gives up constructive eviction remedies in its lease cannot later sue on that theory.",
+        "Second, the court held that even if there had been no waiver, the claim was inadequately pleaded. Under the long-standing Court of Appeals standard, constructive eviction requires that the landlord's conduct have substantially and materially deprived the tenant of the beneficial use and enjoyment of the premises. The panel found that neither the complaint nor the tenant's affidavits explained how that threshold was met. Third, the court held that the separate breach-of-lease claim was properly dismissed because the tenant did not point to any specific lease provision the landlord had violated. Having resolved the appeal on those grounds, the court did not reach the parties' other arguments.",
+        "Constructive eviction matters in commercial leasing because it is one of the main theories a tenant can invoke when building conditions interfere with its business, and landlords commonly try to contract around it. This decision confirms that the First Department will enforce an express waiver of the remedy as written and will do so at the motion-to-dismiss stage, before any factual record is developed. The court's alternative holding adds a second hurdle: even an unwaived claim must be pleaded with specifics showing a substantial and material loss of use, not general dissatisfaction with the premises.",
+        "For owners and asset managers, the practical point is that a clear waiver of constructive eviction can dispose of a tenant's suit on a motion to dismiss, saving the cost of discovery over building conditions. For tenants and their counsel, the decision underscores two lessons: negotiate the waiver, or at least carve out serious interruptions of service or access, before signing; and when suing, tie each breach claim to an identified lease covenant and plead concrete facts showing how much of the premises became unusable and for how long. Generalized complaints about building conditions, without that detail, are unlikely to survive in the First Department."
+      ],
+      tags: ["constructive eviction", "lease waiver", "office lease", "manhattan", "motion to dismiss"],
+      parties: [
+        { name: "H. Roske & Associates LLP", role: "Plaintiff-Appellant (Tenant)" },
+        { name: "ESRT Empire State Building LLC", role: "Defendant-Respondent (Landlord)" }
+      ],
+      judge: "Lyle E. Frank",
+      amountUsd: null,
+      timeline: [
+        { when: "June 6, 2025", label: "New York County Supreme Court dismisses the tenant's complaint" },
+        { when: "October 6, 2026", label: "Appellate Division, First Department unanimously affirms", current: true }
+      ]
+    },
+    {
+      id: "live-270",
+      addedDate: "2026-10-13",
+      title: "5 Beekman Property Owner, LLC v. Henick-Lane, Inc.: Owner Ordered to Return $850,000 Insurer Paid on a Settlement That Never Closed",
+      category: "construction-defect",
+      status: "ruling",
+      date: "2026-10-06",
+      jurisdiction: "New York Supreme Court, Appellate Division, First Department",
+      state: "NY",
+      amount: "$850,000 judgment plus prejudgment interest",
+      source: "live",
+      sourceUrl: "https://www.nycourts.gov/reporter/current/3dseries/2026/2026_05712.shtml",
+      summary: "On October 6, 2026, New York's Appellate Division, First Department unanimously affirmed an $850,000 judgment, plus prejudgment interest, requiring 5 Beekman Property Owner, LLC and Broadway Construction Group, LLC to return money that HVAC contractor Henick-Lane, Inc.'s insurer paid them under the mistaken belief that their defective-HVAC suit had settled. The court also upheld a civil contempt finding against the plaintiffs for failing to turn the money over.",
+      significance: "Owners and general contractors pursuing construction-defect claims cannot keep insurer money paid on a settlement that was never finalized, and refusing a court order to return it can bring contempt. The decision also shows that a check marked as a settlement payment is enough of a reservation to defeat the voluntary payment doctrine, protecting contractors and their carriers from overpayment during negotiations.",
+      body: [
+        "The underlying case, filed in New York County Supreme Court under Index No. 657290/19, concerns an HVAC system that Henick-Lane, Inc. installed at property owned by 5 Beekman Property Owner, LLC. The owner and Broadway Construction Group, LLC allege the system leaked, damaging the owner's property and forcing them to spend money containing the damage, and they sued for breach of contract. Henick-Lane counterclaimed for nonpayment and to foreclose a mechanic's lien. Those claims remain pending.",
+        "While the parties were negotiating, one of Henick-Lane's insurers, apparently believing a deal had been reached, sent $850,000 to Broadway Construction Group even though no final settlement agreement existed. The check described itself as a settlement payment on behalf of Henick-Lane. Justice Andrew Borrok ordered the plaintiffs to give the money back with interest, later held them in civil contempt for not doing so, and entered judgment against them on December 11, 2025 for $850,000 plus prejudgment interest. The plaintiffs appealed the judgment and the contempt order.",
+        "The First Department affirmed across the board. On procedure, it held that the judgment brought up the earlier disgorgement order for review under the doctrine of implied severance, because the fight over the mistaken payment was separate from the HVAC defect, nonpayment and lien claims still in the case. On standing, which the plaintiffs raised for the first time on appeal, the court held Henick-Lane had a real stake in the money because its insurer paid on its behalf out of a policy Henick-Lane paid for, and it was injured when the plaintiffs kept funds without a settlement.",
+        "On the merits, the court rejected the plaintiffs' reliance on the voluntary payment doctrine, which bars recovering money paid voluntarily with full knowledge of the facts. The panel reasoned that the insurer had effectively reserved its rights by labeling the check a settlement payment, and because no settlement existed, the payment rested on a mistake rather than a knowing choice. The court also upheld the contempt finding. Although New York's Judiciary Law does not allow contempt to enforce a money judgment, no judgment existed when the contempt order issued, and the court rejected Broadway Construction Group's argument that it could not be held in contempt because the disgorgement order did not name it, noting the plaintiffs' own representative said both plaintiffs received and deposited the check.",
+        "For owners, developers and general contractors, the decision draws a firm line: a payment from the other side's carrier during settlement talks is not money in hand until the settlement is actually signed, and keeping it once the court orders its return can lead to contempt sanctions on top of a judgment with interest. For contractors and insurers, the case shows the value of describing every payment's purpose on its face, which preserves the ability to recover it if the deal falls apart. The underlying defect and lien claims will continue in the trial court, so the merits of the HVAC dispute remain open."
+      ],
+      tags: ["hvac defect", "mechanics lien", "settlement", "contempt", "insurer payment"],
+      parties: [
+        { name: "5 Beekman Property Owner, LLC", role: "Plaintiff-Appellant (Owner)" },
+        { name: "Broadway Construction Group, LLC", role: "Plaintiff-Appellant" },
+        { name: "Henick-Lane, Inc.", role: "Defendant-Respondent (HVAC Contractor)" }
+      ],
+      judge: "Andrew Borrok",
+      amountUsd: 850000,
+      amountBasis: "judgment",
+      timeline: [
+        { when: "2019", label: "Owner and Broadway Construction Group sue HVAC contractor over leaking system (Index No. 657290/19); contractor counterclaims to foreclose mechanic's lien" },
+        { when: "October 29, 2025", label: "Trial court holds plaintiffs in civil contempt for not returning the $850,000" },
+        { when: "December 11, 2025", label: "Judgment entered against plaintiffs for $850,000 plus prejudgment interest" },
+        { when: "October 6, 2026", label: "Appellate Division, First Department unanimously affirms judgment and contempt order", current: true }
+      ]
     }
   ],
 
