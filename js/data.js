@@ -8412,6 +8412,164 @@ const RELAW_DATA = {
       ],
       judge: null,
       amountUsd: null
+    },
+    {
+      id: "live-275",
+      addedDate: "2026-10-13",
+      title: "City of San Antonio v. U.S. Department of Homeland Security: City Sues Under NEPA to Halt Conversion of 640,000-SF East Side Warehouse Into ICE Detention Center",
+      category: "environmental",
+      status: "filed",
+      date: "2026-10-13",
+      jurisdiction: "U.S. District Court, Western District of Texas",
+      state: "TX",
+      amount: "Injunctive relief; warehouse bought for $66.1 million",
+      source: "live",
+      sourceUrl: "https://www.tpr.org/government-politics/2026-10-13/san-antonio-takes-dhs-ice-to-court-over-planned-eastside-detention-facility",
+      docketUrl: "https://www.courtlistener.com/docket/74952112/city-of-san-antonio-v-mullin-secretary-of-us-department-of-homeland/",
+      docketLabel: "CourtListener docket",
+      propertyType: "Industrial",
+      summary: "The City of San Antonio sued the U.S. Department of Homeland Security and U.S. Immigration and Customs Enforcement in federal court in San Antonio on October 13, 2026 (Case No. 5:26-cv-06542). The city wants to stop federal plans to turn a nearly 640,000-square-foot industrial warehouse on the city's East Side into a detention and processing center for up to 1,500 people. The city argues that the agencies have not done the environmental review the National Environmental Policy Act requires. It asks the court to bar further development until that review is complete.",
+      significance: "The case tests whether a city can use NEPA and the Administrative Procedure Act to delay a federal agency's purchase and conversion of a large private industrial building that it had no zoning power to block. For industrial owners and brokers, it shows that a sale to a federal user can lead to litigation over what happens on the site after closing. Neighboring owners and lenders also get an early read on how courts handle impact studies of water, wastewater, power and emergency services when federal reuse changes a site's load on local infrastructure.",
+      body: [
+        "The property is the Oakmont 410 industrial warehouse at 542 SE Loop 410 Access Road on San Antonio's East Side. Texas Public Radio reports that the building is about 640,000 square feet and that ICE bought it early in 2026 for $66.1 million. In August, ICE hired a federal services contractor to renovate the building into a processing and detention facility. Texas Public Radio puts that contract at $17.3 million. Local reporting says the facility would hold up to 1,500 people and that ICE expects to open it this winter.",
+        "The city filed its complaint on Tuesday, October 13, 2026, in the Western District of Texas. The CourtListener docket lists the case as an Administrative Procedure Act action with an environmental-matters nature of suit. The defendants are the Department of Homeland Security, its Secretary in an official capacity, and ICE leadership. The city's central claim is that the agencies went ahead with a major federal project without the analysis NEPA requires. That analysis would cover physical environmental effects and socioeconomic effects on the nearby neighborhoods. The city says the suit does not challenge federal immigration enforcement authority.",
+        "The city wants an order barring DHS and ICE from continuing development until they finish the required environmental review. City officials told reporters that the city sent five letters to federal officials starting in February asking for details about the project. They said DHS answered once, in June, promising coordination and reports, and the city never received the promised material. The week before the suit, the city council told city departments and the city-owned water and power utilities to study what the facility would mean for their services. According to Texas Public Radio, the city attorney expects a preliminary environmental assessment to find significant effects, which could require a full environmental impact statement taking months.",
+        "Local coverage cited a similar NEPA challenge to an ICE project in Maryland that led a federal judge to pause that project. No judge has ruled on San Antonio's request. Reporting on the filing does not name a judge or a hearing date. DHS did not respond to Texas Public Radio before publication. Other outlets reported that the agency called the suit politically motivated. One council member estimated the litigation could cost the city $500,000 or more.",
+        "Procedurally, the case is a first-day filing. The city will probably seek preliminary relief before the renovation goes much further. The federal government will probably argue that the warehouse conversion is exempt from full NEPA review, or that the city lacks standing to sue. Because this is an APA case, the court will likely decide it on the administrative record rather than through broad discovery.",
+        "For industrial owners, the main lesson is that selling to a federal agency does not end exposure to disputes over the property. A purchase by an agency can still bring federal environmental-review claims from local governments, even when local zoning cannot block the use. Owners and lenders near a planned federal reuse should watch this case for how courts weigh infrastructure load and neighborhood effects under NEPA. Developers proposing large changes of use next to federal sites should budget for the delays that this kind of procedural challenge can cause."
+      ],
+      tags: ["nepa", "industrial", "federal property", "warehouse conversion", "texas"],
+      parties: [
+        { name: "City of San Antonio", role: "Plaintiff" },
+        { name: "United States Department of Homeland Security", role: "Defendant" },
+        { name: "U.S. Immigration and Customs Enforcement", role: "Defendant" }
+      ],
+      judge: null,
+      amountUsd: null,
+      timeline: [
+        { when: "January 2026", label: "ICE acquires the roughly 640,000-square-foot East Side warehouse" },
+        { when: "August 2026", label: "ICE awards renovation contract to convert the warehouse into a detention and processing facility" },
+        { when: "October 13, 2026", label: "City of San Antonio files NEPA/APA suit in the Western District of Texas", current: true }
+      ]
+    },
+    {
+      id: "live-276",
+      addedDate: "2026-10-13",
+      title: "Silver Fox 606 LLC v. Village of Indiantown: Data Center Developer Sues to Lock In Recorded Plat on 606-Acre Martin County Site",
+      category: "zoning-land-use",
+      status: "filed",
+      date: "2026-10-07",
+      jurisdiction: "Florida Circuit Court, Nineteenth Judicial Circuit, Martin County",
+      state: "FL",
+      amount: "Declaratory and injunctive relief and a writ of prohibition; developer says it has spent more than $25 million on the project",
+      source: "live",
+      sourceUrl: "https://cbs12.com/news/local/data-center-developer-sues-indiantown-alleges-village-is-illegally-blocking-25m-project-indiantown-martin-county-data-center-silver-fox-606-llc-data-center-lawsuit-25-million-project-village-of-indiantown-village-council-planning-board-data",
+      propertyType: "Data Center",
+      summary: "Silver Fox 606 LLC, which owns 606 acres zoned Heavy Industrial in Indiantown, Florida, filed a complaint and verified petition for a writ of prohibition in Martin County circuit court on October 7, 2026. The suit names the Village of Indiantown, its village council and its Planning, Zoning and Appeals Board. The developer says the village is improperly trying to undo a plat for its data center project that was administratively approved and recorded. It asks the court to bar the zoning board from hearing a citizen appeal of the plat. It also seeks declarations that the plat is final, and it raises a Sunshine Law claim against the council.",
+      significance: "The case is an early test of Florida's 2025-2026 amendments to Section 177.071 of the Florida Statutes. Those amendments make plat approval a ministerial act decided by a designated administrative official instead of an elected body. The developer argues that a recorded plat cannot be vacated without the owner's consent. If the court agrees, developers of data centers and other contested by-right projects in Florida would have a strong defense against moratoriums imposed after a local election and against late appeals that work as automatic stop-work orders.",
+      body: [
+        "The property is 606.48 acres at 13820 SW Silver Fox Lane in the Village of Indiantown in Martin County. It is zoned Heavy Industrial. According to the complaint, the village amended its land development regulations in November 2020 to make computer and data processing facilities a permitted use as of right in that district. A few years later, the village helped market itself to data center users. Silver Fox says it bought the land in 2025 after village staff confirmed that a data center was allowed by right. It says it has since spent more than $25 million developing the project.",
+        "According to the complaint, candidates in the village's August 18, 2026 municipal election campaigned on pausing or banning data centers. The new council was sworn in on August 27. On September 1, the council held a special meeting on a proposed data center moratorium resolution but did not adopt it. At the same meeting, the council removed the village manager and the village attorney. Silver Fox alleges this was retaliation for their advice that the proposed ban was unlawful. It also alleges that council members discussed those changes outside a public meeting, in violation of Florida's Sunshine Law.",
+        "The plat is the core of the dispute. The complaint says the village's community and economic development director approved Silver Fox's plat application on September 2, 2026, under authority the council had delegated by resolution in 2025. The plat was recorded on September 17 in Martin County Plat Book 24, Page 19. On October 1, a local resident filed an administrative appeal asking the Planning, Zoning and Appeals Board to revisit the approval. Under the village's code, a pending appeal can act as a stop-work order on the whole project. Silver Fox says the appeal was filed late under the code's 30-day deadline and was not properly notarized. It also argues that the board has no jurisdiction because state law makes the administrative plat decision final and bars a local government from vacating a recorded plat without the owner's consent.",
+        "The complaint has three counts. The first seeks declaratory and injunctive relief that the plat is final and cannot be revisited. The second is the Sunshine Law claim against the council. The third is a verified petition for a writ of prohibition directed at the zoning board. Silver Fox asks the court to issue an order to show cause that would stay the board's appeal and stop it from being used to halt development, and then to make the writ permanent. The resident appellant and the resident's representative are named only as respondents to the prohibition petition. The complaint also raises vested-rights and equitable-estoppel arguments based on the village's earlier marketing and its staff's confirmations.",
+        "Local news first reported the case on October 12. No response from the village appears in that coverage, and no ruling has been reported. The court's first step will be deciding whether to issue the order to show cause, which would effectively stay the administrative appeal while the case proceeds.",
+        "For developers, the case shows why it matters to secure ministerial approvals and to record them before local politics change. It also shows how much the new Florida plat statute could matter in contested projects. Owners of by-right industrial land should keep records of written zoning verifications and public statements recruiting their use, because those records support estoppel and vested-rights claims. Lenders financing data center land should check whether local codes let a pending administrative appeal automatically stop work, since that can cause delays that no zoning approval protects against."
+      ],
+      tags: ["data center", "plat approval", "vested rights", "sunshine law", "florida"],
+      parties: [
+        { name: "Silver Fox 606 LLC", role: "Plaintiff/Petitioner" },
+        { name: "Village of Indiantown", role: "Defendant" },
+        { name: "Indiantown Village Council", role: "Defendant" },
+        { name: "Village of Indiantown Planning, Zoning and Appeals Board", role: "Respondent" }
+      ],
+      judge: null,
+      amountUsd: null,
+      timeline: [
+        { when: "September 1, 2026", label: "New village council considers a data center moratorium and removes the village manager and village attorney" },
+        { when: "September 2, 2026", label: "Village director administratively approves the Silver Fox plat" },
+        { when: "September 17, 2026", label: "Plat recorded in Martin County Plat Book 24, Page 19" },
+        { when: "October 1, 2026", label: "Resident files administrative appeal of the plat approval" },
+        { when: "October 7, 2026", label: "Silver Fox files complaint and verified petition for writ of prohibition", current: true }
+      ]
+    },
+    {
+      id: "live-277",
+      addedDate: "2026-10-13",
+      title: "In re AZ 175th Street LLC: Queens Mixed-Use Owner Files Second Chapter 11 After First Case Was Dismissed With a Refiling Bar",
+      category: "lending-foreclosure",
+      status: "filed",
+      date: "2026-10-10",
+      jurisdiction: "U.S. Bankruptcy Court, Eastern District of New York",
+      state: "NY",
+      amount: "$12.6 million in reported liabilities against $14 million in reported assets",
+      source: "live",
+      sourceUrl: "https://bondoro.com/az-175th-street-filing-alert/",
+      docketUrl: "https://www.courtlistener.com/docket/74948724/az-175th-street-llc/",
+      docketLabel: "CourtListener docket",
+      propertyType: "Mixed-Use",
+      summary: "AZ 175th Street LLC, which owns a mixed-use building at 91-10/91-14 175th Street in Jamaica, Queens, filed a voluntary Chapter 11 petition in the Eastern District of New York on October 10, 2026 (Case No. 26-44763). The petition reports about $14 million in assets and $12.6 million in liabilities. It is the owner's second Chapter 11 case: the first, filed in May 2025 as a single-asset real estate case, was dismissed in October 2025 on the secured creditor's motion, and the order barred the debtor from filing again for 180 days.",
+      significance: "A repeat filing by a single-asset owner whose first case ended in a consensual dismissal with a refiling bar shows how borrowers use the automatic stay to interrupt a lender's enforcement again once the bar expires. Lenders holding loans on small New York mixed-use and multifamily assets should expect a renewed bad-faith dismissal or stay-relief motion. The first case's history should strengthen that motion, but a second round still means more delay and more legal costs.",
+      body: [
+        "AZ 175th Street LLC is the single-purpose owner of a mixed-use property at 91-10/91-14 175th Street in the Jamaica section of Queens. On October 10, 2026, it filed a voluntary Chapter 11 petition in the U.S. Bankruptcy Court for the Eastern District of New York, where the case was docketed as No. 1-26-44763. A filing alert published October 12 by the bankruptcy tracker Bondoro says the petition lists roughly $14 million in assets and $12.6 million in liabilities, and that the debtor expects funds to be available for unsecured creditors. As of October 13, the public docket showed only the petition and a notice of the debtor's prior filings.",
+        "This is the second time the owner has sought bankruptcy protection. The first case, No. 1-25-42550, was filed on May 23, 2025. A week later the debtor refiled the petition's front pages to designate the case as a single-asset real estate case. Single-asset status speeds up the timeline: unless the debtor files a feasible plan or begins paying interest on time, the secured lender can obtain relief from the automatic stay.",
+        "The principal opposing creditor in the first case was UC 175th Street Apartments Holder, LLC. Its counsel appeared within days of the filing. On June 18, 2025, it moved to dismiss the case as a bad-faith filing or, in the alternative, for relief from the automatic stay. One of the supporting papers was an affirmation from a person acting as receiver, which indicates that a receiver was already involved with the property before the bankruptcy. After several adjournments, the debtor filed a statement on September 8, 2025 consenting to dismissal. At a September 12, 2025 hearing the court granted the motion on consent, with a 180-day bar on refiling. The dismissal order was signed October 8, 2025, and the bar ran into April 2026. The first case was formally closed on April 16, 2026.",
+        "The new petition came about six months after that bar ran out. The public docket does not yet show a first-day motion, a cash collateral request, or an appearance by the lender. The petition's details about secured debt are behind PACER's paywall and are not described here. Nothing reviewed for this entry says whether a foreclosure sale or another enforcement step was scheduled just before the refiling.",
+        "Under the Bankruptcy Code, a debtor's earlier dismissal with a refiling bar does not on its own block a later case once the bar has expired. Courts may still consider the earlier case when they decide whether a new petition was filed in good faith. In a single-asset case, a lender can also seek stay relief under the special single-asset provision if the debtor misses the deadline to file a confirmable plan or to begin monthly interest payments. A debtor that already consented to dismissal once will have a harder time showing that a second filing has a realistic path to reorganization.",
+        "For lenders and special servicers holding loans on small New York mixed-use and multifamily assets, the takeaway is to plan for repeat filings. A dismissal on consent with a 180-day bar buys time, but it does not end the risk of bankruptcy. Lenders should calendar when a bar expires and be ready to move quickly for in rem relief, which can bind the property itself in later cases. Pressing for an in rem order or a longer bar the first time around can head off a second stay. Buyers and tenants dealing with the Jamaica property should assume that title and control remain in dispute until the bankruptcy court rules on what will likely be another round of dismissal or stay-relief motions."
+      ],
+      tags: ["chapter 11", "single asset real estate", "repeat filing", "queens", "mixed-use"],
+      parties: [
+        { name: "AZ 175th Street LLC", role: "Debtor" },
+        { name: "UC 175th Street Apartments Holder, LLC", role: "Creditor (movant in prior case)" }
+      ],
+      judge: null,
+      amountUsd: null,
+      timeline: [
+        { when: "May 23, 2025", label: "First Chapter 11 petition filed (No. 1-25-42550), later designated single-asset real estate" },
+        { when: "June 18, 2025", label: "UC 175th Street Apartments Holder, LLC moves to dismiss as bad-faith filing or for stay relief" },
+        { when: "September 12, 2025", label: "Dismissal granted on consent with 180-day refiling bar" },
+        { when: "October 8, 2025", label: "Order dismissing case and barring refiling signed" },
+        { when: "April 16, 2026", label: "First case closed" },
+        { when: "October 10, 2026", label: "Second Chapter 11 petition filed (No. 1-26-44763)", current: true }
+      ]
+    },
+    {
+      id: "live-278",
+      addedDate: "2026-10-13",
+      title: "Merchants Bank of Indiana v. GRV Jackson Park LLC: $6.4M Foreclosure on Three South Side Chicago Apartment Buildings",
+      category: "lending-foreclosure",
+      status: "filed",
+      date: "2026-10-10",
+      jurisdiction: "Circuit Court of Cook County, Illinois",
+      state: "IL",
+      amount: "$6.4 million in two loan facilities",
+      source: "live",
+      sourceUrl: "https://therealdeal.com/chicago/2026/10/10/merchants-bank-files-suit-against-patel-wolkowicki/",
+      propertyType: "Multifamily",
+      summary: "Merchants Bank of Indiana has filed a foreclosure complaint, reported on October 10, 2026 as filed earlier in October, in Cook County Circuit Court against borrower GRV Jackson Park LLC, seeking to foreclose on three apartment buildings in Chicago's South Shore and Jackson Park areas. The suit covers two loan facilities totaling $6.4 million made in June 2024, on which the borrower allegedly stopped making monthly payments in March 2025. The complaint also names the venture's two principals under their unconditional guaranties and seeks to hold them liable for any deficiency.",
+      significance: "The case adds to a series of creditor actions against one South Side multifamily portfolio whose owners are already suing each other. It shows how a lender's collateral can deteriorate when an owner group breaks down: the complaint describes sewage backups, fire damage and a city-ordered evacuation, and the lender has been paying for boiler replacements itself. It also comes from a lender that has disclosed large multifamily charge-offs tied to suspected mortgage fraud, which makes the case a useful marker for distressed Chicago apartment debt.",
+      body: [
+        "Merchants Bank of Indiana has sued in the Circuit Court of Cook County to foreclose on three South Side Chicago apartment properties owned by GRV Jackson Park LLC. The properties are 6750-52 South Merrill Avenue (also known as 2116-20 East 68th Street), 6952-58 South Paxton Avenue and 6920-30 South Oglesby Avenue, in the South Shore and Jackson Park neighborhoods. The Real Deal reported the suit on October 10, 2026 and said it was filed earlier in October. The article does not give an exact filing date.",
+        "According to the complaint as reported, the bank made two loan facilities totaling $6.4 million to GRV Jackson Park LLC in June 2024. The borrower allegedly stopped making its required monthly payments in March 2025. Besides foreclosure, the bank names the venture's two principals as defendants under the unconditional guaranties they signed when the loans closed. The bank seeks to hold them responsible for any shortfall after a sale.",
+        "The complaint describes serious physical problems at the buildings, including raw sewage backups, standing water and fire damage. In April 2025, city officials obtained a court order to evacuate and secure the Paxton Avenue building. The bank says it made protective advances to replace boilers. Under Illinois mortgage foreclosure practice, those advances typically become part of the secured debt.",
+        "The case is one of several fights over the same owner group's portfolio. Its two principals are in separate litigation with each other, with competing claims of diverted funds and a forfeited equity stake across dozens of properties. Counsel for one principal told the publication that his client had resigned as manager of the borrowing LLC before the March 2025 default and the alleged code violations, and that an affiliate of the other principal, Ruby Development Group LLC, took over management. The bank's position, as reported, is that a change in manager does not affect the guaranties both principals signed at closing.",
+        "The lender's own situation adds context. The publication reported that Merchants Bank disclosed $124.1 million in charge-offs in 2025, about 70 percent of it tied to five borrower relationships linked to suspected multifamily mortgage fraud. The article does not say whether this borrower group is one of the five. It reported that the bank's provision for credit losses fell sharply by the second quarter of 2026.",
+        "For lenders on small and mid-size multifamily loans, the case highlights several practical points. Protective advances for life-safety items such as boilers can be necessary to preserve collateral, but they increase the exposure a sale must cover. Recovery on guaranties may depend on the guarantors' finances and on any defenses that come out of their dispute with each other. A guarantor's argument that he left the borrower's management before the default will usually not defeat an unconditional guaranty, but it can slow collection. Buyers watching Cook County foreclosure dockets should expect these buildings to need significant capital before they are habitable and stable."
+      ],
+      tags: ["foreclosure", "multifamily", "chicago", "guaranty", "cook county"],
+      parties: [
+        { name: "Merchants Bank of Indiana", role: "Plaintiff/Lender" },
+        { name: "GRV Jackson Park LLC", role: "Defendant/Borrower" }
+      ],
+      judge: null,
+      amountUsd: 6400000,
+      amountBasis: "loan",
+      timeline: [
+        { when: "June 2024", label: "Merchants Bank of Indiana makes two loan facilities totaling $6.4 million to GRV Jackson Park LLC" },
+        { when: "March 2025", label: "Borrower allegedly stops making monthly payments" },
+        { when: "April 2025", label: "City obtains court order to evacuate and secure the Paxton Avenue building" },
+        { when: "October 10, 2026", label: "Foreclosure suit in Cook County Circuit Court reported (filed earlier in October)", current: true }
+      ]
     }
   ],
 
