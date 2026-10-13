@@ -62,7 +62,7 @@ tail = tail.replace(/<script src="js\/data(?:-lite)?\.js"><\/script>\s*<script>[
   .replace(/<script src="js\/(glossary-tooltip|trending|search)\.js"><\/script>\s*/g, "")
   .replace(/\s*<a href="alert-log\.html" class="active">/, '\n        <a href="alert-log.html">');
 if (/js\/data(?:-lite)?\.js/.test(tail)) throw new Error("template tail still loads the dataset");
-tail = tail.replace("<script src=\"js/main.js\"></script>", '<script src="js/main.js"></script>\n<script src="js/matter-page.js"></script>');
+tail = tail.replace("<script src=\"js/main.js\"></script>", '<script src="js/main.js"></script>\n<script src="js/matter-page.js"></script>\n<script src="js/newsletter-form.js"></script>');
 head = absolutize(head);
 tail = absolutize(tail);
 
@@ -216,21 +216,32 @@ function mainFor(c: Case): string {
 
     <div id="matter-court" data-docket-url="${esc(c.docketUrl || "")}" data-matter-id="${esc(c.id)}"></div>
 
+    ${follow ? `<div class="card matter-cta matter-top-cta" data-follow-box data-follow="${esc(JSON.stringify(follow))}">
+      <div class="eyebrow">Alerts</div>
+      <h2 class="matter-h2">Email me when the court rules in this case</h2>
+      <p class="text-secondary">We check this federal docket every day. One email when an order, judgment, dismissal or closing appears. Free account; stop any time.</p>
+      <form class="gate-form" data-follow-form novalidate>
+        <label class="sr-only" for="follow-email">Email address</label>
+        <input type="email" id="follow-email" autocomplete="email" placeholder="you@company.com" />
+        <button type="submit" class="btn btn-primary btn-sm">Follow this case</button>
+      </form>
+      <p class="gate-form-status" data-follow-status role="status"></p>
+    </div>` : `<div class="card matter-cta matter-top-cta">
+      <div class="eyebrow">Weekly email</div>
+      <h2 class="matter-h2">New on CREdocket, every Monday</h2>
+      <p class="text-secondary">The week's new commercial real estate lawsuits, rulings in cases we follow, and market signals. Free; unsubscribe in one click.</p>
+      <form class="gate-form" data-newsletter-form novalidate>
+        <label class="sr-only" for="matter-nl-email">Email address</label>
+        <input type="email" id="matter-nl-email" autocomplete="email" placeholder="you@company.com" />
+        <button type="submit" class="btn btn-primary btn-sm">Subscribe</button>
+      </form>
+      <p class="gate-form-status" data-newsletter-status role="status"></p>
+    </div>`}
+
     ${hasMore ? `${first ? `<div class="gate-teaser matter-teaser"><p class="body-text">${first}</p></div>` : ""}
     ${latest ? `<p class="gate-timeline-peek"><span>Case timeline · ${tl.length} ${tl.length === 1 ? "entry" : "entries"}</span> Latest: ${latest.when} — ${latest.label}</p>` : ""}` : ""}
 
     <div class="matter-cta-row">
-      ${follow ? `<div class="card matter-cta" data-follow-box data-follow="${esc(JSON.stringify(follow))}">
-        <div class="eyebrow">Alerts</div>
-        <h2 class="matter-h2">Email me when the court rules in this case</h2>
-        <p class="text-secondary">We check this federal docket every day. One email when an order, judgment, dismissal or closing appears. Free account; stop any time.</p>
-        <form class="gate-form" data-follow-form novalidate>
-          <label class="sr-only" for="follow-email">Email address</label>
-          <input type="email" id="follow-email" autocomplete="email" placeholder="you@company.com" />
-          <button type="submit" class="btn btn-primary btn-sm">Follow this case</button>
-        </form>
-        <p class="gate-form-status" data-follow-status role="status"></p>
-      </div>` : ""}
       ${hasMore ? `<div class="card matter-cta" id="matter-keep-reading" data-case-id-target="${esc(c.id)}">
         <div class="eyebrow">Free · no account needed</div>
         <h2 class="matter-h2">Keep reading</h2>
