@@ -156,11 +156,22 @@
 
     <div id="matter-court" data-docket-url="https://search.txcourts.gov/Case.aspx?cn=24-0447&amp;coa=cossup" data-matter-id="live-119"></div>
 
+    <div class="card matter-cta matter-top-cta">
+      <div class="eyebrow">Weekly email</div>
+      <h2 class="matter-h2">New on CREdocket, every Monday</h2>
+      <p class="text-secondary">The week's new commercial real estate lawsuits, rulings in cases we follow, and market signals. Free; unsubscribe in one click.</p>
+      <form class="gate-form" data-newsletter-form novalidate>
+        <label class="sr-only" for="matter-nl-email">Email address</label>
+        <input type="email" id="matter-nl-email" autocomplete="email" placeholder="you@company.com" />
+        <button type="submit" class="btn btn-primary btn-sm">Subscribe</button>
+      </form>
+      <p class="gate-form-status" data-newsletter-status role="status"></p>
+    </div>
+
     <div class="gate-teaser matter-teaser"><p class="body-text">The dispute traces back more than a decade, to when the Texas Department of Transportation moved to acquire land along Mueschke Road in Tomball, part of the Grand Parkway (State Highway 99) corridor northwest of Houston. After negotiations, the landowners conveyed the property to the state in exchange for compensation, and TxDOT's condemnation suit was resolved without proceeding to judgment. Years later, TxDOT rerouted the Mueschke Road improvement, and the agency's own personnel acknowledged that roughly 20,000 square feet of the acquired tract had become surplus -- no longer necessary for the highway project it was taken for.</p></div>
     <p class="gate-timeline-peek"><span>Case timeline · 5 entries</span> Latest: June 12, 2026 — The Texas Supreme Court affirms, holding the State is not immune from the repurchase suit and remanding for further proceedings</p>
 
     <div class="matter-cta-row">
-      
       <div class="card matter-cta" id="matter-keep-reading" data-case-id-target="live-119">
         <div class="eyebrow">Free · no account needed</div>
         <h2 class="matter-h2">Keep reading</h2>
@@ -268,6 +279,7 @@
 
 <script src="/js/main.js"></script>
 <script src="/js/matter-page.js"></script>
+<script src="/js/newsletter-form.js"></script>
 <script src="/js/track.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script>
 <script src="/js/supabase-client.js"></script>

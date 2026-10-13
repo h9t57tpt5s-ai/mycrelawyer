@@ -156,11 +156,22 @@
 
     <div id="matter-court" data-docket-url="https://search.txcourts.gov/Case.aspx?cn=04-24-00371-CV&amp;coa=coa04" data-matter-id="live-120"></div>
 
+    <div class="card matter-cta matter-top-cta">
+      <div class="eyebrow">Weekly email</div>
+      <h2 class="matter-h2">New on CREdocket, every Monday</h2>
+      <p class="text-secondary">The week's new commercial real estate lawsuits, rulings in cases we follow, and market signals. Free; unsubscribe in one click.</p>
+      <form class="gate-form" data-newsletter-form novalidate>
+        <label class="sr-only" for="matter-nl-email">Email address</label>
+        <input type="email" id="matter-nl-email" autocomplete="email" placeholder="you@company.com" />
+        <button type="submit" class="btn btn-primary btn-sm">Subscribe</button>
+      </form>
+      <p class="gate-form-status" data-newsletter-status role="status"></p>
+    </div>
+
     <div class="gate-teaser matter-teaser"><p class="body-text">In 2003, the City of San Antonio and Toyota Motor Manufacturing Texas entered into the Project Starbright Agreement to bring Toyota's manufacturing plant to newly annexed land on the city's South Side. A companion City Agreement required San Antonio to work in good faith with Toyota on zoning within a three-mile 'Enhanced Zoning Area' surrounding the plant. San Antonio subsequently approved a series of ordinances implementing that framework, including a 2004 rezoning of a 97-acre tract then owned by Presto Tierra LLC and a further 2017 rezoning of the same tract. Presto Tierra sold the property to Southside Affordable Development, LLC in June 2017.</p></div>
     <p class="gate-timeline-peek"><span>Case timeline · 6 entries</span> Latest: July 16, 2025 — The Fourth Court of Appeals reverses, holding Southside lacks standing, and dismisses the case with prejudice</p>
 
     <div class="matter-cta-row">
-      
       <div class="card matter-cta" id="matter-keep-reading" data-case-id-target="live-120">
         <div class="eyebrow">Free · no account needed</div>
         <h2 class="matter-h2">Keep reading</h2>
@@ -268,6 +279,7 @@
 
 <script src="/js/main.js"></script>
 <script src="/js/matter-page.js"></script>
+<script src="/js/newsletter-form.js"></script>
 <script src="/js/track.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script>
 <script src="/js/supabase-client.js"></script>

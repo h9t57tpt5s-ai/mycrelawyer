@@ -156,11 +156,22 @@
 
     <div id="matter-court" data-docket-url="" data-matter-id="live-072"></div>
 
+    <div class="card matter-cta matter-top-cta">
+      <div class="eyebrow">Weekly email</div>
+      <h2 class="matter-h2">New on CREdocket, every Monday</h2>
+      <p class="text-secondary">The week's new commercial real estate lawsuits, rulings in cases we follow, and market signals. Free; unsubscribe in one click.</p>
+      <form class="gate-form" data-newsletter-form novalidate>
+        <label class="sr-only" for="matter-nl-email">Email address</label>
+        <input type="email" id="matter-nl-email" autocomplete="email" placeholder="you@company.com" />
+        <button type="submit" class="btn btn-primary btn-sm">Subscribe</button>
+      </form>
+      <p class="gate-form-status" data-newsletter-status role="status"></p>
+    </div>
+
     <div class="gate-teaser matter-teaser"><p class="body-text">A trial now underway in the Eighth Judicial District Court in Las Vegas may reset the boundaries of Nevada's authority to regulate groundwater across the state, with direct consequences for developers, lenders, and investors whose real estate underwriting depends on water availability. Coyote Springs Investment, LLC, the entity controlled by California's Seeno family, is seeking more than $1.5 billion, and potentially upward of $2 billion once damages are calculated, from the State of Nevada over the State Engineer's curtailment of groundwater pumping rights that the developer says destroyed the value of a planned 43,000-home city roughly 50 miles north of Las Vegas.</p></div>
     <p class="gate-timeline-peek"><span>Case timeline · 4 entries</span> Latest: July 8, 2026 — Bench trial begins in Clark County District Court before Judge Mark R. Denton</p>
 
     <div class="matter-cta-row">
-      
       <div class="card matter-cta" id="matter-keep-reading" data-case-id-target="live-072">
         <div class="eyebrow">Free · no account needed</div>
         <h2 class="matter-h2">Keep reading</h2>
@@ -264,6 +275,7 @@
 
 <script src="/js/main.js"></script>
 <script src="/js/matter-page.js"></script>
+<script src="/js/newsletter-form.js"></script>
 <script src="/js/track.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script>
 <script src="/js/supabase-client.js"></script>

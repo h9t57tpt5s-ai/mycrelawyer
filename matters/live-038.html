@@ -155,11 +155,22 @@
 
     <div id="matter-court" data-docket-url="" data-matter-id="live-038"></div>
 
+    <div class="card matter-cta matter-top-cta">
+      <div class="eyebrow">Weekly email</div>
+      <h2 class="matter-h2">New on CREdocket, every Monday</h2>
+      <p class="text-secondary">The week's new commercial real estate lawsuits, rulings in cases we follow, and market signals. Free; unsubscribe in one click.</p>
+      <form class="gate-form" data-newsletter-form novalidate>
+        <label class="sr-only" for="matter-nl-email">Email address</label>
+        <input type="email" id="matter-nl-email" autocomplete="email" placeholder="you@company.com" />
+        <button type="submit" class="btn btn-primary btn-sm">Subscribe</button>
+      </form>
+      <p class="gate-form-status" data-newsletter-status role="status"></p>
+    </div>
+
     <div class="gate-teaser matter-teaser"><p class="body-text">A bank trustee has sued to foreclose on the leasehold interest underlying a Delray Beach, Florida cancer-treatment facility, seeking to seize a pair of proton-beam linear accelerators and put the property into receivership after years of missed bond payments. The case, filed July 13 in the Fifteenth Judicial Circuit Court for Palm Beach County, shows how conduit municipal bond financing, a structure increasingly used to fund specialized healthcare real estate, can leave lenders and bondholders exposed when the underlying operating business falters, and how quickly that exposure converts into a foreclosure and receivership fight once workout options run out.</p></div>
     <p class="gate-timeline-peek"><span>Case timeline · 4 entries</span> Latest: July 13, 2026 — UMB Bank files leasehold foreclosure and receivership complaint in Palm Beach County Circuit Court</p>
 
     <div class="matter-cta-row">
-      
       <div class="card matter-cta" id="matter-keep-reading" data-case-id-target="live-038">
         <div class="eyebrow">Free · no account needed</div>
         <h2 class="matter-h2">Keep reading</h2>
@@ -267,6 +278,7 @@
 
 <script src="/js/main.js"></script>
 <script src="/js/matter-page.js"></script>
+<script src="/js/newsletter-form.js"></script>
 <script src="/js/track.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script>
 <script src="/js/supabase-client.js"></script>

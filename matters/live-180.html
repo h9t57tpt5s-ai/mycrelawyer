@@ -156,11 +156,22 @@
 
     <div id="matter-court" data-docket-url="" data-matter-id="live-180"></div>
 
+    <div class="card matter-cta matter-top-cta">
+      <div class="eyebrow">Weekly email</div>
+      <h2 class="matter-h2">New on CREdocket, every Monday</h2>
+      <p class="text-secondary">The week's new commercial real estate lawsuits, rulings in cases we follow, and market signals. Free; unsubscribe in one click.</p>
+      <form class="gate-form" data-newsletter-form novalidate>
+        <label class="sr-only" for="matter-nl-email">Email address</label>
+        <input type="email" id="matter-nl-email" autocomplete="email" placeholder="you@company.com" />
+        <button type="submit" class="btn btn-primary btn-sm">Subscribe</button>
+      </form>
+      <p class="gate-form-status" data-newsletter-status role="status"></p>
+    </div>
+
     <div class="gate-teaser matter-teaser"><p class="body-text">A Kansas developer's lawsuit accusing the City of Olathe and the Olathe public school district of misusing their eminent domain power to steer roughly 79 acres of surplus land to a politically connected buyer is moving forward in Johnson County District Court, even after the presiding judge declined this summer to freeze the underlying transaction while the case is litigated. The dispute has grown from a single eminent domain claim into a seven-count suit alleging preferential treatment, breach of good faith, and violations of the state's open meetings law, illustrating how a routine municipal land sale can generate serious commercial litigation exposure for a school district and a city acting in tandem.</p></div>
     <p class="gate-timeline-peek"><span>Case timeline · 5 entries</span> Latest: July 20, 2026 — Judge Paul Burmaster denies Cherry Park's TRO/preliminary injunction motion; underlying seven-count case continues</p>
 
     <div class="matter-cta-row">
-      
       <div class="card matter-cta" id="matter-keep-reading" data-case-id-target="live-180">
         <div class="eyebrow">Free · no account needed</div>
         <h2 class="matter-h2">Keep reading</h2>
@@ -265,6 +276,7 @@
 
 <script src="/js/main.js"></script>
 <script src="/js/matter-page.js"></script>
+<script src="/js/newsletter-form.js"></script>
 <script src="/js/track.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script>
 <script src="/js/supabase-client.js"></script>

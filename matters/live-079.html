@@ -156,11 +156,22 @@
 
     <div id="matter-court" data-docket-url="" data-matter-id="live-079"></div>
 
+    <div class="card matter-cta matter-top-cta">
+      <div class="eyebrow">Weekly email</div>
+      <h2 class="matter-h2">New on CREdocket, every Monday</h2>
+      <p class="text-secondary">The week's new commercial real estate lawsuits, rulings in cases we follow, and market signals. Free; unsubscribe in one click.</p>
+      <form class="gate-form" data-newsletter-form novalidate>
+        <label class="sr-only" for="matter-nl-email">Email address</label>
+        <input type="email" id="matter-nl-email" autocomplete="email" placeholder="you@company.com" />
+        <button type="submit" class="btn btn-primary btn-sm">Subscribe</button>
+      </form>
+      <p class="gate-form-status" data-newsletter-status role="status"></p>
+    </div>
+
     <div class="gate-teaser matter-teaser"><p class="body-text">A Sacramento County Superior Court judge has cleared the way for a neighboring business owner to pursue negligence, fraud, and punitive-damages claims against the developer and contractors behind the Mirasol Village redevelopment, in a case testing how far liability for legacy soil contamination can travel beyond a project's own boundaries. Betty Mitchell operated an indoor cannabis cultivation company, Liveade Wellness Inc., near the site of Mirasol Village, the master-planned redevelopment of the former Twin Rivers public housing project in Sacramento's River District. Mitchell alleges her cultivation operation tested positive for chlordane, a synthetic pesticide the federal government banned in 1988, despite the fact that she says the chemical was never used, stored, or introduced anywhere on her own property.</p></div>
     <p class="gate-timeline-peek"><span>Case timeline · 3 entries</span> Latest: August 2026 — Judge Richard K. Sueyoshi issues rulings allowing Mitchell's negligence, fraud, and punitive-damages claims to proceed</p>
 
     <div class="matter-cta-row">
-      
       <div class="card matter-cta" id="matter-keep-reading" data-case-id-target="live-079">
         <div class="eyebrow">Free · no account needed</div>
         <h2 class="matter-h2">Keep reading</h2>
@@ -268,6 +279,7 @@
 
 <script src="/js/main.js"></script>
 <script src="/js/matter-page.js"></script>
+<script src="/js/newsletter-form.js"></script>
 <script src="/js/track.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script>
 <script src="/js/supabase-client.js"></script>

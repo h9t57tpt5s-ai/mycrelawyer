@@ -156,11 +156,22 @@
 
     <div id="matter-court" data-docket-url="" data-matter-id="live-221"></div>
 
+    <div class="card matter-cta matter-top-cta">
+      <div class="eyebrow">Weekly email</div>
+      <h2 class="matter-h2">New on CREdocket, every Monday</h2>
+      <p class="text-secondary">The week's new commercial real estate lawsuits, rulings in cases we follow, and market signals. Free; unsubscribe in one click.</p>
+      <form class="gate-form" data-newsletter-form novalidate>
+        <label class="sr-only" for="matter-nl-email">Email address</label>
+        <input type="email" id="matter-nl-email" autocomplete="email" placeholder="you@company.com" />
+        <button type="submit" class="btn btn-primary btn-sm">Subscribe</button>
+      </form>
+      <p class="gate-form-status" data-newsletter-status role="status"></p>
+    </div>
+
     <div class="gate-teaser matter-teaser"><p class="body-text">A DuPage County, Illinois judge has placed the Addison Ice Arena, a 73,000-square-foot twin-rink sports complex in suburban Chicago, into court-ordered receivership after its lender accused the property's owner of diverting more than $1 million in facility revenue to family members while the building's roof leaked and its rink equipment fell into disrepair. The order, entered by Judge Robert G. Gibson of the 18th Judicial Circuit Court's Chancery Division, hands day-to-day control of the facility to a court-appointed receiver while a nearly $10 million foreclosure lawsuit filed by Republic Bank of Chicago plays out.</p></div>
     <p class="gate-timeline-peek"><span>Case timeline · 2 entries</span> Latest: October 3, 2026 — Court places the arena into receivership, appointing Matthew Brash of Newpoint Advisors Corporation</p>
 
     <div class="matter-cta-row">
-      
       <div class="card matter-cta" id="matter-keep-reading" data-case-id-target="live-221">
         <div class="eyebrow">Free · no account needed</div>
         <h2 class="matter-h2">Keep reading</h2>
@@ -268,6 +279,7 @@
 
 <script src="/js/main.js"></script>
 <script src="/js/matter-page.js"></script>
+<script src="/js/newsletter-form.js"></script>
 <script src="/js/track.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script>
 <script src="/js/supabase-client.js"></script>

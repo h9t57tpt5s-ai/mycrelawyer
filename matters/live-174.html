@@ -156,11 +156,22 @@
 
     <div id="matter-court" data-docket-url="" data-matter-id="live-174"></div>
 
+    <div class="card matter-cta matter-top-cta">
+      <div class="eyebrow">Weekly email</div>
+      <h2 class="matter-h2">New on CREdocket, every Monday</h2>
+      <p class="text-secondary">The week's new commercial real estate lawsuits, rulings in cases we follow, and market signals. Free; unsubscribe in one click.</p>
+      <form class="gate-form" data-newsletter-form novalidate>
+        <label class="sr-only" for="matter-nl-email">Email address</label>
+        <input type="email" id="matter-nl-email" autocomplete="email" placeholder="you@company.com" />
+        <button type="submit" class="btn btn-primary btn-sm">Subscribe</button>
+      </form>
+      <p class="gate-form-status" data-newsletter-status role="status"></p>
+    </div>
+
     <div class="gate-teaser matter-teaser"><p class="body-text">A downtown Rochester, New York hotel that the city forced to close over fire and building code violations is now facing a separate foreclosure lawsuit from its primary lender. Cogent Bank filed a foreclosure complaint in the Supreme Court of the State of New York, Monroe County, against hotel owner Nayan K. Patel and his affiliated entities, Horizon Edge Hospitality LLC and Horizon Edge Capital LP, alleging that more than $6.3 million is owed on loans secured by the Wyndham Rochester Downtown property at 32-70 State Street. The complaint reflects a debt of $6,347,940.30 as calculated on July 7, 2026, with interest and other charges continuing to accrue.</p></div>
     
 
     <div class="matter-cta-row">
-      
       <div class="card matter-cta" id="matter-keep-reading" data-case-id-target="live-174">
         <div class="eyebrow">Free · no account needed</div>
         <h2 class="matter-h2">Keep reading</h2>
@@ -268,6 +279,7 @@
 
 <script src="/js/main.js"></script>
 <script src="/js/matter-page.js"></script>
+<script src="/js/newsletter-form.js"></script>
 <script src="/js/track.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script>
 <script src="/js/supabase-client.js"></script>

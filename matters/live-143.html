@@ -155,11 +155,22 @@
 
     <div id="matter-court" data-docket-url="" data-matter-id="live-143"></div>
 
+    <div class="card matter-cta matter-top-cta">
+      <div class="eyebrow">Weekly email</div>
+      <h2 class="matter-h2">New on CREdocket, every Monday</h2>
+      <p class="text-secondary">The week's new commercial real estate lawsuits, rulings in cases we follow, and market signals. Free; unsubscribe in one click.</p>
+      <form class="gate-form" data-newsletter-form novalidate>
+        <label class="sr-only" for="matter-nl-email">Email address</label>
+        <input type="email" id="matter-nl-email" autocomplete="email" placeholder="you@company.com" />
+        <button type="submit" class="btn btn-primary btn-sm">Subscribe</button>
+      </form>
+      <p class="gate-form-status" data-newsletter-status role="status"></p>
+    </div>
+
     <div class="gate-teaser matter-teaser"><p class="body-text">A jury in Orange County, Florida has returned a verdict of more than $644.7 million against the ownership and operating entities behind Park Social, a second-story bar and lounge in Winter Park, after a patron who fell down an interior staircase in 2017 was left partially quadriplegic. The award, reported at $644,751,855.08, is among the largest premises-liability verdicts ever recorded in the United States, arriving as commercial property owners and operators nationwide already contend with rising general-liability insurance costs and an increasingly aggressive plaintiffs' bar in the premises-liability space.</p></div>
     <p class="gate-timeline-peek"><span>Case timeline · 2 entries</span> Latest: March 12, 2026 — Orange County jury returns a $644.7M verdict against Soho WP and BE-1 Concept Holdings</p>
 
     <div class="matter-cta-row">
-      
       <div class="card matter-cta" id="matter-keep-reading" data-case-id-target="live-143">
         <div class="eyebrow">Free · no account needed</div>
         <h2 class="matter-h2">Keep reading</h2>
@@ -267,6 +278,7 @@
 
 <script src="/js/main.js"></script>
 <script src="/js/matter-page.js"></script>
+<script src="/js/newsletter-form.js"></script>
 <script src="/js/track.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script>
 <script src="/js/supabase-client.js"></script>

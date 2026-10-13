@@ -155,11 +155,22 @@
 
     <div id="matter-court" data-docket-url="" data-matter-id="live-154"></div>
 
+    <div class="card matter-cta matter-top-cta">
+      <div class="eyebrow">Weekly email</div>
+      <h2 class="matter-h2">New on CREdocket, every Monday</h2>
+      <p class="text-secondary">The week's new commercial real estate lawsuits, rulings in cases we follow, and market signals. Free; unsubscribe in one click.</p>
+      <form class="gate-form" data-newsletter-form novalidate>
+        <label class="sr-only" for="matter-nl-email">Email address</label>
+        <input type="email" id="matter-nl-email" autocomplete="email" placeholder="you@company.com" />
+        <button type="submit" class="btn btn-primary btn-sm">Subscribe</button>
+      </form>
+      <p class="gate-form-status" data-newsletter-status role="status"></p>
+    </div>
+
     <div class="gate-teaser matter-teaser"><p class="body-text">A dispute usually confined to family matters has landed in Marion Superior Court in Indianapolis, where Herb Simon, the co-founder of Simon Property Group and majority owner of the Indiana Pacers, has sued the family and estate of his late nephew, longtime Simon Property Group chairman and CEO David Simon, along with fifteen other defendants. Filed July 31, 2026, the complaint centers not on the publicly traded REIT itself but on SFG Company LLC, a private real estate vehicle Herb formed in 1995 with his late brother, Melvin Simon, specifically to hold property interests kept outside Simon Property Group when that company went public. The suit alleges David Simon used his position as manager of SFG's governing entity, SFG Manager LLC, to unilaterally dissolve SFG Co. and transfer its assets to a new entity in a maneuver designed to strip Herb's side of the family of equity value it had held for three decades.</p></div>
     <p class="gate-timeline-peek"><span>Case timeline · 4 entries</span> Latest: July 31, 2026 — Herb Simon and co-plaintiffs file suit in Marion Superior Court</p>
 
     <div class="matter-cta-row">
-      
       <div class="card matter-cta" id="matter-keep-reading" data-case-id-target="live-154">
         <div class="eyebrow">Free · no account needed</div>
         <h2 class="matter-h2">Keep reading</h2>
@@ -266,6 +277,7 @@
 
 <script src="/js/main.js"></script>
 <script src="/js/matter-page.js"></script>
+<script src="/js/newsletter-form.js"></script>
 <script src="/js/track.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script>
 <script src="/js/supabase-client.js"></script>

@@ -155,11 +155,22 @@
 
     <div id="matter-court" data-docket-url="" data-matter-id="live-032"></div>
 
+    <div class="card matter-cta matter-top-cta">
+      <div class="eyebrow">Weekly email</div>
+      <h2 class="matter-h2">New on CREdocket, every Monday</h2>
+      <p class="text-secondary">The week's new commercial real estate lawsuits, rulings in cases we follow, and market signals. Free; unsubscribe in one click.</p>
+      <form class="gate-form" data-newsletter-form novalidate>
+        <label class="sr-only" for="matter-nl-email">Email address</label>
+        <input type="email" id="matter-nl-email" autocomplete="email" placeholder="you@company.com" />
+        <button type="submit" class="btn btn-primary btn-sm">Subscribe</button>
+      </form>
+      <p class="gate-form-status" data-newsletter-status role="status"></p>
+    </div>
+
     <div class="gate-teaser matter-teaser"><p class="body-text">Three of New York's most prominent residential brokerages — Corcoran, its new-development affiliate Corcoran Sunshine Marketing Group, and Brown Harris Stevens — have sued developer Circle F Capital in Supreme Court, New York County, alleging the firm failed to pay the full commission owed on a December 2025 recapitalization of 1 Park Row, the 23-story mixed-use condominium tower rising in Manhattan's Financial District. The complaint, reported August 18, says Circle F stiffed the brokers on $450,000 of a $1.45 million agreed commission tied to a roughly $94 million sale-and-restructuring transaction, despite the brokers having already agreed to cut their fee to help the developer through what the complaint describes as its purported cash problems.</p></div>
     <p class="gate-timeline-peek"><span>Case timeline · 2 entries</span> Latest: August 18, 2026 — Corcoran, Corcoran Sunshine, and Brown Harris Stevens sue over unpaid commissions</p>
 
     <div class="matter-cta-row">
-      
       <div class="card matter-cta" id="matter-keep-reading" data-case-id-target="live-032">
         <div class="eyebrow">Free · no account needed</div>
         <h2 class="matter-h2">Keep reading</h2>
@@ -267,6 +278,7 @@
 
 <script src="/js/main.js"></script>
 <script src="/js/matter-page.js"></script>
+<script src="/js/newsletter-form.js"></script>
 <script src="/js/track.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script>
 <script src="/js/supabase-client.js"></script>

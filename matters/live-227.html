@@ -157,11 +157,22 @@
 
     <div id="matter-court" data-docket-url="" data-matter-id="live-227"></div>
 
+    <div class="card matter-cta matter-top-cta">
+      <div class="eyebrow">Weekly email</div>
+      <h2 class="matter-h2">New on CREdocket, every Monday</h2>
+      <p class="text-secondary">The week's new commercial real estate lawsuits, rulings in cases we follow, and market signals. Free; unsubscribe in one click.</p>
+      <form class="gate-form" data-newsletter-form novalidate>
+        <label class="sr-only" for="matter-nl-email">Email address</label>
+        <input type="email" id="matter-nl-email" autocomplete="email" placeholder="you@company.com" />
+        <button type="submit" class="btn btn-primary btn-sm">Subscribe</button>
+      </form>
+      <p class="gate-form-status" data-newsletter-status role="status"></p>
+    </div>
+
     <div class="gate-teaser matter-teaser"><p class="body-text">A lawsuit accusing the City of Boston of quietly punishing commercial property owners for appealing their tax assessments has survived the city's motion to dismiss and is now moving into discovery, a development that commercial owners and tax counsel well outside Massachusetts have reason to watch. The case, filed in Suffolk Superior Court by HS148SST LLC, owner of the 11-story office building at 148 State Street in Boston's Financial District, accuses the city's Assessor's Office of running what the complaint calls an 'Add-Back Policy.'</p></div>
     <p class="gate-timeline-peek"><span>Case timeline · 2 entries</span> Latest: May 12, 2026 — Judge Peter Krupp denies the city's motion to dismiss and orders limited discovery into the alleged policy</p>
 
     <div class="matter-cta-row">
-      
       <div class="card matter-cta" id="matter-keep-reading" data-case-id-target="live-227">
         <div class="eyebrow">Free · no account needed</div>
         <h2 class="matter-h2">Keep reading</h2>
@@ -277,6 +288,7 @@
 
 <script src="/js/main.js"></script>
 <script src="/js/matter-page.js"></script>
+<script src="/js/newsletter-form.js"></script>
 <script src="/js/track.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script>
 <script src="/js/supabase-client.js"></script>

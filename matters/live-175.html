@@ -157,11 +157,22 @@
 
     <div id="matter-court" data-docket-url="" data-matter-id="live-175"></div>
 
+    <div class="card matter-cta matter-top-cta">
+      <div class="eyebrow">Weekly email</div>
+      <h2 class="matter-h2">New on CREdocket, every Monday</h2>
+      <p class="text-secondary">The week's new commercial real estate lawsuits, rulings in cases we follow, and market signals. Free; unsubscribe in one click.</p>
+      <form class="gate-form" data-newsletter-form novalidate>
+        <label class="sr-only" for="matter-nl-email">Email address</label>
+        <input type="email" id="matter-nl-email" autocomplete="email" placeholder="you@company.com" />
+        <button type="submit" class="btn btn-primary btn-sm">Subscribe</button>
+      </form>
+      <p class="gate-form-status" data-newsletter-status role="status"></p>
+    </div>
+
     <div class="gate-teaser matter-teaser"><p class="body-text">A federal judge in Los Angeles has dismissed a proposed securities class action against Alexandria Real Estate Equities, Inc., the nation's largest publicly traded owner of life-science laboratory space, handing the REIT an early win in litigation that had accused its leadership of misleading investors about the strength of its development pipeline. U.S. District Judge George Wu ruled on September 8, 2026 that lead plaintiff Warren Hern's complaint did not sufficiently plead that Alexandria's executives acted with the scienter -- the intent or severe recklessness -- that federal securities law demands, and dismissed the case without prejudice, leaving Hern free to attempt to replead.</p></div>
     <p class="gate-timeline-peek"><span>Case timeline · 3 entries</span> Latest: September 8, 2026 — Judge George Wu dismisses the securities class action without prejudice</p>
 
     <div class="matter-cta-row">
-      
       <div class="card matter-cta" id="matter-keep-reading" data-case-id-target="live-175">
         <div class="eyebrow">Free · no account needed</div>
         <h2 class="matter-h2">Keep reading</h2>
@@ -269,6 +280,7 @@
 
 <script src="/js/main.js"></script>
 <script src="/js/matter-page.js"></script>
+<script src="/js/newsletter-form.js"></script>
 <script src="/js/track.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script>
 <script src="/js/supabase-client.js"></script>

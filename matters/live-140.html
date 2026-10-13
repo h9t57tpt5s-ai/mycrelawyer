@@ -156,11 +156,22 @@
 
     <div id="matter-court" data-docket-url="https://iapps.courts.state.ny.us/nyscef/CaseSearch" data-matter-id="live-140"></div>
 
+    <div class="card matter-cta matter-top-cta">
+      <div class="eyebrow">Weekly email</div>
+      <h2 class="matter-h2">New on CREdocket, every Monday</h2>
+      <p class="text-secondary">The week's new commercial real estate lawsuits, rulings in cases we follow, and market signals. Free; unsubscribe in one click.</p>
+      <form class="gate-form" data-newsletter-form novalidate>
+        <label class="sr-only" for="matter-nl-email">Email address</label>
+        <input type="email" id="matter-nl-email" autocomplete="email" placeholder="you@company.com" />
+        <button type="submit" class="btn btn-primary btn-sm">Subscribe</button>
+      </form>
+      <p class="gate-form-status" data-newsletter-status role="status"></p>
+    </div>
+
     <div class="gate-teaser matter-teaser"><p class="body-text">A high-profile foreclosure lawsuit over one of Herald Square's most visible retail properties has come to a close, not with a courthouse auction but with a negotiated exit. Landesbank Hessen-Thüringen Girozentrale, the German lender known as Helaba, has withdrawn from litigation it filed in New York County Supreme Court against 29 West 34 Owner LLC, an entity controlled by veteran Manhattan retail landlord Jeff Sutton of Wharton Properties. On August 5, 2026, attorneys for 29 West 34 Owner LLC, a new lender group, and the court-appointed receiver signed a stipulation settling the case, discharging receiver Ian Lagowitz and returning operational control of the 29 West 34th Street retail building to Sutton's ownership entity, pending sign-off from Justice Francis A. Kahn III, who presides over Part 32, the mortgage foreclosure and auction part of the New York County Supreme Court's Civil Term.</p></div>
     <p class="gate-timeline-peek"><span>Case timeline · 5 entries</span> Latest: August 5, 2026 — Parties stipulate to settle; receiver discharged, control returned to Sutton</p>
 
     <div class="matter-cta-row">
-      
       <div class="card matter-cta" id="matter-keep-reading" data-case-id-target="live-140">
         <div class="eyebrow">Free · no account needed</div>
         <h2 class="matter-h2">Keep reading</h2>
@@ -268,6 +279,7 @@
 
 <script src="/js/main.js"></script>
 <script src="/js/matter-page.js"></script>
+<script src="/js/newsletter-form.js"></script>
 <script src="/js/track.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script>
 <script src="/js/supabase-client.js"></script>

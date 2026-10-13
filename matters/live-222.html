@@ -155,11 +155,22 @@
 
     <div id="matter-court" data-docket-url="" data-matter-id="live-222"></div>
 
+    <div class="card matter-cta matter-top-cta">
+      <div class="eyebrow">Weekly email</div>
+      <h2 class="matter-h2">New on CREdocket, every Monday</h2>
+      <p class="text-secondary">The week's new commercial real estate lawsuits, rulings in cases we follow, and market signals. Free; unsubscribe in one click.</p>
+      <form class="gate-form" data-newsletter-form novalidate>
+        <label class="sr-only" for="matter-nl-email">Email address</label>
+        <input type="email" id="matter-nl-email" autocomplete="email" placeholder="you@company.com" />
+        <button type="submit" class="btn btn-primary btn-sm">Subscribe</button>
+      </form>
+      <p class="gate-form-status" data-newsletter-status role="status"></p>
+    </div>
+
     <div class="gate-teaser matter-teaser"><p class="body-text">American Hospitality Properties REIT, Inc. and American Hospitality Properties REIT II, Inc. — two non-traded real estate investment trusts that own a portfolio of Hilton- and Marriott-branded "premium select business" hotels — filed Chapter 11 petitions on October 4, 2026 in the U.S. Bankruptcy Court for the Northern District of Texas. They did not file alone: 14 additional affiliated entities, including property-owning and master-lease subsidiaries, filed alongside them, bringing the total number of debtors in the jointly administered proceeding to 16. The filing lands at a particularly fraught moment for the REIT family, coming less than four months after its former external manager settled Securities and Exchange Commission fraud charges and less than three weeks after a private securities class action was filed over the same underlying conduct.</p></div>
     <p class="gate-timeline-peek"><span>Case timeline · 3 entries</span> Latest: October 4, 2026 — American Hospitality Properties REIT, Inc. and REIT II, plus 14 affiliates, file Chapter 11 in the N.D. Texas bankruptcy court</p>
 
     <div class="matter-cta-row">
-      
       <div class="card matter-cta" id="matter-keep-reading" data-case-id-target="live-222">
         <div class="eyebrow">Free · no account needed</div>
         <h2 class="matter-h2">Keep reading</h2>
@@ -278,6 +289,7 @@
 
 <script src="/js/main.js"></script>
 <script src="/js/matter-page.js"></script>
+<script src="/js/newsletter-form.js"></script>
 <script src="/js/track.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script>
 <script src="/js/supabase-client.js"></script>

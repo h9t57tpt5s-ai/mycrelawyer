@@ -156,11 +156,22 @@
 
     <div id="matter-court" data-docket-url="" data-matter-id="live-162"></div>
 
+    <div class="card matter-cta matter-top-cta">
+      <div class="eyebrow">Weekly email</div>
+      <h2 class="matter-h2">New on CREdocket, every Monday</h2>
+      <p class="text-secondary">The week's new commercial real estate lawsuits, rulings in cases we follow, and market signals. Free; unsubscribe in one click.</p>
+      <form class="gate-form" data-newsletter-form novalidate>
+        <label class="sr-only" for="matter-nl-email">Email address</label>
+        <input type="email" id="matter-nl-email" autocomplete="email" placeholder="you@company.com" />
+        <button type="submit" class="btn btn-primary btn-sm">Subscribe</button>
+      </form>
+      <p class="gate-form-status" data-newsletter-status role="status"></p>
+    </div>
+
     <div class="gate-teaser matter-teaser"><p class="body-text">When a shopping center's owner stops investing in basic maintenance, the tenants and shoppers who notice deteriorating conditions are usually the first to sue. In Fayette County, Pennsylvania, it was the local township that got there first. South Union Township sued Uniontown Mall's owners, Namdar Realty Group and an affiliated entity, Uniontown Mall Realty, in November 2025, alleging that years of deferred maintenance at the roughly 690,000-square-foot enclosed mall had created conditions dangerous enough to constitute a public nuisance. Ten months later, the case has produced a rare outcome in commercial real estate litigation: an ongoing, judge-supervised repair regime, complete with a court-scheduled site inspection, rather than a one-time damages award or settlement.</p></div>
     <p class="gate-timeline-peek"><span>Case timeline · 4 entries</span> Latest: July 2, 2026 — Court schedules a September 30 site visit to assess compliance; Cordaro notes 'moderate' but incomplete compliance so far</p>
 
     <div class="matter-cta-row">
-      
       <div class="card matter-cta" id="matter-keep-reading" data-case-id-target="live-162">
         <div class="eyebrow">Free · no account needed</div>
         <h2 class="matter-h2">Keep reading</h2>
@@ -271,6 +282,7 @@
 
 <script src="/js/main.js"></script>
 <script src="/js/matter-page.js"></script>
+<script src="/js/newsletter-form.js"></script>
 <script src="/js/track.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script>
 <script src="/js/supabase-client.js"></script>

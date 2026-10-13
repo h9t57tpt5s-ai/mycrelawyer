@@ -156,11 +156,22 @@
 
     <div id="matter-court" data-docket-url="" data-matter-id="live-043"></div>
 
+    <div class="card matter-cta matter-top-cta">
+      <div class="eyebrow">Weekly email</div>
+      <h2 class="matter-h2">New on CREdocket, every Monday</h2>
+      <p class="text-secondary">The week's new commercial real estate lawsuits, rulings in cases we follow, and market signals. Free; unsubscribe in one click.</p>
+      <form class="gate-form" data-newsletter-form novalidate>
+        <label class="sr-only" for="matter-nl-email">Email address</label>
+        <input type="email" id="matter-nl-email" autocomplete="email" placeholder="you@company.com" />
+        <button type="submit" class="btn btn-primary btn-sm">Subscribe</button>
+      </form>
+      <p class="gate-form-status" data-newsletter-status role="status"></p>
+    </div>
+
     <div class="gate-teaser matter-teaser"><p class="body-text">On August 24, 2026, the Supreme Court of California issued a unanimous decision in Town of Apple Valley v. Apple Valley Ranchos Water Co., No. S289391, holding that when a government agency seeks to acquire a privately owned public utility through eminent domain, its own resolution declaring the taking necessary does not conclusively settle that question in court. Writing for the Court, Justice Leondra Kruger held that 1992 amendments to California's Eminent Domain Law demoted the resolution to a rebuttable presumption in this specific context, meaning a trial judge must independently weigh the evidence, rather than defer to the condemning agency unless it committed a gross abuse of discretion, to decide whether the utility owner has disproved necessity by a preponderance of the evidence. The Court reversed the Fourth District Court of Appeal and sent the case back for further proceedings.</p></div>
     <p class="gate-timeline-peek"><span>Case timeline · 4 entries</span> Latest: August 24, 2026 — California Supreme Court reverses the Court of Appeal and remands, holding the resolution of necessity is only a rebuttable presumption for takings of property already devoted to public use</p>
 
     <div class="matter-cta-row">
-      
       <div class="card matter-cta" id="matter-keep-reading" data-case-id-target="live-043">
         <div class="eyebrow">Free · no account needed</div>
         <h2 class="matter-h2">Keep reading</h2>
@@ -268,6 +279,7 @@
 
 <script src="/js/main.js"></script>
 <script src="/js/matter-page.js"></script>
+<script src="/js/newsletter-form.js"></script>
 <script src="/js/track.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script>
 <script src="/js/supabase-client.js"></script>

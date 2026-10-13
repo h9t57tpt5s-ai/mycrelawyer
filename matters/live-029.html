@@ -156,11 +156,22 @@
 
     <div id="matter-court" data-docket-url="" data-matter-id="live-029"></div>
 
+    <div class="card matter-cta matter-top-cta">
+      <div class="eyebrow">Weekly email</div>
+      <h2 class="matter-h2">New on CREdocket, every Monday</h2>
+      <p class="text-secondary">The week's new commercial real estate lawsuits, rulings in cases we follow, and market signals. Free; unsubscribe in one click.</p>
+      <form class="gate-form" data-newsletter-form novalidate>
+        <label class="sr-only" for="matter-nl-email">Email address</label>
+        <input type="email" id="matter-nl-email" autocomplete="email" placeholder="you@company.com" />
+        <button type="submit" class="btn btn-primary btn-sm">Subscribe</button>
+      </form>
+      <p class="gate-form-status" data-newsletter-status role="status"></p>
+    </div>
+
     <div class="gate-teaser matter-teaser"><p class="body-text">The developer behind Boca Raton's long-delayed Residences at Mandarin Oriental has escalated its fight with its construction lenders from a defensive posture to an offensive one, filing a $500 million lender-liability lawsuit in New York state court and securing a temporary order blocking a foreclosure auction of its ownership interests in the project. The filing, reported August 17, 2026, marks a significant turn in a dispute that until now had been driven entirely by the lender's own foreclosure claims, and it puts a novel theory squarely before the court: that the lender manufactured the very defaults it is now relying on to seize the asset.</p></div>
     <p class="gate-timeline-peek"><span>Case timeline · 4 entries</span> Latest: August 17, 2026 — Developer sues lenders for $500M+ in New York, alleging manufactured default; Justice Borrok grants a TRO blocking the UCC auction</p>
 
     <div class="matter-cta-row">
-      
       <div class="card matter-cta" id="matter-keep-reading" data-case-id-target="live-029">
         <div class="eyebrow">Free · no account needed</div>
         <h2 class="matter-h2">Keep reading</h2>
@@ -275,6 +286,7 @@
 
 <script src="/js/main.js"></script>
 <script src="/js/matter-page.js"></script>
+<script src="/js/newsletter-form.js"></script>
 <script src="/js/track.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script>
 <script src="/js/supabase-client.js"></script>

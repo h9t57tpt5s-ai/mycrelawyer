@@ -156,11 +156,22 @@
 
     <div id="matter-court" data-docket-url="" data-matter-id="live-109"></div>
 
+    <div class="card matter-cta matter-top-cta">
+      <div class="eyebrow">Weekly email</div>
+      <h2 class="matter-h2">New on CREdocket, every Monday</h2>
+      <p class="text-secondary">The week's new commercial real estate lawsuits, rulings in cases we follow, and market signals. Free; unsubscribe in one click.</p>
+      <form class="gate-form" data-newsletter-form novalidate>
+        <label class="sr-only" for="matter-nl-email">Email address</label>
+        <input type="email" id="matter-nl-email" autocomplete="email" placeholder="you@company.com" />
+        <button type="submit" class="btn btn-primary btn-sm">Subscribe</button>
+      </form>
+      <p class="gate-form-status" data-newsletter-status role="status"></p>
+    </div>
+
     <div class="gate-teaser matter-teaser"><p class="body-text">Ready Capital Mortgage Financing 2023-FL 12, LLC filed suit in Oklahoma County District Court on February 18, 2026 to foreclose on Drexel Flats, a 272-unit apartment complex in southwest Oklahoma City, naming as defendants the borrower entities Drexel Flats Acquisition LLC and Drexel Flats Acquisition TIC LLC, Vesta Realty founder and CEO Marc Kulick individually, several unpaid trade contractors who had filed liens against the property, and YSA Investments 1, LLC — the vehicle used by former arms dealer Efraim Diveroli to take over roughly two dozen other Vesta-affiliated properties after extending Kulick high-interest rescue loans.</p></div>
     <p class="gate-timeline-peek"><span>Case timeline · 6 entries</span> Latest: May 20, 2026 — Judge Amy Palumbo grants the motion for appointment of a receiver</p>
 
     <div class="matter-cta-row">
-      
       <div class="card matter-cta" id="matter-keep-reading" data-case-id-target="live-109">
         <div class="eyebrow">Free · no account needed</div>
         <h2 class="matter-h2">Keep reading</h2>
@@ -265,6 +276,7 @@
 
 <script src="/js/main.js"></script>
 <script src="/js/matter-page.js"></script>
+<script src="/js/newsletter-form.js"></script>
 <script src="/js/track.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script>
 <script src="/js/supabase-client.js"></script>

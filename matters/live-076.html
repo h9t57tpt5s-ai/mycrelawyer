@@ -155,11 +155,22 @@
 
     <div id="matter-court" data-docket-url="" data-matter-id="live-076"></div>
 
+    <div class="card matter-cta matter-top-cta">
+      <div class="eyebrow">Weekly email</div>
+      <h2 class="matter-h2">New on CREdocket, every Monday</h2>
+      <p class="text-secondary">The week's new commercial real estate lawsuits, rulings in cases we follow, and market signals. Free; unsubscribe in one click.</p>
+      <form class="gate-form" data-newsletter-form novalidate>
+        <label class="sr-only" for="matter-nl-email">Email address</label>
+        <input type="email" id="matter-nl-email" autocomplete="email" placeholder="you@company.com" />
+        <button type="submit" class="btn btn-primary btn-sm">Subscribe</button>
+      </form>
+      <p class="gate-form-status" data-newsletter-status role="status"></p>
+    </div>
+
     <div class="gate-teaser matter-teaser"><p class="body-text">A CMBS special servicer has filed suit to foreclose on a two-floor retail condominium at the base of a 21-story tower on Chicago's State Street, the latest sign that loan maturity defaults continue to work through the Loop's distressed commercial debt even in property types that once looked more resilient than office. Rialto Capital Advisors, acting as special servicer for a securitized commercial mortgage loan trust, filed the foreclosure action on April 1, 2026 in the Circuit Court of Cook County, Illinois, against Jenel Management Corp. and affiliated Jenel Real Estate entities, the New York-based landlord that owns the roughly 20,211-square-foot retail condominium occupying the first two floors of the tower at 36 South State Street, at the corner of State and Monroe.</p></div>
     <p class="gate-timeline-peek"><span>Case timeline · 3 entries</span> Latest: April 1, 2026 — Rialto Capital Advisors files a $17.7M foreclosure suit in Cook County Circuit Court</p>
 
     <div class="matter-cta-row">
-      
       <div class="card matter-cta" id="matter-keep-reading" data-case-id-target="live-076">
         <div class="eyebrow">Free · no account needed</div>
         <h2 class="matter-h2">Keep reading</h2>
@@ -273,6 +284,7 @@
 
 <script src="/js/main.js"></script>
 <script src="/js/matter-page.js"></script>
+<script src="/js/newsletter-form.js"></script>
 <script src="/js/track.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script>
 <script src="/js/supabase-client.js"></script>

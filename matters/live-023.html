@@ -155,11 +155,22 @@
 
     <div id="matter-court" data-docket-url="" data-matter-id="live-023"></div>
 
+    <div class="card matter-cta matter-top-cta">
+      <div class="eyebrow">Weekly email</div>
+      <h2 class="matter-h2">New on CREdocket, every Monday</h2>
+      <p class="text-secondary">The week's new commercial real estate lawsuits, rulings in cases we follow, and market signals. Free; unsubscribe in one click.</p>
+      <form class="gate-form" data-newsletter-form novalidate>
+        <label class="sr-only" for="matter-nl-email">Email address</label>
+        <input type="email" id="matter-nl-email" autocomplete="email" placeholder="you@company.com" />
+        <button type="submit" class="btn btn-primary btn-sm">Subscribe</button>
+      </form>
+      <p class="gate-form-status" data-newsletter-status role="status"></p>
+    </div>
+
     <div class="gate-teaser matter-teaser"><p class="body-text">Republic Plaza, the 56-story tower that has held the title of Denver's tallest building since 1984, is now the subject of a receivership lawsuit after its owners failed to pay off the mortgage at maturity for the second time in three years. U.S. Bank National Association, acting on behalf of the commercial mortgage-backed securities (CMBS) trust that holds the loan, filed suit against borrower entity BOP Republic Plaza I LLC, a Brookfield Properties affiliate, in Denver District Court on August 10, 2026, seeking appointment of a receiver over the property rather than proceeding directly to foreclosure. The filing is a pointed illustration of how far office-sector distress has spread: Republic Plaza is co-owned by Brookfield Properties, one of the world's largest commercial real estate managers, and MetLife Investment Management, an insurance-company balance sheet with among the deepest pockets in institutional real estate — yet neither prevented a second maturity default on the tower's debt.</p></div>
     <p class="gate-timeline-peek"><span>Case timeline · 3 entries</span> Latest: August 10, 2026 — U.S. Bank National Association sues in Denver District Court seeking appointment of a receiver</p>
 
     <div class="matter-cta-row">
-      
       <div class="card matter-cta" id="matter-keep-reading" data-case-id-target="live-023">
         <div class="eyebrow">Free · no account needed</div>
         <h2 class="matter-h2">Keep reading</h2>
@@ -275,6 +286,7 @@
 
 <script src="/js/main.js"></script>
 <script src="/js/matter-page.js"></script>
+<script src="/js/newsletter-form.js"></script>
 <script src="/js/track.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script>
 <script src="/js/supabase-client.js"></script>

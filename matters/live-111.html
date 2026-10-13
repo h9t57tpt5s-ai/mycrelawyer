@@ -156,11 +156,22 @@
 
     <div id="matter-court" data-docket-url="" data-matter-id="live-111"></div>
 
+    <div class="card matter-cta matter-top-cta">
+      <div class="eyebrow">Weekly email</div>
+      <h2 class="matter-h2">New on CREdocket, every Monday</h2>
+      <p class="text-secondary">The week's new commercial real estate lawsuits, rulings in cases we follow, and market signals. Free; unsubscribe in one click.</p>
+      <form class="gate-form" data-newsletter-form novalidate>
+        <label class="sr-only" for="matter-nl-email">Email address</label>
+        <input type="email" id="matter-nl-email" autocomplete="email" placeholder="you@company.com" />
+        <button type="submit" class="btn btn-primary btn-sm">Subscribe</button>
+      </form>
+      <p class="gate-form-status" data-newsletter-status role="status"></p>
+    </div>
+
     <div class="gate-teaser matter-teaser"><p class="body-text">The dispute traces back to a 1994 map the Mississippi Secretary of State published under the Public Trust Tidelands Act, demarcating the boundary between privately owned land and State-owned tidelands along the Gulf Coast. That map designated a roughly one-acre Biloxi parcel — south of U.S. Highway 90, between the highway and the Mississippi Sound, where the Aldrich family had operated the Fisherman's Wharf restaurant since the 1970s until Hurricane Katrina destroyed it in 2005 — as State-owned tideland. John Bret Aldrich disagreed, and challenged the boundary in Harrison County Chancery Court in 1998, claiming ownership through an unbroken chain of title running back to a 1784 Spanish land grant to his ancestor, predating Mississippi's admission to the Union.</p></div>
     <p class="gate-timeline-peek"><span>Case timeline · 4 entries</span> Latest: April 4, 2024 — Mississippi Supreme Court affirms, handing the Secretary of State its fifth straight tidelands loss</p>
 
     <div class="matter-cta-row">
-      
       <div class="card matter-cta" id="matter-keep-reading" data-case-id-target="live-111">
         <div class="eyebrow">Free · no account needed</div>
         <h2 class="matter-h2">Keep reading</h2>
@@ -271,6 +282,7 @@
 
 <script src="/js/main.js"></script>
 <script src="/js/matter-page.js"></script>
+<script src="/js/newsletter-form.js"></script>
 <script src="/js/track.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script>
 <script src="/js/supabase-client.js"></script>

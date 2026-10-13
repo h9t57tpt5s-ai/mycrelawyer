@@ -155,11 +155,22 @@
 
     <div id="matter-court" data-docket-url="" data-matter-id="live-178"></div>
 
+    <div class="card matter-cta matter-top-cta">
+      <div class="eyebrow">Weekly email</div>
+      <h2 class="matter-h2">New on CREdocket, every Monday</h2>
+      <p class="text-secondary">The week's new commercial real estate lawsuits, rulings in cases we follow, and market signals. Free; unsubscribe in one click.</p>
+      <form class="gate-form" data-newsletter-form novalidate>
+        <label class="sr-only" for="matter-nl-email">Email address</label>
+        <input type="email" id="matter-nl-email" autocomplete="email" placeholder="you@company.com" />
+        <button type="submit" class="btn btn-primary btn-sm">Subscribe</button>
+      </form>
+      <p class="gate-form-status" data-newsletter-status role="status"></p>
+    </div>
+
     <div class="gate-teaser matter-teaser"><p class="body-text">Nearly two years after Fortress Investment Group forced a sale of developer Charles S. Cohen's real estate holdings in what was widely described as the largest Uniform Commercial Code foreclosure auction on record, the dispute between the two sides remains active. Cohen has satisfied the roughly $187 million personal-guaranty judgment a New York court entered against him in 2024 and that the Appellate Division, First Department affirmed in February 2025. But he is now pressing his own claim against Fortress seeking approximately $204 million in damages, arguing that the auction which stripped him of his properties was never conducted in the commercially reasonable manner that Article 9 of the UCC requires. Fortress has indicated it intends to continue pursuing its own remaining claims against Cohen.</p></div>
     <p class="gate-timeline-peek"><span>Case timeline · 6 entries</span> Latest: June 29, 2026 — Cohen's pending $204M commercial-reasonableness damages claim against Fortress is reported; Fortress says it will keep pursuing its own remaining claims</p>
 
     <div class="matter-cta-row">
-      
       <div class="card matter-cta" id="matter-keep-reading" data-case-id-target="live-178">
         <div class="eyebrow">Free · no account needed</div>
         <h2 class="matter-h2">Keep reading</h2>
@@ -274,6 +285,7 @@
 
 <script src="/js/main.js"></script>
 <script src="/js/matter-page.js"></script>
+<script src="/js/newsletter-form.js"></script>
 <script src="/js/track.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script>
 <script src="/js/supabase-client.js"></script>

@@ -155,11 +155,22 @@
 
     <div id="matter-court" data-docket-url="" data-matter-id="live-035"></div>
 
+    <div class="card matter-cta matter-top-cta">
+      <div class="eyebrow">Weekly email</div>
+      <h2 class="matter-h2">New on CREdocket, every Monday</h2>
+      <p class="text-secondary">The week's new commercial real estate lawsuits, rulings in cases we follow, and market signals. Free; unsubscribe in one click.</p>
+      <form class="gate-form" data-newsletter-form novalidate>
+        <label class="sr-only" for="matter-nl-email">Email address</label>
+        <input type="email" id="matter-nl-email" autocomplete="email" placeholder="you@company.com" />
+        <button type="submit" class="btn btn-primary btn-sm">Subscribe</button>
+      </form>
+      <p class="gate-form-status" data-newsletter-status role="status"></p>
+    </div>
+
     <div class="gate-teaser matter-teaser"><p class="body-text">A Chicago-based developer and the entity that owned a Washington, D.C. apartment project have sued Jones Lang LaSalle Americas, Inc. for more than $12 million, alleging the brokerage giant fraudulently inflated the property's projected net operating income specifically to help the deal clear a construction lender's minimum debt-yield requirement. The complaint, filed by developer Rishi Bhatnagar and property owner 9 New York Ave LLC in the Circuit Court of Cook County, Illinois on August 21, 2026, centers on a 14-story luxury multifamily tower at 9 New York Avenue NW in Washington. It is a pointed test of how far a brokerage's advisory role in underwriting a deal can expose it to fraud liability when a lender-driven number turns out to have been aspirational rather than analytical.</p></div>
     <p class="gate-timeline-peek"><span>Case timeline · 2 entries</span> Latest: August 21, 2026 — Bhatnagar and 9 New York Ave LLC file fraud suit against JLL in Cook County Circuit Court</p>
 
     <div class="matter-cta-row">
-      
       <div class="card matter-cta" id="matter-keep-reading" data-case-id-target="live-035">
         <div class="eyebrow">Free · no account needed</div>
         <h2 class="matter-h2">Keep reading</h2>
@@ -270,6 +281,7 @@
 
 <script src="/js/main.js"></script>
 <script src="/js/matter-page.js"></script>
+<script src="/js/newsletter-form.js"></script>
 <script src="/js/track.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script>
 <script src="/js/supabase-client.js"></script>

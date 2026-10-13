@@ -155,11 +155,22 @@
 
     <div id="matter-court" data-docket-url="" data-matter-id="live-207"></div>
 
+    <div class="card matter-cta matter-top-cta">
+      <div class="eyebrow">Weekly email</div>
+      <h2 class="matter-h2">New on CREdocket, every Monday</h2>
+      <p class="text-secondary">The week's new commercial real estate lawsuits, rulings in cases we follow, and market signals. Free; unsubscribe in one click.</p>
+      <form class="gate-form" data-newsletter-form novalidate>
+        <label class="sr-only" for="matter-nl-email">Email address</label>
+        <input type="email" id="matter-nl-email" autocomplete="email" placeholder="you@company.com" />
+        <button type="submit" class="btn btn-primary btn-sm">Subscribe</button>
+      </form>
+      <p class="gate-form-status" data-newsletter-status role="status"></p>
+    </div>
+
     <div class="gate-teaser matter-teaser"><p class="body-text">A federal judge in New Jersey has ruled that the state may move forward with renewed antitrust claims against AvalonBay Communities, Inc., the multifamily real estate investment trust accused, alongside software vendor RealPage, Inc., of participating in a scheme to coordinate residential rents using algorithmic pricing software. The ruling, issued September 30, 2026 by U.S. District Judge Madeline Cox Arleo in the District of New Jersey, allows New Jersey Attorney General Matthew Platkin's office to proceed on an amended complaint after the court dismissed the state's original antitrust theories against AvalonBay without prejudice earlier this year.</p></div>
     <p class="gate-timeline-peek"><span>Case timeline · 3 entries</span> Latest: September 30, 2026 — Judge Arleo grants New Jersey leave to file an amended complaint, reviving the antitrust claims against AvalonBay</p>
 
     <div class="matter-cta-row">
-      
       <div class="card matter-cta" id="matter-keep-reading" data-case-id-target="live-207">
         <div class="eyebrow">Free · no account needed</div>
         <h2 class="matter-h2">Keep reading</h2>
@@ -276,6 +287,7 @@
 
 <script src="/js/main.js"></script>
 <script src="/js/matter-page.js"></script>
+<script src="/js/newsletter-form.js"></script>
 <script src="/js/track.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script>
 <script src="/js/supabase-client.js"></script>

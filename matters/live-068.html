@@ -155,11 +155,22 @@
 
     <div id="matter-court" data-docket-url="" data-matter-id="live-068"></div>
 
+    <div class="card matter-cta matter-top-cta">
+      <div class="eyebrow">Weekly email</div>
+      <h2 class="matter-h2">New on CREdocket, every Monday</h2>
+      <p class="text-secondary">The week's new commercial real estate lawsuits, rulings in cases we follow, and market signals. Free; unsubscribe in one click.</p>
+      <form class="gate-form" data-newsletter-form novalidate>
+        <label class="sr-only" for="matter-nl-email">Email address</label>
+        <input type="email" id="matter-nl-email" autocomplete="email" placeholder="you@company.com" />
+        <button type="submit" class="btn btn-primary btn-sm">Subscribe</button>
+      </form>
+      <p class="gate-form-status" data-newsletter-status role="status"></p>
+    </div>
+
     <div class="gate-teaser matter-teaser"><p class="body-text">A Hawaii appeals court has affirmed the dismissal of a real estate developer's lawsuit against neighboring landowners who wrote a letter opposing the developer's agricultural warehouse project, reinforcing the reach of the state's anti-SLAPP statute and signaling that developers who respond to zoning or permitting criticism with litigation do so at real financial risk. In RCA Trade Center, Inc. v. Hu, 2026 WL 1802987 (Haw. App. June 23, 2026), the Intermediate Court of Appeals upheld a trial court's dismissal of claims brought by RCA Trade Center, Inc. and affiliated entity MP Unit 21, LLC against Wayne and Tara Hu, along with the trial court's award of attorney fees and costs against the developer.</p></div>
     <p class="gate-timeline-peek"><span>Case timeline · 4 entries</span> Latest: June 23, 2026 — Hawaii Intermediate Court of Appeals affirms dismissal and the fee award in RCA Trade Center, Inc. v. Hu</p>
 
     <div class="matter-cta-row">
-      
       <div class="card matter-cta" id="matter-keep-reading" data-case-id-target="live-068">
         <div class="eyebrow">Free · no account needed</div>
         <h2 class="matter-h2">Keep reading</h2>
@@ -260,6 +271,7 @@
 
 <script src="/js/main.js"></script>
 <script src="/js/matter-page.js"></script>
+<script src="/js/newsletter-form.js"></script>
 <script src="/js/track.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script>
 <script src="/js/supabase-client.js"></script>

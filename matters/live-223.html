@@ -155,11 +155,22 @@
 
     <div id="matter-court" data-docket-url="" data-matter-id="live-223"></div>
 
+    <div class="card matter-cta matter-top-cta">
+      <div class="eyebrow">Weekly email</div>
+      <h2 class="matter-h2">New on CREdocket, every Monday</h2>
+      <p class="text-secondary">The week's new commercial real estate lawsuits, rulings in cases we follow, and market signals. Free; unsubscribe in one click.</p>
+      <form class="gate-form" data-newsletter-form novalidate>
+        <label class="sr-only" for="matter-nl-email">Email address</label>
+        <input type="email" id="matter-nl-email" autocomplete="email" placeholder="you@company.com" />
+        <button type="submit" class="btn btn-primary btn-sm">Subscribe</button>
+      </form>
+      <p class="gate-form-status" data-newsletter-status role="status"></p>
+    </div>
+
     <div class="gate-teaser matter-teaser"><p class="body-text">A commercial tenant's breach-of-contract suit against its industrial landlord, now pending in the U.S. District Court for the District of Columbia, shows how a maintenance dispute under a commercial lease can escalate into six-figure litigation long after the underlying defect first appears. The Greater DC Diaper Bank, a nonprofit that distributes diapers and baby supplies across the Washington region, sued WWDC Industrial Park, LLC and its property manager, Donohoe Real Estate Services, Inc., alleging that a persistently leaking roof at its distribution warehouse on Monard Drive in Silver Spring, Maryland went unrepaired for years, ultimately forcing the organization to abandon the space it had occupied since 2013. The case, filed August 17, 2026 and docketed as 1:2026cv02900, asserts diversity-jurisdiction breach-of-contract claims and seeks more than $775,000 in damages.</p></div>
     <p class="gate-timeline-peek"><span>Case timeline · 2 entries</span> Latest: August 17, 2026 — Diaper Bank files breach-of-contract suit in U.S. District Court for the District of Columbia</p>
 
     <div class="matter-cta-row">
-      
       <div class="card matter-cta" id="matter-keep-reading" data-case-id-target="live-223">
         <div class="eyebrow">Free · no account needed</div>
         <h2 class="matter-h2">Keep reading</h2>
@@ -267,6 +278,7 @@
 
 <script src="/js/main.js"></script>
 <script src="/js/matter-page.js"></script>
+<script src="/js/newsletter-form.js"></script>
 <script src="/js/track.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script>
 <script src="/js/supabase-client.js"></script>

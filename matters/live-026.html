@@ -155,11 +155,22 @@
 
     <div id="matter-court" data-docket-url="" data-matter-id="live-026"></div>
 
+    <div class="card matter-cta matter-top-cta">
+      <div class="eyebrow">Weekly email</div>
+      <h2 class="matter-h2">New on CREdocket, every Monday</h2>
+      <p class="text-secondary">The week's new commercial real estate lawsuits, rulings in cases we follow, and market signals. Free; unsubscribe in one click.</p>
+      <form class="gate-form" data-newsletter-form novalidate>
+        <label class="sr-only" for="matter-nl-email">Email address</label>
+        <input type="email" id="matter-nl-email" autocomplete="email" placeholder="you@company.com" />
+        <button type="submit" class="btn btn-primary btn-sm">Subscribe</button>
+      </form>
+      <p class="gate-form-status" data-newsletter-status role="status"></p>
+    </div>
+
     <div class="gate-teaser matter-teaser"><p class="body-text">In mid-August, commercial mortgage lender Acres Capital, through its affiliate Acres Loan Origination LLC, filed a foreclosure complaint in New York state Supreme Court against the Auden Buffalo student housing community at 2915–2949 North Forest Road in Amherst, New York. The complaint alleges that two construction loans totaling $32.5 million, originated in early 2021 to fund the 154-unit, 481-bed property near the University at Buffalo's North Campus, matured in January 2024 with the entire principal balance still outstanding. The borrower is an affiliate of DMG Investments, a New York City-based real estate investment and development firm with a national student-housing and multifamily portfolio exceeding $700 million in assets under management.</p></div>
     <p class="gate-timeline-peek"><span>Case timeline · 3 entries</span> Latest: August 2026 — Acres Loan Origination LLC files a foreclosure complaint against the Auden Buffalo sponsor, days after a Deutsche Bank-represented lender group sued to foreclose on the sponsor's nearby Air Buffalo property</p>
 
     <div class="matter-cta-row">
-      
       <div class="card matter-cta" id="matter-keep-reading" data-case-id-target="live-026">
         <div class="eyebrow">Free · no account needed</div>
         <h2 class="matter-h2">Keep reading</h2>
@@ -267,6 +278,7 @@
 
 <script src="/js/main.js"></script>
 <script src="/js/matter-page.js"></script>
+<script src="/js/newsletter-form.js"></script>
 <script src="/js/track.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script>
 <script src="/js/supabase-client.js"></script>

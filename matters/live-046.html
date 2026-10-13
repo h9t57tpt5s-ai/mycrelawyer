@@ -156,11 +156,22 @@
 
     <div id="matter-court" data-docket-url="" data-matter-id="live-046"></div>
 
+    <div class="card matter-cta matter-top-cta">
+      <div class="eyebrow">Weekly email</div>
+      <h2 class="matter-h2">New on CREdocket, every Monday</h2>
+      <p class="text-secondary">The week's new commercial real estate lawsuits, rulings in cases we follow, and market signals. Free; unsubscribe in one click.</p>
+      <form class="gate-form" data-newsletter-form novalidate>
+        <label class="sr-only" for="matter-nl-email">Email address</label>
+        <input type="email" id="matter-nl-email" autocomplete="email" placeholder="you@company.com" />
+        <button type="submit" class="btn btn-primary btn-sm">Subscribe</button>
+      </form>
+      <p class="gate-form-status" data-newsletter-status role="status"></p>
+    </div>
+
     <div class="gate-teaser matter-teaser"><p class="body-text">A homeowners association and two individual residents have succeeded, at least for now, in halting the Town of Westlake's approval of a development agreement for a 1.1-million-square-foot data center campus planned along Denton Highway near the Texas towns of Westlake and Keller. On August 17, 2026, Judge Kimberly Fitzpatrick of the 342nd District Court in Tarrant County signed a temporary restraining order barring Westlake from voting on or implementing Resolution 26-25, the proposed development agreement covering the Circle T Data Center project, after the Lakes at Marshall Ridge Homeowners Association, Inc. and residents Linda Bjorn and Sharon Sanden sued the town alleging it failed to give the legally required public notice before taking zoning action affecting the project. The order has since been extended, with the case now set for a temporary-injunction hearing on or before September 8, 2026. For a project of this scale, backed by Ross Perot Jr.'s Hillwood through the entity Circle T Owner LP and slated to be developed in partnership with PowerHouse Data Centers, a procedural notice defect capable of pausing the town's own approval process is a reminder that zoning entitlement risk does not disappear once substantive land-use questions are resolved.</p></div>
     <p class="gate-timeline-peek"><span>Case timeline · 3 entries</span> Latest: August 17, 2026 — Judge Kimberly Fitzpatrick signs a TRO blocking the town's vote on Resolution 26-25, the Circle T Data Center development agreement</p>
 
     <div class="matter-cta-row">
-      
       <div class="card matter-cta" id="matter-keep-reading" data-case-id-target="live-046">
         <div class="eyebrow">Free · no account needed</div>
         <h2 class="matter-h2">Keep reading</h2>
@@ -268,6 +279,7 @@
 
 <script src="/js/main.js"></script>
 <script src="/js/matter-page.js"></script>
+<script src="/js/newsletter-form.js"></script>
 <script src="/js/track.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script>
 <script src="/js/supabase-client.js"></script>

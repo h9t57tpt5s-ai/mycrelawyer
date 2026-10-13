@@ -155,11 +155,22 @@
 
     <div id="matter-court" data-docket-url="" data-matter-id="live-126"></div>
 
+    <div class="card matter-cta matter-top-cta">
+      <div class="eyebrow">Weekly email</div>
+      <h2 class="matter-h2">New on CREdocket, every Monday</h2>
+      <p class="text-secondary">The week's new commercial real estate lawsuits, rulings in cases we follow, and market signals. Free; unsubscribe in one click.</p>
+      <form class="gate-form" data-newsletter-form novalidate>
+        <label class="sr-only" for="matter-nl-email">Email address</label>
+        <input type="email" id="matter-nl-email" autocomplete="email" placeholder="you@company.com" />
+        <button type="submit" class="btn btn-primary btn-sm">Subscribe</button>
+      </form>
+      <p class="gate-form-status" data-newsletter-status role="status"></p>
+    </div>
+
     <div class="gate-teaser matter-teaser"><p class="body-text">Four years after Grand at Doral I welcomed its first residents, the 80-unit condominium's owners' association has gone to court to settle a question that has quietly shaped life in the building since it opened: who actually controls it. The association filed a declaratory judgment action in Miami-Dade County Circuit Court against entities affiliated with the building's original developer, the Pablo Jose Valdes Florida Irrevocable Trust, alleging that the developer never fully relinquished control of the property even though construction wrapped in 2022. According to the complaint, the trust transferred 41 of the building's 80 units -- a bare majority -- to two affiliated companies, Prime Properties at Doral and Premier Properties at Doral, both managed by Lucilla Suero and Niurka Fonte-Esquivel in their capacity as co-trustees of the Valdes trust.</p></div>
     
 
     <div class="matter-cta-row">
-      
       <div class="card matter-cta" id="matter-keep-reading" data-case-id-target="live-126">
         <div class="eyebrow">Free · no account needed</div>
         <h2 class="matter-h2">Keep reading</h2>
@@ -267,6 +278,7 @@
 
 <script src="/js/main.js"></script>
 <script src="/js/matter-page.js"></script>
+<script src="/js/newsletter-form.js"></script>
 <script src="/js/track.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script>
 <script src="/js/supabase-client.js"></script>

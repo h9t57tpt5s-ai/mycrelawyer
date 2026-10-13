@@ -156,11 +156,22 @@
 
     <div id="matter-court" data-docket-url="" data-matter-id="live-211"></div>
 
+    <div class="card matter-cta matter-top-cta">
+      <div class="eyebrow">Weekly email</div>
+      <h2 class="matter-h2">New on CREdocket, every Monday</h2>
+      <p class="text-secondary">The week's new commercial real estate lawsuits, rulings in cases we follow, and market signals. Free; unsubscribe in one click.</p>
+      <form class="gate-form" data-newsletter-form novalidate>
+        <label class="sr-only" for="matter-nl-email">Email address</label>
+        <input type="email" id="matter-nl-email" autocomplete="email" placeholder="you@company.com" />
+        <button type="submit" class="btn btn-primary btn-sm">Subscribe</button>
+      </form>
+      <p class="gate-form-status" data-newsletter-status role="status"></p>
+    </div>
+
     <div class="gate-teaser matter-teaser"><p class="body-text">A large Brutalist-style office building near Judiciary Square in downtown Washington, D.C. is headed toward a foreclosure auction after an affiliate of noteholder Criterion Real Estate Capital filed a foreclosure notice against the property's owner, Judiciary Plaza LLC. According to the notice, the owner currently owes approximately $166.6 million on a $177.5 million note originated in 2007 -- a debt load that has survived nearly two decades, several changes in loan ownership, and a since-abandoned redevelopment plan.</p></div>
     <p class="gate-timeline-peek"><span>Case timeline · 5 entries</span> Latest: September 28, 2026 — Criterion affiliate files a foreclosure notice against Judiciary Plaza LLC, scheduling an October 28 auction</p>
 
     <div class="matter-cta-row">
-      
       <div class="card matter-cta" id="matter-keep-reading" data-case-id-target="live-211">
         <div class="eyebrow">Free · no account needed</div>
         <h2 class="matter-h2">Keep reading</h2>
@@ -265,6 +276,7 @@
 
 <script src="/js/main.js"></script>
 <script src="/js/matter-page.js"></script>
+<script src="/js/newsletter-form.js"></script>
 <script src="/js/track.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script>
 <script src="/js/supabase-client.js"></script>

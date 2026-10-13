@@ -155,11 +155,22 @@
 
     <div id="matter-court" data-docket-url="" data-matter-id="live-243"></div>
 
+    <div class="card matter-cta matter-top-cta">
+      <div class="eyebrow">Weekly email</div>
+      <h2 class="matter-h2">New on CREdocket, every Monday</h2>
+      <p class="text-secondary">The week's new commercial real estate lawsuits, rulings in cases we follow, and market signals. Free; unsubscribe in one click.</p>
+      <form class="gate-form" data-newsletter-form novalidate>
+        <label class="sr-only" for="matter-nl-email">Email address</label>
+        <input type="email" id="matter-nl-email" autocomplete="email" placeholder="you@company.com" />
+        <button type="submit" class="btn btn-primary btn-sm">Subscribe</button>
+      </form>
+      <p class="gate-form-status" data-newsletter-status role="status"></p>
+    </div>
+
     <div class="gate-teaser matter-teaser"><p class="body-text">A Puerto Rico trial court has dismissed, with prejudice, a lawsuit that sought to halt construction of a 171-room hotel in Dorado on the grounds that the project violated land-use restrictions governing the surrounding development. The ruling, entered by the Bayamón Court of First Instance and reported October 6, 2026, closes out, at least at the trial level, a dispute that pitted one commercial property owner against a competing hotel developer over restrictive conditions recorded against a shared parcel of land, and offers a pointed reminder to commercial landowners that the right to enforce land-use restrictions can expire long before the underlying document does.</p></div>
     <p class="gate-timeline-peek"><span>Case timeline · 3 entries</span> Latest: October 6, 2026 — Bayamón Court of First Instance dismisses DBR's suit with prejudice on delay grounds</p>
 
     <div class="matter-cta-row">
-      
       <div class="card matter-cta" id="matter-keep-reading" data-case-id-target="live-243">
         <div class="eyebrow">Free · no account needed</div>
         <h2 class="matter-h2">Keep reading</h2>
@@ -260,6 +271,7 @@
 
 <script src="/js/main.js"></script>
 <script src="/js/matter-page.js"></script>
+<script src="/js/newsletter-form.js"></script>
 <script src="/js/track.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script>
 <script src="/js/supabase-client.js"></script>

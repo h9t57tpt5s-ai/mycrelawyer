@@ -155,11 +155,22 @@
 
     <div id="matter-court" data-docket-url="" data-matter-id="live-048"></div>
 
+    <div class="card matter-cta matter-top-cta">
+      <div class="eyebrow">Weekly email</div>
+      <h2 class="matter-h2">New on CREdocket, every Monday</h2>
+      <p class="text-secondary">The week's new commercial real estate lawsuits, rulings in cases we follow, and market signals. Free; unsubscribe in one click.</p>
+      <form class="gate-form" data-newsletter-form novalidate>
+        <label class="sr-only" for="matter-nl-email">Email address</label>
+        <input type="email" id="matter-nl-email" autocomplete="email" placeholder="you@company.com" />
+        <button type="submit" class="btn btn-primary btn-sm">Subscribe</button>
+      </form>
+      <p class="gate-form-status" data-newsletter-status role="status"></p>
+    </div>
+
     <div class="gate-teaser matter-teaser"><p class="body-text">Held Properties, Inc., the family-owned owner of the 1880 Century Park East office tower in Los Angeles's Century City submarket, has filed a new lawsuit against its tenant, WealthStone, LLC, and WealthStone principal Andres Szita, seeking roughly $1.1 million in unpaid rent and related damages. The complaint, filed in Los Angeles County Superior Court in early August 2026, is notable less for its size than for what it signals to commercial landlords and guarantors alike: a defaulting tenant's principal can remain on the hook for a lease's full economic term even after a landlord has already reduced part of the debt to judgment once.</p></div>
     <p class="gate-timeline-peek"><span>Case timeline · 2 entries</span> Latest: August 2026 — Held Properties sues WealthStone and guarantor Andres Szita for roughly $1.1M in unpaid rent</p>
 
     <div class="matter-cta-row">
-      
       <div class="card matter-cta" id="matter-keep-reading" data-case-id-target="live-048">
         <div class="eyebrow">Free · no account needed</div>
         <h2 class="matter-h2">Keep reading</h2>
@@ -267,6 +278,7 @@
 
 <script src="/js/main.js"></script>
 <script src="/js/matter-page.js"></script>
+<script src="/js/newsletter-form.js"></script>
 <script src="/js/track.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script>
 <script src="/js/supabase-client.js"></script>

@@ -155,11 +155,22 @@
 
     <div id="matter-court" data-docket-url="" data-matter-id="live-055"></div>
 
+    <div class="card matter-cta matter-top-cta">
+      <div class="eyebrow">Weekly email</div>
+      <h2 class="matter-h2">New on CREdocket, every Monday</h2>
+      <p class="text-secondary">The week's new commercial real estate lawsuits, rulings in cases we follow, and market signals. Free; unsubscribe in one click.</p>
+      <form class="gate-form" data-newsletter-form novalidate>
+        <label class="sr-only" for="matter-nl-email">Email address</label>
+        <input type="email" id="matter-nl-email" autocomplete="email" placeholder="you@company.com" />
+        <button type="submit" class="btn btn-primary btn-sm">Subscribe</button>
+      </form>
+      <p class="gate-form-status" data-newsletter-status role="status"></p>
+    </div>
+
     <div class="gate-teaser matter-teaser"><p class="body-text">Atlanta's City Council voted unanimously to move toward condemning two apartment complexes it has designated as blighted, directing staff to return within 60 days with a detailed acquisition plan covering timeline, financing, redevelopment approach, and tenant relocation. Azalea Gardens, a nine-building, 92-unit complex owned for fifteen years by TYTA LLC, a New Jersey-registered entity, has run a negative cash flow for at least five years according to the city's presentation. Magnolia Park, a considerably larger 300-unit, 20-building complex on a 22-acre site, is owned by John Eagan Homes I and II LP, entities tied to Florida addresses.</p></div>
     <p class="gate-timeline-peek"><span>Case timeline · 1 entry</span> Latest: August 19, 2025 — Atlanta City Council unanimously approves a resolution directing staff to draft an eminent domain acquisition plan for both properties</p>
 
     <div class="matter-cta-row">
-      
       <div class="card matter-cta" id="matter-keep-reading" data-case-id-target="live-055">
         <div class="eyebrow">Free · no account needed</div>
         <h2 class="matter-h2">Keep reading</h2>
@@ -263,6 +274,7 @@
 
 <script src="/js/main.js"></script>
 <script src="/js/matter-page.js"></script>
+<script src="/js/newsletter-form.js"></script>
 <script src="/js/track.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script>
 <script src="/js/supabase-client.js"></script>

@@ -155,11 +155,22 @@
 
     <div id="matter-court" data-docket-url="" data-matter-id="live-036"></div>
 
+    <div class="card matter-cta matter-top-cta">
+      <div class="eyebrow">Weekly email</div>
+      <h2 class="matter-h2">New on CREdocket, every Monday</h2>
+      <p class="text-secondary">The week's new commercial real estate lawsuits, rulings in cases we follow, and market signals. Free; unsubscribe in one click.</p>
+      <form class="gate-form" data-newsletter-form novalidate>
+        <label class="sr-only" for="matter-nl-email">Email address</label>
+        <input type="email" id="matter-nl-email" autocomplete="email" placeholder="you@company.com" />
+        <button type="submit" class="btn btn-primary btn-sm">Subscribe</button>
+      </form>
+      <p class="gate-form-status" data-newsletter-status role="status"></p>
+    </div>
+
     <div class="gate-teaser matter-teaser"><p class="body-text">Philadelphia-based real estate investment firm Rubenstein Partners has admitted, in an August 12, 2026 answer filed in the Hamilton County Court of Common Pleas, that it defaulted on the $46.1 million mortgage loan secured by 312 Elm Street, a 26-story, 378,000-square-foot office tower in downtown Cincinnati. The admission comes just over two months after lender Wilmington Trust National Association, a Delaware-based affiliate of M&T Bank Corp., filed suit on June 7, 2026 seeking to foreclose and recover $39.6 million in outstanding principal, interest, late charges, and fees. It is the second time in under two years that the same lender has sued the same sponsor over a Cincinnati office tower acquired in the same 2015 transaction, deepening a foreclosure wave that has now touched five downtown high-rises.</p></div>
     <p class="gate-timeline-peek"><span>Case timeline · 5 entries</span> Latest: August 12, 2026 — Rubenstein Partners files an answer admitting every allegation, including the default</p>
 
     <div class="matter-cta-row">
-      
       <div class="card matter-cta" id="matter-keep-reading" data-case-id-target="live-036">
         <div class="eyebrow">Free · no account needed</div>
         <h2 class="matter-h2">Keep reading</h2>
@@ -273,6 +284,7 @@
 
 <script src="/js/main.js"></script>
 <script src="/js/matter-page.js"></script>
+<script src="/js/newsletter-form.js"></script>
 <script src="/js/track.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script>
 <script src="/js/supabase-client.js"></script>

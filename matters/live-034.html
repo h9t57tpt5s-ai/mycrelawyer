@@ -156,11 +156,22 @@
 
     <div id="matter-court" data-docket-url="" data-matter-id="live-034"></div>
 
+    <div class="card matter-cta matter-top-cta">
+      <div class="eyebrow">Weekly email</div>
+      <h2 class="matter-h2">New on CREdocket, every Monday</h2>
+      <p class="text-secondary">The week's new commercial real estate lawsuits, rulings in cases we follow, and market signals. Free; unsubscribe in one click.</p>
+      <form class="gate-form" data-newsletter-form novalidate>
+        <label class="sr-only" for="matter-nl-email">Email address</label>
+        <input type="email" id="matter-nl-email" autocomplete="email" placeholder="you@company.com" />
+        <button type="submit" class="btn btn-primary btn-sm">Subscribe</button>
+      </form>
+      <p class="gate-form-status" data-newsletter-status role="status"></p>
+    </div>
+
     <div class="gate-teaser matter-teaser"><p class="body-text">A District of Columbia trial court has handed down one of the largest construction-defect judgments against a publicly traded real estate company in recent memory, and the case is a pointed reminder to developers converting older buildings into luxury condominiums that a defective-construction claim dressed up as a consumer-protection violation can turn a multimillion-dollar dispute into a nine-figure one. On July 31, 2026, the Superior Court of the District of Columbia entered judgment in Wardman Tower Residential Condominium Unit Owners Association v. JBG Smith Properties, et al., No. 2020 CA 004807 B, awarding the unit owners' association $118,695,171 in compensatory damages and then trebling that figure under the D.C. Consumer Protection Procedures Act to roughly $356.1 million, with attorneys' fees still to be determined. JBG Smith, the Bethesda-based, NYSE-listed REIT best known as the master developer behind Amazon's HQ2 in Arlington, was hit hard enough by the ruling that it postponed release of its second-quarter 2026 financial results while it assessed the impact.</p></div>
     <p class="gate-timeline-peek"><span>Case timeline · 3 entries</span> Latest: July 31, 2026 — D.C. Superior Court enters a $118.7M judgment, trebled to roughly $356.1M under the CPPA, plus attorneys' fees to be determined</p>
 
     <div class="matter-cta-row">
-      
       <div class="card matter-cta" id="matter-keep-reading" data-case-id-target="live-034">
         <div class="eyebrow">Free · no account needed</div>
         <h2 class="matter-h2">Keep reading</h2>
@@ -265,6 +276,7 @@
 
 <script src="/js/main.js"></script>
 <script src="/js/matter-page.js"></script>
+<script src="/js/newsletter-form.js"></script>
 <script src="/js/track.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script>
 <script src="/js/supabase-client.js"></script>

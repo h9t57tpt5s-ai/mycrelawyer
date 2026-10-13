@@ -156,11 +156,22 @@
 
     <div id="matter-court" data-docket-url="" data-matter-id="live-041"></div>
 
+    <div class="card matter-cta matter-top-cta">
+      <div class="eyebrow">Weekly email</div>
+      <h2 class="matter-h2">New on CREdocket, every Monday</h2>
+      <p class="text-secondary">The week's new commercial real estate lawsuits, rulings in cases we follow, and market signals. Free; unsubscribe in one click.</p>
+      <form class="gate-form" data-newsletter-form novalidate>
+        <label class="sr-only" for="matter-nl-email">Email address</label>
+        <input type="email" id="matter-nl-email" autocomplete="email" placeholder="you@company.com" />
+        <button type="submit" class="btn btn-primary btn-sm">Subscribe</button>
+      </form>
+      <p class="gate-form-status" data-newsletter-status role="status"></p>
+    </div>
+
     <div class="gate-teaser matter-teaser"><p class="body-text">A commercial landlord's stumble on the first attempt to evict a nonpaying tenant did not cost him nearly $200,000 in back rent, the Massachusetts Appeals Court ruled on August 24, 2026, resolving a dispute that had turned into an unplanned tutorial on the interaction between summary process practice and claim-preclusion doctrine. The case began in the Roxbury Division of the Boston Municipal Court, where trustee Paul Eng filed a summary process action against tenant Chen's Food Enterprise, Inc. for nonpayment of rent. That first case was dismissed because Eng had not served the written notice to quit the lease required before litigation could begin, a common and generally fixable defect under Massachusetts practice. Eng served a corrected termination notice and filed a second summary process action.</p></div>
     <p class="gate-timeline-peek"><span>Case timeline · 2 entries</span> Latest: August 24, 2026 — Massachusetts Appeals Court reverses the Appellate Division and reinstates the landlord's $198,000 judgment</p>
 
     <div class="matter-cta-row">
-      
       <div class="card matter-cta" id="matter-keep-reading" data-case-id-target="live-041">
         <div class="eyebrow">Free · no account needed</div>
         <h2 class="matter-h2">Keep reading</h2>
@@ -268,6 +279,7 @@
 
 <script src="/js/main.js"></script>
 <script src="/js/matter-page.js"></script>
+<script src="/js/newsletter-form.js"></script>
 <script src="/js/track.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script>
 <script src="/js/supabase-client.js"></script>

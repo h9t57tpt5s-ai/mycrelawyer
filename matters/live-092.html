@@ -155,11 +155,22 @@
 
     <div id="matter-court" data-docket-url="" data-matter-id="live-092"></div>
 
+    <div class="card matter-cta matter-top-cta">
+      <div class="eyebrow">Weekly email</div>
+      <h2 class="matter-h2">New on CREdocket, every Monday</h2>
+      <p class="text-secondary">The week's new commercial real estate lawsuits, rulings in cases we follow, and market signals. Free; unsubscribe in one click.</p>
+      <form class="gate-form" data-newsletter-form novalidate>
+        <label class="sr-only" for="matter-nl-email">Email address</label>
+        <input type="email" id="matter-nl-email" autocomplete="email" placeholder="you@company.com" />
+        <button type="submit" class="btn btn-primary btn-sm">Subscribe</button>
+      </form>
+      <p class="gate-form-status" data-newsletter-status role="status"></p>
+    </div>
+
     <div class="gate-teaser matter-teaser"><p class="body-text">A Miami-based special servicer has filed suit to foreclose on a suburban Chicago shopping center controlled by embattled Austin investor Nate Paul, seeking roughly $46 million after a loan workout the parties struck barely a year ago broke down. The action, filed in the Circuit Court of Cook County, Illinois against WC MRP Calumet Center, LLC, adds another property to the long list of assets tied to Paul's World Class Holdings empire that have landed in foreclosure court, and it illustrates a pattern now recurring across the country's distressed CMBS market: loans that survive one round of forbearance are increasingly defaulting again once their reinstated terms come due.</p></div>
     <p class="gate-timeline-peek"><span>Case timeline · 3 entries</span> Latest: August 10, 2026 — Rialto Capital Advisors sues WC MRP Calumet Center, LLC in Cook County for approximately $46M after a second default</p>
 
     <div class="matter-cta-row">
-      
       <div class="card matter-cta" id="matter-keep-reading" data-case-id-target="live-092">
         <div class="eyebrow">Free · no account needed</div>
         <h2 class="matter-h2">Keep reading</h2>
@@ -273,6 +284,7 @@
 
 <script src="/js/main.js"></script>
 <script src="/js/matter-page.js"></script>
+<script src="/js/newsletter-form.js"></script>
 <script src="/js/track.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script>
 <script src="/js/supabase-client.js"></script>
