@@ -1,0 +1,46 @@
+name: Court opinion feeds
+
+# Runs scripts/pull_court_feeds.py: new opinions from CourtListener's public
+# per-court feeds (state supreme and appellate courts, federal circuits),
+# read from their PDF or HTML copies on storage.courtlistener.com, and merged
+# into ops/opinion-leads.json for the digest routine. Uses none of the
+# CourtListener API allowance, so it runs ahead of each of the four daily
+# digest runs (06, 12, 17 and 22 UTC).
+
+on:
+  schedule:
+    - cron: "37 5,11,16,21 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write # commits ops/opinion-leads.json
+
+concurrency:
+  group: opinion-leads
+  cancel-in-progress: false
+
+jobs:
+  feeds:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - name: Install the PDF reader
+        run: pip install --quiet pypdf==6.16.1
+      - name: Read the court feeds
+        run: python3 scripts/pull_court_feeds.py --days 3 --max-pdfs 80
+      - name: Commit the leads
+        run: |
+          git add ops/opinion-leads.json
+          if git diff --cached --quiet; then echo "Nothing new."; exit 0; fi
+          git config user.name "credocket-leads-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git commit -m "Leads: record new court opinions from the court feeds"
+          ok=0
+          for i in 1 2 3; do
+            if git pull --rebase origin main && git push; then ok=1; break; fi
+            sleep $((i * 10))
+          done
+          [ "$ok" = 1 ]

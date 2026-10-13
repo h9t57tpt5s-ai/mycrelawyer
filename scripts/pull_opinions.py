@@ -48,7 +48,9 @@ CRE_TERMS = re.compile(
     r"commercial lease|shopping center|office building|ground lease|retail space|warehouse|industrial|hotel|"
     r"guarant(y|or)|mortgage|deed of trust|foreclos|receiver|mechanic'?s lien|eminent domain|condemnation|"
     r"zoning|special use permit|variance|cmbs|special servicer|landlord|tenant improvement|purchase and sale agreement|"
-    r"easement|developer|commercial property|real property tax|assessment appeal|data center|construction defect", re.I)
+    r"easement|developer|commercial property|real property tax|assessment appeal|data center|construction defect|"
+    r"lease agreement|leased premises|commercial tenant|rent abatement|site plan|nonconforming use|"
+    r"declaration of taking|recorded plat", re.I)
 NOT_CRE = re.compile(
     r"residential tenant|homeowner|home ?owners association|single-family home|mobile home|manufactured home|"
     r"divorce|custody|criminal|sentenc|habeas|workers'? compensation|personal injury protection|"
