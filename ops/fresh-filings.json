@@ -1,7 +1,29 @@
 {
- "updatedAt": "2026-10-13T03:08:34+00:00",
+ "updatedAt": "2026-10-13T18:30:28+00:00",
  "about": "Commercial real estate Chapter 11 petitions filed in the last four days, from federal court records via CourtListener. Same name test as Chapter 11 Watch (is_cre_debtor in scripts/ingest_court_filings.py). Business debtors only.",
  "filings": [
+  {
+   "caseName": "30 QUABECK AVENUE LLC",
+   "court": "United States Bankruptcy Court, D. New Jersey",
+   "courtId": "njb",
+   "docketNumber": "26-21578",
+   "dateFiled": "2026-10-13",
+   "docketUrl": "https://www.courtlistener.com/docket/74952134/30-quabeck-avenue-llc/",
+   "docketId": 74952134,
+   "slug": "30-quabeck-avenue-llc-njb-26-21578",
+   "type": "Chapter 11 petition"
+  },
+  {
+   "caseName": "A&J Realty Miami, LLC",
+   "court": "United States Bankruptcy Court, S.D. Florida.",
+   "courtId": "flsb",
+   "docketNumber": "26-23604",
+   "dateFiled": "2026-10-12",
+   "docketUrl": "https://www.courtlistener.com/docket/74950462/aj-realty-miami-llc/",
+   "docketId": 74950462,
+   "slug": "a-j-realty-miami-llc-flsb-26-23604",
+   "type": "Chapter 11 petition"
+  },
   {
    "caseName": "2911 Creative, L.L.C.",
    "court": "United States Bankruptcy Court, E.D. North Carolina",

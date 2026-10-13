@@ -1,7 +1,20 @@
 {
- "updatedAt": "2026-10-13T03:08:34+00:00",
+ "updatedAt": "2026-10-13T18:30:28+00:00",
  "about": "New federal civil cases between businesses or governments that name a commercial real estate business, or are real property foreclosure or lease cases between businesses, from federal court records via CourtListener; is_cre_suit in scripts/ingest_court_filings.py decides which. Builds lawsuit-watch.html and federal-cases/<slug>.html (scripts/build_record_pages.ts).",
  "filings": [
+  {
+   "caseName": "OWNERS INSURANCE COMPANY v. BUDD COMMERCIAL REAL ESTATE LLC",
+   "court": "District Court, M.D. Georgia",
+   "courtId": "gamd",
+   "docketNumber": "7:26-cv-00312",
+   "dateFiled": "2026-10-13",
+   "docketUrl": "https://www.courtlistener.com/docket/74954259/owners-insurance-company-v-budd-commercial-real-estate-llc/",
+   "docketId": 74954259,
+   "suitNature": "",
+   "cause": "",
+   "slug": "owners-insurance-company-v-budd-commercial-real-estate-llc-gamd-7-26-cv-00312",
+   "type": "Federal civil case"
+  },
   {
    "caseName": "U.S. BANK TRUST NATIONAL ASSOCIATION NOT IN ITS INDIVIDUAL CAPACITY BUT SOLELY AS TRUSTEE OF GREENE STREET FUNDING TRUST II v. NORRIS AVENUE ESTATES LLC",
    "court": "District Court, E.D. Pennsylvania",
