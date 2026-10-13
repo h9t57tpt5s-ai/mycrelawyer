@@ -1,0 +1,22 @@
+{
+ "id": "live-271",
+ "title": "Computershare Trust (BMO 2024-5C5) v. Starwood Mortgage Capital: $46.85M CMBS Loan Repurchase Suit Removed to Federal Court Over Undisclosed Senior Lien",
+ "category": "lending-foreclosure",
+ "status": "pending",
+ "date": "2026-10-09",
+ "jurisdiction": "U.S. District Court, Southern District of New York (removed from New York Supreme Court, New York County)",
+ "state": "NY",
+ "amount": "$46.85 million mortgage loan",
+ "source": "live",
+ "source_url": "https://www.mpamag.com/us/specialty/commercial/trust-sues-starwood-over-4685m-loan-with-hidden-lien/593173",
+ "summary": "On October 9, 2026, Starwood Mortgage Capital LLC removed to Manhattan federal court a suit by the trustee of the BMO 2024-5C5 CMBS trust. The trust says Starwood sold it a $46.85 million loan on two Harris County, Texas properties, The Pointe and Oak Shadows, that was never a first lien. A previously recorded $27.6 million deed of trust held by Thistle Creek Partners, LP was allegedly foreclosed, wiping out the trust's collateral. The trust wants Starwood to repurchase the loan or pay at least the repurchase price.",
+ "significance": "This is the second rep-and-warranty repurchase suit against the Starwood Property Trust conduit lender this year. The claim is basic: the loan was represented as a first lien, and the trust says it wasn't. Loan sellers face repurchase risk when title and lien-priority diligence fails. CMBS holders and special servicers can see how a Material Defect claim moves from demand letter to litigation.",
+ "judge": null,
+ "tags": [
+  "cmbs",
+  "repurchase",
+  "rep and warranty",
+  "lien priority",
+  "starwood"
+ ]
+}

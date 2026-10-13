@@ -8260,6 +8260,45 @@ const RELAW_DATA = {
         { when: "December 11, 2025", label: "Judgment entered against plaintiffs for $850,000 plus prejudgment interest" },
         { when: "October 6, 2026", label: "Appellate Division, First Department unanimously affirms judgment and contempt order", current: true }
       ]
+    },
+    {
+      id: "live-271",
+      addedDate: "2026-10-13",
+      title: "Computershare Trust (BMO 2024-5C5) v. Starwood Mortgage Capital: $46.85M CMBS Loan Repurchase Suit Removed to Federal Court Over Undisclosed Senior Lien",
+      category: "lending-foreclosure",
+      status: "pending",
+      date: "2026-10-09",
+      jurisdiction: "U.S. District Court, Southern District of New York (removed from New York Supreme Court, New York County)",
+      state: "NY",
+      amount: "$46.85 million mortgage loan",
+      source: "live",
+      sourceUrl: "https://www.mpamag.com/us/specialty/commercial/trust-sues-starwood-over-4685m-loan-with-hidden-lien/593173",
+      summary: "On October 9, 2026, Starwood Mortgage Capital LLC removed to Manhattan federal court a suit by the trustee of the BMO 2024-5C5 CMBS trust. The trust says Starwood sold it a $46.85 million loan on two Harris County, Texas properties, The Pointe and Oak Shadows, that was never a first lien. A previously recorded $27.6 million deed of trust held by Thistle Creek Partners, LP was allegedly foreclosed, wiping out the trust's collateral. The trust wants Starwood to repurchase the loan or pay at least the repurchase price.",
+      significance: "This is the second rep-and-warranty repurchase suit against the Starwood Property Trust conduit lender this year. The claim is basic: the loan was represented as a first lien, and the trust says it wasn't. Loan sellers face repurchase risk when title and lien-priority diligence fails. CMBS holders and special servicers can see how a Material Defect claim moves from demand letter to litigation.",
+      body: [
+        "On October 9, 2026, Starwood Mortgage Capital LLC filed a notice removing a breach-of-contract suit from New York Supreme Court, New York County (Index No. 655096/2026), to the U.S. District Court for the Southern District of New York, where it is No. 1:26-cv-08961. The plaintiff is Computershare Trust Company, National Association, suing as trustee for the holders of the BMO 2024-5C5 Mortgage Trust certificates. The trustee filed the complaint in state court on September 4, 2026. Starwood's corporate disclosure statement names Starwood Property Trust, Inc. as its parent. The federal case is based on diversity jurisdiction.",
+        "The dispute concerns a $46,850,000 commercial mortgage loan that Starwood originated in April 2024 and sold into the trust. The loan was secured by two properties in Harris County, Texas, known as The Pointe and Oak Shadows. In the mortgage loan purchase agreement, the complaint says, Starwood represented that the deed of trust was a valid first lien, that no senior mortgage liens existed, and that the loan documents were enforceable and gave the lender workable remedies.",
+        "The trust says none of that was true. According to the complaint as reported by Mortgage Professional, Thistle Creek Partners, LP already held a recorded $27,601,000 deed of trust on the properties before Starwood made its loan. Thistle Creek later foreclosed under its Texas power of sale and took title through one or more affiliates, and the complaint says that foreclosure eliminated the trust's lien. Special servicer CWCapital Asset Management LLC classified the breaches as a Material Defect and sent a demand on or about May 26, 2026, giving Starwood 90 days to cure, repurchase or substitute the loan. The trust says Starwood did none of those things.",
+        "Starwood's own SEC filings confirm the demand. A Form ABS-15G repurchase report filed by Starwood Mortgage Capital lists the May 26, 2026 letter from CWCapital on The Pointe and Oak Shadows loan in the BMO 2024-5C5 deal. It shows a reported balance of about $33.4 million, 3.3% of that pool, and states that the cure period had not run and that Starwood was reviewing the letter. The same report shows a separate pending repurchase fight over a $54.5 million loan in the BBCMS 2023-C19 trust, which a trustee took to the Southern District of New York in March 2026.",
+        "The trust seeks an order compelling repurchase or substitution, damages of no less than the contractual purchase price, and attorneys' fees, costs and interest. Starwood has appeared through counsel but has not answered. No judge was identified in the sources reviewed. Now that the case is in federal court, the likely early issues are whether the lien-priority representations were breached as written, whether repurchase is the trust's sole remedy, and how the purchase price should be calculated.",
+        "For loan sellers, the case shows that a rep-and-warranty claim can rest on a recorded senior lien, which leaves little factual room to argue. Originators should confirm that title commitments and payoff or subordination documents actually clear every recorded deed of trust before closing and securitizing a loan. Certificate holders and special servicers can follow the procedure here: a documented Material Defect finding, a formal 90-day demand, then suit. CMBS investors should note how quickly a hidden senior lien and a foreclosure can leave a loan with no collateral."
+      ],
+      tags: ["cmbs", "repurchase", "rep and warranty", "lien priority", "starwood"],
+      parties: [
+        { name: "Computershare Trust Company, National Association, as Trustee, on behalf of the Registered Holders of BMO 2024-5C5 Mortgage Trust, Commercial Mortgage Pass-Through Certificates, Series 2024-5C5", role: "Plaintiff" },
+        { name: "Starwood Mortgage Capital LLC", role: "Defendant (loan seller)" },
+        { name: "CWCapital Asset Management LLC", role: "Special Servicer" },
+        { name: "Thistle Creek Partners, LP", role: "Alleged senior lienholder (non-party)" }
+      ],
+      judge: null,
+      amountUsd: 46850000,
+      amountBasis: "loan",
+      timeline: [
+        { when: "April 2024", label: "Starwood originates $46.85 million loan on The Pointe and Oak Shadows" },
+        { when: "May 26, 2026", label: "Special servicer sends repurchase demand alleging Material Defect" },
+        { when: "September 4, 2026", label: "Trustee sues in New York Supreme Court, New York County (Index No. 655096/2026)" },
+        { when: "October 9, 2026", label: "Starwood removes case to S.D.N.Y. (No. 1:26-cv-08961)", current: true }
+      ]
     }
   ],
 
