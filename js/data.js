@@ -8031,6 +8031,87 @@ const RELAW_DATA = {
         { when: "June 2025", label: "Microsoft added as a defendant in the worker's Kings County personal-injury suit" },
         { when: "October 9, 2026", label: "Microsoft sues JLL in New York County Supreme Court over defense, indemnity and insurance", current: true }
       ]
+    },
+    {
+      id: "live-265",
+      addedDate: "2026-10-13",
+      title: "In re Southbridge Associates LLC: Wellsworth Hotel Owner Files Chapter 11 a Day Before Lender's Foreclosure Auction",
+      category: "lending-foreclosure",
+      status: "filed",
+      date: "2026-10-06",
+      jurisdiction: "U.S. Bankruptcy Court, District of Massachusetts",
+      state: "MA",
+      amount: "$13.25 million hotel loan",
+      source: "live",
+      sourceUrl: "https://www.courtlistener.com/docket/74927117/1/southbridge-associates-llc/",
+      docketUrl: "https://www.courtlistener.com/docket/74927117/southbridge-associates-llc/",
+      docketLabel: "CourtListener docket",
+      propertyType: "Hospitality",
+      summary: "Southbridge Associates LLC, which owns the 203-room Wellsworth Hotel and conference center complex at 14 Mechanic Street in Southbridge, Massachusetts, filed a Chapter 11 petition on October 6, 2026. The filing came one day before October 7 foreclosure auctions of the hotel site and the on-site power plant equipment that had been scheduled on behalf of lender X-Caliber Rural Capital, which made a $13.25 million loan on the property in 2022. A cash collateral motion was docketed on October 8, and an affiliate, Southbridge Associates II LLC, had already filed its own Chapter 11 case on September 21.",
+      significance: "The case is a textbook eve-of-auction filing: the automatic stay generally freezes a mortgagee's sale the moment the petition is filed, shifting the fight from the auction block to the bankruptcy court's cash collateral and stay-relief hearings. Hotel lenders should note how quickly the cash collateral fight arrives, since room and event revenue is both the lender's collateral and the debtor's operating budget.",
+      body: [
+        "Southbridge Associates LLC filed a voluntary Chapter 11 petition in the U.S. Bankruptcy Court for the District of Massachusetts on October 6, 2026 (Case No. 26-41208). The petition lists its principal assets at 14 Mechanic Street in Southbridge, the former American Optical Company factory campus that now houses the Wellsworth Hotel. According to Banker & Tradesman, the 10-acre site includes a 203-room hotel, about 19,400 square feet of meeting and event space, an auditorium, and roughly 72,400 square feet of office space, only part of which is leased. The petition estimates liabilities of $10 million to $50 million and assets of no more than $50,000, and states that funds will be available for unsecured creditors.",
+        "The filing landed the day before two foreclosure auctions set for October 7. Banker & Tradesman reported in early September that an auction of the hotel and conference center had been scheduled, along with a separate sale of personal property and collateral tied to the 1.1-megawatt cogeneration plant that heats and cools the complex. The secured lender is X-Caliber Rural Capital, which made a $13.25 million loan in 2022. The cogeneration plant was separately financed in 2019 with a $6 million loan from MassDevelopment and Middlesex Savings Bank, according to the same report.",
+        "The new Chapter 11 case moved quickly. X-Caliber Rural Capital, LLC entered an appearance on October 7, the same day the court ordered the debtor to file its list of 20 largest unsecured creditors by October 8 or risk dismissal. On October 8 the creditor list was filed, along with a cash collateral motion and a separate motion for an order or authority (the public docket text does not show who filed the motions), and on October 9 the court entered orders setting hearings. An investor entity, Southbridge Conference Investors, LLC, has also appeared. The petition discloses a related case: Southbridge Associates II LLC filed for Chapter 11 in the same court on September 21, 2026 (Case No. 26-41128); CourtListener's record of that case lists X-Caliber Rural Bridge LLC among its parties. Both cases are assigned to Judge Elizabeth D. Katz. Schedules are due October 21, and the meeting of creditors is set for November 2.",
+        "The practical takeaways are familiar but worth restating. A borrower facing a scheduled mortgagee sale can stop it with a petition filed the night before, so lenders should build the bankruptcy response into the foreclosure timeline rather than treat the auction date as the finish line. For a hotel, the first real contest is usually cash collateral, because room and event revenue is both the lender's collateral and the debtor's operating budget, and adequate-protection terms set early tend to frame the rest of the case. Where a lender has already alleged diversion of property funds, it can be expected to press for tight reporting, replacement liens and, if the debtor cannot show a feasible path, stay relief or dismissal. Buyers who were circling the October 7 auction will now have to watch for a court-supervised sale process instead."
+      ],
+      tags: ["chapter 11", "hotel", "foreclosure auction", "cash collateral", "massachusetts"],
+      parties: [
+        { name: "Southbridge Associates LLC", role: "Debtor" },
+        { name: "Southbridge Associates II LLC", role: "Affiliated Debtor" },
+        { name: "X-Caliber Rural Capital, LLC", role: "Lender" },
+        { name: "Southbridge Conference Investors, LLC", role: "Interested Party" }
+      ],
+      judge: "Elizabeth D. Katz",
+      amountUsd: 13250000,
+      amountBasis: "loan",
+      timeline: [
+        { when: "September 4, 2026", label: "Banker & Tradesman reports October 7 foreclosure auctions of the hotel site and cogeneration plant collateral" },
+        { when: "September 21, 2026", label: "Affiliate Southbridge Associates II LLC files Chapter 11 (Case No. 26-41128)" },
+        { when: "October 6, 2026", label: "Southbridge Associates LLC files Chapter 11 petition (Case No. 26-41208)" },
+        { when: "October 7, 2026", label: "X-Caliber Rural Capital, LLC appears; court orders debtor to file its top-20 creditor list" },
+        { when: "October 8, 2026", label: "Cash collateral motion docketed; court sets hearings the next day", current: true }
+      ]
+    },
+    {
+      id: "live-266",
+      addedDate: "2026-10-13",
+      title: "In re Travis Property Owner LLC: Owner of 354-Unit The Travis Apartments Near Frisco Files Chapter 11 With ACORE as Creditor",
+      category: "lending-foreclosure",
+      status: "filed",
+      date: "2026-10-06",
+      jurisdiction: "U.S. Bankruptcy Court, Northern District of Texas",
+      state: "TX",
+      amount: "More than $50 million in debt; $73.4 million acquisition loan (2022)",
+      source: "live",
+      sourceUrl: "https://www.law360.com/bankruptcy-authority/mid-cap/articles/2535210",
+      docketUrl: "https://www.courtlistener.com/docket/74922581/travis-property-owner-llc/",
+      docketLabel: "CourtListener docket",
+      propertyType: "Multifamily",
+      summary: "Travis Property Owner LLC, a single-asset real estate entity that owns The Travis apartment community at 900 Gordon Heights Lane in Lakewood Village, Texas, filed a Chapter 11 petition minutes after midnight on October 6, 2026. Law360 reported that the debtor listed more than $50 million in debt, and the petition puts both assets and liabilities in the $50 million to $100 million range. Acore Capital Mortgage, L.P. appeared as a creditor the same day (a 2022 trade report says ACORE Capital financed the property's purchase with a $73.4 million loan), and a cash collateral motion and request for an expedited hearing were docketed on October 8.",
+      significance: "The Travis is a 2021-vintage Class A suburban Dallas-area property bought in mid-2022 with short-term, interest-only acquisition debt, a financing profile that leaves little room when the loan term runs out. The case will test how much room a single-asset debtor has against its secured lender: SARE debtors face a 90-day deadline to file a confirmable plan or start paying interest, and the petition itself forecasts nothing for unsecured creditors. Lenders and owners holding similar short-term debt from 2021-2022 should watch the cash collateral terms and any stay-relief motion.",
+      body: [
+        "Travis Property Owner LLC filed a voluntary Chapter 11 petition in the U.S. Bankruptcy Court for the Northern District of Texas at 12:10 a.m. on October 6, 2026 (Case No. 26-90220). Law360 described the debtor as a single-asset real estate holding company tied to an apartment complex near Dallas with more than $50 million in debt. Bondoro's filing alert identifies the property as The Travis, a multifamily complex in Lakewood Village, and reports that the petition estimates assets and liabilities of $50 million to $100 million each and states that, after administrative expenses, nothing is expected to be left for unsecured creditors. The debtor's listed address is 900 Gordon Heights Lane.",
+        "That address matches The Travis as described in a June 29, 2022 Multi-Housing News report. According to that report, the 354-unit, four-story community was completed in 2021 by its developer, Westwood Residential, and was then acquired by TTI Capital with a $73.4 million loan from ACORE Capital, a three-year, interest-only acquisition note, based on Denton County records. The report places the property about eight miles from downtown Frisco, just south of U.S. 380. No source located for this entry states the current loan balance or whether the 2022 note was extended or modified before the filing.",
+        "The docket shows the lender side engaging immediately. On the petition date, Acore Capital Mortgage, L.P. and the County of Denton, Texas, a taxing authority, each filed notices of appearance as creditors. On October 8 a cash collateral motion, two motions for leave and a motion to expedite a hearing were docketed; the public docket text does not identify the filer, though cash collateral motions in single-asset cases are ordinarily brought by the debtor. The court approved the expedited-hearing request on October 9, and a notice of hearing followed on October 10. The case is assigned to Judge Mark X. Mullin. Schedules are due October 20, the meeting of creditors is set for November 10, and the docket sets February 3, 2027 as the deadline for a plan and disclosure statement.",
+        "The timing is notable. The petition was filed in the first minutes of the first Tuesday of October, which is the day Texas law sets aside each month for nonjudicial foreclosure sales. No source reviewed for this entry confirms that the property had been posted for a sale that day, so the filing should not be read as proof of a scheduled foreclosure, but a just-after-midnight filing on sale day is a common pattern for borrowers seeking to stop one.",
+        "For lenders and owners, the case shows where the next phase of multifamily distress is playing out. Properties bought in 2021 and 2022 with short-term acquisition debt are now reaching the end of those loan terms, and a Chapter 11 filing by a single-asset owner is one way to buy time when a refinancing or sale has not come together. Because the debtor checked the single-asset real estate box, it faces the Bankruptcy Code's accelerated timetable: within 90 days it generally must either file a plan with a reasonable chance of confirmation or begin monthly interest payments to the secured lender, or face stay relief. The cash collateral hearing will be the first indicator of how much leverage each side holds, and any agreed adequate-protection payments will hint at whether a consensual restructuring or a sale is more likely."
+      ],
+      tags: ["chapter 11", "multifamily", "single asset real estate", "acquisition loan", "dallas-fort worth"],
+      parties: [
+        { name: "Travis Property Owner LLC", role: "Debtor" },
+        { name: "Acore Capital Mortgage, L.P.", role: "Creditor" },
+        { name: "The County of Denton, Texas", role: "Creditor" }
+      ],
+      judge: "Mark X. Mullin",
+      amountUsd: 73400000,
+      amountBasis: "loan",
+      timeline: [
+        { when: "June 29, 2022", label: "Multi-Housing News reports the purchase of The Travis with a $73.4 million, three-year interest-only ACORE Capital loan" },
+        { when: "October 6, 2026", label: "Travis Property Owner LLC files Chapter 11 petition (Case No. 26-90220); Acore Capital Mortgage, L.P. appears" },
+        { when: "October 8, 2026", label: "Cash collateral motion and request for expedited hearing docketed" },
+        { when: "October 9, 2026", label: "Court approves expedited hearing request; notice of hearing issued October 10", current: true }
+      ]
     }
   ],
 
