@@ -8574,6 +8574,157 @@ const RELAW_DATA = {
         { when: "April 2025", label: "City obtains court order to evacuate and secure the Paxton Avenue building" },
         { when: "October 10, 2026", label: "Foreclosure suit in Cook County Circuit Court reported (filed earlier in October)", current: true }
       ]
+    },
+    {
+      id: "live-279",
+      addedDate: "2026-10-13",
+      title: "Pacific Collective, LLC v. TGS CC Ventures, LLC: California Appeals Court Holds Build-to-Suit Landlord's Slow Land Purchase Let Jushi Unit Rescind Culver City Dispensary Lease",
+      category: "lease-disputes",
+      status: "ruling",
+      date: "2026-10-12",
+      jurisdiction: "California Court of Appeal, Second Appellate District, Division Three",
+      state: "CA",
+      amount: "Damages alleged to exceed $20 million; $4.2 million land purchase",
+      source: "live",
+      sourceUrl: "https://www4.courts.ca.gov/opinions/nonpub/B339582.PDF",
+      propertyType: "Retail",
+      summary: "On October 12, 2026, a California Court of Appeal panel affirmed a judgment for cannabis retailer TGS CC Ventures, LLC and its parent and lease guarantor Jushi, Inc. in a suit by developer Pacific Collective, LLC over a 15-year build-to-suit lease for a dispensary at 3800 Sepulveda Boulevard in Culver City. The court held that the lease implicitly required Pacific to buy the land from ExxonMobil within a reasonable time, and that substantial evidence supported the referee's finding that its delay justified TGS's February 2020 rescission. Pacific had alleged damages of more than $20 million against the tenant and guarantor.",
+      significance: "The decision is a warning to build-to-suit developers who sign a lease before they control the land: if the lease sets no outside date for acquiring title, California courts will imply a reasonable time, and strategic delay to save financing costs can hand the tenant a rescission right. It also shows that a tenant's guaranty falls with the lease when the landlord is the party in material breach.",
+      body: [
+        "Pacific Collective, LLC, a real estate developer, learned in 2018 that ExxonMobil Oil Corporation was selling a parcel at 3800 Sepulveda Boulevard in Culver City that sat inside the city's zone for retail cannabis dispensaries. Pacific signed an option with ExxonMobil in September 2018 and, on September 26, 2018, signed a lease with TGS CC Ventures, LLC, a subsidiary of national cannabis operator Jushi, Inc. Jushi signed a guaranty of the tenant's obligations the next day. Pacific was to buy the land, build a 5,000 square foot building at a cost of no more than $1.75 million, and rent it to TGS for 15 years at a starting rent of $20 per square foot, while TGS pursued a city cannabis license.",
+        "The lease was made contingent on Pacific acquiring fee title under a purchase agreement with ExxonMobil that had not yet been drafted, and it gave no deadline for closing. Pacific let the option lapse and obtained extensions, signed a $4.2 million purchase agreement only in November 2019, missed the deadline for its $70,000 earnest money deposit, and by early 2020 still had no financing in place. TGS, which had been selected by the city to move forward in the licensing process, would not file its next city submission naming Pacific as owner while Pacific did not own the property. After a failed renegotiation, TGS rescinded the lease on February 28, 2020, and in December 2020 bought the property from ExxonMobil itself.",
+        "Pacific sued TGS for breach of the lease and Jushi for breach of the guaranty in October 2022, alleging damages above $20 million. A retired judge sitting as a referee under the lease's dispute resolution clause tried the case over five days in January 2024 and found that Pacific never had the funds or loan commitments to close, had been stalling, and was in material breach of a lease that made time of the essence. The trial court entered judgment for the defendants on May 28, 2024.",
+        "On appeal, the Second District accepted that the lease's reference to acquiring title under the purchase agreement could be read to tie Pacific's deadline to the ExxonMobil contract, but refused to let that reading give Pacific unlimited control over its own performance. Applying Civil Code section 1657 and the implied covenant of good faith, the panel held that Pacific had to close within a reasonable time. It found ample support for the referee's conclusion that Pacific's delay was unreasonable, pointing to the option terms that contemplated a 2019 closing and to testimony that the delay was a deliberate cost-saving choice.",
+        "The court also rejected Pacific's argument that its duty to buy the land was excused until TGS obtained its cannabis license. Nothing in the lease made the purchase conditional on licensing, while a separate clause expressly deferred construction until permits issued, which the panel read as showing the parties knew how to write such a condition when they wanted one. The court called the risk of buying land before licensing the deal Pacific struck. The judgment for TGS and Jushi was affirmed and they were awarded appellate costs. The opinion is unpublished; an order filed October 13 corrected only the trial court case number.",
+        "For developers, the practical point is to put a firm acquisition deadline, financing contingency or licensing condition in writing in any lease signed before closing on the land, rather than relying on a pending purchase contract. Tenants and guarantors, for their part, can use the reasonable-time rule to exit a deal when a landlord's delay goes to the heart of the bargain, provided they document repeated requests to perform, as TGS did here."
+      ],
+      tags: ["build-to-suit", "lease rescission", "guaranty", "cannabis", "california"],
+      parties: [
+        { name: "Pacific Collective, LLC", role: "Plaintiff/Appellant (Landlord)" },
+        { name: "TGS CC Ventures, LLC", role: "Defendant/Respondent (Tenant)" },
+        { name: "Jushi, Inc.", role: "Defendant/Respondent (Guarantor)" }
+      ],
+      judge: null,
+      amountUsd: null,
+      timeline: [
+        { when: "September 26, 2018", label: "Pacific Collective and TGS sign 15-year build-to-suit lease; Jushi guarantees it the next day" },
+        { when: "November 5, 2019", label: "Pacific signs $4.2 million agreement to buy the site from ExxonMobil" },
+        { when: "February 28, 2020", label: "TGS rescinds the lease, citing Pacific's failure to perform within a reasonable time" },
+        { when: "October 2022", label: "Pacific sues TGS and guarantor Jushi, alleging damages over $20 million" },
+        { when: "May 28, 2024", label: "Judgment entered for TGS and Jushi after referee trial" },
+        { when: "October 12, 2026", label: "Court of Appeal affirms judgment for tenant and guarantor", current: true }
+      ]
+    },
+    {
+      id: "live-280",
+      addedDate: "2026-10-13",
+      title: "First Department Affirms $1.2 Million Jury Verdict for Preschool Tenant Against Bohemian Brethren Presbyterian Church Over Uncleared Building Violations",
+      category: "lease-disputes",
+      status: "ruling",
+      date: "2026-10-13",
+      jurisdiction: "New York Supreme Court, Appellate Division, First Department",
+      state: "NY",
+      amount: "$1,216,177.36 judgment",
+      source: "live",
+      sourceUrl: "https://www.nycourts.gov/reporter/current/3dseries/2026/2026_05909.shtml",
+      summary: "On October 13, 2026, the Appellate Division, First Department unanimously affirmed a $1,216,177.36 jury judgment for a preschool operator, Ordinary Faces LLC, and its founder against their landlord, Bohemian Brethren Presbyterian Church. The jury found the church breached lease provisions requiring it to cooperate in obtaining city approvals and to act diligently on a fire alarm system, which kept the tenant from getting the Department of Buildings sign-off it needed to run the school. The court upheld the lost-profits award, held a rent abatement was not the tenant's only remedy, and ruled that a landlord-liability cap did not bar recovery after the church sold the building.",
+      significance: "The ruling shows that a landlord's general duty to cooperate with a tenant's approvals can support a large lost-profits award when uncured violations on parts of the building outside the leased premises block the tenant's use. It also confirms that a standard clause limiting the tenant to the landlord's interest in the building still reaches sale proceeds, and that a landlord can lose a lease's jury waiver by raising it too late.",
+      body: [
+        "Ordinary Faces LLC leased space from Bohemian Brethren Presbyterian Church to operate a preschool in a New York City building. To run the school, the tenant needed a letter of no objection from the city Department of Buildings. The Department initially refused because the building lacked a working fire alarm system, and the Fire Department did not sign off on an alarm until July 26, 2016, nearly two years after the lease was signed. Open Department of Buildings violations tied to a defunct dumbwaiter shaft, in a part of the building outside the leased premises, also stood in the way of a permanent letter.",
+        "The tenant and its founder sued the church in New York County Supreme Court in 2017. After a jury trial before Justice Joel M. Cohen, judgment was entered on August 20, 2025 awarding the plaintiffs $1,216,177.36. The church appealed the judgment and several pretrial and post-trial rulings, including the denial of its motion to set aside the verdict and its motion to strike the jury demand.",
+        "The First Department found the evidence sufficient. It held that the church breached section 18(a) of the lease, which required it to cooperate in obtaining approvals for the school, by never having its elevator company file the paperwork needed to clear the violations, and breached a lease rider requiring both sides to move expeditiously and diligently on the fire alarm. Because the violations were issued against areas the tenant did not lease, the court said curing them was the landlord's job. A church officer's own testimony that the requested filing was never made helped seal the point.",
+        "The panel rejected the church's argument that a 50 percent rent abatement from January through August 2015 was the tenant's sole remedy, noting that the rider did not say so. It also upheld the lost-profits portion of the award, $734,353, or roughly two and a half years of projected profits. The tenant had built its figures from operating data for a preschool that had occupied the same space for nearly 40 years, data the church itself supplied, and its first-year results matched its projections; the church offered no contrary evidence.",
+        "Two lease defenses also failed. Section 19 limited the tenant to the landlord's estate and interest in the building and its rents, but the court held that language allows recovery from the proceeds of the church's 2019 sale of the building, and the church offered no proof the award exceeded its sale profits. The church's reliance on the lease's jury waivers came four months after the note of issue and after its counsel had told the court there was no dispute about a jury, so the trial court properly found the waiver itself had been waived. The court also declined to order a new trial over brief, unsolicited testimony about the founder's personal history, which the church had not objected to at trial.",
+        "For landlords, the decision is a reminder that cooperation and diligence clauses in leases to schools, medical users and other permit-dependent tenants carry real damages exposure, especially for violations in common or non-demised areas only the owner can cure. Owners who want abatement to be an exclusive remedy, or who want to keep a jury waiver, need to say so expressly and enforce it early. Tenants should document the owner's specific failures to file or cure, as this tenant did."
+      ],
+      tags: ["commercial lease", "lost profits", "building violations", "jury waiver", "new york"],
+      parties: [
+        { name: "Ordinary Faces LLC", role: "Plaintiff-Respondent (Tenant)" },
+        { name: "Bohemian Brethren Presbyterian Church", role: "Defendant-Appellant (Landlord)" }
+      ],
+      judge: "Joel M. Cohen",
+      amountUsd: 1216177.36,
+      amountBasis: "judgment",
+      timeline: [
+        { when: "January 2015", label: "Tenant begins receiving a 50 percent rent abatement, which runs through August 2015" },
+        { when: "July 26, 2016", label: "Fire Department signs off on the fire alarm system, nearly two years after the lease was signed" },
+        { when: "2019", label: "Church sells the building" },
+        { when: "August 20, 2025", label: "Judgment entered on jury verdict awarding $1,216,177.36" },
+        { when: "October 13, 2026", label: "Appellate Division, First Department unanimously affirms", current: true }
+      ]
+    },
+    {
+      id: "live-281",
+      addedDate: "2026-10-13",
+      title: "Recycled Properties, LLC v. City Council of the City of Chesapeake: Virginia Appeals Court Upholds Denial of Warehouse and Office Site Plan as Expansion of Nonconforming Landfill Use",
+      category: "zoning-land-use",
+      status: "ruling",
+      date: "2026-10-13",
+      jurisdiction: "Court of Appeals of Virginia",
+      state: "VA",
+      amount: "Site plan approval; statutory damages claim dismissed",
+      source: "live",
+      sourceUrl: "https://storage.courtlistener.com/pdf/2026/10/13/recycled_properties_llc_v._the_city_council_of_the_city_of_chesapeake.pdf",
+      propertyType: "Industrial",
+      summary: "On October 13, 2026, the Court of Appeals of Virginia affirmed the dismissal of Recycled Properties, LLC's challenge to the City of Chesapeake's refusal to approve a site plan for a warehouse and office building at its construction-debris landfill. The city had found the buildings would expand a legally nonconforming use and asked for more information and a conditional use permit. The court held the owner's complaint, read with the city's denial letter attached to it, did not plead facts showing the denial was arbitrary or outside the zoning ordinance.",
+      significance: "Owners of grandfathered industrial sites often assume they can add support buildings without new approvals; this ruling shows Virginia localities can block new structures that support a nonconforming use and can demand more information before approving a site plan. It also shows how attaching a denial letter to a complaint can sink a site plan appeal at the pleading stage if the complaint does not factually rebut each stated ground.",
+      body: [
+        "Recycled Properties, LLC operates a construction and demolition debris landfill and borrow pit in Chesapeake, Virginia, uses that are legally nonconforming under the city's current zoning. In May 2024 it submitted a site plan to the city's Department of Development and Permits to put up a warehouse and an office building on the property. In August 2024 the city disapproved the plan, reasoning that the buildings would expand the nonconforming use, that it lacked enough information about how the buildings would be used, and that a conditional use permit for the nonconforming operations would be needed before approval. The city also cited past zoning violations, a ground it later withdrew.",
+        "The owner appealed to the Chesapeake Circuit Court under the Virginia statutes that let an applicant challenge a site plan disapproval as unsupported by the ordinance or arbitrary and capricious. It argued that the zoning ordinance did not require it to prove the buildings were not an expansion, did not authorize a demand for more information, and did not allow the city to require a conditional use permit for existing operations. It separately sought damages under a state statute addressing unconstitutional conditions on land use approvals. The city demurred, and the circuit court sustained the demurrer while noting the owner could file a new site plan.",
+        "In a memorandum opinion by Judge Kevin M. Duffan, the Court of Appeals affirmed. The panel pointed to the city's denial letter, which the owner had attached to its own complaint. That letter relied on a Chesapeake ordinance provision barring additional buildings or structures that support a lawfully nonconforming use and on the city's authority to review site plans for conformity with the zoning ordinance. The court cited Virginia Supreme Court precedent allowing localities to prohibit expansion of nonconforming uses.",
+        "Because nothing in the complaint factually disputed that the buildings would alter or expand the nonconforming use, or that more information was needed, the court treated the owner's contrary assertions as legal conclusions that a court need not accept on demurrer. It held the circuit court applied the correct pleading standard rather than deciding the merits on a summary judgment basis, as the owner claimed. The owner's argument that the denial was unconstitutional was not reached because it was not raised in an assignment of error on appeal. The opinion is unpublished.",
+        "For owners and developers of industrial, salvage, landfill and other grandfathered properties, the case underlines that even ancillary improvements such as an office or storage building can be treated as an expansion of a nonconforming use. Before filing a site plan, owners should be ready to document that new structures will not intensify or extend the existing use, or plan for a conditional use permit or rezoning. If a denial is appealed, the complaint should plead specific facts that answer each ground in the denial letter rather than rest on legal argument."
+      ],
+      tags: ["nonconforming use", "site plan", "zoning", "industrial", "virginia"],
+      parties: [
+        { name: "Recycled Properties, LLC", role: "Appellant (Property Owner)" },
+        { name: "City Council of the City of Chesapeake", role: "Appellee" },
+        { name: "City of Chesapeake", role: "Appellee" }
+      ],
+      judge: "Kevin M. Duffan",
+      amountUsd: null,
+      timeline: [
+        { when: "May 2024", label: "Recycled Properties submits site plan for a warehouse and office building at its Chesapeake landfill" },
+        { when: "August 2024", label: "City disapproves the site plan as an expansion of a nonconforming use" },
+        { when: "October 13, 2026", label: "Court of Appeals of Virginia affirms dismissal of the owner's challenge", current: true }
+      ]
+    },
+    {
+      id: "live-282",
+      addedDate: "2026-10-13",
+      title: "In re 374 Square Feet in the City of Bradford (Appeal of DewBoi Properties, LLC): Pennsylvania Commonwealth Court Enforces $30,000 Condemnation Settlement for Bus Station Alley",
+      category: "eminent-domain",
+      status: "ruling",
+      date: "2026-10-13",
+      jurisdiction: "Commonwealth Court of Pennsylvania",
+      state: "PA",
+      amount: "$30,000 condemnation settlement",
+      source: "live",
+      sourceUrl: "https://storage.courtlistener.com/pdf/2026/10/13/in_re_374_square_feet_more_or_less_in_the_city_of_bradford_at_pin.pdf",
+      summary: "On October 13, 2026, the Commonwealth Court of Pennsylvania affirmed a McKean County order enforcing a settlement between the City of Bradford and property owner DewBoi Properties, LLC over the city's taking of 374 square feet of an alley behind DewBoi's property for a new bus station. The owner had accepted $30,000 and the city's promise to relocate two utility poles, then balked when one pole was to be moved elsewhere on its lot, citing lost parking for its tenants and their customers. The court held the signed agreement unambiguously allowed relocation onto DewBoi's property and rejected the owner's mutual mistake defense.",
+      significance: "Owners negotiating partial-taking settlements should pin down exactly where relocated utilities and other site features will go, because Pennsylvania courts will enforce the written agreement even when the practical effect on tenant parking only becomes clear later. Accepting payment and telling the court a deal is done makes it very hard to walk away.",
+      body: [
+        "In December 2023 the City of Bradford, Pennsylvania filed a declaration of taking to condemn 374 square feet of an alley running through the rear of a property owned by DewBoi Properties, LLC, as part of a project to build a new bus station. DewBoi filed preliminary objections, and the parties' lawyers negotiated a settlement over several months in 2024.",
+        "In October 2024 DewBoi's counsel accepted the city's offer of $30,000 plus the removal and relocation of two telephone poles at the city's expense. The city's draft agreement of sale said the poles would be moved out of the alley to DewBoi's property. DewBoi's counsel revised a related joint stipulation to drop the express reference to DewBoi's property but left the agreement of sale language unchanged, and the city accepted the revisions. The city signed in December 2024, the parties told the court they had settled, and DewBoi's counsel received the city's $30,000 check on January 6, 2025.",
+        "The deal unraveled when the city sent over the local electric utility's easement, which showed one pole moving to another spot on DewBoi's lot. DewBoi objected that the proposed locations would further cut into parking for its tenants and their customers. After the city began building the bus station and put up a temporary fence across the condemned strip, affecting access to DewBoi's parking lot, DewBoi sought a preliminary injunction in May 2025, arguing the city did not own the land. The city responded with a petition to enforce the settlement. After two days of hearings, the McKean County Court of Common Pleas granted the city's petition and denied the injunction on August 25, 2025.",
+        "On appeal, DewBoi argued there was no meeting of the minds on where the poles would go and, at most, a mutual mistake. In a non-precedential memorandum opinion by Judge Lori A. Dumas, the Commonwealth Court disagreed. It held that the settlement documents, read together, clearly provided for relocating both poles from the alley to other places on DewBoi's property. It also deferred to the trial court's findings, based on months of correspondence, the city attorney's testimony, the joint report of settlement and DewBoi's request for the $30,000 check, that the owner had approved the deal and later had second thoughts about vehicle access. Without clear, precise and convincing proof of a shared mistaken assumption, the mutual mistake defense failed.",
+        "The case is small in dollars but common in practice. Commercial owners facing partial takings for transit, road or utility projects should treat site-plan details such as pole, sign, curb cut and parking locations as material terms, attach drawings to the settlement, and confirm the utility's easement before signing. Once a settlement is signed, reported to the court and funded, Pennsylvania courts are likely to enforce it as written."
+      ],
+      tags: ["eminent domain", "condemnation settlement", "parking", "utility easement", "pennsylvania"],
+      parties: [
+        { name: "DewBoi Properties, LLC", role: "Appellant (Condemnee/Property Owner)" },
+        { name: "City of Bradford", role: "Appellee (Condemnor)" }
+      ],
+      judge: "Lori A. Dumas",
+      amountUsd: 30000,
+      amountBasis: "settlement",
+      timeline: [
+        { when: "December 2023", label: "City of Bradford files declaration of taking for 374 square feet of alley for a bus station" },
+        { when: "October 3, 2024", label: "DewBoi's counsel accepts $30,000 plus relocation of two utility poles" },
+        { when: "January 6, 2025", label: "DewBoi's counsel receives the city's $30,000 check" },
+        { when: "August 25, 2025", label: "McKean County court enforces the settlement and denies DewBoi's injunction petition" },
+        { when: "October 13, 2026", label: "Commonwealth Court affirms enforcement of the settlement", current: true }
+      ]
     }
   ],
 
