@@ -2998,7 +2998,7 @@ const RELAW_DATA = {
       addedDate: "2026-09-09",
       title: "Mack Real Estate Group v. X Denver Ownership (X Denver Apartments Receivership Suit)",
       category: "lending-foreclosure",
-      status: "filed",
+      status: "ruling",
       date: "2026-09-04",
       jurisdiction: "Denver District Court, Colorado",
       parties: [
@@ -3011,7 +3011,7 @@ const RELAW_DATA = {
       amount: "$170M",
       source: "live",
       sourceUrl: "https://businessden.com/lender-wants-receiver-appointed-for-x-denver/",
-      summary: "New York-based Mack Real Estate Group asked a Colorado state court on September 4 to appoint an emergency, ex parte receiver over X Denver, a 450-unit apartment complex at 3100 Inca Street developed by Chicago-based The X Co., alleging the $170M construction loan it made against the property has been in default since the note matured in January 2025. The current record ownership of the property is unclear from public filings, a common feature of assets that have passed through workout or special-servicing arrangements since a loan's original closing.",
+      summary: "New York-based Mack Real Estate Group asked a Colorado state court on September 4 to appoint an emergency, ex parte receiver over X Denver, a 450-unit apartment complex at 3100 Inca Street developed by Chicago-based The X Co., alleging the $170M construction loan it made against the property has been in default since the note matured in January 2025. The current record ownership of the property is unclear from public filings, a common feature of assets that have passed through workout or special-servicing arrangements since a loan's original closing. On October 9, 2026, the court granted the request and appointed Trigild IVL LLC as receiver, Bisnow reported.",
       significance: "Adds X Denver to a small but growing list of formerly marquee Denver multifamily and office assets facing lender-driven receivership actions, alongside a similar recent filing against Denver's Republic Plaza office tower, illustrating a pattern of lenders bypassing extended forbearance in favor of immediate receivership once a maturity default goes unresolved for months. Borrowers with matured, unresolved CRE debt should treat lender silence after default as a warning sign rather than a sign of forthcoming leniency.",
       body: [
         "New York-based Mack Real Estate Group asked a Colorado state court on September 4 to appoint an emergency, ex parte receiver over X Denver, the 12-story, 450-unit apartment complex at 3100 Inca Street in Denver's Ballpark neighborhood, alleging that the $170 million loan it made against the property has been in default since the note matured in January 2025. The filing seeks to place day-to-day control of the five-year-old building into the hands of a court-appointed receiver while the underlying debt dispute plays out, a remedy lenders increasingly favor over a slower foreclosure process when a borrower's ability to manage a distressed asset is itself in question.",
@@ -3020,7 +3020,11 @@ const RELAW_DATA = {
         "For a 450-unit asset generating substantial monthly rental income, the practical effect of a receiver's appointment is significant well before any final adjudication of the underlying default: a court-appointed receiver typically takes over rent collection, vendor payments, and operating decisions immediately, effectively transferring functional control of the property away from ownership while litigation over the debt itself proceeds on a separate, usually slower track. That makes the receivership motion, rather than any eventual foreclosure judgment, the practical battleground in cases like this one, and borrowers facing an ex parte request typically have only a narrow window to contest the appointment or negotiate an alternative before a receiver is installed.",
         "Borrowers with loans approaching, or already past, a scheduled maturity date should not assume that a lender's silence in the months immediately following default reflects an intention to negotiate an extension or workout, since an extended post-maturity default period can instead be a lender building its record for exactly the kind of ex parte receivership motion filed here. Because such a request can be granted with limited advance notice, ownership entities carrying matured, unresolved CRE debt should have workout counsel and a response strategy in place well before a lender files, and with Denver now producing multiple lender-driven receivership actions against well-known, recently built assets in quick succession, owners and equity investors in the market's multifamily and office towers should treat a maturity default, even on an otherwise physically healthy property, as carrying meaningfully higher and faster litigation risk than it might have a few years ago."
       ],
-      tags: ["receivership", "loan default", "colorado", "multifamily", "denver"]
+      tags: ["receivership", "loan default", "colorado", "multifamily", "denver"],
+      timeline: [
+        { when: "September 4, 2026", label: "Lender asks Denver District Court to appoint an emergency receiver" },
+        { when: "October 9, 2026", label: "Court appoints Trigild IVL LLC as receiver (Bisnow, October 12, 2026)", current: true }
+      ]
     },
     {
       id: "live-092",
