@@ -14,6 +14,14 @@
     "https://www.courtlistener.com/docket/74941787/natural-nydegger-transport-corporation-v-power-and-process-developments/": {"at": "2026-10-10", "action": "skipped: caption does not show a commercial real estate dispute on its face and no reporting found"},
     "https://www.courtlistener.com/docket/74940024/heritage-properties-llp-v-auto-owners-insurance-company/": {"at": "2026-10-10", "action": "skipped: no reporting found explaining the dispute"},
     "https://www.courtlistener.com/docket/74932772/payson-apartments-a-limited-partnership-v-united-states/": {"at": "2026-10-10", "action": "skipped: no reporting found explaining the dispute"},
-    "https://www.courtlistener.com/docket/74936135/newcastle-apartments-a-limited-partnership-v-united-states/": {"at": "2026-10-10", "action": "skipped: no reporting found explaining the dispute"}
+    "https://www.courtlistener.com/docket/74936135/newcastle-apartments-a-limited-partnership-v-united-states/": {"at": "2026-10-10", "action": "skipped: no reporting found explaining the dispute"},
+    "opinion:11025310": {"at": "2026-10-13", "action": "matter live-267"},
+    "opinion:11024086": {"at": "2026-10-13", "action": "skipped: appellees are individuals (Mark and Amy Annon) in a residential first-party property insurance dispute, not a commercial real estate matter"},
+    "petition:https://www.courtlistener.com/docket/74950114/2911-creative-llc/": {"at": "2026-10-13", "action": "skipped: no coverage found explaining the filing"},
+    "petition:https://www.courtlistener.com/docket/74949021/access-real-estate-holdings-llc/": {"at": "2026-10-13", "action": "skipped: no coverage found explaining the filing"},
+    "https://www.courtlistener.com/docket/74924818/amherst-specialty-insurance-company-v-tower-732-realty-llc/": {"at": "2026-10-13", "action": "skipped: outside 3-day freshness window (filed 2026-10-06)"},
+    "https://www.courtlistener.com/docket/74935797/trident-realty-investments-llc-v-75-victoria-llc/": {"at": "2026-10-13", "action": "skipped: outside 3-day freshness window (filed 2026-10-05)"},
+    "https://www.courtlistener.com/docket/74921855/travelers-casualty-and-surety-company-of-america-v-pasadena-oaks-life/": {"at": "2026-10-13", "action": "skipped: outside 3-day freshness window (filed 2026-10-05)"},
+    "https://www.courtlistener.com/docket/74921300/lakeport-hotel-gp-llc-v-tegethoff-development-llc/": {"at": "2026-10-13", "action": "skipped: outside 3-day freshness window (filed 2026-10-05)"}
   }
 }
