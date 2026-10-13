@@ -90,7 +90,7 @@ def main():
     used |= {int(n) for n in re.findall(r"/matters/live-(\d+)\.html", (ROOT / "vercel.json").read_text())}
     used |= {int(n) for n in re.findall(r"live-(\d+)", " ".join(p.name for p in (ROOT / ".sync").glob("*")))}
     next_id = max(used) + 1
-    today = dt.date.today().isoformat()
+    today = dt.datetime.now(dt.timezone.utc).date().isoformat()  # UTC, like the digest routine
     accepted, blocks = [], []
     for m in new:
         bad = problems(m, cases + accepted)

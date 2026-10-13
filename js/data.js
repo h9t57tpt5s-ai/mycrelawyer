@@ -16,7 +16,7 @@ const RELAW_DATA = {
      Drives the homepage's "New Today" pill: it only shows when this
      equals the visitor's local today. Updated by the digest automation
      each time Step 4 successfully adds a case — never touched otherwise. */
-  lastUpdatedDate: "2026-10-12",
+  lastUpdatedDate: "2026-10-13",
   categories: [
     { id: "landlord-tenant", label: "Landlord–Tenant", color: "var(--cat-landlord)" },
     { id: "zoning-land-use", label: "Zoning & Land Use", color: "var(--cat-zoning)" },
@@ -7917,6 +7917,119 @@ const RELAW_DATA = {
         { when: "2016", label: "Port of Tacoma and PQ LLC's predecessor enter a cost-sharing agreement for site remediation" },
         { when: "April 2025", label: "Cost-sharing agreement collapses" },
         { when: "March 27, 2026", label: "PQ LLC countersues, disputing the scope of contamination costs attributed to it", current: true }
+      ]
+    },
+    {
+      id: "live-262",
+      addedDate: "2026-10-13",
+      title: "Quantum Maryland LLC v. Frederick County: Catellus-Managed Developer Sues to Lift Data Center Moratorium on Former Eastalco Site",
+      category: "zoning-land-use",
+      status: "filed",
+      date: "2026-10-08",
+      jurisdiction: "Circuit Court for Frederick County, Maryland",
+      state: "MD",
+      amount: "Injunctive relief and damages; developer says a $500M+ land deal was derailed",
+      source: "live",
+      sourceUrl: "https://www.fredericknewspost.com/news/continuing_coverage/data_centers/data-center-developer-sues-frederick-county-over-moratorium/article_72bc73fc-8a81-5839-9b98-9a686c198167.html",
+      propertyType: "Data Center",
+      summary: "Quantum Maryland LLC, the Catellus-managed master developer of the Frederick Digital Campus on the former Alcoa Eastalco smelter site near Adamstown, sued Frederick County, its Planning Commission and the county executive in Frederick County Circuit Court. The suit (Case No. C10CV26000874) challenges an executive-order freeze on new data center and substation applications that has now been extended to July 1, 2027. The developer asks the court to void the moratorium, let its applications proceed and award damages.",
+      significance: "This is one of the first data center moratorium suits to attack the moratorium as an act beyond the executive's power rather than only as a vested-rights or takings problem: the developer argues that zoning authority sits with the county council under the charter, and the council had already adopted a data center zoning ordinance that survived a referendum challenge. The case also puts a lost land transaction reported at more than $500 million in play, and names the county executive personally, which raises the stakes for local officials who pause permitting while campaigning. Owners and lenders of large industrial and digital-infrastructure sites in Maryland and elsewhere should watch how the court treats an executive order that suspends a council-adopted zoning scheme.",
+      body: [
+        "Quantum Maryland LLC, which is managed by Catellus Maryland, filed suit on Thursday, October 8, 2026, in the Circuit Court for Frederick County. The defendants are Frederick County, the Frederick County Planning Commission and the county executive, who is named in both her official and individual capacities. Local coverage gives the case number as C10CV26000874. Catellus is the master developer of the Frederick Digital Campus, a redevelopment of the former Alcoa Eastalco aluminum smelting property near Adamstown.",
+        "The dispute follows a fast sequence of events this year. On June 30, 2026, Maryland's highest court held that the county's data center zoning ordinance could not be put to voters by referendum, even though opponents had gathered more than 21,000 certified signatures. The next day, July 1, the county executive signed an executive order pausing the acceptance and processing of new applications for critical digital infrastructure facilities and substations through December 31, 2026. The pause covers new applications only, not projects that were already approved. On September 1 the executive announced a proposed community benefits agreement with Quantum valued at roughly $110 million, including school renovation and park funding. On September 14 she rejected that agreement and extended the moratorium to July 1, 2027.",
+        "The complaint's central legal theory is that the moratorium is ultra vires. Quantum argues that under the county charter the county council, not the executive, controls zoning, and that the executive repeatedly froze applications despite zoning legislation the council had approved. Quantum also alleges that the freeze was driven by electoral politics rather than land-use planning, relying on a sworn affidavit from a Catellus executive describing a June 29 conversation with a member of the county executive's staff, and on an alleged September statement to a campaign donor. The developer says the county's actions derailed a land transaction valued at more than $500 million that had been expected to close in July. One report says the complaint pleads compensatory damages in excess of $75,000; the larger figure is the value of the lost deal, and no court has found any liability.",
+        "Quantum asks the court to overturn the moratorium, allow its development applications to move forward and award financial damages. The county's communications office said it does not comment on pending litigation. The county executive, in a public statement, called the complaint full of factual errors and said she would fight it and defend her authority to impose the pause. Quantum said it remains open to discussions with the county but wants the court to require the county to follow its own laws. No judge has been reported and no hearing date has been set.",
+        "For owners, developers and lenders on large industrial and data center sites, the case is a useful test of a different line of attack on moratoria. Most recent challenges, in Missouri, Michigan, Tennessee and North Carolina, have leaned on vested rights, state zoning-enabling statutes or equal protection. Here the developer argues the wrong official acted at all. If that argument succeeds, executive-order moratoria in charter counties become much easier to challenge; if it fails, sponsors should expect more executive-level pauses timed around elections. Parties negotiating community benefits agreements should also note that a publicly announced package can be withdrawn without a binding contract, so any deal that underpins financing or a land closing should be documented and approved by the body that holds zoning power before capital is committed."
+      ],
+      tags: ["data center", "moratorium", "maryland", "ultra vires", "brownfield redevelopment"],
+      parties: [
+        { name: "Quantum Maryland LLC", role: "Plaintiff" },
+        { name: "Frederick County", role: "Defendant" },
+        { name: "Frederick County Planning Commission", role: "Defendant" }
+      ],
+      judge: null,
+      amountUsd: null,
+      timeline: [
+        { when: "June 30, 2026", label: "Maryland's highest court rules the county's data center zoning ordinance cannot go to referendum" },
+        { when: "July 1, 2026", label: "County executive signs order pausing new data center and substation applications through Dec. 31, 2026" },
+        { when: "September 1, 2026", label: "Proposed ~$110 million community benefits agreement with Quantum announced" },
+        { when: "September 14, 2026", label: "Agreement rejected; moratorium extended to July 1, 2027" },
+        { when: "October 8, 2026", label: "Quantum Maryland LLC files suit in Frederick County Circuit Court", current: true }
+      ]
+    },
+    {
+      id: "live-263",
+      addedDate: "2026-10-13",
+      title: "GWIP Land Company LLC v. Board of County Commissioners of Weld County: Neighboring Industrial Park Owner Seeks Reversal of GlobalAI Data Center Approval",
+      category: "zoning-land-use",
+      status: "filed",
+      date: "2026-10-06",
+      jurisdiction: "District Court, Weld County, Colorado",
+      state: "CO",
+      amount: "Judicial review and reversal of land-use approval",
+      source: "live",
+      sourceUrl: "https://bizwest.com/2026/10/08/landowner-alleges-weld-commissioners-bent-rules-for-data-center/",
+      propertyType: "Data Center",
+      summary: "Affiliates of Denver-based Broe Cos. that own the roughly 3,000-acre Great Western Industrial Park filed a 24-page complaint in Weld District Court (Case No. 2026CV31187) on October 6, 2026. They ask the court to review and reverse the Weld County commissioners' September approval of a use-by-special-review permit for GlobalAI Cloud Inc.'s data center on the 438-acre former Carestream Health property. The suit alleges improper commissioner intervention, rule changes tailored to the project, open-meetings violations and unenforced stop-work orders.",
+      significance: "Most data center land-use suits pit residents against a project or a developer against a moratorium; this one is a commercial neighbor, the owner of a major industrial park, using the land-use review process to challenge a competing user's approval. The complaint's focus on power and water capacity, a code amendment written in anticipation of the project and a negotiated non-enforcement of stop-work orders gives a roadmap for how approvals of power-hungry facilities can be attacked. Industrial landowners, data center sponsors and their lenders should expect approvals obtained on accelerated or customized tracks to draw this kind of challenge.",
+      body: [
+        "On Tuesday, October 6, 2026, GWIP Land Company LLC, Windsor Renewal I, LLC and GWIP, LLC filed a 24-page complaint in Weld District Court, docketed as Case No. 2026CV31187. The plaintiffs are affiliates of Broe Cos. and own or control the Great Western Industrial Park, an industrial park of roughly 3,000 acres in northern Colorado. The defendants are the Board of County Commissioners of Weld County, the county's public information officer in her official capacity, and GlobalaiColorado, LLC, the project entity for GlobalAI Cloud Inc.",
+        "The challenged decision is the commissioners' unanimous approval in September 2026 of a use-by-special-review permit for a GlobalAI data center on the 438-acre former Carestream Health property in unincorporated Weld County. The approval followed a lengthy hearing at which residents largely opposed the project. According to the complaint as reported, the fully built project would add about 200 jobs and use more electricity than 200,000 Colorado homes. Separately, Greeley recently annexed 325 acres of the industrial park and signed a pre-annexation agreement with GlobalAI, and residents have started petition drives seeking a public vote.",
+        "The plaintiffs' allegations fall into several groups. First, they say commissioners improperly helped GlobalAI secure power, including a commissioner's January outreach to the Western Area Power Administration, and that the commissioner involved should have recused himself. Second, they say the county reshaped its rules to fit the project, through a data center code amendment and a June change to the building code's appeal board. Third, they allege open-meetings violations tied to an unannounced tour of a Cheyenne, Wyoming data center, and records problems including withheld emails and undisclosed text messages with the developer. Fourth, they challenge the project on the merits, arguing that utilities likely cannot supply enough power or water, that the facility would exceed county noise limits and that the developer split the project into phases to avoid a referral process.",
+        "The complaint also describes a permitting history the plaintiffs say should have counted against approval. The county issued stop-work orders on May 7, June 11 and July 20 after construction allegedly began without proper permits, and the plaintiffs allege the developer ignored the second and third orders. On August 17 the county and GlobalAI signed a memorandum of understanding under which the developer dropped its appeal of the orders, the county agreed not to enforce the violations and the special-review hearing was moved up two weeks. The relief requested is judicial review and reversal of the approval. A commissioner declined to comment, the county indicated pending litigation would limit comment, and the developer's response was not reported.",
+        "The practical lessons run to both sides of a data center deal. For sponsors and lenders, an approval is only as durable as its record: early construction before permits, side agreements on enforcement and code changes drafted around a single applicant all become exhibits when a well-funded neighbor sues. For industrial landowners, the case shows that an adjacent property owner with real economic stakes can bring a land-use challenge that looks very different from a resident petition. Anyone underwriting a data center site where approval came through a special-review or customized code process should confirm the appeal period has run, or price in the risk of a reversal, before treating the entitlement as settled."
+      ],
+      tags: ["data center", "special use permit", "colorado", "industrial park", "open meetings"],
+      parties: [
+        { name: "GWIP Land Company LLC", role: "Plaintiff" },
+        { name: "Windsor Renewal I, LLC", role: "Plaintiff" },
+        { name: "GWIP, LLC", role: "Plaintiff" },
+        { name: "Board of County Commissioners for Weld County", role: "Defendant" },
+        { name: "GlobalaiColorado, LLC", role: "Defendant" }
+      ],
+      judge: null,
+      amountUsd: null,
+      timeline: [
+        { when: "May 7, 2026", label: "County issues first of three stop-work orders on the GlobalAI site" },
+        { when: "August 17, 2026", label: "County and GlobalAI sign memorandum of understanding on non-enforcement and an earlier hearing" },
+        { when: "September 2026", label: "Weld County commissioners unanimously approve the use-by-special-review permit" },
+        { when: "October 6, 2026", label: "Broe Cos. affiliates file complaint in Weld District Court seeking reversal", current: true }
+      ]
+    },
+    {
+      id: "live-264",
+      addedDate: "2026-10-13",
+      title: "Microsoft v. JLL: Tenant Sues Project Manager for Defense and Insurance Coverage Over Forklift Injury During 122 Fifth Avenue Office Build-Out",
+      category: "premises-liability",
+      status: "filed",
+      date: "2026-10-09",
+      jurisdiction: "New York Supreme Court, New York County",
+      state: "NY",
+      amount: "Defense costs and indemnity; $10M liability policy at issue",
+      source: "live",
+      sourceUrl: "https://www.bisnow.com/news/new-york/office/microsoft-sues-jll-over-forklift-accident-inside-fifth-avenue-office",
+      propertyType: "Office",
+      summary: "Microsoft sued JLL in Manhattan state court, alleging the real estate services firm broke its promise to defend and indemnify Microsoft against lawsuits arising from the build-out of its office at 122 Fifth Avenue and to name Microsoft as an insured under JLL's $10 million liability policy. The suit stems from a worker's personal-injury case over a March 2023 forklift accident during the build-out, to which Microsoft was added as a defendant in 2025.",
+      significance: "Construction-site injury suits in New York routinely sweep in owners and tenants under the Labor Law, so the real fight is often over who pays under indemnity and additional-insured provisions. This case shows a major office tenant turning on its own project manager over those terms, and JLL's defense that the injured worker was on a separate project retained by the building owner. Tenants, landlords and project managers should read it as a reminder to verify additional-insured endorsements are actually issued, not just promised, before work begins.",
+      body: [
+        "Microsoft filed suit against JLL on Friday, October 9, 2026, in New York Supreme Court, New York County, according to a Bisnow report published October 12. The dispute concerns 122 Fifth Avenue, a landmarked 11-story building in Manhattan's Flatiron area with a roughly 150,000-square-foot office block. The building's owner, The Bromley Cos., redeveloped the property for Microsoft, which moved in as anchor tenant in July 2023. JLL had served as project manager for properties Microsoft occupies since 2012, and the relationship also involved a 2013 facilities management outsourcing arrangement.",
+        "The underlying claim began in March 2023, when a worker says he was struck by a forklift during the build-out and suffered serious, permanent injuries. In 2024 he sued in Kings County Supreme Court, naming the building's ownership entity and contractors. In June 2025 he amended the complaint to add Microsoft and the forklift operator. Microsoft then sought coverage and a defense from JLL.",
+        "Microsoft's new complaint alleges that JLL agreed to indemnify it against lawsuits tied to the build-out, including attorney fees and damages, and promised to add Microsoft as an insured under JLL's $10 million liability insurance policy but did not do so. Microsoft also alleges JLL breached the implied covenant of good faith and fair dealing by refusing to cover its legal costs. Microsoft's lawyers describe JLL's coverage denial as factually wrong and made without investigation.",
+        "JLL's position, as described in its counsel's response to Microsoft's tender, is that the building's ownership, not JLL, retained the forklift operator's company, and that the injured worker was working on a separate project inside the building. If that is right, the injury may fall outside the work JLL managed and outside whatever indemnity it gave. Neither company commented to Bisnow, no judge has been reported and the personal-injury case in Brooklyn remains the source of the underlying exposure. The $10 million figure is the policy limit Microsoft says it should have been covered under, not a damages demand.",
+        "The case highlights how risk is allocated on tenant build-outs in buildings where multiple projects run at once. When an owner, a tenant and a project manager each hire different contractors in the same building, indemnity clauses tied to a defined scope of work can leave gaps, and a worker injured on one scope may sue every party in sight. Tenants should require certificates and the actual additional-insured endorsements before mobilization, define the indemnified work broadly enough to cover shared site conditions, and coordinate with the landlord on who controls site safety. Project managers should expect large tenants to test the edges of their indemnity language when New York Labor Law claims arrive years after the work is done."
+      ],
+      tags: ["indemnity", "additional insured", "office build-out", "new york labor law", "construction injury"],
+      parties: [
+        { name: "Microsoft", role: "Plaintiff" },
+        { name: "JLL", role: "Defendant" }
+      ],
+      judge: null,
+      amountUsd: null,
+      timeline: [
+        { when: "March 2023", label: "Worker allegedly struck by forklift during build-out at 122 Fifth Avenue" },
+        { when: "July 2023", label: "Microsoft moves into the building as anchor tenant" },
+        { when: "June 2025", label: "Microsoft added as a defendant in the worker's Kings County personal-injury suit" },
+        { when: "October 9, 2026", label: "Microsoft sues JLL in New York County Supreme Court over defense, indemnity and insurance", current: true }
       ]
     }
   ],
