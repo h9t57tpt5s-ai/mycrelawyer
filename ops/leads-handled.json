@@ -22,6 +22,13 @@
     "https://www.courtlistener.com/docket/74924818/amherst-specialty-insurance-company-v-tower-732-realty-llc/": {"at": "2026-10-13", "action": "skipped: outside 3-day freshness window (filed 2026-10-06)"},
     "https://www.courtlistener.com/docket/74935797/trident-realty-investments-llc-v-75-victoria-llc/": {"at": "2026-10-13", "action": "skipped: outside 3-day freshness window (filed 2026-10-05)"},
     "https://www.courtlistener.com/docket/74921855/travelers-casualty-and-surety-company-of-america-v-pasadena-oaks-life/": {"at": "2026-10-13", "action": "skipped: outside 3-day freshness window (filed 2026-10-05)"},
-    "https://www.courtlistener.com/docket/74921300/lakeport-hotel-gp-llc-v-tegethoff-development-llc/": {"at": "2026-10-13", "action": "skipped: outside 3-day freshness window (filed 2026-10-05)"}
+    "https://www.courtlistener.com/docket/74921300/lakeport-hotel-gp-llc-v-tegethoff-development-llc/": {"at": "2026-10-13", "action": "skipped: outside 3-day freshness window (filed 2026-10-05)"},
+    "opinion:11032265": {"at": "2026-10-13", "action": "skipped: residential eviction dispute between siblings, not commercial real estate"},
+    "opinion:11024777": {"at": "2026-10-13", "action": "skipped: coal-mining surety bond guaranty dispute against an individual, not a real estate matter"},
+    "opinion:11024765": {"at": "2026-10-13", "action": "skipped: HECM reverse mortgage securitization dispute (residential mortgage program), not commercial real estate"},
+    "opinion:11024566": {"at": "2026-10-13", "action": "skipped: National Forest Management Act case over Forest Service road mileage, not a real estate dispute between businesses"},
+    "petition:https://www.courtlistener.com/docket/74952134/30-quabeck-avenue-llc/": {"at": "2026-10-13", "action": "skipped: no coverage found explaining the filing"},
+    "petition:https://www.courtlistener.com/docket/74950462/aj-realty-miami-llc/": {"at": "2026-10-13", "action": "skipped: no coverage found explaining the filing"},
+    "https://www.courtlistener.com/docket/74954259/owners-insurance-company-v-budd-commercial-real-estate-llc/": {"at": "2026-10-13", "action": "skipped: no reporting found explaining the dispute"}
   }
 }
