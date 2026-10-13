@@ -22,7 +22,7 @@ concurrency:
 jobs:
   opinions:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 25
     steps:
       - uses: actions/checkout@v4
         with:
@@ -30,7 +30,7 @@ jobs:
       - name: Pull this week's opinions
         env:
           COURTLISTENER_TOKEN: ${{ secrets.COURTLISTENER_TOKEN }}
-        run: python3 scripts/pull_opinions.py --days 4 --budget 20
+        run: python3 scripts/pull_opinions.py --days 7 --budget 20
       - name: Commit the leads
         run: |
           git add ops/opinion-leads.json

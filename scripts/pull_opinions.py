@@ -70,12 +70,13 @@ class Client:
             try:
                 with urllib.request.urlopen(urllib.request.Request(url, headers=headers), timeout=60) as r:
                     data = json.load(r)
-                time.sleep(4)
+                time.sleep(13)  # CourtListener allows about 5 requests a minute
                 return data
             except (urllib.error.HTTPError, urllib.error.URLError, TimeoutError) as err:
-                if attempt == 1 or getattr(err, "code", 500) < 500:
+                code = getattr(err, "code", 500)
+                if attempt == 1 or (code < 500 and code != 429):
                     raise
-                time.sleep(20)
+                time.sleep(65 if code == 429 else 20)
 
 
 def plain(opinion):
@@ -129,7 +130,10 @@ def main():
         checked += 1
         text = plain(detail)
         terms = sorted({m.group(0).lower() for m in CRE_TERMS.finditer(text[:60000])})
-        if len(terms) < 3 or len(NOT_CRE.findall(text[:20000])) > 3:
+        noise = len(NOT_CRE.findall(text[:20000]))
+        print(f"  {h.get('dateFiled')} {h.get('court_id')} | {(h.get('caseName') or '')[:70]} | {len(text)} chars, "
+              f"{len(terms)} CRE terms, {noise} non-CRE -> {'keep' if len(terms) >= 3 and noise <= 3 else 'drop'}")
+        if len(terms) < 3 or noise > 3:
             continue
         new.append({
             "key": key, "caseName": h.get("caseName"), "court": h.get("court"), "courtId": h.get("court_id"),
