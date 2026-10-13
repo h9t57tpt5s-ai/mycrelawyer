@@ -105,7 +105,7 @@ def main():
     params = {"type": "o", "order_by": "dateFiled desc", "q": f"{QUERY} AND dateFiled:[{since} TO *]"}
     url = API + "search/?" + urllib.parse.urlencode(params)
     hits = []
-    while url and len(hits) < 120 and cl.remaining > 0:
+    while url and len(hits) < 40 and cl.remaining > 0:  # two pages; the rest of the budget reads opinions
         page = cl.get(url)
         hits += page.get("results", [])
         url = page.get("next")

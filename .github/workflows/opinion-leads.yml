@@ -3,13 +3,16 @@ name: Court opinion leads
 # Runs scripts/pull_opinions.py: court opinions filed in the last few days
 # on commercial real estate issues, with their public-domain text, written
 # to ops/opinion-leads.json for the digest routine (which cannot open web
-# pages itself). Daily, before the noon UTC digest run whose beat is court
-# rulings. CourtListener allowance: up to 20 of the token's 125 a day
-# (ingest 35 + 35, docket check 35, this 20).
+# pages itself). Twice a day: before the noon UTC digest run (court-rulings
+# beat) and again in the evening, so opinions courts release during the day
+# reach the 22:00 UTC run instead of waiting until tomorrow. CourtListener
+# allowance: 10 + 10 of the token's 125 a day (ingest 35 + 35, docket check
+# 35, this 20).
 
 on:
   schedule:
     - cron: "19 10 * * *"
+    - cron: "49 20 * * *"
   workflow_dispatch:
 
 permissions:
@@ -30,7 +33,7 @@ jobs:
       - name: Pull this week's opinions
         env:
           COURTLISTENER_TOKEN: ${{ secrets.COURTLISTENER_TOKEN }}
-        run: python3 scripts/pull_opinions.py --days 7 --budget 20
+        run: python3 scripts/pull_opinions.py --days 7 --budget 10
       - name: Commit the leads
         run: |
           git add ops/opinion-leads.json
