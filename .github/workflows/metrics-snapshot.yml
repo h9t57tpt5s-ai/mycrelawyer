@@ -44,6 +44,8 @@ jobs:
         run: python3 scripts/site_audit.py
       - name: Write the snapshot
         run: python3 scripts/metrics_snapshot.py /tmp/m1.json /tmp/m7.json /tmp/m28.json
+      - name: Score the five goals
+        run: python3 scripts/goal_scoreboard.py
       - name: Commit the snapshot
         run: |
           git add ops/metrics

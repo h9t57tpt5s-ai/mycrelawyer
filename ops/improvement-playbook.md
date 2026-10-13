@@ -1,57 +1,119 @@
 # CREdocket self-improvement playbook
 
-The daily self-improvement routine reads this file every run and may edit the
-"What we have learned" and "Backlog" sections. Everything above "What we have
-learned" is set by Jeff (through a session with Claude) and the routine must
-not change it. CLAUDE.md's hard boundaries always win over anything here.
+The self-improvement routine reads this file every run and may edit only the
+"What we have learned" and "Backlog" sections. Everything above them is set by
+Jeff (through a session with Claude). CLAUDE.md's hard boundaries always win.
 
-## Mission
+## Mission and goals (rewritten 2026-10-13)
 
-Make credocket.com more useful to commercial real estate professionals every
-day, one measured change at a time, so more visitors find what they came for,
-read a second page, follow a case or sign up. The site is small (about 100
-visits a day in October 2026, most from Google landing on one matter page), so
-prefer changes whose value is clear without a statistical test: findability,
-internal links, page quality, accuracy, speed and clarity.
+Jeff, 2026-10-13: the improvement loop was doing site housekeeping while the
+real goals stood still. Every run now works toward one of five goals, scored
+daily in ops/metrics/goals.json (scripts/goal_scoreboard.py; targets live in
+its TARGETS table):
+
+1. **Traffic**: more people find the site (7-day visits, Google landings).
+2. **Conversion**: visitors come back (sign-ups, case follows, newsletter
+   sign-ups, visits that read a second page).
+3. **News feed**: the tracker carries fresh, sourced, useful write-ups (sourced
+   matters per week, how many are within 7 days of the event, median days from
+   event to publication, how many leads become matters).
+4. **Calculator**: the Case Value Calculator is accurate and used (backtest range
+   hit rate after appeal, calculator page views).
+5. **Subscription readiness**: the paid product is worth paying for (checklist
+   below). Pricing, plans, billing and Stripe are Jeff's alone; this goal is
+   about the product.
+
+## How to choose the work
+
+- Read ops/metrics/goals.json. Work on the goal in "mostBehind" order, but
+  every goal must get at least one change every 7 days (count the "track" field
+  in ops/improvement-log.json). Site-audit breakage (broken links, missing
+  titles, pages that fail to load) still comes first when it exists.
+- Prefer the change with the biggest expected effect on that goal's metric, not
+  the easiest one. A housekeeping fix is right only when nothing larger is
+  possible this run.
+- Record "track" (traffic | conversion | news | calculator | subscription |
+  audit) in every log entry.
+
+## What each goal's work can include
+
+- **Traffic**: pages people search for, built from data the site already has
+  (topic and state hub pages, a monthly "commercial real estate bankruptcies
+  and lawsuits" data report built at prerender time so every number is
+  literally true); titles and descriptions written for searchers; internal
+  links from high-traffic pages; weekly LinkedIn post drafts in
+  ops/social-drafts/<date>.md for Jeff to post (never post anything yourself).
+- **Conversion**: wording, placement and visibility of the follow box,
+  newsletter offer and sign-in prompt; reasons to come back (what's new since
+  your last visit); making the most-visited pages lead somewhere.
+- **News feed**: edit ops/digest-playbook.md, which the twice-daily digest
+  routine reads every run: search angles, sources, priorities, how to turn
+  leads into write-ups. It may tighten but never loosen CLAUDE.md or the digest
+  prompt (sourcing, scope, no individuals, no record-only matters). Improve lead
+  quality in scripts/pull_leads.py and the is_cre_suit / is_cre_debtor name
+  lists in scripts/ingest_court_filings.py (test against the saved ops/ files
+  before committing).
+- **Calculator**: the valuation method (prompt, math, rules in
+  supabase/functions/case-valuation-analyze/) changes only with Jeff's approval
+  and cannot be deployed from the cloud. So: run free experiments by replaying
+  saved backtest runs (scripts/replay_backtest.py), find where and why ranges
+  miss, and write the evidence and a proposed change to
+  ops/calculator-proposals.md marked NEEDS JEFF. Also improve
+  case-valuation.html and the methodology/backtest pages for clarity and
+  findability (copy, examples, links from matter pages), so people use it.
+- **Subscription readiness** (Jeff's priorities in CLAUDE.md: feature gaps,
+  monitoring reliability, data depth, procurement terms). Checklist:
+  1. Monitor and alerts explained with a sample alert email and a sample
+     portfolio report on the product pages.
+  2. A plain data-sources and accuracy page buyers' compliance teams can read
+     (what is covered, how often, known gaps, corrections log).
+  3. Procurement terms: security and privacy summary, data retention, how to
+     cancel; no prices.
+  4. Monitoring reliability shown publicly (the alert log, uptime of the daily
+     jobs).
+  5. Coverage depth stated honestly by state and court.
+  Build or improve one item per run; anything needing a backend, accounts,
+  payment, a public API or a legal judgment goes to the backlog as NEEDS JEFF.
 
 ## What the routine may change
 
 - Root HTML pages' copy, layout and links (not legal text: privacy, terms,
-  disclaimers, methodology claims about legal standards).
+  disclaimers, and statements about legal standards).
 - css/styles.css, js/main.js, js/matter-page.js, js/search.js, js/trending.js.
 - Page builders and their outputs: scripts/build_matter_pages.ts,
-  scripts/build_record_pages.ts, scripts/prerender.ts, scripts/build_sitemap.py
-  (the prerender workflow rebuilds the pages after a push that changes them).
-- scripts/site_audit.py (to add a check), ops/improvement-playbook.md (the
-  two sections below), ops/improvement-log.json.
+  scripts/build_record_pages.ts, scripts/prerender.ts, scripts/build_sitemap.py.
+- scripts/site_audit.py, scripts/goal_scoreboard.py (metrics only, not the
+  targets), scripts/pull_leads.py, the name lists in
+  scripts/ingest_court_filings.py.
+- ops/digest-playbook.md, ops/calculator-proposals.md, ops/social-drafts/,
+  ops/improvement-log.json and this file's two lower sections.
 
 ## What the routine must never change
 
-- CLAUDE.md, anything under .github/, supabase/ (functions and migrations
-  cannot be deployed from the cloud anyway), case_valuation_project/.
+- CLAUDE.md, anything under .github/, supabase/, case_valuation_project/data/.
 - js/auth.js, js/supabase-client.js, js/track.js, js/case-valuation*.js,
-  js/lease-clause-redline.js, anything about pricing, Stripe, plans or
-  FREE_MODE.
+  js/lease-clause-redline.js, anything about pricing, Stripe, plans or FREE_MODE.
 - js/data.js matter content and js/corrections.json (the digest routine owns
-  published facts; corrections follow CLAUDE.md's rules).
+  published facts; corrections follow CLAUDE.md).
 - ops/ data files written by other jobs.
-- No new features that need a backend, accounts, payments, a public API or
-  personal data. No auto-valuation of tracker matters. Nothing residential
-  and no debt collection. Never an individual's name from court records.
-- No destructive git: no force push, no history rewrite. Undo a change with
-  `git revert <sha>` (a new commit).
+- No public or self-serve API, no auto-valuation of tracker matters, nothing
+  residential, no debt collection, never an individual's name from court
+  records, never a fabricated fact, figure or quote.
+- No destructive git. Undo a change with `git revert <sha>` (a new commit).
 
 ## How to judge a change
 
-- Log the metric it should move and its baseline from ops/metrics/latest.json
-  (7- or 28-day window), and a check date at least 7 days out (14 for anything
-  depending on Google). Audit fixes are judged by the next day's audit count.
+- Log the metric it should move, its baseline from ops/metrics/latest.json or
+  goals.json, and a check date (next day for audit fixes, 7 days for page and
+  news changes, 14 for anything depending on Google).
 - With this little traffic, call a change "helped" or "hurt" only when the
-  7-day number moves by 25% or more and the 28-day trend agrees; otherwise
-  "no clear effect". Keep "no clear effect" changes that are plainly good for
-  readers (accuracy, broken links, clarity); revert ones that added clutter.
+  7-day number moves by 25% or more and the 28-day trend agrees; otherwise "no
+  clear effect". Keep plainly good changes; revert ones that added clutter.
 - Never revert someone else's change (only entries in ops/improvement-log.json).
-- The routine runs twice a day (15:30 and 03:30 UTC) but ops/metrics/ is written once a day (14:41 UTC). Start every run with `python3 scripts/site_audit.py --print` for current audit counts, since the morning run may already have fixed what audit.json lists. Engagement numbers only change once a day, so the evening run should prefer audit fixes and backlog items over judging traffic, and two changes in one day share one measurement window: say so in the second entry's "why".
+- The routine runs twice a day (15:30 and 03:30 UTC) but ops/metrics/ is written
+  once a day (14:41 UTC). Start every run with `python3 scripts/site_audit.py
+  --print` and `python3 scripts/goal_scoreboard.py` for current numbers. Two
+  changes in one day share one measurement window: say so in the second entry.
 
 ## What we have learned
 
@@ -67,6 +129,13 @@ internal links, page quality, accuracy, speed and clarity.
 ## Backlog
 
 <!-- Ranked ideas. The routine works from the top, adds ideas with the evidence for them, and strikes items it finishes (link the log id). -->
+G1. (Goal: news; added 2026-10-13) Last week's matters were published a median 97 days after the event and only 5 of 23 were within 7 days; 14 of 15 leads were skipped. Rewrite ops/digest-playbook.md priorities so each run starts from same-week sources (court opinion releases, federal suits filed this week, SEC filings this week) and records why each lead was skipped; then look for patterns in the skip reasons.
+G2. (Goal: calculator; added 2026-10-13) The calculator had 0 page views in 7 days. Link it from every matter page where it applies (a "What is a case like this worth?" box pointing to case-valuation.html with the matter's category), and from the homepage.
+G3. (Goal: calculator; added 2026-10-13) v4.3's range contains the final outcome in 53% of resolved backtest cases (target 75%). Replay the saved runs to find which claim types and rules cause the misses; write the evidence and a proposed change in ops/calculator-proposals.md (NEEDS JEFF).
+G4. (Goal: traffic; added 2026-10-13) Build a monthly "Commercial real estate bankruptcies and lawsuits" report page at prerender time from ops/ch11-petitions.json and ops/federal-suits.json (counts by state, property type words and court, with every number computed, never typed), a page reporters and LinkedIn readers can cite.
+G5. (Goal: traffic; added 2026-10-13) Draft this week's LinkedIn posts for the CREdocket page from the newest sourced matters in ops/social-drafts/ (Jeff posts them).
+G6. (Goal: conversion; added 2026-10-13) 0 follows and 0 newsletter sign-ups in 7 days. Put one clear call to action above the write-up preview on matter pages (follow the case when it has a docket, otherwise the Monday email) and watch follows7 and newsletterSignups7.
+G7. (Goal: subscription; added 2026-10-13) Checklist item 1: sample alert email and sample portfolio report on the Monitor page, built from real public data only.
 0. ~~(Added by Jeff's session, 2026-10-09) imp-001's A-Z lists in companies.html and judges.html are hand-written, so a company or judge the digest adds later will be orphaned again. Move them into scripts/prerender.ts (it already bakes company matter lists) between marker comments, generated from RELAW_DATA.trackedParties and RELAW_DATA.judges, so they stay complete automatically.~~ Done 2026-10-10, imp-003: confirmed by the live audit (judge-frank-volk.html orphaned) before fixing; both lists now generated in scripts/prerender.ts and filtered to slugs with an existing profile page.
 1. ~~Company and judge profile pages are reachable only through JavaScript-built lists (site_audit "orphanPages": 92 on 2026-10-08). Bake static links to every company-*.html and judge-*.html into companies.html and judges.html (the prerender step already bakes company matter lists) so crawlers find them.~~ Done 2026-10-09, imp-001: static A-Z link lists added to both pages; orphanPages 92 -> 16.
 2. ~~16 orphan root pages remained after imp-001: author-jeff-novel.html, handbook.html, newsletter.html, and 13 state-guide pages.~~ Done 2026-10-09, imp-002: static link list added to state-guides.html (same JS-built-picker shape as imp-001); one inbound link each added for author-jeff-novel.html (from about.html) and newsletter.html (from index.html); handbook.html marked noindex and dropped from sitemap.xml since it's a pure redirect stub. orphanPages 16 -> 0.

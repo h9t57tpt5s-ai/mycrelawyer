@@ -41,7 +41,12 @@ jobs:
               v = e.get("verdict") or {}
               if (v.get("date") or "") >= since:
                   out.append(f"{v.get('date')}: judged {e.get('id')} '{e.get('title')}': {e.get('status')}. {v.get('note', '')}".strip())
-          print(json.dumps(out[:25]))
+          try:
+              goals = json.load(open("ops/metrics/goals.json")).get("goals", {})
+          except (FileNotFoundError, ValueError):
+              goals = {}
+          board = [f"GOAL {k}: {g.get('status')}; behind on {', '.join(g.get('behind') or []) or 'nothing'}" for k, g in goals.items() if k != "subscription"]
+          print(json.dumps((board + out)[:25]))
           PY
           cat /tmp/improvements.json
       - name: Send the report
