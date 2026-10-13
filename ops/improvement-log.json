@@ -97,6 +97,20 @@
    "baseline": {"follows7": 0, "newsletterSignups7": 0},
    "checkAfter": "2026-10-20",
    "status": "watching"
+  },
+  {
+   "id": "imp-008",
+   "date": "2026-10-13",
+   "track": "calculator",
+   "title": "Linked the Case Value Calculator from matter pages and the homepage",
+   "why": "ops/metrics/goals.json (refreshed this run): calculator is the goal furthest behind (gap 0.646, calculatorViews7=0/target 50, finalRangeHitRate=0.531/target 0.75) that has not had a change in the last 2 runs (imp-006 audit/traffic, imp-007 conversion); audit was clean (no breakage). Backlog G2: the calculator had 0 page views in 7 days even though it's linked from every page's nav dropdown, because nothing on the site's two highest-traffic page types (matter pages, the homepage) pointed to it in the body content. Added a third card to each matter page's CTA row (\"What's this <category> case worth?\", using the matter's own tracker category label) linking to case-valuation.html, and a homepage promo section (same cta-photo-card pattern already used on case-valuation-methodology.html's own CTA) between Coverage Areas and Why CREdocket. finalRangeHitRate (G3) is a valuation-method question gated on Jeff's approval per CLAUDE.md, not something this run's code can move; left as a separate backlog item.",
+   "files": ["scripts/build_matter_pages.ts", "index.html", "ops/metrics/goals.json"],
+   "commit": "c864b1be87be8088f61a4cf26294d60f746ecd20",
+   "metric": "goals.json calculator.metrics.calculatorViews7",
+   "window": "7 days",
+   "baseline": 0,
+   "checkAfter": "2026-10-20",
+   "status": "watching"
   }
  ]
 }
