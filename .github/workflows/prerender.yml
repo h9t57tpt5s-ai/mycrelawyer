@@ -54,7 +54,7 @@ jobs:
         run: |
           git add -A matters chapter-11 federal-cases
           git add bankruptcy-watch.html lawsuit-watch.html
-          git add index.html litigation.html coverage.html company-*.html corrections.html sitemap.xml js/data-lite.js js/matter-text.json
+          git add index.html litigation.html coverage.html company-*.html corrections.html sitemap.xml news-sitemap.xml js/data-lite.js js/matter-text.json
           if git diff --cached --quiet; then echo "Nothing changed."; exit 0; fi
           git config user.name "credocket-prerender-bot"
           git config user.email "actions@users.noreply.github.com"

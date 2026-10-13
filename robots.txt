@@ -37,3 +37,4 @@ User-agent: Bytespider
 Disallow: /js/case-valuation-data.js
 
 Sitemap: https://credocket.com/sitemap.xml
+Sitemap: https://credocket.com/news-sitemap.xml

@@ -75,9 +75,33 @@ def main():
         lines += ["  <url>", f"    <loc>{SITE}/{loc}</loc>", f"    <lastmod>{last}</lastmod>", f"    <priority>{pri}</priority>", "  </url>"]
     lines.append("</urlset>")
     (ROOT / "sitemap.xml").write_text("\n".join(lines) + "\n")
+    write_news_sitemap()
     print(f"{len(urls)} urls ({sum(1 for u in urls if u[0].startswith('matters/'))} matter pages, "
           f"{sum(1 for u in urls if u[0].startswith('chapter-11/'))} Chapter 11 pages, "
           f"{sum(1 for u in urls if u[0].startswith('federal-cases/'))} federal case pages)")
+
+
+def write_news_sitemap():
+    """news-sitemap.xml: matter pages added in the last two days, in Google's
+    news sitemap format, so same-day write-ups are found for Google News and
+    Top Stories quickly (Google reads only the last 48 hours of a news sitemap).
+    Listed in robots.txt."""
+    from xml.sax.saxutils import escape
+    cutoff = (dt.date.today() - dt.timedelta(days=2)).isoformat()
+    recent = [c for c in load_cases() if (c.get("addedDate") or "") >= cutoff
+              and (ROOT / "matters" / f"{c['id']}.html").exists()]
+    recent.sort(key=lambda c: (c.get("addedDate"), c["id"]), reverse=True)
+    lines = ['<?xml version="1.0" encoding="UTF-8"?>',
+             '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" '
+             'xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">']
+    for c in recent[:1000]:
+        lines += ["  <url>", f"    <loc>{SITE}/matters/{c['id']}.html</loc>", "    <news:news>",
+                  "      <news:publication><news:name>CREdocket</news:name><news:language>en</news:language></news:publication>",
+                  f"      <news:publication_date>{c['addedDate']}</news:publication_date>",
+                  f"      <news:title>{escape(c['title'])}</news:title>", "    </news:news>", "  </url>"]
+    lines.append("</urlset>")
+    (ROOT / "news-sitemap.xml").write_text("\n".join(lines) + "\n")
+    print(f"news sitemap: {len(recent)} matter pages added since {cutoff}")
 
 
 if __name__ == "__main__":
