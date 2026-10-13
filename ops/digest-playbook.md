@@ -13,6 +13,22 @@ estate only, no individuals' names, no record-only matters, verified figures).
 - Every matter tells a reader something the court record alone does not: who,
   what property, how much, why it matters to owners, lenders or tenants.
 
+## Freshness floor (check this FIRST, every run)
+
+The daily health check fails when the newest EVENT date in js/data.js (the
+`date` field, not `addedDate`) is more than 2 days old. Matters added today
+about last week's events do not count. At the start of every run compute
+max(date) over all cases. If it is older than yesterday (UTC), this run's
+first job, ahead of its beat, is to publish at least one matter whose event
+(filing, ruling, settlement, sale order, foreclosure action) happened today
+or yesterday: work ops/opinion-leads.json for opinions with dateFiled today
+or yesterday, then search for news dated today or yesterday ("filed
+Monday/Tuesday", "ruled on [weekday]", trade-press items dated today). A
+same-day trade-press report of a new suit or ruling is acceptable when the
+search result shows the article date and the facts you use; say in the body
+that the account comes from that report. Do not end a run with "the tracker
+already looks current" unless max(date) is today or yesterday.
+
 ## Where fresh stories come from (work these before general news searches)
 
 0. ops/opinion-leads.json (added 2026-10-13): court opinions filed in the last
