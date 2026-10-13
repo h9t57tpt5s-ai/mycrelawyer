@@ -1,0 +1,46 @@
+name: Court opinion leads
+
+# Runs scripts/pull_opinions.py: court opinions filed in the last few days
+# on commercial real estate issues, with their public-domain text, written
+# to ops/opinion-leads.json for the digest routine (which cannot open web
+# pages itself). Daily, before the noon UTC digest run whose beat is court
+# rulings. CourtListener allowance: up to 20 of the token's 125 a day
+# (ingest 35 + 35, docket check 35, this 20).
+
+on:
+  schedule:
+    - cron: "19 10 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write # commits ops/opinion-leads.json
+
+concurrency:
+  group: opinion-leads
+  cancel-in-progress: false
+
+jobs:
+  opinions:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - name: Pull this week's opinions
+        env:
+          COURTLISTENER_TOKEN: ${{ secrets.COURTLISTENER_TOKEN }}
+        run: python3 scripts/pull_opinions.py --days 4 --budget 20
+      - name: Commit the leads
+        run: |
+          git add ops/opinion-leads.json
+          if git diff --cached --quiet; then echo "Nothing new."; exit 0; fi
+          git config user.name "credocket-leads-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git commit -m "Leads: record this week's court opinions"
+          ok=0
+          for i in 1 2 3; do
+            if git pull --rebase origin main && git push; then ok=1; break; fi
+            sleep $((i * 10))
+          done
+          [ "$ok" = 1 ]

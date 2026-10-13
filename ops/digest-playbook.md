@@ -15,6 +15,17 @@ estate only, no individuals' names, no record-only matters, verified figures).
 
 ## Where fresh stories come from (work these before general news searches)
 
+0. ops/opinion-leads.json (added 2026-10-13): court opinions filed in the last
+   few days on commercial real estate issues, WITH THE OPINION'S TEXT. A court
+   opinion is a primary source you can write from directly, even though this
+   environment cannot open web pages: when an opinion decides a commercial real
+   estate dispute between businesses or governments, write the matter from the
+   text (sourceUrl = downloadUrl if present, else opinionUrl; status "ruling" or
+   "appeal"; date = dateFiled), stating only what the opinion says. Skip
+   residential, consumer, criminal and individual-party cases. Record each lead
+   in ops/leads-handled.json under its key ("opinion:<key>"). The 12:00 UTC run
+   (court-rulings beat) works these first; the other runs take any left.
+
 1. Leads the site's own jobs found this week: ops/federal-suits.json (filed in
    the last 3 days), ops/sec-litigation-leads.json and
    ops/securities-suit-leads.json. For each federal suit naming a large
