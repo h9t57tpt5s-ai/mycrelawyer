@@ -1,0 +1,22 @@
+{
+ "id": "live-287",
+ "title": "Lenox Mortgage IX LLC v. San Francisco Care Center, L.P.: Ninth Circuit BAP Limits Lender's Fee Recovery Under Old HUD Loan Documents After Assisted-Living Facility Sale",
+ "category": "lending-foreclosure",
+ "status": "ruling",
+ "date": "2026-10-09",
+ "jurisdiction": "U.S. Bankruptcy Appellate Panel of the Ninth Circuit (appeal from U.S. Bankruptcy Court, Northern District of California)",
+ "state": "CA",
+ "amount": "$419,266.94 in disputed lender attorneys' fees on a $19.8 million payoff demand",
+ "source": "live",
+ "source_url": "https://cdn.ca9.uscourts.gov/datastore/bap/2026/10/09/25-1201.pdf",
+ "summary": "On October 9, 2026, the Ninth Circuit Bankruptcy Appellate Panel ruled on a fee dispute that followed the bankruptcy sale of a San Francisco assisted-living and memory-care facility. Lender Lenox Mortgage IX LLC had demanded $419,266.94 in attorneys' fees on top of its payoff. The panel agreed with the bankruptcy court that the old HUD-era loan documents did not allow Lenox to recover fees from the earlier defaults and state-court litigation. It reversed as to the fees Lenox incurred in the bankruptcy case itself and the payoff fight, and it vacated the borrower's prevailing-party fee award for reconsideration.",
+ "significance": "The ruling is a warning to lenders holding older or acquired loan paper: whether fees can be added to the secured debt under Bankruptcy Code section 506(b) depends entirely on the exact wording of the documents. If the clause ties fee recovery to a court award or to foreclosure-sale proceeds, a lender that never got a court award and whose collateral was sold under section 363 instead of at foreclosure may recover nothing for years of accrued legal costs. California's reciprocal-fee statute can also turn a failed fee claim into a fee award against the lender.",
+ "judge": "Dennis Montali",
+ "tags": [
+  "bankruptcy",
+  "attorneys fees",
+  "senior living",
+  "section 506(b)",
+  "hud loan"
+ ]
+}

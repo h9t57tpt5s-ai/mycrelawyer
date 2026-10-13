@@ -1,0 +1,22 @@
+{
+ "id": "live-284",
+ "title": "Conroe WM LLC v. HREF Senior Worthington LLC: Delaware Supreme Court Affirms Preferred-Equity Lender's Takeover of Texas Assisted-Living Project",
+ "category": "lending-foreclosure",
+ "status": "ruling",
+ "date": "2026-10-08",
+ "jurisdiction": "Delaware Supreme Court (appeal from the Delaware Court of Chancery)",
+ "state": "DE",
+ "amount": "$4.5 million preferred-equity investment; control of the project's holding company",
+ "source": "live",
+ "source_url": "https://courts.delaware.gov/opinions/download.aspx?id=401990",
+ "summary": "On October 8, 2026, the Delaware Supreme Court affirmed a Court of Chancery judgment holding that HREF Senior Worthington LLC is now the sole manager of the holding company that controls a 117-bed assisted-living facility in Conroe, Texas. The Supreme Court issued a short order adopting the reasons in the Chancery memorandum opinion of January 12, 2026. That opinion found that HREF's contractual step-in right had been triggered when the holding company stopped making monthly payments on HREF's $4.5 million investment. The sponsor-side entities had argued that HUD approval rules on the project's mortgage-insured loan blocked the change of control. The courts rejected that argument.",
+ "significance": "The ruling confirms that a mezzanine or preferred-equity investor's step-in rights at the holding-company level can be enforced quickly under Section 18-110 of the Delaware LLC Act, even when the property-owning subsidiary carries a HUD-insured mortgage with its own approval rules. For senior-housing and other HUD Section 232 deals, it shows that HUD's consent rights attach to the borrower entity and its documents, not automatically to an upstream holding company. Sponsors can't rely on lender-side regulatory consents to resist a change of control that their own holding-company agreement allows.",
+ "judge": "N. Christopher Griffiths",
+ "tags": [
+  "senior living",
+  "preferred equity",
+  "step-in rights",
+  "hud section 232",
+  "delaware llc act"
+ ]
+}

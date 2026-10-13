@@ -8725,6 +8725,292 @@ const RELAW_DATA = {
         { when: "August 25, 2025", label: "McKean County court enforces the settlement and denies DewBoi's injunction petition" },
         { when: "October 13, 2026", label: "Commonwealth Court affirms enforcement of the settlement", current: true }
       ]
+    },
+    {
+      id: "live-283",
+      addedDate: "2026-10-13",
+      title: "Trustees Main/270, LLC v. ApplianceSmart, Inc.: Sixth Circuit Holds Shopping-Center Landlord Could Reject Replacement Tenants Tied to Its Defaulting Tenant",
+      category: "lease-disputes",
+      status: "ruling",
+      date: "2026-10-07",
+      jurisdiction: "U.S. Court of Appeals for the Sixth Circuit (on appeal from the U.S. District Court, Southern District of Ohio)",
+      state: "OH",
+      amount: "Unpaid rent and reletting damages under a big-box retail lease and guaranty (amount not stated in the opinion)",
+      source: "live",
+      sourceUrl: "https://www.opn.ca6.uscourts.gov/opinions.pdf/26a0394n-06.pdf",
+      propertyType: "Retail",
+      summary: "A Sixth Circuit panel affirmed a judgment for Trustees Main/270, LLC, owner of a Columbus, Ohio shopping center, against its former big-box tenant ApplianceSmart, Inc. and the lease guarantor JanOne, Inc. The defendants argued the landlord had failed to mitigate its damages by turning down two replacement tenants that the guarantor and an affiliated company had proposed. The court held that Ohio law does not make a commercial landlord deal with replacement tenants that carry an undue risk of another default, and that the landlord's multi-year search, which ended in an AutoZone lease, was a reasonable effort to mitigate.",
+      significance: "The ruling gives commercial landlords in Ohio, and in other states that use the Restatement's reasonable-efforts test, room to turn down a substitute tenant offered by a defaulting tenant's own corporate family. It also holds that conditions such as prepaying the arrears and posting a nonrefundable deposit can be reasonable when a related party wants to take over the lease. Guarantors should expect that a slow re-leasing process for specialized big-box space will not, by itself, defeat the landlord's damages claim.",
+      body: [
+        "ApplianceSmart, Inc. operated a store in the big-box space of a Columbus, Ohio shopping center owned by Trustees Main/270, LLC from 2008 to 2022. The lease began with a predecessor entity, Appliance Recycling Centers of America, which became the guarantor in 2017 when ApplianceSmart took over as tenant and the term was extended to June 30, 2025. That guarantor was later reincorporated as JanOne, Inc. and stayed on the guaranty after JanOne sold ApplianceSmart to Live Ventures, Inc. in 2019.",
+        "According to the opinion, the tenant defaulted three times. A 2019 rent default ended in a settlement of a state-court suit. A second default during ApplianceSmart's 2021 bankruptcy was resolved with an amendment under which Live Ventures agreed to pay more than $185,000 in back rent, and the landlord gained a new one-sided right to terminate on 30 days' notice. After a third payment default in February 2022, the landlord used a lease clause that let it retake possession and change the locks without ending the lease, leaving the tenant responsible for rent and reletting costs. It then sued ApplianceSmart and JanOne for breach of the lease and the guaranty.",
+        "The defendants did not dispute that they had breached. Their defense was mitigation. The guarantor proposed an affiliated recycling business that would assume the existing lease and keep trading under the ApplianceSmart name, and Live Ventures offered one of its own portfolio companies, a flooring retailer. The landlord asked the first candidate to prepay all arrears and post a nonrefundable six-month deposit, which JanOne refused. It sent the second candidate a standard questionnaire, which went unanswered. The landlord's broker kept marketing the space, and AutoZone signed a lease in September 2024. Because of zoning and permitting contingencies, AutoZone did not begin paying rent until after the ApplianceSmart term would have ended.",
+        "The district court awarded the undisputed back rent on summary judgment and held a bench trial on mitigation, finding the landlord's efforts reasonable. In an opinion that is not recommended for publication, the Sixth Circuit affirmed. Applying the Ohio Supreme Court's decision in Frenchtown Square Partnership v. Lemstone and the Restatement (Second) of Contracts section 350, the panel said a commercial lessor must make reasonable efforts to relet but need not accept just any available tenant, and need not take on undue risk. Both proposed replacements shared ownership or key decision-makers with the parties behind the three defaults, so rejecting them, or demanding protective terms, was reasonable. The panel also rejected an analogy to employment-law cases about unconditional job offers, and found the argument about a rejected purchase offer likely forfeited, noting that Ohio landlords are not required to sell the building to mitigate.",
+        "Before reaching the merits, the panel raised on its own that the complaint had not properly alleged the citizenship of the parties, including the landlord LLC's members. It accepted supplemental letter briefs that traced the landlord's membership through partnerships and trusts to Ohio and Florida citizens, and treated them as amendments under 28 U.S.C. section 1653 to confirm diversity jurisdiction.",
+        "For landlords, the practical lesson is to document the re-leasing process: broker outreach, why each candidate was accepted or declined, and the credit concerns behind any conditions. A tenant's or guarantor's affiliate is not owed an easy path back into the space. Tenants and guarantors who want to cap their exposure through a substitute tenant should offer real credit support and full financial disclosure. Counsel filing diversity suits for LLC or trust-owned landlords should plead each member's citizenship in full from the start."
+      ],
+      tags: ["mitigation of damages", "retail lease", "lease guaranty", "big-box", "ohio law"],
+      parties: [
+        { name: "Trustees Main/270, LLC", role: "Plaintiff-Appellee / Landlord" },
+        { name: "ApplianceSmart, Inc.", role: "Defendant-Appellant / Tenant" },
+        { name: "JanOne, Inc.", role: "Defendant-Appellant / Guarantor" }
+      ],
+      judge: "John B. Nalbandian",
+      amountUsd: null,
+      timeline: [
+        { when: "February 2022", label: "Tenant defaults on rent a third time; landlord retakes the premises without terminating the lease and sues tenant and guarantor" },
+        { when: "September 2024", label: "Landlord signs replacement lease with AutoZone after a multi-year search" },
+        { when: "October 7, 2026", label: "Sixth Circuit affirms judgment for landlord, holding its mitigation efforts were reasonable", current: true }
+      ]
+    },
+    {
+      id: "live-284",
+      addedDate: "2026-10-13",
+      title: "Conroe WM LLC v. HREF Senior Worthington LLC: Delaware Supreme Court Affirms Preferred-Equity Lender's Takeover of Texas Assisted-Living Project",
+      category: "lending-foreclosure",
+      status: "ruling",
+      date: "2026-10-08",
+      jurisdiction: "Delaware Supreme Court (appeal from the Delaware Court of Chancery)",
+      state: "DE",
+      amount: "$4.5 million preferred-equity investment; control of the project's holding company",
+      source: "live",
+      sourceUrl: "https://courts.delaware.gov/opinions/download.aspx?id=401990",
+      propertyType: "Senior Living",
+      summary: "On October 8, 2026, the Delaware Supreme Court affirmed a Court of Chancery judgment holding that HREF Senior Worthington LLC is now the sole manager of the holding company that controls a 117-bed assisted-living facility in Conroe, Texas. The Supreme Court issued a short order adopting the reasons in the Chancery memorandum opinion of January 12, 2026. That opinion found that HREF's contractual step-in right had been triggered when the holding company stopped making monthly payments on HREF's $4.5 million investment. The sponsor-side entities had argued that HUD approval rules on the project's mortgage-insured loan blocked the change of control. The courts rejected that argument.",
+      significance: "The ruling confirms that a mezzanine or preferred-equity investor's step-in rights at the holding-company level can be enforced quickly under Section 18-110 of the Delaware LLC Act, even when the property-owning subsidiary carries a HUD-insured mortgage with its own approval rules. For senior-housing and other HUD Section 232 deals, it shows that HUD's consent rights attach to the borrower entity and its documents, not automatically to an upstream holding company. Sponsors can't rely on lender-side regulatory consents to resist a change of control that their own holding-company agreement allows.",
+      body: [
+        "The dispute concerns a 117-bed assisted-living facility built on land in Conroe, Texas. The property-owning company, Conroe WM LLC, financed construction with a loan from Greystone Funding Company LLC, insured by the U.S. Department of Housing and Urban Development under its Section 232 program for residential care facilities. HUD required the borrower to fund several escrows: working capital, minor movable equipment and an initial operating deficit. HREF Senior Worthington LLC, which once operated under a MidHudson name, came into the deal in 2019 to fund them.",
+        "HREF put $4.5 million into WM Conroe Property Holdings LLC, the holding company that manages the property owner. About $3.24 million covered the HUD escrows. The other $1.27 million funded the first 25 months of HREF's monthly return. HREF took special membership interests rather than common equity or management rights. In exchange, it bargained for the right to become the holding company's sole manager immediately if it was not paid. The redemption date was later extended to August 2024, and the monthly payment was raised to $40,000. According to the Chancery opinion, payments stopped after February 2024.",
+        "HREF declared its step-in right in November 2024 and sued in the Court of Chancery that month. One count sought a summary declaration under 6 Del. C. Section 18-110 that HREF was now the holding company's sole manager. That count was tried on a paper record in August 2025. The defendants were the property owner and WM Property Holdings LLC, the sponsor-side manager. They argued that the HUD documents and the property owner's operating agreement barred any change in management without HUD's prior written approval. They also argued that HREF's step-in addendum was illegal and that HUD had to be part of the case.",
+        "In a January 12, 2026 memorandum opinion, the Court of Chancery rejected each argument. It held that the HUD approval provisions bound the property-owning borrower, not the holding company above it. It also held that the HUD documents did not control who could manage the holding company, that the HREF addendum was not illegal, and that the parties before the court were enough to resolve the control dispute. The court ruled that HREF was entitled to become the holding company's sole manager immediately. It held HREF's fee request in abeyance while the remaining claims proceed.",
+        "The defendants appealed. After briefing and oral argument, the Delaware Supreme Court affirmed by order on October 8, 2026, adopting the Court of Chancery's reasoning. The panel was the Chief Justice and two Justices. The other counts in HREF's amended complaint are still pending in the Court of Chancery.",
+        "For investors in HUD-financed senior housing and similar regulated deals, the practical point is to place step-in and removal rights at a holding company that sits outside the HUD-regulated borrower. The agreements should say clearly which entity owes the payments and what default triggers the takeover. Sponsors should assume that pointing to agency approval rules written for the borrower will not stop an upstream investor from taking control once its own triggers are met. Lenders and investors should still plan for HUD notice and approval steps at the property level after they take over the holding company."
+      ],
+      tags: ["senior living", "preferred equity", "step-in rights", "hud section 232", "delaware llc act"],
+      parties: [
+        { name: "HREF Senior Worthington LLC", role: "Appellee (Plaintiff Below)" },
+        { name: "SL1 B LLC", role: "Co-Plaintiff (Court of Chancery)" },
+        { name: "Conroe WM LLC", role: "Appellant (Defendant Below)" },
+        { name: "WM Property Holdings LLC", role: "Appellant (Defendant Below)" },
+        { name: "WM Conroe Property Holdings LLC", role: "Nominal Defendant" }
+      ],
+      judge: "N. Christopher Griffiths",
+      amountUsd: 4500000,
+      amountBasis: "other",
+      timeline: [
+        { when: "November 8, 2024", label: "HREF sues in the Delaware Court of Chancery to enforce its step-in right as holding-company manager" },
+        { when: "August 20, 2025", label: "Paper-record trial on the Section 18-110 control claim" },
+        { when: "January 12, 2026", label: "Court of Chancery rules HREF is the holding company's sole manager" },
+        { when: "October 8, 2026", label: "Delaware Supreme Court affirms on the basis of the Chancery opinion", current: true }
+      ]
+    },
+    {
+      id: "live-285",
+      addedDate: "2026-10-13",
+      title: "Concerned Citizens of Spartanburg County v. Spartanburg County: Judge Dismisses Zoning Challenge to Valara Holdings' $2.8B Data Center",
+      category: "zoning-land-use",
+      status: "ruling",
+      date: "2026-10-06",
+      jurisdiction: "South Carolina Court of Common Pleas, Seventh Judicial Circuit (Spartanburg County)",
+      state: "SC",
+      amount: "$2.8 billion data center project; declaratory and injunctive relief only, no damages sought",
+      source: "live",
+      sourceUrl: "https://sclawyersweekly.com/news/2026/10/08/judge-dismisses-lawsuit-challenging-spartanburg-data-center/",
+      propertyType: "Data Center",
+      summary: "On October 6, 2026, a Spartanburg County circuit judge dismissed a neighbors' group's suit claiming the county should have reviewed Valara Holdings' $2.8 billion data center at the former Kohler plant as a 'major' land development rather than a 'minor' one. The court held that the group, Concerned Citizens of Spartanburg County, lacked standing because it had not shown special damage, and that it had skipped the required appeal to the county Board of Zoning Appeals. The court also called the challenge to a second, still-pending permit premature. The group, represented by the Southern Environmental Law Center, says it will appeal.",
+      significance: "The ruling shows that a by-right or staff-level approval can hold up against neighbors who do not first use the local zoning-appeal process within the short deadline it allows, and who cannot show harm specific to them. For data center developers and the owners of converted industrial sites, this is a strong procedural defense while opposition to the asset class grows. It also shows how a project classification fight ('minor' versus 'major' review) can become the main point of attack, so developers should record why their application fits the classification they chose.",
+      body: [
+        "Concerned Citizens of Spartanburg County, a local group represented by the Southern Environmental Law Center, sued Spartanburg County in July 2026. The suit challenged how the county was handling permits for a data center campus being built by Valara Holdings, which South Carolina Lawyers Weekly describes as a subsidiary of NorthMark Cloud and Compute. The project is planned on South Pine Street, at the site of the old Kohler plant. It is reported as a $2.8 billion investment. SELC's filing materials describe about 500,000 square feet of new buildings, a power yard, internal roads and a 450-megawatt gas-fired power plant.",
+        "The suit rested on the county's Unified Land Management Ordinance. The group argued that Valara had applied for, and county staff were processing, a 'minor' land development permit, which gets staff-only review with no public hearing. In the group's view a project of this size met the ordinance's definition of a 'major' development. That would have required review by the Planning Commission, plus public notice and comment. The complaint asked for a declaration that the county must require a major development permit, and for an injunction stopping the county from processing the minor application. The first permit, for redeveloping the Kohler building, was approved in August 2025. A second application, covering four new buildings, the power yard and cooling systems, is still pending.",
+        "Judge J. Derham Cole Jr. dismissed the case on October 6 and did not decide whether the project was correctly classified. Local coverage reports two grounds. First, standing: under South Carolina law, neighbors who want to block a project must show they were specially damaged. The court found the group's concerns about noise, dust, traffic, health and transparency too general to meet that test. Second, exhaustion: county rules give an appeal to the Board of Zoning Appeals, reportedly with a 10-day filing window, and the group had not used it. As for the second permit, the court said a challenge was premature because the county has not yet acted on it. A hearing on the group's request to pause construction had been held on September 17, and the dismissal ends that request.",
+        "SELC says the ruling conflicts with South Carolina Supreme Court precedent. It argues that residents could not have used the zoning-appeal route because the project was not described as a data center when it was permitted, and it expects to file a notice of appeal. The fight goes beyond zoning. SELC is pressing a separate challenge before the South Carolina Court of Appeals over whether Valara needed Public Service Commission approval. It has also asked state environmental regulators to reopen comment on the project's air permit, which the state issued in September, over formaldehyde emissions from the planned gas turbines. Spartanburg County separately paused new data center applications for one year in June 2026. Coverage notes that the pause does not reach Valara, because its project was already underway.",
+        "In practical terms, the decision is a clear example of procedural defenses deciding a land-use case before the merits are reached. Developers that move through staff-level approvals can gain a lot when neighbors miss short administrative appeal deadlines. They should still expect opponents to try every other forum available, including utility regulators, air permits and appeals. Owners repurposing former manufacturing plants for data centers should document the basis for their permit classification from the start, because that classification is now a common target. Lenders and investors should treat a trial-court standing win as an interim result while an appeal and parallel regulatory challenges are pending."
+      ],
+      tags: ["data center", "zoning", "standing", "exhaustion", "south carolina"],
+      parties: [
+        { name: "Concerned Citizens of Spartanburg County", role: "Plaintiff" },
+        { name: "Spartanburg County", role: "Defendant" },
+        { name: "Valara Holdings", role: "Developer" }
+      ],
+      judge: "J. Derham Cole Jr.",
+      amountUsd: null,
+      timeline: [
+        { when: "August 2025", label: "County approves first permit to redevelop the former Kohler plant" },
+        { when: "July 6, 2026", label: "Concerned Citizens of Spartanburg County files suit challenging the 'minor' development classification" },
+        { when: "September 17, 2026", label: "Hearing on request to pause construction; taken under advisement" },
+        { when: "October 6, 2026", label: "Court dismisses suit for lack of standing and failure to appeal to the Board of Zoning Appeals; group says it will appeal", current: true }
+      ]
+    },
+    {
+      id: "live-286",
+      addedDate: "2026-10-13",
+      title: "Hetley Associates v. Lemoyne Borough Zoning Hearing Board: Pennsylvania Commonwealth Court Rejects Strip-Center Owner's Use Variance for Overflow Parking on Adjacent Residential Lots",
+      category: "zoning-land-use",
+      status: "ruling",
+      date: "2026-10-09",
+      jurisdiction: "Commonwealth Court of Pennsylvania",
+      state: "PA",
+      amount: "Use variance to demolish three houses and build a parking lot (no dollar figure at stake)",
+      source: "live",
+      sourceUrl: "https://www.pacourts.us/assets/opinions/Commonwealth/out/1306CD25_10-9-26.pdf",
+      propertyType: "Retail",
+      summary: "On October 9, 2026, the Commonwealth Court of Pennsylvania affirmed the denial of a use variance sought by Hetley Associates, owner of the Hetley Plaza strip shopping center in Lemoyne Borough. The owner wanted to demolish three houses it owns in the borough's Urban Residential District and replace them with parking for the center, which has fewer spaces than its commercial zoning requires. The court held that the claimed hardship belonged to the separate commercial parcel and to the owner, not to the residential lots that needed the variance. That failure alone defeated the request.",
+      significance: "Retail owners often try to fix nonconforming parking by buying neighboring residential parcels. This ruling confirms that in Pennsylvania a use variance must rest on a hardship unique to the parcel being rezoned, not on the business needs of an adjoining commercial site under the same ownership. Owners and buyers of parking-deficient centers should not count on a variance to add capacity on residential land next door. The opinion is non-precedential, and its footnote expressly declines to decide whether consolidating the lots through a reverse subdivision would change the analysis.",
+      body: [
+        "Hetley Associates owns Hetley Plaza, a strip shopping center in Lemoyne Borough, Cumberland County, zoned Commercial General. It also owns three nearby residential lots in the borough's Urban Residential District, one of them a rented house. The center operates as a lawful nonconforming use with fewer parking spaces than the ordinance now requires. The owner argued that changing conditions around the plaza had made the shortage worse, and that a vacant space once occupied by a restaurant was hard to re-lease without more parking.",
+        "In January 2025 the owner asked the borough Zoning Hearing Board for a use variance to demolish the three houses and pave a parking lot in their place. After a hearing, the Board denied the request on March 27, 2025. Among other reasons, it found that the owner's own decision to lease to a restaurant had added to the parking problem. The Court of Common Pleas of Cumberland County affirmed on September 4, 2025, after argument in August. It found that the residential lots could keep being used as rentals, for which there is demand, and that the hardship the owner described related to the plaza rather than to the lots in question.",
+        "On appeal, the owner challenged each of the Board's findings: that the variance would change the character of the neighborhood, that the hardship was self-created, that following the ordinance was practical, and that the request was not the minimum variance needed. In a memorandum opinion filed October 9, 2026, the Commonwealth Court affirmed on a single ground and did not reach the others. Both the borough ordinance and the Municipalities Planning Code require unnecessary hardship arising from physical conditions unique to the property for which relief is sought. Relying on its earlier decision in Bawa Muhaiyaddeen Fellowship, the court explained that the hardship must belong to the property, not to the person who owns it.",
+        "Applying that rule, the court found that the owner was really claiming a hardship to its commercial plaza: it could not expand that use without taking over the neighboring residential land. Because the residential lots stay usable and valuable for their permitted residential use, there was no unnecessary hardship tied to them. The court noted that the owner cited no authority allowing a variance on one property based on hardship to another. In a footnote, the court also rejected the owner's suggestion that the minimum-variance requirement does not apply to use variances, pointing to its own decisions holding that it does.",
+        "The court added that, although one owner holds both the plaza and the residential lots, they remain separate parcels, and nothing in the record showed an attempt to combine them. It expressly declined to say whether a reverse subdivision would have been proper or would change the result. The opinion is labeled non-precedential, so it can be cited as persuasive authority but is not binding in Pennsylvania.",
+        "For retail landlords, the practical lesson is that parking shortfalls at older centers usually cannot be solved by buying adjoining residential lots and asking for a use variance. Better options include a rezoning or text amendment, a parking-reduction or shared-parking provision, an off-site parking agreement on commercially zoned land, or, where the ordinance allows, combining parcels before applying, though the court left that last route open rather than endorsing it. Owners should also expect a zoning board to count leasing decisions, such as bringing in a parking-heavy restaurant tenant, as a self-created hardship. Buyers and lenders evaluating a nonconforming center should treat any planned parking expansion that depends on a variance as uncertain."
+      ],
+      tags: ["use variance", "parking", "shopping center", "pennsylvania", "unnecessary hardship"],
+      parties: [
+        { name: "Hetley Associates", role: "Appellant" },
+        { name: "Lemoyne Borough Zoning Hearing Board", role: "Appellee" }
+      ],
+      judge: "Christine Fizzano Cannon",
+      amountUsd: null,
+      timeline: [
+        { when: "January 2025", label: "Owner applies for use variance to replace three houses with parking for Hetley Plaza" },
+        { when: "March 27, 2025", label: "Lemoyne Borough Zoning Hearing Board denies variance" },
+        { when: "September 4, 2025", label: "Cumberland County Court of Common Pleas affirms denial" },
+        { when: "October 9, 2026", label: "Commonwealth Court affirms: hardship belongs to the commercial plaza, not the residential lots", current: true }
+      ]
+    },
+    {
+      id: "live-287",
+      addedDate: "2026-10-13",
+      title: "Lenox Mortgage IX LLC v. San Francisco Care Center, L.P.: Ninth Circuit BAP Limits Lender's Fee Recovery Under Old HUD Loan Documents After Assisted-Living Facility Sale",
+      category: "lending-foreclosure",
+      status: "ruling",
+      date: "2026-10-09",
+      jurisdiction: "U.S. Bankruptcy Appellate Panel of the Ninth Circuit (appeal from U.S. Bankruptcy Court, Northern District of California)",
+      state: "CA",
+      amount: "$419,266.94 in disputed lender attorneys' fees on a $19.8 million payoff demand",
+      source: "live",
+      sourceUrl: "https://cdn.ca9.uscourts.gov/datastore/bap/2026/10/09/25-1201.pdf",
+      propertyType: "Senior Living",
+      summary: "On October 9, 2026, the Ninth Circuit Bankruptcy Appellate Panel ruled on a fee dispute that followed the bankruptcy sale of a San Francisco assisted-living and memory-care facility. Lender Lenox Mortgage IX LLC had demanded $419,266.94 in attorneys' fees on top of its payoff. The panel agreed with the bankruptcy court that the old HUD-era loan documents did not allow Lenox to recover fees from the earlier defaults and state-court litigation. It reversed as to the fees Lenox incurred in the bankruptcy case itself and the payoff fight, and it vacated the borrower's prevailing-party fee award for reconsideration.",
+      significance: "The ruling is a warning to lenders holding older or acquired loan paper: whether fees can be added to the secured debt under Bankruptcy Code section 506(b) depends entirely on the exact wording of the documents. If the clause ties fee recovery to a court award or to foreclosure-sale proceeds, a lender that never got a court award and whose collateral was sold under section 363 instead of at foreclosure may recover nothing for years of accrued legal costs. California's reciprocal-fee statute can also turn a failed fee claim into a fee award against the lender.",
+      body: [
+        "San Francisco Care Center, L.P. borrowed up to $23,108,000 in 2002 from Pacific Commonwealth Mortgage Company to build a senior health care facility in San Francisco. It began operating the property as an assisted-living facility for elderly and memory-care residents in 2004. The loan was assigned to the U.S. Department of Housing and Urban Development in May 2006, and HUD sold it to Lenox Mortgage IX LLC that December. The bankruptcy court later called the loan documents \"terribly outdated and nothing like what is routinely seen today.\"",
+        "The borrower first defaulted around 2006 or 2007 and cured it in 2008 by paying $252,470.56, a figure that included no attorneys' fees. It then sued Lenox in state court to force the release of more construction funds, and later dismissed that suit voluntarily. Years later, legal costs from a building-code suit brought by the City of San Francisco, which the operator won in 2023, combined with the pandemic to strain its finances. It stopped making loan payments in early 2024. Lenox recorded a notice of default in September 2024 and set a foreclosure sale for January 14, 2025. The operator filed Chapter 11 that same day.",
+        "Lenox filed a proof of claim for $19,189,226.25. In May 2025 the bankruptcy court approved a section 363 sale of the property for $27,750,000 in cash. Under the sale order, any challenged part of a payoff demand was held in escrow. Lenox's demand was $19,822,204.53, plus per diem interest, $1,910,657.89 in unpaid interest and $419,266.94 in attorneys' fees. Lenox broke the fees down as $187,324.54 for the first default, $139,035.94 for the state-court suit, $56,073.32 for the second default and $87,162 for the bankruptcy and payoff litigation. Judge Dennis Montali disallowed all of the fees. In a December 1, 2025 order he also granted the debtor its own fees and costs under California Civil Code section 1717. The case was converted to Chapter 7 in April 2026.",
+        "The panel read the note, deed of trust and security agreement closely. The note allowed only fees that a court adjudged reasonable in an action on the note, and no court ever did that. The deed of trust covered actions affecting Lenox's security, but the construction-funds suit did not threaten the lien. The nonjudicial notices of default were also not court proceedings. The security agreement allowed fees only out of foreclosure-sale proceeds, and the property was sold through the bankruptcy court rather than at foreclosure.",
+        "The panel ruled the other way on the bankruptcy-related fees. Lenox had appeared in the case to protect its lien, through the cash-collateral order, its proof of claim and its objections to the sale order. The panel also held that the payoff litigation could not be an action on the contract for the borrower's section 1717 fee claim and yet not an action for Lenox's own fee recovery. It reversed on those fees and sent the case back for a reasonableness determination. It also vacated the borrower's fee award so the bankruptcy court can decide who now counts as the prevailing party.",
+        "For lenders buying seasoned or agency-originated loans, the practical lesson is to check the fee clauses before relying on the right to add legal costs to the debt. Narrow clauses tied to court awards or foreclosure proceeds may not survive a bankruptcy sale. Lenders should ask a court to award fees when litigation is pending instead of quietly accruing them, and should weigh the risk of a reciprocal fee award under section 1717 before contesting a payoff. Borrowers and buyers in distressed senior-living and other single-asset sales should read the old loan documents with equal care, because the escrow holdback for disputed charges can be released."
+      ],
+      tags: ["bankruptcy", "attorneys fees", "senior living", "section 506(b)", "hud loan"],
+      parties: [
+        { name: "Lenox Mortgage IX LLC", role: "Appellant/Lender" },
+        { name: "San Francisco Care Center, L.P.", role: "Appellee/Debtor" },
+        { name: "Pacific Commonwealth Mortgage Company", role: "Original Lender" },
+        { name: "United States Department of Housing and Urban Development", role: "Prior Loan Holder" }
+      ],
+      judge: "Dennis Montali",
+      amountUsd: 419266.94,
+      amountBasis: "claim",
+      timeline: [
+        { when: "June 1, 2002", label: "$23.1 million construction loan for a San Francisco senior care facility" },
+        { when: "December 2006", label: "HUD sells the loan to Lenox Mortgage IX LLC" },
+        { when: "September 2024", label: "Lenox records notice of default after missed payments" },
+        { when: "January 14, 2025", label: "Operator files Chapter 11 on the day of the scheduled foreclosure sale" },
+        { when: "May 2025", label: "Bankruptcy court approves $27.75 million section 363 sale of the property" },
+        { when: "December 1, 2025", label: "Bankruptcy court disallows Lenox's fees and awards the debtor its fees" },
+        { when: "April 14, 2026", label: "Case converted to Chapter 7" },
+        { when: "October 9, 2026", label: "Ninth Circuit BAP affirms in part, reverses on bankruptcy fees, vacates the fee award", current: true }
+      ]
+    },
+    {
+      id: "live-288",
+      addedDate: "2026-10-13",
+      title: "In re Duplex at Sleepy Hollow, LLC: Ninth Circuit BAP Upholds Retroactive Stay Annulment That Validated Enterprise Bank's Nine Laguna Beach Foreclosures",
+      category: "lending-foreclosure",
+      status: "ruling",
+      date: "2026-10-07",
+      jurisdiction: "U.S. Bankruptcy Appellate Panel of the Ninth Circuit (appeal from U.S. Bankruptcy Court, Central District of California)",
+      state: "CA",
+      amount: "Roughly $80 million first-lien debt on ten Laguna Beach properties",
+      source: "live",
+      sourceUrl: "https://cdn.ca9.uscourts.gov/datastore/bap/2026/10/07/25-1256.pdf",
+      summary: "On October 7, 2026, the Ninth Circuit Bankruptcy Appellate Panel affirmed a bankruptcy court order that retroactively annulled the automatic stay. The order validated nine nonjudicial foreclosure sales that Enterprise Bank and Trust held on October 15, 2025 for Laguna Beach properties owned by ten single-asset entities. Involuntary Chapter 11 petitions had been filed against the owners minutes before the sales began. A prospective bidder appealed, arguing all the sales should be re-noticed. The panel found no abuse of discretion, given the bankruptcy court's finding that the filings were made in bad faith.",
+      significance: "The ruling shows that a last-minute involuntary bankruptcy filed by related creditors to stop a foreclosure can be undone after the fact. That holds especially when the lender had no notice and already held stay relief from an earlier bankruptcy. It also tells foreclosure-sale bidders that sitting out an auction because they know of a bankruptcy filing, without telling the trustee, weakens any later claim that they were harmed.",
+      body: [
+        "Enterprise Bank and Trust held the first deed of trust on ten Laguna Beach, California parcels. Each parcel was owned by its own single-asset real estate entity, including Laguna Festival Center, LLC, Laguna Art District Complex, LLC, 891 Laguna Canyon Road, LLC, 694 NCH Apartments, LLC and Duplex at Sleepy Hollow, LLC. The properties had a collective book value of about $95 million, and Enterprise was owed roughly $80 million. Each parcel carried at least three deeds of trust. The owners had stopped paying property taxes and regular loan payments. Enterprise sent a default notice in November 2024 and recorded notices of default in February 2025. The defaults came against the backdrop of a long-running dispute over control of the ownership entities.",
+        "Within three weeks of the default notices, the owners and twelve affiliates filed voluntary Chapter 11 cases in Delaware, jointly administered under MOM CA Investco LLC. Enterprise obtained unopposed stay relief on July 15, 2025, and the Delaware cases were dismissed in August 2025. Enterprise then sued in California state court, which appointed a receiver over the properties on October 7, 2025. Enterprise also noticed nonjudicial foreclosure sales for 3:00 p.m. on October 15, 2025.",
+        "On the afternoon of the sales, between 2:28 and 3:02 p.m., creditors including Vierergruppe Management, Inc. filed involuntary Chapter 11 petitions against all ten owners in Santa Ana. Neither Enterprise nor the foreclosure trustee knew. The sales ran from 3:13 to 3:52 p.m. About twenty unrelated people attended, but only one outside bid was placed, on the 694 NCH property. That sale was later canceled and the money returned. Enterprise took the other nine properties by credit bid. The owners opposed stay relief by offering a $102 million purchase agreement with Special Assets Laguna, LLC.",
+        "Bankruptcy Judge Scott C. Clarkson found the involuntary cases were filed in bad faith. In December 2025 he granted Enterprise prospective and in rem relief and retroactively annulled the stay as to the nine properties without outside bids, which validated those sales. He ordered the petitioning creditors to post a $1 million bond. They did not, and the ten cases were dismissed on March 18, 2026. The owners dropped their own appeals in June 2026, which left only the appeal of a prospective bidder. That bidder said he held back because he had heard of the filings, and argued that the petitions chilled the bidding.",
+        "The panel first held that the appeal was not moot and that the bidder had standing, because he had changed his conduct in reliance on the stay. On the merits, it held that the equities analysis under the Fjeldsted factors properly looked at the debtors' bad faith, the lender's lack of notice, its earlier stay relief and how quickly it moved, and not only at the bidder's position. It noted that the bidder had not alerted the trustee or placed a bid. It also found nothing inconsistent in treating the rescinded 694 NCH sale differently, because that property is the subject of a separate appeal.",
+        "For lenders, the decision supports moving quickly to annul the stay when related parties file a bankruptcy at the last minute, particularly after an earlier case produced stay relief. For borrowers and their affiliates, serial or involuntary filings timed to the auction risk bad-faith findings, bond requirements and dismissal. For investors who bid at foreclosure sales, the safer course when a bankruptcy is rumored is to tell the trustee or bid anyway. Waiting quietly may leave no remedy if the sale is later validated."
+      ],
+      tags: ["bankruptcy", "automatic stay", "foreclosure", "involuntary petition", "bad faith filing"],
+      parties: [
+        { name: "Enterprise Bank and Trust", role: "Appellee/Lender" },
+        { name: "Duplex at Sleepy Hollow, LLC", role: "Debtor" },
+        { name: "777 at Laguna, LLC", role: "Debtor" },
+        { name: "Cliff Drive Properties DE, LLC", role: "Debtor" },
+        { name: "Laguna Festival Center, LLC", role: "Debtor" },
+        { name: "694 NCH Apartments, LLC", role: "Debtor" },
+        { name: "Retreat at Laguna Villas, LLC", role: "Debtor" },
+        { name: "891 Laguna Canyon Road, LLC", role: "Debtor" },
+        { name: "Heisler Laguna, LLC", role: "Debtor" },
+        { name: "Sunset Cove Villas, LLC", role: "Debtor" },
+        { name: "Laguna Art District Complex, LLC", role: "Debtor" },
+        { name: "Vierergruppe Management, Inc.", role: "Petitioning Creditor" },
+        { name: "Coastline Santa Monica Investments, LLC", role: "Petitioning Creditor" },
+        { name: "Special Assets Laguna, LLC", role: "Proposed Purchaser" }
+      ],
+      judge: "Scott C. Clarkson",
+      amountUsd: null,
+      timeline: [
+        { when: "February 2025", label: "Enterprise records notices of default on ten Laguna Beach properties" },
+        { when: "July 15, 2025", label: "Delaware bankruptcy court grants Enterprise stay relief; cases dismissed in August" },
+        { when: "October 7, 2025", label: "California state court appoints a receiver over the properties" },
+        { when: "October 15, 2025", label: "Involuntary Chapter 11 petitions filed minutes before the foreclosure sales; Enterprise credit-bids nine properties" },
+        { when: "December 2025", label: "Bankruptcy court retroactively annuls the stay and requires a $1 million bond" },
+        { when: "March 18, 2026", label: "Involuntary cases dismissed after the bond is not posted" },
+        { when: "October 7, 2026", label: "Ninth Circuit BAP affirms the retroactive annulment", current: true }
+      ]
+    },
+    {
+      id: "live-289",
+      addedDate: "2026-10-13",
+      title: "Braemar Hotels & Resorts Settles With Largest Stockholder Al Shams Investments: $40M Payout Ends Proxy Fight, Securities and Defamation Claims, and Texas Pre-Suit Petition",
+      category: "reit-securities",
+      status: "settled",
+      date: "2026-10-06",
+      jurisdiction: "Out-of-court settlement (resolves a pending Texas Rule 202 pre-suit deposition petition; the filing does not name the court)",
+      state: "TX",
+      amount: "$40 million settlement payment ($25M for claims plus $15M expense reimbursement); Braemar expects its net cost to be $4M-$6M after insurance and Ashford's share",
+      source: "live",
+      sourceUrl: "https://www.sec.gov/Archives/edgar/data/1574085/000110465926114691/tm2627010d1_ex10-1.htm",
+      propertyType: "Hospitality",
+      summary: "On October 6, 2026, luxury hotel REIT Braemar Hotels & Resorts Inc., Ashford Hospitality Trust, Inc. and Ashford Inc. signed a Cooperation and Settlement Agreement with Braemar's largest stockholder, Al Shams Investments Limited. Under the deal Braemar pays $25 million to settle the disputed claims plus $15 million to reimburse Al Shams's expenses, in three installments. In return Al Shams withdraws its slate of director nominees and its Texas Rule 202 petition seeking pre-suit depositions of two former Braemar directors. It also accepts a 10-year standstill, a voting commitment and broad releases. Braemar disclosed the deal in an 8-K filed October 8.",
+      significance: "This is an unusually large price for ending an activist campaign at a listed hotel REIT. It shows that threatened derivative claims, securities claims and a Texas pre-suit discovery petition can carry real settlement value even before any lawsuit is filed. The structure is worth studying for REIT boards and their insurers: payment in installments with a clawback, a stock option capped at $4 million, a 50/50 cost split with the external advisor, and heavy reliance on D&O insurance, which brings Braemar's expected net cost down to $4-6 million. The deal also clears the way for Braemar's planned separation from Ashford and move to self-management.",
+      body: [
+        "Braemar Hotels & Resorts Inc., a NYSE-listed REIT based in Dallas that owns luxury hotels and resorts, has settled a wide-ranging dispute with its largest stockholder, Al Shams Investments Limited, a Bermuda company. The Cooperation and Settlement Agreement is dated October 6, 2026. Its other signatories are Ashford Hospitality Trust, Inc. and Ashford Inc., and the beneficial owner of Al Shams signed for limited purposes. Braemar filed the agreement as an exhibit to a Form 8-K on October 8, 2026. A company press release that day announced it alongside a portfolio update and the pending $372 million sale of the Four Seasons Resort Scottsdale.",
+        "The agreement's recitals set out what was being resolved. Al Shams had sent Braemar a notice nominating a slate of director candidates for the 2026 annual meeting. It had also asserted or threatened direct claims against the company group, including defamation and libel claims, claims under the Securities Act of 1933 and the Securities Exchange Act of 1934, and claims similar to those earlier brought by another investor and Morning View Hotels BH1, LLC. Separately, it had asserted or threatened derivative claims on Braemar's behalf alleging fiduciary breaches by the board and management. Al Shams was also pursuing a verified petition under Texas Rule of Civil Procedure 202 to depose two former Braemar directors before filing suit. The company group denies wrongdoing, and no party admits liability.",
+        "The money terms are substantial. Braemar agreed to pay Al Shams $25 million for the settlement and releases, plus $15 million to reimburse expenses Al Shams incurred in the conflict. That is $40 million in total, payable as $20 million on signing and $10 million each at four and eight months. Each installment depends on Al Shams continuing to comply. Disputes over a claimed breach go to expedited JAMS arbitration in Dallas, and a final finding of material breach triggers a clawback of everything paid. If cash is short, Braemar may pay up to $4 million of the later installments in common stock, and the board must grant an exception to the REIT's 9.8% ownership limit if that issuance would push Al Shams over the cap.",
+        "Al Shams also gave up a great deal. It withdrew its nominations and the Rule 202 petition and agreed to a 10-year standstill. Under the standstill it may not run proxy contests, join groups, buy more shares, comment on extraordinary transactions, short the stock, or bring any litigation or pre-suit discovery against the companies or their current and former directors and officers, except to enforce the agreement. It must vote with the board's recommendations, and it waived any right to share in other stockholders' derivative or class recoveries. In return, Al Shams may consult with Braemar's director search firm on candidates for one board seat, but the board keeps sole discretion over the choice. Both sides exchanged general releases and agreed not to disparage each other.",
+        "Braemar's 8-K describes the headline figure as $25 million plus expenses. The company expects its own net contribution to be only $4 million to $6 million after insurance proceeds and Ashford's share. Under a separate Allocation Agreement, Braemar and Ashford each bear half of the payments net of insurance, which both are pursuing, although Braemar cautions that the insurance recovery is not assured. The company says the settlement likely costs less than the litigation it avoided. The 2026 annual meeting is set for December 21, 2026, and the press release says the separation from Ashford should be finished by mid-November.",
+        "There are several lessons here for REIT boards, external advisors and their D&O carriers. First, Texas Rule 202 petitions can be used as leverage before any suit is filed, and a REIT based in Texas should expect activists to use them to depose former directors. Second, once an activist with a large stake combines a proxy contest with securities, derivative and defamation claims, the case can be settled at a figure far above ordinary expense reimbursement. Paying in installments with a clawback, as here, protects the company if the activist later breaks its promises. Third, splitting costs with the external advisor and leaning on insurance can bring the REIT's net cost far below the gross number. Investors should watch whether the second and third installments are paid in cash or stock, and whether the insurers actually pay."
+      ],
+      tags: ["activist investor", "hotel reit", "settlement", "rule 202", "proxy contest"],
+      parties: [
+        { name: "Braemar Hotels & Resorts Inc.", role: "Settling Party (Company)" },
+        { name: "Ashford Hospitality Trust, Inc.", role: "Settling Party" },
+        { name: "Ashford Inc.", role: "Settling Party" },
+        { name: "Al Shams Investments Limited", role: "Settling Party (Stockholder/Claimant)" }
+      ],
+      judge: null,
+      amountUsd: 40000000,
+      amountBasis: "settlement",
+      timeline: [
+        { when: "October 6, 2026", label: "Cooperation and Settlement Agreement and Braemar-Ashford Allocation Agreement signed; first $20M installment due", current: true },
+        { when: "October 8, 2026", label: "Braemar files 8-K with the agreements and announces the settlement in a press release" },
+        { when: "December 21, 2026", label: "Braemar 2026 annual meeting scheduled; Al Shams must vote with board recommendations" }
+      ]
     }
   ],
 

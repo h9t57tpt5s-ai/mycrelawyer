@@ -1,0 +1,22 @@
+{
+ "id": "live-288",
+ "title": "In re Duplex at Sleepy Hollow, LLC: Ninth Circuit BAP Upholds Retroactive Stay Annulment That Validated Enterprise Bank's Nine Laguna Beach Foreclosures",
+ "category": "lending-foreclosure",
+ "status": "ruling",
+ "date": "2026-10-07",
+ "jurisdiction": "U.S. Bankruptcy Appellate Panel of the Ninth Circuit (appeal from U.S. Bankruptcy Court, Central District of California)",
+ "state": "CA",
+ "amount": "Roughly $80 million first-lien debt on ten Laguna Beach properties",
+ "source": "live",
+ "source_url": "https://cdn.ca9.uscourts.gov/datastore/bap/2026/10/07/25-1256.pdf",
+ "summary": "On October 7, 2026, the Ninth Circuit Bankruptcy Appellate Panel affirmed a bankruptcy court order that retroactively annulled the automatic stay. The order validated nine nonjudicial foreclosure sales that Enterprise Bank and Trust held on October 15, 2025 for Laguna Beach properties owned by ten single-asset entities. Involuntary Chapter 11 petitions had been filed against the owners minutes before the sales began. A prospective bidder appealed, arguing all the sales should be re-noticed. The panel found no abuse of discretion, given the bankruptcy court's finding that the filings were made in bad faith.",
+ "significance": "The ruling shows that a last-minute involuntary bankruptcy filed by related creditors to stop a foreclosure can be undone after the fact. That holds especially when the lender had no notice and already held stay relief from an earlier bankruptcy. It also tells foreclosure-sale bidders that sitting out an auction because they know of a bankruptcy filing, without telling the trustee, weakens any later claim that they were harmed.",
+ "judge": "Scott C. Clarkson",
+ "tags": [
+  "bankruptcy",
+  "automatic stay",
+  "foreclosure",
+  "involuntary petition",
+  "bad faith filing"
+ ]
+}
