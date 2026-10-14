@@ -9635,6 +9635,44 @@ const RELAW_DATA = {
         { when: "2023", label: "The hotel project is completed, starting the subcontract's 90-day retainage clock" },
         { when: "October 14, 2026", label: "Florida's Fourth District Court of Appeal affirms the retainage award and reverses the award for unperformed work", current: true }
       ]
+    },
+    {
+      id: "live-296",
+      seoTitle: "Millrose Properties Sued Over Hidden Lennar Home Rentals",
+      seoDescription: "Investors sue Millrose Properties, alleging it hid a switch from land-banking to renting $200M of completed Lennar homes, after an 8.5% stock drop.",
+      addedDate: "2026-10-14",
+      title: "Rubenstein et al. v. Millrose Properties, Inc.: Investors Sue Lennar Land-Bank Spinoff Over Undisclosed Single-Family Rental Business",
+      category: "reit-securities",
+      status: "filed",
+      date: "2026-10-09",
+      jurisdiction: "U.S. District Court for the Southern District of Florida",
+      state: "FL",
+      amount: "$200 million in alleged undisclosed home purchases; MRP shares fell 8.5% ($2.10/share) on the disclosure",
+      source: "live",
+      sourceUrl: "https://www.courthousenews.com/investors-hit-real-estate-company-millrose-with-fraud-class-action-over-undisclosed-leases/",
+      propertyType: "Multifamily",
+      summary: "Investors filed a federal securities fraud class action on October 9, 2026 against Millrose Properties, Inc. — the land-banking REIT Lennar spun off in February 2025 — and its CEO and CFO, alleging the company misrepresented its business as pure land-holding while secretly buying roughly $200 million of completed Lennar homes and renting them out. The suit, covering purchasers of Millrose stock between February 7, 2025 and October 2, 2026, follows an October 2, 2026 Hunterbrook Media report that identified more than 700 such home purchases across 51 counties in 15 states; Millrose shares fell 8.5% on the news.",
+      significance: "The case tests how much disclosure a spun-off REIT owes the market when an amendment to its governing agreements with its former parent quietly expands its business beyond the narrow mandate investors were sold on at the IPO. For land-banking vehicles, ground-lease REITs, and other single-purpose spinoffs, it is an early signal that courts may treat a related-party contract amendment as a disclosure event in its own right, not a private matter between affiliates.",
+      body: [
+        "Investors have filed a federal securities fraud class action against Millrose Properties, Inc., the Miami-based land-banking REIT spun off from homebuilder Lennar Corporation in February 2025, alleging that the company and two of its top executives misrepresented its business model by secretly acquiring and renting out completed single-family homes after telling the market it would hold undeveloped land and nothing more. The case, Rubenstein et al. v. Millrose Properties, Inc. et al., No. 9:26-cv-81386, was filed October 9, 2026 in the U.S. District Court for the Southern District of Florida on behalf of investors who purchased Millrose stock between February 7, 2025 and October 2, 2026.",
+        "The suit names Millrose, CEO Darren Richman, and CFO Garrett Rosenblum as defendants, asserting claims under Sections 10(b) and 20(a) of the Securities Exchange Act of 1934. The theory of the case traces back to Millrose's own offering documents: when Lennar spun the company off, Millrose told investors in its prospectus that it would not enter into lease agreements and would have no tenants or occupants on its properties. Its core business, as pitched, was to hold land parcels that Lennar had sold it and then buy them back in stages as Lennar readied them for home construction, a land-banking structure designed to take inventory risk off Lennar's balance sheet rather than a landlord business in its own right.",
+        "That pitch collided with an October 2, 2026 investigative report from Hunterbrook Media, which found that Millrose had purchased more than 700 completed homes from Lennar across at least 51 counties in 15 states and was renting them out rather than holding undeveloped land. Hunterbrook's analysis estimated a gross rental yield of roughly 8.4%, but calculated that after taxes, insurance, and property management costs, the arrangement was likely generating a net return closer to 5%, raising questions about why a company marketed as a conservative land-banking vehicle was instead running a lower-margin, operationally intensive rental portfolio, and whether investors had been told. Millrose's stock fell 8.5%, or $2.10 per share, closing at $22.51, on the news.",
+        "The complaint points to an August 27, 2026 amendment to the Founder's Rights Agreement between Millrose and Lennar entities, confirmed in a Millrose SEC Form 8-K filed the same day, that the plaintiffs say is when Millrose obtained the contractual room to acquire completed homes and hold them as rentals, a change they allege was never meaningfully disclosed to the market before Hunterbrook's report forced the issue. Plaintiffs' counsel firms soliciting additional lead-plaintiff candidates have set a December 8, 2026 deadline under the Private Securities Litigation Reform Act for shareholders to move for lead plaintiff status.",
+        "For a commercial real estate audience, the matter is a reminder that land-banking and other off-balance-sheet-style vehicles spun out of homebuilders carry disclosure obligations that travel with every amendment to the governing agreements, not just the original offering documents. Millrose's capital structure and investor base were built around a specific, narrow mandate: hold land, do not operate real estate, and investors priced the stock accordingly. A contractual change authorizing a materially different business, even one executed through a routine-looking 8-K amendment, can become the centerpiece of a securities fraud claim if the practical consequences of that change are not clearly flagged to the market in the same breath. Boards and counsel for newly spun-off REITs should treat any amendment that expands a vehicle's permitted activities as a disclosure event requiring prompt, plain-language updates to investor-facing materials, particularly where the amendment runs with a related party like a former parent that benefits from the spinoff absorbing inventory it no longer wants on its own books; a single investigative report tying specific transactions to a changed business model, as happened here, can supply the factual predicate for a securities class action almost as soon as it is published."
+      ],
+      tags: ["reit", "securities fraud", "class action", "lennar", "single-family rental"],
+      parties: [
+        { name: "Millrose Properties, Inc.", role: "Defendant" },
+        { name: "Lennar Corporation", role: "Non-party (former parent)" }
+      ],
+      judge: null,
+      amountUsd: null,
+      timeline: [
+        { when: "February 7, 2025", label: "Lennar completes the spinoff of Millrose Properties as a land-banking REIT" },
+        { when: "August 27, 2026", label: "Millrose and Lennar entities amend the Founder's Rights Agreement, per an 8-K filed the same day" },
+        { when: "October 2, 2026", label: "Hunterbrook Media reports Millrose bought 700+ completed Lennar homes and is renting them out; MRP shares fall 8.5%" },
+        { when: "October 9, 2026", label: "Investors file securities fraud class action in the Southern District of Florida", current: true }
+      ]
     }
   ],
 
