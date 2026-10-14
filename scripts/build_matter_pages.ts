@@ -36,6 +36,10 @@ const src = await Deno.readTextFile("js/data.js");
 const data: Data = new Function(src + "; return RELAW_DATA;")();
 const corrections: { entries: { date: string; caseId: string | null }[] } =
   JSON.parse(await Deno.readTextFile("js/corrections.json"));
+// Company, agency and property landing pages (scripts/build_entity_pages.ts,
+// which runs first).
+const entityIndex: { parties: Record<string, string>; properties: Record<string, string> } =
+  await Deno.readTextFile("js/entity-index.json").then(JSON.parse).catch(() => ({ parties: {}, properties: {} }));
 
 const esc = (s: unknown) => String(s ?? "").replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" })[c]!);
 // Text fields may carry entities or light markup; attributes and JSON-LD
@@ -168,7 +172,10 @@ function mainFor(c: Case): string {
     ["Property type", esc(c.propertyType || "")],
     ["Amount / scale", esc(c.amount || "")],
   ];
-  const parties = (c.parties || []).map((p) => `<span class="detail-tag">${esc(p.role ? p.role + ": " : "")}${esc(p.name)}</span>`).join("");
+  const parties = (c.parties || []).map((p) => {
+    const page = entityIndex.parties[partyKey(p.name)];
+    return `<span class="detail-tag">${esc(p.role ? p.role + ": " : "")}${page ? `<a href="${esc(page)}">${esc(p.name)}</a>` : esc(p.name)}</span>`;
+  }).join("");
   const sources = [
     c.sourceUrl ? `<a href="${esc(c.sourceUrl)}" target="_blank" rel="noopener">Original source ↗</a>` : "",
     c.documentUrl ? `<a href="${esc(c.documentUrl)}" target="_blank" rel="noopener">${esc(c.documentLabel || "Primary document")} ↗</a>` : "",
@@ -291,9 +298,12 @@ function mainFor(c: Case): string {
       <a class="btn btn-ghost btn-sm" href="mailto:?subject=${encodeURIComponent(plain(c.title))}&amp;body=${share}">Email</a>
     </div>
 
-    ${shared.map((p) => `<h2 class="matter-h2" style="margin-top:40px;">Other matters involving ${esc(p.name)}</h2>
+    ${shared.map((p) => {
+      const page = entityIndex.parties[partyKey(p.name)];
+      return `<h2 class="matter-h2" style="margin-top:40px;">Other matters involving ${esc(p.name)}</h2>
     <ul class="matter-related">${relatedList(p.others)}
-    </ul>`).join("\n    ")}
+    </ul>${page ? `\n    <p class="matter-entity-link"><a href="${esc(page)}">All matters involving ${esc(p.name)} →</a></p>` : ""}`;
+    }).join("\n    ")}
     ${sameCat.length ? `<h2 class="matter-h2" style="margin-top:40px;">More ${esc(k.label.toLowerCase())} matters</h2>
     <ul class="matter-related">${relatedList(sameCat)}
     </ul>` : ""}

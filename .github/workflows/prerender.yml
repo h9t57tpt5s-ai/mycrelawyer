@@ -14,6 +14,7 @@ on:
       - "scripts/prerender.ts"
       - "scripts/render_corrections.py"
       - "scripts/build_matter_pages.ts"
+      - "scripts/build_entity_pages.ts"
       - "scripts/build_sitemap.py"
       - "scripts/build_data_lite.ts"
       - "scripts/build_record_pages.ts"
@@ -45,14 +46,16 @@ jobs:
       - run: deno run --allow-read --allow-write scripts/build_data_lite.ts
       - run: deno run --allow-read --allow-write --allow-net scripts/prerender.ts
       - run: python3 scripts/render_corrections.py
-      # One indexable page per matter, then the sitemap that lists them.
+      # Company, agency and property pages (2+ matters each), then one
+      # indexable page per matter (which links to them), then the sitemap.
+      - run: deno run --allow-read --allow-write scripts/build_entity_pages.ts
       - run: deno run --allow-read --allow-write scripts/build_matter_pages.ts
       # Chapter 11 Watch and Federal Lawsuit Watch, and one page per petition or case.
       - run: deno run --allow-read --allow-write scripts/build_record_pages.ts
       - run: python3 scripts/build_sitemap.py
       - name: Commit prerendered pages
         run: |
-          git add -A matters chapter-11 federal-cases
+          git add -A matters chapter-11 federal-cases parties properties js/entity-index.json
           git add bankruptcy-watch.html lawsuit-watch.html
           git add index.html litigation.html coverage.html company-*.html corrections.html sitemap.xml news-sitemap.xml js/data-lite.js js/matter-text.json
           if git diff --cached --quiet; then echo "Nothing changed."; exit 0; fi

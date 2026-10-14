@@ -70,6 +70,12 @@ def main():
                 last = max(r["dateFiled"], (activity.get(str(r.get("docketId"))) or {}).get("lastEntryDate") or "")
                 urls.append((f"{folder}/{r['slug']}.html", last, "0.5"))
 
+    # Company, agency and property landing pages (build_entity_pages.ts):
+    # lastmod is the file's last commit, which changes only when its matters do.
+    for folder in ("parties", "properties"):
+        for f in sorted((ROOT / folder).glob("*.html")) if (ROOT / folder).exists() else []:
+            urls.append((f"{folder}/{f.name}", git_date(f), "0.6"))
+
     lines = ['<?xml version="1.0" encoding="UTF-8"?>', '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
     for loc, last, pri in urls:
         lines += ["  <url>", f"    <loc>{SITE}/{loc}</loc>", f"    <lastmod>{last}</lastmod>", f"    <priority>{pri}</priority>", "  </url>"]
