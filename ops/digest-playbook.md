@@ -76,6 +76,22 @@ cover the whole market instead of repeating the same national searches:
   and fund disputes, JV fights at major owners, brokerage and proptech suits,
   SEC and state enforcement, plus this run's geographic-diversity search.
 
+## Search titles (added 2026-10-14)
+
+Give every new matter three more keys, placed right after `id`:
+- `seoTitle` (65 characters or fewer): what people search for first (the
+  building or street address, the well-known company, sponsor or lender, or
+  the city or county in a zoning or condemnation fight), then what happened in
+  plain words. Example: "Hotel Lincoln Chicago: CMBS Foreclosure by Wilmington Trust".
+- `seoDescription` (120-155 characters): the same names plus the key fact.
+- `property`: {name, address, city, state} when the matter is about one
+  identifiable property, using only names and addresses the sources give;
+  otherwise leave the key out.
+These set the page's Google title and description; the headline stays
+`title`. Same sourcing rules as everything else: no figure or name that is
+not in the matter's own text. Matters sharing a property get a property page
+automatically (scripts/build_entity_pages.ts).
+
 ## How to judge a candidate
 
 - Prefer the event date (filing, ruling, settlement) within 7 days.

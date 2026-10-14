@@ -67,6 +67,8 @@ const RELAW_DATA = {
   cases: [
     {
       id: "live-001",
+      seoTitle: "Philadelphia RealPage Rent-Fixing Suits: Willow Bridge, Greystar",
+      seoDescription: "Willow Bridge and RealPage are sued under Philadelphia's rent-algorithm ban over Vue 32 and Rittenhouse Row; related suits target Bozzuto and Greystar.",
       addedDate: "2026-08-04",
       title: "Liu v. Willow Bridge Property Co. (RealPage Algorithmic Pricing Suits)",
       category: "landlord-tenant",
@@ -101,6 +103,8 @@ const RELAW_DATA = {
     },
     {
       id: "live-002",
+      seoTitle: "NJ Supreme Court Voids Jackson Township Land-Swap Condemnation",
+      seoDescription: "NJ Supreme Court unanimously held Jackson Township could not condemn private parcels (Getzel Bee) just to trade them to a developer for open space.",
       addedDate: "2026-08-04",
       title: "Township of Jackson v. Getzel Bee, LLC",
       category: "eminent-domain",
@@ -135,6 +139,8 @@ const RELAW_DATA = {
     },
     {
       id: "live-003",
+      seoTitle: "Benchmark 2026-B43: $34.4M CMBS Foreclosure in Methuen, MA",
+      seoDescription: "Benchmark 2026-B43's trustee sued to foreclose a $34.4M loan on a Methuen, MA parcel and a Michigan shopping center after a missed first payment.",
       addedDate: "2026-08-04",
       title: "Wilmington Savings Fund Society, FSB v. Milton 90 Pleasant Valley Street LLC (Benchmark 2026-B43 CMBS Foreclosure)",
       category: "lending-foreclosure",
@@ -169,6 +175,8 @@ const RELAW_DATA = {
     },
     {
       id: "live-004",
+      seoTitle: "CoStar Lease-Data Antitrust Class Action Names CBRE, JLL, Cushman",
+      seoDescription: "Class action alleges CoStar was the hub of a rent price-fixing scheme with CBRE, JLL, Cushman & Wakefield, Colliers and Newmark as spokes.",
       addedDate: "2026-08-04",
       title: "FitFactariDC LLC v. CoStar Group, Inc. (CRE Lease-Data Hub-and-Spoke Antitrust Suit)",
       category: "lease-disputes",
@@ -209,6 +217,8 @@ const RELAW_DATA = {
     },
     {
       id: "live-005",
+      seoTitle: "SEC Sues RAD Diversified REIT Over $152M Alleged Fraud (Tampa)",
+      seoDescription: "The SEC sued Tampa non-traded REIT RAD Diversified REIT, alleging a $152M fraudulent, unregistered offering to 5,500+ retail investors.",
       addedDate: "2026-08-04",
       title: "SEC v. RAD Diversified REIT, Inc.",
       category: "reit-securities",
@@ -245,6 +255,8 @@ const RELAW_DATA = {
     },
     {
       id: "live-006",
+      seoTitle: "Silver Star Properties REIT Files Second Chapter 11 (Houston)",
+      seoDescription: "Houston non-traded REIT Silver Star Properties filed its second Chapter 11 in four years after a failed office-to-self-storage pivot; $65M+ in default.",
       addedDate: "2026-08-04",
       title: "In re Silver Star Properties REIT (Second Chapter 11 Filing)",
       category: "lending-foreclosure",
@@ -279,6 +291,9 @@ const RELAW_DATA = {
     },
     {
       id: "live-007",
+      seoTitle: "Mandarin Oriental Residences Boca Raton: $417.7M Foreclosure Suit",
+      seoDescription: "An Apollo-tied lender group sued to foreclose on the stalled Mandarin Oriental Residences condo tower in Boca Raton, claiming $417.7M.",
+      property: {"name": "Mandarin Oriental Residences", "city": "Boca Raton", "state": "FL"},
       addedDate: "2026-08-04",
       title: "Via Mizner Lender 1 LLC v. Via Mizner Owner III, LLC (Mandarin Oriental Residences, Boca Raton Foreclosure)",
       category: "lending-foreclosure",
@@ -314,6 +329,9 @@ const RELAW_DATA = {
     },
     {
       id: "live-008",
+      seoTitle: "Metropoint 300 & 400, St. Louis Park: $46M Foreclosure Suits",
+      seoDescription: "CommunityAmerica Credit Union sued to foreclose the Metropoint 300 and 400 office campus in St. Louis Park, MN, seeking about $46M after Wells Fargo left.",
+      property: {"name": "Metropoint 300 and Metropoint 400", "city": "St. Louis Park", "state": "MN"},
       addedDate: "2026-08-05",
       title: "CommunityAmerica Federal Credit Union v. Metropoint 300/400 Owners (St. Louis Park Office Foreclosure)",
       category: "lending-foreclosure",
@@ -345,6 +363,9 @@ const RELAW_DATA = {
     },
     {
       id: "live-009",
+      seoTitle: "Johnston, RI Eminent Domain: Contempt Bid Over 31-Acre Parcel",
+      seoDescription: "After a judge voided Johnston, RI's condemnation of a 31-acre George Waterman Road parcel, landowner SCLS Realty moved to hold the town in contempt.",
+      property: {"address": "George Waterman Road", "city": "Johnston", "state": "RI"},
       addedDate: "2026-08-11",
       title: "SCLS Realty, LLC v. Town of Johnston (Eminent Domain Contempt Proceedings)",
       category: "eminent-domain",
@@ -381,6 +402,9 @@ const RELAW_DATA = {
     },
     {
       id: "live-010",
+      seoTitle: "Steinway Tower: NY High Court Revives AmBase Mezz Loan Claim",
+      seoDescription: "NY Court of Appeals revived AmBase's 111 West 57th Investment good-faith claim against Apollo-affiliated lenders over a $25M Steinway Tower mezz loan sale.",
+      property: {"name": "Steinway Tower", "state": "NY"},
       addedDate: "2026-08-11",
       title: "111 West 57th Investment LLC v. 111 W57 Mezz Investor LLC (Steinway Tower \"Sole Discretion\" Ruling)",
       category: "lending-foreclosure",
@@ -419,6 +443,8 @@ const RELAW_DATA = {
     },
     {
       id: "live-012",
+      seoTitle: "Menlo Park SB 9 Park Fee Suit: $127,400 Fee Challenged",
+      seoDescription: "12 Maywood LLC, backed by Pacific Legal Foundation, sued Menlo Park over a $127,400 recreation in-lieu fee on a two-lot SB 9 subdivision, citing Sheetz.",
       addedDate: "2026-08-11",
       title: "Voskerician v. City of Menlo Park (SB 9 Park Fee Takings Challenge)",
       category: "zoning-land-use",
@@ -453,6 +479,8 @@ const RELAW_DATA = {
     },
     {
       id: "live-013",
+      seoTitle: "Lightstone REIT Proxy Suit Over $59.8M Chairman Stake Survives",
+      seoDescription: "Judge denied dismissal of claims that Lightstone Value Plus REIT proxies hid chairman David Lichtenstein's $59.8M stake in delaying liquidation.",
       addedDate: "2026-08-11",
       title: "Ayer v. Lightstone Value Plus REIT (Undisclosed $59.8M Chairman Conflict in Liquidation-Delay Proxy)",
       category: "reit-securities",
@@ -490,6 +518,8 @@ const RELAW_DATA = {
     },
     {
       id: "live-014",
+      seoTitle: "UDR Sued Under San Diego Algorithmic Rent-Pricing Ban (RealPage)",
+      seoDescription: "Class action alleges NYSE-listed REIT UDR, Inc. used RealPage software to set rents at a San Diego property, violating the city's algorithmic pricing ban.",
       addedDate: "2026-08-11",
       title: "Keller v. UDR, Inc. (San Diego Algorithmic Rent-Pricing Class Action)",
       category: "landlord-tenant",
@@ -524,6 +554,8 @@ const RELAW_DATA = {
     },
     {
       id: "live-015",
+      seoTitle: "Montville NJ Senior Living Variance: Sica Test Revised",
+      seoDescription: "NJ Supreme Court revised the Sica test for inherently beneficial use variances, reversing a win for Monarch Communities' 165-unit Montville senior project.",
       addedDate: "2026-08-11",
       title: "Monarch Communities, LLC v. Township of Montville (Inherently Beneficial Use-Variance Standard Revised)",
       category: "zoning-land-use",
@@ -561,6 +593,9 @@ const RELAW_DATA = {
     },
     {
       id: "live-016",
+      seoTitle: "Aston Martin Residences Miami: Condo Association Defect Suit",
+      seoDescription: "Aston Martin Residences' condo association (300 Biscayne Boulevard Way) sued developer Riverwalk East and Coastal Construction, seeking $750,000+.",
+      property: {"name": "Aston Martin Residences", "address": "300 Biscayne Boulevard Way", "city": "Miami", "state": "FL"},
       addedDate: "2026-08-12",
       title: "300 Biscayne Boulevard Way Condo Assn. v. Riverwalk East Developments (Aston Martin Residences Construction Defect Suit)",
       category: "construction-defect",
@@ -597,6 +632,8 @@ const RELAW_DATA = {
     },
     {
       id: "live-017",
+      seoTitle: "Indianapolis Shopping Center Dry-Cleaner Coverage Suit: Travelers",
+      seoDescription: "Travelers sued Washington Shoppes LP and The Broadbent Company seeking a no-coverage ruling for PCE cleanup at an Indianapolis shopping center.",
       addedDate: "2026-08-12",
       title: "Travelers Property Casualty Co. v. Washington Shoppes LP (Dry-Cleaner PCE Contamination Coverage Dispute)",
       category: "environmental",
@@ -630,6 +667,9 @@ const RELAW_DATA = {
     },
     {
       id: "live-018",
+      seoTitle: "443 Greenwich Street Tribeca: $376M Defect Suit vs. Metro Loft",
+      seoDescription: "The 443 Greenwich Street condo board in Tribeca seeks $376 million from Nathan Berman's Metro Loft and architect CetraRuddy over alleged building defects.",
+      property: {"address": "443 Greenwich Street", "city": "New York", "state": "NY"},
       addedDate: "2026-08-12",
       title: "Board of Managers of the 443 Greenwich St. Condominium v. Berman/Metro Loft (Tribeca Factory-Conversion Defect Suit, $376M Claim)",
       category: "construction-defect",
@@ -672,6 +712,8 @@ const RELAW_DATA = {
     },
     {
       id: "live-019",
+      seoTitle: "Columbia Falls Aluminum Superfund: $57.6M Cleanup Consent Decree",
+      seoDescription: "Columbia Falls Aluminum Company (CFAC) will pay $57.6 million under an EPA consent decree to clean up its former smelter site in Columbia Falls, Montana.",
       addedDate: "2026-08-12",
       title: "United States v. Columbia Falls Aluminum Co. (CFAC Superfund Consent Decree, $57.6M Cleanup)",
       category: "environmental",
@@ -706,6 +748,8 @@ const RELAW_DATA = {
     },
     {
       id: "live-020",
+      seoTitle: "UWM Sues Two Harbors Over Failed $1.3B Merger, Seeks $500M+",
+      seoDescription: "UWM Holdings sued mortgage REIT Two Harbors, alleging fraud and willful breach of their $1.3B merger deal as it turned to a CrossCountry Mortgage bid.",
       addedDate: "2026-08-13",
       title: "UWM Holdings Corp. v. Two Harbors Investment Corp. (Failed $1.3B Merger Fraud & Breach Suit)",
       category: "reit-securities",
@@ -732,6 +776,8 @@ const RELAW_DATA = {
     },
     {
       id: "live-022",
+      seoTitle: "RealPage Wins Injunction Against New York Algorithmic Rent Ban",
+      seoDescription: "Judge Valerie Caproni granted RealPage a preliminary injunction against New York's algorithmic rent-pricing ban on First Amendment grounds.",
       addedDate: "2026-08-15",
       title: "RealPage, Inc. v. James (First Amendment Challenge to NY Algorithmic Rent-Pricing Law)",
       category: "landlord-tenant",
@@ -770,6 +816,9 @@ const RELAW_DATA = {
     },
     {
       id: "live-023",
+      seoTitle: "Republic Plaza Denver: Receivership Suit Against Brookfield Owner",
+      seoDescription: "U.S. Bank seeks a receiver over Republic Plaza, Denver's 56-story tallest tower, after Brookfield's ownership left a ~$130M loan unpaid at maturity.",
+      property: {"name": "Republic Plaza", "city": "Denver", "state": "CO"},
       addedDate: "2026-08-15",
       title: "U.S. Bank National Association v. BOP Republic Plaza I LLC (Denver's Tallest Tower Receivership Suit)",
       category: "lending-foreclosure",
@@ -806,6 +855,9 @@ const RELAW_DATA = {
     },
     {
       id: "live-024",
+      seoTitle: "MiamiCentral Station Retail: $65M Foreclosure Suit vs. Brightline",
+      seoDescription: "U.S. Bank, for a Bracebridge-led lender group, sued to foreclose a $65M senior loan on the retail podium at Brightline's MiamiCentral Station in Miami.",
+      property: {"name": "MiamiCentral Station", "city": "Miami", "state": "FL"},
       addedDate: "2026-08-16",
       title: "U.S. Bank v. Brightline Investment Holdings, LLC (MiamiCentral Station Retail Foreclosure)",
       category: "lending-foreclosure",
@@ -844,6 +896,8 @@ const RELAW_DATA = {
     },
     {
       id: "live-025",
+      seoTitle: "Qdoba Operator TIG Sued by Bank Midwest Over $20M Loan Default",
+      seoDescription: "Bank Midwest sued The Integritty Group, operator of 41 Qdoba restaurants, alleging default on a $20M loan; the bank seeks about $18.25M plus a receiver.",
       addedDate: "2026-08-17",
       title: "Bank Midwest, N.A. v. The Integritty Group (Qdoba Restaurant Portfolio Loan Default)",
       category: "lending-foreclosure",
@@ -886,6 +940,9 @@ const RELAW_DATA = {
     },
     {
       id: "live-026",
+      seoTitle: "Auden Buffalo Student Housing: $32.5M Foreclosure by Acres",
+      seoDescription: "Acres Capital affiliate sued to foreclose Auden Buffalo student housing in Amherst, NY over $32.5 million in construction loans to a DMG Investments unit.",
+      property: {"name": "Auden Buffalo", "address": "2915-2949 N. Forest Road", "city": "Amherst", "state": "NY"},
       addedDate: "2026-08-17",
       title: "Acres Loan Origination LLC v. DMG Investments Affiliate (Auden Buffalo Student Housing Foreclosure)",
       category: "lending-foreclosure",
@@ -920,6 +977,9 @@ const RELAW_DATA = {
     },
     {
       id: "live-027",
+      seoTitle: "260 Park Avenue South: Condo Lien Foreclosure Against Tessler",
+      seoDescription: "260 Park Avenue South's condo board sued to foreclose on six retail units of Yitzchak Tessler's Tessler Developments over ~$675,000 in unpaid charges.",
+      property: {"address": "260 Park Avenue South", "city": "New York", "state": "NY"},
       addedDate: "2026-08-18",
       title: "260 Park Avenue South Condominium v. Tessler Developments (Flatiron Common-Charge Lien Foreclosure)",
       category: "lending-foreclosure",
@@ -951,6 +1011,8 @@ const RELAW_DATA = {
     },
     {
       id: "live-028",
+      seoTitle: "PSEG Maryland Piedmont Line: Fourth Circuit Allows Survey Entry",
+      seoDescription: "The Fourth Circuit let PSEG Renewable Transmission survey 117 landowners' properties for the 67-mile Maryland Piedmont Reliability Project before approval.",
       addedDate: "2026-08-18",
       title: "PSEG Renewable Transmission LLC v. Arentz Family, LP (Piedmont Line Pre-Condemnation Survey Entry)",
       category: "eminent-domain",
@@ -1000,6 +1062,9 @@ const RELAW_DATA = {
     },
     {
       id: "live-029",
+      seoTitle: "Mandarin Oriental Boca Raton: Developer's $500M Lender Suit, TRO",
+      seoDescription: "Via Mizner Owner III sued its Mandarin Oriental Boca Raton construction lenders for $500M+ in New York; a TRO blocked a UCC sale of its equity.",
+      property: {"name": "Mandarin Oriental Residences", "city": "Boca Raton", "state": "FL"},
       addedDate: "2026-08-19",
       title: "Via Mizner Owner III LLC v. Via Mizner Lender 1 LLC (Mandarin Oriental Boca Raton Lender-Liability Suit)",
       category: "lending-foreclosure",
@@ -1039,6 +1104,9 @@ const RELAW_DATA = {
     },
     {
       id: "live-031",
+      seoTitle: "Princeton Pike Corporate Center: $130M CMBS Office Foreclosure",
+      seoDescription: "U.S. Bank, as CMBS trustee, sued to foreclose a Lenox Drive office complex at Princeton Pike Corporate Center, NJ after a $130M loan matured unpaid.",
+      property: {"name": "Princeton Pike Corporate Center", "address": "Lenox Drive", "city": "Lawrence Township", "state": "NJ"},
       addedDate: "2026-08-20",
       title: "U.S. Bank National Association v. Lenox Drive Office Park LLC (Princeton Pike Corporate Center Foreclosure)",
       category: "lending-foreclosure",
@@ -1076,6 +1144,9 @@ const RELAW_DATA = {
     },
     {
       id: "live-032",
+      seoTitle: "1 Park Row: Corcoran Sues Circle F Capital Over Broker Commission",
+      seoDescription: "Corcoran and Brown Harris Stevens sued Circle F Capital for $3.2 million, alleging $450,000 of a commission on the 1 Park Row recapitalization went unpaid.",
+      property: {"address": "1 Park Row", "city": "New York", "state": "NY"},
       addedDate: "2026-08-20",
       title: "Corcoran Group v. Circle F Capital (1 Park Row Broker Commission Suit)",
       category: "lease-disputes",
@@ -1112,6 +1183,9 @@ const RELAW_DATA = {
     },
     {
       id: "live-034",
+      seoTitle: "Wardman Tower: $356.1M Treble-Damages Judgment Against JBG Smith",
+      seoDescription: "D.C. court awarded the Wardman Tower condo association $118,695,171, trebled to about $356.1 million, against JBG Smith over conversion defects.",
+      property: {"name": "Wardman Tower", "city": "Washington", "state": "DC"},
       addedDate: "2026-08-21",
       title: "Wardman Tower Condo Assn. v. JBG Smith Properties ($356M Treble-Damages Construction Defect Judgment)",
       category: "construction-defect",
@@ -1147,6 +1221,9 @@ const RELAW_DATA = {
     },
     {
       id: "live-035",
+      seoTitle: "9 New York Avenue NW: JLL Sued for $12M+ Over Inflated NOI",
+      seoDescription: "Owner of the apartment tower at 9 New York Avenue NW, Washington, D.C. sued JLL for $12M+, alleging it inflated NOI to clear a lender's debt-yield test.",
+      property: {"address": "9 New York Avenue NW", "city": "Washington", "state": "DC"},
       addedDate: "2026-08-22",
       title: "Bhatnagar v. Jones Lang LaSalle Americas, Inc. (D.C. Apartment Tower NOI Fraud Suit)",
       category: "lending-foreclosure",
@@ -1182,6 +1259,9 @@ const RELAW_DATA = {
     },
     {
       id: "live-036",
+      seoTitle: "312 Elm Street Cincinnati: Rubenstein Admits Loan Default",
+      seoDescription: "Rubenstein Partners admitted defaulting on the $46.1M mortgage on 312 Elm Street, a Cincinnati office tower, in Wilmington Trust's $39.6M foreclosure.",
+      property: {"address": "312 Elm Street", "city": "Cincinnati", "state": "OH"},
       addedDate: "2026-08-22",
       title: "Wilmington Trust National Association v. Rubenstein Partners (312 Elm Street Office Tower Foreclosure)",
       category: "lending-foreclosure",
@@ -1220,6 +1300,9 @@ const RELAW_DATA = {
     },
     {
       id: "live-037",
+      seoTitle: "10 East 34th Street: $37.5M CMBS Foreclosure vs. Caerus Group",
+      seoDescription: "Wilmington Trust sued to foreclose on 10 East 34th Street, a Midtown Manhattan office building owned by a Caerus Group affiliate, over a $37.5M mortgage.",
+      property: {"address": "10 East 34th Street", "city": "New York", "state": "NY"},
       addedDate: "2026-08-23",
       title: "Wilmington Trust, N.A. v. Caerus Group Affiliate (10 East 34th Street CMBS Foreclosure)",
       category: "lending-foreclosure",
@@ -1256,6 +1339,9 @@ const RELAW_DATA = {
     },
     {
       id: "live-038",
+      seoTitle: "Delray Beach Proton Therapy Center: $81.32M Bond Foreclosure",
+      seoDescription: "UMB Bank, as bond trustee, sued to foreclose the South Florida Proton Therapy Institute leasehold in Delray Beach after $81.32M in bonds defaulted.",
+      property: {"name": "South Florida Proton Therapy Institute", "city": "Delray Beach", "state": "FL"},
       addedDate: "2026-08-23",
       title: "UMB Bank, N.A. v. Public Finance Authority (Delray Beach Proton Therapy Center Leasehold Foreclosure)",
       category: "lending-foreclosure",
@@ -1295,6 +1381,8 @@ const RELAW_DATA = {
     },
     {
       id: "live-039",
+      seoTitle: "Boston 'Add-Back Policy' Tax Class Action (148 State Street)",
+      seoDescription: "Discovery in the 148 State Street owner's class action shows Boston raised assessments on 150 commercial properties after tax appeals, about $19 million.",
       addedDate: "2026-08-24",
       title: "148 State Street Owner v. City of Boston (Commercial Assessment \"Add-Back Policy\" Retaliation Class Action)",
       category: "zoning-land-use",
@@ -1331,6 +1419,9 @@ const RELAW_DATA = {
     },
     {
       id: "live-040",
+      seoTitle: "Desert Palm Inn, Seaside Park: NJ Supreme Court Eminent Domain",
+      seoDescription: "In a 6-1 ruling over the Desert Palm Inn, the NJ Supreme Court held Seaside Park need not state its intended public use in a condemnation ordinance.",
+      property: {"name": "Desert Palm Inn", "city": "Seaside Park", "state": "NJ"},
       addedDate: "2026-08-24",
       title: "Borough of Seaside Park v. Shree Jyoti, LLC (Eminent Domain Ordinance Public-Use Disclosure Ruling)",
       category: "eminent-domain",
@@ -1368,6 +1459,8 @@ const RELAW_DATA = {
     },
     {
       id: "live-041",
+      seoTitle: "Mass. Appeals Court Revives $198,000 Commercial Rent Judgment",
+      seoDescription: "Massachusetts Appeals Court let a commercial landlord refile after fixing a notice defect, reviving a $198,000 judgment against Chen's Food Enterprise.",
       addedDate: "2026-08-25",
       title: "Eng v. Chen's Food Enterprise, Inc. (Notice-Cure Claim Preclusion Ruling)",
       category: "lease-disputes",
@@ -1401,6 +1494,8 @@ const RELAW_DATA = {
     },
     {
       id: "live-042",
+      seoTitle: "Zillow-Redfin Rental Listings Deal Unwound in FTC Settlement",
+      seoDescription: "Zillow and Redfin settled FTC and five-state antitrust claims, unwinding a deal under which Zillow paid Redfin $100M to exit the rental listings market.",
       addedDate: "2026-08-25",
       title: "FTC v. Zillow Group, Inc. (Rental-Listings Non-Compete Consent Order)",
       category: "landlord-tenant",
@@ -1446,6 +1541,8 @@ const RELAW_DATA = {
     },
     {
       id: "live-043",
+      seoTitle: "Apple Valley Water Utility Condemnation: California Supreme Court",
+      seoDescription: "California Supreme Court held Apple Valley's resolution of necessity is only a rebuttable presumption in its bid to condemn Apple Valley Ranchos Water Co.",
       addedDate: "2026-08-26",
       title: "Town of Apple Valley v. Apple Valley Ranchos Water Co. (Eminent Domain Standard-of-Review Ruling)",
       category: "eminent-domain",
@@ -1481,6 +1578,9 @@ const RELAW_DATA = {
     },
     {
       id: "live-044",
+      seoTitle: "Owens Glen, Greenville County: Forestar Vested-Rights Suit",
+      seoDescription: "D.R. Horton subsidiary Forestar sued Greenville County, SC over its move to reverse vested rights for the roughly 300-lot Owens Glen subdivision.",
+      property: {"name": "Owens Glen", "city": "Piedmont", "state": "SC"},
       addedDate: "2026-08-26",
       title: "Forestar (USA) Real Estate Group, Inc. v. Greenville County (Owens Glen Vested-Rights Reversal)",
       category: "zoning-land-use",
@@ -1515,6 +1615,8 @@ const RELAW_DATA = {
     },
     {
       id: "live-045",
+      seoTitle: "Workspace Property Trust: $1.23B Multistate CMBS Foreclosure",
+      seoDescription: "Wells Fargo, as CMBS trustee, sued Workspace Property Trust affiliates in Minnesota over a $1.28B loan on a four-state office and industrial portfolio.",
       addedDate: "2026-08-27",
       title: "Wells Fargo Bank, N.A. v. Workspace Property Trust Affiliates (Multistate CMBS Foreclosure on $1.28B Suburban Office Portfolio)",
       category: "lending-foreclosure",
@@ -1551,6 +1653,9 @@ const RELAW_DATA = {
     },
     {
       id: "live-046",
+      seoTitle: "Circle T Data Center, Westlake TX: TRO Blocks Hillwood Deal",
+      seoDescription: "A Tarrant County TRO bars Westlake, Texas from acting on the development agreement for Hillwood's 1.1M-SF Circle T Data Center over alleged notice defects.",
+      property: {"name": "Circle T Data Center", "city": "Westlake", "state": "TX"},
       addedDate: "2026-08-27",
       title: "Lakes at Marshall Ridge HOA v. Town of Westlake (Circle T Data Center Notice-Defect TRO)",
       category: "zoning-land-use",
@@ -1585,6 +1690,8 @@ const RELAW_DATA = {
     },
     {
       id: "live-047",
+      seoTitle: "Hotel Loan Guarantor Liable for $3,954,244.04: Access Point Win",
+      seoDescription: "Eleventh Circuit held a hotel-loan guarantor liable for $3,954,244.04 to Access Point Financial after a pre-foreclosure transfer and Chapter 11 filing.",
       addedDate: "2026-08-28",
       title: "Access Point Financial, LLC v. Everhardt (Eve-of-Foreclosure Transfer and Bankruptcy Trigger Full Recourse Under Hotel Loan Guaranty)",
       category: "lending-foreclosure",
@@ -1617,6 +1724,9 @@ const RELAW_DATA = {
     },
     {
       id: "live-048",
+      seoTitle: "1880 Century Park East: Held Properties Sues WealthStone",
+      seoDescription: "Held Properties, owner of the 1880 Century Park East office tower in Century City, sued tenant WealthStone and its guarantor for about $1.1 million.",
+      property: {"address": "1880 Century Park East", "city": "Los Angeles", "state": "CA"},
       addedDate: "2026-08-28",
       title: "Held Properties, Inc. v. WealthStone, LLC (Century City Office Rent Default and Personal Guaranty Suit)",
       category: "lease-disputes",
@@ -1652,6 +1762,9 @@ const RELAW_DATA = {
     },
     {
       id: "live-049",
+      seoTitle: "White Stadium Boston: SJC Clears $325M Redevelopment",
+      seoDescription: "Massachusetts' SJC ruled opponents lacked standing to challenge Boston's $325 million White Stadium redevelopment in Franklin Park for Boston Legacy FC.",
+      property: {"name": "White Stadium", "city": "Boston", "state": "MA"},
       addedDate: "2026-08-29",
       title: "Emerald Necklace Conservancy v. City of Boston (White Stadium $325M Redevelopment Standing Ruling)",
       category: "zoning-land-use",
@@ -1694,6 +1807,9 @@ const RELAW_DATA = {
     },
     {
       id: "live-050",
+      seoTitle: "Worldwide Plaza (825 Eighth Ave): $940M Foreclosure, Receivership",
+      seoDescription: "Cushman & Wakefield replaced SL Green as manager of Worldwide Plaza, 825 Eighth Avenue, under a receiver as a $940 million CMBS foreclosure proceeds.",
+      property: {"name": "Worldwide Plaza", "address": "825 Eighth Avenue", "city": "New York", "state": "NY"},
       addedDate: "2026-08-29",
       title: "Worldwide Plaza Foreclosure Receivership (825 Eighth Avenue, Manhattan)",
       category: "lending-foreclosure",
@@ -1733,6 +1849,9 @@ const RELAW_DATA = {
     },
     {
       id: "live-051",
+      seoTitle: "Centre Square Philadelphia (1500 Market St.): $70M Sale Ordered",
+      seoDescription: "A federal judge ordered the $70 million receivership sale of Centre Square, 1500 Market Street, Philadelphia's largest office complex, to close by Oct. 16.",
+      property: {"name": "Centre Square", "address": "1500 Market Street", "city": "Philadelphia", "state": "PA"},
       addedDate: "2026-08-30",
       title: "Centre Square Receivership Sale Order (1500 Market Street, Philadelphia)",
       category: "lending-foreclosure",
@@ -1777,6 +1896,8 @@ const RELAW_DATA = {
     },
     {
       id: "live-052",
+      seoTitle: "Chicago Condo-Deconversion Foreclosure: 137 Units, SPNA's Klor",
+      seoDescription: "Wilmington Trust sued to foreclose 137 condo units in seven Chicago towers guaranteed by SPNA principal Yitzy Klor, seeking nearly $51 million.",
       addedDate: "2026-08-30",
       title: "Wilmington Trust v. Klor-Controlled SPNA Entities (137-Unit Chicago Condo-Deconversion Foreclosure)",
       category: "lending-foreclosure",
@@ -1812,6 +1933,9 @@ const RELAW_DATA = {
     },
     {
       id: "live-053",
+      seoTitle: "500-512 Seventh Avenue: $356M Foreclosure Judgment (Chetrit)",
+      seoDescription: "A $356M foreclosure judgment hit 500 and 512 Seventh Avenue in the Garment District, co-owned by Meyer Chetrit, Joseph Moinian and Edward J. Minskoff.",
+      property: {"address": "500-512 Seventh Avenue", "city": "New York", "state": "NY"},
       addedDate: "2026-08-31",
       title: "Corebridge Financial Affiliate v. Chetrit-Moinian-Minskoff Venture (500-512 Seventh Avenue Foreclosure Judgment)",
       category: "lending-foreclosure",
@@ -1849,6 +1973,9 @@ const RELAW_DATA = {
     },
     {
       id: "live-054",
+      seoTitle: "Roosevelt Field (Simon): Second Circuit Upholds $4.8M Nassau Fine",
+      seoDescription: "Second Circuit upheld Nassau County's $4.8 million fine on Roosevelt Field's Simon Property Group-affiliated owner for missing income and expense filings.",
+      property: {"name": "Roosevelt Field", "state": "NY"},
       addedDate: "2026-08-31",
       title: "The Retail Property Trust v. Nassau County Dept. of Assessment (Roosevelt Field $4.8M Reporting-Fine Appeal)",
       category: "zoning-land-use",
@@ -1888,6 +2015,8 @@ const RELAW_DATA = {
     },
     {
       id: "live-055",
+      seoTitle: "Atlanta Eminent Domain Plan: Azalea Gardens and Magnolia Park",
+      seoDescription: "Atlanta's City Council voted unanimously to pursue eminent domain plans for the blighted Azalea Gardens (92-unit) and Magnolia Park (300-unit) apartments.",
       addedDate: "2026-08-31",
       title: "Atlanta City Council v. Azalea Gardens / Magnolia Park (Blighted Apartment Eminent Domain Resolution)",
       category: "eminent-domain",
@@ -1918,6 +2047,9 @@ const RELAW_DATA = {
     },
     {
       id: "live-056",
+      seoTitle: "Pacific Ridge Apartments Tacoma: $5M Credit Bid in Chapter 11",
+      seoDescription: "Lender Sound Capital NW took Tacoma's 80-unit Pacific Ridge Apartments via a $5 million credit bid in Harbor Custom Development's Chapter 11 case.",
+      property: {"name": "Pacific Ridge Apartments", "city": "Tacoma", "state": "WA"},
       addedDate: "2026-08-31",
       title: "Harbor Custom Development Chapter 11 — Pacific Ridge Apartments Credit Bid (Sound Capital NW)",
       category: "lending-foreclosure",
@@ -1954,6 +2086,9 @@ const RELAW_DATA = {
     },
     {
       id: "live-057",
+      seoTitle: "Linea Tower Charlotte: Bar One Ground-Floor Lease Default Suit",
+      seoDescription: "Portman Holdings-affiliated Charlotte Hawkins LLC sued Bar One Lounge South End over a 10-year ground-floor lease at the Linea tower, 2161 Hawkins St.",
+      property: {"name": "Linea", "address": "2161 Hawkins St.", "city": "Charlotte", "state": "NC"},
       addedDate: "2026-08-31",
       title: "Charlotte Hawkins LLC v. Bar One Lounge South End LLC (Linea Tower Ground-Floor Lease Default)",
       category: "lease-disputes",
@@ -1986,6 +2121,9 @@ const RELAW_DATA = {
     },
     {
       id: "live-058",
+      seoTitle: "Ritz-Carlton Nashville Site: Oakworth Foreclosure, $35M Auction",
+      seoDescription: "Oakworth Capital Bank sued over a defaulted $10 million loan on the planned Ritz-Carlton Nashville tower site, which sold at foreclosure for $35 million.",
+      property: {"name": "Ritz-Carlton Nashville", "address": "401-417 Seventh Ave. S.", "city": "Nashville", "state": "TN"},
       addedDate: "2026-08-31",
       title: "Oakworth Capital Bank v. RC Nashville Development Partners (Ritz-Carlton Nashville Foreclosure)",
       category: "lending-foreclosure",
@@ -2022,6 +2160,8 @@ const RELAW_DATA = {
     },
     {
       id: "live-060",
+      seoTitle: "Cahava Springs, Cave Creek: AZ Supreme Court Contractor Ruling",
+      seoDescription: "Arizona Supreme Court let Markham Contracting pursue unjust enrichment claims against Cahava Springs landowners in Cave Creek over a $6.5M unpaid award.",
       addedDate: "2026-09-01",
       title: "Markham Contracting Co., Inc. v. Cahava Springs Phase I, Inc. (Unjust Enrichment Claim Against Infrastructure-District Landowners)",
       category: "construction-defect",
@@ -2057,6 +2197,8 @@ const RELAW_DATA = {
     },
     {
       id: "live-061",
+      seoTitle: "Dasmen Residential Sued by Arizona AG Over Tucson Apartment AC",
+      seoDescription: "Arizona AG sued Dasmen Residential and Luxford Living over Sedona Springs, Sienna Ridge and Summit Ridge in Tucson, alleging 1,000+ units lacked proper AC.",
       addedDate: "2026-09-01",
       title: "Arizona ex rel. Mayes v. Dasmen Residential, LLC (Tucson Apartment Habitability Enforcement Suit)",
       category: "landlord-tenant",
@@ -2098,6 +2240,8 @@ const RELAW_DATA = {
     },
     {
       id: "live-062",
+      seoTitle: "LivCor (Blackstone) $7M RealPage Antitrust Settlement Approved",
+      seoDescription: "Judge approved DOJ and nine-state settlements with Blackstone-owned LivCor, including $7 million, over alleged RealPage rent coordination.",
       addedDate: "2026-09-01",
       title: "United States, et al. v. LivCor, LLC (RealPage Algorithmic Pricing Antitrust Consent Judgment)",
       category: "landlord-tenant",
@@ -2148,6 +2292,9 @@ const RELAW_DATA = {
     },
     {
       id: "live-063",
+      seoTitle: "Faneuil Hall Marketplace: J. Safra Sues Sugar Factory for Rent",
+      seoDescription: "J. Safra Real Estate sued Sugar Factory for more than $930,000 in unpaid rent at Boston's Faneuil Hall Marketplace, its seventh tenant suit there.",
+      property: {"name": "Faneuil Hall Marketplace", "city": "Boston", "state": "MA"},
       addedDate: "2026-09-01",
       title: "J. Safra Real Estate v. Sugar Factory (Faneuil Hall Marketplace Unpaid Rent Suit)",
       category: "lease-disputes",
@@ -2183,6 +2330,9 @@ const RELAW_DATA = {
     },
     {
       id: "live-064",
+      seoTitle: "The Edison Milwaukee: $11.3M Default Judgment for C.D. Smith",
+      seoDescription: "Judge entered a default judgment of more than $11.3 million for C.D. Smith Construction against Neutral's Edison SPE, clearing a lien foreclosure.",
+      property: {"name": "The Edison", "city": "Milwaukee", "state": "WI"},
       addedDate: "2026-09-01",
       title: "C.D. Smith Construction, Inc. v. The Edison SPE LLC (Milwaukee Mass-Timber Tower Construction-Lien Foreclosure)",
       category: "lending-foreclosure",
@@ -2219,6 +2369,9 @@ const RELAW_DATA = {
     },
     {
       id: "live-065",
+      seoTitle: "Palmer Center Colorado Springs: Wells Fargo Tower Foreclosure",
+      seoDescription: "Foreclosure notices target the Wells Fargo Tower and FirstBank Building at Palmer Center in downtown Colorado Springs over a ~$59 million unpaid loan.",
+      property: {"name": "Palmer Center", "address": "90 S. Cascade Avenue", "city": "Colorado Springs", "state": "CO"},
       addedDate: "2026-09-02",
       title: "In re Palmer Center Foreclosure — Wells Fargo Tower & FirstBank Building (Colorado Springs Public Trustee Foreclosure)",
       category: "lending-foreclosure",
@@ -2252,6 +2405,8 @@ const RELAW_DATA = {
     },
     {
       id: "live-066",
+      seoTitle: "Sarasota County Live Local Act Suits: SITC, D.R. Horton Challenge",
+      seoDescription: "Sarasota County faces four Live Local Act suits, led by SITC Inc. and joined by D.R. Horton, over refusing affordable-housing applications in two zones.",
       addedDate: "2026-09-02",
       title: "SITC Inc. v. Sarasota County (Live Local Act Zoning-Preemption Dispute)",
       category: "zoning-land-use",
@@ -2289,6 +2444,9 @@ const RELAW_DATA = {
     },
     {
       id: "live-067",
+      seoTitle: "Ritz-Carlton Residences Houston: Broker Pay Suit vs Deiso Moss",
+      seoDescription: "Former Douglas Elliman Texas CEO sued Ritz-Carlton Residences, Houston developer Deiso Moss over pay; the court denied a halt and ordered arbitration.",
+      property: {"name": "Ritz-Carlton Residences, Houston", "city": "Houston", "state": "TX"},
       addedDate: "2026-09-03",
       title: "Sudhoff v. Deiso Moss (Ritz-Carlton Houston Broker Exclusivity Dispute)",
       category: "lease-disputes",
@@ -2320,6 +2478,9 @@ const RELAW_DATA = {
     },
     {
       id: "live-068",
+      seoTitle: "Marconi Point Kahuku: Hawaii Anti-SLAPP Ends Developer's Suit",
+      seoDescription: "Hawaii appeals court upheld anti-SLAPP dismissal of RCA Trade Center's suit over neighbors' letter opposing Marconi Point warehouses, with fees.",
+      property: {"name": "Marconi Point Condominiums", "state": "HI"},
       addedDate: "2026-09-03",
       title: "RCA Trade Center, Inc. v. Hu (Hawaii Anti-SLAPP Dismissal of Developer's Zoning-Complaint Suit)",
       category: "zoning-land-use",
@@ -2355,6 +2516,8 @@ const RELAW_DATA = {
     },
     {
       id: "live-069",
+      seoTitle: "Equity Residential $56M RealPage Antitrust Settlement",
+      seoDescription: "Equity Residential will pay $56 million to settle its part of the RealPage rent-pricing antitrust MDL in Tennessee, one of 37 settlements to date.",
       addedDate: "2026-09-03",
       title: "In re RealPage, Inc. Rental Software Antitrust Litigation (Equity Residential's $56M Settlement)",
       category: "landlord-tenant",
@@ -2395,6 +2558,9 @@ const RELAW_DATA = {
     },
     {
       id: "live-071",
+      seoTitle: "181 West Madison Chicago: $240M Loan Foreclosure by Wells Fargo",
+      seoDescription: "Wells Fargo, as CMBS trustee, sued to foreclose on 181 West Madison Street, a 50-story Chicago Loop office tower, over a $240 million loan.",
+      property: {"address": "181 West Madison Street", "city": "Chicago", "state": "IL"},
       addedDate: "2026-09-03",
       title: "Wells Fargo Bank, N.A. v. 181 West Madison Property LLC ($240M Loan Foreclosure on Chicago Loop Office Tower)",
       category: "lending-foreclosure",
@@ -2431,6 +2597,8 @@ const RELAW_DATA = {
     },
     {
       id: "live-072",
+      seoTitle: "Coyote Springs v. Nevada: $1.5 Billion Groundwater Takings Trial",
+      seoDescription: "Seeno family's Coyote Springs Investment is trying a takings claim seeking over $1.5 billion from Nevada over groundwater curtailment north of Las Vegas.",
       addedDate: "2026-09-04",
       title: "Coyote Springs Investment, LLC v. State of Nevada (Regulatory Takings Trial Over Groundwater Curtailment)",
       category: "eminent-domain",
@@ -2467,6 +2635,8 @@ const RELAW_DATA = {
     },
     {
       id: "live-073",
+      seoTitle: "Cave City KY Data Center Moratorium Suit Near Mammoth Cave",
+      seoDescription: "Kentucky Industrial Alliance's suits against Cave City's data center moratorium near Mammoth Cave were consolidated; annexation is decided first.",
       addedDate: "2026-09-04",
       title: "Kentucky Industrial Alliance LLC v. City of Cave City (Data Center Moratorium and Annexation Challenge)",
       category: "zoning-land-use",
@@ -2505,6 +2675,8 @@ const RELAW_DATA = {
     },
     {
       id: "live-074",
+      seoTitle: "D.C. RICO Suit: Court Orders Razjooyan Landlords to Cede Control",
+      seoDescription: "Federal court ordered the Razjooyan landlords to install independent management at their D.C. buildings in the Attorney General's civil RICO case.",
       addedDate: "2026-09-04",
       title: "District of Columbia v. Razjooyan (Federal Civil RICO Suit Strips Landlords of Building Control)",
       category: "landlord-tenant",
@@ -2542,6 +2714,9 @@ const RELAW_DATA = {
     },
     {
       id: "live-076",
+      seoTitle: "36 South State Street Chicago: $17.7M Retail Condo Foreclosure",
+      seoDescription: "Rialto Capital Advisors sued Jenel Management to foreclose on the retail condo at 36 South State Street, Chicago Loop, claiming about $17.7 million.",
+      property: {"address": "36 South State Street", "city": "Chicago", "state": "IL"},
       addedDate: "2026-09-05",
       title: "Rialto Capital Advisors v. Jenel Management Corp. ($17.7M Loop Retail Condo Foreclosure)",
       category: "lending-foreclosure",
@@ -2576,6 +2751,8 @@ const RELAW_DATA = {
     },
     {
       id: "live-077",
+      seoTitle: "Plymouth Industrial REIT: Court Rejects $60M Merger Fee Bid",
+      seoDescription: "Court denied Redimere Advisors' bid to escrow $60 million from Plymouth Industrial REIT's $2.1 billion sale and dismissed its success-fee claims.",
       addedDate: "2026-09-05",
       title: "Redimere Advisors LLC v. Plymouth Industrial REIT, Inc. (Unregistered Broker's $60M Merger Injunction Denied)",
       category: "reit-securities",
@@ -2612,6 +2789,8 @@ const RELAW_DATA = {
     },
     {
       id: "live-078",
+      seoTitle: "PrimeBlock Data Center Murphy NC: Noise Nuisance Class Action",
+      seoDescription: "Neighbors' proposed class action says PrimeBlock's crypto-mining and AI data center near Murphy, North Carolina makes constant noise.",
       addedDate: "2026-09-05",
       title: "Stines v. PrimeBlock Operations, LLC (Data Center Noise Nuisance Remand Fight)",
       category: "environmental",
@@ -2647,6 +2826,9 @@ const RELAW_DATA = {
     },
     {
       id: "live-079",
+      seoTitle: "Mirasol Village Sacramento: $9.5M Pesticide Contamination Suit",
+      seoDescription: "Neighboring business seeks $9.5 million from McCormack Baron Salazar and contractors over chlordane dust from Mirasol Village in Sacramento.",
+      property: {"name": "Mirasol Village", "city": "Sacramento", "state": "CA"},
       addedDate: "2026-09-05",
       title: "Mitchell v. McCormack Baron Salazar, Inc. (Mirasol Village Legacy Pesticide Contamination Suit)",
       category: "environmental",
@@ -2683,6 +2865,8 @@ const RELAW_DATA = {
     },
     {
       id: "live-080",
+      seoTitle: "Lloyd's Hurricane Ida Policy: Fifth Circuit Splits Arbitration",
+      seoDescription: "Fifth Circuit: a Louisiana surplus lines policy's arbitration clause binds foreign Lloyd's underwriters but not domestic insurers on Ida claims.",
       addedDate: "2026-09-06",
       title: "Transportation Consultants, Inc. v. Certain Underwriters at Lloyd's, London (Louisiana Surplus Lines Arbitration Ruling)",
       category: "environmental",
@@ -2728,6 +2912,8 @@ const RELAW_DATA = {
     },
     {
       id: "live-081",
+      seoTitle: "Vesta Realty Collapse: Fraud Suit Says Marc Kulick Diverted $37M",
+      seoDescription: "Kansas suit alleges Vesta Realty and Vesta Capital founder Marc Kulick diverted over $37 million while hiding a $1 billion apartment portfolio's distress.",
       addedDate: "2026-09-06",
       title: "Vesta Capital, LLC v. Kulick (Investor Fraud Suit Over $1B Multistate Apartment Portfolio Collapse)",
       category: "reit-securities",
@@ -2768,6 +2954,8 @@ const RELAW_DATA = {
     },
     {
       id: "live-083",
+      seoTitle: "JCPenney Stores Sale: $150M Suit vs Onyx Partners Over $947M Deal",
+      seoDescription: "Copper Property CTL Pass Through Trust seeks at least $150 million from Onyx Partners over the failed $947 million sale of 119 JCPenney properties.",
       addedDate: "2026-09-07",
       title: "Copper Property CTL Pass Through Trust v. Onyx Partners (Countersuit Over Collapsed $947M JCPenney Portfolio Sale)",
       category: "reit-securities",
@@ -2804,6 +2992,8 @@ const RELAW_DATA = {
     },
     {
       id: "live-084",
+      seoTitle: "Mozart Properties: $850,000 Loan Repayment Suit, Polk County IA",
+      seoDescription: "A Polk County, Iowa suit seeks $850,000 in loan principal plus roughly $32,000 in accrued interest from Mozart Properties and other defendants.",
       addedDate: "2026-09-07",
       title: "Feldman v. Pettit, Orton, and Mozart Properties (Private CRE Loan Default Suit Names Real Estate CEO)",
       category: "lending-foreclosure",
@@ -2833,6 +3023,8 @@ const RELAW_DATA = {
     },
     {
       id: "live-086",
+      seoTitle: "Supreme Court to Decide Pipeline Condemnation Fees: WBI Energy",
+      seoDescription: "U.S. Supreme Court will decide if the Natural Gas Act preempts state fee-shifting after WBI Energy's pipeline taking in McKenzie County, North Dakota.",
       addedDate: "2026-09-08",
       title: "Hoffmann v. WBI Energy Transmission, Inc. (SCOTUS Cert Grant on Pipeline Eminent Domain Attorney-Fee Preemption)",
       category: "eminent-domain",
@@ -2864,6 +3056,9 @@ const RELAW_DATA = {
     },
     {
       id: "live-087",
+      seoTitle: "Hotel Lincoln Chicago: $25.4M CMBS Foreclosure, Wilmington Trust",
+      seoDescription: "Wilmington Trust filed a $25.4 million foreclosure against Nakash family entities over Hotel Lincoln, 1816 North Clark Street, Chicago.",
+      property: {"name": "Hotel Lincoln", "address": "1816 North Clark Street", "city": "Chicago", "state": "IL"},
       addedDate: "2026-09-08",
       title: "Wilmington Trust National Association v. Nakash Lincoln LLC (Hotel Lincoln CMBS Foreclosure)",
       category: "lending-foreclosure",
@@ -2895,6 +3090,9 @@ const RELAW_DATA = {
     },
     {
       id: "live-088",
+      seoTitle: "Town of Lake Park FL Sued Over Affordable Housing Code Fines",
+      seoDescription: "Bofsa Properties-linked Alder at Lake Park sued Lake Park, Florida, alleging coercion and 34 code violations stalled The Kelsey at Park Avenue.",
+      property: {"name": "The Kelsey at Park Avenue", "city": "Lake Park", "state": "FL"},
       addedDate: "2026-09-08",
       title: "Alder at Lake Park, LLC v. Town of Lake Park (Affordable Housing Code-Enforcement Extortion Suit)",
       category: "zoning-land-use",
@@ -2931,6 +3129,9 @@ const RELAW_DATA = {
     },
     {
       id: "live-089",
+      seoTitle: "Echo Canyon Moab: Suit Challenges Utah Preliminary Municipality",
+      seoDescription: "Kane Creek Development Watch and Living Rivers sued to void Utah's SB258 and the preliminary municipality status it gave Echo Canyon, a resort near Moab.",
+      property: {"name": "Echo Canyon", "state": "UT"},
       addedDate: "2026-09-09",
       title: "Kane Creek Development Watch v. Lieutenant Governor of Utah (Echo Canyon Preliminary Municipality Challenge)",
       category: "zoning-land-use",
@@ -2964,6 +3165,9 @@ const RELAW_DATA = {
     },
     {
       id: "live-090",
+      seoTitle: "River's Edge at Manchester Richmond: $40M Construction Fraud Suit",
+      seoDescription: "Four Mile Capital's $40 million suit says developer Reynolds South Tower hid envelope defects at River's Edge at Manchester, 505 Porter Street, Richmond.",
+      property: {"name": "River's Edge at Manchester", "address": "505 Porter Street", "city": "Richmond", "state": "VA"},
       addedDate: "2026-09-09",
       title: "Four Mile Capital LLC v. Reynolds South Tower LLC (River's Edge at Manchester Construction-Defect Fraud Suit)",
       category: "construction-defect",
@@ -2995,6 +3199,9 @@ const RELAW_DATA = {
     },
     {
       id: "live-091",
+      seoTitle: "X Denver Apartments: Receiver Appointed on $170M Mack Loan",
+      seoDescription: "Mack Real Estate Group sought a receiver for X Denver, 3100 Inca Street, over a defaulted $170 million loan; the court appointed Trigild IVL as receiver.",
+      property: {"name": "X Denver", "address": "3100 Inca Street", "city": "Denver", "state": "CO"},
       addedDate: "2026-09-09",
       title: "Mack Real Estate Group v. X Denver Ownership (X Denver Apartments Receivership Suit)",
       category: "lending-foreclosure",
@@ -3028,6 +3235,9 @@ const RELAW_DATA = {
     },
     {
       id: "live-092",
+      seoTitle: "Nate Paul Calumet City Shopping Center: $46M CMBS Foreclosure",
+      seoDescription: "Rialto Capital Advisors sued Nate Paul's World Class affiliate to foreclose on a Calumet City, Illinois shopping center, seeking about $46 million.",
+      property: {"city": "Calumet City", "state": "IL"},
       addedDate: "2026-09-10",
       title: "Rialto Capital Advisors v. WC MRP Calumet Center, LLC ($46M Calumet City Retail Foreclosure)",
       category: "lending-foreclosure",
@@ -3063,6 +3273,9 @@ const RELAW_DATA = {
     },
     {
       id: "live-093",
+      seoTitle: "Old Hickory Village St. Peters: Investor Fraud Suit vs Tegethoff",
+      seoDescription: "Investors may amend fraud claims against developer Jeffrey Tegethoff over Old Hickory Village in St. Peters, Missouri, while his company is in Chapter 11.",
+      property: {"name": "Old Hickory Village", "city": "St. Peters", "state": "MO"},
       addedDate: "2026-09-10",
       title: "Solera Multifamily, LLC v. Tegethoff (Old Hickory Village Investor Fraud Suit)",
       category: "reit-securities",
@@ -3103,6 +3316,8 @@ const RELAW_DATA = {
     },
     {
       id: "live-094",
+      seoTitle: "Brentwood MO Manchester Road Blight Case: $436M Green Street Plan",
+      seoDescription: "Institute for Justice clients appeal a ruling upholding Brentwood, Missouri's Manchester Road blight finding for Green Street's $436 million plan.",
       addedDate: "2026-09-10",
       title: "Feather-Craft et al v. Brentwood ($436M Manchester Corridor Blight/Eminent Domain Suit)",
       category: "eminent-domain",
@@ -3140,6 +3355,9 @@ const RELAW_DATA = {
     },
     {
       id: "live-095",
+      seoTitle: "Regions Tower Indianapolis: $74.9M Wilmington Trust Foreclosure",
+      seoDescription: "Wilmington Trust sued Nightingale Group affiliates to foreclose on Regions Tower, a 36-story downtown Indianapolis office tower, over a $74.9 million loan.",
+      property: {"name": "Regions Tower", "city": "Indianapolis", "state": "IN"},
       addedDate: "2026-09-10",
       title: "Wilmington Trust National Association v. NG 211 N. Pennsylvania St LLC (Regions Tower $75M Foreclosure)",
       category: "lending-foreclosure",
@@ -3176,6 +3394,9 @@ const RELAW_DATA = {
     },
     {
       id: "live-096",
+      seoTitle: "Willows Site Broad Ripple: J.C. Hart's The Elements Suit Settled",
+      seoDescription: "Neighbors' suit over J.C. Hart's $61 million The Elements apartments at 6729 Westfield Blvd., Indianapolis, settled with the project cut to 168 units.",
+      property: {"name": "The Elements", "address": "6729 Westfield Blvd.", "city": "Indianapolis", "state": "IN"},
       addedDate: "2026-09-10",
       title: "Oxbow Estates HOA et al v. Metropolitan Development Commission (Willows \"The Elements\" Rezoning Settlement)",
       category: "zoning-land-use",
@@ -3215,6 +3436,9 @@ const RELAW_DATA = {
     },
     {
       id: "live-097",
+      seoTitle: "Fairlane Town Center Dearborn: Kohan $28M Loan Receivership",
+      seoDescription: "Fairlane Town Center in Dearborn is in receivership after Kohan Retail Investment Group defaulted on a $28 million loan from a Peachtree affiliate.",
+      property: {"name": "Fairlane Town Center", "city": "Dearborn", "state": "MI"},
       addedDate: "2026-09-10",
       title: "PSOF WA Holding LLC v. Fairlane Town Center Realty Holding LLC ($28M+ Dearborn Mall Receivership)",
       category: "lending-foreclosure",
@@ -3253,6 +3477,9 @@ const RELAW_DATA = {
     },
     {
       id: "live-098",
+      seoTitle: "Mackie Building Milwaukee Foreclosure: J. Jeffers $6.57M Loan",
+      seoDescription: "Waukesha State Bank sued to foreclose on Milwaukee's historic Mackie Building, alleging a J. Jeffers & Co. affiliate defaulted on a $6.57 million loan.",
+      property: {"name": "Mackie Building", "city": "Milwaukee", "state": "WI"},
       addedDate: "2026-09-10",
       title: "Waukesha State Bank v. 225 East Michigan Street LLC ($6.7M Mackie Building Foreclosure)",
       category: "lending-foreclosure",
@@ -3289,6 +3516,9 @@ const RELAW_DATA = {
     },
     {
       id: "live-099",
+      seoTitle: "Dayton's Project Minneapolis: $220M Fortress Foreclosure Approved",
+      seoDescription: "A Hennepin County judge approved foreclosure on The Dayton's Project, 601W Cos.' former Dayton's store, with about $220 million owed to Fortress Credit.",
+      property: {"name": "The Dayton's Project", "address": "700 Nicollet Mall", "city": "Minneapolis", "state": "MN"},
       addedDate: "2026-09-10",
       title: "Fortress Credit Corp. v. 601W Cos. ($220M Dayton's Project Foreclosure)",
       category: "lending-foreclosure",
@@ -3326,6 +3556,9 @@ const RELAW_DATA = {
     },
     {
       id: "live-100",
+      seoTitle: "Foshay Tower Minneapolis (W Hotel): $51M Mortgage Foreclosure",
+      seoDescription: "Deutsche Bank, as CMBS trustee, sued to foreclose on Foshay Tower, home of the W Minneapolis hotel, over a $51 million mortgage and asked for a receiver.",
+      property: {"name": "Foshay Tower", "city": "Minneapolis", "state": "MN"},
       addedDate: "2026-09-10",
       title: "Deutsche Bank National Trust Co. v. WMN Foshay LP ($51M Foshay Tower Foreclosure)",
       category: "lending-foreclosure",
@@ -3362,6 +3595,9 @@ const RELAW_DATA = {
     },
     {
       id: "live-101",
+      seoTitle: "Winrock Town Center Albuquerque: Dillard's Redevelopment Suit",
+      seoDescription: "Dillard's suit says Winrock Partners' conversion of Winrock Town Center in Albuquerque blocked store entrances and parking in breach of its lease.",
+      property: {"name": "Winrock Town Center", "city": "Albuquerque", "state": "NM"},
       addedDate: "2026-09-10",
       title: "Dillard Store Services, Inc. v. Winrock Partners LLC (Winrock Town Center Redevelopment Dispute)",
       category: "lease-disputes",
@@ -3400,6 +3636,9 @@ const RELAW_DATA = {
     },
     {
       id: "live-102",
+      seoTitle: "Gemstone Technology Park Kuna: Data Center Rezone Appeal",
+      seoDescription: "Neighbors appealed to the Idaho Supreme Court after a judge upheld Kuna's rezone for Diode Ventures' 620-acre Gemstone Technology Park data center campus.",
+      property: {"name": "Gemstone Technology Park", "city": "Kuna", "state": "ID"},
       addedDate: "2026-09-10",
       title: "Thornton v. City of Kuna (Gemstone Technology Park Data Center Rezone Challenge)",
       category: "zoning-land-use",
@@ -3435,6 +3674,8 @@ const RELAW_DATA = {
     },
     {
       id: "live-103",
+      seoTitle: "BB's Childcare Lease-Purchase Ruling: Nebraska Supreme Court",
+      seoDescription: "Nebraska Supreme Court held purchase options in BB's Childcare's commercial lease gave it an equitable interest, so the eviction case was dismissed.",
       addedDate: "2026-09-10",
       title: "Martens v. BB's Childcare, LLC (Commercial Lease-to-Own Jurisdiction Ruling)",
       category: "lease-disputes",
@@ -3467,6 +3708,9 @@ const RELAW_DATA = {
     },
     {
       id: "live-104",
+      seoTitle: "AltEn Ethanol Plant Mead NE: Cleanup-Cost Suit Settled",
+      seoDescription: "Pioneer Hi-Bred, Corteva and other seed firms settled cleanup-cost suits over the AltEn ethanol plant near Mead, Nebraska, with a land-use covenant.",
+      property: {"name": "AltEn ethanol plant", "state": "NE"},
       addedDate: "2026-09-10",
       title: "Pioneer Hi-Bred International, Inc. et al. v. AltEn, LLC (Mead Ethanol Plant Cleanup-Cost Litigation)",
       category: "environmental",
@@ -3526,6 +3770,9 @@ const RELAW_DATA = {
     },
     {
       id: "live-105",
+      seoTitle: "Ridgeline Data Center Tucker County WV: Air Permit Appeal Tossed",
+      seoDescription: "West Virginia appeals court dismissed challenges to the air permit for Fundamental Data's 1,600-megawatt Ridgeline data center in Tucker County.",
+      property: {"name": "Ridgeline", "state": "WV"},
       addedDate: "2026-09-10",
       title: "Tucker United v. West Virginia Air Quality Board (Ridgeline Data Center Permit Appeal)",
       category: "environmental",
@@ -3563,6 +3810,9 @@ const RELAW_DATA = {
     },
     {
       id: "live-107",
+      seoTitle: "Scottsboro AL Industrial Lease: Maples Industries Loses Appeal",
+      seoDescription: "Alabama Supreme Court held tenant Maples Industries cannot void its Scottsboro industrial lease by disputing Hembree Insurance Trust's title.",
+      property: {"city": "Scottsboro", "state": "AL"},
       addedDate: "2026-09-10",
       title: "Hembree Insurance Trust v. Maples Industries, Inc. (Scottsboro Industrial Lease Dispute)",
       category: "lease-disputes",
@@ -3600,6 +3850,8 @@ const RELAW_DATA = {
     },
     {
       id: "live-108",
+      seoTitle: "Hexagon US Federal Lease Renewal Upheld; $174,987.45 Fee Reversed",
+      seoDescription: "Alabama Supreme Court upheld Hexagon US Federal's lease renewal against landlord CBS Holdings but reversed a $174,987.45 fee award over redacted bills.",
       addedDate: "2026-09-10",
       title: "CBS Holdings, LLC v. Hexagon US Federal, Inc. (Madison County Lease Renewal & Fee Fight)",
       category: "lease-disputes",
@@ -3638,6 +3890,9 @@ const RELAW_DATA = {
     },
     {
       id: "live-109",
+      seoTitle: "Drexel Flats Oklahoma City: Receiver in Vesta Realty Foreclosure",
+      seoDescription: "A judge appointed a receiver for the 272-unit Drexel Flats apartments in Oklahoma City in Ready Capital's foreclosure against Vesta Realty-tied borrowers.",
+      property: {"name": "Drexel Flats", "city": "Oklahoma City", "state": "OK"},
       addedDate: "2026-09-10",
       title: "Ready Capital Mortgage Financing 2023-FL 12, LLC v. Drexel Flats Acquisition LLC (Oklahoma City Apartment Foreclosure)",
       category: "lending-foreclosure",
@@ -3685,6 +3940,9 @@ const RELAW_DATA = {
     },
     {
       id: "live-110",
+      seoTitle: "Modus Studio: Fayetteville Student Housing Defect Claims Revived",
+      seoDescription: "Arkansas appeals court revived Thompson Thrift's claims against architect Modus Studio over a $13,529,726 award for Fayetteville student housing defects.",
+      property: {"city": "Fayetteville", "state": "AR"},
       addedDate: "2026-09-10",
       title: "Thompson Thrift Construction, Inc. v. Modus Studio, PLLC (Fayetteville Student Housing Defect Suit)",
       category: "construction-defect",
@@ -3729,6 +3987,9 @@ const RELAW_DATA = {
     },
     {
       id: "live-111",
+      seoTitle: "Biloxi Waterfront Tidelands: Lady Luck Casino Site Title Upheld",
+      seoDescription: "Mississippi Supreme Court ruled a Biloxi waterfront acre, former Fisherman's Wharf and Lady Luck Casino site, is private under a 1784 Spanish grant.",
+      property: {"name": "Fisherman's Wharf", "city": "Biloxi", "state": "MS"},
       addedDate: "2026-09-10",
       title: "State of Mississippi v. Aldrich (Biloxi Waterfront Tidelands Title Dispute)",
       category: "zoning-land-use",
@@ -3768,6 +4029,9 @@ const RELAW_DATA = {
     },
     {
       id: "live-112",
+      seoTitle: "Black Marlin Casino Biloxi: City's Tidelands Pier Lease Upheld",
+      seoDescription: "Mississippi Supreme Court upheld Biloxi's tidelands lease to RW Development for a Veterans Avenue pier tied to the Black Marlin Casino project.",
+      property: {"name": "Black Marlin Casino", "city": "Biloxi", "state": "MS"},
       addedDate: "2026-09-10",
       title: "State of Mississippi v. RW Development, LLC (Biloxi Casino Pier Tidelands Lease Authority)",
       category: "zoning-land-use",
@@ -3807,6 +4071,9 @@ const RELAW_DATA = {
     },
     {
       id: "live-114",
+      seoTitle: "Artemis Living at Littleton NH: $30M Construction Loan Fraud Suit",
+      seoDescription: "Service Credit Union sued Artemis Living at Littleton's sponsors and its ex-loan officer, alleging $30 million construction loan draws were diverted.",
+      property: {"name": "Artemis Living at Littleton", "city": "Littleton", "state": "NH"},
       addedDate: "2026-09-10",
       title: "Service Credit Union v. Weed (Granite Senior Services / Artemis Living at Littleton Construction-Loan Fraud Suit)",
       category: "lending-foreclosure",
@@ -3845,6 +4112,9 @@ const RELAW_DATA = {
     },
     {
       id: "live-115",
+      seoTitle: "Greenwood Park Mall Shooting Suit vs Simon: Indiana Supreme Court",
+      seoDescription: "Indiana Supreme Court heard whether Simon Property Group and its security firm owed a duty over the 2022 Greenwood Park Mall food-court shooting.",
+      property: {"name": "Greenwood Park Mall", "state": "IN"},
       addedDate: "2026-09-10",
       title: "Stewart v. Simon Property Group, L.P. (Greenwood Park Mall Shooting Negligent-Security Suit)",
       category: "premises-liability",
@@ -3879,6 +4149,9 @@ const RELAW_DATA = {
     },
     {
       id: "live-116",
+      seoTitle: "The Galleria Houston Garage Shooting: Security Suit vs Simon",
+      seoDescription: "Suit says Simon Property Group and security firms at The Galleria in Houston failed to keep banned men out before a fatal parking garage shooting.",
+      property: {"name": "The Galleria", "city": "Houston", "state": "TX"},
       addedDate: "2026-09-10",
       title: "Sanders v. Simon Property Group, L.P. (The Galleria Houston Parking-Garage Shooting Negligent-Security Suit)",
       category: "premises-liability",
@@ -3914,6 +4187,9 @@ const RELAW_DATA = {
     },
     {
       id: "live-117",
+      seoTitle: "Publix Kissimmee Slip-and-Fall: $3,967,000 Jury Verdict",
+      seoDescription: "Osceola County jury awarded $3,967,000 against Publix Super Markets over a beverage-aisle fall at its North John Young Parkway store in Kissimmee.",
+      property: {"name": "Publix", "city": "Kissimmee", "state": "FL"},
       addedDate: "2026-09-10",
       title: "Marcano v. Publix Super Markets, Inc. (Kissimmee Grocery Store Slip-and-Fall Verdict)",
       category: "premises-liability",
@@ -3947,6 +4223,9 @@ const RELAW_DATA = {
     },
     {
       id: "live-118",
+      seoTitle: "Original Saugus Café Santa Clarita: Lockout Suit, $1,000,000+",
+      seoDescription: "Operator of the Original Saugus Café in Santa Clarita sued owner North Valley Construction over a lockout without court process, seeking $1,000,000+.",
+      property: {"name": "Original Saugus Café", "city": "Santa Clarita", "state": "CA"},
       addedDate: "2026-09-10",
       title: "Mercado v. North Valley Construction Co. LLC (Original Saugus Café Wrongful Lockout Suit)",
       category: "lease-disputes",
@@ -3983,6 +4262,9 @@ const RELAW_DATA = {
     },
     {
       id: "live-119",
+      seoTitle: "TxDOT Surplus Land Buyback: Texas Supreme Court Rejects Immunity",
+      seoDescription: "Texas Supreme Court held the State cannot use immunity to block JRJ Pusok Holdings' right to repurchase surplus TxDOT land on Mueschke Road in Tomball.",
+      property: {"city": "Tomball", "state": "TX"},
       addedDate: "2026-09-10",
       title: "The State of Texas v. JRJ Pusok Holdings, LLC",
       category: "eminent-domain",
@@ -4022,6 +4304,9 @@ const RELAW_DATA = {
     },
     {
       id: "live-120",
+      seoTitle: "Toyota Starbright Zoning Buffer San Antonio: Challenge Dismissed",
+      seoDescription: "Texas appeals court dismissed Southside Affordable Development's challenge to Toyota's Starbright zoning buffer in San Antonio for lack of standing.",
+      property: {"city": "San Antonio", "state": "TX"},
       addedDate: "2026-09-10",
       title: "City of San Antonio and Toyota Motor Manufacturing Texas, Inc. v. Southside Affordable Development, LLC",
       category: "zoning-land-use",
@@ -4063,6 +4348,9 @@ const RELAW_DATA = {
     },
     {
       id: "live-121",
+      seoTitle: "Collin Creek Mall Plano: Owner Can't Escape Assumed DAS Lease",
+      seoDescription: "Dallas appeals court ruled Collin Creek Mall's new owner could not cite impossibility to end the antenna lease it assumed with ATC Indoor DAS.",
+      property: {"name": "Collin Creek Mall", "city": "Plano", "state": "TX"},
       addedDate: "2026-09-10",
       title: "ATC Indoor DAS LLC v. MM CCM 48M Leasing, LLC and MM CCM 48M, LLC (Collin Creek Mall Lease Dispute)",
       category: "lease-disputes",
@@ -4103,6 +4391,8 @@ const RELAW_DATA = {
     },
     {
       id: "live-122",
+      seoTitle: "Holiday Inn Club Vacations v. CBRE: Galveston Defect Suit Revived",
+      seoDescription: "Houston appeals court revived Holiday Inn Club Vacations' water-intrusion defect suit against CBRE, T&G and ACI over a Galveston County timeshare resort.",
       addedDate: "2026-09-10",
       title: "Holiday Inn Club Vacations Inc. v. CBRE, Inc., ACI Architectural Concepts, Inc., and T&G Corporation f/k/a T&G Constructors",
       category: "construction-defect",
@@ -4141,6 +4431,9 @@ const RELAW_DATA = {
     },
     {
       id: "live-124",
+      seoTitle: "941 McHenry Avenue Modesto: $2M Dry Cleaner Superfund Settlement",
+      seoDescription: "California DTSC reached a $2 million consent decree with owners of 941 McHenry Avenue, Modesto, former Halford's Cleaners site, over PCE contamination.",
+      property: {"name": "Halford's Cleaners", "address": "941 McHenry Avenue", "city": "Modesto", "state": "CA"},
       addedDate: "2026-09-10",
       title: "California Department of Toxic Substances Control v. Lyon (Modesto Groundwater Contamination Superfund Site)",
       category: "environmental",
@@ -4177,6 +4470,9 @@ const RELAW_DATA = {
     },
     {
       id: "live-125",
+      seoTitle: "Santa Barbara Old Mission Builder's Remedy Project: SB 158 Suit",
+      seoDescription: "Judge dismissed, with leave to amend, The Mission LLC's suit saying SB 158 targets its 270-unit builder's-remedy project by Santa Barbara's Old Mission.",
+      property: {"city": "Santa Barbara", "state": "CA"},
       addedDate: "2026-09-10",
       title: "The Mission LLC v. State of California and City of Santa Barbara",
       category: "zoning-land-use",
@@ -4215,6 +4511,9 @@ const RELAW_DATA = {
     },
     {
       id: "live-126",
+      seoTitle: "Grand at Doral I Condo: Association Sues Over Developer Control",
+      seoDescription: "Grand at Doral I's association sued developer affiliates Prime Properties at Doral and Premier Properties at Doral, holders of 41 of 80 units.",
+      property: {"name": "Grand at Doral I", "state": "FL"},
       addedDate: "2026-09-11",
       title: "Grand at Doral I Condominium Association, Inc. v. Prime Properties at Doral, LLC et al. (Developer-Affiliate Association Control Suit)",
       category: "landlord-tenant",
@@ -4245,6 +4544,9 @@ const RELAW_DATA = {
     },
     {
       id: "live-127",
+      seoTitle: "Former Nordstrom Site Anchorage: Partition Sale Suit by ACDA",
+      seoDescription: "Anchorage Community Development Authority, an 80% owner, sued co-owners for a court-ordered sale of the former downtown Nordstrom store site.",
+      property: {"name": "former Nordstrom department store", "city": "Anchorage", "state": "AK"},
       addedDate: "2026-09-11",
       title: "Anchorage Community Development Authority v. Hughes Family LLC and Anchorage Innovation District LLC (Downtown Nordstrom Site Partition Action)",
       category: "eminent-domain",
@@ -4280,6 +4582,9 @@ const RELAW_DATA = {
     },
     {
       id: "live-129",
+      seoTitle: "City of Prospect KY: $36.3M Fair Housing Verdict for LDG",
+      seoDescription: "Jefferson County jury awarded LDG Development $36.3 million against Prospect, Kentucky over its 2017 denial of a 198-unit senior apartment project.",
+      property: {"name": "Prospect Cove", "city": "Prospect", "state": "KY"},
       addedDate: "2026-09-12",
       title: "LDG Development, LLC v. City of Prospect, Kentucky (Prospect Cove Fair Housing Zoning-Denial Verdict)",
       category: "zoning-land-use",
@@ -4318,6 +4623,9 @@ const RELAW_DATA = {
     },
     {
       id: "live-130",
+      seoTitle: "Nahant v. Northeastern: SJC Allows East Point Taking",
+      seoDescription: "Massachusetts SJC ruled Nahant may take about 12.5 acres of Northeastern University's East Point land, rejecting the university's pretext claim.",
+      property: {"name": "East Point", "city": "Nahant", "state": "MA"},
       addedDate: "2026-09-12",
       title: "Town of Nahant v. Northeastern University (East Point Eminent Domain Reversal)",
       category: "eminent-domain",
@@ -4357,6 +4665,9 @@ const RELAW_DATA = {
     },
     {
       id: "live-131",
+      seoTitle: "South Loop Chicago Office Foreclosure: $17.1M Suit by Jovia",
+      seoDescription: "Jovia Financial Federal Credit Union filed a $17.1 million foreclosure on a 129,200-square-foot South Loop office building after its tenant left.",
+      property: {"city": "Chicago", "state": "IL"},
       addedDate: "2026-09-12",
       title: "Jovia Financial Federal Credit Union v. S Indiana Avenue LLC (South Loop Office Foreclosure & Personal Guaranty Suit)",
       category: "lending-foreclosure",
@@ -4395,6 +4706,9 @@ const RELAW_DATA = {
     },
     {
       id: "live-132",
+      seoTitle: "Portland Maine Concert Venue Suit: Zoning Buffer Called Targeted",
+      seoDescription: "Portland Music Holdings sued Portland, Maine, alleging a moratorium and 750-foot venue buffer were adopted to block its 3,300-seat concert venue.",
+      property: {"city": "Portland", "state": "ME"},
       addedDate: "2026-09-12",
       title: "Portland Music Holdings LLC v. City of Portland (Targeted Zoning Buffer Takings & Due Process Suit)",
       category: "zoning-land-use",
@@ -4432,6 +4746,9 @@ const RELAW_DATA = {
     },
     {
       id: "live-133",
+      seoTitle: "Bourse Building Philadelphia: KKR Lender Seeks $24.2M and Sale",
+      seoDescription: "KKR Real Estate Finance Trust sued owners of Philadelphia's Bourse building over an $83.7 million loan, seeking $24.2 million and a public sale.",
+      property: {"name": "Bourse building", "address": "111 South Independence Mall East", "city": "Philadelphia", "state": "PA"},
       addedDate: "2026-09-13",
       title: "KKR Real Estate Finance Trust Inc. v. Lubert-Adler Real Estate Fund & Keystone Development + Investment (Bourse Building Mortgage Default & Forced-Sale Suit)",
       category: "lending-foreclosure",
@@ -4469,6 +4786,9 @@ const RELAW_DATA = {
     },
     {
       id: "live-134",
+      seoTitle: "Palm Beach Marriott Singer Island: $45M+ Fee Suit vs Urgo Hotels",
+      seoDescription: "Palm Beach Marriott Singer Island's condo association says damages over Urgo Hotels' disputed fee could exceed $45 million; trial is set for 2027.",
+      property: {"name": "Palm Beach Marriott Singer Island", "city": "Riviera Beach", "state": "FL"},
       addedDate: "2026-09-13",
       title: "Palm Beach Marriott Singer Island Condominium Association, Inc. v. Urgo Hotels LP (Decade-Long Duplicative Resort-Fee Dispute)",
       category: "lease-disputes",
@@ -4506,6 +4826,9 @@ const RELAW_DATA = {
     },
     {
       id: "live-135",
+      seoTitle: "224 West 57th Street: Soros Takes Title After $158.7M Foreclosure",
+      seoDescription: "Soros Fund Management took title to 224 West 57th Street in Manhattan at a foreclosure auction after a $158.7 million judgment against owner Eretz Group.",
+      property: {"address": "224 West 57th Street", "city": "New York", "state": "NY"},
       addedDate: "2026-09-13",
       title: "Soros Fund Management v. Eretz Group (224 West 57th Street Foreclosure & Tenant-Takeover)",
       category: "lending-foreclosure",
@@ -4545,6 +4868,8 @@ const RELAW_DATA = {
     },
     {
       id: "live-136",
+      seoTitle: "Arbor Realty Trust Hit With $175M Bridge-Loan Foreclosure Suit",
+      seoDescription: "Ex-owners of a 474-unit College Park, Georgia apartment complex sue Arbor Realty Trust for $175 million, alleging bridge-loan fraud before foreclosure.",
       addedDate: "2026-09-13",
       title: "Cimerring v. Arbor Realty Trust, Inc. ($175M Georgia Bridge-Loan Foreclosure Fraud Suit)",
       category: "lending-foreclosure",
@@ -4575,6 +4900,8 @@ const RELAW_DATA = {
     },
     {
       id: "live-137",
+      seoTitle: "Silverback Development Founder Sentenced in $13M Investor Fraud",
+      seoDescription: "Silverback Development founder Joshua Schuster got four years in prison for defrauding NYC real estate investors of more than $13 million.",
       addedDate: "2026-09-14",
       title: "United States v. Joshua Schuster (Silverback Development Investor Fraud Sentencing)",
       category: "reit-securities",
@@ -4614,6 +4941,8 @@ const RELAW_DATA = {
     },
     {
       id: "live-138",
+      seoTitle: "Gunwerks Plant: Wyoming Supreme Court Revives $14M Defect Suit",
+      seoDescription: "Wyoming's Supreme Court revived Gunwerks' $14 million defect suit against Plan One Architects and Sletten Construction over its Cody facility.",
       addedDate: "2026-09-14",
       title: "Gunwerks, LLC v. Forward Cody Wyoming, Inc. (Manufacturing Facility Design-Build Third-Party Beneficiary Appeal)",
       category: "construction-defect",
@@ -4652,6 +4981,8 @@ const RELAW_DATA = {
     },
     {
       id: "live-139",
+      seoTitle: "Osprey Point, Sussex County DE: Court Finds NVR Breached Lot Deal",
+      seoDescription: "Delaware Chancery ruled homebuilder NVR, Inc. breached its lot-purchase agreement with developer Osprey Point Preserve, which validly terminated it.",
       addedDate: "2026-09-15",
       title: "NVR, Inc. v. Osprey Point Preserve, LLC (Lot-Purchase Agreement Breach Over Unbuilt Marina Amenities)",
       category: "zoning-land-use",
@@ -4689,6 +5020,9 @@ const RELAW_DATA = {
     },
     {
       id: "live-140",
+      seoTitle: "29 West 34th Street: Helaba Foreclosure Settles, Jeff Sutton",
+      seoDescription: "Helaba exited its foreclosure suit over Jeff Sutton's 29 West 34th Street Herald Square retail building after assigning its $50 million mortgage.",
+      property: {"address": "29 West 34th Street", "city": "New York", "state": "NY"},
       addedDate: "2026-09-15",
       title: "Landesbank Hessen-Thüringen Girozentrale v. 29 West 34 Owner LLC (Herald Square Foreclosure Settlement)",
       category: "lending-foreclosure",
@@ -4730,6 +5064,9 @@ const RELAW_DATA = {
     },
     {
       id: "live-143",
+      seoTitle: "Park Social Winter Park: $644.7M Staircase Fall Verdict",
+      seoDescription: "An Orange County, Florida jury returned a verdict of more than $644.7 million against the owner and operator of Park Social, a Winter Park bar.",
+      property: {"name": "Park Social", "city": "Winter Park", "state": "FL"},
       addedDate: "2026-09-16",
       title: "Elkasimi v. Soho WP / BE-1 Concept Holdings (Park Social Winter Park Staircase Premises-Liability Verdict)",
       category: "premises-liability",
@@ -4764,6 +5101,8 @@ const RELAW_DATA = {
     },
     {
       id: "live-144",
+      seoTitle: "Watertown, SD Apartment Loan Fight: The Ruins Sold in Chapter 7",
+      seoDescription: "Red River State Bank's loan fight with a Fargo developer over three Watertown, SD apartment projects: a court approved a backup-bid sale of The Ruins.",
       addedDate: "2026-09-16",
       title: "Red River State Bank v. Generations on 1st, LLC (Watertown, SD Multifamily Loan-Default Litigation & Chapter 7 Sale)",
       category: "lending-foreclosure",
@@ -4807,6 +5146,8 @@ const RELAW_DATA = {
     },
     {
       id: "live-145",
+      seoTitle: "Phoenix American Hospitality Hotel REIT Securities Class Action",
+      seoDescription: "Investors filed a class action against Phoenix American Hospitality and two non-traded hotel REITs after SEC charges over $86 million raised.",
       addedDate: "2026-09-16",
       title: "Proven Business Skills v. Phoenix American Hospitality, LLC (Non-Traded Hotel REIT Securities Class Action)",
       category: "reit-securities",
@@ -4843,6 +5184,8 @@ const RELAW_DATA = {
     },
     {
       id: "live-146",
+      seoTitle: "Waldoboro, Maine Cell Tower Denial: Blue Sky Towers Sues Town",
+      seoDescription: "Blue Sky Towers IV sued the Town of Waldoboro, Maine over a variance denial for a 194-foot wireless tower, citing the Telecommunications Act.",
       addedDate: "2026-09-16",
       title: "Blue Sky Towers IV LLC v. Town of Waldoboro (Wireless Tower Siting / Telecommunications Act Suit)",
       category: "zoning-land-use",
@@ -4875,6 +5218,8 @@ const RELAW_DATA = {
     },
     {
       id: "live-147",
+      seoTitle: "Circle K Parking Lot Fall: Fourth Circuit Revives Premises Suit",
+      seoDescription: "The Fourth Circuit reversed summary judgment for Circle K Stores in a South Carolina parking-lot fall case, sending open-and-obvious to a jury.",
       addedDate: "2026-09-16",
       title: "Lewis v. Circle K Stores, Inc. (Fourth Circuit Premises-Liability Summary-Judgment Reversal)",
       category: "premises-liability",
@@ -4908,6 +5253,9 @@ const RELAW_DATA = {
     },
     {
       id: "live-148",
+      seoTitle: "Hughes Center Las Vegas: Court Approves Sale to Borden Industries",
+      seoDescription: "A Clark County judge approved the receiver's sale of Hughes Center, a Las Vegas office and retail campus, after a $325 million CMBS loan default.",
+      property: {"name": "Hughes Center", "city": "Las Vegas", "state": "NV"},
       addedDate: "2026-09-17",
       title: "In re Hughes Center Receivership (Blackstone CMBS Default, Court-Ordered Sale to Borden Industries)",
       category: "lending-foreclosure",
@@ -4944,6 +5292,9 @@ const RELAW_DATA = {
     },
     {
       id: "live-149",
+      seoTitle: "Missoni Baia Miami: OKO Group Sues Insurers for $22.4M",
+      seoDescription: "An OKO Group affiliate sued Zurich, Allianz, ACE and National Fire & Marine for $22.4 million in builder's-risk benefits over Missoni Baia.",
+      property: {"name": "Missoni Baia", "city": "Miami", "state": "FL"},
       addedDate: "2026-09-17",
       title: "OKO Group Affiliate v. Zurich American Insurance Co. et al. (Missoni Baia Builder's-Risk Coverage Suit)",
       category: "construction-defect",
@@ -4984,6 +5335,8 @@ const RELAW_DATA = {
     },
     {
       id: "live-150",
+      seoTitle: "Canyon County, Idaho Highway Taking: Business Damages Rejected",
+      seoDescription: "Idaho's Supreme Court held only the condemned parcel's fee owner can claim business damages, rejecting Triple Crown Development affiliates' claims.",
       addedDate: "2026-09-17",
       title: "State of Idaho, Idaho Transportation Board v. Triple Crown Development, LLC (Business-Damages Condemnation Appeal)",
       category: "eminent-domain",
@@ -5022,6 +5375,8 @@ const RELAW_DATA = {
     },
     {
       id: "live-151",
+      seoTitle: "Walmart $6.8M Contractor Shock Verdict Affirmed in Florida",
+      seoDescription: "Florida's Second DCA affirmed a verdict reported at $6.8 million against Wal-Mart Stores East over a contractor technician shocked at a store.",
       addedDate: "2026-09-17",
       title: "Wal-Mart Stores East, LP v. Johnson (Independent-Contractor Shock Injury Premises Liability Appeal)",
       category: "premises-liability",
@@ -5056,6 +5411,9 @@ const RELAW_DATA = {
     },
     {
       id: "live-152",
+      seoTitle: "Cloudview Estates, Siloam Springs: Suit Over Plat Denial",
+      seoDescription: "Mud Puddle Investments sued Siloam Springs, Arkansas after it denied a plat for Cloudview Estates, a 319-lot subdivision, against staff advice.",
+      property: {"name": "Cloudview Estates", "city": "Siloam Springs", "state": "AR"},
       addedDate: "2026-09-17",
       title: "Mud Puddle Investments v. City of Siloam Springs (Cloudview Estates Subdivision Plat-Denial Suit)",
       category: "zoning-land-use",
@@ -5091,6 +5449,8 @@ const RELAW_DATA = {
     },
     {
       id: "live-154",
+      seoTitle: "Herb Simon Sues David Simon's Family Over SFG Company Dissolution",
+      seoDescription: "Simon Property Group co-founder Herb Simon sued David Simon's family, alleging SFG Company LLC was dissolved to strip his side's equity.",
       addedDate: "2026-09-18",
       title: "Herb Simon v. Simon Family (SFG Company Dissolution & Equity-Stripping Suit)",
       category: "reit-securities",
@@ -5128,6 +5488,9 @@ const RELAW_DATA = {
     },
     {
       id: "live-155",
+      seoTitle: "King of Prussia Data Center Denial: MLP Ventures v. Upper Merion",
+      seoDescription: "Brian O'Neill's MLP Ventures sued Upper Merion Township to reverse its denial of five data centers totaling over 4.6 million square feet.",
+      property: {"name": "Renaissance Park and Innovation Data Center Campus", "city": "Upper Merion Township", "state": "PA"},
       addedDate: "2026-09-18",
       title: "MLP Ventures v. Upper Merion Township (Renaissance Park Data Center Denial Appeal)",
       category: "zoning-land-use",
@@ -5164,6 +5527,8 @@ const RELAW_DATA = {
     },
     {
       id: "live-157",
+      seoTitle: "Burlington, VT Short-Term Rental Ordinance Challenge Dismissed",
+      seoDescription: "Vermont's Supreme Court affirmed dismissal of a challenge to Burlington's 2022 short-term rental ordinance, holding it unripe before enforcement.",
       addedDate: "2026-09-19",
       title: "32 Intervale, LLC v. City of Burlington (Short-Term Rental Ordinance Challenge Dismissed as Unripe)",
       category: "zoning-land-use",
@@ -5201,6 +5566,8 @@ const RELAW_DATA = {
     },
     {
       id: "live-158",
+      seoTitle: "Pavilion Park, West Des Moines: Below-Market Land Sale Trial",
+      seoDescription: "Minority owners of Pavilion Park LC allege its manager sold two West Des Moines-area parcels to an affiliate below market value; trial concluded.",
       addedDate: "2026-09-19",
       title: "Eagle Nest Investments, LLC v. Spencer (Pavilion Park Below-Market Land Sale & Breach of Fiduciary Duty Trial)",
       category: "reit-securities",
@@ -5239,6 +5606,8 @@ const RELAW_DATA = {
     },
     {
       id: "live-159",
+      seoTitle: "Groton Housing Authority Fraud Suit: Asset-Attachment Motion",
+      seoDescription: "Groton Housing Authority and Greater Groton Realty Corp. allege at least $2M in diverted assets and seek to attach real estate; hearing Oct. 20.",
       addedDate: "2026-09-19",
       title: "Groton Housing Authority v. Cappelletti (Ponzi-Like Redevelopment Fraud & Asset-Seizure Motion)",
       category: "reit-securities",
@@ -5278,6 +5647,9 @@ const RELAW_DATA = {
     },
     {
       id: "live-160",
+      seoTitle: "Carnegie House, West 57th St: $24M Ground-Rent Award Vacated",
+      seoDescription: "New York's Appellate Division vacated a $24 million ground-rent arbitration award against the Carnegie House co-op over an umpire's nondisclosure.",
+      property: {"name": "Carnegie House", "city": "New York", "state": "NY"},
       addedDate: "2026-09-20",
       title: "57th & 6th Ground LLC v. Carnegie House Tenants Corp. (Ground-Rent Arbitration Award Vacated for Arbitrator Non-Disclosure)",
       category: "lease-disputes",
@@ -5320,6 +5692,9 @@ const RELAW_DATA = {
     },
     {
       id: "live-161",
+      seoTitle: "Pearl District Portland Shelter Building Foreclosure: Sturgeon",
+      seoDescription: "Northwest Bank sued developer Vanessa Sturgeon to foreclose on a Pearl District, Portland building that housed a city shelter, over a $6 million loan.",
+      property: {"city": "Portland", "state": "OR"},
       addedDate: "2026-09-20",
       title: "Northwest Bank v. North Pearl LLC, Sturgeon Development Partners & Vanessa Sturgeon (Pearl District Homeless-Shelter Building Foreclosure)",
       category: "lending-foreclosure",
@@ -5359,6 +5734,9 @@ const RELAW_DATA = {
     },
     {
       id: "live-162",
+      seoTitle: "Uniontown Mall: Court Orders Namdar to Fix Exits and Hazards",
+      seoDescription: "A Fayette County, PA judge ordered Uniontown Mall owners Namdar Realty Group and Uniontown Mall Realty to fix blocked exits and other hazards.",
+      property: {"name": "Uniontown Mall", "state": "PA"},
       addedDate: "2026-09-20",
       title: "South Union Township v. Namdar Realty Group & Uniontown Mall Realty (Court-Supervised Mall Safety Compliance)",
       category: "premises-liability",
@@ -5395,6 +5773,8 @@ const RELAW_DATA = {
     },
     {
       id: "live-163",
+      seoTitle: "Marshfield v. Commonwealth: SJC Upholds MBTA Communities Act",
+      seoDescription: "The Massachusetts SJC unanimously rejected Marshfield's challenge to the MBTA Communities Act, the multifamily zoning mandate for 177 towns.",
       addedDate: "2026-09-21",
       featured: true,
       title: "Town of Marshfield v. Commonwealth (SJC Rejects Second Municipal Challenge to MBTA Communities Act)",
@@ -5434,6 +5814,8 @@ const RELAW_DATA = {
     },
     {
       id: "live-164",
+      seoTitle: "Springfield, MO Data Center Moratorium Suit (NSI, A.1 LLC)",
+      seoDescription: "Developer Trent Overhue's NSI, A.1 LLC sued Springfield, Missouri to block its 120-day data center moratorium, citing the city's own zoning sign-off.",
       addedDate: "2026-09-21",
       featured: true,
       title: "NSI, A.1 LLC v. City of Springfield (Developer Sues to Block Data Center Moratorium After Relying on City's Own Zoning Sign-Off)",
@@ -5470,6 +5852,8 @@ const RELAW_DATA = {
     },
     {
       id: "live-165",
+      seoTitle: "Benton County, MO Data Center Moratorium: Developer Seeks TRO",
+      seoDescription: "Developer Trent Overhue and NSI6 LLC asked a court for a TRO against Benton County, Missouri's six-month data center moratorium.",
       addedDate: "2026-09-21",
       title: "Overhue v. Benton County (Second Missouri Developer Fights a County Data Center Moratorium in Court)",
       category: "zoning-land-use",
@@ -5506,6 +5890,8 @@ const RELAW_DATA = {
     },
     {
       id: "live-166",
+      seoTitle: "Montgomery County, MO Amazon Data Center Suit Survives Dismissal",
+      seoDescription: "A Cole County judge let Preserve Montgomery County's Sunshine Law suit over a Montgomery County, Missouri data center tied to Amazon proceed.",
       addedDate: "2026-09-21",
       title: "Preserve Montgomery County v. Montgomery County (Judge Lets Sunshine Law Challenge to Amazon Data Center Incentives Proceed)",
       category: "zoning-land-use",
@@ -5542,6 +5928,9 @@ const RELAW_DATA = {
     },
     {
       id: "live-168",
+      seoTitle: "Bostonian Apartments, Aurora CO: U.S. Bank Foreclosure Suit",
+      seoDescription: "U.S. Bank filed to foreclose on the Bostonian Apartments, 32 units at 1592 Boston Street in Aurora, Colorado, over a $3.28 million loan.",
+      property: {"name": "Bostonian Apartments", "address": "1592 Boston Street", "city": "Aurora", "state": "CO"},
       addedDate: "2026-09-22",
       title: "U.S. Bank N.A. v. 1592 Boston Street LLC (Bostonian Apartments Foreclosure)",
       category: "lending-foreclosure",
@@ -5580,6 +5969,9 @@ const RELAW_DATA = {
     },
     {
       id: "live-169",
+      seoTitle: "LEO Hendersonville Rezoning Suit: Advenir Azora Claim Survives",
+      seoDescription: "A judge dismissed two of Advenir Azora's three claims over Hendersonville, NC's denial of its 180-unit rezoning but let its core claim proceed.",
+      property: {"name": "LEO Hendersonville", "city": "Hendersonville", "state": "NC"},
       addedDate: "2026-09-22",
       title: "Advenir Azora Development, LLC v. City of Hendersonville (Zoning Denial Suit — Partial Dismissal)",
       category: "zoning-land-use",
@@ -5615,6 +6007,9 @@ const RELAW_DATA = {
     },
     {
       id: "live-170",
+      seoTitle: "St. George, LA Kleinpeter Tract Downzoning: TRO Blocks Ordinance",
+      seoDescription: "A judge issued a TRO barring St. George, Louisiana from downzoning nearly 60 commercial acres at Pecue Lane and I-10 in a suit by LRK, LLC.",
+      property: {"name": "Kleinpeter Tract", "city": "St. George", "state": "LA"},
       addedDate: "2026-09-22",
       title: "LRK, LLC v. City of St. George (Kleinpeter Tract Downzoning Challenge — TRO Granted)",
       category: "zoning-land-use",
@@ -5651,6 +6046,8 @@ const RELAW_DATA = {
     },
     {
       id: "live-171",
+      seoTitle: "Sheetz v. Centerville: Ohio Court Allows Site-Plan Damages Suit",
+      seoDescription: "The Ohio Supreme Court ruled Sheetz may sue the City of Centerville for damages after winning an appeal over the city's rejected site plan.",
       addedDate: "2026-09-23",
       featured: true,
       title: "Sheetz, Inc. v. City of Centerville (Ohio Supreme Court Allows Separate Damages Suit After Site-Plan Appeal Win)",
@@ -5687,6 +6084,8 @@ const RELAW_DATA = {
     },
     {
       id: "live-172",
+      seoTitle: "Schurman v. Superior Court: Privette Shields Warehouse Landlord",
+      seoDescription: "A California appeals court extended Privette doctrine protection to Schurman Family Company, a warehouse landlord that never hired the contractor.",
       addedDate: "2026-09-23",
       title: "Schurman Family Company TIC v. Superior Court (Privette Doctrine Extended to Non-Hiring Landlord)",
       category: "premises-liability",
@@ -5720,6 +6119,9 @@ const RELAW_DATA = {
     },
     {
       id: "live-173",
+      seoTitle: "Showboat Atlantic City: $48.4M CMBS Foreclosure, Bart Blatstein",
+      seoDescription: "A CMBS trustee filed to foreclose on part of Atlantic City's Showboat, alleging Bart Blatstein's entity made no payments on a $48.4 million loan.",
+      property: {"name": "Showboat", "city": "Atlantic City", "state": "NJ"},
       addedDate: "2026-09-23",
       featured: true,
       title: "Computershare Trust Co. v. Showboat Properties LLC (CMBS Foreclosure on Atlantic City's Showboat)",
@@ -5757,6 +6159,9 @@ const RELAW_DATA = {
     },
     {
       id: "live-174",
+      seoTitle: "Wyndham Rochester Downtown: Cogent Bank Foreclosure Over $6.3M",
+      seoDescription: "Cogent Bank sued to foreclose on the shuttered Wyndham Rochester Downtown at 32-70 State Street, alleging more than $6.3 million owed.",
+      property: {"name": "Wyndham Rochester Downtown", "address": "32-70 State Street", "city": "Rochester", "state": "NY"},
       addedDate: "2026-09-23",
       title: "Cogent Bank v. Horizon Edge Hospitality LLC (SBA-Backed Foreclosure on Shuttered Rochester Wyndham)",
       category: "lending-foreclosure",
@@ -5789,6 +6194,8 @@ const RELAW_DATA = {
     },
     {
       id: "live-175",
+      seoTitle: "Alexandria Real Estate Equities Securities Class Action Dismissed",
+      seoDescription: "A federal judge dismissed without prejudice a class action against life-science REIT Alexandria Real Estate Equities over $2.2 billion in impairments.",
       addedDate: "2026-09-24",
       featured: true,
       title: "Hern v. Alexandria Real Estate Equities, Inc. (Securities Class Action Dismissed Over $2.2B Impairment Claims)",
@@ -5824,6 +6231,9 @@ const RELAW_DATA = {
     },
     {
       id: "live-176",
+      seoTitle: "625 North Michigan Avenue Chicago: Receiver in CMBS Foreclosure",
+      seoDescription: "A Cook County judge appointed a receiver for 625 North Michigan Avenue, a Magnificent Mile office tower, after a $50.6 million CMBS loan default.",
+      property: {"address": "625 North Michigan Avenue", "city": "Chicago", "state": "IL"},
       addedDate: "2026-09-24",
       title: "Citibank, N.A. v. Golub & Company (Magnificent Mile Office Tower Foreclosure Receivership)",
       category: "lending-foreclosure",
@@ -5864,6 +6274,9 @@ const RELAW_DATA = {
     },
     {
       id: "live-177",
+      seoTitle: "First and Union Seattle: Receiver After $14.5M Unico Loan Default",
+      seoDescription: "A King County court put First and Union, a retail property at 1419 First Avenue in Seattle tied to Unico Properties, into receivership.",
+      property: {"name": "First and Union", "address": "1419 First Avenue", "city": "Seattle", "state": "WA"},
       addedDate: "2026-09-24",
       title: "Receiver Appointed for Unico Properties' First and Union Retail Center After $14.5M Default",
       category: "lending-foreclosure",
@@ -5900,6 +6313,8 @@ const RELAW_DATA = {
     },
     {
       id: "live-178",
+      seoTitle: "Charles Cohen Seeks $204M From Fortress Over UCC Auction",
+      seoDescription: "Developer Charles Cohen seeks about $204 million from Fortress, alleging the $534M UCC auction of his portfolio was not commercially reasonable.",
       addedDate: "2026-09-25",
       featured: true,
       title: "Fortress Credit Corp. v. Cohen Bros. Realty (Cohen's $204M UCC-Auction Damages Countersuit)",
@@ -5940,6 +6355,8 @@ const RELAW_DATA = {
     },
     {
       id: "live-179",
+      seoTitle: "Michigan Court Pierces Office Tenant's Veil Over Lease Default",
+      seoDescription: "The Michigan Court of Appeals let landlord Pinnacle North pierce a defaulted office tenant's veil to collect a $52,548.24 judgment from its principal.",
       addedDate: "2026-09-25",
       title: "Pinnacle North, LLC v. White (Michigan Court of Appeals Affirms Veil-Piercing to Collect Commercial Lease Default)",
       category: "lease-disputes",
@@ -5980,6 +6397,8 @@ const RELAW_DATA = {
     },
     {
       id: "live-180",
+      seoTitle: "Olathe School Land Sale: Cherry Park Eminent Domain Misuse Suit",
+      seoDescription: "Cherry Park Properties' suit alleging Olathe and USD 233 misused eminent domain to steer 79 acres to a favored buyer continues after a TRO denial.",
       addedDate: "2026-09-25",
       title: "Cherry Park Properties LLC v. City of Olathe / USD 233 (Eminent Domain Misuse & Preferential Land-Deal Suit)",
       category: "eminent-domain",
@@ -6021,6 +6440,8 @@ const RELAW_DATA = {
     },
     {
       id: "live-181",
+      seoTitle: "Brightline Chapter 11: Real Estate Arms in $5.5B Restructuring",
+      seoDescription: "Fortress-backed Brightline Holdings and affiliates including New Flagler Development filed Chapter 11 to restructure about $5.5 billion in debt.",
       addedDate: "2026-09-26",
       featured: true,
       title: "Brightline's Real Estate Arms Land in Chapter 11 as Rail Parent Restructures $5.5B Debt",
@@ -6061,6 +6482,9 @@ const RELAW_DATA = {
     },
     {
       id: "live-182",
+      seoTitle: "The Esplanade Palm Beach: $3M Broker Commission Suit",
+      seoDescription: "Flagship Partners sued Reuben Brothers and O'Connor Capital for a $3 million commission on the $200 million sale of The Esplanade, 150 Worth Avenue.",
+      property: {"name": "The Esplanade", "address": "150 Worth Avenue", "city": "Palm Beach", "state": "FL"},
       addedDate: "2026-09-26",
       title: "Flagship Partners v. Reuben Brothers, O'Connor Capital Partners ($200M Palm Beach Esplanade Broker Commission Suit)",
       category: "lease-disputes",
@@ -6096,6 +6520,9 @@ const RELAW_DATA = {
     },
     {
       id: "live-183",
+      seoTitle: "The Pinnacle NoMa DC: Developer Sues JLL for $12.4M Over NOI",
+      seoDescription: "9 New York Ave LLC, owner of The Pinnacle, a 115-unit NoMa apartment tower in Washington, D.C., sued JLL alleging inflated NOI projections.",
+      property: {"name": "The Pinnacle", "city": "Washington", "state": "DC"},
       addedDate: "2026-09-26",
       title: "9 New York Ave LLC v. JLL (NoMa Apartment Tower NOI-Inflation Fraud Suit)",
       category: "lease-disputes",
@@ -6130,6 +6557,9 @@ const RELAW_DATA = {
     },
     {
       id: "live-184",
+      seoTitle: "100 Summer Street Boston: Wells Fargo Foreclosure Auction",
+      seoDescription: "Wells Fargo set an October 20, 2026 foreclosure auction of 100 Summer Street, Rockpoint Group's Boston office tower bought for $806 million.",
+      property: {"address": "100 Summer Street", "city": "Boston", "state": "MA"},
       addedDate: "2026-09-26",
       featured: true,
       title: "Wells Fargo Moves to Auction Rockpoint's $806M Boston Office Tower",
@@ -6167,6 +6597,9 @@ const RELAW_DATA = {
     },
     {
       id: "live-186",
+      seoTitle: "Embassy Suites Portland Airport: $49.7M Loan to Special Servicing",
+      seoDescription: "The $49.7 million CMBS loan on the Embassy Suites by Hilton Portland Airport went to special servicing after missing its August 2026 maturity.",
+      property: {"name": "Embassy Suites by Hilton Portland Airport", "city": "Portland", "state": "OR"},
       addedDate: "2026-09-26",
       title: "Embassy Suites Portland Airport Hotel Loan Hits Special Servicing After Missed $49.7M Maturity",
       category: "lending-foreclosure",
@@ -6200,6 +6633,9 @@ const RELAW_DATA = {
     },
     {
       id: "live-187",
+      seoTitle: "Industry SLC Salt Lake City: ACORE Foreclosure, Now Foundry43",
+      seoDescription: "ACORE Capital foreclosed on a $97.3 million loan on Industry SLC, a Salt Lake City office campus, and relaunched it as Foundry43 with Lincoln Property.",
+      property: {"name": "Industry SLC", "city": "Salt Lake City", "state": "UT"},
       addedDate: "2026-09-26",
       featured: true,
       title: "From $97.3M Default to Rebrand: ACORE Capital Repositions Salt Lake City's Industry SLC as Foundry43",
@@ -6241,6 +6677,9 @@ const RELAW_DATA = {
     },
     {
       id: "live-188",
+      seoTitle: "Joliet Technology Center Data Center Zoning Suit, Joliet IL",
+      seoDescription: "A residents' group sued Joliet, Hillwood and Powerhouse over approval of the $20 billion, 795-acre Joliet Technology Center data center campus.",
+      property: {"name": "Joliet Technology Center", "city": "Joliet", "state": "IL"},
       addedDate: "2026-09-26",
       title: "Joliet Residents for Responsible Growth v. City of Joliet (Joliet Technology Center Data Center Zoning Suit)",
       category: "zoning-land-use",
@@ -6278,6 +6717,8 @@ const RELAW_DATA = {
     },
     {
       id: "live-189",
+      seoTitle: "Edgerton, KS Data Center Petition: City's Suit Dismissed as SLAPP",
+      seoDescription: "A Johnson County judge dismissed Edgerton, Kansas's suit over a citizen petition to ban high-impact data centers under the state anti-SLAPP law.",
       addedDate: "2026-09-26",
       title: "City of Edgerton, Kansas v. Twente (Anti-SLAPP Dismissal of Municipal Suit Over Data Center Petition)",
       category: "zoning-land-use",
@@ -6311,6 +6752,9 @@ const RELAW_DATA = {
     },
     {
       id: "live-192",
+      seoTitle: "165 Main Street White Plains: $3M+ Suit vs. NY Power Authority",
+      seoDescription: "The owner of the office building at 165 Main Street in White Plains sued the New York Power Authority for more than $3 million over demolition damage.",
+      property: {"address": "165 Main Street", "city": "White Plains", "state": "NY"},
       addedDate: "2026-09-27",
       title: "A&F Williams Street LLC v. New York Power Authority ($3M+ Structural Damage Suit Over White Plains Garage Demolition)",
       category: "premises-liability",
@@ -6348,6 +6792,9 @@ const RELAW_DATA = {
     },
     {
       id: "live-193",
+      seoTitle: "Harborplace Baltimore: Suit Seeks to Void MCB's $900M Plan",
+      seoDescription: "Baltimore residents sued the city and MCB HP Baltimore LLC to void the Charter and zoning changes behind MCB Real Estate's $900 million Harborplace plan.",
+      property: {"name": "Harborplace", "city": "Baltimore", "state": "MD"},
       addedDate: "2026-09-27",
       featured: true,
       title: "Baltimore Residents Sue to Block MCB's $900M Harborplace Redevelopment",
@@ -6385,6 +6832,9 @@ const RELAW_DATA = {
     },
     {
       id: "live-194",
+      seoTitle: "7880 North Military Trail, Riviera Beach: 157% Impact Fee Suit",
+      seoDescription: "A developer sued the Riviera Beach Utility Special District, saying a 157% impact fee hike added $1.6 million to its 315-unit project's cost.",
+      property: {"address": "7880 North Military Trail", "city": "Riviera Beach", "state": "FL"},
       addedDate: "2026-09-27",
       title: "7920 Riviera Beach Holdings LLC v. Riviera Beach Utility Special District (157% Water Impact Fee Suit)",
       category: "zoning-land-use",
@@ -6414,6 +6864,9 @@ const RELAW_DATA = {
     },
     {
       id: "live-196",
+      seoTitle: "Northwoods Mall North Charleston: Negligent Security Suit vs. CBL",
+      seoDescription: "A negligent-security suit against CBL & Associates Properties and its security contractors follows a food court stabbing at Northwoods Mall.",
+      property: {"name": "Northwoods Mall", "city": "North Charleston", "state": "SC"},
       addedDate: "2026-09-28",
       featured: true,
       title: "Murphy v. CBL & Associates Properties, Inc. (Negligent Security Suit Over Northwoods Mall Food Court Stabbing)",
@@ -6444,6 +6897,9 @@ const RELAW_DATA = {
     },
     {
       id: "live-197",
+      seoTitle: "Bradley County, TN Data Center Zoning Ordinance Suit by SDCL",
+      seoDescription: "SDCL Tennessee Propco sued Bradley County, Tennessee to void data center zoning limits on 306 acres it bought in Hiwassee River Industrial Park.",
+      property: {"name": "Hiwassee River Industrial Park", "state": "TN"},
       addedDate: "2026-09-28",
       title: "SDCL Tennessee Propco LLC v. Bradley County (Data Center Zoning Ordinance Challenge)",
       category: "zoning-land-use",
@@ -6474,6 +6930,9 @@ const RELAW_DATA = {
     },
     {
       id: "live-199",
+      seoTitle: "Brass Works Jersey City Lofts: Chapter 11 Dismissed for Cause",
+      seoDescription: "A bankruptcy judge dismissed the Chapter 11 of Brass Works Urban Renewal, sponsor of a Jersey City loft conversion, after a Delaware control fight.",
+      property: {"city": "Jersey City", "state": "NJ"},
       addedDate: "2026-09-28",
       featured: true,
       title: "In re Brass Works Urban Renewal Company, LLC (Chapter 11 Dismissed 'For Cause' After Delaware Control Fight Loss)",
@@ -6513,6 +6972,9 @@ const RELAW_DATA = {
     },
     {
       id: "live-200",
+      seoTitle: "St. Louis Armory Data Center: Dueling Zoning Suits, TerraWatt",
+      seoDescription: "TerraWatt's co-founder and opponents filed dueling suits over St. Louis zoning approval of a $3.1 billion data center near the historic Armory.",
+      property: {"address": "3728 and 3854-58 Market Street", "city": "St. Louis", "state": "MO"},
       addedDate: "2026-09-28",
       title: "Lambiaso/TerraWatt v. City of St. Louis Board of Adjustment (Midtown Armory Data Center Zoning Cross-Suits)",
       category: "zoning-land-use",
@@ -6549,6 +7011,9 @@ const RELAW_DATA = {
     },
     {
       id: "live-201",
+      seoTitle: "Eastview Mall: $210M CMBS Foreclosure and Eminent Domain Fight",
+      seoDescription: "Lenders foreclosing on a $210 million CMBS loan on Wilmorite's Eastview Mall call the Town of Victor's eminent domain plan a debt evasion scheme.",
+      property: {"name": "Eastview Mall", "city": "Victor", "state": "NY"},
       addedDate: "2026-09-29",
       featured: true,
       title: "U.S. Bank & Wells Fargo v. Wilmorite (Eastview Mall $210M Foreclosure and Eminent Domain 'Debt Evasion' Fight)",
@@ -6592,6 +7057,9 @@ const RELAW_DATA = {
     },
     {
       id: "live-202",
+      seoTitle: "2100 Ross Avenue Dallas: Wells Fargo Foreclosure on Office Tower",
+      seoDescription: "2100 Ross Avenue, a 33-story Dallas office tower owned by Woods Capital and Pacific Elm affiliates, faces foreclosure on a $98 million loan.",
+      property: {"address": "2100 Ross Avenue", "city": "Dallas", "state": "TX"},
       addedDate: "2026-09-29",
       title: "Wells Fargo Moves Toward Foreclosure on Woods Capital's 2100 Ross Avenue Dallas Office Tower",
       category: "lending-foreclosure",
@@ -6630,6 +7098,9 @@ const RELAW_DATA = {
     },
     {
       id: "live-203",
+      seoTitle: "Metro Parc South Hialeah: Slate, Carlyle Construction Loan Suit",
+      seoDescription: "Slate Property Group and Carlyle sued MG Developer to foreclose on Metro Parc South in Hialeah, alleging a $31.1M default on a $105M construction loan.",
+      property: {"name": "Metro Parc South", "address": "954 and 934 East 25th Street", "city": "Hialeah", "state": "FL"},
       addedDate: "2026-09-29",
       title: "Slate Property Group and The Carlyle Group v. MG Developer (Metro Parc South Construction Loan Foreclosure)",
       category: "lending-foreclosure",
@@ -6668,6 +7139,9 @@ const RELAW_DATA = {
     },
     {
       id: "live-205",
+      seoTitle: "Bitdeer Ohio Data Center: Hannibal Industrial Park Covenant Suit",
+      seoDescription: "American Heavy Plate Solutions says Bitdeer's data center beside its Hannibal Industrial Park lease in Ohio breaches a restrictive covenant in that lease.",
+      property: {"name": "Hannibal Industrial Park", "state": "OH"},
       addedDate: "2026-09-30",
       title: "American Heavy Plate Solutions, LLC v. Bitdeer (Restrictive-Covenant Fight Over Ohio Data Center)",
       category: "lease-disputes",
@@ -6705,6 +7179,8 @@ const RELAW_DATA = {
     },
     {
       id: "live-207",
+      seoTitle: "AvalonBay RealPage Antitrust Suit: New Jersey Claims Revived",
+      seoDescription: "A federal judge let New Jersey revive antitrust claims against AvalonBay Communities in the state's algorithmic rent-pricing suit against RealPage.",
       addedDate: "2026-09-30",
       title: "State of New Jersey v. RealPage, Inc. (NJ Revives Antitrust Claims Against AvalonBay)",
       category: "landlord-tenant",
@@ -6740,6 +7216,9 @@ const RELAW_DATA = {
     },
     {
       id: "live-208",
+      seoTitle: "345 Seventh Avenue: $80M Fraud Suit Against Kohan Properties",
+      seoDescription: "Investors allege landlord Mike Kohan's entities defrauded them of more than $80 million as The Davis Companies completed a UCC sale of 345 Seventh Avenue.",
+      property: {"address": "345 Seventh Avenue", "city": "New York", "state": "NY"},
       addedDate: "2026-10-01",
       featured: true,
       title: "Investors Allege $80M Fraud Against Kohan Properties Ltd. as Lender Completes UCC Sale of 345 Seventh Avenue",
@@ -6776,6 +7255,9 @@ const RELAW_DATA = {
     },
     {
       id: "live-210",
+      seoTitle: "580 Market Street San Francisco: Rialto Forecloses on Office",
+      seoDescription: "Rialto Capital Advisors took 580 Market Street, a San Francisco Financial District office, with a $5 million credit bid after Paragon's loan default.",
+      property: {"address": "580 Market Street", "city": "San Francisco", "state": "CA"},
       addedDate: "2026-10-01",
       title: "Rialto Capital Advisors Forecloses on 580 Market Street (San Francisco Financial District Office)",
       category: "lending-foreclosure",
@@ -6812,6 +7294,9 @@ const RELAW_DATA = {
     },
     {
       id: "live-211",
+      seoTitle: "450 Fifth Street NW, Washington DC: $166.6M Office Foreclosure",
+      seoDescription: "A Criterion Real Estate Capital affiliate filed to foreclose on the former DOJ building at 450 Fifth Street NW in D.C., citing $166.6 million owed.",
+      property: {"address": "450 Fifth Street NW", "city": "Washington", "state": "DC"},
       addedDate: "2026-10-01",
       title: "Criterion Real Estate Capital Affiliate Forecloses on Judiciary Plaza LLC ($166.6M D.C. Office Tower)",
       category: "lending-foreclosure",
@@ -6849,6 +7334,8 @@ const RELAW_DATA = {
     },
     {
       id: "live-212",
+      seoTitle: "Energize Denver Preemption Challenge Survives Motion to Dismiss",
+      seoDescription: "A federal judge let trade groups' claim that Energize Denver and Colorado's Regulation 28 are preempted by federal energy law proceed toward the merits.",
       addedDate: "2026-10-02",
       title: "Colorado Apartment Association v. Ryan (Federal Preemption Challenge to Denver, Colorado Building-Emissions Mandates)",
       category: "zoning-land-use",
@@ -6890,6 +7377,9 @@ const RELAW_DATA = {
     },
     {
       id: "live-213",
+      seoTitle: "Bangor Mall: $1.1M Default Judgment Against Namdar Realty Group",
+      seoDescription: "A Maine judge ordered Bangor Mall owner Namdar Realty Group to pay just over $1.1 million to Tri-State Insurance by default over a burst sprinkler pipe.",
+      property: {"name": "Bangor Mall", "city": "Bangor", "state": "ME"},
       addedDate: "2026-10-02",
       title: "Tri-State Insurance Co. of Minnesota v. Namdar Realty Group (Bangor Mall Sprinkler-Failure Default Judgment)",
       category: "premises-liability",
@@ -6926,6 +7416,9 @@ const RELAW_DATA = {
     },
     {
       id: "live-214",
+      seoTitle: "Grand 1401 Fresno: Tutelian Parking Suit vs. City Set for Trial",
+      seoDescription: "Developer Cliff Tutelian's suit claiming Fresno reneged on 100 free parking spaces for his Grand 1401 building is set for an October 2026 jury trial.",
+      property: {"name": "Grand 1401", "city": "Fresno", "state": "CA"},
       addedDate: "2026-10-02",
       title: "Tutelian v. City of Fresno (Grand 1401 Downtown Parking Dispute)",
       category: "zoning-land-use",
@@ -6960,6 +7453,8 @@ const RELAW_DATA = {
     },
     {
       id: "live-215",
+      seoTitle: "Vesta Realty: Oklahoma Regulator Sues to Enforce Subpoena",
+      seoDescription: "The Oklahoma Department of Securities sued Tulsa multifamily platform Vesta Realty, alleging it ignored a subpoena for records of its LLCs' investors.",
       addedDate: "2026-10-02",
       title: "Oklahoma Department of Securities v. Vesta Realty, LLC (Subpoena Enforcement Action)",
       category: "reit-securities",
@@ -6992,6 +7487,8 @@ const RELAW_DATA = {
     },
     {
       id: "live-217",
+      seoTitle: "Mass. Appeals Court: Emailed Settlement Binding, $100K Owed",
+      seoDescription: "The Massachusetts Appeals Court held two landowners bound by a settlement reached by email between counsel and owing $100,000 to an apartment developer.",
       addedDate: "2026-10-03",
       featured: true,
       title: "Zammuto v. Damianidis (Massachusetts Appeals Court Holds Emailed Settlement Binding, Orders $100K Paid)",
@@ -7028,6 +7525,9 @@ const RELAW_DATA = {
     },
     {
       id: "live-219",
+      seoTitle: "Willow Park Menlo Park: N17 Builder's Remedy Suit Over 665 Units",
+      seoDescription: "N17 Development sued Menlo Park over its 665-unit Willow Park project at 80 Willow Road, the former Sunset Magazine campus, under the Builder's Remedy.",
+      property: {"name": "Willow Park", "address": "80 Willow Road", "city": "Menlo Park", "state": "CA"},
       addedDate: "2026-10-03",
       featured: true,
       title: "N17 Development v. City of Menlo Park (Willow Park Towers Builder's Remedy Suit)",
@@ -7065,6 +7565,8 @@ const RELAW_DATA = {
     },
     {
       id: "live-220",
+      seoTitle: "Atlantic City Hotel Price-Fixing Suit: Caesars, MGM Lose Bid",
+      seoDescription: "The Third Circuit denied rehearing in a suit alleging Caesars, MGM, Hard Rock and others used Cendyn's Rainmaker to align Atlantic City room rates.",
       addedDate: "2026-10-04",
       title: "Cornish-Adebiyi v. Caesars Entertainment, Inc. (Atlantic City Hotel-Casino Algorithmic Price-Fixing Antitrust Suit)",
       category: "landlord-tenant",
@@ -7110,6 +7612,9 @@ const RELAW_DATA = {
     },
     {
       id: "live-221",
+      seoTitle: "Addison Ice Arena: Receiver Appointed in $9.5M Foreclosure",
+      seoDescription: "A DuPage County judge put Addison Ice Arena into receivership in Republic Bank of Chicago's $9.5 million foreclosure alleging diverted rink revenue.",
+      property: {"name": "Addison Ice Arena", "state": "IL"},
       addedDate: "2026-10-04",
       title: "Republic Bank of Chicago v. Addison Ice, LLC (Ice Arena Receivership Over Alleged Fund Diversion)",
       category: "lending-foreclosure",
@@ -7145,6 +7650,8 @@ const RELAW_DATA = {
     },
     {
       id: "live-222",
+      seoTitle: "American Hospitality Properties REIT Files Chapter 11 in Texas",
+      seoDescription: "American Hospitality Properties REIT and REIT II, owners of Hilton- and Marriott-branded hotels, filed Chapter 11 after their ex-manager's SEC settlement.",
       addedDate: "2026-10-05",
       featured: true,
       title: "In re American Hospitality Properties REIT, Inc. (Hilton/Marriott Hotel REIT Family's Chapter 11 Filing)",
@@ -7185,6 +7692,9 @@ const RELAW_DATA = {
     },
     {
       id: "live-223",
+      seoTitle: "Silver Spring Warehouse Roof Leak: $775K Suit Against Landlord",
+      seoDescription: "Greater DC Diaper Bank sued WWDC Industrial Park and Donohoe Real Estate Services over a long-unrepaired roof leak at its Silver Spring, Md. warehouse.",
+      property: {"address": "Monard Drive", "city": "Silver Spring", "state": "MD"},
       addedDate: "2026-10-05",
       title: "Greater DC Diaper Bank v. WWDC Industrial Park, LLC (Industrial Warehouse Roof-Maintenance Breach Suit)",
       category: "lease-disputes",
@@ -7220,6 +7730,9 @@ const RELAW_DATA = {
     },
     {
       id: "live-224",
+      seoTitle: "Reserve Square Cleveland: City Seeks to Join Fannie Mae Case",
+      seoDescription: "Cleveland moved to intervene in Fannie Mae's foreclosure of K&D Group's Reserve Square, citing 19 open code-violation notices at the downtown tower.",
+      property: {"name": "Reserve Square", "address": "1701 E. 12th Street", "city": "Cleveland", "state": "OH"},
       addedDate: "2026-10-06",
       featured: true,
       title: "Federal National Mortgage Association v. Reserve Apartments, Ltd. (Reserve Square Foreclosure — City of Cleveland Intervention)",
@@ -7259,6 +7772,8 @@ const RELAW_DATA = {
     },
     {
       id: "live-226",
+      seoTitle: "Simon Property Group Antitrust Suit Over Penn Square Mall Rival",
+      seoDescription: "Developers of OAK in Oklahoma City sued Simon Property Group, alleging it tied national lease terms to steer tenants away from OAK to Penn Square Mall.",
       addedDate: "2026-10-06",
       title: "Oak Land and Development LLC v. Simon Property Group Inc. (Penn Square Mall Antitrust Tying Suit)",
       category: "lease-disputes",
@@ -7294,6 +7809,9 @@ const RELAW_DATA = {
     },
     {
       id: "live-227",
+      seoTitle: "148 State Street Boston: Tax Add-Back Retaliation Suit Proceeds",
+      seoDescription: "A judge denied Boston's motion to dismiss a suit by the owner of 148 State Street alleging an 'Add-Back Policy' penalized owners who appealed assessments.",
+      property: {"address": "148 State Street", "city": "Boston", "state": "MA"},
       addedDate: "2026-10-07",
       featured: true,
       title: "HS148SST LLC v. City of Boston (Commercial Property Tax Retaliation Class Action)",
@@ -7330,6 +7848,9 @@ const RELAW_DATA = {
     },
     {
       id: "live-228",
+      seoTitle: "76 Commerce Center Brighton: $32M Suit Against BroadRange",
+      seoDescription: "Hyde Development and Mortenson Properties sued tenant BroadRange Logistics for $32 million over its default at 76 Commerce Center in Brighton, Colorado.",
+      property: {"name": "76 Commerce Center", "city": "Brighton", "state": "CO"},
       addedDate: "2026-10-07",
       title: "76 Commerce Center LLC v. BroadRange Logistics LLC (Denver-Area Industrial Lease Default)",
       category: "lease-disputes",
@@ -7362,6 +7883,9 @@ const RELAW_DATA = {
     },
     {
       id: "live-229",
+      seoTitle: "Mount Pocono Warehouse: $11M Allowance Suit vs. BroadRange",
+      seoDescription: "Landlord KSG sued BroadRange Logistics, alleging it kept an $11 million improvement allowance for a Mount Pocono, Pa. warehouse, then stopped paying rent.",
+      property: {"city": "Mount Pocono", "state": "PA"},
       addedDate: "2026-10-07",
       title: "KSG v. BroadRange Logistics LLC (Pocono Warehouse Tenant-Improvement Allowance Suit)",
       category: "lease-disputes",
@@ -7393,6 +7917,8 @@ const RELAW_DATA = {
     },
     {
       id: "live-230",
+      seoTitle: "Eagan, Minnesota Data Center Moratorium Suit by Eagan Capital",
+      seoDescription: "Eagan Capital sued the City of Eagan, arguing it lacked authority for a one-year moratorium on data centers over 20 megawatts within 500 feet of homes.",
       addedDate: "2026-10-07",
       title: "Eagan Capital v. City of Eagan (Minnesota Data Center Moratorium Challenge)",
       category: "zoning-land-use",
@@ -7424,6 +7950,9 @@ const RELAW_DATA = {
     },
     {
       id: "live-231",
+      seoTitle: "Nashville Zoo Data Center: DC Blox Sues Metro Over Moratorium",
+      seoDescription: "DC Blox sued Metro Nashville, alleging its data center moratorium targeted DC Blox's permitted project on a $23 million site next to the Nashville Zoo.",
+      property: {"city": "Nashville", "state": "TN"},
       addedDate: "2026-10-07",
       title: "DC Blox, Inc. v. Metro Government of Nashville and Davidson County (Nashville Zoo-Area Data Center Moratorium Suit)",
       category: "zoning-land-use",
@@ -7455,6 +7984,9 @@ const RELAW_DATA = {
     },
     {
       id: "live-232",
+      seoTitle: "Kaukauna, Wisconsin Contamination Suit Targets City's Insurers",
+      seoDescription: "Fox Investments sued the City of Kaukauna and its historic insurers under Wisconsin's direct-action law to recover $235,683.63 in cleanup costs.",
+      property: {"city": "Kaukauna", "state": "WI"},
       addedDate: "2026-10-07",
       title: "Fox Investments LLC v. City of Kaukauna (Wisconsin Direct-Action Contamination Cost-Recovery Suit)",
       category: "environmental",
@@ -7488,6 +8020,9 @@ const RELAW_DATA = {
     },
     {
       id: "live-235",
+      seoTitle: "Danbury Party Depot: $16.8M Verdict Against City Upheld",
+      seoDescription: "Connecticut's Appellate Court largely affirmed a $16.8 million verdict against the City of Danbury over reckless permitting of a Party Depot addition.",
+      property: {"city": "Danbury", "state": "CT"},
       addedDate: "2026-10-08",
       title: "Girolametti v. City of Danbury (Connecticut Appellate Court Affirms $16.8M Reckless-Permitting Verdict)",
       category: "zoning-land-use",
@@ -7526,6 +8061,9 @@ const RELAW_DATA = {
     },
     {
       id: "live-236",
+      seoTitle: "Wixom, Michigan Data Center Moratorium Suit (30625 S. Wixom Road)",
+      seoDescription: "Wixom Industrial One sued the City of Wixom, alleging its six-month data center moratorium violates Michigan's zoning act and blocks a 55-acre project.",
+      property: {"address": "30625 S. Wixom Road", "city": "Wixom", "state": "MI"},
       addedDate: "2026-10-08",
       title: "Wixom Industrial One, LLC v. City of Wixom (Michigan Data Center Moratorium Suit)",
       category: "zoning-land-use",
@@ -7556,6 +8094,8 @@ const RELAW_DATA = {
     },
     {
       id: "live-237",
+      seoTitle: "Pillarstone v. Whitestone REIT: Fifth Circuit Denies Rehearing",
+      seoDescription: "The Fifth Circuit denied Whitestone Uptown Tower's rehearing petition in the Pillarstone Capital REIT bankruptcy, leaving a ruling against it in place.",
       addedDate: "2026-10-08",
       featured: true,
       title: "In re Pillarstone Capital REIT: Fifth Circuit Denies Whitestone Uptown Tower's Rehearing Petition",
@@ -7597,6 +8137,9 @@ const RELAW_DATA = {
     },
     {
       id: "live-238",
+      seoTitle: "Minot, ND: Bravera Bank Foreclosure on Lots Near The Tracks",
+      seoDescription: "Bravera Bank sued ex-EPIC Companies CEO Todd Berning and Henry Land Holding over roughly $3 million owed on a loan for nine commercial lots in Minot, N.D.",
+      property: {"city": "Minot", "state": "ND"},
       addedDate: "2026-10-08",
       title: "Bravera Bank v. Henry Land Holding LLC (North Dakota Commercial Development-Loan Foreclosure)",
       category: "lending-foreclosure",
@@ -7625,6 +8168,8 @@ const RELAW_DATA = {
     },
     {
       id: "live-239",
+      seoTitle: "Cedar Realty Trust Preferred Stock Suit: $8.5M Settlement",
+      seoDescription: "Cedar Realty Trust preferred stockholders reached a proposed $8.5 million settlement with Cedar, Wheeler REIT and ex-CEO Bruce Schanzer over liquidation.",
       addedDate: "2026-10-08",
       title: "Aquino v. Schanzer (Cedar Realty Trust Preferred Stockholder Settlement)",
       category: "reit-securities",
@@ -7654,6 +8199,9 @@ const RELAW_DATA = {
     },
     {
       id: "live-243",
+      seoTitle: "Casa Dorado Hotel (Tapestry by Hilton): DBR Dorado Suit Dismissed",
+      seoDescription: "A Bayamón court dismissed with prejudice DBR Dorado Owner's bid to halt the 171-room Casa Dorado Hilton hotel in Dorado, Puerto Rico, citing its delay.",
+      property: {"name": "Casa Dorado", "city": "Dorado", "state": "PR"},
       addedDate: "2026-10-09",
       featured: true,
       title: "Puerto Rico Court Dismisses DBR Dorado's Bid to Block Hilton-Branded Hotel",
@@ -7690,6 +8238,9 @@ const RELAW_DATA = {
     },
     {
       id: "live-250",
+      seoTitle: "The Greenbrier Resort: Lender Seeks Receiver Over $289M Debt",
+      seoDescription: "A TRT Holdings-backed lender sued to put The Greenbrier into receivership over $289 million in loans as the owner sought a $500 million refinancing.",
+      property: {"name": "The Greenbrier", "city": "White Sulphur Springs", "state": "WV"},
       addedDate: "2026-10-10",
       title: "White Sulphur Springs Holdings LLC v. Greenbrier Hotel Corporation (The Greenbrier Receivership Fight)",
       category: "lending-foreclosure",
@@ -7728,6 +8279,9 @@ const RELAW_DATA = {
     },
     {
       id: "live-251",
+      seoTitle: "Pembroke Lakes Mall: CMBS Foreclosure Against Brookfield Unit",
+      seoDescription: "Deutsche Bank, as CMBS trustee, sued to foreclose Brookfield-owned Pembroke Lakes Mall in Pembroke Pines, Florida, saying $263.8 million is owed.",
+      property: {"name": "Pembroke Lakes Mall", "city": "Pembroke Pines", "state": "FL"},
       addedDate: "2026-10-10",
       featured: true,
       title: "Deutsche Bank National Trust Co. v. Pembroke Lakes Mall LLC (CMBS Foreclosure & Receivership)",
@@ -7760,6 +8314,8 @@ const RELAW_DATA = {
     },
     {
       id: "live-256",
+      seoTitle: "H-E-B Slip-and-Fall: Texas Supreme Court on Constructive Notice",
+      seoDescription: "The Supreme Court of Texas reinstated summary judgment for H-E-B, holding unrelated roof leaks elsewhere in a store cannot prove notice of a spill.",
       addedDate: "2026-10-11",
       featured: true,
       title: "H-E-B, LP v. Peterson: Texas Supreme Court Tightens Constructive-Notice Proof in Slip-and-Fall Claims",
@@ -7796,6 +8352,9 @@ const RELAW_DATA = {
     },
     {
       id: "live-257",
+      seoTitle: "Monroe Township NJ Data Center Ban: Hexa Builders $300M Suit",
+      seoDescription: "Hexa Builders sued Monroe Township, N.J. over data center bans aimed at its Black Horse Pike site in Williamstown, seeking $300 million in damages.",
+      property: {"address": "Black Horse Pike", "city": "Williamstown", "state": "NJ"},
       addedDate: "2026-10-11",
       title: "Hexa Builders, LLC v. Monroe Township: Developer Challenges Retroactive Data Center Zoning Ban",
       category: "zoning-land-use",
@@ -7830,6 +8389,8 @@ const RELAW_DATA = {
     },
     {
       id: "live-258",
+      seoTitle: "Cedar Christina Crossing Ice-Fall Suit: Del. Supreme Court",
+      seoDescription: "The Delaware Supreme Court affirmed summary judgment for shopping-center owner Cedar Christina Crossing after security video showed its parking lot clear.",
       addedDate: "2026-10-11",
       title: "Wiggins v. Cedar Christina Crossing, LLC: Delaware Supreme Court Affirms Summary Judgment in Parking-Lot Ice Fall",
       category: "premises-liability",
@@ -7861,6 +8422,8 @@ const RELAW_DATA = {
     },
     {
       id: "live-259",
+      seoTitle: "Franklin BSP Realty Trust (FBRT) Dividend Securities Suit",
+      seoDescription: "Shareholders sued Franklin BSP Realty Trust (NYSE: FBRT), alleging the mortgage REIT misled investors about its dividend before weak 2025 results.",
       addedDate: "2026-10-11",
       title: "Moses v. Franklin BSP Realty Trust, Inc.: Shareholders Sue Mortgage REIT Over Dividend Disclosures",
       category: "reit-securities",
@@ -7891,6 +8454,9 @@ const RELAW_DATA = {
     },
     {
       id: "live-260",
+      seoTitle: "Port of Tacoma Tideflats Cleanup: $10M Suit Against PQ LLC",
+      seoDescription: "The Port of Tacoma sued PQ LLC as successor to a sodium-silicate plant's operators to recover close to $10 million in Tideflats cleanup costs.",
+      property: {"city": "Tacoma", "state": "WA"},
       addedDate: "2026-10-11",
       title: "Port of Tacoma v. PQ LLC: Successor-Liability Fight Over Legacy Industrial Contamination",
       category: "environmental",
@@ -7925,6 +8491,9 @@ const RELAW_DATA = {
     },
     {
       id: "live-262",
+      seoTitle: "Frederick County Data Center Moratorium Suit (Quantum Maryland)",
+      seoDescription: "Catellus-managed Quantum Maryland sued Frederick County to void a data center moratorium stalling its Frederick Digital Campus on the former Eastalco site.",
+      property: {"name": "Frederick Digital Campus", "state": "MD"},
       addedDate: "2026-10-13",
       title: "Quantum Maryland LLC v. Frederick County: Catellus-Managed Developer Sues to Lift Data Center Moratorium on Former Eastalco Site",
       category: "zoning-land-use",
@@ -7963,6 +8532,9 @@ const RELAW_DATA = {
     },
     {
       id: "live-263",
+      seoTitle: "Weld County GlobalAI Data Center Approval Challenged by Broe",
+      seoDescription: "Broe Cos. affiliates that own Great Western Industrial Park sued Weld County to reverse approval of GlobalAI's data center on the former Carestream site.",
+      property: {"name": "Former Carestream Health property", "state": "CO"},
       addedDate: "2026-10-13",
       title: "GWIP Land Company LLC v. Board of County Commissioners of Weld County: Neighboring Industrial Park Owner Seeks Reversal of GlobalAI Data Center Approval",
       category: "zoning-land-use",
@@ -8002,6 +8574,9 @@ const RELAW_DATA = {
     },
     {
       id: "live-264",
+      seoTitle: "122 Fifth Avenue: Microsoft Sues JLL Over Build-Out Injury",
+      seoDescription: "Microsoft sued JLL, alleging it failed to defend and insure Microsoft under a $10 million policy over a forklift injury at its 122 Fifth Avenue build-out.",
+      property: {"address": "122 Fifth Avenue", "city": "New York", "state": "NY"},
       addedDate: "2026-10-13",
       title: "Microsoft v. JLL: Tenant Sues Project Manager for Defense and Insurance Coverage Over Forklift Injury During 122 Fifth Avenue Office Build-Out",
       category: "premises-liability",
@@ -8038,6 +8613,9 @@ const RELAW_DATA = {
     },
     {
       id: "live-265",
+      seoTitle: "Wellsworth Hotel, Southbridge MA: Owner Files Chapter 11",
+      seoDescription: "The owner of the 203-room Wellsworth Hotel at 14 Mechanic Street, Southbridge filed Chapter 11 a day before X-Caliber Rural Capital's foreclosure auctions.",
+      property: {"name": "Wellsworth Hotel", "address": "14 Mechanic Street", "city": "Southbridge", "state": "MA"},
       addedDate: "2026-10-13",
       title: "In re Southbridge Associates LLC: Wellsworth Hotel Owner Files Chapter 11 a Day Before Lender's Foreclosure Auction",
       category: "lending-foreclosure",
@@ -8079,6 +8657,9 @@ const RELAW_DATA = {
     },
     {
       id: "live-266",
+      seoTitle: "The Travis Apartments, Lakewood Village TX: Chapter 11 Filing",
+      seoDescription: "The owner of The Travis apartments at 900 Gordon Heights Lane in Lakewood Village, Texas filed Chapter 11 with more than $50 million in debt.",
+      property: {"name": "The Travis", "address": "900 Gordon Heights Lane", "city": "Lakewood Village", "state": "TX"},
       addedDate: "2026-10-13",
       title: "In re Travis Property Owner LLC: Owner of 354-Unit The Travis Apartments Near Frisco Files Chapter 11 With ACORE as Creditor",
       category: "lending-foreclosure",
@@ -8119,6 +8700,8 @@ const RELAW_DATA = {
     },
     {
       id: "live-267",
+      seoTitle: "Stradtman Park CMBS Foreclosure: Appeals Court Upholds Fee Cut",
+      seoDescription: "New York's Fourth Department upheld cutting a CMBS trust's foreclosure fee request against Stradtman Park from about $588,000 to $250,000.",
       addedDate: "2026-10-13",
       title: "Wilmington Trust v. Stradtman Park, LLC: Fourth Department Upholds Trial Court's Cut to CMBS Special Servicer's Foreclosure Fees and Interest",
       category: "lending-foreclosure",
@@ -8159,6 +8742,9 @@ const RELAW_DATA = {
     },
     {
       id: "live-268",
+      seoTitle: "YMCA of Central Ohio Lease Exit Upheld: 31-55 West Long Street",
+      seoDescription: "An Ohio appeals court held the YMCA of Central Ohio validly ended its 31-55 West Long Street lease in Columbus when the build-out budget ran over.",
+      property: {"address": "31-55 West Long Street", "city": "Columbus", "state": "OH"},
       addedDate: "2026-10-13",
       title: "Long Street Associates, LLP v. YMCA of Central Ohio: Ohio Appeals Court Upholds Tenant's Lease Termination Over $1.04M Build-Out Budget",
       category: "lease-disputes",
@@ -8197,6 +8783,9 @@ const RELAW_DATA = {
     },
     {
       id: "live-269",
+      seoTitle: "Empire State Building Tenant's Constructive Eviction Suit Fails",
+      seoDescription: "New York's First Department affirmed dismissal of a tenant's suit against ESRT Empire State Building LLC, enforcing its constructive-eviction waiver.",
+      property: {"name": "Empire State Building", "city": "New York", "state": "NY"},
       addedDate: "2026-10-13",
       title: "H. Roske & Associates LLP v. ESRT Empire State Building LLC: First Department Enforces Tenant's Waiver of Constructive Eviction",
       category: "lease-disputes",
@@ -8230,6 +8819,8 @@ const RELAW_DATA = {
     },
     {
       id: "live-270",
+      seoTitle: "5 Beekman Owner Must Return $850,000 HVAC Settlement Payment",
+      seoDescription: "A New York appeals court affirmed an $850,000 judgment making 5 Beekman Property Owner return insurer money paid on an HVAC settlement that never closed.",
       addedDate: "2026-10-13",
       title: "5 Beekman Property Owner, LLC v. Henick-Lane, Inc.: Owner Ordered to Return $850,000 Insurer Paid on a Settlement That Never Closed",
       category: "construction-defect",
@@ -8267,6 +8858,8 @@ const RELAW_DATA = {
     },
     {
       id: "live-271",
+      seoTitle: "Starwood Mortgage Capital Sued to Repurchase $46.85M CMBS Loan",
+      seoDescription: "The BMO 2024-5C5 CMBS trustee says Starwood Mortgage Capital sold it a $46.85 million loan on two Harris County, Texas properties that wasn't a first lien.",
       addedDate: "2026-10-13",
       title: "Computershare Trust (BMO 2024-5C5) v. Starwood Mortgage Capital: $46.85M CMBS Loan Repurchase Suit Removed to Federal Court Over Undisclosed Senior Lien",
       category: "lending-foreclosure",
@@ -8306,6 +8899,9 @@ const RELAW_DATA = {
     },
     {
       id: "live-272",
+      seoTitle: "Southridge Mall Greendale: Court Approves Sale by Simon Affiliate",
+      seoDescription: "A Milwaukee County judge approved the sale of Southridge Mall in Greendale, Wis. by a Simon affiliate to a buyer assuming its $101.9 million loan.",
+      property: {"name": "Southridge Mall", "address": "5300 S. 76th St.", "city": "Greendale", "state": "WI"},
       addedDate: "2026-10-13",
       title: "Southridge Mall Foreclosure: Milwaukee County Court Approves Sale of Simon-Affiliated Mall to Receiver-Linked Buyer Assuming $101.9M Loan",
       category: "lending-foreclosure",
@@ -8350,6 +8946,9 @@ const RELAW_DATA = {
     },
     {
       id: "live-273",
+      seoTitle: "33501 Lake Road, Avon Lake: Museum Tenant Eviction Upheld",
+      seoDescription: "An Ohio appeals court upheld Stop 65's eviction of a museum tenant from its 33501 Lake Road shopping center in Avon Lake over an unauthorized sublease.",
+      property: {"address": "33501 Lake Road", "city": "Avon Lake", "state": "OH"},
       addedDate: "2026-10-13",
       title: "Stop 65, LLC v. Beach Park Railway, LLC: Ohio Appeals Court Upholds Shopping-Center Eviction of Museum Tenant Over Unapproved Sublease",
       category: "landlord-tenant",
@@ -8390,6 +8989,9 @@ const RELAW_DATA = {
     },
     {
       id: "live-274",
+      seoTitle: "2000 Folsom Street SF: Holdover Suit vs. Physical Intelligence",
+      seoDescription: "The owners of 2000 Folsom Street in San Francisco sued Physical Intelligence for holdover damages over $13,000 a day; Anthropic is reportedly next.",
+      property: {"address": "2000 Folsom Street", "city": "San Francisco", "state": "CA"},
       addedDate: "2026-10-13",
       title: "Landlord Sues Physical Intelligence Over San Francisco Warehouse Holdover as Anthropic Waits to Move In",
       category: "lease-disputes",
@@ -8419,6 +9021,9 @@ const RELAW_DATA = {
     },
     {
       id: "live-275",
+      seoTitle: "Oakmont 410 Warehouse: San Antonio Sues to Halt ICE Facility",
+      seoDescription: "San Antonio sued DHS and ICE under NEPA to stop conversion of the Oakmont 410 warehouse, bought for $66.1 million, into an immigration detention center.",
+      property: {"name": "Oakmont 410", "address": "542 SE Loop 410 Access Road", "city": "San Antonio", "state": "TX"},
       addedDate: "2026-10-13",
       title: "City of San Antonio v. U.S. Department of Homeland Security: City Sues Under NEPA to Halt Conversion of 640,000-SF East Side Warehouse Into ICE Detention Center",
       category: "environmental",
@@ -8458,6 +9063,9 @@ const RELAW_DATA = {
     },
     {
       id: "live-276",
+      seoTitle: "Indiantown, FL Data Center Plat Suit: Silver Fox 606 v. Village",
+      seoDescription: "Silver Fox 606 sued the Village of Indiantown, Florida to lock in a recorded plat for its data center on 606 acres at 13820 SW Silver Fox Lane.",
+      property: {"address": "13820 SW Silver Fox Lane", "city": "Indiantown", "state": "FL"},
       addedDate: "2026-10-13",
       title: "Silver Fox 606 LLC v. Village of Indiantown: Data Center Developer Sues to Lock In Recorded Plat on 606-Acre Martin County Site",
       category: "zoning-land-use",
@@ -8498,6 +9106,9 @@ const RELAW_DATA = {
     },
     {
       id: "live-277",
+      seoTitle: "91-10/91-14 175th Street, Queens: Owner Files Second Chapter 11",
+      seoDescription: "AZ 175th Street LLC, owner of a mixed-use building at 91-10/91-14 175th Street in Jamaica, Queens, filed a second Chapter 11 after its first was dismissed.",
+      property: {"address": "91-10/91-14 175th Street", "city": "Queens", "state": "NY"},
       addedDate: "2026-10-13",
       title: "In re AZ 175th Street LLC: Queens Mixed-Use Owner Files Second Chapter 11 After First Case Was Dismissed With a Refiling Bar",
       category: "lending-foreclosure",
@@ -8539,6 +9150,8 @@ const RELAW_DATA = {
     },
     {
       id: "live-278",
+      seoTitle: "South Shore Chicago Apartments: $6.4M Merchants Bank Foreclosure",
+      seoDescription: "Merchants Bank of Indiana sued GRV Jackson Park LLC to foreclose $6.4 million in loans on three apartment buildings in Chicago's South Shore area.",
       addedDate: "2026-10-13",
       title: "Merchants Bank of Indiana v. GRV Jackson Park LLC: $6.4M Foreclosure on Three South Side Chicago Apartment Buildings",
       category: "lending-foreclosure",
@@ -8577,6 +9190,9 @@ const RELAW_DATA = {
     },
     {
       id: "live-279",
+      seoTitle: "3800 Sepulveda, Culver City: Jushi Wins Dispensary Lease Appeal",
+      seoDescription: "A California appeals court held Pacific Collective's slow land purchase let Jushi unit TGS CC Ventures rescind a 3800 Sepulveda Boulevard dispensary lease.",
+      property: {"address": "3800 Sepulveda Boulevard", "city": "Culver City", "state": "CA"},
       addedDate: "2026-10-13",
       title: "Pacific Collective, LLC v. TGS CC Ventures, LLC: California Appeals Court Holds Build-to-Suit Landlord's Slow Land Purchase Let Jushi Unit Rescind Culver City Dispensary Lease",
       category: "lease-disputes",
@@ -8617,6 +9233,8 @@ const RELAW_DATA = {
     },
     {
       id: "live-280",
+      seoTitle: "Bohemian Brethren Church: $1.2M Preschool Tenant Verdict Upheld",
+      seoDescription: "New York's First Department affirmed a $1,216,177.36 judgment for a preschool tenant against landlord Bohemian Brethren Presbyterian Church.",
       addedDate: "2026-10-13",
       title: "First Department Affirms $1.2 Million Jury Verdict for Preschool Tenant Against Bohemian Brethren Presbyterian Church Over Uncleared Building Violations",
       category: "lease-disputes",
@@ -8655,6 +9273,9 @@ const RELAW_DATA = {
     },
     {
       id: "live-281",
+      seoTitle: "Chesapeake, VA Landfill Warehouse Site Plan Denial Upheld",
+      seoDescription: "The Court of Appeals of Virginia upheld Chesapeake's denial of Recycled Properties' warehouse site plan at its landfill as expanding a nonconforming use.",
+      property: {"city": "Chesapeake", "state": "VA"},
       addedDate: "2026-10-13",
       title: "Recycled Properties, LLC v. City Council of the City of Chesapeake: Virginia Appeals Court Upholds Denial of Warehouse and Office Site Plan as Expansion of Nonconforming Landfill Use",
       category: "zoning-land-use",
@@ -8691,6 +9312,9 @@ const RELAW_DATA = {
     },
     {
       id: "live-282",
+      seoTitle: "Bradford, PA Bus Station Taking: $30,000 Settlement Enforced",
+      seoDescription: "Pennsylvania's Commonwealth Court enforced a $30,000 settlement for the City of Bradford's taking of 374 square feet of DewBoi Properties' alley.",
+      property: {"city": "Bradford", "state": "PA"},
       addedDate: "2026-10-13",
       title: "In re 374 Square Feet in the City of Bradford (Appeal of DewBoi Properties, LLC): Pennsylvania Commonwealth Court Enforces $30,000 Condemnation Settlement for Bus Station Alley",
       category: "eminent-domain",
@@ -8728,6 +9352,9 @@ const RELAW_DATA = {
     },
     {
       id: "live-283",
+      seoTitle: "ApplianceSmart Lease Default: Sixth Circuit Backs Landlord",
+      seoDescription: "The Sixth Circuit ruled for a Columbus, Ohio shopping-center owner against ApplianceSmart and JanOne, holding it could reject related replacement tenants.",
+      property: {"city": "Columbus", "state": "OH"},
       addedDate: "2026-10-13",
       title: "Trustees Main/270, LLC v. ApplianceSmart, Inc.: Sixth Circuit Holds Shopping-Center Landlord Could Reject Replacement Tenants Tied to Its Defaulting Tenant",
       category: "lease-disputes",
@@ -8765,6 +9392,9 @@ const RELAW_DATA = {
     },
     {
       id: "live-284",
+      seoTitle: "Conroe, TX Assisted Living: Delaware Upholds HREF Takeover",
+      seoDescription: "The Delaware Supreme Court upheld HREF Senior Worthington's takeover of a 117-bed Conroe, Texas assisted-living project over its $4.5 million investment.",
+      property: {"city": "Conroe", "state": "TX"},
       addedDate: "2026-10-13",
       title: "Conroe WM LLC v. HREF Senior Worthington LLC: Delaware Supreme Court Affirms Preferred-Equity Lender's Takeover of Texas Assisted-Living Project",
       category: "lending-foreclosure",
@@ -8806,6 +9436,9 @@ const RELAW_DATA = {
     },
     {
       id: "live-285",
+      seoTitle: "Spartanburg Kohler Plant Data Center: Zoning Suit Dismissed",
+      seoDescription: "A judge dismissed a neighbors' suit over Spartanburg County's review of Valara Holdings' $2.8 billion data center at the former Kohler plant site.",
+      property: {"name": "Former Kohler plant", "address": "South Pine Street", "state": "SC"},
       addedDate: "2026-10-13",
       title: "Concerned Citizens of Spartanburg County v. Spartanburg County: Judge Dismisses Zoning Challenge to Valara Holdings' $2.8B Data Center",
       category: "zoning-land-use",
@@ -8843,6 +9476,9 @@ const RELAW_DATA = {
     },
     {
       id: "live-286",
+      seoTitle: "Hetley Plaza, Lemoyne PA: Parking Use Variance Denial Upheld",
+      seoDescription: "Pennsylvania's Commonwealth Court upheld denial of Hetley Associates' use variance to raze three houses for overflow parking at Hetley Plaza in Lemoyne.",
+      property: {"name": "Hetley Plaza", "city": "Lemoyne", "state": "PA"},
       addedDate: "2026-10-13",
       title: "Hetley Associates v. Lemoyne Borough Zoning Hearing Board: Pennsylvania Commonwealth Court Rejects Strip-Center Owner's Use Variance for Overflow Parking on Adjacent Residential Lots",
       category: "zoning-land-use",
@@ -8880,6 +9516,9 @@ const RELAW_DATA = {
     },
     {
       id: "live-287",
+      seoTitle: "San Francisco Care Center Sale: BAP Limits Lenox Mortgage Fees",
+      seoDescription: "The Ninth Circuit BAP limited Lenox Mortgage IX's fee claim under old HUD loan papers after the sale of a San Francisco assisted-living facility.",
+      property: {"city": "San Francisco", "state": "CA"},
       addedDate: "2026-10-13",
       title: "Lenox Mortgage IX LLC v. San Francisco Care Center, L.P.: Ninth Circuit BAP Limits Lender's Fee Recovery Under Old HUD Loan Documents After Assisted-Living Facility Sale",
       category: "lending-foreclosure",
@@ -8924,6 +9563,8 @@ const RELAW_DATA = {
     },
     {
       id: "live-288",
+      seoTitle: "Laguna Beach Foreclosures: BAP Upholds Enterprise Bank Sales",
+      seoDescription: "The Ninth Circuit BAP upheld a stay annulment validating Enterprise Bank and Trust's nine foreclosure sales of Laguna Beach, California properties.",
       addedDate: "2026-10-13",
       title: "In re Duplex at Sleepy Hollow, LLC: Ninth Circuit BAP Upholds Retroactive Stay Annulment That Validated Enterprise Bank's Nine Laguna Beach Foreclosures",
       category: "lending-foreclosure",
@@ -8975,6 +9616,8 @@ const RELAW_DATA = {
     },
     {
       id: "live-289",
+      seoTitle: "Braemar Hotels Settles With Al Shams for $40M, Ending Proxy Fight",
+      seoDescription: "Braemar Hotels & Resorts and Ashford reached a $40 million settlement with largest stockholder Al Shams Investments, ending its proxy fight and claims.",
       addedDate: "2026-10-13",
       title: "Braemar Hotels & Resorts Settles With Largest Stockholder Al Shams Investments: $40M Payout Ends Proxy Fight, Securities and Defamation Claims, and Texas Pre-Suit Petition",
       category: "reit-securities",

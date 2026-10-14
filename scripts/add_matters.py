@@ -27,7 +27,7 @@ DATA = ROOT / "js" / "data.js"
 CATEGORIES = {"landlord-tenant", "zoning-land-use", "reit-securities", "construction-defect", "lending-foreclosure",
               "environmental", "eminent-domain", "lease-disputes", "premises-liability"}
 STATUSES = {"filed", "pending", "ruling", "settled", "appeal"}
-ORDER = ["id", "addedDate", "title", "category", "status", "date", "jurisdiction", "state", "amount", "source", "sourceUrl",
+ORDER = ["id", "seoTitle", "seoDescription", "property", "addedDate", "title", "category", "status", "date", "jurisdiction", "state", "amount", "source", "sourceUrl",
          "docketUrl", "docketLabel", "propertyType", "summary", "significance", "body", "tags", "parties", "judge",
          "amountUsd", "amountBasis", "timeline"]
 

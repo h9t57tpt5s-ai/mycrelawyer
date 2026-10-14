@@ -21,6 +21,9 @@ CREdocket (credocket.com) is a commercial real estate (CRE) litigation intellige
 ## Output: return ONLY a JSON array of matters (best first, 0-4 of them), each exactly:
 {
  "title": "<Case name or plain headline; e.g. 'Acme Lender LLC v. 123 Main Owner LLC: $40M Office Loan Foreclosure Filed in Manhattan'>",
+ "seoTitle": "<max 65 chars, for Google: lead with what people search -- the building or address, the known company/sponsor/lender, or the city -- then what happened. e.g. '123 Main Street Manhattan: $40M Office Foreclosure by Acme Lender'. Only names and figures from this entry.>",
+ "seoDescription": "<120-155 chars: the same searchable names plus the key fact (who, what property, how much, what the court did).>",
+ "property": {"name": "<property name or null>", "address": "<street address exactly as the source gives it, or null>", "city": "<city or null>", "state": "<two-letter>"}  (or null when the matter is not about one identifiable property),
  "category": "<one of: landlord-tenant, zoning-land-use, reit-securities, construction-defect, lending-foreclosure, environmental, eminent-domain, lease-disputes, premises-liability>",
  "status": "<one of: filed, pending, ruling, settled, appeal>",
  "date": "YYYY-MM-DD (the event date)",

@@ -116,11 +116,14 @@ for (const [key, cs] of byProp) {
 }
 for (const g of groups) g.cases.sort((a, b) => (b.date > a.date ? 1 : -1));
 // Two parties that appear in exactly the same matters (a borrower and its
-// affiliate, REIT I and REIT II) would get two identical pages; keep the
-// shorter name's page and point the other party's key at it.
+// affiliate, REIT I and REIT II), or a party whose matters are exactly one
+// property's, would get identical pages; keep one (the property page, else
+// the shorter name's) and point the other party's key at it.
 const aliases = new Map<string, Group>();
 {
+  // A property page covering the same matters wins over a party page.
   const bySet = new Map<string, Group>();
+  for (const g of groups) if (g.kind === "property") bySet.set(g.cases.map((c) => c.id).sort().join(","), g);
   for (const g of [...groups].sort((a, b) => a.name.length - b.name.length)) {
     if (g.kind !== "party") continue;
     const sig = g.cases.map((c) => c.id).sort().join(",");
@@ -250,7 +253,7 @@ for (const folder of ["parties", "properties"]) {
     if (e.isFile && e.name.endsWith(".html") && !keep.has(file)) { await Deno.remove(file); removed++; }
   }
 }
-for (const [key, g] of aliases) index.parties[key] = index.parties[g.key];
+for (const [key, g] of aliases) index.parties[key] = g.kind === "party" ? index.parties[g.key] : index.properties[g.key];
 // Parties with a curated profile link to it from matter pages.
 for (const [key, e] of byParty) {
   const name = [...e.names.keys()][0];

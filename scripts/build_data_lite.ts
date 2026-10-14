@@ -23,7 +23,10 @@ const keep = new Set<string>();
 await Deno.mkdir("matters/data", { recursive: true });
 // deno-lint-ignore no-explicit-any
 const lite = { ...data, cases: data.cases.map((c: any) => {
-  const { body, timeline, ...rest } = c;
+  // seoTitle, seoDescription and property are used only by the static
+  // page builders, never by the browser, so the slim dataset leaves them out.
+  // deno-lint-ignore no-unused-vars
+  const { body, timeline, seoTitle, seoDescription, property, ...rest } = c;
   const hasBody = Array.isArray(body) && body.length > 0;
   const hasTimeline = Array.isArray(timeline) && timeline.length > 0;
   if (!hasBody && !hasTimeline) return rest;

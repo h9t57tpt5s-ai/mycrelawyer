@@ -23,6 +23,7 @@ type Case = {
   summary: string; significance?: string; tags?: string[]; docketUrl?: string; docketLabel?: string;
   documentUrl?: string; documentLabel?: string; propertyType?: string; judge?: string | null;
   parties?: Party[]; body?: string[]; timeline?: unknown[];
+  seoTitle?: string; seoDescription?: string;
 };
 type Data = {
   categories: { id: string; label: string; color: string }[];
@@ -71,8 +72,11 @@ head = absolutize(head);
 tail = absolutize(tail);
 
 function headFor(c: Case): string {
-  const title = `${plain(c.title)} — CREdocket`;
-  const desc = clip(plain(c.summary), 300);
+  // seoTitle / seoDescription (2026-10-14) lead with what people search for
+  // (the building, the known company or sponsor, the city) instead of a
+  // special-purpose LLC caption; the page's headline stays c.title.
+  const title = `${plain(c.seoTitle || c.title)} — CREdocket`;
+  const desc = c.seoDescription ? plain(c.seoDescription) : clip(plain(c.summary), 300);
   const ld = {
     "@context": "https://schema.org",
     "@graph": [
