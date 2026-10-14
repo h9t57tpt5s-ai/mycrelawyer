@@ -29,6 +29,17 @@
     "opinion:11024566": {"at": "2026-10-13", "action": "skipped: National Forest Management Act case over Forest Service road mileage, not a real estate dispute between businesses"},
     "petition:https://www.courtlistener.com/docket/74952134/30-quabeck-avenue-llc/": {"at": "2026-10-13", "action": "skipped: no coverage found explaining the filing"},
     "petition:https://www.courtlistener.com/docket/74950462/aj-realty-miami-llc/": {"at": "2026-10-13", "action": "skipped: no coverage found explaining the filing"},
-    "https://www.courtlistener.com/docket/74954259/owners-insurance-company-v-budd-commercial-real-estate-llc/": {"at": "2026-10-13", "action": "skipped: no reporting found explaining the dispute"}
+    "https://www.courtlistener.com/docket/74954259/owners-insurance-company-v-budd-commercial-real-estate-llc/": {"at": "2026-10-13", "action": "skipped: no reporting found explaining the dispute"},
+    "https://www.courtlistener.com/docket/74955613/2020-property-inspections-llc-v-2020-inspection-solutions-llc/": {"at": "2026-10-14", "action": "skipped: franchise/trademark dispute between home-inspection companies, not a commercial real estate matter"},
+    "opinion:11032617": {"at": "2026-10-14", "action": "skipped: residential land installment contract dispute between sisters-in-law, not commercial real estate"},
+    "opinion:11032316": {"at": "2026-10-14", "action": "matter live-280 (added by the prior run; recording the lead here)"},
+    "opinion:11032308": {"at": "2026-10-14", "action": "skipped: residential mortgage foreclosure appeal, individual defendant"},
+    "opinion:11032280": {"at": "2026-10-14", "action": "skipped: commercial vehicle replevin/storage lien dispute, not real estate"},
+    "opinion:11032192": {"at": "2026-10-14", "action": "skipped: residential foreclosure/unlawful detainer dispute, individual parties"},
+    "opinion:11032185": {"at": "2026-10-14", "action": "matter live-281 (added by the prior run; recording the lead here)"},
+    "opinion:11032183": {"at": "2026-10-14", "action": "skipped: wind-turbine zoning dispute brought by a municipal water authority, not a commercial real estate matter on its face"},
+    "opinion:11032182": {"at": "2026-10-14", "action": "skipped: individual named party (Carl Edward Meyer, Jr.) in a personal-residence realty transfer tax dispute"},
+    "opinion:11032178": {"at": "2026-10-14", "action": "matter live-282 (added by the prior run; recording the lead here)"},
+    "opinion:11032114": {"at": "2026-10-14", "action": "skipped: residential foreclosure dispute, individual/estate parties"}
   }
 }
