@@ -71,6 +71,11 @@ tail = tail.replace("<script src=\"js/main.js\"></script>", '<script src="js/mai
 head = absolutize(head);
 tail = absolutize(tail);
 
+// Share image per matter (scripts/build_og_images.py, which runs first).
+const ogImage = (c: Case) => {
+  try { Deno.statSync(`img/og/${c.id}.png`); return `${SITE}/img/og/${c.id}.png`; } catch { return `${SITE}/img/og-image.png`; }
+};
+
 function headFor(c: Case): string {
   // seoTitle / seoDescription (2026-10-14) lead with what people search for
   // (the building, the known company or sponsor, the city) instead of a
@@ -87,6 +92,7 @@ function headFor(c: Case): string {
         datePublished: c.addedDate || c.date,
         dateModified: lastChanged(c),
         mainEntityOfPage: url(c),
+        image: [ogImage(c)],
         articleSection: cat(c.category).label,
         keywords: (c.tags || []).join(", "),
         author: { "@type": "Organization", name: "CREdocket", url: SITE },
@@ -117,6 +123,10 @@ function headFor(c: Case): string {
     .replace(/(<meta property="og:type" content=")[^"]*"/, (_, p1) => `${p1}article"`)
     .replace(/(<meta property="og:url" content=")[^"]*"/, (_, p1) => `${p1}${url(c)}"`)
     .replace(/(<link rel="canonical" href=")[^"]*"/, (_, p1) => `${p1}${url(c)}"`)
+    .replace(/(<meta property="og:image" content=")[^"]*"/, (_, p1) => `${p1}${ogImage(c)}"`)
+    .replace(/(<meta name="twitter:image" content=")[^"]*"/, (_, p1) => `${p1}${ogImage(c)}"`)
+    // Large previews in Google Discover and search need this opt-in.
+    .replace("</title>", '</title>\n<meta name="robots" content="max-image-preview:large" />')
     .replace("</head>", `<script type="application/ld+json">${JSON.stringify(ld).replace(/</g, "\\u003c")}</script>\n  </head>`);
 }
 

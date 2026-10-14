@@ -15,6 +15,7 @@ on:
       - "scripts/render_corrections.py"
       - "scripts/build_matter_pages.ts"
       - "scripts/build_entity_pages.ts"
+      - "scripts/build_og_images.py"
       - "scripts/build_sitemap.py"
       - "scripts/build_data_lite.ts"
       - "scripts/build_record_pages.ts"
@@ -48,6 +49,13 @@ jobs:
       - run: python3 scripts/render_corrections.py
       # Company, agency and property pages (2+ matters each), then one
       # indexable page per matter (which links to them), then the sitemap.
+      # Share image per matter (and the site default), drawn with Ubuntu's
+      # Noto Serif, Inter and IBM Plex Mono packages.
+      - name: Share images
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq fonts-noto-core fonts-inter fonts-ibm-plex >/dev/null
+          pip install --quiet pillow==11.3.0
+          python3 scripts/build_og_images.py
       - run: deno run --allow-read --allow-write scripts/build_entity_pages.ts
       - run: deno run --allow-read --allow-write scripts/build_matter_pages.ts
       # Chapter 11 Watch and Federal Lawsuit Watch, and one page per petition or case.
@@ -55,7 +63,7 @@ jobs:
       - run: python3 scripts/build_sitemap.py
       - name: Commit prerendered pages
         run: |
-          git add -A matters chapter-11 federal-cases parties properties js/entity-index.json
+          git add -A matters chapter-11 federal-cases parties properties js/entity-index.json img/og img/og-image.png
           git add bankruptcy-watch.html lawsuit-watch.html
           git add index.html litigation.html coverage.html companies.html judges.html company-*.html corrections.html sitemap.xml news-sitemap.xml js/data-lite.js js/matter-text.json
           if git diff --cached --quiet; then echo "Nothing changed."; exit 0; fi
