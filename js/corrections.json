@@ -3,6 +3,16 @@
  "startedOn": "2026-09-12",
  "entries": [
   {
+   "date": "2026-10-14",
+   "scope": "matter",
+   "caseId": "live-098",
+   "subject": "Waukesha State Bank v. 225 East Michigan Street LLC (Mackie Building foreclosure)",
+   "kind": "Corrected: figure",
+   "was": "The headline described a $6.7M foreclosure.",
+   "now": "The headline says $6.57M, the loan amount the write-up and its source give; about $6.2 million is owed ($5.9 million principal).",
+   "basis": "The matter's own write-up and timeline, from the Daily Reporter's Aug. 10, 2026 report, state a $6.57 million loan; $6.7M appeared nowhere in the source. Found during a 2026-10-14 check of every headline figure against its matter's text."
+  },
+  {
    "date": "2026-10-12",
    "scope": "site",
    "caseId": null,

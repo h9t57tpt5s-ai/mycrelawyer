@@ -3481,7 +3481,7 @@ const RELAW_DATA = {
       seoDescription: "Waukesha State Bank sued to foreclose on Milwaukee's historic Mackie Building, alleging a J. Jeffers & Co. affiliate defaulted on a $6.57 million loan.",
       property: {"name": "Mackie Building", "city": "Milwaukee", "state": "WI"},
       addedDate: "2026-09-10",
-      title: "Waukesha State Bank v. 225 East Michigan Street LLC ($6.7M Mackie Building Foreclosure)",
+      title: "Waukesha State Bank v. 225 East Michigan Street LLC ($6.57M Mackie Building Foreclosure)",
       category: "lending-foreclosure",
       status: "filed",
       date: "2026-08-03",
