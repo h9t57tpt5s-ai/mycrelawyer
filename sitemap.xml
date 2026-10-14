@@ -536,6 +536,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://credocket.com/judge-robert-e-toone-jr.html</loc>
+    <lastmod>2026-10-14</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://credocket.com/judge-rowan-d-wilson.html</loc>
     <lastmod>2026-10-13</lastmod>
     <priority>0.5</priority>
@@ -582,7 +587,7 @@
   </url>
   <url>
     <loc>https://credocket.com/judges.html</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-10-14</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
@@ -2012,6 +2017,16 @@
   </url>
   <url>
     <loc>https://credocket.com/matters/live-293.html</loc>
+    <lastmod>2026-10-14</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://credocket.com/matters/live-294.html</loc>
+    <lastmod>2026-10-14</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://credocket.com/matters/live-295.html</loc>
     <lastmod>2026-10-14</lastmod>
     <priority>0.6</priority>
   </url>
