@@ -59,3 +59,11 @@ If you find nothing that meets the bar, return [] (an empty list is fine; paddin
 - A preferred-equity investment is not a "loan"; use amountBasis "other".
 - When an appeal's only appellant is an individual (e.g. a foreclosure bidder), describe them generically and cut any finding aimed at a named individual.
 - Lending beat came back empty: federal-suits.json lender suits this week were already covered or lacked explanatory reporting.
+- 2026-10-14: Two agents returned the same Florida 3d DCA opinion (rulings and leases beats); expect overlap between those beats and merge, keeping the version with the trial judge.
+- Agents flag filings 8 days old as "surfaced this week"; the 7-day window runs from the event date, so drop them (One Willoughby Square EB-5 suit, Cowboys Dance Hall possession suit).
+- Homebuilder land banks and single-family rental purchases (e.g. Millrose/Lennar) are residential; drop them even when the defendant is a listed REIT.
+- Commercial evictions captioned against a bar's owner personally (Little Red Hen, Seattle) are suits against an individual; drop them.
+- Agents put developers' personal names in seoTitle/seoDescription/body; strip them and refer to the landlord entity.
+- al.com and businessalabama.com block WebFetch, curl and the browser pane; corroborate their stories through WBRC (fetchable) or WebSearch snippets.
+- pacourts.us Commonwealth Court opinion list produced a same-day warehouse zoning ruling; pypdf is not installed system-wide, so use a scratch venv to extract PDF text.
+- Lending and bankruptcy beats both came back empty this run.
