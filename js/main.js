@@ -955,6 +955,23 @@
           ${articleHtml}`;
       }
 
+      // End of a full write-up, for readers without an account: the weekly
+      // email is the one-field way to keep getting rulings like this one.
+      function newsletterEndHtml() {
+        return `
+          <div class="card matter-cta panel-newsletter">
+            <div class="eyebrow">Free weekly email</div>
+            <h3 style="margin-bottom:8px;">Rulings like this, every Monday</h3>
+            <p class="text-secondary" style="margin-bottom:12px;">The week's new commercial real estate lawsuits, foreclosures and court rulings, in one short email. No account needed; unsubscribe in one click.</p>
+            <form class="gate-form" data-newsletter-form data-newsletter-source="panel-end:${c.id}" data-case-id="${c.id}" novalidate>
+              <label class="sr-only" for="panel-nl-email">Email address</label>
+              <input type="email" id="panel-nl-email" autocomplete="email" placeholder="you@company.com" />
+              <button type="submit" class="btn btn-primary btn-sm">Subscribe</button>
+            </form>
+            <p class="gate-form-status" data-newsletter-status role="status"></p>
+          </div>`;
+      }
+
       function gateStateHtml(state) {
         if (state.status === "not-logged-in") {
           // A preview of what the account unlocks: the write-up's first
@@ -1071,7 +1088,8 @@
           if (state.status === "ok") {
             withFull(() => {
               const note = state.anonymous ? `<div class="free-read-note"><span>${state.used} of ${state.limit} free reads used this month.</span> <button type="button" class="link-btn" id="free-read-signup">Create a free account</button> for unlimited reading and email alerts.</div>` : "";
-              renderGated(note + fullArticleInnerHtml());
+              renderGated(note + fullArticleInnerHtml() + (state.anonymous ? newsletterEndHtml() : ""));
+              if (state.anonymous && window.RELAW_NEWSLETTER) window.RELAW_NEWSLETTER.wire(gatedSlot);
               const su = document.getElementById("free-read-signup");
               if (su) su.addEventListener("click", () => window.RELAW_AUTH.openSignInModal(c.id));
               if (window.RELAW_TRACK) window.RELAW_TRACK("full_read", { caseId: c.id, detail: state.anonymous ? `free ${state.used}/${state.limit}` : "account" });
