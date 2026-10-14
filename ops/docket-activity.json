@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-13T17:02:39+00:00",
+ "updatedAt": "2026-10-14T14:35:56+00:00",
  "source": "CourtListener RECAP archive (federal courts only). Entries appear when CourtListener receives them, so some are late or missing.",
  "requestsUsed": 17,
  "errors": [],
@@ -39,6 +39,20 @@
   },
   "67174489": {
    "entries": [
+    {
+     "date": "2026-10-13",
+     "number": 1594,
+     "text": "Order on Motion for Miscellaneous Relief",
+     "url": "https://www.courtlistener.com/docket/67174489/1594/in-re-realpage-inc-rental-software-antitrust-litigation-no-ii/",
+     "ruling": false
+    },
+    {
+     "date": "2026-10-13",
+     "number": 1593,
+     "text": "Order",
+     "url": "https://www.courtlistener.com/docket/67174489/1593/in-re-realpage-inc-rental-software-antitrust-litigation-no-ii/",
+     "ruling": false
+    },
     {
      "date": "2026-10-09",
      "number": 1588,
@@ -80,20 +94,6 @@
      "text": "Order on Motion for Leave to File Document Under Seal",
      "url": "https://www.courtlistener.com/docket/67174489/1583/in-re-realpage-inc-rental-software-antitrust-litigation-no-ii/",
      "ruling": false
-    },
-    {
-     "date": "2026-10-08",
-     "number": 1581,
-     "text": "Order on Motion for Miscellaneous Relief",
-     "url": "https://www.courtlistener.com/docket/67174489/1581/in-re-realpage-inc-rental-software-antitrust-litigation-no-ii/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-06",
-     "number": 1580,
-     "text": "Notice of Change of Address",
-     "url": "https://www.courtlistener.com/docket/67174489/1580/in-re-realpage-inc-rental-software-antitrust-litigation-no-ii/",
-     "ruling": false
     }
    ],
    "caseIds": [
@@ -103,7 +103,7 @@
    "docketNumber": "3:23-md-03071",
    "dateTerminated": null,
    "url": "https://www.courtlistener.com/docket/67174489/in-re-realpage-inc-rental-software-antitrust-litigation-no-ii/",
-   "lastEntryDate": "2026-10-09"
+   "lastEntryDate": "2026-10-13"
   },
   "67356054": {
    "entries": [
@@ -177,6 +177,13 @@
   "69074245": {
    "entries": [
     {
+     "date": "2026-10-13",
+     "number": null,
+     "text": "Motions Referred",
+     "url": "https://www.courtlistener.com/docket/69074245/united-states-of-america-v-realpage-inc/",
+     "ruling": false
+    },
+    {
      "date": "2026-10-09",
      "number": 224,
      "text": "Text of Proposed Order",
@@ -224,13 +231,6 @@
      "text": "Case Referred to Judge",
      "url": "https://www.courtlistener.com/docket/69074245/united-states-of-america-v-realpage-inc/",
      "ruling": false
-    },
-    {
-     "date": "2026-09-15",
-     "number": 220,
-     "text": "Reply - non motion",
-     "url": "https://www.courtlistener.com/docket/69074245/220/united-states-of-america-v-realpage-inc/",
-     "ruling": false
     }
    ],
    "caseIds": [
@@ -240,7 +240,7 @@
    "docketNumber": "1:24-cv-00710",
    "dateTerminated": null,
    "url": "https://www.courtlistener.com/docket/69074245/united-states-of-america-v-realpage-inc/",
-   "lastEntryDate": "2026-10-09"
+   "lastEntryDate": "2026-10-13"
   },
   "69353264": {
    "entries": [
@@ -400,6 +400,13 @@
   "70189262": {
    "entries": [
     {
+     "date": "2026-10-13",
+     "number": 54,
+     "text": "Amended Judgment",
+     "url": "https://www.courtlistener.com/docket/70189262/54/united-states-v-schuster/",
+     "ruling": true
+    },
+    {
      "date": "2026-10-09",
      "number": null,
      "text": "Sealed Document",
@@ -447,13 +454,6 @@
      "text": "Letter",
      "url": "https://www.courtlistener.com/docket/70189262/47/united-states-v-schuster/",
      "ruling": false
-    },
-    {
-     "date": "2026-09-28",
-     "number": 46,
-     "text": "Endorsed Letter AND ~Util - Set/Reset Deadlines/Hearings",
-     "url": "https://www.courtlistener.com/docket/70189262/46/united-states-v-schuster/",
-     "ruling": false
     }
    ],
    "caseIds": [
@@ -463,7 +463,7 @@
    "docketNumber": "1:25-cr-00204",
    "dateTerminated": null,
    "url": "https://www.courtlistener.com/docket/70189262/united-states-v-schuster/",
-   "lastEntryDate": "2026-10-09"
+   "lastEntryDate": "2026-10-13"
   },
   "70689952": {
    "entries": [],
@@ -475,25 +475,6 @@
    "dateTerminated": "2026-08-06",
    "url": "https://www.courtlistener.com/docket/70689952/pseg-renewable-transmission-llc-v-arentz-family-lp/",
    "lastEntryDate": null
-  },
-  "71501133": {
-   "entries": [
-    {
-     "date": "2026-09-11",
-     "number": 416,
-     "text": "Non-Party Filing.",
-     "url": "https://www.courtlistener.com/docket/71501133/416/federal-trade-commission-v-zillow-group-inc/",
-     "ruling": false
-    }
-   ],
-   "caseIds": [
-    "live-042"
-   ],
-   "court": "E.D. Va.",
-   "docketNumber": "1:25-cv-01638",
-   "dateTerminated": null,
-   "url": "https://www.courtlistener.com/docket/71501133/federal-trade-commission-v-zillow-group-inc/",
-   "lastEntryDate": "2026-09-11"
   },
   "71746386": {
    "entries": [
@@ -530,6 +511,27 @@
   },
   "71964352": {
    "entries": [
+    {
+     "date": "2026-10-13",
+     "number": 57,
+     "text": "Memorandum of Law in Support of Motion",
+     "url": "https://www.courtlistener.com/docket/71964352/57/realpage-inc-v-james/",
+     "ruling": false
+    },
+    {
+     "date": "2026-10-13",
+     "number": 56,
+     "text": "Reconsideration",
+     "url": "https://www.courtlistener.com/docket/71964352/56/realpage-inc-v-james/",
+     "ruling": false
+    },
+    {
+     "date": "2026-10-13",
+     "number": 55,
+     "text": "Answer to Complaint",
+     "url": "https://www.courtlistener.com/docket/71964352/55/realpage-inc-v-james/",
+     "ruling": false
+    },
     {
      "date": "2026-10-08",
      "number": 54,
@@ -573,7 +575,7 @@
    "docketNumber": "1:25-cv-09847",
    "dateTerminated": null,
    "url": "https://www.courtlistener.com/docket/71964352/realpage-inc-v-james/",
-   "lastEntryDate": "2026-10-08"
+   "lastEntryDate": "2026-10-13"
   },
   "72081019": {
    "entries": [
@@ -746,6 +748,13 @@
   "73480976": {
    "entries": [
     {
+     "date": "2026-10-14",
+     "number": 74,
+     "text": "Order on Motion to Withdraw as Attorney",
+     "url": "https://www.courtlistener.com/docket/73480976/74/fitfactaridc-llc-v-costar-group-inc/",
+     "ruling": false
+    },
+    {
      "date": "2026-10-13",
      "number": 73,
      "text": "Withdraw as Attorney",
@@ -781,7 +790,7 @@
    "docketNumber": "1:26-cv-06997",
    "dateTerminated": null,
    "url": "https://www.courtlistener.com/docket/73480976/fitfactaridc-llc-v-costar-group-inc/",
-   "lastEntryDate": "2026-10-13"
+   "lastEntryDate": "2026-10-14"
   },
   "73568530": {
    "entries": [
@@ -804,6 +813,13 @@
   },
   "73578741": {
    "entries": [
+    {
+     "date": "2026-10-13",
+     "number": 14,
+     "text": "Amended Complaint",
+     "url": "https://www.courtlistener.com/docket/73578741/14/keller-v-udr-inc/",
+     "ruling": false
+    },
     {
      "date": "2026-10-07",
      "number": 13,
@@ -847,7 +863,7 @@
    "docketNumber": "3:26-cv-03865",
    "dateTerminated": null,
    "url": "https://www.courtlistener.com/docket/73578741/keller-v-udr-inc/",
-   "lastEntryDate": "2026-10-07"
+   "lastEntryDate": "2026-10-13"
   },
   "73684397": {
    "entries": [
@@ -939,6 +955,27 @@
   "73733742": {
    "entries": [
     {
+     "date": "2026-10-14",
+     "number": 40,
+     "text": "Notice (Other)",
+     "url": "https://www.courtlistener.com/docket/73733742/40/bank-midwest-a-division-of-nbh-bank-v-tig-queso-llc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-10-13",
+     "number": 39,
+     "text": "Notice of Appearance",
+     "url": "https://www.courtlistener.com/docket/73733742/39/bank-midwest-a-division-of-nbh-bank-v-tig-queso-llc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-10-13",
+     "number": 38,
+     "text": "Notice of Appearance",
+     "url": "https://www.courtlistener.com/docket/73733742/38/bank-midwest-a-division-of-nbh-bank-v-tig-queso-llc/",
+     "ruling": false
+    },
+    {
      "date": "2026-10-09",
      "number": 37,
      "text": "Order on Motion for Pro Hac Vice (Credit Card Payment)",
@@ -972,27 +1009,6 @@
      "text": "Declaration",
      "url": "https://www.courtlistener.com/docket/73733742/33/bank-midwest-a-division-of-nbh-bank-v-tig-queso-llc/",
      "ruling": false
-    },
-    {
-     "date": "2026-10-08",
-     "number": 32,
-     "text": "Memorandum",
-     "url": "https://www.courtlistener.com/docket/73733742/32/bank-midwest-a-division-of-nbh-bank-v-tig-queso-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-08",
-     "number": 31,
-     "text": "Miscellaneous Relief",
-     "url": "https://www.courtlistener.com/docket/73733742/31/bank-midwest-a-division-of-nbh-bank-v-tig-queso-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-09-25",
-     "number": 30,
-     "text": "Pro Hac Vice (Credit Card Payment)",
-     "url": "https://www.courtlistener.com/docket/73733742/30/bank-midwest-a-division-of-nbh-bank-v-tig-queso-llc/",
-     "ruling": false
     }
    ],
    "caseIds": [
@@ -1002,7 +1018,7 @@
    "docketNumber": "5:26-cv-05612",
    "dateTerminated": null,
    "url": "https://www.courtlistener.com/docket/73733742/bank-midwest-a-division-of-nbh-bank-v-tig-queso-llc/",
-   "lastEntryDate": "2026-10-09"
+   "lastEntryDate": "2026-10-14"
   },
   "73738334": {
    "entries": [
@@ -1071,39 +1087,6 @@
    "dateTerminated": null,
    "url": "https://www.courtlistener.com/docket/73738334/stines-v-primeblock-operations-llc/",
    "lastEntryDate": "2026-10-13"
-  },
-  "73740046": {
-   "entries": [
-    {
-     "date": "2026-09-08",
-     "number": 24,
-     "text": "PAPERLESS ORDER granting 18 Motion to Appear Pro Hac Vice on behalf of Joshua S. Levy. Directing attorney Joshua S. Levy to register for pro hac vice filing in ",
-     "url": "https://www.courtlistener.com/docket/73740046/24/uwm-holdings-corp-v-two-harbors-investment-corp/",
-     "ruling": false
-    },
-    {
-     "date": "2026-09-08",
-     "number": 23,
-     "text": "PAPERLESS ORDER granting 17 Motion to Appear Pro Hac Vice on behalf of Jeffrey B Korn. Directing attorney Jeffrey B Korn to register for pro hac vice filing in ",
-     "url": "https://www.courtlistener.com/docket/73740046/23/uwm-holdings-corp-v-two-harbors-investment-corp/",
-     "ruling": false
-    },
-    {
-     "date": "2026-09-08",
-     "number": 22,
-     "text": "PAPERLESS ORDER granting 16 Motion to Appear Pro Hac Vice on behalf of Tariq Mundiya. Directing attorney Tariq Mundiya to register for pro hac vice filing in th",
-     "url": "https://www.courtlistener.com/docket/73740046/22/uwm-holdings-corp-v-two-harbors-investment-corp/",
-     "ruling": false
-    }
-   ],
-   "caseIds": [
-    "live-020"
-   ],
-   "court": "D. Maryland",
-   "docketNumber": "1:26-cv-03125",
-   "dateTerminated": null,
-   "url": "https://www.courtlistener.com/docket/73740046/uwm-holdings-corp-v-two-harbors-investment-corp/",
-   "lastEntryDate": "2026-09-08"
   },
   "74638795": {
    "entries": [
@@ -1335,6 +1318,34 @@
   "74927117": {
    "entries": [
     {
+     "date": "2026-10-14",
+     "number": 33,
+     "text": "Notice of Appearance and Request for Notice",
+     "url": "https://www.courtlistener.com/docket/74927117/33/southbridge-associates-llc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-10-14",
+     "number": 32,
+     "text": "Notice of Appearance and Request for Notice",
+     "url": "https://www.courtlistener.com/docket/74927117/32/southbridge-associates-llc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-10-13",
+     "number": 31,
+     "text": "Order on Motion for Order/Authority",
+     "url": "https://www.courtlistener.com/docket/74927117/31/southbridge-associates-llc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-10-13",
+     "number": 30,
+     "text": "Order on Motion to Use Cash Collateral",
+     "url": "https://www.courtlistener.com/docket/74927117/30/southbridge-associates-llc/",
+     "ruling": false
+    },
+    {
      "date": "2026-10-13",
      "number": 29,
      "text": "Order on Motion to Appear pro hac vice",
@@ -1361,34 +1372,6 @@
      "text": "Notice of Appearance and Request for Notice",
      "url": "https://www.courtlistener.com/docket/74927117/26/southbridge-associates-llc/",
      "ruling": false
-    },
-    {
-     "date": "2026-10-09",
-     "number": 25,
-     "text": "Notice of Withdrawal of Appearance/Representation",
-     "url": "https://www.courtlistener.com/docket/74927117/25/southbridge-associates-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-09",
-     "number": 24,
-     "text": "Notice of Appearance and Request for Notice",
-     "url": "https://www.courtlistener.com/docket/74927117/24/southbridge-associates-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-09",
-     "number": 23,
-     "text": "Notice of Fee Due (Pro Hac Vice)",
-     "url": "https://www.courtlistener.com/docket/74927117/23/southbridge-associates-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-09",
-     "number": 22,
-     "text": "Certificate of Service",
-     "url": "https://www.courtlistener.com/docket/74927117/22/southbridge-associates-llc/",
-     "ruling": false
     }
    ],
    "caseIds": [
@@ -1398,10 +1381,89 @@
    "docketNumber": "26-41208",
    "dateTerminated": null,
    "url": "https://www.courtlistener.com/docket/74927117/southbridge-associates-llc/",
+   "lastEntryDate": "2026-10-14"
+  },
+  "74948724": {
+   "entries": [
+    {
+     "date": "2026-10-13",
+     "number": null,
+     "text": "Prior Filings",
+     "url": "https://www.courtlistener.com/docket/74948724/az-175th-street-llc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-10-10",
+     "number": 1,
+     "text": "Voluntary Petition (Chapter 11)",
+     "url": "https://www.courtlistener.com/docket/74948724/1/az-175th-street-llc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-10-10",
+     "number": null,
+     "text": "Automatic docket of credit card/debit card",
+     "url": "https://www.courtlistener.com/docket/74948724/az-175th-street-llc/",
+     "ruling": false
+    }
+   ],
+   "caseIds": [
+    "live-277"
+   ],
+   "court": "Bankr. E.D.N.Y.",
+   "docketNumber": "1-26-44763",
+   "dateTerminated": null,
+   "url": "https://www.courtlistener.com/docket/74948724/az-175th-street-llc/",
+   "lastEntryDate": "2026-10-13"
+  },
+  "74952112": {
+   "entries": [
+    {
+     "date": "2026-10-13",
+     "number": 1,
+     "text": "Supplement Summons",
+     "url": "https://www.courtlistener.com/docket/74952112/1/8/city-of-san-antonio-v-mullin-secretary-of-us-department-of-homeland/",
+     "ruling": false
+    },
+    {
+     "date": "2026-10-13",
+     "number": 1,
+     "text": "Civil Cover Sheet",
+     "url": "https://www.courtlistener.com/docket/74952112/1/2/city-of-san-antonio-v-mullin-secretary-of-us-department-of-homeland/",
+     "ruling": false
+    },
+    {
+     "date": "2026-10-13",
+     "number": 1,
+     "text": "Complaint",
+     "url": "https://www.courtlistener.com/docket/74952112/1/city-of-san-antonio-v-mullin-secretary-of-us-department-of-homeland/",
+     "ruling": false
+    }
+   ],
+   "caseIds": [
+    "live-275"
+   ],
+   "court": "W.D. Tex.",
+   "docketNumber": "5:26-cv-06542",
+   "dateTerminated": null,
+   "url": "https://www.courtlistener.com/docket/74952112/city-of-san-antonio-v-mullin-secretary-of-us-department-of-homeland/",
    "lastEntryDate": "2026-10-13"
   }
  },
  "events": [
+  {
+   "key": "70189262:54:2026-10-13:amended judgment",
+   "docketId": "70189262",
+   "caseIds": [
+    "live-137"
+   ],
+   "date": "2026-10-13",
+   "kind": "ruling",
+   "text": "Amended Judgment",
+   "entry": 54,
+   "url": "https://www.courtlistener.com/docket/70189262/54/united-states-v-schuster/",
+   "firstSeen": "2026-10-14"
+  },
   {
    "key": "74941502::2026-10-09:notice of dismissal of case if required documents are not filed within 72 hours (van-197)",
    "docketId": "74941502",
