@@ -39,6 +39,9 @@ const corrections: { entries: { date: string; caseId: string | null }[] } =
   JSON.parse(await Deno.readTextFile("js/corrections.json"));
 // Company, agency and property landing pages (scripts/build_entity_pages.ts,
 // which runs first).
+// Topic trackers each matter belongs to (scripts/build_trackers.ts, which runs first).
+const topicIndex: Record<string, { slug: string; name: string }[]> =
+  await Deno.readTextFile("js/topic-index.json").then(JSON.parse).catch(() => ({}));
 const entityIndex: { parties: Record<string, string>; properties: Record<string, string> } =
   await Deno.readTextFile("js/entity-index.json").then(JSON.parse).catch(() => ({ parties: {}, properties: {} }));
 
@@ -234,6 +237,7 @@ function mainFor(c: Case): string {
     ${c.significance ? `<h2 class="matter-h2">Why it matters</h2>\n    <p class="body-text">${c.significance}</p>` : ""}
     <div id="matter-corrections" data-matter-id="${esc(c.id)}"></div>
     ${sources ? `<div class="matter-sources">${sources}</div>` : ""}
+    ${(topicIndex[c.id] || []).map((t) => `<p class="matter-entity-link">Part of the <a href="/${esc(t.slug)}.html">${esc(t.name)}</a>: every related matter in one table.</p>`).join("\n    ")}
 
     <div id="matter-court" data-docket-url="${esc(c.docketUrl || "")}" data-matter-id="${esc(c.id)}"></div>
 

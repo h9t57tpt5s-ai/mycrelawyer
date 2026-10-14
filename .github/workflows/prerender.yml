@@ -16,6 +16,7 @@ on:
       - "scripts/build_matter_pages.ts"
       - "scripts/build_entity_pages.ts"
       - "scripts/build_og_images.py"
+      - "scripts/build_trackers.ts"
       - "scripts/build_sitemap.py"
       - "scripts/build_data_lite.ts"
       - "scripts/build_record_pages.ts"
@@ -56,6 +57,8 @@ jobs:
           sudo apt-get update -qq && sudo apt-get install -y -qq fonts-noto-core fonts-inter fonts-ibm-plex >/dev/null
           pip install --quiet pillow==11.3.0
           python3 scripts/build_og_images.py
+      # Topic trackers and the monthly CRE Litigation Index.
+      - run: deno run --allow-read --allow-write scripts/build_trackers.ts
       - run: deno run --allow-read --allow-write scripts/build_entity_pages.ts
       - run: deno run --allow-read --allow-write scripts/build_matter_pages.ts
       # Chapter 11 Watch and Federal Lawsuit Watch, and one page per petition or case.
@@ -63,7 +66,7 @@ jobs:
       - run: python3 scripts/build_sitemap.py
       - name: Commit prerendered pages
         run: |
-          git add -A matters chapter-11 federal-cases parties properties js/entity-index.json img/og img/og-image.png
+          git add -A matters chapter-11 federal-cases parties properties js/entity-index.json img/og img/og-image.png js/topic-index.json *-tracker.html litigation-index*.html
           git add bankruptcy-watch.html lawsuit-watch.html
           git add index.html litigation.html coverage.html companies.html judges.html company-*.html corrections.html sitemap.xml news-sitemap.xml js/data-lite.js js/matter-text.json
           if git diff --cached --quiet; then echo "Nothing changed."; exit 0; fi
