@@ -1,21 +1,21 @@
 {
  "ok": true,
- "generatedAt": "2026-10-13T18:30:29.459Z",
+ "generatedAt": "2026-10-14T01:22:35.006Z",
  "days": 30,
  "portfolios": 1,
  "entitiesWatched": 1,
  "sources": {
   "courtlistener": {
-   "stored": 1204,
+   "stored": 1213,
    "liveSince": "2026-09-19",
-   "lagSample": 547,
+   "lagSample": 556,
    "medianLagDays": 1,
    "p90LagDays": 2
   },
   "sec_edgar": {
-   "stored": 231,
+   "stored": 235,
    "liveSince": "2026-09-19",
-   "lagSample": 77,
+   "lagSample": 81,
    "medianLagDays": 1,
    "p90LagDays": 1
   },
@@ -152,6 +152,11 @@
   },
   "2026-10-13": {
    "stored": 20,
+   "alerts": 0,
+   "emailed": 0
+  },
+  "2026-10-14": {
+   "stored": 13,
    "alerts": 0,
    "emailed": 0
   }

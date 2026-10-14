@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-13T18:30:28+00:00",
+ "updatedAt": "2026-10-14T01:22:34+00:00",
  "about": "New federal civil cases between businesses or governments that name a commercial real estate business, or are real property foreclosure or lease cases between businesses, from federal court records via CourtListener; is_cre_suit in scripts/ingest_court_filings.py decides which. Builds lawsuit-watch.html and federal-cases/<slug>.html (scripts/build_record_pages.ts).",
  "filings": [
   {
@@ -13,6 +13,19 @@
    "suitNature": "",
    "cause": "",
    "slug": "owners-insurance-company-v-budd-commercial-real-estate-llc-gamd-7-26-cv-00312",
+   "type": "Federal civil case"
+  },
+  {
+   "caseName": "20/20 Property Inspections, LLC v. 20/20 Inspection Solutions, LLC",
+   "court": "District Court, M.D. Florida",
+   "courtId": "flmd",
+   "docketNumber": "6:26-cv-02380",
+   "dateFiled": "2026-10-13",
+   "docketUrl": "https://www.courtlistener.com/docket/74955613/2020-property-inspections-llc-v-2020-inspection-solutions-llc/",
+   "docketId": 74955613,
+   "suitNature": "",
+   "cause": "",
+   "slug": "20-20-property-inspections-llc-v-20-20-inspection-solutions-llc-flmd-6-26-cv-02380",
    "type": "Federal civil case"
   },
   {
