@@ -442,42 +442,6 @@ const RELAW_DATA = {
       docketLabel: "CourtListener opinion"
     },
     {
-      id: "live-012",
-      seoTitle: "Menlo Park SB 9 Park Fee Suit: $127,400 Fee Challenged",
-      seoDescription: "12 Maywood LLC, backed by Pacific Legal Foundation, sued Menlo Park over a $127,400 recreation in-lieu fee on a two-lot SB 9 subdivision, citing Sheetz.",
-      addedDate: "2026-08-11",
-      title: "Voskerician v. City of Menlo Park (SB 9 Park Fee Takings Challenge)",
-      category: "zoning-land-use",
-      status: "filed",
-      date: "2026-07-17",
-      jurisdiction: "San Mateo County Superior Court, California",
-      parties: [
-        { name: "12 Maywood LLC", role: "Petitioner/Plaintiff" },
-        { name: "City of Menlo Park", role: "Respondent/Defendant" }
-      ],
-      judge: null,
-      amountUsd: 127400,
-      amountBasis: "damages sought",
-      state: "CA",
-      amount: "$127,400 impact fee challenged",
-      source: "live",
-      sourceUrl: "https://pacificlegal.org/case/voskerician-menlo-park-exaction-impact-fee/",
-      summary: "Developer Mircea Voskerician, represented pro bono by the Pacific Legal Foundation, sued Menlo Park after the city conditioned ministerial approval of a two-lot SB 9 subdivision on a $127,400 'recreation in-lieu' fee, which he paid under protest in January 2026 to preserve his right to sue. The complaint alleges the fee fails the rough-proportionality test the U.S. Supreme Court applied to legislatively adopted fee schedules in Sheetz v. County of El Dorado (2024), and separately violates a state law barring 'offsite improvement' exactions on ministerial SB 9 approvals.",
-      significance: "Tests how far Sheetz's extension of Nollan/Dolan scrutiny to legislatively set fee schedules reaches in practice, a question with direct application to commercial impact fees, traffic mitigation charges, and affordable-housing in-lieu payments that municipalities calculate by formula rather than project-specific study. Developers and REITs paying such fees as a matter of course should watch the ruling for a template on challenging fee schedules that lack documented nexus and proportionality findings.",
-      body: [
-        "Developer Mircea Voskerician, represented pro bono by the Pacific Legal Foundation, sued the City of Menlo Park after it conditioned ministerial approval of his two-lot SB 9 subdivision on a $127,400 'recreation in-lieu' fee. Voskerician paid the fee under protest in January 2026 specifically to preserve his right to challenge it in court rather than delay his project.",
-        "The complaint advances two distinct theories: first, that the fee fails the rough-proportionality test the U.S. Supreme Court applied to legislatively adopted fee schedules in Sheetz v. County of El Dorado (2024); and second, that it separately violates a state law barring 'offsite improvement' exactions on approvals that, like SB 9 subdivisions, are ministerial rather than discretionary.",
-        "The case tests how far Sheetz's extension of Nollan/Dolan takings scrutiny to legislatively set, formula-based fee schedules actually reaches in practice — a question that bears directly on commercial impact fees, traffic mitigation charges, and affordable-housing in-lieu payments that municipalities typically calculate by formula rather than project-specific study. Developers and REITs that pay such fees as a routine cost of entitlement should watch the ruling for a template on challenging fee schedules that lack documented nexus and proportionality findings."
-      ],
-      timeline: [
-        { when: "January 2026", label: "Developer pays the $127,400 fee under protest to preserve his right to sue" },
-        { when: "July 17, 2026", label: "Voskerician sues the City of Menlo Park over the fee",  current: true }
-      ],
-      documentUrl: "https://pacificlegal.org/wp-content/uploads/2026/07/Voskerician-v.-Menlo-Park_PLF-Complaint_7.17.26.pdf",
-      documentLabel: "Read the filed complaint",
-      tags: ["takings clause", "impact fees", "exactions", "SB 9", "zoning"]
-    },
-    {
       id: "live-013",
       seoTitle: "Lightstone REIT Proxy Suit Over $59.8M Chairman Stake Survives",
       seoDescription: "Judge denied dismissal of claims that Lightstone Value Plus REIT proxies hid chairman David Lichtenstein's $59.8M stake in delaying liquidation.",
@@ -744,34 +708,6 @@ const RELAW_DATA = {
       ],
       tags: ["environmental", "CERCLA", "superfund", "industrial site", "montana"],
       docketUrl: "https://www.courtlistener.com/docket/73568530/united-states-of-america-v-columbia-falls-aluminum-company-llc/",
-      docketLabel: "CourtListener docket"
-    },
-    {
-      id: "live-020",
-      seoTitle: "UWM Sues Two Harbors Over Failed $1.3B Merger, Seeks $500M+",
-      seoDescription: "UWM Holdings sued mortgage REIT Two Harbors, alleging fraud and willful breach of their $1.3B merger deal as it turned to a CrossCountry Mortgage bid.",
-      addedDate: "2026-08-13",
-      title: "UWM Holdings Corp. v. Two Harbors Investment Corp. (Failed $1.3B Merger Fraud & Breach Suit)",
-      category: "reit-securities",
-      status: "filed",
-      date: "2026-08-10",
-      jurisdiction: "U.S. District Court, District of Maryland (Northern Division)",
-      parties: [
-        { name: "UWM Holdings Corp.", role: "Plaintiff" },
-        { name: "UWM Acquisitions 1 LLC", role: "Plaintiff" },
-        { name: "Two Harbors Investment Corp.", role: "Defendant" }
-      ],
-      judge: "Julie Rebecca Rubin",
-      amountUsd: 500000000,
-      amountBasis: "damages sought",
-      state: "MD",
-      amount: "$500M+ sought; $1.3B merger agreement at issue; $25.4M termination fee disputed as capped remedy",
-      source: "live",
-      sourceUrl: "https://www.housingwire.com/articles/uwm-sues-two-harbors-crosscountry-merger/",
-      summary: "UWM Holdings Corp. and UWM Acquisitions 1 LLC sued NYSE-listed mortgage REIT Two Harbors Investment Corp. on August 10, alleging Two Harbors' board and management willfully breached and committed fraud in connection with their December 2025 stock-for-stock merger agreement by sabotaging the March 16, 2026 shareholder vote and steering the company toward a competing all-cash offer from CrossCountry Mortgage. UWM alleges Two Harbors misrepresented its retail shareholder base, delayed producing a beneficial-owner list needed for solicitation, and violated the deal's nonsolicitation provision, while executives stood to receive cash payouts under the rival bid rather than stock. Two Harbors has called the suit frivolous.",
-      significance: "Tests whether a target REIT's conduct during proxy solicitation — not just its ultimate decision to accept a rival bid — can be recast as willful breach or fraud that escapes a negotiated termination-fee cap, a theory with direct application to any public real estate entity's stock-for-stock merger agreement. REIT boards and general counsel should treat proxy-outreach mechanics and documented good-faith engagement with rival bidders as independent litigation risk, not administrative detail, in any contested M&A process.",
-      tags: ["REIT", "merger litigation", "fraud", "breach of contract", "proxy solicitation"],
-      docketUrl: "https://www.courtlistener.com/docket/73740046/uwm-holdings-corp-v-two-harbors-investment-corp/",
       docketLabel: "CourtListener docket"
     },
     {
@@ -1491,53 +1427,6 @@ const RELAW_DATA = {
         { when: "August 24, 2026", label: "Massachusetts Appeals Court reverses the Appellate Division and reinstates the landlord's $198,000 judgment", current: true }
       ],
       tags: ["commercial lease", "summary process", "claim preclusion", "landlord-tenant", "massachusetts"]
-    },
-    {
-      id: "live-042",
-      seoTitle: "Zillow-Redfin Rental Listings Deal Unwound in FTC Settlement",
-      seoDescription: "Zillow and Redfin settled FTC and five-state antitrust claims, unwinding a deal under which Zillow paid Redfin $100M to exit the rental listings market.",
-      addedDate: "2026-08-25",
-      title: "FTC v. Zillow Group, Inc. (Rental-Listings Non-Compete Consent Order)",
-      category: "landlord-tenant",
-      status: "settled",
-      date: "2026-08-24",
-      jurisdiction: "U.S. District Court, Eastern District of Virginia",
-      parties: [
-        { name: "Federal Trade Commission", role: "Plaintiff" },
-        { name: "Commonwealth of Virginia", role: "Plaintiff" },
-        { name: "State of Arizona", role: "Plaintiff" },
-        { name: "State of Connecticut", role: "Plaintiff" },
-        { name: "State of New York", role: "Plaintiff" },
-        { name: "State of Washington", role: "Plaintiff" },
-        { name: "Zillow Group, Inc.", role: "Defendant" },
-        { name: "Zillow, Inc.", role: "Defendant" },
-        { name: "Redfin Corporation", role: "Defendant" }
-      ],
-      amountUsd: null,
-      judge: "Anthony J. Trenga",
-      state: "VA",
-      amount: "$100M payment central to the unwound agreement",
-      source: "live",
-      sourceUrl: "https://www.ftc.gov/news-events/news/press-releases/2026/08/ftc-secures-order-resolving-antitrust-concerns-zillow-redfin-agreement",
-      summary: "The FTC and five state attorneys general reached a stipulated settlement with Zillow Group, Inc. and Redfin Corporation on August 24, 2026, unwinding a February 2025 agreement under which Zillow paid Redfin $100M to exit the internet listing service market for apartment rentals, repost only Zillow's listings, and stay out of the market for up to nine years. The settlement came on the eve of trial in FTC v. Zillow Group, Inc., No. 1:25-cv-01638 (E.D. Va.), and requires U.S. District Judge Anthony J. Trenga's signature to become a binding order.",
-      significance: "The FTC alleged the arrangement raised the average cost of advertising a rental listing by roughly 14.5% and drove some landlords to stop buying online listings altogether, illustrating how antitrust enforcers now scrutinize the digital listing infrastructure landlords depend on, not just pricing coordination among owners themselves. Multifamily owners, REITs, and asset managers with exclusivity or data-sharing terms in vendor and platform agreements should expect continued regulatory attention to this category of arrangement.",
-      body: [
-        "The Federal Trade Commission, joined by five state attorneys general, has resolved its antitrust suit against Zillow Group, Inc. and Redfin Corporation, reaching a stipulated settlement on August 24, 2026 that unwinds a February 2025 agreement the government said eliminated Redfin as a competitor in the market for advertising rental listings, and in the process raised the cost of doing business for landlords and property managers who list apartments online. The settlement arrives just as FTC v. Zillow Group, Inc., No. 1:25-cv-01638 (E.D. Va.), was headed toward trial before U.S. District Judge Anthony J. Trenga, and it requires his signature to take effect as a binding order of the court.",
-        "The underlying agreement was, on its face, a routine commercial partnership. Under its terms, Zillow paid Redfin $100 million and other consideration in exchange for Redfin's agreement to shut down its own internet listing service for multifamily rental properties, exclusively repost Zillow's apartment listings on Redfin's platform, migrate its rental-advertising customers to Zillow, and stay out of the rental-listing advertising market for as long as nine years. The FTC's complaint, filed September 30, 2025, alleged that arrangement crossed from lawful cooperation into an unlawful agreement to divide a market, with attorneys general from New York, Arizona, Connecticut, Washington, and Virginia filing parallel suits that were later consolidated with the FTC's case in December 2025.",
-        "The commercial stakes were concrete and, according to the government, measurable. The FTC alleged that once the deal took effect, the average cost for a property manager or landlord to advertise a rental listing through Zillow's platform rose by roughly 14.5%, and that some landlords stopped purchasing online listing services altogether rather than absorb the increase. For an industry that has come to depend on internet listing services as the primary channel connecting available units with prospective tenants, removing Redfin as an independent, competing outlet for that advertising is exactly the kind of harm the Sherman Act and the FTC Act's unfair-methods-of-competition provisions are designed to prevent, a reduction in output and an increase in price that flows directly from an agreement between competitors rather than from ordinary market forces.",
-        "The case did not resolve quickly or predictably in the government's favor. Judge Trenga denied a joint motion by the FTC and the state plaintiffs for partial summary judgment in July 2026, declining to presume the Zillow-Redfin arrangement was per se unlawful and instead requiring the case to proceed toward a trial on the merits. That posture makes the eleventh-hour settlement notable: rather than risk a jury verdict, both companies agreed to structural relief that goes beyond a monetary payment. The stipulated order eliminates the exclusivity and non-compete provisions at the heart of the original deal, restores Redfin's right to sell its own rental advertising, display listings sourced from its own clients, and solicit new rental-advertising customers without being contractually required to share competitively sensitive business information with Zillow, and commits Redfin to relaunch its own internet listing service for apartment rentals within six months of the order becoming final.",
-        "For commercial real estate owners, developers, and asset managers, the significance extends beyond the two companies named as defendants. Antitrust enforcers have increasingly turned their attention to the digital infrastructure that mediates real estate transactions, including pricing software, listing platforms, and data-sharing arrangements among ostensible competitors, treating agreements that narrow the number of independent outlets or inputs available to property owners as a distinct category of competitive harm separate from more traditional theories of collusion among landlords themselves. Owners who rely on internet listing services to fill units should expect the competitive landscape among those platforms to shift again as Redfin re-enters the market, and larger portfolio owners and REITs with cross-market advertising contracts would be well served to revisit those agreements for exclusivity or data-sharing terms that could draw similar scrutiny, treating vendor and platform agreements as a live source of antitrust exposure going forward and watching for the FTC's follow-on compliance reporting and any parallel state-level scrutiny that may still be developing even after this settlement closes the federal docket."
-      ],
-      timeline: [
-        { when: "February 2025", label: "Zillow and Redfin enter the rental-listings agreement later challenged by the FTC" },
-        { when: "September 30, 2025", label: "FTC files its antitrust complaint in the Eastern District of Virginia" },
-        { when: "December 2025", label: "State attorneys general suits from New York, Arizona, Connecticut, Washington, and Virginia consolidated with the FTC's case" },
-        { when: "July 2026", label: "Judge Trenga denies partial summary judgment, sending the case toward trial" },
-        { when: "August 24, 2026", label: "FTC and five states file a stipulated settlement unwinding the agreement, pending Judge Trenga's signature", current: true }
-      ],
-      tags: ["antitrust", "FTC", "rental listings", "landlord-tenant", "multifamily"],
-      docketUrl: "https://www.courtlistener.com/docket/71501133/federal-trade-commission-v-zillow-group-inc/",
-      docketLabel: "CourtListener docket"
     },
     {
       id: "live-043",
@@ -4510,39 +4399,6 @@ const RELAW_DATA = {
       docketLabel: "CourtListener docket"
     },
     {
-      id: "live-126",
-      seoTitle: "Grand at Doral I Condo: Association Sues Over Developer Control",
-      seoDescription: "Grand at Doral I's association sued developer affiliates Prime Properties at Doral and Premier Properties at Doral, holders of 41 of 80 units.",
-      property: {"name": "Grand at Doral I", "state": "FL"},
-      addedDate: "2026-09-11",
-      title: "Grand at Doral I Condominium Association, Inc. v. Prime Properties at Doral, LLC et al. (Developer-Affiliate Association Control Suit)",
-      category: "landlord-tenant",
-      status: "filed",
-      date: "2026-08-25",
-      jurisdiction: "Miami-Dade County Circuit Court",
-      parties: [
-        { name: "Grand at Doral I Condominium Association", role: "Plaintiff" },
-        { name: "Prime Properties at Doral", role: "Defendant" },
-        { name: "Premier Properties at Doral", role: "Defendant" }
-      ],
-      judge: null,
-      amountUsd: null,
-      state: "FL",
-      amount: "Declaratory relief sought; no damages specified",
-      source: "live",
-      sourceUrl: "https://therealdeal.com/miami/2026/09/10/doral-condo-owners-sue-over-developers-association-control/",
-      summary: "The owners' association for the 80-unit Grand at Doral I condominium sued entities affiliated with the building's original developer, the Pablo Jose Valdes Florida Irrevocable Trust, alleging the trust's affiliates, Prime Properties at Doral and Premier Properties at Doral, hold 41 of the building's 80 units and a package of developer-only rights -- including exemption from leasing restrictions and capital-contribution requirements -- years after construction completed in 2022. The declaratory judgment complaint asks the court to determine whether Prime and Premier are validly exempt from the building's leasing restrictions and how parking spaces tied to an adjacent developer-controlled lot should be assigned.",
-      significance: "Illustrates a recurring Florida condo-conversion risk in which a developer conveys a majority of units to affiliated entities that retain outsized voting power and disparate rights after the statutory turnover point, and where the declaration's own amendment mechanics can make those provisions effectively unamendable without the affiliates' own consent. Developers and buyers of post-conversion condominium interests should scrutinize affiliate unit-holdings and exemption clauses, since Florida courts have shown increasing willingness to entertain owner challenges to governance structures that preserve developer control indefinitely.",
-      body: [
-        "Four years after Grand at Doral I welcomed its first residents, the 80-unit condominium's owners' association has gone to court to settle a question that has quietly shaped life in the building since it opened: who actually controls it. The association filed a declaratory judgment action in Miami-Dade County Circuit Court against entities affiliated with the building's original developer, the Pablo Jose Valdes Florida Irrevocable Trust, alleging that the developer never fully relinquished control of the property even though construction wrapped in 2022. According to the complaint, the trust transferred 41 of the building's 80 units -- a bare majority -- to two affiliated companies, Prime Properties at Doral and Premier Properties at Doral, both managed by Lucilla Suero and Niurka Fonte-Esquivel in their capacity as co-trustees of the Valdes trust.",
-        "The dispute is not simply about vote counting. The complaint alleges that when the trust conveyed those units to Prime and Premier, it also granted the two entities a package of developer rights that ordinary owners do not have, including the ability to rent out their units freely and an exemption from the leasing restrictions and capital-contribution obligations that apply to everyone else in the building. The association is asking the court to determine whether Prime and Premier are in fact exempt from the building's unit-leasing restrictions, and how parking spaces tied to an adjacent lot controlled by the Valdes trust should be assigned among owners.",
-        "What makes the case more than a routine internal governance dispute is a structural problem the association's own attorneys have flagged: under Grand at Doral I's governing documents, amending the declaration to eliminate Prime and Premier's exemptions would itself require a vote of Prime and Premier, since they control the votes needed to approve any such change. That circularity is precisely the kind of governance lock that Florida courts and legislators have grown increasingly skeptical of, as condominium associations statewide have pushed back against developers who structure post-completion ownership to preserve outsized influence long after a building is sold out.",
-        "Florida law generally requires developer-controlled boards to transition to unit-owner control once a statutory threshold of units has been sold, though the mechanics vary by declaration and by how developer affiliates are defined. Litigation over these structures typically turns on close reading of the declaration's own definitions -- whether an entity that is legally distinct from the developer but commonly controlled, and that originally received units as part of the developer's own allocation, should be treated as a developer affiliate for voting and disclosure purposes, or as an ordinary owner entitled to vote its full block.",
-        "For Grand at Doral I's independent owners, the practical stakes are straightforward: leasing flexibility, assessment obligations, and control over the building's finances and maintenance priorities all hinge on the outcome. For the broader Florida condominium market, already reshaped by post-Surfside structural reforms that increased financial and disclosure burdens on associations statewide, the case is a reminder that governance battles over developer influence remain very much alive even in buildings with no structural safety issues at all. Developers structuring post-completion ownership through affiliated entities should expect close judicial scrutiny of arrangements that concentrate voting power or preserve exemptions unavailable to other owners, particularly where those exemptions can only be undone with the affiliate's own consent, and unit owners or newly independent boards evaluating a developer transition would do well to audit the declaration for circular amendment requirements before assuming that a nominal transfer of control has actually shifted governing authority."
-      ],
-      tags: ["condominium", "developer control", "leasing restrictions", "HOA governance", "Florida"]
-    },
-    {
       id: "live-127",
       seoTitle: "Former Nordstrom Site Anchorage: Partition Sale Suit by ACDA",
       seoDescription: "Anchorage Community Development Authority, an 80% owner, sued co-owners for a court-ordered sale of the former downtown Nordstrom store site.",
@@ -5524,45 +5380,6 @@ const RELAW_DATA = {
         { when: "September 16, 2026", label: "MLP Ventures files a new suit seeking reversal of the denial, preliminary approval, and appointment of an independent referee", current: true }
       ],
       tags: ["zoning", "data center", "pennsylvania", "land use appeal", "municipal law"]
-    },
-    {
-      id: "live-157",
-      seoTitle: "Burlington, VT Short-Term Rental Ordinance Challenge Dismissed",
-      seoDescription: "Vermont's Supreme Court affirmed dismissal of a challenge to Burlington's 2022 short-term rental ordinance, holding it unripe before enforcement.",
-      addedDate: "2026-09-19",
-      title: "32 Intervale, LLC v. City of Burlington (Short-Term Rental Ordinance Challenge Dismissed as Unripe)",
-      category: "zoning-land-use",
-      status: "ruling",
-      date: "2026-04-10",
-      jurisdiction: "Vermont Supreme Court",
-      parties: [
-        { name: "32 Intervale, LLC", role: "Plaintiff-Appellant" },
-        { name: "City of Burlington", role: "Defendant-Appellee" }
-      ],
-      judge: "Eaton",
-      amountUsd: null,
-      state: "VT",
-      amount: "Dispute over regulatory status of 22 nonowner-occupied short-term rental units across 17 properties",
-      source: "live",
-      sourceUrl: "https://www.sevendaysvt.com/news/supreme-court-sides-with-burlington-on-short-term-rentals-43731219/",
-      summary: "The Vermont Supreme Court affirmed dismissal of a declaratory judgment suit brought by 17 Burlington property owners seeking to preemptively exempt 22 short-term rental units from the city's 2022 ordinance restricting nonowner-occupied rentals, holding in 32 Intervale, LLC v. City of Burlington (2026 VT 9) that the dispute was not ripe because no enforcement action had been taken and resolving nonconforming-use status would require property-specific factual findings.",
-      significance: "Confirms that a citywide preemptive challenge to a short-term rental ordinance's applicability can be defeated on ripeness grounds without a court reaching the merits, giving municipalities nationwide facing similar rental-regulation litigation a procedural template, while leaving rental operators' nonconforming-use claims to be litigated individually only once the city actually moves to enforce.",
-      body: [
-        "The Vermont Supreme Court has affirmed the dismissal of a long-running challenge brought by a group of Burlington short-term rental operators against the city's 2022 ordinance restricting nonowner-occupied rentals, ruling in 32 Intervale, LLC v. City of Burlington (2026 VT 9, decided April 10, 2026, Docket No. 25-AP-248) that the dispute was not yet ripe for judicial review. The decision closes out, at least for now, a multi-year effort by property owners to get ahead of enforcement through a declaratory judgment action rather than waiting for the city to act against them individually, and it offers municipalities elsewhere navigating short-term rental disputes a template for defeating similar preemptive suits.",
-        "The case traces back to Burlington's 2022 short-term rental ordinance, which imposed new definitions and requirements on the practice and, notably, prohibited most nonowner-occupied short-term rentals within the city. Seventeen property owners, collectively holding more than sixteen short-term rental units concentrated in Burlington's Old North End, sued the city seeking a declaratory judgment that the ordinance did not apply to their twenty-two units because those uses predated the ordinance and qualified as legal nonconforming uses exempt from the new restrictions. The lead plaintiff, Airbnb host Sam Gardner, brought the suit under his business entity, 32 Intervale LLC.",
-        "The litigation had already made one prior trip through Vermont's court system. The owners initially filed their declaratory judgment action in the Civil Division of the Chittenden Superior Court in 2023, which dismissed the case on the ground that Vermont's Environmental Division, not the Civil Division, held exclusive subject matter jurisdiction over the dispute because it concerned application of a municipal land use regulation. The Vermont Supreme Court affirmed that jurisdictional ruling in a 2025 decision, sending the matter to the Environmental Division. Once there, the Environmental Division dismissed the refiled case on an independent ground: that no live controversy existed for it to resolve.",
-        "In this second appeal, the Vermont Supreme Court agreed. Because the city had not yet taken enforcement action against any of the seventeen owners' properties, and because resolving whether any given unit qualified as a protected nonconforming use would require individualized factual findings, including how long each unit had operated as a rental, under what conditions, and whether operations had lapsed in a way that could forfeit nonconforming status, the court held that the dispute was not ripe. A blanket declaratory ruling covering twenty-two distinct properties was not something the court could issue in the abstract; the question was inherently property-specific and would only become concrete once the city moved to enforce the ordinance against a particular owner's particular unit.",
-        "The ripeness holding leaves the underlying merits question, whether these Old North End rentals in fact qualify as legal nonconforming uses grandfathered against the 2022 ordinance, entirely undecided. For the property owners, that is a mixed result: they avoided an adverse ruling on the merits but gained nothing, and remain exposed to enforcement at any time, at which point they would need to raise their nonconforming-use defense in that individual enforcement proceeding rather than through a preemptive citywide challenge. For Burlington and other municipalities, the decision is a clean procedural win, confirming that a broad-based preemptive challenge to a rental ordinance's applicability can be defeated on ripeness grounds without the city ever having to litigate the substance of whether any particular property is exempt. Short-term rental operators elsewhere considering similar preemptive suits should expect ripeness to be a significant hurdle, and should instead maintain contemporaneous documentation of when and how a rental use began so that record is ready when an individual enforcement dispute eventually arises."
-      ],
-      timeline: [
-        { when: "2022", label: "Burlington adopts an ordinance restricting most nonowner-occupied short-term rentals" },
-        { when: "2023", label: "32 Intervale LLC and 16 other owners file a declaratory judgment action in Chittenden Superior Court's Civil Division" },
-        { when: "2025", label: "The Vermont Supreme Court affirms dismissal for lack of subject matter jurisdiction, sending the case to the Environmental Division" },
-        { when: "April 10, 2026", label: "The Vermont Supreme Court affirms dismissal of the refiled case as unripe (2026 VT 9)", current: true }
-      ],
-      documentUrl: "https://www.courtlistener.com/opinion/10840840/32-intervale-llc-v-city-of-burlington/",
-      documentLabel: "Read the official opinion",
-      tags: ["zoning", "short-term rental", "ripeness", "vermont", "land use"]
     },
     {
       id: "live-158",
@@ -10266,14 +10083,6 @@ const RELAW_DATA = {
       bioUrl: "https://www.mass.gov/courts/court-info/appealscourt/appeals-court-justices/associate-justice-sookyoung-shin.html"
     },
     {
-      name: "Anthony J. Trenga",
-      slug: "anthony-j-trenga",
-      title: "U.S. District Judge",
-      court: "U.S. District Court, Eastern District of Virginia",
-      background: "Nominated by President George W. Bush and confirmed to the federal bench in September 2008, assuming senior status in June 2021. Previously chaired the litigation department at Miller & Chevalier in Washington, D.C.",
-      bioUrl: "https://www.fjc.gov/history/judges/trenga-anthony-john"
-    },
-    {
       name: "Leondra Kruger",
       slug: "leondra-kruger",
       title: "Associate Justice — authored the Court's unanimous opinion",
@@ -10536,8 +10345,6 @@ const RELAW_DATA = {
     { name: "Silver Star Properties REIT", matchTerm: "Silver Star Properties", slug: "silver-star-properties-reit", description: "Houston-based non-traded REIT, repositioning from office to self-storage." },
     { name: "RAD Diversified REIT", matchTerm: "RAD Diversified", slug: "rad-diversified-reit", description: "Tampa-based non-traded REIT." },
     { name: "Metro Loft", slug: "metro-loft", description: "New York City office-to-residential conversion developer led by Nathan Berman." },
-    { name: "UWM Holdings Corp.", matchTerm: "UWM Holdings", slug: "uwm-holdings", description: "Parent company of United Wholesale Mortgage, the nation's largest wholesale mortgage lender.", website: "https://www.uwm.com" },
-    { name: "Two Harbors Investment Corp.", matchTerm: "Two Harbors", slug: "two-harbors-investment", description: "NYSE-listed mortgage REIT.", website: "https://www.twoharborsinvestment.com" },
     { name: "Willow Bridge Property Company", matchTerm: "Willow Bridge", slug: "willow-bridge-property", description: "National multifamily property management and development company.", website: "https://www.willowbridgepc.com" },
     { name: "Travelers", slug: "travelers", description: "Commercial property and casualty insurance carrier.", website: "https://www.travelers.com" },
     { name: "Columbia Falls Aluminum Company", matchTerm: "Columbia Falls Aluminum", slug: "columbia-falls-aluminum", description: "Former Montana aluminum smelter operator, now managing legacy Superfund cleanup liability at the site." },

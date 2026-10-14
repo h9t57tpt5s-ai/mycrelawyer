@@ -5,6 +5,56 @@
   {
    "date": "2026-10-14",
    "scope": "matter",
+   "caseId": "live-157",
+   "subject": "32 Intervale, LLC v. City of Burlington (short-term rental ordinance challenge)",
+   "kind": "Removed: out of scope",
+   "was": "Listed as a zoning and land-use matter: 17 Burlington, Vermont property owners' challenge to the city's ordinance restricting nonowner-occupied short-term rentals of 22 residential units.",
+   "now": "Removed. It concerns how individual residential units may be rented, not a commercial real estate matter; the old address redirects to the tracker.",
+   "basis": "Commercial-only scope rule"
+  },
+  {
+   "date": "2026-10-14",
+   "scope": "matter",
+   "caseId": "live-126",
+   "subject": "Grand at Doral I Condominium Association v. Prime Properties at Doral (condominium association control suit)",
+   "kind": "Removed: out of scope",
+   "was": "Listed as a landlord-tenant matter: an 80-unit residential condominium association's suit over developer affiliates' exemption from leasing restrictions and parking rights.",
+   "now": "Removed. It is a residential condominium governance dispute, not a commercial real estate matter; the old address redirects to the tracker.",
+   "basis": "Commercial-only scope rule"
+  },
+  {
+   "date": "2026-10-14",
+   "scope": "matter",
+   "caseId": "live-042",
+   "subject": "FTC v. Zillow Group, Inc. (rental-listings non-compete consent order)",
+   "kind": "Removed: out of scope",
+   "was": "Listed as a landlord-tenant matter: the FTC and five states' antitrust settlement unwinding Zillow's agreement paying Redfin to leave the online apartment-rental listings market.",
+   "now": "Removed. It is an antitrust case about residential rental advertising with no commercial real estate party or property; the old address redirects to the tracker, and the judge profile that listed only this matter is removed.",
+   "basis": "Commercial-only scope rule"
+  },
+  {
+   "date": "2026-10-14",
+   "scope": "matter",
+   "caseId": "live-020",
+   "subject": "UWM Holdings Corp. v. Two Harbors Investment Corp. (failed merger suit)",
+   "kind": "Removed: out of scope",
+   "was": "Listed as a REIT and securities matter: a residential mortgage lender's fraud and breach suit against a residential mortgage REIT over their terminated merger.",
+   "now": "Removed. Neither the companies nor the deal involve commercial real estate; the old address redirects to the tracker, and the UWM Holdings and Two Harbors company pages, which listed only this matter, are removed.",
+   "basis": "Commercial-only scope rule"
+  },
+  {
+   "date": "2026-10-14",
+   "scope": "matter",
+   "caseId": "live-012",
+   "subject": "Voskerician v. City of Menlo Park (SB 9 park fee challenge)",
+   "kind": "Removed: out of scope",
+   "was": "Listed as a zoning and land-use matter: a challenge to a $127,400 park fee imposed on a two-lot split of a single-family lot under California's SB 9.",
+   "now": "Removed. SB 9 lot splits are single-family residential approvals, not a commercial real estate matter; the old address redirects to the tracker.",
+   "basis": "Commercial-only scope rule"
+  },
+  {
+   "date": "2026-10-14",
+   "scope": "matter",
    "caseId": "live-183",
    "subject": "9 New York Ave LLC v. JLL (D.C. apartment tower NOI fraud suit)",
    "kind": "Removed: duplicate",

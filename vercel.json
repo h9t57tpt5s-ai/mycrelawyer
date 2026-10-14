@@ -31,6 +31,46 @@
       "permanent": false
     },
     {
+      "source": "/matters/live-012.html",
+      "destination": "/litigation.html",
+      "permanent": true
+    },
+    {
+      "source": "/matters/live-020.html",
+      "destination": "/litigation.html",
+      "permanent": true
+    },
+    {
+      "source": "/matters/live-042.html",
+      "destination": "/litigation.html",
+      "permanent": true
+    },
+    {
+      "source": "/matters/live-126.html",
+      "destination": "/litigation.html",
+      "permanent": true
+    },
+    {
+      "source": "/matters/live-157.html",
+      "destination": "/litigation.html",
+      "permanent": true
+    },
+    {
+      "source": "/company-uwm-holdings.html",
+      "destination": "/companies.html",
+      "permanent": true
+    },
+    {
+      "source": "/company-two-harbors-investment.html",
+      "destination": "/companies.html",
+      "permanent": true
+    },
+    {
+      "source": "/judge-anthony-j-trenga.html",
+      "destination": "/judges.html",
+      "permanent": true
+    },
+    {
       "source": "/matters/live-183.html",
       "destination": "/matters/live-035.html",
       "permanent": true
