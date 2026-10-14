@@ -16,7 +16,7 @@ const RELAW_DATA = {
      Drives the homepage's "New Today" pill: it only shows when this
      equals the visitor's local today. Updated by the digest automation
      each time Step 4 successfully adds a case — never touched otherwise. */
-  lastUpdatedDate: "2026-10-13",
+  lastUpdatedDate: "2026-10-14",
   categories: [
     { id: "landlord-tenant", label: "Landlord–Tenant", color: "var(--cat-landlord)" },
     { id: "zoning-land-use", label: "Zoning & Land Use", color: "var(--cat-zoning)" },
@@ -9394,6 +9394,46 @@ const RELAW_DATA = {
         { when: "October 6, 2026", label: "Cooperation and Settlement Agreement and Braemar-Ashford Allocation Agreement signed; first $20M installment due", current: true },
         { when: "October 8, 2026", label: "Braemar files 8-K with the agreements and announces the settlement in a press release" },
         { when: "December 21, 2026", label: "Braemar 2026 annual meeting scheduled; Al Shams must vote with board recommendations" }
+      ]
+    },
+    {
+      id: "live-290",
+      seoTitle: "Schell Road Gravel Mine: Michigan Appeals Court Backs Township",
+      seoDescription: "Michigan Court of Appeals upheld Grant Township's ability to amend its mining zoning ordinance while Schell Road LLC's gravel-mine permit mandamus suit was pending.",
+      addedDate: "2026-10-14",
+      title: "Schell Road, LLC v. Vanderford: Michigan Appeals Court Lets Township Amend Mining Ordinance Mid-Litigation to Defeat Gravel Mine Permit Bid",
+      category: "zoning-land-use",
+      status: "ruling",
+      date: "2026-10-13",
+      jurisdiction: "Michigan Court of Appeals",
+      state: "MI",
+      amount: "Not stated in the opinion",
+      source: "live",
+      sourceUrl: "https://storage.courtlistener.com/pdf/2026/10/13/schell_road_llc_v._steve_vanderford.pdf",
+      propertyType: "Land/Development",
+      property: { name: "Schell Road property", address: "Schell Road", city: "Grant Township", state: "MI" },
+      summary: "The Michigan Court of Appeals affirmed a Grand Traverse Circuit Court ruling rejecting Schell Road, LLC's mandamus action against Grant Township over its special land use application to operate a gravel mine on 80 acres it purchased in 2022. The panel held that Schell Road's application was incomplete under the township's pre-amendment zoning ordinance, so the company never had the clear legal right to a public hearing that mandamus requires, and let stand the trial court's finding that the township did not act in bad faith when it amended its mining ordinance for the first time since 1998 while the case was pending.",
+      significance: "The ruling shows commercial developers how much latitude a township retains to revise its own zoning ordinance in the middle of a pending entitlement dispute, and how high the bar is for a mandamus claim when the underlying application's completeness is contested. Developers pursuing extractive or other special land uses should treat application completeness, not just filing priority, as the decisive fact a court will resolve against them on summary disposition if the record is thin.",
+      body: [
+        "The Michigan Court of Appeals on October 13, 2026 affirmed a trial court ruling that handed Grant Township, a local government in Grand Traverse County, a decisive win over a commercial landowner that had sought to force a public hearing on its special land use application. The unpublished, per curiam decision in Schell Road, LLC v. Vanderford rejected developer Schell Road, LLC's bid for a writ of mandamus against the township's zoning administrator and planning commission, and upheld the township's decision to amend its mining ordinance while the litigation was pending.",
+        "Schell Road, LLC purchased 80 acres on Schell Road in Grant Township in 2022, intending to develop and operate a gravel mine. The company submitted an initial special land use application that September, with site plans from a civil engineer. It was the first mining-operation application the township had received since 2003, and it prompted officials to question whether the township's zoning ordinance, unchanged on mining regulations since 1998, properly accounted for state law that had been amended in 2011. While the township studied that question, Schell Road submitted supplemental materials in December 2022 and January 2023 to address what officials described as deficiencies in the original filing, and township officials told the company they intended to delay consideration of the application until the ordinance could be amended.",
+        "After an exchange of letters in which Schell Road's counsel accused the township of deliberately delaying review, the company filed a circuit court complaint in February 2023 seeking a writ of mandamus to compel a public hearing. While that case was pending, the Grant Township Planning Commission recommended, and the township board adopted, amendments to the mining provisions of the zoning ordinance, effective March 30, 2023. Schell Road amended its complaint to add claims that the amendments were enacted in bad faith specifically to block its application, along with due process, injunctive and declaratory-relief theories.",
+        "The Grand Traverse Circuit Court sided with the township on cross-motions for summary disposition, finding that Schell Road's original application was incomplete under the township's own pre-amendment ordinance and that the company therefore never had the clear, legal right to a hearing that mandamus relief requires in Michigan. The trial court also rejected the bad-faith theory, concluding the amended ordinance complied with the state statute governing township zoning, MCL 125.3205.",
+        "On appeal, a panel of Judges Korobkin, Rick and Maldonado affirmed across the board. The court held that whether an application is complete under a zoning ordinance can be resolved as a question of law on summary disposition rather than left to a jury, and that the trial court was entitled to weigh the documentary record, including the parties' correspondence and the civil engineer's site plans, in reaching that conclusion. Because Schell Road could not establish the clear legal right mandamus requires, the panel did not need to disturb the trial court's separate finding that the ordinance amendment itself was not adopted in bad faith.",
+        "The case is a reminder to commercial developers and their counsel that a mandamus claim against a local government lives or dies on the completeness of the underlying application measured against the ordinance as it existed when filed, and that courts will treat that as a legal question they can decide without a trial once the record is developed. It also confirms that a municipality retains real latitude to amend its own zoning ordinance while a litigant's case is pending, particularly where it can point to an independent, long-standing rationale, here an ordinance unrevised for roughly a quarter-century against a statutory backdrop that had already changed, and that absent a strong, record-supported showing that the amendment targeted one applicant's project, courts are unlikely to second-guess its timing. Developers chasing a special land use permit for mining or similar extractive uses should build a complete, well-documented application record from the outset rather than relying on the pendency of litigation to freeze the regulatory landscape in their favor."
+      ],
+      tags: ["zoning", "mandamus", "gravel mine", "special land use", "michigan"],
+      parties: [
+        { name: "Schell Road, LLC", role: "Plaintiff-Appellant" },
+        { name: "Grant Township", role: "Defendant-Appellee" }
+      ],
+      judge: null,
+      amountUsd: null,
+      timeline: [
+        { when: "September 20, 2022", label: "Schell Road, LLC submits special land use application for a gravel mine" },
+        { when: "February 17, 2023", label: "Schell Road files circuit court complaint seeking a writ of mandamus" },
+        { when: "March 30, 2023", label: "Grant Township's amended mining zoning ordinance takes effect" },
+        { when: "October 13, 2026", label: "Michigan Court of Appeals affirms summary disposition for the township", current: true }
       ]
     }
   ],
