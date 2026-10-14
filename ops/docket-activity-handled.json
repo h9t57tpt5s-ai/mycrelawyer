@@ -7,6 +7,7 @@
   "74638795:6:2026-10-08:request for default judgment by clerk": {"caseId": "live-031", "at": "2026-10-09", "action": "docket text only"},
   "74941502:null:2026-10-09:notice of dismissal of case if required documents are not filed within 72 hours (van-197)": {"caseId": "live-244", "at": "2026-10-09", "action": "skipped: routine administrative deficiency notice, not a substantive ruling or outcome"},
   "74941502::2026-10-09:notice of dismissal of case if required documents are not filed within 72 hours (van-197)": {"caseId": "live-244", "at": "2026-10-10", "action": "skipped: same event as above under the current key format (entry number now serializes as empty, not \"null\"); routine administrative deficiency notice, not a substantive ruling or outcome"},
-  "67174489:1587:2026-10-09:memorandum opinion of the court": {"caseId": "live-069", "at": "2026-10-10", "action": "docket text only"}
+  "67174489:1587:2026-10-09:memorandum opinion of the court": {"caseId": "live-069", "at": "2026-10-10", "action": "docket text only"},
+  "70189262:54:2026-10-13:amended judgment": {"caseId": "live-137", "at": "2026-10-14", "action": "docket text only"}
  }
 }

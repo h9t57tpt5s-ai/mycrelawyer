@@ -4788,8 +4788,9 @@ const RELAW_DATA = {
         { when: "2018–2022", label: "Schuster raises and misuses more than $13M from Silverback investors" },
         { when: "May 2025", label: "SEC files civil fraud action; federal prosecutors bring criminal wire fraud and securities fraud charges" },
         { when: "February 27, 2026", label: "Schuster pleads guilty to securities fraud" },
-        { when: "August 11, 2026", label: "Judge Caproni sentences Schuster to 4 years in prison and orders $13M forfeiture", current: true },
-        { when: "October 20, 2026", label: "Schuster is scheduled to surrender to the Federal Bureau of Prisons", upcoming: true }
+        { when: "August 11, 2026", label: "Judge Caproni sentences Schuster to 4 years in prison and orders $13M forfeiture" },
+        { when: "October 20, 2026", label: "Schuster is scheduled to surrender to the Federal Bureau of Prisons", upcoming: true },
+        { when: "October 13, 2026", label: "Court enters amended judgment (docket entry 54)", current: true }
       ],
       judge: "Valerie E. Caproni",
       docketUrl: "https://www.courtlistener.com/docket/70189262/united-states-v-schuster/",
@@ -9555,6 +9556,85 @@ const RELAW_DATA = {
         { when: "June 2026", label: "Dunnavant Valley Dining LLC sues PRG Valley Post in Shelby County Circuit Court" },
         { when: "October 2026", label: "Court enters $7.19 million default judgment, reported by AL.com on October 7", current: true }
       ]
+    },
+    {
+      id: "live-294",
+      seoTitle: "CRG Acquisition v. Holliston: 800K SF Warehouse Needs Permit",
+      seoDescription: "Mass. Appeals Court rules CRG Acquisition's 800,000-sq-ft Holliston warehouse is not a permitted-as-of-right use, reversing a Land Court win for the developer.",
+      property: {"name": null, "address": null, "city": "Holliston", "state": "MA"},
+      addedDate: "2026-10-14",
+      title: "CRG Acquisition, LLC v. Planning Board of Holliston: Massachusetts Appeals Court Rules 800,000-Square-Foot Warehouse Is Not a Permitted-as-of-Right Use",
+      category: "zoning-land-use",
+      status: "ruling",
+      date: "2026-10-14",
+      jurisdiction: "Massachusetts Appeals Court",
+      state: "MA",
+      amount: "800,000-square-foot warehouse project at risk (no dollar figure stated)",
+      source: "live",
+      sourceUrl: "https://www.mass.gov/doc/crg-acquisition-llc-v-planning-board-of-appeals-of-holliston-ac-w25p915/download",
+      propertyType: "Industrial",
+      summary: "On October 14, 2026, the Massachusetts Appeals Court reversed a Land Court judgment that had let CRG Acquisition, LLC build an approximately 800,000-square-foot warehouse and distribution facility in Holliston without a special permit. The panel held that, even without deferring to the planning board's interpretation, the proposed facility's scale takes it out of the zoning bylaw's as-of-right 'wholesale office or showroom' warehouse category and into the bylaw's general-industrial-use category, which requires a special permit the planning board had already denied in 2021.",
+      significance: "The ruling warns logistics and warehouse developers that a town's use table listing 'warehouse' as a permitted use does not guarantee as-of-right status for a large-scale distribution facility; courts will look past the label to the project's actual size and intensity, including loading docks and trailer parking, to decide which use category really governs. It also shows that winning a favorable declaratory-judgment ruling at the trial level does not foreclose reversal on appeal, especially where the underlying discretionary special-permit denial already stands on its own, independent grounds.",
+      body: [
+        "The Massachusetts Appeals Court reversed a Land Court judgment on October 14, 2026 that had declared CRG Acquisition, LLC's proposed 800,000-square-foot warehouse and distribution facility in Holliston a use permitted as of right, meaning no special permit was required. The panel's ruling effectively reinstates the position of the town and its planning board, which had already denied CRG a special permit for the project in 2021 after eleven public hearings. Because that discretionary denial was never disturbed, the Appeals Court's decision leaves the project without a zoning path forward in its current form.",
+        "CRG is the buyer under a pending purchase and sale agreement for roughly seventy-two acres of land from New Hopping Brook Realty Trust, sited in Holliston's industrial zoning district. In 2019, CRG applied to the planning board for site plan approval to build the warehouse and distribution facility, a project that would include 423 trailer truck spaces, 170 loading docks and 129 passenger vehicle parking spaces. The planning board approved the site plan in March 2020 with thirty-one conditions, though the town's building inspector flagged a concern at the time that the use might ultimately require a special permit for general industrial uses rather than qualifying under the bylaw's warehouse category.",
+        "That concern proved prescient. In June 2020, CRG applied for a special permit while maintaining that none was actually required, and separately sought approval of a modified site plan with fewer trailer spaces and loading docks. After eleven public hearings, the planning board denied both the special permit and the modified site plan in July 2021, citing concerns about traffic, noise and the project's impact on the town's historical and agricultural character. CRG responded by suing in the Land Court on two tracks: a direct appeal of the board's denials under G. L. c. 40A, Section 17, and a separate declaratory judgment claim under G. L. c. 240, Section 14A, arguing that its warehouse was a use permitted by right under the bylaw's Section III.G.1, covering 'wholesale office or showroom, including warehouse facilities,' so that no special permit was needed in the first place.",
+        "A Land Court judge agreed with CRG on the declaratory judgment count, reasoning that the bylaw's specific use of the word 'warehouse' in Section III.G.1, and nowhere else in its table of uses, meant the principal use of a property as a warehouse was allowed as of right in the industrial district. A judgment entered declaring that CRG needed no special permit and remanding the separate site-plan dispute to the planning board for further review. The town and planning board appealed, and the Appeals Court reversed. The panel agreed with CRG that no deference was owed to the board's interpretation of the use tables for purposes of the declaratory judgment claim, since that statute does not involve review of an existing board decision, unlike a direct zoning appeal. But reviewing the bylaw independently, the panel agreed with the town on the merits: given the scale of CRG's proposed facility, the project falls under the bylaw's separate category for general industrial uses exceeding 15,000 square feet of floor area, not the as-of-right warehouse category CRG had invoked, so a special permit is required after all.",
+        "The practical upshot for logistics and warehouse developers is that a zoning bylaw's use table cannot be read by matching a keyword like 'warehouse' to a permitted-as-of-right category without accounting for separate, size-based use categories the same bylaw may impose on larger facilities. A roughly 800,000-square-foot distribution center with hundreds of trailer spaces and loading docks can fall outside a town's ordinary warehouse use classification even when that classification exists elsewhere in the same bylaw, pushing the project into a discretionary special-permit process that neighbors and local officials can use to raise traffic, noise and character objections. Developers assembling large industrial sites should confirm, before signing a purchase agreement, whether local bylaws tie use classification to project size or intensity, and should not assume that a favorable declaratory judgment on that question at the trial level will survive an appeal once the underlying discretionary permit denial is already final."
+      ],
+      tags: ["warehouse", "zoning", "special permit", "massachusetts", "industrial"],
+      parties: [
+        { name: "CRG Acquisition, LLC", role: "Appellee" },
+        { name: "New Hopping Brook Realty Trust", role: "Appellee" },
+        { name: "Planning Board of Holliston", role: "Appellant" },
+        { name: "Town of Holliston", role: "Appellant" }
+      ],
+      judge: "Robert E. Toone Jr.",
+      amountUsd: null,
+      timeline: [
+        { when: "2019", label: "CRG applies for site plan approval for an approximately 800,000-square-foot warehouse and distribution facility" },
+        { when: "March 2020", label: "Planning board approves the site plan with 31 conditions" },
+        { when: "July 2021", label: "Planning board denies CRG's special permit application and modified site plan approval after 11 public hearings" },
+        { when: "August 2021", label: "CRG sues in the Land Court, both appealing the denials and seeking a declaration that no special permit is required" },
+        { when: "October 14, 2026", label: "Massachusetts Appeals Court reverses, holding the warehouse is not a permitted-as-of-right use and a special permit is required", current: true }
+      ]
+    },
+    {
+      id: "live-295",
+      seoTitle: "GSD Contracting v. All American: Hotel Retainage Fight",
+      seoDescription: "Florida's Fourth DCA affirms a $71,582.98 retainage award to a hotel subcontractor but reverses $45,300 the trial court also awarded for work never performed.",
+      addedDate: "2026-10-14",
+      title: "GSD Contracting, LLC v. All American Builders & Debris Removal, Inc.: Florida Appeals Court Affirms $71,582.98 Retainage After Mold Dispute on Hotel Project",
+      category: "construction-defect",
+      status: "ruling",
+      date: "2026-10-14",
+      jurisdiction: "District Court of Appeal of Florida, Fourth District",
+      state: "FL",
+      amount: "$71,582.98 retainage affirmed; $45,300 unperformed-work award reversed",
+      source: "live",
+      sourceUrl: "https://storage.courtlistener.com/pdf/2026/10/14/gsd_contracting_llc_v._all_american_builders__debris_removal_inc..pdf",
+      propertyType: "Hospitality",
+      summary: "On October 14, 2026, Florida's Fourth District Court of Appeal affirmed a trial court judgment that GSD Contracting, LLC breached its subcontract with All American Builders & Debris Removal, Inc. by withholding a $71,582.98 retainage owed on a five-story hotel project, after a mold-remediation dispute led GSD to terminate the subcontractor. The court reversed a separate $45,300 the trial court had also awarded for work All American never performed, since All American had never sought that amount and the subcontract itself barred recovery for unperformed work after a termination for convenience.",
+      significance: "The decision is a reminder that termination-for-convenience and retainage clauses are enforced literally: absent an express termination-for-cause provision, a general contractor cannot rely on an alleged subcontractor default, including a dispute over remediation work, as grounds to withhold a retainage that has otherwise become payable under the contract's own terms. General contractors stepping into distressed projects as a replacement GC, as GSD did here, should confirm their subcontracts actually contain the for-cause termination and offset rights they intend to invoke before withholding payment, and should document safety and remediation responses, such as mold testing and a formal remediation plan, carefully enough to avoid a parallel breach finding.",
+      body: [
+        "Florida's Fourth District Court of Appeal affirmed in part and reversed in part a trial court judgment arising from a payment dispute between two contractors on a five-story hotel project, in an opinion issued October 14, 2026. The court upheld a finding that GSD Contracting, LLC breached its subcontract with All American Builders & Debris Removal, Inc. by withholding a $71,582.98 retainage, but reversed a separate $45,300 the trial court had also awarded All American for work it never performed, since the subcontractor itself had never sought that amount.",
+        "All American was the framing, drywall, insulation and acoustical-ceiling subcontractor on the hotel project. After the original general contractor was terminated, GSD Contracting took over as the replacement general contractor. The subcontract's termination-for-convenience clause allowed GSD to terminate without cause, but it entitled All American to recover payment for all subcontract work performed through the date of termination, plus demobilization costs, while expressly barring any recovery for work not yet performed, including lost profit on it. A separate retainage provision required GSD to hold back ten percent of each partial payment until ninety days after the project's final completion.",
+        "By the time GSD took over the project, All American had completed roughly 93.9% of its scope and was owed a $71,582.98 retainage, with its remaining work held up because other trades had not yet finished theirs. The project then suffered significant mold issues from water intrusion. All American refused to complete its remaining work until the mold was properly remediated, citing worker safety; GSD maintained it had already done enough by removing some drywall and running limited mold testing, without hiring an industrial hygienist or preparing a formal remediation plan. GSD terminated All American from the project and never paid out the retainage.",
+        "All American sued GSD for breach of contract, seeking only the $71,582.98 retainage; at trial, its owner testified that the company was not pursuing the separate $45,300 figure tied to unperformed work. The trial court nonetheless found GSD had breached the subcontract both by failing to pay the retainage and by failing to properly remediate the mold, and awarded All American $116,882.98 — the full retainage plus the $45,300 nobody had asked for. On appeal, the Fourth District held the contract's plain language supported the retainage award on its own: the ninety-day holdback period had long since expired once the project was completed in 2023, and nothing in the subcontract let GSD withhold the retainage based on an alleged default once there was no termination-for-cause clause to invoke. Because that ground was sufficient to affirm, the court did not need to reach whether GSD had also breached by failing to remediate the mold. It reversed the $45,300 award outright, since All American had conceded it was never sought and the subcontract's own termination-for-convenience language barred recovery for work not performed.",
+        "The ruling is a useful case study for general contractors managing distressed construction projects, particularly one taken over mid-stream. A retainage clause tied to a fixed post-completion holdback period functions as a near-automatic payment obligation once that period runs, and a contractor cannot convert a safety or remediation dispute into an offset against retainage unless the subcontract itself gives it that right through a termination-for-cause or similar provision. Courts will also hold a plaintiff to the damages it actually pleaded and proved at trial, so a trial court cannot award more than what was sought merely because it also found an independent breach. Contractors on both sides of these disputes should review what their subcontracts actually say about for-cause termination, offsets and retainage timing before relying on a default theory to withhold payment, and should keep clear documentation, such as hygienist reports and formal remediation plans, to support any remediation-based defense."
+      ],
+      tags: ["construction", "subcontractor", "retainage", "mold", "hotel"],
+      parties: [
+        { name: "GSD Contracting, LLC", role: "Appellant" },
+        { name: "All American Builders & Debris Removal, Inc.", role: "Appellee" }
+      ],
+      judge: "Spencer D. Levine",
+      amountUsd: 71582.98,
+      amountBasis: "judgment",
+      timeline: [
+        { when: "2023", label: "The hotel project is completed, starting the subcontract's 90-day retainage clock" },
+        { when: "October 14, 2026", label: "Florida's Fourth District Court of Appeal affirms the retainage award and reverses the award for unperformed work", current: true }
+      ]
     }
   ],
 
@@ -10481,6 +10561,14 @@ const RELAW_DATA = {
       court: "U.S. District Court for the Southern District of West Virginia",
       background: "Nominated by President Trump on April 4, 2019 to a seat vacated by Judge John Thomas Copenhaver, Jr., confirmed by the Senate on October 16, 2019. Previously served as a U.S. Bankruptcy Judge, and as chief bankruptcy judge, for the Southern District of West Virginia from 2015 to 2019.",
       bioUrl: "https://www.fjc.gov/history/judges/volk-frank-william"
+    },
+    {
+      name: "Robert E. Toone Jr.",
+      slug: "robert-e-toone-jr",
+      title: "Associate Justice — authored the panel opinion",
+      court: "Massachusetts Appeals Court",
+      background: "Nominated by Governor Maura Healey in November 2023 and confirmed by the Governor's Council that December. Served from 2015 to 2023 as chief of the Massachusetts Attorney General's Government Bureau; previously a litigation partner at Foley Hoag and counsel to U.S. Senator Edward Kennedy on the Senate Judiciary Committee.",
+      bioUrl: "https://www.mass.gov/info-details/associate-justice-robert-e-toone-jr"
     }
   ],
 
