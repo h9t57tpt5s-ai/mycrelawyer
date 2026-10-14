@@ -276,6 +276,30 @@
     return d.toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric" });
   }
 
+  /* ---------- Returning-visitor banner ----------
+     Client-side only (localStorage), no account or backend needed. Counts
+     matters added since the visitor's last recorded visit to this page and
+     offers a way back in. A first-ever visit just records today's date;
+     a same-day repeat visit doesn't re-show the banner. */
+  const returningBanner = document.getElementById("returning-visitor-banner");
+  if (returningBanner && typeof RELAW_DATA !== "undefined") {
+    const LAST_VISIT_KEY = "credocket_last_visit";
+    const todayIso = new Date().toISOString().slice(0, 10);
+    let lastVisit = null;
+    try { lastVisit = localStorage.getItem(LAST_VISIT_KEY); } catch (e) { /* private window */ }
+    if (lastVisit && lastVisit < todayIso) {
+      const newCount = RELAW_DATA.cases.filter((c) => c.addedDate && c.addedDate > lastVisit).length;
+      if (newCount > 0) {
+        const onTracker = /litigation\.html$/.test(location.pathname);
+        const link = onTracker ? "litigation.html#filters-anchor" : "litigation.html";
+        const linkLabel = onTracker ? "browse the tracker &rarr;" : "see what's new &rarr;";
+        returningBanner.innerHTML = `<strong>${newCount} new matter${newCount === 1 ? "" : "s"}</strong> tracked since your last visit (${formatDate(lastVisit)}) — <a href="${link}">${linkLabel}</a>`;
+        returningBanner.hidden = false;
+      }
+    }
+    try { localStorage.setItem(LAST_VISIT_KEY, todayIso); } catch (e) { /* private window */ }
+  }
+
   /* ---------- Shared render helpers ---------- */
   function categoryById(id) {
     return RELAW_DATA.categories.find((c) => c.id === id);
