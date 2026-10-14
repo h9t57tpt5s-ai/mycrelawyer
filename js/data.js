@@ -9435,6 +9435,126 @@ const RELAW_DATA = {
         { when: "March 30, 2023", label: "Grant Township's amended mining zoning ordinance takes effect" },
         { when: "October 13, 2026", label: "Michigan Court of Appeals affirms summary disposition for the township", current: true }
       ]
+    },
+    {
+      id: "live-291",
+      seoTitle: "Maxatawny Township 709,000-SF Warehouse: C&B Development Loses Appeal",
+      seoDescription: "Pa. Commonwealth Court upholds Maxatawny Township's ruling that C&B Development's warehouse access road must meet a 500-foot residential buffer, and denies a variance.",
+      property: {"name": null, "address": null, "city": "Maxatawny Township", "state": "PA"},
+      addedDate: "2026-10-14",
+      title: "C&B Development, LLC v. Maxatawny Township Zoning Hearing Board: Pennsylvania Commonwealth Court Blocks 709,000-SF Warehouse Because Its Only Access Road Falls Inside a 500-Foot Residential Buffer",
+      category: "zoning-land-use",
+      status: "ruling",
+      date: "2026-10-14",
+      jurisdiction: "Commonwealth Court of Pennsylvania",
+      state: "PA",
+      amount: "Dimensional variance and zoning interpretation (no dollar figure)",
+      source: "live",
+      sourceUrl: "https://www.pacourts.us/assets/opinions/Commonwealth/out/982CD25_10-14-26.pdf",
+      propertyType: "Industrial",
+      summary: "On October 14, 2026, the Commonwealth Court of Pennsylvania affirmed a Berks County trial court ruling against C&B Development, LLC. The developer wants to build a 709,000-square-foot warehouse and a commercial building on a 75.5-acre tract in Maxatawny Township, near Kutztown University. The Maxatawny Township Zoning Hearing Board ruled that the private road the warehouse needs is a related impervious surface, so the ordinance's 500-foot setback from homes applies to it. The board also refused a dimensional variance, and the appellate panel upheld both rulings.",
+      significance: "Warehouse setback and buffer rules usually measure from the building. Under this ruling they can also reach the access drive, and a site whose only frontage runs past homes may be unbuildable for logistics use. The court also held that the hardship a variance requires must come from the land itself. A developer who simply cannot fit the use it prefers on the site has a self-imposed hardship, especially when the district allows other uses. Industrial developers buying land in townships that have adopted warehouse-specific ordinances should test access routes against those buffers before signing a contract.",
+      body: [
+        "C&B Development, LLC is the equitable owner, under a 2022 purchase agreement, of a 75.5-acre tract in Maxatawny Township, Berks County. The site now holds a restaurant, a mobile home park and an airport. The tract is split among three zoning districts: Commercial (C-1), Light Industrial (L-I) and Agricultural Preservation (AP-1). Its only street frontage is on Kutztown Road. The developer planned to clear the site and build a commercial building plus a 709,000-square-foot warehouse on the L-I portion. That portion can be reached only by a new private drive, called Road A in the record, running from Kutztown Road through the commercial district.",
+        "The problem was an October 2022 ordinance amendment. It made warehouses and distribution facilities a conditional use in the L-I district, rather than a use permitted by right, and added Section 593(c). That section requires warehouse buildings and all related impervious surfaces to sit at least 500 feet from any building occupied by an existing residential, institutional or educational use. In August 2023 the township's zoning officer found that Road A was an impervious surface serving the warehouse. Because the road could not be routed 500 feet away from nearby homes, it did not comply. He told the developer to get a variance before its conditional use hearing could go forward.",
+        "The developer appealed to the Zoning Hearing Board. It argued that the road was not covered by the buffer rule and, in the alternative, asked for a dimensional variance. After three hearings ending in January 2024, the board sided with the zoning officer and denied the variance. The board found that the property could support many other permitted uses that do not carry the 500-foot buffer. It also found that routing truck traffic onto Kutztown Road would harm a largely residential area that Kutztown University students use. The Berks County Court of Common Pleas affirmed on July 14, 2025, and the developer appealed.",
+        "In a memorandum opinion by Judge Patricia A. McCullough, the Commonwealth Court rejected all three of the developer's arguments. First, the zoning officer did not testify, but that was no ground for reversal. The board has its own authority to interpret the ordinance, and the developer had the chance to subpoena him and dropped it. Second, the conditional use provision and the buffer rule do not conflict, so the rule in the Municipalities Planning Code that resolves doubtful ordinance language in the owner's favor did not apply. Third, the board applied the correct variance test. The developer's own brief admitted that the light-industrial lot could be used for things other than a warehouse, so its hardship was self-imposed and not caused by the property. The panel also noted that the developer never filed a formal challenge to the ordinance's validity, which is the proper route for an argument that the zoning leaves no reasonable use.",
+        "The opinion notes that the developer has a separate inverse condemnation suit pending against the township in the Berks County court. In that suit it alleges a coordinated effort to block the project. The appellate court refused to consider any of that record in the land use appeal. The decision is unreported and non-precedential. It ends this zoning route unless the developer seeks further review, but it does not resolve the separate takings claim.",
+        "The practical lesson is that local warehouse ordinances increasingly measure setbacks from all related paving, not just from the building, and access drives count. A buyer should map every required road, drive and loading area against residential and institutional buffers during due diligence, especially on sites with one frontage. A variance request based on the inability to build one preferred use is unlikely to succeed when the district allows other uses. A developer who believes an ordinance leaves no reasonable use of the land must bring a formal validity challenge under the Municipalities Planning Code. That argument cannot be raised for the first time in a variance appeal."
+      ],
+      tags: ["warehouse", "setback", "variance", "pennsylvania", "conditional use"],
+      parties: [
+        { name: "C&B Development, LLC", role: "Appellant" },
+        { name: "Maxatawny Township Zoning Hearing Board", role: "Appellee" },
+        { name: "Maxatawny Township Board of Supervisors", role: "Appellee" },
+        { name: "State System of Higher Education", role: "Appellee" },
+        { name: "Kutztown University", role: "Appellee" }
+      ],
+      judge: "Patricia A. McCullough",
+      amountUsd: null,
+      timeline: [
+        { when: "October 13, 2022", label: "Ordinance amendment takes effect, making warehouses a conditional use subject to the Section 593(c) 500-foot buffer" },
+        { when: "July 28, 2023", label: "C&B Development submits its conditional use plan" },
+        { when: "August 31, 2023", label: "Zoning officer rules the access road is subject to the buffer and needs a variance" },
+        { when: "January 15, 2024", label: "Zoning Hearing Board upholds the zoning officer and denies the variance" },
+        { when: "July 14, 2025", label: "Berks County Court of Common Pleas affirms" },
+        { when: "October 14, 2026", label: "Commonwealth Court affirms", current: true }
+      ]
+    },
+    {
+      id: "live-292",
+      seoTitle: "865 East 49th Street Associates v. Valdo Auto Sales: Lease Fraud",
+      seoDescription: "Florida's Third DCA affirms: 865 East 49th Street Associates won fraud and unjust enrichment liability against tenant Valdo Auto Sales but gets $0 beyond $76,199 rent.",
+      addedDate: "2026-10-14",
+      title: "865 East 49th Street Associates LLC v. Valdo Auto Sales Corp.: Florida Appeals Court Upholds Zero-Dollar Fraud Award for Commercial Landlord Already Paid Back Rent",
+      category: "lease-disputes",
+      status: "ruling",
+      date: "2026-10-07",
+      jurisdiction: "Florida Third District Court of Appeal",
+      state: "FL",
+      amount: "$76,199.37 past-due rent judgment; $0 on fraud and unjust enrichment",
+      source: "live",
+      sourceUrl: "https://flcourts-media.flcourts.gov/content/download/2496352/opinion/Opinion_2025-2523.pdf",
+      summary: "On October 7, 2026, Florida's Third District Court of Appeal affirmed a Miami-Dade circuit court ruling in a commercial landlord's suit against its tenant, Valdo Auto Sales Corp. The landlord, 865 East 49th Street Associates LLC, had won liability on all of its claims, including fraud and unjust enrichment. But the trial court awarded only $76,199.37 in past-due rent for breach of the commercial lease and nothing on the other claims. The appeals court held that the landlord never showed any damages on the fraud and unjust enrichment claims that were separate from the rent award, so a zero award on those claims stands.",
+      significance: "Landlords often add fraud and unjust enrichment counts to a lease suit to get more leverage or more money. This ruling says winning liability on those counts is worth nothing unless the landlord proves a measurable loss that the contract award does not already cover. It also shows how an appeal can fail on the record alone: the landlord did not transcribe the hearings where liability and damages were decided, and the court would not assume the agreed judgment preserved anything it did not say.",
+      body: [
+        "865 East 49th Street Associates LLC, a commercial landlord, sued its tenant Valdo Auto Sales Corp. and others in Miami-Dade County Circuit Court (Lower Tribunal No. 22-17871-CA-01). The trial court, Judge Valerie R. Manno Schurr presiding, entered summary judgment orders on liability and damages in the landlord's favor. Liability was resolved by an order titled \"Agreed Summary Final Judgment as to Liability,\" which covered all of the landlord's claims, including fraud and unjust enrichment. The only money awarded, however, was $76,199.37 in past-due rent for breach of the commercial lease.",
+        "The landlord appealed, arguing that once liability was established on the fraud and unjust enrichment counts, the trial court could not award zero dollars on them. The tenant did not appear in the appeal. A panel of Judges Fernandez, Gordo and Rebull heard the case, and Judge Gordo wrote the opinion affirming the trial court.",
+        "The court started from the rule against double recovery. A plaintiff who wins a contract award must show that its fraud or unjust enrichment damages are separate and distinct from that award, and not just the same loss counted again. Fraud requires actual damages as an essential element, and a liability finding alone does not establish them. Unjust enrichment requires competent, quantified evidence of the value of the benefit conferred. The panel cited Florida cases holding that a plaintiff can win liability and still recover nothing.",
+        "Procedure also decided the appeal. The trial court resolved liability, damages and rehearing only after full in-court hearings, but the landlord did not supply a transcript of any of them or an approved statement of the evidence. Because the liability judgment was an agreed order, nothing in the record showed what the parties had agreed to. In particular, the record did not show whether the landlord kept or gave up any claim to separate damages. The panel would not assume that the agreed judgment decided more than the liability it recites. It found no genuine issue of material fact on any compensable, non-duplicative damages and affirmed. The opinion is not final until any timely rehearing motion is resolved.",
+        "There are several lessons for commercial landlords and their lawyers. First, fraud and unjust enrichment counts in a rent case need their own damages proof, with a dollar figure tied to a loss the lease award does not already cover. Second, an agreed liability judgment should say expressly whether damages on each claim are reserved for later decision. Third, if a summary judgment or damages hearing may be appealed, have a court reporter there. Without a transcript, Florida appellate courts will generally presume the trial court's ruling was correct."
+      ],
+      tags: ["commercial lease", "fraud", "unjust enrichment", "damages", "florida"],
+      parties: [
+        { name: "865 East 49th Street Associates LLC", role: "Appellant/Landlord" },
+        { name: "Valdo Auto Sales Corp.", role: "Appellee/Tenant" }
+      ],
+      judge: "Valerie R. Manno Schurr",
+      amountUsd: 76199.37,
+      amountBasis: "judgment",
+      timeline: [
+        { when: "October 7, 2026", label: "Third DCA affirms summary judgment awarding $76,199.37 in back rent and zero on fraud and unjust enrichment", current: true }
+      ]
+    },
+    {
+      id: "live-293",
+      seoTitle: "Valley Post Chelsea AL: $7.19M Rent Judgment Against PRG Valley Post",
+      seoDescription: "Landlord Dunnavant Valley Dining LLC wins a $7.19M default judgment against Pihakis Restaurant Group affiliate PRG Valley Post over unpaid rent at Valley Post in Chelsea.",
+      property: {"name": "Valley Post", "address": null, "city": "Chelsea", "state": "AL"},
+      addedDate: "2026-10-14",
+      title: "Dunnavant Valley Dining LLC v. PRG Valley Post: $7.19 Million Default Judgment for Unpaid Rent at Chelsea, Alabama's Valley Post Dining Development",
+      category: "lease-disputes",
+      status: "ruling",
+      date: "2026-10-07",
+      jurisdiction: "Alabama Circuit Court, Shelby County",
+      state: "AL",
+      amount: "$7.19 million default judgment (unpaid rent, attorney fees and costs)",
+      source: "live",
+      sourceUrl: "https://www.al.com/news/2026/10/developer-awarded-72-million-in-unpaid-rent-from-pihakis-restaurant-collapse.html",
+      propertyType: "Retail",
+      summary: "A Shelby County Circuit Court judge has entered a $7.19 million default judgment for Dunnavant Valley Dining LLC, the landlord of Valley Post, against PRG Valley Post, the Pihakis Restaurant Group affiliate that leased all four restaurant buildings at the dining development off Dunnavant Valley Road in Chelsea, Alabama. AL.com reported the judgment on October 7, 2026. It covers unpaid rent plus attorney fees and court costs.",
+      significance: "This is the largest court result so far from the collapse of the Pihakis Restaurant Group, which closed more than a dozen restaurants in four states starting in April 2026. It shows how much exposure a developer takes on when a single restaurant operator leases an entire purpose-built dining project. Collection is the real question now. The tenant is a single-purpose affiliate of a failed group, so the landlord's recovery may depend on guaranties, the rent liens it recorded and reletting the space.",
+      body: [
+        "Valley Post is a four-building dining and entertainment development off Dunnavant Valley Road in Chelsea, Alabama, in Shelby County south of Birmingham. A Birmingham developer built it, and its only operator was a Pihakis Restaurant Group affiliate. It housed four concepts: Hero Diner, Luca & Lucy, Little Donkey and Rodney Scott BBQ. According to court documents described by AL.com, the development opened in December 2025, and no rent was paid from that month on.",
+        "In April 2026 the Pihakis Restaurant Group began closing more than a dozen restaurants in four states, and all four Valley Post restaurants shut at once. That month the landlord side filed liens on several properties leased to the group and its affiliates. WBRC reported that the amended Valley Post lien, filed April 27, claimed $7,166,296.20 plus attorney fees and other expenses for rent due under the leases. In June, the landlord entity, Dunnavant Valley Dining LLC, sued in Shelby County Circuit Court. It alleged that PRG Valley Post had defaulted on a long-term lease of the four buildings, with charges totaling about $7.35 million.",
+        "The tenant never answered, and the court entered a default judgment for $7.19 million in unpaid rent, attorney fees and court costs, as AL.com reported on October 7, 2026. According to that report, the court certified the judgment as final, which makes it immediately enforceable, and post-judgment interest accrues until it is paid.",
+        "How the judgment will be collected is unclear. The defendant is a project-level operating affiliate of a restaurant group that has largely shut down. The landlord has already re-tenanted part of the property: Waldo's Chicken and Beer opened a Valley Post location on September 29, and Saw's BBQ is expected to open there later this fall. Rent collected from replacement tenants could affect how much the landlord can ultimately recover for the same period. Published reporting does not say whether the leases carried guaranties or how the award was calculated against the roughly $7.35 million originally claimed.",
+        "For landlords and developers, Valley Post is a warning about a common structure in restaurant-anchored projects: the whole development leased to one operator through a newly formed affiliate. A default judgment against that affiliate can be quick and large, but it is only worth what the affiliate owns. Owners leasing to restaurant groups should make sure guaranties come from an entity with real assets. They should also watch rent from opening day, because here no rent was paid from the start, and record liens or seek security early. Leases should be drafted so the space can be relet quickly without giving up the claim for the remaining term."
+      ],
+      tags: ["restaurant lease", "default judgment", "unpaid rent", "alabama", "tenant collapse"],
+      parties: [
+        { name: "Dunnavant Valley Dining LLC", role: "Plaintiff / Landlord" },
+        { name: "PRG Valley Post", role: "Defendant / Tenant" }
+      ],
+      judge: null,
+      amountUsd: 7190000,
+      amountBasis: "judgment",
+      timeline: [
+        { when: "December 2025", label: "Valley Post opens; per court documents, no rent is paid from this point" },
+        { when: "April 27, 2026", label: "Landlord amends Valley Post lien to $7,166,296.20 as Pihakis Restaurant Group closes its restaurants" },
+        { when: "June 2026", label: "Dunnavant Valley Dining LLC sues PRG Valley Post in Shelby County Circuit Court" },
+        { when: "October 2026", label: "Court enters $7.19 million default judgment, reported by AL.com on October 7", current: true }
+      ]
     }
   ],
 

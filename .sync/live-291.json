@@ -1,0 +1,22 @@
+{
+ "id": "live-291",
+ "title": "C&B Development, LLC v. Maxatawny Township Zoning Hearing Board: Pennsylvania Commonwealth Court Blocks 709,000-SF Warehouse Because Its Only Access Road Falls Inside a 500-Foot Residential Buffer",
+ "category": "zoning-land-use",
+ "status": "ruling",
+ "date": "2026-10-14",
+ "jurisdiction": "Commonwealth Court of Pennsylvania",
+ "state": "PA",
+ "amount": "Dimensional variance and zoning interpretation (no dollar figure)",
+ "source": "live",
+ "source_url": "https://www.pacourts.us/assets/opinions/Commonwealth/out/982CD25_10-14-26.pdf",
+ "summary": "On October 14, 2026, the Commonwealth Court of Pennsylvania affirmed a Berks County trial court ruling against C&B Development, LLC. The developer wants to build a 709,000-square-foot warehouse and a commercial building on a 75.5-acre tract in Maxatawny Township, near Kutztown University. The Maxatawny Township Zoning Hearing Board ruled that the private road the warehouse needs is a related impervious surface, so the ordinance's 500-foot setback from homes applies to it. The board also refused a dimensional variance, and the appellate panel upheld both rulings.",
+ "significance": "Warehouse setback and buffer rules usually measure from the building. Under this ruling they can also reach the access drive, and a site whose only frontage runs past homes may be unbuildable for logistics use. The court also held that the hardship a variance requires must come from the land itself. A developer who simply cannot fit the use it prefers on the site has a self-imposed hardship, especially when the district allows other uses. Industrial developers buying land in townships that have adopted warehouse-specific ordinances should test access routes against those buffers before signing a contract.",
+ "judge": "Patricia A. McCullough",
+ "tags": [
+  "warehouse",
+  "setback",
+  "variance",
+  "pennsylvania",
+  "conditional use"
+ ]
+}
