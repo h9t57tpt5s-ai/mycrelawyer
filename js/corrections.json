@@ -5,6 +5,26 @@
   {
    "date": "2026-10-14",
    "scope": "matter",
+   "caseId": "live-183",
+   "subject": "9 New York Ave LLC v. JLL (D.C. apartment tower NOI fraud suit)",
+   "kind": "Removed: duplicate",
+   "was": "Listed twice: live-035 (added Aug. 22, from Law360) and live-183 (added Sept. 26, from Bisnow), both describing the Aug. 21, 2026 Cook County complaint against JLL.",
+   "now": "live-183 removed; live-035 remains and the old address redirects there.",
+   "basis": "Same plaintiffs, defendant, court and filing date in both entries; found 2026-10-14 when matters were grouped by property."
+  },
+  {
+   "date": "2026-10-14",
+   "scope": "matter",
+   "caseId": "live-227",
+   "subject": "HS148SST LLC v. City of Boston (148 State Street 'Add-Back Policy' class action)",
+   "kind": "Removed: duplicate",
+   "was": "Listed as a separate matter (live-227, added Oct. 7) about the May 12, 2026 denial of Boston's motion to dismiss.",
+   "now": "Removed as a duplicate of live-039, which tracks the same class action; the old address redirects there.",
+   "basis": "Same plaintiff (the owner of 148 State Street), same court and same claims; found 2026-10-14 when matters were grouped by property."
+  },
+  {
+   "date": "2026-10-14",
+   "scope": "matter",
    "caseId": "live-098",
    "subject": "Waukesha State Bank v. 225 East Michigan Street LLC (Mackie Building foreclosure)",
    "kind": "Corrected: figure",

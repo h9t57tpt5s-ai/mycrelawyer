@@ -31,6 +31,16 @@
       "permanent": false
     },
     {
+      "source": "/matters/live-183.html",
+      "destination": "/matters/live-035.html",
+      "permanent": true
+    },
+    {
+      "source": "/matters/live-227.html",
+      "destination": "/matters/live-039.html",
+      "permanent": true
+    },
+    {
       "source": "/matters/live-185.html",
       "destination": "/chapter-11/9619-pulaski-hwy-llc-mdb-26-20484.html",
       "permanent": true

@@ -6519,43 +6519,6 @@ const RELAW_DATA = {
       tags: ["broker commission", "retail", "palm beach", "off-market deal", "contract dispute"]
     },
     {
-      id: "live-183",
-      seoTitle: "The Pinnacle NoMa DC: Developer Sues JLL for $12.4M Over NOI",
-      seoDescription: "9 New York Ave LLC, owner of The Pinnacle, a 115-unit NoMa apartment tower in Washington, D.C., sued JLL alleging inflated NOI projections.",
-      property: {"name": "The Pinnacle", "city": "Washington", "state": "DC"},
-      addedDate: "2026-09-26",
-      title: "9 New York Ave LLC v. JLL (NoMa Apartment Tower NOI-Inflation Fraud Suit)",
-      category: "lease-disputes",
-      status: "filed",
-      date: "2026-08-21",
-      jurisdiction: "Circuit Court of Cook County, Illinois",
-      state: "IL",
-      amount: "$12.4M sought (lost value plus $4.3M in claimed lost-opportunity damages)",
-      source: "live",
-      sourceUrl: "https://www.bisnow.com/news/washington-dc/multifamily/developer-sues-jll-claiming-fudged-numbers-dc-project",
-      summary: "9 New York Ave LLC, the ownership entity behind a 115-unit luxury apartment tower in Washington, D.C.'s NoMa neighborhood, sued JLL on August 21, 2026 in Cook County Circuit Court, accusing the brokerage of deliberately inflating net operating income projections used to size the project's construction financing. The developer says it sold the completed building for $30.5 million in April 2026, well short of the returns JLL's numbers had projected, and is seeking more than $12 million in damages.",
-      significance: "Places litigation risk on the advisory side of a development deal rather than the usual borrower-lender dispute, testing how far a developer can hold a brokerage's financial projections to account after a project underperforms. Owners and lenders who rely on third-party NOI projections to size construction debt should scrutinize the underlying assumptions independently rather than treating a brokerage's pro forma as a given.",
-      body: [
-        "9 New York Ave LLC, the entity behind a 115-unit luxury apartment tower called The Pinnacle in Washington, D.C.'s NoMa neighborhood, sued JLL on August 21, 2026 in Cook County Circuit Court, where the brokerage is headquartered. The complaint accuses JLL of deliberately inflating net operating income projections for the 14-story building to make the deal's financing math work, allegations the developer says only became apparent once the building underperformed after delivering in 2024.",
-        "According to the complaint, the developer relied on JLL's income projections to size the construction loan used to build the Pinnacle at 7 New York Ave. NE. The building ultimately sold in April 2026 for $30.5 million to July Residential, a price the plaintiff alleges fell well short of the value JLL's original projections had supported, leaving the ownership entity facing losses on the project along with the fees and interest carried while the underperforming numbers were being relied upon.",
-        "The lawsuit seeks more than $12 million in total damages, combining the plaintiff's claimed losses on the project with fees, interest, and roughly $4.3 million in additional lost-opportunity damages the complaint attributes to capital that could have been deployed differently had the true income picture been known at the outset. The suit was filed in Illinois rather than the District of Columbia, where the property itself sits, reflecting JLL's headquarters location and, likely, forum-selection terms in the parties' underlying engagement.",
-        "For developers and lenders in multifamily construction financing, the case is a reminder that a brokerage's net operating income projections, while routinely relied upon to size construction and permanent debt, are themselves a potential source of liability if a developer can show the numbers were knowingly inflated rather than merely optimistic. Owners commissioning third-party income projections for financing purposes should document the assumptions underlying those projections in writing and consider independent verification of key inputs, particularly on deals where the brokerage advising on projections also stands to earn a fee tied to the transaction closing."
-      ],
-      timeline: [
-        { when: "2024", label: "The Pinnacle, a 115-unit apartment tower at 7 New York Ave. NE in D.C.'s NoMa neighborhood, is completed and delivered" },
-        { when: "April 2026", label: "9 New York Ave LLC sells the building to July Residential for $30.5M" },
-        { when: "August 21, 2026", label: "9 New York Ave LLC sues JLL in Cook County Circuit Court, alleging inflated NOI projections and seeking over $12M", current: true }
-      ],
-      judge: null,
-      parties: [
-        { name: "9 New York Ave LLC", role: "Plaintiff/Developer" },
-        { name: "JLL", role: "Defendant" }
-      ],
-      amountUsd: 12400000,
-      amountBasis: "damages sought",
-      tags: ["professional negligence", "multifamily", "construction financing", "washington-dc", "brokerage liability"]
-    },
-    {
       id: "live-184",
       seoTitle: "100 Summer Street Boston: Wells Fargo Foreclosure Auction",
       seoDescription: "Wells Fargo set an October 20, 2026 foreclosure auction of 100 Summer Street, Rockpoint Group's Boston office tower bought for $806 million.",
@@ -7806,45 +7769,6 @@ const RELAW_DATA = {
         { when: "June 2026", label: "Simon Property Group moves to dismiss the amended antitrust complaint", current: true }
       ],
       tags: ["antitrust", "tying", "shopping-mall", "oklahoma", "simon-property-group"]
-    },
-    {
-      id: "live-227",
-      seoTitle: "148 State Street Boston: Tax Add-Back Retaliation Suit Proceeds",
-      seoDescription: "A judge denied Boston's motion to dismiss a suit by the owner of 148 State Street alleging an 'Add-Back Policy' penalized owners who appealed assessments.",
-      property: {"address": "148 State Street", "city": "Boston", "state": "MA"},
-      addedDate: "2026-10-07",
-      featured: true,
-      title: "HS148SST LLC v. City of Boston (Commercial Property Tax Retaliation Class Action)",
-      category: "zoning-land-use",
-      status: "pending",
-      date: "2026-05-12",
-      jurisdiction: "Suffolk County Superior Court, Massachusetts",
-      state: "MA",
-      amount: "$41,351 single-year overcharge alleged for lead plaintiff; proposed class of 60+ commercial properties",
-      amountUsd: 41351,
-      amountBasis: "claim",
-      source: "live",
-      sourceUrl: "https://www.bostonglobe.com/2026/05/12/business/boston-property-tax-lawsuit/",
-      summary: "HS148SST LLC, owner of the office building at 148 State Street in Boston, sued the City of Boston in Suffolk Superior Court alleging the Assessor's Office ran an undisclosed 'Add-Back Policy' that restored a prior year's higher valuation for commercial properties that had appealed their assessments to the state Appellate Tax Board. Judge Peter Krupp denied the city's motion to dismiss on May 12, 2026, finding the allegations -- which the complaint says affected at least 60 properties -- serious enough to require discovery before deciding whether equitable relief is warranted.",
-      significance: "The suit advances a First Amendment retaliation theory against a municipal assessor's office, arguing that conditioning a property's valuation on whether its owner exercised its legal right to appeal is itself unlawful. Surviving a motion to dismiss on that theory, with class claims and a request for repayment of excess taxes across dozens of properties, gives commercial owners elsewhere a potential template for challenging similar post-appeal valuation patterns.",
-      body: [
-        "A lawsuit accusing the City of Boston of quietly punishing commercial property owners for appealing their tax assessments has survived the city's motion to dismiss and is now moving into discovery, a development that commercial owners and tax counsel well outside Massachusetts have reason to watch. The case, filed in Suffolk Superior Court by HS148SST LLC, owner of the 11-story office building at 148 State Street in Boston's Financial District, accuses the city's Assessor's Office of running what the complaint calls an 'Add-Back Policy.'",
-        "According to the filing, prepared by the Pioneer New England Legal Foundation together with Sullivan & Worcester LLP, assessors began in 2024 flagging commercial properties with open appeals before the state Appellate Tax Board and then overriding their own fair-market-value determinations for those properties, effectively restoring the prior year's higher assessment instead of applying the figure the city's own valuation process would otherwise have produced. The complaint alleges the practice touched at least 60 commercial properties and, for 148 State Street alone, produced a $41,351 overcharge in a single fiscal year.",
-        "What elevates the case above a routine assessment dispute is the legal theory behind it: that conditioning a property's assessed value on whether its owner challenged a prior valuation amounts to government retaliation against the exercise of a legal right, implicating the First Amendment's protection against retaliation for petitioning activity -- here, petitioning the Appellate Tax Board. Judge Peter Krupp's ruling did not decide whether the city actually did what the complaint describes, but he found the allegations serious enough to warrant limited discovery into the existence and extent of the alleged policy before any decision on equitable relief.",
-        "The remedy sought is injunctive and declaratory relief barring the practice, a declaration that it is unlawful, and repayment of excess taxes collected for fiscal years 2024 and 2025 across the proposed class, in addition to the $41,351 at issue for the named plaintiff. Discovery will likely probe assessor work papers, internal notes referencing parcels' appeal status, and any communications describing the add-back methodology, records that could either substantiate or undercut the class-wide allegations.",
-        "Boston is unlikely to be the only jurisdiction where assessors face scrutiny over how they treat appealed properties, and commercial owners and REIT asset managers elsewhere have increasingly turned to litigation discovery to obtain internal assessment records that public-records requests alone do not reach. A ruling on the merits here, whichever way it goes, is likely to be cited in similar disputes. For now, owners who have successfully appealed an assessment should watch for unexplained increases in a later year's valuation that track back toward the prior, higher figure, and should preserve correspondence with assessors that could later support or rebut a retaliation claim; multi-property asset managers in jurisdictions with active abatement-appeal processes should consider whether a similar pattern across their own holdings would support a comparable claim, since this case's eventual discovery record may become a template for proving systemic retaliation elsewhere."
-      ],
-      judge: "Peter Krupp",
-      parties: [
-        { name: "HS148SST LLC", role: "Plaintiff" },
-        { name: "City of Boston", role: "Defendant" }
-      ],
-      timeline: [
-        { when: "December 2025", label: "HS148SST LLC files a class action in Suffolk Superior Court alleging a retaliatory 'Add-Back Policy' by the Boston Assessor's Office" },
-        { when: "May 12, 2026", label: "Judge Peter Krupp denies the city's motion to dismiss and orders limited discovery into the alleged policy", current: true }
-      ],
-      propertyType: "Office",
-      tags: ["property-tax", "massachusetts", "first-amendment", "class-action", "assessor-retaliation"]
     },
     {
       id: "live-228",
