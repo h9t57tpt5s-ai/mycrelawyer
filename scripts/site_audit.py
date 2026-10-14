@@ -166,7 +166,30 @@ def main():
     suit_newest, suit_n = newest("federal-suits.json")
     days = lambda d: (today - dt.date.fromisoformat(d)).days if d else None
 
+    # Visible regressions (2026-10-14: litigation.html showed "0 Tracked
+    # Matters" as unstyled text for a month after a redesign removed the
+    # .hero-stats styles). Stat counters must not ship as "0" when there are
+    # matters, and hero-* classes the key pages use must have CSS rules.
+    css = "\n".join(c.read_text(errors="ignore") for c in (ROOT / "css").glob("*.css"))
+    zero_stats, unstyled = [], []
+    for rel in ("index.html", "litigation.html", "updates.html", "coverage.html"):
+        f = ROOT / rel
+        if not f.exists():
+            continue
+        raw = f.read_text(errors="ignore")
+        for sid in re.findall(r'id="((?:hero-)?stat-[a-z-]+)"[^>]*>\s*0\s*<', raw):
+            zero_stats.append({"page": rel, "id": sid})
+        inline_css = "\n".join(re.findall(r"<style[^>]*>(.*?)</style>", raw, re.S))
+        for cls in sorted({c for attr in re.findall(r'class="([^"]+)"', raw) for c in attr.split() if c.startswith("hero-")}):
+            if not re.search(r"\." + re.escape(cls) + r"(?![\w-])", css + inline_css):
+                unstyled.append({"page": rel, "class": cls})
+    if not cases:
+        zero_stats = []
+    pill = (ROOT / "index.html").read_text(errors="ignore") if (ROOT / "index.html").exists() else ""
+    hidden_updates = ["index.html"] if re.search(r'id="new-today-pill"[^>]*display:\s*none', pill) else []
+
     findings = {
+        "zeroStatCounters": zero_stats, "unstyledHeroClasses": unstyled, "hiddenUpdatesButton": hidden_updates,
         "brokenLinks": broken, "missingTitle": no_title, "longTitle": long_title, "missingDescription": no_desc,
         "weakDescription": weak_desc, "missingCanonical": no_canon, "duplicateTitles": dup_titles,
         "orphanPages": orphans, "missingFromSitemap": missing_from_sitemap, "sitemapUrlsWithoutFile": sitemap_without_file,

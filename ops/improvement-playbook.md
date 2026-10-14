@@ -133,6 +133,8 @@ its TARGETS table):
 
 <!-- Ranked ideas. The routine works from the top, adds ideas with the evidence for them, and strikes items it finishes (link the log id). -->
 
+**Visible-regression checks (added 2026-10-14):** ops/metrics/audit.json now reports zeroStatCounters, unstyledHeroClasses and hiddenUpdatesButton. Any non-zero count is a broken page a visitor can see (Jeff found litigation.html showing "0 Tracked Matters" as unstyled text a month after a redesign removed its styles): fix it before any goal work, and never ship a change that leaves one of them non-zero.
+
 **Before building any new page (added 2026-10-14):** list the site's existing generated pages first -- topic trackers (*-tracker.html), the CRE Litigation Index (litigation-index*.html), company/party/property pages (company-*, parties/, properties/), Chapter 11 Watch, Federal Lawsuit Watch -- and extend one of them rather than adding a page that covers the same ground. Never compare a month against a month in which a data source had not started yet (Chapter 11 Watch from mid-August 2026, Federal Lawsuit Watch from September 2026).
 
 G1. (Goal: news; added 2026-10-13) Last week's matters were published a median 97 days after the event and only 5 of 23 were within 7 days; 14 of 15 leads were skipped. Rewrite ops/digest-playbook.md priorities so each run starts from same-week sources (court opinion releases, federal suits filed this week, SEC filings this week) and records why each lead was skipped; then look for patterns in the skip reasons.
