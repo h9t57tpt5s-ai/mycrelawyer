@@ -125,6 +125,20 @@
    "baseline": {"visits7": 258, "googleLandings7": 118},
    "checkAfter": "2026-10-28",
    "status": "watching"
+  },
+  {
+   "id": "imp-010",
+   "date": "2026-10-14",
+   "track": "conversion",
+   "title": "Added a \"new matters since your last visit\" banner to index.html and litigation.html",
+   "why": "ops/metrics/goals.json (refreshed this run): conversion is the goal furthest behind (gap 0.7, signUps7=1/target 5, follows7=0/target 3, newsletterSignups7=0/target 3) and had not had a change in the last 2 runs (imp-008 calculator, imp-009 traffic); audit was clean (no breakage). The playbook's own conversion scope lists \"reasons to come back (what's new since your last visit)\" and nothing on the site had ever built this, a bigger untried lever than re-touching imp-007's follow-box/newsletter copy. Added a client-side-only (localStorage, no account/backend) banner on index.html and litigation.html that counts tracker matters added (by the real addedDate field) since the visitor's last recorded visit and links back into the tracker; first-ever visits and same-day repeats show nothing, so it only ever reports a true, non-zero count.",
+   "files": ["js/main.js", "index.html", "litigation.html", "css/styles.css", "ops/metrics/goals.json"],
+   "commit": "8d3fa0dae3bd45da827580e483062b9ce0c509c5",
+   "metric": "goals.json conversion.metrics.multiPageRate7 (primary), follows7 and newsletterSignups7 (secondary)",
+   "window": "7 days",
+   "baseline": {"multiPageRate7": 0.1008, "follows7": 0, "newsletterSignups7": 0},
+   "checkAfter": "2026-10-21",
+   "status": "watching"
   }
  ]
 }
