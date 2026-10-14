@@ -213,10 +213,21 @@
     // gets the badge; and a flagship whose underlying event is more than 30
     // days old (news coverage sometimes lags a filing by months) is not
     // presented as a top story at all.
+    //
+    // 2026-10-14 (Jeff: an Oct. 8 foreclosure stayed "Top Story" while
+    // rulings from Oct. 13 and that day's additions sat below it, because
+    // only the cloud digest sets `featured`): the top story is now the latest
+    // development -- the newest event among matters added in the last three
+    // days (event within 14 days), with the digest's flag only breaking ties.
+    // Nothing recent enough: no badge, just the newest events.
     const DAY_MS = 86400000;
+    const newest = RELAW_DATA.cases.map((c) => c.addedDate || "").sort().at(-1) || "";
     const featuredCase = [...RELAW_DATA.cases]
-      .filter((c) => c.featured && (Date.now() - new Date(c.date + "T00:00:00")) <= 30 * DAY_MS)
-      .sort((a, b) => new Date(b.addedDate || b.date) - new Date(a.addedDate || a.date))[0];
+      .filter((c) => c.addedDate && (new Date(newest) - new Date(c.addedDate)) <= 3 * DAY_MS &&
+        (Date.now() - new Date(c.date + "T00:00:00")) <= 14 * DAY_MS)
+      .sort((a, b) => (b.date > a.date ? 1 : b.date < a.date ? -1 : 0) ||
+        ((b.featured ? 1 : 0) - (a.featured ? 1 : 0)) ||
+        ((b.amountUsd || 0) - (a.amountUsd || 0)))[0];
     const addedToday = featuredCase && featuredCase.addedDate &&
       featuredCase.addedDate === new Date().toISOString().slice(0, 10);
 

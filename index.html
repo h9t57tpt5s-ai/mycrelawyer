@@ -166,8 +166,8 @@
           Open the Tracker
           <svg viewBox="0 0 24 24" fill="none"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
         </a>
-        <a href="updates.html?recent=5" id="new-today-pill" class="hero-btn hero-btn-live" style="display:none;">
-          <span class="hero-pill-dot"></span>New Today
+        <a href="updates.html?recent=5" id="new-today-pill" class="hero-btn hero-btn-live">
+          <span class="hero-pill-dot"></span><span id="new-today-label">Latest updates · Oct 14</span>
         </a>
         <a href="about.html" class="hero-btn hero-btn-ghost">How we cover it</a>
       </div>
@@ -647,15 +647,21 @@
 <script src="js/usmap.js"></script>
 <script>
   document.getElementById("stat-matters").setAttribute("data-count", RELAW_DATA.cases.length);
-  // "New Today" pill: only shown when the digest actually published something
-  // today (visitor's local calendar date) — RELAW_DATA.lastUpdatedDate is set
-  // by the digest automation, never guessed client-side.
+  // Updates button (2026-10-14: it used to be hidden unless the visitor's
+  // own calendar date matched the last update, so it often never showed).
+  // Always visible; the HTML carries "Latest updates · <date>" from
+  // scripts/prerender.ts, and this says "New today · N" when matters were
+  // added today (UTC, the date the tracker records, or the visitor's date).
   (function () {
-    const todayLocal = new Date();
-    const todayStr = todayLocal.getFullYear() + "-" + String(todayLocal.getMonth() + 1).padStart(2, "0") + "-" + String(todayLocal.getDate()).padStart(2, "0");
-    if (RELAW_DATA.lastUpdatedDate === todayStr) {
-      const pill = document.getElementById("new-today-pill");
-      if (pill) pill.style.display = "flex";
+    const label = document.getElementById("new-today-label");
+    if (!label) return;
+    const d = new Date();
+    const local = d.getFullYear() + "-" + String(d.getMonth() + 1).padStart(2, "0") + "-" + String(d.getDate()).padStart(2, "0");
+    const utc = d.toISOString().slice(0, 10);
+    const last = RELAW_DATA.lastUpdatedDate;
+    if (last === local || last === utc) {
+      const n = RELAW_DATA.cases.filter((c) => c.addedDate === last).length;
+      if (n) label.textContent = "New today · " + n;
     }
   })();
 </script>

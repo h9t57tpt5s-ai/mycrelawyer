@@ -172,6 +172,13 @@ async function azList(entries: { name: string; slug?: string }[], prefix: string
   h = setText(h, "hero-stat-states", String(realStates), f);
   h = setText(h, "hero-stat-states-label", withDC ? "States + D.C." : "States", f);
   h = setText(h, "hero-stat-categories", String(data.categories.length), f);
+  {
+    // The updates button's no-JavaScript label: the date of the latest
+    // addition, which stays true until the next build.
+    const last = data.lastUpdatedDate || data.cases.map((c) => c.addedDate || "").sort().at(-1) || "";
+    const lbl = last ? new Date(last + "T00:00:00Z").toLocaleDateString("en-US", { month: "short", day: "numeric", timeZone: "UTC" }) : "";
+    h = setText(h, "new-today-label", lbl ? `Latest updates · ${lbl}` : "Latest updates", f);
+  }
   h = fill(h, "featured-grid", cases.slice(0, 3).map(caseCard).join(""), f);
   const words: Record<number, string> = { 6: "Six", 7: "Seven", 8: "Eight", 9: "Nine", 10: "Ten", 11: "Eleven", 12: "Twelve" };
   h = setText(h, "category-count-heading", `${words[data.categories.length] ?? data.categories.length} practice areas, one dashboard`, f);
@@ -192,6 +199,12 @@ async function azList(entries: { name: string; slug?: string }[], prefix: string
   const PAGE = 24;
   let h = await Deno.readTextFile(f);
   h = setText(h, "results-count", `${data.cases.length} matters`, f);
+  // Header stats are baked in so they are right even before (or without)
+  // JavaScript; D.C. is counted separately from the states.
+  h = setText(h, "stat-tracker-matters", String(data.cases.length), f);
+  h = setText(h, "stat-tracker-states", String(realStates), f);
+  h = setText(h, "stat-tracker-states-label", withDC ? "States + D.C." : "States", f);
+  h = setText(h, "stat-tracker-categories", String(data.categories.length), f);
   h = fill(h, "case-grid", cases.slice(0, PAGE).map(caseCard).join("") +
     `<p class="text-muted" style="grid-column:1 / -1; font-size:12.5px;">Showing the ${PAGE} most recent of ${data.cases.length} matters. Filters and the full list load with JavaScript.</p>`, f);
   await Deno.writeTextFile(f, h); written.push(f);

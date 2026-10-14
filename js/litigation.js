@@ -38,26 +38,17 @@
   const statStates = document.getElementById("stat-tracker-states");
   const statCategories = document.getElementById("stat-tracker-categories");
   if (statMatters && statStates && statCategories) {
+    // The HTML already carries these numbers (scripts/prerender.ts); this
+    // only refreshes them from the loaded data, without a count-up from 0
+    // (a slow or interrupted animation left visitors looking at zeros).
+    // D.C. is counted separately from the states, as everywhere else.
     const statesWithMatters = new Set(RELAW_DATA.cases.map((c) => c.state).filter(Boolean));
-    statMatters.setAttribute("data-count", RELAW_DATA.cases.length);
-    statStates.setAttribute("data-count", statesWithMatters.size);
-    statCategories.setAttribute("data-count", RELAW_DATA.categories.length);
-    // main.js's generic [data-count] observer already fired on load using
-    // the "0" placeholder baked into the HTML -- these values only exist
-    // now, so re-run the same count-up animation quarterly.html uses for
-    // its own header stats.
-    [statMatters, statStates, statCategories].forEach((el) => {
-      const target = parseFloat(el.getAttribute("data-count"));
-      const start = performance.now();
-      const duration = 1000;
-      function tick(now) {
-        const p = Math.min((now - start) / duration, 1);
-        const eased = 1 - Math.pow(1 - p, 3);
-        el.textContent = Math.round(target * eased);
-        if (p < 1) requestAnimationFrame(tick);
-      }
-      requestAnimationFrame(tick);
-    });
+    const hasDC = statesWithMatters.has("DC");
+    statMatters.textContent = RELAW_DATA.cases.length;
+    statStates.textContent = statesWithMatters.size - (hasDC ? 1 : 0);
+    statCategories.textContent = RELAW_DATA.categories.length;
+    const statesLabel = document.getElementById("stat-tracker-states-label");
+    if (statesLabel) statesLabel.textContent = hasDC ? "States + D.C." : "States";
   }
 
   /* Build category chips */
