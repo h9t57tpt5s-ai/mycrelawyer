@@ -1,9 +1,9 @@
 {
  "date": "2026-10-14",
- "generatedAt": "2026-10-14T15:43:59+00:00",
+ "generatedAt": "2026-10-14T18:51:53+00:00",
  "mostBehind": [
-  "conversion",
   "calculator",
+  "conversion",
   "traffic",
   "news"
  ],
@@ -14,11 +14,11 @@
     "visits7",
     "googleLandings7"
    ],
-   "gap": 0.336,
+   "gap": 0.372,
    "metrics": {
-    "visits7": 258,
-    "googleLandings7": 118,
-    "visits28": 723
+    "visits7": 261,
+    "googleLandings7": 102,
+    "visits28": 771
    },
    "targets": {
     "visits7": 350,
@@ -32,12 +32,12 @@
     "follows7",
     "newsletterSignups7"
    ],
-   "gap": 0.7,
+   "gap": 0.567,
    "metrics": {
-    "signUps7": 1,
+    "signUps7": 2,
     "follows7": 0,
-    "newsletterSignups7": 0,
-    "multiPageRate7": 0.1008,
+    "newsletterSignups7": 1,
+    "multiPageRate7": 0.0996,
     "contactSends7": 0
    },
    "targets": {
@@ -52,11 +52,11 @@
    "behind": [],
    "gap": 0.0,
    "metrics": {
-    "sourcedMatters7": 50,
-    "freshSourcedMatters7": 34,
+    "sourcedMatters7": 52,
+    "freshSourcedMatters7": 36,
     "medianDaysEventToAdded": 7.0,
-    "leadsReviewedTotal": 42,
-    "leadsToMattersTotal": 6
+    "leadsReviewedTotal": 51,
+    "leadsToMattersTotal": 9
    },
    "targets": {
     "freshSourcedMatters7": 7,

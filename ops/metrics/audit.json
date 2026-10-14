@@ -1,13 +1,16 @@
 {
- "generatedAt": "2026-10-13T20:20:29+00:00",
- "pagesChecked": 570,
+ "generatedAt": "2026-10-14T18:51:53+00:00",
+ "pagesChecked": 591,
  "pagesByFolder": {
-  "root": 165,
-  "matters": 228,
+  "root": 169,
+  "matters": 243,
   "chapter-11": 117,
-  "federal-cases": 60
+  "federal-cases": 62
  },
  "summary": {
+  "zeroStatCounters": 0,
+  "unstyledHeroClasses": 0,
+  "hiddenUpdatesButton": 0,
   "brokenLinks": 0,
   "missingTitle": 0,
   "longTitle": 0,
@@ -22,17 +25,20 @@
   "heavyPages": 0
  },
  "freshness": {
-  "matters": 228,
-  "newestMatterAdded": "2026-10-13",
+  "matters": 243,
+  "newestMatterAdded": "2026-10-14",
   "daysSinceNewestMatter": 0,
   "ch11Petitions": 117,
   "newestCh11Petition": "2026-10-13",
-  "daysSinceNewestCh11": 0,
-  "federalSuits": 60,
+  "daysSinceNewestCh11": 1,
+  "federalSuits": 62,
   "newestFederalSuit": "2026-10-13",
-  "daysSinceNewestSuit": 0
+  "daysSinceNewestSuit": 1
  },
  "findings": {
+  "zeroStatCounters": [],
+  "unstyledHeroClasses": [],
+  "hiddenUpdatesButton": [],
   "brokenLinks": [],
   "missingTitle": [],
   "longTitle": [],
