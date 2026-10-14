@@ -1,6 +1,5 @@
 {
  "parties": {
-  "via mizner lender 1": "/parties/via-mizner-lender-1-llc.html",
   "city of menlo park": "/parties/city-of-menlo-park.html",
   "trigild ivl": "/parties/trigild-ivl.html",
   "9 new york ave": "/parties/9-new-york-ave-llc.html",
@@ -11,7 +10,8 @@
   "city of san antonio": "/parties/city-of-san-antonio.html",
   "american hospitality properties reit": "/parties/american-hospitality-properties-reit-inc.html",
   "lnr partners": "/parties/lnr-partners-llc.html",
-  "via mizner owner iii": "/parties/via-mizner-lender-1-llc.html",
+  "via mizner lender 1": "/properties/mandarin-oriental-residences-boca-raton-fl.html",
+  "via mizner owner iii": "/properties/mandarin-oriental-residences-boca-raton-fl.html",
   "american hospitality properties reit ii": "/parties/american-hospitality-properties-reit-inc.html",
   "willow bridge property": "/company-willow-bridge-property.html",
   "realpage": "/company-realpage.html",
@@ -54,5 +54,7 @@
   "deutsche bank national trust": "/company-deutsche-bank.html",
   "wilmington trust national association as trustee for the benefit of the registered holders of jpmbb commercial mortgage securities trust 2014-c24 commercial mortgage pass-through certificates series 2014-c24": "/company-wilmington-trust-national-association.html"
  },
- "properties": {}
+ "properties": {
+  "mandarin oriental residences|FL": "/properties/mandarin-oriental-residences-boca-raton-fl.html"
+ }
 }
