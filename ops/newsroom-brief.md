@@ -12,7 +12,7 @@ CREdocket (credocket.com) is a commercial real estate (CRE) litigation intellige
 ## Hard rules
 - Every fact, number, date, party and quote comes from a source you actually opened with WebFetch (or the browser if WebFetch is blocked). Search snippets alone are NOT enough. If you cannot open and read the source, drop the story.
 - Never invent or estimate a figure. amountUsd only if a source states a dollar figure for this matter.
-- Do not name individual people anywhere (not in parties, title, summary or body). Use business and government names only. "A shareholder", "the developer's principal" are fine.
+- Individuals (Jeff's rule, 2026-10-13): the "parties" list is business and government names only, always. In the title, summary and body you MAY name a well-known principal of a commercial real estate firm (a sponsor, developer, landlord or fund principal) when published reporting you opened names them in connection with the matter, because that name is what readers search for. Never name residential tenants, homeowners, consumers, employees, injured people, guarantors who are not well-known principals, or any individual taken only from a court-data feed or docket caption. When in doubt, use the company name or "the developer's principal".
 - Do not copy sentences from the source article; write in your own words (short quoted phrases under 15 words are OK, at most one per entry).
 - Check duplicates: read the existing-matters list the editor gives you (id | title | parties; built from js/data.js). Skip anything already covered, even under a different title.
 - Do not create accounts, log in, solve CAPTCHAs, or submit forms. Skip paywalled sources you cannot read.
