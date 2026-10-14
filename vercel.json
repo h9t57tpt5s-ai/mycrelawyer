@@ -71,6 +71,11 @@
       "permanent": true
     },
     {
+      "source": "/monthly-report.html",
+      "destination": "/litigation-index.html",
+      "permanent": true
+    },
+    {
       "source": "/matters/live-183.html",
       "destination": "/matters/live-035.html",
       "permanent": true

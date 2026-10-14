@@ -231,6 +231,7 @@ for (const s of stats) {
   const cats = countBy(s.matters, (c) => cat(c.category).label);
   const st = countBy(s.matters, stateName).slice(0, 10);
   const ch11States = countBy(s.ch11, (r) => courtState(r.court)).slice(0, 8);
+  const courts = countBy([...s.ch11, ...s.suits], (r) => r.court.replace("United States Bankruptcy Court", "U.S. Bankruptcy Court").replace("United States District Court", "U.S. District Court")).slice(0, 8);
   const list = (cs: Case[]) => cs.length ? `<ul class="matter-related">${cs.map((c) => `
       <li><a href="/matters/${esc(c.id)}.html">${esc(plain(c.seoTitle || c.title))}</a><span>${esc(fmtDate(c.date))} · ${esc(where(c))}${c.amount ? " · " + esc(clip(plain(c.amount), 60)) : ""}</span></li>`).join("")}
     </ul>` : `<p class="text-secondary">None this month.</p>`;
@@ -256,6 +257,7 @@ ${TABLE_CSS}
     <h2 class="matter-h2" style="margin-top:28px;">By state (tracker matters)</h2>
     ${chips(st)}
     ${ch11States.length ? `<h2 class="matter-h2" style="margin-top:28px;">Chapter 11 petitions by state</h2>\n    ${chips(ch11States)}` : ""}
+    ${courts.length ? `<h2 class="matter-h2" style="margin-top:28px;">Busiest courts (Chapter 11 petitions and federal suits)</h2>\n    ${chips(courts)}` : ""}
 
     <h2 class="matter-h2" style="margin-top:36px;">Office foreclosures and receiverships</h2>
     ${list(s.office)}
