@@ -308,4 +308,135 @@ function filingCard(label: string, noun: string, newest: Filing[], total: number
   await Deno.writeTextFile(f, h); written.push(f);
 }
 
+// ---- monthly-report.html: CRE bankruptcy/lawsuit counts, by state/court/word ----
+// Backlog G4 (traffic; added 2026-10-13): a monthly report built entirely from
+// ops/ch11-petitions.json and ops/federal-suits.json, every number computed
+// from the filings, never typed. Reports the most recently *complete*
+// calendar month (the current month is still filling in) plus a running
+// count of the still-partial current month for context.
+type Filing2 = { caseName: string; court: string; dateFiled: string; slug: string };
+const STATE_ABBR: Record<string, string> = {
+  Alabama: "AL", Alaska: "AK", Arizona: "AZ", Arkansas: "AR", California: "CA", Colorado: "CO",
+  Connecticut: "CT", Delaware: "DE", "District of Columbia": "DC", Florida: "FL", Georgia: "GA",
+  Hawaii: "HI", Idaho: "ID", Illinois: "IL", Indiana: "IN", Iowa: "IA", Kansas: "KS", Kentucky: "KY",
+  Louisiana: "LA", Maine: "ME", Maryland: "MD", Massachusetts: "MA", Michigan: "MI", Minnesota: "MN",
+  Mississippi: "MS", Missouri: "MO", Montana: "MT", Nebraska: "NE", Nevada: "NV", "New Hampshire": "NH",
+  "New Jersey": "NJ", "New Mexico": "NM", "New York": "NY", "North Carolina": "NC", "North Dakota": "ND",
+  Ohio: "OH", Oklahoma: "OK", Oregon: "OR", Pennsylvania: "PA", "Rhode Island": "RI",
+  "South Carolina": "SC", "South Dakota": "SD", Tennessee: "TN", Texas: "TX", Utah: "UT", Vermont: "VT",
+  Virginia: "VA", Washington: "WA", "West Virginia": "WV", Wisconsin: "WI", Wyoming: "WY",
+};
+const STATE_NAMES_BY_LEN = Object.keys(STATE_ABBR).sort((a, b) => b.length - a.length);
+function stateOfCourt(court: string): string | null {
+  for (const name of STATE_NAMES_BY_LEN) if (court.includes(name)) return STATE_ABBR[name];
+  return null;
+}
+const monthOf = (dateFiled: string) => dateFiled.slice(0, 7);
+function monthLabel(ym: string): string {
+  const [y, m] = ym.split("-").map(Number);
+  return new Date(Date.UTC(y, m - 1, 1)).toLocaleDateString("en-US", { month: "long", year: "numeric", timeZone: "UTC" });
+}
+// Replacement function, not a string, for the same "$1"-is-special-to-
+// String.replace reason as setText() above.
+function setTag(html: string, re: RegExp, value: string, file: string): string {
+  if (!re.test(html)) throw new Error(`${file}: tag not found for ${re}`);
+  return html.replace(re, (_m, p1: string, p2: string) => `${p1}${esc(value)}${p2}`);
+}
+{
+  const f = "monthly-report.html";
+  let h = await Deno.readTextFile(f);
+  const ch11All = (JSON.parse(await Deno.readTextFile("ops/ch11-petitions.json")) as { filings: Filing2[] }).filings;
+  const suitsAll = (JSON.parse(await Deno.readTextFile("ops/federal-suits.json")) as { filings: Filing2[] }).filings;
+
+  const currentMonth = new Date().toISOString().slice(0, 7);
+  const pastMonths = [...new Set([...ch11All, ...suitsAll].map((x) => monthOf(x.dateFiled)))].filter((m) => m < currentMonth).sort();
+  const reportMonth = pastMonths[pastMonths.length - 1];
+  const periodLabel = monthLabel(reportMonth);
+
+  const ch11Month = ch11All.filter((x) => monthOf(x.dateFiled) === reportMonth);
+  const suitsMonth = suitsAll.filter((x) => monthOf(x.dateFiled) === reportMonth);
+  const combined = [...ch11Month, ...suitsMonth];
+
+  const title = `CRE Bankruptcy & Lawsuit Report — ${periodLabel} — CREdocket`;
+  const desc = `Monthly counts of commercial real estate Chapter 11 petitions and federal lawsuits filed in ${periodLabel}, computed from public court records: by state, by court, and by property type named in the filing.`;
+  h = setTag(h, /(<title>)[^<]*(<\/title>)/, title, f);
+  h = setTag(h, /(<meta name="description" content=")[^"]*(" \/>)/, desc, f);
+  h = setTag(h, /(<meta property="og:title" content=")[^"]*(" \/>)/, title, f);
+  h = setTag(h, /(<meta property="og:description" content=")[^"]*(" \/>)/, desc, f);
+  h = setTag(h, /(<meta name="twitter:title" content=")[^"]*(" \/>)/, title, f);
+  h = setTag(h, /(<meta name="twitter:description" content=")[^"]*(" \/>)/, desc, f);
+
+  h = fill(h, "report-period", `${periodLabel}: ${ch11Month.length} commercial real estate Chapter 11 petitions and ${suitsMonth.length} CRE-related federal civil suits, newly filed in federal courts nationwide.`, f);
+
+  const tile = (n: number, label: string) => `
+      <div class="card reveal in-view" style="text-align:center; padding:24px;">
+        <div class="mono" style="font-size:2rem; font-weight:600; color:var(--accent);">${n}</div>
+        <div class="text-muted" style="font-size:12px; text-transform:uppercase; letter-spacing:0.04em; margin-top:6px;">${esc(label)}</div>
+      </div>`;
+  h = fill(h, "report-headline", tile(ch11Month.length, "Chapter 11 Petitions") + tile(suitsMonth.length, "Federal Lawsuits") + tile(combined.length, "Combined Filings"), f);
+
+  const row2 = (label: string, n: number, last: boolean) => `<tr><td style="padding:8px 0;${last ? "" : " border-bottom:1px solid var(--border-soft);"}">${esc(label)}</td><td class="mono" style="padding:8px 0;${last ? "" : " border-bottom:1px solid var(--border-soft);"} text-align:right;">${n}</td></tr>`;
+
+  const stateCounts = new Map<string, number>();
+  for (const x of combined) { const st = stateOfCourt(x.court); if (st) stateCounts.set(st, (stateCounts.get(st) ?? 0) + 1); }
+  const abbrToFull = Object.fromEntries(Object.entries(STATE_ABBR).map(([full, abbr]) => [abbr, full]));
+  const topStates = [...stateCounts.entries()].sort((a, b) => b[1] - a[1]).slice(0, 10);
+  const withDCThisMonth = stateCounts.has("DC");
+  const realStateCount = stateCounts.size - (withDCThisMonth ? 1 : 0);
+  const stateCountLabel = `${realStateCount} state${realStateCount === 1 ? "" : "s"}${withDCThisMonth ? " and D.C." : ""}`;
+  const statesHtml = `<table style="width:100%; border-collapse:collapse; font-size:14px;"><tbody>${topStates.map(([abbr, n], i) => row2(abbrToFull[abbr], n, i === topStates.length - 1)).join("")}</tbody></table>` +
+    `<p class="text-muted" style="font-size:12px; margin:10px 0 0;">Top ${topStates.length} of ${stateCountLabel} with at least one filing this month; the rest had one or two each.</p>`;
+  h = fill(h, "report-states", statesHtml, f);
+
+  const courtCounts = new Map<string, number>();
+  for (const x of combined) courtCounts.set(x.court, (courtCounts.get(x.court) ?? 0) + 1);
+  const topCourts = [...courtCounts.entries()].sort((a, b) => b[1] - a[1]).slice(0, 8);
+  const courtLabel = (c: string) => c.replace("United States Bankruptcy Court", "U.S. Bankruptcy Court");
+  const courtsHtml = `<table style="width:100%; border-collapse:collapse; font-size:13.5px;"><tbody>${topCourts.map(([c, n], i) => row2(courtLabel(c), n, i === topCourts.length - 1)).join("")}</tbody></table>`;
+  h = fill(h, "report-courts", courtsHtml, f);
+
+  const WORD_BUCKETS: [string, string[]][] = [
+    ["hospitality", ["hotel", "motel", "lodging", "hospitality"]],
+    ["industrial or warehouse", ["industrial", "warehouse"]],
+    ["multifamily/apartment", ["apartment", "multifamily"]],
+    ["office", ["office"]],
+    ["retail", ["retail"]],
+    ["self-storage", ["storage"]],
+  ];
+  const bucketCounts = new Map<string, number>();
+  let anyMatched = 0;
+  for (const x of combined) {
+    const nameL = x.caseName.toLowerCase();
+    for (const [bucket, terms] of WORD_BUCKETS) {
+      if (terms.some((t) => nameL.includes(t))) { bucketCounts.set(bucket, (bucketCounts.get(bucket) ?? 0) + 1); anyMatched++; break; }
+    }
+  }
+  const bucketParts = [...bucketCounts.entries()].map(([b, n]) => `<strong>${esc(b)}</strong> in ${n}`);
+  const pct = combined.length ? Math.round(100 * anyMatched / combined.length) : 0;
+  const wordsHtml = `<p class="text-secondary" style="font-size:14px; line-height:1.7; margin:0 0 10px;">${anyMatched} of this month's ${combined.length} filings (${pct}%) name a property type directly in the case caption${bucketParts.length ? ": " + bucketParts.join(", ") : ""}.</p>` +
+    `<p class="text-muted" style="font-size:12.5px; margin:0;">This is a literal word match on the case name, not a classification of every filing &mdash; most captions (an LLC's formal name) don't name a property type at all, so this is a lower bound, not a full breakdown.</p>`;
+  h = fill(h, "report-property-words", wordsHtml, f);
+
+  const ch11Partial = ch11All.filter((x) => monthOf(x.dateFiled) === currentMonth);
+  const suitsPartial = suitsAll.filter((x) => monthOf(x.dateFiled) === currentMonth);
+  const combinedPartial = ch11Partial.length + suitsPartial.length;
+  const prevMonth = pastMonths[pastMonths.length - 2];
+  const prevCh11 = prevMonth ? ch11All.filter((x) => monthOf(x.dateFiled) === prevMonth).length : null;
+  // The latest filing date actually in the partial month's data, not
+  // "today" -- the data feed can lag a day or more behind the run date.
+  const partialDates = [...ch11Partial, ...suitsPartial].map((x) => x.dateFiled).sort();
+  const asOfLabel = partialDates.length
+    ? new Date(partialDates[partialDates.length - 1] + "T00:00:00Z").toLocaleDateString("en-US", { month: "long", day: "numeric", timeZone: "UTC" })
+    : monthLabel(currentMonth);
+  const sharePart = combined.length ? Math.round(100 * combinedPartial / combined.length) : 0;
+  let momentum = `<p class="text-secondary" style="font-size:14px; line-height:1.7; margin:0;">${monthLabel(currentMonth)} is still in progress: as of ${asOfLabel}, ${combinedPartial} filings are already on the board (${ch11Partial.length} Chapter 11 petitions, ${suitsPartial.length} federal lawsuits) &mdash; ${sharePart}% of ${periodLabel}'s full-month total.`;
+  if (prevCh11 != null) momentum += ` Chapter 11 filings alone ${prevCh11 <= ch11Month.length ? "rose" : "fell"} from ${prevCh11} in ${monthLabel(prevMonth)} to ${ch11Month.length} in ${periodLabel}.`;
+  momentum += `</p>`;
+  h = fill(h, "report-momentum", momentum, f);
+
+  h = setText(h, "report-generated", `Figures computed from the live dataset on ${new Date().toISOString().slice(0, 10)}.`, f);
+
+  await Deno.writeTextFile(f, h); written.push(f);
+}
+
 console.log(`prerendered ${written.length} files: ${data.cases.length} matters, ${statesLabel}`);

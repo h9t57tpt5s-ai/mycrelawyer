@@ -666,6 +666,11 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://credocket.com/monthly-report.html</loc>
+    <lastmod>2026-10-14</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://credocket.com/multifamily-apartments.html</loc>
     <lastmod>2026-10-13</lastmod>
     <priority>0.6</priority>
