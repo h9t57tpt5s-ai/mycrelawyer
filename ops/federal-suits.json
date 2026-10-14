@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-14T01:22:34+00:00",
+ "updatedAt": "2026-10-14T15:58:29+00:00",
  "about": "New federal civil cases between businesses or governments that name a commercial real estate business, or are real property foreclosure or lease cases between businesses, from federal court records via CourtListener; is_cre_suit in scripts/ingest_court_filings.py decides which. Builds lawsuit-watch.html and federal-cases/<slug>.html (scripts/build_record_pages.ts).",
  "filings": [
   {
@@ -13,6 +13,19 @@
    "suitNature": "",
    "cause": "",
    "slug": "owners-insurance-company-v-budd-commercial-real-estate-llc-gamd-7-26-cv-00312",
+   "type": "Federal civil case"
+  },
+  {
+   "caseName": "Hartford Casualty Insurance Company v. Belvoir Real Estate Group LLC",
+   "court": "District Court, S.D. Texas",
+   "courtId": "txsd",
+   "docketNumber": "4:26-cv-09002",
+   "dateFiled": "2026-10-13",
+   "docketUrl": "https://www.courtlistener.com/docket/74958443/hartford-casualty-insurance-company-v-belvoir-real-estate-group-llc/",
+   "docketId": 74958443,
+   "suitNature": "",
+   "cause": "",
+   "slug": "hartford-casualty-insurance-company-v-belvoir-real-estate-group-llc-txsd-4-26-cv-09002",
    "type": "Federal civil case"
   },
   {

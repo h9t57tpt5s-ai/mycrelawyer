@@ -1,9 +1,9 @@
 {
- "updatedAt": "2026-10-14T01:22:34+00:00",
+ "updatedAt": "2026-10-14T15:58:29+00:00",
  "about": "Commercial real estate Chapter 11 petitions filed in the last four days, from federal court records via CourtListener. Same name test as Chapter 11 Watch (is_cre_debtor in scripts/ingest_court_filings.py). Business debtors only.",
  "filings": [
   {
-   "caseName": "30 QUABECK AVENUE LLC",
+   "caseName": "30 Quabeck Avenue LLC",
    "court": "United States Bankruptcy Court, D. New Jersey",
    "courtId": "njb",
    "docketNumber": "26-21578",
