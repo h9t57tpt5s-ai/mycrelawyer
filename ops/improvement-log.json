@@ -111,6 +111,20 @@
    "baseline": 0,
    "checkAfter": "2026-10-20",
    "status": "watching"
+  },
+  {
+   "id": "imp-009",
+   "date": "2026-10-14",
+   "track": "traffic",
+   "title": "Added monthly-report.html, a CRE bankruptcy & lawsuit report by state/court/property-type word",
+   "why": "ops/metrics/goals.json (refreshed this run): traffic is behind (gap 0.336, visits7=258/target 350, googleLandings7=118/target 200) and had not had a change in the last 2 runs (imp-007 conversion, imp-008 calculator), so per the playbook's tiebreak it went next; audit was clean (no breakage). Backlog G4: build a monthly report from ops/ch11-petitions.json and ops/federal-suits.json with every number computed, never typed. Computed September 2026 (the most recently complete month): 59 Chapter 11 petitions, 40 federal lawsuits, 99 combined, broken out by state (extracted from each filing's own court string), by court, and by property-type word literally in the case caption (9 of 99, explicitly labeled a lower bound, not a classification). Cross-checked every figure against an independent Python recomputation of the same source JSON before publishing.",
+   "files": ["monthly-report.html", "scripts/prerender.ts", "index.html", "litigation.html", "bankruptcy-watch.html", "lawsuit-watch.html", "sitemap.xml", "ops/metrics/goals.json"],
+   "commit": "dfdbaf217a3e7748f771e55c4395e04b60e8006f",
+   "metric": "goals.json traffic.metrics.visits7 and googleLandings7",
+   "window": "7 days",
+   "baseline": {"visits7": 258, "googleLandings7": 118},
+   "checkAfter": "2026-10-28",
+   "status": "watching"
   }
  ]
 }
