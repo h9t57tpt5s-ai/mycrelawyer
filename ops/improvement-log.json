@@ -139,6 +139,20 @@
    "baseline": {"multiPageRate7": 0.1008, "follows7": 0, "newsletterSignups7": 0},
    "checkAfter": "2026-10-21",
    "status": "watching"
+  },
+  {
+   "id": "imp-011",
+   "date": "2026-10-15",
+   "track": "calculator",
+   "title": "Analyzed why v4.3 misses the final-outcome range 47% of the time; wrote evidence and proposed prompt changes to ops/calculator-proposals.md (NEEDS JEFF)",
+   "why": "ops/metrics/goals.json (2026-10-15): calculator is the goal furthest behind (gap 0.646, finalRangeHitRate 0.531/target 0.75, calculatorViews7 0/target 50) and untouched by the last 2 log entries (imp-009 traffic, imp-010 conversion); audit was clean. Backlog G3. The valuation method can't be changed from this session (CLAUDE.md) and no change can be deployed from the cloud, so per the playbook's calculator scope this replayed the already-scored, already-published v4.3 backtest results (js/backtest-results-data.js, no new API calls or spend) to find the actual miss pattern rather than guessing. Found two dominant, case-cited patterns across the 15/32 misses: (1) a one-sided party figure (loan principal, punitive prayer, a second rent claim) priced at high confidence as if it directly equalled the award, with no issue modeling the legal theory that actually capped recovery (donegal-v-christie-scott 80x over, can-iv-packard-square 1.6x over, wheeler-reit 2x+ over, 1700-market-v-common-grounds 14x over); (2) in dueling-valuation disputes, when only one side's appraisal figure gets quoted into the record the existing competing-figures basis never triggers and the range anchors to one side only (kks-properties, elpa-builders miss this way; hrt-enterprises, state-v-skyway capture both sides and hit). Two smaller findings (immaterial-issue floor creep on near-exact hits; undercounted multi-claim cases) are documented too. This is evidence plus a proposal, not a code change -- nothing in the calculator's prompt or math was touched.",
+   "files": ["ops/calculator-proposals.md", "ops/metrics/goals.json"],
+   "commit": "88389b4",
+   "metric": "none directly -- this did not change the live site or the valuation method; what to check next time is whether Jeff has reviewed ops/calculator-proposals.md and ruled on the proposed prompt changes",
+   "window": "n/a",
+   "baseline": {"finalRangeHitRate": 0.531, "casesScored": 39},
+   "checkAfter": "2026-10-29",
+   "status": "watching"
   }
  ]
 }
