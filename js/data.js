@@ -9714,6 +9714,45 @@ const RELAW_DATA = {
         { when: "October 24, 2024", label: "The trial court denies CG & J Realty's motion to vacate the Section 19 bond and dismiss the foreclosure claim" },
         { when: "October 14, 2026", label: "The Appellate Division, Second Department, affirms the denial", current: true }
       ]
+    },
+    {
+      id: "live-298",
+      seoTitle: "Zecorra Enterprises v. Redford Township: Tax Tribunal Affirmed",
+      seoDescription: "Michigan Court of Appeals upholds a $525,000 true cash value for a Redford Township retail property converted for Dollar General over the owner's appraisal challenge.",
+      addedDate: "2026-10-15",
+      title: "Zecorra Enterprises, LLC v. Redford Township (Commercial Property Tax Valuation Appeal)",
+      category: "zoning-land-use",
+      status: "ruling",
+      date: "2026-10-14",
+      jurisdiction: "Michigan Court of Appeals",
+      state: "MI",
+      amount: "$525,000 true cash value determination affirmed",
+      source: "live",
+      sourceUrl: "https://www.courtlistener.com/opinion/11034145/zecorra-enterprises-llc-v-redford-township/",
+      summary: "The Michigan Court of Appeals affirmed the Michigan Tax Tribunal's determination that a Redford Township commercial property, a former bowling alley converted for a Dollar General store, had a true cash value of $525,000 for the 2023 tax year. The panel rejected owner Zecorra Enterprises, LLC's argument that the tribunal should have relied on its own appraiser's lower valuation and renovation deduction rather than the township's.",
+      significance: "The decision is a reminder to commercial owners pursuing property tax appeals that a below-market purchase price and a party's own renovation-cost ledger will not control a true-cash-value determination if the tribunal finds the sale price unrepresentative of the market and the owner's supporting evidence incomplete or poorly documented. It also confirms that Michigan courts give substantial deference to a tax tribunal's choice between competing appraisal methodologies and deduction amounts when both are grounded in record evidence.",
+      body: [
+        "The Michigan Court of Appeals on October 14, 2026, affirmed a Tax Tribunal ruling that set the true cash value of a Redford Township commercial property at $525,000 for the 2023 tax year, rejecting a property owner's bid to substitute its own appraiser's lower valuation for the tribunal's own independent determination. The case, Zecorra Enterprises, LLC v. Redford Township, illustrates how fact-intensive and evidence-dependent Michigan's property tax valuation appeals remain, even when the underlying transaction looks straightforward on its face.",
+        "Zecorra Enterprises bought the property, a long-vacant former bowling alley that had closed in 2019, in October 2022 for a total acquisition cost of $450,000, split between a $200,000 contract sales price and $250,000 in other consideration tied to personal property and fixtures. Before the sale closed, Zecorra had already signed a construction contract to convert the building into a retail store for Dollar General, and in December 2022 it signed a lease with Dolgencorp, LLC obligating it to complete the buildout by April 1, 2023. Dollar General took possession in May 2023.",
+        "When Zecorra challenged Redford Township's 2023 tax assessment, the dispute came down to dueling appraisals of the property's value as of the December 31, 2022 tax day. Zecorra's appraiser treated the $200,000 contract price as an arm's-length sale and, after deducting a renovation allowance, valued the property at $180,000. The township's appraiser countered that the $200,000 price was a 62% discount from the property's $525,000 list price just eighteen months earlier and was not representative of market value, ultimately valuing the property at $570,000 using a stabilized income-capitalization analysis with a deduction for the renovation and lease-up period.",
+        "The Tax Tribunal sided largely with the township after a three-day hearing, finding Zecorra's photographic evidence of the property's condition at the tax date incomplete and undated, and finding Zecorra's own appraiser's renovation-deduction testimony too vague to credit. It conducted its own valuation, arriving independently at $529,000 under the sales-comparison approach and $521,000 under the income-capitalization approach after applying the township's $525,000 non-stabilized adjustment, then reconciled the two to a final true cash value of $525,000. On appeal, Zecorra argued the tribunal erred by relying on the township appraiser's renovation deduction, which Zecorra said captured only part of its actual $797,783.70 in renovation costs, but the Court of Appeals found no basis to disturb the tribunal's weighing of the conflicting evidence and affirmed.",
+        "For commercial owners and their tax counsel, the ruling underscores that a recent purchase price is not a safe harbor in a true-cash-value fight if the assessor can show the price diverged sharply from a documented prior listing or market comparables, and that Michigan tribunals and courts will credit a well-supported, methodologically disciplined appraisal over one resting on incomplete documentation, even where the undocumented party is the taxpayer seeking a reduction. Owners planning a repositioning or adaptive-reuse project, like this retail conversion for a national tenant, should expect the tribunal to scrutinize the full renovation and lease-up timeline, not just the acquisition price, when fixing value as of the relevant tax day, and should keep dated, authenticated documentation of a property's physical condition and construction spend contemporaneous with the valuation date rather than reconstructing it later from general ledgers and undated photographs."
+      ],
+      tags: ["property-tax", "tax-tribunal", "commercial-property", "michigan", "retail-conversion"],
+      parties: [
+        { name: "Zecorra Enterprises, LLC", role: "Petitioner-Appellant" },
+        { name: "Redford Township", role: "Respondent-Appellee" }
+      ],
+      judge: null,
+      amountUsd: 525000,
+      amountBasis: "other",
+      timeline: [
+        { when: "October 2022", label: "Zecorra Enterprises purchases the former bowling-alley property for a total acquisition cost of $450,000" },
+        { when: "December 2022", label: "Zecorra signs a lease with Dolgencorp, LLC (Dollar General) conditioned on completing a retail buildout" },
+        { when: "May 2023", label: "Dollar General takes possession of the completed property" },
+        { when: "May 27, 2025", label: "Michigan Tax Tribunal determines the property's true cash value is $525,000 for the 2023 tax year" },
+        { when: "October 14, 2026", label: "Michigan Court of Appeals affirms the Tax Tribunal's valuation determination", current: true }
+      ]
     }
   ],
 
