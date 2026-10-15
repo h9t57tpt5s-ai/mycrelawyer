@@ -16,7 +16,7 @@ const RELAW_DATA = {
      Drives the homepage's "New Today" pill: it only shows when this
      equals the visitor's local today. Updated by the digest automation
      each time Step 4 successfully adds a case — never touched otherwise. */
-  lastUpdatedDate: "2026-10-14",
+  lastUpdatedDate: "2026-10-15",
   categories: [
     { id: "landlord-tenant", label: "Landlord–Tenant", color: "var(--cat-landlord)" },
     { id: "zoning-land-use", label: "Zoning & Land Use", color: "var(--cat-zoning)" },
@@ -9672,6 +9672,47 @@ const RELAW_DATA = {
         { when: "August 27, 2026", label: "Millrose and Lennar entities amend the Founder's Rights Agreement, per an 8-K filed the same day" },
         { when: "October 2, 2026", label: "Hunterbrook Media reports Millrose bought 700+ completed Lennar homes and is renting them out; MRP shares fall 8.5%" },
         { when: "October 9, 2026", label: "Investors file securities fraud class action in the Southern District of Florida", current: true }
+      ]
+    },
+    {
+      id: "live-297",
+      seoTitle: "CG & J Realty: NY Appeals Court Upholds Lien Bond Denial",
+      seoDescription: "New York's Appellate Division affirms denial of CG & J Realty's bid to vacate a mechanic's lien bond in a Queens commercial lien dispute.",
+      addedDate: "2026-10-15",
+      title: "CFS Enterprises, Inc. v. CG & J Realty, LLC (Queens Mechanic's Lien Bond Dispute)",
+      category: "construction-defect",
+      status: "ruling",
+      date: "2026-10-14",
+      jurisdiction: "Supreme Court of the State of New York, Appellate Division, Second Judicial Department",
+      state: "NY",
+      amount: "Lien amount not stated in the opinion; dispute over discharge of a mechanic's lien bond on Queens commercial property",
+      source: "live",
+      sourceUrl: "http://www.nycourts.gov/reporter/current/3dseries/2026/2026_05929.shtml",
+      summary: "The Appellate Division, Second Department, affirmed a Queens County trial court's denial of CG & J Realty, LLC's motion to vacate a Lien Law §19 bond and dismiss CFS Enterprises, Inc.'s action to foreclose a mechanic's lien on CG & J Realty's commercial property. The court held that CG & J Realty's NYSCEF filing of its order to show cause did not satisfy Lien Law §59's requirement of personal service on the lienor, so the motion was properly denied regardless of the merits of the underlying lien dispute.",
+      significance: "The ruling reinforces that New York courts apply mechanic's lien procedure with no tolerance for shortcuts, on lienors and property owners alike. Commercial owners, lenders, and contractors dealing with liens or lien-discharge bonds on active projects should treat strict, verifiable compliance with Lien Law notice and service requirements as a precondition to any later motion to vacate or dismiss, since electronic filing on NYSCEF is not a substitute for Lien Law §59's personal-service mandate.",
+      body: [
+        "A New York property owner's attempt to escape a mechanic's lien claim on procedural grounds failed on October 14, 2026, when the Appellate Division, Second Department, affirmed a Queens County trial court's refusal to let CG & J Realty, LLC off the hook for a construction lien filed against its commercial property. The decision in CFS Enterprises, Inc. v. CG & J Realty, LLC is a compact but instructive reminder that New York's Lien Law enforces its procedural requirements to the letter, on both lienors and the property owners trying to shake them loose.",
+        "The dispute traces back to November 2022, when CFS Enterprises filed a notice of mechanic's lien against commercial property in Queens owned by CG & J Realty, claiming it was owed money connected to improvements on the premises. In February 2023, CFS Enterprises sued to foreclose on that lien. CG & J Realty responded the way many commercial owners do when a lien clouds title or threatens a construction loan draw: in April 2023 it posted a bond under Lien Law §19 to discharge the lien from the property records, freeing title while the underlying payment dispute continued in litigation. Three months later, another contractor on the same project, Century Construction Group Corp., posted its own bond under Lien Law §37, a broader instrument meant to discharge all liens and claims against the property, and the trial court ruled in October 2023 that the Section 37 bond would supersede the earlier Section 19 bond.",
+        "Having been superseded, CG & J Realty tried to extract itself from the dispute entirely. By order to show cause, it moved under Lien Law §59 to vacate and cancel its own Section 19 bond and to dismiss CFS Enterprises' foreclosure claim outright. The Supreme Court, Queens County, denied the motion in October 2024, and CG & J Realty appealed.",
+        "The Second Department's affirmance turns on a narrow but absolute procedural point. Lien Law §59 permits a court to vacate a lien or discharge bond, but only after the lienor has been given formal notice, which the statute says must be served on the lienor either personally or by leaving it at the lienor's last known place of residence with a person of suitable age and discretion. CG & J Realty, the court found, never did that; it simply filed its order to show cause on the state courts' electronic filing system and treated that as sufficient notice to CFS Enterprises. The Appellate Division held that electronic filing alone does not satisfy Lien Law §59's service requirement, citing the settled principle that mechanic's liens exist purely by statute, with no roots in the common law or in equity, so courts have no discretion to excuse noncompliance with their procedural conditions, however routine e-filing has become in ordinary civil practice. The panel also declined to award CFS Enterprises appellate attorneys' fees for an allegedly frivolous appeal, finding that CG & J Realty's losing position still had enough legal support to avoid sanctions under New York's frivolous-conduct rule.",
+        "For commercial property owners, lenders, and the contractors and suppliers who work on their buildings, the case is a clean illustration of how mechanic's lien practice in New York punishes procedural shortcuts on both sides of the transaction. A party that wants to use Lien Law §59 to unwind a bond cannot treat NYSCEF filing as a substitute for the statute's specific personal-service mechanism. The decision also underscores the layered nature of lien security on active commercial construction projects: a Section 19 bond discharges a single lien, while a Section 37 bond can supersede multiple bonds and claims across a project, and disputes about which instrument controls can keep litigation alive long after a lien has nominally been bonded off. Owners negotiating project financing should remember that a bonded-off lien does not end the underlying foreclosure claim; it only substitutes security for the real property, while litigation over the underlying debt continues on its own track, and any later motion to vacate that security needs its own strict, documented compliance with the statute's service requirements."
+      ],
+      tags: ["mechanics-lien", "lien-law", "construction-payment", "new-york", "queens"],
+      parties: [
+        { name: "CFS Enterprises, Inc.", role: "Plaintiff" },
+        { name: "CG & J Realty, LLC", role: "Defendant" },
+        { name: "Century Construction Group Corp.", role: "Nonparty (posted superseding Lien Law §37 bond)" }
+      ],
+      judge: null,
+      amountUsd: null,
+      timeline: [
+        { when: "November 7, 2022", label: "CFS Enterprises files a Lien Law notice of mechanic's lien against CG & J Realty's Queens property" },
+        { when: "February 2023", label: "CFS Enterprises commences the action to foreclose the mechanic's lien" },
+        { when: "April 2023", label: "CG & J Realty posts a Lien Law §19 bond to discharge the lien" },
+        { when: "July 2023", label: "Century Construction Group Corp. posts a Lien Law §37 bond covering all liens and claims against the premises" },
+        { when: "October 10, 2023", label: "The trial court rules the Section 37 bond supersedes the Section 19 bond" },
+        { when: "October 24, 2024", label: "The trial court denies CG & J Realty's motion to vacate the Section 19 bond and dismiss the foreclosure claim" },
+        { when: "October 14, 2026", label: "The Appellate Division, Second Department, affirms the denial", current: true }
       ]
     }
   ],

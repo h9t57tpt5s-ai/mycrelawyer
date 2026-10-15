@@ -55,6 +55,18 @@
     "opinion:11033732": {"at": "2026-10-14", "action": "skipped: residential mortgage foreclosure, individual defendant"},
     "opinion:11033718": {"at": "2026-10-14", "action": "skipped: land use board appeal brought by individual pro se petitioners, not a commercial real estate matter on its face"},
     "opinion:11033496": {"at": "2026-10-14", "action": "skipped: outdoor-advertising/billboard contract dispute between competitors, not a commercial real estate matter on its face"},
-    "https://www.courtlistener.com/docket/74958443/hartford-casualty-insurance-company-v-belvoir-real-estate-group-llc/": {"at": "2026-10-14", "action": "skipped: no reporting found explaining the dispute"}
+    "https://www.courtlistener.com/docket/74958443/hartford-casualty-insurance-company-v-belvoir-real-estate-group-llc/": {"at": "2026-10-14", "action": "skipped: no reporting found explaining the dispute"},
+    "opinion:11034099": {"at": "2026-10-15", "action": "matter live-297"},
+    "opinion:11034096": {"at": "2026-10-15", "action": "skipped: residential mortgage foreclosure in Amityville, individual defendant (Roy Hall)"},
+    "opinion:11034095": {"at": "2026-10-15", "action": "skipped: residential mortgage foreclosure in Laurelton, individual defendant (Pamela Merrill)"},
+    "opinion:11034075": {"at": "2026-10-15", "action": "skipped: residential area-variance dispute (detached garage), individual petitioners"},
+    "opinion:11034068": {"at": "2026-10-15", "action": "skipped: area variances for a residential property in Hicksville despite corporate petitioner name, not commercial real estate"},
+    "opinion:11034063": {"at": "2026-10-15", "action": "skipped: residential mortgage foreclosure in Brooklyn, individual mortgagor"},
+    "opinion:11034037": {"at": "2026-10-15", "action": "skipped: residential mortgage foreclosure in Queens, individual defendant (Jason Vento)"},
+    "petition:https://www.courtlistener.com/docket/74960812/nrs-realty-llc/": {"at": "2026-10-15", "action": "skipped: no coverage found explaining the filing"},
+    "petition:https://www.courtlistener.com/docket/74949021/access-real-estate-holdings-llc/": {"at": "2026-10-15", "action": "skipped: no coverage found explaining the filing"},
+    "https://www.courtlistener.com/docket/74963440/united-states-v-vb-development-corp/": {"at": "2026-10-15", "action": "skipped: no reporting found explaining the dispute"},
+    "https://www.courtlistener.com/docket/74961442/building-service-32bj-pension-fund-v-lichter-real-estate-number-one/": {"at": "2026-10-15", "action": "skipped: no reporting found explaining the dispute"},
+    "https://www.courtlistener.com/docket/74964120/brementown-mini-mall-llc-v-auto-owners-insurance-company/": {"at": "2026-10-15", "action": "skipped: no reporting found explaining the dispute"}
   }
 }
