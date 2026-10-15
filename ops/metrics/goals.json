@@ -1,6 +1,6 @@
 {
- "date": "2026-10-14",
- "generatedAt": "2026-10-14T18:51:53+00:00",
+ "date": "2026-10-15",
+ "generatedAt": "2026-10-15T03:44:19+00:00",
  "mostBehind": [
   "calculator",
   "conversion",
@@ -52,11 +52,11 @@
    "behind": [],
    "gap": 0.0,
    "metrics": {
-    "sourcedMatters7": 52,
-    "freshSourcedMatters7": 36,
-    "medianDaysEventToAdded": 7.0,
-    "leadsReviewedTotal": 51,
-    "leadsToMattersTotal": 9
+    "sourcedMatters7": 48,
+    "freshSourcedMatters7": 37,
+    "medianDaysEventToAdded": 6.0,
+    "leadsReviewedTotal": 56,
+    "leadsToMattersTotal": 10
    },
    "targets": {
     "freshSourcedMatters7": 7,
