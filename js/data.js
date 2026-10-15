@@ -9753,6 +9753,47 @@ const RELAW_DATA = {
         { when: "May 27, 2025", label: "Michigan Tax Tribunal determines the property's true cash value is $525,000 for the 2023 tax year" },
         { when: "October 14, 2026", label: "Michigan Court of Appeals affirms the Tax Tribunal's valuation determination", current: true }
       ]
+    },
+    {
+      id: "live-299",
+      seoTitle: "Coolbaugh Twp, PA: Warehouse Zoning Suit Dismissed",
+      seoDescription: "Pennsylvania's Commonwealth Court affirmed dismissal of a warehouse developer's stormwater-buffer ordinance challenge against Coolbaugh Township as unripe.",
+      addedDate: "2026-10-15",
+      title: "Orchard BJK Company, LLC v. Coolbaugh Township Board of Supervisors (Stormwater-Ordinance Challenge to Warehouse Buffer Requirements)",
+      category: "zoning-land-use",
+      status: "ruling",
+      date: "2026-10-15",
+      jurisdiction: "Commonwealth Court of Pennsylvania",
+      state: "PA",
+      amount: "Not a monetary claim; developer sought a declaratory judgment voiding stormwater buffer ordinance amendments as unconstitutional and invalid special legislation",
+      source: "live",
+      sourceUrl: "https://storage.courtlistener.com/pdf/2026/10/15/orchard_bjk_co._llc__pocono_mountains_industries_inc._v._coolbaugh_twp..pdf",
+      summary: "The Commonwealth Court of Pennsylvania on October 15, 2026, affirmed dismissal of a constitutional challenge brought by Orchard BJK Company, LLC and Pocono Mountains Industries, Inc. against Coolbaugh Township's 2023 amendments tripling wetland buffer distances under its stormwater ordinance. The developers sued while their own petition asking the Township's Board to waive the new buffers for a planned warehouse on Lot 2 was still pending before the Board, and the court held the claims were not yet ripe because the Board could still grant the waiver.",
+      significance: "The ruling is a reminder to commercial and industrial landowners that courts will treat a constitutional challenge to a zoning or stormwater ordinance as premature when the ordinance itself preserves a waiver or variance mechanism and an application under that mechanism remains pending before the same body being sued. Developers should let a pending administrative waiver request play out, or affirmatively withdraw it, before suing over the underlying rule.",
+      body: [
+        "Orchard BJK Company and Pocono Mountains Industries own a cluster of commercially and industrially zoned parcels in Coolbaugh Township, a Monroe County municipality in Pennsylvania's Pocono Mountains region. In April 2023, the Township's Board of Supervisors approved the companies' application to subdivide one tract into two parcels, a 35.5-acre Lot 1 and a 73.16-acre Lot 2, and conditionally approved a land development plan for Lot 1 calling for an approximately 333,000-square-foot warehouse, built to the stormwater and subdivision ordinances then in effect.",
+        "Months later, the Board moved to tighten those rules. On August 2, 2023, it amended the Township's Stormwater Management and Earth Disturbance Ordinance to triple the minimum buffer between development and wetlands, from 50 to 150 feet for the inner buffer and from 100 to 150 feet for the buffer between buildings and wetlands. The amendment left intact a waiver provision allowing the Board, on a project-by-project basis, to modify or excuse the buffer requirements entirely.",
+        "In April 2024 the developers filed a preliminary land development plan for an approximately 186,000-square-foot warehouse on Lot 2 and, simultaneously, a petition asking the Board to waive the new buffer standards and apply the pre-amendment rules instead. While both the plan and the waiver petition were still pending before the Board, the developers sued in the Monroe County Court of Common Pleas, alleging the 2023 buffer amendments violated their constitutional right to enjoy their property and amounted to invalid special legislation, and asking the court to declare the amendments void from the outset.",
+        "The Township responded with preliminary objections arguing, among other things, that the case was not ripe because no real controversy would exist unless and until the Board actually denied the pending waiver request. The Common Pleas court agreed and dismissed the complaint in June 2025 without reaching the merits. On appeal, the developers argued first that the trial court had improperly raised ripeness on its own, and second that their claims were ripe regardless; the Commonwealth Court rejected both, pointing to the Township's own preliminary objections, which expressly argued paragraph by paragraph that no actual case or controversy existed until the Board ruled on the waiver.",
+        "On the merits of ripeness, the panel applied Pennsylvania's traditionally lenient standard for declaratory judgment actions, under which a claim need only present the ripening seeds of a controversy, and still held the suit premature. The developers claimed the buffer amendments effectively blocked warehouse construction on Lot 2 and had depressed the value of their other holdings, but the court found those harms depend entirely on what the Board eventually does with the still-pending waiver request: if the Board grants the waiver, the developers get the relief they wanted through the administrative process and the constitutional claims may never need to be decided at all.",
+        "The practical upshot for commercial and industrial landowners facing a newly tightened zoning, stormwater, or land-use ordinance elsewhere is that rushing to court the moment an unfavorable rule is enacted can backfire where the ordinance itself preserves a waiver or variance mechanism and an application under that mechanism is still pending before the same body being sued. A local government's preliminary objections asserting no actual case or controversy, phrased in the specific terms of a ripeness defense, will preserve that defense even if a trial court's own opinion frames it loosely as an insufficient-pleading or prior-pending-action issue, and developers would be better served letting the administrative waiver process play out, or affirmatively abandoning it, before filing a parallel constitutional challenge."
+      ],
+      tags: ["zoning", "stormwater-ordinance", "warehouse-development", "ripeness", "pennsylvania"],
+      parties: [
+        { name: "Orchard BJK Company, LLC", role: "Appellant (Developer/Property Owner)" },
+        { name: "Pocono Mountains Industries, Inc.", role: "Appellant (Developer/Property Owner)" },
+        { name: "Coolbaugh Township Board of Supervisors", role: "Appellee" }
+      ],
+      judge: "Lori A. Dumas",
+      amountUsd: null,
+      timeline: [
+        { when: "April 2023", label: "Board approves subdivision and conditionally approves a ~333,000-square-foot warehouse on Lot 1" },
+        { when: "August 2, 2023", label: "Board amends the Stormwater Ordinance to triple wetland buffer distances" },
+        { when: "April 29, 2024", label: "Developers submit a Lot 2 warehouse plan and a petition to waive the new buffer standards" },
+        { when: "May 3, 2024", label: "Developers sue the Board seeking a declaratory judgment voiding the buffer amendments" },
+        { when: "June 27, 2025", label: "Monroe County Court of Common Pleas dismisses the complaint as unripe" },
+        { when: "October 15, 2026", label: "Commonwealth Court of Pennsylvania affirms dismissal as unripe", current: true }
+      ]
     }
   ],
 
@@ -10256,6 +10297,7 @@ const RELAW_DATA = {
     { jurisdiction: "Circuit Court of St. Louis County, Missouri", url: "https://stlcountycourts.com/" },
     { jurisdiction: "3rd Circuit Court, Wayne County, Michigan", url: "https://www.3rdcc.org/" },
     { jurisdiction: "Philadelphia County Court of Common Pleas", url: "https://www.pacourts.us/courts/courts-of-common-pleas/individual-county-courts/philadelphia-courts" },
+    { jurisdiction: "Commonwealth Court of Pennsylvania", url: "https://www.pacourts.us/courts/commonwealth-court-judges" },
     { jurisdiction: "Supreme Court of New Jersey", url: "https://www.njcourts.gov/courts/supreme" },
     { jurisdiction: "U.S. District Court, Southern District of New York", url: "https://www.nysd.uscourts.gov/" },
     { jurisdiction: "U.S. District Court, Northern District of Illinois", url: "https://www.ilnd.uscourts.gov/" },
@@ -10687,6 +10729,14 @@ const RELAW_DATA = {
       court: "Massachusetts Appeals Court",
       background: "Nominated by Governor Maura Healey in November 2023 and confirmed by the Governor's Council that December. Served from 2015 to 2023 as chief of the Massachusetts Attorney General's Government Bureau; previously a litigation partner at Foley Hoag and counsel to U.S. Senator Edward Kennedy on the Senate Judiciary Committee.",
       bioUrl: "https://www.mass.gov/info-details/associate-justice-robert-e-toone-jr"
+    },
+    {
+      name: "Lori A. Dumas",
+      slug: "lori-a-dumas",
+      title: "Judge, Commonwealth Court of Pennsylvania",
+      court: "Commonwealth Court of Pennsylvania",
+      background: "Elected to the Commonwealth Court in 2021 and sworn in for a term beginning January 2022; previously a judge on the Philadelphia County Court of Common Pleas from 2002 to 2021. Holds a J.D. from North Carolina Central University School of Law and a B.A. from Duke University.",
+      bioUrl: "https://www.pacourts.us/courts/commonwealth-court-judges/judge-lori-a-dumas"
     }
   ],
 
