@@ -1,7 +1,7 @@
 {
- "updatedAt": "2026-10-14T14:35:56+00:00",
+ "updatedAt": "2026-10-15T14:16:53+00:00",
  "source": "CourtListener RECAP archive (federal courts only). Entries appear when CourtListener receives them, so some are late or missing.",
- "requestsUsed": 17,
+ "requestsUsed": 19,
  "errors": [],
  "dockets": {
   "63107484": {
@@ -40,59 +40,59 @@
   "67174489": {
    "entries": [
     {
-     "date": "2026-10-13",
-     "number": 1594,
-     "text": "Order on Motion for Miscellaneous Relief",
-     "url": "https://www.courtlistener.com/docket/67174489/1594/in-re-realpage-inc-rental-software-antitrust-litigation-no-ii/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-13",
-     "number": 1593,
+     "date": "2026-10-14",
+     "number": 1608,
      "text": "Order",
-     "url": "https://www.courtlistener.com/docket/67174489/1593/in-re-realpage-inc-rental-software-antitrust-litigation-no-ii/",
+     "url": "https://www.courtlistener.com/docket/67174489/1608/in-re-realpage-inc-rental-software-antitrust-litigation-no-ii/",
      "ruling": false
     },
     {
-     "date": "2026-10-09",
-     "number": 1588,
-     "text": "Order",
-     "url": "https://www.courtlistener.com/docket/67174489/1588/in-re-realpage-inc-rental-software-antitrust-litigation-no-ii/",
+     "date": "2026-10-14",
+     "number": 1607,
+     "text": "Appear Pro Hac Vice",
+     "url": "https://www.courtlistener.com/docket/67174489/1607/in-re-realpage-inc-rental-software-antitrust-litigation-no-ii/",
      "ruling": false
     },
     {
-     "date": "2026-10-09",
-     "number": 1587,
-     "text": "Memorandum Opinion of the Court",
-     "url": "https://www.courtlistener.com/docket/67174489/1587/in-re-realpage-inc-rental-software-antitrust-litigation-no-ii/",
-     "ruling": true
+     "date": "2026-10-14",
+     "number": 1606,
+     "text": "Appear Pro Hac Vice",
+     "url": "https://www.courtlistener.com/docket/67174489/1606/in-re-realpage-inc-rental-software-antitrust-litigation-no-ii/",
+     "ruling": false
     },
     {
-     "date": "2026-10-09",
-     "number": 1586,
+     "date": "2026-10-14",
+     "number": 1605,
+     "text": "Appear Pro Hac Vice",
+     "url": "https://www.courtlistener.com/docket/67174489/1605/in-re-realpage-inc-rental-software-antitrust-litigation-no-ii/",
+     "ruling": false
+    },
+    {
+     "date": "2026-10-14",
+     "number": 1604,
+     "text": "Leave",
+     "url": "https://www.courtlistener.com/docket/67174489/1604/in-re-realpage-inc-rental-software-antitrust-litigation-no-ii/",
+     "ruling": false
+    },
+    {
+     "date": "2026-10-14",
+     "number": 1599,
+     "text": "Attachment Proposed Order",
+     "url": "https://www.courtlistener.com/docket/67174489/1599/1/in-re-realpage-inc-rental-software-antitrust-litigation-no-ii/",
+     "ruling": false
+    },
+    {
+     "date": "2026-10-14",
+     "number": 1599,
      "text": "Miscellaneous Relief",
-     "url": "https://www.courtlistener.com/docket/67174489/1586/in-re-realpage-inc-rental-software-antitrust-litigation-no-ii/",
+     "url": "https://www.courtlistener.com/docket/67174489/1599/in-re-realpage-inc-rental-software-antitrust-litigation-no-ii/",
      "ruling": false
     },
     {
-     "date": "2026-10-09",
-     "number": 1585,
+     "date": "2026-10-14",
+     "number": 1598,
      "text": "Order",
-     "url": "https://www.courtlistener.com/docket/67174489/1585/in-re-realpage-inc-rental-software-antitrust-litigation-no-ii/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-09",
-     "number": 1584,
-     "text": "Order on Motion for Leave to File Document Under Seal AND Order on Motion for Leave to File Document Under Seal AND Order on Motion for Leave to File Document U",
-     "url": "https://www.courtlistener.com/docket/67174489/1584/in-re-realpage-inc-rental-software-antitrust-litigation-no-ii/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-08",
-     "number": 1583,
-     "text": "Order on Motion for Leave to File Document Under Seal",
-     "url": "https://www.courtlistener.com/docket/67174489/1583/in-re-realpage-inc-rental-software-antitrust-litigation-no-ii/",
+     "url": "https://www.courtlistener.com/docket/67174489/1598/in-re-realpage-inc-rental-software-antitrust-litigation-no-ii/",
      "ruling": false
     }
    ],
@@ -103,10 +103,31 @@
    "docketNumber": "3:23-md-03071",
    "dateTerminated": null,
    "url": "https://www.courtlistener.com/docket/67174489/in-re-realpage-inc-rental-software-antitrust-litigation-no-ii/",
-   "lastEntryDate": "2026-10-13"
+   "lastEntryDate": "2026-10-14"
   },
   "67356054": {
    "entries": [
+    {
+     "date": "2026-10-14",
+     "number": 152,
+     "text": "Letter",
+     "url": "https://www.courtlistener.com/docket/67356054/152/cornish-adebiyi-v-caesars-entertainment-inc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-10-14",
+     "number": null,
+     "text": "Order AND ~Util - Set Hearings",
+     "url": "https://www.courtlistener.com/docket/67356054/cornish-adebiyi-v-caesars-entertainment-inc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-10-14",
+     "number": null,
+     "text": "Mandate Notice",
+     "url": "https://www.courtlistener.com/docket/67356054/cornish-adebiyi-v-caesars-entertainment-inc/",
+     "ruling": false
+    },
     {
      "date": "2026-10-13",
      "number": 150,
@@ -150,7 +171,7 @@
    "docketNumber": "1:23-cv-02536",
    "dateTerminated": "2024-09-30",
    "url": "https://www.courtlistener.com/docket/67356054/cornish-adebiyi-v-caesars-entertainment-inc/",
-   "lastEntryDate": "2026-10-13"
+   "lastEntryDate": "2026-10-14"
   },
   "67940311": {
    "entries": [],
@@ -176,6 +197,20 @@
   },
   "69074245": {
    "entries": [
+    {
+     "date": "2026-10-15",
+     "number": null,
+     "text": "Set/Reset Deadlines/Hearings",
+     "url": "https://www.courtlistener.com/docket/69074245/united-states-of-america-v-realpage-inc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-10-14",
+     "number": null,
+     "text": "Order on Motion for Extension of Time to Answer",
+     "url": "https://www.courtlistener.com/docket/69074245/united-states-of-america-v-realpage-inc/",
+     "ruling": false
+    },
     {
      "date": "2026-10-13",
      "number": null,
@@ -217,20 +252,6 @@
      "text": "Notice - Other",
      "url": "https://www.courtlistener.com/docket/69074245/221/united-states-of-america-v-realpage-inc/",
      "ruling": false
-    },
-    {
-     "date": "2026-09-16",
-     "number": null,
-     "text": "CASE REFERRED RE: Responses to DE # 209, to JUDGE WILLIAM L. OSTEEN, JR",
-     "url": "https://www.courtlistener.com/docket/69074245/united-states-of-america-v-realpage-inc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-09-16",
-     "number": null,
-     "text": "Case Referred to Judge",
-     "url": "https://www.courtlistener.com/docket/69074245/united-states-of-america-v-realpage-inc/",
-     "ruling": false
     }
    ],
    "caseIds": [
@@ -240,7 +261,7 @@
    "docketNumber": "1:24-cv-00710",
    "dateTerminated": null,
    "url": "https://www.courtlistener.com/docket/69074245/united-states-of-america-v-realpage-inc/",
-   "lastEntryDate": "2026-10-13"
+   "lastEntryDate": "2026-10-15"
   },
   "69353264": {
    "entries": [
@@ -956,6 +977,20 @@
    "entries": [
     {
      "date": "2026-10-14",
+     "number": 42,
+     "text": "Notice of Hearing on Motion",
+     "url": "https://www.courtlistener.com/docket/73733742/42/bank-midwest-a-division-of-nbh-bank-v-tig-queso-llc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-10-14",
+     "number": 41,
+     "text": "Certificate of Service",
+     "url": "https://www.courtlistener.com/docket/73733742/41/bank-midwest-a-division-of-nbh-bank-v-tig-queso-llc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-10-14",
      "number": 40,
      "text": "Notice (Other)",
      "url": "https://www.courtlistener.com/docket/73733742/40/bank-midwest-a-division-of-nbh-bank-v-tig-queso-llc/",
@@ -994,20 +1029,6 @@
      "number": 35,
      "text": "Notice of Hearing",
      "url": "https://www.courtlistener.com/docket/73733742/35/bank-midwest-a-division-of-nbh-bank-v-tig-queso-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-08",
-     "number": 34,
-     "text": "Declaration",
-     "url": "https://www.courtlistener.com/docket/73733742/34/bank-midwest-a-division-of-nbh-bank-v-tig-queso-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-08",
-     "number": 33,
-     "text": "Declaration",
-     "url": "https://www.courtlistener.com/docket/73733742/33/bank-midwest-a-division-of-nbh-bank-v-tig-queso-llc/",
      "ruling": false
     }
    ],
@@ -1250,6 +1271,34 @@
   "74922581": {
    "entries": [
     {
+     "date": "2026-10-14",
+     "number": 21,
+     "text": "Court admitted exhibits",
+     "url": "https://www.courtlistener.com/docket/74922581/21/travis-property-owner-llc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-10-14",
+     "number": null,
+     "text": "Court admitted exhibits",
+     "url": "https://www.courtlistener.com/docket/74922581/travis-property-owner-llc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-10-14",
+     "number": null,
+     "text": "Hearing set/continued",
+     "url": "https://www.courtlistener.com/docket/74922581/travis-property-owner-llc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-10-14",
+     "number": null,
+     "text": "Hearing held",
+     "url": "https://www.courtlistener.com/docket/74922581/travis-property-owner-llc/",
+     "ruling": false
+    },
+    {
      "date": "2026-10-13",
      "number": 17,
      "text": "Objection",
@@ -1276,34 +1325,6 @@
      "text": "Notice of approval of expedited hearing request",
      "url": "https://www.courtlistener.com/docket/74922581/travis-property-owner-llc/",
      "ruling": false
-    },
-    {
-     "date": "2026-10-08",
-     "number": 13,
-     "text": "BNC certificate of mailing",
-     "url": "https://www.courtlistener.com/docket/74922581/13/travis-property-owner-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-08",
-     "number": 12,
-     "text": "Expedite hearing",
-     "url": "https://www.courtlistener.com/docket/74922581/12/travis-property-owner-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-08",
-     "number": 11,
-     "text": "Leave (Not for Appeal use)",
-     "url": "https://www.courtlistener.com/docket/74922581/11/travis-property-owner-llc/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-08",
-     "number": 10,
-     "text": "Leave (Not for Appeal use)",
-     "url": "https://www.courtlistener.com/docket/74922581/10/travis-property-owner-llc/",
-     "ruling": false
     }
    ],
    "caseIds": [
@@ -1313,10 +1334,17 @@
    "docketNumber": "26-90220",
    "dateTerminated": null,
    "url": "https://www.courtlistener.com/docket/74922581/travis-property-owner-llc/",
-   "lastEntryDate": "2026-10-13"
+   "lastEntryDate": "2026-10-14"
   },
   "74927117": {
    "entries": [
+    {
+     "date": "2026-10-14",
+     "number": 34,
+     "text": "Notice of Appearance and Request for Notice",
+     "url": "https://www.courtlistener.com/docket/74927117/34/southbridge-associates-llc/",
+     "ruling": false
+    },
     {
      "date": "2026-10-14",
      "number": 33,
@@ -1365,13 +1393,6 @@
      "text": "Objection",
      "url": "https://www.courtlistener.com/docket/74927117/27/southbridge-associates-llc/",
      "ruling": false
-    },
-    {
-     "date": "2026-10-12",
-     "number": 26,
-     "text": "Notice of Appearance and Request for Notice",
-     "url": "https://www.courtlistener.com/docket/74927117/26/southbridge-associates-llc/",
-     "ruling": false
     }
    ],
    "caseIds": [
@@ -1385,6 +1406,20 @@
   },
   "74948724": {
    "entries": [
+    {
+     "date": "2026-10-14",
+     "number": 3,
+     "text": "Meeting of Creditors Chapter 11 - US Trustee",
+     "url": "https://www.courtlistener.com/docket/74948724/3/az-175th-street-llc/",
+     "ruling": false
+    },
+    {
+     "date": "2026-10-14",
+     "number": 2,
+     "text": "Deficient Filing Chapter 11",
+     "url": "https://www.courtlistener.com/docket/74948724/2/az-175th-street-llc/",
+     "ruling": false
+    },
     {
      "date": "2026-10-13",
      "number": null,
@@ -1414,29 +1449,64 @@
    "docketNumber": "1-26-44763",
    "dateTerminated": null,
    "url": "https://www.courtlistener.com/docket/74948724/az-175th-street-llc/",
-   "lastEntryDate": "2026-10-13"
+   "lastEntryDate": "2026-10-14"
   },
   "74952112": {
    "entries": [
+    {
+     "date": "2026-10-15",
+     "number": 6,
+     "text": "Order Referring Case to Magistrate Judge",
+     "url": "https://www.courtlistener.com/docket/74952112/6/city-of-san-antonio-v-mullin/",
+     "ruling": false
+    },
+    {
+     "date": "2026-10-15",
+     "number": 5,
+     "text": "Order",
+     "url": "https://www.courtlistener.com/docket/74952112/5/city-of-san-antonio-v-mullin/",
+     "ruling": false
+    },
+    {
+     "date": "2026-10-14",
+     "number": 4,
+     "text": "Appear Pro Hac Vice",
+     "url": "https://www.courtlistener.com/docket/74952112/4/city-of-san-antonio-v-mullin-secretary-of-us-department-of-homeland/",
+     "ruling": false
+    },
+    {
+     "date": "2026-10-14",
+     "number": 3,
+     "text": "Appear Pro Hac Vice",
+     "url": "https://www.courtlistener.com/docket/74952112/3/city-of-san-antonio-v-mullin-secretary-of-us-department-of-homeland/",
+     "ruling": false
+    },
+    {
+     "date": "2026-10-14",
+     "number": 2,
+     "text": "Appear Pro Hac Vice",
+     "url": "https://www.courtlistener.com/docket/74952112/2/city-of-san-antonio-v-mullin-secretary-of-us-department-of-homeland/",
+     "ruling": false
+    },
+    {
+     "date": "2026-10-14",
+     "number": null,
+     "text": "Case Assigned/Reassigned",
+     "url": "https://www.courtlistener.com/docket/74952112/city-of-san-antonio-v-mullin/",
+     "ruling": false
+    },
+    {
+     "date": "2026-10-14",
+     "number": null,
+     "text": "To be Referred to SA Mag Judge",
+     "url": "https://www.courtlistener.com/docket/74952112/city-of-san-antonio-v-mullin/",
+     "ruling": false
+    },
     {
      "date": "2026-10-13",
      "number": 1,
      "text": "Supplement Summons",
      "url": "https://www.courtlistener.com/docket/74952112/1/8/city-of-san-antonio-v-mullin-secretary-of-us-department-of-homeland/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-13",
-     "number": 1,
-     "text": "Civil Cover Sheet",
-     "url": "https://www.courtlistener.com/docket/74952112/1/2/city-of-san-antonio-v-mullin-secretary-of-us-department-of-homeland/",
-     "ruling": false
-    },
-    {
-     "date": "2026-10-13",
-     "number": 1,
-     "text": "Complaint",
-     "url": "https://www.courtlistener.com/docket/74952112/1/city-of-san-antonio-v-mullin-secretary-of-us-department-of-homeland/",
      "ruling": false
     }
    ],
@@ -1446,8 +1516,8 @@
    "court": "W.D. Tex.",
    "docketNumber": "5:26-cv-06542",
    "dateTerminated": null,
-   "url": "https://www.courtlistener.com/docket/74952112/city-of-san-antonio-v-mullin-secretary-of-us-department-of-homeland/",
-   "lastEntryDate": "2026-10-13"
+   "url": "https://www.courtlistener.com/docket/74952112/city-of-san-antonio-v-mullin/",
+   "lastEntryDate": "2026-10-15"
   }
  },
  "events": [
