@@ -1,7 +1,33 @@
 {
- "updatedAt": "2026-10-15T00:48:09+00:00",
+ "updatedAt": "2026-10-15T15:44:24+00:00",
  "about": "New federal civil cases between businesses or governments that name a commercial real estate business, or are real property foreclosure or lease cases between businesses, from federal court records via CourtListener; is_cre_suit in scripts/ingest_court_filings.py decides which. Builds lawsuit-watch.html and federal-cases/<slug>.html (scripts/build_record_pages.ts).",
  "filings": [
+  {
+   "caseName": "Vertex Towers, LLC v. Town of Monson",
+   "court": "District Court, D. Massachusetts",
+   "courtId": "mad",
+   "docketNumber": "1:26-cv-14668",
+   "dateFiled": "2026-10-15",
+   "docketUrl": "https://www.courtlistener.com/docket/74966965/vertex-towers-llc-v-town-of-monson/",
+   "docketId": 74966965,
+   "suitNature": "",
+   "cause": "",
+   "slug": "vertex-towers-llc-v-town-of-monson-mad-1-26-cv-14668",
+   "type": "Federal civil case"
+  },
+  {
+   "caseName": "Samara Real Property, LLC, a Delaware limited liability company v. Board of County Commissioners of Santa Fe County",
+   "court": "District Court, D. New Mexico",
+   "courtId": "nmd",
+   "docketNumber": "1:26-cv-03446",
+   "dateFiled": "2026-10-15",
+   "docketUrl": "https://www.courtlistener.com/docket/74967305/samara-real-property-llc-a-delaware-limited-liability-company-v-board-of/",
+   "docketId": 74967305,
+   "suitNature": "",
+   "cause": "",
+   "slug": "samara-real-property-llc-a-delaware-limited-liability-company-v-board-nmd-1-26-cv-03446",
+   "type": "Federal civil case"
+  },
   {
    "caseName": "United States v. VB Development Corp",
    "court": "District Court, D. Puerto Rico",
