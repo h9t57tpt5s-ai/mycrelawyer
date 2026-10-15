@@ -153,6 +153,20 @@
    "baseline": {"finalRangeHitRate": 0.531, "casesScored": 39},
    "checkAfter": "2026-10-29",
    "status": "watching"
+  },
+  {
+   "id": "imp-012",
+   "date": "2026-10-15",
+   "track": "traffic",
+   "title": "Added illinois-lending-foreclosure.html, a new state/category deep-dive hub page",
+   "why": "ops/metrics/goals.json (2026-10-15, second run today): traffic is behind (gap 0.372, visits7=261/target 350, googleLandings7=102/target 200) and untouched by the last 2 log entries (imp-010 conversion, imp-011 calculator); audit was clean (no breakage). Counted real matters by state+category in js/data.js: Illinois lending-foreclosure has 10 tracked matters, the second-largest state/category combo in the whole dataset (after NY lending-foreclosure's 17, already covered by new-york-lending-foreclosure.html) and the largest combo without one of the 13 existing hand-authored deep-dive pages. Built illinois-lending-foreclosure.html using the identical pattern as the other 13 pages (client-side RELAW_DATA.cases filter by state/category, same CTA block, same nav/footer/newsletter band), linked it from state-guides.html's static A-Z list and GUIDES array, and added it to sitemap.xml by hand in alphabetical position (not regenerated, per imp-009's note that build_sitemap.py stamps every lastmod as today in this shallow clone).",
+   "files": ["illinois-lending-foreclosure.html", "state-guides.html", "sitemap.xml", "ops/metrics/goals.json"],
+   "commit": "c102c17004d9912b777c865370d4e7566d62e85d",
+   "metric": "goals.json traffic.metrics.visits7 and googleLandings7",
+   "window": "7 days",
+   "baseline": {"visits7": 261, "googleLandings7": 102},
+   "checkAfter": "2026-10-22",
+   "status": "watching"
   }
  ]
 }
