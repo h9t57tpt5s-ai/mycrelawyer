@@ -1,6 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://credocket.com/matters/live-301.html</loc>
+    <news:news>
+      <news:publication><news:name>CREdocket</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-10-16</news:publication_date>
+      <news:title>Odom v. Mall of Louisiana LLC (Wrongful-Death and Premises-Liability Suit Over Mall Food Court Shooting)</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://credocket.com/matters/live-300.html</loc>
+    <news:news>
+      <news:publication><news:name>CREdocket</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-10-16</news:publication_date>
+      <news:title>Waterworks Operating Co., LLC v. 514 W. 24th Owner LLC (Mechanic's-Lien and Breach-of-Contract Judgment Partly Vacated on Appeal)</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://credocket.com/matters/live-299.html</loc>
     <news:news>
       <news:publication><news:name>CREdocket</news:name><news:language>en</news:language></news:publication>
