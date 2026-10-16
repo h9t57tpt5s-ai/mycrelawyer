@@ -92,6 +92,20 @@ These set the page's Google title and description; the headline stays
 not in the matter's own text. Matters sharing a property get a property page
 automatically (scripts/build_entity_pages.ts).
 
+## Market Signals (Monday and Thursday AM runs; added 2026-10-16)
+
+The page went 11 days without a new item because the monthly trackers (KBRA,
+CRED iQ, Trepp) all publish in the first days of a month and were older than
+7 days by every mid-month run. Before skipping Step 4B, also search the
+reports that do come out mid-month: quarterly office, industrial and retail
+vacancy reports (Moody's, CBRE, Cushman & Wakefield, JLL, Colliers; Q3 reports
+arrive in October), banks' quarterly earnings disclosures of CRE charge-offs
+and nonaccruals, MBA quarterly origination and delinquency reports, Green
+Street CPPI and MSCI RCA price indexes, and ATTOM commercial foreclosure
+counts, including trade-press articles (GlobeSt, Bisnow, Commercial Observer,
+Connect CRE, CRE Daily) that quote the figures. A Market Signal every week is
+required; skipping is the last resort.
+
 ## How to judge a candidate
 
 - Prefer the event date (filing, ruling, settlement) within 7 days.

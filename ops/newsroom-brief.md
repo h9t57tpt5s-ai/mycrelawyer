@@ -67,3 +67,7 @@ If you find nothing that meets the bar, return [] (an empty list is fine; paddin
 - al.com and businessalabama.com block WebFetch, curl and the browser pane; corroborate their stories through WBRC (fetchable) or WebSearch snippets.
 - pacourts.us Commonwealth Court opinion list produced a same-day warehouse zoning ruling; pypdf is not installed system-wide, so use a scratch venv to extract PDF text.
 - Lending and bankruptcy beats both came back empty this run.
+
+## Market Signals duty (added 2026-10-16)
+If the newest `date` in the `trends` array of js/data.js is more than 5 days old, one researcher also drafts ONE Market Signal: a market-wide CRE statistic with legal-risk relevance (CMBS/CRE CLO delinquency or special servicing, quarterly office/industrial/retail vacancy, bank CRE charge-offs, price indexes, commercial foreclosure counts), published after that newest date, not already in `trends`. Write it to ops/pending-signals/trend-NNN.json (next id) in the format of an existing file in git history (`git show 95bf9612:ops/pending-signals/trend-018.json`): a "trend" object plus a "verification" list with one verbatim quote per figure or fact, copied character for character from a page you opened with WebFetch. Never edit the trends array yourself; verify-signals.yml opens each page and publishes only if every quote matches.
+
