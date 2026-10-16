@@ -1,6 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://credocket.com/matters/live-303.html</loc>
+    <news:news>
+      <news:publication><news:name>CREdocket</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-10-16</news:publication_date>
+      <news:title>Ex parte City of Fairhope Planning Commission and City of Fairhope (Developer's Negligence Claim Over Denied Apartment Applications Barred by Immunity)</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://credocket.com/matters/live-302.html</loc>
+    <news:news>
+      <news:publication><news:name>CREdocket</news:name><news:language>en</news:language></news:publication>
+      <news:publication_date>2026-10-16</news:publication_date>
+      <news:title>Commercial Properties, Inc. v. Montgomery Civic Ballet, Inc. (Commercial Lease Default, Indemnity and Untimely Opposition)</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://credocket.com/matters/live-301.html</loc>
     <news:news>
       <news:publication><news:name>CREdocket</news:name><news:language>en</news:language></news:publication>
