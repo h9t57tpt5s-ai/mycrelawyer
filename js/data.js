@@ -16,7 +16,7 @@ const RELAW_DATA = {
      Drives the homepage's "New Today" pill: it only shows when this
      equals the visitor's local today. Updated by the digest automation
      each time Step 4 successfully adds a case — never touched otherwise. */
-  lastUpdatedDate: "2026-10-15",
+  lastUpdatedDate: "2026-10-16",
   categories: [
     { id: "landlord-tenant", label: "Landlord–Tenant", color: "var(--cat-landlord)" },
     { id: "zoning-land-use", label: "Zoning & Land Use", color: "var(--cat-zoning)" },
@@ -9794,6 +9794,82 @@ const RELAW_DATA = {
         { when: "June 27, 2025", label: "Monroe County Court of Common Pleas dismisses the complaint as unripe" },
         { when: "October 15, 2026", label: "Commonwealth Court of Pennsylvania affirms dismissal as unripe", current: true }
       ]
+    },
+    {
+      id: "live-300",
+      seoTitle: "Chelsea Lien Fight: Waterworks v. 514 W. 24th Owner LLC",
+      seoDescription: "NY's First Department affirms liability but vacates a $1.4M mechanic's-lien judgment against a Chelsea developer, remitting the case to recalculate damages.",
+      addedDate: "2026-10-16",
+      title: "Waterworks Operating Co., LLC v. 514 W. 24th Owner LLC (Mechanic's-Lien and Breach-of-Contract Judgment Partly Vacated on Appeal)",
+      category: "construction-defect",
+      status: "ruling",
+      date: "2026-10-15",
+      jurisdiction: "Appellate Division of the Supreme Court of the State of New York, First Department",
+      state: "NY",
+      amount: "$1,396,058.74 judgment vacated and remitted for recalculation of damages",
+      source: "live",
+      sourceUrl: "https://www.courtlistener.com/opinion/11035230/waterworks-operating-co-llc-v-514-w-24th-owner-llc/",
+      summary: "New York's Appellate Division, First Department, on October 15, 2026 affirmed liability but vacated a roughly $1.4 million mechanic's-lien and breach-of-contract judgment that bathroom-fixtures supplier Waterworks Operating Co. won against 514 West 24th Owner LLC over unpaid materials delivered to a Chelsea redevelopment project. The court rejected the Owner's argument that an unauthorized construction manager's change orders could not bind it, but found Waterworks' proof of $237,069 of the claimed damages improperly relied on a reply-only affidavit, and remitted the case to Supreme Court to recalculate damages.",
+      significance: "The ruling is a reminder to commercial developers and contractors that winning on liability in a mechanic's-lien or construction-payment dispute does not guarantee the damages figure survives appeal if any portion of the proof was submitted at the wrong procedural moment. It also signals that an owner's silent acceptance of materials delivered under a change order can ratify that change order even where a construction manager arguably lacked authority to approve it under the governing agreement.",
+      body: [
+        "Waterworks Operating Company, a manufacturer and supplier of high-end bathroom and cabinet fixtures, sued 514 West 24th Owner LLC and its surety in New York County Supreme Court over unpaid bills for materials delivered to the Owner's redevelopment of a building in Chelsea. Under a series of purchase orders and change orders, the Owner had agreed to pay a full contract price of $2,577,166.99. The parties agreed the Owner had paid $1,608,827.37 for goods actually delivered and accepted, leaving Waterworks to file a mechanic's lien for the remaining $968,339.62 it says it was owed.",
+        "The trial court, Justice Joel M. Cohen presiding, granted Waterworks summary judgment on its breach-of-contract and lien-foreclosure claims in June 2024 and entered judgment in December 2024 awarding the company $1,396,058.74, covering the outstanding balance plus pre-judgment interest, costs, and disbursements. The Owner appealed both the underlying order and the judgment.",
+        "On appeal, the Owner first argued it could not be held liable for $390,605.51 in disputed change orders because the project's original construction manager, Michael Ohman of Sunrise Construction, LLC, lacked authority under the parties' construction management agreement to approve change orders without the Owner's prior written consent. The appellate panel rejected that argument, holding that the Owner's acceptance of the materials delivered under those change orders, without objection at the time, amounted to an implied ratification of the agreements regardless of Ohman's actual authority to sign off on them.",
+        "The Owner's second argument fared better. It contended triable issues of fact remained on the total damages owed because Waterworks had not adequately proven it delivered everything the contract called for. The court drew a careful line: Waterworks had submitted invoices documenting $2,340,098 in materials actually delivered, and the Owner never identified any specific invoiced item it did not receive, so the panel held Waterworks met its initial burden on that portion of the claim. But Waterworks fell short on the remaining $237,069, because its proof of full delivery came from an accounts-receivable manager's affidavit submitted only with its reply papers, after the Owner had already filed its opposition; since the Owner never had a chance to rebut that late-arriving evidence, the court held the affidavit could not be considered.",
+        "The panel modified the judgment to vacate it and remit the case to Supreme Court solely to recalculate damages consistent with its decision, while otherwise affirming summary judgment on liability for breach of contract and lien foreclosure. The separate appeal from the underlying order was dismissed as subsumed within the appeal from the judgment.",
+        "The practical upshot cuts both ways. Commercial owners and developers should enforce written change-order approval limits in actual practice, not just on paper, since silently accepting delivered materials under a change order can ratify it even if the person who approved it lacked signing authority under the governing contract. Suppliers and contractors moving for summary judgment on a payment or lien claim should front-load every piece of proof, including invoices, delivery records, and supporting affidavits, in their original moving papers rather than holding evidence in reserve for a reply, since courts will disregard reply-only proof the other side never had a chance to rebut. And both sides should expect that a split liability-versus-damages outcome on appeal can send a case back for a second round of proceedings limited to recalculating the dollar figure, extending the timeline and cost of what looked like a resolved dispute."
+      ],
+      tags: ["mechanics-lien", "construction-payment", "change-orders", "chelsea", "new-york"],
+      parties: [
+        { name: "Waterworks Operating Co., LLC", role: "Plaintiff-Respondent (Supplier/Lien Claimant)" },
+        { name: "514 West 24th Owner LLC", role: "Defendant-Appellant (Owner)" },
+        { name: "Sunrise Construction, LLC", role: "Non-Party Construction Manager" }
+      ],
+      judge: null,
+      amountUsd: 1396058.74,
+      amountBasis: "judgment",
+      timeline: [
+        { when: "June 12, 2024", label: "Supreme Court grants Waterworks summary judgment on breach of contract and lien foreclosure" },
+        { when: "December 5, 2024", label: "Supreme Court enters judgment awarding Waterworks $1,396,058.74" },
+        { when: "October 15, 2026", label: "First Department affirms liability, vacates the judgment, and remits for recalculation of damages", current: true }
+      ]
+    },
+    {
+      id: "live-301",
+      seoTitle: "Mall of Louisiana Shooting: Family Sues Brookfield, Marksman",
+      seoDescription: "Parents of a teen killed at the Mall of Louisiana sue the mall's owner, Brookfield Properties Retail, and security firm Marksman Security over inadequate security.",
+      addedDate: "2026-10-16",
+      title: "Odom v. Mall of Louisiana LLC (Wrongful-Death and Premises-Liability Suit Over Mall Food Court Shooting)",
+      category: "premises-liability",
+      status: "filed",
+      date: "2026-10-07",
+      jurisdiction: "19th Judicial District Court, East Baton Rouge Parish, Louisiana",
+      state: "LA",
+      amount: "Unspecified; wrongful death and negligence damages to be determined at trial",
+      source: "live",
+      sourceUrl: "https://www.wafb.com/2026/10/07/parents-teen-killed-mall-louisiana-shooting-sue-mall-security-company/",
+      summary: "The parents of 17-year-old Martha Odom, who was killed in an April 23, 2026 mass shooting in the food court of the Mall of Louisiana in Baton Rouge, filed a wrongful-death and negligence suit on October 7, 2026 against mall owner Mall of Louisiana LLC, operator Brookfield Properties Retail Inc., and security contractor Marksman Security LLC, alongside the accused shooter. Four other students present during the shooting, two of whom were wounded, joined as plaintiffs.",
+      significance: "The suit illustrates the premises-liability exposure commercial landlords and their security vendors face when a mass-violence incident follows a documented history of prior violence at the property; the complaint cites a 2013 food-court disturbance and a 2022 shooting near the mall to argue the risk was foreseeable and that security staffing and screening remained inadequate. It also reflects a broader trend of naming the security contractor as a direct defendant rather than leaving vendor liability to a later indemnification dispute with the landlord.",
+      body: [
+        "On April 23, 2026, gunfire broke out in the food court at the Mall of Louisiana on Bluebonnet Boulevard in Baton Rouge, killing 17-year-old Martha Odom and wounding several others. Markel Lee, who was 17 at the time, has since been indicted as an adult on one count of second-degree murder, six counts of attempted second-degree murder, and one count of illegal use of a weapon during a crime of violence; he has pleaded not guilty, and the criminal case remains pending separately from the civil suit.",
+        "Odom's parents, joined by four other students who were present during the shooting, two of whom were wounded, filed a civil suit on October 7, 2026 in the 19th Judicial District Court for East Baton Rouge Parish. They are represented by the Lafayette firm Broussard, David & Moroux and attorney Christopher L. Trahan. The complaint names Mall of Louisiana LLC, Brookfield Properties Retail Inc., and Marksman Security LLC as defendants alongside Lee.",
+        "The complaint does not rest on a single lapse on the day of the shooting. It alleges that the mall and its security provider failed to take reasonable steps to protect patrons from what it characterizes as reasonably foreseeable violence, pointing to the absence of any security personnel stationed in the food court at the time of the shooting and to screening and access-control measures the plaintiffs say did not effectively keep firearms out of the facility. To support foreseeability, the complaint cites the property's own history: a 2013 disturbance in the food court serious enough to prompt an evacuation and temporary closure of the mall, and a 2022 shooting near the property that killed two people.",
+        "That pattern-of-violence theory is a familiar one in mall and shopping-center shooting litigation nationally, and it places significant weight on how a landlord and its security vendor responded, or failed to respond, to earlier warning signs. Plaintiffs in these cases typically must show not just that a crime occurred, but that the property owner and its security contractor had actual or constructive notice of a heightened risk and nonetheless failed to adjust staffing, screening, or access control in response.",
+        "Shopping centers, mixed-use retail properties, and other high-traffic commercial venues face a distinct and growing category of premises-liability exposure built around mass-violence incidents, and courts increasingly treat a property's own incident history as the most probative evidence of foreseeability. A landlord that experiences a serious violent incident and does not meaningfully change its security posture afterward risks that the earlier incident becomes central evidence in the next lawsuit rather than a closed chapter. The claims here also target the security contractor directly, reflecting a broader trend of naming the vendor actually responsible for day-to-day security staffing and protocols as a defendant in its own right.",
+        "Commercial landlords and mall operators should treat any serious violent incident at a property as a documented triggering event that, if not followed by a demonstrable change in security staffing or protocols, can later be used to establish foreseeability in litigation over a subsequent incident. Security contracts for high-traffic retail and mixed-use properties should be reviewed for how staffing levels, post assignments, and screening protocols are documented and revised over time, since the adequacy of security on paper matters less than what a plaintiff can show was actually staffed and enforced on the date of an incident. Property owners relying on third-party security vendors should also examine their indemnification and insurance provisions now, before a mass-violence claim arrives, since suits of this kind name the security vendor as a direct defendant and can quickly raise questions about which party bears primary responsibility for a judgment or settlement."
+      ],
+      tags: ["premises-liability", "mall-security", "wrongful-death", "louisiana", "retail"],
+      parties: [
+        { name: "Mall of Louisiana LLC", role: "Defendant (Owner)" },
+        { name: "Brookfield Properties Retail Inc.", role: "Defendant (Operator/Manager)" },
+        { name: "Marksman Security LLC", role: "Defendant (Security Contractor)" }
+      ],
+      judge: null,
+      amountUsd: null,
+      timeline: [
+        { when: "April 23, 2026", label: "Mass shooting in the mall's food court kills one, wounds several others" },
+        { when: "October 7, 2026", label: "Victims' families sue the mall owner, operator, and security contractor for wrongful death and negligence", current: true }
+      ]
     }
   ],
 
@@ -10784,6 +10860,7 @@ const RELAW_DATA = {
     { name: "Vesta Realty, LLC", matchTerm: "Vesta Realty", slug: "vesta-realty", description: "Tulsa, Oklahoma-based private multifamily platform that controlled a roughly $1 billion, nearly 10,000-unit apartment portfolio across Oklahoma, Kansas, and Arkansas before its collapse into dozens of investor-fraud, foreclosure, receivership, and regulatory enforcement actions." },
     { name: "Phoenix American Hospitality", matchTerm: "Phoenix American Hospitality", slug: "phoenix-american-hospitality", description: "Dallas-based external manager of two non-traded hospitality REITs, which settled SEC fraud charges in 2026 over an $86 million Regulation A hotel-fund offering before the REITs themselves filed Chapter 11." },
     { name: "Fannie Mae", matchTerm: "Fannie Mae", slug: "fannie-mae", description: "Federally chartered mortgage finance enterprise that purchases and guarantees multifamily and single-family mortgage loans, and frequently appears as plaintiff or loan-purchaser in commercial mortgage foreclosure litigation.", website: "https://www.fanniemae.com" },
-    { name: "BroadRange Logistics LLC", matchTerm: "BroadRange", slug: "broadrange-logistics", description: "Georgia-based third-party logistics (3PL) operator leasing large warehouse and distribution space across multiple states, named as defendant in separate landlord lawsuits over defaulted industrial leases." }
+    { name: "BroadRange Logistics LLC", matchTerm: "BroadRange", slug: "broadrange-logistics", description: "Georgia-based third-party logistics (3PL) operator leasing large warehouse and distribution space across multiple states, named as defendant in separate landlord lawsuits over defaulted industrial leases." },
+    { name: "Brookfield Properties", matchTerm: "Brookfield", slug: "brookfield-properties", description: "Global alternative asset manager and one of the world's largest owners and operators of office, retail, and mixed-use commercial real estate, operating through numerous property-level subsidiaries and platforms.", website: "https://www.brookfieldproperties.com" }
   ]
 };
