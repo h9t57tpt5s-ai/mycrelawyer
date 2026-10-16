@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-08T11:44:32+00:00",
+ "updatedAt": "2026-10-16T05:49:13+00:00",
  "about": "Listed companies filing under real estate SIC codes 6798, 6500, 6510, 6512, 6513, 6519, 6531, 6552, 7011 (EDGAR). Used to pick real estate companies out of press-release feeds.",
  "companies": [
   {
@@ -259,6 +259,12 @@
    "ticker": "AIV",
    "name": "APARTMENT INVESTMENT & MANAGEMENT CO",
    "sic": "6798"
+  },
+  {
+   "cik": 1923734,
+   "ticker": "AKPPS",
+   "name": "Ark7 Properties Plus LLC",
+   "sic": "6500"
   },
   {
    "cik": 899629,
@@ -618,6 +624,18 @@
    "cik": 1581068,
    "ticker": "BRX",
    "name": "Brixmor Property Group Inc.",
+   "sic": "6798"
+  },
+  {
+   "cik": 1777917,
+   "ticker": "BSRT",
+   "name": "BSR Real Estate Investment Trust",
+   "sic": "6798"
+  },
+  {
+   "cik": 1777917,
+   "ticker": "BSRTF",
+   "name": "BSR Real Estate Investment Trust",
    "sic": "6798"
   },
   {
@@ -1275,12 +1293,6 @@
    "sic": "6798"
   },
   {
-   "cik": 727346,
-   "ticker": "GBCS",
-   "name": "SELECTIS HEALTH, INC.",
-   "sic": "6798"
-  },
-  {
    "cik": 1570843,
    "ticker": "GEBRF",
    "name": "Greenbriar Sustainable Living Inc.",
@@ -1827,12 +1839,6 @@
    "sic": "6798"
   },
   {
-   "cik": 912595,
-   "ticker": "MAA-PI",
-   "name": "MID AMERICA APARTMENT COMMUNITIES INC.",
-   "sic": "6798"
-  },
-  {
    "cik": 912242,
    "ticker": "MAC",
    "name": "MACERICH CO",
@@ -2051,12 +2057,6 @@
   {
    "cik": 1043219,
    "ticker": "NLY-PG",
-   "name": "ANNALY CAPITAL MANAGEMENT INC",
-   "sic": "6798"
-  },
-  {
-   "cik": 1043219,
-   "ticker": "NLY-PI",
    "name": "ANNALY CAPITAL MANAGEMENT INC",
    "sic": "6798"
   },
@@ -3024,24 +3024,6 @@
    "cik": 1630472,
    "ticker": "TRTX-PC",
    "name": "TPG RE Finance Trust, Inc.",
-   "sic": "6798"
-  },
-  {
-   "cik": 1465740,
-   "ticker": "TWO-PA",
-   "name": "TWO HARBORS INVESTMENT CORP.",
-   "sic": "6798"
-  },
-  {
-   "cik": 1465740,
-   "ticker": "TWO-PB",
-   "name": "TWO HARBORS INVESTMENT CORP.",
-   "sic": "6798"
-  },
-  {
-   "cik": 1465740,
-   "ticker": "TWO-PC",
-   "name": "TWO HARBORS INVESTMENT CORP.",
    "sic": "6798"
   },
   {
