@@ -105,6 +105,9 @@ Street CPPI and MSCI RCA price indexes, and ATTOM commercial foreclosure
 counts, including trade-press articles (GlobeSt, Bisnow, Commercial Observer,
 Connect CRE, CRE Daily) that quote the figures. A Market Signal every week is
 required; skipping is the last resort.
+Do not use therealdeal.com as a signal sourceUrl: it blocks the GitHub verifier
+(trend-021, 2026-10-16, rejected with every quote "not found" although the
+page matched when opened locally). credaily.com and cushmanwakefield.com pass.
 
 ## How to judge a candidate
 
