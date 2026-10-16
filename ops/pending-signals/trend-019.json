@@ -1,0 +1,23 @@
+{
+ "trend": {
+  "id": "trend-019",
+  "title": "Trepp CMBS special servicing rate climbs to 11.49% in September, highest since February 2013",
+  "category": "lending-foreclosure",
+  "date": "2026-10-14",
+  "scope": "U.S. CMBS loans in special servicing (Trepp), September 2026, as reported by CRE Daily",
+  "metric": "11.49% overall (up 7 bps month over month, up 84 bps year over year); $2.65B newly transferred, 57% office; $1.95B resolved",
+  "sourceUrl": "https://www.credaily.com/?p=224030",
+  "summary": "Trepp's share of CMBS loan balances with special servicers edged up seven basis points to 11.49% in September, the highest reading since February 2013 and 84 basis points above a year earlier. About $2.65B across 42 whole loans moved to special servicing during the month, and office loans made up 57% of that inflow; the single largest was the $512.8M One SoHo Square loan on a New York office building, flagged for imminent balloon or maturity default. Retail had the highest increase by property type, reaching 13.84%, while the office special servicing rate eased slightly to 16.85%. Exits also jumped: 48 whole loans totaling $1.95B left special servicing, a 237% increase over August.",
+  "significance": "More than one in nine CMBS loan dollars is now with a special servicer, the stage where modifications, forbearance, receivership motions and foreclosure filings are negotiated or launched. With much of the new inflow driven by loans that cannot pay off at maturity rather than missed payments, expect more extension fights, maturity-default suits and guarantor claims, while the jump in resolutions points to a busier pipeline of workouts and liquidations.",
+  "tags": ["cmbs", "special servicing", "trepp", "maturity default", "office"]
+ },
+ "verification": [
+  {"claim": "Special servicing rate rose seven basis points to 11.49% in September, highest since February 2013, up 84 bps year over year", "quote": "The CMBS special servicing rate rose seven basis points to 11.49% in September, the highest since February 2013, and is up 84 basis points from a year ago.", "url": "https://www.credaily.com/?p=224030"},
+  {"claim": "Figure is Trepp's; 7 bps rise to 11.49%", "quote": "Stress in CMBS reached its highest point in over a decade last month, according to Trepp. Its special servicing rate ticked up by seven bps to 11.49%, a level last seen in February 2013.", "url": "https://www.credaily.com/?p=224030"},
+  {"claim": "$2.65B newly transferred, office 57%, largest One SoHo Square $512.8M", "quote": "Office made up 57% of the $2.65B transferred to special servicing, led by the $512.8M One SoHo Square loan and the $436.9M Starwood Regional Mall Portfolio.", "url": "https://www.credaily.com/?p=224030"},
+  {"claim": "42 whole loans moved into special servicing", "quote": "Forty-two whole loans moved in, 13% less by dollar volume than the $3.04B (29 loans) in August.", "url": "https://www.credaily.com/?p=224030"},
+  {"claim": "One SoHo Square is a New York office property flagged for imminent balloon or maturity default", "quote": "The loan is backed by a 786,000 SF New York office property and was flagged for imminent balloon or maturity default.", "url": "https://www.credaily.com/?p=224030"},
+  {"claim": "Retail led increases at 13.84%; office fell to 16.85%", "quote": "Retail led the increases at 13.84% (up 24 bps), followed by lodging at 8.95% (up 21) and multifamily at 8.54% (up 17). Going the other way were mixed-use, which fell 30 bps to 13.17%, office, off five to 16.85%, and industrial, off four to 1.23%.", "url": "https://www.credaily.com/?p=224030"},
+  {"claim": "48 whole loans worth $1.95B left special servicing, a 237% jump from August", "quote": "A total of 48 whole loans worth $1.95B left special servicing , versus $579.7M (32 loans) in August, a 237% jump.", "url": "https://www.credaily.com/?p=224030"}
+ ]
+}
