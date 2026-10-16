@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-15T15:44:24+00:00",
+ "updatedAt": "2026-10-16T00:40:54+00:00",
  "about": "New federal civil cases between businesses or governments that name a commercial real estate business, or are real property foreclosure or lease cases between businesses, from federal court records via CourtListener; is_cre_suit in scripts/ingest_court_filings.py decides which. Builds lawsuit-watch.html and federal-cases/<slug>.html (scripts/build_record_pages.ts).",
  "filings": [
   {
@@ -16,6 +16,45 @@
    "type": "Federal civil case"
   },
   {
+   "caseName": "The Albano Group, LLC v. Netrality Properties LP",
+   "court": "District Court, E.D. Pennsylvania",
+   "courtId": "paed",
+   "docketNumber": "2:26-cv-07919",
+   "dateFiled": "2026-10-15",
+   "docketUrl": "https://www.courtlistener.com/docket/74969870/the-albano-group-llc-v-netrality-properties-lp/",
+   "docketId": 74969870,
+   "suitNature": "",
+   "cause": "",
+   "slug": "the-albano-group-llc-v-netrality-properties-lp-paed-2-26-cv-07919",
+   "type": "Federal civil case"
+  },
+  {
+   "caseName": "Teletech, Inc. v. Sprint Spectrum Realty Company",
+   "court": "District Court, E.D. Michigan",
+   "courtId": "mied",
+   "docketNumber": "2:26-cv-13939",
+   "dateFiled": "2026-10-15",
+   "docketUrl": "https://www.courtlistener.com/docket/74969945/teletech-inc-v-sprint-spectrum-realty-company/",
+   "docketId": 74969945,
+   "suitNature": "",
+   "cause": "",
+   "slug": "teletech-inc-v-sprint-spectrum-realty-company-mied-2-26-cv-13939",
+   "type": "Federal civil case"
+  },
+  {
+   "caseName": "Seymour Realty 1941, LLC v. AmGUARD Insurance Company",
+   "court": "District Court, S.D. Florida",
+   "courtId": "flsd",
+   "docketNumber": "0:26-cv-62884",
+   "dateFiled": "2026-10-15",
+   "docketUrl": "https://www.courtlistener.com/docket/74969302/seymour-realty-1941-llc-v-amguard-insurance-company/",
+   "docketId": 74969302,
+   "suitNature": "",
+   "cause": "",
+   "slug": "seymour-realty-1941-llc-v-amguard-insurance-company-flsd-0-26-cv-62884",
+   "type": "Federal civil case"
+  },
+  {
    "caseName": "Samara Real Property, LLC, a Delaware limited liability company v. Board of County Commissioners of Santa Fe County",
    "court": "District Court, D. New Mexico",
    "courtId": "nmd",
@@ -26,6 +65,19 @@
    "suitNature": "",
    "cause": "",
    "slug": "samara-real-property-llc-a-delaware-limited-liability-company-v-board-nmd-1-26-cv-03446",
+   "type": "Federal civil case"
+  },
+  {
+   "caseName": "Flushing Bank v. 1372 Franklin Avenue Housing Development Fund Corporation",
+   "court": "District Court, S.D. New York",
+   "courtId": "nysd",
+   "docketNumber": "1:26-cv-09084",
+   "dateFiled": "2026-10-15",
+   "docketUrl": "https://www.courtlistener.com/docket/74972871/flushing-bank-v-1372-franklin-avenue-housing-development-fund-corporation/",
+   "docketId": 74972871,
+   "suitNature": "",
+   "cause": "",
+   "slug": "flushing-bank-v-1372-franklin-avenue-housing-development-fund-corporat-nysd-1-26-cv-09084",
    "type": "Federal civil case"
   },
   {

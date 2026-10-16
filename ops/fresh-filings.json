@@ -1,7 +1,29 @@
 {
- "updatedAt": "2026-10-15T15:44:24+00:00",
+ "updatedAt": "2026-10-16T00:40:54+00:00",
  "about": "Commercial real estate Chapter 11 petitions filed in the last four days, from federal court records via CourtListener. Same name test as Chapter 11 Watch (is_cre_debtor in scripts/ingest_court_filings.py). Business debtors only.",
  "filings": [
+  {
+   "caseName": "Emcee Realty LLC",
+   "court": "United States Bankruptcy Court, E.D. New York",
+   "courtId": "nyeb",
+   "docketNumber": "1-26-44843",
+   "dateFiled": "2026-10-15",
+   "docketUrl": "https://www.courtlistener.com/docket/74972033/emcee-realty-llc/",
+   "docketId": 74972033,
+   "slug": "emcee-realty-llc-nyeb-1-26-44843",
+   "type": "Chapter 11 petition"
+  },
+  {
+   "caseName": "1333 Prospect Corp",
+   "court": "United States Bankruptcy Court, E.D. New York",
+   "courtId": "nyeb",
+   "docketNumber": "1-26-44834",
+   "dateFiled": "2026-10-15",
+   "docketUrl": "https://www.courtlistener.com/docket/74969627/1333-prospect-corp/",
+   "docketId": 74969627,
+   "slug": "1333-prospect-corp-nyeb-1-26-44834",
+   "type": "Chapter 11 petition"
+  },
   {
    "caseName": "N.R.S. Realty, LLC",
    "court": "United States Bankruptcy Court, D. New Jersey",
@@ -44,17 +66,6 @@
    "docketUrl": "https://www.courtlistener.com/docket/74950114/2911-creative-llc/",
    "docketId": 74950114,
    "slug": "2911-creative-l-l-c-nceb-26-04620",
-   "type": "Chapter 11 petition"
-  },
-  {
-   "caseName": "Access Real Estate Holdings, LLC",
-   "court": "United States Bankruptcy Court, M.D. Florida",
-   "courtId": "flmb",
-   "docketNumber": "8:26-bk-09241",
-   "dateFiled": "2026-10-11",
-   "docketUrl": "https://www.courtlistener.com/docket/74949021/access-real-estate-holdings-llc/",
-   "docketId": 74949021,
-   "slug": "access-real-estate-holdings-llc-flmb-8-26-bk-09241",
    "type": "Chapter 11 petition"
   }
  ]
