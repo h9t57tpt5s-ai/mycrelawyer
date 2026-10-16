@@ -167,6 +167,23 @@
    "baseline": {"visits7": 261, "googleLandings7": 102},
    "checkAfter": "2026-10-22",
    "status": "watching"
+  },
+  {
+   "id": "imp-013",
+   "date": "2026-10-16",
+   "track": "conversion",
+   "title": "Moved the newsletter signup band above the fold on index.html and litigation.html",
+   "why": "goals.json (2026-10-16): conversion is behind (gap 0.567, signUps7=2/target 5, follows7=0/target 3, newsletterSignups7=1/target 3); mostBehind order is calculator, conversion, traffic, news, and the last 2 log entries (imp-011 calculator, imp-012 traffic) had not touched conversion. No audit breakage and nothing with checkAfter due today to judge. Looked at where the site's one proven newsletter-signup component (newsletter-band / nl-inline, wired to js/newsletter-form.js) actually sits: on litigation.html it was the second-to-last section, below the entire 24-card case grid (~550 lines down the page); on index.html it was after 7 other sections. The funnel numbers show most visits never reach it: last7Days viewedAMatter=149 but readFullWriteUp=22, and these two pages alone take 265+317=582 of 7-day pageViews. Moved the identical, unmodified form (same copy, same markup, same JS wiring -- not duplicated) to right after the hero on both pages, so it is visible without scrolling past the case list. Did not touch the matter-panel newsletter/follow CTAs from imp-007 (separate surface, separately watched).",
+   "files": ["index.html", "litigation.html"],
+   "commit": "a4f8a37d7ada627d81fc052ed7bb9aea196128c3",
+   "metric": "goals.json conversion.metrics.newsletterSignups7 (primary), signUps7 (secondary)",
+   "window": "7 days",
+   "baseline": {
+    "newsletterSignups7": 1,
+    "signUps7": 2
+   },
+   "checkAfter": "2026-10-23",
+   "status": "watching"
   }
  ]
 }
