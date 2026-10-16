@@ -184,6 +184,20 @@
    },
    "checkAfter": "2026-10-23",
    "status": "watching"
+  },
+  {
+   "id": "imp-014",
+   "date": "2026-10-16",
+   "track": "calculator",
+   "title": "Added a Case Value Calculator promo to litigation.html",
+   "why": "goals.json (2026-10-16, second run today): calculator is the goal furthest behind (gap 0.646, calculatorViews7=0/target 50, finalRangeHitRate=0.531/target 0.75) and untouched by the last 2 log entries (imp-012 traffic, imp-013 conversion); audit was clean and no watching entry's checkAfter was due today. imp-008 already linked the calculator from matter pages and the homepage, but ops/metrics/latest.json's last7Days.topPages (used to compute calculatorViews7) still shows no case-valuation.html visits, and case-valuation.html doesn't crack the top-10 pages list at all. litigation.html is the site's second-highest-traffic page (51 of 265 7-day visits) and only linked the calculator from the Tools nav dropdown -- never from the page body, unlike the homepage. Added the identical, unmodified cta-photo-card promo imp-008 already proved on index.html (same copy, same CTA, same pattern) to litigation.html, placed between the \"From the Court Record\" section and the 249-matter filter/grid so it's seen before the long case list rather than requiring a scroll past it.",
+   "files": ["litigation.html", "ops/metrics/goals.json"],
+   "commit": "3cc360d",
+   "metric": "goals.json calculator.metrics.calculatorViews7",
+   "window": "7 days",
+   "baseline": 0,
+   "checkAfter": "2026-10-23",
+   "status": "watching"
   }
  ]
 }
