@@ -2437,8 +2437,9 @@ const RELAW_DATA = {
         { when: "November 2025", label: "Court grants preliminary approval to an initial batch of RealPage MDL settlements" },
         { when: "April 13, 2026", label: "Equity Residential discloses its $56M settlement in an SEC filing" },
         { when: "May 2026", label: "Court grants preliminary approval to eleven additional settlements, including Equity Residential's" },
-        { when: "October 9, 2026", label: "Court issues a Memorandum Opinion of the Court (docket entry 1587)", current: true },
-        { when: "October 15, 2026", label: "Final fairness hearing before Judge Waverly D. Crenshaw Jr. in Nashville", upcoming: true }
+        { when: "October 9, 2026", label: "Court issues a Memorandum Opinion of the Court (docket entry 1587)" },
+        { when: "October 15, 2026", label: "Final fairness hearing before Judge Waverly D. Crenshaw Jr. in Nashville" },
+        { when: "October 15, 2026", label: "Court enters judgment following its order and attorney-fee ruling on the settlements (docket entries 1618-1620)", current: true }
       ],
       judge: "Waverly D. Crenshaw Jr.",
       tags: ["realpage", "algorithmic pricing", "antitrust", "reit", "mdl settlement"],
@@ -9870,6 +9871,84 @@ const RELAW_DATA = {
         { when: "April 23, 2026", label: "Mass shooting in the mall's food court kills one, wounds several others" },
         { when: "October 7, 2026", label: "Victims' families sue the mall owner, operator, and security contractor for wrongful death and negligence", current: true }
       ]
+    },
+    {
+      id: "live-302",
+      seoTitle: "Montgomery Ballet Lease Fight: AL Court Backs Landlord",
+      seoDescription: "Alabama Supreme Court affirms striking a ballet tenant's late summary-judgment response, preserving a $65,827.50 rent judgment and indemnity win for its landlord.",
+      addedDate: "2026-10-16",
+      title: "Commercial Properties, Inc. v. Montgomery Civic Ballet, Inc. (Commercial Lease Default, Indemnity and Untimely Opposition)",
+      category: "lease-disputes",
+      status: "ruling",
+      date: "2026-10-16",
+      jurisdiction: "Supreme Court of Alabama",
+      state: "AL",
+      amount: "$65,827.50 unpaid-rent judgment affirmed; tenant also held to owe landlord defense and indemnity on separate personal-injury claims",
+      source: "live",
+      sourceUrl: "https://www.courtlistener.com/opinion/11036870/commercial-properties-inc-v-ourania-charalambidou-dionysios-mitsios/",
+      summary: "The Alabama Supreme Court on October 16, 2026, affirmed a trial court's order striking as untimely a commercial tenant's opposition to its landlord's motion for partial summary judgment, leaving intact a $65,827.50 unpaid-rent judgment and a ruling that the tenant, Montgomery Civic Ballet, Inc., owes its landlord, Commercial Properties, Inc., defense and indemnity on mold-related personal-injury claims arising from the same shopping-center lease. On the landlord's cross-appeal, the Court reversed in part and remanded, holding the trial court could not simultaneously certify the partial judgment as final under Rule 54(b) while also purporting to dismiss the entire case.",
+      significance: "The ruling is a reminder to commercial landlords and tenants that Alabama's summary-judgment response deadlines are measured in business days and enforced strictly, and that a tenant who vacates over a maintenance dispute risks losing the chance to contest a resulting rent judgment and indemnity obligation on the merits if its own filings also miss the window. It also shows that a Rule 54(b) finality certification cannot coexist with an order that simultaneously purports to dismiss the whole case.",
+      body: [
+        "The Supreme Court of Alabama on October 16, 2026, affirmed a trial court's decision to strike as untimely a commercial tenant's opposition to its landlord's motion for partial summary judgment, leaving in place a $65,827.50 unpaid-rent judgment and a ruling that the tenant owes its landlord defense and indemnity on personal-injury claims arising from the same leased premises. In a companion cross-appeal, the Court also held that the trial court could not simultaneously certify the partial judgment as final under Rule 54(b) and purport to dismiss the entire case outright, reversing that portion of the order and remanding for further proceedings.",
+        "The case arose from two commercial leases that Commercial Properties, Inc., as landlord, signed with Montgomery Civic Ballet, Inc. in May 2008 and January 2012, under which the Ballet rented two suites in a shopping center owned and managed by Commercial Properties. The leases contained a tenant indemnification provision, a default provision, and a provision making the tenant liable for the landlord's attorney fees and costs in enforcing the lease. In December 2020, the Ballet vacated the premises, alleging the landlord had failed to remediate mold in the leased space, and the following month the Ballet and its affiliated individual plaintiffs filed a multicount complaint alleging personal injuries from mold exposure and damage to the Ballet's property, including its costumes.",
+        "The landlord answered and counterclaimed for unpaid rent, and separately demanded that the Ballet defend and indemnify it against the personal-injury claims under the lease's indemnification clause, a demand the Ballet never answered. In February 2023, the landlord moved for partial summary judgment seeking an interlocutory judgment that the Ballet owed $65,827.50 in unpaid rent, a ruling that the Ballet owed defense and indemnity on the personal-injury claims, and judgment in its favor on the Ballet's own claims against it. The motion sat unresolved for two years, a delay attributed in part to the fact that the original trial judge assigned to the case was assaulted while it was pending and later retired, before the case was reassigned.",
+        "When a hearing on the motion was finally set for April 21, 2025, the Ballet filed its opposition on the Friday before, which the trial court found was one business day too late under the interplay of Alabama's summary-judgment and time-computation rules, which require a response at least two business days before a hearing. The trial court struck the response as untimely, leaving the motion unopposed, and ultimately entered partial summary judgment for the landlord in December 2025 on that same unopposed record. On appeal, the Ballet did not challenge the summary judgment on the merits in its opening brief, an argument the Court held was waived when raised only in reply, and instead argued only that striking its late response had denied it a fair hearing; the Court, in an opinion authored by Justice Will Sellers, rejected that argument because the plaintiffs had notice of the hearing and any failure of counsel to appear was not the trial court's doing.",
+        "On the landlord's cross-appeal, the Court addressed an irregularity in the trial court's February 2026 order, which certified the partial summary judgment as a final, appealable order under Rule 54(b) while at the same time purporting to dismiss the entire case, two characterizations the Supreme Court found could not both be true at once. The Court affirmed in part, reversed in part, and remanded for the trial court to clarify the procedural posture of the claims left outside the partial summary judgment, including the personal-injury claims the individual plaintiffs brought directly against the landlord.",
+        "The decision leaves commercial landlords and tenants with a clear set of practical lessons: deadlines in summary-judgment practice are measured in business days, not calendar days, and Alabama courts will enforce that distinction even against a response filed only hours late; a tenant that stops paying rent or vacates over a maintenance dispute, rather than pursuing its claims while continuing to perform under the lease, risks losing the chance to contest a resulting judgment on the merits if it also stumbles procedurally; indemnification and attorney-fee clauses in a commercial lease are not symbolic, since here a landlord recovered unpaid rent and shifted a tenant's personal-injury exposure back onto the tenant largely because of a missed filing window; and parties relying on a Rule 54(b) certification to appeal a partial ruling should make sure the trial court's order does not simultaneously describe the entire case as dismissed, since that kind of internal inconsistency can send a case back down rather than resolve it."
+      ],
+      tags: ["commercial-lease", "summary-judgment", "indemnification", "alabama", "retail"],
+      parties: [
+        { name: "Commercial Properties, Inc.", role: "Landlord" },
+        { name: "Montgomery Civic Ballet, Inc., d/b/a Montgomery Ballet Studios", role: "Tenant" }
+      ],
+      judge: "Will Sellers",
+      amountUsd: 65827.5,
+      amountBasis: "judgment",
+      timeline: [
+        { when: "May 2008 and January 2012", label: "Commercial Properties and Montgomery Civic Ballet sign two shopping-center lease agreements" },
+        { when: "December 2020", label: "The Ballet vacates the premises, alleging the landlord failed to remediate mold" },
+        { when: "January 2021", label: "The Ballet and affiliated individuals sue the landlord over mold-related personal injury and property damage" },
+        { when: "December 22, 2025", label: "Trial court enters partial summary judgment for the landlord after striking the Ballet's opposition as untimely" },
+        { when: "October 16, 2026", label: "Alabama Supreme Court affirms the untimeliness ruling, but reverses in part and remands on the Rule 54(b) certification-and-dismissal order", current: true }
+      ]
+    },
+    {
+      id: "live-303",
+      seoTitle: "Fairhope Planning Commission Shielded From Developer Suit",
+      seoDescription: "Alabama Supreme Court grants mandamus shielding Fairhope's Planning Commission and city from 68V BTR Holdings' negligence suit over two denied apartment projects.",
+      addedDate: "2026-10-16",
+      title: "Ex parte City of Fairhope Planning Commission and City of Fairhope (Developer's Negligence Claim Over Denied Apartment Applications Barred by Immunity)",
+      category: "zoning-land-use",
+      status: "ruling",
+      date: "2026-10-16",
+      jurisdiction: "Supreme Court of Alabama",
+      state: "AL",
+      amount: "Unspecified negligence damages claim over denial of two apartment-development applications; no dollar figure stated in the opinion",
+      source: "live",
+      sourceUrl: "https://www.courtlistener.com/opinion/11036868/in-re-68v-btr-holdings-llc-v-city-of-fairhope-planning-commission-and/",
+      summary: "The Alabama Supreme Court granted a writ of mandamus on October 16, 2026, directing a Baldwin County circuit court to enter judgment for the City of Fairhope and its Planning Commission on developer 68V BTR Holdings, LLC's negligence claim over the denial of two apartment-complex applications, holding that both the volunteer Commission members and the city employees who advised them are immune from suit. The ruling leaves 68V's separate arbitrary-and-capricious and substantive-due-process claims against the City and Commission pending in the trial court.",
+      significance: "The decision confirms that a negligence claim against a city or its planning commission over a development denial runs into both municipal immunity and, for volunteer board members, the Volunteer Service Act's additional layer of protection, even where a developer alleges the denial was made in bad faith. Developers who believe a planning body acted with an improper motive are generally better served pursuing a direct mandamus action or administrative appeal of the denial itself rather than a tort claim against the decisionmakers.",
+      body: [
+        "The Supreme Court of Alabama granted a writ of mandamus on October 16, 2026, directing a Baldwin County circuit court to enter judgment for the City of Fairhope and its Planning Commission on a developer's negligence claim over the denial of two apartment-complex applications, holding that both the volunteer members of the Commission and the city employees who advised them are immune from suit under Alabama law.",
+        "The case traces back to applications that 68V BTR Holdings, LLC filed with Fairhope's Planning Commission to develop two townhome apartment complexes on separate parcels, one named Skyline Village and the other Gables on Lawrence. According to the Commission's own meeting minutes, it denied the Gables application for adverse drainage effects, unmet greenspace requirements, inconsistency with the city's Comprehensive Plan, and traffic problems, and denied the Skyline application for drainage issues and traffic and general health-and-safety concerns.",
+        "Dissatisfied, 68V first sued the City and the Planning Commission in federal district court rather than seeking mandamus review in state court to compel compliance with Alabama's land-use statutes. After the federal court resolved 68V's federal claims against it and declined to exercise supplemental jurisdiction over the remaining state-law claims, 68V refiled in Baldwin Circuit Court, asserting three claims: damages for the City's and Commission's alleged negligence in considering and denying its applications; equitable relief invalidating the denials as arbitrary and capricious; and damages for an alleged deprivation of property without substantive due process under the Alabama Constitution.",
+        "The City and the Commission moved for summary judgment on all three claims, arguing the negligence claim was barred by municipal immunity under Alabama Code Section 11-47-190, volunteer immunity for the Commission's unpaid members under the Alabama Volunteer Service Act, and substantive immunity. The circuit court denied that motion, and the City and Commission petitioned the Supreme Court for a writ of mandamus as to the negligence claim only, leaving the arbitrary-and-capricious and substantive-due-process claims to proceed in the trial court regardless of the outcome. Writing for the Court, Justice Will Parker explained that 68V's negligence theory rested on respondeat superior, holding the City and Commission liable for the acts of their agents, a theory that fails if the agents themselves are immune.",
+        "The nine volunteer members of the Planning Commission, who serve without compensation, qualify as volunteers for a governmental entity under the Volunteer Service Act, and their consideration and denial of 68V's applications fell within the scope of their official duties under the statute authorizing planning commissions to approve or disapprove development proposals. Because 68V did not allege the commissioners acted willfully or wantonly, only that they were negligent and separately that they acted in bad faith, the Court held the commissioners immune, citing precedent that Alabama's municipal-immunity statute shields even bad-faith conduct by municipal agents from ordinary negligence claims. With the agents immune, the City and the Planning Commission could not be held vicariously liable, and the Court granted the writ directing judgment for the City and Commission on that claim. The opinion separately notes, without resolving, allegations 68V aired in its earlier federal suit that a planning commissioner wanted the city to make the developer feel pain for past project disputes, allegations that reflect the friction behind the litigation even though they did not save 68V's negligence theory from the immunity defense.",
+        "For commercial developers, the ruling is a reminder that a negligence claim against a city or its planning commission for denying a development application is likely to run headlong into both municipal immunity and, where volunteer board members are involved, the Volunteer Service Act's additional protection, regardless of how the denial is characterized. Because that immunity extends to bad-faith conduct short of willful or wanton misconduct, developers who suspect an improper motive behind a denial should expect that an ordinary tort claim is not the vehicle to test that theory, and are generally better served pursuing a direct mandamus action or administrative appeal of the denial itself, the route 68V bypassed in favor of federal and then negligence-based litigation. The ruling also shows that suing first in federal court on constitutional theories, only to refile state-law claims after losing there, can cost a developer time without adding legal traction once the claims land back in state court against immune defendants."
+      ],
+      tags: ["zoning", "land-use", "municipal-immunity", "alabama", "multifamily-development"],
+      parties: [
+        { name: "68V BTR Holdings, LLC", role: "Plaintiff-Respondent" },
+        { name: "City of Fairhope", role: "Defendant-Petitioner" },
+        { name: "City of Fairhope Planning Commission", role: "Defendant-Petitioner" }
+      ],
+      judge: "Will Parker",
+      amountUsd: null,
+      timeline: [
+        { when: "2022", label: "68V sues the City of Fairhope and its Planning Commission in federal court over the denied Skyline Village and Gables on Lawrence applications" },
+        { when: "2024", label: "68V refiles negligence, arbitrary-and-capricious, and substantive-due-process claims in Baldwin Circuit Court (CV-24-900981)" },
+        { when: "October 16, 2026", label: "Alabama Supreme Court grants mandamus, holding the City and Planning Commission immune from the negligence claim", current: true }
+      ]
     }
   ],
 
@@ -10453,7 +10532,8 @@ const RELAW_DATA = {
     { jurisdiction: "U.S. District Court, District of Colorado", url: "https://www.cod.uscourts.gov/" },
     { jurisdiction: "Penobscot County Superior Court, Maine", url: "https://www.courts.maine.gov/courts/superior/" },
     { jurisdiction: "U.S. District Court, Northern District of Ohio", url: "https://www.ohnd.uscourts.gov/" },
-    { jurisdiction: "U.S. District Court for the Southern District of West Virginia", url: "https://www.wvsd.uscourts.gov/" }
+    { jurisdiction: "U.S. District Court for the Southern District of West Virginia", url: "https://www.wvsd.uscourts.gov/" },
+    { jurisdiction: "Supreme Court of Alabama", url: "https://judicial.alabama.gov/" }
   ],
 
   /* Judges — background on every judge named in our sourced reporting (never
@@ -10813,6 +10893,14 @@ const RELAW_DATA = {
       court: "Commonwealth Court of Pennsylvania",
       background: "Elected to the Commonwealth Court in 2021 and sworn in for a term beginning January 2022; previously a judge on the Philadelphia County Court of Common Pleas from 2002 to 2021. Holds a J.D. from North Carolina Central University School of Law and a B.A. from Duke University.",
       bioUrl: "https://www.pacourts.us/courts/commonwealth-court-judges/judge-lori-a-dumas"
+    },
+    {
+      name: "Will Parker",
+      slug: "will-parker",
+      title: "Associate Justice",
+      court: "Supreme Court of Alabama",
+      background: "Appointed by Governor Kay Ivey in November 2025 to fill the vacancy left when Justice Bill Lewis was appointed to a federal judgeship. Previously served nearly six years as General Counsel to the Governor and, before that, as an assistant attorney general in the Alabama Attorney General's Constitutional Defense Division.",
+      bioUrl: "https://judicial.alabama.gov/CourtMemberBio/ViewBio?id=91"
     }
   ],
 

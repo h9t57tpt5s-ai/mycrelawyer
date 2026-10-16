@@ -1,87 +1,360 @@
 {
-  "handled": {
-    "opinion:11034145": {"at": "2026-10-15", "action": "matter live-298"},
-    "https://www.globenewswire.com/news-release/2026/10/07/3376777/937/en/millrose-properties-inc-investigation-mrp-securities-investors-encouraged-to-contact-kirby-mcinerney-llp-about-their-rights.html#filed": {"at": "2026-10-14", "action": "matter live-296 (investigation announcement progressed to a filed class action, Rubenstein v. Millrose, confirmed via courthousenews.com / therealdeal.com / bloomberglaw.com)"},
-    "opinion:11033860": {"at": "2026-10-14", "action": "skipped: residential premises liability, individual tenant and landlord, not commercial real estate"},
-    "opinion:11033832": {"at": "2026-10-14", "action": "skipped: wrongful-death workplace injury suit against a power plant owner, not a commercial real estate dispute between businesses"},
-    "opinion:11032317": {"at": "2026-10-14", "action": "skipped: duplicate opinion text of opinion:11032316, already added as matter live-280"},
-    "opinion:11032279": {"at": "2026-10-14", "action": "skipped: duplicate opinion text of opinion:11032280 (commercial vehicle dispute, not real estate)"},
-    "https://www.courtlistener.com/docket/74935610/betmgm-llc-v-greenbrier-hotel-corporation/": {"at": "2026-10-08", "action": "skipped: no reporting found explaining the dispute"},
-    "https://www.courtlistener.com/docket/74930438/pnc-bank-na-v-wb-real-estate-development-llc-et-al/": {"at": "2026-10-08", "action": "skipped: no reporting found explaining the dispute"},
-    "0001437749-26-032287:pscr20250630_10q.htm": {"at": "2026-10-08", "action": "matter live-237"},
-    "https://www.globenewswire.com/news-release/2026/10/07/3376777/937/en/millrose-properties-inc-investigation-mrp-securities-investors-encouraged-to-contact-kirby-mcinerney-llp-about-their-rights.html": {"at": "2026-10-08", "action": "skipped: investigation announcement, not a filed lawsuit"},
-    "https://www.courtlistener.com/docket/74937098/us-bank-trust-national-association-not-in-its-individual-capacity-but/": {"at": "2026-10-09", "action": "skipped: no reporting found explaining the dispute"},
-    "https://www.courtlistener.com/docket/74940389/byblos-development-inc-v-first-citizens-bank-trust-company/": {"at": "2026-10-09", "action": "skipped: no reporting found explaining the dispute"},
-    "https://www.courtlistener.com/docket/74930487/the-huntington-national-bank-v-rr-express-properties-llc/": {"at": "2026-10-09", "action": "skipped: underlying property is a residential home, not commercial real estate"},
-    "https://www.courtlistener.com/docket/74929407/the-huntington-national-bank-v-rr-express-properties-llc/": {"at": "2026-10-09", "action": "skipped: underlying property is a residential home, not commercial real estate"},
-    "https://www.courtlistener.com/docket/74943194/ks-hotel-llc-v-state-farm-fire-and-casualty-insurance/": {"at": "2026-10-09", "action": "skipped: no reporting found explaining the dispute"},
-    "https://www.courtlistener.com/docket/74942348/us-bank-trust-national-association-not-in-its-individual-capacity-but/": {"at": "2026-10-10", "action": "skipped: no reporting found explaining the dispute"},
-    "https://www.courtlistener.com/docket/74942188/us-bank-national-association-not-in-its-individual-capacity-but-solely/": {"at": "2026-10-10", "action": "skipped: no reporting found explaining the dispute"},
-    "https://www.courtlistener.com/docket/74941787/natural-nydegger-transport-corporation-v-power-and-process-developments/": {"at": "2026-10-10", "action": "skipped: caption does not show a commercial real estate dispute on its face and no reporting found"},
-    "https://www.courtlistener.com/docket/74940024/heritage-properties-llp-v-auto-owners-insurance-company/": {"at": "2026-10-10", "action": "skipped: no reporting found explaining the dispute"},
-    "https://www.courtlistener.com/docket/74932772/payson-apartments-a-limited-partnership-v-united-states/": {"at": "2026-10-10", "action": "skipped: no reporting found explaining the dispute"},
-    "https://www.courtlistener.com/docket/74936135/newcastle-apartments-a-limited-partnership-v-united-states/": {"at": "2026-10-10", "action": "skipped: no reporting found explaining the dispute"},
-    "opinion:11025310": {"at": "2026-10-13", "action": "matter live-267"},
-    "opinion:11024086": {"at": "2026-10-13", "action": "skipped: appellees are individuals (Mark and Amy Annon) in a residential first-party property insurance dispute, not a commercial real estate matter"},
-    "petition:https://www.courtlistener.com/docket/74950114/2911-creative-llc/": {"at": "2026-10-13", "action": "skipped: no coverage found explaining the filing"},
-    "petition:https://www.courtlistener.com/docket/74949021/access-real-estate-holdings-llc/": {"at": "2026-10-13", "action": "skipped: no coverage found explaining the filing"},
-    "https://www.courtlistener.com/docket/74924818/amherst-specialty-insurance-company-v-tower-732-realty-llc/": {"at": "2026-10-13", "action": "skipped: outside 3-day freshness window (filed 2026-10-06)"},
-    "https://www.courtlistener.com/docket/74935797/trident-realty-investments-llc-v-75-victoria-llc/": {"at": "2026-10-13", "action": "skipped: outside 3-day freshness window (filed 2026-10-05)"},
-    "https://www.courtlistener.com/docket/74921855/travelers-casualty-and-surety-company-of-america-v-pasadena-oaks-life/": {"at": "2026-10-13", "action": "skipped: outside 3-day freshness window (filed 2026-10-05)"},
-    "https://www.courtlistener.com/docket/74921300/lakeport-hotel-gp-llc-v-tegethoff-development-llc/": {"at": "2026-10-13", "action": "skipped: outside 3-day freshness window (filed 2026-10-05)"},
-    "opinion:11032265": {"at": "2026-10-13", "action": "skipped: residential eviction dispute between siblings, not commercial real estate"},
-    "opinion:11024777": {"at": "2026-10-13", "action": "skipped: coal-mining surety bond guaranty dispute against an individual, not a real estate matter"},
-    "opinion:11024765": {"at": "2026-10-13", "action": "skipped: HECM reverse mortgage securitization dispute (residential mortgage program), not commercial real estate"},
-    "opinion:11024566": {"at": "2026-10-13", "action": "skipped: National Forest Management Act case over Forest Service road mileage, not a real estate dispute between businesses"},
-    "petition:https://www.courtlistener.com/docket/74952134/30-quabeck-avenue-llc/": {"at": "2026-10-13", "action": "skipped: no coverage found explaining the filing"},
-    "petition:https://www.courtlistener.com/docket/74950462/aj-realty-miami-llc/": {"at": "2026-10-13", "action": "skipped: no coverage found explaining the filing"},
-    "https://www.courtlistener.com/docket/74954259/owners-insurance-company-v-budd-commercial-real-estate-llc/": {"at": "2026-10-13", "action": "skipped: no reporting found explaining the dispute"},
-    "https://www.courtlistener.com/docket/74955613/2020-property-inspections-llc-v-2020-inspection-solutions-llc/": {"at": "2026-10-14", "action": "skipped: franchise/trademark dispute between home-inspection companies, not a commercial real estate matter"},
-    "opinion:11032617": {"at": "2026-10-14", "action": "skipped: residential land installment contract dispute between sisters-in-law, not commercial real estate"},
-    "opinion:11032316": {"at": "2026-10-14", "action": "matter live-280 (added by the prior run; recording the lead here)"},
-    "opinion:11032308": {"at": "2026-10-14", "action": "skipped: residential mortgage foreclosure appeal, individual defendant"},
-    "opinion:11032280": {"at": "2026-10-14", "action": "skipped: commercial vehicle replevin/storage lien dispute, not real estate"},
-    "opinion:11032192": {"at": "2026-10-14", "action": "skipped: residential foreclosure/unlawful detainer dispute, individual parties"},
-    "opinion:11032185": {"at": "2026-10-14", "action": "matter live-281 (added by the prior run; recording the lead here)"},
-    "opinion:11032183": {"at": "2026-10-14", "action": "skipped: wind-turbine zoning dispute brought by a municipal water authority, not a commercial real estate matter on its face"},
-    "opinion:11032182": {"at": "2026-10-14", "action": "skipped: individual named party (Carl Edward Meyer, Jr.) in a personal-residence realty transfer tax dispute"},
-    "opinion:11032178": {"at": "2026-10-14", "action": "matter live-282 (added by the prior run; recording the lead here)"},
-    "opinion:11032114": {"at": "2026-10-14", "action": "skipped: residential foreclosure dispute, individual/estate parties"},
-    "opinion:11032745": {"at": "2026-10-14", "action": "matter live-290"},
-    "opinion:11033580": {"at": "2026-10-14", "action": "matter live-291 (added by the prior run; recording the lead here)"},
-    "opinion:11033660": {"at": "2026-10-14", "action": "matter live-294"},
-    "opinion:11033650": {"at": "2026-10-14", "action": "matter live-295"},
-    "opinion:11033639": {"at": "2026-10-14", "action": "skipped: residential pre-construction condominium purchaser dispute, individual purchasers"},
-    "opinion:11033738": {"at": "2026-10-14", "action": "skipped: social media/mental-health litigation, not real estate"},
-    "opinion:11033732": {"at": "2026-10-14", "action": "skipped: residential mortgage foreclosure, individual defendant"},
-    "opinion:11033718": {"at": "2026-10-14", "action": "skipped: land use board appeal brought by individual pro se petitioners, not a commercial real estate matter on its face"},
-    "opinion:11033496": {"at": "2026-10-14", "action": "skipped: outdoor-advertising/billboard contract dispute between competitors, not a commercial real estate matter on its face"},
-    "https://www.courtlistener.com/docket/74958443/hartford-casualty-insurance-company-v-belvoir-real-estate-group-llc/": {"at": "2026-10-14", "action": "skipped: no reporting found explaining the dispute"},
-    "opinion:11034099": {"at": "2026-10-15", "action": "matter live-297"},
-    "opinion:11034096": {"at": "2026-10-15", "action": "skipped: residential mortgage foreclosure in Amityville, individual defendant (Roy Hall)"},
-    "opinion:11034095": {"at": "2026-10-15", "action": "skipped: residential mortgage foreclosure in Laurelton, individual defendant (Pamela Merrill)"},
-    "opinion:11034075": {"at": "2026-10-15", "action": "skipped: residential area-variance dispute (detached garage), individual petitioners"},
-    "opinion:11034068": {"at": "2026-10-15", "action": "skipped: area variances for a residential property in Hicksville despite corporate petitioner name, not commercial real estate"},
-    "opinion:11034063": {"at": "2026-10-15", "action": "skipped: residential mortgage foreclosure in Brooklyn, individual mortgagor"},
-    "opinion:11034037": {"at": "2026-10-15", "action": "skipped: residential mortgage foreclosure in Queens, individual defendant (Jason Vento)"},
-    "petition:https://www.courtlistener.com/docket/74960812/nrs-realty-llc/": {"at": "2026-10-15", "action": "skipped: no coverage found explaining the filing"},
-    "petition:https://www.courtlistener.com/docket/74949021/access-real-estate-holdings-llc/": {"at": "2026-10-15", "action": "skipped: no coverage found explaining the filing"},
-    "https://www.courtlistener.com/docket/74963440/united-states-v-vb-development-corp/": {"at": "2026-10-15", "action": "skipped: no reporting found explaining the dispute"},
-    "https://www.courtlistener.com/docket/74961442/building-service-32bj-pension-fund-v-lichter-real-estate-number-one/": {"at": "2026-10-15", "action": "skipped: no reporting found explaining the dispute"},
-    "https://www.courtlistener.com/docket/74964120/brementown-mini-mall-llc-v-auto-owners-insurance-company/": {"at": "2026-10-15", "action": "skipped: no reporting found explaining the dispute"},
-    "opinion:11035077": {"at": "2026-10-15", "action": "matter live-299"},
-    "opinion:11034032": {"at": "2026-10-15", "action": "skipped: residential mortgage foreclosure appeal, individual defendant (Resma Begum)"},
-    "opinion:11033983": {"at": "2026-10-15", "action": "skipped: individual trustee petitioner in a variance-procedure appeal against a county board, not a commercial real estate business matter"},
-    "opinion:11033977": {"at": "2026-10-15", "action": "skipped: insurance-rescission dispute over a state military base construction fire, not a commercial real estate ownership/leasing/development matter on its face"},
-    "https://www.courtlistener.com/docket/74966965/vertex-towers-llc-v-town-of-monson/": {"at": "2026-10-15", "action": "skipped: no reporting found explaining the filing (same-day filing, cell tower zoning dispute)"},
-    "https://www.courtlistener.com/docket/74967305/samara-real-property-llc-a-delaware-limited-liability-company-v-board-of/": {"at": "2026-10-15", "action": "skipped: no reporting found explaining the filing (same-day filing, land use dispute with Santa Fe County)"},
-    "petition:https://www.courtlistener.com/docket/74960812/nrs-realty-llc/": {"at": "2026-10-15", "action": "skipped: no coverage found explaining the filing"},
-    "https://www.courtlistener.com/docket/74969870/the-albano-group-llc-v-netrality-properties-lp/": {"at": "2026-10-16", "action": "skipped: no reporting found explaining the dispute"},
-    "https://www.courtlistener.com/docket/74969945/teletech-inc-v-sprint-spectrum-realty-company/": {"at": "2026-10-16", "action": "skipped: no reporting found explaining the dispute"},
-    "https://www.courtlistener.com/docket/74969302/seymour-realty-1941-llc-v-amguard-insurance-company/": {"at": "2026-10-16", "action": "skipped: no reporting found explaining the dispute; small-party insurance coverage suit"},
-    "https://www.courtlistener.com/docket/74972871/flushing-bank-v-1372-franklin-avenue-housing-development-fund-corporation/": {"at": "2026-10-16", "action": "skipped: no reporting found explaining the dispute; likely residential affordable-housing HDFC corp"},
-    "petition:https://www.courtlistener.com/docket/74972033/emcee-realty-llc/": {"at": "2026-10-16", "action": "skipped: no coverage found explaining the filing"},
-    "petition:https://www.courtlistener.com/docket/74969627/1333-prospect-corp/": {"at": "2026-10-16", "action": "skipped: no coverage found explaining the filing"},
-    "opinion:11035230": {"at": "2026-10-16", "action": "matter live-300"}
+ "handled": {
+  "opinion:11034145": {
+   "at": "2026-10-15",
+   "action": "matter live-298"
+  },
+  "https://www.globenewswire.com/news-release/2026/10/07/3376777/937/en/millrose-properties-inc-investigation-mrp-securities-investors-encouraged-to-contact-kirby-mcinerney-llp-about-their-rights.html#filed": {
+   "at": "2026-10-14",
+   "action": "matter live-296 (investigation announcement progressed to a filed class action, Rubenstein v. Millrose, confirmed via courthousenews.com / therealdeal.com / bloomberglaw.com)"
+  },
+  "opinion:11033860": {
+   "at": "2026-10-14",
+   "action": "skipped: residential premises liability, individual tenant and landlord, not commercial real estate"
+  },
+  "opinion:11033832": {
+   "at": "2026-10-14",
+   "action": "skipped: wrongful-death workplace injury suit against a power plant owner, not a commercial real estate dispute between businesses"
+  },
+  "opinion:11032317": {
+   "at": "2026-10-14",
+   "action": "skipped: duplicate opinion text of opinion:11032316, already added as matter live-280"
+  },
+  "opinion:11032279": {
+   "at": "2026-10-14",
+   "action": "skipped: duplicate opinion text of opinion:11032280 (commercial vehicle dispute, not real estate)"
+  },
+  "https://www.courtlistener.com/docket/74935610/betmgm-llc-v-greenbrier-hotel-corporation/": {
+   "at": "2026-10-08",
+   "action": "skipped: no reporting found explaining the dispute"
+  },
+  "https://www.courtlistener.com/docket/74930438/pnc-bank-na-v-wb-real-estate-development-llc-et-al/": {
+   "at": "2026-10-08",
+   "action": "skipped: no reporting found explaining the dispute"
+  },
+  "0001437749-26-032287:pscr20250630_10q.htm": {
+   "at": "2026-10-08",
+   "action": "matter live-237"
+  },
+  "https://www.globenewswire.com/news-release/2026/10/07/3376777/937/en/millrose-properties-inc-investigation-mrp-securities-investors-encouraged-to-contact-kirby-mcinerney-llp-about-their-rights.html": {
+   "at": "2026-10-08",
+   "action": "skipped: investigation announcement, not a filed lawsuit"
+  },
+  "https://www.courtlistener.com/docket/74937098/us-bank-trust-national-association-not-in-its-individual-capacity-but/": {
+   "at": "2026-10-09",
+   "action": "skipped: no reporting found explaining the dispute"
+  },
+  "https://www.courtlistener.com/docket/74940389/byblos-development-inc-v-first-citizens-bank-trust-company/": {
+   "at": "2026-10-09",
+   "action": "skipped: no reporting found explaining the dispute"
+  },
+  "https://www.courtlistener.com/docket/74930487/the-huntington-national-bank-v-rr-express-properties-llc/": {
+   "at": "2026-10-09",
+   "action": "skipped: underlying property is a residential home, not commercial real estate"
+  },
+  "https://www.courtlistener.com/docket/74929407/the-huntington-national-bank-v-rr-express-properties-llc/": {
+   "at": "2026-10-09",
+   "action": "skipped: underlying property is a residential home, not commercial real estate"
+  },
+  "https://www.courtlistener.com/docket/74943194/ks-hotel-llc-v-state-farm-fire-and-casualty-insurance/": {
+   "at": "2026-10-09",
+   "action": "skipped: no reporting found explaining the dispute"
+  },
+  "https://www.courtlistener.com/docket/74942348/us-bank-trust-national-association-not-in-its-individual-capacity-but/": {
+   "at": "2026-10-10",
+   "action": "skipped: no reporting found explaining the dispute"
+  },
+  "https://www.courtlistener.com/docket/74942188/us-bank-national-association-not-in-its-individual-capacity-but-solely/": {
+   "at": "2026-10-10",
+   "action": "skipped: no reporting found explaining the dispute"
+  },
+  "https://www.courtlistener.com/docket/74941787/natural-nydegger-transport-corporation-v-power-and-process-developments/": {
+   "at": "2026-10-10",
+   "action": "skipped: caption does not show a commercial real estate dispute on its face and no reporting found"
+  },
+  "https://www.courtlistener.com/docket/74940024/heritage-properties-llp-v-auto-owners-insurance-company/": {
+   "at": "2026-10-10",
+   "action": "skipped: no reporting found explaining the dispute"
+  },
+  "https://www.courtlistener.com/docket/74932772/payson-apartments-a-limited-partnership-v-united-states/": {
+   "at": "2026-10-10",
+   "action": "skipped: no reporting found explaining the dispute"
+  },
+  "https://www.courtlistener.com/docket/74936135/newcastle-apartments-a-limited-partnership-v-united-states/": {
+   "at": "2026-10-10",
+   "action": "skipped: no reporting found explaining the dispute"
+  },
+  "opinion:11025310": {
+   "at": "2026-10-13",
+   "action": "matter live-267"
+  },
+  "opinion:11024086": {
+   "at": "2026-10-13",
+   "action": "skipped: appellees are individuals (Mark and Amy Annon) in a residential first-party property insurance dispute, not a commercial real estate matter"
+  },
+  "petition:https://www.courtlistener.com/docket/74950114/2911-creative-llc/": {
+   "at": "2026-10-13",
+   "action": "skipped: no coverage found explaining the filing"
+  },
+  "petition:https://www.courtlistener.com/docket/74949021/access-real-estate-holdings-llc/": {
+   "at": "2026-10-15",
+   "action": "skipped: no coverage found explaining the filing"
+  },
+  "https://www.courtlistener.com/docket/74924818/amherst-specialty-insurance-company-v-tower-732-realty-llc/": {
+   "at": "2026-10-13",
+   "action": "skipped: outside 3-day freshness window (filed 2026-10-06)"
+  },
+  "https://www.courtlistener.com/docket/74935797/trident-realty-investments-llc-v-75-victoria-llc/": {
+   "at": "2026-10-13",
+   "action": "skipped: outside 3-day freshness window (filed 2026-10-05)"
+  },
+  "https://www.courtlistener.com/docket/74921855/travelers-casualty-and-surety-company-of-america-v-pasadena-oaks-life/": {
+   "at": "2026-10-13",
+   "action": "skipped: outside 3-day freshness window (filed 2026-10-05)"
+  },
+  "https://www.courtlistener.com/docket/74921300/lakeport-hotel-gp-llc-v-tegethoff-development-llc/": {
+   "at": "2026-10-13",
+   "action": "skipped: outside 3-day freshness window (filed 2026-10-05)"
+  },
+  "opinion:11032265": {
+   "at": "2026-10-13",
+   "action": "skipped: residential eviction dispute between siblings, not commercial real estate"
+  },
+  "opinion:11024777": {
+   "at": "2026-10-13",
+   "action": "skipped: coal-mining surety bond guaranty dispute against an individual, not a real estate matter"
+  },
+  "opinion:11024765": {
+   "at": "2026-10-13",
+   "action": "skipped: HECM reverse mortgage securitization dispute (residential mortgage program), not commercial real estate"
+  },
+  "opinion:11024566": {
+   "at": "2026-10-13",
+   "action": "skipped: National Forest Management Act case over Forest Service road mileage, not a real estate dispute between businesses"
+  },
+  "petition:https://www.courtlistener.com/docket/74952134/30-quabeck-avenue-llc/": {
+   "at": "2026-10-13",
+   "action": "skipped: no coverage found explaining the filing"
+  },
+  "petition:https://www.courtlistener.com/docket/74950462/aj-realty-miami-llc/": {
+   "at": "2026-10-13",
+   "action": "skipped: no coverage found explaining the filing"
+  },
+  "https://www.courtlistener.com/docket/74954259/owners-insurance-company-v-budd-commercial-real-estate-llc/": {
+   "at": "2026-10-13",
+   "action": "skipped: no reporting found explaining the dispute"
+  },
+  "https://www.courtlistener.com/docket/74955613/2020-property-inspections-llc-v-2020-inspection-solutions-llc/": {
+   "at": "2026-10-14",
+   "action": "skipped: franchise/trademark dispute between home-inspection companies, not a commercial real estate matter"
+  },
+  "opinion:11032617": {
+   "at": "2026-10-14",
+   "action": "skipped: residential land installment contract dispute between sisters-in-law, not commercial real estate"
+  },
+  "opinion:11032316": {
+   "at": "2026-10-14",
+   "action": "matter live-280 (added by the prior run; recording the lead here)"
+  },
+  "opinion:11032308": {
+   "at": "2026-10-14",
+   "action": "skipped: residential mortgage foreclosure appeal, individual defendant"
+  },
+  "opinion:11032280": {
+   "at": "2026-10-14",
+   "action": "skipped: commercial vehicle replevin/storage lien dispute, not real estate"
+  },
+  "opinion:11032192": {
+   "at": "2026-10-14",
+   "action": "skipped: residential foreclosure/unlawful detainer dispute, individual parties"
+  },
+  "opinion:11032185": {
+   "at": "2026-10-14",
+   "action": "matter live-281 (added by the prior run; recording the lead here)"
+  },
+  "opinion:11032183": {
+   "at": "2026-10-14",
+   "action": "skipped: wind-turbine zoning dispute brought by a municipal water authority, not a commercial real estate matter on its face"
+  },
+  "opinion:11032182": {
+   "at": "2026-10-14",
+   "action": "skipped: individual named party (Carl Edward Meyer, Jr.) in a personal-residence realty transfer tax dispute"
+  },
+  "opinion:11032178": {
+   "at": "2026-10-14",
+   "action": "matter live-282 (added by the prior run; recording the lead here)"
+  },
+  "opinion:11032114": {
+   "at": "2026-10-14",
+   "action": "skipped: residential foreclosure dispute, individual/estate parties"
+  },
+  "opinion:11032745": {
+   "at": "2026-10-14",
+   "action": "matter live-290"
+  },
+  "opinion:11033580": {
+   "at": "2026-10-14",
+   "action": "matter live-291 (added by the prior run; recording the lead here)"
+  },
+  "opinion:11033660": {
+   "at": "2026-10-14",
+   "action": "matter live-294"
+  },
+  "opinion:11033650": {
+   "at": "2026-10-14",
+   "action": "matter live-295"
+  },
+  "opinion:11033639": {
+   "at": "2026-10-14",
+   "action": "skipped: residential pre-construction condominium purchaser dispute, individual purchasers"
+  },
+  "opinion:11033738": {
+   "at": "2026-10-14",
+   "action": "skipped: social media/mental-health litigation, not real estate"
+  },
+  "opinion:11033732": {
+   "at": "2026-10-14",
+   "action": "skipped: residential mortgage foreclosure, individual defendant"
+  },
+  "opinion:11033718": {
+   "at": "2026-10-14",
+   "action": "skipped: land use board appeal brought by individual pro se petitioners, not a commercial real estate matter on its face"
+  },
+  "opinion:11033496": {
+   "at": "2026-10-14",
+   "action": "skipped: outdoor-advertising/billboard contract dispute between competitors, not a commercial real estate matter on its face"
+  },
+  "https://www.courtlistener.com/docket/74958443/hartford-casualty-insurance-company-v-belvoir-real-estate-group-llc/": {
+   "at": "2026-10-14",
+   "action": "skipped: no reporting found explaining the dispute"
+  },
+  "opinion:11034099": {
+   "at": "2026-10-15",
+   "action": "matter live-297"
+  },
+  "opinion:11034096": {
+   "at": "2026-10-15",
+   "action": "skipped: residential mortgage foreclosure in Amityville, individual defendant (Roy Hall)"
+  },
+  "opinion:11034095": {
+   "at": "2026-10-15",
+   "action": "skipped: residential mortgage foreclosure in Laurelton, individual defendant (Pamela Merrill)"
+  },
+  "opinion:11034075": {
+   "at": "2026-10-15",
+   "action": "skipped: residential area-variance dispute (detached garage), individual petitioners"
+  },
+  "opinion:11034068": {
+   "at": "2026-10-15",
+   "action": "skipped: area variances for a residential property in Hicksville despite corporate petitioner name, not commercial real estate"
+  },
+  "opinion:11034063": {
+   "at": "2026-10-15",
+   "action": "skipped: residential mortgage foreclosure in Brooklyn, individual mortgagor"
+  },
+  "opinion:11034037": {
+   "at": "2026-10-15",
+   "action": "skipped: residential mortgage foreclosure in Queens, individual defendant (Jason Vento)"
+  },
+  "petition:https://www.courtlistener.com/docket/74960812/nrs-realty-llc/": {
+   "at": "2026-10-15",
+   "action": "skipped: no coverage found explaining the filing"
+  },
+  "https://www.courtlistener.com/docket/74963440/united-states-v-vb-development-corp/": {
+   "at": "2026-10-15",
+   "action": "skipped: no reporting found explaining the dispute"
+  },
+  "https://www.courtlistener.com/docket/74961442/building-service-32bj-pension-fund-v-lichter-real-estate-number-one/": {
+   "at": "2026-10-15",
+   "action": "skipped: no reporting found explaining the dispute"
+  },
+  "https://www.courtlistener.com/docket/74964120/brementown-mini-mall-llc-v-auto-owners-insurance-company/": {
+   "at": "2026-10-15",
+   "action": "skipped: no reporting found explaining the dispute"
+  },
+  "opinion:11035077": {
+   "at": "2026-10-15",
+   "action": "matter live-299"
+  },
+  "opinion:11034032": {
+   "at": "2026-10-15",
+   "action": "skipped: residential mortgage foreclosure appeal, individual defendant (Resma Begum)"
+  },
+  "opinion:11033983": {
+   "at": "2026-10-15",
+   "action": "skipped: individual trustee petitioner in a variance-procedure appeal against a county board, not a commercial real estate business matter"
+  },
+  "opinion:11033977": {
+   "at": "2026-10-15",
+   "action": "skipped: insurance-rescission dispute over a state military base construction fire, not a commercial real estate ownership/leasing/development matter on its face"
+  },
+  "https://www.courtlistener.com/docket/74966965/vertex-towers-llc-v-town-of-monson/": {
+   "at": "2026-10-15",
+   "action": "skipped: no reporting found explaining the filing (same-day filing, cell tower zoning dispute)"
+  },
+  "https://www.courtlistener.com/docket/74967305/samara-real-property-llc-a-delaware-limited-liability-company-v-board-of/": {
+   "at": "2026-10-15",
+   "action": "skipped: no reporting found explaining the filing (same-day filing, land use dispute with Santa Fe County)"
+  },
+  "https://www.courtlistener.com/docket/74969870/the-albano-group-llc-v-netrality-properties-lp/": {
+   "at": "2026-10-16",
+   "action": "skipped: no reporting found explaining the dispute"
+  },
+  "https://www.courtlistener.com/docket/74969945/teletech-inc-v-sprint-spectrum-realty-company/": {
+   "at": "2026-10-16",
+   "action": "skipped: no reporting found explaining the dispute"
+  },
+  "https://www.courtlistener.com/docket/74969302/seymour-realty-1941-llc-v-amguard-insurance-company/": {
+   "at": "2026-10-16",
+   "action": "skipped: no reporting found explaining the dispute; small-party insurance coverage suit"
+  },
+  "https://www.courtlistener.com/docket/74972871/flushing-bank-v-1372-franklin-avenue-housing-development-fund-corporation/": {
+   "at": "2026-10-16",
+   "action": "skipped: no reporting found explaining the dispute; likely residential affordable-housing HDFC corp"
+  },
+  "petition:https://www.courtlistener.com/docket/74972033/emcee-realty-llc/": {
+   "at": "2026-10-16",
+   "action": "skipped: no coverage found explaining the filing"
+  },
+  "petition:https://www.courtlistener.com/docket/74969627/1333-prospect-corp/": {
+   "at": "2026-10-16",
+   "action": "skipped: no coverage found explaining the filing"
+  },
+  "opinion:11035230": {
+   "at": "2026-10-16",
+   "action": "matter live-300"
+  },
+  "opinion:11036870": {
+   "at": "2026-10-16",
+   "action": "matter live-302"
+  },
+  "opinion:11036868": {
+   "at": "2026-10-16",
+   "action": "matter live-303"
+  },
+  "opinion:11036862": {
+   "at": "2026-10-16",
+   "action": "skipped: duplicate opinion text of opinion:11036870 (same consolidated appeal, reversed caption), already added as matter live-302"
+  },
+  "opinion:11036924": {
+   "at": "2026-10-16",
+   "action": "skipped: personal-injury suit by individual plaintiffs against a last-mile delivery subcontractor, not a commercial real estate matter"
+  },
+  "opinion:11036923": {
+   "at": "2026-10-16",
+   "action": "skipped: OPRA public-records access dispute over a redevelopment-area investigation, remanded on procedural grounds without reaching the merits of the redevelopment designation"
+  },
+  "opinion:11036867": {
+   "at": "2026-10-16",
+   "action": "skipped: wrongful-death estate claim against a city and an individual, not a commercial real estate dispute between businesses"
+  },
+  "opinion:11036861": {
+   "at": "2026-10-16",
+   "action": "skipped: individual landlord and tenant, residential lease dispute"
+  },
+  "opinion:11035108": {
+   "at": "2026-10-16",
+   "action": "skipped: individual plaintiffs personal-injury/product-liability verdict against a gasoline manufacturer, not a commercial real estate matter"
   }
+ }
 }
