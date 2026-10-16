@@ -9949,6 +9949,46 @@ const RELAW_DATA = {
         { when: "2024", label: "68V refiles negligence, arbitrary-and-capricious, and substantive-due-process claims in Baldwin Circuit Court (CV-24-900981)" },
         { when: "October 16, 2026", label: "Alabama Supreme Court grants mandamus, holding the City and Planning Commission immune from the negligence claim", current: true }
       ]
+    },
+    {
+      id: "live-304",
+      addedDate: "2026-10-16",
+      featured: true,
+      seoTitle: "Lake Meadows Chicago: Investor Sues Antheus Over Blocked Exit",
+      seoDescription: "Straus Group accuses Antheus Capital of blocking a $30.5M investor buyout and diverting funds at Chicago's 1,869-unit Lake Meadows apartments.",
+      property: { name: "Lake Meadows", city: "Chicago", state: "IL" },
+      title: "Straus Group v. Antheus Capital (Lake Meadows Investor Buyout Dispute)",
+      category: "reit-securities",
+      status: "filed",
+      date: "2026-10-06",
+      jurisdiction: "Circuit Court of Cook County, Illinois",
+      state: "IL",
+      amount: "$30.5 million original investment; stake now claimed worth ~$70 million",
+      source: "live",
+      sourceUrl: "https://www.chicagobusiness.com/real-estate/commercial/ccb-lake-meadows-lawsuit-20261015/",
+      summary: "Affiliates of the Straus Group sued Antheus Capital in Cook County Circuit Court, alleging the New York-based owner of Chicago's 1,869-unit Lake Meadows apartment complex refused to honor a contractual put option letting investors force a buyout or sale, abandoned the renovation plan investors were sold on, and diverted investor funds to collateralize a personal loan for the firm's founder. Straus is seeking an independent valuation and damages equal to its stake's fair market value, which a filing pegs at roughly $70 million as of June, versus its original $30.5 million investment.",
+      significance: "The case tests how enforceable put-option and buyout mechanics in real estate joint-venture agreements are when an asset's value has risen sharply since acquisition, and the allegation that investor capital backed a principal's unrelated personal loan raises fiduciary-duty and commingling exposure beyond an ordinary valuation dispute. Sponsors and fund managers in value-add multifamily deals should treat the ruling, once issued, as a signal of how courts police deviations from the business plan pitched to passive investors at closing.",
+      body: [
+        "A Chicago real estate investment group has sued Antheus Capital, the New York-based owner of the 1,869-unit Lake Meadows apartment complex in the city's Bronzeville neighborhood, alleging the firm blocked a contractually guaranteed investor buyout and diverted investor money to back a personal loan for one of its principals. The suit, filed by affiliates of the Straus Group in the Circuit Court of Cook County, puts a spotlight on a recurring fault line in commercial real estate joint ventures: the gap between a passive investor's negotiated exit rights and a sponsor's discretion to run the underlying asset.",
+        "According to the complaint, Straus Group affiliates invested roughly $30.5 million in Lake Meadows Holdings LLC when Antheus Capital, working with longtime Chicago manager Draper & Kramer, acquired the sprawling lakefront-adjacent property for $161 million in 2023. That investment agreement, Straus alleges, included a put option — a one-time right allowing the group to force an Antheus subsidiary to either buy out its stake at fair market value or put the entire 1950s-era complex up for sale. Straus says it exercised that right, and that Antheus has refused to honor it.",
+        "The dispute's second thread concerns what Straus characterizes as a bait-and-switch on the property's business plan. Investors say they were presented with two renovation options when they committed capital: one that would renovate units while they remained occupied, and a more aggressive plan that would empty buildings to accelerate the work. The complaint quotes the company's own description of events, stating that \"the emptying of the Lake Meadows buildings has, for some time, no longer been part of the company's business plan\" — a shift Straus argues materially changed the investment's risk and return profile without its consent.",
+        "Beyond the put option and business-plan allegations, the complaint accuses Antheus of broader financial impropriety. Straus alleges that Antheus moved investor funds to a community bank to serve as collateral backing a personal loan to the firm's founder and principal for a transaction unrelated to either Straus or Lake Meadows. The suit also claims investors were billed hundreds of thousands of dollars in legal fees tied to a separate class-action matter in which they had no involvement. Straus is asking the court to order an independent valuation of the property and to award damages equal to the fair market value of its stake — which a filing pegs at roughly $70 million as of June, more than double the original investment.",
+        "For CRE sponsors and fund managers, the case is a reminder that put options and buyout mechanics negotiated at the term-sheet stage are enforceable contractual rights that can become expensive liabilities when an asset's value diverges sharply from its purchase price, creating an incentive for a sponsor to delay or resist a triggered buyout rather than fund it. The allegation that investor capital was used as collateral for a principal's unrelated personal borrowing, if proven, would raise fiduciary-duty and commingling concerns well beyond a garden-variety valuation dispute. Lake Meadows itself has long been one of Bronzeville's most closely watched real estate assets, and the outcome of Straus's claims is a potential signal for how courts will treat put-option enforcement in similarly structured multifamily joint ventures elsewhere.",
+        "Taken together, the allegations underscore several practical points for CRE investors and sponsors alike: put-option and forced-buyout provisions should be modeled for the cash obligation they create before a trigger event occurs, not after; commingling investor capital with a principal's personal financing carries fiduciary exposure distinct from an ordinary breach-of-contract claim; material deviations from a renovation plan presented at closing can themselves support a breach claim even when framed as operational flexibility; and passive investors in value-add multifamily deals should confirm that valuation-dispute mechanics, such as independent appraisal procedures, are specific enough to be enforced without protracted litigation."
+      ],
+      tags: ["multifamily", "investor-dispute", "put-option", "chicago", "antheus-capital"],
+      parties: [
+        { name: "Straus Group", role: "Plaintiff/Investor" },
+        { name: "Antheus Capital", role: "Defendant/Sponsor" },
+        { name: "Lake Meadows Holdings LLC", role: "Property-owning entity" }
+      ],
+      judge: null,
+      amountUsd: 70000000,
+      amountBasis: "claim",
+      timeline: [
+        { when: "2023", label: "Antheus Capital acquires the 1,869-unit Lake Meadows complex for $161 million with Straus Group as a minority investor" },
+        { when: "October 6, 2026", label: "Straus Group affiliates sue Antheus Capital in Cook County Circuit Court over the blocked put-option buyout", current: true }
+      ]
     }
   ],
 
