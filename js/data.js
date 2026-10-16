@@ -10192,6 +10192,32 @@ const RELAW_DATA = {
       summary: "Willis, a WTW business, reports in its fall 2026 Insurance Marketplace Realities that rates for large and complex commercial property programs fell 14.5 percent in the second quarter of 2026 versus a year earlier, compared with an 8.4 percent decline a year ago. Layered programs spread across five or more carriers saw reductions of about 23.4 percent, and treaty reinsurance renewals softened. First-half 2026 catastrophe losses of $42 billion were the lowest since 2020. Casualty rate increases are moderating rather than reversing, and cyber rates are flat within a 5 percent band.",
       significance: "Falling premiums tempt owners to restructure programs with higher deductibles, sublimits and more carriers, which can put them out of step with insurance covenants in loan documents and leases written in a tight market, handing distressed-loan servicers an additional default theory. Tenants are likely to audit past operating-expense pass-throughs for insurance overcharges, and layered programs raise the odds of claim-allocation disputes after a loss. Owners, REITs and lenders should review covenant compliance and insured values before capturing the savings.",
       tags: ["insurance", "property rates", "covenants", "cam audits", "willis"]
+    },
+    {
+      id: "trend-019",
+      title: "Trepp CMBS special servicing rate climbs to 11.49% in September, highest since February 2013",
+      category: "lending-foreclosure",
+      date: "2026-10-14",
+      scope: "U.S. CMBS loans in special servicing (Trepp), September 2026, as reported by CRE Daily",
+      metric: "11.49% overall (up 7 bps month over month, up 84 bps year over year); $2.65B newly transferred, 57% office; $1.95B resolved",
+      source: "live",
+      sourceUrl: "https://www.credaily.com/?p=224030",
+      summary: "Trepp's share of CMBS loan balances with special servicers edged up seven basis points to 11.49% in September, the highest reading since February 2013 and 84 basis points above a year earlier. About $2.65B across 42 whole loans moved to special servicing during the month, and office loans made up 57% of that inflow; the single largest was the $512.8M One SoHo Square loan on a New York office building, flagged for imminent balloon or maturity default. Retail had the highest increase by property type, reaching 13.84%, while the office special servicing rate eased slightly to 16.85%. Exits also jumped: 48 whole loans totaling $1.95B left special servicing, a 237% increase over August.",
+      significance: "More than one in nine CMBS loan dollars is now with a special servicer, the stage where modifications, forbearance, receivership motions and foreclosure filings are negotiated or launched. With much of the new inflow driven by loans that cannot pay off at maturity rather than missed payments, expect more extension fights, maturity-default suits and guarantor claims, while the jump in resolutions points to a busier pipeline of workouts and liquidations.",
+      tags: ["cmbs", "special servicing", "trepp", "maturity default", "office"]
+    },
+    {
+      id: "trend-020",
+      title: "U.S. office vacancy eases to 19.8% in Q3 2026, but Class B and C vacancy keeps rising (Cushman & Wakefield)",
+      category: "lease-disputes",
+      date: "2026-10-06",
+      scope: "U.S. office market, 92 markets tracked by Cushman & Wakefield, Q3 2026 Office MarketBeat",
+      metric: "19.8% national vacancy (down 25 bps year over year, from a 20.1% high in Q3 2025); +50,000 sf Q3 net absorption; 7.1 msf delivered year to date",
+      source: "live",
+      sourceUrl: "https://www.cushmanwakefield.com/en/united-states/news/2026/10/office-recovery-broadens-as-vacancy-declines",
+      summary: "Cushman & Wakefield put national office vacancy at 19.8% at the end of the third quarter, 25 basis points lower than a year earlier and down from the recent 20.1% high reached in Q3 2025. Net absorption was only slightly positive at 50,000 square feet, but it was the fifth straight quarter of gains, and vacancy fell year over year in 48 of the 92 markets the firm tracks. The improvement is concentrated at the top: vacancy in top-tier buildings has dropped 215 basis points over two years while Class B and C vacancy continues to climb. New supply remains thin, with just 7.1 msf delivered in the first three quarters of 2026.",
+      significance: "A national vacancy rate still near one in five, with the gap between trophy and commodity buildings widening, means owners of older Class B and C office stock face falling rents and values that strain debt-service and loan-to-value covenants at refinancing. Tenants in those buildings gain leverage in renewals, co-tenancy and abatement disputes, while lenders on lower-tier assets should expect more modification requests, receiverships and deed-in-lieu negotiations even as the headline number improves.",
+      tags: ["office", "vacancy", "cushman & wakefield", "class b", "leasing"]
     }
   ],
 

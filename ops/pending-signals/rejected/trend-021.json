@@ -1,0 +1,70 @@
+{
+ "trend": {
+  "id": "trend-021",
+  "title": "Texas commercial loans flagged for October foreclosure auctions top $1 billion, up from under $800 million in September",
+  "category": "lending-foreclosure",
+  "date": "2026-10-06",
+  "scope": "Texas commercial properties posted for October 2026 foreclosure sales (Roddy's Foreclosure Listing Service data, reported by The Real Deal)",
+  "metric": "More than $1 billion in loans flagged for October auctions vs. under $800 million in September; 46 properties, 18 loans rolled over from earlier postings",
+  "sourceUrl": "https://therealdeal.com/texas/2026/10/06/texas-troubled-cre-loans-top-1b-in-october/",
+  "summary": "Commercial loans posted for Texas foreclosure sales in October exceed $1 billion in value, a sharp rebound from a September total below $800 million, according to Roddy's Foreclosure Listing Service data. The October list covers 46 properties, with Bexar County accounting for 13 of them, more than any other county in the count. Eighteen of the loans had been posted for foreclosure before and carried over into October, a sign of drawn-out lender negotiations or ongoing litigation. The largest new postings include a $98 million loan on a Downtown Dallas office tower and a $94 million loan on a Houston apartment complex.",
+  "significance": "Texas nonjudicial foreclosure lets lenders post and sell commercial collateral within weeks, so a rising posting total is an early read on distress that will show up as workout negotiations, temporary restraining order fights and lender-liability suits before any sale. Repeat postings in particular mark borrowers using the threat of auction to force modifications, and the mix of office, multifamily and hotel collateral shows the pressure is not confined to one property type.",
+  "tags": [
+   "foreclosure",
+   "texas",
+   "auctions",
+   "distress",
+   "multifamily"
+  ]
+ },
+ "verification": [
+  {
+   "claim": "October flagged loan value topped $1 billion after dipping under $800 million in September, per Roddy's",
+   "quote": "The value of loans flagged for foreclosure in October topped $1 billion after dipping under $800 million in September, according to Roddy’s Foreclosure Listing Service.",
+   "url": "https://therealdeal.com/texas/2026/10/06/texas-troubled-cre-loans-top-1b-in-october/"
+  },
+  {
+   "claim": "18 loans previously flagged rolled over to October",
+   "quote": "That figure includes 18 loans that were previously flagged for foreclosure and rolled over to October.",
+   "url": "https://therealdeal.com/texas/2026/10/06/texas-troubled-cre-loans-top-1b-in-october/"
+  },
+  {
+   "claim": "46 properties flagged; 13 in Bexar County, the most of any county",
+   "quote": "Of the 46 properties flagged for auctions, 13 were in Bexar County, the most commercial foreclosures of the counties included.",
+   "url": "https://therealdeal.com/texas/2026/10/06/texas-troubled-cre-loans-top-1b-in-october/"
+  },
+  {
+   "claim": "Repeat postings reflect continued lender negotiations or ongoing litigation",
+   "quote": "Of this month’s distressed loans, 18 have been flagged for foreclosure sales multiple times, sometimes reflecting continued lender negotiations or ongoing litigation.",
+   "url": "https://therealdeal.com/texas/2026/10/06/texas-troubled-cre-loans-top-1b-in-october/"
+  },
+  {
+   "claim": "$98 million loan on Downtown Dallas office tower",
+   "quote": "Dundon Capital, headed by billionaire Thomas Dundon, appears to have defaulted on the $98 million loan backed by the tower at 2100 Ross Avenue.",
+   "url": "https://therealdeal.com/texas/2026/10/06/texas-troubled-cre-loans-top-1b-in-october/"
+  },
+  {
+   "claim": "$94 million foreclosure on a Houston apartment complex",
+   "quote": "Olive Tree Holdings is facing a $94 million foreclosure in Houston.",
+   "url": "https://therealdeal.com/texas/2026/10/06/texas-troubled-cre-loans-top-1b-in-october/"
+  },
+  {
+   "claim": "Dallas tower is a Downtown Dallas office tower; Houston property is an apartment complex",
+   "quote": "To-be-auctioned properties include Downtown Dallas office tower and 1,300-unit Houston apartment complex",
+   "url": "https://therealdeal.com/texas/2026/10/06/texas-troubled-cre-loans-top-1b-in-october/"
+  }
+ ],
+ "rejected": [
+  "quote not found on https://therealdeal.com/texas/2026/10/06/texas-troubled-cre-loans-top-1b-in-october/: 'The value of loans flagged for foreclosure in October topped $1 billion after dipping under $800 mil'",
+  "quote not found on https://therealdeal.com/texas/2026/10/06/texas-troubled-cre-loans-top-1b-in-october/: 'That figure includes 18 loans that were previously flagged for foreclosure and rolled over to Octobe'",
+  "quote not found on https://therealdeal.com/texas/2026/10/06/texas-troubled-cre-loans-top-1b-in-october/: 'Of the 46 properties flagged for auctions, 13 were in Bexar County, the most commercial foreclosures'",
+  "quote not found on https://therealdeal.com/texas/2026/10/06/texas-troubled-cre-loans-top-1b-in-october/: 'Of this month’s distressed loans, 18 have been flagged for foreclosure sales multiple times, sometim'",
+  "quote not found on https://therealdeal.com/texas/2026/10/06/texas-troubled-cre-loans-top-1b-in-october/: 'Dundon Capital, headed by billionaire Thomas Dundon, appears to have defaulted on the $98 million lo'",
+  "quote not found on https://therealdeal.com/texas/2026/10/06/texas-troubled-cre-loans-top-1b-in-october/: 'Olive Tree Holdings is facing a $94 million foreclosure in Houston.'",
+  "quote not found on https://therealdeal.com/texas/2026/10/06/texas-troubled-cre-loans-top-1b-in-october/: 'To-be-auctioned properties include Downtown Dallas office tower and 1,300-unit Houston apartment com'",
+  "figure 1 is not in any verified quote",
+  "figure 800 is not in any verified quote",
+  "figure 94 is not in any verified quote",
+  "figure 98 is not in any verified quote"
+ ]
+}
