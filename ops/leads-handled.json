@@ -75,6 +75,12 @@
     "opinion:11033977": {"at": "2026-10-15", "action": "skipped: insurance-rescission dispute over a state military base construction fire, not a commercial real estate ownership/leasing/development matter on its face"},
     "https://www.courtlistener.com/docket/74966965/vertex-towers-llc-v-town-of-monson/": {"at": "2026-10-15", "action": "skipped: no reporting found explaining the filing (same-day filing, cell tower zoning dispute)"},
     "https://www.courtlistener.com/docket/74967305/samara-real-property-llc-a-delaware-limited-liability-company-v-board-of/": {"at": "2026-10-15", "action": "skipped: no reporting found explaining the filing (same-day filing, land use dispute with Santa Fe County)"},
-    "petition:https://www.courtlistener.com/docket/74960812/nrs-realty-llc/": {"at": "2026-10-15", "action": "skipped: no coverage found explaining the filing"}
+    "petition:https://www.courtlistener.com/docket/74960812/nrs-realty-llc/": {"at": "2026-10-15", "action": "skipped: no coverage found explaining the filing"},
+    "https://www.courtlistener.com/docket/74969870/the-albano-group-llc-v-netrality-properties-lp/": {"at": "2026-10-16", "action": "skipped: no reporting found explaining the dispute"},
+    "https://www.courtlistener.com/docket/74969945/teletech-inc-v-sprint-spectrum-realty-company/": {"at": "2026-10-16", "action": "skipped: no reporting found explaining the dispute"},
+    "https://www.courtlistener.com/docket/74969302/seymour-realty-1941-llc-v-amguard-insurance-company/": {"at": "2026-10-16", "action": "skipped: no reporting found explaining the dispute; small-party insurance coverage suit"},
+    "https://www.courtlistener.com/docket/74972871/flushing-bank-v-1372-franklin-avenue-housing-development-fund-corporation/": {"at": "2026-10-16", "action": "skipped: no reporting found explaining the dispute; likely residential affordable-housing HDFC corp"},
+    "petition:https://www.courtlistener.com/docket/74972033/emcee-realty-llc/": {"at": "2026-10-16", "action": "skipped: no coverage found explaining the filing"},
+    "petition:https://www.courtlistener.com/docket/74969627/1333-prospect-corp/": {"at": "2026-10-16", "action": "skipped: no coverage found explaining the filing"}
   }
 }
