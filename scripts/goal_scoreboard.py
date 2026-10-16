@@ -103,7 +103,10 @@ def main():
         bt = {"version": latest_v, "finalRangeHitRate": round(s["finalHits"] / s["finalScorable"], 3) if s.get("finalScorable") else None,
               "casesScored": s.get("scored"), "medianBestGuessError": s.get("finalBestGuessMedianError", s.get("medianBestGuessError")),
               "resultsGeneratedAt": data.get("generatedAt")}
-    calc_views = sum(v for k, v in pages.items() if "case-valuation" in k)
+    # toolViews counts every case-valuation* view; topPages is only the top
+    # 10 and made the calculator read 0 (2026-10-16). Fall back for old snapshots.
+    tool_views = w7.get("toolViews") or {}
+    calc_views = tool_views["case-valuation"] if "case-valuation" in tool_views else sum(v for k, v in pages.items() if "case-valuation" in k)
     calculator = {**bt, "calculatorViews7": calc_views if pages else None}
 
     goals = {}

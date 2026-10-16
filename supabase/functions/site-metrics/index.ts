@@ -77,6 +77,10 @@ function summarize(evs: Ev[]) {
     panelOpensBySession: top((() => { const m = new Map<string, number>(); for (const e of evs) if (e.event === "panel_open") bump(m, e.session); return m; })(), 5),
     panelOpenPages: top((() => { const m = new Map<string, number>(); for (const e of evs) if (e.event === "panel_open") bump(m, e.page); return m; })(), 5),
     topPages: top(pages, 10),
+    // Views of the tools, counted directly: topPages is only the top 10, so a
+    // tool outside it read as 0 views in the goal scoreboard (2026-10-16).
+    toolViews: Object.fromEntries(["case-valuation", "lease-clause-redline", "settlement-benchmarks", "litigation-index", "-tracker"]
+      .map((k) => [k, [...pages.entries()].filter(([p]) => p.includes(k)).reduce((n, [, v]) => n + v, 0)])),
     landingReferrers: top(refs, 10),
     topMatters: top(matters, 10),
     signInPromptReasons: top(gates, 5),

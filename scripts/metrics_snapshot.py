@@ -49,6 +49,7 @@ def window(report):
         "searches": report.get("searches"),
         "byEvent": by_event,
         "topPages": report.get("topPages"),
+        "toolViews": report.get("toolViews"),
         "landingReferrers": report.get("landingReferrers"),
         "topMatters": report.get("topMatters"),
     }
