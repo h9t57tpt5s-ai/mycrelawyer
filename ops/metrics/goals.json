@@ -1,6 +1,6 @@
 {
  "date": "2026-10-16",
- "generatedAt": "2026-10-16T18:19:43+00:00",
+ "generatedAt": "2026-10-16T18:53:34+00:00",
  "mostBehind": [
   "calculator",
   "conversion",
@@ -14,11 +14,11 @@
     "visits7",
     "googleLandings7"
    ],
-   "gap": 0.303,
+   "gap": 0.299,
    "metrics": {
-    "visits7": 297,
-    "googleLandings7": 109,
-    "visits28": 855
+    "visits7": 298,
+    "googleLandings7": 110,
+    "visits28": 857
    },
    "targets": {
     "visits7": 350,
@@ -37,7 +37,7 @@
     "signUps7": 2,
     "follows7": 0,
     "newsletterSignups7": 1,
-    "multiPageRate7": 0.0875,
+    "multiPageRate7": 0.0872,
     "contactSends7": 0
    },
    "targets": {
@@ -70,14 +70,14 @@
     "finalRangeHitRate",
     "calculatorViews7"
    ],
-   "gap": 0.646,
+   "gap": 0.636,
    "metrics": {
     "version": "v4.3",
     "finalRangeHitRate": 0.531,
     "casesScored": 39,
     "medianBestGuessError": -0.008,
     "resultsGeneratedAt": "2026-09-26T05:11:43+00:00",
-    "calculatorViews7": 0
+    "calculatorViews7": 1
    },
    "targets": {
     "finalRangeHitRate": 0.75,

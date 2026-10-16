@@ -1,14 +1,14 @@
 {
  "date": "2026-10-16",
- "generatedAt": "2026-10-16T18:19:43+00:00",
+ "generatedAt": "2026-10-16T18:53:34+00:00",
  "note": "Visits are tab sessions from js/track.js (crawlers filtered); the site is small, so read 7- and 28-day windows, not single days.",
  "last1Day": {
-  "visits": 47,
-  "pageViews": 52,
+  "visits": 48,
+  "pageViews": 53,
   "multiPageVisits": 4,
-  "multiPageRate": 0.0851,
+  "multiPageRate": 0.0833,
   "funnel": {
-   "viewedAMatter": 16,
+   "viewedAMatter": 17,
    "sawSignInPrompt": 0,
    "openedSignIn": 0,
    "signedUpOrIn": 0,
@@ -24,7 +24,7 @@
   "searches": 1,
   "byEvent": {
    "page_view": 34,
-   "matter_page_view": 18,
+   "matter_page_view": 19,
    "search": 1,
    "source_click": 1
   },
@@ -35,7 +35,7 @@
    ],
    [
     "/matters/live-229.html",
-    5
+    6
    ],
    [
     "/litigation.html",
@@ -54,10 +54,6 @@
     2
    ],
    [
-    "/distressed-office.html",
-    1
-   ],
-   [
     "/matters/live-228.html",
     1
    ],
@@ -68,12 +64,23 @@
    [
     "/matters/live-117.html",
     1
+   ],
+   [
+    "/federal-cases/building-service-32bj-pension-fund-v-lichter-real-estate-number-one-l-nysd-1-26-cv-09018.html",
+    1
    ]
   ],
+  "toolViews": {
+   "case-valuation": 0,
+   "lease-clause-redline": 1,
+   "settlement-benchmarks": 0,
+   "litigation-index": 2,
+   "-tracker": 1
+  },
   "landingReferrers": [
    [
     "direct or unknown",
-    30
+    31
    ],
    [
     "google.com",
@@ -87,7 +94,7 @@
   "topMatters": [
    [
     "live-229",
-    5
+    6
    ],
    [
     "live-025",
@@ -128,12 +135,12 @@
   ]
  },
  "last7Days": {
-  "visits": 297,
-  "pageViews": 352,
+  "visits": 298,
+  "pageViews": 353,
   "multiPageVisits": 26,
-  "multiPageRate": 0.0875,
+  "multiPageRate": 0.0872,
   "funnel": {
-   "viewedAMatter": 153,
+   "viewedAMatter": 154,
    "sawSignInPrompt": 0,
    "openedSignIn": 1,
    "signedUpOrIn": 2,
@@ -151,7 +158,7 @@
    "page_view": 203,
    "panel_open": 171,
    "full_read": 171,
-   "matter_page_view": 149,
+   "matter_page_view": 150,
    "source_click": 14,
    "search": 7,
    "signup": 2,
@@ -173,7 +180,7 @@
    ],
    [
     "/updates.html",
-    16
+    15
    ],
    [
     "/chapter-11/lvlm-murray-properties-llc-pawb-26-22766.html",
@@ -184,11 +191,11 @@
     10
    ],
    [
-    "/matters/live-188.html",
-    5
+    "/matters/live-229.html",
+    6
    ],
    [
-    "/matters/live-229.html",
+    "/matters/live-188.html",
     5
    ],
    [
@@ -200,22 +207,25 @@
     4
    ]
   ],
+  "toolViews": {
+   "case-valuation": 1,
+   "lease-clause-redline": 1,
+   "settlement-benchmarks": 0,
+   "litigation-index": 3,
+   "-tracker": 3
+  },
   "landingReferrers": [
    [
     "direct or unknown",
-    181
+    182
    ],
    [
     "google.com",
-    109
+    110
    ],
    [
     "utm:chatgpt.com",
     4
-   ],
-   [
-    "vertexaisearch.cloud.google",
-    1
    ],
    [
     "com.google.android.googlequicksearchbox",
@@ -264,18 +274,18 @@
     6
    ],
    [
-    "live-188",
-    5
+    "live-229",
+    6
    ]
   ]
  },
  "last28Days": {
-  "visits": 855,
-  "pageViews": 955,
+  "visits": 857,
+  "pageViews": 957,
   "multiPageVisits": 48,
-  "multiPageRate": 0.0561,
+  "multiPageRate": 0.056,
   "funnel": {
-   "viewedAMatter": 550,
+   "viewedAMatter": 551,
    "sawSignInPrompt": 84,
    "openedSignIn": 5,
    "signedUpOrIn": 6,
@@ -290,8 +300,8 @@
   "sourceClicks": 32,
   "searches": 7,
   "byEvent": {
-   "matter_page_view": 481,
-   "page_view": 474,
+   "matter_page_view": 482,
+   "page_view": 475,
    "panel_open": 281,
    "full_read": 194,
    "gate_shown": 87,
@@ -346,14 +356,21 @@
     7
    ]
   ],
+  "toolViews": {
+   "case-valuation": 1,
+   "lease-clause-redline": 1,
+   "settlement-benchmarks": 0,
+   "litigation-index": 3,
+   "-tracker": 3
+  },
   "landingReferrers": [
    [
     "direct or unknown",
-    611
+    612
    ],
    [
     "google.com",
-    225
+    226
    ],
    [
     "utm:chatgpt.com",
