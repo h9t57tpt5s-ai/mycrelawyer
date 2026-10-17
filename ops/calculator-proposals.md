@@ -183,6 +183,46 @@ check that a comparably-weighted issue exists for the side that actually
 won on its own theory, not just a negative-exposure issue for the side
 that lost.
 
+## 2026-10-17 — critical analysis for Jeff: liability is calibrated, damages are not
+
+Free analysis of the 33 v4.3 cases with a final outcome (no API spend).
+Issue-level outcomes were coded from each opinion into
+`case_valuation_project/backtest/issue-coding-v4.3.json` (218 predicted
+issues, 22 missing ones).
+
+**Case level.** The model put the right side ahead in 27/33 (82%). Range
+hits 17/33; even the widest honest envelope (opposing claims' full value to
+the represented side's full ceiling) holds only 22/33, so 11 outcomes sit
+outside every figure the model priced. Best guess: median ratio to actual
+1.00 (centered) but only 7/33 within 25%. Where the winner was right, the
+if-win ceiling ran a median 1.8x the award.
+
+**Issue level (liability won or partial / won in full):** conceded 93% / 67%
+(band 95-99%); strong 95% / 90% (80-90%); favorable 75% / 67% (60-75%);
+even 39% / 23% (45-55%); unfavorable 33% / 17% (25-40%); weak 13% / 13%
+(5-20%). The bands are calibrated on LIABILITY. Losses come from (1) partial
+recoveries on claims won (conceded issues won in full only 67%), (2) the
+opposing side's claims rated too high (opposing 'even' won 21%, 'favorable'
+40%), (3) 22 issues never listed (Williams Alaska had none priced; Jack and
+CVS turned on jury damages absent from the input).
+
+**Recalibrating the bands alone barely helps:** replaying v4.3 with bands set
+to the observed rates (opposing claims separately) moved final range hits
+19/32 -> 20/32 and best guess within 25% 7/30 -> 9/30 (replay excludes fees,
+hence 19 vs the published 17). Not adopted: too little gain to justify fitting
+33 cases. The levers are the damages measure and issue completeness (v4.5
+instructions, then a rule-based damages engine in code: interest to judgment,
+collateral/fair-value credits, rent through repossession, guaranty caps,
+partial-taking measure), scenario outputs scored for calibration, and asking
+for missing deciding inputs instead of pricing without them.
+
+**On a 95% target:** 95% of verdicts inside a narrow range is not a realistic
+standard (tried and appealed cases are selected for being hard to predict;
+verdicts vary on the same facts). 95% is attainable for a calibrated 95%
+interval, for damages once liability is fixed, and is the right aim for
+settlement acceptance measured against real settlements rather than
+verdicts.
+
 ## What we have learned (calculator track)
 
 <!-- dated lines added as proposals here are later tested or Jeff rules on them -->

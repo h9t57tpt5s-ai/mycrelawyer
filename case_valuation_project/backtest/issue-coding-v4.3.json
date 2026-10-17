@@ -1,0 +1,2430 @@
+{
+ "about": "Issue-level outcomes for the 33 v4.3 backtest cases with a final outcome, coded 2026-10-17 from each court opinion (case_valuation_project/backtest/sources/). For every predicted issue: result (won/lost/partial/abandoned/not_decided/unclear, from the issue claimant's side), awarded amount when the opinion states it, and a verbatim supporting quote; 'missing' lists claims, credits or offsets that drove the final figure but were not predicted. Used to check whether the strength bands are calibrated.",
+ "version": "v4.3",
+ "cases": [
+  {
+   "id": "1215-superior-v-berger-2025",
+   "represented": "Lender",
+   "finalAmount": 1510705.93,
+   "issues": [
+    {
+     "label": "Guaranty Enforcement / Loan A Deficiency",
+     "claimant": "represented",
+     "strength": "strong",
+     "supportedCeiling": 1258517.92,
+     "result": "won",
+     "awarded": 1510705.93,
+     "quote": "the total judgment included: $1,091,479 due Lenders for the outstanding principal, $419,226.93 due Lenders for the total interest due"
+    },
+    {
+     "label": "Berger's Lack-of-Consideration Defense to the Guaranty",
+     "claimant": "opposing",
+     "strength": "weak",
+     "supportedCeiling": null,
+     "result": "lost",
+     "awarded": null,
+     "quote": "Here, Berger's guaranty of the Loans constituted consideration, even if the benefit was not conferred upon Berger."
+    },
+    {
+     "label": "Estoppel/Waiver and Ratification via Forbearance Agreements",
+     "claimant": "represented",
+     "strength": "strong",
+     "supportedCeiling": null,
+     "result": "not_decided",
+     "awarded": null,
+     "quote": ""
+    },
+    {
+     "label": "Contractual Attorney Fees and Enforcement Costs",
+     "claimant": "represented",
+     "strength": "strong",
+     "supportedCeiling": null,
+     "result": "won",
+     "awarded": 36211.5,
+     "quote": "$36,211.50 due Lenders for its reasonable attorney fees, and $441.75 for reasonable litigation expenses."
+    },
+    {
+     "label": "Loan B Status / Potential Double-Count Risk",
+     "claimant": "represented",
+     "strength": "favorable",
+     "supportedCeiling": 250579.93,
+     "result": "not_decided",
+     "awarded": null,
+     "quote": ""
+    }
+   ],
+   "missing": [],
+   "notes": "Judgment $1,510,705.93 (principal+interest) affirmed; appeal addressed only lack of consideration; estoppel/ratification via forbearance agreements not relied on by appellate court; Loan B was paid off in Feb 2022 (background, not separately adjudicated)."
+  },
+  {
+   "id": "1700-market-v-common-grounds-2024",
+   "represented": "Landlord",
+   "finalAmount": 223000,
+   "issues": [
+    {
+     "label": "Unpaid Base and Additional Rent, March 2021-February 2022",
+     "claimant": "represented",
+     "strength": "conceded",
+     "supportedCeiling": 2487630.24,
+     "result": "partial",
+     "awarded": null,
+     "quote": "the trial court entered judgment in favor of Appellants in the amount of $223,000.00, the amount due to Appellants up to July 1, 2022 when it regained possession of the premises."
+    },
+    {
+     "label": "Unpaid Rent and Additional Rent, Post-February 2022 (CCP Complaint Period)",
+     "claimant": "represented",
+     "strength": "conceded",
+     "supportedCeiling": 783504.15,
+     "result": "partial",
+     "awarded": null,
+     "quote": "the trial court entered judgment in favor of Appellants in the amount of $223,000.00, the amount due to Appellants up to July 1, 2022 when it regained possession of the premises."
+    },
+    {
+     "label": "Security Deposit 'Replenishment' Claim",
+     "claimant": "represented",
+     "strength": "weak",
+     "supportedCeiling": 2500000,
+     "result": "lost",
+     "awarded": null,
+     "quote": "Appellants are only entitled to damages for unpaid rent through July 1, 2022, when Appellants obtained possession of the property."
+    },
+    {
+     "label": "Ongoing/Accruing Rent From Complaint Filing Through Trial",
+     "claimant": "represented",
+     "strength": "even",
+     "supportedCeiling": null,
+     "result": "lost",
+     "awarded": null,
+     "quote": "Appellants are only entitled to damages for unpaid rent through July 1, 2022, when Appellants obtained possession of the property."
+    },
+    {
+     "label": "Termination Election and Applicable Damages Formula",
+     "claimant": "opposing",
+     "strength": "even",
+     "supportedCeiling": null,
+     "result": "won",
+     "awarded": null,
+     "quote": "[i]f the landlord terminates the lease and evicts the tenant before the acceleration clause is enforced, the landlord cannot recover rent for the post-eviction period."
+    },
+    {
+     "label": "Failure to Mitigate / No Evidence of Reletting",
+     "claimant": "opposing",
+     "strength": "unfavorable",
+     "supportedCeiling": null,
+     "result": "not_decided",
+     "awarded": null,
+     "quote": ""
+    },
+    {
+     "label": "Lawful Writ Process vs. Wrongful Self-Help Eviction",
+     "claimant": "opposing",
+     "strength": "weak",
+     "supportedCeiling": null,
+     "result": "lost",
+     "awarded": null,
+     "quote": "Regardless of how Appellants want to characterize their actions, Appellees were legally evicted from the premises."
+    },
+    {
+     "label": "Electric, 'Other' Charges, and Court Costs",
+     "claimant": "represented",
+     "strength": "conceded",
+     "supportedCeiling": 7629.969999999999,
+     "result": "unclear",
+     "awarded": null,
+     "quote": ""
+    },
+    {
+     "label": "Attorney's Fees",
+     "claimant": "represented",
+     "strength": "conceded",
+     "supportedCeiling": 1500,
+     "result": "unclear",
+     "awarded": null,
+     "quote": ""
+    }
+   ],
+   "missing": [],
+   "notes": "Single $223,000 judgment for rent through July 1, 2022; opinion does not itemize how $223,000 relates to the $2.49M pleaded rent (no split among rent periods, electric, fees); post-possession rent ($2,149,435.75 claim) denied because tenant was evicted, not abandoned."
+  },
+  {
+   "id": "5th-and-walnut-v-des-moines-2026",
+   "represented": "Property Owner / Developer",
+   "finalAmount": 4353677,
+   "issues": [
+    {
+     "label": "Core breach: City's premature/pretextual default notices",
+     "claimant": "represented",
+     "strength": "favorable",
+     "supportedCeiling": null,
+     "result": "won",
+     "awarded": null,
+     "quote": "We affirm the district court's determination that the City breached the Development Agreement."
+    },
+    {
+     "label": "Garage completion damages (development fee, savings, interest savings, jump-ramp claim)",
+     "claimant": "represented",
+     "strength": "favorable",
+     "supportedCeiling": 1300000,
+     "result": "won",
+     "awarded": 4353677,
+     "quote": "we affirm the award to the Developers of $4,353,677 in Category (1) across subcategories (1-A), (1-B), and (1-C). But the district court rejected the Developers' claims for additional damages under (1-D)"
+    },
+    {
+     "label": "Lost profits from garage operation and ownership",
+     "claimant": "represented",
+     "strength": "weak",
+     "supportedCeiling": 11029311,
+     "result": "lost",
+     "awarded": null,
+     "quote": "we conclude that the Developers were not entitled to any of the damages enumerated under subcategories (2-A, -B, or -D)."
+    },
+    {
+     "label": "Tower reliance/sunk-cost damages (architecture, predevelopment, hard costs)",
+     "claimant": "represented",
+     "strength": "even",
+     "supportedCeiling": 8063027,
+     "result": "lost",
+     "awarded": null,
+     "quote": "We affirm the district court's judgment declining to award damages for subcategories (3-A, B, and C) and (4-A, B, and C)."
+    },
+    {
+     "label": "Theater reliance/sunk-cost damages",
+     "claimant": "represented",
+     "strength": "unfavorable",
+     "supportedCeiling": 528884,
+     "result": "lost",
+     "awarded": null,
+     "quote": "We affirm the district court's judgment declining to award damages for subcategories (3-A, B, and C) and (4-A, B, and C)."
+    },
+    {
+     "label": "Ancillary damages: foreclosure defense costs and tax gross-up",
+     "claimant": "represented",
+     "strength": "even",
+     "supportedCeiling": null,
+     "result": "lost",
+     "awarded": null,
+     "quote": "The district court determined, however, that the Developers failed to prove any additional damages and that they were not entitled to foreclosure defense costs or a tax gross-up. We agree."
+    },
+    {
+     "label": "City's counterclaim for breach",
+     "claimant": "opposing",
+     "strength": "even",
+     "supportedCeiling": null,
+     "result": "lost",
+     "awarded": null,
+     "quote": "the Developers were entitled to judgment in their favor with respect to the City's breach of contract claims"
+    },
+    {
+     "label": "Tortious interference with the Bank contract",
+     "claimant": "represented",
+     "strength": "unfavorable",
+     "supportedCeiling": null,
+     "result": "lost",
+     "awarded": null,
+     "quote": "We vacate the district court's judgment that the City was liable for tortious interference with the Developers' contract with the Bank."
+    },
+    {
+     "label": "Waiver/course-of-dealing defense to the City's default notices",
+     "claimant": "represented",
+     "strength": "favorable",
+     "supportedCeiling": null,
+     "result": "won",
+     "awarded": null,
+     "quote": "The district court properly relied on the parties' course of performance that demonstrated a notice of default and opportunity to cure was required before the Developers could be found in breach."
+    },
+    {
+     "label": "Section 10.4 enforced-delay (COVID) defense",
+     "claimant": "represented",
+     "strength": "even",
+     "supportedCeiling": null,
+     "result": "won",
+     "awarded": null,
+     "quote": "once the Developers invoked Section 10.4, the clock stopped on their deadline to cure, and any notice of default could not trigger a breach."
+    }
+   ],
+   "missing": [],
+   "notes": "$4,353,677 expectancy award (garage dev fee, savings, interest savings) affirmed; the issue #1 figure used ($1.3M jump-ramp claim) was the one sub-item that lost; all other damages categories and City counterclaims rejected; tort judgment vacated without changing amount."
+  },
+  {
+   "id": "architectural-stainless-v-tm-partridge-creek-mall-2021",
+   "represented": "Contractor / Design Professional",
+   "finalAmount": 0.0,
+   "issues": [
+    {
+     "label": "Lien Foreclosure Against Owner's Fee Interest (Agency/Ownership Theory)",
+     "claimant": "represented",
+     "strength": "even",
+     "supportedCeiling": 213389.2,
+     "result": "lost",
+     "awarded": 0,
+     "quote": "the court found no cause of action and entered judgment for defendant."
+    },
+    {
+     "label": "Failure to Provide CLA Sworn Statement (Statutory Prerequisite Defense)",
+     "claimant": "opposing",
+     "strength": "even",
+     "supportedCeiling": null,
+     "result": "not_decided",
+     "awarded": null,
+     "quote": "Because we affirm the entry of judgment for defendant, we decline to address this issue."
+    },
+    {
+     "label": "Trade Fixture / Post-Removal Mootness Defense",
+     "claimant": "opposing",
+     "strength": "unfavorable",
+     "supportedCeiling": null,
+     "result": "not_decided",
+     "awarded": null,
+     "quote": ""
+    },
+    {
+     "label": "Guarantor/Policy Argument Against Lien Enforcement",
+     "claimant": "opposing",
+     "strength": "weak",
+     "supportedCeiling": null,
+     "result": "won",
+     "awarded": null,
+     "quote": "This interpretation places a landowner in the position of guarantor of payment for improvements made by the tenant, clearly not the aim of the CLA."
+    }
+   ],
+   "missing": [],
+   "notes": "No-cause judgment affirmed: lien attached only to tenant's leasehold; sworn-statement and trade-fixture defenses not reached."
+  },
+  {
+   "id": "brandon-v-wells-fargo-midland-2020",
+   "represented": "Borrower / Guarantor",
+   "finalAmount": 245109.2,
+   "issues": [
+    {
+     "label": "Excess Sale Proceeds Accounting / Breach of Contract",
+     "claimant": "represented",
+     "strength": "favorable",
+     "supportedCeiling": 377000,
+     "result": "partial",
+     "awarded": 245109.2,
+     "quote": "The trial court's finding that Brandon was entitled to excess sale proceeds in the amount of $245,109.20 is supported by the lenders' own accounting records"
+    },
+    {
+     "label": "Consequential Damages (Lost Inglewood Investment)",
+     "claimant": "represented",
+     "strength": "weak",
+     "supportedCeiling": 5717000,
+     "result": "lost",
+     "awarded": null,
+     "quote": "Because consequential damages were not conclusively established by the evidence, we overrule Brandon's second issue."
+    },
+    {
+     "label": "Conversion / Theft Liability Act (Misapplied April 2012 Payment and Retained Proceeds)",
+     "claimant": "represented",
+     "strength": "weak",
+     "supportedCeiling": 55151.990000000005,
+     "result": "lost",
+     "awarded": null,
+     "quote": "we hold the trial court erred in implicitly concluding that the economic loss rule did not bar Brandon's conversion claims."
+    },
+    {
+     "label": "Lenders' Payment/Satisfaction and Contractual Offset Defense",
+     "claimant": "opposing",
+     "strength": "strong",
+     "supportedCeiling": null,
+     "result": "lost",
+     "awarded": null,
+     "quote": "we conclude that the lenders have waived any complaint concerning their affirmative defense of offset."
+    },
+    {
+     "label": "Deficiency Judgment (Not Pursued)",
+     "claimant": "opposing",
+     "strength": "conceded",
+     "supportedCeiling": null,
+     "result": "abandoned",
+     "awarded": null,
+     "quote": "Having already received all the funds to which they were entitled, the lenders did not pursue any affirmative relief at trial."
+    },
+    {
+     "label": "Receivership Appointment and Sale (Procedural History)",
+     "claimant": "opposing",
+     "strength": "conceded",
+     "supportedCeiling": null,
+     "result": "won",
+     "awarded": null,
+     "quote": "To the extent Brandon's issue can be construed as a challenge to the propriety of the receiver's actions in delivering the sale proceeds to the lenders, his issue is foreclosed under the invited error doctrine."
+    },
+    {
+     "label": "Attorney's Fees",
+     "claimant": "represented",
+     "strength": "even",
+     "supportedCeiling": null,
+     "result": "won",
+     "awarded": 125000,
+     "quote": "they have not preserved error regarding their complaint that there is no statutory basis for the award."
+    }
+   ],
+   "missing": [],
+   "notes": "Contract damages $245,109.20 vs Wells Fargo affirmed (Brandon's bid for more rejected); conversion/tort, exemplary damages and all Midland liability reversed; $125,000 fee award left standing."
+  },
+  {
+   "id": "buyers-choice-v-palm-beach-motors-2024",
+   "represented": "Tenant",
+   "finalAmount": 0,
+   "issues": [
+    {
+     "label": "Tenant's failure to comply with §83.201 rent-withholding requirements",
+     "claimant": "opposing",
+     "strength": "strong",
+     "supportedCeiling": null,
+     "result": "won",
+     "awarded": null,
+     "quote": "the trial court erred when it determined that Tenant was entitled to withhold rent because its factual findings are not supported by competent substantial evidence."
+    },
+    {
+     "label": "Landlord's counterclaim for unpaid rent",
+     "claimant": "opposing",
+     "strength": "strong",
+     "supportedCeiling": null,
+     "result": "won",
+     "awarded": null,
+     "quote": "we hold that Landlord is legally entitled to retain the rental payments that Tenant paid during the pre-termination occupancy period (January 2020 through November 30, 2020) and receive rent for the post-termination occupancy period"
+    },
+    {
+     "label": "Breach of lease - fence provision",
+     "claimant": "represented",
+     "strength": "strong",
+     "supportedCeiling": null,
+     "result": "won",
+     "awarded": null,
+     "quote": "We agree that Landlord breached the Lease by failing to timely build the promised fence."
+    },
+    {
+     "label": "Fraudulent misrepresentation regarding intent to install fence",
+     "claimant": "represented",
+     "strength": "weak",
+     "supportedCeiling": null,
+     "result": "won",
+     "awarded": null,
+     "quote": "From the outset, we affirm the trial court's holding that Landlord fraudulently and negligently induced Tenant into the Lease."
+    },
+    {
+     "label": "Negligent misrepresentation regarding intent to install fence",
+     "claimant": "represented",
+     "strength": "weak",
+     "supportedCeiling": null,
+     "result": "won",
+     "awarded": null,
+     "quote": "From the outset, we affirm the trial court's holding that Landlord fraudulently and negligently induced Tenant into the Lease."
+    },
+    {
+     "label": "Return of $87,862.50 pre-termination rent paid (rescission/void-lease theory)",
+     "claimant": "represented",
+     "strength": "weak",
+     "supportedCeiling": 87862.5,
+     "result": "lost",
+     "awarded": 0,
+     "quote": "The trial court returning $87,862.50 in rental payments to Tenant and excusing Tenant's obligation to pay rent during the post-termination occupancy period deprived Landlord of any rent during the renewed Lease period. This was error"
+    },
+    {
+     "label": "Vandalism/theft damages to vehicle inventory",
+     "claimant": "represented",
+     "strength": "even",
+     "supportedCeiling": null,
+     "result": "lost",
+     "awarded": 0,
+     "quote": "The trial court denied this request, finding that Tenant presented \"speculative\" evidence."
+    },
+    {
+     "label": "Landlord's counterclaim for real estate taxes",
+     "claimant": "opposing",
+     "strength": "strong",
+     "supportedCeiling": null,
+     "result": "not_decided",
+     "awarded": null,
+     "quote": "we remand for the trial court to address recovery of property taxes and cleanup expenses and return of Tenant's security deposit."
+    },
+    {
+     "label": "Landlord's counterclaim for cleanup costs",
+     "claimant": "opposing",
+     "strength": "favorable",
+     "supportedCeiling": null,
+     "result": "not_decided",
+     "awarded": null,
+     "quote": "we remand for the trial court to address recovery of property taxes and cleanup expenses and return of Tenant's security deposit."
+    },
+    {
+     "label": "Tenant's failure to invoke lease's own default/notice-and-cure mechanism before treating lease as void",
+     "claimant": "opposing",
+     "strength": "favorable",
+     "supportedCeiling": null,
+     "result": "abandoned",
+     "awarded": null,
+     "quote": "On appeal, Landlord has conceded that Tenant could terminate the Lease due to Landlord's failure to install fencing."
+    }
+   ],
+   "missing": [],
+   "notes": "Tenant won liability (fraud, negligent misrep, breach) but no money: rent refund reversed via ratification and section 83.201; landlord owed rent for both periods (amount not stated); taxes, cleanup and tenant's security deposit remanded undecided."
+  },
+  {
+   "id": "can-iv-packard-square-v-schubiner-2021",
+   "represented": "Lender",
+   "finalAmount": 13992936.05,
+   "issues": [
+    {
+     "label": "Guaranty Liability – Bankruptcy Recourse Trigger",
+     "claimant": "represented",
+     "strength": "strong",
+     "supportedCeiling": null,
+     "result": "won",
+     "awarded": null,
+     "quote": "Packard Square's defaults triggered defendant's obligations under the guaranty contract, and it is beyond dispute that defendant never satisfied his obligations under the guaranty contract."
+    },
+    {
+     "label": "Deficiency Amount / Credit-Bid Allocation Dispute",
+     "claimant": "represented",
+     "strength": "favorable",
+     "supportedCeiling": 54000000,
+     "result": "won",
+     "awarded": 13992936.05,
+     "quote": "Plaintiff applied the remainder of the credit bid to the original loan indebtedness, leaving a balance owed by defendant of $13,992,936.05"
+    },
+    {
+     "label": "Impairment of Collateral / Material Alteration Defense",
+     "claimant": "opposing",
+     "strength": "weak",
+     "supportedCeiling": null,
+     "result": "lost",
+     "awarded": null,
+     "quote": "But no material alteration of the underlying loan agreement occurred here."
+    },
+    {
+     "label": "Prior-Breach / Impossibility Defense",
+     "claimant": "opposing",
+     "strength": "weak",
+     "supportedCeiling": null,
+     "result": "lost",
+     "awarded": null,
+     "quote": "the trial court properly determined that defendant was collaterally estopped from relitigating the facts that Packard Square defaulted in failing to resolve subcontractor liens and that plaintiff could stop disbursing funds following Packard Square's defaults."
+    },
+    {
+     "label": "DACA Account Funds Counterclaim",
+     "claimant": "opposing",
+     "strength": "unfavorable",
+     "supportedCeiling": -1000885.33,
+     "result": "lost",
+     "awarded": null,
+     "quote": "In short, plaintiff acted within its contractual rights when it obtained funds from the DACA account."
+    },
+    {
+     "label": "Breach of Contract Counterclaim re: Subcontractor Liens",
+     "claimant": "opposing",
+     "strength": "weak",
+     "supportedCeiling": -1247270.97,
+     "result": "lost",
+     "awarded": null,
+     "quote": "Defendant thus has not demonstrated a genuine issue of material fact in support of his counterclaim for breach of contract, and the trial court properly granted summary disposition to plaintiff on the breach-of-contract counterclaim."
+    },
+    {
+     "label": "Receivership Proceedings — Concluded Favorably to Lender",
+     "claimant": "represented",
+     "strength": "conceded",
+     "supportedCeiling": null,
+     "result": "won",
+     "awarded": null,
+     "quote": "The receiver reported the same amount to the Washtenaw Circuit Court, which approved the receiver's final report over Packard Square's objections."
+    },
+    {
+     "label": "Attorney Fees Under Guaranty",
+     "claimant": "represented",
+     "strength": "favorable",
+     "supportedCeiling": null,
+     "result": "won",
+     "awarded": null,
+     "quote": "the trial court entered a judgment for plaintiff and against defendant in the amount of $13,992,936.05, along with attorney fees, consultant fees, continuing interest, and costs."
+    }
+   ],
+   "missing": [],
+   "notes": "Lender won everything it asked ($13,992,936.05 after credit bid applied to receiver loan first); the issue #1 ceiling ($54M original principal) was never the lender's demand. Fee amount not stated."
+  },
+  {
+   "id": "cle-venture-fund-v-coventry-2025",
+   "represented": "Lender",
+   "finalAmount": 1735579.45,
+   "issues": [
+    {
+     "label": "Breach of Note & Guaranty — Core Deficiency Claim",
+     "claimant": "represented",
+     "strength": "conceded",
+     "supportedCeiling": 2446775.94,
+     "result": "partial",
+     "awarded": 1735579.45,
+     "quote": "the trial court found the Appellants jointly and severally liable in the amount of $1,735,579.45 plus interest at the default rate until paid in full"
+    },
+    {
+     "label": "Retrospective Property Valuation Credit (Competing Appraisals)",
+     "claimant": "opposing",
+     "strength": "unfavorable",
+     "supportedCeiling": -2030000,
+     "result": "partial",
+     "awarded": -1310000,
+     "quote": "the trial court corrected a scrivener's error regarding the value of the Property, noting that the actual sum should have been $1,310,000"
+    },
+    {
+     "label": "Rejected Borrower Defenses (Res Judicata / Debt Extinguishment)",
+     "claimant": "opposing",
+     "strength": "weak",
+     "supportedCeiling": null,
+     "result": "lost",
+     "awarded": null,
+     "quote": "The trial court denied Appellants' motion for summary judgment finding that Appellee's claims were not barred by res judicata as there was no final judgment in CV-17-885989."
+    },
+    {
+     "label": "Expert Reliability / Evidentiary Rulings (Exhibit C, Authorship)",
+     "claimant": "opposing",
+     "strength": "even",
+     "supportedCeiling": null,
+     "result": "lost",
+     "awarded": null,
+     "quote": "Appellants' failures to separately address the assignments of error and cite to relevant legal authority, prevents this court from determining the existence of reversible error."
+    },
+    {
+     "label": "Guarantor Collectibility (Crigler)",
+     "claimant": "represented",
+     "strength": "conceded",
+     "supportedCeiling": null,
+     "result": "won",
+     "awarded": null,
+     "quote": "the trial court found the Appellants jointly and severally liable in the amount of $1,735,579.45"
+    },
+    {
+     "label": "Attorney's Fees",
+     "claimant": "represented",
+     "strength": "favorable",
+     "supportedCeiling": null,
+     "result": "abandoned",
+     "awarded": null,
+     "quote": "Appellee's attorney filed a notice withdrawing the request for attorney fees."
+    }
+   ],
+   "missing": [],
+   "notes": "Borrowers won the legal point that FMV at the 2018 transfer is credited (not 2021 sale proceeds) but lost the valuation fight: lender's $1,310,000 value adopted over $2,030,000; net judgment $1,735,579.45 vs $2,446,775.94 demanded; fees withdrawn."
+  },
+  {
+   "id": "cvs-v-carmichael-2021",
+   "represented": "Injured Party / Claimant",
+   "finalAmount": 42750000,
+   "issues": [
+    {
+     "label": "Negligent Security / Foreseeability of Attack",
+     "claimant": "represented",
+     "strength": "favorable",
+     "supportedCeiling": null,
+     "result": "won",
+     "awarded": null,
+     "quote": "a reasonable jury could conclude from the evidence at trial that the robbery was reasonably foreseeable to CVS"
+    },
+    {
+     "label": "Causation - Would Security/Lighting Have Prevented the Shooting",
+     "claimant": "represented",
+     "strength": "favorable",
+     "supportedCeiling": null,
+     "result": "won",
+     "awarded": null,
+     "quote": "Carmichael thus provided evidence that showed more than speculation that a lack of security or proper lighting contributed to his injuries."
+    },
+    {
+     "label": "CVS's Superior-Knowledge / Private-Relationship Defense (incl. Jury Instruction Appeal)",
+     "claimant": "opposing",
+     "strength": "weak",
+     "supportedCeiling": null,
+     "result": "lost",
+     "awarded": null,
+     "quote": "Because the trial court's instructions substantially covered the legal principles underlying CVS's proposed \"pre-existing relationship\" instruction, CVS has failed to show that the trial court erred"
+    },
+    {
+     "label": "Comparative Negligence - Carmichael's Own Firearm and Conduct",
+     "claimant": "opposing",
+     "strength": "unfavorable",
+     "supportedCeiling": null,
+     "result": "partial",
+     "awarded": null,
+     "quote": "The jury found CVS 95% at fault, Carmichael 5% at fault, and both Gray and the shooter 0% at fault for the incident"
+    },
+    {
+     "label": "Compensatory Damages - Medical Specials and Non-Economic Harm",
+     "claimant": "represented",
+     "strength": "favorable",
+     "supportedCeiling": 725800,
+     "result": "won",
+     "awarded": 42750000,
+     "quote": "it awarded Carmichael an adjusted total of $42,750,000 in damages (representing 95% of its total verdict of $45,000,000)."
+    },
+    {
+     "label": "Potential Punitive Damages",
+     "claimant": "represented",
+     "strength": "even",
+     "supportedCeiling": null,
+     "result": "not_decided",
+     "awarded": null,
+     "quote": ""
+    }
+   ],
+   "missing": [
+    {
+     "label": "Apportionment of fault to the non-party shooter (void-verdict challenge)",
+     "claimant": "opposing",
+     "result": "lost",
+     "awarded": null,
+     "quote": "the jury properly declined to apportion fault to the two non-parties on the verdict form"
+    }
+   ],
+   "notes": "Source is the 2021 Court of Appeals opinion only (2023 Georgia Supreme Court affirmance not in the text). $45M verdict reduced 5% for comparative fault; the $725,800 medical specials were a tiny fraction of the general damages; punitive damages never mentioned."
+  },
+  {
+   "id": "donegal-v-christie-scott-2020",
+   "represented": "Tenant",
+   "finalAmount": -43304.91,
+   "issues": [
+    {
+     "label": "Conversion — Retail Products",
+     "claimant": "represented",
+     "strength": "favorable",
+     "supportedCeiling": 113917.24,
+     "result": "lost",
+     "awarded": 0,
+     "quote": "We hold that the circuit court erred in finding that Donegal was liable for conversion of Christie-Scott's property, and we reverse the circuit court's finding in this regard."
+    },
+    {
+     "label": "Conversion — Professional Products",
+     "claimant": "represented",
+     "strength": "favorable",
+     "supportedCeiling": null,
+     "result": "lost",
+     "awarded": 0,
+     "quote": "We hold that the circuit court erred in finding that Donegal was liable for conversion of Christie-Scott's property, and we reverse the circuit court's finding in this regard."
+    },
+    {
+     "label": "Conversion — Furniture, Fixtures, Equipment & Records",
+     "claimant": "represented",
+     "strength": "favorable",
+     "supportedCeiling": 36645.11,
+     "result": "lost",
+     "awarded": 0,
+     "quote": "We hold that the circuit court erred in finding that Donegal was liable for conversion of Christie-Scott's property, and we reverse the circuit court's finding in this regard."
+    },
+    {
+     "label": "Punitive Damages (Conversion)",
+     "claimant": "represented",
+     "strength": "favorable",
+     "supportedCeiling": 5000000,
+     "result": "lost",
+     "awarded": 0,
+     "quote": "It follows that we also reverse the compensatory and punitive damage awards to Christie-Scott."
+    },
+    {
+     "label": "Donegal's Holdover Rent Counterclaim",
+     "claimant": "opposing",
+     "strength": "unfavorable",
+     "supportedCeiling": -155000,
+     "result": "partial",
+     "awarded": -43304.91,
+     "quote": "for the purposes of Donegal's counterclaim, Christie-Scott owed Donegal $43,304.91."
+    },
+    {
+     "label": "Waiver/Estoppel Defense to Holdover Rent",
+     "claimant": "represented",
+     "strength": "favorable",
+     "supportedCeiling": null,
+     "result": "partial",
+     "awarded": null,
+     "quote": "The court found that, although Donegal was not authorized to make the double rent retroactive, Christie-Scott owed Donegal double rent for August, September, October, and one-fifth of November."
+    },
+    {
+     "label": "Donegal's Misrepresentation Counterclaim",
+     "claimant": "opposing",
+     "strength": "weak",
+     "supportedCeiling": -75000,
+     "result": "unclear",
+     "awarded": null,
+     "quote": ""
+    },
+    {
+     "label": "Abandoned Wrongful Eviction, Trespass & Tortious Interference Claims",
+     "claimant": "represented",
+     "strength": "conceded",
+     "supportedCeiling": null,
+     "result": "abandoned",
+     "awarded": null,
+     "quote": "In its closing argument, Christie-Scott effectively abandoned all counts except conversion."
+    }
+   ],
+   "missing": [],
+   "notes": "Conversion liability reversed (lawful commercial self-help; no pre-suit demand), so all tenant compensatory and punitive awards fall; unappealed $43,304.91 landlord counterclaim (double rent Aug-Nov 2017 plus CAM and taxes) stands. Ruling on misrepresentation counterclaim not stated."
+  },
+  {
+   "id": "elpa-builders-v-state-ny-2021",
+   "represented": "Property Owner",
+   "finalAmount": 283920,
+   "issues": [
+    {
+     "label": "Just Compensation - Value of Taken Strips and Severance Damages",
+     "claimant": "represented",
+     "strength": "conceded",
+     "supportedCeiling": 2000000,
+     "result": "partial",
+     "awarded": 283920,
+     "quote": "After a trial, the Court of Claims found that the claimant was entitled to the principal sum of $283,920 for the taking."
+    },
+    {
+     "label": "EDPL 304(H) Advance Payment Clawback Risk",
+     "claimant": "opposing",
+     "strength": "favorable",
+     "supportedCeiling": null,
+     "result": "won",
+     "awarded": -18540,
+     "quote": "the court awarded the State the principal sum of $18,540, representing the difference between $283,920 and the $302,460 advance payment."
+    },
+    {
+     "label": "Ground Lease / Leasehold Apportionment Effect on Owner's Recovery",
+     "claimant": "represented",
+     "strength": "favorable",
+     "supportedCeiling": null,
+     "result": "not_decided",
+     "awarded": null,
+     "quote": ""
+    }
+   ],
+   "missing": [],
+   "notes": "Compensation $283,920 ($2,510,000 before-value with minor adjustment, $30,000 severance, $26,500 trees) fell below the $302,460 advance, so owner repays $18,540; ground-lease apportionment never addressed."
+  },
+  {
+   "id": "epochal-v-lf-encinitas-2024",
+   "represented": "Tenant",
+   "finalAmount": 222000,
+   "issues": [
+    {
+     "label": "Lost Orchid Inventory / Lost Profits Damages",
+     "claimant": "represented",
+     "strength": "even",
+     "supportedCeiling": 400000,
+     "result": "partial",
+     "awarded": 222000,
+     "quote": "The jury awarded plaintiff $144,300 in \"lost profits\" and $77,700 in \"other past economic loss.\""
+    },
+    {
+     "label": "Negligence / Premises Liability vs. Indemnification and Limitation-of-Liability Clauses",
+     "claimant": "opposing",
+     "strength": "even",
+     "supportedCeiling": null,
+     "result": "lost",
+     "awarded": null,
+     "quote": "On plaintiff's appeal, the order granting JNOV in defendants' favor is reversed."
+    },
+    {
+     "label": "Intentional Misrepresentation / Fraudulent Concealment",
+     "claimant": "represented",
+     "strength": "even",
+     "supportedCeiling": null,
+     "result": "lost",
+     "awarded": null,
+     "quote": "the jury found no intent to deceive and therefore no liability for concealment."
+    },
+    {
+     "label": "Cross-Complaint for Breach of Lease (Unpaid Rent) and Prior UD Default Judgment",
+     "claimant": "opposing",
+     "strength": "conceded",
+     "supportedCeiling": null,
+     "result": "lost",
+     "awarded": 0,
+     "quote": "On defendants' counterclaim the jury found plaintiff failed to pay the rent under the lease but that the failure did not harm defendants."
+    },
+    {
+     "label": "Landlord's Duty to Mitigate on the Cross-Complaint",
+     "claimant": "represented",
+     "strength": "favorable",
+     "supportedCeiling": null,
+     "result": "unclear",
+     "awarded": null,
+     "quote": ""
+    },
+    {
+     "label": "Rescission Based on Fraud / Unjust Enrichment",
+     "claimant": "represented",
+     "strength": "weak",
+     "supportedCeiling": null,
+     "result": "unclear",
+     "awarded": null,
+     "quote": ""
+    },
+    {
+     "label": "Breach of Implied Covenant of Good Faith and Fair Dealing",
+     "claimant": "represented",
+     "strength": "weak",
+     "supportedCeiling": null,
+     "result": "unclear",
+     "awarded": null,
+     "quote": ""
+    },
+    {
+     "label": "Unfair Business Practices (UCL) Claim",
+     "claimant": "represented",
+     "strength": "weak",
+     "supportedCeiling": null,
+     "result": "unclear",
+     "awarded": null,
+     "quote": ""
+    }
+   ],
+   "missing": [],
+   "notes": "Jury verdict $222,000 on premises liability/negligence reinstated (limitation-of-liability clause void under Civ. Code 1668 as applied; indemnity clause does not reach gross negligence); opinion states no result for rescission, implied covenant or UCL counts, nor why the cross-complaint caused no harm."
+  },
+  {
+   "id": "garmong-v-edgerock-development-2025",
+   "represented": "Contractor / Design Professional",
+   "finalAmount": 943042.64,
+   "issues": [
+    {
+     "label": "Garmong's Breach of Contract / Lien Foreclosure Claim (second lien, $1,009,055.62)",
+     "claimant": "represented",
+     "strength": "favorable",
+     "supportedCeiling": 1009055.62,
+     "result": "won",
+     "awarded": 943042.64,
+     "quote": "while EdgeRock's property is not subject to a construction lien for any of that amount, the property remains subject to a judgment lien for the entire amount based on Garmong's successful breach of contract claim against EdgeRock."
+    },
+    {
+     "label": "First Lien Already Satisfied ($2,140,722.51) — Background, Not Live Damages",
+     "claimant": "represented",
+     "strength": "conceded",
+     "supportedCeiling": null,
+     "result": "not_decided",
+     "awarded": null,
+     "quote": ""
+    },
+    {
+     "label": "Lien Priority vs. First Bank's Mortgage on Lots 4 and 5",
+     "claimant": "represented",
+     "strength": "favorable",
+     "supportedCeiling": null,
+     "result": "not_decided",
+     "awarded": null,
+     "quote": "Garmong's construction liens against EdgeRock's Lots 4 and 5 securing the $943,042.64 debt under the EdgeRock-Garmong contract are invalid"
+    },
+    {
+     "label": "ZPS's Double-Payment Defense (Lots 1 and 2)",
+     "claimant": "opposing",
+     "strength": "even",
+     "supportedCeiling": -1720000,
+     "result": "partial",
+     "awarded": null,
+     "quote": "The lien on ZPS's Lots 1 and 2 must therefore be reduced to $520,509.70, reflecting the building expenses to which ZPS consented and which directly benefited ZPS's property."
+    },
+    {
+     "label": "Fox Subcontractor Debt Owed by Garmong (Stipulated Setoff)",
+     "claimant": "opposing",
+     "strength": "conceded",
+     "supportedCeiling": -202623.56,
+     "result": "unclear",
+     "awarded": null,
+     "quote": "Garmong and Fox stipulated that this $500,053.42 debt was reduced to $202,623.56."
+    },
+    {
+     "label": "RIF Funds Interpleader ($938,322.40) — Not Garmong's Contract",
+     "claimant": "represented",
+     "strength": "weak",
+     "supportedCeiling": 938322.4,
+     "result": "not_decided",
+     "awarded": null,
+     "quote": "instructing the trial court to distribute the funds consistent with the outcome of related litigation in the Hamilton County Commercial Court"
+    },
+    {
+     "label": "Unquantified Counterclaims by EdgeRock, ZPS, and Fox",
+     "claimant": "opposing",
+     "strength": "even",
+     "supportedCeiling": null,
+     "result": "lost",
+     "awarded": null,
+     "quote": "the trial court did not err in granting Garmong's summary judgment motion (and denying EdgeRock's competing summary judgment motion) on EdgeRock's claim that it was entitled to a credit"
+    }
+   ],
+   "missing": [],
+   "notes": "In personam contract judgment $943,042.64 vs EdgeRock undisturbed (vs $1,009,055.62 lien figure); lien security cut (none on EdgeRock lots, $520,509.70 on ZPS lots; prejudgment interest vs ZPS struck); priority question moot for Garmong; RIF funds left to other litigation; opinion does not say the $202,623.56 Fox debt was set off against Garmong's award."
+  },
+  {
+   "id": "globe-contracting-v-hour-2025",
+   "represented": "Contractor / Design Professional",
+   "finalAmount": 61901.92,
+   "issues": [
+    {
+     "label": "Unpaid Progress Payments / Contract Balance",
+     "claimant": "represented",
+     "strength": "favorable",
+     "supportedCeiling": 61901.92,
+     "result": "won",
+     "awarded": 61901.92,
+     "quote": "the court determined that Globe's claimed damages were \"reasonable,\" awarded Globe $61,901.92 in damages"
+    },
+    {
+     "label": "Lien Foreclosure",
+     "claimant": "represented",
+     "strength": "favorable",
+     "supportedCeiling": null,
+     "result": "won",
+     "awarded": null,
+     "quote": "held that Globe was entitled to foreclose on the property based on its construction lien"
+    },
+    {
+     "label": "Hour's Delay/210-Day Termination Counterclaim",
+     "claimant": "opposing",
+     "strength": "weak",
+     "supportedCeiling": null,
+     "result": "lost",
+     "awarded": null,
+     "quote": "we also see no basis for reversing the district court's conclusion that, even if the 210-day provision could be interpreted as a material provision, Globe did not breach its obligations."
+    },
+    {
+     "label": "Hour's Defective Workmanship Counterclaim",
+     "claimant": "opposing",
+     "strength": "even",
+     "supportedCeiling": null,
+     "result": "lost",
+     "awarded": null,
+     "quote": "\"Hour never gave Globe the ability to correct any problems\" related to the allegedly defective work \"and therefore was not justified in withholding the progress payments\" on this basis."
+    },
+    {
+     "label": "Unlicensed/Unqualified Subcontractors Counterclaim",
+     "claimant": "opposing",
+     "strength": "unfavorable",
+     "supportedCeiling": null,
+     "result": "lost",
+     "awarded": null,
+     "quote": "Nor has he persuaded us that his obligation to pay the monthly progress payments was in any way \"mutually dependent\" on any unspoken understanding that the subcontractors would have active licenses"
+    },
+    {
+     "label": "Unpaid Subcontractors Counterclaim",
+     "claimant": "opposing",
+     "strength": "even",
+     "supportedCeiling": null,
+     "result": "lost",
+     "awarded": null,
+     "quote": "We therefore see no basis for concluding that, at the time that Hour stopped paying, Globe had already materially breached the contract by not paying any of the subcontractors."
+    },
+    {
+     "label": "Unjust Enrichment, Good Faith/Fair Dealing, and Intentional Interference (Globe's Alternative Theories)",
+     "claimant": "represented",
+     "strength": "unfavorable",
+     "supportedCeiling": null,
+     "result": "won",
+     "awarded": null,
+     "quote": "We affirm the district court's conclusion that Hour breached the contract, including the covenant of good faith and fair dealing, as well as the court's award of damages."
+    },
+    {
+     "label": "Prevailing-Party Attorney Fees",
+     "claimant": "represented",
+     "strength": "even",
+     "supportedCeiling": null,
+     "result": "not_decided",
+     "awarded": null,
+     "quote": "We vacate the court's awards of prejudgment interest, costs, and attorney fees to Globe, and we remand for further proceedings on these issues"
+    }
+   ],
+   "missing": [],
+   "notes": "Damages $61,901.92 affirmed with all four Hour counterclaim/justification theories rejected; within issue #6 only the good-faith claim is shown to have succeeded (unjust enrichment and interference results not stated); $98,531 fees, $108,798.14 interest and costs vacated and remanded."
+  },
+  {
+   "id": "griffith-v-hemphill-2022",
+   "represented": "Tenant",
+   "finalAmount": 19330,
+   "issues": [
+    {
+     "label": "Breach of Repair-and-Maintenance Covenant (Roof Failures)",
+     "claimant": "represented",
+     "strength": "strong",
+     "supportedCeiling": 17950,
+     "result": "won",
+     "awarded": 17950,
+     "quote": "the roof failure had forced Hemphill and Davis to incur $6,500 in costs to repair an exterior wall and $11,450 to paint and perform miscellaneous repairs."
+    },
+    {
+     "label": "Breach of Insurance Covenant",
+     "claimant": "represented",
+     "strength": "strong",
+     "supportedCeiling": 1415,
+     "result": "won",
+     "awarded": 1416,
+     "quote": "Hemphill and Davis could recover the $1,173 they paid for that insurance in 2016 and the $243 they paid in 2017."
+    },
+    {
+     "label": "Defense to Landlord's $25,000 Roof-Damage Claim",
+     "claimant": "opposing",
+     "strength": "weak",
+     "supportedCeiling": -25000,
+     "result": "lost",
+     "awarded": null,
+     "quote": "The court also determined that the lease required Griffith to maintain the property and that he was responsible for the repair costs associated with the 2016 roof failure."
+    },
+    {
+     "label": "Griffith's Oral Triple-Net-Lease / Fraud Theory",
+     "claimant": "opposing",
+     "strength": "weak",
+     "supportedCeiling": null,
+     "result": "lost",
+     "awarded": null,
+     "quote": "The court rejected Griffith's argument that an oral triple-net lease modified the written contract, reiterating its ruling on summary judgment that any oral agreement between the parties was unenforceable due to the statute of frauds."
+    },
+    {
+     "label": "Breach of Implied Covenant of Good Faith and Fair Dealing",
+     "claimant": "represented",
+     "strength": "favorable",
+     "supportedCeiling": null,
+     "result": "lost",
+     "awarded": null,
+     "quote": "Likewise, the court dismissed Hemphill and Davis's claim for breach of the covenant of good faith and fair dealing."
+    },
+    {
+     "label": "Unjust Enrichment (Alternative Theory)",
+     "claimant": "represented",
+     "strength": "even",
+     "supportedCeiling": null,
+     "result": "unclear",
+     "awarded": null,
+     "quote": ""
+    },
+    {
+     "label": "Failure to Honor Purchase Option",
+     "claimant": "represented",
+     "strength": "favorable",
+     "supportedCeiling": null,
+     "result": "lost",
+     "awarded": null,
+     "quote": "The court dismissed Hemphill and Davis's breach of contract claim involving the option to purchase, finding that they had not properly exercised the option."
+    },
+    {
+     "label": "FED/Eviction Claim",
+     "claimant": "represented",
+     "strength": "strong",
+     "supportedCeiling": null,
+     "result": "won",
+     "awarded": null,
+     "quote": "The court also dismissed Griffith's FED claim, explaining that Hemphill and Davis \"had a right to remain holdover tenants for a limited reasonable period of time\""
+    },
+    {
+     "label": "Rule 68 Offer of Judgment / Fee-Shifting Exposure",
+     "claimant": "represented",
+     "strength": "favorable",
+     "supportedCeiling": 20000,
+     "result": "won",
+     "awarded": 59604.75,
+     "quote": "The superior court did not err by awarding Hemphill and Davis attorney's fees under Rule 68 because Griffith did not beat their $20,000 offer of judgment."
+    }
+   ],
+   "missing": [
+    {
+     "label": "Statute of limitations limiting tenants' recovery to claims accruing within three years of the counterclaim",
+     "claimant": "opposing",
+     "result": "partial",
+     "awarded": null,
+     "quote": "the court limited damages to claims accruing within the three years prior to when Hemphill and Davis filed their counterclaims."
+    }
+   ],
+   "notes": "Damages found $19,366 ($17,950 roof-related plus $1,416 insurance) but judgment entered at $19,330 (discrepancy waived); tenants' $100,000+ counterclaim cut by limitations; option and good-faith claims dismissed; Griffith's $25,000 roof claim not expressly ruled on but he was held responsible for the roof failure."
+  },
+  {
+   "id": "hall-ca-nv-v-radovan-2022",
+   "represented": "Lender",
+   "finalAmount": 8610279.02,
+   "issues": [
+    {
+     "label": "Guaranty Enforcement -- Core Debt",
+     "claimant": "represented",
+     "strength": "strong",
+     "supportedCeiling": 8610279.02,
+     "result": "won",
+     "awarded": 8610279.02,
+     "quote": "We sustain Hall's first five appellate issues, reverse the trial court's judgment, and render judgment that Hall recover $8,610,279.02 plus post-judgment interest."
+    },
+    {
+     "label": "Unapplied FF&E and Fee-Reimbursement Credits",
+     "claimant": "opposing",
+     "strength": "favorable",
+     "supportedCeiling": -365021.62,
+     "result": "lost",
+     "awarded": null,
+     "quote": "the guaranties relieved Hall from seeking to satisfy its debt from the collateral."
+    },
+    {
+     "label": "Bankruptcy Exculpation Order Defense",
+     "claimant": "opposing",
+     "strength": "unfavorable",
+     "supportedCeiling": null,
+     "result": "lost",
+     "awarded": null,
+     "quote": "We conclude that Radovan and Criswell failed to present any evidence their guaranty agreements were released by the bankruptcy court."
+    },
+    {
+     "label": "Impaired Collateral / Failure to Mitigate (Penta Settlement)",
+     "claimant": "opposing",
+     "strength": "unfavorable",
+     "supportedCeiling": null,
+     "result": "lost",
+     "awarded": null,
+     "quote": "We conclude this broad language in the guaranty agreements waived the affirmative defenses raised by Radovan and Criswell."
+    },
+    {
+     "label": "Material Alteration / Guaranty Cap Argument",
+     "claimant": "opposing",
+     "strength": "weak",
+     "supportedCeiling": null,
+     "result": "lost",
+     "awarded": null,
+     "quote": "No evidence supported Radovan and Criswell's defense of material alteration; we set aside the trial court's findings and conclusions to the contrary."
+    },
+    {
+     "label": "Bankruptcy-Era Protective Advances (~$2M)",
+     "claimant": "represented",
+     "strength": "favorable",
+     "supportedCeiling": 2000000,
+     "result": "unclear",
+     "awarded": null,
+     "quote": ""
+    },
+    {
+     "label": "Attorney's Fees for Enforcement",
+     "claimant": "represented",
+     "strength": "favorable",
+     "supportedCeiling": null,
+     "result": "not_decided",
+     "awarded": null,
+     "quote": ""
+    }
+   ],
+   "missing": [
+    {
+     "label": "One-satisfaction rule / no-damages defense (Hall had recovered about $27.5M in the bankruptcy)",
+     "claimant": "opposing",
+     "result": "lost",
+     "awarded": null,
+     "quote": "Here, there is no evidence Hall recovered anything from Radovan and Criswell under their guaranty agreements."
+    }
+   ],
+   "notes": "Trial court's take-nothing judgment reversed and rendered for the proven balance $8,610,279.02 (principal $7,439,342.70 + interest + default interest); all guarantor defenses waived or unproven; the ~$2M bankruptcy-era advances appear only as an explanation for a balance discrepancy, and no attorney fee award is mentioned."
+  },
+  {
+   "id": "holcomb-dunbar-v-mad-hatter-2022",
+   "represented": "Landlord",
+   "finalAmount": 133900,
+   "issues": [
+    {
+     "label": "Pre-Notice Unpaid Rent (May-July 2017)",
+     "claimant": "represented",
+     "strength": "strong",
+     "supportedCeiling": 19500,
+     "result": "won",
+     "awarded": null,
+     "quote": "we affirm the Court of Appeals' decision that Holcomb Dunbar breached the lease and was properly awarded past due rent in the amount of $133,900."
+    },
+    {
+     "label": "Accelerated Rent, August 2017-December 2018",
+     "claimant": "represented",
+     "strength": "even",
+     "supportedCeiling": 130000,
+     "result": "won",
+     "awarded": null,
+     "quote": "The trial judge, without a jury trial, determined that Holcomb Dunbar was responsible for all twenty months of unpaid rent, plus late fees, for a total of $133,900."
+    },
+    {
+     "label": "Election-of-Remedies / Termination-Bar Defense",
+     "claimant": "opposing",
+     "strength": "even",
+     "supportedCeiling": null,
+     "result": "lost",
+     "awarded": null,
+     "quote": "Holcomb Dunbar's \"election of remedies\" affirmative defense argument was waived because it was not specifically pleaded in its answer."
+    },
+    {
+     "label": "Landlord's Duty to Mitigate / Reasonable Reletting Efforts",
+     "claimant": "opposing",
+     "strength": "even",
+     "supportedCeiling": null,
+     "result": "lost",
+     "awarded": null,
+     "quote": "we affirm the Court of Appeals' finding that Holcomb Dunbar's mitigation argument was waived due to it's failure to raise this issue prior to appeal."
+    },
+    {
+     "label": "Tenant's Counterclaim: Breach of Lease / Good Faith and Fair Dealing",
+     "claimant": "opposing",
+     "strength": "weak",
+     "supportedCeiling": null,
+     "result": "lost",
+     "awarded": null,
+     "quote": "Holcomb Dunbar's remaining counterclaims went to trial, and the jury found against it."
+    },
+    {
+     "label": "Ejectment / Possession",
+     "claimant": "represented",
+     "strength": "conceded",
+     "supportedCeiling": null,
+     "result": "not_decided",
+     "awarded": null,
+     "quote": ""
+    }
+   ],
+   "missing": [],
+   "notes": "Single $133,900 award (20 months May 2017-Dec 2018 at $6,500 plus late fees) not split between the pre-notice and later months; default letters did not terminate the lease; possession/ejectment not separately ruled on."
+  },
+  {
+   "id": "hrt-enterprises-v-detroit-2025",
+   "represented": "Property Owner",
+   "finalAmount": 1976820,
+   "issues": [
+    {
+     "label": "Just Compensation Valuation (Competing Appraisals)",
+     "claimant": "represented",
+     "strength": "conceded",
+     "supportedCeiling": 5000000,
+     "result": "partial",
+     "awarded": 1976820,
+     "quote": "The second jury awarded HRT $1,976,820 in just compensation."
+    },
+    {
+     "label": "Date of Taking (2009 vs. 2015)",
+     "claimant": "represented",
+     "strength": "favorable",
+     "supportedCeiling": null,
+     "result": "won",
+     "awarded": null,
+     "quote": "The jury found that the taking occurred on January 1, 2009, and awarded HRT $4.25 million in just compensation."
+    },
+    {
+     "label": "Core Liability for De Facto Taking",
+     "claimant": "represented",
+     "strength": "conceded",
+     "supportedCeiling": null,
+     "result": "won",
+     "awarded": null,
+     "quote": "The district court correctly concluded that the City's activities amounted to a taking."
+    },
+    {
+     "label": "Res Judicata / Collateral Estoppel from Prior State Suits",
+     "claimant": "represented",
+     "strength": "conceded",
+     "supportedCeiling": null,
+     "result": "won",
+     "awarded": null,
+     "quote": "But HRT brought a different claim to federal court, one that included new facts."
+    },
+    {
+     "label": "Prejudgment Interest and Section 1983 Attorney's Fees",
+     "claimant": "represented",
+     "strength": "conceded",
+     "supportedCeiling": null,
+     "result": "not_decided",
+     "awarded": null,
+     "quote": ""
+    }
+   ],
+   "missing": [
+    {
+     "label": "HRT cross-appeal to reinstate first $4.25M verdict / remittitur floor at Reed's $3,008,000",
+     "claimant": "represented",
+     "result": "lost",
+     "awarded": null,
+     "quote": "The district court also did not err in finding Reed's estimate to be \"inflated\""
+    }
+   ],
+   "notes": "Second-jury verdict $1,976,820 affirmed; owner's $3.0M-$5M valuations rejected on remittitur; opinion silent on interest/fees. Result rule: won = claimant got >=90% of its own demand/supported figure (or prevailed on a non-money issue); partial = prevailed but materially less; lost = rejected or award equals opponent's figure."
+  },
+  {
+   "id": "huntington-bank-v-limited-investment-group-2022",
+   "represented": "Lender",
+   "finalAmount": 1374413.88,
+   "issues": [
+    {
+     "label": "Cognovit Judgment / Note Balance Enforcement",
+     "claimant": "represented",
+     "strength": "strong",
+     "supportedCeiling": 521052.41,
+     "result": "won",
+     "awarded": 1374413.88,
+     "quote": "Huntington was \"entitled to recover the full amount of the Cognovit Note in the amount of $1,374,413.88 (interest per diem $97.69733).\""
+    },
+    {
+     "label": "Central Avenue Receivership Sale Proceeds",
+     "claimant": "represented",
+     "strength": "conceded",
+     "supportedCeiling": 109859.36,
+     "result": "won",
+     "awarded": null,
+     "quote": "court awarded judgment in Huntington's favor in each of the four actions before it."
+    },
+    {
+     "label": "Ownership/Application of First Fire Insurance Check ($139,861.82)",
+     "claimant": "opposing",
+     "strength": "favorable",
+     "supportedCeiling": -139861.82,
+     "result": "lost",
+     "awarded": null,
+     "quote": "Huntington, therefore, was entitled to the $139,861.82 in insurance proceeds, which it applied to reduce Limited's indebtedness."
+    },
+    {
+     "label": "Second State Auto Insurance Check / Creditor's Bill ($40,440.07)",
+     "claimant": "represented",
+     "strength": "favorable",
+     "supportedCeiling": 40440.07,
+     "result": "won",
+     "awarded": null,
+     "quote": "court awarded judgment in Huntington's favor in each of the four actions before it."
+    },
+    {
+     "label": "Limited's Breach of Contract Claim (Failure to Disburse Rehab Funds)",
+     "claimant": "opposing",
+     "strength": "weak",
+     "supportedCeiling": -365000,
+     "result": "lost",
+     "awarded": null,
+     "quote": "the manifest weight of the evidence supports the trial court's conclusion that Huntington did not breach the parties' agreement."
+    },
+    {
+     "label": "Limited's Fraud Claim",
+     "claimant": "opposing",
+     "strength": "weak",
+     "supportedCeiling": null,
+     "result": "lost",
+     "awarded": null,
+     "quote": "we conclude that the manifest weight of the evidence supports a ruling in Huntington's favor on the fraud claim."
+    },
+    {
+     "label": "Attorney's Fees and Accrued Interest/Late Charges",
+     "claimant": "represented",
+     "strength": "favorable",
+     "supportedCeiling": null,
+     "result": "won",
+     "awarded": 928593.73,
+     "quote": "Ultimately, the trial court awarded Huntington $928,593.73 in attorney's fees and expenses."
+    },
+    {
+     "label": "Receivership Appointments (Both Properties)",
+     "claimant": "represented",
+     "strength": "conceded",
+     "supportedCeiling": null,
+     "result": "won",
+     "awarded": null,
+     "quote": "The trial court appointed a receiver for the Allegheny property on February 26, 2012."
+    }
+   ],
+   "missing": [
+    {
+     "label": "Foreclosure of the Allegheny Open-End Mortgage (sale proceeds distributed)",
+     "claimant": "represented",
+     "result": "won",
+     "awarded": null,
+     "quote": "the trial court did not err in entering judgment in Huntington's favor on Huntington's action for foreclosure on the Allegheny mortgage"
+    },
+    {
+     "label": "Limited's conversion claim over the $139,861.82 insurance check",
+     "claimant": "opposing",
+     "result": "lost",
+     "awarded": null,
+     "quote": "Consequently, Limited cannot prevail on its conversion claim."
+    }
+   ],
+   "notes": "Full win affirmed; cognovit note recovery ($1,374,413.88) far exceeds the $521,052.41 2013 cognovit figure the model used, because interest/charges accrued; Central Ave and $40,440.07 check amounts not separately stated."
+  },
+  {
+   "id": "igcfco-iii-v-one-way-loans-2024",
+   "represented": "Lender",
+   "finalAmount": 5287812.0,
+   "issues": [
+    {
+     "label": "Deficiency Judgment Amount / Commercial Reasonableness of Sale",
+     "claimant": "represented",
+     "strength": "favorable",
+     "supportedCeiling": 18669999,
+     "result": "won",
+     "awarded": 5287812,
+     "quote": "The trial court ordered defendants to pay plaintiff $5,287,812 with an interest rate of 13%, with total interest to be capped at $500,000."
+    },
+    {
+     "label": "Rent/Income Offset Credit for Post-Possession Period",
+     "claimant": "represented",
+     "strength": "favorable",
+     "supportedCeiling": null,
+     "result": "won",
+     "awarded": null,
+     "quote": "The trial court thus did not err by finding that the deficiency judgment should not be offset based on rents received by plaintiff"
+    },
+    {
+     "label": "Guaranty Enforcement Against Watermark, Coffee Factory, and Gross",
+     "claimant": "represented",
+     "strength": "conceded",
+     "supportedCeiling": 16225000,
+     "result": "won",
+     "awarded": null,
+     "quote": "appeal as of right an order memorializing a final deficiency judgment against them and in favor of plaintiff, IGCFCO III, LLC."
+    },
+    {
+     "label": "Security Deposit Contempt Amounts",
+     "claimant": "represented",
+     "strength": "conceded",
+     "supportedCeiling": 30000,
+     "result": "won",
+     "awarded": 30000,
+     "quote": "The proceeds of the sale, along with the $30,000 debt and the $500,000 in unpaid interest created a deficiency of $5,287,812"
+    },
+    {
+     "label": "Attorney's Fees (Contempt Proceedings)",
+     "claimant": "represented",
+     "strength": "conceded",
+     "supportedCeiling": null,
+     "result": "won",
+     "awarded": 1623,
+     "quote": "an order was subsequently entered directing defendants to pay plaintiff $28,377 in security deposits and $1,623 in attorney fees."
+    },
+    {
+     "label": "Borrowers' Request for Limited Discovery on Commercial Reasonableness",
+     "claimant": "opposing",
+     "strength": "even",
+     "supportedCeiling": null,
+     "result": "lost",
+     "awarded": null,
+     "quote": "we thus conclude that the trial court did not abuse its discretion when it determined an evidentiary hearing was unnecessary."
+    }
+   ],
+   "missing": [],
+   "notes": "Deficiency judgment = exactly the amount requested; guaranty liability adds no separate dollars (same $5,287,812 judgment runs against guarantors); the $30,000 deposits/fees are inside that figure."
+  },
+  {
+   "id": "j-nazzaro-partnership-v-state-ny-2022",
+   "represented": "Property Owner",
+   "finalAmount": 113730,
+   "issues": [
+    {
+     "label": "Just Compensation for the Permanent Fee Taking (Before/After Value)",
+     "claimant": "represented",
+     "strength": "conceded",
+     "supportedCeiling": 3900000,
+     "result": "partial",
+     "awarded": 71000,
+     "quote": "The court therefore found that the claimant was entitled to $54,000 in damages for the NB portion of the property and $17,000 for the R-10 portion, for total direct damages of $71,000."
+    },
+    {
+     "label": "Highest and Best Use of R-10 Portion — Existing Parking vs. Deferred Residential Use",
+     "claimant": "represented",
+     "strength": "favorable",
+     "supportedCeiling": null,
+     "result": "lost",
+     "awarded": null,
+     "quote": "the Court of Claims properly rejected its proposed highest and best use of the property"
+    },
+    {
+     "label": "Speculative Nature of Proposed Two-Story Redevelopment",
+     "claimant": "opposing",
+     "strength": "unfavorable",
+     "supportedCeiling": null,
+     "result": "won",
+     "awarded": null,
+     "quote": "it failed to demonstrate that this was a physically or economically feasible use."
+    },
+    {
+     "label": "Undervaluation Risk in State's Appraisal — Ignoring Actual Lease Income",
+     "claimant": "represented",
+     "strength": "favorable",
+     "supportedCeiling": null,
+     "result": "partial",
+     "awarded": null,
+     "quote": "The Court of Claims rejected so much of the State's appraisal as reduced the value of the R-10 portion of the property by 80% due to the development restrictions"
+    },
+    {
+     "label": "Temporary Easement Compensation",
+     "claimant": "represented",
+     "strength": "conceded",
+     "supportedCeiling": null,
+     "result": "unclear",
+     "awarded": null,
+     "quote": "A judgment, which accounted for other damages not challenged on appeal, was entered in the principal sum of $113,730."
+    },
+    {
+     "label": "Consequential/Severance Damages from Parking Reconfiguration",
+     "claimant": "represented",
+     "strength": "even",
+     "supportedCeiling": null,
+     "result": "unclear",
+     "awarded": null,
+     "quote": "A judgment, which accounted for other damages not challenged on appeal, was entered in the principal sum of $113,730."
+    }
+   ],
+   "missing": [],
+   "notes": "Court adopted State's appraisal except its 80% R-10 discount; $42,730 of the $113,730 judgment is 'other damages' not itemized (may be temporary easement/consequential), so those two issues are unclear; lease-income argument not addressed."
+  },
+  {
+   "id": "jack-v-eldorado-casino-2019",
+   "represented": "Injured Party / Claimant",
+   "finalAmount": 1429928.7,
+   "issues": [
+    {
+     "label": "Vicarious Liability for Server's Negligence / Third-Party Fault Defense",
+     "claimant": "represented",
+     "strength": "favorable",
+     "supportedCeiling": null,
+     "result": "won",
+     "awarded": null,
+     "quote": "Its finding that Eldorado was 100% at fault for the injuries sustained by Jack, and that the unknown patron was not, is reasonable in light of the record reviewed in its entirety."
+    },
+    {
+     "label": "Comparative/Third-Party Fault Defense (Unknown Patron)",
+     "claimant": "opposing",
+     "strength": "weak",
+     "supportedCeiling": null,
+     "result": "lost",
+     "awarded": null,
+     "quote": "The jury assessed 100% of the fault to Ramone"
+    },
+    {
+     "label": "Collateral Source Rule / Medical Expense Evidentiary Ruling",
+     "claimant": "represented",
+     "strength": "conceded",
+     "supportedCeiling": null,
+     "result": "won",
+     "awarded": null,
+     "quote": "The trial court denied Eldorado's motion, holding the collateral source rule does apply to write-offs negotiated by Jack's private insurance provider"
+    },
+    {
+     "label": "Past Lost Wages",
+     "claimant": "represented",
+     "strength": "strong",
+     "supportedCeiling": 63360,
+     "result": "partial",
+     "awarded": 51646,
+     "quote": "Past lost wages . . . . . . . . . . . . . . . . . .     51,646.00"
+    },
+    {
+     "label": "Future Loss of Earning Capacity",
+     "claimant": "represented",
+     "strength": "favorable",
+     "supportedCeiling": 692802,
+     "result": "partial",
+     "awarded": 317460,
+     "quote": "We further note that the jury's award was less than half of the amount of Dr. Stokes' highest estimation of Jack's future lost earnings."
+    },
+    {
+     "label": "General Damages (Pain, Suffering, Permanent Disability)",
+     "claimant": "represented",
+     "strength": "strong",
+     "supportedCeiling": null,
+     "result": "won",
+     "awarded": 245000,
+     "quote": "Past physical pain and suffering . . . . . 40,000.00"
+    },
+    {
+     "label": "Failure to Mitigate Damages",
+     "claimant": "opposing",
+     "strength": "unfavorable",
+     "supportedCeiling": null,
+     "result": "lost",
+     "awarded": null,
+     "quote": "There was no testimony showing Jack could return to unrestricted, full-time work without the necessity of accommodations"
+    }
+   ],
+   "missing": [
+    {
+     "label": "Past medical expenses",
+     "claimant": "represented",
+     "result": "won",
+     "awarded": 237124.79,
+     "quote": "Past medical expenses . . . . . . . . . . . .  $237,124.79"
+    },
+    {
+     "label": "Future medical expenses",
+     "claimant": "represented",
+     "result": "won",
+     "awarded": 577698,
+     "quote": "Future medical expenses . . . . . . . . . .    577,698.00"
+    },
+    {
+     "label": "Scarring",
+     "claimant": "represented",
+     "result": "won",
+     "awarded": 1000,
+     "quote": "Scarring . . . . . . . . . . . . . . . . . . . . . . . .      1,000.00"
+    }
+   ],
+   "notes": "Medical expenses ($814,822.79, 57% of the judgment) were never predicted as issues; general damages = $245,000 across six pain/mental/enjoyment lines (disability $0); mitigation defense coded from the rejected 'could return to work with accommodations' argument (word 'mitigate' not used)."
+  },
+  {
+   "id": "kks-properties-slingerlands-bypass-2020",
+   "represented": "Property Owner",
+   "finalAmount": 744500,
+   "issues": [
+    {
+     "label": "Pre-appropriation value of the whole 31.77-acre property",
+     "claimant": "represented",
+     "strength": "even",
+     "supportedCeiling": 2224065,
+     "result": "partial",
+     "awarded": null,
+     "quote": "the court ultimately calculated a preappropriation value for the property of $52,339 per acre, for a total preappropriation value of $1,662,810."
+    },
+    {
+     "label": "Direct damages for the 9.5-acre strip physically taken",
+     "claimant": "represented",
+     "strength": "conceded",
+     "supportedCeiling": 874000,
+     "result": "partial",
+     "awarded": null,
+     "quote": "the Court of Claims awarded claimant $744,500 in direct and consequential damages."
+    },
+    {
+     "label": "Consequential/severance damage to the 18.464-acre western parcel",
+     "claimant": "represented",
+     "strength": "even",
+     "supportedCeiling": 830879.9999999999,
+     "result": "partial",
+     "awarded": null,
+     "quote": "claimant argued that petitioner's appropriation rendered the western parcel surplus land or acreage such that it was unsuitable for any development in line with its highest and best use; however, it failed to establish that such was the case."
+    },
+    {
+     "label": "Collateral estoppel: western parcel not legally landlocked",
+     "claimant": "opposing",
+     "strength": "conceded",
+     "supportedCeiling": null,
+     "result": "won",
+     "awarded": null,
+     "quote": "finding that claimant was collaterally estopped from litigating whether the western parcel was landlocked"
+    },
+    {
+     "label": "Retrial risk from prior reversal for lack of competent valuation proof",
+     "claimant": "opposing",
+     "strength": "unfavorable",
+     "supportedCeiling": null,
+     "result": "not_decided",
+     "awarded": null,
+     "quote": ""
+    },
+    {
+     "label": "Agreed highest and best use (mixed-use office/retail/residential)",
+     "claimant": "represented",
+     "strength": "conceded",
+     "supportedCeiling": null,
+     "result": "won",
+     "awarded": null,
+     "quote": "The parties agree that the highest and best use of the property prior to the appropriation was mixed used development"
+    }
+   ],
+   "missing": [],
+   "notes": "Award $744,500 combines direct and consequential damages without a split, so issues 1-2 coded partial with awarded null; court credited the State's appraiser with its own adjustments."
+  },
+  {
+   "id": "lcra-st-louis-v-osher-2020",
+   "represented": "Property Owner",
+   "finalAmount": 573000,
+   "issues": [
+    {
+     "label": "Just Compensation / Fair Market Value at Date of Taking",
+     "claimant": "represented",
+     "strength": "conceded",
+     "supportedCeiling": 4930000,
+     "result": "lost",
+     "awarded": 573000,
+     "quote": "The jury returned a verdict awarding Appellant $573,000, the value suggested by LCRA"
+    },
+    {
+     "label": "Reliability of 2011 Sale as Comparable (Tax-Credit-Tainted Sale-Leaseback)",
+     "claimant": "opposing",
+     "strength": "favorable",
+     "supportedCeiling": null,
+     "result": "won",
+     "awarded": null,
+     "quote": "The evidence demonstrated a pattern of activity that is corroborative of LCRA's position that the 2011 Sale of the Property did not represent an accurate valuation"
+    },
+    {
+     "label": "Post-Taking Condition Evidence Improperly Depressing Value",
+     "claimant": "represented",
+     "strength": "favorable",
+     "supportedCeiling": null,
+     "result": "lost",
+     "awarded": null,
+     "quote": "Having done so, he is in no position to object to the admission of LCRA's photographs taken after the taking."
+    },
+    {
+     "label": "Exclusion of Appellant's Photographic/Experience Evidence",
+     "claimant": "represented",
+     "strength": "favorable",
+     "supportedCeiling": null,
+     "result": "lost",
+     "awarded": null,
+     "quote": "the photographs in question were cumulative at best and their exclusion was within the discretion of the trial court."
+    },
+    {
+     "label": "Exclusion of AT&T Settlement Testimony / Related Setoff",
+     "claimant": "represented",
+     "strength": "even",
+     "supportedCeiling": 65000,
+     "result": "lost",
+     "awarded": null,
+     "quote": "Because section 523.053(4) mandates evidence of other interests in the proceeds of the award be excluded in a jury trial on exceptions, we cannot find the circuit court abused its discretion."
+    },
+    {
+     "label": "Statutory Interest on the Award From Date of Taking",
+     "claimant": "represented",
+     "strength": "strong",
+     "supportedCeiling": null,
+     "result": "not_decided",
+     "awarded": null,
+     "quote": ""
+    }
+   ],
+   "missing": [
+    {
+     "label": "Homestead allowance under section 523.039",
+     "claimant": "represented",
+     "result": "lost",
+     "awarded": null,
+     "quote": "the circuit court denied Appellant's request for a homestead allowance"
+    },
+    {
+     "label": "Costs taxed against the owner",
+     "claimant": "opposing",
+     "result": "won",
+     "awarded": 21207.13,
+     "quote": "The circuit court ordered Appellant to pay costs in the amount of $21,207.13."
+    }
+   ],
+   "notes": "Jury adopted the condemnor's $573,000 exactly (below the $817,589.59 commissioners' award); every owner point on appeal denied; post-verdict AT&T apportionment never decided in the opinion."
+  },
+  {
+   "id": "piedmont-gas-v-blueroad-fontanel-2026",
+   "represented": "Property Owner",
+   "finalAmount": 13896800,
+   "issues": [
+    {
+     "label": "Before-Taking Fair Market Value of the Property",
+     "claimant": "represented",
+     "strength": "even",
+     "supportedCeiling": 11792800,
+     "result": "won",
+     "awarded": null,
+     "quote": "This amount was based upon the jury's findings regarding the fair market value of the property: $25,500,000 before the taking, and $11,603,200 after the taking."
+    },
+    {
+     "label": "Direct Damages for the Taken Right-of-Way",
+     "claimant": "represented",
+     "strength": "strong",
+     "supportedCeiling": null,
+     "result": "unclear",
+     "awarded": null,
+     "quote": "As to the land used for the easement itself, the right-of-way, Mr. Turner opined that the direct damages were $98,700."
+    },
+    {
+     "label": "Severance/Incidental Damages From Loss of Access to the Remainder",
+     "claimant": "represented",
+     "strength": "favorable",
+     "supportedCeiling": 11500000,
+     "result": "won",
+     "awarded": 13896800,
+     "quote": "The jury determined that BlueRoad suffered incidental damages from the taking in the amount of $13,896,800."
+    },
+    {
+     "label": "Piedmont's Distressed/Forced-Sale Causation Defense",
+     "claimant": "opposing",
+     "strength": "favorable",
+     "supportedCeiling": null,
+     "result": "lost",
+     "awarded": null,
+     "quote": "We find no basis for overturning the jury verdict."
+    },
+    {
+     "label": "Admissibility of BlueRoad's Appraisal Expert (Gibson)",
+     "claimant": "represented",
+     "strength": "conceded",
+     "supportedCeiling": null,
+     "result": "won",
+     "awarded": null,
+     "quote": "We agree with the trial court that Piedmont's objections regarding Mr. Gibson's testimony go \"to the weight to be given by a jury, not [the] admissibility of his testimony as an appraiser.\""
+    },
+    {
+     "label": "Statutory Deposit Credit",
+     "claimant": "opposing",
+     "strength": "conceded",
+     "supportedCeiling": -48700,
+     "result": "won",
+     "awarded": 98700,
+     "quote": "The court entered a final judgment in the amount of $13,798,100 (reflecting the subtraction of the $98,700 originally tendered by Piedmont with the court from the total incidental damages found by the jury)."
+    }
+   ],
+   "missing": [
+    {
+     "label": "Discretionary costs",
+     "claimant": "represented",
+     "result": "won",
+     "awarded": 14203,
+     "quote": "The trial court awarded Fontanel $14,203 in discretionary costs."
+    }
+   ],
+   "notes": "Model's before-value figure was Piedmont's $11,792,800; jury used BlueRoad's $25.5M. Deposit credit was $98,700 per the judgment (opinion elsewhere says $48,700 deposited). Forced-sale defense not separately discussed; coded lost from the verdict."
+  },
+  {
+   "id": "pryority-v-amt-properties-2021",
+   "represented": "Tenant",
+   "finalAmount": 193006.35,
+   "issues": [
+    {
+     "label": "Breach of Express Roof-Repair/Suitability Covenant (Exhibit A)",
+     "claimant": "represented",
+     "strength": "strong",
+     "supportedCeiling": 193006.35,
+     "result": "won",
+     "awarded": 193006.35,
+     "quote": "the court awarded to AMT $193,006.35 in compensatory damages for rent, repairs, and other expenses incurred."
+    },
+    {
+     "label": "Constructive Eviction (Defense to Rent Claim)",
+     "claimant": "represented",
+     "strength": "strong",
+     "supportedCeiling": null,
+     "result": "won",
+     "awarded": null,
+     "quote": "AMT had been constructively evicted by reason of Pryority's failure to repair the roof."
+    },
+    {
+     "label": "Pryority's Unpaid Rent Claim",
+     "claimant": "opposing",
+     "strength": "weak",
+     "supportedCeiling": null,
+     "result": "lost",
+     "awarded": null,
+     "quote": "In this action involving a commercial lease, the trial court granted judgment in favor of the lessee, determining that the lessor had materially breached the lease."
+    },
+    {
+     "label": "Negligent Misrepresentation (Roof Repair Timeline)",
+     "claimant": "represented",
+     "strength": "favorable",
+     "supportedCeiling": null,
+     "result": "won",
+     "awarded": null,
+     "quote": "trial court properly determined that Pryority engaged in negligent misrepresentation"
+    },
+    {
+     "label": "Tennessee Consumer Protection Act Claim",
+     "claimant": "represented",
+     "strength": "unfavorable",
+     "supportedCeiling": null,
+     "result": "lost",
+     "awarded": null,
+     "quote": "the trial court entered an order specifically denying AMT's claim under the TCPA."
+    },
+    {
+     "label": "Personal Guaranty Exposure (David Crick)",
+     "claimant": "represented",
+     "strength": "favorable",
+     "supportedCeiling": null,
+     "result": "won",
+     "awarded": null,
+     "quote": "In this action involving a commercial lease, the trial court granted judgment in favor of the lessee, determining that the lessor had materially breached the lease."
+    },
+    {
+     "label": "Prevailing-Party Attorney's Fees (Section 28)",
+     "claimant": "represented",
+     "strength": "favorable",
+     "supportedCeiling": null,
+     "result": "won",
+     "awarded": 69002.68,
+     "quote": "The court also awarded to AMT attorney's fees and expenses, pursuant to the Lease's terms, in the amount of $69,002.68."
+    }
+   ],
+   "missing": [],
+   "notes": "Tenant won everything but TCPA; affirmed in its entirety; appellate fees waived."
+  },
+  {
+   "id": "quantum-concrete-v-plaza-de-kaza-2023",
+   "represented": "Contractor / Design Professional",
+   "finalAmount": 24179.35,
+   "issues": [
+    {
+     "label": "Breach of Contract — Unpaid Final Invoice",
+     "claimant": "represented",
+     "strength": "favorable",
+     "supportedCeiling": 24179.35,
+     "result": "won",
+     "awarded": 24179.35,
+     "quote": "The trial court found that the appropriate damages against Dykstra was the amount of the last invoice, $24,179.35, with no setoffs."
+    },
+    {
+     "label": "Unjust Enrichment (Alternative Theory)",
+     "claimant": "represented",
+     "strength": "favorable",
+     "supportedCeiling": null,
+     "result": "won",
+     "awarded": 24179.35,
+     "quote": "it concluded that Plaza de Kaza was unjustly enriched by the amount of the last invoice as well."
+    },
+    {
+     "label": "Counterclaim — Defective Traffic-Circle Curbing",
+     "claimant": "opposing",
+     "strength": "unfavorable",
+     "supportedCeiling": null,
+     "result": "lost",
+     "awarded": null,
+     "quote": "The trial court rejected Plaza de Kaza's claim that it had a contract with Quantum or that Quantum was unjustly enriched by Plaza de Kaza."
+    },
+    {
+     "label": "Acceptance/Waiver via the November 12 Meeting",
+     "claimant": "represented",
+     "strength": "favorable",
+     "supportedCeiling": null,
+     "result": "won",
+     "awarded": null,
+     "quote": "the court found that Plaza de Kaza agreed to the plan to rectify the earlier pour and should not be allowed to fault Quantum."
+    },
+    {
+     "label": "Third-Party Causation — Excavator's Basin Placement",
+     "claimant": "represented",
+     "strength": "favorable",
+     "supportedCeiling": null,
+     "result": "won",
+     "awarded": null,
+     "quote": "the defects remaining after the second pour of the traffic circle were the result of the misplacement of the catch basins and drain tops, which were the responsibility of the excavator, not Quantum."
+    },
+    {
+     "label": "Agency — Dykstra vs. Plaza de Kaza as True Obligor",
+     "claimant": "represented",
+     "strength": "even",
+     "supportedCeiling": null,
+     "result": "won",
+     "awarded": null,
+     "quote": "The court found that Dykstra entered into an agreement with Quantum to perform the improvements to Plaza de Kaza's parking lot."
+    }
+   ],
+   "missing": [],
+   "notes": "Single $24,179.35 judgment against both defendants (contract vs Dykstra, unjust enrichment vs Plaza); Quantum's lien foreclosure and fee-sanction requests lost but did not change the figure."
+  },
+  {
+   "id": "slyce-v-metropolitan-square-plaza-2025",
+   "represented": "Landlord",
+   "finalAmount": 824421.64,
+   "issues": [
+    {
+     "label": "Unpaid Rent, Taxes and Utilities",
+     "claimant": "represented",
+     "strength": "strong",
+     "supportedCeiling": 365255,
+     "result": "won",
+     "awarded": 365255.76,
+     "quote": "the court also found that Metro had proven $365,255.76 in damages for \"lost rent, taxes, and utilities to date.\""
+    },
+    {
+     "label": "Lump-Sum Liquidated Damages (Section 13.2)",
+     "claimant": "represented",
+     "strength": "favorable",
+     "supportedCeiling": 327626,
+     "result": "won",
+     "awarded": 327626.48,
+     "quote": "We find that section 13.2 was enforceable."
+    },
+    {
+     "label": "Construction/Build-Out Cost Recovery",
+     "claimant": "represented",
+     "strength": "even",
+     "supportedCeiling": 135113.88,
+     "result": "partial",
+     "awarded": 111910.38,
+     "quote": "the court found Metro proved it paid $111,910.38 in construction expenses related to breach of the lease."
+    },
+    {
+     "label": "Brokerage Commission for Reletting",
+     "claimant": "represented",
+     "strength": "unfavorable",
+     "supportedCeiling": 28000,
+     "result": "lost",
+     "awarded": null,
+     "quote": "For this reason, we reverse the portion of the court's order that awarded damages for $28,000 in broker's fees."
+    },
+    {
+     "label": "Attorney's Fees Under the Lease",
+     "claimant": "represented",
+     "strength": "favorable",
+     "supportedCeiling": null,
+     "result": "unclear",
+     "awarded": null,
+     "quote": "insofar as Slyce appeals the November 16, 2022, award of Metro's attorney fees and costs, we reverse and remand for the trial court to conduct an evidentiary hearing on the fee petition."
+    },
+    {
+     "label": "Guarantors' Personal Liability",
+     "claimant": "represented",
+     "strength": "strong",
+     "supportedCeiling": null,
+     "result": "won",
+     "awarded": null,
+     "quote": "In turn, Laurie and Brittany are also jointly liable as guarantors of the lease."
+    },
+    {
+     "label": "Slyce's Breach of Contract Claim (Failure to Coordinate)",
+     "claimant": "opposing",
+     "strength": "weak",
+     "supportedCeiling": null,
+     "result": "lost",
+     "awarded": null,
+     "quote": "We affirm the trial court's finding that Slyce was liable for breach of the lease under Metro's counterclaim."
+    },
+    {
+     "label": "Slyce's Unjust Enrichment Claim",
+     "claimant": "opposing",
+     "strength": "weak",
+     "supportedCeiling": null,
+     "result": "lost",
+     "awarded": null,
+     "quote": "The trial court found the unjust enrichment claim (count II) failed as a matter of law because a contract governed the parties' relationship."
+    },
+    {
+     "label": "Liquidated Damages as Unenforceable Penalty (Slyce's Defense)",
+     "claimant": "opposing",
+     "strength": "unfavorable",
+     "supportedCeiling": null,
+     "result": "lost",
+     "awarded": null,
+     "quote": "In other words, we decline to find that this clause was an unenforceable penalty."
+    }
+   ],
+   "missing": [
+    {
+     "label": "Prejudgment interest",
+     "claimant": "represented",
+     "result": "won",
+     "awarded": 19629.02,
+     "quote": "interest in the amount of $19,629.02."
+    }
+   ],
+   "notes": "Final $824,421.64 after brokerage reversal; construction costs awarded at 83% of the $135,113.88 claimed; $202,034.79 fee award vacated and remanded (final fee amount unknown)."
+  },
+  {
+   "id": "stark-v-mccarthy-corp-2021",
+   "represented": "Owner / Developer",
+   "finalAmount": 85861.29,
+   "issues": [
+    {
+     "label": "McCarthy's lien foreclosure / breach of contract claim for unpaid invoices",
+     "claimant": "opposing",
+     "strength": "weak",
+     "supportedCeiling": -226031.7,
+     "result": "lost",
+     "awarded": null,
+     "quote": "Therefore, we affirm the district court's conclusion that McCarthy failed to meet its burden that it was owed any monies."
+    },
+    {
+     "label": "Stark's slander of title / wrongful lien counterclaim",
+     "claimant": "represented",
+     "strength": "favorable",
+     "supportedCeiling": 7596.7,
+     "result": "lost",
+     "awarded": null,
+     "quote": "the district court denied Stark's counterclaim for slander of title."
+    },
+    {
+     "label": "Opportunity cost on forced collateral deposit",
+     "claimant": "represented",
+     "strength": "favorable",
+     "supportedCeiling": null,
+     "result": "won",
+     "awarded": 26503.76,
+     "quote": "The district court calculated that Stark missed the opportunity to earn $26,503.76 in interest because of McCarthy's lien."
+    },
+    {
+     "label": "Unauthorized change order defense (Swartout Pit material)",
+     "claimant": "represented",
+     "strength": "strong",
+     "supportedCeiling": null,
+     "result": "won",
+     "awarded": null,
+     "quote": "\"The only fact that is clear to the [district] [c]ourt is that there was no change order approved, or even requested, as to the import and use of the materials from the Swartout Pit.\""
+    },
+    {
+     "label": "Unlicensed subcontractor defense (Basin Industrial Services)",
+     "claimant": "represented",
+     "strength": "favorable",
+     "supportedCeiling": null,
+     "result": "not_decided",
+     "awarded": null,
+     "quote": ""
+    },
+    {
+     "label": "Breach of implied covenant of good faith and fair dealing",
+     "claimant": "represented",
+     "strength": "favorable",
+     "supportedCeiling": null,
+     "result": "won",
+     "awarded": null,
+     "quote": "the district court determined that McCarthy breached the implied covenant of good faith and fair dealing in three ways"
+    },
+    {
+     "label": "Idaho Consumer Protection Act claim",
+     "claimant": "represented",
+     "strength": "weak",
+     "supportedCeiling": null,
+     "result": "won",
+     "awarded": 34100.46,
+     "quote": "Therefore, the district court awarded Stark a total of $34,100.46 in damages under the ICPA."
+    },
+    {
+     "label": "Attorney fee exposure under Idaho Code § 12-120(3)",
+     "claimant": "opposing",
+     "strength": "even",
+     "supportedCeiling": null,
+     "result": "lost",
+     "awarded": null,
+     "quote": "The district court awarded Stark $129,434.00 in attorney fees and $4,535.33 in costs."
+    }
+   ],
+   "missing": [
+    {
+     "label": "Stark breach-of-contract counterclaim: excess completion cost ($202,090.81 less $150,329.98 unpaid balance)",
+     "claimant": "represented",
+     "result": "won",
+     "awarded": 51760.83,
+     "quote": "because the Project was completed at an additional $51,760.83, Stark was entitled to a judgment in that amount."
+    },
+    {
+     "label": "Stark's own attorney fees and costs (trial and appeal)",
+     "claimant": "represented",
+     "result": "won",
+     "awarded": 129434,
+     "quote": "The district court awarded Stark $129,434.00 in attorney fees and $4,535.33 in costs."
+    }
+   ],
+   "notes": "Slander of title lost but its $7,596.70 of bank/loan costs were recovered inside the $34,100.46 ICPA award; the $51,760.83 completion-cost contract claim that drove 60% of the result was never predicted; unlicensed-sub defense never reached."
+  },
+  {
+   "id": "state-v-skyway-holdings-2021",
+   "represented": "Property Owner",
+   "finalAmount": 508548,
+   "issues": [
+    {
+     "label": "Just Compensation Valuation (Part Taken + Remainder Damages)",
+     "claimant": "represented",
+     "strength": "conceded",
+     "supportedCeiling": 1000000,
+     "result": "won",
+     "awarded": 508548,
+     "quote": "The amount of damages the jury awarded equaled the amount of damages Korman calculated for compensation"
+    },
+    {
+     "label": "Reliability of Korman's Depreciation Methodology (Rule 702)",
+     "claimant": "represented",
+     "strength": "favorable",
+     "supportedCeiling": null,
+     "result": "won",
+     "awarded": null,
+     "quote": "the trial court did not abuse its discretion in allowing Korman's expert testimony that applied the depreciation percentage to all the improvements on the land."
+    },
+    {
+     "label": "Property Owner Rule Testimony (Harold Anderson)",
+     "claimant": "represented",
+     "strength": "conceded",
+     "supportedCeiling": null,
+     "result": "won",
+     "awarded": null,
+     "quote": "The State moved to exclude their opinions on various grounds, which the trial court denied after a Texas Rule of Evidence 702 gatekeeper hearing."
+    },
+    {
+     "label": "Exclusion of Post-Taking Business Revenue Evidence",
+     "claimant": "represented",
+     "strength": "conceded",
+     "supportedCeiling": null,
+     "result": "won",
+     "awarded": null,
+     "quote": "we conclude that the exclusion of additional rebuttal testimony regarding increased business"
+    },
+    {
+     "label": "Recovery of Costs (and Possible Fees) as Prevailing Condemnee",
+     "claimant": "represented",
+     "strength": "favorable",
+     "supportedCeiling": null,
+     "result": "not_decided",
+     "awarded": null,
+     "quote": ""
+    }
+   ],
+   "missing": [],
+   "notes": "Verdict = owners' expert Korman's $508,548, the low end of the owners' $508,548-$1M request (coded won; it is 51% of the model's $1M ceiling); appeals court did not reach the owner-testimony challenge, trial ruling stands."
+  },
+  {
+   "id": "wheeler-reit-khoshaba-2024",
+   "represented": "Shareholder / Plaintiff Class",
+   "finalAmount": 7125000,
+   "issues": [
+    {
+     "label": "Breach of Fiduciary Duty - Self-Dealing by Conflicted Insiders (Count I)",
+     "claimant": "represented",
+     "strength": "favorable",
+     "supportedCeiling": 2842725,
+     "result": "not_decided",
+     "awarded": null,
+     "quote": "the Court DISMISSES the derivative claims alleged in Counts I and II with prejudice"
+    },
+    {
+     "label": "Business Judgment Rule / Charter Exculpation Defense",
+     "claimant": "opposing",
+     "strength": "even",
+     "supportedCeiling": null,
+     "result": "lost",
+     "awarded": null,
+     "quote": "to the extent the Individual Defendants seek dismissal of Count I's remaining direct claims based on purported business judgment rule protections. their motion to dismiss is denied on this ground."
+    },
+    {
+     "label": "Direct vs. Derivative Standing Bar",
+     "claimant": "opposing",
+     "strength": "unfavorable",
+     "supportedCeiling": null,
+     "result": "lost",
+     "awarded": null,
+     "quote": "the Individual Defendants have not carried their burden to demonstrate that Count I fails to state a direct claim."
+    },
+    {
+     "label": "Aiding and Abetting Breach of Fiduciary Duty (Stilwell Fund Defendants, Count II)",
+     "claimant": "represented",
+     "strength": "favorable",
+     "supportedCeiling": 25000000,
+     "result": "not_decided",
+     "awarded": null,
+     "quote": "the Court finds that the Stilwell Fund Defendants have not carried their burden to demonstrate that dismissal is warranted and therefore denies their motion to dismiss the direct claims advanced in Count II."
+    },
+    {
+     "label": "Unjust Enrichment - Diversion of $7 Million LP Investment (Count III, derivative theory)",
+     "claimant": "represented",
+     "strength": "even",
+     "supportedCeiling": 7000000,
+     "result": "lost",
+     "awarded": null,
+     "quote": "and DISMISSES Count III in its entirety with prejudice."
+    },
+    {
+     "label": "Unjust Enrichment - Benefit-Conferred-by-Plaintiff Defense",
+     "claimant": "opposing",
+     "strength": "even",
+     "supportedCeiling": null,
+     "result": "won",
+     "awarded": null,
+     "quote": "Plaintiff has not alleged that he personally (or the putative class) conferred a benefit on the Fund Defendants"
+    }
+   ],
+   "missing": [
+    {
+     "label": "Global class settlement releasing all claims (from outcome record, not the opinion)",
+     "claimant": "represented",
+     "result": "won",
+     "awarded": 7125000,
+     "quote": ""
+    }
+   ],
+   "notes": "Opinion is only the Sept 2024 motion-to-dismiss ruling; surviving direct Counts I-II were resolved by the $7.125M settlement, so their merits were never decided; BJR and direct-vs-derivative defenses were rejected only at the pleading stage."
+  },
+  {
+   "id": "williams-alaska-flint-hills-2023",
+   "represented": "Property Owner / PRP",
+   "finalAmount": 52500000,
+   "issues": [],
+   "missing": [
+    {
+     "label": "Flint Hills statutory contribution under AS 46.03.822(j) for offsite sulfolane response costs",
+     "claimant": "opposing",
+     "result": "won",
+     "awarded": 51400000,
+     "quote": "The court awarded $51.4 million for offsite sulfolane and $1.17 million for onsite PFAS contamination, plus prejudgment interest on both."
+    },
+    {
+     "label": "Flint Hills contribution for onsite PFAS contamination",
+     "claimant": "opposing",
+     "result": "won",
+     "awarded": 1170000,
+     "quote": "The court awarded $51.4 million for offsite sulfolane and $1.17 million for onsite PFAS contamination, plus prejudgment interest on both."
+    },
+    {
+     "label": "Purchase Agreement $32 million Environmental Cap as a limit on the award (Williams defense)",
+     "claimant": "represented",
+     "result": "lost",
+     "awarded": null,
+     "quote": "We agree with the superior court that, because Flint Hills cannot pursue indemnification under the Purchase Agreement, the Environmental Cap does not apply."
+    },
+    {
+     "label": "Indemnification as exclusive remedy barring statutory contribution (Williams defense)",
+     "claimant": "represented",
+     "result": "lost",
+     "awarded": null,
+     "quote": "contribution should be barred by the Purchase Agreement.  We disagree."
+    },
+    {
+     "label": "Flint Hills contractual indemnity claim",
+     "claimant": "opposing",
+     "result": "lost",
+     "awarded": null,
+     "quote": "No party disputes the court's determination that Flint Hills was barred from pursuing contractual indemnity."
+    },
+    {
+     "label": "Equitable allocation of offsite response costs (Williams sought shares assigned to Flint Hills, the State, the City)",
+     "claimant": "represented",
+     "result": "partial",
+     "awarded": null,
+     "quote": "the court determined that Williams was required to contribute $52.5 million to Flint Hills's offsite response costs, reflecting its equitable allocation of 75% of costs to Williams."
+    }
+   ],
+   "notes": "No issues were predicted (v4.3 returned an empty issues list and a $0 range); every driver of the $52.5M contribution award is listed as missing; future-cost shares, prejudgment interest and the State's separate award are excluded from finalAmount."
+  },
+  {
+   "id": "windsor-tower-v-speedy-maintenance-2024",
+   "represented": "Owner / Developer",
+   "finalAmount": 48260.0,
+   "issues": [
+    {
+     "label": "Windsor's Overpayment / Breach Counterclaim",
+     "claimant": "represented",
+     "strength": "favorable",
+     "supportedCeiling": 44300,
+     "result": "won",
+     "awarded": 44300,
+     "quote": "The trial court awarded Windsor $44,300 plus prejudgment and postjudgment interest on its breach of contract claim"
+    },
+    {
+     "label": "Speedy's Breach of Contract / Payment Claim",
+     "claimant": "opposing",
+     "strength": "weak",
+     "supportedCeiling": -66000,
+     "result": "lost",
+     "awarded": null,
+     "quote": "The trial court entered a final judgment on November 22, 2023, finding in favor of Windsor."
+    },
+    {
+     "label": "Mechanics Lien Foreclosure",
+     "claimant": "opposing",
+     "strength": "weak",
+     "supportedCeiling": null,
+     "result": "lost",
+     "awarded": null,
+     "quote": "declared the mechanics lien null and void, discharged and released the bond"
+    },
+    {
+     "label": "Speedy's Unjust Enrichment Claim",
+     "claimant": "opposing",
+     "strength": "weak",
+     "supportedCeiling": null,
+     "result": "lost",
+     "awarded": null,
+     "quote": "The trial court entered a final judgment on November 22, 2023, finding in favor of Windsor."
+    },
+    {
+     "label": "Slander of Title / Wrongful Lien Damages",
+     "claimant": "represented",
+     "strength": "unfavorable",
+     "supportedCeiling": 3960,
+     "result": "won",
+     "awarded": 3960,
+     "quote": "awarded Windsor $3,960 on its slander of title claim for insurance premiums paid to bond off the lien"
+    },
+    {
+     "label": "No Signed Written Contract / Scope Ambiguity",
+     "claimant": "represented",
+     "strength": "favorable",
+     "supportedCeiling": null,
+     "result": "won",
+     "awarded": null,
+     "quote": "there was a contract between the parties to renovate the garage for $75,000 for each floor"
+    }
+   ],
+   "missing": [],
+   "notes": "Owner won every issue, affirmed; slander-of-title predicted 'unfavorable' but won in full."
+  }
+ ]
+}
