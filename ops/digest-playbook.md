@@ -117,7 +117,44 @@ page matched when opened locally). credaily.com and cushmanwakefield.com pass.
   ("no coverage yet", "residential", "individual party", "duplicate of
   live-NNN", "not real estate"), so the reasons can be studied.
 
+## Bare court-docket leads with no coverage (added 2026-10-17)
+
+Of the 101 leads logged in ops/leads-handled.json between 2026-10-08 and
+2026-10-17, 85 were skipped and 30 of those 85 (35%) were "no reporting
+found explaining the dispute" / "no coverage found explaining the filing" --
+by far the single biggest skip reason, ahead of every scope reason
+(residential, individual party, etc.) combined. Nearly all of them were bare
+ops/federal-suits.json or ops/ch11-petitions.json entries: a single-asset LLC
+Chapter 11 petition, or a small federal suit between an LLC and its insurer
+or lender, with no named sponsor/REIT/lender large enough to draw trade
+press, and no opinion text (the case just filed) to write from directly.
+
+This is not lost coverage: scripts/ingest_court_filings.py and
+build_record_pages.ts already give every single one of these filings its
+own page (chapter-11/<slug>.html or federal-cases/<slug>.html, listed on
+bankruptcy-watch.html/lawsuit-watch.html) automatically, on a pipeline
+separate from this digest -- confirmed 2026-10-17 by checking that every
+sampled "no coverage found" lead (Madison Development LLC; Byblos
+Development, Inc. v. First-Citizens Bank & Trust Company; PNC Bank, N.A. v.
+WB Real Estate Development LLC) already has its own record page. Skipping
+one of these as a narrative matter write-up does not remove it from the
+site.
+
+So: for a bare docket lead with no named major player and no opinion text,
+one targeted search (the parties' names together with the property or
+project name, if the filing gives one, plus "lawsuit") is enough -- if
+nothing comes back, record the skip and move on rather than trying several
+query variants on the same lead. Spend the saved search budget on
+higher-yield sources instead: this week's opinion-leads.json entries, SEC/
+wire leads naming a public company, and trade-press searches for this run's
+beat. If a bare docket lead DOES name a well-known sponsor, lender, REIT,
+hotel brand or developer, or the suit amount is unusually large for its
+type, that is exactly the case worth a second, differently-worded search
+before giving up -- this guidance is about the ordinary small-LLC-vs-insurer
+case, not about trying less hard on the leads most likely to matter.
+
 ## What we have learned
 
 <!-- The self-improvement routine adds dated lines here: what changed in the digest's guidance and what happened to the news metrics afterwards. -->
 - 2026-10-13: Starting point. Week of 2026-10-06: 23 sourced matters, 5 within 7 days of the event, median 97 days from event to publication; 14 of 15 leads skipped. Record-only petition matters were banned on 2026-10-12.
+- 2026-10-17: The news goal (ops/metrics/goals.json) now reads "on track" (gap 0.0): 50 sourced matters in the last 7 days, 41 of them fresh, median 5.0 days event-to-publication -- all past target, and backlog item G1 (added 2026-10-13, asking for exactly this fix) is done; marked struck in ops/improvement-playbook.md's backlog. Looked for patterns in the skip reasons as G1 also asked: of 101 leads logged 2026-10-08 through 2026-10-17, 85 were skipped and 30 of those (35%) were bare court-docket leads (small Chapter 11 petitions, small LLC-vs-insurer federal suits) with no secondary reporting to write a narrative matter from -- confirmed these still get their own page automatically via the separate ingest/record-page pipeline, so the skip is not a real coverage loss. Added guidance above ("Bare court-docket leads with no coverage") to spend one targeted search on these rather than several variants, and put the saved effort toward opinion/SEC/trade-press leads, which is where matters actually come from. Watching sourcedMatters7/freshSourcedMatters7/medianDaysEventToAdded (baseline 50/41/5.0) for 7 days to confirm this doesn't regress the pipeline that got the goal on track.

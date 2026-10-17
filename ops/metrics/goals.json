@@ -1,6 +1,6 @@
 {
- "date": "2026-10-16",
- "generatedAt": "2026-10-16T18:53:34+00:00",
+ "date": "2026-10-17",
+ "generatedAt": "2026-10-17T15:40:26+00:00",
  "mostBehind": [
   "calculator",
   "conversion",
@@ -53,9 +53,9 @@
    "gap": 0.0,
    "metrics": {
     "sourcedMatters7": 50,
-    "freshSourcedMatters7": 42,
+    "freshSourcedMatters7": 41,
     "medianDaysEventToAdded": 5.0,
-    "leadsReviewedTotal": 89,
+    "leadsReviewedTotal": 101,
     "leadsToMattersTotal": 16
    },
    "targets": {
