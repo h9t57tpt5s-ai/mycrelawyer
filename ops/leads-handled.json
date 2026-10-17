@@ -359,6 +359,46 @@
   "opinion:11037074": {
    "at": "2026-10-16",
    "action": "skipped: residential mortgage foreclosure appeal (Union Home Mtge. Corp. v. Hinds), individual defendants, not commercial real estate"
+  },
+  "opinion:11037132": {
+   "at": "2026-10-17",
+   "action": "skipped: individual pro se defendant in a junkyard zoning-compliance order (Livingston County v. Morris), not a commercial real estate business matter"
+  },
+  "opinion:11037083": {
+   "at": "2026-10-17",
+   "action": "skipped: individual pro se property-title dispute (Wakat v. City of Tulsa), not a commercial real estate business matter"
+  },
+  "opinion:11037052": {
+   "at": "2026-10-17",
+   "action": "skipped: First Amendment public-meeting suit against a parish and officials (Banner v. Wright), not a real estate matter despite zoning-related background facts"
+  },
+  "petition:https://www.courtlistener.com/docket/74976375/madison-development-llc/": {
+   "at": "2026-10-17",
+   "action": "skipped: no coverage found explaining the filing"
+  },
+  "petition:https://www.courtlistener.com/docket/74978909/kdj-properties-llc/": {
+   "at": "2026-10-17",
+   "action": "skipped: no coverage found explaining the filing"
+  },
+  "petition:https://www.courtlistener.com/docket/74978793/edson-avenue-development-group-llc/": {
+   "at": "2026-10-17",
+   "action": "skipped: no coverage found explaining the filing"
+  },
+  "petition:https://www.courtlistener.com/docket/74978675/1162-st-johns-place-llc/": {
+   "at": "2026-10-17",
+   "action": "skipped: no coverage found explaining the filing"
+  },
+  "https://www.courtlistener.com/docket/74978120/us-bank-national-association-as-trustee-for-the-registered-holders-of/": {
+   "at": "2026-10-17",
+   "action": "skipped: no reporting found explaining the dispute (same-day filing, multifamily CMBS foreclosure in the Bronx)"
+  },
+  "https://www.courtlistener.com/docket/74978021/omriddhi-corp-valley-view-motel-v-mesa-underwriters-specialty-insurance/": {
+   "at": "2026-10-17",
+   "action": "skipped: no reporting found explaining the dispute; small-party hotel insurance coverage suit"
+  },
+  "https://www.courtlistener.com/docket/74978716/consolidated-capital-investments-llc-v-lument-real-estate-capital-llc/": {
+   "at": "2026-10-17",
+   "action": "skipped: no reporting found explaining the dispute"
   }
  }
 }
