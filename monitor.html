@@ -152,6 +152,60 @@
       <p class="text-secondary" style="font-size:14px; line-height:1.7; margin:0;">Alerts arrive by email, and in a Slack channel too if you connect one on your account page. The job runs at about 6:30 am and 5:30 pm Central. A failed email is retried on every run for a week. Every run, every alert and the time each was stored, matched and emailed are published on the <a class="text-accent" href="alert-log.html">alert log</a>, so the loop can be checked rather than taken on faith.</p>
     </div>
 
+    <div class="reveal in-view" style="border:1.5px dashed var(--border); border-radius:var(--radius-lg); padding:4px; margin-top:24px;">
+      <div style="background:var(--surface); border-radius:calc(var(--radius-lg) - 4px); padding:20px 24px 24px;">
+        <div style="display:flex; align-items:center; gap:10px; margin-bottom:16px;">
+          <span class="badge badge-sample"><span class="badge-dot" style="background:currentColor"></span>Sample alert email — fabricated facts, for illustration only</span>
+        </div>
+        <p class="text-secondary" style="font-size:13px; line-height:1.6; margin:0 0 16px;">What lands in your inbox when a saved name matches a new filing. "Example Industrial Partners LLC" is not a real company; the filing types, fields and timing match what a real alert actually carries — see real matches and their real timestamps on the <a class="text-accent" href="alert-log.html">alert log</a>.</p>
+        <div class="card" style="padding:0; overflow:hidden;">
+          <div style="padding:14px 18px; border-bottom:1px solid var(--border-soft); font-size:13px; line-height:1.6;">
+            <div><strong>From:</strong> CREdocket Monitor &lt;alerts@credocket.com&gt;</div>
+            <div><strong>To:</strong> you@yourfirm.com</div>
+            <div><strong>Subject:</strong> New Chapter 11 petition matches your watchlist</div>
+          </div>
+          <div style="padding:18px; font-size:13.5px; line-height:1.7;">
+            <p style="margin:0 0 12px;">A company on your watchlist appears in a new public filing.</p>
+            <div style="display:grid; grid-template-columns:140px 1fr; gap:6px 12px; font-size:13px; margin-bottom:14px;">
+              <div class="text-muted">Filing</div><div>Chapter 11 petition (voluntary)</div>
+              <div class="text-muted">Matched name</div><div>Example Industrial Partners LLC — exact match</div>
+              <div class="text-muted">Matched against</div><div>Tenant: Westside Logistics Park, Building 4</div>
+              <div class="text-muted">Court</div><div>U.S. Bankruptcy Court, N.D. Texas</div>
+              <div class="text-muted">Filed</div><div>October 15, 2026</div>
+              <div class="text-muted">Docket no.</div><div class="mono">26-41203</div>
+            </div>
+            <a class="btn btn-primary btn-sm" href="bankruptcy-watch.html">View the filing on CREdocket</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="reveal in-view" style="border:1.5px dashed var(--border); border-radius:var(--radius-lg); padding:4px; margin-top:24px;">
+      <div style="background:var(--surface); border-radius:calc(var(--radius-lg) - 4px); padding:20px 24px 24px;">
+        <div style="display:flex; align-items:center; gap:10px; margin-bottom:16px;">
+          <span class="badge badge-sample"><span class="badge-dot" style="background:currentColor"></span>Sample portfolio report — fabricated facts, for illustration only</span>
+        </div>
+        <p class="text-secondary" style="font-size:13px; line-height:1.6; margin:0 0 16px;">Every account with a watchlist also gets a periodic recap, even in months with nothing to report — so "no news" is a confirmed fact, not silence you have to trust. Portfolio name, counts and the matched filing below are all fabricated for this example.</p>
+        <div class="card" style="padding:0; overflow:hidden;">
+          <div style="padding:14px 18px; border-bottom:1px solid var(--border-soft); font-size:13px; line-height:1.6;">
+            <div><strong>From:</strong> CREdocket Monitor &lt;alerts@credocket.com&gt;</div>
+            <div><strong>To:</strong> you@yourfirm.com</div>
+            <div><strong>Subject:</strong> Your October portfolio recap — 42 names watched, 1 new filing</div>
+          </div>
+          <div style="padding:18px; font-size:13.5px; line-height:1.7;">
+            <p style="margin:0 0 12px;">Monthly recap for <strong>Westside Logistics Portfolio</strong>.</p>
+            <div style="display:grid; grid-template-columns:170px 1fr; gap:6px 12px; font-size:13px; margin-bottom:14px;">
+              <div class="text-muted">Names watched</div><div>42 (18 tenants, 14 borrowers, 6 guarantors, 4 counterparties)</div>
+              <div class="text-muted">New filings matched</div><div>1 — Example Industrial Partners LLC, Chapter 11 petition, Oct 15</div>
+              <div class="text-muted">Sources checked</div><div>Chapter 11 petitions nationwide, new federal civil suits, SEC 8-K Items 1.03/2.04/3.01, Hillsborough County FL and Harris County TX courts</div>
+              <div class="text-muted">Surveillance runs this month</div><div>62 of 62 completed without error</div>
+            </div>
+            <a class="btn btn-primary btn-sm" href="account.html#portfolio">See your full alert history</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <div class="card reveal in-view" style="padding:28px; margin-top:24px;">
       <div class="eyebrow" style="margin-bottom:12px;">Around the alerts</div>
       <ul style="margin:0; padding-left:18px; font-size:14px; line-height:1.8;">
