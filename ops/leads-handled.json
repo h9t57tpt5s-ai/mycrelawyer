@@ -1,5 +1,9 @@
 {
  "handled": {
+  "petition:https://www.courtlistener.com/docket/74960812/nrs-realty-llc/": {
+   "at": "2026-10-17",
+   "action": "skipped: no coverage found explaining the filing"
+  },
   "https://www.courtlistener.com/docket/74976761/fd-realty-llc-v-barrett-financial-group-llc/": {
    "at": "2026-10-17",
    "action": "skipped: no reporting found explaining the dispute"
