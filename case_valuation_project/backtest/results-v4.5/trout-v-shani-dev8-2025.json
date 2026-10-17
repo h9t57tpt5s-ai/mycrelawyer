@@ -1,0 +1,162 @@
+{
+ "id": "trout-v-shani-dev8-2025",
+ "ranAt": "2026-10-17T14:33:50+00:00",
+ "status": 200,
+ "prediction": {
+  "model": "claude-sonnet-5",
+  "analysisVersion": "v4.5",
+  "cost": {
+   "totalUsd": 0.1062,
+   "analysisUsd": 0.0998,
+   "analysisUsage": {
+    "input_tokens": 2192,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 8647,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 6040,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard",
+    "output_tokens_details": {
+     "thinking_tokens": 1133
+    }
+   }
+  },
+  "category": "premises-liability",
+  "roleLabel": "Injured Party / Claimant",
+  "damagesRange": null,
+  "bestGuessValue": null,
+  "whatIsNeededForEstimate": "To generate a real damages range I need: (1) the total medical expenses for the patella fracture and both surgeries (including any future treatment or physical therapy costs), (2) any documented lost wages or income loss, (3) any settlement demand letter or mediation figure previously exchanged between the parties, (4) the jury's verdict amount or judgment entry if the trial has concluded, and (5) any specific evidentiary basis for valuing the loss-of-consortium claim (e.g., testimony about impact on the marriage before David Trout's death).",
+  "likelyOutcome": "Liability is genuinely contested and closer than Trout would like: the defense has strong direct evidence of no notice (employee testimony, a 'clean' floor, and an inspection immediately after the fall), but the overwritten surveillance video -- reviewed for only five minutes by a single witness who admitted a spill twenty minutes earlier would not have been caught -- gives Trout a credible spoliation/adverse-inference argument that likely explains why both directed-verdict motions were denied and the case reached the jury. This likely nets out as a genuine jury question with a realistic chance of a plaintiff's verdict on compromised terms, but the record provided contains no damages figures (medical bills, wage loss, demand, or verdict amount) from which to construct a dollar range.",
+  "issues": [
+   {
+    "label": "Negligence / Hazardous Condition Notice Element",
+    "probabilityRange": [
+     0.25,
+     0.4
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "slip_and_fall_hazardous_condition",
+    "strength": "unfavorable",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null
+   },
+   {
+    "label": "Spoliation of Surveillance Video / Adverse Inference",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "other",
+    "strength": "favorable",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null
+   },
+   {
+    "label": "Defense: No Evidence of Duration/Origin of Hazard (Directed Verdict Basis)",
+    "probabilityRange": [
+     0.45,
+     0.55
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "defense",
+    "claimType": "dangerous_condition_failure_to_warn",
+    "strength": "even",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null
+   },
+   {
+    "label": "Operating Standards / Franchise Training Non-Compliance",
+    "probabilityRange": [
+     0.45,
+     0.55
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "negligent_maintenance_structural_failure",
+    "strength": "even",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null
+   },
+   {
+    "label": "Loss of Consortium (Estate of David Trout)",
+    "probabilityRange": [
+     0.45,
+     0.55
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "other",
+    "strength": "even",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null
+   },
+   {
+    "label": "Franchisor Liability (R.D.C.) -- Dismissed",
+    "probabilityRange": [
+     0.95,
+     0.99
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "conceded",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "other",
+    "strength": "conceded",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null
+   }
+  ],
+  "citationCoverage": {
+   "count": 0,
+   "tier": "none"
+  }
+ },
+ "error": null,
+ "outcome": {
+  "amount": 1300000,
+  "amountIsTheRequestedAmount": false,
+  "date": "2025-03-13",
+  "description": "The jury found the operator negligent and on February 12, 2024 awarded the claimant $1,300,000 in noneconomic damages; the trial court denied the operator's motion for JNOV or new trial. The Eighth District reversed on March 13, 2025, holding there was no evidence of constructive notice of the liquid, and reversed the denial of JNOV, which leaves the claimant with nothing; the operator's argument that Ohio's noneconomic-damages cap should have been applied was not reached. No later Ohio Supreme Court merits opinion appears in the Reporter of Decisions. No attorney's fees.",
+  "attorneysFeesAtTrial": null,
+  "appellateChange": "reversed-rendered",
+  "finalAmount": 0,
+  "finalNote": "Reversed: JNOV should have been granted for the restaurant operator."
+ },
+ "source": {
+  "caseName": "Cheryl Trout, et al. v. Jay Shani DEV8, L.L.C., d.b.a. Mr. Hero",
+  "court": "Ohio Court of Appeals, Eighth Appellate District (Cuyahoga County), on appeal from the Cuyahoga County Court of Common Pleas (No. CV-21-955789)",
+  "docket": "113965 (2025-Ohio-832)",
+  "decided": "2025-03-13",
+  "url": "https://www.supremecourt.ohio.gov/rod/docs/pdf/8/2025/2025-Ohio-832.pdf",
+  "excerptNote": "Verbatim from Part I (Facts and Procedural History), from the agreed statement of the case read to the jury through the defendant's directed-verdict motions. Removed: the opening paragraph (states the holding), the paragraph stating the jury's verdict and award and the post-trial motion, the assignments of error, footnote 1, and all of Part II (law and analysis)."
+ }
+}

@@ -1,0 +1,161 @@
+{
+ "id": "state-v-skyway-holdings-2021",
+ "ranAt": "2026-10-17T14:03:17+00:00",
+ "status": 200,
+ "prediction": {
+  "model": "claude-sonnet-5",
+  "analysisVersion": "v4.5",
+  "cost": {
+   "totalUsd": 0.1923,
+   "analysisUsd": 0.1877,
+   "analysisUsage": {
+    "input_tokens": 1905,
+    "cache_creation_input_tokens": 9341,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 9341,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 9798,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard",
+    "output_tokens_details": {
+     "thinking_tokens": 5050
+    }
+   }
+  },
+  "category": "eminent-domain",
+  "roleLabel": "Property Owner",
+  "damagesRange": [
+   44657.4,
+   1000000
+  ],
+  "bestGuessValue": 675000,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": "The owners should recover substantially more than the State's $74,875-$96,206 position and likely land in the range Korman's cost-approach testimony supports, with some real risk the award is trimmed below his full $451,377 figure because the 65% depreciation was applied uniformly across acreage the State can credibly argue wasn't functionally affected by the taking. The exclusion of post-taking business-income evidence removes the State's best collateral attack and should hold on review.",
+  "issues": [
+   {
+    "label": "Just Compensation / Severance Damages to the Remainder",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": [
+     74429,
+     1000000
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": 1000000,
+    "kind": "claim",
+    "claimType": "just_compensation_valuation",
+    "strength": "favorable",
+    "figures": [
+     {
+      "label": "Korman cost-approach damages (owner's expert)",
+      "value": 451377,
+      "disputed": true,
+      "quote": "subtracting the latter number from the former produces $451,377 in damages",
+      "computed": null
+     },
+     {
+      "label": "Owner's closing argument request (lower bound)",
+      "value": 508548,
+      "disputed": true,
+      "quote": "the Anderson Companies requested between $508,548 and $1 million in compensation",
+      "computed": null
+     },
+     {
+      "label": "Owner's closing argument request (upper bound)",
+      "value": 1000000,
+      "disputed": true,
+      "quote": "the Anderson Companies requested between $508,548 and $1 million in compensation",
+      "computed": null
+     },
+     {
+      "label": "State's closing position (lower bound)",
+      "value": 74875,
+      "disputed": true,
+      "quote": "the State asked for between $74,875 and $96,206 to compensate the Andersons",
+      "computed": null
+     },
+     {
+      "label": "State's closing position (upper bound)",
+      "value": 96206,
+      "disputed": true,
+      "quote": "the State asked for between $74,875 and $96,206 to compensate the Andersons",
+      "computed": null
+     },
+     {
+      "label": "Special commissioners' original award",
+      "value": 74429,
+      "disputed": false,
+      "quote": "The special commissioners awarded $74,429 in damages",
+      "computed": null
+     }
+    ],
+    "droppedFigures": 0,
+    "basis": "competing"
+   },
+   {
+    "label": "State's Reliability Challenge to Uniform 65% Depreciation Application",
+    "probabilityRange": [
+     0.25,
+     0.4
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "defense",
+    "claimType": "just_compensation_valuation",
+    "strength": "unfavorable",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null
+   },
+   {
+    "label": "Exclusion of Post-Taking Business Income Evidence",
+    "probabilityRange": [
+     0.95,
+     0.99
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "conceded",
+    "supportedCeiling": null,
+    "kind": "defense",
+    "claimType": "other",
+    "strength": "conceded",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null
+   }
+  ],
+  "citationCoverage": {
+   "count": 22,
+   "tier": "strong"
+  }
+ },
+ "error": null,
+ "outcome": {
+  "amount": 508548,
+  "amountIsTheRequestedAmount": true,
+  "date": "2021-03-05",
+  "description": "After a three-day jury trial in October 2018 the jury awarded $508,548 (exactly the owners' appraiser Korman's cost-approach figure and the low end of the owners' requested range), against the State's requested $74,875-$96,206 and the special commissioners' $74,429; judgment was rendered on the verdict. The Austin Court of Appeals affirmed on March 5, 2021, holding Korman's functional-obsolescence testimony admissible and the exclusion of post-taking revenue evidence not reversible. No attorney's fees in a Texas condemnation award.",
+  "attorneysFeesAtTrial": null,
+  "attorneysFeesOnAppeal": null,
+  "appellateChange": "affirmed",
+  "finalAmount": 508548,
+  "finalNote": "Affirmed."
+ },
+ "source": {
+  "caseName": "The State of Texas v. Skyway Holdings LLC and Anderson Auto Salvage a/k/a Anderson Towing Inc.",
+  "court": "Texas Third Court of Appeals (Austin), on appeal from County Court at Law No. 3, Bell County",
+  "docket": "03-19-00143-CV (trial court No. 76172)",
+  "decided": "2021-03-05",
+  "url": "https://storage.courtlistener.com/pdf/2021/03/05/state_v._skyway_holdings_llc_and_anderson_auto_salvage_aka_anderson_1.pdf",
+  "excerptNote": "Verbatim from the Background and from the opinion's descriptions of Korman's appraisal testimony, the State's challenges, and the State's offer of proof. Removed: the opening paragraph (jury award and holding), the jury's deliberation question and the court's answer, the sentence stating the jury's verdict and judgment, the sentence noting Korman's total 'the same amount that the jury awarded', footnotes 1 and 3 and the Hutson footnote marker, the standard of review, and every sentence stating the court's conclusions. The owners' closing request range (whose low end equals the verdict) is retained as a genuine party demand, so amountIsTheRequestedAmount is true. Page numbers removed; whitespace normalized."
+ }
+}

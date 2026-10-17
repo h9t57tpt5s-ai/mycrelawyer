@@ -1,0 +1,247 @@
+{
+ "id": "windsor-tower-v-speedy-maintenance-2024",
+ "ranAt": "2026-10-17T13:42:16+00:00",
+ "status": 200,
+ "prediction": {
+  "model": "claude-sonnet-5",
+  "analysisVersion": "v4.5",
+  "cost": {
+   "totalUsd": 0.2914,
+   "analysisUsd": 0.2761,
+   "analysisUsage": {
+    "input_tokens": 5112,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 9704,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 17187,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard",
+    "output_tokens_details": {
+     "thinking_tokens": 10153
+    }
+   }
+  },
+  "category": "construction-defect",
+  "roleLabel": "Owner / Developer",
+  "damagesRange": [
+   28536,
+   113560
+  ],
+  "bestGuessValue": 54604.25,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": "Speedy's claims (contract balance, unjust enrichment, lien foreclosure) are likely to fail or yield only a nominal recovery given strong, contemporaneous evidence of poor performance, missed deadlines, and overbilling supporting Windsor's termination for cause. Windsor should recover on its breach-of-contract counterclaim for cost of completion in the mid-five figures, and has a real but uncertain shot at slander-of-title damages \u2014 clearly for the ~$3,960 bond cost, and more speculatively for the much larger financing-cost claim, which depends on proving malice and on firmer damages proof than appears in this record.",
+  "issues": [
+   {
+    "label": "Speedy's Breach of Contract Claim for Unpaid Balance",
+    "probabilityRange": [
+     0.25,
+     0.4
+    ],
+    "damagesRange": [
+     -66000,
+     -44300
+    ],
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": -66000,
+    "kind": "claim",
+    "claimType": "contractor_breach_negligence",
+    "strength": "unfavorable",
+    "figures": [
+     {
+      "label": "Speedy's demand for contract balance",
+      "value": 66000,
+      "disputed": true,
+      "quote": "indicated that Windsor had only paid $19,000 of the $85,000 contract and demanded payment of $66,000",
+      "computed": null
+     },
+     {
+      "label": "Mechanics lien amount",
+      "value": 66000,
+      "disputed": true,
+      "quote": "Speedy filed a mechanics lien on the property for $66,000, which was recorded with the Montgomery County Recorder",
+      "computed": null
+     },
+     {
+      "label": "Total amount Windsor actually paid Speedy",
+      "value": 44300,
+      "disputed": false,
+      "quote": "The total amount paid to Speedy by Windsor for this project was $44,300.",
+      "computed": null
+     }
+    ],
+    "droppedFigures": 1,
+    "basis": "competing"
+   },
+   {
+    "label": "Mechanics Lien Foreclosure",
+    "probabilityRange": [
+     0.05,
+     0.2
+    ],
+    "damagesRange": [
+     -66000,
+     0
+    ],
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": -66000,
+    "kind": "claim",
+    "claimType": "other",
+    "strength": "weak",
+    "figures": [
+     {
+      "label": "Lien amount",
+      "value": 66000,
+      "disputed": true,
+      "quote": "Speedy filed a mechanics lien on the property for $66,000, which was recorded with the Montgomery County Recorder",
+      "computed": null
+     }
+    ],
+    "droppedFigures": 0,
+    "basis": "competing"
+   },
+   {
+    "label": "Speedy's Unjust Enrichment Claim",
+    "probabilityRange": [
+     0.05,
+     0.2
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "other",
+    "strength": "weak",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null
+   },
+   {
+    "label": "Windsor's Breach of Contract / Cost-of-Completion Counterclaim",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": [
+     109600,
+     109600
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": 109600,
+    "kind": "claim",
+    "claimType": "contractor_breach_negligence",
+    "strength": "favorable",
+    "figures": [
+     {
+      "label": "Amount paid to Speedy for incomplete/valueless fifth-floor work",
+      "value": 44300,
+      "disputed": false,
+      "quote": "The total amount paid to Speedy by Windsor for this project was $44,300.",
+      "computed": null
+     },
+     {
+      "label": "Amount paid to Osorio to complete the fifth floor",
+      "value": 65300,
+      "disputed": false,
+      "quote": "Windsor paid Osorio a total of $65,300 for the work he completed on the fifth floor of the garage.",
+      "computed": null
+     }
+    ],
+    "droppedFigures": 0,
+    "basis": "itemized"
+   },
+   {
+    "label": "Termination for Cause (Defense to Speedy's Claims)",
+    "probabilityRange": [
+     0.8,
+     0.9
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "defense",
+    "claimType": "other",
+    "strength": "strong",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null
+   },
+   {
+    "label": "Slander of Title \u2014 Bond/Lien Discharge Costs",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": [
+     3960,
+     3960
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": 3960,
+    "kind": "claim",
+    "claimType": "other",
+    "strength": "favorable",
+    "figures": [
+     {
+      "label": "Bond premium payments to discharge lien",
+      "value": 3960,
+      "disputed": false,
+      "quote": "Windsor made two payments for a total of $3,960 to pay for the bond.",
+      "computed": null
+     }
+    ],
+    "droppedFigures": 0,
+    "basis": "itemized"
+   },
+   {
+    "label": "Slander of Title \u2014 Consequential Interest-Rate Damages",
+    "probabilityRange": [
+     0.25,
+     0.4
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "other",
+    "strength": "unfavorable",
+    "figures": [],
+    "droppedFigures": 1,
+    "basis": null
+   }
+  ],
+  "citationCoverage": {
+   "count": 29,
+   "tier": "strong"
+  }
+ },
+ "error": null,
+ "outcome": {
+  "amount": 48260.0,
+  "amountIsTheRequestedAmount": false,
+  "date": "2024-12-13",
+  "description": "After a two-day bench trial the court found for Windsor, awarded it $44,300 (the amount it had paid Speedy) plus prejudgment and postjudgment interest on its breach-of-contract counterclaim and $3,960 on its slander-of-title counterclaim (bond premiums), a total of $48,260, voided Speedy's $66,000 mechanics lien and denied Speedy's claims. The Second District affirmed.",
+  "attorneysFeesAtTrial": null,
+  "attorneysFeesOnAppeal": null,
+  "finalAmount": 48260.0,
+  "finalNote": "Affirmed."
+ },
+ "source": {
+  "caseName": "Speedy Maintenance Service, L.L.C. v. Windsor Tower, L.L.C., et al.",
+  "court": "Court of Appeals of Ohio, Second Appellate District (Montgomery County)",
+  "docket": "C.A. No. 29996, 2024-Ohio-5841 (Trial Court Case No. 2021 CV 01747)",
+  "decided": "2024-12-13",
+  "url": "https://www.supremecourt.ohio.gov/rod/docs/pdf/2/2024/2024-Ohio-5841.pdf",
+  "excerptNote": "documentText is verbatim from Part I (Procedural History and Facts): the pleadings and lien bond (paragraphs 2-5) and selected bench-trial testimony of both sides (paragraphs 6-8, 11, 15-16, 19-21, 27-31, 34, 39-41, 44), trimmed for length. Removed: paragraph 1 (which states the award), paragraph 45 (the trial court's judgment and amounts), and all appellate analysis; other testimony paragraphs were omitted only for length. Whitespace and page-number artifacts normalized only."
+ }
+}

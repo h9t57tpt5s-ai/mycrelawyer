@@ -1,0 +1,210 @@
+{
+ "id": "odot-v-trade-winds-motor-hotel-2020",
+ "ranAt": "2026-10-17T14:10:47+00:00",
+ "status": 200,
+ "prediction": {
+  "model": "claude-sonnet-5",
+  "analysisVersion": "v4.5",
+  "cost": {
+   "totalUsd": 0.2537,
+   "analysisUsd": 0.2463,
+   "analysisUsage": {
+    "input_tokens": 3797,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 9341,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 15477,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard",
+    "output_tokens_details": {
+     "thinking_tokens": 9139
+    }
+   }
+  },
+  "category": "eminent-domain",
+  "roleLabel": "Property Owner",
+  "damagesRange": [
+   253991.85,
+   8219559
+  ],
+  "bestGuessValue": 4498909.5,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": "TWE is likely to recover materially more than ODOT's trial position of roughly $126,250, with a jury verdict most plausibly landing at or somewhat above TWE's admitted $1,003,000 figure (which already reflects remainder damage), given ODOT's own commissioners repeatedly found far higher damages across four reports. The excluded water-damage evidence (worth roughly another $663,400) is the main upside TWE is foreclosed from at trial absent a successful appeal of the exclusion ruling, and TWE's separate counterclaims against ODOT and its insurer face real notice, assignment, and double-recovery defenses that limit their incremental value.",
+  "issues": [
+   {
+    "label": "Just Compensation \u2014 Value of Part Taken and Damages to Remainder",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": [
+     126250,
+     3890000
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": 3890000,
+    "kind": "claim",
+    "claimType": "just_compensation_valuation",
+    "strength": "favorable",
+    "figures": [
+     {
+      "label": "ODOT trial appraisal (just compensation, no remainder damage)",
+      "value": 126250,
+      "disputed": true,
+      "quote": "just compensation to TWE was no more than approximately $126,250, none of which is attributed to injury to the remainder property",
+      "computed": null
+     },
+     {
+      "label": "TWE expert appraisal at trial (water damage excluded)",
+      "value": 1003000,
+      "disputed": true,
+      "quote": "it was entitled to $1,003,000, of which approximately $829,500 was due to damage to the remainder property",
+      "computed": null
+     },
+     {
+      "label": "Original Commissioners' Report award",
+      "value": 847000,
+      "disputed": false,
+      "quote": "The court-appointed Commissioners assessed compensation due for the property to be taken and damages to the remainder at $847,000. ODOT paid that amount into court.",
+      "computed": null
+     },
+     {
+      "label": "Second Alias Commissioners' Report (exclusive of water-damage negligence claims)",
+      "value": 3890000,
+      "disputed": true,
+      "quote": "the Commissioners returned their \"Second Alias Report\" assessing compensation due to TWE, exclusive of damages due to the claimed negligence of third parties, to again be $3,890,000",
+      "computed": null
+     }
+    ],
+    "droppedFigures": 0,
+    "basis": "competing"
+   },
+   {
+    "label": "Water-Damage Compensability / Evidentiary Exclusion",
+    "probabilityRange": [
+     0.25,
+     0.4
+    ],
+    "damagesRange": [
+     0,
+     1666400
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": 1666400,
+    "kind": "claim",
+    "claimType": "just_compensation_valuation",
+    "strength": "unfavorable",
+    "figures": [
+     {
+      "label": "TWE appraiser's diminution value including water damage and secondary effects",
+      "value": 1666400,
+      "disputed": true,
+      "quote": "if the water damage and its secondary effects (e.g., mold and loss of electrical power for a long period of time) were taken into account, the total decrease in value amounted to approximately $1,666,400",
+      "computed": null
+     }
+    ],
+    "droppedFigures": 0,
+    "basis": "competing"
+   },
+   {
+    "label": "TWE's Counterclaims Against ODOT (Inverse Condemnation, Negligence, Trespass, Nuisance, Breach of Contract)",
+    "probabilityRange": [
+     0.05,
+     0.2
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "other",
+    "strength": "weak",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null
+   },
+   {
+    "label": "UNIC's Subrogation Interest / Double-Recovery Offset",
+    "probabilityRange": [
+     0.45,
+     0.55
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "other",
+    "strength": "even",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null
+   },
+   {
+    "label": "TWE's Coverage/Bad-Faith Claim Against UNIC",
+    "probabilityRange": [
+     0.45,
+     0.55
+    ],
+    "damagesRange": [
+     396093,
+     2663159
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": 2663159,
+    "kind": "claim",
+    "claimType": "other",
+    "strength": "even",
+    "figures": [
+     {
+      "label": "Claimed covered loss",
+      "value": 2663159,
+      "disputed": true,
+      "quote": "claiming TWE had sustained losses covered by insurance of more than $2,663,159",
+      "computed": null
+     },
+     {
+      "label": "Amount UNIC had paid",
+      "value": 396093,
+      "disputed": false,
+      "quote": "of which UNIC had paid only $396,093",
+      "computed": null
+     }
+    ],
+    "droppedFigures": 0,
+    "basis": "competing"
+   }
+  ],
+  "citationCoverage": {
+   "count": 22,
+   "tier": "strong"
+  }
+ },
+ "error": null,
+ "outcome": {
+  "amount": 340000,
+  "amountIsTheRequestedAmount": false,
+  "date": "2020-07-23",
+  "description": "At the February 2018 trial the Tulsa County jury returned a verdict of $340,000 for TWE (ODOT's evidence: about $126,250; TWE's: $1,003,000), and the court entered judgment for ODOT for $420,000 of withdrawn deposit in excess of the verdict. The Court of Civil Appeals vacated the judgment and remanded on July 23, 2020 (mandate March 2021), holding the exclusion of the water-damage evidence was reversible error.",
+  "attorneysFeesAtTrial": null,
+  "attorneysFeesOnAppeal": null,
+  "appellateChange": "reversed",
+  "finalAmount": null,
+  "finalNote": "Vacated and remanded for a new trial; no final figure."
+ },
+ "source": {
+  "caseName": "State of Oklahoma ex rel. Department of Transportation v. Trade Winds Motor Hotel East, Inc., et al.",
+  "court": "Court of Civil Appeals of the State of Oklahoma, Division IV, on appeal from the District Court of Tulsa County",
+  "docket": "No. 117,756; 2021 OK CIV APP 6, 484 P.3d 301",
+  "decided": "2020-07-23",
+  "url": "https://storage.courtlistener.com/html/2020/07/23/state_ex_rel._dept._of_transportation_v._trade_winds_motor_hotel_east_5.html",
+  "excerptNote": "Verbatim from the Background, paras. 2-17 (paragraph numbers retained as they appear in the source). Removed: para. 1 (disposition), para. 18 (jury verdict, judgment and refund judgment), para. 19 (post-trial rulings), and all analysis; inline footnote-reference numerals stripped from nine words; footnote texts not included. Also available on OSCN as 2021 OK CIV APP 6."
+ }
+}

@@ -1,0 +1,237 @@
+{
+ "id": "lcra-st-louis-v-osher-2020",
+ "ranAt": "2026-10-17T14:13:01+00:00",
+ "status": 200,
+ "prediction": {
+  "model": "claude-sonnet-5",
+  "analysisVersion": "v4.5",
+  "cost": {
+   "totalUsd": 0.1957,
+   "analysisUsd": 0.1889,
+   "analysisUsage": {
+    "input_tokens": 3479,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 9341,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 11711,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard",
+    "output_tokens_details": {
+     "thinking_tokens": 5437
+    }
+   }
+  },
+  "category": "eminent-domain",
+  "roleLabel": "Property Owner",
+  "damagesRange": [
+   -3065400,
+   4995000
+  ],
+  "bestGuessValue": 748475,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": "Likely a jury verdict well above the commissioners' $817,589.59 award but far below Appellant's $4.93-5.5M figures, given the serious credibility problems with the 2011 tax-credit-driven comparable sale and competing, substantive evidence on hotel-conversion feasibility; a verdict in the low-to-mid seven figures is the most probable range, with real variance depending on which highest-and-best-use theory the jury credits.",
+  "issues": [
+   {
+    "label": "Fair Market Value at Date of Taking (Competing Appraisals)",
+    "probabilityRange": [
+     0.45,
+     0.55
+    ],
+    "damagesRange": [
+     573000,
+     4930000
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": 4930000,
+    "kind": "claim",
+    "claimType": "just_compensation_valuation",
+    "strength": "even",
+    "figures": [
+     {
+      "label": "Appellant's appraiser (Spence) valuation",
+      "value": 4930000,
+      "disputed": true,
+      "quote": "Spence testified the fair market value of the Property at the time of the taking was $4.93 million",
+      "computed": null
+     },
+     {
+      "label": "LCRA's appraiser (Neff) valuation",
+      "value": 573000,
+      "disputed": true,
+      "quote": "the fair market value of the Property at the time of the taking was $573,000 and the Property's highest and best use was as a warehouse",
+      "computed": null
+     },
+     {
+      "label": "Commissioners' award",
+      "value": 817589.59,
+      "disputed": false,
+      "quote": "the commissioners awarded $817,589.59",
+      "computed": null
+     }
+    ],
+    "droppedFigures": 0,
+    "basis": "competing"
+   },
+   {
+    "label": "Reliability of the 2011 Sale as a Comparable (Tax-Credit Sham Structure)",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": [
+     -4483000,
+     -733000
+    ],
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": -4483000,
+    "kind": "defense",
+    "claimType": "just_compensation_valuation",
+    "strength": "favorable",
+    "figures": [
+     {
+      "label": "2011 sale price used as comparable",
+      "value": 3750000,
+      "disputed": true,
+      "quote": "NorthSide Regeneration, LLC (\"NSR\"), a company owned by Paul McKee, for $3.75 million in 2011",
+      "computed": null
+     },
+     {
+      "label": "Actual payments received before unwind",
+      "value": 733000,
+      "disputed": false,
+      "quote": "Appellant testified he received $733,000 from NSR as of March 2013",
+      "computed": null
+     }
+    ],
+    "droppedFigures": 0,
+    "basis": "itemized"
+   },
+   {
+    "label": "Highest and Best Use: Boutique Hotel vs. Warehouse",
+    "probabilityRange": [
+     0.45,
+     0.55
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "just_compensation_valuation",
+    "strength": "even",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null
+   },
+   {
+    "label": "Date-of-Taking Valuation Rule vs. Post-Taking Condition Evidence",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "defense",
+    "claimType": "just_compensation_valuation",
+    "strength": "favorable",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null
+   },
+   {
+    "label": "Exclusion of Appellant's Photographic/Experience Evidence",
+    "probabilityRange": [
+     0.05,
+     0.2
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "defense",
+    "claimType": "other",
+    "strength": "weak",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null
+   },
+   {
+    "label": "AT&T Settlement / Collateral Source Offset",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": [
+     65000,
+     65000
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": 65000,
+    "kind": "defense",
+    "claimType": "other",
+    "strength": "favorable",
+    "figures": [
+     {
+      "label": "AT&T settlement payment",
+      "value": 65000,
+      "disputed": false,
+      "quote": "he paid AT&T $65,000 to resolve any claims arising from the termination of AT&T's lease with Appellant due to the Property's condemnation",
+      "computed": null
+     }
+    ],
+    "droppedFigures": 0,
+    "basis": "itemized"
+   },
+   {
+    "label": "Commissioners' Award as Floor/Interim Recovery",
+    "probabilityRange": [
+     0.95,
+     0.99
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "conceded",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "just_compensation_valuation",
+    "strength": "conceded",
+    "figures": [],
+    "droppedFigures": 1,
+    "basis": null
+   }
+  ],
+  "citationCoverage": {
+   "count": 22,
+   "tier": "strong"
+  }
+ },
+ "error": null,
+ "outcome": {
+  "amount": 573000,
+  "amountIsTheRequestedAmount": true,
+  "date": "2020-04-21",
+  "description": "After a seven-day jury trial in May 2018 the jury awarded $573,000, the value given by LCRA's appraiser and $244,589.59 below the commissioners' $817,589.59 award (the owner's appraiser said $4.93 million); the court denied a post-trial homestead allowance and taxed $21,207.13 costs against the owner. The Eastern District affirmed on April 21, 2020.",
+  "attorneysFeesAtTrial": null,
+  "attorneysFeesOnAppeal": null,
+  "appellateChange": "affirmed",
+  "finalAmount": 573000,
+  "finalNote": "Affirmed."
+ },
+ "source": {
+  "caseName": "Land Clearance for Redevelopment Authority of the City of St. Louis v. James Townsend Osher",
+  "court": "Missouri Court of Appeals, Eastern District, Division Two, on appeal from the Circuit Court of the City of St. Louis",
+  "docket": "No. ED107081",
+  "decided": "2020-04-21",
+  "url": "https://storage.courtlistener.com/pdf/2020/04/21/land_clearance_for_redevelopment_authority_of_the_city_of_st._louis_v..pdf",
+  "excerptNote": "Verbatim from the Factual and Procedural Background: Pre-Trial (condemnation filing, commissioners' award, exceptions) and Trial (each side's evidence, including both appraisers). Removed: the Introduction (judgment amount and costs), the judge-assignment/recusal motions, footnotes 1-4 and one footnote marker, the 'Jury Verdict and Homestead Allowance' section and everything after it. LCRA's appraiser's figure, which the jury adopted, is retained as a party's stated position, so amountIsTheRequestedAmount is true. The building was zoned industrial; the owner's post-verdict homestead (primary-residence) claim was denied and is not part of the input."
+ }
+}

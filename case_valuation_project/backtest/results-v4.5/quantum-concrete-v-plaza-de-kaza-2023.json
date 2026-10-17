@@ -1,0 +1,193 @@
+{
+ "id": "quantum-concrete-v-plaza-de-kaza-2023",
+ "ranAt": "2026-10-17T13:46:50+00:00",
+ "status": 200,
+ "prediction": {
+  "model": "claude-sonnet-5",
+  "analysisVersion": "v4.5",
+  "cost": {
+   "totalUsd": 0.203,
+   "analysisUsd": 0.1922,
+   "analysisUsage": {
+    "input_tokens": 3095,
+    "cache_creation_input_tokens": 9704,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 9704,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 9768,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard",
+    "output_tokens_details": {
+     "thinking_tokens": 4586
+    }
+   }
+  },
+  "category": "construction-defect",
+  "roleLabel": "Contractor / Design Professional",
+  "damagesRange": [
+   0,
+   24179.35
+  ],
+  "bestGuessValue": 16321.06125,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": "Quantum is more likely than not to recover the bulk of its unpaid final invoice at trial, given the agreed remedial fix performed at the owner's request, the engineer's own admission that catch-basin misplacement (not Quantum's pour) was the root cause, and Plaza de Kaza's failure to put any repair-cost or diminution figure into the record to support a meaningful offset. The main risk is a partial reduction if the court credits Darehshori's testimony that the traffic circle remained materially nonconforming after the second pour; a complete defense verdict for Plaza de Kaza is possible but less likely on this record.",
+  "issues": [
+   {
+    "label": "Breach of Contract -- Unpaid Final Invoice",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": [
+     0,
+     24179.35
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": 24179.35,
+    "kind": "claim",
+    "claimType": "other",
+    "strength": "favorable",
+    "figures": [
+     {
+      "label": "Unpaid final invoice balance",
+      "value": 24179.35,
+      "disputed": true,
+      "quote": "he refused to pay the remaining $24,179.35 balance",
+      "computed": null
+     }
+    ],
+    "droppedFigures": 0,
+    "basis": "itemized"
+   },
+   {
+    "label": "Unjust Enrichment (Alternative Theory)",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "other",
+    "strength": "favorable",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null
+   },
+   {
+    "label": "Plaza de Kaza's Counterclaim -- Defective Traffic-Circle Curbing",
+    "probabilityRange": [
+     0.25,
+     0.4
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "contractor_breach_negligence",
+    "strength": "unfavorable",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null
+   },
+   {
+    "label": "Cure / Accord and Satisfaction Defense",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "defense",
+    "claimType": "other",
+    "strength": "favorable",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null
+   },
+   {
+    "label": "Third-Party Causation -- Engineer/Excavator Fault",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "defense",
+    "claimType": "other",
+    "strength": "favorable",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null
+   },
+   {
+    "label": "Agency -- Dykstra as Plaza de Kaza's Agent vs. Personal Contracting Party",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "other",
+    "strength": "favorable",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null
+   },
+   {
+    "label": "Construction Lien Foreclosure Claim (Dismissed)",
+    "probabilityRange": [
+     0.95,
+     0.99
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "defaulted",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "other",
+    "strength": "conceded",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null
+   }
+  ],
+  "citationCoverage": {
+   "count": 29,
+   "tier": "strong"
+  }
+ },
+ "error": null,
+ "outcome": {
+  "amount": 24179.35,
+  "amountIsTheRequestedAmount": true,
+  "date": "2023-09-14",
+  "description": "After a three-day bench trial the court found Dykstra breached his agreement with Quantum and Plaza de Kaza was unjustly enriched, and entered judgment against both for $24,179.35 (the full final invoice, no setoffs), rejecting Plaza de Kaza's counterclaims; Quantum's later motion for attorney-fee sanctions was denied. The Court of Appeals affirmed (Quantum's challenges to the lien dismissal and the sanctions ruling failed).",
+  "attorneysFeesAtTrial": null,
+  "attorneysFeesOnAppeal": null,
+  "finalAmount": 24179.35,
+  "finalNote": "Affirmed."
+ },
+ "source": {
+  "caseName": "Quantum Concrete, Inc. v. Plaza de Kaza, LLC, and Ronald A. Dykstra, d/b/a Dykstra Homes",
+  "court": "Michigan Court of Appeals (unpublished), on appeal from the Kent County Circuit Court",
+  "docket": "No. 361420 (LC No. 19-003189-CB)",
+  "decided": "2023-09-14",
+  "url": "https://www.courts.michigan.gov/4a4e27/siteassets/case-documents/uploads/opinions/final/coa/20230914_c361420_42_361420.opn.pdf",
+  "excerptNote": "documentText is verbatim from Part I (Basic Facts): the bench-trial testimony of both sides, the pleadings, and the pretrial summary-disposition ruling dismissing the lien-foreclosure claim. Removed: the opening summary, footnote 1 and its marker, and the paragraphs reporting the bench-trial verdict, damages, and the sanctions ruling, plus all appellate analysis. Note: the judgment equals the unpaid final invoice, which appears in the text as the balance the owner refused to pay."
+ }
+}

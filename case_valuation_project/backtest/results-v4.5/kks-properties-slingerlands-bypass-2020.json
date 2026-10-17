@@ -1,0 +1,150 @@
+{
+ "id": "kks-properties-slingerlands-bypass-2020",
+ "ranAt": "2026-10-17T14:19:13+00:00",
+ "status": 200,
+ "prediction": {
+  "model": "claude-sonnet-5",
+  "analysisVersion": "v4.5",
+  "cost": {
+   "totalUsd": 0.2584,
+   "analysisUsd": 0.2535,
+   "analysisUsage": {
+    "input_tokens": 2164,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 9341,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 16280,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard",
+    "output_tokens_details": {
+     "thinking_tokens": 11520
+    }
+   }
+  },
+  "category": "eminent-domain",
+  "roleLabel": "Property Owner",
+  "damagesRange": [
+   406125,
+   874000
+  ],
+  "bestGuessValue": 847780,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": "KKS Properties will recover just compensation for the 9.5-acre direct taking at a per-acre rate the court sets somewhere between the State's $45,000/acre and claimant's $92,000/acre figures, producing a floor in the roughly $430,000-$875,000 range before any severance damages. Severance damages to the 18.464-acre western remainder remain legally available despite the adverse 'not landlocked' collateral estoppel ruling, but that ruling meaningfully undercuts claimant's strongest 'total loss of value' theory, and no after-taking value or severance figure appears in the materials provided to quantify that component; the actual trial record (not excerpted here) likely contains the number that would push the award above this floor.",
+  "issues": [
+   {
+    "label": "Just Compensation \u2014 Pre-Appropriation Value Methodology Dispute",
+    "probabilityRange": [
+     0.95,
+     0.99
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "conceded",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "just_compensation_valuation",
+    "strength": "conceded",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null
+   },
+   {
+    "label": "Direct Compensation for the Appropriated 9.5-Acre Strip",
+    "probabilityRange": [
+     0.95,
+     0.99
+    ],
+    "damagesRange": [
+     427500,
+     874000
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "conceded",
+    "supportedCeiling": 874000,
+    "kind": "claim",
+    "claimType": "just_compensation_valuation",
+    "strength": "conceded",
+    "figures": [
+     {
+      "label": "Claimant's commercially-developable rate applied to taken strip",
+      "value": 874000,
+      "disputed": true,
+      "quote": "the commercially developable portion of the property had a value of $92,000 per acre",
+      "computed": "92000 x 9.5"
+     },
+     {
+      "label": "State's blanket appraisal rate applied to taken strip",
+      "value": 427500,
+      "disputed": true,
+      "quote": "calculated the property's preappropriation value to be $45,000 per acre",
+      "computed": "45000 x 9.5"
+     }
+    ],
+    "droppedFigures": 0,
+    "basis": "competing"
+   },
+   {
+    "label": "Severance/Consequential Damages to Western Parcel (Access Restriction)",
+    "probabilityRange": [
+     0.25,
+     0.4
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "just_compensation_valuation",
+    "strength": "unfavorable",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null
+   },
+   {
+    "label": "Collateral Estoppel Bar on Relitigating Landlocked Status",
+    "probabilityRange": [
+     0.95,
+     0.99
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "conceded",
+    "supportedCeiling": null,
+    "kind": "defense",
+    "claimType": "pre_condemnation_access_dispute",
+    "strength": "conceded",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null
+   }
+  ],
+  "citationCoverage": {
+   "count": 22,
+   "tier": "strong"
+  }
+ },
+ "error": null,
+ "outcome": {
+  "amount": 744500,
+  "amountIsTheRequestedAmount": false,
+  "date": "2020-10-29",
+  "description": "After a four-day January 2018 trial the Court of Claims credited the State's appraiser (with its own adjustments, preappropriation value $52,339 per acre or $1,662,810), found the western remainder's post-taking highest and best use was multifamily residential, and awarded KKS $744,500 in direct and consequential damages. The Third Department affirmed the amended judgment on October 29, 2020. (An earlier award of $532,000 had been reversed in 2014.)",
+  "attorneysFeesAtTrial": null,
+  "attorneysFeesOnAppeal": null,
+  "appellateChange": "affirmed",
+  "finalAmount": 744500,
+  "finalNote": "Affirmed."
+ },
+ "source": {
+  "caseName": "Matter of Acquisition of Real Property by the State of New York (KKS Properties, LLC, claimant)",
+  "court": "Supreme Court of the State of New York, Appellate Division, Third Department, on appeal from the Court of Claims",
+  "docket": "529374; 2020 NY Slip Op 06185",
+  "decided": "2020-10-29",
+  "url": "https://storage.courtlistener.com/html/2020/10/29/matter_of_acquisition_of_real_prop._by_the_state_of_new_york.html",
+  "excerptNote": "Verbatim from the background (property, 2006 appropriation, prior proceedings) and the decision's descriptions of the parties' trial evidence (both appraisers' preappropriation valuations, the State appraiser's post-taking multifamily testimony, the claimant's access argument and engineer's opinion). Removed: the sentence reporting the first trial's award (reversed in 2014), the sentence reporting the 2018 award, the Court of Claims' findings (its own per-acre value and treatment of each appraisal), footnotes and all appellate reasoning. Two sentences are cut at a semicolon before the court's evaluation of them (the cut is marked by a period), so their second halves are omitted. The decision does not state either appraiser's after-taking value or damages total. Official reporter copy: 2020 NY Slip Op 06185."
+ }
+}

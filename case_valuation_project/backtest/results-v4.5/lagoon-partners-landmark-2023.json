@@ -1,0 +1,204 @@
+{
+ "id": "lagoon-partners-landmark-2023",
+ "ranAt": "2026-10-17T13:22:07+00:00",
+ "status": 200,
+ "prediction": {
+  "model": "claude-sonnet-5",
+  "analysisVersion": "v4.5",
+  "cost": {
+   "totalUsd": 0.2168,
+   "analysisUsd": 0.2066,
+   "analysisUsage": {
+    "input_tokens": 2384,
+    "cache_creation_input_tokens": 10163,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 10163,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 10755,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard",
+    "output_tokens_details": {
+     "thinking_tokens": 4657
+    }
+   }
+  },
+  "category": "lease-disputes",
+  "roleLabel": "Landlord",
+  "damagesRange": [
+   291369.60000000003,
+   1808470
+  ],
+  "bestGuessValue": 1284454.35,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": "Lagoon should win on liability for the pre-termination unpaid rent ($364,212) and likely defeat the frustration-of-purpose defense as a matter of law, but the accelerated/future-rent component is unlikely to be fully resolved on this early summary-judgment motion given the genuine, document-supported mitigation dispute (the redevelopment/performance-venue evidence) and Landmark's pending request to depose Abdul before the discovery deadline. Expect partial summary judgment for Lagoon on unpaid rent and the frustration defense, with the penalty-doctrine and mitigation issues going to trial or a later motion, producing a total recovery below the full $1,808,470 demanded \u2014 most likely in the $950,000-$1,808,470 band depending on how the liquidated-damages and mitigation issues shake out.",
+  "issues": [
+   {
+    "label": "Unpaid pre-termination rent",
+    "probabilityRange": [
+     0.8,
+     0.9
+    ],
+    "damagesRange": [
+     364212,
+     364212
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": 364212,
+    "kind": "claim",
+    "claimType": "unpaid_rent",
+    "strength": "strong",
+    "figures": [
+     {
+      "label": "Unpaid rent as of May 2021",
+      "value": 364212,
+      "disputed": false,
+      "quote": "Lagoon demanded payment of $364,212 in unpaid rent as of May 2021",
+      "computed": null
+     }
+    ],
+    "droppedFigures": 0,
+    "basis": "itemized"
+   },
+   {
+    "label": "Accelerated / present-value future rent under liquidated damages clause",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": [
+     0,
+     1444258
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": 1444258,
+    "kind": "claim",
+    "claimType": "accelerated_rent",
+    "strength": "favorable",
+    "figures": [
+     {
+      "label": "Present value of future rent payments demanded",
+      "value": 1444258,
+      "disputed": true,
+      "quote": "$1,444,258 for the present value of future rent payments",
+      "computed": null
+     }
+    ],
+    "droppedFigures": 0,
+    "basis": "itemized"
+   },
+   {
+    "label": "Mitigation dispute / landlord's own redevelopment use",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "defense",
+    "claimType": "releasing_mitigation_costs",
+    "strength": "favorable",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null
+   },
+   {
+    "label": "Frustration of purpose defense",
+    "probabilityRange": [
+     0.05,
+     0.2
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "defense",
+    "claimType": "other",
+    "strength": "weak",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null
+   },
+   {
+    "label": "Unenforceable penalty defense against liquidated damages clause",
+    "probabilityRange": [
+     0.45,
+     0.55
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "defense",
+    "claimType": "other",
+    "strength": "even",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null
+   },
+   {
+    "label": "Premature summary judgment / discovery continuance request",
+    "probabilityRange": [
+     0.25,
+     0.4
+    ],
+    "damagesRange": null,
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "defense",
+    "claimType": "other",
+    "strength": "unfavorable",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null
+   },
+   {
+    "label": "Attorney fees under lease fee-shifting provision",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "attorney_fees",
+    "strength": "favorable",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null
+   }
+  ],
+  "citationCoverage": {
+   "count": 39,
+   "tier": "strong"
+  }
+ },
+ "error": null,
+ "outcome": {
+  "amount": 1808470,
+  "amountIsTheRequestedAmount": true,
+  "date": "2023-12-11",
+  "description": "The district court granted Lagoon summary judgment in June 2022, held the liquidated-damages clause enforceable so that no mitigation was required, and (after Lagoon waived attorney fees) entered judgment for $1,808,470 plus costs. The Minnesota Court of Appeals reversed on December 11, 2023, holding the liquidated-damages clause unenforceable because actual damages were capable of estimation and the clause ignored the duty to mitigate, and remanded for further proceedings on actual damages and mitigation.",
+  "attorneysFeesAtTrial": null,
+  "appellateChange": "reversed",
+  "finalAmount": null,
+  "finalNote": "Reversed (liquidated-damages clause unenforceable) and remanded; no final figure yet."
+ },
+ "source": {
+  "caseName": "Lagoon Partners, LLC v. Silver Cinemas Acquisition Co., d/b/a Landmark Theatres",
+  "court": "Minnesota Court of Appeals",
+  "docket": "A23-0194 (Hennepin County District Court File No. 27-CV-21-11262)",
+  "decided": "2023-12-11",
+  "url": "http://mn.gov/law-library-stat/archive/ctappub/2023/OPa230194-121123.pdf",
+  "excerptNote": "Verbatim sentences from the FACTS section (Lease Agreement, Default, Litigation) through the parties' summary-judgment briefing; the opening description of the theater, the block-quoted termination clause, the scheduling-order sentences, and some executive-order detail were omitted for length. Removed: the syllabus and opening paragraph stating the court's conclusion, the block quote of the statutory-limit liquidated-damages language, the executive-order citations, footnotes, the paragraph describing the district court's summary-judgment order and judgment amount, and all analysis. Lagoon's $1,808,470 demand is retained as a pre-outcome fact."
+ }
+}

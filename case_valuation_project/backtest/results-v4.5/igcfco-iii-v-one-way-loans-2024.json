@@ -1,0 +1,240 @@
+{
+ "id": "igcfco-iii-v-one-way-loans-2024",
+ "ranAt": "2026-10-17T13:25:27+00:00",
+ "status": 200,
+ "prediction": {
+  "model": "claude-sonnet-5",
+  "analysisVersion": "v4.5",
+  "cost": {
+   "totalUsd": 0.3207,
+   "analysisUsd": 0.3095,
+   "analysisUsage": {
+    "input_tokens": 3989,
+    "cache_creation_input_tokens": 9989,
+    "cache_read_input_tokens": 0,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 9989,
+     "ephemeral_1h_input_tokens": 0
+    },
+    "output_tokens": 17336,
+    "service_tier": "standard",
+    "inference_geo": "global",
+    "speed": "standard",
+    "output_tokens_details": {
+     "thinking_tokens": 11509
+    }
+   }
+  },
+  "category": "lending-foreclosure",
+  "roleLabel": "Lender",
+  "damagesRange": [
+   -4492008.15,
+   5287812
+  ],
+  "bestGuessValue": 224317.4100000001,
+  "whatIsNeededForEstimate": null,
+  "likelyOutcome": "IGCFCO III is very likely to obtain a deficiency judgment, since liability was already fixed by the consent judgment and the lender's documented broker-led marketing process (CBRE, 54,000+ outreach emails, multiple offers, best-price acceptance) is a strong commercial-reasonableness showing against an unsworn, procedurally defective opposition. The principal risk is a partial credit/offset for the gap between the $5,275,000 sale price and the $7,990,000 asking price if the court grants defendants' requested discovery and finds some marketing or timing deficiency, trimming the deficiency below the $5,287,812 requested but unlikely to eliminate it; the rents-offset argument is unlikely to succeed given the lender's uncontroverted evidence of a net operating loss during the possession period.",
+  "issues": [
+   {
+    "label": "Final Deficiency Judgment Amount",
+    "probabilityRange": [
+     0.6,
+     0.75
+    ],
+    "damagesRange": [
+     0,
+     5287812
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "contested",
+    "supportedCeiling": 5287812,
+    "kind": "claim",
+    "claimType": "foreclosure_deficiency_judgment",
+    "strength": "favorable",
+    "figures": [
+     {
+      "label": "Total deficiency claimed in the April 2023 motion",
+      "value": 5287812,
+      "disputed": true,
+      "quote": "created a deficiency of $5,287,812",
+      "computed": null
+     }
+    ],
+    "droppedFigures": 0,
+    "basis": "itemized"
+   },
+   {
+    "label": "Commercial Reasonableness of the Sale / Fair-Value Offset",
+    "probabilityRange": [
+     0.45,
+     0.55
+    ],
+    "damagesRange": [
+     -7990000,
+     -5275000
+    ],
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": -7990000,
+    "kind": "defense",
+    "claimType": "foreclosure_deficiency_judgment",
+    "strength": "even",
+    "figures": [
+     {
+      "label": "Actual sale price to Shaw Walker (lender's position)",
+      "value": 5275000,
+      "disputed": true,
+      "quote": "The offer to purchase by Shaw Walker of $5,275,000.00 was the best offer received for the purchase of the Property.",
+      "computed": null
+     },
+     {
+      "label": "Asking price (defendants' claimed fair value)",
+      "value": 7990000,
+      "disputed": true,
+      "quote": "far below the asking price of $7,990,000",
+      "computed": null
+     }
+    ],
+    "droppedFigures": 0,
+    "basis": "competing"
+   },
+   {
+    "label": "Rents/Recoveries Credit During Possession",
+    "probabilityRange": [
+     0.05,
+     0.2
+    ],
+    "damagesRange": [
+     -500000,
+     0
+    ],
+    "claimant": "opposing",
+    "liabilityStatus": "contested",
+    "supportedCeiling": -500000,
+    "kind": "defense",
+    "claimType": "foreclosure_deficiency_judgment",
+    "strength": "weak",
+    "figures": [
+     {
+      "label": "Net operating loss during possession period (no rents to credit)",
+      "value": 500000,
+      "disputed": true,
+      "quote": "causing a net loss of $500,000 in income to plaintiff",
+      "computed": null
+     }
+    ],
+    "droppedFigures": 0,
+    "basis": "itemized"
+   },
+   {
+    "label": "Guaranty Liability of Watermark, Coffee Factory, and Gross",
+    "probabilityRange": [
+     0.95,
+     0.99
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "conceded",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "guaranty_enforcement",
+    "strength": "conceded",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null
+   },
+   {
+    "label": "Contempt Sanctions / Security Deposit Turnover",
+    "probabilityRange": [
+     0.95,
+     0.99
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "conceded",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "other",
+    "strength": "conceded",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null
+   },
+   {
+    "label": "Contempt-Related Attorney Fees",
+    "probabilityRange": [
+     0.95,
+     0.99
+    ],
+    "damagesRange": [
+     2623,
+     2623
+    ],
+    "claimant": "represented",
+    "liabilityStatus": "conceded",
+    "supportedCeiling": 2623,
+    "kind": "claim",
+    "claimType": "attorney_fees",
+    "strength": "conceded",
+    "figures": [
+     {
+      "label": "First contempt order attorney fees",
+      "value": 1000,
+      "disputed": false,
+      "quote": "ordering defendants to pay plaintiff $27,377 in security deposits, along with $1,000 for attorney fees, within 30 days",
+      "computed": null
+     },
+     {
+      "label": "Second contempt order attorney fees",
+      "value": 1623,
+      "disputed": false,
+      "quote": "an order was subsequently entered directing defendants to pay plaintiff $28,377 in security deposits and $1,623 in attorney fees",
+      "computed": null
+     }
+    ],
+    "droppedFigures": 0,
+    "basis": "itemized"
+   },
+   {
+    "label": "Receivership (Count IV)",
+    "probabilityRange": [
+     0.95,
+     0.99
+    ],
+    "damagesRange": null,
+    "claimant": "represented",
+    "liabilityStatus": "conceded",
+    "supportedCeiling": null,
+    "kind": "claim",
+    "claimType": "receivership_dispute",
+    "strength": "conceded",
+    "figures": [],
+    "droppedFigures": 0,
+    "basis": null
+   }
+  ],
+  "citationCoverage": {
+   "count": 32,
+   "tier": "strong"
+  }
+ },
+ "error": null,
+ "outcome": {
+  "amount": 5287812.0,
+  "amountIsTheRequestedAmount": true,
+  "date": "2024-08-08",
+  "description": "On May 26, 2023, after a hearing on the lender's motion and without an evidentiary hearing, the trial court found the sale commercially reasonable at $5,275,000, refused any offset for rents, and entered a final deficiency judgment for the lender of $5,287,812 (the amount requested) with 13% interest capped at $500,000. The Court of Appeals affirmed, holding UCC Article 9 inapplicable and the consent judgment controlling.",
+  "attorneysFeesAtTrial": null,
+  "attorneysFeesOnAppeal": null,
+  "finalAmount": 5287812.0,
+  "finalNote": "Affirmed."
+ },
+ "source": {
+  "caseName": "IGCFCO III, LLC v. One Way Loans, LLC, d/b/a Powerlend; P&G Holdings, LLC, Watermark Banquet and Conference Center, LLC, The Coffee Factory, LLC, and Moses Gross",
+  "court": "Michigan Court of Appeals (published), on appeal from the Muskegon County Circuit Court",
+  "docket": "No. 366535 (LC No. 2021-001755-CB)",
+  "decided": "2024-08-08",
+  "url": "https://www.courts.michigan.gov/4a298a/siteassets/case-documents/uploads/opinions/final/coa/20240808_c366535_30_366535.opn.pdf",
+  "excerptNote": "documentText is verbatim from Part I (Factual Background): the loan, default, complaint, consent judgment, contempt proceedings, the lender's deficiency motion, the borrowers' response, the lender's reply, and the parties' arguments at the hearing. Removed: footnote 1 (Powerlend's non-appearance) and its marker, the trial court's bench ruling and the final deficiency judgment amount, and all of Part II (appellate analysis and holding). Note: the deficiency judgment equals the figure the lender requested in its motion, which remains in the text as the lender's demand. Whitespace and page-number artifacts normalized only."
+ }
+}
