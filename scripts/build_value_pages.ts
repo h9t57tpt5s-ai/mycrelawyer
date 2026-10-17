@@ -273,4 +273,53 @@ for (const p of PAGES) {
   h = h.slice(0, h.indexOf(start) + start.length) + block + h.slice(h.indexOf(end));
   await Deno.writeTextFile(f, h);
 }
+// The calculator page's "why use a model" section (2026-10-17, Jeff: "People
+// need to know this. There is inherently bias in valuing cases"): two
+// published studies of lawyer and party prediction error, and the
+// calculator's own liability calibration computed from the issue-level
+// coding of the backtest (case_valuation_project/backtest/issue-coding-*.json).
+{
+  const f = "case-valuation.html";
+  let h = await Deno.readTextFile(f);
+  const start = "<!--prerender:cv-bias-->", end = "<!--/prerender:cv-bias-->";
+  if (!h.includes(start) || !h.includes(end)) throw new Error(`${f}: cv-bias markers missing`);
+  const codingFiles = [...Deno.readDirSync("case_valuation_project/backtest")].map((e) => e.name).filter((n) => /^issue-coding-.*\.json$/.test(n)).sort();
+  const coding = JSON.parse(await Deno.readTextFile(`case_valuation_project/backtest/${codingFiles.at(-1)}`));
+  const tally: Record<string, { won: number; n: number }> = {};
+  let issues = 0;
+  for (const c of coding.cases) {
+    for (const i of c.issues) {
+      if (!["won", "partial", "lost"].includes(i.result)) continue;
+      issues++;
+      const t = tally[i.strength] ||= { won: 0, n: 0 };
+      t.n++; if (i.result !== "lost") t.won++;
+    }
+  }
+  const pct = (b: string) => tally[b] && tally[b].n >= 10 ? Math.round(100 * tally[b].won / tally[b].n) : null;
+  const fav = pct("favorable"), weak = pct("weak"), strong = pct("strong");
+  const block = `
+    <div class="eyebrow">Why use a model</div>
+    <h2 style="font-size:clamp(1.4rem,2.2vw,1.9rem); margin-bottom:14px;">Everyone in a dispute overestimates their own case</h2>
+    <div class="grid-3" style="gap:18px; margin-top:8px;">
+      <div class="card" style="padding:20px;">
+        <div style="font-family:var(--font-display); font-size:2rem; color:var(--accent);">481 lawyers</div>
+        <p class="text-secondary" style="font-size:14px; line-height:1.6; margin-top:8px;">predicted the outcomes of their own cases before trial. As a group they were overconfident, and their accuracy did not improve with years of experience.</p>
+        <p class="text-muted" style="font-size:12px; margin-top:8px;"><a href="https://news.uci.edu/2010/05/11/loftus" target="_blank" rel="noopener">Goodman-Delahunty, Granhag, Hartwig &amp; Loftus, <em>Psychology, Public Policy, and Law</em> (2010) ↗</a></p>
+      </div>
+      <div class="card" style="padding:20px;">
+        <div style="font-family:var(--font-display); font-size:2rem; color:var(--accent);">61.2%</div>
+        <p class="text-secondary" style="font-size:14px; line-height:1.6; margin-top:8px;">of plaintiffs who turned down a settlement offer and went to trial or arbitration did no better than the defendant's last offer, in 2,054 cases. Defendants paid more than the plaintiff's last demand 24.3% of the time, and their mistakes cost more.</p>
+        <p class="text-muted" style="font-size:12px; margin-top:8px;"><a href="https://www.kellogg.northwestern.edu/academics-research/research/detail/2008/lets-not-make-a-deal-an-empirical-study-of/" target="_blank" rel="noopener">Kiser, Asher &amp; McShane, <em>Journal of Empirical Legal Studies</em> (2008) ↗</a></p>
+      </div>
+      <div class="card" style="padding:20px;">
+        <div style="font-family:var(--font-display); font-size:2rem; color:var(--accent);">${fav !== null ? `${fav}%` : "Measured"}</div>
+        <p class="text-secondary" style="font-size:14px; line-height:1.6; margin-top:8px;">${fav !== null ? `of claims this calculator rated "favorable" (60–75% likely) were won on liability${weak !== null ? `; claims it rated "weak" won ${weak}%` : ""}${strong !== null ? ` and "strong" ${strong}%` : ""}.` : "Every rating is checked against how the court actually ruled."} Measured on ${issues} claims in ${coding.cases.length} resolved cases, each checked against the court's opinion.</p>
+        <p class="text-muted" style="font-size:12px; margin-top:8px;"><a href="/case-valuation-calibration.html">Every case, hits and misses →</a></p>
+      </div>
+    </div>
+    <p class="body-text" style="max-width:780px; margin-top:20px;">A party's own lawyer has a client to please and a fee riding on the answer. This calculator weighs both sides' facts the same way every time and says how often its ratings come true. Where it is weaker today is <em>how much</em>: winners often recover less than everything they claim, and we publish those misses too while we rebuild the damages measure.</p>
+  `;
+  h = h.slice(0, h.indexOf(start) + start.length) + block + h.slice(h.indexOf(end));
+  await Deno.writeTextFile(f, h);
+}
 console.log(`${written.length} value pages written (${VERSION}); case-valuation.html real-cases block updated`);
