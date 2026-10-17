@@ -198,6 +198,23 @@
    "baseline": 0,
    "checkAfter": "2026-10-23",
    "status": "watching"
+  },
+  {
+   "id": "imp-015",
+   "date": "2026-10-17",
+   "track": "subscription",
+   "title": "Added a sample alert email and sample portfolio report to monitor.html",
+   "why": "No entry in this log has ever been tagged track=subscription since the mission was rewritten 2026-10-13 (4 days ago). This run's mostBehind order (calculator, conversion, traffic, news) and the last-2-runs tiebreak would normally point to traffic next, but the 2026-10-16 'one open experiment per goal' backlog rule blocks that: traffic (imp-006/009/012), conversion (imp-007/010/013) and calculator (imp-008/011/014) each already have 3 unjudged watching changes live on the same pages, none of which can be judged on its own yet. News is 'on track' in today's goals.json (gap 0.0) with no open item needing work. Subscription had zero open experiments and zero changes ever, so it got this run's work: playbook checklist item 1 ('Monitor and alerts explained with a sample alert email and a sample portfolio report on the product pages') was still undone -- monitor.html explained alerts in prose only, with no mockup of what a subscriber actually receives, exactly the kind of gap a buyer's procurement/compliance review (CLAUDE.md's subscription priorities) would flag.",
+   "files": ["monitor.html"],
+   "commit": "a4d0f30",
+   "metric": "goals.json conversion.metrics.signUps7 and contactSends7 (weak proxy -- no dedicated subscription metric exists; this is a product-page clarity fix, not something with its own tracked number)",
+   "window": "7 days",
+   "baseline": {
+    "signUps7": 2,
+    "contactSends7": 0
+   },
+   "checkAfter": "2026-10-24",
+   "status": "watching"
   }
  ]
 }
