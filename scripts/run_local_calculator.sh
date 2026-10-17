@@ -15,6 +15,8 @@ if [ -z "${ANTHROPIC_API_KEY:-}" ]; then
   echo "ANTHROPIC_API_KEY is not set. Add 'export ANTHROPIC_API_KEY=...' to ~/.zshrc first." >&2
   exit 1
 fi
+# A user-linked key also needs ANTHROPIC_WORKSPACE_ID (the console's
+# Settings > Workspaces page shows it); set it in ~/.zshrc if Anthropic asks.
 export LOCAL_CITATIONS_FILE="$PWD/case_valuation_project/data/claim_citations_v2.json"
 export LOCAL_CASE_DATA_FILE="$PWD/js/case-valuation-data.js"
 export AUTOMATION_SECRET="local-test"

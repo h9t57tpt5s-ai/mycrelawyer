@@ -118,6 +118,7 @@ const V45_VARIANT = "v4.5";
 const V6_VARIANT = "v6";
 const v6Rules = (asOf: string) =>
   "FIGURE ROLES AND INTEREST (v6): give every figure a role. 'amount': part of what is owed or claimed (rent, principal, repair cost, lost profits, severance damages). 'credit': money that reduces the claim (payments received, foreclosure or sale proceeds, the value of collateral credited against the debt, a security deposit held, a setoff). 'cap': a contractual or statutory limit on recovery (a guaranty limited to a stated amount). 'before_value' and 'after_value': the property's value before and after a taking or damage, one figure per appraisal or witness. The system computes the result in code: amounts plus interest, less credits, within any cap; in a taking, before-value minus after-value. Never net a credit into an amount yourself, and never list a before-taking value as an 'amount'. " +
+  "In a partial taking, the value of the land actually taken IS an 'amount': when the record gives a per-acre or per-square-foot value and the area taken, list it as rate x periods (the per-unit value as the rate, the acres or square feet taken as the periods), one figure per appraisal, basis 'competing'. Use before/after values for damage to the remainder. " +
   "INTEREST: when the record states an interest rate (contract, default or statutory) and the date it runs from for a claim, set that issue's interest with ratePercent, fromDate (YYYY-MM-DD), and a verbatim rateQuote and dateQuote copied from the materials; otherwise null. The system accrues simple interest to the valuation date, " + asOf + "; do not compute interest yourself, and do not also list accrued interest as an amount when you give the rate and date. ";
 const V45_RULES =
   "WHAT A FIGURE IS WORTH (v4.5): a figure being true is not the same as it being awarded. The strength band you choose for an issue is the probability that its figure is actually awarded as damages under the theory that governs -- not whether the figure itself is accurate or undisputed. A loan's face amount, a demand, a prayer for punitive damages, a billed rent total or the capital investors put in are facts about what was owed, asked for or invested. Before rating such an issue 'conceded', 'strong' or 'favorable', check the record for (a) any count that was abandoned, dismissed, withdrawn or superseded -- an abandoned count is not an issue at all -- and (b) any rule the record states or plainly implicates that measures or caps recovery differently: rent recoverable only through repossession after an eviction rather than for the rest of the term, a guaranty limited to a stated amount or to carve-out losses, credits for payments, sale proceeds or collateral value, a securities-damages measure based on price decline rather than capital raised, punitive damages that need findings the record does not show. Where such a rule applies, price the issue on the figure the rule produces if the record states one, lower the band, or add a separate offsetting issue with its own quoted figures. Never let the largest figure in the record become the ceiling merely because it is the largest. " +
@@ -169,7 +170,11 @@ const supabaseAdmin = createClient(
   Deno.env.get("SUPABASE_SERVICE_ROLE_KEY") ?? "",
 );
 
-const anthropic = ANTHROPIC_API_KEY ? new Anthropic({ apiKey: ANTHROPIC_API_KEY }) : null;
+// A user-linked key (local testing) must name the workspace to bill.
+const ANTHROPIC_WORKSPACE_ID = Deno.env.get("ANTHROPIC_WORKSPACE_ID") ?? "";
+const anthropic = ANTHROPIC_API_KEY
+  ? new Anthropic({ apiKey: ANTHROPIC_API_KEY, ...(ANTHROPIC_WORKSPACE_ID ? { defaultHeaders: { "anthropic-workspace-id": ANTHROPIC_WORKSPACE_ID } } : {}) })
+  : null;
 
 // Browser CORS -- this function is called cross-origin, from
 // credocket.com's own JS, to a *.supabase.co URL. Without these headers
