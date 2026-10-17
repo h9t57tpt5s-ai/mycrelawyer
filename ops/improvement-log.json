@@ -338,6 +338,27 @@
    "checkAfter": "2026-10-31",
    "result": "watching",
    "note": "Open calculator experiment: per the one-experiment-per-goal rule, no further calculator changes until this is judged."
+  },
+  {
+   "id": "imp-017",
+   "date": "2026-10-17",
+   "track": "news",
+   "title": "Stop over-searching bare court-docket leads with no coverage; closed backlog G1",
+   "why": "30 of the last 85 skipped leads in ops/leads-handled.json (35%, 2026-10-08 through 2026-10-17) were bare ops/federal-suits.json or ops/ch11-petitions.json docket entries skipped for \"no reporting found\"/\"no coverage found\" -- the single biggest skip reason. Confirmed (sampling Madison Development LLC; Byblos Development, Inc. v. First-Citizens Bank & Trust Company; PNC Bank, N.A. v. WB Real Estate Development LLC) that each already has its own chapter-11/*.html or federal-cases/*.html page via scripts/ingest_court_filings.py + build_record_pages.ts, a pipeline separate from the digest, so skipping these as narrative matters loses no coverage. Every other goal (traffic, conversion, calculator, subscription) already had an open watching experiment per the \"one open experiment per goal\" backlog rule; news had none and had never had a tracked change since the 2026-10-13 mission rewrite.",
+   "files": [
+    "ops/digest-playbook.md",
+    "ops/improvement-playbook.md"
+   ],
+   "commit": "1b4befddb4635b893af460dc1b9dcddef48c55a6",
+   "metric": "ops/metrics/goals.json news.metrics.sourcedMatters7 / freshSourcedMatters7 / medianDaysEventToAdded",
+   "window": "7 days",
+   "baseline": {
+    "sourcedMatters7": 50,
+    "freshSourcedMatters7": 41,
+    "medianDaysEventToAdded": 5.0
+   },
+   "checkAfter": "2026-10-24",
+   "status": "watching"
   }
  ]
 }
