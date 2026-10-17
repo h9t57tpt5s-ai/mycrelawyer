@@ -26,6 +26,9 @@ import urllib.request
 
 FUNCTION_URL = "https://ribmcdyoydhmafnyfhpp.supabase.co/functions/v1/case-valuation-analyze"
 ANON_KEY = "sb_publishable_77xSJub0DOpnTSM4nzhVaQ_aztB5p3f"
+# --local points at scripts/run_local_calculator.sh on this Mac (no Supabase).
+LOCAL_URL = "http://localhost:8000"
+TARGET_URL = FUNCTION_URL
 RESULTS_ROOT = pathlib.Path("case_valuation_project/backtest")
 RESULTS_DIR = RESULTS_ROOT / "results"
 FORBIDDEN_INPUT_KEYS = {"outcome", "actual", "actualOutcome", "judgment", "verdict"}
@@ -55,7 +58,7 @@ def call_calculator(secret, inp, variant=""):
     if variant:  # candidate instructions, honored only for backtest requests
         body["promptVariant"] = variant
     req = urllib.request.Request(
-        FUNCTION_URL, data=json.dumps(body).encode(), method="POST",
+        TARGET_URL, data=json.dumps(body).encode(), method="POST",
         headers={"Content-Type": "application/json", "apikey": ANON_KEY,
                  "Authorization": f"Bearer {ANON_KEY}", "x-automation-secret": secret},
     )
@@ -105,10 +108,15 @@ def main():
     ap.add_argument("--only", default="", help="comma-separated case ids")
     ap.add_argument("--version", default="v1", help="results directory: v1 -> results/, v2 -> results-v2/")
     ap.add_argument("--variant", default="", help="candidate prompt variant to request, e.g. v4.5 (backtest only)")
+    ap.add_argument("--local", action="store_true", help="run against the local function (scripts/run_local_calculator.sh), secret 'local-test'")
     args = ap.parse_args()
     global RESULTS_DIR
     RESULTS_DIR = RESULTS_ROOT / ("results" if args.version == "v1" else f"results-{args.version}")
 
+    global TARGET_URL
+    if args.local:
+        TARGET_URL = LOCAL_URL
+        os.environ.setdefault("AUTOMATION_SECRET", "local-test")
     secret = os.environ.get("AUTOMATION_SECRET", "").strip()
     if not secret:
         sys.exit("AUTOMATION_SECRET is required.")

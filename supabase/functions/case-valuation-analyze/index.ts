@@ -144,6 +144,16 @@ function logUsage(
   return cost;
 }
 
+// Local testing (2026-10-17, Jeff: "run the model testing locally so we
+// don't incur supabase charges until we are ready for it to go live"):
+// scripts/run_local_calculator.sh runs this file with Deno on the Mac. With
+// LOCAL_CITATIONS_FILE set (never in production) the citation bench and the
+// public case data are read from local files and contributed settlements are
+// skipped, so a local run makes no Supabase calls; it still calls the
+// Anthropic API, which is where each analysis costs money.
+const LOCAL_CITATIONS_FILE = Deno.env.get("LOCAL_CITATIONS_FILE") ?? "";
+const LOCAL_CASE_DATA_FILE = Deno.env.get("LOCAL_CASE_DATA_FILE") ?? "";
+
 const supabaseAdmin = createClient(
   Deno.env.get("SUPABASE_URL") ?? "",
   Deno.env.get("SUPABASE_SERVICE_ROLE_KEY") ?? "",
@@ -228,9 +238,14 @@ type CaseData = {
 let cachedCaseData: CaseData | null = null;
 async function loadCaseData(): Promise<CaseData> {
   if (cachedCaseData) return cachedCaseData;
-  const res = await fetch(CASE_DATA_URL);
-  if (!res.ok) throw new Error(`Could not load case data (${res.status})`);
-  const raw = await res.text();
+  let raw: string;
+  if (LOCAL_CASE_DATA_FILE) {
+    raw = await Deno.readTextFile(LOCAL_CASE_DATA_FILE);
+  } else {
+    const res = await fetch(CASE_DATA_URL);
+    if (!res.ok) throw new Error(`Could not load case data (${res.status})`);
+    raw = await res.text();
+  }
   // js/case-valuation-data.js is genuine JavaScript (`const
   // CASE_VALUATION_DATA = {...};`), not JSON -- it contains legitimate JS
   // block comments between some top-level keys (e.g. before
@@ -256,6 +271,10 @@ async function loadCaseData(): Promise<CaseData> {
   // category/claimType spec -- real research too, but a restatement of
   // public law, not the hard-won dataset -- and several free guide pages
   // still fetch it directly client-side for exactly that content.
+  if (LOCAL_CITATIONS_FILE) {
+    cachedCaseData = { ...publicData, citations: JSON.parse(await Deno.readTextFile(LOCAL_CITATIONS_FILE)) } as CaseData;
+    return cachedCaseData;
+  }
   const { data: citationsRow, error: citationsErr } = await supabaseAdmin
     .from("private_case_citations")
     .select("citations")
@@ -295,6 +314,7 @@ async function loadCaseData(): Promise<CaseData> {
 // match" rather than a wrong one.
 type SettlementBenchmark = { count: number; median: number; min: number; max: number; drivers: string[] };
 async function loadSettlementBenchmarks(category: string, state: string | undefined): Promise<SettlementBenchmark | null> {
+  if (LOCAL_CITATIONS_FILE) return null; // local testing: no Supabase
   let query = supabaseAdmin
     .from("settlement_contributions")
     .select("settled_amount, key_factual_drivers")
